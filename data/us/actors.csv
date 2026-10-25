@@ -11,44 +11,44 @@ A0009,Pramila Jayapal,person,politician,,US Representative (D-WA-07),,Democratic
 A0010,Brendan Boyle,person,politician,,US Representative (D-PA-02),,Democratic Party,,US,national,United States > Pennsylvania > PA-02,G0041,,Q4960876,https://boyle.house.gov/,active,y,national,,R001,2026-10-25,2026-10-25
 A0011,AFSCME California PEOPLE Committee,organisation,union,,Statewide public-employee political committee,,,,US,regional,United States > California,G0007,,,,active,na,regional,,R001,2026-10-19,
 A0012,"California Federation of Labor Unions, AFL-CIO",organisation,union,,California’s AFL-CIO labor federation,,,,US,regional,United States > California,G0007,,,,active,na,regional,,R001,2026-10-19,
-A0013,California Nurses Association,organisation,union,,Nurses’ union,,,,US,regional,United States > California,G0007,,,,active,na,regional,,R001,2026-10-19,
-A0014,Committee of Interns and Residents / SEIU,organisation,union,,Resident physicians and fellows,,,,US,local,United States > California,G0007,,,,active,na,local,,R001,2026-10-19,
-A0015,SF Bay Area Federal Unionists Network Hub,organisation,union,,,,,,US,local,United States > California,G0007,,,,active,na,local,,R001,2026-10-19,
-A0016,Garment Worker Center,organisation,ngo_campaign,,,,,,US,local,United States > California,G0007,,,,active,na,local,,R001,2026-10-19,
-A0017,Inland Empire Black Worker Center,organisation,ngo_campaign,,,,,,US,local,United States > California,G0007,,,,active,na,local,,R001,2026-10-19,
-A0018,Los Angeles Black Worker Center,organisation,ngo_campaign,,,,,,US,local,United States > California,G0007,,,,active,na,local,,R001,2026-10-19,
-A0019,"Los Angeles College Faculty Guild, AFT Local 1521",organisation,union,,Community-college faculty union,,,,US,local,United States > California,G0007,,,,active,na,local,,R001,2026-10-19,
-A0020,Pilipino Workers Center,organisation,ngo_campaign,,,,,,US,local,United States > California,G0007,,,,active,na,local,,R001,2026-10-19,
+A0013,California Nurses Association,organisation,union,,Nurses’ union,,,,US,regional,United States > California > Alameda County > Oakland,G0242,https://www.nationalnursesunited.org/contact-cna,,,active,na,regional,,R001,2026-10-25,2026-10-25
+A0014,Committee of Interns and Residents / SEIU,organisation,union,,National union of resident physicians and fellows,,,,US,national,United States > New York > Queens County > Long Island City,G1924,https://www.cirseiu.org/contact-us/,,https://www.cirseiu.org/,active,na,national,,R001,2026-10-25,2026-10-25
+A0015,SF Bay Area Federal Unionists Network Hub,organisation,union,,,,,,US,local,United States > California > San Francisco Bay Area,G0007,https://actionnetwork.org/groups/federal-unionists-network-bay-area,,,active,na,local,,R001,2026-10-25,2026-10-25
+A0016,Garment Worker Center,organisation,ngo_campaign,,,,,,US,local,United States > California > Los Angeles County,G0260,https://garmentworkercenter.org/organizing/,,https://garmentworkercenter.org/organizing/,active,na,local,,R001,2026-10-25,2026-10-25
+A0017,Inland Empire Black Worker Center,organisation,ngo_campaign,,,,,,US,local,United States > California > San Bernardino County > San Bernardino,G0277,https://www.iebwc.org/contact-us,,https://www.iebwc.org/contact-us,active,na,local,,R001,2026-10-25,2026-10-25
+A0018,Los Angeles Black Worker Center,organisation,ngo_campaign,,,,,,US,local,United States > California > Los Angeles County > Los Angeles,G0260,https://lablackworkercenter.org/contact-us/,,https://lablackworkercenter.org/contact-us/,active,na,local,,R001,2026-10-25,2026-10-25
+A0019,"Los Angeles College Faculty Guild, AFT Local 1521",organisation,union,,Community-college faculty union,,,,US,local,United States > California > Los Angeles County > Los Angeles,G0260,https://www.aft-1521.org/contact/,,https://www.aft-1521.org/contact/,active,na,local,,R001,2026-10-25,2026-10-25
+A0020,Pilipino Workers Center,organisation,ngo_campaign,,,,,,US,local,United States > California > Los Angeles County > Los Angeles,G0260,https://www.pwcsc.org/,,https://www.pwcsc.org/,active,na,local,,R001,2026-10-25,2026-10-25
 A0021,San Diego County Building and Construction Trades Council,organisation,union,,Coalition of 22 affiliated construction and trade unions,,,,US,local,United States > California,G0007,,,,active,na,local,,R001,2026-10-19,
 A0022,National Union of Healthcare Workers,organisation,union,,,,,,US,local,United States > California,G0007,,Q6979133,,active,na,local,,R001,2026-10-19,
 A0023,SEIU-UHW,organisation,union,,Healthcare workers union,,,,US,regional,United States > California,G0007,,,,active,na,regional,,R001,2026-10-19,
-A0024,Sheet Metal Workers’ (SMART) Local 104,organisation,union,,Sheet metal workers’ union,,,,US,regional,United States > California,G0007,,,,active,na,regional,,R001,2026-10-19,
-A0025,Teamsters California,organisation,union,,California Teamsters organization,,,,US,regional,United States > California,G0007,,,,active,na,regional,,R001,2026-10-19,
+A0024,Sheet Metal Workers’ (SMART) Local 104,organisation,union,,Sheet metal workers’ union,,,,US,regional,United States > California > Alameda County > Livermore,G0242,https://www.smw104.org/contact-us,,https://www.smw104.org/contact-us,active,na,regional,,R001,2026-10-25,2026-10-25
+A0025,Teamsters California,organisation,union,,California Teamsters organization,,,,US,regional,United States > California > Sacramento County > Sacramento,G0275,https://teamstersca.org/contact/,,https://teamstersca.org/contact/,active,na,regional,,R001,2026-10-25,2026-10-25
 A0026,United Teachers Los Angeles,organisation,union,,,,,,US,local,United States > California,G0007,,Q14684218,,active,na,local,,R001,2026-10-19,
-A0027,UNITE HERE Local 11,organisation,union,,Southern California local union,,,,US,regional,United States > California,G0007,,Q108939712,,active,na,regional,,R001,2026-10-19,
-A0028,UNITE HERE Local 30,organisation,union,,San Diego local union,,,,US,local,United States > California,G0007,,,,active,na,local,,R001,2026-10-19,
-A0029,ACCE (Alliance of Californians for Community Empowerment),organisation,ngo_campaign,,,,,,US,regional,United States > California,G0007,,,,active,na,regional,,R001,2026-10-19,
-A0030,Clergy and Laity United for Economic Justice,organisation,ngo_campaign,,,,,,US,local,United States > California,G0007,,,,active,na,local,,R001,2026-10-19,
-A0031,Esperanza Community Housing,organisation,ngo_campaign,,,,,,US,local,United States > California,G0007,,,,active,na,local,,R001,2026-10-19,
-A0032,Los Angeles Alliance for a New Economy (LAANE),organisation,ngo_campaign,,,,,,US,local,United States > California,G0007,,,,active,na,local,,R001,2026-10-19,
-A0033,SAJE,organisation,ngo_campaign,,,,,,US,local,United States > California,G0007,,,,active,na,local,,R001,2026-10-19,
+A0027,UNITE HERE Local 11,organisation,union,,Southern California local union,,,,US,regional,United States > California > Los Angeles County > Los Angeles,G0260,https://www.unitehere11.org/members/contact/,Q108939712,https://www.unitehere11.org/members/contact/,active,na,regional,,R001,2026-10-25,2026-10-25
+A0028,UNITE HERE Local 30,organisation,union,,San Diego local union,,,,US,local,United States > California > San Diego County > San Diego,G0278,https://local30sandiego.org/contact/,,https://local30sandiego.org/contact/,active,na,local,,R001,2026-10-25,2026-10-25
+A0029,ACCE (Alliance of Californians for Community Empowerment),organisation,ngo_campaign,,,,,,US,regional,United States > California > Sacramento County > Sacramento,G0275,https://www.acceaction.org/locations,,https://www.acceaction.org/,active,na,regional,,R001,2026-10-25,2026-10-25
+A0030,Clergy and Laity United for Economic Justice,organisation,ngo_campaign,,,,,,US,local,United States > California > Los Angeles County > Los Angeles,G0260,https://cluela.nationbuilder.com/,,https://www.cluejustice.org/,active,na,local,,R001,2026-10-25,2026-10-25
+A0031,Esperanza Community Housing,organisation,ngo_campaign,,,,,,US,local,United States > California > Los Angeles County > Los Angeles,G0260,https://esperanzacommunityhousing.squarespace.com/contact,,https://esperanzacommunityhousing.squarespace.com/contact,active,na,local,,R001,2026-10-25,2026-10-25
+A0032,Los Angeles Alliance for a New Economy (LAANE),organisation,ngo_campaign,,,,,,US,local,United States > California > Los Angeles County > Los Angeles,G0260,https://laane.org/,,https://laane.org/,active,na,local,,R001,2026-10-25,2026-10-25
+A0033,SAJE,organisation,ngo_campaign,,,,,,US,local,United States > California > Los Angeles County > Los Angeles,G0260,https://www.saje.net/contact/,,https://www.saje.net/contact/,active,na,local,,R001,2026-10-25,2026-10-25
 A0034,Middle Class Taxpayers Association,organisation,ngo_campaign,,Taxpayer advocacy organization focused on strengthening the middle class,,,,US,local,United States > California,G0007,,,,active,na,local,,R001,2026-10-19,
 A0035,United for a Fair Economy,organisation,ngo_campaign,,,,,,US,national,United States,G0054,,Q7893670,,active,na,national,,R001,2026-10-19,
 A0036,Responsible Wealth,organisation,ngo_campaign,,,,,,US,national,United States,G0054,,,,active,na,national,,R001,2026-10-19,
 A0037,California State PTA,organisation,ngo_campaign,,Statewide parent-teacher association,,,,US,regional,United States > California,G0007,,,,active,na,regional,,R001,2026-10-19,
 A0038,Voters of Tomorrow,organisation,ngo_campaign,,,,,,US,local,United States > California,G0007,,Q124650613,,active,na,local,,R001,2026-10-19,
 A0039,350 Bay Area,organisation,ngo_campaign,,,,,,US,local,United States > California,G0007,,Q28455721,,active,na,local,,R001,2026-10-19,
-A0040,Art of Living Los Angeles,organisation,ngo_campaign,,,,,,US,local,United States > California,G0007,,,,active,na,local,,R001,2026-10-19,
-A0041,Assyrian Democrats of the Bay Area,organisation,party,,,,,,US,local,United States > California,G0007,,,,active,na,local,,R001,2026-10-19,
+A0040,Art of Living Los Angeles,organisation,ngo_campaign,,,,,,US,local,United States > California > Los Angeles County > Los Angeles,G0260,https://www.artofliving.org/us-en/centers,,,active,na,local,,R001,2026-10-25,2026-10-25
+A0041,Assyrian Democrats of the Bay Area,organisation,party,,,,,,US,local,United States > California > Santa Clara County,G0284,https://assyriandemocrats.org/,,https://assyriandemocrats.org/,active,na,local,,R001,2026-10-25,2026-10-25
 A0042,California Democratic Party,organisation,party,,California political party,,,,US,regional,United States > California,G0007,,Q5020399,,active,na,regional,,R001,2026-10-19,
 A0043,Democratic Socialists of America – CA,organisation,party,,,,,,US,regional,United States > California,G0007,,,,active,na,regional,,R001,2026-10-19,
-A0044,California Green New Deal Coalition,organisation,ngo_campaign,,,,,,US,regional,United States > California,G0007,,,,active,na,regional,,R001,2026-10-19,
+A0044,California Green New Deal Coalition,organisation,ngo_campaign,,,,,,US,regional,United States > California,G0007,,,https://www.greennewdealca.org/,active,na,regional,,R001,2026-10-25,2026-10-25
 A0045,Working Families Party,organisation,party,,Political organization,,,,US,national,United States,G0054,,Q2741156,,active,na,national,,R001,2026-10-19,
-A0046,Foothills DSA,organisation,party,,,,,,US,local,United States > California,G0007,,,,active,na,local,,R001,2026-10-19,
-A0047,Sacremento State College Democrats,organisation,party,,,,,,US,local,United States > California,G0007,,,,active,na,local,,R001,2026-10-19,
-A0048,Contra Costa Defenders Association,organisation,ngo_campaign,,,,,,US,local,United States > California,G0007,,,,active,na,local,,R001,2026-10-19,
-A0049,UC Davis College Democrats,organisation,party,,,,,,US,local,United States > California,G0007,,,,active,na,local,,R001,2026-10-19,
-A0050,DSA Sebastopol,organisation,party,,,,,,US,local,United States > California,G0007,,,,active,na,local,,R001,2026-10-19,
+A0046,Foothills DSA,organisation,party,,,,,,US,local,United States > California,G0007,,,,active,na,local,,R001,2026-10-25,2026-10-25
+A0047,College Democrats at Sacramento State,organisation,party,,,,,,US,local,United States > California > Sacramento County > Sacramento,G0275,https://csus.campusgroups.com/collegedems/home/,,,active,na,local,,R001,2026-10-25,2026-10-25
+A0048,Contra Costa Defenders Association,organisation,union,,Public-defender employees’ association,,,,US,local,United States > California > Contra Costa County,G0248,https://contra-costa.legistar.com/LegislationDetail.aspx?FullText=1&GUID=F87C2E40-297C-4F44-A1AB-7C43A0A585B1&ID=8126963&Options=&Search=,,,active,na,local,,R001,2026-10-25,2026-10-25
+A0049,Davis College Democrats,organisation,party,,,,,,US,local,United States > California > Yolo County > Davis,G0298,https://daviscollegedems.wordpress.com/about/bylaws/,,https://daviscollegedems.wordpress.com/about/bylaws/,active,na,local,,R001,2026-10-25,2026-10-25
+A0050,DSA Sebastopol,organisation,party,,,,,,US,local,United States > California,G0007,,,,active,na,local,,R001,2026-10-25,2026-10-25
 A0051,Democratic Women of South Orange County,organisation,ngo_campaign,,,,,,US,local,United States > California,G0007,,,,active,na,local,,R001,2026-10-19,
 A0052,Disability Voices United,organisation,ngo_campaign,,Community organization,,,,US,local,United States > California,G0007,,,,active,na,local,,R001,2026-10-19,
 A0053,East County Victory PAC,organisation,ngo_campaign,,,,,,US,local,United States > California,G0007,,,,active,na,local,,R001,2026-10-19,
@@ -645,12 +645,12 @@ A0643,Health Care For America Now,organisation,ngo_campaign,,Health care coaliti
 A0644,Indivisible,organisation,ngo_campaign,,Grassroots network,,,,US,national,United States,G0054,,,,active,na,national,,R009,2026-10-19,
 A0645,Jobs With Justice,organisation,ngo_campaign,,Workers' rights network,,,,US,national,United States,G0054,,,,active,na,national,,R009,2026-10-19,
 A0646,NETWORK Lobby for Catholic Social Justice,organisation,faith,,Catholic social justice lobby,,,,US,national,United States,G0054,,,,active,na,national,,R009,2026-10-19,
-A0647,Liberation in a Generation,organisation,ngo_campaign,,Advocacy group,,,,US,national,United States,G0054,,,,active,na,national,,R009,2026-10-19,
+A0647,Liberation in a Generation,organisation,ngo_campaign,,Advocacy group,,,,US,national,United States > Virginia > Fairfax County > Lorton,G2904,https://www.nlrb.gov/case/05-CA-344440,,https://www.liberationinageneration.org/,active,na,national,"Lorton, Virginia is the public employer/contact location listed in the NLRB record; an operational headquarters is not established by that source.",R009,2026-10-25,2026-10-25
 A0648,Voices for Progress,organisation,ngo_campaign,,Advocacy group,,,,US,national,United States,G0054,,,,active,na,national,,R009,2026-10-19,
 A0649,Coalition for Human Needs,organisation,ngo_campaign,,Anti-poverty coalition,,,,US,national,United States,G0054,,,,active,na,national,Also listed as 'Coalition on Human Needs'.,R009,2026-10-19,
 A0650,Climate Hawks Vote,organisation,ngo_campaign,,Climate political group,,,,US,national,United States,G0054,,Q20715608,,active,na,national,,R009,2026-10-19,
-A0651,Organized Power in Numbers,organisation,ngo_campaign,,Advocacy group,,,,US,national,United States,G0054,,,,active,na,national,,R009,2026-10-19,
-A0652,Tax the Greedy Billionaires,organisation,ngo_campaign,,Campaign,,,,US,national,United States,G0054,,,,active,na,national,,R009,2026-10-19,
+A0651,Organized Power in Numbers,organisation,ngo_campaign,,Advocacy group,,,,US,national,United States,G0054,,,https://powerinnumbers.us/about/,active,na,national,Formerly Unemployed Workers United; founding executive director Neidi Dominguez confirmed the earlier name in an Aspen Institute webinar on 6 May 2025.,R009,2026-10-25,2026-10-25
+A0652,Tax the Greedy Billionaires,organisation,ngo_campaign,,Campaign,,,,US,national,United States,G0054,,,https://taxgreed.org/about/,active,na,national,,R009,2026-10-25,2026-10-25
 A0653,Campaign for America’s Future,organisation,ngo_campaign,,Progressive advocacy group,,,,US,national,United States,G0054,,,,active,na,national,,R009,2026-10-19,
 A0654,Jody Calemine,person,union_official,,"Director of Advocacy, AFL-CIO",,,,US,national,United States,G0054,,,https://aflcio.org/press/releases/jody-calemine-appointed-afl-cios-director-advocacy,active,y,national,,R009,2026-10-25,2026-10-25
 A0655,Lee Saunders,person,union_official,,"President Emeritus, AFSCME",,,,US,national,United States > District of Columbia > Washington,G0011,https://afscme.org/about/leadership/lee-saunders/,,https://afscme.org/about/leadership/lee-saunders/,former_role,y,national,,R009,2026-10-25,2026-10-25
@@ -700,7 +700,6 @@ A0698,Porter McConnell,person,campaigner,,"Senior Director, Take On Wall Street 
 A0699,Lisa Donner,person,campaigner,,"Co-Executive Director, Americans for Financial Reform",,,,US,national,United States,G0054,,,https://ourfinancialsecurity.org/people/lisa-donner/,active,y,national,,R010,2026-10-25,2026-10-25
 A0700,Darrick Hamilton,person,economist,academic,"University Professor and Henry Cohen Professor of Economics and Urban Policy; founding director, Institute on Race, Power and Political Economy, The New School",,,,US,national,United States > New York > New York City,G0035,https://www.newschool.edu/about/contact/,,https://www.newschool.edu/lang/faculty/Darrick-Hamilton/,active,y,national,,R010,2026-10-25,2026-10-25
 A0701,Progressive Change Campaign Committee,organisation,ngo_campaign,,Progressive political committee,,,,US,national,United States,G0054,,Q7248637,,active,na,national,,R010,2026-10-19,
-A0702,Unemployed Workers United,organisation,ngo_campaign,,Workers' organisation,,,,US,national,United States,G0054,,,,active,na,national,,R010,2026-10-19,
 A0703,Lorena Gonzalez,person,union_official,,"President, California Federation of Labor Unions, AFL-CIO",,,,US,regional,United States > California,G0007,,,,active,y,regional,,R010,2026-10-19,
 A0704,Dave Regan,person,union_official,,"President, SEIU United Healthcare Workers West",,,,US,regional,United States > California,G0007,,,,active,y,regional,,R010,2026-10-19,
 A0705,Nicholas Cordero,person,union_official,,"Vice President, National Union of Healthcare Workers (Providence St. Joseph Hospital)",,,,US,regional,United States > California,G0007,,,,active,y,regional,,R010,2026-10-19,
@@ -714,7 +713,7 @@ A0712,Maria Elena Durazo,person,politician,,California State Senator (D-Los Ange
 A0713,Liz Ortega,person,politician,,California Assemblymember (D-Hayward),,Democratic Party,,US,regional,United States > California,G0007,,Q115530600,,active,y,regional,,R011,2026-10-19,
 A0714,California Federation of Teachers,organisation,union,,Union; sponsor of AB 259 / ACA 3,,,,US,regional,United States > California,G0007,,Q97585856,https://www.cft.org/,active,na,regional,,R011,2026-10-19,
 A0715,Jeff Freitas,person,union_official,,"President, California Federation of Teachers",,,,US,regional,United States > California,G0007,,,,active,y,regional,,R011,2026-10-19,
-A0716,State Innovation Exchange (SiX Action),organisation,ngo_campaign,,Progressive state-legislator network (SiX Action is its advocacy arm),,,,US,national,United States,G0054,,,,active,na,national,,R011,2026-10-19,
+A0716,SiX Action,organisation,ngo_campaign,,National state-policy advocacy organisation,,,,US,national,United States,G0054,,,https://sixaction.org/,active,na,national,SiX Action is the 501(c)(4) sister organisation of the State Innovation Exchange (SiX); the wealth-tax campaign evidence concerns SiX Action.,R011,2026-10-25,2026-10-25
 A0717,State Revenue Alliance,organisation,ngo_campaign,,State tax-fairness coalition,,,,US,national,United States,G0054,,,,active,na,national,,R011,2026-10-19,
 A0718,Saikat Chakrabarti,person,wealthy_individual,,Top funder of the Yes on 40 committee,,,,US,regional,United States > California,G0007,,,,active,y,regional,Listed on the campaign site as a top funder; amounts not read.,R011,2026-10-19,
 A0719,Ross Boucher,person,wealthy_individual,,Top funder of the Yes on 40 committee,,,,US,regional,United States > California,G0007,,,,active,y,regional,Listed on the campaign site as a top funder; amounts not read.,R011,2026-10-19,
