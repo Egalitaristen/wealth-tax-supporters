@@ -477,6 +477,7 @@ a.ov:hover .spark rect.pk { fill: var(--signal); }
 .legis-head h3 { font: 400 clamp(26px, 3.4vw, 36px)/1.1 var(--serif); margin: 0 0 6px; }
 .legis-head p { color: var(--ink-2); font-size: 14px; margin: 0; }
 .legis-head p b { color: var(--ink); font-weight: 600; }
+.legis-head .legis-note { margin-top: 6px; font-size: 13px; color: var(--ink-3); max-width: 70ch; }
 .hemi { display: block; width: 100%; max-width: 760px; margin: 22px auto 10px; }
 .hemi .st { fill-opacity: .3; }
 .hemi .st.on { fill: var(--signal); fill-opacity: 1; stroke: var(--ink); stroke-width: .6; cursor: pointer; }

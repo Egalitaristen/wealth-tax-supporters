@@ -1,0 +1,13 @@
+seat_id,body_id,party,seats,colour,order
+S0001,B0001,Lewica,21,d4005a,1
+S0002,B0001,KO,156,f68f2f,2
+S0003,B0001,Demokracja,4,d26d9f,3
+S0004,B0001,Polska2050,15,ffd500,4
+S0005,B0001,PSL-TD,32,3ba935,5
+S0006,B0001,Centrum,15,7a7a7a,6
+S0007,B0001,RozwojPlus,40,8a6fc7,7
+S0008,B0001,niez.,7,8a8680,8
+S0009,B0001,Konfederacja,16,5b6aa3,9
+S0010,B0001,PiS,147,263778,10
+S0011,B0001,Razem,4,,11
+S0012,B0001,Konfederacja_KP,3,,12

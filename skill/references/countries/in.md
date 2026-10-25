@@ -42,3 +42,4 @@ python skill/scripts/topo_to_boundaries.py regions.geojson --code-prop code --pr
 - **Not enough:** a trade-union call for an "additional 2 per cent tax on the super-rich" (Jan 2025) and Sam Pitroda's inheritance-tax remarks (April 2024) are not wealth taxes as defined.
 - **Fetch notes:** `dailypioneer.com` returned 404 to scripted fetches and `oxfamindia.org` press pages moved; `wikidata.org` rate-limits shared addresses; `sansad.in` redirects. Search summaries paraphrase: open each page and take quotes from its text.
 - **Terms:** wealth tax (संपत्ति कर / धन कर), inheritance tax (विरासत कर), estate duty. "Super-rich surcharge" is an income-tax surcharge and is out of the definition.
+- **Seats (not built):** the Lok Sabha (543) and Rajya Sabha (245) publish members as web pages (sansad.in) with no open API found. Same options as Japan.
