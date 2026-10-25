@@ -606,7 +606,7 @@ function bodyHtml(b, person, slug) {
       ${names.length ? `<p>${names.map(p => `<a href="/${slug}/${esc(p[P_.id])}">${esc(p[P_.name])}</a>`).join(', ')}</p>` : ''}</div>`;
   }).join('');
   return `<div class="legis">
-    <div class="legis-head"><h3>${esc(b.name)}</h3><p><b>${fmt(lit)}</b> of ${fmt(b.seats)} seats held by a supporter found so far · seats as of ${esc(b.as_of)}${b.src ? ` · ${ext(b.src, 'source')}` : ''}</p></div>
+    <div class="legis-head"><h3>${esc(b.name)}</h3><p><b>${fmt(lit)}</b> of ${fmt(b.seats)} seats held by a supporter found so far · seats as of ${esc(b.as_of)}${b.src ? ` · ${ext(b.src, 'source')}` : ''}</p>${b.note ? `<p class="legis-note">${esc(b.note)}</p>` : ''}</div>
     <svg class="hemi" viewBox="0 0 ${W} ${H}" role="img" aria-label="${esc(b.name)}: ${lit} of ${b.seats} seats held by a supporter found so far">${dots}</svg>
     <div class="sps">${rows}</div></div>`;
 }

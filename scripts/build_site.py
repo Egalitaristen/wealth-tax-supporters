@@ -269,7 +269,7 @@ def build_country(folder):
             continue
         parties = [[s["party"], int(s["seats"]), s["colour"], sitting[b["body_id"]].get(s["party"], [])]
                    for s in sorted(seats_by[b["body_id"]], key=lambda s: int(s["order"] or 0))]
-        legis.append(dict(id=b["body_id"], name=b["name"], seats=int(b["seats"]), as_of=b["as_of"], src=b["source_url"], parties=parties))
+        legis.append(dict(id=b["body_id"], name=b["name"], seats=int(b["seats"]), as_of=b["as_of"], src=b["source_url"], note=b.get("notes", ""), parties=parties))
     country = dict(meta=summary, P=P, E=E, C=C, UP=UP, vb=vb, O=O, L=L, R=R, R2=R2, legis=legis)
 
     # Search index rows: [slug, id, name, type, role, place, grade, statements]

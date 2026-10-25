@@ -17,3 +17,4 @@ A ninth worked example. Belgium has had no net-wealth tax since the 1990s. The c
 
 - **Counts:** a bill's cosponsors (A), a party manifesto or a named statement of the design (A or B), a union's proposal (A).
 - **Does not count:** a candidate-list biography ("Député PTB, ex-enseignant, 60 ans"), a party's manifesto sentence attributed to every member, or a slogan such as "Tax the rich!". The first draft had about 40 such rows; they were removed.
+- **Seats (not built):** the Chamber of Representatives (150 seats) publishes its members on dekamer.be, but that site and `data.dekamer.be` return an empty page to scripts (25 Oct 2026). Look for an open-data export, or read the members from the Chamber's page by hand, before adding a Belgian adapter to `skill/scripts/seats.py`.

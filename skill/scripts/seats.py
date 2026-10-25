@@ -51,7 +51,7 @@ def get(url, as_json=True, encoding=None, tries=5, headers=None):
             if as_json:
                 if encoding:  # some servers answer in UTF-8, some in Latin-1: take UTF-8 when it decodes, else the stated one
                     try:
-                        out = json.loads(raw.decode("utf-8"))
+                        out = json.loads(raw.decode("utf-8-sig"))
                     except UnicodeDecodeError:
                         out = json.loads(raw.decode(encoding))
                 else:
@@ -124,12 +124,13 @@ def run(d, adapter, dry=False, fix=False):
         count, colour = {}, {}
         for m in c["members"]:
             count[m["party"]] = count.get(m["party"], 0) + 1
+        vacant = c.get("vacant_label", "Vacant")
         if sum(count.values()) < total:
-            count["Vacant"] = total - sum(count.values())
+            count[vacant] = total - sum(count.values())
         order = c.get("party_order", [])
         for i, p in enumerate(sorted(count, key=lambda p: (order.index(p) if p in order else 50, -count[p])), start=1):
             seats.append({"seat_id": wtdb.next_id(seats, "seats"), "body_id": bid, "party": p, "seats": str(count[p]),
-                          "colour": "" if p == "Vacant" else c.get("colours", {}).get(p, ""), "order": str(i)})
+                          "colour": "" if p == vacant else c.get("colours", {}).get(p, ""), "order": str(i)})
         members = c["members"]
         by_q, by_norm = {}, {}
         for m in members:
@@ -433,7 +434,79 @@ def canada():
 
 
 
-ADAPTERS = {"se": sweden, "de": germany, "nl": netherlands, "no": norway, "fr": france, "br": brazil, "ca": canada}
+def spain():
+    """The Congreso de los Diputados (350 seats): congreso.es open data, deputies with an active mandate.
+
+    A deputy's mandate ends on the day the Cortes are dissolved, except for those who stay on (the standing committee), so
+    after a dissolution most seats are empty until the new Cortes meet. The block of seats whose mandate ended is labelled
+    with the dissolution date instead of 'Vacant'."""
+    BASE = "https://www.congreso.es/webpublica/opendata/diputados/"
+    page = get("https://www.congreso.es/es/opendata/diputados", as_json=False).decode("latin-1")
+
+    def latest(prefix):
+        names = sorted(set(re.findall(rf"{prefix}__\d+\.json", page)))
+        if not names:
+            sys.exit(f"The Congreso's open-data page lists no {prefix} file; check congreso.es/es/opendata/diputados")
+        return get(BASE + names[-1], encoding="latin-1")
+
+    def person(x):
+        s = x["NOMBRE"].strip()
+        return " ".join(reversed([t.strip() for t in s.split(",", 1)])) if "," in s else s
+
+    def iso(d):
+        return "-".join(reversed(d.split("/"))) if d else ""
+
+    GROUP = [("popular", "PP"), ("socialista", "PSOE"), ("vox", "Vox"), ("sumar", "Sumar"), ("republicano", "ERC"), ("junts", "Junts"),
+             ("bildu", "EH Bildu"), ("vasco", "EAJ-PNV"), ("mixto", "Mixto")]
+
+    def party(x):
+        g = (x.get("GRUPOPARLAMENTARIO") or "").lower()
+        return next((v for k, v in GROUP if k in g), re.sub(r"(?i)^grupo parlamentario\s+", "", x.get("GRUPOPARLAMENTARIO") or "Mixto"))
+
+    active = [dict(name=person(x), party=party(x), ref=x["NOMBRE"], place=x.get("CIRCUNSCRIPCION", ""), start=iso(x.get("FECHAALTA", "")))
+              for x in latest("DiputadosActivos")]
+    left = latest("DiputadosDeBaja")
+    day = max((d for d in {x.get("FECHABAJA") for x in left} if d), key=lambda d: sum(1 for x in left if x.get("FECHABAJA") == d), default="")
+    mass = sum(1 for x in left if x.get("FECHABAJA") == day)
+    former = [dict(name=person(x), party=party(x), ref=x["NOMBRE"], start=iso(x.get("FECHAALTA", "")), end=iso(x.get("FECHABAJA", ""))) for x in left]
+    for x in latest("Diput"):  # deputies of earlier legislatures: no dates in this file
+        if x.get("LEGISLATURAACTUAL") != "S":
+            former.append(dict(name=f"{x['NOMBRE'].strip()} {x['APELLIDOS'].strip()}", party="", ref="", start="", end=""))
+    once = {}  # a person served in several legislatures: one row each, the one with an end date first
+    for m in sorted(former, key=lambda m: not m["end"]):
+        once.setdefault(norm(m["name"]), m)
+    former = list(once.values())
+    note = "350 seats."
+    vac = "Vacant"
+    if mass >= 100:
+        vac = f"Mandate ended at dissolution ({iso(day)})"
+        note = f"350 seats. The Cortes were dissolved on {iso(day)} and a deputy's mandate ends on the day of dissolution, so only the deputies who stay on hold a seat until the new Cortes meet."
+    return [dict(name="Congreso de los Diputados", seats=350, source_url="https://www.congreso.es/es/opendata/diputados", note=note, vacant_label=vac,
+                 role="Member of Congress", role_re=r"(?i)member of congress|congreso de los diputados|diputad",
+                 role_start=r"(?i)member of congress", members=active, former=former,
+                 party_order=["Sumar", "EH Bildu", "ERC", "PSOE", "Junts", "EAJ-PNV", "Mixto", "PP", "Vox"],
+                 colours={"PP": "1d84ce", "PSOE": "e30613", "Vox": "63be21", "Sumar": "e5007d", "ERC": "ffb232", "Junts": "00c3b2", "EH Bildu": "b5cf18",
+                          "EAJ-PNV": "008b45", "Mixto": "8a8680"})]
+
+
+def poland():
+    """The Sejm (460 seats): api.sejm.gov.pl, the members of the current term who are active."""
+    term = 10
+    mps = get(f"https://api.sejm.gov.pl/sejm/term{term}/MP")
+    cur = [dict(name=x["firstLastName"], party=x.get("club") or "niez.", ref=str(x["id"]), place=x.get("districtName", ""), start="",
+                url=f"https://www.sejm.gov.pl/sejm{term}.nsf/posel.xsp?id={x['id']:03d}") for x in mps if x.get("active")]
+    former = [dict(name=x["firstLastName"], party=x.get("club") or "niez.", ref=str(x["id"]), end="", start="") for x in mps if not x.get("active")]
+    return [dict(name="Sejm", seats=460, source_url=f"https://www.sejm.gov.pl/sejm{term}.nsf/poslowie.xsp?type=A",
+                 note=f"460 seats; members of the {term}th term who are active. Clubs as the Sejm names them.",
+                 role="Member of the Sejm", role_re=r"(?i)sejm|member of the polish parliament|poseł", role_start=r"(?i)member of the (polish )?(sejm|parliament)",
+                 members=cur, former=former,
+                 party_order=["Lewica", "KO", "Demokracja", "Polska2050", "PSL-TD", "Centrum", "RozwojPlus", "niez.", "Konfederacja", "PiS"],
+                 colours={"KO": "f68f2f", "PiS": "263778", "Lewica": "d4005a", "PSL-TD": "3ba935", "Polska2050": "ffd500", "Konfederacja": "5b6aa3",
+                          "Centrum": "7a7a7a", "RozwojPlus": "8a6fc7", "Demokracja": "d26d9f", "niez.": "8a8680"})]
+
+
+
+ADAPTERS = {"se": sweden, "de": germany, "nl": netherlands, "no": norway, "fr": france, "br": brazil, "ca": canada, "es": spain, "pl": poland}
 
 
 def main():

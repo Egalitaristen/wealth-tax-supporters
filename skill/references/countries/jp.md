@@ -16,3 +16,4 @@ A twelfth worked example. Japan has no net-wealth tax. The Japanese Communist Pa
 
 - **Counts:** a Diet or assembly speech that names a wealth tax, a party's own policy document (the party row), a coalition's co-representatives (grade B: a roster), and scholars and lawyers who write for a wealth tax.
 - **Does not count:** a candidate or assembly member listed on a party roster page, or carrying the party's manifesto sentence, with nothing of their own. The first draft had about 560 such rows (Communist Party candidates and assembly members, SDP and Reiwa candidates); they were removed, and the three party rows stay.
+- **Seats (not built):** the House of Representatives and House of Councillors publish member lists as web pages only (shugiin.go.jp, sangiin.go.jp), with no open API found. Write an adapter that reads those pages, or read Wikidata's current holders and check them against the pages.
