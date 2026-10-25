@@ -39,7 +39,9 @@ const E_ = {actor: 0, date: 1, grade: 2, type: 3, des: 4, detail: 5, quote: 6, u
 
 // ---------- data ----------
 const cache = {};
-const getJSON = url => cache[url] || (cache[url] = fetch(url).then(r => { if (!r.ok) throw new Error(r.status + ' ' + url); return r.json(); }));
+// The build stamps a hash of the data files into the page, so each deploy fetches fresh data instead of a cached copy (data is cached for five minutes).
+const DV = document.querySelector('meta[name=data-version]')?.content || '';
+const getJSON = url => cache[url] || (cache[url] = fetch(DV ? `${url}?v=${DV}` : url).then(r => { if (!r.ok) throw new Error(r.status + ' ' + url); return r.json(); }));
 const WORLD = () => getJSON('/data/world.json');
 const INDEX = () => getJSON('/data/index.json');
 const prepared = {};
