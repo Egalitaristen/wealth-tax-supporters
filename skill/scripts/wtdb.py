@@ -35,9 +35,16 @@ SCHEMA = {
     "runs": ["run_id", "date", "assistant", "focus", "targets", "queries_run", "sources_opened", "candidates_seen",
              "new_actors", "new_evidence", "grade_upgrades", "saturation",
              "notes_next"],
+    # Offices people hold or held. A body is a legislature chamber, council or similar; seats say how its seats are split
+    # between parties (only for bodies with seat_view=y, which get a Seats tab on the site); a position ties a person to a body.
+    "bodies": ["body_id", "name", "level", "kind", "seats", "as_of", "source_url", "seat_view", "notes"],
+    "seats": ["seat_id", "body_id", "party", "seats", "colour", "order"],
+    "positions": ["position_id", "actor_id", "body_id", "role", "party", "geo_unit_id", "start", "end", "current",
+                  "member_ref", "checked", "source_url"],
 }
 PREFIX = {"actors": ("A", 4), "evidence": ("E", 5), "geo_units": ("G", 4), "links": ("L", 4),
-          "harvest": ("H", 4), "exclusions": ("X", 4), "runs": ("R", 3), "profiles": ("P", 5)}
+          "harvest": ("H", 4), "exclusions": ("X", 4), "runs": ("R", 3), "profiles": ("P", 5),
+          "bodies": ("B", 4), "seats": ("S", 4), "positions": ("O", 5)}
 REQUIRED = {
     "actors": ["name", "kind", "actor_type", "country", "level", "status", "alive_checked"],
     "evidence": ["actor_id", "date", "stance", "grade", "evidence_type", "wt_design", "quote_original",
@@ -48,6 +55,9 @@ REQUIRED = {
     "harvest": ["title", "list_type", "status"],
     "exclusions": ["name", "reason"],
     "runs": ["date", "focus"],
+    "bodies": ["name", "level", "kind"],
+    "seats": ["body_id", "party", "seats"],
+    "positions": ["actor_id", "body_id"],
 }
 ENUMS = {
     ("actors", "kind"): {"person", "organisation", "institution"},
@@ -59,6 +69,10 @@ ENUMS = {
     ("actors", "status"): {"active", "former_role", "dissolved"},
     ("actors", "alive_checked"): {"y", "na"},
     ("actors", "prominence"): {"", "international", "national", "regional", "local"},
+    ("bodies", "level"): {"supranational", "national", "regional", "local"},
+    ("bodies", "kind"): {"chamber", "council", "other"},
+    ("bodies", "seat_view"): {"", "y"},
+    ("positions", "current"): {"", "y", "n"},
     ("evidence", "stance"): {"support", "retracted"},
     ("evidence", "grade"): {"A", "B", "C"},
     ("evidence", "evidence_type"): {"vote", "bill_sponsorship", "motion", "motion_signature", "open_letter",
@@ -371,6 +385,58 @@ def validate(db):
         seen_profiles.add(key)
         if a and set(type_list(a)) == {"wealthy_individual"}:
             warns.append(f"{where}: {a.get('name')} is only a wealthy individual; link only official or professional pages of public figures")
+    bodies = {b["body_id"]: b for b in db["bodies"]}
+    for i, b in enumerate(db["bodies"], start=2):
+        where = f"bodies.csv line {i} ({b.get('body_id')} {b.get('name')})"
+        if b.get("seat_view") == "y":
+            for c in ("seats", "as_of", "source_url"):
+                if not b.get(c):
+                    errs.append(f"{where}: seat_view=y needs {c}")
+        if b.get("seats") and not b["seats"].isdigit():
+            errs.append(f"{where}: seats must be a whole number")
+        if b.get("as_of") and not DATE_RE.match(b["as_of"]):
+            errs.append(f"{where}: as_of must be a date")
+    split = defaultdict(int)
+    for i, s in enumerate(db["seats"], start=2):
+        where = f"seats.csv line {i} ({s.get('seat_id')})"
+        if s.get("body_id") not in bodies:
+            errs.append(f"{where}: body_id {s.get('body_id')} does not exist")
+        if not s.get("seats", "").isdigit():
+            errs.append(f"{where}: seats must be a whole number")
+        else:
+            split[s.get("body_id")] += int(s["seats"])
+    for bid, n in split.items():
+        b = bodies.get(bid)
+        if b and b.get("seats", "").isdigit() and n != int(b["seats"]):
+            warns.append(f"seats: {b['name']} has {b['seats']} seats but its parties add up to {n} (add a 'Vacant' row)")
+    today_s = dt.date.today().isoformat()
+    cur = defaultdict(list)
+    for i, o in enumerate(db["positions"], start=2):
+        where = f"positions.csv line {i} ({o.get('position_id')})"
+        a = actors.get(o.get("actor_id"))
+        if not a:
+            errs.append(f"{where}: actor_id {o.get('actor_id')} does not exist")
+        if o.get("body_id") not in bodies:
+            errs.append(f"{where}: body_id {o.get('body_id')} does not exist")
+        for c in ("start", "end", "checked"):
+            if o.get(c) and not DATE_RE.match(o[c]):
+                errs.append(f"{where}: {c} must be a date (YYYY-MM-DD, YYYY-MM or YYYY)")
+        if o.get("geo_unit_id") and o["geo_unit_id"] not in geo:
+            errs.append(f"{where}: geo_unit_id {o['geo_unit_id']} does not exist")
+        if o.get("current") == "y":
+            if o.get("end"):
+                errs.append(f"{where}: current=y but it has an end date")
+            if not o.get("checked"):
+                errs.append(f"{where}: current=y needs the date it was checked against the body's own list")
+            cur[o.get("actor_id")].append(o)
+        if o.get("current") == "n" and not o.get("checked"):
+            warns.append(f"{where}: current=n without a checked date")
+        if o.get("end") and o["end"] > today_s:
+            errs.append(f"{where}: end date is in the future")
+    for aid, os_ in cur.items():
+        a = actors.get(aid)
+        if a and a.get("status") == "former_role" and any(bodies.get(o["body_id"], {}).get("kind") == "chamber" for o in os_):
+            warns.append(f"actors: {a.get('name')} is former_role but holds a current seat in a chamber")
     codes = defaultdict(list)
     for i, g in enumerate(db["geo_units"], start=2):
         if g.get("code"):

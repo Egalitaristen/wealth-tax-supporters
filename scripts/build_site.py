@@ -254,7 +254,23 @@ def build_country(folder):
     summary["map_licence"] = [(bounds or {}).get("licence", ""), (bounds or {}).get("licence_url", "")]
     R = [r["path"] for r in (bounds or {}).get("regions", [])]
     R2 = [r["path"] for r in (bounds or {}).get("regions_upper", [])]  # a second, bolder outline (régions over départements)
-    country = dict(meta=summary, P=P, E=E, C=C, UP=UP, vb=vb, O=O, L=L, R=R, R2=R2)
+    # Seats tab: each chamber with seat_view=y, its seats by party, and which seats a supporter holds today.
+    # Only a position checked as current (current=y) lights a seat, so people who have left a chamber drop off.
+    on_site = {p[0] for p in P}
+    seats_by, sitting = collections.defaultdict(list), collections.defaultdict(lambda: collections.defaultdict(list))
+    for s in rd(folder / "seats.csv"):
+        seats_by[s["body_id"]].append(s)
+    for o in rd(folder / "positions.csv"):
+        if o["current"] == "y" and o["actor_id"] in on_site:
+            sitting[o["body_id"]][o["party"]].append(o["actor_id"])
+    legis = []
+    for b in rd(folder / "bodies.csv"):
+        if b.get("seat_view") != "y" or b["body_id"] not in seats_by:
+            continue
+        parties = [[s["party"], int(s["seats"]), s["colour"], sitting[b["body_id"]].get(s["party"], [])]
+                   for s in sorted(seats_by[b["body_id"]], key=lambda s: int(s["order"] or 0))]
+        legis.append(dict(id=b["body_id"], name=b["name"], seats=int(b["seats"]), as_of=b["as_of"], src=b["source_url"], parties=parties))
+    country = dict(meta=summary, P=P, E=E, C=C, UP=UP, vb=vb, O=O, L=L, R=R, R2=R2, legis=legis)
 
     # Search index rows: [slug, id, name, type, role, place, grade, statements]
     index = [[slug, p[0], p[1], p[3], p[4][:80], [x.strip() for x in p[7].split(">")][-1] if p[7] else "", p[8], p[9], p[18]]
@@ -398,6 +414,9 @@ def share_pages(out, base, countries, full):
             "method": (f"How it was built · {name}", "Method · polls, sources and downloads", found,
                        f"How the {name} register was built, what polls say about a wealth tax, and the data as CSV.{poll_line(c)}"),
         }
+        if D.get("legis"):
+            sections["seats"] = (f"Seats · {name}", "Seats · who sits in the legislature", found,
+                                 f"Which seats in {the(name)}'s legislature are held by supporters of a wealth tax, found so far, by party.")
         for sec, (title, kicker, sub, desc) in sections.items():
             n_sub = c["evidence"] if sec == "time" else c["supporters"]
             cc = dict(c, supporters=n_sub)

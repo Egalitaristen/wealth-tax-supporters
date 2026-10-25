@@ -1,0 +1,31 @@
+seat_id,body_id,party,seats,colour,order
+S0001,B0001,Green Party,5,78b82a,1
+S0002,B0001,Plaid Cymru,4,348837,2
+S0003,B0001,Scottish National Party,8,fff685,3
+S0004,B0001,Your Party,2,ff3131,4
+S0005,B0001,Labour,404,d50000,5
+S0006,B0001,Sinn Féin,7,02665f,6
+S0007,B0001,Social Democratic & Labour Party,2,4ea268,7
+S0008,B0001,Liberal Democrat,71,fc7d0b,8
+S0009,B0001,Independent,11,909090,9
+S0010,B0001,Speaker,1,,10
+S0011,B0001,Conservative,118,0063ba,11
+S0012,B0001,Democratic Unionist Party,5,d46a4c,12
+S0013,B0001,Traditional Unionist Voice,1,0c3a6a,13
+S0014,B0001,Reform UK,8,12b6cf,14
+S0015,B0001,Alliance,1,cdaf2d,15
+S0016,B0001,Restore Britain,1,,16
+S0017,B0001,Ulster Unionist Party,1,a1cdf0,17
+S0018,B0002,Green Party,2,78b82a,1
+S0019,B0002,Plaid Cymru,2,348837,2
+S0020,B0002,Labour,234,d50000,3
+S0021,B0002,Liberal Democrat,80,fc7d0b,4
+S0022,B0002,Crossbench,161,C0C0C0,5
+S0023,B0002,Bishops,25,702082,6
+S0024,B0002,Lord Speaker,1,,7
+S0025,B0002,Non-affiliated,53,,8
+S0026,B0002,Independent Ulster Unionist,1,,9
+S0027,B0002,Ulster Unionist Party,3,a1cdf0,10
+S0028,B0002,Conservative Independent,1,909090,11
+S0029,B0002,Conservative,247,0063ba,12
+S0030,B0002,Democratic Unionist Party,6,d46a4c,13
