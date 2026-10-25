@@ -26,7 +26,7 @@ python skill/scripts/wtdb.py locate data/<iso2>          # geo_unit_id and locat
 python skill/scripts/archive_sources.py data/<iso2>      # archive_url from existing Wayback snapshots
 python skill/scripts/seats_uk.py data/gb                 # UK only: who sits in the Commons and Lords today; lists roles and statuses that disagree
 python skill/scripts/seats_us.py data/us                 # US only: who sits in the Senate and House today; same
-python skill/scripts/seats.py data/<iso2>                # se, de, nl, no, fr, br, ca, es, pl, be, in, jp, my: the same for those parliaments (--fix-status marks former members)
+python skill/scripts/seats.py data/<iso2>                # se, de, nl, no, fr, br, ca, es, pl, be, in, jp, my, sg, id, ng, cn: the same for those parliaments (--fix-status marks former members)
 ```
 
 Spot-check a handful of what `match_wikidata.py` filled (the description should fit the person) before going on.
@@ -62,7 +62,10 @@ Their own channels first (website, press releases, speeches, parliamentary recor
 ### 3.4 Still a supporter?
 If their latest statement is from before 2020, or anything suggests a change of mind (a new party, a government role, a vote against), search for their recent position. If they now oppose a wealth tax, add a row with `stance=retracted`, quoting where they said so. The site leaves out anyone whose latest evidence is a retraction, and the files keep the history. If it is unclear, keep them and note it in the run log, not in `notes`.
 
-### 3.5 Offices (politicians)
+### 3.5 Offices (politicians), and lit seats first
+`refine_queue.py` puts everyone who holds a **lit seat** on the Seats tab at the top ("verify seat"). For each: open the chamber's own page for them, confirm they hold the seat today and the party shown, and fix `role`, `party`, `status` and the position if they do not. A party change is easy to miss (the Rajya Sabha's Sukhendu Sekhar Ray left Trinamool for the BJP in July 2026 and was re-elected on its ticket). Set `refined` when done so the next pass skips them.
+
+### 3.5a Offices (all politicians)
 Every politician needs a row in `positions.csv` for each office they hold or held (`skill/SKILL.md` section 5 and 6.7a): the body, the party, the seat, `start`, and `end` when they left. Check each against the body's own official list (a parliament's member list or API, a council's page) and set `current=y` with `checked=<today>`; for someone no longer on it set `current=n` and the `end` date, and update the actor's `role` and `status=former_role` to match. A person who left a chamber loses the seat on the Seats tab at once, which is the point: outdated tags go away on update. Where a country has a seat refresher (`seats_uk.py` for the UK), run it first and work through what it reports. Never leave `current=y` on a position you did not check, and never touch their evidence rows.
 
 ### 3.6 Facts and finish

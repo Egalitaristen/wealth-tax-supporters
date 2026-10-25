@@ -90,6 +90,10 @@ The site uses clean URLs (`/gb` with its map, `/gb/directory`, `/gb/time`, `/gb/
 
 The maintainer deploys from a local checkout with `python scripts/deploy.py` (after a one-time `npx wrangler login`). Merging to `main` does not deploy by itself. Filtered views are shareable: `/gb/directory?place=United Kingdom > Wales&type=economist`.
 
+## Roadmap
+
+Planned and scheduled work is public: see [ROADMAP.md](ROADMAP.md) and the issues labelled [`roadmap`](../../issues?q=is%3Aissue+label%3Aroadmap).
+
 ## Licences
 
 - Code: [MIT](LICENSE).
