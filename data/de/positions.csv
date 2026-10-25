@@ -1,0 +1,179 @@
+position_id,actor_id,body_id,role,party,geo_unit_id,start,end,current,member_ref,checked,source_url
+O00001,A0003,B0001,Member of the Bundestag,The Left,G0009,,,y,132869,2026-10-25,https://www.abgeordnetenwatch.de/profile/christian-goerke
+O00002,A0004,B0001,Member of the Bundestag,The Left,G0012,,,y,135302,2026-10-25,https://www.abgeordnetenwatch.de/profile/janine-wissler
+O00003,A0005,B0001,Member of the Bundestag,The Left,G0010,,,y,146180,2026-10-25,https://www.abgeordnetenwatch.de/profile/doris-achelwilm
+O00004,A0006,B0001,Member of the Bundestag,The Left,G0014,,,y,79454,2026-10-25,https://www.abgeordnetenwatch.de/profile/dietmar-bartsch
+O00005,A0007,B0001,Member of the Bundestag,The Left,G0012,,,y,180058,2026-10-25,https://www.abgeordnetenwatch.de/profile/desiree-becker
+O00006,A0008,B0001,Member of the Bundestag,The Left,G0019,,,y,175138,2026-10-25,https://www.abgeordnetenwatch.de/profile/janina-boettger
+O00007,A0009,B0001,Member of the Bundestag,The Left,G0012,,,y,146135,2026-10-25,https://www.abgeordnetenwatch.de/profile/joerg-cezanne
+O00008,A0010,B0001,Member of the Bundestag,The Left,G0007,,,y,183230,2026-10-25,https://www.abgeordnetenwatch.de/profile/agnes-maria-conrad
+O00009,A0011,B0001,Member of the Bundestag,The Left,G0015,,,y,175308,2026-10-25,https://www.abgeordnetenwatch.de/profile/mirze-edis
+O00010,A0012,B0001,Member of the Bundestag,The Left,G0013,,,y,183177,2026-10-25,https://www.abgeordnetenwatch.de/profile/cem-ince
+O00011,A0013,B0001,Member of the Bundestag,The Left,G0020,,,y,183154,2026-10-25,https://www.abgeordnetenwatch.de/profile/tamara-mazzi
+O00012,A0014,B0001,Member of the Bundestag,The Left,G08987,,,y,117904,2026-10-25,https://www.abgeordnetenwatch.de/profile/pascal-meiser
+O00013,A0015,B0001,Member of the Bundestag,The Left,G0018,,,y,184320,2026-10-25,https://www.abgeordnetenwatch.de/profile/zada-salihovic
+O00014,A0016,B0001,Member of the Bundestag,The Left,G0015,2025-08-01,,y,183275,2026-10-25,https://www.abgeordnetenwatch.de/profile/lisa-schubert
+O00015,A0017,B0001,Member of the Bundestag,The Left,G08987,,,y,180854,2026-10-25,https://www.abgeordnetenwatch.de/profile/ines-schwerdtner
+O00016,A0018,B0001,Member of the Bundestag,The Left,G0009,,,y,31073,2026-10-25,https://www.abgeordnetenwatch.de/profile/isabelle-vandre
+O00017,A0019,B0001,Member of the Bundestag,The Left,G0007,,,y,183219,2026-10-25,https://www.abgeordnetenwatch.de/profile/sarah-vollath
+O00018,A0020,B0001,Member of the Bundestag,The Left,G0015,,,y,175309,2026-10-25,https://www.abgeordnetenwatch.de/profile/sascha-wagner-0
+O00019,A0021,B0001,Member of the Bundestag,The Left,G0006,,,y,183257,2026-10-25,https://www.abgeordnetenwatch.de/profile/anne-zerr
+O00020,A0022,B0001,Member of the Bundestag,The Left,G0013,,,y,149570,2026-10-25,https://www.abgeordnetenwatch.de/profile/heidi-reichinnek
+O00021,A0023,B0001,Member of the Bundestag,The Left,G0018,,,y,146117,2026-10-25,https://www.abgeordnetenwatch.de/profile/soeren-pellmann
+O00022,A0024,B0001,Member of the Bundestag,Die Linke. (Gruppe),G08987,,2025-03-24,n,78850,2026-10-25,https://www.abgeordnetenwatch.de/profile/gesine-loetzsch
+O00023,A0025,B0001,Member of the Bundestag,BSW (Gruppe),G0007,,2025-03-24,n,79385,2026-10-25,https://www.abgeordnetenwatch.de/profile/klaus-ernst
+O00024,A0026,B0001,Member of the Bundestag,Die Linke. (Gruppe),G0007,,2025-03-24,n,146166,2026-10-25,https://www.abgeordnetenwatch.de/profile/susanne-ferschl
+O00025,A0027,B0001,Member of the Bundestag,Die Linke. (Gruppe),G0021,,2025-03-24,n,31605,2026-10-25,https://www.abgeordnetenwatch.de/profile/susanne-hennig-wellsow
+O00026,A0028,B0001,Member of the Bundestag,Die Linke. (Gruppe),G0019,,2025-03-24,n,78854,2026-10-25,https://www.abgeordnetenwatch.de/profile/jan-korte
+O00027,A0029,B0001,Member of the Bundestag,The Left,G0018,,,y,79205,2026-10-25,https://www.abgeordnetenwatch.de/profile/caren-lay
+O00028,A0030,B0001,Member of the Bundestag,Die Linke. (Gruppe),G0021,,2025-03-24,n,79198,2026-10-25,https://www.abgeordnetenwatch.de/profile/ralph-lenkert
+O00029,A0031,B0001,Member of the Bundestag,BSW (Gruppe),G0015,,2025-03-24,n,130124,2026-10-25,https://www.abgeordnetenwatch.de/profile/christian-leye
+O00030,A0032,B0001,Member of the Bundestag,SPD,G0017,,2025-03-24,n,78888,2026-10-25,https://www.abgeordnetenwatch.de/profile/thomas-lutze
+O00031,A0033,B0001,Member of the Bundestag,Die Linke. (Gruppe),G0013,,2025-03-24,n,136366,2026-10-25,https://www.abgeordnetenwatch.de/profile/victor-perli
+O00032,A0034,B0001,Member of the Bundestag,Die Linke. (Gruppe),G0006,,2025-03-24,n,108427,2026-10-25,https://www.abgeordnetenwatch.de/profile/bernd-riexinger
+O00033,A0035,B0001,Member of the Bundestag,BSW (Gruppe),G0016,,2025-03-24,n,78816,2026-10-25,https://www.abgeordnetenwatch.de/profile/alexander-ulrich
+O00034,A0036,B0001,Member of the Bundestag,BSW (Gruppe),G0015,,2025-03-24,n,78934,2026-10-25,https://www.abgeordnetenwatch.de/profile/sahra-wagenknecht
+O00035,A0037,B0001,Member of the Bundestag,BSW (Gruppe),G0013,,2025-03-24,n,146055,2026-10-25,https://www.abgeordnetenwatch.de/profile/amira-mohamed-ali
+O00036,A0038,B0001,Member of the Bundestag,The Left,G01527,,2021-10-25,n,29050,2026-10-25,https://www.abgeordnetenwatch.de/profile/fabio-de-masi
+O00037,A0039,B0001,Member of the Bundestag,The Left,G08987,,2021-10-25,n,79197,2026-10-25,https://www.abgeordnetenwatch.de/profile/stefan-liebich
+O00038,A0040,B0001,Member of the Bundestag,The Left,G0020,,,y,146046,2026-10-25,https://www.abgeordnetenwatch.de/profile/lorenz-goesta-beutin
+O00039,A0041,B0001,Member of the Bundestag,Die Linke. (Gruppe),G0015,,2025-03-24,n,78882,2026-10-25,https://www.abgeordnetenwatch.de/profile/matthias-w-birkwald
+O00040,A0042,B0001,Member of the Bundestag,The Left,G0014,,2021-10-25,n,79250,2026-10-25,https://www.abgeordnetenwatch.de/profile/kerstin-kassner
+O00041,A0043,B0001,Member of the Bundestag,The Left,G0012,,2021-10-25,n,79202,2026-10-25,https://www.abgeordnetenwatch.de/profile/sabine-leidig
+O00042,A0044,B0001,Member of the Bundestag,The Left,G0009,,2021-10-25,n,78967,2026-10-25,https://www.abgeordnetenwatch.de/profile/kirsten-tackmann
+O00043,A0045,B0001,Member of the Bundestag,The Left,G0007,,2021-10-25,n,120862,2026-10-25,https://www.abgeordnetenwatch.de/profile/andreas-wagner-0
+O00044,A0046,B0001,Member of the Bundestag,The Left,G0015,,2021-10-25,n,78905,2026-10-25,https://www.abgeordnetenwatch.de/profile/hubertus-zdebel
+O00045,A0047,B0001,Member of the Bundestag,The Left,G0016,,2021-10-25,n,109946,2026-10-25,https://www.abgeordnetenwatch.de/profile/brigitte-freihold
+O00046,A0048,B0001,Member of the Bundestag,The Left,G0013,,2021-10-25,n,79224,2026-10-25,https://www.abgeordnetenwatch.de/profile/jutta-krellmann
+O00047,A0049,B0001,Member of the Bundestag,The Left,G0013,,2021-10-25,n,78794,2026-10-25,https://www.abgeordnetenwatch.de/profile/diether-dehm
+O00048,A0050,B0001,Member of the Bundestag,The Left,G0012,,2017-10-24,n,119515,2026-10-25,https://www.abgeordnetenwatch.de/profile/wolfgang-gehrcke-reymann
+O00049,A0051,B0001,Member of the Bundestag,The Left,G0012,,2021-10-25,n,78879,2026-10-25,https://www.abgeordnetenwatch.de/profile/christine-buchholz
+O00050,A0052,B0001,Member of the Bundestag,The Left,G0019,,2017-10-24,n,79417,2026-10-25,https://www.abgeordnetenwatch.de/profile/roland-claus
+O00051,A0053,B0001,Member of the Bundestag,BSW (Gruppe),G0015,,2025-03-24,n,79420,2026-10-25,https://www.abgeordnetenwatch.de/profile/sevim-dagdelen
+O00052,A0054,B0001,Member of the Bundestag,The Left,G0009,,2013-10-22,n,118345,2026-10-25,https://www.abgeordnetenwatch.de/profile/dagmar-enkelmann
+O00053,A0055,B0001,Member of the Bundestag,The Left,G0007,,,y,79353,2026-10-25,https://www.abgeordnetenwatch.de/profile/nicole-gohlke
+O00054,A0056,B0001,Member of the Bundestag,The Left,G0006,,2017-10-24,n,79340,2026-10-25,https://www.abgeordnetenwatch.de/profile/annette-groth
+O00055,A0057,B0001,Member of the Bundestag,The Left,G08987,,,y,79334,2026-10-25,https://www.abgeordnetenwatch.de/profile/gregor-gysi
+O00056,A0058,B0001,Member of the Bundestag,The Left,G0006,,2021-10-25,n,78861,2026-10-25,https://www.abgeordnetenwatch.de/profile/heike-haensel
+O00057,A0059,B0001,Member of the Bundestag,The Left,G0015,,2017-10-24,n,79283,2026-10-25,https://www.abgeordnetenwatch.de/profile/inge-hoeger
+O00058,A0060,B0001,Member of the Bundestag,The Left,G0018,,2013-10-22,n,118334,2026-10-25,https://www.abgeordnetenwatch.de/profile/barbara-hoell
+O00059,A0061,B0001,Member of the Bundestag,BSW (Gruppe),G0015,,2025-03-24,n,79281,2026-10-25,https://www.abgeordnetenwatch.de/profile/andrej-hunko
+O00060,A0062,B0001,Member of the Bundestag,The Left,G0019,,2013-10-22,n,30302,2026-10-25,https://www.abgeordnetenwatch.de/profile/harald-koch
+O00061,A0063,B0001,Member of the Bundestag,The Left,G0015,,2013-10-22,n,119421,2026-10-25,https://www.abgeordnetenwatch.de/profile/ulla-loetzer
+O00062,A0064,B0001,Member of the Bundestag,The Left,G0006,,2013-10-22,n,119432,2026-10-25,https://www.abgeordnetenwatch.de/profile/ulrich-maurer
+O00063,A0065,B0001,Member of the Bundestag,The Left,G0015,,2021-10-25,n,79122,2026-10-25,https://www.abgeordnetenwatch.de/profile/niema-movassat
+O00064,A0066,B0001,Member of the Bundestag,The Left,G0009,,2021-10-25,n,79114,2026-10-25,https://www.abgeordnetenwatch.de/profile/thomas-nord
+O00065,A0067,B0001,Member of the Bundestag,The Left,G0006,,2017-10-24,n,79074,2026-10-25,https://www.abgeordnetenwatch.de/profile/richard-pitterle
+O00066,A0068,B0001,Member of the Bundestag,The Left,G0015,,2013-10-22,n,119156,2026-10-25,https://www.abgeordnetenwatch.de/profile/paul-schaefer
+O00067,A0069,B0001,Member of the Bundestag,The Left,G0006,,2017-10-24,n,79037,2026-10-25,https://www.abgeordnetenwatch.de/profile/michael-schlecht
+O00068,A0070,B0001,Member of the Bundestag,Die Linke. (Gruppe),G0015,,2025-03-24,n,78948,2026-10-25,https://www.abgeordnetenwatch.de/profile/kathrin-vogler
+O00069,A0071,B0001,Member of the Bundestag,The Left,G0016,,2021-10-25,n,137828,2026-10-25,https://www.abgeordnetenwatch.de/profile/katrin-werner
+O00070,A0072,B0001,Member of the Bundestag,The Left,G0006,,2017-10-24,n,79445,2026-10-25,https://www.abgeordnetenwatch.de/profile/karin-binder
+O00071,A0073,B0001,Member of the Bundestag,The Left,G0012,,2013-10-22,n,119559,2026-10-25,https://www.abgeordnetenwatch.de/profile/werner-dreibus
+O00072,A0074,B0001,Member of the Bundestag,The Left,G0007,,2017-10-24,n,79425,2026-10-25,https://www.abgeordnetenwatch.de/profile/eva-bulling-schroeter
+O00073,A0075,B0001,Member of the Bundestag,The Left,G0013,,2013-10-22,n,119541,2026-10-25,https://www.abgeordnetenwatch.de/profile/dorothee-menzner
+O00074,A0076,B0001,Member of the Bundestag,The Left,G0009,,2013-10-22,n,120560,2026-10-25,https://www.abgeordnetenwatch.de/profile/sabine-stueber
+O00075,A0077,B0001,Member of the Bundestag,The Left,G0013,2010-11-01,2013-10-22,n,120149,2026-10-25,https://www.abgeordnetenwatch.de/profile/johanna-voss
+O00076,A0078,B0001,Member of the Bundestag,The Left,G0015,,,y,184033,2026-10-25,https://www.abgeordnetenwatch.de/profile/cansin-koektuerk
+O00077,A0079,B0001,Member of the Bundestag,The Left,G01527,,,y,78952,2026-10-25,https://www.abgeordnetenwatch.de/profile/jan-van-aken
+O00078,A0080,B0001,Member of the Bundestag,Alliance 90/The Greens,G08987,,,y,79090,2026-10-25,https://www.abgeordnetenwatch.de/profile/lisa-paus
+O00079,A0081,B0001,Member of the Bundestag,DIE GRÜNEN,G0006,,2017-10-24,n,79470,2026-10-25,https://www.abgeordnetenwatch.de/profile/kerstin-andreae
+O00080,A0082,B0001,Member of the Bundestag,DIE GRÜNEN,G0007,,2017-10-24,n,79363,2026-10-25,https://www.abgeordnetenwatch.de/profile/thomas-gambke
+O00081,A0083,B0001,Member of the Bundestag,Alliance 90/The Greens,G0015,,,y,79325,2026-10-25,https://www.abgeordnetenwatch.de/profile/britta-hasselmann
+O00082,A0084,B0001,Member of the Bundestag,DIE GRÜNEN,G0012,,2013-10-22,n,85090,2026-10-25,https://www.abgeordnetenwatch.de/profile/priska-hinz
+O00083,A0085,B0001,Member of the Bundestag,Alliance 90/The Greens,G0016,,2025-03-24,n,79193,2026-10-25,https://www.abgeordnetenwatch.de/profile/tobias-lindner
+O00084,A0086,B0001,Member of the Bundestag,DIE GRÜNEN,G0006,,2017-10-24,n,79025,2026-10-25,https://www.abgeordnetenwatch.de/profile/gerhard-schick
+O00085,A0087,B0001,Member of the Bundestag,DIE GRÜNEN,G0006,,2013-10-22,n,118199,2026-10-25,https://www.abgeordnetenwatch.de/profile/birgitt-bender
+O00086,A0088,B0001,Member of the Bundestag,Alliance 90/The Greens,G0007,,2025-03-24,n,79408,2026-10-25,https://www.abgeordnetenwatch.de/profile/ekin-deligoez
+O00087,A0089,B0001,Member of the Bundestag,DIE GRÜNEN,G0015,,2017-10-24,n,79400,2026-10-25,https://www.abgeordnetenwatch.de/profile/katja-doerner
+O00088,A0090,B0001,Member of the Bundestag,Alliance 90/The Greens,G0006,,,y,79405,2026-10-25,https://www.abgeordnetenwatch.de/profile/harald-ebner
+O00089,A0091,B0001,Member of the Bundestag,Alliance 90/The Greens,G0015,,2025-03-24,n,79358,2026-10-25,https://www.abgeordnetenwatch.de/profile/kai-gehring
+O00090,A0092,B0001,Member of the Bundestag,Alliance 90/The Greens,G0021,,,y,78886,2026-10-25,https://www.abgeordnetenwatch.de/profile/katrin-goering-eckardt
+O00091,A0093,B0001,Member of the Bundestag,DIE GRÜNEN,G0015,,2017-10-24,n,79285,2026-10-25,https://www.abgeordnetenwatch.de/profile/baerbel-hoehn
+O00092,A0094,B0001,Member of the Bundestag,DIE GRÜNEN,G0006,,2013-10-22,n,118777,2026-10-25,https://www.abgeordnetenwatch.de/profile/ingrid-hoenlinger
+O00093,A0095,B0001,Member of the Bundestag,DIE GRÜNEN,G0013,,2013-10-22,n,119372,2026-10-25,https://www.abgeordnetenwatch.de/profile/thilo-hoppe
+O00094,A0096,B0001,Member of the Bundestag,Alliance 90/The Greens,G0007,2024-12-02,2025-03-24,n,79255,2026-10-25,https://www.abgeordnetenwatch.de/profile/uwe-kekeritz
+O00095,A0097,B0001,Member of the Bundestag,Alliance 90/The Greens,G0013,,2025-03-24,n,79247,2026-10-25,https://www.abgeordnetenwatch.de/profile/katja-keul
+O00096,A0098,B0001,Member of the Bundestag,Alliance 90/The Greens,G0013,,2025-03-24,n,78856,2026-10-25,https://www.abgeordnetenwatch.de/profile/sven-christian-kindler
+O00097,A0099,B0001,Member of the Bundestag,Alliance 90/The Greens,G0015,,2025-03-24,n,79240,2026-10-25,https://www.abgeordnetenwatch.de/profile/maria-klein-schmeink
+O00098,A0100,B0001,Member of the Bundestag,DIE GRÜNEN,G0015,,2021-10-25,n,79228,2026-10-25,https://www.abgeordnetenwatch.de/profile/oliver-krischer
+O00099,A0101,B0001,Member of the Bundestag,DIE GRÜNEN,G0007,,2013-10-22,n,119614,2026-10-25,https://www.abgeordnetenwatch.de/profile/agnes-krumwiede
+O00100,A0102,B0001,Member of the Bundestag,DIE GRÜNEN,G0018,,2017-10-24,n,79221,2026-10-25,https://www.abgeordnetenwatch.de/profile/stephan-kuehn
+O00101,A0103,B0001,Member of the Bundestag,Alliance 90/The Greens,G0015,,2025-03-24,n,78852,2026-10-25,https://www.abgeordnetenwatch.de/profile/markus-kurth
+O00102,A0104,B0001,Member of the Bundestag,Alliance 90/The Greens,G0006,,2025-03-24,n,79117,2026-10-25,https://www.abgeordnetenwatch.de/profile/beate-mueller-gemmeke
+O00103,A0105,B0001,Member of the Bundestag,DIE GRÜNEN,G0015,,2013-10-22,n,120077,2026-10-25,https://www.abgeordnetenwatch.de/profile/hermann-ott
+O00104,A0106,B0001,Member of the Bundestag,DIE GRÜNEN,G0013,,2017-10-24,n,79081,2026-10-25,https://www.abgeordnetenwatch.de/profile/brigitte-pothmer
+O00105,A0107,B0001,Member of the Bundestag,Alliance 90/The Greens,G0016,,2025-03-24,n,79040,2026-10-25,https://www.abgeordnetenwatch.de/profile/tabea-roessner
+O00106,A0108,B0001,Member of the Bundestag,Alliance 90/The Greens,G0007,,,y,79041,2026-10-25,https://www.abgeordnetenwatch.de/profile/claudia-roth
+O00107,A0109,B0001,Member of the Bundestag,DIE GRÜNEN,G01527,,2021-10-25,n,79033,2026-10-25,https://www.abgeordnetenwatch.de/profile/manuel-sarrazin
+O00108,A0110,B0001,Member of the Bundestag,DIE GRÜNEN,G0007,,2017-10-24,n,79019,2026-10-25,https://www.abgeordnetenwatch.de/profile/elisabeth-scharfenberg
+O00109,A0111,B0001,Member of the Bundestag,DIE GRÜNEN,G0015,,2021-10-25,n,78835,2026-10-25,https://www.abgeordnetenwatch.de/profile/frithjof-schmidt
+O00110,A0112,B0001,Member of the Bundestag,DIE GRÜNEN,G0006,2011-12-05,2013-10-22,n,119433,2026-10-25,https://www.abgeordnetenwatch.de/profile/ulrich-schneider
+O00111,A0113,B0001,Member of the Bundestag,Alliance 90/The Greens,G0012,,2025-03-24,n,79479,2026-10-25,https://www.abgeordnetenwatch.de/profile/wolfgang-strengmann-kuhn
+O00112,A0114,B0001,Member of the Bundestag,DIE GRÜNEN,G0012,,2021-10-25,n,119788,2026-10-25,https://www.abgeordnetenwatch.de/profile/daniela-wagner
+O00113,A0115,B0001,Member of the Bundestag,DIE GRÜNEN,G0020,2012-06-18,2013-10-22,n,120774,2026-10-25,https://www.abgeordnetenwatch.de/profile/arfst-wagner
+O00114,A0116,B0001,Member of the Bundestag,Alliance 90/The Greens,G0006,,,y,78878,2026-10-25,https://www.abgeordnetenwatch.de/profile/agnieszka-brugger
+O00115,A0117,B0001,Member of the Bundestag,DIE GRÜNEN,G0013,,2013-10-22,n,120712,2026-10-25,https://www.abgeordnetenwatch.de/profile/viola-von-cramon-taubadel
+O00116,A0170,B0001,Member of the Bundestag,SPD,G0015,,,y,131019,2026-10-25,https://www.abgeordnetenwatch.de/profile/svenja-schulze
+O00117,A0178,B0001,Member of the Bundestag,BSW (Gruppe),G0012,,2025-03-24,n,120819,2026-10-25,https://www.abgeordnetenwatch.de/profile/ali-al-dailami
+O00118,A0179,B0001,Member of the Bundestag,Die Linke. (Gruppe),G0018,,2025-03-24,n,79328,2026-10-25,https://www.abgeordnetenwatch.de/profile/andre-hahn
+O00119,A0180,B0001,Member of the Bundestag,The Left,G0007,,,y,141210,2026-10-25,https://www.abgeordnetenwatch.de/profile/ates-guerpinar
+O00120,A0181,B0001,Member of the Bundestag,The Left,G0018,,,y,175334,2026-10-25,https://www.abgeordnetenwatch.de/profile/clara-buenger
+O00121,A0182,B0001,Member of the Bundestag,Die Linke. (Gruppe),G0020,,2025-03-24,n,79125,2026-10-25,https://www.abgeordnetenwatch.de/profile/cornelia-moehring
+O00122,A0183,B0001,Member of the Bundestag,The Left,G0006,,,y,108563,2026-10-25,https://www.abgeordnetenwatch.de/profile/goekay-akbulut
+O00123,A0184,B0001,Member of the Bundestag,The Left,G0014,,,y,122336,2026-10-25,https://www.abgeordnetenwatch.de/profile/ina-latendorf
+O00124,A0185,B0001,Member of the Bundestag,BSW (Gruppe),G0006,,2025-03-24,n,108661,2026-10-25,https://www.abgeordnetenwatch.de/profile/jessica-tatti
+O00125,A0186,B0001,Member of the Bundestag,Die Linke. (Gruppe),G0021,,2025-03-24,n,78892,2026-10-25,https://www.abgeordnetenwatch.de/profile/martina-renner
+O00126,A0187,B0001,Member of the Bundestag,Die Linke. (Gruppe),G08987,,2025-03-24,n,79091,2026-10-25,https://www.abgeordnetenwatch.de/profile/petra-pau
+O00127,A0188,B0001,Member of the Bundestag,Die Linke. (Gruppe),G0019,,2025-03-24,n,78824,2026-10-25,https://www.abgeordnetenwatch.de/profile/petra-sitte
+O00128,A0189,B0001,Member of the Bundestag,Independent,G0020,,,y,176316,2026-10-25,https://www.abgeordnetenwatch.de/profile/stefan-seidler
+O00129,A0190,B0001,Member of the Bundestag,BSW (Gruppe),G01527,,2025-03-24,n,66565,2026-10-25,https://www.abgeordnetenwatch.de/profile/zaklin-nastic
+O00130,A0193,B0001,Member of the Bundestag,SPD,G08987,,2021-10-25,n,79244,2026-10-25,https://www.abgeordnetenwatch.de/profile/cansel-kiziltepe
+O00131,A0195,B0001,Member of the Bundestag,Alliance 90/The Greens,G01527,,,y,175596,2026-10-25,https://www.abgeordnetenwatch.de/profile/katharina-beck
+O00132,A0199,B0001,Member of the Bundestag,SPD,G0015,,,y,78838,2026-10-25,https://www.abgeordnetenwatch.de/profile/rolf-muetzenich
+O00133,A0200,B0001,Member of the Bundestag,SPD,G0006,,,y,79387,2026-10-25,https://www.abgeordnetenwatch.de/profile/saskia-esken
+O00134,A0201,B0001,Member of the Bundestag,SPD,G0009,,,y,66924,2026-10-25,https://www.abgeordnetenwatch.de/profile/olaf-scholz
+O00135,A0215,B0001,Member of the Bundestag,SPD,G0006,,2017-10-24,n,79056,2026-10-25,https://www.abgeordnetenwatch.de/profile/stefan-rebmann
+O00136,A0216,B0001,Member of the Bundestag,DIE GRÜNEN,G0010,,2017-10-24,n,79458,2026-10-25,https://www.abgeordnetenwatch.de/profile/marieluise-beck
+O00137,A0217,B0001,Member of the Bundestag,DIE GRÜNEN,G0015,,2017-10-24,n,79459,2026-10-25,https://www.abgeordnetenwatch.de/profile/volker-beck
+O00138,A0218,B0001,Member of the Bundestag,DIE GRÜNEN,G0009,,2013-10-22,n,118273,2026-10-25,https://www.abgeordnetenwatch.de/profile/cornelia-behm
+O00139,A0219,B0001,Member of the Bundestag,DIE GRÜNEN,G0007,,2013-10-22,n,118642,2026-10-25,https://www.abgeordnetenwatch.de/profile/hans-josef-fell
+O00140,A0220,B0001,Member of the Bundestag,DIE GRÜNEN,G0015,,2013-10-22,n,119539,2026-10-25,https://www.abgeordnetenwatch.de/profile/bettina-herlitzius
+O00141,A0221,B0001,Member of the Bundestag,Alliance 90/The Greens,G0007,,,y,79294,2026-10-25,https://www.abgeordnetenwatch.de/profile/anton-hofreiter
+O00142,A0222,B0001,Member of the Bundestag,DIE GRÜNEN,G0006,2013-01-08,2013-10-22,n,119368,2026-10-25,https://www.abgeordnetenwatch.de/profile/susanne-kieckbusch
+O00143,A0223,B0001,Member of the Bundestag,DIE GRÜNEN,G0006,,2013-10-22,n,119071,2026-10-25,https://www.abgeordnetenwatch.de/profile/memet-kilic
+O00144,A0224,B0001,Member of the Bundestag,DIE GRÜNEN,G0015,,2013-10-22,n,119557,2026-10-25,https://www.abgeordnetenwatch.de/profile/ute-koczy
+O00145,A0225,B0001,Member of the Bundestag,DIE GRÜNEN,G0012,,2017-10-24,n,79232,2026-10-25,https://www.abgeordnetenwatch.de/profile/tom-koenigs
+O00146,A0226,B0001,Member of the Bundestag,DIE GRÜNEN,G0006,,2021-10-25,n,78853,2026-10-25,https://www.abgeordnetenwatch.de/profile/sylvia-kotting-uhl
+O00147,A0227,B0001,Member of the Bundestag,DIE GRÜNEN,G0019,,2013-10-22,n,119447,2026-10-25,https://www.abgeordnetenwatch.de/profile/undine-kurth
+O00148,A0228,B0001,Member of the Bundestag,DIE GRÜNEN,G0018,,2021-10-25,n,79204,2026-10-25,https://www.abgeordnetenwatch.de/profile/monika-lazar
+O00149,A0229,B0001,Member of the Bundestag,DIE GRÜNEN,G0012,,2017-10-24,n,78849,2026-10-25,https://www.abgeordnetenwatch.de/profile/nicole-maisch
+O00150,A0230,B0001,Member of the Bundestag,DIE GRÜNEN,G0007,,2013-10-22,n,118793,2026-10-25,https://www.abgeordnetenwatch.de/profile/jerzy-montag
+O00151,A0231,B0001,Member of the Bundestag,DIE GRÜNEN,G0015,,2013-10-22,n,118899,2026-10-25,https://www.abgeordnetenwatch.de/profile/kerstin-mueller
+O00152,A0232,B0001,Member of the Bundestag,Alliance 90/The Greens,G0020,,,y,78819,2026-10-25,https://www.abgeordnetenwatch.de/profile/konstantin-von-notz
+O00153,A0233,B0001,Member of the Bundestag,Alliance 90/The Greens,G0012,,,y,79103,2026-10-25,https://www.abgeordnetenwatch.de/profile/omid-nouripour
+O00154,A0234,B0001,Member of the Bundestag,DIE GRÜNEN,G0015,,2021-10-25,n,79098,2026-10-25,https://www.abgeordnetenwatch.de/profile/friedrich-ostendorff
+O00155,A0235,B0001,Member of the Bundestag,DIE GRÜNEN,G01527,,2013-10-22,n,118935,2026-10-25,https://www.abgeordnetenwatch.de/profile/krista-sager
+O00156,A0236,B0001,Member of the Bundestag,DIE GRÜNEN,G0013,,2013-10-22,n,119830,2026-10-25,https://www.abgeordnetenwatch.de/profile/dorothea-steiner
+O00157,A0237,B0001,Member of the Bundestag,DIE GRÜNEN,G0014,,2017-10-24,n,78961,2026-10-25,https://www.abgeordnetenwatch.de/profile/harald-terpe
+O00158,A0238,B0001,Member of the Bundestag,DIE GRÜNEN,G0017,,2021-10-25,n,78899,2026-10-25,https://www.abgeordnetenwatch.de/profile/markus-tressel
+O00159,A0239,B0001,Member of the Bundestag,Alliance 90/The Greens,G0007,,2025-03-24,n,78936,2026-10-25,https://www.abgeordnetenwatch.de/profile/beate-walter-rosenheimer
+O00160,A0240,B0001,Member of the Bundestag,DIE GRÜNEN,G0020,,2017-10-24,n,78915,2026-10-25,https://www.abgeordnetenwatch.de/profile/valerie-wilms
+O00161,A0241,B0001,Member of the Bundestag,DIE GRÜNEN,G0016,,2013-10-22,n,118845,2026-10-25,https://www.abgeordnetenwatch.de/profile/josef-winkler
+O00162,A0300,B0001,Member of the Bundestag,The Left,G08987,,,y,122834,2026-10-25,https://www.abgeordnetenwatch.de/profile/ferat-kocak
+O00163,A0323,B0001,Member of the Bundestag,Alliance 90/The Greens,G0015,,,y,79403,2026-10-25,https://www.abgeordnetenwatch.de/profile/katharina-droege
+O00164,A0324,B0001,Member of the Bundestag,SPD,G0015,,2017-10-24,n,119103,2026-10-25,https://www.abgeordnetenwatch.de/profile/michaela-engelmeier
+O00165,A0397,B0001,Member of the Bundestag,SPD,G0020,,,y,139062,2026-10-25,https://www.abgeordnetenwatch.de/profile/ralf-stegner
+O00166,A0400,B0001,Member of the Bundestag,Alliance 90/The Greens,G0013,,,y,175593,2026-10-25,https://www.abgeordnetenwatch.de/profile/karoline-otte
+O00167,A0401,B0001,Member of the Bundestag,Alliance 90/The Greens,G0006,,,y,175649,2026-10-25,https://www.abgeordnetenwatch.de/profile/sebastian-schaefer-0
+O00168,A0402,B0001,Member of the Bundestag,Alliance 90/The Greens,G08987,,,y,175526,2026-10-25,https://www.abgeordnetenwatch.de/profile/andreas-audretsch
+O00169,A0403,B0001,Member of the Bundestag,Alliance 90/The Greens,G08987,,,y,183031,2026-10-25,https://www.abgeordnetenwatch.de/profile/moritz-heuberger
+O00170,A0404,B0001,Member of the Bundestag,Alliance 90/The Greens,G0015,,,y,175624,2026-10-25,https://www.abgeordnetenwatch.de/profile/max-lucks
+O00171,A0405,B0001,Member of the Bundestag,Alliance 90/The Greens,G0007,,,y,146018,2026-10-25,https://www.abgeordnetenwatch.de/profile/sascha-mueller-0
+O00172,A0406,B0001,Member of the Bundestag,Alliance 90/The Greens,G0007,,,y,121977,2026-10-25,https://www.abgeordnetenwatch.de/profile/stefan-schmidt
+O00173,A0407,B0001,Member of the Bundestag,Alliance 90/The Greens,G0015,,,y,145959,2026-10-25,https://www.abgeordnetenwatch.de/profile/felix-banaszak
+O00174,A0408,B0001,Member of the Bundestag,Alliance 90/The Greens,G0006,,,y,79429,2026-10-25,https://www.abgeordnetenwatch.de/profile/franziska-brantner
+O00175,A0409,B0001,Member of the Bundestag,Alliance 90/The Greens,G0013,,,y,183012,2026-10-25,https://www.abgeordnetenwatch.de/profile/timon-dzienus
+O00176,A0410,B0001,Member of the Bundestag,Alliance 90/The Greens,G0018,,,y,31707,2026-10-25,https://www.abgeordnetenwatch.de/profile/paula-piechotta
+O00177,A0411,B0001,Member of the Bundestag,Alliance 90/The Greens,G0007,,,y,175580,2026-10-25,https://www.abgeordnetenwatch.de/profile/jamila-anna-schaefer
+O00178,A0412,B0001,Member of the Bundestag,Alliance 90/The Greens,G0007,,,y,175584,2026-10-25,https://www.abgeordnetenwatch.de/profile/johannes-wagner
