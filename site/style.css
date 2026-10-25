@@ -685,4 +685,4 @@ body:not(.ready) .foot { visibility: hidden; }
 .crow.planned .st .muted { font-size: 13.5px; color: var(--ink-3); }
 @media (max-width: 760px) { .crow.par { grid-template-columns: minmax(0, 1fr) auto; } .crow.par .st.seatcol { display: block; grid-column: 1 / -1; } .crow.par .iso { display: none; } .crow.par .seatcol .sl { display: flex; } .crow.par .seatcol .sl > span { display: block; } .crow.par .seatcol .sl b { display: block; } }
 @media (max-width: 1160px) { .nav { gap: 14px; font-size: 14px; } .nav a[href="/suggest"] { display: none; } }
-@media (max-width: 980px) { .nav a[href="/contribute"], .nav a[href="/about"] { display: none; } }
+@media (max-width: 980px) { .nav a[href="/contribute"], .nav a[href="/method"] { display: none; } }

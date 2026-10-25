@@ -129,6 +129,7 @@ async function render(fresh) {
     else if (parts[0] === 'countries' && parts.length === 1) await countriesPage(W);
     else if (parts[0] === 'resources' && parts.length === 1) await resourcesPage(W);
     else if (parts[0] === 'parliaments' && parts.length === 1) await parliamentsPage(W);
+    else if (parts[0] === 'method' && parts.length === 1) methodPage(W);
     else if (parts[0] === 'about' && parts.length === 1) aboutPage(W);
     else if (parts[0] === 'contribute' && parts.length === 1) contributePage(W);
     else if (parts[0] === 'suggest' && parts.length === 1) suggestPage(W, params);
@@ -137,7 +138,7 @@ async function render(fresh) {
     else if (country && parts.length === 2 && SECTIONS[parts[1]]) await countryPage(country.slug, params, parts[1]);
     else if (country && parts.length === 2) await personPage(country.slug, parts[1]);
     else notFound();
-    const navKey = {countries: '/countries', parliaments: '/parliaments', resources: '/resources', about: '/about', contribute: '/contribute', suggest: '/suggest', feedback: '/feedback'}[parts[0]] || null;
+    const navKey = {countries: '/countries', parliaments: '/parliaments', resources: '/resources', method: '/method', about: '/about', contribute: '/contribute', suggest: '/suggest', feedback: '/feedback'}[parts[0]] || null;
     if (navKey) $$('.nav a, .fb-link').forEach(a => { if (a.getAttribute('href') === navKey) a.setAttribute('aria-current', 'page'); });
   } catch (err) {
     console.error(err);
@@ -492,14 +493,14 @@ async function home(W) {
       <div><div class="kicker">02</div><h3>Graded</h3>
         <div class="grades">${['A', 'B', 'C'].map(g => `<div>${glyph(g)}<span><b>${GRADE[g]}</b> · ${esc(GRADE_LONG[g].split(': ').pop().replace(/^./, c => c.toLowerCase()))}</span></div>`).join('')}</div>
         <p>Only an actual tax on wealth counts. Higher income or capital gains taxes alone do not.</p></div>
-      <div><div class="kicker">03</div><h3>Open</h3><p>The data is free to reuse under CC BY 4.0, with CSV downloads for every country. Errors are reported in public on GitHub and fixed in the open.</p><p><a href="/about">Read the method →</a></p></div>
+      <div><div class="kicker">03</div><h3>Open</h3><p>The data is free to reuse under CC BY 4.0, with CSV downloads for every country. Errors are reported in public on GitHub and fixed in the open.</p><p><a href="/method">Read the method →</a></p></div>
     </div>
   </div></section>
 
   <section class="wrap" style="padding:8px var(--gut) 40px"><div class="cta">
     <div><div class="kicker" style="color:inherit;opacity:.6">Contribute</div><h2 style="margin-top:12px">Your country isn't <em>on the map</em> yet?</h2>
       <p>Registers are built country by country with an open research workflow. Start one for your country, or help check the entries that are already here.</p></div>
-    <div class="acts"><a class="btn" href="/contribute">Start a country</a><a class="btn ghost" href="/about">How it's built</a></div>
+    <div class="acts"><a class="btn" href="/contribute">Start a country</a><a class="btn ghost" href="/method">How it's built</a></div>
   </div></section>`;
 
   const hq = $('#hq'), hres = $('#hres');
@@ -1259,7 +1260,43 @@ function evCard(e, m, slug) {
 }
 
 // ---------- static pages ----------
+// ---------- about ----------
 function aboutPage(W) {
+  setTitle('About');
+  const cs = W.countries, tot = k => cs.reduce((n, c) => n + (c[k] || 0), 0);
+  const seats = [...cs, ...(W.bodies || [])].reduce((n, c) => n + (c.chambers || []).reduce((m, x) => m + x[1], 0), 0);
+  main.innerHTML = `
+  <div class="wrap page-head fade"><div class="kicker">About</div><h1>A register of who <em>says so</em></h1></div>
+  <div class="wrap two" style="margin-top:36px">
+    <div class="prose">
+      <p class="lede" style="max-width:none">Wealth Tax Supporters is an open, sourced register of the public figures and organisations that have backed a wealth tax on the record, country by country, from national parliaments down to a single town.</p>
+      <h2>Why it exists</h2>
+      <p>Supporters of a wealth tax are spread thin. A union in one country, a mayor in another, an economist who signed a letter, a party that put it in its programme. Nobody could see them in one place, so each looked alone, and the debate was left to those who oppose it. A register that shows who has said it, and where, lets supporters find each other and lets everyone else see how much backing there already is.</p>
+      <h2>What it is, and is not</h2>
+      <p>It lists supporters only. It is not a poll, so it does not say how many people agree (the <a href="/resources?kind=poll">polls</a> do), and it does not rank or score anyone. It counts only an actual tax on wealth, and every entry links to the statement, vote or letter it rests on. An empty place on a map means nobody has been recorded yet, never that nobody there supports it. <a href="/method">The method</a> sets out the rules.</p>
+      <h2>Where it stands</h2>
+      <p>${fmt(tot('supporters'))} public figures and organisations in ${cs.length} countries, ${fmt(tot('evidence'))} sourced statements, and ${fmt(seats)} parliamentary seats charted on the <a href="/parliaments">Parliaments</a> page, with the <a href="/resources">resources</a> behind the debate. It grows with every research run.</p>
+      <h2>Who makes it</h2>
+      <p>The register is built by <a href="https://github.com/Egalitaristen" target="_blank" rel="noopener">Egalitaristen</a> and contributors, working in the open. The research is done with an AI workflow that follows written rules, and every change is reviewed in a pull request before it goes live, because AI makes mistakes. Every claim carries its source, so anyone can check it, and corrections are made in public.</p>
+      <h2>Open by design</h2>
+      <p>The code and the data live in one <a href="https://github.com/${REPO}" target="_blank" rel="noopener">public repository</a>. The data is free to reuse under CC BY 4.0, with a CSV download for every country. The <a href="https://github.com/${REPO}/blob/main/ROADMAP.md" target="_blank" rel="noopener">roadmap</a> shows what is planned and what waits for a date.</p>
+      <h2>Take part</h2>
+      <ul>
+        <li><a href="/suggest">Suggest a supporter</a> we have missed, with a link to where they said it.</li>
+        <li><a href="/contribute">Start a register</a> for your country, or help check the entries already here.</li>
+        <li><a href="/feedback">Send feedback or report a bug</a> about the site.</li>
+        <li>Join the conversation on <a href="https://discord.gg/yCjEK47aeh" target="_blank" rel="noopener">Discord</a>.</li>
+      </ul>
+      <h2>Removal and corrections</h2>
+      <p>Anyone listed can ask to be removed or corrected, using the report link on their entry or a report on GitHub.</p>
+    </div>
+    <aside class="aside-card"><h3>How is it built?</h3><p>What counts as support, how evidence is graded and how it is checked.</p>
+      <p><a class="btn sm" href="/method">Read the method</a></p>
+      <p style="margin:18px 0 0"><a href="https://github.com/${REPO}" target="_blank" rel="noopener">Source on GitHub ↗</a></p></aside>
+  </div>`;
+}
+
+function methodPage(W) {
   setTitle('Method');
   main.innerHTML = `
   <div class="wrap page-head fade"><div class="kicker">Method</div><h1>How the register <em>is built</em></h1></div>
@@ -1344,7 +1381,7 @@ function suggestPage(W, params) {
       <p><a class="btn sm" href="${DISCORD}" target="_blank" rel="noopener">Join the Discord ↗</a></p>
       <p style="margin-top:18px">Have a GitHub account? Open an issue, and follow it as it is checked.</p>
       <p><a class="btn sm ghost" href="${esc(githubSuggestUrl({country: params.get('country') || ''}))}" target="_blank" rel="noopener">Suggest on GitHub ↗</a></p>
-      <p class="fine" style="margin-top:18px">What counts: a public statement, vote, letter or policy backing a tax on wealth (net assets), such as an annual wealth tax or a billionaire minimum tax. Read <a href="/about">the method</a>.</p></aside>
+      <p class="fine" style="margin-top:18px">What counts: a public statement, vote, letter or policy backing a tax on wealth (net assets), such as an annual wealth tax or a billionaire minimum tax. Read <a href="/method">the method</a>.</p></aside>
   </div>`;
   const form = $('#suggest-form'), msg = $('#sg-msg'), send = $('#sg-send');
   form.addEventListener('submit', async e => {

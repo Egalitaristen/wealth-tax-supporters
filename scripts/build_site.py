@@ -453,15 +453,18 @@ def share_pages(out, base, countries, full):
     write("/", "Wealth Tax Supporters: who backs a wealth tax near you?",
           f"{tot['supporters']:,} public figures and organisations across {tot['countries']} countries who have backed a wealth tax on the record. Every name links to its source.",
           "home", "Who backs a wealth tax near you?", lambda o: cards.home_card(o, tot))
-    write("/about", "How the register is built · Wealth Tax Supporters",
+    write("/method", "How the register is built · Wealth Tax Supporters",
           "What counts as support for a wealth tax, how statements are sourced and graded, and how to report a mistake.",
-          "about", "How the register is built", lambda o: cards.page_card(o, "Method", "How the register is built", "Sourced, graded and open: every name links to where they said it."))
+          "method", "How the register is built", lambda o: cards.page_card(o, "Method", "How the register is built", "Sourced, graded and open: every name links to where they said it."))
     write("/countries", "Countries · Wealth Tax Supporters",
           f"The {tot['countries']} countries researched so far, with supporters found and seats in the national chambers.",
           "countries", "Country by country", lambda o: cards.page_card(o, "Countries", "Country by country", f"{tot['countries']} countries so far, each researched separately."))
     write("/resources", "Resources: polls, papers, reports and bills · Wealth Tax Supporters",
           "Polls, research papers, reports and bills on a wealth tax, from every country in the register and beyond, filterable by place and type.",
           "resources", "Resources on a wealth tax", lambda o: cards.page_card(o, "Resources", "Polls, papers, reports and bills", "What the evidence and the legislation say about a wealth tax."))
+    write("/about", "About · Wealth Tax Supporters",
+          "An open, sourced register of the public figures and organisations that back a wealth tax on the record: why it exists, how it is made and how to take part.",
+          "about", "About Wealth Tax Supporters", lambda o: cards.page_card(o, "About", "A register of who says so", "Open, sourced and made in public."))
     write("/contribute", "Put your country on the map · Wealth Tax Supporters",
           "Start a register for your country, suggest a supporter, or help check the entries that are already here.",
           "contribute", "Put your country on the map", lambda o: cards.page_card(o, "Contribute", "Put your country on the map", "Start a register for your country, or suggest a supporter."))
