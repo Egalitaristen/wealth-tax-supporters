@@ -4,5 +4,19 @@
   "lead": "Egalitaristen",
   "status": "in progress",
   "boundaries": "boundaries.json",
-  "notes": "Depth: seed. National parties, individual politicians, campaigns, unions, economists, commentators, faith and business; local sample only. Geography: all 67 territorial authorities (Stats NZ 2026) and 16 regions (2025), official codes, CC BY 4.0. Cross-region authorities sit under the country root rather than a false regional parent. Unswept councils remain pending. See area_profile.md and R001 for checked sources, limits and next priorities."
+  "notes": "Depth: seed plus broad follow-up. 61 supporters and 64 evidence records across national parties, individual politicians, campaigns, unions, economists, commentators, faith and business. Two named-list harvests completed; historical positions distinguished from current policy. Local sample only. All 67 territorial authorities (Stats NZ 2026) and 16 regions (2025), official codes, CC BY 4.0; cross-region authorities at country root. Unswept councils pending. Not saturated: see area_profile.md and R002 for gaps and priorities.",
+  "polls": [
+    {
+      "support": 64,
+      "oppose": 26,
+      "scope": "New Zealand adults aged 18 and over",
+      "question": "Do you support introducing a 2.5% tax on an individual’s net assets above NZ$10 million, with family homes exempt?",
+      "pollster": "Ipsos",
+      "commissioned_by": "Ipsos (no external sponsors or partners)",
+      "fieldwork": "3–11 September 2026",
+      "sample": 1003,
+      "published": "2026-09-24",
+      "url": "https://www.ipsos.com/en-nz/34th-ipsos-nz-issues-monitor-sept-2026"
+    }
+  ]
 }
