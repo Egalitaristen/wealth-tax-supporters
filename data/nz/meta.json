@@ -1,0 +1,8 @@
+{
+  "name": "New Zealand",
+  "iso2": "NZ",
+  "lead": "Egalitaristen",
+  "status": "in progress",
+  "boundaries": "boundaries.json",
+  "notes": "Depth: seed. National parties, individual politicians, campaigns, unions, economists, commentators, faith and business; local sample only. Geography: all 67 territorial authorities (Stats NZ 2026) and 16 regions (2025), official codes, CC BY 4.0. Cross-region authorities sit under the country root rather than a false regional parent. Unswept councils remain pending. See area_profile.md and R001 for checked sources, limits and next priorities."
+}

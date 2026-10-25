@@ -1,0 +1,5 @@
+exclusion_id,name,reason,detail,source_url,run_id
+X0001,Labour,out_of_definition,2026 party policy specifies capital gains tax and explicitly rules out wealth/inheritance taxes. Individual former ministers require separate evidence.,https://www.phcc.org.nz/briefing/election-2026-will-parties-tax-policies-support-public-health-and-equity,R001
+X0002,Opportunity,out_of_definition,Land-value tax alone is outside this register definition.,https://www.phcc.org.nz/briefing/election-2026-will-parties-tax-policies-support-public-health-and-equity,R001
+X0003,Sharing Wealth letter signatories,insufficient_evidence,Generic call for wealthy people to pay more tax is insufficient for a wealth-tax bulk import.,https://www.sharingwealth.nz/,R001
+X0004,Better Taxes coalition members,insufficient_evidence,Coalition membership alone does not prove individual member support for net wealth taxation. Require each member endorsement.,https://www.bettertaxes.nz/,R001
