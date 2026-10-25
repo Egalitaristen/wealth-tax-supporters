@@ -24,6 +24,7 @@ python skill/scripts/match_wikidata.py data/<iso2>       # Wikidata IDs where th
 python skill/scripts/profiles_wikidata.py data/<iso2>    # websites and accounts that Wikidata lists
 python skill/scripts/wtdb.py locate data/<iso2>          # geo_unit_id and location in step
 python skill/scripts/archive_sources.py data/<iso2>      # archive_url from existing Wayback snapshots
+python skill/scripts/seats_uk.py data/gb                 # UK only: who sits in the Commons and Lords today; lists roles and statuses that disagree
 ```
 
 Spot-check a handful of what `match_wikidata.py` filled (the description should fit the person) before going on.
@@ -59,7 +60,10 @@ Their own channels first (website, press releases, speeches, parliamentary recor
 ### 3.4 Still a supporter?
 If their latest statement is from before 2020, or anything suggests a change of mind (a new party, a government role, a vote against), search for their recent position. If they now oppose a wealth tax, add a row with `stance=retracted`, quoting where they said so. The site leaves out anyone whose latest evidence is a retraction, and the files keep the history. If it is unclear, keep them and note it in the run log, not in `notes`.
 
-### 3.5 Facts and finish
+### 3.5 Offices (politicians)
+Every politician needs a row in `positions.csv` for each office they hold or held (`skill/SKILL.md` section 5 and 6.7a): the body, the party, the seat, `start`, and `end` when they left. Check each against the body's own official list (a parliament's member list or API, a council's page) and set `current=y` with `checked=<today>`; for someone no longer on it set `current=n` and the `end` date, and update the actor's `role` and `status=former_role` to match. A person who left a chamber loses the seat on the Seats tab at once, which is the point: outdated tags go away on update. Where a country has a seat refresher (`seats_uk.py` for the UK), run it first and work through what it reports. Never leave `current=y` on a position you did not check, and never touch their evidence rows.
+
+### 3.6 Facts and finish
 Update `role`, `party` and `status` (`former_role` when they no longer hold the role the evidence came from) when a source shows a change. Merge any duplicate you notice (`wtdb.py dedupe`, then `merge`). Then set the date: `python skill/scripts/wtdb.py set data/<iso2> actors <ID> refined=<YYYY-MM-DD>`. Set it also when you found nothing to add, so the queue moves on.
 
 ## 4. End of the run
@@ -79,6 +83,7 @@ Update `role`, `party` and `status` (`former_role` when they no longer hold the 
 
 - **Guessed links.** An account with the right name but no link from the person's own pages may belong to someone else. Leave it out.
 - **Home towns that reveal homes.** Town level at most, and only from a public source about their public life.
+- **Stale seats.** A role that still says "MP for X (at signing, 2021)" for someone who has since left, or `current=y` on an office nobody checked. Re-check offices on every pass.
 - **Rewriting history.** Never edit or delete an existing evidence row because a newer one exists; add the new one. Remove a row only when its quote is not on its page.
 - **Notes that narrate the work.** ("Checked X, nothing found.") That goes in the run log; `notes` are shown to readers.
 - **New supporters.** Someone you meet who is not in the register is a lead for a research run: list them in the run log or `harvest.csv` instead of adding them here.

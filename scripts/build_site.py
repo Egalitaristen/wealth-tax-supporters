@@ -468,7 +468,6 @@ def main():
         if f.suffix in (".js", ".css", ".svg"):
             h = hashlib.md5(f.read_bytes()).hexdigest()[:8]
             html = html.replace(f'"/{f.name}"', f'"/{f.name}?v={h}"')
-    (out / "index.html").write_text(html, encoding="utf-8")
     countries, index, places, full = [], [], [], {}
     for folder in sorted(DATA.iterdir()):
         if folder.is_dir() and (folder / "meta.json").exists():
@@ -499,6 +498,12 @@ def main():
     json.dump(world, open(out / "data" / "world.json", "w", encoding="utf-8"), separators=(",", ":"), ensure_ascii=False)
     json.dump(dict(people=index, places=places), open(out / "data" / "index.json", "w", encoding="utf-8"),
               separators=(",", ":"), ensure_ascii=False)
+    # A hash of the data files goes into the page (meta data-version) and onto each data request.
+    dh = hashlib.md5()
+    for f in sorted((out / "data").iterdir()):
+        dh.update(f.read_bytes())
+    html = html.replace('name="data-version" content=""', f'name="data-version" content="{dh.hexdigest()[:8]}"')
+    (out / "index.html").write_text(html, encoding="utf-8")
     n = share_pages(out, html, countries, full)
     print(f"Built {len(countries)} countr{'y' if len(countries) == 1 else 'ies'} and {n} share pages into {out}")
 
