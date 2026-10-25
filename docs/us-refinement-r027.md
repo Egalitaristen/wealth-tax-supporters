@@ -17,6 +17,7 @@ Completed the next ranked 30-person batch of professional advocates, academics a
 | Selected people still without profiles | 10 |
 | All US actors still without profiles | 392 |
 | Actors / evidence / profiles / positions / bodies | 873 / 1,310 / 1,759 / 472 / 110 |
+| Evidence rows with archive URLs | 622 |
 | Remaining eligible actors with gaps | 649 |
 
 Profiles comprise 22 official/professional pages, three personal websites, two X accounts, two LinkedIn accounts, one Facebook account and one Instagram account. Social accounts are explicitly linked from official or controlled pages, or Wikidata. Employer-wide accounts were excluded. Dana Bronfman's named designer accounts represent her own public professional business. Public professional roles were established for Bronfman, Patitucci and Passon before adding profiles; a wealthy-list signature alone did not establish eligibility.
@@ -97,6 +98,7 @@ These limitations belong in this log, not public-facing process notes. No privat
 - Full site build passed for all 21 countries, including 873 US supporters and 1,310 evidence rows. No deployment.
 - Integrity assertions: exactly the 30 selected actors changed; all were marked refined today; all earlier evidence and profiles preserved; every new profile/evidence row belongs to the batch; no new actors; positions and bodies unchanged.
 - Validation: zero errors. Three short-quote warnings: pre-existing E01065 plus E01305 and E01306's exact two-word formal signatures. These comply with the formal-signature evidence exception and passed the quote checker; no prose was fabricated to remove the warnings.
+- Archive pass: five of six new evidence rows have confirmed Wayback URLs (four distinct sources), bringing the US total to 622. The standard archive runner encountered prolonged HTTP 429 retries; bounded lookup/save requests returned confirmed snapshots for the 2021 PDF, Collins article and Lord article. Patitucci reused the existing verified snapshot for the same signature source. Berkeley podcast lookup returned HTTP 429 and its save request timed out; its archive_url remains blank. The original retrying worker was stopped before recording these confirmed results, avoiding a competing CSV write. Its live transcript passed quotation verification.
 - Preferred Exa search returned HTTP 429. Used available web search, direct primary-page reads and Agent Reach's Jina reader fallback. Failed, stale, blocked and wrong-page URLs were not recorded as profiles. Some newer Warren releases could not be fetched in full and were not added as new evidence.
 
 The next ranked batch starts with Gaya Herrington, Holly Marklyn, James Fletcher, Jean Kaplan, Jeanne Dietsch, Jeffrey Huggett, Jerald Bachman and Joep Meijer. Continue to verify public professional identity and profile eligibility before adding links for wealthy signatories. Preserve uncertainty where names cannot be reliably matched. The queue has 649 eligible actors with gaps; 392 actors overall still have no profiles.
