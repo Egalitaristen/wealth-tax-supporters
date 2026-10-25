@@ -1,0 +1,7 @@
+position_id,actor_id,body_id,role,party,geo_unit_id,start,end,current,member_ref,checked,source_url
+O00001,A0001,B0001,Member of Parliament,PN,G0040,,,y,P008,2026-10-25,https://www.parlimen.gov.my/ahli-dewan.html?uweb=dr&
+O00002,A0002,B0001,Member of Parliament,PH,G0022,,,y,P159,2026-10-25,https://www.parlimen.gov.my/ahli-dewan.html?uweb=dr&
+O00003,A0003,B0001,Member of Parliament,,G0152,,,n,,2026-10-25,https://www.parlimen.gov.my/ahli-dewan.html?uweb=dr&
+O00004,A0004,B0001,Member of Parliament,,G0159,,,n,,2026-10-25,https://www.parlimen.gov.my/ahli-dewan.html?uweb=dr&
+O00005,A0016,B0001,Member of Parliament,MUDA,G0028,,,y,P146,2026-10-25,https://www.parlimen.gov.my/ahli-dewan.html?uweb=dr&
+O00006,A0017,B0001,Member of Parliament,,G0022,,,n,,2026-10-25,https://www.parlimen.gov.my/ahli-dewan.html?uweb=dr&
