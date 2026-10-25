@@ -677,3 +677,12 @@ body:not(.ready) .foot { visibility: hidden; }
 .res-st { margin-top: 8px; font-size: 13px; color: var(--ink-3); }
 .res-st b { font: 600 11px/1 var(--mono); text-transform: uppercase; letter-spacing: .05em; margin-right: 6px; color: var(--ink); }
 @media (max-width: 760px) { .rfilters { grid-template-columns: minmax(0, 1fr); } }
+
+/* parliaments */
+.crow.par { grid-template-columns: 40px minmax(0, 1fr) minmax(0, 2.2fr) 24px; }
+.crow.planned { opacity: .75; }
+.crow.planned:hover { background: none; }
+.crow.planned .st .muted { font-size: 13.5px; color: var(--ink-3); }
+@media (max-width: 760px) { .crow.par { grid-template-columns: minmax(0, 1fr) auto; } .crow.par .st.seatcol { display: block; grid-column: 1 / -1; } .crow.par .iso { display: none; } .crow.par .seatcol .sl { display: flex; } .crow.par .seatcol .sl > span { display: block; } .crow.par .seatcol .sl b { display: block; } }
+@media (max-width: 1160px) { .nav { gap: 14px; font-size: 14px; } .nav a[href="/suggest"] { display: none; } }
+@media (max-width: 980px) { .nav a[href="/contribute"], .nav a[href="/about"] { display: none; } }

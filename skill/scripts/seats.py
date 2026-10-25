@@ -108,11 +108,11 @@ def match(actor, members, by_q, by_norm):
     return None, ""
 
 
-def run(d, adapter, dry=False, fix=False):
+def run(d, adapter, dry=False, fix=False, actors_in=None):
     today = dt.date.today().isoformat()
     db = wtdb.load_all(d)
     chambers = adapter()
-    actors = [x for x in db["actors"] if x["kind"] == "person" and x["actor_type"] == "politician"]
+    actors = actors_in if actors_in is not None else [x for x in db["actors"] if x["kind"] == "person" and x["actor_type"] == "politician"]
     names = {c["name"] for c in chambers}
     bodies = [b for b in db["bodies"] if b["name"] not in names]
     seats = [s for s in db["seats"] if s["body_id"] not in {b["body_id"] for b in db["bodies"] if b["name"] in names}]
@@ -146,8 +146,20 @@ def run(d, adapter, dry=False, fix=False):
         for m in former:
             fn.setdefault(norm(m["name"]), []).append(m)
         role_re = re.compile(c["role_re"])
+        per_country = {}
         for x in actors:
-            m, how = match(x, members, by_q, by_norm)
+            pool = (members, by_q, by_norm)
+            if c.get("by_country") and x.get("_iso"):  # a supranational body: a supporter can only be a member for their own country
+                if x["_iso"] not in per_country:
+                    sub = [m for m in members if m.get("country") == x["_iso"]]
+                    q, n = {}, {}
+                    for m in sub:
+                        if m.get("qid"):
+                            q[m["qid"]] = m
+                        n.setdefault(norm(m["name"]), []).append(m)
+                    per_country[x["_iso"]] = (sub, q, n)
+                pool = per_country[x["_iso"]]
+            m, how = match(x, *pool)
             if m:
                 if c.get("enrich"):
                     m = c["enrich"](m)
@@ -180,6 +192,9 @@ def run(d, adapter, dry=False, fix=False):
     for o in positions:
         if not o["position_id"]:
             o["position_id"] = wtdb.next_id(positions, "positions")
+    if fix and actors_in is not None:
+        print("--fix-status does not apply to a supranational body (the actors belong to the country registers): change those roles by hand")
+        fix = False
     if fix:  # a role that starts with the chamber's role, held by someone who has left it: make it a former role
         by_id = {x["actor_id"]: x for x in actors}
         starts = {b["body_id"]: re.compile(c["role_start"]) for c in chambers for b in bodies if b["name"] == c["name"] and c.get("role_start")}
@@ -769,6 +784,24 @@ def new_zealand():
                           "New Zealand First": "111111", "National Party": "00529f", "ACT Party": "fde401"})]
 
 
+def european_parliament():
+    """The European Parliament (720 seats): data.europarl.europa.eu open data (sitting MEPs, their country and political group).
+    Run `seats.py data/eu`: supporters are matched across every country register, by the MEP's own country."""
+    d = get("https://data.europarl.europa.eu/api/v2/meps/show-current?format=application%2Fld%2Bjson&offset=0&limit=1000")["data"]
+    GROUP = {"The Left": "The Left", "S&D": "S&D", "Verts/ALE": "Greens/EFA", "Renew": "Renew Europe", "PPE": "EPP", "ECR": "ECR",
+             "PfE": "Patriots for Europe", "ESN": "Europe of Sovereign Nations", "NI": "Non-attached"}
+    members = [dict(name=f"{m['givenName']} {m['familyName']}".strip(), party=GROUP.get(m.get("api:political-group"), m.get("api:political-group", "")),
+                    ref=m["identifier"], country=m.get("api:country-of-representation", ""), place=m.get("api:country-of-representation", ""),
+                    url=f"https://www.europarl.europa.eu/meps/en/{m['identifier']}") for m in d]
+    return [dict(name="European Parliament", level="supranational", seats=720, source_url="https://data.europarl.europa.eu/api/v2/meps/show-current",
+                 note="720 seats, elected in June 2024 from the 27 member states. Who sits, their country and political group are from the Parliament's open data. A seat is listed under the member's group, not their national party.",
+                 role="MEP", role_re=r"(?i)(?<!former )\bMEP\b|member of the european parliament", role_start=r"(?i)(MEP|member of the european parliament)",
+                 members=members, former=[], by_country=True,
+                 party_order=["The Left", "S&D", "Greens/EFA", "Renew Europe", "EPP", "ECR", "Patriots for Europe", "Europe of Sovereign Nations", "Non-attached"],
+                 colours={"The Left": "8b1a1a", "S&D": "e4003b", "Greens/EFA": "3fa535", "Renew Europe": "ffcc00", "EPP": "3399ff", "ECR": "1a6fa8",
+                          "Patriots for Europe": "4b2e83", "Europe of Sovereign Nations": "7a5a2e", "Non-attached": "8a8680"})]
+
+
 def scottish_parliament():
     """The Scottish Parliament (129 seats: 73 constituency + 56 regional): data.parliament.scot open data. Used for the UK register with
     `seats.py data/gb --adapter scottish_parliament` (the Commons and Lords come from seats_uk.py)."""
@@ -816,7 +849,7 @@ def scottish_parliament():
 
 
 
-ADAPTERS = {"nz": new_zealand, "se": sweden, "de": germany, "nl": netherlands, "no": norway, "fr": france, "br": brazil, "ca": canada, "es": spain, "pl": poland, "be": belgium, "in": india, "jp": japan, "my": malaysia, "sg": singapore, "id": indonesia, "ng": nigeria, "cn": china, "scottish_parliament": scottish_parliament}
+ADAPTERS = {"nz": new_zealand, "se": sweden, "de": germany, "nl": netherlands, "no": norway, "fr": france, "br": brazil, "ca": canada, "es": spain, "pl": poland, "be": belgium, "in": india, "jp": japan, "my": malaysia, "sg": singapore, "id": indonesia, "ng": nigeria, "cn": china, "scottish_parliament": scottish_parliament, "european_parliament": european_parliament, "eu": european_parliament}
 
 
 def main():
@@ -835,7 +868,15 @@ def main():
     cc = a.adapter or Path(a.dir).name.split("-")[0]
     if cc not in ADAPTERS:
         sys.exit(f"No adapter for '{cc}'. Have: {', '.join(sorted(ADAPTERS))}. Add one to ADAPTERS in this file.")
-    run(a.dir, ADAPTERS[cc], a.dry_run, a.fix_status)
+    actors_in = None
+    if ADAPTERS[cc] is european_parliament:  # supporters sit in the register of their own country: look across all of them
+        actors_in = []
+        for sib in sorted(p for p in Path(a.dir).resolve().parent.iterdir() if (p / "actors.csv").exists() and p.name != Path(a.dir).name):
+            iso = json.load(open(sib / "meta.json", encoding="utf-8")).get("iso2", sib.name.split("-")[0]).upper()
+            for x in wtdb.load(str(sib), "actors"):
+                if x["kind"] == "person" and x["actor_type"] == "politician":
+                    actors_in.append(dict(x, actor_id=f"{sib.name}-{x['actor_id']}", _iso=iso))
+    run(a.dir, ADAPTERS[cc], a.dry_run, a.fix_status, actors_in)
 
 
 if __name__ == "__main__":
