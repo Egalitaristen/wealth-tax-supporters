@@ -1,5 +1,4 @@
 body_id,name,level,kind,seats,as_of,source_url,seat_view,notes
-B0003,Scottish Parliament,regional,chamber,,,,,
 B0004,Senedd Cymru,regional,chamber,,,,,
 B0005,London Assembly,regional,chamber,,,,,
 B0006,Hackney Council,local,council,,,,,
@@ -25,3 +24,4 @@ B0028,Lewes District Council,local,council,,,,,
 B0001,House of Commons,national,chamber,650,2026-10-25,https://members.parliament.uk/members/commons,y,
 B0002,House of Lords,national,chamber,816,2026-10-25,https://members.parliament.uk/members/lords,y,
 B0029,Southwark Council,local,council,,2026-10-25,https://moderngov.southwark.gov.uk/mgUserInfo.aspx?UID=50003423,,
+B0003,Scottish Parliament,regional,chamber,129,2026-10-25,https://data.parliament.scot/api/members,y,"129 seats: 73 constituency and 56 regional members, elected on 7 May 2026. Who sits and each member's party are from the Parliament's open data."

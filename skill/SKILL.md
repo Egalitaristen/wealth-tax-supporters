@@ -235,6 +235,7 @@ python skill/scripts/wtdb.py checkquotes data/gb --run R004   # fetch sources an
 python skill/scripts/profiles_wikidata.py data/gb  # websites, socials and Wikipedia from Wikidata IDs
 python skill/scripts/topo_to_boundaries.py counties-albers-10m.json --object counties --code-prop id --scale 4 --simplify 0.8 --out data/us/boundaries.json
 python skill/scripts/seats_uk.py data/gb          # UK only: Commons and Lords seats and sitting members from the Parliament API
+python skill/scripts/seats.py data/gb --adapter scottish_parliament   # the Scottish Parliament (129 MSPs) from data.parliament.scot; --adapter picks a chamber set other than the country's own
 python skill/scripts/seats_us.py data/us          # US only: Senate and House seats and sitting members (congress-legislators, CC0)
 python skill/scripts/seats.py data/se             # se, de, nl, no, fr, br, ca, es, pl, be, in, jp, my, sg, id, ng, cn, nz: the chamber's seats and sitting members from the parliament's open data; --fix-status marks those who left as former
 python skill/scripts/wtdb.py status data/gb       # counts, coverage grid, sweep progress, suggested next targets
