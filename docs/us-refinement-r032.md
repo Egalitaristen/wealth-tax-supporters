@@ -87,3 +87,13 @@ The whole-country Wikidata/profile passes from R023/R024 and federal-office pass
 ## Archiving
 
 Attempted all five new sources with the archive helper’s save option. The original long-running attempt was replaced with bounded 12-second request timeouts and no repeated 429 retries. Every availability lookup returned HTTP 429; save requests returned HTTP 520 or timed out. No new snapshot was obtained. The 631 existing archived evidence rows are preserved, and all five original source URLs remain in the database. These archive failures do not negate the verified live quotations.
+
+## Review corrections (whole US stack, #87 to #112)
+
+Three evidence rows from the stack were removed after review; no actor lost their place in the register, because each already had stronger evidence or another row:
+
+- E01300 (John Fetterman, "This bill is about basic fairness"): the quote names no tax, and his cosponsorship of the Billionaires Income Tax Act is already recorded as grade A (E00419).
+- E01308 (Chuck Collins, "Two bold proposals ... should be celebrated and supported"): the quote does not name a wealth tax, and his own call for a national wealth tax is already recorded as grade A (E00934).
+- E01318 (Michael Mezzatesta, LinkedIn post about a "billionaire climate tax"): the quote has no wealth wording, and the post could not be read to check it. He stays on the register through E00689.
+
+Also checked and left as is: the 17 Oligarch Act cosponsor rows (H.R. 4919, an annual wealth tax; dates and cosponsor status match the official bill record), seat counts (25 senators and 80 representatives lit, the same as before the stack), and no personal data in quotes.
