@@ -150,6 +150,33 @@ def unit_path(uid, by_id):
 
 
 # ---------- per-country data ----------
+RESOURCE_KINDS = ("poll", "paper", "report", "bill")
+
+
+def load_resources(countries):
+    """Polls (from each country's meta.json) and the papers, reports and bills in data/resources.json, as one list for the Resources page."""
+    names = {c["slug"]: c["name"] for c in countries}
+    out = []
+    for c in countries:
+        for p in c.get("polls", []):
+            out.append(dict(kind="poll", country=c["slug"], title=p["question"], by=" for ".join(x for x in (p.get("pollster"), p.get("commissioned_by")) if x),
+                            published=str(p.get("published", "")), url=p["url"], fig=p.get("support_text") or (f"{p['support']}%" if p.get("support") is not None else ""),
+                            summary=" · ".join(str(x) for x in (p.get("scope"), p.get("sample")) if x)))
+    path = DATA / "resources.json"
+    for r in json.load(open(path, encoding="utf-8")) if path.exists() else []:
+        if r.get("kind") not in RESOURCE_KINDS or r["kind"] == "poll":
+            raise SystemExit(f"resources.json: bad kind {r.get('kind')!r} in {r.get('title')!r}")
+        if not str(r.get("url", "")).startswith("https://") or not r.get("title") or not r.get("by") or not r.get("published"):
+            raise SystemExit(f"resources.json: needs title, by, published and an https url: {r.get('title')!r}")
+        if r.get("country") != "global" and r.get("country") not in names:
+            raise SystemExit(f"resources.json: unknown country {r.get('country')!r} in {r.get('title')!r}")
+        out.append({k: r[k] for k in ("kind", "country", "title", "by", "published", "url", "summary", "status", "level") if r.get(k)})
+    for r in out:
+        r["cname"] = names.get(r["country"], "Global")
+    out.sort(key=lambda r: (r["published"], r["title"]), reverse=True)
+    return out
+
+
 def build_country(folder):
     meta = json.load(open(folder / "meta.json", encoding="utf-8"))
     slug = folder.name
@@ -387,13 +414,12 @@ def share_pages(out, base, countries, full):
     write("/about", "How the register is built · Wealth Tax Supporters",
           "What counts as support for a wealth tax, how statements are sourced and graded, and how to report a mistake.",
           "about", "How the register is built", lambda o: cards.page_card(o, "Method", "How the register is built", "Sourced, graded and open: every name links to where they said it."))
-    n_polls = sum(len(c.get("polls") or []) for c in countries)
     write("/countries", "Countries · Wealth Tax Supporters",
           f"The {tot['countries']} countries researched so far, with supporters found and seats in the national chambers.",
           "countries", "Country by country", lambda o: cards.page_card(o, "Countries", "Country by country", f"{tot['countries']} countries so far, each researched separately."))
-    write("/polls", "What polls say about a wealth tax · Wealth Tax Supporters",
-          f"{n_polls} polls on a wealth tax, each shown with its question and checked against the pollster's own report.",
-          "polls", "What polls say", lambda o: cards.page_card(o, "Polls", "What polls say", "How many people agree, poll by poll, with the question asked."))
+    write("/resources", "Resources: polls, papers, reports and bills · Wealth Tax Supporters",
+          "Polls, research papers, reports and bills on a wealth tax, from every country in the register and beyond, filterable by place and type.",
+          "resources", "Resources on a wealth tax", lambda o: cards.page_card(o, "Resources", "Polls, papers, reports and bills", "What the evidence and the legislation say about a wealth tax."))
     write("/contribute", "Put your country on the map · Wealth Tax Supporters",
           "Start a register for your country, suggest a supporter, or help check the entries that are already here.",
           "contribute", "Put your country on the map", lambda o: cards.page_card(o, "Contribute", "Put your country on the map", "Start a register for your country, or suggest a supporter."))
@@ -504,7 +530,8 @@ def main():
     for c in (pycountry.countries if pycountry else []):
         if c.alpha_2 not in own and c.numeric not in paths:
             every.add(getattr(c, "common_name", None) or c.name)
-    world = dict(paths=paths, countries=countries, all_countries=sorted(every), built=datetime.date.today().isoformat())
+    world_resources = load_resources(countries)
+    world = dict(paths=paths, countries=countries, resources=world_resources, all_countries=sorted(every), built=datetime.date.today().isoformat())
     json.dump(world, open(out / "data" / "world.json", "w", encoding="utf-8"), separators=(",", ":"), ensure_ascii=False)
     json.dump(dict(people=index, places=places), open(out / "data" / "index.json", "w", encoding="utf-8"),
               separators=(",", ":"), ensure_ascii=False)
