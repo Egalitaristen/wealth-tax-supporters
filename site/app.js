@@ -583,8 +583,44 @@ function seatsSection(box, D, slug) {
   const person = new Map(D.P.map(p => [p[P_.id], p]));
   box.innerHTML = `<section class="c-sec">
     <div class="sec-head"><div><div class="kicker">Seats</div><h2>Who sits in the chamber</h2></div>
-      <p>One dot per seat, grouped by party. A lit dot is a sitting member whose public support for a wealth tax is on the record here. An unlit seat means nothing found yet, not that the member is against it. Click a lit dot to open the member.</p></div>
+      <p>One dot per seat, grouped by party. A lit dot is a sitting member whose public support for a wealth tax is on the record here. An unlit seat means nothing found yet, not that the member is against it. Hover a dot to see who it is; click a lit dot or a name for a short profile, and open the full profile from there.</p></div>
     ${D.legis.map(b => bodyHtml(b, person, slug)).join('')}</section>`;
+  // An instant label on hover (the browser's own tooltip waits too long), and a floating profile preview on click.
+  const tip = document.createElement('div'), pv = document.createElement('aside');
+  tip.className = 'seat-tip'; tip.hidden = true; tip.setAttribute('role', 'tooltip');
+  pv.className = 'seat-pv'; pv.hidden = true; pv.setAttribute('aria-live', 'polite');
+  document.body.append(tip, pv);
+  const moveTip = e => {
+    const w = tip.offsetWidth, h = tip.offsetHeight;
+    tip.style.left = Math.max(8, Math.min(e.clientX + 14, innerWidth - w - 8)) + 'px';
+    tip.style.top = (e.clientY - h - 14 < 8 ? e.clientY + 18 : e.clientY - h - 14) + 'px';
+  };
+  box.addEventListener('mouseover', e => {
+    const c = e.target.closest('circle[data-tip]');
+    if (!c) return;
+    tip.textContent = c.dataset.tip; tip.hidden = false; moveTip(e);
+  });
+  box.addEventListener('mousemove', e => { if (!tip.hidden) moveTip(e); });
+  box.addEventListener('mouseout', e => { if (e.target.closest('circle[data-tip]')) tip.hidden = true; });
+  const close = () => { pv.hidden = true; $$('.hemi .st.sel', box).forEach(c => c.classList.remove('sel')); };
+  const open = id => {
+    const p = D.byId[id];
+    if (!p) return false;
+    pv.innerHTML = profilePreview(D, slug, p);
+    pv.scrollTop = 0; pv.hidden = false; tip.hidden = true;
+    $('.pv-close', pv).onclick = close;
+    $$('.hemi .st.sel', box).forEach(c => c.classList.remove('sel'));
+    $$(`.hemi a[data-pid="${CSS.escape(id)}"] circle`, box).forEach(c => c.classList.add('sel'));
+    return true;
+  };
+  box.addEventListener('click', e => {
+    const a = e.target.closest('a[data-pid]');
+    if (!a || e.button || e.metaKey || e.ctrlKey || e.shiftKey || e.altKey) return;
+    if (open(a.dataset.pid)) e.preventDefault();  // a plain click previews; the full profile is one more click
+  });
+  const keys = e => { if (e.key === 'Escape' && !pv.hidden) close(); };
+  document.addEventListener('keydown', keys);
+  leaving = () => { document.removeEventListener('keydown', keys); tip.remove(); pv.remove(); };
 }
 function bodyHtml(b, person, slug) {
   const {pts, dot} = hemicycle(b.seats), W = 220, H = 118, cx = 110, cy = 112, S = 100;
@@ -595,15 +631,15 @@ function bodyHtml(b, person, slug) {
     const fill = seatColour(colour), who = new Map(ids.map((id, k) => [Math.floor((k + .5) * n / ids.length), id]));  // spread lit seats through the block
     return own.map((pt, i) => {
       const x = (cx + pt.x * S).toFixed(1), y = (cy + pt.y * S).toFixed(1), r = (dot * S).toFixed(1), id = who.get(i), p = id && person.get(id);
-      return p ? `<a href="/${slug}/${esc(id)}"><circle class="st on" cx="${x}" cy="${y}" r="${r}"><title>${esc(p[P_.name])} · ${esc(party)}</title></circle></a>`
-               : `<circle class="st" cx="${x}" cy="${y}" r="${r}" fill="${fill}"><title>${esc(party)}: nothing found yet</title></circle>`;
+      return p ? `<a href="/${slug}/${esc(id)}" data-pid="${esc(id)}" aria-label="${esc(p[P_.name])}, ${esc(party)}"><circle class="st on" cx="${x}" cy="${y}" r="${r}" fill="${fill}" data-tip="${esc(p[P_.name])} · ${esc(party)}"></circle></a>`
+               : `<circle class="st" cx="${x}" cy="${y}" r="${r}" fill="${fill}" data-tip="${esc(party)}: nothing found yet"></circle>`;
     }).join('');
   }).join('');
   const rows = b.parties.map(([party, n, colour, ids]) => {
     const names = ids.map(id => person.get(id)).filter(Boolean).sort((a, c) => a[P_.name].localeCompare(c[P_.name]));
     const pct = n && ids.length ? ` · ${(ids.length / n * 100).toFixed(ids.length / n < .1 ? 1 : 0)}%` : '';
     return `<div class="sp"><div class="sp-h"><i style="background:${seatColour(colour)}"></i><b>${esc(party)}</b><span>${fmt(ids.length)} of ${fmt(n)}${pct}</span></div>
-      ${names.length ? `<p>${names.map(p => `<a href="/${slug}/${esc(p[P_.id])}">${esc(p[P_.name])}</a>`).join(', ')}</p>` : ''}</div>`;
+      ${names.length ? `<p>${names.map(p => `<a href="/${slug}/${esc(p[P_.id])}" data-pid="${esc(p[P_.id])}">${esc(p[P_.name])}</a>`).join(', ')}</p>` : ''}</div>`;
   }).join('');
   return `<div class="legis">
     <div class="legis-head"><h3>${esc(b.name)}</h3><p><b>${fmt(lit)}</b> of ${fmt(b.seats)} seats held by a supporter found so far · seats as of ${esc(b.as_of)}${b.src ? ` · ${ext(b.src, 'source')}` : ''}</p>${b.note ? `<p class="legis-note">${esc(b.note)}</p>` : ''}</div>
