@@ -3,7 +3,7 @@
 
 Usage: python skill/scripts/refine_queue.py data/<iso2> [--n 60] [--days 180] [--out batch.csv]
 
-Each actor gets a score from its gaps, links first, as the refine skill orders the work:
+Each actor gets a score from its gaps, links first, as the refine skill orders the work (a politician with no positions.csv row, or an active one whose office was never checked, also counts; someone who holds a lit seat on the Seats tab comes first: "verify seat"):
   no website or profile link           4
   placed coarser than they could be    2   (a person or local body at the country or region level; not a legislator
                                            already in their seat, or a foreign figure)
@@ -33,6 +33,10 @@ def main():
     for e in db["evidence"]:
         ev[e["actor_id"]].append(e)
     linked = {p["actor_id"] for p in db["profiles"]}
+    held = defaultdict(list)
+    for o in db["positions"]:
+        held[o["actor_id"]].append(o)
+    charted = {b["body_id"] for b in db["bodies"] if b.get("seat_view") == "y"}
     cutoff = (dt.date.today() - dt.timedelta(days=a.days)).isoformat()
     rows = []
     for r in db["actors"]:
@@ -54,6 +58,13 @@ def main():
             gaps.append("one statement"); score += 1.5
         if max(e["date"] for e in es)[:4] < "2020":
             gaps.append("still current?"); score += 1.5
+        if any(o["current"] == "y" and o["body_id"] in charted for o in held.get(r["actor_id"], [])):
+            gaps.append("verify seat"); score += 50  # a lit seat on the Seats tab: always first in the queue (refine skill 3.5)
+        if r["kind"] == "person" and r.get("actor_type") == "politician":
+            if not held.get(r["actor_id"]):
+                gaps.append("office"); score += 1.5
+            elif r.get("status") == "active" and not any(o["current"] for o in held[r["actor_id"]]):
+                gaps.append("check office"); score += 1.5
         if r["kind"] == "person" and not r.get("wikidata_qid"):
             gaps.append("wikidata"); score += 1
         if r.get("prominence") in ("national", "international"):

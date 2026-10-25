@@ -1,0 +1,5 @@
+position_id,actor_id,body_id,role,party,geo_unit_id,start,end,current,member_ref,checked,source_url
+O00001,A0001,B0001,Member of Parliament,WP,G0047,,,y,jamus-jerome-lim-chee-wui,2026-10-25,https://www.parliament.gov.sg/mps/list-of-current-mps/mp/details/jamus-jerome-lim-chee-wui
+O00002,A0003,B0001,Member of Parliament,WP,G0023,,,y,pritam-singh,2026-10-25,https://www.parliament.gov.sg/mps/list-of-current-mps/mp/details/pritam-singh
+O00003,A0004,B0001,Member of Parliament,WP,G0047,,,y,louis-chua-kheng-wee,2026-10-25,https://www.parliament.gov.sg/mps/list-of-current-mps/mp/details/louis-chua-kheng-wee
+O00004,A0005,B0001,Member of Parliament,,G0009,,,n,,2026-10-25,https://www.parliament.gov.sg/mps/list-of-current-mps

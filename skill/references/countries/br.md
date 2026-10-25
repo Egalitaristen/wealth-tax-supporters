@@ -21,3 +21,4 @@ python skill/scripts/topo_to_boundaries.py bra_admbnda_adm2_ibge_2020.shp --name
 python skill/scripts/topo_to_boundaries.py bra_admbnda_adm1_ibge_2020.shp --name-prop ADM1_PT --code-prop ADM1_PCODE   --simplify 0.8 $L --code-scheme "IBGE state codes" --out uf.json
 python skill/scripts/merge_boundaries.py mun.json --regions uf.json --out data/br/boundaries.json
 ```
+- **Seats:** `python skill/scripts/seats.py data/br` reads the Câmara's API (`dadosabertos.camara.leg.br`, 513 deputies in office, a serving substitute holds the seat of a deputy on leave) and the Senado's (`legis.senado.leg.br/dadosabertos/senador/lista/atual`, 81, needs the `Accept: application/json` header). A deputy of the current legislature who is not serving is checked one by one: on leave (Licença, Afastado) is not 'former' and is left as is; Fim de Mandato is former, with the end date. Parties are the official abbreviations. Names are the parliamentary names the register already uses.

@@ -1,0 +1,7 @@
+seat_id,body_id,party,seats,colour,order
+S0001,B0001,Green Party,1,3d9b35,1
+S0002,B0001,NDP,5,f37021,2
+S0003,B0001,Bloc Québécois,21,33b2cc,3
+S0004,B0001,Liberal,173,d71920,4
+S0005,B0001,Conservative,137,1a4782,5
+S0006,B0001,Vacant,6,,6

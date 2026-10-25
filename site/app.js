@@ -39,7 +39,9 @@ const E_ = {actor: 0, date: 1, grade: 2, type: 3, des: 4, detail: 5, quote: 6, u
 
 // ---------- data ----------
 const cache = {};
-const getJSON = url => cache[url] || (cache[url] = fetch(url).then(r => { if (!r.ok) throw new Error(r.status + ' ' + url); return r.json(); }));
+// The build stamps a hash of the data files into the page, so each deploy fetches fresh data instead of a cached copy (data is cached for five minutes).
+const DV = document.querySelector('meta[name=data-version]')?.content || '';
+const getJSON = url => cache[url] || (cache[url] = fetch(DV ? `${url}?v=${DV}` : url).then(r => { if (!r.ok) throw new Error(r.status + ' ' + url); return r.json(); }));
 const WORLD = () => getJSON('/data/world.json');
 const INDEX = () => getJSON('/data/index.json');
 const prepared = {};
@@ -116,7 +118,7 @@ async function render(fresh) {
   leaving(); leaving = () => {};
   const parts = location.pathname.split('/').filter(Boolean).map(decodeURIComponent);
   const params = new URLSearchParams(location.search);
-  $$('.nav a').forEach(a => a.removeAttribute('aria-current'));
+  $$('.nav a, .fb-link').forEach(a => a.removeAttribute('aria-current'));
   try {
     const W = await WORLD();
     $('#built').textContent = `Data built ${W.built} · ${W.countries.length} countries · ${fmt(W.countries.reduce((n, c) => n + c.supporters, 0))} supporters`;
@@ -125,12 +127,13 @@ async function render(fresh) {
     else if (parts[0] === 'about' && parts.length === 1) aboutPage(W);
     else if (parts[0] === 'contribute' && parts.length === 1) contributePage(W);
     else if (parts[0] === 'suggest' && parts.length === 1) suggestPage(W, params);
+    else if (parts[0] === 'feedback' && parts.length === 1) feedbackPage(params);
     else if (country && parts.length === 1) await countryPage(country.slug, params);
     else if (country && parts.length === 2 && SECTIONS[parts[1]]) await countryPage(country.slug, params, parts[1]);
     else if (country && parts.length === 2) await personPage(country.slug, parts[1]);
     else notFound();
-    const navKey = {about: '/about', contribute: '/contribute', suggest: '/suggest'}[parts[0]] || null;
-    if (navKey) $$('.nav a').forEach(a => { if (a.getAttribute('href') === navKey) a.setAttribute('aria-current', 'page'); });
+    const navKey = {about: '/about', contribute: '/contribute', suggest: '/suggest', feedback: '/feedback'}[parts[0]] || null;
+    if (navKey) $$('.nav a, .fb-link').forEach(a => { if (a.getAttribute('href') === navKey) a.setAttribute('aria-current', 'page'); });
   } catch (err) {
     console.error(err);
     main.innerHTML = `<div class="wrap page-head"><div class="kicker">Something went wrong</div><h1>Could not load the data.</h1>
@@ -498,7 +501,7 @@ function worldMap(box, W) {
 
 // ---------- country ----------
 // A country has four pages: /gb (overview and map), /gb/directory, /gb/time and /gb/method.
-const SECTIONS = {map: 'Map', directory: 'Directory', time: 'Over time', method: 'Method'};
+const SECTIONS = {map: 'Map', seats: 'Seats', directory: 'Directory', time: 'Over time', method: 'Method'};
 function countryStats(D) {
   const perYear = {};
   D.E.forEach(e => { const y = +year(e[E_.date]); if (y) perYear[y] = (perYear[y] || 0) + 1; });
@@ -509,6 +512,7 @@ function countryStats(D) {
 async function countryPage(slug, params, section = 'map') {
   main.innerHTML = '<div class="loading">Loading</div>';
   const D = await loadCountry(slug), m = D.meta, S = countryStats(D);
+  if (section === 'seats' && !(D.legis || []).length) section = 'map';
   if (section === 'map' && !D.C.length) section = 'directory';
   setTitle(section === 'map' ? m.name : `${SECTIONS[section]} · ${m.name}`);
   const base = `/${slug}`;
@@ -534,6 +538,7 @@ async function countryPage(slug, params, section = 'map') {
   </div>
   <nav class="c-tabs" aria-label="${esc(m.name)} pages"><div class="wrap">
     ${D.C.length ? tab('map', base, `${fmt(m.units_with_supporters)} areas with supporters`) : ''}
+    ${(D.legis || []).length ? tab('seats', `${base}/seats`, seatsTabSub(D)) : ''}
     ${tab('directory', `${base}/directory`, `${fmt(m.supporters)} entries`)}
     ${tab('time', `${base}/time`, years.length ? years[0] + '–' + years[years.length - 1] : 'by year')}
     ${tab('method', `${base}/method`, 'sources and downloads')}
@@ -541,9 +546,69 @@ async function countryPage(slug, params, section = 'map') {
   <div class="wrap" id="csec"></div>`;
   const box = $('#csec');
   if (section === 'map') mapSection(box, D, slug, params);
+  else if (section === 'seats') seatsSection(box, D, slug);
   else if (section === 'directory') directorySection(box, D, slug, params);
   else if (section === 'time') timeSection(box, D, slug, S);
   else methodSection(box, D, slug);
+}
+// ---------- seats: each chamber as a hemicycle, one dot per seat, lit where a supporter sits today ----------
+const litIn = body => body.parties.reduce((n, q) => n + q[3].length, 0);
+function seatsTabSub(D) {
+  const lit = D.legis.reduce((n, b) => n + litIn(b), 0), all = D.legis.reduce((n, b) => n + b.seats, 0);
+  return `${fmt(lit)} of ${fmt(all)} seats`;
+}
+// Dot positions for n seats in a half ring: rows of seats whose count grows with the radius, listed from the
+// left end of the arc to the right so that neighbouring party blocks form wedges.
+function hemicycle(n) {
+  const r0 = 0.32;
+  let rows = 1;
+  const cap = R => { const dr = (1 - r0) / R; let c = 0; for (let i = 0; i < R; i++) c += Math.floor(Math.PI * (r0 + (i + .5) * dr) / dr); return c; };
+  while (cap(rows) < n) rows++;
+  const dr = (1 - r0) / rows, rad = i => r0 + (i + .5) * dr, sum = Array.from({length: rows}, (_, i) => rad(i)).reduce((a, b) => a + b, 0);
+  const raw = Array.from({length: rows}, (_, i) => n * rad(i) / sum), per = raw.map(Math.floor);
+  let left = n - per.reduce((a, b) => a + b, 0);
+  raw.map((v, i) => [v - Math.floor(v), i]).sort((a, b) => b[0] - a[0]).forEach(([, i]) => { if (left > 0) { per[i]++; left--; } });
+  const pts = [];
+  per.forEach((k, i) => { for (let j = 0; j < k; j++) { const a = k === 1 ? Math.PI / 2 : Math.PI * (1 - j / (k - 1)); pts.push({a, r: rad(i), x: Math.cos(a) * rad(i), y: -Math.sin(a) * rad(i)}); } });
+  pts.sort((p, q) => q.a - p.a || p.r - q.r);
+  return {pts, dot: dr * 0.43};
+}
+function seatColour(hex) {
+  const h = (hex || '').replace('#', '');
+  if (!/^[0-9a-f]{6}$/i.test(h)) return '#8a8680';
+  const l = (parseInt(h.slice(0, 2), 16) * 0.299 + parseInt(h.slice(2, 4), 16) * 0.587 + parseInt(h.slice(4, 6), 16) * 0.114) / 255;
+  return l > 0.88 ? '#8a8680' : '#' + h;
+}
+function seatsSection(box, D, slug) {
+  const person = new Map(D.P.map(p => [p[P_.id], p]));
+  box.innerHTML = `<section class="c-sec">
+    <div class="sec-head"><div><div class="kicker">Seats</div><h2>Who sits in the chamber</h2></div>
+      <p>One dot per seat, grouped by party. A lit dot is a sitting member whose public support for a wealth tax is on the record here. An unlit seat means nothing found yet, not that the member is against it. Click a lit dot to open the member.</p></div>
+    ${D.legis.map(b => bodyHtml(b, person, slug)).join('')}</section>`;
+}
+function bodyHtml(b, person, slug) {
+  const {pts, dot} = hemicycle(b.seats), W = 220, H = 118, cx = 110, cy = 112, S = 100;
+  const lit = litIn(b);
+  let at = 0;
+  const dots = b.parties.map(([party, n, colour, ids]) => {
+    const own = pts.slice(at, at + n); at += n;
+    const fill = seatColour(colour), who = new Map(ids.map((id, k) => [Math.floor((k + .5) * n / ids.length), id]));  // spread lit seats through the block
+    return own.map((pt, i) => {
+      const x = (cx + pt.x * S).toFixed(1), y = (cy + pt.y * S).toFixed(1), r = (dot * S).toFixed(1), id = who.get(i), p = id && person.get(id);
+      return p ? `<a href="/${slug}/${esc(id)}"><circle class="st on" cx="${x}" cy="${y}" r="${r}"><title>${esc(p[P_.name])} · ${esc(party)}</title></circle></a>`
+               : `<circle class="st" cx="${x}" cy="${y}" r="${r}" fill="${fill}"><title>${esc(party)}: nothing found yet</title></circle>`;
+    }).join('');
+  }).join('');
+  const rows = b.parties.map(([party, n, colour, ids]) => {
+    const names = ids.map(id => person.get(id)).filter(Boolean).sort((a, c) => a[P_.name].localeCompare(c[P_.name]));
+    const pct = n && ids.length ? ` · ${(ids.length / n * 100).toFixed(ids.length / n < .1 ? 1 : 0)}%` : '';
+    return `<div class="sp"><div class="sp-h"><i style="background:${seatColour(colour)}"></i><b>${esc(party)}</b><span>${fmt(ids.length)} of ${fmt(n)}${pct}</span></div>
+      ${names.length ? `<p>${names.map(p => `<a href="/${slug}/${esc(p[P_.id])}">${esc(p[P_.name])}</a>`).join(', ')}</p>` : ''}</div>`;
+  }).join('');
+  return `<div class="legis">
+    <div class="legis-head"><h3>${esc(b.name)}</h3><p><b>${fmt(lit)}</b> of ${fmt(b.seats)} seats held by a supporter found so far · seats as of ${esc(b.as_of)}${b.src ? ` · ${ext(b.src, 'source')}` : ''}</p>${b.note ? `<p class="legis-note">${esc(b.note)}</p>` : ''}</div>
+    <svg class="hemi" viewBox="0 0 ${W} ${H}" role="img" aria-label="${esc(b.name)}: ${lit} of ${b.seats} seats held by a supporter found so far">${dots}</svg>
+    <div class="sps">${rows}</div></div>`;
 }
 function overviewHtml(D, S, base) {
   const {perYear, years} = S;
@@ -1126,7 +1191,59 @@ function suggestPage(W, params) {
   });
 }
 
+// ---------- feedback and bug reports ----------
+function feedbackPage(params) {
+  setTitle('Feedback and bug reports');
+  const bug = params.get('kind') === 'bug';
+  const from = params.get('page') || (document.referrer && new URL(document.referrer).origin === location.origin ? new URL(document.referrer).pathname : '');
+  main.innerHTML = `
+  <div class="wrap page-head fade"><div class="kicker">Feedback</div><h1>Tell us what <em>to fix or improve.</em></h1>
+    <p class="lede" style="margin-top:18px">Something broken, confusing or missing? An idea for the site? Write it here. No account needed.</p></div>
+  <div class="wrap two" style="margin-top:36px">
+    <form class="suggest" id="feedback-form" novalidate>
+      <fieldset class="kinds"><legend>What is it?</legend>
+        <label><input type="radio" name="kind" value="feedback"${bug ? '' : ' checked'}> Feedback or an idea</label>
+        <label><input type="radio" name="kind" value="bug"${bug ? ' checked' : ''}> A bug</label>
+      </fieldset>
+      <label><span>Your message <b>*</b></span><textarea class="field" name="message" rows="7" required maxlength="4000" id="fb-message"></textarea></label>
+      <label><span>Which page?</span><input class="field" name="page" maxlength="300" value="${esc(from)}" placeholder="For example /gb or /us/A0730" autocomplete="off"></label>
+      <label><span>Email, if you would like a reply</span><input class="field" name="contact" type="email" maxlength="200" placeholder="Optional" autocomplete="off"><small>Only used to answer you about this message.</small></label>
+      <label class="hp" aria-hidden="true">Leave this empty<input name="website" tabindex="-1" autocomplete="off"></label>
+      <div class="suggest-foot"><button class="btn" type="submit" id="fb-send">Send</button><span class="sg-msg" id="fb-msg" role="status"></span></div>
+      <p class="fine">We don't ask who you are. To stop spam we keep a scrambled code of your connection that changes every day and can't be traced back to you. For a bug we also keep your browser's name and version, to reproduce it.</p>
+    </form>
+    <aside class="aside-card"><h3>Other ways</h3>
+      <p>Prefer to talk it through? Join the Discord.</p>
+      <p><a class="btn sm" href="${DISCORD}" target="_blank" rel="noopener">Join the Discord ↗</a></p>
+      <p style="margin-top:18px">Found a mistake in a person's entry? Report it on GitHub, where it is tracked until it is fixed.</p>
+      <p><a class="btn sm ghost" href="${esc(issueUrl('Report: '))}" target="_blank" rel="noopener">Report a mistake ↗</a></p>
+      <p class="fine" style="margin-top:18px">Know a supporter we are missing? <a href="/suggest">Suggest a supporter</a>.</p></aside>
+  </div>`;
+  const form = $('#feedback-form'), msg = $('#fb-msg'), send = $('#fb-send'), text = $('#fb-message');
+  const hint = () => {
+    text.placeholder = form.kind.value === 'bug'
+      ? 'What happened, what did you expect, and what did you click? Your device and browser help too.'
+      : 'What would make the site better?';
+  };
+  form.addEventListener('change', hint); hint();
+  form.addEventListener('submit', async e => {
+    e.preventDefault();
+    const data = Object.fromEntries(new FormData(form));
+    if (data.message.trim().length < 5) { msg.textContent = 'Please write a few words.'; msg.className = 'sg-msg err'; return; }
+    send.disabled = true; msg.textContent = 'Sending…'; msg.className = 'sg-msg';
+    try {
+      const r = await fetch('/api/feedback', {method: 'POST', headers: {'content-type': 'application/json'}, body: JSON.stringify(data)});
+      const out = await r.json().catch(() => ({}));
+      if (!r.ok) throw new Error(out.error || 'Could not send it. Please try again, or post it on Discord.');
+      form.innerHTML = `<div class="sg-done"><h2>Thank you.</h2><p>${data.kind === 'bug' ? "We'll look into it." : 'We read every message.'}</p>
+        <p style="margin-top:18px"><a class="btn" href="/">Back to the register</a></p></div>`;
+    } catch (err) {
+      msg.textContent = err.message; msg.className = 'sg-msg err'; send.disabled = false;
+    }
+  });
+}
+
 // ---------- start ----------
 $('#report-top').href = $('#report-foot').href = issueUrl('Report: ');
 $('#repo-link').href = `https://github.com/${REPO}`;
-render(false);
+render(false).finally(() => document.body.classList.add('ready'));

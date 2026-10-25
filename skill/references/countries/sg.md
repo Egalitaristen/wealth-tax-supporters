@@ -1,0 +1,4 @@
+# SG: seats
+
+The register's own notes are in `data/sg/area_profile.md`. This guide only covers the seat chart for now.
+- **Seats:** `python skill/scripts/seats.py data/sg`. Who sits comes from the Parliament's list (`parliament.gov.sg/mps/list-of-current-mps`: every MP with the constituency, or "Nominated"/"Non-Constituency"); that list has **no party**, so each member's party is read from Wikipedia's table of the 15th Parliament (`en.wikipedia.org/wiki/15th_Parliament_of_Singapore`, raw wikitext). Seats are the number the Wikipedia page states (108: 97 elected, 2 non-constituency, 9 nominated); a resignation leaves a vacant seat. Members who are not found in the table show as "Party not found": fix the table lookup or add the party by hand. Looking for an official party source (the Parliament's MP pages, or the Elections Department's results by constituency) is on the roadmap.

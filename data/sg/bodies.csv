@@ -1,0 +1,2 @@
+body_id,name,level,kind,seats,as_of,source_url,seat_view,notes
+B0001,Parliament of Singapore,national,chamber,108,2026-10-25,https://www.parliament.gov.sg/mps/list-of-current-mps,y,"Elected members, non-constituency members and nominated members. Who sits is from parliament.gov.sg; each member's party is from Wikipedia's table of the 15th Parliament (the Parliament's own list has no party column)."

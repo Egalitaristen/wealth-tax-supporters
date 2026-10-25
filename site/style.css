@@ -94,6 +94,8 @@ main { outline: none; min-height: 70vh; }
 .icon-btn .half { fill: currentColor; stroke: none; }
 a.icon-btn { color: var(--ink-2); text-decoration: none; }
 a.icon-btn:hover { color: var(--ink); }
+.fb-link { height: 36px; display: inline-flex; align-items: center; padding: 0 12px; border: 1px solid var(--ink); color: var(--ink); font-size: 14px; text-decoration: none; white-space: nowrap; }
+.fb-link:hover, .fb-link[aria-current="page"] { background: var(--ink); color: var(--paper); }
 .icon-btn .brand-ico { width: 17px; height: 17px; fill: currentColor; stroke: none; }
 
 /* ---------- buttons, chips, fields ---------- */
@@ -469,8 +471,28 @@ a.ov:hover .spark rect.pk { fill: var(--signal); }
 .tip b { font-weight: 600; }
 .tip span { opacity: .7; margin-left: 6px; }
 
+/* ---------- seats ---------- */
+.legis { margin-top: 34px; padding-top: 26px; border-top: 1px solid var(--rule); }
+.legis:first-of-type { border-top: 0; padding-top: 0; }
+.legis-head h3 { font: 400 clamp(26px, 3.4vw, 36px)/1.1 var(--serif); margin: 0 0 6px; }
+.legis-head p { color: var(--ink-2); font-size: 14px; margin: 0; }
+.legis-head p b { color: var(--ink); font-weight: 600; }
+.legis-head .legis-note { margin-top: 6px; font-size: 13px; color: var(--ink-3); max-width: 70ch; }
+.hemi { display: block; width: 100%; max-width: 760px; margin: 22px auto 10px; }
+.hemi .st { fill-opacity: .3; }
+.hemi .st.on { fill: var(--signal); fill-opacity: 1; stroke: var(--ink); stroke-width: .6; cursor: pointer; }
+.hemi a:hover .st.on { stroke-width: 1.4; }
+.sps { display: grid; grid-template-columns: repeat(auto-fill, minmax(260px, 1fr)); gap: 4px 28px; margin-top: 14px; }
+.sp { padding: 9px 0; border-bottom: 1px solid var(--rule); font-size: 14px; }
+.sp-h { display: flex; align-items: center; gap: 9px; }
+.sp-h i { width: 11px; height: 11px; border-radius: 50%; flex: none; }
+.sp-h span { margin-left: auto; color: var(--ink-2); font: 500 12.5px var(--mono); white-space: nowrap; }
+.sp p { margin: 6px 0 0 20px; color: var(--ink-2); font-size: 13.5px; line-height: 1.5; }
+
 /* ---------- footer ---------- */
 .foot { border-top: 1.5px solid var(--ink); margin-top: 40px; padding: 48px 0 40px; }
+/* The footer sits under an empty <main> until the first page renders, then gets pushed down: hide it until then so it is not counted as layout shift. */
+body:not(.ready) .foot { visibility: hidden; }
 .foot-big { font: 400 clamp(44px, 9vw, 128px)/.9 var(--serif); letter-spacing: -.035em; }
 .foot-big i { color: var(--signal); }
 .foot-grid { display: grid; grid-template-columns: minmax(0, 2fr) minmax(0, 1fr) minmax(0, 1fr); gap: 32px; margin-top: 36px; font-size: 14.5px; }
@@ -489,6 +511,10 @@ a.ov:hover .spark rect.pk { fill: var(--signal); }
 @media (prefers-reduced-motion: reduce) { *, *::before, *::after { animation: none !important; transition: none !important; } }
 
 /* ---------- responsive ---------- */
+@media (max-width: 1240px) {
+  .nav-long, .search-btn span, .search-btn kbd { display: none; }
+  .search-btn { min-width: 0; padding: 0 10px; }
+}
 @media (max-width: 1020px) {
   .nav-long, .search-btn span, .search-btn kbd { display: none; }
   .search-btn { min-width: 0; padding: 0 10px; }
@@ -509,6 +535,13 @@ a.ov:hover .spark rect.pk { fill: var(--signal); }
   .filters .q { grid-column: 1 / -1; }
   .search-btn { min-width: 0; }
   .search-btn span, .search-btn kbd { display: none; }
+}
+@media (max-width: 480px) {
+  .icon-btn.social { display: none; }
+  .top-in.top-in { gap: 8px; }
+  .tools { gap: 6px; }
+  .top-in .brand { font-size: 18px; }
+  .fb-link { height: 34px; padding: 0 9px; font-size: 13px; }
 }
 @media (max-width: 720px) {
   .icon-btn.social.gh { display: none; }
@@ -572,3 +605,8 @@ a.ov:hover .spark rect.pk { fill: var(--signal); }
 .sg-done h2 { font: 400 34px/1.1 var(--serif); margin-bottom: 10px; }
 @media (max-width: 720px) { .suggest .pair { grid-template-columns: 1fr; } }
 .suggest label small { font-size: 12.5px; color: var(--ink-3); }
+.suggest .kinds { display: flex; gap: 10px; flex-wrap: wrap; border: 0; padding: 0; margin: 0; }
+.suggest .kinds legend { font-size: 14px; color: var(--ink-2); padding: 0; margin-bottom: 6px; }
+.suggest .kinds label { flex-direction: row; align-items: center; gap: 8px; border: 1px solid var(--rule-2); background: var(--card); padding: 9px 14px; cursor: pointer; color: var(--ink); }
+.suggest .kinds label:has(input:checked) { border-color: var(--ink); box-shadow: inset 0 0 0 1px var(--ink); }
+.suggest .kinds input { accent-color: var(--signal); }

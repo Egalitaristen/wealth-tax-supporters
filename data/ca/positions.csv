@@ -1,0 +1,31 @@
+position_id,actor_id,body_id,role,party,geo_unit_id,start,end,current,member_ref,checked,source_url
+O00001,A0001,B0001,Member of Parliament,,G0007,,,n,,2026-10-25,https://www.ourcommons.ca/Members/en/search
+O00002,A0002,B0001,Member of Parliament,,G0008,,,n,,2026-10-25,https://www.ourcommons.ca/Members/en/search
+O00003,A0003,B0001,Member of Parliament,,G0675,,,n,,2026-10-25,https://www.ourcommons.ca/Members/en/search
+O00004,A0004,B0001,Member of Parliament,,G0011,,,n,,2026-10-25,https://www.ourcommons.ca/Members/en/search
+O00005,A0005,B0001,Member of Parliament,,G0008,,,n,,2026-10-25,https://www.ourcommons.ca/Members/en/search
+O00006,A0006,B0001,Member of Parliament,,G0011,,,n,,2026-10-25,https://www.ourcommons.ca/Members/en/search
+O00007,A0007,B0001,Member of Parliament,,G0006,,,n,,2026-10-25,https://www.ourcommons.ca/Members/en/search
+O00008,A0008,B0001,Member of Parliament,,G0011,,,n,,2026-10-25,https://www.ourcommons.ca/Members/en/search
+O00009,A0009,B0001,Member of Parliament,,G4394,,,n,,2026-10-25,https://www.ourcommons.ca/Members/en/search
+O00010,A0010,B0001,Member of Parliament,NDP,G0011,2025-04-28,,y,59325,2026-10-25,https://www.ourcommons.ca/Members/en/59325
+O00011,A0011,B0001,Member of Parliament,,G0007,,,n,,2026-10-25,https://www.ourcommons.ca/Members/en/search
+O00012,A0012,B0001,Member of Parliament,,G0011,,,n,,2026-10-25,https://www.ourcommons.ca/Members/en/search
+O00013,A0013,B0001,Member of Parliament,NDP,G0008,2025-04-28,,y,87121,2026-10-25,https://www.ourcommons.ca/Members/en/87121
+O00014,A0014,B0001,Member of Parliament,,G0007,,,n,,2026-10-25,https://www.ourcommons.ca/Members/en/search
+O00015,A0015,B0001,Member of Parliament,,G0002,,,n,,2026-10-25,https://www.ourcommons.ca/Members/en/search
+O00016,A0016,B0001,Member of Parliament,,G0007,,,n,,2026-10-25,https://www.ourcommons.ca/Members/en/search
+O00017,A0017,B0001,Member of Parliament,NDP,G0011,2025-04-28,,y,89263,2026-10-25,https://www.ourcommons.ca/Members/en/89263
+O00018,A0018,B0001,Member of Parliament,,G0011,,,n,,2026-10-25,https://www.ourcommons.ca/Members/en/search
+O00019,A0019,B0001,Member of Parliament,NDP,G0011,2025-04-28,,y,89346,2026-10-25,https://www.ourcommons.ca/Members/en/89346
+O00020,A0020,B0001,Member of Parliament,,G0011,,,n,,2026-10-25,https://www.ourcommons.ca/Members/en/search
+O00021,A0021,B0001,Member of Parliament,,G0011,,,n,,2026-10-25,https://www.ourcommons.ca/Members/en/search
+O00022,A0022,B0001,Member of Parliament,,G0007,,,n,,2026-10-25,https://www.ourcommons.ca/Members/en/search
+O00023,A0023,B0001,Member of Parliament,,G0007,,,n,,2026-10-25,https://www.ourcommons.ca/Members/en/search
+O00024,A0024,B0001,Member of Parliament,Green Party,G0011,2025-04-28,,y,2897,2026-10-25,https://www.ourcommons.ca/Members/en/2897
+O00025,A0025,B0001,Member of Parliament,NDP,G0010,2025-04-28,,y,105689,2026-10-25,https://www.ourcommons.ca/Members/en/105689
+O00026,A0026,B0001,Member of Parliament,,G0011,,,n,,2026-10-25,https://www.ourcommons.ca/Members/en/search
+O00027,A0027,B0001,Member of Parliament,,G0007,,,n,,2026-10-25,https://www.ourcommons.ca/Members/en/search
+O00028,A0201,B0001,Member of Parliament,,G0007,,,n,,2026-10-25,https://www.ourcommons.ca/Members/en/search
+O00029,A0203,B0001,Member of Parliament,,G0007,,,n,,2026-10-25,https://www.ourcommons.ca/Members/en/search
+O00030,A0326,B0001,Member of Parliament,,G0010,,,n,,2026-10-25,https://www.ourcommons.ca/Members/en/search

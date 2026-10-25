@@ -1,0 +1,353 @@
+position_id,actor_id,body_id,role,party,geo_unit_id,start,end,current,member_ref,checked,source_url
+O00001,A0001,B0001,Member of the National Assembly,,G0087,,,n,,2026-10-25,https://www2.assemblee-nationale.fr/deputes/liste/alphabetique
+O00002,A0002,B0001,Member of the National Assembly,,G0079,,,n,,2026-10-25,https://www2.assemblee-nationale.fr/deputes/liste/alphabetique
+O00003,A0003,B0001,Member of the National Assembly,SOC,G0055,2024-07-07,,y,PA642764,2026-10-25,https://www2.assemblee-nationale.fr/deputes/liste/alphabetique
+O00004,A0004,B0001,Member of the National Assembly,SOC,G0120,2024-07-07,,y,PA643143,2026-10-25,https://www2.assemblee-nationale.fr/deputes/liste/alphabetique
+O00005,A0005,B0001,Member of the National Assembly,,G0036,,,n,,2026-10-25,https://www2.assemblee-nationale.fr/deputes/liste/alphabetique
+O00006,A0006,B0001,Member of the National Assembly,LFI-NFP,G0057,2024-07-07,,y,PA719578,2026-10-25,https://www2.assemblee-nationale.fr/deputes/liste/alphabetique
+O00007,A0007,B0001,Member of the National Assembly,,G0078,,,n,,2026-10-25,https://www2.assemblee-nationale.fr/deputes/liste/alphabetique
+O00008,A0008,B0001,Member of the National Assembly,,G0083,,,n,,2026-10-25,https://www2.assemblee-nationale.fr/deputes/liste/alphabetique
+O00009,A0009,B0001,Member of the National Assembly,,G0083,,,n,,2026-10-25,https://www2.assemblee-nationale.fr/deputes/liste/alphabetique
+O00010,A0010,B0001,Member of the National Assembly,SOC,G0121,2024-07-07,,y,PA720992,2026-10-25,https://www2.assemblee-nationale.fr/deputes/liste/alphabetique
+O00011,A0011,B0001,Member of the National Assembly,,G0100,,,n,,2026-10-25,https://www2.assemblee-nationale.fr/deputes/liste/alphabetique
+O00012,A0012,B0001,Member of the National Assembly,,G0093,,,n,,2026-10-25,https://www2.assemblee-nationale.fr/deputes/liste/alphabetique
+O00013,A0013,B0001,Member of the National Assembly,LFI-NFP,G0099,2024-06-30,,y,PA791812,2026-10-25,https://www2.assemblee-nationale.fr/deputes/liste/alphabetique
+O00014,A0014,B0001,Member of the National Assembly,,G0027,,,n,,2026-10-25,https://www2.assemblee-nationale.fr/deputes/liste/alphabetique
+O00015,A0015,B0001,Member of the National Assembly,,G0045,,,n,,2026-10-25,https://www2.assemblee-nationale.fr/deputes/liste/alphabetique
+O00016,A0016,B0001,Member of the National Assembly,,G0046,,,n,,2026-10-25,https://www2.assemblee-nationale.fr/deputes/liste/alphabetique
+O00017,A0017,B0001,Member of the National Assembly,,G0054,,,n,,2026-10-25,https://www2.assemblee-nationale.fr/deputes/liste/alphabetique
+O00018,A0018,B0001,Member of the National Assembly,LFI-NFP,G0058,2024-06-30,,y,PA793872,2026-10-25,https://www2.assemblee-nationale.fr/deputes/liste/alphabetique
+O00019,A0019,B0001,Member of the National Assembly,,G0058,,,n,,2026-10-25,https://www2.assemblee-nationale.fr/deputes/liste/alphabetique
+O00020,A0020,B0001,Member of the National Assembly,,G0059,,,n,,2026-10-25,https://www2.assemblee-nationale.fr/deputes/liste/alphabetique
+O00021,A0021,B0001,Member of the National Assembly,,G0081,,,n,,2026-10-25,https://www2.assemblee-nationale.fr/deputes/liste/alphabetique
+O00022,A0022,B0001,Member of the National Assembly,,G0078,,,n,,2026-10-25,https://www2.assemblee-nationale.fr/deputes/liste/alphabetique
+O00023,A0023,B0001,Member of the National Assembly,,G0086,,,n,,2026-10-25,https://www2.assemblee-nationale.fr/deputes/liste/alphabetique
+O00024,A0024,B0001,Member of the National Assembly,LFI-NFP,G0089,2024-07-07,,y,PA794870,2026-10-25,https://www2.assemblee-nationale.fr/deputes/liste/alphabetique
+O00025,A0025,B0001,Member of the National Assembly,LFI-NFP,G0093,2024-07-07,,y,PA794938,2026-10-25,https://www2.assemblee-nationale.fr/deputes/liste/alphabetique
+O00026,A0026,B0001,Member of the National Assembly,,G0099,,,n,,2026-10-25,https://www2.assemblee-nationale.fr/deputes/liste/alphabetique
+O00027,A0027,B0001,Member of the National Assembly,LFI-NFP,G0097,2024-07-07,,y,PA795136,2026-10-25,https://www2.assemblee-nationale.fr/deputes/liste/alphabetique
+O00028,A0028,B0001,Member of the National Assembly,,G0001,,,n,,2026-10-25,https://www2.assemblee-nationale.fr/deputes/liste/alphabetique
+O00029,A0029,B0001,Member of the National Assembly,,G0001,,,n,,2026-10-25,https://www2.assemblee-nationale.fr/deputes/liste/alphabetique
+O00030,A0030,B0001,Member of the National Assembly,GDR,G0001,2024-07-07,,y,PA795240,2026-10-25,https://www2.assemblee-nationale.fr/deputes/liste/alphabetique
+O00031,A0031,B0001,Member of the National Assembly,,G0118,,,n,,2026-10-25,https://www2.assemblee-nationale.fr/deputes/liste/alphabetique
+O00032,A0032,B0001,Member of the National Assembly,,G0114,,,n,,2026-10-25,https://www2.assemblee-nationale.fr/deputes/liste/alphabetique
+O00033,A0033,B0001,Member of the National Assembly,,G0102,,,n,,2026-10-25,https://www2.assemblee-nationale.fr/deputes/liste/alphabetique
+O00034,A0034,B0001,Member of the National Assembly,,G0116,,,n,,2026-10-25,https://www2.assemblee-nationale.fr/deputes/liste/alphabetique
+O00035,A0035,B0001,Member of the National Assembly,GDR,G0122,2024-07-07,,y,PA795876,2026-10-25,https://www2.assemblee-nationale.fr/deputes/liste/alphabetique
+O00036,A0036,B0001,Member of the National Assembly,GDR,G0123,2024-07-07,,y,PA795998,2026-10-25,https://www2.assemblee-nationale.fr/deputes/liste/alphabetique
+O00037,A0037,B0001,Member of the National Assembly,,G0117,,,n,,2026-10-25,https://www2.assemblee-nationale.fr/deputes/liste/alphabetique
+O00038,A0038,B0001,Member of the National Assembly,GDR,G0001,2024-07-07,,y,PA842299,2026-10-25,https://www2.assemblee-nationale.fr/deputes/liste/alphabetique
+O00039,A0039,B0001,Member of the National Assembly,LFI-NFP,G0117,2024-06-30,,y,PA795228,2026-10-25,https://www2.assemblee-nationale.fr/deputes/liste/alphabetique
+O00040,A0040,B0001,Member of the National Assembly,LFI-NFP,G0035,2024-07-07,,y,PA793262,2026-10-25,https://www2.assemblee-nationale.fr/deputes/liste/alphabetique
+O00041,A0041,B0001,Member of the National Assembly,SOC,G0028,2024-07-07,,y,PA840665,2026-10-25,https://www2.assemblee-nationale.fr/deputes/liste/alphabetique
+O00042,A0042,B0001,Member of the National Assembly,,G0093,,,n,,2026-10-25,https://www2.assemblee-nationale.fr/deputes/liste/alphabetique
+O00043,A0043,B0001,Member of the National Assembly,LFI-NFP,G0068,2024-07-07,,y,PA794138,2026-10-25,https://www2.assemblee-nationale.fr/deputes/liste/alphabetique
+O00044,A0044,B0001,Member of the National Assembly,EcoS,G0099,2024-06-30,,y,PA610968,2026-10-25,https://www2.assemblee-nationale.fr/deputes/liste/alphabetique
+O00045,A0045,B0001,Member of the National Assembly,LFI-NFP,G0115,2024-07-07,,y,PA795588,2026-10-25,https://www2.assemblee-nationale.fr/deputes/liste/alphabetique
+O00046,A0046,B0001,Member of the National Assembly,LFI-NFP,G0099,2024-06-30,,y,PA795084,2026-10-25,https://www2.assemblee-nationale.fr/deputes/liste/alphabetique
+O00047,A0047,B0001,Member of the National Assembly,LFI-NFP,G0108,2024-07-07,,y,PA842105,2026-10-25,https://www2.assemblee-nationale.fr/deputes/liste/alphabetique
+O00048,A0048,B0001,Member of the National Assembly,EcoS,G0055,2024-07-07,,y,PA793780,2026-10-25,https://www2.assemblee-nationale.fr/deputes/liste/alphabetique
+O00049,A0049,B0001,Member of the National Assembly,EcoS,G0117,2024-06-30,,y,PA588884,2026-10-25,https://www2.assemblee-nationale.fr/deputes/liste/alphabetique
+O00050,A0050,B0001,Member of the National Assembly,EcoS,G0099,2024-07-07,,y,PA841701,2026-10-25,https://www2.assemblee-nationale.fr/deputes/liste/alphabetique
+O00051,A0051,B0001,Member of the National Assembly,SOC,G0040,2024-07-07,,y,PA840829,2026-10-25,https://www2.assemblee-nationale.fr/deputes/liste/alphabetique
+O00052,A0052,B0001,Member of the National Assembly,EcoS,G0103,2024-07-07,,y,PA335999,2026-10-25,https://www2.assemblee-nationale.fr/deputes/liste/alphabetique
+O00053,A0053,B0001,Member of the National Assembly,SOC,G0062,2024-07-07,,y,PA342415,2026-10-25,https://www2.assemblee-nationale.fr/deputes/liste/alphabetique
+O00054,A0054,B0001,Member of the National Assembly,SOC,G0061,2024-07-07,,y,PA606793,2026-10-25,https://www2.assemblee-nationale.fr/deputes/liste/alphabetique
+O00055,A0055,B0001,Member of the National Assembly,SOC,G0081,2024-07-07,,y,PA720362,2026-10-25,https://www2.assemblee-nationale.fr/deputes/liste/alphabetique
+O00056,A0056,B0001,Member of the National Assembly,SOC,G0121,2024-07-07,,y,PA842211,2026-10-25,https://www2.assemblee-nationale.fr/deputes/liste/alphabetique
+O00057,A0057,B0001,Member of the National Assembly,EcoS,G0110,2024-07-07,,y,PA795362,2026-10-25,https://www2.assemblee-nationale.fr/deputes/liste/alphabetique
+O00058,A0058,B0001,Member of the National Assembly,LFI-NFP,G0093,2024-07-07,,y,PA841657,2026-10-25,https://www2.assemblee-nationale.fr/deputes/liste/alphabetique
+O00059,A0059,B0001,Member of the National Assembly,EcoS,G0001,2024-07-07,,y,PA795454,2026-10-25,https://www2.assemblee-nationale.fr/deputes/liste/alphabetique
+O00060,A0060,B0001,Member of the National Assembly,SOC,G0068,2024-07-07,,y,PA841315,2026-10-25,https://www2.assemblee-nationale.fr/deputes/liste/alphabetique
+O00061,A0061,B0001,Member of the National Assembly,LFI-NFP,G0083,2024-07-07,,y,PA720430,2026-10-25,https://www2.assemblee-nationale.fr/deputes/liste/alphabetique
+O00062,A0062,B0001,Member of the National Assembly,LFI-NFP,G0055,2024-07-07,,y,PA793772,2026-10-25,https://www2.assemblee-nationale.fr/deputes/liste/alphabetique
+O00063,A0063,B0001,Member of the National Assembly,LFI-NFP,G0119,2024-06-30,,y,PA795616,2026-10-25,https://www2.assemblee-nationale.fr/deputes/liste/alphabetique
+O00064,A0064,B0001,Member of the National Assembly,EcoS,G0040,2024-07-07,,y,PA840997,2026-10-25,https://www2.assemblee-nationale.fr/deputes/liste/alphabetique
+O00065,A0065,B0001,Member of the National Assembly,LFI-NFP,G0036,2024-06-30,,y,PA793444,2026-10-25,https://www2.assemblee-nationale.fr/deputes/liste/alphabetique
+O00066,A0066,B0001,Member of the National Assembly,EcoS,G0087,2024-07-07,,y,PA841507,2026-10-25,https://www2.assemblee-nationale.fr/deputes/liste/alphabetique
+O00067,A0067,B0001,Member of the National Assembly,EcoS,G0101,2024-07-07,,y,PA841885,2026-10-25,https://www2.assemblee-nationale.fr/deputes/liste/alphabetique
+O00068,A0068,B0001,Member of the National Assembly,SOC,G0059,2024-06-30,,y,PA794094,2026-10-25,https://www2.assemblee-nationale.fr/deputes/liste/alphabetique
+O00069,A0069,B0001,Member of the National Assembly,GDR,G0117,2024-07-07,,y,PA720838,2026-10-25,https://www2.assemblee-nationale.fr/deputes/liste/alphabetique
+O00070,A0070,B0001,Member of the National Assembly,LFI-NFP,G0118,2024-07-07,,y,PA795318,2026-10-25,https://www2.assemblee-nationale.fr/deputes/liste/alphabetique
+O00071,A0071,B0001,Member of the National Assembly,GDR,G0087,2024-07-07,,y,PA794710,2026-10-25,https://www2.assemblee-nationale.fr/deputes/liste/alphabetique
+O00072,A0072,B0001,Member of the National Assembly,NI,G0049,2024-07-07,,y,PA793624,2026-10-25,https://www2.assemblee-nationale.fr/deputes/liste/alphabetique
+O00073,A0073,B0001,Member of the National Assembly,GDR,G0100,2024-07-07,,y,PA796106,2026-10-25,https://www2.assemblee-nationale.fr/deputes/liste/alphabetique
+O00074,A0074,B0001,Member of the National Assembly,LFI-NFP,G0051,2024-07-07,,y,PA841023,2026-10-25,https://www2.assemblee-nationale.fr/deputes/liste/alphabetique
+O00075,A0075,B0001,Member of the National Assembly,SOC,G0088,2024-07-07,,y,PA608264,2026-10-25,https://www2.assemblee-nationale.fr/deputes/liste/alphabetique
+O00076,A0076,B0001,Member of the National Assembly,LFI-NFP,G0099,2024-06-30,,y,PA796090,2026-10-25,https://www2.assemblee-nationale.fr/deputes/liste/alphabetique
+O00077,A0077,B0001,Member of the National Assembly,LFI-NFP,G0058,2024-07-07,,y,PA793912,2026-10-25,https://www2.assemblee-nationale.fr/deputes/liste/alphabetique
+O00078,A0078,B0001,Member of the National Assembly,GDR,G0122,2024-07-07,,y,PA795868,2026-10-25,https://www2.assemblee-nationale.fr/deputes/liste/alphabetique
+O00079,A0079,B0001,Member of the National Assembly,LFI-NFP,G0119,2024-07-07,,y,PA842187,2026-10-25,https://www2.assemblee-nationale.fr/deputes/liste/alphabetique
+O00080,A0080,B0001,Member of the National Assembly,LFI-NFP,G0115,2024-07-07,,y,PA842037,2026-10-25,https://www2.assemblee-nationale.fr/deputes/liste/alphabetique
+O00081,A0081,B0001,Member of the National Assembly,EcoS,G0062,2024-07-07,,y,PA794008,2026-10-25,https://www2.assemblee-nationale.fr/deputes/liste/alphabetique
+O00082,A0082,B0001,Member of the National Assembly,SOC,G0048,2024-07-07,,y,PA840903,2026-10-25,https://www2.assemblee-nationale.fr/deputes/liste/alphabetique
+O00083,A0083,B0001,Member of the National Assembly,LFI-NFP,G0055,2024-07-07,,y,PA793736,2026-10-25,https://www2.assemblee-nationale.fr/deputes/liste/alphabetique
+O00084,A0084,B0001,Member of the National Assembly,LIOT,G0052,2024-07-07,,y,PA719286,2026-10-25,https://www2.assemblee-nationale.fr/deputes/liste/alphabetique
+O00085,A0085,B0001,Member of the National Assembly,LFI-NFP,G0117,2024-06-30,,y,PA721202,2026-10-25,https://www2.assemblee-nationale.fr/deputes/liste/alphabetique
+O00086,A0086,B0001,Member of the National Assembly,EcoS,G0117,2024-07-07,,y,PA721210,2026-10-25,https://www2.assemblee-nationale.fr/deputes/liste/alphabetique
+O00087,A0087,B0001,Member of the National Assembly,SOC,G0066,2024-07-07,,y,PA841295,2026-10-25,https://www2.assemblee-nationale.fr/deputes/liste/alphabetique
+O00088,A0088,B0001,Member of the National Assembly,EcoS,G0036,2024-07-07,,y,PA793452,2026-10-25,https://www2.assemblee-nationale.fr/deputes/liste/alphabetique
+O00089,A0089,B0001,Member of the National Assembly,SOC,G0057,2024-07-07,,y,PA1008,2026-10-25,https://www2.assemblee-nationale.fr/deputes/liste/alphabetique
+O00090,A0090,B0001,Member of the National Assembly,SOC,G0037,2024-07-07,,y,PA793394,2026-10-25,https://www2.assemblee-nationale.fr/deputes/liste/alphabetique
+O00091,A0091,B0001,Member of the National Assembly,SOC,G0111,2024-07-07,,y,PA795430,2026-10-25,https://www2.assemblee-nationale.fr/deputes/liste/alphabetique
+O00092,A0092,B0001,Member of the National Assembly,LFI-NFP,G0036,2024-06-30,,y,PA793464,2026-10-25,https://www2.assemblee-nationale.fr/deputes/liste/alphabetique
+O00093,A0093,B0001,Member of the National Assembly,SOC,G0102,2024-07-07,,y,PA841919,2026-10-25,https://www2.assemblee-nationale.fr/deputes/liste/alphabetique
+O00094,A0094,B0001,Member of the National Assembly,LFI-NFP,G0117,2024-07-07,,y,PA842155,2026-10-25,https://www2.assemblee-nationale.fr/deputes/liste/alphabetique
+O00095,A0095,B0001,Member of the National Assembly,SOC,G0058,2024-07-07,,y,PA606573,2026-10-25,https://www2.assemblee-nationale.fr/deputes/liste/alphabetique
+O00096,A0096,B0001,Member of the National Assembly,SOC,G0088,2024-07-07,,y,PA841633,2026-10-25,https://www2.assemblee-nationale.fr/deputes/liste/alphabetique
+O00097,A0097,B0001,Member of the National Assembly,LFI-NFP,G0100,2024-07-07,,y,PA795200,2026-10-25,https://www2.assemblee-nationale.fr/deputes/liste/alphabetique
+O00098,A0098,B0001,Member of the National Assembly,EcoS,G0069,2024-07-07,,y,PA841351,2026-10-25,https://www2.assemblee-nationale.fr/deputes/liste/alphabetique
+O00099,A0099,B0001,Member of the National Assembly,NI,G0073,2024-07-07,,y,PA643175,2026-10-25,https://www2.assemblee-nationale.fr/deputes/liste/alphabetique
+O00100,A0100,B0001,Member of the National Assembly,SOC,G0088,2024-07-07,,y,PA794854,2026-10-25,https://www2.assemblee-nationale.fr/deputes/liste/alphabetique
+O00101,A0101,B0001,Member of the National Assembly,LFI-NFP,G0105,2024-07-07,,y,PA795844,2026-10-25,https://www2.assemblee-nationale.fr/deputes/liste/alphabetique
+O00102,A0102,B0001,Member of the National Assembly,SOC,G0119,2024-07-07,,y,PA842195,2026-10-25,https://www2.assemblee-nationale.fr/deputes/liste/alphabetique
+O00103,A0103,B0001,Member of the National Assembly,GDR,G0116,2024-06-30,,y,PA721896,2026-10-25,https://www2.assemblee-nationale.fr/deputes/liste/alphabetique
+O00104,A0104,B0001,Member of the National Assembly,SOC,G0101,2024-06-30,,y,PA609332,2026-10-25,https://www2.assemblee-nationale.fr/deputes/liste/alphabetique
+O00105,A0105,B0001,Member of the National Assembly,LFI-NFP,G0057,2024-07-07,,y,PA841251,2026-10-25,https://www2.assemblee-nationale.fr/deputes/liste/alphabetique
+O00106,A0106,B0001,Member of the National Assembly,LFI-NFP,G0091,2024-07-07,,y,PA794786,2026-10-25,https://www2.assemblee-nationale.fr/deputes/liste/alphabetique
+O00107,A0107,B0001,Member of the National Assembly,EcoS,G0061,2024-07-07,,y,PA793980,2026-10-25,https://www2.assemblee-nationale.fr/deputes/liste/alphabetique
+O00108,A0108,B0001,Member of the National Assembly,SOC,G0032,2024-06-30,,y,PA822617,2026-10-25,https://www2.assemblee-nationale.fr/deputes/liste/alphabetique
+O00109,A0109,B0001,Member of the National Assembly,SOC,G0089,2024-07-07,,y,PA841665,2026-10-25,https://www2.assemblee-nationale.fr/deputes/liste/alphabetique
+O00110,A0110,B0001,Member of the National Assembly,LFI-NFP,G0123,2024-07-07,,y,PA796070,2026-10-25,https://www2.assemblee-nationale.fr/deputes/liste/alphabetique
+O00111,A0111,B0001,Member of the National Assembly,EcoS,G0093,2024-06-30,,y,PA795010,2026-10-25,https://www2.assemblee-nationale.fr/deputes/liste/alphabetique
+O00112,A0112,B0001,Member of the National Assembly,SOC,G0077,2024-07-07,,y,PA333285,2026-10-25,https://www2.assemblee-nationale.fr/deputes/liste/alphabetique
+O00113,A0113,B0001,Member of the National Assembly,EcoS,G0080,2024-07-07,,y,PA841419,2026-10-25,https://www2.assemblee-nationale.fr/deputes/liste/alphabetique
+O00114,A0114,B0001,Member of the National Assembly,SOC,G0043,2024-07-07,,y,PA840939,2026-10-25,https://www2.assemblee-nationale.fr/deputes/liste/alphabetique
+O00115,A0115,B0001,Member of the National Assembly,,G0083,,,n,,2026-10-25,https://www2.assemblee-nationale.fr/deputes/liste/alphabetique
+O00116,A0116,B0001,Member of the National Assembly,SOC,G0057,2024-07-07,,y,PA331973,2026-10-25,https://www2.assemblee-nationale.fr/deputes/liste/alphabetique
+O00117,A0117,B0001,Member of the National Assembly,,G0099,,,n,,2026-10-25,https://www2.assemblee-nationale.fr/deputes/liste/alphabetique
+O00118,A0118,B0001,Member of the National Assembly,SOC,G0115,2024-07-07,,y,PA1567,2026-10-25,https://www2.assemblee-nationale.fr/deputes/liste/alphabetique
+O00119,A0119,B0001,Member of the National Assembly,LFI-NFP,G0118,2024-06-30,,y,PA795310,2026-10-25,https://www2.assemblee-nationale.fr/deputes/liste/alphabetique
+O00120,A0120,B0001,Member of the National Assembly,,G0083,,,n,,2026-10-25,https://www2.assemblee-nationale.fr/deputes/liste/alphabetique
+O00121,A0121,B0001,Member of the National Assembly,EcoS,G0115,2024-07-07,,y,PA842013,2026-10-25,https://www2.assemblee-nationale.fr/deputes/liste/alphabetique
+O00122,A0122,B0001,Member of the National Assembly,SOC,G0119,2024-07-07,,y,PA842263,2026-10-25,https://www2.assemblee-nationale.fr/deputes/liste/alphabetique
+O00123,A0123,B0001,Member of the National Assembly,LFI-NFP,G0104,2024-07-07,,y,PA841947,2026-10-25,https://www2.assemblee-nationale.fr/deputes/liste/alphabetique
+O00124,A0124,B0001,Member of the National Assembly,SOC,G0100,2024-07-07,,y,PA841813,2026-10-25,https://www2.assemblee-nationale.fr/deputes/liste/alphabetique
+O00125,A0125,B0001,Member of the National Assembly,EcoS,G0043,2024-07-07,,y,PA840947,2026-10-25,https://www2.assemblee-nationale.fr/deputes/liste/alphabetique
+O00126,A0126,B0001,Member of the National Assembly,LFI-NFP,G0059,2024-07-07,,y,PA794082,2026-10-25,https://www2.assemblee-nationale.fr/deputes/liste/alphabetique
+O00127,A0127,B0001,Member of the National Assembly,SOC,G0042,2024-07-07,,y,PA1654,2026-10-25,https://www2.assemblee-nationale.fr/deputes/liste/alphabetique
+O00128,A0128,B0001,Member of the National Assembly,SOC,G0110,2024-07-07,,y,PA722150,2026-10-25,https://www2.assemblee-nationale.fr/deputes/liste/alphabetique
+O00129,A0129,B0001,Member of the National Assembly,,G0050,,,n,,2026-10-25,https://www2.assemblee-nationale.fr/deputes/liste/alphabetique
+O00130,A0130,B0001,Member of the National Assembly,EcoS,G0062,2024-07-07,,y,PA794022,2026-10-25,https://www2.assemblee-nationale.fr/deputes/liste/alphabetique
+O00131,A0131,B0001,Member of the National Assembly,SOC,G0085,2024-07-07,,y,PA643192,2026-10-25,https://www2.assemblee-nationale.fr/deputes/liste/alphabetique
+O00132,A0132,B0001,Member of the National Assembly,SOC,G0096,2024-07-07,,y,PA335054,2026-10-25,https://www2.assemblee-nationale.fr/deputes/liste/alphabetique
+O00133,A0133,B0001,Member of the National Assembly,SOC,G0117,2024-07-07,,y,PA795156,2026-10-25,https://www2.assemblee-nationale.fr/deputes/liste/alphabetique
+O00134,A0134,B0001,Member of the National Assembly,LFI-NFP,G0068,2024-06-30,,y,PA794130,2026-10-25,https://www2.assemblee-nationale.fr/deputes/liste/alphabetique
+O00135,A0135,B0001,Member of the National Assembly,LFI-NFP,G0117,2024-06-30,,y,PA720846,2026-10-25,https://www2.assemblee-nationale.fr/deputes/liste/alphabetique
+O00136,A0136,B0001,Member of the National Assembly,EcoS,G0068,2024-07-07,,y,PA794146,2026-10-25,https://www2.assemblee-nationale.fr/deputes/liste/alphabetique
+O00137,A0137,B0001,Member of the National Assembly,EcoS,G0059,2024-07-07,,y,PA841223,2026-10-25,https://www2.assemblee-nationale.fr/deputes/liste/alphabetique
+O00138,A0138,B0001,Member of the National Assembly,LFI-NFP,G0101,2024-07-07,,y,PA795516,2026-10-25,https://www2.assemblee-nationale.fr/deputes/liste/alphabetique
+O00139,A0139,B0001,Member of the National Assembly,LFI-NFP,G0083,2024-07-07,,y,PA841515,2026-10-25,https://www2.assemblee-nationale.fr/deputes/liste/alphabetique
+O00140,A0140,B0001,Member of the National Assembly,LFI-NFP,G0119,2024-07-07,,y,PA795672,2026-10-25,https://www2.assemblee-nationale.fr/deputes/liste/alphabetique
+O00141,A0141,B0001,Member of the National Assembly,GDR,G0123,2024-07-07,,y,PA774962,2026-10-25,https://www2.assemblee-nationale.fr/deputes/liste/alphabetique
+O00142,A0142,B0001,Member of the National Assembly,LFI-NFP,G0096,2024-07-07,,y,PA795108,2026-10-25,https://www2.assemblee-nationale.fr/deputes/liste/alphabetique
+O00143,A0143,B0001,Member of the National Assembly,GDR,G0100,2024-07-07,,y,PA335612,2026-10-25,https://www2.assemblee-nationale.fr/deputes/liste/alphabetique
+O00144,A0144,B0001,Member of the National Assembly,LFI-NFP,G0117,2024-07-07,,y,PA795298,2026-10-25,https://www2.assemblee-nationale.fr/deputes/liste/alphabetique
+O00145,A0145,B0001,Member of the National Assembly,LFI-NFP,G0099,2024-06-30,,y,PA791824,2026-10-25,https://www2.assemblee-nationale.fr/deputes/liste/alphabetique
+O00146,A0146,B0001,Member of the National Assembly,LFI-NFP,G0115,2024-07-07,,y,PA842029,2026-10-25,https://www2.assemblee-nationale.fr/deputes/liste/alphabetique
+O00147,A0147,B0001,Member of the National Assembly,LFI-NFP,G0044,2024-07-07,,y,PA793532,2026-10-25,https://www2.assemblee-nationale.fr/deputes/liste/alphabetique
+O00148,A0148,B0001,Member of the National Assembly,SOC,G0100,2024-07-07,,y,PA774958,2026-10-25,https://www2.assemblee-nationale.fr/deputes/liste/alphabetique
+O00149,A0149,B0001,Member of the National Assembly,SOC,G0036,2024-07-07,,y,PA840765,2026-10-25,https://www2.assemblee-nationale.fr/deputes/liste/alphabetique
+O00150,A0150,B0001,Member of the National Assembly,EcoS,G0102,2024-07-07,,y,PA795636,2026-10-25,https://www2.assemblee-nationale.fr/deputes/liste/alphabetique
+O00151,A0151,B0001,Member of the National Assembly,LFI-NFP,G0115,2024-07-07,,y,PA795746,2026-10-25,https://www2.assemblee-nationale.fr/deputes/liste/alphabetique
+O00152,A0152,B0001,Member of the National Assembly,GDR,G0123,2024-07-07,,y,PA796010,2026-10-25,https://www2.assemblee-nationale.fr/deputes/liste/alphabetique
+O00153,A0153,B0001,Member of the National Assembly,LFI-NFP,G0062,2024-07-07,,y,PA342384,2026-10-25,https://www2.assemblee-nationale.fr/deputes/liste/alphabetique
+O00154,A0154,B0001,Member of the National Assembly,LFI-NFP,G0111,2024-07-07,,y,PA795422,2026-10-25,https://www2.assemblee-nationale.fr/deputes/liste/alphabetique
+O00155,A0155,B0001,Member of the National Assembly,GDR,G0119,2024-07-07,,y,PA842271,2026-10-25,https://www2.assemblee-nationale.fr/deputes/liste/alphabetique
+O00156,A0156,B0001,Member of the National Assembly,LFI-NFP,G0087,2024-07-07,,y,PA794686,2026-10-25,https://www2.assemblee-nationale.fr/deputes/liste/alphabetique
+O00157,A0157,B0001,Member of the National Assembly,SOC,G0078,2024-07-07,,y,PA841463,2026-10-25,https://www2.assemblee-nationale.fr/deputes/liste/alphabetique
+O00158,A0158,B0001,Member of the National Assembly,LFI-NFP,G0059,2024-07-07,,y,PA841215,2026-10-25,https://www2.assemblee-nationale.fr/deputes/liste/alphabetique
+O00159,A0159,B0001,Member of the National Assembly,LFI-NFP,G0111,2024-07-07,,y,PA795482,2026-10-25,https://www2.assemblee-nationale.fr/deputes/liste/alphabetique
+O00160,A0160,B0001,Member of the National Assembly,LIOT,G0080,2024-07-07,,y,PA607619,2026-10-25,https://www2.assemblee-nationale.fr/deputes/liste/alphabetique
+O00161,A0161,B0001,Member of the National Assembly,GDR,G0026,2024-07-07,,y,PA793174,2026-10-25,https://www2.assemblee-nationale.fr/deputes/liste/alphabetique
+O00162,A0162,B0001,Member of the National Assembly,GDR,G0121,2024-07-07,,y,PA795820,2026-10-25,https://www2.assemblee-nationale.fr/deputes/liste/alphabetique
+O00163,A0163,B0001,Member of the National Assembly,SOC,G0123,2024-07-07,,y,PA643157,2026-10-25,https://www2.assemblee-nationale.fr/deputes/liste/alphabetique
+O00164,A0164,B0001,Member of the National Assembly,LFI-NFP,G0121,2024-07-07,,y,PA610654,2026-10-25,https://www2.assemblee-nationale.fr/deputes/liste/alphabetique
+O00165,A0165,B0001,Member of the National Assembly,LFI-NFP,G0062,2024-07-07,,y,PA841191,2026-10-25,https://www2.assemblee-nationale.fr/deputes/liste/alphabetique
+O00166,A0166,B0001,Member of the National Assembly,SOC,G0055,2024-07-07,,y,PA841107,2026-10-25,https://www2.assemblee-nationale.fr/deputes/liste/alphabetique
+O00167,A0167,B0001,Member of the National Assembly,LFI-NFP,G0099,2024-06-30,,y,PA721960,2026-10-25,https://www2.assemblee-nationale.fr/deputes/liste/alphabetique
+O00168,A0168,B0001,Member of the National Assembly,EcoS,G0115,2024-07-07,,y,PA842045,2026-10-25,https://www2.assemblee-nationale.fr/deputes/liste/alphabetique
+O00169,A0169,B0001,Member of the National Assembly,LFI-NFP,G0118,2024-06-30,,y,PA720892,2026-10-25,https://www2.assemblee-nationale.fr/deputes/liste/alphabetique
+O00170,A0170,B0001,Member of the National Assembly,SOC,G0072,2024-07-07,,y,PA841381,2026-10-25,https://www2.assemblee-nationale.fr/deputes/liste/alphabetique
+O00171,A0171,B0001,Member of the National Assembly,SOC,G0036,2024-07-07,,y,PA840793,2026-10-25,https://www2.assemblee-nationale.fr/deputes/liste/alphabetique
+O00172,A0172,B0001,Member of the National Assembly,GDR,G0117,2024-06-30,,y,PA721270,2026-10-25,https://www2.assemblee-nationale.fr/deputes/liste/alphabetique
+O00173,A0173,B0001,Member of the National Assembly,EcoS,G0046,2024-07-07,,y,PA793708,2026-10-25,https://www2.assemblee-nationale.fr/deputes/liste/alphabetique
+O00174,A0174,B0001,Member of the National Assembly,SOC,G0074,2024-07-07,,y,PA794270,2026-10-25,https://www2.assemblee-nationale.fr/deputes/liste/alphabetique
+O00175,A0175,B0001,Member of the National Assembly,LFI-NFP,G0039,2024-07-07,,y,PA817211,2026-10-25,https://www2.assemblee-nationale.fr/deputes/liste/alphabetique
+O00176,A0176,B0001,Member of the National Assembly,LFI-NFP,G0055,2024-06-30,,y,PA793756,2026-10-25,https://www2.assemblee-nationale.fr/deputes/liste/alphabetique
+O00177,A0177,B0001,Member of the National Assembly,SOC,G0087,2024-07-07,,y,PA608172,2026-10-25,https://www2.assemblee-nationale.fr/deputes/liste/alphabetique
+O00178,A0178,B0001,Member of the National Assembly,EcoS,G0048,2024-07-07,,y,PA793664,2026-10-25,https://www2.assemblee-nationale.fr/deputes/liste/alphabetique
+O00179,A0179,B0001,Member of the National Assembly,LFI-NFP,G0117,2024-07-07,,y,PA796062,2026-10-25,https://www2.assemblee-nationale.fr/deputes/liste/alphabetique
+O00180,A0180,B0001,Member of the National Assembly,SOC,G0078,2024-07-07,,y,PA607553,2026-10-25,https://www2.assemblee-nationale.fr/deputes/liste/alphabetique
+O00181,A0181,B0001,Member of the National Assembly,SOC,G0043,2024-07-07,,y,PA840955,2026-10-25,https://www2.assemblee-nationale.fr/deputes/liste/alphabetique
+O00182,A0182,B0001,Member of the National Assembly,SOC,G0070,2024-07-07,,y,PA841367,2026-10-25,https://www2.assemblee-nationale.fr/deputes/liste/alphabetique
+O00183,A0183,B0001,Member of the National Assembly,LFI-NFP,G0123,2024-07-07,,y,PA721062,2026-10-25,https://www2.assemblee-nationale.fr/deputes/liste/alphabetique
+O00184,A0184,B0001,Member of the National Assembly,EcoS,G0068,2024-07-07,,y,PA794154,2026-10-25,https://www2.assemblee-nationale.fr/deputes/liste/alphabetique
+O00185,A0185,B0001,Member of the National Assembly,EcoS,G0091,2024-07-07,,y,PA794778,2026-10-25,https://www2.assemblee-nationale.fr/deputes/liste/alphabetique
+O00186,A0186,B0001,Member of the National Assembly,SOC,G0028,2024-07-07,,y,PA840673,2026-10-25,https://www2.assemblee-nationale.fr/deputes/liste/alphabetique
+O00187,A0187,B0001,Member of the National Assembly,SOC,G0059,2024-07-07,,y,PA342196,2026-10-25,https://www2.assemblee-nationale.fr/deputes/liste/alphabetique
+O00188,A0188,B0001,Member of the National Assembly,EcoS,G0058,2024-07-07,,y,PA606545,2026-10-25,https://www2.assemblee-nationale.fr/deputes/liste/alphabetique
+O00189,A0189,B0001,Member of the National Assembly,EcoS,G0099,2024-06-30,,y,PA795076,2026-10-25,https://www2.assemblee-nationale.fr/deputes/liste/alphabetique
+O00190,A0190,B0001,Member of the National Assembly,SOC,G0102,2024-07-07,,y,PA826635,2026-10-25,https://www2.assemblee-nationale.fr/deputes/liste/alphabetique
+O00191,A0191,B0001,Member of the National Assembly,SOC,G0068,2024-07-07,,y,PA841327,2026-10-25,https://www2.assemblee-nationale.fr/deputes/liste/alphabetique
+O00192,A0192,B0001,Member of the National Assembly,EcoS,G0104,2024-07-07,,y,PA722142,2026-10-25,https://www2.assemblee-nationale.fr/deputes/liste/alphabetique
+O00193,A0193,B0001,Member of the National Assembly,SOC,G0093,2024-07-07,,y,PA841717,2026-10-25,https://www2.assemblee-nationale.fr/deputes/liste/alphabetique
+O00194,A0194,B0001,Member of the National Assembly,SOC,G0057,2024-07-07,,y,PA341981,2026-10-25,https://www2.assemblee-nationale.fr/deputes/liste/alphabetique
+O00195,A0195,B0001,Member of the National Assembly,LFI-NFP,G0101,2024-07-07,,y,PA841845,2026-10-25,https://www2.assemblee-nationale.fr/deputes/liste/alphabetique
+O00196,A0196,B0001,Member of the National Assembly,SOC,G0057,2024-07-07,,y,PA841243,2026-10-25,https://www2.assemblee-nationale.fr/deputes/liste/alphabetique
+O00197,A0197,B0001,Member of the National Assembly,LFI-NFP,G0116,2024-06-30,,y,PA795982,2026-10-25,https://www2.assemblee-nationale.fr/deputes/liste/alphabetique
+O00198,A0198,B0001,Member of the National Assembly,GDR,G0041,2024-07-07,,y,PA605745,2026-10-25,https://www2.assemblee-nationale.fr/deputes/liste/alphabetique
+O00199,A0199,B0001,Member of the National Assembly,SOC,G0118,2024-06-30,,y,PA774960,2026-10-25,https://www2.assemblee-nationale.fr/deputes/liste/alphabetique
+O00200,A0200,B0001,Member of the National Assembly,EcoS,G0099,2024-06-30,,y,PA610002,2026-10-25,https://www2.assemblee-nationale.fr/deputes/liste/alphabetique
+O00201,A0201,B0001,Member of the National Assembly,SOC,G0030,2024-07-07,,y,PA340343,2026-10-25,https://www2.assemblee-nationale.fr/deputes/liste/alphabetique
+O00202,A0202,B0001,Member of the National Assembly,EcoS,G0116,2024-07-07,,y,PA795808,2026-10-25,https://www2.assemblee-nationale.fr/deputes/liste/alphabetique
+O00203,A0203,B0001,Member of the National Assembly,SOC,G0055,2024-07-07,,y,PA841091,2026-10-25,https://www2.assemblee-nationale.fr/deputes/liste/alphabetique
+O00204,A0204,B0001,Member of the National Assembly,EcoS,G0099,2024-07-07,,y,PA796018,2026-10-25,https://www2.assemblee-nationale.fr/deputes/liste/alphabetique
+O00205,A0205,B0001,Member of the National Assembly,SOC,G0091,2024-07-07,,y,PA841681,2026-10-25,https://www2.assemblee-nationale.fr/deputes/liste/alphabetique
+O00206,A0206,B0001,Member of the National Assembly,LFI-NFP,G0101,2024-07-07,,y,PA795466,2026-10-25,https://www2.assemblee-nationale.fr/deputes/liste/alphabetique
+O00207,A0207,B0001,Member of the National Assembly,LFI-NFP,G0055,2024-07-07,,y,PA793744,2026-10-25,https://www2.assemblee-nationale.fr/deputes/liste/alphabetique
+O00208,A0208,B0001,Member of the National Assembly,LFI-NFP,G0119,2024-07-07,,y,PA720952,2026-10-25,https://www2.assemblee-nationale.fr/deputes/liste/alphabetique
+O00209,A0209,B0001,Member of the National Assembly,EcoS,G0118,2024-06-30,,y,PA736201,2026-10-25,https://www2.assemblee-nationale.fr/deputes/liste/alphabetique
+O00210,A0210,B0001,Member of the National Assembly,LIOT,G0056,2024-07-07,,y,PA793796,2026-10-25,https://www2.assemblee-nationale.fr/deputes/liste/alphabetique
+O00211,A0211,B0001,Member of the National Assembly,LFI-NFP,G0066,2024-07-07,,y,PA794106,2026-10-25,https://www2.assemblee-nationale.fr/deputes/liste/alphabetique
+O00212,A0212,B0001,Member of the National Assembly,LFI-NFP,G0068,2024-07-07,,y,PA794166,2026-10-25,https://www2.assemblee-nationale.fr/deputes/liste/alphabetique
+O00213,A0213,B0001,Member of the National Assembly,EcoS,G0093,2024-07-07,,y,PA841713,2026-10-25,https://www2.assemblee-nationale.fr/deputes/liste/alphabetique
+O00214,A0214,B0001,Member of the National Assembly,EcoS,G0057,2024-07-07,,y,PA793948,2026-10-25,https://www2.assemblee-nationale.fr/deputes/liste/alphabetique
+O00215,A0215,B0001,Member of the National Assembly,SOC,G0101,2024-07-07,,y,PA841893,2026-10-25,https://www2.assemblee-nationale.fr/deputes/liste/alphabetique
+O00216,A0216,B0001,Member of the National Assembly,SOC,G0051,2024-07-07,,y,PA793816,2026-10-25,https://www2.assemblee-nationale.fr/deputes/liste/alphabetique
+O00217,A0217,B0001,Member of the National Assembly,LFI-NFP,G0117,2024-06-30,,y,PA795164,2026-10-25,https://www2.assemblee-nationale.fr/deputes/liste/alphabetique
+O00218,A0218,B0001,Member of the National Assembly,SOC,G0064,2024-07-07,,y,PA719930,2026-10-25,https://www2.assemblee-nationale.fr/deputes/liste/alphabetique
+O00219,A0219,B0001,Member of the National Assembly,LFI-NFP,G0119,2024-06-30,,y,PA795596,2026-10-25,https://www2.assemblee-nationale.fr/deputes/liste/alphabetique
+O00220,A0220,B0001,Member of the National Assembly,SOC,G0083,2024-07-07,,y,PA794494,2026-10-25,https://www2.assemblee-nationale.fr/deputes/liste/alphabetique
+O00221,A0221,B0001,Member of the National Assembly,EcoS,G0047,2024-07-07,,y,PA2940,2026-10-25,https://www2.assemblee-nationale.fr/deputes/liste/alphabetique
+O00222,A0222,B0001,Member of the National Assembly,LIOT,G0124,2024-06-30,,y,PA796078,2026-10-25,https://www2.assemblee-nationale.fr/deputes/liste/alphabetique
+O00223,A0042,B0002,Senator,NI,G0093,,,y,20684B,2026-10-25,https://www.senat.fr/senateurs/senatl.html
+O00224,A0257,B0002,Senator,SER,G0089,,,y,19631V,2026-10-25,https://www.senat.fr/senateurs/senatl.html
+O00225,A0258,B0002,Senator,SER,G0123,,,y,21035B,2026-10-25,https://www.senat.fr/senateurs/senatl.html
+O00226,A0259,B0002,Senator,SER,G0024,,,y,20094J,2026-10-25,https://www.senat.fr/senateurs/senatl.html
+O00227,A0260,B0002,Senator,SER,G0039,,,y,08060W,2026-10-25,https://www.senat.fr/senateurs/senatl.html
+O00228,A0261,B0002,Senator,SER,G0054,,,y,20088L,2026-10-25,https://www.senat.fr/senateurs/senatl.html
+O00229,A0262,B0002,Senator,SER,G0058,,,y,20114U,2026-10-25,https://www.senat.fr/senateurs/senatl.html
+O00230,A0263,B0002,Senator,SER,G0111,,,y,20080C,2026-10-25,https://www.senat.fr/senateurs/senatl.html
+O00231,A0264,B0002,Senator,SER,G0099,,,y,21089R,2026-10-25,https://www.senat.fr/senateurs/senatl.html
+O00232,A0265,B0002,Senator,SER,G0087,,,y,21045D,2026-10-25,https://www.senat.fr/senateurs/senatl.html
+O00233,A0266,B0002,Senator,SER,G0104,,,y,20060X,2026-10-25,https://www.senat.fr/senateurs/senatl.html
+O00234,A0267,B0002,Senator,SER,G0036,,,y,12028B,2026-10-25,https://www.senat.fr/senateurs/senatl.html
+O00235,A0268,B0002,Senator,SER,G0069,,,y,21057H,2026-10-25,https://www.senat.fr/senateurs/senatl.html
+O00236,A0269,B0002,Senator,SER,G0001,,,y,20264J,2026-10-25,https://www.senat.fr/senateurs/senatl.html
+O00237,A0270,B0002,Senator,SER,G0121,,,y,19295A,2026-10-25,https://www.senat.fr/senateurs/senatl.html
+O00238,A0271,B0002,Senator,SER,G0001,,,y,11027H,2026-10-25,https://www.senat.fr/senateurs/senatl.html
+O00239,A0272,B0002,Senator,SER,G0096,,,y,20070A,2026-10-25,https://www.senat.fr/senateurs/senatl.html
+O00240,A0273,B0002,Senator,SER,G0068,,,y,18395Y,2026-10-25,https://www.senat.fr/senateurs/senatl.html
+O00241,A0274,B0002,Senator,SER,G0086,,,y,21067K,2026-10-25,https://www.senat.fr/senateurs/senatl.html
+O00242,A0275,B0002,Senator,,G0093,,,n,,2026-10-25,https://www.senat.fr/senateurs/senatl.html
+O00243,A0276,B0002,Senator,,G0095,,,n,,2026-10-25,https://www.senat.fr/senateurs/senatl.html
+O00244,A0277,B0002,Senator,SER,G0101,,,y,11074Q,2026-10-25,https://www.senat.fr/senateurs/senatl.html
+O00245,A0278,B0002,Senator,SER,G0088,,,y,11110B,2026-10-25,https://www.senat.fr/senateurs/senatl.html
+O00246,A0279,B0002,Senator,SER,G0074,,,y,21062E,2026-10-25,https://www.senat.fr/senateurs/senatl.html
+O00247,A0280,B0002,Senator,SER,G0099,,,y,19647E,2026-10-25,https://www.senat.fr/senateurs/senatl.html
+O00248,A0281,B0002,Senator,SER,G0037,,,y,14281W,2026-10-25,https://www.senat.fr/senateurs/senatl.html
+O00249,A0282,B0002,Senator,,G0051,,,n,,2026-10-25,https://www.senat.fr/senateurs/senatl.html
+O00250,A0283,B0002,Senator,SER,G0057,,,y,19820Y,2026-10-25,https://www.senat.fr/senateurs/senatl.html
+O00251,A0284,B0002,Senator,,G0057,,,n,,2026-10-25,https://www.senat.fr/senateurs/senatl.html
+O00252,A0285,B0002,Senator,SER,G0078,,,y,19551W,2026-10-25,https://www.senat.fr/senateurs/senatl.html
+O00253,A0286,B0002,Senator,,G0045,,,n,,2026-10-25,https://www.senat.fr/senateurs/senatl.html
+O00254,A0287,B0002,Senator,SER,G0082,,,y,19531S,2026-10-25,https://www.senat.fr/senateurs/senatl.html
+O00255,A0288,B0002,Senator,GEST,G0099,,,y,19683J,2026-10-25,https://www.senat.fr/senateurs/senatl.html
+O00256,A0289,B0002,Senator,,G0034,,,n,,2026-10-25,https://www.senat.fr/senateurs/senatl.html
+O00257,A0290,B0002,Senator,SER,G0083,,,y,14021P,2026-10-25,https://www.senat.fr/senateurs/senatl.html
+O00258,A0291,B0002,Senator,SER,G0064,,,y,19489J,2026-10-25,https://www.senat.fr/senateurs/senatl.html
+O00259,A0292,B0002,Senator,SER,G0099,,,y,19649G,2026-10-25,https://www.senat.fr/senateurs/senatl.html
+O00260,A0293,B0002,Senator,SER,G0044,,,y,18193Q,2026-10-25,https://www.senat.fr/senateurs/senatl.html
+O00261,A0294,B0002,Senator,SER,G0083,,,y,18207D,2026-10-25,https://www.senat.fr/senateurs/senatl.html
+O00262,A0295,B0002,Senator,SER,G0045,,,y,08012N,2026-10-25,https://www.senat.fr/senateurs/senatl.html
+O00263,A0296,B0002,Senator,SER,G0064,,,y,17779H,2026-10-25,https://www.senat.fr/senateurs/senatl.html
+O00264,A0297,B0002,Senator,SER,G0120,,,y,12016W,2026-10-25,https://www.senat.fr/senateurs/senatl.html
+O00265,A0298,B0002,Senator,,G0100,,,n,,2026-10-25,https://www.senat.fr/senateurs/senatl.html
+O00266,A0299,B0002,Senator,SER,G0046,,,y,20028X,2026-10-25,https://www.senat.fr/senateurs/senatl.html
+O00267,A0300,B0002,Senator,RDSE,G0032,,,y,20018V,2026-10-25,https://www.senat.fr/senateurs/senatl.html
+O00268,A0301,B0002,Senator,,G0048,,,n,,2026-10-25,https://www.senat.fr/senateurs/senatl.html
+O00269,A0302,B0002,Senator,,G0056,,,n,,2026-10-25,https://www.senat.fr/senateurs/senatl.html
+O00270,A0303,B0002,Senator,SER,G0117,,,y,18231D,2026-10-25,https://www.senat.fr/senateurs/senatl.html
+O00271,A0304,B0002,Senator,SER,G0124,,,y,19331L,2026-10-25,https://www.senat.fr/senateurs/senatl.html
+O00272,A0305,B0002,Senator,SER,G0084,,,y,21060C,2026-10-25,https://www.senat.fr/senateurs/senatl.html
+O00273,A0306,B0002,Senator,SER,G0034,,,y,20030R,2026-10-25,https://www.senat.fr/senateurs/senatl.html
+O00274,A0307,B0002,Senator,,G0055,,,n,,2026-10-25,https://www.senat.fr/senateurs/senatl.html
+O00275,A0308,B0002,Senator,,G0055,,,n,,2026-10-25,https://www.senat.fr/senateurs/senatl.html
+O00276,A0309,B0002,Senator,SER,G0111,,,y,20082E,2026-10-25,https://www.senat.fr/senateurs/senatl.html
+O00277,A0310,B0002,Senator,SER,G0059,,,y,14229S,2026-10-25,https://www.senat.fr/senateurs/senatl.html
+O00278,A0311,B0002,Senator,SER,G0061,,,y,21056G,2026-10-25,https://www.senat.fr/senateurs/senatl.html
+O00279,A0312,B0002,Senator,SER,G0115,,,y,21059K,2026-10-25,https://www.senat.fr/senateurs/senatl.html
+O00280,A0313,B0002,Senator,SER,G0118,,,y,11045K,2026-10-25,https://www.senat.fr/senateurs/senatl.html
+O00281,A0314,B0002,Senator,,G0108,,,n,,2026-10-25,https://www.senat.fr/senateurs/senatl.html
+O00282,A0315,B0002,Senator,SER,G0119,,,y,19669L,2026-10-25,https://www.senat.fr/senateurs/senatl.html
+O00283,A0316,B0002,Senator,SER,G0066,,,y,19413M,2026-10-25,https://www.senat.fr/senateurs/senatl.html
+O00284,A0317,B0002,Senator,SER,G0080,,,y,21051B,2026-10-25,https://www.senat.fr/senateurs/senatl.html
+O00285,A0318,B0002,Senator,SER,G0040,,,y,20064C,2026-10-25,https://www.senat.fr/senateurs/senatl.html
+O00286,A0319,B0002,Senator,SER,G0070,,,y,21031W,2026-10-25,https://www.senat.fr/senateurs/senatl.html
+O00287,A0320,B0002,Senator,SER,G0081,,,y,21082J,2026-10-25,https://www.senat.fr/senateurs/senatl.html
+O00288,A0321,B0002,Senator,SER,G0117,,,y,21077M,2026-10-25,https://www.senat.fr/senateurs/senatl.html
+O00289,A0322,B0002,Senator,UCI,G0079,,,y,21042A,2026-10-25,https://www.senat.fr/senateurs/senatl.html
+O00290,A0323,B0002,Senator,UCI,G0028,,,y,14189C,2026-10-25,https://www.senat.fr/senateurs/senatl.html
+O00291,A0324,B0002,Senator,UCI,G0085,,,y,21043B,2026-10-25,https://www.senat.fr/senateurs/senatl.html
+O00292,A0325,B0002,Senator,UCI,G0067,,,y,14267Y,2026-10-25,https://www.senat.fr/senateurs/senatl.html
+O00293,A0326,B0002,Senator,UCI,G0038,,,y,14327T,2026-10-25,https://www.senat.fr/senateurs/senatl.html
+O00294,A0327,B0002,Senator,UCI,G0083,,,y,15197G,2026-10-25,https://www.senat.fr/senateurs/senatl.html
+O00295,A0328,B0002,Senator,UCI,G0056,,,y,20040T,2026-10-25,https://www.senat.fr/senateurs/senatl.html
+O00296,A0329,B0002,Senator,UCI,G0085,,,y,07004J,2026-10-25,https://www.senat.fr/senateurs/senatl.html
+O00297,A0330,B0002,Senator,UCI,G0092,,,y,20128B,2026-10-25,https://www.senat.fr/senateurs/senatl.html
+O00298,A0331,B0002,Senator,,G0047,,,n,,2026-10-25,https://www.senat.fr/senateurs/senatl.html
+O00299,A0332,B0002,Senator,UCI,G0047,,,y,14219Q,2026-10-25,https://www.senat.fr/senateurs/senatl.html
+O00300,A0333,B0002,Senator,UCI,G0053,,,y,20036X,2026-10-25,https://www.senat.fr/senateurs/senatl.html
+O00301,A0334,B0002,Senator,,G0033,,,n,,2026-10-25,https://www.senat.fr/senateurs/senatl.html
+O00302,A0335,B0002,Senator,UCI,G0065,,,y,21053D,2026-10-25,https://www.senat.fr/senateurs/senatl.html
+O00303,A0336,B0002,Senator,,G0025,,,n,,2026-10-25,https://www.senat.fr/senateurs/senatl.html
+O00304,A0337,B0002,Senator,,G0122,,,n,,2026-10-25,https://www.senat.fr/senateurs/senatl.html
+O00305,A0338,B0002,Senator,CRCE-K,G0086,,,y,19760E,2026-10-25,https://www.senat.fr/senateurs/senatl.html
+O00306,A0339,B0002,Senator,CRCE-K,G0036,,,y,20112S,2026-10-25,https://www.senat.fr/senateurs/senatl.html
+O00307,A0340,B0002,Senator,CRCE-K,G0119,,,y,21084L,2026-10-25,https://www.senat.fr/senateurs/senatl.html
+O00308,A0341,B0002,Senator,CRCE-K,G0083,,,y,21460Q,2026-10-25,https://www.senat.fr/senateurs/senatl.html
+O00309,A0342,B0002,Senator,CRCE-K,G0099,,,y,21088Q,2026-10-25,https://www.senat.fr/senateurs/senatl.html
+O00310,A0343,B0002,Senator,CRCE-K,G0100,,,y,19758L,2026-10-25,https://www.senat.fr/senateurs/senatl.html
+O00311,A0344,B0002,Senator,CRCE-K,G0123,,,y,21034A,2026-10-25,https://www.senat.fr/senateurs/senatl.html
+O00312,A0345,B0002,Senator,CRCE-K,G0086,,,y,19681G,2026-10-25,https://www.senat.fr/senateurs/senatl.html
+O00313,A0346,B0002,Senator,CRCE-K,G0066,,,y,11056N,2026-10-25,https://www.senat.fr/senateurs/senatl.html
+O00314,A0347,B0002,Senator,CRCE-K,G0117,,,y,19695N,2026-10-25,https://www.senat.fr/senateurs/senatl.html
+O00315,A0348,B0002,Senator,CRCE-K,G0083,,,y,19565D,2026-10-25,https://www.senat.fr/senateurs/senatl.html
+O00316,A0349,B0002,Senator,CRCE-K,G0044,,,y,20102Q,2026-10-25,https://www.senat.fr/senateurs/senatl.html
+O00317,A0350,B0002,Senator,CRCE-K,G0101,,,y,21075K,2026-10-25,https://www.senat.fr/senateurs/senatl.html
+O00318,A0351,B0002,Senator,CRCE-K,G0118,,,y,19687N,2026-10-25,https://www.senat.fr/senateurs/senatl.html
+O00319,A0352,B0002,Senator,CRCE-K,G0078,,,y,21049H,2026-10-25,https://www.senat.fr/senateurs/senatl.html
+O00320,A0353,B0002,Senator,CRCE-K,G0046,,,y,20046A,2026-10-25,https://www.senat.fr/senateurs/senatl.html
+O00321,A0354,B0002,Senator,CRCE-K,G0001,,,y,21030V,2026-10-25,https://www.senat.fr/senateurs/senatl.html
+O00322,A0355,B0002,Senator,,G0058,,,n,,2026-10-25,https://www.senat.fr/senateurs/senatl.html
+O00323,A0356,B0002,Senator,RDSE,G0001,,,y,21404G,2026-10-25,https://www.senat.fr/senateurs/senatl.html
+O00324,A0357,B0002,Senator,,G0058,,,n,,2026-10-25,https://www.senat.fr/senateurs/senatl.html
+O00325,A0358,B0002,Senator,RDSE,G0089,,,y,19629C,2026-10-25,https://www.senat.fr/senateurs/senatl.html
+O00326,A0359,B0002,Senator,RDSE,G0070,,,y,21041Y,2026-10-25,https://www.senat.fr/senateurs/senatl.html
+O00327,A0360,B0002,Senator,RDSE,G0093,,,y,20132W,2026-10-25,https://www.senat.fr/senateurs/senatl.html
+O00328,A0361,B0002,Senator,RDSE,G0087,,,y,19387D,2026-10-25,https://www.senat.fr/senateurs/senatl.html
+O00329,A0362,B0002,Senator,RDSE,G0068,,,y,21066J,2026-10-25,https://www.senat.fr/senateurs/senatl.html
+O00330,A0363,B0002,Senator,,G0107,,,n,,2026-10-25,https://www.senat.fr/senateurs/senatl.html
+O00331,A0364,B0002,Senator,,G0036,,,n,,2026-10-25,https://www.senat.fr/senateurs/senatl.html
+O00332,A0365,B0002,Senator,RDSE,G0117,,,y,21078N,2026-10-25,https://www.senat.fr/senateurs/senatl.html
+O00333,A0366,B0002,Senator,RDSE,G0071,,,y,21040X,2026-10-25,https://www.senat.fr/senateurs/senatl.html
+O00334,A0367,B0002,Senator,RDSE,G0072,,,y,19866P,2026-10-25,https://www.senat.fr/senateurs/senatl.html
+O00335,A0368,B0002,Senator,RDSE,G0027,,,y,14107H,2026-10-25,https://www.senat.fr/senateurs/senatl.html
+O00336,A0369,B0002,Senator,,G0001,,,n,,2026-10-25,https://www.senat.fr/senateurs/senatl.html
+O00337,A0370,B0002,Senator,GEST,G0036,,,y,20110Q,2026-10-25,https://www.senat.fr/senateurs/senatl.html
+O00338,A0371,B0002,Senator,GEST,G0073,,,y,21048G,2026-10-25,https://www.senat.fr/senateurs/senatl.html
+O00339,A0372,B0002,Senator,GEST,G0068,,,y,11065P,2026-10-25,https://www.senat.fr/senateurs/senatl.html
+O00340,A0373,B0002,Senator,GEST,G0093,,,y,20134Y,2026-10-25,https://www.senat.fr/senateurs/senatl.html
+O00341,A0374,B0002,Senator,,G0091,,,n,,2026-10-25,https://www.senat.fr/senateurs/senatl.html
+O00342,A0375,B0002,Senator,GEST,G0062,,,y,19347U,2026-10-25,https://www.senat.fr/senateurs/senatl.html
+O00343,A0376,B0002,Senator,GEST,G0099,,,y,21092L,2026-10-25,https://www.senat.fr/senateurs/senatl.html
+O00344,A0377,B0002,Senator,GEST,G0099,,,y,21093M,2026-10-25,https://www.senat.fr/senateurs/senatl.html
+O00345,A0378,B0002,Senator,,G0057,,,n,,2026-10-25,https://www.senat.fr/senateurs/senatl.html
+O00346,A0379,B0002,Senator,GEST,G0118,,,y,21073H,2026-10-25,https://www.senat.fr/senateurs/senatl.html
+O00347,A0380,B0002,Senator,GEST,G0001,,,y,21037D,2026-10-25,https://www.senat.fr/senateurs/senatl.html
+O00348,A0381,B0002,Senator,,G0093,,,n,,2026-10-25,https://www.senat.fr/senateurs/senatl.html
+O00349,A0382,B0002,Senator,GEST,G0059,,,y,20092G,2026-10-25,https://www.senat.fr/senateurs/senatl.html
+O00350,A0383,B0002,Senator,GEST,G0102,,,y,21079P,2026-10-25,https://www.senat.fr/senateurs/senatl.html
+O00351,A0384,B0002,Senator,GEST,G0099,,,y,21094N,2026-10-25,https://www.senat.fr/senateurs/senatl.html
+O00352,A0385,B0002,Senator,GEST,G0001,,,y,20266L,2026-10-25,https://www.senat.fr/senateurs/senatl.html

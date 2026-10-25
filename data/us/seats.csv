@@ -1,0 +1,8 @@
+seat_id,body_id,party,seats,colour,order
+S0001,B0001,Democratic Party,45,3b72d9,1
+S0002,B0001,Independent,2,8a8680,2
+S0003,B0001,Republican Party,53,d64a4a,3
+S0004,B0002,Democratic Party,217,3b72d9,1
+S0005,B0002,Independent,1,8a8680,2
+S0006,B0002,Republican Party,221,d64a4a,3
+S0007,B0002,Vacant,2,,4

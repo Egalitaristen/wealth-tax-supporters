@@ -1,0 +1,460 @@
+position_id,actor_id,body_id,role,party,geo_unit_id,start,end,current,member_ref,checked,source_url
+O01041,A0116,B0003,"State Assembly, 24",Democratic Party,G0007,,,,,,
+O01042,A0117,B0003,"State Assembly, 27",Democratic Party,G0007,,,,,,
+O01043,A0118,B0004,"State Senate, 30",Democratic Party,G0007,,,,,,
+O01044,A0119,B0003,"State Assembly, 2",Democratic Party,G0007,,,,,,
+O01045,A0120,B0003,"CA Assembly, 31st District",Democratic Party,G0007,,,,,,
+O01046,A0121,B0003,State Assembly District 62,Democratic Party,G0007,,,,,,
+O01047,A0122,B0003,"Assembly Member, District 39",Democratic Party,G0007,,,,,,
+O01048,A0123,B0004,"State Senate, 33",Democratic Party,G0007,,,,,,
+O01049,A0124,B0003,"State Assembly, 50",Democratic Party,G0007,,,,,,
+O01050,A0125,B0005,California State Board of Equalization,Democratic Party,G0007,,,,,,
+O01051,A0126,B0006,"Vice Mayor, City of Camarillo",,G0297,,,,,,
+O01052,A0127,B0007,Richmond Mayor,,G0248,,,,,,
+O01053,A0128,B0008,Oceanside Deputy Mayor,,G0278,,,,,,
+O01054,A0129,B0009,Mayor of Culver City,,G0260,,,,,,
+O01055,A0130,B0010,Oxnard Mayor Pro Tem,,G0297,,,,,,
+O01056,A0131,B0011,Maywood Mayor,,G0260,,,,,,
+O01057,A0132,B0012,Rohnert Park Vice Mayor,,G0290,,,,,,
+O01058,A0133,B0013,Vice Mayor of City of Sacramento,,G0275,,,,,,
+O01059,A0134,B0014,La Mesa Vice Mayor,,G0278,,,,,,
+O01060,A0135,B0015,"Vice Mayor, Alameda (ret.)",,G0242,,,,,,
+O01061,A0136,B0016,San Ramon Vice Mayor,,G0248,,,,,,
+O01062,A0137,B0017,Mayor of Calipatria,,G0254,,,,,,
+O01063,A0138,B0015,Alameda Vice Mayor,,G0242,,,,,,
+O01064,A0139,B0018,El Cerrito Mayor Pro Tem,,G0248,,,,,,
+O01065,A0140,B0019,Delano Mayor,,G0256,,,,,,
+O01066,A0141,B0020,San Leandro Vice Mayor,,G0242,,,,,,
+O01067,A0142,B0021,Mayor of Emeryville,,G0242,,,,,,
+O01068,A0143,B0022,Burbank Mayor,,G0260,,,,,,
+O01069,A0144,B0023,"Chico City Council, 4",,G0245,,,,,,
+O01070,A0145,B0024,San Francisco Board of Supervisors,Democratic Party,G0279,,,,,,
+O01071,A0146,B0025,Hercules City Councilmember/Vice Mayor,,G0248,,,,,,
+O01072,A0147,B0026,Vallego City Councilmember,,G0289,,,,,,
+O01073,A0148,B0027,Watsonville City Council,,G0285,,,,,,
+O01074,A0149,B0028,Fresno City Councilmember,,G0251,,,,,,
+O01075,A0150,B0009,Culver City City Council Vice Mayor,,G0260,,,,,,
+O01076,A0151,B0029,"Thousand Oaks City Council, 5",,G0297,,,,,,
+O01077,A0152,B0013,Sacramento City Councilmember,,G0275,,,,,,
+O01078,A0153,B0030,Pinole City Council,,G0248,,,,,,
+O01079,A0154,B0031,"Chula Vista City Council, 1",,G0278,,,,,,
+O01080,A0155,B0018,El Cerrito City Councilmember,,G0248,,,,,,
+O01081,A0156,B0032,Berkeley City Councilmember,,G0242,,,,,,
+O01082,A0157,B0031,"Chula Vista City Counil, Vice Mayor",,G0007,,,,,,
+O01083,A0159,B0033,"Oakland City Council, 2",,G0242,,,,,,
+O01084,A0160,B0034,Councilmember – City of West Hollywood,,G0260,,,,,,
+O01085,A0161,B0035,Riverside City Councilmember,,G0274,,,,,,
+O01086,A0162,B0036,Richmond city council District 6,,G0007,,,,,,
+O01087,A0163,B0021,Emeryville CIty Councilmember,,G0007,,,,,,
+O01088,A0164,B0030,Pinole City Council,,G0248,,,,,,
+O01089,A0165,B0007,Richmond City Councilmember,,G0248,,,,,,
+O01090,A0166,B0037,Tracy City Council,,G0280,,,,,,
+O01091,A0167,B0026,"Vallego City Council, 3",,G0289,,,,,,
+O01092,A0168,B0020,San Leandro City Council,,G0242,,,,,,
+O01093,A0169,B0011,Maywood City Councilmember,,G0260,,,,,,
+O01094,A0170,B0038,Cudahy City Council Member,,G0007,,,,,,
+O01095,A0171,B0039,Hayward City Councilmember,,G0242,,,,,,
+O01096,A0172,B0014,La Mesa City Council,,G0278,,,,,,
+O01097,A0173,B0039,Hayward City Council Member,,G0007,,,,,,
+O01098,A0174,B0040,South Gate City Councilmember,,G0260,,,,,,
+O01099,A0175,B0041,Davis City Council,,G0298,,,,,,
+O01100,A0176,B0042,Monterey City Council,,G0268,,,,,,
+O01101,A0177,B0043,Los Angeles City Councilmember,Democratic Party,G0260,,,,,,
+O01102,A0178,B0033,Oakland City Councilmember,,G0242,,,,,,
+O01103,A0179,B0044,Former San Francisco County Supervisor,Democratic Party,G0007,,,,,,
+O01104,A0180,B0045,Vice Mayor Martinez City Council,,G0007,,,,,,
+O01105,A0181,B0046,Port Hueneme City Council,,G0297,,,,,,
+O01106,A0182,B0034,West Hollywood City Council,,G0260,,,,,,
+O01107,A0183,B0047,"Councilmember, City of Long Beach",,G0260,,,,,,
+O01108,A0184,B0031,"Chula Vista City Council, 2",,G0278,,,,,,
+O01109,A0185,B0048,National City Councilmember,,G0278,,,,,,
+O01110,A0186,B0049,Monterrey Park City Council,,G0260,,,,,,
+O01111,A0187,B0050,Lynwood City Council,,G0260,,,,,,
+O01112,A0188,B0039,Hayward City Councilmember,,G0242,,,,,,
+O01113,A0189,B0021,Councilmember for the City of Emeryville,,G0242,,,,,,
+O01114,A0190,B0051,"City Councilmember, Irvine",Democratic Party,G0007,,,,,,
+O01115,A0191,B0023,"Chico City Council, 5",,G0245,,,,,,
+O01116,A0192,B0022,Burbank City Council,Democratic Party,G0260,,,,,,
+O01117,A0193,B0052,Orinda City Councilmember,,G0248,,,,,,
+O01118,A0194,B0053,Concord City Councilmember,,G0248,,,,,,
+O01119,A0195,B0018,"El Cerrito Councilmember, former Mayor",,G0007,,,,,,
+O01120,A0196,B0013,"Sacramento City Council, 8",Democratic Party,G0275,,,,,,
+O01121,A0197,B0048,National City Councilmember,,G0278,,,,,,
+O01122,A0198,B0054,"Stockton City Council, 4",,G0280,,,,,,
+O01123,A0199,B0021,City of Emeryville Council Member,,G0007,,,,,,
+O01124,A0200,B0011,Maywood City Councilmember,,G0260,,,,,,
+O01125,A0201,B0031,Chula Vista City Council,,G0278,,,,,,
+O01126,A0202,B0055,"Vacaville City Council, 3",,G0289,,,,,,
+O01127,A0203,B0010,Oxnard City Council District 6,,G0007,,,,,,
+O01128,A0204,B0022,Burbank City Council,,G0260,,,,,,
+O01129,A0205,B0056,West Sacramento City Council,,G0298,,,,,,
+O01130,A0206,B0014,La Mesa City Council,,G0278,,,,,,
+O01131,A0207,B0057,San Jose City Council District 5,,G0007,,,,,,
+O01132,A0208,B0058,Citrust Heights City Councilmember,,G0275,,,,,,
+O01133,A0209,B0059,Suisun City Council,,G0289,,,,,,
+O01134,A0210,B0047,Long Beach City Council,,G0260,,,,,,
+O01135,A0211,B0060,"Ventura City Council, 3",,G0007,,,,,,
+O01136,A0212,B0061,"Union City City Council, 4",,G0242,,,,,,
+O01137,A0213,B0032,Berkeley City Councilmember,,G0242,,,,,,
+O01138,A0214,B0062,"San Diego City Council, 3",,G0278,,,,,,
+O01139,A0215,B0007,Richmond City Councilmember,,G0248,,,,,,
+O01140,A0216,B0047,"Long Beach City Council, 6",,G0260,,,,,,
+O01141,A0217,B0032,Berkeley City Councilmember,,G0242,,,,,,
+O01142,A0218,B0020,San Leandro City Council,,G0242,,,,,,
+O01143,A0219,B0009,Culver City City Council,,G0260,,,,,,
+O01144,A0220,B0043,Los Angeles City Councilmember,Democratic Party,G0260,,,,,,
+O01145,A0221,B0033,Oakland City Councilmember,,G0242,,,,,,
+O01146,A0222,B0063,"Trustee, Cabrillo Community College",,G0007,,,,,,
+O01147,A0223,B0064,West Valley-Mission Community College Board,,G0007,,,,,,
+O01148,A0224,B0065,"Trustee, Hayward Unified School District",,G0007,,,,,,
+O01149,A0225,B0066,Vista Unified School District Board Vice Chair,,G0007,,,,,,
+O01150,A0226,B0067,"Trustee, San Diego Unified Board of Education, Subdistrict C",,G0007,,,,,,
+O01151,A0228,B0068,Lynwood Unified School District Board Member,,G0007,,,,,,
+O01152,A0229,B0069,Fairfield-Suisun USD Board Vice President,,G0007,,,,,,
+O01153,A0230,B0070,"Trustee, Fairfield Suisun Unified School District",,G0007,,,,,,
+O01154,A0231,B0071,"Oxnard Union High School District Board member, President",,G0007,,,,,,
+O01155,A0232,B0072,"Salinas Union High School District Trustee, former",,G0007,,,,,,
+O01156,A0233,B0073,Trustee LA Community College District,,G0007,,,,,,
+O01157,A0234,B0074,Trustee West Valley Mission CCD,,G0007,,,,,,
+O01158,A0235,B0075,"Trustee, Contra Costa Community College District",,G0007,,,,,,
+O01159,A0236,B0036,Emery Unified School Board Trustee,,G0007,,,,,,
+O01160,A0237,B0076,San Diego Unified School District Board Member,,G0007,,,,,,
+O01161,A0238,B0077,"Trustee, Santa Clara County Board of Education",,G0007,,,,,,
+O01162,A0239,B0078,"Trustee, Santa Ana Unified School District",,G0007,,,,,,
+O01163,A0243,B0079,"Eden Health District Board Member, 3",,G0007,,,,,,
+O01164,A0245,B0024,"Former President, San Francisco Board of Supervisors",Democratic Party,G0279,,,,,,
+O01165,A0246,B0080,Solano County Board of Supervisors,,G0007,,,,,,
+O01166,A0247,B0024,Board of Supervisors San Francisco,Democratic Party,G0007,,,,,,
+O01167,A0248,B0036,"Supervisor, City & County of San Francisco",Democratic Party,G0007,,,,,,
+O01168,A0249,B0081,"Alameda County Board of Supervisors, 2",,G0007,,,,,,
+O01169,A0250,B0082,"Santa Cruz County Board of Supervisors, 4",,G0007,,,,,,
+O01170,A0251,B0083,Los Angeles County Supervisor,Democratic Party,G0007,,,,,,
+O01171,A0252,B0036,Third District Supervisor Santa Cruz County,,G0007,,,,,,
+O01172,A0253,B0084,Monterey County Supervisor,,G0007,,,,,,
+O01173,A0254,B0085,"Contra Costa County Board of Supervisors, 4",,G0007,,,,,,
+O01174,A0255,B0081,"Alameda County Board of Supervisors, 3",,G0007,,,,,,
+O01175,A0256,B0081,"Alameda County Board of Supervisors, 4",,G0007,,,,,,
+O01176,A0257,B0081,Alameda County Board of Supervisors,Democratic Party,G0007,,,,,,
+O01177,A0258,B0077,Santa Clara County Board of Supervisors,Democratic Party,G0007,,,,,,
+O01178,A0259,B0086,Pittsburg County Board of Supervisors,,G0007,,,,,,
+O01179,A0260,B0087,San Diego County Board of Supervisors,Democratic Party,G0007,,,,,,
+O01180,A0261,B0080,"Solano County Board of Supervisors, 3",,G0007,,,,,,
+O01181,A0262,B0084,"Monterey County Supervisor, District 4",,G0007,,,,,,
+O01182,A0264,B0088,"President, Board of Directors at Alameda County Water District",,G0007,,,,,,
+O01183,A0265,B0089,"Board Member, East Bay Regional Park District",,G0007,,,,,,
+O01184,A0267,B0036,"County Council member, Green Party of Santa Clara County",Green Party,G0007,,,,,,
+O01185,A0268,B0003,"Vallejo School Board President (ret.), CA Assembly Dist. 14 Delegate (Ret.)",,G0007,,,,,,
+O01186,A0270,B0090,US Delegate (D-DC-At Large),Democratic Party,G0375,,,,,,
+O01187,A0374,B0091,"Washington State Representative, District 37",Democratic Party,G0050,,,,,,
+O01188,A0375,B0091,"Washington State Representative, District 3",Democratic Party,G0050,,,,,,
+O01189,A0376,B0091,"Washington State Representative, District 43",Democratic Party,G0050,,,,,,
+O01190,A0377,B0092,"Washington State Senator, District 36",Democratic Party,G0050,,,,,,
+O01191,A0378,B0092,"Washington State Senator, District 45",Democratic Party,G0050,,,,,,
+O01192,A0379,B0092,"Washington State Senator, District 34",Democratic Party,G0050,,,,,,
+O01193,A0380,B0092,"Washington State Senator, District 22",Democratic Party,G0050,,,,,,
+O01194,A0381,B0092,"Washington State Senator, District 11",Democratic Party,G0050,,,,,,
+O01195,A0382,B0092,"Washington State Senator, District 40",Democratic Party,G0050,,,,,,
+O01196,A0383,B0092,"Washington State Senator, District 28",Democratic Party,G0050,,,,,,
+O01197,A0384,B0092,"Washington State Senator, District 43",Democratic Party,G0050,,,,,,
+O01198,A0385,B0092,"Washington State Senator, District 5",Democratic Party,G0050,,,,,,
+O01199,A0386,B0092,"Washington State Senator, District 3",Democratic Party,G0050,,,,,,
+O01200,A0387,B0092,"Washington State Senator, District 1",Democratic Party,G0050,,,,,,
+O01201,A0388,B0092,"Washington State Senator, District 27",Democratic Party,G0050,,,,,,
+O01202,A0389,B0092,"Washington State Senator, District 46",Democratic Party,G0050,,,,,,
+O01203,A0390,B0092,"Washington State Senator, District 41",Democratic Party,G0050,,,,,,
+O01204,A0391,B0092,"Washington State Senator, District 30",Democratic Party,G0050,,,,,,
+O01205,A0392,B0093,Hawaii State Senator (Judiciary chair),Democratic Party,G0014,,,,,,
+O01206,A0393,B0093,Hawaii State Senator,Democratic Party,G0014,,,,,,
+O01207,A0394,B0094,Illinois State Senator (D-West Chicago),Democratic Party,G0016,,,,,,
+O01208,A0396,B0095,Maryland House of Delegates member,Democratic Party,G0023,,,,,,
+O01209,A0397,B0095,Maryland House of Delegates member,Democratic Party,G0023,,,,,,
+O01210,A0398,B0095,Maryland House of Delegates member,Democratic Party,G0023,,,,,,
+O01211,A0399,B0095,Maryland House of Delegates member,Democratic Party,G0023,,,,,,
+O01212,A0400,B0095,Maryland House of Delegates member,Democratic Party,G0023,,,,,,
+O01213,A0401,B0095,Maryland House of Delegates member,Democratic Party,G0023,,,,,,
+O01214,A0402,B0096,Minnesota State Representative,Democratic Party,G0026,,,,,,
+O01215,A0403,B0096,Minnesota State Representative,Democratic Party,G0026,,,,,,
+O01216,A0404,B0096,Minnesota State Representative,Democratic Party,G0026,,,,,,
+O01217,A0405,B0096,Minnesota State Representative,Democratic Party,G0026,,,,,,
+O01218,A0406,B0096,Minnesota State Representative,Democratic Party,G0026,,,,,,
+O01219,A0407,B0096,Minnesota State Representative,Democratic Party,G0026,,,,,,
+O01220,A0408,B0096,Minnesota State Representative,Democratic Party,G0026,,,,,,
+O01221,A0409,B0096,Minnesota State Representative,Democratic Party,G0026,,,,,,
+O01222,A0410,B0096,Minnesota State Representative,Democratic Party,G0026,,,,,,
+O01223,A0411,B0096,Minnesota State Representative,Democratic Party,G0026,,,,,,
+O01224,A0412,B0096,Minnesota State Representative,Democratic Party,G0026,,,,,,
+O01225,A0413,B0096,Minnesota State Representative,Democratic Party,G0026,,,,,,
+O01226,A0414,B0096,Minnesota State Representative,Democratic Party,G0026,,,,,,
+O01227,A0415,B0096,Minnesota State Representative,Democratic Party,G0026,,,,,,
+O01228,A0416,B0096,Minnesota State Representative,Democratic Party,G0026,,,,,,
+O01229,A0417,B0096,Minnesota State Representative,Democratic Party,G0026,,,,,,
+O01230,A0418,B0097,New York State Senator,Democratic Party,G0035,,,,,,
+O01231,A0419,B0097,New York State Senator,Democratic Party,G0035,,,,,,
+O01232,A0420,B0097,New York State Senator,Democratic Party,G0035,,,,,,
+O01233,A0421,B0097,New York State Senator,Democratic Party,G0035,,,,,,
+O01234,A0422,B0097,New York State Senator,Democratic Party,G0035,,,,,,
+O01235,A0423,B0097,New York State Senator,Democratic Party,G0035,,,,,,
+O01236,A0424,B0097,New York State Senator,Democratic Party,G0035,,,,,,
+O01237,A0425,B0097,New York State Senator,Democratic Party,G0035,,,,,,
+O01238,A0426,B0097,New York State Senator,Democratic Party,G0035,,,,,,
+O01239,A0427,B0097,New York State Senator,Democratic Party,G0035,,,,,,
+O01240,A0428,B0097,New York State Senator,Democratic Party,G0035,,,,,,
+O01241,A0429,B0097,New York State Senator,Democratic Party,G0035,,,,,,
+O01242,A0430,B0097,New York State Senator,Democratic Party,G0035,,,,,,
+O01243,A0431,B0097,New York State Senator,Democratic Party,G0035,,,,,,
+O01244,A0432,B0097,New York State Senator,Democratic Party,G0035,,,,,,
+O01245,A0433,B0097,New York State Senator,Democratic Party,G0035,,,,,,
+O01246,A0434,B0097,New York State Senator,Democratic Party,G0035,,,,,,
+O01247,A0435,B0097,New York State Senator,Democratic Party,G0035,,,,,,
+O01248,A0436,B0097,New York State Senator,Democratic Party,G0035,,,,,,
+O01249,A0437,B0098,New York State Assemblymember,Democratic Party,G0035,,,,,,
+O01250,A0438,B0098,New York State Assemblymember,Democratic Party,G0035,,,,,,
+O01251,A0439,B0098,New York State Assemblymember,Democratic Party,G0035,,,,,,
+O01252,A0440,B0098,New York State Assemblymember,Democratic Party,G0035,,,,,,
+O01253,A0441,B0098,New York State Assemblymember,Democratic Party,G0035,,,,,,
+O01254,A0442,B0098,New York State Assemblymember,Democratic Party,G0035,,,,,,
+O01255,A0443,B0098,New York State Assemblymember,Democratic Party,G0035,,,,,,
+O01256,A0444,B0098,New York State Assemblymember,Democratic Party,G0035,,,,,,
+O01257,A0445,B0098,New York State Assemblymember,Democratic Party,G0035,,,,,,
+O01258,A0446,B0098,New York State Assemblymember,Democratic Party,G0035,,,,,,
+O01259,A0447,B0098,New York State Assemblymember,Democratic Party,G0035,,,,,,
+O01260,A0448,B0098,New York State Assemblymember,Democratic Party,G0035,,,,,,
+O01261,A0449,B0098,New York State Assemblymember,Democratic Party,G0035,,,,,,
+O01262,A0450,B0098,New York State Assemblymember,Democratic Party,G0035,,,,,,
+O01263,A0451,B0098,New York State Assemblymember,Democratic Party,G0035,,,,,,
+O01264,A0452,B0098,New York State Assemblymember,Democratic Party,G0035,,,,,,
+O01265,A0453,B0098,New York State Assemblymember,Democratic Party,G0035,,,,,,
+O01266,A0454,B0098,New York State Assemblymember,Democratic Party,G0035,,,,,,
+O01267,A0455,B0098,New York State Assemblymember,Democratic Party,G0035,,,,,,
+O01268,A0456,B0098,New York State Assemblymember,Democratic Party,G0035,,,,,,
+O01269,A0457,B0098,New York State Assemblymember,Democratic Party,G0035,,,,,,
+O01270,A0458,B0098,New York State Assemblymember,Democratic Party,G0035,,,,,,
+O01271,A0459,B0098,New York State Assemblymember,Democratic Party,G0035,,,,,,
+O01272,A0460,B0099,Rhode Island State Senator,Democratic Party,G0042,,,,,,
+O01273,A0461,B0099,Rhode Island State Senator,Democratic Party,G0042,,,,,,
+O01274,A0462,B0099,Rhode Island State Senator,Democratic Party,G0042,,,,,,
+O01275,A0463,B0099,Rhode Island State Senator,Democratic Party,G0042,,,,,,
+O01276,A0464,B0099,Rhode Island State Senator,Democratic Party,G0042,,,,,,
+O01277,A0465,B0100,Vermont State Representative,Democratic Party,G0048,,,,,,
+O01278,A0474,B0094,Illinois State Senator,Democratic Party,G0016,,,,,,
+O01279,A0475,B0094,Illinois State Senator,Democratic Party,G0016,,,,,,
+O01280,A0476,B0094,Illinois State Senator,Democratic Party,G0016,,,,,,
+O01281,A0477,B0094,Illinois State Senator,Democratic Party,G0016,,,,,,
+O01282,A0478,B0094,Illinois State Senator,Democratic Party,G0016,,,,,,
+O01283,A0479,B0094,Illinois State Senator,Democratic Party,G0016,,,,,,
+O01284,A0480,B0094,Illinois State Senator,Democratic Party,G0016,,,,,,
+O01285,A0481,B0094,Illinois State Senator,Democratic Party,G0016,,,,,,
+O01286,A0482,B0094,Illinois State Senator,Democratic Party,G0016,,,,,,
+O01287,A0483,B0094,Illinois State Senator,Democratic Party,G0016,,,,,,
+O01288,A0484,B0094,Illinois State Senator,Democratic Party,G0016,,,,,,
+O01289,A0485,B0094,Illinois State Senator,Democratic Party,G0016,,,,,,
+O01290,A0486,B0101,Illinois State Representative,Democratic Party,G0016,,,,,,
+O01291,A0487,B0101,Illinois State Representative,Democratic Party,G0016,,,,,,
+O01292,A0488,B0101,Illinois State Representative,Democratic Party,G0016,,,,,,
+O01293,A0489,B0101,Illinois State Representative,Democratic Party,G0016,,,,,,
+O01294,A0490,B0101,Illinois State Representative,Democratic Party,G0016,,,,,,
+O01295,A0491,B0101,Illinois State Representative,Democratic Party,G0016,,,,,,
+O01296,A0492,B0101,Illinois State Representative,Democratic Party,G0016,,,,,,
+O01297,A0493,B0101,Illinois State Representative,Democratic Party,G0016,,,,,,
+O01298,A0494,B0101,Illinois State Representative,Democratic Party,G0016,,,,,,
+O01299,A0495,B0101,Illinois State Representative,Democratic Party,G0016,,,,,,
+O01300,A0496,B0101,Illinois State Representative,Democratic Party,G0016,,,,,,
+O01301,A0497,B0102,Hawaii State Representative,Democratic Party,G0014,,,,,,
+O01302,A0498,B0102,Hawaii State Representative,Democratic Party,G0014,,,,,,
+O01303,A0499,B0102,Hawaii State Representative,Democratic Party,G0014,,,,,,
+O01304,A0500,B0102,Hawaii State Representative,Democratic Party,G0014,,,,,,
+O01305,A0501,B0102,Hawaii State Representative,Democratic Party,G0014,,,,,,
+O01306,A0569,B0092,"Washington State Senator, District 34",Democratic Party,G0050,,,,,,
+O01307,A0570,B0092,"Washington State Senator, District 38",Democratic Party,G0050,,,,,,
+O01308,A0571,B0092,"Washington State Senator, District 22",Democratic Party,G0050,,,,,,
+O01309,A0572,B0092,"Washington State Senator, District 37",Democratic Party,G0050,,,,,,
+O01310,A0573,B0092,"Washington State Senator, District 24",Democratic Party,G0050,,,,,,
+O01311,A0574,B0092,"Washington State Senator, District 48",Democratic Party,G0050,,,,,,
+O01312,A0575,B0092,"Washington State Senator, District 33",Democratic Party,G0050,,,,,,
+O01313,A0576,B0092,"Washington State Senator, District 29",Democratic Party,G0050,,,,,,
+O01314,A0577,B0092,"Washington State Senator, District 44",Democratic Party,G0050,,,,,,
+O01315,A0578,B0092,"Washington State Senator, District 49",Democratic Party,G0050,,,,,,
+O01316,A0579,B0091,"Washington State Representative, District 41",Democratic Party,G0050,,,,,,
+O01317,A0580,B0091,"Washington State Representative, District 44",Democratic Party,G0050,,,,,,
+O01318,A0581,B0091,"Washington State Representative, District 32",Democratic Party,G0050,,,,,,
+O01319,A0582,B0091,"Washington State Representative, District 21",Democratic Party,G0050,,,,,,
+O01320,A0583,B0091,"Washington State Representative, District 46",Democratic Party,G0050,,,,,,
+O01321,A0584,B0091,"Washington State Representative, District 43",Democratic Party,G0050,,,,,,
+O01322,A0585,B0091,"Washington State Representative, District 11",Democratic Party,G0050,,,,,,
+O01323,A0586,B0091,"Washington State Representative, District 30",Democratic Party,G0050,,,,,,
+O01324,A0587,B0091,"Washington State Representative, District 36",Democratic Party,G0050,,,,,,
+O01325,A0588,B0091,"Washington State Representative, District 36",Democratic Party,G0050,,,,,,
+O01326,A0589,B0091,"Washington State Representative, District 40",Democratic Party,G0050,,,,,,
+O01327,A0590,B0091,"Washington State Representative, District 21",Democratic Party,G0050,,,,,,
+O01328,A0591,B0091,"Washington State Representative, District 30",Democratic Party,G0050,,,,,,
+O01329,A0592,B0091,"Washington State Representative, District 47",Democratic Party,G0050,,,,,,
+O01330,A0593,B0091,"Washington State Representative, District 45",Democratic Party,G0050,,,,,,
+O01331,A0594,B0091,"Washington State Representative, District 48",Democratic Party,G0050,,,,,,
+O01332,A0595,B0091,"Washington State Representative, District 49",Democratic Party,G0050,,,,,,
+O01333,A0596,B0091,"Washington State Representative, District 1",Democratic Party,G0050,,,,,,
+O01334,A0597,B0091,"Washington State Representative, District 46",Democratic Party,G0050,,,,,,
+O01335,A0598,B0091,"Washington State Representative, District 33",Democratic Party,G0050,,,,,,
+O01336,A0599,B0091,"Washington State Representative, District 38",Democratic Party,G0050,,,,,,
+O01337,A0600,B0091,"Washington State Representative, District 29",Democratic Party,G0050,,,,,,
+O01338,A0601,B0091,"Washington State Representative, District 37",Democratic Party,G0050,,,,,,
+O01339,A0602,B0091,"Washington State Representative, District 47",Democratic Party,G0050,,,,,,
+O01340,A0603,B0091,"Washington State Representative, District 41",Democratic Party,G0050,,,,,,
+O01341,A0604,B0091,"Washington State Representative, District 5",Democratic Party,G0050,,,,,,
+O01342,A0605,B0091,"Washington State Representative, District 1",Democratic Party,G0050,,,,,,
+O01343,A0606,B0091,"Washington State Representative, District 23",Democratic Party,G0050,,,,,,
+O01344,A0607,B0091,"Washington State Representative, District 24",Democratic Party,G0050,,,,,,
+O01345,A0608,B0091,"Washington State Representative, District 24",Democratic Party,G0050,,,,,,
+O01346,A0609,B0091,"Washington State Representative, District 27",Democratic Party,G0050,,,,,,
+O01347,A0610,B0091,"Washington State Representative, District 38",Democratic Party,G0050,,,,,,
+O01348,A0611,B0091,"Washington State Representative, District 32",Democratic Party,G0050,,,,,,
+O01349,A0612,B0091,"Washington State Representative, District 22",Democratic Party,G0050,,,,,,
+O01350,A0613,B0091,"Washington State Representative, District 48",Democratic Party,G0050,,,,,,
+O01351,A0614,B0091,"Washington State Representative, District 29",Democratic Party,G0050,,,,,,
+O01352,A0615,B0091,"Washington State Representative, District 11",Democratic Party,G0050,,,,,,
+O01353,A0620,B0103,Iowa State Senator; 2026 US Senate candidate,Democratic Party,G0018,,,,,,
+O01354,A0686,B0097,New York State Senator,Democratic Party,G0035,,,,,,
+O01355,A0687,B0097,New York State Senator,Democratic Party,G0035,,,,,,
+O01356,A0688,B0097,New York State Senator,Democratic Party,G0035,,,,,,
+O01357,A0689,B0097,New York State Senator,Democratic Party,G0035,,,,,,
+O01358,A0690,B0097,New York State Senator,Democratic Party,G0035,,,,,,
+O01359,A0691,B0097,New York State Senator,Democratic Party,G0035,,,,,,
+O01360,A0692,B0098,New York State Assemblymember,Democratic Party,G0035,,,,,,
+O01361,A0693,B0098,New York State Assemblymember,Democratic Party,G0035,,,,,,
+O01362,A0694,B0098,New York State Assemblymember,Democratic Party,G0035,,,,,,
+O01363,A0695,B0098,New York State Assemblymember,Democratic Party,G0035,,,,,,
+O01364,A0696,B0098,New York State Assemblymember,Democratic Party,G0035,,,,,,
+O01365,A0707,B0003,California Assemblymember (D-Inland Empire),Democratic Party,G0007,,,,,,
+O01366,A0708,B0003,California Assemblymember (D-San Francisco),Democratic Party,G0007,,,,,,
+O01367,A0709,B0003,California Assemblymember (D-Los Angeles),Democratic Party,G0007,,,,,,
+O01368,A0710,B0003,California Assemblymember (D-Los Angeles),Democratic Party,G0007,,,,,,
+O01369,A0711,B0004,California State Senator (D-Los Angeles),Democratic Party,G0007,,,,,,
+O01370,A0712,B0004,California State Senator (D-Los Angeles),Democratic Party,G0007,,,,,,
+O01371,A0713,B0003,California Assemblymember (D-Hayward),Democratic Party,G0007,,,,,,
+O01372,A0728,B0104,Florida state representative; 2026 Democratic nominee for US Senate (Florida),Democratic Party,G0012,,,,,,
+O01373,A0741,B0003,California State Assemblymember (AD-43),Democratic Party,G0007,,,,,,
+O01374,A0742,B0003,California State Assemblymember (AD-78),Democratic Party,G0007,,,,,,
+O01375,A0001,B0001,U.S. Senator,Democratic Party,G0024,2013-01-03,,y,W000817,2026-10-25,https://bioguide.congress.gov/search/bio/W000817
+O01376,A0002,B0001,U.S. Senator,Independent,G0048,2007-01-04,,y,S000033,2026-10-25,https://bioguide.congress.gov/search/bio/S000033
+O01377,A0003,B0001,U.S. Senator,Democratic Party,G0042,2007-01-04,,y,W000802,2026-10-25,https://bioguide.congress.gov/search/bio/W000802
+O01378,A0004,B0001,U.S. Senator,Democratic Party,G0040,2009-01-06,,y,M001176,2026-10-25,https://bioguide.congress.gov/search/bio/M001176
+O01379,A0005,B0001,U.S. Senator,Democratic Party,G0035,2009-01-27,,y,G000555,2026-10-25,https://bioguide.congress.gov/search/bio/G000555
+O01380,A0006,B0001,U.S. Senator,Democratic Party,G0014,2012-12-27,,y,S001194,2026-10-25,https://bioguide.congress.gov/search/bio/S001194
+O01381,A0007,B0001,U.S. Senator,Democratic Party,G0024,2013-07-16,,y,M000133,2026-10-25,https://bioguide.congress.gov/search/bio/M000133
+O01382,A0008,B0001,U.S. Senator,Democratic Party,G0014,2013-01-03,,y,H001042,2026-10-25,https://bioguide.congress.gov/search/bio/H001042
+O01383,A0009,B0002,U.S. Representative,Democratic Party,G0050,2017-01-03,,y,J000298,2026-10-25,https://bioguide.congress.gov/search/bio/J000298
+O01384,A0010,B0002,U.S. Representative,Democratic Party,G0041,2015-01-06,,y,B001296,2026-10-25,https://bioguide.congress.gov/search/bio/B001296
+O01385,A0113,B0001,U.S. Senator,Democratic Party,G0009,2013-01-03,,y,M001169,2026-10-25,https://bioguide.congress.gov/search/bio/M001169
+O01386,A0114,B0002,U.S. Representative,Democratic Party,G0007,2009-07-16,,y,C001080,2026-10-25,https://bioguide.congress.gov/search/bio/C001080
+O01387,A0115,B0002,U.S. Representative,Democratic Party,G0007,2017-01-03,,y,K000389,2026-10-25,https://bioguide.congress.gov/search/bio/K000389
+O01388,A0271,B0002,U.S. Representative,Democratic Party,G0007,1998-04-07,2025-01-03,n,L000551,2026-10-25,https://bioguide.congress.gov/search/bio/L000551
+O01389,A0272,B0002,U.S. Representative,Democratic Party,G0026,2019-01-03,,y,O000173,2026-10-25,https://bioguide.congress.gov/search/bio/O000173
+O01390,A0273,B0002,U.S. Representative,Democratic Party,G0035,2019-01-03,,y,O000172,2026-10-25,https://bioguide.congress.gov/search/bio/O000172
+O01391,A0274,B0002,U.S. Representative,Democratic Party,G0028,2021-01-03,2025-01-03,n,B001224,2026-10-25,https://bioguide.congress.gov/search/bio/B001224
+O01392,A0275,B0002,U.S. Representative,Democratic Party,G0007,2013-01-03,,y,T000472,2026-10-25,https://bioguide.congress.gov/search/bio/T000472
+O01393,A0276,B0002,U.S. Representative,Democratic Party,G0035,2021-01-03,2025-01-03,n,B001223,2026-10-25,https://bioguide.congress.gov/search/bio/B001223
+O01394,A0277,B0002,U.S. Representative,Democratic Party,G0016,1999-01-06,,y,S001145,2026-10-25,https://bioguide.congress.gov/search/bio/S001145
+O01395,A0278,B0002,U.S. Representative,Democratic Party,G0033,2015-01-06,,y,W000822,2026-10-25,https://bioguide.congress.gov/search/bio/W000822
+O01396,A0279,B0002,U.S. Representative,Democratic Party,G0035,2021-01-03,2023-01-03,n,J000306,2026-10-25,https://bioguide.congress.gov/search/bio/J000306
+O01397,A0280,B0002,U.S. Representative,Democratic Party,G0024,2019-01-03,,y,P000617,2026-10-25,https://bioguide.congress.gov/search/bio/P000617
+O01398,A0281,B0002,U.S. Representative,Democratic Party,G0024,1997-01-07,,y,M000312,2026-10-25,https://bioguide.congress.gov/search/bio/M000312
+O01399,A0282,B0002,U.S. Representative,Democratic Party,G0041,2016-11-14,,y,E000296,2026-10-25,https://bioguide.congress.gov/search/bio/E000296
+O01400,A0283,B0002,U.S. Representative,Democratic Party,G0016,2019-01-03,,y,G000586,2026-10-25,https://bioguide.congress.gov/search/bio/G000586
+O01401,A0284,B0002,U.S. Representative,Democratic Party,G0050,1997-01-07,,y,S000510,2026-10-25,https://bioguide.congress.gov/search/bio/S000510
+O01402,A0285,B0002,U.S. Representative,Democratic Party,G0025,2019-01-03,,y,T000481,2026-10-25,https://bioguide.congress.gov/search/bio/T000481
+O01403,A0286,B0002,U.S. Representative,Democratic Party,G0041,2018-11-27,2025-01-03,n,W000826,2026-10-25,https://bioguide.congress.gov/search/bio/W000826
+O01404,A0287,B0002,U.S. Representative,Democratic Party,G0040,1987-01-06,2023-01-03,n,D000191,2026-10-25,https://bioguide.congress.gov/search/bio/D000191
+O01405,A0288,B0001,U.S. Senator,Democratic Party,G0048,2023-01-03,,y,W000800,2026-10-25,https://bioguide.congress.gov/search/bio/W000800
+O01406,A0289,B0002,U.S. Representative,Democratic Party,G0045,2007-01-04,,y,C001068,2026-10-25,https://bioguide.congress.gov/search/bio/C001068
+O01407,A0290,B0002,U.S. Representative,Democratic Party,G0007,2013-01-03,2023-01-03,n,L000579,2026-10-25,https://bioguide.congress.gov/search/bio/L000579
+O01408,A0291,B0002,U.S. Representative,Democratic Party,G0035,2013-01-03,,y,M001188,2026-10-25,https://bioguide.congress.gov/search/bio/M001188
+O01409,A0292,B0002,U.S. Representative,Democratic Party,G0007,2015-01-06,,y,D000623,2026-10-25,https://bioguide.congress.gov/search/bio/D000623
+O01410,A0293,B0002,U.S. Representative,Democratic Party,G0014,2021-01-03,2023-01-03,n,K000396,2026-10-25,https://bioguide.congress.gov/search/bio/K000396
+O01411,A0294,B0002,U.S. Representative,Democratic Party,G0025,2019-01-03,2023-01-03,n,L000592,2026-10-25,https://bioguide.congress.gov/search/bio/L000592
+O01412,A0295,B0002,U.S. Representative,Democratic Party,G0049,2015-01-06,,y,B001292,2026-10-25,https://bioguide.congress.gov/search/bio/B001292
+O01413,A0296,B0002,U.S. Representative,Democratic Party,G0041,2013-01-03,2025-01-03,n,C001090,2026-10-25,https://bioguide.congress.gov/search/bio/C001090
+O01414,A0297,B0002,U.S. Representative,Democratic Party,G0033,1987-01-06,,y,P000034,2026-10-25,https://bioguide.congress.gov/search/bio/P000034
+O01415,A0298,B0001,U.S. Senator,Democratic Party,G0007,2021-01-20,,y,P000145,2026-10-25,https://bioguide.congress.gov/search/bio/P000145
+O01416,A0299,B0002,U.S. Representative,Democratic Party,G0016,1997-01-07,,y,D000096,2026-10-25,https://bioguide.congress.gov/search/bio/D000096
+O01417,A0300,B0002,U.S. Representative,Democratic Party,G0035,2023-01-03,,y,G000599,2026-10-25,https://bioguide.congress.gov/search/bio/G000599
+O01418,A0301,B0002,U.S. Representative,Democratic Party,G0023,2023-01-03,,y,I000058,2026-10-25,https://bioguide.congress.gov/search/bio/I000058
+O01419,A0302,B0002,U.S. Representative,Democratic Party,G0016,2023-01-03,,y,J000309,2026-10-25,https://bioguide.congress.gov/search/bio/J000309
+O01420,A0303,B0002,U.S. Representative,Democratic Party,G0013,2007-01-04,,y,J000288,2026-10-25,https://bioguide.congress.gov/search/bio/J000288
+O01421,A0304,B0002,U.S. Representative,Democratic Party,G0041,2023-01-03,,y,L000602,2026-10-25,https://bioguide.congress.gov/search/bio/L000602
+O01422,A0305,B0002,U.S. Representative,Democratic Party,G0035,1992-11-03,,y,N000002,2026-10-25,https://bioguide.congress.gov/search/bio/N000002
+O01423,A0306,B0002,U.S. Representative,Democratic Party,G0007,2019-01-03,2025-01-03,n,P000618,2026-10-25,https://bioguide.congress.gov/search/bio/P000618
+O01424,A0307,B0002,U.S. Representative,Democratic Party,G0016,2023-01-03,,y,R000617,2026-10-25,https://bioguide.congress.gov/search/bio/R000617
+O01425,A0308,B0001,U.S. Senator,Democratic Party,G0007,2024-12-09,,y,S001150,2026-10-25,https://bioguide.congress.gov/search/bio/S001150
+O01426,A0309,B0002,U.S. Representative,Democratic Party,G0014,2023-01-03,,y,T000487,2026-10-25,https://bioguide.congress.gov/search/bio/T000487
+O01427,A0310,B0002,U.S. Representative,Democratic Party,G0023,2019-01-03,2025-01-03,n,T000483,2026-10-25,https://bioguide.congress.gov/search/bio/T000483
+O01428,A0311,B0002,U.S. Representative,Democratic Party,G0007,1991-01-03,,y,W000187,2026-10-25,https://bioguide.congress.gov/search/bio/W000187
+O01429,A0312,B0002,U.S. Representative,Democratic Party,G0041,2023-01-03,,y,D000530,2026-10-25,https://bioguide.congress.gov/search/bio/D000530
+O01430,A0313,B0002,U.S. Representative,Democratic Party,G0005,2025-01-03,,y,A000381,2026-10-25,https://bioguide.congress.gov/search/bio/A000381
+O01431,A0314,B0002,U.S. Representative,Democratic Party,G0041,2019-01-03,,y,D000631,2026-10-25,https://bioguide.congress.gov/search/bio/D000631
+O01432,A0315,B0002,U.S. Representative,Democratic Party,G0036,2023-01-03,,y,F000477,2026-10-25,https://bioguide.congress.gov/search/bio/F000477
+O01433,A0316,B0002,U.S. Representative,Democratic Party,G0007,2025-01-03,,y,F000483,2026-10-25,https://bioguide.congress.gov/search/bio/F000483
+O01434,A0317,B0002,U.S. Representative,Democratic Party,G0012,2023-01-03,,y,F000476,2026-10-25,https://bioguide.congress.gov/search/bio/F000476
+O01435,A0318,B0002,U.S. Representative,Democratic Party,G0005,2025-11-12,,y,G000606,2026-10-25,https://bioguide.congress.gov/search/bio/G000606
+O01436,A0319,B0002,U.S. Representative,Democratic Party,G0016,2013-04-09,,y,K000385,2026-10-25,https://bioguide.congress.gov/search/bio/K000385
+O01437,A0320,B0002,U.S. Representative,Democratic Party,G0007,2003-01-07,,y,S001156,2026-10-25,https://bioguide.congress.gov/search/bio/S001156
+O01438,A0321,B0002,U.S. Representative,Democratic Party,G0007,2025-01-03,,y,S001231,2026-10-25,https://bioguide.congress.gov/search/bio/S001231
+O01439,A0322,B0002,U.S. Representative,Democratic Party,G0034,2021-06-14,,y,S001218,2026-10-25,https://bioguide.congress.gov/search/bio/S001218
+O01440,A0323,B0002,U.S. Representative,Democratic Party,G0025,2023-01-03,,y,T000488,2026-10-25,https://bioguide.congress.gov/search/bio/T000488
+O01441,A0324,B0002,U.S. Representative,Democratic Party,G0035,1993-01-05,,y,V000081,2026-10-25,https://bioguide.congress.gov/search/bio/V000081
+O01442,A0325,B0002,U.S. Representative,Democratic Party,G0046,2023-01-03,,y,C001131,2026-10-25,https://bioguide.congress.gov/search/bio/C001131
+O01443,A0326,B0002,U.S. Representative,Democratic Party,G0022,2009-01-06,,y,P000597,2026-10-25,https://bioguide.congress.gov/search/bio/P000597
+O01444,A0327,B0002,U.S. Representative,Democratic Party,G0033,2026-04-20,,y,M001246,2026-10-25,https://bioguide.congress.gov/search/bio/M001246
+O01445,A0328,B0002,U.S. Representative,Democratic Party,G0034,2021-01-03,,y,L000273,2026-10-25,https://bioguide.congress.gov/search/bio/L000273
+O01446,A0329,B0002,U.S. Representative,Democratic Party,G0035,2017-01-03,,y,E000297,2026-10-25,https://bioguide.congress.gov/search/bio/E000297
+O01447,A0330,B0002,U.S. Representative,Democratic Party,G0040,2025-01-03,,y,D000635,2026-10-25,https://bioguide.congress.gov/search/bio/D000635
+O01448,A0331,B0001,U.S. Senator,Democratic Party,G0016,2017-01-03,,y,D000622,2026-10-25,https://bioguide.congress.gov/search/bio/D000622
+O01449,A0332,B0001,U.S. Senator,Democratic Party,G0026,2018-01-03,,y,S001203,2026-10-25,https://bioguide.congress.gov/search/bio/S001203
+O01450,A0333,B0001,U.S. Senator,Democratic Party,G0023,2017-01-03,,y,V000128,2026-10-25,https://bioguide.congress.gov/search/bio/V000128
+O01451,A0334,B0001,U.S. Senator,Democratic Party,G0040,1996-02-05,,y,W000779,2026-10-25,https://bioguide.congress.gov/search/bio/W000779
+O01452,A0335,B0001,U.S. Senator,Democratic Party,G0034,2021-01-03,,y,L000570,2026-10-25,https://bioguide.congress.gov/search/bio/L000570
+O01453,A0336,B0001,U.S. Senator,Democratic Party,G0023,2025-01-03,,y,A000382,2026-10-25,https://bioguide.congress.gov/search/bio/A000382
+O01454,A0337,B0001,U.S. Senator,Democratic Party,G0052,2013-01-03,,y,B001230,2026-10-25,https://bioguide.congress.gov/search/bio/B001230
+O01455,A0338,B0001,U.S. Senator,Democratic Party,G0009,2011-01-05,,y,B001277,2026-10-25,https://bioguide.congress.gov/search/bio/B001277
+O01456,A0339,B0001,U.S. Senator,Democratic Party,G0041,2023-01-03,,y,F000479,2026-10-25,https://bioguide.congress.gov/search/bio/F000479
+O01457,A0340,B0001,U.S. Senator,Democratic Party,G0034,2013-01-03,,y,H001046,2026-10-25,https://bioguide.congress.gov/search/bio/H001046
+O01458,A0341,B0001,U.S. Senator,Democratic Party,G0050,1993-01-05,,y,M001111,2026-10-25,https://bioguide.congress.gov/search/bio/M001111
+O01459,A0342,B0001,U.S. Senator,Democratic Party,G0042,1997-01-07,,y,R000122,2026-10-25,https://bioguide.congress.gov/search/bio/R000122
+O01460,A0343,B0001,U.S. Senator,Democratic Party,G0010,2010-11-15,,y,C001088,2026-10-25,https://bioguide.congress.gov/search/bio/C001088
+O01461,A0344,B0002,U.S. Representative,Democratic Party,G0009,1991-01-03,,y,D000216,2026-10-25,https://bioguide.congress.gov/search/bio/D000216
+O01462,A0345,B0002,U.S. Representative,Democratic Party,G0026,2001-01-03,,y,M001143,2026-10-25,https://bioguide.congress.gov/search/bio/M001143
+O01463,A0346,B0002,U.S. Representative,Democratic Party,G0007,2009-11-03,,y,G000559,2026-10-25,https://bioguide.congress.gov/search/bio/G000559
+O01464,A0347,B0002,U.S. Representative,Democratic Party,G0007,2023-01-03,,y,M001225,2026-10-25,https://bioguide.congress.gov/search/bio/M001225
+O01465,A0348,B0002,U.S. Representative,Democratic Party,G0038,2023-01-03,,y,L000601,2026-10-25,https://bioguide.congress.gov/search/bio/L000601
+O01466,A0349,B0002,U.S. Representative,Democratic Party,G0041,2018-11-13,,y,S001205,2026-10-25,https://bioguide.congress.gov/search/bio/S001205
+O01467,A0350,B0002,U.S. Representative,Democratic Party,G0035,2007-01-04,,y,C001067,2026-10-25,https://bioguide.congress.gov/search/bio/C001067
+O01468,A0351,B0002,U.S. Representative,Democratic Party,G0007,2013-01-03,,y,H001068,2026-10-25,https://bioguide.congress.gov/search/bio/H001068
+O01469,A0352,B0002,U.S. Representative,Democratic Party,G0033,2014-11-12,,y,N000188,2026-10-25,https://bioguide.congress.gov/search/bio/N000188
+O01470,A0353,B0002,U.S. Representative,Democratic Party,G0007,1995-01-04,,y,L000397,2026-10-25,https://bioguide.congress.gov/search/bio/L000397
+O01471,A0354,B0002,U.S. Representative,Democratic Party,G0016,2023-01-03,,y,B001315,2026-10-25,https://bioguide.congress.gov/search/bio/B001315
+O01472,A0355,B0002,U.S. Representative,Democratic Party,G0009,1999-01-06,,y,L000557,2026-10-25,https://bioguide.congress.gov/search/bio/L000557
+O01473,A0356,B0002,U.S. Representative,Democratic Party,G0007,2017-01-03,,y,B001300,2026-10-25,https://bioguide.congress.gov/search/bio/B001300
+O01474,A0357,B0002,U.S. Representative,Democratic Party,G0023,2017-01-03,,y,R000606,2026-10-25,https://bioguide.congress.gov/search/bio/R000606
+O01475,A0358,B0002,U.S. Representative,Democratic Party,G0007,2017-07-11,,y,G000585,2026-10-25,https://bioguide.congress.gov/search/bio/G000585
+O01476,A0359,B0002,U.S. Representative,Democratic Party,G0052,2013-01-03,,y,P000607,2026-10-25,https://bioguide.congress.gov/search/bio/P000607
+O01477,A0360,B0002,U.S. Representative,Democratic Party,G0016,2008-03-08,,y,F000454,2026-10-25,https://bioguide.congress.gov/search/bio/F000454
+O01478,A0361,B0002,U.S. Representative,Democratic Party,G0024,2015-01-06,,y,M001196,2026-10-25,https://bioguide.congress.gov/search/bio/M001196
+O01479,A0362,B0002,U.S. Representative,Democratic Party,G0007,1999-01-06,2025-01-03,n,N000179,2026-10-25,https://bioguide.congress.gov/search/bio/N000179
+O01480,A0363,B0002,U.S. Representative,Democratic Party,G0013,2021-01-03,,y,W000788,2026-10-25,https://bioguide.congress.gov/search/bio/W000788
+O01481,A0364,B0002,U.S. Representative,Democratic Party,G0040,2023-01-03,,y,H001094,2026-10-25,https://bioguide.congress.gov/search/bio/H001094
+O01482,A0365,B0002,U.S. Representative,Democratic Party,G0028,2005-01-04,,y,C001061,2026-10-25,https://bioguide.congress.gov/search/bio/C001061
+O01483,A0366,B0002,U.S. Representative,Democratic Party,G0017,2008-03-13,,y,C001072,2026-10-25,https://bioguide.congress.gov/search/bio/C001072
+O01484,A0367,B0002,U.S. Representative,Democratic Party,G0021,2021-05-11,,y,C001125,2026-10-25,https://bioguide.congress.gov/search/bio/C001125
+O01485,A0368,B0002,U.S. Representative,Democratic Party,G0024,2019-01-03,,y,T000482,2026-10-25,https://bioguide.congress.gov/search/bio/T000482
+O01486,A0369,B0002,U.S. Representative,Democratic Party,G0038,1983-01-03,,y,K000009,2026-10-25,https://bioguide.congress.gov/search/bio/K000009
+O01487,A0370,B0002,U.S. Representative,Democratic Party,G0007,2015-01-06,,y,L000582,2026-10-25,https://bioguide.congress.gov/search/bio/L000582
+O01488,A0371,B0002,U.S. Representative,Democratic Party,G0031,2009-01-06,,y,T000468,2026-10-25,https://bioguide.congress.gov/search/bio/T000468
+O01489,A0372,B0002,U.S. Representative,Democratic Party,G0024,2011-01-05,,y,K000375,2026-10-25,https://bioguide.congress.gov/search/bio/K000375
+O01490,A0373,B0002,U.S. Representative,Democratic Party,G0042,2023-01-03,,y,M001223,2026-10-25,https://bioguide.congress.gov/search/bio/M001223
+O01491,A0561,B0002,U.S. Representative,Democratic Party,G0016,2021-01-03,2023-01-03,n,N000192,2026-10-25,https://bioguide.congress.gov/search/bio/N000192
+O01492,A0562,B0002,U.S. Representative,Democratic Party,G0020,2007-01-04,2023-01-03,n,Y000062,2026-10-25,https://bioguide.congress.gov/search/bio/Y000062
+O01493,A0564,B0002,U.S. Representative,Democratic Party,G0035,1993-01-05,2023-01-03,n,M000087,2026-10-25,https://bioguide.congress.gov/search/bio/M000087
+O01494,A0565,B0002,U.S. Representative,Democratic Party,G0005,2009-01-06,2023-01-03,n,K000368,2026-10-25,https://bioguide.congress.gov/search/bio/K000368
+O01495,A0566,B0001,U.S. Senator,Democratic Party,G0025,2001-01-03,2025-01-03,n,S000770,2026-10-25,https://bioguide.congress.gov/search/bio/S000770
+O01496,A0567,B0001,U.S. Senator,Democratic Party,G0041,2007-01-04,2025-01-03,n,C001070,2026-10-25,https://bioguide.congress.gov/search/bio/C001070
+O01497,A0568,B0001,U.S. Senator,Democratic Party,G0038,2007-01-04,2025-01-03,n,B000944,2026-10-25,https://bioguide.congress.gov/search/bio/B000944
+O01498,A0616,B0002,U.S. Representative,Democratic Party,G0046,2005-01-04,,y,G000553,2026-10-25,https://bioguide.congress.gov/search/bio/G000553
+O01499,A0740,B0002,U.S. Representative,Democratic Party,G0007,2026-09-02,,y,W000832,2026-10-25,https://bioguide.congress.gov/search/bio/W000832
