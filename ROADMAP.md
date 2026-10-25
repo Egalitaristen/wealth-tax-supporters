@@ -1,6 +1,6 @@
 # Roadmap
 
-What is planned, and what waits for a date. Every item is a public GitHub issue labelled [`roadmap`](https://github.com/Egalitaristen/wealth-tax-supporters/issues?q=is%3Aissue+label%3Aroadmap): comment there, or pick one up (see [CONTRIBUTING.md](CONTRIBUTING.md)).
+What is planned, and what waits for a date. The live board is the GitHub project **[Wealth Tax Supporters roadmap](https://github.com/users/Egalitaristen/projects/3)** (status, area, what each item waits for, country). Every item is a public GitHub issue labelled [`roadmap`](https://github.com/Egalitaristen/wealth-tax-supporters/issues?q=is%3Aissue+label%3Aroadmap): comment there, or pick one up (see [CONTRIBUTING.md](CONTRIBUTING.md)).
 
 ## Where things stand
 
@@ -42,4 +42,4 @@ Milestone: [Data quality](https://github.com/Egalitaristen/wealth-tax-supporters
 
 ## How this list is kept
 
-New ideas and dates go in as issues with the `roadmap` label (and `scheduled` when they wait for a date). When an item is done the issue is closed and this file is updated in the same pull request.
+New ideas and dates go in as issues with the `roadmap` label (and `scheduled` when they wait for a date), and are added to the project with its Area, Waits for and Country fields filled in. When an item is done the issue is closed, its card moves to Done, and this file is updated in the same pull request.

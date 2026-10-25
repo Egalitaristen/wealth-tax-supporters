@@ -93,7 +93,7 @@ The maintainer deploys from a local checkout with `python scripts/deploy.py` (af
 
 ## Roadmap
 
-Planned and scheduled work is public: see [ROADMAP.md](ROADMAP.md) and the issues labelled [`roadmap`](../../issues?q=is%3Aissue+label%3Aroadmap).
+Planned and scheduled work is public: the [roadmap project](https://github.com/users/Egalitaristen/projects/3) is the live board, [ROADMAP.md](ROADMAP.md) explains it, and the items are the issues labelled [`roadmap`](../../issues?q=is%3Aissue+label%3Aroadmap).
 
 ## Licences
 
