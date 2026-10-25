@@ -282,17 +282,16 @@ function showTip(html, x, y) { tip.innerHTML = html; tip.hidden = false; tip.sty
 function hideTip() { tip.hidden = true; }
 window.addEventListener('scroll', hideTip, {passive: true});
 
-// Seats in a country's national chambers (one or two), for the countries list.
-const chamberSeats = c => (c.chambers || []).map(x => x[1]).sort((a, b) => b - a);
+// Supporters sitting / seats, one line per national chamber (one or two), named as the country names it.
 function countryRows(cs) {
   return cs.slice().sort((a, b) => b.supporters - a.supporters).map(c => {
-    const seats = chamberSeats(c);
+    const ch = c.chambers || [];
     return `
       <a class="crow" href="/${c.slug}">
         <span class="iso">${esc(c.iso2)}</span>
         <span class="nm">${esc(c.name)}</span>
-        <span class="st"><b>${fmt(c.supporters)}</b><span>on record so far</span></span>
-        <span class="st hide-s"${seats.length ? ` title="${esc((c.chambers || []).map(x => x[0] + ' ' + fmt(x[1])).join(', '))}"` : ''}><b>${seats.length ? seats.map(fmt).join(' · ') : '·'}</b><span>seats, national chamber${seats.length > 1 ? 's' : ''}</span></span>
+        <span class="st inl"><b>${fmt(c.supporters)}</b> <span>on record so far</span></span>
+        <span class="st hide-s seatcol">${ch.length ? ch.map(x => `<span class="sl"><span title="${esc(x[0])}">${esc(x[0])}</span> <b>${fmt(x[2])}<i> / ${fmt(x[1])}</i></b></span>`).join('') : '<b>·</b>'}</span>
         <span class="st hide-s"><b>${c.units ? fmt(c.units_with_supporters) + '<i> / ' + fmt(c.units) + '</i>' : '·'}</b><span>areas with a supporter</span></span>
         <span class="arrow">→</span>
       </a>`;

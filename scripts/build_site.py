@@ -271,7 +271,7 @@ def build_country(folder):
                    for s in sorted(seats_by[b["body_id"]], key=lambda s: int(s["order"] or 0))]
         legis.append(dict(id=b["body_id"], name=b["name"], seats=int(b["seats"]), as_of=b["as_of"], src=b["source_url"], note=b.get("notes", ""), parties=parties))
     # the one or two national chambers, for the countries list
-    summary["chambers"] = [[b["name"], int(b["seats"])] for b in rd(folder / "bodies.csv")
+    summary["chambers"] = [[b["name"], int(b["seats"]), sum(len(v) for v in sitting[b["body_id"]].values())] for b in rd(folder / "bodies.csv")
                            if b["level"] == "national" and b.get("seat_view") == "y" and b["body_id"] in seats_by][:2]
     country = dict(meta=summary, P=P, E=E, C=C, UP=UP, vb=vb, O=O, L=L, R=R, R2=R2, legis=legis)
 
