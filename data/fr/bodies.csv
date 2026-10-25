@@ -1,0 +1,3 @@
+body_id,name,level,kind,seats,as_of,source_url,seat_view,notes
+B0001,Assemblée nationale,national,chamber,577,2026-10-25,https://www2.assemblee-nationale.fr/deputes/liste/alphabetique,y,577 seats; groups as the Assemblée names them (abbreviations).
+B0002,Sénat,national,chamber,348,2026-10-25,https://www.senat.fr/senateurs/senatl.html,y,348 seats; groups as the Sénat names them.

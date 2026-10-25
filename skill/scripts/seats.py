@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 """Refresh a country's legislature seats from the parliament's own open member list.
 
-Usage: python skill/scripts/seats.py data/<iso2> [--dry-run] [--fix-status]      (iso2 = se, de, nl, no, ...)
+Usage: python skill/scripts/seats.py data/<iso2> [--dry-run] [--fix-status] [--local URL=FILE]      (iso2 = se, de, nl, no, fr, br, ca)
 
 For the UK and the US use seats_uk.py and seats_us.py (richer sources). This script holds one small adapter per
 country (the ADAPTERS table at the end): each reads the parliament's open data and returns its chambers, the sitting
@@ -17,34 +17,50 @@ difference looks the same as a departure, so read that list before committing.
 
 Run it again after every election, by-election or resignation, and whenever politicians are added. Standard library only.
 """
-import argparse, datetime as dt, json, re, sys, time, unicodedata, urllib.parse, urllib.request
+import argparse, datetime as dt, json, re, sys, time, unicodedata, urllib.error, urllib.parse, urllib.request
 from pathlib import Path
 
 sys.path.insert(0, str(Path(__file__).parent))
 import wtdb  # noqa: E402
 
-UA = {"User-Agent": "Mozilla/5.0 (wealth-tax-supporters seat refresh; github.com/Egalitaristen/wealth-tax-supporters)"}
+UA = {"User-Agent": "Mozilla/5.0"}  # some parliaments (ourcommons.ca) refuse an unusual agent
 
 
-def get(url, as_json=True, encoding=None, tries=5):
-    # A copy is kept for six hours, so repeated runs (and dry runs) do not hammer a parliament's server.
+def fetch_raw(url, headers=None):
+    """The page's bytes. Some sites (ourcommons.ca) refuse Python's connection but answer curl: fall back to it on a 403."""
+    try:
+        return urllib.request.urlopen(urllib.request.Request(url, headers={**UA, **(headers or {})}), timeout=180).read()
+    except urllib.error.HTTPError as e:
+        import shutil, subprocess
+        curl = shutil.which("curl") or shutil.which("curl.exe")
+        if e.code != 403 or not curl:
+            raise
+        cmd = [curl, "-s", "-f", "-L", "--max-time", "180", "-A", UA["User-Agent"]] + [x for k, v in (headers or {}).items() for x in ("-H", f"{k}: {v}")] + [url]
+        return subprocess.run(cmd, capture_output=True, check=True).stdout
+
+
+def get(url, as_json=True, encoding=None, tries=5, headers=None):
+    # A copy is kept for six hours, so repeated runs (and dry runs) do not hammer a parliament's server. Only a response
+    # that parsed is kept.
     import hashlib, tempfile
-    cache = Path(tempfile.gettempdir()) / ("wts-seats-" + hashlib.md5(url.encode()).hexdigest())
+    cache = Path(tempfile.gettempdir()) / ("wts-seats-" + hashlib.md5((url + json.dumps(headers or {}, sort_keys=True)).encode()).hexdigest())
     for t in range(tries):
         try:
-            if cache.exists() and time.time() - cache.stat().st_mtime < 6 * 3600:
-                raw = cache.read_bytes()
+            fresh = not (cache.exists() and time.time() - cache.stat().st_mtime < 6 * 3600)
+            raw = fetch_raw(url, headers) if fresh else cache.read_bytes()
+            if as_json:
+                if encoding:  # some servers answer in UTF-8, some in Latin-1: take UTF-8 when it decodes, else the stated one
+                    try:
+                        out = json.loads(raw.decode("utf-8"))
+                    except UnicodeDecodeError:
+                        out = json.loads(raw.decode(encoding))
+                else:
+                    out = json.loads(raw)
             else:
-                raw = urllib.request.urlopen(urllib.request.Request(url, headers=UA), timeout=180).read()
+                out = raw
+            if fresh:
                 cache.write_bytes(raw)
-            if not as_json:
-                return raw
-            if encoding:  # some servers answer in UTF-8, some in Latin-1: take UTF-8 when it decodes, else the stated one
-                try:
-                    return json.loads(raw.decode("utf-8"))
-                except UnicodeDecodeError:
-                    return json.loads(raw.decode(encoding))
-            return json.loads(raw)
+            return out
         except Exception as e:
             print(f"  retry {t + 1}: {str(e)[:70]}", file=sys.stderr)
             time.sleep(3)
@@ -140,11 +156,17 @@ def run(d, adapter, dry=False, fix=False):
             if not role_re.search(x["role"]):
                 continue
             f, _ = match(x, former, fq, fn)
+            if f and f.get("on_leave"):  # still the holder of the seat, but a substitute serves it: not "former", and no lit seat
+                positions.append(dict(position_id="", actor_id=x["actor_id"], body_id=bid, role=c["role"], party=f.get("party", ""),
+                                      geo_unit_id=x["geo_unit_id"], start="", end="", current="", member_ref=str(f["ref"]), checked=today,
+                                      source_url=f.get("url") or c["source_url"]))
+                report.append(f"{x['actor_id']} {x['name']}: holds a seat in the {c['name']} but is on leave (a substitute serves): left as is")
+                continue
             positions.append(dict(position_id="", actor_id=x["actor_id"], body_id=bid, role=c["role"], party=(f or {}).get("party", ""),
                                   geo_unit_id=x["geo_unit_id"], start=(f or {}).get("start", ""), end=(f or {}).get("end", ""),
                                   current="n", member_ref=str((f or {}).get("ref", "")), checked=today,
                                   source_url=(f or {}).get("url") or c["source_url"]))
-            if x["status"] == "active" or not f:  # a former member already marked as one needs no attention
+            if x["status"] == "active":  # someone already marked as a former member needs no attention
                 report.append(f"{x['actor_id']} {x['name']}: role {x['role'][:60]!r} but not on today's {c['name']} list"
                               f" ({'former member found, left ' + (f.get('end') or '?') if f else 'not found at all: check the spelling'})"
                               f"{' [status=active]' if x['status'] == 'active' else ''}")
@@ -158,7 +180,7 @@ def run(d, adapter, dry=False, fix=False):
         for o in positions:
             x = by_id.get(o["actor_id"])
             if o["current"] == "n" and x and x["status"] == "active" and o["body_id"] in starts and starts[o["body_id"]].match(x["role"]):
-                x["role"] = re.sub(r"(?i)^member", "Former member", x["role"]) + (f", until {dt.date.fromisoformat(o['end']).strftime('%B %Y')}" if o["end"] else "")
+                x["role"] = (re.sub(r"(?i)^member", "Former member", x["role"]) if re.match(r"(?i)member", x["role"]) else "Former " + x["role"][:1].lower() + x["role"][1:]) + (f", until {dt.date.fromisoformat(o['end']).strftime('%B %Y')}" if o["end"] else "")
                 x["status"], x["updated"] = "former_role", today
                 n += 1
         print(f"--fix-status: {n} actor(s) made former_role")
@@ -302,7 +324,116 @@ def norway():
                  role="Member of the Storting", role_re=r"(?i)storting|stortingsrepresentant", role_start=r"(?i)member of the storting", members=cur, former=former)]
 
 
-ADAPTERS = {"se": sweden, "de": germany, "nl": netherlands, "no": norway}
+def france():
+    """The Assemblée nationale (577 seats; data.assemblee-nationale.fr, deputies with an open mandate) and the Sénat (348; data.senat.fr)."""
+    import io, zipfile, csv as _csv
+    raw = get("https://data.assemblee-nationale.fr/static/openData/repository/17/amo/deputes_actifs_mandats_actifs_organes/AMO10_deputes_actifs_mandats_actifs_organes.json.zip", as_json=False)
+    z = zipfile.ZipFile(io.BytesIO(raw))
+    names = set(z.namelist())
+    groups = {}
+
+    def group(ref):
+        if ref not in groups:
+            f = f"json/organe/{ref}.json"
+            o = json.loads(z.read(f))["organe"] if f in names else {}
+            groups[ref] = (o.get("libelleAbrege") or o.get("libelle") or "Non inscrit").strip()
+        return groups[ref]
+
+    an = []
+    for n in names:
+        if "/acteur/" not in n:
+            continue
+        a = json.loads(z.read(n))["acteur"]
+        ms = a["mandats"]["mandat"]
+        ms = ms if isinstance(ms, list) else [ms]
+        seat = [m for m in ms if m.get("typeOrgane") == "ASSEMBLEE" and not m.get("dateFin")]
+        if not seat:
+            continue
+        gp = [m for m in ms if m.get("typeOrgane") == "GP" and not m.get("dateFin")]
+        ref = gp[0]["organes"]["organeRef"] if gp else None
+        ident = a["etatCivil"]["ident"]
+        an.append(dict(name=f"{ident['prenom']} {ident['nom']}", party=group(ref) if ref else "Non inscrit", ref=a["uid"]["#text"],
+                       start=seat[0].get("dateDebut", ""), place=""))
+    # the Sénat: current senators, with their group
+    text = get("https://data.senat.fr/data/senateurs/ODSEN_GENERAL.csv", as_json=False).decode("latin-1")
+    lines = [l for l in text.splitlines() if not l.startswith("%")]
+    se = []
+    for r in _csv.DictReader(lines):
+        if (r.get("État") or "").strip().upper() != "ACTIF":
+            continue
+        se.append(dict(name=f"{r['Prénom usuel'].strip()} {r['Nom usuel'].strip()}", party=(r.get("Groupe politique") or "Non inscrit").strip() or "Non inscrit",
+                       ref=r["Matricule"].strip(), start="", place=(r.get("Circonscription") or "").strip()))
+    return [dict(name="Assemblée nationale", seats=577, source_url="https://www2.assemblee-nationale.fr/deputes/liste/alphabetique",
+                 note="577 seats; groups as the Assemblée names them (abbreviations).", role="Member of the National Assembly",
+                 role_re=r"(?i)national assembly|assemblée nationale|député", role_start=r"(?i)member of the national assembly", members=an,
+                 party_order=["LFI-NFP", "GDR", "EcoS", "SOC", "LIOT", "NI", "EPR", "Non inscrit", "Dem", "HOR", "DR", "UDR", "RN"],
+                 colours={"RN": "0d378a", "LFI-NFP": "cc2443", "SOC": "f06c8c", "EcoS": "00c000", "GDR": "dd0000", "EPR": "ffd600", "DR": "0066cc",
+                          "LIOT": "ff8040", "Dem": "ff9900", "HOR": "00bcd4", "UDR": "7a7a7a"}),
+            dict(name="Sénat", seats=348, source_url="https://www.senat.fr/senateurs/senatl.html", note="348 seats; groups as the Sénat names them.",
+                 role="Senator", role_re=r"(?i)\bsenator\b|sénateur", role_start=r"(?i)senator", members=se)]
+
+
+def brazil():
+    """The Câmara dos Deputados (513) and the Senado Federal (81): the houses' open-data APIs, members in office today (substitutes included)."""
+    cam = "https://dadosabertos.camara.leg.br/api/v2/deputados"
+
+    def deputies(extra=""):
+        out, page = [], 1
+        while True:
+            d = get(f"{cam}?itens=100&pagina={page}&ordem=ASC&ordenarPor=nome{extra}")
+            out += d["dados"]
+            if not any(l.get("rel") == "next" for l in d.get("links", [])):
+                return out
+            page += 1
+
+    cur = [dict(name=x["nome"], party=x["siglaPartido"], ref=str(x["id"]), place=x["siglaUf"], start="",
+                url=f"https://www.camara.leg.br/deputados/{x['id']}") for x in deputies()]
+    seen = {m["ref"] for m in cur}
+    former = []
+    for leg in (57, 56, 55):
+        for x in deputies(f"&idLegislatura={leg}"):
+            if str(x["id"]) not in seen:
+                seen.add(str(x["id"]))
+                row = dict(name=x["nome"], party=x["siglaPartido"], ref=str(x["id"]), end="", start="")
+                if leg == 57:  # in this legislature but not serving: on leave (the seat is theirs, a substitute serves) or gone for good
+                    st = get(f"{cam}/{x['id']}")["dados"]["ultimoStatus"]
+                    row["on_leave"] = st.get("situacao") in ("Licença", "Afastado") or (st.get("situacao") == "Suplência" and st.get("condicaoEleitoral") == "Titular")
+                    row["end"] = (st.get("data") or "")[:10] if st.get("situacao") == "Fim de Mandato" else ""
+                former.append(row)
+    sen = get("https://legis.senado.leg.br/dadosabertos/senador/lista/atual", headers={"Accept": "application/json"})["ListaParlamentarEmExercicio"]["Parlamentares"]["Parlamentar"]
+    senators = [dict(name=s["IdentificacaoParlamentar"]["NomeParlamentar"], party=s["IdentificacaoParlamentar"].get("SiglaPartidoParlamentar", ""),
+                     ref=s["IdentificacaoParlamentar"]["CodigoParlamentar"], place=s["IdentificacaoParlamentar"].get("UfParlamentar", ""), start="",
+                     url=s["IdentificacaoParlamentar"].get("UrlPaginaParlamentar", "")) for s in sen]
+    order = ["PSOL", "PCdoB", "PT", "PV", "REDE", "PSB", "PDT", "Solidariedade", "CIDADANIA", "MDB", "PSD", "PSDB", "PODE", "AVANTE", "UNIÃO", "PP", "REPUBLICANOS", "PL", "NOVO"]
+    colours = {"PT": "e30613", "PSOL": "ffd100", "PCdoB": "c8102e", "PSB": "ffcc00", "PDT": "1d4ea1", "PV": "009a44", "REDE": "2da44e", "MDB": "00964b",
+               "PSD": "f58220", "PSDB": "0080ff", "PL": "1b3c8c", "PP": "3c6eb4", "UNIÃO": "003c8f", "REPUBLICANOS": "00a2e0", "NOVO": "ff6a13"}
+    return [dict(name="Câmara dos Deputados", seats=513, source_url="https://www.camara.leg.br/deputados/quem-sao", note="513 seats; a substitute serving holds the seat of a deputy on leave.",
+                 role="Federal deputy", role_re=r"(?i)federal deputy|câmara dos deputados|deputado federal", role_start=r"(?i)federal deputy", members=cur, former=former,
+                 party_order=order, colours=colours),
+            dict(name="Senado Federal", seats=81, source_url="https://www25.senado.leg.br/web/senadores/em-exercicio", note="81 seats.",
+                 role="Federal senator", role_re=r"(?i)federal senator|senado federal|senador", role_start=r"(?i)federal senator", members=senators,
+                 party_order=order, colours=colours)]
+
+
+def canada():
+    """The House of Commons (343 seats): ourcommons.ca's member list (members in office; vacant seats shown)."""
+    import xml.etree.ElementTree as ET
+    root = ET.fromstring(get("https://www.ourcommons.ca/Members/en/search/xml", as_json=False))
+    mem = []
+    for m in root:
+        if m.findtext("ToDateTime"):
+            continue
+        mem.append(dict(name=f"{m.findtext('PersonOfficialFirstName')} {m.findtext('PersonOfficialLastName')}", party=m.findtext("CaucusShortName") or "Independent",
+                        ref=m.findtext("PersonId"), place=m.findtext("ConstituencyName"), start=(m.findtext("FromDateTime") or "")[:10],
+                        url=f"https://www.ourcommons.ca/Members/en/{m.findtext('PersonId')}"))
+    return [dict(name="House of Commons of Canada", seats=343, source_url="https://www.ourcommons.ca/Members/en/search", note="343 seats; vacant seats are shown as Vacant.",
+                 role="Member of Parliament", role_re=r"(?i)member of parliament|\bMP\b", role_start=r"(?i)member of parliament", members=mem,
+                 party_order=["Green Party", "NDP", "Bloc Québécois", "Liberal", "Independent", "Conservative"],
+                 colours={"Liberal": "d71920", "Conservative": "1a4782", "NDP": "f37021", "Bloc Québécois": "33b2cc", "Green Party": "3d9b35", "Independent": "8a8680"})]
+
+
+
+ADAPTERS = {"se": sweden, "de": germany, "nl": netherlands, "no": norway, "fr": france, "br": brazil, "ca": canada}
 
 
 def main():
@@ -310,7 +441,13 @@ def main():
     ap.add_argument("dir")
     ap.add_argument("--dry-run", action="store_true")
     ap.add_argument("--fix-status", action="store_true", help="make actors who have left the chamber former_role")
+    ap.add_argument("--local", action="append", default=[], metavar="URL=FILE",
+                    help="use a file you saved yourself for a URL the site refuses to serve to scripts (ourcommons.ca sometimes does)")
     a = ap.parse_args()
+    import hashlib, tempfile
+    for pair in a.local:
+        url, _, f = pair.partition("=")
+        (Path(tempfile.gettempdir()) / ("wts-seats-" + hashlib.md5((url + "{}").encode()).hexdigest())).write_bytes(Path(f).read_bytes())
     cc = Path(a.dir).name.split("-")[0]
     if cc not in ADAPTERS:
         sys.exit(f"No adapter for '{cc}'. Have: {', '.join(sorted(ADAPTERS))}. Add one to ADAPTERS in this file.")

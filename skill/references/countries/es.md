@@ -28,3 +28,4 @@ python skill/scripts/merge_boundaries.py mun.json --regions prov.json --upper cc
 - The Plataforma por la Justicia Fiscal and its members, Oxfam Intermón, Gestha, CCOO, UGT, Attac, backers of the European citizens' initiative "Tax the Rich".
 - Regional bodies: the Catalan Parlament and Generalitat, Navarre, the Basque foral bodies.
 - Not found: any Spanish millionaire or business owner on record for a wealth tax.
+- **Seats (not built):** the Congreso publishes `DiputadosActivos`, `DiputadosDeBaja` and `Diputadas` as JSON/CSV/XML at `congreso.es/opendata/diputados`, but on 25 Oct 2026 `DiputadosActivos` held only 137 of 350 deputies (PP 54 of its 137 seats), so a seat chart built on it would be wrong. Find a complete list (the Congreso's composition page, or the Senado's open data) before adding a Spain adapter to `skill/scripts/seats.py`.
