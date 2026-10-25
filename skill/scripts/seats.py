@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 """Refresh a country's legislature seats from the parliament's own open member list.
 
-Usage: python skill/scripts/seats.py data/<iso2> [--dry-run] [--fix-status] [--local URL=FILE]      (iso2 = se, de, nl, no, fr, br, ca, es, pl, be, in, jp, my, sg, id, ng, cn, nz)
+Usage: python skill/scripts/seats.py data/<iso2> [--adapter NAME] [--dry-run] [--fix-status] [--local URL=FILE]      (iso2 = se, de, nl, no, fr, br, ca, es, pl, be, in, jp, my, sg, id, ng, cn, nz)
 
 For the UK and the US use seats_uk.py and seats_us.py (richer sources). This script holds one small adapter per
 country (the ADAPTERS table at the end): each reads the parliament's open data and returns its chambers, the sitting
@@ -190,7 +190,7 @@ def run(d, adapter, dry=False, fix=False):
             if x and x["actor_id"] in sitting:
                 continue
             if o["current"] == "n" and x and x["status"] == "active" and o["body_id"] in starts and starts[o["body_id"]].match(x["role"]):
-                x["role"] = (re.sub(r"(?i)^member", "Former member", x["role"]) if re.match(r"(?i)member", x["role"]) else "Former " + x["role"][:1].lower() + x["role"][1:]) + (f", until {dt.date.fromisoformat(o['end']).strftime('%B %Y')}" if o["end"] else "")
+                x["role"] = (re.sub(r"(?i)^member", "Former member", x["role"]) if re.match(r"(?i)member", x["role"]) else "Former " + (x["role"] if x["role"][:2].isupper() else x["role"][:1].lower() + x["role"][1:])) + (f", until {dt.date.fromisoformat(o['end']).strftime('%B %Y')}" if o["end"] else "")
                 x["status"], x["updated"] = "former_role", today
                 n += 1
         print(f"--fix-status: {n} actor(s) made former_role")
@@ -769,7 +769,54 @@ def new_zealand():
                           "New Zealand First": "111111", "National Party": "00529f", "ACT Party": "fde401"})]
 
 
-ADAPTERS = {"nz": new_zealand, "se": sweden, "de": germany, "nl": netherlands, "no": norway, "fr": france, "br": brazil, "ca": canada, "es": spain, "pl": poland, "be": belgium, "in": india, "jp": japan, "my": malaysia, "sg": singapore, "id": indonesia, "ng": nigeria, "cn": china}
+def scottish_parliament():
+    """The Scottish Parliament (129 seats: 73 constituency + 56 regional): data.parliament.scot open data. Used for the UK register with
+    `seats.py data/gb --adapter scottish_parliament` (the Commons and Lords come from seats_uk.py)."""
+    base = "https://data.parliament.scot/api/"
+    members, mparty, parties = get(base + "members"), get(base + "memberparties"), get(base + "parties")
+    cons = {c["ID"]: c["Name"] for c in get(base + "constituencies")}
+    TYPOS = {"Central Scot and Lothians West": "Central Scotland and Lothians West", "Central Scotland and Lothains": "Central Scotland and Lothians"}  # as the Parliament's data spells them
+    regs = {r["ID"]: TYPOS.get(r["Name"].strip(), r["Name"].strip()) for r in get(base + "regions")}
+    seat_rows = get(base + "memberelectionconstituencystatuses") + get(base + "memberelectionregionstatuses")
+    SHORT = {"SNP": "Scottish National Party", "Lab": "Labour", "Con": "Conservative", "LD": "Liberal Democrats", "Green": "Scottish Greens",
+             "Reform": "Reform UK", "NPA": "No Party Affiliation", "Ind": "Independent"}
+    abbr = {p["ID"]: SHORT.get(p["Abbreviation"], p["ActualName"]) for p in parties}
+    party_of = {}
+    for x in sorted(mparty, key=lambda x: x["ValidFromDate"]):  # the party they hold now, or held last
+        party_of[x["PersonID"]] = abbr.get(x["PartyID"], "")
+    by_person = {}
+    for r in seat_rows:
+        by_person.setdefault(r["PersonID"], []).append(r)
+
+    def name(m):
+        sur = m["ParliamentaryName"].split(",")[0].strip()
+        return f"{m['PreferredName'].strip()} {sur}"
+
+    cur, former = [], []
+    for m in members:
+        rows = by_person.get(m["PersonID"], [])
+        if not rows:
+            continue
+        if m["IsCurrent"]:
+            r = max((r for r in rows if not r["ValidUntilDate"]), key=lambda r: r["ValidFromDate"], default=max(rows, key=lambda r: r["ValidFromDate"]))
+            place = cons.get(r.get("ConstituencyID"), "") or regs.get(r.get("RegionID"), "")
+            cur.append(dict(name=name(m), party=party_of.get(m["PersonID"], ""), ref=str(m["PersonID"]), place=place,
+                            start=min(x["ValidFromDate"] for x in rows)[:10]))  # first election to the Parliament
+        else:
+            ends = [x["ValidUntilDate"][:10] for x in rows if x["ValidUntilDate"]]
+            former.append(dict(name=name(m), party=party_of.get(m["PersonID"], ""), ref=str(m["PersonID"]), end=max(ends) if ends else "",
+                               start=min(x["ValidFromDate"] for x in rows)[:10]))
+    return [dict(name="Scottish Parliament", level="regional", seats=129, source_url="https://data.parliament.scot/api/members",
+                 note="129 seats: 73 constituency and 56 regional members, elected on 7 May 2026. Who sits and each member's party are from the Parliament's open data.",
+                 role="MSP", role_re=r"(?i)\bMSP\b|member of the scottish parliament", role_start=r"(?i)(MSP|member of the scottish parliament)",
+                 members=cur, former=former,
+                 party_order=["Scottish Greens", "Scottish National Party", "Labour", "No Party Affiliation", "Independent", "Liberal Democrats", "Conservative", "Reform UK"],
+                 colours={"Scottish National Party": "f2c500", "Labour": "d50000", "Conservative": "0087dc", "Liberal Democrats": "faa61a", "Scottish Greens": "78b82a",
+                          "Reform UK": "12b6cf", "No Party Affiliation": "8a8680", "Independent": "8a8680"})]
+
+
+
+ADAPTERS = {"nz": new_zealand, "se": sweden, "de": germany, "nl": netherlands, "no": norway, "fr": france, "br": brazil, "ca": canada, "es": spain, "pl": poland, "be": belgium, "in": india, "jp": japan, "my": malaysia, "sg": singapore, "id": indonesia, "ng": nigeria, "cn": china, "scottish_parliament": scottish_parliament}
 
 
 def main():
@@ -777,6 +824,7 @@ def main():
     ap.add_argument("dir")
     ap.add_argument("--dry-run", action="store_true")
     ap.add_argument("--fix-status", action="store_true", help="make actors who have left the chamber former_role")
+    ap.add_argument("--adapter", help="an adapter other than the country's own, e.g. scottish_parliament for data/gb")
     ap.add_argument("--local", action="append", default=[], metavar="URL=FILE",
                     help="use a file you saved yourself for a URL the site refuses to serve to scripts (ourcommons.ca sometimes does)")
     a = ap.parse_args()
@@ -784,7 +832,7 @@ def main():
     for pair in a.local:
         url, _, f = pair.rpartition("=")  # the URL may itself contain "="
         (Path(tempfile.gettempdir()) / ("wts-seats-" + hashlib.md5((url + "{}").encode()).hexdigest())).write_bytes(Path(f).read_bytes())
-    cc = Path(a.dir).name.split("-")[0]
+    cc = a.adapter or Path(a.dir).name.split("-")[0]
     if cc not in ADAPTERS:
         sys.exit(f"No adapter for '{cc}'. Have: {', '.join(sorted(ADAPTERS))}. Add one to ADAPTERS in this file.")
     run(a.dir, ADAPTERS[cc], a.dry_run, a.fix_status)

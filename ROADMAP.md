@@ -24,7 +24,7 @@ These need the autumn 2026 elections to happen and the new parliaments to sit. M
 
 Supporters in devolved parliaments, state legislatures and councils already have structured positions, but nothing is lit until an official member list is read for each body. Milestone: [Regional and local bodies](https://github.com/Egalitaristen/wealth-tax-supporters/milestone/2).
 
-- [#65](https://github.com/Egalitaristen/wealth-tax-supporters/issues/65) The UK's devolved parliaments: Scottish Parliament, Senedd, London Assembly
+- [#65](https://github.com/Egalitaristen/wealth-tax-supporters/issues/65) The Senedd and the London Assembly (the Scottish Parliament is done)
 - [#66](https://github.com/Egalitaristen/wealth-tax-supporters/issues/66) US state legislatures
 - [#67](https://github.com/Egalitaristen/wealth-tax-supporters/issues/67) Councils and city governments
 - [#73](https://github.com/Egalitaristen/wealth-tax-supporters/issues/73) The European Parliament
