@@ -116,6 +116,7 @@ function scrollToHash() {
 }
 async function render(fresh) {
   leaving(); leaving = () => {};
+  if (location.pathname === '/polls') history.replaceState(null, '', '/resources?kind=poll');  // polls moved into Resources
   if (location.pathname === '/' && location.hash === '#countries') history.replaceState(null, '', '/countries');  // old links to the section
   const parts = location.pathname.split('/').filter(Boolean).map(decodeURIComponent);
   const params = new URLSearchParams(location.search);
@@ -126,7 +127,7 @@ async function render(fresh) {
     const country = W.countries.find(c => c.slug === (parts[0] || '').toLowerCase());
     if (!parts.length) await home(W);
     else if (parts[0] === 'countries' && parts.length === 1) await countriesPage(W);
-    else if (parts[0] === 'polls' && parts.length === 1) await pollsPage(W);
+    else if (parts[0] === 'resources' && parts.length === 1) await resourcesPage(W);
     else if (parts[0] === 'about' && parts.length === 1) aboutPage(W);
     else if (parts[0] === 'contribute' && parts.length === 1) contributePage(W);
     else if (parts[0] === 'suggest' && parts.length === 1) suggestPage(W, params);
@@ -135,7 +136,7 @@ async function render(fresh) {
     else if (country && parts.length === 2 && SECTIONS[parts[1]]) await countryPage(country.slug, params, parts[1]);
     else if (country && parts.length === 2) await personPage(country.slug, parts[1]);
     else notFound();
-    const navKey = {countries: '/countries', polls: '/polls', about: '/about', contribute: '/contribute', suggest: '/suggest', feedback: '/feedback'}[parts[0]] || null;
+    const navKey = {countries: '/countries', resources: '/resources', about: '/about', contribute: '/contribute', suggest: '/suggest', feedback: '/feedback'}[parts[0]] || null;
     if (navKey) $$('.nav a, .fb-link').forEach(a => { if (a.getAttribute('href') === navKey) a.setAttribute('aria-current', 'page'); });
   } catch (err) {
     console.error(err);
@@ -316,22 +317,53 @@ async function countriesPage(W) {
   const stopWorld = worldMap($('#world'), W);
   leaving = () => stopWorld();
 }
-// Every poll in the register, newest first.
-async function pollsPage(W) {
-  setTitle('Polls');
-  const rows = [];
-  W.countries.forEach(c => (c.polls || []).forEach(p => rows.push([c, p])));
-  rows.sort((a, b) => String(b[1].published || '').localeCompare(String(a[1].published || '')) || a[0].name.localeCompare(b[0].name));
-  const nc = new Set(rows.map(r => r[0].slug)).size;
-  main.innerHTML = `<div class="wrap page-head fade"><div class="kicker">Public opinion</div><h1>What <em>polls</em> say</h1>
-    <p class="lede" style="margin-top:18px">${rows.length} poll${rows.length === 1 ? '' : 's'} in ${nc} ${nc === 1 ? 'country' : 'countries'}. The register lists who has said it in public; polls show how many people agree. Support depends on the design asked about, so each poll is shown with its question. Only polls that ask about a wealth tax are included, and each figure is checked against the pollster's own report.</p></div>
-    <div class="wrap" style="margin-top:28px;padding-bottom:72px"><div class="polls wide">${rows.map(([c, p]) => `<div class="poll">
-      <div class="poll-fig"><b>${esc(pollFig(p))}</b><span><a href="/${c.slug}">${esc(c.name)}</a></span></div>
-      <div class="poll-body"><p>${esc(p.question)}</p>
-        ${p.question_original ? `<p class="poll-orig">“${esc(p.question_original)}”</p>` : ''}
-        <div class="poll-meta">${esc([p.scope, p.sample, p.fieldwork ? 'fieldwork ' + p.fieldwork : ''].filter(Boolean).join(' · '))}</div>
-        <div class="poll-meta">${ext(p.url, esc(pollSource(p)) + ' ↗')} · <a href="/${c.slug}/method#polls">${esc(c.name)} method</a></div></div>
-    </div>`).join('')}</div></div>`;
+// Polls, papers, reports and bills, filterable by kind, place and year. The filters live in the query string, so a view can be shared.
+const RES_KIND = {poll: ['Polls', 'Poll'], paper: ['Papers', 'Paper'], report: ['Reports and proposals', 'Report'], bill: ['Bills and laws', 'Bill or law']};
+async function resourcesPage(W) {
+  setTitle('Resources');
+  const all = W.resources || [], q0 = new URLSearchParams(location.search);
+  const f = {kind: q0.get('kind') || '', country: q0.get('country') || '', year: q0.get('year') || '', q: q0.get('q') || ''};
+  const yearOf = r => String(r.published).slice(0, 4);
+  const places = [...new Map(all.map(r => [r.country, r.cname])).entries()].sort((a, b) => (a[0] === 'global') - (b[0] === 'global') || a[1].localeCompare(b[1]));
+  const years = [...new Set(all.map(yearOf))].sort().reverse();
+  main.innerHTML = `<div class="wrap page-head fade"><div class="kicker">Polls, papers, reports and bills</div><h1>Resources</h1>
+    <p class="lede" style="margin-top:18px">What the evidence and the legislation say about a wealth tax. Polls are checked against the pollster's own report; papers, reports and bills link to the original. Only material about an actual wealth tax is listed.</p></div>
+    <div class="wrap" style="margin-top:28px;padding-bottom:72px">
+      <div class="rtabs" id="rk"></div>
+      <div class="rfilters">
+        <input id="rq" type="search" class="field" placeholder="Search titles, authors, places…" aria-label="Search resources" autocomplete="off">
+        <select id="rc" class="field" aria-label="Place"><option value="">All places</option>${places.map(([k, n]) => `<option value="${esc(k)}">${esc(n)}</option>`).join('')}</select>
+        <select id="ry" class="field" aria-label="Year"><option value="">Any year</option>${years.map(y => `<option>${esc(y)}</option>`).join('')}</select>
+      </div>
+      <div class="rcount" id="rn" aria-live="polite"></div>
+      <div class="rlist" id="rl"></div></div>`;
+  const kinds = $('#rk'), list = $('#rl'), rq = $('#rq'), rc = $('#rc'), ry = $('#ry');
+  rq.value = f.q; rc.value = f.country; ry.value = f.year;
+  const hit = (r, skip) => (skip === 'kind' || !f.kind || r.kind === f.kind) && (!f.country || r.country === f.country) && (!f.year || yearOf(r) === f.year) &&
+    (!f.q || norm([r.title, r.by, r.cname, r.summary, r.status].join(' ')).includes(norm(f.q)));
+  const draw = () => {
+    const counts = {}; all.filter(r => hit(r, 'kind')).forEach(r => { counts[r.kind] = (counts[r.kind] || 0) + 1; });
+    const tot = Object.values(counts).reduce((a, b) => a + b, 0);
+    kinds.innerHTML = `<button type="button" class="chip${f.kind ? '' : ' on'}" data-k="">All <b>${tot}</b></button>` +
+      Object.entries(RES_KIND).map(([k, [pl]]) => `<button type="button" class="chip${f.kind === k ? ' on' : ''}" data-k="${k}">${pl} <b>${counts[k] || 0}</b></button>`).join('');
+    const rows = all.filter(r => hit(r));
+    $('#rn').textContent = `${rows.length} ${rows.length === 1 ? 'resource' : 'resources'}`;
+    list.innerHTML = rows.map(r => `<article class="res">
+      <div class="res-k"><span class="rk rk-${r.kind}">${esc(RES_KIND[r.kind][1])}</span><span>${r.country === 'global' ? esc(r.cname) : `<a href="/${esc(r.country)}">${esc(r.cname)}</a>`}</span><span>${esc(pollDate(r.published))}</span></div>
+      ${r.fig ? `<div class="res-fig">${esc(r.fig)}</div>` : ''}
+      <h3>${ext(r.url, esc(r.title) + ' ↗')}</h3>
+      <div class="res-by">${esc(r.by)}</div>
+      ${r.summary ? `<p>${esc(r.summary)}</p>` : ''}
+      ${r.status ? `<div class="res-st"><b>Status</b> ${esc(r.status)}</div>` : ''}
+    </article>`).join('') || '<div class="rempty">Nothing matches these filters.</div>';
+    const u = new URLSearchParams(Object.entries(f).filter(([, v]) => v)).toString();
+    history.replaceState(null, '', '/resources' + (u ? '?' + u : ''));
+  };
+  kinds.addEventListener('click', e => { const b = e.target.closest('[data-k]'); if (b) { f.kind = b.dataset.k; draw(); } });
+  rq.addEventListener('input', () => { f.q = rq.value; draw(); });
+  rc.addEventListener('change', () => { f.country = rc.value; draw(); });
+  ry.addEventListener('change', () => { f.year = ry.value; draw(); });
+  draw();
 }
 
 // ---------- home ----------
@@ -389,7 +421,7 @@ async function home(W) {
       <div class="poll-body"><p>back ${esc(p.question.replace(/^./, x => x.toLowerCase()))}.</p>
         <div class="poll-meta">${ext(p.url, esc(pollSource(p)) + ' ↗')} · <a href="/${c.slug}/method#polls">all polls</a></div></div>
     </div>`; }).join('')}</div>
-    <p class="polls-more"><a href="/polls">See all ${cs.reduce((n, c) => n + (c.polls || []).length, 0)} polls →</a></p>
+    <p class="polls-more"><a href="/resources?kind=poll">See all ${cs.reduce((n, c) => n + (c.polls || []).length, 0)} polls →</a></p>
   </div></section>` : ''}
 
   <section class="sec" id="countries"><div class="wrap">
