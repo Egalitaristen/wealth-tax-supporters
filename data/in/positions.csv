@@ -1,0 +1,26 @@
+position_id,actor_id,body_id,role,party,geo_unit_id,start,end,current,member_ref,checked,source_url
+O00001,A0074,B0001,Member of the Lok Sabha,,G0017,,,n,,2026-10-25,https://sansad.in/ls/members
+O00002,A0075,B0001,Member of the Lok Sabha,INC,G0031,,,y,3589,2026-10-25,https://sansad.in/ls/members/biography/3589
+O00003,A0087,B0001,Member of the Lok Sabha,,G0015,,,n,,2026-10-25,https://sansad.in/ls/members
+O00004,A0088,B0001,Member of the Lok Sabha,,G0015,,,n,,2026-10-25,https://sansad.in/ls/members
+O00005,A0089,B0001,Member of the Lok Sabha,,G0026,,,n,,2026-10-25,https://sansad.in/ls/members
+O00006,A0090,B0001,Member of the Lok Sabha,,G0017,,,n,,2026-10-25,https://sansad.in/ls/members
+O00007,A0091,B0001,Member of the Lok Sabha,,G0017,,,n,,2026-10-25,https://sansad.in/ls/members
+O00008,A0092,B0001,Member of the Lok Sabha,,G0015,,,n,,2026-10-25,https://sansad.in/ls/members
+O00009,A0093,B0001,Member of the Lok Sabha,,G0015,,,n,,2026-10-25,https://sansad.in/ls/members
+O00010,A0094,B0001,Member of the Lok Sabha,CPI,G0006,,,y,4086,2026-10-25,https://sansad.in/ls/members/biography/4086
+O00011,A0095,B0001,Member of the Lok Sabha,CPI(M),G0006,,,y,5628,2026-10-25,https://sansad.in/ls/members/biography/5628
+O00012,A0096,B0001,Member of the Lok Sabha,AITC,G0017,,,y,4871,2026-10-25,https://sansad.in/ls/members/biography/4871
+O00013,A0016,B0002,Member of the Rajya Sabha,INC,G0001,,,y,1935,2026-10-25,https://sansad.in/rs/members
+O00014,A0075,B0002,Member of the Rajya Sabha,,G0031,,,n,,2026-10-25,https://sansad.in/rs/members
+O00015,A0076,B0002,Member of the Rajya Sabha,,G0015,,,n,,2026-10-25,https://sansad.in/rs/members
+O00016,A0077,B0002,Member of the Rajya Sabha,,G0015,,,n,,2026-10-25,https://sansad.in/rs/members
+O00017,A0078,B0002,Member of the Rajya Sabha,,G0015,,,n,,2026-10-25,https://sansad.in/rs/members
+O00018,A0079,B0002,Member of the Rajya Sabha,,G0011,,,n,,2026-10-25,https://sansad.in/rs/members
+O00019,A0080,B0002,Member of the Rajya Sabha,,G0017,,,n,,2026-10-25,https://sansad.in/rs/members
+O00020,A0081,B0002,Member of the Rajya Sabha,CPI,G0015,,,y,2515,2026-10-25,https://sansad.in/rs/members
+O00021,A0082,B0002,Member of the Rajya Sabha,BJP,G0017,,,y,2184,2026-10-25,https://sansad.in/rs/members
+O00022,A0083,B0002,Member of the Rajya Sabha,,G0017,,,n,,2026-10-25,https://sansad.in/rs/members
+O00023,A0084,B0002,Member of the Rajya Sabha,,G0008,,,n,,2026-10-25,https://sansad.in/rs/members
+O00024,A0085,B0002,Member of the Rajya Sabha,CPI(M),G0015,,,y,2499,2026-10-25,https://sansad.in/rs/members
+O00025,A0086,B0002,Member of the Rajya Sabha,DMK,G0006,,,y,2431,2026-10-25,https://sansad.in/rs/members

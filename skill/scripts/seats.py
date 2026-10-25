@@ -71,7 +71,7 @@ TITLES = re.compile(r"\b(dr|prof|professor|mr|mrs|ms|sir|dame|hon|jr|sr|ii|iii|v
 
 
 def norm(s):
-    s = unicodedata.normalize("NFKD", s).encode("ascii", "ignore").decode().lower()
+    s = unicodedata.normalize("NFKD", s.replace("’", "'").replace("‘", "'")).encode("ascii", "ignore").decode().lower()
     return " ".join(re.sub(r"[^a-z ]", " ", TITLES.sub(" ", s)).split())
 
 
@@ -84,6 +84,10 @@ def match(actor, members, by_q, by_norm):
     """(member, how) for the one member this actor is, or (None, ''). how: qid, exact, or fuzzy (reported for you to check)."""
     if actor["wikidata_qid"] and actor["wikidata_qid"] in by_q:
         return by_q[actor["wikidata_qid"]], "qid"
+    cj = re.sub(r"\s", "", actor["name"])  # a name in kanji after the Latin one: 小池晃
+    for m in members:
+        if m.get("cjk") and m["cjk"] in cj:
+            return m, "exact"
     n = norm(actor["name"])
     if n in by_norm and len(by_norm[n]) == 1:
         return by_norm[n][0], "exact"
@@ -178,8 +182,11 @@ def run(d, adapter, dry=False, fix=False):
         by_id = {x["actor_id"]: x for x in actors}
         starts = {b["body_id"]: re.compile(c["role_start"]) for c in chambers for b in bodies if b["name"] == c["name"] and c.get("role_start")}
         n = 0
+        sitting = {o["actor_id"] for o in positions if o["current"] == "y"}  # someone who sits in another chamber is not 'former'
         for o in positions:
             x = by_id.get(o["actor_id"])
+            if x and x["actor_id"] in sitting:
+                continue
             if o["current"] == "n" and x and x["status"] == "active" and o["body_id"] in starts and starts[o["body_id"]].match(x["role"]):
                 x["role"] = (re.sub(r"(?i)^member", "Former member", x["role"]) if re.match(r"(?i)member", x["role"]) else "Former " + x["role"][:1].lower() + x["role"][1:]) + (f", until {dt.date.fromisoformat(o['end']).strftime('%B %Y')}" if o["end"] else "")
                 x["status"], x["updated"] = "former_role", today
@@ -506,7 +513,118 @@ def poland():
 
 
 
-ADAPTERS = {"se": sweden, "de": germany, "nl": netherlands, "no": norway, "fr": france, "br": brazil, "ca": canada, "es": spain, "pl": poland}
+def belgium():
+    """The Chamber of Representatives (150 seats): lachambre.be. Its firewall refuses scripts, so the member list is read in a
+    browser and passed with --local (see the Belgium guide): rows of [surname given name, party, member key]."""
+    url = "https://www.lachambre.be/kvvcr/showpage.cfm?section=/depute&language=fr&cfm=/site/wwwcfm/depute/cvlist54.cfm"
+    rows = get(url)
+    mem = []
+    for name, party, key in rows:
+        parts = name.split()
+        given = parts[-1]
+        mem.append(dict(name=f"{given} {' '.join(parts[:-1])}", party=party, ref=key, start="",
+                        url=f"https://www.lachambre.be/kvvcr/showpage.cfm?section=/depute&language=fr&cfm=cvview54.cfm?key={key}" if key else ""))
+    return [dict(name="Chamber of Representatives", seats=150, source_url=url, note="150 seats; party names as the Chamber lists them. Read in a browser: the Chamber's site refuses scripts.",
+                 role="Member of the Chamber of Representatives", role_re=r"(?i)chamber of representatives|kamerlid|député fédéral",
+                 role_start=r"(?i)member of the chamber of representatives", members=mem,
+                 party_order=["PVDA-PTB", "Ecolo-Groen", "PS", "Vooruit", "DéFI", "Anders.", "INDEP", "cd&v", "Les Engagés", "MR", "N-VA", "VB"],
+                 colours={"PVDA-PTB": "b01c2e", "PS": "e30613", "Ecolo-Groen": "46962b", "Vooruit": "ee2b4a", "N-VA": "f2a900", "VB": "5b4a1f", "MR": "0b5ea8",
+                          "Les Engagés": "2aa9b3", "cd&v": "e87722", "DéFI": "d6006e", "Anders.": "7a7a7a", "INDEP": "8a8680"})]
+
+
+def india():
+    """The Lok Sabha (543 seats): sansad.in's member API. The Rajya Sabha (245) endpoint refuses scripts, so it is read in a
+    browser and passed with --local as {total, counts: {party: n}, named: [the register's members found]}."""
+    ls = get("https://sansad.in/api_ls/member?loksabha=18&")["membersDtoList"]
+    cur = [dict(name=x["mpFirstLastName"].strip(), party=x.get("partySname") or "IND", ref=str(x["mpsno"]), place=x.get("constName", ""), start="",
+                url=f"https://sansad.in/ls/members/biography/{x['mpsno']}") for x in ls
+           if x.get("status", "Sitting") == "Sitting"]  # the list also holds members who died or resigned
+    out = [dict(name="Lok Sabha", seats=543, source_url="https://sansad.in/ls/members", note="543 seats; the 18th Lok Sabha.",
+                role="Member of the Lok Sabha", role_re=r"(?i)lok sabha", role_start=r"(?i)member of the lok sabha", members=cur,
+                party_order=["CPI(ML)L", "CPI(M)", "CPI", "AITC", "SP", "DMK", "INC", "SS(UBT)", "NCP(SP)", "AAP", "TDP", "JD(U)", "BJP"],
+                colours={"BJP": "ff9933", "INC": "19aaed", "SP": "e03a3e", "AITC": "20c646", "DMK": "e5262a", "TDP": "ffd400", "JD(U)": "1c7c3c",
+                         "CPI(M)": "c8102e", "CPI": "e03a3e", "AAP": "0066a1", "SS(UBT)": "f26a1b", "NCP(SP)": "1f6fbf"})]
+    try:
+        rs = get("https://sansad.in/api_rs/member/sitting-members")
+    except SystemExit:
+        print("  (Rajya Sabha skipped: sansad.in refuses scripts for it; pass its summary with --local, see the India guide)", file=sys.stderr)
+        return out
+    named = [dict(name=x["n"], party=x["p"], ref=x["id"], place=x["s"], start="") for x in rs["named"] if "n" in x]
+    filler = [dict(name=f"(another member, {p} #{i})", party=p, ref="", start="") for p, n in rs["counts"].items()
+              for i in range(n - sum(1 for x in named if x["party"] == p))]
+    out.append(dict(name="Rajya Sabha", seats=245, source_url="https://sansad.in/rs/members", note="245 seats; sitting members as read from sansad.in.",
+                    role="Member of the Rajya Sabha", role_re=r"(?i)rajya sabha", role_start=r"(?i)member of the rajya sabha", members=named + filler,
+                    party_order=["CPI(M)", "CPI", "AITC", "SP", "DMK", "INC", "AAP", "BJD", "YSRCP", "IND.", "NOM.", "JD(U)", "BJP"],
+                    colours={"BJP": "ff9933", "INC": "19aaed", "AITC": "20c646", "DMK": "e5262a", "CPI(M)": "c8102e", "CPI": "e03a3e", "SP": "e03a3e"}))
+    return out
+
+
+
+def japan():
+    """The House of Representatives (465: shugiin.go.jp, ten pages by kana row) and the House of Councillors (248: sangiin.go.jp,
+    the page of the latest Diet session). The pages give names in kanji, so supporters are matched on the kanji in brackets after
+    their name in the register (小池晃)."""
+    PARTY = {"自民": "LDP", "立憲": "CDP", "維新": "Ishin", "国民": "DPP", "公明": "Komeito", "共産": "JCP", "れいわ": "Reiwa", "参政": "Sanseito",
+             "無": "Independent", "無所属": "Independent", "みんな": "Your Party", "社民": "SDP", "有志": "Yushi"}
+
+    def party(raw):
+        return PARTY.get(raw.strip(), raw.strip())
+
+    def lines(url, enc):
+        raw = get(url, as_json=False)
+        html = raw.decode(enc, errors="replace")
+        text = re.sub(r"<[^>]+>", "\n", html)
+        return [re.sub(r"\s+", " ", x.replace("&nbsp;", " ")).strip() for x in text.split("\n") if x.strip() and x.replace("&nbsp;", " ").strip()]
+
+    reps = []
+    for n in range(1, 11):
+        L = lines(f"https://www.shugiin.go.jp/internet/itdb_annai.nsf/html/statics/syu/{n}giin.htm", "cp932")
+        for k, x in enumerate(L):
+            if x.endswith("君") and k + 5 < len(L) and re.match(r"\d", L[k + 5]):  # terms won, sometimes with a note such as 1（参2）
+                kanji = x[:-1].replace(" ", "").replace("　", "")
+                reps.append(dict(name=kanji, cjk=kanji, party=party(L[k + 3]), ref=kanji, place=L[k + 4], start="",
+                                 url=f"https://www.shugiin.go.jp/internet/itdb_annai.nsf/html/statics/syu/{n}giin.htm"))
+    session, url = None, None
+    for s in range(222, 240):  # the latest Diet session that has a page
+        try:
+            u = f"https://www.sangiin.go.jp/japanese/joho1/kousei/giin/{s}/giin.htm"
+            urllib.request.urlopen(urllib.request.Request(u, headers=UA), timeout=60).read(1)
+            session, url = s, u
+        except Exception:
+            break
+    L = lines(url, "utf-8")
+    sen = []
+    for k, x in enumerate(L):
+        if re.fullmatch(r"令和\d+年\d+月\d+日", x) and k >= 4 and "現在" not in x:
+            name = re.sub(r"\[.*?\]", "", L[k - 4]).replace(" ", "").replace("　", "")
+            sen.append(dict(name=name, cjk=name, party=party(L[k - 2]), ref=name, place=L[k - 1], start="", url=url))
+    return [dict(name="House of Representatives (Shūgiin)", seats=465, source_url="https://www.shugiin.go.jp/internet/itdb_annai.nsf/html/statics/syu/1giin.htm",
+                 note="465 seats; party blocks are the Diet groups (会派) named on the House's list, abbreviated in English where the abbreviation is well known.",
+                 role="Member of the House of Representatives", role_re=r"(?i)house of representatives", role_start=r"(?i)member of the house of representatives", members=reps,
+                 party_order=["JCP", "Reiwa", "CDP", "SDP", "DPP", "Komeito", "Independent", "Ishin", "LDP", "Sanseito"],
+                 colours={"LDP": "d7263d", "CDP": "1d4ea1", "Ishin": "33a02c", "DPP": "f9a602", "Komeito": "f55881", "JCP": "d90000", "Reiwa": "ed6d9c", "Sanseito": "e6a000"}),
+            dict(name="House of Councillors (Sangiin)", seats=248, source_url=url, note=f"248 seats; the member list of the {session}th Diet session. Groups as named on the House's list.",
+                 role="Member of the House of Councillors", role_re=r"(?i)house of councillors", role_start=r"(?i)member of the house of councillors", members=sen,
+                 party_order=["JCP", "Reiwa", "CDP", "SDP", "DPP", "Komeito", "Independent", "Ishin", "LDP", "Sanseito"],
+                 colours={"LDP": "d7263d", "CDP": "1d4ea1", "Ishin": "33a02c", "DPP": "f9a602", "Komeito": "f55881", "JCP": "d90000", "Reiwa": "ed6d9c", "Sanseito": "e6a000"})]
+
+
+def malaysia():
+    """The Dewan Rakyat (222 seats): parlimen.gov.my. The page refuses scripts, so it is read in a browser and summarised with --local
+    as {total, counts: {coalition: n}, named: [the register's members found]} (see the Malaysia guide)."""
+    d = get("https://www.parlimen.gov.my/ahli-dewan.html?uweb=dr&")
+    named = [dict(name=x["n"], party=x["p"], ref=x["id"], place=x["s"], start="") for x in d["named"] if "n" in x]
+    filler = [dict(name=f"(another member, {p} #{i})", party=p, ref="", start="") for p, n in d["counts"].items()
+              for i in range(n - sum(1 for x in named if x["party"] == p))]
+    return [dict(name="Dewan Rakyat", seats=222, source_url="https://www.parlimen.gov.my/ahli-dewan.html?uweb=dr&",
+                 note="222 seats; parties shown by coalition as the Dewan lists them (PH, BN, PN, GPS…); unfilled seats show as Vacant.",
+                 role="Member of Parliament", role_re=r"(?i)member of parliament|dewan rakyat", role_start=r"(?i)member of parliament", members=named + filler,
+                 party_order=["MUDA", "PH", "WARISAN", "BEBAS", "BN", "GPS", "GRS", "KDM", "PBM", "PN"],
+                 colours={"PH": "e0281f", "BN": "1b3a8c", "PN": "1d6f3e", "GPS": "c9a227", "GRS": "7a5a9c", "WARISAN": "2ea3d8", "MUDA": "111111", "BEBAS": "8a8680"})]
+
+
+
+ADAPTERS = {"se": sweden, "de": germany, "nl": netherlands, "no": norway, "fr": france, "br": brazil, "ca": canada, "es": spain, "pl": poland, "be": belgium, "in": india, "jp": japan, "my": malaysia}
 
 
 def main():
@@ -519,7 +637,7 @@ def main():
     a = ap.parse_args()
     import hashlib, tempfile
     for pair in a.local:
-        url, _, f = pair.partition("=")
+        url, _, f = pair.rpartition("=")  # the URL may itself contain "="
         (Path(tempfile.gettempdir()) / ("wts-seats-" + hashlib.md5((url + "{}").encode()).hexdigest())).write_bytes(Path(f).read_bytes())
     cc = Path(a.dir).name.split("-")[0]
     if cc not in ADAPTERS:
