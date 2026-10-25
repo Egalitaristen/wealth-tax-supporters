@@ -471,6 +471,23 @@ a.ov:hover .spark rect.pk { fill: var(--signal); }
 .tip b { font-weight: 600; }
 .tip span { opacity: .7; margin-left: 6px; }
 
+/* ---------- seats ---------- */
+.legis { margin-top: 34px; padding-top: 26px; border-top: 1px solid var(--rule); }
+.legis:first-of-type { border-top: 0; padding-top: 0; }
+.legis-head h3 { font: 400 clamp(26px, 3.4vw, 36px)/1.1 var(--serif); margin: 0 0 6px; }
+.legis-head p { color: var(--ink-2); font-size: 14px; margin: 0; }
+.legis-head p b { color: var(--ink); font-weight: 600; }
+.hemi { display: block; width: 100%; max-width: 760px; margin: 22px auto 10px; }
+.hemi .st { fill-opacity: .3; }
+.hemi .st.on { fill: var(--signal); fill-opacity: 1; stroke: var(--ink); stroke-width: .6; cursor: pointer; }
+.hemi a:hover .st.on { stroke-width: 1.4; }
+.sps { display: grid; grid-template-columns: repeat(auto-fill, minmax(260px, 1fr)); gap: 4px 28px; margin-top: 14px; }
+.sp { padding: 9px 0; border-bottom: 1px solid var(--rule); font-size: 14px; }
+.sp-h { display: flex; align-items: center; gap: 9px; }
+.sp-h i { width: 11px; height: 11px; border-radius: 50%; flex: none; }
+.sp-h span { margin-left: auto; color: var(--ink-2); font: 500 12.5px var(--mono); white-space: nowrap; }
+.sp p { margin: 6px 0 0 20px; color: var(--ink-2); font-size: 13.5px; line-height: 1.5; }
+
 /* ---------- footer ---------- */
 .foot { border-top: 1.5px solid var(--ink); margin-top: 40px; padding: 48px 0 40px; }
 /* The footer sits under an empty <main> until the first page renders, then gets pushed down: hide it until then so it is not counted as layout shift. */

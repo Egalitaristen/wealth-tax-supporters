@@ -499,7 +499,7 @@ function worldMap(box, W) {
 
 // ---------- country ----------
 // A country has four pages: /gb (overview and map), /gb/directory, /gb/time and /gb/method.
-const SECTIONS = {map: 'Map', directory: 'Directory', time: 'Over time', method: 'Method'};
+const SECTIONS = {map: 'Map', seats: 'Seats', directory: 'Directory', time: 'Over time', method: 'Method'};
 function countryStats(D) {
   const perYear = {};
   D.E.forEach(e => { const y = +year(e[E_.date]); if (y) perYear[y] = (perYear[y] || 0) + 1; });
@@ -510,6 +510,7 @@ function countryStats(D) {
 async function countryPage(slug, params, section = 'map') {
   main.innerHTML = '<div class="loading">Loading</div>';
   const D = await loadCountry(slug), m = D.meta, S = countryStats(D);
+  if (section === 'seats' && !(D.legis || []).length) section = 'map';
   if (section === 'map' && !D.C.length) section = 'directory';
   setTitle(section === 'map' ? m.name : `${SECTIONS[section]} · ${m.name}`);
   const base = `/${slug}`;
@@ -535,6 +536,7 @@ async function countryPage(slug, params, section = 'map') {
   </div>
   <nav class="c-tabs" aria-label="${esc(m.name)} pages"><div class="wrap">
     ${D.C.length ? tab('map', base, `${fmt(m.units_with_supporters)} areas with supporters`) : ''}
+    ${(D.legis || []).length ? tab('seats', `${base}/seats`, seatsTabSub(D)) : ''}
     ${tab('directory', `${base}/directory`, `${fmt(m.supporters)} entries`)}
     ${tab('time', `${base}/time`, years.length ? years[0] + '–' + years[years.length - 1] : 'by year')}
     ${tab('method', `${base}/method`, 'sources and downloads')}
@@ -542,9 +544,69 @@ async function countryPage(slug, params, section = 'map') {
   <div class="wrap" id="csec"></div>`;
   const box = $('#csec');
   if (section === 'map') mapSection(box, D, slug, params);
+  else if (section === 'seats') seatsSection(box, D, slug);
   else if (section === 'directory') directorySection(box, D, slug, params);
   else if (section === 'time') timeSection(box, D, slug, S);
   else methodSection(box, D, slug);
+}
+// ---------- seats: each chamber as a hemicycle, one dot per seat, lit where a supporter sits today ----------
+const litIn = body => body.parties.reduce((n, q) => n + q[3].length, 0);
+function seatsTabSub(D) {
+  const lit = D.legis.reduce((n, b) => n + litIn(b), 0), all = D.legis.reduce((n, b) => n + b.seats, 0);
+  return `${fmt(lit)} of ${fmt(all)} seats`;
+}
+// Dot positions for n seats in a half ring: rows of seats whose count grows with the radius, listed from the
+// left end of the arc to the right so that neighbouring party blocks form wedges.
+function hemicycle(n) {
+  const r0 = 0.32;
+  let rows = 1;
+  const cap = R => { const dr = (1 - r0) / R; let c = 0; for (let i = 0; i < R; i++) c += Math.floor(Math.PI * (r0 + (i + .5) * dr) / dr); return c; };
+  while (cap(rows) < n) rows++;
+  const dr = (1 - r0) / rows, rad = i => r0 + (i + .5) * dr, sum = Array.from({length: rows}, (_, i) => rad(i)).reduce((a, b) => a + b, 0);
+  const raw = Array.from({length: rows}, (_, i) => n * rad(i) / sum), per = raw.map(Math.floor);
+  let left = n - per.reduce((a, b) => a + b, 0);
+  raw.map((v, i) => [v - Math.floor(v), i]).sort((a, b) => b[0] - a[0]).forEach(([, i]) => { if (left > 0) { per[i]++; left--; } });
+  const pts = [];
+  per.forEach((k, i) => { for (let j = 0; j < k; j++) { const a = k === 1 ? Math.PI / 2 : Math.PI * (1 - j / (k - 1)); pts.push({a, r: rad(i), x: Math.cos(a) * rad(i), y: -Math.sin(a) * rad(i)}); } });
+  pts.sort((p, q) => q.a - p.a || p.r - q.r);
+  return {pts, dot: dr * 0.43};
+}
+function seatColour(hex) {
+  const h = (hex || '').replace('#', '');
+  if (!/^[0-9a-f]{6}$/i.test(h)) return '#8a8680';
+  const l = (parseInt(h.slice(0, 2), 16) * 0.299 + parseInt(h.slice(2, 4), 16) * 0.587 + parseInt(h.slice(4, 6), 16) * 0.114) / 255;
+  return l > 0.88 ? '#8a8680' : '#' + h;
+}
+function seatsSection(box, D, slug) {
+  const person = new Map(D.P.map(p => [p[P_.id], p]));
+  box.innerHTML = `<section class="c-sec">
+    <div class="sec-head"><div><div class="kicker">Seats</div><h2>Who sits in the chamber</h2></div>
+      <p>One dot per seat, grouped by party. A lit dot is a sitting member whose public support for a wealth tax is on the record here. An unlit seat means nothing found yet, not that the member is against it. Click a lit dot to open the member.</p></div>
+    ${D.legis.map(b => bodyHtml(b, person, slug)).join('')}</section>`;
+}
+function bodyHtml(b, person, slug) {
+  const {pts, dot} = hemicycle(b.seats), W = 220, H = 118, cx = 110, cy = 112, S = 100;
+  const lit = litIn(b);
+  let at = 0;
+  const dots = b.parties.map(([party, n, colour, ids]) => {
+    const own = pts.slice(at, at + n); at += n;
+    const fill = seatColour(colour), who = new Map(ids.map((id, k) => [Math.floor((k + .5) * n / ids.length), id]));  // spread lit seats through the block
+    return own.map((pt, i) => {
+      const x = (cx + pt.x * S).toFixed(1), y = (cy + pt.y * S).toFixed(1), r = (dot * S).toFixed(1), id = who.get(i), p = id && person.get(id);
+      return p ? `<a href="/${slug}/${esc(id)}"><circle class="st on" cx="${x}" cy="${y}" r="${r}"><title>${esc(p[P_.name])} · ${esc(party)}</title></circle></a>`
+               : `<circle class="st" cx="${x}" cy="${y}" r="${r}" fill="${fill}"><title>${esc(party)}: nothing found yet</title></circle>`;
+    }).join('');
+  }).join('');
+  const rows = b.parties.map(([party, n, colour, ids]) => {
+    const names = ids.map(id => person.get(id)).filter(Boolean).sort((a, c) => a[P_.name].localeCompare(c[P_.name]));
+    const pct = n && ids.length ? ` · ${(ids.length / n * 100).toFixed(ids.length / n < .1 ? 1 : 0)}%` : '';
+    return `<div class="sp"><div class="sp-h"><i style="background:${seatColour(colour)}"></i><b>${esc(party)}</b><span>${fmt(ids.length)} of ${fmt(n)}${pct}</span></div>
+      ${names.length ? `<p>${names.map(p => `<a href="/${slug}/${esc(p[P_.id])}">${esc(p[P_.name])}</a>`).join(', ')}</p>` : ''}</div>`;
+  }).join('');
+  return `<div class="legis">
+    <div class="legis-head"><h3>${esc(b.name)}</h3><p><b>${fmt(lit)}</b> of ${fmt(b.seats)} seats held by a supporter found so far · seats as of ${esc(b.as_of)}${b.src ? ` · ${ext(b.src, 'source')}` : ''}</p></div>
+    <svg class="hemi" viewBox="0 0 ${W} ${H}" role="img" aria-label="${esc(b.name)}: ${lit} of ${b.seats} seats held by a supporter found so far">${dots}</svg>
+    <div class="sps">${rows}</div></div>`;
 }
 function overviewHtml(D, S, base) {
   const {perYear, years} = S;
