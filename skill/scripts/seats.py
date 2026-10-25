@@ -121,7 +121,7 @@ def run(d, adapter, dry=False, fix=False):
     for c in chambers:
         row = next((b for b in db["bodies"] if b["name"] == c["name"]), None) or {"body_id": wtdb.next_id(db["bodies"] + bodies, "bodies")}
         total = c["seats"] or len(c["members"])
-        row.update(name=c["name"], level=c.get("level", "national"), kind="chamber", seats=str(total), as_of=today,
+        row.update(name=c["name"], level=c.get("level", "national"), kind="chamber", seats=str(total), as_of=c.get("as_of", today),
                    source_url=c["source_url"], seat_view="y", notes=c.get("note", ""))
         bodies.append(row)
         bid = row["body_id"]
@@ -624,7 +624,89 @@ def malaysia():
 
 
 
-ADAPTERS = {"se": sweden, "de": germany, "nl": netherlands, "no": norway, "fr": france, "br": brazil, "ca": canada, "es": spain, "pl": poland, "be": belgium, "in": india, "jp": japan, "my": malaysia}
+def singapore():
+    """Parliament of Singapore: who sits comes from parliament.gov.sg (every MP, with the constituency or 'Nominated'/'Non-Constituency'
+    label); the party of each comes from Wikipedia's table of the current Parliament, because the Parliament's own list has no party.
+    Seats: 97 elected, up to 12 minus the elected opposition as non-constituency MPs, 9 nominated; Wikipedia states the seat count."""
+    page = get("https://www.parliament.gov.sg/mps/list-of-current-mps", as_json=False).decode("utf-8", errors="replace")
+    sitting = []
+    for blk in re.findall(r'<li><div class="row list-of-mps-wrap">.*?</li>', page, flags=re.S):
+        nm = re.search(r'mp-sort-name"><a href="([^"]+)">(.*?)</a>', blk, flags=re.S)
+        co = re.search(r'mp-sort constituency">(.*?)</div>', blk, flags=re.S)
+        if nm:
+            name = re.sub(r"<[^>]+>|<!-- -->", " ", nm.group(2))
+            name = re.sub(r"^\s*(Mr|Ms|Mrs|Mdm|Dr|Prof|Assoc Prof|A/P|Er|Ar|Dr\.)\s+", "", " ".join(name.split()))
+            sitting.append((name, re.sub(r"<[^>]+>", "", co.group(1)).strip() if co else "", "https://www.parliament.gov.sg" + nm.group(1)))
+    wiki = get("https://en.wikipedia.org/w/index.php?title=15th_Parliament_of_Singapore&action=raw", as_json=False).decode("utf-8")
+    party_of = {}
+    for row in wiki.split("\n|-"):
+        pc = re.search(r"\{\{party color cell\|([^}]+)\}\}", row)
+        mem = re.search(r"\[\[([^\]|]+)\|([^\]]*'''[^\]]*)\]\]", row)
+        if pc and mem:
+            party_of[norm(mem.group(2).replace("'''", ""))] = re.sub(r"\s*\(Singapore\)", "", pc.group(1)).strip()
+    short = {"People's Action Party": "PAP", "Workers' Party": "WP", "Progress Singapore Party": "PSP", "Singapore Democratic Party": "SDP"}
+    mem = []
+    for name, cons, url in sitting:
+        if re.search(r"(?i)nominated", cons):
+            p = "Independent (nominated)"
+        else:
+            ns = set(norm(name).split())
+            hit = [v for k, v in party_of.items() if set(k.split()) <= ns or ns <= set(k.split())] if len(ns) > 1 else []
+            raw = party_of.get(norm(name)) or (hit[0] if len(set(hit)) == 1 else "")
+            p = short.get(raw, raw or "Party not found")
+        mem.append(dict(name=name, party=p, ref=url.rsplit("/", 1)[-1], place=cons, start="", url=url))
+    total = re.search(r"There are (\d+) seats in this parliament", wiki)
+    note = ("Elected members, non-constituency members and nominated members. Who sits is from parliament.gov.sg; each member's party is from Wikipedia's "
+            "table of the 15th Parliament (the Parliament's own list has no party column).")
+    return [dict(name="Parliament of Singapore", seats=int(total.group(1)) if total else 108, source_url="https://www.parliament.gov.sg/mps/list-of-current-mps",
+                 note=note, role="Member of Parliament", role_re=r"(?i)member of parliament", role_start=r"(?i)member of parliament", members=mem,
+                 party_order=["WP", "PSP", "SDP", "Independent (nominated)", "Party not found", "PAP"],
+                 colours={"PAP": "1d4ea1", "WP": "d91e2a", "PSP": "ffb300", "SDP": "1f9d55", "Independent (nominated)": "8a8680"})]
+
+
+def fixed_chamber(name, seats, source_url, as_of, note, counts, order, colours, role, role_re):
+    """A chamber whose seat split is a published figure read by hand, not a member list: no member is named, so no seat is lit unless
+    a supporter is added to positions.csv by hand."""
+    filler = [dict(name=f"(another member, {p} #{i})", party=p, ref="", start="") for p, n in counts.items() for i in range(n)]
+    return dict(name=name, seats=seats, source_url=source_url, as_of=as_of, note=note, role=role, role_re=role_re, role_start=role_re,
+                members=filler, party_order=order, colours=colours)
+
+
+def indonesia():
+    """The DPR (580 seats): the faction totals the DPR publishes on dpr.go.id/tentang-dpr/informasi-anggota-dewan (tab Fraksi), read
+    in a browser because the site refuses scripts. No member is named."""
+    counts = {"PDI-P": 110, "Golkar": 102, "Gerindra": 86, "PKB": 68, "NasDem": 67, "PKS": 53, "PAN": 47, "Demokrat": 44}
+    return [fixed_chamber("People's Representative Council (DPR)", 580, "https://www.dpr.go.id/tentang-dpr/informasi-anggota-dewan", "2026-10-25",
+                          "580 seats; the faction totals the DPR publishes for 2024-2029 (577 seats filled). Read in a browser on 2026-10-25; no member is named here.",
+                          counts, ["PDI-P", "PKB", "Demokrat", "NasDem", "Golkar", "PAN", "PKS", "Gerindra"],
+                          {"PDI-P": "d1232a", "Golkar": "f2c500", "Gerindra": "8b1a1a", "PKB": "1b9c4a", "NasDem": "1f5fa8", "PKS": "f58220", "PAN": "2b7bd0", "Demokrat": "1d3f8a"},
+                          "Member of the People's Representative Council (DPR)", r"(?i)\bDPR\b|people's representative council|house of representatives of indonesia")]
+
+
+def nigeria():
+    """The House of Representatives (360 seats): the last full tally found (30 Oct 2025, reported by AllAfrica); more than 60 members have since
+    changed party and no newer tally was found, so this is flagged as approximate in the note."""
+    counts = {"APC": 243, "PDP": 74, "LP": 21, "NNPP": 15, "APGA": 5, "SDP": 2, "ADC": 1, "YPP": 1}
+    return [fixed_chamber("House of Representatives", 360, "https://allafrica.com/stories/202510300371.html", "2025-10-30",
+                          "360 seats. The last complete party tally found is from 30 October 2025. About 120 members have changed party since July 2024 and at least 60 since that tally, "
+                          "so the blocks are out of date; no newer tally has been published. No member is named here.",
+                          counts, ["SDP", "LP", "APGA", "NNPP", "PDP", "ADC", "YPP", "APC"],
+                          {"APC": "1d7a3a", "PDP": "d62828", "LP": "2a9d8f", "NNPP": "f4a261", "APGA": "3a86ff", "SDP": "6a4c93", "ADC": "8a8680", "YPP": "e9c46a"},
+                          "Member of the House of Representatives", r"(?i)house of representatives of nigeria|nigerian house of representatives")]
+
+
+def china():
+    """The National People's Congress (2,977 deputies of the 14th NPC, confirmed 24 Feb 2023). No party split of the deputies is published in the
+    official reports found, so the chamber is one block."""
+    return [fixed_chamber("National People's Congress", 2977, "https://subsites.chinadaily.com.cn/npc/2023-02/25/c_861912.htm", "2023-02-24",
+                          "2,977 deputies of the 14th NPC, whose qualifications the Standing Committee confirmed on 24 February 2023. No count by party has been published in the reports found, "
+                          "so the chamber is shown as one block. No member is named here.",
+                          {"Deputies (party split not published)": 2977}, [], {"Deputies (party split not published)": "8a8680"},
+                          "Deputy to the National People's Congress", r"(?i)national people's congress|\bNPC\b")]
+
+
+
+ADAPTERS = {"se": sweden, "de": germany, "nl": netherlands, "no": norway, "fr": france, "br": brazil, "ca": canada, "es": spain, "pl": poland, "be": belgium, "in": india, "jp": japan, "my": malaysia, "sg": singapore, "id": indonesia, "ng": nigeria, "cn": china}
 
 
 def main():

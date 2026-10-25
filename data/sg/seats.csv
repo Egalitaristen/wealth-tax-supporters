@@ -1,0 +1,5 @@
+seat_id,body_id,party,seats,colour,order
+S0001,B0001,WP,12,d91e2a,1
+S0002,B0001,Independent (nominated),9,8a8680,2
+S0003,B0001,PAP,86,1d4ea1,3
+S0004,B0001,Vacant,1,,4
