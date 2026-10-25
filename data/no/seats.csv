@@ -1,0 +1,10 @@
+seat_id,body_id,party,seats,colour,order
+S0001,B0001,Arbeiderpartiet,53,,1
+S0002,B0001,Fremskrittspartiet,47,,2
+S0003,B0001,Høyre,24,,3
+S0004,B0001,Sosialistisk Venstreparti,9,,4
+S0005,B0001,Senterpartiet,9,,5
+S0006,B0001,Rødt,9,,6
+S0007,B0001,Miljøpartiet De Grønne,8,,7
+S0008,B0001,Kristelig Folkeparti,7,,8
+S0009,B0001,Venstre,3,,9

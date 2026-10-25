@@ -1,0 +1,10 @@
+seat_id,body_id,party,seats,colour,order
+S0001,B0001,Left Party,30,af0000,1
+S0002,B0001,Green Party,22,83cf39,2
+S0003,B0001,Social Democrats,98,e8112d,3
+S0004,B0001,Centre Party,24,009933,4
+S0005,B0001,Liberals,19,006ab3,5
+S0006,B0001,Moderate Party,70,52bdec,6
+S0007,B0001,Christian Democrats,22,005ea1,7
+S0008,B0001,Sweden Democrats,61,dddd00,8
+S0009,B0001,Vacant,3,,9

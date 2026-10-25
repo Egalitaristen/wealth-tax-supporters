@@ -1,0 +1,16 @@
+position_id,actor_id,body_id,role,party,geo_unit_id,start,end,current,member_ref,checked,source_url
+O00001,A0007,B0001,Member of the Storting,Sosialistisk Venstreparti,G0009,,,y,KIB,2026-10-25,https://www.stortinget.no/no/Representanter-og-komiteer/Representantene/
+O00002,A0008,B0001,Member of the Storting,Rødt,G0009,,,y,MARMAR,2026-10-25,https://www.stortinget.no/no/Representanter-og-komiteer/Representantene/
+O00003,A0014,B0001,Member of the Storting,Senterpartiet,G0011,,,y,TMV,2026-10-25,https://www.stortinget.no/no/Representanter-og-komiteer/Representantene/
+O00004,A0015,B0001,Member of the Storting,Arbeiderpartiet,G0019,,,y,JGS,2026-10-25,https://www.stortinget.no/no/Representanter-og-komiteer/Representantene/
+O00005,A0016,B0001,Member of the Storting,Sosialistisk Venstreparti,G0019,,,n,KEKA,2026-10-25,https://www.stortinget.no/no/Representanter-og-komiteer/Representantene/
+O00006,A0017,B0001,Member of the Storting,Rødt,G0005,,,y,MMIKRI,2026-10-25,https://www.stortinget.no/no/Representanter-og-komiteer/Representantene/
+O00007,A0018,B0001,Member of the Storting,Miljøpartiet De Grønne,G0009,,,n,LANBER,2026-10-25,https://www.stortinget.no/no/Representanter-og-komiteer/Representantene/
+O00008,A0025,B0001,Member of the Storting,Arbeiderpartiet,G0009,,,y,TUMO,2026-10-25,https://www.stortinget.no/no/Representanter-og-komiteer/Representantene/
+O00009,A0026,B0001,Member of the Storting,Senterpartiet,G0005,,,y,GP,2026-10-25,https://www.stortinget.no/no/Representanter-og-komiteer/Representantene/
+O00010,A0138,B0001,Member of the Storting,Miljøpartiet De Grønne,G0256,,,y,FRYSJU,2026-10-25,https://www.stortinget.no/no/Representanter-og-komiteer/Representantene/
+O00011,A0166,B0001,Member of the Storting,Sosialistisk Venstreparti,G0019,,,y,SUNEID,2026-10-25,https://www.stortinget.no/no/Representanter-og-komiteer/Representantene/
+O00012,A0222,B0001,Member of the Storting,Sosialistisk Venstreparti,G0256,,,y,MARHAM,2026-10-25,https://www.stortinget.no/no/Representanter-og-komiteer/Representantene/
+O00013,A0229,B0001,Member of the Storting,Arbeiderpartiet,G0019,,,y,FROJAC,2026-10-25,https://www.stortinget.no/no/Representanter-og-komiteer/Representantene/
+O00014,A0239,B0001,Member of the Storting,Arbeiderpartiet,G0019,,,n,MAM,2026-10-25,https://www.stortinget.no/no/Representanter-og-komiteer/Representantene/
+O00015,A0242,B0001,Member of the Storting,Miljøpartiet De Grønne,G0019,,,n,RAJH,2026-10-25,https://www.stortinget.no/no/Representanter-og-komiteer/Representantene/

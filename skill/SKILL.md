@@ -236,6 +236,7 @@ python skill/scripts/profiles_wikidata.py data/gb  # websites, socials and Wikip
 python skill/scripts/topo_to_boundaries.py counties-albers-10m.json --object counties --code-prop id --scale 4 --simplify 0.8 --out data/us/boundaries.json
 python skill/scripts/seats_uk.py data/gb          # UK only: Commons and Lords seats and sitting members from the Parliament API
 python skill/scripts/seats_us.py data/us          # US only: Senate and House seats and sitting members (congress-legislators, CC0)
+python skill/scripts/seats.py data/se             # se, de, nl, no: the chamber's seats and sitting members from the parliament's open data; --fix-status marks those who left as former
 python skill/scripts/wtdb.py status data/gb       # counts, coverage grid, sweep progress, suggested next targets
 python skill/scripts/wtdb.py export data/gb       # writes data/gb/<slug>_wealth_tax_supporters.xlsx
 ```
@@ -330,7 +331,7 @@ Every politician gets a row in **positions.csv** for each office they hold or he
 - When you add a politician, add the position: the body, the party, the seat (`geo_unit_id`) and the `start` date from the source you found them in. Add a body row first if it is not there yet.
 - `current=y` needs `checked`: the date the person was found on the body's own official list. Only those light a seat. `current=n` carries the `end` date; `current` blank means not checked against an official list (stays dark).
 - A person who leaves a chamber loses the seat, never the evidence: set `current=n` and `end`, update `role` and `status=former_role` on the actor. Refreshing is how outdated tags go away.
-- Seats tab only for chambers with an official, machine-readable member list: take the seat counts and the sitting members from it (UK: `skill/scripts/seats_uk.py data/gb`, which reads the Parliament Members API; US: `skill/scripts/seats_us.py data/us`, which reads the congress-legislators files; each rebuilds the chambers' seats and positions and prints every supporter whose role or status disagrees with the list). Do not type seat counts from memory. Run it again after each election, by-election and run that adds politicians.
+- Seats tab only for chambers with an official, machine-readable member list: take the seat counts and the sitting members from it (UK: `skill/scripts/seats_uk.py data/gb`, which reads the Parliament Members API; US: `skill/scripts/seats_us.py data/us`, which reads the congress-legislators files; each rebuilds the chambers' seats and positions and prints every supporter whose role or status disagrees with the list; `skill/scripts/seats.py` does the same for any country that has an adapter in its `ADAPTERS` table (Sweden, Germany, the Netherlands, Norway so far). To add a country, write one adapter function that reads the parliament's open member list and returns its chamber(s), the sitting members and, where the source has them, former members with end dates. Read what the script prints before committing: a name-only match and a "not on today's list" can be a spelling difference as well as a real departure). Do not type seat counts from memory. Run it again after each election, by-election and run that adds politicians.
 - Unlit seats mean nothing found yet, never opposition. Never add rows for members who are not supporters.
 
 ### 6.8 Later runs
