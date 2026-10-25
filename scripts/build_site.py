@@ -150,6 +150,75 @@ def unit_path(uid, by_id):
 
 
 # ---------- per-country data ----------
+def build_supranational(folder, full):
+    """A body above the countries (the European Parliament): its chamber, groups and the supporters who sit in it. The people are
+    recorded in their own country's register; positions.csv refers to them as <country folder>-<actor id>, and they are copied here
+    (ids prefixed the same way) so the body has its own Seats and profile pages."""
+    meta = json.load(open(folder / "meta.json", encoding="utf-8"))
+    slug = folder.name
+    seats_by = collections.defaultdict(list)
+    for x in rd(folder / "seats.csv"):
+        seats_by[x["body_id"]].append(x)
+    P, E, seen, sitting = [], [], set(), collections.defaultdict(lambda: collections.defaultdict(list))
+    for o in rd(folder / "positions.csv"):
+        if o["current"] != "y":
+            continue
+        cslug, aid = o["actor_id"].rsplit("-", 1)
+        D = full.get(cslug)
+        row = next((p for p in D["P"] if p[0] == aid), None) if D else None
+        if not row:
+            continue
+        nid = o["actor_id"]
+        if nid not in seen:
+            seen.add(nid)
+            P.append([nid] + row[1:7] + [""] + row[8:])
+            E += [[nid] + e[1:] for e in D["E"] if e[0] == aid]
+        sitting[o["body_id"]][o["party"]].append(nid)
+    legis = []
+    for b in rd(folder / "bodies.csv"):
+        if b.get("seat_view") != "y" or b["body_id"] not in seats_by:
+            continue
+        parties = [[x["party"], int(x["seats"]), x["colour"], sitting[b["body_id"]].get(x["party"], [])]
+                   for x in sorted(seats_by[b["body_id"]], key=lambda x: int(x["order"] or 0))]
+        legis.append(dict(id=b["body_id"], name=b["name"], seats=int(b["seats"]), as_of=b["as_of"], src=b["source_url"], note=b.get("notes", ""), parties=parties))
+    grades = collections.Counter(p[8] for p in P)
+    summary = dict(slug=slug, iso2=meta.get("iso2", slug.upper()), name=meta["name"], status=meta.get("status", ""), lead=meta.get("lead", ""),
+                   notes=meta.get("notes", ""), supporters=len(P), evidence=len(E), A=grades["A"], B=grades["B"], C=grades["C"],
+                   units=0, units_done=0, units_with_supporters=0, updated=max([e[1] for e in E] or [""]), excluded=0, polls=[], supranational=True,
+                   chambers=[[b["name"], b["seats"], sum(len(q[3]) for q in b["parties"])] for b in legis],
+                   types=dict(collections.Counter(p[3] for p in P).most_common()), designs=dict(collections.Counter(d for p in P for d in p[12]).most_common()),
+                   featured=[], map_source="", map_licence=["", ""])
+    country = dict(meta=summary, P=P, E=E, C=[], UP=[], vb=[0, 0, 1, 1], O=[], L=[], R=[], R2=[], legis=legis)
+    return summary, country
+
+
+RESOURCE_KINDS = ("poll", "paper", "report", "bill")
+
+
+def load_resources(countries):
+    """Polls (from each country's meta.json) and the papers, reports and bills in data/resources.json, as one list for the Resources page."""
+    names = {c["slug"]: c["name"] for c in countries}
+    out = []
+    for c in countries:
+        for p in c.get("polls", []):
+            out.append(dict(kind="poll", country=c["slug"], title=p["question"], by=" for ".join(x for x in (p.get("pollster"), p.get("commissioned_by")) if x),
+                            published=str(p.get("published", "")), url=p["url"], fig=p.get("support_text") or (f"{p['support']}%" if p.get("support") is not None else ""),
+                            summary=" · ".join(str(x) for x in (p.get("scope"), p.get("sample")) if x)))
+    path = DATA / "resources.json"
+    for r in json.load(open(path, encoding="utf-8")) if path.exists() else []:
+        if r.get("kind") not in RESOURCE_KINDS or r["kind"] == "poll":
+            raise SystemExit(f"resources.json: bad kind {r.get('kind')!r} in {r.get('title')!r}")
+        if not str(r.get("url", "")).startswith("https://") or not r.get("title") or not r.get("by") or not r.get("published"):
+            raise SystemExit(f"resources.json: needs title, by, published and an https url: {r.get('title')!r}")
+        if r.get("country") != "global" and r.get("country") not in names:
+            raise SystemExit(f"resources.json: unknown country {r.get('country')!r} in {r.get('title')!r}")
+        out.append({k: r[k] for k in ("kind", "country", "title", "by", "published", "url", "summary", "status", "level") if r.get(k)})
+    for r in out:
+        r["cname"] = names.get(r["country"], "Global")
+    out.sort(key=lambda r: (r["published"], r["title"]), reverse=True)
+    return out
+
+
 def build_country(folder):
     meta = json.load(open(folder / "meta.json", encoding="utf-8"))
     slug = folder.name
@@ -270,6 +339,9 @@ def build_country(folder):
         parties = [[s["party"], int(s["seats"]), s["colour"], sitting[b["body_id"]].get(s["party"], [])]
                    for s in sorted(seats_by[b["body_id"]], key=lambda s: int(s["order"] or 0))]
         legis.append(dict(id=b["body_id"], name=b["name"], seats=int(b["seats"]), as_of=b["as_of"], src=b["source_url"], note=b.get("notes", ""), parties=parties))
+    # the one or two national chambers, for the countries list
+    summary["chambers"] = [[b["name"], int(b["seats"]), sum(len(v) for v in sitting[b["body_id"]].values())] for b in rd(folder / "bodies.csv")
+                           if b["level"] == "national" and b.get("seat_view") == "y" and b["body_id"] in seats_by][:2]
     country = dict(meta=summary, P=P, E=E, C=C, UP=UP, vb=vb, O=O, L=L, R=R, R2=R2, legis=legis)
 
     # Search index rows: [slug, id, name, type, role, place, grade, statements]
@@ -381,9 +453,18 @@ def share_pages(out, base, countries, full):
     write("/", "Wealth Tax Supporters: who backs a wealth tax near you?",
           f"{tot['supporters']:,} public figures and organisations across {tot['countries']} countries who have backed a wealth tax on the record. Every name links to its source.",
           "home", "Who backs a wealth tax near you?", lambda o: cards.home_card(o, tot))
-    write("/about", "How the register is built · Wealth Tax Supporters",
+    write("/method", "How the register is built · Wealth Tax Supporters",
           "What counts as support for a wealth tax, how statements are sourced and graded, and how to report a mistake.",
-          "about", "How the register is built", lambda o: cards.page_card(o, "Method", "How the register is built", "Sourced, graded and open: every name links to where they said it."))
+          "method", "How the register is built", lambda o: cards.page_card(o, "Method", "How the register is built", "Sourced, graded and open: every name links to where they said it."))
+    write("/countries", "Countries · Wealth Tax Supporters",
+          f"The {tot['countries']} countries researched so far, with supporters found and seats in the national chambers.",
+          "countries", "Country by country", lambda o: cards.page_card(o, "Countries", "Country by country", f"{tot['countries']} countries so far, each researched separately."))
+    write("/resources", "Resources: polls, papers, reports and bills · Wealth Tax Supporters",
+          "Polls, research papers, reports and bills on a wealth tax, from every country in the register and beyond, filterable by place and type.",
+          "resources", "Resources on a wealth tax", lambda o: cards.page_card(o, "Resources", "Polls, papers, reports and bills", "What the evidence and the legislation say about a wealth tax."))
+    write("/about", "About · Wealth Tax Supporters",
+          "An open, sourced register of the public figures and organisations that back a wealth tax on the record: why it exists, how it is made and how to take part.",
+          "about", "About Wealth Tax Supporters", lambda o: cards.page_card(o, "About", "A register of who says so", "Open, sourced and made in public."))
     write("/contribute", "Put your country on the map · Wealth Tax Supporters",
           "Start a register for your country, suggest a supporter, or help check the entries that are already here.",
           "contribute", "Put your country on the map", lambda o: cards.page_card(o, "Contribute", "Put your country on the map", "Start a register for your country, or suggest a supporter."))
@@ -469,8 +550,12 @@ def main():
             h = hashlib.md5(f.read_bytes()).hexdigest()[:8]
             html = html.replace(f'"/{f.name}"', f'"/{f.name}?v={h}"')
     countries, index, places, full = [], [], [], {}
+    supras = []
     for folder in sorted(DATA.iterdir()):
         if folder.is_dir() and (folder / "meta.json").exists():
+            if json.load(open(folder / "meta.json", encoding="utf-8")).get("supranational"):
+                supras.append(folder)  # built after the countries: its people live in their registers
+                continue
             summary, country, idx, pl = build_country(folder)
             summary["numeric"] = numeric_for(summary["iso2"].split("-")[0])
             countries.append(summary)
@@ -485,6 +570,14 @@ def main():
                 if (folder / name).exists():
                     shutil.copy(folder / name, dl / name)
             print(f"  {folder.name}: {summary['supporters']} supporters, {summary['evidence']} evidence rows")
+    bodies = []
+    for folder in supras:
+        summary, country = build_supranational(folder, full)
+        json.dump(country, open(out / "data" / f"{folder.name}.json", "w", encoding="utf-8"), separators=(",", ":"), ensure_ascii=False)
+        bodies.append(summary)
+        full[folder.name] = country
+        print(f"  {folder.name}: {summary['supporters']} sitting supporters")
+    planned = json.load(open(DATA / "supranational.json", encoding="utf-8")) if (DATA / "supranational.json").exists() else []
     paths = world_paths()
     # Every country's everyday name, for the suggestion form: people may suggest supporters anywhere, not only
     # where a register has started.
@@ -494,7 +587,8 @@ def main():
     for c in (pycountry.countries if pycountry else []):
         if c.alpha_2 not in own and c.numeric not in paths:
             every.add(getattr(c, "common_name", None) or c.name)
-    world = dict(paths=paths, countries=countries, all_countries=sorted(every), built=datetime.date.today().isoformat())
+    world_resources = load_resources(countries)
+    world = dict(paths=paths, countries=countries, bodies=bodies, planned=planned, resources=world_resources, all_countries=sorted(every), built=datetime.date.today().isoformat())
     json.dump(world, open(out / "data" / "world.json", "w", encoding="utf-8"), separators=(",", ":"), ensure_ascii=False)
     json.dump(dict(people=index, places=places), open(out / "data" / "index.json", "w", encoding="utf-8"),
               separators=(",", ":"), ensure_ascii=False)

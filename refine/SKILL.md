@@ -89,6 +89,7 @@ Update `role`, `party` and `status` (`former_role` when they no longer hold the 
 - **Guessed links.** An account with the right name but no link from the person's own pages may belong to someone else. Leave it out.
 - **Home towns that reveal homes.** Town level at most, and only from a public source about their public life.
 - **Stale seats.** A role that still says "MP for X (at signing, 2021)" for someone who has since left, or `current=y` on an office nobody checked. Re-check offices on every pass.
+- **A supporter who has died** leaves the register: add an `exclusions.csv` row (reason `deceased`, with the source of the news) and keep their original actor, profile and evidence rows in `docs/refinement/history/<iso2>-<ID>.json`, so nothing is lost. Never leave a deceased person marked active.
 - **Rewriting history.** Never edit or delete an existing evidence row because a newer one exists; add the new one. Remove a row only when its quote is not on its page.
 - **Notes that narrate the work.** ("Checked X, nothing found.") That goes in the run log; `notes` are shown to readers.
 - **New supporters.** Someone you meet who is not in the register is a lead for a research run: list them in the run log or `harvest.csv` instead of adding them here.

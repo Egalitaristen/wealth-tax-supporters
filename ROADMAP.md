@@ -8,6 +8,8 @@ The **Seats tab** (a hemicycle per chamber, a dot per seat, lit where a supporte
 
 An unlit seat means nothing found yet, never opposition.
 
+The **Parliaments page** (`/parliaments`) maps every chart, including the **European Parliament** (`/eu/seats`, 720 seats, 14 supporters lit). The **Resources page** (`/resources`) lists polls, papers, reports and bills about a wealth tax, filterable by kind, place and year; `data/resources.json` holds the papers, reports and bills.
+
 ## Scheduled: waits for a date
 
 These need the autumn 2026 elections to happen and the new parliaments to sit. Milestone: [Autumn 2026 elections](https://github.com/Egalitaristen/wealth-tax-supporters/milestone/1).
@@ -24,10 +26,24 @@ These need the autumn 2026 elections to happen and the new parliaments to sit. M
 
 Supporters in devolved parliaments, state legislatures and councils already have structured positions, but nothing is lit until an official member list is read for each body. Milestone: [Regional and local bodies](https://github.com/Egalitaristen/wealth-tax-supporters/milestone/2).
 
-- [#65](https://github.com/Egalitaristen/wealth-tax-supporters/issues/65) The UK's devolved parliaments: Scottish Parliament, Senedd, London Assembly
+- [#65](https://github.com/Egalitaristen/wealth-tax-supporters/issues/65) The Senedd and the London Assembly (the Scottish Parliament is done)
 - [#66](https://github.com/Egalitaristen/wealth-tax-supporters/issues/66) US state legislatures
 - [#67](https://github.com/Egalitaristen/wealth-tax-supporters/issues/67) Councils and city governments
-- [#73](https://github.com/Egalitaristen/wealth-tax-supporters/issues/73) The European Parliament
+
+## Resources and parliaments
+
+What the two newest pages still need. Milestone: [Resources and parliaments](https://github.com/Egalitaristen/wealth-tax-supporters/milestone/4).
+
+- [#95](https://github.com/Egalitaristen/wealth-tax-supporters/issues/95) Bills and laws for every country
+- [#96](https://github.com/Egalitaristen/wealth-tax-supporters/issues/96) Research papers and reports
+- [#97](https://github.com/Egalitaristen/wealth-tax-supporters/issues/97) Polls in the other eleven countries
+- [#98](https://github.com/Egalitaristen/wealth-tax-supporters/issues/98) Check every resource's link, date and status
+- [#99](https://github.com/Egalitaristen/wealth-tax-supporters/issues/99) Link resources to people and places
+- [#100](https://github.com/Egalitaristen/wealth-tax-supporters/issues/100) Find more MEP supporters
+- [#101](https://github.com/Egalitaristen/wealth-tax-supporters/issues/101) The Pan-African Parliament
+- [#102](https://github.com/Egalitaristen/wealth-tax-supporters/issues/102) The UN General Assembly: how should it work?
+- [#103](https://github.com/Egalitaristen/wealth-tax-supporters/issues/103) More supranational bodies
+- [#104](https://github.com/Egalitaristen/wealth-tax-supporters/issues/104) Share cards for the new pages
 
 ## Data quality
 

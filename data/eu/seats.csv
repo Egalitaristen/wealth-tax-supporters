@@ -1,0 +1,10 @@
+seat_id,body_id,party,seats,colour,order
+S0001,B0001,The Left,45,8b1a1a,1
+S0002,B0001,S&D,135,e4003b,2
+S0003,B0001,Greens/EFA,53,3fa535,3
+S0004,B0001,Renew Europe,78,ffcc00,4
+S0005,B0001,EPP,185,3399ff,5
+S0006,B0001,ECR,84,1a6fa8,6
+S0007,B0001,Patriots for Europe,85,4b2e83,7
+S0008,B0001,Europe of Sovereign Nations,27,7a5a2e,8
+S0009,B0001,Non-attached,28,8a8680,9

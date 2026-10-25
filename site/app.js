@@ -116,14 +116,20 @@ function scrollToHash() {
 }
 async function render(fresh) {
   leaving(); leaving = () => {};
+  if (location.pathname === '/polls') history.replaceState(null, '', '/resources?kind=poll');  // polls moved into Resources
+  if (location.pathname === '/' && location.hash === '#countries') history.replaceState(null, '', '/countries');  // old links to the section
   const parts = location.pathname.split('/').filter(Boolean).map(decodeURIComponent);
   const params = new URLSearchParams(location.search);
   $$('.nav a, .fb-link').forEach(a => a.removeAttribute('aria-current'));
   try {
     const W = await WORLD();
     $('#built').textContent = `Data built ${W.built} · ${W.countries.length} countries · ${fmt(W.countries.reduce((n, c) => n + c.supporters, 0))} supporters`;
-    const country = W.countries.find(c => c.slug === (parts[0] || '').toLowerCase());
+    const country = W.countries.find(c => c.slug === (parts[0] || '').toLowerCase()) || (W.bodies || []).find(c => c.slug === (parts[0] || '').toLowerCase());
     if (!parts.length) await home(W);
+    else if (parts[0] === 'countries' && parts.length === 1) await countriesPage(W);
+    else if (parts[0] === 'resources' && parts.length === 1) await resourcesPage(W);
+    else if (parts[0] === 'parliaments' && parts.length === 1) await parliamentsPage(W);
+    else if (parts[0] === 'method' && parts.length === 1) methodPage(W);
     else if (parts[0] === 'about' && parts.length === 1) aboutPage(W);
     else if (parts[0] === 'contribute' && parts.length === 1) contributePage(W);
     else if (parts[0] === 'suggest' && parts.length === 1) suggestPage(W, params);
@@ -132,7 +138,7 @@ async function render(fresh) {
     else if (country && parts.length === 2 && SECTIONS[parts[1]]) await countryPage(country.slug, params, parts[1]);
     else if (country && parts.length === 2) await personPage(country.slug, parts[1]);
     else notFound();
-    const navKey = {about: '/about', contribute: '/contribute', suggest: '/suggest', feedback: '/feedback'}[parts[0]] || null;
+    const navKey = {countries: '/countries', parliaments: '/parliaments', resources: '/resources', method: '/method', about: '/about', contribute: '/contribute', suggest: '/suggest', feedback: '/feedback'}[parts[0]] || null;
     if (navKey) $$('.nav a, .fb-link').forEach(a => { if (a.getAttribute('href') === navKey) a.setAttribute('aria-current', 'page'); });
   } catch (err) {
     console.error(err);
@@ -164,16 +170,16 @@ async function searchData() {
     cname, ciso};
   return SEARCH;
 }
-function runSearch(S, q) {
-  const toks = norm(q).trim().split(/\s+/).filter(Boolean);
-  if (!toks.length) return null;
+function runSearch(S, q, f = {}) {
+  const toks = norm(q).trim().split(/\s+/).filter(Boolean), active = !!(f.country || f.type || f.grade);
+  if (!toks.length && !active) return null;
   const hit = k => toks.every(t => k.includes(t));
-  const countries = S.countries.filter(c => hit(c.key));
-  const places = S.places.filter(p => hit(norm(p.name)) || (toks.length > 1 && hit(p.key)))
+  const countries = active ? [] : S.countries.filter(c => hit(c.key));
+  const places = S.places.filter(p => (!f.type && !f.grade) && (!f.country || p.slug === f.country) && toks.length && (hit(norm(p.name)) || (toks.length > 1 && hit(p.key))))
     .sort((a, b) => (norm(b.name).startsWith(toks[0]) - norm(a.name).startsWith(toks[0])) || b.n - a.n).slice(0, 6);
-  const people = S.people.filter(p => hit(p.key)).map(p => {
+  const people = S.people.filter(p => hit(p.key) && (!f.country || p.slug === f.country) && (!f.type || p.type === f.type) && (!f.grade || p.grade === f.grade)).map(p => {
     let s = 0;
-    if (p.nkey.startsWith(toks[0])) s += 4; else if (p.nkey.split(/\s+/).some(w => w.startsWith(toks[0]))) s += 3; else if (hit(p.nkey)) s += 2;
+    if (toks.length) { if (p.nkey.startsWith(toks[0])) s += 4; else if (p.nkey.split(/\s+/).some(w => w.startsWith(toks[0]))) s += 3; else if (hit(p.nkey)) s += 2; }
     s += {A: .6, B: .3, C: 0}[p.grade] || 0;
     return [s + Math.min(p.n, 10) / 40, p];
   }).sort((a, b) => b[0] - a[0]).map(x => x[1]);
@@ -199,15 +205,36 @@ function resultsHtml(S, res, q) {
     `<a class="ritem" href="/${p.slug}?place=${enc(p.path)}"><span class="rm"><span class="rn">${mark(p.name, q)}</span><span class="rs">${esc(p.path)}</span></span><span class="rc">${fmt(p.n)}</span></a>`).join(''));
   if (res.people.length) groups.push(`<div class="rgroup">People and organisations${res.total > res.people.length ? ` · top ${res.people.length} of ${fmt(res.total)}` : ''}</div>` + res.people.map(p =>
     `<a class="ritem" href="/${p.slug}/${enc(p.id)}">${glyph(p.grade)}<span class="rm"><span class="rn">${mark(p.name, q)}</span><span class="rs">${esc([TYPE[p.type], p.role, p.place].filter(Boolean).join(' · '))}</span></span><span class="rc" title="${esc(S.cname[p.slug])}">${esc(S.ciso[p.slug])}</span></a>`).join(''));
-  return groups.join('') || `<div class="rempty">No match for “${esc(q)}”. Try a surname, a town, or a type such as “economists”.</div>`;
+  return groups.join('') || `<div class="rempty">${q.trim() ? `No match for “${esc(q)}”.` : 'No one matches these filters.'} Try a surname, a town, or a type such as “economists”, or loosen the filters.</div>`;
 }
-function attachSearch(input, box, {onOpen = () => {}, onClose = () => {}} = {}) {
+// A "Filters" button that opens a small panel (country, who, strength). Collapsed until asked for; the count shows what is on.
+function filterBar(root, onChange) {
+  root.classList.add('fbar');
+  root.innerHTML = '<button type="button" class="fbtn" aria-expanded="false"><svg viewBox="0 0 20 20" aria-hidden="true"><path d="M3 5h14M6 10h8M9 15h2"/></svg>Filters<b class="fcount" hidden></b></button>';
+  const btn = $('.fbtn', root), panel = document.createElement('div');
+  panel.className = 'fpanel'; panel.hidden = true; root.append(panel);
+  searchData().then(S => {
+    const countries = S.countries.slice().sort((a, b) => a.name.localeCompare(b.name));
+    const types = [...new Set(S.people.map(p => p.type))].sort((a, b) => (TYPES_PL[a] || a).localeCompare(TYPES_PL[b] || b));
+    panel.innerHTML = `<label>Country<select data-f="country"><option value="">All countries</option>${countries.map(c => `<option value="${esc(c.slug)}">${esc(c.name)}</option>`).join('')}</select></label>
+      <label>Who<select data-f="type"><option value="">Everyone</option>${types.map(t => `<option value="${esc(t)}">${esc(TYPES_PL[t] || TYPE[t] || t)}</option>`).join('')}</select></label>
+      <label>Strength of evidence<select data-f="grade"><option value="">Any</option>${['A', 'B', 'C'].map(g => `<option value="${g}">${esc(GRADE[g])}</option>`).join('')}</select></label>
+      <button type="button" class="flink" data-clear>Clear</button>`;
+  });
+  const get = () => Object.fromEntries($$('select[data-f]', panel).map(s => [s.dataset.f, s.value]));
+  const sync = () => { const n = Object.values(get()).filter(Boolean).length, c = $('.fcount', root); c.hidden = !n; c.textContent = n; root.classList.toggle('on', n > 0); };
+  btn.addEventListener('click', e => { e.preventDefault(); panel.hidden = !panel.hidden; btn.setAttribute('aria-expanded', String(!panel.hidden)); });
+  panel.addEventListener('change', () => { sync(); onChange(); });
+  panel.addEventListener('click', e => { if (e.target.closest('[data-clear]')) { $$('select', panel).forEach(s => { s.value = ''; }); sync(); onChange(); } });
+  return get;
+}
+function attachSearch(input, box, {onOpen = () => {}, onClose = () => {}, filters = () => ({})} = {}) {
   let act = -1;
   const items = () => $$('.ritem', box);
   const setAct = i => { const it = items(); act = Math.max(-1, Math.min(it.length - 1, i)); it.forEach((el, j) => el.classList.toggle('act', j === act)); if (it[act]) it[act].scrollIntoView({block: 'nearest'}); };
   const update = async () => {
     const S = await searchData(), q = input.value;
-    const res = runSearch(S, q);
+    const res = runSearch(S, q, filters());
     box.innerHTML = resultsHtml(S, res, q);
     box.hidden = !res; act = -1;
     if (res) { setAct(0); onOpen(); } else onClose();
@@ -225,11 +252,13 @@ function attachSearch(input, box, {onOpen = () => {}, onClose = () => {}} = {}) 
 const pal = $('#palette'), palQ = $('#pal-q'), palRes = $('#pal-res');
 function openPalette(q = '') {
   pal.hidden = false; palQ.value = q; palQ.focus();
-  if (q) palUpdate(); else palRes.innerHTML = `<div class="rempty">Search ${'people, organisations, places and countries'}. Use ↑ ↓ and Enter.</div>`;
+  if (q || Object.values(palFilters()).some(Boolean)) palUpdate(); else palRes.innerHTML = `<div class="rempty">Search ${'people, organisations, places and countries'}. Use ↑ ↓ and Enter. Open Filters to narrow by country, who or strength.</div>`;
   searchData();
 }
 function closePalette() { if (!pal.hidden) pal.hidden = true; }
-const palUpdate = attachSearch(palQ, palRes, {onClose: () => { palRes.hidden = false; palRes.innerHTML = ''; }});
+let palFilters = () => ({});
+const palUpdate = attachSearch(palQ, palRes, {onClose: () => { palRes.hidden = false; palRes.innerHTML = ''; }, filters: () => palFilters()});
+palFilters = filterBar($('#pal-f'), () => { palRes.hidden = false; palUpdate(); });
 $('#open-search').addEventListener('click', () => openPalette());
 $('#pal-close').addEventListener('click', closePalette);
 pal.addEventListener('click', e => { if (e.target === pal) closePalette(); });
@@ -255,6 +284,123 @@ const tip = $('#tip');
 function showTip(html, x, y) { tip.innerHTML = html; tip.hidden = false; tip.style.left = x + 'px'; tip.style.top = y + 'px'; }
 function hideTip() { tip.hidden = true; }
 window.addEventListener('scroll', hideTip, {passive: true});
+
+// Supporters sitting / seats, one line per national chamber (one or two), named as the country names it.
+function countryRows(cs) {
+  return cs.slice().sort((a, b) => b.supporters - a.supporters).map(c => {
+    const ch = c.chambers || [];
+    return `
+      <a class="crow" href="/${c.slug}">
+        <span class="iso">${esc(c.iso2)}</span>
+        <span class="nm">${esc(c.name)}</span>
+        <span class="st inl"><b>${fmt(c.supporters)}</b> <span>on record so far</span></span>
+        <span class="st hide-s seatcol">${ch.length ? ch.map(x => `<span class="sl"><span title="${esc(x[0])}">${esc(x[0])}</span> <b>${fmt(x[2])}<i> / ${fmt(x[1])}</i></b></span>`).join('') : '<b>·</b>'}</span>
+        <span class="st hide-s"><b>${c.units ? fmt(c.units_with_supporters) + '<i> / ' + fmt(c.units) + '</i>' : '·'}</b><span>areas with a supporter</span></span>
+        <span class="arrow">→</span>
+      </a>`;
+  }).join('');
+}
+// The world map and the countries list, shared by the home page and /countries.
+function countriesBlock(cs) {
+  return `<div class="worldmap" id="world">
+      <div class="crumb"></div>
+      <div class="zoomer"><button type="button" data-z="in" aria-label="Zoom in">+</button><button type="button" data-z="out" aria-label="Zoom out">−</button><button type="button" data-z="fit" aria-label="Show the whole world">⤢</button></div>
+    </div>
+    <div class="countries">${countryRows(cs)}
+      <a class="crow add" href="/contribute"><span class="iso">+</span><span class="nm">Your country next?</span><span class="st hide-s"></span><span class="st hide-s"></span><span class="st"><span class="muted">Start a register</span></span><span class="arrow">→</span></a>
+    </div>`;
+}
+async function countriesPage(W) {
+  setTitle('Countries');
+  const cs = W.countries;
+  main.innerHTML = `<div class="wrap page-head fade"><div class="kicker">The map so far</div><h1>Country <em>by</em> country</h1>
+    <p class="lede" style="margin-top:18px">${cs.length} countries so far. Each is researched separately, from parliaments and councils down to unions and open letters. Pick one to see who is on record there.</p></div>
+    <div class="wrap" style="margin-top:24px">${countriesBlock(cs)}</div><div style="height:72px"></div>`;
+  const stopWorld = worldMap($('#world'), W);
+  leaving = () => stopWorld();
+}
+// Seats of every legislature we chart: supranational bodies first, then countries. Dots lit are sitting supporters found so far.
+function parliamentRows(items, slugOf) {
+  return items.map(c => {
+    const ch = c.chambers || [];
+    return `
+      <a class="crow par" href="${slugOf(c)}">
+        <span class="iso">${esc(c.iso2 || c.slug.toUpperCase())}</span>
+        <span class="nm">${esc(c.name)}</span>
+        <span class="st seatcol">${ch.map(x => `<span class="sl"><span title="${esc(x[0])}">${esc(x[0])}</span> <b>${fmt(x[2])}<i> / ${fmt(x[1])}</i></b></span>`).join('')}</span>
+        <span class="arrow">→</span>
+      </a>`;
+  }).join('');
+}
+async function parliamentsPage(W) {
+  setTitle('Parliaments');
+  const cs = W.countries.filter(c => (c.chambers || []).length).sort((a, b) => litTotal(b) - litTotal(a) || a.name.localeCompare(b.name));
+  const bodies = W.bodies || [], planned = W.planned || [];
+  const seatsAll = [...cs, ...bodies].reduce((n, c) => n + (c.chambers || []).reduce((m, x) => m + x[1], 0), 0);
+  main.innerHTML = `<div class="wrap page-head fade"><div class="kicker">Political maps</div><h1>Who <em>sits</em> where</h1>
+    <p class="lede" style="margin-top:18px">One dot per seat, lit where a sitting member has a public statement for a wealth tax on the record. ${cs.length} countries and ${bodies.length} supranational ${bodies.length === 1 ? 'body' : 'bodies'} so far, ${fmt(seatsAll)} seats in all. An unlit seat means nothing found yet, not opposition.</p></div>
+    <div class="wrap" style="margin-top:24px">
+      ${bodies.length || planned.length ? `<div class="sec-head" style="margin-top:0"><div><div class="kicker">Above the countries</div><h2>Supranational bodies</h2></div></div>
+        <div class="countries">${parliamentRows(bodies, c => `/${c.slug}/seats`)}
+          ${planned.map(p => `<div class="crow par planned"><span class="iso">${esc(p.slug.toUpperCase())}</span><span class="nm">${esc(p.name)}</span><span class="st"><span class="muted">${esc(p.note)}</span></span><span class="arrow"></span></div>`).join('')}</div>` : ''}
+      <div class="sec-head" style="margin-top:48px"><div><div class="kicker">The map so far</div><h2>Country by country</h2></div></div>
+      <div class="worldmap" id="world">
+        <div class="crumb"></div>
+        <div class="zoomer"><button type="button" data-z="in" aria-label="Zoom in">+</button><button type="button" data-z="out" aria-label="Zoom out">−</button><button type="button" data-z="fit" aria-label="Show the whole world">⤢</button></div>
+      </div>
+      <div class="countries">${parliamentRows(cs, c => `/${c.slug}/seats`)}</div></div><div style="height:72px"></div>`;
+  const stopWorld = worldMap($('#world'), W, {seats: true});
+  leaving = () => stopWorld();
+}
+
+// Polls, papers, reports and bills, filterable by kind, place and year. The filters live in the query string, so a view can be shared.
+const RES_KIND = {poll: ['Polls', 'Poll'], paper: ['Papers', 'Paper'], report: ['Reports and proposals', 'Report'], bill: ['Bills and laws', 'Bill or law']};
+async function resourcesPage(W) {
+  setTitle('Resources');
+  const all = W.resources || [], q0 = new URLSearchParams(location.search);
+  const f = {kind: q0.get('kind') || '', country: q0.get('country') || '', year: q0.get('year') || '', q: q0.get('q') || ''};
+  const yearOf = r => String(r.published).slice(0, 4);
+  const places = [...new Map(all.map(r => [r.country, r.cname])).entries()].sort((a, b) => (a[0] === 'global') - (b[0] === 'global') || a[1].localeCompare(b[1]));
+  const years = [...new Set(all.map(yearOf))].sort().reverse();
+  main.innerHTML = `<div class="wrap page-head fade"><div class="kicker">Polls, papers, reports and bills</div><h1>Resources</h1>
+    <p class="lede" style="margin-top:18px">What the evidence and the legislation say about a wealth tax. Polls are checked against the pollster's own report; papers, reports and bills link to the original. Only material about an actual wealth tax is listed.</p></div>
+    <div class="wrap" style="margin-top:28px;padding-bottom:72px">
+      <div class="rtabs" id="rk"></div>
+      <div class="rfilters">
+        <input id="rq" type="search" class="field" placeholder="Search titles, authors, places…" aria-label="Search resources" autocomplete="off">
+        <select id="rc" class="field" aria-label="Place"><option value="">All places</option>${places.map(([k, n]) => `<option value="${esc(k)}">${esc(n)}</option>`).join('')}</select>
+        <select id="ry" class="field" aria-label="Year"><option value="">Any year</option>${years.map(y => `<option>${esc(y)}</option>`).join('')}</select>
+      </div>
+      <div class="rcount" id="rn" aria-live="polite"></div>
+      <div class="rlist" id="rl"></div></div>`;
+  const kinds = $('#rk'), list = $('#rl'), rq = $('#rq'), rc = $('#rc'), ry = $('#ry');
+  rq.value = f.q; rc.value = f.country; ry.value = f.year;
+  const hit = (r, skip) => (skip === 'kind' || !f.kind || r.kind === f.kind) && (!f.country || r.country === f.country) && (!f.year || yearOf(r) === f.year) &&
+    (!f.q || norm([r.title, r.by, r.cname, r.summary, r.status].join(' ')).includes(norm(f.q)));
+  const draw = () => {
+    const counts = {}; all.filter(r => hit(r, 'kind')).forEach(r => { counts[r.kind] = (counts[r.kind] || 0) + 1; });
+    const tot = Object.values(counts).reduce((a, b) => a + b, 0);
+    kinds.innerHTML = `<button type="button" class="chip${f.kind ? '' : ' on'}" data-k="">All <b>${tot}</b></button>` +
+      Object.entries(RES_KIND).map(([k, [pl]]) => `<button type="button" class="chip${f.kind === k ? ' on' : ''}" data-k="${k}">${pl} <b>${counts[k] || 0}</b></button>`).join('');
+    const rows = all.filter(r => hit(r));
+    $('#rn').textContent = `${rows.length} ${rows.length === 1 ? 'resource' : 'resources'}`;
+    list.innerHTML = rows.map(r => `<article class="res">
+      <div class="res-k"><span class="rk rk-${r.kind}">${esc(RES_KIND[r.kind][1])}</span><span>${r.country === 'global' ? esc(r.cname) : `<a href="/${esc(r.country)}">${esc(r.cname)}</a>`}</span><span>${esc(pollDate(r.published))}</span></div>
+      ${r.fig ? `<div class="res-fig">${esc(r.fig)}</div>` : ''}
+      <h3>${ext(r.url, esc(r.title) + ' ↗')}</h3>
+      <div class="res-by">${esc(r.by)}</div>
+      ${r.summary ? `<p>${esc(r.summary)}</p>` : ''}
+      ${r.status ? `<div class="res-st"><b>Status</b> ${esc(r.status)}</div>` : ''}
+    </article>`).join('') || '<div class="rempty">Nothing matches these filters.</div>';
+    const u = new URLSearchParams(Object.entries(f).filter(([, v]) => v)).toString();
+    history.replaceState(null, '', '/resources' + (u ? '?' + u : ''));
+  };
+  kinds.addEventListener('click', e => { const b = e.target.closest('[data-k]'); if (b) { f.kind = b.dataset.k; draw(); } });
+  rq.addEventListener('input', () => { f.q = rq.value; draw(); });
+  rc.addEventListener('change', () => { f.country = rc.value; draw(); });
+  ry.addEventListener('change', () => { f.year = ry.value; draw(); });
+  draw();
+}
 
 // ---------- home ----------
 async function home(W) {
@@ -287,9 +433,10 @@ async function home(W) {
             <input id="hq" type="search" placeholder="Search a name, a town, a party…" autocomplete="off" spellcheck="false" aria-label="Search supporters and places">
             <button class="btn" id="hgo" type="button">Search</button>
           </div>
+          <div id="hf"></div>
           <div class="drop results" id="hres" hidden></div>
         </div>
-        <div class="try">Try ${tries.map(t => `<button class="chip" type="button" data-try="${esc(t)}">${esc(t)}</button>`).join('')}</div>
+        <div class="try"><span class="try-l">Try</span> ${tries.map(t => `<button class="chip" type="button" data-try="${esc(t)}">${esc(t)}</button>`).join('')}</div>
       </div>
       <div class="hero-side">
         <div class="ledger">
@@ -305,32 +452,18 @@ async function home(W) {
   ${cs.some(c => (c.polls || []).length) ? `<section class="sec opinion"><div class="wrap">
     <div class="sec-head"><div><div class="kicker">Public opinion</div><h2>Most people <em>already agree</em></h2></div>
       <p>The register counts who has said it in public. Polls show how many more agree. Each figure is for the design the poll asked about.</p></div>
-    <div class="polls home">${cs.filter(c => (c.polls || []).length).map(c => { const p = c.polls[0]; return `<div class="poll">
+    <div class="polls home">${cs.filter(c => (c.polls || []).length).slice(0, 3).map(c => { const p = c.polls[0]; return `<div class="poll">
       <div class="poll-fig"><b>${esc(pollFig(p))}</b><span>${esc(c.name)}</span></div>
       <div class="poll-body"><p>back ${esc(p.question.replace(/^./, x => x.toLowerCase()))}.</p>
         <div class="poll-meta">${ext(p.url, esc(pollSource(p)) + ' ↗')} · <a href="/${c.slug}/method#polls">all polls</a></div></div>
     </div>`; }).join('')}</div>
+    <p class="polls-more"><a href="/resources?kind=poll">See all ${cs.reduce((n, c) => n + (c.polls || []).length, 0)} polls →</a></p>
   </div></section>` : ''}
 
   <section class="sec" id="countries"><div class="wrap">
     <div class="sec-head"><div><div class="kicker">The map so far</div><h2>Country <em>by</em> country</h2></div>
-      <p>Each country is researched separately, from parliaments and councils down to unions and open letters. Pick one to see who is on record there.</p></div>
-    <div class="worldmap" id="world">
-      <div class="crumb"></div>
-      <div class="zoomer"><button type="button" data-z="in" aria-label="Zoom in">+</button><button type="button" data-z="out" aria-label="Zoom out">−</button><button type="button" data-z="fit" aria-label="Show the whole world">⤢</button></div>
-    </div>
-    <div class="countries">
-      ${cs.slice().sort((a, b) => b.supporters - a.supporters).map(c => `
-      <a class="crow" href="/${c.slug}">
-        <span class="iso">${esc(c.iso2)}</span>
-        <span class="nm">${esc(c.name)}</span>
-        <span class="st"><b>${fmt(c.supporters)}</b><span>on record so far</span></span>
-        <span class="st hide-s"><b>${fmt(c.evidence)}</b><span>statements</span></span>
-        <span class="st hide-s"><b>${c.units ? fmt(c.units_with_supporters) + '<span style="color:var(--ink-3);font-weight:400"> / ' + fmt(c.units) + '</span>' : '·'}</b><span>areas with a supporter</span></span>
-        <span class="arrow">→</span>
-      </a>`).join('')}
-      <a class="crow add" href="/contribute"><span class="iso">+</span><span class="nm">Your country next?</span><span class="st hide-s"></span><span class="st hide-s"></span><span class="st"><span class="muted" style="font-size:14px">Start a register</span></span><span class="arrow">→</span></a>
-    </div>
+      <p>Each country is researched separately, from parliaments and councils down to unions and open letters. Pick one to see who is on record there. <a href="/countries">Open as its own page →</a></p></div>
+    ${countriesBlock(cs)}
   </div></section>
 
   ${feats.length ? `<section class="sec"><div class="wrap">
@@ -360,21 +493,23 @@ async function home(W) {
       <div><div class="kicker">02</div><h3>Graded</h3>
         <div class="grades">${['A', 'B', 'C'].map(g => `<div>${glyph(g)}<span><b>${GRADE[g]}</b> · ${esc(GRADE_LONG[g].split(': ').pop().replace(/^./, c => c.toLowerCase()))}</span></div>`).join('')}</div>
         <p>Only an actual tax on wealth counts. Higher income or capital gains taxes alone do not.</p></div>
-      <div><div class="kicker">03</div><h3>Open</h3><p>The data is free to reuse under CC BY 4.0, with CSV downloads for every country. Errors are reported in public on GitHub and fixed in the open.</p><p><a href="/about">Read the method →</a></p></div>
+      <div><div class="kicker">03</div><h3>Open</h3><p>The data is free to reuse under CC BY 4.0, with CSV downloads for every country. Errors are reported in public on GitHub and fixed in the open.</p><p><a href="/method">Read the method →</a></p></div>
     </div>
   </div></section>
 
   <section class="wrap" style="padding:8px var(--gut) 40px"><div class="cta">
     <div><div class="kicker" style="color:inherit;opacity:.6">Contribute</div><h2 style="margin-top:12px">Your country isn't <em>on the map</em> yet?</h2>
       <p>Registers are built country by country with an open research workflow. Start one for your country, or help check the entries that are already here.</p></div>
-    <div class="acts"><a class="btn" href="/contribute">Start a country</a><a class="btn ghost" href="/about">How it's built</a></div>
+    <div class="acts"><a class="btn" href="/contribute">Start a country</a><a class="btn ghost" href="/method">How it's built</a></div>
   </div></section>`;
 
   const hq = $('#hq'), hres = $('#hres');
-  attachSearch(hq, hres);
+  let hfilters = () => ({});
+  const hupdate = attachSearch(hq, hres, {filters: () => hfilters()});
+  hfilters = filterBar($('#hf'), () => { hres.hidden = false; hupdate(); });
   $('#hgo').addEventListener('click', () => { if (hq.value.trim()) { const first = $('.ritem', hres); if (first) first.click(); else hq.focus(); } else hq.focus(); });
   $$('[data-try]').forEach(b => b.addEventListener('click', () => { hq.value = b.dataset.try; hq.dispatchEvent(new Event('input')); hq.focus(); }));
-  const outside = e => { if (!e.target.closest('.big-search')) hres.hidden = true; };
+  const outside = e => { if (!e.target.closest('.big-search, .try')) hres.hidden = true; };
   document.addEventListener('click', outside);
   const stopWorld = worldMap($('#world'), W);
   leaving = () => { document.removeEventListener('click', outside); stopWorld(); };
@@ -460,14 +595,16 @@ function worldBoxes(W) {
 
 // The home page map: a world map shaded like the country maps. Scroll to zoom, drag to pan, and click a
 // shaded country to open its page.
-function worldMap(box, W) {
+const litTotal = c => (c.chambers || []).reduce((n, x) => n + x[2], 0);
+function worldMap(box, W, {seats = false} = {}) {
   const crumb = $('.crumb', box);
-  const byNum = {}; W.countries.forEach(c => { if (c.numeric) byNum[c.numeric] = c; });
+  const byNum = {}; W.countries.forEach(c => { if (c.numeric && (!seats || (c.chambers || []).length)) byNum[c.numeric] = c; });
   const {mains, extent} = worldBoxes(W);
-  const mx = Math.max(1, ...W.countries.map(c => c.supporters));
+  const measure = c => seats ? litTotal(c) : c.supporters;
+  const mx = Math.max(1, ...W.countries.map(measure));
   const svg = document.createElementNS('http://www.w3.org/2000/svg', 'svg');
   svg.setAttribute('role', 'img'); svg.setAttribute('aria-label', 'World map. Countries with a register are shaded.');
-  svg.innerHTML = `<g>${Object.entries(W.paths).map(([id, p]) => { const c = byNum[id], tt = c ? (.35 + .65 * Math.log(c.supporters + 1) / Math.log(mx + 1)).toFixed(3) : 0;
+  svg.innerHTML = `<g>${Object.entries(W.paths).map(([id, p]) => { const c = byNum[id], tt = c ? (.35 + .65 * Math.log(measure(c) + 1) / Math.log(mx + 1)).toFixed(3) : 0;
     return `<path data-id="${id}" class="${c ? 'u-sup' : 'u-none'}"${c ? ` style="--t:${tt}"` : ''} d="${p.path}"/>`; }).join('')}</g>`;
   box.prepend(svg);
   const countryAt = e => { const p = e.target.closest && e.target.closest('path[data-id]'); return p ? p.dataset.id : null; };
@@ -478,16 +615,16 @@ function worldMap(box, W) {
       const id = countryAt(e);
       if (!id) return hideTip();
       const c = byNum[id];
-      showTip(c ? `<b>${esc(c.name)}</b><span>${fmt(c.supporters)} on record so far →</span>` : `<b>${esc(W.paths[id].name)}</b><span>no register yet</span>`, e.clientX, e.clientY);
+      showTip(c ? `<b>${esc(c.name)}</b><span>${seats ? `${fmt(litTotal(c))} sitting supporters found, ${fmt((c.chambers || []).reduce((n, x) => n + x[1], 0))} seats →` : `${fmt(c.supporters)} on record so far →`}</span>` : `<b>${esc(W.paths[id].name)}</b><span>${seats ? 'no seat chart yet' : 'no register yet'}</span>`, e.clientX, e.clientY);
     },
     onTap: e => {
       const id = countryAt(e); if (!id) return;
       hideTip();
-      if (byNum[id]) go(`/${byNum[id].slug}`);
+      if (byNum[id]) go(`/${byNum[id].slug}${seats ? '/seats' : ''}`);
       else { const m = mains[id]; pz.animate(pz.target(m[0], m[1], m[2], m[3], .6)); }
     }});
   svg.addEventListener('pointerleave', hideTip);
-  crumb.innerHTML = `<b>World</b><span class="muted">Scroll to zoom · click a shaded country to open it</span>`;
+  crumb.innerHTML = `<b>World</b><span class="muted">Scroll to zoom · click a shaded country to open ${seats ? 'its seats' : 'it'}</span>`;
   $('.zoomer', box).addEventListener('click', e => {
     const b = e.target.closest('button'); if (!b) return;
     if (b.dataset.z === 'in') pz.zoomAt(.6); else if (b.dataset.z === 'out') pz.zoomAt(1 / .6); else pz.fit();
@@ -513,6 +650,7 @@ async function countryPage(slug, params, section = 'map') {
   main.innerHTML = '<div class="loading">Loading</div>';
   const D = await loadCountry(slug), m = D.meta, S = countryStats(D);
   if (section === 'seats' && !(D.legis || []).length) section = 'map';
+  if (m.supranational && !['seats', 'directory'].includes(section)) section = 'seats';
   if (section === 'map' && !D.C.length) section = 'directory';
   setTitle(section === 'map' ? m.name : `${SECTIONS[section]} · ${m.name}`);
   const base = `/${slug}`;
@@ -520,18 +658,19 @@ async function countryPage(slug, params, section = 'map') {
   const tab = (key, href, sub) => `<a href="${href}"${key === section ? ' class="on" aria-current="page"' : ''}><b>${SECTIONS[key]}</b><span>${sub}</span></a>`;
   main.innerHTML = `
   <div class="wrap fade">
-    <nav class="crumbs" aria-label="Breadcrumb"><a href="/#countries">All countries</a><span>/</span>${section === 'map' ? `<span>${esc(m.name)}</span>` : `<a href="${base}">${esc(m.name)}</a><span>/</span><span>${SECTIONS[section]}</span>`}</nav>
+    <nav class="crumbs" aria-label="Breadcrumb">${m.supranational ? '<a href="/parliaments">All parliaments</a>' : '<a href="/countries">All countries</a>'}<span>/</span>${section === 'map' ? `<span>${esc(m.name)}</span>` : `<a href="${base}">${esc(m.name)}</a><span>/</span><span>${SECTIONS[section]}</span>`}</nav>
     <div class="c-top">
       <div class="c-title">
         <h1>${esc(m.name)}</h1>
-        <p>${fmt(m.supporters)} public figures and organisations on the record found so far, in ${fmt(m.evidence)} sourced statements. A register of who has said it in public, not a poll.</p>
+        <p>${m.supranational ? `${fmt(m.supporters)} sitting member${m.supporters === 1 ? '' : 's'} with a public statement for a wealth tax on the record, found so far, in ${fmt(m.evidence)} sourced statements. Each is recorded in the register of their own country. A register of who has said it in public, not a poll.`
+          : `${fmt(m.supporters)} public figures and organisations on the record found so far, in ${fmt(m.evidence)} sourced statements. A register of who has said it in public, not a poll.`}</p>
         ${(m.polls || []).length ? (p => `<div class="c-poll"><b>${esc(pollFig(p))}</b><span><span class="kicker">In polls</span> back ${esc(p.question.replace(/^./, c => c.toLowerCase()))}. ${ext(p.url, esc(pollSource(p)) + ' ↗')}${m.polls.length > 1 ? ` · <a href="/${slug}/method#polls">${m.polls.length - 1} more poll${m.polls.length > 2 ? 's' : ''}</a>` : ''}</span></div>`)(m.polls[0]) : ''}
       </div>
       <div class="c-stats">
         <div><b>${fmt(m.supporters)}</b><span>public figures and organisations found so far</span></div>
         <div><b>${fmt(m.A)}</b><span>of them backed a specific tax or voted for one</span></div>
         <div><b>${fmt(m.evidence)}</b><span>sourced statements, votes and letters</span></div>
-        <div><b>${fmt(m.units_with_supporters)}</b><span>local areas with a public supporter found</span></div>
+        ${m.supranational ? `<div><b>${fmt((m.chambers || []).reduce((n, x) => n + x[1], 0))}</b><span>seats in the chamber</span></div>` : `<div><b>${fmt(m.units_with_supporters)}</b><span>local areas with a public supporter found</span></div>`}
       </div>
     </div>
     ${section === 'map' ? overviewHtml(D, S, base) : ''}
@@ -540,8 +679,8 @@ async function countryPage(slug, params, section = 'map') {
     ${D.C.length ? tab('map', base, `${fmt(m.units_with_supporters)} areas with supporters`) : ''}
     ${(D.legis || []).length ? tab('seats', `${base}/seats`, seatsTabSub(D)) : ''}
     ${tab('directory', `${base}/directory`, `${fmt(m.supporters)} entries`)}
-    ${tab('time', `${base}/time`, years.length ? years[0] + '–' + years[years.length - 1] : 'by year')}
-    ${tab('method', `${base}/method`, 'sources and downloads')}
+    ${m.supranational ? '' : tab('time', `${base}/time`, years.length ? years[0] + '–' + years[years.length - 1] : 'by year')}
+    ${m.supranational ? '' : tab('method', `${base}/method`, 'sources and downloads')}
   </div></nav>
   <div class="wrap" id="csec"></div>`;
   const box = $('#csec');
@@ -1070,7 +1209,7 @@ async function personPage(slug, id) {
   const firstY = year(p[P_.first]), lastY = year(p[P_.last]);
   main.innerHTML = `
   <div class="wrap fade">
-    <nav class="crumbs" aria-label="Breadcrumb"><a href="/#countries">All countries</a><span>/</span><a href="/${slug}">${esc(m.name)}</a><span>/</span><a href="/${slug}/directory">Directory</a></nav>
+    <nav class="crumbs" aria-label="Breadcrumb">${m.supranational ? '<a href="/parliaments">All parliaments</a>' : '<a href="/countries">All countries</a>'}<span>/</span><a href="/${slug}">${esc(m.name)}</a><span>/</span><a href="/${slug}/directory">Directory</a></nav>
     <div class="person">
       <aside class="p-side">
         <div class="kicker">${esc(label(TYPE, p[P_.type]))}${p[P_.level] ? ' · ' + esc(label(LEVEL, p[P_.level])) : ''}</div>
@@ -1121,7 +1260,43 @@ function evCard(e, m, slug) {
 }
 
 // ---------- static pages ----------
+// ---------- about ----------
 function aboutPage(W) {
+  setTitle('About');
+  const cs = W.countries, tot = k => cs.reduce((n, c) => n + (c[k] || 0), 0);
+  const seats = [...cs, ...(W.bodies || [])].reduce((n, c) => n + (c.chambers || []).reduce((m, x) => m + x[1], 0), 0);
+  main.innerHTML = `
+  <div class="wrap page-head fade"><div class="kicker">About</div><h1>A register of who <em>says so</em></h1></div>
+  <div class="wrap two" style="margin-top:36px">
+    <div class="prose">
+      <p class="lede" style="max-width:none">Wealth Tax Supporters is an open, sourced register of the public figures and organisations that have backed a wealth tax on the record, country by country, from national parliaments down to a single town.</p>
+      <h2>Why it exists</h2>
+      <p>Supporters of a wealth tax are spread thin. A union in one country, a mayor in another, an economist who signed a letter, a party that put it in its programme. Nobody could see them in one place, so each looked alone, and the debate was left to those who oppose it. A register that shows who has said it, and where, lets supporters find each other and lets everyone else see how much backing there already is.</p>
+      <h2>What it is, and is not</h2>
+      <p>It lists supporters only. It is not a poll, so it does not say how many people agree (the <a href="/resources?kind=poll">polls</a> do), and it does not rank or score anyone. It counts only an actual tax on wealth, and every entry links to the statement, vote or letter it rests on. An empty place on a map means nobody has been recorded yet, never that nobody there supports it. <a href="/method">The method</a> sets out the rules.</p>
+      <h2>Where it stands</h2>
+      <p>${fmt(tot('supporters'))} public figures and organisations in ${cs.length} countries, ${fmt(tot('evidence'))} sourced statements, and ${fmt(seats)} parliamentary seats charted on the <a href="/parliaments">Parliaments</a> page, with the <a href="/resources">resources</a> behind the debate. It grows with every research run.</p>
+      <h2>Who makes it</h2>
+      <p>The register is built by <a href="https://github.com/Egalitaristen" target="_blank" rel="noopener">Egalitaristen</a> and contributors, working in the open. The research is done with an AI workflow that follows written rules, and every change is reviewed in a pull request before it goes live, because AI makes mistakes. Every claim carries its source, so anyone can check it, and corrections are made in public.</p>
+      <h2>Open by design</h2>
+      <p>The code and the data live in one <a href="https://github.com/${REPO}" target="_blank" rel="noopener">public repository</a>. The data is free to reuse under CC BY 4.0, with a CSV download for every country. The <a href="https://github.com/${REPO}/blob/main/ROADMAP.md" target="_blank" rel="noopener">roadmap</a> shows what is planned and what waits for a date.</p>
+      <h2>Take part</h2>
+      <ul>
+        <li><a href="/suggest">Suggest a supporter</a> we have missed, with a link to where they said it.</li>
+        <li><a href="/contribute">Start a register</a> for your country, or help check the entries already here.</li>
+        <li><a href="/feedback">Send feedback or report a bug</a> about the site.</li>
+        <li>Join the conversation on <a href="https://discord.gg/yCjEK47aeh" target="_blank" rel="noopener">Discord</a>.</li>
+      </ul>
+      <h2>Removal and corrections</h2>
+      <p>Anyone listed can ask to be removed or corrected, using the report link on their entry or a report on GitHub.</p>
+    </div>
+    <aside class="aside-card"><h3>How is it built?</h3><p>What counts as support, how evidence is graded and how it is checked.</p>
+      <p><a class="btn sm" href="/method">Read the method</a></p>
+      <p style="margin:18px 0 0"><a href="https://github.com/${REPO}" target="_blank" rel="noopener">Source on GitHub ↗</a></p></aside>
+  </div>`;
+}
+
+function methodPage(W) {
   setTitle('Method');
   main.innerHTML = `
   <div class="wrap page-head fade"><div class="kicker">Method</div><h1>How the register <em>is built</em></h1></div>
@@ -1206,7 +1381,7 @@ function suggestPage(W, params) {
       <p><a class="btn sm" href="${DISCORD}" target="_blank" rel="noopener">Join the Discord ↗</a></p>
       <p style="margin-top:18px">Have a GitHub account? Open an issue, and follow it as it is checked.</p>
       <p><a class="btn sm ghost" href="${esc(githubSuggestUrl({country: params.get('country') || ''}))}" target="_blank" rel="noopener">Suggest on GitHub ↗</a></p>
-      <p class="fine" style="margin-top:18px">What counts: a public statement, vote, letter or policy backing a tax on wealth (net assets), such as an annual wealth tax or a billionaire minimum tax. Read <a href="/about">the method</a>.</p></aside>
+      <p class="fine" style="margin-top:18px">What counts: a public statement, vote, letter or policy backing a tax on wealth (net assets), such as an annual wealth tax or a billionaire minimum tax. Read <a href="/method">the method</a>.</p></aside>
   </div>`;
   const form = $('#suggest-form'), msg = $('#sg-msg'), send = $('#sg-send');
   form.addEventListener('submit', async e => {
