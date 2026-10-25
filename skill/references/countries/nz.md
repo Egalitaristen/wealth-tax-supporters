@@ -1,0 +1,13 @@
+# New Zealand: seats and geography
+
+## Seats
+Run `python skill/scripts/seats.py data/nz`. The NZ adapter reads the official current-member register at https://www3.parliament.nz/en/mps-and-electorates/members-of-parliament and counts its party rows. The stated House size supplies the total; a difference is Vacant. It checks the displayed roster count and unique member slugs before writing. Labour Party is normalised to Labour, NZ First Party to New Zealand First and non-party-affiliated members to Independent. Other labels match the actors.
+
+Direct command-line access receives a challenge. Jina's reader transports the official pages as Markdown; the CSV citations remain Parliament URLs. The nine matched supporters' profile pages supply first-election dates (not current electorate tenure). The adapter enriches only matched supporters, not all 122 members. Normal six-hour cache applies. If the reader is unavailable, save the same official page through an accessible reader and pass `--local https://r.jina.ai/OFFICIAL_URL=FILE`.
+
+Former members: https://www3.parliament.nz/en/mps-and-electorates/former-members-of-parliament/ . The adapter reads named terms and their actual start/end dates. The first page currently contains 200 of 242 former members and all three former parliamentary supporters; extend pagination before adding someone outside this page. Current matches light nine seats as of 25 October 2026 (eight Green, one Te Pāti Māori). No party roster is evidence of wealth-tax support.
+
+Historical Wellington offices are maintained separately in positions.csv and are preserved by parliamentary refreshes: Wade-Brown's mayoralty and two councillor periods are from DPMC's 2017 honours citation; Paul's term is from Wellington City Council's 2023/24 annual report, volume 1 p142. There is no council seat chart. Findlay and Billot are candidates/party officers without a verified elected office: do not invent positions for them.
+
+## Geography
+All 67 territorial authorities are map units; 16 regions are overlays. Stats NZ official three-digit territorial codes (2026), two-digit regional codes (2025), CC BY 4.0. Sources: ArcGIS items b7f8726da7f6467a9cb42221b0013938 (territorial) and e83157765acf4fca90a255888a368182 (regional). Download the agency layers, retain official names/codes, project to NZTM2000 and simplify for display. Clip coastal regional overlays to the territorial union without moving inland regional lines. Cross-region territorial authorities and Chatham Islands remain country children rather than receiving a false single region. Boundaries retain licence/source attribution. See data/nz/area_profile.md for the five-city sample and pending coverage.

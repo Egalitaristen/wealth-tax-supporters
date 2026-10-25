@@ -4,7 +4,7 @@ What is planned, and what waits for a date. The live board is the GitHub project
 
 ## Where things stand
 
-The **Seats tab** (a hemicycle per chamber, a dot per seat, lit where a supporter we have found sits today) is live for 19 countries: Belgium, Brazil, Canada, China, France, Germany, India, Indonesia, Japan, Malaysia, the Netherlands, Nigeria, Norway, Poland, Singapore, Spain, Sweden, the United Kingdom and the United States. It reads each parliament's own member list, so a supporter who leaves a chamber loses the seat on the next refresh. How to refresh and what each source is: `skill/SKILL.md` 6.7a and the country guides in `skill/references/countries/`.
+The **Seats tab** (a hemicycle per chamber, a dot per seat, lit where a supporter we have found sits today) is live for 20 countries: Belgium, Brazil, Canada, China, France, Germany, India, Indonesia, Japan, Malaysia, the Netherlands, New Zealand, Nigeria, Norway, Poland, Singapore, Spain, Sweden, the United Kingdom and the United States. It reads each parliament's own member list, so a supporter who leaves a chamber loses the seat on the next refresh. How to refresh and what each source is: `skill/SKILL.md` 6.7a and the country guides in `skill/references/countries/`.
 
 An unlit seat means nothing found yet, never opposition.
 
@@ -16,6 +16,7 @@ These need the autumn 2026 elections to happen and the new parliaments to sit. M
 |---|---|---|
 | Refresh the US Congress | After the 3 November 2026 midterms, when the new Congress is sworn in (January 2027) | [#61](https://github.com/Egalitaristen/wealth-tax-supporters/issues/61) |
 | Refresh Spain's Congreso | After the 29 November 2026 election: today only 137 of 350 deputies are active because the Cortes were dissolved on 6 October | [#60](https://github.com/Egalitaristen/wealth-tax-supporters/issues/60) |
+| Refresh New Zealand's House | After the 7 November 2026 election (official results 27 November): Parliament was dissolved on 1 October | [#78](https://github.com/Egalitaristen/wealth-tax-supporters/issues/78) |
 | Check Sweden's Riksdag | November 2026, once the substitutes after the September election settle | [#63](https://github.com/Egalitaristen/wealth-tax-supporters/issues/63) |
 | Refresh Brazil's Câmara and Senado | After the new legislature takes office on 1 February 2027 | [#62](https://github.com/Egalitaristen/wealth-tax-supporters/issues/62) |
 

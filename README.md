@@ -22,7 +22,7 @@ The aim is to make it easy for people who share the view that wealth should be t
 | `scripts/deploy.py`, `wrangler.jsonc` | Build and deploy the site to Cloudflare from a local checkout. |
 | `docs/`, `infra/` | The community plan, and the Cloudflare setup and draft database schema. The suggestions database is deployed; the community schema is a draft. |
 
-Nineteen countries so far, all built with AI assistants and all work in progress. The site shows the live counts; each folder's `area_profile.md` says what was searched and what was not.
+Twenty countries so far, all built with AI assistants and all work in progress. The site shows the live counts; each folder's `area_profile.md` says what was searched and what was not.
 
 | Country | Folder | Map (local tier) | What it rests on |
 |---|---|---|---|
@@ -37,6 +37,7 @@ Nineteen countries so far, all built with AI assistants and all work in progress
 | Japan | `data/jp/` | 1,749 municipalities | Diet speeches naming the tax, the Communist, Social Democratic and Reiwa party policies, a citizens' coalition and scholars |
 | Malaysia | `data/my/` | 144 districts | MPs and parliamentary questions, PSM, economists, civil society |
 | Netherlands | `data/nl/` | 342 gemeenten | The Box 3 wealth-tax bill and its cosponsors, motions, party manifestos, Zucman's testimony, the Davos letters |
+| New Zealand | `data/nz/` | 67 territorial authorities | Parties, individual politicians, tax-justice campaigns, unions, economists, commentators, faith and business |
 | Nigeria | `data/ng/` | 774 local government areas | The Oxfam-led 2024 report and its authors, Oxfam's 2026 call for a 1% tax, a Lagos wealth-tax conference, op-eds |
 | Norway | `data/no/` | 357 kommuner | Parties, unions, think tanks, economists and commentators who defend the formuesskatt in their own words |
 | Poland | `data/pl/` | 2,479 gminas | Razem and the Greens, OPZZ, economists and commentators, MEP votes; 251 manifesto signatories are flagged as implied support |

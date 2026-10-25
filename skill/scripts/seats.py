@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 """Refresh a country's legislature seats from the parliament's own open member list.
 
-Usage: python skill/scripts/seats.py data/<iso2> [--dry-run] [--fix-status] [--local URL=FILE]      (iso2 = se, de, nl, no, fr, br, ca)
+Usage: python skill/scripts/seats.py data/<iso2> [--dry-run] [--fix-status] [--local URL=FILE]      (iso2 = se, de, nl, no, fr, br, ca, es, pl, be, in, jp, my, sg, id, ng, cn, nz)
 
 For the UK and the US use seats_uk.py and seats_us.py (richer sources). This script holds one small adapter per
 country (the ADAPTERS table at the end): each reads the parliament's open data and returns its chambers, the sitting
@@ -149,6 +149,8 @@ def run(d, adapter, dry=False, fix=False):
         for x in actors:
             m, how = match(x, members, by_q, by_norm)
             if m:
+                if c.get("enrich"):
+                    m = c["enrich"](m)
                 if how == "fuzzy":
                     report.append(f"{x['actor_id']} {x['name']}: matched to {m['name']} ({m['party']}) by name only: confirm it is the same person")
                 positions.append(dict(position_id="", actor_id=x["actor_id"], body_id=bid, role=c["role"], party=m["party"],
@@ -706,7 +708,68 @@ def china():
 
 
 
-ADAPTERS = {"se": sweden, "de": germany, "nl": netherlands, "no": norway, "fr": france, "br": brazil, "ca": canada, "es": spain, "pl": poland, "be": belgium, "in": india, "jp": japan, "my": malaysia, "sg": singapore, "id": indonesia, "ng": nigeria, "cn": china}
+def new_zealand():
+    """NZ Parliament's official current/former registers; Jina is a transport fallback for its challenge page."""
+    base = "https://www3.parliament.nz/en/mps-and-electorates/"
+
+    def read(url):
+        # The official site challenges command-line clients. The reader returns the official
+        # page as Markdown; attribution and position URLs remain Parliament's own URLs.
+        return get("https://r.jina.ai/" + url, as_json=False).decode("utf-8-sig")
+
+    def date(text):
+        return dt.datetime.strptime(text.strip(), "%d %B %Y").date().isoformat()
+
+    parties = {"Labour Party": "Labour", "Independent - not party affiliated": "Independent",
+               "NZ First Party": "New Zealand First"}
+    url = base + "members-of-parliament"
+    text = read(url)
+    total_match = re.search(r"represented by (\d+) MPs", text)
+    expected = re.search(r"Displaying 1 - (\d+) of \1", text)
+    members = []
+    for line in text.splitlines():
+        if not line.startswith("| ") or "![Image" not in line:
+            continue
+        cols = line.split("|")
+        m = re.search(r"\[([^\]]+)\]\((https://www3\.parliament\.nz/en/mps-and-electorates/members-of-parliament/[^ )]+)", cols[2])
+        if not m:
+            continue
+        surname, first = m[1].split(", ", 1)
+        members.append(dict(name=first + " " + surname, party=parties.get(cols[3].strip(), cols[3].strip()),
+                            place=cols[4].strip(), ref=m[2].rstrip("/").rsplit("/", 1)[1], url=m[2]))
+    if not total_match or not expected or len(members) != int(expected[1]) or len({m["ref"] for m in members}) != len(members):
+        raise ValueError("NZ current register incomplete or format changed")
+    if not 0 <= int(total_match[1]) - len(members) <= 2:
+        raise ValueError("NZ roster and stated House size disagree: review before publishing")
+
+    former_text = read(base + "former-members-of-parliament/")
+    former = []
+    pattern = r"\[([^\]]+)\]\((https://www3\.parliament\.nz/en/mps-and-electorates/former-members-of-parliament/[^ )]+)[^\n]*\n\s*\n([^\n]+)"
+    for m in re.finditer(pattern, former_text):
+        terms = re.findall(r"([A-Za-z ]+), (\d{1,2} [A-Za-z]+ \d{4}) - (\d{1,2} [A-Za-z]+ \d{4})", m[3])
+        if not terms or ", " not in m[1]:
+            continue
+        surname, first = m[1].split(", ", 1)
+        former.append(dict(name=first + " " + surname, party=parties.get(terms[-1][0].strip(), terms[-1][0].strip()),
+                           start=date(terms[0][1]), end=date(terms[-1][2]), url=m[2], ref=m[2].rstrip("/").rsplit("/", 1)[1]))
+
+    def enrich(member):
+        detail = read(member["url"])
+        first = re.search(r"Date first elected:\s*(\d{1,2} [A-Za-z]+ \d{4})", detail)
+        if not first:
+            raise ValueError("NZ member profile has no first-election date: " + member["name"])
+        return {**member, "start": date(first[1])}
+
+    return [dict(name="New Zealand House of Representatives", seats=int(total_match[1]), source_url=url,
+                 note=f"{total_match[1]}-seat Parliament. Party blocks counted from the official current-member register; any difference from the stated House size is shown as Vacant. Position start is first election to Parliament, not the start of the current electorate. Former register currently paginates at 200; the current former-supporter matches are on its first page. Unlit seats mean no supporter found, never opposition.",
+                 role="Member of Parliament", role_re=r"(?i)\bMP\b|member of parliament", role_start=r"(?i)(MP|member of parliament)",
+                 members=members, former=former, enrich=enrich,
+                 party_order=["Green Party", "Te Pāti Māori", "Labour", "Independent", "New Zealand First", "National Party", "ACT Party"],
+                 colours={"Green Party": "098137", "Te Pāti Māori": "b21f2d", "Labour": "d82c20", "Independent": "888888",
+                          "New Zealand First": "111111", "National Party": "00529f", "ACT Party": "fde401"})]
+
+
+ADAPTERS = {"nz": new_zealand, "se": sweden, "de": germany, "nl": netherlands, "no": norway, "fr": france, "br": brazil, "ca": canada, "es": spain, "pl": poland, "be": belgium, "in": india, "jp": japan, "my": malaysia, "sg": singapore, "id": indonesia, "ng": nigeria, "cn": china}
 
 
 def main():

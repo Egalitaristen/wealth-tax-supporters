@@ -1,0 +1,17 @@
+position_id,actor_id,body_id,role,party,geo_unit_id,start,end,current,member_ref,checked,source_url
+O00001,A0002,B0001,Member of Parliament,Green Party,G0056,2011-11-26,,y,genter-julie-anne,2026-10-25,https://www3.parliament.nz/en/mps-and-electorates/members-of-parliament/genter-julie-anne/
+O00002,A0003,B0001,Member of Parliament,Green Party,G0084,2017-09-23,,y,swarbrick-chloe,2026-10-25,https://www3.parliament.nz/en/mps-and-electorates/members-of-parliament/swarbrick-chloe/
+O00003,A0004,B0001,Member of Parliament,Green Party,G0084,2015-11-02,,y,davidson-marama,2026-10-25,https://www3.parliament.nz/en/mps-and-electorates/members-of-parliament/davidson-marama/
+O00004,A0008,B0001,Member of Parliament,Green Party,G0001,2014-09-20,2024-05-05,n,shaw-james,2026-10-25,https://www3.parliament.nz/en/mps-and-electorates/former-members-of-parliament/shaw-james/
+O00005,A0009,B0001,Member of Parliament,Te Pāti Māori,G0001,2020-10-17,,y,waititi-rawiri,2026-10-25,https://www3.parliament.nz/en/mps-and-electorates/members-of-parliament/waititi-rawiri/
+O00006,A0033,B0001,Member of Parliament,Green Party,G0056,2023-10-14,,y,paul-tamatha,2026-10-25,https://www3.parliament.nz/en/mps-and-electorates/members-of-parliament/paul-tamatha/
+O00007,A0034,B0001,Member of Parliament,Green Party,G0049,2020-10-17,,y,tuiono-teanau,2026-10-25,https://www3.parliament.nz/en/mps-and-electorates/members-of-parliament/tuiono-teanau/
+O00008,A0035,B0001,Member of Parliament,Labour,G0001,2008-11-08,2024-03-22,n,robertson-grant,2026-10-25,https://www3.parliament.nz/en/mps-and-electorates/former-members-of-parliament/robertson-grant/
+O00009,A0036,B0001,Member of Parliament,Labour,G0001,2002-07-27,2025-05-12,n,parker-david,2026-10-25,https://www3.parliament.nz/en/mps-and-electorates/former-members-of-parliament/parker-david/
+O00010,A0037,B0001,Member of Parliament,Green Party,G0084,2020-10-17,,y,men%C3%A9ndez-march-ricardo,2026-10-25,https://www3.parliament.nz/en/mps-and-electorates/members-of-parliament/men%C3%A9ndez-march-ricardo/
+O00011,A0038,B0001,Member of Parliament,Green Party,G0084,2023-10-14,,y,abel-steve,2026-10-25,https://www3.parliament.nz/en/mps-and-electorates/members-of-parliament/abel-steve/
+O00012,A0041,B0001,Member of Parliament,Green Party,G0001,2024-01-20,,y,wade-brown-celia,2026-10-25,https://www3.parliament.nz/en/mps-and-electorates/members-of-parliament/wade-brown-celia/
+O00013,A0041,B0002,Mayor of Wellington,,G0056,2010,2016,n,,2026-10-25,https://www.dpmc.govt.nz/new-year-honours-2017-citations-companions-queens-service-order
+O00014,A0041,B0002,Councillor for Southern Ward,,G0056,1994,1998,n,,2026-10-25,https://www.dpmc.govt.nz/new-year-honours-2017-citations-companions-queens-service-order
+O00015,A0041,B0002,Councillor for Southern Ward,,G0056,2001,2010,n,,2026-10-25,https://www.dpmc.govt.nz/new-year-honours-2017-citations-companions-queens-service-order
+O00016,A0033,B0002,Councillor for Pukehīnau/Lambton Ward,,G0056,2019,2023-11,n,,2026-10-25,https://wellington.govt.nz/-/media/your-council/plans-policies-and-bylaws/plans-and-policies/annualreport/2023-24/annual-report-2023-24-volume-1.pdf

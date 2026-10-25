@@ -1,0 +1,9 @@
+seat_id,body_id,party,seats,colour,order
+S0001,B0001,Green Party,15,098137,1
+S0002,B0001,Te Pāti Māori,4,b21f2d,2
+S0003,B0001,Labour,34,d82c20,3
+S0004,B0001,Independent,2,888888,4
+S0005,B0001,New Zealand First,8,111111,5
+S0006,B0001,National Party,48,00529f,6
+S0007,B0001,ACT Party,11,fde401,7
+S0008,B0001,Vacant,1,,8
