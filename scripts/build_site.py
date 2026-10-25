@@ -270,6 +270,9 @@ def build_country(folder):
         parties = [[s["party"], int(s["seats"]), s["colour"], sitting[b["body_id"]].get(s["party"], [])]
                    for s in sorted(seats_by[b["body_id"]], key=lambda s: int(s["order"] or 0))]
         legis.append(dict(id=b["body_id"], name=b["name"], seats=int(b["seats"]), as_of=b["as_of"], src=b["source_url"], note=b.get("notes", ""), parties=parties))
+    # the one or two national chambers, for the countries list
+    summary["chambers"] = [[b["name"], int(b["seats"])] for b in rd(folder / "bodies.csv")
+                           if b["level"] == "national" and b.get("seat_view") == "y" and b["body_id"] in seats_by][:2]
     country = dict(meta=summary, P=P, E=E, C=C, UP=UP, vb=vb, O=O, L=L, R=R, R2=R2, legis=legis)
 
     # Search index rows: [slug, id, name, type, role, place, grade, statements]
@@ -384,6 +387,13 @@ def share_pages(out, base, countries, full):
     write("/about", "How the register is built · Wealth Tax Supporters",
           "What counts as support for a wealth tax, how statements are sourced and graded, and how to report a mistake.",
           "about", "How the register is built", lambda o: cards.page_card(o, "Method", "How the register is built", "Sourced, graded and open: every name links to where they said it."))
+    n_polls = sum(len(c.get("polls") or []) for c in countries)
+    write("/countries", "Countries · Wealth Tax Supporters",
+          f"The {tot['countries']} countries researched so far, with supporters found and seats in the national chambers.",
+          "countries", "Country by country", lambda o: cards.page_card(o, "Countries", "Country by country", f"{tot['countries']} countries so far, each researched separately."))
+    write("/polls", "What polls say about a wealth tax · Wealth Tax Supporters",
+          f"{n_polls} polls on a wealth tax, each shown with its question and checked against the pollster's own report.",
+          "polls", "What polls say", lambda o: cards.page_card(o, "Polls", "What polls say", "How many people agree, poll by poll, with the question asked."))
     write("/contribute", "Put your country on the map · Wealth Tax Supporters",
           "Start a register for your country, suggest a supporter, or help check the entries that are already here.",
           "contribute", "Put your country on the map", lambda o: cards.page_card(o, "Contribute", "Put your country on the map", "Start a register for your country, or suggest a supporter."))
