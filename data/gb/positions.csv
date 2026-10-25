@@ -37,7 +37,7 @@ O00035,A0035,B0001,MP,Labour,G0007,2019-12-12,,y,4869,2026-10-25,https://members
 O00036,A0036,B0001,MP,Labour,G0353,2024-07-04,,y,5030,2026-10-25,https://members.parliament.uk/member/5030/contact
 O00037,A0037,B0001,MP,Scottish National Party,G0016,2019-12-12,,y,4736,2026-10-25,https://members.parliament.uk/member/4736/contact
 O00038,A0038,B0001,MP,Scottish National Party,G0016,2024-07-04,,y,5280,2026-10-25,https://members.parliament.uk/member/5280/contact
-O00039,A0039,B0001,MP,Scottish National Party,G0417,2024-07-04,,y,5277,2026-10-25,https://members.parliament.uk/member/5277/contact
+O00039,A0039,B0001,MP,Scottish National Party,G0016,2024-07-04,,y,5277,2026-10-25,https://members.parliament.uk/member/5277/contact
 O00040,A0040,B0001,MP,Social Democratic & Labour Party,G0018,2019-12-12,,y,4846,2026-10-25,https://members.parliament.uk/member/4846/contact
 O00041,A0041,B0001,MP,Green Party,G0013,2024-07-04,,y,5102,2026-10-25,https://members.parliament.uk/member/5102/contact
 O00042,A0042,B0001,MP,Labour,G0172,2024-07-04,,y,5110,2026-10-25,https://members.parliament.uk/member/5110/contact
@@ -59,20 +59,19 @@ O00057,A0063,B0001,MP,Labour,G0014,2019-12-12,,y,4747,2026-10-25,https://members
 O00058,A0064,B0001,MP,Labour,G0417,2019-12-12,2024-05-30,n,4809,2026-10-25,https://members.parliament.uk/member/4809/contact
 O00059,A0065,B0001,MP,Independent,G0417,2010-05-06,2024-05-30,n,3943,2026-10-25,https://members.parliament.uk/member/3943/contact
 O00060,A0066,B0001,MP,Alba Party,G0417,2019-12-12,2024-05-30,n,4772,2026-10-25,https://members.parliament.uk/member/4772/contact
-O00061,A0067,B0001,MP,Labour,G0417,2019-12-12,,y,4828,2026-10-25,https://members.parliament.uk/member/4828/contact
+O00061,A0067,B0001,MP,Labour,G0234,2019-12-12,,y,4828,2026-10-25,https://members.parliament.uk/member/4828/contact
 O00062,A0068,B0001,MP,Independent,G0007,2019-12-12,2024-05-30,n,4848,2026-10-25,https://members.parliament.uk/member/4848/contact
 O00063,A0069,B0001,MP,Labour,G0011,2019-12-12,2024-05-30,n,4755,2026-10-25,https://members.parliament.uk/member/4755/contact
 O00064,A0070,B0001,MP,Labour,G0417,2010-05-06,2024-05-30,n,4000,2026-10-25,https://members.parliament.uk/member/4000/contact
 O00065,A0071,B0001,MP,Green Party,G0417,2010-05-06,2024-05-30,n,3930,2026-10-25,https://members.parliament.uk/member/3930/contact
 O00066,A0072,B0001,MP,Liberal Democrat,G0013,2017-06-08,,y,4602,2026-10-25,https://members.parliament.uk/member/4602/contact
-O00067,A0073,B0001,MP,Labour,G0417,2017-06-08,,y,4651,2026-10-25,https://members.parliament.uk/member/4651/contact
+O00067,A0073,B0001,MP,Labour,G0234,2017-06-08,,y,4651,2026-10-25,https://members.parliament.uk/member/4651/contact
 O00068,A0074,B0001,MP,Scottish National Party,G0016,2015-05-07,2024-05-30,n,4470,2026-10-25,https://members.parliament.uk/member/4470/contact
 O00069,A0075,B0001,MP,Scottish National Party,G0016,2015-05-07,2024-05-30,n,4385,2026-10-25,https://members.parliament.uk/member/4385/contact
 O00070,A0076,B0001,MP,Independent,G0011,2005-05-05,2026-01-23,n,1506,2026-10-25,https://members.parliament.uk/member/1506/contact
 O00071,A0077,B0001,MP,Labour,G0011,2015-05-07,2024-05-30,n,4363,2026-10-25,https://members.parliament.uk/member/4363/contact
 O00072,A0078,B0001,MP,Independent,G0016,2005-05-05,2024-05-30,n,1546,2026-10-25,https://members.parliament.uk/member/1546/contact
 O00073,A0079,B0001,MP,Labour,G0009,2001-06-07,2024-05-30,n,1406,2026-10-25,https://members.parliament.uk/member/1406/contact
-O00074,A0080,B0001,MP,Labour,G0010,2013-05-02,,y,4277,2026-10-25,https://members.parliament.uk/member/4277/contact
 O00075,A0081,B0001,MP,Scottish National Party,G0417,2019-12-12,2024-05-30,n,4740,2026-10-25,https://members.parliament.uk/member/4740/contact
 O00076,A0082,B0001,MP,Scottish National Party,G0417,2015-05-07,2024-05-30,n,4453,2026-10-25,https://members.parliament.uk/member/4453/contact
 O00077,A0083,B0001,MP,Independent,G0017,2010-05-06,2024-05-30,n,155,2026-10-25,https://members.parliament.uk/member/155/contact

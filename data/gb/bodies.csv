@@ -1,6 +1,4 @@
 body_id,name,level,kind,seats,as_of,source_url,seat_view,notes
-B0001,House of Commons,national,chamber,650,2026-10-25,https://members.parliament.uk/members/commons,y,
-B0002,House of Lords,national,chamber,816,2026-10-25,https://members.parliament.uk/members/lords,y,
 B0003,Scottish Parliament,regional,chamber,,,,,
 B0004,Senedd Cymru,regional,chamber,,,,,
 B0005,London Assembly,regional,chamber,,,,,
@@ -24,3 +22,5 @@ B0025,Warwick District Council,local,council,,,,,
 B0026,Mid Suffolk District Council,local,council,,,,,
 B0027,Maidstone Borough Council,local,council,,,,,
 B0028,Lewes District Council,local,council,,,,,
+B0001,House of Commons,national,chamber,650,2026-10-25,https://members.parliament.uk/members/commons,y,
+B0002,House of Lords,national,chamber,816,2026-10-25,https://members.parliament.uk/members/lords,y,
