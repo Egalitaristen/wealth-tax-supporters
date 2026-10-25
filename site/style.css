@@ -164,7 +164,7 @@ select.field { appearance: none; padding-right: 30px; background-image: linear-g
 .crumb a { color: var(--signal); text-decoration: none; font-weight: 500; }
 .worldmap .zoomer { top: 0; right: 0; }
 .countries { margin-top: 28px; border-top: 1.5px solid var(--ink); }
-.crow { display: grid; grid-template-columns: 56px minmax(0, 1.4fr) repeat(3, minmax(0, .7fr)) 120px 28px; gap: 16px; align-items: center; padding: 10px 0; border-bottom: 1px solid var(--rule); text-decoration: none; }
+.crow { display: grid; grid-template-columns: 40px minmax(0, 1fr) minmax(0, 1.25fr) minmax(0, 1.9fr) minmax(0, .9fr) 24px; gap: 16px; align-items: center; padding: 10px 0; border-bottom: 1px solid var(--rule); text-decoration: none; }
 .crow:hover { color: var(--ink); background: linear-gradient(to right, var(--paper-2), transparent); }
 .crow:hover .arrow { transform: translateX(4px); color: var(--signal); }
 .crow .iso { font: 500 12px/1 var(--mono); color: var(--ink-3); }
@@ -642,3 +642,17 @@ body:not(.ready) .foot { visibility: hidden; }
 .flink { background: none; border: 0; color: var(--ink-3); text-decoration: underline; cursor: pointer; font: inherit; padding: 6px; }
 .pal-f { padding: 0 20px 8px; }
 @media (max-width: 760px) { .polls.wide { grid-template-columns: minmax(0, 1fr); } .crow .nm { font-size: 22px; } }
+
+.crow .st.inl { display: flex; align-items: baseline; gap: 8px; }
+.crow .st.inl b { display: inline; }
+.crow .seatcol .sl { display: flex; gap: 8px; align-items: baseline; font-size: 15px; }
+.crow .seatcol .sl > span { color: var(--ink-3); font-size: 13px; }
+.crow .seatcol .sl b { font: 400 22px/1.15 var(--serif); }
+.crow .seatcol > b { font: 400 22px/1.15 var(--serif); }
+.crow .st.inl > span { font: 400 22px/1.15 var(--serif); letter-spacing: -.01em; color: var(--ink-3); }
+.crow .st.inl, .crow .seatcol .sl b, .crow .st b { white-space: nowrap; }
+.crow .st.inl > span { white-space: nowrap; }
+.crow .seatcol .sl { min-width: 0; }
+.crow .seatcol .sl > span { flex: 1; min-width: 0; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+.crow .seatcol .sl b { flex: none; }
+@media (max-width: 1100px) { .crow .st.inl > span { font-size: 16px; } }
