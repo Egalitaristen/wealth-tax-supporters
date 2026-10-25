@@ -27,7 +27,7 @@ Supporters in devolved parliaments, state legislatures and councils already have
 - [#65](https://github.com/Egalitaristen/wealth-tax-supporters/issues/65) The Senedd and the London Assembly (the Scottish Parliament is done)
 - [#66](https://github.com/Egalitaristen/wealth-tax-supporters/issues/66) US state legislatures
 - [#67](https://github.com/Egalitaristen/wealth-tax-supporters/issues/67) Councils and city governments
-- [#73](https://github.com/Egalitaristen/wealth-tax-supporters/issues/73) The European Parliament
+- [#73](https://github.com/Egalitaristen/wealth-tax-supporters/issues/73) The European Parliament (the chart is live with the 14 supporters already on the record; more MEPs to find, and other bodies: the Pan-African Parliament and the UN General Assembly are listed as planned in `data/supranational.json`)
 
 ## Data quality
 

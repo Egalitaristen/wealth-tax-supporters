@@ -1,0 +1,8 @@
+{
+  "name": "European Union",
+  "iso2": "EU",
+  "supranational": true,
+  "lead": "Egalitaristen",
+  "status": "in progress",
+  "notes": "Seats of the European Parliament. A supporter who sits as an MEP is recorded in the register of their own country (data/<iso2>); this folder holds only the chamber, its groups and the positions (actor ids are <country folder>-<id>, e.g. se-A0042). Run python skill/scripts/seats.py data/eu to refresh."
+}

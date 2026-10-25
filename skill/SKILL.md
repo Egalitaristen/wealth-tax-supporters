@@ -240,6 +240,7 @@ python skill/scripts/seats_uk.py data/gb          # UK only: Commons and Lords s
 python skill/scripts/seats.py data/gb --adapter scottish_parliament   # the Scottish Parliament (129 MSPs) from data.parliament.scot; --adapter picks a chamber set other than the country's own
 python skill/scripts/seats_us.py data/us          # US only: Senate and House seats and sitting members (congress-legislators, CC0)
 python skill/scripts/seats.py data/se             # se, de, nl, no, fr, br, ca, es, pl, be, in, jp, my, sg, id, ng, cn, nz: the chamber's seats and sitting members from the parliament's open data; --fix-status marks those who left as former
+python skill/scripts/seats.py data/eu             # the European Parliament (720 MEPs, by political group) from data.europarl.europa.eu; matches supporters in every country register by the MEP's own country. data/eu has only meta.json (supranational: true), bodies, seats and positions (actor ids are <folder>-<id>); a supporter who is an MEP stays an actor in their own country, whose role you keep current by hand
 python skill/scripts/wtdb.py status data/gb       # counts, coverage grid, sweep progress, suggested next targets
 python skill/scripts/wtdb.py export data/gb       # writes data/gb/<slug>_wealth_tax_supporters.xlsx
 ```
