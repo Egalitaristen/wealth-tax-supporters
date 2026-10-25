@@ -25,6 +25,7 @@ python skill/scripts/profiles_wikidata.py data/<iso2>    # websites and accounts
 python skill/scripts/wtdb.py locate data/<iso2>          # geo_unit_id and location in step
 python skill/scripts/archive_sources.py data/<iso2>      # archive_url from existing Wayback snapshots
 python skill/scripts/seats_uk.py data/gb                 # UK only: who sits in the Commons and Lords today; lists roles and statuses that disagree
+python skill/scripts/seats_us.py data/us                 # US only: who sits in the Senate and House today; same
 ```
 
 Spot-check a handful of what `match_wikidata.py` filled (the description should fit the person) before going on.
