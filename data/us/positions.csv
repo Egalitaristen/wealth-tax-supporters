@@ -333,53 +333,53 @@ O01371,A0713,B0003,California Assemblymember (D-Hayward),Democratic Party,G0007,
 O01372,A0728,B0104,Florida state representative; 2026 Democratic nominee for US Senate (Florida),Democratic Party,G0012,,,,,,
 O01373,A0741,B0003,California State Assemblymember (AD-43),Democratic Party,G0007,,,,,,
 O01374,A0742,B0003,California State Assemblymember (AD-78),Democratic Party,G0007,,,,,,
-O01375,A0001,B0001,U.S. Senator,Democratic Party,G0024,2013-01-03,,y,W000817,2026-10-25,https://bioguide.congress.gov/search/bio/W000817
-O01376,A0002,B0001,U.S. Senator,Independent,G0048,2007-01-04,,y,S000033,2026-10-25,https://bioguide.congress.gov/search/bio/S000033
-O01377,A0003,B0001,U.S. Senator,Democratic Party,G0042,2007-01-04,,y,W000802,2026-10-25,https://bioguide.congress.gov/search/bio/W000802
-O01378,A0004,B0001,U.S. Senator,Democratic Party,G0040,2009-01-06,,y,M001176,2026-10-25,https://bioguide.congress.gov/search/bio/M001176
-O01379,A0005,B0001,U.S. Senator,Democratic Party,G0035,2009-01-27,,y,G000555,2026-10-25,https://bioguide.congress.gov/search/bio/G000555
-O01380,A0006,B0001,U.S. Senator,Democratic Party,G0014,2012-12-27,,y,S001194,2026-10-25,https://bioguide.congress.gov/search/bio/S001194
-O01381,A0007,B0001,U.S. Senator,Democratic Party,G0024,2013-07-16,,y,M000133,2026-10-25,https://bioguide.congress.gov/search/bio/M000133
-O01382,A0008,B0001,U.S. Senator,Democratic Party,G0014,2013-01-03,,y,H001042,2026-10-25,https://bioguide.congress.gov/search/bio/H001042
-O01383,A0009,B0002,U.S. Representative,Democratic Party,G0050,2017-01-03,,y,J000298,2026-10-25,https://bioguide.congress.gov/search/bio/J000298
-O01384,A0010,B0002,U.S. Representative,Democratic Party,G0041,2015-01-06,,y,B001296,2026-10-25,https://bioguide.congress.gov/search/bio/B001296
-O01385,A0113,B0001,U.S. Senator,Democratic Party,G0009,2013-01-03,,y,M001169,2026-10-25,https://bioguide.congress.gov/search/bio/M001169
-O01386,A0114,B0002,U.S. Representative,Democratic Party,G0007,2009-07-16,,y,C001080,2026-10-25,https://bioguide.congress.gov/search/bio/C001080
-O01387,A0115,B0002,U.S. Representative,Democratic Party,G0007,2017-01-03,,y,K000389,2026-10-25,https://bioguide.congress.gov/search/bio/K000389
+O01375,A0001,B0001,US Senator (D-MA),Democratic Party,G0024,2013-01-03,,y,W000817,2026-10-25,https://www.senate.gov/general/contact_information/senators_cfm.xml
+O01376,A0002,B0001,US Senator (I-VT),Independent,G0048,2007-01-04,,y,S000033,2026-10-25,https://www.senate.gov/general/contact_information/senators_cfm.xml
+O01377,A0003,B0001,US Senator (D-RI),Democratic Party,G0042,2007-01-04,,y,W000802,2026-10-25,https://www.senate.gov/general/contact_information/senators_cfm.xml
+O01378,A0004,B0001,US Senator (D-OR),Democratic Party,G0040,2009-01-06,,y,M001176,2026-10-25,https://www.senate.gov/general/contact_information/senators_cfm.xml
+O01379,A0005,B0001,US Senator (D-NY),Democratic Party,G0035,2009-01-27,,y,G000555,2026-10-25,https://www.senate.gov/general/contact_information/senators_cfm.xml
+O01380,A0006,B0001,US Senator (D-HI),Democratic Party,G0014,2012-12-27,,y,S001194,2026-10-25,https://www.senate.gov/general/contact_information/senators_cfm.xml
+O01381,A0007,B0001,US Senator (D-MA),Democratic Party,G0024,2013-07-16,,y,M000133,2026-10-25,https://www.senate.gov/general/contact_information/senators_cfm.xml
+O01382,A0008,B0001,US Senator (D-HI),Democratic Party,G0014,2013-01-03,,y,H001042,2026-10-25,https://www.senate.gov/general/contact_information/senators_cfm.xml
+O01383,A0009,B0002,US Representative (D-WA-07),Democratic Party,G0050,2017-01-03,,y,J000298,2026-10-25,https://clerk.house.gov/members/J000298
+O01384,A0010,B0002,US Representative (D-PA-02),Democratic Party,G0041,2015-01-06,,y,B001296,2026-10-25,https://clerk.house.gov/members/B001296
+O01385,A0113,B0001,US Senator (D-CT),Democratic Party,G0009,2013-01-03,,y,M001169,2026-10-25,https://www.senate.gov/general/contact_information/senators_cfm.xml
+O01386,A0114,B0002,US Representative (D-CA-28),Democratic Party,G0007,2009-07-16,,y,C001080,2026-10-25,https://clerk.house.gov/members/C001080
+O01387,A0115,B0002,US Representative (D-CA-17),Democratic Party,G0007,2017-01-03,,y,K000389,2026-10-25,https://clerk.house.gov/members/K000389
 O01388,A0271,B0002,U.S. Representative,Democratic Party,G0007,1998-04-07,2025-01-03,n,L000551,2026-10-25,https://bioguide.congress.gov/search/bio/L000551
-O01389,A0272,B0002,U.S. Representative,Democratic Party,G0026,2019-01-03,,y,O000173,2026-10-25,https://bioguide.congress.gov/search/bio/O000173
-O01390,A0273,B0002,U.S. Representative,Democratic Party,G0035,2019-01-03,,y,O000172,2026-10-25,https://bioguide.congress.gov/search/bio/O000172
+O01389,A0272,B0002,US Representative (D-MN-05),Democratic Party,G0026,2019-01-03,,y,O000173,2026-10-25,https://clerk.house.gov/members/O000173
+O01390,A0273,B0002,US Representative (D-NY-14),Democratic Party,G0035,2019-01-03,,y,O000172,2026-10-25,https://clerk.house.gov/members/O000172
 O01391,A0274,B0002,U.S. Representative,Democratic Party,G0028,2021-01-03,2025-01-03,n,B001224,2026-10-25,https://bioguide.congress.gov/search/bio/B001224
-O01392,A0275,B0002,U.S. Representative,Democratic Party,G0007,2013-01-03,,y,T000472,2026-10-25,https://bioguide.congress.gov/search/bio/T000472
+O01392,A0275,B0002,US Representative (D-CA-39),Democratic Party,G0007,2013-01-03,,y,T000472,2026-10-25,https://clerk.house.gov/members/T000472
 O01393,A0276,B0002,U.S. Representative,Democratic Party,G0035,2021-01-03,2025-01-03,n,B001223,2026-10-25,https://bioguide.congress.gov/search/bio/B001223
-O01394,A0277,B0002,U.S. Representative,Democratic Party,G0016,1999-01-06,,y,S001145,2026-10-25,https://bioguide.congress.gov/search/bio/S001145
-O01395,A0278,B0002,U.S. Representative,Democratic Party,G0033,2015-01-06,,y,W000822,2026-10-25,https://bioguide.congress.gov/search/bio/W000822
+O01394,A0277,B0002,US Representative (D-IL-09),Democratic Party,G0016,1999-01-06,,y,S001145,2026-10-25,https://clerk.house.gov/members/S001145
+O01395,A0278,B0002,US Representative (D-NJ-12),Democratic Party,G0033,2015-01-06,,y,W000822,2026-10-25,https://clerk.house.gov/members/W000822
 O01396,A0279,B0002,U.S. Representative,Democratic Party,G0035,2021-01-03,2023-01-03,n,J000306,2026-10-25,https://bioguide.congress.gov/search/bio/J000306
-O01397,A0280,B0002,U.S. Representative,Democratic Party,G0024,2019-01-03,,y,P000617,2026-10-25,https://bioguide.congress.gov/search/bio/P000617
-O01398,A0281,B0002,U.S. Representative,Democratic Party,G0024,1997-01-07,,y,M000312,2026-10-25,https://bioguide.congress.gov/search/bio/M000312
-O01399,A0282,B0002,U.S. Representative,Democratic Party,G0041,2016-11-14,,y,E000296,2026-10-25,https://bioguide.congress.gov/search/bio/E000296
-O01400,A0283,B0002,U.S. Representative,Democratic Party,G0016,2019-01-03,,y,G000586,2026-10-25,https://bioguide.congress.gov/search/bio/G000586
-O01401,A0284,B0002,U.S. Representative,Democratic Party,G0050,1997-01-07,,y,S000510,2026-10-25,https://bioguide.congress.gov/search/bio/S000510
-O01402,A0285,B0002,U.S. Representative,Democratic Party,G0025,2019-01-03,,y,T000481,2026-10-25,https://bioguide.congress.gov/search/bio/T000481
+O01397,A0280,B0002,US Representative (D-MA-07),Democratic Party,G0024,2019-01-03,,y,P000617,2026-10-25,https://clerk.house.gov/members/P000617
+O01398,A0281,B0002,US Representative (D-MA-02),Democratic Party,G0024,1997-01-07,,y,M000312,2026-10-25,https://clerk.house.gov/members/M000312
+O01399,A0282,B0002,US Representative (D-PA-03),Democratic Party,G0041,2016-11-14,,y,E000296,2026-10-25,https://clerk.house.gov/members/E000296
+O01400,A0283,B0002,US Representative (D-IL-04),Democratic Party,G0016,2019-01-03,,y,G000586,2026-10-25,https://clerk.house.gov/members/G000586
+O01401,A0284,B0002,US Representative (D-WA-09),Democratic Party,G0050,1997-01-07,,y,S000510,2026-10-25,https://clerk.house.gov/members/S000510
+O01402,A0285,B0002,US Representative (D-MI-12),Democratic Party,G0025,2019-01-03,,y,T000481,2026-10-25,https://clerk.house.gov/members/T000481
 O01403,A0286,B0002,U.S. Representative,Democratic Party,G0041,2018-11-27,2025-01-03,n,W000826,2026-10-25,https://bioguide.congress.gov/search/bio/W000826
 O01404,A0287,B0002,U.S. Representative,Democratic Party,G0040,1987-01-06,2023-01-03,n,D000191,2026-10-25,https://bioguide.congress.gov/search/bio/D000191
-O01405,A0288,B0001,U.S. Senator,Democratic Party,G0048,2023-01-03,,y,W000800,2026-10-25,https://bioguide.congress.gov/search/bio/W000800
-O01406,A0289,B0002,U.S. Representative,Democratic Party,G0045,2007-01-04,,y,C001068,2026-10-25,https://bioguide.congress.gov/search/bio/C001068
+O01405,A0288,B0001,US Senator (D-VT),Democratic Party,G0048,2023-01-03,,y,W000800,2026-10-25,https://www.senate.gov/general/contact_information/senators_cfm.xml
+O01406,A0289,B0002,US Representative (D-TN-09),Democratic Party,G0045,2007-01-04,,y,C001068,2026-10-25,https://clerk.house.gov/members/C001068
 O01407,A0290,B0002,U.S. Representative,Democratic Party,G0007,2013-01-03,2023-01-03,n,L000579,2026-10-25,https://bioguide.congress.gov/search/bio/L000579
-O01408,A0291,B0002,U.S. Representative,Democratic Party,G0035,2013-01-03,,y,M001188,2026-10-25,https://bioguide.congress.gov/search/bio/M001188
-O01409,A0292,B0002,U.S. Representative,Democratic Party,G0007,2015-01-06,,y,D000623,2026-10-25,https://bioguide.congress.gov/search/bio/D000623
+O01408,A0291,B0002,US Representative (D-NY-06),Democratic Party,G0035,2013-01-03,,y,M001188,2026-10-25,https://clerk.house.gov/members/M001188
+O01409,A0292,B0002,US Representative (D-CA-10),Democratic Party,G0007,2015-01-06,,y,D000623,2026-10-25,https://clerk.house.gov/members/D000623
 O01410,A0293,B0002,U.S. Representative,Democratic Party,G0014,2021-01-03,2023-01-03,n,K000396,2026-10-25,https://bioguide.congress.gov/search/bio/K000396
 O01411,A0294,B0002,U.S. Representative,Democratic Party,G0025,2019-01-03,2023-01-03,n,L000592,2026-10-25,https://bioguide.congress.gov/search/bio/L000592
-O01412,A0295,B0002,U.S. Representative,Democratic Party,G0049,2015-01-06,,y,B001292,2026-10-25,https://bioguide.congress.gov/search/bio/B001292
+O01412,A0295,B0002,US Representative (D-VA-08),Democratic Party,G0049,2015-01-06,,y,B001292,2026-10-25,https://clerk.house.gov/members/B001292
 O01413,A0296,B0002,U.S. Representative,Democratic Party,G0041,2013-01-03,2025-01-03,n,C001090,2026-10-25,https://bioguide.congress.gov/search/bio/C001090
-O01414,A0297,B0002,U.S. Representative,Democratic Party,G0033,1987-01-06,,y,P000034,2026-10-25,https://bioguide.congress.gov/search/bio/P000034
-O01415,A0298,B0001,U.S. Senator,Democratic Party,G0007,2021-01-20,,y,P000145,2026-10-25,https://bioguide.congress.gov/search/bio/P000145
-O01416,A0299,B0002,U.S. Representative,Democratic Party,G0016,1997-01-07,,y,D000096,2026-10-25,https://bioguide.congress.gov/search/bio/D000096
-O01417,A0300,B0002,U.S. Representative,Democratic Party,G0035,2023-01-03,,y,G000599,2026-10-25,https://bioguide.congress.gov/search/bio/G000599
-O01418,A0301,B0002,U.S. Representative,Democratic Party,G0023,2023-01-03,,y,I000058,2026-10-25,https://bioguide.congress.gov/search/bio/I000058
-O01419,A0302,B0002,U.S. Representative,Democratic Party,G0016,2023-01-03,,y,J000309,2026-10-25,https://bioguide.congress.gov/search/bio/J000309
-O01420,A0303,B0002,U.S. Representative,Democratic Party,G0013,2007-01-04,,y,J000288,2026-10-25,https://bioguide.congress.gov/search/bio/J000288
-O01421,A0304,B0002,U.S. Representative,Democratic Party,G0041,2023-01-03,,y,L000602,2026-10-25,https://bioguide.congress.gov/search/bio/L000602
+O01414,A0297,B0002,US Representative (D-NJ-06),Democratic Party,G0033,1987-01-06,,y,P000034,2026-10-25,https://clerk.house.gov/members/P000034
+O01415,A0298,B0001,US Senator (D-CA),Democratic Party,G0007,2021-01-20,,y,P000145,2026-10-25,https://www.senate.gov/general/contact_information/senators_cfm.xml
+O01416,A0299,B0002,US Representative (D-IL-07),Democratic Party,G0016,1997-01-07,,y,D000096,2026-10-25,https://clerk.house.gov/members/D000096
+O01417,A0300,B0002,US Representative (D-NY-10),Democratic Party,G0035,2023-01-03,,y,G000599,2026-10-25,https://clerk.house.gov/members/G000599
+O01418,A0301,B0002,US Representative (D-MD-04),Democratic Party,G0023,2023-01-03,,y,I000058,2026-10-25,https://clerk.house.gov/members/I000058
+O01419,A0302,B0002,US Representative (D-IL-01),Democratic Party,G0016,2023-01-03,,y,J000309,2026-10-25,https://clerk.house.gov/members/J000309
+O01420,A0303,B0002,US Representative (D-GA-04),Democratic Party,G0013,2007-01-04,,y,J000288,2026-10-25,https://clerk.house.gov/members/J000288
+O01421,A0304,B0002,US Representative (D-PA-12),Democratic Party,G0041,2023-01-03,,y,L000602,2026-10-25,https://clerk.house.gov/members/L000602
 O01422,A0305,B0002,U.S. Representative,Democratic Party,G0035,1992-11-03,,y,N000002,2026-10-25,https://bioguide.congress.gov/search/bio/N000002
 O01423,A0306,B0002,U.S. Representative,Democratic Party,G0007,2019-01-03,2025-01-03,n,P000618,2026-10-25,https://bioguide.congress.gov/search/bio/P000618
 O01424,A0307,B0002,U.S. Representative,Democratic Party,G0016,2023-01-03,,y,R000617,2026-10-25,https://bioguide.congress.gov/search/bio/R000617
@@ -390,35 +390,35 @@ O01428,A0311,B0002,U.S. Representative,Democratic Party,G0007,1991-01-03,,y,W000
 O01429,A0312,B0002,U.S. Representative,Democratic Party,G0041,2023-01-03,,y,D000530,2026-10-25,https://bioguide.congress.gov/search/bio/D000530
 O01430,A0313,B0002,U.S. Representative,Democratic Party,G0005,2025-01-03,,y,A000381,2026-10-25,https://bioguide.congress.gov/search/bio/A000381
 O01431,A0314,B0002,U.S. Representative,Democratic Party,G0041,2019-01-03,,y,D000631,2026-10-25,https://bioguide.congress.gov/search/bio/D000631
-O01432,A0315,B0002,U.S. Representative,Democratic Party,G0036,2023-01-03,,y,F000477,2026-10-25,https://bioguide.congress.gov/search/bio/F000477
-O01433,A0316,B0002,U.S. Representative,Democratic Party,G0007,2025-01-03,,y,F000483,2026-10-25,https://bioguide.congress.gov/search/bio/F000483
+O01432,A0315,B0002,US Representative (D-NC-04),Democratic Party,G0036,2023-01-03,,y,F000477,2026-10-25,https://clerk.house.gov/members/F000477
+O01433,A0316,B0002,US Representative (D-CA-30),Democratic Party,G0007,2025-01-03,,y,F000483,2026-10-25,https://clerk.house.gov/members/F000483
 O01434,A0317,B0002,U.S. Representative,Democratic Party,G0012,2023-01-03,,y,F000476,2026-10-25,https://bioguide.congress.gov/search/bio/F000476
 O01435,A0318,B0002,U.S. Representative,Democratic Party,G0005,2025-11-12,,y,G000606,2026-10-25,https://bioguide.congress.gov/search/bio/G000606
 O01436,A0319,B0002,U.S. Representative,Democratic Party,G0016,2013-04-09,,y,K000385,2026-10-25,https://bioguide.congress.gov/search/bio/K000385
 O01437,A0320,B0002,U.S. Representative,Democratic Party,G0007,2003-01-07,,y,S001156,2026-10-25,https://bioguide.congress.gov/search/bio/S001156
 O01438,A0321,B0002,U.S. Representative,Democratic Party,G0007,2025-01-03,,y,S001231,2026-10-25,https://bioguide.congress.gov/search/bio/S001231
 O01439,A0322,B0002,U.S. Representative,Democratic Party,G0034,2021-06-14,,y,S001218,2026-10-25,https://bioguide.congress.gov/search/bio/S001218
-O01440,A0323,B0002,U.S. Representative,Democratic Party,G0025,2023-01-03,,y,T000488,2026-10-25,https://bioguide.congress.gov/search/bio/T000488
-O01441,A0324,B0002,U.S. Representative,Democratic Party,G0035,1993-01-05,,y,V000081,2026-10-25,https://bioguide.congress.gov/search/bio/V000081
+O01440,A0323,B0002,US Representative (D-MI-13),Democratic Party,G0025,2023-01-03,,y,T000488,2026-10-25,https://clerk.house.gov/members/T000488
+O01441,A0324,B0002,US Representative (D-NY-07),Democratic Party,G0035,1993-01-05,,y,V000081,2026-10-25,https://clerk.house.gov/members/V000081
 O01442,A0325,B0002,U.S. Representative,Democratic Party,G0046,2023-01-03,,y,C001131,2026-10-25,https://bioguide.congress.gov/search/bio/C001131
-O01443,A0326,B0002,U.S. Representative,Democratic Party,G0022,2009-01-06,,y,P000597,2026-10-25,https://bioguide.congress.gov/search/bio/P000597
-O01444,A0327,B0002,U.S. Representative,Democratic Party,G0033,2026-04-20,,y,M001246,2026-10-25,https://bioguide.congress.gov/search/bio/M001246
-O01445,A0328,B0002,U.S. Representative,Democratic Party,G0034,2021-01-03,,y,L000273,2026-10-25,https://bioguide.congress.gov/search/bio/L000273
-O01446,A0329,B0002,U.S. Representative,Democratic Party,G0035,2017-01-03,,y,E000297,2026-10-25,https://bioguide.congress.gov/search/bio/E000297
+O01443,A0326,B0002,US Representative (D-ME-01),Democratic Party,G0022,2009-01-06,,y,P000597,2026-10-25,https://clerk.house.gov/members/P000597
+O01444,A0327,B0002,US Representative (D-NJ-11),Democratic Party,G0033,2026-04-20,,y,M001246,2026-10-25,https://clerk.house.gov/members/M001246
+O01445,A0328,B0002,US Representative (D-NM-03),Democratic Party,G0034,2021-01-03,,y,L000273,2026-10-25,https://clerk.house.gov/members/L000273
+O01446,A0329,B0002,US Representative (D-NY-13),Democratic Party,G0035,2017-01-03,,y,E000297,2026-10-25,https://clerk.house.gov/members/E000297
 O01447,A0330,B0002,U.S. Representative,Democratic Party,G0040,2025-01-03,,y,D000635,2026-10-25,https://bioguide.congress.gov/search/bio/D000635
 O01448,A0331,B0001,U.S. Senator,Democratic Party,G0016,2017-01-03,,y,D000622,2026-10-25,https://bioguide.congress.gov/search/bio/D000622
 O01449,A0332,B0001,U.S. Senator,Democratic Party,G0026,2018-01-03,,y,S001203,2026-10-25,https://bioguide.congress.gov/search/bio/S001203
 O01450,A0333,B0001,U.S. Senator,Democratic Party,G0023,2017-01-03,,y,V000128,2026-10-25,https://bioguide.congress.gov/search/bio/V000128
 O01451,A0334,B0001,U.S. Senator,Democratic Party,G0040,1996-02-05,,y,W000779,2026-10-25,https://bioguide.congress.gov/search/bio/W000779
-O01452,A0335,B0001,U.S. Senator,Democratic Party,G0034,2021-01-03,,y,L000570,2026-10-25,https://bioguide.congress.gov/search/bio/L000570
-O01453,A0336,B0001,U.S. Senator,Democratic Party,G0023,2025-01-03,,y,A000382,2026-10-25,https://bioguide.congress.gov/search/bio/A000382
+O01452,A0335,B0001,US Senator (D-NM),Democratic Party,G0034,2021-01-03,,y,L000570,2026-10-25,https://www.senate.gov/general/contact_information/senators_cfm.xml
+O01453,A0336,B0001,US Senator (D-MD),Democratic Party,G0023,2025-01-03,,y,A000382,2026-10-25,https://www.senate.gov/general/contact_information/senators_cfm.xml
 O01454,A0337,B0001,U.S. Senator,Democratic Party,G0052,2013-01-03,,y,B001230,2026-10-25,https://bioguide.congress.gov/search/bio/B001230
-O01455,A0338,B0001,U.S. Senator,Democratic Party,G0009,2011-01-05,,y,B001277,2026-10-25,https://bioguide.congress.gov/search/bio/B001277
+O01455,A0338,B0001,US Senator (D-CT),Democratic Party,G0009,2011-01-05,,y,B001277,2026-10-25,https://www.senate.gov/general/contact_information/senators_cfm.xml
 O01456,A0339,B0001,U.S. Senator,Democratic Party,G0041,2023-01-03,,y,F000479,2026-10-25,https://bioguide.congress.gov/search/bio/F000479
-O01457,A0340,B0001,U.S. Senator,Democratic Party,G0034,2013-01-03,,y,H001046,2026-10-25,https://bioguide.congress.gov/search/bio/H001046
-O01458,A0341,B0001,U.S. Senator,Democratic Party,G0050,1993-01-05,,y,M001111,2026-10-25,https://bioguide.congress.gov/search/bio/M001111
+O01457,A0340,B0001,US Senator (D-NM),Democratic Party,G0034,2013-01-03,,y,H001046,2026-10-25,https://www.senate.gov/general/contact_information/senators_cfm.xml
+O01458,A0341,B0001,US Senator (D-WA),Democratic Party,G0050,1993-01-05,,y,M001111,2026-10-25,https://www.senate.gov/general/contact_information/senators_cfm.xml
 O01459,A0342,B0001,U.S. Senator,Democratic Party,G0042,1997-01-07,,y,R000122,2026-10-25,https://bioguide.congress.gov/search/bio/R000122
-O01460,A0343,B0001,U.S. Senator,Democratic Party,G0010,2010-11-15,,y,C001088,2026-10-25,https://bioguide.congress.gov/search/bio/C001088
+O01460,A0343,B0001,US Senator (D-DE),Democratic Party,G0010,2010-11-15,,y,C001088,2026-10-25,https://www.senate.gov/general/contact_information/senators_cfm.xml
 O01461,A0344,B0002,U.S. Representative,Democratic Party,G0009,1991-01-03,,y,D000216,2026-10-25,https://bioguide.congress.gov/search/bio/D000216
 O01462,A0345,B0002,U.S. Representative,Democratic Party,G0026,2001-01-03,,y,M001143,2026-10-25,https://bioguide.congress.gov/search/bio/M001143
 O01463,A0346,B0002,U.S. Representative,Democratic Party,G0007,2009-11-03,,y,G000559,2026-10-25,https://bioguide.congress.gov/search/bio/G000559
@@ -428,27 +428,27 @@ O01466,A0349,B0002,U.S. Representative,Democratic Party,G0041,2018-11-13,,y,S001
 O01467,A0350,B0002,U.S. Representative,Democratic Party,G0035,2007-01-04,,y,C001067,2026-10-25,https://bioguide.congress.gov/search/bio/C001067
 O01468,A0351,B0002,U.S. Representative,Democratic Party,G0007,2013-01-03,,y,H001068,2026-10-25,https://bioguide.congress.gov/search/bio/H001068
 O01469,A0352,B0002,U.S. Representative,Democratic Party,G0033,2014-11-12,,y,N000188,2026-10-25,https://bioguide.congress.gov/search/bio/N000188
-O01470,A0353,B0002,U.S. Representative,Democratic Party,G0007,1995-01-04,,y,L000397,2026-10-25,https://bioguide.congress.gov/search/bio/L000397
+O01470,A0353,B0002,US Representative (D-CA-18),Democratic Party,G0007,1995-01-04,,y,L000397,2026-10-25,https://clerk.house.gov/members/L000397
 O01471,A0354,B0002,U.S. Representative,Democratic Party,G0016,2023-01-03,,y,B001315,2026-10-25,https://bioguide.congress.gov/search/bio/B001315
 O01472,A0355,B0002,U.S. Representative,Democratic Party,G0009,1999-01-06,,y,L000557,2026-10-25,https://bioguide.congress.gov/search/bio/L000557
 O01473,A0356,B0002,U.S. Representative,Democratic Party,G0007,2017-01-03,,y,B001300,2026-10-25,https://bioguide.congress.gov/search/bio/B001300
-O01474,A0357,B0002,U.S. Representative,Democratic Party,G0023,2017-01-03,,y,R000606,2026-10-25,https://bioguide.congress.gov/search/bio/R000606
+O01474,A0357,B0002,US Representative (D-MD-08),Democratic Party,G0023,2017-01-03,,y,R000606,2026-10-25,https://clerk.house.gov/members/R000606
 O01475,A0358,B0002,U.S. Representative,Democratic Party,G0007,2017-07-11,,y,G000585,2026-10-25,https://bioguide.congress.gov/search/bio/G000585
 O01476,A0359,B0002,U.S. Representative,Democratic Party,G0052,2013-01-03,,y,P000607,2026-10-25,https://bioguide.congress.gov/search/bio/P000607
 O01477,A0360,B0002,U.S. Representative,Democratic Party,G0016,2008-03-08,,y,F000454,2026-10-25,https://bioguide.congress.gov/search/bio/F000454
 O01478,A0361,B0002,U.S. Representative,Democratic Party,G0024,2015-01-06,,y,M001196,2026-10-25,https://bioguide.congress.gov/search/bio/M001196
 O01479,A0362,B0002,U.S. Representative,Democratic Party,G0007,1999-01-06,2025-01-03,n,N000179,2026-10-25,https://bioguide.congress.gov/search/bio/N000179
 O01480,A0363,B0002,U.S. Representative,Democratic Party,G0013,2021-01-03,,y,W000788,2026-10-25,https://bioguide.congress.gov/search/bio/W000788
-O01481,A0364,B0002,U.S. Representative,Democratic Party,G0040,2023-01-03,,y,H001094,2026-10-25,https://bioguide.congress.gov/search/bio/H001094
-O01482,A0365,B0002,U.S. Representative,Democratic Party,G0028,2005-01-04,,y,C001061,2026-10-25,https://bioguide.congress.gov/search/bio/C001061
+O01481,A0364,B0002,US Representative (D-OR-04),Democratic Party,G0040,2023-01-03,,y,H001094,2026-10-25,https://clerk.house.gov/members/H001094
+O01482,A0365,B0002,US Representative (D-MO-05),Democratic Party,G0028,2005-01-04,,y,C001061,2026-10-25,https://clerk.house.gov/members/C001061
 O01483,A0366,B0002,U.S. Representative,Democratic Party,G0017,2008-03-13,,y,C001072,2026-10-25,https://bioguide.congress.gov/search/bio/C001072
 O01484,A0367,B0002,U.S. Representative,Democratic Party,G0021,2021-05-11,,y,C001125,2026-10-25,https://bioguide.congress.gov/search/bio/C001125
 O01485,A0368,B0002,U.S. Representative,Democratic Party,G0024,2019-01-03,,y,T000482,2026-10-25,https://bioguide.congress.gov/search/bio/T000482
-O01486,A0369,B0002,U.S. Representative,Democratic Party,G0038,1983-01-03,,y,K000009,2026-10-25,https://bioguide.congress.gov/search/bio/K000009
+O01486,A0369,B0002,US Representative (D-OH-09),Democratic Party,G0038,1983-01-03,,y,K000009,2026-10-25,https://clerk.house.gov/members/K000009
 O01487,A0370,B0002,U.S. Representative,Democratic Party,G0007,2015-01-06,,y,L000582,2026-10-25,https://bioguide.congress.gov/search/bio/L000582
 O01488,A0371,B0002,U.S. Representative,Democratic Party,G0031,2009-01-06,,y,T000468,2026-10-25,https://bioguide.congress.gov/search/bio/T000468
-O01489,A0372,B0002,U.S. Representative,Democratic Party,G0024,2011-01-05,,y,K000375,2026-10-25,https://bioguide.congress.gov/search/bio/K000375
-O01490,A0373,B0002,U.S. Representative,Democratic Party,G0042,2023-01-03,,y,M001223,2026-10-25,https://bioguide.congress.gov/search/bio/M001223
+O01489,A0372,B0002,US Representative (D-MA-09),Democratic Party,G0024,2011-01-05,,y,K000375,2026-10-25,https://clerk.house.gov/members/K000375
+O01490,A0373,B0002,US Representative (D-RI-02),Democratic Party,G0042,2023-01-03,,y,M001223,2026-10-25,https://clerk.house.gov/members/M001223
 O01491,A0561,B0002,U.S. Representative,Democratic Party,G0016,2021-01-03,2023-01-03,n,N000192,2026-10-25,https://bioguide.congress.gov/search/bio/N000192
 O01492,A0562,B0002,U.S. Representative,Democratic Party,G0020,2007-01-04,2023-01-03,n,Y000062,2026-10-25,https://bioguide.congress.gov/search/bio/Y000062
 O01493,A0564,B0002,U.S. Representative,Democratic Party,G0035,1993-01-05,2023-01-03,n,M000087,2026-10-25,https://bioguide.congress.gov/search/bio/M000087
@@ -456,5 +456,6 @@ O01494,A0565,B0002,U.S. Representative,Democratic Party,G0005,2009-01-06,2023-01
 O01495,A0566,B0001,U.S. Senator,Democratic Party,G0025,2001-01-03,2025-01-03,n,S000770,2026-10-25,https://bioguide.congress.gov/search/bio/S000770
 O01496,A0567,B0001,U.S. Senator,Democratic Party,G0041,2007-01-04,2025-01-03,n,C001070,2026-10-25,https://bioguide.congress.gov/search/bio/C001070
 O01497,A0568,B0001,U.S. Senator,Democratic Party,G0038,2007-01-04,2025-01-03,n,B000944,2026-10-25,https://bioguide.congress.gov/search/bio/B000944
-O01498,A0616,B0002,U.S. Representative,Democratic Party,G0046,2005-01-04,,y,G000553,2026-10-25,https://bioguide.congress.gov/search/bio/G000553
-O01499,A0740,B0002,U.S. Representative,Democratic Party,G0007,2026-09-02,,y,W000832,2026-10-25,https://bioguide.congress.gov/search/bio/W000832
+O01498,A0616,B0002,US Representative (D-TX-09),Democratic Party,G0046,2005-01-04,,y,G000553,2026-10-25,https://clerk.house.gov/members/G000553
+O01499,A0740,B0002,US Representative (D-CA-14),Democratic Party,G0007,2026-09-02,,y,W000832,2026-10-25,https://clerk.house.gov/members/W000832
+O01500,A0288,B0002,US Representative (D-VT-At Large),Democratic Party,G0048,2007-01-03,2023-01-03,n,W000800,2026-10-25,https://history.house.gov/People/Detail/24183
