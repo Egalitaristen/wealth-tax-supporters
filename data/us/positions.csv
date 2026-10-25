@@ -8,7 +8,7 @@ O01046,A0121,B0003,State Assembly District 62,Democratic Party,G0007,,,,,,
 O01047,A0122,B0003,"Assembly Member, District 39",Democratic Party,G0007,,,,,,
 O01048,A0123,B0004,"State Senate, 33",Democratic Party,G0007,,,,,,
 O01049,A0124,B0003,"State Assembly, 50",Democratic Party,G0007,,,,,,
-O01050,A0125,B0005,California State Board of Equalization,Democratic Party,G0007,,,,,,
+O01050,A0125,B0005,"Chair, California State Board of Equalization, District 2",Democratic Party,G0007,,,y,,2026-10-25,https://boe.ca.gov/lieber/about.htm
 O01051,A0126,B0006,"Vice Mayor, City of Camarillo",,G0297,,,,,,
 O01052,A0127,B0007,Richmond Mayor,,G0248,,,,,,
 O01053,A0128,B0008,Oceanside Deputy Mayor,,G0278,,,,,,
@@ -40,29 +40,29 @@ O01078,A0153,B0030,Pinole City Council,,G0248,,,,,,
 O01079,A0154,B0031,"Chula Vista City Council, 1",,G0278,,,,,,
 O01080,A0155,B0018,El Cerrito City Councilmember,,G0248,,,,,,
 O01081,A0156,B0032,Berkeley City Councilmember,,G0242,,,,,,
-O01082,A0157,B0031,"Chula Vista City Counil, Vice Mayor",,G0007,,,,,,
+O01082,A0157,B0031,"Deputy Mayor and Councilmember, Chula Vista District 4",,G0278,,,y,,2026-10-25,https://www.chulavistaca.gov/departments/mayor-and-council/district-4-councilmember-cesar-fernandez
 O01083,A0159,B0033,"Oakland City Council, 2",,G0242,,,,,,
 O01084,A0160,B0034,Councilmember – City of West Hollywood,,G0260,,,,,,
 O01085,A0161,B0035,Riverside City Councilmember,,G0274,,,,,,
-O01086,A0162,B0036,Richmond city council District 6,,G0007,,,,,,
-O01087,A0163,B0021,Emeryville CIty Councilmember,,G0007,,,,,,
+O01086,A0162,B0007,"Councilmember, Richmond District 6",,G0248,,,y,,2026-10-25,https://www.richmondca.gov/29/City-Council
+O01087,A0163,B0021,"Councilmember, Emeryville",,G0242,2024,,y,,2026-10-25,https://www.emeryville.org/Government/City-Council/Council-Members/Council-Member-Courtney-Welch
 O01088,A0164,B0030,Pinole City Council,,G0248,,,,,,
 O01089,A0165,B0007,Richmond City Councilmember,,G0248,,,,,,
 O01090,A0166,B0037,Tracy City Council,,G0280,,,,,,
 O01091,A0167,B0026,"Vallego City Council, 3",,G0289,,,,,,
 O01092,A0168,B0020,San Leandro City Council,,G0242,,,,,,
 O01093,A0169,B0011,Maywood City Councilmember,,G0260,,,,,,
-O01094,A0170,B0038,Cudahy City Council Member,,G0007,,,,,,
+O01094,A0170,B0038,"Councilmember, Cudahy",,G0260,2022-12,,y,,2026-10-25,https://www.cityofcudahyca.gov/194/Elizabeth-Alcantar-Loza
 O01095,A0171,B0039,Hayward City Councilmember,,G0242,,,,,,
 O01096,A0172,B0014,La Mesa City Council,,G0278,,,,,,
-O01097,A0173,B0039,Hayward City Council Member,,G0007,,,,,,
+O01097,A0173,B0039,"Mayor Pro Tempore and Councilmember, Hayward",,G0242,2022,,y,,2026-10-25,https://hayward-ca.gov/your-government/city-council/council-member-george-syrop
 O01098,A0174,B0040,South Gate City Councilmember,,G0260,,,,,,
 O01099,A0175,B0041,Davis City Council,,G0298,,,,,,
 O01100,A0176,B0042,Monterey City Council,,G0268,,,,,,
 O01101,A0177,B0043,Los Angeles City Councilmember,Democratic Party,G0260,,,,,,
 O01102,A0178,B0033,Oakland City Councilmember,,G0242,,,,,,
 O01103,A0179,B0044,Former San Francisco County Supervisor,Democratic Party,G0007,,,,,,
-O01104,A0180,B0045,Vice Mayor Martinez City Council,,G0007,,,,,,
+O01104,A0180,B0045,"Councilmember, Martinez District 1",,G0248,2022-12-07,,y,,2026-10-25,https://martinez.granicus.com/boards/w/2612c99df8842359/boards/17696
 O01105,A0181,B0046,Port Hueneme City Council,,G0297,,,,,,
 O01106,A0182,B0034,West Hollywood City Council,,G0260,,,,,,
 O01107,A0183,B0047,"Councilmember, City of Long Beach",,G0260,,,,,,
@@ -77,23 +77,23 @@ O01115,A0191,B0023,"Chico City Council, 5",,G0245,,,,,,
 O01116,A0192,B0022,Burbank City Council,Democratic Party,G0260,,,,,,
 O01117,A0193,B0052,Orinda City Councilmember,,G0248,,,,,,
 O01118,A0194,B0053,Concord City Councilmember,,G0248,,,,,,
-O01119,A0195,B0018,"El Cerrito Councilmember, former Mayor",,G0007,,,,,,
+O01119,A0195,B0018,"Councilmember, El Cerrito; former Mayor (2023)",,G0248,2020,,y,,2026-10-25,https://el-cerrito.org/1549/Motoyama-Bio
 O01120,A0196,B0013,"Sacramento City Council, 8",Democratic Party,G0275,,,,,,
 O01121,A0197,B0048,National City Councilmember,,G0278,,,,,,
 O01122,A0198,B0054,"Stockton City Council, 4",,G0280,,,,,,
-O01123,A0199,B0021,City of Emeryville Council Member,,G0007,,,,,,
+O01123,A0199,B0021,"Vice Mayor and Councilmember, Emeryville",,G0242,2024,,y,,2026-10-25,https://www.emeryville.org/Government/City-Council/Council-Members/Vice-Mayor-Matthew-Solomon
 O01124,A0200,B0011,Maywood City Councilmember,,G0260,,,,,,
 O01125,A0201,B0031,Chula Vista City Council,,G0278,,,,,,
 O01126,A0202,B0055,"Vacaville City Council, 3",,G0289,,,,,,
-O01127,A0203,B0010,Oxnard City Council District 6,,G0007,,,,,,
+O01127,A0203,B0010,"Councilmember, Oxnard District 6",,G0297,,,y,,2026-10-25,https://www.oxnard.gov/city-council
 O01128,A0204,B0022,Burbank City Council,,G0260,,,,,,
 O01129,A0205,B0056,West Sacramento City Council,,G0298,,,,,,
 O01130,A0206,B0014,La Mesa City Council,,G0278,,,,,,
-O01131,A0207,B0057,San Jose City Council District 5,,G0007,,,,,,
+O01131,A0207,B0057,"Councilmember, San Jose District 5",,G0284,,,y,,2026-10-25,https://www.sjdistrict5.org/the-councilmember
 O01132,A0208,B0058,Citrust Heights City Councilmember,,G0275,,,,,,
 O01133,A0209,B0059,Suisun City Council,,G0289,,,,,,
 O01134,A0210,B0047,Long Beach City Council,,G0260,,,,,,
-O01135,A0211,B0060,"Ventura City Council, 3",,G0007,,,,,,
+O01135,A0211,B0060,"Councilmember, Ventura District 3",,G0297,,,y,,2026-10-25,https://www.cityofventura.ca.gov/m/directory/employee?eid=515
 O01136,A0212,B0061,"Union City City Council, 4",,G0242,,,,,,
 O01137,A0213,B0032,Berkeley City Councilmember,,G0242,,,,,,
 O01138,A0214,B0062,"San Diego City Council, 3",,G0278,,,,,,
@@ -104,16 +104,16 @@ O01142,A0218,B0020,San Leandro City Council,,G0242,,,,,,
 O01143,A0219,B0009,Culver City City Council,,G0260,,,,,,
 O01144,A0220,B0043,Los Angeles City Councilmember,Democratic Party,G0260,,,,,,
 O01145,A0221,B0033,Oakland City Councilmember,,G0242,,,,,,
-O01146,A0222,B0063,"Trustee, Cabrillo Community College",,G0007,,,,,,
-O01147,A0223,B0064,West Valley-Mission Community College Board,,G0007,,,,,,
-O01148,A0224,B0065,"Trustee, Hayward Unified School District",,G0007,,,,,,
-O01149,A0225,B0066,Vista Unified School District Board Vice Chair,,G0007,,,,,,
-O01150,A0226,B0067,"Trustee, San Diego Unified Board of Education, Subdistrict C",,G0007,,,,,,
-O01151,A0228,B0068,Lynwood Unified School District Board Member,,G0007,,,,,,
-O01152,A0229,B0069,Fairfield-Suisun USD Board Vice President,,G0007,,,,,,
-O01153,A0230,B0070,"Trustee, Fairfield Suisun Unified School District",,G0007,,,,,,
-O01154,A0231,B0071,"Oxnard Union High School District Board member, President",,G0007,,,,,,
-O01155,A0232,B0072,"Salinas Union High School District Trustee, former",,G0007,,,,,,
+O01146,A0222,B0063,"Trustee and Board Vice Chair, Cabrillo Community College District Area II",,G0285,,,y,,2026-10-25,https://www.cabrillo.edu/es/es-governing-board/
+O01147,A0223,B0064,"Trustee and Board President, West Valley-Mission Community College District Area 3",,G0284,,,y,,2026-10-25,https://www.wvm.edu/board/trustees/area-3.html
+O01148,A0224,B0065,"Trustee, Hayward Unified School District",,G0242,2024,,y,,2026-10-25,https://www.husd.us/board
+O01149,A0225,B0066,"Board Vice President, Vista Unified School District Area 4",,G0278,,,y,,2026-10-25,https://www.vistausd.org/board-of-education/2023-board-officers/cipriano-vargas
+O01150,A0226,B0067,"Trustee, San Diego Unified School District Subdistrict C",,G0278,,,y,,2026-10-25,https://ebscripps.sandiegounified.org/cms/One.aspx?pageId=66627246&portalId=27732478
+O01151,A0228,B0068,"Board Clerk and Trustee, Lynwood Unified School District",,G0260,2024-12,,y,,2026-10-25,https://www.mylusd.org/governance/board-of-education
+O01152,A0229,B0069,"Board Vice President, Fairfield-Suisun Unified School District Area 5",,G0289,,,y,,2026-10-25,https://fsusd.community.highbond.com/portal/members.aspx?id=36
+O01153,A0230,B0069,"Board Clerk, Fairfield-Suisun Unified School District Area 7",,G0289,,,y,,2026-10-25,https://fsusd.community.highbond.com/portal/members.aspx?id=36
+O01154,A0231,B0071,"Board President, Oxnard Union High School District Area 3",,G0297,2022-11,,y,,2026-10-25,https://www.oxnardunion.org/board-of-trustees/board-members
+O01155,A0232,B0072,"Former Trustee, Salinas Union High School District",,G0268,,,n,,2026-10-25,https://www.salinasuhsd.org/board-of-education/board-members
 O01156,A0233,B0073,Trustee LA Community College District,,G0007,,,,,,
 O01157,A0234,B0074,Trustee West Valley Mission CCD,,G0007,,,,,,
 O01158,A0235,B0075,"Trustee, Contra Costa Community College District",,G0007,,,,,,
@@ -460,3 +460,5 @@ O01498,A0616,B0002,US Representative (D-TX-09),Democratic Party,G0046,2005-01-04
 O01499,A0740,B0002,US Representative (D-CA-14),Democratic Party,G0007,2026-09-02,,y,W000832,2026-10-25,https://clerk.house.gov/members/W000832
 O01500,A0288,B0002,US Representative (D-VT-At Large),Democratic Party,G0048,2007-01-03,2023-01-03,n,W000800,2026-10-25,https://history.house.gov/People/Detail/24183
 O01501,A0308,B0002,US Representative from California,Democratic Party,G0007,2001-01-03,2024-12-08,n,S001150,2026-10-25,https://history.house.gov/People/Listing/S/SCHIFF%2C-Adam-%28S001150%29/
+O01502,A0158,B0007,"Councilmember, Richmond District 2",,G0248,,,y,,2026-10-25,https://www.richmondca.gov/29/City-Council
+O01503,A0227,B0105,"Former Trustee, San Leandro Unified School District Area 5",,G0242,,2026,n,,2026-10-25,https://www.slusd.us/board-of-education/trustee-areas/area-5/

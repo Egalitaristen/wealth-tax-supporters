@@ -66,7 +66,6 @@ B0066,Vista Unified School District,local,other,,,,,
 B0067,San Diego Unified Board of Education,local,other,,,,,
 B0068,Lynwood Unified School District,local,other,,,,,
 B0069,Fairfield-Suisun Unified School District,local,other,,,,,
-B0070,Fairfield Suisun Unified School District,local,other,,,,,
 B0071,Oxnard Union High School District,local,other,,,,,
 B0072,Salinas Union High School District,local,other,,,,,
 B0073,Trustee LA Community College District,local,other,,,,,
@@ -103,3 +102,4 @@ B0103,Iowa State Senate,regional,chamber,,,,,
 B0104,Florida House of Representatives,regional,chamber,,,,,
 B0001,U.S. Senate,national,chamber,100,2026-10-25,https://www.senate.gov/senators/index.htm,y,The 100 senators.
 B0002,U.S. House of Representatives,national,chamber,441,2026-10-25,https://www.house.gov/representatives,y,"435 voting seats plus 5 delegates and the Resident Commissioner of Puerto Rico, who do not vote on the floor."
+B0105,San Leandro Unified School District,local,other,,,https://www.slusd.us/board-of-education/,,
