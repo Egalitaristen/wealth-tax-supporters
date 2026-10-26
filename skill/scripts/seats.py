@@ -878,6 +878,53 @@ def italy():
             chamber("Senato della Repubblica", len(senators), senators, "200 elected senators plus senators for life, XIX legislature. Who sits and their group are from the Senate's open data (dati.senato.it). The seat count is the number of senators sitting, since senators for life are not part of the 200. Unlit seats mean nothing found, never opposition.", order, r"(?i)senator|member of the (italian )?senate")]
 
 
+def mexico():
+    """Cámara de Diputados (500) and Senado de la República (128), LXVI Legislatura. The official lists (sitl.diputados.gob.mx, senado.gob.mx)
+    refuse or time out for scripts, so this reads the English Wikipedia article for the legislature, whose member lists are kept up to date with
+    each substitution (a seat shows its current holder; where one replaced another the pair is printed "A (until date) B (since date)"). It is a
+    secondary source: say so in the chamber note, and replace it with the official lists when they can be read (see the Mexico guide)."""
+    import html
+    api = "https://en.wikipedia.org/w/api.php?action=parse&page=LXVI_Legislature_of_the_Mexican_Congress&prop=text&format=json&redirects=1"
+    page = get(api, headers={"User-Agent": "WealthTaxSupporters/1.0 (https://wealthtaxsupporters.com)"})["parse"]["text"]["*"]
+    page = re.sub(r"<sup[^>]*>.*?</sup>", "", page, flags=re.S)
+    page = re.sub(r'<span class="noprint".*?</span>', "", page, flags=re.S)
+    i_sen, i_dep, i_end = page.index('id="Senate_members"'), page.index('id="Chamber_of_Deputies_members"'), page.index('id="See_also"')
+    PARTY = {"MORENA": "Morena", "PT": "Partido del Trabajo", "PVEM": "Partido Verde", "MC": "Movimiento Ciudadano", "PRI": "PRI", "PAN": "PAN",
+             "PRD": "PRD", "Independent": "Independent", "No party": "Independent"}
+
+    ALIAS = {"Amalia García": "Amalia García Medina"}  # Wikipedia's article title is shorter than the name the register uses
+
+    def members(seg):
+        out = []
+        for dd in re.findall(r"<dd>(.*?)</dd>", seg, flags=re.S):
+            if "(until " in dd:  # a substitution: the second name is the holder now
+                parts = re.split(r"\(until [^)]*\)", dd)
+                dd = parts[-1]
+            names = re.findall(r'<a [^>]*title="([^"]+)"', dd)
+            text = re.sub(r"\s+", " ", html.unescape(re.sub(r"<[^>]+>", " ", dd))).strip().replace("▌", "").strip()
+            text = re.sub(r"^\d+\s+", "", text)
+            pm = re.search(r"\(([^()]+)\)", text)
+            party = PARTY.get(pm[1].strip(), pm[1].strip()) if pm else ""
+            name = (names[-1] if names else text.split(" (")[0]).replace(" (page does not exist)", "").strip()
+            name = ALIAS.get(name, name)
+            if not name or not party:
+                continue
+            out.append(dict(name=name, party=party, ref=re.sub(r"\W+", "-", name.lower()), place="", url="https://en.wikipedia.org/wiki/LXVI_Legislature_of_the_Mexican_Congress"))
+        return out
+    deputies, senators = members(page[i_dep:i_end]), members(page[i_sen:i_dep])
+    colours = {"Morena": "8b1a1a", "Partido del Trabajo": "e07a1f", "Partido Verde": "62b04b", "Movimiento Ciudadano": "2aa5c9", "PRI": "1f8f4e", "PAN": "0a5aa8", "PRD": "c9a227", "Independent": "8a8680"}
+    order = ["Morena", "Partido del Trabajo", "Partido Verde", "Movimiento Ciudadano", "PRI", "PAN", "PRD", "Independent"]
+    role_re = r"(?i)\bdiputad|\bfederal deputy|member of the chamber of deputies"
+    srole_re = r"(?i)\bsenator|\bsenador"
+
+    def chamber(name, seats, members, role, rre, note):
+        return dict(name=name, level="national", seats=seats, source_url="https://en.wikipedia.org/wiki/LXVI_Legislature_of_the_Mexican_Congress", note=note, role=role,
+                    role_re=rre, role_start=rre, members=members, former=[], party_order=order, colours=colours)
+    src = " Who sits and their party are from the English Wikipedia list for the legislature, which tracks substitutions, because the official lists (sitl.diputados.gob.mx, senado.gob.mx) could not be read by script. Unlit seats mean nothing found, never opposition."
+    return [chamber("Cámara de Diputados", 500, deputies, "Federal deputy", role_re, "500 seats (300 by district and 200 by proportional representation), LXVI Legislatura, elected 2 June 2024." + src),
+            chamber("Senado de la República", 128, senators, "Senator", srole_re, "128 seats (96 by state and 32 by proportional representation), LXVI Legislatura, elected 2 June 2024." + src)]
+
+
 def european_parliament():
     """The European Parliament (720 seats): data.europarl.europa.eu open data (sitting MEPs, their country and political group).
     Run `seats.py data/eu`: supporters are matched across every country register, by the MEP's own country."""
@@ -1042,7 +1089,7 @@ def scottish_parliament():
 
 
 
-ADAPTERS = {"nz": new_zealand, "se": sweden, "de": germany, "nl": netherlands, "no": norway, "fr": france, "br": brazil, "ca": canada, "es": spain, "pl": poland, "be": belgium, "in": india, "jp": japan, "my": malaysia, "sg": singapore, "id": indonesia, "ng": nigeria, "cn": china, "scottish_parliament": scottish_parliament, "european_parliament": european_parliament, "eu": european_parliament, "un": united_nations, "au": pan_african_parliament, "za": south_africa, "ie": ireland, "it": italy}
+ADAPTERS = {"nz": new_zealand, "se": sweden, "de": germany, "nl": netherlands, "no": norway, "fr": france, "br": brazil, "ca": canada, "es": spain, "pl": poland, "be": belgium, "in": india, "jp": japan, "my": malaysia, "sg": singapore, "id": indonesia, "ng": nigeria, "cn": china, "scottish_parliament": scottish_parliament, "european_parliament": european_parliament, "eu": european_parliament, "un": united_nations, "au": pan_african_parliament, "za": south_africa, "ie": ireland, "it": italy, "mx": mexico}
 
 
 def main():
