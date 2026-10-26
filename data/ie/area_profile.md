@@ -55,3 +55,7 @@
 3. Add verified constituencies and current-seat status from an official Oireachtas member list; body and preliminary position rows now exist.
 4. Convert the Tailte Éireann CC BY 4.0 geometry to `boundaries.json`, using its `BDY_ID` codes.
 5. Sample Dublin City, Cork City, Galway City, Limerick and South Dublin council records before deciding whether a wider local sweep is worthwhile.
+
+## Review corrections
+
+Barra Roantree (ESRI) was removed: the Irish Times piece reports a once-off wealth tax as 'one possible option', not his support. Alice-Mary Higgins's row now quotes her own words in the Seanad (the amendment text it used asks only for a report on a wealth tax); Senators Black's and Ruane's rows, which are amendments asking for such a report, are grade C. Terrence McDonough ('it should play a role') and Tom O'Connor ('does not need to be viewed negatively') are grade B. One Oireachtas link pointed at the pre-live site and now points at www.oireachtas.ie. I checked the Oireachtas quotes against the open-data transcripts and the rest against their pages.
