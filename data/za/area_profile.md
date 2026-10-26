@@ -13,7 +13,8 @@
 
 ## 3. Legislature and where its records are
 - National Assembly and NCOP: written questions and replies are on pmg.org.za (committee-question pages) and parliament.gov.za; Hansard on pmg.org.za. EFF MPs Omphile Maotwe (NW3273, NW4844) and Carl Niehaus ask the Minister about a wealth tax. The Parliamentary Budget Office briefs are at archive.parliament.gov.za.
-- No member list and no seats adapter yet (the Seats tab is not built; next run).
+- Seats: `python skill/scripts/seats.py data/za` reads the Parliamentary Monitoring Group's member API (api.pmg.org.za/member/; 399 current National Assembly members, one seat vacant on 2026-10-26) and lights the seats of Malema, Maotwe, Thambo, Letlape (EFF) and Kubayi (ANC). The Pan-African Parliament delegation is on pap.au.int/mps/south-africa; Vuyani Pambo (EFF) is on it.
+- Hansards: pmg.org.za/hansard/<id>/ pages carry the full debate; `pmg.org.za/search/?q=...` finds them (27 hits for "Pambo wealth tax"). A scan of the 21 linked Hansards found no speech of Pambo's mentioning a wealth tax; it did find EFF MP Molebogeng Letlape's member statement of 6 May 2025 (E00028).
 
 ## 4. Parties
 - EFF (wealth tax and an "apartheid tax" on pre-1994 trusts, 2025 counter-budget); SACP (0.5% wealth tax on the richest 20%); MK Party; GOOD; ANC (2017 conference policy, 2022 revival). Not searched: ActionSA, Patriotic Alliance, Al Jama-ah, Cope, ATM, UDM.
@@ -24,11 +25,14 @@
 ## 6. Sources that block scripts
 - iol.co.za (some pages), businesstech.co.za, dailyinvestor.com and cliffedekkerhofmeyr.com answer 403. forgood.org.za serves scripts a different page: its two quotes (E00019, E00020) were read in a browser and `checkquotes` reports them as not found. PMG, Parliament's archive, SAFTU, Daily News, The Post and Business Report read fine.
 
-## 7. Run R001 (2026-10-26)
+## 7. Runs
+R002 (2026-10-26): National Assembly seats adapter and positions (5 supporters sit); Hansard scan for Vuyani Pambo found nothing of his own; added Molebogeng Letlape.
+
+R001 (2026-10-26)
 22 supporters, 27 evidence rows (7 grade A, 15 B). Parties: EFF, SACP, MK Party, ANC, GOOD. People: Malema, Maotwe, Thambo (EFF); Mashilo, Mapaila (SACP); Kubayi (ANC); Herron (GOOD). Unions: COSATU, SAFTU (Vavi, Parks). Institutions: the Parliamentary Budget Office. Think tank and economist: the Institute for Economic Justice and Gilad Isaacs. NGOs: Black Sash, Greenpeace Africa. Campaigner Michael Marchant (op-ed). Two exclusions: Godongwana and National Treasury (opposed).
 
 ## 8. Plan
-1. Seats: write a National Assembly adapter in `seats.py` (parliament.gov.za member list), then add `positions.csv` rows for Malema, Maotwe, Thambo, Niehaus and the others; check which sit in the Pan-African Parliament (Vuyani Pambo, EFF) and whether he has a statement of his own.
+1. Hansard sweep (R002 started it): run `pmg.org.za/search/` for "wealth tax", "apartheid tax" and "tax the rich" and read each speaker's own lines (the member-statement and budget-vote debates of Feb to May 2025 are the richest); every EFF, MK Party and SACP-aligned MP who says it is a B or better. Carl Niehaus (EFF MP) asked a question mentioned in the press; find his own line. Pambo: nothing of his own found.
 2. Parliament: search PMG for every written question and debate on a wealth tax since 2019 (EFF, MK Party and ActionSA MPs); the Davis Tax Committee; Budget Justice Coalition and Oxfam South Africa (Tlou Seopa's Amandla.mobi quote is borderline, see Business Report 2025-12-03).
 3. Other parties' 2024 manifestos; academics (UCT, Wits, Stellenbosch economists), SA Revenue Service and Treasury economists; journalists (Daily Maverick, Business Day columnists); faith groups (SACC); wealthy supporters (Patriotic Millionaires SA).
 4. Provinces: sample Gauteng, Western Cape, KwaZulu-Natal and the metros; unlikely to yield beyond the ANC, EFF and MK Party caucuses.
