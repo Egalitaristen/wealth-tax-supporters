@@ -1,0 +1,9 @@
+{
+  "name": "United Nations",
+  "iso2": "UN",
+  "supranational": true,
+  "member_label": "government",
+  "lead": "Egalitaristen",
+  "status": "in progress",
+  "notes": "The General Assembly: 193 seats, one per member state. A seat is a government, not a person. A government is recorded here (actors.csv, one row per state, named \"Government of <state>\") when it has a sourced public position for an actual wealth tax: a law it enacted or a proposal, joint article or initiative its ministers put their names to. A seat is lit while that government is in office and its latest evidence is support. A change of government ends the position (status former_role) and unlights the seat; evidence stays. Run python skill/scripts/seats.py data/un to refresh the chamber from the UN's own list of member states."
+}

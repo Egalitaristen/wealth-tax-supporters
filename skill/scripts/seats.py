@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 """Refresh a country's legislature seats from the parliament's own open member list.
 
-Usage: python skill/scripts/seats.py data/<iso2> [--adapter NAME] [--dry-run] [--fix-status] [--local URL=FILE]      (iso2 = se, de, nl, no, fr, br, ca, es, pl, be, in, jp, my, sg, id, ng, cn, nz)
+Usage: python skill/scripts/seats.py data/<iso2> [--adapter NAME] [--dry-run] [--fix-status] [--local URL=FILE]      (iso2 = se, de, nl, no, fr, br, ca, es, pl, be, in, jp, my, sg, id, ng, cn, nz; un for the UN General Assembly)
 
 For the UK and the US use seats_uk.py and seats_us.py (richer sources). This script holds one small adapter per
 country (the ADAPTERS table at the end): each reads the parliament's open data and returns its chambers, the sitting
@@ -802,6 +802,33 @@ def european_parliament():
                           "Patriots for Europe": "4b2e83", "Europe of Sovereign Nations": "7a5a2e", "Non-attached": "8a8680"})]
 
 
+def united_nations():
+    """The UN General Assembly (193 seats, one per member state): the UN's own list of member states by regional group
+    (un.org/dgacm). A seat is a government, not a person: run `seats.py data/un`; the governments recorded in data/un/actors.csv
+    (named "Government of <state>") light the seat of their state. Türkiye and Israel sit in WEOG for electoral purposes."""
+    import html as _html
+    url = "https://www.un.org/dgacm/en/content/regional-groups"
+    page = get(url, as_json=False).decode("utf-8", "ignore")
+    page = re.sub(r"(?s)<(script|style).*?</\1>", "", page)
+    GROUPS = [("African States", "African Group"), ("Asia-Pacific States", "Asia-Pacific Group"), ("Eastern European States", "Eastern European Group"),
+              ("Latin American and Caribbean States", "GRULAC"), ("Western European and other States", "WEOG")]
+    heads = [(m.start(), re.sub(r"<[^>]+>", "", m.group(1)).strip()) for m in re.finditer(r"(?s)<h\d[^>]*>(.*?)</h\d>", page)]
+    members, seen = [], set()
+    for label, group in reversed(GROUPS):  # the last group first, so a state listed in two (Türkiye) stays in WEOG
+        start = next(i for i, h in heads if h == label)
+        end = min([i for i, h in heads if i > start] or [len(page)])
+        text = _html.unescape(re.sub(r"(?s)<[^>]+>", "\n", page[start:end])).split("Special cases")[0]
+        for n in (x.strip().rstrip("*").strip() for x in text.split("\n")):
+            if n and n != label and n not in seen:
+                seen.add(n)
+                members.append(dict(name=f"Government of {n}", party=group, ref=n, place=n, url=url))
+    return [dict(name="United Nations General Assembly", level="supranational", seats=193, source_url=url,
+                 note="193 seats, one per member state, grouped by the UN's regional groups (the United States sits with WEOG for electoral purposes). A seat is a government, not a person: it is lit where the register holds a sourced public position of that state's government for a wealth tax. Observer states (the Holy See and Palestine) have no vote and no seat here.",
+                 role="Member state", role_re=r"(?i)member state", role_start=r"(?i)member state", members=members, former=[],
+                 party_order=[g for _, g in GROUPS],
+                 colours={"African Group": "2f8f5b", "Asia-Pacific Group": "c9622a", "Eastern European Group": "7a5ab3", "GRULAC": "d6a21f", "WEOG": "2d6fb5"})]
+
+
 def scottish_parliament():
     """The Scottish Parliament (129 seats: 73 constituency + 56 regional): data.parliament.scot open data. Used for the UK register with
     `seats.py data/gb --adapter scottish_parliament` (the Commons and Lords come from seats_uk.py)."""
@@ -849,7 +876,7 @@ def scottish_parliament():
 
 
 
-ADAPTERS = {"nz": new_zealand, "se": sweden, "de": germany, "nl": netherlands, "no": norway, "fr": france, "br": brazil, "ca": canada, "es": spain, "pl": poland, "be": belgium, "in": india, "jp": japan, "my": malaysia, "sg": singapore, "id": indonesia, "ng": nigeria, "cn": china, "scottish_parliament": scottish_parliament, "european_parliament": european_parliament, "eu": european_parliament}
+ADAPTERS = {"nz": new_zealand, "se": sweden, "de": germany, "nl": netherlands, "no": norway, "fr": france, "br": brazil, "ca": canada, "es": spain, "pl": poland, "be": belgium, "in": india, "jp": japan, "my": malaysia, "sg": singapore, "id": indonesia, "ng": nigeria, "cn": china, "scottish_parliament": scottish_parliament, "european_parliament": european_parliament, "eu": european_parliament, "un": united_nations}
 
 
 def main():
@@ -876,6 +903,12 @@ def main():
             for x in wtdb.load(str(sib), "actors"):
                 if x["kind"] == "person" and x["actor_type"] == "politician":
                     actors_in.append(dict(x, actor_id=f"{sib.name}-{x['actor_id']}", _iso=iso))
+    if ADAPTERS[cc] is united_nations:  # the governments are actors of data/un itself (most states have no register)
+        latest = {}
+        for e in sorted(wtdb.load(a.dir, "evidence"), key=lambda e: e["date"]):
+            latest[e["actor_id"]] = e["stance"]  # a government whose latest evidence is a retraction lights no seat
+        actors_in = [dict(x, actor_id=f"{Path(a.dir).name}-{x['actor_id']}") for x in wtdb.load(a.dir, "actors")
+                     if x["actor_type"] == "government_body" and x["status"] == "active" and latest.get(x["actor_id"]) != "retracted"]
     run(a.dir, ADAPTERS[cc], a.dry_run, a.fix_status, actors_in)
 
 

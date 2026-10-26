@@ -1,0 +1,6 @@
+seat_id,body_id,party,seats,colour,order
+S0001,B0001,African Group,54,2f8f5b,1
+S0002,B0001,Asia-Pacific Group,54,c9622a,2
+S0003,B0001,Eastern European Group,23,7a5ab3,3
+S0004,B0001,GRULAC,33,d6a21f,4
+S0005,B0001,WEOG,29,2d6fb5,5

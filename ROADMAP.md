@@ -41,7 +41,7 @@ What the two newest pages still need. Milestone: [Resources and parliaments](htt
 - [#99](https://github.com/Egalitaristen/wealth-tax-supporters/issues/99) Link resources to people and places
 - [#100](https://github.com/Egalitaristen/wealth-tax-supporters/issues/100) Find more MEP supporters
 - [#101](https://github.com/Egalitaristen/wealth-tax-supporters/issues/101) The Pan-African Parliament
-- [#102](https://github.com/Egalitaristen/wealth-tax-supporters/issues/102) The UN General Assembly: how should it work?
+- [#102](https://github.com/Egalitaristen/wealth-tax-supporters/issues/102) The UN General Assembly: three runs done (9 governments, 4 lit, including a pass over the UN's own General Debate records); next: read the original ministry pages, then Switzerland, France, Mexico and others
 - [#103](https://github.com/Egalitaristen/wealth-tax-supporters/issues/103) More supranational bodies
 - [#104](https://github.com/Egalitaristen/wealth-tax-supporters/issues/104) Share cards for the new pages
 
