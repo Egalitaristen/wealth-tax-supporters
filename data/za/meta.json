@@ -1,0 +1,8 @@
+{
+  "name": "South Africa",
+  "iso2": "ZA",
+  "lead": "Egalitaristen",
+  "status": "in progress",
+  "boundaries": "boundaries.json",
+  "notes": "Depth: seed. Scope: national, regional (9 provinces) and local (sampled). The geography register holds the country root, three national institutions, 9 provinces, 44 district municipalities, 8 metropolitan municipalities and 205 local municipalities (OCHA COD-AB P-codes, from the Municipal Demarcation Board's 2020 boundaries). The map (213 map units: the 205 local municipalities and 8 metros; districts and provinces drawn as outlines) comes from OCHA HDX cod-ab-zaf under CC BY-IGO 3.0. Started as the home of the Pan-African Parliament delegation's candidates (see data/au)."
+}
