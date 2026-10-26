@@ -1182,7 +1182,7 @@ function countryMap(D, slug, onShowAll) {
         ${shown.slice(0, 40).map(row).join('')}
         ${wider.length ? `<div class="kicker" style="margin-top:18px">The wider area</div>
           ${wider.map((w, k) => `<button type="button" class="prow" data-up="${k}"><span>${esc(w.name)}<span class="sub">${w.inside ? 'supporters elsewhere in this area' : 'supporters for the area as a whole'}</span></span><span class="n">${fmt(w.ids.length)} →</span></button>`).join('')}` : ''}
-        ${pl && pl.notes ? `<p class="note">${esc(pl.notes)}</p>` : ''}</div>
+        </div>
       <div class="pl-actions">
         ${people.length ? `<button class="btn sm ghost" type="button" id="pl-all">Show ${people.length > 40 ? 'all ' + fmt(people.length) : 'them'} in the directory ↓</button>`
           : near && near.ids.length > 40 ? `<button class="btn sm ghost" type="button" id="pl-near">Show all ${fmt(near.ids.length)} in ${esc(near.name)} ↓</button>` : ''}
