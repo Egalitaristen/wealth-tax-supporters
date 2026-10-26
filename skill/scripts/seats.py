@@ -784,6 +784,100 @@ def new_zealand():
                           "New Zealand First": "111111", "National Party": "00529f", "ACT Party": "fde401"})]
 
 
+def ireland():
+    """Dáil Éireann (174) and Seanad Éireann (60): the Houses of the Oireachtas members API (api.oireachtas.ie), with each member's
+    party, constituency (or Seanad panel) and dates. Run `seats.py data/ie`."""
+    def chamber(code, house, seats, name, role, role_re, order, colours, note):
+        d = get(f"https://api.oireachtas.ie/v1/members?house_no={house}&chamber={code}&limit=500")["results"]
+        cur, former = [], []
+        for res in d:
+            m = res["member"]
+            ms = [x["membership"] for x in m["memberships"] if x["membership"]["house"]["houseCode"] == code and x["membership"]["house"]["houseNo"] == str(house)]
+            if not ms:
+                continue
+            ms.sort(key=lambda x: x["dateRange"]["start"] or "")
+            last = ms[-1]
+            party = (last["parties"][-1]["party"]["showAs"] if last["parties"] else "Independent")
+            place = (last["represents"][0]["represent"]["showAs"] if last["represents"] else "")
+            row = dict(name=m["fullName"], party=party, place=place, ref=m["memberCode"], start=(ms[0]["dateRange"]["start"] or ""),
+                       url=f"https://www.oireachtas.ie/en/members/member/{m['memberCode']}/")
+            if last["dateRange"]["end"]:
+                row["end"] = last["dateRange"]["end"]
+                former.append(row)
+            else:
+                cur.append(row)
+        return dict(name=name, level="national", seats=seats, source_url=f"https://api.oireachtas.ie/v1/members?house_no={house}&chamber={code}", note=note,
+                    role=role, role_re=role_re, role_start=role_re, members=cur, former=former, party_order=order, colours=colours)
+
+    colours = {"People Before Profit-Solidarity": "8e2420", "Social Democrats": "752f8a", "Labour Party": "d82c20", "Sinn Féin": "326760", "Green Party": "99cc33",
+               "Fianna Fáil": "66bb66", "Fine Gael": "6699ff", "Independent Ireland": "4f9a9a", "Aontú": "44532a", "Independent": "8a8680"}
+    order = ["People Before Profit-Solidarity", "Social Democrats", "Labour Party", "Sinn Féin", "Green Party", "Fianna Fáil", "Fine Gael", "Independent Ireland", "Aontú", "Independent"]
+    return [chamber("dail", 34, 174, "Dáil Éireann", "Teachta Dála (TD)", r"(?i)\bTD\b|teachta d|\bdeputy\b", order, colours,
+                    "174 seats in the 34th Dáil (elected 29 November 2024). Who sits, their party and constituency are from the Oireachtas members API; the Ceann Comhairle counts as a seat. Unlit seats mean nothing found, never opposition."),
+            chamber("seanad", 27, 60, "Seanad Éireann", "Senator", r"(?i)\bsenator\b|seanadóir", order, colours,
+                    "60 seats in the 27th Seanad (January 2025): 43 elected from five vocational panels, six by university graduates and 11 nominated by the Taoiseach. A vacancy shows as Vacant. Unlit seats mean nothing found, never opposition.")]
+
+
+def italy():
+    """Camera dei deputati (400): the Chamber's alphabetical member lists (camera.it, legislature XIX). Senato della Repubblica: the Senate's open
+    data (dati.senato.it SPARQL: current elected senators and senators for life, with their group). Run `seats.py data/it`."""
+    import html, urllib.parse
+    deputies = []
+    for L in "ABCDEFGHIJKLMNOPQRSTUVWXYZ":
+        try:
+            page = get(f"https://www.camera.it/deputati/elenco?leg=19&lettera={L}", as_json=False).decode("utf-8", "ignore")
+        except SystemExit:
+            continue
+        for card in page.split('class="deputato-card"')[1:]:
+            nm = re.search(r'class="deputato-nome"\s+title="([^"]+)"', card)
+            gr = re.search(r'class="deputato-gruppo"\s+title="([^"]+)"', card)
+            ident = re.search(r'/deputati/elenco/19-(\d+)', card)
+            if not (nm and gr and ident):
+                continue
+            deputies.append(dict(name=html.unescape(nm[1]).strip().title(), party=html.unescape(gr[1]).strip(), ref=ident[1], url=f"https://www.camera.it/deputati/elenco/19-{ident[1]}"))
+    seen, uniq = set(), []
+    for d in deputies:
+        if d["ref"] not in seen:
+            seen.add(d["ref"]); uniq.append(d)
+    deputies = uniq
+
+    def sparql(query):
+        u = "https://dati.senato.it/sparql?" + urllib.parse.urlencode({"query": query, "format": "application/sparql-results+json"})
+        return get(u, headers={"Accept": "application/sparql-results+json"})["results"]["bindings"]
+    pre = "PREFIX osr: <http://dati.senato.it/osr/> PREFIX ocd: <http://dati.camera.it/ocd/> PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#> "
+    names = {b["g"]["value"]: b["tb"]["value"] for b in sparql(pre + "SELECT ?g ?tb WHERE { ?g a ocd:gruppoParlamentare; osr:denominazione ?d . ?d osr:titoloBreve ?tb FILTER NOT EXISTS {?d osr:fine ?f} }")}
+    sen = {}
+    for b in sparql(pre + """SELECT DISTINCT ?s ?label ?tipo ?regione WHERE { ?s a osr:Senatore; rdfs:label ?label; osr:mandato ?m . ?m osr:legislatura ?l; osr:tipoMandato ?tipo .
+        OPTIONAL { ?m osr:regioneElezione ?regione } FILTER(STR(?l)='19') FILTER NOT EXISTS { ?m osr:fine ?f } }"""):
+        sen[b["s"]["value"]] = dict(name=b["label"]["value"], place=b.get("regione", {}).get("value", "A vita" if "vita" in b["tipo"]["value"] else ""))
+    grp = {}
+    for b in sparql(pre + """SELECT DISTINCT ?s ?g ?i WHERE { ?s a osr:Senatore; osr:mandato ?m . ?m osr:legislatura ?l FILTER(STR(?l)='19') FILTER NOT EXISTS { ?m osr:fine ?f }
+        ?s ?link ?a . ?a a ocd:adesioneGruppo; osr:gruppo ?g; osr:inizio ?i; osr:legislatura ?al FILTER(STR(?al)='19') FILTER NOT EXISTS { ?a osr:fine ?af } }"""):
+        s_, g_, i_ = b["s"]["value"], b["g"]["value"], b["i"]["value"]
+        if s_ not in grp or i_ > grp[s_][1]:
+            grp[s_] = (g_, i_)
+    senators = [dict(name=v["name"], party=names.get(grp.get(k, ("",))[0], "Misto"), place=v["place"], ref=k.rsplit("/", 1)[1], url=k) for k, v in sen.items()]
+    colours = {"Fratelli d'Italia": "123f8c", "FdI": "123f8c", "Lega": "1b7f3b", "Forza Italia": "0087dc", "Noi Moderati": "58b4e8", "Partito Democratico": "e4002b", "PD": "e4002b",
+               "Movimento 5 Stelle": "f5c518", "MoVimento 5 Stelle": "f5c518", "M5S": "f5c518", "Alleanza Verdi e Sinistra": "78b82a", "Italia Viva": "f58220", "Azione": "ee7d00", "Misto": "8a8680", "Autonomie": "7a5a2e",
+               "FI-BP": "0087dc", "LSP": "1b7f3b", "IV-CR": "f58220", "Cd'I": "58b4e8", "Aut (": "7a5a2e", "Futuro Nazionale": "5b3a29", "Sud chiama": "b5651d"}
+    def colour_for(party):
+        pl = party.lower()
+        for key, c in colours.items():
+            if key.lower() in pl:
+                return c
+        return "8a8680"
+    def chamber(name, seats, members, note, order_keys, role_re):
+        parties = sorted({m["party"] for m in members})
+        rank = lambda p: next((i for i, k in enumerate(order_keys) if k in p.lower()), 50)
+        return dict(name=name, level="national", seats=seats, source_url="https://www.camera.it/deputati/elenco?leg=19" if name.startswith("Camera") else "https://dati.senato.it/sparql",
+                    note=note, role="Member of Parliament", role_re=role_re, role_start=role_re,
+                    members=members, former=[],
+                    party_order=sorted(parties, key=lambda p: (rank(p), p)), colours={p: colour_for(p) for p in parties})
+    order = ["verdi e sinistra", "alleanza verdi", "5 stelle", "m5s", "democratico", "pd-idp", "misto", "aut (", "autonomie", "italia viva", "iv-cr", "azione", "noi moderati", "cd'i", "forza italia", "fi-bp", "lega", "lsp", "fratelli", "fdi"]
+    return [chamber("Camera dei deputati", 400, deputies, "400 seats, XIX legislature (elected 25 September 2022). Who sits and their parliamentary group are from the Chamber's own lists; names there are SURNAME Name, so matches by name are printed for checking. Unlit seats mean nothing found, never opposition.", order, r"(?i)deputat|member of the (italian )?chamber of deputies"),
+            chamber("Senato della Repubblica", len(senators), senators, "200 elected senators plus senators for life, XIX legislature. Who sits and their group are from the Senate's open data (dati.senato.it). The seat count is the number of senators sitting, since senators for life are not part of the 200. Unlit seats mean nothing found, never opposition.", order, r"(?i)senator|member of the (italian )?senate")]
+
+
 def european_parliament():
     """The European Parliament (720 seats): data.europarl.europa.eu open data (sitting MEPs, their country and political group).
     Run `seats.py data/eu`: supporters are matched across every country register, by the MEP's own country."""
@@ -948,7 +1042,7 @@ def scottish_parliament():
 
 
 
-ADAPTERS = {"nz": new_zealand, "se": sweden, "de": germany, "nl": netherlands, "no": norway, "fr": france, "br": brazil, "ca": canada, "es": spain, "pl": poland, "be": belgium, "in": india, "jp": japan, "my": malaysia, "sg": singapore, "id": indonesia, "ng": nigeria, "cn": china, "scottish_parliament": scottish_parliament, "european_parliament": european_parliament, "eu": european_parliament, "un": united_nations, "au": pan_african_parliament, "za": south_africa}
+ADAPTERS = {"nz": new_zealand, "se": sweden, "de": germany, "nl": netherlands, "no": norway, "fr": france, "br": brazil, "ca": canada, "es": spain, "pl": poland, "be": belgium, "in": india, "jp": japan, "my": malaysia, "sg": singapore, "id": indonesia, "ng": nigeria, "cn": china, "scottish_parliament": scottish_parliament, "european_parliament": european_parliament, "eu": european_parliament, "un": united_nations, "au": pan_african_parliament, "za": south_africa, "ie": ireland, "it": italy}
 
 
 def main():
