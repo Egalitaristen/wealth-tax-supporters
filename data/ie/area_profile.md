@@ -59,3 +59,7 @@
 ## Review corrections
 
 Barra Roantree (ESRI) was removed: the Irish Times piece reports a once-off wealth tax as 'one possible option', not his support. Alice-Mary Higgins's row now quotes her own words in the Seanad (the amendment text it used asks only for a report on a wealth tax); Senators Black's and Ruane's rows, which are amendments asking for such a report, are grade C. Terrence McDonough ('it should play a role') and Tom O'Connor ('does not need to be viewed negatively') are grade B. One Oireachtas link pointed at the pre-live site and now points at www.oireachtas.ie. I checked the Oireachtas quotes against the open-data transcripts and the rest against their pages.
+
+## Map and constituencies (review)
+
+The map is the 31 local authorities from Tailte Éireann (CC BY 4.0, 2026), generalised. Eight sitting TDs are placed in the council area their constituency lies mostly in (constituencies are from the Oireachtas members API for the 34th Dáil): Nash (Louth), O'Callaghan (Dublin Bay North, Dublin City), Doherty (Donegal), Boyd Barrett (Dún Laoghaire), Murphy (Dublin South-West, South Dublin), Gould (Cork North-Central, Cork City), Farrell (Galway West, Galway City) and McDonald (Dublin Central, Dublin City). Róisín Shortall, Mick Barry and Thomas Pringle do not appear in the API's list of the 34th Dáil, so their roles ("Deputy", "TD") are probably out of date; the senators have no constituency. These need checking in the next refinement run.

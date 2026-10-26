@@ -1,20 +1,20 @@
 position_id,actor_id,body_id,role,party,geo_unit_id,start,end,current,member_ref,checked,source_url
-P0001,A0004,B0001,Teachta Dála,Labour Party,G0001,,,,,,https://labour.ie/
+P0001,A0004,B0001,Teachta Dála,Labour Party,G0017,,,,,,https://labour.ie/
 P0002,A0005,B0001,Teachta Dála,Social Democrats,G0001,,,,,,https://www.socialdemocrats.ie/
-P0003,A0006,B0001,Teachta Dála,Social Democrats,G0001,,,,,,https://www.socialdemocrats.ie/
-P0004,A0008,B0001,Teachta Dála,Sinn Féin,G0001,,,,,,https://sinnfein.ie/
-P0005,A0014,B0001,Teachta Dála,People Before Profit,G0001,,,,,,https://www.pbp.ie/
-P0006,A0015,B0001,Teachta Dála,People Before Profit,G0001,,,,,,https://www.pbp.ie/
+P0003,A0006,B0001,Teachta Dála,Social Democrats,G0032,,,,,,https://www.socialdemocrats.ie/
+P0004,A0008,B0001,Teachta Dála,Sinn Féin,G0007,,,,,,https://sinnfein.ie/
+P0005,A0014,B0001,Teachta Dála,People Before Profit,G0029,,,,,,https://www.pbp.ie/
+P0006,A0015,B0001,Teachta Dála,People Before Profit,G0031,,,,,,https://www.pbp.ie/
 P0007,A0025,B0002,Senator,Sinn Féin,G0001,,,,,,https://sinnfein.ie/news/government-policy-must-address-wealth-based-climate-emissions-senator-lynn-boylan/
-P0008,A0026,B0001,Teachta Dála,Sinn Féin,G0001,,,,,,https://sinnfein.ie/news/mounting-debt-from-local-property-tax-deferral-worrying-thomas-gould-td/
+P0008,A0026,B0001,Teachta Dála,Sinn Féin,G0006,,,,,,https://sinnfein.ie/news/mounting-debt-from-local-property-tax-deferral-worrying-thomas-gould-td/
 P0009,A0028,B0001,Teachta Dála,People Before Profit,G0001,,,,,,https://www.pbp.ie/cuts-to-pup-payment-a-dangerous-betrayal-of-all-in-it-together/
 P0010,A0029,B0002,Senator,Independent,G0001,,,,,,https://www.oireachtas.ie/en/debates/debate/seanad/2022-12-13/13/
 P0011,A0030,B0002,Senator,Sinn Féin,G0001,,,,,,https://www.oireachtas.ie/en/debates/debate/seanad/2022-12-13/13/
-P0012,A0032,B0001,Teachta Dála,Sinn Féin,G0001,,,,,,https://www.oireachtas.ie/en/debates/debate/select_committee_on_finance_public_expenditure_and_reform_and_taoiseach/2021-11-16/3/
+P0012,A0032,B0001,Teachta Dála,Sinn Féin,G0009,,,,,,https://www.oireachtas.ie/en/debates/debate/select_committee_on_finance_public_expenditure_and_reform_and_taoiseach/2021-11-16/3/
 P0013,A0033,B0001,Teachta Dála,Independent,G0001,,,,,,https://www.oireachtas.ie/en/debates/debate/dail/2013-05-30/13/
 P0014,A0035,B0001,Teachta Dála,Labour Party,G0001,,,,,,https://www.thejournal.ie/readme/patrick-nulty-budget-2013-labour-699791-Dec2012/
 P0015,A0036,B0001,Teachta Dála,Socialist Party,G0001,,,,,,https://prelive.oireachtas.ie/en/debates/debate/dail/2013-10-15/14/
-P0016,A0038,B0001,Teachta Dála,Sinn Féin,G0001,,,,,,https://www.thejournal.ie/mary-lou-mcdonald-interview-6-5951974-Dec2022/
+P0016,A0038,B0001,Teachta Dála,Sinn Féin,G0032,,,,,,https://www.thejournal.ie/mary-lou-mcdonald-interview-6-5951974-Dec2022/
 P0017,A0039,B0001,Teachta Dála,Labour Party,G0001,,,,,,https://www.oireachtas.ie/en/debates/debate/dail/2013-10-16/8/
 P0018,A0042,B0001,Teachta Dála,Independent,G0001,,,,,,https://www.oireachtas.ie/en/debates/debate/dail/2011-12-08/26/
 P0019,A0043,B0001,Teachta Dála,Independent,G0001,,,,,,https://www.oireachtas.ie/en/debates/debate/dail/2018-10-09/3/
