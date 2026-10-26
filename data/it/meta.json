@@ -19,12 +19,13 @@
     {
       "support": 70,
       "scope": "Italy, adults",
-      "question": "Progressive tax on large fortunes (richest 0.1%, net wealth above EUR 5.4m)",
+      "question": "A European tax on large fortunes, which in Italy would apply to the richest 0.1% (about 50,000 people with net wealth above EUR 5.4m)",
       "pollster": "Istituto Demopolis",
       "commissioned_by": "Oxfam Italia",
-      "fieldwork": "2024-05",
-      "published": "2024-05-22",
-      "url": "https://www.ilfattoquotidiano.it/2024/10/08/schlein-a-skytg24-tassa-internazionale-sui-super-ricchi-si-discuta-a-livello-europeo/7722578/"
+      "fieldwork": "2024-09",
+      "published": "2024-09-26",
+      "url": "https://www.oxfamitalia.org/wp-content/uploads/2024/09/CS_OXFAM_GLI-ITALIANI-E-LA-GRANDE-RICCHEZZA_nuovo-sondaggio-di-DEMOPOLIS-PER-OXFAM_definitivo.pdf",
+      "sample": "over 4,000 respondents"
     }
   ]
 }
