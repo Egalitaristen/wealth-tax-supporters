@@ -44,6 +44,12 @@ What the two newest pages still need. Milestone: [Resources and parliaments](htt
 - [#102](https://github.com/Egalitaristen/wealth-tax-supporters/issues/102) The UN General Assembly: three runs done (9 governments, 4 lit, including a pass over the UN's own General Debate records); next: read the original ministry pages, then Switzerland, France, Mexico and others
 - [#103](https://github.com/Egalitaristen/wealth-tax-supporters/issues/103) More supranational bodies
 - [#104](https://github.com/Egalitaristen/wealth-tax-supporters/issues/104) Share cards for the new pages
+- [#124](https://github.com/Egalitaristen/wealth-tax-supporters/issues/124) Seat chart for Italy's Camera and Senato
+- [#125](https://github.com/Egalitaristen/wealth-tax-supporters/issues/125) Seat chart for Mexico's Cámara de Diputados and Senado
+- [#126](https://github.com/Egalitaristen/wealth-tax-supporters/issues/126) Seat chart for Ireland's Dáil and Seanad
+- [#127](https://github.com/Egalitaristen/wealth-tax-supporters/issues/127) Second chambers without a seat chart (Spain, Poland, the Netherlands, Belgium, South Africa, Indonesia)
+- [#128](https://github.com/Egalitaristen/wealth-tax-supporters/issues/128) Wikidata IDs and profile links for Ireland, Italy, Mexico and South Africa
+- [#129](https://github.com/Egalitaristen/wealth-tax-supporters/issues/129) Country guide for Ireland
 
 ## Data quality
 
