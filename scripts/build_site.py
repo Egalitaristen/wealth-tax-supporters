@@ -472,6 +472,9 @@ def share_pages(out, base, countries, full):
         img = f"/og/{image_key}.png"
         if cards:
             draw(out / img.lstrip("/"))
+            # A version in the image URL, from the picture itself: Discord, Slack and others keep a preview for a URL for weeks,
+            # so a card whose numbers changed needs a new URL to be fetched again.
+            img += "?v=" + hashlib.md5((out / img.lstrip("/")).read_bytes()).hexdigest()[:8]
         else:
             img = "/og.png"
         dest = out / ("index.html" if path == "/" else path.lstrip("/") + ".html")
