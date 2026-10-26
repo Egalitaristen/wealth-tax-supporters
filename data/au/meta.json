@@ -1,0 +1,8 @@
+{
+  "name": "African Union",
+  "iso2": "AU",
+  "supranational": true,
+  "lead": "Egalitaristen",
+  "status": "in progress",
+  "notes": "Seats of the Pan-African Parliament, the African Union's legislative organ (up to 275 seats, five per member state, filled from each state's own parliament). A supporter who sits there is recorded in the register of their own country (data/<iso2>), as for the European Parliament; a state with no register yet cannot light its seats. Run python skill/scripts/seats.py data/au to refresh from the MP lists on pap.au.int."
+}

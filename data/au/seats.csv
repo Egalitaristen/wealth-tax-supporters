@@ -1,0 +1,7 @@
+seat_id,body_id,party,seats,colour,order
+S0001,B0001,Northern,35,c9622a,1
+S0002,B0001,Western,36,2f8f5b,2
+S0003,B0001,Central,45,7a5ab3,3
+S0004,B0001,Eastern,55,d6a21f,4
+S0005,B0001,Southern,49,2d6fb5,5
+S0006,B0001,Not on the list,55,,6
