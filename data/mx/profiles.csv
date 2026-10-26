@@ -1,0 +1,14 @@
+profile_id,actor_id,platform,url,source,checked
+P00001,A0001,website,https://oxfam.mx/,actors.csv website column,2026-10-26
+P00002,A0002,website,https://fundar.org.mx,actors.csv website column,2026-10-26
+P00003,A0003,website,https://www.jornada.com.mx,actors.csv website column,2026-10-26
+P00004,A0004,website,https://www.fightinequality.org,actors.csv website column,2026-10-26
+P00005,A0003,x,https://x.com/lajornadaonline,Wikidata Q2496821,2026-10-26
+P00006,A0003,instagram,https://www.instagram.com/lajornadaonline/,Wikidata Q2496821,2026-10-26
+P00007,A0003,facebook,https://www.facebook.com/lajornadaonline,Wikidata Q2496821,2026-10-26
+P00008,A0003,wikipedia,https://en.wikipedia.org/wiki/La_Jornada,Wikidata Q2496821,2026-10-26
+P00009,A0009,wikipedia,https://en.wikipedia.org/wiki/Alfonso_Ram%C3%ADrez_Cu%C3%A9llar,Wikidata Q5667123,2026-10-26
+P00010,A0012,wikipedia,https://en.wikipedia.org/wiki/Aleida_Alavez_Ruiz,Wikidata Q5664630,2026-10-26
+P00011,A0014,instagram,https://www.instagram.com/mariaclementemx/,Wikidata Q108353214,2026-10-26
+P00012,A0014,facebook,https://www.facebook.com/MARIACLEMENTEMX,Wikidata Q108353214,2026-10-26
+P00013,A0014,wikipedia,https://en.wikipedia.org/wiki/Mar%C3%ADa_Clemente_Garc%C3%ADa,Wikidata Q108353214,2026-10-26
