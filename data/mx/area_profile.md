@@ -30,3 +30,7 @@
 - The same R008 sweep also added principal Oxfam México authors Laura Cruz Mendiola and Ervin Félix López. The 2026 report explicitly calls for progressive taxes on large fortunes; its other five principal authors were already represented.
 - Next: follow Fundar, Oxfam and Alianza publication bylines; search each major national party’s formal platform and the federal bill database. Regional and municipal work remains low-yield and should be sampled before expansion.
 - Regional and municipal research: use the national campaigns and state legislatures as aggregators. Do not expand the municipal sweep unless a new sample yields supporters.
+
+## Review corrections (PR review, 2026-10-26)
+
+Seventeen people were removed after the quotes and sources were read: Ifigenia Martínez Hernández (died 5 October 2024); six interviewees whose quote is not support (Pérez Garrido, Villarreal Páez, Carbajal, Campos Vázquez, del Ángel Mobarak, de la Mora); six credits on Oxfam México's 2022 report, which mentions a wealth tax only once, as a future step; two on a Fundar/ACIJ report that could not be read; and two on Oxfam's 2026 "Oligarquía o democracia" report. They are in exclusions.csv. The eight authors of Oxfam's 2026 "Financiar el futuro" report (which calls for a 3% minimum tax on the net wealth of the very rich), the five signers of the 2023 constitutional initiative and the PT group's 2020 proposal are now grade B: an author credit or a name in a gazette list is not the person's own statement, and the gazette pages could not be opened to read the initiative.
