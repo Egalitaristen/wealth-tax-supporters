@@ -1,6 +1,6 @@
 position_id,actor_id,body_id,role,party,geo_unit_id,start,end,current,member_ref,checked,source_url
 O00001,A0002,B0001,Member of the National Assembly,EFF,G0001,2014-06-23,,y,692,2026-10-26,https://pmg.org.za/member/692/
-O00002,A0003,B0001,Member of the National Assembly,EFF,G0001,,,y,1715,2026-10-26,https://pmg.org.za/member/1715/
-O00003,A0004,B0001,Member of the National Assembly,EFF,G0001,,,y,1729,2026-10-26,https://pmg.org.za/member/1729/
-O00004,A0015,B0001,Member of the National Assembly,ANC,G0001,2013-04-09,,y,249,2026-10-26,https://pmg.org.za/member/249/
-O00005,A0023,B0001,Member of the National Assembly,EFF,G0001,,,y,1880,2026-10-26,https://pmg.org.za/member/1880/
+O00002,A0003,B0001,Member of the National Assembly,EFF,G0006,,,y,1715,2026-10-26,https://pmg.org.za/member/1715/
+O00003,A0004,B0001,Member of the National Assembly,EFF,G0006,,,y,1729,2026-10-26,https://pmg.org.za/member/1729/
+O00004,A0015,B0001,Member of the National Assembly,ANC,G0004,2013-04-09,,y,249,2026-10-26,https://pmg.org.za/member/249/
+O00005,A0023,B0001,Member of the National Assembly,EFF,G0008,,,y,1880,2026-10-26,https://pmg.org.za/member/1880/
