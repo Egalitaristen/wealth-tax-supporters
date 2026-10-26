@@ -505,8 +505,53 @@ def check_boundaries(d, db):
     return errs, warns
 
 
+def validate_supranational(d):
+    """A body above the countries (data/eu): only bodies, seats and positions. Its supporters are actors in the country registers, referred
+    to as <country folder>-<actor id>; check each one exists there, and that a body's seat rows add up to its seats."""
+    errs, warns = [], []
+    db = {t: load(d, t) for t in ("bodies", "seats", "positions")}
+    for t, rows in db.items():
+        seen = set()
+        for i, r in enumerate(rows, start=2):
+            rid = r.get(idcol(t), "")
+            where = f"{t}.csv line {i} ({rid or 'no id'})"
+            if not rid or rid in seen:
+                errs.append(f"{where}: missing or duplicate {idcol(t)}")
+            seen.add(rid)
+            errs += [f"{where}: missing {c}" for c in REQUIRED[t] if not r.get(c)]
+            for (tt, c), allowed in ENUMS.items():
+                if tt == t and r.get(c) and r[c] not in allowed:
+                    errs.append(f"{where}: {c}='{r[c]}' not allowed")
+    bodies = {b["body_id"]: b for b in db["bodies"]}
+    for b in db["bodies"]:
+        total = sum(int(x["seats"] or 0) for x in db["seats"] if x["body_id"] == b["body_id"])
+        if b.get("seat_view") == "y" and total != int(b["seats"] or 0):
+            errs.append(f"bodies.csv ({b['body_id']}): seats.csv rows add up to {total}, not {b['seats']}")
+    root = os.path.dirname(os.path.abspath(d))
+    actors = {}
+    for o in db["positions"]:
+        folder, _, aid = o["actor_id"].rpartition("-")
+        if folder not in actors:
+            f = os.path.join(root, folder, "actors.csv")
+            actors[folder] = {x["actor_id"] for x in load(os.path.join(root, folder), "actors")} if os.path.exists(f) else set()
+        if aid not in actors[folder]:
+            errs.append(f"positions.csv ({o['position_id']}): actor {o['actor_id']} is not in data/{folder or '?'}/actors.csv")
+        if o["body_id"] not in bodies:
+            errs.append(f"positions.csv ({o['position_id']}): body_id {o['body_id']} does not exist")
+    return errs, warns
+
+
 def cmd_validate(a):
     need_dir(a.dir)
+    meta = os.path.join(a.dir, "meta.json")
+    if os.path.exists(meta) and json.load(open(meta, encoding="utf-8")).get("supranational"):
+        errs, warns = validate_supranational(a.dir)
+        for w in warns:
+            print("WARN  " + w)
+        for e in errs:
+            print("ERROR " + e)
+        print(f"\n{len(errs)} error(s), {len(warns)} warning(s) (supranational body: bodies, seats and positions only)")
+        sys.exit(1 if errs else 0)
     db = load_all(a.dir)
     errs, warns = validate(db)
     be, bw = check_boundaries(a.dir, db)

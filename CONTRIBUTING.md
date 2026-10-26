@@ -31,6 +31,10 @@ For a local map, add a `boundaries.json` and name it in `meta.json`. If you have
 
 Unit names must match the `name` column of `geo_units.csv`, or match it up to the opening bracket (`Alabama` matches `Alabama (state legislature and state government)`). Paths use any flat coordinate system; the viewBox is in the same units.
 
+## Adding a poll, paper, report or bill
+
+These appear on the [Resources page](https://wealthtaxsupporters.com/resources). A poll goes in its country's `meta.json` under `polls`; a paper, report or bill goes in `data/resources.json` (the fields are in `skill/SKILL.md` section 5). Link the original document, not a news story about it. It must be about an actual wealth tax, a poll must ask about a wealth tax and say who paid for it, and a bill's status must be what the parliament's own page shows. The build stops on a missing field.
+
 ## Using an AI assistant
 
 Allowed and encouraged, with these conditions:
