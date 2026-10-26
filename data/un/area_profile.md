@@ -13,3 +13,7 @@
 **Run R004: verbatim records.** The A/PV and A/C.2 PDFs were not read: the UN document server answers scripts with a bot check, which this run did not get around. The 70 Second Committee coverage pages (2022 to 2026) held no statement from a state for a wealth tax.
 
 **Not yet searched.** Switzerland, France's government on the taxe Zucman, Mexico, Belgium, the Netherlands, Kenya, Nigeria, Barbados, Indonesia, and statements in the General Assembly itself. A blank is "not searched", never "no support".
+
+## Review corrections
+
+Eight evidence rows were removed because their quote does not name a wealth tax or only names a document (a G20 communiqué, a joint text saying the super-rich should be 'taxed more efficiently', speeches asking for 'proportional' or 'minimal global' taxation, and a raised threshold for Norway's existing tax). Brazil keeps the April 2024 joint call for a global levy on billionaires and its 2025 General Assembly speech on a minimum global tax; Spain keeps the joint call and its 2025 statement on minimum taxation of large fortunes; Norway keeps Labour's pledge to keep the wealth tax. All four lit seats stay lit.
