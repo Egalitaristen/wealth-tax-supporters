@@ -29,3 +29,7 @@
 1. Search the Verkhovna Rada’s bill, sponsor and vote records for an annual net-wealth tax, one-off wealth levy, billionaire minimum tax or qualifying partial-wealth tax; process every named sponsor from any qualifying act.
 2. Check party programmes, trade-union resolutions, tax-justice and civil-society organisations, and named authors of Ukrainian reports.
 3. Load the official local-government register and an openly licensed map, then sample Kyiv and a small set of oblast centres. Do not infer support from property, luxury or income-tax advocacy.
+
+## Review corrections
+
+Seven rows (and their people) were removed: three students and a postgraduate (private individuals), a co-author whose quote is a passing mention in a list, a paper on a journal page that could not be opened, and two conference papers whose quotes are not in the PDF text. The three authors of the 2017 'Wealth taxation: challenges for Ukraine' paper are grade C, because the abstract describes the paper ('prospects ... considered') rather than stating a position; the Pyroha pair, Sverdan and the 2012 Rada speech are grade B. The quotes of the Growford report, the Pyroha paper, the Wunu and economdevelopment abstracts and the Rada transcript were read at their sources in a browser.
