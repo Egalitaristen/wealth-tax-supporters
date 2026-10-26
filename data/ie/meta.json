@@ -1,0 +1,8 @@
+{
+  "name": "Ireland",
+  "iso2": "IE",
+  "lead": "",
+  "status": "in progress",
+  "boundaries": "",
+  "notes": "Seed R001 (2026-10-26): national parties, three TDs and Oxfam Ireland added from opened primary sources. Geography register: 31 statutory local authorities, using Tailte Éireann 2026 boundary IDs. The Tailte Éireann CC BY 4.0 local-authority geometry is identified but has not yet been simplified into boundaries.json. The three TDs are temporarily at the country root until their constituencies and current offices are verified from the Oireachtas register. Regional and local research has not begun."
+}

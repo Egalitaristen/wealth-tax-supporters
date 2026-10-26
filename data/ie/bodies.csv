@@ -1,0 +1,3 @@
+body_id,name,level,kind,seats,as_of,source_url,seat_view,notes
+B0001,Dáil Éireann,national,chamber,,,https://www.oireachtas.ie/,,National lower house; positions are retained without current-seat assertions pending a verified member-list import.
+B0002,Seanad Éireann,national,chamber,,,https://www.oireachtas.ie/,,National upper house; positions are retained without current-seat assertions pending a verified member-list import.

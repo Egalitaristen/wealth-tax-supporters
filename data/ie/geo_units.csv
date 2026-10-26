@@ -1,0 +1,33 @@
+geo_unit_id,name,level,unit_type,parent_id,website,sweep_status,swept_run,swept_date,queries_run,hits,notes,code
+G0001,Ireland,national,country,,https://www.gov.ie/,in_progress,R001,2026-10-26,12,6,R001 seed: national supporter research begun; local authority mapping and sample not yet completed.,IE
+G0002,Carlow County Council,council,local authority,G0001,,pending,,,,,Official Tailte Eireann 2026 local-authority boundary ID.,15001
+G0003,Cavan County Council,council,local authority,G0001,,pending,,,,,Official Tailte Eireann 2026 local-authority boundary ID.,25001
+G0004,Clare County Council,council,local authority,G0001,,pending,,,,,Official Tailte Eireann 2026 local-authority boundary ID.,35001
+G0005,Cork County Council,council,local authority,G0001,,pending,,,,,Official Tailte Eireann 2026 local-authority boundary ID.,45501
+G0006,Cork City Council,council,local authority,G0001,,pending,,,,,Official Tailte Eireann 2026 local-authority boundary ID.,45511
+G0007,Donegal County Council,council,local authority,G0001,,pending,,,,,Official Tailte Eireann 2026 local-authority boundary ID.,55001
+G0008,Galway County Council,council,local authority,G0001,,pending,,,,,Official Tailte Eireann 2026 local-authority boundary ID.,65001
+G0009,Galway City Council,council,local authority,G0001,,pending,,,,,Official Tailte Eireann 2026 local-authority boundary ID.,65011
+G0010,Kerry County Council,council,local authority,G0001,,pending,,,,,Official Tailte Eireann 2026 local-authority boundary ID.,75001
+G0011,Kildare County Council,council,local authority,G0001,,pending,,,,,Official Tailte Eireann 2026 local-authority boundary ID.,85001
+G0012,Kilkenny County Council,council,local authority,G0001,,pending,,,,,Official Tailte Eireann 2026 local-authority boundary ID.,95001
+G0013,Laois County Council,council,local authority,G0001,,pending,,,,,Official Tailte Eireann 2026 local-authority boundary ID.,105001
+G0014,Leitrim County Council,council,local authority,G0001,,pending,,,,,Official Tailte Eireann 2026 local-authority boundary ID.,115001
+G0015,Limerick City And County Council,council,local authority,G0001,,pending,,,,,Official Tailte Eireann 2026 local-authority boundary ID.,125002
+G0016,Longford County Council,council,local authority,G0001,,pending,,,,,Official Tailte Eireann 2026 local-authority boundary ID.,135001
+G0017,Louth County Council,council,local authority,G0001,,pending,,,,,Official Tailte Eireann 2026 local-authority boundary ID.,145001
+G0018,Mayo County Council,council,local authority,G0001,,pending,,,,,Official Tailte Eireann 2026 local-authority boundary ID.,155001
+G0019,Meath County Council,council,local authority,G0001,,pending,,,,,Official Tailte Eireann 2026 local-authority boundary ID.,165001
+G0020,Monaghan County Council,council,local authority,G0001,,pending,,,,,Official Tailte Eireann 2026 local-authority boundary ID.,175001
+G0021,Offaly County Council,council,local authority,G0001,,pending,,,,,Official Tailte Eireann 2026 local-authority boundary ID.,185001
+G0022,Roscommon County Council,council,local authority,G0001,,pending,,,,,Official Tailte Eireann 2026 local-authority boundary ID.,195001
+G0023,Sligo County Council,council,local authority,G0001,,pending,,,,,Official Tailte Eireann 2026 local-authority boundary ID.,205001
+G0024,Tipperary County Council,council,local authority,G0001,,pending,,,,,Official Tailte Eireann 2026 local-authority boundary ID.,215003
+G0025,Waterford City And County Council,council,local authority,G0001,,pending,,,,,Official Tailte Eireann 2026 local-authority boundary ID.,225002
+G0026,Westmeath County Council,council,local authority,G0001,,pending,,,,,Official Tailte Eireann 2026 local-authority boundary ID.,235001
+G0027,Wexford County Council,council,local authority,G0001,,pending,,,,,Official Tailte Eireann 2026 local-authority boundary ID.,245001
+G0028,Wicklow County Council,council,local authority,G0001,,pending,,,,,Official Tailte Eireann 2026 local-authority boundary ID.,255001
+G0029,Dun Laoghaire-Rathdown County Council,council,local authority,G0001,,pending,,,,,Official Tailte Eireann 2026 local-authority boundary ID.,265001
+G0030,Fingal County Council,council,local authority,G0001,,pending,,,,,Official Tailte Eireann 2026 local-authority boundary ID.,265002
+G0031,South Dublin County Council,council,local authority,G0001,,pending,,,,,Official Tailte Eireann 2026 local-authority boundary ID.,265003
+G0032,Dublin City Council,council,local authority,G0001,,pending,,,,,Official Tailte Eireann 2026 local-authority boundary ID.,265011
