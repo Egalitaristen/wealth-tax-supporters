@@ -498,17 +498,20 @@ a.ov:hover .spark rect.pk { fill: var(--signal); }
 .sp p { margin: 6px 0 0 20px; color: var(--ink-2); font-size: 13.5px; line-height: 1.5; }
 
 /* ---------- footer ---------- */
-.foot { border-top: 1.5px solid var(--ink); margin-top: 40px; padding: 48px 0 40px; }
+.foot { border-top: 1.5px solid var(--ink); margin-top: 40px; padding: 26px 0 22px; }
 /* The footer sits under an empty <main> until the first page renders, then gets pushed down: hide it until then so it is not counted as layout shift. */
 body:not(.ready) .foot { visibility: hidden; }
-.foot-big { font: 400 clamp(44px, 9vw, 128px)/.9 var(--serif); letter-spacing: -.035em; }
+.foot-top { display: grid; grid-template-columns: minmax(0, 1fr) minmax(0, 1.4fr); gap: 20px 48px; align-items: start; }
+.foot-big { font: 400 clamp(26px, 3vw, 34px)/1 var(--serif); letter-spacing: -.02em; }
 .foot-big i { color: var(--signal); }
-.foot-grid { display: grid; grid-template-columns: minmax(0, 2fr) minmax(0, 1fr) minmax(0, 1fr); gap: 32px; margin-top: 36px; font-size: 14.5px; }
-.foot-grid p { color: var(--ink-2); max-width: 44ch; }
-.foot-grid ul { list-style: none; margin: 0; padding: 0; }
-.foot-grid li { margin-bottom: 8px; }
-.foot-grid a { text-decoration: none; }
-.foot-small { font: 400 12px var(--mono); color: var(--ink-3); margin-top: 28px; }
+.foot-brand p { color: var(--ink-2); font-size: 13.5px; max-width: 44ch; margin: 8px 0 0; }
+.foot-links { display: flex; flex-direction: column; gap: 8px; font-size: 14px; }
+.foot-links ul { list-style: none; margin: 0; padding: 0; display: flex; flex-wrap: wrap; gap: 4px 20px; }
+.foot-links ul + ul { font-size: 13px; }
+.foot-links ul + ul a { color: var(--ink-3); }
+.foot-links a { text-decoration: none; }
+.foot-links a:hover { text-decoration: underline; }
+.foot-small { font: 400 12px var(--mono); color: var(--ink-3); margin: 16px 0 0; }
 
 /* ---------- loading ---------- */
 .loading { padding: 120px 0; text-align: center; color: var(--ink-3); font: 500 12px var(--mono); letter-spacing: .1em; text-transform: uppercase; }
@@ -591,8 +594,7 @@ body:not(.ready) .foot { visibility: hidden; }
   .hb { grid-template-columns: minmax(0, 8rem) minmax(0, 1fr) 44px; }
   .cta { grid-template-columns: minmax(0, 1fr); }
   .mini { grid-template-columns: minmax(0, 1fr); }
-  .foot-grid { grid-template-columns: minmax(0, 1fr) minmax(0, 1fr); }
-  .foot-grid p { grid-column: 1 / -1; }
+  .foot-top { grid-template-columns: minmax(0, 1fr); }
   .big-search .box { height: 56px; padding-left: 14px; }
   .big-search input { font-size: 16px; }
   .big-search .btn { display: none; }
