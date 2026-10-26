@@ -294,11 +294,14 @@ def build_country(folder):
             mapped.add(g["geo_unit_id"])
             ids = inside.get(g["geo_unit_id"], [])
             state = "support" if ids else ("clear" if g["sweep_status"] == "done" else "open")
-            # Supporters known only at a level above (a province, state or Land, say) tint the area lightly on the map.
+            # Supporters known only in the wider area (a province, state or Land, say) tint the area lightly on the map.
+            # Anyone inside the widest level above that has supporters (a county, region, state or Land), wherever in it they
+            # are placed: someone in Suffolk makes the whole East of England known, not only people placed "at" the region.
             above, near, anc = 0, "", g.get("parent_id")
             while anc and anc in by_id and anc not in roots:
-                if here.get(anc):
-                    above += len(here[anc]); near = near or re.sub(r"\s*\(.*$", "", by_id[anc]["name"]).strip()
+                others = len(set(inside.get(anc, [])) - set(ids))
+                if others:  # keep climbing: the widest level below the country is the one that says how much is known nearby
+                    above, near = others, re.sub(r"\s*\(.*$", "", by_id[anc]["name"]).strip()
                 anc = by_id[anc].get("parent_id")
             C.append([re.sub(r"\s*\(.*$", "", g["name"]).strip(), u.get("code", ""), state, g["sweep_status"], g["hits"],
                       g["notes"][:600], ids, u["path"], up_index(g), above, near])

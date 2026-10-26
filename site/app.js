@@ -818,7 +818,7 @@ function mapSection(box, D, slug, params) {
       <div class="atlas">
         <div class="mapbox" id="mapbox">
           <div class="zoomer"><button type="button" data-z="in" aria-label="Zoom in">+</button><button type="button" data-z="out" aria-label="Zoom out">−</button><button type="button" data-z="fit" aria-label="Show the whole country">⤢</button></div>
-          <div class="legend"><span><span class="ramp" style="display:inline-block;vertical-align:-1px;margin-right:6px"></span>Supporters</span>${D.C.some(c => c[9]) ? '<span><span class="ramp up" style="display:inline-block;vertical-align:-1px;margin-right:6px"></span>Supporters known only for the wider area</span>' : ''}<span><i class="sw none"></i>None recorded yet</span></div>
+          <div class="legend"><span><span class="ramp" style="display:inline-block;vertical-align:-1px;margin-right:6px"></span>Supporters</span>${D.C.some(c => c[9]) ? '<span><span class="ramp up" style="display:inline-block;vertical-align:-1px;margin-right:6px"></span>No one here yet, but supporters elsewhere in the wider area</span>' : ''}<span><i class="sw none"></i>None recorded yet</span></div>
         </div>
         <div class="panel" id="panel"></div>
       </div>
@@ -1109,7 +1109,7 @@ function countryMap(D, slug, onShowAll) {
     onHover: e => {
       const p = e.target.closest('path[data-i]');
       if (p) { const c = D.C[+p.dataset.i], n = c[6].length;
-        showTip(`<b>${esc(c[0])}</b><span>${n ? fmt(n) + ' supporter' + (n === 1 ? '' : 's') : c[9] ? `${fmt(c[9])} in ${esc(c[10])} with no local area` : 'none recorded yet'}</span>`, e.clientX, e.clientY); }
+        showTip(`<b>${esc(c[0])}</b><span>${n ? fmt(n) + ' supporter' + (n === 1 ? '' : 's') : c[9] ? `none recorded here yet; ${fmt(c[9])} elsewhere in ${esc(c[10])}` : 'none recorded yet'}</span>`, e.clientX, e.clientY); }
       else hideTip();
     },
     onTap: e => { const p = e.target.closest('path[data-i]'); if (p) select(D.C[+p.dataset.i][8]); }});
@@ -1165,9 +1165,11 @@ function countryMap(D, slug, onShowAll) {
     // that level as a whole, such as a state's legislators. A place with nobody of its own shows the nearest of them.
     const parts = path.split(' > ');
     const own = new Map(D.places.map(q => [q.path, q.ids]));
+    // A level below the country counts everyone inside it (someone in Suffolk is also in the East of England); the country level
+    // counts only those placed at the national level as a whole.
     const wider = parts.slice(0, -1).map((_, k) => parts.slice(0, k + 1).join(' > ')).reverse()
-      .map(a => ({path: a, name: a.includes(' > ') ? a.split(' > ').pop() : `${D.meta.name}, national level`,
-                  ids: (own.get(a) || []).filter(i => person(i))}))
+      .map(a => ({path: a, name: a.includes(' > ') ? a.split(' > ').pop() : `${D.meta.name}, national level`, inside: a.includes(' > '),
+                  ids: (a.includes(' > ') ? [...idsForPlace(D, a)] : (own.get(a) || [])).filter(i => person(i) && !people.includes(person(i)))}))
       .filter(w => w.ids.length);
     const near = !people.length && wider[0];
     const shown = near ? near.ids.map(person).sort(byStrength) : people;
@@ -1176,10 +1178,10 @@ function countryMap(D, slug, onShowAll) {
       <div class="path">${esc(path)}</div>
       <div style="margin-top:12px;display:flex;gap:8px;flex-wrap:wrap"><span class="tag ${people.length ? 'signal' : ''}">${esc(state)}</span></div>
       <div class="scroll">
-        ${near ? `<div class="kicker" style="margin-top:6px">Known for ${esc(near.name)} as a whole · ${fmt(near.ids.length)}</div>` : ''}
+        ${near ? `<div class="kicker" style="margin-top:6px">${near.inside ? `Elsewhere in ${esc(near.name)}` : `Known for ${esc(near.name)} as a whole`} · ${fmt(near.ids.length)}</div>` : ''}
         ${shown.slice(0, 40).map(row).join('')}
         ${wider.length ? `<div class="kicker" style="margin-top:18px">The wider area</div>
-          ${wider.map((w, k) => `<button type="button" class="prow" data-up="${k}"><span>${esc(w.name)}<span class="sub">supporters for the area as a whole</span></span><span class="n">${fmt(w.ids.length)} →</span></button>`).join('')}` : ''}
+          ${wider.map((w, k) => `<button type="button" class="prow" data-up="${k}"><span>${esc(w.name)}<span class="sub">${w.inside ? 'supporters elsewhere in this area' : 'supporters for the area as a whole'}</span></span><span class="n">${fmt(w.ids.length)} →</span></button>`).join('')}` : ''}
         ${pl && pl.notes ? `<p class="note">${esc(pl.notes)}</p>` : ''}</div>
       <div class="pl-actions">
         ${people.length ? `<button class="btn sm ghost" type="button" id="pl-all">Show ${people.length > 40 ? 'all ' + fmt(people.length) : 'them'} in the directory ↓</button>`
