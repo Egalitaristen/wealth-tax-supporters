@@ -1,0 +1,3 @@
+body_id,name,level,kind,seats,as_of,source_url,seat_view,notes
+B0001,Chamber of Deputies,national,chamber,,,https://www.diputados.gob.mx/,,"Seat composition not loaded; historical and election-based positions only, unless individually checked."
+B0002,Senate of the Republic,national,chamber,,,https://www.senado.gob.mx/,,Seat composition not loaded; national-list senator position not checked against current official roster.

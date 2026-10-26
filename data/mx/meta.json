@@ -1,0 +1,8 @@
+{
+  "name": "Mexico",
+  "iso2": "MX",
+  "lead": "Egalitaristen",
+  "status": "in progress",
+  "boundaries": "boundaries.json",
+  "notes": "Seed pass begun 2026-10-25 and completed 2026-10-26. National layers searched, with a sample of regional and local sources. Spanish and English searched; indigenous-language sources remain a coverage gap. Official INEGI municipality/alcaldía map and register; most local units remain unswept. Further legislative and report-author harvesting is planned."
+}
