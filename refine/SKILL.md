@@ -88,7 +88,13 @@ Update `role`, `party` and `status` (`former_role` when they no longer hold the 
 
 - **Guessed links.** An account with the right name but no link from the person's own pages may belong to someone else. Leave it out.
 - **Home towns that reveal homes.** Town level at most, and only from a public source about their public life.
+- **A supporter who sits as an MEP.** After you change an MEP's role, status or party, run `python skill/scripts/seats.py data/eu` (and `wtdb.py validate data/eu`) so the European Parliament chart on `/eu/seats` follows. Add other MEPs you find to their own country's register, not to `data/eu`.
 - **Stale seats.** A role that still says "MP for X (at signing, 2021)" for someone who has since left, or `current=y` on an office nobody checked. Re-check offices on every pass.
+- **A supporter who has died** leaves the register: add an `exclusions.csv` row (reason `deceased`, with the source of the news) and keep their original actor, profile and evidence rows in `docs/refinement/history/<iso2>-<ID>.json`, so nothing is lost. Never leave a deceased person marked active.
 - **Rewriting history.** Never edit or delete an existing evidence row because a newer one exists; add the new one. Remove a row only when its quote is not on its page.
 - **Notes that narrate the work.** ("Checked X, nothing found.") That goes in the run log; `notes` are shown to readers.
 - **New supporters.** Someone you meet who is not in the register is a lead for a research run: list them in the run log or `harvest.csv` instead of adding them here.
+
+## Resources pass (polls, papers, reports and bills)
+
+The Resources page lists polls (each country's `meta.json` `polls`) and papers, reports and bills (`data/resources.json`; format in `skill/SKILL.md` section 5). Treat them like evidence: a run on resources opens each item at its source and checks that the link works, the title, authors and date are right, that it is about an actual wealth tax, that a bill's `status` is what the parliament's own page shows today (bills lapse and pass), and that a poll's figure matches the pollster's report and its question names a wealth tax. Fix or remove what fails. When a country is refined, also look for what is missing: its bills in the parliament's database, its official or independent reports, its published polls. Never state a status you have not seen. Open items are on the roadmap (the Resources and parliaments milestone).
