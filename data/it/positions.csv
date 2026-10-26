@@ -1,0 +1,11 @@
+position_id,actor_id,body_id,role,party,geo_unit_id,start,end,current,member_ref,checked,source_url
+O00001,A0151,B0001,Member of Parliament,Alleanza Verdi e Sinistra,G3769,,,y,305880,2026-10-26,https://www.camera.it/deputati/elenco/19-305880
+O00002,A0152,B0001,Member of Parliament,Alleanza Verdi e Sinistra,G7319,,,y,302080,2026-10-26,https://www.camera.it/deputati/elenco/19-302080
+O00003,A0153,B0001,Member of Parliament,Alleanza Verdi e Sinistra,G7026,,,y,308810,2026-10-26,https://www.camera.it/deputati/elenco/19-308810
+O00004,A0155,B0001,Member of Parliament,Partito Democratico - Italia Democratica e Progressista,G7506,,,y,305815,2026-10-26,https://www.camera.it/deputati/elenco/19-305815
+O00005,A0156,B0001,Member of Parliament,,G5459,,,n,,2026-10-26,https://www.camera.it/deputati/elenco?leg=19
+O00006,A0157,B0001,Member of Parliament,,G4871,,,n,,2026-10-26,https://www.camera.it/deputati/elenco?leg=19
+O00007,A0158,B0001,Member of Parliament,MoVimento 5 Stelle,G7026,,,y,308824,2026-10-26,https://www.camera.it/deputati/elenco/19-308824
+O00008,A0159,B0001,Member of Parliament,Partito Democratico - Italia Democratica e Progressista,G7319,,,y,308930,2026-10-26,https://www.camera.it/deputati/elenco/19-308930
+O00009,A0169,B0001,Member of Parliament,,G6582,,,n,,2026-10-26,https://www.camera.it/deputati/elenco?leg=19
+O00010,A0154,B0002,Member of Parliament,Misto,G7209,,,y,36437,2026-10-26,http://dati.senato.it/senatore/36437

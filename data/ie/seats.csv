@@ -1,1 +1,21 @@
 seat_id,body_id,party,seats,colour,order
+S0001,B0001,People Before Profit-Solidarity,3,8e2420,1
+S0002,B0001,Social Democrats,12,752f8a,2
+S0003,B0001,Labour Party,11,d82c20,3
+S0004,B0001,Sinn Féin,39,326760,4
+S0005,B0001,Green Party,1,99cc33,5
+S0006,B0001,Fianna Fáil,48,66bb66,6
+S0007,B0001,Fine Gael,38,6699ff,7
+S0008,B0001,Independent Ireland,4,4f9a9a,8
+S0009,B0001,Aontú,2,44532a,9
+S0010,B0001,Independent,15,8a8680,10
+S0011,B0001,100% RDR,1,,11
+S0012,B0002,Social Democrats,1,752f8a,1
+S0013,B0002,Labour Party,2,d82c20,2
+S0014,B0002,Sinn Féin,6,326760,3
+S0015,B0002,Green Party,1,99cc33,4
+S0016,B0002,Fianna Fáil,19,66bb66,5
+S0017,B0002,Fine Gael,16,6699ff,6
+S0018,B0002,Aontú,1,44532a,7
+S0019,B0002,Independent,13,8a8680,8
+S0020,B0002,Vacant,1,,9
