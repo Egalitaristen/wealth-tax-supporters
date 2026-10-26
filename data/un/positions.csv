@@ -1,0 +1,5 @@
+position_id,actor_id,body_id,role,party,geo_unit_id,start,end,current,member_ref,checked,source_url
+O00001,un-A0001,B0001,Member state,GRULAC,,,,y,Brazil,2026-10-26,https://www.un.org/dgacm/en/content/regional-groups
+O00002,un-A0002,B0001,Member state,WEOG,,,,y,Spain,2026-10-26,https://www.un.org/dgacm/en/content/regional-groups
+O00003,un-A0007,B0001,Member state,WEOG,,,,y,Norway,2026-10-26,https://www.un.org/dgacm/en/content/regional-groups
+O00004,un-A0009,B0001,Member state,GRULAC,,,,y,Cuba,2026-10-26,https://www.un.org/dgacm/en/content/regional-groups

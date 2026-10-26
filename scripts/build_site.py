@@ -150,6 +150,30 @@ def unit_path(uid, by_id):
 
 
 # ---------- per-country data ----------
+def build_own_actors(folder):
+    """The actors and evidence a supranational folder holds itself (governments, for the UN), in the rows build_country makes.
+    As there, an actor whose latest evidence is a retraction stays in the files and leaves the site."""
+    actors, ev = rd(folder / "actors.csv"), rd(folder / "evidence.csv")
+    latest = {}
+    for e in sorted(ev, key=lambda e: e["date"]):
+        latest[e["actor_id"]] = e.get("stance", "support")
+    gone = {i for i, st in latest.items() if st == "retracted"}
+    ev = [e for e in ev if e["actor_id"] not in gone]
+    E = [[e["actor_id"], e["date"], e["grade"], e["evidence_type"], e["wt_design"], e["design_detail"], e["quote_original"][:420],
+          e["source_url"], e["source_title"], e["publisher"], e.get("archive_url", ""), e["evidence_id"]] for e in ev]
+    P = []
+    for a in actors:
+        es = [e for e in ev if e["actor_id"] == a["actor_id"]]
+        if not es:
+            continue
+        dates = sorted(x["date"] for x in es if x["date"])
+        P.append([a["actor_id"], a["name"], a["kind"], a["actor_type"], a["role"], a["affiliation"], a["level"], a.get("location", ""),
+                  "ABC"[min(RANK.get(x["grade"], 3) for x in es)], len(es), dates[0] if dates else "", dates[-1] if dates else "",
+                  sorted({x["wt_design"] for x in es if x["wt_design"]}), a["notes"], a["website"], a.get("party", ""),
+                  [x.strip() for x in a.get("other_types", "").split(";") if x.strip()], [], a.get("wikidata_qid", "")])
+    return dict(P=P, E=E)
+
+
 def build_supranational(folder, full):
     """A body above the countries (the European Parliament): its chamber, groups and the supporters who sit in it. The people are
     recorded in their own country's register; positions.csv refers to them as <country folder>-<actor id>, and they are copied here
@@ -160,11 +184,14 @@ def build_supranational(folder, full):
     for x in rd(folder / "seats.csv"):
         seats_by[x["body_id"]].append(x)
     P, E, seen, sitting = [], [], set(), collections.defaultdict(lambda: collections.defaultdict(list))
+    own = None
+    if rd(folder / "actors.csv"):  # a body whose members are governments (the UN) keeps them in its own folder
+        own = build_own_actors(folder)
     for o in rd(folder / "positions.csv"):
         if o["current"] != "y":
             continue
         cslug, aid = o["actor_id"].rsplit("-", 1)
-        D = full.get(cslug)
+        D = own if (own and cslug == slug) else full.get(cslug)
         row = next((p for p in D["P"] if p[0] == aid), None) if D else None
         if not row:
             continue
@@ -184,7 +211,7 @@ def build_supranational(folder, full):
     grades = collections.Counter(p[8] for p in P)
     summary = dict(slug=slug, iso2=meta.get("iso2", slug.upper()), name=meta["name"], status=meta.get("status", ""), lead=meta.get("lead", ""),
                    notes=meta.get("notes", ""), supporters=len(P), evidence=len(E), A=grades["A"], B=grades["B"], C=grades["C"],
-                   units=0, units_done=0, units_with_supporters=0, updated=max([e[1] for e in E] or [""]), excluded=0, polls=[], supranational=True,
+                   member_label=meta.get("member_label", ""), units=0, units_done=0, units_with_supporters=0, updated=max([e[1] for e in E] or [""]), excluded=0, polls=[], supranational=True,
                    chambers=[[b["name"], b["seats"], sum(len(q[3]) for q in b["parties"])] for b in legis],
                    types=dict(collections.Counter(p[3] for p in P).most_common()), designs=dict(collections.Counter(d for p in P for d in p[12]).most_common()),
                    featured=[], map_source="", map_licence=["", ""])

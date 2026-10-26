@@ -663,7 +663,8 @@ async function countryPage(slug, params, section = 'map') {
     <div class="c-top">
       <div class="c-title">
         <h1>${esc(m.name)}</h1>
-        <p>${m.supranational ? `${fmt(m.supporters)} sitting member${m.supporters === 1 ? '' : 's'} with a public statement for a wealth tax on the record, found so far, in ${fmt(m.evidence)} sourced statements. Each is recorded in the register of their own country. A register of who has said it in public, not a poll.`
+        <p>${m.supranational && m.member_label === 'government' ? `${fmt(m.supporters)} member state${m.supporters === 1 ? '' : 's'} whose government has a public position for a wealth tax on the record, found so far, in ${fmt(m.evidence)} sourced statements and laws. A seat is a government, lit while it is in office. A register of what governments have said and done in public, not a vote and not a poll.`
+          : m.supranational ? `${fmt(m.supporters)} sitting member${m.supporters === 1 ? '' : 's'} with a public statement for a wealth tax on the record, found so far, in ${fmt(m.evidence)} sourced statements. Each is recorded in the register of their own country. A register of who has said it in public, not a poll.`
           : `${fmt(m.supporters)} public figures and organisations on the record found so far, in ${fmt(m.evidence)} sourced statements. A register of who has said it in public, not a poll.`}</p>
         ${(m.polls || []).length ? (p => `<div class="c-poll"><b>${esc(pollFig(p))}</b><span><span class="kicker">In polls</span> back ${esc(p.question.replace(/^./, c => c.toLowerCase()))}. ${ext(p.url, esc(pollSource(p)) + ' ↗')}${m.polls.length > 1 ? ` · <a href="/${slug}/method#polls">${m.polls.length - 1} more poll${m.polls.length > 2 ? 's' : ''}</a>` : ''}</span></div>`)(m.polls[0]) : ''}
       </div>
@@ -723,7 +724,7 @@ function seatsSection(box, D, slug) {
   const person = new Map(D.P.map(p => [p[P_.id], p]));
   box.innerHTML = `<section class="c-sec">
     <div class="sec-head"><div><div class="kicker">Seats</div><h2>Who sits in the chamber</h2></div>
-      <p>One dot per seat, grouped by party. A lit dot is a sitting member whose public support for a wealth tax is on the record here. An unlit seat means nothing found yet, not that the member is against it. Hover a dot to see who it is; click a lit dot or a name for a short profile, and open the full profile from there.</p></div>
+      <p>${D.meta.member_label === 'government' ? 'One dot per member state, grouped by the UN regional group. A lit dot is a government in office whose public support for a wealth tax is on the record here. An unlit seat means nothing found yet, not that the government is against it.' : 'One dot per seat, grouped by party. A lit dot is a sitting member whose public support for a wealth tax is on the record here. An unlit seat means nothing found yet, not that the member is against it.'} Hover a dot to see who it is; click a lit dot or a name for a short profile, and open the full profile from there.</p></div>
     ${D.legis.map(b => bodyHtml(b, person, slug)).join('')}</section>`;
   // An instant label on hover (the browser's own tooltip waits too long), and a floating profile preview on click.
   const tip = document.createElement('div'), pv = document.createElement('aside');
