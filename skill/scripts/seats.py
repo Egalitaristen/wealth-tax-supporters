@@ -860,11 +860,11 @@ def pan_african_parliament():
             page = get(base + urllib.parse.quote(urllib.parse.unquote(href), safe="/:'"), as_json=False).decode("utf-8", "ignore")
             for term, name in re.findall(r'href="/taxonomy/term/(\d+)">.*?people-item-info-title">\s*([^<]+?)\s*</h4>', page, re.S):
                 name = _html.unescape(name)
-                name = re.sub(r"(?i)\(mrs?\.?\)|(H\.E\.|Hon\.?|Sen\.?|Rt\.?|Dr\.?|Prof\.?|Chief|Amb\.?|Eng\.?)(?=\s)", " ", name)
+                name = re.sub(r"(?i)\(mrs?\.?\)|\b(H\.E\.|Hon\.?|Sen\.?|Rt\.?|Dr\.?|Prof\.?|Chief|Amb\.?|Eng\.?)(?=\s)", " ", name)
                 members.append(dict(name=" ".join(name.split()), party=region, ref=term, country=iso, place=state, url=f"{base}/taxonomy/term/{term}"))
     return [dict(name="Pan-African Parliament", level="supranational", seats=275, source_url=base + "/en/honorable-members-parliament",
                  note="Up to 275 seats, five per member state of the African Union, filled from each state's own parliament. Who sits is from the MP lists on the Parliament's website, which is partial: a state whose delegation has not been listed shows no seats, and the list gives no party, so seats are grouped by the AU's five regions. A seat is lit where a supporter recorded in a country register is on the list.",
-                 role="Member of the Pan-African Parliament", role_re=r"(?i)pan-african parliament|PAP", role_start=r"(?i)(member of the )?pan-african parliament",
+                 role="Member of the Pan-African Parliament", role_re=r"(?i)pan-african parliament|\bPAP\b", role_start=r"(?i)(member of the )?pan-african parliament",
                  members=members, former=[], by_country=True, vacant_label="Not on the list",
                  party_order=list(REGIONS),
                  colours={"Northern": "c9622a", "Western": "2f8f5b", "Central": "7a5ab3", "Eastern": "d6a21f", "Southern": "2d6fb5"})]
