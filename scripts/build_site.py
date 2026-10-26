@@ -304,14 +304,14 @@ def build_country(folder):
                     above, near = others, re.sub(r"\s*\(.*$", "", by_id[anc]["name"]).strip()
                 anc = by_id[anc].get("parent_id")
             C.append([re.sub(r"\s*\(.*$", "", g["name"]).strip(), u.get("code", ""), state, g["sweep_status"], g["hits"],
-                      g["notes"][:600], ids, u["path"], up_index(g), above, near])
+                      "", ids, u["path"], up_index(g), above, near])
     O = []
     for g in geo:
         uid = g["geo_unit_id"]
         if uid in mapped or not here.get(uid):
             continue
         name = g["name"] + (" (country level)" if uid in roots else "")
-        O.append([name, g["level"], g["sweep_status"], g["notes"][:500], here[uid], unit_path(uid, by_id)])
+        O.append([name, g["level"], g["sweep_status"], "", here[uid], unit_path(uid, by_id)])
     L = [[l["from_actor_id"], l["to_actor_id"], l["link_type"], l["note"]] for l in links]
     last = max([r.get("date", "") for r in runs] or [""])
     done = sum(1 for g in geo if g["sweep_status"] == "done")
