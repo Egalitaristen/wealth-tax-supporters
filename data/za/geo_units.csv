@@ -1,0 +1,271 @@
+geo_unit_id,name,level,unit_type,parent_id,website,sweep_status,swept_run,swept_date,queries_run,hits,notes,code
+G0001,South Africa,national,country,,,pending,,,,,,ZA
+G0002,Eastern Cape,region,province,G0001,,pending,,,,,,ZA2
+G0003,Free State,region,province,G0001,,pending,,,,,,ZA4
+G0004,Gauteng,region,province,G0001,,pending,,,,,,ZA7
+G0005,KwaZulu-Natal,region,province,G0001,,pending,,,,,,ZA5
+G0006,Limpopo,region,province,G0001,,pending,,,,,,ZA9
+G0007,Mpumalanga,region,province,G0001,,pending,,,,,,ZA8
+G0008,North West,region,province,G0001,,pending,,,,,,ZA6
+G0009,Nothern Cape,region,province,G0001,,pending,,,,,,ZA3
+G0010,Western Cape,region,province,G0001,,pending,,,,,,ZA1
+G0011,Alfred Nzo,county,district municipality,G0002,,pending,,,,,,ZA244
+G0012,Amajuba,county,district municipality,G0005,,pending,,,,,,ZA525
+G0013,Amathole,county,district municipality,G0002,,pending,,,,,,ZA212
+G0014,Bojanala,county,district municipality,G0008,,pending,,,,,,ZA637
+G0015,Cacadu,county,district municipality,G0002,,pending,,,,,,ZA210
+G0016,Cape Winelands,county,district municipality,G0010,,pending,,,,,,ZA102
+G0017,Capricorn,county,district municipality,G0006,,pending,,,,,,ZA935
+G0018,Central Karoo,county,district municipality,G0010,,pending,,,,,,ZA105
+G0019,Chris Hani,county,district municipality,G0002,,pending,,,,,,ZA213
+G0020,Dr Kenneth Kaunda,county,district municipality,G0008,,pending,,,,,,ZA640
+G0021,Dr Ruth Segomotsi Mompati,county,district municipality,G0008,,pending,,,,,,ZA639
+G0022,Eden,county,district municipality,G0010,,pending,,,,,,ZA104
+G0023,Ehlanzeni,county,district municipality,G0007,,pending,,,,,,ZA832
+G0024,Fezile Dabi,county,district municipality,G0003,,pending,,,,,,ZA420
+G0025,Frances Baard,county,district municipality,G0009,,pending,,,,,,ZA309
+G0026,Gert Sibande,county,district municipality,G0007,,pending,,,,,,ZA830
+G0027,Joe Gqabi,county,district municipality,G0002,,pending,,,,,,ZA214
+G0028,John Taolo Gaetsewe,county,district municipality,G0009,,pending,,,,,,ZA345
+G0029,Lejweleputswa,county,district municipality,G0003,,pending,,,,,,ZA418
+G0030,Mopani,county,district municipality,G0006,,pending,,,,,,ZA933
+G0031,Namakwa,county,district municipality,G0009,,pending,,,,,,ZA306
+G0032,Ngaka Modiri Molema,county,district municipality,G0008,,pending,,,,,,ZA638
+G0033,Nkangala,county,district municipality,G0007,,pending,,,,,,ZA831
+G0034,O.R.Tambo,county,district municipality,G0002,,pending,,,,,,ZA215
+G0035,Overberg,county,district municipality,G0010,,pending,,,,,,ZA103
+G0036,Pixley ka Seme,county,district municipality,G0009,,pending,,,,,,ZA307
+G0037,Sedibeng,county,district municipality,G0004,,pending,,,,,,ZA742
+G0038,Sekhukhune,county,district municipality,G0006,,pending,,,,,,ZA947
+G0039,Sisonke,county,district municipality,G0005,,pending,,,,,,ZA543
+G0040,Thabo Mofutsanyane,county,district municipality,G0003,,pending,,,,,,ZA419
+G0041,Ugu,county,district municipality,G0005,,pending,,,,,,ZA521
+G0042,Umgungundlovu,county,district municipality,G0005,,pending,,,,,,ZA522
+G0043,Umkhanyakude,county,district municipality,G0005,,pending,,,,,,ZA527
+G0044,Umzinyathi,county,district municipality,G0005,,pending,,,,,,ZA524
+G0045,Uthukela,county,district municipality,G0005,,pending,,,,,,ZA523
+G0046,Uthungulu,county,district municipality,G0005,,pending,,,,,,ZA528
+G0047,Vhembe,county,district municipality,G0006,,pending,,,,,,ZA934
+G0048,Waterberg,county,district municipality,G0006,,pending,,,,,,ZA936
+G0049,West Coast,county,district municipality,G0010,,pending,,,,,,ZA101
+G0050,West Rand,county,district municipality,G0004,,pending,,,,,,ZA748
+G0051,Xhariep,county,district municipality,G0003,,pending,,,,,,ZA416
+G0052,Z F Mgcawu,county,district municipality,G0009,,pending,,,,,,ZA308
+G0053,Zululand,county,district municipality,G0005,,pending,,,,,,ZA526
+G0054,iLembe,county,district municipality,G0005,,pending,,,,,,ZA529
+G0055,Abaqulusi,council,local municipality,G0053,,pending,,,,,,ZA5263
+G0056,Alfred Duma,council,local municipality,G0045,,pending,,,,,,ZA5238
+G0057,Amahlathi,council,local municipality,G0013,,pending,,,,,,ZA2124
+G0058,Ba-Phalaborwa,council,local municipality,G0030,,pending,,,,,,ZA9334
+G0059,Beaufort West,council,local municipality,G0018,,pending,,,,,,ZA1053
+G0060,Bela-Bela,council,local municipality,G0048,,pending,,,,,,ZA9366
+G0061,Bergrivier,council,local municipality,G0049,,pending,,,,,,ZA1013
+G0062,Big Five Hlabisa,council,local municipality,G0043,,pending,,,,,,ZA5276
+G0063,Bitou,council,local municipality,G0022,,pending,,,,,,ZA1047
+G0064,Blouberg,council,local municipality,G0017,,pending,,,,,,ZA9351
+G0065,Blue Crane Route,council,local municipality,G0015,,pending,,,,,,ZA2102
+G0066,Breede Valley,council,local municipality,G0016,,pending,,,,,,ZA1025
+G0067,Buffalo City,council,metropolitan municipality,G0002,,pending,,,,,,ZA2920
+G0068,Bushbuckridge,council,local municipality,G0023,,pending,,,,,,ZA8325
+G0069,Cape Agulhas,council,local municipality,G0035,,pending,,,,,,ZA1033
+G0070,Cederberg,council,local municipality,G0049,,pending,,,,,,ZA1012
+G0071,Chief Albert Luthuli,council,local municipality,G0026,,pending,,,,,,ZA8301
+G0072,City of Cape Town,council,metropolitan municipality,G0010,,pending,,,,,,ZA1910
+G0073,City of Johannesburg,council,metropolitan municipality,G0004,,pending,,,,,,ZA7980
+G0074,City of Matlosana,council,local municipality,G0020,,pending,,,,,,ZA6403
+G0075,City of Tshwane,council,metropolitan municipality,G0004,,pending,,,,,,ZA7990
+G0076,Collins Chabane,council,local municipality,G0047,,pending,,,,,,ZA9345
+G0077,Dannhauser,council,local municipality,G0012,,pending,,,,,,ZA5254
+G0078,Dawid Kruiper,council,local municipality,G0052,,pending,,,,,,ZA3087
+G0079,Dihlabeng,council,local municipality,G0040,,pending,,,,,,ZA4192
+G0080,Dikgatlong,council,local municipality,G0025,,pending,,,,,,ZA3092
+G0081,Dipaleseng,council,local municipality,G0026,,pending,,,,,,ZA8306
+G0082,Ditsobotla,council,local municipality,G0032,,pending,,,,,,ZA6384
+G0083,Dr Beyers Naude,council,local municipality,G0015,,pending,,,,,,ZA2101
+G0084,Dr JS Moroka,council,local municipality,G0033,,pending,,,,,,ZA8316
+G0085,Dr Nkosazana Dlamini Zuma,council,local municipality,G0039,,pending,,,,,,ZA5436
+G0086,Dr Pixley Ka Isaka Seme,council,local municipality,G0026,,pending,,,,,,ZA8304
+G0087,Drakenstein,council,local municipality,G0016,,pending,,,,,,ZA1023
+G0088,Ekurhuleni,council,metropolitan municipality,G0004,,pending,,,,,,ZA7970
+G0089,Elias Motsoaledi,council,local municipality,G0038,,pending,,,,,,ZA9472
+G0090,Elundini,council,local municipality,G0027,,pending,,,,,,ZA2141
+G0091,Emadlangeni,council,local municipality,G0012,,pending,,,,,,ZA5253
+G0092,Emakhazeni,council,local municipality,G0033,,pending,,,,,,ZA8314
+G0093,Emalahleni,council,local municipality,G0019,,pending,,,,,,ZA2136
+G0094,Emalahleni,council,local municipality,G0033,,pending,,,,,,ZA8312
+G0095,Emfuleni,council,local municipality,G0037,,pending,,,,,,ZA7421
+G0096,Emthanjeni,council,local municipality,G0036,,pending,,,,,,ZA3073
+G0097,Endumeni,council,local municipality,G0044,,pending,,,,,,ZA5241
+G0098,Engcobo,council,local municipality,G0019,,pending,,,,,,ZA2137
+G0099,Enoch Mgijima,council,local municipality,G0019,,pending,,,,,,ZA2139
+G0100,Ephraim Mogale,council,local municipality,G0038,,pending,,,,,,ZA9471
+G0101,Ga-Segonyana,council,local municipality,G0028,,pending,,,,,,ZA3452
+G0102,Gamagara,council,local municipality,G0028,,pending,,,,,,ZA3453
+G0103,George,council,local municipality,G0022,,pending,,,,,,ZA1044
+G0104,Govan Mbeki,council,local municipality,G0026,,pending,,,,,,ZA8307
+G0105,Great Kei,council,local municipality,G0013,,pending,,,,,,ZA2123
+G0106,Greater Giyani,council,local municipality,G0030,,pending,,,,,,ZA9331
+G0107,Greater Kokstad,council,local municipality,G0039,,pending,,,,,,ZA5433
+G0108,Greater Letaba,council,local municipality,G0030,,pending,,,,,,ZA9332
+G0109,Greater Taung,council,local municipality,G0021,,pending,,,,,,ZA6394
+G0110,Greater Tubatse/Fetakgomo,council,local municipality,G0038,,pending,,,,,,ZA9476
+G0111,Greater Tzaneen,council,local municipality,G0030,,pending,,,,,,ZA9333
+G0112,Hantam,council,local municipality,G0031,,pending,,,,,,ZA3065
+G0113,Hessequa,council,local municipality,G0022,,pending,,,,,,ZA1042
+G0114,Impendle,council,local municipality,G0042,,pending,,,,,,ZA5224
+G0115,Inkosi Langalibalele,council,local municipality,G0045,,pending,,,,,,ZA5237
+G0116,Intsika Yethu,council,local municipality,G0019,,pending,,,,,,ZA2135
+G0117,Inxuba Yethemba,council,local municipality,G0019,,pending,,,,,,ZA2131
+G0118,Joe Morolong,council,local municipality,G0028,,pending,,,,,,ZA3451
+G0119,Jozini,council,local municipality,G0043,,pending,,,,,,ZA5272
+G0120,Kagisano/Molopo,council,local municipality,G0021,,pending,,,,,,ZA6397
+G0121,Kai Garib,council,local municipality,G0052,,pending,,,,,,ZA3082
+G0122,Kamiesberg,council,local municipality,G0031,,pending,,,,,,ZA3064
+G0123,Kannaland,council,local municipality,G0022,,pending,,,,,,ZA1041
+G0124,Kareeberg,council,local municipality,G0036,,pending,,,,,,ZA3074
+G0125,Karoo Hoogland,council,local municipality,G0031,,pending,,,,,,ZA3066
+G0126,Kgatelopele,council,local municipality,G0052,,pending,,,,,,ZA3086
+G0127,Kgetlengrivier,council,local municipality,G0014,,pending,,,,,,ZA6374
+G0128,Kheis,council,local municipality,G0052,,pending,,,,,,ZA3084
+G0129,Khâi-Ma,council,local municipality,G0031,,pending,,,,,,ZA3067
+G0130,King Sabata Dalindyebo,council,local municipality,G0034,,pending,,,,,,ZA2157
+G0131,Knysna,council,local municipality,G0022,,pending,,,,,,ZA1048
+G0132,Kopanong,council,local municipality,G0051,,pending,,,,,,ZA4162
+G0133,Kou-Kamma,council,local municipality,G0015,,pending,,,,,,ZA2109
+G0134,Kouga,council,local municipality,G0015,,pending,,,,,,ZA2108
+G0135,KwaDukuza,council,local municipality,G0054,,pending,,,,,,ZA5292
+G0136,Laingsburg,council,local municipality,G0018,,pending,,,,,,ZA1051
+G0137,Langeberg,council,local municipality,G0016,,pending,,,,,,ZA1026
+G0138,Lekwa,council,local municipality,G0026,,pending,,,,,,ZA8305
+G0139,Lekwa-Teemane,council,local municipality,G0021,,pending,,,,,,ZA6396
+G0140,Lepele-Nkumpi,council,local municipality,G0017,,pending,,,,,,ZA9355
+G0141,Lephalale,council,local municipality,G0048,,pending,,,,,,ZA9362
+G0142,Lesedi,council,local municipality,G0037,,pending,,,,,,ZA7423
+G0143,Letsemeng,council,local municipality,G0051,,pending,,,,,,ZA4161
+G0144,Local Municipality of Madibeng,council,local municipality,G0014,,pending,,,,,,ZA6372
+G0145,Mafikeng,council,local municipality,G0032,,pending,,,,,,ZA6383
+G0146,Mafube,council,local municipality,G0024,,pending,,,,,,ZA4205
+G0147,Magareng,council,local municipality,G0025,,pending,,,,,,ZA3093
+G0148,Makana,council,local municipality,G0015,,pending,,,,,,ZA2104
+G0149,Makhado,council,local municipality,G0047,,pending,,,,,,ZA9344
+G0150,Makhuduthamaga,council,local municipality,G0038,,pending,,,,,,ZA9473
+G0151,Maluti a Phofung,council,local municipality,G0040,,pending,,,,,,ZA4194
+G0152,Mamusa,council,local municipality,G0021,,pending,,,,,,ZA6393
+G0153,Mandeni,council,local municipality,G0054,,pending,,,,,,ZA5291
+G0154,Mangaung,council,metropolitan municipality,G0003,,pending,,,,,,ZA4940
+G0155,Mantsopa,council,local municipality,G0040,,pending,,,,,,ZA4196
+G0156,Maphumulo,council,local municipality,G0054,,pending,,,,,,ZA5294
+G0157,Maquassi Hills,council,local municipality,G0020,,pending,,,,,,ZA6404
+G0158,Maruleng,council,local municipality,G0030,,pending,,,,,,ZA9335
+G0159,Masilonyana,council,local municipality,G0029,,pending,,,,,,ZA4181
+G0160,Matatiele,council,local municipality,G0011,,pending,,,,,,ZA2441
+G0161,Matjhabeng,council,local municipality,G0029,,pending,,,,,,ZA4184
+G0162,Matzikama,council,local municipality,G0049,,pending,,,,,,ZA1011
+G0163,Mbhashe,council,local municipality,G0013,,pending,,,,,,ZA2121
+G0164,Mbizana,council,local municipality,G0011,,pending,,,,,,ZA2443
+G0165,Mbombela,council,local municipality,G0023,,pending,,,,,,ZA8326
+G0166,Merafong City,council,local municipality,G0050,,pending,,,,,,ZA7484
+G0167,Metsimaholo,council,local municipality,G0024,,pending,,,,,,ZA4204
+G0168,Mfolozi,council,local municipality,G0046,,pending,,,,,,ZA5281
+G0169,Mhlontlo,council,local municipality,G0034,,pending,,,,,,ZA2156
+G0170,Midvaal,council,local municipality,G0037,,pending,,,,,,ZA7422
+G0171,Mkhambathini,council,local municipality,G0042,,pending,,,,,,ZA5226
+G0172,Mkhondo,council,local municipality,G0026,,pending,,,,,,ZA8303
+G0173,Mnquma,council,local municipality,G0013,,pending,,,,,,ZA2122
+G0174,Modimolle/Mookgophong,council,local municipality,G0048,,pending,,,,,,ZA9368
+G0175,Mogalakwena,council,local municipality,G0048,,pending,,,,,,ZA9367
+G0176,Mogale City,council,local municipality,G0050,,pending,,,,,,ZA7481
+G0177,Mohokare,council,local municipality,G0051,,pending,,,,,,ZA4163
+G0178,Molemole,council,local municipality,G0017,,pending,,,,,,ZA9353
+G0179,Moqhaka,council,local municipality,G0024,,pending,,,,,,ZA4201
+G0180,Moretele,council,local municipality,G0014,,pending,,,,,,ZA6371
+G0181,Moses Kotane,council,local municipality,G0014,,pending,,,,,,ZA6375
+G0182,Mossel Bay,council,local municipality,G0022,,pending,,,,,,ZA1043
+G0183,Mpofana,council,local municipality,G0042,,pending,,,,,,ZA5223
+G0184,Msinga,council,local municipality,G0044,,pending,,,,,,ZA5244
+G0185,Msukaligwa,council,local municipality,G0026,,pending,,,,,,ZA8302
+G0186,Mthonjaneni,council,local municipality,G0046,,pending,,,,,,ZA5285
+G0187,Mtubatuba,council,local municipality,G0043,,pending,,,,,,ZA5275
+G0188,Musina,council,local municipality,G0047,,pending,,,,,,ZA9341
+G0189,Nala,council,local municipality,G0029,,pending,,,,,,ZA4185
+G0190,Naledi,council,local municipality,G0021,,pending,,,,,,ZA6392
+G0191,Nama Khoi,council,local municipality,G0031,,pending,,,,,,ZA3062
+G0192,Ndlambe,council,local municipality,G0015,,pending,,,,,,ZA2105
+G0193,Ndwedwe,council,local municipality,G0054,,pending,,,,,,ZA5293
+G0194,Nelson Mandela Bay,council,metropolitan municipality,G0002,,pending,,,,,,ZA2930
+G0195,Newcastle,council,local municipality,G0012,,pending,,,,,,ZA5252
+G0196,Ngqushwa,council,local municipality,G0013,,pending,,,,,,ZA2126
+G0197,Ngquza Hill,council,local municipality,G0034,,pending,,,,,,ZA2153
+G0198,Ngwathe,council,local municipality,G0024,,pending,,,,,,ZA4203
+G0199,Nkandla,council,local municipality,G0046,,pending,,,,,,ZA5286
+G0200,Nketoana,council,local municipality,G0040,,pending,,,,,,ZA4193
+G0201,Nkomazi,council,local municipality,G0023,,pending,,,,,,ZA8324
+G0202,Nongoma,council,local municipality,G0053,,pending,,,,,,ZA5265
+G0203,Nqutu,council,local municipality,G0044,,pending,,,,,,ZA5242
+G0204,Ntabankulu,council,local municipality,G0011,,pending,,,,,,ZA2444
+G0205,Nyandeni,council,local municipality,G0034,,pending,,,,,,ZA2155
+G0206,Okhahlamba,council,local municipality,G0045,,pending,,,,,,ZA5235
+G0207,Oudtshoorn,council,local municipality,G0022,,pending,,,,,,ZA1045
+G0208,Overstrand,council,local municipality,G0035,,pending,,,,,,ZA1032
+G0209,Phokwane,council,local municipality,G0025,,pending,,,,,,ZA3094
+G0210,Phumelela,council,local municipality,G0040,,pending,,,,,,ZA4195
+G0211,Polokwane,council,local municipality,G0017,,pending,,,,,,ZA9354
+G0212,Port St Johns,council,local municipality,G0034,,pending,,,,,,ZA2154
+G0213,Prince Albert,council,local municipality,G0018,,pending,,,,,,ZA1052
+G0214,Ramotshere Moiloa,council,local municipality,G0032,,pending,,,,,,ZA6385
+G0215,Rand West City,council,local municipality,G0050,,pending,,,,,,ZA7485
+G0216,Ratlou,council,local municipality,G0032,,pending,,,,,,ZA6381
+G0217,Ray Nkonyeni,council,local municipality,G0041,,pending,,,,,,ZA5216
+G0218,Raymond Mhlaba,council,local municipality,G0013,,pending,,,,,,ZA2129
+G0219,Renosterberg,council,local municipality,G0036,,pending,,,,,,ZA3075
+G0220,Richmond,council,local municipality,G0042,,pending,,,,,,ZA5227
+G0221,Richtersveld,council,local municipality,G0031,,pending,,,,,,ZA3061
+G0222,Rustenburg,council,local municipality,G0014,,pending,,,,,,ZA6373
+G0223,Sakhisizwe,council,local municipality,G0019,,pending,,,,,,ZA2138
+G0224,Saldanha Bay,council,local municipality,G0049,,pending,,,,,,ZA1014
+G0225,Senqu,council,local municipality,G0027,,pending,,,,,,ZA2142
+G0226,Setsoto,council,local municipality,G0040,,pending,,,,,,ZA4191
+G0227,Siyancuma,council,local municipality,G0036,,pending,,,,,,ZA3078
+G0228,Siyathemba,council,local municipality,G0036,,pending,,,,,,ZA3077
+G0229,Sol Plaatjie,council,local municipality,G0025,,pending,,,,,,ZA3091
+G0230,Stellenbosch,council,local municipality,G0016,,pending,,,,,,ZA1024
+G0231,Steve Tshwete,council,local municipality,G0033,,pending,,,,,,ZA8313
+G0232,Sundays River Valley,council,local municipality,G0015,,pending,,,,,,ZA2106
+G0233,Swartland,council,local municipality,G0049,,pending,,,,,,ZA1015
+G0234,Swellendam,council,local municipality,G0035,,pending,,,,,,ZA1034
+G0235,Thaba Chweu,council,local municipality,G0023,,pending,,,,,,ZA8321
+G0236,Thabazimbi,council,local municipality,G0048,,pending,,,,,,ZA9361
+G0237,The Msunduzi,council,local municipality,G0042,,pending,,,,,,ZA5225
+G0238,Theewaterskloof,council,local municipality,G0035,,pending,,,,,,ZA1031
+G0239,Thembelihle,council,local municipality,G0036,,pending,,,,,,ZA3076
+G0240,Thembisile,council,local municipality,G0033,,pending,,,,,,ZA8315
+G0241,Thulamela,council,local municipality,G0047,,pending,,,,,,ZA9343
+G0242,Tokologo,council,local municipality,G0029,,pending,,,,,,ZA4182
+G0243,Tsantsabane,council,local municipality,G0052,,pending,,,,,,ZA3085
+G0244,Tswaing,council,local municipality,G0032,,pending,,,,,,ZA6382
+G0245,Tswelopele,council,local municipality,G0029,,pending,,,,,,ZA4183
+G0246,Ubuhlebezwe,council,local municipality,G0039,,pending,,,,,,ZA5434
+G0247,Ubuntu,council,local municipality,G0036,,pending,,,,,,ZA3071
+G0248,Ulundi,council,local municipality,G0053,,pending,,,,,,ZA5266
+G0249,Umdoni,council,local municipality,G0041,,pending,,,,,,ZA5212
+G0250,Umhlabuyalingana,council,local municipality,G0043,,pending,,,,,,ZA5271
+G0251,Umsobomvu,council,local municipality,G0036,,pending,,,,,,ZA3072
+G0252,Umvoti,council,local municipality,G0044,,pending,,,,,,ZA5245
+G0253,Umzimkhulu,council,local municipality,G0039,,pending,,,,,,ZA5435
+G0254,Umzimvubu,council,local municipality,G0011,,pending,,,,,,ZA2442
+G0255,Umzumbe,council,local municipality,G0041,,pending,,,,,,ZA5213
+G0256,Ventersdorp/Tlokwe,council,local municipality,G0020,,pending,,,,,,ZA6405
+G0257,Victor Khanye,council,local municipality,G0033,,pending,,,,,,ZA8311
+G0258,Walter Sisulu,council,local municipality,G0027,,pending,,,,,,ZA2145
+G0259,Witzenberg,council,local municipality,G0016,,pending,,,,,,ZA1022
+G0260,eDumbe,council,local municipality,G0053,,pending,,,,,,ZA5261
+G0261,eThekwini,council,metropolitan municipality,G0005,,pending,,,,,,ZA5950
+G0262,uMhlathuze,council,local municipality,G0046,,pending,,,,,,ZA5282
+G0263,uMlalazi,council,local municipality,G0046,,pending,,,,,,ZA5284
+G0264,uMngeni,council,local municipality,G0042,,pending,,,,,,ZA5222
+G0265,uMshwathi,council,local municipality,G0042,,pending,,,,,,ZA5221
+G0266,uMuziwabantu,council,local municipality,G0041,,pending,,,,,,ZA5214
+G0267,uPhongolo,council,local municipality,G0053,,pending,,,,,,ZA5262
+G0268,National Assembly,national,legislature,G0001,https://www.parliament.gov.za,pending,,,,,,
+G0269,National Council of Provinces,national,legislature,G0001,https://www.parliament.gov.za,pending,,,,,,
+G0270,National Government of South Africa,national,executive,G0001,https://www.gov.za,pending,,,,,,

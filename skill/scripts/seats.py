@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 """Refresh a country's legislature seats from the parliament's own open member list.
 
-Usage: python skill/scripts/seats.py data/<iso2> [--adapter NAME] [--dry-run] [--fix-status] [--local URL=FILE]      (iso2 = se, de, nl, no, fr, br, ca, es, pl, be, in, jp, my, sg, id, ng, cn, nz; un for the UN General Assembly)
+Usage: python skill/scripts/seats.py data/<iso2> [--adapter NAME] [--dry-run] [--fix-status] [--local URL=FILE]      (iso2 = se, de, nl, no, fr, br, ca, es, pl, be, in, jp, my, sg, id, ng, cn, nz, za; un for the UN General Assembly; au for the Pan-African Parliament)
 
 For the UK and the US use seats_uk.py and seats_us.py (richer sources). This script holds one small adapter per
 country (the ADAPTERS table at the end): each reads the parliament's open data and returns its chambers, the sitting
@@ -829,6 +829,78 @@ def united_nations():
                  colours={"African Group": "2f8f5b", "Asia-Pacific Group": "c9622a", "Eastern European Group": "7a5ab3", "GRULAC": "d6a21f", "WEOG": "2d6fb5"})]
 
 
+def pan_african_parliament():
+    """The Pan-African Parliament (up to 275 seats, five per AU member state): the MPs each member state's page on pap.au.int lists
+    (/mps/<state>). Run `seats.py data/au`: supporters are matched across every country register, by the MP's own country. The
+    list is partial (states whose delegation has not been sworn in show none) and has no party, so seats are grouped by the AU's
+    five regions and the rest are shown as "Not on the list"."""
+    import html as _html
+    base = "https://pap.au.int"
+    REGIONS = {
+        "Northern": {"Algeria": "DZ", "Egypt": "EG", "Libya": "LY", "Mauritania": "MR", "Morocco": "MA", "Sahrawi": "EH", "Tunisia": "TN"},
+        "Western": {"Benin": "BJ", "Burkina Faso": "BF", "Cabo Verde": "CV", "Côte d'Ivoire": "CI", "Gambia": "GM", "Ghana": "GH", "Guinea": "GN",
+                    "Guinea-Bissau": "GW", "Liberia": "LR", "Mali": "ML", "Niger": "NE", "Nigeria": "NG", "Senegal": "SN", "Sierra Leone": "SL", "Togo": "TG"},
+        "Central": {"Burundi": "BI", "Cameroon": "CM", "Central Africa": "CF", "Chad": "TD", "Congo": "CG", "DRC": "CD", "Equatorial Guinea": "GQ",
+                    "Gabon": "GA", "São Tomé and Príncipe": "ST"},
+        "Eastern": {"Comoros": "KM", "Djibouti": "DJ", "Eritrea": "ER", "Ethiopia": "ET", "Kenya": "KE", "Madagascar": "MG", "Mauritius": "MU",
+                    "Rwanda": "RW", "Seychelles": "SC", "Somalia": "SO", "South Sudan": "SS", "Sudan": "SD", "Tanzania": "TZ", "Uganda": "UG"},
+        "Southern": {"Angola": "AO", "Botswana": "BW", "Eswatini": "SZ", "Lesotho": "LS", "Malawi": "MW", "Mozambique": "MZ", "Namibia": "NA",
+                     "South Africa": "ZA", "Zambia": "ZM", "Zimbabwe": "ZW"}}
+    find = get(base + "/en/find-your-mp", as_json=False).decode("utf-8", "ignore")
+    slugs = {}
+    for href in dict.fromkeys(_html.unescape(x) for x in re.findall(r'href="(/mps/[^"]+)"', find)):
+        slugs[norm(urllib.parse.unquote(href.split("/mps/")[1]))] = href
+    members = []
+    for region, states in REGIONS.items():
+        for state, iso in states.items():
+            href = slugs.get(norm(state)) or next((h for k, h in slugs.items() if k.startswith(norm(state)[:6])), None)
+            if not href:
+                print(f"  no MP page for {state}", file=sys.stderr)
+                continue
+            page = get(base + urllib.parse.quote(urllib.parse.unquote(href), safe="/:'"), as_json=False).decode("utf-8", "ignore")
+            for term, name in re.findall(r'href="/taxonomy/term/(\d+)">.*?people-item-info-title">\s*([^<]+?)\s*</h4>', page, re.S):
+                name = _html.unescape(name)
+                name = re.sub(r"(?i)\(mrs?\.?\)|\b(H\.E\.|Hon\.?|Sen\.?|Rt\.?|Dr\.?|Prof\.?|Chief|Amb\.?|Eng\.?)(?=\s)", " ", name)
+                members.append(dict(name=" ".join(name.split()), party=region, ref=term, country=iso, place=state, url=f"{base}/taxonomy/term/{term}"))
+    return [dict(name="Pan-African Parliament", level="supranational", seats=275, source_url=base + "/en/honorable-members-parliament",
+                 note="Up to 275 seats, five per member state of the African Union, filled from each state's own parliament. Who sits is from the MP lists on the Parliament's website, which is partial: a state whose delegation has not been listed shows no seats, and the list gives no party, so seats are grouped by the AU's five regions. A seat is lit where a supporter recorded in a country register is on the list.",
+                 role="Member of the Pan-African Parliament", role_re=r"(?i)pan-african parliament|\bPAP\b", role_start=r"(?i)(member of the )?pan-african parliament",
+                 members=members, former=[], by_country=True, vacant_label="Not on the list",
+                 party_order=list(REGIONS),
+                 colours={"Northern": "c9622a", "Western": "2f8f5b", "Central": "7a5ab3", "Eastern": "d6a21f", "Southern": "2d6fb5"})]
+
+
+def south_africa():
+    """The National Assembly (400 seats): the Parliamentary Monitoring Group's open API (api.pmg.org.za/member/), which lists
+    each member's house, party and whether they currently sit. The API gives initials only ("Maotwe, Ms OMC"), so the full
+    name is taken from the member's People's Assembly link (pa.org.za/person/omphile-mankoba-confidence-maotwe/)."""
+    NAMES = {"MKP": "MK Party", "Action SA": "ActionSA", "FF+": "FF Plus", "PA": "Patriotic Alliance"}
+    url, rows = "https://api.pmg.org.za/member/", []
+    while url:
+        d = get(url)
+        rows += d["results"]
+        url = d.get("next")
+    members = []
+    for m in rows:
+        if not (m.get("current") and (m.get("house") or {}).get("name_short") == "NA"):
+            continue
+        slug = (m.get("pa_link") or "").rstrip("/").rsplit("/", 1)[-1]
+        sur, _, rest = m["name"].partition(",")
+        words = [w.capitalize() for w in slug.split("-")]
+        if words and slug and words[-1].lower() != sur.strip().split()[-1].lower():  # the two sites spell the surname differently: keep PMG's
+            words[-1] = sur.strip().split()[-1]
+        name = " ".join(words) if slug else f"{rest.split()[-1]} {sur}"
+        party = (m.get("party") or {}).get("name", "Independent")
+        members.append(dict(name=name, party=NAMES.get(party, party), ref=m["id"], place=(m.get("province") or {}).get("name", ""),
+                            start=m.get("start_date") or "", url=f"https://pmg.org.za/member/{m['id']}/"))
+    order = ["ANC", "DA", "MK Party", "EFF", "IFP", "Patriotic Alliance", "ActionSA", "FF Plus"]
+    return [dict(name="National Assembly", level="national", seats=400, source_url="https://api.pmg.org.za/member/",
+                 note="400 seats; who sits and their party are from the Parliamentary Monitoring Group's member list (the National Assembly members flagged as current). The Government of National Unity parties are the ANC, DA, IFP, PA, GOOD and others.",
+                 role="Member of the National Assembly", role_re=r"(?i)national assembly|\bMP\b", role_start=r"(?i)(member of the national assembly|MP\b)",
+                 members=members, former=[], party_order=order,
+                 colours={"ANC": "1a7f3c", "DA": "2d6fb5", "MK Party": "3a3a3a", "EFF": "c8102e", "IFP": "d6a21f", "Patriotic Alliance": "7a5ab3", "ActionSA": "e07b39", "FF Plus": "8a6d3b"})]
+
+
 def scottish_parliament():
     """The Scottish Parliament (129 seats: 73 constituency + 56 regional): data.parliament.scot open data. Used for the UK register with
     `seats.py data/gb --adapter scottish_parliament` (the Commons and Lords come from seats_uk.py)."""
@@ -876,7 +948,7 @@ def scottish_parliament():
 
 
 
-ADAPTERS = {"nz": new_zealand, "se": sweden, "de": germany, "nl": netherlands, "no": norway, "fr": france, "br": brazil, "ca": canada, "es": spain, "pl": poland, "be": belgium, "in": india, "jp": japan, "my": malaysia, "sg": singapore, "id": indonesia, "ng": nigeria, "cn": china, "scottish_parliament": scottish_parliament, "european_parliament": european_parliament, "eu": european_parliament, "un": united_nations}
+ADAPTERS = {"nz": new_zealand, "se": sweden, "de": germany, "nl": netherlands, "no": norway, "fr": france, "br": brazil, "ca": canada, "es": spain, "pl": poland, "be": belgium, "in": india, "jp": japan, "my": malaysia, "sg": singapore, "id": indonesia, "ng": nigeria, "cn": china, "scottish_parliament": scottish_parliament, "european_parliament": european_parliament, "eu": european_parliament, "un": united_nations, "au": pan_african_parliament, "za": south_africa}
 
 
 def main():
@@ -896,7 +968,7 @@ def main():
     if cc not in ADAPTERS:
         sys.exit(f"No adapter for '{cc}'. Have: {', '.join(sorted(ADAPTERS))}. Add one to ADAPTERS in this file.")
     actors_in = None
-    if ADAPTERS[cc] is european_parliament:  # supporters sit in the register of their own country: look across all of them
+    if ADAPTERS[cc] in (european_parliament, pan_african_parliament):  # supporters sit in the register of their own country: look across all of them
         actors_in = []
         for sib in sorted(p for p in Path(a.dir).resolve().parent.iterdir() if (p / "actors.csv").exists() and p.name != Path(a.dir).name):
             iso = json.load(open(sib / "meta.json", encoding="utf-8")).get("iso2", sib.name.split("-")[0]).upper()
