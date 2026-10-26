@@ -97,7 +97,16 @@ def world_paths():
                 c = not c
         return c
 
-    geoms = {str(g.get("id", "")): g for g in topo["objects"]["countries"]["geometries"]}
+    geoms = {}
+    for g in topo["objects"]["countries"]["geometries"]:
+        cid = str(g.get("id", ""))
+        if cid in geoms:  # the 50 m file gives a few small territories the code of their country (Ashmore and Cartier Islands carry Australia's 036): merge, never replace
+            m = geoms[cid]
+            more = g["arcs"] if g["type"] == "MultiPolygon" else [g["arcs"]]
+            m["arcs"] = (m["arcs"] if m["type"] == "MultiPolygon" else [m["arcs"]]) + more
+            m["type"] = "MultiPolygon"
+        else:
+            geoms[cid] = g
     # Ukraine as it was before 2014: Natural Earth draws Crimea (with Sevastopol) in Russia, so move that polygon across.
     ru, ua = geoms["643"], geoms["804"]
     ua_polys = ua["arcs"] if ua["type"] == "MultiPolygon" else [ua["arcs"]]
