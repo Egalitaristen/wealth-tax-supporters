@@ -608,10 +608,22 @@ function worldMap(box, W, {seats = false} = {}) {
   svg.innerHTML = `<g>${Object.entries(W.paths).map(([id, p]) => { const c = byNum[id], tt = c ? (.35 + .65 * Math.log(measure(c) + 1) / Math.log(mx + 1)).toFixed(3) : 0;
     return `<path data-id="${id}" class="${c ? 'u-sup' : 'u-none'}"${c ? ` style="--t:${tt}"` : ''} d="${p.path}"/>`; }).join('')}</g>`;
   box.prepend(svg);
-  const countryAt = e => { const p = e.target.closest && e.target.closest('path[data-id]'); return p ? p.dataset.id : null; };
+  // A country too small to see (Singapore, Malta) gets a dot a few pixels wide while its shape is under 6 px; zoom in and the shape takes over.
+  const dots = Object.keys(byNum).filter(id => mains[id]).map(id => {
+    const [bx, by, bw, bh] = mains[id], c = document.createElementNS('http://www.w3.org/2000/svg', 'circle');
+    c.setAttribute('cx', bx + bw / 2); c.setAttribute('cy', by + bh / 2); c.dataset.id = id; c.setAttribute('class', 'mk');
+    c.setAttribute('style', svg.querySelector(`path[data-id="${id}"]`).getAttribute('style') || '');
+    svg.append(c);
+    return {c, size: Math.max(bw, bh)};
+  });
+  const countryAt = e => { const p = e.target.closest && e.target.closest('[data-id]'); return p ? p.dataset.id : null; };
   const pz = panZoom(svg, extent, {
     maxOut: 1, maxIn: 60,
-    onView: (x, y, w, h) => svg.setAttribute('viewBox', `${x} ${y} ${w} ${h}`),
+    onView: (x, y, w, h) => {
+      svg.setAttribute('viewBox', `${x} ${y} ${w} ${h}`);
+      const upx = w / (svg.clientWidth || 1000);  // map units per screen pixel
+      dots.forEach(d => { d.c.setAttribute('r', (3.4 * upx).toFixed(3)); d.c.style.display = d.size < 6 * upx ? '' : 'none'; });
+    },
     onHover: e => {
       const id = countryAt(e);
       if (!id) return hideTip();

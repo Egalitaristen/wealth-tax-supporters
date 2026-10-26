@@ -155,6 +155,7 @@ select.field { appearance: none; padding-right: 30px; background-image: linear-g
 .worldmap path { stroke: var(--paper); stroke-width: .6px; vector-effect: non-scaling-stroke; stroke-linejoin: round; transition: fill .15s; }
 .worldmap path.u-none { fill: var(--land); }
 .worldmap path.u-sup { fill: color-mix(in oklab, var(--signal) calc(var(--t) * 100%), var(--land)); cursor: pointer; }
+.worldmap circle.mk { fill: color-mix(in oklab, var(--signal) calc(var(--t) * 100%), var(--land)); stroke: var(--paper); stroke-width: .6; cursor: pointer; vector-effect: non-scaling-stroke; }
 .worldmap path:hover { stroke: var(--ink); stroke-width: 1.4px; }
 .crumb { position: absolute; left: 0; top: 0; z-index: 2; background: color-mix(in srgb, var(--paper) 80%, transparent); padding-right: 10px !important; display: flex; gap: 10px; align-items: baseline; flex-wrap: wrap; font-size: 13.5px; color: var(--ink-3); pointer-events: none; padding: 4px 0; }
 .crumb > * { pointer-events: auto; }
