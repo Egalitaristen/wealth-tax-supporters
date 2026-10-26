@@ -1,3 +1,5 @@
 exclusion_id,name,reason,detail,source_url,run_id
 X0001,Enoch Godongwana (Minister of Finance),opposes,Written replies to EFF questions (May and June 2025): the government is not considering a wealth tax; income tax is the most effective way to tax the wealthy and a wealth tax risks capital flight.,https://pmg.org.za/committee-question/30550/,R001
 X0002,National Treasury,opposes,"Treasury's 2025 budget response argues a wealth tax would raise little and harm the income tax base; it has also said it is studying declared-wealth data, which is not a position for a tax.",https://pmg.org.za/committee-question/30550/,R001
+X0003,"Khanyisile Litchfield-Tshabalala (ANC MP, Pan-African Parliament member)",insufficient_evidence,"25 Nov 2025 speech: ""We need to tax the rich and not the poor."" Generic tax the rich, no reference to wealth.",https://pmg.org.za/hansard/42132/,R003
+X0004,M Dlamini (22 Sep 2022 NCOP speech),out_of_definition,"Calls for municipalities to implement a ""property wealth tax"" to subsidise indigent households: a property rates measure, not a tax on net wealth.",https://pmg.org.za/hansard/35630/,R003
