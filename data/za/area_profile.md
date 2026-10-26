@@ -38,3 +38,7 @@ R001 (2026-10-26)
 2. Parliament: search PMG for every written question and debate on a wealth tax since 2019 (EFF, MK Party and ActionSA MPs); the Davis Tax Committee; Budget Justice Coalition and Oxfam South Africa (Tlou Seopa's Amandla.mobi quote is borderline, see Business Report 2025-12-03).
 3. Other parties' 2024 manifestos; academics (UCT, Wits, Stellenbosch economists), SA Revenue Service and Treasury economists; journalists (Daily Maverick, Business Day columnists); faith groups (SACC); wealthy supporters (Patriotic Millionaires SA).
 4. Provinces: sample Gauteng, Western Cape, KwaZulu-Natal and the metros; unlikely to yield beyond the ANC, EFF and MK Party caucuses.
+
+## Review corrections
+
+One member was removed (the quote reports the Finance Minister's view that a wealth tax is not viable). Four rows were regraded to B: the Parliamentary Budget Office's brief (a costed option, not a recommendation) and three rows from Parliamentary Monitoring Group's third-person summaries of testimony (Amandla.mobi, Tlou Seopa, Women on Farms Project), which are not the speakers' own words.
