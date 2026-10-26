@@ -28,6 +28,14 @@ def main():
     ap.add_argument("--out")
     a = ap.parse_args()
     db = wtdb.load_all(a.dir)
+    try:  # leads other runs found for this area while researching somewhere else (leads.py)
+        import leads
+        iso = Path(a.dir).resolve().name.upper()
+        open_leads = [r for r in leads.load() if r["status"] == "open" and leads.matches(r["country"], iso)]
+        if open_leads:
+            print(f"{len(open_leads)} open lead(s) for {iso} from other runs: python skill/scripts/leads.py list --country {iso}\n")
+    except Exception:
+        pass
     geo = {g["geo_unit_id"]: g for g in db["geo_units"]}
     ev = defaultdict(list)
     for e in db["evidence"]:

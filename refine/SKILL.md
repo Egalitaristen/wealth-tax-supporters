@@ -15,6 +15,8 @@ The research skill (`skill/SKILL.md`) finds supporters. This skill makes each en
 2. Work on a branch and open one pull request per run. Never push to `main`.
 3. Make the batch: `python skill/scripts/refine_queue.py data/<iso2> --n 60 --out refine_batch.csv`. It ranks supporters by their gaps (no links first, then a coarse place, weak grades, a single statement, old evidence, no Wikidata ID), puts prominent ones first and skips anyone refined in the last 180 days. Keep the batch file outside the repository. A run is one batch; 30 to 80 supporters is a good size.
 
+**Leads.** Before you start, read the leads other runs logged for this country (`python skill/scripts/leads.py list --country <iso2>`; `refine_queue.py` prints how many there are). Check each against its source, add the ones that hold up (they are new supporters: `skill/SKILL.md` sections 2 to 4 apply) and `leads.py close` every one as used, rejected or duplicate. And when this run meets a supporter of **another** country, log a lead instead of adding them here (`skill/SKILL.md` 6.12), then name them in the run's report.
+
 ## 2. The automatic pass (whole country, minutes)
 
 Run these first; they fill what open data already knows, so the manual work starts from the real gaps:
