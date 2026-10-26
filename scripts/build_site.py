@@ -465,12 +465,12 @@ def share_pages(out, base, countries, full):
     write("/about", "About · Wealth Tax Supporters",
           "An open, sourced register of the public figures and organisations that back a wealth tax on the record: why it exists, how it is made and how to take part.",
           "about", "About Wealth Tax Supporters", lambda o: cards.page_card(o, "About", "A register of who says so", "Open, sourced and made in public."))
-    write("/contribute", "Put your country on the map · Wealth Tax Supporters",
-          "Start a register for your country, suggest a supporter, or help check the entries that are already here.",
-          "contribute", "Put your country on the map", lambda o: cards.page_card(o, "Contribute", "Put your country on the map", "Start a register for your country, or suggest a supporter."))
-    write("/suggest", "Suggest a supporter · Wealth Tax Supporters",
-          "Know a public figure or organisation who has backed a wealth tax? Send a name, a country and a link. No account needed.",
-          "suggest", "Suggest a supporter", lambda o: cards.page_card(o, "Suggest a supporter", "Know someone on the record?", "A name, a country and a link to where they said it. No account needed."))
+    write("/contribute", "Contribute and suggest a supporter · Wealth Tax Supporters",
+          "Suggest a public figure or organisation who has backed a wealth tax, help check the entries already here, or start a register for your country.",
+          "contribute", "Help build the register", lambda o: cards.page_card(o, "Contribute", "Help build the register", "Suggest a supporter, help check entries, or start a country."))
+    write("/directory", "The global directory · Wealth Tax Supporters",
+          f"{tot['supporters']:,} public figures and organisations in {tot['countries']} countries who have backed a wealth tax, filterable by country, type and strength of evidence.",
+          "directory", "The global directory", lambda o: cards.page_card(o, "Directory", "Everyone on the record", "Every supporter in every country, with the statement they rest on."))
     write("/feedback", "Feedback and bug reports · Wealth Tax Supporters",
           "Something broken, confusing or missing? Send feedback or report a bug. No account needed.",
           "feedback", "Feedback and bug reports", lambda o: cards.page_card(o, "Feedback", "Tell us what to fix or improve", "Feedback, ideas and bug reports. No account needed."))

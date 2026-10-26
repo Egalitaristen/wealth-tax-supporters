@@ -14,7 +14,7 @@ const issueUrl = (title, fields = {}) =>
   Object.entries(fields).map(([k, v]) => `&${k}=${enc(v)}`).join('');
 const DISCORD = 'https://discord.gg/yCjEK47aeh';
 // The site's own suggestion form (no account needed), prefilled with a country and place where known.
-const suggestUrl = (fields = {}) => '/suggest' + (Object.keys(fields).length ? '?' + new URLSearchParams(fields) : '');
+const suggestUrl = (fields = {}) => '/contribute' + (Object.keys(fields).length ? '?' + new URLSearchParams(fields) : '') + '#suggest';
 const githubSuggestUrl = (fields = {}) =>
   `https://github.com/${REPO}/issues/new?template=suggest-supporter.yml` + Object.entries(fields).map(([k, v]) => `&${k}=${enc(v)}`).join('');
 const ext = (href, text, cls = '') => `<a class="${cls}" href="${esc(href)}" target="_blank" rel="noopener noreferrer nofollow">${text}</a>`;
@@ -116,6 +116,7 @@ function scrollToHash() {
 }
 async function render(fresh) {
   leaving(); leaving = () => {};
+  if (location.pathname === '/suggest') history.replaceState(null, '', '/contribute' + location.search + '#suggest');  // merged into Contribute
   if (location.pathname === '/polls') history.replaceState(null, '', '/resources?kind=poll');  // polls moved into Resources
   if (location.pathname === '/' && location.hash === '#countries') history.replaceState(null, '', '/countries');  // old links to the section
   const parts = location.pathname.split('/').filter(Boolean).map(decodeURIComponent);
@@ -131,14 +132,14 @@ async function render(fresh) {
     else if (parts[0] === 'parliaments' && parts.length === 1) await parliamentsPage(W);
     else if (parts[0] === 'method' && parts.length === 1) methodPage(W);
     else if (parts[0] === 'about' && parts.length === 1) aboutPage(W);
-    else if (parts[0] === 'contribute' && parts.length === 1) contributePage(W);
-    else if (parts[0] === 'suggest' && parts.length === 1) suggestPage(W, params);
+    else if (parts[0] === 'directory' && parts.length === 1) await globalDirectory(W, params);
+    else if ((parts[0] === 'contribute' || parts[0] === 'suggest') && parts.length === 1) contributePage(W, params);
     else if (parts[0] === 'feedback' && parts.length === 1) feedbackPage(params);
     else if (country && parts.length === 1) await countryPage(country.slug, params);
     else if (country && parts.length === 2 && SECTIONS[parts[1]]) await countryPage(country.slug, params, parts[1]);
     else if (country && parts.length === 2) await personPage(country.slug, parts[1]);
     else notFound();
-    const navKey = {countries: '/countries', parliaments: '/parliaments', resources: '/resources', method: '/method', about: '/about', contribute: '/contribute', suggest: '/suggest', feedback: '/feedback'}[parts[0]] || null;
+    const navKey = {countries: '/countries', parliaments: '/parliaments', directory: '/directory', resources: '/resources', method: '/method', about: '/about', contribute: '/contribute', suggest: '/contribute', feedback: '/feedback'}[parts[0]] || null;
     if (navKey) $$('.nav a, .fb-link').forEach(a => { if (a.getAttribute('href') === navKey) a.setAttribute('aria-current', 'page'); });
   } catch (err) {
     console.error(err);
@@ -1282,7 +1283,7 @@ function aboutPage(W) {
       <p>The code and the data live in one <a href="https://github.com/${REPO}" target="_blank" rel="noopener">public repository</a>. The data is free to reuse under CC BY 4.0, with a CSV download for every country. The <a href="https://github.com/${REPO}/blob/main/ROADMAP.md" target="_blank" rel="noopener">roadmap</a> shows what is planned and what waits for a date.</p>
       <h2>Take part</h2>
       <ul>
-        <li><a href="/suggest">Suggest a supporter</a> we have missed, with a link to where they said it.</li>
+        <li><a href="/contribute#suggest">Suggest a supporter</a> we have missed, with a link to where they said it.</li>
         <li><a href="/contribute">Start a register</a> for your country, or help check the entries already here.</li>
         <li><a href="/feedback">Send feedback or report a bug</a> about the site.</li>
         <li>Join the conversation on <a href="https://discord.gg/yCjEK47aeh" target="_blank" rel="noopener">Discord</a>.</li>
@@ -1328,41 +1329,18 @@ function methodPage(W) {
       <p style="margin:18px 0 0"><a href="https://github.com/${REPO}" target="_blank" rel="noopener">Read the full method on GitHub ↗</a></p></aside>
   </div>`;
 }
-function contributePage(W) {
+function contributePage(W, params) {
   setTitle('Contribute');
-  main.innerHTML = `
-  <div class="wrap page-head fade"><div class="kicker">Contribute</div><h1>Put your country <em>on the map</em></h1></div>
-  <div class="wrap two" style="margin-top:36px">
-    <div class="prose">
-      <p class="lede" style="max-width:none">Registers are built one country at a time, in the open. ${W.countries.length} ${W.countries.length === 1 ? 'country is' : 'countries are'} underway: ${W.countries.map(c => esc(c.name)).join(', ')}.</p>
-      <h2>Start a country</h2>
-      <ol>
-        <li><b>Open a "new country" issue</b> on GitHub, so nobody else starts the same one. Pick a depth: a seed run finds the most prominent supporters in every layer and plans the next runs.</li>
-        <li><b>Run the research workflow.</b> The repository has a written workflow (a Claude skill) with the rules for what counts, how to grade evidence and how to record sources. It sets up the country folder and the geography for the map.</li>
-        <li><b>Open a pull request</b> with the new <code>data/&lt;country&gt;/</code> folder. Checks run automatically, and the site rebuilds once it is merged.</li>
-      </ol>
-      <h2>Help check what is here</h2>
-      <p>Open an entry, follow the source, and report anything that does not match.</p>
-      <h2>Suggest a supporter</h2>
-      <p>Know someone who has backed a wealth tax in public? <a href="/suggest">Suggest them</a>: just their name, the country and a link to where they said it. No account needed.</p>
-    </div>
-    <aside class="aside-card"><h3>Get started</h3>
-      <p><a class="btn sm" href="https://github.com/${REPO}/issues/new?template=new-country.yml" target="_blank" rel="noopener">Start a new country ↗</a></p>
-      <p><a class="btn sm ghost" href="/suggest">Suggest a supporter →</a></p>
-      <p style="margin:18px 0 0"><a href="https://github.com/${REPO}/blob/main/CONTRIBUTING.md" target="_blank" rel="noopener">Contributing guide ↗</a><br><a href="https://github.com/${REPO}/blob/main/skill/SKILL.md" target="_blank" rel="noopener">The research workflow ↗</a></p></aside>
-  </div>`;
-}
-
-// ---------- suggest a supporter ----------
-function suggestPage(W, params) {
-  setTitle('Suggest a supporter');
   const started = new Set(W.countries.map(c => c.name));
   const names = W.all_countries || [...started].sort();
   const val = k => esc(params.get(k) || '');
   main.innerHTML = `
-  <div class="wrap page-head fade"><div class="kicker">Suggest a supporter</div><h1>Know someone <em>on the record?</em></h1>
-    <p class="lede" style="margin-top:18px">Tell us about a public figure or organisation who has backed a wealth tax in public. No account needed: a name, a country and a link to where they said it is enough.</p></div>
+  <div class="wrap page-head fade"><div class="kicker">Contribute</div><h1>Help build <em>the register</em></h1>
+    <p class="lede" style="margin-top:18px">The register is built in the open, by anyone. Suggest a supporter we have missed, help check what is here, or start a country. No account is needed to suggest someone.</p></div>
   <div class="wrap two" style="margin-top:36px">
+    <div>
+    <section id="suggest"><h2 class="sec-h">Suggest a supporter</h2>
+    <p class="lede" style="max-width:none;margin:0 0 18px">Know a public figure or organisation who has backed a wealth tax in public? A name, a country and a link to where they said it is enough.</p>
     <form class="suggest" id="suggest-form" novalidate>
       <label><span>Who <b>*</b></span><input class="field" name="name" required maxlength="200" placeholder="Name of the person or organisation" autocomplete="off"></label>
       <div class="pair">
@@ -1375,12 +1353,25 @@ function suggestPage(W, params) {
       <label class="hp" aria-hidden="true">Leave this empty<input name="website" tabindex="-1" autocomplete="off"></label>
       <div class="suggest-foot"><button class="btn" type="submit" id="sg-send">Send suggestion</button><span class="sg-msg" id="sg-msg" role="status"></span></div>
       <p class="fine">We check every suggestion against its source before it appears, so it can take a while. We don't ask who you are. To stop spam we keep a scrambled code of your connection that changes every day and can't be traced back to you.</p>
-    </form>
+    </form></section>
+    <div class="prose" style="margin-top:56px">
+      <h2>Help check what is here</h2>
+      <p>Open an entry, follow the source, and report anything that does not match. Polls, papers, reports and bills on the <a href="/resources">Resources</a> page can be added too: see the contributing guide.</p>
+      <h2>Start a country</h2>
+      <p>Registers are built one country at a time. ${W.countries.length} ${W.countries.length === 1 ? 'country is' : 'countries are'} underway: ${W.countries.map(c => esc(c.name)).join(', ')}.</p>
+      <ol>
+        <li><b>Open a "new country" issue</b> on GitHub, so nobody else starts the same one. Pick a depth: a seed run finds the most prominent supporters in every layer and plans the next runs.</li>
+        <li><b>Run the research workflow.</b> The repository has a written workflow (a Claude skill) with the rules for what counts, how to grade evidence and how to record sources. It sets up the country folder and the geography for the map.</li>
+        <li><b>Open a pull request</b> with the new <code>data/&lt;country&gt;/</code> folder. Checks run automatically, and the site rebuilds once it is merged.</li>
+      </ol>
+    </div></div>
     <aside class="aside-card"><h3>Other ways</h3>
       <p>Prefer to talk it through, or have a whole list? Post it in the Discord and someone will pick it up.</p>
       <p><a class="btn sm" href="${DISCORD}" target="_blank" rel="noopener">Join the Discord ↗</a></p>
       <p style="margin-top:18px">Have a GitHub account? Open an issue, and follow it as it is checked.</p>
       <p><a class="btn sm ghost" href="${esc(githubSuggestUrl({country: params.get('country') || ''}))}" target="_blank" rel="noopener">Suggest on GitHub ↗</a></p>
+      <p><a class="btn sm ghost" href="https://github.com/${REPO}/issues/new?template=new-country.yml" target="_blank" rel="noopener">Start a new country ↗</a></p>
+      <p style="margin:18px 0 0"><a href="https://github.com/${REPO}/blob/main/CONTRIBUTING.md" target="_blank" rel="noopener">Contributing guide ↗</a><br><a href="https://github.com/${REPO}/blob/main/skill/SKILL.md" target="_blank" rel="noopener">The research workflow ↗</a></p>
       <p class="fine" style="margin-top:18px">What counts: a public statement, vote, letter or policy backing a tax on wealth (net assets), such as an annual wealth tax or a billionaire minimum tax. Read <a href="/method">the method</a>.</p></aside>
   </div>`;
   const form = $('#suggest-form'), msg = $('#sg-msg'), send = $('#sg-send');
@@ -1395,11 +1386,64 @@ function suggestPage(W, params) {
       const out = await r.json().catch(() => ({}));
       if (!r.ok) throw new Error(out.error || 'Could not send it. Please try again, or post it on Discord.');
       form.innerHTML = `<div class="sg-done"><h2>Thank you.</h2><p>We'll check <b>${esc(data.name)}</b> against the source and add them if it holds up.</p>
-        <p style="margin-top:18px"><a class="btn" href="/suggest${data.country ? '?country=' + enc(data.country) : ''}">Suggest someone else</a></p></div>`;
+        <p style="margin-top:18px"><a class="btn" href="/contribute${data.country ? '?country=' + enc(data.country) : ''}#suggest">Suggest someone else</a></p></div>`;
     } catch (err) {
       msg.textContent = err.message; msg.className = 'sg-msg err'; send.disabled = false;
     }
   });
+}
+
+// ---------- the global directory: everyone, every country ----------
+async function globalDirectory(W, params) {
+  setTitle('Directory');
+  const S = await searchData();
+  const ST = {q: params.get('q') || '', country: params.get('country') || '', type: params.get('type') || '', grade: params.get('grade') || '', sort: params.get('sort') || 'strength', limit: 100};
+  const rank = {A: 0, B: 1, C: 2};
+  const countries = S.countries.slice().sort((a, b) => a.name.localeCompare(b.name));
+  const types = [...new Set(S.people.map(p => p.type))].sort((a, b) => label(TYPES_PL, a).localeCompare(label(TYPES_PL, b)));
+  main.innerHTML = `<div class="wrap page-head fade"><div class="kicker">Everyone on the record</div><h1>The global <em>directory</em></h1>
+    <p class="lede" style="margin-top:18px">${fmt(S.people.length)} public figures and organisations in ${S.countries.length} countries, each with the statement they rest on. Filter by country, type or strength of evidence.</p></div>
+    <div class="wrap" style="margin-top:28px;padding-bottom:72px"><section class="c-sec"><div class="dir-main">
+      <div class="filters">
+        <input class="field q" id="g-q" type="search" placeholder="Filter by name, role, place or country" value="${esc(ST.q)}" aria-label="Filter the directory" autocomplete="off">
+        <select class="field" id="g-country" aria-label="Country"><option value="">All countries</option>${countries.map(c => `<option value="${esc(c.slug)}">${esc(c.name)} (${fmt(c.n)})</option>`).join('')}</select>
+        <select class="field" id="g-type" aria-label="Type"><option value="">All types</option>${types.map(t => `<option value="${esc(t)}">${esc(label(TYPES_PL, t))}</option>`).join('')}</select>
+        <select class="field" id="g-grade" aria-label="Evidence"><option value="">Any evidence</option><option value="A">Explicit only</option><option value="AB">Explicit or named</option></select>
+        <select class="field" id="g-sort" aria-label="Sort"><option value="strength">Strongest evidence</option><option value="count">Most statements</option><option value="az">A to Z</option></select>
+      </div>
+      <div class="count-line" id="g-count"></div>
+      <ul class="dir" id="g-dir"></ul>
+      <div class="more" id="g-more"></div>
+    </div></section></div>`;
+  const q = $('#g-q'), sc = $('#g-country'), st = $('#g-type'), sg = $('#g-grade'), ss = $('#g-sort');
+  sc.value = ST.country; st.value = ST.type; sg.value = ST.grade; ss.value = ST.sort;
+  const row = p => `<li><a class="drow" href="/${esc(p.slug)}/${enc(p.id)}">${glyph(p.grade)}
+      <span class="dm"><span class="dn">${esc(p.name)}</span><span class="dr">${esc(p.role.slice(0, 140))}</span>
+        <span class="dt"><span class="tag">${esc(label(TYPE, p.type))}</span></span></span>
+      <span class="dp">${esc(S.cname[p.slug] || p.slug)}${p.place && p.place !== S.cname[p.slug] ? ' · ' + esc(p.place) : ''}</span>
+      <span class="dd"><b>${p.n}</b>statement${p.n === 1 ? '' : 's'}</span></a></li>`;
+  const draw = () => {
+    const toks = norm(ST.q).trim().split(/\s+/).filter(Boolean);
+    const sorts = {strength: (a, b) => rank[a.grade] - rank[b.grade] || b.n - a.n, count: (a, b) => b.n - a.n || rank[a.grade] - rank[b.grade], az: (a, b) => a.name.localeCompare(b.name)};
+    const list = S.people.filter(p => (!ST.country || p.slug === ST.country) && (!ST.type || p.type === ST.type) && (!ST.grade || ST.grade.includes(p.grade)) &&
+      toks.every(t => p.key.includes(t))).sort(sorts[ST.sort] || sorts.strength);
+    const shown = list.slice(0, ST.limit), active = ST.q || ST.country || ST.type || ST.grade;
+    $('#g-count').innerHTML = `<span>Showing <b>${fmt(shown.length)}</b> of <b>${fmt(list.length)}</b>${list.length !== S.people.length ? ` (${fmt(S.people.length)} in total)` : ''}</span>
+      <span style="display:flex;gap:16px">${active ? '<a href="#" id="g-clear">Clear filters</a>' : ''}<span class="grade-key">${glyph('A')} explicit ${glyph('B')} named ${glyph('C')} implied</span></span>`;
+    $('#g-dir').innerHTML = shown.map(row).join('') || '<li class="empty">Nobody matches these filters yet. The register is never complete, so that does not mean nobody there supports a wealth tax.</li>';
+    $('#g-more').innerHTML = list.length > shown.length ? `<button class="btn ghost" type="button" id="g-more-btn">Show ${Math.min(100, list.length - shown.length)} more</button>` : '';
+    const mb = $('#g-more-btn'); if (mb) mb.onclick = () => { ST.limit += 100; draw(); };
+    const cl = $('#g-clear'); if (cl) cl.onclick = e => { e.preventDefault(); Object.assign(ST, {q: '', country: '', type: '', grade: ''}); q.value = sc.value = st.value = sg.value = ''; changed(); };
+    const u = new URLSearchParams(Object.entries(ST).filter(([k, v]) => v && k !== 'limit' && !(k === 'sort' && v === 'strength'))).toString();
+    history.replaceState(null, '', '/directory' + (u ? '?' + u : ''));
+  };
+  const changed = () => { ST.limit = 100; draw(); };
+  q.addEventListener('input', () => { ST.q = q.value; changed(); });
+  sc.addEventListener('change', () => { ST.country = sc.value; changed(); });
+  st.addEventListener('change', () => { ST.type = st.value; changed(); });
+  sg.addEventListener('change', () => { ST.grade = sg.value; changed(); });
+  ss.addEventListener('change', () => { ST.sort = ss.value; changed(); });
+  draw();
 }
 
 // ---------- feedback and bug reports ----------
@@ -1428,7 +1472,7 @@ function feedbackPage(params) {
       <p><a class="btn sm" href="${DISCORD}" target="_blank" rel="noopener">Join the Discord ↗</a></p>
       <p style="margin-top:18px">Found a mistake in a person's entry? Report it on GitHub, where it is tracked until it is fixed.</p>
       <p><a class="btn sm ghost" href="${esc(issueUrl('Report: '))}" target="_blank" rel="noopener">Report a mistake ↗</a></p>
-      <p class="fine" style="margin-top:18px">Know a supporter we are missing? <a href="/suggest">Suggest a supporter</a>.</p></aside>
+      <p class="fine" style="margin-top:18px">Know a supporter we are missing? <a href="/contribute#suggest">Suggest a supporter</a>.</p></aside>
   </div>`;
   const form = $('#feedback-form'), msg = $('#fb-msg'), send = $('#fb-send'), text = $('#fb-message');
   const hint = () => {
