@@ -35,6 +35,10 @@ Unit names must match the `name` column of `geo_units.csv`, or match it up to th
 
 These appear on the [Resources page](https://wealthtaxsupporters.com/resources). A poll goes in its country's `meta.json` under `polls`; a paper, report or bill goes in `data/resources.json` (the fields are in `skill/SKILL.md` section 5). Link the original document, not a news story about it. It must be about an actual wealth tax, a poll must ask about a wealth tax and say who paid for it, and a bill's status must be what the parliament's own page shows. The build stops on a missing field.
 
+## Leads outside your area
+
+If you find a supporter of another country while working on yours, do not add them to your register and do not drop them: log them with `python skill/scripts/leads.py add` (one row in `data/leads.csv`, with the link where you saw the statement). Whoever researches that country next starts from its leads.
+
 ## Using an AI assistant
 
 Allowed and encouraged, with these conditions:
