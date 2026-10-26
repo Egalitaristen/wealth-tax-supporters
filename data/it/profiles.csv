@@ -1,0 +1,36 @@
+profile_id,actor_id,platform,url,source,checked
+P00001,A0001,website,https://verdisinistra.it/,actors.csv website column,2026-10-22
+P00002,A0002,website,https://www.sinistraitaliana.si/,actors.csv website column,2026-10-22
+P00003,A0003,website,https://europaverde.it/,actors.csv website column,2026-10-22
+P00004,A0004,website,https://www.rifondazione.it/,actors.csv website column,2026-10-22
+P00005,A0006,website,https://unpercentoequo.it/,actors.csv website column,2026-10-22
+P00006,A0007,website,https://www.movimento5stelle.eu/,actors.csv website column,2026-10-22
+P00007,A0008,website,https://www.cgil.it/,actors.csv website column,2026-10-22
+P00008,A0009,website,https://www.oxfamitalia.org/,actors.csv website column,2026-10-22
+P00009,A0010,website,https://patrioticmillionaires.org/,actors.csv website column,2026-10-22
+P00010,A0011,website,https://sbilanciamoci.info/,actors.csv website column,2026-10-22
+P00011,A0012,website,https://www.forumdisuguaglianzediversita.org/,actors.csv website column,2026-10-22
+P00012,A0151,website,https://www.sinistraitaliana.si/,actors.csv website column,2026-10-22
+P00013,A0152,website,https://europaverde.it/,actors.csv website column,2026-10-22
+P00014,A0155,website,https://www.matteoorfini.it/,actors.csv website column,2026-10-22
+P00015,A0172,website,https://www.cgil.it/,actors.csv website column,2026-10-22
+P00016,A0002,wikipedia,https://en.wikipedia.org/wiki/Haworth_Mesa,Wikidata Q21486646,2026-10-22
+P00017,A0004,x,https://x.com/pdnetwork,Wikidata Q47729,2026-10-22
+P00018,A0004,instagram,https://www.instagram.com/partitodemocratico/,Wikidata Q47729,2026-10-22
+P00019,A0004,facebook,https://www.facebook.com/partitodemocratico.it,Wikidata Q47729,2026-10-22
+P00020,A0004,youtube,https://www.youtube.com/channel/UCYuVLa772VBLc7_AK9qZ8Kw,Wikidata Q47729,2026-10-22
+P00021,A0004,wikipedia,https://en.wikipedia.org/wiki/Democratic_Party_%28Italy%29,Wikidata Q47729,2026-10-22
+P00022,A0007,x,https://x.com/Mov5Stelle,Wikidata Q47817,2026-10-22
+P00023,A0007,instagram,https://www.instagram.com/movimento5stelle/,Wikidata Q47817,2026-10-22
+P00024,A0007,facebook,https://www.facebook.com/movimentocinquestelle,Wikidata Q47817,2026-10-22
+P00025,A0007,youtube,https://www.youtube.com/channel/UCQMR0q4wNM8Rbe7W0UlX1jg,Wikidata Q47817,2026-10-22
+P00026,A0007,wikipedia,https://en.wikipedia.org/wiki/Five_Star_Movement,Wikidata Q47817,2026-10-22
+P00027,A0008,wikipedia,https://en.wikipedia.org/wiki/Graafstroom_%28former_municipality%29,Wikidata Q1124909,2026-10-22
+P00028,A0010,wikipedia,https://en.wikipedia.org/wiki/List_of_crossings_of_the_Kootenay_River,Wikidata Q104856934,2026-10-22
+P00029,A0151,wikipedia,https://en.wikipedia.org/wiki/In%C4%91ija_railway_station,Wikidata Q15976268,2026-10-22
+P00030,A0157,wikipedia,https://en.wikipedia.org/wiki/Joseph_Sylvester_O%27Halloran,Wikidata Q15976228,2026-10-22
+P00031,A0159,wikipedia,https://en.wikipedia.org/wiki/Walter_Cowley,Wikidata Q16863532,2026-10-22
+P00032,A0166,wikipedia,https://en.wikipedia.org/wiki/Rosalita,Wikidata Q3941310,2026-10-22
+P00033,A0169,wikipedia,https://en.wikipedia.org/wiki/Giuseppe_Cominetti,Wikidata Q3770341,2026-10-22
+P00034,A0172,wikipedia,https://en.wikipedia.org/wiki/Maurizio_Leo,Wikidata Q3852630,2026-10-22
+P00035,A0174,wikipedia,https://en.wikipedia.org/wiki/Luigi_Palmieri,Wikidata Q559887,2026-10-22

@@ -22,7 +22,7 @@ The aim is to make it easy for people who share the view that wealth should be t
 | `scripts/deploy.py`, `wrangler.jsonc` | Build and deploy the site to Cloudflare from a local checkout. |
 | `docs/`, `infra/` | The community plan, and the Cloudflare setup and draft database schema. The suggestions database is deployed; the community schema is a draft. |
 
-Twenty countries so far, all built with AI assistants and all work in progress. The site shows the live counts; each folder's `area_profile.md` says what was searched and what was not.
+Twenty-one countries so far, all built with AI assistants and all work in progress. The site shows the live counts; each folder's `area_profile.md` says what was searched and what was not.
 
 | Country | Folder | Map (local tier) | What it rests on |
 |---|---|---|---|
@@ -33,6 +33,7 @@ Twenty countries so far, all built with AI assistants and all work in progress. 
 | France | `data/fr/` | 34,790 communes | Assemblée and Sénat roll calls on the "taxe Zucman" and earlier ISF bills, the Le Monde appeal, economists, NGOs, unions |
 | Germany | `data/de/` | 10,939 Gemeinden | Bundestag sponsors since 2010, party programmes, the alliance "Vermögen besteuern jetzt", unions, economists |
 | India | `data/in/` | 731 districts (provisional) | The 2024 World Inequality Lab proposal, the Left parties, the central trade unions, Oxfam India, the Tax the Top campaign |
+| Italy | `data/it/` | 7,896 comuni | The May 2024 Manifesto of 134 economists from 50 universities, the May 2026 popular initiative bill "1% Equo", the 2020 Orfini–Fratoianni and 2024–2026 AVS budget amendments and fiscal package, Fondazione Demo's Zucman-tax dossier, CGIL, Oxfam Italia, Sbilanciamoci!, Forum Disuguaglianze e Diversità, Carlo De Benedetti and a regional/local sample |
 | Indonesia | `data/id/` | 514 districts and cities | CELIOS, PRAKARSA and the FPBI alliance white paper, politicians who proposed a wealth tax, a student league, economists |
 | Japan | `data/jp/` | 1,749 municipalities | Diet speeches naming the tax, the Communist, Social Democratic and Reiwa party policies, a citizens' coalition and scholars |
 | Malaysia | `data/my/` | 144 districts | MPs and parliamentary questions, PSM, economists, civil society |

@@ -1,0 +1,30 @@
+{
+  "name": "Italy",
+  "iso2": "IT",
+  "lead": "",
+  "status": "in progress",
+  "boundaries": "boundaries.json",
+  "notes": "Depth: seed. Scope: national, regional and local (register and map to the comune; local sweeping sampled). Covers the May 2024 Manifesto per un'agenda Tax the Rich per l'Italia (134 economists from 50 universities), the May 2026 popular initiative bill 1% Equo (11 first signatories, PRC and Comitato 1% Equo), the 2020 Orfini-Fratoianni budget amendment, the 2024–2026 AVS parliamentary amendments and Restituzione fiscale package, the Fondazione Demo (Felice-Visco) 2–3% Zucman-tax dossier, M5S's financial-wealth levy and parliamentary supporters (Appendino, Tridico), CGIL and Maurizio Landini, Oxfam Italia (#LaGrandeRicchezza), Campagna Sbilanciamoci!, Forum Disuguaglianze e Diversità, Patriotic Millionaires, Carlo De Benedetti, Flavio Insinna, opinion journalists, and a regional/local sample (Bolzano Voto n. 39/25, Lucca). Register: root, Parlamento, 20 regions (ISO 3166-2:IT), 107 provinces/metropolitan cities/free municipal consortia (ISTAT UTS codes) and 7,896 comuni (ISTAT, 1 Jan 2025). Map: ISTAT generalised boundaries 1 Jan 2025, CC BY 4.0.",
+  "polls": [
+    {
+      "support": 69,
+      "scope": "Italy, adults",
+      "question": "Progressive wealth tax on net wealth above EUR 5m (57.1% for a generic wealth tax without threshold)",
+      "pollster": "Eumetra",
+      "commissioned_by": "Piazzapulita (La7)",
+      "fieldwork": "2026-06",
+      "published": "2026-06-10",
+      "url": "https://www.ilfattoquotidiano.it/2026/06/10/patrimoniale-economisti-riforma-fiscale-notizie/8415001/"
+    },
+    {
+      "support": 70,
+      "scope": "Italy, adults",
+      "question": "Progressive tax on large fortunes (richest 0.1%, net wealth above EUR 5.4m)",
+      "pollster": "Istituto Demopolis",
+      "commissioned_by": "Oxfam Italia",
+      "fieldwork": "2024-05",
+      "published": "2024-05-22",
+      "url": "https://www.ilfattoquotidiano.it/2024/10/08/schlein-a-skytg24-tassa-internazionale-sui-super-ricchi-si-discuta-a-livello-europeo/7722578/"
+    }
+  ]
+}
