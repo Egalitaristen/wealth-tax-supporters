@@ -549,8 +549,30 @@ function panZoom(el, base, {onView, onTap = () => {}, onHover = () => {}, onWhee
     if (smooth) animate(v); else { cancelAnimationFrame(anim); [x, y, w, h] = v; set(); }
   }
   const frac = e => { const r = el.getBoundingClientRect(); return [(e.clientX - r.left) / r.width, (e.clientY - r.top) / r.height]; };
-  el.addEventListener('pointerdown', e => { if (e.button) return; drag = {x: e.clientX, y: e.clientY}; moved = false; });
+  // One pointer pans; two pointers (a pinch on a touch screen) zoom around the midpoint between them and pan with it.
+  const ptrs = new Map();
+  let pinch = null;
+  const startPinch = () => {
+    const [a, b] = [...ptrs.values()], r = el.getBoundingClientRect();
+    pinch = {d: Math.hypot(a.x - b.x, a.y - b.y) || 1, cx: (a.x + b.x) / 2, cy: (a.y + b.y) / 2, v: [x, y, w, h], r};
+    drag = null; moved = true; cancelAnimationFrame(anim); el.classList.add('dragging'); hideTip();
+  };
+  el.addEventListener('pointerdown', e => {
+    if (e.button) return;
+    ptrs.set(e.pointerId, {x: e.clientX, y: e.clientY});
+    if (ptrs.size === 2) { for (const id of ptrs.keys()) { try { el.setPointerCapture(id); } catch (err) {} } startPinch(); }
+    else if (ptrs.size === 1) { drag = {x: e.clientX, y: e.clientY}; moved = false; }
+  });
   el.addEventListener('pointermove', e => {
+    if (ptrs.has(e.pointerId)) ptrs.set(e.pointerId, {x: e.clientX, y: e.clientY});
+    if (pinch && ptrs.size >= 2) {
+      const [a, b] = [...ptrs.values()], [vx, vy, vw, vh] = pinch.v, r = pinch.r;
+      const d = Math.hypot(a.x - b.x, a.y - b.y) || 1, cx = (a.x + b.x) / 2, cy = (a.y + b.y) / 2;
+      const nw = Math.min(fitView()[2] * maxOut, Math.max(bw / maxIn, vw * pinch.d / d)), nh = vh * nw / vw;
+      const ax = vx + (pinch.cx - r.left) / r.width * vw, ay = vy + (pinch.cy - r.top) / r.height * vh;  // the map point that was under the fingers
+      w = nw; h = nh; x = ax - (cx - r.left) / r.width * nw; y = ay - (cy - r.top) / r.height * nh;
+      set(); return;
+    }
     if (drag) {
       const r = el.getBoundingClientRect(), dx = e.clientX - drag.x, dy = e.clientY - drag.y;
       if (!moved && Math.abs(dx) + Math.abs(dy) > 4) { moved = true; el.setPointerCapture(e.pointerId); el.classList.add('dragging'); }
@@ -558,8 +580,17 @@ function panZoom(el, base, {onView, onTap = () => {}, onHover = () => {}, onWhee
     }
     onHover(e);
   });
-  el.addEventListener('pointerup', e => { const was = moved; drag = null; moved = false; el.classList.remove('dragging'); if (!was) onTap(e); });
-  el.addEventListener('pointercancel', () => { drag = null; moved = false; el.classList.remove('dragging'); });
+  const lift = (e, tap) => {
+    const was = moved;
+    ptrs.delete(e.pointerId);
+    if (ptrs.size >= 2) { startPinch(); return; }
+    pinch = null;
+    if (ptrs.size === 1) { const [p] = [...ptrs.values()]; drag = {x: p.x, y: p.y}; return; }  // one finger left after a pinch: keep panning, never a tap
+    drag = null; moved = false; el.classList.remove('dragging');
+    if (tap && !was) onTap(e);
+  };
+  el.addEventListener('pointerup', e => lift(e, true));
+  el.addEventListener('pointercancel', e => lift(e, false));
   el.addEventListener('wheel', e => {
     e.preventDefault(); hideTip();
     const f = Math.exp(Math.max(-1, Math.min(1, e.deltaY * (e.deltaMode ? 33 : 1) / 300)));
