@@ -67,3 +67,7 @@ Priorities after this pass: obtain complete older motion/bill lists from an acce
 3. Follow other parties' adopted programmes, union congress policies and Finnish public signatories of wealth-tax letters; never extrapolate a policy to members.
 4. Follow named economists, policy authors and opinion writers; distinguish recommendations from neutral research and reporting.
 5. Continue Swedish-language and Åland sources and local party branches. Expand local minutes searches only if a fresh sample yields identifiable acts.
+
+## Review notes
+
+Checked on review: all other quotes were found on their source pages by script, and the 50 signature rows (38 names on LA 55/2012 vp, 12 on TPA 25/2022 vp) were read in a browser on the official pages (the 2012 block lists 39 names; the one excluded is the deceased signer). The three 2010 and one 2014 reservation quotes were found on Edilex, and the reservations' signatories there match the rows. No rows were changed.
