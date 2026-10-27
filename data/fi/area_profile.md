@@ -50,6 +50,18 @@ The shared leads register contained no Finland leads, and the live suggestions s
 
 ## 10. Next runs, ordered by expected yield
 
+### R002 follow-up (27 October 2026)
+
+Added 13 independently evidenced supporters: four authors of parliamentary reservations, STTK, the Green League and Green Youth, three economic-policy authors, one researcher, one union official and one nonfiction author. The adopted Green programme is dated 24 May 2026; STTK's election-policy page has an original publication date of 28 May 2026 in its structured metadata. Green Youth's PDF records adoption on 13 November 2022. Individual STTK economists are included for their own authored endorsements, not because of their employment.
+
+The complete committee documents reproduced by Edilex identify Kari Uotila as the sole author of reservation 2 in VaVM 25/2014, and Mikko Kuoppa, Minna Sirnö and Matti Kauppila as the three authors of reservation 2 in VaVM 53/2010. Each reservation explicitly calls for restoring a wealth tax. This is authorship of a recommendation, not a vote on a whole budget. Historical offices and constituencies were checked in the parliamentary member register, and the individuals were checked against the Wikidata MP death records.
+
+All 13 new quotes were found automatically on their source pages. Five substantive spot-checks covered STTK's adopted policy, the Green programme, Green Youth's adoption/date, the 2010 reservation's three author signatures and Savela's EUR 500,000 recommendation. Review-scan wording alerts arise because its wealth-tax vocabulary does not recognise Finnish; the actual quotations explicitly say varallisuusvero. No source was used to attribute a party policy to an individual.
+
+LA 63/2010 and TAA 422/2010 remain incompletely accessible through both old and new parliamentary URLs and the reader fallback. The 2010 committee report preserves TAA 422's proposer/title but not its complete signature list. Do not infer the co-signers. The SDP and Social Democratic Youth insurance-wrapper proposals were not added: their limited asset scope and adoption status need a clearer check. Palola's 2014 call to investigate restoration, an ambiguous 2011 editorial mixing wealth and income tax, and a reader blog without a verified public role were also left out. No death record was found for the new public individuals; a deceased writer named Kaarlo Julkunen is a different person from the PAM official.
+
+Priorities after this pass: obtain complete older motion/bill lists from an accessible archive; follow the Finnish MEPs' own EU wealth-tax release (including Merja Kyllönen); inspect the latest Finnwatch material and its named authors; continue Swedish-language/Åland and public commentator sources. The register remains partial and is not saturated. Current-seat verification remains outstanding.
+
 1. Check older wealth-tax bills and budget motions, beginning with LA 63/2010 and related 2010–2014 initiatives; obtain complete official signers and avoid duplicates with the 2012 cohort.
 2. Inspect the replacement parliamentary member API, correct historical/current office distinctions, and enable seats only after the full current register is validated. Check prominent historical sponsors for personal retractions.
 3. Follow other parties' adopted programmes, union congress policies and Finnish public signatories of wealth-tax letters; never extrapolate a policy to members.
