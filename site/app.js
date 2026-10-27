@@ -549,8 +549,30 @@ function panZoom(el, base, {onView, onTap = () => {}, onHover = () => {}, onWhee
     if (smooth) animate(v); else { cancelAnimationFrame(anim); [x, y, w, h] = v; set(); }
   }
   const frac = e => { const r = el.getBoundingClientRect(); return [(e.clientX - r.left) / r.width, (e.clientY - r.top) / r.height]; };
-  el.addEventListener('pointerdown', e => { if (e.button) return; drag = {x: e.clientX, y: e.clientY}; moved = false; });
+  // One pointer pans; two pointers (a pinch on a touch screen) zoom around the midpoint between them and pan with it.
+  const ptrs = new Map();
+  let pinch = null;
+  const startPinch = () => {
+    const [a, b] = [...ptrs.values()], r = el.getBoundingClientRect();
+    pinch = {d: Math.hypot(a.x - b.x, a.y - b.y) || 1, cx: (a.x + b.x) / 2, cy: (a.y + b.y) / 2, v: [x, y, w, h], r};
+    drag = null; moved = true; cancelAnimationFrame(anim); el.classList.add('dragging'); hideTip();
+  };
+  el.addEventListener('pointerdown', e => {
+    if (e.button) return;
+    ptrs.set(e.pointerId, {x: e.clientX, y: e.clientY});
+    if (ptrs.size === 2) { for (const id of ptrs.keys()) { try { el.setPointerCapture(id); } catch (err) {} } startPinch(); }
+    else if (ptrs.size === 1) { drag = {x: e.clientX, y: e.clientY}; moved = false; }
+  });
   el.addEventListener('pointermove', e => {
+    if (ptrs.has(e.pointerId)) ptrs.set(e.pointerId, {x: e.clientX, y: e.clientY});
+    if (pinch && ptrs.size >= 2) {
+      const [a, b] = [...ptrs.values()], [vx, vy, vw, vh] = pinch.v, r = pinch.r;
+      const d = Math.hypot(a.x - b.x, a.y - b.y) || 1, cx = (a.x + b.x) / 2, cy = (a.y + b.y) / 2;
+      const nw = Math.min(fitView()[2] * maxOut, Math.max(bw / maxIn, vw * pinch.d / d)), nh = vh * nw / vw;
+      const ax = vx + (pinch.cx - r.left) / r.width * vw, ay = vy + (pinch.cy - r.top) / r.height * vh;  // the map point that was under the fingers
+      w = nw; h = nh; x = ax - (cx - r.left) / r.width * nw; y = ay - (cy - r.top) / r.height * nh;
+      set(); return;
+    }
     if (drag) {
       const r = el.getBoundingClientRect(), dx = e.clientX - drag.x, dy = e.clientY - drag.y;
       if (!moved && Math.abs(dx) + Math.abs(dy) > 4) { moved = true; el.setPointerCapture(e.pointerId); el.classList.add('dragging'); }
@@ -558,8 +580,17 @@ function panZoom(el, base, {onView, onTap = () => {}, onHover = () => {}, onWhee
     }
     onHover(e);
   });
-  el.addEventListener('pointerup', e => { const was = moved; drag = null; moved = false; el.classList.remove('dragging'); if (!was) onTap(e); });
-  el.addEventListener('pointercancel', () => { drag = null; moved = false; el.classList.remove('dragging'); });
+  const lift = (e, tap) => {
+    const was = moved;
+    ptrs.delete(e.pointerId);
+    if (ptrs.size >= 2) { startPinch(); return; }
+    pinch = null;
+    if (ptrs.size === 1) { const [p] = [...ptrs.values()]; drag = {x: p.x, y: p.y}; return; }  // one finger left after a pinch: keep panning, never a tap
+    drag = null; moved = false; el.classList.remove('dragging');
+    if (tap && !was) onTap(e);
+  };
+  el.addEventListener('pointerup', e => lift(e, true));
+  el.addEventListener('pointercancel', e => lift(e, false));
   el.addEventListener('wheel', e => {
     e.preventDefault(); hideTip();
     const f = Math.exp(Math.max(-1, Math.min(1, e.deltaY * (e.deltaMode ? 33 : 1) / 300)));
@@ -643,9 +674,16 @@ function worldMap(box, W, {seats = false} = {}) {
     const b = e.target.closest('button'); if (!b) return;
     if (b.dataset.z === 'in') pz.zoomAt(.6); else if (b.dataset.z === 'out') pz.zoomAt(1 / .6); else pz.fit();
   });
-  pz.fit(false);
+  // On a tall, narrow screen the whole world would be a thin strip: fill the box instead, with the Americas, Europe and Africa in view, and let the reader pan or zoom out.
+  const start = () => {
+    pz.fit(false);
+    if (pz.aspect() >= 1.3) return;
+    const [ex, ey, ew, eh] = extent, w = ew * .55, h = w / pz.aspect();
+    pz.set([ex + ew * .4 - w / 2, ey + eh / 2 - h / 2, w, h]);
+  };
+  start();
   let lastW = svg.clientWidth;
-  const ro = new ResizeObserver(() => { if (Math.abs(svg.clientWidth - lastW) > 1) { lastW = svg.clientWidth; pz.fit(false); } });
+  const ro = new ResizeObserver(() => { if (Math.abs(svg.clientWidth - lastW) > 1) { lastW = svg.clientWidth; start(); } });
   ro.observe(svg);
   return () => { ro.disconnect(); hideTip(); };
 }
@@ -832,7 +870,7 @@ function mapSection(box, D, slug, params) {
       <div class="atlas">
         <div class="mapbox" id="mapbox">
           <div class="zoomer"><button type="button" data-z="in" aria-label="Zoom in">+</button><button type="button" data-z="out" aria-label="Zoom out">−</button><button type="button" data-z="fit" aria-label="Show the whole country">⤢</button></div>
-          <div class="legend"><span><span class="ramp" style="display:inline-block;vertical-align:-1px;margin-right:6px"></span>Supporters</span>${D.C.some(c => c[9]) ? '<span><span class="ramp up" style="display:inline-block;vertical-align:-1px;margin-right:6px"></span>No one here yet, but supporters elsewhere in the wider area</span>' : ''}<span><i class="sw none"></i>None recorded yet</span></div>
+          <div class="legend"><span><span class="ramp" style="display:inline-block;vertical-align:-1px;margin-right:6px"></span>Supporters</span>${D.C.some(c => c[9]) ? '<span><span class="ramp up" style="display:inline-block;vertical-align:-1px;margin-right:6px"></span>No one here yet<span class="lg-more">, but supporters elsewhere in the wider area</span></span>' : ''}<span><i class="sw none"></i>None recorded yet</span></div>
         </div>
         <div class="panel" id="panel"></div>
       </div>
