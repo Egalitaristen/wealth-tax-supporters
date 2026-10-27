@@ -42,7 +42,7 @@ def equal_earth(lon, lat):
 
 
 def world_paths():
-    topo = json.load(open(SITE / "vendor" / "countries-110m.json", encoding="utf-8"))
+    topo = json.load(open(SITE / "vendor" / "countries-50m.json", encoding="utf-8"))
     sx, sy = topo["transform"]["scale"]
     tx, ty = topo["transform"]["translate"]
     arcs = []
@@ -87,18 +87,79 @@ def world_paths():
         west = clip([(lon - 360, lat) for lon, lat in un], lambda lon: lon >= -180, -180.0)
         return [r for r in (east, west) if len(r) > 2]
 
-    out = {}
+    def inside(pt, pts):
+        x, y = pt
+        c = False
+        for i in range(len(pts)):
+            x1, y1 = pts[i]
+            x2, y2 = pts[i - 1]
+            if (y1 > y) != (y2 > y) and x < (x2 - x1) * (y - y1) / (y2 - y1) + x1:
+                c = not c
+        return c
+
+    geoms = {}
     for g in topo["objects"]["countries"]["geometries"]:
         cid = str(g.get("id", ""))
+        if cid in geoms:  # the 50 m file gives a few small territories the code of their country (Ashmore and Cartier Islands carry Australia's 036): merge, never replace
+            m = geoms[cid]
+            more = g["arcs"] if g["type"] == "MultiPolygon" else [g["arcs"]]
+            m["arcs"] = (m["arcs"] if m["type"] == "MultiPolygon" else [m["arcs"]]) + more
+            m["type"] = "MultiPolygon"
+        else:
+            geoms[cid] = g
+    # Ukraine as it was before 2014: Natural Earth draws Crimea (with Sevastopol) in Russia, so move that polygon across.
+    ru, ua = geoms["643"], geoms["804"]
+    ua_polys = ua["arcs"] if ua["type"] == "MultiPolygon" else [ua["arcs"]]
+    crimea = next((poly for poly in ru["arcs"] if inside((34.1, 44.95), ring(poly[0]))), None)
+    if crimea is not None:
+        ru["arcs"] = [poly for poly in ru["arcs"] if poly is not crimea]
+        ua["arcs"], ua["type"] = ua_polys + [crimea], "MultiPolygon"
+
+    def simplify(pts, tol):
+        """Douglas-Peucker on a closed ring, so the 50 m shapes stay small enough to ship in world.json."""
+        if len(pts) < 12:
+            return pts
+        keep = [False] * len(pts)
+        # a ring starts and ends on the same point, so split it at the point farthest from the start first
+        m = max(range(len(pts)), key=lambda i: (pts[i][0] - pts[0][0]) ** 2 + (pts[i][1] - pts[0][1]) ** 2)
+        keep[0] = keep[m] = keep[-1] = True
+        stack = [(0, m), (m, len(pts) - 1)]
+        while stack:
+            a, b = stack.pop()
+            (x1, y1), (x2, y2) = pts[a], pts[b]
+            dx, dy = x2 - x1, y2 - y1
+            n = (dx * dx + dy * dy) ** 0.5 or 1e-9
+            far, fi = 0, -1
+            for i in range(a + 1, b):
+                d = abs(dy * pts[i][0] - dx * pts[i][1] + x2 * y1 - y2 * x1) / n
+                if d > far:
+                    far, fi = d, i
+            if far > tol:
+                keep[fi] = True
+                stack += [(a, fi), (fi, b)]
+        return [p for p, k in zip(pts, keep) if k]
+
+    out = {}
+    for cid, g in geoms.items():
         if not cid or cid == "010":  # skip Antarctica and unidentified shapes
             continue
         polys = g["arcs"] if g["type"] == "MultiPolygon" else [g["arcs"]]
-        d = ""
+        pieces = []
         for poly in polys:
-            for r in poly:
-                for part in split_antimeridian(ring(r)):
-                    pts = [equal_earth(*p) for p in part]
-                    d += "M" + "L".join(f"{x * 100:.1f} {-y * 100:.1f}" for x, y in pts) + "Z"
+            for rg in poly:
+                for part in split_antimeridian(ring(rg)):
+                    pieces.append([equal_earth(*p) for p in part])
+        # tiny islands go (under about 0.4 px at full width) unless it is all the country has
+        def size(pts):
+            xs, ys = [p[0] for p in pts], [p[1] for p in pts]
+            return max(max(xs) - min(xs), max(ys) - min(ys)) * 100
+        big = max(size(pc) for pc in pieces) if pieces else 0
+        d = ""
+        for pc in pieces:
+            if size(pc) < 0.12 and size(pc) < big:
+                continue
+            pts = simplify([(x * 100, -y * 100) for x, y in pc], 0.1)
+            d += "M" + "L".join(f"{x:.1f} {y:.1f}" for x, y in pts) + "Z"
         out[cid] = {"name": g["properties"]["name"], "path": d}
     return out
 
@@ -472,6 +533,9 @@ def share_pages(out, base, countries, full):
         img = f"/og/{image_key}.png"
         if cards:
             draw(out / img.lstrip("/"))
+            # A version in the image URL, from the picture itself: Discord, Slack and others keep a preview for a URL for weeks,
+            # so a card whose numbers changed needs a new URL to be fetched again.
+            img += "?v=" + hashlib.md5((out / img.lstrip("/")).read_bytes()).hexdigest()[:8]
         else:
             img = "/og.png"
         dest = out / ("index.html" if path == "/" else path.lstrip("/") + ".html")

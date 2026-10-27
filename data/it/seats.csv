@@ -1,0 +1,25 @@
+seat_id,body_id,party,seats,colour,order
+S0001,B0001,Alleanza Verdi e Sinistra,10,78b82a,1
+S0002,B0001,MoVimento 5 Stelle,48,f5c518,2
+S0003,B0001,Partito Democratico - Italia Democratica e Progressista,68,e4002b,3
+S0004,B0001,MISTO,4,8a8680,4
+S0005,B0001,MISTO-+Europa - Stati Uniti d'Europa,3,8a8680,5
+S0006,B0001,MISTO-Futuro Nazionale Vannacci - Free,9,8a8680,6
+S0007,B0001,MISTO-Minoranze Linguistiche,4,8a8680,7
+S0008,B0001,MISTO-Sud chiama Nord,3,8a8680,8
+S0009,B0001,Italia Viva-Casa Riformista,7,f58220,9
+S0010,B0001,Azione-Popolari europeisti riformatori-Renew Europe,10,ee7d00,10
+S0011,B0001,"NOI MODERATI (NOI CON L'ITALIA, CORAGGIO ITALIA, UDC E ITALIA AL CENTRO)-MAIE-CENTRO POPOLARE",8,58b4e8,11
+S0012,B0001,Forza Italia - Berlusconi Presidente - PPE,53,0087dc,12
+S0013,B0001,Lega - Salvini Premier,54,1b7f3b,13
+S0014,B0001,Fratelli d'Italia,117,123f8c,14
+S0015,B0001,Vacant,2,,15
+S0016,B0002,M5S,25,f5c518,1
+S0017,B0002,PD-IDP,35,e4002b,2
+S0018,B0002,Misto,11,8a8680,3
+S0019,B0002,"Aut (SVP-PATT, Cb)",7,7a5a2e,4
+S0020,B0002,IV-CR,8,f58220,5
+S0021,B0002,"Cd'I-UDC-NM (NcI, CI, IaC)-MAIE-CP",7,58b4e8,6
+S0022,B0002,FI-BP-PPE,20,0087dc,7
+S0023,B0002,LSP-PSd'Az,29,1b7f3b,8
+S0024,B0002,FdI,63,123f8c,9

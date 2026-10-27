@@ -1,3 +1,3 @@
 body_id,name,level,kind,seats,as_of,source_url,seat_view,notes
-B0001,Dáil Éireann,national,chamber,,,https://www.oireachtas.ie/,,National lower house; positions are retained without current-seat assertions pending a verified member-list import.
-B0002,Seanad Éireann,national,chamber,,,https://www.oireachtas.ie/,,National upper house; positions are retained without current-seat assertions pending a verified member-list import.
+B0001,Dáil Éireann,national,chamber,174,2026-10-26,https://api.oireachtas.ie/v1/members?house_no=34&chamber=dail,y,"174 seats in the 34th Dáil (elected 29 November 2024). Who sits, their party and constituency are from the Oireachtas members API; the Ceann Comhairle counts as a seat. Unlit seats mean nothing found, never opposition."
+B0002,Seanad Éireann,national,chamber,60,2026-10-26,https://api.oireachtas.ie/v1/members?house_no=27&chamber=seanad,y,"60 seats in the 27th Seanad (January 2025): 43 elected from five vocational panels, six by university graduates and 11 nominated by the Taoiseach. A vacancy shows as Vacant. Unlit seats mean nothing found, never opposition."

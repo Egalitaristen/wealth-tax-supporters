@@ -1,1 +1,15 @@
 seat_id,body_id,party,seats,colour,order
+S0001,B0003,Morena,254,8b1a1a,1
+S0002,B0003,Partido del Trabajo,49,e07a1f,2
+S0003,B0003,Partido Verde,61,62b04b,3
+S0004,B0003,Movimiento Ciudadano,29,2aa5c9,4
+S0005,B0003,PRI,37,1f8f4e,5
+S0006,B0003,PAN,69,0a5aa8,6
+S0007,B0003,Independent,1,8a8680,7
+S0008,B0004,Morena,66,8b1a1a,1
+S0009,B0004,Partido del Trabajo,6,e07a1f,2
+S0010,B0004,Partido Verde,14,62b04b,3
+S0011,B0004,Movimiento Ciudadano,6,2aa5c9,4
+S0012,B0004,PRI,13,1f8f4e,5
+S0013,B0004,PAN,21,0a5aa8,6
+S0014,B0004,Independent,2,8a8680,7
