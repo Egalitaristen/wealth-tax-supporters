@@ -1,0 +1,4 @@
+body_id,name,level,kind,seats,as_of,source_url,seat_view,notes
+B0001,Australian Senate,national,chamber,,,https://www.aph.gov.au/Senators_and_Members/Parliamentarian?MPID=jkm,,Supporter position recorded; chamber seats have not been loaded.
+B0002,Australian House of Representatives,national,chamber,,,https://www.aph.gov.au/Senators_and_Members/Parliamentarian?MPID=M3C,,Former supporter position recorded; chamber seats not yet loaded.
+B0003,New South Wales Legislative Council,regional,chamber,,,https://www.parliament.nsw.gov.au/members-and-electorates/members-and-ministers/members-details?memberId=2257,,Supporter position recorded; chamber seat roster not yet loaded.

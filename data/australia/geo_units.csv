@@ -1,0 +1,559 @@
+geo_unit_id,name,level,unit_type,parent_id,website,sweep_status,swept_run,swept_date,queries_run,hits,notes,code
+G0001,Australia,national,country,,,pending,,,,,,AU
+G0002,New South Wales,region,state_or_territory,G0001,,pending,,,,,,1
+G0003,Victoria,region,state_or_territory,G0001,,pending,,,,,,2
+G0004,Queensland,region,state_or_territory,G0001,,pending,,,,,,3
+G0005,South Australia,region,state_or_territory,G0001,,pending,,,,,,4
+G0006,Western Australia,region,state_or_territory,G0001,,pending,,,,,,5
+G0007,Tasmania,region,state_or_territory,G0001,,pending,,,,,,6
+G0008,Northern Territory,region,state_or_territory,G0001,,pending,,,,,,7
+G0009,Australian Capital Territory,region,state_or_territory,G0001,,pending,,,,,,8
+G0010,Other Territories,region,state_or_territory,G0001,,pending,,,,,,9
+G0011,Albury,council,local_government_area,G0002,,pending,,,,,,10050
+G0012,Armidale,council,local_government_area,G0002,,pending,,,,,,10180
+G0013,Ballina,council,local_government_area,G0002,,pending,,,,,,10250
+G0014,Balranald,council,local_government_area,G0002,,pending,,,,,,10300
+G0015,Bathurst,council,local_government_area,G0002,,pending,,,,,,10470
+G0016,Bayside (NSW),council,local_government_area,G0002,,pending,,,,,,10500
+G0017,Bega Valley,council,local_government_area,G0002,,pending,,,,,,10550
+G0018,Bellingen,council,local_government_area,G0002,,pending,,,,,,10600
+G0019,Berrigan,council,local_government_area,G0002,,pending,,,,,,10650
+G0020,Blacktown,council,local_government_area,G0002,,pending,,,,,,10750
+G0021,Bland,council,local_government_area,G0002,,pending,,,,,,10800
+G0022,Blayney,council,local_government_area,G0002,,pending,,,,,,10850
+G0023,Blue Mountains,council,local_government_area,G0002,,pending,,,,,,10900
+G0024,Bogan,council,local_government_area,G0002,,pending,,,,,,10950
+G0025,Bourke,council,local_government_area,G0002,,pending,,,,,,11150
+G0026,Brewarrina,council,local_government_area,G0002,,pending,,,,,,11200
+G0027,Broken Hill,council,local_government_area,G0002,,pending,,,,,,11250
+G0028,Burwood,council,local_government_area,G0002,,pending,,,,,,11300
+G0029,Byron,council,local_government_area,G0002,,pending,,,,,,11350
+G0030,Cabonne,council,local_government_area,G0002,,pending,,,,,,11400
+G0031,Camden,council,local_government_area,G0002,,pending,,,,,,11450
+G0032,Campbelltown (NSW),council,local_government_area,G0002,,pending,,,,,,11500
+G0033,Canada Bay,council,local_government_area,G0002,,pending,,,,,,11520
+G0034,Canterbury-Bankstown,council,local_government_area,G0002,,pending,,,,,,11570
+G0035,Carrathool,council,local_government_area,G0002,,pending,,,,,,11600
+G0036,Central Coast (NSW),council,local_government_area,G0002,,pending,,,,,,11650
+G0037,Central Darling,council,local_government_area,G0002,,pending,,,,,,11700
+G0038,Cessnock,council,local_government_area,G0002,,pending,,,,,,11720
+G0039,Clarence Valley,council,local_government_area,G0002,,pending,,,,,,11730
+G0040,Cobar,council,local_government_area,G0002,,pending,,,,,,11750
+G0041,Coffs Harbour,council,local_government_area,G0002,,pending,,,,,,11800
+G0042,Coolamon,council,local_government_area,G0002,,pending,,,,,,12000
+G0043,Coonamble,council,local_government_area,G0002,,pending,,,,,,12150
+G0044,Cootamundra-Gundagai,council,local_government_area,G0002,,pending,,,,,,12160
+G0045,Cowra,council,local_government_area,G0002,,pending,,,,,,12350
+G0046,Cumberland,council,local_government_area,G0002,,pending,,,,,,12380
+G0047,Dubbo,council,local_government_area,G0002,,pending,,,,,,12390
+G0048,Dungog,council,local_government_area,G0002,,pending,,,,,,12700
+G0049,Edward River,council,local_government_area,G0002,,pending,,,,,,12730
+G0050,Eurobodalla,council,local_government_area,G0002,,pending,,,,,,12750
+G0051,Fairfield,council,local_government_area,G0002,,pending,,,,,,12850
+G0052,Federation,council,local_government_area,G0002,,pending,,,,,,12870
+G0053,Forbes,council,local_government_area,G0002,,pending,,,,,,12900
+G0054,Georges River,council,local_government_area,G0002,,pending,,,,,,12930
+G0055,Gilgandra,council,local_government_area,G0002,,pending,,,,,,12950
+G0056,Glen Innes Severn,council,local_government_area,G0002,,pending,,,,,,13010
+G0057,Goulburn Mulwaree,council,local_government_area,G0002,,pending,,,,,,13310
+G0058,Greater Hume,council,local_government_area,G0002,,pending,,,,,,13340
+G0059,Griffith,council,local_government_area,G0002,,pending,,,,,,13450
+G0060,Gunnedah,council,local_government_area,G0002,,pending,,,,,,13550
+G0061,Gwydir,council,local_government_area,G0002,,pending,,,,,,13660
+G0062,Hawkesbury,council,local_government_area,G0002,,pending,,,,,,13800
+G0063,Hay,council,local_government_area,G0002,,pending,,,,,,13850
+G0064,Hilltops,council,local_government_area,G0002,,pending,,,,,,13910
+G0065,Hornsby,council,local_government_area,G0002,,pending,,,,,,14000
+G0066,Hunters Hill,council,local_government_area,G0002,,pending,,,,,,14100
+G0067,Inner West,council,local_government_area,G0002,,pending,,,,,,14170
+G0068,Inverell,council,local_government_area,G0002,,pending,,,,,,14220
+G0069,Junee,council,local_government_area,G0002,,pending,,,,,,14300
+G0070,Kempsey,council,local_government_area,G0002,,pending,,,,,,14350
+G0071,Kiama,council,local_government_area,G0002,,pending,,,,,,14400
+G0072,Ku-ring-gai,council,local_government_area,G0002,,pending,,,,,,14500
+G0073,Kyogle,council,local_government_area,G0002,,pending,,,,,,14550
+G0074,Lachlan,council,local_government_area,G0002,,pending,,,,,,14600
+G0075,Lake Macquarie,council,local_government_area,G0002,,pending,,,,,,14650
+G0076,Lane Cove,council,local_government_area,G0002,,pending,,,,,,14700
+G0077,Leeton,council,local_government_area,G0002,,pending,,,,,,14750
+G0078,Lismore,council,local_government_area,G0002,,pending,,,,,,14850
+G0079,Lithgow,council,local_government_area,G0002,,pending,,,,,,14870
+G0080,Liverpool,council,local_government_area,G0002,,pending,,,,,,14900
+G0081,Liverpool Plains,council,local_government_area,G0002,,pending,,,,,,14920
+G0082,Lockhart,council,local_government_area,G0002,,pending,,,,,,14950
+G0083,Maitland,council,local_government_area,G0002,,pending,,,,,,15050
+G0084,Mid-Coast,council,local_government_area,G0002,,pending,,,,,,15240
+G0085,Mid-Western,council,local_government_area,G0002,,pending,,,,,,15270
+G0086,Moree Plains,council,local_government_area,G0002,,pending,,,,,,15300
+G0087,Mosman,council,local_government_area,G0002,,pending,,,,,,15350
+G0088,Murray River,council,local_government_area,G0002,,pending,,,,,,15520
+G0089,Murrumbidgee,council,local_government_area,G0002,,pending,,,,,,15560
+G0090,Muswellbrook,council,local_government_area,G0002,,pending,,,,,,15650
+G0091,Nambucca Valley,council,local_government_area,G0002,,pending,,,,,,15700
+G0092,Narrabri,council,local_government_area,G0002,,pending,,,,,,15750
+G0093,Narrandera,council,local_government_area,G0002,,pending,,,,,,15800
+G0094,Narromine,council,local_government_area,G0002,,pending,,,,,,15850
+G0095,Newcastle,council,local_government_area,G0002,,pending,,,,,,15900
+G0096,North Sydney,council,local_government_area,G0002,,pending,,,,,,15950
+G0097,Northern Beaches,council,local_government_area,G0002,,pending,,,,,,15990
+G0098,Oberon,council,local_government_area,G0002,,pending,,,,,,16100
+G0099,Orange,council,local_government_area,G0002,,pending,,,,,,16150
+G0100,Parkes,council,local_government_area,G0002,,pending,,,,,,16200
+G0101,Parramatta,council,local_government_area,G0002,,pending,,,,,,16260
+G0102,Penrith,council,local_government_area,G0002,,pending,,,,,,16350
+G0103,Port Macquarie-Hastings,council,local_government_area,G0002,,pending,,,,,,16380
+G0104,Port Stephens,council,local_government_area,G0002,,pending,,,,,,16400
+G0105,Queanbeyan-Palerang,council,local_government_area,G0002,,pending,,,,,,16490
+G0106,Randwick,council,local_government_area,G0002,,pending,,,,,,16550
+G0107,Richmond Valley,council,local_government_area,G0002,,pending,,,,,,16610
+G0108,Ryde,council,local_government_area,G0002,,pending,,,,,,16700
+G0109,Shellharbour,council,local_government_area,G0002,,pending,,,,,,16900
+G0110,Shoalhaven,council,local_government_area,G0002,,pending,,,,,,16950
+G0111,Singleton,council,local_government_area,G0002,,pending,,,,,,17000
+G0112,Snowy Monaro,council,local_government_area,G0002,,pending,,,,,,17040
+G0113,Snowy Valleys,council,local_government_area,G0002,,pending,,,,,,17080
+G0114,Strathfield,council,local_government_area,G0002,,pending,,,,,,17100
+G0115,Sutherland,council,local_government_area,G0002,,pending,,,,,,17150
+G0116,Sydney,council,local_government_area,G0002,,pending,,,,,,17200
+G0117,Tamworth,council,local_government_area,G0002,,pending,,,,,,17310
+G0118,Temora,council,local_government_area,G0002,,pending,,,,,,17350
+G0119,Tenterfield,council,local_government_area,G0002,,pending,,,,,,17400
+G0120,The Hills,council,local_government_area,G0002,,pending,,,,,,17420
+G0121,Tweed,council,local_government_area,G0002,,pending,,,,,,17550
+G0122,Upper Hunter,council,local_government_area,G0002,,pending,,,,,,17620
+G0123,Upper Lachlan,council,local_government_area,G0002,,pending,,,,,,17640
+G0124,Uralla,council,local_government_area,G0002,,pending,,,,,,17650
+G0125,Wagga Wagga,council,local_government_area,G0002,,pending,,,,,,17750
+G0126,Walcha,council,local_government_area,G0002,,pending,,,,,,17850
+G0127,Walgett,council,local_government_area,G0002,,pending,,,,,,17900
+G0128,Warren,council,local_government_area,G0002,,pending,,,,,,17950
+G0129,Warrumbungle,council,local_government_area,G0002,,pending,,,,,,18020
+G0130,Waverley,council,local_government_area,G0002,,pending,,,,,,18050
+G0131,Weddin,council,local_government_area,G0002,,pending,,,,,,18100
+G0132,Wentworth,council,local_government_area,G0002,,pending,,,,,,18200
+G0133,Willoughby,council,local_government_area,G0002,,pending,,,,,,18250
+G0134,Wingecarribee,council,local_government_area,G0002,,pending,,,,,,18350
+G0135,Wollondilly,council,local_government_area,G0002,,pending,,,,,,18400
+G0136,Wollongong,council,local_government_area,G0002,,pending,,,,,,18450
+G0137,Woollahra,council,local_government_area,G0002,,pending,,,,,,18500
+G0138,Yass Valley,council,local_government_area,G0002,,pending,,,,,,18710
+G0139,Unincorporated NSW,council,unincorporated_area,G0002,,skipped,,,,,"ABS unincorporated area, not a council.",19399
+G0140,Alpine,council,local_government_area,G0003,,pending,,,,,,20110
+G0141,Ararat,council,local_government_area,G0003,,pending,,,,,,20260
+G0142,Ballarat,council,local_government_area,G0003,,pending,,,,,,20570
+G0143,Banyule,council,local_government_area,G0003,,pending,,,,,,20660
+G0144,Bass Coast,council,local_government_area,G0003,,pending,,,,,,20740
+G0145,Baw Baw,council,local_government_area,G0003,,pending,,,,,,20830
+G0146,Bayside (Vic.),council,local_government_area,G0003,,pending,,,,,,20910
+G0147,Benalla,council,local_government_area,G0003,,pending,,,,,,21010
+G0148,Boroondara,council,local_government_area,G0003,,pending,,,,,,21110
+G0149,Brimbank,council,local_government_area,G0003,,pending,,,,,,21180
+G0150,Buloke,council,local_government_area,G0003,,pending,,,,,,21270
+G0151,Campaspe,council,local_government_area,G0003,,pending,,,,,,21370
+G0152,Cardinia,council,local_government_area,G0003,,pending,,,,,,21450
+G0153,Casey,council,local_government_area,G0003,,pending,,,,,,21610
+G0154,Central Goldfields,council,local_government_area,G0003,,pending,,,,,,21670
+G0155,Colac Otway,council,local_government_area,G0003,,pending,,,,,,21750
+G0156,Corangamite,council,local_government_area,G0003,,pending,,,,,,21830
+G0157,Darebin,council,local_government_area,G0003,,pending,,,,,,21890
+G0158,East Gippsland,council,local_government_area,G0003,,pending,,,,,,22110
+G0159,Frankston,council,local_government_area,G0003,,pending,,,,,,22170
+G0160,Gannawarra,council,local_government_area,G0003,,pending,,,,,,22250
+G0161,Glen Eira,council,local_government_area,G0003,,pending,,,,,,22310
+G0162,Glenelg,council,local_government_area,G0003,,pending,,,,,,22410
+G0163,Golden Plains,council,local_government_area,G0003,,pending,,,,,,22490
+G0164,Greater Bendigo,council,local_government_area,G0003,,pending,,,,,,22620
+G0165,Greater Dandenong,council,local_government_area,G0003,,pending,,,,,,22670
+G0166,Greater Geelong,council,local_government_area,G0003,,pending,,,,,,22750
+G0167,Greater Shepparton,council,local_government_area,G0003,,pending,,,,,,22830
+G0168,Hepburn,council,local_government_area,G0003,,pending,,,,,,22910
+G0169,Hindmarsh,council,local_government_area,G0003,,pending,,,,,,22980
+G0170,Hobsons Bay,council,local_government_area,G0003,,pending,,,,,,23110
+G0171,Horsham,council,local_government_area,G0003,,pending,,,,,,23190
+G0172,Hume,council,local_government_area,G0003,,pending,,,,,,23270
+G0173,Indigo,council,local_government_area,G0003,,pending,,,,,,23350
+G0174,Kingston (Vic.),council,local_government_area,G0003,,pending,,,,,,23430
+G0175,Knox,council,local_government_area,G0003,,pending,,,,,,23670
+G0176,Latrobe (Vic.),council,local_government_area,G0003,,pending,,,,,,23810
+G0177,Loddon,council,local_government_area,G0003,,pending,,,,,,23940
+G0178,Macedon Ranges,council,local_government_area,G0003,,pending,,,,,,24130
+G0179,Manningham,council,local_government_area,G0003,,pending,,,,,,24210
+G0180,Mansfield,council,local_government_area,G0003,,pending,,,,,,24250
+G0181,Maribyrnong,council,local_government_area,G0003,,pending,,,,,,24330
+G0182,Maroondah,council,local_government_area,G0003,,pending,,,,,,24410
+G0183,Melbourne,council,local_government_area,G0003,,pending,,,,,,24600
+G0184,Melton,council,local_government_area,G0003,,pending,,,,,,24650
+G0185,Merri-bek,council,local_government_area,G0003,,pending,,,,,,24700
+G0186,Mildura,council,local_government_area,G0003,,pending,,,,,,24780
+G0187,Mitchell,council,local_government_area,G0003,,pending,,,,,,24850
+G0188,Moira,council,local_government_area,G0003,,pending,,,,,,24900
+G0189,Monash,council,local_government_area,G0003,,pending,,,,,,24970
+G0190,Moonee Valley,council,local_government_area,G0003,,pending,,,,,,25060
+G0191,Moorabool,council,local_government_area,G0003,,pending,,,,,,25150
+G0192,Mornington Peninsula,council,local_government_area,G0003,,pending,,,,,,25340
+G0193,Mount Alexander,council,local_government_area,G0003,,pending,,,,,,25430
+G0194,Moyne,council,local_government_area,G0003,,pending,,,,,,25490
+G0195,Murrindindi,council,local_government_area,G0003,,pending,,,,,,25620
+G0196,Nillumbik,council,local_government_area,G0003,,pending,,,,,,25710
+G0197,Northern Grampians,council,local_government_area,G0003,,pending,,,,,,25810
+G0198,Port Phillip,council,local_government_area,G0003,,pending,,,,,,25900
+G0199,Pyrenees,council,local_government_area,G0003,,pending,,,,,,25990
+G0200,Queenscliffe,council,local_government_area,G0003,,pending,,,,,,26080
+G0201,South Gippsland,council,local_government_area,G0003,,pending,,,,,,26170
+G0202,Southern Grampians,council,local_government_area,G0003,,pending,,,,,,26260
+G0203,Stonnington,council,local_government_area,G0003,,pending,,,,,,26350
+G0204,Strathbogie,council,local_government_area,G0003,,pending,,,,,,26430
+G0205,Surf Coast,council,local_government_area,G0003,,pending,,,,,,26490
+G0206,Swan Hill,council,local_government_area,G0003,,pending,,,,,,26610
+G0207,Towong,council,local_government_area,G0003,,pending,,,,,,26670
+G0208,Wangaratta,council,local_government_area,G0003,,pending,,,,,,26700
+G0209,Warrnambool,council,local_government_area,G0003,,pending,,,,,,26730
+G0210,Wellington,council,local_government_area,G0003,,pending,,,,,,26810
+G0211,West Wimmera,council,local_government_area,G0003,,pending,,,,,,26890
+G0212,Whitehorse,council,local_government_area,G0003,,pending,,,,,,26980
+G0213,Whittlesea,council,local_government_area,G0003,,pending,,,,,,27070
+G0214,Wodonga,council,local_government_area,G0003,,pending,,,,,,27170
+G0215,Wyndham,council,local_government_area,G0003,,pending,,,,,,27260
+G0216,Yarra,council,local_government_area,G0003,,pending,,,,,,27350
+G0217,Yarra Ranges,council,local_government_area,G0003,,pending,,,,,,27450
+G0218,Yarriambiack,council,local_government_area,G0003,,pending,,,,,,27630
+G0219,Unincorporated Vic,council,unincorporated_area,G0003,,skipped,,,,,"ABS unincorporated area, not a council.",29399
+G0220,Aurukun,council,local_government_area,G0004,,pending,,,,,,30250
+G0221,Balonne,council,local_government_area,G0004,,pending,,,,,,30300
+G0222,Banana,council,local_government_area,G0004,,pending,,,,,,30370
+G0223,Barcaldine,council,local_government_area,G0004,,pending,,,,,,30410
+G0224,Barcoo,council,local_government_area,G0004,,pending,,,,,,30450
+G0225,Blackall Tambo,council,local_government_area,G0004,,pending,,,,,,30760
+G0226,Boulia,council,local_government_area,G0004,,pending,,,,,,30900
+G0227,Brisbane,council,local_government_area,G0004,,pending,,,,,,31000
+G0228,Bulloo,council,local_government_area,G0004,,pending,,,,,,31750
+G0229,Bundaberg,council,local_government_area,G0004,,pending,,,,,,31820
+G0230,Burdekin,council,local_government_area,G0004,,pending,,,,,,31900
+G0231,Burke,council,local_government_area,G0004,,pending,,,,,,31950
+G0232,Cairns,council,local_government_area,G0004,,pending,,,,,,32080
+G0233,Carpentaria,council,local_government_area,G0004,,pending,,,,,,32250
+G0234,Cassowary Coast,council,local_government_area,G0004,,pending,,,,,,32260
+G0235,Central Highlands (Qld),council,local_government_area,G0004,,pending,,,,,,32270
+G0236,Charters Towers,council,local_government_area,G0004,,pending,,,,,,32310
+G0237,Cherbourg,council,local_government_area,G0004,,pending,,,,,,32330
+G0238,Cloncurry,council,local_government_area,G0004,,pending,,,,,,32450
+G0239,Cook,council,local_government_area,G0004,,pending,,,,,,32500
+G0240,Croydon,council,local_government_area,G0004,,pending,,,,,,32600
+G0241,Diamantina,council,local_government_area,G0004,,pending,,,,,,32750
+G0242,Doomadgee,council,local_government_area,G0004,,pending,,,,,,32770
+G0243,Douglas,council,local_government_area,G0004,,pending,,,,,,32810
+G0244,Etheridge,council,local_government_area,G0004,,pending,,,,,,33100
+G0245,Flinders (Qld),council,local_government_area,G0004,,pending,,,,,,33200
+G0246,Fraser Coast,council,local_government_area,G0004,,pending,,,,,,33220
+G0247,Gladstone,council,local_government_area,G0004,,pending,,,,,,33360
+G0248,Gold Coast,council,local_government_area,G0004,,pending,,,,,,33430
+G0249,Goondiwindi,council,local_government_area,G0004,,pending,,,,,,33610
+G0250,Gympie,council,local_government_area,G0004,,pending,,,,,,33620
+G0251,Hinchinbrook,council,local_government_area,G0004,,pending,,,,,,33800
+G0252,Hope Vale,council,local_government_area,G0004,,pending,,,,,,33830
+G0253,Ipswich,council,local_government_area,G0004,,pending,,,,,,33960
+G0254,Isaac,council,local_government_area,G0004,,pending,,,,,,33980
+G0255,Kowanyama,council,local_government_area,G0004,,pending,,,,,,34420
+G0256,Livingstone,council,local_government_area,G0004,,pending,,,,,,34530
+G0257,Lockhart River,council,local_government_area,G0004,,pending,,,,,,34570
+G0258,Lockyer Valley,council,local_government_area,G0004,,pending,,,,,,34580
+G0259,Logan,council,local_government_area,G0004,,pending,,,,,,34590
+G0260,Longreach,council,local_government_area,G0004,,pending,,,,,,34710
+G0261,Mackay,council,local_government_area,G0004,,pending,,,,,,34770
+G0262,McKinlay,council,local_government_area,G0004,,pending,,,,,,34800
+G0263,Mapoon,council,local_government_area,G0004,,pending,,,,,,34830
+G0264,Maranoa,council,local_government_area,G0004,,pending,,,,,,34860
+G0265,Mareeba,council,local_government_area,G0004,,pending,,,,,,34880
+G0266,Moreton Bay,council,local_government_area,G0004,,pending,,,,,,35010
+G0267,Mornington,council,local_government_area,G0004,,pending,,,,,,35250
+G0268,Mount Isa,council,local_government_area,G0004,,pending,,,,,,35300
+G0269,Murweh,council,local_government_area,G0004,,pending,,,,,,35600
+G0270,Napranum,council,local_government_area,G0004,,pending,,,,,,35670
+G0271,Noosa,council,local_government_area,G0004,,pending,,,,,,35740
+G0272,North Burnett,council,local_government_area,G0004,,pending,,,,,,35760
+G0273,Northern Peninsula Area,council,local_government_area,G0004,,pending,,,,,,35780
+G0274,Palm Island,council,local_government_area,G0004,,pending,,,,,,35790
+G0275,Paroo,council,local_government_area,G0004,,pending,,,,,,35800
+G0276,Pormpuraaw,council,local_government_area,G0004,,pending,,,,,,36070
+G0277,Quilpie,council,local_government_area,G0004,,pending,,,,,,36150
+G0278,Redland,council,local_government_area,G0004,,pending,,,,,,36250
+G0279,Richmond,council,local_government_area,G0004,,pending,,,,,,36300
+G0280,Rockhampton,council,local_government_area,G0004,,pending,,,,,,36370
+G0281,Scenic Rim,council,local_government_area,G0004,,pending,,,,,,36510
+G0282,Somerset,council,local_government_area,G0004,,pending,,,,,,36580
+G0283,South Burnett,council,local_government_area,G0004,,pending,,,,,,36630
+G0284,Southern Downs,council,local_government_area,G0004,,pending,,,,,,36660
+G0285,Sunshine Coast,council,local_government_area,G0004,,pending,,,,,,36720
+G0286,Tablelands,council,local_government_area,G0004,,pending,,,,,,36820
+G0287,Toowoomba,council,local_government_area,G0004,,pending,,,,,,36910
+G0288,Torres,council,local_government_area,G0004,,pending,,,,,,36950
+G0289,Torres Strait Island,council,local_government_area,G0004,,pending,,,,,,36960
+G0290,Townsville,council,local_government_area,G0004,,pending,,,,,,37010
+G0291,Weipa,council,local_government_area,G0004,,pending,,,,,,37300
+G0292,Western Downs,council,local_government_area,G0004,,pending,,,,,,37310
+G0293,Whitsunday,council,local_government_area,G0004,,pending,,,,,,37340
+G0294,Winton,council,local_government_area,G0004,,pending,,,,,,37400
+G0295,Woorabinda,council,local_government_area,G0004,,pending,,,,,,37550
+G0296,Wujal Wujal,council,local_government_area,G0004,,pending,,,,,,37570
+G0297,Yarrabah,council,local_government_area,G0004,,pending,,,,,,37600
+G0298,Adelaide,council,local_government_area,G0005,,pending,,,,,,40070
+G0299,Adelaide Hills,council,local_government_area,G0005,,pending,,,,,,40120
+G0300,Adelaide Plains,council,local_government_area,G0005,,pending,,,,,,40150
+G0301,Alexandrina,council,local_government_area,G0005,,pending,,,,,,40220
+G0302,Anangu Pitjantjatjara Yankunytjatjara,council,local_government_area,G0005,,pending,,,,,,40250
+G0303,Barossa,council,local_government_area,G0005,,pending,,,,,,40310
+G0304,Barunga West,council,local_government_area,G0005,,pending,,,,,,40430
+G0305,Berri Barmera,council,local_government_area,G0005,,pending,,,,,,40520
+G0306,Burnside,council,local_government_area,G0005,,pending,,,,,,40700
+G0307,Campbelltown (SA),council,local_government_area,G0005,,pending,,,,,,40910
+G0308,Ceduna,council,local_government_area,G0005,,pending,,,,,,41010
+G0309,Charles Sturt,council,local_government_area,G0005,,pending,,,,,,41060
+G0310,Clare and Gilbert Valleys,council,local_government_area,G0005,,pending,,,,,,41140
+G0311,Cleve,council,local_government_area,G0005,,pending,,,,,,41190
+G0312,Coober Pedy,council,local_government_area,G0005,,pending,,,,,,41330
+G0313,Copper Coast,council,local_government_area,G0005,,pending,,,,,,41560
+G0314,Elliston,council,local_government_area,G0005,,pending,,,,,,41750
+G0315,Flinders Ranges,council,local_government_area,G0005,,pending,,,,,,41830
+G0316,Franklin Harbour,council,local_government_area,G0005,,pending,,,,,,41960
+G0317,Gawler,council,local_government_area,G0005,,pending,,,,,,42030
+G0318,Goyder,council,local_government_area,G0005,,pending,,,,,,42110
+G0319,Grant,council,local_government_area,G0005,,pending,,,,,,42250
+G0320,Holdfast Bay,council,local_government_area,G0005,,pending,,,,,,42600
+G0321,Kangaroo Island,council,local_government_area,G0005,,pending,,,,,,42750
+G0322,Karoonda East Murray,council,local_government_area,G0005,,pending,,,,,,43080
+G0323,Kimba,council,local_government_area,G0005,,pending,,,,,,43220
+G0324,Kingston (SA),council,local_government_area,G0005,,pending,,,,,,43360
+G0325,Light,council,local_government_area,G0005,,pending,,,,,,43650
+G0326,Lower Eyre,council,local_government_area,G0005,,pending,,,,,,43710
+G0327,Loxton Waikerie,council,local_government_area,G0005,,pending,,,,,,43790
+G0328,Maralinga Tjarutja,council,local_government_area,G0005,,pending,,,,,,44000
+G0329,Marion,council,local_government_area,G0005,,pending,,,,,,44060
+G0330,Mid Murray,council,local_government_area,G0005,,pending,,,,,,44210
+G0331,Mitcham,council,local_government_area,G0005,,pending,,,,,,44340
+G0332,Mount Barker,council,local_government_area,G0005,,pending,,,,,,44550
+G0333,Mount Gambier,council,local_government_area,G0005,,pending,,,,,,44620
+G0334,Mount Remarkable,council,local_government_area,G0005,,pending,,,,,,44830
+G0335,Murray Bridge,council,local_government_area,G0005,,pending,,,,,,45040
+G0336,Naracoorte Lucindale,council,local_government_area,G0005,,pending,,,,,,45090
+G0337,Northern Areas,council,local_government_area,G0005,,pending,,,,,,45120
+G0338,Norwood Payneham and St Peters,council,local_government_area,G0005,,pending,,,,,,45290
+G0339,Onkaparinga,council,local_government_area,G0005,,pending,,,,,,45340
+G0340,Orroroo Carrieton,council,local_government_area,G0005,,pending,,,,,,45400
+G0341,Peterborough,council,local_government_area,G0005,,pending,,,,,,45540
+G0342,Playford,council,local_government_area,G0005,,pending,,,,,,45680
+G0343,Port Adelaide Enfield,council,local_government_area,G0005,,pending,,,,,,45890
+G0344,Port Augusta,council,local_government_area,G0005,,pending,,,,,,46090
+G0345,Port Lincoln,council,local_government_area,G0005,,pending,,,,,,46300
+G0346,Port Pirie,council,local_government_area,G0005,,pending,,,,,,46450
+G0347,Prospect,council,local_government_area,G0005,,pending,,,,,,46510
+G0348,Renmark Paringa,council,local_government_area,G0005,,pending,,,,,,46670
+G0349,Robe,council,local_government_area,G0005,,pending,,,,,,46860
+G0350,Roxby Downs,council,local_government_area,G0005,,pending,,,,,,46970
+G0351,Salisbury,council,local_government_area,G0005,,pending,,,,,,47140
+G0352,Southern Mallee,council,local_government_area,G0005,,pending,,,,,,47290
+G0353,Streaky Bay,council,local_government_area,G0005,,pending,,,,,,47490
+G0354,Tatiara,council,local_government_area,G0005,,pending,,,,,,47630
+G0355,Tea Tree Gully,council,local_government_area,G0005,,pending,,,,,,47700
+G0356,Coorong,council,local_government_area,G0005,,pending,,,,,,47800
+G0357,Tumby Bay,council,local_government_area,G0005,,pending,,,,,,47910
+G0358,Unley,council,local_government_area,G0005,,pending,,,,,,47980
+G0359,Victor Harbor,council,local_government_area,G0005,,pending,,,,,,48050
+G0360,Wakefield,council,local_government_area,G0005,,pending,,,,,,48130
+G0361,Walkerville,council,local_government_area,G0005,,pending,,,,,,48260
+G0362,Wattle Range,council,local_government_area,G0005,,pending,,,,,,48340
+G0363,West Torrens,council,local_government_area,G0005,,pending,,,,,,48410
+G0364,Whyalla,council,local_government_area,G0005,,pending,,,,,,48540
+G0365,Wudinna,council,local_government_area,G0005,,pending,,,,,,48640
+G0366,Yankalilla,council,local_government_area,G0005,,pending,,,,,,48750
+G0367,Yorke Peninsula,council,local_government_area,G0005,,pending,,,,,,48830
+G0368,Unincorporated SA,council,unincorporated_area,G0005,,skipped,,,,,"ABS unincorporated area, not a council.",49399
+G0369,Albany,council,local_government_area,G0006,,pending,,,,,,50080
+G0370,Armadale,council,local_government_area,G0006,,pending,,,,,,50210
+G0371,Ashburton,council,local_government_area,G0006,,pending,,,,,,50250
+G0372,Augusta Margaret River,council,local_government_area,G0006,,pending,,,,,,50280
+G0373,Bassendean,council,local_government_area,G0006,,pending,,,,,,50350
+G0374,Bayswater,council,local_government_area,G0006,,pending,,,,,,50420
+G0375,Belmont,council,local_government_area,G0006,,pending,,,,,,50490
+G0376,Beverley,council,local_government_area,G0006,,pending,,,,,,50560
+G0377,Boddington,council,local_government_area,G0006,,pending,,,,,,50630
+G0378,Boyup Brook,council,local_government_area,G0006,,pending,,,,,,50770
+G0379,Bridgetown-Greenbushes,council,local_government_area,G0006,,pending,,,,,,50840
+G0380,Brookton,council,local_government_area,G0006,,pending,,,,,,50910
+G0381,Broome,council,local_government_area,G0006,,pending,,,,,,50980
+G0382,Broomehill-Tambellup,council,local_government_area,G0006,,pending,,,,,,51080
+G0383,Bruce Rock,council,local_government_area,G0006,,pending,,,,,,51120
+G0384,Bunbury,council,local_government_area,G0006,,pending,,,,,,51190
+G0385,Busselton,council,local_government_area,G0006,,pending,,,,,,51260
+G0386,Cambridge,council,local_government_area,G0006,,pending,,,,,,51310
+G0387,Canning,council,local_government_area,G0006,,pending,,,,,,51330
+G0388,Capel,council,local_government_area,G0006,,pending,,,,,,51400
+G0389,Carnamah,council,local_government_area,G0006,,pending,,,,,,51470
+G0390,Carnarvon,council,local_government_area,G0006,,pending,,,,,,51540
+G0391,Chapman Valley,council,local_government_area,G0006,,pending,,,,,,51610
+G0392,Chittering,council,local_government_area,G0006,,pending,,,,,,51680
+G0393,Christmas Island,council,local_government_area,G0010,,pending,,,,,,51710
+G0394,Claremont,council,local_government_area,G0006,,pending,,,,,,51750
+G0395,Cockburn,council,local_government_area,G0006,,pending,,,,,,51820
+G0396,Cocos (Keeling) Islands,council,local_government_area,G0010,,pending,,,,,,51860
+G0397,Collie,council,local_government_area,G0006,,pending,,,,,,51890
+G0398,Coolgardie,council,local_government_area,G0006,,pending,,,,,,51960
+G0399,Coorow,council,local_government_area,G0006,,pending,,,,,,52030
+G0400,Corrigin,council,local_government_area,G0006,,pending,,,,,,52100
+G0401,Cottesloe,council,local_government_area,G0006,,pending,,,,,,52170
+G0402,Cranbrook,council,local_government_area,G0006,,pending,,,,,,52240
+G0403,Cuballing,council,local_government_area,G0006,,pending,,,,,,52310
+G0404,Cue,council,local_government_area,G0006,,pending,,,,,,52380
+G0405,Cunderdin,council,local_government_area,G0006,,pending,,,,,,52450
+G0406,Dalwallinu,council,local_government_area,G0006,,pending,,,,,,52520
+G0407,Dandaragan,council,local_government_area,G0006,,pending,,,,,,52590
+G0408,Dardanup,council,local_government_area,G0006,,pending,,,,,,52660
+G0409,Denmark,council,local_government_area,G0006,,pending,,,,,,52730
+G0410,Derby-West Kimberley,council,local_government_area,G0006,,pending,,,,,,52800
+G0411,Donnybrook-Balingup,council,local_government_area,G0006,,pending,,,,,,52870
+G0412,Dowerin,council,local_government_area,G0006,,pending,,,,,,52940
+G0413,Dumbleyung,council,local_government_area,G0006,,pending,,,,,,53010
+G0414,Dundas,council,local_government_area,G0006,,pending,,,,,,53080
+G0415,East Fremantle,council,local_government_area,G0006,,pending,,,,,,53150
+G0416,East Pilbara,council,local_government_area,G0006,,pending,,,,,,53220
+G0417,Esperance,council,local_government_area,G0006,,pending,,,,,,53290
+G0418,Exmouth,council,local_government_area,G0006,,pending,,,,,,53360
+G0419,Fremantle,council,local_government_area,G0006,,pending,,,,,,53430
+G0420,Gingin,council,local_government_area,G0006,,pending,,,,,,53570
+G0421,Gnowangerup,council,local_government_area,G0006,,pending,,,,,,53640
+G0422,Goomalling,council,local_government_area,G0006,,pending,,,,,,53710
+G0423,Gosnells,council,local_government_area,G0006,,pending,,,,,,53780
+G0424,Greater Geraldton,council,local_government_area,G0006,,pending,,,,,,53800
+G0425,Halls Creek,council,local_government_area,G0006,,pending,,,,,,53920
+G0426,Harvey,council,local_government_area,G0006,,pending,,,,,,53990
+G0427,Irwin,council,local_government_area,G0006,,pending,,,,,,54060
+G0428,Jerramungup,council,local_government_area,G0006,,pending,,,,,,54130
+G0429,Joondalup,council,local_government_area,G0006,,pending,,,,,,54170
+G0430,Kalamunda,council,local_government_area,G0006,,pending,,,,,,54200
+G0431,Kalgoorlie-Boulder,council,local_government_area,G0006,,pending,,,,,,54280
+G0432,Karratha,council,local_government_area,G0006,,pending,,,,,,54310
+G0433,Katanning,council,local_government_area,G0006,,pending,,,,,,54340
+G0434,Kellerberrin,council,local_government_area,G0006,,pending,,,,,,54410
+G0435,Kent,council,local_government_area,G0006,,pending,,,,,,54480
+G0436,Kojonup,council,local_government_area,G0006,,pending,,,,,,54550
+G0437,Kondinin,council,local_government_area,G0006,,pending,,,,,,54620
+G0438,Koorda,council,local_government_area,G0006,,pending,,,,,,54690
+G0439,Kulin,council,local_government_area,G0006,,pending,,,,,,54760
+G0440,Kwinana,council,local_government_area,G0006,,pending,,,,,,54830
+G0441,Lake Grace,council,local_government_area,G0006,,pending,,,,,,54900
+G0442,Laverton,council,local_government_area,G0006,,pending,,,,,,54970
+G0443,Leonora,council,local_government_area,G0006,,pending,,,,,,55040
+G0444,Mandurah,council,local_government_area,G0006,,pending,,,,,,55110
+G0445,Manjimup,council,local_government_area,G0006,,pending,,,,,,55180
+G0446,Meekatharra,council,local_government_area,G0006,,pending,,,,,,55250
+G0447,Melville,council,local_government_area,G0006,,pending,,,,,,55320
+G0448,Menzies,council,local_government_area,G0006,,pending,,,,,,55390
+G0449,Merredin,council,local_government_area,G0006,,pending,,,,,,55460
+G0450,Mingenew,council,local_government_area,G0006,,pending,,,,,,55530
+G0451,Moora,council,local_government_area,G0006,,pending,,,,,,55600
+G0452,Morawa,council,local_government_area,G0006,,pending,,,,,,55670
+G0453,Mosman Park,council,local_government_area,G0006,,pending,,,,,,55740
+G0454,Mount Magnet,council,local_government_area,G0006,,pending,,,,,,55810
+G0455,Mount Marshall,council,local_government_area,G0006,,pending,,,,,,55880
+G0456,Mukinbudin,council,local_government_area,G0006,,pending,,,,,,55950
+G0457,Mundaring,council,local_government_area,G0006,,pending,,,,,,56090
+G0458,Murchison,council,local_government_area,G0006,,pending,,,,,,56160
+G0459,Murray,council,local_government_area,G0006,,pending,,,,,,56230
+G0460,Nannup,council,local_government_area,G0006,,pending,,,,,,56300
+G0461,Narembeen,council,local_government_area,G0006,,pending,,,,,,56370
+G0462,Narrogin,council,local_government_area,G0006,,pending,,,,,,56460
+G0463,Nedlands,council,local_government_area,G0006,,pending,,,,,,56580
+G0464,Ngaanyatjarraku,council,local_government_area,G0006,,pending,,,,,,56620
+G0465,Northam,council,local_government_area,G0006,,pending,,,,,,56730
+G0466,Northampton,council,local_government_area,G0006,,pending,,,,,,56790
+G0467,Nungarin,council,local_government_area,G0006,,pending,,,,,,56860
+G0468,Peppermint Grove,council,local_government_area,G0006,,pending,,,,,,56930
+G0469,Perenjori,council,local_government_area,G0006,,pending,,,,,,57000
+G0470,Perth,council,local_government_area,G0006,,pending,,,,,,57080
+G0471,Pingelly,council,local_government_area,G0006,,pending,,,,,,57140
+G0472,Plantagenet,council,local_government_area,G0006,,pending,,,,,,57210
+G0473,Port Hedland,council,local_government_area,G0006,,pending,,,,,,57280
+G0474,Quairading,council,local_government_area,G0006,,pending,,,,,,57350
+G0475,Ravensthorpe,council,local_government_area,G0006,,pending,,,,,,57420
+G0476,Rockingham,council,local_government_area,G0006,,pending,,,,,,57490
+G0477,Sandstone,council,local_government_area,G0006,,pending,,,,,,57630
+G0478,Serpentine-Jarrahdale,council,local_government_area,G0006,,pending,,,,,,57700
+G0479,Shark Bay,council,local_government_area,G0006,,pending,,,,,,57770
+G0480,South Perth,council,local_government_area,G0006,,pending,,,,,,57840
+G0481,Stirling,council,local_government_area,G0006,,pending,,,,,,57910
+G0482,Subiaco,council,local_government_area,G0006,,pending,,,,,,57980
+G0483,Swan,council,local_government_area,G0006,,pending,,,,,,58050
+G0484,Tammin,council,local_government_area,G0006,,pending,,,,,,58190
+G0485,Three Springs,council,local_government_area,G0006,,pending,,,,,,58260
+G0486,Toodyay,council,local_government_area,G0006,,pending,,,,,,58330
+G0487,Trayning,council,local_government_area,G0006,,pending,,,,,,58400
+G0488,Upper Gascoyne,council,local_government_area,G0006,,pending,,,,,,58470
+G0489,Victoria Park,council,local_government_area,G0006,,pending,,,,,,58510
+G0490,Victoria Plains,council,local_government_area,G0006,,pending,,,,,,58540
+G0491,Vincent,council,local_government_area,G0006,,pending,,,,,,58570
+G0492,Wagin,council,local_government_area,G0006,,pending,,,,,,58610
+G0493,Wandering,council,local_government_area,G0006,,pending,,,,,,58680
+G0494,Wanneroo,council,local_government_area,G0006,,pending,,,,,,58760
+G0495,Waroona,council,local_government_area,G0006,,pending,,,,,,58820
+G0496,West Arthur,council,local_government_area,G0006,,pending,,,,,,58890
+G0497,Westonia,council,local_government_area,G0006,,pending,,,,,,59030
+G0498,Wickepin,council,local_government_area,G0006,,pending,,,,,,59100
+G0499,Williams,council,local_government_area,G0006,,pending,,,,,,59170
+G0500,Wiluna,council,local_government_area,G0006,,pending,,,,,,59250
+G0501,Wongan-Ballidu,council,local_government_area,G0006,,pending,,,,,,59310
+G0502,Woodanilling,council,local_government_area,G0006,,pending,,,,,,59320
+G0503,Wyalkatchem,council,local_government_area,G0006,,pending,,,,,,59330
+G0504,Wyndham-East Kimberley,council,local_government_area,G0006,,pending,,,,,,59340
+G0505,Yalgoo,council,local_government_area,G0006,,pending,,,,,,59350
+G0506,Yilgarn,council,local_government_area,G0006,,pending,,,,,,59360
+G0507,York,council,local_government_area,G0006,,pending,,,,,,59370
+G0508,Break O'Day,council,local_government_area,G0007,,pending,,,,,,60210
+G0509,Brighton,council,local_government_area,G0007,,pending,,,,,,60410
+G0510,Burnie,council,local_government_area,G0007,,pending,,,,,,60610
+G0511,Central Coast (Tas.),council,local_government_area,G0007,,pending,,,,,,60810
+G0512,Central Highlands (Tas.),council,local_government_area,G0007,,pending,,,,,,61010
+G0513,Circular Head,council,local_government_area,G0007,,pending,,,,,,61210
+G0514,Clarence,council,local_government_area,G0007,,pending,,,,,,61410
+G0515,Derwent Valley,council,local_government_area,G0007,,pending,,,,,,61510
+G0516,Devonport,council,local_government_area,G0007,,pending,,,,,,61610
+G0517,Dorset,council,local_government_area,G0007,,pending,,,,,,61810
+G0518,Flinders (Tas.),council,local_government_area,G0007,,pending,,,,,,62010
+G0519,George Town,council,local_government_area,G0007,,pending,,,,,,62210
+G0520,Glamorgan-Spring Bay,council,local_government_area,G0007,,pending,,,,,,62410
+G0521,Glenorchy,council,local_government_area,G0007,,pending,,,,,,62610
+G0522,Hobart,council,local_government_area,G0007,,pending,,,,,,62810
+G0523,Huon Valley,council,local_government_area,G0007,,pending,,,,,,63010
+G0524,Kentish,council,local_government_area,G0007,,pending,,,,,,63210
+G0525,King Island,council,local_government_area,G0007,,pending,,,,,,63410
+G0526,Kingborough,council,local_government_area,G0007,,pending,,,,,,63610
+G0527,Latrobe (Tas.),council,local_government_area,G0007,,pending,,,,,,63810
+G0528,Launceston,council,local_government_area,G0007,,pending,,,,,,64010
+G0529,Meander Valley,council,local_government_area,G0007,,pending,,,,,,64210
+G0530,Northern Midlands,council,local_government_area,G0007,,pending,,,,,,64610
+G0531,Sorell,council,local_government_area,G0007,,pending,,,,,,64810
+G0532,Southern Midlands,council,local_government_area,G0007,,pending,,,,,,65010
+G0533,Tasman,council,local_government_area,G0007,,pending,,,,,,65210
+G0534,Waratah-Wynyard,council,local_government_area,G0007,,pending,,,,,,65410
+G0535,West Coast,council,local_government_area,G0007,,pending,,,,,,65610
+G0536,West Tamar,council,local_government_area,G0007,,pending,,,,,,65810
+G0537,Alice Springs,council,local_government_area,G0008,,pending,,,,,,70200
+G0538,Barkly,council,local_government_area,G0008,,pending,,,,,,70420
+G0539,Belyuen,council,local_government_area,G0008,,pending,,,,,,70540
+G0540,Central Desert,council,local_government_area,G0008,,pending,,,,,,70620
+G0541,Coomalie,council,local_government_area,G0008,,pending,,,,,,70700
+G0542,Darwin,council,local_government_area,G0008,,pending,,,,,,71000
+G0543,Darwin Waterfront Precinct,council,local_government_area,G0008,,pending,,,,,,71150
+G0544,East Arnhem,council,local_government_area,G0008,,pending,,,,,,71500
+G0545,Groote Archipelago,council,local_government_area,G0008,,pending,,,,,,71700
+G0546,Katherine,council,local_government_area,G0008,,pending,,,,,,72200
+G0547,Litchfield,council,local_government_area,G0008,,pending,,,,,,72300
+G0548,MacDonnell,council,local_government_area,G0008,,pending,,,,,,72330
+G0549,Palmerston,council,local_government_area,G0008,,pending,,,,,,72800
+G0550,Roper Gulf,council,local_government_area,G0008,,pending,,,,,,73600
+G0551,Tiwi Islands,council,local_government_area,G0008,,pending,,,,,,74050
+G0552,Victoria Daly,council,local_government_area,G0008,,pending,,,,,,74550
+G0553,Wagait,council,local_government_area,G0008,,pending,,,,,,74560
+G0554,West Arnhem,council,local_government_area,G0008,,pending,,,,,,74660
+G0555,West Daly,council,local_government_area,G0008,,pending,,,,,,74680
+G0556,Unincorporated NT,council,unincorporated_area,G0008,,skipped,,,,,"ABS unincorporated area, not a council.",79399
+G0557,Unincorporated ACT,council,unincorporated_area,G0009,,skipped,,,,,"ABS unincorporated area, not a council.",89399
+G0558,Unincorp. Other Territories,council,local_government_area,G0010,,pending,,,,,,99399

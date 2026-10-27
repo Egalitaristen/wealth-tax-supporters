@@ -1,0 +1,8 @@
+{
+  "name": "Australia",
+  "iso2": "AU",
+  "lead": "Egalitaristen",
+  "status": "in progress",
+  "boundaries": "boundaries.json",
+  "notes": "Initial research in progress. ABS 2025 local government areas and unincorporated areas, with 2021 states and territories. The australia slug avoids collision with the African Union at au."
+}
