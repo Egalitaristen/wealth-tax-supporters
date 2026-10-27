@@ -10,7 +10,7 @@ from PIL import Image, ImageDraw, ImageFont
 HERE = Path(__file__).resolve().parent
 FONTS = HERE / "fonts"
 CACHE = HERE.parent / ".cache" / "cards"
-VERSION = "6"  # bump to redraw every card after a design change
+VERSION = "8"  # bump to redraw every card after a design change
 
 W, H, S = 1200, 630, 2  # drawn at 2x, then scaled down for smooth edges
 PAPER, PAPER2, INK, INK2, INK3, RULE = (243, 239, 230), (233, 227, 214), (23, 21, 15), (74, 70, 61), (124, 118, 106), (214, 207, 191)
@@ -166,7 +166,7 @@ def cached(out, key, draw):
 
 
 # ---------- cards ----------
-def home_card(out, totals):
+def home_card(out, totals, types):
     def draw(path):
         img, dr = _canvas()
         dr.text((60 * S, 54 * S), "AN OPEN, SOURCED REGISTER", font=SANS(20, 500), fill=INK3)
@@ -174,18 +174,24 @@ def home_card(out, totals):
         dr.text((56 * S, 96 * S), "Who backs a", font=f, fill=INK)
         dr.text((56 * S, 206 * S), "wealth tax", font=f, fill=INK)
         dr.text((56 * S, 316 * S), "near you?", font=ITALIC(118), fill=SIGNAL)
-        # totals, right column
+        # the numbers and who they are, right column
         x = 790
-        dr.line((x * S, 70 * S, x * S, 470 * S), fill=RULE, width=2 * S)
-        rows = [(f"{totals['supporters']:,}", "public figures and organisations"), (f"{totals['evidence']:,}", "sourced statements"),
-                (f"{totals['countries']}", "countries, and counting")]
-        for i, (n, lab) in enumerate(rows):
-            y = 76 + i * 132
-            dr.text(((x + 36) * S, y * S), n, font=SERIF(84), fill=INK)
-            dr.text(((x + 40) * S, (y + 86) * S), lab, font=SANS(22), fill=INK2)
+        dr.line((x * S, 60 * S, x * S, 490 * S), fill=RULE, width=2 * S)
+        dr.text(((x + 36) * S, 56 * S), f"{totals['supporters']:,}", font=SERIF(84), fill=INK)
+        for i, ln in enumerate(_wrap(dr, f"public figures and organisations in {totals['countries']} countries", SANS(21), 330, 2)):
+            dr.text(((x + 40) * S, (150 + i * 28) * S), ln, font=SANS(21), fill=INK2)
+        dr.text(((x + 40) * S, 222 * S), "WHO THEY ARE", font=SANS(16, 500), fill=INK3)
+        top = types[:6]
+        mx = max([n for _, n in top] or [1])
+        for i, (lab, n) in enumerate(top):
+            by = 252 + i * 38
+            dr.text(((x + 40) * S, by * S), lab, font=SANS(19), fill=INK)
+            cnt = f"{n:,}"
+            dr.text((1150 * S - dr.textlength(cnt, font=SANS(19, 500)), by * S), cnt, font=SANS(19, 500), fill=INK)
+            dr.rectangle(((x + 40) * S, (by + 27) * S, (x + 40 + max(6, int(320 * n / mx))) * S, (by + 31) * S), fill=SIGNAL)
         _footer(dr)
         _save(img, path)
-    return cached(out, ["home", totals], draw)
+    return cached(out, ["home", totals, types], draw)
 
 
 def country_card(out, c, units, kicker, sub):

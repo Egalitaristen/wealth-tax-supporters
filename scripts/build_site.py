@@ -552,7 +552,8 @@ def share_pages(out, base, countries, full):
     tot = dict(supporters=sum(c["supporters"] for c in countries), evidence=sum(c["evidence"] for c in countries), countries=len(countries))
     write("/", "Wealth Tax Supporters: who backs a wealth tax near you?",
           f"{tot['supporters']:,} public figures and organisations across {tot['countries']} countries who have backed a wealth tax on the record. Every name links to its source.",
-          "home", "Who backs a wealth tax near you?", lambda o: cards.home_card(o, tot))
+          "home", "Who backs a wealth tax near you?",
+          lambda o: cards.home_card(o, tot, type_rows(sum((collections.Counter(c.get("types") or {}) for c in countries), collections.Counter()))))
     write("/method", "How the register is built · Wealth Tax Supporters",
           "What counts as support for a wealth tax, how statements are sourced and graded, and how to report a mistake.",
           "method", "How the register is built", lambda o: cards.page_card(o, "Method", "How the register is built", "Sourced, graded and open: every name links to where they said it."))
