@@ -13,6 +13,12 @@ It never changes a file. Each check prints a count and examples; judge them by r
   7. personal  quotes that carry a birth date or other personal data
   8. polls     each poll, for checking its figures at the source (is it about a wealth tax? who paid for it?)
   9. names     (--names) actors whose name is not on their source page (rosters, author lists)
+ 10. private   actors described as students, trainees or the like (a private individual is not recorded)
+ 11. narrated  speech, statement or op-ed rows whose quote talks about the person in the third person (a journalist's narration)
+ 12. describes quotes that describe a paper or proposal ("considered", "examined") without recommending a tax
+ 13. income    rows typed as a wealth tax whose text is about an income surcharge, income tax or windfall levy
+ 14. regional  quotes that address a region or several countries (a multi-country paper is not evidence for one country)
+ 15. dupes     the same person under two actor rows, or both an actor and an exclusion (see also `wtdb.py validate`)
 Standard library only (the names check fetches pages).
 """
 import argparse, collections, datetime as dt, re, sys
@@ -27,6 +33,13 @@ WORDS = re.compile(r"wealth|tax|levy|fortun|billionair|millionair|richest|asset|
 CITE = re.compile(r"\(\d{4}\)|\b(?:19|20)\d\d\)\.|\bet al\.|^[A-ZÆØÅ][a-zæøå]+,\s[A-Z]\.", re.M)
 PARTIAL_OUT = re.compile(r"land|vacant|property|real estate|luxur|jet|VAT|inherit|estate duty|erfen|arv|cadastr|house|housing|mansion", re.I)
 PERSONAL = re.compile(r"\b(19|20)\d\d-\d\d-\d\dT\d\d:|\bkvinne\b|\bmann\b\s*$|date of birth|born on", re.I)
+STUDENT = re.compile(r"\b(student|undergraduate|postgraduate|graduate student|phd candidate|doctoral candidate|intern|trainee)\b", re.I)
+REPORTING = re.compile(r"\b(announced|revealed|said|says|told|argued|according to|proposed|unveiled|launched|called for)\b", re.I)
+DESCRIBE = re.compile(r"\b(considered|considers|discuss(?:es|ed)?|examin(?:es|ed)|explor(?:es|ed)|analys(?:es|ed)|assess(?:es|ed)?|prospects|reviews?|overview|does not exclude)\b", re.I)
+ADVOCATE = re.compile(r"\b(should|must|need(?:s|ed)?|propos(?:e|es|ed|al)|recommend(?:s|ed)?|introduc(?:e|es|ed|tion)|call(?:s|ed)? for|argue(?:s|d)?|support(?:s|ed)?|advocat(?:e|es|ed)|demand(?:s|ed)?|we want|impos(?:e|ing)|implement)\b", re.I)
+INCOME = re.compile(r"surcharge|income tax|on income|windfall|temporary (?:levy|tax|contribution)|solidarity (?:surcharge|contribution)", re.I)
+REGION = re.compile(r"\b(MENA|Middle East|North Africa|sub-Saharan|Latin America|Southeast Asia|Asia-Pacific|Global South|developing countries|"
+                    r"all governments|governments of|G20 countries|the region)\b", re.I)
 SHARED = {"manifesto", "policy_adoption", "campaign", "coalition_membership", "open_letter", "motion_signature", "report", "statement"}
 
 
@@ -73,6 +86,38 @@ def main():
     odd = [e for e in E if e["date"] > today.isoformat() or e["date"] == e.get("accessed") or recent[e["date"]] >= 10]
     show("dates", odd, A, a.max, lambda e: f"{nm(e)} date {e['date']} ({recent[e['date']]} rows share it)")
     show("personal", [e for e in E if PERSONAL.search(e["quote_original"])], A, a.max, nm)
+
+    # 10 private individuals
+    private = [x for x in A.values() if x["kind"] == "person" and STUDENT.search(" ".join((x.get("role", ""), x.get("affiliation", ""), x.get("notes", ""))))]
+    show("private", private, A, a.max, lambda x: f"{x['actor_id']} {x['name']}: {x.get('role', '')[:60]} | {x.get('affiliation', '')[:40]}")
+
+    # 11 narration: the person is spoken about, not speaking
+    def last(name):
+        w = re.findall(r"[^\W\d_]{4,}", name)
+        return w[-1] if w else ""
+    narrated = [e for e in E if e["evidence_type"] in ("speech", "statement", "op_ed", "interview", "social_post", "publication")
+                and A[e["actor_id"]]["kind"] == "person" and last(A[e["actor_id"]]["name"])
+                and re.search(re.escape(last(A[e["actor_id"]]["name"])), e["quote_original"], re.I) and REPORTING.search(e["quote_original"])]
+    show("narrated", narrated, A, a.max, nm)
+
+    # 12 describes the work without recommending
+    show("describes", [e for e in E if e["evidence_type"] in ("publication", "report", "op_ed", "statement") and DESCRIBE.search(e["quote_original"])
+                       and not ADVOCATE.search(e["quote_original"])], A, a.max, nm)
+
+    # 13 income surcharge presented as a wealth tax
+    show("income", [e for e in E if e["wt_design"] in ("annual_net_wealth", "wealth_tax_unspecified", "one_off_levy")
+                    and INCOME.search(e["quote_original"] + " " + e["design_detail"])], A, a.max, nm)
+
+    # 14 regional or multi-country statements
+    show("regional", [e for e in E if REGION.search(e["quote_original"] + " " + e["design_detail"] + " " + e["source_title"])], A, a.max, nm)
+
+    # 15 same person twice
+    by = collections.defaultdict(list)
+    for x in A.values():
+        by[wtdb.norm_name(x["name"])].append(x)
+    twice = [v for v in by.values() if len(v) > 1]
+    gone = [(x, A[i]) for x in db["exclusions"] for i in A if wtdb.norm_name(x["name"]) == wtdb.norm_name(A[i]["name"])]
+    show("dupes", twice + gone, A, a.max, lambda v: " / ".join(f"{p.get('actor_id', p.get('exclusion_id'))} {p['name']}" for p in (v if isinstance(v, (list, tuple)) else [v])))
 
     import json
     try:

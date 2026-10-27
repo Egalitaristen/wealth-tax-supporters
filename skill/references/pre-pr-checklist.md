@@ -67,7 +67,7 @@ python skill/scripts/wtdb.py dedupe data/<slug>
 python skill/scripts/review_scan.py data/<slug> --names
 ```
 
-Read what `review_scan.py` lists and fix or remove the rows. Do not commit scratch scripts, caches or downloaded files: put the recipe for a country's geography or map in `skill/references/countries/<iso2>.md` instead. A missing map is not a blocker for a first pass: record which sources you checked in `meta.json` `notes` and open a follow-up issue for it.
+Read what `review_scan.py` lists and fix or remove the rows. Besides the evidence checks it flags actors described as students or trainees, quotes that narrate the person in the third person, quotes that describe a proposal without recommending a tax, income surcharges typed as a wealth tax, multi-country statements, and people who are both an actor and an exclusion. `validate` warns about the last of these and about a folder name that is not the ISO code. Do not commit scratch scripts, caches or downloaded files: put the recipe for a country's geography or map in `skill/references/countries/<iso2>.md` instead. A missing map is not a blocker for a first pass: record which sources you checked in `meta.json` `notes` and open a follow-up issue for it.
 
 ## 11. Data hygiene
 
