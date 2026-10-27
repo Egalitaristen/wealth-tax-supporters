@@ -421,6 +421,11 @@ async function home(W) {
     const rows = Object.entries(obj).sort((a, b) => b[1] - a[1]).slice(0, 9), mx = rows[0] ? rows[0][1] : 1;
     return rows.map(([k, v]) => `<div class="hb"><span>${esc(label(labels, k))}</span><span class="hb-bar"><i style="width:${(v / mx * 100).toFixed(1)}%"></i></span><span class="n">${fmt(v)}</span></div>`).join('');
   };
+  // the biggest five types, with the rest folded into one row
+  const typeRows = Object.entries(types).sort((a, b) => b[1] - a[1]);
+  const whoRows = typeRows.slice(0, 5).map(([k, v]) => [k, label(TYPES_PL, k), v]);
+  if (typeRows.length > 5) whoRows.push(['', 'Other types', typeRows.slice(5).reduce((n, [, v]) => n + v, 0)]);
+  const whoMax = Math.max(1, ...whoRows.map(r => r[2]));
   const tries = ['Leeds', 'California', 'Stockholm', 'economists', 'unions'];
   main.innerHTML = `
   <section class="wrap hero fade">
@@ -443,9 +448,11 @@ async function home(W) {
       <div class="hero-side">
         <div class="ledger">
           <div><b>${fmt(tot('supporters'))}</b><span>public figures and organisations found <em>so far</em></span></div>
-          <div><b>${fmt(tot('evidence'))}</b><span>sourced statements</span></div>
-          <div><b>${fmt(tot('A'))}</b><span>with explicit support</span></div>
           <div><b>${cs.length}</b><span>${cs.length === 1 ? 'country' : 'countries'}, and counting</span></div>
+        </div>
+        <div class="who">
+          <div class="kicker">Who they are</div>
+          ${whoRows.map(([k, label, v]) => `<${k ? `a href="/directory?type=${enc(k)}"` : 'a href="/directory"'} class="wr"><span>${esc(label)}</span><b>${fmt(v)}</b><i style="width:${(v / whoMax * 100).toFixed(1)}%"></i></a>`).join('')}
         </div>
       </div>
     </div>

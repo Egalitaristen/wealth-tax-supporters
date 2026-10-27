@@ -135,6 +135,12 @@ select.field { appearance: none; padding-right: 30px; background-image: linear-g
 .ledger b { font-weight: 400; font-variant-numeric: tabular-nums; margin-right: .25em; }
 .ledger span { color: var(--ink-2); }
 .ledger em { color: var(--signal); font-style: italic; }
+.who { margin-top: 26px; }
+.who .kicker { margin-bottom: 6px; }
+.wr { display: grid; grid-template-columns: 1fr auto; gap: 0 14px; padding: 10px 0 12px; border-bottom: 1px solid var(--rule); text-decoration: none; color: var(--ink); font-size: 16px; position: relative; }
+.wr b { font-weight: 500; font-variant-numeric: tabular-nums; }
+.wr i { grid-column: 1 / -1; display: block; height: 4px; margin-top: 8px; background: var(--signal); }
+a.wr:hover span { text-decoration: underline; }
 
 /* ---------- sections ---------- */
 .sec { padding: clamp(48px, 7vw, 88px) 0; border-top: 1px solid var(--rule); }
