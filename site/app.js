@@ -121,6 +121,7 @@ async function render(fresh) {
   if (location.pathname === '/' && location.hash === '#countries') history.replaceState(null, '', '/countries');  // old links to the section
   const parts = location.pathname.split('/').filter(Boolean).map(decodeURIComponent);
   const params = new URLSearchParams(location.search);
+  $('.top').classList.remove('menu-open'); $('#menu').setAttribute('aria-expanded', 'false');
   $$('.nav a, .fb-link').forEach(a => a.removeAttribute('aria-current'));
   try {
     const W = await WORLD();
@@ -1514,6 +1515,7 @@ function feedbackPage(params) {
 }
 
 // ---------- start ----------
-$('#report-top').href = $('#report-foot').href = issueUrl('Report: ');
+$('#menu').addEventListener('click', () => { const o = $('.top').classList.toggle('menu-open'); $('#menu').setAttribute('aria-expanded', String(o)); });
+$('#report-foot').href = issueUrl('Report: ');
 $('#repo-link').href = `https://github.com/${REPO}`;
 render(false).finally(() => document.body.classList.add('ready'));
