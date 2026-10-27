@@ -1,0 +1,29 @@
+geo_unit_id,name,level,unit_type,parent_id,website,sweep_status,swept_run,swept_date,queries_run,hits,notes,code
+G0001,Egypt,national,country,,,in_progress,R001,2026-10-27,5,1,"Seed research: direct national wealth-tax proposal found; national legislature, political parties, civil society and subnational units remain to be searched.",EG
+G0002,North Sinai Governorate,council,governorate,G0001,,pending,,,,,"Egypt's 27 governorates are the initial local reporting tier. Names and ISO 3166-2 codes checked against geoBoundaries' ODbL OpenStreetMap catalogue on 2026-10-27.",EG-SIN
+G0003,South Sinai Governorate,council,governorate,G0001,,pending,,,,,,EG-JS
+G0004,Aswan Governorate,council,governorate,G0001,,pending,,,,,,EG-ASN
+G0005,Red Sea Governorate,council,governorate,G0001,,pending,,,,,,EG-BA
+G0006,Matrouh Governorate,council,governorate,G0001,,pending,,,,,,EG-MT
+G0007,New Valley Governorate,council,governorate,G0001,,pending,,,,,,EG-WAD
+G0008,Alexandria Governorate,council,governorate,G0001,,pending,,,,,,EG-ALX
+G0009,Ismailia Governorate,council,governorate,G0001,,pending,,,,,,EG-IS
+G0010,Suez Governorate,council,governorate,G0001,,pending,,,,,,EG-SUZ
+G0011,Gharbiyya Governorate,council,governorate,G0001,,pending,,,,,,EG-GH
+G0012,Faiyum Governorate,council,governorate,G0001,,pending,,,,,,EG-FYM
+G0013,Beni Suef Governorate,council,governorate,G0001,,pending,,,,,,EG-BNS
+G0014,Minya Governorate,council,governorate,G0001,,pending,,,,,,EG-MN
+G0015,Asyut Governorate,council,governorate,G0001,,pending,,,,,,EG-AST
+G0016,Sohag Governorate,council,governorate,G0001,,pending,,,,,,EG-SHG
+G0017,Qena Governorate,council,governorate,G0001,,pending,,,,,,EG-KN
+G0018,Luxor Governorate,council,governorate,G0001,,pending,,,,,,EG-LX
+G0019,Giza Governorate,council,governorate,G0001,,pending,,,,,,EG-GZ
+G0020,Monufia Governorate,council,governorate,G0001,,pending,,,,,,EG-MNF
+G0021,Beheira Governorate,council,governorate,G0001,,pending,,,,,,EG-BH
+G0022,Cairo Governorate,council,governorate,G0001,,pending,,,,,,EG-C
+G0023,Qalyubia Governorate,council,governorate,G0001,,pending,,,,,,EG-KB
+G0024,Dakahlia Governorate,council,governorate,G0001,,pending,,,,,,EG-DK
+G0025,Damietta Governorate,council,governorate,G0001,,pending,,,,,,EG-DT
+G0026,Kafr el-Sheikh Governorate,council,governorate,G0001,,pending,,,,,,EG-KFS
+G0027,Port Said Governorate,council,governorate,G0001,,pending,,,,,,EG-PTS
+G0028,Al Sharqia Governorate,council,governorate,G0001,,pending,,,,,,EG-SHR
