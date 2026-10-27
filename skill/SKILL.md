@@ -14,11 +14,7 @@ Files in this skill (use them if present; the rules in this file are sufficient 
 - `references/pre-pr-checklist.md` — the checks to run before opening a pull request; `references/election-refresh.md` — refreshing a chamber's seats after an election
 - `references/source-playbook.md` — layers, bulk-list sources, query templates, search terms in many languages
 - `references/area-profile-template.md` — what to establish about an area before searching
-- `references/countries/gb.md` — the UK: levels of government, sources and an exhaustive council sweep (a worked example, not the template for every country)
-- `references/countries/us.md` — a federal system (states, ballot measures, coalition letters), and what worked there
-- `references/countries/se.md` — a unitary state with open parliamentary data, 21 regions and 290 municipalities
-- `references/countries/de.md` — a federal state with a suspended wealth tax, Bundestag motions as bulk lists of named sponsors, and an official member register for the alive check
-- `references/countries/in.md` — a country with no wealth tax since 2015, where support sits in the Left parties, a campaign (Tax the Top), Oxfam India and a handful of economists; notes on blocked sources and the district map
+- `references/countries/<iso2>.md` — one guide per country already researched: its levels of government, sources that work and those that block, and quirks. Read the nearest one. `gb.md` records the UK's exhaustive council sweep, a worked example and not the template for every country
 - `scripts/wtdb.py` — Python helper (stdlib; `openpyxl` only for xlsx export): `init`, `add`, `set`, `validate`, `dedupe`, `merge`, `checkquotes`, `status`, `export`
 - `scripts/profiles_wikidata.py` — fills `profiles.csv` (websites, socials, Wikipedia) from Wikidata IDs
 - `scripts/topo_to_boundaries.py` — turns a TopoJSON or shapefile of local areas (and their region outlines) into `boundaries.json`, so the country gets a local map on the site
@@ -39,7 +35,7 @@ Files in this skill (use them if present; the rules in this file are sufficient 
 3. **The coverage is honest**: the area profile and `notes` say what was searched, what was blocked and what was left out, so a blank is understood as "not searched" and not as "no support".
 4. **The next person can continue**: the run log ends with a plan ordered by expected yield.
 
-**Success is not** finishing every step of a process, covering every tiny unit, or building clever tooling. A first pass that finds 150 well-sourced supporters across all the important layers is worth far more than a half-finished crawler over 300 municipalities.
+**Success is not** finishing every step of a process, covering every tiny unit, or building clever tooling. A first pass that touches every important layer and finds 40 to 150 well-sourced supporters is worth far more than a half-finished crawler over 300 municipalities.
 
 **How to use this skill:**
 - The **rules** (sections 1 to 4: no source no row, the definition, grades, supporters only, public figures only) are firm. The **data format** (section 5) is firm, so that every country merges into one site.

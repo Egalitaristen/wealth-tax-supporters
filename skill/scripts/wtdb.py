@@ -497,8 +497,8 @@ def check_boundaries(d, db):
                      f"Seats are places: put each in their constituency (SKILL.md 6.7)")
     bfile = meta.get("boundaries")
     if not bfile or not os.path.exists(os.path.join(d, bfile)):
-        warns.append("boundaries: no map. Every country gets a local-tier map from an open source (SKILL.md 5 and 6.7); "
-                     "if none exists, say which sources you checked in meta.json notes")
+        warns.append("boundaries: no map. Add a local-tier map from an open source (SKILL.md 5 and 6.7); a missing map is not a blocker: "
+                     "if none exists, say which sources you checked in meta.json notes and open a follow-up issue for the map")
         return errs, warns
     b = json.load(open(os.path.join(d, bfile), encoding="utf-8"))
     lic = (b.get("licence") or "").strip()
