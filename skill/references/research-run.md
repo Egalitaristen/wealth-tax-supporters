@@ -1,12 +1,12 @@
 # Research run workflow
 
-This file holds sections 6.1, 6.2, 6.3, 6.4, 6.5, 6.6, 6.8, 6.9, 6.10, 6.12, 6.11 of the skill. `skill/SKILL.md` keeps the section numbers as pointers to this file, so a reference such as "SKILL.md 6.7a" still finds it. Section numbers in the text below refer to the same numbering.
+This file holds sections 6.1, 6.2, 6.3, 6.4, 6.5, 6.6, 6.8, 6.9, 6.10, 6.11, 6.12 of the skill. `skill/SKILL.md` keeps the section numbers as pointers to this file, so a reference such as "SKILL.md 6.7a" still finds it. Section numbers in the text below refer to the same numbering.
 
 ### 6.1 Start (brief)
 1. Read this file, the area's folder if it exists (`area_profile.md`, the last three `runs.csv` rows, `wtdb.py status`), and the notes for the nearest country in `skill/references/countries/`. For a new country, also list the suggestions people have already sent for it from the site (`python scripts/suggestions.py`): the form accepts any country, so they wait there until a register starts, and they go into the first pass's leads. Also read the leads earlier runs found for it while researching elsewhere (`python skill/scripts/leads.py list --country <iso2>`; 6.12).
 2. Settle three things with the user, in **one short message**, each with a recommended default: **which area**, **scope** (national only; plus regional; plus local) and **depth** (see the ladder below). If the user has already told you, do not ask again. If they do not answer, use the defaults and say so.
 3. In this repository, work on a branch and open one pull request per run. Never push to `main`.
-4. `wtdb.py init data/<iso2> --area "<Name>"`, then **load the geography register down to the local tier and build the map** (6.7): an official list with codes and one open-licence shape file, usually a few turns. It is part of every seed pass, not a later run, and `validate` fails while the register stops at regions. Then go straight to 6.2. State your plan in a few lines and begin; do not wait for approval of the plan.
+4. `wtdb.py init data/<iso2> --area "<Name>"`, then **load the geography register down to the local tier** (6.7): an official list with codes, usually a few turns. It is part of every seed pass, not a later run, and `validate` fails while the register stops at regions. Then look for an open-licence map of the same units (section 5); a missing map is a warning, not a blocker: record the sources you checked in `meta.json` `notes` and open a follow-up issue for it. Then go straight to 6.2. State your plan in a few lines and begin; do not wait for approval of the plan.
 
 **Depth ladder** (pick one, and say which in `meta.json` `notes`):
 
@@ -111,6 +111,9 @@ Each run reads the folder (`status`, `notes_next`), picks the top of the plan, w
 ### 6.10 Parallel work (if the assistant can run subagents)
 Split by layer or by region, never so that two workers write the same file. Each worker writes `staging_<worker>.jsonl` files (actors and evidence with temporary IDs) and returns them; the coordinator deduplicates against the database, adds with `wtdb.py add`, runs `validate`, and has a separate worker do the spot-check. Do not use parallel workers to do a large sweep that the sampling step (6.5) has not justified.
 
+### 6.11 Without code
+Follow the same steps by hand: keep the CSVs in exactly the format above, check the `validate` rules yourself (required fields, allowed values, dates from 2010, a URL and a quote on every evidence row, no actor without evidence, no duplicates), and deliver the CSVs or a spreadsheet built from them.
+
 ### 6.12 Leads from outside the area
 Leads about the area you are researching go in its own `leads.csv` (6.3a). This section is for the other kind.
 
@@ -124,6 +127,3 @@ python skill/scripts/leads.py add --country AE --name "Name" --url <where you sa
 - Leads sit in `data/leads.csv`, committed with the run's pull request. A lead is a pointer, not evidence: the run that picks it up checks it against its source and applies sections 2 to 4 like any other candidate.
 - The run that starts or refines that country reads its leads first (6.1, 6.8, `refine/SKILL.md`), then closes each one: `leads.py close L0007 --status used --run R003` (or `rejected`, or `duplicate`). `leads.py summary` shows which areas have open leads.
 - Mention the leads you logged in the run's report so the user sees where they went.
-
-### 6.11 Without code
-Follow the same steps by hand: keep the CSVs in exactly the format above, check the `validate` rules yourself (required fields, allowed values, dates from 2010, a URL and a quote on every evidence row, no actor without evidence, no duplicates), and deliver the CSVs or a spreadsheet built from them.

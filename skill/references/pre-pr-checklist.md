@@ -69,6 +69,18 @@ python skill/scripts/review_scan.py data/<slug> --names
 
 Read what `review_scan.py` lists and fix or remove the rows. Do not commit scratch scripts, caches or downloaded files: put the recipe for a country's geography or map in `skill/references/countries/<iso2>.md` instead. A missing map is not a blocker for a first pass: record which sources you checked in `meta.json` `notes` and open a follow-up issue for it.
 
-## 11. The pull request
+## 11. Data hygiene
+
+- **Controlled vocabularies only** (section 5); `validate` enforces them.
+- **Type people by what they do**: an economist is `economist` even at a university, with `other_types` for a second role; a journalist needs opinion pieces (a reporter who quoted someone is not a supporter).
+- **One name per party**, branches under the national party's name; run `dedupe` after every large import (rosters produce near-duplicates such as "Coalition for Human Needs" and "Coalition on Human Needs"), then `merge`.
+- **`notes` are shown to readers**: identity caveats and sources only. Never "alive", "no Wikidata match" or "checked X, nothing found" (that is `alive_checked` and the run log).
+- **A roll call is quoted from the member's own entry** on the official per-member list, never from the shared result line.
+- **Write to disk as you go**, log every run in `runs.csv`, and report counts from the files (`wtdb.py status`), not from memory. Measure progress in supporters found and checked, not in units marked done.
+- **Maps**: an open licence and the official codes, or no map. The register goes down to the local tier either way (6.7).
+- **Sample before you scale**: no crawler for local units before the layers are touched and a sample shows it pays (6.5).
+- **Work on a branch** and open a pull request; never push to `main`.
+
+## 12. The pull request
 
 Describe, from the files and not from memory: new supporters and evidence by type and level and grade; what was left out and why; what was checked by script and what by hand; the open leads; the languages searched; the map licence if there is a map; and the plan for the next run.

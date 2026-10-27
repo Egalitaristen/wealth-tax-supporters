@@ -5,19 +5,7 @@ This file holds section 6.7 of the skill. `skill/SKILL.md` keeps the section num
 ### 6.7 Geography register
 A tree of the places you will report on, in `geo_units.csv`, with a country root and `parent_id` set (section 5).
 
-**Every country uses the same depth: the register and the map go down to the lowest tier of general-purpose local government, with the regions or states above it as parents.** That keeps countries comparable and lets a visitor find supporters near them. Today:
-
-| Country | Regions (parents) | Local tier (map units) |
-|---|---|---|
-| United Kingdom | nations and English regions, counties | 361 local authority districts (GSS codes) |
-| Sweden | 21 län | 290 kommuner (kommunkod) |
-| Germany | 16 Länder, 401 Kreise and kreisfreie Städte | 10,939 Gemeinden and unincorporated areas (AGS, BKG VG250) |
-| India | 36 states and union territories (ISO 3166-2:IN) | 734 districts (LGD codes; Survey of India shapes) |
-| United States | 50 states and DC | 3,143 counties and equivalents (FIPS) |
-| Brazil | 26 states and the Federal District (IBGE codes) | 5,571 municípios (IBGE codes) |
-| France | 13 regions (ISO 3166-2:FR), 101 départements | 34,920 communes (INSEE, COG 2025) |
-| Netherlands | 12 provinces (CBS PV codes) | 342 gemeenten (CBS GM codes, PDOK Gebiedsindelingen 2026, CC BY 4.0) |
-| Spain | 17 autonomous communities and 2 autonomous cities (ISO 3166-2:ES), 52 provinces (INE) | 8,132 municipios (INE) |
+**Every country uses the same depth: the register (and the map, where an open source exists) goes down to the lowest tier of general-purpose local government, with the regions or states above it as parents.** That keeps countries comparable and lets a visitor find supporters near them. Each country's guide (`references/countries/<iso2>.md`) and its `meta.json` `notes` name the regions and the local tier it uses (for example the UK's 361 local authority districts, Sweden's 290 kommuner, the US's 3,143 counties, Germany's Gemeinden, Brazil's municípios, France's communes).
 
 For a new country, pick the tier that elects a council and runs local services (municipalities, districts or counties), not wards or parishes. Take that tier even when it runs to tens of thousands of units (France's 35,000 communes): an official list loads in one command, a generalised shape file (a few MB) draws fine, and the site needs no change. Supporters still sit at whatever level the evidence shows (a deputy in the département, a mayor in the commune); areas below a level with supporters get a faint tint graded by how many are known there. Give the regions a different code system from the units when the official ones overlap (INE numbers both Spanish provinces and communities from 01): use ISO 3166-2 for the regions, since `validate` rejects duplicate codes. Fetch the **official current list** with codes (a statistics office, mapping agency or interior ministry), not memory, and build `boundaries.json` from the same agency's shapes where possible, so codes match. **Check the licence before you download anything** (map licence rule, section 5): an unlicensed map has to be thrown away later, and so does the work built on it.
 

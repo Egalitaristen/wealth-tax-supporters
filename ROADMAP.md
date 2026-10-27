@@ -1,68 +1,11 @@
 # Roadmap
 
-What is planned, and what waits for a date. The live board is the GitHub project **[Wealth Tax Supporters roadmap](https://github.com/users/Egalitaristen/projects/3)** (status, area, what each item waits for, country). Every item is a public GitHub issue labelled [`roadmap`](https://github.com/Egalitaristen/wealth-tax-supporters/issues?q=is%3Aissue+label%3Aroadmap): comment there, or pick one up (see [CONTRIBUTING.md](CONTRIBUTING.md)).
+What is planned, and what waits for a date, lives on the GitHub project **[Wealth Tax Supporters roadmap](https://github.com/users/Egalitaristen/projects/3)**. Every item is a public issue labelled [`roadmap`](https://github.com/Egalitaristen/wealth-tax-supporters/issues?q=is%3Aissue+label%3Aroadmap); items that wait for a date (an election, a new parliament) also carry `scheduled`. This file is only a pointer: the board is the one place that is kept up to date.
 
-## Where things stand
+On the board each item has a status, an *Area*, what it *Waits for*, and a *Country*. Comment on an issue to discuss it, or pick one up (see [CONTRIBUTING.md](CONTRIBUTING.md)).
 
-The **Seats tab** (a hemicycle per chamber, a dot per seat, lit where a supporter we have found sits today) is live for 20 countries: Belgium, Brazil, Canada, China, France, Germany, India, Indonesia, Japan, Malaysia, the Netherlands, New Zealand, Nigeria, Norway, Poland, Singapore, Spain, Sweden, the United Kingdom and the United States. It reads each parliament's own member list, so a supporter who leaves a chamber loses the seat on the next refresh. How to refresh and what each source is: `skill/SKILL.md` 6.7a and the country guides in `skill/references/countries/`.
+## Adding and finishing items
 
-An unlit seat means nothing found yet, never opposition.
-
-The **Parliaments page** (`/parliaments`) maps every chart, including the **European Parliament** (`/eu/seats`, 720 seats, 14 supporters lit). The **Resources page** (`/resources`) lists polls, papers, reports and bills about a wealth tax, filterable by kind, place and year; `data/resources.json` holds the papers, reports and bills.
-
-## Scheduled: waits for a date
-
-These need the autumn 2026 elections to happen and the new parliaments to sit. Milestone: [Autumn 2026 elections](https://github.com/Egalitaristen/wealth-tax-supporters/milestone/1).
-
-| What | When it can be done | Issue |
-|---|---|---|
-| Refresh the US Congress | After the 3 November 2026 midterms, when the new Congress is sworn in (January 2027) | [#61](https://github.com/Egalitaristen/wealth-tax-supporters/issues/61) |
-| Refresh Spain's Congreso | After the 29 November 2026 election: today only 137 of 350 deputies are active because the Cortes were dissolved on 6 October | [#60](https://github.com/Egalitaristen/wealth-tax-supporters/issues/60) |
-| Refresh New Zealand's House | After the 7 November 2026 election (official results 27 November): Parliament was dissolved on 1 October | [#78](https://github.com/Egalitaristen/wealth-tax-supporters/issues/78) |
-| Check Sweden's Riksdag | November 2026, once the substitutes after the September election settle | [#63](https://github.com/Egalitaristen/wealth-tax-supporters/issues/63) |
-| Refresh Brazil's Câmara and Senado | After the new legislature takes office on 1 February 2027 | [#62](https://github.com/Egalitaristen/wealth-tax-supporters/issues/62) |
-
-## Next: regional and local bodies
-
-Supporters in devolved parliaments, state legislatures and councils already have structured positions, but nothing is lit until an official member list is read for each body. Milestone: [Regional and local bodies](https://github.com/Egalitaristen/wealth-tax-supporters/milestone/2).
-
-- [#65](https://github.com/Egalitaristen/wealth-tax-supporters/issues/65) The Senedd and the London Assembly (the Scottish Parliament is done)
-- [#66](https://github.com/Egalitaristen/wealth-tax-supporters/issues/66) US state legislatures
-- [#67](https://github.com/Egalitaristen/wealth-tax-supporters/issues/67) Councils and city governments
-
-## Resources and parliaments
-
-What the two newest pages still need. Milestone: [Resources and parliaments](https://github.com/Egalitaristen/wealth-tax-supporters/milestone/4).
-
-- [#95](https://github.com/Egalitaristen/wealth-tax-supporters/issues/95) Bills and laws for every country
-- [#96](https://github.com/Egalitaristen/wealth-tax-supporters/issues/96) Research papers and reports
-- [#97](https://github.com/Egalitaristen/wealth-tax-supporters/issues/97) Polls in the other eleven countries
-- [#98](https://github.com/Egalitaristen/wealth-tax-supporters/issues/98) Check every resource's link, date and status
-- [#99](https://github.com/Egalitaristen/wealth-tax-supporters/issues/99) Link resources to people and places
-- [#100](https://github.com/Egalitaristen/wealth-tax-supporters/issues/100) Find more MEP supporters
-- [#101](https://github.com/Egalitaristen/wealth-tax-supporters/issues/101) The Pan-African Parliament
-- [#102](https://github.com/Egalitaristen/wealth-tax-supporters/issues/102) The UN General Assembly: three runs done (9 governments, 4 lit, including a pass over the UN's own General Debate records); next: read the original ministry pages, then Switzerland, France, Mexico and others
-- [#103](https://github.com/Egalitaristen/wealth-tax-supporters/issues/103) More supranational bodies
-- [#104](https://github.com/Egalitaristen/wealth-tax-supporters/issues/104) Share cards for the new pages
-- [#124](https://github.com/Egalitaristen/wealth-tax-supporters/issues/124) Seat chart for Italy's Camera and Senato
-- [#125](https://github.com/Egalitaristen/wealth-tax-supporters/issues/125) Seat chart for Mexico's Cámara de Diputados and Senado
-- [#126](https://github.com/Egalitaristen/wealth-tax-supporters/issues/126) Seat chart for Ireland's Dáil and Seanad
-- [#127](https://github.com/Egalitaristen/wealth-tax-supporters/issues/127) Second chambers without a seat chart (Spain, Poland, the Netherlands, Belgium, South Africa, Indonesia)
-- [#128](https://github.com/Egalitaristen/wealth-tax-supporters/issues/128) Wikidata IDs and profile links for Ireland, Italy, Mexico and South Africa
-- [#129](https://github.com/Egalitaristen/wealth-tax-supporters/issues/129) Country guide for Ireland
-
-## Data quality
-
-Milestone: [Data quality](https://github.com/Egalitaristen/wealth-tax-supporters/milestone/3).
-
-- [#64](https://github.com/Egalitaristen/wealth-tax-supporters/issues/64) **Verify every lit seat, country by country** (in progress; the refinement queue puts these first)
-- [#68](https://github.com/Egalitaristen/wealth-tax-supporters/issues/68) Automate the member lists that only open in a browser (Belgium, India's Rajya Sabha, Malaysia, Indonesia)
-- [#69](https://github.com/Egalitaristen/wealth-tax-supporters/issues/69) Nigeria: a current party tally, and the Senate
-- [#70](https://github.com/Egalitaristen/wealth-tax-supporters/issues/70) China: a sourced split of the National People's Congress by party
-- [#71](https://github.com/Egalitaristen/wealth-tax-supporters/issues/71) Singapore: an official source for each MP's party
-- [#72](https://github.com/Egalitaristen/wealth-tax-supporters/issues/72) Japan: English names for the new Diet groups
-- [#74](https://github.com/Egalitaristen/wealth-tax-supporters/issues/74) Show how much of each chamber the register has found
-
-## How this list is kept
-
-New ideas and dates go in as issues with the `roadmap` label (and `scheduled` when they wait for a date), and are added to the project with its Area, Waits for and Country fields filled in. When an item is done the issue is closed, its card moves to Done, and this file is updated in the same pull request.
+- A new idea or date becomes an issue labelled `roadmap` (and `scheduled` when it waits for a date), added to the project with its *Area*, *Waits for* and *Country* filled in.
+- When an item is done, the issue is closed and its card moves to Done.
+- How to do the recurring jobs: researching a country is `skill/SKILL.md`; improving existing supporters is `refine/SKILL.md`; refreshing a chamber after an election is `skill/references/election-refresh.md`.
