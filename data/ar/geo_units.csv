@@ -1,0 +1,2306 @@
+geo_unit_id,name,level,unit_type,parent_id,website,sweep_status,swept_run,swept_date,queries_run,hits,notes,code
+G0001,Argentina,national,country,,,pending,,,,,,
+G0002,Ciudad Autónoma de Buenos Aires,region,province,G0001,,pending,,,,,,02
+G0003,Buenos Aires,region,province,G0001,,pending,,,,,,06
+G0004,Catamarca,region,province,G0001,,pending,,,,,,10
+G0005,Córdoba,region,province,G0001,,pending,,,,,,14
+G0006,Corrientes,region,province,G0001,,pending,,,,,,18
+G0007,Chaco,region,province,G0001,,pending,,,,,,22
+G0008,Chubut,region,province,G0001,,pending,,,,,,26
+G0009,Entre Ríos,region,province,G0001,,pending,,,,,,30
+G0010,Formosa,region,province,G0001,,pending,,,,,,34
+G0011,Jujuy,region,province,G0001,,pending,,,,,,38
+G0012,La Pampa,region,province,G0001,,pending,,,,,,42
+G0013,La Rioja,region,province,G0001,,pending,,,,,,46
+G0014,Mendoza,region,province,G0001,,pending,,,,,,50
+G0015,Misiones,region,province,G0001,,pending,,,,,,54
+G0016,Neuquén,region,province,G0001,,pending,,,,,,58
+G0017,Río Negro,region,province,G0001,,pending,,,,,,62
+G0018,Salta,region,province,G0001,,pending,,,,,,66
+G0019,San Juan,region,province,G0001,,pending,,,,,,70
+G0020,San Luis,region,province,G0001,,pending,,,,,,74
+G0021,Santa Cruz,region,province,G0001,,pending,,,,,,78
+G0022,Santa Fe,region,province,G0001,,pending,,,,,,82
+G0023,Santiago del Estero,region,province,G0001,,pending,,,,,,86
+G0024,Tucumán,region,province,G0001,,pending,,,,,,90
+G0025,"Tierra del Fuego, Antártida e Islas del Atlántico Sur",region,province,G0001,,pending,,,,,,94
+G0026,Comuna 1,council,Comuna,G0002,,pending,,,,,,022007
+G0027,Comuna 2,council,Comuna,G0002,,pending,,,,,,022014
+G0028,Comuna 3,council,Comuna,G0002,,pending,,,,,,022021
+G0029,Comuna 4,council,Comuna,G0002,,pending,,,,,,022028
+G0030,Comuna 5,council,Comuna,G0002,,pending,,,,,,022035
+G0031,Comuna 6,council,Comuna,G0002,,pending,,,,,,022042
+G0032,Comuna 7,council,Comuna,G0002,,pending,,,,,,022049
+G0033,Comuna 8,council,Comuna,G0002,,pending,,,,,,022056
+G0034,Comuna 9,council,Comuna,G0002,,pending,,,,,,022063
+G0035,Comuna 10,council,Comuna,G0002,,pending,,,,,,022070
+G0036,Comuna 11,council,Comuna,G0002,,pending,,,,,,022077
+G0037,Comuna 12,council,Comuna,G0002,,pending,,,,,,022084
+G0038,Comuna 13,council,Comuna,G0002,,pending,,,,,,022091
+G0039,Comuna 14,council,Comuna,G0002,,pending,,,,,,022098
+G0040,Comuna 15,council,Comuna,G0002,,pending,,,,,,022105
+G0041,Adolfo Alsina,council,Municipio,G0003,,pending,,,,,,060007
+G0042,Adolfo Gonzales Chaves,council,Municipio,G0003,,pending,,,,,,060014
+G0043,Alberti,council,Municipio,G0003,,pending,,,,,,060021
+G0044,Almirante Brown,council,Municipio,G0003,,pending,,,,,,060028
+G0045,Avellaneda,council,Municipio,G0003,,pending,,,,,,060035
+G0046,Ayacucho,council,Municipio,G0003,,pending,,,,,,060042
+G0047,Azul,council,Municipio,G0003,,pending,,,,,,060049
+G0048,Bahía Blanca,council,Municipio,G0003,,pending,,,,,,060056
+G0049,Balcarce,council,Municipio,G0003,,pending,,,,,,060063
+G0050,Baradero,council,Municipio,G0003,,pending,,,,,,060070
+G0051,Arrecifes,council,Municipio,G0003,,pending,,,,,,060077
+G0052,Benito Juárez,council,Municipio,G0003,,pending,,,,,,060084
+G0053,Berazategui,council,Municipio,G0003,,pending,,,,,,060091
+G0054,Berisso,council,Municipio,G0003,,pending,,,,,,060098
+G0055,Bolívar,council,Municipio,G0003,,pending,,,,,,060105
+G0056,Bragado,council,Municipio,G0003,,pending,,,,,,060112
+G0057,Brandsen,council,Municipio,G0003,,pending,,,,,,060119
+G0058,Campana,council,Municipio,G0003,,pending,,,,,,060126
+G0059,Cañuelas,council,Municipio,G0003,,pending,,,,,,060134
+G0060,Capitán Sarmiento,council,Municipio,G0003,,pending,,,,,,060140
+G0061,Carlos Casares,council,Municipio,G0003,,pending,,,,,,060147
+G0062,Carlos Tejedor,council,Municipio,G0003,,pending,,,,,,060154
+G0063,Carmen de Areco,council,Municipio,G0003,,pending,,,,,,060161
+G0064,Castelli,council,Municipio,G0003,,pending,,,,,,060168
+G0065,Colón,council,Municipio,G0003,,pending,,,,,,060175
+G0066,Coronel de Marina Leonardo Rosales,council,Municipio,G0003,,pending,,,,,,060182
+G0067,Coronel Dorrego,council,Municipio,G0003,,pending,,,,,,060189
+G0068,Coronel Pringles,council,Municipio,G0003,,pending,,,,,,060196
+G0069,Coronel Suárez,council,Municipio,G0003,,pending,,,,,,060203
+G0070,Chacabuco,council,Municipio,G0003,,pending,,,,,,060210
+G0071,Chascomús,council,Municipio,G0003,,pending,,,,,,060218
+G0072,Chivilcoy,council,Municipio,G0003,,pending,,,,,,060224
+G0073,Daireaux,council,Municipio,G0003,,pending,,,,,,060231
+G0074,Dolores,council,Municipio,G0003,,pending,,,,,,060238
+G0075,Ensenada,council,Municipio,G0003,,pending,,,,,,060245
+G0076,Escobar,council,Municipio,G0003,,pending,,,,,,060252
+G0077,Esteban Echeverría,council,Municipio,G0003,,pending,,,,,,060260
+G0078,Exaltación de la Cruz,council,Municipio,G0003,,pending,,,,,,060266
+G0079,Ezeiza,council,Municipio,G0003,,pending,,,,,,060270
+G0080,Florencio Varela,council,Municipio,G0003,,pending,,,,,,060274
+G0081,Florentino Ameghino,council,Municipio,G0003,,pending,,,,,,060277
+G0082,General Alvarado,council,Municipio,G0003,,pending,,,,,,060280
+G0083,General Alvear,council,Municipio,G0003,,pending,,,,,,060287
+G0084,General Arenales,council,Municipio,G0003,,pending,,,,,,060294
+G0085,General Belgrano,council,Municipio,G0003,,pending,,,,,,060301
+G0086,General Guido,council,Municipio,G0003,,pending,,,,,,060308
+G0087,General Juan Madariaga,council,Municipio,G0003,,pending,,,,,,060315
+G0088,General La Madrid,council,Municipio,G0003,,pending,,,,,,060322
+G0089,General Las Heras,council,Municipio,G0003,,pending,,,,,,060329
+G0090,General Lavalle,council,Municipio,G0003,,pending,,,,,,060336
+G0091,General Paz,council,Municipio,G0003,,pending,,,,,,060343
+G0092,General Pinto,council,Municipio,G0003,,pending,,,,,,060351
+G0093,General Pueyrredón,council,Municipio,G0003,,pending,,,,,,060357
+G0094,General Rodríguez,council,Municipio,G0003,,pending,,,,,,060364
+G0095,General San Martín,council,Municipio,G0003,,pending,,,,,,060371
+G0096,General Viamonte,council,Municipio,G0003,,pending,,,,,,060385
+G0097,General Villegas,council,Municipio,G0003,,pending,,,,,,060392
+G0098,Guaminí,council,Municipio,G0003,,pending,,,,,,060399
+G0099,Hipólito Yrigoyen,council,Municipio,G0003,,pending,,,,,,060406
+G0100,Hurlingham,council,Municipio,G0003,,pending,,,,,,060408
+G0101,Ituzaingó,council,Municipio,G0003,,pending,,,,,,060410
+G0102,José C. Paz,council,Municipio,G0003,,pending,,,,,,060412
+G0103,Junín,council,Municipio,G0003,,pending,,,,,,060413
+G0104,La Costa,council,Municipio,G0003,,pending,,,,,,060420
+G0105,La Matanza,council,Municipio,G0003,,pending,,,,,,060427
+G0106,Lanús,council,Municipio,G0003,,pending,,,,,,060434
+G0107,La Plata,council,Municipio,G0003,,pending,,,,,,060441
+G0108,Laprida,council,Municipio,G0003,,pending,,,,,,060448
+G0109,Las Flores,council,Municipio,G0003,,pending,,,,,,060455
+G0110,Leandro N. Alem,council,Municipio,G0003,,pending,,,,,,060462
+G0111,Lezama,council,Municipio,G0003,,pending,,,,,,060466
+G0112,Lincoln,council,Municipio,G0003,,pending,,,,,,060469
+G0113,Lobería,council,Municipio,G0003,,pending,,,,,,060476
+G0114,Lobos,council,Municipio,G0003,,pending,,,,,,060483
+G0115,Lomas de Zamora,council,Municipio,G0003,,pending,,,,,,060490
+G0116,Luján,council,Municipio,G0003,,pending,,,,,,060497
+G0117,Magdalena,council,Municipio,G0003,,pending,,,,,,060505
+G0118,Maipú,council,Municipio,G0003,,pending,,,,,,060511
+G0119,Malvinas Argentinas,council,Municipio,G0003,,pending,,,,,,060515
+G0120,Mar Chiquita,council,Municipio,G0003,,pending,,,,,,060518
+G0121,Marcos Paz,council,Municipio,G0003,,pending,,,,,,060525
+G0122,Mercedes,council,Municipio,G0003,,pending,,,,,,060532
+G0123,Merlo,council,Municipio,G0003,,pending,,,,,,060539
+G0124,Monte,council,Municipio,G0003,,pending,,,,,,060547
+G0125,Monte Hermoso,council,Municipio,G0003,,pending,,,,,,060553
+G0126,Moreno,council,Municipio,G0003,,pending,,,,,,060560
+G0127,Morón,council,Municipio,G0003,,pending,,,,,,060568
+G0128,Navarro,council,Municipio,G0003,,pending,,,,,,060574
+G0129,Necochea,council,Municipio,G0003,,pending,,,,,,060581
+G0130,9 de Julio,council,Municipio,G0003,,pending,,,,,,060588
+G0131,Olavarría,council,Municipio,G0003,,pending,,,,,,060595
+G0132,Patagones,council,Municipio,G0003,,pending,,,,,,060602
+G0133,Pehuajó,council,Municipio,G0003,,pending,,,,,,060609
+G0134,Pellegrini,council,Municipio,G0003,,pending,,,,,,060616
+G0135,Pergamino,council,Municipio,G0003,,pending,,,,,,060623
+G0136,Pila,council,Municipio,G0003,,pending,,,,,,060630
+G0137,Pilar,council,Municipio,G0003,,pending,,,,,,060638
+G0138,Pinamar,council,Municipio,G0003,,pending,,,,,,060644
+G0139,Presidente Perón,council,Municipio,G0003,,pending,,,,,,060648
+G0140,Puan,council,Municipio,G0003,,pending,,,,,,060651
+G0141,Punta Indio,council,Municipio,G0003,,pending,,,,,,060655
+G0142,Quilmes,council,Municipio,G0003,,pending,,,,,,060658
+G0143,Ramallo,council,Municipio,G0003,,pending,,,,,,060665
+G0144,Rauch,council,Municipio,G0003,,pending,,,,,,060672
+G0145,Rivadavia,council,Municipio,G0003,,pending,,,,,,060679
+G0146,Rojas,council,Municipio,G0003,,pending,,,,,,060686
+G0147,Roque Pérez,council,Municipio,G0003,,pending,,,,,,060693
+G0148,Saavedra,council,Municipio,G0003,,pending,,,,,,060700
+G0149,Saladillo,council,Municipio,G0003,,pending,,,,,,060707
+G0150,Salto,council,Municipio,G0003,,pending,,,,,,060714
+G0151,Salliqueló,council,Municipio,G0003,,pending,,,,,,060721
+G0152,San Andrés de Giles,council,Municipio,G0003,,pending,,,,,,060728
+G0153,San Antonio de Areco,council,Municipio,G0003,,pending,,,,,,060735
+G0154,San Cayetano,council,Municipio,G0003,,pending,,,,,,060742
+G0155,San Fernando,council,Municipio,G0003,,pending,,,,,,060749
+G0156,San Isidro,council,Municipio,G0003,,pending,,,,,,060756
+G0157,San Miguel,council,Municipio,G0003,,pending,,,,,,060760
+G0158,San Nicolás,council,Municipio,G0003,,pending,,,,,,060763
+G0159,San Pedro,council,Municipio,G0003,,pending,,,,,,060770
+G0160,San Vicente,council,Municipio,G0003,,pending,,,,,,060778
+G0161,Suipacha,council,Municipio,G0003,,pending,,,,,,060784
+G0162,Tandil,council,Municipio,G0003,,pending,,,,,,060791
+G0163,Tapalqué,council,Municipio,G0003,,pending,,,,,,060798
+G0164,Tigre,council,Municipio,G0003,,pending,,,,,,060805
+G0165,Tordillo,council,Municipio,G0003,,pending,,,,,,060812
+G0166,Tornquist,council,Municipio,G0003,,pending,,,,,,060819
+G0167,Trenque Lauquen,council,Municipio,G0003,,pending,,,,,,060826
+G0168,Tres Arroyos,council,Municipio,G0003,,pending,,,,,,060833
+G0169,Tres de Febrero,council,Municipio,G0003,,pending,,,,,,060840
+G0170,Tres Lomas,council,Municipio,G0003,,pending,,,,,,060847
+G0171,25 de Mayo,council,Municipio,G0003,,pending,,,,,,060854
+G0172,Vicente López,council,Municipio,G0003,,pending,,,,,,060861
+G0173,Villa Gesell,council,Municipio,G0003,,pending,,,,,,060868
+G0174,Villarino,council,Municipio,G0003,,pending,,,,,,060875
+G0175,Zárate,council,Municipio,G0003,,pending,,,,,,060882
+G0176,El Rodeo,council,Municipio,G0004,,pending,,,,,,100007
+G0177,La Puerta,council,Municipio,G0004,,pending,,,,,,100014
+G0178,Las Juntas,council,Municipio,G0004,,pending,,,,,,100021
+G0179,Los Varela,council,Municipio,G0004,,pending,,,,,,100028
+G0180,Ancasti,council,Municipio,G0004,,pending,,,,,,100035
+G0181,Aconquija,council,Municipio,G0004,,pending,,,,,,100042
+G0182,Andalgalá,council,Municipio,G0004,,pending,,,,,,100049
+G0183,Antofagasta de la Sierra,council,Municipio,G0004,,pending,,,,,,100056
+G0184,Belén,council,Municipio,G0004,,pending,,,,,,100063
+G0185,Corral Quemado,council,Municipio,G0004,,pending,,,,,,100070
+G0186,Hualfín,council,Municipio,G0004,,pending,,,,,,100077
+G0187,Londres,council,Municipio,G0004,,pending,,,,,,100084
+G0188,Pozo de Piedra,council,Municipio,G0004,,pending,,,,,,100091
+G0189,Puerta de Corral Quemado,council,Municipio,G0004,,pending,,,,,,100098
+G0190,Puerta de San José,council,Municipio,G0004,,pending,,,,,,100105
+G0191,San Fernando,council,Municipio,G0004,,pending,,,,,,100112
+G0192,Villa Vil,council,Municipio,G0004,,pending,,,,,,100119
+G0193,Capayán,council,Municipio,G0004,,pending,,,,,,100126
+G0194,Huillapima,council,Municipio,G0004,,pending,,,,,,100133
+G0195,San Fernando del Valle de Catamarca,council,Municipio,G0004,,pending,,,,,,100140
+G0196,El Alto,council,Municipio,G0004,,pending,,,,,,100147
+G0197,Tapso,council,Municipio,G0004,,pending,,,,,,100154
+G0198,Fray Mamerto Esquiú,council,Municipio,G0004,,pending,,,,,,100161
+G0199,Icaño,council,Municipio,G0004,,pending,,,,,,100168
+G0200,Recreo,council,Municipio,G0004,,pending,,,,,,100175
+G0201,Paclín,council,Municipio,G0004,,pending,,,,,,100182
+G0202,Mutquín,council,Municipio,G0004,,pending,,,,,,100185
+G0203,Pomán,council,Municipio,G0004,,pending,,,,,,100189
+G0204,Saujil,council,Municipio,G0004,,pending,,,,,,100196
+G0205,San José,council,Municipio,G0004,,pending,,,,,,100203
+G0206,Santa María,council,Municipio,G0004,,pending,,,,,,100210
+G0207,Los Altos,council,Municipio,G0004,,pending,,,,,,100213
+G0208,Santa Rosa,council,Municipio,G0004,,pending,,,,,,100217
+G0209,Fiambalá,council,Municipio,G0004,,pending,,,,,,100224
+G0210,Tinogasta,council,Municipio,G0004,,pending,,,,,,100231
+G0211,Valle Viejo,council,Municipio,G0004,,pending,,,,,,100238
+G0212,Embalse,council,Municipio,G0005,,pending,,,,,,140007
+G0213,La Cruz,council,Municipio,G0005,,pending,,,,,,140014
+G0214,Los Cóndores,council,Municipio,G0005,,pending,,,,,,140021
+G0215,Río de los Sauces,council,Municipio,G0005,,pending,,,,,,140028
+G0216,Santa Rosa de Calamuchita,council,Municipio,G0005,,pending,,,,,,140035
+G0217,Villa del Dique,council,Municipio,G0005,,pending,,,,,,140042
+G0218,Villa General Belgrano,council,Municipio,G0005,,pending,,,,,,140049
+G0219,San Agustín,council,Municipio,G0005,,pending,,,,,,140056
+G0220,Villa Rumipal,council,Municipio,G0005,,pending,,,,,,140063
+G0221,Villa Yacanto,council,Municipio,G0005,,pending,,,,,,140070
+G0222,Córdoba,council,Municipio,G0005,,pending,,,,,,140077
+G0223,Agua de Oro,council,Municipio,G0005,,pending,,,,,,140084
+G0224,Colonia Caroya,council,Municipio,G0005,,pending,,,,,,140091
+G0225,Colonia Tirolesa,council,Municipio,G0005,,pending,,,,,,140098
+G0226,Estación General Paz,council,Municipio,G0005,,pending,,,,,,140102
+G0227,Estación Juárez Celman,council,Municipio,G0005,,pending,,,,,,140105
+G0228,Jesús María,council,Municipio,G0005,,pending,,,,,,140112
+G0229,La Calera,council,Municipio,G0005,,pending,,,,,,140119
+G0230,La Granja,council,Municipio,G0005,,pending,,,,,,140126
+G0231,Malvinas Argentinas,council,Municipio,G0005,,pending,,,,,,140133
+G0232,Mendiolaza,council,Municipio,G0005,,pending,,,,,,140140
+G0233,Mi Granja,council,Municipio,G0005,,pending,,,,,,140143
+G0234,Río Ceballos,council,Municipio,G0005,,pending,,,,,,140147
+G0235,Saldán,council,Municipio,G0005,,pending,,,,,,140154
+G0236,Salsipuedes,council,Municipio,G0005,,pending,,,,,,140161
+G0237,Unquillo,council,Municipio,G0005,,pending,,,,,,140168
+G0238,Villa Allende,council,Municipio,G0005,,pending,,,,,,140175
+G0239,Cruz del Eje,council,Municipio,G0005,,pending,,,,,,140182
+G0240,El Brete,council,Municipio,G0005,,pending,,,,,,140185
+G0241,San Marcos Sierra,council,Municipio,G0005,,pending,,,,,,140189
+G0242,Serrezuela,council,Municipio,G0005,,pending,,,,,,140196
+G0243,Villa de Soto,council,Municipio,G0005,,pending,,,,,,140203
+G0244,Buchardo,council,Municipio,G0005,,pending,,,,,,140210
+G0245,Del Campillo,council,Municipio,G0005,,pending,,,,,,140217
+G0246,Huinca Renancó,council,Municipio,G0005,,pending,,,,,,140224
+G0247,Italó,council,Municipio,G0005,,pending,,,,,,140231
+G0248,Jovita,council,Municipio,G0005,,pending,,,,,,140238
+G0249,Mattaldi,council,Municipio,G0005,,pending,,,,,,140245
+G0250,Villa Huidobro,council,Municipio,G0005,,pending,,,,,,140252
+G0251,Villa Valeria,council,Municipio,G0005,,pending,,,,,,140259
+G0252,Arroyo Algodón,council,Municipio,G0005,,pending,,,,,,140266
+G0253,Arroyo Cabral,council,Municipio,G0005,,pending,,,,,,140273
+G0254,Ausonia,council,Municipio,G0005,,pending,,,,,,140280
+G0255,Chazón,council,Municipio,G0005,,pending,,,,,,140287
+G0256,Etruria,council,Municipio,G0005,,pending,,,,,,140294
+G0257,La Laguna,council,Municipio,G0005,,pending,,,,,,140301
+G0258,La Palestina,council,Municipio,G0005,,pending,,,,,,140308
+G0259,La Playosa,council,Municipio,G0005,,pending,,,,,,140315
+G0260,Luca,council,Municipio,G0005,,pending,,,,,,140322
+G0261,Pasco,council,Municipio,G0005,,pending,,,,,,140329
+G0262,Silvio Pellico,council,Municipio,G0005,,pending,,,,,,140336
+G0263,Ticino,council,Municipio,G0005,,pending,,,,,,140343
+G0264,Tío Pujio,council,Municipio,G0005,,pending,,,,,,140350
+G0265,Villa María,council,Municipio,G0005,,pending,,,,,,140357
+G0266,Villa Nueva,council,Municipio,G0005,,pending,,,,,,140364
+G0267,Deán Funes,council,Municipio,G0005,,pending,,,,,,140371
+G0268,Quilino,council,Municipio,G0005,,pending,,,,,,140378
+G0269,Alejandro Roca,council,Municipio,G0005,,pending,,,,,,140385
+G0270,Bengolea,council,Municipio,G0005,,pending,,,,,,140392
+G0271,Carnerillo,council,Municipio,G0005,,pending,,,,,,140399
+G0272,Charras,council,Municipio,G0005,,pending,,,,,,140406
+G0273,General Cabrera,council,Municipio,G0005,,pending,,,,,,140413
+G0274,General Deheza,council,Municipio,G0005,,pending,,,,,,140420
+G0275,Huanchilla,council,Municipio,G0005,,pending,,,,,,140427
+G0276,La Carlota,council,Municipio,G0005,,pending,,,,,,140434
+G0277,Los Cisnes,council,Municipio,G0005,,pending,,,,,,140441
+G0278,Olaeta,council,Municipio,G0005,,pending,,,,,,140448
+G0279,Reducción,council,Municipio,G0005,,pending,,,,,,140455
+G0280,Santa Eufemia,council,Municipio,G0005,,pending,,,,,,140462
+G0281,Ucacha,council,Municipio,G0005,,pending,,,,,,140469
+G0282,Alejo Ledesma,council,Municipio,G0005,,pending,,,,,,140476
+G0283,Arias,council,Municipio,G0005,,pending,,,,,,140483
+G0284,Camilo Aldao,council,Municipio,G0005,,pending,,,,,,140490
+G0285,Capitán General Bernardo O'Higgins,council,Municipio,G0005,,pending,,,,,,140497
+G0286,Cavanagh,council,Municipio,G0005,,pending,,,,,,140504
+G0287,Colonia Italiana,council,Municipio,G0005,,pending,,,,,,140511
+G0288,Corral de Bustos Ifflinger,council,Municipio,G0005,,pending,,,,,,140518
+G0289,Cruz Alta,council,Municipio,G0005,,pending,,,,,,140525
+G0290,General Baldissera,council,Municipio,G0005,,pending,,,,,,140532
+G0291,General Roca,council,Municipio,G0005,,pending,,,,,,140539
+G0292,Guatimozín,council,Municipio,G0005,,pending,,,,,,140546
+G0293,Inriville,council,Municipio,G0005,,pending,,,,,,140553
+G0294,Isla Verde,council,Municipio,G0005,,pending,,,,,,140560
+G0295,Leones,council,Municipio,G0005,,pending,,,,,,140567
+G0296,Los Surgentes,council,Municipio,G0005,,pending,,,,,,140574
+G0297,Marcos Juárez,council,Municipio,G0005,,pending,,,,,,140581
+G0298,Monte Buey,council,Municipio,G0005,,pending,,,,,,140588
+G0299,Saira,council,Municipio,G0005,,pending,,,,,,140595
+G0300,San Carlos Minas,council,Municipio,G0005,,pending,,,,,,140602
+G0301,Salsacate,council,Municipio,G0005,,pending,,,,,,140609
+G0302,General Levalle,council,Municipio,G0005,,pending,,,,,,140616
+G0303,La Cesira,council,Municipio,G0005,,pending,,,,,,140623
+G0304,Laboulaye,council,Municipio,G0005,,pending,,,,,,140630
+G0305,Melo,council,Municipio,G0005,,pending,,,,,,140637
+G0306,Rosales,council,Municipio,G0005,,pending,,,,,,140644
+G0307,Serrano,council,Municipio,G0005,,pending,,,,,,140651
+G0308,Villa Rossi,council,Municipio,G0005,,pending,,,,,,140658
+G0309,Bialet Massé,council,Municipio,G0005,,pending,,,,,,140665
+G0310,Capilla del Monte,council,Municipio,G0005,,pending,,,,,,140672
+G0311,Cosquín,council,Municipio,G0005,,pending,,,,,,140679
+G0312,Huerta Grande,council,Municipio,G0005,,pending,,,,,,140686
+G0313,La Cumbre,council,Municipio,G0005,,pending,,,,,,140693
+G0314,La Falda,council,Municipio,G0005,,pending,,,,,,140700
+G0315,Los Cocos,council,Municipio,G0005,,pending,,,,,,140707
+G0316,San Antonio de Arredondo,council,Municipio,G0005,,pending,,,,,,140710
+G0317,San Esteban,council,Municipio,G0005,,pending,,,,,,140714
+G0318,Santa María de Punilla,council,Municipio,G0005,,pending,,,,,,140721
+G0319,Tanti,council,Municipio,G0005,,pending,,,,,,140728
+G0320,Valle Hermoso,council,Municipio,G0005,,pending,,,,,,140735
+G0321,Villa Carlos Paz,council,Municipio,G0005,,pending,,,,,,140742
+G0322,Villa Giardino,council,Municipio,G0005,,pending,,,,,,140749
+G0323,Villa Río Icho Cruz,council,Municipio,G0005,,pending,,,,,,140752
+G0324,Villa Santa Cruz del Lago,council,Municipio,G0005,,pending,,,,,,140754
+G0325,Achiras,council,Municipio,G0005,,pending,,,,,,140756
+G0326,Adelia María,council,Municipio,G0005,,pending,,,,,,140763
+G0327,Alcira,council,Municipio,G0005,,pending,,,,,,140770
+G0328,Alpa Corral,council,Municipio,G0005,,pending,,,,,,140777
+G0329,Berrotarán,council,Municipio,G0005,,pending,,,,,,140784
+G0330,Bulnes,council,Municipio,G0005,,pending,,,,,,140791
+G0331,Chaján,council,Municipio,G0005,,pending,,,,,,140798
+G0332,Coronel Baigorria,council,Municipio,G0005,,pending,,,,,,140805
+G0333,Coronel Moldes,council,Municipio,G0005,,pending,,,,,,140812
+G0334,Elena,council,Municipio,G0005,,pending,,,,,,140819
+G0335,La Cautiva,council,Municipio,G0005,,pending,,,,,,140826
+G0336,Las Acequias,council,Municipio,G0005,,pending,,,,,,140833
+G0337,Las Higueras,council,Municipio,G0005,,pending,,,,,,140840
+G0338,Las Vertientes,council,Municipio,G0005,,pending,,,,,,140847
+G0339,Monte de los Gauchos,council,Municipio,G0005,,pending,,,,,,140854
+G0340,Río Cuarto,council,Municipio,G0005,,pending,,,,,,140861
+G0341,Sampacho,council,Municipio,G0005,,pending,,,,,,140868
+G0342,San Basilio,council,Municipio,G0005,,pending,,,,,,140875
+G0343,Santa Catalina Holmberg,council,Municipio,G0005,,pending,,,,,,140882
+G0344,Tosquita,council,Municipio,G0005,,pending,,,,,,140889
+G0345,Vicuña Mackenna,council,Municipio,G0005,,pending,,,,,,140896
+G0346,La Para,council,Municipio,G0005,,pending,,,,,,140903
+G0347,La Puerta,council,Municipio,G0005,,pending,,,,,,140910
+G0348,Montecristo,council,Municipio,G0005,,pending,,,,,,140917
+G0349,Obispo Trejo,council,Municipio,G0005,,pending,,,,,,140924
+G0350,Piquillín,council,Municipio,G0005,,pending,,,,,,140931
+G0351,Río Primero,council,Municipio,G0005,,pending,,,,,,140938
+G0352,Villa Santa Rosa,council,Municipio,G0005,,pending,,,,,,140945
+G0353,Villa Fontana,council,Municipio,G0005,,pending,,,,,,140952
+G0354,Sebastián Elcano,council,Municipio,G0005,,pending,,,,,,140959
+G0355,Villa de María,council,Municipio,G0005,,pending,,,,,,140966
+G0356,Calchín,council,Municipio,G0005,,pending,,,,,,140973
+G0357,Calchín Oeste,council,Municipio,G0005,,pending,,,,,,140980
+G0358,Capilla del Carmen,council,Municipio,G0005,,pending,,,,,,140987
+G0359,Carrilobo,council,Municipio,G0005,,pending,,,,,,140994
+G0360,Colazo,council,Municipio,G0005,,pending,,,,,,141001
+G0361,Costa Sacate,council,Municipio,G0005,,pending,,,,,,141008
+G0362,Laguna Larga,council,Municipio,G0005,,pending,,,,,,141015
+G0363,Las Junturas,council,Municipio,G0005,,pending,,,,,,141022
+G0364,Luque,council,Municipio,G0005,,pending,,,,,,141029
+G0365,Manfredi,council,Municipio,G0005,,pending,,,,,,141036
+G0366,Matorrales,council,Municipio,G0005,,pending,,,,,,141043
+G0367,Oncativo,council,Municipio,G0005,,pending,,,,,,141050
+G0368,Pilar,council,Municipio,G0005,,pending,,,,,,141057
+G0369,Pozo del Molle,council,Municipio,G0005,,pending,,,,,,141064
+G0370,Río Segundo,council,Municipio,G0005,,pending,,,,,,141071
+G0371,Santiago Temple,council,Municipio,G0005,,pending,,,,,,141078
+G0372,Villa del Rosario,council,Municipio,G0005,,pending,,,,,,141085
+G0373,Mina Clavero,council,Municipio,G0005,,pending,,,,,,141092
+G0374,Nono,council,Municipio,G0005,,pending,,,,,,141099
+G0375,San Pedro,council,Municipio,G0005,,pending,,,,,,141106
+G0376,Villa Cura Brochero,council,Municipio,G0005,,pending,,,,,,141113
+G0377,Villa Sarmiento (141120),council,Municipio,G0005,,pending,,,,,Disambiguated by official code.,141120
+G0378,La Paz,council,Municipio,G0005,,pending,,,,,,141127
+G0379,Las Tapias,council,Municipio,G0005,,pending,,,,,,141130
+G0380,Los Cerrillos,council,Municipio,G0005,,pending,,,,,,141132
+G0381,San Javier y Yacanto,council,Municipio,G0005,,pending,,,,,,141134
+G0382,San José,council,Municipio,G0005,,pending,,,,,,141141
+G0383,Villa de las Rosas,council,Municipio,G0005,,pending,,,,,,141148
+G0384,Villa Dolores,council,Municipio,G0005,,pending,,,,,,141155
+G0385,Alicia,council,Municipio,G0005,,pending,,,,,,141162
+G0386,Altos de Chipión,council,Municipio,G0005,,pending,,,,,,141169
+G0387,Arroyito,council,Municipio,G0005,,pending,,,,,,141176
+G0388,Balnearia,council,Municipio,G0005,,pending,,,,,,141183
+G0389,Brinkmann,council,Municipio,G0005,,pending,,,,,,141190
+G0390,Colonia Marina,council,Municipio,G0005,,pending,,,,,,141197
+G0391,Colonia Prosperidad,council,Municipio,G0005,,pending,,,,,,141204
+G0392,Colonia San Bartolomé,council,Municipio,G0005,,pending,,,,,,141211
+G0393,Colonia Vignaud,council,Municipio,G0005,,pending,,,,,,141218
+G0394,Devoto,council,Municipio,G0005,,pending,,,,,,141225
+G0395,El Arañado,council,Municipio,G0005,,pending,,,,,,141232
+G0396,El Fortín,council,Municipio,G0005,,pending,,,,,,141239
+G0397,El Tío,council,Municipio,G0005,,pending,,,,,,141246
+G0398,Freyre,council,Municipio,G0005,,pending,,,,,,141253
+G0399,La Francia,council,Municipio,G0005,,pending,,,,,,141260
+G0400,La Paquita,council,Municipio,G0005,,pending,,,,,,141267
+G0401,La Tordilla,council,Municipio,G0005,,pending,,,,,,141274
+G0402,Las Varas,council,Municipio,G0005,,pending,,,,,,141281
+G0403,Las Varillas,council,Municipio,G0005,,pending,,,,,,141288
+G0404,Marull,council,Municipio,G0005,,pending,,,,,,141295
+G0405,Miramar de Ansenuza,council,Municipio,G0005,,pending,,,,,,141302
+G0406,Morteros,council,Municipio,G0005,,pending,,,,,,141309
+G0407,Porteña,council,Municipio,G0005,,pending,,,,,,141316
+G0408,Quebracho Herrado,council,Municipio,G0005,,pending,,,,,,141323
+G0409,Sacanta,council,Municipio,G0005,,pending,,,,,,141330
+G0410,San Francisco,council,Municipio,G0005,,pending,,,,,,141337
+G0411,Saturnino María Laspiur,council,Municipio,G0005,,pending,,,,,,141344
+G0412,Seeber,council,Municipio,G0005,,pending,,,,,,141351
+G0413,Tránsito,council,Municipio,G0005,,pending,,,,,,141358
+G0414,Villa Concepción del Tío,council,Municipio,G0005,,pending,,,,,,141365
+G0415,Alta Gracia,council,Municipio,G0005,,pending,,,,,,141372
+G0416,Anisacate,council,Municipio,G0005,,pending,,,,,,141375
+G0417,Bouwer,council,Municipio,G0005,,pending,,,,,,141377
+G0418,Despeñaderos,council,Municipio,G0005,,pending,,,,,,141379
+G0419,Lozada,council,Municipio,G0005,,pending,,,,,,141386
+G0420,Malagueño,council,Municipio,G0005,,pending,,,,,,141393
+G0421,Monte Ralo,council,Municipio,G0005,,pending,,,,,,141400
+G0422,Toledo,council,Municipio,G0005,,pending,,,,,,141407
+G0423,Villa Parque Santa Ana,council,Municipio,G0005,,pending,,,,,,141410
+G0424,San Francisco del Chañar,council,Municipio,G0005,,pending,,,,,,141414
+G0425,Almafuerte,council,Municipio,G0005,,pending,,,,,,141421
+G0426,Colonia Almada,council,Municipio,G0005,,pending,,,,,,141428
+G0427,Corralito,council,Municipio,G0005,,pending,,,,,,141435
+G0428,Dalmacio Vélez,council,Municipio,G0005,,pending,,,,,,141442
+G0429,Hernando,council,Municipio,G0005,,pending,,,,,,141449
+G0430,James Craik,council,Municipio,G0005,,pending,,,,,,141456
+G0431,Las Perdices,council,Municipio,G0005,,pending,,,,,,141463
+G0432,Los Zorros,council,Municipio,G0005,,pending,,,,,,141470
+G0433,Oliva,council,Municipio,G0005,,pending,,,,,,141477
+G0434,Pampayasta Sud,council,Municipio,G0005,,pending,,,,,,141484
+G0435,Río Tercero,council,Municipio,G0005,,pending,,,,,,141491
+G0436,Tancacha,council,Municipio,G0005,,pending,,,,,,141498
+G0437,Villa Ascasubi,council,Municipio,G0005,,pending,,,,,,141505
+G0438,Cañada de Luque,council,Municipio,G0005,,pending,,,,,,141512
+G0439,Las Peñas,council,Municipio,G0005,,pending,,,,,,141519
+G0440,Sarmiento,council,Municipio,G0005,,pending,,,,,,141526
+G0441,Sinsacate,council,Municipio,G0005,,pending,,,,,,141533
+G0442,Villa del Totoral,council,Municipio,G0005,,pending,,,,,,141540
+G0443,Las Arrias,council,Municipio,G0005,,pending,,,,,,141547
+G0444,Lucio Victorio Mansilla,council,Municipio,G0005,,pending,,,,,,141554
+G0445,San José de la Dormida,council,Municipio,G0005,,pending,,,,,,141561
+G0446,San José de las Salinas,council,Municipio,G0005,,pending,,,,,,141568
+G0447,San Pedro Norte,council,Municipio,G0005,,pending,,,,,,141575
+G0448,Villa Tulumba,council,Municipio,G0005,,pending,,,,,,141582
+G0449,Alto Alegre,council,Municipio,G0005,,pending,,,,,,141589
+G0450,Ballesteros,council,Municipio,G0005,,pending,,,,,,141596
+G0451,Ballesteros Sud,council,Municipio,G0005,,pending,,,,,,141603
+G0452,Bell Ville,council,Municipio,G0005,,pending,,,,,,141610
+G0453,Benjamín Gould,council,Municipio,G0005,,pending,,,,,,141617
+G0454,Canals,council,Municipio,G0005,,pending,,,,,,141624
+G0455,Chilibroste,council,Municipio,G0005,,pending,,,,,,141631
+G0456,Cintra,council,Municipio,G0005,,pending,,,,,,141638
+G0457,Colonia Bismarck,council,Municipio,G0005,,pending,,,,,,141645
+G0458,Idiazábal,council,Municipio,G0005,,pending,,,,,,141652
+G0459,Justiniano Posse,council,Municipio,G0005,,pending,,,,,,141659
+G0460,Laborde,council,Municipio,G0005,,pending,,,,,,141666
+G0461,Monte Leña,council,Municipio,G0005,,pending,,,,,,141673
+G0462,Monte Maíz,council,Municipio,G0005,,pending,,,,,,141680
+G0463,Morrison,council,Municipio,G0005,,pending,,,,,,141687
+G0464,Noetinger,council,Municipio,G0005,,pending,,,,,,141694
+G0465,Ordóñez,council,Municipio,G0005,,pending,,,,,,141701
+G0466,Pascanas,council,Municipio,G0005,,pending,,,,,,141708
+G0467,Pueblo Italiano,council,Municipio,G0005,,pending,,,,,,141715
+G0468,San Antonio de Litín,council,Municipio,G0005,,pending,,,,,,141722
+G0469,San Marcos Sud,council,Municipio,G0005,,pending,,,,,,141729
+G0470,Viamonte,council,Municipio,G0005,,pending,,,,,,141736
+G0471,Wenceslao Escalante,council,Municipio,G0005,,pending,,,,,,141743
+G0472,Amboy,council,Comuna,G0005,,pending,,,,,,142007
+G0473,Parque Calmayo,council,Comuna,G0005,,pending,,,,,,142014
+G0474,Cañada del Sauce,council,Comuna,G0005,,pending,,,,,,142021
+G0475,Las Bajadas,council,Comuna,G0005,,pending,,,,,,142028
+G0476,Las Caleras,council,Comuna,G0005,,pending,,,,,,142035
+G0477,Los Molinos,council,Comuna,G0005,,pending,,,,,,142042
+G0478,Los Reartes,council,Comuna,G0005,,pending,,,,,,142049
+G0479,Lutti,council,Comuna,G0005,,pending,,,,,,142056
+G0480,San Ignacio,council,Comuna,G0005,,pending,,,,,,142063
+G0481,Segunda Usina,council,Comuna,G0005,,pending,,,,,,142070
+G0482,Villa Amancay,council,Comuna,G0005,,pending,,,,,,142077
+G0483,Villa Ciudad Parque Los Reartes,council,Comuna,G0005,,pending,,,,,,142084
+G0484,Villa Quillinzo,council,Comuna,G0005,,pending,,,,,,142091
+G0485,Colonia Vicente Agüero,council,Comuna,G0005,,pending,,,,,,142098
+G0486,El Manzano,council,Comuna,G0005,,pending,,,,,,142105
+G0487,Villa Cerro Azul,council,Comuna,G0005,,pending,,,,,,142126
+G0488,Alto de los Quebrachos,council,Comuna,G0005,,pending,,,,,,142133
+G0489,Bañado de Soto,council,Comuna,G0005,,pending,,,,,,142140
+G0490,Cruz de Caña,council,Comuna,G0005,,pending,,,,,,142147
+G0491,Guanaco Muerto,council,Comuna,G0005,,pending,,,,,,142161
+G0492,La Batea,council,Comuna,G0005,,pending,,,,,,142168
+G0493,La Higuera,council,Comuna,G0005,,pending,,,,,,142175
+G0494,Las Cañadas,council,Comuna,G0005,,pending,,,,,,142182
+G0495,Las Playas,council,Comuna,G0005,,pending,,,,,,142189
+G0496,Los Chañaritos (142196),council,Comuna,G0005,,pending,,,,,Disambiguated by official code.,142196
+G0497,Media Naranja,council,Comuna,G0005,,pending,,,,,,142203
+G0498,Paso Viejo,council,Comuna,G0005,,pending,,,,,,142210
+G0499,Tuclame,council,Comuna,G0005,,pending,,,,,,142217
+G0500,Nicolás Bruzzone,council,Comuna,G0005,,pending,,,,,,142224
+G0501,Onagoity,council,Comuna,G0005,,pending,,,,,,142231
+G0502,Pincén,council,Comuna,G0005,,pending,,,,,,142238
+G0503,Ranqueles,council,Comuna,G0005,,pending,,,,,,142245
+G0504,Villa Sarmiento (142252),council,Comuna,G0005,,pending,,,,,Disambiguated by official code.,142252
+G0505,Avellaneda,council,Comuna,G0005,,pending,,,,,,142259
+G0506,Cañada de Río Pinto,council,Comuna,G0005,,pending,,,,,,142266
+G0507,Chuña,council,Comuna,G0005,,pending,,,,,,142273
+G0508,Copacabana,council,Comuna,G0005,,pending,,,,,,142280
+G0509,Los Pozos,council,Comuna,G0005,,pending,,,,,,142287
+G0510,Olivares de San Nicolás,council,Comuna,G0005,,pending,,,,,,142294
+G0511,Villa Gutiérrez,council,Comuna,G0005,,pending,,,,,,142301
+G0512,Assunta,council,Comuna,G0005,,pending,,,,,,142308
+G0513,El Rastreador,council,Comuna,G0005,,pending,,,,,,142315
+G0514,Pacheco de Melo,council,Comuna,G0005,,pending,,,,,,142322
+G0515,Paso del Durazno,council,Comuna,G0005,,pending,,,,,,142329
+G0516,Colonia Barge,council,Comuna,G0005,,pending,,,,,,142336
+G0517,Saladillo,council,Comuna,G0005,,pending,,,,,,142343
+G0518,Villa Elisa,council,Comuna,G0005,,pending,,,,,,142350
+G0519,Ciénaga del Coro,council,Comuna,G0005,,pending,,,,,,142357
+G0520,El Chacho,council,Comuna,G0005,,pending,,,,,,142364
+G0521,Estancia de Guadalupe,council,Comuna,G0005,,pending,,,,,,142371
+G0522,Guasapampa,council,Comuna,G0005,,pending,,,,,,142378
+G0523,La Playa,council,Comuna,G0005,,pending,,,,,,142385
+G0524,Talaini,council,Comuna,G0005,,pending,,,,,,142392
+G0525,Tosno,council,Comuna,G0005,,pending,,,,,,142399
+G0526,Chancani,council,Comuna,G0005,,pending,,,,,,142406
+G0527,Las Palmas,council,Comuna,G0005,,pending,,,,,,142413
+G0528,Los Talares,council,Comuna,G0005,,pending,,,,,,142420
+G0529,San Gerónimo,council,Comuna,G0005,,pending,,,,,,142427
+G0530,Tala Cañada,council,Comuna,G0005,,pending,,,,,,142434
+G0531,Villa de Pocho,council,Comuna,G0005,,pending,,,,,,142441
+G0532,Leguizamón,council,Comuna,G0005,,pending,,,,,,142448
+G0533,Río Bamba,council,Comuna,G0005,,pending,,,,,,142455
+G0534,San Joaquín,council,Comuna,G0005,,pending,,,,,,142462
+G0535,Cabalango,council,Comuna,G0005,,pending,,,,,,142469
+G0536,Casa Grande,council,Comuna,G0005,,pending,,,,,,142476
+G0537,Charbonier,council,Comuna,G0005,,pending,,,,,,142483
+G0538,Cuesta Blanca,council,Comuna,G0005,,pending,,,,,,142490
+G0539,Estancia Vieja,council,Comuna,G0005,,pending,,,,,,142497
+G0540,Mayu Sumaj,council,Comuna,G0005,,pending,,,,,,142504
+G0541,San Roque,council,Comuna,G0005,,pending,,,,,,142518
+G0542,Tala Huasi,council,Comuna,G0005,,pending,,,,,,142525
+G0543,Villa Parque Síquiman,council,Comuna,G0005,,pending,,,,,,142532
+G0544,Chucul,council,Comuna,G0005,,pending,,,,,,142553
+G0545,La Carolina El Potosí,council,Comuna,G0005,,pending,,,,,,142560
+G0546,Las Albahacas,council,Comuna,G0005,,pending,,,,,,142567
+G0547,Las Peñas Sud,council,Comuna,G0005,,pending,,,,,,142574
+G0548,Malena,council,Comuna,G0005,,pending,,,,,,142581
+G0549,Suco,council,Comuna,G0005,,pending,,,,,,142588
+G0550,Villa El Chacay,council,Comuna,G0005,,pending,,,,,,142595
+G0551,Washington,council,Comuna,G0005,,pending,,,,,,142602
+G0552,Atahona,council,Comuna,G0005,,pending,,,,,,142609
+G0553,Cañada de Machado,council,Comuna,G0005,,pending,,,,,,142616
+G0554,Capilla de los Remedios,council,Comuna,G0005,,pending,,,,,,142623
+G0555,Chalacea,council,Comuna,G0005,,pending,,,,,,142630
+G0556,Colonia Las Cuatro Esquinas,council,Comuna,G0005,,pending,,,,,,142637
+G0557,Comechingones,council,Comuna,G0005,,pending,,,,,,142644
+G0558,Diego de Rojas,council,Comuna,G0005,,pending,,,,,,142651
+G0559,El Crispín,council,Comuna,G0005,,pending,,,,,,142658
+G0560,Esquina,council,Comuna,G0005,,pending,,,,,,142665
+G0561,Kilómetro 658,council,Comuna,G0005,,pending,,,,,,142672
+G0562,La Posta,council,Comuna,G0005,,pending,,,,,,142679
+G0563,La Quinta,council,Comuna,G0005,,pending,,,,,,142686
+G0564,Las Gramillas,council,Comuna,G0005,,pending,,,,,,142693
+G0565,Las Saladas,council,Comuna,G0005,,pending,,,,,,142700
+G0566,Maquinista Gallini,council,Comuna,G0005,,pending,,,,,,142707
+G0567,Plaza de Mercedes,council,Comuna,G0005,,pending,,,,,,142714
+G0568,Sagrada Familia,council,Comuna,G0005,,pending,,,,,,142721
+G0569,Tinoco,council,Comuna,G0005,,pending,,,,,,142728
+G0570,Cerro Colorado,council,Comuna,G0005,,pending,,,,,,142735
+G0571,Chañar Viejo,council,Comuna,G0005,,pending,,,,,,142742
+G0572,Eufrasio Loza,council,Comuna,G0005,,pending,,,,,,142749
+G0573,Gutemberg,council,Comuna,G0005,,pending,,,,,,142756
+G0574,La Rinconada,council,Comuna,G0005,,pending,,,,,,142763
+G0575,Los Hoyos,council,Comuna,G0005,,pending,,,,,,142770
+G0576,Puesto de Castro,council,Comuna,G0005,,pending,,,,,,142777
+G0577,Rayo Cortado,council,Comuna,G0005,,pending,,,,,,142784
+G0578,Santa Elena,council,Comuna,G0005,,pending,,,,,,142791
+G0579,Villa Candelaria Norte,council,Comuna,G0005,,pending,,,,,,142798
+G0580,Colonia Videla,council,Comuna,G0005,,pending,,,,,,142805
+G0581,Impira,council,Comuna,G0005,,pending,,,,,,142812
+G0582,Los Chañaritos (142819),council,Comuna,G0005,,pending,,,,,Disambiguated by official code.,142819
+G0583,Rincón,council,Comuna,G0005,,pending,,,,,,142826
+G0584,Ambul,council,Comuna,G0005,,pending,,,,,,142833
+G0585,Arroyo de los Patos,council,Comuna,G0005,,pending,,,,,,142840
+G0586,Las Calles,council,Comuna,G0005,,pending,,,,,,142847
+G0587,Las Rabonas,council,Comuna,G0005,,pending,,,,,,142854
+G0588,Panaholma,council,Comuna,G0005,,pending,,,,,,142861
+G0589,San Lorenzo,council,Comuna,G0005,,pending,,,,,,142868
+G0590,San Vicente,council,Comuna,G0005,,pending,,,,,,142875
+G0591,Sauce Arriba,council,Comuna,G0005,,pending,,,,,,142882
+G0592,Conlara,council,Comuna,G0005,,pending,,,,,,142889
+G0593,La Población,council,Comuna,G0005,,pending,,,,,,142896
+G0594,Los Hornillos,council,Comuna,G0005,,pending,,,,,,142917
+G0595,Luyaba,council,Comuna,G0005,,pending,,,,,,142924
+G0596,Colonia Anita,council,Comuna,G0005,,pending,,,,,,142931
+G0597,Colonia Iturraspe,council,Comuna,G0005,,pending,,,,,,142938
+G0598,Colonia Las Pichanas,council,Comuna,G0005,,pending,,,,,,142945
+G0599,Colonia San Pedro,council,Comuna,G0005,,pending,,,,,,142952
+G0600,Colonia Valtelina,council,Comuna,G0005,,pending,,,,,,142959
+G0601,Plaza Luxardo,council,Comuna,G0005,,pending,,,,,,142966
+G0602,Toro Pujio,council,Comuna,G0005,,pending,,,,,,142973
+G0603,Villa San Esteban,council,Comuna,G0005,,pending,,,,,,142980
+G0604,Dique Chico,council,Comuna,G0005,,pending,,,,,,143001
+G0605,Falda del Carmen,council,Comuna,G0005,,pending,,,,,,143008
+G0606,La Cumbrecita,council,Comuna,G0005,,pending,,,,,,143015
+G0607,La Paisanita,council,Comuna,G0005,,pending,,,,,,143022
+G0608,La Rancherita,council,Comuna,G0005,,pending,,,,,,143029
+G0609,La Serranita,council,Comuna,G0005,,pending,,,,,,143036
+G0610,Los Cedros,council,Comuna,G0005,,pending,,,,,,143043
+G0611,Potrero de Garay,council,Comuna,G0005,,pending,,,,,,143050
+G0612,Rafael García,council,Comuna,G0005,,pending,,,,,,143057
+G0613,San Clemente,council,Comuna,G0005,,pending,,,,,,143064
+G0614,Valle de Anisacate,council,Comuna,G0005,,pending,,,,,,143071
+G0615,Villa Ciudad de América,council,Comuna,G0005,,pending,,,,,,143078
+G0616,Villa del Prado,council,Comuna,G0005,,pending,,,,,,143085
+G0617,Villa La Bolsa,council,Comuna,G0005,,pending,,,,,,143092
+G0618,Villa Los Aromos,council,Comuna,G0005,,pending,,,,,,143099
+G0619,Villa San Isidro,council,Comuna,G0005,,pending,,,,,,143113
+G0620,Caminiaga,council,Comuna,G0005,,pending,,,,,,143120
+G0621,Chuña Huasi,council,Comuna,G0005,,pending,,,,,,143127
+G0622,Pozo Nuevo,council,Comuna,G0005,,pending,,,,,,143134
+G0623,General Fotheringham,council,Comuna,G0005,,pending,,,,,,143141
+G0624,Las Isletillas,council,Comuna,G0005,,pending,,,,,,143148
+G0625,Pampayasta Norte,council,Comuna,G0005,,pending,,,,,,143155
+G0626,Punta del Agua,council,Comuna,G0005,,pending,,,,,,143162
+G0627,Candelaria Sud,council,Comuna,G0005,,pending,,,,,,143169
+G0628,Capilla de Sitón,council,Comuna,G0005,,pending,,,,,,143176
+G0629,La Pampa,council,Comuna,G0005,,pending,,,,,,143183
+G0630,Los Mistoles,council,Comuna,G0005,,pending,,,,,,143190
+G0631,Simbolar,council,Comuna,G0005,,pending,,,,,,143197
+G0632,Churqui Cañada,council,Comuna,G0005,,pending,,,,,,143204
+G0633,El Rodeo,council,Comuna,G0005,,pending,,,,,,143211
+G0634,Rosario del Saladillo,council,Comuna,G0005,,pending,,,,,,143218
+G0635,Aldea Santa María,council,Comuna,G0005,,pending,,,,,,143225
+G0636,Ana Zumarán,council,Comuna,G0005,,pending,,,,,,143232
+G0637,Colonia Bremen,council,Comuna,G0005,,pending,,,,,,143239
+G0638,Villa Los Patos,council,Comuna,G0005,,pending,,,,,,143246
+G0639,Bella Vista,council,Municipio,G0006,,pending,,,,,,180007
+G0640,Tres de Abril,council,Municipio,G0006,,pending,,,,,,180010
+G0641,San Antonio de Itatí,council,Municipio,G0006,,pending,,,,,,180014
+G0642,Corrientes,council,Municipio,G0006,,pending,,,,,,180021
+G0643,Riachuelo,council,Municipio,G0006,,pending,,,,,,180028
+G0644,Santa Rosa,council,Municipio,G0006,,pending,,,,,,180035
+G0645,Concepción del Yaguareté Corá,council,Municipio,G0006,,pending,,,,,,180042
+G0646,Tabay,council,Municipio,G0006,,pending,,,,,,180049
+G0647,Tatacuá,council,Municipio,G0006,,pending,,,,,,180056
+G0648,Cazadores Correntinos,council,Municipio,G0006,,pending,,,,,,180059
+G0649,Curuzú Cuatiá,council,Municipio,G0006,,pending,,,,,,180063
+G0650,Perugorría,council,Municipio,G0006,,pending,,,,,,180070
+G0651,El Sombrero,council,Municipio,G0006,,pending,,,,,,180073
+G0652,Empedrado,council,Municipio,G0006,,pending,,,,,,180077
+G0653,Manuel Derqui,council,Municipio,G0006,,pending,,,,,,180081
+G0654,Esquina,council,Municipio,G0006,,pending,,,,,,180084
+G0655,Pueblo Libertador,council,Municipio,G0006,,pending,,,,,,180091
+G0656,Alvear,council,Municipio,G0006,,pending,,,,,,180098
+G0657,Estación Torrent,council,Municipio,G0006,,pending,,,,,,180105
+G0658,Caá Catí,council,Municipio,G0006,,pending,,,,,,180112
+G0659,Itá Ibaté,council,Municipio,G0006,,pending,,,,,,180119
+G0660,Lomas de Vallejos,council,Municipio,G0006,,pending,,,,,,180126
+G0661,Palmar Grande,council,Municipio,G0006,,pending,,,,,,180133
+G0662,Carolina,council,Municipio,G0006,,pending,,,,,,180137
+G0663,Goya,council,Municipio,G0006,,pending,,,,,,180140
+G0664,San Isidro,council,Municipio,G0006,,pending,,,,,,180143
+G0665,Itatí,council,Municipio,G0006,,pending,,,,,,180147
+G0666,Ramada Paso,council,Municipio,G0006,,pending,,,,,,180154
+G0667,Colonia Liebig,council,Municipio,G0006,,pending,,,,,,180161
+G0668,Ituzaingó,council,Municipio,G0006,,pending,,,,,,180168
+G0669,San Antonio Isla Apipé Grande,council,Municipio,G0006,,pending,,,,,,180175
+G0670,San Carlos,council,Municipio,G0006,,pending,,,,,,180182
+G0671,Villa Olivari,council,Municipio,G0006,,pending,,,,,,180186
+G0672,Cecilio Echavarría,council,Municipio,G0006,,pending,,,,,,180188
+G0673,Cruz de los Milagros,council,Municipio,G0006,,pending,,,,,,180189
+G0674,Gobernador Martínez,council,Municipio,G0006,,pending,,,,,,180196
+G0675,Lavalle,council,Municipio,G0006,,pending,,,,,,180203
+G0676,Santa Lucía,council,Municipio,G0006,,pending,,,,,,180210
+G0677,Yatay Ti Calle,council,Municipio,G0006,,pending,,,,,,180217
+G0678,Mburucuyá,council,Municipio,G0006,,pending,,,,,,180224
+G0679,Felipe Yofre,council,Municipio,G0006,,pending,,,,,,180231
+G0680,Mariano I. Loza,council,Municipio,G0006,,pending,,,,,,180238
+G0681,Mercedes,council,Municipio,G0006,,pending,,,,,,180245
+G0682,Colonia Libertad,council,Municipio,G0006,,pending,,,,,,180252
+G0683,Juan Pujol,council,Municipio,G0006,,pending,,,,,,180259
+G0684,Mocoretá,council,Municipio,G0006,,pending,,,,,,180266
+G0685,Monte Caseros,council,Municipio,G0006,,pending,,,,,,180273
+G0686,Bonpland,council,Municipio,G0006,,pending,,,,,,180280
+G0687,Parada Pucheta,council,Municipio,G0006,,pending,,,,,,180287
+G0688,Paso de los Libres,council,Municipio,G0006,,pending,,,,,,180294
+G0689,Tapebicuá,council,Municipio,G0006,,pending,,,,,,180301
+G0690,Saladas,council,Municipio,G0006,,pending,,,,,,180308
+G0691,San Lorenzo,council,Municipio,G0006,,pending,,,,,,180315
+G0692,Pago de los Deseos,council,Municipio,G0006,,pending,,,,,,180318
+G0693,Paso de la Patria,council,Municipio,G0006,,pending,,,,,,180322
+G0694,San Cosme,council,Municipio,G0006,,pending,,,,,,180329
+G0695,Santa Ana de los Guácaras,council,Municipio,G0006,,pending,,,,,,180336
+G0696,Herlitzka,council,Municipio,G0006,,pending,,,,,,180343
+G0697,San Luis del Palmar,council,Municipio,G0006,,pending,,,,,,180350
+G0698,Carlos Pellegrini,council,Municipio,G0006,,pending,,,,,,180357
+G0699,Guaviraví,council,Municipio,G0006,,pending,,,,,,180364
+G0700,La Cruz,council,Municipio,G0006,,pending,,,,,,180371
+G0701,Yapeyú,council,Municipio,G0006,,pending,,,,,,180378
+G0702,Loreto,council,Municipio,G0006,,pending,,,,,,180385
+G0703,San Miguel,council,Municipio,G0006,,pending,,,,,,180392
+G0704,9 de Julio,council,Municipio,G0006,,pending,,,,,,180399
+G0705,Pedro R. Fernández,council,Municipio,G0006,,pending,,,,,,180406
+G0706,Chavarría,council,Municipio,G0006,,pending,,,,,,180413
+G0707,Colonia Pando,council,Municipio,G0006,,pending,,,,,,180417
+G0708,San Roque,council,Municipio,G0006,,pending,,,,,,180420
+G0709,Garruchos,council,Municipio,G0006,,pending,,,,,,180427
+G0710,Gobernador Ingeniero Valentín Virasoro,council,Municipio,G0006,,pending,,,,,,180434
+G0711,Garaví,council,Municipio,G0006,,pending,,,,,,180441
+G0712,Santo Tomé,council,Municipio,G0006,,pending,,,,,,180448
+G0713,Sauce,council,Municipio,G0006,,pending,,,,,,180455
+G0714,Concepción del Bermejo,council,Municipio,G0007,,pending,,,,,,220007
+G0715,Los Frentones,council,Municipio,G0007,,pending,,,,,,220014
+G0716,Pampa del Infierno,council,Municipio,G0007,,pending,,,,,,220021
+G0717,Taco Pozo,council,Municipio,G0007,,pending,,,,,,220028
+G0718,General Vedia,council,Municipio,G0007,,pending,,,,,,220035
+G0719,Isla del Cerrito,council,Municipio,G0007,,pending,,,,,,220042
+G0720,La Leonesa,council,Municipio,G0007,,pending,,,,,,220049
+G0721,Las Palmas,council,Municipio,G0007,,pending,,,,,,220056
+G0722,Puerto Bermejo,council,Municipio,G0007,,pending,,,,,,220063
+G0723,Puerto Eva Perón,council,Municipio,G0007,,pending,,,,,,220070
+G0724,Presidencia Roque Sáenz Peña,council,Municipio,G0007,,pending,,,,,,220077
+G0725,Charata,council,Municipio,G0007,,pending,,,,,,220084
+G0726,Gancedo,council,Municipio,G0007,,pending,,,,,,220091
+G0727,General Capdevila,council,Municipio,G0007,,pending,,,,,,220098
+G0728,General Pinedo,council,Municipio,G0007,,pending,,,,,,220105
+G0729,Hermoso Campo,council,Municipio,G0007,,pending,,,,,,220112
+G0730,Chorotis,council,Municipio,G0007,,pending,,,,,,220119
+G0731,Santa Sylvina,council,Municipio,G0007,,pending,,,,,,220126
+G0732,Corzuela,council,Municipio,G0007,,pending,,,,,,220133
+G0733,La Escondida,council,Municipio,G0007,,pending,,,,,,220140
+G0734,Lapachito,council,Municipio,G0007,,pending,,,,,,220147
+G0735,La Verde,council,Municipio,G0007,,pending,,,,,,220154
+G0736,Makallé,council,Municipio,G0007,,pending,,,,,,220161
+G0737,El Espinillo,council,Municipio,G0007,,pending,,,,,,220165
+G0738,El Sauzalito,council,Municipio,G0007,,pending,,,,,,220168
+G0739,Fuerte Esperanza,council,Municipio,G0007,,pending,,,,,,220175
+G0740,Juan José Castelli,council,Municipio,G0007,,pending,,,,,,220182
+G0741,Miraflores,council,Municipio,G0007,,pending,,,,,,220189
+G0742,Misión Nueva Pompeya,council,Municipio,G0007,,pending,,,,,,220196
+G0743,Villa Río Bermejito,council,Municipio,G0007,,pending,,,,,,220203
+G0744,Avia Terai,council,Municipio,G0007,,pending,,,,,,220210
+G0745,Campo Largo,council,Municipio,G0007,,pending,,,,,,220217
+G0746,Napenay,council,Municipio,G0007,,pending,,,,,,220224
+G0747,Colonia Popular,council,Municipio,G0007,,pending,,,,,,220231
+G0748,Laguna Blanca,council,Municipio,G0007,,pending,,,,,,220238
+G0749,Puerto Tirol,council,Municipio,G0007,,pending,,,,,,220245
+G0750,Ciervo Petiso,council,Municipio,G0007,,pending,,,,,,220252
+G0751,General San Martín,council,Municipio,G0007,,pending,,,,,,220259
+G0752,La Eduvigis,council,Municipio,G0007,,pending,,,,,,220266
+G0753,Laguna Limpia,council,Municipio,G0007,,pending,,,,,,220273
+G0754,Pampa Almirón,council,Municipio,G0007,,pending,,,,,,220280
+G0755,Pampa del Indio,council,Municipio,G0007,,pending,,,,,,220287
+G0756,Presidencia Roca,council,Municipio,G0007,,pending,,,,,,220294
+G0757,Tres Isletas,council,Municipio,G0007,,pending,,,,,,220301
+G0758,Coronel Du Graty,council,Municipio,G0007,,pending,,,,,,220308
+G0759,Enrique Urién,council,Municipio,G0007,,pending,,,,,,220315
+G0760,Villa Ángela,council,Municipio,G0007,,pending,,,,,,220322
+G0761,Las Breñas,council,Municipio,G0007,,pending,,,,,,220329
+G0762,La Clotilde,council,Municipio,G0007,,pending,,,,,,220336
+G0763,La Tigra,council,Municipio,G0007,,pending,,,,,,220343
+G0764,San Bernardo,council,Municipio,G0007,,pending,,,,,,220350
+G0765,Presidencia de la Plaza,council,Municipio,G0007,,pending,,,,,,220357
+G0766,Colonia Benítez,council,Municipio,G0007,,pending,,,,,,220364
+G0767,Margarita Belén,council,Municipio,G0007,,pending,,,,,,220371
+G0768,Quitilipi,council,Municipio,G0007,,pending,,,,,,220378
+G0769,Barranqueras,council,Municipio,G0007,,pending,,,,,,220385
+G0770,Basail,council,Municipio,G0007,,pending,,,,,,220392
+G0771,Fontana,council,Municipio,G0007,,pending,,,,,,220399
+G0772,Puerto Vilelas,council,Municipio,G0007,,pending,,,,,,220406
+G0773,Resistencia,council,Municipio,G0007,,pending,,,,,,220413
+G0774,Samuhú,council,Municipio,G0007,,pending,,,,,,220420
+G0775,Villa Berthet,council,Municipio,G0007,,pending,,,,,,220427
+G0776,Capitán Solari,council,Municipio,G0007,,pending,,,,,,220434
+G0777,Colonia Elisa,council,Municipio,G0007,,pending,,,,,,220441
+G0778,Colonias Unidas,council,Municipio,G0007,,pending,,,,,,220448
+G0779,Las Garcitas,council,Municipio,G0007,,pending,,,,,,220455
+G0780,Cote Lai,council,Municipio,G0007,,pending,,,,,,220462
+G0781,Charadai,council,Municipio,G0007,,pending,,,,,,220469
+G0782,Colonia Aborigen,council,Municipio,G0007,,pending,,,,,,220473
+G0783,Machagai,council,Municipio,G0007,,pending,,,,,,220476
+G0784,Puerto Madryn,council,Municipio,G0008,,pending,,,,,,260007
+G0785,Cholila,council,Municipio,G0008,,pending,,,,,,260014
+G0786,El Hoyo,council,Municipio,G0008,,pending,,,,,,260021
+G0787,El Maitén,council,Municipio,G0008,,pending,,,,,,260028
+G0788,Epuyén,council,Municipio,G0008,,pending,,,,,,260035
+G0789,Lago Puelo,council,Municipio,G0008,,pending,,,,,,260042
+G0790,Comodoro Rivadavia,council,Municipio,G0008,,pending,,,,,,260049
+G0791,Rada Tilly,council,Municipio,G0008,,pending,,,,,,260056
+G0792,Camarones,council,Municipio,G0008,,pending,,,,,,260063
+G0793,Corcovado,council,Municipio,G0008,,pending,,,,,,260070
+G0794,Esquel,council,Municipio,G0008,,pending,,,,,,260077
+G0795,Trevelin,council,Municipio,G0008,,pending,,,,,,260084
+G0796,Dolavon,council,Municipio,G0008,,pending,,,,,,260091
+G0797,Gaiman,council,Municipio,G0008,,pending,,,,,,260098
+G0798,Tecka,council,Municipio,G0008,,pending,,,,,,260105
+G0799,Rawson,council,Municipio,G0008,,pending,,,,,,260112
+G0800,Trelew,council,Municipio,G0008,,pending,,,,,,260119
+G0801,Alto Río Senguer,council,Municipio,G0008,,pending,,,,,,260126
+G0802,Río Mayo,council,Municipio,G0008,,pending,,,,,,260133
+G0803,Sarmiento,council,Municipio,G0008,,pending,,,,,,260140
+G0804,Gobernador Costa,council,Municipio,G0008,,pending,,,,,,260147
+G0805,José de San Martín,council,Municipio,G0008,,pending,,,,,,260154
+G0806,Río Pico,council,Municipio,G0008,,pending,,,,,,260161
+G0807,Gualjaina,council,Comisión de Fomento,G0008,,pending,,,,,,265007
+G0808,28 de Julio,council,Comisión de Fomento,G0008,,pending,,,,,,265014
+G0809,Paso de Indios,council,Comisión de Fomento,G0008,,pending,,,,,,265021
+G0810,Puerto Pirámides,council,Comisión de Fomento,G0008,,pending,,,,,,265028
+G0811,Cushamen,council,Comuna Rural,G0008,,pending,,,,,,268014
+G0812,Cerro Centinela,council,Comuna Rural,G0008,,pending,,,,,,268021
+G0813,Dique Florentino Ameghino,council,Comuna Rural,G0008,,pending,,,,,,268028
+G0814,Gastre,council,Comuna Rural,G0008,,pending,,,,,,268035
+G0815,Lagunita Salada,council,Comuna Rural,G0008,,pending,,,,,,268042
+G0816,Aldea Epulef,council,Comuna Rural,G0008,,pending,,,,,,268049
+G0817,Carrenleufú,council,Comuna Rural,G0008,,pending,,,,,,268056
+G0818,Colan Conhué,council,Comuna Rural,G0008,,pending,,,,,,268063
+G0819,Paso del Sapo,council,Comuna Rural,G0008,,pending,,,,,,268070
+G0820,Las Plumas,council,Comuna Rural,G0008,,pending,,,,,,268077
+G0821,Los Altares,council,Comuna Rural,G0008,,pending,,,,,,268084
+G0822,Aldea Beleiro,council,Comuna Rural,G0008,,pending,,,,,,268091
+G0823,Doctor Ricardo Rojas,council,Comuna Rural,G0008,,pending,,,,,,268098
+G0824,Facundo,council,Comuna Rural,G0008,,pending,,,,,,268105
+G0825,Lago Blanco,council,Comuna Rural,G0008,,pending,,,,,,268112
+G0826,Buen Pasto,council,Comuna Rural,G0008,,pending,,,,,,268119
+G0827,Gan Gan,council,Comuna Rural,G0008,,pending,,,,,,268126
+G0828,Telsen,council,Comuna Rural,G0008,,pending,,,,,,268133
+G0829,Aldea Apeleg,council,Comuna Rural,G0008,,pending,,,,,,268140
+G0830,Dr. Atilio Oscar Viglione,council,Comuna Rural,G0008,,pending,,,,,,268147
+G0831,Colón,council,Municipio,G0009,,pending,,,,,,300007
+G0832,Pueblo Liebig,council,Municipio,G0009,,pending,,,,,,300011
+G0833,San José,council,Municipio,G0009,,pending,,,,,,300014
+G0834,Ubajay,council,Municipio,G0009,,pending,,,,,,300021
+G0835,Villa Elisa,council,Municipio,G0009,,pending,,,,,,300028
+G0836,Colonia Ayuí,council,Municipio,G0009,,pending,,,,,,300035
+G0837,Concordia,council,Municipio,G0009,,pending,,,,,,300042
+G0838,Estancia Grande,council,Municipio,G0009,,pending,,,,,,300049
+G0839,La Criolla,council,Municipio,G0009,,pending,,,,,,300056
+G0840,Los Charrúas,council,Municipio,G0009,,pending,,,,,,300063
+G0841,Puerto Yeruá,council,Municipio,G0009,,pending,,,,,,300070
+G0842,Aldea Brasilera,council,Municipio,G0009,,pending,,,,,,300074
+G0843,Valle María,council,Municipio,G0009,,pending,,,,,,300077
+G0844,Diamante,council,Municipio,G0009,,pending,,,,,,300084
+G0845,General Ramírez,council,Municipio,G0009,,pending,,,,,,300091
+G0846,Libertador San Martín,council,Municipio,G0009,,pending,,,,,,300098
+G0847,Chajarí,council,Municipio,G0009,,pending,,,,,,300105
+G0848,Federación,council,Municipio,G0009,,pending,,,,,,300112
+G0849,Los Conquistadores,council,Municipio,G0009,,pending,,,,,,300115
+G0850,San Jaime de la Frontera,council,Municipio,G0009,,pending,,,,,,300119
+G0851,Santa Ana,council,Municipio,G0009,,pending,,,,,,300126
+G0852,Villa del Rosario,council,Municipio,G0009,,pending,,,,,,300133
+G0853,Conscripto Bernardi,council,Municipio,G0009,,pending,,,,,,300140
+G0854,Federal,council,Municipio,G0009,,pending,,,,,,300147
+G0855,Sauce de Luna,council,Municipio,G0009,,pending,,,,,,300154
+G0856,San José de Feliciano,council,Municipio,G0009,,pending,,,,,,300161
+G0857,General Galarza,council,Municipio,G0009,,pending,,,,,,300168
+G0858,Gualeguay,council,Municipio,G0009,,pending,,,,,,300175
+G0859,Aldea San Antonio (300182),council,Municipio,G0009,,pending,,,,,Disambiguated by official code.,300182
+G0860,Enrique Carbó,council,Municipio,G0009,,pending,,,,,,300184
+G0861,Gilbert,council,Municipio,G0009,,pending,,,,,,300185
+G0862,Gualeguaychú,council,Municipio,G0009,,pending,,,,,,300189
+G0863,Larroque,council,Municipio,G0009,,pending,,,,,,300196
+G0864,Pueblo General Belgrano,council,Municipio,G0009,,pending,,,,,,300199
+G0865,Urdinarrain,council,Municipio,G0009,,pending,,,,,,300203
+G0866,Ceibas,council,Municipio,G0009,,pending,,,,,,300210
+G0867,Ibicuy,council,Municipio,G0009,,pending,,,,,,300217
+G0868,Villa Paranacito,council,Municipio,G0009,,pending,,,,,,300224
+G0869,Alcaraz,council,Municipio,G0009,,pending,,,,,,300231
+G0870,Bovril,council,Municipio,G0009,,pending,,,,,,300238
+G0871,La Paz,council,Municipio,G0009,,pending,,,,,,300245
+G0872,Piedras Blancas,council,Municipio,G0009,,pending,,,,,,300252
+G0873,San Gustavo,council,Municipio,G0009,,pending,,,,,,300255
+G0874,Santa Elena,council,Municipio,G0009,,pending,,,,,,300259
+G0875,Aranguren,council,Municipio,G0009,,pending,,,,,,300266
+G0876,Villa Sabá Z. Hernández,council,Municipio,G0009,,pending,,,,,,300273
+G0877,Lucas González,council,Municipio,G0009,,pending,,,,,,300280
+G0878,Nogoyá,council,Municipio,G0009,,pending,,,,,,300287
+G0879,Aldea María Luisa,council,Municipio,G0009,,pending,,,,,,300291
+G0880,Cerrito,council,Municipio,G0009,,pending,,,,,,300294
+G0881,Colonia Avellaneda,council,Municipio,G0009,,pending,,,,,,300297
+G0882,Crespo,council,Municipio,G0009,,pending,,,,,,300301
+G0883,El Pingo,council,Municipio,G0009,,pending,,,,,,300305
+G0884,Hasenkamp,council,Municipio,G0009,,pending,,,,,,300308
+G0885,Villa Hernandarias,council,Municipio,G0009,,pending,,,,,,300315
+G0886,María Grande,council,Municipio,G0009,,pending,,,,,,300322
+G0887,Oro Verde,council,Municipio,G0009,,pending,,,,,,300329
+G0888,Paraná,council,Municipio,G0009,,pending,,,,,,300336
+G0889,Pueblo Brugo,council,Municipio,G0009,,pending,,,,,,300340
+G0890,San Benito,council,Municipio,G0009,,pending,,,,,,300343
+G0891,Seguí,council,Municipio,G0009,,pending,,,,,,300350
+G0892,Tabossi,council,Municipio,G0009,,pending,,,,,,300357
+G0893,Viale,council,Municipio,G0009,,pending,,,,,,300364
+G0894,Villa Urquiza,council,Municipio,G0009,,pending,,,,,,300371
+G0895,General Campos,council,Municipio,G0009,,pending,,,,,,300378
+G0896,San Salvador,council,Municipio,G0009,,pending,,,,,,300385
+G0897,Gobernador Mansilla,council,Municipio,G0009,,pending,,,,,,300392
+G0898,Maciá,council,Municipio,G0009,,pending,,,,,,300399
+G0899,Rosario del Tala,council,Municipio,G0009,,pending,,,,,,300406
+G0900,Basavilbaso,council,Municipio,G0009,,pending,,,,,,300413
+G0901,Caseros,council,Municipio,G0009,,pending,,,,,,300420
+G0902,Colonia Elía,council,Municipio,G0009,,pending,,,,,,300423
+G0903,Concepción del Uruguay,council,Municipio,G0009,,pending,,,,,,300427
+G0904,Herrera,council,Municipio,G0009,,pending,,,,,,300434
+G0905,1° de Mayo,council,Municipio,G0009,,pending,,,,,,300437
+G0906,Pronunciamiento,council,Municipio,G0009,,pending,,,,,,300441
+G0907,San Justo,council,Municipio,G0009,,pending,,,,,,300448
+G0908,Santa Anita,council,Municipio,G0009,,pending,,,,,,300455
+G0909,Villa Mantero,council,Municipio,G0009,,pending,,,,,,300462
+G0910,Victoria,council,Municipio,G0009,,pending,,,,,,300469
+G0911,Villa Clara,council,Municipio,G0009,,pending,,,,,,300476
+G0912,Villa Domínguez,council,Municipio,G0009,,pending,,,,,,300483
+G0913,Villaguay,council,Municipio,G0009,,pending,,,,,,300490
+G0914,Arroyo Barú,council,Comuna,G0009,,pending,,,,,,302007
+G0915,Pueblo Cazes,council,Comuna,G0009,,pending,,,,,,302042
+G0916,General Roca,council,Comuna,G0009,,pending,,,,,,302077
+G0917,Nueva Escocia,council,Comuna,G0009,,pending,,,,,,302084
+G0918,Pedernal,council,Comuna,G0009,,pending,,,,,,302091
+G0919,Aldea Protestante,council,Comuna,G0009,,pending,,,,,,302112
+G0920,Aldea Spatzenkutter,council,Comuna,G0009,,pending,,,,,,302126
+G0921,Colonia Ensayo,council,Comuna,G0009,,pending,,,,,,302133
+G0922,General Racedo,council,Comuna,G0009,,pending,,,,,,302161
+G0923,Las Cuevas,council,Comuna,G0009,,pending,,,,,,302175
+G0924,El Cimarrón,council,Comuna,G0009,,pending,,,,,,302287
+G0925,San Víctor,council,Comuna,G0009,,pending,,,,,,302376
+G0926,Aldea Asunción,council,Comuna,G0009,,pending,,,,,,302383
+G0927,Distrito Sexto,council,Comuna,G0009,,pending,,,,,,302411
+G0928,Aldea San Juan,council,Comuna,G0009,,pending,,,,,,302453
+G0929,Estación Parera,council,Junta de Gobierno,G0009,,pending,,,,,,302512
+G0930,Irazusta,council,Comuna,G0009,,pending,,,,,,302526
+G0931,Colonia Avigdor,council,Comuna,G0009,,pending,,,,,,302596
+G0932,"El Solar, Bertozzi y San Carlos",council,Comuna,G0009,,pending,,,,,,302638
+G0933,Ombú,council,Comuna,G0009,,pending,,,,,,302666
+G0934,Don Cristóbal II,council,Comuna,G0009,,pending,,,,,,302780
+G0935,Febre,council,Comuna,G0009,,pending,,,,,,302787
+G0936,XX de Septiembre,council,Comuna,G0009,,pending,,,,,,302808
+G0937,Aldea Santa María,council,Comuna,G0009,,pending,,,,,,302836
+G0938,Aldea Santa Rosa,council,Comuna,G0009,,pending,,,,,,302843
+G0939,Colonia Crespo,council,Comuna,G0009,,pending,,,,,,302899
+G0940,El Palenque,council,Comuna,G0009,,pending,,,,,,302927
+G0941,Estación Sosa,council,Comuna,G0009,,pending,,,,,,302941
+G0942,Villa Gobernador Luis F. Etchevehere,council,Comuna,G0009,,pending,,,,,,302948
+G0943,La Picada,council,Comuna,G0009,,pending,,,,,,302955
+G0944,Las Garzas,council,Comuna,G0009,,pending,,,,,,302962
+G0945,Paraje Las Tunas,council,Comuna,G0009,,pending,,,,,,302976
+G0946,Puerto Curtiembre,council,Comuna,G0009,,pending,,,,,,302999
+G0947,Sauce Montrull,council,Comuna,G0009,,pending,,,,,,303020
+G0948,Sauce Pinto,council,Comuna,G0009,,pending,,,,,,303027
+G0949,Tezanos Pinto,council,Comuna,G0009,,pending,,,,,,303034
+G0950,Villa Fontana,council,Comuna,G0009,,pending,,,,,,303041
+G0951,Durazno,council,Comuna,G0009,,pending,,,,,,303091
+G0952,Gobernador Echagüe,council,Comuna,G0009,,pending,,,,,,303098
+G0953,Gobernador Sola,council,Comuna,G0009,,pending,,,,,,303112
+G0954,Guardamonte,council,Comuna,G0009,,pending,,,,,,303119
+G0955,Tala,council,Comuna,G0009,,pending,,,,,,303154
+G0956,Las Moscas,council,Comuna,G0009,,pending,,,,,,303161
+G0957,Rocamora,council,Comuna,G0009,,pending,,,,,,303175
+G0958,San Cipriano,council,Comuna,G0009,,pending,,,,,,303182
+G0959,San Marcial,council,Comuna,G0009,,pending,,,,,,303189
+G0960,Rincón de Nogoyá,council,Comuna,G0009,,pending,,,,,,303245
+G0961,Rincón del Doll,council,Comuna,G0009,,pending,,,,,,303252
+G0962,Ingeniero Sajaroff,council,Comuna,G0009,,pending,,,,,,303273
+G0963,Jubileo,council,Comuna,G0009,,pending,,,,,,303280
+G0964,Paso de la Laguna,council,Comuna,G0009,,pending,,,,,,303329
+G0965,Colonia San Anselmo y Aledañas,council,Junta de Gobierno,G0009,,pending,,,,,,309007
+G0966,Hambis,council,Junta de Gobierno,G0009,,pending,,,,,,309010
+G0967,Colonia Hocker,council,Comuna,G0009,,pending,,,,,,309015
+G0968,San Miguel,council,Junta de Gobierno,G0009,,pending,,,,,,309029
+G0969,Clodomiro Ledesma,council,Comuna,G0009,,pending,,,,,,309035
+G0970,El Redomón,council,Junta de Gobierno,G0009,,pending,,,,,,309045
+G0971,Estación Yeruá,council,Comuna,G0009,,pending,,,,,,309050
+G0972,Estación Yuquerí,council,Comuna,G0009,,pending,,,,,,309055
+G0973,Colonia San Justo,council,Junta de Gobierno,G0009,,pending,,,,,,309070
+G0974,Aldea Grapschental,council,Junta de Gobierno,G0009,,pending,,,,,,309080
+G0975,Aldea Salto,council,Comuna,G0009,,pending,,,,,,309090
+G0976,Costa Grande,council,Junta de Gobierno,G0009,,pending,,,,,,309105
+G0977,Estación Camps,council,Comuna,G0009,,pending,,,,,,309110
+G0978,General Alvear,council,Comuna,G0009,,pending,,,,,,309120
+G0979,Isletas,council,Junta de Gobierno,G0009,,pending,,,,,,309125
+G0980,Colonia Alemana,council,Junta de Gobierno,G0009,,pending,,,,,,309135
+G0981,Colonia La Argentina,council,Junta de Gobierno,G0009,,pending,,,,,,309140
+G0982,Colonia Santa María y Las Margaritas,council,Junta de Gobierno,G0009,,pending,,,,,,309143
+G0983,Colonia Tunas,council,Comuna,G0009,,pending,,,,,,309145
+G0984,Gualeguaycito,council,Comuna,G0009,,pending,,,,,,309150
+G0985,La Florida,council,Junta de Gobierno,G0009,,pending,,,,,,309155
+G0986,La Fraternidad y Santa Juana,council,Junta de Gobierno,G0009,,pending,,,,,,309160
+G0987,San Pedro,council,Junta de Gobierno,G0009,,pending,,,,,,309175
+G0988,San Ramón,council,Junta de Gobierno,G0009,,pending,,,,,,309180
+G0989,San Roque,council,Junta de Gobierno,G0009,,pending,,,,,,309185
+G0990,Arroyo del Medio,council,Junta de Gobierno,G0009,,pending,,,,,,309190
+G0991,Arroyo Las Tunas,council,Junta de Gobierno,G0009,,pending,,,,,,309192
+G0992,Banderas,council,Junta de Gobierno,G0009,,pending,,,,,,309193
+G0993,Diego López,council,Junta de Gobierno,G0009,,pending,,,,,,309195
+G0994,El Gramiyal,council,Junta de Gobierno,G0009,,pending,,,,,,309205
+G0995,Paso Duarte,council,Junta de Gobierno,G0009,,pending,,,,,,309220
+G0996,Chañar,council,Comuna,G0009,,pending,,,,,,309230
+G0997,La Verbena,council,Junta de Gobierno,G0009,,pending,,,,,,309245
+G0998,Laguna Benítez,council,Junta de Gobierno,G0009,,pending,,,,,,309250
+G0999,Primer Distrito Cuchilla,council,Junta de Gobierno,G0009,,pending,,,,,,309280
+G1000,Isla Las Lechiguanas,council,Junta de Gobierno,G0009,,pending,,,,,,309302
+G1001,Costa Uruguay Norte,council,Junta de Gobierno,G0009,,pending,,,,,,309330
+G1002,Cuchilla Redonda,council,Junta de Gobierno,G0009,,pending,,,,,,309340
+G1003,Distrito Talitas,council,Junta de Gobierno,G0009,,pending,,,,,,309345
+G1004,Estación Escriña,council,Junta de Gobierno,G0009,,pending,,,,,,309355
+G1005,General Almada,council,Comuna,G0009,,pending,,,,,,309365
+G1006,Las Mercedes,council,Junta de Gobierno,G0009,,pending,,,,,,309375
+G1007,Rincón del Cinto,council,Junta de Gobierno,G0009,,pending,,,,,,309395
+G1008,Rincón del Gato,council,Junta de Gobierno,G0009,,pending,,,,,,309400
+G1009,Médanos,council,Comuna,G0009,,pending,,,,,,309405
+G1010,Alcaraz Norte,council,Junta de Gobierno,G0009,,pending,,,,,,309415
+G1011,Alcaraz Sur,council,Junta de Gobierno,G0009,,pending,,,,,,309420
+G1012,Colonia Carrasco,council,Junta de Gobierno,G0009,,pending,,,,,,309430
+G1013,Colonia Oficial N° 3 y 14,council,Junta de Gobierno,G0009,,pending,,,,,,309440
+G1014,Colonia Viraró,council,Junta de Gobierno,G0009,,pending,,,,,,309445
+G1015,El Quebracho,council,Junta de Gobierno,G0009,,pending,,,,,,309450
+G1016,Estaquitas,council,Junta de Gobierno,G0009,,pending,,,,,,309460
+G1017,La Providencia,council,Junta de Gobierno,G0009,,pending,,,,,,309465
+G1018,Picada Berón,council,Junta de Gobierno,G0009,,pending,,,,,,309480
+G1019,Puerto Algarrobo,council,Comuna,G0009,,pending,,,,,,309485
+G1020,San Ramírez,council,Junta de Gobierno,G0009,,pending,,,,,,309495
+G1021,Saucesito,council,Junta de Gobierno,G0009,,pending,,,,,,309497
+G1022,Sir Leonard,council,Comuna,G0009,,pending,,,,,,309500
+G1023,Yacaré,council,Junta de Gobierno,G0009,,pending,,,,,,309505
+G1024,Yeso Oeste,council,Junta de Gobierno,G0009,,pending,,,,,,309510
+G1025,Aldea San Miguel,council,Junta de Gobierno,G0009,,pending,,,,,,309515
+G1026,Betbeder,council,Comuna,G0009,,pending,,,,,,309520
+G1027,Crucesitas Octava,council,Junta de Gobierno,G0009,,pending,,,,,,309525
+G1028,Chiqueros,council,Junta de Gobierno,G0009,,pending,,,,,,309540
+G1029,Don Cristóbal I,council,Comuna,G0009,,pending,,,,,,309545
+G1030,Justo José de Urquiza,council,Junta de Gobierno,G0009,,pending,,,,,,309560
+G1031,Laurencena,council,Junta de Gobierno,G0009,,pending,,,,,,309565
+G1032,Aldea Eigenfeld,council,Junta de Gobierno,G0009,,pending,,,,,,309575
+G1033,Aldea San Antonio (309585),council,Junta de Gobierno,G0009,,pending,,,,,Disambiguated by official code.,309585
+G1034,Aldea San Rafael,council,Comuna,G0009,,pending,,,,,,309590
+G1035,Antonio Tomás,council,Comuna,G0009,,pending,,,,,,309605
+G1036,Arroyo Burgos,council,Junta de Gobierno,G0009,,pending,,,,,,309610
+G1037,Arroyo Corralito,council,Comuna,G0009,,pending,,,,,,309615
+G1038,Paraje Arroyo Maturrango,council,Junta de Gobierno,G0009,,pending,,,,,,309620
+G1039,Arroyo Palo Seco,council,Junta de Gobierno,G0009,,pending,,,,,,309625
+G1040,Colonia Celina,council,Junta de Gobierno,G0009,,pending,,,,,,309635
+G1041,Colonia Merou,council,Junta de Gobierno,G0009,,pending,,,,,,309650
+G1042,Distrito Tala,council,Junta de Gobierno,G0009,,pending,,,,,,309670
+G1043,Espinillo Norte,council,Junta de Gobierno,G0009,,pending,,,,,,309685
+G1044,María Grande 2da,council,Junta de Gobierno,G0009,,pending,,,,,,309705
+G1045,Paso de la Arena,council,Junta de Gobierno,G0009,,pending,,,,,,309710
+G1046,Paso de las Piedras,council,Junta de Gobierno,G0009,,pending,,,,,,309715
+G1047,Quebracho,council,Junta de Gobierno,G0009,,pending,,,,,,309730
+G1048,Santa Luisa,council,Junta de Gobierno,G0009,,pending,,,,,,309735
+G1049,Colonia Baylina,council,Comuna,G0009,,pending,,,,,,309770
+G1050,Colonia Oficial N° 5,council,Junta de Gobierno,G0009,,pending,,,,,,309775
+G1051,San Ernesto,council,Junta de Gobierno,G0009,,pending,,,,,,309780
+G1052,Walter Moss,council,Junta de Gobierno,G0009,,pending,,,,,,309785
+G1053,Altamirano Sur,council,Junta de Gobierno,G0009,,pending,,,,,,309790
+G1054,Arroyo Clé,council,Comuna,G0009,,pending,,,,,,309795
+G1055,La Ollita,council,Junta de Gobierno,G0009,,pending,,,,,,309820
+G1056,Las Guachas,council,Junta de Gobierno,G0009,,pending,,,,,,309825
+G1057,Arroyo Gená,council,Junta de Gobierno,G0009,,pending,,,,,,309832
+G1058,Chilcas,council,Junta de Gobierno,G0009,,pending,,,,,,309880
+G1059,Pajonal,council,Junta de Gobierno,G0009,,pending,,,,,,309885
+G1060,Hinojal,council,Junta de Gobierno,G0009,,pending,,,,,,309890
+G1061,Laguna del Pescado,council,Comuna,G0009,,pending,,,,,,309895
+G1062,Colonia Adivino,council,Junta de Gobierno,G0009,,pending,,,,,,309917
+G1063,Estación Raíces,council,Comuna,G0009,,pending,,,,,,309920
+G1064,Lucas Norte,council,Comuna,G0009,,pending,,,,,,309935
+G1065,Lucas Sur 1ro,council,Junta de Gobierno,G0009,,pending,,,,,,309940
+G1066,Lucas Sur 2do,council,Junta de Gobierno,G0009,,pending,,,,,,309945
+G1067,Mojones Norte,council,Junta de Gobierno,G0009,,pending,,,,,,309950
+G1068,Mojones Sur,council,Junta de Gobierno,G0009,,pending,,,,,,309955
+G1069,Paraje Los Algarrobos,council,Junta de Gobierno,G0009,,pending,,,,,,309957
+G1070,Raíces Oeste,council,Junta de Gobierno,G0009,,pending,,,,,,309965
+G1071,Laguna Yema,council,Municipio,G0010,,pending,,,,,,340007
+G1072,Formosa,council,Municipio,G0010,,pending,,,,,,340028
+G1073,General Lucio Victorio Mansilla,council,Municipio,G0010,,pending,,,,,,340049
+G1074,Herradura,council,Municipio,G0010,,pending,,,,,,340056
+G1075,Misión San Francisco de Laishi,council,Municipio,G0010,,pending,,,,,,340063
+G1076,Villa Escolar,council,Municipio,G0010,,pending,,,,,,340070
+G1077,Ingeniero Guillermo Nicasio Juárez,council,Municipio,G0010,,pending,,,,,,340077
+G1078,Comandante Fontana,council,Municipio,G0010,,pending,,,,,,340091
+G1079,Estanislao del Campo,council,Municipio,G0010,,pending,,,,,,340098
+G1080,General Manuel Belgrano,council,Municipio,G0010,,pending,,,,,,340112
+G1081,Villa General Güemes,council,Municipio,G0010,,pending,,,,,,340119
+G1082,Ibarreta,council,Municipio,G0010,,pending,,,,,,340126
+G1083,Las Lomitas,council,Municipio,G0010,,pending,,,,,,340133
+G1084,Pozo del Tigre,council,Municipio,G0010,,pending,,,,,,340140
+G1085,San Martín Dos,council,Municipio,G0010,,pending,,,,,,340147
+G1086,El Espinillo,council,Municipio,G0010,,pending,,,,,,340168
+G1087,Misión Tacaaglé,council,Municipio,G0010,,pending,,,,,,340175
+G1088,Clorinda,council,Municipio,G0010,,pending,,,,,,340189
+G1089,Laguna Blanca,council,Municipio,G0010,,pending,,,,,,340196
+G1090,Laguna Naick Neck,council,Municipio,G0010,,pending,,,,,,340203
+G1091,Riacho He-Hé,council,Municipio,G0010,,pending,,,,,,340210
+G1092,El Colorado,council,Municipio,G0010,,pending,,,,,,340224
+G1093,Mayor Villafañe,council,Municipio,G0010,,pending,,,,,,340231
+G1094,Palo Santo,council,Municipio,G0010,,pending,,,,,,340238
+G1095,Pirané,council,Municipio,G0010,,pending,,,,,,340245
+G1096,Villa Dos Trece,council,Municipio,G0010,,pending,,,,,,340252
+G1097,El Chorro,council,Municipio,G0010,,pending,,,,,,340259
+G1098,Los Chiriguanos,council,Comisión de Fomento,G0010,,pending,,,,,,345007
+G1099,Colonia Pastoril,council,Comisión de Fomento,G0010,,pending,,,,,,345014
+G1100,Gran Guardia,council,Comisión de Fomento,G0010,,pending,,,,,,345021
+G1101,San Hilario,council,Comisión de Fomento,G0010,,pending,,,,,,345028
+G1102,Pozo de Maza,council,Comisión de Fomento,G0010,,pending,,,,,,345035
+G1103,Fortín Lugones,council,Comisión de Fomento,G0010,,pending,,,,,,345042
+G1104,Subteniente Perín,council,Comisión de Fomento,G0010,,pending,,,,,,345049
+G1105,Buena Vista,council,Comisión de Fomento,G0010,,pending,,,,,,345056
+G1106,Tres Lagunas,council,Comisión de Fomento,G0010,,pending,,,,,,345063
+G1107,Siete Palmas,council,Comisión de Fomento,G0010,,pending,,,,,,345070
+G1108,Abra Pampa,council,Municipio,G0011,,pending,,,,,,380014
+G1109,San Salvador de Jujuy,council,Municipio,G0011,,pending,,,,,,380035
+G1110,Yala,council,Municipio,G0011,,pending,,,,,,380042
+G1111,Aguas Calientes,council,Municipio,G0011,,pending,,,,,,380049
+G1112,El Carmen,council,Municipio,G0011,,pending,,,,,,380056
+G1113,Monterrico,council,Municipio,G0011,,pending,,,,,,380063
+G1114,Pampa Blanca,council,Municipio,G0011,,pending,,,,,,380070
+G1115,Puesto Viejo,council,Municipio,G0011,,pending,,,,,,380074
+G1116,Perico,council,Municipio,G0011,,pending,,,,,,380077
+G1117,El Aguilar,council,Municipio,G0011,,pending,,,,,,380091
+G1118,Humahuaca,council,Municipio,G0011,,pending,,,,,,380105
+G1119,Caimancito,council,Municipio,G0011,,pending,,,,,,380119
+G1120,Calilegua,council,Municipio,G0011,,pending,,,,,,380126
+G1121,Fraile Pintado,council,Municipio,G0011,,pending,,,,,,380133
+G1122,Libertador General San Martín,council,Municipio,G0011,,pending,,,,,,380140
+G1123,Yuto,council,Municipio,G0011,,pending,,,,,,380147
+G1124,Palpalá,council,Municipio,G0011,,pending,,,,,,380154
+G1125,San Antonio,council,Municipio,G0011,,pending,,,,,,380161
+G1126,La Esperanza,council,Municipio,G0011,,pending,,,,,,380196
+G1127,La Mendieta,council,Municipio,G0011,,pending,,,,,,380203
+G1128,San Pedro de Jujuy,council,Municipio,G0011,,pending,,,,,,380224
+G1129,El Talar,council,Municipio,G0011,,pending,,,,,,380238
+G1130,Palma Sola,council,Municipio,G0011,,pending,,,,,,380245
+G1131,Santa Clara,council,Municipio,G0011,,pending,,,,,,380252
+G1132,Maimará,council,Municipio,G0011,,pending,,,,,,380322
+G1133,Tilcara,council,Municipio,G0011,,pending,,,,,,380329
+G1134,La Quiaca,council,Municipio,G0011,,pending,,,,,,380406
+G1135,Abdón Castro Tolay,council,Comisión Municipal,G0011,,pending,,,,,,386007
+G1136,Abralaite,council,Comisión Municipal,G0011,,pending,,,,,,386014
+G1137,Puesto del Marquéz,council,Comisión Municipal,G0011,,pending,,,,,,386021
+G1138,Hipólito Yrigoyen,council,Comisión Municipal,G0011,,pending,,,,,,386056
+G1139,Palca de Aparzo,council,Comisión Municipal,G0011,,pending,,,,,,386060
+G1140,Tres Cruces,council,Comisión Municipal,G0011,,pending,,,,,,386063
+G1141,Uquía,council,Comisión Municipal,G0011,,pending,,,,,,386067
+G1142,Mina Pirquitas,council,Comisión Municipal,G0011,,pending,,,,,,386070
+G1143,Rinconada,council,Comisión Municipal,G0011,,pending,,,,,,386077
+G1144,Arrayanal,council,Comisión Municipal,G0011,,pending,,,,,,386091
+G1145,El Fuerte,council,Comisión Municipal,G0011,,pending,,,,,,386098
+G1146,Rodeito,council,Comisión Municipal,G0011,,pending,,,,,,386105
+G1147,Rosario de Río Grande,council,Comisión Municipal,G0011,,pending,,,,,,386112
+G1148,El Piquete,council,Comisión Municipal,G0011,,pending,,,,,,386119
+G1149,Vinalito,council,Comisión Municipal,G0011,,pending,,,,,,386126
+G1150,Cieneguillas,council,Comisión Municipal,G0011,,pending,,,,,,386133
+G1151,Cusi Cusi,council,Comisión Municipal,G0011,,pending,,,,,,386140
+G1152,Santa Catalina,council,Comisión Municipal,G0011,,pending,,,,,,386147
+G1153,Catua,council,Comisión Municipal,G0011,,pending,,,,,,386154
+G1154,Coranzuli,council,Comisión Municipal,G0011,,pending,,,,,,386161
+G1155,Susques,council,Comisión Municipal,G0011,,pending,,,,,,386168
+G1156,Huacalera,council,Comisión Municipal,G0011,,pending,,,,,,386175
+G1157,El Moreno,council,Comisión Municipal,G0011,,pending,,,,,,386179
+G1158,Purmamarca,council,Comisiòn Municipal,G0011,,pending,,,,,,386189
+G1159,Tumbaya,council,Comisión Municipal,G0011,,pending,,,,,,386196
+G1160,Volcán,council,Comisión Municipal,G0011,,pending,,,,,,386203
+G1161,Caspalá,council,Comisión Municipal,G0011,,pending,,,,,,386210
+G1162,Pampichuela,council,Comisión Municipal,G0011,,pending,,,,,,386217
+G1163,San Francisco,council,Comisión Municipal,G0011,,pending,,,,,,386224
+G1164,Santa Ana,council,Comisión Municipal,G0011,,pending,,,,,,386231
+G1165,Valle Grande,council,Comisión Municipal,G0011,,pending,,,,,,386238
+G1166,Barrios,council,Comisión Municipal,G0011,,pending,,,,,,386245
+G1167,Cangrejillos,council,Comisión Municipal,G0011,,pending,,,,,,386252
+G1168,El Cóndor,council,Comisión Municipal,G0011,,pending,,,,,,386259
+G1169,Pumahuasi,council,Comisión Municipal,G0011,,pending,,,,,,386266
+G1170,Yavi,council,Comisión Municipal,G0011,,pending,,,,,,386273
+G1171,Abramo,council,Municipio,G0012,,pending,,,,,,420007
+G1172,Algarrobo del Águila,council,Comisión de Fomento,G0012,,pending,,,,,,420011
+G1173,Alpachiri,council,Municipio,G0012,,pending,,,,,,420014
+G1174,Alta Italia,council,Municipio,G0012,,pending,,,,,,420021
+G1175,Anguil,council,Municipio,G0012,,pending,,,,,,420028
+G1176,Arata,council,Municipio,G0012,,pending,,,,,,420035
+G1177,Ataliva Roca,council,Municipio,G0012,,pending,,,,,,420042
+G1178,Bernardo Larroudé,council,Municipio,G0012,,pending,,,,,,420049
+G1179,Bernasconi,council,Municipio,G0012,,pending,,,,,,420056
+G1180,Caleufú,council,Municipio,G0012,,pending,,,,,,420063
+G1181,Carro Quemado,council,Municipio,G0012,,pending,,,,,,420070
+G1182,Catriló,council,Municipio,G0012,,pending,,,,,,420077
+G1183,Ceballos,council,Municipio,G0012,,pending,,,,,,420084
+G1184,Colonia Barón,council,Municipio,G0012,,pending,,,,,,420091
+G1185,Conhelo,council,Municipio,G0012,,pending,,,,,,420098
+G1186,Coronel Hilario Lagos,council,Municipio,G0012,,pending,,,,,,420105
+G1187,Doblas,council,Municipio,G0012,,pending,,,,,,420112
+G1188,Dorila,council,Comisión de Fomento,G0012,,pending,,,,,,420116
+G1189,Eduardo Castex,council,Municipio,G0012,,pending,,,,,,420119
+G1190,Embajador Martini,council,Municipio,G0012,,pending,,,,,,420126
+G1191,General Acha,council,Municipio,G0012,,pending,,,,,,420133
+G1192,General Campos,council,Municipio,G0012,,pending,,,,,,420140
+G1193,General Pico,council,Municipio,G0012,,pending,,,,,,420147
+G1194,General San Martín,council,Municipio,G0012,,pending,,,,,,420154
+G1195,Gobernador Duval,council,Comisión de Fomento,G0012,,pending,,,,,,420158
+G1196,Guatraché,council,Municipio,G0012,,pending,,,,,,420161
+G1197,Ingeniero Luiggi,council,Municipio,G0012,,pending,,,,,,420168
+G1198,Intendente Alvear,council,Municipio,G0012,,pending,,,,,,420175
+G1199,Jacinto Aráuz,council,Municipio,G0012,,pending,,,,,,420182
+G1200,La Adela,council,Municipio,G0012,,pending,,,,,,420189
+G1201,La Humada,council,Municipio,G0012,,pending,,,,,,420196
+G1202,La Maruja,council,Municipio,G0012,,pending,,,,,,420210
+G1203,Lonquimay,council,Municipio,G0012,,pending,,,,,,420217
+G1204,Luan Toro,council,Municipio,G0012,,pending,,,,,,420224
+G1205,Macachín,council,Municipio,G0012,,pending,,,,,,420231
+G1206,Mauricio Mayer,council,Municipio,G0012,,pending,,,,,,420238
+G1207,Metileo,council,Municipio,G0012,,pending,,,,,,420245
+G1208,Miguel Cané,council,Municipio,G0012,,pending,,,,,,420252
+G1209,Miguel Riglos,council,Municipio,G0012,,pending,,,,,,420259
+G1210,Monte Nievas,council,Municipio,G0012,,pending,,,,,,420266
+G1211,Parera,council,Municipio,G0012,,pending,,,,,,420273
+G1212,Puelches,council,Municipio,G0012,,pending,,,,,,420280
+G1213,Puelén,council,Municipio,G0012,,pending,,,,,,420287
+G1214,Quehué,council,Municipio,G0012,,pending,,,,,,420294
+G1215,Quemú Quemú,council,Municipio,G0012,,pending,,,,,,420301
+G1216,Rancul,council,Municipio,G0012,,pending,,,,,,420308
+G1217,Realicó,council,Municipio,G0012,,pending,,,,,,420315
+G1218,Rolón,council,Municipio,G0012,,pending,,,,,,420322
+G1219,Santa Isabel,council,Municipio,G0012,,pending,,,,,,420329
+G1220,Santa Rosa,council,Municipio,G0012,,pending,,,,,,420336
+G1221,Colonia Santa Teresa,council,Municipio,G0012,,pending,,,,,,420343
+G1222,Telén,council,Municipio,G0012,,pending,,,,,,420350
+G1223,Toay,council,Municipio,G0012,,pending,,,,,,420357
+G1224,Tomás M. Anchorena,council,Municipio,G0012,,pending,,,,,,420364
+G1225,Trenel,council,Municipio,G0012,,pending,,,,,,420371
+G1226,Uriburu,council,Municipio,G0012,,pending,,,,,,420378
+G1227,Colonia 25 de Mayo,council,Municipio,G0012,,pending,,,,,,420385
+G1228,Vértiz,council,Municipio,G0012,,pending,,,,,,420392
+G1229,Victorica,council,Municipio,G0012,,pending,,,,,,420399
+G1230,Villa Mirasol,council,Municipio,G0012,,pending,,,,,,420406
+G1231,Winifreda,council,Municipio,G0012,,pending,,,,,,420413
+G1232,Casa de Piedra,council,Comuna,G0012,,pending,,,,,,422007
+G1233,Adolfo Van Praet,council,Comisión de Fomento,G0012,,pending,,,,,,425007
+G1234,Agustoni,council,Comisión de Fomento,G0012,,pending,,,,,,425014
+G1235,Colonia Santa María,council,Comisión de Fomento,G0012,,pending,,,,,,425028
+G1236,Cuchillo Có,council,Comisión de Fomento,G0012,,pending,,,,,,425042
+G1237,Chacharramendi,council,Comisión de Fomento,G0012,,pending,,,,,,425049
+G1238,Falucho,council,Comisión de Fomento,G0012,,pending,,,,,,425063
+G1239,La Reforma,council,Comisión de Fomento,G0012,,pending,,,,,,425077
+G1240,Limay Mahuida,council,Comisión de Fomento,G0012,,pending,,,,,,425084
+G1241,Loventué,council,Comisión de Fomento,G0012,,pending,,,,,,425091
+G1242,Maisonave,council,Comisión de Fomento,G0012,,pending,,,,,,425098
+G1243,Perú,council,Comisión de Fomento,G0012,,pending,,,,,,425105
+G1244,Pichi Huinca,council,Comisión de Fomento,G0012,,pending,,,,,,425112
+G1245,Quetrequén,council,Comisión de Fomento,G0012,,pending,,,,,,425119
+G1246,Relmo,council,Comisión de Fomento,G0012,,pending,,,,,,425126
+G1247,Rucanelo,council,Comisión de Fomento,G0012,,pending,,,,,,425133
+G1248,Sarah,council,Comisión de Fomento,G0012,,pending,,,,,,425140
+G1249,Speluzzi,council,Comisión de Fomento,G0012,,pending,,,,,,425147
+G1250,Unanué,council,Comisión de Fomento,G0012,,pending,,,,,,425154
+G1251,Arauco,council,Municipio,G0013,,pending,,,,,,460007
+G1252,La Rioja,council,Municipio,G0013,,pending,,,,,,460014
+G1253,Castro Barros,council,Municipio,G0013,,pending,,,,,,460021
+G1254,General Felipe Varela,council,Municipio,G0013,,pending,,,,,,460028
+G1255,Chamical,council,Municipio,G0013,,pending,,,,,,460035
+G1256,Chilecito,council,Municipio,G0013,,pending,,,,,,460042
+G1257,Famatina,council,Municipio,G0013,,pending,,,,,,460049
+G1258,Ángel Vicente Peñaloza,council,Municipio,G0013,,pending,,,,,,460056
+G1259,General Belgrano,council,Municipio,G0013,,pending,,,,,,460063
+G1260,General Juan Facundo Quiroga,council,Municipio,G0013,,pending,,,,,,460070
+G1261,General Lamadrid,council,Municipio,G0013,,pending,,,,,,460077
+G1262,General Ortiz de Ocampo,council,Municipio,G0013,,pending,,,,,,460084
+G1263,General San Martín,council,Municipio,G0013,,pending,,,,,,460091
+G1264,Vinchina,council,Municipio,G0013,,pending,,,,,,460098
+G1265,Independencia,council,Municipio,G0013,,pending,,,,,,460105
+G1266,Rosario Vera Peñaloza,council,Municipio,G0013,,pending,,,,,,460112
+G1267,San Blas de los Sauces,council,Municipio,G0013,,pending,,,,,,460119
+G1268,Sanagasta,council,Municipio,G0013,,pending,,,,,,460126
+G1269,Mendoza,council,Municipio,G0014,,pending,,,,,,500007
+G1270,General Alvear,council,Municipio,G0014,,pending,,,,,,500014
+G1271,Godoy Cruz,council,Municipio,G0014,,pending,,,,,,500021
+G1272,Guaymallén,council,Municipio,G0014,,pending,,,,,,500028
+G1273,Junín,council,Municipio,G0014,,pending,,,,,,500035
+G1274,La Paz,council,Municipio,G0014,,pending,,,,,,500042
+G1275,Las Heras,council,Municipio,G0014,,pending,,,,,,500049
+G1276,Lavalle,council,Municipio,G0014,,pending,,,,,,500056
+G1277,Luján de Cuyo,council,Municipio,G0014,,pending,,,,,,500063
+G1278,Maipú,council,Municipio,G0014,,pending,,,,,,500070
+G1279,Malargüe,council,Municipio,G0014,,pending,,,,,,500077
+G1280,Rivadavia,council,Municipio,G0014,,pending,,,,,,500084
+G1281,San Carlos,council,Municipio,G0014,,pending,,,,,,500091
+G1282,San Martín,council,Municipio,G0014,,pending,,,,,,500098
+G1283,San Rafael,council,Municipio,G0014,,pending,,,,,,500105
+G1284,Santa Rosa,council,Municipio,G0014,,pending,,,,,,500112
+G1285,Tunuyán,council,Municipio,G0014,,pending,,,,,,500119
+G1286,Tupungato,council,Municipio,G0014,,pending,,,,,,500126
+G1287,Apóstoles,council,Municipio,G0015,,pending,,,,,,540007
+G1288,Azara,council,Municipio,G0015,,pending,,,,,,540014
+G1289,San José,council,Municipio,G0015,,pending,,,,,,540021
+G1290,Tres Capones,council,Municipio,G0015,,pending,,,,,,540028
+G1291,Aristóbulo del Valle,council,Municipio,G0015,,pending,,,,,,540035
+G1292,Campo Grande,council,Municipio,G0015,,pending,,,,,,540042
+G1293,Dos de Mayo,council,Municipio,G0015,,pending,,,,,,540049
+G1294,Salto Encantado,council,Municipio,G0015,,pending,,,,,,540053
+G1295,Bonpland,council,Municipio,G0015,,pending,,,,,,540056
+G1296,Candelaria,council,Municipio,G0015,,pending,,,,,,540063
+G1297,Cerro Corá,council,Municipio,G0015,,pending,,,,,,540070
+G1298,Loreto,council,Municipio,G0015,,pending,,,,,,540077
+G1299,Mártires,council,Municipio,G0015,,pending,,,,,,540084
+G1300,Profundidad,council,Municipio,G0015,,pending,,,,,,540091
+G1301,Santa Ana,council,Municipio,G0015,,pending,,,,,,540098
+G1302,Fachinal,council,Municipio,G0015,,pending,,,,,,540105
+G1303,Garupá,council,Municipio,G0015,,pending,,,,,,540112
+G1304,Posadas,council,Municipio,G0015,,pending,,,,,,540119
+G1305,Concepción de la Sierra,council,Municipio,G0015,,pending,,,,,,540126
+G1306,Santa María,council,Municipio,G0015,,pending,,,,,,540133
+G1307,Colonia Delicia,council,Municipio,G0015,,pending,,,,,,540140
+G1308,Colonia Victoria,council,Municipio,G0015,,pending,,,,,,540147
+G1309,Eldorado,council,Municipio,G0015,,pending,,,,,,540154
+G1310,9 de Julio,council,Municipio,G0015,,pending,,,,,,540161
+G1311,Santiago de Liniers,council,Municipio,G0015,,pending,,,,,,540168
+G1312,Bernardo de Irigoyen,council,Municipio,G0015,,pending,,,,,,540175
+G1313,Comandante Andresito,council,Municipio,G0015,,pending,,,,,,540182
+G1314,San Antonio,council,Municipio,G0015,,pending,,,,,,540189
+G1315,El Soberbio,council,Municipio,G0015,,pending,,,,,,540196
+G1316,San Vicente,council,Municipio,G0015,,pending,,,,,,540203
+G1317,Puerto Esperanza,council,Municipio,G0015,,pending,,,,,,540210
+G1318,Puerto Iguazú,council,Municipio,G0015,,pending,,,,,,540217
+G1319,Libertad,council,Municipio,G0015,,pending,,,,,,540224
+G1320,Colonia Wanda,council,Municipio,G0015,,pending,,,,,,540231
+G1321,Almafuerte,council,Municipio,G0015,,pending,,,,,,540238
+G1322,Arroyo del Medio,council,Municipio,G0015,,pending,,,,,,540245
+G1323,Caá Yarí,council,Municipio,G0015,,pending,,,,,,540252
+G1324,Cerro Azul,council,Municipio,G0015,,pending,,,,,,540259
+G1325,Dos Arroyos,council,Municipio,G0015,,pending,,,,,,540266
+G1326,Gobernador López,council,Municipio,G0015,,pending,,,,,,540273
+G1327,Leandro N. Alem,council,Municipio,G0015,,pending,,,,,,540280
+G1328,Olegario V. Andrade,council,Municipio,G0015,,pending,,,,,,540287
+G1329,Capioví,council,Municipio,G0015,,pending,,,,,,540294
+G1330,El Alcázar,council,Municipio,G0015,,pending,,,,,,540301
+G1331,Garuhapé,council,Municipio,G0015,,pending,,,,,,540308
+G1332,Puerto Leoni,council,Municipio,G0015,,pending,,,,,,540315
+G1333,Puerto Rico,council,Municipio,G0015,,pending,,,,,,540322
+G1334,Ruiz de Montoya,council,Municipio,G0015,,pending,,,,,,540329
+G1335,Caraguatay,council,Municipio,G0015,,pending,,,,,,540336
+G1336,Montecarlo,council,Municipio,G0015,,pending,,,,,,540343
+G1337,Puerto Piray,council,Municipio,G0015,,pending,,,,,,540350
+G1338,Campo Ramón,council,Municipio,G0015,,pending,,,,,,540357
+G1339,Campo Viera,council,Municipio,G0015,,pending,,,,,,540364
+G1340,Colonia Alberdi,council,Municipio,G0015,,pending,,,,,,540371
+G1341,General Alvear,council,Municipio,G0015,,pending,,,,,,540378
+G1342,Guaraní,council,Municipio,G0015,,pending,,,,,,540385
+G1343,Los Helechos,council,Municipio,G0015,,pending,,,,,,540392
+G1344,Oberá,council,Municipio,G0015,,pending,,,,,,540399
+G1345,Panambí,council,Municipio,G0015,,pending,,,,,,540406
+G1346,San Martín,council,Municipio,G0015,,pending,,,,,,540413
+G1347,Colonia Polana,council,Municipio,G0015,,pending,,,,,,540420
+G1348,Corpus Christi,council,Municipio,G0015,,pending,,,,,,540427
+G1349,General Urquiza,council,Municipio,G0015,,pending,,,,,,540434
+G1350,Gobernador Roca,council,Municipio,G0015,,pending,,,,,,540441
+G1351,Hipólito Yrigoyen,council,Municipio,G0015,,pending,,,,,,540448
+G1352,Jardín América,council,Municipio,G0015,,pending,,,,,,540455
+G1353,San Ignacio,council,Municipio,G0015,,pending,,,,,,540462
+G1354,Santo Pipó,council,Municipio,G0015,,pending,,,,,,540469
+G1355,Florentino Ameghino,council,Municipio,G0015,,pending,,,,,,540476
+G1356,Itacaruaré,council,Municipio,G0015,,pending,,,,,,540483
+G1357,Mojón Grande,council,Municipio,G0015,,pending,,,,,,540490
+G1358,San Javier,council,Municipio,G0015,,pending,,,,,,540497
+G1359,Pozo Azul,council,Municipio,G0015,,pending,,,,,,540501
+G1360,San Pedro,council,Municipio,G0015,,pending,,,,,,540504
+G1361,Alba Posse,council,Municipio,G0015,,pending,,,,,,540511
+G1362,Colonia Aurora,council,Municipio,G0015,,pending,,,,,,540518
+G1363,25 de Mayo,council,Municipio,G0015,,pending,,,,,,540525
+G1364,Aluminé,council,Municipio,G0016,,pending,,,,,,580007
+G1365,Añelo,council,Municipio,G0016,,pending,,,,,,580014
+G1366,San Patricio del Chañar,council,Municipio,G0016,,pending,,,,,,580021
+G1367,Las Coloradas,council,Municipio,G0016,,pending,,,,,,580028
+G1368,Piedra del Águila,council,Municipio,G0016,,pending,,,,,,580035
+G1369,Centenario,council,Municipio,G0016,,pending,,,,,,580042
+G1370,Cutral Co,council,Municipio,G0016,,pending,,,,,,580049
+G1371,Neuquén,council,Municipio,G0016,,pending,,,,,,580056
+G1372,Plaza Huincul,council,Municipio,G0016,,pending,,,,,,580063
+G1373,Plottier,council,Municipio,G0016,,pending,,,,,,580070
+G1374,Senillosa,council,Municipio,G0016,,pending,,,,,,580077
+G1375,Villa El Chocón,council,Municipio,G0016,,pending,,,,,,580084
+G1376,Vista Alegre,council,Municipio,G0016,,pending,,,,,,580091
+G1377,Chos Malal,council,Municipio,G0016,,pending,,,,,,580098
+G1378,Tricao Malal,council,Municipio,G0016,,pending,,,,,,580105
+G1379,Junín de los Andes,council,Municipio,G0016,,pending,,,,,,580112
+G1380,San Martín de los Andes,council,Municipio,G0016,,pending,,,,,,580119
+G1381,Loncopué,council,Municipio,G0016,,pending,,,,,,580126
+G1382,Villa La Angostura,council,Municipio,G0016,,pending,,,,,,580133
+G1383,Andacollo,council,Municipio,G0016,,pending,,,,,,580140
+G1384,Huinganco,council,Municipio,G0016,,pending,,,,,,580147
+G1385,Las Ovejas,council,Municipio,G0016,,pending,,,,,,580154
+G1386,Los Miches,council,Municipio,G0016,,pending,,,,,,580161
+G1387,Caviahue - Copahue,council,Municipio,G0016,,pending,,,,,,580168
+G1388,El Cholar,council,Municipio,G0016,,pending,,,,,,580175
+G1389,El Huecú,council,Municipio,G0016,,pending,,,,,,580182
+G1390,Taquimilán,council,Municipio,G0016,,pending,,,,,,580189
+G1391,Barrancas,council,Municipio,G0016,,pending,,,,,,580196
+G1392,Buta Ranquil,council,Municipio,G0016,,pending,,,,,,580203
+G1393,Rincón de los Sauces,council,Municipio,G0016,,pending,,,,,,580210
+G1394,Picún Leufú,council,Municipio,G0016,,pending,,,,,,580217
+G1395,Bajada del Agrio,council,Municipio,G0016,,pending,,,,,,580224
+G1396,Las Lajas,council,Municipio,G0016,,pending,,,,,,580231
+G1397,Mariano Moreno,council,Municipio,G0016,,pending,,,,,,580238
+G1398,Zapala,council,Municipio,G0016,,pending,,,,,,580245
+G1399,Villa Pehuenia,council,Municipio,G0016,,pending,,,,,,580252
+G1400,Aguada San Roque,council,Comisión de Fomento,G0016,,pending,,,,,,585014
+G1401,Los Chihuidos,council,Comisión de Fomento,G0016,,pending,,,,,,585021
+G1402,Pilo Lil,council,Comisión de Fomento,G0016,,pending,,,,,,585028
+G1403,Santo Tomás,council,Comisión de Fomento,G0016,,pending,,,,,,585035
+G1404,Sauzal Bonito,council,Comisión de Fomento,G0016,,pending,,,,,,585042
+G1405,Coyuco - Cochico,council,Comisión de Fomento,G0016,,pending,,,,,,585049
+G1406,Villa Curi Leuvú,council,Comisión de Fomento,G0016,,pending,,,,,,585056
+G1407,Chorriaca,council,Comisión de Fomento,G0016,,pending,,,,,,585063
+G1408,Villa Traful,council,Comisión de Fomento,G0016,,pending,,,,,,585070
+G1409,Guañacos,council,Comisión de Fomento,G0016,,pending,,,,,,585077
+G1410,Manzano Amargo,council,Comisión de Fomento,G0016,,pending,,,,,,585084
+G1411,Varvarco - Invernada Vieja,council,Comisión de Fomento,G0016,,pending,,,,,,585091
+G1412,Villa del Nahueve,council,Comisión de Fomento,G0016,,pending,,,,,,585098
+G1413,Octavio Pico,council,Comisión de Fomento,G0016,,pending,,,,,,585105
+G1414,El Sauce,council,Comisión de Fomento,G0016,,pending,,,,,,585112
+G1415,Paso Aguerre,council,Comisión de Fomento,G0016,,pending,,,,,,585119
+G1416,Quili Malal,council,Comisión de Fomento,G0016,,pending,,,,,,585126
+G1417,Covunco Abajo,council,Comisión de Fomento,G0016,,pending,,,,,,585133
+G1418,Los Catutos,council,Comisión de Fomento,G0016,,pending,,,,,,585140
+G1419,Ramón M. Castro,council,Comisión de Fomento,G0016,,pending,,,,,,585147
+G1420,Villa Puente Picún Leufú,council,Comisión de Fomento,G0016,,pending,,,,,,585154
+G1421,Guardia Mitre,council,Municipio,G0017,,pending,,,,,,620007
+G1422,Viedma,council,Municipio,G0017,,pending,,,,,,620014
+G1423,Chimpay,council,Municipio,G0017,,pending,,,,,,620021
+G1424,Choele Choel,council,Municipio,G0017,,pending,,,,,,620028
+G1425,Coronel Belisle,council,Municipio,G0017,,pending,,,,,,620035
+G1426,Darwin,council,Municipio,G0017,,pending,,,,,,620042
+G1427,Lamarque,council,Municipio,G0017,,pending,,,,,,620049
+G1428,Luis Beltrán,council,Municipio,G0017,,pending,,,,,,620056
+G1429,Pomona,council,Municipio,G0017,,pending,,,,,,620063
+G1430,El Bolsón,council,Municipio,G0017,,pending,,,,,,620070
+G1431,San Carlos de Bariloche,council,Municipio,G0017,,pending,,,,,,620077
+G1432,General Conesa,council,Municipio,G0017,,pending,,,,,,620084
+G1433,Allen,council,Municipio,G0017,,pending,,,,,,620091
+G1434,Campo Grande,council,Municipio,G0017,,pending,,,,,,620098
+G1435,Catriel,council,Municipio,G0017,,pending,,,,,,620105
+G1436,Cervantes,council,Municipio,G0017,,pending,,,,,,620112
+G1437,Chichinales,council,Municipio,G0017,,pending,,,,,,620119
+G1438,Cinco Saltos,council,Municipio,G0017,,pending,,,,,,620126
+G1439,Cipolletti,council,Municipio,G0017,,pending,,,,,,620133
+G1440,Contralmirante Cordero,council,Municipio,G0017,,pending,,,,,,620140
+G1441,General Enrique Godoy,council,Municipio,G0017,,pending,,,,,,620147
+G1442,General Fernández Oro,council,Municipio,G0017,,pending,,,,,,620154
+G1443,General Roca,council,Municipio,G0017,,pending,,,,,,620161
+G1444,Ingeniero Huergo,council,Municipio,G0017,,pending,,,,,,620168
+G1445,Mainqué,council,Municipio,G0017,,pending,,,,,,620175
+G1446,Villa Regina,council,Municipio,G0017,,pending,,,,,,620182
+G1447,Ministro Ramos Mexía,council,Municipio,G0017,,pending,,,,,,620189
+G1448,Sierra Colorada,council,Municipio,G0017,,pending,,,,,,620196
+G1449,Ñorquincó,council,Municipio,G0017,,pending,,,,,,620203
+G1450,Río Colorado,council,Municipio,G0017,,pending,,,,,,620210
+G1451,Comallo,council,Municipio,G0017,,pending,,,,,,620217
+G1452,Pilcaniyeu,council,Municipio,G0017,,pending,,,,,,620224
+G1453,San Antonio Oeste,council,Municipio,G0017,,pending,,,,,,620231
+G1454,Sierra Grande,council,Municipio,G0017,,pending,,,,,,620238
+G1455,Valcheta,council,Municipio,G0017,,pending,,,,,,620245
+G1456,Ingeniero Jacobacci,council,Municipio,G0017,,pending,,,,,,620252
+G1457,Los Menucos,council,Municipio,G0017,,pending,,,,,,620259
+G1458,Maquinchao,council,Municipio,G0017,,pending,,,,,,620266
+G1459,Dina Huapi,council,Municipio,G0017,,pending,,,,,,620273
+G1460,Fuerte San Javier,council,Comisión de Fomento,G0017,,pending,,,,,,625014
+G1461,El Manso,council,Comisión de Fomento,G0017,,pending,,,,,,625028
+G1462,Paso Flores,council,Comisión de Fomento,G0017,,pending,,,,,,625035
+G1463,Villa Llanquín,council,Comisión de Fomento,G0017,,pending,,,,,,625042
+G1464,Villa Mascardi,council,Comisión de Fomento,G0017,,pending,,,,,,625049
+G1465,El Cuy,council,Comisión de Fomento,G0017,,pending,,,,,,625056
+G1466,Cerro Policía,council,Comisión de Fomento,G0017,,pending,,,,,,625063
+G1467,Mencué,council,Comisión de Fomento,G0017,,pending,,,,,,625070
+G1468,Aguada Guzmán,council,Comisión de Fomento,G0017,,pending,,,,,,625077
+G1469,Chelforó,council,Comisión de Fomento,G0017,,pending,,,,,,625084
+G1470,Naupa Huen,council,Comisión de Fomento,G0017,,pending,,,,,,625098
+G1471,Peñas Blancas,council,Comisión de Fomento,G0017,,pending,,,,,,625105
+G1472,Valle Azul,council,Comisión de Fomento,G0017,,pending,,,,,,625112
+G1473,Rincón Treneta,council,Comisión de Fomento,G0017,,pending,,,,,,625119
+G1474,Yaminué,council,Comisión de Fomento,G0017,,pending,,,,,,625126
+G1475,Pichi Mahuida,council,Comisión de Fomento,G0017,,pending,,,,,,625133
+G1476,Pilquiniyeu del Limay,council,Comisión de Fomento,G0017,,pending,,,,,,625140
+G1477,Arroyo Los Berros,council,Comisión de Fomento,G0017,,pending,,,,,,625147
+G1478,Arroyo Ventana,council,Comisión de Fomento,G0017,,pending,,,,,,625154
+G1479,Cona Niyeu,council,Comisión de Fomento,G0017,,pending,,,,,,625161
+G1480,Aguada Cecilio,council,Comisión de Fomento,G0017,,pending,,,,,,625168
+G1481,Chipauquil,council,Comisión de Fomento,G0017,,pending,,,,,,625175
+G1482,Nahuel Niyeu,council,Comisión de Fomento,G0017,,pending,,,,,,625182
+G1483,Sierra Pailemán,council,Comisión de Fomento,G0017,,pending,,,,,,625189
+G1484,Aguada de Guerra,council,Comisión de Fomento,G0017,,pending,,,,,,625196
+G1485,Colán Conhué,council,Comisión de Fomento,G0017,,pending,,,,,,625203
+G1486,Comicó,council,Comisión de Fomento,G0017,,pending,,,,,,625210
+G1487,Clemente Onelli,council,Comisión de Fomento,G0017,,pending,,,,,,625217
+G1488,El Caín,council,Comisión de Fomento,G0017,,pending,,,,,,625224
+G1489,Laguna Blanca,council,Comisión de Fomento,G0017,,pending,,,,,,625231
+G1490,Mamuel Choique,council,Comisión de Fomento,G0017,,pending,,,,,,625238
+G1491,Ojos de Agua,council,Comisión de Fomento,G0017,,pending,,,,,,625245
+G1492,Pilquiniyeu,council,Comisión de Fomento,G0017,,pending,,,,,,625252
+G1493,Prahuaniyeu,council,Comisión de Fomento,G0017,,pending,,,,,,625259
+G1494,Río Chico,council,Comisión de Fomento,G0017,,pending,,,,,,625266
+G1495,Apolinario Saravia,council,Municipio,G0018,,pending,,,,,,660007
+G1496,El Quebrachal,council,Municipio,G0018,,pending,,,,,,660014
+G1497,General Pizarro,council,Municipio,G0018,,pending,,,,,,660021
+G1498,Joaquín V. González,council,Municipio,G0018,,pending,,,,,,660028
+G1499,Las Lajitas,council,Municipio,G0018,,pending,,,,,,660035
+G1500,Cachi,council,Municipio,G0018,,pending,,,,,,660042
+G1501,Payogasta,council,Municipio,G0018,,pending,,,,,,660049
+G1502,Cafayate,council,Municipio,G0018,,pending,,,,,,660056
+G1503,Salta,council,Municipio,G0018,,pending,,,,,,660063
+G1504,San Lorenzo,council,Municipio,G0018,,pending,,,,,,660070
+G1505,San José de los Cerrillos,council,Municipio,G0018,,pending,,,,,,660077
+G1506,La Merced,council,Municipio,G0018,,pending,,,,,,660084
+G1507,Chicoana,council,Municipio,G0018,,pending,,,,,,660091
+G1508,El Carril,council,Municipio,G0018,,pending,,,,,,660098
+G1509,Campo Santo,council,Municipio,G0018,,pending,,,,,,660105
+G1510,El Bordo,council,Municipio,G0018,,pending,,,,,,660112
+G1511,General Güemes,council,Municipio,G0018,,pending,,,,,,660119
+G1512,Aguaray,council,Municipio,G0018,,pending,,,,,,660126
+G1513,Embarcación,council,Municipio,G0018,,pending,,,,,,660133
+G1514,General Ballivián,council,Municipio,G0018,,pending,,,,,,660140
+G1515,General Mosconi,council,Municipio,G0018,,pending,,,,,,660147
+G1516,Profesor Salvador Mazza,council,Municipio,G0018,,pending,,,,,,660154
+G1517,Tartagal,council,Municipio,G0018,,pending,,,,,,660161
+G1518,Guachipas,council,Municipio,G0018,,pending,,,,,,660168
+G1519,Iruya,council,Municipio,G0018,,pending,,,,,,660175
+G1520,Isla de Cañas,council,Municipio,G0018,,pending,,,,,,660182
+G1521,La Caldera,council,Municipio,G0018,,pending,,,,,,660189
+G1522,Vaqueros,council,Municipio,G0018,,pending,,,,,,660196
+G1523,El Jardín,council,Municipio,G0018,,pending,,,,,,660203
+G1524,El Tala,council,Municipio,G0018,,pending,,,,,,660210
+G1525,La Candelaria,council,Municipio,G0018,,pending,,,,,,660217
+G1526,La Poma,council,Municipio,G0018,,pending,,,,,,660224
+G1527,Coronel Moldes,council,Municipio,G0018,,pending,,,,,,660231
+G1528,La Viña,council,Municipio,G0018,,pending,,,,,,660238
+G1529,San Antonio de los Cobres,council,Municipio,G0018,,pending,,,,,,660245
+G1530,Tolar Grande,council,Municipio,G0018,,pending,,,,,,660252
+G1531,El Galpón,council,Municipio,G0018,,pending,,,,,,660259
+G1532,San José de Metán,council,Municipio,G0018,,pending,,,,,,660266
+G1533,Molinos,council,Municipio,G0018,,pending,,,,,,660273
+G1534,Río Piedras,council,Municipio,G0018,,pending,,,,,,660280
+G1535,Seclantás,council,Municipio,G0018,,pending,,,,,,660287
+G1536,Aguas Blancas,council,Municipio,G0018,,pending,,,,,,660290
+G1537,Colonia Santa Rosa,council,Municipio,G0018,,pending,,,,,,660294
+G1538,Hipólito Yrigoyen,council,Municipio,G0018,,pending,,,,,,660301
+G1539,Pichanal,council,Municipio,G0018,,pending,,,,,,660308
+G1540,San Ramón de la Nueva Orán,council,Municipio,G0018,,pending,,,,,,660315
+G1541,Urundel,council,Municipio,G0018,,pending,,,,,,660322
+G1542,Rivadavia Banda Norte,council,Municipio,G0018,,pending,,,,,,660329
+G1543,Rivadavia Banda Sur,council,Municipio,G0018,,pending,,,,,,660336
+G1544,Santa Victoria Este,council,Municipio,G0018,,pending,,,,,,660343
+G1545,El Potrero,council,Municipio,G0018,,pending,,,,,,660350
+G1546,Rosario de la Frontera,council,Municipio,G0018,,pending,,,,,,660357
+G1547,Campo Quijano,council,Municipio,G0018,,pending,,,,,,660364
+G1548,Rosario de Lerma,council,Municipio,G0018,,pending,,,,,,660371
+G1549,Angastaco,council,Municipio,G0018,,pending,,,,,,660378
+G1550,Animaná,council,Municipio,G0018,,pending,,,,,,660385
+G1551,San Carlos,council,Municipio,G0018,,pending,,,,,,660392
+G1552,Los Toldos,council,Municipio,G0018,,pending,,,,,,660399
+G1553,Nazareno,council,Municipio,G0018,,pending,,,,,,660406
+G1554,Santa Victoria Oeste,council,Municipio,G0018,,pending,,,,,,660413
+G1555,Albardón,council,Municipio,G0019,,pending,,,,,,700007
+G1556,Angaco,council,Municipio,G0019,,pending,,,,,,700014
+G1557,Calingasta,council,Municipio,G0019,,pending,,,,,,700021
+G1558,San Juan,council,Municipio,G0019,,pending,,,,,,700028
+G1559,Caucete,council,Municipio,G0019,,pending,,,,,,700035
+G1560,Chimbas,council,Municipio,G0019,,pending,,,,,,700042
+G1561,Iglesia,council,Municipio,G0019,,pending,,,,,,700049
+G1562,Jáchal,council,Municipio,G0019,,pending,,,,,,700056
+G1563,9 de Julio,council,Municipio,G0019,,pending,,,,,,700063
+G1564,Pocito,council,Municipio,G0019,,pending,,,,,,700070
+G1565,Rawson,council,Municipio,G0019,,pending,,,,,,700077
+G1566,Rivadavia,council,Municipio,G0019,,pending,,,,,,700084
+G1567,San Martín,council,Municipio,G0019,,pending,,,,,,700091
+G1568,Santa Lucía,council,Municipio,G0019,,pending,,,,,,700098
+G1569,Sarmiento,council,Municipio,G0019,,pending,,,,,,700105
+G1570,Ullum,council,Municipio,G0019,,pending,,,,,,700112
+G1571,Valle Fértil,council,Municipio,G0019,,pending,,,,,,700119
+G1572,25 de Mayo,council,Municipio,G0019,,pending,,,,,,700126
+G1573,Zonda,council,Municipio,G0019,,pending,,,,,,700133
+G1574,Candelaria,council,Municipio,G0020,,pending,,,,,,740007
+G1575,Luján,council,Municipio,G0020,,pending,,,,,,740014
+G1576,Quines,council,Municipio,G0020,,pending,,,,,,740021
+G1577,San Francisco del Monte de Oro,council,Municipio,G0020,,pending,,,,,,740028
+G1578,Los Manantiales,council,Municipio,G0020,,pending,,,,,,740035
+G1579,Estancia Grande,council,Municipio,G0020,,pending,,,,,,740038
+G1580,El Trapiche,council,Municipio,G0020,,pending,,,,,,740039
+G1581,La Toma,council,Municipio,G0020,,pending,,,,,,740042
+G1582,Concarán,council,Municipio,G0020,,pending,,,,,,740049
+G1583,Naschel,council,Municipio,G0020,,pending,,,,,,740056
+G1584,Tilisarao,council,Municipio,G0020,,pending,,,,,,740063
+G1585,Justo Daract,council,Municipio,G0020,,pending,,,,,,740070
+G1586,Nación Ranquel,council,Municipio,G0020,,pending,,,,,,740073
+G1587,Villa Mercedes,council,Municipio,G0020,,pending,,,,,,740077
+G1588,Buena Esperanza,council,Municipio,G0020,,pending,,,,,,740084
+G1589,Unión,council,Municipio,G0020,,pending,,,,,,740091
+G1590,Carpintería,council,Municipio,G0020,,pending,,,,,,740095
+G1591,Santa Rosa del Conlara,council,Municipio,G0020,,pending,,,,,,740098
+G1592,Villa de Merlo,council,Municipio,G0020,,pending,,,,,,740105
+G1593,Desaguadero,council,Municipio,G0020,,pending,,,,,,740108
+G1594,El Volcán,council,Municipio,G0020,,pending,,,,,,740112
+G1595,Juana Koslay,council,Municipio,G0020,,pending,,,,,,740119
+G1596,La Punta,council,Municipio,G0020,,pending,,,,,,740126
+G1597,Potrero de los Funes,council,Municipio,G0020,,pending,,,,,,740130
+G1598,San Luis,council,Municipio,G0020,,pending,,,,,,740133
+G1599,San Martín,council,Municipio,G0020,,pending,,,,,,740140
+G1600,Leandro N. Alem,council,Comisión Municipal,G0020,,pending,,,,,,746007
+G1601,La Calera,council,Comisión Municipal,G0020,,pending,,,,,,746014
+G1602,Nogolí,council,Comisión Municipal,G0020,,pending,,,,,,746021
+G1603,Villa de la Quebrada,council,Comisión Municipal,G0020,,pending,,,,,,746028
+G1604,La Carolina,council,Comisión Municipal,G0020,,pending,,,,,,746035
+G1605,Fraga,council,Comisión Municipal,G0020,,pending,,,,,,746049
+G1606,Saladillo,council,Comisión Municipal,G0020,,pending,,,,,,746063
+G1607,Cortaderas,council,Comisión Municipal,G0020,,pending,,,,,,746070
+G1608,Papagayos,council,Comisión Municipal,G0020,,pending,,,,,,746077
+G1609,Renca,council,Comisión Municipal,G0020,,pending,,,,,,746084
+G1610,San Pablo,council,Comisión Municipal,G0020,,pending,,,,,,746091
+G1611,Villa del Carmen,council,Comisión Municipal,G0020,,pending,,,,,,746098
+G1612,Villa Larca,council,Comisión Municipal,G0020,,pending,,,,,,746105
+G1613,San José del Morro,council,Comisión Municipal,G0020,,pending,,,,,,746112
+G1614,Juan Jorba,council,Comisión Municipal,G0020,,pending,,,,,,746119
+G1615,Juan Llerena,council,Comisión Municipal,G0020,,pending,,,,,,746126
+G1616,La Punilla,council,Comisión Municipal,G0020,,pending,,,,,,746133
+G1617,Lavaisse,council,Comisión Municipal,G0020,,pending,,,,,,746140
+G1618,Anchorena,council,Comisión Municipal,G0020,,pending,,,,,,746147
+G1619,Arizona,council,Comisión Municipal,G0020,,pending,,,,,,746154
+G1620,Bagual,council,Comisión Municipal,G0020,,pending,,,,,,746161
+G1621,Batavia,council,Comisión Municipal,G0020,,pending,,,,,,746168
+G1622,Fortín El Patria,council,Comisión Municipal,G0020,,pending,,,,,,746175
+G1623,Fortuna,council,Comisión Municipal,G0020,,pending,,,,,,746182
+G1624,Navia,council,Comisión Municipal,G0020,,pending,,,,,,746189
+G1625,Nueva Galia,council,Comisión Municipal,G0020,,pending,,,,,,746196
+G1626,Lafinur,council,Comisión Municipal,G0020,,pending,,,,,,746210
+G1627,Los Molles,council,Comisión Municipal,G0020,,pending,,,,,,746217
+G1628,Talita,council,Comisión Municipal,G0020,,pending,,,,,,746224
+G1629,Alto Pelado,council,Comisión Municipal,G0020,,pending,,,,,,746231
+G1630,Alto Pencoso,council,Comisión Municipal,G0020,,pending,,,,,,746238
+G1631,Balde,council,Comisión Municipal,G0020,,pending,,,,,,746245
+G1632,Beazley,council,Comisión Municipal,G0020,,pending,,,,,,746252
+G1633,San Jerónimo,council,Comisión Municipal,G0020,,pending,,,,,,746273
+G1634,Zanjitas,council,Comisión Municipal,G0020,,pending,,,,,,746280
+G1635,La Vertiente,council,Comisión Municipal,G0020,,pending,,,,,,746287
+G1636,Las Aguadas,council,Comisión Municipal,G0020,,pending,,,,,,746294
+G1637,Las Chacras,council,Comisión Municipal,G0020,,pending,,,,,,746301
+G1638,Las Lagunas,council,Comisión Municipal,G0020,,pending,,,,,,746308
+G1639,Paso Grande,council,Comisión Municipal,G0020,,pending,,,,,,746315
+G1640,Villa de Praga,council,Comisión Municipal,G0020,,pending,,,,,,746322
+G1641,Comandante Luis Piedra Buena,council,Municipio,G0021,,pending,,,,,,780007
+G1642,Puerto Santa Cruz,council,Municipio,G0021,,pending,,,,,,780014
+G1643,Caleta Olivia,council,Municipio,G0021,,pending,,,,,,780021
+G1644,Las Heras,council,Municipio,G0021,,pending,,,,,,780028
+G1645,Pico Truncado,council,Municipio,G0021,,pending,,,,,,780035
+G1646,Puerto Deseado,council,Municipio,G0021,,pending,,,,,,780042
+G1647,Río Gallegos,council,Municipio,G0021,,pending,,,,,,780049
+G1648,Río Turbio,council,Municipio,G0021,,pending,,,,,,780056
+G1649,28 de Noviembre,council,Municipio,G0021,,pending,,,,,,780063
+G1650,El Calafate,council,Municipio,G0021,,pending,,,,,,780070
+G1651,El Chaltén,council,Municipio,G0021,,pending,,,,,,780074
+G1652,Los Antiguos,council,Municipio,G0021,,pending,,,,,,780077
+G1653,Perito Moreno,council,Municipio,G0021,,pending,,,,,,780084
+G1654,Puerto San Julián,council,Municipio,G0021,,pending,,,,,,780091
+G1655,Gobernador Gregores,council,Municipio,G0021,,pending,,,,,,780098
+G1656,Cañadón Seco,council,Comisión de Fomento,G0021,,pending,,,,,,785007
+G1657,Jaramillo y Fitz Roy,council,Comisión de Fomento,G0021,,pending,,,,,,785014
+G1658,Nuestra Señora de los Dolores de Koluel Kaike,council,Comisión de Fomento,G0021,,pending,,,,,,785021
+G1659,Tres Lagos,council,Comisión de Fomento,G0021,,pending,,,,,,785035
+G1660,Lago Posadas,council,Comisión de Fomento,G0021,,pending,,,,,,785042
+G1661,Armstrong,council,Municipio,G0022,,pending,,,,,,820007
+G1662,Las Parejas,council,Municipio,G0022,,pending,,,,,,820014
+G1663,Las Rosas,council,Municipio,G0022,,pending,,,,,,820021
+G1664,Casilda,council,Municipio,G0022,,pending,,,,,,820028
+G1665,Frontera,council,Municipio,G0022,,pending,,,,,,820035
+G1666,Rafaela,council,Municipio,G0022,,pending,,,,,,820042
+G1667,San Vicente,council,Municipio,G0022,,pending,,,,,,820045
+G1668,Sunchales,council,Municipio,G0022,,pending,,,,,,820049
+G1669,Villa Constitución,council,Municipio,G0022,,pending,,,,,,820056
+G1670,Firmat,council,Municipio,G0022,,pending,,,,,,820063
+G1671,Rufino,council,Municipio,G0022,,pending,,,,,,820070
+G1672,Venado Tuerto,council,Municipio,G0022,,pending,,,,,,820077
+G1673,Villa Cañás,council,Municipio,G0022,,pending,,,,,,820084
+G1674,Avellaneda,council,Municipio,G0022,,pending,,,,,,820091
+G1675,Florencia,council,Municipio,G0022,,pending,,,,,,820095
+G1676,Las Toscas,council,Municipio,G0022,,pending,,,,,,820098
+G1677,Malabrigo,council,Municipio,G0022,,pending,,,,,,820105
+G1678,Reconquista,council,Municipio,G0022,,pending,,,,,,820112
+G1679,Villa Ocampo,council,Municipio,G0022,,pending,,,,,,820119
+G1680,Cañada de Gómez,council,Municipio,G0022,,pending,,,,,,820126
+G1681,Totoras,council,Municipio,G0022,,pending,,,,,,820133
+G1682,Laguna Paiva,council,Municipio,G0022,,pending,,,,,,820140
+G1683,Recreo,council,Municipio,G0022,,pending,,,,,,820142
+G1684,San José del Rincón,council,Municipio,G0022,,pending,,,,,,820143
+G1685,Santa Fe,council,Municipio,G0022,,pending,,,,,,820147
+G1686,Santo Tomé,council,Municipio,G0022,,pending,,,,,,820154
+G1687,Sauce Viejo,council,Municipio,G0022,,pending,,,,,,820158
+G1688,Esperanza,council,Municipio,G0022,,pending,,,,,,820161
+G1689,San Carlos Centro,council,Municipio,G0022,,pending,,,,,,820168
+G1690,San Jerónimo Norte,council,Municipio,G0022,,pending,,,,,,820171
+G1691,Tostado,council,Municipio,G0022,,pending,,,,,,820175
+G1692,Arroyo Seco,council,Municipio,G0022,,pending,,,,,,820182
+G1693,Funes,council,Municipio,G0022,,pending,,,,,,820189
+G1694,Granadero Baigorria,council,Municipio,G0022,,pending,,,,,,820196
+G1695,Pérez,council,Municipio,G0022,,pending,,,,,,820203
+G1696,Pueblo Esther,council,Municipio,G0022,,pending,,,,,,820207
+G1697,Rosario,council,Municipio,G0022,,pending,,,,,,820210
+G1698,Villa Gobernador Gálvez,council,Municipio,G0022,,pending,,,,,,820217
+G1699,Ceres,council,Municipio,G0022,,pending,,,,,,820224
+G1700,San Cristóbal,council,Municipio,G0022,,pending,,,,,,820231
+G1701,San Guillermo,council,Municipio,G0022,,pending,,,,,,820233
+G1702,Suardi,council,Municipio,G0022,,pending,,,,,,820235
+G1703,Romang,council,Municipio,G0022,,pending,,,,,,820237
+G1704,San Javier,council,Municipio,G0022,,pending,,,,,,820238
+G1705,Coronda,council,Municipio,G0022,,pending,,,,,,820245
+G1706,Gálvez,council,Municipio,G0022,,pending,,,,,,820252
+G1707,San Genaro,council,Municipio,G0022,,pending,,,,,,820256
+G1708,San Justo,council,Municipio,G0022,,pending,,,,,,820259
+G1709,Capitán Bermúdez,council,Municipio,G0022,,pending,,,,,,820266
+G1710,Carcarañá,council,Municipio,G0022,,pending,,,,,,820273
+G1711,Fray Luis Beltrán,council,Municipio,G0022,,pending,,,,,,820280
+G1712,Puerto General San Martín,council,Municipio,G0022,,pending,,,,,,820287
+G1713,Roldán,council,Municipio,G0022,,pending,,,,,,820294
+G1714,San Lorenzo,council,Municipio,G0022,,pending,,,,,,820301
+G1715,El Trébol,council,Municipio,G0022,,pending,,,,,,820308
+G1716,San Jorge,council,Municipio,G0022,,pending,,,,,,820315
+G1717,Sastre y Ortiz,council,Municipio,G0022,,pending,,,,,,820322
+G1718,Calchaquí,council,Municipio,G0022,,pending,,,,,,820329
+G1719,Vera,council,Municipio,G0022,,pending,,,,,,820336
+G1720,Bouquet,council,Comuna,G0022,,pending,,,,,,822007
+G1721,Montes de Oca,council,Comuna,G0022,,pending,,,,,,822014
+G1722,Tortugas,council,Comuna,G0022,,pending,,,,,,822021
+G1723,Arequito,council,Comuna,G0022,,pending,,,,,,822028
+G1724,Arteaga,council,Comuna,G0022,,pending,,,,,,822035
+G1725,Berabevú,council,Comuna,G0022,,pending,,,,,,822042
+G1726,Bigand,council,Comuna,G0022,,pending,,,,,,822049
+G1727,Chabas,council,Comuna,G0022,,pending,,,,,,822056
+G1728,Chañar Ladeado,council,Comuna,G0022,,pending,,,,,,822063
+G1729,Gödeken,council,Comuna,G0022,,pending,,,,,,822070
+G1730,Los Molinos,council,Comuna,G0022,,pending,,,,,,822077
+G1731,Los Quirquinchos,council,Comuna,G0022,,pending,,,,,,822084
+G1732,San José de la Esquina,council,Comuna,G0022,,pending,,,,,,822091
+G1733,Sanford,council,Comuna,G0022,,pending,,,,,,822098
+G1734,Villada,council,Comuna,G0022,,pending,,,,,,822105
+G1735,Angélica,council,Comuna,G0022,,pending,,,,,,822112
+G1736,Ataliva,council,Comuna,G0022,,pending,,,,,,822119
+G1737,Aurelia,council,Comuna,G0022,,pending,,,,,,822126
+G1738,Bauer y Sigel,council,Comuna,G0022,,pending,,,,,,822133
+G1739,Bella Italia,council,Comuna,G0022,,pending,,,,,,822140
+G1740,Colonia Aldao,council,Comuna,G0022,,pending,,,,,,822147
+G1741,Colonia Bicha,council,Comuna,G0022,,pending,,,,,,822154
+G1742,Colonia Bigand,council,Comuna,G0022,,pending,,,,,,822161
+G1743,Castellanos,council,Comuna,G0022,,pending,,,,,,822168
+G1744,Colonia Cello,council,Comuna,G0022,,pending,,,,,,822175
+G1745,Colonia Iturraspe,council,Comuna,G0022,,pending,,,,,,822182
+G1746,Colonia Margarita,council,Comuna,G0022,,pending,,,,,,822189
+G1747,Colonia Raquel,council,Comuna,G0022,,pending,,,,,,822196
+G1748,Coronel Fraga,council,Comuna,G0022,,pending,,,,,,822203
+G1749,Egusquiza,council,Comuna,G0022,,pending,,,,,,822210
+G1750,Esmeralda,council,Comuna,G0022,,pending,,,,,,822217
+G1751,Estación Clucellas,council,Comuna,G0022,,pending,,,,,,822224
+G1752,Eusebia y Carolina,council,Comuna,G0022,,pending,,,,,,822231
+G1753,Eustolia,council,Comuna,G0022,,pending,,,,,,822238
+G1754,Fidela,council,Comuna,G0022,,pending,,,,,,822245
+G1755,Galisteo,council,Comuna,G0022,,pending,,,,,,822252
+G1756,Garibaldi,council,Comuna,G0022,,pending,,,,,,822259
+G1757,Hugentobler,council,Comuna,G0022,,pending,,,,,,822266
+G1758,Humberto Primo,council,Comuna,G0022,,pending,,,,,,822273
+G1759,Josefina,council,Comuna,G0022,,pending,,,,,,822280
+G1760,Lehmann,council,Comuna,G0022,,pending,,,,,,822287
+G1761,María Juana,council,Comuna,G0022,,pending,,,,,,822294
+G1762,Maua,council,Comuna,G0022,,pending,,,,,,822301
+G1763,Plaza Clucellas,council,Comuna,G0022,,pending,,,,,,822308
+G1764,Presidente Roca,council,Comuna,G0022,,pending,,,,,,822315
+G1765,Pueblo Marini,council,Comuna,G0022,,pending,,,,,,822322
+G1766,Ramona,council,Comuna,G0022,,pending,,,,,,822329
+G1767,Saguier,council,Comuna,G0022,,pending,,,,,,822336
+G1768,San Antonio,council,Comuna,G0022,,pending,,,,,,822343
+G1769,Santa Clara de Saguier,council,Comuna,G0022,,pending,,,,,,822357
+G1770,Susana,council,Comuna,G0022,,pending,,,,,,822364
+G1771,Tacural,council,Comuna,G0022,,pending,,,,,,822371
+G1772,Tacurales,council,Comuna,G0022,,pending,,,,,,822378
+G1773,Vila,council,Comuna,G0022,,pending,,,,,,822385
+G1774,Villa San José,council,Comuna,G0022,,pending,,,,,,822392
+G1775,Virginia,council,Comuna,G0022,,pending,,,,,,822399
+G1776,Zenón Pereyra,council,Comuna,G0022,,pending,,,,,,822406
+G1777,Alcorta,council,Comuna,G0022,,pending,,,,,,822413
+G1778,Bombal,council,Comuna,G0022,,pending,,,,,,822420
+G1779,Cañada Rica,council,Comuna,G0022,,pending,,,,,,822427
+G1780,Cepeda,council,Comuna,G0022,,pending,,,,,,822434
+G1781,Empalme Villa Constitución,council,Comuna,G0022,,pending,,,,,,822441
+G1782,General Gelly,council,Comuna,G0022,,pending,,,,,,822448
+G1783,Godoy,council,Comuna,G0022,,pending,,,,,,822455
+G1784,Juan B. Molina,council,Comuna,G0022,,pending,,,,,,822462
+G1785,Juncal,council,Comuna,G0022,,pending,,,,,,822469
+G1786,La Vanguardia,council,Comuna,G0022,,pending,,,,,,822476
+G1787,Máximo Paz,council,Comuna,G0022,,pending,,,,,,822483
+G1788,Pavón,council,Comuna,G0022,,pending,,,,,,822490
+G1789,Pavón Arriba,council,Comuna,G0022,,pending,,,,,,822497
+G1790,Peyrano,council,Comuna,G0022,,pending,,,,,,822504
+G1791,Rueda,council,Comuna,G0022,,pending,,,,,,822511
+G1792,Santa Teresa,council,Comuna,G0022,,pending,,,,,,822518
+G1793,Sargento Cabral,council,Comuna,G0022,,pending,,,,,,822525
+G1794,Theobald,council,Comuna,G0022,,pending,,,,,,822532
+G1795,Cayastá,council,Comuna,G0022,,pending,,,,,,822539
+G1796,Colonia Mascías,council,Comuna,G0022,,pending,,,,,,822546
+G1797,Helvecia,council,Comuna,G0022,,pending,,,,,,822553
+G1798,Saladero Mariano Cabal,council,Comuna,G0022,,pending,,,,,,822560
+G1799,Santa Rosa de Calchines,council,Comuna,G0022,,pending,,,,,,822567
+G1800,Aarón Castellanos,council,Comuna,G0022,,pending,,,,,,822574
+G1801,Amenábar,council,Comuna,G0022,,pending,,,,,,822581
+G1802,Cafferata,council,Comuna,G0022,,pending,,,,,,822588
+G1803,Cañada del Ucle,council,Comuna,G0022,,pending,,,,,,822595
+G1804,Carmen,council,Comuna,G0022,,pending,,,,,,822602
+G1805,Carreras,council,Comuna,G0022,,pending,,,,,,822609
+G1806,Chapuy,council,Comuna,G0022,,pending,,,,,,822616
+G1807,Chovet,council,Comuna,G0022,,pending,,,,,,822623
+G1808,Christophersen,council,Comuna,G0022,,pending,,,,,,822630
+G1809,Diego de Alvear,council,Comuna,G0022,,pending,,,,,,822637
+G1810,Elortondo,council,Comuna,G0022,,pending,,,,,,822644
+G1811,Hughes,council,Comuna,G0022,,pending,,,,,,822651
+G1812,La Chispa,council,Comuna,G0022,,pending,,,,,,822658
+G1813,Labordeboy,council,Comuna,G0022,,pending,,,,,,822665
+G1814,Lazzarino,council,Comuna,G0022,,pending,,,,,,822672
+G1815,Maggiolo,council,Comuna,G0022,,pending,,,,,,822679
+G1816,María Teresa,council,Comuna,G0022,,pending,,,,,,822686
+G1817,Melincué,council,Comuna,G0022,,pending,,,,,,822693
+G1818,Miguel Torres,council,Comuna,G0022,,pending,,,,,,822700
+G1819,Murphy,council,Comuna,G0022,,pending,,,,,,822707
+G1820,San Eduardo,council,Comuna,G0022,,pending,,,,,,822714
+G1821,San Francisco de Santa Fe,council,Comuna,G0022,,pending,,,,,,822721
+G1822,San Gregorio,council,Comuna,G0022,,pending,,,,,,822728
+G1823,Sancti Spiritu,council,Comuna,G0022,,pending,,,,,,822735
+G1824,Santa Isabel,council,Comuna,G0022,,pending,,,,,,822742
+G1825,Teodelina,council,Comuna,G0022,,pending,,,,,,822749
+G1826,Wheelwright,council,Comuna,G0022,,pending,,,,,,822756
+G1827,Arroyo Ceibal,council,Comuna,G0022,,pending,,,,,,822763
+G1828,Berna,council,Comuna,G0022,,pending,,,,,,822770
+G1829,El Araza,council,Comuna,G0022,,pending,,,,,,822777
+G1830,El Rabón,council,Comuna,G0022,,pending,,,,,,822784
+G1831,El Sombrerito,council,Comuna,G0022,,pending,,,,,,822791
+G1832,Guadalupe Norte,council,Comuna,G0022,,pending,,,,,,822805
+G1833,Hardy,council,Comuna,G0022,,pending,,,,,,822808
+G1834,Ingeniero Chanourdie,council,Comuna,G0022,,pending,,,,,,822812
+G1835,La Sarita,council,Comuna,G0022,,pending,,,,,,822819
+G1836,Lanteri,council,Comuna,G0022,,pending,,,,,,822826
+G1837,Las Garzas,council,Comuna,G0022,,pending,,,,,,822833
+G1838,Los Laureles,council,Comuna,G0022,,pending,,,,,,822840
+G1839,Nicanor Molinas,council,Comuna,G0022,,pending,,,,,,822847
+G1840,San Antonio de Obligado,council,Comuna,G0022,,pending,,,,,,822854
+G1841,Tacuarendi,council,Comuna,G0022,,pending,,,,,,822861
+G1842,Villa Ana,council,Comuna,G0022,,pending,,,,,,822868
+G1843,Villa Guillermina,council,Comuna,G0022,,pending,,,,,,822875
+G1844,Bustinza,council,Comuna,G0022,,pending,,,,,,822882
+G1845,Carrizales,council,Comuna,G0022,,pending,,,,,,822889
+G1846,Classon,council,Comuna,G0022,,pending,,,,,,822896
+G1847,Correa,council,Comuna,G0022,,pending,,,,,,822903
+G1848,Lucio V. López,council,Comuna,G0022,,pending,,,,,,822910
+G1849,Oliveros,council,Comuna,G0022,,pending,,,,,,822917
+G1850,Pueblo Andino,council,Comuna,G0022,,pending,,,,,,822924
+G1851,Salto Grande,council,Comuna,G0022,,pending,,,,,,822931
+G1852,Serodino,council,Comuna,G0022,,pending,,,,,,822938
+G1853,Villa Eloísa,council,Comuna,G0022,,pending,,,,,,822945
+G1854,Arroyo Aguiar,council,Comuna,G0022,,pending,,,,,,822952
+G1855,Arroyo Leyes,council,Comuna,G0022,,pending,,,,,,822959
+G1856,Cabal,council,Comuna,G0022,,pending,,,,,,822966
+G1857,Campo Andino,council,Comuna,G0022,,pending,,,,,,822973
+G1858,Candioti,council,Comuna,G0022,,pending,,,,,,822980
+G1859,Emilia,council,Comuna,G0022,,pending,,,,,,822987
+G1860,Llambí Campbell,council,Comuna,G0022,,pending,,,,,,822994
+G1861,Monte Vera,council,Comuna,G0022,,pending,,,,,,823001
+G1862,Nelson,council,Comuna,G0022,,pending,,,,,,823008
+G1863,Cavour,council,Comuna,G0022,,pending,,,,,,823036
+G1864,San José,council,Comuna,G0022,,pending,,,,,,823043
+G1865,Cululú,council,Comuna,G0022,,pending,,,,,,823050
+G1866,Elisa,council,Comuna,G0022,,pending,,,,,,823057
+G1867,Empalme San Carlos,council,Comuna,G0022,,pending,,,,,,823064
+G1868,Felicia,council,Comuna,G0022,,pending,,,,,,823071
+G1869,Franck,council,Comuna,G0022,,pending,,,,,,823078
+G1870,Grutly,council,Comuna,G0022,,pending,,,,,,823085
+G1871,Hipatía,council,Comuna,G0022,,pending,,,,,,823092
+G1872,Humboldt,council,Comuna,G0022,,pending,,,,,,823099
+G1873,Ituzaingó,council,Comuna,G0022,,pending,,,,,,823106
+G1874,Jacinto L. Aráuz,council,Comuna,G0022,,pending,,,,,,823113
+G1875,La Pelada,council,Comuna,G0022,,pending,,,,,,823120
+G1876,Las Tunas,council,Comuna,G0022,,pending,,,,,,823127
+G1877,María Luisa,council,Comuna,G0022,,pending,,,,,,823134
+G1878,Matilde,council,Comuna,G0022,,pending,,,,,,823141
+G1879,Nuevo Torino,council,Comuna,G0022,,pending,,,,,,823148
+G1880,Pilar,council,Comuna,G0022,,pending,,,,,,823155
+G1881,Progreso,council,Comuna,G0022,,pending,,,,,,823162
+G1882,Providencia,council,Comuna,G0022,,pending,,,,,,823169
+G1883,Pujato Norte,council,Comuna,G0022,,pending,,,,,,823176
+G1884,Rivadavia,council,Comuna,G0022,,pending,,,,,,823183
+G1885,Sa Pereira,council,Comuna,G0022,,pending,,,,,,823190
+G1886,San Agustín,council,Comuna,G0022,,pending,,,,,,823197
+G1887,San Carlos Norte,council,Comuna,G0022,,pending,,,,,,823204
+G1888,San Carlos Sud,council,Comuna,G0022,,pending,,,,,,823211
+G1889,San Jerónimo del Sauce,council,Comuna,G0022,,pending,,,,,,823218
+G1890,San Mariano,council,Comuna,G0022,,pending,,,,,,823232
+G1891,Santa Clara de Buena Vista,council,Comuna,G0022,,pending,,,,,,823239
+G1892,Santa María Centro,council,Comuna,G0022,,pending,,,,,,823246
+G1893,Santa María Norte,council,Comuna,G0022,,pending,,,,,,823253
+G1894,Santo Domingo,council,Comuna,G0022,,pending,,,,,,823260
+G1895,Sarmiento,council,Comuna,G0022,,pending,,,,,,823267
+G1896,Soutomayor,council,Comuna,G0022,,pending,,,,,,823274
+G1897,Esteban Rams,council,Comuna,G0022,,pending,,,,,,823281
+G1898,Gato Colorado,council,Comuna,G0022,,pending,,,,,,823288
+G1899,Gregoria Pérez de Denis,council,Comuna,G0022,,pending,,,,,,823295
+G1900,Juan de Garay,council,Comuna,G0022,,pending,,,,,,823302
+G1901,Logroño,council,Comuna,G0022,,pending,,,,,,823309
+G1902,Montefiore,council,Comuna,G0022,,pending,,,,,,823316
+G1903,Pozo Borrado,council,Comuna,G0022,,pending,,,,,,823323
+G1904,San Bernardo (823330),council,Comuna,G0022,,pending,,,,,Disambiguated by official code.,823330
+G1905,Santa Margarita,council,Comuna,G0022,,pending,,,,,,823337
+G1906,Villa Minetti,council,Comuna,G0022,,pending,,,,,,823344
+G1907,Acebal,council,Comuna,G0022,,pending,,,,,,823351
+G1908,Albarellos,council,Comuna,G0022,,pending,,,,,,823358
+G1909,Álvarez,council,Comuna,G0022,,pending,,,,,,823365
+G1910,Alvear,council,Comuna,G0022,,pending,,,,,,823372
+G1911,Arminda,council,Comuna,G0022,,pending,,,,,,823379
+G1912,Carmen del Sauce,council,Comuna,G0022,,pending,,,,,,823386
+G1913,Coronel Bogado,council,Comuna,G0022,,pending,,,,,,823393
+G1914,Fighiera,council,Comuna,G0022,,pending,,,,,,823400
+G1915,General Lagos,council,Comuna,G0022,,pending,,,,,,823407
+G1916,Ibarlucea,council,Comuna,G0022,,pending,,,,,,823414
+G1917,Piñero,council,Comuna,G0022,,pending,,,,,,823421
+G1918,Pueblo Muñoz,council,Comuna,G0022,,pending,,,,,,823435
+G1919,Soldini,council,Comuna,G0022,,pending,,,,,,823442
+G1920,Uranga,council,Comuna,G0022,,pending,,,,,,823449
+G1921,Villa Amelia,council,Comuna,G0022,,pending,,,,,,823456
+G1922,Zavalla,council,Comuna,G0022,,pending,,,,,,823463
+G1923,Coronel Domínguez,council,Comuna,G0022,,pending,,,,,,823470
+G1924,Aguará Grande,council,Comuna,G0022,,pending,,,,,,823477
+G1925,Ambrosetti,council,Comuna,G0022,,pending,,,,,,823484
+G1926,Arrufo,council,Comuna,G0022,,pending,,,,,,823491
+G1927,Capivara,council,Comuna,G0022,,pending,,,,,,823498
+G1928,Colonia Ana,council,Comuna,G0022,,pending,,,,,,823505
+G1929,Colonia Bossi,council,Comuna,G0022,,pending,,,,,,823512
+G1930,Colonia Rosa,council,Comuna,G0022,,pending,,,,,,823519
+G1931,Constanza,council,Comuna,G0022,,pending,,,,,,823526
+G1932,Curupaity,council,Comuna,G0022,,pending,,,,,,823533
+G1933,Dos Rosas y La Legua,council,Comuna,G0022,,pending,,,,,,823540
+G1934,Hersilia,council,Comuna,G0022,,pending,,,,,,823547
+G1935,Huanqueros,council,Comuna,G0022,,pending,,,,,,823554
+G1936,La Cabral,council,Comuna,G0022,,pending,,,,,,823561
+G1937,Colonia Clara,council,Comuna,G0022,,pending,,,,,,823568
+G1938,La Lucila,council,Comuna,G0022,,pending,,,,,,823575
+G1939,La Rubia,council,Comuna,G0022,,pending,,,,,,823582
+G1940,Las Avispas,council,Comuna,G0022,,pending,,,,,,823589
+G1941,Las Palmeras,council,Comuna,G0022,,pending,,,,,,823596
+G1942,Moisés Ville,council,Comuna,G0022,,pending,,,,,,823603
+G1943,Monigotes,council,Comuna,G0022,,pending,,,,,,823610
+G1944,Monte Oscuridad,council,Comuna,G0022,,pending,,,,,,823617
+G1945,Ñanducita,council,Comuna,G0022,,pending,,,,,,823624
+G1946,Palacios,council,Comuna,G0022,,pending,,,,,,823631
+G1947,Portugalete,council,Comuna,G0022,,pending,,,,,,823638
+G1948,Santurce,council,Comuna,G0022,,pending,,,,,,823652
+G1949,Soledad,council,Comuna,G0022,,pending,,,,,,823659
+G1950,Villa Saralegui,council,Comuna,G0022,,pending,,,,,,823673
+G1951,Villa Trinidad,council,Comuna,G0022,,pending,,,,,,823680
+G1952,Alejandra,council,Comuna,G0022,,pending,,,,,,823687
+G1953,Cacique Ariacaiquín,council,Comuna,G0022,,pending,,,,,,823694
+G1954,Colonia Durán,council,Comuna,G0022,,pending,,,,,,823701
+G1955,Colonia Teresa,council,Comuna,G0022,,pending,,,,,,823704
+G1956,La Brava,council,Comuna,G0022,,pending,,,,,,823708
+G1957,Arocena,council,Comuna,G0022,,pending,,,,,,823722
+G1958,Barrancas,council,Comuna,G0022,,pending,,,,,,823729
+G1959,Bernardo de Irigoyen,council,Comuna,G0022,,pending,,,,,,823736
+G1960,Campo Piaggio,council,Comuna,G0022,,pending,,,,,,823743
+G1961,Casalegno,council,Comuna,G0022,,pending,,,,,,823750
+G1962,Centeno,council,Comuna,G0022,,pending,,,,,,823757
+G1963,Desvío Arijón,council,Comuna,G0022,,pending,,,,,,823764
+G1964,Díaz,council,Comuna,G0022,,pending,,,,,,823771
+G1965,Gaboto,council,Comuna,G0022,,pending,,,,,,823778
+G1966,Gessler,council,Comuna,G0022,,pending,,,,,,823785
+G1967,Irigoyen,council,Comuna,G0022,,pending,,,,,,823792
+G1968,Larrechea,council,Comuna,G0022,,pending,,,,,,823799
+G1969,Loma Alta,council,Comuna,G0022,,pending,,,,,,823806
+G1970,López,council,Comuna,G0022,,pending,,,,,,823813
+G1971,Maciel,council,Comuna,G0022,,pending,,,,,,823820
+G1972,Monje,council,Comuna,G0022,,pending,,,,,,823827
+G1973,San Eugenio,council,Comuna,G0022,,pending,,,,,,823834
+G1974,San Fabián,council,Comuna,G0022,,pending,,,,,,823841
+G1975,Angeloni,council,Comuna,G0022,,pending,,,,,,823862
+G1976,Cayastacito,council,Comuna,G0022,,pending,,,,,,823869
+G1977,Colonia Dolores,council,Comuna,G0022,,pending,,,,,,823876
+G1978,Esther,council,Comuna,G0022,,pending,,,,,,823883
+G1979,Gobernador Crespo,council,Comuna,G0022,,pending,,,,,,823890
+G1980,La Camila,council,Comuna,G0022,,pending,,,,,,823897
+G1981,La Criolla,council,Comuna,G0022,,pending,,,,,,823904
+G1982,La Penca y Caraguatá,council,Comuna,G0022,,pending,,,,,,823911
+G1983,Marcelino Escalada,council,Comuna,G0022,,pending,,,,,,823918
+G1984,Naré,council,Comuna,G0022,,pending,,,,,,823925
+G1985,Pedro Gómez Cello,council,Comuna,G0022,,pending,,,,,,823932
+G1986,Ramayón,council,Comuna,G0022,,pending,,,,,,823939
+G1987,San Bernardo (823946),council,Comuna,G0022,,pending,,,,,Disambiguated by official code.,823946
+G1988,San Martín Norte,council,Comuna,G0022,,pending,,,,,,823953
+G1989,Silva,council,Comuna,G0022,,pending,,,,,,823960
+G1990,Vera y Pintado,council,Comuna,G0022,,pending,,,,,,823967
+G1991,Videla,council,Comuna,G0022,,pending,,,,,,823974
+G1992,Aldao,council,Comuna,G0022,,pending,,,,,,823981
+G1993,Coronel Arnold,council,Comuna,G0022,,pending,,,,,,823988
+G1994,Fuentes,council,Comuna,G0022,,pending,,,,,,823995
+G1995,Luis Palacios,council,Comuna,G0022,,pending,,,,,,824002
+G1996,Pujato,council,Comuna,G0022,,pending,,,,,,824009
+G1997,Ricardone,council,Comuna,G0022,,pending,,,,,,824016
+G1998,San Jerónimo Sud,council,Comuna,G0022,,pending,,,,,,824023
+G1999,Timbúes,council,Comuna,G0022,,pending,,,,,,824030
+G2000,Villa Mugueta,council,Comuna,G0022,,pending,,,,,,824037
+G2001,Cañada Rosquín,council,Comuna,G0022,,pending,,,,,,824044
+G2002,Carlos Pellegrini,council,Comuna,G0022,,pending,,,,,,824051
+G2003,Casas,council,Comuna,G0022,,pending,,,,,,824058
+G2004,Castelar,council,Comuna,G0022,,pending,,,,,,824065
+G2005,Colonia Belgrano,council,Comuna,G0022,,pending,,,,,,824072
+G2006,Crispi,council,Comuna,G0022,,pending,,,,,,824079
+G2007,Landeta,council,Comuna,G0022,,pending,,,,,,824086
+G2008,Las Bandurrias,council,Comuna,G0022,,pending,,,,,,824093
+G2009,Las Petacas,council,Comuna,G0022,,pending,,,,,,824100
+G2010,Los Cardos,council,Comuna,G0022,,pending,,,,,,824107
+G2011,María Susana,council,Comuna,G0022,,pending,,,,,,824114
+G2012,Piamonte,council,Comuna,G0022,,pending,,,,,,824121
+G2013,San Martín de las Escobas,council,Comuna,G0022,,pending,,,,,,824128
+G2014,Traill,council,Comuna,G0022,,pending,,,,,,824135
+G2015,Cañada Ombú,council,Comuna,G0022,,pending,,,,,,824142
+G2016,Fortín Olmos,council,Comuna,G0022,,pending,,,,,,824149
+G2017,Garabato,council,Comuna,G0022,,pending,,,,,,824156
+G2018,Golondrina,council,Comuna,G0022,,pending,,,,,,824163
+G2019,Intiyaco,council,Comuna,G0022,,pending,,,,,,824170
+G2020,La Gallareta,council,Comuna,G0022,,pending,,,,,,824177
+G2021,Los Amores,council,Comuna,G0022,,pending,,,,,,824184
+G2022,Los Tábanos,council,Comuna,G0022,,pending,,,,,,824188
+G2023,Margarita,council,Comuna,G0022,,pending,,,,,,824191
+G2024,Tartagal,council,Comuna,G0022,,pending,,,,,,824198
+G2025,Toba,council,Comuna,G0022,,pending,,,,,,824205
+G2026,Pinto,council,Municipio,G0023,,pending,,,,,,860007
+G2027,Campo Gallo,council,Municipio,G0023,,pending,,,,,,860014
+G2028,Villa Atamisqui,council,Municipio,G0023,,pending,,,,,,860021
+G2029,Colonia Dora,council,Municipio,G0023,,pending,,,,,,860028
+G2030,Clodomira,council,Municipio,G0023,,pending,,,,,,860035
+G2031,La Banda,council,Municipio,G0023,,pending,,,,,,860042
+G2032,Bandera,council,Municipio,G0023,,pending,,,,,,860049
+G2033,Santiago del Estero,council,Comisión Municipal,G0023,,pending,,,,,,860056
+G2034,Monte Quemado,council,Municipio,G0023,,pending,,,,,,860063
+G2035,Pampa de los Guanacos,council,Municipio,G0023,,pending,,,,,,860070
+G2036,Frías,council,Municipio,G0023,,pending,,,,,,860077
+G2037,Añatuya,council,Municipio,G0023,,pending,,,,,,860084
+G2038,Los Juríes,council,Municipio,G0023,,pending,,,,,,860091
+G2039,San Pedro de Guasayán,council,Municipio,G0023,,pending,,,,,,860098
+G2040,Pozo Hondo,council,Municipio,G0023,,pending,,,,,,860105
+G2041,Suncho Corral,council,Municipio,G0023,,pending,,,,,,860112
+G2042,Loreto,council,Municipio,G0023,,pending,,,,,,860119
+G2043,Quimilí,council,Municipio,G0023,,pending,,,,,,860126
+G2044,Tintina,council,Municipio,G0023,,pending,,,,,,860133
+G2045,Villa Ojo de Agua,council,Municipio,G0023,,pending,,,,,,860140
+G2046,Nueva Esperanza,council,Municipio,G0023,,pending,,,,,,860147
+G2047,Sumampa,council,Municipio,G0023,,pending,,,,,,860154
+G2048,Termas de Río Hondo,council,Municipio,G0023,,pending,,,,,,860161
+G2049,Selva,council,Municipio,G0023,,pending,,,,,,860168
+G2050,Beltrán,council,Municipio,G0023,,pending,,,,,,860175
+G2051,Fernández,council,Municipio,G0023,,pending,,,,,,860182
+G2052,Forres,council,Municipio,G0023,,pending,,,,,,860189
+G2053,Los Telares,council,Municipio,G0023,,pending,,,,,,860196
+G2054,Malbrán,council,Comisión Municipal,G0023,,pending,,,,,,866007
+G2055,Sachajoj,council,Comisión Municipal,G0023,,pending,,,,,,866014
+G2056,Estación Atamisqui,council,Comisión Municipal,G0023,,pending,,,,,,866021
+G2057,Hoyón,council,Comisión Municipal,G0023,,pending,,,,,,866024
+G2058,Juanillo,council,Comisión Municipal,G0023,,pending,,,,,,866026
+G2059,Medellín,council,Comisión Municipal,G0023,,pending,,,,,,866028
+G2060,Herrera,council,Comisión Municipal,G0023,,pending,,,,,,866035
+G2061,Icaño,council,Comisión Municipal,G0023,,pending,,,,,,866042
+G2062,Lugones,council,Comisión Municipal,G0023,,pending,,,,,,866049
+G2063,Real Sayana,council,Comisión Municipal,G0023,,pending,,,,,,866056
+G2064,Estación Simbolar,council,Comisión Municipal,G0023,,pending,,,,,,866063
+G2065,Los Quiroga,council,Comisión Municipal,G0023,,pending,,,,,,866070
+G2066,Fortín Inca,council,Comisión Municipal,G0023,,pending,,,,,,866077
+G2067,Guardia Escolta,council,Comisión Municipal,G0023,,pending,,,,,,866084
+G2068,Los Pirpintos,council,Comisión Municipal,G0023,,pending,,,,,,866091
+G2069,Choya,council,Comisión Municipal,G0023,,pending,,,,,,866098
+G2070,Laprida,council,Comisión Municipal,G0023,,pending,,,,,,866105
+G2071,Tapso,council,Comisión Municipal,G0023,,pending,,,,,,866112
+G2072,Villa La Punta,council,Comisión Municipal,G0023,,pending,,,,,,866119
+G2073,Bandera Bajada,council,Comisión Municipal,G0023,,pending,,,,,,866126
+G2074,La Cañada,council,Comisión Municipal,G0023,,pending,,,,,,866133
+G2075,Tomás Young,council,Comisión Municipal,G0023,,pending,,,,,,866140
+G2076,Lavalle,council,Comisión Municipal,G0023,,pending,,,,,,866147
+G2077,El Bobadal,council,Comisión Municipal,G0023,,pending,,,,,,866154
+G2078,El Charco,council,Comisión Municipal,G0023,,pending,,,,,,866161
+G2079,Gramilla,council,Comisión Municipal,G0023,,pending,,,,,,866168
+G2080,Matará,council,Comisión Municipal,G0023,,pending,,,,,,866175
+G2081,Vilelas,council,Comisión Municipal,G0023,,pending,,,,,,866182
+G2082,Yuchán,council,Comisión Municipal,G0023,,pending,,,,,,866183
+G2083,La Noria,council,Comisión Municipal,G0023,,pending,,,,,,866184
+G2084,San Vicente,council,Comisión Municipal,G0023,,pending,,,,,,866185
+G2085,Sauce Solo,council,Comisión Municipal,G0023,,pending,,,,,,866186
+G2086,Tío Pozo,council,Comisión Municipal,G0023,,pending,,,,,,866187
+G2087,Villa Unión,council,Comisión Municipal,G0023,,pending,,,,,,866189
+G2088,Weisburd,council,Comisión Municipal,G0023,,pending,,,,,,866196
+G2089,Kilómetro 49,council,Comisión Municipal,G0023,,pending,,,,,,866200
+G2090,Sol de Julio,council,Comisión Municipal,G0023,,pending,,,,,,866203
+G2091,El Mojón,council,Comisión Municipal,G0023,,pending,,,,,,866210
+G2092,Los Núñez,council,Comisión Municipal,G0023,,pending,,,,,,866217
+G2093,Villa Río Hondo,council,Comisión Municipal,G0023,,pending,,,,,,866224
+G2094,Colonia Alpina,council,Comisión Municipal,G0023,,pending,,,,,,866231
+G2095,Palo Negro,council,Comisión Municipal,G0023,,pending,,,,,,866238
+G2096,Colonia El Simbolar,council,Comisión Municipal,G0023,,pending,,,,,,866245
+G2097,Vilmer,council,Comisión Municipal,G0023,,pending,,,,,,866252
+G2098,Chilca Juliana,council,Comisión Municipal,G0023,,pending,,,,,,866259
+G2099,Villa Salavina,council,Comisión Municipal,G0023,,pending,,,,,,866266
+G2100,Brea Pozo,council,Comisión Municipal,G0023,,pending,,,,,,866273
+G2101,Taboada,council,Comisión Municipal,G0023,,pending,,,,,,866280
+G2102,Garza,council,Comisión Municipal,G0023,,pending,,,,,,866287
+G2103,Árraga,council,Comisión Municipal,G0023,,pending,,,,,,866294
+G2104,Nueva Francia,council,Comisión Municipal,G0023,,pending,,,,,,866301
+G2105,Argentina,council,Comisión Municipal,G0023,,pending,,,,,,866308
+G2106,Casares,council,Comisión Municipal,G0023,,pending,,,,,,866315
+G2107,Donadeu,council,Comisión Municipal,G0023,,pending,,,,,,866322
+G2108,Huachana,council,Comisión Municipal,G0023,,pending,,,,,,866325
+G2109,Santos Lugares,council,Comisión Municipal,G0023,,pending,,,,,,866329
+G2110,Villa Mailín,council,Comisión Municipal,G0023,,pending,,,,,,866336
+G2111,Punta Pozo,council,Comisión Municipal,G0023,,pending,,,,,,866340
+G2112,Abra Grande,council,Comisión Municipal,G0023,,pending,,,,,,866342
+G2113,Antajé,council,Comisión Municipal,G0023,,pending,,,,,,866343
+G2114,Ardiles,council,Comisión Municipal,G0023,,pending,,,,,,866350
+G2115,Cañada Escobar,council,Comisión Municipal,G0023,,pending,,,,,,866357
+G2116,Chaupi Pozo,council,Comisión Municipal,G0023,,pending,,,,,,866364
+G2117,El Aibé,council,Comisión Municipal,G0023,,pending,,,,,,866368
+G2118,La Aurora,council,Comisión Municipal,G0023,,pending,,,,,,866371
+G2119,San Ramón - La Dársena,council,Comisión Municipal,G0023,,pending,,,,,,866378
+G2120,Negra Muerta,council,Comisión Municipal,G0023,,pending,,,,,,866382
+G2121,Cuatro Bocas,council,Comisión Municipal,G0023,,pending,,,,,,866385
+G2122,El Deán,council,Comisión Municipal,G0023,,pending,,,,,,866388
+G2123,Remes,council,Comisión Municipal,G0023,,pending,,,,,,866390
+G2124,San Benito,council,Comisión Municipal,G0023,,pending,,,,,,866391
+G2125,San Pedro,council,Comisión Municipal,G0023,,pending,,,,,,866392
+G2126,Santa María,council,Comisión Municipal,G0023,,pending,,,,,,866394
+G2127,Sol de Mayo,council,Comisión Municipal,G0023,,pending,,,,,,866396
+G2128,Villa Zanjón,council,Comisión Municipal,G0023,,pending,,,,,,866399
+G2129,Vuelta de la Barranca,council,Comisión Municipal,G0023,,pending,,,,,,866403
+G2130,Ahí Veremos (866405),council,Comisión Municipal,G0023,,pending,,,,,Disambiguated by official code.,866405
+G2131,El Caburé,council,Comisión Municipal,G0023,,pending,,,,,,866406
+G2132,San José del Boquerón,council,Comisión Municipal,G0023,,pending,,,,,,866413
+G2133,Villa Matoque,council,Comisión Municipal,G0023,,pending,,,,,,866420
+G2134,Caspi Corral,council,Comisión Municipal,G0023,,pending,,,,,,866424
+G2135,Colonia San Juan,council,Comisión Municipal,G0023,,pending,,,,,,866427
+G2136,El Cruce,council,Comisión Municipal,G0023,,pending,,,,,,866431
+G2137,La Invernada,council,Comisión Municipal,G0023,,pending,,,,,,866434
+G2138,Vaca Huañuna,council,Comisión Municipal,G0023,,pending,,,,,,866438
+G2139,Villa Figueroa,council,Comisión Municipal,G0023,,pending,,,,,,866441
+G2140,Averías,council,Comisión Municipal,G0023,,pending,,,,,,866448
+G2141,Tacañitas,council,Comisión Municipal,G0023,,pending,,,,,,866455
+G2142,La Nena - La Simona,council,Comisión Municipal,G0023,,pending,,,,,,866459
+G2143,Doña Luisa,council,Comisión Municipal,G0023,,pending,,,,,,866462
+G2144,Guampacha,council,Comisión Municipal,G0023,,pending,,,,,,866469
+G2145,Santa Catalina,council,Comisión Municipal,G0023,,pending,,,,,,866474
+G2146,Villa Guasayán,council,Comisión Municipal,G0023,,pending,,,,,,866476
+G2147,El Arenal,council,Comisión Municipal,G0023,,pending,,,,,,866483
+G2148,Tres Cruces,council,Comisión Municipal,G0023,,pending,,,,,,866487
+G2149,El Colorado,council,Comisión Municipal,G0023,,pending,,,,,,866490
+G2150,El Cuadrado,council,Comisión Municipal,G0023,,pending,,,,,,866497
+G2151,Melero,council,Comisión Municipal,G0023,,pending,,,,,,866501
+G2152,Pozo del Toba,council,Comisión Municipal,G0023,,pending,,,,,,866504
+G2153,San Antonio - Roldán,council,Comisión Municipal,G0023,,pending,,,,,,866505
+G2154,Amamá,council,Comisión Municipal,G0023,,pending,,,,,,866507
+G2155,Granadero Gatica,council,Comisión Municipal,G0023,,pending,,,,,,866509
+G2156,Las Tinajas,council,Comisión Municipal,G0023,,pending,,,,,,866511
+G2157,Libertad,council,Comisión Municipal,G0023,,pending,,,,,,866515
+G2158,Otumpa,council,Comisión Municipal,G0023,,pending,,,,,,866518
+G2159,Lilo Viejo - Patay,council,Comisión Municipal,G0023,,pending,,,,,,866525
+G2160,Villa Brana,council,Comisión Municipal,G0023,,pending,,,,,,866527
+G2161,Ahí Veremos (866528),council,Comisión Municipal,G0023,,pending,,,,,Disambiguated by official code.,866528
+G2162,Campo Grande,council,Comisión Municipal,G0023,,pending,,,,,,866529
+G2163,Las Delicias,council,Comisión Municipal,G0023,,pending,,,,,,866532
+G2164,Pozo Betbeder,council,Comisión Municipal,G0023,,pending,,,,,,866539
+G2165,Quebracho Coto,council,Comisión Municipal,G0023,,pending,,,,,,866546
+G2166,Rapelli,council,Comisión Municipal,G0023,,pending,,,,,,866553
+G2167,Santo Domingo,council,Comisión Municipal,G0023,,pending,,,,,,866555
+G2168,Villa Mercedes,council,Comisión Municipal,G0023,,pending,,,,,,866557
+G2169,Ramírez de Velazco,council,Comisión Municipal,G0023,,pending,,,,,,866560
+G2170,Acos - Pozo de Arbolito,council,Comisión Municipal,G0023,,pending,,,,,,866564
+G2171,Amicha,council,Comisión Municipal,G0023,,pending,,,,,,866565
+G2172,Colonia Tinco,council,Comisión Municipal,G0023,,pending,,,,,,866574
+G2173,El Sauzal,council,Comisión Municipal,G0023,,pending,,,,,,866576
+G2174,Lescano,council,Comisión Municipal,G0023,,pending,,,,,,866578
+G2175,Los Ovejeros,council,Comisión Municipal,G0023,,pending,,,,,,866579
+G2176,Pozuelos,council,Comisión Municipal,G0023,,pending,,,,,,866581
+G2177,Sotelo,council,Comisión Municipal,G0023,,pending,,,,,,866585
+G2178,Vinará,council,Comisión Municipal,G0023,,pending,,,,,,866588
+G2179,Los Romanos - Santo Domingo,council,Comisión Municipal,G0023,,pending,,,,,,866590
+G2180,Villa Hipólita,council,Comisión Municipal,G0023,,pending,,,,,,866594
+G2181,Villa Robles,council,Comisión Municipal,G0023,,pending,,,,,,866595
+G2182,La Paliza,council,Comisión Municipal,G0023,,pending,,,,,,866599
+G2183,Sabagasta,council,Comisión Municipal,G0023,,pending,,,,,,866602
+G2184,Vaca Human,council,Comisión Municipal,G0023,,pending,,,,,,866604
+G2185,Atoj Pozo,council,Comisión Municipal,G0023,,pending,,,,,,866606
+G2186,Estación Robles,council,Comisión Municipal,G0023,,pending,,,,,,866609
+G2187,Villa Nueva,council,Comisión Municipal,G0023,,pending,,,,,,866613
+G2188,Manogasta,council,Comisión Municipal,G0023,,pending,,,,,,866616
+G2189,Sumamao,council,Comisión Municipal,G0023,,pending,,,,,,866620
+G2190,Villa Silípica,council,Comisión Municipal,G0023,,pending,,,,,,866623
+G2191,Burruyacú,council,Municipio,G0024,,pending,,,,,,900007
+G2192,San Miguel de Tucumán,council,Municipio,G0024,,pending,,,,,,900014
+G2193,Alderetes,council,Municipio,G0024,,pending,,,,,,900021
+G2194,Banda del Río Salí,council,Municipio,G0024,,pending,,,,,,900028
+G2195,Concepción,council,Municipio,G0024,,pending,,,,,,900035
+G2196,Famaillá,council,Municipio,G0024,,pending,,,,,,900042
+G2197,Graneros,council,Municipio,G0024,,pending,,,,,,900049
+G2198,Juan Bautista Alberdi,council,Municipio,G0024,,pending,,,,,,900056
+G2199,La Cocha,council,Municipio,G0024,,pending,,,,,,900063
+G2200,Bella Vista,council,Municipio,G0024,,pending,,,,,,900070
+G2201,San Isidro de Lules,council,Municipio,G0024,,pending,,,,,,900077
+G2202,Monteros,council,Municipio,G0024,,pending,,,,,,900084
+G2203,Aguilares,council,Municipio,G0024,,pending,,,,,,900091
+G2204,Simoca,council,Municipio,G0024,,pending,,,,,,900098
+G2205,Tafí del Valle,council,Municipio,G0024,,pending,,,,,,900105
+G2206,Las Talitas,council,Municipio,G0024,,pending,,,,,,900112
+G2207,Tafí Viejo,council,Municipio,G0024,,pending,,,,,,900119
+G2208,Trancas,council,Municipio,G0024,,pending,,,,,,900126
+G2209,Yerba Buena (900133),council,Municipio,G0024,,pending,,,,,Disambiguated by official code.,900133
+G2210,7 de Abril,council,Comuna Rural,G0024,,pending,,,,,,908007
+G2211,El Chañar,council,Comuna Rural,G0024,,pending,,,,,,908014
+G2212,El Naranjo y El Sunchal,council,Comuna Rural,G0024,,pending,,,,,,908021
+G2213,El Puestito,council,Comuna Rural,G0024,,pending,,,,,,908028
+G2214,El Timbó,council,Comuna Rural,G0024,,pending,,,,,,908035
+G2215,Garmendia,council,Comuna Rural,G0024,,pending,,,,,,908042
+G2216,Gobernador Piedrabuena,council,Comuna Rural,G0024,,pending,,,,,,908049
+G2217,La Ramada y La Cruz,council,Comuna Rural,G0024,,pending,,,,,,908056
+G2218,Benjamín Aráoz y El Tajamar,council,Comuna Rural,G0024,,pending,,,,,,908063
+G2219,Villa Padre Monti,council,Comuna Rural,G0024,,pending,,,,,,908070
+G2220,Colombres,council,Comuna Rural,G0024,,pending,,,,,,908077
+G2221,Delfín Gallo,council,Comuna Rural,G0024,,pending,,,,,,908084
+G2222,El Bracho y El Cevilar,council,Comuna Rural,G0024,,pending,,,,,,908091
+G2223,El Naranjito,council,Comuna Rural,G0024,,pending,,,,,,908098
+G2224,La Florida y Luisiana,council,Comuna Rural,G0024,,pending,,,,,,908105
+G2225,Las Cejas,council,Comuna Rural,G0024,,pending,,,,,,908112
+G2226,Los Bulacio y Los Villagra,council,Comuna Rural,G0024,,pending,,,,,,908119
+G2227,Los Pereyra,council,Comuna Rural,G0024,,pending,,,,,,908126
+G2228,Los Pérez,council,Comuna Rural,G0024,,pending,,,,,,908133
+G2229,Los Ralos,council,Comuna Rural,G0024,,pending,,,,,,908140
+G2230,Ranchillos y San Miguel,council,Comuna Rural,G0024,,pending,,,,,,908147
+G2231,San Andrés,council,Comuna Rural,G0024,,pending,,,,,,908154
+G2232,Alpachiri y El Molino,council,Comuna Rural,G0024,,pending,,,,,,908161
+G2233,Alto Verde y Los Guchea,council,Comuna Rural,G0024,,pending,,,,,,908168
+G2234,Arcadia,council,Comuna Rural,G0024,,pending,,,,,,908175
+G2235,Gastona y Belicha,council,Comuna Rural,G0024,,pending,,,,,,908182
+G2236,La Trinidad,council,Comuna Rural,G0024,,pending,,,,,,908189
+G2237,Medina,council,Comuna Rural,G0024,,pending,,,,,,908196
+G2238,Lamadrid,council,Comuna Rural,G0024,,pending,,,,,,908203
+G2239,Taco Ralo,council,Comuna Rural,G0024,,pending,,,,,,908210
+G2240,Escaba,council,Comuna Rural,G0024,,pending,,,,,,908217
+G2241,Villa Belgrano,council,Comuna Rural,G0024,,pending,,,,,,908224
+G2242,El Sacrificio,council,Comuna Rural,G0024,,pending,,,,,,908231
+G2243,Huasa Pampa,council,Comuna Rural,G0024,,pending,,,,,,908238
+G2244,Rumi Punco,council,Comuna Rural,G0024,,pending,,,,,,908245
+G2245,San Ignacio,council,Comuna Rural,G0024,,pending,,,,,,908252
+G2246,San José de la Cocha,council,Comuna Rural,G0024,,pending,,,,,,908259
+G2247,Yánima y El Corralito,council,Comuna Rural,G0024,,pending,,,,,,908266
+G2248,Agua Dulce y La Soledad,council,Comuna Rural,G0024,,pending,,,,,,908273
+G2249,El Mojón,council,Comuna Rural,G0024,,pending,,,,,,908280
+G2250,Esquina y Mancopa,council,Comuna Rural,G0024,,pending,,,,,,908287
+G2251,Estación Aráoz y Tacanas,council,Comuna Rural,G0024,,pending,,,,,,908294
+G2252,Las Talas,council,Comuna Rural,G0024,,pending,,,,,,908301
+G2253,Los Gómez,council,Comuna Rural,G0024,,pending,,,,,,908308
+G2254,Los Puestos,council,Comuna Rural,G0024,,pending,,,,,,908315
+G2255,Manuel García Fernández,council,Comuna Rural,G0024,,pending,,,,,,908322
+G2256,Quilmes y Los Sueldos,council,Comuna Rural,G0024,,pending,,,,,,908329
+G2257,Río Colorado,council,Comuna Rural,G0024,,pending,,,,,,908336
+G2258,Santa Rosa de Leales y Laguna Blanca,council,Comuna Rural,G0024,,pending,,,,,,908343
+G2259,Villa de Leales,council,Comuna Rural,G0024,,pending,,,,,,908350
+G2260,El Manantial,council,Comuna Rural,G0024,,pending,,,,,,908357
+G2261,San Felipe y Santa Bárbara,council,Comuna Rural,G0024,,pending,,,,,,908364
+G2262,San Pablo y Villa Nougués,council,Comuna Rural,G0024,,pending,,,,,,908371
+G2263,Acheral,council,Comuna Rural,G0024,,pending,,,,,,908378
+G2264,Amberes,council,Comuna Rural,G0024,,pending,,,,,,908385
+G2265,Capitán Cáceres,council,Comuna Rural,G0024,,pending,,,,,,908392
+G2266,El Cercado,council,Comuna Rural,G0024,,pending,,,,,,908399
+G2267,León Rouges y Santa Rosa,council,Comuna Rural,G0024,,pending,,,,,,908406
+G2268,Los Sosa,council,Comuna Rural,G0024,,pending,,,,,,908413
+G2269,Río Seco,council,Comuna Rural,G0024,,pending,,,,,,908420
+G2270,Santa Lucía,council,Comuna Rural,G0024,,pending,,,,,,908427
+G2271,Sargento Moya,council,Comuna Rural,G0024,,pending,,,,,,908434
+G2272,Soldado Maldonado,council,Comuna Rural,G0024,,pending,,,,,,908441
+G2273,Teniente Berdina,council,Comuna Rural,G0024,,pending,,,,,,908448
+G2274,Villa Quinteros,council,Comuna Rural,G0024,,pending,,,,,,908455
+G2275,El Polear y Los Córdoba,council,Comuna Rural,G0024,,pending,,,,,,908462
+G2276,Los Sarmiento y La Tipa,council,Comuna Rural,G0024,,pending,,,,,,908469
+G2277,Monte Bello,council,Comuna Rural,G0024,,pending,,,,,,908476
+G2278,Santa Ana,council,Comuna Rural,G0024,,pending,,,,,,908483
+G2279,Atahona,council,Comuna Rural,G0024,,pending,,,,,,908490
+G2280,Buena Vista,council,Comuna Rural,G0024,,pending,,,,,,908497
+G2281,Ciudacita,council,Comuna Rural,G0024,,pending,,,,,,908504
+G2282,Manuela Pedraza,council,Comuna Rural,G0024,,pending,,,,,,908511
+G2283,Monteagudo,council,Comuna Rural,G0024,,pending,,,,,,908518
+G2284,Pampa Mayo,council,Comuna Rural,G0024,,pending,,,,,,908525
+G2285,Río Chico y Nueva Trinidad,council,Comuna Rural,G0024,,pending,,,,,,908532
+G2286,San Pedro y San Antonio,council,Comuna Rural,G0024,,pending,,,,,,908539
+G2287,Santa Cruz y La Tuna,council,Comuna Rural,G0024,,pending,,,,,,908546
+G2288,Villa Chicligasta,council,Comuna Rural,G0024,,pending,,,,,,908553
+G2289,Yerba Buena (908560),council,Comuna Rural,G0024,,pending,,,,,Disambiguated by official code.,908560
+G2290,Amaicha del Valle,council,Comuna Rural,G0024,,pending,,,,,,908567
+G2291,Colalao del Valle,council,Comuna Rural,G0024,,pending,,,,,,908574
+G2292,El Mollar,council,Comuna Rural,G0024,,pending,,,,,,908581
+G2293,Raco,council,Comuna Rural,G0024,,pending,,,,,,908588
+G2294,Ancajuli,council,Comuna Rural,G0024,,pending,,,,,,908595
+G2295,El Cadillal,council,Comuna Rural,G0024,,pending,,,,,,908602
+G2296,La Esperanza,council,Comuna Rural,G0024,,pending,,,,,,908609
+G2297,Los Nogales,council,Comuna Rural,G0024,,pending,,,,,,908616
+G2298,Choromoro,council,Comuna Rural,G0024,,pending,,,,,,908623
+G2299,San Pedro de Colalao,council,Comuna Rural,G0024,,pending,,,,,,908630
+G2300,Tapia,council,Comuna Rural,G0024,,pending,,,,,,908637
+G2301,Cevil Redondo,council,Comuna Rural,G0024,,pending,,,,,,908644
+G2302,San Javier,council,Comuna Rural,G0024,,pending,,,,,,908651
+G2303,Río Grande,council,Municipio,G0025,,pending,,,,,,940007
+G2304,Ushuaia,council,Municipio,G0025,,pending,,,,,,940014
+G2305,Tolhuin,council,Municipio,G0025,,pending,,,,,,940021
