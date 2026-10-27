@@ -69,3 +69,5 @@ First written 2026-10-22 (run R001). Seed pass across national, regional and loc
 ## Review corrections
 
 Four rows were removed (Forum Disuguaglianze e Diversità: the quoted sentence is not in the source table; Fumagalli: the page could not be read and the quote describes a petition; Dalle Luche: the quote only cites an analysis; Di Turi: generic). Sbilanciamoci's quote was replaced with the sentence the PDF actually contains, and the Patriotic Millionaires and Tridico rows are grade B. The Demopolis poll was dated May 2024 and linked to an unrelated article: it was fieldwork in September 2024, published 26 September 2024, and now links to Oxfam Italia's press release (Oxfam commissioned it). I checked all 187 quotes against their sources: 182 matched as written and the five that did not are the ones above (one more was an HTML apostrophe difference).
+
+**Exclusion row removed.** The effimera.org page that an early run rejected for Andrea Fumagalli was a signature-drive page and could not be read; he stays on the May 2024 economists' manifesto (E00088), whose quote is on its page.
