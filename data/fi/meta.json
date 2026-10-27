@@ -1,0 +1,8 @@
+{
+  "name": "Finland",
+  "iso2": "FI",
+  "lead": "",
+  "status": "in progress",
+  "boundaries": "boundaries.json",
+  "notes": "Seed coverage begun 27 October 2026: national parliamentary sponsors, party policies, unions, civil society and economists, with Finnish and Swedish searches and a five-city local sample. Historical bill and motion signatures establish support at the recorded date; party labels on those records are the labels at signature, and do not assert current affiliation. The legacy parliamentary member API was used for identity, death and historical constituency/term checks, but has stale current-term fields; current seats are not asserted and no seat chart is enabled. Short evidence quotes are the signatories' own entries in the official signature blocks. The map contains all 308 municipalities and 19 regions from Statistics Finland's 2026 generalised boundaries, CC BY 4.0, with official municipality and region codes. Electoral constituencies are recorded separately where they overlap administrative regions. Local units remain unswept beyond the five-city discovery sample. This is a partial register; remaining campaigns, opinion writers, wealthy supporters and local actors require further research. Follow-up R002 added 13 supporters from signed parliamentary reservations, adopted STTK/Green policies and public authors. All 13 new quotations passed the automatic source check; older 2010 full signer lists remain inaccessible and are logged for archive follow-up."
+}

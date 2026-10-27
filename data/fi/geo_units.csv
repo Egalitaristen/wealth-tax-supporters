@@ -1,0 +1,344 @@
+geo_unit_id,name,level,unit_type,parent_id,website,sweep_status,swept_run,swept_date,queries_run,hits,notes,code
+G0001,Finland,national,country,,,in_progress,,,,,,FI
+G0002,Uusimaa,region,region,G0001,,pending,,,,,Official Statistics Finland maakunta code prefixed MK to distinguish municipalities.,MK01
+G0003,Varsinais-Suomi,region,region,G0001,,pending,,,,,Official Statistics Finland maakunta code prefixed MK to distinguish municipalities.,MK02
+G0004,Satakunta,region,region,G0001,,pending,,,,,Official Statistics Finland maakunta code prefixed MK to distinguish municipalities.,MK04
+G0005,Kanta-Häme,region,region,G0001,,pending,,,,,Official Statistics Finland maakunta code prefixed MK to distinguish municipalities.,MK05
+G0006,Pirkanmaa,region,region,G0001,,pending,,,,,Official Statistics Finland maakunta code prefixed MK to distinguish municipalities.,MK06
+G0007,Päijät-Häme,region,region,G0001,,pending,,,,,Official Statistics Finland maakunta code prefixed MK to distinguish municipalities.,MK07
+G0008,Kymenlaakso,region,region,G0001,,pending,,,,,Official Statistics Finland maakunta code prefixed MK to distinguish municipalities.,MK08
+G0009,Etelä-Karjala,region,region,G0001,,pending,,,,,Official Statistics Finland maakunta code prefixed MK to distinguish municipalities.,MK09
+G0010,Etelä-Savo,region,region,G0001,,pending,,,,,Official Statistics Finland maakunta code prefixed MK to distinguish municipalities.,MK10
+G0011,Pohjois-Savo,region,region,G0001,,pending,,,,,Official Statistics Finland maakunta code prefixed MK to distinguish municipalities.,MK11
+G0012,Pohjois-Karjala,region,region,G0001,,pending,,,,,Official Statistics Finland maakunta code prefixed MK to distinguish municipalities.,MK12
+G0013,Keski-Suomi,region,region,G0001,,pending,,,,,Official Statistics Finland maakunta code prefixed MK to distinguish municipalities.,MK13
+G0014,Etelä-Pohjanmaa,region,region,G0001,,pending,,,,,Official Statistics Finland maakunta code prefixed MK to distinguish municipalities.,MK14
+G0015,Pohjanmaa,region,region,G0001,,pending,,,,,Official Statistics Finland maakunta code prefixed MK to distinguish municipalities.,MK15
+G0016,Keski-Pohjanmaa,region,region,G0001,,pending,,,,,Official Statistics Finland maakunta code prefixed MK to distinguish municipalities.,MK16
+G0017,Pohjois-Pohjanmaa,region,region,G0001,,pending,,,,,Official Statistics Finland maakunta code prefixed MK to distinguish municipalities.,MK17
+G0018,Kainuu,region,region,G0001,,pending,,,,,Official Statistics Finland maakunta code prefixed MK to distinguish municipalities.,MK18
+G0019,Lappi,region,region,G0001,,pending,,,,,Official Statistics Finland maakunta code prefixed MK to distinguish municipalities.,MK19
+G0020,Ahvenanmaa,region,region,G0001,,pending,,,,,Official Statistics Finland maakunta code prefixed MK to distinguish municipalities.,MK21
+G0021,Alajärvi,council,municipality,G0014,,pending,,,,,Statistics Finland 2026 municipality; parent matched against the same official region geometry.,005
+G0022,Alavieska,council,municipality,G0017,,pending,,,,,Statistics Finland 2026 municipality; parent matched against the same official region geometry.,009
+G0023,Alavus,council,municipality,G0014,,pending,,,,,Statistics Finland 2026 municipality; parent matched against the same official region geometry.,010
+G0024,Asikkala,council,municipality,G0007,,pending,,,,,Statistics Finland 2026 municipality; parent matched against the same official region geometry.,016
+G0025,Askola,council,municipality,G0002,,pending,,,,,Statistics Finland 2026 municipality; parent matched against the same official region geometry.,018
+G0026,Aura,council,municipality,G0003,,pending,,,,,Statistics Finland 2026 municipality; parent matched against the same official region geometry.,019
+G0027,Akaa,council,municipality,G0006,,pending,,,,,Statistics Finland 2026 municipality; parent matched against the same official region geometry.,020
+G0028,Brändö,council,municipality,G0020,,pending,,,,,Statistics Finland 2026 municipality; parent matched against the same official region geometry.,035
+G0029,Eckerö,council,municipality,G0020,,pending,,,,,Statistics Finland 2026 municipality; parent matched against the same official region geometry.,043
+G0030,Enonkoski,council,municipality,G0010,,pending,,,,,Statistics Finland 2026 municipality; parent matched against the same official region geometry.,046
+G0031,Enontekiö,council,municipality,G0019,,pending,,,,,Statistics Finland 2026 municipality; parent matched against the same official region geometry.,047
+G0032,Espoo,council,municipality,G0002,,in_progress,R001,2026-10-27,2,0,Discovery and official-domain search sampled; no qualifying act verified. Minutes not exhaustively searched.,049
+G0033,Eura,council,municipality,G0004,,pending,,,,,Statistics Finland 2026 municipality; parent matched against the same official region geometry.,050
+G0034,Eurajoki,council,municipality,G0004,,pending,,,,,Statistics Finland 2026 municipality; parent matched against the same official region geometry.,051
+G0035,Evijärvi,council,municipality,G0014,,pending,,,,,Statistics Finland 2026 municipality; parent matched against the same official region geometry.,052
+G0036,Finström,council,municipality,G0020,,pending,,,,,Statistics Finland 2026 municipality; parent matched against the same official region geometry.,060
+G0037,Forssa,council,municipality,G0005,,pending,,,,,Statistics Finland 2026 municipality; parent matched against the same official region geometry.,061
+G0038,Kihniö,council,municipality,G0006,,pending,,,,,Statistics Finland 2026 municipality; parent matched against the same official region geometry.,250
+G0039,Föglö,council,municipality,G0020,,pending,,,,,Statistics Finland 2026 municipality; parent matched against the same official region geometry.,062
+G0040,Geta,council,municipality,G0020,,pending,,,,,Statistics Finland 2026 municipality; parent matched against the same official region geometry.,065
+G0041,Haapajärvi,council,municipality,G0017,,pending,,,,,Statistics Finland 2026 municipality; parent matched against the same official region geometry.,069
+G0042,Haapavesi,council,municipality,G0017,,pending,,,,,Statistics Finland 2026 municipality; parent matched against the same official region geometry.,071
+G0043,Hailuoto,council,municipality,G0017,,pending,,,,,Statistics Finland 2026 municipality; parent matched against the same official region geometry.,072
+G0044,Halsua,council,municipality,G0016,,pending,,,,,Statistics Finland 2026 municipality; parent matched against the same official region geometry.,074
+G0045,Hamina,council,municipality,G0008,,pending,,,,,Statistics Finland 2026 municipality; parent matched against the same official region geometry.,075
+G0046,Hammarland,council,municipality,G0020,,pending,,,,,Statistics Finland 2026 municipality; parent matched against the same official region geometry.,076
+G0047,Hankasalmi,council,municipality,G0013,,pending,,,,,Statistics Finland 2026 municipality; parent matched against the same official region geometry.,077
+G0048,Hanko,council,municipality,G0002,,pending,,,,,Statistics Finland 2026 municipality; parent matched against the same official region geometry.,078
+G0049,Harjavalta,council,municipality,G0004,,pending,,,,,Statistics Finland 2026 municipality; parent matched against the same official region geometry.,079
+G0050,Hartola,council,municipality,G0007,,pending,,,,,Statistics Finland 2026 municipality; parent matched against the same official region geometry.,081
+G0051,Hattula,council,municipality,G0005,,pending,,,,,Statistics Finland 2026 municipality; parent matched against the same official region geometry.,082
+G0052,Hausjärvi,council,municipality,G0005,,pending,,,,,Statistics Finland 2026 municipality; parent matched against the same official region geometry.,086
+G0053,Heinävesi,council,municipality,G0012,,pending,,,,,Statistics Finland 2026 municipality; parent matched against the same official region geometry.,090
+G0054,Helsinki,council,municipality,G0002,,in_progress,R001,2026-10-27,2,0,Discovery and official-domain search sampled; no qualifying act verified. Minutes not exhaustively searched.,091
+G0055,Vantaa,council,municipality,G0002,,pending,,,,,Statistics Finland 2026 municipality; parent matched against the same official region geometry.,092
+G0056,Hirvensalmi,council,municipality,G0010,,pending,,,,,Statistics Finland 2026 municipality; parent matched against the same official region geometry.,097
+G0057,Kaavi,council,municipality,G0011,,pending,,,,,Statistics Finland 2026 municipality; parent matched against the same official region geometry.,204
+G0058,Hollola,council,municipality,G0007,,pending,,,,,Statistics Finland 2026 municipality; parent matched against the same official region geometry.,098
+G0059,Huittinen,council,municipality,G0004,,pending,,,,,Statistics Finland 2026 municipality; parent matched against the same official region geometry.,102
+G0060,Humppila,council,municipality,G0005,,pending,,,,,Statistics Finland 2026 municipality; parent matched against the same official region geometry.,103
+G0061,Hyrynsalmi,council,municipality,G0018,,pending,,,,,Statistics Finland 2026 municipality; parent matched against the same official region geometry.,105
+G0062,Hyvinkää,council,municipality,G0002,,pending,,,,,Statistics Finland 2026 municipality; parent matched against the same official region geometry.,106
+G0063,Hämeenkyrö,council,municipality,G0006,,pending,,,,,Statistics Finland 2026 municipality; parent matched against the same official region geometry.,108
+G0064,Hämeenlinna,council,municipality,G0005,,pending,,,,,Statistics Finland 2026 municipality; parent matched against the same official region geometry.,109
+G0065,Heinola,council,municipality,G0007,,pending,,,,,Statistics Finland 2026 municipality; parent matched against the same official region geometry.,111
+G0066,Ii,council,municipality,G0017,,pending,,,,,Statistics Finland 2026 municipality; parent matched against the same official region geometry.,139
+G0067,Iisalmi,council,municipality,G0011,,pending,,,,,Statistics Finland 2026 municipality; parent matched against the same official region geometry.,140
+G0068,Iitti,council,municipality,G0007,,pending,,,,,Statistics Finland 2026 municipality; parent matched against the same official region geometry.,142
+G0069,Ikaalinen,council,municipality,G0006,,pending,,,,,Statistics Finland 2026 municipality; parent matched against the same official region geometry.,143
+G0070,Ilmajoki,council,municipality,G0014,,pending,,,,,Statistics Finland 2026 municipality; parent matched against the same official region geometry.,145
+G0071,Ilomantsi,council,municipality,G0012,,pending,,,,,Statistics Finland 2026 municipality; parent matched against the same official region geometry.,146
+G0072,Inari,council,municipality,G0019,,pending,,,,,Statistics Finland 2026 municipality; parent matched against the same official region geometry.,148
+G0073,Kajaani,council,municipality,G0018,,pending,,,,,Statistics Finland 2026 municipality; parent matched against the same official region geometry.,205
+G0074,Inkoo,council,municipality,G0002,,pending,,,,,Statistics Finland 2026 municipality; parent matched against the same official region geometry.,149
+G0075,Isojoki,council,municipality,G0014,,pending,,,,,Statistics Finland 2026 municipality; parent matched against the same official region geometry.,151
+G0076,Isokyrö,council,municipality,G0014,,pending,,,,,Statistics Finland 2026 municipality; parent matched against the same official region geometry.,152
+G0077,Imatra,council,municipality,G0009,,pending,,,,,Statistics Finland 2026 municipality; parent matched against the same official region geometry.,153
+G0078,Janakkala,council,municipality,G0005,,pending,,,,,Statistics Finland 2026 municipality; parent matched against the same official region geometry.,165
+G0079,Joensuu,council,municipality,G0012,,pending,,,,,Statistics Finland 2026 municipality; parent matched against the same official region geometry.,167
+G0080,Jokioinen,council,municipality,G0005,,pending,,,,,Statistics Finland 2026 municipality; parent matched against the same official region geometry.,169
+G0081,Jomala,council,municipality,G0020,,pending,,,,,Statistics Finland 2026 municipality; parent matched against the same official region geometry.,170
+G0082,Joroinen,council,municipality,G0011,,pending,,,,,Statistics Finland 2026 municipality; parent matched against the same official region geometry.,171
+G0083,Joutsa,council,municipality,G0013,,pending,,,,,Statistics Finland 2026 municipality; parent matched against the same official region geometry.,172
+G0084,Juuka,council,municipality,G0012,,pending,,,,,Statistics Finland 2026 municipality; parent matched against the same official region geometry.,176
+G0085,Juupajoki,council,municipality,G0006,,pending,,,,,Statistics Finland 2026 municipality; parent matched against the same official region geometry.,177
+G0086,Juva,council,municipality,G0010,,pending,,,,,Statistics Finland 2026 municipality; parent matched against the same official region geometry.,178
+G0087,Jyväskylä,council,municipality,G0013,,pending,,,,,Statistics Finland 2026 municipality; parent matched against the same official region geometry.,179
+G0088,Jämijärvi,council,municipality,G0004,,pending,,,,,Statistics Finland 2026 municipality; parent matched against the same official region geometry.,181
+G0089,Jämsä,council,municipality,G0013,,pending,,,,,Statistics Finland 2026 municipality; parent matched against the same official region geometry.,182
+G0090,Järvenpää,council,municipality,G0002,,pending,,,,,Statistics Finland 2026 municipality; parent matched against the same official region geometry.,186
+G0091,Kaarina,council,municipality,G0003,,pending,,,,,Statistics Finland 2026 municipality; parent matched against the same official region geometry.,202
+G0092,Kalajoki,council,municipality,G0017,,pending,,,,,Statistics Finland 2026 municipality; parent matched against the same official region geometry.,208
+G0093,Kangasala,council,municipality,G0006,,pending,,,,,Statistics Finland 2026 municipality; parent matched against the same official region geometry.,211
+G0094,Kangasniemi,council,municipality,G0010,,pending,,,,,Statistics Finland 2026 municipality; parent matched against the same official region geometry.,213
+G0095,Kankaanpää,council,municipality,G0004,,pending,,,,,Statistics Finland 2026 municipality; parent matched against the same official region geometry.,214
+G0096,Kannonkoski,council,municipality,G0013,,pending,,,,,Statistics Finland 2026 municipality; parent matched against the same official region geometry.,216
+G0097,Kannus,council,municipality,G0016,,pending,,,,,Statistics Finland 2026 municipality; parent matched against the same official region geometry.,217
+G0098,Karijoki,council,municipality,G0014,,pending,,,,,Statistics Finland 2026 municipality; parent matched against the same official region geometry.,218
+G0099,Karkkila,council,municipality,G0002,,pending,,,,,Statistics Finland 2026 municipality; parent matched against the same official region geometry.,224
+G0100,Karstula,council,municipality,G0013,,pending,,,,,Statistics Finland 2026 municipality; parent matched against the same official region geometry.,226
+G0101,Karvia,council,municipality,G0004,,pending,,,,,Statistics Finland 2026 municipality; parent matched against the same official region geometry.,230
+G0102,Kaskinen,council,municipality,G0015,,pending,,,,,Statistics Finland 2026 municipality; parent matched against the same official region geometry.,231
+G0103,Kauhajoki,council,municipality,G0014,,pending,,,,,Statistics Finland 2026 municipality; parent matched against the same official region geometry.,232
+G0104,Kauhava,council,municipality,G0014,,pending,,,,,Statistics Finland 2026 municipality; parent matched against the same official region geometry.,233
+G0105,Kauniainen,council,municipality,G0002,,pending,,,,,Statistics Finland 2026 municipality; parent matched against the same official region geometry.,235
+G0106,Kaustinen,council,municipality,G0016,,pending,,,,,Statistics Finland 2026 municipality; parent matched against the same official region geometry.,236
+G0107,Keitele,council,municipality,G0011,,pending,,,,,Statistics Finland 2026 municipality; parent matched against the same official region geometry.,239
+G0108,Kemi,council,municipality,G0019,,pending,,,,,Statistics Finland 2026 municipality; parent matched against the same official region geometry.,240
+G0109,Keminmaa,council,municipality,G0019,,pending,,,,,Statistics Finland 2026 municipality; parent matched against the same official region geometry.,241
+G0110,Kempele,council,municipality,G0017,,pending,,,,,Statistics Finland 2026 municipality; parent matched against the same official region geometry.,244
+G0111,Kerava,council,municipality,G0002,,pending,,,,,Statistics Finland 2026 municipality; parent matched against the same official region geometry.,245
+G0112,Keuruu,council,municipality,G0013,,pending,,,,,Statistics Finland 2026 municipality; parent matched against the same official region geometry.,249
+G0113,Kinnula,council,municipality,G0013,,pending,,,,,Statistics Finland 2026 municipality; parent matched against the same official region geometry.,256
+G0114,Kirkkonummi,council,municipality,G0002,,pending,,,,,Statistics Finland 2026 municipality; parent matched against the same official region geometry.,257
+G0115,Kitee,council,municipality,G0012,,pending,,,,,Statistics Finland 2026 municipality; parent matched against the same official region geometry.,260
+G0116,Kittilä,council,municipality,G0019,,pending,,,,,Statistics Finland 2026 municipality; parent matched against the same official region geometry.,261
+G0117,Kiuruvesi,council,municipality,G0011,,pending,,,,,Statistics Finland 2026 municipality; parent matched against the same official region geometry.,263
+G0118,Kivijärvi,council,municipality,G0013,,pending,,,,,Statistics Finland 2026 municipality; parent matched against the same official region geometry.,265
+G0119,Kokemäki,council,municipality,G0004,,pending,,,,,Statistics Finland 2026 municipality; parent matched against the same official region geometry.,271
+G0120,Kokkola,council,municipality,G0016,,pending,,,,,Statistics Finland 2026 municipality; parent matched against the same official region geometry.,272
+G0121,Kolari,council,municipality,G0019,,pending,,,,,Statistics Finland 2026 municipality; parent matched against the same official region geometry.,273
+G0122,Konnevesi,council,municipality,G0013,,pending,,,,,Statistics Finland 2026 municipality; parent matched against the same official region geometry.,275
+G0123,Kontiolahti,council,municipality,G0012,,pending,,,,,Statistics Finland 2026 municipality; parent matched against the same official region geometry.,276
+G0124,Korsnäs,council,municipality,G0015,,pending,,,,,Statistics Finland 2026 municipality; parent matched against the same official region geometry.,280
+G0125,Koski Tl,council,municipality,G0003,,pending,,,,,Statistics Finland 2026 municipality; parent matched against the same official region geometry.,284
+G0126,Kotka,council,municipality,G0008,,pending,,,,,Statistics Finland 2026 municipality; parent matched against the same official region geometry.,285
+G0127,Kyyjärvi,council,municipality,G0013,,pending,,,,,Statistics Finland 2026 municipality; parent matched against the same official region geometry.,312
+G0128,Kärkölä,council,municipality,G0007,,pending,,,,,Statistics Finland 2026 municipality; parent matched against the same official region geometry.,316
+G0129,Kärsämäki,council,municipality,G0017,,pending,,,,,Statistics Finland 2026 municipality; parent matched against the same official region geometry.,317
+G0130,Kouvola,council,municipality,G0008,,pending,,,,,Statistics Finland 2026 municipality; parent matched against the same official region geometry.,286
+G0131,Kristiinankaupunki,council,municipality,G0015,,pending,,,,,Statistics Finland 2026 municipality; parent matched against the same official region geometry.,287
+G0132,Kruunupyy,council,municipality,G0015,,pending,,,,,Statistics Finland 2026 municipality; parent matched against the same official region geometry.,288
+G0133,Kuhmo,council,municipality,G0018,,pending,,,,,Statistics Finland 2026 municipality; parent matched against the same official region geometry.,290
+G0134,Kuhmoinen,council,municipality,G0006,,pending,,,,,Statistics Finland 2026 municipality; parent matched against the same official region geometry.,291
+G0135,Kumlinge,council,municipality,G0020,,pending,,,,,Statistics Finland 2026 municipality; parent matched against the same official region geometry.,295
+G0136,Kuopio,council,municipality,G0011,,pending,,,,,Statistics Finland 2026 municipality; parent matched against the same official region geometry.,297
+G0137,Kuortane,council,municipality,G0014,,pending,,,,,Statistics Finland 2026 municipality; parent matched against the same official region geometry.,300
+G0138,Kurikka,council,municipality,G0014,,pending,,,,,Statistics Finland 2026 municipality; parent matched against the same official region geometry.,301
+G0139,Kustavi,council,municipality,G0003,,pending,,,,,Statistics Finland 2026 municipality; parent matched against the same official region geometry.,304
+G0140,Kuusamo,council,municipality,G0017,,pending,,,,,Statistics Finland 2026 municipality; parent matched against the same official region geometry.,305
+G0141,Outokumpu,council,municipality,G0012,,pending,,,,,Statistics Finland 2026 municipality; parent matched against the same official region geometry.,309
+G0142,Nousiainen,council,municipality,G0003,,pending,,,,,Statistics Finland 2026 municipality; parent matched against the same official region geometry.,538
+G0143,Kökar,council,municipality,G0020,,pending,,,,,Statistics Finland 2026 municipality; parent matched against the same official region geometry.,318
+G0144,Kemijärvi,council,municipality,G0019,,pending,,,,,Statistics Finland 2026 municipality; parent matched against the same official region geometry.,320
+G0145,Kemiönsaari,council,municipality,G0003,,pending,,,,,Statistics Finland 2026 municipality; parent matched against the same official region geometry.,322
+G0146,Lahti,council,municipality,G0007,,pending,,,,,Statistics Finland 2026 municipality; parent matched against the same official region geometry.,398
+G0147,Laihia,council,municipality,G0015,,pending,,,,,Statistics Finland 2026 municipality; parent matched against the same official region geometry.,399
+G0148,Laitila,council,municipality,G0003,,pending,,,,,Statistics Finland 2026 municipality; parent matched against the same official region geometry.,400
+G0149,Lapinlahti,council,municipality,G0011,,pending,,,,,Statistics Finland 2026 municipality; parent matched against the same official region geometry.,402
+G0150,Lappajärvi,council,municipality,G0014,,pending,,,,,Statistics Finland 2026 municipality; parent matched against the same official region geometry.,403
+G0151,Lappeenranta,council,municipality,G0009,,pending,,,,,Statistics Finland 2026 municipality; parent matched against the same official region geometry.,405
+G0152,Lapinjärvi,council,municipality,G0002,,pending,,,,,Statistics Finland 2026 municipality; parent matched against the same official region geometry.,407
+G0153,Lapua,council,municipality,G0014,,pending,,,,,Statistics Finland 2026 municipality; parent matched against the same official region geometry.,408
+G0154,Laukaa,council,municipality,G0013,,pending,,,,,Statistics Finland 2026 municipality; parent matched against the same official region geometry.,410
+G0155,Lemi,council,municipality,G0009,,pending,,,,,Statistics Finland 2026 municipality; parent matched against the same official region geometry.,416
+G0156,Lemland,council,municipality,G0020,,pending,,,,,Statistics Finland 2026 municipality; parent matched against the same official region geometry.,417
+G0157,Lempäälä,council,municipality,G0006,,pending,,,,,Statistics Finland 2026 municipality; parent matched against the same official region geometry.,418
+G0158,Nokia,council,municipality,G0006,,pending,,,,,Statistics Finland 2026 municipality; parent matched against the same official region geometry.,536
+G0159,Leppävirta,council,municipality,G0011,,pending,,,,,Statistics Finland 2026 municipality; parent matched against the same official region geometry.,420
+G0160,Lestijärvi,council,municipality,G0016,,pending,,,,,Statistics Finland 2026 municipality; parent matched against the same official region geometry.,421
+G0161,Lieksa,council,municipality,G0012,,pending,,,,,Statistics Finland 2026 municipality; parent matched against the same official region geometry.,422
+G0162,Lieto,council,municipality,G0003,,pending,,,,,Statistics Finland 2026 municipality; parent matched against the same official region geometry.,423
+G0163,Liminka,council,municipality,G0017,,pending,,,,,Statistics Finland 2026 municipality; parent matched against the same official region geometry.,425
+G0164,Liperi,council,municipality,G0012,,pending,,,,,Statistics Finland 2026 municipality; parent matched against the same official region geometry.,426
+G0165,Loimaa,council,municipality,G0003,,pending,,,,,Statistics Finland 2026 municipality; parent matched against the same official region geometry.,430
+G0166,Loppi,council,municipality,G0005,,pending,,,,,Statistics Finland 2026 municipality; parent matched against the same official region geometry.,433
+G0167,Loviisa,council,municipality,G0002,,pending,,,,,Statistics Finland 2026 municipality; parent matched against the same official region geometry.,434
+G0168,Luhanka,council,municipality,G0013,,pending,,,,,Statistics Finland 2026 municipality; parent matched against the same official region geometry.,435
+G0169,Lumijoki,council,municipality,G0017,,pending,,,,,Statistics Finland 2026 municipality; parent matched against the same official region geometry.,436
+G0170,Lumparland,council,municipality,G0020,,pending,,,,,Statistics Finland 2026 municipality; parent matched against the same official region geometry.,438
+G0171,Luoto,council,municipality,G0015,,pending,,,,,Statistics Finland 2026 municipality; parent matched against the same official region geometry.,440
+G0172,Luumäki,council,municipality,G0009,,pending,,,,,Statistics Finland 2026 municipality; parent matched against the same official region geometry.,441
+G0173,Lohja,council,municipality,G0002,,pending,,,,,Statistics Finland 2026 municipality; parent matched against the same official region geometry.,444
+G0174,Parainen,council,municipality,G0003,,pending,,,,,Statistics Finland 2026 municipality; parent matched against the same official region geometry.,445
+G0175,Maalahti,council,municipality,G0015,,pending,,,,,Statistics Finland 2026 municipality; parent matched against the same official region geometry.,475
+G0176,Maarianhamina - Mariehamn,council,municipality,G0020,,pending,,,,,Statistics Finland 2026 municipality; parent matched against the same official region geometry.,478
+G0177,Marttila,council,municipality,G0003,,pending,,,,,Statistics Finland 2026 municipality; parent matched against the same official region geometry.,480
+G0178,Masku,council,municipality,G0003,,pending,,,,,Statistics Finland 2026 municipality; parent matched against the same official region geometry.,481
+G0179,Merijärvi,council,municipality,G0017,,pending,,,,,Statistics Finland 2026 municipality; parent matched against the same official region geometry.,483
+G0180,Merikarvia,council,municipality,G0004,,pending,,,,,Statistics Finland 2026 municipality; parent matched against the same official region geometry.,484
+G0181,Miehikkälä,council,municipality,G0008,,pending,,,,,Statistics Finland 2026 municipality; parent matched against the same official region geometry.,489
+G0182,Mikkeli,council,municipality,G0010,,pending,,,,,Statistics Finland 2026 municipality; parent matched against the same official region geometry.,491
+G0183,Muhos,council,municipality,G0017,,pending,,,,,Statistics Finland 2026 municipality; parent matched against the same official region geometry.,494
+G0184,Multia,council,municipality,G0013,,pending,,,,,Statistics Finland 2026 municipality; parent matched against the same official region geometry.,495
+G0185,Muonio,council,municipality,G0019,,pending,,,,,Statistics Finland 2026 municipality; parent matched against the same official region geometry.,498
+G0186,Mustasaari,council,municipality,G0015,,pending,,,,,Statistics Finland 2026 municipality; parent matched against the same official region geometry.,499
+G0187,Muurame,council,municipality,G0013,,pending,,,,,Statistics Finland 2026 municipality; parent matched against the same official region geometry.,500
+G0188,Mynämäki,council,municipality,G0003,,pending,,,,,Statistics Finland 2026 municipality; parent matched against the same official region geometry.,503
+G0189,Myrskylä,council,municipality,G0002,,pending,,,,,Statistics Finland 2026 municipality; parent matched against the same official region geometry.,504
+G0190,Mäntsälä,council,municipality,G0002,,pending,,,,,Statistics Finland 2026 municipality; parent matched against the same official region geometry.,505
+G0191,Mäntyharju,council,municipality,G0010,,pending,,,,,Statistics Finland 2026 municipality; parent matched against the same official region geometry.,507
+G0192,Mänttä-Vilppula,council,municipality,G0006,,pending,,,,,Statistics Finland 2026 municipality; parent matched against the same official region geometry.,508
+G0193,Naantali,council,municipality,G0003,,pending,,,,,Statistics Finland 2026 municipality; parent matched against the same official region geometry.,529
+G0194,Nakkila,council,municipality,G0004,,pending,,,,,Statistics Finland 2026 municipality; parent matched against the same official region geometry.,531
+G0195,Nivala,council,municipality,G0017,,pending,,,,,Statistics Finland 2026 municipality; parent matched against the same official region geometry.,535
+G0196,Nurmes,council,municipality,G0012,,pending,,,,,Statistics Finland 2026 municipality; parent matched against the same official region geometry.,541
+G0197,Nurmijärvi,council,municipality,G0002,,pending,,,,,Statistics Finland 2026 municipality; parent matched against the same official region geometry.,543
+G0198,Närpiö,council,municipality,G0015,,pending,,,,,Statistics Finland 2026 municipality; parent matched against the same official region geometry.,545
+G0199,Orimattila,council,municipality,G0007,,pending,,,,,Statistics Finland 2026 municipality; parent matched against the same official region geometry.,560
+G0200,Oripää,council,municipality,G0003,,pending,,,,,Statistics Finland 2026 municipality; parent matched against the same official region geometry.,561
+G0201,Orivesi,council,municipality,G0006,,pending,,,,,Statistics Finland 2026 municipality; parent matched against the same official region geometry.,562
+G0202,Oulainen,council,municipality,G0017,,pending,,,,,Statistics Finland 2026 municipality; parent matched against the same official region geometry.,563
+G0203,Oulu,council,municipality,G0017,,in_progress,R001,2026-10-27,2,0,Discovery and official-domain search sampled; no qualifying act verified. Minutes not exhaustively searched.,564
+G0204,Padasjoki,council,municipality,G0007,,pending,,,,,Statistics Finland 2026 municipality; parent matched against the same official region geometry.,576
+G0205,Paimio,council,municipality,G0003,,pending,,,,,Statistics Finland 2026 municipality; parent matched against the same official region geometry.,577
+G0206,Paltamo,council,municipality,G0018,,pending,,,,,Statistics Finland 2026 municipality; parent matched against the same official region geometry.,578
+G0207,Parikkala,council,municipality,G0009,,pending,,,,,Statistics Finland 2026 municipality; parent matched against the same official region geometry.,580
+G0208,Parkano,council,municipality,G0006,,pending,,,,,Statistics Finland 2026 municipality; parent matched against the same official region geometry.,581
+G0209,Pelkosenniemi,council,municipality,G0019,,pending,,,,,Statistics Finland 2026 municipality; parent matched against the same official region geometry.,583
+G0210,Perho,council,municipality,G0016,,pending,,,,,Statistics Finland 2026 municipality; parent matched against the same official region geometry.,584
+G0211,Petäjävesi,council,municipality,G0013,,pending,,,,,Statistics Finland 2026 municipality; parent matched against the same official region geometry.,592
+G0212,Pieksämäki,council,municipality,G0010,,pending,,,,,Statistics Finland 2026 municipality; parent matched against the same official region geometry.,593
+G0213,Pielavesi,council,municipality,G0011,,pending,,,,,Statistics Finland 2026 municipality; parent matched against the same official region geometry.,595
+G0214,Pietarsaari,council,municipality,G0015,,pending,,,,,Statistics Finland 2026 municipality; parent matched against the same official region geometry.,598
+G0215,Pedersören kunta,council,municipality,G0015,,pending,,,,,Statistics Finland 2026 municipality; parent matched against the same official region geometry.,599
+G0216,Pihtipudas,council,municipality,G0013,,pending,,,,,Statistics Finland 2026 municipality; parent matched against the same official region geometry.,601
+G0217,Pirkkala,council,municipality,G0006,,pending,,,,,Statistics Finland 2026 municipality; parent matched against the same official region geometry.,604
+G0218,Polvijärvi,council,municipality,G0012,,pending,,,,,Statistics Finland 2026 municipality; parent matched against the same official region geometry.,607
+G0219,Pomarkku,council,municipality,G0004,,pending,,,,,Statistics Finland 2026 municipality; parent matched against the same official region geometry.,608
+G0220,Pori,council,municipality,G0004,,pending,,,,,Statistics Finland 2026 municipality; parent matched against the same official region geometry.,609
+G0221,Pornainen,council,municipality,G0002,,pending,,,,,Statistics Finland 2026 municipality; parent matched against the same official region geometry.,611
+G0222,Posio,council,municipality,G0019,,pending,,,,,Statistics Finland 2026 municipality; parent matched against the same official region geometry.,614
+G0223,Pudasjärvi,council,municipality,G0017,,pending,,,,,Statistics Finland 2026 municipality; parent matched against the same official region geometry.,615
+G0224,Pukkila,council,municipality,G0002,,pending,,,,,Statistics Finland 2026 municipality; parent matched against the same official region geometry.,616
+G0225,Punkalaidun,council,municipality,G0006,,pending,,,,,Statistics Finland 2026 municipality; parent matched against the same official region geometry.,619
+G0226,Puolanka,council,municipality,G0018,,pending,,,,,Statistics Finland 2026 municipality; parent matched against the same official region geometry.,620
+G0227,Puumala,council,municipality,G0010,,pending,,,,,Statistics Finland 2026 municipality; parent matched against the same official region geometry.,623
+G0228,Pyhtää,council,municipality,G0008,,pending,,,,,Statistics Finland 2026 municipality; parent matched against the same official region geometry.,624
+G0229,Pyhäjoki,council,municipality,G0017,,pending,,,,,Statistics Finland 2026 municipality; parent matched against the same official region geometry.,625
+G0230,Pyhäjärvi,council,municipality,G0017,,pending,,,,,Statistics Finland 2026 municipality; parent matched against the same official region geometry.,626
+G0231,Pyhäntä,council,municipality,G0017,,pending,,,,,Statistics Finland 2026 municipality; parent matched against the same official region geometry.,630
+G0232,Pyhäranta,council,municipality,G0003,,pending,,,,,Statistics Finland 2026 municipality; parent matched against the same official region geometry.,631
+G0233,Pälkäne,council,municipality,G0006,,pending,,,,,Statistics Finland 2026 municipality; parent matched against the same official region geometry.,635
+G0234,Pöytyä,council,municipality,G0003,,pending,,,,,Statistics Finland 2026 municipality; parent matched against the same official region geometry.,636
+G0235,Porvoo,council,municipality,G0002,,pending,,,,,Statistics Finland 2026 municipality; parent matched against the same official region geometry.,638
+G0236,Raahe,council,municipality,G0017,,pending,,,,,Statistics Finland 2026 municipality; parent matched against the same official region geometry.,678
+G0237,Raisio,council,municipality,G0003,,pending,,,,,Statistics Finland 2026 municipality; parent matched against the same official region geometry.,680
+G0238,Rantasalmi,council,municipality,G0010,,pending,,,,,Statistics Finland 2026 municipality; parent matched against the same official region geometry.,681
+G0239,Ranua,council,municipality,G0019,,pending,,,,,Statistics Finland 2026 municipality; parent matched against the same official region geometry.,683
+G0240,Rauma,council,municipality,G0004,,pending,,,,,Statistics Finland 2026 municipality; parent matched against the same official region geometry.,684
+G0241,Rautalampi,council,municipality,G0011,,pending,,,,,Statistics Finland 2026 municipality; parent matched against the same official region geometry.,686
+G0242,Rautavaara,council,municipality,G0011,,pending,,,,,Statistics Finland 2026 municipality; parent matched against the same official region geometry.,687
+G0243,Rautjärvi,council,municipality,G0009,,pending,,,,,Statistics Finland 2026 municipality; parent matched against the same official region geometry.,689
+G0244,Reisjärvi,council,municipality,G0017,,pending,,,,,Statistics Finland 2026 municipality; parent matched against the same official region geometry.,691
+G0245,Riihimäki,council,municipality,G0005,,pending,,,,,Statistics Finland 2026 municipality; parent matched against the same official region geometry.,694
+G0246,Ristijärvi,council,municipality,G0018,,pending,,,,,Statistics Finland 2026 municipality; parent matched against the same official region geometry.,697
+G0247,Rovaniemi,council,municipality,G0019,,pending,,,,,Statistics Finland 2026 municipality; parent matched against the same official region geometry.,698
+G0248,Ruokolahti,council,municipality,G0009,,pending,,,,,Statistics Finland 2026 municipality; parent matched against the same official region geometry.,700
+G0249,Ruovesi,council,municipality,G0006,,pending,,,,,Statistics Finland 2026 municipality; parent matched against the same official region geometry.,702
+G0250,Rusko,council,municipality,G0003,,pending,,,,,Statistics Finland 2026 municipality; parent matched against the same official region geometry.,704
+G0251,Rääkkylä,council,municipality,G0012,,pending,,,,,Statistics Finland 2026 municipality; parent matched against the same official region geometry.,707
+G0252,Raasepori,council,municipality,G0002,,pending,,,,,Statistics Finland 2026 municipality; parent matched against the same official region geometry.,710
+G0253,Saarijärvi,council,municipality,G0013,,pending,,,,,Statistics Finland 2026 municipality; parent matched against the same official region geometry.,729
+G0254,Salla,council,municipality,G0019,,pending,,,,,Statistics Finland 2026 municipality; parent matched against the same official region geometry.,732
+G0255,Salo,council,municipality,G0003,,pending,,,,,Statistics Finland 2026 municipality; parent matched against the same official region geometry.,734
+G0256,Saltvik,council,municipality,G0020,,pending,,,,,Statistics Finland 2026 municipality; parent matched against the same official region geometry.,736
+G0257,Sauvo,council,municipality,G0003,,pending,,,,,Statistics Finland 2026 municipality; parent matched against the same official region geometry.,738
+G0258,Savitaipale,council,municipality,G0009,,pending,,,,,Statistics Finland 2026 municipality; parent matched against the same official region geometry.,739
+G0259,Sund,council,municipality,G0020,,pending,,,,,Statistics Finland 2026 municipality; parent matched against the same official region geometry.,771
+G0260,Savonlinna,council,municipality,G0010,,pending,,,,,Statistics Finland 2026 municipality; parent matched against the same official region geometry.,740
+G0261,Savukoski,council,municipality,G0019,,pending,,,,,Statistics Finland 2026 municipality; parent matched against the same official region geometry.,742
+G0262,Seinäjoki,council,municipality,G0014,,pending,,,,,Statistics Finland 2026 municipality; parent matched against the same official region geometry.,743
+G0263,Sievi,council,municipality,G0017,,pending,,,,,Statistics Finland 2026 municipality; parent matched against the same official region geometry.,746
+G0264,Siikainen,council,municipality,G0004,,pending,,,,,Statistics Finland 2026 municipality; parent matched against the same official region geometry.,747
+G0265,Siikajoki,council,municipality,G0017,,pending,,,,,Statistics Finland 2026 municipality; parent matched against the same official region geometry.,748
+G0266,Siilinjärvi,council,municipality,G0011,,pending,,,,,Statistics Finland 2026 municipality; parent matched against the same official region geometry.,749
+G0267,Simo,council,municipality,G0019,,pending,,,,,Statistics Finland 2026 municipality; parent matched against the same official region geometry.,751
+G0268,Sipoo,council,municipality,G0002,,pending,,,,,Statistics Finland 2026 municipality; parent matched against the same official region geometry.,753
+G0269,Siuntio,council,municipality,G0002,,pending,,,,,Statistics Finland 2026 municipality; parent matched against the same official region geometry.,755
+G0270,Sodankylä,council,municipality,G0019,,pending,,,,,Statistics Finland 2026 municipality; parent matched against the same official region geometry.,758
+G0271,Soini,council,municipality,G0014,,pending,,,,,Statistics Finland 2026 municipality; parent matched against the same official region geometry.,759
+G0272,Somero,council,municipality,G0003,,pending,,,,,Statistics Finland 2026 municipality; parent matched against the same official region geometry.,761
+G0273,Sonkajärvi,council,municipality,G0011,,pending,,,,,Statistics Finland 2026 municipality; parent matched against the same official region geometry.,762
+G0274,Sotkamo,council,municipality,G0018,,pending,,,,,Statistics Finland 2026 municipality; parent matched against the same official region geometry.,765
+G0275,Sottunga,council,municipality,G0020,,pending,,,,,Statistics Finland 2026 municipality; parent matched against the same official region geometry.,766
+G0276,Sulkava,council,municipality,G0010,,pending,,,,,Statistics Finland 2026 municipality; parent matched against the same official region geometry.,768
+G0277,Suomussalmi,council,municipality,G0018,,pending,,,,,Statistics Finland 2026 municipality; parent matched against the same official region geometry.,777
+G0278,Suonenjoki,council,municipality,G0011,,pending,,,,,Statistics Finland 2026 municipality; parent matched against the same official region geometry.,778
+G0279,Sysmä,council,municipality,G0007,,pending,,,,,Statistics Finland 2026 municipality; parent matched against the same official region geometry.,781
+G0280,Säkylä,council,municipality,G0004,,pending,,,,,Statistics Finland 2026 municipality; parent matched against the same official region geometry.,783
+G0281,Vaala,council,municipality,G0017,,pending,,,,,Statistics Finland 2026 municipality; parent matched against the same official region geometry.,785
+G0282,Sastamala,council,municipality,G0006,,pending,,,,,Statistics Finland 2026 municipality; parent matched against the same official region geometry.,790
+G0283,Siikalatva,council,municipality,G0017,,pending,,,,,Statistics Finland 2026 municipality; parent matched against the same official region geometry.,791
+G0284,Taipalsaari,council,municipality,G0009,,pending,,,,,Statistics Finland 2026 municipality; parent matched against the same official region geometry.,831
+G0285,Taivalkoski,council,municipality,G0017,,pending,,,,,Statistics Finland 2026 municipality; parent matched against the same official region geometry.,832
+G0286,Taivassalo,council,municipality,G0003,,pending,,,,,Statistics Finland 2026 municipality; parent matched against the same official region geometry.,833
+G0287,Tammela,council,municipality,G0005,,pending,,,,,Statistics Finland 2026 municipality; parent matched against the same official region geometry.,834
+G0288,Tampere,council,municipality,G0006,,in_progress,R001,2026-10-27,2,0,Discovery and official-domain search sampled; no qualifying act verified. Minutes not exhaustively searched.,837
+G0289,Tervo,council,municipality,G0011,,pending,,,,,Statistics Finland 2026 municipality; parent matched against the same official region geometry.,844
+G0290,Tervola,council,municipality,G0019,,pending,,,,,Statistics Finland 2026 municipality; parent matched against the same official region geometry.,845
+G0291,Teuva,council,municipality,G0014,,pending,,,,,Statistics Finland 2026 municipality; parent matched against the same official region geometry.,846
+G0292,Tohmajärvi,council,municipality,G0012,,pending,,,,,Statistics Finland 2026 municipality; parent matched against the same official region geometry.,848
+G0293,Toholampi,council,municipality,G0016,,pending,,,,,Statistics Finland 2026 municipality; parent matched against the same official region geometry.,849
+G0294,Toivakka,council,municipality,G0013,,pending,,,,,Statistics Finland 2026 municipality; parent matched against the same official region geometry.,850
+G0295,Tornio,council,municipality,G0019,,pending,,,,,Statistics Finland 2026 municipality; parent matched against the same official region geometry.,851
+G0296,Turku,council,municipality,G0003,,in_progress,R001,2026-10-27,2,0,Discovery and official-domain search sampled; no qualifying act verified. Minutes not exhaustively searched.,853
+G0297,Pello,council,municipality,G0019,,pending,,,,,Statistics Finland 2026 municipality; parent matched against the same official region geometry.,854
+G0298,Tuusniemi,council,municipality,G0011,,pending,,,,,Statistics Finland 2026 municipality; parent matched against the same official region geometry.,857
+G0299,Tuusula,council,municipality,G0002,,pending,,,,,Statistics Finland 2026 municipality; parent matched against the same official region geometry.,858
+G0300,Tyrnävä,council,municipality,G0017,,pending,,,,,Statistics Finland 2026 municipality; parent matched against the same official region geometry.,859
+G0301,Ulvila,council,municipality,G0004,,pending,,,,,Statistics Finland 2026 municipality; parent matched against the same official region geometry.,886
+G0302,Urjala,council,municipality,G0006,,pending,,,,,Statistics Finland 2026 municipality; parent matched against the same official region geometry.,887
+G0303,Utajärvi,council,municipality,G0017,,pending,,,,,Statistics Finland 2026 municipality; parent matched against the same official region geometry.,889
+G0304,Utsjoki,council,municipality,G0019,,pending,,,,,Statistics Finland 2026 municipality; parent matched against the same official region geometry.,890
+G0305,Uurainen,council,municipality,G0013,,pending,,,,,Statistics Finland 2026 municipality; parent matched against the same official region geometry.,892
+G0306,Uusikaarlepyy,council,municipality,G0015,,pending,,,,,Statistics Finland 2026 municipality; parent matched against the same official region geometry.,893
+G0307,Uusikaupunki,council,municipality,G0003,,pending,,,,,Statistics Finland 2026 municipality; parent matched against the same official region geometry.,895
+G0308,Vaasa,council,municipality,G0015,,pending,,,,,Statistics Finland 2026 municipality; parent matched against the same official region geometry.,905
+G0309,Valkeakoski,council,municipality,G0006,,pending,,,,,Statistics Finland 2026 municipality; parent matched against the same official region geometry.,908
+G0310,Varkaus,council,municipality,G0011,,pending,,,,,Statistics Finland 2026 municipality; parent matched against the same official region geometry.,915
+G0311,Vehmaa,council,municipality,G0003,,pending,,,,,Statistics Finland 2026 municipality; parent matched against the same official region geometry.,918
+G0312,Vesanto,council,municipality,G0011,,pending,,,,,Statistics Finland 2026 municipality; parent matched against the same official region geometry.,921
+G0313,Vesilahti,council,municipality,G0006,,pending,,,,,Statistics Finland 2026 municipality; parent matched against the same official region geometry.,922
+G0314,Veteli,council,municipality,G0016,,pending,,,,,Statistics Finland 2026 municipality; parent matched against the same official region geometry.,924
+G0315,Vieremä,council,municipality,G0011,,pending,,,,,Statistics Finland 2026 municipality; parent matched against the same official region geometry.,925
+G0316,Vihti,council,municipality,G0002,,pending,,,,,Statistics Finland 2026 municipality; parent matched against the same official region geometry.,927
+G0317,Viitasaari,council,municipality,G0013,,pending,,,,,Statistics Finland 2026 municipality; parent matched against the same official region geometry.,931
+G0318,Vimpeli,council,municipality,G0014,,pending,,,,,Statistics Finland 2026 municipality; parent matched against the same official region geometry.,934
+G0319,Virolahti,council,municipality,G0008,,pending,,,,,Statistics Finland 2026 municipality; parent matched against the same official region geometry.,935
+G0320,Virrat,council,municipality,G0006,,pending,,,,,Statistics Finland 2026 municipality; parent matched against the same official region geometry.,936
+G0321,Vårdö,council,municipality,G0020,,pending,,,,,Statistics Finland 2026 municipality; parent matched against the same official region geometry.,941
+G0322,Vöyri,council,municipality,G0015,,pending,,,,,Statistics Finland 2026 municipality; parent matched against the same official region geometry.,946
+G0323,Ylitornio,council,municipality,G0019,,pending,,,,,Statistics Finland 2026 municipality; parent matched against the same official region geometry.,976
+G0324,Ylivieska,council,municipality,G0017,,pending,,,,,Statistics Finland 2026 municipality; parent matched against the same official region geometry.,977
+G0325,Ylöjärvi,council,municipality,G0006,,pending,,,,,Statistics Finland 2026 municipality; parent matched against the same official region geometry.,980
+G0326,Ypäjä,council,municipality,G0005,,pending,,,,,Statistics Finland 2026 municipality; parent matched against the same official region geometry.,981
+G0327,Ähtäri,council,municipality,G0014,,pending,,,,,Statistics Finland 2026 municipality; parent matched against the same official region geometry.,989
+G0328,Äänekoski,council,municipality,G0013,,pending,,,,,Statistics Finland 2026 municipality; parent matched against the same official region geometry.,992
+G0329,Etelä-Savon vaalipiiri,region,constituency,G0001,,pending,,,,,Official parliamentary constituency; overlaps administrative regions and is kept separately.,
+G0330,Kymen vaalipiiri,region,constituency,G0001,,pending,,,,,Official parliamentary constituency; overlaps administrative regions and is kept separately.,
+G0331,Varsinais-Suomen vaalipiiri,region,constituency,G0001,,pending,,,,,Official parliamentary constituency; overlaps administrative regions and is kept separately.,
+G0332,Keski-Suomen vaalipiiri,region,constituency,G0001,,pending,,,,,Official parliamentary constituency; overlaps administrative regions and is kept separately.,
+G0333,Helsingin vaalipiiri,region,constituency,G0001,,pending,,,,,Official parliamentary constituency; overlaps administrative regions and is kept separately.,
+G0334,Hämeen vaalipiiri,region,constituency,G0001,,pending,,,,,Official parliamentary constituency; overlaps administrative regions and is kept separately.,
+G0335,Vaasan vaalipiiri,region,constituency,G0001,,pending,,,,,Official parliamentary constituency; overlaps administrative regions and is kept separately.,
+G0336,Oulun vaalipiiri,region,constituency,G0001,,pending,,,,,Official parliamentary constituency; overlaps administrative regions and is kept separately.,
+G0337,Satakunnan vaalipiiri,region,constituency,G0001,,pending,,,,,Official parliamentary constituency; overlaps administrative regions and is kept separately.,
+G0338,Uudenmaan vaalipiiri,region,constituency,G0001,,pending,,,,,Official parliamentary constituency; overlaps administrative regions and is kept separately.,
+G0339,Pohjois-Savon vaalipiiri,region,constituency,G0001,,pending,,,,,Official parliamentary constituency; overlaps administrative regions and is kept separately.,
+G0340,Pohjois-Karjalan vaalipiiri,region,constituency,G0001,,pending,,,,,Official parliamentary constituency; overlaps administrative regions and is kept separately.,
+G0341,Pirkanmaan vaalipiiri,region,constituency,G0001,,pending,,,,,Official parliamentary constituency; overlaps administrative regions and is kept separately.,
+G0342,Lapin vaalipiiri,region,constituency,G0001,,pending,,,,,Official parliamentary constituency; overlaps administrative regions and is kept separately.,
+G0343,Savo-Karjalan vaalipiiri,region,constituency,G0001,,pending,,,,,Official parliamentary constituency; overlaps administrative regions and is kept separately.,

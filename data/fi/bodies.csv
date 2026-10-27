@@ -1,0 +1,2 @@
+body_id,name,level,kind,seats,as_of,source_url,seat_view,notes
+B0001,Parliament of Finland (Eduskunta),national,chamber,,,https://avoindata.eduskunta.fi/api/v1/tables/MemberOfParliament/rows,,Historical sponsor offices recorded. Seat chart disabled until the replacement member API is checked; the legacy table has stale current-term fields.
