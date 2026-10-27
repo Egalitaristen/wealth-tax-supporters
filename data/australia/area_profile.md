@@ -42,3 +42,7 @@ Parliament’s member contact CSV page returned HTTP 403, so neither chamber has
 
 
 **Run R013 (2026-10-27).** Added [Ebony Bennett](https://australiainstitute.org.au/post/its-time-for-australias-super-rich-to-pay-their-fair-share/) and [Abi Stephenson](https://thepoint.com.au/opinions/260212-lets-talk-about-tax-baby-how-economic-reform-can-change-the-world) from attributed opinion articles discussing wealth taxation. Stephenson’s quotation passed automated checking; Bennett’s was checked on the opened page after the checker skipped it. A Senate speech by Penny Allman-Payne appears to endorse the Greens’ specific 2025 billionaire proposal, but the transcript could not be opened in this run, so she remains a lead. Sam Randle’s 2022 proposal taxes gross rather than net wealth across all Australians and needs scope review. Continue candidate questionnaires and official vote records.
+
+## Review corrections
+
+All 45 quotes were checked against their sources: 36 by script and nine (Hansard pages, Oxfam, the Australia Institute pages via their Wayback copies because of a bot check, and the NewDaily article) by hand in a browser. Hansard speakers were confirmed for Pocock, Hodgins-May, Shoebridge and Watson-Brown. Gary Stevenson was removed (a UK-based commentator, already in the Great Britain register) and Ebony Bennett's article was regraded B because it describes the research rather than stating a position outright.
