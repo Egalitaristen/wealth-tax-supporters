@@ -643,9 +643,16 @@ function worldMap(box, W, {seats = false} = {}) {
     const b = e.target.closest('button'); if (!b) return;
     if (b.dataset.z === 'in') pz.zoomAt(.6); else if (b.dataset.z === 'out') pz.zoomAt(1 / .6); else pz.fit();
   });
-  pz.fit(false);
+  // On a tall, narrow screen the whole world would be a thin strip: fill the box instead, with the Americas, Europe and Africa in view, and let the reader pan or zoom out.
+  const start = () => {
+    pz.fit(false);
+    if (pz.aspect() >= 1.3) return;
+    const [ex, ey, ew, eh] = extent, w = ew * .55, h = w / pz.aspect();
+    pz.set([ex + ew * .4 - w / 2, ey + eh / 2 - h / 2, w, h]);
+  };
+  start();
   let lastW = svg.clientWidth;
-  const ro = new ResizeObserver(() => { if (Math.abs(svg.clientWidth - lastW) > 1) { lastW = svg.clientWidth; pz.fit(false); } });
+  const ro = new ResizeObserver(() => { if (Math.abs(svg.clientWidth - lastW) > 1) { lastW = svg.clientWidth; start(); } });
   ro.observe(svg);
   return () => { ro.disconnect(); hideTip(); };
 }
