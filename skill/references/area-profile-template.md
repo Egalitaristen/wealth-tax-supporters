@@ -1,6 +1,6 @@
 # Area profile — {AREA}
 
-Save as `data/<slug>/area_profile.md`. Keep it short at first (an hour of work), then grow it. Every factual line gets a source link; mark anything from a search summary only as `[verify]`. Update it when you learn something new, and note the date. This file decides the plan: spend effort where the evidence says support lives.
+Save as `data/<slug>/area_profile.md`. Keep it short at first (a few turns), then grow it. Every factual line gets a source link; mark anything from a search summary only as `[verify]`. Update it when you learn something new, and note the date. This file decides the plan: spend effort where the evidence says support lives.
 
 ## 1. Scope
 - Area: {name}; type: country / sub-national (state, nation, region) / supranational (EU, UN process)
@@ -47,5 +47,5 @@ For each legislature (national, devolved, regional, supranational members from t
 - Coalitions, campaigns, union confederations, tax-justice organisations active in the area (candidates to check)
 
 ## 10. Plan for the next runs
-- Layers and lists still to do, ordered by expected yield per hour, with what is blocked. Copy it into `notes_next` of the last run row.
+- Layers and lists still to do, ordered by expected yield per turn, with what is blocked. Copy it into `notes_next` of the last run row.
 - Decisions that changed the default workflow, and why.

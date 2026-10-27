@@ -11,6 +11,7 @@ This is a database, not a ranking. Every entry rests on dated, sourced, quoted e
 
 Files in this skill (use them if present; the rules in this file are sufficient on their own):
 - `references/definition-and-grades.md`, `references/data-format.md`, `references/research-run.md`, `references/geography.md`, `references/seats.md`, `references/export-and-pitfalls.md` — sections 2 to 8 of this skill, one file each (see the table at the end of this file)
+- `references/pre-pr-checklist.md` — the checks to run before opening a pull request; `references/election-refresh.md` — refreshing a chamber's seats after an election
 - `references/source-playbook.md` — layers, bulk-list sources, query templates, search terms in many languages
 - `references/area-profile-template.md` — what to establish about an area before searching
 - `references/countries/gb.md` — the UK: levels of government, sources and an exhaustive council sweep (a worked example, not the template for every country)
@@ -45,7 +46,7 @@ Files in this skill (use them if present; the rules in this file are sufficient 
 - The **workflow** (section 6) is a default, not a script. Countries differ: some have powerful regions, some have no searchable local records, some have a single dominant campaign. Adapt the plan to the country, and write down what you changed and why in the area profile.
 - **Aim at yield.** Before any large piece of work, ask "how many supporters will this find, and how sure am I?" Test with a small sample first. If a sample finds almost nothing, do not scale it up.
 - **Look at what already exists** in the repository (the other countries' folders, notes in `skill/references/countries/`, helper scripts) before inventing something new.
-- **When something does not work, change approach quickly.** A blocked site, a missing archive or an unsearchable register is a reason to switch source (archive copy, a browser, another outlet, a bulk list) within a few minutes, not a reason to build a tool. Say what you did in the run log.
+- **When something does not work, change approach quickly.** A blocked site, a missing archive or an unsearchable register is a reason to switch source (archive copy, a browser, another outlet, a bulk list) within a few turns, not a reason to build a tool. Say what you did in the run log.
 
 ---
 
@@ -76,8 +77,10 @@ The rest of the skill is split into files under `references/`. The section numbe
 | 4 | Who counts — actor types and inclusion rules | [references/definition-and-grades.md](references/definition-and-grades.md) |
 | 5 | Data files | [references/data-format.md](references/data-format.md) |
 | 6.1 | Start (brief) | [references/research-run.md](references/research-run.md) |
-| 6.2 | Orient (an hour, not a day) | [references/research-run.md](references/research-run.md) |
+| 6.2 | Orient (a few turns, not a long session) | [references/research-run.md](references/research-run.md) |
+| 6.2a | Discover: ask the open web first | [references/research-run.md](references/research-run.md) |
 | 6.3 | The first pass | [references/research-run.md](references/research-run.md) |
+| 6.3a | Follow the leads | [references/research-run.md](references/research-run.md) |
 | 6.4 | Bulk harvest | [references/research-run.md](references/research-run.md) |
 | 6.5 | Regional and local: proportional, sampled, honest | [references/research-run.md](references/research-run.md) |
 | 6.6 | Plan the next runs | [references/research-run.md](references/research-run.md) |
@@ -88,6 +91,8 @@ The rest of the skill is split into files under `references/`. The section numbe
 | 6.10 | Parallel work (if the assistant can run subagents) | [references/research-run.md](references/research-run.md) |
 | 6.11 | Without code | [references/research-run.md](references/research-run.md) |
 | 6.12 | Leads from outside the area | [references/research-run.md](references/research-run.md) |
+| — | Before you open the pull request (checklist) | [references/pre-pr-checklist.md](references/pre-pr-checklist.md) |
+| — | Refreshing seats after an election | [references/election-refresh.md](references/election-refresh.md) |
 | 7 | Export | [references/export-and-pitfalls.md](references/export-and-pitfalls.md) |
 | 8 | Things that went wrong before (avoid them) | [references/export-and-pitfalls.md](references/export-and-pitfalls.md) |
 
