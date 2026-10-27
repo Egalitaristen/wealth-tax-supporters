@@ -839,7 +839,7 @@ function mapSection(box, D, slug, params) {
       <div class="atlas">
         <div class="mapbox" id="mapbox">
           <div class="zoomer"><button type="button" data-z="in" aria-label="Zoom in">+</button><button type="button" data-z="out" aria-label="Zoom out">−</button><button type="button" data-z="fit" aria-label="Show the whole country">⤢</button></div>
-          <div class="legend"><span><span class="ramp" style="display:inline-block;vertical-align:-1px;margin-right:6px"></span>Supporters</span>${D.C.some(c => c[9]) ? '<span><span class="ramp up" style="display:inline-block;vertical-align:-1px;margin-right:6px"></span>No one here yet, but supporters elsewhere in the wider area</span>' : ''}<span><i class="sw none"></i>None recorded yet</span></div>
+          <div class="legend"><span><span class="ramp" style="display:inline-block;vertical-align:-1px;margin-right:6px"></span>Supporters</span>${D.C.some(c => c[9]) ? '<span><span class="ramp up" style="display:inline-block;vertical-align:-1px;margin-right:6px"></span>No one here yet<span class="lg-more">, but supporters elsewhere in the wider area</span></span>' : ''}<span><i class="sw none"></i>None recorded yet</span></div>
         </div>
         <div class="panel" id="panel"></div>
       </div>
