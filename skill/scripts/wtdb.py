@@ -41,10 +41,14 @@ SCHEMA = {
     "seats": ["seat_id", "body_id", "party", "seats", "colour", "order"],
     "positions": ["position_id", "actor_id", "body_id", "role", "party", "geo_unit_id", "start", "end", "current",
                   "member_ref", "checked", "source_url"],
+    # Things to chase in this area: a name, an organisation, a document, an event or a list seen while researching, not yet in the
+    # register. Leads about other areas go in data/leads.csv (leads.py). The query log shows how broadly an area was searched.
+    "leads": ["lead_id", "kind", "name", "source_url", "why", "found_run", "status", "closed_run", "note"],
+    "queries": ["query_id", "run_id", "date", "language", "query", "channel", "results_opened", "leads_added", "note"],
 }
 PREFIX = {"actors": ("A", 4), "evidence": ("E", 5), "geo_units": ("G", 4), "links": ("L", 4),
           "harvest": ("H", 4), "exclusions": ("X", 4), "runs": ("R", 3), "profiles": ("P", 5),
-          "bodies": ("B", 4), "seats": ("S", 4), "positions": ("O", 5)}
+          "bodies": ("B", 4), "seats": ("S", 4), "positions": ("O", 5), "leads": ("D", 4), "queries": ("Q", 4)}
 REQUIRED = {
     "actors": ["name", "kind", "actor_type", "country", "level", "status", "alive_checked"],
     "evidence": ["actor_id", "date", "stance", "grade", "evidence_type", "wt_design", "quote_original",
@@ -58,8 +62,12 @@ REQUIRED = {
     "bodies": ["name", "level", "kind"],
     "seats": ["body_id", "party", "seats"],
     "positions": ["actor_id", "body_id"],
+    "leads": ["kind", "name", "source_url", "status"],
+    "queries": ["query"],
 }
 ENUMS = {
+    ("leads", "kind"): {"person", "organisation", "document", "event", "list"},
+    ("leads", "status"): {"open", "used", "rejected", "duplicate"},
     ("actors", "kind"): {"person", "organisation", "institution"},
     ("actors", "actor_type"): {"politician", "party", "government_body", "academic", "economist", "think_tank",
                                "ngo_campaign", "union", "union_official", "journalist", "media_outlet",
@@ -276,6 +284,18 @@ def validate(db):
                 if tt == t and r.get(c) and r[c] not in allowed:
                         errs.append(f"{where}: {c}='{r.get(c)}' not allowed ({', '.join(sorted(x for x in allowed if x))})")
         ids[t] = seen
+    for i, l in enumerate(db["leads"], start=2):
+        where = f"leads.csv line {i} ({l.get('lead_id')})"
+        if l.get("source_url") and not l["source_url"].startswith(("http://", "https://")):
+            errs.append(f"{where}: source_url must start with http(s)://")
+        if l.get("status") in ("used", "rejected", "duplicate") and not l.get("closed_run"):
+            warns.append(f"{where}: closed without closed_run")
+        for c in ("found_run", "closed_run"):
+            if l.get(c) and l[c] not in ids["runs"]:
+                warns.append(f"{where}: {c} {l[c]} is not in runs.csv (add the run row before the run ends)")
+    for i, q in enumerate(db["queries"], start=2):
+        if q.get("run_id") and q["run_id"] not in ids["runs"]:
+            warns.append(f"queries.csv line {i} ({q.get('query_id')}): run_id {q['run_id']} is not in runs.csv")
     actors = {r["actor_id"]: r for r in db["actors"]}
     ev_by_actor = defaultdict(list)
     for i, e in enumerate(db["evidence"], start=2):
@@ -748,6 +768,9 @@ def cmd_status(a):
                   f"  skipped {c['skipped']:>3}")
     else:
         print("\nLocal sweep: no geography units loaded yet.")
+    lq = Counter(l["status"] for l in db["leads"])
+    print(f"\nLeads in this area: open {lq['open']}, used {lq['used']}, rejected {lq['rejected']}, duplicate {lq['duplicate']} | "
+          f"queries logged: {len(db['queries'])} in {len({q['language'] for q in db['queries'] if q.get('language')})} language(s)")
     hq = Counter(h["status"] for h in db["harvest"])
     print(f"\nHarvest lists: queued {hq['queued']}, in_progress {hq['in_progress']}, done {hq['done']}, "
           f"failed {hq['failed']}")
@@ -756,6 +779,9 @@ def cmd_status(a):
         print(f"\nLast run {last['run_id']} ({last['date']}): {last['focus']} → next: {last.get('notes_next','')}")
     print("\nSuggested next targets:")
     sugg = []
+    ol = [l for l in db["leads"] if l["status"] == "open"]
+    if ol:
+        sugg.append(f"follow the {len(ol)} open lead(s) first (SKILL.md 6.3a): " + "; ".join(f"{l['lead_id']} {l['name']}" for l in ol[:5]))
     q = [h for h in db["harvest"] if h["status"] in ("queued", "in_progress")]
     if q:
         sugg.append(f"process harvest lists: " + "; ".join(f"{h['harvest_id']} {h['title']}" for h in q[:5]))

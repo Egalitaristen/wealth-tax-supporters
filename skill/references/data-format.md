@@ -77,6 +77,14 @@ A personal GitHub repository or blog with no licence file, a "free to use" note,
 - `list_type`: roll_call · cosponsors · motion_signatories · open_letter · coalition_members · report_authors · commission_evidence · conference_motion · other
 - `status`: queued · in_progress · done · failed
 
+**leads.csv** — things to chase in this area (see 6.2a and 6.3a)
+`lead_id, kind, name, source_url, why, found_run, status, closed_run, note`
+- IDs are `D0001`. `kind`: person · organisation · document · event · list. `status`: open · used · rejected · duplicate. `source_url` is the link where you saw it; `why` is one line on why it matters; `found_run` and `closed_run` are run IDs; `note` says what was tried when a lead is left open. Leads about other areas go in `data/leads.csv` (6.12).
+
+**queries.csv** — the searches worth knowing, mainly the broad ones of 6.2a
+`query_id, run_id, date, language, query, channel, results_opened, leads_added, note`
+- IDs are `Q0001`. `language` is an ISO code; `channel` is free text (web, news, archive, a site or database).
+
 **exclusions.csv** — candidates checked and rejected, so they are not checked again
 `exclusion_id, name, reason, detail, source_url, run_id`
 - `reason`: out_of_definition · pre_2010_only · deceased · private_individual · opposes · insufficient_evidence · duplicate
@@ -91,6 +99,8 @@ Helper commands (when Python is available):
 python skill/scripts/wtdb.py add data/gb actors '{"name":"…","kind":"person",…}'   # assigns ID; prints it
 python skill/scripts/wtdb.py add data/gb evidence @new_evidence.jsonl               # one JSON object per line
 python skill/scripts/wtdb.py set data/gb geo_units G0042 sweep_status=done hits=2 queries_run=6
+python skill/scripts/wtdb.py add data/gb leads '{"kind":"list","name":"...","source_url":"https://...","why":"...","found_run":"R001","status":"open"}'   # a lead in this area (6.3a)
+python skill/scripts/wtdb.py set data/gb leads D0001 status=used closed_run=R001        # close it
 python skill/scripts/wtdb.py validate data/gb     # errors must be fixed before a run ends
 python skill/scripts/wtdb.py locate data/gb       # fill geo_unit_id; repair locations after a unit is renamed
 python skill/scripts/match_wikidata.py data/gb  # fill wikidata_qid where the match is unambiguous; spot-check it

@@ -36,6 +36,9 @@ def main():
             print(f"{len(open_leads)} open lead(s) for {iso} from other runs: python skill/scripts/leads.py list --country {iso}\n")
     except Exception:
         pass
+    own = [l for l in db["leads"] if l["status"] == "open"]
+    if own:
+        print(f"{len(own)} open lead(s) in this area's own leads.csv (SKILL.md 6.3a): " + "; ".join(f"{l['lead_id']} {l['name']}" for l in own[:5]) + "\n")
     geo = {g["geo_unit_id"]: g for g in db["geo_units"]}
     ev = defaultdict(list)
     for e in db["evidence"]:
