@@ -18,3 +18,7 @@ A tenth worked example. Canada has no net-wealth tax. Support comes from the NDP
 - **Dates:** a roster's "last updated" date is not the date of the statement. The manifesto signatories carry the manifesto's publication date (3 September 2025).
 - **Does not count:** the 48 members of a Nova Scotia housing working group (a 2021 brief lists a 1% wealth tax as one of ten fiscal options, not as a recommendation), and a Kairos row whose page never mentions a wealth tax.
 - **Seats:** `python skill/scripts/seats.py data/ca` reads the House of Commons member list (`ourcommons.ca/Members/en/search/xml`, 343 seats, vacant seats shown). The site refuses scripts at times (403, even curl): save the XML in a browser and pass it with `--local "https://www.ourcommons.ca/Members/en/search/xml=<file>"`. Former members are not in the file: those no longer listed get `current=n` without an end date.
+
+## Senate
+
+`python skill/scripts/seats.py data/ca` also draws the Senate (105 seats, 92 filled on 28 October 2026) from the list the Senate's own senators page loads, `https://sencanada.ca/umbraco/surface/SenatorsAjax/GetSenators?displayFor=senatorslist&Lang=en` (send the header `X-Requested-With: XMLHttpRequest`). The page itself is empty without JavaScript, which is why a plain fetch of `/en/senators/` shows nothing.

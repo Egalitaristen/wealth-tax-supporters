@@ -94,6 +94,9 @@ def match(actor, members, by_q, by_norm, strict=False, deny=()):
     if n in by_norm and len(by_norm[n]) == 1:
         return by_norm[n][0], "exact"
     toks = n.split()
+    byinit = [m for m in members if m.get("init") and m.get("sur") and len(toks) >= 2 and " ".join(toks).endswith(" " + m["sur"]) and toks[0][0] in m["init"]]
+    if len(byinit) == 1:  # a list that gives initials and a surname only (the Eerste Kamer)
+        return byinit[0], "fuzzy"
     if len(toks) >= 2:
         # same words in another order, or extra given names: every word of the shorter name is in the longer
         c = [m for m in members if (lambda t: set(toks) <= set(t) or set(t) <= set(toks))(norm(m["name"]).split())
@@ -1091,6 +1094,106 @@ def south_korea():
                  fuzzy_deny=("Kim Jong-min",))]  # the 2020 Minjung Party candidate is not the sitting independent member of the same name
 
 
+def netherlands_senate():
+    """The Eerste Kamer (75 seats): eerstekamer.nl/alle_leden, the sitting members with their parliamentary group. The page gives initials and
+    surname ("prof. dr. E.B. van Apeldoorn"), so each member carries `init` and `sur` and a supporter is matched on the surname and the first initial."""
+    import html
+    page = get("https://www.eerstekamer.nl/alle_leden", as_json=False).decode("utf-8", "ignore")
+    DEGREE = re.compile(r"^(MA|MSc|MPA|LLM|BSc|MBA|BA|MPhil|PhD|MD|RA|EMPM|MSM|MHA|FD)$", re.I)
+    PARTY = {"PRO": "GroenLinks-PvdA"}
+    members = []
+    for it in re.findall(r'<li class="persoon.*?</li>', page, flags=re.S):
+        n = re.search(r'class="naam">(.*?)</div>', it, flags=re.S)
+        grp = re.search(r'persoon_bijschrift"><div><div class="naam">.*?</div></div><div>(.*?)</div>', it, flags=re.S)
+        ref = re.search(r'href="/persoon/([^"]+)"', it)
+        if not (n and grp and ref):
+            continue
+        text = re.sub(r"\s+", " ", html.unescape(re.sub(r"<[^>]+>", "", n[1]))).strip()
+        toks = [t for t in text.split() if not DEGREE.match(t)]
+        while toks and re.match(r"^(prof|dr|drs|mr|ir|ing|dr\.|mr\.)\.?$|^(prof\.|dr\.|drs\.|mr\.|ir\.|ing\.)$", toks[0], re.I):
+            toks.pop(0)
+        ini = re.match(r"^((?:[A-Za-z]\.)+)\s*(.*)$", " ".join(toks))
+        initials, sur = (ini[1], ini[2]) if ini else ("", " ".join(toks))
+        party = re.sub(r"^Fractie-", "Fractie ", html.unescape(re.sub(r"<[^>]+>", "", grp[1])).strip())
+        members.append(dict(name=f"{initials} {sur}".strip(), init=re.sub(r"[^a-z]", "", initials.lower()), sur=" ".join(norm(sur).split()), party=PARTY.get(party, party),
+                            ref=ref[1], place="", start="", url="https://www.eerstekamer.nl/persoon/" + ref[1]))
+    if len(members) != 75:
+        sys.exit(f"Eerste Kamer: read {len(members)} members, expected 75; the page has changed, check the adapter")
+    count = {}
+    for m in members:
+        count[m["party"]] = count.get(m["party"], 0) + 1
+    order = sorted(count, key=lambda p: -count[p])
+    return [dict(name="Eerste Kamer", level="national", seats=75, source_url="https://www.eerstekamer.nl/alle_leden",
+                 note="75 seats, elected indirectly by the provincial councils in 2023. Who sits and their group are from the Senate's own list of members; a supporter is matched on surname and first initial because the list gives initials only. Unlit seats mean nothing found, never opposition.",
+                 role="Senator (Eerste Kamer)", role_re=r"(?i)senator|eerste kamer|senaat", role_start=r"(?i)senator", members=members, former=[], party_order=order,
+                 colours={"GroenLinks-PvdA": "c8102e", "BBB": "92b83a", "VVD": "f08a1c", "D66": "00a28b", "CDA": "1c7a3c", "PVV": "1a2a5a", "SP": "e11931", "FVD": "7a1f2b",
+                          "ChristenUnie": "00a1de", "JA21": "123b6d", "Volt": "5a2d82", "PvdD": "006b3c", "SGP": "ff6a13"})]
+
+
+def south_africa_ncop():
+    """The National Council of Provinces (90 seats): the Parliamentary Monitoring Group's open API, members of house NCOP flagged as current
+    (same source and name handling as the National Assembly)."""
+    NAMES = {"MKP": "MK Party", "Action SA": "ActionSA", "FF+": "FF Plus", "PA": "Patriotic Alliance"}
+    url, rows = "https://api.pmg.org.za/member/", []
+    while url:
+        d = get(url)
+        rows += d["results"]
+        url = d.get("next")
+    members = []
+    for m in rows:
+        if not (m.get("current") and (m.get("house") or {}).get("name_short") == "NCOP"):
+            continue
+        slug = (m.get("pa_link") or "").rstrip("/").rsplit("/", 1)[-1]
+        sur, _, rest = m["name"].partition(",")
+        words = [w.capitalize() for w in slug.split("-")]
+        if words and slug and words[-1].lower() != sur.strip().split()[-1].lower():
+            words[-1] = sur.strip().split()[-1]
+        name = " ".join(words) if slug else f"{rest.split()[-1]} {sur}"
+        party = (m.get("party") or {}).get("name", "Independent")
+        members.append(dict(name=name, party=NAMES.get(party, party), ref=m["id"], place=(m.get("province") or {}).get("name", ""),
+                            start=m.get("start_date") or "", url=f"https://pmg.org.za/member/{m['id']}/"))
+    count = {}
+    for m in members:
+        count[m["party"]] = count.get(m["party"], 0) + 1
+    order = sorted(count, key=lambda p: -count[p])
+    if len(members) < 40:
+        sys.exit(f"NCOP: read {len(members)} members, expected about 54; the API has changed, check the adapter")
+    return [dict(name="National Council of Provinces", level="national", seats=90, source_url="https://api.pmg.org.za/member/",
+                 note="90 seats: ten for each province (six permanent delegates and four special delegates). The Parliamentary Monitoring Group's member list names the 54 permanent delegates; the 36 special delegates, who change with the provinces' business, are not listed and show as 'Special delegates (not listed)'. Unlit seats mean nothing found, never opposition.",
+                 vacant_label="Special delegates (not listed)",
+                 role="Member of the National Council of Provinces", role_re=r"(?i)national council of provinces|\bNCOP\b", role_start=r"(?i)member of the national council of provinces",
+                 members=members, former=[], party_order=order,
+                 colours={"ANC": "1a7f3c", "DA": "2d6fb5", "MK Party": "3a3a3a", "EFF": "c8102e", "IFP": "d6a21f", "Patriotic Alliance": "7a5ab3", "ActionSA": "e07b39", "FF Plus": "8a6d3b"})]
+
+
+def canada_senate():
+    """The Senate of Canada (105 seats): the list sencanada.ca's own senators page loads (umbraco/surface/SenatorsAjax/GetSenators), senators in
+    office with their group and province; vacant seats are shown as Vacant."""
+    import html
+    GROUP = {"ISG": "Independent Senators Group", "PSG": "Progressive Senate Group", "CSG": "Canadian Senators Group", "C": "Conservative",
+             "GRO": "Government Representative Office", "Non-affiliated": "Non-affiliated"}
+    page = get("https://sencanada.ca/umbraco/surface/SenatorsAjax/GetSenators?displayFor=senatorslist&Lang=en", as_json=False,
+               headers={"X-Requested-With": "XMLHttpRequest"}).decode("utf-8", "ignore")
+    members = []
+    for r in re.finditer(r'<tr>\s*<td data-order="([^"]+)">\s*<a href="([^"]+)">.*?</a>\s*</td>\s*<td[^>]*>(.*?)</td>\s*<td[^>]*>(.*?)</td>\s*<td[^>]*>(.*?)</td>', page, flags=re.S):
+        sur, _, given = html.unescape(r[1]).partition(",")
+        grp = re.sub(r"\s+", " ", html.unescape(re.sub(r"<[^>]+>", "", r[3]))).strip()
+        members.append(dict(name=f"{given.strip()} {sur.strip()}".strip(), party=GROUP.get(grp, grp), ref=r[2].strip("/").rsplit("/", 1)[-1],
+                            place=re.sub(r"\s+", " ", re.sub(r"<[^>]+>", "", r[4])).strip(), start=re.sub(r"\s+", "", re.sub(r"<[^>]+>", "", r[5]))[:10],
+                            url="https://sencanada.ca" + r[2]))
+    if len(members) < 80:
+        sys.exit(f"Senate of Canada: read {len(members)} senators, expected about 90 to 105; the page has changed, check the adapter")
+    count = {}
+    for m in members:
+        count[m["party"]] = count.get(m["party"], 0) + 1
+    order = sorted(count, key=lambda p: -count[p])
+    return [dict(name="Senate of Canada", level="national", seats=105, source_url="https://sencanada.ca/en/senators/",
+                 note="105 seats, appointed by the Governor General on the Prime Minister's advice until age 75; vacant seats are shown as Vacant. Who sits and their group are from the Senate's own list of senators. Unlit seats mean nothing found, never opposition.",
+                 role="Senator", role_re=r"(?i)\bsenator\b", role_start=r"(?i)senator", members=members, former=[], party_order=order,
+                 colours={"Independent Senators Group": "5a7fb3", "Progressive Senate Group": "d71920", "Canadian Senators Group": "7a5ab3", "Conservative": "1a4782",
+                          "Non-affiliated": "8a8680", "Government Representative Office": "e07a1f"})]
+
+
 def european_parliament():
     """The European Parliament (720 seats): data.europarl.europa.eu open data (sitting MEPs, their country and political group).
     Run `seats.py data/eu`: supporters are matched across every country register, by the MEP's own country."""
@@ -1255,7 +1358,10 @@ def scottish_parliament():
 
 
 
-ADAPTERS = {"nz": new_zealand, "se": sweden, "de": germany, "nl": netherlands, "no": norway, "fr": france, "br": brazil, "ca": canada, "es": spain, "pl": poland, "be": belgium, "in": india, "jp": japan, "my": malaysia, "sg": singapore, "id": indonesia, "ng": nigeria, "cn": china, "scottish_parliament": scottish_parliament, "european_parliament": european_parliament, "eu": european_parliament, "un": united_nations, "au": pan_african_parliament, "za": south_africa, "ie": ireland, "it": italy, "mx": mexico, "ar": argentina, "co": colombia, "fi": finland, "kr": south_korea}
+_ADAPTERS_LOWER = {"nz": new_zealand, "se": sweden, "de": germany, "nl": netherlands, "no": norway, "fr": france, "br": brazil, "ca": canada, "es": spain, "pl": poland, "be": belgium, "in": india, "jp": japan, "my": malaysia, "sg": singapore, "id": indonesia, "ng": nigeria, "cn": china, "scottish_parliament": scottish_parliament, "european_parliament": european_parliament, "eu": european_parliament, "un": united_nations, "au": pan_african_parliament, "za": south_africa, "ie": ireland, "it": italy, "mx": mexico, "ar": argentina, "co": colombia, "fi": finland, "kr": south_korea}
+# countries that chart two chambers chain their adapters; the others return one
+ADAPTERS = dict(_ADAPTERS_LOWER, nl=lambda: netherlands() + netherlands_senate(), za=lambda: south_africa() + south_africa_ncop(),
+                  ca=lambda: canada() + canada_senate())
 
 
 def main():

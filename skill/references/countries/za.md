@@ -35,3 +35,7 @@ The 2020 file has 213 local units (205 locals + 8 metros) and 44 districts; the 
 - "Wealth tax" in the South African press often means estate duty, transfer duty or capital gains tax. Read the sentence: the Treasury's reply lists them as the existing "wealth taxes".
 - The EFF's proposals mix an annual levy on luxury land (a property tax, left out) with a once-off levy on trust assets (included as `one_off_levy`) and an annual levy on inherited wealth above R10 million (not recorded: no source read).
 - `forgood.org.za` serves a different page to scripts, so `checkquotes` cannot verify its quotes; read them in a browser.
+
+## National Council of Provinces
+
+`python skill/scripts/seats.py data/za` also draws the NCOP (90 seats) from the same Parliamentary Monitoring Group API as the National Assembly (house `NCOP`). The API names only the 54 permanent delegates as current; the 36 special delegates are not listed and show as "Special delegates (not listed)". A member whose register role says NCOP but who is not on the list gets `current=n`: check the PMG record first (Mapula Mokaba-Phukwana appears there as a member of the Limpopo legislature, not the NCOP).

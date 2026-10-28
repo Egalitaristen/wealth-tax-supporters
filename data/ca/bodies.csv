@@ -1,2 +1,3 @@
 body_id,name,level,kind,seats,as_of,source_url,seat_view,notes
-B0001,House of Commons of Canada,national,chamber,343,2026-10-25,https://www.ourcommons.ca/Members/en/search,y,343 seats; vacant seats are shown as Vacant.
+B0001,House of Commons of Canada,national,chamber,343,2026-10-28,https://www.ourcommons.ca/Members/en/search,y,343 seats; vacant seats are shown as Vacant.
+B0002,Senate of Canada,national,chamber,105,2026-10-28,https://sencanada.ca/en/senators/,y,"105 seats, appointed by the Governor General on the Prime Minister's advice until age 75; vacant seats are shown as Vacant. Who sits and their group are from the Senate's own list of senators. Unlit seats mean nothing found, never opposition."

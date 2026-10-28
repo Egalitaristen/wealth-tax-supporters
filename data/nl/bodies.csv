@@ -1,2 +1,3 @@
 body_id,name,level,kind,seats,as_of,source_url,seat_view,notes
-B0001,Tweede Kamer,national,chamber,150,2026-10-25,https://www.tweedekamer.nl/kamerleden_en_commissies/alle_kamerleden,y,150 seats. Members of the House of Representatives of the Netherlands.
+B0001,Tweede Kamer,national,chamber,150,2026-10-28,https://www.tweedekamer.nl/kamerleden_en_commissies/alle_kamerleden,y,150 seats. Members of the House of Representatives of the Netherlands.
+B0002,Eerste Kamer,national,chamber,75,2026-10-28,https://www.eerstekamer.nl/alle_leden,y,"75 seats, elected indirectly by the provincial councils in 2023. Who sits and their group are from the Senate's own list of members; a supporter is matched on surname and first initial because the list gives initials only. Unlit seats mean nothing found, never opposition."
