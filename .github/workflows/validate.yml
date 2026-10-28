@@ -16,6 +16,8 @@ jobs:
         with:
           python-version: "3.12"
       - run: pip install pycountry
+      - name: The schema block in data-format.md is up to date
+        run: python skill/scripts/wtdb.py schema
       - name: Validate every country
         run: |
           status=0

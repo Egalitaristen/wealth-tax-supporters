@@ -135,6 +135,12 @@ select.field { appearance: none; padding-right: 30px; background-image: linear-g
 .ledger b { font-weight: 400; font-variant-numeric: tabular-nums; margin-right: .25em; }
 .ledger span { color: var(--ink-2); }
 .ledger em { color: var(--signal); font-style: italic; }
+.who { margin-top: 26px; }
+.who .kicker { margin-bottom: 6px; }
+.wr { display: grid; grid-template-columns: 1fr auto; gap: 0 14px; padding: 10px 0 12px; border-bottom: 1px solid var(--rule); text-decoration: none; color: var(--ink); font-size: 16px; position: relative; }
+.wr b { font-weight: 500; font-variant-numeric: tabular-nums; }
+.wr i { grid-column: 1 / -1; display: block; height: 4px; margin-top: 8px; background: var(--signal); }
+a.wr:hover span { text-decoration: underline; }
 
 /* ---------- sections ---------- */
 .sec { padding: clamp(48px, 7vw, 88px) 0; border-top: 1px solid var(--rule); }
@@ -694,3 +700,27 @@ body:not(.ready) .foot { visibility: hidden; }
   .top.menu-open .nav-m:not(.nav-fb) { display: block; }
 }
 .sec-h { font: 400 clamp(26px, 3vw, 34px)/1.1 var(--serif); letter-spacing: -.02em; margin: 0 0 10px; }
+
+/* method page: what counts, grade cards, side links */
+.prose .counts { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 16px; margin: 18px 0 20px; max-width: none; }
+.counts > div { border: 1px solid var(--rule-2); background: var(--card); padding: 18px 20px; }
+.counts .yes { border-top: 3px solid var(--ink); }
+.counts .no { border-top: 3px solid var(--rule-2); }
+.prose .counts h3 { margin: 0 0 8px; font: 400 24px/1.1 var(--serif); }
+.counts ul { list-style: none; padding: 0; margin: 0; }
+.counts li { margin: 0; padding: 8px 0; border-top: 1px solid var(--rule); font-size: 14.5px; }
+.counts li:first-child { border-top: 0; }
+.counts li b { display: block; color: var(--ink); }
+.counts li span { color: var(--ink-3); font-size: 13.5px; }
+.counts .fine { font-size: 13px; color: var(--ink-3); margin: 10px 0 0; }
+.gcards { display: grid; gap: 14px; margin: 18px 0; }
+.gcard { border: 1px solid var(--rule-2); background: var(--card); padding: 18px 20px; }
+.gcard .gh { display: flex; align-items: baseline; gap: 10px; }
+.prose .gcard h3 { margin: 0; font: 400 26px/1.1 var(--serif); }
+.gcard .gh .kicker { margin-left: auto; }
+.gcard p { margin: 8px 0; }
+.gcard ul { margin: 6px 0; font-size: 14.5px; }
+.gcard .fine { font-size: 13.5px; color: var(--ink-3); }
+.alinks { list-style: none; padding: 0; margin: 8px 0 0; font-size: 14.5px; }
+.alinks li { margin: 6px 0; }
+@media (max-width: 720px) { .prose .counts { grid-template-columns: minmax(0, 1fr); } }

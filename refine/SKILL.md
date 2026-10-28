@@ -15,9 +15,9 @@ The research skill (`skill/SKILL.md`) finds supporters. This skill makes each en
 2. Work on a branch and open one pull request per run. Never push to `main`.
 3. Make the batch: `python skill/scripts/refine_queue.py data/<iso2> --n 60 --out refine_batch.csv`. It ranks supporters by their gaps (no links first, then a coarse place, weak grades, a single statement, old evidence, no Wikidata ID), puts prominent ones first and skips anyone refined in the last 180 days. Keep the batch file outside the repository. A run is one batch; 30 to 80 supporters is a good size.
 
-**Leads.** Before you start, read the leads other runs logged for this country (`python skill/scripts/leads.py list --country <iso2>`; `refine_queue.py` prints how many there are). Check each against its source, add the ones that hold up (they are new supporters: `skill/SKILL.md` sections 2 to 4 apply) and `leads.py close` every one as used, rejected or duplicate. And when this run meets a supporter of **another** country, log a lead instead of adding them here (`skill/SKILL.md` 6.12), then name them in the run's report.
+**Leads.** Before you start, read the leads other runs logged for this country (`python skill/scripts/leads.py list --country <iso2>`; `refine_queue.py` prints how many there are), and this country's own open leads (`leads.csv` in its folder, `skill/SKILL.md` 6.3a). Check each against its source, add the ones that hold up (they are new supporters: `skill/SKILL.md` sections 2 to 4 apply) and `leads.py close` every one as used, rejected or duplicate. And when this run meets a supporter of **another** country, log a lead instead of adding them here (`skill/SKILL.md` 6.12), then name them in the run's report.
 
-## 2. The automatic pass (whole country, minutes)
+## 2. The automatic pass (whole country, a few commands)
 
 Run these first; they fill what open data already knows, so the manual work starts from the real gaps:
 
@@ -28,14 +28,14 @@ python skill/scripts/wtdb.py locate data/<iso2>          # geo_unit_id and locat
 python skill/scripts/archive_sources.py data/<iso2>      # archive_url from existing Wayback snapshots
 python skill/scripts/seats_uk.py data/gb                 # UK only: who sits in the Commons and Lords today; lists roles and statuses that disagree
 python skill/scripts/seats_us.py data/us                 # US only: who sits in the Senate and House today; same
-python skill/scripts/seats.py data/<iso2>                # se, de, nl, no, fr, br, ca, es, pl, be, in, jp, my, sg, id, ng, cn, nz: the same for those parliaments (--fix-status marks former members)
+python skill/scripts/seats.py data/<iso2>                # any country in the ADAPTERS table at the bottom of seats.py: the same for those parliaments (--fix-status marks former members)
 ```
 
 Spot-check a handful of what `match_wikidata.py` filled (the description should fit the person) before going on.
 
 ## 3. Each supporter, in this order
 
-Work through the batch one supporter at a time and write to the files as you go (`wtdb.py add`, `wtdb.py set`). Spend minutes, not hours, on each: take what the sources readily give and move on.
+Work through the batch one supporter at a time and write to the files as you go (`wtdb.py add`, `wtdb.py set`). Spend a few tool calls on each, not a long search: take what the sources readily give and move on.
 
 ### 3.1 Links (most important)
 A visitor who finds a supporter should be able to reach them. Add to `profiles.csv`:

@@ -8,6 +8,7 @@ Commands
   add      DIR TABLE JSON|@FILE     add rows (JSON object, JSON list, or @file with JSON lines); IDs assigned if blank
   set      DIR TABLE ID k=v ...     update fields on one row
   validate DIR                      check rules; exit code 1 if there are errors
+  schema   [--write]                check (or rewrite) the generated column blocks in skill/references/data-format.md
   dedupe   DIR                      list likely duplicate actors
   merge    DIR KEEP_ID DROP_ID      merge a duplicate actor into another (moves evidence, links, profiles)
   checkquotes DIR [--run R] [--ids E1,E2] [--sample N] [--strict]
@@ -41,10 +42,14 @@ SCHEMA = {
     "seats": ["seat_id", "body_id", "party", "seats", "colour", "order"],
     "positions": ["position_id", "actor_id", "body_id", "role", "party", "geo_unit_id", "start", "end", "current",
                   "member_ref", "checked", "source_url"],
+    # Things to chase in this area: a name, an organisation, a document, an event or a list seen while researching, not yet in the
+    # register. Leads about other areas go in data/leads.csv (leads.py). The query log shows how broadly an area was searched.
+    "leads": ["lead_id", "kind", "name", "source_url", "why", "found_run", "status", "closed_run", "note"],
+    "queries": ["query_id", "run_id", "date", "language", "query", "channel", "results_opened", "leads_added", "note"],
 }
 PREFIX = {"actors": ("A", 4), "evidence": ("E", 5), "geo_units": ("G", 4), "links": ("L", 4),
           "harvest": ("H", 4), "exclusions": ("X", 4), "runs": ("R", 3), "profiles": ("P", 5),
-          "bodies": ("B", 4), "seats": ("S", 4), "positions": ("O", 5)}
+          "bodies": ("B", 4), "seats": ("S", 4), "positions": ("O", 5), "leads": ("D", 4), "queries": ("Q", 4)}
 REQUIRED = {
     "actors": ["name", "kind", "actor_type", "country", "level", "status", "alive_checked"],
     "evidence": ["actor_id", "date", "stance", "grade", "evidence_type", "wt_design", "quote_original",
@@ -58,8 +63,12 @@ REQUIRED = {
     "bodies": ["name", "level", "kind"],
     "seats": ["body_id", "party", "seats"],
     "positions": ["actor_id", "body_id"],
+    "leads": ["kind", "name", "source_url", "status"],
+    "queries": ["query"],
 }
 ENUMS = {
+    ("leads", "kind"): {"person", "organisation", "document", "event", "list"},
+    ("leads", "status"): {"open", "used", "rejected", "duplicate"},
     ("actors", "kind"): {"person", "organisation", "institution"},
     ("actors", "actor_type"): {"politician", "party", "government_body", "academic", "economist", "think_tank",
                                "ngo_campaign", "union", "union_official", "journalist", "media_outlet",
@@ -276,6 +285,18 @@ def validate(db):
                 if tt == t and r.get(c) and r[c] not in allowed:
                         errs.append(f"{where}: {c}='{r.get(c)}' not allowed ({', '.join(sorted(x for x in allowed if x))})")
         ids[t] = seen
+    for i, l in enumerate(db["leads"], start=2):
+        where = f"leads.csv line {i} ({l.get('lead_id')})"
+        if l.get("source_url") and not l["source_url"].startswith(("http://", "https://")):
+            errs.append(f"{where}: source_url must start with http(s)://")
+        if l.get("status") in ("used", "rejected", "duplicate") and not l.get("closed_run"):
+            warns.append(f"{where}: closed without closed_run")
+        for c in ("found_run", "closed_run"):
+            if l.get(c) and l[c] not in ids["runs"]:
+                warns.append(f"{where}: {c} {l[c]} is not in runs.csv (add the run row before the run ends)")
+    for i, q in enumerate(db["queries"], start=2):
+        if q.get("run_id") and q["run_id"] not in ids["runs"]:
+            warns.append(f"queries.csv line {i} ({q.get('query_id')}): run_id {q['run_id']} is not in runs.csv")
     actors = {r["actor_id"]: r for r in db["actors"]}
     ev_by_actor = defaultdict(list)
     for i, e in enumerate(db["evidence"], start=2):
@@ -477,8 +498,8 @@ def check_boundaries(d, db):
                      f"Seats are places: put each in their constituency (SKILL.md 6.7)")
     bfile = meta.get("boundaries")
     if not bfile or not os.path.exists(os.path.join(d, bfile)):
-        warns.append("boundaries: no map. Every country gets a local-tier map from an open source (SKILL.md 5 and 6.7); "
-                     "if none exists, say which sources you checked in meta.json notes")
+        warns.append("boundaries: no map. Add a local-tier map from an open source (SKILL.md 5 and 6.7); a missing map is not a blocker: "
+                     "if none exists, say which sources you checked in meta.json notes and open a follow-up issue for the map")
         return errs, warns
     b = json.load(open(os.path.join(d, bfile), encoding="utf-8"))
     lic = (b.get("licence") or "").strip()
@@ -561,6 +582,12 @@ def cmd_validate(a):
         sys.exit(1 if errs else 0)
     db = load_all(a.dir)
     errs, warns = validate(db)
+    if os.path.exists(meta):
+        warns += check_folder(a.dir, json.load(open(meta, encoding="utf-8")))
+    have = {norm_name(r["name"]) for r in db["actors"]}
+    for x in db["exclusions"]:
+        if norm_name(x["name"]) in have:
+            warns.append(f"exclusions.csv {x['exclusion_id']}: '{x['name']}' is also an actor; remove one of the rows")
     be, bw = check_boundaries(a.dir, db)
     errs += be
     warns += bw
@@ -570,6 +597,54 @@ def cmd_validate(a):
         print("ERROR " + e)
     print(f"\n{len(errs)} error(s), {len(warns)} warning(s)")
     sys.exit(1 if errs else 0)
+
+
+def check_folder(d, meta):
+    """Warning when the folder name is not the lowercase ISO code (or <iso2>-<region>), unless the code is taken by another folder."""
+    slug = os.path.basename(os.path.abspath(d))
+    iso = (meta.get("iso2") or "").lower()
+    if not iso or slug == iso or slug.startswith(iso + "-"):
+        return []
+    parent = os.path.dirname(os.path.abspath(d))
+    for other in os.listdir(parent):
+        mp = os.path.join(parent, other, "meta.json")
+        if other != slug and os.path.exists(mp) and (json.load(open(mp, encoding="utf-8")).get("iso2") or "").lower() == iso:
+            return []
+    return [f"folder: '{slug}' is not the lowercase ISO code '{iso}' (or {iso}-<region>). Use the code, or the country's name only when another folder already holds the code (SKILL.md 5)"]
+
+
+# ---------- the generated column blocks in data-format.md ----------
+DOC = os.path.join(os.path.dirname(os.path.abspath(__file__)), "..", "references", "data-format.md")
+
+
+def schema_block(t):
+    pre, width = PREFIX[t]
+    lines = [f"`{', '.join(SCHEMA[t])}`",
+             f"- IDs look like `{pre}{1:0{width}d}`. Required: " + (", ".join(f"`{c}`" for c in REQUIRED.get(t, [])) or "none") + "."]
+    for (tt, c), vals in ENUMS.items():
+        if tt == t:
+            lines.append(f"- `{c}` is one of: " + " · ".join(sorted(v for v in vals if v)) + (" (or blank)" if "" in vals else "") + ".")
+    return "\n".join(lines)
+
+
+def cmd_schema(a):
+    text = open(DOC, encoding="utf-8", newline="").read()
+    new, n = text, 0
+    for t in SCHEMA:
+        pat = re.compile(r"(<!-- schema:%s -->\n).*?(\n<!-- /schema:%s -->)" % (t, t), re.S)
+        if not pat.search(new):
+            sys.exit(f"data-format.md has no schema block for {t}")
+        new = pat.sub(lambda m: m.group(1) + schema_block(t) + m.group(2), new)
+        n += 1
+    if new == text:
+        print(f"data-format.md is up to date ({n} generated blocks)")
+        return
+    if a.write:
+        open(DOC, "w", encoding="utf-8", newline="").write(new)
+        print("data-format.md rewritten from SCHEMA, PREFIX, REQUIRED and ENUMS")
+        return
+    print("data-format.md is out of date with wtdb.py: run `python skill/scripts/wtdb.py schema --write` and commit the result")
+    sys.exit(1)
 
 
 def cmd_dedupe(a):
@@ -748,6 +823,9 @@ def cmd_status(a):
                   f"  skipped {c['skipped']:>3}")
     else:
         print("\nLocal sweep: no geography units loaded yet.")
+    lq = Counter(l["status"] for l in db["leads"])
+    print(f"\nLeads in this area: open {lq['open']}, used {lq['used']}, rejected {lq['rejected']}, duplicate {lq['duplicate']} | "
+          f"queries logged: {len(db['queries'])} in {len({q['language'] for q in db['queries'] if q.get('language')})} language(s)")
     hq = Counter(h["status"] for h in db["harvest"])
     print(f"\nHarvest lists: queued {hq['queued']}, in_progress {hq['in_progress']}, done {hq['done']}, "
           f"failed {hq['failed']}")
@@ -756,6 +834,9 @@ def cmd_status(a):
         print(f"\nLast run {last['run_id']} ({last['date']}): {last['focus']} → next: {last.get('notes_next','')}")
     print("\nSuggested next targets:")
     sugg = []
+    ol = [l for l in db["leads"] if l["status"] == "open"]
+    if ol:
+        sugg.append(f"follow the {len(ol)} open lead(s) first (SKILL.md 6.3a): " + "; ".join(f"{l['lead_id']} {l['name']}" for l in ol[:5]))
     q = [h for h in db["harvest"] if h["status"] in ("queued", "in_progress")]
     if q:
         sugg.append(f"process harvest lists: " + "; ".join(f"{h['harvest_id']} {h['title']}" for h in q[:5]))
@@ -1147,6 +1228,7 @@ def main():
     x.add_argument("--timeout", type=int, default=25); x.add_argument("--strict", action="store_true")
     x.set_defaults(f=cmd_checkquotes)
     x = s.add_parser("export"); x.add_argument("dir"); x.add_argument("--out"); x.set_defaults(f=cmd_export)
+    x = s.add_parser("schema"); x.add_argument("--write", action="store_true"); x.set_defaults(f=cmd_schema)
     a = p.parse_args()
     a.f(a)
 

@@ -511,6 +511,12 @@ def page_html(base, title, desc, path, image, alt):
     return h
 
 
+def type_rows(counter):
+    """(label, count) for a share card's type bars, biggest first, with the smallest types folded into one row."""
+    rows = [(TYPE.get(k, k), n) for k, n in counter.most_common()]
+    return rows[:5] + ([("Other types", sum(n for _, n in rows[5:]))] if len(rows) > 6 else rows[5:])
+
+
 def poll_line(c):
     p = (c.get("polls") or [None])[0]
     if not p:
@@ -546,7 +552,8 @@ def share_pages(out, base, countries, full):
     tot = dict(supporters=sum(c["supporters"] for c in countries), evidence=sum(c["evidence"] for c in countries), countries=len(countries))
     write("/", "Wealth Tax Supporters: who backs a wealth tax near you?",
           f"{tot['supporters']:,} public figures and organisations across {tot['countries']} countries who have backed a wealth tax on the record. Every name links to its source.",
-          "home", "Who backs a wealth tax near you?", lambda o: cards.home_card(o, tot))
+          "home", "Who backs a wealth tax near you?",
+          lambda o: cards.home_card(o, tot, type_rows(sum((collections.Counter(c.get("types") or {}) for c in countries), collections.Counter()))))
     write("/method", "How the register is built · Wealth Tax Supporters",
           "What counts as support for a wealth tax, how statements are sourced and graded, and how to report a mistake.",
           "method", "How the register is built", lambda o: cards.page_card(o, "Method", "How the register is built", "Sourced, graded and open: every name links to where they said it."))
@@ -564,7 +571,10 @@ def share_pages(out, base, countries, full):
           "contribute", "Help build the register", lambda o: cards.page_card(o, "Contribute", "Help build the register", "Suggest a supporter, help check entries, or start a country."))
     write("/directory", "The global directory · Wealth Tax Supporters",
           f"{tot['supporters']:,} public figures and organisations in {tot['countries']} countries who have backed a wealth tax, filterable by country, type and strength of evidence.",
-          "directory", "The global directory", lambda o: cards.page_card(o, "Directory", "Everyone on the record", "Every supporter in every country, with the statement they rest on."))
+          "directory", "The global directory", lambda o: cards.directory_card(
+              o, "Everyone on the record", tot["supporters"], f"public figures and organisations in {tot['countries']} countries, each with the statement they rest on",
+              type_rows(sum((collections.Counter(c.get("types") or {}) for c in countries), collections.Counter())),
+              [(GRADE[g], sum(c[g] for c in countries)) for g in "ABC"]))
     write("/feedback", "Feedback and bug reports · Wealth Tax Supporters",
           "Something broken, confusing or missing? Send feedback or report a bug. No account needed.",
           "feedback", "Feedback and bug reports", lambda o: cards.page_card(o, "Feedback", "Tell us what to fix or improve", "Feedback, ideas and bug reports. No account needed."))
@@ -595,6 +605,19 @@ def share_pages(out, base, countries, full):
         for sec, (title, kicker, sub, desc) in sections.items():
             n_sub = c["evidence"] if sec == "time" else c["supporters"]
             cc = dict(c, supporters=n_sub)
+            if sec == "seats":
+                bodies = [dict(name=b["name"], seats=b["seats"], parties=[[q[0], q[1], q[2], len(q[3])] for q in b["parties"]]) for b in D["legis"]]
+                lit = sum(q[3] for b in bodies for q in b["parties"])
+                write(f"/{slug}/seats", f"{title} · Wealth Tax Supporters",
+                      f"{lit:,} of {sum(b['seats'] for b in bodies):,} seats in {the(name)}'s legislature are held by a sitting supporter of a wealth tax, found so far, shown by party.",
+                      slug + "-seats", f"{title}: {lit:,} seats held by supporters found so far",
+                      lambda o, cc=cc, bodies=bodies: cards.seats_card(o, cc, bodies, "held by a sitting supporter of a wealth tax, found so far. Unlit seats mean nothing found, never opposition."))
+                continue
+            if sec == "directory":
+                write(f"/{slug}/directory", f"{title} · Wealth Tax Supporters", desc, slug + "-directory", f"{title}: {c['supporters']:,} found so far",
+                      lambda o, cc=cc: cards.directory_card(o, cc["name"], cc["supporters"], "public figures and organisations on the record so far",
+                                                            type_rows(collections.Counter(cc.get("types") or {})), [(GRADE[g], cc[g]) for g in "ABC"]))
+                continue
             write(f"/{slug}" + (f"/{sec}" if sec else ""), f"{title} · Wealth Tax Supporters", desc, slug + (f"-{sec}" if sec else ""),
                   f"{title}: {c['supporters']:,} found so far",
                   lambda o, cc=cc, kicker=kicker, sub=sub: cards.country_card(o, cc, units, kicker, sub))

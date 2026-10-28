@@ -10,7 +10,7 @@ from PIL import Image, ImageDraw, ImageFont
 HERE = Path(__file__).resolve().parent
 FONTS = HERE / "fonts"
 CACHE = HERE.parent / ".cache" / "cards"
-VERSION = "5"  # bump to redraw every card after a design change
+VERSION = "8"  # bump to redraw every card after a design change
 
 W, H, S = 1200, 630, 2  # drawn at 2x, then scaled down for smooth edges
 PAPER, PAPER2, INK, INK2, INK3, RULE = (243, 239, 230), (233, 227, 214), (23, 21, 15), (74, 70, 61), (124, 118, 106), (214, 207, 191)
@@ -166,7 +166,7 @@ def cached(out, key, draw):
 
 
 # ---------- cards ----------
-def home_card(out, totals):
+def home_card(out, totals, types):
     def draw(path):
         img, dr = _canvas()
         dr.text((60 * S, 54 * S), "AN OPEN, SOURCED REGISTER", font=SANS(20, 500), fill=INK3)
@@ -174,18 +174,24 @@ def home_card(out, totals):
         dr.text((56 * S, 96 * S), "Who backs a", font=f, fill=INK)
         dr.text((56 * S, 206 * S), "wealth tax", font=f, fill=INK)
         dr.text((56 * S, 316 * S), "near you?", font=ITALIC(118), fill=SIGNAL)
-        # totals, right column
+        # the numbers and who they are, right column
         x = 790
-        dr.line((x * S, 70 * S, x * S, 470 * S), fill=RULE, width=2 * S)
-        rows = [(f"{totals['supporters']:,}", "public figures and organisations"), (f"{totals['evidence']:,}", "sourced statements"),
-                (f"{totals['countries']}", "countries, and counting")]
-        for i, (n, lab) in enumerate(rows):
-            y = 76 + i * 132
-            dr.text(((x + 36) * S, y * S), n, font=SERIF(84), fill=INK)
-            dr.text(((x + 40) * S, (y + 86) * S), lab, font=SANS(22), fill=INK2)
+        dr.line((x * S, 60 * S, x * S, 490 * S), fill=RULE, width=2 * S)
+        dr.text(((x + 36) * S, 56 * S), f"{totals['supporters']:,}", font=SERIF(84), fill=INK)
+        for i, ln in enumerate(_wrap(dr, f"public figures and organisations in {totals['countries']} countries", SANS(21), 330, 2)):
+            dr.text(((x + 40) * S, (150 + i * 28) * S), ln, font=SANS(21), fill=INK2)
+        dr.text(((x + 40) * S, 222 * S), "WHO THEY ARE", font=SANS(16, 500), fill=INK3)
+        top = types[:6]
+        mx = max([n for _, n in top] or [1])
+        for i, (lab, n) in enumerate(top):
+            by = 252 + i * 38
+            dr.text(((x + 40) * S, by * S), lab, font=SANS(19), fill=INK)
+            cnt = f"{n:,}"
+            dr.text((1150 * S - dr.textlength(cnt, font=SANS(19, 500)), by * S), cnt, font=SANS(19, 500), fill=INK)
+            dr.rectangle(((x + 40) * S, (by + 27) * S, (x + 40 + max(6, int(320 * n / mx))) * S, (by + 31) * S), fill=SIGNAL)
         _footer(dr)
         _save(img, path)
-    return cached(out, ["home", totals], draw)
+    return cached(out, ["home", totals, types], draw)
 
 
 def country_card(out, c, units, kicker, sub):
@@ -269,3 +275,120 @@ def page_card(out, kicker, title, line):
         _footer(dr)
         _save(img, path)
     return cached(out, ["page", kicker, title, line], draw)
+
+
+# ---------- seats and directory cards ----------
+def _hemicycle(n):
+    """Dot positions for n seats in a half ring, the same layout as the site's seat chart (hemicycle() in site/app.js)."""
+    import math
+    r0, rows = 0.32, 1
+    cap = lambda R: sum(math.floor(math.pi * (r0 + (i + .5) * (1 - r0) / R) / ((1 - r0) / R)) for i in range(R))
+    while cap(rows) < n:
+        rows += 1
+    dr = (1 - r0) / rows
+    rad = lambda i: r0 + (i + .5) * dr
+    tot = sum(rad(i) for i in range(rows))
+    raw = [n * rad(i) / tot for i in range(rows)]
+    per = [math.floor(v) for v in raw]
+    left = n - sum(per)
+    for _, i in sorted(((v - math.floor(v), i) for i, v in enumerate(raw)), reverse=True):
+        if left > 0:
+            per[i] += 1
+            left -= 1
+    pts = []
+    for i, k in enumerate(per):
+        for j in range(k):
+            a = math.pi / 2 if k == 1 else math.pi * (1 - j / (k - 1))
+            pts.append((a, rad(i), math.cos(a) * rad(i), -math.sin(a) * rad(i)))
+    pts.sort(key=lambda p: (-p[0], p[1]))
+    return pts, dr * 0.43
+
+
+def _seat_rgb(hexc):
+    h = (hexc or "").lstrip("#")
+    if not re.fullmatch(r"[0-9a-fA-F]{6}", h):
+        return (138, 134, 128)
+    r, g, b = int(h[:2], 16), int(h[2:4], 16), int(h[4:], 16)
+    return (138, 134, 128) if (r * .299 + g * .587 + b * .114) / 255 > 0.88 else (r, g, b)
+
+
+def _hemi(dr, cx, cy, radius, body):
+    """One chamber as a hemicycle: a seat per dot in party blocks, solid where a supporter sits, faded elsewhere."""
+    pts, dot = _hemicycle(body["seats"])
+    at = 0
+    for party, n, colour, lit in body["parties"]:
+        own, rgb = pts[at:at + n], _seat_rgb(colour)
+        at += n
+        faded = tuple(int(c * .32 + p * .68) for c, p in zip(rgb, PAPER2))
+        on = {int((k + .5) * n / lit) for k in range(lit)} if lit else set()
+        for i, (_, _, x, y) in enumerate(own):
+            px, py, r = (cx + x * radius) * S, (cy + y * radius) * S, dot * radius * S
+            dr.ellipse((px - r, py - r, px + r, py + r), fill=rgb if i in on else faded)
+
+
+def _chamber_label(dr, cx, y, body, width, start, smallest):
+    lab = f"{body['name']} · {sum(q[3] for q in body['parties'])} of {body['seats']:,}"
+    lf, _ = _fit(dr, lab, lambda s: SANS(s, 500), width, start, smallest)
+    dr.text((cx * S - dr.textlength(lab, font=lf) / 2, y * S), lab, font=lf, fill=INK2)
+
+
+def seats_card(out, c, bodies, sub):
+    """bodies: [{name, seats, parties: [[party, seats, colour, number lit]]}]; the first two are drawn."""
+    shown = bodies[:2]
+    lit_all = sum(q[3] for b in bodies for q in b["parties"])
+    seats_all = sum(b["seats"] for b in bodies)
+
+    def draw(path):
+        img, dr = _canvas()
+        dr.text((60 * S, 54 * S), "SEATS · WHO SITS IN THE LEGISLATURE", font=SANS(20, 500), fill=INK3)
+        nf, size = _fit(dr, c["name"], SERIF, 640, 112, 64)
+        dr.text((56 * S, 86 * S), c["name"], font=nf, fill=INK)
+        y = 86 + size + 18
+        dr.text((60 * S, y * S), f"{lit_all:,}", font=SERIF(84), fill=SIGNAL)
+        dr.text((60 * S, (y + 92) * S), f"of {seats_all:,} seats", font=SANS(30, 500), fill=INK)
+        for i, ln in enumerate(_wrap(dr, sub, SANS(24), 620, 3)):
+            dr.text((60 * S, (y + 142 + i * 31) * S), ln, font=SANS(24), fill=INK2)
+        dr.rectangle((740 * S, 40 * S, 1160 * S, 516 * S), fill=PAPER2)
+        if len(shown) == 1:
+            _hemi(dr, 950, 400, 190, shown[0])
+            _chamber_label(dr, 950, 438, shown[0], 380, 22, 15)
+        else:
+            for k, b in enumerate(shown):
+                oy = 60 + k * 226
+                _chamber_label(dr, 950, oy, b, 390, 20, 14)
+                _hemi(dr, 950, oy + 196, 160, b)
+        _footer(dr)
+        _save(img, path)
+    return cached(out, ["seats", c["name"], sub, [[b["name"], b["seats"], [[q[0], q[1], q[2], q[3]] for q in b["parties"]]] for b in shown], lit_all, seats_all], draw)
+
+
+def directory_card(out, name, total, line, types, grades):
+    """name: the page's subject; types: [(label, count)] biggest first; grades: [(label, count)]."""
+    top = types[:6]
+    mx = max([n for _, n in top] or [1])
+
+    def draw(path):
+        img, dr = _canvas()
+        dr.text((60 * S, 54 * S), "DIRECTORY · EVERY NAME WITH ITS SOURCE", font=SANS(20, 500), fill=INK3)
+        nf, size = _fit(dr, name, SERIF, 640, 112, 64)
+        dr.text((56 * S, 86 * S), name, font=nf, fill=INK)
+        y = 86 + size + 18
+        dr.text((60 * S, y * S), f"{total:,}", font=SERIF(84), fill=SIGNAL)
+        for i, ln in enumerate(_wrap(dr, line, SANS(26), 620, 2)):
+            dr.text((60 * S, (y + 96 + i * 33) * S), ln, font=SANS(26), fill=INK2)
+        gx = 60
+        for lab, n in grades:
+            t = f"{n:,} {lab.lower()}"
+            dr.text((gx * S, 448 * S), t, font=SANS(20, 500), fill=INK3)
+            gx += int(dr.textlength(t, font=SANS(20, 500)) / S) + 28
+        dr.line((740 * S, 70 * S, 740 * S, 470 * S), fill=RULE, width=2 * S)
+        dr.text((780 * S, 62 * S), "WHO THEY ARE", font=SANS(18, 500), fill=INK3)
+        for i, (lab, n) in enumerate(top):
+            by = 108 + i * 63
+            dr.text((780 * S, by * S), lab, font=SANS(22), fill=INK)
+            cnt = f"{n:,}"
+            dr.text((1140 * S - dr.textlength(cnt, font=SANS(22, 500)), by * S), cnt, font=SANS(22, 500), fill=INK)
+            dr.rectangle((780 * S, (by + 33) * S, (780 + max(6, int(360 * n / mx))) * S, (by + 39) * S), fill=SIGNAL)
+        _footer(dr)
+        _save(img, path)
+    return cached(out, ["directory", name, total, line, top, grades], draw)
