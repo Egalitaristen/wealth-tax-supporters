@@ -34,7 +34,7 @@ A0032,Alejandra Zaga Mendez,person,politician,,Québec solidaire legislator and 
 A0033,Green Party of British Columbia,organisation,party,,Provincial political party,,,,Canada,regional,Canada > British Columbia,G0011,,,,active,na,regional,,R001,2026-10-24,
 A0034,Emily Lowan,person,politician,,BC Green Party leader; won Saanich North and the Islands in the 24 October 2026 BC election (preliminary result),,Green Party,,Canada,regional,Canada > British Columbia > Saanich North and the Islands,G0011,https://dailyhive.com/vancouver/bc-green-leader-emily-lowan-wins-saanich-north-islands,,,active,y,regional,,R001,2026-10-28,2026-10-28
 A0035,Emma Davis,person,wealthy_individual,,Patriotic Millionaires Canada board member,,,,Canada,regional,Canada > British Columbia,G0011,,,,active,y,regional,,R001,2026-10-24,
-A0036,Silas Xuereb,person,economist,,Economist and policy analyst,Canadians for Tax Fairness,,,Canada,national,Canada,G0001,,,,active,y,national,,R001,2026-10-24,
+A0036,Silas Xuereb,person,economist,,Economist and policy analyst,Canadians for Tax Fairness,,,Canada,national,Canada > Ontario > Toronto,G2071,https://www.taxfairness.ca/en/contact,,,active,y,national,,R001,2026-10-28,2026-10-28
 A0037,Alex Hemingway,person,economist,,Senior economist and public finance policy analyst,BC Policy Solutions,,,Canada,national,Canada,G0001,,,,active,y,national,,R001,2026-10-24,
 A0038,Canadians for Tax Fairness,organisation,ngo_campaign,,Tax justice organisation,,,,Canada,national,Canada > Ontario > Toronto,G2071,https://www.taxfairness.ca/en/contact,,,active,na,national,,R001,2026-10-28,2026-10-28
 A0039,BC Policy Solutions,organisation,think_tank,,Independent public policy research institute,,,,Canada,national,Canada,G0001,,,,active,na,national,,R001,2026-10-24,
@@ -186,7 +186,7 @@ A0233,Joel Solomon,person,wealthy_individual,,Public Canadian millionaire signat
 A0234,Jonathan Pedneault,person,politician,,Former Green Party deputy leader; public letter signatory,,Green Party of Canada,,Canada,national,Canada,G0001,,Q133257785,,former_role,y,national,,R003,2026-10-24,
 A0235,Kim Pate,person,politician,,Senator for Ontario,,Independent,,Canada,national,Canada > Ontario,G0007,,Q17386522,,active,y,national,,R003,2026-10-24,
 A0236,Rosa Galvez,person,politician,,Senator for Quebec,,Independent,,Canada,national,Canada > Quebec,G0006,,Q27673144,,active,y,national,,R003,2026-10-24,
-A0237,Seth Klein,person,campaigner,,"Public policy researcher, writer and climate advocate",,,,Canada,national,Canada > British Columbia > Vancouver,G4355,https://www.sethklein.ca/,,,active,y,national,,R003,2026-10-24,
+A0237,Seth Klein,person,campaigner,,"Public policy researcher, writer and climate advocate",,,,Canada,national,Canada > British Columbia > Vancouver,G4355,https://www.sethklein.ca,,,active,y,national,,R003,2026-10-28,
 A0238,Trish Hennessy,person,journalist,,Monitor editor and CCPA senior communications strategist,Canadian Centre for Policy Alternatives,,,Canada,national,Canada > Ontario > Ottawa,G1982,https://www.policyalternatives.ca/people/trish-hennessy/,,,active,y,national,,R003,2026-10-24,
 A0239,Farnell Morisset,person,journalist,,Lawyer and public affairs columnist; 2026 Quebec Liberal candidate,,,,Canada,regional,Canada > Quebec > Québec,G0961,,,,active,y,regional,,R003,2026-10-24,
 A0240,Alain Deneault,person,academic,,"Philosopher, author and professor at Université de Moncton",Université de Moncton,,,Canada,regional,Canada > New Brunswick,G0005,,Q15730265,,active,y,regional,,R003,2026-10-24,
