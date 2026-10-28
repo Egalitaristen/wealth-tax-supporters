@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 """Refresh a country's legislature seats from the parliament's own open member list.
 
-Usage: python skill/scripts/seats.py data/<iso2> [--adapter NAME] [--dry-run] [--fix-status] [--local URL=FILE]      (iso2 = ar, fi, se, de, nl, no, fr, br, ca, es, pl, be, in, jp, my, sg, id, ng, cn, nz, za; un for the UN General Assembly; au for the Pan-African Parliament)
+Usage: python skill/scripts/seats.py data/<iso2> [--adapter NAME] [--dry-run] [--fix-status] [--local URL=FILE]      (iso2 = ar, co, fi, se, de, nl, no, fr, br, ca, es, pl, be, in, jp, my, sg, id, ng, cn, nz, za; un for the UN General Assembly; au for the Pan-African Parliament)
 
 For the UK and the US use seats_uk.py and seats_us.py (richer sources). This script holds one small adapter per
 country (the ADAPTERS table at the end): each reads the parliament's open data and returns its chambers, the sitting
@@ -80,7 +80,7 @@ def name_keys(name):
     return toks
 
 
-def match(actor, members, by_q, by_norm):
+def match(actor, members, by_q, by_norm, strict=False, deny=()):
     """(member, how) for the one member this actor is, or (None, ''). how: qid, exact, or fuzzy (reported for you to check)."""
     if actor["wikidata_qid"] and actor["wikidata_qid"] in by_q:
         return by_q[actor["wikidata_qid"]], "qid"
@@ -91,6 +91,8 @@ def match(actor, members, by_q, by_norm):
     n = norm(actor["name"])
     if n in by_norm and len(by_norm[n]) == 1:
         return by_norm[n][0], "exact"
+    if n in deny:  # a name an adapter says is a different person from the member with the same words (a namesake)
+        return None, ""
     toks = n.split()
     if len(toks) >= 2:
         # same words in another order, or extra given names: every word of the shorter name is in the longer
@@ -98,6 +100,8 @@ def match(actor, members, by_q, by_norm):
              and toks[-1] in norm(m["name"]).split()]
         if len(c) == 1:
             return c[0], "fuzzy"
+        if strict:  # an adapter whose names carry two surnames (Spanish, Portuguese) leaves out the looser rule below
+            return None, ""
         # same last name and the same first name, with other given names in between (Bob / Robert is not caught: add the Wikidata ID instead)
         def alike(m):
             t = norm(m["name"]).split()
@@ -159,7 +163,7 @@ def run(d, adapter, dry=False, fix=False, actors_in=None):
                         n.setdefault(norm(m["name"]), []).append(m)
                     per_country[x["_iso"]] = (sub, q, n)
                 pool = per_country[x["_iso"]]
-            m, how = match(x, *pool)
+            m, how = match(x, *pool, strict=c.get("strict", False), deny={norm(d) for d in c.get("fuzzy_deny", ())})
             if m:
                 if c.get("enrich"):
                     m = c["enrich"](m)
@@ -973,6 +977,66 @@ def argentina():
             chamber("Senado de la Nación", 72, senators, "National senator", r"(?i)senador|senator", "72 seats, three per province and three for the City of Buenos Aires, renewed by thirds every two years." + tail, sen_url)]
 
 
+def colombia():
+    """The Cámara de Representantes (183 seats, 2026-2030) from the chamber's own page (camara.gov.co/representantes, a JSON object of members by
+    department with their party), and the Senado de la República (103 seats) from a news list of the senators elected in March 2026 (Valora
+    Analitik), because senado.gov.co still shows the 2022-2026 senators. The Senate list is a secondary source: replace it with the Senate's own
+    list once its page shows the 2026-2030 period. A seat the source does not name is shown as Vacant."""
+    import html
+    PARTY = {"Partido Pacto Histórico": "Pacto Histórico", "Coalición Pacto Histórico": "Pacto Histórico", "Partido Liberal Colombiano": "Partido Liberal",
+             "Partido Conservador Colombiano": "Partido Conservador", "Partido Alianza Verde": "Alianza Verde", "Partido Demócrata Colombiano": "Partido Demócrata",
+             "Partido Alianza Social Independiente – ASI": "ASI", "Partido Nuevo Liberalismo": "Nuevo Liberalismo", "Partido Colombia Renaciente": "Colombia Renaciente"}
+    page = get("https://www.camara.gov.co/representantes", as_json=False).decode("utf-8", "ignore")
+    i = re.search(r'\{"[A-ZÁÉÍÓÚÑ ]+":\[\{"Nombre"', page)
+    if not i:
+        sys.exit("Colombia: the Cámara page has no member data any more, check the adapter")
+    depth, j = 0, i.start()
+    for j in range(i.start(), len(page)):
+        depth += (page[j] == "{") - (page[j] == "}")
+        if depth == 0:
+            break
+    data = json.loads(page[i.start():j + 1])
+    deputies = []
+    for place, lst in data.items():
+        for x in lst:
+            p = (x.get("Partido") or "").strip()
+            deputies.append(dict(name=x["Nombre"].strip(), party=PARTY.get(p, re.sub(r"^Partido ", "", p)) or "Sin partido", ref=re.sub(r"\W+", "-", x["Nombre"].lower()),
+                                 place=place.title(), start="", url=(x.get("Perfil") or "https://www.camara.gov.co/representantes")))
+    val = get("https://www.valoraanalitik.com/lista-senadores-elegidos-congreso-colombia-2026-2030/", as_json=False).decode("utf-8", "ignore")
+    val = re.sub(r"<script.*?</script>|<style.*?</style>", "", val, flags=re.S)
+    lines = [re.sub(r"\s+", " ", l).strip() for l in html.unescape(re.sub(r"<[^>]+>", "\n", val)).split("\n")]
+    lines = [l for l in lines if l]
+    start = next((k for k, l in enumerate(lines) if l.startswith("La lista completa de los senadores")), None)
+    if start is None:
+        sys.exit("Colombia: the senators list has moved, check the adapter")
+    senators, cur, want = [], None, 0
+    for l in lines[start + 1:]:
+        m = re.match(r"(.+?)\s+[—–-]\s+(\d+)\s+curul", l)
+        if m:
+            cur, want, got = re.sub(r"\s*\(.*\)$", "", m[1]).strip(), int(m[2]), 0
+            continue
+        if cur and got < want and len(l.split()) >= 2 and re.match(r"^[A-ZÁÉÍÓÚÑ][\wÁÉÍÓÚÑáéíóúñü.'’ -]+$", l) and not l.startswith("Destacado"):
+            senators.append(dict(name=l, party=cur, ref=re.sub(r"\W+", "-", l.lower()), place="", start="", url="https://www.valoraanalitik.com/lista-senadores-elegidos-congreso-colombia-2026-2030/"))
+            got += 1
+    if len(senators) < 90 or len(deputies) < 150:
+        sys.exit(f"Colombia: read {len(deputies)} representatives and {len(senators)} senators, check the adapter")
+    colours = {"Pacto Histórico": "7a1f5c", "Centro Democrático": "1c8fd6", "Partido Liberal": "e11931", "Partido Conservador": "1a4a9c", "Partido de la U": "f2c230",
+               "Cambio Radical y Alma": "e07a1f", "Alianza Verde": "62b04b", "Alianza Por Colombia": "62b04b", "Ahora Colombia": "2aa5c9", "Movimiento Salvación Nacional": "6b6b6b"}
+
+    def chamber(name, seats, members, role, rre, note, src):
+        count = {}
+        for m in members:
+            count[m["party"]] = count.get(m["party"], 0) + 1
+        order = sorted(count, key=lambda p: -count[p])
+        return dict(name=name, level="national", seats=seats, source_url=src, note=note, role=role, role_re=rre, role_start=rre, members=members, former=[],
+                    party_order=order, colours={p: colours.get(p, "8a8680") for p in order}, strict=True,
+                    fuzzy_deny=("Miguel Ángel Pinto",))
+    return [chamber("Senado de la República", 103, senators, "Senator", r"(?i)senator|senador",
+                    "103 seats for 2026-2030: 102 elected on 8 March 2026 and one for the runner-up of the presidential election if in opposition. Who sits is from a news list of the senators elected (Valora Analitik), a secondary source, because senado.gov.co still lists the 2022-2026 senators; parties are the lists they were elected on. Unlit seats mean nothing found, never opposition.",
+                    "https://www.valoraanalitik.com/lista-senadores-elegidos-congreso-colombia-2026-2030/"),
+            chamber("Cámara de Representantes", 183, deputies, "Representative", r"(?i)representative|representante",
+                    "183 seats for 2026-2030. Who sits and their party are from the chamber's own page (camara.gov.co/representantes); seats the page does not name are shown as Vacant. Unlit seats mean nothing found, never opposition.",
+                    "https://www.camara.gov.co/representantes")]
 def finland():
     """The Eduskunta (200 seats): the seating plan of the plenary hall on avoindata.eduskunta.fi (SeatingOfParliament), one row per seat with the
     member's party group. It lists the sitting members only (ministers included, as in Finland they keep their seat; a substitute for a member on
@@ -1164,7 +1228,7 @@ def scottish_parliament():
 
 
 
-ADAPTERS = {"nz": new_zealand, "se": sweden, "de": germany, "nl": netherlands, "no": norway, "fr": france, "br": brazil, "ca": canada, "es": spain, "pl": poland, "be": belgium, "in": india, "jp": japan, "my": malaysia, "sg": singapore, "id": indonesia, "ng": nigeria, "cn": china, "scottish_parliament": scottish_parliament, "european_parliament": european_parliament, "eu": european_parliament, "un": united_nations, "au": pan_african_parliament, "za": south_africa, "ie": ireland, "it": italy, "mx": mexico, "ar": argentina, "fi": finland}
+ADAPTERS = {"nz": new_zealand, "se": sweden, "de": germany, "nl": netherlands, "no": norway, "fr": france, "br": brazil, "ca": canada, "es": spain, "pl": poland, "be": belgium, "in": india, "jp": japan, "my": malaysia, "sg": singapore, "id": indonesia, "ng": nigeria, "cn": china, "scottish_parliament": scottish_parliament, "european_parliament": european_parliament, "eu": european_parliament, "un": united_nations, "au": pan_african_parliament, "za": south_africa, "ie": ireland, "it": italy, "mx": mexico, "ar": argentina, "co": colombia, "fi": finland}
 
 
 def main():
