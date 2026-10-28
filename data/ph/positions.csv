@@ -1,13 +1,13 @@
 position_id,actor_id,body_id,role,party,geo_unit_id,start,end,current,member_ref,checked,source_url
-O00001,A0001,B0001,Representative,ACT Teachers,,2025,,,,,https://docs.congress.hrep.online/legisdocs/basic_20/HB08123.pdf
-O00002,A0002,B0001,Representative,Gabriela Women’s Party,,2025,,,,,https://docs.congress.hrep.online/legisdocs/basic_20/HB08123.pdf
-O00003,A0003,B0001,Representative,Kabataan,,2025,,,,,https://docs.congress.hrep.online/legisdocs/basic_20/HB08123.pdf
-O00004,A0004,B0001,Representative,ML Party-list,,2025,,,,,https://docs.congress.hrep.online/legisdocs/basic_20/HB09274.pdf
-O00005,A0008,B0001,Representative,Akbayan,,2025,,,,,https://docs.congress.hrep.online/legisdocs/basic_20/HB04304.pdf
-O00006,A0009,B0001,Representative,Liberal Party,G0088,2025,,,,,https://docs.congress.hrep.online/legisdocs/basic_20/HB04304.pdf
-O00007,A0010,B0001,Representative,Akbayan,,2025,,,,,https://docs.congress.hrep.online/legisdocs/basic_20/HB04304.pdf
-O00008,A0011,B0001,Representative,Akbayan,,2025,,,,,https://docs.congress.hrep.online/legisdocs/basic_20/HB04304.pdf
-O00009,A0012,B0001,Representative,TUCP,,2025,,,,,https://docs.congress.hrep.online/legisdocs/basic_20/HB08860.pdf
+O00001,A0001,B0001,Representative,ACT Teachers,,2025,,y,G093,2026-10-28,https://www.congress.gov.ph/house-members
+O00002,A0002,B0001,Representative,Gabriela Women’s Party,,2025,,y,I083,2026-10-28,https://www.congress.gov.ph/house-members
+O00003,A0003,B0001,Representative,Kabataan,,2025,,y,L022,2026-10-28,https://www.congress.gov.ph/house-members
+O00004,A0004,B0001,Representative,ML Party-list,,2025,,y,I401,2026-10-28,https://www.congress.gov.ph/house-members
+O00005,A0008,B0001,Representative,Akbayan,,2025,,y,K142,2026-10-28,https://www.congress.gov.ph/house-members
+O00006,A0009,B0001,Representative,Liberal Party,G0088,2025,,y,G009,2026-10-28,https://www.congress.gov.ph/house-members
+O00007,A0010,B0001,Representative,Akbayan,,2025,,y,L032,2026-10-28,https://www.congress.gov.ph/house-members
+O00008,A0011,B0001,Representative,Akbayan,,2025,,y,L046,2026-10-28,https://www.congress.gov.ph/house-members
+O00009,A0012,B0001,Representative,TUCP,,2025,,y,F123,2026-10-28,https://www.congress.gov.ph/house-members
 O00010,A0020,B0001,Representative,Bayan Muna,,2019,2022-06-30,n,,2026-10-28,https://docs.congress.hrep.online/legisdocs/basic_18/HB10253.pdf
 O00011,A0021,B0001,Representative,Bayan Muna,,2013,2022-06-30,n,,2026-10-28,https://docs.congress.hrep.online/legisdocs/basic_18/HB10253.pdf
 O00012,A0022,B0001,Representative,Bayan Muna,,2019,2022-06-30,n,,2026-10-28,https://docs.congress.hrep.online/legisdocs/basic_18/HB10253.pdf
