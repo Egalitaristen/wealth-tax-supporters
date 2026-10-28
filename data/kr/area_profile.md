@@ -36,3 +36,6 @@ Added former councillor Na Gyeong-chae and CCEJ committee member Kim Jin-tae bas
 
 ## R007 — welfare-funding forum, 2026-10-28
 Added political economist Jung Seung-il from his individually attributed 2011 recommendation, and an additional 2011 source documenting Chung Dong-young's annual net-wealth proposal and thresholds. Statements by other event attendees were not attributed to them merely because they were present. National, regional and local research remains incomplete.
+
+## R008 — civil-society research and scope review, 2026-10-28
+Hong Heon-ho argued in his 2012 signed Pressian article for a South Korean wealth tax and defined it as a levy on net assets. His advocacy is historical; current views were not established. A 2016 source points to an additional statement by existing economist You Jong-il, but the source page could not be opened reliably and was left as a lead. Removed France-based Thomas Piketty from this country register under the updated pre-PR checklist; his Korea forum remains a lead for the France register. Searches in Korean also located the 2024 forum programme, which alone does not prove each participant endorsed a tax. The local code and map provenance checks remain open.
