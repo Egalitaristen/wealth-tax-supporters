@@ -1,1 +1,11 @@
 seat_id,body_id,party,seats,colour,order
+S0001,B0001,National Coalition Party,48,0b4a9b,1
+S0002,B0001,Finns Party,45,ffd400,2
+S0003,B0001,Social Democratic Party,43,e11931,3
+S0004,B0001,Centre Party,23,01954b,4
+S0005,B0001,Green League,13,61bf1a,5
+S0006,B0001,Left Alliance,11,bf1e2e,6
+S0007,B0001,Swedish People's Party,10,ffdd93,7
+S0008,B0001,Christian Democrats,5,2b6cb0,8
+S0009,B0001,Movement Now,1,8a8680,9
+S0010,B0001,Vornanen (own group),1,8a8680,10
