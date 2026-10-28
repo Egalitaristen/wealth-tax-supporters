@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 """Refresh a country's legislature seats from the parliament's own open member list.
 
-Usage: python skill/scripts/seats.py data/<iso2> [--adapter NAME] [--dry-run] [--fix-status] [--local URL=FILE]      (iso2 = se, de, nl, no, fr, br, ca, es, pl, be, in, jp, my, sg, id, ng, cn, nz, za; un for the UN General Assembly; au for the Pan-African Parliament)
+Usage: python skill/scripts/seats.py data/<iso2> [--adapter NAME] [--dry-run] [--fix-status] [--local URL=FILE]      (iso2 = ar, se, de, nl, no, fr, br, ca, es, pl, be, in, jp, my, sg, id, ng, cn, nz, za; un for the UN General Assembly; au for the Pan-African Parliament)
 
 For the UK and the US use seats_uk.py and seats_us.py (richer sources). This script holds one small adapter per
 country (the ADAPTERS table at the end): each reads the parliament's open data and returns its chambers, the sitting
@@ -874,8 +874,8 @@ def italy():
                     members=members, former=[],
                     party_order=sorted(parties, key=lambda p: (rank(p), p)), colours={p: colour_for(p) for p in parties})
     order = ["verdi e sinistra", "alleanza verdi", "5 stelle", "m5s", "democratico", "pd-idp", "misto", "aut (", "autonomie", "italia viva", "iv-cr", "azione", "noi moderati", "cd'i", "forza italia", "fi-bp", "lega", "lsp", "fratelli", "fdi"]
-    return [chamber("Camera dei deputati", 400, deputies, "400 seats, XIX legislature (elected 25 September 2022). Who sits and their parliamentary group are from the Chamber's own lists; names there are SURNAME Name, so matches by name are printed for checking. Unlit seats mean nothing found, never opposition.", order, r"(?i)deputat|member of the (italian )?chamber of deputies"),
-            chamber("Senato della Repubblica", len(senators), senators, "200 elected senators plus senators for life, XIX legislature. Who sits and their group are from the Senate's open data (dati.senato.it). The seat count is the number of senators sitting, since senators for life are not part of the 200. Unlit seats mean nothing found, never opposition.", order, r"(?i)senator|member of the (italian )?senate")]
+    return [chamber("Camera dei deputati", 400, deputies, "400 seats, XIX legislature (elected 25 September 2022). Who sits and their parliamentary group are from the Chamber's own lists; names there are SURNAME Name, so matches by name are printed for checking. Unlit seats mean nothing found, never opposition.", order, r"(?i)deputat|member of the (italian )?chamber of deputies"),
+            chamber("Senato della Repubblica", len(senators), senators, "200 elected senators plus senators for life, XIX legislature. Who sits and their group are from the Senate's open data (dati.senato.it). The seat count is the number of senators sitting, since senators for life are not part of the 200. Unlit seats mean nothing found, never opposition.", order, r"(?i)senator|member of the (italian )?senate")]
 
 
 def mexico():
@@ -923,6 +923,54 @@ def mexico():
     src = " Who sits and their party are from the English Wikipedia list for the legislature, which tracks substitutions, because the official lists (sitl.diputados.gob.mx, senado.gob.mx) could not be read by script. Unlit seats mean nothing found, never opposition."
     return [chamber("Cámara de Diputados", 500, deputies, "Federal deputy", role_re, "500 seats (300 by district and 200 by proportional representation), LXVI Legislatura, elected 2 June 2024." + src),
             chamber("Senado de la República", 128, senators, "Senator", srole_re, "128 seats (96 by state and 32 by proportional representation), LXVI Legislatura, elected 2 June 2024." + src)]
+
+
+def argentina():
+    """Cámara de Diputados (257) and Senado de la Nación (72): the two official lists of sitting members, read as the pages
+    www.diputados.gob.ar/diputados/ (name, province, bloc, mandate dates) and www.senado.gob.ar/senadores/listados/listaSenadoRes
+    (name, province, bloc, mandate dates). A bloc is the party or interbloc the member sits in; blocs are listed by size."""
+    import html
+
+    def cells(row):
+        return [re.sub(r"\s+", " ", html.unescape(re.sub(r"<[^>]+>", " ", c))).strip() for c in re.findall(r"<td[^>]*>(.*?)</td>", row, flags=re.S)]
+
+    def date(x):
+        m = re.search(r"(\d\d)/(\d\d)/(\d{4})", x)
+        return f"{m[3]}-{m[2]}-{m[1]}" if m else ""
+
+    def bloc(b):
+        b = re.sub(r"\s+", " ", b).strip()
+        return b if b != b.upper() else b.title().replace(" Por ", " por ").replace(" De ", " de ").replace(" La ", " la ").replace(" Y ", " y ")
+
+    def flip(n):  # "Aguirre, Hilda" -> "Hilda Aguirre"
+        a, _, b = n.partition(",")
+        return f"{b.strip()} {a.strip()}".strip()
+    dip_url, sen_url = "https://www.diputados.gob.ar/diputados/", "https://www.senado.gob.ar/senadores/listados/listaSenadoRes"
+    deputies, senators = [], []
+    for row in re.findall(r"<tr>(.*?)</tr>", get(dip_url, as_json=False).decode("utf-8"), flags=re.S):
+        c, a = cells(row), re.search(r'href="(/diputados/[^"]+)"', row)
+        if a and len(c) >= 7:
+            deputies.append(dict(name=flip(c[1]), party=bloc(c[3]), place=c[2].title(), start=date(c[5]), ref=a[1].strip("/").split("/")[-1], url="https://www.diputados.gob.ar" + a[1]))
+    for row in re.findall(r"<tr>(.*?)</tr>", get(sen_url, as_json=False).decode("utf-8"), flags=re.S):
+        c, a = cells(row), re.search(r'href="(/senadores/senador/(\d+))"', row)
+        if a and len(c) >= 5:
+            senators.append(dict(name=flip(c[1]), party=bloc(c[3]), place=c[2], start=date(c[4].split(" ")[0]), ref=a[2], url="https://www.senado.gob.ar" + a[1]))
+    if len(deputies) < 200 or len(senators) < 60:
+        sys.exit(f"Argentina: read {len(deputies)} deputies and {len(senators)} senators; the pages have changed, check the adapter")
+
+    def chamber(name, seats, members, role, rre, note, src):
+        count = {}
+        for m in members:
+            count[m["party"]] = count.get(m["party"], 0) + 1
+        order = sorted(count, key=lambda p: -count[p])
+        palette = ["6aa4d8", "f2c230", "8b1a1a", "1f8f4e", "e07a1f", "2aa5c9", "c9a227", "9a6fb0", "62b04b", "d36b8f"]
+        colours = {p: palette[i] if i < len(palette) else "8a8680" for i, p in enumerate(order)}
+        return dict(name=name, level="national", seats=seats, source_url=src, note=note, role=role, role_re=rre, role_start=rre,
+                    members=members, former=[], party_order=order, colours=colours)
+    tail = " Who sits and their bloc are from the chamber's own list of sitting members. A seat is shown under the member's bloc. Unlit seats mean nothing found, never opposition."
+    return [chamber("Cámara de Diputados de la Nación", 257, deputies, "National deputy", r"(?i)diputad[oa].*nacional|national deputy|member of the chamber of deputies|diputad[oa] nacional",
+                    "257 seats, elected by province, renewed by halves every two years." + tail, dip_url),
+            chamber("Senado de la Nación", 72, senators, "National senator", r"(?i)senador|senator", "72 seats, three per province and three for the City of Buenos Aires, renewed by thirds every two years." + tail, sen_url)]
 
 
 def european_parliament():
@@ -1089,7 +1137,7 @@ def scottish_parliament():
 
 
 
-ADAPTERS = {"nz": new_zealand, "se": sweden, "de": germany, "nl": netherlands, "no": norway, "fr": france, "br": brazil, "ca": canada, "es": spain, "pl": poland, "be": belgium, "in": india, "jp": japan, "my": malaysia, "sg": singapore, "id": indonesia, "ng": nigeria, "cn": china, "scottish_parliament": scottish_parliament, "european_parliament": european_parliament, "eu": european_parliament, "un": united_nations, "au": pan_african_parliament, "za": south_africa, "ie": ireland, "it": italy, "mx": mexico}
+ADAPTERS = {"nz": new_zealand, "se": sweden, "de": germany, "nl": netherlands, "no": norway, "fr": france, "br": brazil, "ca": canada, "es": spain, "pl": poland, "be": belgium, "in": india, "jp": japan, "my": malaysia, "sg": singapore, "id": indonesia, "ng": nigeria, "cn": china, "scottish_parliament": scottish_parliament, "european_parliament": european_parliament, "eu": european_parliament, "un": united_nations, "au": pan_african_parliament, "za": south_africa, "ie": ireland, "it": italy, "mx": mexico, "ar": argentina}
 
 
 def main():
