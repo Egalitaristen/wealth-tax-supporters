@@ -1,0 +1,8 @@
+{
+  "name": "Peru",
+  "iso2": "PE",
+  "lead": "",
+  "status": "in progress",
+  "boundaries": "boundaries.json",
+  "notes": "Seed research in progress. District map uses OCHA/IGN 2020 boundaries reviewed in 2025: 1,872 matched districts; 21 districts in the 2026 register have no individual shape, and one unmatched composite is omitted. Parliamentary seat figures reflect official roster entries on 28 October 2026, including entries with an empty or elected status."
+}
