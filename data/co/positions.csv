@@ -1,41 +1,41 @@
 position_id,actor_id,body_id,role,party,geo_unit_id,start,end,current,member_ref,checked,source_url
-O00001,A0006,B001,Senator,Pacto Histórico,G0001,,,y,cristian-kevin-gómez-paz,2026-10-28,https://www.valoraanalitik.com/lista-senadores-elegidos-congreso-colombia-2026-2030/
-O00002,A0007,B001,Senator,,G0001,,,n,,2026-10-28,https://www.valoraanalitik.com/lista-senadores-elegidos-congreso-colombia-2026-2030/
-O00003,A0008,B001,Senator,,G0001,,,n,,2026-10-28,https://www.valoraanalitik.com/lista-senadores-elegidos-congreso-colombia-2026-2030/
-O00004,A0009,B001,Senator,,G0001,,,n,,2026-10-28,https://www.valoraanalitik.com/lista-senadores-elegidos-congreso-colombia-2026-2030/
-O00005,A0010,B001,Senator,,G0001,,,n,,2026-10-28,https://www.valoraanalitik.com/lista-senadores-elegidos-congreso-colombia-2026-2030/
-O00006,A0011,B001,Senator,,G0001,,,n,,2026-10-28,https://www.valoraanalitik.com/lista-senadores-elegidos-congreso-colombia-2026-2030/
-O00007,A0012,B001,Senator,,G0001,,,n,,2026-10-28,https://www.valoraanalitik.com/lista-senadores-elegidos-congreso-colombia-2026-2030/
-O00008,A0013,B001,Senator,Pacto Histórico,G0001,,,y,wilson-néber-arias-castillo,2026-10-28,https://www.valoraanalitik.com/lista-senadores-elegidos-congreso-colombia-2026-2030/
-O00009,A0014,B001,Senator,,G0001,,,n,,2026-10-28,https://www.valoraanalitik.com/lista-senadores-elegidos-congreso-colombia-2026-2030/
-O00010,A0015,B001,Senator,,G0001,,,n,,2026-10-28,https://www.valoraanalitik.com/lista-senadores-elegidos-congreso-colombia-2026-2030/
-O00011,A0016,B001,Senator,,G0001,,,n,,2026-10-28,https://www.valoraanalitik.com/lista-senadores-elegidos-congreso-colombia-2026-2030/
-O00012,A0018,B001,Senator,,G0001,,,n,,2026-10-28,https://www.valoraanalitik.com/lista-senadores-elegidos-congreso-colombia-2026-2030/
-O00013,A0019,B001,Senator,,G0001,,,n,,2026-10-28,https://www.valoraanalitik.com/lista-senadores-elegidos-congreso-colombia-2026-2030/
-O00014,A0020,B001,Senator,,G0001,,,n,,2026-10-28,https://www.valoraanalitik.com/lista-senadores-elegidos-congreso-colombia-2026-2030/
-O00015,A0021,B001,Senator,,G0001,,,n,,2026-10-28,https://www.valoraanalitik.com/lista-senadores-elegidos-congreso-colombia-2026-2030/
-O00016,A0022,B001,Senator,,G0001,,,n,,2026-10-28,https://www.valoraanalitik.com/lista-senadores-elegidos-congreso-colombia-2026-2030/
-O00017,A0023,B001,Senator,,G0001,,,n,,2026-10-28,https://www.valoraanalitik.com/lista-senadores-elegidos-congreso-colombia-2026-2030/
-O00018,A0024,B001,Senator,Pacto Histórico,G0001,,,y,aída-yolanda-avella-esquivel,2026-10-28,https://www.valoraanalitik.com/lista-senadores-elegidos-congreso-colombia-2026-2030/
-O00019,A0025,B001,Senator,,G0001,,,n,,2026-10-28,https://www.valoraanalitik.com/lista-senadores-elegidos-congreso-colombia-2026-2030/
-O00020,A0026,B001,Senator,,G0001,,,n,,2026-10-28,https://www.valoraanalitik.com/lista-senadores-elegidos-congreso-colombia-2026-2030/
-O00021,A0027,B001,Senator,,G0001,,,n,,2026-10-28,https://www.valoraanalitik.com/lista-senadores-elegidos-congreso-colombia-2026-2030/
-O00022,A0028,B001,Senator,,G0001,,,n,,2026-10-28,https://www.valoraanalitik.com/lista-senadores-elegidos-congreso-colombia-2026-2030/
-O00023,A0029,B001,Senator,,G0001,,,n,,2026-10-28,https://www.valoraanalitik.com/lista-senadores-elegidos-congreso-colombia-2026-2030/
-O00024,A0030,B001,Senator,,G0001,,,n,,2026-10-28,https://www.valoraanalitik.com/lista-senadores-elegidos-congreso-colombia-2026-2030/
-O00025,A0034,B001,Senator,,G0001,,,n,,2026-10-28,https://www.valoraanalitik.com/lista-senadores-elegidos-congreso-colombia-2026-2030/
-O00026,A0035,B001,Senator,,G0001,,,n,,2026-10-28,https://www.valoraanalitik.com/lista-senadores-elegidos-congreso-colombia-2026-2030/
-O00027,A0037,B001,Senator,,G0001,,,n,,2026-10-28,https://www.valoraanalitik.com/lista-senadores-elegidos-congreso-colombia-2026-2030/
-O00028,A0041,B001,Senator,,G0001,,,n,,2026-10-28,https://www.valoraanalitik.com/lista-senadores-elegidos-congreso-colombia-2026-2030/
-O00029,A0043,B001,Senator,,G0001,,,n,,2026-10-28,https://www.valoraanalitik.com/lista-senadores-elegidos-congreso-colombia-2026-2030/
-O00030,A0044,B001,Senator,,G0001,,,n,,2026-10-28,https://www.valoraanalitik.com/lista-senadores-elegidos-congreso-colombia-2026-2030/
-O00031,A0045,B001,Senator,,G0001,,,n,,2026-10-28,https://www.valoraanalitik.com/lista-senadores-elegidos-congreso-colombia-2026-2030/
-O00032,A0046,B001,Senator,,G0001,,,n,,2026-10-28,https://www.valoraanalitik.com/lista-senadores-elegidos-congreso-colombia-2026-2030/
-O00033,A0047,B001,Senator,,G0001,,,n,,2026-10-28,https://www.valoraanalitik.com/lista-senadores-elegidos-congreso-colombia-2026-2030/
-O00034,A0050,B001,Senator,,G0001,,,n,,2026-10-28,https://www.valoraanalitik.com/lista-senadores-elegidos-congreso-colombia-2026-2030/
-O00035,A0052,B001,Senator,,G0001,,,n,,2026-10-28,https://www.valoraanalitik.com/lista-senadores-elegidos-congreso-colombia-2026-2030/
-O00036,A0054,B001,Senator,,G0001,,,n,,2026-10-28,https://www.valoraanalitik.com/lista-senadores-elegidos-congreso-colombia-2026-2030/
-O00037,A0058,B001,Senator,Pacto Histórico,G0004,,,y,david-ricardo-racero-mayorca,2026-10-28,https://www.valoraanalitik.com/lista-senadores-elegidos-congreso-colombia-2026-2030/
+O00001,A0006,B001,Senator,Pacto Histórico,G0001,,,y,gómez-paz-cristian-kevin,2026-10-28,https://www.senado.gov.co/index.php/el-senado/senadores
+O00002,A0007,B001,Senator,,G0001,,,n,,2026-10-28,https://www.senado.gov.co/index.php/el-senado/senadores
+O00003,A0008,B001,Senator,Pacto Histórico,G0001,,,y,cepeda-castro-iván,2026-10-28,https://www.senado.gov.co/index.php/el-senado/senadores
+O00004,A0009,B001,Senator,,G0001,,,n,,2026-10-28,https://www.senado.gov.co/index.php/el-senado/senadores
+O00005,A0010,B001,Senator,,G0001,,,n,,2026-10-28,https://www.senado.gov.co/index.php/el-senado/senadores
+O00006,A0011,B001,Senator,,G0001,,,n,,2026-10-28,https://www.senado.gov.co/index.php/el-senado/senadores
+O00007,A0012,B001,Senator,,G0001,,,n,,2026-10-28,https://www.senado.gov.co/index.php/el-senado/senadores
+O00008,A0013,B001,Senator,Pacto Histórico,G0001,,,y,arias-castillo-wilson-neber,2026-10-28,https://www.senado.gov.co/index.php/el-senado/senadores
+O00009,A0014,B001,Senator,,G0001,,,n,,2026-10-28,https://www.senado.gov.co/index.php/el-senado/senadores
+O00010,A0015,B001,Senator,,G0001,,,n,,2026-10-28,https://www.senado.gov.co/index.php/el-senado/senadores
+O00011,A0016,B001,Senator,,G0001,,,n,,2026-10-28,https://www.senado.gov.co/index.php/el-senado/senadores
+O00012,A0018,B001,Senator,,G0001,,,n,,2026-10-28,https://www.senado.gov.co/index.php/el-senado/senadores
+O00013,A0019,B001,Senator,,G0001,,,n,,2026-10-28,https://www.senado.gov.co/index.php/el-senado/senadores
+O00014,A0020,B001,Senator,,G0001,,,n,,2026-10-28,https://www.senado.gov.co/index.php/el-senado/senadores
+O00015,A0021,B001,Senator,,G0001,,,n,,2026-10-28,https://www.senado.gov.co/index.php/el-senado/senadores
+O00016,A0022,B001,Senator,,G0001,,,n,,2026-10-28,https://www.senado.gov.co/index.php/el-senado/senadores
+O00017,A0023,B001,Senator,,G0001,,,n,,2026-10-28,https://www.senado.gov.co/index.php/el-senado/senadores
+O00018,A0024,B001,Senator,Unión Patriótica,G0001,,,y,avella-esquivel-aída-yolanda,2026-10-28,https://www.senado.gov.co/index.php/el-senado/senadores
+O00019,A0025,B001,Senator,,G0001,,,n,,2026-10-28,https://www.senado.gov.co/index.php/el-senado/senadores
+O00020,A0026,B001,Senator,,G0001,,,n,,2026-10-28,https://www.senado.gov.co/index.php/el-senado/senadores
+O00021,A0027,B001,Senator,,G0001,,,n,,2026-10-28,https://www.senado.gov.co/index.php/el-senado/senadores
+O00022,A0028,B001,Senator,,G0001,,,n,,2026-10-28,https://www.senado.gov.co/index.php/el-senado/senadores
+O00023,A0029,B001,Senator,,G0001,,,n,,2026-10-28,https://www.senado.gov.co/index.php/el-senado/senadores
+O00024,A0030,B001,Senator,,G0001,,,n,,2026-10-28,https://www.senado.gov.co/index.php/el-senado/senadores
+O00025,A0034,B001,Senator,,G0001,,,n,,2026-10-28,https://www.senado.gov.co/index.php/el-senado/senadores
+O00026,A0035,B001,Senator,,G0001,,,n,,2026-10-28,https://www.senado.gov.co/index.php/el-senado/senadores
+O00027,A0037,B001,Senator,,G0001,,,n,,2026-10-28,https://www.senado.gov.co/index.php/el-senado/senadores
+O00028,A0041,B001,Senator,,G0001,,,n,,2026-10-28,https://www.senado.gov.co/index.php/el-senado/senadores
+O00029,A0043,B001,Senator,,G0001,,,n,,2026-10-28,https://www.senado.gov.co/index.php/el-senado/senadores
+O00030,A0044,B001,Senator,,G0001,,,n,,2026-10-28,https://www.senado.gov.co/index.php/el-senado/senadores
+O00031,A0045,B001,Senator,,G0001,,,n,,2026-10-28,https://www.senado.gov.co/index.php/el-senado/senadores
+O00032,A0046,B001,Senator,,G0001,,,n,,2026-10-28,https://www.senado.gov.co/index.php/el-senado/senadores
+O00033,A0047,B001,Senator,,G0001,,,n,,2026-10-28,https://www.senado.gov.co/index.php/el-senado/senadores
+O00034,A0050,B001,Senator,,G0001,,,n,,2026-10-28,https://www.senado.gov.co/index.php/el-senado/senadores
+O00035,A0052,B001,Senator,,G0001,,,n,,2026-10-28,https://www.senado.gov.co/index.php/el-senado/senadores
+O00036,A0054,B001,Senator,,G0001,,,n,,2026-10-28,https://www.senado.gov.co/index.php/el-senado/senadores
+O00037,A0058,B001,Senator,Pacto Histórico,G0004,,,y,racero-mayorca-david-ricardo,2026-10-28,https://www.senado.gov.co/index.php/el-senado/senadores
 O00038,A0031,B002,Representative,,G0002,,,n,,2026-10-28,https://www.camara.gov.co/representantes
 O00039,A0032,B002,Representative,,G0022,,,n,,2026-10-28,https://www.camara.gov.co/representantes
 O00040,A0033,B002,Representative,,G0004,,,n,,2026-10-28,https://www.camara.gov.co/representantes
@@ -49,4 +49,3 @@ O00047,A0049,B002,Representative,,G0002,,,n,,2026-10-28,https://www.camara.gov.c
 O00048,A0051,B002,Representative,,G0004,,,n,,2026-10-28,https://www.camara.gov.co/representantes
 O00049,A0053,B002,Representative,,G0006,,,n,,2026-10-28,https://www.camara.gov.co/representantes
 O00050,A0055,B002,Representative,,G0002,,,n,,2026-10-28,https://www.camara.gov.co/representantes
-O00051,A0058,B002,Representative,,G0004,,,n,,2026-10-28,https://www.camara.gov.co/representantes
