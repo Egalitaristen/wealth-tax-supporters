@@ -1231,6 +1231,22 @@ def australia():
                     "76 seats, twelve for each state and two each for the Australian Capital Territory and the Northern Territory. Who sits and their party are from the Parliament's own list of senators (aph.gov.au), read in a browser. Unlit seats mean nothing found, never opposition.", surl, 70)]
 
 
+def egypt():
+    """The House of Representatives (596 seats): parliament.gov.eg/members.aspx lists the members in office (name and membership type, no party), read once
+    in a browser and passed with --local (see skill/references/countries/eg.md): rows of [short name in Arabic, "", membership type (Individual, List
+    or Appointed), member id, full name]. Seats are grouped by how they were filled, because the site gives no party. The Senate has no list yet."""
+    url = "https://www.parliament.gov.eg/members.aspx"
+    rows = get(url)
+    members = [dict(name=r[0], party=r[2], ref=r[3], place="", start="", url=f"https://www.parliament.gov.eg/MembersDetails.aspx?id={r[3]}") for r in rows]
+    if len(members) < 550:
+        sys.exit(f"Egypt: read {len(members)} members, expected about 595; save the list again (see the Egypt guide)")
+    return [dict(name="House of Representatives", level="national", seats=596, source_url=url,
+                 note="596 seats: 284 individual, 284 list and 28 appointed by the President, elected in late 2025. Who sits is from the House's own list of members in office (parliament.gov.eg); the site gives names in Arabic and the way each seat was filled, not the party, so seats are grouped that way. Unlit seats mean nothing found, never opposition.",
+                 role="Member of Parliament", role_re=r"(?i)member of parliament|house of representatives|مجلس النواب", role_start=r"(?i)member of parliament",
+                 members=members, former=[], party_order=["List", "Individual", "Appointed"],
+                 colours={"List": "1a5fb4", "Individual": "e07a1f", "Appointed": "8a8680"})]
+
+
 def european_parliament():
     """The European Parliament (720 seats): data.europarl.europa.eu open data (sitting MEPs, their country and political group).
     Run `seats.py data/eu`: supporters are matched across every country register, by the MEP's own country."""
@@ -1398,7 +1414,7 @@ def scottish_parliament():
 _ADAPTERS_LOWER = {"nz": new_zealand, "se": sweden, "de": germany, "nl": netherlands, "no": norway, "fr": france, "br": brazil, "ca": canada, "es": spain, "pl": poland, "be": belgium, "in": india, "jp": japan, "my": malaysia, "sg": singapore, "id": indonesia, "ng": nigeria, "cn": china, "scottish_parliament": scottish_parliament, "european_parliament": european_parliament, "eu": european_parliament, "un": united_nations, "au": pan_african_parliament, "za": south_africa, "ie": ireland, "it": italy, "mx": mexico, "ar": argentina, "co": colombia, "fi": finland, "kr": south_korea}
 # countries that chart two chambers chain their adapters; the others return one
 ADAPTERS = dict(_ADAPTERS_LOWER, nl=lambda: netherlands() + netherlands_senate(), za=lambda: south_africa() + south_africa_ncop(),
-                  ca=lambda: canada() + canada_senate(), australia=australia)
+                  ca=lambda: canada() + canada_senate(), australia=australia, eg=egypt)
 
 
 def main():

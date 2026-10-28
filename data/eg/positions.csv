@@ -1,1 +1,3 @@
 position_id,actor_id,body_id,role,party,geo_unit_id,start,end,current,member_ref,checked,source_url
+O00001,A0013,B0001,Member of Parliament,,G0008,,,n,,2026-10-28,https://www.parliament.gov.eg/members.aspx
+O00002,A0016,B0001,Member of Parliament,,G0011,,,n,,2026-10-28,https://www.parliament.gov.eg/members.aspx
