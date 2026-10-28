@@ -92,6 +92,7 @@ Each run reads the folder (`status`, `notes_next`), picks the top of the plan, w
 3. thin cells in the coverage grid (actor type × level)
 4. upgrades of C- and B-graded actors (look for a vote, a signed letter, a specified design; leave the old evidence in place)
 5. snowballing: follow co-authors, co-signatories, coalition members, their organisation and party outwards
+5a. the seat sweep (`refine/SKILL.md` section 6): where the country has a Seats tab, search the name of each sitting member who is not in the register, parties with logged supporters first (`seat_sweep.py data/<iso2>`)
 6. regional and local units, as decided in 6.5
 7. retractions: for prominent supporters, check whether they have since retracted
 
