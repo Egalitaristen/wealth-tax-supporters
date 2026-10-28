@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 """Refresh a country's legislature seats from the parliament's own open member list.
 
-Usage: python skill/scripts/seats.py data/<iso2> [--adapter NAME] [--dry-run] [--fix-status] [--local URL=FILE]      (iso2 = ar, co, fi, se, de, nl, no, fr, br, ca, es, pl, be, in, jp, my, sg, id, ng, cn, nz, za; un for the UN General Assembly; au for the Pan-African Parliament)
+Usage: python skill/scripts/seats.py data/<iso2> [--adapter NAME] [--dry-run] [--fix-status] [--local URL=FILE]      (iso2 = ar, co, fi, kr, se, de, nl, no, fr, br, ca, es, pl, be, in, jp, my, sg, id, ng, cn, nz, za; un for the UN General Assembly; au for the Pan-African Parliament)
 
 For the UK and the US use seats_uk.py and seats_us.py (richer sources). This script holds one small adapter per
 country (the ADAPTERS table at the end): each reads the parliament's open data and returns its chambers, the sitting
@@ -84,6 +84,8 @@ def match(actor, members, by_q, by_norm, strict=False, deny=()):
     """(member, how) for the one member this actor is, or (None, ''). how: qid, exact, or fuzzy (reported for you to check)."""
     if actor["wikidata_qid"] and actor["wikidata_qid"] in by_q:
         return by_q[actor["wikidata_qid"]], "qid"
+    if norm(actor["name"]) in deny:  # a name an adapter says is a different person from the member with the same words (a namesake)
+        return None, ""
     cj = re.sub(r"\s", "", actor["name"])  # a name in kanji after the Latin one: 小池晃
     for m in members:
         if m.get("cjk") and m["cjk"] in cj:
@@ -91,8 +93,6 @@ def match(actor, members, by_q, by_norm, strict=False, deny=()):
     n = norm(actor["name"])
     if n in by_norm and len(by_norm[n]) == 1:
         return by_norm[n][0], "exact"
-    if n in deny:  # a name an adapter says is a different person from the member with the same words (a namesake)
-        return None, ""
     toks = n.split()
     if len(toks) >= 2:
         # same words in another order, or extra given names: every word of the shorter name is in the longer
@@ -1064,6 +1064,35 @@ def finland():
                  role_start=r"(?i)member of parliament", members=members, former=[], party_order=order, colours=colours)]
 
 
+def south_korea():
+    """The National Assembly (300 seats, 22nd Assembly): the member search of the Assembly's open-information portal (open.assembly.go.kr), the
+    same list its public search page shows (299 members; a vacancy shows as Vacant). Ministers who keep their seat, as Korean law allows, are on it.
+    Only the name, party and constituency are read: never the age, phone, e-mail or staff the service also returns. Each member's Hangul name is kept
+    so that supporters are matched by the Hangul in their register name."""
+    PARTY = {"더불어민주당": "Democratic Party of Korea", "국민의힘": "People Power Party", "조국혁신당": "Rebuilding Korea Party", "개혁신당": "Reform Party",
+             "진보당": "Progressive Party", "기본소득당": "Basic Income Party", "사회민주당": "Social Democratic Party", "무소속": "Independent",
+             "새로운미래": "New Future Party", "정의당": "Justice Party"}
+    req = urllib.request.Request("https://open.assembly.go.kr/portal/assm/search/searchAssmMemberSch.do", data=b"rows=400&page=1",
+                                 headers={**UA, "X-Requested-With": "XMLHttpRequest", "Referer": "https://open.assembly.go.kr/portal/assm/search/memberSchPage.do"})
+    rows = json.loads(urllib.request.urlopen(req, timeout=120).read())["data"]
+    members = [dict(name=f"{r['engNm'].title()} ({r['hgNm']})" if r.get("engNm") else r["hgNm"], cjk=r["hgNm"], party=PARTY.get(r["polyNm"], r["polyNm"]), ref=r["monaCd"],
+                    place=r["origNm"], start="", url="https://open.assembly.go.kr/portal/assm/search/memberSchPage.do") for r in rows]
+    if len(members) < 280:
+        sys.exit(f"South Korea: read {len(members)} members, expected about 299; the service has changed, check the adapter")
+    count = {}
+    for m in members:
+        count[m["party"]] = count.get(m["party"], 0) + 1
+    order = sorted(count, key=lambda p: -count[p])
+    colours = {"Democratic Party of Korea": "1a5fb4", "People Power Party": "e11931", "Rebuilding Korea Party": "1f8f4e", "Reform Party": "e07a1f",
+               "Progressive Party": "bf1e2e", "Basic Income Party": "62b04b", "Social Democratic Party": "f2c230", "Independent": "8a8680"}
+    return [dict(name="National Assembly", level="national", seats=300, source_url="https://open.assembly.go.kr/portal/assm/search/memberSchPage.do",
+                 note="300 seats (254 by district and 46 by proportional representation), 22nd Assembly, elected 10 April 2024. Who sits and their party are from the Assembly's open-information portal (its member search); ministers who keep their seat are included, and a seat with no member is shown as Vacant. Unlit seats mean nothing found, never opposition.",
+                 role="Member of the National Assembly", role_re=r"(?i)national assembly member|assemblyman|assemblywoman",
+                 role_start=r"(?i)national assembly member", members=members, former=[], party_order=order,
+                 colours={p: colours.get(p, "8a8680") for p in order},
+                 fuzzy_deny=("Kim Jong-min",))]  # the 2020 Minjung Party candidate is not the sitting independent member of the same name
+
+
 def european_parliament():
     """The European Parliament (720 seats): data.europarl.europa.eu open data (sitting MEPs, their country and political group).
     Run `seats.py data/eu`: supporters are matched across every country register, by the MEP's own country."""
@@ -1228,7 +1257,7 @@ def scottish_parliament():
 
 
 
-ADAPTERS = {"nz": new_zealand, "se": sweden, "de": germany, "nl": netherlands, "no": norway, "fr": france, "br": brazil, "ca": canada, "es": spain, "pl": poland, "be": belgium, "in": india, "jp": japan, "my": malaysia, "sg": singapore, "id": indonesia, "ng": nigeria, "cn": china, "scottish_parliament": scottish_parliament, "european_parliament": european_parliament, "eu": european_parliament, "un": united_nations, "au": pan_african_parliament, "za": south_africa, "ie": ireland, "it": italy, "mx": mexico, "ar": argentina, "co": colombia, "fi": finland}
+ADAPTERS = {"nz": new_zealand, "se": sweden, "de": germany, "nl": netherlands, "no": norway, "fr": france, "br": brazil, "ca": canada, "es": spain, "pl": poland, "be": belgium, "in": india, "jp": japan, "my": malaysia, "sg": singapore, "id": indonesia, "ng": nigeria, "cn": china, "scottish_parliament": scottish_parliament, "european_parliament": european_parliament, "eu": european_parliament, "un": united_nations, "au": pan_african_parliament, "za": south_africa, "ie": ireland, "it": italy, "mx": mexico, "ar": argentina, "co": colombia, "fi": finland, "kr": south_korea}
 
 
 def main():

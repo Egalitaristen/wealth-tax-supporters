@@ -1,1 +1,10 @@
 seat_id,body_id,party,seats,colour,order
+S0001,B0001,Democratic Party of Korea,161,1a5fb4,1
+S0002,B0001,People Power Party,109,e11931,2
+S0003,B0001,Rebuilding Korea Party,12,1f8f4e,3
+S0004,B0001,Independent,8,8a8680,4
+S0005,B0001,Progressive Party,4,bf1e2e,5
+S0006,B0001,Reform Party,3,e07a1f,6
+S0007,B0001,Basic Income Party,1,62b04b,7
+S0008,B0001,Social Democratic Party,1,f2c230,8
+S0009,B0001,Vacant,1,,9
