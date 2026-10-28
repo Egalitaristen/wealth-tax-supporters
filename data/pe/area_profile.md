@@ -19,3 +19,6 @@ A broad web sample for Lima, Arequipa, Cusco, Trujillo and Piura returned no con
 
 ## R003: Party programmes
 [Juntos por el Perú’s 2021 plan](https://bitacora.jomra.es/wp-content/uploads/2021/02/pg21_juntosporelperu.pdf) calls for a wealth tax, and its [2026 plan](https://mpesije.jne.gob.pe/docs/3dd0e649-061c-4f31-8c3f-7a0836b58bde.pdf) calls for one during a crisis. The [Partido Morado 2026 programme](https://www.elmalmenor.com/docs/planes/Partido_Morado.pdf) specifies 1% on wealth exceeding US$5 million. These programmes support the organisations; they do not by themselves establish individual candidate positions. The official open-data portal for district codes returned HTTP 403; the independently compiled geography has not yet been checked against the official list.
+
+## R004: Original bills
+The scanned [bill 06615](https://www.leyes.congreso.gob.pe/Documentos/2016_2021/Proyectos_de_Ley_y_de_Resoluciones_Legislativas/PL06615-20201105.pdf) taxes net wealth and its signature page was visually checked against the [author index](https://jeqo.github.io/peru-congreso/proyectos-ley/2016-2021/06600/06615/). The scanned [bill 4887](https://www.leyes.congreso.gob.pe/Documentos/2016_2021/Proyectos_de_Ley_y_de_Resoluciones_Legislativas/PL04887_20200324.pdf) instead sets income or real-estate thresholds; its sponsor is excluded on that evidence.
