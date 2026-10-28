@@ -1,6 +1,6 @@
 ---
-name: wealth-tax-supporters
-description: Build or extend a sourced database of the people, organisations and institutions in a country, region or supranational area that publicly support actual wealth taxation since 2010. Goal-first: find the most prominent supporters across every layer, with verifiable evidence and honest coverage notes, then plan the next runs. Use when asked to add a country, or to find, update, check or export wealth tax supporters for any area.
+name: wealth-tax-supporters-research-country
+description: Research run for the Wealth Tax Supporters register: find NEW supporters of an actual wealth tax in a country, region or supranational area (people, organisations, institutions, since 2010), with a dated source and quote for each, and add the country if it is not in `data/` yet. Goal-first: the most prominent supporters across every layer, honest coverage notes, then a plan for the next runs. Use when asked to add a country, research, discover or find wealth tax supporters, extend a register with new names, or check or export one. To improve supporters already in a register (links, places, more statements, status, seat sweep) use `wealth-tax-supporters-refine-country` instead.
 ---
 
 # Wealth Tax Supporters

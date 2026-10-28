@@ -1,11 +1,11 @@
 ---
-name: wealth-tax-supporters-refine
-description: Refine the supporters already in one country's register of the Wealth Tax Supporters database. For each supporter, in order: add their official website and public social accounts, place them as precisely as public sources allow, add up to three more sourced statements (stronger grades and recent ones first), and check that their support is still current. Also covers the seat sweep: searching the name of every sitting member of a country's parliament, party by party, for support not yet logged. Use when asked to refine, enrich, deepen, update or improve an existing country, to add links, locations or more sources for its supporters, or to sweep its parliament for missed supporters.
+name: wealth-tax-supporters-refine-country
+description: Refinement run for the Wealth Tax Supporters register: improve EVERY supporter already in one country's register, wealthy individuals and business leaders included. For each supporter, in order: add their official website and public social accounts, place them as precisely as public sources allow, add up to three more sourced statements (stronger grades and recent ones first), and check that their support is still current. Also covers the seat sweep: searching the name of every sitting member of a country's parliament, party by party, for support not yet logged. Use when asked to refine, enrich, deepen, update, clean up or improve an existing country, to add links, locations or more sources for its supporters, or to sweep its parliament for missed supporters. To find new supporters or add a country use `wealth-tax-supporters-research-country` instead.
 ---
 
 # Refine a country's supporters
 
-The research skill (`skill/SKILL.md`) finds supporters. This skill makes each entry better: easier to reach, better placed, better sourced and still true. It works on supporters who are already in `data/<iso2>/`; it does not look for new ones (that is a research run), with one exception: the seat sweep in section 6, where the parliament's own member list is what supplies the names.
+The research skill (`skill/SKILL.md`, named `wealth-tax-supporters-research-country`) finds supporters. This skill makes each entry better: easier to reach, better placed, better sourced and still true. It works on supporters who are already in `data/<iso2>/`; it does not look for new ones (that is a research run), with one exception: the seat sweep in section 6, where the parliament's own member list is what supplies the names.
 
 **The rules of `skill/SKILL.md` apply unchanged**: what counts as a wealth tax (section 2), the grades (3), who may be recorded (1 and 4), the file formats and controlled values (5). Read sections 1 to 5 before the first run. This file only adds the refinement workflow.
 
@@ -43,7 +43,9 @@ A visitor who finds a supporter should be able to reach them. Add to `profiles.c
 - the **public social accounts they run in their public role**: X, Bluesky, Mastodon, Instagram, Facebook, YouTube, TikTok, LinkedIn, Substack;
 - their **parliament or party page**, and **Wikipedia**.
 
-Find accounts where the person or organisation links them: the header or footer of their website, their parliament or party profile, their organisation's page. A name search on a platform is not a source: the account must be linked from a page they control or one that lists them officially (Wikidata or a parliament counts). `source` is the page where you found the link and `checked` the date. Only https links. Skip private accounts, and skip links for people who are on the register only as signatories of a list and hold no public role.
+Find accounts where the person or organisation links them: the header or footer of their website, their parliament or party profile, their organisation's page. A name search on a platform is not a source: the account must be linked from a page they control or one that lists them officially (Wikidata or a parliament counts). `source` is the page where you found the link and `checked` the date. Only https links. Skip private accounts.
+
+**Nobody is left out of refinement.** Every supporter in the batch gets this step, wealthy individuals, business leaders and signatories of a list included: they backed the tax in public, and a reader should be able to reach their public pages like anyone else's (their company or foundation page, a press profile, Wikipedia, Wikidata, the accounts they run publicly). Rank, wealth and the lack of a formal role are not reasons to skip. If a search finds nothing public, say so in the run log with what you tried; do not skip silently. The limits are on what is recorded, not on whom: accounts run in a public role only, and no private accounts, home addresses or anything that locates a home (3.2).
 
 ### 3.2 Place
 Put each supporter in the finest place a public source shows, and record that source in `location_source`:
