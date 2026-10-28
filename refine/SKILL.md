@@ -35,7 +35,7 @@ Spot-check a handful of what `match_wikidata.py` filled (the description should 
 
 ## 3. Each supporter, in this order
 
-Work through the batch one supporter at a time and write to the files as you go (`wtdb.py add`, `wtdb.py set`). Spend a few tool calls on each, not a long search: take what the sources readily give and move on.
+Work through the batch one supporter at a time and write to the files as you go (`wtdb.py add`, `wtdb.py set`). Spend a few tool calls on each, not a long search: take what the sources readily give and move on. The exception is a supporter you cannot yet identify (see 3.1, *Identify first*): give each of those 15 to 20 calls.
 
 ### 3.1 Links (most important)
 A visitor who finds a supporter should be able to reach them. Add to `profiles.csv`:
@@ -44,6 +44,14 @@ A visitor who finds a supporter should be able to reach them. Add to `profiles.c
 - their **parliament or party page**, and **Wikipedia**.
 
 Find accounts where the person or organisation links them: the header or footer of their website, their parliament or party profile, their organisation's page. A name search on a platform is not a source: the account must be linked from a page they control or one that lists them officially (Wikidata or a parliament counts). `source` is the page where you found the link and `checked` the date. Only https links. Skip private accounts.
+
+**Identify first.** Some supporters are on the register with little more than a name and a province, typically signers of a public letter (the Patriotic Millionaires letters list "Name (ON)" and nothing else). A link is only worth adding once you know which person it is, so for these the work is identifying them, and it takes more than a few calls. Try, in this order:
+1. the campaign's own pages: signer lists with bios, member pages and press releases (for Patriotic Millionaires, `millionairesforhumanity.org/the-millionaires/`, `patrioticmillionaires.org` and the national site);
+2. press that names members (national papers, local and trade press, the campaign's interviews);
+3. official registers where the country has them (a lobbyist registry, a company or charity register, a parliament's witness lists);
+4. the name with the province and a typical role (founder, CEO, investor, philanthropist, doctor, lawyer), company and foundation pages, university pages, and LinkedIn.
+
+A LinkedIn profile is acceptable when it clearly matches: same province, a role that fits, and ideally a mention of the campaign, the tax or tax fairness. A common name with nothing that ties a page to the signer is not a match: do not guess, and write down what you tried and which candidates you rejected, so the next run does not start again. Give each of these supporters 15 to 20 calls; the "few calls" rule is for people who are already identified.
 
 **Nobody is left out of refinement.** Every supporter in the batch gets this step, wealthy individuals, business leaders and signatories of a list included: they backed the tax in public, and a reader should be able to reach their public pages like anyone else's (their company or foundation page, a press profile, Wikipedia, Wikidata, the accounts they run publicly). Rank, wealth and the lack of a formal role are not reasons to skip. If a search finds nothing public, say so in the run log with what you tried; do not skip silently. The limits are on what is recorded, not on whom: accounts run in a public role only, and no private accounts, home addresses or anything that locates a home (3.2).
 
