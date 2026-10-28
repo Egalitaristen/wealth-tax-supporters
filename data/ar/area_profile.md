@@ -31,3 +31,6 @@ Added the chambers, seats and positions from the two official lists of sitting m
 
 ## R008 — seat sweep trial, 2026-10-28
 Searched the first 20 sitting deputies of Unión por la Patria not yet in the register by name (queries.csv, channel seat_sweep). One supporter found (Blanca Osuna, her own statement on the Aporte Solidario of 18 November 2020). The 2020 roll calls of the Chamber and the Senate on the levy are the better source and are logged as lead D0003, with two former deputies (D0001, D0002).
+
+## R009 — roll call, 2026-10-28
+Matched the Senate's official roll call of 4 December 2020 on the Aporte Solidario y Extraordinario (acta 1257: 42 for, 26 against) to the 72 senators who sit today: six voted for it and are added with the vote as evidence (grade A, one-off levy), each quoted from their own entry in the list. The Chamber of Deputies roll call of 18 November 2020 (133 for) could not be read: the Chamber's voting site times out from here, its open-data vote files stop in 2018 and the transcript has no appendix with the lists. It stays open as lead D0003. Former senators and deputies who voted for the levy are not recorded in this pass; they are supporters too and can be added from the same lists.
