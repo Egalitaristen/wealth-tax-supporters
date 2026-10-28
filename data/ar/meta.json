@@ -1,0 +1,8 @@
+{
+  "name": "Argentina",
+  "iso2": "AR",
+  "lead": "Egalitaristen",
+  "status": "in progress",
+  "boundaries": "boundaries.json",
+  "notes": "Seed research: national, provincial and sampled municipal sources. The map covers all 2,280 Georef local governments: 2,064 with IGN polygons and 216 with Georef location markers where boundaries are unavailable. Local research remains incomplete."
+}

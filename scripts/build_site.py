@@ -392,7 +392,7 @@ def build_country(folder):
                     above, near = others, re.sub(r"\s*\(.*$", "", by_id[anc]["name"]).strip()
                 anc = by_id[anc].get("parent_id")
             C.append([re.sub(r"\s*\(.*$", "", g["name"]).strip(), u.get("code", ""), state, g["sweep_status"], g["hits"],
-                      "", ids, u["path"], up_index(g), above, near])
+                      "", ids, u["path"], up_index(g), above, near, bool(u.get("point"))])
     O = []
     for g in geo:
         uid = g["geo_unit_id"]

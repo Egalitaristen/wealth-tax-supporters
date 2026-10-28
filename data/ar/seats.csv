@@ -1,0 +1,43 @@
+seat_id,body_id,party,seats,colour,order
+S0001,B0001,La Libertad Avanza,95,6aa4d8,1
+S0002,B0001,Unión por la Patria,92,f2c230,2
+S0003,B0001,Provincias Unidas,18,8b1a1a,3
+S0004,B0001,Pro,12,1f8f4e,4
+S0005,B0001,Argentina Federal,9,e07a1f,5
+S0006,B0001,Ucr - Unión Cívica Radical,6,2aa5c9,6
+S0007,B0001,Elijo Catamarca,3,c9a227,7
+S0008,B0001,Independencia,3,9a6fb0,8
+S0009,B0001,Primero San Luis,2,62b04b,9
+S0010,B0001,Pts-Frente de Izquierda y de Trabajadores Unidad,2,d36b8f,10
+S0011,B0001,Mid - Movimiento de Integración y Desarrollo,2,8a8680,11
+S0012,B0001,Coalicion Civica,2,8a8680,12
+S0013,B0001,Produccion y Trabajo,2,8a8680,13
+S0014,B0001,Encuentro Federal,2,8a8680,14
+S0015,B0001,Adelante Buenos Aires,1,8a8680,15
+S0016,B0001,Defendamos Córdoba,1,8a8680,16
+S0017,B0001,Partido Obrero En El Frente de Izquierda y de Trabajadores-Unidad,1,8a8680,17
+S0018,B0001,Por Santa Cruz,1,8a8680,18
+S0019,B0001,Izquierda Socialista - Frente de Izquierda Unidad,1,8a8680,19
+S0020,B0001,La Neuquinidad,1,8a8680,20
+S0021,B0001,Coherencia,1,8a8680,21
+S0022,B0002,Alianza la Libertad Avanza,17,6aa4d8,1
+S0023,B0002,Alianza Unión por la Patria,11,f2c230,2
+S0024,B0002,Juntos por el Cambio,10,8b1a1a,3
+S0025,B0002,Frente de Todos,6,1f8f4e,4
+S0026,B0002,Fuerza Patria,4,e07a1f,5
+S0027,B0002,Frente Renovador de la Concordia-Innovación Federal,2,2aa5c9,6
+S0028,B0002,Partido Renovador Federal,2,c9a227,7
+S0029,B0002,Alianza por Santa Cruz,2,9a6fb0,8
+S0030,B0002,Juntos por el Cambio Chubut,2,62b04b,9
+S0031,B0002,Frente Cambia Mendoza,2,d36b8f,10
+S0032,B0002,Alianza Frente de Todos,2,8a8680,11
+S0033,B0002,Frente Cívico por Santiago,2,8a8680,12
+S0034,B0002,Eco + Vamos Corrientes,2,8a8680,13
+S0035,B0002,Fuerza Entre Ríos,1,8a8680,14
+S0036,B0002,La Neuquinidad,1,8a8680,15
+S0037,B0002,Frente Todos,1,8a8680,16
+S0038,B0002,Justicialista,1,8a8680,17
+S0039,B0002,Frente Fuerza Patria Peronista,1,8a8680,18
+S0040,B0002,Primero Los Salteños,1,8a8680,19
+S0041,B0002,Hacemos por Córdoba,1,8a8680,20
+S0042,B0002,Vacant,1,,21

@@ -1,0 +1,5 @@
+# Argentina (data/ar)
+
+- **Seats**: `python skill/scripts/seats.py data/ar` reads the two official lists of sitting members, the Cámara de Diputados (257, https://www.diputados.gob.ar/diputados/) and the Senado de la Nación (72, https://www.senado.gob.ar/senadores/listados/listaSenadoRes). Seats are shown by bloc, as the chamber lists them. Run it again after each election (half the Chamber and a third of the Senate are renewed every two years) and whenever politicians are added; read the "not on today's list" lines, because a supporter may now sit in the other chamber (as Lucía Corpacci and Martín Soria do).
+- **Geography**: 2,280 local governments (INDEC codes via Georef). Polygons come from the IGN's "Gobierno Local" layer (https://www.ign.gob.ar/capas-sig/metadata/municipio.pdf), whose metadata sheet says: free use of the information with proper citation of the IGN. Governments the layer does not cover are drawn as location markers from the Georef service.
+- **Provincial and local bodies**: the Córdoba legislature and the Bariloche council have a body row and positions but no seat chart (no machine-readable member list was found).
