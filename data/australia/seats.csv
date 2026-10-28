@@ -1,1 +1,21 @@
 seat_id,body_id,party,seats,colour,order
+S0001,B0002,Labor,94,e11931,1
+S0002,B0002,Liberal,17,1c4f9c,2
+S0003,B0002,Liberal National Party,16,0a3a7a,3
+S0004,B0002,Independent,10,8a8680,4
+S0005,B0002,Nationals,8,f2c230,5
+S0006,B0002,One Nation,2,f28c1f,6
+S0007,B0002,Katter's Australian Party,1,b5461f,7
+S0008,B0002,Centre Alliance,1,e07a1f,8
+S0009,B0002,Greens,1,10a64a,9
+S0010,B0001,Labor,30,e11931,1
+S0011,B0001,Liberal,21,1c4f9c,2
+S0012,B0001,Greens,10,10a64a,3
+S0013,B0001,One Nation,4,f28c1f,4
+S0014,B0001,Nationals,3,f2c230,5
+S0015,B0001,Liberal National Party,2,0a3a7a,6
+S0016,B0001,Independent,2,8a8680,7
+S0017,B0001,United Australia Party,1,e8c32a,8
+S0018,B0001,Jacqui Lambie Network,1,7a5ab3,9
+S0019,B0001,Country Liberal Party,1,c9a227,10
+S0020,B0001,Australia's Voice,1,2aa5c9,11
