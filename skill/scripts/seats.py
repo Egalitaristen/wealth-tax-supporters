@@ -1247,6 +1247,43 @@ def egypt():
                  colours={"List": "1a5fb4", "Individual": "e07a1f", "Appointed": "8a8680"})]
 
 
+def malaysia_senate():
+    """The Dewan Negara (70 seats): parlimen.gov.my/ahli-dewan-dn.html. The page refuses scripts, so it is read in a browser and passed with --local
+    (see the Malaysia guide): rows of [name, "", party, how the seat was filled]. Seats the page does not name are shown as Vacant."""
+    rows = get("https://www.parlimen.gov.my/ahli-dewan-dn.html?uweb=dn&")
+    members = [dict(name=re.sub(r"^(Dato'? Sri|Datuk Seri|Dato'|Datuk|Tan Sri|Dr\.|Tuan Haji|Puan|Tuan)\s+", "", r[0]), party=r[2], ref="", place=r[3], start="", url="https://www.parlimen.gov.my/ahli-dewan-dn.html?uweb=dn&") for r in rows]
+    if len(members) < 40:
+        sys.exit(f"Dewan Negara: read {len(members)} members, expected about 56 to 70; save the list again (see the Malaysia guide)")
+    count = {}
+    for m in members:
+        count[m["party"]] = count.get(m["party"], 0) + 1
+    order = sorted(count, key=lambda p: -count[p])
+    return [dict(name="Dewan Negara", level="national", seats=70, source_url="https://www.parlimen.gov.my/ahli-dewan-dn.html?uweb=dn&",
+                 note="70 seats: 26 elected by the state assemblies (two each) and 44 appointed by the Yang di-Pertuan Agong. Who sits and their party are from the Dewan Negara's own list of members (parlimen.gov.my), 56 of whom were named on 28 October 2026; the other seats show as Vacant. Unlit seats mean nothing found, never opposition.",
+                 role="Senator", role_re=r"(?i)dewan negara|\bsenator\b", role_start=r"(?i)senator", members=members, former=[], party_order=order,
+                 colours={"PKR": "1a95b8", "UMNO": "e11931", "PAS": "10733c", "DAP": "d2232a", "PBB": "f2c230", "AMANAH": "f28c1f", "PROFESIONAL": "8a8680", "No party": "8a8680"})]
+
+
+def nigeria_senate():
+    """The Senate of Nigeria (109 seats): nass.gov.ng/mps/senators, the list its own page shows (74 senators on 28 October 2026; the page does
+    not name the others). The page is a JavaScript table, so it is read in a browser and passed with --local (see the Nigeria guide): rows of
+    [name, state, district, party, id]."""
+    rows = get("https://www.nass.gov.ng/mps/senators")
+    members = [dict(name=re.sub(r"\s+", " ", re.sub(r"^Sen\.\s*", "", r[0])).strip(), party=r[3], ref=r[4], place=f"{r[2]}, {r[1]}", start="",
+                    url="https://www.nass.gov.ng/mps/senators") for r in rows]
+    if len(members) < 60:
+        sys.exit(f"Senate of Nigeria: read {len(members)} senators, expected about 74 to 109; save the list again (see the Nigeria guide)")
+    count = {}
+    for m in members:
+        count[m["party"]] = count.get(m["party"], 0) + 1
+    order = sorted(count, key=lambda p: -count[p])
+    return [dict(name="Senate of Nigeria", level="national", seats=109, source_url="https://www.nass.gov.ng/mps/senators",
+                 note="109 seats: three for each of the 36 states and one for the Federal Capital Territory. Who sits and their party are from the Senate's own list of senators (nass.gov.ng), which named 74 on 28 October 2026; the other seats show as 'Not named on the Senate's page', not as vacant. Unlit seats mean nothing found, never opposition.",
+                 role="Senator", role_re=r"(?i)senate of nigeria|nigerian senat|\bsenator\b", role_start=r"(?i)senator", members=members, former=[], party_order=order,
+                 vacant_label="Not named on the Senate's page",
+                 colours={"APC": "1d7a3a", "PDP": "d62828", "LP": "2a9d8f", "SDP": "6a4c93", "APGA": "3a86ff", "ADP": "8a8680"})]
+
+
 def european_parliament():
     """The European Parliament (720 seats): data.europarl.europa.eu open data (sitting MEPs, their country and political group).
     Run `seats.py data/eu`: supporters are matched across every country register, by the MEP's own country."""
@@ -1414,7 +1451,8 @@ def scottish_parliament():
 _ADAPTERS_LOWER = {"nz": new_zealand, "se": sweden, "de": germany, "nl": netherlands, "no": norway, "fr": france, "br": brazil, "ca": canada, "es": spain, "pl": poland, "be": belgium, "in": india, "jp": japan, "my": malaysia, "sg": singapore, "id": indonesia, "ng": nigeria, "cn": china, "scottish_parliament": scottish_parliament, "european_parliament": european_parliament, "eu": european_parliament, "un": united_nations, "au": pan_african_parliament, "za": south_africa, "ie": ireland, "it": italy, "mx": mexico, "ar": argentina, "co": colombia, "fi": finland, "kr": south_korea}
 # countries that chart two chambers chain their adapters; the others return one
 ADAPTERS = dict(_ADAPTERS_LOWER, nl=lambda: netherlands() + netherlands_senate(), za=lambda: south_africa() + south_africa_ncop(),
-                  ca=lambda: canada() + canada_senate(), australia=australia, eg=egypt)
+                  ca=lambda: canada() + canada_senate(), australia=australia, eg=egypt,
+                  ng=lambda: nigeria() + nigeria_senate(), malaysia_senate=malaysia_senate)  # the Dewan Rakyat needs its own saved page: run the Dewan Negara with --adapter malaysia_senate
 
 
 def main():

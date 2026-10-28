@@ -1,2 +1,3 @@
 body_id,name,level,kind,seats,as_of,source_url,seat_view,notes
 B0001,Dewan Rakyat,national,chamber,222,2026-10-25,https://www.parlimen.gov.my/ahli-dewan.html?uweb=dr&,y,"222 seats; parties shown by coalition as the Dewan lists them (PH, BN, PN, GPS…); unfilled seats show as Vacant."
+B0002,Dewan Negara,national,chamber,70,2026-10-28,https://www.parlimen.gov.my/ahli-dewan-dn.html?uweb=dn&,y,"70 seats: 26 elected by the state assemblies (two each) and 44 appointed by the Yang di-Pertuan Agong. Who sits and their party are from the Dewan Negara's own list of members (parlimen.gov.my), 56 of whom were named on 28 October 2026; the other seats show as Vacant. Unlit seats mean nothing found, never opposition."
