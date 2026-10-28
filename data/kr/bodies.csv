@@ -1,0 +1,5 @@
+body_id,name,level,kind,seats,as_of,source_url,seat_view,notes
+B0001,National Assembly,national,chamber,,,https://www.assembly.go.kr/,,Seat counts and current membership not independently checked.
+B0002,Ulsan Nam-gu Council,local,council,,,https://www.nec.go.kr/common/board/Download.do?bcIdx=150847&cbIdx=1129&streFileNm=acc3580b-f2d4-4d90-8737-0640364097b6.pdf,,Former councillor identified by National Election Commission; term dates not independently verified.
+B0003,Jeonnam-Gwangju Integrated Special City Council,regional,council,,,https://www.newspim.com/news/view/20260604000161,,2026 election results; membership not checked against an official current list.
+B0004,Gwanak District Council,local,council,,,https://ga21c.seoul.kr/member/06040/bill.do,,Former councillor source; term dates not independently verified.
