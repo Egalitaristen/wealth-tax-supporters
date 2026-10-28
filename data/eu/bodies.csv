@@ -1,2 +1,2 @@
 body_id,name,level,kind,seats,as_of,source_url,seat_view,notes
-B0001,European Parliament,supranational,chamber,720,2026-10-25,https://data.europarl.europa.eu/api/v2/meps/show-current,y,"720 seats, elected in June 2024 from the 27 member states. Who sits, their country and political group are from the Parliament's open data. A seat is listed under the member's group, not their national party."
+B0001,European Parliament,supranational,chamber,720,2026-10-28,https://data.europarl.europa.eu/api/v2/meps/show-current,y,"720 seats, elected in June 2024 from the 27 member states. Who sits, their country and political group are from the Parliament's open data. A seat is listed under the member's group, not their national party."

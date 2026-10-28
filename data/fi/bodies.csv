@@ -1,2 +1,2 @@
 body_id,name,level,kind,seats,as_of,source_url,seat_view,notes
-B0001,Parliament of Finland (Eduskunta),national,chamber,,,https://avoindata.eduskunta.fi/api/v1/tables/MemberOfParliament/rows,,Historical sponsor offices recorded. Seat chart disabled until the replacement member API is checked; the legacy table has stale current-term fields.
+B0001,Parliament of Finland (Eduskunta),national,chamber,200,2026-10-28,https://avoindata.eduskunta.fi/api/v1/tables/SeatingOfParliament/rows,y,"200 seats, elected in April 2023 by proportional representation in 13 districts. Who sits and their group are from the plenary seating plan in the Parliament's open data (ministers keep their seat). Unlit seats mean nothing found, never opposition."
