@@ -11,3 +11,8 @@ Departments, provinces and districts are represented. Official boundaries are re
 
 ## Next work
 Verify the complete official district register and obtain a licensed map; inspect bill texts and cosponsors, 2026 electoral plans, unions and civil society; search Quechua and Aymara; sample five to ten local governments; verify current roles and Wikidata identifiers. The research is not saturated.
+
+## Further research — R002
+The [Venceremos 2026–2031 programme](https://mpesije.jne.gob.pe/docs/9984addc-e998-43b1-920f-1178d4d973aa.pdf) calls for a tax on fortunes above US$100 million. The [CGTP May Day statement](https://www.cgtp.org.pe/wp-content/uploads/2020/05/Labor16.pdf) demands a tax on large fortunes. A secondary [bill index](https://jeqo.github.io/peru-congreso/proyectos-ley/2016-2021/06600/06615/) names further sponsors of bill 06615, but the official document was blocked and signatures need checking. Bill 4887 needs tax-base review: reporting suggests annual turnover, which would fall outside the definition. Local government sampling, the official district-list comparison, and Quechua and Aymara searches remain outstanding.
+
+A broad web sample for Lima, Arequipa, Cusco, Trujillo and Piura returned no confirmed local-government supporters; it did not inspect council records, so these remain pending. The [OECD](https://www.oecd.org/es/publications/politicas-de-desarrollo-regional-en-peru_3adc5cee-es/full-report/subnational-institutional-and-fiscal-capacity_da451c57.html) describes local taxes as nationally rate-set and regional governments as lacking taxing power. The PST party statement could not be opened (HTTP 500) and remains a lead.
