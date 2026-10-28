@@ -45,3 +45,8 @@ Opened the original 2016 forum report and added an individually attributed wealt
 
 ## R010 — candidate and historical political sources, 2026-10-28
 Added Kang Seung-cheol, who personally proposed rates at the 2023 party policy convention, and An So-hee, whose 2024 candidacy pledge was reported by Yonhap. Added former lawmaker Kim Moo-sung for his 2012 personal call for a wealth tax, while recording that he clarified it was not party policy. The national party and its candidates are not conflated; candidates named only in collective party announcements were not added. Sources were opened individually and support is historical unless a later position is found.
+
+## R011 — candidate-list follow-up, 2026-10-28
+Found Kim Joo-up’s individually attributed 2024 pledge. Following election material led to four separately authored 2020 candidate leaflets containing wealth-tax pledges: Kim Jong-min, Kim Jin-suk of Dangjin, Choi Seo-hyeon and Hong Yeon-a. Three quote a maximum rate of 90%, without a frequency or threshold; the fourth does not specify a rate. The candidates’ leaflets establish their individual positions, while the shared party list alone does not. Their publication dates are recorded as 2020 because the precise issue dates were not established. The archive remains a lead for further individual leaflets.
+
+R011 verification: all four leaflet pages were visually inspected, along with the individually attributed news article. The checker found two of five quotations; its PDF text extraction produced garbled Korean for E00042, E00044 and E00045 even though the words are visibly present on the pages. Those three are manual confirmations, not automated passes. Their asset base and frequency remain unspecified in the leaflets.
