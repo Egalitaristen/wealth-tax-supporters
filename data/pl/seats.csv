@@ -1,13 +1,23 @@
 seat_id,body_id,party,seats,colour,order
 S0001,B0001,Lewica,21,d4005a,1
 S0002,B0001,KO,156,f68f2f,2
-S0003,B0001,Demokracja,4,d26d9f,3
+S0003,B0001,Demokracja,3,d26d9f,3
 S0004,B0001,Polska2050,15,ffd500,4
 S0005,B0001,PSL-TD,32,3ba935,5
 S0006,B0001,Centrum,15,7a7a7a,6
 S0007,B0001,RozwojPlus,40,8a6fc7,7
 S0008,B0001,niez.,7,8a8680,8
-S0009,B0001,Konfederacja,16,5b6aa3,9
+S0009,B0001,Konfederacja,17,5b6aa3,9
 S0010,B0001,PiS,147,263778,10
 S0011,B0001,Razem,4,,11
 S0012,B0001,Konfederacja_KP,3,,12
+S0013,B0002,Koalicja Obywatelska,41,f68f2f,1
+S0014,B0002,Prawo i Sprawiedliwość,34,263778,2
+S0015,B0002,Trzecia Droga Polska 2050 Szymona Hołowni – Polskie Stronnictwo Ludowe,10,8a8680,3
+S0016,B0002,Lewica,9,d4005a,4
+S0017,B0002,KWW Andrzej Dziuba – Pakt Senacki,1,8a8680,5
+S0018,B0002,KWW Zygmunt Frankiewicz – Pakt Senacki,1,8a8680,6
+S0019,B0002,KWW Krzysztof Kwiatkowski – Pakt Senacki,1,8a8680,7
+S0020,B0002,KWW Wadim Tyszkiewicz – Pakt Senacki,1,8a8680,8
+S0021,B0002,KWW Józefa Zająca,1,8a8680,9
+S0022,B0002,Vacant,1,,10

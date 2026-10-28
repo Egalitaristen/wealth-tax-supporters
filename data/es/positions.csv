@@ -1,63 +1,64 @@
 position_id,actor_id,body_id,role,party,geo_unit_id,start,end,current,member_ref,checked,source_url
-O00001,A0001,B0001,Member of Congress,,G0056,,,n,,2026-10-25,https://www.congreso.es/es/opendata/diputados
-O00002,A0002,B0001,Member of Congress,,G0049,,,n,,2026-10-25,https://www.congreso.es/es/opendata/diputados
-O00003,A0003,B0001,Member of Congress,,G0029,,,n,,2026-10-25,https://www.congreso.es/es/opendata/diputados
-O00004,A0004,B0001,Member of Congress,,G0062,,,n,,2026-10-25,https://www.congreso.es/es/opendata/diputados
-O00005,A0005,B0001,Member of Congress,,G0032,,,n,,2026-10-25,https://www.congreso.es/es/opendata/diputados
-O00006,A0006,B0001,Member of Congress,,G0050,,,n,,2026-10-25,https://www.congreso.es/es/opendata/diputados
-O00007,A0007,B0001,Member of Congress,,G0071,,,n,,2026-10-25,https://www.congreso.es/es/opendata/diputados
-O00008,A0008,B0001,Member of Congress,Mixto,G0036,2023-08-10,,y,"Rego Candamil, Néstor",2026-10-25,https://www.congreso.es/es/opendata/diputados
-O00009,A0009,B0001,Member of Congress,Sumar,G0049,2023-08-07,,y,"Santiago Romero, Enrique Fernando",2026-10-25,https://www.congreso.es/es/opendata/diputados
-O00010,A0010,B0001,Member of Congress,EH Bildu,G0041,2023-08-14,2026-10-06,n,"Iñarritu García, Jon",2026-10-25,https://www.congreso.es/es/opendata/diputados
-O00011,A0011,B0001,Member of Congress,EH Bildu,G0069,2023-08-14,,y,"Matute García de Jalón, Oskar",2026-10-25,https://www.congreso.es/es/opendata/diputados
-O00012,A0012,B0001,Member of Congress,EH Bildu,G0022,2023-08-14,2025-02-14,n,"Ruiz de Pinedo Undiano, Iñaki",2026-10-25,https://www.congreso.es/es/opendata/diputados
-O00013,A0013,B0001,Member of Congress,EH Bildu,G0052,2023-08-14,2026-10-06,n,"Pozueta Fernández, Isabel",2026-10-25,https://www.congreso.es/es/opendata/diputados
-O00014,A0014,B0001,Member of Congress,Mixto,G0051,2023-08-14,2026-10-06,n,"Sánchez Serna, Javier",2026-10-25,https://www.congreso.es/es/opendata/diputados
-O00015,A0015,B0001,Member of Congress,,G0039,,,n,,2026-10-25,https://www.congreso.es/es/opendata/diputados
-O00016,A0016,B0001,Member of Congress,EH Bildu,G0041,2023-08-14,,y,"Aizpurua Arzallus, Mertxe",2026-10-25,https://www.congreso.es/es/opendata/diputados
-O00017,A0017,B0001,Member of Congress,,G0029,,,n,,2026-10-25,https://www.congreso.es/es/opendata/diputados
-O00018,A0018,B0001,Member of Congress,,G0029,,,n,,2026-10-25,https://www.congreso.es/es/opendata/diputados
-O00019,A0019,B0001,Member of Congress,ERC,G0029,2023-08-10,2026-10-06,n,"Vallugera Balañà, Pilar",2026-10-25,https://www.congreso.es/es/opendata/diputados
-O00020,A0020,B0001,Member of Congress,Mixto,G0052,2023-08-11,,y,"Belarra Urteaga, Ione",2026-10-25,https://www.congreso.es/es/opendata/diputados
-O00021,A0021,B0001,Member of Congress,Sumar,G0057,2023-08-16,2026-10-06,n,"Díaz Pérez, Yolanda",2026-10-25,https://www.congreso.es/es/opendata/diputados
-O00022,A0022,B0001,Member of Congress,,G0029,,,n,,2026-10-25,https://www.congreso.es/es/opendata/diputados
-O00023,A0023,B0001,Member of Congress,,G0036,,,n,,2026-10-25,https://www.congreso.es/es/opendata/diputados
-O00024,A0024,B0001,Member of Congress,ERC,G0046,2023-08-10,2026-10-06,n,"Granollers Cunillera, Inés",2026-10-25,https://www.congreso.es/es/opendata/diputados
-O00025,A0025,B0001,Member of Congress,ERC,G0064,2023-08-03,2026-10-06,n,"Salvador i Duch, Jordi",2026-10-25,https://www.congreso.es/es/opendata/diputados
-O00026,A0026,B0001,Member of Congress,,G0029,,,n,,2026-10-25,https://www.congreso.es/es/opendata/diputados
-O00027,A0027,B0001,Member of Congress,,G0046,,,n,,2026-10-25,https://www.congreso.es/es/opendata/diputados
-O00028,A0028,B0001,Member of Congress,ERC,G0029,2023-08-16,,y,"Rufián Romero, Gabriel",2026-10-25,https://www.congreso.es/es/opendata/diputados
-O00029,A0029,B0001,Member of Congress,,G0029,,,n,,2026-10-25,https://www.congreso.es/es/opendata/diputados
-O00030,A0030,B0001,Member of Congress,,G0029,,,n,,2026-10-25,https://www.congreso.es/es/opendata/diputados
-O00031,A0031,B0001,Member of Congress,,G0064,,,n,,2026-10-25,https://www.congreso.es/es/opendata/diputados
-O00032,A0032,B0001,Member of Congress,ERC,G0038,2023-08-16,2024-09-24,n,"Bassa Coll, Montserrat",2026-10-25,https://www.congreso.es/es/opendata/diputados
-O00033,A0033,B0001,Member of Congress,,G0038,,,n,,2026-10-25,https://www.congreso.es/es/opendata/diputados
-O00034,A0034,B0001,Member of Congress,,G0022,,,n,,2026-10-25,https://www.congreso.es/es/opendata/diputados
-O00035,A0035,B0001,Member of Congress,,G0069,,,n,,2026-10-25,https://www.congreso.es/es/opendata/diputados
-O00036,A0036,B0001,Member of Congress,,G0041,,,n,,2026-10-25,https://www.congreso.es/es/opendata/diputados
-O00037,A0037,B0001,Member of Congress,Sumar,G0049,2023-08-14,2024-10-24,n,"Errejón Galván, Íñigo",2026-10-25,https://www.congreso.es/es/opendata/diputados
-O00038,A0038,B0001,Member of Congress,,G0049,,,n,,2026-10-25,https://www.congreso.es/es/opendata/diputados
-O00039,A0039,B0001,Member of Congress,Mixto,G0035,2023-08-08,2026-10-06,n,"Velarde Gómez, Martina",2026-10-25,https://www.congreso.es/es/opendata/diputados
-O00040,A0040,B0001,Member of Congress,,G0067,,,n,,2026-10-25,https://www.congreso.es/es/opendata/diputados
-O00041,A0041,B0001,Member of Congress,,G0038,,,n,,2026-10-25,https://www.congreso.es/es/opendata/diputados
-O00042,A0042,B0001,Member of Congress,,G0029,,,n,,2026-10-25,https://www.congreso.es/es/opendata/diputados
-O00043,A0043,B0001,Member of Congress,,G0029,,,n,,2026-10-25,https://www.congreso.es/es/opendata/diputados
-O00044,A0044,B0001,Member of Congress,Sumar,G0029,2023-08-16,,y,"Vidal Sáez, Aina",2026-10-25,https://www.congreso.es/es/opendata/diputados
-O00045,A0045,B0001,Member of Congress,,G0054,,,n,,2026-10-25,https://www.congreso.es/es/opendata/diputados
-O00046,A0046,B0001,Member of Congress,,G0067,,,n,,2026-10-25,https://www.congreso.es/es/opendata/diputados
-O00047,A0047,B0001,Member of Congress,Sumar,G0029,2023-08-16,,y,"Pisarello Prados, Gerardo",2026-10-25,https://www.congreso.es/es/opendata/diputados
-O00048,A0048,B0001,Member of Congress,,G0029,,,n,,2026-10-25,https://www.congreso.es/es/opendata/diputados
-O00049,A0049,B0001,Member of Congress,,G0049,,,n,,2026-10-25,https://www.congreso.es/es/opendata/diputados
-O00050,A0050,B0001,Member of Congress,,G0062,,,n,,2026-10-25,https://www.congreso.es/es/opendata/diputados
-O00051,A0051,B0001,Member of Congress,,G0049,,,n,,2026-10-25,https://www.congreso.es/es/opendata/diputados
-O00052,A0052,B0001,Member of Congress,,G0028,,,n,,2026-10-25,https://www.congreso.es/es/opendata/diputados
-O00053,A0053,B0001,Member of Congress,,G0028,,,n,,2026-10-25,https://www.congreso.es/es/opendata/diputados
-O00054,A0054,B0001,Member of Congress,,G0049,,,n,,2026-10-25,https://www.congreso.es/es/opendata/diputados
-O00055,A0055,B0001,Member of Congress,Sumar,G0024,2023-08-03,,y,"Guijarro García, Txema",2026-10-25,https://www.congreso.es/es/opendata/diputados
-O00056,A0056,B0001,Member of Congress,,G0033,,,n,,2026-10-25,https://www.congreso.es/es/opendata/diputados
-O00057,A0057,B0001,Member of Congress,,G0064,,,n,,2026-10-25,https://www.congreso.es/es/opendata/diputados
-O00058,A0058,B0001,Member of Congress,,G0067,,,n,,2026-10-25,https://www.congreso.es/es/opendata/diputados
-O00059,A0110,B0001,Member of Congress,Sumar,G0001,2023-08-10,,y,"Martín Urriza, Carlos",2026-10-25,https://www.congreso.es/es/opendata/diputados
-O00060,A0112,B0001,Member of Congress,PP,G0001,2023-08-09,,y,"Puy Fraga, Pedro",2026-10-25,https://www.congreso.es/es/opendata/diputados
-O00061,A0114,B0001,Member of Congress,Mixto,G0029,2023-08-16,2024-01-26,n,"Verstrynge Revuelta, Lilith",2026-10-25,https://www.congreso.es/es/opendata/diputados
-O00062,A0115,B0001,Member of Congress,Mixto,G0007,2023-08-02,2026-10-06,n,"Santana Perera, Noemí",2026-10-25,https://www.congreso.es/es/opendata/diputados
+O00001,A0001,B0001,Member of Congress,,G0056,,,n,,2026-10-28,https://www.congreso.es/es/opendata/diputados
+O00002,A0002,B0001,Member of Congress,,G0049,,,n,,2026-10-28,https://www.congreso.es/es/opendata/diputados
+O00003,A0003,B0001,Member of Congress,,G0029,,,n,,2026-10-28,https://www.congreso.es/es/opendata/diputados
+O00004,A0004,B0001,Member of Congress,,G0062,,,n,,2026-10-28,https://www.congreso.es/es/opendata/diputados
+O00005,A0005,B0001,Member of Congress,,G0032,,,n,,2026-10-28,https://www.congreso.es/es/opendata/diputados
+O00006,A0006,B0001,Member of Congress,,G0050,,,n,,2026-10-28,https://www.congreso.es/es/opendata/diputados
+O00007,A0007,B0001,Member of Congress,,G0071,,,n,,2026-10-28,https://www.congreso.es/es/opendata/diputados
+O00008,A0008,B0001,Member of Congress,Mixto,G0036,2023-08-10,,y,"Rego Candamil, Néstor",2026-10-28,https://www.congreso.es/es/opendata/diputados
+O00009,A0009,B0001,Member of Congress,Sumar,G0049,2023-08-07,,y,"Santiago Romero, Enrique Fernando",2026-10-28,https://www.congreso.es/es/opendata/diputados
+O00010,A0010,B0001,Member of Congress,EH Bildu,G0041,2023-08-14,2026-10-06,n,"Iñarritu García, Jon",2026-10-28,https://www.congreso.es/es/opendata/diputados
+O00011,A0011,B0001,Member of Congress,EH Bildu,G0069,2023-08-14,,y,"Matute García de Jalón, Oskar",2026-10-28,https://www.congreso.es/es/opendata/diputados
+O00012,A0012,B0001,Member of Congress,EH Bildu,G0022,2023-08-14,2025-02-14,n,"Ruiz de Pinedo Undiano, Iñaki",2026-10-28,https://www.congreso.es/es/opendata/diputados
+O00013,A0013,B0001,Member of Congress,EH Bildu,G0052,2023-08-14,2026-10-06,n,"Pozueta Fernández, Isabel",2026-10-28,https://www.congreso.es/es/opendata/diputados
+O00014,A0014,B0001,Member of Congress,Mixto,G0051,2023-08-14,2026-10-06,n,"Sánchez Serna, Javier",2026-10-28,https://www.congreso.es/es/opendata/diputados
+O00015,A0015,B0001,Member of Congress,,G0039,,,n,,2026-10-28,https://www.congreso.es/es/opendata/diputados
+O00016,A0016,B0001,Member of Congress,EH Bildu,G0041,2023-08-14,,y,"Aizpurua Arzallus, Mertxe",2026-10-28,https://www.congreso.es/es/opendata/diputados
+O00017,A0017,B0001,Member of Congress,,G0029,,,n,,2026-10-28,https://www.congreso.es/es/opendata/diputados
+O00018,A0018,B0001,Member of Congress,,G0029,,,n,,2026-10-28,https://www.congreso.es/es/opendata/diputados
+O00019,A0019,B0001,Member of Congress,ERC,G0029,2023-08-10,2026-10-06,n,"Vallugera Balañà, Pilar",2026-10-28,https://www.congreso.es/es/opendata/diputados
+O00020,A0020,B0001,Member of Congress,Mixto,G0052,2023-08-11,,y,"Belarra Urteaga, Ione",2026-10-28,https://www.congreso.es/es/opendata/diputados
+O00021,A0021,B0001,Member of Congress,Sumar,G0057,2023-08-16,2026-10-06,n,"Díaz Pérez, Yolanda",2026-10-28,https://www.congreso.es/es/opendata/diputados
+O00022,A0022,B0001,Member of Congress,,G0029,,,n,,2026-10-28,https://www.congreso.es/es/opendata/diputados
+O00023,A0023,B0001,Member of Congress,,G0036,,,n,,2026-10-28,https://www.congreso.es/es/opendata/diputados
+O00024,A0024,B0001,Member of Congress,ERC,G0046,2023-08-10,2026-10-06,n,"Granollers Cunillera, Inés",2026-10-28,https://www.congreso.es/es/opendata/diputados
+O00025,A0025,B0001,Member of Congress,ERC,G0064,2023-08-03,2026-10-06,n,"Salvador i Duch, Jordi",2026-10-28,https://www.congreso.es/es/opendata/diputados
+O00026,A0026,B0001,Member of Congress,,G0029,,,n,,2026-10-28,https://www.congreso.es/es/opendata/diputados
+O00027,A0027,B0001,Member of Congress,,G0046,,,n,,2026-10-28,https://www.congreso.es/es/opendata/diputados
+O00028,A0028,B0001,Member of Congress,ERC,G0029,2023-08-16,,y,"Rufián Romero, Gabriel",2026-10-28,https://www.congreso.es/es/opendata/diputados
+O00029,A0029,B0001,Member of Congress,,G0029,,,n,,2026-10-28,https://www.congreso.es/es/opendata/diputados
+O00030,A0030,B0001,Member of Congress,,G0029,,,n,,2026-10-28,https://www.congreso.es/es/opendata/diputados
+O00031,A0031,B0001,Member of Congress,,G0064,,,n,,2026-10-28,https://www.congreso.es/es/opendata/diputados
+O00032,A0032,B0001,Member of Congress,ERC,G0038,2023-08-16,2024-09-24,n,"Bassa Coll, Montserrat",2026-10-28,https://www.congreso.es/es/opendata/diputados
+O00033,A0033,B0001,Member of Congress,,G0038,,,n,,2026-10-28,https://www.congreso.es/es/opendata/diputados
+O00034,A0034,B0001,Member of Congress,,G0022,,,n,,2026-10-28,https://www.congreso.es/es/opendata/diputados
+O00035,A0035,B0001,Member of Congress,,G0069,,,n,,2026-10-28,https://www.congreso.es/es/opendata/diputados
+O00036,A0036,B0001,Member of Congress,,G0041,,,n,,2026-10-28,https://www.congreso.es/es/opendata/diputados
+O00037,A0037,B0001,Member of Congress,Sumar,G0049,2023-08-14,2024-10-24,n,"Errejón Galván, Íñigo",2026-10-28,https://www.congreso.es/es/opendata/diputados
+O00038,A0038,B0001,Member of Congress,,G0049,,,n,,2026-10-28,https://www.congreso.es/es/opendata/diputados
+O00039,A0039,B0001,Member of Congress,Mixto,G0035,2023-08-08,2026-10-06,n,"Velarde Gómez, Martina",2026-10-28,https://www.congreso.es/es/opendata/diputados
+O00040,A0040,B0001,Member of Congress,,G0067,,,n,,2026-10-28,https://www.congreso.es/es/opendata/diputados
+O00041,A0041,B0001,Member of Congress,,G0038,,,n,,2026-10-28,https://www.congreso.es/es/opendata/diputados
+O00042,A0042,B0001,Member of Congress,,G0029,,,n,,2026-10-28,https://www.congreso.es/es/opendata/diputados
+O00043,A0043,B0001,Member of Congress,,G0029,,,n,,2026-10-28,https://www.congreso.es/es/opendata/diputados
+O00044,A0044,B0001,Member of Congress,Sumar,G0029,2023-08-16,,y,"Vidal Sáez, Aina",2026-10-28,https://www.congreso.es/es/opendata/diputados
+O00045,A0045,B0001,Member of Congress,,G0054,,,n,,2026-10-28,https://www.congreso.es/es/opendata/diputados
+O00046,A0046,B0001,Member of Congress,,G0067,,,n,,2026-10-28,https://www.congreso.es/es/opendata/diputados
+O00047,A0047,B0001,Member of Congress,Sumar,G0029,2023-08-16,,y,"Pisarello Prados, Gerardo",2026-10-28,https://www.congreso.es/es/opendata/diputados
+O00048,A0048,B0001,Member of Congress,,G0029,,,n,,2026-10-28,https://www.congreso.es/es/opendata/diputados
+O00049,A0049,B0001,Member of Congress,,G0049,,,n,,2026-10-28,https://www.congreso.es/es/opendata/diputados
+O00050,A0050,B0001,Member of Congress,,G0062,,,n,,2026-10-28,https://www.congreso.es/es/opendata/diputados
+O00051,A0051,B0001,Member of Congress,,G0049,,,n,,2026-10-28,https://www.congreso.es/es/opendata/diputados
+O00052,A0052,B0001,Member of Congress,,G0028,,,n,,2026-10-28,https://www.congreso.es/es/opendata/diputados
+O00053,A0053,B0001,Member of Congress,,G0028,,,n,,2026-10-28,https://www.congreso.es/es/opendata/diputados
+O00054,A0054,B0001,Member of Congress,,G0049,,,n,,2026-10-28,https://www.congreso.es/es/opendata/diputados
+O00055,A0055,B0001,Member of Congress,Sumar,G0024,2023-08-03,,y,"Guijarro García, Txema",2026-10-28,https://www.congreso.es/es/opendata/diputados
+O00056,A0056,B0001,Member of Congress,,G0033,,,n,,2026-10-28,https://www.congreso.es/es/opendata/diputados
+O00057,A0057,B0001,Member of Congress,,G0064,,,n,,2026-10-28,https://www.congreso.es/es/opendata/diputados
+O00058,A0058,B0001,Member of Congress,,G0067,,,n,,2026-10-28,https://www.congreso.es/es/opendata/diputados
+O00059,A0110,B0001,Member of Congress,Sumar,G0001,2023-08-10,,y,"Martín Urriza, Carlos",2026-10-28,https://www.congreso.es/es/opendata/diputados
+O00060,A0112,B0001,Member of Congress,PP,G0001,2023-08-09,,y,"Puy Fraga, Pedro",2026-10-28,https://www.congreso.es/es/opendata/diputados
+O00061,A0114,B0001,Member of Congress,Mixto,G0029,2023-08-16,2024-01-26,n,"Verstrynge Revuelta, Lilith",2026-10-28,https://www.congreso.es/es/opendata/diputados
+O00062,A0115,B0001,Member of Congress,Mixto,G0007,2023-08-02,2026-10-06,n,"Santana Perera, Noemí",2026-10-28,https://www.congreso.es/es/opendata/diputados
+O00063,A0092,B0002,Senator,PSOE,G0015,,,y,"Lobato Gandarias, Juan",2026-10-28,https://es.wikipedia.org/wiki/Anexo:Senadores_de_la_XV_legislatura_de_España
