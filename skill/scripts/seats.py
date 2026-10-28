@@ -1284,6 +1284,171 @@ def nigeria_senate():
                  colours={"APC": "1d7a3a", "PDP": "d62828", "LP": "2a9d8f", "SDP": "6a4c93", "APGA": "3a86ff", "ADP": "8a8680"})]
 
 
+WIKI_UA = {"User-Agent": "WealthTaxSupporters/1.0 (https://wealthtaxsupporters.com; seat charts)"}
+
+
+def wiki_page(lang, title):
+    """The HTML of a Wikipedia article through the MediaWiki API (a secondary source, used where a parliament's own list cannot be read)."""
+    api = f"https://{lang}.wikipedia.org/w/api.php?action=parse&prop=text&format=json&redirects=1&page=" + urllib.parse.quote(title)
+    return get(api, headers=WIKI_UA)["parse"]["text"]["*"]
+
+
+def wiki_tables(page, heading=False):
+    """The wikitables of an article as lists of rows of cell text; with heading=True each table comes with the last heading before it."""
+    import html
+
+    def clean(c):
+        c = re.sub(r"<sup[^>]*>.*?</sup>|<style.*?</style>", "", c, flags=re.S)
+        return re.sub(r"\s+", " ", html.unescape(re.sub(r"<[^>]+>", "", c))).replace("​", "").strip()
+    out, cur = [], ""
+    for part in re.split(r"(<h[234][^>]*>.*?</h[234]>)", page, flags=re.S):
+        h = re.match(r"<h[234][^>]*>(.*?)</h[234]>", part, flags=re.S)
+        if h:
+            cur = clean(h[1])
+            continue
+        for t in re.findall(r'<table[^>]*class="[^"]*wikitable[^"]*"[^>]*>(.*?)</table>', part, flags=re.S):
+            rows = [[clean(c) for c in re.findall(r"<t[dh][^>]*>(.*?)</t[dh]>", r, flags=re.S)] for r in re.findall(r"<tr[^>]*>(.*?)</tr>", t, flags=re.S)]
+            rows = [r for r in rows if r]
+            out.append((cur, rows) if heading else rows)
+    return out
+
+
+def _upper(name, seats, source_url, note, role, rre, members, colours, order=None, vacant=None, strict=False):
+    count = {}
+    for m in members:
+        count[m["party"]] = count.get(m["party"], 0) + 1
+    o = order or sorted(count, key=lambda p: -count[p])
+    d = dict(name=name, level="national", seats=seats, source_url=source_url, note=note, role=role, role_re=rre, role_start=rre, members=members, former=[],
+             party_order=o, colours={p: colours.get(p, "8a8680") for p in o})
+    if vacant:
+        d["vacant_label"] = vacant
+    if strict:  # names with two surnames: leave out the looser first-and-last-word match
+        d["strict"] = True
+    return d
+
+
+def poland_senate():
+    """The Senat (100 seats): the Polish Wikipedia article on the senators of the 11th term (the senat.gov.pl list is behind a Cloudflare check, which is
+    not bypassed). It lists the 100 elected in October 2023, the by-election winners and the mandates that ended; the sitting members are
+    the first list, less those who left, plus those who replaced them. A secondary source, kept current by editors: the note says so."""
+    wurl = "https://pl.wikipedia.org/wiki/Senatorowie_XI_kadencji_Senatu_Rzeczypospolitej_Polskiej"
+    ts = wiki_tables(wiki_page("pl", "Senatorowie XI kadencji Senatu Rzeczypospolitej Polskiej"))
+    base = next(t for t in ts if t[0][:3] == ["Zdjęcie", "", "Senator"] and "Okręg" in t[0] and "Data wyboru" not in t[0])
+    byel = next((t for t in ts if t[0][:3] == ["Zdjęcie", "", "Senator"] and "Data wyboru" in t[0]), [[]])
+    gone = next((t for t in ts if t[0][:2] == ["Senator", "Data wygaśnięcia mandatu"]), [[]])
+
+    def nm(c):
+        return c.split("!")[-1].strip()
+
+    def committee(c):
+        c = re.sub(r"^KKW |^KW ", "", c)
+        return "Koalicja Obywatelska" if c.startswith("Koalicja Obywatelska") else "Lewica" if c.endswith("Lewica") else c
+    left = {nm(r[1]) for r in gone[1:] if len(r) > 1}
+    members, last = [], ""
+    for r in base[1:]:  # the photo cell is merged in some rows, so the name is the first cell with the sort key "Surname !Given Surname"
+        k = next((x for x in range(len(r)) if "!" in r[x]), None)
+        if k is None or len(r) < k + 3:
+            continue
+        cm = r[k + 1]
+        if re.fullmatch(r"\d+", cm):  # the committee cell is merged with the row above: take it from there
+            cm, dist = last, cm
+        else:
+            last, dist = cm, r[k + 2]
+        if nm(r[k]) not in left:
+            members.append(dict(name=nm(r[k]), party=committee(cm), ref=nm(r[k]), place=f"okręg {dist}", start="", url=wurl))
+    for r in byel[1:]:
+        k = next((x for x in range(len(r)) if "!" in r[x]), None)
+        if k is not None and len(r) > k + 3:
+            members.append(dict(name=nm(r[k]), party=committee(r[k + 1]), ref=nm(r[k]), place=f"okręg {r[k + 3]}", start="", url=wurl))
+    if len(members) < 90:
+        sys.exit(f"Senat: read {len(members)} senators, expected about 99; the article has changed, check the adapter")
+    return [_upper("Senat", 100, wurl,
+                   "100 seats, one to four per district, elected 15 October 2023. Who sits and their election committee are from the Polish Wikipedia list of the senators of the 11th term (updated for by-elections and mandates that ended), because the Senate's own list could not be read; a secondary source. Unlit seats mean nothing found, never opposition.",
+                   "Senator", r"(?i)senat of poland|polish senat|\bsenator\b|senator rp", members,
+                   {"Koalicja Obywatelska": "f68f2f", "Prawo i Sprawiedliwość": "263778", "Trzecia Droga": "ffd500", "Lewica": "d4005a", "Bezpartyjni": "8a8680"})]
+
+
+def belgium_senate():
+    """The Senate of Belgium (60 seats): the English Wikipedia list of the members 2024-2029 (senate.be is behind a Cloudflare check, which is not
+    bypassed): 50 senators from the community and regional parliaments and 10 co-opted. A secondary source."""
+    wurl = "https://en.wikipedia.org/wiki/List_of_members_of_the_Senate_of_Belgium,_2024–2029"
+    ts = wiki_tables(wiki_page("en", "List of members of the Senate of Belgium, 2024–2029"))
+    t = next(t for t in ts if t[0][:2] == ["Senator", "Party"])
+    members = [dict(name=re.sub(r"\s*\[.*?\]", "", r[0]).strip(), party=r[1], ref=r[0], place=r[3] if len(r) > 3 else "", start="", url=wurl) for r in t[1:] if len(r) >= 4 and r[0]]
+    if len(members) < 50:
+        sys.exit(f"Senate of Belgium: read {len(members)} senators, expected 60; the article has changed, check the adapter")
+    return [_upper("Senate of Belgium", 60, wurl,
+                   "60 seats: 50 senators designated by the parliaments of the communities and regions and 10 co-opted, for 2024-2029. Who sits and their party are from the English Wikipedia list of the members, because the Senate's own site could not be read; a secondary source. Unlit seats mean nothing found, never opposition.",
+                   "Senator", r"(?i)belgian senat|senate of belgium|\bsenator\b", members,
+                   {"N-VA": "f4a300", "Vlaams Belang": "5a4a2a", "PS": "e11931", "MR": "1c4f9c", "Les Engagés": "2aa5c9", "PVDA-PTB": "b01c2e", "Vooruit": "e8412a", "CD&V": "f28c1f",
+                    "Open Vld": "1f78c8", "Groen": "6aa84f", "Ecolo": "62b04b", "DéFI": "e02c8a"})]
+
+
+def indonesia_dpd():
+    """The Dewan Perwakilan Daerah (152 seats, four for each of the 38 provinces): the Indonesian Wikipedia list of the members 2024-2029 (dpd.go.id
+    shows its list only after its province filters). Titles and degrees are removed from the names. Members have no party. A secondary source."""
+    wurl = "https://id.wikipedia.org/wiki/Daftar_anggota_Dewan_Perwakilan_Daerah_Republik_Indonesia_2024–2029"
+    parts = wiki_tables(wiki_page("id", "Daftar anggota Dewan Perwakilan Daerah Republik Indonesia 2024–2029"), heading=True)
+    seen, members = set(), []
+    for prov, t in parts:
+        for r in t[1:]:
+            if len(r) < 3 or not re.match(r"^B[–-]\d+$", r[0]) or r[0] in seen:
+                continue
+            seen.add(r[0])
+            n = re.sub(r"^(?:[A-Za-z]{1,4}\.\s*)+", "", r[2])  # leading titles (Ust. Dr. H. K.H.)
+            n = re.sub(r"(?<=[a-z])(?=[A-Z][a-zA-Z]{0,3}\.)", "|", n).split("|")[0]  # degrees glued to the surname (UmaS.Sos.)
+            n = re.sub(r"\s+(?:[A-Z][A-Za-z]{0,3}\.){1,4}(?:,?\s*(?:[A-Z][A-Za-z]{0,3}\.){1,4})*$", "", n).strip(" ,")
+            members.append(dict(name=n, party="Regional representatives (no party)", ref=r[0], place=prov, start="", url=wurl))
+    if len(members) < 140:
+        sys.exit(f"DPD: read {len(members)} members, expected 152; the article has changed, check the adapter")
+    return [_upper("Dewan Perwakilan Daerah", 152, wurl,
+                   "152 seats, four for each of the 38 provinces, elected in February 2024 as individuals without party. Who sits is from the Indonesian Wikipedia list of the members 2024-2029 (the DPD's own list needs its province filters), a secondary source; titles and degrees are removed from the names. Unlit seats mean nothing found, never opposition.",
+                   "Member of the Regional Representative Council", r"(?i)\bDPD\b|regional representative council|dewan perwakilan daerah", members, {"Regional representatives (no party)": "7a8f5a"})]
+
+
+def egypt_senate():
+    """The Senate of Egypt (300 seats): the members Wikidata holds for the Senate elected in 2025 (position Q98218748, started 2025 or later, no end).
+    Neither senate.gov.eg nor Wikipedia has a complete list, so this is partial (about a third of the seats): the rest show as 'Not named'. Party is
+    taken from Wikidata where given."""
+    q = ('SELECT ?p ?pLabel ?partyLabel WHERE { ?p p:P39 ?s . ?s ps:P39 wd:Q98218748 . ?s pq:P580 ?start . FILTER(?start >= "2025-01-01T00:00:00Z"^^xsd:dateTime) '
+         'OPTIONAL { ?s pq:P582 ?end } FILTER(!BOUND(?end) || ?end > NOW()) OPTIONAL { ?p wdt:P102 ?party } '
+         'SERVICE wikibase:label { bd:serviceParam wikibase:language "en,ar". } }')
+    d = get("https://query.wikidata.org/sparql?query=" + urllib.parse.quote(q) + "&format=json", headers=WIKI_UA)["results"]["bindings"]
+    by = {}
+    for x in d:
+        qid = x["p"]["value"].rsplit("/", 1)[-1]
+        by.setdefault(qid, dict(name=x["pLabel"]["value"], party=x.get("partyLabel", {}).get("value", "Party not given"), qid=qid, ref=qid, place="", start="",
+                                url="https://www.wikidata.org/wiki/" + qid))
+    members = [m for m in by.values() if not re.match(r"^Q\d+$", m["name"])]
+    if len(members) < 50:
+        sys.exit(f"Senate of Egypt: read {len(members)} members from Wikidata, expected about 100; check the query")
+    return [_upper("Senate of Egypt", 300, "https://www.wikidata.org/wiki/Q98218748",
+                   "300 seats: 200 elected (100 by list, 100 individual) and 100 appointed by the President, from 2025. No complete list of members could be found (senate.gov.eg did not answer), so this chart shows only the members Wikidata records for the 2025 Senate, about a third; the other seats show as 'Not named', which is not the same as vacant. Unlit seats mean nothing found, never opposition.",
+                   "Senator", r"(?i)senate of egypt|egyptian senat|\bsenator\b", members, {}, vacant="Not named")]
+
+
+def spain_senate():
+    """The Senado (266 seats, XV legislature): the Spanish Wikipedia list of the senators of the XV legislature (senado.es refuses scripts). The Cortes
+    were dissolved on 6 October 2026, so these are the senators at the dissolution, not sitting ones: the note says so. After the November 2026
+    election, run it against the new legislature's list (or the Senate's own list read in a browser). A secondary source."""
+    wurl = "https://es.wikipedia.org/wiki/Anexo:Senadores_de_la_XV_legislatura_de_España"
+    ts = wiki_tables(wiki_page("es", "Anexo:Senadores de la XV legislatura de España"))
+    t = next(t for t in ts if t[0][:2] == ["Nombre y apellidos", "Grupo"] and "Baja" not in t[0])
+    GROUP = {"GPP": "Partido Popular", "GPS": "PSOE", "GPERB": "ERC-Bildu", "GPPLU": "Plural (Junts)", "GPIC": "Izquierda Confederal", "GPV": "Vasco (EAJ-PNV)", "GPMX": "Mixto"}
+    members = []
+    for r in t[1:]:
+        if len(r) < 6 or not r[0]:
+            continue
+        sur, _, given = r[0].partition(",")
+        members.append(dict(name=f"{given.strip()} {sur.strip()}".strip(), party=GROUP.get(r[2], r[2]), ref=r[0], place=r[5], start="", url=wurl))
+    if len(members) < 240:
+        sys.exit(f"Senado: read {len(members)} senators, expected about 265; the article has changed, check the adapter")
+    return [_upper("Senado", 266, wurl,
+                   "266 seats (208 elected by province and 58 designated by the autonomous communities), XV legislature elected 23 July 2023. The Cortes were dissolved on 6 October 2026 for the election of 29 November 2026, so the members shown are the senators of the legislature at its end, from the Spanish Wikipedia list (senado.es refuses scripts), a secondary source; replace it with the new Senate's list once it meets. Unlit seats mean nothing found, never opposition.",
+                   "Senator", r"(?i)\bsenador|senado de españa|spanish senat|\bsenator\b", members,
+                   {"Partido Popular": "1c9be0", "PSOE": "e11931", "ERC-Bildu": "e8a01a", "Plural (Junts)": "37a6b5", "Izquierda Confederal": "a1274a", "Vasco (EAJ-PNV)": "2f8f4a", "Mixto": "8a8680"}, strict=True)]
+
+
 def european_parliament():
     """The European Parliament (720 seats): data.europarl.europa.eu open data (sitting MEPs, their country and political group).
     Run `seats.py data/eu`: supporters are matched across every country register, by the MEP's own country."""
@@ -1452,7 +1617,9 @@ _ADAPTERS_LOWER = {"nz": new_zealand, "se": sweden, "de": germany, "nl": netherl
 # countries that chart two chambers chain their adapters; the others return one
 ADAPTERS = dict(_ADAPTERS_LOWER, nl=lambda: netherlands() + netherlands_senate(), za=lambda: south_africa() + south_africa_ncop(),
                   ca=lambda: canada() + canada_senate(), australia=australia, eg=egypt,
-                  ng=lambda: nigeria() + nigeria_senate(), malaysia_senate=malaysia_senate)  # the Dewan Rakyat needs its own saved page: run the Dewan Negara with --adapter malaysia_senate
+                  ng=lambda: nigeria() + nigeria_senate(),
+                  es=lambda: spain() + spain_senate(), pl=lambda: poland() + poland_senate(), belgium_senate=belgium_senate,  # the Chamber needs its own saved page: run the Senate with --adapter belgium_senate
+                  id=lambda: indonesia() + indonesia_dpd(), egypt_senate=egypt_senate, malaysia_senate=malaysia_senate)  # the Dewan Rakyat needs its own saved page: run the Dewan Negara with --adapter malaysia_senate
 
 
 def main():
