@@ -1,0 +1,2116 @@
+geo_unit_id,name,level,unit_type,parent_id,website,sweep_status,swept_run,swept_date,queries_run,hits,notes,code
+G0001,Peru,national,country,,,pending,,,,,,
+G0002,Amazonas,region,department,G0001,,pending,,,,,,01
+G0003,Áncash,region,department,G0001,,pending,,,,,,02
+G0004,Apurímac,region,department,G0001,,pending,,,,,,03
+G0005,Arequipa,region,department,G0001,,pending,,,,,,04
+G0006,Ayacucho,region,department,G0001,,pending,,,,,,05
+G0007,Cajamarca,region,department,G0001,,pending,,,,,,06
+G0008,Callao,region,department,G0001,,pending,,,,,,07
+G0009,Cusco,region,department,G0001,,pending,,,,,,08
+G0010,Huancavelica,region,department,G0001,,pending,,,,,,09
+G0011,Huánuco,region,department,G0001,,pending,,,,,,10
+G0012,Ica,region,department,G0001,,pending,,,,,,11
+G0013,Junín,region,department,G0001,,pending,,,,,,12
+G0014,La Libertad,region,department,G0001,,pending,,,,,,13
+G0015,Lambayeque,region,department,G0001,,pending,,,,,,14
+G0016,Lima,region,department,G0001,,pending,,,,,,15
+G0017,Loreto,region,department,G0001,,pending,,,,,,16
+G0018,Madre de Dios,region,department,G0001,,pending,,,,,,17
+G0019,Moquegua,region,department,G0001,,pending,,,,,,18
+G0020,Pasco,region,department,G0001,,pending,,,,,,19
+G0021,Piura,region,department,G0001,,pending,,,,,,20
+G0022,Puno,region,department,G0001,,pending,,,,,,21
+G0023,San Martín,region,department,G0001,,pending,,,,,,22
+G0024,Tacna,region,department,G0001,,pending,,,,,,23
+G0025,Tumbes,region,department,G0001,,pending,,,,,,24
+G0026,Ucayali,region,department,G0001,,pending,,,,,,25
+G0027,Chachapoyas,county,province,G0002,,pending,,,,,,0101
+G0028,Bagua,county,province,G0002,,pending,,,,,,0102
+G0029,Bongará,county,province,G0002,,pending,,,,,,0103
+G0030,Condorcanqui,county,province,G0002,,pending,,,,,,0104
+G0031,Luya,county,province,G0002,,pending,,,,,,0105
+G0032,Rodríguez de Mendoza,county,province,G0002,,pending,,,,,,0106
+G0033,Utcubamba,county,province,G0002,,pending,,,,,,0107
+G0034,Huaraz,county,province,G0003,,pending,,,,,,0201
+G0035,Aija,county,province,G0003,,pending,,,,,,0202
+G0036,Antonio Raymondi,county,province,G0003,,pending,,,,,,0203
+G0037,Asunción,county,province,G0003,,pending,,,,,,0204
+G0038,Bolognesi,county,province,G0003,,pending,,,,,,0205
+G0039,Carhuaz,county,province,G0003,,pending,,,,,,0206
+G0040,Carlos Fermín Fitzcarrald,county,province,G0003,,pending,,,,,,0207
+G0041,Casma,county,province,G0003,,pending,,,,,,0208
+G0042,Corongo,county,province,G0003,,pending,,,,,,0209
+G0043,Huari,county,province,G0003,,pending,,,,,,0210
+G0044,Huarmey,county,province,G0003,,pending,,,,,,0211
+G0045,Huaylas,county,province,G0003,,pending,,,,,,0212
+G0046,Mariscal Luzuriaga,county,province,G0003,,pending,,,,,,0213
+G0047,Ocros,county,province,G0003,,pending,,,,,,0214
+G0048,Pallasca,county,province,G0003,,pending,,,,,,0215
+G0049,Pomabamba,county,province,G0003,,pending,,,,,,0216
+G0050,Recuay,county,province,G0003,,pending,,,,,,0217
+G0051,Santa,county,province,G0003,,pending,,,,,,0218
+G0052,Sihuas,county,province,G0003,,pending,,,,,,0219
+G0053,Yungay,county,province,G0003,,pending,,,,,,0220
+G0054,Abancay,county,province,G0004,,pending,,,,,,0301
+G0055,Andahuaylas,county,province,G0004,,pending,,,,,,0302
+G0056,Antabamba,county,province,G0004,,pending,,,,,,0303
+G0057,Aymaraes,county,province,G0004,,pending,,,,,,0304
+G0058,Cotabambas,county,province,G0004,,pending,,,,,,0305
+G0059,Chincheros,county,province,G0004,,pending,,,,,,0306
+G0060,Grau,county,province,G0004,,pending,,,,,,0307
+G0061,Arequipa,county,province,G0005,,pending,,,,,,0401
+G0062,Camaná,county,province,G0005,,pending,,,,,,0402
+G0063,Caravelí,county,province,G0005,,pending,,,,,,0403
+G0064,Castilla,county,province,G0005,,pending,,,,,,0404
+G0065,Caylloma,county,province,G0005,,pending,,,,,,0405
+G0066,Condesuyos,county,province,G0005,,pending,,,,,,0406
+G0067,Islay,county,province,G0005,,pending,,,,,,0407
+G0068,La Uniòn,county,province,G0005,,pending,,,,,,0408
+G0069,Huamanga,county,province,G0006,,pending,,,,,,0501
+G0070,Cangallo,county,province,G0006,,pending,,,,,,0502
+G0071,Huanca Sancos,county,province,G0006,,pending,,,,,,0503
+G0072,Huanta,county,province,G0006,,pending,,,,,,0504
+G0073,La Mar,county,province,G0006,,pending,,,,,,0505
+G0074,Lucanas,county,province,G0006,,pending,,,,,,0506
+G0075,Parinacochas,county,province,G0006,,pending,,,,,,0507
+G0076,Pàucar del Sara Sara,county,province,G0006,,pending,,,,,,0508
+G0077,Sucre,county,province,G0006,,pending,,,,,,0509
+G0078,Víctor Fajardo,county,province,G0006,,pending,,,,,,0510
+G0079,Vilcas Huamán,county,province,G0006,,pending,,,,,,0511
+G0080,Cajamarca,county,province,G0007,,pending,,,,,,0601
+G0081,Cajabamba,county,province,G0007,,pending,,,,,,0602
+G0082,Celendín,county,province,G0007,,pending,,,,,,0603
+G0083,Chota,county,province,G0007,,pending,,,,,,0604
+G0084,Contumazá,county,province,G0007,,pending,,,,,,0605
+G0085,Cutervo,county,province,G0007,,pending,,,,,,0606
+G0086,Hualgayoc,county,province,G0007,,pending,,,,,,0607
+G0087,Jaén,county,province,G0007,,pending,,,,,,0608
+G0088,San Ignacio,county,province,G0007,,pending,,,,,,0609
+G0089,San Marcos,county,province,G0007,,pending,,,,,,0610
+G0090,San Miguel,county,province,G0007,,pending,,,,,,0611
+G0091,San Pablo,county,province,G0007,,pending,,,,,,0612
+G0092,Santa Cruz,county,province,G0007,,pending,,,,,,0613
+G0093,Prov. Const. del Callao,county,province,G0008,,pending,,,,,,0701
+G0094,Cusco,county,province,G0009,,pending,,,,,,0801
+G0095,Acomayo,county,province,G0009,,pending,,,,,,0802
+G0096,Anta,county,province,G0009,,pending,,,,,,0803
+G0097,Calca,county,province,G0009,,pending,,,,,,0804
+G0098,Canas,county,province,G0009,,pending,,,,,,0805
+G0099,Canchis,county,province,G0009,,pending,,,,,,0806
+G0100,Chumbivilcas,county,province,G0009,,pending,,,,,,0807
+G0101,Espinar,county,province,G0009,,pending,,,,,,0808
+G0102,La Convención,county,province,G0009,,pending,,,,,,0809
+G0103,Paruro,county,province,G0009,,pending,,,,,,0810
+G0104,Paucartambo,county,province,G0009,,pending,,,,,,0811
+G0105,Quispicanchi,county,province,G0009,,pending,,,,,,0812
+G0106,Urubamba,county,province,G0009,,pending,,,,,,0813
+G0107,Huancavelica,county,province,G0010,,pending,,,,,,0901
+G0108,Acobamba,county,province,G0010,,pending,,,,,,0902
+G0109,Angaraes,county,province,G0010,,pending,,,,,,0903
+G0110,Castrovirreyna,county,province,G0010,,pending,,,,,,0904
+G0111,Churcampa,county,province,G0010,,pending,,,,,,0905
+G0112,Huaytará,county,province,G0010,,pending,,,,,,0906
+G0113,Tayacaja,county,province,G0010,,pending,,,,,,0907
+G0114,Huánuco,county,province,G0011,,pending,,,,,,1001
+G0115,Ambo,county,province,G0011,,pending,,,,,,1002
+G0116,Dos de Mayo,county,province,G0011,,pending,,,,,,1003
+G0117,Huacaybamba,county,province,G0011,,pending,,,,,,1004
+G0118,Huamalíes,county,province,G0011,,pending,,,,,,1005
+G0119,Leoncio Prado,county,province,G0011,,pending,,,,,,1006
+G0120,Marañón,county,province,G0011,,pending,,,,,,1007
+G0121,Pachitea,county,province,G0011,,pending,,,,,,1008
+G0122,Puerto Inca,county,province,G0011,,pending,,,,,,1009
+G0123,Lauricocha,county,province,G0011,,pending,,,,,,1010
+G0124,Yarowilca,county,province,G0011,,pending,,,,,,1011
+G0125,Ica,county,province,G0012,,pending,,,,,,1101
+G0126,Chincha,county,province,G0012,,pending,,,,,,1102
+G0127,Nasca,county,province,G0012,,pending,,,,,,1103
+G0128,Palpa,county,province,G0012,,pending,,,,,,1104
+G0129,Pisco,county,province,G0012,,pending,,,,,,1105
+G0130,Huancayo,county,province,G0013,,pending,,,,,,1201
+G0131,Concepción,county,province,G0013,,pending,,,,,,1202
+G0132,Chanchamayo,county,province,G0013,,pending,,,,,,1203
+G0133,Jauja,county,province,G0013,,pending,,,,,,1204
+G0134,Junín,county,province,G0013,,pending,,,,,,1205
+G0135,Satipo,county,province,G0013,,pending,,,,,,1206
+G0136,Tarma,county,province,G0013,,pending,,,,,,1207
+G0137,Yauli,county,province,G0013,,pending,,,,,,1208
+G0138,Chupaca,county,province,G0013,,pending,,,,,,1209
+G0139,Trujillo,county,province,G0014,,pending,,,,,,1301
+G0140,Ascope,county,province,G0014,,pending,,,,,,1302
+G0141,Bolívar,county,province,G0014,,pending,,,,,,1303
+G0142,Chepén,county,province,G0014,,pending,,,,,,1304
+G0143,Julcán,county,province,G0014,,pending,,,,,,1305
+G0144,Otuzco,county,province,G0014,,pending,,,,,,1306
+G0145,Pacasmayo,county,province,G0014,,pending,,,,,,1307
+G0146,Pataz,county,province,G0014,,pending,,,,,,1308
+G0147,Sánchez Carrión,county,province,G0014,,pending,,,,,,1309
+G0148,Santiago de Chuco,county,province,G0014,,pending,,,,,,1310
+G0149,Gran Chimú,county,province,G0014,,pending,,,,,,1311
+G0150,Virú,county,province,G0014,,pending,,,,,,1312
+G0151,Chiclayo,county,province,G0015,,pending,,,,,,1401
+G0152,Ferreñafe,county,province,G0015,,pending,,,,,,1402
+G0153,Lambayeque,county,province,G0015,,pending,,,,,,1403
+G0154,Lima,county,province,G0016,,pending,,,,,,1501
+G0155,Barranca,county,province,G0016,,pending,,,,,,1502
+G0156,Cajatambo,county,province,G0016,,pending,,,,,,1503
+G0157,Canta,county,province,G0016,,pending,,,,,,1504
+G0158,Cañete,county,province,G0016,,pending,,,,,,1505
+G0159,Huaral,county,province,G0016,,pending,,,,,,1506
+G0160,Huarochirí,county,province,G0016,,pending,,,,,,1507
+G0161,Huaura,county,province,G0016,,pending,,,,,,1508
+G0162,Oyón,county,province,G0016,,pending,,,,,,1509
+G0163,Yauyos,county,province,G0016,,pending,,,,,,1510
+G0164,Maynas,county,province,G0017,,pending,,,,,,1601
+G0165,Alto Amazonas,county,province,G0017,,pending,,,,,,1602
+G0166,Loreto,county,province,G0017,,pending,,,,,,1603
+G0167,Mariscal Ramón Castilla,county,province,G0017,,pending,,,,,,1604
+G0168,Requena,county,province,G0017,,pending,,,,,,1605
+G0169,Ucayali,county,province,G0017,,pending,,,,,,1606
+G0170,Datem del Marañón,county,province,G0017,,pending,,,,,,1607
+G0171,Putumayo,county,province,G0017,,pending,,,,,,1608
+G0172,Tambopata,county,province,G0018,,pending,,,,,,1701
+G0173,Manu,county,province,G0018,,pending,,,,,,1702
+G0174,Tahuamanu,county,province,G0018,,pending,,,,,,1703
+G0175,Mariscal Nieto,county,province,G0019,,pending,,,,,,1801
+G0176,General Sánchez Cerro,county,province,G0019,,pending,,,,,,1802
+G0177,Ilo,county,province,G0019,,pending,,,,,,1803
+G0178,Pasco,county,province,G0020,,pending,,,,,,1901
+G0179,Daniel Alcides Carrión,county,province,G0020,,pending,,,,,,1902
+G0180,Oxapampa,county,province,G0020,,pending,,,,,,1903
+G0181,Piura,county,province,G0021,,pending,,,,,,2001
+G0182,Ayabaca,county,province,G0021,,pending,,,,,,2002
+G0183,Huancabamba,county,province,G0021,,pending,,,,,,2003
+G0184,Morropón,county,province,G0021,,pending,,,,,,2004
+G0185,Paita,county,province,G0021,,pending,,,,,,2005
+G0186,Sullana,county,province,G0021,,pending,,,,,,2006
+G0187,Talara,county,province,G0021,,pending,,,,,,2007
+G0188,Sechura,county,province,G0021,,pending,,,,,,2008
+G0189,Puno,county,province,G0022,,pending,,,,,,2101
+G0190,Azángaro,county,province,G0022,,pending,,,,,,2102
+G0191,Carabaya,county,province,G0022,,pending,,,,,,2103
+G0192,Chucuito,county,province,G0022,,pending,,,,,,2104
+G0193,El Collao,county,province,G0022,,pending,,,,,,2105
+G0194,Huancané,county,province,G0022,,pending,,,,,,2106
+G0195,Lampa,county,province,G0022,,pending,,,,,,2107
+G0196,Melgar,county,province,G0022,,pending,,,,,,2108
+G0197,Moho,county,province,G0022,,pending,,,,,,2109
+G0198,San Antonio de Putina,county,province,G0022,,pending,,,,,,2110
+G0199,San Román,county,province,G0022,,pending,,,,,,2111
+G0200,Sandia,county,province,G0022,,pending,,,,,,2112
+G0201,Yunguyo,county,province,G0022,,pending,,,,,,2113
+G0202,Moyobamba,county,province,G0023,,pending,,,,,,2201
+G0203,Bellavista,county,province,G0023,,pending,,,,,,2202
+G0204,El Dorado,county,province,G0023,,pending,,,,,,2203
+G0205,Huallaga,county,province,G0023,,pending,,,,,,2204
+G0206,Lamas,county,province,G0023,,pending,,,,,,2205
+G0207,Mariscal Cáceres,county,province,G0023,,pending,,,,,,2206
+G0208,Picota,county,province,G0023,,pending,,,,,,2207
+G0209,Rioja,county,province,G0023,,pending,,,,,,2208
+G0210,San Martín,county,province,G0023,,pending,,,,,,2209
+G0211,Tocache,county,province,G0023,,pending,,,,,,2210
+G0212,Tacna,county,province,G0024,,pending,,,,,,2301
+G0213,Candarave,county,province,G0024,,pending,,,,,,2302
+G0214,Jorge Basadre,county,province,G0024,,pending,,,,,,2303
+G0215,Tarata,county,province,G0024,,pending,,,,,,2304
+G0216,Tumbes,county,province,G0025,,pending,,,,,,2401
+G0217,Contralmirante Villar,county,province,G0025,,pending,,,,,,2402
+G0218,Zarumilla,county,province,G0025,,pending,,,,,,2403
+G0219,Coronel Portillo,county,province,G0026,,pending,,,,,,2501
+G0220,Atalaya,county,province,G0026,,pending,,,,,,2502
+G0221,Padre Abad,county,province,G0026,,pending,,,,,,2503
+G0222,Purús,county,province,G0026,,pending,,,,,,2504
+G0223,Chachapoyas,council,district,G0027,,pending,,,,,,010101
+G0224,Asunción,council,district,G0027,,pending,,,,,,010102
+G0225,Balsas,council,district,G0027,,pending,,,,,,010103
+G0226,Cheto,council,district,G0027,,pending,,,,,,010104
+G0227,Chiliquin,council,district,G0027,,pending,,,,,,010105
+G0228,Chuquibamba,council,district,G0027,,pending,,,,,,010106
+G0229,Granada,council,district,G0027,,pending,,,,,,010107
+G0230,Huancas,council,district,G0027,,pending,,,,,,010108
+G0231,La Jalca,council,district,G0027,,pending,,,,,,010109
+G0232,Leimebamba,council,district,G0027,,pending,,,,,,010110
+G0233,Levanto,council,district,G0027,,pending,,,,,,010111
+G0234,Magdalena,council,district,G0027,,pending,,,,,,010112
+G0235,Mariscal Castilla,council,district,G0027,,pending,,,,,,010113
+G0236,Molinopampa,council,district,G0027,,pending,,,,,,010114
+G0237,Montevideo,council,district,G0027,,pending,,,,,,010115
+G0238,Olleros,council,district,G0027,,pending,,,,,,010116
+G0239,Quinjalca,council,district,G0027,,pending,,,,,,010117
+G0240,San Francisco de Daguas,council,district,G0027,,pending,,,,,,010118
+G0241,San Isidro de Maino,council,district,G0027,,pending,,,,,,010119
+G0242,Soloco,council,district,G0027,,pending,,,,,,010120
+G0243,Sonche,council,district,G0027,,pending,,,,,,010121
+G0244,Bagua,council,district,G0028,,pending,,,,,,010201
+G0245,Aramango,council,district,G0028,,pending,,,,,,010202
+G0246,Copallin,council,district,G0028,,pending,,,,,,010203
+G0247,El Parco,council,district,G0028,,pending,,,,,,010204
+G0248,Imaza,council,district,G0028,,pending,,,,,,010205
+G0249,La Peca,council,district,G0028,,pending,,,,,,010206
+G0250,Jumbilla,council,district,G0029,,pending,,,,,,010301
+G0251,Chisquilla,council,district,G0029,,pending,,,,,,010302
+G0252,Churuja,council,district,G0029,,pending,,,,,,010303
+G0253,Corosha,council,district,G0029,,pending,,,,,,010304
+G0254,Cuispes,council,district,G0029,,pending,,,,,,010305
+G0255,Florida,council,district,G0029,,pending,,,,,,010306
+G0256,Jazan,council,district,G0029,,pending,,,,,,010307
+G0257,Recta,council,district,G0029,,pending,,,,,,010308
+G0258,San Carlos,council,district,G0029,,pending,,,,,,010309
+G0259,Shipasbamba,council,district,G0029,,pending,,,,,,010310
+G0260,Valera,council,district,G0029,,pending,,,,,,010311
+G0261,Yambrasbamba,council,district,G0029,,pending,,,,,,010312
+G0262,Nieva,council,district,G0030,,pending,,,,,,010401
+G0263,El Cenepa,council,district,G0030,,pending,,,,,,010402
+G0264,Río Santiago,council,district,G0030,,pending,,,,,,010403
+G0265,Lamud,council,district,G0031,,pending,,,,,,010501
+G0266,Camporredondo,council,district,G0031,,pending,,,,,,010502
+G0267,Cocabamba,council,district,G0031,,pending,,,,,,010503
+G0268,Colcamar,council,district,G0031,,pending,,,,,,010504
+G0269,Conila,council,district,G0031,,pending,,,,,,010505
+G0270,Inguilpata,council,district,G0031,,pending,,,,,,010506
+G0271,Longuita,council,district,G0031,,pending,,,,,,010507
+G0272,Lonya Chico,council,district,G0031,,pending,,,,,,010508
+G0273,Luya,council,district,G0031,,pending,,,,,,010509
+G0274,Luya Viejo,council,district,G0031,,pending,,,,,,010510
+G0275,María,council,district,G0031,,pending,,,,,,010511
+G0276,Ocalli,council,district,G0031,,pending,,,,,,010512
+G0277,Ocumal,council,district,G0031,,pending,,,,,,010513
+G0278,Pisuquia,council,district,G0031,,pending,,,,,,010514
+G0279,Providencia,council,district,G0031,,pending,,,,,,010515
+G0280,San Cristóbal,council,district,G0031,,pending,,,,,,010516
+G0281,San Francisco de Yeso,council,district,G0031,,pending,,,,,,010517
+G0282,San Jerónimo,council,district,G0031,,pending,,,,,,010518
+G0283,San Juan de Lopecancha,council,district,G0031,,pending,,,,,,010519
+G0284,Santa Catalina,council,district,G0031,,pending,,,,,,010520
+G0285,Santo Tomas,council,district,G0031,,pending,,,,,,010521
+G0286,Tingo,council,district,G0031,,pending,,,,,,010522
+G0287,Trita,council,district,G0031,,pending,,,,,,010523
+G0288,San Nicolás,council,district,G0032,,pending,,,,,,010601
+G0289,Chirimoto,council,district,G0032,,pending,,,,,,010602
+G0290,Cochamal,council,district,G0032,,pending,,,,,,010603
+G0291,Huambo,council,district,G0032,,pending,,,,,,010604
+G0292,Limabamba,council,district,G0032,,pending,,,,,,010605
+G0293,Longar,council,district,G0032,,pending,,,,,,010606
+G0294,Mariscal Benavides,council,district,G0032,,pending,,,,,,010607
+G0295,Milpuc,council,district,G0032,,pending,,,,,,010608
+G0296,Omia,council,district,G0032,,pending,,,,,,010609
+G0297,Santa Rosa,council,district,G0032,,pending,,,,,,010610
+G0298,Totora,council,district,G0032,,pending,,,,,,010611
+G0299,Vista Alegre,council,district,G0032,,pending,,,,,,010612
+G0300,Bagua Grande,council,district,G0033,,pending,,,,,,010701
+G0301,Cajaruro,council,district,G0033,,pending,,,,,,010702
+G0302,Cumba,council,district,G0033,,pending,,,,,,010703
+G0303,El Milagro,council,district,G0033,,pending,,,,,,010704
+G0304,Jamalca,council,district,G0033,,pending,,,,,,010705
+G0305,Lonya Grande,council,district,G0033,,pending,,,,,,010706
+G0306,Yamon,council,district,G0033,,pending,,,,,,010707
+G0307,Huaraz,council,district,G0034,,pending,,,,,,020101
+G0308,Cochabamba,council,district,G0034,,pending,,,,,,020102
+G0309,Colcabamba,council,district,G0034,,pending,,,,,,020103
+G0310,Huanchay,council,district,G0034,,pending,,,,,,020104
+G0311,Independencia,council,district,G0034,,pending,,,,,,020105
+G0312,Jangas,council,district,G0034,,pending,,,,,,020106
+G0313,La Libertad,council,district,G0034,,pending,,,,,,020107
+G0314,Olleros,council,district,G0034,,pending,,,,,,020108
+G0315,Pampas Grande,council,district,G0034,,pending,,,,,,020109
+G0316,Pariacoto,council,district,G0034,,pending,,,,,,020110
+G0317,Pira,council,district,G0034,,pending,,,,,,020111
+G0318,Tarica,council,district,G0034,,pending,,,,,,020112
+G0319,Aija,council,district,G0035,,pending,,,,,,020201
+G0320,Coris,council,district,G0035,,pending,,,,,,020202
+G0321,Huacllan,council,district,G0035,,pending,,,,,,020203
+G0322,La Merced,council,district,G0035,,pending,,,,,,020204
+G0323,Succha,council,district,G0035,,pending,,,,,,020205
+G0324,Llamellin,council,district,G0036,,pending,,,,,,020301
+G0325,Aczo,council,district,G0036,,pending,,,,,,020302
+G0326,Chaccho,council,district,G0036,,pending,,,,,,020303
+G0327,Chingas,council,district,G0036,,pending,,,,,,020304
+G0328,Mirgas,council,district,G0036,,pending,,,,,,020305
+G0329,San Juan de Rontoy,council,district,G0036,,pending,,,,,,020306
+G0330,Chacas,council,district,G0037,,pending,,,,,,020401
+G0331,Acochaca,council,district,G0037,,pending,,,,,,020402
+G0332,Chiquian,council,district,G0038,,pending,,,,,,020501
+G0333,Abelardo Pardo Lezameta,council,district,G0038,,pending,,,,,,020502
+G0334,Antonio Raymondi,council,district,G0038,,pending,,,,,,020503
+G0335,Aquia,council,district,G0038,,pending,,,,,,020504
+G0336,Cajacay,council,district,G0038,,pending,,,,,,020505
+G0337,Canis,council,district,G0038,,pending,,,,,,020506
+G0338,Colquioc,council,district,G0038,,pending,,,,,,020507
+G0339,Huallanca,council,district,G0038,,pending,,,,,,020508
+G0340,Huasta,council,district,G0038,,pending,,,,,,020509
+G0341,Huayllacayan,council,district,G0038,,pending,,,,,,020510
+G0342,La Primavera,council,district,G0038,,pending,,,,,,020511
+G0343,Mangas,council,district,G0038,,pending,,,,,,020512
+G0344,Pacllon,council,district,G0038,,pending,,,,,,020513
+G0345,San Miguel de Corpanqui,council,district,G0038,,pending,,,,,,020514
+G0346,Ticllos,council,district,G0038,,pending,,,,,,020515
+G0347,Carhuaz,council,district,G0039,,pending,,,,,,020601
+G0348,Acopampa,council,district,G0039,,pending,,,,,,020602
+G0349,Amashca,council,district,G0039,,pending,,,,,,020603
+G0350,Anta,council,district,G0039,,pending,,,,,,020604
+G0351,Ataquero,council,district,G0039,,pending,,,,,,020605
+G0352,Marcara,council,district,G0039,,pending,,,,,,020606
+G0353,Pariahuanca,council,district,G0039,,pending,,,,,,020607
+G0354,San Miguel de Aco,council,district,G0039,,pending,,,,,,020608
+G0355,Shilla,council,district,G0039,,pending,,,,,,020609
+G0356,Tinco,council,district,G0039,,pending,,,,,,020610
+G0357,Yungar,council,district,G0039,,pending,,,,,,020611
+G0358,San Luis,council,district,G0040,,pending,,,,,,020701
+G0359,San Nicolás,council,district,G0040,,pending,,,,,,020702
+G0360,Yauya,council,district,G0040,,pending,,,,,,020703
+G0361,Casma,council,district,G0041,,pending,,,,,,020801
+G0362,Buena Vista Alta,council,district,G0041,,pending,,,,,,020802
+G0363,Comandante Noel,council,district,G0041,,pending,,,,,,020803
+G0364,Yautan,council,district,G0041,,pending,,,,,,020804
+G0365,Corongo,council,district,G0042,,pending,,,,,,020901
+G0366,Aco,council,district,G0042,,pending,,,,,,020902
+G0367,Bambas,council,district,G0042,,pending,,,,,,020903
+G0368,Cusca,council,district,G0042,,pending,,,,,,020904
+G0369,La Pampa,council,district,G0042,,pending,,,,,,020905
+G0370,Yanac,council,district,G0042,,pending,,,,,,020906
+G0371,Yupan,council,district,G0042,,pending,,,,,,020907
+G0372,Huari,council,district,G0043,,pending,,,,,,021001
+G0373,Anra,council,district,G0043,,pending,,,,,,021002
+G0374,Cajay,council,district,G0043,,pending,,,,,,021003
+G0375,Chavin de Huantar,council,district,G0043,,pending,,,,,,021004
+G0376,Huacachi,council,district,G0043,,pending,,,,,,021005
+G0377,Huacchis,council,district,G0043,,pending,,,,,,021006
+G0378,Huachis,council,district,G0043,,pending,,,,,,021007
+G0379,Huantar,council,district,G0043,,pending,,,,,,021008
+G0380,Masin,council,district,G0043,,pending,,,,,,021009
+G0381,Paucas,council,district,G0043,,pending,,,,,,021010
+G0382,Ponto,council,district,G0043,,pending,,,,,,021011
+G0383,Rahuapampa,council,district,G0043,,pending,,,,,,021012
+G0384,Rapayan,council,district,G0043,,pending,,,,,,021013
+G0385,San Marcos,council,district,G0043,,pending,,,,,,021014
+G0386,San Pedro de Chana,council,district,G0043,,pending,,,,,,021015
+G0387,Uco,council,district,G0043,,pending,,,,,,021016
+G0388,Huarmey,council,district,G0044,,pending,,,,,,021101
+G0389,Cochapeti,council,district,G0044,,pending,,,,,,021102
+G0390,Culebras,council,district,G0044,,pending,,,,,,021103
+G0391,Huayan,council,district,G0044,,pending,,,,,,021104
+G0392,Malvas,council,district,G0044,,pending,,,,,,021105
+G0393,Caraz,council,district,G0045,,pending,,,,,,021201
+G0394,Huallanca,council,district,G0045,,pending,,,,,,021202
+G0395,Huata,council,district,G0045,,pending,,,,,,021203
+G0396,Huaylas,council,district,G0045,,pending,,,,,,021204
+G0397,Mato,council,district,G0045,,pending,,,,,,021205
+G0398,Pamparomas,council,district,G0045,,pending,,,,,,021206
+G0399,Pueblo Libre,council,district,G0045,,pending,,,,,,021207
+G0400,Santa Cruz,council,district,G0045,,pending,,,,,,021208
+G0401,Santo Toribio,council,district,G0045,,pending,,,,,,021209
+G0402,Yuracmarca,council,district,G0045,,pending,,,,,,021210
+G0403,Piscobamba,council,district,G0046,,pending,,,,,,021301
+G0404,Casca,council,district,G0046,,pending,,,,,,021302
+G0405,Eleazar Guzmán Barron,council,district,G0046,,pending,,,,,,021303
+G0406,Fidel Olivas Escudero,council,district,G0046,,pending,,,,,,021304
+G0407,Llama,council,district,G0046,,pending,,,,,,021305
+G0408,Llumpa,council,district,G0046,,pending,,,,,,021306
+G0409,Lucma,council,district,G0046,,pending,,,,,,021307
+G0410,Musga,council,district,G0046,,pending,,,,,,021308
+G0411,Ocros,council,district,G0047,,pending,,,,,,021401
+G0412,Acas,council,district,G0047,,pending,,,,,,021402
+G0413,Cajamarquilla,council,district,G0047,,pending,,,,,,021403
+G0414,Carhuapampa,council,district,G0047,,pending,,,,,,021404
+G0415,Cochas,council,district,G0047,,pending,,,,,,021405
+G0416,Congas,council,district,G0047,,pending,,,,,,021406
+G0417,Llipa,council,district,G0047,,pending,,,,,,021407
+G0418,San Cristóbal de Rajan,council,district,G0047,,pending,,,,,,021408
+G0419,San Pedro,council,district,G0047,,pending,,,,,,021409
+G0420,Santiago de Chilcas,council,district,G0047,,pending,,,,,,021410
+G0421,Cabana,council,district,G0048,,pending,,,,,,021501
+G0422,Bolognesi,council,district,G0048,,pending,,,,,,021502
+G0423,Conchucos,council,district,G0048,,pending,,,,,,021503
+G0424,Huacaschuque,council,district,G0048,,pending,,,,,,021504
+G0425,Huandoval,council,district,G0048,,pending,,,,,,021505
+G0426,Lacabamba,council,district,G0048,,pending,,,,,,021506
+G0427,Llapo,council,district,G0048,,pending,,,,,,021507
+G0428,Pallasca,council,district,G0048,,pending,,,,,,021508
+G0429,Pampas,council,district,G0048,,pending,,,,,,021509
+G0430,Santa Rosa,council,district,G0048,,pending,,,,,,021510
+G0431,Tauca,council,district,G0048,,pending,,,,,,021511
+G0432,Pomabamba,council,district,G0049,,pending,,,,,,021601
+G0433,Huayllan,council,district,G0049,,pending,,,,,,021602
+G0434,Parobamba,council,district,G0049,,pending,,,,,,021603
+G0435,Quinuabamba,council,district,G0049,,pending,,,,,,021604
+G0436,Recuay,council,district,G0050,,pending,,,,,,021701
+G0437,Catac,council,district,G0050,,pending,,,,,,021702
+G0438,Cotaparaco,council,district,G0050,,pending,,,,,,021703
+G0439,Huayllapampa,council,district,G0050,,pending,,,,,,021704
+G0440,Llacllin,council,district,G0050,,pending,,,,,,021705
+G0441,Marca,council,district,G0050,,pending,,,,,,021706
+G0442,Pampas Chico,council,district,G0050,,pending,,,,,,021707
+G0443,Pararin,council,district,G0050,,pending,,,,,,021708
+G0444,Tapacocha,council,district,G0050,,pending,,,,,,021709
+G0445,Ticapampa,council,district,G0050,,pending,,,,,,021710
+G0446,Chimbote,council,district,G0051,,pending,,,,,,021801
+G0447,Cáceres del Perú,council,district,G0051,,pending,,,,,,021802
+G0448,Coishco,council,district,G0051,,pending,,,,,,021803
+G0449,Macate,council,district,G0051,,pending,,,,,,021804
+G0450,Moro,council,district,G0051,,pending,,,,,,021805
+G0451,Nepeña,council,district,G0051,,pending,,,,,,021806
+G0452,Samanco,council,district,G0051,,pending,,,,,,021807
+G0453,Santa,council,district,G0051,,pending,,,,,,021808
+G0454,Nuevo Chimbote,council,district,G0051,,pending,,,,,,021809
+G0455,Sihuas,council,district,G0052,,pending,,,,,,021901
+G0456,Acobamba,council,district,G0052,,pending,,,,,,021902
+G0457,Alfonso Ugarte,council,district,G0052,,pending,,,,,,021903
+G0458,Cashapampa,council,district,G0052,,pending,,,,,,021904
+G0459,Chingalpo,council,district,G0052,,pending,,,,,,021905
+G0460,Huayllabamba,council,district,G0052,,pending,,,,,,021906
+G0461,Quiches,council,district,G0052,,pending,,,,,,021907
+G0462,Ragash,council,district,G0052,,pending,,,,,,021908
+G0463,San Juan,council,district,G0052,,pending,,,,,,021909
+G0464,Sicsibamba,council,district,G0052,,pending,,,,,,021910
+G0465,Yungay,council,district,G0053,,pending,,,,,,022001
+G0466,Cascapara,council,district,G0053,,pending,,,,,,022002
+G0467,Mancos,council,district,G0053,,pending,,,,,,022003
+G0468,Matacoto,council,district,G0053,,pending,,,,,,022004
+G0469,Quillo,council,district,G0053,,pending,,,,,,022005
+G0470,Ranrahirca,council,district,G0053,,pending,,,,,,022006
+G0471,Shupluy,council,district,G0053,,pending,,,,,,022007
+G0472,Yanama,council,district,G0053,,pending,,,,,,022008
+G0473,Abancay,council,district,G0054,,pending,,,,,,030101
+G0474,Chacoche,council,district,G0054,,pending,,,,,,030102
+G0475,Circa,council,district,G0054,,pending,,,,,,030103
+G0476,Curahuasi,council,district,G0054,,pending,,,,,,030104
+G0477,Huanipaca,council,district,G0054,,pending,,,,,,030105
+G0478,Lambrama,council,district,G0054,,pending,,,,,,030106
+G0479,Pichirhua,council,district,G0054,,pending,,,,,,030107
+G0480,San Pedro de Cachora,council,district,G0054,,pending,,,,,,030108
+G0481,Tamburco,council,district,G0054,,pending,,,,,,030109
+G0482,Andahuaylas,council,district,G0055,,pending,,,,,,030201
+G0483,Andarapa,council,district,G0055,,pending,,,,,,030202
+G0484,Chiara,council,district,G0055,,pending,,,,,,030203
+G0485,Huancarama,council,district,G0055,,pending,,,,,,030204
+G0486,Huancaray,council,district,G0055,,pending,,,,,,030205
+G0487,Huayana,council,district,G0055,,pending,,,,,,030206
+G0488,Kishuara,council,district,G0055,,pending,,,,,,030207
+G0489,Pacobamba,council,district,G0055,,pending,,,,,,030208
+G0490,Pacucha,council,district,G0055,,pending,,,,,,030209
+G0491,Pampachiri,council,district,G0055,,pending,,,,,,030210
+G0492,Pomacocha,council,district,G0055,,pending,,,,,,030211
+G0493,San Antonio de Cachi,council,district,G0055,,pending,,,,,,030212
+G0494,San Jerónimo,council,district,G0055,,pending,,,,,,030213
+G0495,San Miguel de Chaccrampa,council,district,G0055,,pending,,,,,,030214
+G0496,Santa María de Chicmo,council,district,G0055,,pending,,,,,,030215
+G0497,Talavera,council,district,G0055,,pending,,,,,,030216
+G0498,Tumay Huaraca,council,district,G0055,,pending,,,,,,030217
+G0499,Turpo,council,district,G0055,,pending,,,,,,030218
+G0500,Kaquiabamba,council,district,G0055,,pending,,,,,,030219
+G0501,José María Arguedas,council,district,G0055,,pending,,,,,,030220
+G0502,Antabamba,council,district,G0056,,pending,,,,,,030301
+G0503,El Oro,council,district,G0056,,pending,,,,,,030302
+G0504,Huaquirca,council,district,G0056,,pending,,,,,,030303
+G0505,Juan Espinoza Medrano,council,district,G0056,,pending,,,,,,030304
+G0506,Oropesa,council,district,G0056,,pending,,,,,,030305
+G0507,Pachaconas,council,district,G0056,,pending,,,,,,030306
+G0508,Sabaino,council,district,G0056,,pending,,,,,,030307
+G0509,Chalhuanca,council,district,G0057,,pending,,,,,,030401
+G0510,Capaya,council,district,G0057,,pending,,,,,,030402
+G0511,Caraybamba,council,district,G0057,,pending,,,,,,030403
+G0512,Chapimarca,council,district,G0057,,pending,,,,,,030404
+G0513,Colcabamba,council,district,G0057,,pending,,,,,,030405
+G0514,Cotaruse,council,district,G0057,,pending,,,,,,030406
+G0515,Ihuayllo,council,district,G0057,,pending,,,,,,030407
+G0516,Justo Apu Sahuaraura,council,district,G0057,,pending,,,,,,030408
+G0517,Lucre,council,district,G0057,,pending,,,,,,030409
+G0518,Pocohuanca,council,district,G0057,,pending,,,,,,030410
+G0519,San Juan de Chacña,council,district,G0057,,pending,,,,,,030411
+G0520,Sañayca,council,district,G0057,,pending,,,,,,030412
+G0521,Soraya,council,district,G0057,,pending,,,,,,030413
+G0522,Tapairihua,council,district,G0057,,pending,,,,,,030414
+G0523,Tintay,council,district,G0057,,pending,,,,,,030415
+G0524,Toraya,council,district,G0057,,pending,,,,,,030416
+G0525,Yanaca,council,district,G0057,,pending,,,,,,030417
+G0526,Tambobamba,council,district,G0058,,pending,,,,,,030501
+G0527,Cotabambas,council,district,G0058,,pending,,,,,,030502
+G0528,Coyllurqui,council,district,G0058,,pending,,,,,,030503
+G0529,Haquira,council,district,G0058,,pending,,,,,,030504
+G0530,Mara,council,district,G0058,,pending,,,,,,030505
+G0531,Challhuahuacho,council,district,G0058,,pending,,,,,,030506
+G0532,Chincheros,council,district,G0059,,pending,,,,,,030601
+G0533,Anco_Huallo,council,district,G0059,,pending,,,,,,030602
+G0534,Cocharcas,council,district,G0059,,pending,,,,,,030603
+G0535,Huaccana,council,district,G0059,,pending,,,,,,030604
+G0536,Ocobamba,council,district,G0059,,pending,,,,,,030605
+G0537,Ongoy,council,district,G0059,,pending,,,,,,030606
+G0538,Uranmarca,council,district,G0059,,pending,,,,,,030607
+G0539,Ranracancha,council,district,G0059,,pending,,,,,,030608
+G0540,Rocchacc,council,district,G0059,,pending,,,,,,030609
+G0541,El Porvenir,council,district,G0059,,pending,,,,,,030610
+G0542,Los Chankas,council,district,G0059,,pending,,,,,,030611
+G0543,Ahuayro,council,district,G0059,,pending,,,,,,030612
+G0544,Chuquibambilla,council,district,G0060,,pending,,,,,,030701
+G0545,Curpahuasi,council,district,G0060,,pending,,,,,,030702
+G0546,Gamarra,council,district,G0060,,pending,,,,,,030703
+G0547,Huayllati,council,district,G0060,,pending,,,,,,030704
+G0548,Mamara,council,district,G0060,,pending,,,,,,030705
+G0549,Micaela Bastidas,council,district,G0060,,pending,,,,,,030706
+G0550,Pataypampa,council,district,G0060,,pending,,,,,,030707
+G0551,Progreso,council,district,G0060,,pending,,,,,,030708
+G0552,San Antonio,council,district,G0060,,pending,,,,,,030709
+G0553,Santa Rosa,council,district,G0060,,pending,,,,,,030710
+G0554,Turpay,council,district,G0060,,pending,,,,,,030711
+G0555,Vilcabamba,council,district,G0060,,pending,,,,,,030712
+G0556,Virundo,council,district,G0060,,pending,,,,,,030713
+G0557,Curasco,council,district,G0060,,pending,,,,,,030714
+G0558,Arequipa,council,district,G0061,,pending,,,,,,040101
+G0559,Alto Selva Alegre,council,district,G0061,,pending,,,,,,040102
+G0560,Cayma,council,district,G0061,,pending,,,,,,040103
+G0561,Cerro Colorado,council,district,G0061,,pending,,,,,,040104
+G0562,Characato,council,district,G0061,,pending,,,,,,040105
+G0563,Chiguata,council,district,G0061,,pending,,,,,,040106
+G0564,Jacobo Hunter,council,district,G0061,,pending,,,,,,040107
+G0565,La Joya,council,district,G0061,,pending,,,,,,040108
+G0566,Mariano Melgar,council,district,G0061,,pending,,,,,,040109
+G0567,Miraflores,council,district,G0061,,pending,,,,,,040110
+G0568,Mollebaya,council,district,G0061,,pending,,,,,,040111
+G0569,Paucarpata,council,district,G0061,,pending,,,,,,040112
+G0570,Pocsi,council,district,G0061,,pending,,,,,,040113
+G0571,Polobaya,council,district,G0061,,pending,,,,,,040114
+G0572,Quequeña,council,district,G0061,,pending,,,,,,040115
+G0573,Sabandia,council,district,G0061,,pending,,,,,,040116
+G0574,Sachaca,council,district,G0061,,pending,,,,,,040117
+G0575,San Juan de Siguas,council,district,G0061,,pending,,,,,,040118
+G0576,San Juan de Tarucani,council,district,G0061,,pending,,,,,,040119
+G0577,Santa Isabel de Siguas,council,district,G0061,,pending,,,,,,040120
+G0578,Santa Rita de Siguas,council,district,G0061,,pending,,,,,,040121
+G0579,Socabaya,council,district,G0061,,pending,,,,,,040122
+G0580,Tiabaya,council,district,G0061,,pending,,,,,,040123
+G0581,Uchumayo,council,district,G0061,,pending,,,,,,040124
+G0582,Vitor,council,district,G0061,,pending,,,,,,040125
+G0583,Yanahuara,council,district,G0061,,pending,,,,,,040126
+G0584,Yarabamba,council,district,G0061,,pending,,,,,,040127
+G0585,Yura,council,district,G0061,,pending,,,,,,040128
+G0586,José Luis Bustamante Y Rivero,council,district,G0061,,pending,,,,,,040129
+G0587,Camaná,council,district,G0062,,pending,,,,,,040201
+G0588,José María Quimper,council,district,G0062,,pending,,,,,,040202
+G0589,Mariano Nicolás Valcárcel,council,district,G0062,,pending,,,,,,040203
+G0590,Mariscal Cáceres,council,district,G0062,,pending,,,,,,040204
+G0591,Nicolás de Pierola,council,district,G0062,,pending,,,,,,040205
+G0592,Ocoña,council,district,G0062,,pending,,,,,,040206
+G0593,Quilca,council,district,G0062,,pending,,,,,,040207
+G0594,Samuel Pastor,council,district,G0062,,pending,,,,,,040208
+G0595,Caravelí,council,district,G0063,,pending,,,,,,040301
+G0596,Acarí,council,district,G0063,,pending,,,,,,040302
+G0597,Atico,council,district,G0063,,pending,,,,,,040303
+G0598,Atiquipa,council,district,G0063,,pending,,,,,,040304
+G0599,Bella Unión,council,district,G0063,,pending,,,,,,040305
+G0600,Cahuacho,council,district,G0063,,pending,,,,,,040306
+G0601,Chala,council,district,G0063,,pending,,,,,,040307
+G0602,Chaparra,council,district,G0063,,pending,,,,,,040308
+G0603,Huanuhuanu,council,district,G0063,,pending,,,,,,040309
+G0604,Jaqui,council,district,G0063,,pending,,,,,,040310
+G0605,Lomas,council,district,G0063,,pending,,,,,,040311
+G0606,Quicacha,council,district,G0063,,pending,,,,,,040312
+G0607,Yauca,council,district,G0063,,pending,,,,,,040313
+G0608,Aplao,council,district,G0064,,pending,,,,,,040401
+G0609,Andagua,council,district,G0064,,pending,,,,,,040402
+G0610,Ayo,council,district,G0064,,pending,,,,,,040403
+G0611,Chachas,council,district,G0064,,pending,,,,,,040404
+G0612,Chilcaymarca,council,district,G0064,,pending,,,,,,040405
+G0613,Choco,council,district,G0064,,pending,,,,,,040406
+G0614,Huancarqui,council,district,G0064,,pending,,,,,,040407
+G0615,Machaguay,council,district,G0064,,pending,,,,,,040408
+G0616,Orcopampa,council,district,G0064,,pending,,,,,,040409
+G0617,Pampacolca,council,district,G0064,,pending,,,,,,040410
+G0618,Tipan,council,district,G0064,,pending,,,,,,040411
+G0619,Uñon,council,district,G0064,,pending,,,,,,040412
+G0620,Uraca,council,district,G0064,,pending,,,,,,040413
+G0621,Viraco,council,district,G0064,,pending,,,,,,040414
+G0622,Chivay,council,district,G0065,,pending,,,,,,040501
+G0623,Achoma,council,district,G0065,,pending,,,,,,040502
+G0624,Cabanaconde,council,district,G0065,,pending,,,,,,040503
+G0625,Callalli,council,district,G0065,,pending,,,,,,040504
+G0626,Caylloma,council,district,G0065,,pending,,,,,,040505
+G0627,Coporaque,council,district,G0065,,pending,,,,,,040506
+G0628,Huambo,council,district,G0065,,pending,,,,,,040507
+G0629,Huanca,council,district,G0065,,pending,,,,,,040508
+G0630,Ichupampa,council,district,G0065,,pending,,,,,,040509
+G0631,Lari,council,district,G0065,,pending,,,,,,040510
+G0632,Lluta,council,district,G0065,,pending,,,,,,040511
+G0633,Maca,council,district,G0065,,pending,,,,,,040512
+G0634,Madrigal,council,district,G0065,,pending,,,,,,040513
+G0635,San Antonio de Chuca,council,district,G0065,,pending,,,,,,040514
+G0636,Sibayo,council,district,G0065,,pending,,,,,,040515
+G0637,Tapay,council,district,G0065,,pending,,,,,,040516
+G0638,Tisco,council,district,G0065,,pending,,,,,,040517
+G0639,Tuti,council,district,G0065,,pending,,,,,,040518
+G0640,Yanque,council,district,G0065,,pending,,,,,,040519
+G0641,Majes,council,district,G0065,,pending,,,,,,040520
+G0642,Chuquibamba,council,district,G0066,,pending,,,,,,040601
+G0643,Andaray,council,district,G0066,,pending,,,,,,040602
+G0644,Cayarani,council,district,G0066,,pending,,,,,,040603
+G0645,Chichas,council,district,G0066,,pending,,,,,,040604
+G0646,Iray,council,district,G0066,,pending,,,,,,040605
+G0647,Río Grande,council,district,G0066,,pending,,,,,,040606
+G0648,Salamanca,council,district,G0066,,pending,,,,,,040607
+G0649,Yanaquihua,council,district,G0066,,pending,,,,,,040608
+G0650,Mollendo,council,district,G0067,,pending,,,,,,040701
+G0651,Cocachacra,council,district,G0067,,pending,,,,,,040702
+G0652,Dean Valdivia,council,district,G0067,,pending,,,,,,040703
+G0653,Islay,council,district,G0067,,pending,,,,,,040704
+G0654,Mejia,council,district,G0067,,pending,,,,,,040705
+G0655,Punta de Bombón,council,district,G0067,,pending,,,,,,040706
+G0656,Cotahuasi,council,district,G0068,,pending,,,,,,040801
+G0657,Alca,council,district,G0068,,pending,,,,,,040802
+G0658,Charcana,council,district,G0068,,pending,,,,,,040803
+G0659,Huaynacotas,council,district,G0068,,pending,,,,,,040804
+G0660,Pampamarca,council,district,G0068,,pending,,,,,,040805
+G0661,Puyca,council,district,G0068,,pending,,,,,,040806
+G0662,Quechualla,council,district,G0068,,pending,,,,,,040807
+G0663,Sayla,council,district,G0068,,pending,,,,,,040808
+G0664,Tauria,council,district,G0068,,pending,,,,,,040809
+G0665,Tomepampa,council,district,G0068,,pending,,,,,,040810
+G0666,Toro,council,district,G0068,,pending,,,,,,040811
+G0667,Ayacucho,council,district,G0069,,pending,,,,,,050101
+G0668,Acocro,council,district,G0069,,pending,,,,,,050102
+G0669,Acos Vinchos,council,district,G0069,,pending,,,,,,050103
+G0670,Carmen Alto,council,district,G0069,,pending,,,,,,050104
+G0671,Chiara,council,district,G0069,,pending,,,,,,050105
+G0672,Ocros,council,district,G0069,,pending,,,,,,050106
+G0673,Pacaycasa,council,district,G0069,,pending,,,,,,050107
+G0674,Quinua,council,district,G0069,,pending,,,,,,050108
+G0675,San José de Ticllas,council,district,G0069,,pending,,,,,,050109
+G0676,San Juan Bautista,council,district,G0069,,pending,,,,,,050110
+G0677,Santiago de Pischa,council,district,G0069,,pending,,,,,,050111
+G0678,Socos,council,district,G0069,,pending,,,,,,050112
+G0679,Tambillo,council,district,G0069,,pending,,,,,,050113
+G0680,Vinchos,council,district,G0069,,pending,,,,,,050114
+G0681,Jesús Nazareno,council,district,G0069,,pending,,,,,,050115
+G0682,Andrés Avelino Cáceres Dorregaray,council,district,G0069,,pending,,,,,,050116
+G0683,Cangallo,council,district,G0070,,pending,,,,,,050201
+G0684,Chuschi,council,district,G0070,,pending,,,,,,050202
+G0685,Los Morochucos,council,district,G0070,,pending,,,,,,050203
+G0686,María Parado de Bellido,council,district,G0070,,pending,,,,,,050204
+G0687,Paras,council,district,G0070,,pending,,,,,,050205
+G0688,Totos,council,district,G0070,,pending,,,,,,050206
+G0689,Sancos,council,district,G0071,,pending,,,,,,050301
+G0690,Carapo,council,district,G0071,,pending,,,,,,050302
+G0691,Sacsamarca,council,district,G0071,,pending,,,,,,050303
+G0692,Santiago de Lucanamarca,council,district,G0071,,pending,,,,,,050304
+G0693,Huanta,council,district,G0072,,pending,,,,,,050401
+G0694,Ayahuanco,council,district,G0072,,pending,,,,,,050402
+G0695,Huamanguilla,council,district,G0072,,pending,,,,,,050403
+G0696,Iguain,council,district,G0072,,pending,,,,,,050404
+G0697,Luricocha,council,district,G0072,,pending,,,,,,050405
+G0698,Santillana,council,district,G0072,,pending,,,,,,050406
+G0699,Sivia,council,district,G0072,,pending,,,,,,050407
+G0700,Llochegua,council,district,G0072,,pending,,,,,,050408
+G0701,Canayre,council,district,G0072,,pending,,,,,,050409
+G0702,Uchuraccay,council,district,G0072,,pending,,,,,,050410
+G0703,Pucacolpa,council,district,G0072,,pending,,,,,,050411
+G0704,Chaca,council,district,G0072,,pending,,,,,,050412
+G0705,Putis,council,district,G0072,,pending,,,,,,050413
+G0706,San Miguel,council,district,G0073,,pending,,,,,,050501
+G0707,Anco,council,district,G0073,,pending,,,,,,050502
+G0708,Ayna,council,district,G0073,,pending,,,,,,050503
+G0709,Chilcas,council,district,G0073,,pending,,,,,,050504
+G0710,Chungui,council,district,G0073,,pending,,,,,,050505
+G0711,Luis Carranza,council,district,G0073,,pending,,,,,,050506
+G0712,Santa Rosa,council,district,G0073,,pending,,,,,,050507
+G0713,Tambo,council,district,G0073,,pending,,,,,,050508
+G0714,Samugari,council,district,G0073,,pending,,,,,,050509
+G0715,Anchihuay,council,district,G0073,,pending,,,,,,050510
+G0716,Oronccoy,council,district,G0073,,pending,,,,,,050511
+G0717,Unión Progreso,council,district,G0073,,pending,,,,,,050512
+G0718,Rio Magdalena,council,district,G0073,,pending,,,,,,050513
+G0719,Ninabamba,council,district,G0073,,pending,,,,,,050514
+G0720,Patibamba,council,district,G0073,,pending,,,,,,050515
+G0721,Puquio,council,district,G0074,,pending,,,,,,050601
+G0722,Aucara,council,district,G0074,,pending,,,,,,050602
+G0723,Cabana,council,district,G0074,,pending,,,,,,050603
+G0724,Carmen Salcedo,council,district,G0074,,pending,,,,,,050604
+G0725,Chaviña,council,district,G0074,,pending,,,,,,050605
+G0726,Chipao,council,district,G0074,,pending,,,,,,050606
+G0727,Huac-Huas,council,district,G0074,,pending,,,,,,050607
+G0728,Laramate,council,district,G0074,,pending,,,,,,050608
+G0729,Leoncio Prado,council,district,G0074,,pending,,,,,,050609
+G0730,Llauta,council,district,G0074,,pending,,,,,,050610
+G0731,Lucanas,council,district,G0074,,pending,,,,,,050611
+G0732,Ocaña,council,district,G0074,,pending,,,,,,050612
+G0733,Otoca,council,district,G0074,,pending,,,,,,050613
+G0734,Saisa,council,district,G0074,,pending,,,,,,050614
+G0735,San Cristóbal,council,district,G0074,,pending,,,,,,050615
+G0736,San Juan,council,district,G0074,,pending,,,,,,050616
+G0737,San Pedro,council,district,G0074,,pending,,,,,,050617
+G0738,San Pedro de Palco,council,district,G0074,,pending,,,,,,050618
+G0739,Sancos,council,district,G0074,,pending,,,,,,050619
+G0740,Santa Ana de Huaycahuacho,council,district,G0074,,pending,,,,,,050620
+G0741,Santa Lucia,council,district,G0074,,pending,,,,,,050621
+G0742,Coracora,council,district,G0075,,pending,,,,,,050701
+G0743,Chumpi,council,district,G0075,,pending,,,,,,050702
+G0744,Coronel Castañeda,council,district,G0075,,pending,,,,,,050703
+G0745,Pacapausa,council,district,G0075,,pending,,,,,,050704
+G0746,Pullo,council,district,G0075,,pending,,,,,,050705
+G0747,Puyusca,council,district,G0075,,pending,,,,,,050706
+G0748,San Francisco de Rivacayco,council,district,G0075,,pending,,,,,,050707
+G0749,Upahuacho,council,district,G0075,,pending,,,,,,050708
+G0750,Pausa,council,district,G0076,,pending,,,,,,050801
+G0751,Colta,council,district,G0076,,pending,,,,,,050802
+G0752,Corculla,council,district,G0076,,pending,,,,,,050803
+G0753,Lampa,council,district,G0076,,pending,,,,,,050804
+G0754,Marcabamba,council,district,G0076,,pending,,,,,,050805
+G0755,Oyolo,council,district,G0076,,pending,,,,,,050806
+G0756,Pararca,council,district,G0076,,pending,,,,,,050807
+G0757,San Javier de Alpabamba,council,district,G0076,,pending,,,,,,050808
+G0758,San José de Ushua,council,district,G0076,,pending,,,,,,050809
+G0759,Sara Sara,council,district,G0076,,pending,,,,,,050810
+G0760,Querobamba,council,district,G0077,,pending,,,,,,050901
+G0761,Belén,council,district,G0077,,pending,,,,,,050902
+G0762,Chalcos,council,district,G0077,,pending,,,,,,050903
+G0763,Chilcayoc,council,district,G0077,,pending,,,,,,050904
+G0764,Huacaña,council,district,G0077,,pending,,,,,,050905
+G0765,Morcolla,council,district,G0077,,pending,,,,,,050906
+G0766,Paico,council,district,G0077,,pending,,,,,,050907
+G0767,San Pedro de Larcay,council,district,G0077,,pending,,,,,,050908
+G0768,San Salvador de Quije,council,district,G0077,,pending,,,,,,050909
+G0769,Santiago de Paucaray,council,district,G0077,,pending,,,,,,050910
+G0770,Soras,council,district,G0077,,pending,,,,,,050911
+G0771,Huancapi,council,district,G0078,,pending,,,,,,051001
+G0772,Alcamenca,council,district,G0078,,pending,,,,,,051002
+G0773,Apongo,council,district,G0078,,pending,,,,,,051003
+G0774,Asquipata,council,district,G0078,,pending,,,,,,051004
+G0775,Canaria,council,district,G0078,,pending,,,,,,051005
+G0776,Cayara,council,district,G0078,,pending,,,,,,051006
+G0777,Colca,council,district,G0078,,pending,,,,,,051007
+G0778,Huamanquiquia,council,district,G0078,,pending,,,,,,051008
+G0779,Huancaraylla,council,district,G0078,,pending,,,,,,051009
+G0780,Hualla,council,district,G0078,,pending,,,,,,051010
+G0781,Sarhua,council,district,G0078,,pending,,,,,,051011
+G0782,Vilcanchos,council,district,G0078,,pending,,,,,,051012
+G0783,Vilcas Huaman,council,district,G0079,,pending,,,,,,051101
+G0784,Accomarca,council,district,G0079,,pending,,,,,,051102
+G0785,Carhuanca,council,district,G0079,,pending,,,,,,051103
+G0786,Concepción,council,district,G0079,,pending,,,,,,051104
+G0787,Huambalpa,council,district,G0079,,pending,,,,,,051105
+G0788,Independencia,council,district,G0079,,pending,,,,,,051106
+G0789,Saurama,council,district,G0079,,pending,,,,,,051107
+G0790,Vischongo,council,district,G0079,,pending,,,,,,051108
+G0791,Cajamarca,council,district,G0080,,pending,,,,,,060101
+G0792,Asunción,council,district,G0080,,pending,,,,,,060102
+G0793,Chetilla,council,district,G0080,,pending,,,,,,060103
+G0794,Cospan,council,district,G0080,,pending,,,,,,060104
+G0795,Encañada,council,district,G0080,,pending,,,,,,060105
+G0796,Jesús,council,district,G0080,,pending,,,,,,060106
+G0797,Llacanora,council,district,G0080,,pending,,,,,,060107
+G0798,Los Baños del Inca,council,district,G0080,,pending,,,,,,060108
+G0799,Magdalena,council,district,G0080,,pending,,,,,,060109
+G0800,Matara,council,district,G0080,,pending,,,,,,060110
+G0801,Namora,council,district,G0080,,pending,,,,,,060111
+G0802,San Juan,council,district,G0080,,pending,,,,,,060112
+G0803,Cajabamba,council,district,G0081,,pending,,,,,,060201
+G0804,Cachachi,council,district,G0081,,pending,,,,,,060202
+G0805,Condebamba,council,district,G0081,,pending,,,,,,060203
+G0806,Sitacocha,council,district,G0081,,pending,,,,,,060204
+G0807,Celendín,council,district,G0082,,pending,,,,,,060301
+G0808,Chumuch,council,district,G0082,,pending,,,,,,060302
+G0809,Cortegana,council,district,G0082,,pending,,,,,,060303
+G0810,Huasmin,council,district,G0082,,pending,,,,,,060304
+G0811,Jorge Chávez,council,district,G0082,,pending,,,,,,060305
+G0812,José Gálvez,council,district,G0082,,pending,,,,,,060306
+G0813,Miguel Iglesias,council,district,G0082,,pending,,,,,,060307
+G0814,Oxamarca,council,district,G0082,,pending,,,,,,060308
+G0815,Sorochuco,council,district,G0082,,pending,,,,,,060309
+G0816,Sucre,council,district,G0082,,pending,,,,,,060310
+G0817,Utco,council,district,G0082,,pending,,,,,,060311
+G0818,La Libertad de Pallan,council,district,G0082,,pending,,,,,,060312
+G0819,Chota,council,district,G0083,,pending,,,,,,060401
+G0820,Anguia,council,district,G0083,,pending,,,,,,060402
+G0821,Chadin,council,district,G0083,,pending,,,,,,060403
+G0822,Chiguirip,council,district,G0083,,pending,,,,,,060404
+G0823,Chimban,council,district,G0083,,pending,,,,,,060405
+G0824,Choropampa,council,district,G0083,,pending,,,,,,060406
+G0825,Cochabamba,council,district,G0083,,pending,,,,,,060407
+G0826,Conchan,council,district,G0083,,pending,,,,,,060408
+G0827,Huambos,council,district,G0083,,pending,,,,,,060409
+G0828,Lajas,council,district,G0083,,pending,,,,,,060410
+G0829,Llama,council,district,G0083,,pending,,,,,,060411
+G0830,Miracosta,council,district,G0083,,pending,,,,,,060412
+G0831,Paccha,council,district,G0083,,pending,,,,,,060413
+G0832,Pion,council,district,G0083,,pending,,,,,,060414
+G0833,Querocoto,council,district,G0083,,pending,,,,,,060415
+G0834,San Juan de Licupis,council,district,G0083,,pending,,,,,,060416
+G0835,Tacabamba,council,district,G0083,,pending,,,,,,060417
+G0836,Tocmoche,council,district,G0083,,pending,,,,,,060418
+G0837,Chalamarca,council,district,G0083,,pending,,,,,,060419
+G0838,Contumaza,council,district,G0084,,pending,,,,,,060501
+G0839,Chilete,council,district,G0084,,pending,,,,,,060502
+G0840,Cupisnique,council,district,G0084,,pending,,,,,,060503
+G0841,Guzmango,council,district,G0084,,pending,,,,,,060504
+G0842,San Benito,council,district,G0084,,pending,,,,,,060505
+G0843,Santa Cruz de Toledo,council,district,G0084,,pending,,,,,,060506
+G0844,Tantarica,council,district,G0084,,pending,,,,,,060507
+G0845,Yonan,council,district,G0084,,pending,,,,,,060508
+G0846,Cutervo,council,district,G0085,,pending,,,,,,060601
+G0847,Callayuc,council,district,G0085,,pending,,,,,,060602
+G0848,Choros,council,district,G0085,,pending,,,,,,060603
+G0849,Cujillo,council,district,G0085,,pending,,,,,,060604
+G0850,La Ramada,council,district,G0085,,pending,,,,,,060605
+G0851,Pimpingos,council,district,G0085,,pending,,,,,,060606
+G0852,Querocotillo,council,district,G0085,,pending,,,,,,060607
+G0853,San Andrés de Cutervo,council,district,G0085,,pending,,,,,,060608
+G0854,San Juan de Cutervo,council,district,G0085,,pending,,,,,,060609
+G0855,San Luis de Lucma,council,district,G0085,,pending,,,,,,060610
+G0856,Santa Cruz,council,district,G0085,,pending,,,,,,060611
+G0857,Santo Domingo de la Capilla,council,district,G0085,,pending,,,,,,060612
+G0858,Santo Tomas,council,district,G0085,,pending,,,,,,060613
+G0859,Socota,council,district,G0085,,pending,,,,,,060614
+G0860,Toribio Casanova,council,district,G0085,,pending,,,,,,060615
+G0861,Bambamarca,council,district,G0086,,pending,,,,,,060701
+G0862,Chugur,council,district,G0086,,pending,,,,,,060702
+G0863,Hualgayoc,council,district,G0086,,pending,,,,,,060703
+G0864,Jaén,council,district,G0087,,pending,,,,,,060801
+G0865,Bellavista,council,district,G0087,,pending,,,,,,060802
+G0866,Chontali,council,district,G0087,,pending,,,,,,060803
+G0867,Colasay,council,district,G0087,,pending,,,,,,060804
+G0868,Huabal,council,district,G0087,,pending,,,,,,060805
+G0869,Las Pirias,council,district,G0087,,pending,,,,,,060806
+G0870,Pomahuaca,council,district,G0087,,pending,,,,,,060807
+G0871,Pucara,council,district,G0087,,pending,,,,,,060808
+G0872,Sallique,council,district,G0087,,pending,,,,,,060809
+G0873,San Felipe,council,district,G0087,,pending,,,,,,060810
+G0874,San José del Alto,council,district,G0087,,pending,,,,,,060811
+G0875,Santa Rosa,council,district,G0087,,pending,,,,,,060812
+G0876,San Ignacio,council,district,G0088,,pending,,,,,,060901
+G0877,Chirinos,council,district,G0088,,pending,,,,,,060902
+G0878,Huarango,council,district,G0088,,pending,,,,,,060903
+G0879,La Coipa,council,district,G0088,,pending,,,,,,060904
+G0880,Namballe,council,district,G0088,,pending,,,,,,060905
+G0881,San José de Lourdes,council,district,G0088,,pending,,,,,,060906
+G0882,Tabaconas,council,district,G0088,,pending,,,,,,060907
+G0883,Pedro Gálvez,council,district,G0089,,pending,,,,,,061001
+G0884,Chancay,council,district,G0089,,pending,,,,,,061002
+G0885,Eduardo Villanueva,council,district,G0089,,pending,,,,,,061003
+G0886,Gregorio Pita,council,district,G0089,,pending,,,,,,061004
+G0887,Ichocan,council,district,G0089,,pending,,,,,,061005
+G0888,José Manuel Quiroz,council,district,G0089,,pending,,,,,,061006
+G0889,José Sabogal,council,district,G0089,,pending,,,,,,061007
+G0890,San Miguel,council,district,G0090,,pending,,,,,,061101
+G0891,Bolívar,council,district,G0090,,pending,,,,,,061102
+G0892,Calquis,council,district,G0090,,pending,,,,,,061103
+G0893,Catilluc,council,district,G0090,,pending,,,,,,061104
+G0894,El Prado,council,district,G0090,,pending,,,,,,061105
+G0895,La Florida,council,district,G0090,,pending,,,,,,061106
+G0896,Llapa,council,district,G0090,,pending,,,,,,061107
+G0897,Nanchoc,council,district,G0090,,pending,,,,,,061108
+G0898,Niepos,council,district,G0090,,pending,,,,,,061109
+G0899,San Gregorio,council,district,G0090,,pending,,,,,,061110
+G0900,San Silvestre de Cochan,council,district,G0090,,pending,,,,,,061111
+G0901,Tongod,council,district,G0090,,pending,,,,,,061112
+G0902,Unión Agua Blanca,council,district,G0090,,pending,,,,,,061113
+G0903,San Pablo,council,district,G0091,,pending,,,,,,061201
+G0904,San Bernardino,council,district,G0091,,pending,,,,,,061202
+G0905,San Luis,council,district,G0091,,pending,,,,,,061203
+G0906,Tumbaden,council,district,G0091,,pending,,,,,,061204
+G0907,Santa Cruz,council,district,G0092,,pending,,,,,,061301
+G0908,Andabamba,council,district,G0092,,pending,,,,,,061302
+G0909,Catache,council,district,G0092,,pending,,,,,,061303
+G0910,Chancaybaños,council,district,G0092,,pending,,,,,,061304
+G0911,La Esperanza,council,district,G0092,,pending,,,,,,061305
+G0912,Ninabamba,council,district,G0092,,pending,,,,,,061306
+G0913,Pulan,council,district,G0092,,pending,,,,,,061307
+G0914,Saucepampa,council,district,G0092,,pending,,,,,,061308
+G0915,Sexi,council,district,G0092,,pending,,,,,,061309
+G0916,Uticyacu,council,district,G0092,,pending,,,,,,061310
+G0917,Yauyucan,council,district,G0092,,pending,,,,,,061311
+G0918,Callao,council,district,G0093,,pending,,,,,,070101
+G0919,Bellavista,council,district,G0093,,pending,,,,,,070102
+G0920,Carmen de la Legua Reynoso,council,district,G0093,,pending,,,,,,070103
+G0921,La Perla,council,district,G0093,,pending,,,,,,070104
+G0922,La Punta,council,district,G0093,,pending,,,,,,070105
+G0923,Ventanilla,council,district,G0093,,pending,,,,,,070106
+G0924,Mi Perú,council,district,G0093,,pending,,,,,,070107
+G0925,Cusco,council,district,G0094,,pending,,,,,,080101
+G0926,Ccorca,council,district,G0094,,pending,,,,,,080102
+G0927,Poroy,council,district,G0094,,pending,,,,,,080103
+G0928,San Jerónimo,council,district,G0094,,pending,,,,,,080104
+G0929,San Sebastian,council,district,G0094,,pending,,,,,,080105
+G0930,Santiago,council,district,G0094,,pending,,,,,,080106
+G0931,Saylla,council,district,G0094,,pending,,,,,,080107
+G0932,Wanchaq,council,district,G0094,,pending,,,,,,080108
+G0933,Acomayo,council,district,G0095,,pending,,,,,,080201
+G0934,Acopia,council,district,G0095,,pending,,,,,,080202
+G0935,Acos,council,district,G0095,,pending,,,,,,080203
+G0936,Mosoc Llacta,council,district,G0095,,pending,,,,,,080204
+G0937,Pomacanchi,council,district,G0095,,pending,,,,,,080205
+G0938,Rondocan,council,district,G0095,,pending,,,,,,080206
+G0939,Sangarara,council,district,G0095,,pending,,,,,,080207
+G0940,Anta,council,district,G0096,,pending,,,,,,080301
+G0941,Ancahuasi,council,district,G0096,,pending,,,,,,080302
+G0942,Cachimayo,council,district,G0096,,pending,,,,,,080303
+G0943,Chinchaypujio,council,district,G0096,,pending,,,,,,080304
+G0944,Huarocondo,council,district,G0096,,pending,,,,,,080305
+G0945,Limatambo,council,district,G0096,,pending,,,,,,080306
+G0946,Mollepata,council,district,G0096,,pending,,,,,,080307
+G0947,Pucyura,council,district,G0096,,pending,,,,,,080308
+G0948,Zurite,council,district,G0096,,pending,,,,,,080309
+G0949,Calca,council,district,G0097,,pending,,,,,,080401
+G0950,Coya,council,district,G0097,,pending,,,,,,080402
+G0951,Lamay,council,district,G0097,,pending,,,,,,080403
+G0952,Lares,council,district,G0097,,pending,,,,,,080404
+G0953,Pisac,council,district,G0097,,pending,,,,,,080405
+G0954,San Salvador,council,district,G0097,,pending,,,,,,080406
+G0955,Taray,council,district,G0097,,pending,,,,,,080407
+G0956,Yanatile,council,district,G0097,,pending,,,,,,080408
+G0957,Yanaoca,council,district,G0098,,pending,,,,,,080501
+G0958,Checca,council,district,G0098,,pending,,,,,,080502
+G0959,Kunturkanki,council,district,G0098,,pending,,,,,,080503
+G0960,Langui,council,district,G0098,,pending,,,,,,080504
+G0961,Layo,council,district,G0098,,pending,,,,,,080505
+G0962,Pampamarca,council,district,G0098,,pending,,,,,,080506
+G0963,Quehue,council,district,G0098,,pending,,,,,,080507
+G0964,Tupac Amaru,council,district,G0098,,pending,,,,,,080508
+G0965,Sicuani,council,district,G0099,,pending,,,,,,080601
+G0966,Checacupe,council,district,G0099,,pending,,,,,,080602
+G0967,Combapata,council,district,G0099,,pending,,,,,,080603
+G0968,Marangani,council,district,G0099,,pending,,,,,,080604
+G0969,Pitumarca,council,district,G0099,,pending,,,,,,080605
+G0970,San Pablo,council,district,G0099,,pending,,,,,,080606
+G0971,San Pedro,council,district,G0099,,pending,,,,,,080607
+G0972,Tinta,council,district,G0099,,pending,,,,,,080608
+G0973,Santo Tomas,council,district,G0100,,pending,,,,,,080701
+G0974,Capacmarca,council,district,G0100,,pending,,,,,,080702
+G0975,Chamaca,council,district,G0100,,pending,,,,,,080703
+G0976,Colquemarca,council,district,G0100,,pending,,,,,,080704
+G0977,Livitaca,council,district,G0100,,pending,,,,,,080705
+G0978,Llusco,council,district,G0100,,pending,,,,,,080706
+G0979,Quiñota,council,district,G0100,,pending,,,,,,080707
+G0980,Velille,council,district,G0100,,pending,,,,,,080708
+G0981,Espinar,council,district,G0101,,pending,,,,,,080801
+G0982,Condoroma,council,district,G0101,,pending,,,,,,080802
+G0983,Coporaque,council,district,G0101,,pending,,,,,,080803
+G0984,Ocoruro,council,district,G0101,,pending,,,,,,080804
+G0985,Pallpata,council,district,G0101,,pending,,,,,,080805
+G0986,Pichigua,council,district,G0101,,pending,,,,,,080806
+G0987,Suyckutambo,council,district,G0101,,pending,,,,,,080807
+G0988,Alto Pichigua,council,district,G0101,,pending,,,,,,080808
+G0989,Santa Ana,council,district,G0102,,pending,,,,,,080901
+G0990,Echarate,council,district,G0102,,pending,,,,,,080902
+G0991,Huayopata,council,district,G0102,,pending,,,,,,080903
+G0992,Maranura,council,district,G0102,,pending,,,,,,080904
+G0993,Ocobamba,council,district,G0102,,pending,,,,,,080905
+G0994,Quellouno,council,district,G0102,,pending,,,,,,080906
+G0995,Kimbiri,council,district,G0102,,pending,,,,,,080907
+G0996,Santa Teresa,council,district,G0102,,pending,,,,,,080908
+G0997,Vilcabamba,council,district,G0102,,pending,,,,,,080909
+G0998,Pichari,council,district,G0102,,pending,,,,,,080910
+G0999,Inkawasi,council,district,G0102,,pending,,,,,,080911
+G1000,Villa Virgen,council,district,G0102,,pending,,,,,,080912
+G1001,Villa Kintiarina,council,district,G0102,,pending,,,,,,080913
+G1002,Megantoni,council,district,G0102,,pending,,,,,,080914
+G1003,Kumpirushiato,council,district,G0102,,pending,,,,,,080915
+G1004,Cielo Punco,council,district,G0102,,pending,,,,,,080916
+G1005,Manitea,council,district,G0102,,pending,,,,,,080917
+G1006,Unión Ashaninka,council,district,G0102,,pending,,,,,,080918
+G1007,Paruro,council,district,G0103,,pending,,,,,,081001
+G1008,Accha,council,district,G0103,,pending,,,,,,081002
+G1009,Ccapi,council,district,G0103,,pending,,,,,,081003
+G1010,Colcha,council,district,G0103,,pending,,,,,,081004
+G1011,Huanoquite,council,district,G0103,,pending,,,,,,081005
+G1012,Omacha,council,district,G0103,,pending,,,,,,081006
+G1013,Paccaritambo,council,district,G0103,,pending,,,,,,081007
+G1014,Pillpinto,council,district,G0103,,pending,,,,,,081008
+G1015,Yaurisque,council,district,G0103,,pending,,,,,,081009
+G1016,Paucartambo,council,district,G0104,,pending,,,,,,081101
+G1017,Caicay,council,district,G0104,,pending,,,,,,081102
+G1018,Challabamba,council,district,G0104,,pending,,,,,,081103
+G1019,Colquepata,council,district,G0104,,pending,,,,,,081104
+G1020,Huancarani,council,district,G0104,,pending,,,,,,081105
+G1021,Kosñipata,council,district,G0104,,pending,,,,,,081106
+G1022,Urcos,council,district,G0105,,pending,,,,,,081201
+G1023,Andahuaylillas,council,district,G0105,,pending,,,,,,081202
+G1024,Camanti,council,district,G0105,,pending,,,,,,081203
+G1025,Ccarhuayo,council,district,G0105,,pending,,,,,,081204
+G1026,Ccatca,council,district,G0105,,pending,,,,,,081205
+G1027,Cusipata,council,district,G0105,,pending,,,,,,081206
+G1028,Huaro,council,district,G0105,,pending,,,,,,081207
+G1029,Lucre,council,district,G0105,,pending,,,,,,081208
+G1030,Marcapata,council,district,G0105,,pending,,,,,,081209
+G1031,Ocongate,council,district,G0105,,pending,,,,,,081210
+G1032,Oropesa,council,district,G0105,,pending,,,,,,081211
+G1033,Quiquijana,council,district,G0105,,pending,,,,,,081212
+G1034,Urubamba,council,district,G0106,,pending,,,,,,081301
+G1035,Chinchero,council,district,G0106,,pending,,,,,,081302
+G1036,Huayllabamba,council,district,G0106,,pending,,,,,,081303
+G1037,Machupicchu,council,district,G0106,,pending,,,,,,081304
+G1038,Maras,council,district,G0106,,pending,,,,,,081305
+G1039,Ollantaytambo,council,district,G0106,,pending,,,,,,081306
+G1040,Yucay,council,district,G0106,,pending,,,,,,081307
+G1041,Huancavelica,council,district,G0107,,pending,,,,,,090101
+G1042,Acobambilla,council,district,G0107,,pending,,,,,,090102
+G1043,Acoria,council,district,G0107,,pending,,,,,,090103
+G1044,Conayca,council,district,G0107,,pending,,,,,,090104
+G1045,Cuenca,council,district,G0107,,pending,,,,,,090105
+G1046,Huachocolpa,council,district,G0107,,pending,,,,,,090106
+G1047,Huayllahuara,council,district,G0107,,pending,,,,,,090107
+G1048,Izcuchaca,council,district,G0107,,pending,,,,,,090108
+G1049,Laria,council,district,G0107,,pending,,,,,,090109
+G1050,Manta,council,district,G0107,,pending,,,,,,090110
+G1051,Mariscal Cáceres,council,district,G0107,,pending,,,,,,090111
+G1052,Moya,council,district,G0107,,pending,,,,,,090112
+G1053,Nuevo Occoro,council,district,G0107,,pending,,,,,,090113
+G1054,Palca,council,district,G0107,,pending,,,,,,090114
+G1055,Pilchaca,council,district,G0107,,pending,,,,,,090115
+G1056,Vilca,council,district,G0107,,pending,,,,,,090116
+G1057,Yauli,council,district,G0107,,pending,,,,,,090117
+G1058,Ascensión,council,district,G0107,,pending,,,,,,090118
+G1059,Huando,council,district,G0107,,pending,,,,,,090119
+G1060,Acobamba,council,district,G0108,,pending,,,,,,090201
+G1061,Andabamba,council,district,G0108,,pending,,,,,,090202
+G1062,Anta,council,district,G0108,,pending,,,,,,090203
+G1063,Caja,council,district,G0108,,pending,,,,,,090204
+G1064,Marcas,council,district,G0108,,pending,,,,,,090205
+G1065,Paucara,council,district,G0108,,pending,,,,,,090206
+G1066,Pomacocha,council,district,G0108,,pending,,,,,,090207
+G1067,Rosario,council,district,G0108,,pending,,,,,,090208
+G1068,Lircay,council,district,G0109,,pending,,,,,,090301
+G1069,Anchonga,council,district,G0109,,pending,,,,,,090302
+G1070,Callanmarca,council,district,G0109,,pending,,,,,,090303
+G1071,Ccochaccasa,council,district,G0109,,pending,,,,,,090304
+G1072,Chincho,council,district,G0109,,pending,,,,,,090305
+G1073,Congalla,council,district,G0109,,pending,,,,,,090306
+G1074,Huanca-Huanca,council,district,G0109,,pending,,,,,,090307
+G1075,Huayllay Grande,council,district,G0109,,pending,,,,,,090308
+G1076,Julcamarca,council,district,G0109,,pending,,,,,,090309
+G1077,San Antonio de Antaparco,council,district,G0109,,pending,,,,,,090310
+G1078,Santo Tomas de Pata,council,district,G0109,,pending,,,,,,090311
+G1079,Secclla,council,district,G0109,,pending,,,,,,090312
+G1080,Castrovirreyna,council,district,G0110,,pending,,,,,,090401
+G1081,Arma,council,district,G0110,,pending,,,,,,090402
+G1082,Aurahua,council,district,G0110,,pending,,,,,,090403
+G1083,Capillas,council,district,G0110,,pending,,,,,,090404
+G1084,Chupamarca,council,district,G0110,,pending,,,,,,090405
+G1085,Cocas,council,district,G0110,,pending,,,,,,090406
+G1086,Huachos,council,district,G0110,,pending,,,,,,090407
+G1087,Huamatambo,council,district,G0110,,pending,,,,,,090408
+G1088,Mollepampa,council,district,G0110,,pending,,,,,,090409
+G1089,San Juan,council,district,G0110,,pending,,,,,,090410
+G1090,Santa Ana,council,district,G0110,,pending,,,,,,090411
+G1091,Tantara,council,district,G0110,,pending,,,,,,090412
+G1092,Ticrapo,council,district,G0110,,pending,,,,,,090413
+G1093,Churcampa,council,district,G0111,,pending,,,,,,090501
+G1094,Anco,council,district,G0111,,pending,,,,,,090502
+G1095,Chinchihuasi,council,district,G0111,,pending,,,,,,090503
+G1096,El Carmen,council,district,G0111,,pending,,,,,,090504
+G1097,La Merced,council,district,G0111,,pending,,,,,,090505
+G1098,Locroja,council,district,G0111,,pending,,,,,,090506
+G1099,Paucarbamba,council,district,G0111,,pending,,,,,,090507
+G1100,San Miguel de Mayocc,council,district,G0111,,pending,,,,,,090508
+G1101,San Pedro de Coris,council,district,G0111,,pending,,,,,,090509
+G1102,Pachamarca,council,district,G0111,,pending,,,,,,090510
+G1103,Cosme,council,district,G0111,,pending,,,,,,090511
+G1104,Huaytara,council,district,G0112,,pending,,,,,,090601
+G1105,Ayavi,council,district,G0112,,pending,,,,,,090602
+G1106,Córdova,council,district,G0112,,pending,,,,,,090603
+G1107,Huayacundo Arma,council,district,G0112,,pending,,,,,,090604
+G1108,Laramarca,council,district,G0112,,pending,,,,,,090605
+G1109,Ocoyo,council,district,G0112,,pending,,,,,,090606
+G1110,Pilpichaca,council,district,G0112,,pending,,,,,,090607
+G1111,Querco,council,district,G0112,,pending,,,,,,090608
+G1112,Quito-Arma,council,district,G0112,,pending,,,,,,090609
+G1113,San Antonio de Cusicancha,council,district,G0112,,pending,,,,,,090610
+G1114,San Francisco de Sangayaico,council,district,G0112,,pending,,,,,,090611
+G1115,San Isidro,council,district,G0112,,pending,,,,,,090612
+G1116,Santiago de Chocorvos,council,district,G0112,,pending,,,,,,090613
+G1117,Santiago de Quirahuara,council,district,G0112,,pending,,,,,,090614
+G1118,Santo Domingo de Capillas,council,district,G0112,,pending,,,,,,090615
+G1119,Tambo,council,district,G0112,,pending,,,,,,090616
+G1120,Pampas,council,district,G0113,,pending,,,,,,090701
+G1121,Acostambo,council,district,G0113,,pending,,,,,,090702
+G1122,Acraquia,council,district,G0113,,pending,,,,,,090703
+G1123,Ahuaycha,council,district,G0113,,pending,,,,,,090704
+G1124,Colcabamba,council,district,G0113,,pending,,,,,,090705
+G1125,Daniel Hernández,council,district,G0113,,pending,,,,,,090706
+G1126,Huachocolpa,council,district,G0113,,pending,,,,,,090707
+G1127,Huaribamba,council,district,G0113,,pending,,,,,,090709
+G1128,Ñahuimpuquio,council,district,G0113,,pending,,,,,,090710
+G1129,Pazos,council,district,G0113,,pending,,,,,,090711
+G1130,Quishuar,council,district,G0113,,pending,,,,,,090713
+G1131,Salcabamba,council,district,G0113,,pending,,,,,,090714
+G1132,Salcahuasi,council,district,G0113,,pending,,,,,,090715
+G1133,San Marcos de Rocchac,council,district,G0113,,pending,,,,,,090716
+G1134,Surcubamba,council,district,G0113,,pending,,,,,,090717
+G1135,Tintay Puncu,council,district,G0113,,pending,,,,,,090718
+G1136,Quichuas,council,district,G0113,,pending,,,,,,090719
+G1137,Andaymarca,council,district,G0113,,pending,,,,,,090720
+G1138,Roble,council,district,G0113,,pending,,,,,,090721
+G1139,Pichos,council,district,G0113,,pending,,,,,,090722
+G1140,Santiago de Tucuma,council,district,G0113,,pending,,,,,,090723
+G1141,Lambras,council,district,G0113,,pending,,,,,,090724
+G1142,Cochabamba,council,district,G0113,,pending,,,,,,090725
+G1143,Huanuco,council,district,G0114,,pending,,,,,,100101
+G1144,Amarilis,council,district,G0114,,pending,,,,,,100102
+G1145,Chinchao,council,district,G0114,,pending,,,,,,100103
+G1146,Churubamba,council,district,G0114,,pending,,,,,,100104
+G1147,Margos,council,district,G0114,,pending,,,,,,100105
+G1148,Quisqui (Kichki),council,district,G0114,,pending,,,,,,100106
+G1149,San Francisco de Cayran,council,district,G0114,,pending,,,,,,100107
+G1150,San Pedro de Chaulan,council,district,G0114,,pending,,,,,,100108
+G1151,Santa María del Valle,council,district,G0114,,pending,,,,,,100109
+G1152,Yarumayo,council,district,G0114,,pending,,,,,,100110
+G1153,Pillco Marca,council,district,G0114,,pending,,,,,,100111
+G1154,Yacus,council,district,G0114,,pending,,,,,,100112
+G1155,San Pablo de Pillao,council,district,G0114,,pending,,,,,,100113
+G1156,Ambo,council,district,G0115,,pending,,,,,,100201
+G1157,Cayna,council,district,G0115,,pending,,,,,,100202
+G1158,Colpas,council,district,G0115,,pending,,,,,,100203
+G1159,Conchamarca,council,district,G0115,,pending,,,,,,100204
+G1160,Huacar,council,district,G0115,,pending,,,,,,100205
+G1161,San Francisco,council,district,G0115,,pending,,,,,,100206
+G1162,San Rafael,council,district,G0115,,pending,,,,,,100207
+G1163,Tomay Kichwa,council,district,G0115,,pending,,,,,,100208
+G1164,La Unión,council,district,G0116,,pending,,,,,,100301
+G1165,Chuquis,council,district,G0116,,pending,,,,,,100307
+G1166,Marías,council,district,G0116,,pending,,,,,,100311
+G1167,Pachas,council,district,G0116,,pending,,,,,,100313
+G1168,Quivilla,council,district,G0116,,pending,,,,,,100316
+G1169,Ripan,council,district,G0116,,pending,,,,,,100317
+G1170,Shunqui,council,district,G0116,,pending,,,,,,100321
+G1171,Sillapata,council,district,G0116,,pending,,,,,,100322
+G1172,Yanas,council,district,G0116,,pending,,,,,,100323
+G1173,Huacaybamba,council,district,G0117,,pending,,,,,,100401
+G1174,Canchabamba,council,district,G0117,,pending,,,,,,100402
+G1175,Cochabamba,council,district,G0117,,pending,,,,,,100403
+G1176,Pinra,council,district,G0117,,pending,,,,,,100404
+G1177,Llata,council,district,G0118,,pending,,,,,,100501
+G1178,Arancay,council,district,G0118,,pending,,,,,,100502
+G1179,Chavín de Pariarca,council,district,G0118,,pending,,,,,,100503
+G1180,Jacas Grande,council,district,G0118,,pending,,,,,,100504
+G1181,Jircan,council,district,G0118,,pending,,,,,,100505
+G1182,Miraflores,council,district,G0118,,pending,,,,,,100506
+G1183,Monzón,council,district,G0118,,pending,,,,,,100507
+G1184,Punchao,council,district,G0118,,pending,,,,,,100508
+G1185,Puños,council,district,G0118,,pending,,,,,,100509
+G1186,Singa,council,district,G0118,,pending,,,,,,100510
+G1187,Tantamayo,council,district,G0118,,pending,,,,,,100511
+G1188,Rupa-Rupa,council,district,G0119,,pending,,,,,,100601
+G1189,Daniel Alomía Robles,council,district,G0119,,pending,,,,,,100602
+G1190,Hermílio Valdizan,council,district,G0119,,pending,,,,,,100603
+G1191,José Crespo y Castillo,council,district,G0119,,pending,,,,,,100604
+G1192,Luyando,council,district,G0119,,pending,,,,,,100605
+G1193,Mariano Damaso Beraun,council,district,G0119,,pending,,,,,,100606
+G1194,Pucayacu,council,district,G0119,,pending,,,,,,100607
+G1195,Castillo Grande,council,district,G0119,,pending,,,,,,100608
+G1196,Pueblo Nuevo,council,district,G0119,,pending,,,,,,100609
+G1197,Santo Domingo de Anda,council,district,G0119,,pending,,,,,,100610
+G1198,Huacrachuco,council,district,G0120,,pending,,,,,,100701
+G1199,Cholon,council,district,G0120,,pending,,,,,,100702
+G1200,San Buenaventura,council,district,G0120,,pending,,,,,,100703
+G1201,La Morada,council,district,G0120,,pending,,,,,,100704
+G1202,Santa Rosa de Alto Yanajanca,council,district,G0120,,pending,,,,,,100705
+G1203,Panao,council,district,G0121,,pending,,,,,,100801
+G1204,Chaglla,council,district,G0121,,pending,,,,,,100802
+G1205,Molino,council,district,G0121,,pending,,,,,,100803
+G1206,Umari,council,district,G0121,,pending,,,,,,100804
+G1207,Puerto Inca,council,district,G0122,,pending,,,,,,100901
+G1208,Codo del Pozuzo,council,district,G0122,,pending,,,,,,100902
+G1209,Honoria,council,district,G0122,,pending,,,,,,100903
+G1210,Tournavista,council,district,G0122,,pending,,,,,,100904
+G1211,Yuyapichis,council,district,G0122,,pending,,,,,,100905
+G1212,Jesús,council,district,G0123,,pending,,,,,,101001
+G1213,Baños,council,district,G0123,,pending,,,,,,101002
+G1214,Jivia,council,district,G0123,,pending,,,,,,101003
+G1215,Queropalca,council,district,G0123,,pending,,,,,,101004
+G1216,Rondos,council,district,G0123,,pending,,,,,,101005
+G1217,San Francisco de Asís,council,district,G0123,,pending,,,,,,101006
+G1218,San Miguel de Cauri,council,district,G0123,,pending,,,,,,101007
+G1219,Chavinillo,council,district,G0124,,pending,,,,,,101101
+G1220,Cahuac,council,district,G0124,,pending,,,,,,101102
+G1221,Chacabamba,council,district,G0124,,pending,,,,,,101103
+G1222,Aparicio Pomares,council,district,G0124,,pending,,,,,,101104
+G1223,Jacas Chico,council,district,G0124,,pending,,,,,,101105
+G1224,Obas,council,district,G0124,,pending,,,,,,101106
+G1225,Pampamarca,council,district,G0124,,pending,,,,,,101107
+G1226,Choras,council,district,G0124,,pending,,,,,,101108
+G1227,Ica,council,district,G0125,,pending,,,,,,110101
+G1228,La Tinguiña,council,district,G0125,,pending,,,,,,110102
+G1229,Los Aquijes,council,district,G0125,,pending,,,,,,110103
+G1230,Ocucaje,council,district,G0125,,pending,,,,,,110104
+G1231,Pachacutec,council,district,G0125,,pending,,,,,,110105
+G1232,Parcona,council,district,G0125,,pending,,,,,,110106
+G1233,Pueblo Nuevo,council,district,G0125,,pending,,,,,,110107
+G1234,Salas,council,district,G0125,,pending,,,,,,110108
+G1235,San José de Los Molinos,council,district,G0125,,pending,,,,,,110109
+G1236,San Juan Bautista,council,district,G0125,,pending,,,,,,110110
+G1237,Santiago,council,district,G0125,,pending,,,,,,110111
+G1238,Subtanjalla,council,district,G0125,,pending,,,,,,110112
+G1239,Tate,council,district,G0125,,pending,,,,,,110113
+G1240,Yauca del Rosario,council,district,G0125,,pending,,,,,,110114
+G1241,Chincha Alta,council,district,G0126,,pending,,,,,,110201
+G1242,Alto Laran,council,district,G0126,,pending,,,,,,110202
+G1243,Chavin,council,district,G0126,,pending,,,,,,110203
+G1244,Chincha Baja,council,district,G0126,,pending,,,,,,110204
+G1245,El Carmen,council,district,G0126,,pending,,,,,,110205
+G1246,Grocio Prado,council,district,G0126,,pending,,,,,,110206
+G1247,Pueblo Nuevo,council,district,G0126,,pending,,,,,,110207
+G1248,San Juan de Yanac,council,district,G0126,,pending,,,,,,110208
+G1249,San Pedro de Huacarpana,council,district,G0126,,pending,,,,,,110209
+G1250,Sunampe,council,district,G0126,,pending,,,,,,110210
+G1251,Tambo de Mora,council,district,G0126,,pending,,,,,,110211
+G1252,Nasca,council,district,G0127,,pending,,,,,,110301
+G1253,Changuillo,council,district,G0127,,pending,,,,,,110302
+G1254,El Ingenio,council,district,G0127,,pending,,,,,,110303
+G1255,Marcona,council,district,G0127,,pending,,,,,,110304
+G1256,Vista Alegre,council,district,G0127,,pending,,,,,,110305
+G1257,Palpa,council,district,G0128,,pending,,,,,,110401
+G1258,Llipata,council,district,G0128,,pending,,,,,,110402
+G1259,Río Grande,council,district,G0128,,pending,,,,,,110403
+G1260,Santa Cruz,council,district,G0128,,pending,,,,,,110404
+G1261,Tibillo,council,district,G0128,,pending,,,,,,110405
+G1262,Pisco,council,district,G0129,,pending,,,,,,110501
+G1263,Huancano,council,district,G0129,,pending,,,,,,110502
+G1264,Humay,council,district,G0129,,pending,,,,,,110503
+G1265,Independencia,council,district,G0129,,pending,,,,,,110504
+G1266,Paracas,council,district,G0129,,pending,,,,,,110505
+G1267,San Andrés,council,district,G0129,,pending,,,,,,110506
+G1268,San Clemente,council,district,G0129,,pending,,,,,,110507
+G1269,Tupac Amaru Inca,council,district,G0129,,pending,,,,,,110508
+G1270,Huancayo,council,district,G0130,,pending,,,,,,120101
+G1271,Carhuacallanga,council,district,G0130,,pending,,,,,,120104
+G1272,Chacapampa,council,district,G0130,,pending,,,,,,120105
+G1273,Chicche,council,district,G0130,,pending,,,,,,120106
+G1274,Chilca,council,district,G0130,,pending,,,,,,120107
+G1275,Chongos Alto,council,district,G0130,,pending,,,,,,120108
+G1276,Chupuro,council,district,G0130,,pending,,,,,,120111
+G1277,Colca,council,district,G0130,,pending,,,,,,120112
+G1278,Cullhuas,council,district,G0130,,pending,,,,,,120113
+G1279,El Tambo,council,district,G0130,,pending,,,,,,120114
+G1280,Huacrapuquio,council,district,G0130,,pending,,,,,,120116
+G1281,Hualhuas,council,district,G0130,,pending,,,,,,120117
+G1282,Huancan,council,district,G0130,,pending,,,,,,120119
+G1283,Huasicancha,council,district,G0130,,pending,,,,,,120120
+G1284,Huayucachi,council,district,G0130,,pending,,,,,,120121
+G1285,Ingenio,council,district,G0130,,pending,,,,,,120122
+G1286,Pariahuanca,council,district,G0130,,pending,,,,,,120124
+G1287,Pilcomayo,council,district,G0130,,pending,,,,,,120125
+G1288,Pucara,council,district,G0130,,pending,,,,,,120126
+G1289,Quichuay,council,district,G0130,,pending,,,,,,120127
+G1290,Quilcas,council,district,G0130,,pending,,,,,,120128
+G1291,San Agustín,council,district,G0130,,pending,,,,,,120129
+G1292,San Jerónimo de Tunan,council,district,G0130,,pending,,,,,,120130
+G1293,Saño,council,district,G0130,,pending,,,,,,120132
+G1294,Sapallanga,council,district,G0130,,pending,,,,,,120133
+G1295,Sicaya,council,district,G0130,,pending,,,,,,120134
+G1296,Santo Domingo de Acobamba,council,district,G0130,,pending,,,,,,120135
+G1297,Viques,council,district,G0130,,pending,,,,,,120136
+G1298,Concepción,council,district,G0131,,pending,,,,,,120201
+G1299,Aco,council,district,G0131,,pending,,,,,,120202
+G1300,Andamarca,council,district,G0131,,pending,,,,,,120203
+G1301,Chambara,council,district,G0131,,pending,,,,,,120204
+G1302,Cochas,council,district,G0131,,pending,,,,,,120205
+G1303,Comas,council,district,G0131,,pending,,,,,,120206
+G1304,Heroínas Toledo,council,district,G0131,,pending,,,,,,120207
+G1305,Manzanares,council,district,G0131,,pending,,,,,,120208
+G1306,Mariscal Castilla,council,district,G0131,,pending,,,,,,120209
+G1307,Matahuasi,council,district,G0131,,pending,,,,,,120210
+G1308,Mito,council,district,G0131,,pending,,,,,,120211
+G1309,Nueve de Julio,council,district,G0131,,pending,,,,,,120212
+G1310,Orcotuna,council,district,G0131,,pending,,,,,,120213
+G1311,San José de Quero,council,district,G0131,,pending,,,,,,120214
+G1312,Santa Rosa de Ocopa,council,district,G0131,,pending,,,,,,120215
+G1313,Chanchamayo,council,district,G0132,,pending,,,,,,120301
+G1314,Perene,council,district,G0132,,pending,,,,,,120302
+G1315,Pichanaqui,council,district,G0132,,pending,,,,,,120303
+G1316,San Luis de Shuaro,council,district,G0132,,pending,,,,,,120304
+G1317,San Ramón,council,district,G0132,,pending,,,,,,120305
+G1318,Vitoc,council,district,G0132,,pending,,,,,,120306
+G1319,Sangani,council,district,G0132,,pending,,,,,,120307
+G1320,Jauja,council,district,G0133,,pending,,,,,,120401
+G1321,Acolla,council,district,G0133,,pending,,,,,,120402
+G1322,Apata,council,district,G0133,,pending,,,,,,120403
+G1323,Ataura,council,district,G0133,,pending,,,,,,120404
+G1324,Canchayllo,council,district,G0133,,pending,,,,,,120405
+G1325,Curicaca,council,district,G0133,,pending,,,,,,120406
+G1326,El Mantaro,council,district,G0133,,pending,,,,,,120407
+G1327,Huamali,council,district,G0133,,pending,,,,,,120408
+G1328,Huaripampa,council,district,G0133,,pending,,,,,,120409
+G1329,Huertas,council,district,G0133,,pending,,,,,,120410
+G1330,Janjaillo,council,district,G0133,,pending,,,,,,120411
+G1331,Julcán,council,district,G0133,,pending,,,,,,120412
+G1332,Leonor Ordóñez,council,district,G0133,,pending,,,,,,120413
+G1333,Llocllapampa,council,district,G0133,,pending,,,,,,120414
+G1334,Marco,council,district,G0133,,pending,,,,,,120415
+G1335,Masma,council,district,G0133,,pending,,,,,,120416
+G1336,Masma Chicche,council,district,G0133,,pending,,,,,,120417
+G1337,Molinos,council,district,G0133,,pending,,,,,,120418
+G1338,Monobamba,council,district,G0133,,pending,,,,,,120419
+G1339,Muqui,council,district,G0133,,pending,,,,,,120420
+G1340,Muquiyauyo,council,district,G0133,,pending,,,,,,120421
+G1341,Paca,council,district,G0133,,pending,,,,,,120422
+G1342,Paccha,council,district,G0133,,pending,,,,,,120423
+G1343,Pancan,council,district,G0133,,pending,,,,,,120424
+G1344,Parco,council,district,G0133,,pending,,,,,,120425
+G1345,Pomacancha,council,district,G0133,,pending,,,,,,120426
+G1346,Ricran,council,district,G0133,,pending,,,,,,120427
+G1347,San Lorenzo,council,district,G0133,,pending,,,,,,120428
+G1348,San Pedro de Chunan,council,district,G0133,,pending,,,,,,120429
+G1349,Sausa,council,district,G0133,,pending,,,,,,120430
+G1350,Sincos,council,district,G0133,,pending,,,,,,120431
+G1351,Tunan Marca,council,district,G0133,,pending,,,,,,120432
+G1352,Yauli,council,district,G0133,,pending,,,,,,120433
+G1353,Yauyos,council,district,G0133,,pending,,,,,,120434
+G1354,Junin,council,district,G0134,,pending,,,,,,120501
+G1355,Carhuamayo,council,district,G0134,,pending,,,,,,120502
+G1356,Ondores,council,district,G0134,,pending,,,,,,120503
+G1357,Ulcumayo,council,district,G0134,,pending,,,,,,120504
+G1358,Satipo,council,district,G0135,,pending,,,,,,120601
+G1359,Coviriali,council,district,G0135,,pending,,,,,,120602
+G1360,Llaylla,council,district,G0135,,pending,,,,,,120603
+G1361,Mazamari,council,district,G0135,,pending,,,,,,120604
+G1362,Pampa Hermosa,council,district,G0135,,pending,,,,,,120605
+G1363,Pangoa,council,district,G0135,,pending,,,,,,120606
+G1364,Río Negro,council,district,G0135,,pending,,,,,,120607
+G1365,Río Tambo,council,district,G0135,,pending,,,,,,120608
+G1366,Vizcatán del Ene,council,district,G0135,,pending,,,,,,120609
+G1367,Tarma,council,district,G0136,,pending,,,,,,120701
+G1368,Acobamba,council,district,G0136,,pending,,,,,,120702
+G1369,Huaricolca,council,district,G0136,,pending,,,,,,120703
+G1370,Huasahuasi,council,district,G0136,,pending,,,,,,120704
+G1371,La Unión,council,district,G0136,,pending,,,,,,120705
+G1372,Palca,council,district,G0136,,pending,,,,,,120706
+G1373,Palcamayo,council,district,G0136,,pending,,,,,,120707
+G1374,San Pedro de Cajas,council,district,G0136,,pending,,,,,,120708
+G1375,Tapo,council,district,G0136,,pending,,,,,,120709
+G1376,La Oroya,council,district,G0137,,pending,,,,,,120801
+G1377,Chacapalpa,council,district,G0137,,pending,,,,,,120802
+G1378,Huay-Huay,council,district,G0137,,pending,,,,,,120803
+G1379,Marcapomacocha,council,district,G0137,,pending,,,,,,120804
+G1380,Morococha,council,district,G0137,,pending,,,,,,120805
+G1381,Paccha,council,district,G0137,,pending,,,,,,120806
+G1382,Santa Bárbara de Carhuacayan,council,district,G0137,,pending,,,,,,120807
+G1383,Santa Rosa de Sacco,council,district,G0137,,pending,,,,,,120808
+G1384,Suitucancha,council,district,G0137,,pending,,,,,,120809
+G1385,Yauli,council,district,G0137,,pending,,,,,,120810
+G1386,Chupaca,council,district,G0138,,pending,,,,,,120901
+G1387,Ahuac,council,district,G0138,,pending,,,,,,120902
+G1388,Chongos Bajo,council,district,G0138,,pending,,,,,,120903
+G1389,Huachac,council,district,G0138,,pending,,,,,,120904
+G1390,Huamancaca Chico,council,district,G0138,,pending,,,,,,120905
+G1391,San Juan de Iscos,council,district,G0138,,pending,,,,,,120906
+G1392,San Juan de Jarpa,council,district,G0138,,pending,,,,,,120907
+G1393,Tres de Diciembre,council,district,G0138,,pending,,,,,,120908
+G1394,Yanacancha,council,district,G0138,,pending,,,,,,120909
+G1395,Trujillo,council,district,G0139,,pending,,,,,,130101
+G1396,El Porvenir,council,district,G0139,,pending,,,,,,130102
+G1397,Florencia de Mora,council,district,G0139,,pending,,,,,,130103
+G1398,Huanchaco,council,district,G0139,,pending,,,,,,130104
+G1399,La Esperanza,council,district,G0139,,pending,,,,,,130105
+G1400,Laredo,council,district,G0139,,pending,,,,,,130106
+G1401,Moche,council,district,G0139,,pending,,,,,,130107
+G1402,Poroto,council,district,G0139,,pending,,,,,,130108
+G1403,Salaverry,council,district,G0139,,pending,,,,,,130109
+G1404,Simbal,council,district,G0139,,pending,,,,,,130110
+G1405,Victor Larco Herrera,council,district,G0139,,pending,,,,,,130111
+G1406,Alto Trujillo,council,district,G0139,,pending,,,,,,130112
+G1407,Ascope,council,district,G0140,,pending,,,,,,130201
+G1408,Chicama,council,district,G0140,,pending,,,,,,130202
+G1409,Chocope,council,district,G0140,,pending,,,,,,130203
+G1410,Magdalena de Cao,council,district,G0140,,pending,,,,,,130204
+G1411,Paijan,council,district,G0140,,pending,,,,,,130205
+G1412,Rázuri,council,district,G0140,,pending,,,,,,130206
+G1413,Santiago de Cao,council,district,G0140,,pending,,,,,,130207
+G1414,Casa Grande,council,district,G0140,,pending,,,,,,130208
+G1415,Bolívar,council,district,G0141,,pending,,,,,,130301
+G1416,Bambamarca,council,district,G0141,,pending,,,,,,130302
+G1417,Condormarca,council,district,G0141,,pending,,,,,,130303
+G1418,Longotea,council,district,G0141,,pending,,,,,,130304
+G1419,Uchumarca,council,district,G0141,,pending,,,,,,130305
+G1420,Ucuncha,council,district,G0141,,pending,,,,,,130306
+G1421,Chepen,council,district,G0142,,pending,,,,,,130401
+G1422,Pacanga,council,district,G0142,,pending,,,,,,130402
+G1423,Pueblo Nuevo,council,district,G0142,,pending,,,,,,130403
+G1424,Julcan,council,district,G0143,,pending,,,,,,130501
+G1425,Calamarca,council,district,G0143,,pending,,,,,,130502
+G1426,Carabamba,council,district,G0143,,pending,,,,,,130503
+G1427,Huaso,council,district,G0143,,pending,,,,,,130504
+G1428,Otuzco,council,district,G0144,,pending,,,,,,130601
+G1429,Agallpampa,council,district,G0144,,pending,,,,,,130602
+G1430,Charat,council,district,G0144,,pending,,,,,,130604
+G1431,Huaranchal,council,district,G0144,,pending,,,,,,130605
+G1432,La Cuesta,council,district,G0144,,pending,,,,,,130606
+G1433,Mache,council,district,G0144,,pending,,,,,,130608
+G1434,Paranday,council,district,G0144,,pending,,,,,,130610
+G1435,Salpo,council,district,G0144,,pending,,,,,,130611
+G1436,Sinsicap,council,district,G0144,,pending,,,,,,130613
+G1437,Usquil,council,district,G0144,,pending,,,,,,130614
+G1438,San Pedro de Lloc,council,district,G0145,,pending,,,,,,130701
+G1439,Guadalupe,council,district,G0145,,pending,,,,,,130702
+G1440,Jequetepeque,council,district,G0145,,pending,,,,,,130703
+G1441,Pacasmayo,council,district,G0145,,pending,,,,,,130704
+G1442,San José,council,district,G0145,,pending,,,,,,130705
+G1443,Tayabamba,council,district,G0146,,pending,,,,,,130801
+G1444,Buldibuyo,council,district,G0146,,pending,,,,,,130802
+G1445,Chillia,council,district,G0146,,pending,,,,,,130803
+G1446,Huancaspata,council,district,G0146,,pending,,,,,,130804
+G1447,Huaylillas,council,district,G0146,,pending,,,,,,130805
+G1448,Huayo,council,district,G0146,,pending,,,,,,130806
+G1449,Ongon,council,district,G0146,,pending,,,,,,130807
+G1450,Parcoy,council,district,G0146,,pending,,,,,,130808
+G1451,Pataz,council,district,G0146,,pending,,,,,,130809
+G1452,Pias,council,district,G0146,,pending,,,,,,130810
+G1453,Santiago de Challas,council,district,G0146,,pending,,,,,,130811
+G1454,Taurija,council,district,G0146,,pending,,,,,,130812
+G1455,Urpay,council,district,G0146,,pending,,,,,,130813
+G1456,Huamachuco,council,district,G0147,,pending,,,,,,130901
+G1457,Chugay,council,district,G0147,,pending,,,,,,130902
+G1458,Cochorco,council,district,G0147,,pending,,,,,,130903
+G1459,Curgos,council,district,G0147,,pending,,,,,,130904
+G1460,Marcabal,council,district,G0147,,pending,,,,,,130905
+G1461,Sanagoran,council,district,G0147,,pending,,,,,,130906
+G1462,Sarin,council,district,G0147,,pending,,,,,,130907
+G1463,Sartimbamba,council,district,G0147,,pending,,,,,,130908
+G1464,Santiago de Chuco,council,district,G0148,,pending,,,,,,131001
+G1465,Angasmarca,council,district,G0148,,pending,,,,,,131002
+G1466,Cachicadan,council,district,G0148,,pending,,,,,,131003
+G1467,Mollebamba,council,district,G0148,,pending,,,,,,131004
+G1468,Mollepata,council,district,G0148,,pending,,,,,,131005
+G1469,Quiruvilca,council,district,G0148,,pending,,,,,,131006
+G1470,Santa Cruz de Chuca,council,district,G0148,,pending,,,,,,131007
+G1471,Sitabamba,council,district,G0148,,pending,,,,,,131008
+G1472,Cascas,council,district,G0149,,pending,,,,,,131101
+G1473,Lucma,council,district,G0149,,pending,,,,,,131102
+G1474,Marmot,council,district,G0149,,pending,,,,,,131103
+G1475,Sayapullo,council,district,G0149,,pending,,,,,,131104
+G1476,Viru,council,district,G0150,,pending,,,,,,131201
+G1477,Chao,council,district,G0150,,pending,,,,,,131202
+G1478,Guadalupito,council,district,G0150,,pending,,,,,,131203
+G1479,Chiclayo,council,district,G0151,,pending,,,,,,140101
+G1480,Chongoyape,council,district,G0151,,pending,,,,,,140102
+G1481,Eten,council,district,G0151,,pending,,,,,,140103
+G1482,Eten Puerto,council,district,G0151,,pending,,,,,,140104
+G1483,José Leonardo Ortiz,council,district,G0151,,pending,,,,,,140105
+G1484,La Victoria,council,district,G0151,,pending,,,,,,140106
+G1485,Lagunas,council,district,G0151,,pending,,,,,,140107
+G1486,Monsefu,council,district,G0151,,pending,,,,,,140108
+G1487,Nueva Arica,council,district,G0151,,pending,,,,,,140109
+G1488,Oyotun,council,district,G0151,,pending,,,,,,140110
+G1489,Picsi,council,district,G0151,,pending,,,,,,140111
+G1490,Pimentel,council,district,G0151,,pending,,,,,,140112
+G1491,Reque,council,district,G0151,,pending,,,,,,140113
+G1492,Santa Rosa,council,district,G0151,,pending,,,,,,140114
+G1493,Saña,council,district,G0151,,pending,,,,,,140115
+G1494,Cayalti,council,district,G0151,,pending,,,,,,140116
+G1495,Patapo,council,district,G0151,,pending,,,,,,140117
+G1496,Pomalca,council,district,G0151,,pending,,,,,,140118
+G1497,Pucala,council,district,G0151,,pending,,,,,,140119
+G1498,Tuman,council,district,G0151,,pending,,,,,,140120
+G1499,Ferreñafe,council,district,G0152,,pending,,,,,,140201
+G1500,Cañaris,council,district,G0152,,pending,,,,,,140202
+G1501,Incahuasi,council,district,G0152,,pending,,,,,,140203
+G1502,Manuel Antonio Mesones Muro,council,district,G0152,,pending,,,,,,140204
+G1503,Pitipo,council,district,G0152,,pending,,,,,,140205
+G1504,Pueblo Nuevo,council,district,G0152,,pending,,,,,,140206
+G1505,Lambayeque,council,district,G0153,,pending,,,,,,140301
+G1506,Chochope,council,district,G0153,,pending,,,,,,140302
+G1507,Illimo,council,district,G0153,,pending,,,,,,140303
+G1508,Jayanca,council,district,G0153,,pending,,,,,,140304
+G1509,Mochumi,council,district,G0153,,pending,,,,,,140305
+G1510,Morrope,council,district,G0153,,pending,,,,,,140306
+G1511,Motupe,council,district,G0153,,pending,,,,,,140307
+G1512,Olmos,council,district,G0153,,pending,,,,,,140308
+G1513,Pacora,council,district,G0153,,pending,,,,,,140309
+G1514,Salas,council,district,G0153,,pending,,,,,,140310
+G1515,San José,council,district,G0153,,pending,,,,,,140311
+G1516,Tucume,council,district,G0153,,pending,,,,,,140312
+G1517,Lima,council,district,G0154,,pending,,,,,,150101
+G1518,Ancón,council,district,G0154,,pending,,,,,,150102
+G1519,Ate,council,district,G0154,,pending,,,,,,150103
+G1520,Barranco,council,district,G0154,,pending,,,,,,150104
+G1521,Breña,council,district,G0154,,pending,,,,,,150105
+G1522,Carabayllo,council,district,G0154,,pending,,,,,,150106
+G1523,Chaclacayo,council,district,G0154,,pending,,,,,,150107
+G1524,Chorrillos,council,district,G0154,,pending,,,,,,150108
+G1525,Cieneguilla,council,district,G0154,,pending,,,,,,150109
+G1526,Comas,council,district,G0154,,pending,,,,,,150110
+G1527,El Agustino,council,district,G0154,,pending,,,,,,150111
+G1528,Independencia,council,district,G0154,,pending,,,,,,150112
+G1529,Jesús María,council,district,G0154,,pending,,,,,,150113
+G1530,La Molina,council,district,G0154,,pending,,,,,,150114
+G1531,La Victoria,council,district,G0154,,pending,,,,,,150115
+G1532,Lince,council,district,G0154,,pending,,,,,,150116
+G1533,Los Olivos,council,district,G0154,,pending,,,,,,150117
+G1534,Lurigancho,council,district,G0154,,pending,,,,,,150118
+G1535,Lurin,council,district,G0154,,pending,,,,,,150119
+G1536,Magdalena del Mar,council,district,G0154,,pending,,,,,,150120
+G1537,Pueblo Libre,council,district,G0154,,pending,,,,,,150121
+G1538,Miraflores,council,district,G0154,,pending,,,,,,150122
+G1539,Pachacamac,council,district,G0154,,pending,,,,,,150123
+G1540,Pucusana,council,district,G0154,,pending,,,,,,150124
+G1541,Puente Piedra,council,district,G0154,,pending,,,,,,150125
+G1542,Punta Hermosa,council,district,G0154,,pending,,,,,,150126
+G1543,Punta Negra,council,district,G0154,,pending,,,,,,150127
+G1544,Rímac,council,district,G0154,,pending,,,,,,150128
+G1545,San Bartolo,council,district,G0154,,pending,,,,,,150129
+G1546,San Borja,council,district,G0154,,pending,,,,,,150130
+G1547,San Isidro,council,district,G0154,,pending,,,,,,150131
+G1548,San Juan de Lurigancho,council,district,G0154,,pending,,,,,,150132
+G1549,San Juan de Miraflores,council,district,G0154,,pending,,,,,,150133
+G1550,San Luis,council,district,G0154,,pending,,,,,,150134
+G1551,San Martín de Porres,council,district,G0154,,pending,,,,,,150135
+G1552,San Miguel,council,district,G0154,,pending,,,,,,150136
+G1553,Santa Anita,council,district,G0154,,pending,,,,,,150137
+G1554,Santa María del Mar,council,district,G0154,,pending,,,,,,150138
+G1555,Santa Rosa,council,district,G0154,,pending,,,,,,150139
+G1556,Santiago de Surco,council,district,G0154,,pending,,,,,,150140
+G1557,Surquillo,council,district,G0154,,pending,,,,,,150141
+G1558,Villa El Salvador,council,district,G0154,,pending,,,,,,150142
+G1559,Villa María del Triunfo,council,district,G0154,,pending,,,,,,150143
+G1560,Barranca,council,district,G0155,,pending,,,,,,150201
+G1561,Paramonga,council,district,G0155,,pending,,,,,,150202
+G1562,Pativilca,council,district,G0155,,pending,,,,,,150203
+G1563,Supe,council,district,G0155,,pending,,,,,,150204
+G1564,Supe Puerto,council,district,G0155,,pending,,,,,,150205
+G1565,Cajatambo,council,district,G0156,,pending,,,,,,150301
+G1566,Copa,council,district,G0156,,pending,,,,,,150302
+G1567,Gorgor,council,district,G0156,,pending,,,,,,150303
+G1568,Huancapon,council,district,G0156,,pending,,,,,,150304
+G1569,Manas,council,district,G0156,,pending,,,,,,150305
+G1570,Canta,council,district,G0157,,pending,,,,,,150401
+G1571,Arahuay,council,district,G0157,,pending,,,,,,150402
+G1572,Huamantanga,council,district,G0157,,pending,,,,,,150403
+G1573,Huaros,council,district,G0157,,pending,,,,,,150404
+G1574,Lachaqui,council,district,G0157,,pending,,,,,,150405
+G1575,San Buenaventura,council,district,G0157,,pending,,,,,,150406
+G1576,Santa Rosa de Quives,council,district,G0157,,pending,,,,,,150407
+G1577,San Vicente de Cañete,council,district,G0158,,pending,,,,,,150501
+G1578,Asia,council,district,G0158,,pending,,,,,,150502
+G1579,Calango,council,district,G0158,,pending,,,,,,150503
+G1580,Cerro Azul,council,district,G0158,,pending,,,,,,150504
+G1581,Chilca,council,district,G0158,,pending,,,,,,150505
+G1582,Coayllo,council,district,G0158,,pending,,,,,,150506
+G1583,Imperial,council,district,G0158,,pending,,,,,,150507
+G1584,Lunahuana,council,district,G0158,,pending,,,,,,150508
+G1585,Mala,council,district,G0158,,pending,,,,,,150509
+G1586,Nuevo Imperial,council,district,G0158,,pending,,,,,,150510
+G1587,Pacaran,council,district,G0158,,pending,,,,,,150511
+G1588,Quilmana,council,district,G0158,,pending,,,,,,150512
+G1589,San Antonio,council,district,G0158,,pending,,,,,,150513
+G1590,San Luis,council,district,G0158,,pending,,,,,,150514
+G1591,Santa Cruz de Flores,council,district,G0158,,pending,,,,,,150515
+G1592,Zúñiga,council,district,G0158,,pending,,,,,,150516
+G1593,Huaral,council,district,G0159,,pending,,,,,,150601
+G1594,Atavillos Alto,council,district,G0159,,pending,,,,,,150602
+G1595,Atavillos Bajo,council,district,G0159,,pending,,,,,,150603
+G1596,Aucallama,council,district,G0159,,pending,,,,,,150604
+G1597,Chancay,council,district,G0159,,pending,,,,,,150605
+G1598,Ihuari,council,district,G0159,,pending,,,,,,150606
+G1599,Lampian,council,district,G0159,,pending,,,,,,150607
+G1600,Pacaraos,council,district,G0159,,pending,,,,,,150608
+G1601,San Miguel de Acos,council,district,G0159,,pending,,,,,,150609
+G1602,Santa Cruz de Andamarca,council,district,G0159,,pending,,,,,,150610
+G1603,Sumbilca,council,district,G0159,,pending,,,,,,150611
+G1604,Veintisiete de Noviembre,council,district,G0159,,pending,,,,,,150612
+G1605,Matucana,council,district,G0160,,pending,,,,,,150701
+G1606,Antioquia,council,district,G0160,,pending,,,,,,150702
+G1607,Callahuanca,council,district,G0160,,pending,,,,,,150703
+G1608,Carampoma,council,district,G0160,,pending,,,,,,150704
+G1609,Chicla,council,district,G0160,,pending,,,,,,150705
+G1610,Cuenca,council,district,G0160,,pending,,,,,,150706
+G1611,Huachupampa,council,district,G0160,,pending,,,,,,150707
+G1612,Huanza,council,district,G0160,,pending,,,,,,150708
+G1613,Huarochiri,council,district,G0160,,pending,,,,,,150709
+G1614,Lahuaytambo,council,district,G0160,,pending,,,,,,150710
+G1615,Langa,council,district,G0160,,pending,,,,,,150711
+G1616,Laraos,council,district,G0160,,pending,,,,,,150712
+G1617,Mariatana,council,district,G0160,,pending,,,,,,150713
+G1618,Ricardo Palma,council,district,G0160,,pending,,,,,,150714
+G1619,San Andrés de Tupicocha,council,district,G0160,,pending,,,,,,150715
+G1620,San Antonio,council,district,G0160,,pending,,,,,,150716
+G1621,San Bartolomé,council,district,G0160,,pending,,,,,,150717
+G1622,San Damian,council,district,G0160,,pending,,,,,,150718
+G1623,San Juan de Iris,council,district,G0160,,pending,,,,,,150719
+G1624,San Juan de Tantaranche,council,district,G0160,,pending,,,,,,150720
+G1625,San Lorenzo de Quinti,council,district,G0160,,pending,,,,,,150721
+G1626,San Mateo,council,district,G0160,,pending,,,,,,150722
+G1627,San Mateo de Otao,council,district,G0160,,pending,,,,,,150723
+G1628,San Pedro de Casta,council,district,G0160,,pending,,,,,,150724
+G1629,San Pedro de Huancayre,council,district,G0160,,pending,,,,,,150725
+G1630,Sangallaya,council,district,G0160,,pending,,,,,,150726
+G1631,Santa Cruz de Cocachacra,council,district,G0160,,pending,,,,,,150727
+G1632,Santa Eulalia,council,district,G0160,,pending,,,,,,150728
+G1633,Santiago de Anchucaya,council,district,G0160,,pending,,,,,,150729
+G1634,Santiago de Tuna,council,district,G0160,,pending,,,,,,150730
+G1635,Santo Domingo de Los Olleros,council,district,G0160,,pending,,,,,,150731
+G1636,Surco,council,district,G0160,,pending,,,,,,150732
+G1637,Huacho,council,district,G0161,,pending,,,,,,150801
+G1638,Ambar,council,district,G0161,,pending,,,,,,150802
+G1639,Caleta de Carquin,council,district,G0161,,pending,,,,,,150803
+G1640,Checras,council,district,G0161,,pending,,,,,,150804
+G1641,Hualmay,council,district,G0161,,pending,,,,,,150805
+G1642,Huaura,council,district,G0161,,pending,,,,,,150806
+G1643,Leoncio Prado,council,district,G0161,,pending,,,,,,150807
+G1644,Paccho,council,district,G0161,,pending,,,,,,150808
+G1645,Santa Leonor,council,district,G0161,,pending,,,,,,150809
+G1646,Santa María,council,district,G0161,,pending,,,,,,150810
+G1647,Sayan,council,district,G0161,,pending,,,,,,150811
+G1648,Vegueta,council,district,G0161,,pending,,,,,,150812
+G1649,Oyon,council,district,G0162,,pending,,,,,,150901
+G1650,Andajes,council,district,G0162,,pending,,,,,,150902
+G1651,Caujul,council,district,G0162,,pending,,,,,,150903
+G1652,Cochamarca,council,district,G0162,,pending,,,,,,150904
+G1653,Navan,council,district,G0162,,pending,,,,,,150905
+G1654,Pachangara,council,district,G0162,,pending,,,,,,150906
+G1655,Yauyos,council,district,G0163,,pending,,,,,,151001
+G1656,Alis,council,district,G0163,,pending,,,,,,151002
+G1657,Allauca,council,district,G0163,,pending,,,,,,151003
+G1658,Ayaviri,council,district,G0163,,pending,,,,,,151004
+G1659,Azángaro,council,district,G0163,,pending,,,,,,151005
+G1660,Cacra,council,district,G0163,,pending,,,,,,151006
+G1661,Carania,council,district,G0163,,pending,,,,,,151007
+G1662,Catahuasi,council,district,G0163,,pending,,,,,,151008
+G1663,Chocos,council,district,G0163,,pending,,,,,,151009
+G1664,Cochas,council,district,G0163,,pending,,,,,,151010
+G1665,Colonia,council,district,G0163,,pending,,,,,,151011
+G1666,Hongos,council,district,G0163,,pending,,,,,,151012
+G1667,Huampara,council,district,G0163,,pending,,,,,,151013
+G1668,Huancaya,council,district,G0163,,pending,,,,,,151014
+G1669,Huangascar,council,district,G0163,,pending,,,,,,151015
+G1670,Huantan,council,district,G0163,,pending,,,,,,151016
+G1671,Huañec,council,district,G0163,,pending,,,,,,151017
+G1672,Laraos,council,district,G0163,,pending,,,,,,151018
+G1673,Lincha,council,district,G0163,,pending,,,,,,151019
+G1674,Madean,council,district,G0163,,pending,,,,,,151020
+G1675,Miraflores,council,district,G0163,,pending,,,,,,151021
+G1676,Omas,council,district,G0163,,pending,,,,,,151022
+G1677,Putinza,council,district,G0163,,pending,,,,,,151023
+G1678,Quinches,council,district,G0163,,pending,,,,,,151024
+G1679,Quinocay,council,district,G0163,,pending,,,,,,151025
+G1680,San Joaquín,council,district,G0163,,pending,,,,,,151026
+G1681,San Pedro de Pilas,council,district,G0163,,pending,,,,,,151027
+G1682,Tanta,council,district,G0163,,pending,,,,,,151028
+G1683,Tauripampa,council,district,G0163,,pending,,,,,,151029
+G1684,Tomas,council,district,G0163,,pending,,,,,,151030
+G1685,Tupe,council,district,G0163,,pending,,,,,,151031
+G1686,Viñac,council,district,G0163,,pending,,,,,,151032
+G1687,Vitis,council,district,G0163,,pending,,,,,,151033
+G1688,Iquitos,council,district,G0164,,pending,,,,,,160101
+G1689,Alto Nanay,council,district,G0164,,pending,,,,,,160102
+G1690,Fernando Lores,council,district,G0164,,pending,,,,,,160103
+G1691,Indiana,council,district,G0164,,pending,,,,,,160104
+G1692,Las Amazonas,council,district,G0164,,pending,,,,,,160105
+G1693,Mazan,council,district,G0164,,pending,,,,,,160106
+G1694,Napo,council,district,G0164,,pending,,,,,,160107
+G1695,Punchana,council,district,G0164,,pending,,,,,,160108
+G1696,Torres Causana,council,district,G0164,,pending,,,,,,160110
+G1697,Belén,council,district,G0164,,pending,,,,,,160112
+G1698,San Juan Bautista,council,district,G0164,,pending,,,,,,160113
+G1699,Yurimaguas,council,district,G0165,,pending,,,,,,160201
+G1700,Balsapuerto,council,district,G0165,,pending,,,,,,160202
+G1701,Jeberos,council,district,G0165,,pending,,,,,,160205
+G1702,Lagunas,council,district,G0165,,pending,,,,,,160206
+G1703,Santa Cruz,council,district,G0165,,pending,,,,,,160210
+G1704,Teniente Cesar López Rojas,council,district,G0165,,pending,,,,,,160211
+G1705,Nauta,council,district,G0166,,pending,,,,,,160301
+G1706,Parinari,council,district,G0166,,pending,,,,,,160302
+G1707,Tigre,council,district,G0166,,pending,,,,,,160303
+G1708,Trompeteros,council,district,G0166,,pending,,,,,,160304
+G1709,Urarinas,council,district,G0166,,pending,,,,,,160305
+G1710,Ramón Castilla,council,district,G0167,,pending,,,,,,160401
+G1711,Pebas,council,district,G0167,,pending,,,,,,160402
+G1712,Yavari,council,district,G0167,,pending,,,,,,160403
+G1713,San Pablo,council,district,G0167,,pending,,,,,,160404
+G1714,Santa Rosa de Loreto,council,district,G0167,,pending,,,,,,160405
+G1715,Requena,council,district,G0168,,pending,,,,,,160501
+G1716,Alto Tapiche,council,district,G0168,,pending,,,,,,160502
+G1717,Capelo,council,district,G0168,,pending,,,,,,160503
+G1718,Emilio San Martín,council,district,G0168,,pending,,,,,,160504
+G1719,Maquia,council,district,G0168,,pending,,,,,,160505
+G1720,Puinahua,council,district,G0168,,pending,,,,,,160506
+G1721,Saquena,council,district,G0168,,pending,,,,,,160507
+G1722,Soplin,council,district,G0168,,pending,,,,,,160508
+G1723,Tapiche,council,district,G0168,,pending,,,,,,160509
+G1724,Jenaro Herrera,council,district,G0168,,pending,,,,,,160510
+G1725,Yaquerana,council,district,G0168,,pending,,,,,,160511
+G1726,Contamana,council,district,G0169,,pending,,,,,,160601
+G1727,Inahuaya,council,district,G0169,,pending,,,,,,160602
+G1728,Padre Márquez,council,district,G0169,,pending,,,,,,160603
+G1729,Pampa Hermosa,council,district,G0169,,pending,,,,,,160604
+G1730,Sarayacu,council,district,G0169,,pending,,,,,,160605
+G1731,Vargas Guerra,council,district,G0169,,pending,,,,,,160606
+G1732,Barranca,council,district,G0170,,pending,,,,,,160701
+G1733,Cahuapanas,council,district,G0170,,pending,,,,,,160702
+G1734,Manseriche,council,district,G0170,,pending,,,,,,160703
+G1735,Morona,council,district,G0170,,pending,,,,,,160704
+G1736,Pastaza,council,district,G0170,,pending,,,,,,160705
+G1737,Andoas,council,district,G0170,,pending,,,,,,160706
+G1738,Putumayo,council,district,G0171,,pending,,,,,,160801
+G1739,Rosa Panduro,council,district,G0171,,pending,,,,,,160802
+G1740,Teniente Manuel Clavero,council,district,G0171,,pending,,,,,,160803
+G1741,Yaguas,council,district,G0171,,pending,,,,,,160804
+G1742,Tambopata,council,district,G0172,,pending,,,,,,170101
+G1743,Inambari,council,district,G0172,,pending,,,,,,170102
+G1744,Las Piedras,council,district,G0172,,pending,,,,,,170103
+G1745,Laberinto,council,district,G0172,,pending,,,,,,170104
+G1746,Manu,council,district,G0173,,pending,,,,,,170201
+G1747,Fitzcarrald,council,district,G0173,,pending,,,,,,170202
+G1748,Madre de Dios,council,district,G0173,,pending,,,,,,170203
+G1749,Huepetuhe,council,district,G0173,,pending,,,,,,170204
+G1750,Iñapari,council,district,G0174,,pending,,,,,,170301
+G1751,Iberia,council,district,G0174,,pending,,,,,,170302
+G1752,Tahuamanu,council,district,G0174,,pending,,,,,,170303
+G1753,Moquegua,council,district,G0175,,pending,,,,,,180101
+G1754,Carumas,council,district,G0175,,pending,,,,,,180102
+G1755,Cuchumbaya,council,district,G0175,,pending,,,,,,180103
+G1756,Samegua,council,district,G0175,,pending,,,,,,180104
+G1757,San Cristóbal,council,district,G0175,,pending,,,,,,180105
+G1758,Torata,council,district,G0175,,pending,,,,,,180106
+G1759,San Antonio,council,district,G0175,,pending,,,,,,180107
+G1760,Omate,council,district,G0176,,pending,,,,,,180201
+G1761,Chojata,council,district,G0176,,pending,,,,,,180202
+G1762,Coalaque,council,district,G0176,,pending,,,,,,180203
+G1763,Ichuña,council,district,G0176,,pending,,,,,,180204
+G1764,La Capilla,council,district,G0176,,pending,,,,,,180205
+G1765,Lloque,council,district,G0176,,pending,,,,,,180206
+G1766,Matalaque,council,district,G0176,,pending,,,,,,180207
+G1767,Puquina,council,district,G0176,,pending,,,,,,180208
+G1768,Quinistaquillas,council,district,G0176,,pending,,,,,,180209
+G1769,Ubinas,council,district,G0176,,pending,,,,,,180210
+G1770,Yunga,council,district,G0176,,pending,,,,,,180211
+G1771,Ilo,council,district,G0177,,pending,,,,,,180301
+G1772,El Algarrobal,council,district,G0177,,pending,,,,,,180302
+G1773,Pacocha,council,district,G0177,,pending,,,,,,180303
+G1774,Chaupimarca,council,district,G0178,,pending,,,,,,190101
+G1775,Huachon,council,district,G0178,,pending,,,,,,190102
+G1776,Huariaca,council,district,G0178,,pending,,,,,,190103
+G1777,Huayllay,council,district,G0178,,pending,,,,,,190104
+G1778,Ninacaca,council,district,G0178,,pending,,,,,,190105
+G1779,Pallanchacra,council,district,G0178,,pending,,,,,,190106
+G1780,Paucartambo,council,district,G0178,,pending,,,,,,190107
+G1781,San Francisco de Asís de Yarusyacan,council,district,G0178,,pending,,,,,,190108
+G1782,Simon Bolívar,council,district,G0178,,pending,,,,,,190109
+G1783,Ticlacayan,council,district,G0178,,pending,,,,,,190110
+G1784,Tinyahuarco,council,district,G0178,,pending,,,,,,190111
+G1785,Vicco,council,district,G0178,,pending,,,,,,190112
+G1786,Yanacancha,council,district,G0178,,pending,,,,,,190113
+G1787,Yanahuanca,council,district,G0179,,pending,,,,,,190201
+G1788,Chacayan,council,district,G0179,,pending,,,,,,190202
+G1789,Goyllarisquizga,council,district,G0179,,pending,,,,,,190203
+G1790,Paucar,council,district,G0179,,pending,,,,,,190204
+G1791,San Pedro de Pillao,council,district,G0179,,pending,,,,,,190205
+G1792,Santa Ana de Tusi,council,district,G0179,,pending,,,,,,190206
+G1793,Tapuc,council,district,G0179,,pending,,,,,,190207
+G1794,Vilcabamba,council,district,G0179,,pending,,,,,,190208
+G1795,Oxapampa,council,district,G0180,,pending,,,,,,190301
+G1796,Chontabamba,council,district,G0180,,pending,,,,,,190302
+G1797,Huancabamba,council,district,G0180,,pending,,,,,,190303
+G1798,Palcazu,council,district,G0180,,pending,,,,,,190304
+G1799,Pozuzo,council,district,G0180,,pending,,,,,,190305
+G1800,Puerto Bermúdez,council,district,G0180,,pending,,,,,,190306
+G1801,Villa Rica,council,district,G0180,,pending,,,,,,190307
+G1802,Constitución,council,district,G0180,,pending,,,,,,190308
+G1803,Piura,council,district,G0181,,pending,,,,,,200101
+G1804,Castilla,council,district,G0181,,pending,,,,,,200104
+G1805,Catacaos,council,district,G0181,,pending,,,,,,200105
+G1806,Cura Mori,council,district,G0181,,pending,,,,,,200107
+G1807,El Tallan,council,district,G0181,,pending,,,,,,200108
+G1808,La Arena,council,district,G0181,,pending,,,,,,200109
+G1809,La Unión,council,district,G0181,,pending,,,,,,200110
+G1810,Las Lomas,council,district,G0181,,pending,,,,,,200111
+G1811,Tambo Grande,council,district,G0181,,pending,,,,,,200114
+G1812,Veintiseis de Octubre,council,district,G0181,,pending,,,,,,200115
+G1813,Ayabaca,council,district,G0182,,pending,,,,,,200201
+G1814,Frias,council,district,G0182,,pending,,,,,,200202
+G1815,Jilili,council,district,G0182,,pending,,,,,,200203
+G1816,Lagunas,council,district,G0182,,pending,,,,,,200204
+G1817,Montero,council,district,G0182,,pending,,,,,,200205
+G1818,Pacaipampa,council,district,G0182,,pending,,,,,,200206
+G1819,Paimas,council,district,G0182,,pending,,,,,,200207
+G1820,Sapillica,council,district,G0182,,pending,,,,,,200208
+G1821,Sicchez,council,district,G0182,,pending,,,,,,200209
+G1822,Suyo,council,district,G0182,,pending,,,,,,200210
+G1823,Huancabamba,council,district,G0183,,pending,,,,,,200301
+G1824,Canchaque,council,district,G0183,,pending,,,,,,200302
+G1825,El Carmen de la Frontera,council,district,G0183,,pending,,,,,,200303
+G1826,Huarmaca,council,district,G0183,,pending,,,,,,200304
+G1827,Lalaquiz,council,district,G0183,,pending,,,,,,200305
+G1828,San Miguel de El Faique,council,district,G0183,,pending,,,,,,200306
+G1829,Sondor,council,district,G0183,,pending,,,,,,200307
+G1830,Sondorillo,council,district,G0183,,pending,,,,,,200308
+G1831,Chulucanas,council,district,G0184,,pending,,,,,,200401
+G1832,Buenos Aires,council,district,G0184,,pending,,,,,,200402
+G1833,Chalaco,council,district,G0184,,pending,,,,,,200403
+G1834,La Matanza,council,district,G0184,,pending,,,,,,200404
+G1835,Morropon,council,district,G0184,,pending,,,,,,200405
+G1836,Salitral,council,district,G0184,,pending,,,,,,200406
+G1837,San Juan de Bigote,council,district,G0184,,pending,,,,,,200407
+G1838,Santa Catalina de Mossa,council,district,G0184,,pending,,,,,,200408
+G1839,Santo Domingo,council,district,G0184,,pending,,,,,,200409
+G1840,Yamango,council,district,G0184,,pending,,,,,,200410
+G1841,Paita,council,district,G0185,,pending,,,,,,200501
+G1842,Amotape,council,district,G0185,,pending,,,,,,200502
+G1843,Arenal,council,district,G0185,,pending,,,,,,200503
+G1844,Colan,council,district,G0185,,pending,,,,,,200504
+G1845,La Huaca,council,district,G0185,,pending,,,,,,200505
+G1846,Tamarindo,council,district,G0185,,pending,,,,,,200506
+G1847,Vichayal,council,district,G0185,,pending,,,,,,200507
+G1848,Sullana,council,district,G0186,,pending,,,,,,200601
+G1849,Bellavista,council,district,G0186,,pending,,,,,,200602
+G1850,Ignacio Escudero,council,district,G0186,,pending,,,,,,200603
+G1851,Lancones,council,district,G0186,,pending,,,,,,200604
+G1852,Marcavelica,council,district,G0186,,pending,,,,,,200605
+G1853,Miguel Checa,council,district,G0186,,pending,,,,,,200606
+G1854,Querecotillo,council,district,G0186,,pending,,,,,,200607
+G1855,Salitral,council,district,G0186,,pending,,,,,,200608
+G1856,Pariñas,council,district,G0187,,pending,,,,,,200701
+G1857,El Alto,council,district,G0187,,pending,,,,,,200702
+G1858,La Brea,council,district,G0187,,pending,,,,,,200703
+G1859,Lobitos,council,district,G0187,,pending,,,,,,200704
+G1860,Los Organos,council,district,G0187,,pending,,,,,,200705
+G1861,Mancora,council,district,G0187,,pending,,,,,,200706
+G1862,Sechura,council,district,G0188,,pending,,,,,,200801
+G1863,Bellavista de la Unión,council,district,G0188,,pending,,,,,,200802
+G1864,Bernal,council,district,G0188,,pending,,,,,,200803
+G1865,Cristo Nos Valga,council,district,G0188,,pending,,,,,,200804
+G1866,Vice,council,district,G0188,,pending,,,,,,200805
+G1867,Rinconada Llicuar,council,district,G0188,,pending,,,,,,200806
+G1868,Puno,council,district,G0189,,pending,,,,,,210101
+G1869,Acora,council,district,G0189,,pending,,,,,,210102
+G1870,Amantani,council,district,G0189,,pending,,,,,,210103
+G1871,Atuncolla,council,district,G0189,,pending,,,,,,210104
+G1872,Capachica,council,district,G0189,,pending,,,,,,210105
+G1873,Chucuito,council,district,G0189,,pending,,,,,,210106
+G1874,Coata,council,district,G0189,,pending,,,,,,210107
+G1875,Huata,council,district,G0189,,pending,,,,,,210108
+G1876,Mañazo,council,district,G0189,,pending,,,,,,210109
+G1877,Paucarcolla,council,district,G0189,,pending,,,,,,210110
+G1878,Pichacani,council,district,G0189,,pending,,,,,,210111
+G1879,Plateria,council,district,G0189,,pending,,,,,,210112
+G1880,San Antonio,council,district,G0189,,pending,,,,,,210113
+G1881,Tiquillaca,council,district,G0189,,pending,,,,,,210114
+G1882,Vilque,council,district,G0189,,pending,,,,,,210115
+G1883,Azángaro,council,district,G0190,,pending,,,,,,210201
+G1884,Achaya,council,district,G0190,,pending,,,,,,210202
+G1885,Arapa,council,district,G0190,,pending,,,,,,210203
+G1886,Asillo,council,district,G0190,,pending,,,,,,210204
+G1887,Caminaca,council,district,G0190,,pending,,,,,,210205
+G1888,Chupa,council,district,G0190,,pending,,,,,,210206
+G1889,José Domingo Choquehuanca,council,district,G0190,,pending,,,,,,210207
+G1890,Muñani,council,district,G0190,,pending,,,,,,210208
+G1891,Potoni,council,district,G0190,,pending,,,,,,210209
+G1892,Saman,council,district,G0190,,pending,,,,,,210210
+G1893,San Anton,council,district,G0190,,pending,,,,,,210211
+G1894,San José,council,district,G0190,,pending,,,,,,210212
+G1895,San Juan de Salinas,council,district,G0190,,pending,,,,,,210213
+G1896,Santiago de Pupuja,council,district,G0190,,pending,,,,,,210214
+G1897,Tirapata,council,district,G0190,,pending,,,,,,210215
+G1898,Macusani,council,district,G0191,,pending,,,,,,210301
+G1899,Ajoyani,council,district,G0191,,pending,,,,,,210302
+G1900,Ayapata,council,district,G0191,,pending,,,,,,210303
+G1901,Coasa,council,district,G0191,,pending,,,,,,210304
+G1902,Corani,council,district,G0191,,pending,,,,,,210305
+G1903,Crucero,council,district,G0191,,pending,,,,,,210306
+G1904,Ituata,council,district,G0191,,pending,,,,,,210307
+G1905,Ollachea,council,district,G0191,,pending,,,,,,210308
+G1906,San Gaban,council,district,G0191,,pending,,,,,,210309
+G1907,Usicayos,council,district,G0191,,pending,,,,,,210310
+G1908,Juli,council,district,G0192,,pending,,,,,,210401
+G1909,Desaguadero,council,district,G0192,,pending,,,,,,210402
+G1910,Huacullani,council,district,G0192,,pending,,,,,,210403
+G1911,Kelluyo,council,district,G0192,,pending,,,,,,210404
+G1912,Pisacoma,council,district,G0192,,pending,,,,,,210405
+G1913,Pomata,council,district,G0192,,pending,,,,,,210406
+G1914,Zepita,council,district,G0192,,pending,,,,,,210407
+G1915,Ilave,council,district,G0193,,pending,,,,,,210501
+G1916,Capazo,council,district,G0193,,pending,,,,,,210502
+G1917,Pilcuyo,council,district,G0193,,pending,,,,,,210503
+G1918,Santa Rosa,council,district,G0193,,pending,,,,,,210504
+G1919,Conduriri,council,district,G0193,,pending,,,,,,210505
+G1920,Huancane,council,district,G0194,,pending,,,,,,210601
+G1921,Cojata,council,district,G0194,,pending,,,,,,210602
+G1922,Huatasani,council,district,G0194,,pending,,,,,,210603
+G1923,Inchupalla,council,district,G0194,,pending,,,,,,210604
+G1924,Pusi,council,district,G0194,,pending,,,,,,210605
+G1925,Rosaspata,council,district,G0194,,pending,,,,,,210606
+G1926,Taraco,council,district,G0194,,pending,,,,,,210607
+G1927,Vilque Chico,council,district,G0194,,pending,,,,,,210608
+G1928,Lampa,council,district,G0195,,pending,,,,,,210701
+G1929,Cabanilla,council,district,G0195,,pending,,,,,,210702
+G1930,Calapuja,council,district,G0195,,pending,,,,,,210703
+G1931,Nicasio,council,district,G0195,,pending,,,,,,210704
+G1932,Ocuviri,council,district,G0195,,pending,,,,,,210705
+G1933,Palca,council,district,G0195,,pending,,,,,,210706
+G1934,Paratia,council,district,G0195,,pending,,,,,,210707
+G1935,Pucara,council,district,G0195,,pending,,,,,,210708
+G1936,Santa Lucia,council,district,G0195,,pending,,,,,,210709
+G1937,Vilavila,council,district,G0195,,pending,,,,,,210710
+G1938,Ayaviri,council,district,G0196,,pending,,,,,,210801
+G1939,Antauta,council,district,G0196,,pending,,,,,,210802
+G1940,Cupi,council,district,G0196,,pending,,,,,,210803
+G1941,Llalli,council,district,G0196,,pending,,,,,,210804
+G1942,Macari,council,district,G0196,,pending,,,,,,210805
+G1943,Nuñoa,council,district,G0196,,pending,,,,,,210806
+G1944,Orurillo,council,district,G0196,,pending,,,,,,210807
+G1945,Santa Rosa,council,district,G0196,,pending,,,,,,210808
+G1946,Umachiri,council,district,G0196,,pending,,,,,,210809
+G1947,Moho,council,district,G0197,,pending,,,,,,210901
+G1948,Conima,council,district,G0197,,pending,,,,,,210902
+G1949,Huayrapata,council,district,G0197,,pending,,,,,,210903
+G1950,Tilali,council,district,G0197,,pending,,,,,,210904
+G1951,Putina,council,district,G0198,,pending,,,,,,211001
+G1952,Ananea,council,district,G0198,,pending,,,,,,211002
+G1953,Pedro Vilca Apaza,council,district,G0198,,pending,,,,,,211003
+G1954,Quilcapuncu,council,district,G0198,,pending,,,,,,211004
+G1955,Sina,council,district,G0198,,pending,,,,,,211005
+G1956,Juliaca,council,district,G0199,,pending,,,,,,211101
+G1957,Cabana,council,district,G0199,,pending,,,,,,211102
+G1958,Cabanillas,council,district,G0199,,pending,,,,,,211103
+G1959,Caracoto,council,district,G0199,,pending,,,,,,211104
+G1960,San Miguel,council,district,G0199,,pending,,,,,,211105
+G1961,Sandia,council,district,G0200,,pending,,,,,,211201
+G1962,Cuyocuyo,council,district,G0200,,pending,,,,,,211202
+G1963,Limbani,council,district,G0200,,pending,,,,,,211203
+G1964,Patambuco,council,district,G0200,,pending,,,,,,211204
+G1965,Phara,council,district,G0200,,pending,,,,,,211205
+G1966,Quiaca,council,district,G0200,,pending,,,,,,211206
+G1967,San Juan del Oro,council,district,G0200,,pending,,,,,,211207
+G1968,Yanahuaya,council,district,G0200,,pending,,,,,,211208
+G1969,Alto Inambari,council,district,G0200,,pending,,,,,,211209
+G1970,San Pedro de Putina Punco,council,district,G0200,,pending,,,,,,211210
+G1971,Yunguyo,council,district,G0201,,pending,,,,,,211301
+G1972,Anapia,council,district,G0201,,pending,,,,,,211302
+G1973,Copani,council,district,G0201,,pending,,,,,,211303
+G1974,Cuturapi,council,district,G0201,,pending,,,,,,211304
+G1975,Ollaraya,council,district,G0201,,pending,,,,,,211305
+G1976,Tinicachi,council,district,G0201,,pending,,,,,,211306
+G1977,Unicachi,council,district,G0201,,pending,,,,,,211307
+G1978,Moyobamba,council,district,G0202,,pending,,,,,,220101
+G1979,Calzada,council,district,G0202,,pending,,,,,,220102
+G1980,Habana,council,district,G0202,,pending,,,,,,220103
+G1981,Jepelacio,council,district,G0202,,pending,,,,,,220104
+G1982,Soritor,council,district,G0202,,pending,,,,,,220105
+G1983,Yantalo,council,district,G0202,,pending,,,,,,220106
+G1984,Bellavista,council,district,G0203,,pending,,,,,,220201
+G1985,Alto Biavo,council,district,G0203,,pending,,,,,,220202
+G1986,Bajo Biavo,council,district,G0203,,pending,,,,,,220203
+G1987,Huallaga,council,district,G0203,,pending,,,,,,220204
+G1988,San Pablo,council,district,G0203,,pending,,,,,,220205
+G1989,San Rafael,council,district,G0203,,pending,,,,,,220206
+G1990,San José de Sisa,council,district,G0204,,pending,,,,,,220301
+G1991,Agua Blanca,council,district,G0204,,pending,,,,,,220302
+G1992,San Martín,council,district,G0204,,pending,,,,,,220303
+G1993,Santa Rosa,council,district,G0204,,pending,,,,,,220304
+G1994,Shatoja,council,district,G0204,,pending,,,,,,220305
+G1995,Saposoa,council,district,G0205,,pending,,,,,,220401
+G1996,Alto Saposoa,council,district,G0205,,pending,,,,,,220402
+G1997,El Eslabón,council,district,G0205,,pending,,,,,,220403
+G1998,Piscoyacu,council,district,G0205,,pending,,,,,,220404
+G1999,Sacanche,council,district,G0205,,pending,,,,,,220405
+G2000,Tingo de Saposoa,council,district,G0205,,pending,,,,,,220406
+G2001,Lamas,council,district,G0206,,pending,,,,,,220501
+G2002,Alonso de Alvarado,council,district,G0206,,pending,,,,,,220502
+G2003,Barranquita,council,district,G0206,,pending,,,,,,220503
+G2004,Caynarachi,council,district,G0206,,pending,,,,,,220504
+G2005,Cuñumbuqui,council,district,G0206,,pending,,,,,,220505
+G2006,Pinto Recodo,council,district,G0206,,pending,,,,,,220506
+G2007,Rumisapa,council,district,G0206,,pending,,,,,,220507
+G2008,San Roque de Cumbaza,council,district,G0206,,pending,,,,,,220508
+G2009,Shanao,council,district,G0206,,pending,,,,,,220509
+G2010,Tabalosos,council,district,G0206,,pending,,,,,,220510
+G2011,Zapatero,council,district,G0206,,pending,,,,,,220511
+G2012,Juanjuí,council,district,G0207,,pending,,,,,,220601
+G2013,Campanilla,council,district,G0207,,pending,,,,,,220602
+G2014,Huicungo,council,district,G0207,,pending,,,,,,220603
+G2015,Pachiza,council,district,G0207,,pending,,,,,,220604
+G2016,Pajarillo,council,district,G0207,,pending,,,,,,220605
+G2017,Picota,council,district,G0208,,pending,,,,,,220701
+G2018,Buenos Aires,council,district,G0208,,pending,,,,,,220702
+G2019,Caspisapa,council,district,G0208,,pending,,,,,,220703
+G2020,Pilluana,council,district,G0208,,pending,,,,,,220704
+G2021,Pucacaca,council,district,G0208,,pending,,,,,,220705
+G2022,San Cristóbal,council,district,G0208,,pending,,,,,,220706
+G2023,San Hilarión,council,district,G0208,,pending,,,,,,220707
+G2024,Shamboyacu,council,district,G0208,,pending,,,,,,220708
+G2025,Tingo de Ponasa,council,district,G0208,,pending,,,,,,220709
+G2026,Tres Unidos,council,district,G0208,,pending,,,,,,220710
+G2027,Rioja,council,district,G0209,,pending,,,,,,220801
+G2028,Awajun,council,district,G0209,,pending,,,,,,220802
+G2029,Elías Soplin Vargas,council,district,G0209,,pending,,,,,,220803
+G2030,Nueva Cajamarca,council,district,G0209,,pending,,,,,,220804
+G2031,Pardo Miguel,council,district,G0209,,pending,,,,,,220805
+G2032,Posic,council,district,G0209,,pending,,,,,,220806
+G2033,San Fernando,council,district,G0209,,pending,,,,,,220807
+G2034,Yorongos,council,district,G0209,,pending,,,,,,220808
+G2035,Yuracyacu,council,district,G0209,,pending,,,,,,220809
+G2036,Tarapoto,council,district,G0210,,pending,,,,,,220901
+G2037,Alberto Leveau,council,district,G0210,,pending,,,,,,220902
+G2038,Cacatachi,council,district,G0210,,pending,,,,,,220903
+G2039,Chazuta,council,district,G0210,,pending,,,,,,220904
+G2040,Chipurana,council,district,G0210,,pending,,,,,,220905
+G2041,El Porvenir,council,district,G0210,,pending,,,,,,220906
+G2042,Huimbayoc,council,district,G0210,,pending,,,,,,220907
+G2043,Juan Guerra,council,district,G0210,,pending,,,,,,220908
+G2044,La Banda de Shilcayo,council,district,G0210,,pending,,,,,,220909
+G2045,Morales,council,district,G0210,,pending,,,,,,220910
+G2046,Papaplaya,council,district,G0210,,pending,,,,,,220911
+G2047,San Antonio,council,district,G0210,,pending,,,,,,220912
+G2048,Sauce,council,district,G0210,,pending,,,,,,220913
+G2049,Shapaja,council,district,G0210,,pending,,,,,,220914
+G2050,Tocache,council,district,G0211,,pending,,,,,,221001
+G2051,Nuevo Progreso,council,district,G0211,,pending,,,,,,221002
+G2052,Polvora,council,district,G0211,,pending,,,,,,221003
+G2053,Shunte,council,district,G0211,,pending,,,,,,221004
+G2054,Uchiza,council,district,G0211,,pending,,,,,,221005
+G2055,Santa Lucia,council,district,G0211,,pending,,,,,,221006
+G2056,Tacna,council,district,G0212,,pending,,,,,,230101
+G2057,Alto de la Alianza,council,district,G0212,,pending,,,,,,230102
+G2058,Calana,council,district,G0212,,pending,,,,,,230103
+G2059,Ciudad Nueva,council,district,G0212,,pending,,,,,,230104
+G2060,Inclan,council,district,G0212,,pending,,,,,,230105
+G2061,Pachia,council,district,G0212,,pending,,,,,,230106
+G2062,Palca,council,district,G0212,,pending,,,,,,230107
+G2063,Pocollay,council,district,G0212,,pending,,,,,,230108
+G2064,Sama,council,district,G0212,,pending,,,,,,230109
+G2065,Coronel Gregorio Albarracín Lanchipa,council,district,G0212,,pending,,,,,,230110
+G2066,La Yarada los Palos,council,district,G0212,,pending,,,,,,230111
+G2067,Candarave,council,district,G0213,,pending,,,,,,230201
+G2068,Cairani,council,district,G0213,,pending,,,,,,230202
+G2069,Camilaca,council,district,G0213,,pending,,,,,,230203
+G2070,Curibaya,council,district,G0213,,pending,,,,,,230204
+G2071,Huanuara,council,district,G0213,,pending,,,,,,230205
+G2072,Quilahuani,council,district,G0213,,pending,,,,,,230206
+G2073,Locumba,council,district,G0214,,pending,,,,,,230301
+G2074,Ilabaya,council,district,G0214,,pending,,,,,,230302
+G2075,Ite,council,district,G0214,,pending,,,,,,230303
+G2076,Tarata,council,district,G0215,,pending,,,,,,230401
+G2077,Héroes Albarracín,council,district,G0215,,pending,,,,,,230402
+G2078,Estique,council,district,G0215,,pending,,,,,,230403
+G2079,Estique-Pampa,council,district,G0215,,pending,,,,,,230404
+G2080,Sitajara,council,district,G0215,,pending,,,,,,230405
+G2081,Susapaya,council,district,G0215,,pending,,,,,,230406
+G2082,Tarucachi,council,district,G0215,,pending,,,,,,230407
+G2083,Ticaco,council,district,G0215,,pending,,,,,,230408
+G2084,Tumbes,council,district,G0216,,pending,,,,,,240101
+G2085,Corrales,council,district,G0216,,pending,,,,,,240102
+G2086,La Cruz,council,district,G0216,,pending,,,,,,240103
+G2087,Pampas de Hospital,council,district,G0216,,pending,,,,,,240104
+G2088,San Jacinto,council,district,G0216,,pending,,,,,,240105
+G2089,San Juan de la Virgen,council,district,G0216,,pending,,,,,,240106
+G2090,Zorritos,council,district,G0217,,pending,,,,,,240201
+G2091,Casitas,council,district,G0217,,pending,,,,,,240202
+G2092,Canoas de Punta Sal,council,district,G0217,,pending,,,,,,240203
+G2093,Zarumilla,council,district,G0218,,pending,,,,,,240301
+G2094,Aguas Verdes,council,district,G0218,,pending,,,,,,240302
+G2095,Matapalo,council,district,G0218,,pending,,,,,,240303
+G2096,Papayal,council,district,G0218,,pending,,,,,,240304
+G2097,Calleria,council,district,G0219,,pending,,,,,,250101
+G2098,Campoverde,council,district,G0219,,pending,,,,,,250102
+G2099,Iparia,council,district,G0219,,pending,,,,,,250103
+G2100,Masisea,council,district,G0219,,pending,,,,,,250104
+G2101,Yarinacocha,council,district,G0219,,pending,,,,,,250105
+G2102,Nueva Requena,council,district,G0219,,pending,,,,,,250106
+G2103,Manantay,council,district,G0219,,pending,,,,,,250107
+G2104,Raymondi,council,district,G0220,,pending,,,,,,250201
+G2105,Sepahua,council,district,G0220,,pending,,,,,,250202
+G2106,Tahuania,council,district,G0220,,pending,,,,,,250203
+G2107,Yurua,council,district,G0220,,pending,,,,,,250204
+G2108,Padre Abad,council,district,G0221,,pending,,,,,,250301
+G2109,Irazola,council,district,G0221,,pending,,,,,,250302
+G2110,Curimana,council,district,G0221,,pending,,,,,,250303
+G2111,Neshuya,council,district,G0221,,pending,,,,,,250304
+G2112,Alexander Von Humboldt,council,district,G0221,,pending,,,,,,250305
+G2113,Huipoca,council,district,G0221,,pending,,,,,,250306
+G2114,Boqueron,council,district,G0221,,pending,,,,,,250307
+G2115,Purus,council,district,G0222,,pending,,,,,,250401

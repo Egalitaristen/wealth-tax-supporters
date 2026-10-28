@@ -1,0 +1,5 @@
+position_id,actor_id,body_id,role,party,geo_unit_id,start,end,current,member_ref,checked,source_url
+P0001,A0001,B0001,Congresswoman,Broad Front,,,,n,,2026-10-28,https://comunicaciones.congreso.gob.pe/despacho-informa/congresistas-del-fa-presentan-proyecto-de-ley-de-impuesto-a-las-grandes-fortunas/
+P0002,A0002,B0001,Congresswoman,Broad Front,,,,n,,2026-10-28,https://comunicaciones.congreso.gob.pe/despacho-informa/congresistas-del-fa-presentan-proyecto-de-ley-de-impuesto-a-las-grandes-fortunas/
+P0003,A0003,B0001,Congressman,We Are Peru,,,,n,,2026-10-28,https://andina.pe/agencia/noticia-congreso-somos-peru-plantea-crear-impuesto-sobre-riqueza-820568.aspx
+P0004,A0004,B0001,Congresswoman,Free Peru,,,,n,,2026-10-28,https://iuslatin.pe/presentan-proyecto-de-ley-para-cobrar-impuesto-adicional-a-los-ciudadanos-mas-ricos/

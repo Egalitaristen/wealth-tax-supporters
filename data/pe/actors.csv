@@ -1,0 +1,7 @@
+actor_id,name,kind,actor_type,other_types,role,affiliation,party,affiliation_actor_id,country,level,location,geo_unit_id,location_source,wikidata_qid,website,status,alive_checked,prominence,notes,added_run,updated,refined
+A0001,Rocío Silva Santisteban,person,politician,,Congresswoman,,Broad Front,,Peru,national,Peru > Lima,G0016,,,,active,y,national,,R001,2026-10-28,
+A0002,Mirtha Vásquez,person,politician,,Senator and former congresswoman,,Ahora Nación,,Peru,national,Peru > Cajamarca,G0007,,,,active,y,national,,R001,2026-10-28,
+A0003,Betto Barrionuevo,person,politician,,Congressman,,We Are Peru,,Peru,national,Peru > Áncash,G0003,,,,active,y,national,,R001,2026-10-28,
+A0004,Kelly Portalatino,person,politician,,Congresswoman,,Free Peru,,Peru,national,Peru > Áncash,G0003,,,,active,y,national,,R001,2026-10-28,
+A0005,Pedro Francke,person,economist,,Economist,,,,Peru,national,Peru,G0001,,,,active,y,national,,R001,2026-10-28,
+A0006,Oxfam in Peru,organisation,ngo_campaign,,Oxfam country office,,,,Peru,national,Peru,G0001,,,,active,na,national,,R001,2026-10-28,
