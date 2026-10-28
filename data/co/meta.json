@@ -1,0 +1,8 @@
+{
+  "name": "Colombia",
+  "iso2": "CO",
+  "lead": "",
+  "status": "in progress",
+  "boundaries": "boundaries.json",
+  "notes": "Seed in progress. DANE 2024 register includes 1,122 local units, including non-municipalized areas. Map uses 2020 boundaries: code 27493 has no shape and obsolete code 94663 is omitted. National research is partial; regional and local support remains unsearched."
+}

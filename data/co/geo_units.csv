@@ -1,0 +1,1157 @@
+geo_unit_id,name,level,unit_type,parent_id,website,sweep_status,swept_run,swept_date,queries_run,hits,notes,code
+G0001,Colombia,national,country,,,pending,,,,,,
+G0002,Antioquia,region,department,G0001,,pending,,,,,,05
+G0003,Atlántico,region,department,G0001,,pending,,,,,,08
+G0004,"Bogotá, D.C.",region,department,G0001,,pending,,,,,,11
+G0005,Bolívar,region,department,G0001,,pending,,,,,,13
+G0006,Boyacá,region,department,G0001,,pending,,,,,,15
+G0007,Caldas,region,department,G0001,,pending,,,,,,17
+G0008,Caquetá,region,department,G0001,,pending,,,,,,18
+G0009,Cauca,region,department,G0001,,pending,,,,,,19
+G0010,Cesar,region,department,G0001,,pending,,,,,,20
+G0011,Córdoba,region,department,G0001,,pending,,,,,,23
+G0012,Cundinamarca,region,department,G0001,,pending,,,,,,25
+G0013,Chocó,region,department,G0001,,pending,,,,,,27
+G0014,Huila,region,department,G0001,,pending,,,,,,41
+G0015,La Guajira,region,department,G0001,,pending,,,,,,44
+G0016,Magdalena,region,department,G0001,,pending,,,,,,47
+G0017,Meta,region,department,G0001,,pending,,,,,,50
+G0018,Nariño,region,department,G0001,,pending,,,,,,52
+G0019,Norte De Santander,region,department,G0001,,pending,,,,,,54
+G0020,Quindío,region,department,G0001,,pending,,,,,,63
+G0021,Risaralda,region,department,G0001,,pending,,,,,,66
+G0022,Santander,region,department,G0001,,pending,,,,,,68
+G0023,Sucre,region,department,G0001,,pending,,,,,,70
+G0024,Tolima,region,department,G0001,,pending,,,,,,73
+G0025,Valle Del Cauca,region,department,G0001,,pending,,,,,,76
+G0026,Arauca,region,department,G0001,,pending,,,,,,81
+G0027,Casanare,region,department,G0001,,pending,,,,,,85
+G0028,Putumayo,region,department,G0001,,pending,,,,,,86
+G0029,"Archipiélago De San Andrés, Providencia Y Santa Catalina",region,department,G0001,,pending,,,,,,88
+G0030,Amazonas,region,department,G0001,,pending,,,,,,91
+G0031,Guainía,region,department,G0001,,pending,,,,,,94
+G0032,Guaviare,region,department,G0001,,pending,,,,,,95
+G0033,Vaupés,region,department,G0001,,pending,,,,,,97
+G0034,Vichada,region,department,G0001,,pending,,,,,,99
+G0035,Medellín,council,municipality,G0002,,pending,,,,,Municipio,05001
+G0036,Abejorral,council,municipality,G0002,,pending,,,,,Municipio,05002
+G0037,Abriaquí,council,municipality,G0002,,pending,,,,,Municipio,05004
+G0038,Alejandría,council,municipality,G0002,,pending,,,,,Municipio,05021
+G0039,Amagá,council,municipality,G0002,,pending,,,,,Municipio,05030
+G0040,Amalfi,council,municipality,G0002,,pending,,,,,Municipio,05031
+G0041,Andes,council,municipality,G0002,,pending,,,,,Municipio,05034
+G0042,Angelópolis,council,municipality,G0002,,pending,,,,,Municipio,05036
+G0043,Angostura,council,municipality,G0002,,pending,,,,,Municipio,05038
+G0044,Anorí,council,municipality,G0002,,pending,,,,,Municipio,05040
+G0045,Santa Fé De Antioquia,council,municipality,G0002,,pending,,,,,Municipio,05042
+G0046,Anzá,council,municipality,G0002,,pending,,,,,Municipio,05044
+G0047,Apartadó,council,municipality,G0002,,pending,,,,,Municipio,05045
+G0048,Arboletes,council,municipality,G0002,,pending,,,,,Municipio,05051
+G0049,Argelia,council,municipality,G0002,,pending,,,,,Municipio,05055
+G0050,Armenia,council,municipality,G0002,,pending,,,,,Municipio,05059
+G0051,Barbosa,council,municipality,G0002,,pending,,,,,Municipio,05079
+G0052,Belmira,council,municipality,G0002,,pending,,,,,Municipio,05086
+G0053,Bello,council,municipality,G0002,,pending,,,,,Municipio,05088
+G0054,Betania,council,municipality,G0002,,pending,,,,,Municipio,05091
+G0055,Betulia,council,municipality,G0002,,pending,,,,,Municipio,05093
+G0056,Ciudad Bolívar,council,municipality,G0002,,pending,,,,,Municipio,05101
+G0057,Briceño,council,municipality,G0002,,pending,,,,,Municipio,05107
+G0058,Buriticá,council,municipality,G0002,,pending,,,,,Municipio,05113
+G0059,Cáceres,council,municipality,G0002,,pending,,,,,Municipio,05120
+G0060,Caicedo,council,municipality,G0002,,pending,,,,,Municipio,05125
+G0061,Caldas,council,municipality,G0002,,pending,,,,,Municipio,05129
+G0062,Campamento,council,municipality,G0002,,pending,,,,,Municipio,05134
+G0063,Cañasgordas,council,municipality,G0002,,pending,,,,,Municipio,05138
+G0064,Caracolí,council,municipality,G0002,,pending,,,,,Municipio,05142
+G0065,Caramanta,council,municipality,G0002,,pending,,,,,Municipio,05145
+G0066,Carepa,council,municipality,G0002,,pending,,,,,Municipio,05147
+G0067,El Carmen De Viboral,council,municipality,G0002,,pending,,,,,Municipio,05148
+G0068,Carolina,council,municipality,G0002,,pending,,,,,Municipio,05150
+G0069,Caucasia,council,municipality,G0002,,pending,,,,,Municipio,05154
+G0070,Chigorodó,council,municipality,G0002,,pending,,,,,Municipio,05172
+G0071,Cisneros,council,municipality,G0002,,pending,,,,,Municipio,05190
+G0072,Cocorná,council,municipality,G0002,,pending,,,,,Municipio,05197
+G0073,Concepción,council,municipality,G0002,,pending,,,,,Municipio,05206
+G0074,Concordia,council,municipality,G0002,,pending,,,,,Municipio,05209
+G0075,Copacabana,council,municipality,G0002,,pending,,,,,Municipio,05212
+G0076,Dabeiba,council,municipality,G0002,,pending,,,,,Municipio,05234
+G0077,Donmatías,council,municipality,G0002,,pending,,,,,Municipio,05237
+G0078,Ebéjico,council,municipality,G0002,,pending,,,,,Municipio,05240
+G0079,El Bagre,council,municipality,G0002,,pending,,,,,Municipio,05250
+G0080,Entrerríos,council,municipality,G0002,,pending,,,,,Municipio,05264
+G0081,Envigado,council,municipality,G0002,,pending,,,,,Municipio,05266
+G0082,Fredonia,council,municipality,G0002,,pending,,,,,Municipio,05282
+G0083,Frontino,council,municipality,G0002,,pending,,,,,Municipio,05284
+G0084,Giraldo,council,municipality,G0002,,pending,,,,,Municipio,05306
+G0085,Girardota,council,municipality,G0002,,pending,,,,,Municipio,05308
+G0086,Gómez Plata,council,municipality,G0002,,pending,,,,,Municipio,05310
+G0087,Granada,council,municipality,G0002,,pending,,,,,Municipio,05313
+G0088,Guadalupe,council,municipality,G0002,,pending,,,,,Municipio,05315
+G0089,Guarne,council,municipality,G0002,,pending,,,,,Municipio,05318
+G0090,Guatapé,council,municipality,G0002,,pending,,,,,Municipio,05321
+G0091,Heliconia,council,municipality,G0002,,pending,,,,,Municipio,05347
+G0092,Hispania,council,municipality,G0002,,pending,,,,,Municipio,05353
+G0093,Itagüí,council,municipality,G0002,,pending,,,,,Municipio,05360
+G0094,Ituango,council,municipality,G0002,,pending,,,,,Municipio,05361
+G0095,Jardín,council,municipality,G0002,,pending,,,,,Municipio,05364
+G0096,Jericó,council,municipality,G0002,,pending,,,,,Municipio,05368
+G0097,La Ceja,council,municipality,G0002,,pending,,,,,Municipio,05376
+G0098,La Estrella,council,municipality,G0002,,pending,,,,,Municipio,05380
+G0099,La Pintada,council,municipality,G0002,,pending,,,,,Municipio,05390
+G0100,La Unión,council,municipality,G0002,,pending,,,,,Municipio,05400
+G0101,Liborina,council,municipality,G0002,,pending,,,,,Municipio,05411
+G0102,Maceo,council,municipality,G0002,,pending,,,,,Municipio,05425
+G0103,Marinilla,council,municipality,G0002,,pending,,,,,Municipio,05440
+G0104,Montebello,council,municipality,G0002,,pending,,,,,Municipio,05467
+G0105,Murindó,council,municipality,G0002,,pending,,,,,Municipio,05475
+G0106,Mutatá,council,municipality,G0002,,pending,,,,,Municipio,05480
+G0107,Nariño,council,municipality,G0002,,pending,,,,,Municipio,05483
+G0108,Necoclí,council,municipality,G0002,,pending,,,,,Municipio,05490
+G0109,Nechí,council,municipality,G0002,,pending,,,,,Municipio,05495
+G0110,Olaya,council,municipality,G0002,,pending,,,,,Municipio,05501
+G0111,Peñol,council,municipality,G0002,,pending,,,,,Municipio,05541
+G0112,Peque,council,municipality,G0002,,pending,,,,,Municipio,05543
+G0113,Pueblorrico,council,municipality,G0002,,pending,,,,,Municipio,05576
+G0114,Puerto Berrío,council,municipality,G0002,,pending,,,,,Municipio,05579
+G0115,Puerto Nare,council,municipality,G0002,,pending,,,,,Municipio,05585
+G0116,Puerto Triunfo,council,municipality,G0002,,pending,,,,,Municipio,05591
+G0117,Remedios,council,municipality,G0002,,pending,,,,,Municipio,05604
+G0118,Retiro,council,municipality,G0002,,pending,,,,,Municipio,05607
+G0119,Rionegro,council,municipality,G0002,,pending,,,,,Municipio,05615
+G0120,Sabanalarga,council,municipality,G0002,,pending,,,,,Municipio,05628
+G0121,Sabaneta,council,municipality,G0002,,pending,,,,,Municipio,05631
+G0122,Salgar,council,municipality,G0002,,pending,,,,,Municipio,05642
+G0123,San Andrés De Cuerquía,council,municipality,G0002,,pending,,,,,Municipio,05647
+G0124,San Carlos,council,municipality,G0002,,pending,,,,,Municipio,05649
+G0125,San Francisco,council,municipality,G0002,,pending,,,,,Municipio,05652
+G0126,San Jerónimo,council,municipality,G0002,,pending,,,,,Municipio,05656
+G0127,San José De La Montaña,council,municipality,G0002,,pending,,,,,Municipio,05658
+G0128,San Juan De Urabá,council,municipality,G0002,,pending,,,,,Municipio,05659
+G0129,San Luis,council,municipality,G0002,,pending,,,,,Municipio,05660
+G0130,San Pedro De Los Milagros,council,municipality,G0002,,pending,,,,,Municipio,05664
+G0131,San Pedro De Urabá,council,municipality,G0002,,pending,,,,,Municipio,05665
+G0132,San Rafael,council,municipality,G0002,,pending,,,,,Municipio,05667
+G0133,San Roque,council,municipality,G0002,,pending,,,,,Municipio,05670
+G0134,San Vicente Ferrer,council,municipality,G0002,,pending,,,,,Municipio,05674
+G0135,Santa Bárbara,council,municipality,G0002,,pending,,,,,Municipio,05679
+G0136,Santa Rosa De Osos,council,municipality,G0002,,pending,,,,,Municipio,05686
+G0137,Santo Domingo,council,municipality,G0002,,pending,,,,,Municipio,05690
+G0138,El Santuario,council,municipality,G0002,,pending,,,,,Municipio,05697
+G0139,Segovia,council,municipality,G0002,,pending,,,,,Municipio,05736
+G0140,Sonsón,council,municipality,G0002,,pending,,,,,Municipio,05756
+G0141,Sopetrán,council,municipality,G0002,,pending,,,,,Municipio,05761
+G0142,Támesis,council,municipality,G0002,,pending,,,,,Municipio,05789
+G0143,Tarazá,council,municipality,G0002,,pending,,,,,Municipio,05790
+G0144,Tarso,council,municipality,G0002,,pending,,,,,Municipio,05792
+G0145,Titiribí,council,municipality,G0002,,pending,,,,,Municipio,05809
+G0146,Toledo,council,municipality,G0002,,pending,,,,,Municipio,05819
+G0147,Turbo,council,municipality,G0002,,pending,,,,,Municipio,05837
+G0148,Uramita,council,municipality,G0002,,pending,,,,,Municipio,05842
+G0149,Urrao,council,municipality,G0002,,pending,,,,,Municipio,05847
+G0150,Valdivia,council,municipality,G0002,,pending,,,,,Municipio,05854
+G0151,Valparaíso,council,municipality,G0002,,pending,,,,,Municipio,05856
+G0152,Vegachí,council,municipality,G0002,,pending,,,,,Municipio,05858
+G0153,Venecia,council,municipality,G0002,,pending,,,,,Municipio,05861
+G0154,Vigía Del Fuerte,council,municipality,G0002,,pending,,,,,Municipio,05873
+G0155,Yalí,council,municipality,G0002,,pending,,,,,Municipio,05885
+G0156,Yarumal,council,municipality,G0002,,pending,,,,,Municipio,05887
+G0157,Yolombó,council,municipality,G0002,,pending,,,,,Municipio,05890
+G0158,Yondó,council,municipality,G0002,,pending,,,,,Municipio,05893
+G0159,Zaragoza,council,municipality,G0002,,pending,,,,,Municipio,05895
+G0160,Barranquilla,council,municipality,G0003,,pending,,,,,Municipio,08001
+G0161,Baranoa,council,municipality,G0003,,pending,,,,,Municipio,08078
+G0162,Campo De La Cruz,council,municipality,G0003,,pending,,,,,Municipio,08137
+G0163,Candelaria,council,municipality,G0003,,pending,,,,,Municipio,08141
+G0164,Galapa,council,municipality,G0003,,pending,,,,,Municipio,08296
+G0165,Juan De Acosta,council,municipality,G0003,,pending,,,,,Municipio,08372
+G0166,Luruaco,council,municipality,G0003,,pending,,,,,Municipio,08421
+G0167,Malambo,council,municipality,G0003,,pending,,,,,Municipio,08433
+G0168,Manatí,council,municipality,G0003,,pending,,,,,Municipio,08436
+G0169,Palmar De Varela,council,municipality,G0003,,pending,,,,,Municipio,08520
+G0170,Piojó,council,municipality,G0003,,pending,,,,,Municipio,08549
+G0171,Polonuevo,council,municipality,G0003,,pending,,,,,Municipio,08558
+G0172,Ponedera,council,municipality,G0003,,pending,,,,,Municipio,08560
+G0173,Puerto Colombia,council,municipality,G0003,,pending,,,,,Municipio,08573
+G0174,Repelón,council,municipality,G0003,,pending,,,,,Municipio,08606
+G0175,Sabanagrande,council,municipality,G0003,,pending,,,,,Municipio,08634
+G0176,Sabanalarga,council,municipality,G0003,,pending,,,,,Municipio,08638
+G0177,Santa Lucía,council,municipality,G0003,,pending,,,,,Municipio,08675
+G0178,Santo Tomás,council,municipality,G0003,,pending,,,,,Municipio,08685
+G0179,Soledad,council,municipality,G0003,,pending,,,,,Municipio,08758
+G0180,Suan,council,municipality,G0003,,pending,,,,,Municipio,08770
+G0181,Tubará,council,municipality,G0003,,pending,,,,,Municipio,08832
+G0182,Usiacurí,council,municipality,G0003,,pending,,,,,Municipio,08849
+G0183,"Bogotá, D.C.",council,municipality,G0004,,pending,,,,,Municipio,11001
+G0184,Cartagena De Indias,council,municipality,G0005,,pending,,,,,Municipio,13001
+G0185,Achí,council,municipality,G0005,,pending,,,,,Municipio,13006
+G0186,Altos Del Rosario,council,municipality,G0005,,pending,,,,,Municipio,13030
+G0187,Arenal,council,municipality,G0005,,pending,,,,,Municipio,13042
+G0188,Arjona,council,municipality,G0005,,pending,,,,,Municipio,13052
+G0189,Arroyohondo,council,municipality,G0005,,pending,,,,,Municipio,13062
+G0190,Barranco De Loba,council,municipality,G0005,,pending,,,,,Municipio,13074
+G0191,Calamar,council,municipality,G0005,,pending,,,,,Municipio,13140
+G0192,Cantagallo,council,municipality,G0005,,pending,,,,,Municipio,13160
+G0193,Cicuco,council,municipality,G0005,,pending,,,,,Municipio,13188
+G0194,Córdoba,council,municipality,G0005,,pending,,,,,Municipio,13212
+G0195,Clemencia,council,municipality,G0005,,pending,,,,,Municipio,13222
+G0196,El Carmen De Bolívar,council,municipality,G0005,,pending,,,,,Municipio,13244
+G0197,El Guamo,council,municipality,G0005,,pending,,,,,Municipio,13248
+G0198,El Peñón,council,municipality,G0005,,pending,,,,,Municipio,13268
+G0199,Hatillo De Loba,council,municipality,G0005,,pending,,,,,Municipio,13300
+G0200,Magangué,council,municipality,G0005,,pending,,,,,Municipio,13430
+G0201,Mahates,council,municipality,G0005,,pending,,,,,Municipio,13433
+G0202,Margarita,council,municipality,G0005,,pending,,,,,Municipio,13440
+G0203,María La Baja,council,municipality,G0005,,pending,,,,,Municipio,13442
+G0204,Montecristo,council,municipality,G0005,,pending,,,,,Municipio,13458
+G0205,Santa Cruz De Mompox,council,municipality,G0005,,pending,,,,,Municipio,13468
+G0206,Morales,council,municipality,G0005,,pending,,,,,Municipio,13473
+G0207,Norosí,council,municipality,G0005,,pending,,,,,Municipio,13490
+G0208,Pinillos,council,municipality,G0005,,pending,,,,,Municipio,13549
+G0209,Regidor,council,municipality,G0005,,pending,,,,,Municipio,13580
+G0210,Río Viejo,council,municipality,G0005,,pending,,,,,Municipio,13600
+G0211,San Cristóbal,council,municipality,G0005,,pending,,,,,Municipio,13620
+G0212,San Estanislao,council,municipality,G0005,,pending,,,,,Municipio,13647
+G0213,San Fernando,council,municipality,G0005,,pending,,,,,Municipio,13650
+G0214,San Jacinto,council,municipality,G0005,,pending,,,,,Municipio,13654
+G0215,San Jacinto Del Cauca,council,municipality,G0005,,pending,,,,,Municipio,13655
+G0216,San Juan Nepomuceno,council,municipality,G0005,,pending,,,,,Municipio,13657
+G0217,San Martín De Loba,council,municipality,G0005,,pending,,,,,Municipio,13667
+G0218,San Pablo,council,municipality,G0005,,pending,,,,,Municipio,13670
+G0219,Santa Catalina,council,municipality,G0005,,pending,,,,,Municipio,13673
+G0220,Santa Rosa,council,municipality,G0005,,pending,,,,,Municipio,13683
+G0221,Santa Rosa Del Sur,council,municipality,G0005,,pending,,,,,Municipio,13688
+G0222,Simití,council,municipality,G0005,,pending,,,,,Municipio,13744
+G0223,Soplaviento,council,municipality,G0005,,pending,,,,,Municipio,13760
+G0224,Talaigua Nuevo,council,municipality,G0005,,pending,,,,,Municipio,13780
+G0225,Tiquisio,council,municipality,G0005,,pending,,,,,Municipio,13810
+G0226,Turbaco,council,municipality,G0005,,pending,,,,,Municipio,13836
+G0227,Turbaná,council,municipality,G0005,,pending,,,,,Municipio,13838
+G0228,Villanueva,council,municipality,G0005,,pending,,,,,Municipio,13873
+G0229,Zambrano,council,municipality,G0005,,pending,,,,,Municipio,13894
+G0230,Tunja,council,municipality,G0006,,pending,,,,,Municipio,15001
+G0231,Almeida,council,municipality,G0006,,pending,,,,,Municipio,15022
+G0232,Aquitania,council,municipality,G0006,,pending,,,,,Municipio,15047
+G0233,Arcabuco,council,municipality,G0006,,pending,,,,,Municipio,15051
+G0234,Belén,council,municipality,G0006,,pending,,,,,Municipio,15087
+G0235,Berbeo,council,municipality,G0006,,pending,,,,,Municipio,15090
+G0236,Betéitiva,council,municipality,G0006,,pending,,,,,Municipio,15092
+G0237,Boavita,council,municipality,G0006,,pending,,,,,Municipio,15097
+G0238,Boyacá,council,municipality,G0006,,pending,,,,,Municipio,15104
+G0239,Briceño,council,municipality,G0006,,pending,,,,,Municipio,15106
+G0240,Buenavista,council,municipality,G0006,,pending,,,,,Municipio,15109
+G0241,Busbanzá,council,municipality,G0006,,pending,,,,,Municipio,15114
+G0242,Caldas,council,municipality,G0006,,pending,,,,,Municipio,15131
+G0243,Campohermoso,council,municipality,G0006,,pending,,,,,Municipio,15135
+G0244,Cerinza,council,municipality,G0006,,pending,,,,,Municipio,15162
+G0245,Chinavita,council,municipality,G0006,,pending,,,,,Municipio,15172
+G0246,Chiquinquirá,council,municipality,G0006,,pending,,,,,Municipio,15176
+G0247,Chiscas,council,municipality,G0006,,pending,,,,,Municipio,15180
+G0248,Chita,council,municipality,G0006,,pending,,,,,Municipio,15183
+G0249,Chitaraque,council,municipality,G0006,,pending,,,,,Municipio,15185
+G0250,Chivatá,council,municipality,G0006,,pending,,,,,Municipio,15187
+G0251,Ciénega,council,municipality,G0006,,pending,,,,,Municipio,15189
+G0252,Cómbita,council,municipality,G0006,,pending,,,,,Municipio,15204
+G0253,Coper,council,municipality,G0006,,pending,,,,,Municipio,15212
+G0254,Corrales,council,municipality,G0006,,pending,,,,,Municipio,15215
+G0255,Covarachía,council,municipality,G0006,,pending,,,,,Municipio,15218
+G0256,Cubará,council,municipality,G0006,,pending,,,,,Municipio,15223
+G0257,Cucaita,council,municipality,G0006,,pending,,,,,Municipio,15224
+G0258,Cuítiva,council,municipality,G0006,,pending,,,,,Municipio,15226
+G0259,Chíquiza,council,municipality,G0006,,pending,,,,,Municipio,15232
+G0260,Chivor,council,municipality,G0006,,pending,,,,,Municipio,15236
+G0261,Duitama,council,municipality,G0006,,pending,,,,,Municipio,15238
+G0262,El Cocuy,council,municipality,G0006,,pending,,,,,Municipio,15244
+G0263,El Espino,council,municipality,G0006,,pending,,,,,Municipio,15248
+G0264,Firavitoba,council,municipality,G0006,,pending,,,,,Municipio,15272
+G0265,Floresta,council,municipality,G0006,,pending,,,,,Municipio,15276
+G0266,Gachantivá,council,municipality,G0006,,pending,,,,,Municipio,15293
+G0267,Gámeza,council,municipality,G0006,,pending,,,,,Municipio,15296
+G0268,Garagoa,council,municipality,G0006,,pending,,,,,Municipio,15299
+G0269,Guacamayas,council,municipality,G0006,,pending,,,,,Municipio,15317
+G0270,Guateque,council,municipality,G0006,,pending,,,,,Municipio,15322
+G0271,Guayatá,council,municipality,G0006,,pending,,,,,Municipio,15325
+G0272,Güicán De La Sierra,council,municipality,G0006,,pending,,,,,Municipio,15332
+G0273,Iza,council,municipality,G0006,,pending,,,,,Municipio,15362
+G0274,Jenesano,council,municipality,G0006,,pending,,,,,Municipio,15367
+G0275,Jericó,council,municipality,G0006,,pending,,,,,Municipio,15368
+G0276,Labranzagrande,council,municipality,G0006,,pending,,,,,Municipio,15377
+G0277,La Capilla,council,municipality,G0006,,pending,,,,,Municipio,15380
+G0278,La Victoria,council,municipality,G0006,,pending,,,,,Municipio,15401
+G0279,La Uvita,council,municipality,G0006,,pending,,,,,Municipio,15403
+G0280,Villa De Leyva,council,municipality,G0006,,pending,,,,,Municipio,15407
+G0281,Macanal,council,municipality,G0006,,pending,,,,,Municipio,15425
+G0282,Maripí,council,municipality,G0006,,pending,,,,,Municipio,15442
+G0283,Miraflores,council,municipality,G0006,,pending,,,,,Municipio,15455
+G0284,Mongua,council,municipality,G0006,,pending,,,,,Municipio,15464
+G0285,Monguí,council,municipality,G0006,,pending,,,,,Municipio,15466
+G0286,Moniquirá,council,municipality,G0006,,pending,,,,,Municipio,15469
+G0287,Motavita,council,municipality,G0006,,pending,,,,,Municipio,15476
+G0288,Muzo,council,municipality,G0006,,pending,,,,,Municipio,15480
+G0289,Nobsa,council,municipality,G0006,,pending,,,,,Municipio,15491
+G0290,Nuevo Colón,council,municipality,G0006,,pending,,,,,Municipio,15494
+G0291,Oicatá,council,municipality,G0006,,pending,,,,,Municipio,15500
+G0292,Otanche,council,municipality,G0006,,pending,,,,,Municipio,15507
+G0293,Pachavita,council,municipality,G0006,,pending,,,,,Municipio,15511
+G0294,Páez,council,municipality,G0006,,pending,,,,,Municipio,15514
+G0295,Paipa,council,municipality,G0006,,pending,,,,,Municipio,15516
+G0296,Pajarito,council,municipality,G0006,,pending,,,,,Municipio,15518
+G0297,Panqueba,council,municipality,G0006,,pending,,,,,Municipio,15522
+G0298,Pauna,council,municipality,G0006,,pending,,,,,Municipio,15531
+G0299,Paya,council,municipality,G0006,,pending,,,,,Municipio,15533
+G0300,Paz De Río,council,municipality,G0006,,pending,,,,,Municipio,15537
+G0301,Pesca,council,municipality,G0006,,pending,,,,,Municipio,15542
+G0302,Pisba,council,municipality,G0006,,pending,,,,,Municipio,15550
+G0303,Puerto Boyacá,council,municipality,G0006,,pending,,,,,Municipio,15572
+G0304,Quípama,council,municipality,G0006,,pending,,,,,Municipio,15580
+G0305,Ramiriquí,council,municipality,G0006,,pending,,,,,Municipio,15599
+G0306,Ráquira,council,municipality,G0006,,pending,,,,,Municipio,15600
+G0307,Rondón,council,municipality,G0006,,pending,,,,,Municipio,15621
+G0308,Saboyá,council,municipality,G0006,,pending,,,,,Municipio,15632
+G0309,Sáchica,council,municipality,G0006,,pending,,,,,Municipio,15638
+G0310,Samacá,council,municipality,G0006,,pending,,,,,Municipio,15646
+G0311,San Eduardo,council,municipality,G0006,,pending,,,,,Municipio,15660
+G0312,San José De Pare,council,municipality,G0006,,pending,,,,,Municipio,15664
+G0313,San Luis De Gaceno,council,municipality,G0006,,pending,,,,,Municipio,15667
+G0314,San Mateo,council,municipality,G0006,,pending,,,,,Municipio,15673
+G0315,San Miguel De Sema,council,municipality,G0006,,pending,,,,,Municipio,15676
+G0316,San Pablo De Borbur,council,municipality,G0006,,pending,,,,,Municipio,15681
+G0317,Santana,council,municipality,G0006,,pending,,,,,Municipio,15686
+G0318,Santa María,council,municipality,G0006,,pending,,,,,Municipio,15690
+G0319,Santa Rosa De Viterbo,council,municipality,G0006,,pending,,,,,Municipio,15693
+G0320,Santa Sofía,council,municipality,G0006,,pending,,,,,Municipio,15696
+G0321,Sativanorte,council,municipality,G0006,,pending,,,,,Municipio,15720
+G0322,Sativasur,council,municipality,G0006,,pending,,,,,Municipio,15723
+G0323,Siachoque,council,municipality,G0006,,pending,,,,,Municipio,15740
+G0324,Soatá,council,municipality,G0006,,pending,,,,,Municipio,15753
+G0325,Socotá,council,municipality,G0006,,pending,,,,,Municipio,15755
+G0326,Socha,council,municipality,G0006,,pending,,,,,Municipio,15757
+G0327,Sogamoso,council,municipality,G0006,,pending,,,,,Municipio,15759
+G0328,Somondoco,council,municipality,G0006,,pending,,,,,Municipio,15761
+G0329,Sora,council,municipality,G0006,,pending,,,,,Municipio,15762
+G0330,Sotaquirá,council,municipality,G0006,,pending,,,,,Municipio,15763
+G0331,Soracá,council,municipality,G0006,,pending,,,,,Municipio,15764
+G0332,Susacón,council,municipality,G0006,,pending,,,,,Municipio,15774
+G0333,Sutamarchán,council,municipality,G0006,,pending,,,,,Municipio,15776
+G0334,Sutatenza,council,municipality,G0006,,pending,,,,,Municipio,15778
+G0335,Tasco,council,municipality,G0006,,pending,,,,,Municipio,15790
+G0336,Tenza,council,municipality,G0006,,pending,,,,,Municipio,15798
+G0337,Tibaná,council,municipality,G0006,,pending,,,,,Municipio,15804
+G0338,Tibasosa,council,municipality,G0006,,pending,,,,,Municipio,15806
+G0339,Tinjacá,council,municipality,G0006,,pending,,,,,Municipio,15808
+G0340,Tipacoque,council,municipality,G0006,,pending,,,,,Municipio,15810
+G0341,Toca,council,municipality,G0006,,pending,,,,,Municipio,15814
+G0342,Togüí,council,municipality,G0006,,pending,,,,,Municipio,15816
+G0343,Tópaga,council,municipality,G0006,,pending,,,,,Municipio,15820
+G0344,Tota,council,municipality,G0006,,pending,,,,,Municipio,15822
+G0345,Tununguá,council,municipality,G0006,,pending,,,,,Municipio,15832
+G0346,Turmequé,council,municipality,G0006,,pending,,,,,Municipio,15835
+G0347,Tuta,council,municipality,G0006,,pending,,,,,Municipio,15837
+G0348,Tutazá,council,municipality,G0006,,pending,,,,,Municipio,15839
+G0349,Úmbita,council,municipality,G0006,,pending,,,,,Municipio,15842
+G0350,Ventaquemada,council,municipality,G0006,,pending,,,,,Municipio,15861
+G0351,Viracachá,council,municipality,G0006,,pending,,,,,Municipio,15879
+G0352,Zetaquira,council,municipality,G0006,,pending,,,,,Municipio,15897
+G0353,Manizales,council,municipality,G0007,,pending,,,,,Municipio,17001
+G0354,Aguadas,council,municipality,G0007,,pending,,,,,Municipio,17013
+G0355,Anserma,council,municipality,G0007,,pending,,,,,Municipio,17042
+G0356,Aranzazu,council,municipality,G0007,,pending,,,,,Municipio,17050
+G0357,Belalcázar,council,municipality,G0007,,pending,,,,,Municipio,17088
+G0358,Chinchiná,council,municipality,G0007,,pending,,,,,Municipio,17174
+G0359,Filadelfia,council,municipality,G0007,,pending,,,,,Municipio,17272
+G0360,La Dorada,council,municipality,G0007,,pending,,,,,Municipio,17380
+G0361,La Merced,council,municipality,G0007,,pending,,,,,Municipio,17388
+G0362,Manzanares,council,municipality,G0007,,pending,,,,,Municipio,17433
+G0363,Marmato,council,municipality,G0007,,pending,,,,,Municipio,17442
+G0364,Marquetalia,council,municipality,G0007,,pending,,,,,Municipio,17444
+G0365,Marulanda,council,municipality,G0007,,pending,,,,,Municipio,17446
+G0366,Neira,council,municipality,G0007,,pending,,,,,Municipio,17486
+G0367,Norcasia,council,municipality,G0007,,pending,,,,,Municipio,17495
+G0368,Pácora,council,municipality,G0007,,pending,,,,,Municipio,17513
+G0369,Palestina,council,municipality,G0007,,pending,,,,,Municipio,17524
+G0370,Pensilvania,council,municipality,G0007,,pending,,,,,Municipio,17541
+G0371,Riosucio,council,municipality,G0007,,pending,,,,,Municipio,17614
+G0372,Risaralda,council,municipality,G0007,,pending,,,,,Municipio,17616
+G0373,Salamina,council,municipality,G0007,,pending,,,,,Municipio,17653
+G0374,Samaná,council,municipality,G0007,,pending,,,,,Municipio,17662
+G0375,San José,council,municipality,G0007,,pending,,,,,Municipio,17665
+G0376,Supía,council,municipality,G0007,,pending,,,,,Municipio,17777
+G0377,Victoria,council,municipality,G0007,,pending,,,,,Municipio,17867
+G0378,Villamaría,council,municipality,G0007,,pending,,,,,Municipio,17873
+G0379,Viterbo,council,municipality,G0007,,pending,,,,,Municipio,17877
+G0380,Florencia,council,municipality,G0008,,pending,,,,,Municipio,18001
+G0381,Albania,council,municipality,G0008,,pending,,,,,Municipio,18029
+G0382,Belén De Los Andaquíes,council,municipality,G0008,,pending,,,,,Municipio,18094
+G0383,Cartagena Del Chairá,council,municipality,G0008,,pending,,,,,Municipio,18150
+G0384,Curillo,council,municipality,G0008,,pending,,,,,Municipio,18205
+G0385,El Doncello,council,municipality,G0008,,pending,,,,,Municipio,18247
+G0386,El Paujíl,council,municipality,G0008,,pending,,,,,Municipio,18256
+G0387,La Montañita,council,municipality,G0008,,pending,,,,,Municipio,18410
+G0388,Milán,council,municipality,G0008,,pending,,,,,Municipio,18460
+G0389,Morelia,council,municipality,G0008,,pending,,,,,Municipio,18479
+G0390,Puerto Rico,council,municipality,G0008,,pending,,,,,Municipio,18592
+G0391,San José Del Fragua,council,municipality,G0008,,pending,,,,,Municipio,18610
+G0392,San Vicente Del Caguán,council,municipality,G0008,,pending,,,,,Municipio,18753
+G0393,Solano,council,municipality,G0008,,pending,,,,,Municipio,18756
+G0394,Solita,council,municipality,G0008,,pending,,,,,Municipio,18785
+G0395,Valparaíso,council,municipality,G0008,,pending,,,,,Municipio,18860
+G0396,Popayán,council,municipality,G0009,,pending,,,,,Municipio,19001
+G0397,Almaguer,council,municipality,G0009,,pending,,,,,Municipio,19022
+G0398,Argelia,council,municipality,G0009,,pending,,,,,Municipio,19050
+G0399,Balboa,council,municipality,G0009,,pending,,,,,Municipio,19075
+G0400,Bolívar,council,municipality,G0009,,pending,,,,,Municipio,19100
+G0401,Buenos Aires,council,municipality,G0009,,pending,,,,,Municipio,19110
+G0402,Cajibío,council,municipality,G0009,,pending,,,,,Municipio,19130
+G0403,Caldono,council,municipality,G0009,,pending,,,,,Municipio,19137
+G0404,Caloto,council,municipality,G0009,,pending,,,,,Municipio,19142
+G0405,Corinto,council,municipality,G0009,,pending,,,,,Municipio,19212
+G0406,El Tambo,council,municipality,G0009,,pending,,,,,Municipio,19256
+G0407,Florencia,council,municipality,G0009,,pending,,,,,Municipio,19290
+G0408,Guachené,council,municipality,G0009,,pending,,,,,Municipio,19300
+G0409,Guapi,council,municipality,G0009,,pending,,,,,Municipio,19318
+G0410,Inzá,council,municipality,G0009,,pending,,,,,Municipio,19355
+G0411,Jambaló,council,municipality,G0009,,pending,,,,,Municipio,19364
+G0412,La Sierra,council,municipality,G0009,,pending,,,,,Municipio,19392
+G0413,La Vega,council,municipality,G0009,,pending,,,,,Municipio,19397
+G0414,López De Micay,council,municipality,G0009,,pending,,,,,Municipio,19418
+G0415,Mercaderes,council,municipality,G0009,,pending,,,,,Municipio,19450
+G0416,Miranda,council,municipality,G0009,,pending,,,,,Municipio,19455
+G0417,Morales,council,municipality,G0009,,pending,,,,,Municipio,19473
+G0418,Padilla,council,municipality,G0009,,pending,,,,,Municipio,19513
+G0419,Páez,council,municipality,G0009,,pending,,,,,Municipio,19517
+G0420,Patía,council,municipality,G0009,,pending,,,,,Municipio,19532
+G0421,Piamonte,council,municipality,G0009,,pending,,,,,Municipio,19533
+G0422,Piendamó - Tunía,council,municipality,G0009,,pending,,,,,Municipio,19548
+G0423,Puerto Tejada,council,municipality,G0009,,pending,,,,,Municipio,19573
+G0424,Puracé,council,municipality,G0009,,pending,,,,,Municipio,19585
+G0425,Rosas,council,municipality,G0009,,pending,,,,,Municipio,19622
+G0426,San Sebastián,council,municipality,G0009,,pending,,,,,Municipio,19693
+G0427,Santander De Quilichao,council,municipality,G0009,,pending,,,,,Municipio,19698
+G0428,Santa Rosa,council,municipality,G0009,,pending,,,,,Municipio,19701
+G0429,Silvia,council,municipality,G0009,,pending,,,,,Municipio,19743
+G0430,Sotará - Paispamba,council,municipality,G0009,,pending,,,,,Municipio,19760
+G0431,Suárez,council,municipality,G0009,,pending,,,,,Municipio,19780
+G0432,Sucre,council,municipality,G0009,,pending,,,,,Municipio,19785
+G0433,Timbío,council,municipality,G0009,,pending,,,,,Municipio,19807
+G0434,Timbiquí,council,municipality,G0009,,pending,,,,,Municipio,19809
+G0435,Toribío,council,municipality,G0009,,pending,,,,,Municipio,19821
+G0436,Totoró,council,municipality,G0009,,pending,,,,,Municipio,19824
+G0437,Villa Rica,council,municipality,G0009,,pending,,,,,Municipio,19845
+G0438,Valledupar,council,municipality,G0010,,pending,,,,,Municipio,20001
+G0439,Aguachica,council,municipality,G0010,,pending,,,,,Municipio,20011
+G0440,Agustín Codazzi,council,municipality,G0010,,pending,,,,,Municipio,20013
+G0441,Astrea,council,municipality,G0010,,pending,,,,,Municipio,20032
+G0442,Becerril,council,municipality,G0010,,pending,,,,,Municipio,20045
+G0443,Bosconia,council,municipality,G0010,,pending,,,,,Municipio,20060
+G0444,Chimichagua,council,municipality,G0010,,pending,,,,,Municipio,20175
+G0445,Chiriguaná,council,municipality,G0010,,pending,,,,,Municipio,20178
+G0446,Curumaní,council,municipality,G0010,,pending,,,,,Municipio,20228
+G0447,El Copey,council,municipality,G0010,,pending,,,,,Municipio,20238
+G0448,El Paso,council,municipality,G0010,,pending,,,,,Municipio,20250
+G0449,Gamarra,council,municipality,G0010,,pending,,,,,Municipio,20295
+G0450,González,council,municipality,G0010,,pending,,,,,Municipio,20310
+G0451,La Gloria,council,municipality,G0010,,pending,,,,,Municipio,20383
+G0452,La Jagua De Ibirico,council,municipality,G0010,,pending,,,,,Municipio,20400
+G0453,Manaure Balcón Del Cesar,council,municipality,G0010,,pending,,,,,Municipio,20443
+G0454,Pailitas,council,municipality,G0010,,pending,,,,,Municipio,20517
+G0455,Pelaya,council,municipality,G0010,,pending,,,,,Municipio,20550
+G0456,Pueblo Bello,council,municipality,G0010,,pending,,,,,Municipio,20570
+G0457,Río De Oro,council,municipality,G0010,,pending,,,,,Municipio,20614
+G0458,La Paz,council,municipality,G0010,,pending,,,,,Municipio,20621
+G0459,San Alberto,council,municipality,G0010,,pending,,,,,Municipio,20710
+G0460,San Diego,council,municipality,G0010,,pending,,,,,Municipio,20750
+G0461,San Martín,council,municipality,G0010,,pending,,,,,Municipio,20770
+G0462,Tamalameque,council,municipality,G0010,,pending,,,,,Municipio,20787
+G0463,Montería,council,municipality,G0011,,pending,,,,,Municipio,23001
+G0464,Ayapel,council,municipality,G0011,,pending,,,,,Municipio,23068
+G0465,Buenavista,council,municipality,G0011,,pending,,,,,Municipio,23079
+G0466,Canalete,council,municipality,G0011,,pending,,,,,Municipio,23090
+G0467,Cereté,council,municipality,G0011,,pending,,,,,Municipio,23162
+G0468,Chimá,council,municipality,G0011,,pending,,,,,Municipio,23168
+G0469,Chinú,council,municipality,G0011,,pending,,,,,Municipio,23182
+G0470,Ciénaga De Oro,council,municipality,G0011,,pending,,,,,Municipio,23189
+G0471,Cotorra,council,municipality,G0011,,pending,,,,,Municipio,23300
+G0472,La Apartada,council,municipality,G0011,,pending,,,,,Municipio,23350
+G0473,Lorica,council,municipality,G0011,,pending,,,,,Municipio,23417
+G0474,Los Córdobas,council,municipality,G0011,,pending,,,,,Municipio,23419
+G0475,Momil,council,municipality,G0011,,pending,,,,,Municipio,23464
+G0476,Montelíbano,council,municipality,G0011,,pending,,,,,Municipio,23466
+G0477,Moñitos,council,municipality,G0011,,pending,,,,,Municipio,23500
+G0478,Planeta Rica,council,municipality,G0011,,pending,,,,,Municipio,23555
+G0479,Pueblo Nuevo,council,municipality,G0011,,pending,,,,,Municipio,23570
+G0480,Puerto Escondido,council,municipality,G0011,,pending,,,,,Municipio,23574
+G0481,Puerto Libertador,council,municipality,G0011,,pending,,,,,Municipio,23580
+G0482,Purísima De La Concepción,council,municipality,G0011,,pending,,,,,Municipio,23586
+G0483,Sahagún,council,municipality,G0011,,pending,,,,,Municipio,23660
+G0484,San Andrés De Sotavento,council,municipality,G0011,,pending,,,,,Municipio,23670
+G0485,San Antero,council,municipality,G0011,,pending,,,,,Municipio,23672
+G0486,San Bernardo Del Viento,council,municipality,G0011,,pending,,,,,Municipio,23675
+G0487,San Carlos,council,municipality,G0011,,pending,,,,,Municipio,23678
+G0488,San José De Uré,council,municipality,G0011,,pending,,,,,Municipio,23682
+G0489,San Pelayo,council,municipality,G0011,,pending,,,,,Municipio,23686
+G0490,Tierralta,council,municipality,G0011,,pending,,,,,Municipio,23807
+G0491,Tuchín,council,municipality,G0011,,pending,,,,,Municipio,23815
+G0492,Valencia,council,municipality,G0011,,pending,,,,,Municipio,23855
+G0493,Agua De Dios,council,municipality,G0012,,pending,,,,,Municipio,25001
+G0494,Albán,council,municipality,G0012,,pending,,,,,Municipio,25019
+G0495,Anapoima,council,municipality,G0012,,pending,,,,,Municipio,25035
+G0496,Anolaima,council,municipality,G0012,,pending,,,,,Municipio,25040
+G0497,Arbeláez,council,municipality,G0012,,pending,,,,,Municipio,25053
+G0498,Beltrán,council,municipality,G0012,,pending,,,,,Municipio,25086
+G0499,Bituima,council,municipality,G0012,,pending,,,,,Municipio,25095
+G0500,Bojacá,council,municipality,G0012,,pending,,,,,Municipio,25099
+G0501,Cabrera,council,municipality,G0012,,pending,,,,,Municipio,25120
+G0502,Cachipay,council,municipality,G0012,,pending,,,,,Municipio,25123
+G0503,Cajicá,council,municipality,G0012,,pending,,,,,Municipio,25126
+G0504,Caparrapí,council,municipality,G0012,,pending,,,,,Municipio,25148
+G0505,Cáqueza,council,municipality,G0012,,pending,,,,,Municipio,25151
+G0506,Carmen De Carupa,council,municipality,G0012,,pending,,,,,Municipio,25154
+G0507,Chaguaní,council,municipality,G0012,,pending,,,,,Municipio,25168
+G0508,Chía,council,municipality,G0012,,pending,,,,,Municipio,25175
+G0509,Chipaque,council,municipality,G0012,,pending,,,,,Municipio,25178
+G0510,Choachí,council,municipality,G0012,,pending,,,,,Municipio,25181
+G0511,Chocontá,council,municipality,G0012,,pending,,,,,Municipio,25183
+G0512,Cogua,council,municipality,G0012,,pending,,,,,Municipio,25200
+G0513,Cota,council,municipality,G0012,,pending,,,,,Municipio,25214
+G0514,Cucunubá,council,municipality,G0012,,pending,,,,,Municipio,25224
+G0515,El Colegio,council,municipality,G0012,,pending,,,,,Municipio,25245
+G0516,El Peñón,council,municipality,G0012,,pending,,,,,Municipio,25258
+G0517,El Rosal,council,municipality,G0012,,pending,,,,,Municipio,25260
+G0518,Facatativá,council,municipality,G0012,,pending,,,,,Municipio,25269
+G0519,Fómeque,council,municipality,G0012,,pending,,,,,Municipio,25279
+G0520,Fosca,council,municipality,G0012,,pending,,,,,Municipio,25281
+G0521,Funza,council,municipality,G0012,,pending,,,,,Municipio,25286
+G0522,Fúquene,council,municipality,G0012,,pending,,,,,Municipio,25288
+G0523,Fusagasugá,council,municipality,G0012,,pending,,,,,Municipio,25290
+G0524,Gachalá,council,municipality,G0012,,pending,,,,,Municipio,25293
+G0525,Gachancipá,council,municipality,G0012,,pending,,,,,Municipio,25295
+G0526,Gachetá,council,municipality,G0012,,pending,,,,,Municipio,25297
+G0527,Gama,council,municipality,G0012,,pending,,,,,Municipio,25299
+G0528,Girardot,council,municipality,G0012,,pending,,,,,Municipio,25307
+G0529,Granada,council,municipality,G0012,,pending,,,,,Municipio,25312
+G0530,Guachetá,council,municipality,G0012,,pending,,,,,Municipio,25317
+G0531,Guaduas,council,municipality,G0012,,pending,,,,,Municipio,25320
+G0532,Guasca,council,municipality,G0012,,pending,,,,,Municipio,25322
+G0533,Guataquí,council,municipality,G0012,,pending,,,,,Municipio,25324
+G0534,Guatavita,council,municipality,G0012,,pending,,,,,Municipio,25326
+G0535,Guayabal De Síquima,council,municipality,G0012,,pending,,,,,Municipio,25328
+G0536,Guayabetal,council,municipality,G0012,,pending,,,,,Municipio,25335
+G0537,Gutiérrez,council,municipality,G0012,,pending,,,,,Municipio,25339
+G0538,Jerusalén,council,municipality,G0012,,pending,,,,,Municipio,25368
+G0539,Junín,council,municipality,G0012,,pending,,,,,Municipio,25372
+G0540,La Calera,council,municipality,G0012,,pending,,,,,Municipio,25377
+G0541,La Mesa,council,municipality,G0012,,pending,,,,,Municipio,25386
+G0542,La Palma,council,municipality,G0012,,pending,,,,,Municipio,25394
+G0543,La Peña,council,municipality,G0012,,pending,,,,,Municipio,25398
+G0544,La Vega,council,municipality,G0012,,pending,,,,,Municipio,25402
+G0545,Lenguazaque,council,municipality,G0012,,pending,,,,,Municipio,25407
+G0546,Machetá,council,municipality,G0012,,pending,,,,,Municipio,25426
+G0547,Madrid,council,municipality,G0012,,pending,,,,,Municipio,25430
+G0548,Manta,council,municipality,G0012,,pending,,,,,Municipio,25436
+G0549,Medina,council,municipality,G0012,,pending,,,,,Municipio,25438
+G0550,Mosquera,council,municipality,G0012,,pending,,,,,Municipio,25473
+G0551,Nariño,council,municipality,G0012,,pending,,,,,Municipio,25483
+G0552,Nemocón,council,municipality,G0012,,pending,,,,,Municipio,25486
+G0553,Nilo,council,municipality,G0012,,pending,,,,,Municipio,25488
+G0554,Nimaima,council,municipality,G0012,,pending,,,,,Municipio,25489
+G0555,Nocaima,council,municipality,G0012,,pending,,,,,Municipio,25491
+G0556,Venecia,council,municipality,G0012,,pending,,,,,Municipio,25506
+G0557,Pacho,council,municipality,G0012,,pending,,,,,Municipio,25513
+G0558,Paime,council,municipality,G0012,,pending,,,,,Municipio,25518
+G0559,Pandi,council,municipality,G0012,,pending,,,,,Municipio,25524
+G0560,Paratebueno,council,municipality,G0012,,pending,,,,,Municipio,25530
+G0561,Pasca,council,municipality,G0012,,pending,,,,,Municipio,25535
+G0562,Puerto Salgar,council,municipality,G0012,,pending,,,,,Municipio,25572
+G0563,Pulí,council,municipality,G0012,,pending,,,,,Municipio,25580
+G0564,Quebradanegra,council,municipality,G0012,,pending,,,,,Municipio,25592
+G0565,Quetame,council,municipality,G0012,,pending,,,,,Municipio,25594
+G0566,Quipile,council,municipality,G0012,,pending,,,,,Municipio,25596
+G0567,Apulo,council,municipality,G0012,,pending,,,,,Municipio,25599
+G0568,Ricaurte,council,municipality,G0012,,pending,,,,,Municipio,25612
+G0569,San Antonio Del Tequendama,council,municipality,G0012,,pending,,,,,Municipio,25645
+G0570,San Bernardo,council,municipality,G0012,,pending,,,,,Municipio,25649
+G0571,San Cayetano,council,municipality,G0012,,pending,,,,,Municipio,25653
+G0572,San Francisco,council,municipality,G0012,,pending,,,,,Municipio,25658
+G0573,San Juan De Rioseco,council,municipality,G0012,,pending,,,,,Municipio,25662
+G0574,Sasaima,council,municipality,G0012,,pending,,,,,Municipio,25718
+G0575,Sesquilé,council,municipality,G0012,,pending,,,,,Municipio,25736
+G0576,Sibaté,council,municipality,G0012,,pending,,,,,Municipio,25740
+G0577,Silvania,council,municipality,G0012,,pending,,,,,Municipio,25743
+G0578,Simijaca,council,municipality,G0012,,pending,,,,,Municipio,25745
+G0579,Soacha,council,municipality,G0012,,pending,,,,,Municipio,25754
+G0580,Sopó,council,municipality,G0012,,pending,,,,,Municipio,25758
+G0581,Subachoque,council,municipality,G0012,,pending,,,,,Municipio,25769
+G0582,Suesca,council,municipality,G0012,,pending,,,,,Municipio,25772
+G0583,Supatá,council,municipality,G0012,,pending,,,,,Municipio,25777
+G0584,Susa,council,municipality,G0012,,pending,,,,,Municipio,25779
+G0585,Sutatausa,council,municipality,G0012,,pending,,,,,Municipio,25781
+G0586,Tabio,council,municipality,G0012,,pending,,,,,Municipio,25785
+G0587,Tausa,council,municipality,G0012,,pending,,,,,Municipio,25793
+G0588,Tena,council,municipality,G0012,,pending,,,,,Municipio,25797
+G0589,Tenjo,council,municipality,G0012,,pending,,,,,Municipio,25799
+G0590,Tibacuy,council,municipality,G0012,,pending,,,,,Municipio,25805
+G0591,Tibirita,council,municipality,G0012,,pending,,,,,Municipio,25807
+G0592,Tocaima,council,municipality,G0012,,pending,,,,,Municipio,25815
+G0593,Tocancipá,council,municipality,G0012,,pending,,,,,Municipio,25817
+G0594,Topaipí,council,municipality,G0012,,pending,,,,,Municipio,25823
+G0595,Ubalá,council,municipality,G0012,,pending,,,,,Municipio,25839
+G0596,Ubaque,council,municipality,G0012,,pending,,,,,Municipio,25841
+G0597,Villa De San Diego De Ubaté,council,municipality,G0012,,pending,,,,,Municipio,25843
+G0598,Une,council,municipality,G0012,,pending,,,,,Municipio,25845
+G0599,Útica,council,municipality,G0012,,pending,,,,,Municipio,25851
+G0600,Vergara,council,municipality,G0012,,pending,,,,,Municipio,25862
+G0601,Vianí,council,municipality,G0012,,pending,,,,,Municipio,25867
+G0602,Villagómez,council,municipality,G0012,,pending,,,,,Municipio,25871
+G0603,Villapinzón,council,municipality,G0012,,pending,,,,,Municipio,25873
+G0604,Villeta,council,municipality,G0012,,pending,,,,,Municipio,25875
+G0605,Viotá,council,municipality,G0012,,pending,,,,,Municipio,25878
+G0606,Yacopí,council,municipality,G0012,,pending,,,,,Municipio,25885
+G0607,Zipacón,council,municipality,G0012,,pending,,,,,Municipio,25898
+G0608,Zipaquirá,council,municipality,G0012,,pending,,,,,Municipio,25899
+G0609,Quibdó,council,municipality,G0013,,pending,,,,,Municipio,27001
+G0610,Acandí,council,municipality,G0013,,pending,,,,,Municipio,27006
+G0611,Alto Baudó,council,municipality,G0013,,pending,,,,,Municipio,27025
+G0612,Atrato,council,municipality,G0013,,pending,,,,,Municipio,27050
+G0613,Bagadó,council,municipality,G0013,,pending,,,,,Municipio,27073
+G0614,Bahía Solano,council,municipality,G0013,,pending,,,,,Municipio,27075
+G0615,Bajo Baudó,council,municipality,G0013,,pending,,,,,Municipio,27077
+G0616,Bojayá,council,municipality,G0013,,pending,,,,,Municipio,27099
+G0617,El Cantón Del San Pablo,council,municipality,G0013,,pending,,,,,Municipio,27135
+G0618,Carmen Del Darién,council,municipality,G0013,,pending,,,,,Municipio,27150
+G0619,Cértegui,council,municipality,G0013,,pending,,,,,Municipio,27160
+G0620,Condoto,council,municipality,G0013,,pending,,,,,Municipio,27205
+G0621,El Carmen De Atrato,council,municipality,G0013,,pending,,,,,Municipio,27245
+G0622,El Litoral Del San Juan,council,municipality,G0013,,pending,,,,,Municipio,27250
+G0623,Istmina,council,municipality,G0013,,pending,,,,,Municipio,27361
+G0624,Juradó,council,municipality,G0013,,pending,,,,,Municipio,27372
+G0625,Lloró,council,municipality,G0013,,pending,,,,,Municipio,27413
+G0626,Medio Atrato,council,municipality,G0013,,pending,,,,,Municipio,27425
+G0627,Medio Baudó,council,municipality,G0013,,pending,,,,,Municipio,27430
+G0628,Medio San Juan,council,municipality,G0013,,pending,,,,,Municipio,27450
+G0629,Nóvita,council,municipality,G0013,,pending,,,,,Municipio,27491
+G0630,Nuevo Belén De Bajirá,council,municipality,G0013,,pending,,,,,Municipio,27493
+G0631,Nuquí,council,municipality,G0013,,pending,,,,,Municipio,27495
+G0632,Río Iró,council,municipality,G0013,,pending,,,,,Municipio,27580
+G0633,Río Quito,council,municipality,G0013,,pending,,,,,Municipio,27600
+G0634,Riosucio,council,municipality,G0013,,pending,,,,,Municipio,27615
+G0635,San José Del Palmar,council,municipality,G0013,,pending,,,,,Municipio,27660
+G0636,Sipí,council,municipality,G0013,,pending,,,,,Municipio,27745
+G0637,Tadó,council,municipality,G0013,,pending,,,,,Municipio,27787
+G0638,Unguía,council,municipality,G0013,,pending,,,,,Municipio,27800
+G0639,Unión Panamericana,council,municipality,G0013,,pending,,,,,Municipio,27810
+G0640,Neiva,council,municipality,G0014,,pending,,,,,Municipio,41001
+G0641,Acevedo,council,municipality,G0014,,pending,,,,,Municipio,41006
+G0642,Agrado,council,municipality,G0014,,pending,,,,,Municipio,41013
+G0643,Aipe,council,municipality,G0014,,pending,,,,,Municipio,41016
+G0644,Algeciras,council,municipality,G0014,,pending,,,,,Municipio,41020
+G0645,Altamira,council,municipality,G0014,,pending,,,,,Municipio,41026
+G0646,Baraya,council,municipality,G0014,,pending,,,,,Municipio,41078
+G0647,Campoalegre,council,municipality,G0014,,pending,,,,,Municipio,41132
+G0648,Colombia,council,municipality,G0014,,pending,,,,,Municipio,41206
+G0649,Elías,council,municipality,G0014,,pending,,,,,Municipio,41244
+G0650,Garzón,council,municipality,G0014,,pending,,,,,Municipio,41298
+G0651,Gigante,council,municipality,G0014,,pending,,,,,Municipio,41306
+G0652,Guadalupe,council,municipality,G0014,,pending,,,,,Municipio,41319
+G0653,Hobo,council,municipality,G0014,,pending,,,,,Municipio,41349
+G0654,Íquira,council,municipality,G0014,,pending,,,,,Municipio,41357
+G0655,Isnos,council,municipality,G0014,,pending,,,,,Municipio,41359
+G0656,La Argentina,council,municipality,G0014,,pending,,,,,Municipio,41378
+G0657,La Plata,council,municipality,G0014,,pending,,,,,Municipio,41396
+G0658,Nátaga,council,municipality,G0014,,pending,,,,,Municipio,41483
+G0659,Oporapa,council,municipality,G0014,,pending,,,,,Municipio,41503
+G0660,Paicol,council,municipality,G0014,,pending,,,,,Municipio,41518
+G0661,Palermo,council,municipality,G0014,,pending,,,,,Municipio,41524
+G0662,Palestina,council,municipality,G0014,,pending,,,,,Municipio,41530
+G0663,Pital,council,municipality,G0014,,pending,,,,,Municipio,41548
+G0664,Pitalito,council,municipality,G0014,,pending,,,,,Municipio,41551
+G0665,Rivera,council,municipality,G0014,,pending,,,,,Municipio,41615
+G0666,Saladoblanco,council,municipality,G0014,,pending,,,,,Municipio,41660
+G0667,San Agustín,council,municipality,G0014,,pending,,,,,Municipio,41668
+G0668,Santa María,council,municipality,G0014,,pending,,,,,Municipio,41676
+G0669,Suaza,council,municipality,G0014,,pending,,,,,Municipio,41770
+G0670,Tarqui,council,municipality,G0014,,pending,,,,,Municipio,41791
+G0671,Tesalia,council,municipality,G0014,,pending,,,,,Municipio,41797
+G0672,Tello,council,municipality,G0014,,pending,,,,,Municipio,41799
+G0673,Teruel,council,municipality,G0014,,pending,,,,,Municipio,41801
+G0674,Timaná,council,municipality,G0014,,pending,,,,,Municipio,41807
+G0675,Villavieja,council,municipality,G0014,,pending,,,,,Municipio,41872
+G0676,Yaguará,council,municipality,G0014,,pending,,,,,Municipio,41885
+G0677,Riohacha,council,municipality,G0015,,pending,,,,,Municipio,44001
+G0678,Albania,council,municipality,G0015,,pending,,,,,Municipio,44035
+G0679,Barrancas,council,municipality,G0015,,pending,,,,,Municipio,44078
+G0680,Dibulla,council,municipality,G0015,,pending,,,,,Municipio,44090
+G0681,Distracción,council,municipality,G0015,,pending,,,,,Municipio,44098
+G0682,El Molino,council,municipality,G0015,,pending,,,,,Municipio,44110
+G0683,Fonseca,council,municipality,G0015,,pending,,,,,Municipio,44279
+G0684,Hatonuevo,council,municipality,G0015,,pending,,,,,Municipio,44378
+G0685,La Jagua Del Pilar,council,municipality,G0015,,pending,,,,,Municipio,44420
+G0686,Maicao,council,municipality,G0015,,pending,,,,,Municipio,44430
+G0687,Manaure,council,municipality,G0015,,pending,,,,,Municipio,44560
+G0688,San Juan Del Cesar,council,municipality,G0015,,pending,,,,,Municipio,44650
+G0689,Uribia,council,municipality,G0015,,pending,,,,,Municipio,44847
+G0690,Urumita,council,municipality,G0015,,pending,,,,,Municipio,44855
+G0691,Villanueva,council,municipality,G0015,,pending,,,,,Municipio,44874
+G0692,Santa Marta,council,municipality,G0016,,pending,,,,,Municipio,47001
+G0693,Algarrobo,council,municipality,G0016,,pending,,,,,Municipio,47030
+G0694,Aracataca,council,municipality,G0016,,pending,,,,,Municipio,47053
+G0695,Ariguaní,council,municipality,G0016,,pending,,,,,Municipio,47058
+G0696,Cerro De San Antonio,council,municipality,G0016,,pending,,,,,Municipio,47161
+G0697,Chivolo,council,municipality,G0016,,pending,,,,,Municipio,47170
+G0698,Ciénaga,council,municipality,G0016,,pending,,,,,Municipio,47189
+G0699,Concordia,council,municipality,G0016,,pending,,,,,Municipio,47205
+G0700,El Banco,council,municipality,G0016,,pending,,,,,Municipio,47245
+G0701,El Piñón,council,municipality,G0016,,pending,,,,,Municipio,47258
+G0702,El Retén,council,municipality,G0016,,pending,,,,,Municipio,47268
+G0703,Fundación,council,municipality,G0016,,pending,,,,,Municipio,47288
+G0704,Guamal,council,municipality,G0016,,pending,,,,,Municipio,47318
+G0705,Nueva Granada,council,municipality,G0016,,pending,,,,,Municipio,47460
+G0706,Pedraza,council,municipality,G0016,,pending,,,,,Municipio,47541
+G0707,Pijiño Del Carmen,council,municipality,G0016,,pending,,,,,Municipio,47545
+G0708,Pivijay,council,municipality,G0016,,pending,,,,,Municipio,47551
+G0709,Plato,council,municipality,G0016,,pending,,,,,Municipio,47555
+G0710,Puebloviejo,council,municipality,G0016,,pending,,,,,Municipio,47570
+G0711,Remolino,council,municipality,G0016,,pending,,,,,Municipio,47605
+G0712,Sabanas De San Ángel,council,municipality,G0016,,pending,,,,,Municipio,47660
+G0713,Salamina,council,municipality,G0016,,pending,,,,,Municipio,47675
+G0714,San Sebastián De Buenavista,council,municipality,G0016,,pending,,,,,Municipio,47692
+G0715,San Zenón,council,municipality,G0016,,pending,,,,,Municipio,47703
+G0716,Santa Ana,council,municipality,G0016,,pending,,,,,Municipio,47707
+G0717,Santa Bárbara De Pinto,council,municipality,G0016,,pending,,,,,Municipio,47720
+G0718,Sitionuevo,council,municipality,G0016,,pending,,,,,Municipio,47745
+G0719,Tenerife,council,municipality,G0016,,pending,,,,,Municipio,47798
+G0720,Zapayán,council,municipality,G0016,,pending,,,,,Municipio,47960
+G0721,Zona Bananera,council,municipality,G0016,,pending,,,,,Municipio,47980
+G0722,Villavicencio,council,municipality,G0017,,pending,,,,,Municipio,50001
+G0723,Acacías,council,municipality,G0017,,pending,,,,,Municipio,50006
+G0724,Barranca De Upía,council,municipality,G0017,,pending,,,,,Municipio,50110
+G0725,Cabuyaro,council,municipality,G0017,,pending,,,,,Municipio,50124
+G0726,Castilla La Nueva,council,municipality,G0017,,pending,,,,,Municipio,50150
+G0727,Cubarral,council,municipality,G0017,,pending,,,,,Municipio,50223
+G0728,Cumaral,council,municipality,G0017,,pending,,,,,Municipio,50226
+G0729,El Calvario,council,municipality,G0017,,pending,,,,,Municipio,50245
+G0730,El Castillo,council,municipality,G0017,,pending,,,,,Municipio,50251
+G0731,El Dorado,council,municipality,G0017,,pending,,,,,Municipio,50270
+G0732,Fuente De Oro,council,municipality,G0017,,pending,,,,,Municipio,50287
+G0733,Granada,council,municipality,G0017,,pending,,,,,Municipio,50313
+G0734,Guamal,council,municipality,G0017,,pending,,,,,Municipio,50318
+G0735,Mapiripán,council,municipality,G0017,,pending,,,,,Municipio,50325
+G0736,Mesetas,council,municipality,G0017,,pending,,,,,Municipio,50330
+G0737,La Macarena,council,municipality,G0017,,pending,,,,,Municipio,50350
+G0738,Uribe,council,municipality,G0017,,pending,,,,,Municipio,50370
+G0739,Lejanías,council,municipality,G0017,,pending,,,,,Municipio,50400
+G0740,Puerto Concordia,council,municipality,G0017,,pending,,,,,Municipio,50450
+G0741,Puerto Gaitán,council,municipality,G0017,,pending,,,,,Municipio,50568
+G0742,Puerto López,council,municipality,G0017,,pending,,,,,Municipio,50573
+G0743,Puerto Lleras,council,municipality,G0017,,pending,,,,,Municipio,50577
+G0744,Puerto Rico,council,municipality,G0017,,pending,,,,,Municipio,50590
+G0745,Restrepo,council,municipality,G0017,,pending,,,,,Municipio,50606
+G0746,San Carlos De Guaroa,council,municipality,G0017,,pending,,,,,Municipio,50680
+G0747,San Juan De Arama,council,municipality,G0017,,pending,,,,,Municipio,50683
+G0748,San Juanito,council,municipality,G0017,,pending,,,,,Municipio,50686
+G0749,San Martín,council,municipality,G0017,,pending,,,,,Municipio,50689
+G0750,Vistahermosa,council,municipality,G0017,,pending,,,,,Municipio,50711
+G0751,Pasto,council,municipality,G0018,,pending,,,,,Municipio,52001
+G0752,Albán,council,municipality,G0018,,pending,,,,,Municipio,52019
+G0753,Aldana,council,municipality,G0018,,pending,,,,,Municipio,52022
+G0754,Ancuya,council,municipality,G0018,,pending,,,,,Municipio,52036
+G0755,Arboleda,council,municipality,G0018,,pending,,,,,Municipio,52051
+G0756,Barbacoas,council,municipality,G0018,,pending,,,,,Municipio,52079
+G0757,Belén,council,municipality,G0018,,pending,,,,,Municipio,52083
+G0758,Buesaco,council,municipality,G0018,,pending,,,,,Municipio,52110
+G0759,Colón,council,municipality,G0018,,pending,,,,,Municipio,52203
+G0760,Consacá,council,municipality,G0018,,pending,,,,,Municipio,52207
+G0761,Contadero,council,municipality,G0018,,pending,,,,,Municipio,52210
+G0762,Córdoba,council,municipality,G0018,,pending,,,,,Municipio,52215
+G0763,Cuaspud Carlosama,council,municipality,G0018,,pending,,,,,Municipio,52224
+G0764,Cumbal,council,municipality,G0018,,pending,,,,,Municipio,52227
+G0765,Cumbitara,council,municipality,G0018,,pending,,,,,Municipio,52233
+G0766,Chachagüí,council,municipality,G0018,,pending,,,,,Municipio,52240
+G0767,El Charco,council,municipality,G0018,,pending,,,,,Municipio,52250
+G0768,El Peñol,council,municipality,G0018,,pending,,,,,Municipio,52254
+G0769,El Rosario,council,municipality,G0018,,pending,,,,,Municipio,52256
+G0770,El Tablón De Gómez,council,municipality,G0018,,pending,,,,,Municipio,52258
+G0771,El Tambo,council,municipality,G0018,,pending,,,,,Municipio,52260
+G0772,Funes,council,municipality,G0018,,pending,,,,,Municipio,52287
+G0773,Guachucal,council,municipality,G0018,,pending,,,,,Municipio,52317
+G0774,Guaitarilla,council,municipality,G0018,,pending,,,,,Municipio,52320
+G0775,Gualmatán,council,municipality,G0018,,pending,,,,,Municipio,52323
+G0776,Iles,council,municipality,G0018,,pending,,,,,Municipio,52352
+G0777,Imués,council,municipality,G0018,,pending,,,,,Municipio,52354
+G0778,Ipiales,council,municipality,G0018,,pending,,,,,Municipio,52356
+G0779,La Cruz,council,municipality,G0018,,pending,,,,,Municipio,52378
+G0780,La Florida,council,municipality,G0018,,pending,,,,,Municipio,52381
+G0781,La Llanada,council,municipality,G0018,,pending,,,,,Municipio,52385
+G0782,La Tola,council,municipality,G0018,,pending,,,,,Municipio,52390
+G0783,La Unión,council,municipality,G0018,,pending,,,,,Municipio,52399
+G0784,Leiva,council,municipality,G0018,,pending,,,,,Municipio,52405
+G0785,Linares,council,municipality,G0018,,pending,,,,,Municipio,52411
+G0786,Los Andes,council,municipality,G0018,,pending,,,,,Municipio,52418
+G0787,Magüí,council,municipality,G0018,,pending,,,,,Municipio,52427
+G0788,Mallama,council,municipality,G0018,,pending,,,,,Municipio,52435
+G0789,Mosquera,council,municipality,G0018,,pending,,,,,Municipio,52473
+G0790,Nariño,council,municipality,G0018,,pending,,,,,Municipio,52480
+G0791,Olaya Herrera,council,municipality,G0018,,pending,,,,,Municipio,52490
+G0792,Ospina,council,municipality,G0018,,pending,,,,,Municipio,52506
+G0793,Francisco Pizarro,council,municipality,G0018,,pending,,,,,Municipio,52520
+G0794,Policarpa,council,municipality,G0018,,pending,,,,,Municipio,52540
+G0795,Potosí,council,municipality,G0018,,pending,,,,,Municipio,52560
+G0796,Providencia,council,municipality,G0018,,pending,,,,,Municipio,52565
+G0797,Puerres,council,municipality,G0018,,pending,,,,,Municipio,52573
+G0798,Pupiales,council,municipality,G0018,,pending,,,,,Municipio,52585
+G0799,Ricaurte,council,municipality,G0018,,pending,,,,,Municipio,52612
+G0800,Roberto Payán,council,municipality,G0018,,pending,,,,,Municipio,52621
+G0801,Samaniego,council,municipality,G0018,,pending,,,,,Municipio,52678
+G0802,Sandoná,council,municipality,G0018,,pending,,,,,Municipio,52683
+G0803,San Bernardo,council,municipality,G0018,,pending,,,,,Municipio,52685
+G0804,San Lorenzo,council,municipality,G0018,,pending,,,,,Municipio,52687
+G0805,San Pablo,council,municipality,G0018,,pending,,,,,Municipio,52693
+G0806,San Pedro De Cartago,council,municipality,G0018,,pending,,,,,Municipio,52694
+G0807,Santa Bárbara,council,municipality,G0018,,pending,,,,,Municipio,52696
+G0808,Santacruz,council,municipality,G0018,,pending,,,,,Municipio,52699
+G0809,Sapuyes,council,municipality,G0018,,pending,,,,,Municipio,52720
+G0810,Taminango,council,municipality,G0018,,pending,,,,,Municipio,52786
+G0811,Tangua,council,municipality,G0018,,pending,,,,,Municipio,52788
+G0812,San Andrés De Tumaco,council,municipality,G0018,,pending,,,,,Municipio,52835
+G0813,Túquerres,council,municipality,G0018,,pending,,,,,Municipio,52838
+G0814,Yacuanquer,council,municipality,G0018,,pending,,,,,Municipio,52885
+G0815,San José De Cúcuta,council,municipality,G0019,,pending,,,,,Municipio,54001
+G0816,Ábrego,council,municipality,G0019,,pending,,,,,Municipio,54003
+G0817,Arboledas,council,municipality,G0019,,pending,,,,,Municipio,54051
+G0818,Bochalema,council,municipality,G0019,,pending,,,,,Municipio,54099
+G0819,Bucarasica,council,municipality,G0019,,pending,,,,,Municipio,54109
+G0820,Cácota,council,municipality,G0019,,pending,,,,,Municipio,54125
+G0821,Cáchira,council,municipality,G0019,,pending,,,,,Municipio,54128
+G0822,Chinácota,council,municipality,G0019,,pending,,,,,Municipio,54172
+G0823,Chitagá,council,municipality,G0019,,pending,,,,,Municipio,54174
+G0824,Convención,council,municipality,G0019,,pending,,,,,Municipio,54206
+G0825,Cucutilla,council,municipality,G0019,,pending,,,,,Municipio,54223
+G0826,Durania,council,municipality,G0019,,pending,,,,,Municipio,54239
+G0827,El Carmen,council,municipality,G0019,,pending,,,,,Municipio,54245
+G0828,El Tarra,council,municipality,G0019,,pending,,,,,Municipio,54250
+G0829,El Zulia,council,municipality,G0019,,pending,,,,,Municipio,54261
+G0830,Gramalote,council,municipality,G0019,,pending,,,,,Municipio,54313
+G0831,Hacarí,council,municipality,G0019,,pending,,,,,Municipio,54344
+G0832,Herrán,council,municipality,G0019,,pending,,,,,Municipio,54347
+G0833,Labateca,council,municipality,G0019,,pending,,,,,Municipio,54377
+G0834,La Esperanza,council,municipality,G0019,,pending,,,,,Municipio,54385
+G0835,La Playa,council,municipality,G0019,,pending,,,,,Municipio,54398
+G0836,Los Patios,council,municipality,G0019,,pending,,,,,Municipio,54405
+G0837,Lourdes,council,municipality,G0019,,pending,,,,,Municipio,54418
+G0838,Mutiscua,council,municipality,G0019,,pending,,,,,Municipio,54480
+G0839,Ocaña,council,municipality,G0019,,pending,,,,,Municipio,54498
+G0840,Pamplona,council,municipality,G0019,,pending,,,,,Municipio,54518
+G0841,Pamplonita,council,municipality,G0019,,pending,,,,,Municipio,54520
+G0842,Puerto Santander,council,municipality,G0019,,pending,,,,,Municipio,54553
+G0843,Ragonvalia,council,municipality,G0019,,pending,,,,,Municipio,54599
+G0844,Salazar,council,municipality,G0019,,pending,,,,,Municipio,54660
+G0845,San Calixto,council,municipality,G0019,,pending,,,,,Municipio,54670
+G0846,San Cayetano,council,municipality,G0019,,pending,,,,,Municipio,54673
+G0847,Santiago,council,municipality,G0019,,pending,,,,,Municipio,54680
+G0848,Sardinata,council,municipality,G0019,,pending,,,,,Municipio,54720
+G0849,Silos,council,municipality,G0019,,pending,,,,,Municipio,54743
+G0850,Teorama,council,municipality,G0019,,pending,,,,,Municipio,54800
+G0851,Tibú,council,municipality,G0019,,pending,,,,,Municipio,54810
+G0852,Toledo,council,municipality,G0019,,pending,,,,,Municipio,54820
+G0853,Villa Caro,council,municipality,G0019,,pending,,,,,Municipio,54871
+G0854,Villa Del Rosario,council,municipality,G0019,,pending,,,,,Municipio,54874
+G0855,Armenia,council,municipality,G0020,,pending,,,,,Municipio,63001
+G0856,Buenavista,council,municipality,G0020,,pending,,,,,Municipio,63111
+G0857,Calarcá,council,municipality,G0020,,pending,,,,,Municipio,63130
+G0858,Circasia,council,municipality,G0020,,pending,,,,,Municipio,63190
+G0859,Córdoba,council,municipality,G0020,,pending,,,,,Municipio,63212
+G0860,Filandia,council,municipality,G0020,,pending,,,,,Municipio,63272
+G0861,Génova,council,municipality,G0020,,pending,,,,,Municipio,63302
+G0862,La Tebaida,council,municipality,G0020,,pending,,,,,Municipio,63401
+G0863,Montenegro,council,municipality,G0020,,pending,,,,,Municipio,63470
+G0864,Pijao,council,municipality,G0020,,pending,,,,,Municipio,63548
+G0865,Quimbaya,council,municipality,G0020,,pending,,,,,Municipio,63594
+G0866,Salento,council,municipality,G0020,,pending,,,,,Municipio,63690
+G0867,Pereira,council,municipality,G0021,,pending,,,,,Municipio,66001
+G0868,Apía,council,municipality,G0021,,pending,,,,,Municipio,66045
+G0869,Balboa,council,municipality,G0021,,pending,,,,,Municipio,66075
+G0870,Belén De Umbría,council,municipality,G0021,,pending,,,,,Municipio,66088
+G0871,Dosquebradas,council,municipality,G0021,,pending,,,,,Municipio,66170
+G0872,Guática,council,municipality,G0021,,pending,,,,,Municipio,66318
+G0873,La Celia,council,municipality,G0021,,pending,,,,,Municipio,66383
+G0874,La Virginia,council,municipality,G0021,,pending,,,,,Municipio,66400
+G0875,Marsella,council,municipality,G0021,,pending,,,,,Municipio,66440
+G0876,Mistrató,council,municipality,G0021,,pending,,,,,Municipio,66456
+G0877,Pueblo Rico,council,municipality,G0021,,pending,,,,,Municipio,66572
+G0878,Quinchía,council,municipality,G0021,,pending,,,,,Municipio,66594
+G0879,Santa Rosa De Cabal,council,municipality,G0021,,pending,,,,,Municipio,66682
+G0880,Santuario,council,municipality,G0021,,pending,,,,,Municipio,66687
+G0881,Bucaramanga,council,municipality,G0022,,pending,,,,,Municipio,68001
+G0882,Aguada,council,municipality,G0022,,pending,,,,,Municipio,68013
+G0883,Albania,council,municipality,G0022,,pending,,,,,Municipio,68020
+G0884,Aratoca,council,municipality,G0022,,pending,,,,,Municipio,68051
+G0885,Barbosa,council,municipality,G0022,,pending,,,,,Municipio,68077
+G0886,Barichara,council,municipality,G0022,,pending,,,,,Municipio,68079
+G0887,Barrancabermeja,council,municipality,G0022,,pending,,,,,Municipio,68081
+G0888,Betulia,council,municipality,G0022,,pending,,,,,Municipio,68092
+G0889,Bolívar,council,municipality,G0022,,pending,,,,,Municipio,68101
+G0890,Cabrera,council,municipality,G0022,,pending,,,,,Municipio,68121
+G0891,California,council,municipality,G0022,,pending,,,,,Municipio,68132
+G0892,Capitanejo,council,municipality,G0022,,pending,,,,,Municipio,68147
+G0893,Carcasí,council,municipality,G0022,,pending,,,,,Municipio,68152
+G0894,Cepitá,council,municipality,G0022,,pending,,,,,Municipio,68160
+G0895,Cerrito,council,municipality,G0022,,pending,,,,,Municipio,68162
+G0896,Charalá,council,municipality,G0022,,pending,,,,,Municipio,68167
+G0897,Charta,council,municipality,G0022,,pending,,,,,Municipio,68169
+G0898,Chima,council,municipality,G0022,,pending,,,,,Municipio,68176
+G0899,Chipatá,council,municipality,G0022,,pending,,,,,Municipio,68179
+G0900,Cimitarra,council,municipality,G0022,,pending,,,,,Municipio,68190
+G0901,Concepción,council,municipality,G0022,,pending,,,,,Municipio,68207
+G0902,Confines,council,municipality,G0022,,pending,,,,,Municipio,68209
+G0903,Contratación,council,municipality,G0022,,pending,,,,,Municipio,68211
+G0904,Coromoro,council,municipality,G0022,,pending,,,,,Municipio,68217
+G0905,Curití,council,municipality,G0022,,pending,,,,,Municipio,68229
+G0906,El Carmen De Chucurí,council,municipality,G0022,,pending,,,,,Municipio,68235
+G0907,El Guacamayo,council,municipality,G0022,,pending,,,,,Municipio,68245
+G0908,El Peñón,council,municipality,G0022,,pending,,,,,Municipio,68250
+G0909,El Playón,council,municipality,G0022,,pending,,,,,Municipio,68255
+G0910,Encino,council,municipality,G0022,,pending,,,,,Municipio,68264
+G0911,Enciso,council,municipality,G0022,,pending,,,,,Municipio,68266
+G0912,Florián,council,municipality,G0022,,pending,,,,,Municipio,68271
+G0913,Floridablanca,council,municipality,G0022,,pending,,,,,Municipio,68276
+G0914,Galán,council,municipality,G0022,,pending,,,,,Municipio,68296
+G0915,Gámbita,council,municipality,G0022,,pending,,,,,Municipio,68298
+G0916,Girón,council,municipality,G0022,,pending,,,,,Municipio,68307
+G0917,Guaca,council,municipality,G0022,,pending,,,,,Municipio,68318
+G0918,Guadalupe,council,municipality,G0022,,pending,,,,,Municipio,68320
+G0919,Guapotá,council,municipality,G0022,,pending,,,,,Municipio,68322
+G0920,Guavatá,council,municipality,G0022,,pending,,,,,Municipio,68324
+G0921,Güepsa,council,municipality,G0022,,pending,,,,,Municipio,68327
+G0922,Hato,council,municipality,G0022,,pending,,,,,Municipio,68344
+G0923,Jesús María,council,municipality,G0022,,pending,,,,,Municipio,68368
+G0924,Jordán,council,municipality,G0022,,pending,,,,,Municipio,68370
+G0925,La Belleza,council,municipality,G0022,,pending,,,,,Municipio,68377
+G0926,Landázuri,council,municipality,G0022,,pending,,,,,Municipio,68385
+G0927,La Paz,council,municipality,G0022,,pending,,,,,Municipio,68397
+G0928,Lebrija,council,municipality,G0022,,pending,,,,,Municipio,68406
+G0929,Los Santos,council,municipality,G0022,,pending,,,,,Municipio,68418
+G0930,Macaravita,council,municipality,G0022,,pending,,,,,Municipio,68425
+G0931,Málaga,council,municipality,G0022,,pending,,,,,Municipio,68432
+G0932,Matanza,council,municipality,G0022,,pending,,,,,Municipio,68444
+G0933,Mogotes,council,municipality,G0022,,pending,,,,,Municipio,68464
+G0934,Molagavita,council,municipality,G0022,,pending,,,,,Municipio,68468
+G0935,Ocamonte,council,municipality,G0022,,pending,,,,,Municipio,68498
+G0936,Oiba,council,municipality,G0022,,pending,,,,,Municipio,68500
+G0937,Onzaga,council,municipality,G0022,,pending,,,,,Municipio,68502
+G0938,Palmar,council,municipality,G0022,,pending,,,,,Municipio,68522
+G0939,Palmas Del Socorro,council,municipality,G0022,,pending,,,,,Municipio,68524
+G0940,Páramo,council,municipality,G0022,,pending,,,,,Municipio,68533
+G0941,Piedecuesta,council,municipality,G0022,,pending,,,,,Municipio,68547
+G0942,Pinchote,council,municipality,G0022,,pending,,,,,Municipio,68549
+G0943,Puente Nacional,council,municipality,G0022,,pending,,,,,Municipio,68572
+G0944,Puerto Parra,council,municipality,G0022,,pending,,,,,Municipio,68573
+G0945,Puerto Wilches,council,municipality,G0022,,pending,,,,,Municipio,68575
+G0946,Rionegro,council,municipality,G0022,,pending,,,,,Municipio,68615
+G0947,Sabana De Torres,council,municipality,G0022,,pending,,,,,Municipio,68655
+G0948,San Andrés,council,municipality,G0022,,pending,,,,,Municipio,68669
+G0949,San Benito,council,municipality,G0022,,pending,,,,,Municipio,68673
+G0950,San Gil,council,municipality,G0022,,pending,,,,,Municipio,68679
+G0951,San Joaquín,council,municipality,G0022,,pending,,,,,Municipio,68682
+G0952,San José De Miranda,council,municipality,G0022,,pending,,,,,Municipio,68684
+G0953,San Miguel,council,municipality,G0022,,pending,,,,,Municipio,68686
+G0954,San Vicente De Chucurí,council,municipality,G0022,,pending,,,,,Municipio,68689
+G0955,Santa Bárbara,council,municipality,G0022,,pending,,,,,Municipio,68705
+G0956,Santa Helena Del Opón,council,municipality,G0022,,pending,,,,,Municipio,68720
+G0957,Simacota,council,municipality,G0022,,pending,,,,,Municipio,68745
+G0958,Socorro,council,municipality,G0022,,pending,,,,,Municipio,68755
+G0959,Suaita,council,municipality,G0022,,pending,,,,,Municipio,68770
+G0960,Sucre,council,municipality,G0022,,pending,,,,,Municipio,68773
+G0961,Suratá,council,municipality,G0022,,pending,,,,,Municipio,68780
+G0962,Tona,council,municipality,G0022,,pending,,,,,Municipio,68820
+G0963,Valle De San José,council,municipality,G0022,,pending,,,,,Municipio,68855
+G0964,Vélez,council,municipality,G0022,,pending,,,,,Municipio,68861
+G0965,Vetas,council,municipality,G0022,,pending,,,,,Municipio,68867
+G0966,Villanueva,council,municipality,G0022,,pending,,,,,Municipio,68872
+G0967,Zapatoca,council,municipality,G0022,,pending,,,,,Municipio,68895
+G0968,Sincelejo,council,municipality,G0023,,pending,,,,,Municipio,70001
+G0969,Buenavista,council,municipality,G0023,,pending,,,,,Municipio,70110
+G0970,Caimito,council,municipality,G0023,,pending,,,,,Municipio,70124
+G0971,Colosó,council,municipality,G0023,,pending,,,,,Municipio,70204
+G0972,Corozal,council,municipality,G0023,,pending,,,,,Municipio,70215
+G0973,Coveñas,council,municipality,G0023,,pending,,,,,Municipio,70221
+G0974,Chalán,council,municipality,G0023,,pending,,,,,Municipio,70230
+G0975,El Roble,council,municipality,G0023,,pending,,,,,Municipio,70233
+G0976,Galeras,council,municipality,G0023,,pending,,,,,Municipio,70235
+G0977,Guaranda,council,municipality,G0023,,pending,,,,,Municipio,70265
+G0978,La Unión,council,municipality,G0023,,pending,,,,,Municipio,70400
+G0979,Los Palmitos,council,municipality,G0023,,pending,,,,,Municipio,70418
+G0980,Majagual,council,municipality,G0023,,pending,,,,,Municipio,70429
+G0981,Morroa,council,municipality,G0023,,pending,,,,,Municipio,70473
+G0982,Ovejas,council,municipality,G0023,,pending,,,,,Municipio,70508
+G0983,Palmito,council,municipality,G0023,,pending,,,,,Municipio,70523
+G0984,Sampués,council,municipality,G0023,,pending,,,,,Municipio,70670
+G0985,San Benito Abad,council,municipality,G0023,,pending,,,,,Municipio,70678
+G0986,San Juan De Betulia,council,municipality,G0023,,pending,,,,,Municipio,70702
+G0987,San Marcos,council,municipality,G0023,,pending,,,,,Municipio,70708
+G0988,San Onofre,council,municipality,G0023,,pending,,,,,Municipio,70713
+G0989,San Pedro,council,municipality,G0023,,pending,,,,,Municipio,70717
+G0990,San Luis De Sincé,council,municipality,G0023,,pending,,,,,Municipio,70742
+G0991,Sucre,council,municipality,G0023,,pending,,,,,Municipio,70771
+G0992,Santiago De Tolú,council,municipality,G0023,,pending,,,,,Municipio,70820
+G0993,San José De Toluviejo,council,municipality,G0023,,pending,,,,,Municipio,70823
+G0994,Ibagué,council,municipality,G0024,,pending,,,,,Municipio,73001
+G0995,Alpujarra,council,municipality,G0024,,pending,,,,,Municipio,73024
+G0996,Alvarado,council,municipality,G0024,,pending,,,,,Municipio,73026
+G0997,Ambalema,council,municipality,G0024,,pending,,,,,Municipio,73030
+G0998,Anzoátegui,council,municipality,G0024,,pending,,,,,Municipio,73043
+G0999,Armero,council,municipality,G0024,,pending,,,,,Municipio,73055
+G1000,Ataco,council,municipality,G0024,,pending,,,,,Municipio,73067
+G1001,Cajamarca,council,municipality,G0024,,pending,,,,,Municipio,73124
+G1002,Carmen De Apicalá,council,municipality,G0024,,pending,,,,,Municipio,73148
+G1003,Casabianca,council,municipality,G0024,,pending,,,,,Municipio,73152
+G1004,Chaparral,council,municipality,G0024,,pending,,,,,Municipio,73168
+G1005,Coello,council,municipality,G0024,,pending,,,,,Municipio,73200
+G1006,Coyaima,council,municipality,G0024,,pending,,,,,Municipio,73217
+G1007,Cunday,council,municipality,G0024,,pending,,,,,Municipio,73226
+G1008,Dolores,council,municipality,G0024,,pending,,,,,Municipio,73236
+G1009,Espinal,council,municipality,G0024,,pending,,,,,Municipio,73268
+G1010,Falan,council,municipality,G0024,,pending,,,,,Municipio,73270
+G1011,Flandes,council,municipality,G0024,,pending,,,,,Municipio,73275
+G1012,Fresno,council,municipality,G0024,,pending,,,,,Municipio,73283
+G1013,Guamo,council,municipality,G0024,,pending,,,,,Municipio,73319
+G1014,Herveo,council,municipality,G0024,,pending,,,,,Municipio,73347
+G1015,Honda,council,municipality,G0024,,pending,,,,,Municipio,73349
+G1016,Icononzo,council,municipality,G0024,,pending,,,,,Municipio,73352
+G1017,Lérida,council,municipality,G0024,,pending,,,,,Municipio,73408
+G1018,Líbano,council,municipality,G0024,,pending,,,,,Municipio,73411
+G1019,San Sebastián De Mariquita,council,municipality,G0024,,pending,,,,,Municipio,73443
+G1020,Melgar,council,municipality,G0024,,pending,,,,,Municipio,73449
+G1021,Murillo,council,municipality,G0024,,pending,,,,,Municipio,73461
+G1022,Natagaima,council,municipality,G0024,,pending,,,,,Municipio,73483
+G1023,Ortega,council,municipality,G0024,,pending,,,,,Municipio,73504
+G1024,Palocabildo,council,municipality,G0024,,pending,,,,,Municipio,73520
+G1025,Piedras,council,municipality,G0024,,pending,,,,,Municipio,73547
+G1026,Planadas,council,municipality,G0024,,pending,,,,,Municipio,73555
+G1027,Prado,council,municipality,G0024,,pending,,,,,Municipio,73563
+G1028,Purificación,council,municipality,G0024,,pending,,,,,Municipio,73585
+G1029,Rioblanco,council,municipality,G0024,,pending,,,,,Municipio,73616
+G1030,Roncesvalles,council,municipality,G0024,,pending,,,,,Municipio,73622
+G1031,Rovira,council,municipality,G0024,,pending,,,,,Municipio,73624
+G1032,Saldaña,council,municipality,G0024,,pending,,,,,Municipio,73671
+G1033,San Antonio,council,municipality,G0024,,pending,,,,,Municipio,73675
+G1034,San Luis,council,municipality,G0024,,pending,,,,,Municipio,73678
+G1035,Santa Isabel,council,municipality,G0024,,pending,,,,,Municipio,73686
+G1036,Suárez,council,municipality,G0024,,pending,,,,,Municipio,73770
+G1037,Valle De San Juan,council,municipality,G0024,,pending,,,,,Municipio,73854
+G1038,Venadillo,council,municipality,G0024,,pending,,,,,Municipio,73861
+G1039,Villahermosa,council,municipality,G0024,,pending,,,,,Municipio,73870
+G1040,Villarrica,council,municipality,G0024,,pending,,,,,Municipio,73873
+G1041,Santiago De Cali,council,municipality,G0025,,pending,,,,,Municipio,76001
+G1042,Alcalá,council,municipality,G0025,,pending,,,,,Municipio,76020
+G1043,Andalucía,council,municipality,G0025,,pending,,,,,Municipio,76036
+G1044,Ansermanuevo,council,municipality,G0025,,pending,,,,,Municipio,76041
+G1045,Argelia,council,municipality,G0025,,pending,,,,,Municipio,76054
+G1046,Bolívar,council,municipality,G0025,,pending,,,,,Municipio,76100
+G1047,Buenaventura,council,municipality,G0025,,pending,,,,,Municipio,76109
+G1048,Guadalajara De Buga,council,municipality,G0025,,pending,,,,,Municipio,76111
+G1049,Bugalagrande,council,municipality,G0025,,pending,,,,,Municipio,76113
+G1050,Caicedonia,council,municipality,G0025,,pending,,,,,Municipio,76122
+G1051,Calima,council,municipality,G0025,,pending,,,,,Municipio,76126
+G1052,Candelaria,council,municipality,G0025,,pending,,,,,Municipio,76130
+G1053,Cartago,council,municipality,G0025,,pending,,,,,Municipio,76147
+G1054,Dagua,council,municipality,G0025,,pending,,,,,Municipio,76233
+G1055,El Águila,council,municipality,G0025,,pending,,,,,Municipio,76243
+G1056,El Cairo,council,municipality,G0025,,pending,,,,,Municipio,76246
+G1057,El Cerrito,council,municipality,G0025,,pending,,,,,Municipio,76248
+G1058,El Dovio,council,municipality,G0025,,pending,,,,,Municipio,76250
+G1059,Florida,council,municipality,G0025,,pending,,,,,Municipio,76275
+G1060,Ginebra,council,municipality,G0025,,pending,,,,,Municipio,76306
+G1061,Guacarí,council,municipality,G0025,,pending,,,,,Municipio,76318
+G1062,Jamundí,council,municipality,G0025,,pending,,,,,Municipio,76364
+G1063,La Cumbre,council,municipality,G0025,,pending,,,,,Municipio,76377
+G1064,La Unión,council,municipality,G0025,,pending,,,,,Municipio,76400
+G1065,La Victoria,council,municipality,G0025,,pending,,,,,Municipio,76403
+G1066,Obando,council,municipality,G0025,,pending,,,,,Municipio,76497
+G1067,Palmira,council,municipality,G0025,,pending,,,,,Municipio,76520
+G1068,Pradera,council,municipality,G0025,,pending,,,,,Municipio,76563
+G1069,Restrepo,council,municipality,G0025,,pending,,,,,Municipio,76606
+G1070,Riofrío,council,municipality,G0025,,pending,,,,,Municipio,76616
+G1071,Roldanillo,council,municipality,G0025,,pending,,,,,Municipio,76622
+G1072,San Pedro,council,municipality,G0025,,pending,,,,,Municipio,76670
+G1073,Sevilla,council,municipality,G0025,,pending,,,,,Municipio,76736
+G1074,Toro,council,municipality,G0025,,pending,,,,,Municipio,76823
+G1075,Trujillo,council,municipality,G0025,,pending,,,,,Municipio,76828
+G1076,Tuluá,council,municipality,G0025,,pending,,,,,Municipio,76834
+G1077,Ulloa,council,municipality,G0025,,pending,,,,,Municipio,76845
+G1078,Versalles,council,municipality,G0025,,pending,,,,,Municipio,76863
+G1079,Vijes,council,municipality,G0025,,pending,,,,,Municipio,76869
+G1080,Yotoco,council,municipality,G0025,,pending,,,,,Municipio,76890
+G1081,Yumbo,council,municipality,G0025,,pending,,,,,Municipio,76892
+G1082,Zarzal,council,municipality,G0025,,pending,,,,,Municipio,76895
+G1083,Arauca,council,municipality,G0026,,pending,,,,,Municipio,81001
+G1084,Arauquita,council,municipality,G0026,,pending,,,,,Municipio,81065
+G1085,Cravo Norte,council,municipality,G0026,,pending,,,,,Municipio,81220
+G1086,Fortul,council,municipality,G0026,,pending,,,,,Municipio,81300
+G1087,Puerto Rondón,council,municipality,G0026,,pending,,,,,Municipio,81591
+G1088,Saravena,council,municipality,G0026,,pending,,,,,Municipio,81736
+G1089,Tame,council,municipality,G0026,,pending,,,,,Municipio,81794
+G1090,Yopal,council,municipality,G0027,,pending,,,,,Municipio,85001
+G1091,Aguazul,council,municipality,G0027,,pending,,,,,Municipio,85010
+G1092,Chámeza,council,municipality,G0027,,pending,,,,,Municipio,85015
+G1093,Hato Corozal,council,municipality,G0027,,pending,,,,,Municipio,85125
+G1094,La Salina,council,municipality,G0027,,pending,,,,,Municipio,85136
+G1095,Maní,council,municipality,G0027,,pending,,,,,Municipio,85139
+G1096,Monterrey,council,municipality,G0027,,pending,,,,,Municipio,85162
+G1097,Nunchía,council,municipality,G0027,,pending,,,,,Municipio,85225
+G1098,Orocué,council,municipality,G0027,,pending,,,,,Municipio,85230
+G1099,Paz De Ariporo,council,municipality,G0027,,pending,,,,,Municipio,85250
+G1100,Pore,council,municipality,G0027,,pending,,,,,Municipio,85263
+G1101,Recetor,council,municipality,G0027,,pending,,,,,Municipio,85279
+G1102,Sabanalarga,council,municipality,G0027,,pending,,,,,Municipio,85300
+G1103,Sácama,council,municipality,G0027,,pending,,,,,Municipio,85315
+G1104,San Luis De Palenque,council,municipality,G0027,,pending,,,,,Municipio,85325
+G1105,Támara,council,municipality,G0027,,pending,,,,,Municipio,85400
+G1106,Tauramena,council,municipality,G0027,,pending,,,,,Municipio,85410
+G1107,Trinidad,council,municipality,G0027,,pending,,,,,Municipio,85430
+G1108,Villanueva,council,municipality,G0027,,pending,,,,,Municipio,85440
+G1109,Mocoa,council,municipality,G0028,,pending,,,,,Municipio,86001
+G1110,Colón,council,municipality,G0028,,pending,,,,,Municipio,86219
+G1111,Orito,council,municipality,G0028,,pending,,,,,Municipio,86320
+G1112,Puerto Asís,council,municipality,G0028,,pending,,,,,Municipio,86568
+G1113,Puerto Caicedo,council,municipality,G0028,,pending,,,,,Municipio,86569
+G1114,Puerto Guzmán,council,municipality,G0028,,pending,,,,,Municipio,86571
+G1115,Puerto Leguízamo,council,municipality,G0028,,pending,,,,,Municipio,86573
+G1116,Sibundoy,council,municipality,G0028,,pending,,,,,Municipio,86749
+G1117,San Francisco,council,municipality,G0028,,pending,,,,,Municipio,86755
+G1118,San Miguel,council,municipality,G0028,,pending,,,,,Municipio,86757
+G1119,Santiago,council,municipality,G0028,,pending,,,,,Municipio,86760
+G1120,Valle Del Guamuez,council,municipality,G0028,,pending,,,,,Municipio,86865
+G1121,Villagarzón,council,municipality,G0028,,pending,,,,,Municipio,86885
+G1122,San Andrés,council,other,G0029,,pending,,,,,Isla,88001
+G1123,Providencia,council,municipality,G0029,,pending,,,,,Municipio,88564
+G1124,Leticia,council,municipality,G0030,,pending,,,,,Municipio,91001
+G1125,El Encanto,council,other,G0030,,pending,,,,,Área no municipalizada,91263
+G1126,La Chorrera,council,other,G0030,,pending,,,,,Área no municipalizada,91405
+G1127,La Pedrera,council,other,G0030,,pending,,,,,Área no municipalizada,91407
+G1128,La Victoria,council,other,G0030,,pending,,,,,Área no municipalizada,91430
+G1129,Mirití - Paraná,council,other,G0030,,pending,,,,,Área no municipalizada,91460
+G1130,Puerto Alegría,council,other,G0030,,pending,,,,,Área no municipalizada,91530
+G1131,Puerto Arica,council,other,G0030,,pending,,,,,Área no municipalizada,91536
+G1132,Puerto Nariño,council,municipality,G0030,,pending,,,,,Municipio,91540
+G1133,Puerto Santander,council,other,G0030,,pending,,,,,Área no municipalizada,91669
+G1134,Tarapacá,council,other,G0030,,pending,,,,,Área no municipalizada,91798
+G1135,Inírida,council,municipality,G0031,,pending,,,,,Municipio,94001
+G1136,Barrancominas,council,municipality,G0031,,pending,,,,,Municipio,94343
+G1137,San Felipe,council,other,G0031,,pending,,,,,Área no municipalizada,94883
+G1138,Puerto Colombia,council,other,G0031,,pending,,,,,Área no municipalizada,94884
+G1139,La Guadalupe,council,other,G0031,,pending,,,,,Área no municipalizada,94885
+G1140,Cacahual,council,other,G0031,,pending,,,,,Área no municipalizada,94886
+G1141,Pana Pana,council,other,G0031,,pending,,,,,Área no municipalizada,94887
+G1142,Morichal,council,other,G0031,,pending,,,,,Área no municipalizada,94888
+G1143,San José Del Guaviare,council,municipality,G0032,,pending,,,,,Municipio,95001
+G1144,Calamar,council,municipality,G0032,,pending,,,,,Municipio,95015
+G1145,El Retorno,council,municipality,G0032,,pending,,,,,Municipio,95025
+G1146,Miraflores,council,municipality,G0032,,pending,,,,,Municipio,95200
+G1147,Mitú,council,municipality,G0033,,pending,,,,,Municipio,97001
+G1148,Carurú,council,municipality,G0033,,pending,,,,,Municipio,97161
+G1149,Pacoa,council,other,G0033,,pending,,,,,Área no municipalizada,97511
+G1150,Taraira,council,municipality,G0033,,pending,,,,,Municipio,97666
+G1151,Papunahua,council,other,G0033,,pending,,,,,Área no municipalizada,97777
+G1152,Yavaraté,council,other,G0033,,pending,,,,,Área no municipalizada,97889
+G1153,Puerto Carreño,council,municipality,G0034,,pending,,,,,Municipio,99001
+G1154,La Primavera,council,municipality,G0034,,pending,,,,,Municipio,99524
+G1155,Santa Rosalía,council,municipality,G0034,,pending,,,,,Municipio,99624
+G1156,Cumaribo,council,municipality,G0034,,pending,,,,,Municipio,99773
