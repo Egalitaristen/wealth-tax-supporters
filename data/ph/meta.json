@@ -1,0 +1,8 @@
+{
+  "name": "Philippines",
+  "iso2": "PH",
+  "lead": "",
+  "status": "in progress",
+  "boundaries": "boundaries.json",
+  "notes": "Seed in progress. Geography: PSA PSGC July 2026 mirror cross-checked against PSA Q3 counts; 18 regions, 82 provinces, 149 cities and 1,493 municipalities. Map: geoph synthesized 2024 administrative configuration, generalized and unofficial, CC BY 4.0; PSGC codes matched to all 1,642 local units. Boundaries are not authoritative; see area profile for vintage, method and credits."
+}
