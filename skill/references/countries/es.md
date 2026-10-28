@@ -30,6 +30,10 @@ python skill/scripts/merge_boundaries.py mun.json --regions prov.json --upper cc
 - Not found: any Spanish millionaire or business owner on record for a wealth tax.
 - **Seats:** `python skill/scripts/seats.py data/es` reads the Congreso's open data (`congreso.es/es/opendata/diputados`: `DiputadosActivos`, `DiputadosDeBaja` with the end date, and `Diput` for earlier legislatures; Latin-1 files). 350 seats, parties by parliamentary group (PP, PSOE, Vox, Sumar, ERC, Junts, EH Bildu, EAJ-PNV, Mixto). **A deputy's mandate ends on the day the Cortes are dissolved** (Constitution art. 68.4), except for those who stay on, so after the dissolution of 6 October 2026 (election on 29 November) only 137 deputies are active and the other 213 seats show as "Mandate ended at dissolution". After the new Cortes meet, run the script again: the numbers will look normal. Roles that read "Member of Congress (XIV legislature)" are historical: the script marks those who are no longer deputies as former.
 
+## Reaching a past roll call
+
+The vote files sit under `webpublica/opendata/votaciones/Leg14/SesionNNN/YYYYMMDD/VotacionNNN/VOT_<timestamp>.json` and the timestamp cannot be guessed. The list is on `congreso.es/es/opendata/votaciones` (open `...&targetLegislatura=XIV&targetDate=24/11/2022` in a browser; the links are on the page). Fetch only the session you need: reading all 499 files of 24 November 2022 in one go brought an `Access Denied` (403) for the browser within a minute. The 24 November 2022 vote on Ley 38/2022 is in session 218 (62 files), still to be read name by name for H0002.
+
 ## Senado
 
 `python skill/scripts/seats.py data/es` also draws the Senado (266 seats) from the Spanish Wikipedia list of the senators of the XV legislature, because senado.es refuses scripts. The Cortes were dissolved on 6 October 2026 (election 29 November), so the chart shows the senators at the end of the legislature and its note says so; **rerun it against the new legislature once it meets** (#60). Spanish names carry two surnames, so the adapter uses strict matching (see `strict` in `match()`): read the name-only matches it prints.
