@@ -1,0 +1,1744 @@
+geo_unit_id,name,level,unit_type,parent_id,website,sweep_status,swept_run,swept_date,queries_run,hits,notes,code
+G0001,Philippines,national,country,,,in_progress,,,,,,
+G0002,Region I (Ilocos Region),region,region,G0001,,pending,,,,,,0100000000
+G0003,Region II (Cagayan Valley),region,region,G0001,,pending,,,,,,0200000000
+G0004,Region III (Central Luzon),region,region,G0001,,pending,,,,,,0300000000
+G0005,Region IV-A (CALABARZON),region,region,G0001,,pending,,,,,,0400000000
+G0006,Region V (Bicol Region),region,region,G0001,,pending,,,,,,0500000000
+G0007,Region VI (Western Visayas),region,region,G0001,,pending,,,,,,0600000000
+G0008,Region VII (Central Visayas),region,region,G0001,,pending,,,,,,0700000000
+G0009,Region VIII (Eastern Visayas),region,region,G0001,,pending,,,,,,0800000000
+G0010,Region IX (Zamboanga Peninsula),region,region,G0001,,pending,,,,,,0900000000
+G0011,Region X (Northern Mindanao),region,region,G0001,,pending,,,,,,1000000000
+G0012,Region XI (Davao Region),region,region,G0001,,pending,,,,,,1100000000
+G0013,Region XII (SOCCSKSARGEN),region,region,G0001,,pending,,,,,,1200000000
+G0014,National Capital Region (NCR),region,region,G0001,,pending,,,,,,1300000000
+G0015,Cordillera Administrative Region (CAR),region,region,G0001,,pending,,,,,,1400000000
+G0016,Region XIII (Caraga),region,region,G0001,,pending,,,,,,1600000000
+G0017,MIMAROPA Region,region,region,G0001,,pending,,,,,,1700000000
+G0018,Negros Island Region (NIR),region,region,G0001,,pending,,,,,,1800000000
+G0019,Bangsamoro Autonomous Region In Muslim Mindanao (BARMM),region,region,G0001,,pending,,,,,,1900000000
+G0020,Ilocos Norte,county,province,G0002,,pending,,,,,,0102800000
+G0021,Ilocos Sur,county,province,G0002,,pending,,,,,,0102900000
+G0022,La Union,county,province,G0002,,pending,,,,,,0103300000
+G0023,Pangasinan,county,province,G0002,,pending,,,,,,0105500000
+G0024,Batanes,county,province,G0003,,pending,,,,,,0200900000
+G0025,Cagayan,county,province,G0003,,pending,,,,,,0201500000
+G0026,Isabela,county,province,G0003,,pending,,,,,,0203100000
+G0027,Nueva Vizcaya,county,province,G0003,,pending,,,,,,0205000000
+G0028,Quirino,county,province,G0003,,pending,,,,,,0205700000
+G0029,Bataan,county,province,G0004,,pending,,,,,,0300800000
+G0030,Bulacan,county,province,G0004,,pending,,,,,,0301400000
+G0031,Nueva Ecija,county,province,G0004,,pending,,,,,,0304900000
+G0032,Pampanga,county,province,G0004,,pending,,,,,,0305400000
+G0033,Tarlac,county,province,G0004,,pending,,,,,,0306900000
+G0034,Zambales,county,province,G0004,,pending,,,,,,0307100000
+G0035,Aurora,county,province,G0004,,pending,,,,,,0307700000
+G0036,Batangas,county,province,G0005,,pending,,,,,,0401000000
+G0037,Cavite,county,province,G0005,,pending,,,,,,0402100000
+G0038,Laguna,county,province,G0005,,pending,,,,,,0403400000
+G0039,Quezon,county,province,G0005,,pending,,,,,,0405600000
+G0040,Rizal,county,province,G0005,,pending,,,,,,0405800000
+G0041,Albay,county,province,G0006,,pending,,,,,,0500500000
+G0042,Camarines Norte,county,province,G0006,,pending,,,,,,0501600000
+G0043,Camarines Sur,county,province,G0006,,pending,,,,,,0501700000
+G0044,Catanduanes,county,province,G0006,,pending,,,,,,0502000000
+G0045,Masbate,county,province,G0006,,pending,,,,,,0504100000
+G0046,Sorsogon,county,province,G0006,,pending,,,,,,0506200000
+G0047,Aklan,county,province,G0007,,pending,,,,,,0600400000
+G0048,Antique,county,province,G0007,,pending,,,,,,0600600000
+G0049,Capiz,county,province,G0007,,pending,,,,,,0601900000
+G0050,Iloilo,county,province,G0007,,pending,,,,,,0603000000
+G0051,Guimaras,county,province,G0007,,pending,,,,,,0607900000
+G0052,Bohol,county,province,G0008,,pending,,,,,,0701200000
+G0053,Cebu,county,province,G0008,,pending,,,,,,0702200000
+G0054,Eastern Samar,county,province,G0009,,pending,,,,,,0802600000
+G0055,Leyte,county,province,G0009,,pending,,,,,,0803700000
+G0056,Northern Samar,county,province,G0009,,pending,,,,,,0804800000
+G0057,Samar,county,province,G0009,,pending,,,,,,0806000000
+G0058,Southern Leyte,county,province,G0009,,pending,,,,,,0806400000
+G0059,Biliran,county,province,G0009,,pending,,,,,,0807800000
+G0060,Sulu,county,province,G0010,,pending,,,,,,0906600000
+G0061,Zamboanga del Norte,county,province,G0010,,pending,,,,,,0907200000
+G0062,Zamboanga del Sur,county,province,G0010,,pending,,,,,,0907300000
+G0063,Zamboanga Sibugay,county,province,G0010,,pending,,,,,,0908300000
+G0064,Bukidnon,county,province,G0011,,pending,,,,,,1001300000
+G0065,Camiguin,county,province,G0011,,pending,,,,,,1001800000
+G0066,Lanao del Norte,county,province,G0011,,pending,,,,,,1003500000
+G0067,Misamis Occidental,county,province,G0011,,pending,,,,,,1004200000
+G0068,Misamis Oriental,county,province,G0011,,pending,,,,,,1004300000
+G0069,Davao del Norte,county,province,G0012,,pending,,,,,,1102300000
+G0070,Davao del Sur,county,province,G0012,,pending,,,,,,1102400000
+G0071,Davao Oriental,county,province,G0012,,pending,,,,,,1102500000
+G0072,Davao de Oro,county,province,G0012,,pending,,,,,,1108200000
+G0073,Davao Occidental,county,province,G0012,,pending,,,,,,1108600000
+G0074,Cotabato,county,province,G0013,,pending,,,,,,1204700000
+G0075,South Cotabato,county,province,G0013,,pending,,,,,,1206300000
+G0076,Sultan Kudarat,county,province,G0013,,pending,,,,,,1206500000
+G0077,Sarangani,county,province,G0013,,pending,,,,,,1208000000
+G0078,Abra,county,province,G0015,,pending,,,,,,1400100000
+G0079,Benguet,county,province,G0015,,pending,,,,,,1401100000
+G0080,Ifugao,county,province,G0015,,pending,,,,,,1402700000
+G0081,Kalinga,county,province,G0015,,pending,,,,,,1403200000
+G0082,Mountain Province,county,province,G0015,,pending,,,,,,1404400000
+G0083,Apayao,county,province,G0015,,pending,,,,,,1408100000
+G0084,Agusan del Norte,county,province,G0016,,pending,,,,,,1600200000
+G0085,Agusan del Sur,county,province,G0016,,pending,,,,,,1600300000
+G0086,Surigao del Norte,county,province,G0016,,pending,,,,,,1606700000
+G0087,Surigao del Sur,county,province,G0016,,pending,,,,,,1606800000
+G0088,Dinagat Islands,county,province,G0016,,pending,,,,,,1608500000
+G0089,Marinduque,county,province,G0017,,pending,,,,,,1704000000
+G0090,Occidental Mindoro,county,province,G0017,,pending,,,,,,1705100000
+G0091,Oriental Mindoro,county,province,G0017,,pending,,,,,,1705200000
+G0092,Palawan,county,province,G0017,,pending,,,,,,1705300000
+G0093,Romblon,county,province,G0017,,pending,,,,,,1705900000
+G0094,Negros Occidental,county,province,G0018,,pending,,,,,,1804500000
+G0095,Negros Oriental,county,province,G0018,,pending,,,,,,1804600000
+G0096,Siquijor,county,province,G0018,,pending,,,,,,1806100000
+G0097,Basilan,county,province,G0019,,pending,,,,,,1900700000
+G0098,Lanao del Sur,county,province,G0019,,pending,,,,,,1903600000
+G0099,Tawi-Tawi,county,province,G0019,,pending,,,,,,1907000000
+G0100,Maguindanao del Norte,county,province,G0019,,pending,,,,,,1908700000
+G0101,Maguindanao del Sur,county,province,G0019,,pending,,,,,,1908800000
+G0102,Adams,council,municipality,G0020,,pending,,,,,,0102801000
+G0103,Bacarra,council,municipality,G0020,,pending,,,,,,0102802000
+G0104,Badoc,council,municipality,G0020,,pending,,,,,,0102803000
+G0105,Bangui,council,municipality,G0020,,pending,,,,,,0102804000
+G0106,City of Batac,council,component_city,G0020,,pending,,,,,,0102805000
+G0107,Burgos,council,municipality,G0020,,pending,,,,,,0102806000
+G0108,Carasi,council,municipality,G0020,,pending,,,,,,0102807000
+G0109,Currimao,council,municipality,G0020,,pending,,,,,,0102808000
+G0110,Dingras,council,municipality,G0020,,pending,,,,,,0102809000
+G0111,Dumalneg,council,municipality,G0020,,pending,,,,,,0102810000
+G0112,Banna,council,municipality,G0020,,pending,,,,,,0102811000
+G0113,City of Laoag,council,component_city,G0020,,pending,,,,,,0102812000
+G0114,Marcos,council,municipality,G0020,,pending,,,,,,0102813000
+G0115,Nueva Era,council,municipality,G0020,,pending,,,,,,0102814000
+G0116,Pagudpud,council,municipality,G0020,,pending,,,,,,0102815000
+G0117,Paoay,council,municipality,G0020,,pending,,,,,,0102816000
+G0118,Pasuquin,council,municipality,G0020,,pending,,,,,,0102817000
+G0119,Piddig,council,municipality,G0020,,pending,,,,,,0102818000
+G0120,Pinili,council,municipality,G0020,,pending,,,,,,0102819000
+G0121,San Nicolas,council,municipality,G0020,,pending,,,,,,0102820000
+G0122,Sarrat,council,municipality,G0020,,pending,,,,,,0102821000
+G0123,Solsona,council,municipality,G0020,,pending,,,,,,0102822000
+G0124,Vintar,council,municipality,G0020,,pending,,,,,,0102823000
+G0125,Alilem,council,municipality,G0021,,pending,,,,,,0102901000
+G0126,Banayoyo,council,municipality,G0021,,pending,,,,,,0102902000
+G0127,Bantay,council,municipality,G0021,,pending,,,,,,0102903000
+G0128,Burgos,council,municipality,G0021,,pending,,,,,,0102904000
+G0129,Cabugao,council,municipality,G0021,,pending,,,,,,0102905000
+G0130,City of Candon,council,component_city,G0021,,pending,,,,,,0102906000
+G0131,Caoayan,council,municipality,G0021,,pending,,,,,,0102907000
+G0132,Cervantes,council,municipality,G0021,,pending,,,,,,0102908000
+G0133,Galimuyod,council,municipality,G0021,,pending,,,,,,0102909000
+G0134,Gregorio del Pilar,council,municipality,G0021,,pending,,,,,,0102910000
+G0135,Lidlidda,council,municipality,G0021,,pending,,,,,,0102911000
+G0136,Magsingal,council,municipality,G0021,,pending,,,,,,0102912000
+G0137,Nagbukel,council,municipality,G0021,,pending,,,,,,0102913000
+G0138,Narvacan,council,municipality,G0021,,pending,,,,,,0102914000
+G0139,Quirino,council,municipality,G0021,,pending,,,,,,0102915000
+G0140,Salcedo,council,municipality,G0021,,pending,,,,,,0102916000
+G0141,San Emilio,council,municipality,G0021,,pending,,,,,,0102917000
+G0142,San Esteban,council,municipality,G0021,,pending,,,,,,0102918000
+G0143,San Ildefonso,council,municipality,G0021,,pending,,,,,,0102919000
+G0144,San Juan,council,municipality,G0021,,pending,,,,,,0102920000
+G0145,San Vicente,council,municipality,G0021,,pending,,,,,,0102921000
+G0146,Santa,council,municipality,G0021,,pending,,,,,,0102922000
+G0147,Santa Catalina,council,municipality,G0021,,pending,,,,,,0102923000
+G0148,Santa Cruz,council,municipality,G0021,,pending,,,,,,0102924000
+G0149,Santa Lucia,council,municipality,G0021,,pending,,,,,,0102925000
+G0150,Santa Maria,council,municipality,G0021,,pending,,,,,,0102926000
+G0151,Santiago,council,municipality,G0021,,pending,,,,,,0102927000
+G0152,Santo Domingo,council,municipality,G0021,,pending,,,,,,0102928000
+G0153,Sigay,council,municipality,G0021,,pending,,,,,,0102929000
+G0154,Sinait,council,municipality,G0021,,pending,,,,,,0102930000
+G0155,Sugpon,council,municipality,G0021,,pending,,,,,,0102931000
+G0156,Suyo,council,municipality,G0021,,pending,,,,,,0102932000
+G0157,Tagudin,council,municipality,G0021,,pending,,,,,,0102933000
+G0158,City of Vigan,council,component_city,G0021,,pending,,,,,,0102934000
+G0159,Agoo,council,municipality,G0022,,pending,,,,,,0103301000
+G0160,Aringay,council,municipality,G0022,,pending,,,,,,0103302000
+G0161,Bacnotan,council,municipality,G0022,,pending,,,,,,0103303000
+G0162,Bagulin,council,municipality,G0022,,pending,,,,,,0103304000
+G0163,Balaoan,council,municipality,G0022,,pending,,,,,,0103305000
+G0164,Bangar,council,municipality,G0022,,pending,,,,,,0103306000
+G0165,Bauang,council,municipality,G0022,,pending,,,,,,0103307000
+G0166,Burgos,council,municipality,G0022,,pending,,,,,,0103308000
+G0167,Caba,council,municipality,G0022,,pending,,,,,,0103309000
+G0168,Luna,council,municipality,G0022,,pending,,,,,,0103310000
+G0169,Naguilian,council,municipality,G0022,,pending,,,,,,0103311000
+G0170,Pugo,council,municipality,G0022,,pending,,,,,,0103312000
+G0171,Rosario,council,municipality,G0022,,pending,,,,,,0103313000
+G0172,City of San Fernando,council,component_city,G0022,,pending,,,,,,0103314000
+G0173,San Gabriel,council,municipality,G0022,,pending,,,,,,0103315000
+G0174,San Juan,council,municipality,G0022,,pending,,,,,,0103316000
+G0175,Santo Tomas,council,municipality,G0022,,pending,,,,,,0103317000
+G0176,Santol,council,municipality,G0022,,pending,,,,,,0103318000
+G0177,Sudipen,council,municipality,G0022,,pending,,,,,,0103319000
+G0178,Tubao,council,municipality,G0022,,pending,,,,,,0103320000
+G0179,Agno,council,municipality,G0023,,pending,,,,,,0105501000
+G0180,Aguilar,council,municipality,G0023,,pending,,,,,,0105502000
+G0181,City of Alaminos,council,component_city,G0023,,pending,,,,,,0105503000
+G0182,Alcala,council,municipality,G0023,,pending,,,,,,0105504000
+G0183,Anda,council,municipality,G0023,,pending,,,,,,0105505000
+G0184,Asingan,council,municipality,G0023,,pending,,,,,,0105506000
+G0185,Balungao,council,municipality,G0023,,pending,,,,,,0105507000
+G0186,Bani,council,municipality,G0023,,pending,,,,,,0105508000
+G0187,Basista,council,municipality,G0023,,pending,,,,,,0105509000
+G0188,Bautista,council,municipality,G0023,,pending,,,,,,0105510000
+G0189,Bayambang,council,municipality,G0023,,pending,,,,,,0105511000
+G0190,Binalonan,council,municipality,G0023,,pending,,,,,,0105512000
+G0191,Binmaley,council,municipality,G0023,,pending,,,,,,0105513000
+G0192,Bolinao,council,municipality,G0023,,pending,,,,,,0105514000
+G0193,Bugallon,council,municipality,G0023,,pending,,,,,,0105515000
+G0194,Burgos,council,municipality,G0023,,pending,,,,,,0105516000
+G0195,Calasiao,council,municipality,G0023,,pending,,,,,,0105517000
+G0196,City of Dagupan,council,independent_component_city,G0023,,pending,,,,,,0105518000
+G0197,Dasol,council,municipality,G0023,,pending,,,,,,0105519000
+G0198,Infanta,council,municipality,G0023,,pending,,,,,,0105520000
+G0199,Labrador,council,municipality,G0023,,pending,,,,,,0105521000
+G0200,Lingayen,council,municipality,G0023,,pending,,,,,,0105522000
+G0201,Mabini,council,municipality,G0023,,pending,,,,,,0105523000
+G0202,Malasiqui,council,municipality,G0023,,pending,,,,,,0105524000
+G0203,Manaoag,council,municipality,G0023,,pending,,,,,,0105525000
+G0204,Mangaldan,council,municipality,G0023,,pending,,,,,,0105526000
+G0205,Mangatarem,council,municipality,G0023,,pending,,,,,,0105527000
+G0206,Mapandan,council,municipality,G0023,,pending,,,,,,0105528000
+G0207,Natividad,council,municipality,G0023,,pending,,,,,,0105529000
+G0208,Pozorrubio,council,municipality,G0023,,pending,,,,,,0105530000
+G0209,Rosales,council,municipality,G0023,,pending,,,,,,0105531000
+G0210,City of San Carlos,council,component_city,G0023,,pending,,,,,,0105532000
+G0211,San Fabian,council,municipality,G0023,,pending,,,,,,0105533000
+G0212,San Jacinto,council,municipality,G0023,,pending,,,,,,0105534000
+G0213,San Manuel,council,municipality,G0023,,pending,,,,,,0105535000
+G0214,San Nicolas,council,municipality,G0023,,pending,,,,,,0105536000
+G0215,San Quintin,council,municipality,G0023,,pending,,,,,,0105537000
+G0216,Santa Barbara,council,municipality,G0023,,pending,,,,,,0105538000
+G0217,Santa Maria,council,municipality,G0023,,pending,,,,,,0105539000
+G0218,Santo Tomas,council,municipality,G0023,,pending,,,,,,0105540000
+G0219,Sison,council,municipality,G0023,,pending,,,,,,0105541000
+G0220,Sual,council,municipality,G0023,,pending,,,,,,0105542000
+G0221,Tayug,council,municipality,G0023,,pending,,,,,,0105543000
+G0222,Umingan,council,municipality,G0023,,pending,,,,,,0105544000
+G0223,Urbiztondo,council,municipality,G0023,,pending,,,,,,0105545000
+G0224,City of Urdaneta,council,component_city,G0023,,pending,,,,,,0105546000
+G0225,Villasis,council,municipality,G0023,,pending,,,,,,0105547000
+G0226,Laoac,council,municipality,G0023,,pending,,,,,,0105548000
+G0227,Basco,council,municipality,G0024,,pending,,,,,,0200901000
+G0228,Itbayat,council,municipality,G0024,,pending,,,,,,0200902000
+G0229,Ivana,council,municipality,G0024,,pending,,,,,,0200903000
+G0230,Mahatao,council,municipality,G0024,,pending,,,,,,0200904000
+G0231,Sabtang,council,municipality,G0024,,pending,,,,,,0200905000
+G0232,Uyugan,council,municipality,G0024,,pending,,,,,,0200906000
+G0233,Abulug,council,municipality,G0025,,pending,,,,,,0201501000
+G0234,Alcala,council,municipality,G0025,,pending,,,,,,0201502000
+G0235,Allacapan,council,municipality,G0025,,pending,,,,,,0201503000
+G0236,Amulung,council,municipality,G0025,,pending,,,,,,0201504000
+G0237,Aparri,council,municipality,G0025,,pending,,,,,,0201505000
+G0238,Baggao,council,municipality,G0025,,pending,,,,,,0201506000
+G0239,Ballesteros,council,municipality,G0025,,pending,,,,,,0201507000
+G0240,Buguey,council,municipality,G0025,,pending,,,,,,0201508000
+G0241,Calayan,council,municipality,G0025,,pending,,,,,,0201509000
+G0242,Camalaniugan,council,municipality,G0025,,pending,,,,,,0201510000
+G0243,Claveria,council,municipality,G0025,,pending,,,,,,0201511000
+G0244,Enrile,council,municipality,G0025,,pending,,,,,,0201512000
+G0245,Gattaran,council,municipality,G0025,,pending,,,,,,0201513000
+G0246,Gonzaga,council,municipality,G0025,,pending,,,,,,0201514000
+G0247,Iguig,council,municipality,G0025,,pending,,,,,,0201515000
+G0248,Lal-Lo,council,municipality,G0025,,pending,,,,,,0201516000
+G0249,Lasam,council,municipality,G0025,,pending,,,,,,0201517000
+G0250,Pamplona,council,municipality,G0025,,pending,,,,,,0201518000
+G0251,Peñablanca,council,municipality,G0025,,pending,,,,,,0201519000
+G0252,Piat,council,municipality,G0025,,pending,,,,,,0201520000
+G0253,Rizal,council,municipality,G0025,,pending,,,,,,0201521000
+G0254,Sanchez Mira,council,municipality,G0025,,pending,,,,,,0201522000
+G0255,Santa Ana,council,municipality,G0025,,pending,,,,,,0201523000
+G0256,Santa Praxedes,council,municipality,G0025,,pending,,,,,,0201524000
+G0257,Santa Teresita,council,municipality,G0025,,pending,,,,,,0201525000
+G0258,Santo Niño,council,municipality,G0025,,pending,,,,,,0201526000
+G0259,Solana,council,municipality,G0025,,pending,,,,,,0201527000
+G0260,Tuao,council,municipality,G0025,,pending,,,,,,0201528000
+G0261,Tuguegarao City,council,component_city,G0025,,pending,,,,,,0201529000
+G0262,Alicia,council,municipality,G0026,,pending,,,,,,0203101000
+G0263,Angadanan,council,municipality,G0026,,pending,,,,,,0203102000
+G0264,Aurora,council,municipality,G0026,,pending,,,,,,0203103000
+G0265,Benito Soliven,council,municipality,G0026,,pending,,,,,,0203104000
+G0266,Burgos,council,municipality,G0026,,pending,,,,,,0203105000
+G0267,Cabagan,council,municipality,G0026,,pending,,,,,,0203106000
+G0268,Cabatuan,council,municipality,G0026,,pending,,,,,,0203107000
+G0269,City of Cauayan,council,component_city,G0026,,pending,,,,,,0203108000
+G0270,Cordon,council,municipality,G0026,,pending,,,,,,0203109000
+G0271,Dinapigue,council,municipality,G0026,,pending,,,,,,0203110000
+G0272,Divilacan,council,municipality,G0026,,pending,,,,,,0203111000
+G0273,Echague,council,municipality,G0026,,pending,,,,,,0203112000
+G0274,Gamu,council,municipality,G0026,,pending,,,,,,0203113000
+G0275,City of Ilagan,council,component_city,G0026,,pending,,,,,,0203114000
+G0276,Jones,council,municipality,G0026,,pending,,,,,,0203115000
+G0277,Luna,council,municipality,G0026,,pending,,,,,,0203116000
+G0278,Maconacon,council,municipality,G0026,,pending,,,,,,0203117000
+G0279,Delfin Albano,council,municipality,G0026,,pending,,,,,,0203118000
+G0280,Mallig,council,municipality,G0026,,pending,,,,,,0203119000
+G0281,Naguilian,council,municipality,G0026,,pending,,,,,,0203120000
+G0282,Palanan,council,municipality,G0026,,pending,,,,,,0203121000
+G0283,Quezon,council,municipality,G0026,,pending,,,,,,0203122000
+G0284,Quirino,council,municipality,G0026,,pending,,,,,,0203123000
+G0285,Ramon,council,municipality,G0026,,pending,,,,,,0203124000
+G0286,Reina Mercedes,council,municipality,G0026,,pending,,,,,,0203125000
+G0287,Roxas,council,municipality,G0026,,pending,,,,,,0203126000
+G0288,San Agustin,council,municipality,G0026,,pending,,,,,,0203127000
+G0289,San Guillermo,council,municipality,G0026,,pending,,,,,,0203128000
+G0290,San Isidro,council,municipality,G0026,,pending,,,,,,0203129000
+G0291,San Manuel,council,municipality,G0026,,pending,,,,,,0203130000
+G0292,San Mariano,council,municipality,G0026,,pending,,,,,,0203131000
+G0293,San Mateo,council,municipality,G0026,,pending,,,,,,0203132000
+G0294,San Pablo,council,municipality,G0026,,pending,,,,,,0203133000
+G0295,Santa Maria,council,municipality,G0026,,pending,,,,,,0203134000
+G0296,City of Santiago,council,independent_component_city,G0026,,pending,,,,,,0203135000
+G0297,Santo Tomas,council,municipality,G0026,,pending,,,,,,0203136000
+G0298,Tumauini,council,municipality,G0026,,pending,,,,,,0203137000
+G0299,Ambaguio,council,municipality,G0027,,pending,,,,,,0205001000
+G0300,Aritao,council,municipality,G0027,,pending,,,,,,0205002000
+G0301,Bagabag,council,municipality,G0027,,pending,,,,,,0205003000
+G0302,Bambang,council,municipality,G0027,,pending,,,,,,0205004000
+G0303,Bayombong,council,municipality,G0027,,pending,,,,,,0205005000
+G0304,Diadi,council,municipality,G0027,,pending,,,,,,0205006000
+G0305,Dupax del Norte,council,municipality,G0027,,pending,,,,,,0205007000
+G0306,Dupax del Sur,council,municipality,G0027,,pending,,,,,,0205008000
+G0307,Kasibu,council,municipality,G0027,,pending,,,,,,0205009000
+G0308,Kayapa,council,municipality,G0027,,pending,,,,,,0205010000
+G0309,Quezon,council,municipality,G0027,,pending,,,,,,0205011000
+G0310,Santa Fe,council,municipality,G0027,,pending,,,,,,0205012000
+G0311,Solano,council,municipality,G0027,,pending,,,,,,0205013000
+G0312,Villaverde,council,municipality,G0027,,pending,,,,,,0205014000
+G0313,Alfonso Castaneda,council,municipality,G0027,,pending,,,,,,0205015000
+G0314,Aglipay,council,municipality,G0028,,pending,,,,,,0205701000
+G0315,Cabarroguis,council,municipality,G0028,,pending,,,,,,0205702000
+G0316,Diffun,council,municipality,G0028,,pending,,,,,,0205703000
+G0317,Maddela,council,municipality,G0028,,pending,,,,,,0205704000
+G0318,Saguday,council,municipality,G0028,,pending,,,,,,0205705000
+G0319,Nagtipunan,council,municipality,G0028,,pending,,,,,,0205706000
+G0320,Abucay,council,municipality,G0029,,pending,,,,,,0300801000
+G0321,Bagac,council,municipality,G0029,,pending,,,,,,0300802000
+G0322,City of Balanga,council,component_city,G0029,,pending,,,,,,0300803000
+G0323,Dinalupihan,council,municipality,G0029,,pending,,,,,,0300804000
+G0324,Hermosa,council,municipality,G0029,,pending,,,,,,0300805000
+G0325,Limay,council,municipality,G0029,,pending,,,,,,0300806000
+G0326,Mariveles,council,municipality,G0029,,pending,,,,,,0300807000
+G0327,Morong,council,municipality,G0029,,pending,,,,,,0300808000
+G0328,Orani,council,municipality,G0029,,pending,,,,,,0300809000
+G0329,Orion,council,municipality,G0029,,pending,,,,,,0300810000
+G0330,Pilar,council,municipality,G0029,,pending,,,,,,0300811000
+G0331,Samal,council,municipality,G0029,,pending,,,,,,0300812000
+G0332,Angat,council,municipality,G0030,,pending,,,,,,0301401000
+G0333,Balagtas,council,municipality,G0030,,pending,,,,,,0301402000
+G0334,City of Baliwag,council,component_city,G0030,,pending,,,,,,0301403000
+G0335,Bocaue,council,municipality,G0030,,pending,,,,,,0301404000
+G0336,Bulacan,council,municipality,G0030,,pending,,,,,,0301405000
+G0337,Bustos,council,municipality,G0030,,pending,,,,,,0301406000
+G0338,Calumpit,council,municipality,G0030,,pending,,,,,,0301407000
+G0339,Guiguinto,council,municipality,G0030,,pending,,,,,,0301408000
+G0340,Hagonoy,council,municipality,G0030,,pending,,,,,,0301409000
+G0341,City of Malolos,council,component_city,G0030,,pending,,,,,,0301410000
+G0342,Marilao,council,municipality,G0030,,pending,,,,,,0301411000
+G0343,City of Meycauayan,council,component_city,G0030,,pending,,,,,,0301412000
+G0344,Norzagaray,council,municipality,G0030,,pending,,,,,,0301413000
+G0345,Obando,council,municipality,G0030,,pending,,,,,,0301414000
+G0346,Pandi,council,municipality,G0030,,pending,,,,,,0301415000
+G0347,Paombong,council,municipality,G0030,,pending,,,,,,0301416000
+G0348,Plaridel,council,municipality,G0030,,pending,,,,,,0301417000
+G0349,Pulilan,council,municipality,G0030,,pending,,,,,,0301418000
+G0350,San Ildefonso,council,municipality,G0030,,pending,,,,,,0301419000
+G0351,City of San Jose Del Monte,council,component_city,G0030,,pending,,,,,,0301420000
+G0352,San Miguel,council,municipality,G0030,,pending,,,,,,0301421000
+G0353,San Rafael,council,municipality,G0030,,pending,,,,,,0301422000
+G0354,Santa Maria,council,municipality,G0030,,pending,,,,,,0301423000
+G0355,Doña Remedios Trinidad,council,municipality,G0030,,pending,,,,,,0301424000
+G0356,Aliaga,council,municipality,G0031,,pending,,,,,,0304901000
+G0357,Bongabon,council,municipality,G0031,,pending,,,,,,0304902000
+G0358,City of Cabanatuan,council,component_city,G0031,,pending,,,,,,0304903000
+G0359,Cabiao,council,municipality,G0031,,pending,,,,,,0304904000
+G0360,Carranglan,council,municipality,G0031,,pending,,,,,,0304905000
+G0361,Cuyapo,council,municipality,G0031,,pending,,,,,,0304906000
+G0362,Gabaldon,council,municipality,G0031,,pending,,,,,,0304907000
+G0363,City of Gapan,council,component_city,G0031,,pending,,,,,,0304908000
+G0364,General Mamerto Natividad,council,municipality,G0031,,pending,,,,,,0304909000
+G0365,General Tinio,council,municipality,G0031,,pending,,,,,,0304910000
+G0366,Guimba,council,municipality,G0031,,pending,,,,,,0304911000
+G0367,Jaen,council,municipality,G0031,,pending,,,,,,0304912000
+G0368,Laur,council,municipality,G0031,,pending,,,,,,0304913000
+G0369,Licab,council,municipality,G0031,,pending,,,,,,0304914000
+G0370,Llanera,council,municipality,G0031,,pending,,,,,,0304915000
+G0371,Lupao,council,municipality,G0031,,pending,,,,,,0304916000
+G0372,Science City of Muñoz,council,component_city,G0031,,pending,,,,,,0304917000
+G0373,Nampicuan,council,municipality,G0031,,pending,,,,,,0304918000
+G0374,City of Palayan,council,component_city,G0031,,pending,,,,,,0304919000
+G0375,Pantabangan,council,municipality,G0031,,pending,,,,,,0304920000
+G0376,Peñaranda,council,municipality,G0031,,pending,,,,,,0304921000
+G0377,Quezon,council,municipality,G0031,,pending,,,,,,0304922000
+G0378,Rizal,council,municipality,G0031,,pending,,,,,,0304923000
+G0379,San Antonio,council,municipality,G0031,,pending,,,,,,0304924000
+G0380,San Isidro,council,municipality,G0031,,pending,,,,,,0304925000
+G0381,San Jose City,council,component_city,G0031,,pending,,,,,,0304926000
+G0382,San Leonardo,council,municipality,G0031,,pending,,,,,,0304927000
+G0383,Santa Rosa,council,municipality,G0031,,pending,,,,,,0304928000
+G0384,Santo Domingo,council,municipality,G0031,,pending,,,,,,0304929000
+G0385,Talavera,council,municipality,G0031,,pending,,,,,,0304930000
+G0386,Talugtug,council,municipality,G0031,,pending,,,,,,0304931000
+G0387,Zaragoza,council,municipality,G0031,,pending,,,,,,0304932000
+G0388,Apalit,council,municipality,G0032,,pending,,,,,,0305402000
+G0389,Arayat,council,municipality,G0032,,pending,,,,,,0305403000
+G0390,Bacolor,council,municipality,G0032,,pending,,,,,,0305404000
+G0391,Candaba,council,municipality,G0032,,pending,,,,,,0305405000
+G0392,Floridablanca,council,municipality,G0032,,pending,,,,,,0305406000
+G0393,Guagua,council,municipality,G0032,,pending,,,,,,0305407000
+G0394,Lubao,council,municipality,G0032,,pending,,,,,,0305408000
+G0395,Mabalacat City,council,component_city,G0032,,pending,,,,,,0305409000
+G0396,Macabebe,council,municipality,G0032,,pending,,,,,,0305410000
+G0397,Magalang,council,municipality,G0032,,pending,,,,,,0305411000
+G0398,Masantol,council,municipality,G0032,,pending,,,,,,0305412000
+G0399,Mexico,council,municipality,G0032,,pending,,,,,,0305413000
+G0400,Minalin,council,municipality,G0032,,pending,,,,,,0305414000
+G0401,Porac,council,municipality,G0032,,pending,,,,,,0305415000
+G0402,City of San Fernando,council,component_city,G0032,,pending,,,,,,0305416000
+G0403,San Luis,council,municipality,G0032,,pending,,,,,,0305417000
+G0404,San Simon,council,municipality,G0032,,pending,,,,,,0305418000
+G0405,Santa Ana,council,municipality,G0032,,pending,,,,,,0305419000
+G0406,Santa Rita,council,municipality,G0032,,pending,,,,,,0305420000
+G0407,Sto. Tomas,council,municipality,G0032,,pending,,,,,,0305421000
+G0408,Sasmuan,council,municipality,G0032,,pending,,,,,,0305422000
+G0409,Anao,council,municipality,G0033,,pending,,,,,,0306901000
+G0410,Bamban,council,municipality,G0033,,pending,,,,,,0306902000
+G0411,Camiling,council,municipality,G0033,,pending,,,,,,0306903000
+G0412,Capas,council,municipality,G0033,,pending,,,,,,0306904000
+G0413,Concepcion,council,municipality,G0033,,pending,,,,,,0306905000
+G0414,Gerona,council,municipality,G0033,,pending,,,,,,0306906000
+G0415,La Paz,council,municipality,G0033,,pending,,,,,,0306907000
+G0416,Mayantoc,council,municipality,G0033,,pending,,,,,,0306908000
+G0417,Moncada,council,municipality,G0033,,pending,,,,,,0306909000
+G0418,Paniqui,council,municipality,G0033,,pending,,,,,,0306910000
+G0419,Pura,council,municipality,G0033,,pending,,,,,,0306911000
+G0420,Ramos,council,municipality,G0033,,pending,,,,,,0306912000
+G0421,San Clemente,council,municipality,G0033,,pending,,,,,,0306913000
+G0422,San Manuel,council,municipality,G0033,,pending,,,,,,0306914000
+G0423,Santa Ignacia,council,municipality,G0033,,pending,,,,,,0306915000
+G0424,City of Tarlac,council,component_city,G0033,,pending,,,,,,0306916000
+G0425,Victoria,council,municipality,G0033,,pending,,,,,,0306917000
+G0426,San Jose,council,municipality,G0033,,pending,,,,,,0306918000
+G0427,Botolan,council,municipality,G0034,,pending,,,,,,0307101000
+G0428,Cabangan,council,municipality,G0034,,pending,,,,,,0307102000
+G0429,Candelaria,council,municipality,G0034,,pending,,,,,,0307103000
+G0430,Castillejos,council,municipality,G0034,,pending,,,,,,0307104000
+G0431,Iba,council,municipality,G0034,,pending,,,,,,0307105000
+G0432,Masinloc,council,municipality,G0034,,pending,,,,,,0307106000
+G0433,Palauig,council,municipality,G0034,,pending,,,,,,0307108000
+G0434,San Antonio,council,municipality,G0034,,pending,,,,,,0307109000
+G0435,San Felipe,council,municipality,G0034,,pending,,,,,,0307110000
+G0436,San Marcelino,council,municipality,G0034,,pending,,,,,,0307111000
+G0437,San Narciso,council,municipality,G0034,,pending,,,,,,0307112000
+G0438,Santa Cruz,council,municipality,G0034,,pending,,,,,,0307113000
+G0439,Subic,council,municipality,G0034,,pending,,,,,,0307114000
+G0440,Baler,council,municipality,G0035,,pending,,,,,,0307701000
+G0441,Casiguran,council,municipality,G0035,,pending,,,,,,0307702000
+G0442,Dilasag,council,municipality,G0035,,pending,,,,,,0307703000
+G0443,Dinalungan,council,municipality,G0035,,pending,,,,,,0307704000
+G0444,Dingalan,council,municipality,G0035,,pending,,,,,,0307705000
+G0445,Dipaculao,council,municipality,G0035,,pending,,,,,,0307706000
+G0446,Maria Aurora,council,municipality,G0035,,pending,,,,,,0307707000
+G0447,San Luis,council,municipality,G0035,,pending,,,,,,0307708000
+G0448,City of Angeles,council,highly_urbanized_city,G0004,,pending,,,,,,0330100000
+G0449,City of Olongapo,council,highly_urbanized_city,G0004,,pending,,,,,,0331400000
+G0450,Agoncillo,council,municipality,G0036,,pending,,,,,,0401001000
+G0451,Alitagtag,council,municipality,G0036,,pending,,,,,,0401002000
+G0452,Balayan,council,municipality,G0036,,pending,,,,,,0401003000
+G0453,Balete,council,municipality,G0036,,pending,,,,,,0401004000
+G0454,Batangas City,council,component_city,G0036,,pending,,,,,,0401005000
+G0455,Bauan,council,municipality,G0036,,pending,,,,,,0401006000
+G0456,City of Calaca,council,component_city,G0036,,pending,,,,,,0401007000
+G0457,Calatagan,council,municipality,G0036,,pending,,,,,,0401008000
+G0458,Cuenca,council,municipality,G0036,,pending,,,,,,0401009000
+G0459,Ibaan,council,municipality,G0036,,pending,,,,,,0401010000
+G0460,Laurel,council,municipality,G0036,,pending,,,,,,0401011000
+G0461,Lemery,council,municipality,G0036,,pending,,,,,,0401012000
+G0462,Lian,council,municipality,G0036,,pending,,,,,,0401013000
+G0463,City of Lipa,council,component_city,G0036,,pending,,,,,,0401014000
+G0464,Lobo,council,municipality,G0036,,pending,,,,,,0401015000
+G0465,Mabini,council,municipality,G0036,,pending,,,,,,0401016000
+G0466,Malvar,council,municipality,G0036,,pending,,,,,,0401017000
+G0467,Mataasnakahoy,council,municipality,G0036,,pending,,,,,,0401018000
+G0468,Nasugbu,council,municipality,G0036,,pending,,,,,,0401019000
+G0469,Padre Garcia,council,municipality,G0036,,pending,,,,,,0401020000
+G0470,Rosario,council,municipality,G0036,,pending,,,,,,0401021000
+G0471,San Jose,council,municipality,G0036,,pending,,,,,,0401022000
+G0472,San Juan,council,municipality,G0036,,pending,,,,,,0401023000
+G0473,San Luis,council,municipality,G0036,,pending,,,,,,0401024000
+G0474,San Nicolas,council,municipality,G0036,,pending,,,,,,0401025000
+G0475,San Pascual,council,municipality,G0036,,pending,,,,,,0401026000
+G0476,Santa Teresita,council,municipality,G0036,,pending,,,,,,0401027000
+G0477,City of Sto. Tomas,council,component_city,G0036,,pending,,,,,,0401028000
+G0478,Taal,council,municipality,G0036,,pending,,,,,,0401029000
+G0479,Talisay,council,municipality,G0036,,pending,,,,,,0401030000
+G0480,City of Tanauan,council,component_city,G0036,,pending,,,,,,0401031000
+G0481,Taysan,council,municipality,G0036,,pending,,,,,,0401032000
+G0482,Tingloy,council,municipality,G0036,,pending,,,,,,0401033000
+G0483,Tuy,council,municipality,G0036,,pending,,,,,,0401034000
+G0484,Alfonso,council,municipality,G0037,,pending,,,,,,0402101000
+G0485,Amadeo,council,municipality,G0037,,pending,,,,,,0402102000
+G0486,City of Bacoor,council,component_city,G0037,,pending,,,,,,0402103000
+G0487,City of Carmona,council,component_city,G0037,,pending,,,,,,0402104000
+G0488,City of Cavite,council,component_city,G0037,,pending,,,,,,0402105000
+G0489,City of Dasmariñas,council,component_city,G0037,,pending,,,,,,0402106000
+G0490,General Emilio Aguinaldo,council,municipality,G0037,,pending,,,,,,0402107000
+G0491,City of General Trias,council,component_city,G0037,,pending,,,,,,0402108000
+G0492,City of Imus,council,component_city,G0037,,pending,,,,,,0402109000
+G0493,Indang,council,municipality,G0037,,pending,,,,,,0402110000
+G0494,Kawit,council,municipality,G0037,,pending,,,,,,0402111000
+G0495,Magallanes,council,municipality,G0037,,pending,,,,,,0402112000
+G0496,Maragondon,council,municipality,G0037,,pending,,,,,,0402113000
+G0497,Mendez,council,municipality,G0037,,pending,,,,,,0402114000
+G0498,Naic,council,municipality,G0037,,pending,,,,,,0402115000
+G0499,Noveleta,council,municipality,G0037,,pending,,,,,,0402116000
+G0500,Rosario,council,municipality,G0037,,pending,,,,,,0402117000
+G0501,Silang,council,municipality,G0037,,pending,,,,,,0402118000
+G0502,City of Tagaytay,council,component_city,G0037,,pending,,,,,,0402119000
+G0503,Tanza,council,municipality,G0037,,pending,,,,,,0402120000
+G0504,Ternate,council,municipality,G0037,,pending,,,,,,0402121000
+G0505,City of Trece Martires,council,component_city,G0037,,pending,,,,,,0402122000
+G0506,Gen. Mariano Alvarez,council,municipality,G0037,,pending,,,,,,0402123000
+G0507,Alaminos,council,municipality,G0038,,pending,,,,,,0403401000
+G0508,Bay,council,municipality,G0038,,pending,,,,,,0403402000
+G0509,City of Biñan,council,component_city,G0038,,pending,,,,,,0403403000
+G0510,City of Cabuyao,council,component_city,G0038,,pending,,,,,,0403404000
+G0511,City of Calamba,council,component_city,G0038,,pending,,,,,,0403405000
+G0512,Calauan,council,municipality,G0038,,pending,,,,,,0403406000
+G0513,Cavinti,council,municipality,G0038,,pending,,,,,,0403407000
+G0514,Famy,council,municipality,G0038,,pending,,,,,,0403408000
+G0515,Kalayaan,council,municipality,G0038,,pending,,,,,,0403409000
+G0516,Liliw,council,municipality,G0038,,pending,,,,,,0403410000
+G0517,Los Baños,council,municipality,G0038,,pending,,,,,,0403411000
+G0518,Luisiana,council,municipality,G0038,,pending,,,,,,0403412000
+G0519,Lumban,council,municipality,G0038,,pending,,,,,,0403413000
+G0520,Mabitac,council,municipality,G0038,,pending,,,,,,0403414000
+G0521,Magdalena,council,municipality,G0038,,pending,,,,,,0403415000
+G0522,Majayjay,council,municipality,G0038,,pending,,,,,,0403416000
+G0523,Nagcarlan,council,municipality,G0038,,pending,,,,,,0403417000
+G0524,Paete,council,municipality,G0038,,pending,,,,,,0403418000
+G0525,Pagsanjan,council,municipality,G0038,,pending,,,,,,0403419000
+G0526,Pakil,council,municipality,G0038,,pending,,,,,,0403420000
+G0527,Pangil,council,municipality,G0038,,pending,,,,,,0403421000
+G0528,Pila,council,municipality,G0038,,pending,,,,,,0403422000
+G0529,Rizal,council,municipality,G0038,,pending,,,,,,0403423000
+G0530,City of San Pablo,council,component_city,G0038,,pending,,,,,,0403424000
+G0531,City of San Pedro,council,component_city,G0038,,pending,,,,,,0403425000
+G0532,Santa Cruz,council,municipality,G0038,,pending,,,,,,0403426000
+G0533,Santa Maria,council,municipality,G0038,,pending,,,,,,0403427000
+G0534,City of Santa Rosa,council,component_city,G0038,,pending,,,,,,0403428000
+G0535,Siniloan,council,municipality,G0038,,pending,,,,,,0403429000
+G0536,Victoria,council,municipality,G0038,,pending,,,,,,0403430000
+G0537,Agdangan,council,municipality,G0039,,pending,,,,,,0405601000
+G0538,Alabat,council,municipality,G0039,,pending,,,,,,0405602000
+G0539,Atimonan,council,municipality,G0039,,pending,,,,,,0405603000
+G0540,Buenavista,council,municipality,G0039,,pending,,,,,,0405605000
+G0541,Burdeos,council,municipality,G0039,,pending,,,,,,0405606000
+G0542,Calauag,council,municipality,G0039,,pending,,,,,,0405607000
+G0543,Candelaria,council,municipality,G0039,,pending,,,,,,0405608000
+G0544,Catanauan,council,municipality,G0039,,pending,,,,,,0405610000
+G0545,Dolores,council,municipality,G0039,,pending,,,,,,0405615000
+G0546,General Luna,council,municipality,G0039,,pending,,,,,,0405616000
+G0547,General Nakar,council,municipality,G0039,,pending,,,,,,0405617000
+G0548,Guinayangan,council,municipality,G0039,,pending,,,,,,0405618000
+G0549,Gumaca,council,municipality,G0039,,pending,,,,,,0405619000
+G0550,Infanta,council,municipality,G0039,,pending,,,,,,0405620000
+G0551,Jomalig,council,municipality,G0039,,pending,,,,,,0405621000
+G0552,Lopez,council,municipality,G0039,,pending,,,,,,0405622000
+G0553,Lucban,council,municipality,G0039,,pending,,,,,,0405623000
+G0554,Macalelon,council,municipality,G0039,,pending,,,,,,0405625000
+G0555,Mauban,council,municipality,G0039,,pending,,,,,,0405627000
+G0556,Mulanay,council,municipality,G0039,,pending,,,,,,0405628000
+G0557,Padre Burgos,council,municipality,G0039,,pending,,,,,,0405629000
+G0558,Pagbilao,council,municipality,G0039,,pending,,,,,,0405630000
+G0559,Panukulan,council,municipality,G0039,,pending,,,,,,0405631000
+G0560,Patnanungan,council,municipality,G0039,,pending,,,,,,0405632000
+G0561,Perez,council,municipality,G0039,,pending,,,,,,0405633000
+G0562,Pitogo,council,municipality,G0039,,pending,,,,,,0405634000
+G0563,Plaridel,council,municipality,G0039,,pending,,,,,,0405635000
+G0564,Polillo,council,municipality,G0039,,pending,,,,,,0405636000
+G0565,Quezon,council,municipality,G0039,,pending,,,,,,0405637000
+G0566,Real,council,municipality,G0039,,pending,,,,,,0405638000
+G0567,Sampaloc,council,municipality,G0039,,pending,,,,,,0405639000
+G0568,San Andres,council,municipality,G0039,,pending,,,,,,0405640000
+G0569,San Antonio,council,municipality,G0039,,pending,,,,,,0405641000
+G0570,San Francisco,council,municipality,G0039,,pending,,,,,,0405642000
+G0571,San Narciso,council,municipality,G0039,,pending,,,,,,0405644000
+G0572,Sariaya,council,municipality,G0039,,pending,,,,,,0405645000
+G0573,Tagkawayan,council,municipality,G0039,,pending,,,,,,0405646000
+G0574,City of Tayabas,council,component_city,G0039,,pending,,,,,,0405647000
+G0575,Tiaong,council,municipality,G0039,,pending,,,,,,0405648000
+G0576,Unisan,council,municipality,G0039,,pending,,,,,,0405649000
+G0577,Angono,council,municipality,G0040,,pending,,,,,,0405801000
+G0578,City of Antipolo,council,component_city,G0040,,pending,,,,,,0405802000
+G0579,Baras,council,municipality,G0040,,pending,,,,,,0405803000
+G0580,Binangonan,council,municipality,G0040,,pending,,,,,,0405804000
+G0581,Cainta,council,municipality,G0040,,pending,,,,,,0405805000
+G0582,Cardona,council,municipality,G0040,,pending,,,,,,0405806000
+G0583,Jala-Jala,council,municipality,G0040,,pending,,,,,,0405807000
+G0584,Rodriguez,council,municipality,G0040,,pending,,,,,,0405808000
+G0585,Morong,council,municipality,G0040,,pending,,,,,,0405809000
+G0586,Pililla,council,municipality,G0040,,pending,,,,,,0405810000
+G0587,San Mateo,council,municipality,G0040,,pending,,,,,,0405811000
+G0588,Tanay,council,municipality,G0040,,pending,,,,,,0405812000
+G0589,Taytay,council,municipality,G0040,,pending,,,,,,0405813000
+G0590,Teresa,council,municipality,G0040,,pending,,,,,,0405814000
+G0591,City of Lucena,council,highly_urbanized_city,G0005,,pending,,,,,,0431200000
+G0592,Bacacay,council,municipality,G0041,,pending,,,,,,0500501000
+G0593,Camalig,council,municipality,G0041,,pending,,,,,,0500502000
+G0594,Daraga,council,municipality,G0041,,pending,,,,,,0500503000
+G0595,Guinobatan,council,municipality,G0041,,pending,,,,,,0500504000
+G0596,Jovellar,council,municipality,G0041,,pending,,,,,,0500505000
+G0597,City of Legazpi,council,component_city,G0041,,pending,,,,,,0500506000
+G0598,Libon,council,municipality,G0041,,pending,,,,,,0500507000
+G0599,City of Ligao,council,component_city,G0041,,pending,,,,,,0500508000
+G0600,Malilipot,council,municipality,G0041,,pending,,,,,,0500509000
+G0601,Malinao,council,municipality,G0041,,pending,,,,,,0500510000
+G0602,Manito,council,municipality,G0041,,pending,,,,,,0500511000
+G0603,Oas,council,municipality,G0041,,pending,,,,,,0500512000
+G0604,Pio Duran,council,municipality,G0041,,pending,,,,,,0500513000
+G0605,Polangui,council,municipality,G0041,,pending,,,,,,0500514000
+G0606,Rapu-Rapu,council,municipality,G0041,,pending,,,,,,0500515000
+G0607,Santo Domingo,council,municipality,G0041,,pending,,,,,,0500516000
+G0608,City of Tabaco,council,component_city,G0041,,pending,,,,,,0500517000
+G0609,Tiwi,council,municipality,G0041,,pending,,,,,,0500518000
+G0610,Basud,council,municipality,G0042,,pending,,,,,,0501601000
+G0611,Capalonga,council,municipality,G0042,,pending,,,,,,0501602000
+G0612,Daet,council,municipality,G0042,,pending,,,,,,0501603000
+G0613,San Lorenzo Ruiz,council,municipality,G0042,,pending,,,,,,0501604000
+G0614,Jose Panganiban,council,municipality,G0042,,pending,,,,,,0501605000
+G0615,Labo,council,municipality,G0042,,pending,,,,,,0501606000
+G0616,Mercedes,council,municipality,G0042,,pending,,,,,,0501607000
+G0617,Paracale,council,municipality,G0042,,pending,,,,,,0501608000
+G0618,San Vicente,council,municipality,G0042,,pending,,,,,,0501609000
+G0619,Santa Elena,council,municipality,G0042,,pending,,,,,,0501610000
+G0620,Talisay,council,municipality,G0042,,pending,,,,,,0501611000
+G0621,Vinzons,council,municipality,G0042,,pending,,,,,,0501612000
+G0622,Baao,council,municipality,G0043,,pending,,,,,,0501701000
+G0623,Balatan,council,municipality,G0043,,pending,,,,,,0501702000
+G0624,Bato,council,municipality,G0043,,pending,,,,,,0501703000
+G0625,Bombon,council,municipality,G0043,,pending,,,,,,0501704000
+G0626,Buhi,council,municipality,G0043,,pending,,,,,,0501705000
+G0627,Bula,council,municipality,G0043,,pending,,,,,,0501706000
+G0628,Cabusao,council,municipality,G0043,,pending,,,,,,0501707000
+G0629,Calabanga,council,municipality,G0043,,pending,,,,,,0501708000
+G0630,Camaligan,council,municipality,G0043,,pending,,,,,,0501709000
+G0631,Canaman,council,municipality,G0043,,pending,,,,,,0501710000
+G0632,Caramoan,council,municipality,G0043,,pending,,,,,,0501711000
+G0633,Del Gallego,council,municipality,G0043,,pending,,,,,,0501712000
+G0634,Gainza,council,municipality,G0043,,pending,,,,,,0501713000
+G0635,Garchitorena,council,municipality,G0043,,pending,,,,,,0501714000
+G0636,Goa,council,municipality,G0043,,pending,,,,,,0501715000
+G0637,City of Iriga,council,component_city,G0043,,pending,,,,,,0501716000
+G0638,Lagonoy,council,municipality,G0043,,pending,,,,,,0501717000
+G0639,Libmanan,council,municipality,G0043,,pending,,,,,,0501718000
+G0640,Lupi,council,municipality,G0043,,pending,,,,,,0501719000
+G0641,Magarao,council,municipality,G0043,,pending,,,,,,0501720000
+G0642,Milaor,council,municipality,G0043,,pending,,,,,,0501721000
+G0643,Minalabac,council,municipality,G0043,,pending,,,,,,0501722000
+G0644,Nabua,council,municipality,G0043,,pending,,,,,,0501723000
+G0645,City of Naga,council,independent_component_city,G0043,,pending,,,,,,0501724000
+G0646,Ocampo,council,municipality,G0043,,pending,,,,,,0501725000
+G0647,Pamplona,council,municipality,G0043,,pending,,,,,,0501726000
+G0648,Pasacao,council,municipality,G0043,,pending,,,,,,0501727000
+G0649,Pili,council,municipality,G0043,,pending,,,,,,0501728000
+G0650,Presentacion,council,municipality,G0043,,pending,,,,,,0501729000
+G0651,Ragay,council,municipality,G0043,,pending,,,,,,0501730000
+G0652,Sagñay,council,municipality,G0043,,pending,,,,,,0501731000
+G0653,San Fernando,council,municipality,G0043,,pending,,,,,,0501732000
+G0654,San Jose,council,municipality,G0043,,pending,,,,,,0501733000
+G0655,Sipocot,council,municipality,G0043,,pending,,,,,,0501734000
+G0656,Siruma,council,municipality,G0043,,pending,,,,,,0501735000
+G0657,Tigaon,council,municipality,G0043,,pending,,,,,,0501736000
+G0658,Tinambac,council,municipality,G0043,,pending,,,,,,0501737000
+G0659,Bagamanoc,council,municipality,G0044,,pending,,,,,,0502001000
+G0660,Baras,council,municipality,G0044,,pending,,,,,,0502002000
+G0661,Bato,council,municipality,G0044,,pending,,,,,,0502003000
+G0662,Caramoran,council,municipality,G0044,,pending,,,,,,0502004000
+G0663,Gigmoto,council,municipality,G0044,,pending,,,,,,0502005000
+G0664,Pandan,council,municipality,G0044,,pending,,,,,,0502006000
+G0665,Panganiban,council,municipality,G0044,,pending,,,,,,0502007000
+G0666,San Andres,council,municipality,G0044,,pending,,,,,,0502008000
+G0667,San Miguel,council,municipality,G0044,,pending,,,,,,0502009000
+G0668,Viga,council,municipality,G0044,,pending,,,,,,0502010000
+G0669,Virac,council,municipality,G0044,,pending,,,,,,0502011000
+G0670,Aroroy,council,municipality,G0045,,pending,,,,,,0504101000
+G0671,Baleno,council,municipality,G0045,,pending,,,,,,0504102000
+G0672,Balud,council,municipality,G0045,,pending,,,,,,0504103000
+G0673,Batuan,council,municipality,G0045,,pending,,,,,,0504104000
+G0674,Cataingan,council,municipality,G0045,,pending,,,,,,0504105000
+G0675,Cawayan,council,municipality,G0045,,pending,,,,,,0504106000
+G0676,Claveria,council,municipality,G0045,,pending,,,,,,0504107000
+G0677,Dimasalang,council,municipality,G0045,,pending,,,,,,0504108000
+G0678,Esperanza,council,municipality,G0045,,pending,,,,,,0504109000
+G0679,Mandaon,council,municipality,G0045,,pending,,,,,,0504110000
+G0680,City of Masbate,council,component_city,G0045,,pending,,,,,,0504111000
+G0681,Milagros,council,municipality,G0045,,pending,,,,,,0504112000
+G0682,Mobo,council,municipality,G0045,,pending,,,,,,0504113000
+G0683,Monreal,council,municipality,G0045,,pending,,,,,,0504114000
+G0684,Palanas,council,municipality,G0045,,pending,,,,,,0504115000
+G0685,Pio V. Corpus,council,municipality,G0045,,pending,,,,,,0504116000
+G0686,Placer,council,municipality,G0045,,pending,,,,,,0504117000
+G0687,San Fernando,council,municipality,G0045,,pending,,,,,,0504118000
+G0688,San Jacinto,council,municipality,G0045,,pending,,,,,,0504119000
+G0689,San Pascual,council,municipality,G0045,,pending,,,,,,0504120000
+G0690,Uson,council,municipality,G0045,,pending,,,,,,0504121000
+G0691,Barcelona,council,municipality,G0046,,pending,,,,,,0506202000
+G0692,Bulan,council,municipality,G0046,,pending,,,,,,0506203000
+G0693,Bulusan,council,municipality,G0046,,pending,,,,,,0506204000
+G0694,Casiguran,council,municipality,G0046,,pending,,,,,,0506205000
+G0695,Castilla,council,municipality,G0046,,pending,,,,,,0506206000
+G0696,Donsol,council,municipality,G0046,,pending,,,,,,0506207000
+G0697,Gubat,council,municipality,G0046,,pending,,,,,,0506208000
+G0698,Irosin,council,municipality,G0046,,pending,,,,,,0506209000
+G0699,Juban,council,municipality,G0046,,pending,,,,,,0506210000
+G0700,Magallanes,council,municipality,G0046,,pending,,,,,,0506211000
+G0701,Matnog,council,municipality,G0046,,pending,,,,,,0506212000
+G0702,Pilar,council,municipality,G0046,,pending,,,,,,0506213000
+G0703,Prieto Diaz,council,municipality,G0046,,pending,,,,,,0506214000
+G0704,Santa Magdalena,council,municipality,G0046,,pending,,,,,,0506215000
+G0705,City of Sorsogon,council,component_city,G0046,,pending,,,,,,0506216000
+G0706,Altavas,council,municipality,G0047,,pending,,,,,,0600401000
+G0707,Balete,council,municipality,G0047,,pending,,,,,,0600402000
+G0708,Banga,council,municipality,G0047,,pending,,,,,,0600403000
+G0709,Batan,council,municipality,G0047,,pending,,,,,,0600404000
+G0710,Buruanga,council,municipality,G0047,,pending,,,,,,0600405000
+G0711,Ibajay,council,municipality,G0047,,pending,,,,,,0600406000
+G0712,Kalibo,council,municipality,G0047,,pending,,,,,,0600407000
+G0713,Lezo,council,municipality,G0047,,pending,,,,,,0600408000
+G0714,Libacao,council,municipality,G0047,,pending,,,,,,0600409000
+G0715,Madalag,council,municipality,G0047,,pending,,,,,,0600410000
+G0716,Makato,council,municipality,G0047,,pending,,,,,,0600411000
+G0717,Malay,council,municipality,G0047,,pending,,,,,,0600412000
+G0718,Malinao,council,municipality,G0047,,pending,,,,,,0600413000
+G0719,Nabas,council,municipality,G0047,,pending,,,,,,0600414000
+G0720,New Washington,council,municipality,G0047,,pending,,,,,,0600415000
+G0721,Numancia,council,municipality,G0047,,pending,,,,,,0600416000
+G0722,Tangalan,council,municipality,G0047,,pending,,,,,,0600417000
+G0723,Anini-Y,council,municipality,G0048,,pending,,,,,,0600601000
+G0724,Barbaza,council,municipality,G0048,,pending,,,,,,0600602000
+G0725,Belison,council,municipality,G0048,,pending,,,,,,0600603000
+G0726,Bugasong,council,municipality,G0048,,pending,,,,,,0600604000
+G0727,Caluya,council,municipality,G0048,,pending,,,,,,0600605000
+G0728,Culasi,council,municipality,G0048,,pending,,,,,,0600606000
+G0729,Tobias Fornier,council,municipality,G0048,,pending,,,,,,0600607000
+G0730,Hamtic,council,municipality,G0048,,pending,,,,,,0600608000
+G0731,Laua-An,council,municipality,G0048,,pending,,,,,,0600609000
+G0732,Libertad,council,municipality,G0048,,pending,,,,,,0600610000
+G0733,Pandan,council,municipality,G0048,,pending,,,,,,0600611000
+G0734,Patnongon,council,municipality,G0048,,pending,,,,,,0600612000
+G0735,San Jose,council,municipality,G0048,,pending,,,,,,0600613000
+G0736,San Remigio,council,municipality,G0048,,pending,,,,,,0600614000
+G0737,Sebaste,council,municipality,G0048,,pending,,,,,,0600615000
+G0738,Sibalom,council,municipality,G0048,,pending,,,,,,0600616000
+G0739,Tibiao,council,municipality,G0048,,pending,,,,,,0600617000
+G0740,Valderrama,council,municipality,G0048,,pending,,,,,,0600618000
+G0741,Cuartero,council,municipality,G0049,,pending,,,,,,0601901000
+G0742,Dao,council,municipality,G0049,,pending,,,,,,0601902000
+G0743,Dumalag,council,municipality,G0049,,pending,,,,,,0601903000
+G0744,Dumarao,council,municipality,G0049,,pending,,,,,,0601904000
+G0745,Ivisan,council,municipality,G0049,,pending,,,,,,0601905000
+G0746,Jamindan,council,municipality,G0049,,pending,,,,,,0601906000
+G0747,Ma-Ayon,council,municipality,G0049,,pending,,,,,,0601907000
+G0748,Mambusao,council,municipality,G0049,,pending,,,,,,0601908000
+G0749,Panay,council,municipality,G0049,,pending,,,,,,0601909000
+G0750,Panitan,council,municipality,G0049,,pending,,,,,,0601910000
+G0751,Pilar,council,municipality,G0049,,pending,,,,,,0601911000
+G0752,Pontevedra,council,municipality,G0049,,pending,,,,,,0601912000
+G0753,President Roxas,council,municipality,G0049,,pending,,,,,,0601913000
+G0754,City of Roxas,council,component_city,G0049,,pending,,,,,,0601914000
+G0755,Sapi-An,council,municipality,G0049,,pending,,,,,,0601915000
+G0756,Sigma,council,municipality,G0049,,pending,,,,,,0601916000
+G0757,Tapaz,council,municipality,G0049,,pending,,,,,,0601917000
+G0758,Ajuy,council,municipality,G0050,,pending,,,,,,0603001000
+G0759,Alimodian,council,municipality,G0050,,pending,,,,,,0603002000
+G0760,Anilao,council,municipality,G0050,,pending,,,,,,0603003000
+G0761,Badiangan,council,municipality,G0050,,pending,,,,,,0603004000
+G0762,Balasan,council,municipality,G0050,,pending,,,,,,0603005000
+G0763,Banate,council,municipality,G0050,,pending,,,,,,0603006000
+G0764,Barotac Nuevo,council,municipality,G0050,,pending,,,,,,0603007000
+G0765,Barotac Viejo,council,municipality,G0050,,pending,,,,,,0603008000
+G0766,Batad,council,municipality,G0050,,pending,,,,,,0603009000
+G0767,Bingawan,council,municipality,G0050,,pending,,,,,,0603010000
+G0768,Cabatuan,council,municipality,G0050,,pending,,,,,,0603012000
+G0769,Calinog,council,municipality,G0050,,pending,,,,,,0603013000
+G0770,Carles,council,municipality,G0050,,pending,,,,,,0603014000
+G0771,Concepcion,council,municipality,G0050,,pending,,,,,,0603015000
+G0772,Dingle,council,municipality,G0050,,pending,,,,,,0603016000
+G0773,Dueñas,council,municipality,G0050,,pending,,,,,,0603017000
+G0774,Dumangas,council,municipality,G0050,,pending,,,,,,0603018000
+G0775,Estancia,council,municipality,G0050,,pending,,,,,,0603019000
+G0776,Guimbal,council,municipality,G0050,,pending,,,,,,0603020000
+G0777,Igbaras,council,municipality,G0050,,pending,,,,,,0603021000
+G0778,Janiuay,council,municipality,G0050,,pending,,,,,,0603023000
+G0779,Lambunao,council,municipality,G0050,,pending,,,,,,0603025000
+G0780,Leganes,council,municipality,G0050,,pending,,,,,,0603026000
+G0781,Lemery,council,municipality,G0050,,pending,,,,,,0603027000
+G0782,Leon,council,municipality,G0050,,pending,,,,,,0603028000
+G0783,Maasin,council,municipality,G0050,,pending,,,,,,0603029000
+G0784,Miagao,council,municipality,G0050,,pending,,,,,,0603030000
+G0785,Mina,council,municipality,G0050,,pending,,,,,,0603031000
+G0786,New Lucena,council,municipality,G0050,,pending,,,,,,0603032000
+G0787,Oton,council,municipality,G0050,,pending,,,,,,0603034000
+G0788,City of Passi,council,component_city,G0050,,pending,,,,,,0603035000
+G0789,Pavia,council,municipality,G0050,,pending,,,,,,0603036000
+G0790,Pototan,council,municipality,G0050,,pending,,,,,,0603037000
+G0791,San Dionisio,council,municipality,G0050,,pending,,,,,,0603038000
+G0792,San Enrique,council,municipality,G0050,,pending,,,,,,0603039000
+G0793,San Joaquin,council,municipality,G0050,,pending,,,,,,0603040000
+G0794,San Miguel,council,municipality,G0050,,pending,,,,,,0603041000
+G0795,San Rafael,council,municipality,G0050,,pending,,,,,,0603042000
+G0796,Santa Barbara,council,municipality,G0050,,pending,,,,,,0603043000
+G0797,Sara,council,municipality,G0050,,pending,,,,,,0603044000
+G0798,Tigbauan,council,municipality,G0050,,pending,,,,,,0603045000
+G0799,Tubungan,council,municipality,G0050,,pending,,,,,,0603046000
+G0800,Zarraga,council,municipality,G0050,,pending,,,,,,0603047000
+G0801,Buenavista,council,municipality,G0051,,pending,,,,,,0607901000
+G0802,Jordan,council,municipality,G0051,,pending,,,,,,0607902000
+G0803,Nueva Valencia,council,municipality,G0051,,pending,,,,,,0607903000
+G0804,San Lorenzo,council,municipality,G0051,,pending,,,,,,0607904000
+G0805,Sibunag,council,municipality,G0051,,pending,,,,,,0607905000
+G0806,City of Iloilo,council,highly_urbanized_city,G0007,,pending,,,,,,0631000000
+G0807,Alburquerque,council,municipality,G0052,,pending,,,,,,0701201000
+G0808,Alicia,council,municipality,G0052,,pending,,,,,,0701202000
+G0809,Anda,council,municipality,G0052,,pending,,,,,,0701203000
+G0810,Antequera,council,municipality,G0052,,pending,,,,,,0701204000
+G0811,Baclayon,council,municipality,G0052,,pending,,,,,,0701205000
+G0812,Balilihan,council,municipality,G0052,,pending,,,,,,0701206000
+G0813,Batuan,council,municipality,G0052,,pending,,,,,,0701207000
+G0814,Bilar,council,municipality,G0052,,pending,,,,,,0701208000
+G0815,Buenavista,council,municipality,G0052,,pending,,,,,,0701209000
+G0816,Calape,council,municipality,G0052,,pending,,,,,,0701210000
+G0817,Candijay,council,municipality,G0052,,pending,,,,,,0701211000
+G0818,Carmen,council,municipality,G0052,,pending,,,,,,0701212000
+G0819,Catigbian,council,municipality,G0052,,pending,,,,,,0701213000
+G0820,Clarin,council,municipality,G0052,,pending,,,,,,0701214000
+G0821,Corella,council,municipality,G0052,,pending,,,,,,0701215000
+G0822,Cortes,council,municipality,G0052,,pending,,,,,,0701216000
+G0823,Dagohoy,council,municipality,G0052,,pending,,,,,,0701217000
+G0824,Danao,council,municipality,G0052,,pending,,,,,,0701218000
+G0825,Dauis,council,municipality,G0052,,pending,,,,,,0701219000
+G0826,Dimiao,council,municipality,G0052,,pending,,,,,,0701220000
+G0827,Duero,council,municipality,G0052,,pending,,,,,,0701221000
+G0828,Garcia Hernandez,council,municipality,G0052,,pending,,,,,,0701222000
+G0829,Guindulman,council,municipality,G0052,,pending,,,,,,0701223000
+G0830,Inabanga,council,municipality,G0052,,pending,,,,,,0701224000
+G0831,Jagna,council,municipality,G0052,,pending,,,,,,0701225000
+G0832,Getafe,council,municipality,G0052,,pending,,,,,,0701226000
+G0833,Lila,council,municipality,G0052,,pending,,,,,,0701227000
+G0834,Loay,council,municipality,G0052,,pending,,,,,,0701228000
+G0835,Loboc,council,municipality,G0052,,pending,,,,,,0701229000
+G0836,Loon,council,municipality,G0052,,pending,,,,,,0701230000
+G0837,Mabini,council,municipality,G0052,,pending,,,,,,0701231000
+G0838,Maribojoc,council,municipality,G0052,,pending,,,,,,0701232000
+G0839,Panglao,council,municipality,G0052,,pending,,,,,,0701233000
+G0840,Pilar,council,municipality,G0052,,pending,,,,,,0701234000
+G0841,President Carlos P. Garcia,council,municipality,G0052,,pending,,,,,,0701235000
+G0842,Sagbayan,council,municipality,G0052,,pending,,,,,,0701236000
+G0843,San Isidro,council,municipality,G0052,,pending,,,,,,0701237000
+G0844,San Miguel,council,municipality,G0052,,pending,,,,,,0701238000
+G0845,Sevilla,council,municipality,G0052,,pending,,,,,,0701239000
+G0846,Sierra Bullones,council,municipality,G0052,,pending,,,,,,0701240000
+G0847,Sikatuna,council,municipality,G0052,,pending,,,,,,0701241000
+G0848,City of Tagbilaran,council,component_city,G0052,,pending,,,,,,0701242000
+G0849,Talibon,council,municipality,G0052,,pending,,,,,,0701243000
+G0850,Trinidad,council,municipality,G0052,,pending,,,,,,0701244000
+G0851,Tubigon,council,municipality,G0052,,pending,,,,,,0701245000
+G0852,Ubay,council,municipality,G0052,,pending,,,,,,0701246000
+G0853,Valencia,council,municipality,G0052,,pending,,,,,,0701247000
+G0854,Bien Unido,council,municipality,G0052,,pending,,,,,,0701248000
+G0855,Alcantara,council,municipality,G0053,,pending,,,,,,0702201000
+G0856,Alcoy,council,municipality,G0053,,pending,,,,,,0702202000
+G0857,Alegria,council,municipality,G0053,,pending,,,,,,0702203000
+G0858,Aloguinsan,council,municipality,G0053,,pending,,,,,,0702204000
+G0859,Argao,council,municipality,G0053,,pending,,,,,,0702205000
+G0860,Asturias,council,municipality,G0053,,pending,,,,,,0702206000
+G0861,Badian,council,municipality,G0053,,pending,,,,,,0702207000
+G0862,Balamban,council,municipality,G0053,,pending,,,,,,0702208000
+G0863,Bantayan,council,municipality,G0053,,pending,,,,,,0702209000
+G0864,Barili,council,municipality,G0053,,pending,,,,,,0702210000
+G0865,City of Bogo,council,component_city,G0053,,pending,,,,,,0702211000
+G0866,Boljoon,council,municipality,G0053,,pending,,,,,,0702212000
+G0867,Borbon,council,municipality,G0053,,pending,,,,,,0702213000
+G0868,City of Carcar,council,component_city,G0053,,pending,,,,,,0702214000
+G0869,Carmen,council,municipality,G0053,,pending,,,,,,0702215000
+G0870,Catmon,council,municipality,G0053,,pending,,,,,,0702216000
+G0871,Compostela,council,municipality,G0053,,pending,,,,,,0702218000
+G0872,Consolacion,council,municipality,G0053,,pending,,,,,,0702219000
+G0873,Cordova,council,municipality,G0053,,pending,,,,,,0702220000
+G0874,Daanbantayan,council,municipality,G0053,,pending,,,,,,0702221000
+G0875,Dalaguete,council,municipality,G0053,,pending,,,,,,0702222000
+G0876,Danao City,council,component_city,G0053,,pending,,,,,,0702223000
+G0877,Dumanjug,council,municipality,G0053,,pending,,,,,,0702224000
+G0878,Ginatilan,council,municipality,G0053,,pending,,,,,,0702225000
+G0879,Liloan,council,municipality,G0053,,pending,,,,,,0702227000
+G0880,Madridejos,council,municipality,G0053,,pending,,,,,,0702228000
+G0881,Malabuyoc,council,municipality,G0053,,pending,,,,,,0702229000
+G0882,Medellin,council,municipality,G0053,,pending,,,,,,0702231000
+G0883,Minglanilla,council,municipality,G0053,,pending,,,,,,0702232000
+G0884,Moalboal,council,municipality,G0053,,pending,,,,,,0702233000
+G0885,City of Naga,council,component_city,G0053,,pending,,,,,,0702234000
+G0886,Oslob,council,municipality,G0053,,pending,,,,,,0702235000
+G0887,Pilar,council,municipality,G0053,,pending,,,,,,0702236000
+G0888,Pinamungajan,council,municipality,G0053,,pending,,,,,,0702237000
+G0889,Poro,council,municipality,G0053,,pending,,,,,,0702238000
+G0890,Ronda,council,municipality,G0053,,pending,,,,,,0702239000
+G0891,Samboan,council,municipality,G0053,,pending,,,,,,0702240000
+G0892,San Fernando,council,municipality,G0053,,pending,,,,,,0702241000
+G0893,San Francisco,council,municipality,G0053,,pending,,,,,,0702242000
+G0894,San Remigio,council,municipality,G0053,,pending,,,,,,0702243000
+G0895,Santa Fe,council,municipality,G0053,,pending,,,,,,0702244000
+G0896,Santander,council,municipality,G0053,,pending,,,,,,0702245000
+G0897,Sibonga,council,municipality,G0053,,pending,,,,,,0702246000
+G0898,Sogod,council,municipality,G0053,,pending,,,,,,0702247000
+G0899,Tabogon,council,municipality,G0053,,pending,,,,,,0702248000
+G0900,Tabuelan,council,municipality,G0053,,pending,,,,,,0702249000
+G0901,City of Talisay,council,component_city,G0053,,pending,,,,,,0702250000
+G0902,City of Toledo,council,component_city,G0053,,pending,,,,,,0702251000
+G0903,Tuburan,council,municipality,G0053,,pending,,,,,,0702252000
+G0904,Tudela,council,municipality,G0053,,pending,,,,,,0702253000
+G0905,City of Cebu,council,highly_urbanized_city,G0008,,pending,,,,,,0730600000
+G0906,City of Lapu-Lapu,council,highly_urbanized_city,G0008,,pending,,,,,,0731100000
+G0907,City of Mandaue,council,highly_urbanized_city,G0008,,pending,,,,,,0731300000
+G0908,Arteche,council,municipality,G0054,,pending,,,,,,0802601000
+G0909,Balangiga,council,municipality,G0054,,pending,,,,,,0802602000
+G0910,Balangkayan,council,municipality,G0054,,pending,,,,,,0802603000
+G0911,City of Borongan,council,component_city,G0054,,pending,,,,,,0802604000
+G0912,Can-Avid,council,municipality,G0054,,pending,,,,,,0802605000
+G0913,Dolores,council,municipality,G0054,,pending,,,,,,0802606000
+G0914,General Macarthur,council,municipality,G0054,,pending,,,,,,0802607000
+G0915,Giporlos,council,municipality,G0054,,pending,,,,,,0802608000
+G0916,Guiuan,council,municipality,G0054,,pending,,,,,,0802609000
+G0917,Hernani,council,municipality,G0054,,pending,,,,,,0802610000
+G0918,Jipapad,council,municipality,G0054,,pending,,,,,,0802611000
+G0919,Lawaan,council,municipality,G0054,,pending,,,,,,0802612000
+G0920,Llorente,council,municipality,G0054,,pending,,,,,,0802613000
+G0921,Maslog,council,municipality,G0054,,pending,,,,,,0802614000
+G0922,Maydolong,council,municipality,G0054,,pending,,,,,,0802615000
+G0923,Mercedes,council,municipality,G0054,,pending,,,,,,0802616000
+G0924,Oras,council,municipality,G0054,,pending,,,,,,0802617000
+G0925,Quinapondan,council,municipality,G0054,,pending,,,,,,0802618000
+G0926,Salcedo,council,municipality,G0054,,pending,,,,,,0802619000
+G0927,San Julian,council,municipality,G0054,,pending,,,,,,0802620000
+G0928,San Policarpo,council,municipality,G0054,,pending,,,,,,0802621000
+G0929,Sulat,council,municipality,G0054,,pending,,,,,,0802622000
+G0930,Taft,council,municipality,G0054,,pending,,,,,,0802623000
+G0931,Abuyog,council,municipality,G0055,,pending,,,,,,0803701000
+G0932,Alangalang,council,municipality,G0055,,pending,,,,,,0803702000
+G0933,Albuera,council,municipality,G0055,,pending,,,,,,0803703000
+G0934,Babatngon,council,municipality,G0055,,pending,,,,,,0803705000
+G0935,Barugo,council,municipality,G0055,,pending,,,,,,0803706000
+G0936,Bato,council,municipality,G0055,,pending,,,,,,0803707000
+G0937,City of Baybay,council,component_city,G0055,,pending,,,,,,0803708000
+G0938,Burauen,council,municipality,G0055,,pending,,,,,,0803710000
+G0939,Calubian,council,municipality,G0055,,pending,,,,,,0803713000
+G0940,Capoocan,council,municipality,G0055,,pending,,,,,,0803714000
+G0941,Carigara,council,municipality,G0055,,pending,,,,,,0803715000
+G0942,Dagami,council,municipality,G0055,,pending,,,,,,0803717000
+G0943,Dulag,council,municipality,G0055,,pending,,,,,,0803718000
+G0944,Hilongos,council,municipality,G0055,,pending,,,,,,0803719000
+G0945,Hindang,council,municipality,G0055,,pending,,,,,,0803720000
+G0946,Inopacan,council,municipality,G0055,,pending,,,,,,0803721000
+G0947,Isabel,council,municipality,G0055,,pending,,,,,,0803722000
+G0948,Jaro,council,municipality,G0055,,pending,,,,,,0803723000
+G0949,Javier,council,municipality,G0055,,pending,,,,,,0803724000
+G0950,Julita,council,municipality,G0055,,pending,,,,,,0803725000
+G0951,Kananga,council,municipality,G0055,,pending,,,,,,0803726000
+G0952,La Paz,council,municipality,G0055,,pending,,,,,,0803728000
+G0953,Leyte,council,municipality,G0055,,pending,,,,,,0803729000
+G0954,Macarthur,council,municipality,G0055,,pending,,,,,,0803730000
+G0955,Mahaplag,council,municipality,G0055,,pending,,,,,,0803731000
+G0956,Matag-Ob,council,municipality,G0055,,pending,,,,,,0803733000
+G0957,Matalom,council,municipality,G0055,,pending,,,,,,0803734000
+G0958,Mayorga,council,municipality,G0055,,pending,,,,,,0803735000
+G0959,Merida,council,municipality,G0055,,pending,,,,,,0803736000
+G0960,Ormoc City,council,independent_component_city,G0055,,pending,,,,,,0803738000
+G0961,Palo,council,municipality,G0055,,pending,,,,,,0803739000
+G0962,Palompon,council,municipality,G0055,,pending,,,,,,0803740000
+G0963,Pastrana,council,municipality,G0055,,pending,,,,,,0803741000
+G0964,San Isidro,council,municipality,G0055,,pending,,,,,,0803742000
+G0965,San Miguel,council,municipality,G0055,,pending,,,,,,0803743000
+G0966,Santa Fe,council,municipality,G0055,,pending,,,,,,0803744000
+G0967,Tabango,council,municipality,G0055,,pending,,,,,,0803745000
+G0968,Tabontabon,council,municipality,G0055,,pending,,,,,,0803746000
+G0969,Tanauan,council,municipality,G0055,,pending,,,,,,0803748000
+G0970,Tolosa,council,municipality,G0055,,pending,,,,,,0803749000
+G0971,Tunga,council,municipality,G0055,,pending,,,,,,0803750000
+G0972,Villaba,council,municipality,G0055,,pending,,,,,,0803751000
+G0973,Allen,council,municipality,G0056,,pending,,,,,,0804801000
+G0974,Biri,council,municipality,G0056,,pending,,,,,,0804802000
+G0975,Bobon,council,municipality,G0056,,pending,,,,,,0804803000
+G0976,Capul,council,municipality,G0056,,pending,,,,,,0804804000
+G0977,Catarman,council,municipality,G0056,,pending,,,,,,0804805000
+G0978,Catubig,council,municipality,G0056,,pending,,,,,,0804806000
+G0979,Gamay,council,municipality,G0056,,pending,,,,,,0804807000
+G0980,Laoang,council,municipality,G0056,,pending,,,,,,0804808000
+G0981,Lapinig,council,municipality,G0056,,pending,,,,,,0804809000
+G0982,Las Navas,council,municipality,G0056,,pending,,,,,,0804810000
+G0983,Lavezares,council,municipality,G0056,,pending,,,,,,0804811000
+G0984,Mapanas,council,municipality,G0056,,pending,,,,,,0804812000
+G0985,Mondragon,council,municipality,G0056,,pending,,,,,,0804813000
+G0986,Palapag,council,municipality,G0056,,pending,,,,,,0804814000
+G0987,Pambujan,council,municipality,G0056,,pending,,,,,,0804815000
+G0988,Rosario,council,municipality,G0056,,pending,,,,,,0804816000
+G0989,San Antonio,council,municipality,G0056,,pending,,,,,,0804817000
+G0990,San Isidro,council,municipality,G0056,,pending,,,,,,0804818000
+G0991,San Jose,council,municipality,G0056,,pending,,,,,,0804819000
+G0992,San Roque,council,municipality,G0056,,pending,,,,,,0804820000
+G0993,San Vicente,council,municipality,G0056,,pending,,,,,,0804821000
+G0994,Silvino Lobos,council,municipality,G0056,,pending,,,,,,0804822000
+G0995,Victoria,council,municipality,G0056,,pending,,,,,,0804823000
+G0996,Lope De Vega,council,municipality,G0056,,pending,,,,,,0804824000
+G0997,Almagro,council,municipality,G0057,,pending,,,,,,0806001000
+G0998,Basey,council,municipality,G0057,,pending,,,,,,0806002000
+G0999,City of Calbayog,council,component_city,G0057,,pending,,,,,,0806003000
+G1000,Calbiga,council,municipality,G0057,,pending,,,,,,0806004000
+G1001,City of Catbalogan,council,component_city,G0057,,pending,,,,,,0806005000
+G1002,Daram,council,municipality,G0057,,pending,,,,,,0806006000
+G1003,Gandara,council,municipality,G0057,,pending,,,,,,0806007000
+G1004,Hinabangan,council,municipality,G0057,,pending,,,,,,0806008000
+G1005,Jiabong,council,municipality,G0057,,pending,,,,,,0806009000
+G1006,Marabut,council,municipality,G0057,,pending,,,,,,0806010000
+G1007,Matuguinao,council,municipality,G0057,,pending,,,,,,0806011000
+G1008,Motiong,council,municipality,G0057,,pending,,,,,,0806012000
+G1009,Pinabacdao,council,municipality,G0057,,pending,,,,,,0806013000
+G1010,San Jose De Buan,council,municipality,G0057,,pending,,,,,,0806014000
+G1011,San Sebastian,council,municipality,G0057,,pending,,,,,,0806015000
+G1012,Santa Margarita,council,municipality,G0057,,pending,,,,,,0806016000
+G1013,Santa Rita,council,municipality,G0057,,pending,,,,,,0806017000
+G1014,Santo Niño,council,municipality,G0057,,pending,,,,,,0806018000
+G1015,Talalora,council,municipality,G0057,,pending,,,,,,0806019000
+G1016,Tarangnan,council,municipality,G0057,,pending,,,,,,0806020000
+G1017,Villareal,council,municipality,G0057,,pending,,,,,,0806021000
+G1018,Paranas,council,municipality,G0057,,pending,,,,,,0806022000
+G1019,Zumarraga,council,municipality,G0057,,pending,,,,,,0806023000
+G1020,Tagapul-An,council,municipality,G0057,,pending,,,,,,0806024000
+G1021,San Jorge,council,municipality,G0057,,pending,,,,,,0806025000
+G1022,Pagsanghan,council,municipality,G0057,,pending,,,,,,0806026000
+G1023,Anahawan,council,municipality,G0058,,pending,,,,,,0806401000
+G1024,Bontoc,council,municipality,G0058,,pending,,,,,,0806402000
+G1025,Hinunangan,council,municipality,G0058,,pending,,,,,,0806403000
+G1026,Hinundayan,council,municipality,G0058,,pending,,,,,,0806404000
+G1027,Libagon,council,municipality,G0058,,pending,,,,,,0806405000
+G1028,Liloan,council,municipality,G0058,,pending,,,,,,0806406000
+G1029,City of Maasin,council,component_city,G0058,,pending,,,,,,0806407000
+G1030,Macrohon,council,municipality,G0058,,pending,,,,,,0806408000
+G1031,Malitbog,council,municipality,G0058,,pending,,,,,,0806409000
+G1032,Padre Burgos,council,municipality,G0058,,pending,,,,,,0806410000
+G1033,Pintuyan,council,municipality,G0058,,pending,,,,,,0806411000
+G1034,Saint Bernard,council,municipality,G0058,,pending,,,,,,0806412000
+G1035,San Francisco,council,municipality,G0058,,pending,,,,,,0806413000
+G1036,San Juan,council,municipality,G0058,,pending,,,,,,0806414000
+G1037,San Ricardo,council,municipality,G0058,,pending,,,,,,0806415000
+G1038,Silago,council,municipality,G0058,,pending,,,,,,0806416000
+G1039,Sogod,council,municipality,G0058,,pending,,,,,,0806417000
+G1040,Tomas Oppus,council,municipality,G0058,,pending,,,,,,0806418000
+G1041,Limasawa,council,municipality,G0058,,pending,,,,,,0806419000
+G1042,Almeria,council,municipality,G0059,,pending,,,,,,0807801000
+G1043,Biliran,council,municipality,G0059,,pending,,,,,,0807802000
+G1044,Cabucgayan,council,municipality,G0059,,pending,,,,,,0807803000
+G1045,Caibiran,council,municipality,G0059,,pending,,,,,,0807804000
+G1046,Culaba,council,municipality,G0059,,pending,,,,,,0807805000
+G1047,Kawayan,council,municipality,G0059,,pending,,,,,,0807806000
+G1048,Maripipi,council,municipality,G0059,,pending,,,,,,0807807000
+G1049,Naval,council,municipality,G0059,,pending,,,,,,0807808000
+G1050,City of Tacloban,council,highly_urbanized_city,G0009,,pending,,,,,,0831600000
+G1051,Indanan,council,municipality,G0060,,pending,,,,,,0906601000
+G1052,Jolo,council,municipality,G0060,,pending,,,,,,0906602000
+G1053,Kalingalan Caluang,council,municipality,G0060,,pending,,,,,,0906603000
+G1054,Luuk,council,municipality,G0060,,pending,,,,,,0906604000
+G1055,Maimbung,council,municipality,G0060,,pending,,,,,,0906605000
+G1056,Hadji Panglima Tahil,council,municipality,G0060,,pending,,,,,,0906606000
+G1057,Old Panamao,council,municipality,G0060,,pending,,,,,,0906607000
+G1058,Pangutaran,council,municipality,G0060,,pending,,,,,,0906608000
+G1059,Parang,council,municipality,G0060,,pending,,,,,,0906609000
+G1060,Pata,council,municipality,G0060,,pending,,,,,,0906610000
+G1061,Patikul,council,municipality,G0060,,pending,,,,,,0906611000
+G1062,Siasi,council,municipality,G0060,,pending,,,,,,0906612000
+G1063,Talipao,council,municipality,G0060,,pending,,,,,,0906613000
+G1064,Tapul,council,municipality,G0060,,pending,,,,,,0906614000
+G1065,Tongkil,council,municipality,G0060,,pending,,,,,,0906615000
+G1066,Panglima Estino,council,municipality,G0060,,pending,,,,,,0906616000
+G1067,Lugus,council,municipality,G0060,,pending,,,,,,0906617000
+G1068,Pandami,council,municipality,G0060,,pending,,,,,,0906618000
+G1069,Omar,council,municipality,G0060,,pending,,,,,,0906619000
+G1070,City of Dapitan,council,component_city,G0061,,pending,,,,,,0907201000
+G1071,City of Dipolog,council,component_city,G0061,,pending,,,,,,0907202000
+G1072,Katipunan,council,municipality,G0061,,pending,,,,,,0907203000
+G1073,La Libertad,council,municipality,G0061,,pending,,,,,,0907204000
+G1074,Labason,council,municipality,G0061,,pending,,,,,,0907205000
+G1075,Liloy,council,municipality,G0061,,pending,,,,,,0907206000
+G1076,Manukan,council,municipality,G0061,,pending,,,,,,0907207000
+G1077,Mutia,council,municipality,G0061,,pending,,,,,,0907208000
+G1078,Piñan,council,municipality,G0061,,pending,,,,,,0907209000
+G1079,Polanco,council,municipality,G0061,,pending,,,,,,0907210000
+G1080,Pres. Manuel A. Roxas,council,municipality,G0061,,pending,,,,,,0907211000
+G1081,Rizal,council,municipality,G0061,,pending,,,,,,0907212000
+G1082,Salug,council,municipality,G0061,,pending,,,,,,0907213000
+G1083,Sergio Osmeña Sr.,council,municipality,G0061,,pending,,,,,,0907214000
+G1084,Siayan,council,municipality,G0061,,pending,,,,,,0907215000
+G1085,Sibuco,council,municipality,G0061,,pending,,,,,,0907216000
+G1086,Sibutad,council,municipality,G0061,,pending,,,,,,0907217000
+G1087,Sindangan,council,municipality,G0061,,pending,,,,,,0907218000
+G1088,Siocon,council,municipality,G0061,,pending,,,,,,0907219000
+G1089,Sirawai,council,municipality,G0061,,pending,,,,,,0907220000
+G1090,Tampilisan,council,municipality,G0061,,pending,,,,,,0907221000
+G1091,Jose Dalman,council,municipality,G0061,,pending,,,,,,0907222000
+G1092,Gutalac,council,municipality,G0061,,pending,,,,,,0907223000
+G1093,Baliguian,council,municipality,G0061,,pending,,,,,,0907224000
+G1094,Godod,council,municipality,G0061,,pending,,,,,,0907225000
+G1095,Leon T. Postigo,council,municipality,G0061,,pending,,,,,,0907226000
+G1096,Kalawit,council,municipality,G0061,,pending,,,,,,0907227000
+G1097,Aurora,council,municipality,G0062,,pending,,,,,,0907302000
+G1098,Bayog,council,municipality,G0062,,pending,,,,,,0907303000
+G1099,Dimataling,council,municipality,G0062,,pending,,,,,,0907305000
+G1100,Dinas,council,municipality,G0062,,pending,,,,,,0907306000
+G1101,Dumalinao,council,municipality,G0062,,pending,,,,,,0907307000
+G1102,Dumingag,council,municipality,G0062,,pending,,,,,,0907308000
+G1103,Kumalarang,council,municipality,G0062,,pending,,,,,,0907311000
+G1104,Labangan,council,municipality,G0062,,pending,,,,,,0907312000
+G1105,Lapuyan,council,municipality,G0062,,pending,,,,,,0907313000
+G1106,Mahayag,council,municipality,G0062,,pending,,,,,,0907315000
+G1107,Margosatubig,council,municipality,G0062,,pending,,,,,,0907317000
+G1108,Midsalip,council,municipality,G0062,,pending,,,,,,0907318000
+G1109,Molave,council,municipality,G0062,,pending,,,,,,0907319000
+G1110,City of Pagadian,council,component_city,G0062,,pending,,,,,,0907322000
+G1111,Ramon Magsaysay,council,municipality,G0062,,pending,,,,,,0907323000
+G1112,San Miguel,council,municipality,G0062,,pending,,,,,,0907324000
+G1113,San Pablo,council,municipality,G0062,,pending,,,,,,0907325000
+G1114,Tabina,council,municipality,G0062,,pending,,,,,,0907327000
+G1115,Tambulig,council,municipality,G0062,,pending,,,,,,0907328000
+G1116,Tukuran,council,municipality,G0062,,pending,,,,,,0907330000
+G1117,Lakewood,council,municipality,G0062,,pending,,,,,,0907333000
+G1118,Josefina,council,municipality,G0062,,pending,,,,,,0907337000
+G1119,Pitogo,council,municipality,G0062,,pending,,,,,,0907338000
+G1120,Sominot,council,municipality,G0062,,pending,,,,,,0907340000
+G1121,Vincenzo A. Sagun,council,municipality,G0062,,pending,,,,,,0907341000
+G1122,Guipos,council,municipality,G0062,,pending,,,,,,0907343000
+G1123,Tigbao,council,municipality,G0062,,pending,,,,,,0907344000
+G1124,Alicia,council,municipality,G0063,,pending,,,,,,0908301000
+G1125,Buug,council,municipality,G0063,,pending,,,,,,0908302000
+G1126,Diplahan,council,municipality,G0063,,pending,,,,,,0908303000
+G1127,Imelda,council,municipality,G0063,,pending,,,,,,0908304000
+G1128,Ipil,council,municipality,G0063,,pending,,,,,,0908305000
+G1129,Kabasalan,council,municipality,G0063,,pending,,,,,,0908306000
+G1130,Mabuhay,council,municipality,G0063,,pending,,,,,,0908307000
+G1131,Malangas,council,municipality,G0063,,pending,,,,,,0908308000
+G1132,Naga,council,municipality,G0063,,pending,,,,,,0908309000
+G1133,Olutanga,council,municipality,G0063,,pending,,,,,,0908310000
+G1134,Payao,council,municipality,G0063,,pending,,,,,,0908311000
+G1135,Roseller Lim,council,municipality,G0063,,pending,,,,,,0908312000
+G1136,Siay,council,municipality,G0063,,pending,,,,,,0908313000
+G1137,Talusan,council,municipality,G0063,,pending,,,,,,0908314000
+G1138,Titay,council,municipality,G0063,,pending,,,,,,0908315000
+G1139,Tungawan,council,municipality,G0063,,pending,,,,,,0908316000
+G1140,City of Zamboanga,council,highly_urbanized_city,G0010,,pending,,,,,,0931700000
+G1141,City of Isabela,council,component_city,G0010,,pending,,,,,,0990101000
+G1142,Baungon,council,municipality,G0064,,pending,,,,,,1001301000
+G1143,Damulog,council,municipality,G0064,,pending,,,,,,1001302000
+G1144,Dangcagan,council,municipality,G0064,,pending,,,,,,1001303000
+G1145,Don Carlos,council,municipality,G0064,,pending,,,,,,1001304000
+G1146,Impasug-ong,council,municipality,G0064,,pending,,,,,,1001305000
+G1147,Kadingilan,council,municipality,G0064,,pending,,,,,,1001306000
+G1148,Kalilangan,council,municipality,G0064,,pending,,,,,,1001307000
+G1149,Kibawe,council,municipality,G0064,,pending,,,,,,1001308000
+G1150,Kitaotao,council,municipality,G0064,,pending,,,,,,1001309000
+G1151,Lantapan,council,municipality,G0064,,pending,,,,,,1001310000
+G1152,Libona,council,municipality,G0064,,pending,,,,,,1001311000
+G1153,City of Malaybalay,council,component_city,G0064,,pending,,,,,,1001312000
+G1154,Malitbog,council,municipality,G0064,,pending,,,,,,1001313000
+G1155,Manolo Fortich,council,municipality,G0064,,pending,,,,,,1001314000
+G1156,Maramag,council,municipality,G0064,,pending,,,,,,1001315000
+G1157,Pangantucan,council,municipality,G0064,,pending,,,,,,1001316000
+G1158,Quezon,council,municipality,G0064,,pending,,,,,,1001317000
+G1159,San Fernando,council,municipality,G0064,,pending,,,,,,1001318000
+G1160,Sumilao,council,municipality,G0064,,pending,,,,,,1001319000
+G1161,Talakag,council,municipality,G0064,,pending,,,,,,1001320000
+G1162,City of Valencia,council,component_city,G0064,,pending,,,,,,1001321000
+G1163,Cabanglasan,council,municipality,G0064,,pending,,,,,,1001322000
+G1164,Catarman,council,municipality,G0065,,pending,,,,,,1001801000
+G1165,Guinsiliban,council,municipality,G0065,,pending,,,,,,1001802000
+G1166,Mahinog,council,municipality,G0065,,pending,,,,,,1001803000
+G1167,Mambajao,council,municipality,G0065,,pending,,,,,,1001804000
+G1168,Sagay,council,municipality,G0065,,pending,,,,,,1001805000
+G1169,Bacolod,council,municipality,G0066,,pending,,,,,,1003501000
+G1170,Baloi,council,municipality,G0066,,pending,,,,,,1003502000
+G1171,Baroy,council,municipality,G0066,,pending,,,,,,1003503000
+G1172,Kapatagan,council,municipality,G0066,,pending,,,,,,1003505000
+G1173,Sultan Naga Dimaporo,council,municipality,G0066,,pending,,,,,,1003506000
+G1174,Kauswagan,council,municipality,G0066,,pending,,,,,,1003507000
+G1175,Kolambugan,council,municipality,G0066,,pending,,,,,,1003508000
+G1176,Lala,council,municipality,G0066,,pending,,,,,,1003509000
+G1177,Linamon,council,municipality,G0066,,pending,,,,,,1003510000
+G1178,Magsaysay,council,municipality,G0066,,pending,,,,,,1003511000
+G1179,Maigo,council,municipality,G0066,,pending,,,,,,1003512000
+G1180,Matungao,council,municipality,G0066,,pending,,,,,,1003513000
+G1181,Munai,council,municipality,G0066,,pending,,,,,,1003514000
+G1182,Nunungan,council,municipality,G0066,,pending,,,,,,1003515000
+G1183,Pantao Ragat,council,municipality,G0066,,pending,,,,,,1003516000
+G1184,Poona Piagapo,council,municipality,G0066,,pending,,,,,,1003517000
+G1185,Salvador,council,municipality,G0066,,pending,,,,,,1003518000
+G1186,Sapad,council,municipality,G0066,,pending,,,,,,1003519000
+G1187,Tagoloan,council,municipality,G0066,,pending,,,,,,1003520000
+G1188,Tangcal,council,municipality,G0066,,pending,,,,,,1003521000
+G1189,Tubod,council,municipality,G0066,,pending,,,,,,1003522000
+G1190,Pantar,council,municipality,G0066,,pending,,,,,,1003523000
+G1191,Aloran,council,municipality,G0067,,pending,,,,,,1004201000
+G1192,Baliangao,council,municipality,G0067,,pending,,,,,,1004202000
+G1193,Bonifacio,council,municipality,G0067,,pending,,,,,,1004203000
+G1194,Calamba,council,municipality,G0067,,pending,,,,,,1004204000
+G1195,Clarin,council,municipality,G0067,,pending,,,,,,1004205000
+G1196,Concepcion,council,municipality,G0067,,pending,,,,,,1004206000
+G1197,Jimenez,council,municipality,G0067,,pending,,,,,,1004207000
+G1198,Lopez Jaena,council,municipality,G0067,,pending,,,,,,1004208000
+G1199,City of Oroquieta,council,component_city,G0067,,pending,,,,,,1004209000
+G1200,City of Ozamiz,council,component_city,G0067,,pending,,,,,,1004210000
+G1201,Panaon,council,municipality,G0067,,pending,,,,,,1004211000
+G1202,Plaridel,council,municipality,G0067,,pending,,,,,,1004212000
+G1203,Sapang Dalaga,council,municipality,G0067,,pending,,,,,,1004213000
+G1204,Sinacaban,council,municipality,G0067,,pending,,,,,,1004214000
+G1205,City of Tangub,council,component_city,G0067,,pending,,,,,,1004215000
+G1206,Tudela,council,municipality,G0067,,pending,,,,,,1004216000
+G1207,Don Victoriano,council,municipality,G0067,,pending,,,,,,1004217000
+G1208,Alubijid,council,municipality,G0068,,pending,,,,,,1004301000
+G1209,Balingasag,council,municipality,G0068,,pending,,,,,,1004302000
+G1210,Balingoan,council,municipality,G0068,,pending,,,,,,1004303000
+G1211,Binuangan,council,municipality,G0068,,pending,,,,,,1004304000
+G1212,Claveria,council,municipality,G0068,,pending,,,,,,1004306000
+G1213,City of El Salvador,council,component_city,G0068,,pending,,,,,,1004307000
+G1214,City of Gingoog,council,component_city,G0068,,pending,,,,,,1004308000
+G1215,Gitagum,council,municipality,G0068,,pending,,,,,,1004309000
+G1216,Initao,council,municipality,G0068,,pending,,,,,,1004310000
+G1217,Jasaan,council,municipality,G0068,,pending,,,,,,1004311000
+G1218,Kinoguitan,council,municipality,G0068,,pending,,,,,,1004312000
+G1219,Lagonglong,council,municipality,G0068,,pending,,,,,,1004313000
+G1220,Laguindingan,council,municipality,G0068,,pending,,,,,,1004314000
+G1221,Libertad,council,municipality,G0068,,pending,,,,,,1004315000
+G1222,Lugait,council,municipality,G0068,,pending,,,,,,1004316000
+G1223,Magsaysay,council,municipality,G0068,,pending,,,,,,1004317000
+G1224,Manticao,council,municipality,G0068,,pending,,,,,,1004318000
+G1225,Medina,council,municipality,G0068,,pending,,,,,,1004319000
+G1226,Naawan,council,municipality,G0068,,pending,,,,,,1004320000
+G1227,Opol,council,municipality,G0068,,pending,,,,,,1004321000
+G1228,Salay,council,municipality,G0068,,pending,,,,,,1004322000
+G1229,Sugbongcogon,council,municipality,G0068,,pending,,,,,,1004323000
+G1230,Tagoloan,council,municipality,G0068,,pending,,,,,,1004324000
+G1231,Talisayan,council,municipality,G0068,,pending,,,,,,1004325000
+G1232,Villanueva,council,municipality,G0068,,pending,,,,,,1004326000
+G1233,City of Cagayan De Oro,council,highly_urbanized_city,G0011,,pending,,,,,,1030500000
+G1234,City of Iligan,council,highly_urbanized_city,G0011,,pending,,,,,,1030900000
+G1235,Asuncion,council,municipality,G0069,,pending,,,,,,1102301000
+G1236,Carmen,council,municipality,G0069,,pending,,,,,,1102303000
+G1237,Kapalong,council,municipality,G0069,,pending,,,,,,1102305000
+G1238,New Corella,council,municipality,G0069,,pending,,,,,,1102314000
+G1239,City of Panabo,council,component_city,G0069,,pending,,,,,,1102315000
+G1240,Island Garden City of Samal,council,component_city,G0069,,pending,,,,,,1102317000
+G1241,Santo Tomas,council,municipality,G0069,,pending,,,,,,1102318000
+G1242,City of Tagum,council,component_city,G0069,,pending,,,,,,1102319000
+G1243,Talaingod,council,municipality,G0069,,pending,,,,,,1102322000
+G1244,Braulio E. Dujali,council,municipality,G0069,,pending,,,,,,1102323000
+G1245,Sawata,council,municipality,G0069,,pending,,,,,,1102324000
+G1246,Bansalan,council,municipality,G0070,,pending,,,,,,1102401000
+G1247,City of Digos,council,component_city,G0070,,pending,,,,,,1102403000
+G1248,Hagonoy,council,municipality,G0070,,pending,,,,,,1102404000
+G1249,Kiblawan,council,municipality,G0070,,pending,,,,,,1102406000
+G1250,Magsaysay,council,municipality,G0070,,pending,,,,,,1102407000
+G1251,Malalag,council,municipality,G0070,,pending,,,,,,1102408000
+G1252,Matanao,council,municipality,G0070,,pending,,,,,,1102410000
+G1253,Padada,council,municipality,G0070,,pending,,,,,,1102411000
+G1254,Santa Cruz,council,municipality,G0070,,pending,,,,,,1102412000
+G1255,Sulop,council,municipality,G0070,,pending,,,,,,1102414000
+G1256,Baganga,council,municipality,G0071,,pending,,,,,,1102501000
+G1257,Banaybanay,council,municipality,G0071,,pending,,,,,,1102502000
+G1258,Boston,council,municipality,G0071,,pending,,,,,,1102503000
+G1259,Caraga,council,municipality,G0071,,pending,,,,,,1102504000
+G1260,Cateel,council,municipality,G0071,,pending,,,,,,1102505000
+G1261,Governor Generoso,council,municipality,G0071,,pending,,,,,,1102506000
+G1262,Lupon,council,municipality,G0071,,pending,,,,,,1102507000
+G1263,Manay,council,municipality,G0071,,pending,,,,,,1102508000
+G1264,City of Mati,council,component_city,G0071,,pending,,,,,,1102509000
+G1265,San Isidro,council,municipality,G0071,,pending,,,,,,1102510000
+G1266,Tarragona,council,municipality,G0071,,pending,,,,,,1102511000
+G1267,Compostela,council,municipality,G0072,,pending,,,,,,1108201000
+G1268,Laak,council,municipality,G0072,,pending,,,,,,1108202000
+G1269,Mabini,council,municipality,G0072,,pending,,,,,,1108203000
+G1270,Maco,council,municipality,G0072,,pending,,,,,,1108204000
+G1271,Maragusan,council,municipality,G0072,,pending,,,,,,1108205000
+G1272,Mawab,council,municipality,G0072,,pending,,,,,,1108206000
+G1273,Monkayo,council,municipality,G0072,,pending,,,,,,1108207000
+G1274,Montevista,council,municipality,G0072,,pending,,,,,,1108208000
+G1275,Nabunturan,council,municipality,G0072,,pending,,,,,,1108209000
+G1276,New Bataan,council,municipality,G0072,,pending,,,,,,1108210000
+G1277,Pantukan,council,municipality,G0072,,pending,,,,,,1108211000
+G1278,Don Marcelino,council,municipality,G0073,,pending,,,,,,1108601000
+G1279,Jose Abad Santos,council,municipality,G0073,,pending,,,,,,1108602000
+G1280,Malita,council,municipality,G0073,,pending,,,,,,1108603000
+G1281,Santa Maria,council,municipality,G0073,,pending,,,,,,1108604000
+G1282,Sarangani,council,municipality,G0073,,pending,,,,,,1108605000
+G1283,City of Davao,council,highly_urbanized_city,G0012,,pending,,,,,,1130700000
+G1284,Alamada,council,municipality,G0074,,pending,,,,,,1204701000
+G1285,Carmen,council,municipality,G0074,,pending,,,,,,1204702000
+G1286,Kabacan,council,municipality,G0074,,pending,,,,,,1204703000
+G1287,City of Kidapawan,council,component_city,G0074,,pending,,,,,,1204704000
+G1288,Libungan,council,municipality,G0074,,pending,,,,,,1204705000
+G1289,Magpet,council,municipality,G0074,,pending,,,,,,1204706000
+G1290,Makilala,council,municipality,G0074,,pending,,,,,,1204707000
+G1291,Matalam,council,municipality,G0074,,pending,,,,,,1204708000
+G1292,Midsayap,council,municipality,G0074,,pending,,,,,,1204709000
+G1293,M'Lang,council,municipality,G0074,,pending,,,,,,1204710000
+G1294,Pigkawayan,council,municipality,G0074,,pending,,,,,,1204711000
+G1295,Pikit,council,municipality,G0074,,pending,,,,,,1204712000
+G1296,President Roxas,council,municipality,G0074,,pending,,,,,,1204713000
+G1297,Tulunan,council,municipality,G0074,,pending,,,,,,1204714000
+G1298,Antipas,council,municipality,G0074,,pending,,,,,,1204715000
+G1299,Banisilan,council,municipality,G0074,,pending,,,,,,1204716000
+G1300,Aleosan,council,municipality,G0074,,pending,,,,,,1204717000
+G1301,Arakan,council,municipality,G0074,,pending,,,,,,1204718000
+G1302,Banga,council,municipality,G0075,,pending,,,,,,1206302000
+G1303,City of Koronadal,council,component_city,G0075,,pending,,,,,,1206306000
+G1304,Norala,council,municipality,G0075,,pending,,,,,,1206311000
+G1305,Polomolok,council,municipality,G0075,,pending,,,,,,1206312000
+G1306,Surallah,council,municipality,G0075,,pending,,,,,,1206313000
+G1307,Tampakan,council,municipality,G0075,,pending,,,,,,1206314000
+G1308,Tantangan,council,municipality,G0075,,pending,,,,,,1206315000
+G1309,T'Boli,council,municipality,G0075,,pending,,,,,,1206316000
+G1310,Tupi,council,municipality,G0075,,pending,,,,,,1206317000
+G1311,Santo Niño,council,municipality,G0075,,pending,,,,,,1206318000
+G1312,Lake Sebu,council,municipality,G0075,,pending,,,,,,1206319000
+G1313,Bagumbayan,council,municipality,G0076,,pending,,,,,,1206501000
+G1314,Columbio,council,municipality,G0076,,pending,,,,,,1206502000
+G1315,Esperanza,council,municipality,G0076,,pending,,,,,,1206503000
+G1316,Isulan,council,municipality,G0076,,pending,,,,,,1206504000
+G1317,Kalamansig,council,municipality,G0076,,pending,,,,,,1206505000
+G1318,Lebak,council,municipality,G0076,,pending,,,,,,1206506000
+G1319,Lutayan,council,municipality,G0076,,pending,,,,,,1206507000
+G1320,Lambayong,council,municipality,G0076,,pending,,,,,,1206508000
+G1321,Palimbang,council,municipality,G0076,,pending,,,,,,1206509000
+G1322,President Quirino,council,municipality,G0076,,pending,,,,,,1206510000
+G1323,City of Tacurong,council,component_city,G0076,,pending,,,,,,1206511000
+G1324,Sen. Ninoy Aquino,council,municipality,G0076,,pending,,,,,,1206512000
+G1325,Alabel,council,municipality,G0077,,pending,,,,,,1208001000
+G1326,Glan,council,municipality,G0077,,pending,,,,,,1208002000
+G1327,Kiamba,council,municipality,G0077,,pending,,,,,,1208003000
+G1328,Maasim,council,municipality,G0077,,pending,,,,,,1208004000
+G1329,Maitum,council,municipality,G0077,,pending,,,,,,1208005000
+G1330,Malapatan,council,municipality,G0077,,pending,,,,,,1208006000
+G1331,Malungon,council,municipality,G0077,,pending,,,,,,1208007000
+G1332,City of General Santos,council,highly_urbanized_city,G0013,,pending,,,,,,1230800000
+G1333,City of Caloocan,council,highly_urbanized_city,G0014,,pending,,,,,,1380100000
+G1334,City of Las Piñas,council,highly_urbanized_city,G0014,,pending,,,,,,1380200000
+G1335,City of Makati,council,highly_urbanized_city,G0014,,pending,,,,,,1380300000
+G1336,City of Malabon,council,highly_urbanized_city,G0014,,pending,,,,,,1380400000
+G1337,City of Mandaluyong,council,highly_urbanized_city,G0014,,pending,,,,,,1380500000
+G1338,City of Manila,council,highly_urbanized_city,G0014,,pending,,,,,,1380600000
+G1339,City of Marikina,council,highly_urbanized_city,G0014,,pending,,,,,,1380700000
+G1340,City of Muntinlupa,council,highly_urbanized_city,G0014,,pending,,,,,,1380800000
+G1341,City of Navotas,council,highly_urbanized_city,G0014,,pending,,,,,,1380900000
+G1342,City of Parañaque,council,highly_urbanized_city,G0014,,pending,,,,,,1381000000
+G1343,Pasay City,council,highly_urbanized_city,G0014,,pending,,,,,,1381100000
+G1344,City of Pasig,council,highly_urbanized_city,G0014,,pending,,,,,,1381200000
+G1345,Quezon City,council,highly_urbanized_city,G0014,,pending,,,,,,1381300000
+G1346,City of San Juan,council,highly_urbanized_city,G0014,,pending,,,,,,1381400000
+G1347,City of Taguig,council,highly_urbanized_city,G0014,,pending,,,,,,1381500000
+G1348,City of Valenzuela,council,highly_urbanized_city,G0014,,pending,,,,,,1381600000
+G1349,Pateros,council,municipality,G0014,,pending,,,,,,1381701000
+G1350,Bangued,council,municipality,G0078,,pending,,,,,,1400101000
+G1351,Boliney,council,municipality,G0078,,pending,,,,,,1400102000
+G1352,Bucay,council,municipality,G0078,,pending,,,,,,1400103000
+G1353,Bucloc,council,municipality,G0078,,pending,,,,,,1400104000
+G1354,Daguioman,council,municipality,G0078,,pending,,,,,,1400105000
+G1355,Danglas,council,municipality,G0078,,pending,,,,,,1400106000
+G1356,Dolores,council,municipality,G0078,,pending,,,,,,1400107000
+G1357,La Paz,council,municipality,G0078,,pending,,,,,,1400108000
+G1358,Lacub,council,municipality,G0078,,pending,,,,,,1400109000
+G1359,Lagangilang,council,municipality,G0078,,pending,,,,,,1400110000
+G1360,Lagayan,council,municipality,G0078,,pending,,,,,,1400111000
+G1361,Langiden,council,municipality,G0078,,pending,,,,,,1400112000
+G1362,Licuan-Baay,council,municipality,G0078,,pending,,,,,,1400113000
+G1363,Luba,council,municipality,G0078,,pending,,,,,,1400114000
+G1364,Malibcong,council,municipality,G0078,,pending,,,,,,1400115000
+G1365,Manabo,council,municipality,G0078,,pending,,,,,,1400116000
+G1366,Peñarrubia,council,municipality,G0078,,pending,,,,,,1400117000
+G1367,Pidigan,council,municipality,G0078,,pending,,,,,,1400118000
+G1368,Pilar,council,municipality,G0078,,pending,,,,,,1400119000
+G1369,Sallapadan,council,municipality,G0078,,pending,,,,,,1400120000
+G1370,San Isidro,council,municipality,G0078,,pending,,,,,,1400121000
+G1371,San Juan,council,municipality,G0078,,pending,,,,,,1400122000
+G1372,San Quintin,council,municipality,G0078,,pending,,,,,,1400123000
+G1373,Tayum,council,municipality,G0078,,pending,,,,,,1400124000
+G1374,Tineg,council,municipality,G0078,,pending,,,,,,1400125000
+G1375,Tubo,council,municipality,G0078,,pending,,,,,,1400126000
+G1376,Villaviciosa,council,municipality,G0078,,pending,,,,,,1400127000
+G1377,Atok,council,municipality,G0079,,pending,,,,,,1401101000
+G1378,Bakun,council,municipality,G0079,,pending,,,,,,1401103000
+G1379,Bokod,council,municipality,G0079,,pending,,,,,,1401104000
+G1380,Buguias,council,municipality,G0079,,pending,,,,,,1401105000
+G1381,Itogon,council,municipality,G0079,,pending,,,,,,1401106000
+G1382,Kabayan,council,municipality,G0079,,pending,,,,,,1401107000
+G1383,Kapangan,council,municipality,G0079,,pending,,,,,,1401108000
+G1384,Kibungan,council,municipality,G0079,,pending,,,,,,1401109000
+G1385,La Trinidad,council,municipality,G0079,,pending,,,,,,1401110000
+G1386,Mankayan,council,municipality,G0079,,pending,,,,,,1401111000
+G1387,Sablan,council,municipality,G0079,,pending,,,,,,1401112000
+G1388,Tuba,council,municipality,G0079,,pending,,,,,,1401113000
+G1389,Tublay,council,municipality,G0079,,pending,,,,,,1401114000
+G1390,Banaue,council,municipality,G0080,,pending,,,,,,1402701000
+G1391,Hungduan,council,municipality,G0080,,pending,,,,,,1402702000
+G1392,Kiangan,council,municipality,G0080,,pending,,,,,,1402703000
+G1393,Lagawe,council,municipality,G0080,,pending,,,,,,1402704000
+G1394,Lamut,council,municipality,G0080,,pending,,,,,,1402705000
+G1395,Mayoyao,council,municipality,G0080,,pending,,,,,,1402706000
+G1396,Alfonso Lista,council,municipality,G0080,,pending,,,,,,1402707000
+G1397,Aguinaldo,council,municipality,G0080,,pending,,,,,,1402708000
+G1398,Hingyon,council,municipality,G0080,,pending,,,,,,1402709000
+G1399,Tinoc,council,municipality,G0080,,pending,,,,,,1402710000
+G1400,Asipulo,council,municipality,G0080,,pending,,,,,,1402711000
+G1401,Balbalan,council,municipality,G0081,,pending,,,,,,1403201000
+G1402,Lubuagan,council,municipality,G0081,,pending,,,,,,1403206000
+G1403,Pasil,council,municipality,G0081,,pending,,,,,,1403208000
+G1404,Pinukpuk,council,municipality,G0081,,pending,,,,,,1403209000
+G1405,Rizal,council,municipality,G0081,,pending,,,,,,1403211000
+G1406,City of Tabuk,council,component_city,G0081,,pending,,,,,,1403213000
+G1407,Tanudan,council,municipality,G0081,,pending,,,,,,1403214000
+G1408,Tinglayan,council,municipality,G0081,,pending,,,,,,1403215000
+G1409,Barlig,council,municipality,G0082,,pending,,,,,,1404401000
+G1410,Bauko,council,municipality,G0082,,pending,,,,,,1404402000
+G1411,Besao,council,municipality,G0082,,pending,,,,,,1404403000
+G1412,Bontoc,council,municipality,G0082,,pending,,,,,,1404404000
+G1413,Natonin,council,municipality,G0082,,pending,,,,,,1404405000
+G1414,Paracelis,council,municipality,G0082,,pending,,,,,,1404406000
+G1415,Sabangan,council,municipality,G0082,,pending,,,,,,1404407000
+G1416,Sadanga,council,municipality,G0082,,pending,,,,,,1404408000
+G1417,Sagada,council,municipality,G0082,,pending,,,,,,1404409000
+G1418,Tadian,council,municipality,G0082,,pending,,,,,,1404410000
+G1419,Calanasan,council,municipality,G0083,,pending,,,,,,1408101000
+G1420,Conner,council,municipality,G0083,,pending,,,,,,1408102000
+G1421,Flora,council,municipality,G0083,,pending,,,,,,1408103000
+G1422,Kabugao,council,municipality,G0083,,pending,,,,,,1408104000
+G1423,Luna,council,municipality,G0083,,pending,,,,,,1408105000
+G1424,Pudtol,council,municipality,G0083,,pending,,,,,,1408106000
+G1425,Santa Marcela,council,municipality,G0083,,pending,,,,,,1408107000
+G1426,City of Baguio,council,highly_urbanized_city,G0015,,pending,,,,,,1430300000
+G1427,Buenavista,council,municipality,G0084,,pending,,,,,,1600201000
+G1428,City of Cabadbaran,council,component_city,G0084,,pending,,,,,,1600203000
+G1429,Carmen,council,municipality,G0084,,pending,,,,,,1600204000
+G1430,Jabonga,council,municipality,G0084,,pending,,,,,,1600205000
+G1431,Kitcharao,council,municipality,G0084,,pending,,,,,,1600206000
+G1432,Las Nieves,council,municipality,G0084,,pending,,,,,,1600207000
+G1433,Magallanes,council,municipality,G0084,,pending,,,,,,1600208000
+G1434,Nasipit,council,municipality,G0084,,pending,,,,,,1600209000
+G1435,Santiago,council,municipality,G0084,,pending,,,,,,1600210000
+G1436,Tubay,council,municipality,G0084,,pending,,,,,,1600211000
+G1437,Remedios T. Romualdez,council,municipality,G0084,,pending,,,,,,1600212000
+G1438,City of Bayugan,council,component_city,G0085,,pending,,,,,,1600301000
+G1439,Bunawan,council,municipality,G0085,,pending,,,,,,1600302000
+G1440,Esperanza,council,municipality,G0085,,pending,,,,,,1600303000
+G1441,La Paz,council,municipality,G0085,,pending,,,,,,1600304000
+G1442,Loreto,council,municipality,G0085,,pending,,,,,,1600305000
+G1443,Prosperidad,council,municipality,G0085,,pending,,,,,,1600306000
+G1444,Rosario,council,municipality,G0085,,pending,,,,,,1600307000
+G1445,San Francisco,council,municipality,G0085,,pending,,,,,,1600308000
+G1446,San Luis,council,municipality,G0085,,pending,,,,,,1600309000
+G1447,Santa Josefa,council,municipality,G0085,,pending,,,,,,1600310000
+G1448,Talacogon,council,municipality,G0085,,pending,,,,,,1600311000
+G1449,Trento,council,municipality,G0085,,pending,,,,,,1600312000
+G1450,Veruela,council,municipality,G0085,,pending,,,,,,1600313000
+G1451,Sibagat,council,municipality,G0085,,pending,,,,,,1600314000
+G1452,Alegria,council,municipality,G0086,,pending,,,,,,1606701000
+G1453,Bacuag,council,municipality,G0086,,pending,,,,,,1606702000
+G1454,Burgos,council,municipality,G0086,,pending,,,,,,1606704000
+G1455,Claver,council,municipality,G0086,,pending,,,,,,1606706000
+G1456,Dapa,council,municipality,G0086,,pending,,,,,,1606707000
+G1457,Del Carmen,council,municipality,G0086,,pending,,,,,,1606708000
+G1458,General Luna,council,municipality,G0086,,pending,,,,,,1606710000
+G1459,Gigaquit,council,municipality,G0086,,pending,,,,,,1606711000
+G1460,Mainit,council,municipality,G0086,,pending,,,,,,1606714000
+G1461,Malimono,council,municipality,G0086,,pending,,,,,,1606715000
+G1462,Pilar,council,municipality,G0086,,pending,,,,,,1606716000
+G1463,Placer,council,municipality,G0086,,pending,,,,,,1606717000
+G1464,San Benito,council,municipality,G0086,,pending,,,,,,1606718000
+G1465,San Francisco,council,municipality,G0086,,pending,,,,,,1606719000
+G1466,San Isidro,council,municipality,G0086,,pending,,,,,,1606720000
+G1467,Santa Monica,council,municipality,G0086,,pending,,,,,,1606721000
+G1468,Sison,council,municipality,G0086,,pending,,,,,,1606722000
+G1469,Socorro,council,municipality,G0086,,pending,,,,,,1606723000
+G1470,City of Surigao,council,component_city,G0086,,pending,,,,,,1606724000
+G1471,Tagana-An,council,municipality,G0086,,pending,,,,,,1606725000
+G1472,Tubod,council,municipality,G0086,,pending,,,,,,1606727000
+G1473,Barobo,council,municipality,G0087,,pending,,,,,,1606801000
+G1474,Bayabas,council,municipality,G0087,,pending,,,,,,1606802000
+G1475,City of Bislig,council,component_city,G0087,,pending,,,,,,1606803000
+G1476,Cagwait,council,municipality,G0087,,pending,,,,,,1606804000
+G1477,Cantilan,council,municipality,G0087,,pending,,,,,,1606805000
+G1478,Carmen,council,municipality,G0087,,pending,,,,,,1606806000
+G1479,Carrascal,council,municipality,G0087,,pending,,,,,,1606807000
+G1480,Cortes,council,municipality,G0087,,pending,,,,,,1606808000
+G1481,Hinatuan,council,municipality,G0087,,pending,,,,,,1606809000
+G1482,Lanuza,council,municipality,G0087,,pending,,,,,,1606810000
+G1483,Lianga,council,municipality,G0087,,pending,,,,,,1606811000
+G1484,Lingig,council,municipality,G0087,,pending,,,,,,1606812000
+G1485,Madrid,council,municipality,G0087,,pending,,,,,,1606813000
+G1486,Marihatag,council,municipality,G0087,,pending,,,,,,1606814000
+G1487,San Agustin,council,municipality,G0087,,pending,,,,,,1606815000
+G1488,San Miguel,council,municipality,G0087,,pending,,,,,,1606816000
+G1489,Tagbina,council,municipality,G0087,,pending,,,,,,1606817000
+G1490,Tago,council,municipality,G0087,,pending,,,,,,1606818000
+G1491,City of Tandag,council,component_city,G0087,,pending,,,,,,1606819000
+G1492,Basilisa,council,municipality,G0088,,pending,,,,,,1608501000
+G1493,Cagdianao,council,municipality,G0088,,pending,,,,,,1608502000
+G1494,Dinagat,council,municipality,G0088,,pending,,,,,,1608503000
+G1495,Libjo,council,municipality,G0088,,pending,,,,,,1608504000
+G1496,Loreto,council,municipality,G0088,,pending,,,,,,1608505000
+G1497,San Jose,council,municipality,G0088,,pending,,,,,,1608506000
+G1498,Tubajon,council,municipality,G0088,,pending,,,,,,1608507000
+G1499,City of Butuan,council,highly_urbanized_city,G0016,,pending,,,,,,1630400000
+G1500,Boac,council,municipality,G0089,,pending,,,,,,1704001000
+G1501,Buenavista,council,municipality,G0089,,pending,,,,,,1704002000
+G1502,Gasan,council,municipality,G0089,,pending,,,,,,1704003000
+G1503,Mogpog,council,municipality,G0089,,pending,,,,,,1704004000
+G1504,Santa Cruz,council,municipality,G0089,,pending,,,,,,1704005000
+G1505,Torrijos,council,municipality,G0089,,pending,,,,,,1704006000
+G1506,Abra De Ilog,council,municipality,G0090,,pending,,,,,,1705101000
+G1507,Calintaan,council,municipality,G0090,,pending,,,,,,1705102000
+G1508,Looc,council,municipality,G0090,,pending,,,,,,1705103000
+G1509,Lubang,council,municipality,G0090,,pending,,,,,,1705104000
+G1510,Magsaysay,council,municipality,G0090,,pending,,,,,,1705105000
+G1511,Mamburao,council,municipality,G0090,,pending,,,,,,1705106000
+G1512,Paluan,council,municipality,G0090,,pending,,,,,,1705107000
+G1513,Rizal,council,municipality,G0090,,pending,,,,,,1705108000
+G1514,Sablayan,council,municipality,G0090,,pending,,,,,,1705109000
+G1515,San Jose,council,municipality,G0090,,pending,,,,,,1705110000
+G1516,Santa Cruz,council,municipality,G0090,,pending,,,,,,1705111000
+G1517,Baco,council,municipality,G0091,,pending,,,,,,1705201000
+G1518,Bansud,council,municipality,G0091,,pending,,,,,,1705202000
+G1519,Bongabong,council,municipality,G0091,,pending,,,,,,1705203000
+G1520,Bulalacao,council,municipality,G0091,,pending,,,,,,1705204000
+G1521,City of Calapan,council,component_city,G0091,,pending,,,,,,1705205000
+G1522,Gloria,council,municipality,G0091,,pending,,,,,,1705206000
+G1523,Mansalay,council,municipality,G0091,,pending,,,,,,1705207000
+G1524,Naujan,council,municipality,G0091,,pending,,,,,,1705208000
+G1525,Pinamalayan,council,municipality,G0091,,pending,,,,,,1705209000
+G1526,Pola,council,municipality,G0091,,pending,,,,,,1705210000
+G1527,Puerto Galera,council,municipality,G0091,,pending,,,,,,1705211000
+G1528,Roxas,council,municipality,G0091,,pending,,,,,,1705212000
+G1529,San Teodoro,council,municipality,G0091,,pending,,,,,,1705213000
+G1530,Socorro,council,municipality,G0091,,pending,,,,,,1705214000
+G1531,Victoria,council,municipality,G0091,,pending,,,,,,1705215000
+G1532,Aborlan,council,municipality,G0092,,pending,,,,,,1705301000
+G1533,Agutaya,council,municipality,G0092,,pending,,,,,,1705302000
+G1534,Araceli,council,municipality,G0092,,pending,,,,,,1705303000
+G1535,Balabac,council,municipality,G0092,,pending,,,,,,1705304000
+G1536,Bataraza,council,municipality,G0092,,pending,,,,,,1705305000
+G1537,Brooke's Point,council,municipality,G0092,,pending,,,,,,1705306000
+G1538,Busuanga,council,municipality,G0092,,pending,,,,,,1705307000
+G1539,Cagayancillo,council,municipality,G0092,,pending,,,,,,1705308000
+G1540,Coron,council,municipality,G0092,,pending,,,,,,1705309000
+G1541,Cuyo,council,municipality,G0092,,pending,,,,,,1705310000
+G1542,Dumaran,council,municipality,G0092,,pending,,,,,,1705311000
+G1543,El Nido,council,municipality,G0092,,pending,,,,,,1705312000
+G1544,Linapacan,council,municipality,G0092,,pending,,,,,,1705313000
+G1545,Magsaysay,council,municipality,G0092,,pending,,,,,,1705314000
+G1546,Narra,council,municipality,G0092,,pending,,,,,,1705315000
+G1547,Quezon,council,municipality,G0092,,pending,,,,,,1705317000
+G1548,Roxas,council,municipality,G0092,,pending,,,,,,1705318000
+G1549,San Vicente,council,municipality,G0092,,pending,,,,,,1705319000
+G1550,Taytay,council,municipality,G0092,,pending,,,,,,1705320000
+G1551,Kalayaan,council,municipality,G0092,,pending,,,,,,1705321000
+G1552,Culion,council,municipality,G0092,,pending,,,,,,1705322000
+G1553,Dr. Jose P. Rizal,council,municipality,G0092,,pending,,,,,,1705323000
+G1554,Sofronio Española,council,municipality,G0092,,pending,,,,,,1705324000
+G1555,Alcantara,council,municipality,G0093,,pending,,,,,,1705901000
+G1556,Banton,council,municipality,G0093,,pending,,,,,,1705902000
+G1557,Cajidiocan,council,municipality,G0093,,pending,,,,,,1705903000
+G1558,Calatrava,council,municipality,G0093,,pending,,,,,,1705904000
+G1559,Concepcion,council,municipality,G0093,,pending,,,,,,1705905000
+G1560,Corcuera,council,municipality,G0093,,pending,,,,,,1705906000
+G1561,Looc,council,municipality,G0093,,pending,,,,,,1705907000
+G1562,Magdiwang,council,municipality,G0093,,pending,,,,,,1705908000
+G1563,Odiongan,council,municipality,G0093,,pending,,,,,,1705909000
+G1564,Romblon,council,municipality,G0093,,pending,,,,,,1705910000
+G1565,San Agustin,council,municipality,G0093,,pending,,,,,,1705911000
+G1566,San Andres,council,municipality,G0093,,pending,,,,,,1705912000
+G1567,San Fernando,council,municipality,G0093,,pending,,,,,,1705913000
+G1568,San Jose,council,municipality,G0093,,pending,,,,,,1705914000
+G1569,Santa Fe,council,municipality,G0093,,pending,,,,,,1705915000
+G1570,Ferrol,council,municipality,G0093,,pending,,,,,,1705916000
+G1571,Santa Maria,council,municipality,G0093,,pending,,,,,,1705917000
+G1572,City of Puerto Princesa,council,highly_urbanized_city,G0017,,pending,,,,,,1731500000
+G1573,City of Bago,council,component_city,G0094,,pending,,,,,,1804502000
+G1574,Binalbagan,council,municipality,G0094,,pending,,,,,,1804503000
+G1575,City of Cadiz,council,component_city,G0094,,pending,,,,,,1804504000
+G1576,Calatrava,council,municipality,G0094,,pending,,,,,,1804505000
+G1577,Candoni,council,municipality,G0094,,pending,,,,,,1804506000
+G1578,Cauayan,council,municipality,G0094,,pending,,,,,,1804507000
+G1579,Enrique B. Magalona,council,municipality,G0094,,pending,,,,,,1804508000
+G1580,City of Escalante,council,component_city,G0094,,pending,,,,,,1804509000
+G1581,City of Himamaylan,council,component_city,G0094,,pending,,,,,,1804510000
+G1582,Hinigaran,council,municipality,G0094,,pending,,,,,,1804511000
+G1583,Hinoba-an,council,municipality,G0094,,pending,,,,,,1804512000
+G1584,Ilog,council,municipality,G0094,,pending,,,,,,1804513000
+G1585,Isabela,council,municipality,G0094,,pending,,,,,,1804514000
+G1586,City of Kabankalan,council,component_city,G0094,,pending,,,,,,1804515000
+G1587,City of La Carlota,council,component_city,G0094,,pending,,,,,,1804516000
+G1588,La Castellana,council,municipality,G0094,,pending,,,,,,1804517000
+G1589,Manapla,council,municipality,G0094,,pending,,,,,,1804518000
+G1590,Moises Padilla,council,municipality,G0094,,pending,,,,,,1804519000
+G1591,Murcia,council,municipality,G0094,,pending,,,,,,1804520000
+G1592,Pontevedra,council,municipality,G0094,,pending,,,,,,1804521000
+G1593,Pulupandan,council,municipality,G0094,,pending,,,,,,1804522000
+G1594,City of Sagay,council,component_city,G0094,,pending,,,,,,1804523000
+G1595,City of San Carlos,council,component_city,G0094,,pending,,,,,,1804524000
+G1596,San Enrique,council,municipality,G0094,,pending,,,,,,1804525000
+G1597,City of Silay,council,component_city,G0094,,pending,,,,,,1804526000
+G1598,City of Sipalay,council,component_city,G0094,,pending,,,,,,1804527000
+G1599,City of Talisay,council,component_city,G0094,,pending,,,,,,1804528000
+G1600,Toboso,council,municipality,G0094,,pending,,,,,,1804529000
+G1601,Valladolid,council,municipality,G0094,,pending,,,,,,1804530000
+G1602,City of Victorias,council,component_city,G0094,,pending,,,,,,1804531000
+G1603,Salvador Benedicto,council,municipality,G0094,,pending,,,,,,1804532000
+G1604,Amlan,council,municipality,G0095,,pending,,,,,,1804601000
+G1605,Ayungon,council,municipality,G0095,,pending,,,,,,1804602000
+G1606,Bacong,council,municipality,G0095,,pending,,,,,,1804603000
+G1607,City of Bais,council,component_city,G0095,,pending,,,,,,1804604000
+G1608,Basay,council,municipality,G0095,,pending,,,,,,1804605000
+G1609,City of Bayawan,council,component_city,G0095,,pending,,,,,,1804606000
+G1610,Bindoy,council,municipality,G0095,,pending,,,,,,1804607000
+G1611,City of Canlaon,council,component_city,G0095,,pending,,,,,,1804608000
+G1612,Dauin,council,municipality,G0095,,pending,,,,,,1804609000
+G1613,City of Dumaguete,council,component_city,G0095,,pending,,,,,,1804610000
+G1614,City of Guihulngan,council,component_city,G0095,,pending,,,,,,1804611000
+G1615,Jimalalud,council,municipality,G0095,,pending,,,,,,1804612000
+G1616,La Libertad,council,municipality,G0095,,pending,,,,,,1804613000
+G1617,Mabinay,council,municipality,G0095,,pending,,,,,,1804614000
+G1618,Manjuyod,council,municipality,G0095,,pending,,,,,,1804615000
+G1619,Pamplona,council,municipality,G0095,,pending,,,,,,1804616000
+G1620,San Jose,council,municipality,G0095,,pending,,,,,,1804617000
+G1621,Santa Catalina,council,municipality,G0095,,pending,,,,,,1804618000
+G1622,Siaton,council,municipality,G0095,,pending,,,,,,1804619000
+G1623,Sibulan,council,municipality,G0095,,pending,,,,,,1804620000
+G1624,City of Tanjay,council,component_city,G0095,,pending,,,,,,1804621000
+G1625,Tayasan,council,municipality,G0095,,pending,,,,,,1804622000
+G1626,Valencia,council,municipality,G0095,,pending,,,,,,1804623000
+G1627,Vallehermoso,council,municipality,G0095,,pending,,,,,,1804624000
+G1628,Zamboanguita,council,municipality,G0095,,pending,,,,,,1804625000
+G1629,Enrique Villanueva,council,municipality,G0096,,pending,,,,,,1806101000
+G1630,Larena,council,municipality,G0096,,pending,,,,,,1806102000
+G1631,Lazi,council,municipality,G0096,,pending,,,,,,1806103000
+G1632,Maria,council,municipality,G0096,,pending,,,,,,1806104000
+G1633,San Juan,council,municipality,G0096,,pending,,,,,,1806105000
+G1634,Siquijor,council,municipality,G0096,,pending,,,,,,1806106000
+G1635,City of Bacolod,council,highly_urbanized_city,G0018,,pending,,,,,,1830200000
+G1636,City of Lamitan,council,component_city,G0097,,pending,,,,,,1900702000
+G1637,Lantawan,council,municipality,G0097,,pending,,,,,,1900703000
+G1638,Maluso,council,municipality,G0097,,pending,,,,,,1900704000
+G1639,Sumisip,council,municipality,G0097,,pending,,,,,,1900705000
+G1640,Tipo-Tipo,council,municipality,G0097,,pending,,,,,,1900706000
+G1641,Tuburan,council,municipality,G0097,,pending,,,,,,1900707000
+G1642,Akbar,council,municipality,G0097,,pending,,,,,,1900708000
+G1643,Al-Barka,council,municipality,G0097,,pending,,,,,,1900709000
+G1644,Hadji Mohammad Ajul,council,municipality,G0097,,pending,,,,,,1900710000
+G1645,Ungkaya Pukan,council,municipality,G0097,,pending,,,,,,1900711000
+G1646,Hadji Muhtamad,council,municipality,G0097,,pending,,,,,,1900712000
+G1647,Tabuan-Lasa,council,municipality,G0097,,pending,,,,,,1900713000
+G1648,Bacolod-Kalawi,council,municipality,G0098,,pending,,,,,,1903601000
+G1649,Balabagan,council,municipality,G0098,,pending,,,,,,1903602000
+G1650,Balindong,council,municipality,G0098,,pending,,,,,,1903603000
+G1651,Bayang,council,municipality,G0098,,pending,,,,,,1903604000
+G1652,Binidayan,council,municipality,G0098,,pending,,,,,,1903605000
+G1653,Bubong,council,municipality,G0098,,pending,,,,,,1903606000
+G1654,Butig,council,municipality,G0098,,pending,,,,,,1903607000
+G1655,Ganassi,council,municipality,G0098,,pending,,,,,,1903609000
+G1656,Kapai,council,municipality,G0098,,pending,,,,,,1903610000
+G1657,Lumba-Bayabao,council,municipality,G0098,,pending,,,,,,1903611000
+G1658,Lumbatan,council,municipality,G0098,,pending,,,,,,1903612000
+G1659,Madalum,council,municipality,G0098,,pending,,,,,,1903613000
+G1660,Madamba,council,municipality,G0098,,pending,,,,,,1903614000
+G1661,Malabang,council,municipality,G0098,,pending,,,,,,1903615000
+G1662,Marantao,council,municipality,G0098,,pending,,,,,,1903616000
+G1663,City of Marawi,council,component_city,G0098,,pending,,,,,,1903617000
+G1664,Masiu,council,municipality,G0098,,pending,,,,,,1903618000
+G1665,Mulondo,council,municipality,G0098,,pending,,,,,,1903619000
+G1666,Pagayawan,council,municipality,G0098,,pending,,,,,,1903620000
+G1667,Piagapo,council,municipality,G0098,,pending,,,,,,1903621000
+G1668,Poona Bayabao,council,municipality,G0098,,pending,,,,,,1903622000
+G1669,Pualas,council,municipality,G0098,,pending,,,,,,1903623000
+G1670,Ditsaan-Ramain,council,municipality,G0098,,pending,,,,,,1903624000
+G1671,Saguiaran,council,municipality,G0098,,pending,,,,,,1903625000
+G1672,Tamparan,council,municipality,G0098,,pending,,,,,,1903626000
+G1673,Taraka,council,municipality,G0098,,pending,,,,,,1903627000
+G1674,Tubaran,council,municipality,G0098,,pending,,,,,,1903628000
+G1675,Tugaya,council,municipality,G0098,,pending,,,,,,1903629000
+G1676,Wao,council,municipality,G0098,,pending,,,,,,1903630000
+G1677,Marogong,council,municipality,G0098,,pending,,,,,,1903631000
+G1678,Calanogas,council,municipality,G0098,,pending,,,,,,1903632000
+G1679,Buadiposo-Buntong,council,municipality,G0098,,pending,,,,,,1903633000
+G1680,Maguing,council,municipality,G0098,,pending,,,,,,1903634000
+G1681,Picong,council,municipality,G0098,,pending,,,,,,1903635000
+G1682,Lumbayanague,council,municipality,G0098,,pending,,,,,,1903636000
+G1683,Amai Manabilang,council,municipality,G0098,,pending,,,,,,1903637000
+G1684,Tagoloan II,council,municipality,G0098,,pending,,,,,,1903638000
+G1685,Kapatagan,council,municipality,G0098,,pending,,,,,,1903639000
+G1686,Sultan Dumalondong,council,municipality,G0098,,pending,,,,,,1903640000
+G1687,Lumbaca-Unayan,council,municipality,G0098,,pending,,,,,,1903641000
+G1688,Panglima Sugala,council,municipality,G0099,,pending,,,,,,1907001000
+G1689,Bongao,council,municipality,G0099,,pending,,,,,,1907002000
+G1690,Mapun,council,municipality,G0099,,pending,,,,,,1907003000
+G1691,Simunul,council,municipality,G0099,,pending,,,,,,1907004000
+G1692,Sitangkai,council,municipality,G0099,,pending,,,,,,1907005000
+G1693,South Ubian,council,municipality,G0099,,pending,,,,,,1907006000
+G1694,Tandubas,council,municipality,G0099,,pending,,,,,,1907007000
+G1695,Turtle Islands,council,municipality,G0099,,pending,,,,,,1907008000
+G1696,Languyan,council,municipality,G0099,,pending,,,,,,1907009000
+G1697,Sapa-Sapa,council,municipality,G0099,,pending,,,,,,1907010000
+G1698,Sibutu,council,municipality,G0099,,pending,,,,,,1907011000
+G1699,Barira,council,municipality,G0100,,pending,,,,,,1908701000
+G1700,Buldon,council,municipality,G0100,,pending,,,,,,1908702000
+G1701,City of Cotabato,council,independent_component_city,G0100,,pending,,,,,,1908703000
+G1702,Datu Blah T. Sinsuat,council,municipality,G0100,,pending,,,,,,1908704000
+G1703,Datu Odin Sinsuat,council,municipality,G0100,,pending,,,,,,1908705000
+G1704,Kabuntalan,council,municipality,G0100,,pending,,,,,,1908706000
+G1705,Matanog,council,municipality,G0100,,pending,,,,,,1908707000
+G1706,Northern Kabuntalan,council,municipality,G0100,,pending,,,,,,1908708000
+G1707,Parang,council,municipality,G0100,,pending,,,,,,1908709000
+G1708,Sultan Kudarat,council,municipality,G0100,,pending,,,,,,1908710000
+G1709,Sultan Mastura,council,municipality,G0100,,pending,,,,,,1908711000
+G1710,Talitay,council,municipality,G0100,,pending,,,,,,1908712000
+G1711,Upi,council,municipality,G0100,,pending,,,,,,1908713000
+G1712,Ampatuan,council,municipality,G0101,,pending,,,,,,1908801000
+G1713,Buluan,council,municipality,G0101,,pending,,,,,,1908802000
+G1714,Datu Abdullah Sangki,council,municipality,G0101,,pending,,,,,,1908803000
+G1715,Datu Anggal Midtimbang,council,municipality,G0101,,pending,,,,,,1908804000
+G1716,Datu Hoffer Ampatuan,council,municipality,G0101,,pending,,,,,,1908805000
+G1717,Datu Paglas,council,municipality,G0101,,pending,,,,,,1908806000
+G1718,Datu Piang,council,municipality,G0101,,pending,,,,,,1908807000
+G1719,Datu Salibo,council,municipality,G0101,,pending,,,,,,1908808000
+G1720,Datu Saudi Ampatuan,council,municipality,G0101,,pending,,,,,,1908809000
+G1721,Datu Unsay,council,municipality,G0101,,pending,,,,,,1908810000
+G1722,Gen. S.K. Pendatun,council,municipality,G0101,,pending,,,,,,1908811000
+G1723,Guindulungan,council,municipality,G0101,,pending,,,,,,1908812000
+G1724,Mamasapano,council,municipality,G0101,,pending,,,,,,1908813000
+G1725,Mangudadatu,council,municipality,G0101,,pending,,,,,,1908814000
+G1726,Pagagawan,council,municipality,G0101,,pending,,,,,,1908815000
+G1727,Pagalungan,council,municipality,G0101,,pending,,,,,,1908816000
+G1728,Paglat,council,municipality,G0101,,pending,,,,,,1908817000
+G1729,Pandag,council,municipality,G0101,,pending,,,,,,1908818000
+G1730,Rajah Buayan,council,municipality,G0101,,pending,,,,,,1908819000
+G1731,Shariff Aguak,council,municipality,G0101,,pending,,,,,,1908820000
+G1732,Shariff Saydona Mustapha,council,municipality,G0101,,pending,,,,,,1908821000
+G1733,South Upi,council,municipality,G0101,,pending,,,,,,1908822000
+G1734,Sultan Sa Barongis,council,municipality,G0101,,pending,,,,,,1908823000
+G1735,Talayan,council,municipality,G0101,,pending,,,,,,1908824000
+G1736,Kapalawan,council,municipality,G0019,,pending,,,,,,1999901000
+G1737,Old Kaabakan,council,municipality,G0019,,pending,,,,,,1999902000
+G1738,Kadayangan,council,municipality,G0019,,pending,,,,,,1999903000
+G1739,Nabalawag,council,municipality,G0019,,pending,,,,,,1999904000
+G1740,Pahamuddin,council,municipality,G0019,,pending,,,,,,1999905000
+G1741,Malidegao,council,municipality,G0019,,pending,,,,,,1999906000
+G1742,Ligawasan,council,municipality,G0019,,pending,,,,,,1999907000
+G1743,Tugunan,council,municipality,G0019,,pending,,,,,,1999908000

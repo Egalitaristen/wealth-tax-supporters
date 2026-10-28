@@ -1,0 +1,4 @@
+body_id,name,level,kind,seats,as_of,source_url,seat_view,notes
+B0001,House of Representatives,national,chamber,,,https://www.congress.gov.ph/,,
+B0002,Presidential and vice-presidential election,national,other,,,,,"Presidential candidacy, not a chamber."
+B0003,Senate election,national,other,,,,,"Senate candidacy, not a chamber."

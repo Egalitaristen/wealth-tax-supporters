@@ -1,0 +1,20 @@
+position_id,actor_id,body_id,role,party,geo_unit_id,start,end,current,member_ref,checked,source_url
+O00001,A0001,B0001,Representative,ACT Teachers,,2025,,,,,https://docs.congress.hrep.online/legisdocs/basic_20/HB08123.pdf
+O00002,A0002,B0001,Representative,Gabriela Women’s Party,,2025,,,,,https://docs.congress.hrep.online/legisdocs/basic_20/HB08123.pdf
+O00003,A0003,B0001,Representative,Kabataan,,2025,,,,,https://docs.congress.hrep.online/legisdocs/basic_20/HB08123.pdf
+O00004,A0004,B0001,Representative,ML Party-list,,2025,,,,,https://docs.congress.hrep.online/legisdocs/basic_20/HB09274.pdf
+O00005,A0008,B0001,Representative,Akbayan,,2025,,,,,https://docs.congress.hrep.online/legisdocs/basic_20/HB04304.pdf
+O00006,A0009,B0001,Representative,Liberal Party,G0088,2025,,,,,https://docs.congress.hrep.online/legisdocs/basic_20/HB04304.pdf
+O00007,A0010,B0001,Representative,Akbayan,,2025,,,,,https://docs.congress.hrep.online/legisdocs/basic_20/HB04304.pdf
+O00008,A0011,B0001,Representative,Akbayan,,2025,,,,,https://docs.congress.hrep.online/legisdocs/basic_20/HB04304.pdf
+O00009,A0012,B0001,Representative,TUCP,,2025,,,,,https://docs.congress.hrep.online/legisdocs/basic_20/HB08860.pdf
+O00010,A0020,B0001,Representative,Bayan Muna,,2019,2022-06-30,n,,2026-10-28,https://docs.congress.hrep.online/legisdocs/basic_18/HB10253.pdf
+O00011,A0021,B0001,Representative,Bayan Muna,,2013,2022-06-30,n,,2026-10-28,https://docs.congress.hrep.online/legisdocs/basic_18/HB10253.pdf
+O00012,A0022,B0001,Representative,Bayan Muna,,2019,2022-06-30,n,,2026-10-28,https://docs.congress.hrep.online/legisdocs/basic_18/HB10253.pdf
+O00013,A0023,B0001,Representative,ACT Teachers,,2016,2025-06-30,n,,2026-10-28,https://docs.congress.hrep.online/legisdocs/basic_18/HB10253.pdf
+O00014,A0024,B0001,Representative,Gabriela Women’s Party,,2016,2025-06-30,n,,2026-10-28,https://docs.congress.hrep.online/legisdocs/basic_18/HB10253.pdf
+O00015,A0025,B0002,Presidential candidate,Partido Lakas ng Masa,,2022,2022,n,,2026-10-28,https://www.ibon.org/wp-content/uploads/2022/02/btys22-220204.pdf
+O00016,A0030,B0002,Vice-presidential candidate,Partido Lakas ng Masa,,2022,2022,n,,2026-10-28,https://news.tv5.com.ph/national/read/bilang-pilipino-bello-refutes-concerns-20-wealth-tax-will-cause-capital-flight
+O00017,A0034,B0001,Former representative,Bayan Muna,,2004,2013,n,,2026-10-28,https://bayanmuna.com.ph/history/
+O00018,A0038,B0003,Senate candidate,Partido Lakas ng Masa,,2022,2022,n,,2026-10-28,https://www.gmanetwork.com/news/topstories/nation/821215/leody-s-senate-bet-says-trapos-cause-of-poverty-in-philippines/story/
+O00019,A0030,B0001,Former representative,Akbayan,,2009,2015-03-19,n,,2026-10-28,https://www.binghamton.edu/sociology/docs/cv/waldenbello.cv.pdf
