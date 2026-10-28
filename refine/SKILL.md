@@ -1,11 +1,11 @@
 ---
 name: wealth-tax-supporters-refine
-description: Refine the supporters already in one country's register of the Wealth Tax Supporters database. For each supporter, in order: add their official website and public social accounts, place them as precisely as public sources allow, add up to three more sourced statements (stronger grades and recent ones first), and check that their support is still current. Use when asked to refine, enrich, deepen, update or improve an existing country, or to add links, locations or more sources for its supporters.
+description: Refine the supporters already in one country's register of the Wealth Tax Supporters database. For each supporter, in order: add their official website and public social accounts, place them as precisely as public sources allow, add up to three more sourced statements (stronger grades and recent ones first), and check that their support is still current. Also covers the seat sweep: searching the name of every sitting member of a country's parliament, party by party, for support not yet logged. Use when asked to refine, enrich, deepen, update or improve an existing country, to add links, locations or more sources for its supporters, or to sweep its parliament for missed supporters.
 ---
 
 # Refine a country's supporters
 
-The research skill (`skill/SKILL.md`) finds supporters. This skill makes each entry better: easier to reach, better placed, better sourced and still true. It works on supporters who are already in `data/<iso2>/`; it does not look for new ones (that is a research run).
+The research skill (`skill/SKILL.md`) finds supporters. This skill makes each entry better: easier to reach, better placed, better sourced and still true. It works on supporters who are already in `data/<iso2>/`; it does not look for new ones (that is a research run), with one exception: the seat sweep in section 6, where the parliament's own member list is what supplies the names.
 
 **The rules of `skill/SKILL.md` apply unchanged**: what counts as a wealth tax (section 2), the grades (3), who may be recorded (1 and 4), the file formats and controlled values (5). Read sections 1 to 5 before the first run. This file only adds the refinement workflow.
 
@@ -96,6 +96,18 @@ Update `role`, `party` and `status` (`former_role` when they no longer hold the 
 - **Rewriting history.** Never edit or delete an existing evidence row because a newer one exists; add the new one. Remove a row only when its quote is not on its page.
 - **Notes that narrate the work.** ("Checked X, nothing found.") That goes in the run log; `notes` are shown to readers.
 - **New supporters.** Someone you meet who is not in the register is a lead for a research run: list them in the run log or `harvest.csv` instead of adding them here.
+
+## 6. Seat sweep: look for support among the sitting members
+
+The member list of a parliament is a complete list of candidates, which a research run does not have. A sweep takes each sitting member who is not in the register and searches their name for a wealth-tax statement or vote, so politicians who back the tax quietly (a speech, a co-signed bill, one line in an interview) are found. Do it for countries with a Seats tab (an adapter in `seats.py`), after a refinement pass or when asked.
+
+1. **Make the batch.** `python skill/scripts/seat_sweep.py data/<iso2> --n 40 --out sweep_batch.csv` reads the chambers' own lists, leaves out everyone already an actor, in `exclusions.csv` or swept before, and orders the parties by how much support is already logged in them (supporters who sit for the party today, then their share of its seats). Start at the top: parties with logged supporters are where more are most likely. `--party NAME` limits it to one party. Keep the batch file outside the repository.
+2. **Search each name**, a few tool calls at most, in the country's language: the name together with the local words for a wealth tax (the terms in `queries.csv` from the discover step), and the name with the parliament's record where it can be searched (bills they sponsored, motions they signed, speeches). Take what the sources readily give and move on.
+3. **What counts** is the same as everywhere (`skill/SKILL.md` sections 2 to 4). A member needs **their own** evidence: a vote on the wealth tax itself, a bill or motion they sponsored or signed, their own speech, article or post, an interview in which they say it. Their party's platform, a coalition statement or being on the same list as a supporter is not evidence for them; it is a reason to look. Quote verbatim and grade each row.
+4. **Add the supporters you find** as in a research run (`wtdb.py add`), with their `positions.csv` row; then run `python skill/scripts/seats.py data/<iso2>` so the seat lights up, and read what it prints. Someone who turns out to oppose a wealth tax is not recorded (supporters only); a near-miss that could come up again goes in `exclusions.csv` with the reason.
+5. **Log every name you searched**, found or not, as a row in `queries.csv`: `channel=seat_sweep`, `query` the name and the term used, `results_opened`, `leads_added`. The next sweep skips them, so a run that finds nothing still moves the queue on. Never write "checked, nothing found" in an actor's `notes`.
+6. **Stop a party** when about thirty names in a row bring nothing, and say so in `notes_next`; go on to the next party. A sweep that finds nothing for a party is a result, and it is not evidence that the members oppose the tax.
+7. **End the run** as in section 4. In `runs.csv` use `focus` = `seat sweep: <party>, <n> names`, and report from the files: names searched, supporters added by party and grade, and the parties still to sweep.
 
 ## Resources pass (polls, papers, reports and bills)
 
