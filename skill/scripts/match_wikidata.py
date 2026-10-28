@@ -24,7 +24,7 @@ UA = {"User-Agent": "wealth-tax-supporters/0.1 (https://github.com/Egalitaristen
 COUNTRY = {"BE": ("Q31", ["nl", "fr", "de", "en"]), "BR": ("Q155", ["pt", "en"]), "CA": ("Q16", ["en", "fr"]),
            "CN": ("Q148", ["zh", "en"]), "DE": ("Q183", ["de", "en"]), "ES": ("Q29", ["es", "ca", "eu", "gl", "en"]),
            "FR": ("Q142", ["fr", "en"]), "GB": ("Q145", ["en"]), "ID": ("Q252", ["id", "en"]), "IN": ("Q668", ["en", "hi"]),
-           "JP": ("Q17", ["ja", "en"]), "MY": ("Q833", ["ms", "en"]), "NG": ("Q1033", ["en"]), "NL": ("Q55", ["nl", "en"]),
+           "JP": ("Q17", ["ja", "en"]), "MX": ("Q96", ["es", "en"]), "MY": ("Q833", ["ms", "en"]), "NG": ("Q1033", ["en"]), "NL": ("Q55", ["nl", "en"]),
            "NO": ("Q20", ["nb", "nn", "en"]), "PL": ("Q36", ["pl", "en"]), "SE": ("Q34", ["sv", "en"]),
            "SG": ("Q334", ["en", "zh"]), "US": ("Q30", ["en"])}
 
