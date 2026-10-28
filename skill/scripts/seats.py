@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 """Refresh a country's legislature seats from the parliament's own open member list.
 
-Usage: python skill/scripts/seats.py data/<iso2> [--adapter NAME] [--dry-run] [--fix-status] [--local URL=FILE]      (iso2 = ar, se, de, nl, no, fr, br, ca, es, pl, be, in, jp, my, sg, id, ng, cn, nz, za; un for the UN General Assembly; au for the Pan-African Parliament)
+Usage: python skill/scripts/seats.py data/<iso2> [--adapter NAME] [--dry-run] [--fix-status] [--local URL=FILE]      (iso2 = ar, fi, se, de, nl, no, fr, br, ca, es, pl, be, in, jp, my, sg, id, ng, cn, nz, za; un for the UN General Assembly; au for the Pan-African Parliament)
 
 For the UK and the US use seats_uk.py and seats_us.py (richer sources). This script holds one small adapter per
 country (the ADAPTERS table at the end): each reads the parliament's open data and returns its chambers, the sitting
@@ -973,6 +973,33 @@ def argentina():
             chamber("Senado de la Nación", 72, senators, "National senator", r"(?i)senador|senator", "72 seats, three per province and three for the City of Buenos Aires, renewed by thirds every two years." + tail, sen_url)]
 
 
+def finland():
+    """The Eduskunta (200 seats): the seating plan of the plenary hall on avoindata.eduskunta.fi (SeatingOfParliament), one row per seat with the
+    member's party group. It lists the sitting members only (ministers included, as in Finland they keep their seat; a substitute for a member on
+    leave is not a separate row). The legacy MemberOfParliament table is not used: its current-term fields are stale."""
+    PARTY = {"kok": "National Coalition Party", "ps": "Finns Party", "sd": "Social Democratic Party", "kesk": "Centre Party", "vihr": "Green League",
+             "vas": "Left Alliance", "r": "Swedish People's Party", "kd": "Christian Democrats", "liik": "Movement Now", "tv": "Vornanen (own group)"}
+    colours = {"National Coalition Party": "0b4a9b", "Finns Party": "ffd400", "Social Democratic Party": "e11931", "Centre Party": "01954b",
+               "Green League": "61bf1a", "Left Alliance": "bf1e2e", "Swedish People's Party": "ffdd93", "Christian Democrats": "2b6cb0",
+               "Movement Now": "8a8680", "Vornanen (own group)": "8a8680"}
+    rows = []
+    for page in range(5):
+        d = get(f"https://avoindata.eduskunta.fi/api/v1/tables/SeatingOfParliament/rows?perPage=100&page={page}")
+        rows += d.get("rowData", [])
+        if not d.get("hasMore"):
+            break
+    if len(rows) != 200:
+        sys.exit(f"Finland: read {len(rows)} seats, expected 200; the table has changed, check the adapter")
+    members = [dict(name=f"{r[3]} {r[2]}".strip(), party=PARTY.get(r[4], r[4]), ref=r[0], place="", start="",
+                    url="https://www.eduskunta.fi/FI/kansanedustajat/Sivut/" + r[0] + ".aspx") for r in rows]
+    order = ["National Coalition Party", "Finns Party", "Social Democratic Party", "Centre Party", "Green League", "Left Alliance",
+             "Swedish People's Party", "Christian Democrats", "Movement Now", "Vornanen (own group)"]
+    return [dict(name="Parliament of Finland (Eduskunta)", level="national", seats=200, source_url="https://avoindata.eduskunta.fi/api/v1/tables/SeatingOfParliament/rows",
+                 note="200 seats, elected in April 2023 by proportional representation in 13 districts. Who sits and their group are from the plenary seating plan in the Parliament's open data (ministers keep their seat). Unlit seats mean nothing found, never opposition.",
+                 role="Member of Parliament", role_re=r"(?i)member of parliament|eduskunta|cosponsor|motion signatory|wealth-tax advocate|\bMP\b",
+                 role_start=r"(?i)member of parliament", members=members, former=[], party_order=order, colours=colours)]
+
+
 def european_parliament():
     """The European Parliament (720 seats): data.europarl.europa.eu open data (sitting MEPs, their country and political group).
     Run `seats.py data/eu`: supporters are matched across every country register, by the MEP's own country."""
@@ -1137,7 +1164,7 @@ def scottish_parliament():
 
 
 
-ADAPTERS = {"nz": new_zealand, "se": sweden, "de": germany, "nl": netherlands, "no": norway, "fr": france, "br": brazil, "ca": canada, "es": spain, "pl": poland, "be": belgium, "in": india, "jp": japan, "my": malaysia, "sg": singapore, "id": indonesia, "ng": nigeria, "cn": china, "scottish_parliament": scottish_parliament, "european_parliament": european_parliament, "eu": european_parliament, "un": united_nations, "au": pan_african_parliament, "za": south_africa, "ie": ireland, "it": italy, "mx": mexico, "ar": argentina}
+ADAPTERS = {"nz": new_zealand, "se": sweden, "de": germany, "nl": netherlands, "no": norway, "fr": france, "br": brazil, "ca": canada, "es": spain, "pl": poland, "be": belgium, "in": india, "jp": japan, "my": malaysia, "sg": singapore, "id": indonesia, "ng": nigeria, "cn": china, "scottish_parliament": scottish_parliament, "european_parliament": european_parliament, "eu": european_parliament, "un": united_nations, "au": pan_african_parliament, "za": south_africa, "ie": ireland, "it": italy, "mx": mexico, "ar": argentina, "fi": finland}
 
 
 def main():
