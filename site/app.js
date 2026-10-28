@@ -1358,36 +1358,100 @@ function aboutPage(W) {
   </div>`;
 }
 
+const DES_NOTE = {
+  annual_net_wealth: 'a yearly tax on net assets above a threshold',
+  one_off_levy: 'a single charge on net wealth',
+  billionaire_minimum: 'a minimum tax, as a share of wealth, for the very rich',
+  unrealised_gains: 'a yearly tax on gains that have not been sold yet',
+  exit_tax: 'a charge on wealth or gains when the wealthy emigrate',
+  partial_wealth: 'a recurring tax on a broad class of assets, such as financial assets',
+  defend_existing: 'opposing the repeal of a wealth tax, or backing a higher rate',
+  wealth_tax_unspecified: '"we need a wealth tax", with no design given',
+};
+const NOT_COUNTED = [
+  ['Taxes on income', 'higher income or dividend tax, or a surcharge on high earners'],
+  ['Taxes on selling or passing on', 'capital gains when assets are sold, inheritance, estate and gift taxes, transaction taxes'],
+  ['Taxes on one kind of property', 'mansion, council or property tax reform, land value tax'],
+  ['Taxes on firms', 'corporate and windfall taxes'],
+  ['Closing loopholes', 'tax-avoidance rules and enforcement on their own'],
+  ['"Tax the rich"', 'or "fair share", with no words about wealth, net worth or unrealised gains'],
+];
+const GRADE_EXPLAIN = {
+  A: {sum: 'The person or organisation backs a specific design, or has done something formal for it.',
+    items: ['Voted for it, sponsored or co-sponsored a bill, or signed a motion or letter that calls for it', 'Named a rate, a threshold or a proposal ("2% on assets over £10m", a billionaire minimum tax)', 'An organisation adopted it as policy, or an author published a paper or report recommending it', 'Gave supportive testimony to a parliament or committee'],
+    not: 'A vote on a whole budget, or on an inheritance or property tax, is not enough.'},
+  B: {sum: 'They say they back "a wealth tax", a "billionaire tax" or the local equivalent, by name, without specifics.',
+    items: ['A speech, op-ed, interview or post that says a wealth tax should be introduced', 'Listed as an endorser on a campaign\'s own page. That is the campaign\'s claim, so it stays at Named until the person\'s own statement, vote or signature is found'],
+    not: 'Saying only that the rich should pay more is not B.'},
+  C: {sum: 'The words probably mean a wealth tax but could mean something else, so the entry is flagged as appearing to support it.',
+    items: ['"Make the super-rich pay on what they own", where the context points to wealth', 'A phrase such as "tax wealth like work", which can mean aligning capital gains with income tax, and nothing else in the person\'s record settles it'],
+    not: 'C still needs words about wealth. "Those with most should contribute more", or a name on an event programme with no words spoken, is left out.'},
+};
+
 function methodPage(W) {
   setTitle('Method');
+  const gh = path => `https://github.com/${REPO}/${path}`;
+  const gl = (path, text) => `<a href="${gh(path)}" target="_blank" rel="noopener">${text} ↗</a>`;
   main.innerHTML = `
   <div class="wrap page-head fade"><div class="kicker">Method</div><h1>How the register <em>is built</em></h1></div>
   <div class="wrap two" style="margin-top:36px">
     <div class="prose">
       <p class="lede" style="max-width:none">Wealth Tax Supporters lists public figures and organisations that have backed a wealth tax in public. It is a register of who has said it on the record, not a poll, and it grows with every research run. It exists so that supporters can find each other, from national parliaments down to a single town.</p>
-      <h2>What counts as support</h2>
-      <p>Only an actual tax on wealth: a tax on the stock of what people own rather than on what they earn. That covers</p>
-      <ul>${Object.entries(DES).map(([k, v]) => `<li><b>${esc(v)}</b></li>`).join('')}</ul>
-      <p>Backing higher income tax, higher capital gains tax or "making the rich pay more" is not enough on its own. People who argue for those instead of a wealth tax are left out, and the reasons are logged.</p>
-      <h2>Grades</h2>
-      <div class="grades">${['A', 'B', 'C'].map(g => `<div>${glyph(g)}<span><b>${GRADE[g]}.</b> ${esc(GRADE_LONG[g].split(': ').pop())}.</span></div>`).join('')}</div>
-      <p>A supporter's grade is their strongest piece of evidence. A formal act such as a vote, a motion, a bill or a signed letter counts as explicit.</p>
-      <h2>Sources and checking</h2>
-      <p>Every statement is quoted word for word from its source and linked to it. Quotes are checked against the page automatically, and anyone can follow the link to read the source.</p>
-      <h2>Made with AI, corrected in public</h2>
-      <p>The research is done with an AI research workflow that searches parliaments, councils, parties, unions, campaigns and the press, and follows written rules for what counts. AI makes mistakes. That is why every claim carries its source and why anyone can report an error, which is then fixed in the open.</p>
-      <h2>Coverage</h2>
-      <p>Countries are researched layer by layer, national first. Regional and local areas are sampled first and searched further where they turn up supporters. The register is never finished: an empty area on a map means <em>nobody recorded yet</em>, not <em>no supporters</em>.</p>
-      <h2>Removal and corrections</h2>
-      <p>Anyone listed can ask to be removed or corrected. Use the report link on the entry, or open a report on GitHub. People who have died are removed.</p>
-      <h2>Reuse</h2>
-      <p>The data is free to reuse under the Creative Commons Attribution 4.0 licence. Quotes stay the copyright of their publishers. Each country page has CSV downloads.</p>
-      <h2>What comes next</h2>
+      <p>Supporters only: nobody is listed as an opponent, and nobody is ranked or scored. The rules below are the whole test. They are the same ones the researchers and the automatic checks follow, and the full text is on ${gl('blob/main/skill/references/definition-and-grades.md', 'GitHub')}.</p>
+
+      <h2 id="support">What counts as support</h2>
+      <p>Only an actual tax on wealth: a tax on the stock of what people own, not on what they earn or sell. The person or organisation has to back it in their own words or by their own act (a vote, a bill, a signed letter). These designs count:</p>
+      <div class="counts">
+        <div class="yes"><h3>Counts</h3>
+          <ul>${Object.entries(DES).map(([k, v]) => `<li><b>${esc(v)}</b><span>${esc(DES_NOTE[k] || '')}</span></li>`).join('')}</ul>
+          <p class="fine">A cap on individual wealth counts too, as a levy of 100% above a threshold.</p></div>
+        <div class="no"><h3>Does not count on its own</h3>
+          <ul>${NOT_COUNTED.map(([t, d]) => `<li><b>${esc(t)}</b><span>${esc(d)}</span></li>`).join('')}</ul>
+          <p class="fine">Someone who backs one of these <em>and</em> a wealth tax is listed for the wealth tax only.</p></div>
+      </div>
+      <p>People who argue for the taxes in the right-hand column instead of a wealth tax are left out. They are logged as candidates left out, with the reason, so that nobody checks them twice.</p>
+      <h3>Everyone needs their own evidence</h3>
+      <p>A party's manifesto, a coalition statement or a campaign's list of endorsers is evidence about that party, coalition or list. It does not make every candidate, member or signatory a supporter. A person is added only for something of their own: their vote on the wealth tax itself, a bill or motion they sponsored or signed, their own speech or article, or a letter they signed that names the tax. Standing for a party, holding a seat or co-authoring a study that does not recommend the tax does not count.</p>
+
+      <h2 id="grades">Grades</h2>
+      <p>Every statement is graded on its own, by how explicit it is. The grade says how directly the evidence supports a wealth tax. It is not a measure of how important someone is or how strongly they feel.</p>
+      <div class="gcards">${['A', 'B', 'C'].map(g => `<div class="gcard">
+        <div class="gh">${glyph(g)}<h3>${esc(GRADE[g])}</h3><span class="kicker">Grade ${g}</span></div>
+        <p>${esc(GRADE_EXPLAIN[g].sum)}</p>
+        <ul>${GRADE_EXPLAIN[g].items.map(i => `<li>${esc(i)}</li>`).join('')}</ul>
+        <p class="fine">${esc(GRADE_EXPLAIN[g].not)}</p></div>`).join('')}</div>
+      <p>A supporter's grade is their strongest piece of evidence, so one vote or signed letter makes someone <b>Explicit</b> however many weaker statements they also have. Every grade comes with a one-line note saying why it was given. Weaker grades are targets: the research looks for the statement, vote or signature that would upgrade them. Filter the <a href="/directory">directory</a> by grade to see each group.</p>
+
+      <h2 id="sources">Sources and checking</h2>
+      <p>Every statement is quoted word for word from its source and linked to it, with the date of the act or statement. Quotes are checked against the page automatically, and a reviewer reads a sample of every run by hand and checks the grade and the meaning as well as the wording. Where a page is no longer online or blocks readers, an archived copy is linked. Anyone can follow the link and read the source. The checks and the review list are public: ${gl('blob/main/skill/references/pre-pr-checklist.md', 'the checklist')}.</p>
+      <h2 id="ai">Made with AI, corrected in public</h2>
+      <p>The research is done with an AI research workflow. It starts by asking the open web, in each language of the country, who has argued for a wealth tax and when, then searches parliaments, councils, parties, unions, campaigns and the press, and follows the leads it finds. It works to written rules for what counts (${gl('blob/main/skill/SKILL.md', 'the research skill')}). AI makes mistakes. That is why every claim carries its source, why every pull request is reviewed before it is merged, and why anyone can report an error, which is then fixed in the open.</p>
+      <h2 id="coverage">Coverage</h2>
+      <p>Countries are researched layer by layer, national first. Regional and local areas are sampled first and searched further where they turn up supporters. The register is never finished: an empty area on a map means <em>nobody recorded yet</em>, not <em>no supporters</em>. On the seat charts, an unlit seat means nothing was found, never opposition. Planned work is on the ${gl('', 'repository')} and the <a href="https://github.com/users/Egalitaristen/projects/3" target="_blank" rel="noopener">roadmap board ↗</a>.</p>
+      <h2 id="removal">Removal and corrections</h2>
+      <p>Anyone listed can ask to be removed or corrected. Use the report link on the entry, <a href="/feedback">send feedback</a> or <a href="${esc(issueUrl('Removal request: '))}" target="_blank" rel="noopener">open a request on GitHub ↗</a>. Say which entry and, if you can, link a source. People who have died are removed.</p>
+      <h2 id="reuse">Reuse</h2>
+      <p>The data is free to reuse under the Creative Commons Attribution 4.0 licence. Quotes stay the copyright of their publishers. Each country has CSV downloads on its Method tab, and the whole database is on ${gl('tree/main/data', 'GitHub')}.</p>
+      <h2 id="next">What comes next</h2>
       <p>Today the register lists public figures and organisations only. A way for ordinary supporters to find each other in their own area is planned, with privacy and consent built in first. It is not open yet.</p>
     </div>
     <aside class="aside-card"><h3>Spotted a mistake?</h3><p>Reports are public GitHub issues. Say which entry is wrong and, if you can, link a source.</p>
       <p><a class="btn sm" href="${esc(issueUrl('Report: '))}" target="_blank" rel="noopener">Report a mistake ↗</a></p>
-      <p style="margin:18px 0 0"><a href="https://github.com/${REPO}" target="_blank" rel="noopener">Read the full method on GitHub ↗</a></p></aside>
+      <div class="kicker" style="margin-top:22px">Help build it</div>
+      <ul class="alinks">
+        <li><a href="/contribute#suggest">Suggest a supporter we missed</a></li>
+        <li><a href="/contribute">Help check entries or start a country</a></li>
+        <li><a href="/feedback">Send feedback</a></li>
+        <li>${gl('blob/main/CONTRIBUTING.md', 'Contributing guide')}</li>
+        <li><a href="${DISCORD}" target="_blank" rel="noopener">Join the Discord ↗</a></li>
+      </ul>
+      <div class="kicker" style="margin-top:22px">Read the rules</div>
+      <ul class="alinks">
+        <li>${gl('blob/main/skill/references/definition-and-grades.md', 'What counts and the grades')}</li>
+        <li>${gl('blob/main/skill/SKILL.md', 'The full research method')}</li>
+        <li>${gl('', 'Source code and data')}</li>
+        <li><a href="https://github.com/users/Egalitaristen/projects/3" target="_blank" rel="noopener">Roadmap ↗</a></li>
+      </ul></aside>
   </div>`;
 }
 function contributePage(W, params) {
