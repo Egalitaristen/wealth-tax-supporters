@@ -405,7 +405,7 @@ def validate(db):
             warns.append(f"{where}: duplicate link for {p.get('actor_id')}")
         seen_profiles.add(key)
         if a and set(type_list(a)) == {"wealthy_individual"}:
-            warns.append(f"{where}: {a.get('name')} is only a wealthy individual; link only official or professional pages of public figures")
+            warns.append(f"{where}: {a.get('name')} is only a wealthy individual; link their company, foundation, public-role or Wikipedia pages and public professional accounts, never private or family accounts (they are still refined like everyone else)")
     bodies = {b["body_id"]: b for b in db["bodies"]}
     for i, b in enumerate(db["bodies"], start=2):
         where = f"bodies.csv line {i} ({b.get('body_id')} {b.get('name')})"
