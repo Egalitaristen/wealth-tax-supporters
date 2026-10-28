@@ -6,3 +6,7 @@ Support sits with SP, GroenLinks-PvdA, PvdD, Volt, DENK, BIJ1 and D66 on the "mi
 - **Map:** CBS/PDOK `api.pdok.nl/cbs/gebiedsindelingen/ogc/v1/collections/gemeente_gegeneraliseerd/items?f=json&jaarcode=2026` (CC BY 4.0); province outlines from `provincie_gegeneraliseerd`; municipality to province by label point in polygon (`gemeente_labelpoint`).
 - **Blocked:** the Groningen party-programme archive (dnpprepo.ub.rug.nl), taxence.nl.
 - **Seats:** `python skill/scripts/seats.py data/nl` reads the Tweede Kamer's open data (OData `gegevensmagazijn.tweedekamer.nl`): 150 seats, every person with an open seat (members and faction chairs), parties by their abbreviation (as the Kamer names them).
+
+## Eerste Kamer (Senate)
+
+`python skill/scripts/seats.py data/nl` also draws the Eerste Kamer (75 seats) from https://www.eerstekamer.nl/alle_leden, which gives initials and a surname ("prof. dr. E.B. van Apeldoorn") and the group (PRO is GroenLinks-PvdA). A supporter is matched on the surname and any of the member's initials, and printed as a name-only match for you to confirm. The members are elected indirectly by the provincial councils (next in 2027).

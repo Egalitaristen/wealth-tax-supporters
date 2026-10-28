@@ -1,18 +1,22 @@
 position_id,actor_id,body_id,role,party,geo_unit_id,start,end,current,member_ref,checked,source_url
-O00001,A0002,B0001,Member of the National Assembly,EFF,G0001,2014-06-23,,y,692,2026-10-26,https://pmg.org.za/member/692/
-O00002,A0003,B0001,Member of the National Assembly,EFF,G0006,,,y,1715,2026-10-26,https://pmg.org.za/member/1715/
-O00003,A0004,B0001,Member of the National Assembly,EFF,G0006,,,y,1729,2026-10-26,https://pmg.org.za/member/1729/
-O00004,A0015,B0001,Member of the National Assembly,ANC,G0004,2013-04-09,,y,249,2026-10-26,https://pmg.org.za/member/249/
-O00005,A0023,B0001,Member of the National Assembly,EFF,G0008,,,y,1880,2026-10-26,https://pmg.org.za/member/1880/
-O00006,A0024,B0001,Member of the National Assembly,UDM,G0001,2013-10-17,,y,454,2026-10-26,https://pmg.org.za/member/454/
-O00007,A0026,B0001,Member of the National Assembly,EFF,G0004,,,y,855,2026-10-26,https://pmg.org.za/member/855/
-O00008,A0027,B0001,Member of the National Assembly,EFF,G0001,2014-06-05,,y,481,2026-10-26,https://pmg.org.za/member/481/
-O00009,A0029,B0001,Member of the National Assembly,MK Party,G0001,,,y,1845,2026-10-26,https://pmg.org.za/member/1845/
-O00010,A0030,B0001,Member of the National Assembly,MK Party,G0001,,,y,2135,2026-10-26,https://pmg.org.za/member/2135/
-O00011,A0031,B0001,Member of the National Assembly,MK Party,G0004,2013-04-09,,y,163,2026-10-26,https://pmg.org.za/member/163/
-O00012,A0033,B0001,Member of the National Assembly,ACDP,G0001,2013-04-09,,y,108,2026-10-26,https://pmg.org.za/member/108/
-O00013,A0035,B0001,Member of the National Assembly,MK Party,G0001,,,y,2332,2026-10-26,https://pmg.org.za/member/2332/
-O00014,A0036,B0001,Member of the National Assembly,EFF,G0004,,,y,1343,2026-10-26,https://pmg.org.za/member/1343/
-O00015,A0038,B0001,Member of the National Assembly,ANC,G0001,,,y,810,2026-10-26,https://pmg.org.za/member/810/
-O00017,A0040,B0001,Member of the National Assembly,MK Party,G0001,,,y,2098,2026-10-26,https://pmg.org.za/member/2098/
-O00018,A0041,B0001,Member of the National Assembly,EFF,G0004,,,y,1908,2026-10-26,https://pmg.org.za/member/1908/
+O00001,A0002,B0001,Member of the National Assembly,EFF,G0001,2014-06-23,,y,692,2026-10-28,https://pmg.org.za/member/692/
+O00002,A0003,B0001,Member of the National Assembly,EFF,G0006,,,y,1715,2026-10-28,https://pmg.org.za/member/1715/
+O00003,A0004,B0001,Member of the National Assembly,EFF,G0006,,,y,1729,2026-10-28,https://pmg.org.za/member/1729/
+O00004,A0015,B0001,Member of the National Assembly,ANC,G0004,2013-04-09,,y,249,2026-10-28,https://pmg.org.za/member/249/
+O00005,A0023,B0001,Member of the National Assembly,EFF,G0008,,,y,1880,2026-10-28,https://pmg.org.za/member/1880/
+O00006,A0024,B0001,Member of the National Assembly,UDM,G0001,2013-10-17,,y,454,2026-10-28,https://pmg.org.za/member/454/
+O00007,A0026,B0001,Member of the National Assembly,EFF,G0004,,,y,855,2026-10-28,https://pmg.org.za/member/855/
+O00008,A0027,B0001,Member of the National Assembly,EFF,G0001,2014-06-05,,y,481,2026-10-28,https://pmg.org.za/member/481/
+O00009,A0029,B0001,Member of the National Assembly,MK Party,G0001,,,y,1845,2026-10-28,https://pmg.org.za/member/1845/
+O00010,A0030,B0001,Member of the National Assembly,MK Party,G0001,,,y,2135,2026-10-28,https://pmg.org.za/member/2135/
+O00011,A0031,B0001,Member of the National Assembly,MK Party,G0004,2013-04-09,,y,163,2026-10-28,https://pmg.org.za/member/163/
+O00012,A0033,B0001,Member of the National Assembly,ACDP,G0001,2013-04-09,,y,108,2026-10-28,https://pmg.org.za/member/108/
+O00013,A0035,B0001,Member of the National Assembly,MK Party,G0001,,,y,2332,2026-10-28,https://pmg.org.za/member/2332/
+O00014,A0036,B0001,Member of the National Assembly,EFF,G0004,,,y,1343,2026-10-28,https://pmg.org.za/member/1343/
+O00015,A0038,B0001,Member of the National Assembly,ANC,G0001,,,y,810,2026-10-28,https://pmg.org.za/member/810/
+O00016,A0040,B0001,Member of the National Assembly,MK Party,G0001,,,y,2098,2026-10-28,https://pmg.org.za/member/2098/
+O00017,A0041,B0001,Member of the National Assembly,EFF,G0004,,,y,1908,2026-10-28,https://pmg.org.za/member/1908/
+O00018,A0028,B0002,Member of the National Council of Provinces,,G0001,,,n,,2026-10-28,https://api.pmg.org.za/member/
+O00019,A0032,B0002,Member of the National Council of Provinces,MK Party,G0001,,,y,1958,2026-10-28,https://pmg.org.za/member/1958/
+O00020,A0034,B0002,Member of the National Council of Provinces,EFF,G0006,,,y,1155,2026-10-28,https://pmg.org.za/member/1155/
+O00021,A0037,B0002,Member of the National Council of Provinces,,G0001,,,n,,2026-10-28,https://api.pmg.org.za/member/

@@ -1,32 +1,38 @@
 position_id,actor_id,body_id,role,party,geo_unit_id,start,end,current,member_ref,checked,source_url
-O00001,A0001,B0001,Member of the House of Representatives,SP,G0001,2023-12-13,,y,990b2d9b-0b83-4dde-ab04-5cd5d8c5c4d3,2026-10-25,https://www.tweedekamer.nl/kamerleden_en_commissies/alle_kamerleden
-O00002,A0002,B0001,Member of the House of Representatives,SP,G0001,2018-01-18,2023-12-05,n,bb6801d4-f671-4ade-aa86-29aa89373dd9,2026-10-25,https://www.tweedekamer.nl/kamerleden_en_commissies/alle_kamerleden
-O00003,A0003,B0001,Member of the House of Representatives,SP,G0001,2014-05-29,2023-07-04,n,e6cc253d-14cb-437b-be88-4966f5fcb1f5,2026-10-25,https://www.tweedekamer.nl/kamerleden_en_commissies/alle_kamerleden
-O00004,A0004,B0001,Member of the House of Representatives,SP,G0001,2017-12-13,2018-01-17,n,3dd45c3b-636a-4f17-b11c-72e3cfc56330,2026-10-25,https://www.tweedekamer.nl/kamerleden_en_commissies/alle_kamerleden
-O00005,A0005,B0001,Member of the House of Representatives,SP,G0001,2008-01-15,2017-03-22,n,4bfc5a46-654d-445f-9b71-fc3e06d40ae4,2026-10-25,https://www.tweedekamer.nl/kamerleden_en_commissies/alle_kamerleden
-O00006,A0006,B0001,Member of the House of Representatives,GroenLinks-PvdA,G0001,2023-10-27,2024-12-17,n,66b2be3d-10f8-46a4-90c6-b86005df0a50,2026-10-25,https://www.tweedekamer.nl/kamerleden_en_commissies/alle_kamerleden
-O00007,A0007,B0001,Member of the House of Representatives,PRO,G0001,2026-06-10,,y,7a727f46-0e36-493f-8779-736d3250fb27,2026-10-25,https://www.tweedekamer.nl/kamerleden_en_commissies/alle_kamerleden
-O00008,A0008,B0001,Member of the House of Representatives,GroenLinks-PvdA,G0001,2024-12-18,2025-11-11,n,e9fa8250-ef81-4f50-bc65-0552217c045d,2026-10-25,https://www.tweedekamer.nl/kamerleden_en_commissies/alle_kamerleden
-O00009,A0009,B0001,Member of the House of Representatives,PRO,G0001,2026-06-10,,y,75a44c3a-5914-4c8e-9ca4-d987853f5844,2026-10-25,https://www.tweedekamer.nl/kamerleden_en_commissies/alle_kamerleden
-O00010,A0010,B0001,Member of the House of Representatives,GL,G0001,2017-03-23,2021-10-26,n,b50b3f0b-afc8-46e5-bfda-cb60e2935a5a,2026-10-25,https://www.tweedekamer.nl/kamerleden_en_commissies/alle_kamerleden
-O00011,A0011,B0001,Member of the House of Representatives,GroenLinks-PvdA,G0001,2023-10-27,2023-12-05,n,44081df1-828e-4d79-bd27-261be38f66f1,2026-10-25,https://www.tweedekamer.nl/kamerleden_en_commissies/alle_kamerleden
-O00012,A0012,B0001,Member of the House of Representatives,PvdA,G0001,2017-03-23,2021-03-30,n,4eacd971-8961-4956-b73b-7de0745de280,2026-10-25,https://www.tweedekamer.nl/kamerleden_en_commissies/alle_kamerleden
-O00013,A0013,B0001,Member of the House of Representatives,PvdA,G0001,2021-01-14,2021-03-30,n,5ab23e3a-aed4-4713-9214-53336765be9d,2026-10-25,https://www.tweedekamer.nl/kamerleden_en_commissies/alle_kamerleden
-O00014,A0014,B0001,Member of the House of Representatives,D66,G0001,2021-03-31,2023-12-05,n,666f31ca-041f-466d-9e78-804317921d69,2026-10-25,https://www.tweedekamer.nl/kamerleden_en_commissies/alle_kamerleden
-O00015,A0015,B0001,Member of the House of Representatives,D66,G0001,2022-01-18,2023-12-05,n,d1bb566e-a111-43b7-8856-273ebac1f753,2026-10-25,https://www.tweedekamer.nl/kamerleden_en_commissies/alle_kamerleden
-O00016,A0016,B0001,Member of the House of Representatives,D66,G0001,2023-12-06,2026-02-22,n,19c8d0fb-66ca-4b45-be82-057cb36e1e61,2026-10-25,https://www.tweedekamer.nl/kamerleden_en_commissies/alle_kamerleden
-O00017,A0017,B0001,Member of the House of Representatives,ChristenUnie,G0001,2021-03-31,,y,d38ca3cf-9803-48dc-8592-c67c4430168e,2026-10-25,https://www.tweedekamer.nl/kamerleden_en_commissies/alle_kamerleden
-O00018,A0036,B0001,Member of the House of Representatives,PvdD,G0001,2017-03-23,2023-12-05,n,5d54939f-2da7-4ca6-b159-4ef344336b21,2026-10-25,https://www.tweedekamer.nl/kamerleden_en_commissies/alle_kamerleden
-O00019,A0037,B0001,Member of the House of Representatives,Gündoğan,G0001,2022-03-22,2023-12-05,n,f31cabe4-e1f4-46db-88a9-b46ba44dded4,2026-10-25,https://www.tweedekamer.nl/kamerleden_en_commissies/alle_kamerleden
-O00020,A0038,B0001,Member of the House of Representatives,PvdD,G0001,2026-06-05,,y,7564c685-2691-4796-9159-ebd5df4fdc8d,2026-10-25,https://www.tweedekamer.nl/kamerleden_en_commissies/alle_kamerleden
-O00021,A0039,B0001,Member of the House of Representatives,Volt,G0001,2021-03-31,,y,a68468b6-51ea-440c-9387-b44ba10ad8b6,2026-10-25,https://www.tweedekamer.nl/kamerleden_en_commissies/alle_kamerleden
-O00022,A0060,B0001,Member of the House of Representatives,GroenLinks-PvdA,G0001,2023-10-27,2025-11-11,n,2aeb5ca9-f64f-4ec6-a0ce-83223bff4772,2026-10-25,https://www.tweedekamer.nl/kamerleden_en_commissies/alle_kamerleden
-O00023,A0094,B0001,Member of the House of Representatives,Nieuw Sociaal Contract,G0001,2024-11-27,2025-11-11,n,7954eb2c-1bf5-42af-80dc-85f29b367db0,2026-10-25,https://www.tweedekamer.nl/kamerleden_en_commissies/alle_kamerleden
-O00024,A0099,B0001,Member of the House of Representatives,SP,G0001,2017-03-23,2025-11-11,n,196d0048-0369-4786-ba81-bda9da8c3636,2026-10-25,https://www.tweedekamer.nl/kamerleden_en_commissies/alle_kamerleden
-O00025,A0100,B0001,Member of the House of Representatives,PRO,G0001,2026-06-10,,y,0d036fcf-a456-4798-9b76-3f44eb74a451,2026-10-25,https://www.tweedekamer.nl/kamerleden_en_commissies/alle_kamerleden
-O00026,A0107,B0001,Member of the House of Representatives,SP,G0001,2014-04-02,2025-11-11,n,fdc445bd-f8fe-4cfc-b387-7fd66a181674,2026-10-25,https://www.tweedekamer.nl/kamerleden_en_commissies/alle_kamerleden
-O00027,A0143,B0001,Member of the House of Representatives,SP,G0001,2012-09-20,2017-03-22,n,54cbf78c-ae5e-49b7-8fcc-41d0fb7b5855,2026-10-25,https://www.tweedekamer.nl/kamerleden_en_commissies/alle_kamerleden
-O00028,A0148,B0001,Member of the House of Representatives,SP,G0001,2006-11-30,2017-03-22,n,ac61813c-2d49-4318-b5d0-32e3559b8db4,2026-10-25,https://www.tweedekamer.nl/kamerleden_en_commissies/alle_kamerleden
-O00029,A0149,B0001,Member of the House of Representatives,SP,G0001,2010-06-17,2018-03-29,n,2211a588-7417-4e26-a386-801fe8798bd1,2026-10-25,https://www.tweedekamer.nl/kamerleden_en_commissies/alle_kamerleden
-O00030,A0151,B0001,Member of the House of Representatives,SP,G0001,2023-07-20,2023-12-05,n,2b533923-83a2-4ac6-b497-934a549b50ab,2026-10-25,https://www.tweedekamer.nl/kamerleden_en_commissies/alle_kamerleden
-O00031,A0167,B0001,Member of the House of Representatives,SP,G0141,1998-05-19,2014-04-01,n,d3eeba5c-e756-485b-978e-a91629c31e57,2026-10-25,https://www.tweedekamer.nl/kamerleden_en_commissies/alle_kamerleden
+O00001,A0001,B0001,Member of the House of Representatives,SP,G0001,2023-12-13,,y,990b2d9b-0b83-4dde-ab04-5cd5d8c5c4d3,2026-10-28,https://www.tweedekamer.nl/kamerleden_en_commissies/alle_kamerleden
+O00002,A0002,B0001,Member of the House of Representatives,SP,G0001,2018-01-18,2023-12-05,n,bb6801d4-f671-4ade-aa86-29aa89373dd9,2026-10-28,https://www.tweedekamer.nl/kamerleden_en_commissies/alle_kamerleden
+O00003,A0003,B0001,Member of the House of Representatives,SP,G0001,2014-05-29,2023-07-04,n,e6cc253d-14cb-437b-be88-4966f5fcb1f5,2026-10-28,https://www.tweedekamer.nl/kamerleden_en_commissies/alle_kamerleden
+O00004,A0004,B0001,Member of the House of Representatives,SP,G0001,2017-12-13,2018-01-17,n,3dd45c3b-636a-4f17-b11c-72e3cfc56330,2026-10-28,https://www.tweedekamer.nl/kamerleden_en_commissies/alle_kamerleden
+O00005,A0005,B0001,Member of the House of Representatives,SP,G0001,2008-01-15,2017-03-22,n,4bfc5a46-654d-445f-9b71-fc3e06d40ae4,2026-10-28,https://www.tweedekamer.nl/kamerleden_en_commissies/alle_kamerleden
+O00006,A0006,B0001,Member of the House of Representatives,GroenLinks-PvdA,G0001,2023-10-27,2024-12-17,n,66b2be3d-10f8-46a4-90c6-b86005df0a50,2026-10-28,https://www.tweedekamer.nl/kamerleden_en_commissies/alle_kamerleden
+O00007,A0007,B0001,Member of the House of Representatives,PRO,G0001,2026-06-10,,y,7a727f46-0e36-493f-8779-736d3250fb27,2026-10-28,https://www.tweedekamer.nl/kamerleden_en_commissies/alle_kamerleden
+O00008,A0008,B0001,Member of the House of Representatives,GroenLinks-PvdA,G0001,2024-12-18,2025-11-11,n,e9fa8250-ef81-4f50-bc65-0552217c045d,2026-10-28,https://www.tweedekamer.nl/kamerleden_en_commissies/alle_kamerleden
+O00009,A0009,B0001,Member of the House of Representatives,PRO,G0001,2026-06-10,,y,75a44c3a-5914-4c8e-9ca4-d987853f5844,2026-10-28,https://www.tweedekamer.nl/kamerleden_en_commissies/alle_kamerleden
+O00010,A0010,B0001,Member of the House of Representatives,GL,G0001,2017-03-23,2021-10-26,n,b50b3f0b-afc8-46e5-bfda-cb60e2935a5a,2026-10-28,https://www.tweedekamer.nl/kamerleden_en_commissies/alle_kamerleden
+O00011,A0011,B0001,Member of the House of Representatives,GroenLinks-PvdA,G0001,2023-10-27,2023-12-05,n,44081df1-828e-4d79-bd27-261be38f66f1,2026-10-28,https://www.tweedekamer.nl/kamerleden_en_commissies/alle_kamerleden
+O00012,A0012,B0001,Member of the House of Representatives,PvdA,G0001,2017-03-23,2021-03-30,n,4eacd971-8961-4956-b73b-7de0745de280,2026-10-28,https://www.tweedekamer.nl/kamerleden_en_commissies/alle_kamerleden
+O00013,A0013,B0001,Member of the House of Representatives,PvdA,G0001,2021-01-14,2021-03-30,n,5ab23e3a-aed4-4713-9214-53336765be9d,2026-10-28,https://www.tweedekamer.nl/kamerleden_en_commissies/alle_kamerleden
+O00014,A0014,B0001,Member of the House of Representatives,D66,G0001,2021-03-31,2023-12-05,n,666f31ca-041f-466d-9e78-804317921d69,2026-10-28,https://www.tweedekamer.nl/kamerleden_en_commissies/alle_kamerleden
+O00015,A0015,B0001,Member of the House of Representatives,D66,G0001,2022-01-18,2023-12-05,n,d1bb566e-a111-43b7-8856-273ebac1f753,2026-10-28,https://www.tweedekamer.nl/kamerleden_en_commissies/alle_kamerleden
+O00016,A0016,B0001,Member of the House of Representatives,D66,G0001,2023-12-06,2026-02-22,n,19c8d0fb-66ca-4b45-be82-057cb36e1e61,2026-10-28,https://www.tweedekamer.nl/kamerleden_en_commissies/alle_kamerleden
+O00017,A0017,B0001,Member of the House of Representatives,ChristenUnie,G0001,2021-03-31,,y,d38ca3cf-9803-48dc-8592-c67c4430168e,2026-10-28,https://www.tweedekamer.nl/kamerleden_en_commissies/alle_kamerleden
+O00018,A0036,B0001,Member of the House of Representatives,PvdD,G0001,2017-03-23,2023-12-05,n,5d54939f-2da7-4ca6-b159-4ef344336b21,2026-10-28,https://www.tweedekamer.nl/kamerleden_en_commissies/alle_kamerleden
+O00019,A0037,B0001,Member of the House of Representatives,Gündoğan,G0001,2022-03-22,2023-12-05,n,f31cabe4-e1f4-46db-88a9-b46ba44dded4,2026-10-28,https://www.tweedekamer.nl/kamerleden_en_commissies/alle_kamerleden
+O00020,A0038,B0001,Member of the House of Representatives,PvdD,G0001,2026-06-05,,y,7564c685-2691-4796-9159-ebd5df4fdc8d,2026-10-28,https://www.tweedekamer.nl/kamerleden_en_commissies/alle_kamerleden
+O00021,A0039,B0001,Member of the House of Representatives,Volt,G0001,2021-03-31,,y,a68468b6-51ea-440c-9387-b44ba10ad8b6,2026-10-28,https://www.tweedekamer.nl/kamerleden_en_commissies/alle_kamerleden
+O00022,A0060,B0001,Member of the House of Representatives,GroenLinks-PvdA,G0001,2023-10-27,2025-11-11,n,2aeb5ca9-f64f-4ec6-a0ce-83223bff4772,2026-10-28,https://www.tweedekamer.nl/kamerleden_en_commissies/alle_kamerleden
+O00023,A0094,B0001,Member of the House of Representatives,Nieuw Sociaal Contract,G0001,2024-11-27,2025-11-11,n,7954eb2c-1bf5-42af-80dc-85f29b367db0,2026-10-28,https://www.tweedekamer.nl/kamerleden_en_commissies/alle_kamerleden
+O00024,A0099,B0001,Member of the House of Representatives,SP,G0001,2017-03-23,2025-11-11,n,196d0048-0369-4786-ba81-bda9da8c3636,2026-10-28,https://www.tweedekamer.nl/kamerleden_en_commissies/alle_kamerleden
+O00025,A0100,B0001,Member of the House of Representatives,PRO,G0001,2026-06-10,,y,0d036fcf-a456-4798-9b76-3f44eb74a451,2026-10-28,https://www.tweedekamer.nl/kamerleden_en_commissies/alle_kamerleden
+O00026,A0107,B0001,Member of the House of Representatives,SP,G0001,2014-04-02,2025-11-11,n,fdc445bd-f8fe-4cfc-b387-7fd66a181674,2026-10-28,https://www.tweedekamer.nl/kamerleden_en_commissies/alle_kamerleden
+O00027,A0143,B0001,Member of the House of Representatives,SP,G0001,2012-09-20,2017-03-22,n,54cbf78c-ae5e-49b7-8fcc-41d0fb7b5855,2026-10-28,https://www.tweedekamer.nl/kamerleden_en_commissies/alle_kamerleden
+O00028,A0148,B0001,Member of the House of Representatives,SP,G0001,2006-11-30,2017-03-22,n,ac61813c-2d49-4318-b5d0-32e3559b8db4,2026-10-28,https://www.tweedekamer.nl/kamerleden_en_commissies/alle_kamerleden
+O00029,A0149,B0001,Member of the House of Representatives,SP,G0001,2010-06-17,2018-03-29,n,2211a588-7417-4e26-a386-801fe8798bd1,2026-10-28,https://www.tweedekamer.nl/kamerleden_en_commissies/alle_kamerleden
+O00030,A0151,B0001,Member of the House of Representatives,SP,G0001,2023-07-20,2023-12-05,n,2b533923-83a2-4ac6-b497-934a549b50ab,2026-10-28,https://www.tweedekamer.nl/kamerleden_en_commissies/alle_kamerleden
+O00031,A0167,B0001,Member of the House of Representatives,SP,G0141,1998-05-19,2014-04-01,n,d3eeba5c-e756-485b-978e-a91629c31e57,2026-10-28,https://www.tweedekamer.nl/kamerleden_en_commissies/alle_kamerleden
+O00032,A0040,B0002,Senator (Eerste Kamer),SP,G0001,,,y,prof_dr_e_b_van_apeldoorn_sp,2026-10-28,https://www.eerstekamer.nl/persoon/prof_dr_e_b_van_apeldoorn_sp
+O00033,A0145,B0002,Senator (Eerste Kamer),,G0001,,,n,,2026-10-28,https://www.eerstekamer.nl/alle_leden
+O00034,A0146,B0002,Senator (Eerste Kamer),,G0001,,,n,,2026-10-28,https://www.eerstekamer.nl/alle_leden
+O00035,A0162,B0002,Senator (Eerste Kamer),GroenLinks-PvdA,G0001,,,y,drs_f_j_m_crone_pro,2026-10-28,https://www.eerstekamer.nl/persoon/drs_f_j_m_crone_pro
+O00036,A0163,B0002,Senator (Eerste Kamer),GroenLinks-PvdA,G0001,,,y,dr_m_l_vos_pro,2026-10-28,https://www.eerstekamer.nl/persoon/dr_m_l_vos_pro
+O00037,A0164,B0002,Senator (Eerste Kamer),GroenLinks-PvdA,G0001,,,y,p_rosenmoller_pro,2026-10-28,https://www.eerstekamer.nl/persoon/p_rosenmoller_pro
