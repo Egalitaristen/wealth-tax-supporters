@@ -1,1 +1,5 @@
 seat_id,body_id,party,seats,colour,order
+S0001,B0001,List,283,1a5fb4,1
+S0002,B0001,Individual,284,e07a1f,2
+S0003,B0001,Appointed,28,8a8680,3
+S0004,B0001,Vacant,1,,4

@@ -1194,6 +1194,59 @@ def canada_senate():
                           "Non-affiliated": "8a8680", "Government Representative Office": "e07a1f"})]
 
 
+def australia():
+    """The House of Representatives (150 seats) and the Senate (76) of the Parliament of Australia. aph.gov.au refuses scripts, so the two lists are read
+    once in a browser and passed with --local (see skill/references/countries/australia.md for the browser snippet): rows of [name, division or state,
+    party, APH id], one file per chamber, saved for the two addresses below. Names have honorifics and postnominals removed."""
+    PARTY = {"Australian Labor Party": "Labor", "Liberal Party of Australia": "Liberal", "Liberal National Party of Queensland": "Liberal National Party",
+             "The Nationals": "Nationals", "Australian Greens": "Greens", "One Nation": "One Nation", "Independent": "Independent", "Country Liberal Party": "Country Liberal Party",
+             "Katter's Australian Party": "Katter's Australian Party", "Centre Alliance": "Centre Alliance", "Jacqui Lambie Network": "Jacqui Lambie Network",
+             "United Australia Party": "United Australia Party", "Australia's Voice": "Australia's Voice"}
+    colours = {"Labor": "e11931", "Liberal": "1c4f9c", "Liberal National Party": "0a3a7a", "Nationals": "f2c230", "Greens": "10a64a", "One Nation": "f28c1f",
+               "Independent": "8a8680", "Country Liberal Party": "c9a227", "Katter's Australian Party": "b5461f", "Centre Alliance": "e07a1f",
+               "Jacqui Lambie Network": "7a5ab3", "United Australia Party": "e8c32a", "Australia's Voice": "2aa5c9"}
+
+    def clean(n):
+        n = re.sub(r"^(the Hon |The Hon |Hon |Dr |Mr |Ms |Mrs |Prof )+", "", n).strip().rstrip(",")
+        return re.sub(r"( (OAM|AM|AO|AC|KC|SC|CSC|MP))+$", "", n).strip()
+
+    def members(url):
+        rows = get(url)
+        return [dict(name=clean(r[0]), party=PARTY.get(r[2], r[2]), ref=r[3], place=r[1], start="",
+                     url=f"https://www.aph.gov.au/Senators_and_Members/Parliamentarian?MPID={r[3]}") for r in rows]
+
+    def chamber(name, seats, mem, role, rre, note, src, exp):
+        if len(mem) < exp:
+            sys.exit(f"{name}: read {len(mem)} members, expected {exp}; save the list again (see the Australia guide)")
+        count = {}
+        for m in mem:
+            count[m["party"]] = count.get(m["party"], 0) + 1
+        order = sorted(count, key=lambda p: -count[p])
+        return dict(name=name, level="national", seats=seats, source_url=src, note=note, role=role, role_re=rre, role_start=rre, members=mem, former=[],
+                    party_order=order, colours={p: colours.get(p, "8a8680") for p in order})
+    hurl, surl = "https://www.aph.gov.au/Senators_and_Members/Members", "https://www.aph.gov.au/Senators_and_Members/Senators"
+    return [chamber("Australian House of Representatives", 150, members(hurl), "Member of the House of Representatives", r"(?i)\bmember for\b|house of representatives|\bMP for\b",
+                    "150 seats, one per division, elected 3 May 2025. Who sits and their party are from the Parliament's own list of members (aph.gov.au), read in a browser. Unlit seats mean nothing found, never opposition.", hurl, 140),
+            chamber("Australian Senate", 76, members(surl), "Senator", r"(?i)\bsenator\b|australian senate",
+                    "76 seats, twelve for each state and two each for the Australian Capital Territory and the Northern Territory. Who sits and their party are from the Parliament's own list of senators (aph.gov.au), read in a browser. Unlit seats mean nothing found, never opposition.", surl, 70)]
+
+
+def egypt():
+    """The House of Representatives (596 seats): parliament.gov.eg/members.aspx lists the members in office (name and membership type, no party), read once
+    in a browser and passed with --local (see skill/references/countries/eg.md): rows of [short name in Arabic, "", membership type (Individual, List
+    or Appointed), member id, full name]. Seats are grouped by how they were filled, because the site gives no party. The Senate has no list yet."""
+    url = "https://www.parliament.gov.eg/members.aspx"
+    rows = get(url)
+    members = [dict(name=r[0], party=r[2], ref=r[3], place="", start="", url=f"https://www.parliament.gov.eg/MembersDetails.aspx?id={r[3]}") for r in rows]
+    if len(members) < 550:
+        sys.exit(f"Egypt: read {len(members)} members, expected about 595; save the list again (see the Egypt guide)")
+    return [dict(name="House of Representatives", level="national", seats=596, source_url=url,
+                 note="596 seats: 284 individual, 284 list and 28 appointed by the President, elected in late 2025. Who sits is from the House's own list of members in office (parliament.gov.eg); the site gives names in Arabic and the way each seat was filled, not the party, so seats are grouped that way. Unlit seats mean nothing found, never opposition.",
+                 role="Member of Parliament", role_re=r"(?i)member of parliament|house of representatives|مجلس النواب", role_start=r"(?i)member of parliament",
+                 members=members, former=[], party_order=["List", "Individual", "Appointed"],
+                 colours={"List": "1a5fb4", "Individual": "e07a1f", "Appointed": "8a8680"})]
+
+
 def european_parliament():
     """The European Parliament (720 seats): data.europarl.europa.eu open data (sitting MEPs, their country and political group).
     Run `seats.py data/eu`: supporters are matched across every country register, by the MEP's own country."""
@@ -1361,7 +1414,7 @@ def scottish_parliament():
 _ADAPTERS_LOWER = {"nz": new_zealand, "se": sweden, "de": germany, "nl": netherlands, "no": norway, "fr": france, "br": brazil, "ca": canada, "es": spain, "pl": poland, "be": belgium, "in": india, "jp": japan, "my": malaysia, "sg": singapore, "id": indonesia, "ng": nigeria, "cn": china, "scottish_parliament": scottish_parliament, "european_parliament": european_parliament, "eu": european_parliament, "un": united_nations, "au": pan_african_parliament, "za": south_africa, "ie": ireland, "it": italy, "mx": mexico, "ar": argentina, "co": colombia, "fi": finland, "kr": south_korea}
 # countries that chart two chambers chain their adapters; the others return one
 ADAPTERS = dict(_ADAPTERS_LOWER, nl=lambda: netherlands() + netherlands_senate(), za=lambda: south_africa() + south_africa_ncop(),
-                  ca=lambda: canada() + canada_senate())
+                  ca=lambda: canada() + canada_senate(), australia=australia, eg=egypt)
 
 
 def main():

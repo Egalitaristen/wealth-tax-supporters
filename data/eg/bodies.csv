@@ -1,1 +1,2 @@
 body_id,name,level,kind,seats,as_of,source_url,seat_view,notes
+B0001,House of Representatives,national,chamber,596,2026-10-28,https://www.parliament.gov.eg/members.aspx,y,"596 seats: 284 individual, 284 list and 28 appointed by the President, elected in late 2025. Who sits is from the House's own list of members in office (parliament.gov.eg); the site gives names in Arabic and the way each seat was filled, not the party, so seats are grouped that way. Unlit seats mean nothing found, never opposition."
