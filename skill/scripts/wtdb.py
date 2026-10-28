@@ -492,7 +492,8 @@ def check_boundaries(d, db):
         errs.append("geo_units: the register stops above the local tier. Load the official list of local units with "
                     "their codes (SKILL.md 6.7) before research; it is part of every seed pass")
     root = next((g["name"] for g in db["geo_units"] if g.get("unit_type") == "country"), "")
-    seated = [a["name"] for a in db["actors"] if root and a.get("location") == root and LEGISLATOR.search(a.get("role", ""))]
+    national = re.compile(meta.get("national_seat_roles") or "(?!)")  # roles whose seat is the whole country (Colombia's Senate, indigenous and opposition seats)
+    seated = [a["name"] for a in db["actors"] if root and a.get("location") == root and LEGISLATOR.search(a.get("role", "")) and not national.search(a.get("role", ""))]
     if units and seated:
         warns.append(f"actors: {len(seated)} legislators are placed at the country root, for example {', '.join(seated[:3])}. "
                      f"Seats are places: put each in their constituency (SKILL.md 6.7)")

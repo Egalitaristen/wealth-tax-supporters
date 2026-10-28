@@ -979,9 +979,8 @@ def argentina():
 
 def colombia():
     """The Cámara de Representantes (183 seats, 2026-2030) from the chamber's own page (camara.gov.co/representantes, a JSON object of members by
-    department with their party), and the Senado de la República (103 seats) from a news list of the senators elected in March 2026 (Valora
-    Analitik), because senado.gov.co still shows the 2022-2026 senators. The Senate list is a secondary source: replace it with the Senate's own
-    list once its page shows the 2026-2030 period. A seat the source does not name is shown as Vacant."""
+    department with their party), and the Senado de la República (103 seats) from the Senate's own page (senado.gov.co/index.php/el-senado/senadores; names are listed
+    surname first and the page repeats some entries). A seat the source does not name is shown as Vacant."""
     import html
     PARTY = {"Partido Pacto Histórico": "Pacto Histórico", "Coalición Pacto Histórico": "Pacto Histórico", "Partido Liberal Colombiano": "Partido Liberal",
              "Partido Conservador Colombiano": "Partido Conservador", "Partido Alianza Verde": "Alianza Verde", "Partido Demócrata Colombiano": "Partido Demócrata",
@@ -1002,26 +1001,25 @@ def colombia():
             p = (x.get("Partido") or "").strip()
             deputies.append(dict(name=x["Nombre"].strip(), party=PARTY.get(p, re.sub(r"^Partido ", "", p)) or "Sin partido", ref=re.sub(r"\W+", "-", x["Nombre"].lower()),
                                  place=place.title(), start="", url=(x.get("Perfil") or "https://www.camara.gov.co/representantes")))
-    val = get("https://www.valoraanalitik.com/lista-senadores-elegidos-congreso-colombia-2026-2030/", as_json=False).decode("utf-8", "ignore")
-    val = re.sub(r"<script.*?</script>|<style.*?</style>", "", val, flags=re.S)
-    lines = [re.sub(r"\s+", " ", l).strip() for l in html.unescape(re.sub(r"<[^>]+>", "\n", val)).split("\n")]
-    lines = [l for l in lines if l]
-    start = next((k for k, l in enumerate(lines) if l.startswith("La lista completa de los senadores")), None)
-    if start is None:
-        sys.exit("Colombia: the senators list has moved, check the adapter")
-    senators, cur, want = [], None, 0
-    for l in lines[start + 1:]:
-        m = re.match(r"(.+?)\s+[—–-]\s+(\d+)\s+curul", l)
-        if m:
-            cur, want, got = re.sub(r"\s*\(.*\)$", "", m[1]).strip(), int(m[2]), 0
+    SP = {"Coalición Pacto Histórico - Polo Democrático": "Pacto Histórico", "Colombia Humana - Pacto Histórico": "Pacto Histórico", "Coalición Pacto Histórico - Colombia Humana": "Pacto Histórico",
+          "Polo Democrático Alternativo": "Pacto Histórico", "Coalición Cambio Radical / ALMA": "Cambio Radical", "Alianza Verdes": "Alianza Verde", "Coalición Alianza Verdes / En Marcha": "Alianza Verde",
+          "Alianza por Colombia / En Marcha": "Alianza Verde", "Partido Alianza Social Independiente – ASI": "ASI", "Movimiento Alternativo Indígena y Social MAIS": "MAIS"}
+    sen_url = "https://www.senado.gov.co/index.php/el-senado/senadores"
+    senators, seen = [], set()
+    for m in re.finditer(r'<div class="modazdirectory__result[^"]*">(.*?)<!-- /modazdirectory__result', get(sen_url, as_json=False).decode("utf-8", "ignore"), flags=re.S):
+        h = re.search(r"<h3>(.*?)</h3>", m[1], flags=re.S)
+        ps = [html.unescape(re.sub(r"<[^>]+>", "", q)).strip() for q in re.findall(r"<p>(.*?)</p>", m[1], flags=re.S)]
+        if not h or not ps or not ps[0]:
             continue
-        if cur and got < want and len(l.split()) >= 2 and re.match(r"^[A-ZÁÉÍÓÚÑ][\wÁÉÍÓÚÑáéíóúñü.'’ -]+$", l) and not l.startswith("Destacado"):
-            senators.append(dict(name=l, party=cur, ref=re.sub(r"\W+", "-", l.lower()), place="", start="", url="https://www.valoraanalitik.com/lista-senadores-elegidos-congreso-colombia-2026-2030/"))
-            got += 1
+        name = re.sub(r"\s+", " ", html.unescape(h[1])).strip()  # "Surname Given", as the Senate lists it
+        if name in seen:  # the page repeats some entries
+            continue
+        seen.add(name)
+        senators.append(dict(name=name, party=SP.get(ps[0], ps[0]), ref=re.sub(r"\W+", "-", name.lower()), place="", start="", url=sen_url))
     if len(senators) < 90 or len(deputies) < 150:
         sys.exit(f"Colombia: read {len(deputies)} representatives and {len(senators)} senators, check the adapter")
     colours = {"Pacto Histórico": "7a1f5c", "Centro Democrático": "1c8fd6", "Partido Liberal": "e11931", "Partido Conservador": "1a4a9c", "Partido de la U": "f2c230",
-               "Cambio Radical y Alma": "e07a1f", "Alianza Verde": "62b04b", "Alianza Por Colombia": "62b04b", "Ahora Colombia": "2aa5c9", "Movimiento Salvación Nacional": "6b6b6b"}
+               "Cambio Radical y Alma": "e07a1f", "Alianza Verde": "62b04b", "Ahora Colombia": "2aa5c9", "Movimiento Salvación Nacional": "6b6b6b"}
 
     def chamber(name, seats, members, role, rre, note, src):
         count = {}
@@ -1032,8 +1030,8 @@ def colombia():
                     party_order=order, colours={p: colours.get(p, "8a8680") for p in order}, strict=True,
                     fuzzy_deny=("Miguel Ángel Pinto",))
     return [chamber("Senado de la República", 103, senators, "Senator", r"(?i)senator|senador",
-                    "103 seats for 2026-2030: 102 elected on 8 March 2026 and one for the runner-up of the presidential election if in opposition. Who sits is from a news list of the senators elected (Valora Analitik), a secondary source, because senado.gov.co still lists the 2022-2026 senators; parties are the lists they were elected on. Unlit seats mean nothing found, never opposition.",
-                    "https://www.valoraanalitik.com/lista-senadores-elegidos-congreso-colombia-2026-2030/"),
+                    "103 seats for 2026-2030: 102 elected on 8 March 2026 and one for the runner-up of the presidential election if in opposition. Who sits and their party are from the Senate's own list of senators (surname first); parties are the lists they were elected on, grouped (Pacto Histórico with its coalition partners). Seats the page does not name are shown as Vacant. Unlit seats mean nothing found, never opposition.",
+                    sen_url),
             chamber("Cámara de Representantes", 183, deputies, "Representative", r"(?i)representative|representante",
                     "183 seats for 2026-2030. Who sits and their party are from the chamber's own page (camara.gov.co/representantes); seats the page does not name are shown as Vacant. Unlit seats mean nothing found, never opposition.",
                     "https://www.camara.gov.co/representantes")]
