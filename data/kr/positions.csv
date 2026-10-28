@@ -1,0 +1,12 @@
+position_id,actor_id,body_id,role,party,geo_unit_id,start,end,current,member_ref,checked,source_url
+O00001,A0001,B0001,Member of the National Assembly,Democratic Party,G0001,2024-05-30,,,,,https://www.argusk.com/legislators/ARP89147
+O00002,A0005,B0001,Member of the National Assembly,Unified Progressive Party,G0001,2012-05-30,2014-12-19,n,,2014-12-19,https://archives.nanet.go.kr/upload/namo/files/000034/%EA%B5%AD%ED%9A%8C%ED%9A%8C%EC%9D%98%EB%A1%9D_19%EB%8C%80_330%ED%9A%8C_3%EC%B0%A8_%EA%B5%AD%ED%9A%8C%EB%B3%B8%ED%9A%8C%EC%9D%98.pdf
+O00003,A0011,B0001,Member of the National Assembly,Democratic Party,G0120,2016-05-30,2020-05-29,n,,2020-08-06,https://www.mk.co.kr/news/society/9464781
+O00004,A0014,B0002,Former councillor,,G0112,,,,,,https://www.nec.go.kr/common/board/Download.do?bcIdx=150847&cbIdx=1129&streFileNm=acc3580b-f2d4-4d90-8737-0640364097b6.pdf
+O00005,A0016,B0001,Member of the National Assembly,Democratic Party,G0025,2016-05-30,2020-05-29,n,,2026-07-24,https://overseas.mofa.go.kr/oecd-ko/brd/m_13064/view.do?seq=1340419
+O00006,A0017,B0001,Member of the National Assembly,Progressive Party,G0234,2023-04-06,2024-05-29,n,,2026-01-06,https://v.daum.net/v/20260106114242987
+O00007,A0019,B0001,Member of the National Assembly,Democratic Party,G0003,2008-05-30,2012-05-29,n,,2026-01-19,https://m.nec.go.kr/files/B0000141/201311/BBS_201311250237195551.pdf
+O00008,A0020,B0001,Member of the National Assembly,Justice Party,G0126,2020-05-30,2024-05-29,n,,2024-05-25,https://shindonga.donga.com/politics/article/all/13/4953412/1
+O00009,A0024,B0001,Member of the National Assembly,Unified Progressive Party,G0118,2012-05-30,2014-12-19,n,,2014-12-19,https://archives.nanet.go.kr/upload/namo/files/000034/%EA%B5%AD%ED%9A%8C%ED%9A%8C%EC%9D%98%EB%A1%9D_19%EB%8C%80_330%ED%9A%8C_3%EC%B0%A8_%EA%B5%AD%ED%9A%8C%EB%B3%B8%ED%9A%8C%EC%9D%98.pdf
+O00010,A0025,B0003,Regional assembly member,Progressive Party,G0051,2026-07-01,,,,,https://council.jeonnam-gwangju.go.kr/jngjassem/board/7/1/read/2019
+O00011,A0028,B0004,Former councillor,,G0038,,,,,,https://justice21.org/newhome/board/board_view.html?c1=%EB%B3%B4%EB%8F%84%EC%9E%90%EB%A3%8C&num=166825&page=1

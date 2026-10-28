@@ -1,0 +1,8 @@
+{
+  "name": "South Korea",
+  "iso2": "KR",
+  "lead": "Egalitaristen",
+  "status": "in progress",
+  "boundaries": "boundaries.json",
+  "notes": "Depth: partial seed. Scope: national; regional and local supporters have not been systematically researched. Geography and map use SGIS-derived 2026-10-01 boundaries (CC BY 4.0; Statistics Korea KOGL Type 1), with non-autonomous districts merged into their city. Codes await independent comparison with an official current list. Historical statements do not establish current support."
+}
