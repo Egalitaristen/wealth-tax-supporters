@@ -2,45 +2,52 @@ seat_id,body_id,party,seats,colour,order
 S0001,B001,Pacto Histórico,25,7a1f5c,1
 S0002,B001,Centro Democrático,17,1c8fd6,2
 S0003,B001,Partido Liberal,13,e11931,3
-S0004,B001,Alianza Por Colombia,11,62b04b,4
-S0005,B001,Partido Conservador,10,1a4a9c,5
-S0006,B001,Partido de la U,9,f2c230,6
-S0007,B001,Cambio Radical y Alma,7,e07a1f,7
-S0008,B001,Ahora Colombia,5,2aa5c9,8
-S0009,B001,Movimiento Salvación Nacional,4,6b6b6b,9
-S0010,B001,Circunscripción Indígena,2,8a8680,10
-S0011,B002,Pacto Histórico,41,7a1f5c,1
-S0012,B002,Centro Democrático,30,1c8fd6,2
-S0013,B002,Partido Liberal,24,e11931,3
-S0014,B002,Partido Conservador,20,1a4a9c,4
-S0015,B002,de la U,13,8a8680,5
-S0016,B002,Cambio Radical,12,8a8680,6
-S0017,B002,Alianza Verde,8,62b04b,7
-S0018,B002,Partido Demócrata,3,8a8680,8
-S0019,B002,Creemos,2,8a8680,9
-S0020,B002,ASI,2,8a8680,10
-S0021,B002,Nuevo Liberalismo,2,8a8680,11
-S0022,B002,Colombia Renaciente,2,8a8680,12
-S0023,B002,Movimiento Libres,1,8a8680,13
-S0024,B002,Movimiento Alternativo Indígena y Social (MAIS),1,8a8680,14
-S0025,B002,Salvación Nacional,1,8a8680,15
-S0026,B002,Asoprocacao,1,8a8680,16
-S0027,B002,Consejo Comunitario Río Gualajo,1,8a8680,17
-S0028,B002,Consejo Comunitario Del Rio Cajanbre,1,8a8680,18
-S0029,B002,Resguardo Indígena De Toribío,1,8a8680,19
-S0030,B002,Consejo Comunitario Mayor De Novita “Cocoman”,1,8a8680,20
-S0031,B002,Asociación De Víctimas Constructoras De Paz,1,8a8680,21
-S0032,B002,Consejo Comunitario los Andes,1,8a8680,22
-S0033,B002,Asociación Paz es Vida (PA-VIDA),1,8a8680,23
-S0034,B002,Asociación de Productores de Cacao (Aprocasur),1,8a8680,24
-S0035,B002,Yo soy Urabá,1,8a8680,25
-S0036,B002,"Asociación De Parceleros Retornantes Del Tesoro ""Asodepart""",1,8a8680,26
-S0037,B002,Asomontemaría,1,8a8680,27
-S0038,B002,Asoambeima,1,8a8680,28
-S0039,B002,Comité de Ganaderos de La Montañita (COMOGAN),1,8a8680,29
-S0040,B002,Asociación De Víctimas Caminos De Esperanza Las Mercedes,1,8a8680,30
-S0041,B002,MIRA,1,8a8680,31
-S0042,B002,Movimiento Unidad en Minga por Colombia,1,8a8680,32
-S0043,B002,"C.P. Art. 112, A.L. 02 de 2015 Art. 1 y Est. de Oposición Ley, 1909 de 2018 Art. 24",1,8a8680,33
-S0044,B002,Político La Fuerza,1,8a8680,34
-S0045,B002,Vacant,2,,35
+S0004,B001,Partido Conservador,9,1a4a9c,4
+S0005,B001,Alianza Verde,8,62b04b,5
+S0006,B001,Cambio Radical,7,8a8680,6
+S0007,B001,Partido de la U,5,f2c230,7
+S0008,B001,Salvación Nacional,4,8a8680,8
+S0009,B001,MIRA,3,8a8680,9
+S0010,B001,Partido de la Unión por la Gente,3,8a8680,10
+S0011,B001,ASI,3,8a8680,11
+S0012,B001,Unión Patriótica,1,8a8680,12
+S0013,B001,AICO,1,8a8680,13
+S0014,B001,Dignidad & Compromiso,1,8a8680,14
+S0015,B001,MAIS,1,8a8680,15
+S0016,B001,Nuevo Liberalismo,1,8a8680,16
+S0017,B001,Vacant,1,,17
+S0018,B002,Pacto Histórico,41,7a1f5c,1
+S0019,B002,Centro Democrático,30,1c8fd6,2
+S0020,B002,Partido Liberal,24,e11931,3
+S0021,B002,Partido Conservador,20,1a4a9c,4
+S0022,B002,de la U,13,8a8680,5
+S0023,B002,Cambio Radical,12,8a8680,6
+S0024,B002,Alianza Verde,8,62b04b,7
+S0025,B002,Partido Demócrata,3,8a8680,8
+S0026,B002,Creemos,2,8a8680,9
+S0027,B002,ASI,2,8a8680,10
+S0028,B002,Nuevo Liberalismo,2,8a8680,11
+S0029,B002,Colombia Renaciente,2,8a8680,12
+S0030,B002,Movimiento Libres,1,8a8680,13
+S0031,B002,Movimiento Alternativo Indígena y Social (MAIS),1,8a8680,14
+S0032,B002,Salvación Nacional,1,8a8680,15
+S0033,B002,Asoprocacao,1,8a8680,16
+S0034,B002,Consejo Comunitario Río Gualajo,1,8a8680,17
+S0035,B002,Consejo Comunitario Del Rio Cajanbre,1,8a8680,18
+S0036,B002,Resguardo Indígena De Toribío,1,8a8680,19
+S0037,B002,Consejo Comunitario Mayor De Novita “Cocoman”,1,8a8680,20
+S0038,B002,Asociación De Víctimas Constructoras De Paz,1,8a8680,21
+S0039,B002,Consejo Comunitario los Andes,1,8a8680,22
+S0040,B002,Asociación Paz es Vida (PA-VIDA),1,8a8680,23
+S0041,B002,Asociación de Productores de Cacao (Aprocasur),1,8a8680,24
+S0042,B002,Yo soy Urabá,1,8a8680,25
+S0043,B002,"Asociación De Parceleros Retornantes Del Tesoro ""Asodepart""",1,8a8680,26
+S0044,B002,Asomontemaría,1,8a8680,27
+S0045,B002,Asoambeima,1,8a8680,28
+S0046,B002,Comité de Ganaderos de La Montañita (COMOGAN),1,8a8680,29
+S0047,B002,Asociación De Víctimas Caminos De Esperanza Las Mercedes,1,8a8680,30
+S0048,B002,MIRA,1,8a8680,31
+S0049,B002,Movimiento Unidad en Minga por Colombia,1,8a8680,32
+S0050,B002,"C.P. Art. 112, A.L. 02 de 2015 Art. 1 y Est. de Oposición Ley, 1909 de 2018 Art. 24",1,8a8680,33
+S0051,B002,Político La Fuerza,1,8a8680,34
+S0052,B002,Vacant,2,,35
