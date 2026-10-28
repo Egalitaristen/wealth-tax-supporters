@@ -42,3 +42,6 @@ Hong Heon-ho argued in his 2012 signed Pressian article for a South Korean wealt
 
 ## R009 — forum lead and quote review, 2026-10-28
 Opened the original 2016 forum report and added an individually attributed wealth-tax statement by existing supporter You Jong-il; the article describes his emphasis on financial assets. Closed lead D0001. Read the two R007 excerpts in the 2011 Voice of the People article; both appear in context. Corrected their dates to the 20 January event and changed E00035 from A to B because its wording is the reporter’s narration. Automated checking still skipped that source. This is a source review, not a completed local or parliamentary sweep.
+
+## R010 — candidate and historical political sources, 2026-10-28
+Added Kang Seung-cheol, who personally proposed rates at the 2023 party policy convention, and An So-hee, whose 2024 candidacy pledge was reported by Yonhap. Added former lawmaker Kim Moo-sung for his 2012 personal call for a wealth tax, while recording that he clarified it was not party policy. The national party and its candidates are not conflated; candidates named only in collective party announcements were not added. Sources were opened individually and support is historical unless a later position is found.
