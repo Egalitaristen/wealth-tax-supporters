@@ -1,24 +1,29 @@
 position_id,actor_id,body_id,role,party,geo_unit_id,start,end,current,member_ref,checked,source_url
-O00001,A0001,B0001,National deputy,,G0002,,,n,,2026-10-28,https://www.diputados.gob.ar/diputados/
-O00002,A0002,B0001,National deputy,Unión por la Patria,G0003,2023-12-10,,y,mkirchner,2026-10-28,https://www.diputados.gob.ar/diputados/mkirchner/
-O00003,A0003,B0001,National deputy,Unión por la Patria,G0002,2025-12-10,,y,ihagman,2026-10-28,https://www.diputados.gob.ar/diputados/ihagman/
-O00004,A0006,B0001,National deputy,,G0004,,,n,,2026-10-28,https://www.diputados.gob.ar/diputados/
-O00005,A0007,B0001,National deputy,,G0003,,,n,,2026-10-28,https://www.diputados.gob.ar/diputados/
-O00006,A0008,B0001,National deputy,,G0003,,,n,,2026-10-28,https://www.diputados.gob.ar/diputados/
-O00007,A0009,B0001,National deputy,,G0019,,,n,,2026-10-28,https://www.diputados.gob.ar/diputados/
-O00008,A0010,B0001,National deputy,,G0003,,,n,,2026-10-28,https://www.diputados.gob.ar/diputados/
-O00009,A0011,B0001,National deputy,Unión por la Patria,G0012,2023-12-10,,y,arauschenberger,2026-10-28,https://www.diputados.gob.ar/diputados/arauschenberger/
-O00010,A0012,B0001,National deputy,,G0007,,,n,,2026-10-28,https://www.diputados.gob.ar/diputados/
-O00011,A0013,B0001,National deputy,Unión por la Patria,G0003,2025-12-10,,y,hyasky,2026-10-28,https://www.diputados.gob.ar/diputados/hyasky/
-O00012,A0014,B0001,National deputy,,G0003,,,n,,2026-10-28,https://www.diputados.gob.ar/diputados/
-O00013,A0015,B0001,National deputy,,G0002,,,n,,2026-10-28,https://www.diputados.gob.ar/diputados/
-O00014,A0016,B0001,National deputy,,G0017,,,n,,2026-10-28,https://www.diputados.gob.ar/diputados/
-O00015,A0017,B0001,National deputy,,G0009,,,n,,2026-10-28,https://www.diputados.gob.ar/diputados/
-O00016,A0041,B0001,National deputy,,G0014,,,n,,2026-10-28,https://www.diputados.gob.ar/diputados/
-O00017,A0042,B0001,National deputy,,G0013,,,n,,2026-10-28,https://www.diputados.gob.ar/diputados/
-O00018,A0006,B0002,National senator,Frente de Todos,G0004,2021-12-10,,y,398,2026-10-28,https://www.senado.gob.ar/senadores/senador/398
-O00019,A0016,B0002,National senator,Fuerza Patria,G0017,2025-12-10,,y,588,2026-10-28,https://www.senado.gob.ar/senadores/senador/588
 O00020,A0032,B0003,Córdoba provincial legislator,,G0005,,,,,,https://gld.legislaturacba.gob.ar/Publics/Taquigrafica.aspx?id=Q5cmBEbDN1M%3D
 O00021,A0038,B0004,Bariloche councillor,,G1431,,,,,,https://www.concejobariloche.gov.ar/index.php/normas-locales/comunicaciones/15410-c-20-1039
 O00022,A0039,B0004,Bariloche councillor,,G1431,,,,,,https://www.concejobariloche.gov.ar/index.php/normas-locales/comunicaciones/15410-c-20-1039
 O00023,A0040,B0004,Bariloche councillor,,G1431,,,,,,https://www.concejobariloche.gov.ar/index.php/normas-locales/comunicaciones/15410-c-20-1039
+O00024,A0001,B0001,National deputy,,G0002,,,n,,2026-10-28,https://www.diputados.gob.ar/diputados/
+O00025,A0002,B0001,National deputy,Unión por la Patria,G0003,2023-12-10,,y,mkirchner,2026-10-28,https://www.diputados.gob.ar/diputados/mkirchner/
+O00026,A0003,B0001,National deputy,Unión por la Patria,G0002,2025-12-10,,y,ihagman,2026-10-28,https://www.diputados.gob.ar/diputados/ihagman/
+O00027,A0007,B0001,National deputy,,G0003,,,n,,2026-10-28,https://www.diputados.gob.ar/diputados/
+O00028,A0008,B0001,National deputy,,G0003,,,n,,2026-10-28,https://www.diputados.gob.ar/diputados/
+O00029,A0009,B0001,National deputy,,G0019,,,n,,2026-10-28,https://www.diputados.gob.ar/diputados/
+O00030,A0010,B0001,National deputy,,G0003,,,n,,2026-10-28,https://www.diputados.gob.ar/diputados/
+O00031,A0011,B0001,National deputy,Unión por la Patria,G0012,2023-12-10,,y,arauschenberger,2026-10-28,https://www.diputados.gob.ar/diputados/arauschenberger/
+O00032,A0012,B0001,National deputy,,G0007,,,n,,2026-10-28,https://www.diputados.gob.ar/diputados/
+O00033,A0013,B0001,National deputy,Unión por la Patria,G0003,2025-12-10,,y,hyasky,2026-10-28,https://www.diputados.gob.ar/diputados/hyasky/
+O00034,A0014,B0001,National deputy,,G0003,,,n,,2026-10-28,https://www.diputados.gob.ar/diputados/
+O00035,A0015,B0001,National deputy,,G0002,,,n,,2026-10-28,https://www.diputados.gob.ar/diputados/
+O00036,A0017,B0001,National deputy,,G0009,,,n,,2026-10-28,https://www.diputados.gob.ar/diputados/
+O00037,A0041,B0001,National deputy,,G0014,,,n,,2026-10-28,https://www.diputados.gob.ar/diputados/
+O00038,A0042,B0001,National deputy,,G0013,,,n,,2026-10-28,https://www.diputados.gob.ar/diputados/
+O00039,A0050,B0001,National deputy,Unión por la Patria,G0009,2023-12-10,,y,bosuna,2026-10-28,https://www.diputados.gob.ar/diputados/bosuna/
+O00040,A0006,B0002,National senator,Frente de Todos,G0004,2021-12-10,,y,398,2026-10-28,https://www.senado.gob.ar/senadores/senador/398
+O00041,A0016,B0002,National senator,Fuerza Patria,G0017,2025-12-10,,y,588,2026-10-28,https://www.senado.gob.ar/senadores/senador/588
+O00042,A0051,B0002,National senator,Frente Todos,G0006,2021-12-10,,y,461,2026-10-28,https://www.senado.gob.ar/senadores/senador/461
+O00043,A0052,B0002,National senator,Justicialista,G0014,2021-12-10,,y,468,2026-10-28,https://www.senado.gob.ar/senadores/senador/468
+O00044,A0053,B0002,National senator,Alianza Unión por la Patria,G0010,2023-12-10,,y,294,2026-10-28,https://www.senado.gob.ar/senadores/senador/294
+O00045,A0054,B0002,National senator,Alianza Unión por la Patria,G0010,2023-12-10,,y,477,2026-10-28,https://www.senado.gob.ar/senadores/senador/477
+O00046,A0055,B0002,National senator,Frente Fuerza Patria Peronista,G0023,2025-12-10,,y,510,2026-10-28,https://www.senado.gob.ar/senadores/senador/510
+O00047,A0056,B0002,National senator,Fuerza Patria,G0002,2025-12-10,,y,498,2026-10-28,https://www.senado.gob.ar/senadores/senador/498
