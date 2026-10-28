@@ -1,1 +1,13 @@
 seat_id,body_id,party,seats,colour,order
+S0001,B0002,Fuerza Popular,22,f58025,1
+S0002,B0002,Juntos por el Perú,14,c72b32,2
+S0003,B0002,Renovación Popular,8,1681c1,3
+S0004,B0002,Partido del Buen Gobierno,7,69438d,4
+S0005,B0002,Partido Cívico Obras,5,e4b425,5
+S0006,B0002,Ahora Nación,4,843f9c,6
+S0007,B0003,Fuerza Popular,41,f58025,1
+S0008,B0003,Juntos por el Perú,32,c72b32,2
+S0009,B0003,Partido del Buen Gobierno,18,69438d,3
+S0010,B0003,Renovación Popular,15,1681c1,4
+S0011,B0003,Partido Cívico Obras,14,e4b425,5
+S0012,B0003,Ahora Nación,10,843f9c,6

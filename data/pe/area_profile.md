@@ -22,3 +22,8 @@ A broad web sample for Lima, Arequipa, Cusco, Trujillo and Piura returned no con
 
 ## R004: Original bills
 The scanned [bill 06615](https://www.leyes.congreso.gob.pe/Documentos/2016_2021/Proyectos_de_Ley_y_de_Resoluciones_Legislativas/PL06615-20201105.pdf) taxes net wealth and its signature page was visually checked against the [author index](https://jeqo.github.io/peru-congreso/proyectos-ley/2016-2021/06600/06615/). The scanned [bill 4887](https://www.leyes.congreso.gob.pe/Documentos/2016_2021/Proyectos_de_Ley_y_de_Resoluciones_Legislativas/PL04887_20200324.pdf) instead sets income or real-estate thresholds; its sponsor is excluded on that evidence.
+
+## Map and seats — 28 October 2026
+The [OCHA HDX Peru COD-AB](https://data.humdata.org/dataset/cod-ab-per) provides IGN boundaries under CC BY 3.0 IGO, valid in 2020 and reviewed in 2025. Of 1,893 register districts, 1,872 match the map; 21 lack separate shapes. A composite Mazamari–Pangoa polygon (PE120699) does not match a register code and was omitted. Older polygons may not show later boundary changes. Province and department outlines use the same source.
+
+[Senate](https://senado.congreso.gob.pe/senador/) and [Chamber of Deputies](https://diputados.congreso.gob.pe/diputado/) official member datasets list 60 and 130 members respectively. Counts represent the published group for each roster entry; five Senate entries have blank condition, while two deputy entries say elected and one has a blank condition. Mirtha Vásquez is confirmed as a sitting senator elected nationwide. Historical positions refer to the previous unicameral Congress.

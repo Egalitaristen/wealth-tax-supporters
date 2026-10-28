@@ -1,2 +1,4 @@
 body_id,name,level,kind,seats,as_of,source_url,seat_view,notes
 B0001,Congress of the Republic,national,chamber,,,https://www.congreso.gob.pe/,,
+B0002,Senado de la República,national,chamber,60,2026-10-28,https://senado.congreso.gob.pe/senador/,y,Official chamber roster: 60 listed; five entries lack a condition field. Groups reflect the published roster.
+B0003,Cámara de Diputados,national,chamber,130,2026-10-28,https://diputados.congreso.gob.pe/diputado/,y,Official chamber roster: 130 listed; two entries are marked elected and one has no condition. Groups reflect the published roster.

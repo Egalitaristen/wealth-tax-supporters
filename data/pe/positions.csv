@@ -1,11 +1,12 @@
 position_id,actor_id,body_id,role,party,geo_unit_id,start,end,current,member_ref,checked,source_url
-P0001,A0001,B0001,Congresswoman,Broad Front,,,,n,,2026-10-28,https://comunicaciones.congreso.gob.pe/despacho-informa/congresistas-del-fa-presentan-proyecto-de-ley-de-impuesto-a-las-grandes-fortunas/
-P0002,A0002,B0001,Congresswoman,Broad Front,,,,n,,2026-10-28,https://comunicaciones.congreso.gob.pe/despacho-informa/congresistas-del-fa-presentan-proyecto-de-ley-de-impuesto-a-las-grandes-fortunas/
-P0003,A0003,B0001,Congressman,We Are Peru,,,,n,,2026-10-28,https://andina.pe/agencia/noticia-congreso-somos-peru-plantea-crear-impuesto-sobre-riqueza-820568.aspx
-P0004,A0004,B0001,Congresswoman,Free Peru,,,,n,,2026-10-28,https://iuslatin.pe/presentan-proyecto-de-ley-para-cobrar-impuesto-adicional-a-los-ciudadanos-mas-ricos/
-P0005,A0013,B0001,Congress member,We Are Peru,,2020,2021,n,,2026-10-28,https://comunicaciones.congreso.gob.pe/noticias/congresistas-electos-recibieron-credenciales/
-P0006,A0014,B0001,Congress member,We Are Peru,,2020,2021,n,,2026-10-28,https://comunicaciones.congreso.gob.pe/noticias/congresistas-electos-recibieron-credenciales/
-P0007,A0015,B0001,Congress member,We Are Peru,,2020,2021,n,,2026-10-28,https://comunicaciones.congreso.gob.pe/noticias/congresistas-electos-recibieron-credenciales/
-P0008,A0016,B0001,Congress member,We Are Peru,,2020,2021,n,,2026-10-28,https://comunicaciones.congreso.gob.pe/noticias/congresistas-electos-recibieron-credenciales/
-P0009,A0017,B0001,Congress member,We Are Peru,,2020,2021,n,,2026-10-28,https://comunicaciones.congreso.gob.pe/noticias/congresistas-electos-recibieron-credenciales/
-P0010,A0018,B0001,Congress member,We Are Peru,,2020,2021,n,,2026-10-28,https://comunicaciones.congreso.gob.pe/noticias/congresistas-electos-recibieron-credenciales/
+P0001,A0001,B0001,Congresswoman,Broad Front,G0016,,2021,n,,2026-10-28,https://comunicaciones.congreso.gob.pe/despacho-informa/congresistas-del-fa-presentan-proyecto-de-ley-de-impuesto-a-las-grandes-fortunas/
+P0002,A0002,B0001,Congresswoman,Broad Front,G0007,,2021,n,,2026-10-28,https://comunicaciones.congreso.gob.pe/despacho-informa/congresistas-del-fa-presentan-proyecto-de-ley-de-impuesto-a-las-grandes-fortunas/
+P0003,A0003,B0001,Congressman,We Are Peru,G0003,,2021,n,,2026-10-28,https://andina.pe/agencia/noticia-congreso-somos-peru-plantea-crear-impuesto-sobre-riqueza-820568.aspx
+P0004,A0004,B0001,Congresswoman,Free Peru,G0003,,2026,n,,2026-10-28,https://iuslatin.pe/presentan-proyecto-de-ley-para-cobrar-impuesto-adicional-a-los-ciudadanos-mas-ricos/
+P0005,A0013,B0001,Congress member,We Are Peru,G0003,2020,2021,n,,2026-10-28,https://comunicaciones.congreso.gob.pe/noticias/congresistas-electos-recibieron-credenciales/
+P0006,A0014,B0001,Congress member,We Are Peru,G0016,2020,2021,n,,2026-10-28,https://comunicaciones.congreso.gob.pe/noticias/congresistas-electos-recibieron-credenciales/
+P0007,A0015,B0001,Congress member,We Are Peru,G0021,2020,2021,n,,2026-10-28,https://comunicaciones.congreso.gob.pe/noticias/congresistas-electos-recibieron-credenciales/
+P0008,A0016,B0001,Congress member,We Are Peru,G0009,2020,2021,n,,2026-10-28,https://comunicaciones.congreso.gob.pe/noticias/congresistas-electos-recibieron-credenciales/
+P0009,A0017,B0001,Congress member,We Are Peru,G0007,2020,2021,n,,2026-10-28,https://comunicaciones.congreso.gob.pe/noticias/congresistas-electos-recibieron-credenciales/
+P0010,A0018,B0001,Congress member,We Are Peru,G0014,2020,2021,n,,2026-10-28,https://comunicaciones.congreso.gob.pe/noticias/congresistas-electos-recibieron-credenciales/
+P0011,A0002,B0002,Senator,Ahora Nación,G0001,2026-07-27,,y,,2026-10-28,https://senado.congreso.gob.pe/senador/vasquez-chuquilin-mirtha-esther/
