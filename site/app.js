@@ -125,7 +125,7 @@ async function render(fresh) {
   $$('.nav a, .fb-link').forEach(a => a.removeAttribute('aria-current'));
   try {
     const W = await WORLD();
-    $('#built').textContent = `Data built ${W.built} · ${W.countries.length} countries · ${fmt(W.countries.reduce((n, c) => n + c.supporters, 0))} supporters`;
+    $('#built').textContent = `Data built ${W.built} · ${W.countries.length} countries · ${fmt(W.unique_supporters != null ? W.unique_supporters : W.countries.reduce((n, c) => n + c.supporters, 0))} supporters`;
     const country = W.countries.find(c => c.slug === (parts[0] || '').toLowerCase()) || (W.bodies || []).find(c => c.slug === (parts[0] || '').toLowerCase());
     if (!parts.length) await home(W);
     else if (parts[0] === 'countries' && parts.length === 1) await countriesPage(W);
@@ -165,11 +165,25 @@ async function searchData() {
   const [I, W] = await Promise.all([INDEX(), WORLD()]);
   const cname = Object.fromEntries(W.countries.map(c => [c.slug, c.name])), ciso = Object.fromEntries(W.countries.map(c => [c.slug, c.iso2]));
   SEARCH = {
-    people: I.people.map(r => ({slug: r[0], id: r[1], name: r[2], type: r[3], role: r[4], place: r[5], grade: r[6], n: r[7],
+    people: I.people.map(r => ({slug: r[0], id: r[1], name: r[2], type: r[3], role: r[4], place: r[5], grade: r[6], n: r[7], qid: r[8] || '',
       nkey: norm(r[2]), key: norm([r[2], r[4], r[5], TYPE[r[3]] || '', TYPES_PL[r[3]] || '', cname[r[0]]].join(' '))})),
     places: I.places.map(r => ({slug: r[0], path: r[1], n: r[2], name: r[1].split(' > ').pop(), key: norm(r[1])})),
     countries: W.countries.map(c => ({slug: c.slug, name: c.name, n: c.supporters, key: norm(c.name + ' ' + c.iso2)})),
     cname, ciso};
+  // One entry per person: the same Wikidata id on several countries' registers is one person. The entry shown is the one with the
+  // strongest evidence; `also` lists the other countries, and `key` holds every country name so a search for any of them still finds it.
+  const best = (a, b) => ('ABC'.indexOf(a.grade) - 'ABC'.indexOf(b.grade)) || (b.n - a.n);
+  const byQid = new Map(), one = [];
+  for (const p of SEARCH.people) {
+    if (!p.qid) { one.push(p); continue; }
+    if (!byQid.has(p.qid)) byQid.set(p.qid, []);
+    byQid.get(p.qid).push(p);
+  }
+  for (const grp of byQid.values()) {
+    grp.sort(best);
+    one.push(grp.length === 1 ? grp[0] : Object.assign({}, grp[0], {also: grp.slice(1).map(p => p.slug), key: grp.map(p => p.key).join(' '), n: grp.reduce((s, p) => s + p.n, 0), all: grp}));
+  }
+  SEARCH.uniq = one;
   return SEARCH;
 }
 function runSearch(S, q, f = {}) {
@@ -179,7 +193,7 @@ function runSearch(S, q, f = {}) {
   const countries = active ? [] : S.countries.filter(c => hit(c.key));
   const places = S.places.filter(p => (!f.type && !f.grade) && (!f.country || p.slug === f.country) && toks.length && (hit(norm(p.name)) || (toks.length > 1 && hit(p.key))))
     .sort((a, b) => (norm(b.name).startsWith(toks[0]) - norm(a.name).startsWith(toks[0])) || b.n - a.n).slice(0, 6);
-  const people = S.people.filter(p => hit(p.key) && (!f.country || p.slug === f.country) && (!f.type || p.type === f.type) && (!f.grade || p.grade === f.grade)).map(p => {
+  const people = (f.country ? S.people : S.uniq).filter(p => hit(p.key) && (!f.country || p.slug === f.country) && (!f.type || p.type === f.type) && (!f.grade || p.grade === f.grade)).map(p => {
     let s = 0;
     if (toks.length) { if (p.nkey.startsWith(toks[0])) s += 4; else if (p.nkey.split(/\s+/).some(w => w.startsWith(toks[0]))) s += 3; else if (hit(p.nkey)) s += 2; }
     s += {A: .6, B: .3, C: 0}[p.grade] || 0;
@@ -206,7 +220,7 @@ function resultsHtml(S, res, q) {
   if (res.places.length) groups.push(`<div class="rgroup">Places</div>` + res.places.map(p =>
     `<a class="ritem" href="/${p.slug}?place=${enc(p.path)}"><span class="rm"><span class="rn">${mark(p.name, q)}</span><span class="rs">${esc(p.path)}</span></span><span class="rc">${fmt(p.n)}</span></a>`).join(''));
   if (res.people.length) groups.push(`<div class="rgroup">People and organisations${res.total > res.people.length ? ` · top ${res.people.length} of ${fmt(res.total)}` : ''}</div>` + res.people.map(p =>
-    `<a class="ritem" href="/${p.slug}/${enc(p.id)}">${glyph(p.grade)}<span class="rm"><span class="rn">${mark(p.name, q)}</span><span class="rs">${esc([TYPE[p.type], p.role, p.place].filter(Boolean).join(' · '))}</span></span><span class="rc" title="${esc(S.cname[p.slug])}">${esc(S.ciso[p.slug])}</span></a>`).join(''));
+    `<a class="ritem" href="/${p.slug}/${enc(p.id)}">${glyph(p.grade)}<span class="rm"><span class="rn">${mark(p.name, q)}</span><span class="rs">${esc([TYPE[p.type], p.role, p.place].filter(Boolean).join(' · '))}</span></span><span class="rc" title="${esc([p.slug, ...(p.also || [])].map(s => S.cname[s]).join(', '))}">${esc(S.ciso[p.slug])}${p.also ? ` +${p.also.length}` : ''}</span></a>`).join(''));
   return groups.join('') || `<div class="rempty">${q.trim() ? `No match for “${esc(q)}”.` : 'No one matches these filters.'} Try a surname, a town, or a type such as “economists”, or loosen the filters.</div>`;
 }
 // A "Filters" button that opens a small panel (country, who, strength). Collapsed until asked for; the count shows what is on.
@@ -408,7 +422,7 @@ async function resourcesPage(W) {
 async function home(W) {
   setTitle('');
   const cs = W.countries;
-  const tot = k => cs.reduce((n, c) => n + (c[k] || 0), 0);
+  const tot = k => k === 'supporters' && W.unique_supporters != null ? W.unique_supporters : cs.reduce((n, c) => n + (c[k] || 0), 0);
   const latest = cs.map(c => c.updated).sort().pop() || W.built;
   const types = {}, designs = {};
   cs.forEach(c => { Object.entries(c.types || {}).forEach(([k, v]) => types[k] = (types[k] || 0) + v); Object.entries(c.designs || {}).forEach(([k, v]) => designs[k] = (designs[k] || 0) + v); });
@@ -1325,7 +1339,7 @@ function evCard(e, m, slug) {
 // ---------- about ----------
 function aboutPage(W) {
   setTitle('About');
-  const cs = W.countries, tot = k => cs.reduce((n, c) => n + (c[k] || 0), 0);
+  const cs = W.countries, tot = k => k === 'supporters' && W.unique_supporters != null ? W.unique_supporters : cs.reduce((n, c) => n + (c[k] || 0), 0);
   const seats = [...cs, ...(W.bodies || [])].reduce((n, c) => n + (c.chambers || []).reduce((m, x) => m + x[1], 0), 0);
   main.innerHTML = `
   <div class="wrap page-head fade"><div class="kicker">About</div><h1>A register of who <em>says so</em></h1></div>
@@ -1527,7 +1541,7 @@ async function globalDirectory(W, params) {
   const countries = S.countries.slice().sort((a, b) => a.name.localeCompare(b.name));
   const types = [...new Set(S.people.map(p => p.type))].sort((a, b) => label(TYPES_PL, a).localeCompare(label(TYPES_PL, b)));
   main.innerHTML = `<div class="wrap page-head fade"><div class="kicker">Everyone on the record</div><h1>The global <em>directory</em></h1>
-    <p class="lede" style="margin-top:18px">${fmt(S.people.length)} public figures and organisations in ${S.countries.length} countries, each with the statement they rest on. Filter by country, type or strength of evidence.</p></div>
+    <p class="lede" style="margin-top:18px">${fmt(S.uniq.length)} public figures and organisations in ${S.countries.length} countries, each with the statement they rest on. Filter by country, type or strength of evidence.</p></div>
     <div class="wrap" style="margin-top:28px;padding-bottom:72px"><section class="c-sec"><div class="dir-main">
       <div class="filters">
         <input class="field q" id="g-q" type="search" placeholder="Filter by name, role, place or country" value="${esc(ST.q)}" aria-label="Filter the directory" autocomplete="off">
@@ -1545,15 +1559,15 @@ async function globalDirectory(W, params) {
   const row = p => `<li><a class="drow" href="/${esc(p.slug)}/${enc(p.id)}">${glyph(p.grade)}
       <span class="dm"><span class="dn">${esc(p.name)}</span><span class="dr">${esc(p.role.slice(0, 140))}</span>
         <span class="dt"><span class="tag">${esc(label(TYPE, p.type))}</span></span></span>
-      <span class="dp">${esc(S.cname[p.slug] || p.slug)}${p.place && p.place !== S.cname[p.slug] ? ' · ' + esc(p.place) : ''}</span>
+      <span class="dp" ${p.also ? `title="${esc([p.slug, ...p.also].map(s => S.cname[s] || s).join(', '))}"` : ''}>${esc(S.cname[p.slug] || p.slug)}${p.also ? ` +${p.also.length} more` : ''}${!p.also && p.place && p.place !== S.cname[p.slug] ? ' · ' + esc(p.place) : ''}</span>
       <span class="dd"><b>${p.n}</b>statement${p.n === 1 ? '' : 's'}</span></a></li>`;
   const draw = () => {
     const toks = norm(ST.q).trim().split(/\s+/).filter(Boolean);
     const sorts = {strength: (a, b) => rank[a.grade] - rank[b.grade] || b.n - a.n, count: (a, b) => b.n - a.n || rank[a.grade] - rank[b.grade], az: (a, b) => a.name.localeCompare(b.name)};
-    const list = S.people.filter(p => (!ST.country || p.slug === ST.country) && (!ST.type || p.type === ST.type) && (!ST.grade || ST.grade.includes(p.grade)) &&
+    const list = (ST.country ? S.people : S.uniq).filter(p => (!ST.country || p.slug === ST.country) && (!ST.type || p.type === ST.type) && (!ST.grade || ST.grade.includes(p.grade)) &&
       toks.every(t => p.key.includes(t))).sort(sorts[ST.sort] || sorts.strength);
     const shown = list.slice(0, ST.limit), active = ST.q || ST.country || ST.type || ST.grade;
-    $('#g-count').innerHTML = `<span>Showing <b>${fmt(shown.length)}</b> of <b>${fmt(list.length)}</b>${list.length !== S.people.length ? ` (${fmt(S.people.length)} in total)` : ''}</span>
+    $('#g-count').innerHTML = `<span>Showing <b>${fmt(shown.length)}</b> of <b>${fmt(list.length)}</b>${list.length !== S.uniq.length ? ` (${fmt(S.uniq.length)} in total)` : ''}</span>
       <span style="display:flex;gap:16px">${active ? '<a href="#" id="g-clear">Clear filters</a>' : ''}<span class="grade-key">${glyph('A')} explicit ${glyph('B')} named ${glyph('C')} implied</span></span>`;
     $('#g-dir').innerHTML = shown.map(row).join('') || '<li class="empty">Nobody matches these filters yet. The register is never complete, so that does not mean nobody there supports a wealth tax.</li>';
     $('#g-more').innerHTML = list.length > shown.length ? `<button class="btn ghost" type="button" id="g-more-btn">Show ${Math.min(100, list.length - shown.length)} more</button>` : '';
