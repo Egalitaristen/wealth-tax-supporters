@@ -18,3 +18,7 @@ Q0016,R002,2026-10-29,ar,"""مهدي لحلو"" ""ضريبة على الثروة
 Q0017,R002,2026-10-29,ar,"""فيدرالية اليسار الديمقراطي"" ""ضريبة على الثروة""",web,5,1,Found 2026-2031 election platform commitment in thevoice.ma
 Q0018,R002,2026-10-29,ar,"""الحزب الاشتراكي الموحد"" ""ضريبة على الثروة""",web,5,1,Found joint leftist alliance 2026-2031 program on psu.ma
 Q0019,R002,2026-10-29,ar,"""الجمعية المغربية لحقوق الإنسان"" ""ضريبة على الثروة""",web,4,3,Found joint memo with Transparency Maroc and Espace Associatif on PLF 2023 on amdh.org.ma
+Q0020,R003,2026-10-29,ar,"""المنظمة الديمقراطية للشغل"" ""ضريبة على الثروة""",web,4,1,Found ODT finance law communique demanding wealth tax on lakome2.com
+Q0021,R003,2026-10-29,ar,"""النهج الديمقراطي"" ""ضريبة تصاعدية على الثروة""",web,4,1,Found Voie Democratique statement on 2021 finance bill on al3omk.com
+Q0022,R003,2026-10-29,ar,"""أطاك المغرب"" ""ضريبة على الثروة""",web,5,1,Found ATTAC Maroc 7th national congress declaration demanding progressive wealth tax on lakome2.com
+Q0023,R003,2026-10-29,fr,"CGEM ""impôt sur la fortune""",web,4,0,Identified CGEM institutional opposition to wealth taxes; added to exclusions
