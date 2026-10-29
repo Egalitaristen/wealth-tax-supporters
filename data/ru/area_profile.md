@@ -11,6 +11,7 @@
 - **2012 Luxury debate & enactment**: Vladimir Putin proposed taxing "prestige consumption" in his 2012 presidential program article. This resulted in transport tax multipliers on luxury automobiles (3x multiplier on cars over 10m RUB) and higher cadastral property tax tiers on real estate over 300m RUB. These statutory property/transport measures are excluded from general net wealth tax definitions.
 - **CPRF Luxury and Super-Wealth Bills**: The Communist Party of the Russian Federation (CPRF) has repeatedly tabled federal bills in the State Duma establishing an annual progressive tax (1% to 4%) on luxury asset holdings and real estate exceeding 150 million rubles, yachts, and private jets (sponsored by Yuri Afonin, Alexey Kurinny, Gennady Zyuganov).
 - **SRZP Solidarity Wealth Tax**: A Just Russia – For Truth (SRZP), led by Sergey Mironov, advocates an annual net wealth tax explicitly modelled on the French *impôt de solidarité sur la fortune* (ISF), proposing annual rates of 1% to 3% on fortunes over $10 million to curb extreme wealth concentration.
+- **2026 Bill No. 1153844-8 on Luxury Property**: In February 2026, State Duma deputies (Sergey Mironov, Mikhail Delyagin, Alexander Aksenenko, Andrey Kuznetsov, Nikolay Novichkov, Alexander Terentyev, Alexander Remezkov) formally introduced Bill No. 1153844-8 amending the Tax Code to institute progressive property tax rates of 3%, 3.5%, and 4% on luxury real estate valued over 350m, 450m, and 550m rubles, alongside a 1%–4% levy on luxury transport.
 - **2024 Progressive Income Tax Reform**: The Russian Government and State Duma enacted a five-tier progressive Personal Income Tax (НДФЛ) ranging from 13% to 22%. Pure personal income tax proposals are excluded under repository rules.
 
 ## 3. Legislatures and where their records are
@@ -60,7 +61,11 @@
 - **Free Economic Society of Russia (VEO)** & **Institute of Economics RAS**: Academic bodies whose leading economists (Alexander Auzan, Sergei Guriev) have debated wealth tax design.
 
 ## 10. Plan for the next runs
-- **Run R002**:
-  - Examine regional legislative assemblies (Moscow City Duma, Legislative Assembly of Saint Petersburg) for regional deputies who introduced federal legislative wealth tax initiatives.
-  - Review trade union executive committee resolutions (KTR, FNPR) on wealth taxation.
-  - Scan Russian academic journals (Voprosy Ekonomiki) for economists publishing formal wealth tax policy models.
+- **Run R002 (Completed)**:
+  - Added 6 State Duma deputies who formally co-sponsored Bill 1153844-8 establishing 3%-4% taxes on luxury real estate (>350m RUB) across 4 regional subjects (Novosibirsk, Sverdlovsk, Altai Krai, Omsk), bringing State Duma deputy coverage to 15 MPs.
+  - Added Federation of Independent Trade Unions of Russia (FNPR, 20m+ members) based on official Congress Program resolution.
+  - Logged Grigory Yavlinsky in exclusions (`opposes`).
+- **Run R003**:
+  - Scan regional CPRF factions in regional assemblies (e.g. Rostov Oblast Legislative Assembly, Krasnodar Krai Legislative Assembly, Irkutsk Legislative Assembly) for regional party bills and public statements.
+  - Explore business associations and public chambers for additional high-net-worth or corporate leaders supporting asset-based taxation.
+  - Review academic publications in *Voprosy Ekonomiki* and *Russian Economic Journal* for structural wealth tax modelling.
