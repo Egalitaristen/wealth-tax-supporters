@@ -1,0 +1,10 @@
+position_id,actor_id,body_id,role,party,geo_unit_id,start,end,current,member_ref,checked,source_url
+O00001,A0001,B0001,Deputy,A Just Russia - For Truth,G0001,2021-10-12,,y,99100800,2026-10-29,http://duma.gov.ru/duma/deputies/8/
+O00002,A0003,B0001,Deputy,Communist Party of the Russian Federation,G0001,2021-10-12,,y,99111812,2026-10-29,http://duma.gov.ru/duma/deputies/8/
+O00003,A0004,B0001,Deputy,Communist Party of the Russian Federation,G0001,2021-10-12,,y,99112948,2026-10-29,http://duma.gov.ru/duma/deputies/8/
+O00004,A0006,B0001,Deputy,A Just Russia - For Truth,G0001,2021-10-12,,y,99100780,2026-10-29,http://duma.gov.ru/duma/deputies/8/
+O00005,A0007,B0001,Deputy,A Just Russia - For Truth,G0001,2021-10-12,,y,99111830,2026-10-29,http://duma.gov.ru/duma/deputies/8/
+O00006,A0008,B0001,Deputy,A Just Russia - For Truth,G0001,2021-10-12,,y,99113645,2026-10-29,http://duma.gov.ru/duma/deputies/8/
+O00007,A0011,B0001,Deputy,Other,G0064,2021-10-12,,y,99100782,2026-10-29,http://duma.gov.ru/duma/deputies/8/
+O00008,A0014,B0001,Deputy,Communist Party of the Russian Federation,G0001,2021-10-12,,y,99100802,2026-10-29,http://duma.gov.ru/duma/deputies/8/
+O00009,A0015,B0001,Deputy,A Just Russia - For Truth,G0010,2016-10-05,2021-10-11,n,99100806,2026-10-29,http://duma.gov.ru/duma/deputies/7/

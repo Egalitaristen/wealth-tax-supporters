@@ -1,0 +1,6 @@
+query_id,run_id,date,language,query,channel,results_opened,leads_added,note
+Q0001,R001,2026-10-29,ru,налог на роскошь законопроект Госдума,web,6,4,State Duma luxury tax bills and parliamentary party initiatives
+Q0002,R001,2026-10-29,ru,налог на богатство Справедливая Россия Миронов,web,5,4,SRZP proposals on net wealth and solidarity tax
+Q0003,R001,2026-10-29,ru,налог на сверхбогатство КПРФ Афонин Куринный,web,4,3,CPRF bills on wealth and luxury assets
+Q0004,R001,2026-10-29,ru,налог на роскошь экономисты Гуриев Аузан Гринберг,web,4,2,Russian economists on wealth/luxury taxation
+Q0005,R001,2026-10-29,ru,налог на богатство Прохоров миллионеры олигархи,web,3,2,Russian business leaders on wealth taxation

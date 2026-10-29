@@ -1,0 +1,8 @@
+{
+  "name": "Russia",
+  "iso2": "RU",
+  "lead": "",
+  "status": "in progress",
+  "boundaries": "boundaries.json",
+  "notes": "Seed pass covering national legislature (State Duma), parliamentary parties (CPRF, SRZP, Yabloko), academic economists, and public figures. Local tier (2,327 rayons/urban okrugs) and 83 federal subjects loaded from geoBoundaries gbOpen (ODbL 1.0)."
+}
