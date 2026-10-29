@@ -1,6 +1,6 @@
-# Morocco: 17 supporters identified across parliamentary opposition, trade unions, economists, and civil society
+# Morocco: 20 supporters identified across parliamentary opposition, trade unions, economists, and civil society
 
-Worked notes from the Morocco research passes (`R001` seed pass, `R002` wider discovery pass, `R003` targeted sweep, 2026-10-29; 17 supporters, 13 documented exclusions, 4 links, 23 bilingual queries logged).
+Worked notes from the Morocco research passes (`R001` seed pass, `R002` wider discovery pass, `R003` targeted sweep, `R004` parliamentary leadership sweep, 2026-10-30; 20 supporters, 14 documented exclusions, 7 links, 27 bilingual queries logged).
 
 ## Levels and the geography register
 
@@ -99,16 +99,31 @@ Worked notes from the Morocco research passes (`R001` seed pass, `R002` wider di
     - Final declaration of the 7th national congress demanding a progressive tax on wealth and corporate profits to fund free public services.
     - Verbatim quote: `فرض ضريبة تصاعدية على الثروات والأرباح، وتوفير خدمات عمومية مجانية للجميع`
 
+18. **A0018: Mohamed Nabil Benabdallah** (`politician`, Secrétaire Général PPS; Wikidata: `Q3318734`).
+    - **Grade B** (`statement`, 2020-05-22).
+    - Signed policy statement explicitly calling for the creation of a wealth tax to finance community works and social equity in marginalized areas.
+    - Verbatim quote: `ندعو الى احدات ضريبة على الثروة وضريبة على الضيعات الفلاحية الكبرى واستثمار هذه الموارد في اشغال جماعاتية واوراش كبرى في المناطق النائية و المهمشة`
+
+19. **A0019: Driss Sentissi** (`politician`, Président du Groupe Haraki).
+    - **Grade B** (`speech`, 2025-10-28).
+    - Parliamentary speech in the House of Representatives challenging the government for failing to introduce a wealth tax while adopting neoliberal policies.
+    - Verbatim quote: `مستغربا في الوقت نفسه غياب ضريبة على الثروة و”تبني سياسة ليبرالية متوحشة تجعل الفقراء يمولون الأغنياء”`
+
+20. **A0020: Rachid Hamouni** (`politician`, Président du Groupe PPS; Wikidata: `Q96758641`).
+    - **Grade B** (`speech`, 2021-11-13).
+    - Parliamentary intervention in finance bill debates demanding that the government enact a wealth tax instead of burdening citizens with consumer taxes.
+    - Verbatim quote: `عوض سن ضريبة على الثروة ومحاربة الاحتكار والفساد الذي يلتهم ملايير الدراهم`
+
 ## What worked and what to watch
 
 - **Annual Finance Bills (PLF):** Morocco does not have a standing statutory net wealth tax. The core of the wealth tax debate occurs each autumn in parliament during scrutiny of the *Loi de Finances* (PLF), where opposition groups (PPS, Haraki, FGD, PSU) and trade unions (CDT) introduce formal amendments.
 - **Terminology:**
   - Arabic: *ضريبة على الثروة* (dariba 'ala ath-tharwa) or *تضريب الثروة* (tadrib ath-tharwa).
   - French: *Impôt sur la fortune* (ISF) or *taxe sur la fortune*.
-- **Crucial Exclusions (13 documented rows in `exclusions.csv`):**
+- **Crucial Exclusions (14 documented rows in `exclusions.csv`):**
   - **Real estate wealth tax proposals (out_of_definition):** In PLF 2026, the Groupe Socialiste (USFP) introduced an amendment targeting real estate assets (*الثروة العقارية*, properties >5M DH at 0.5%–1%). Under Section 2, real estate property taxes are excluded (`X0001`).
   - **Inheritance and luxury goods taxes (out_of_definition):** Economist Mehdi Lahlou advocates for inheritance taxes and taxes on external signs of wealth (yachts, luxury cars) rather than an annual net wealth tax (`X0007`).
-  - **Government opposition:** Minister Nadia Fettah Alaoui, Fouzi Lekjaa, and historically Salah Eddin Mezouar (`X0008`) consistently reject wealth tax proposals citing capital flight risks.
+  - **Government opposition:** Minister Nadia Fettah Alaoui, Fouzi Lekjaa (`X0014`), and historically Salah Eddin Mezouar (`X0008`) consistently reject wealth tax proposals citing capital flight risks.
   - **Political opposition:** Khalid Hariry (USFP, `X0009`) and Lahcen Daoudi (PJD, `X0010`) opposed ISF as populist or impractical.
   - **Employer opposition:** Confédération Générale des Entreprises du Maroc (CGEM, `X0011`) systematically opposes wealth taxes and stock taxation.
   - **Illicit enrichment campaigns (out_of_definition):** Association Marocaine de Protection des Biens Publics (`X0012`) focuses on anti-corruption criminalization ('من أين لك هذا؟') rather than net wealth taxation.

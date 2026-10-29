@@ -1,13 +1,13 @@
 # Area profile — Morocco
 
-Save as `data/ma/area_profile.md`. Targeted sweep pass completed 2026-10-29 (`R003`; 17 supporters, 13 documented exclusions, 4 links, 23 broad queries logged).
+Save as `data/ma/area_profile.md`. Parliamentary group leadership sweep completed 2026-10-30 (`R004`; 20 supporters, 14 documented exclusions, 7 links, 27 broad queries logged).
 
 ## 1. Scope
 - Area: Morocco; type: country (ISO2: `MA`)
-- Depth: Seed pass (`R001`), wider discovery pass (`R002`), and targeted sweep pass (`R003`)
+- Depth: Seed pass (`R001`), wider discovery pass (`R002`), targeted sweep pass (`R003`), and parliamentary leadership sweep (`R004`)
 - Levels of government in scope: National (Bicameral Parliament: Chambre des Représentants, Chambre des Conseillers; Government / Ministry of Economy and Finance), regional (12 regions), and local (75 provinces and prefectures loaded from geoBoundaries gbOpen into `geo_units.csv` and `boundaries.json`).
 - Languages searched: Arabic (`ar`), French (`fr`), English (`en`)
-- Dates of runs: 2026-10-29 (`R001`, `R002`, `R003`)
+- Dates of runs: 2026-10-29 (`R001`, `R002`, `R003`), 2026-10-30 (`R004`)
 
 ## 2. Wealth tax history and live proposals (2010 onwards)
 - **Domestic tax landscape:** Morocco has no statutory annual net wealth tax (*impôt sur la fortune* / ضريبة على الثروة). The fiscal system administered by the Direction Générale des Impôts (DGI) relies primarily on indirect consumption taxes (TVA), corporate tax (IS), and personal income tax (IR), where wage earners bear over 70% of income tax receipts.
@@ -45,6 +45,9 @@ Save as `data/ma/area_profile.md`. Targeted sweep pass completed 2026-10-29 (`R0
 - **A0015: Organisation Démocratique du Travail (ODT)** (`organisation`, `union`). Grade B (`statement`, 2022-01-03). Official trade union communiqué on the 2022 Finance Law demanding the introduction of a wealth tax to fund essential social services.
 - **A0016: Parti de la Voie Démocratique Travailliste** (`organisation`, `party`; Wikidata: `Q3366144`). Grade B (`statement`, 2020-11-05). Left-wing party leadership statement on the 2021 Finance Bill demanding the enactment of a progressive tax on wealth and inheritance.
 - **A0017: Association ATTAC Maroc** (`organisation`, `ngo_campaign`). Grade B (`statement`, 2022-12-20). Final declaration of the 7th national congress demanding a progressive tax on wealth and corporate profits to fund free public services.
+- **A0018: Mohamed Nabil Benabdallah** (`person`, `politician`, Secrétaire Général PPS; Wikidata: `Q3318734`). Grade B (`statement`, 2020-05-22). Published signed appeal explicitly calling for the creation of a wealth tax to finance public works and social equity in marginalized areas.
+- **A0019: Driss Sentissi** (`person`, `politician`, Président du Groupe Haraki). Grade B (`speech`, 2025-10-28). Parliamentary speech in the House of Representatives challenging the government for failing to introduce a wealth tax while adopting neoliberal policies.
+- **A0020: Rachid Hamouni** (`person`, `politician`, Président du Groupe PPS; Wikidata: `Q96758641`). Grade B (`speech`, 2021-11-13). Parliamentary intervention in finance bill debates demanding that the government enact a wealth tax instead of burdening citizens with consumer taxes.
 
 ## 4. Legislatures and where their records are
 - **Chambre des Représentants (House of Representatives):** Lower house, 395 members (`https://www.chambredesrepresentants.ma`). Budget amendments, committee sessions, and plenary debates are published on the website and reported in national press (*Al3omk*, *Hespress*, *Le Matin*).
@@ -82,7 +85,7 @@ Save as `data/ma/area_profile.md`. Targeted sweep pass completed 2026-10-29 (`R0
   - *Médias24* (`https://medias24.com`, economic news, Cloudflare-protected)
 
 ## 9. Key organizations and excluded actors
-- 13 documented exclusions in `exclusions.csv`:
+- 14 documented exclusions in `exclusions.csv`:
   - `Groupe Socialiste – المعارضة الاتحادية (USFP)`: Proposed real estate-only wealth tax on properties > 5M DH; excluded under Section 2 (`out_of_definition`).
   - `Gouvernement du Maroc (Ministère de l'Économie et des Finances)`: Consistently opposes wealth tax amendments (`opposes`).
   - `Parti de l'Istiqlal (PI)`: Center-right nationalist party proposing corporate surcharges of up to 40% on monopolies and economic rents rather than an annual net wealth tax (`out_of_definition`).
@@ -96,6 +99,7 @@ Save as `data/ma/area_profile.md`. Targeted sweep pass completed 2026-10-29 (`R0
   - `Confédération Générale des Entreprises du Maroc (CGEM)`: Employers' federation actively opposing net wealth taxes, arguing capital stock taxation causes flight and investment loss (`opposes`).
   - `Association Marocaine de Protection des Biens Publics`: Anti-corruption NGO focused on illicit enrichment criminalization ('من أين لك هذا؟') rather than annual net wealth tax (`out_of_definition`).
   - `Mohamed Benmoussa`: Economist proposing solidarity taxes specifically on unproductive/idle real estate assets rather than general net wealth (`out_of_definition`).
+  - `Fouzi Lekjaa`: Minister Delegate in charge of the Budget; systematically opposes and pushes back against parliamentary wealth tax amendments, citing capital flight and implementation risks (`opposes`).
 
 ## 10. References
 1. Al3omk, "نواب بالبرلمان يطالبون بفرض ضريبة على أغنياء المغرب لإنعاش مداخيل الدولة", 11 November 2024, `https://al3omk.com/1022595.html`.
