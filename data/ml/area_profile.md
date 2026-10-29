@@ -17,7 +17,7 @@ Save as `data/ml/area_profile.md`. Seed and wider research passes completed 2026
 - **Bilateral tax treaties:** In December 2023, Mali and Niger jointly denounced their 1972 bilateral double-taxation convention with France, which officially terminated in March 2024 to restore domestic taxing rights over cross-border capital flows and service payments [5].
 
 ## 3. Identified supporters
-- **A0001: Moussa Mara** (`politician`, former Prime Minister of Mali 2014–2015, chartered accountant, leader of Yéléma; Wikidata: `Q3326215`). Grade A (`open_letter`, 2023-09-05). Named Malian signatory on the international open letter calling on G20 Heads of State to enact wealth taxes on extreme wealth (`taxextremewealth.com/signatures`).
+- **A0001: Moussa Mara** (`politician`, former Prime Minister of Mali 2014–2015, chartered accountant, leader of Yéléma; Wikidata: `Q3326215`). Grade B (`open_letter`, 2023-09-05; the letter's own signature list, so a roster claim). Named Malian signatory on the international open letter calling on G20 Heads of State to enact wealth taxes on extreme wealth (`taxextremewealth.com/signatures`).
 - **A0002: Clément Dembélé** (`politician` / `academic`, 2018 presidential candidate, university professor, president of the PCC; Wikidata: `Q96048074`). Grade A (`interview`, 2018-01-17). Explicit campaign platform proposal to establish an Impôt de Solidarité sur la Fortune (ISF) in Mali targeting mining assets, real estate, and financial bank holdings (`bamada.net`).
 
 ## 4. Legislatures and where their records are
@@ -75,3 +75,6 @@ Save as `data/ml/area_profile.md`. Seed and wider research passes completed 2026
 3. Tax Extreme Wealth, "G20 Leaders must tax extreme wealth — Signatures", 5 September 2023, `https://taxextremewealth.com/signatures`.
 4. Sika Finance, "Mali : Le gouvernement recouvre des centaines de milliards d'arriérés d'impôts miniers", `https://sikafinance.com/marches/mali-le-gouvernement-recouvre-des-centaines-de-milliards-darrieres-dimpots-miniers_44521`.
 5. Ministère de l'Économie et des Finances, "Dénonciation de la convention fiscale bilatérale franco-malienne", `https://www.impots.gouv.fr`.
+
+## Audit — R003
+- Both quotes were found on their pages. Moussa Mara is regraded A to B because the only evidence is the campaign's signature list. A further search in French (opposition parties, unions, economists, Oxfam and tax-justice networks, Mara's own statements) found no other Malian supporter of a wealth tax; the signature list names only one Malian. Mara was sentenced in October 2025, so recent statements may be hard to find.
