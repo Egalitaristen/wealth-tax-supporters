@@ -1,5 +1,5 @@
 actor_id,name,kind,actor_type,other_types,role,affiliation,party,affiliation_actor_id,country,level,location,geo_unit_id,location_source,wikidata_qid,website,status,alive_checked,prominence,notes,added_run,updated,refined
-A0001,José Antonio Ocampo,person,economist,,Former Minister of Finance,,,,Colombia,national,Colombia,G0001,,,,former_role,y,national,,R001,2026-10-28,
+A0001,José Antonio Ocampo,person,economist,,Former Minister of Finance,,,,Colombia,national,Colombia,G0001,,Q3076265,,former_role,y,national,,R001,2026-10-29,
 A0002,Oxfam Colombia,organisation,ngo_campaign,,,,,,Colombia,national,Colombia,G0001,,,,active,na,national,,R001,2026-10-28,
 A0003,Dejusticia,organisation,think_tank,,,,,,Colombia,national,Colombia,G0001,,,,active,na,national,,R001,2026-10-28,
 A0004,Mariana Matamoros Cárdenas,person,economist,,Researcher at Dejusticia,Dejusticia,,,Colombia,national,Colombia,G0001,,,,active,y,national,,R002,2026-10-28,

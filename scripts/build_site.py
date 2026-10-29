@@ -545,7 +545,7 @@ def poll_line(c):
     return f" In polls, {p.get('support_text') or str(p['support']) + '%'} back {q[0].lower() + q[1:]} ({p['pollster']}, {str(p.get('published', ''))[:4]})."
 
 
-def share_pages(out, base, countries, full):
+def share_pages(out, base, countries, full, unique=None):
     """Writes per-page HTML (and share images when Pillow is installed). Returns the number of pages."""
     try:
         import share_cards as cards
@@ -569,7 +569,8 @@ def share_pages(out, base, countries, full):
         dest.write_text(page_html(base, title, desc, path, img, alt), encoding="utf-8")
         pages += 1
 
-    tot = dict(supporters=sum(c["supporters"] for c in countries), evidence=sum(c["evidence"] for c in countries), countries=len(countries))
+    # One person on several countries' registers counts once in the world totals (same Wikidata id); each country keeps its own count.
+    tot = dict(supporters=unique if unique is not None else sum(c["supporters"] for c in countries), evidence=sum(c["evidence"] for c in countries), countries=len(countries))
     write("/", "Wealth Tax Supporters: who backs a wealth tax near you?",
           f"{tot['supporters']:,} public figures and organisations across {tot['countries']} countries who have backed a wealth tax on the record. Every name links to its source.",
           "home", "Who backs a wealth tax near you?",
@@ -724,8 +725,10 @@ def main():
     for c in (pycountry.countries if pycountry else []):
         if c.alpha_2 not in own and c.numeric not in paths:
             every.add(getattr(c, "common_name", None) or c.name)
+    # Anyone with a Wikidata id on more than one register is one person; rows without an id each count once.
+    unique = len({r[8] or f"{r[0]}/{r[1]}" for r in index})
     world_resources = load_resources(countries)
-    world = dict(paths=paths, countries=countries, bodies=bodies, planned=planned, resources=world_resources, all_countries=sorted(every), built=datetime.date.today().isoformat())
+    world = dict(paths=paths, unique_supporters=unique, countries=countries, bodies=bodies, planned=planned, resources=world_resources, all_countries=sorted(every), built=datetime.date.today().isoformat())
     json.dump(world, open(out / "data" / "world.json", "w", encoding="utf-8"), separators=(",", ":"), ensure_ascii=False)
     json.dump(dict(people=index, places=places), open(out / "data" / "index.json", "w", encoding="utf-8"),
               separators=(",", ":"), ensure_ascii=False)
@@ -735,7 +738,7 @@ def main():
         dh.update(f.read_bytes())
     html = html.replace('name="data-version" content=""', f'name="data-version" content="{dh.hexdigest()[:8]}"')
     (out / "index.html").write_text(html, encoding="utf-8")
-    n = share_pages(out, html, countries, full)
+    n = share_pages(out, html, countries, full, unique)
     print(f"Built {len(countries)} countr{'y' if len(countries) == 1 else 'ies'} and {n} share pages into {out}")
 
 
