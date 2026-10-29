@@ -1,0 +1,20 @@
+position_id,actor_id,body_id,role,party,geo_unit_id,start,end,current,member_ref,checked,source_url
+P0005,A0005,B0001,Member of Folketing,Free Greens,,,,,,,https://www.ft.dk/samling/20211/beslutningsforslag/b70/index.htm
+P0006,A0006,B0001,Member of Folketing,Free Greens,,,,,,,https://www.ft.dk/samling/20211/beslutningsforslag/b70/index.htm
+P0007,A0007,B0001,Member of Folketing,Free Greens,,,,,,,https://www.ft.dk/samling/20211/beslutningsforslag/b70/index.htm
+P0008,A0008,B0001,Member of Folketing,Social Democrats,,2019-06-05,,y,,2026-10-29,https://www.ft.dk/medlemmer/mf/m/mette-frederiksen
+P0009,A0009,B0001,Member of Folketing,Socialist People’s Party,,2026-03-24,,y,,2026-10-29,https://www.ft.dk/medlemmer/mf/p/pia-olsen-dyhr
+P0010,A0025,B0001,Member of Folketing at vote,Red-Green Alliance,,,,,,,https://www.ft.dk/samling/20211/beslutningsforslag/b70/121/506/afstemning.htm
+P0011,A0026,B0001,Member of Folketing at vote,Red-Green Alliance,,,,,,,https://www.ft.dk/samling/20211/beslutningsforslag/b70/121/506/afstemning.htm
+P0012,A0027,B0001,Member of Folketing at vote,Red-Green Alliance,,,,,,,https://www.ft.dk/samling/20211/beslutningsforslag/b70/121/506/afstemning.htm
+P0013,A0028,B0001,Member of Folketing,Red-Green Alliance,,2019-06-05,,y,,2026-10-29,https://www.ft.dk/medlemmer/mf/p/peder-hvelplund
+P0014,A0029,B0001,Member of Folketing at vote,Red-Green Alliance,,,,,,,https://www.ft.dk/samling/20211/beslutningsforslag/b70/121/506/afstemning.htm
+P0015,A0030,B0001,Member of Folketing,Red-Green Alliance,,2019-06-05,,y,,2026-10-29,https://www.ft.dk/medlemmer/mf/r/rosa-lund
+P0016,A0031,B0001,Former member of Folketing,Red-Green Alliance,,2015-06-18,2026-03-24,n,,2026-10-29,https://www.ft.dk/medlemmer/mf/s/soeren-egge-rasmussen
+P0017,A0032,B0001,Member of Folketing,The Alternative,,2019-06-05,,y,,2026-10-29,https://www.ft.dk/medlemmer/mf/t/torsten-gejl
+P0018,A0033,B0001,Member of Folketing,Red-Green Alliance,,2019-06-05,,y,,2026-10-29,https://www.ft.dk/medlemmer/mf/v/victoria-velasquez
+P0019,A0041,B0001,Member of Folketing,Red-Green Alliance,,2022-11-01,,y,,2026-10-29,https://www.ft.dk/medlemmer/mf/p/pelle-dragsted
+P0020,A0043,B0001,Former member of Folketing,Social Democrats,,1981,2019,,,,https://lex.dk/Mogens_Lykketoft
+P0021,A0046,B0002,Councillor at time of article,Social Democrats,G0013,,,,,,https://piopio.dk/debat-formueskat-er-ikke-misundelse-det-er-sund-fornuft
+P0022,A0048,B0001,Former member of Folketing,Red-Green Alliance,,2019-06-05,2022-08-11,n,,2026-10-29,https://www.ft.dk/medlemmer/fhvmf/r/rune-lund
+P0023,A0049,B0001,Former substitute member of Folketing,Socialist People’s Party,,2021-11-23,2022-06-06,n,,2026-10-29,https://www.ft.dk/api/member/download?id=%7B521745C9-F458-4E72-A950-2DC0B3430AB7%7D

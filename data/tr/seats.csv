@@ -1,0 +1,18 @@
+seat_id,body_id,party,seats,colour,order
+S00001,B0001,Workers' Party of Turkey,3,D21F1B,1
+S00002,B0001,Labour Party,2,C4121B,2
+S00003,B0001,Democratic Regions Party,2,00923F,3
+S00004,B0001,Peoples' Equality and Democracy Party,56,6C237E,4
+S00005,B0001,Republican People's Party,44,ED1C24,5
+S00006,B0001,Democratic Left Party,1,2AB7CA,6
+S00007,B0001,Felicity Party,1,14753F,7
+S00008,B0001,Democrat Party,1,0055A5,8
+S00009,B0001,Yeni Yol Partisi,20,00A0B0,9
+S00010,B0001,Yeni Parti,91,F38630,10
+S00011,B0001,Good Party,26,0094D8,11
+S00012,B0001,Justice and Development Party,281,FF9900,12
+S00013,B0001,New Welfare Party,3,E30A17,13
+S00014,B0001,Nationalist Movement Party,46,870000,14
+S00015,B0001,Free Cause Party,4,006633,15
+S00016,B0001,Independent,11,A8ADB3,16
+S00017,B0001,Vacant,8,DDDDDD,17

@@ -1,0 +1,8 @@
+{
+  "name": "Denmark",
+  "iso2": "DK",
+  "lead": "",
+  "status": "in progress",
+  "boundaries": "boundaries.json",
+  "notes": "Seed pass: national, regional and municipal scope; 5 regions and 98 municipalities. Geographic register loaded, local research limited. Municipal and regional map based on DAGI data from Vejdirektoratet, CC BY 4.0, retrieved 2026-10-29."
+}

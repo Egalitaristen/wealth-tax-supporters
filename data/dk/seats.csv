@@ -1,0 +1,18 @@
+seat_id,body_id,party,seats,colour,order
+S0001,B0001,Red-Green Alliance,11,e53935,1
+S0002,B0001,The Alternative,5,00a651,2
+S0003,B0001,Socialist People’s Party,20,e64043,3
+S0004,B0001,Social Democrats,38,d20a11,4
+S0005,B0001,Social Liberal Party,10,733280,5
+S0006,B0001,Moderates,14,993399,6
+S0007,B0001,Venstre,17,0053a0,7
+S0008,B0001,Conservative People’s Party,13,00513e,8
+S0009,B0001,Liberal Alliance,15,3db5cc,9
+S0010,B0001,Danish People’s Party,16,fbd52b,10
+S0011,B0001,Denmark Democrats,10,003c72,11
+S0012,B0001,Borgernes Parti,1,416f85,12
+S0013,B0001,Inuit Ataqatigiit,1,b8232c,13
+S0014,B0001,Naleraq,1,ffbd00,14
+S0015,B0001,Javnaðarflokkurin,1,b4222a,15
+S0016,B0001,Sambandsflokkurin,1,2173b9,16
+S0017,B0001,Independent,5,888888,17
