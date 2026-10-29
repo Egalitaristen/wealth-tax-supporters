@@ -1,0 +1,8 @@
+{
+  "name": "Tanzania",
+  "iso2": "TZ",
+  "lead": "",
+  "status": "in progress",
+  "boundaries": "",
+  "notes": "Initial research; seed pass incomplete. Scope includes national, regional and sampled local research. Geography is provisional: the NBS 2022 census ward attributes identify 31 regions and 195 council areas (184 mainland and 11 Zanzibar); a 2023/24 Zanzibar report also lists Zanzibar City Council, which may overlap constituent municipalities. Council code components are recorded in notes but not asserted as unique official full codes. No map: NBS 2022 shapefile does not state an open licence; HDX CC BY-IGO 2018 district boundaries do not match the council tier."
+}

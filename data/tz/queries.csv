@@ -1,0 +1,29 @@
+query_id,run_id,date,language,query,channel,results_opened,leads_added,note
+Q0001,R001,2026-10-28,en,Tanzania wealth tax inequality proposal tax rich,web,,,Initial broad search; first pass remains incomplete.
+Q0002,R001,2026-10-28,en,Tanzania wealth tax Oxfam Tanzania,web,,,Initial broad search; first pass remains incomplete.
+Q0003,R001,2026-10-28,sw,Tanzania kodi ya utajiri matajiri,web,,,Initial broad search; first pass remains incomplete.
+Q0004,R002,2026-10-28,en,Tanzania wealth tax net wealth tax policy forum civil society,web,,,Policy Forum brief discusses possible net wealth taxes; endorsement not established.
+Q0005,R002,2026-10-28,sw,kodi ya utajiri Tanzania kodi utajiri wanaharakati,web,,,Swahili results included SADC report; attribution and Tanzanian support require further investigation.
+Q0006,R003,2026-10-28,en,Tanzania official list local government authorities 2024 2025 Zanzibar,web,,,Official 2024/25 mainland audit lists 184 councils; Zanzibar 2023/24 finance report lists 12 authorities. Neither inspected list has matching geographic codes.
+Q0007,R004,2026-10-28,en,Tanzania 2022 census council geographic codes NBS,web,,,NBS 2022 ward shapefile identifies 195 named council areas and region/district/council components; licence for map use not specified.
+Q0008,R005,2026-10-28,en,Tanzania wealth tax civil society Oxfam campaign net wealth tax,web,,,"Search returned Morwa, Policy Forum consultation and UN report; no additional qualifying Tanzanian endorsement verified."
+Q0009,R006,2026-10-28,sw,kodi ya utajiri Tanzania usawa sera kodi,web,,,Found Swahili SADC inequality report and faith-leader foreword; support attribution unresolved.
+Q0010,R006,2026-10-28,sw,kodi kwa matajiri utajiri Tanzania,web,,,No additional qualifying endorsement identified.
+Q0011,R006,2026-10-28,en,wealth tax Tanzania parliament bunge,web,,,No qualifying parliamentary endorsement identified from broad web search.
+Q0012,R006,2026-10-28,en,wealth tax Dar es Salaam Dodoma Arusha Mwanza Zanzibar,web,,,"Broad geographic sampling found Dodoma national policy event, but no sourced council action; not a completed council sweep."
+Q0013,R007,2026-10-28,sw,SADC Tanzania kodi ya hisa ya utajiri ripoti Oxfam DFI Norwegian Church Aid,web,,,"Swahili report published by Oxfam, DFI and NCA recommends wealth-stock taxation to regional governments."
+Q0014,R008,2026-10-28,en,Nelson Kisare wealth tax Tanzania,web,,,Kisare’s 2024 statement found; organisational and union endorsement still need independent evidence.
+Q0015,R008,2026-10-28,en,ISCEJIC wealth tax Tanzania,web,,,Kisare’s 2024 statement found; organisational and union endorsement still need independent evidence.
+Q0016,R008,2026-10-28,en,Tanzania wealth tax union inequality,web,,,Kisare’s 2024 statement found; organisational and union endorsement still need independent evidence.
+Q0017,R008,2026-10-28,sw,kodi ya utajiri Tanzania asasi haki kodi,web,,,Kisare’s 2024 statement found; organisational and union endorsement still need independent evidence.
+Q0018,R009,2026-10-28,en,Public Services International wealth tax Tanzania,web,,,"Searches found the workshop and tax-justice climate report, but not a clear independent Tanzanian union endorsement."
+Q0019,R009,2026-10-28,en,TUCTA RAAWU TUGHE wealth tax Tanzania,web,,,"Searches found the workshop and tax-justice climate report, but not a clear independent Tanzanian union endorsement."
+Q0020,R009,2026-10-28,en,Tax Justice Network Africa wealth tax Tanzania,web,,,"Searches found the workshop and tax-justice climate report, but not a clear independent Tanzanian union endorsement."
+Q0021,R009,2026-10-28,en,Financing Africa climate action tax justice wealth Tanzania,web,,,"Searches found the workshop and tax-justice climate report, but not a clear independent Tanzanian union endorsement."
+Q0022,R012,2026-10-28,en,Gwamaka Mwakyanjala wealth tax Tanzania,web,,,Names traced to 2022 Tanzania report and faith tax justice activity; independent explicit wealth-tax support not located.
+Q0023,R012,2026-10-28,en,Edmund Matotay wealth tax Tanzania,web,,,Names traced to 2022 Tanzania report and faith tax justice activity; independent explicit wealth-tax support not located.
+Q0024,R012,2026-10-28,en,Nelson Kisare wealth tax Zacchaeus Tanzania,web,,,Names traced to 2022 Tanzania report and faith tax justice activity; independent explicit wealth-tax support not located.
+Q0025,R015,2026-10-28,en,Tanzania wealth tax interfaith leaders ISCEJIC Rutaihwa,web,,,Opened 2021 interfaith compilation; separated Tanzanian author’s essay from unrelated ZacTax description.
+Q0026,R016,2026-10-28,en,Tanzania wealth taxes signatories civil society tax convention,web,,,Found joint submissions and Tanzanian signatories; wealth-stock tax design ambiguous.
+Q0027,R016,2026-10-28,sw,kodi ya utajiri mali za matajiri Tanzania,web,,,No additional qualified individual statement found.
+Q0028,R017,2026-10-28,en,Tanzania wealth tax article author signatories TUICO Fidon Mwombeki Lenny Kasoga,web,,,"Located 2017 unsigned opinion; inspected author metadata, coalition submissions, union repost and Zanzibar tax syllabus."
