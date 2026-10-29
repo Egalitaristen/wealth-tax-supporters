@@ -1,8 +1,0 @@
-{
-  "name": "Morocco",
-  "iso2": "MA",
-  "lead": "",
-  "status": "in progress",
-  "boundaries": "boundaries.json",
-  "notes": "Morocco register: seed pass. National level, 12 regions and 75 provinces and prefectures loaded from geoBoundaries gbOpen (ODbL 1.0 / OpenStreetMap contributors)."
-}

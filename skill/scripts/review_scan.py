@@ -29,7 +29,7 @@ import wtdb  # noqa: E402
 
 WORDS = re.compile(r"wealth|tax|levy|fortun|billionair|millionair|richest|asset|patrimoin|patrimon|vermog|vermög|steuer|belast|"
                    r"imp[oô]t|impost|riquez|formue|skatt|förmögen|pajak|kekayaan|cukai|podat|majątk|bogac|富|税|課税|資産|財産|"
-                   r"财|賦|kaya|jutawan|miljon|miljard|superrijk|zucman|piketty|налог|богат|роскош|состоян|олигарх|ضريبة|ثروة", re.I)
+                   r"财|賦|kaya|jutawan|miljon|miljard|superrijk|zucman|piketty|налог|богат|роскош|состоян|олигарх", re.I)
 CITE = re.compile(r"\(\d{4}\)|\b(?:19|20)\d\d\)\.|\bet al\.|^[A-ZÆØÅ][a-zæøå]+,\s[A-Z]\.", re.M)
 PARTIAL_OUT = re.compile(r"land|vacant|property|real estate|luxur|jet|VAT|inherit|estate duty|erfen|arv|cadastr|house|housing|mansion", re.I)
 PERSONAL = re.compile(r"\b(19|20)\d\d-\d\d-\d\dT\d\d:|\bkvinne\b|\bmann\b\s*$|date of birth|born on", re.I)
