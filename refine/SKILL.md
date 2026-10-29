@@ -123,3 +123,15 @@ The member list of a parliament is a complete list of candidates, which a resear
 ## Resources pass (polls, papers, reports and bills)
 
 The Resources page lists polls (each country's `meta.json` `polls`) and papers, reports and bills (`data/resources.json`; format in `skill/SKILL.md` section 5). Treat them like evidence: a run on resources opens each item at its source and checks that the link works, the title, authors and date are right, that it is about an actual wealth tax, that a bill's `status` is what the parliament's own page shows today (bills lapse and pass), and that a poll's figure matches the pollster's report and its question names a wealth tax. Fix or remove what fails. When a country is refined, also look for what is missing: its bills in the parliament's database, its official or independent reports, its published polls. Never state a status you have not seen. Open items are on the roadmap (the Resources and parliaments milestone).
+
+## 7. Traffic-led refinement (recurring)
+
+Visitors show where the register is thin: the supporter pages people open are people looking up themselves or someone they want to know more about. Run this on a schedule (weekly is enough), on top of the country runs above.
+
+1. In Cloudflare analytics (site `wealthtaxsupporters.com`, bots excluded, last 24 hours to 7 days), open **Visits by source** and read the **Paths**. A path like `/ca/A0092` is country `ca`, actor `A0092`. Ignore `/` and listing pages.
+2. For each supporter path, read the actor's current row, links (`profiles.csv`) and evidence. Then do section 3 for that person only, in the same order: links, place, statements (at most three new), still a supporter.
+3. Open the evidence quotes of the people visited first. A page that changed since the quote was taken is a common fault (a campaign's top-funder list had dropped one visited donor). Re-source the evidence rather than leave a quote that is no longer on the page.
+4. Check the person is who the entry says. Two people with the same name can sit under one id (a state Assemblymember and a US Representative were merged this way). The Wikidata id, the links and the evidence must all describe the same person; if they do not, split the entry, and give each a distinguishing name such as `Name (Assembly)`.
+5. Log it as a run with focus "refine: traffic-led" and the paths read. A visited supporter nobody can be identified for is logged with what was tried, so the next run does not repeat it.
+
+Take no personal data from the analytics beyond the path; it is only a pointer to which entries to improve first.

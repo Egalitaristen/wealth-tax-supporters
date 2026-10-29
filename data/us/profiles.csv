@@ -98,12 +98,12 @@ P00096,A0115,facebook,https://www.facebook.com/RepRoKhanna,Wikidata Q7339221,202
 P00097,A0115,youtube,https://www.youtube.com/channel/UCr4KOYv1o1oEQhy1jhhm3pQ,Wikidata Q7339221,2026-10-19
 P00098,A0115,linkedin,https://www.linkedin.com/in/ro-khanna-72a8013/,Wikidata Q7339221,2026-10-19
 P00099,A0115,wikipedia,https://en.wikipedia.org/wiki/Ro_Khanna,Wikidata Q7339221,2026-10-19
-P00100,A0124,website,https://www.robertgarcia.com,Wikidata Q16204904,2026-10-19
-P00101,A0124,x,https://x.com/RobertGarciaLB,Wikidata Q16204904,2026-10-19
-P00102,A0124,bluesky,https://bsky.app/profile/robertgarcia.bsky.social,Wikidata Q16204904,2026-10-19
-P00103,A0124,instagram,https://www.instagram.com/robertgarcialb/,Wikidata Q16204904,2026-10-19
-P00104,A0124,facebook,https://www.facebook.com/robertgarcialb,Wikidata Q16204904,2026-10-19
-P00105,A0124,wikipedia,https://en.wikipedia.org/wiki/Robert_Garcia_%28California_congressman%29,Wikidata Q16204904,2026-10-19
+P00100,A0876,website,https://www.robertgarcia.com,Wikidata Q16204904,2026-10-19
+P00101,A0876,x,https://x.com/RobertGarciaLB,Wikidata Q16204904,2026-10-19
+P00102,A0876,bluesky,https://bsky.app/profile/robertgarcia.bsky.social,Wikidata Q16204904,2026-10-19
+P00103,A0876,instagram,https://www.instagram.com/robertgarcialb/,Wikidata Q16204904,2026-10-19
+P00104,A0876,facebook,https://www.facebook.com/robertgarcialb,Wikidata Q16204904,2026-10-19
+P00105,A0876,wikipedia,https://en.wikipedia.org/wiki/Robert_Garcia_%28California_congressman%29,Wikidata Q16204904,2026-10-19
 P00106,A0270,website,https://norton.house.gov/,Wikidata Q461649,2026-10-19
 P00107,A0270,x,https://x.com/EleanorNorton,Wikidata Q461649,2026-10-19
 P00108,A0270,instagram,https://www.instagram.com/congresswomannorton/,Wikidata Q461649,2026-10-19
@@ -2009,3 +2009,6 @@ P02009,A0049,facebook,https://www.facebook.com/daviscollegedemocrats,https://dav
 P02010,A0049,x,https://twitter.com/UCD_Democrats,https://daviscollegedems.wordpress.com/about/bylaws/,2026-10-25
 P02011,A0049,linkedin,https://www.linkedin.com/company/davis-college-democrats/,https://daviscollegedems.wordpress.com/about/bylaws/,2026-10-25
 P02012,A0030,x,https://twitter.com/ClueJustice,https://cluela.nationbuilder.com/,2026-10-25
+P02013,A0124,wikipedia,https://en.wikipedia.org/wiki/Robert_Garcia_(California_assemblymember),Wikidata Q131465740,2026-10-29
+P02014,A0124,official_page,https://assembly.ca.gov/assemblymembers/50,"California State Assembly member page, district 50",2026-10-29
+P02015,A0719,official_page,https://skoll.org/?p=224459,"Skoll Foundation bio: co-founder of 280 North and RunKit, early Stripe engineer; same description as Fullerton Observer donor list",2026-10-29
