@@ -1,0 +1,7 @@
+seat_id,body_id,party,seats,colour,order
+S0001,B0001,Communist Party of the Russian Federation,57,D71A21,1
+S0002,B0001,A Just Russia - For Truth,27,F5B803,2
+S0003,B0001,United Russia,324,0054A5,3
+S0004,B0001,New People,13,00A896,4
+S0005,B0001,Liberal Democratic Party of Russia,21,003399,5
+S0006,B0001,Other,8,888888,6

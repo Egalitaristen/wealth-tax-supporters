@@ -266,7 +266,7 @@ A0264,Frente Povo Sem Medo,organisation,ngo_campaign,,Coalition of social moveme
 A0265,Unafisco (Associação Nacional dos Auditores Fiscais da Receita Federal do Brasil),organisation,legal_tax_professional,,Association of federal tax auditors,,,,BR,national,Brazil,G0001,,,,active,na,national,Separate body from Anfip (A0237); the source article gives the same long name for it.,R002,2026-10-21,
 A0266,Mauro Silva,person,legal_tax_professional,union_official,President of Unafisco (federal tax auditors),,,,BR,national,Brazil,G0001,,,,active,y,national,,R002,2026-10-21,
 A0267,Rodrigo Vieira de Ávila,person,economist,,Economist; adviser on PLP 277/2008,,,,BR,national,Brazil,G0001,,,,active,y,national,,R003,2026-10-21,
-A0268,Thomas Piketty,person,economist,,Economist; Paris School of Economics and EHESS; author of Capital in the 21st Century,,,,BR,supranational,Brazil,G0001,,,,active,y,international,,R003,2026-10-21,
+A0268,Thomas Piketty,person,economist,,Economist; Paris School of Economics and EHESS; author of Capital in the 21st Century,,,,BR,supranational,Brazil,G0001,,Q984448,,active,y,international,,R003,2026-10-29,
 A0269,O POVO (Fortaleza),organisation,media_outlet,,Daily newspaper,,,,BR,regional,Brazil > Ceará,G0010,,,,active,na,regional,,R003,2026-10-21,
 A0270,Wagner Gomes,person,union_official,,President of the CTB (Central dos Trabalhadores e Trabalhadoras do Brasil) in 2012,,,,BR,national,Brazil,G0001,,,,active,y,national,,R003,2026-10-21,
 A0271,Guilherme Mello,person,economist,,Economic adviser to the PT and Lula's 2022 campaign,,,,BR,national,Brazil,G0001,,,,active,y,national,,R003,2026-10-21,

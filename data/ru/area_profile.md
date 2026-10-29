@@ -1,0 +1,85 @@
+# Area profile — Russia
+
+## 1. Scope
+- **Area**: Russia (Russian Federation, `RU`); type: country
+- **Depth**: Seed pass (prominent State Duma factions, parties, leading economists, and wealthy figures)
+- **Levels of government in scope**: National (State Duma, Federation Council, Government), Regional (83 Federal Subjects), Local (2,327 municipal raions and urban okrugs)
+- **Languages searched**: Russian (`ru`)
+- **Date of first run**: 2026-10-29 (Run R001)
+
+## 2. Wealth tax history and live proposals (2010 onwards)
+- **2012 Luxury debate & enactment**: Vladimir Putin proposed taxing "prestige consumption" in his 2012 presidential program article. This resulted in transport tax multipliers on luxury automobiles (3x multiplier on cars over 10m RUB) and higher cadastral property tax tiers on real estate over 300m RUB. These statutory property/transport measures are excluded from general net wealth tax definitions.
+- **CPRF Luxury and Super-Wealth Bills**: The Communist Party of the Russian Federation (CPRF) has repeatedly tabled federal bills in the State Duma establishing an annual progressive tax (1% to 4%) on luxury asset holdings and real estate exceeding 150 million rubles, yachts, and private jets (sponsored by Yuri Afonin, Alexey Kurinny, Gennady Zyuganov).
+- **SRZP Solidarity Wealth Tax**: A Just Russia – For Truth (SRZP), led by Sergey Mironov, advocates an annual net wealth tax explicitly modelled on the French *impôt de solidarité sur la fortune* (ISF), proposing annual rates of 1% to 3% on fortunes over $10 million to curb extreme wealth concentration.
+- **2026 Bill No. 1153844-8 on Luxury Property**: In February 2026, State Duma deputies (Sergey Mironov, Mikhail Delyagin, Alexander Aksenenko, Andrey Kuznetsov, Nikolay Novichkov, Alexander Terentyev, Alexander Remezkov) formally introduced Bill No. 1153844-8 amending the Tax Code to institute progressive property tax rates of 3%, 3.5%, and 4% on luxury real estate valued over 350m, 450m, and 550m rubles, alongside a 1%–4% levy on luxury transport.
+- **2024 Progressive Income Tax Reform**: The Russian Government and State Duma enacted a five-tier progressive Personal Income Tax (НДФЛ) ranging from 13% to 22%. Pure personal income tax proposals are excluded under repository rules.
+
+## 3. Legislatures and where their records are
+- **State Duma (Государственная Дума)**: Lower chamber of the Federal Assembly (450 seats).
+  - Portal: [duma.gov.ru](http://duma.gov.ru)
+  - Deputies register (8th convocation): [duma.gov.ru/duma/deputies/8/](http://duma.gov.ru/duma/deputies/8/)
+  - Legislative tracking system (СОЗД): [sozd.duma.gov.ru](https://sozd.duma.gov.ru)
+- **Federation Council (Совет Федерации)**: Upper chamber (178 senators).
+  - Portal: [council.gov.ru](http://council.gov.ru)
+
+## 4. Parties
+- **Communist Party of the Russian Federation (CPRF)**: Second-largest Duma faction (57 seats); author of parliamentary bills for an annual 1%–4% tax on luxury assets and fortunes over 150m RUB.
+- **A Just Russia – For Truth (SRZP)**: Third-largest faction (27 seats); party chairman Mironov proposed discussing an annual solidarity wealth tax modelled on the French ISF.
+- **Yabloko (Яблоко)**: Non-parliamentary liberal-left party; supported luxury and excess wealth property taxation during parliamentary hearings.
+- **United Russia (Единая Россия)**: Majority faction (324 seats); has consistently voted down or shelved opposition wealth tax bills, supporting only consumption multipliers and progressive income tax.
+
+## 5. Government below national level
+- **Structure**: 83 Federal Subjects (21 Republics, 9 Krais, 46 Oblasts, 2 Federal Cities [Moscow, Saint Petersburg], 1 Autonomous Oblast, 4 Autonomous Okrugs) divided into 2,327 municipal raions and urban okrugs.
+- **Taxing powers**: Sub-national units in Russia have strictly enumerated tax powers under Part II of the Tax Code of the Russian Federation (regional taxes: corporate property, transport, gambling; local taxes: land tax, individual property tax). Only the federal legislature can institute a general net wealth or luxury holding tax.
+- **Local decision**: Local municipal councils have no constitutional jurisdiction over wealth taxation. Municipal sweeps are skipped, focusing research on national lawmakers and regional figures lobbying the federal government.
+
+## 6. Search terms
+- **Qualifying terms**:
+  - `налог на роскошь` ("luxury tax" on asset holdings)
+  - `налог на богатство` ("wealth tax")
+  - `налог на сверхбогатство` ("super-wealth tax")
+  - `солидарный налог на состояние` ("solidarity wealth tax")
+  - `налог на имущество олигархов` ("tax on oligarch assets")
+- **Excluded terms (require disambiguation)**:
+  - `прогрессивная шкала НДФЛ` (Personal income tax progression)
+  - `налог на сверхприбыль` (Windfall corporate profit tax)
+  - `транспортный налог на дорогие автомобили` (Vehicle excise luxury multiplier)
+
+## 7. Media
+- **Business dailies**: RBC ([rbc.ru](https://www.rbc.ru)), Kommersant ([kommersant.ru](https://www.kommersant.ru)), Vedomosti ([vedomosti.ru](https://www.vedomosti.ru))
+- **News agencies**: RIA Novosti ([ria.ru](https://ria.ru)), TASS ([tass.ru](https://tass.ru)), Interfax ([interfax.ru](https://www.interfax.ru))
+- **Independent & Analysis outlets**: The Bell ([thebell.io](https://thebell.io)), TV Rain ([tvrain.tv](https://tvrain.tv)), Echo FM archive ([echofm.online](https://echofm.online))
+
+## 8. Registers
+- **State Duma Bills System**: [sozd.duma.gov.ru](https://sozd.duma.gov.ru)
+- **Ministry of Justice Party Register**: [minjust.gov.ru](https://minjust.gov.ru)
+- **Unified State Register of Legal Entities (EGRUL)**: [egrul.nalog.ru](https://egrul.nalog.ru)
+
+## 9. Known networks
+- **Confederation of Labor of Russia (KTR)**: All-Russian trade union confederation (affiliated with ITUC); leadership (Oleg Shein) advocates luxury and wealth taxation.
+- **Federation of Independent Trade Unions of Russia (FNPR)**: Largest trade union center; advocates progressive tax reform.
+- **Free Economic Society of Russia (VEO)** & **Institute of Economics RAS**: Academic bodies whose leading economists (Alexander Auzan, Sergei Guriev) have debated wealth tax design.
+
+## 10. Plan for the next runs
+- **Run R002 (Completed)**:
+  - Added 6 State Duma deputies who formally co-sponsored Bill 1153844-8 establishing 3%-4% taxes on luxury real estate (>350m RUB) across 4 regional subjects (Novosibirsk, Sverdlovsk, Altai Krai, Omsk), bringing State Duma deputy coverage to 15 MPs.
+  - Added Federation of Independent Trade Unions of Russia (FNPR, 20m+ members) based on official Congress Program resolution.
+  - Logged Grigory Yavlinsky in exclusions (`opposes`).
+- **Run R003 (Completed)**:
+  - Added Russian Academy of Sciences (RAS) leading economists: Academician Sergei Glazyev (`A0023`) and Academician Alexander Nekipelov (`A0024`), co-authors of the official RAS strategy report proposing an explicit wealth and luxury tax ("налог на богатство и роскошь") to curb inequality and finance social transfers.
+  - Recorded deceased co-author Academician Viktor Ivanter in `exclusions.csv` (`X0009`).
+  - Screened prominent economists Ruslan Grinberg (`X0010`, progressive income tax only) and Vladimir Mau (`X0011`, opposes progressive and wealth taxation) in `exclusions.csv`.
+  - Added verified Wikidata QIDs and profiles.
+- **Run R004 (Completed)**:
+  - Added prominent high-net-worth entrepreneur Mikhail Khodorkovsky (`A0025`, Grade A), who published a detailed proposal in *Novaya Gazeta* for a special tax rate of up to 40% on luxury assets, super-wealth (yachts, private airplanes), and estates exceeding 30 million rubles.
+  - Added former State Duma Deputy and current Deputy Governor of Sverdlovsk Oblast Dmitry Ionin (`A0026`, Grade A), spokesperson for the 2021 SRZP federal luxury wealth tax bill.
+  - Added writer, publicist, and SRZP Central Council member Nikolay Starikov (`A0027`, Grade B), public campaigner for the luxury wealth tax bill.
+  - Excluded Russian Union of Industrialists and Entrepreneurs (RSPP) President Alexander Shokhin (`X0012`, `opposes`).
+- **Run R005 (Next)**:
+  - Scan regional CPRF and SRZP factions in regional parliaments (e.g. Moscow City Duma, Rostov Oblast Legislative Assembly, Krasnodar Krai Legislative Assembly, Irkutsk Legislative Assembly) for regional party bills and public statements.
+  - Review academic publications in *Voprosy Ekonomiki* and *Russian Economic Journal* for structural wealth tax modelling.
+
+## Audit — R005
+- The earlier passes counted luxury taxes (on yachts, jets, supercars and expensive property) as wealth taxes. The definition excludes taxes on listed luxury goods or on high-value property, as the Singapore and China registers already do, so 20 of the 27 actors moved to exclusions: the CPRF bill and its sponsors, the SRZP bill 1153844-8 and its co-sponsors, the luxury-tax comments by SRZP, Yabloko and union figures, Prokhorov, Khodorkovsky, Ionin, Starikov, Auzan, Dmitrieva and the FNPR list item. Seven remain after a second search: Mironov and SRZP (B: on 2 April 2025 he proposed discussing a solidarity wealth tax on the French model, and in May 2025 a luxury tax and/or a tax on wealth; no bill or programme and no rates), Zyuganov and the CPRF (C: his 6 January 2024 post says the party has long insisted on a higher tax on wealth, in a post about income progression), Glazyev and Nekipelov (B: the 2013 RAS report proposes a tax on wealth and luxury) and Guriev (C: lists a wealth tax as one option beside an inheritance and a luxury tax). The Shein blog page is gone (404) and the 2012 Prokhorov and Golov and the 2016 Auzan pages could not be read by script, so none of their quotes could be checked. The run notes above describe the register as first submitted.
+
+The second search (Russian and English, about a dozen queries on parties, economists, unions and exile opposition) found no other person or body asking for a net wealth tax: Russian debate is about income-tax progression and luxury goods. Delyagin, Dmitrieva, Gontmakher, Yabloko and the Left Front were checked and name no wealth tax.
