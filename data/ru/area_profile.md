@@ -65,7 +65,11 @@
   - Added 6 State Duma deputies who formally co-sponsored Bill 1153844-8 establishing 3%-4% taxes on luxury real estate (>350m RUB) across 4 regional subjects (Novosibirsk, Sverdlovsk, Altai Krai, Omsk), bringing State Duma deputy coverage to 15 MPs.
   - Added Federation of Independent Trade Unions of Russia (FNPR, 20m+ members) based on official Congress Program resolution.
   - Logged Grigory Yavlinsky in exclusions (`opposes`).
-- **Run R003**:
-  - Scan regional CPRF factions in regional assemblies (e.g. Rostov Oblast Legislative Assembly, Krasnodar Krai Legislative Assembly, Irkutsk Legislative Assembly) for regional party bills and public statements.
+- **Run R003 (Completed)**:
+  - Added Russian Academy of Sciences (RAS) leading economists: Academician Sergei Glazyev (`A0023`) and Academician Alexander Nekipelov (`A0024`), co-authors of the official RAS strategy report proposing an explicit wealth and luxury tax ("налог на богатство и роскошь") to curb inequality and finance social transfers.
+  - Recorded deceased co-author Academician Viktor Ivanter in `exclusions.csv` (`X0009`).
+  - Screened prominent economists Ruslan Grinberg (`X0010`, progressive income tax only) and Vladimir Mau (`X0011`, opposes progressive and wealth taxation) in `exclusions.csv`.
+  - Added verified Wikidata QIDs and profiles.
+- **Run R004 (Next)**:
+  - Scan regional CPRF and SRZP factions in regional parliaments (e.g. Moscow City Duma, Rostov Oblast Legislative Assembly, Krasnodar Krai Legislative Assembly, Irkutsk Legislative Assembly) for regional party bills and public statements.
   - Explore business associations and public chambers for additional high-net-worth or corporate leaders supporting asset-based taxation.
-  - Review academic publications in *Voprosy Ekonomiki* and *Russian Economic Journal* for structural wealth tax modelling.
