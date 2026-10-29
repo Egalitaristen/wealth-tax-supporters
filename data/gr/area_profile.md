@@ -59,3 +59,7 @@ Greek: φόρος πλούτου, φόρος μεγάλης περιουσίας
 
 - Rechecked Theodoros Mitrakos’s [September 2026 article](https://www.tovima.gr/print/opinions/i-forologisi-tou-megalou-ploutou/), which discusses a net-wealth tax and supports beginning implementation nationally; he was already recorded. Searches in Greek and English did not establish an additional qualifying supporter.
 - Removed Antonis Schwarz from the Greek register: his international advocacy and residence are German, and he is already included in the German register.
+
+## Audit — R010
+
+- All 33 distinct sources were opened and each quote and attribution read. Konstadellis (ELIAMEP paper) was removed: he calls an annual global wealth tax ideal but utopian and proposes auctioning privileges instead. Tsakloglou was regraded to C and Kaplanoglou's quote replaced. The 2011 Greek-German call is a press release naming ten Greek co-signers, so those rows stay at B.
