@@ -1,6 +1,6 @@
-# Morocco: 8 supporters identified across parliamentary opposition, trade unions, and civil society
+# Morocco: 14 supporters identified across parliamentary opposition, trade unions, economists, and civil society
 
-Worked notes from the Morocco research pass (`R001` seed pass, 2026-10-29; 8 supporters, 6 documented exclusions, 14 bilingual queries logged).
+Worked notes from the Morocco research passes (`R001` seed pass, `R002` wider discovery pass, 2026-10-29; 14 supporters, 10 documented exclusions, 4 links, 19 bilingual queries logged).
 
 ## Levels and the geography register
 
@@ -16,17 +16,17 @@ Worked notes from the Morocco research pass (`R001` seed pass, 2026-10-29; 8 sup
 
 1. **A0001: Confédération Démocratique du Travail (CDT)** (`union`; Wikidata: `Q2992735`).
    - **Grade A** (`motion`, 2024-11-29).
-   - Introduced formal amendments to the 2025 Finance Bill (PLF 2025) in the Chambre des Conseillers proposing a net wealth tax: 0.20% on net wealth between 10M and 100M DH, and 0.25% on net wealth exceeding 100M DH.
+   - Introduced formal amendments to PLF 2025 in the Chambre des Conseillers proposing a net wealth tax: 0.20% on 10M–100M DH, and 0.25% on >100M DH.
    - Verbatim quote: `تضريب الثروة: 0.20 % من 10 إلى 100 مليون درهم، 0.25 % على أكثر من 100 مليون درهم.`
 
-2. **A0002: Fatima Tamni** (`politician`, Députée FGD; Wikidata: `Q118218685`).
+2. **A0002: Fatima Tamni** (`politician`, Députée FGD; Wikidata: `Q115197825`).
    - **Grade A** (`motion`, 2024-11-13).
-   - Filed a formal amendment to the 2025 Finance Bill in the Chambre des Représentants proposing a progressive wealth tax: 0.20% (10M–100M DH), 0.25% (100M–500M DH), and 0.30% (>500M DH).
+   - Filed a formal amendment to PLF 2025 proposing progressive wealth tax rates: 0.20% (10M–100M DH), 0.25% (100M–500M DH), and 0.30% (>500M DH).
    - Verbatim quote: `فرض ضريبة تصاعدية على الثروة: 0.20 في المائة من 10 إلى 100 مليون درهم، 0.25 في المائة من 100 إلى 500 مليون درهم، و0.30 في المائة لأكثر من 500 مليون درهم.`
 
 3. **A0003: Parti du Progrès et du Socialisme (PPS)** (`party`; Wikidata: `Q1542152`).
    - **Grade A** (`motion`, 2024-11-13).
-   - Filed a formal amendment to PLF 2025 in the Chambre des Représentants proposing an annual 1% net wealth tax on individuals with net personal wealth exceeding 50 million dirhams.
+   - Filed a formal amendment to PLF 2025 proposing an annual 1% net wealth tax on individuals with net personal wealth exceeding 50 million dirhams.
    - Verbatim quote: `فرض ضريبة على الثروة بنسبة 1 بالمائة كل سنة على الأشخاص الذين تفوق ثروتهم الصافية 50 مليون درهم`
 
 4. **A0004: Mouvement Populaire (Groupe Haraki)** (`party`; Wikidata: `Q1951000`).
@@ -54,14 +54,45 @@ Worked notes from the Morocco research pass (`R001` seed pass, 2026-10-29; 8 sup
    - Defended the macroeconomic and social utility of an Impôt sur la Fortune (ISF) in Morocco in a national interview with *L'Opinion*.
    - Verbatim quote: `Le débat sur l'ISF est nécessaire et l'impôt sur la fortune est un outil efficace pour réduire les inégalités et financer les services publics essentiels.`
 
+9. **A0009: Fédération de la Gauche Démocratique (FGD)** (`party`; Wikidata: `Q2838048`).
+   - **Grade A** (`manifesto`, 2026-09-08).
+   - Official 2026–2031 election platform commits to a national property register and progressive net wealth tax: 0.5% (10M–50M DH), 1% (50M–100M DH), 1.5% (100M–500M DH), 2% (>500M DH) with 10M DH primary residence exemption.
+   - Verbatim quote: `أما بخصوص الشق المتعلق بالثروة الشاملة، فيقترح التحالف إقرار ضريبة تضامنية تدريجية في السنة الثالثة بمعدلات تصاعدية تبدأ بـ 0.5 في المائة للثروات ما بين 10 و50 مليون درهم، وتصل إلى 1 في المائة للفئة ما بين 50 و100 مليون درهم.`
+
+10. **A0010: Parti Socialiste Unifié (PSU)** (`party`; Wikidata: `Q3366781`).
+    - **Grade A** (`manifesto`, 2026-09-08).
+    - Joint platform commitment with FGD establishing a comprehensive progressive solidarity wealth tax and property register.
+    - Verbatim quote: `أما بخصوص الشق المتعلق بالثروة الشاملة، فيقترح التحالف إقرار ضريبة تضامنية تدريجية في السنة الثالثة بمعدلات تصاعدية تبدأ بـ 0.5 في المائة للثروات ما بين 10 و50 مليون درهم، وتصل إلى 1 في المائة للفئة ما بين 50 و100 مليون درهم.`
+
+11. **A0011: Najib Akesbi** (`economist`, Professor at IAV Hassan II; Wikidata: `Q3335299`).
+    - **Grade B** (`interview`, 2011-10-18).
+    - Public advocacy in *Hespress* and *Finances News Hebdo* for wealth taxation to break economic taboos, fund public expenditures, and reduce wealth inequality.
+    - Verbatim quote: `حان الوقت لكي يساهم أصحاب الثروات بقدر أكبر في تمويل النفقات العامة`
+
+12. **A0012: Association Marocaine des Droits Humains (AMDH)** (`ngo_campaign`; Wikidata: `Q2867861`).
+    - **Grade B** (`report`, 2022-10-25).
+    - Co-author of the joint civil society memorandum on PLF 2023 addressed to the Head of Government demanding a tax system on wealth and unproductive assets.
+    - Verbatim quote: `إرساء نظام جبائي على الثروة والممتلكات غير المنتجة`
+
+13. **A0013: Transparency Maroc** (`ngo_campaign`; Wikidata: `Q3537756`).
+    - **Grade B** (`report`, 2022-10-25).
+    - Co-signatory of the joint civil society memorandum on the 2023 Finance Bill demanding wealth taxation.
+    - Verbatim quote: `إرساء نظام جبائي على الثروة والممتلكات غير المنتجة`
+
+14. **A0014: Espace Associatif** (`ngo_campaign`).
+    - **Grade B** (`report`, 2022-10-25).
+    - Co-signatory of the joint civil society memorandum demanding establishing a tax system on wealth.
+    - Verbatim quote: `إرساء نظام جبائي على الثروة والممتلكات غير المنتجة`
+
 ## What worked and what to watch
 
 - **Annual Finance Bills (PLF):** Morocco does not have a standing statutory net wealth tax. The core of the wealth tax debate occurs each autumn in parliament during scrutiny of the *Loi de Finances* (PLF), where opposition groups (PPS, Haraki, FGD, PSU) and trade unions (CDT) introduce formal amendments.
 - **Terminology:**
   - Arabic: *ضريبة على الثروة* (dariba 'ala ath-tharwa) or *تضريب الثروة* (tadrib ath-tharwa).
   - French: *Impôt sur la fortune* (ISF) or *taxe sur la fortune*.
-- **Crucial Exclusions:**
-  - **Real estate wealth tax proposals (out_of_definition):** In PLF 2026, the Groupe Socialiste (USFP) introduced an amendment targeting real estate assets (*الثروة العقارية*, properties >5M DH at 0.5%–1%). Under Section 2 of the Wealth Tax Supporters Definition, real estate property taxes are explicitly excluded (`exclusions.csv` `X0001`).
-  - **Government opposition:** Minister of Economy and Finance Nadia Fettah Alaoui and Budget Minister Fouzi Lekjaa systematically reject wealth tax amendments during parliamentary sessions, arguing risk of capital flight and asset flight (`exclusions.csv` `X0002`).
-  - **International financial tax / debt campaigns (out_of_definition):** ATTAC Maroc campaigns on sovereign debt cancellation and financial transaction taxes rather than an annual domestic net wealth tax (`exclusions.csv` `X0003`).
-- **Media Accessibility:** Moroccan outlets like *Médias24* and *Challenge.ma* use anti-bot shields (Cloudflare / 403 Forbidden). High-quality coverage of parliamentary amendments and political stances is readily accessible via *Al3omk*, *Aljarida24*, *L'Opinion*, and *Hespress*.
+- **Crucial Exclusions (10 documented rows in `exclusions.csv`):**
+  - **Real estate wealth tax proposals (out_of_definition):** In PLF 2026, the Groupe Socialiste (USFP) introduced an amendment targeting real estate assets (*الثروة العقارية*, properties >5M DH at 0.5%–1%). Under Section 2, real estate property taxes are excluded (`X0001`).
+  - **Inheritance and luxury goods taxes (out_of_definition):** Economist Mehdi Lahlou advocates for inheritance taxes and taxes on external signs of wealth (yachts, luxury cars) rather than an annual net wealth tax (`X0007`).
+  - **Government opposition:** Minister Nadia Fettah Alaoui, Fouzi Lekjaa, and historically Salah Eddin Mezouar (`X0008`) consistently reject wealth tax proposals citing capital flight risks.
+  - **Political opposition:** Khalid Hariry (USFP, `X0009`) and Lahcen Daoudi (PJD, `X0010`) opposed ISF as populist or impractical.
+  - **Debt and financial transaction campaigns (out_of_definition):** ATTAC Maroc campaigns on sovereign debt cancellation / FTT rather than domestic annual net wealth tax (`X0003`).

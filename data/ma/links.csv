@@ -1,1 +1,5 @@
 link_id,from_actor_id,to_actor_id,link_type,evidence_id,source_url,note
+L0001,A0002,A0009,member_of,E00002,https://al3omk.com/1022595.html,Fatima Tamni is parliamentary deputy representing Fédération de la Gauche Démocratique.
+L0002,A0005,A0009,member_of,E00005,https://aljarida24.ma/p/actualites/114192/,Omar Balafrej was parliamentary deputy representing FGD.
+L0003,A0006,A0010,leads,E00006,https://al3omk.com/790971.html,Nabila Mounib is the former Secretary-General and current MP representing PSU.
+L0004,A0008,A0007,leads,E00008,https://lopinion.ma/fr/actu-maroc/impot-sur-la-fortune--les-pour-et-les-contre-dune-mesure-negligee-par-le-gouvernement_a51135?articleId=50215da3-809c-4f33-a3cb-3356a4a2c6f6,Xavier Duvauchelle is Country Director of Oxfam au Maroc.
