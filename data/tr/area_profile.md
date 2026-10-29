@@ -98,3 +98,6 @@
   2. Search academic collective declarations (Bağımsız Sosyal Bilimciler annual reports 2020–2024).
   3. Track ongoing parliamentary deliberations on central government budget laws regarding tax justice amendments.
 - **Workflow decisions:** Local municipal council sweep is omitted because municipal authorities have no constitutional taxation competence under Article 73. All research effort is focused on the national legislative and policy sphere.
+
+## Audit — R007
+- Every quote was read on its page (41 of 41 found). Süleyman Girgin was removed (speech lists wealth tax only as one direct tax of developed countries; exclusion X0008). Genel-İş now rests on its president's op-ed, not a report that only mentioned wealth tax. Regraded to B: Çerkezoğlu (DİSK demand list, not her sentence), Bozdağ (regrets no wealth tax came, no demand), Çimen (literature study), KEDV (Oxfam's calculation).
