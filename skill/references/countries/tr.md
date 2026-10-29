@@ -64,8 +64,8 @@ The Grand National Assembly of Turkey (*Türkiye Büyük Millet Meclisi* - TBMM)
 ## Key Proponent Clusters
 
 - **Political Parties:** DEM Parti (manifesto), TİP (party congress resolution), EMEP (party campaign and leadership), SOL Parti (crisis solution program).
-- **Trade Unions:** Peak confederations DİSK and KESK; major sectoral affiliates Birleşik Metal-İş (United Metalworkers) and Eğitim Sen (Education and Science Workers).
-- **Parliamentarians (TBMM):** Perihan Koca (bill sponsor), Garo Paylan (budget commission speeches), Sevda Karaca (plenary address).
-- **Academic Economists:** Korkut Boratav, Erinç Yeldan, Aziz Konukman, Mustafa Durmuş, Oğuz Oyan, Hayri Kozanoğlu.
+- **Trade Unions & Professional Chambers:** Peak confederations DİSK and KESK; major sectoral affiliates Birleşik Metal-İş (United Metalworkers), Genel-İş (Municipal Workers), Eğitim Sen (Education and Science Workers), SES (Health and Social Service Workers); statutory professional chambers TMMOB (Union of Chambers of Turkish Engineers and Architects) and TTB (Turkish Medical Association).
+- **Parliamentarians (TBMM):** Multi-partisan opposition voices across DEM Parti, İYİ Parti, TİP, EMEP, and CHP, including Perihan Koca (bill sponsor), Garo Paylan (budget commission speeches), Sevda Karaca (plenary address), İskender Bayhan, Kezban Konukçu, Dr. Heval Bozdağ, Süleyman Girgin, Hakkı Saruhan Oluç, Gülcan Kaçmaz Sayyiğit, Adalet Kaya, and Ayyüce Türkeş Taş.
+- **Academic Scholars & Public Finance Economists:** Korkut Boratav, Erinç Yeldan, Aziz Konukman, Mustafa Durmuş, Oğuz Oyan, Hayri Kozanoğlu, Prof. Dr. Mete Gündoğan (systems engineering/economic author), Dr. Tarık Zeki Yılmaz (Trabzon Univ), Prof. Dr. Ali Çelikkaya (Eskişehir Osmangazi Univ), Dr. Gamze Çimen (Sivas Cumhuriyet Univ).
 - **Industry & Business:** İbrahim Erdemoğlu (billionaire chairman of Erdemoğlu Holding / SASA).
-- **Civil Society & NGOs:** KEDV (Kadın Emeğini Değerlendirme Vakfı / Oxfam Türkiye).
+- **Civil Society & Mass Movements:** Halkevleri (People's Houses), KEDV (Kadın Emeğini Değerlendirme Vakfı / Oxfam Türkiye).
