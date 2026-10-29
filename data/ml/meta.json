@@ -1,0 +1,8 @@
+{
+  "name": "Mali",
+  "iso2": "ML",
+  "lead": "",
+  "status": "in progress",
+  "boundaries": "boundaries.json",
+  "notes": "Mali register: seed pass. National level and regions. 160 cercles loaded from official Institut Géographique du Mali (IGM) data via OCHA COD-AB (CC BY-IGO 3.0)."
+}

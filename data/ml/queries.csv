@@ -1,0 +1,13 @@
+query_id,run_id,date,language,query,channel,results_opened,leads_added,note
+Q0001,R001,2026-10-29,fr,"Mali ""impôt sur la fortune"" OR ""taxe sur les grandes fortunes"" OR ""justice fiscale""",web,7,0,"Found discussions on justice fiscale, mining code reform, and absence of an ISF in Mali."
+Q0002,R001,2026-10-29,fr,"site:oxfam.org ""Mali"" ""justice fiscale"" OR ""taxer les riches"" OR ""inégalités""",web,6,0,"Oxfam reports on West Africa/Mali inequality, domestic resource mobilization, and VAT regressivity."
+Q0003,R001,2026-10-29,fr,"""Moussa Mara"" impôt OR fiscalité OR ""patrimoine"" OR ""fortune""",news,6,0,Mara declares his personal assets publicly and critiques abusive corporate exemptions; no wealth tax.
+Q0004,R001,2026-10-29,fr,"""Oumar Mariko"" OR ""parti SADI"" ""impôt"" OR ""taxe"" OR ""riches"" OR ""fortune""",news,6,0,SADI rhetoric focuses on peasants vs elites and foreign mining companies; no net wealth tax.
+Q0005,R001,2026-10-29,fr,"""Union Nationale des Travailleurs du Mali"" OR ""UNTM"" ""impôt"" OR ""fiscalité"" OR ""taxes""",news,6,0,UNTM advocacy addresses salary income tax (ITS) and high cost of living; no wealth tax motion.
+Q0006,R001,2026-10-29,fr,"""Tax Justice Network Africa"" ""Mali"" OR ""Publiez Ce Que Vous Payez""",web,6,0,PCQVP Mali coordinates extractive sector and mining revenue transparency campaigns.
+Q0007,R001,2026-10-29,fr,"""Mali"" ""UN tax convention"" OR ""convention fiscale"" vote",web,6,0,Mali voted for UN Tax Convention with Africa Group; also terminated bilateral 1972 treaty with France.
+Q0008,R001,2026-10-29,fr,"site:maliweb.net ""impôt sur la fortune"" OR ""taxe sur la fortune"" OR ""taxer la fortune""",archive,6,0,All hits refer to French ISF/IFI or US wealth tax debates; no Malian domestic proposal.
+Q0009,R001,2026-10-29,fr,"site:malijet.com ""impôt sur la fortune"" OR ""taxe sur la fortune"" OR ""taxer la fortune""",archive,6,0,All hits relate to French ISF or religious definition of Zakat; no Malian proposal.
+Q0010,R001,2026-10-29,fr,"UEMOA ""impôt sur la fortune"" OR ""impôt sur le patrimoine""",web,6,0,"In UEMOA, impôt sur le patrimoine refers exclusively to impôt sur le patrimoine foncier (IPF / property tax)."
+Q0011,R001,2026-10-29,en,"site:ictd.ac ""Mali"" ""wealth"" OR ""tax""",academic,6,0,ICTD research observes absence of standalone wealth tax in Mali; focuses on property and customs.
+Q0012,R001,2026-10-29,en,"site:maketaxfair.net ""Mali""",web,5,0,"Fair Tax Monitor baseline study for Mali (CRAFT project) evaluated equity and mining, not wealth taxation."

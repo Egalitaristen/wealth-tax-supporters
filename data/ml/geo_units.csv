@@ -1,0 +1,184 @@
+geo_unit_id,name,level,unit_type,parent_id,website,sweep_status,swept_run,swept_date,queries_run,hits,notes,code
+G0001,Mali,national,country,,https://www.primature.ml,in_progress,,,,,"National sweep across transitional authorities (CNT), government, political parties, trade unions (UNTM, CSTM), civil society and tax-justice coalitions (Oxfam au Mali, Publish What You Pay / PCQVP)",ML
+G0002,Conseil National de la Transition,national,legislature,G0001,https://cnt.ml,in_progress,,,,,Transitional legislative body of Mali (147 members),
+G0003,Gouvernement du Mali,national,executive,G0001,https://www.primature.ml,in_progress,,,,,Government of Mali (Ministry of Economy and Finance),
+G0004,Kayes,region,region,G0001,,pending,,,,,Region of Mali (IGM P-code),ML01
+G0005,Koulikoro,region,region,G0001,,pending,,,,,Region of Mali (IGM P-code),ML02
+G0006,Sikasso,region,region,G0001,,pending,,,,,Region of Mali (IGM P-code),ML03
+G0007,Segou,region,region,G0001,,pending,,,,,Region of Mali (IGM P-code),ML04
+G0008,Mopti,region,region,G0001,,pending,,,,,Region of Mali (IGM P-code),ML05
+G0009,Timbuktu,region,region,G0001,,pending,,,,,Region of Mali (IGM P-code),ML06
+G0010,Gao,region,region,G0001,,pending,,,,,Region of Mali (IGM P-code),ML07
+G0011,Kidal,region,region,G0001,,pending,,,,,Region of Mali (IGM P-code),ML08
+G0012,Taoudenni,region,region,G0001,,pending,,,,,Region of Mali (IGM P-code),ML09
+G0013,Ménaka,region,region,G0001,,pending,,,,,Region of Mali (IGM P-code),ML10
+G0014,Nioro,region,region,G0001,,pending,,,,,Region of Mali (IGM P-code),ML11
+G0015,Kita,region,region,G0001,,pending,,,,,Region of Mali (IGM P-code),ML12
+G0016,Dioïla,region,region,G0001,,pending,,,,,Region of Mali (IGM P-code),ML13
+G0017,Nara,region,region,G0001,,pending,,,,,Region of Mali (IGM P-code),ML14
+G0018,Bougouni,region,region,G0001,,pending,,,,,Region of Mali (IGM P-code),ML15
+G0019,Koutiala,region,region,G0001,,pending,,,,,Region of Mali (IGM P-code),ML16
+G0020,San,region,region,G0001,,pending,,,,,Region of Mali (IGM P-code),ML17
+G0021,Douentza,region,region,G0001,,pending,,,,,Region of Mali (IGM P-code),ML18
+G0022,Bandiagara,region,region,G0001,,pending,,,,,Region of Mali (IGM P-code),ML19
+G0023,Bamako,region,district,G0001,,pending,,,,,Region of Mali (IGM P-code),ML20
+G0024,Kayes,council,cercle,G0004,,pending,,,,,Cercle / local administrative unit (IGM P-code),ML0101
+G0025,Bafoulebe,council,cercle,G0004,,pending,,,,,Cercle / local administrative unit (IGM P-code),ML0102
+G0026,Yelimane,council,cercle,G0004,,pending,,,,,Cercle / local administrative unit (IGM P-code),ML0103
+G0027,Kenieba,council,cercle,G0004,,pending,,,,,Cercle / local administrative unit (IGM P-code),ML0104
+G0028,Ambididi,council,cercle,G0004,,pending,,,,,Cercle / local administrative unit (IGM P-code),ML0105
+G0029,Aourou,council,cercle,G0004,,pending,,,,,Cercle / local administrative unit (IGM P-code),ML0106
+G0030,Diamou,council,cercle,G0004,,pending,,,,,Cercle / local administrative unit (IGM P-code),ML0107
+G0031,Oussoubidiagna,council,cercle,G0004,,pending,,,,,Cercle / local administrative unit (IGM P-code),ML0108
+G0032,Segala,council,cercle,G0004,,pending,,,,,Cercle / local administrative unit (IGM P-code),ML0109
+G0033,Sadiola,council,cercle,G0004,,pending,,,,,Cercle / local administrative unit (IGM P-code),ML0110
+G0034,Koulikoro,council,cercle,G0005,,pending,,,,,Cercle / local administrative unit (IGM P-code),ML0201
+G0035,Banamba,council,cercle,G0005,,pending,,,,,Cercle / local administrative unit (IGM P-code),ML0202
+G0036,Kangaba,council,cercle,G0005,,pending,,,,,Cercle / local administrative unit (IGM P-code),ML0203
+G0037,Kati,council,cercle,G0005,,pending,,,,,Cercle / local administrative unit (IGM P-code),ML0204
+G0038,Kolokani,council,cercle,G0005,,pending,,,,,Cercle / local administrative unit (IGM P-code),ML0205
+G0039,Nyamina,council,cercle,G0005,,pending,,,,,Cercle / local administrative unit (IGM P-code),ML0206
+G0040,Siby,council,cercle,G0005,,pending,,,,,Cercle / local administrative unit (IGM P-code),ML0207
+G0041,Neguela,council,cercle,G0005,,pending,,,,,Cercle / local administrative unit (IGM P-code),ML0208
+G0042,Sikasso,council,cercle,G0006,,pending,,,,,Cercle / local administrative unit (IGM P-code),ML0301
+G0043,Kadiolo,council,cercle,G0006,,pending,,,,,Cercle / local administrative unit (IGM P-code),ML0302
+G0044,Danderesso,council,cercle,G0006,,pending,,,,,Cercle / local administrative unit (IGM P-code),ML0303
+G0045,Kignan,council,cercle,G0006,,pending,,,,,Cercle / local administrative unit (IGM P-code),ML0304
+G0046,Klela,council,cercle,G0006,,pending,,,,,Cercle / local administrative unit (IGM P-code),ML0305
+G0047,Lobougoula,council,cercle,G0006,,pending,,,,,Cercle / local administrative unit (IGM P-code),ML0306
+G0048,Loulouni,council,cercle,G0006,,pending,,,,,Cercle / local administrative unit (IGM P-code),ML0307
+G0049,Niena,council,cercle,G0006,,pending,,,,,Cercle / local administrative unit (IGM P-code),ML0308
+G0050,Segou,council,cercle,G0007,,pending,,,,,Cercle / local administrative unit (IGM P-code),ML0401
+G0051,Bla,council,cercle,G0007,,pending,,,,,Cercle / local administrative unit (IGM P-code),ML0402
+G0052,Baraoueli,council,cercle,G0007,,pending,,,,,Cercle / local administrative unit (IGM P-code),ML0403
+G0053,Niono,council,cercle,G0007,,pending,,,,,Cercle / local administrative unit (IGM P-code),ML0404
+G0054,Macina,council,cercle,G0007,,pending,,,,,Cercle / local administrative unit (IGM P-code),ML0405
+G0055,Dioro,council,cercle,G0007,,pending,,,,,Cercle / local administrative unit (IGM P-code),ML0406
+G0056,Farako,council,cercle,G0007,,pending,,,,,Cercle / local administrative unit (IGM P-code),ML0407
+G0057,Nampala,council,cercle,G0007,,pending,,,,,Cercle / local administrative unit (IGM P-code),ML0408
+G0058,Sokolo,council,cercle,G0007,,pending,,,,,Cercle / local administrative unit (IGM P-code),ML0409
+G0059,Markala,council,cercle,G0007,,pending,,,,,Cercle / local administrative unit (IGM P-code),ML0410
+G0060,Sarro,council,cercle,G0007,,pending,,,,,Cercle / local administrative unit (IGM P-code),ML0411
+G0061,Mopti,council,cercle,G0008,,pending,,,,,Cercle / local administrative unit (IGM P-code),ML0501
+G0062,Djenne,council,cercle,G0008,,pending,,,,,Cercle / local administrative unit (IGM P-code),ML0502
+G0063,Tenenkou,council,cercle,G0008,,pending,,,,,Cercle / local administrative unit (IGM P-code),ML0503
+G0064,Youwarou,council,cercle,G0008,,pending,,,,,Cercle / local administrative unit (IGM P-code),ML0504
+G0065,Konna,council,cercle,G0008,,pending,,,,,Cercle / local administrative unit (IGM P-code),ML0505
+G0066,Korientze,council,cercle,G0008,,pending,,,,,Cercle / local administrative unit (IGM P-code),ML0506
+G0067,Sofara,council,cercle,G0008,,pending,,,,,Cercle / local administrative unit (IGM P-code),ML0507
+G0068,Togueré-Coumbé,council,cercle,G0008,,pending,,,,,Cercle / local administrative unit (IGM P-code),ML0508
+G0069,Timbuktu,council,cercle,G0009,,pending,,,,,Cercle / local administrative unit (IGM P-code),ML0601
+G0070,Goundam,council,cercle,G0009,,pending,,,,,Cercle / local administrative unit (IGM P-code),ML0602
+G0071,Dire,council,cercle,G0009,,pending,,,,,Cercle / local administrative unit (IGM P-code),ML0603
+G0072,Soumpi,council,cercle,G0009,,pending,,,,,Cercle / local administrative unit (IGM P-code),ML0604
+G0073,Rharous,council,cercle,G0009,,pending,,,,,Cercle / local administrative unit (IGM P-code),ML0605
+G0074,Bintagoungou,council,cercle,G0009,,pending,,,,,Cercle / local administrative unit (IGM P-code),ML0606
+G0075,Sarafere,council,cercle,G0009,,pending,,,,,Cercle / local administrative unit (IGM P-code),ML0607
+G0076,Bambara-Maoude,council,cercle,G0009,,pending,,,,,Cercle / local administrative unit (IGM P-code),ML0608
+G0077,Lere,council,cercle,G0009,,pending,,,,,Cercle / local administrative unit (IGM P-code),ML0609
+G0078,Gossi,council,cercle,G0009,,pending,,,,,Cercle / local administrative unit (IGM P-code),ML0610
+G0079,Tonka,council,cercle,G0009,,pending,,,,,Cercle / local administrative unit (IGM P-code),ML0611
+G0080,Ber,council,cercle,G0009,,pending,,,,,Cercle / local administrative unit (IGM P-code),ML0612
+G0081,Gargando,council,cercle,G0009,,pending,,,,,Cercle / local administrative unit (IGM P-code),ML0613
+G0082,Gao,council,cercle,G0010,,pending,,,,,Cercle / local administrative unit (IGM P-code),ML0701
+G0083,Bourem,council,cercle,G0010,,pending,,,,,Cercle / local administrative unit (IGM P-code),ML0702
+G0084,Ansongo,council,cercle,G0010,,pending,,,,,Cercle / local administrative unit (IGM P-code),ML0703
+G0085,Almoustrat,council,cercle,G0010,,pending,,,,,Cercle / local administrative unit (IGM P-code),ML0704
+G0086,Bamba,council,cercle,G0010,,pending,,,,,Cercle / local administrative unit (IGM P-code),ML0705
+G0087,Ouattagouna,council,cercle,G0010,,pending,,,,,Cercle / local administrative unit (IGM P-code),ML0706
+G0088,Sony Aliber,council,cercle,G0010,,pending,,,,,Cercle / local administrative unit (IGM P-code),ML0707
+G0089,Djebock,council,cercle,G0010,,pending,,,,,Cercle / local administrative unit (IGM P-code),ML0708
+G0090,Talataye,council,cercle,G0010,,pending,,,,,Cercle / local administrative unit (IGM P-code),ML0709
+G0091,Tessit,council,cercle,G0010,,pending,,,,,Cercle / local administrative unit (IGM P-code),ML0710
+G0092,Ntillit,council,cercle,G0010,,pending,,,,,Cercle / local administrative unit (IGM P-code),ML0711
+G0093,Gabero,council,cercle,G0010,,pending,,,,,Cercle / local administrative unit (IGM P-code),ML0712
+G0094,Ersane,council,cercle,G0010,,pending,,,,,Cercle / local administrative unit (IGM P-code),ML0713
+G0095,Tabankort,council,cercle,G0010,,pending,,,,,Cercle / local administrative unit (IGM P-code),ML0714
+G0096,Tin-Aouker,council,cercle,G0010,,pending,,,,,Cercle / local administrative unit (IGM P-code),ML0715
+G0097,Kassambere,council,cercle,G0010,,pending,,,,,Cercle / local administrative unit (IGM P-code),ML0716
+G0098,Kidal,council,cercle,G0011,,pending,,,,,Cercle / local administrative unit (IGM P-code),ML0801
+G0099,Abelbara,council,cercle,G0011,,pending,,,,,Cercle / local administrative unit (IGM P-code),ML0802
+G0100,Tin-Essako,council,cercle,G0011,,pending,,,,,Cercle / local administrative unit (IGM P-code),ML0803
+G0101,Tessalit,council,cercle,G0011,,pending,,,,,Cercle / local administrative unit (IGM P-code),ML0804
+G0102,Achibogho,council,cercle,G0011,,pending,,,,,Cercle / local administrative unit (IGM P-code),ML0805
+G0103,Anefi,council,cercle,G0011,,pending,,,,,Cercle / local administrative unit (IGM P-code),ML0806
+G0104,Timetrine,council,cercle,G0011,,pending,,,,,Cercle / local administrative unit (IGM P-code),ML0807
+G0105,Aguelhoc,council,cercle,G0011,,pending,,,,,Cercle / local administrative unit (IGM P-code),ML0808
+G0106,Takalote,council,cercle,G0011,,pending,,,,,Cercle / local administrative unit (IGM P-code),ML0809
+G0107,Taoudenni,council,cercle,G0012,,pending,,,,,Cercle / local administrative unit (IGM P-code),ML0901
+G0108,Araouane,council,cercle,G0012,,pending,,,,,Cercle / local administrative unit (IGM P-code),ML0902
+G0109,Foum-Elba,council,cercle,G0012,,pending,,,,,Cercle / local administrative unit (IGM P-code),ML0903
+G0110,Bou-Djebeha,council,cercle,G0012,,pending,,,,,Cercle / local administrative unit (IGM P-code),ML0904
+G0111,Al-Ourche,council,cercle,G0012,,pending,,,,,Cercle / local administrative unit (IGM P-code),ML0905
+G0112,Achouratt,council,cercle,G0012,,pending,,,,,Cercle / local administrative unit (IGM P-code),ML0906
+G0113,Menaka,council,cercle,G0013,,pending,,,,,Cercle / local administrative unit (IGM P-code),ML1001
+G0114,Tidermene,council,cercle,G0013,,pending,,,,,Cercle / local administrative unit (IGM P-code),ML1002
+G0115,Inekar,council,cercle,G0013,,pending,,,,,Cercle / local administrative unit (IGM P-code),ML1003
+G0116,Anderamboukane,council,cercle,G0013,,pending,,,,,Cercle / local administrative unit (IGM P-code),ML1004
+G0117,Anouzagrene,council,cercle,G0013,,pending,,,,,Cercle / local administrative unit (IGM P-code),ML1005
+G0118,Inlamawane (Fanfi),council,cercle,G0013,,pending,,,,,Cercle / local administrative unit (IGM P-code),ML1006
+G0119,Nioro,council,cercle,G0014,,pending,,,,,Cercle / local administrative unit (IGM P-code),ML1101
+G0120,Diema,council,cercle,G0014,,pending,,,,,Cercle / local administrative unit (IGM P-code),ML1102
+G0121,Diangounte Camara,council,cercle,G0014,,pending,,,,,Cercle / local administrative unit (IGM P-code),ML1103
+G0122,Sandare,council,cercle,G0014,,pending,,,,,Cercle / local administrative unit (IGM P-code),ML1104
+G0123,Troungoumbe,council,cercle,G0014,,pending,,,,,Cercle / local administrative unit (IGM P-code),ML1105
+G0124,Bema,council,cercle,G0014,,pending,,,,,Cercle / local administrative unit (IGM P-code),ML1106
+G0125,Kita,council,cercle,G0015,,pending,,,,,Cercle / local administrative unit (IGM P-code),ML1201
+G0126,Sagabari,council,cercle,G0015,,pending,,,,,Cercle / local administrative unit (IGM P-code),ML1202
+G0127,Sebekoro,council,cercle,G0015,,pending,,,,,Cercle / local administrative unit (IGM P-code),ML1203
+G0128,Toukoto,council,cercle,G0015,,pending,,,,,Cercle / local administrative unit (IGM P-code),ML1204
+G0129,Sefeto,council,cercle,G0015,,pending,,,,,Cercle / local administrative unit (IGM P-code),ML1205
+G0130,Sirakoro,council,cercle,G0015,,pending,,,,,Cercle / local administrative unit (IGM P-code),ML1206
+G0131,Dioila,council,cercle,G0016,,pending,,,,,Cercle / local administrative unit (IGM P-code),ML1301
+G0132,Banco,council,cercle,G0016,,pending,,,,,Cercle / local administrative unit (IGM P-code),ML1302
+G0133,Beleko,council,cercle,G0016,,pending,,,,,Cercle / local administrative unit (IGM P-code),ML1303
+G0134,Fana,council,cercle,G0016,,pending,,,,,Cercle / local administrative unit (IGM P-code),ML1304
+G0135,Massigui,council,cercle,G0016,,pending,,,,,Cercle / local administrative unit (IGM P-code),ML1305
+G0136,Mena,council,cercle,G0016,,pending,,,,,Cercle / local administrative unit (IGM P-code),ML1306
+G0137,Nara,council,cercle,G0017,,pending,,,,,Cercle / local administrative unit (IGM P-code),ML1401
+G0138,Balle,council,cercle,G0017,,pending,,,,,Cercle / local administrative unit (IGM P-code),ML1402
+G0139,Dilly,council,cercle,G0017,,pending,,,,,Cercle / local administrative unit (IGM P-code),ML1403
+G0140,Mourdiah,council,cercle,G0017,,pending,,,,,Cercle / local administrative unit (IGM P-code),ML1404
+G0141,Guire,council,cercle,G0017,,pending,,,,,Cercle / local administrative unit (IGM P-code),ML1405
+G0142,Fallou,council,cercle,G0017,,pending,,,,,Cercle / local administrative unit (IGM P-code),ML1406
+G0143,Bougouni,council,cercle,G0018,,pending,,,,,Cercle / local administrative unit (IGM P-code),ML1501
+G0144,Yanfolila,council,cercle,G0018,,pending,,,,,Cercle / local administrative unit (IGM P-code),ML1502
+G0145,Kolondieba,council,cercle,G0018,,pending,,,,,Cercle / local administrative unit (IGM P-code),ML1503
+G0146,Garalo,council,cercle,G0018,,pending,,,,,Cercle / local administrative unit (IGM P-code),ML1504
+G0147,Koumantou,council,cercle,G0018,,pending,,,,,Cercle / local administrative unit (IGM P-code),ML1505
+G0148,Selingue,council,cercle,G0018,,pending,,,,,Cercle / local administrative unit (IGM P-code),ML1506
+G0149,Ouelessebougou,council,cercle,G0018,,pending,,,,,Cercle / local administrative unit (IGM P-code),ML1507
+G0150,Kadiana,council,cercle,G0018,,pending,,,,,Cercle / local administrative unit (IGM P-code),ML1508
+G0151,Fakola,council,cercle,G0018,,pending,,,,,Cercle / local administrative unit (IGM P-code),ML1509
+G0152,Dogo,council,cercle,G0018,,pending,,,,,Cercle / local administrative unit (IGM P-code),ML1510
+G0153,Koutiala,council,cercle,G0019,,pending,,,,,Cercle / local administrative unit (IGM P-code),ML1601
+G0154,Yorosso,council,cercle,G0019,,pending,,,,,Cercle / local administrative unit (IGM P-code),ML1602
+G0155,M’Pessoba,council,cercle,G0019,,pending,,,,,Cercle / local administrative unit (IGM P-code),ML1603
+G0156,Molobala,council,cercle,G0019,,pending,,,,,Cercle / local administrative unit (IGM P-code),ML1604
+G0157,Koury,council,cercle,G0019,,pending,,,,,Cercle / local administrative unit (IGM P-code),ML1605
+G0158,Konseguel a,council,cercle,G0019,,pending,,,,,Cercle / local administrative unit (IGM P-code),ML1606
+G0159,Kouniana,council,cercle,G0019,,pending,,,,,Cercle / local administrative unit (IGM P-code),ML1607
+G0160,Zangasso,council,cercle,G0019,,pending,,,,,Cercle / local administrative unit (IGM P-code),ML1608
+G0161,San,council,cercle,G0020,,pending,,,,,Cercle / local administrative unit (IGM P-code),ML1701
+G0162,Tominian,council,cercle,G0020,,pending,,,,,Cercle / local administrative unit (IGM P-code),ML1702
+G0163,Kimparana,council,cercle,G0020,,pending,,,,,Cercle / local administrative unit (IGM P-code),ML1703
+G0164,Yangasso,council,cercle,G0020,,pending,,,,,Cercle / local administrative unit (IGM P-code),ML1704
+G0165,Fangasso,council,cercle,G0020,,pending,,,,,Cercle / local administrative unit (IGM P-code),ML1705
+G0166,Mandiakuy,council,cercle,G0020,,pending,,,,,Cercle / local administrative unit (IGM P-code),ML1706
+G0167,Sy,council,cercle,G0020,,pending,,,,,Cercle / local administrative unit (IGM P-code),ML1707
+G0168,Douentza,council,cercle,G0021,,pending,,,,,Cercle / local administrative unit (IGM P-code),ML1801
+G0169,Bore,council,cercle,G0021,,pending,,,,,Cercle / local administrative unit (IGM P-code),ML1802
+G0170,Hombori,council,cercle,G0021,,pending,,,,,Cercle / local administrative unit (IGM P-code),ML1803
+G0171,Ngouna,council,cercle,G0021,,pending,,,,,Cercle / local administrative unit (IGM P-code),ML1804
+G0172,Mondoro,council,cercle,G0021,,pending,,,,,Cercle / local administrative unit (IGM P-code),ML1805
+G0173,Boni,council,cercle,G0021,,pending,,,,,Cercle / local administrative unit (IGM P-code),ML1806
+G0174,Bandiagara,council,cercle,G0022,,pending,,,,,Cercle / local administrative unit (IGM P-code),ML1901
+G0175,Koro,council,cercle,G0022,,pending,,,,,Cercle / local administrative unit (IGM P-code),ML1902
+G0176,Bankass,council,cercle,G0022,,pending,,,,,Cercle / local administrative unit (IGM P-code),ML1903
+G0177,Kendie,council,cercle,G0022,,pending,,,,,Cercle / local administrative unit (IGM P-code),ML1904
+G0178,Ningari,council,cercle,G0022,,pending,,,,,Cercle / local administrative unit (IGM P-code),ML1905
+G0179,Diallassagou,council,cercle,G0022,,pending,,,,,Cercle / local administrative unit (IGM P-code),ML1906
+G0180,Sangha,council,cercle,G0022,,pending,,,,,Cercle / local administrative unit (IGM P-code),ML1907
+G0181,Kani,council,cercle,G0022,,pending,,,,,Cercle / local administrative unit (IGM P-code),ML1908
+G0182,Sokoura,council,cercle,G0022,,pending,,,,,Cercle / local administrative unit (IGM P-code),ML1909
+G0183,Bamako,council,commune,G0023,,pending,,,,,Cercle / local administrative unit (IGM P-code),ML2001
