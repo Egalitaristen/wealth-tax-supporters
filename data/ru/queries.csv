@@ -1,0 +1,15 @@
+query_id,run_id,date,language,query,channel,results_opened,leads_added,note
+Q0001,R001,2026-10-29,ru,налог на роскошь законопроект Госдума,web,6,4,State Duma luxury tax bills and parliamentary party initiatives
+Q0002,R001,2026-10-29,ru,налог на богатство Справедливая Россия Миронов,web,5,4,SRZP proposals on net wealth and solidarity tax
+Q0003,R001,2026-10-29,ru,налог на сверхбогатство КПРФ Афонин Куринный,web,4,3,CPRF bills on wealth and luxury assets
+Q0004,R001,2026-10-29,ru,налог на роскошь экономисты Гуриев Аузан Гринберг,web,4,2,Russian economists on wealth/luxury taxation
+Q0005,R001,2026-10-29,ru,налог на богатство Прохоров миллионеры олигархи,web,3,2,Russian business leaders on wealth taxation
+Q0006,R002,2026-10-29,ru,Федерация Независимых Профсоюзов России налог на роскошь,web,3,1,FNPR trade union congress resolutions on luxury taxation
+Q0007,R002,2026-10-29,ru,1153844-8 законопроект налог на роскошь,web,4,6,State Duma Bill 1153844-8 co-sponsors on luxury property taxation
+Q0008,R002,2026-10-29,ru,Григорий Явлинский налог на богатство,web,3,1,Yabloko leadership tax positions
+Q0009,R003,2026-10-29,ru,РАН доклад налог на богатство и роскошь Глазьев Некипелов,web,4,2,Russian Academy of Sciences report on wealth and luxury tax
+Q0010,R003,2026-10-29,ru,Руслан Гринберг налог на богатство налог на роскошь,web,4,0,Institute of Economics RAS leadership tax stance
+Q0011,R003,2026-10-29,ru,Владимир Мау налог на богатство плоская шкала,web,3,0,RANEPA liberal economist stance screening
+Q0012,R004,2026-10-29,ru,Ходорковский налог на роскошь 40% Новая газета,web,3,1,Mikhail Khodorkovsky 2012 economic program proposing luxury/super-wealth tax
+Q0013,R004,2026-10-29,ru,Дмитрий Ионин Николай Стариков налог на роскошь,web,4,2,A Just Russia 2021 luxury wealth tax bill press conference
+Q0014,R004,2026-10-29,ru,Александр Шохин РСПП налог на богатство сверхдоходы,web,3,0,RSPP business association stance screening

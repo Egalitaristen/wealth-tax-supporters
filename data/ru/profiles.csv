@@ -1,0 +1,31 @@
+profile_id,actor_id,platform,url,source,checked
+P00001,A0001,website,https://mironov.ru,actors.csv website column,2026-10-29
+P00002,A0002,website,https://spravedlivo.ru,actors.csv website column,2026-10-29
+P00009,A0009,website,https://www.london.edu/faculty-and-research/faculty-profiles/g/guriev-s,actors.csv website column,2026-10-29
+P00015,A0001,x,https://x.com/mironov_ru,Wikidata Q368947,2026-10-29
+P00016,A0001,wikipedia,https://en.wikipedia.org/wiki/Sergey_Mironov,Wikidata Q368947,2026-10-29
+P00017,A0002,x,https://x.com/spravoross,Wikidata Q210692,2026-10-29
+P00018,A0002,instagram,https://www.instagram.com/spravoross/,Wikidata Q210692,2026-10-29
+P00019,A0002,facebook,https://www.facebook.com/spravoross,Wikidata Q210692,2026-10-29
+P00020,A0002,youtube,https://www.youtube.com/channel/UC8ruQ9ENXgu9MBV8E5e3KBg,Wikidata Q210692,2026-10-29
+P00021,A0002,wikipedia,https://en.wikipedia.org/wiki/A_Just_Russia,Wikidata Q210692,2026-10-29
+P00042,A0009,x,https://x.com/sguriev,Wikidata Q4152357,2026-10-29
+P00043,A0009,facebook,https://www.facebook.com/sergei.guriev,Wikidata Q4152357,2026-10-29
+P00044,A0009,youtube,https://www.youtube.com/channel/UCZ-ix1fUTguJvwj6sxgF-6A,Wikidata Q4152357,2026-10-29
+P00045,A0009,wikipedia,https://en.wikipedia.org/wiki/Sergei_Guriev,Wikidata Q4152357,2026-10-29
+P00073,A0023,website,https://glazev.ru,actors.csv website column,2026-10-29
+P00074,A0024,website,https://mse-msu.ru,actors.csv website column,2026-10-29
+P00087,A0023,wikipedia,https://en.wikipedia.org/wiki/Sergey_Glazyev,Wikidata Q1381768,2026-10-29
+P00005,A0005,website,https://kprf.ru,actors.csv website column,2026-10-29
+P00013,A0014,website,https://kprf.ru,actors.csv website column,2026-10-29
+P00029,A0005,x,https://x.com/kprf,Wikidata Q192187,2026-10-29
+P00030,A0005,instagram,https://www.instagram.com/kprf.official/,Wikidata Q192187,2026-10-29
+P00031,A0005,facebook,https://www.facebook.com/kprfnews,Wikidata Q192187,2026-10-29
+P00032,A0005,youtube,https://www.youtube.com/channel/UCbNYBIHgdRw5LX_NK5-9qDA,Wikidata Q192187,2026-10-29
+P00033,A0005,tiktok,https://www.tiktok.com/@kprfn,Wikidata Q192187,2026-10-29
+P00034,A0005,wikipedia,https://en.wikipedia.org/wiki/Communist_Party_of_the_Russian_Federation,Wikidata Q192187,2026-10-29
+P00056,A0014,x,https://x.com/G_Zyuganov,Wikidata Q182452,2026-10-29
+P00057,A0014,instagram,https://www.instagram.com/zyuganov_gennady/,Wikidata Q182452,2026-10-29
+P00058,A0014,facebook,https://www.facebook.com/GennadyZuganov,Wikidata Q182452,2026-10-29
+P00059,A0014,youtube,https://www.youtube.com/channel/UC0h0qvk87-7E6ktgYCmWj0Q,Wikidata Q182452,2026-10-29
+P00060,A0014,wikipedia,https://en.wikipedia.org/wiki/Gennady_Zyuganov,Wikidata Q182452,2026-10-29
