@@ -728,9 +728,9 @@ async function countryPage(slug, params, section = 'map') {
       </div>
       <div class="c-stats">
         <div><b>${fmt(m.supporters)}</b><span>public figures and organisations found so far</span></div>
-        <div><b>${fmt(m.A)}</b><span>of them backed a specific tax or voted for one</span></div>
-        <div><b>${fmt(m.evidence)}</b><span>sourced statements, votes and letters</span></div>
-        ${m.supranational ? `<div><b>${fmt((m.chambers || []).reduce((n, x) => n + x[1], 0))}</b><span>seats in the chamber</span></div>` : `<div><b>${fmt(m.units_with_supporters)}</b><span>local areas with a public supporter found</span></div>`}
+        ${(m.chambers || []).length ? `<div><b>${fmt(litTotal(m))}</b><span>seats held today by a supporter found so far</span></div>
+        <div><b>${fmt((m.chambers || []).reduce((n, x) => n + x[1], 0))}</b><span>seats in ${(m.chambers || []).length === 1 ? 'the chamber' : `its ${(m.chambers || []).length} chambers`}</span></div>` : ''}
+        ${m.supranational ? '' : `<div><b>${fmt(m.units_with_supporters)}</b><span>local areas with a public supporter found</span></div>`}
       </div>
     </div>
     ${section === 'map' ? overviewHtml(D, S, base) : ''}
