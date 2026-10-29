@@ -727,10 +727,9 @@ async function countryPage(slug, params, section = 'map') {
         ${(m.polls || []).length ? (p => `<div class="c-poll"><b>${esc(pollFig(p))}</b><span><span class="kicker">In polls</span> back ${esc(p.question.replace(/^./, c => c.toLowerCase()))}. ${ext(p.url, esc(pollSource(p)) + ' ↗')}${m.polls.length > 1 ? ` · <a href="/${slug}/method#polls">${m.polls.length - 1} more poll${m.polls.length > 2 ? 's' : ''}</a>` : ''}</span></div>`)(m.polls[0]) : ''}
       </div>
       <div class="c-stats">
-        <div><b>${fmt(m.supporters)}</b><span>public figures and organisations found so far</span></div>
-        ${(m.chambers || []).length ? `<div><b>${fmt(litTotal(m))}</b><span>seats held today by a supporter found so far</span></div>
-        <div><b>${fmt((m.chambers || []).reduce((n, x) => n + x[1], 0))}</b><span>seats in ${(m.chambers || []).length === 1 ? 'the chamber' : `its ${(m.chambers || []).length} chambers`}</span></div>` : ''}
-        ${m.supranational ? '' : `<div><b>${fmt(m.units_with_supporters)}</b><span>local areas with a public supporter found</span></div>`}
+        <a href="${base}/directory"><b>${fmt(m.supporters)}</b><span>public figures and organisations found so far</span></a>
+        ${(m.chambers || []).slice(0, 2).map(([name, seats, lit]) => `<a href="${base}/seats"><b>${fmt(lit)}</b><span>of ${fmt(seats)} seats in ${esc(name)}</span></a>`).join('')}
+        ${m.supranational ? '' : `<a href="${base}"><b>${fmt(m.units_with_supporters)}</b><span>local areas with a public supporter found</span></a>`}
       </div>
     </div>
     ${section === 'map' ? overviewHtml(D, S, base) : ''}
