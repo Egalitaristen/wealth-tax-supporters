@@ -107,6 +107,26 @@ def world_paths():
             m["type"] = "MultiPolygon"
         else:
             geoms[cid] = g
+    # Dependencies are drawn with the country they belong to, so Greenland is Denmark and Puerto Rico is the United States.
+    # Left separate on purpose: Hong Kong and Macao (own tax systems), Aruba, Curacao and Sint Maarten (countries within
+    # the Kingdom), the Cook Islands and Niue (free association), and the disputed or partly recognised Taiwan,
+    # Palestine, Kosovo, Western Sahara and Somaliland.
+    belongs_to = {
+        "208": ["304", "234"],  # Denmark: Greenland, Faroe Islands
+        "246": ["248"],  # Finland: Aland
+        "840": ["630", "316", "850", "016", "580"],  # United States: Puerto Rico, Guam, US Virgin Islands, American Samoa, Northern Marianas
+        "250": ["258", "540", "876", "666", "652", "663", "260"],  # France: overseas collectivities and the southern lands
+        "826": ["060", "092", "136", "238", "239", "086", "500", "612", "654", "660", "796", "831", "832", "833"],  # United Kingdom: overseas territories and Crown dependencies
+        "036": ["574", "334"],  # Australia: Norfolk Island, Heard and McDonald Islands
+    }
+    for home, parts in belongs_to.items():
+        h = geoms[home]
+        polys = h["arcs"] if h["type"] == "MultiPolygon" else [h["arcs"]]
+        for pid in parts:
+            g = geoms.pop(pid, None)
+            if g:
+                polys = polys + (g["arcs"] if g["type"] == "MultiPolygon" else [g["arcs"]])
+        h["arcs"], h["type"] = polys, "MultiPolygon"
     # Ukraine as it was before 2014: Natural Earth draws Crimea (with Sevastopol) in Russia, so move that polygon across.
     ru, ua = geoms["643"], geoms["804"]
     ua_polys = ua["arcs"] if ua["type"] == "MultiPolygon" else [ua["arcs"]]
