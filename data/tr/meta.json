@@ -1,0 +1,23 @@
+{
+  "name": "Turkey",
+  "iso2": "TR",
+  "lead": "",
+  "status": "in progress",
+  "boundaries": "boundaries.json",
+  "notes": "Depth: seed. Scope: national (TBMM, political parties, peak union confederations, academics, wealthy individuals) and regional/local structure (81 provinces, 973 districts). Local tier: 973 districts (ilçeler); regional tier: 81 provinces (iller). Boundaries from UN OCHA COD-AB-TUR via HDX (CC BY-IGO). Seed pass R001 completed 2026-10-29.",
+  "polls": [
+    {
+      "support": 78,
+      "oppose": null,
+      "scope": "Turkey, adults aged 18-75",
+      "question": "A wealth tax on wealthy individuals to fund major changes to our economy and lifestyles (support / strongly support)",
+      "question_original": "Ekonomimiz ve yaşam tarzımızda yapılacak büyük değişiklikleri finanse etmek için varlıklı kişilere yönelik bir servet vergisi",
+      "pollster": "Ipsos",
+      "commissioned_by": "Earth4All and Global Commons Alliance",
+      "fieldwork": "2024-03-05 - 2024-04-08",
+      "sample": "1,000 adults aged 18-75",
+      "published": "2024-06-24",
+      "url": "https://earth4all.life/global-survey-2024/"
+    }
+  ]
+}

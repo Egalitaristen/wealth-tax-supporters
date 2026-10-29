@@ -1,0 +1,45 @@
+query_id,run_id,date,language,query,channel,results_opened,leads_added,note
+Q0001,R001,2026-10-29,tr,servet vergisi kanun teklifi TBMM,web,6,2,TBMM legislative proposals search
+Q0002,R001,2026-10-29,tr,"site:tbmm.gov.tr ""Servet Vergisi ve Temel Gelir Güvencesi Kanun Teklifi""",web,4,1,Perihan Koca bill 2/2613 verification
+Q0003,R001,2026-10-29,tr,"site:disk.org.tr ""servet vergisi""",web,5,2,DİSK confederation statements
+Q0004,R001,2026-10-29,tr,"site:kesk.org.tr ""servet vergisi""",web,4,1,KESK confederation statements
+Q0005,R001,2026-10-29,tr,"site:tip.org.tr ""servet vergisi"" OR ""servet""",web,5,1,Workers Party of Turkey party documents
+Q0006,R001,2026-10-29,tr,"site:emep.org ""servet vergisi""",web,4,1,Labour Party campaign materials
+Q0007,R001,2026-10-29,tr,"""İbrahim Erdemoğlu"" ""servet vergisi""",web,6,1,Billionaire wealth levy proposal
+Q0008,R001,2026-10-29,tr,"""Aziz Konukman"" ""servet vergisi""",web,5,1,Prof Konukman statements
+Q0009,R001,2026-10-29,tr,"""Mustafa Durmuş"" ""servet vergisi""",web,5,1,Prof Durmus articles
+Q0010,R001,2026-10-29,tr,"""Erinç Yeldan"" ""servet vergisi""",web,4,1,Prof Yeldan interviews
+Q0011,R001,2026-10-29,tr,"""Oğuz Oyan"" ""servet vergisi""",web,4,1,Prof Oyan speeches
+Q0012,R001,2026-10-29,tr,"""Korkut Boratav"" ""servet vergisi""",web,5,1,Prof Boratav interviews
+Q0013,R001,2026-10-29,tr,"site:kedv.org.tr ""servet vergisi"" OR ""Oxfam""",web,4,1,KEDV Oxfam Turkey report
+Q0014,R001,2026-10-29,tr,"site:hdp.org.tr ""servet vergisi""",web,4,1,HDP / DEM Parti economic platform
+Q0015,R001,2026-10-29,en,G20 billionaire tax Turkey Ipsos Club of Rome 2024,web,5,1,Earth4All / Ipsos G20 public poll
+Q0016,R001,2026-10-29,tr,"site:ibb.istanbul ""servet vergisi""",web,3,0,Municipal records sample for Istanbul
+Q0017,R002,2026-10-29,tr,"site:emep.org ""servet vergisi""",web,8,2,Labour Party (EMEP) parliamentary and leadership statements
+Q0018,R002,2026-10-29,tr,"site:birlesikmetalis.org ""servet vergisi""",web,4,1,Birleşik Metal-İş trade union reports and demands
+Q0019,R002,2026-10-29,tr,"site:egitimsen.org.tr ""servet vergisi""",web,5,1,Eğitim Sen collective bargaining demands
+Q0020,R002,2026-10-29,tr,"site:solparti.org ""servet vergisi""",web,3,1,SOL Parti economic solution program
+Q0021,R002,2026-10-29,tr,"""Sevda Karaca"" ""servet vergisi""",web,6,1,TBMM floor speeches on wealth taxation by Sevda Karaca
+Q0022,R002,2026-10-29,tr,"site:bagimsizlikyolu.org ""servet vergisi""",web,5,1,Excluded Northern Cyprus party query
+Q0023,R003,2026-10-29,tr,"""İskender Bayhan"" ""servet vergisi""",web,6,1,EMEP Istanbul MP parliamentary budget proposals
+Q0024,R003,2026-10-29,tr,"""Keziban Konukcu"" OR ""Kezban Konukçu"" ""servet vergisi""",web,6,1,DEM Parti Istanbul MP plenary floor speeches
+Q0025,R003,2026-10-29,tr,"site:genel-is.org.tr ""servet vergisi""",web,4,1,Genel-İş public services union economic demands
+Q0026,R003,2026-10-29,tr,"site:tmmob.org.tr ""servet vergisi""",web,5,1,Union of Chambers of Turkish Engineers and Architects joint demands
+Q0027,R003,2026-10-29,tr,"site:ttb.org.tr ""servet vergisi""",web,4,1,Turkish Medical Association health budget proposals
+Q0028,R003,2026-10-29,tr,"site:tkp.org.tr ""servet vergisi""",web,2,0,TKP search (confirms expropriation focus; excluded)
+Q0029,R004,2026-10-29,tr,"site:tbmm.gov.tr ""Heval Bozdağ"" ""servet vergisi""",web,4,1,TBMM plenary speech by Heval Bozdağ MP
+Q0030,R004,2026-10-29,tr,"site:genel-is.org.tr ""servet vergisi"" ""kurumlar vergisi""",web,3,1,Genel-İş research department direct tax report
+Q0031,R004,2026-10-29,tr,"site:dergipark.org.tr ""net servet vergisi önerisi""",web,5,1,Peer-reviewed Turkish net wealth tax proposal by Tarık Zeki Yılmaz
+Q0032,R004,2026-10-29,tr,"site:sobibder.org ""Net Servet Vergisi"" ""Ali Çelikkaya""",web,3,1,Peer-reviewed paper on net wealth tax design by Prof. Ali Çelikkaya
+Q0033,R004,2026-10-29,tr,"site:dergipark.org.tr ""Eşitsizlik çağında servet vergisi"" ""Gamze Çimen""",web,3,1,Public finance study on optimal wealth taxation by Dr. Gamze Çimen
+Q0034,R004,2026-10-29,tr,"""İzzettin Önder"" ""servet vergisi""",web,4,0,Academic critique of wealth tax within financial capitalism (excluded)
+Q0035,R004,2026-10-29,tr,"""Sera Kadıgil"" ""servet vergisi"" OR ""servet transferi""",web,5,0,Parliamentary rhetoric on wealth transfer to capital (excluded)
+Q0036,R005,2026-10-29,tr,"site:tbmm.gov.tr ""Süleyman Girgin"" ""servet vergisi""",web,4,1,TBMM Plan and Budget speech by CHP MP Süleyman Girgin
+Q0037,R005,2026-10-29,tr,"site:halkevleri.org.tr ""servet vergisi""",web,3,2,Halkevleri leadership essay calling for progressive wealth tax
+Q0038,R005,2026-10-29,tr,"site:tbmm.gov.tr ""Saruhan Oluç"" ""servet vergisi""",web,4,1,TBMM Plan and Budget committee address by Saruhan Oluç MP
+Q0039,R005,2026-10-29,tr,"site:tbmm.gov.tr ""Gülcan Kaçmaz Sayyiğit"" ""servet vergisi""",web,3,1,TBMM Plan and Budget committee address by Gülcan Kaçmaz Sayyiğit MP
+Q0040,R006,2026-10-29,tr,"site:tbmm.gov.tr/Tutanaklar/TutanakGoster/ ""servet vergisi""",web,10,2,TBMM Hansard committee search identifying Adalet Kaya and Ayyüce Türkeş Taş
+Q0041,R006,2026-10-29,tr,"""Mete Gündoğan"" ""servet vergisi""",web,6,1,Search for academic articles and proposals by Prof. Dr. Mete Gündoğan
+Q0042,R006,2026-10-29,tr,"""Sağlık ve Sosyal Hizmet Emekçileri Sendikası"" ""servet vergisi""",web,12,1,Search for health and social service union tax justice campaigns
+Q0043,R006,2026-10-29,tr,"""Birleşik Kamu-İş"" ""servet vergisi""",web,8,0,Search for public service union confederation publications
+Q0044,R006,2026-10-29,tr,"site:evrensel.net/haber/ ""vergide adalet"" ""servet vergisi""",web,15,1,Labour daily coverage of workplace union tax justice declarations in Izmir
