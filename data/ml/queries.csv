@@ -1,0 +1,17 @@
+query_id,query,purpose,run_id
+Q0001,"Mali ""impôt sur la fortune""",Test standard French term for net wealth tax in Mali,R001
+Q0002,"Mali ""impôt sur les grandes fortunes""",Test variant French wealth tax phrase in Mali,R001
+Q0003,"Mali ""taxer les riches"" OR ""taxation des riches""",Search broader political rhetoric on taxing the wealthy in Mali,R001
+Q0004,"Mali ""impôt sur le patrimoine""",Search patrimony tax debates in Mali,R001
+Q0005,"""Moussa Mara"" fiscalité OR impôt OR patrimoine",Investigate fiscal positions and asset declarations of former PM Moussa Mara,R001
+Q0006,"""Oumar Mariko"" SADI ""impôt"" OR richesse OR multinationales",Screen left-wing SADI leader Oumar Mariko for wealth tax proposals,R001
+Q0007,"Mali justice fiscale ""CAD-Mali"" OR ""PCQVP""",Screen civil society tax justice coalitions in Mali,R001
+Q0008,UNTM Mali syndicat fiscalité revendications,Examine peak trade union confederation fiscal demands,R001
+Q0009,"""Code Général des Impôts"" Mali ""fortune""",Verify whether Malian statutory tax law contains any net wealth tax provision,R001
+Q0010,"Mali code minier 2023 fiscalité or ""Que l'or brille pour les Maliens""",Verify focus of current fiscal policy under the transitional government,R001
+Q0011,"""Mali"" convention fiscale France dénonciation 2023",Investigate termination of 1972 bilateral tax treaty with France,R001
+Q0012,"Mali nisɔngɔ OR ""foroba nafolo"" fiscalité",Screen Bambara fiscal vocabulary for wealth-tax-adjacent proposals,R001
+Q0013,"taxextremewealth.com/signatures ""Moussa Mara"" OR ""Mali""",Examine international open letter signatory rosters for Malian signatories,R002
+Q0014,"""Clément Dembélé"" ""impôt sur la fortune"" OR ""ISF"" 2018",Examine 2018 presidential campaign proposals of Prof. Clément Dembélé,R002
+Q0015,"(""Modibo Sidibé"" OR ""Tiébilé Dramé"" OR ""Choguel Maïga"" OR ""Boubou Cissé"" OR ""Alousséni Sanou"") ""impôt sur la fortune""",Broad screen across key former and current Malian government heads and finance ministers,R002
+Q0016,"""CAD-Mali"" OR ""RJF-Mali"" ""impôt sur la fortune"" OR ""wealth tax""",Screen Malian civil society debt and tax coalitions for net wealth tax endorsements,R002
