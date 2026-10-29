@@ -1,0 +1,10 @@
+query_id,run_id,date,language,query,channel,results_opened,leads_added,note
+Q0001,R001,2026-10-29,da,Danmark formueskat milliardærskat Enhedslisten økonomer forslag,web,multiple,,Broad discovery; results followed to original sources.
+Q0002,R001,2026-10-29,da,formueskat Danmark Oxfam fagforening økonomer,web,multiple,,Broad discovery; results followed to original sources.
+Q0003,R001,2026-10-29,da,formueskat København Aarhus Odense kommune Enhedslisten forslag,web,multiple,,Broad discovery; results followed to original sources.
+Q0004,R001,2026-10-29,en,Denmark wealth tax supporters millionaires campaign,web,multiple,,Broad discovery; results followed to original sources.
+Q0005,R003,2026-10-29,da,formueskat København Aarhus Odense Aalborg Gladsaxe Vejle Sønderborg Esbjerg,web,multiple,2,"Limited local sample; one directly verified supporter, other leads unresolved."
+Q0006,R003,2026-10-29,da,formueskat Danmark millionærer og forbund,web,multiple,0,"Dated campaign, union and wealthy-supporter evidence checked."
+Q0007,R004,2026-10-29,da,Allan Mølholm formueskat; Martin Jensen 3F Vejle formueskat; Erik Lauritzen formueskat,web,multiple,1,Opened original Jensen article and Mølholm statement; Lauritzen original unavailable.
+Q0008,R005,2026-10-29,da,Folketing formueskat B 70 debat SF Enhedslisten,web,2,0,"Opened official parliamentary debate, verified speakers and their different tax proposals."
+Q0009,R005,2026-10-29,da,formueskat dansk debat økonom fagforbund,web,3,0,Opened opinion and union sources; unresolved leads remain.
