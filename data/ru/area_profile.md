@@ -70,6 +70,11 @@
   - Recorded deceased co-author Academician Viktor Ivanter in `exclusions.csv` (`X0009`).
   - Screened prominent economists Ruslan Grinberg (`X0010`, progressive income tax only) and Vladimir Mau (`X0011`, opposes progressive and wealth taxation) in `exclusions.csv`.
   - Added verified Wikidata QIDs and profiles.
-- **Run R004 (Next)**:
+- **Run R004 (Completed)**:
+  - Added prominent high-net-worth entrepreneur Mikhail Khodorkovsky (`A0025`, Grade A), who published a detailed proposal in *Novaya Gazeta* for a special tax rate of up to 40% on luxury assets, super-wealth (yachts, private airplanes), and estates exceeding 30 million rubles.
+  - Added former State Duma Deputy and current Deputy Governor of Sverdlovsk Oblast Dmitry Ionin (`A0026`, Grade A), spokesperson for the 2021 SRZP federal luxury wealth tax bill.
+  - Added writer, publicist, and SRZP Central Council member Nikolay Starikov (`A0027`, Grade B), public campaigner for the luxury wealth tax bill.
+  - Excluded Russian Union of Industrialists and Entrepreneurs (RSPP) President Alexander Shokhin (`X0012`, `opposes`).
+- **Run R005 (Next)**:
   - Scan regional CPRF and SRZP factions in regional parliaments (e.g. Moscow City Duma, Rostov Oblast Legislative Assembly, Krasnodar Krai Legislative Assembly, Irkutsk Legislative Assembly) for regional party bills and public statements.
-  - Explore business associations and public chambers for additional high-net-worth or corporate leaders supporting asset-based taxation.
+  - Review academic publications in *Voprosy Ekonomiki* and *Russian Economic Journal* for structural wealth tax modelling.
