@@ -1,0 +1,15 @@
+query_id,run_id,date,language,query,channel,results_opened,leads_added,note
+Q0001,R001,2026-10-29,fr,"Maroc ""impôt sur la fortune""",web_search,5,2,Broad French search for wealth tax debate in Morocco
+Q0002,R001,2026-10-29,ar,"المغرب ""ضريبة على الثروة""",web_search,5,2,Broad Arabic search for wealth tax debate in Morocco
+Q0003,R001,2026-10-29,ar,site:hespress.com "ضريبة على الثروة",web_search,4,1,Search Morocco's leading digital newspaper for wealth tax coverage
+Q0004,R001,2026-10-29,ar,site:al3omk.com "ضريبة على الثروة",web_search,6,3,Search parliamentary and political coverage on Al3omk
+Q0005,R001,2026-10-29,fr,site:lopinion.ma "impôt sur la fortune",web_search,3,1,Search national francophone press debates on ISF
+Q0006,R001,2026-10-29,fr,"""Confédération Démocratique du Travail"" ""impôt sur la fortune""",web_search,3,1,Screen major trade union confederation for wealth tax proposals
+Q0007,R001,2026-10-29,ar,"""فاطمة التامني"" ""ضريبة على الثروة""",web_search,3,1,Examine parliamentary amendments tabled by FGD deputy Fatima Tamni
+Q0008,R001,2026-10-29,ar,"""حزب التقدم والاشتراكية"" ""ضريبة على الثروة""",web_search,3,1,Examine PPS party platform and parliamentary finance bill amendments
+Q0009,R001,2026-10-29,ar,"""الفريق الحركي"" ""الضريبة السنوية على صافي الثروة""",web_search,2,1,Screen Haraki parliamentary group wealth tax amendments on PLF 2026
+Q0010,R001,2026-10-29,ar,"""عمر بلافريج"" ""ضريبة على الثروة""",web_search,3,1,Examine wealth and inheritance tax proposals of former deputy Omar Balafrej
+Q0011,R001,2026-10-29,ar,"""نبيلة منيب"" ""ضريبة على الثروة""",web_search,2,1,Examine PSU leader Nabila Mounib's parliamentary committee speeches
+Q0012,R001,2026-10-29,fr,"""Un Maroc égalitaire, une taxation juste"" oxfam",web_search,3,1,Identify and verify Oxfam Morocco's tax justice report and wealth tax proposals
+Q0013,R001,2026-10-29,fr,"""Najib Akesbi"" ""impôt sur la fortune""",web_search,4,0,Screen Morocco's prominent academic economist for wealth tax proposals
+Q0014,R001,2026-10-29,ar,site:attacmaroc.org "ضريبة على الثروة",web_search,2,0,Screen ATTAC Maroc tax justice literature for net wealth tax proposals
