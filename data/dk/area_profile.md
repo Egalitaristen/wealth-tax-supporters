@@ -26,3 +26,6 @@ The [official Folketing distribution](https://www.ft.dk/Medlemmer/Mandatfordelin
 2. Follow the 2026 union leaders' signed articles and the named economists, then seek dated wealthy signatories.
 3. Sample council records in the largest municipalities and regional sources before any wider sweep.
 4. Refresh the Folketing’s current membership and party totals after changes, and verify remaining historical offices and electoral districts.
+
+## Audit — R006
+- 31 of 51 quotes were found on their pages by the checker; the other 20 are on ft.dk (Folketing), which answers scripts with a Cloudflare check, so they are not machine-verified. Government roles were checked against the 3 June 2026 Frederiksen III government (Pia Olsen Dyhr is economy and interior minister). The open letter of 10 March 2026 (E00015–E00024) is signed by the named chiefs and argues for the Social Democrats' wealth tax, so each signature stands as their own statement. Wikidata ids were added for 27 actors and websites for seven organisations.
