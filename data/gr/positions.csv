@@ -1,0 +1,12 @@
+position_id,actor_id,body_id,role,party,geo_unit_id,start,end,current,member_ref,checked,source_url
+O00001,A0001,B0001,Prime Minister,SYRIZA,G0001,2015-09-21,2019-07-08,n,,2026-10-29,https://gslegal.gov.gr/government/tsipra-alexiou/
+O00002,A0006,B0001,Minister of Environment and Energy,New Democracy,G0001,2023-06-27,,,,,https://www.ekathimerini.com/news/1214159/new-greek-government-sworn-in/
+O00003,A0009,B0002,Member of Parliament,SYRIZA,G0001,2015-01,2015-11-19,n,,2026-10-29,https://neaaristera.gr/team/gavriil-sakellaridis/
+O00004,A0011,B0002,Member of Parliament,Independent,G0060,2023-06,,y,,2026-10-29,https://www.hellenicparliament.gr/vouleftes/ana-eklogiki-perifereia/?Constituency=9b5ba31c-ac2b-4cff-ac69-aa8d00bc2e78
+O00005,A0013,B0002,Member of Parliament for Piraeus B,SYRIZA,G0001,2012,2014,n,,2026-10-29,https://vouliwatch.gr/mp/vamvaka-eygenia/activity
+O00006,A0018,B0003,Member of the European Parliament,PASOK,G0001,,,y,244571,2026-10-29,https://www.europarl.europa.eu/meps/en/244571/NIKOS_PAPANDREOU/home
+O00007,A0024,B0002,Member of Parliament for Thessaloniki A,PASOK,G0021,,,y,,2026-10-29,https://www.hellenicparliament.gr/vouleftes/ana-eklogiki-perifereia/?MPId=b8df868b-c014-403f-931c-b01900daab7f
+O00008,A0025,B0002,Member of Parliament for Messinia,Independent,G0058,,,y,,2026-10-29,https://www.hellenicparliament.gr/Vouleftes/Stoicheia-Epikoinonias-Voulefton/?MPId=505ae9a5-e59e-4d2c-9a25-aa8d00f56867
+O00009,A0027,B0003,Member of the European Parliament,SYRIZA,G0001,,,y,197701,2026-10-29,https://www.europarl.europa.eu/meps/el/197701/KONSTANTINOS_ARVANITIS/home
+O00010,A0028,B0003,Member of the European Parliament,SYRIZA,G0001,,,y,197699,2026-10-29,https://www.europarl.europa.eu/meps/en/197699/ELENA_KOUNTOURA/home
+O00011,A0029,B0003,Member of the European Parliament,,G0001,2019-07-02,2024-07-15,n,130833,2026-10-29,https://www.europarl.europa.eu/meps/el/130833/STELIOS_KOULOGLOU/history/9

@@ -1,0 +1,4 @@
+body_id,name,level,kind,seats,as_of,source_url,seat_view,notes
+B0001,Government of Greece,national,other,,,https://gslegal.gov.gr/government/tsipra-alexiou/,,Executive offices; no seat chart.
+B0002,Hellenic Parliament,national,chamber,300,2026-10-29,https://www.hellenicparliament.gr/Vouleftes/Ana-Koinovouleftiki-Omada,y,The official group list records 297 sitting members; three seats are vacant. Independents include members affiliated with other political parties.
+B0003,European Parliament,supranational,chamber,,,https://www.europarl.europa.eu/,,Positions recorded here; no Greek national seat chart.

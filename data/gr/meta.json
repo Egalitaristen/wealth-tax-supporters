@@ -1,0 +1,8 @@
+{
+  "name": "Greece",
+  "iso2": "GR",
+  "lead": "",
+  "status": "in progress",
+  "boundaries": "boundaries.json",
+  "notes": "Research in progress. Administrative register: ELSTAT 2026 (31 December 2025): 332 municipalities, 74 regional units and 13 regions; local research remains unswept. Municipality map: Ioannis Andreadis / Aristotle University of Thessaloniki, Cleisthenes boundaries under CC BY 4.0, derived from geodata.gov.gr CC BY 3.0; 332 features matched by name to ELSTAT register; regional boundaries dissolved from them. Mount Athos excluded as autonomous. Parliamentary seats: official current group counts; three vacant seats."
+}
