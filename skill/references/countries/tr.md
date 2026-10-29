@@ -60,3 +60,12 @@ The Grand National Assembly of Turkey (*Türkiye Büyük Millet Meclisi* - TBMM)
    - `Değerli Konut Vergisi` (Law No. 7194): A luxury housing tax on residential properties exceeding specified valuation thresholds. Excluded as a narrow immovable real-estate tax.
    - `Emlak Vergisi` (Law No. 1319): Standard municipal real estate tax. Excluded.
    - `Veraset ve İntikal Vergisi` (Law No. 7338): Inheritance and transfer tax. Excluded unless integrated into an annual comprehensive net wealth tax proposal.
+
+## Key Proponent Clusters
+
+- **Political Parties:** DEM Parti (manifesto), TİP (party congress resolution), EMEP (party campaign and leadership), SOL Parti (crisis solution program).
+- **Trade Unions:** Peak confederations DİSK and KESK; major sectoral affiliates Birleşik Metal-İş (United Metalworkers) and Eğitim Sen (Education and Science Workers).
+- **Parliamentarians (TBMM):** Perihan Koca (bill sponsor), Garo Paylan (budget commission speeches), Sevda Karaca (plenary address).
+- **Academic Economists:** Korkut Boratav, Erinç Yeldan, Aziz Konukman, Mustafa Durmuş, Oğuz Oyan, Hayri Kozanoğlu.
+- **Industry & Business:** İbrahim Erdemoğlu (billionaire chairman of Erdemoğlu Holding / SASA).
+- **Civil Society & NGOs:** KEDV (Kadın Emeğini Değerlendirme Vakfı / Oxfam Türkiye).

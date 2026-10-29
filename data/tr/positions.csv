@@ -2,3 +2,4 @@ position_id,actor_id,body_id,office,party,area,start,end,current,member_ref,sour
 P0001,A0001,B0001,Member of Parliament,Peoples' Equality and Democracy Party,Turkey > Mersin,2023-06-02,,y,,https://www.tbmm.gov.tr/milletvekili/milletvekilidetay?Id=f72877c2-bb5c-037b-e050-007f01005610,2026-10-29
 P0002,A0002,B0001,Member of Parliament,Peoples' Equality and Democracy Party,Turkey > Diyarbakır,2015-06-07,2023-05-14,n,,https://www.tbmm.gov.tr,2026-10-29
 P0003,A0014,B0001,Member of Parliament,Republican People's Party,Turkey > İzmir,2002-11-03,2015-06-07,n,,https://www.tbmm.gov.tr,2026-10-29
+P0004,A0017,B0001,Member of Parliament,Labour Party,Turkey > Gaziantep,2023-06-02,,y,,https://www.tbmm.gov.tr/milletvekili/milletvekilidetay?Id=f72877c2-bb5e-037b-e050-007f01005610,2026-10-29
