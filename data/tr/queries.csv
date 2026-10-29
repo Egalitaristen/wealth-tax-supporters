@@ -1,0 +1,17 @@
+query_id,run_id,date,language,query,channel,results_opened,leads_added,note
+Q0001,R001,2026-10-29,tr,servet vergisi kanun teklifi TBMM,web,6,2,TBMM legislative proposals search
+Q0002,R001,2026-10-29,tr,"site:tbmm.gov.tr ""Servet Vergisi ve Temel Gelir Güvencesi Kanun Teklifi""",web,4,1,Perihan Koca bill 2/2613 verification
+Q0003,R001,2026-10-29,tr,"site:disk.org.tr ""servet vergisi""",web,5,2,DİSK confederation statements
+Q0004,R001,2026-10-29,tr,"site:kesk.org.tr ""servet vergisi""",web,4,1,KESK confederation statements
+Q0005,R001,2026-10-29,tr,"site:tip.org.tr ""servet vergisi"" OR ""servet""",web,5,1,Workers Party of Turkey party documents
+Q0006,R001,2026-10-29,tr,"site:emep.org ""servet vergisi""",web,4,1,Labour Party campaign materials
+Q0007,R001,2026-10-29,tr,"""İbrahim Erdemoğlu"" ""servet vergisi""",web,6,1,Billionaire wealth levy proposal
+Q0008,R001,2026-10-29,tr,"""Aziz Konukman"" ""servet vergisi""",web,5,1,Prof Konukman statements
+Q0009,R001,2026-10-29,tr,"""Mustafa Durmuş"" ""servet vergisi""",web,5,1,Prof Durmus articles
+Q0010,R001,2026-10-29,tr,"""Erinç Yeldan"" ""servet vergisi""",web,4,1,Prof Yeldan interviews
+Q0011,R001,2026-10-29,tr,"""Oğuz Oyan"" ""servet vergisi""",web,4,1,Prof Oyan speeches
+Q0012,R001,2026-10-29,tr,"""Korkut Boratav"" ""servet vergisi""",web,5,1,Prof Boratav interviews
+Q0013,R001,2026-10-29,tr,"site:kedv.org.tr ""servet vergisi"" OR ""Oxfam""",web,4,1,KEDV Oxfam Turkey report
+Q0014,R001,2026-10-29,tr,"site:hdp.org.tr ""servet vergisi""",web,4,1,HDP / DEM Parti economic platform
+Q0015,R001,2026-10-29,en,G20 billionaire tax Turkey Ipsos Club of Rome 2024,web,5,1,Earth4All / Ipsos G20 public poll
+Q0016,R001,2026-10-29,tr,"site:ibb.istanbul ""servet vergisi""",web,3,0,Municipal records sample for Istanbul

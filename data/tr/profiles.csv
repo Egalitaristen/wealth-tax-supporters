@@ -1,0 +1,36 @@
+profile_id,actor_id,platform,url,source,checked
+P00001,A0003,website,https://demparti.org.tr,actors.csv website column,2026-10-29
+P00002,A0004,website,https://tip.org.tr,actors.csv website column,2026-10-29
+P00003,A0005,website,https://www.emep.org,actors.csv website column,2026-10-29
+P00004,A0006,website,https://disk.org.tr,actors.csv website column,2026-10-29
+P00005,A0008,website,https://kesk.org.tr,actors.csv website column,2026-10-29
+P00006,A0016,website,https://www.kedv.org.tr,actors.csv website column,2026-10-29
+P00007,A0001,x,https://x.com/PerihanKoca,Wikidata Q118958568,2026-10-29
+P00008,A0001,instagram,https://www.instagram.com/peri_hankoca/,Wikidata Q118958568,2026-10-29
+P00009,A0001,facebook,https://www.facebook.com/peri.han.165,Wikidata Q118958568,2026-10-29
+P00010,A0001,youtube,https://www.youtube.com/channel/UCLKfyPdPImFXnc65-sBAPpw,Wikidata Q118958568,2026-10-29
+P00011,A0002,x,https://x.com/GaroPaylan,Wikidata Q20164837,2026-10-29
+P00012,A0002,instagram,https://www.instagram.com/garopaylan/,Wikidata Q20164837,2026-10-29
+P00013,A0002,facebook,https://www.facebook.com/gpaylan,Wikidata Q20164837,2026-10-29
+P00014,A0002,wikipedia,https://en.wikipedia.org/wiki/Garo_Paylan,Wikidata Q20164837,2026-10-29
+P00015,A0003,x,https://x.com/DEMGenelMerkezi,Wikidata Q725173,2026-10-29
+P00016,A0003,facebook,https://www.facebook.com/DemGenelMerkezi,Wikidata Q725173,2026-10-29
+P00017,A0003,youtube,https://www.youtube.com/channel/UCcR5J5hmVJEgbEWxMcTep0w,Wikidata Q725173,2026-10-29
+P00018,A0003,tiktok,https://www.tiktok.com/@DEMGenelMerkezi,Wikidata Q725173,2026-10-29
+P00019,A0003,wikipedia,https://en.wikipedia.org/wiki/Peoples%27_Equality_and_Democracy_Party,Wikidata Q725173,2026-10-29
+P00020,A0004,x,https://x.com/tipgenelmerkez,Wikidata Q59519227,2026-10-29
+P00021,A0004,instagram,https://www.instagram.com/tipgenelmerkez/,Wikidata Q59519227,2026-10-29
+P00022,A0004,youtube,https://www.youtube.com/channel/UCdz16x_67E4vTvYcbl0qgww,Wikidata Q59519227,2026-10-29
+P00023,A0004,wikipedia,https://en.wikipedia.org/wiki/Workers%27_Party_of_Turkey_%282017%29,Wikidata Q59519227,2026-10-29
+P00024,A0005,wikipedia,https://en.wikipedia.org/wiki/Labour_Party_%28Turkey%29,Wikidata Q1335307,2026-10-29
+P00025,A0006,instagram,https://www.instagram.com/diskinsesi/,Wikidata Q1164646,2026-10-29
+P00026,A0006,facebook,https://www.facebook.com/diskinsesi,Wikidata Q1164646,2026-10-29
+P00027,A0006,wikipedia,https://en.wikipedia.org/wiki/Confederation_of_Revolutionary_Trade_Unions_of_Turkey,Wikidata Q1164646,2026-10-29
+P00028,A0008,x,https://x.com/KESK1995,Wikidata Q2913281,2026-10-29
+P00029,A0008,facebook,https://www.facebook.com/kesk.org.tr,Wikidata Q2913281,2026-10-29
+P00030,A0008,wikipedia,https://en.wikipedia.org/wiki/Confederation_of_Public_Employees%27_Unions,Wikidata Q2913281,2026-10-29
+P00031,A0010,wikipedia,https://en.wikipedia.org/wiki/Korkut_Boratav,Wikidata Q4093455,2026-10-29
+P00032,A0016,x,https://x.com/KedvTurkiye,Wikidata Q131429889,2026-10-29
+P00033,A0016,instagram,https://www.instagram.com/kedv.org.tr/,Wikidata Q131429889,2026-10-29
+P00034,A0016,facebook,https://www.facebook.com/kadinemeginidegerlendirmevakfi,Wikidata Q131429889,2026-10-29
+P00035,A0016,youtube,https://www.youtube.com/channel/UCxtldUbEy4c5cKIl3iBHRoQ,Wikidata Q131429889,2026-10-29
