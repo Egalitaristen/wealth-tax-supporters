@@ -1059,7 +1059,7 @@ def _pdf_to_text(data):
             f.write(data)
             path = f.name
         try:
-            return subprocess.run(["pdftotext", path, "-"], capture_output=True, text=True).stdout
+            return subprocess.run(["pdftotext", "-enc", "UTF-8", path, "-"], capture_output=True, text=True, encoding="utf-8", errors="replace").stdout
         finally:
             os.unlink(path)
     try:

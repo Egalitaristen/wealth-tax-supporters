@@ -1,0 +1,33 @@
+query_id,run_id,date,language,query,channel,results_opened,leads_added,note
+Q0001,R001,2026-10-29,el,Ελλάδα φόρος μεγάλης περιουσίας καθαρής πλούτου πρόταση κόμμα,web,3,2,
+Q0002,R001,2026-10-29,en,Greece wealth tax net wealth proposal Greek economists,web,1,0,
+Q0003,R003,2026-10-29,el,φόρος μεγάλου πλούτου Νέα Αριστερά βουλή βουλευτές,web,2,0,
+Q0004,R003,2026-10-29,el,φόρος πλούτου ΓΣΕΕ ΑΔΕΔΥ περιουσίας Ελλάδα,web,1,0,No qualifying union position established.
+Q0005,R003,2026-10-29,en,wealth tax Greece union 2025 Greek,web,1,0,
+Q0006,R003,2026-10-29,el,ΣΥΡΙΖΑ φορολογία κινητή ακίνητη περιουσία προϋπολογισμός 2014,web,3,1,
+Q0007,R004,2026-10-29,el,ΣΥΡΙΖΑ φόρος κινητής και ακίνητης περιουσίας 2013 πρόγραμμα,web,3,1,
+Q0008,R004,2026-10-29,el,σύνολο της περιουσίας μέσα αποθησαύρισης ΣΥΡΙΖΑ,web,2,0,
+Q0009,R005,2026-10-29,el,Πέτρος Κόκκαλης φόρο πλούτου ΚΟΣΜΟΣ ευρωεκλογές 2024,web,,,Party programme and leader interview
+Q0010,R005,2026-10-29,en,Nikos Papandreou Petros Kokkalis Tax Extreme Wealth signatures 2023,web,,,Archived campaign signatories
+Q0011,R005,2026-10-29,el,Άννα Διαμαντοπούλου Ζουκμάν κοινωνικές ανισότητες 2025,web,,,Original article appears modified; contemporary 2025 report
+Q0012,R005,2026-10-29,el,πατριωτική εισφορά καθαρή περιουσία τομεάρχης συνέντευξη,web,,,Individual advocates of named net-wealth proposal
+Q0013,R005,2026-10-29,el,Νίκος Νυφούδης πατριωτική εισφορά καθαρή περιουσία,web,,,Signed opinion article
+Q0014,R005,2026-10-29,el,Καρπουχτσής εισφορά καθαρή περιουσία,web,,,Radio interview
+Q0015,R005,2026-10-29,el,φόρο πλούτου συνδικάτα Ελλάδα,web,,,No qualifying union statement identified
+Q0016,R006,2026-10-29,en,Greek German call tax wealth 2011 Greek signatories,web,,,2011 campaign roster and organiser
+Q0017,R006,2026-10-29,en,European Parliament 2023 A9-0155/2 wealth tax Greek co-authors,web,,,Five Greek MEP sponsors identified
+Q0018,R006,2026-10-29,el,Eteron Tax the Rich Androulakis Charitsis campaign,web,,,"Organisation, coordinator and two public signatories"
+Q0019,R006,2026-10-29,el,Κώστας Καλλονιάτης Λεωνίδας Καρυγιάννης φόρος κινητής ακίνητης περιουσίας,web,,,2026 jointly authored tax programme
+Q0020,R006,2026-10-29,el,Χρήστος Παπαγιάννης φορολόγηση πλούτου Eteron,web,,,Possible lead requires qualifying direct quote
+Q0021,R006,2026-10-29,el,ΣΥΡΙΖΑ απόφαση κεντρικής επιτροπής 17 Οκτωβρίου 2026 φόρος πλούτου,web,,,Current policy text checked; no qualifying explicit wealth tax found
+Q0022,R007,2026-10-29,el,φορολογία καθαρού πλούτου πρώην υπουργός,web,,,Sachinidis and Mitrakos signed proposals
+Q0023,R007,2026-10-29,en,Taxing wealth and only wealth Greece Papanikos,web,,,2015 published flat wealth tax proposal
+Q0024,R007,2026-10-29,en,Antonis Schwarz Greek wealth tax Greece Vouliwatch,web,,,"Greek-German campaigner, 2023 attributable statement"
+Q0025,R007,2026-10-29,el,φόρος καθαρού πλούτου καθηγητής 2026,web,,,Qualified positions of Kaplanoglou and Tsakloglou
+Q0026,R007,2026-10-29,el,ετήσιος προοδευτικός παγκόσμιος φόρος περιουσίας,web,,,Konstadellis paper treats wealth tax as ideal but utopian
+Q0027,R007,2026-10-29,el,φορολόγηση μεγάλου πλούτου γνώμη πατριωτική εισφορά,web,,,Charalambopoulos opinion and Melas unrealised-gains proposal
+Q0028,R007,2026-10-29,el,επιτροπή σοφών 2015 φόρος πλούτου πόρισμα,web,,,Committee membership and wealth-tax recommendation require verification
+Q0030,R009,2026-10-29,en,Greece Greek economist wealth tax millionaires economist,web,,,Final independent broad research pass; checked existing commentary and country scope.
+Q0031,R009,2026-10-29,en,Greece Greek tax on wealth economists Greek inequality supporters wealth tax,web,,,Final independent broad research pass; checked existing commentary and country scope.
+Q0032,R009,2026-10-29,en,Greece petition tax extreme wealth Greek signatories 2024 millionaires,web,,,Final independent broad research pass; checked existing commentary and country scope.
+Q0033,R009,2026-10-29,el,φορολόγηση του μεγάλου πλούτου πολιτικοί Ελλάδα,web,,,Final independent broad research pass; checked existing commentary and country scope.

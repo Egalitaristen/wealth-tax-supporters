@@ -50,7 +50,7 @@ def pdf_text(data):
         f.write(data)
         p = f.name
     try:
-        return subprocess.run(["pdftotext", p, "-"], capture_output=True, text=True).stdout
+        return subprocess.run(["pdftotext", "-enc", "UTF-8", p, "-"], capture_output=True, text=True, encoding="utf-8", errors="replace").stdout
     finally:
         os.unlink(p)
 

@@ -1,0 +1,421 @@
+geo_unit_id,name,level,unit_type,parent_id,website,sweep_status,swept_run,swept_date,queries_run,hits,notes,code
+G0001,Greece,national,country,,,in_progress,R001,2026-10-29,,,Initial national research; administrative geography and local research remain outstanding.,GR
+G0002,Περιφέρεια Ανατολικής Μακεδονίας και Θράκης,region,region,G0001,,pending,,,,,,ELSTAT-R11
+G0003,Περιφέρεια Κεντρικής Μακεδονίας,region,region,G0001,,pending,,,,,,ELSTAT-R12
+G0004,Περιφέρεια Δυτικής Μακεδονίας,region,region,G0001,,pending,,,,,,ELSTAT-R21
+G0005,Περιφέρεια Ηπείρου,region,region,G0001,,pending,,,,,,ELSTAT-R22
+G0006,Περιφέρεια Θεσσαλίας,region,region,G0001,,pending,,,,,,ELSTAT-R31
+G0007,Περιφέρεια Στερεάς Ελλάδας,region,region,G0001,,pending,,,,,,ELSTAT-R32
+G0008,Περιφέρεια Ιονίων Νήσων,region,region,G0001,,pending,,,,,,ELSTAT-R41
+G0009,Περιφέρεια Δυτικής Ελλάδας,region,region,G0001,,pending,,,,,,ELSTAT-R42
+G0010,Περιφέρεια Πελοποννήσου,region,region,G0001,,pending,,,,,,ELSTAT-R43
+G0011,Περιφέρεια Αττικής,region,region,G0001,,pending,,,,,,ELSTAT-R51
+G0012,Περιφέρεια Βορείου Αιγαίου,region,region,G0001,,pending,,,,,,ELSTAT-R61
+G0013,Περιφέρεια Νοτίου Αιγαίου,region,region,G0001,,pending,,,,,,ELSTAT-R62
+G0014,Περιφέρεια Κρήτης,region,region,G0001,,pending,,,,,,ELSTAT-R71
+G0015,Περιφερειακή ενότητα Ροδόπης,county,regional unit,G0002,,pending,,,,,,ELSTAT-U01
+G0016,Περιφερειακή ενότητα Δράμας,county,regional unit,G0002,,pending,,,,,,ELSTAT-U02
+G0017,Περιφερειακή ενότητα Έβρου,county,regional unit,G0002,,pending,,,,,,ELSTAT-U03
+G0018,Περιφερειακή ενότητα Θάσου,county,regional unit,G0002,,pending,,,,,,ELSTAT-U04
+G0019,Περιφερειακή ενότητα Καβάλας,county,regional unit,G0002,,pending,,,,,,ELSTAT-U05
+G0020,Περιφερειακή ενότητα Ξάνθης,county,regional unit,G0002,,pending,,,,,,ELSTAT-U06
+G0021,Περιφερειακή ενότητα Θεσσαλονίκης,county,regional unit,G0003,,pending,,,,,,ELSTAT-U07
+G0022,Περιφερειακή ενότητα Ημαθίας,county,regional unit,G0003,,pending,,,,,,ELSTAT-U08
+G0023,Περιφερειακή ενότητα Κιλκίς,county,regional unit,G0003,,pending,,,,,,ELSTAT-U09
+G0024,Περιφερειακή ενότητα Πέλλας,county,regional unit,G0003,,pending,,,,,,ELSTAT-U10
+G0025,Περιφερειακή ενότητα Πιερίας,county,regional unit,G0003,,pending,,,,,,ELSTAT-U11
+G0026,Περιφερειακή ενότητα Σερρών,county,regional unit,G0003,,pending,,,,,,ELSTAT-U12
+G0027,Περιφερειακή ενότητα Χαλκιδικής,county,regional unit,G0003,,pending,,,,,,ELSTAT-U13
+G0028,Περιφερειακή ενότητα Κοζάνης,county,regional unit,G0004,,pending,,,,,,ELSTAT-U14
+G0029,Περιφερειακή ενότητα Γρεβενών,county,regional unit,G0004,,pending,,,,,,ELSTAT-U15
+G0030,Περιφερειακή ενότητα Καστοριάς,county,regional unit,G0004,,pending,,,,,,ELSTAT-U16
+G0031,Περιφερειακή ενότητα Φλώρινας,county,regional unit,G0004,,pending,,,,,,ELSTAT-U17
+G0032,Περιφερειακή ενότητα Ιωαννίνων,county,regional unit,G0005,,pending,,,,,,ELSTAT-U18
+G0033,Περιφερειακή ενότητα Άρτας,county,regional unit,G0005,,pending,,,,,,ELSTAT-U19
+G0034,Περιφερειακή ενότητα Θεσπρωτίας,county,regional unit,G0005,,pending,,,,,,ELSTAT-U20
+G0035,Περιφερειακή ενότητα Πρέβεζας,county,regional unit,G0005,,pending,,,,,,ELSTAT-U21
+G0036,Περιφερειακή ενότητα Λάρισας,county,regional unit,G0006,,pending,,,,,,ELSTAT-U22
+G0037,Περιφερειακή ενότητα Καρδίτσας,county,regional unit,G0006,,pending,,,,,,ELSTAT-U23
+G0038,Περιφερειακή ενότητα Μαγνησίας,county,regional unit,G0006,,pending,,,,,,ELSTAT-U24
+G0039,Περιφερειακή ενότητα Σποράδων,county,regional unit,G0006,,pending,,,,,,ELSTAT-U25
+G0040,Περιφερειακή ενότητα Τρικάλων,county,regional unit,G0006,,pending,,,,,,ELSTAT-U26
+G0041,Περιφερειακή ενότητα Φθιώτιδας,county,regional unit,G0007,,pending,,,,,,ELSTAT-U27
+G0042,Περιφερειακή ενότητα Βοιωτίας,county,regional unit,G0007,,pending,,,,,,ELSTAT-U28
+G0043,Περιφερειακή ενότητα Ευβοίας,county,regional unit,G0007,,pending,,,,,,ELSTAT-U29
+G0044,Περιφερειακή ενότητα Ευρυτανίας,county,regional unit,G0007,,pending,,,,,,ELSTAT-U30
+G0045,Περιφερειακή ενότητα Φωκίδας,county,regional unit,G0007,,pending,,,,,,ELSTAT-U31
+G0046,Περιφερειακή ενότητα Κερκύρας,county,regional unit,G0008,,pending,,,,,,ELSTAT-U32
+G0047,Περιφερειακή ενότητα Ζακύνθου,county,regional unit,G0008,,pending,,,,,,ELSTAT-U33
+G0048,Περιφερειακή ενότητα Ιθάκης,county,regional unit,G0008,,pending,,,,,,ELSTAT-U34
+G0049,Περιφερειακή ενότητα Κεφαλληνίας,county,regional unit,G0008,,pending,,,,,,ELSTAT-U35
+G0050,Περιφερειακή ενότητα Λευκάδας,county,regional unit,G0008,,pending,,,,,,ELSTAT-U36
+G0051,Περιφερειακή ενότητα Αχαΐας,county,regional unit,G0009,,pending,,,,,,ELSTAT-U37
+G0052,Περιφερειακή ενότητα Αιτωλοακαρνανίας,county,regional unit,G0009,,pending,,,,,,ELSTAT-U38
+G0053,Περιφερειακή ενότητα Ηλείας,county,regional unit,G0009,,pending,,,,,,ELSTAT-U39
+G0054,Περιφερειακή ενότητα Αρκαδίας,county,regional unit,G0010,,pending,,,,,,ELSTAT-U40
+G0055,Περιφερειακή ενότητα Αργολίδας,county,regional unit,G0010,,pending,,,,,,ELSTAT-U41
+G0056,Περιφερειακή ενότητα Κορινθίας,county,regional unit,G0010,,pending,,,,,,ELSTAT-U42
+G0057,Περιφερειακή ενότητα Λακωνίας,county,regional unit,G0010,,pending,,,,,,ELSTAT-U43
+G0058,Περιφερειακή ενότητα Μεσσηνίας,county,regional unit,G0010,,pending,,,,,,ELSTAT-U44
+G0059,Περιφερειακή ενότητα Κεντρικού Τομέα Αθηνών,county,regional unit,G0011,,pending,,,,,,ELSTAT-U45
+G0060,Περιφερειακή ενότητα Βορείου Τομέα Αθηνών,county,regional unit,G0011,,pending,,,,,,ELSTAT-U46
+G0061,Περιφερειακή ενότητα Δυτικού Τομέα Αθηνών,county,regional unit,G0011,,pending,,,,,,ELSTAT-U47
+G0062,Περιφερειακή ενότητα Νοτίου Τομέα Αθηνών,county,regional unit,G0011,,pending,,,,,,ELSTAT-U48
+G0063,Περιφερειακή ενότητα Ανατολικής Αττικής,county,regional unit,G0011,,pending,,,,,,ELSTAT-U49
+G0064,Περιφερειακή ενότητα Δυτικής Αττικής,county,regional unit,G0011,,pending,,,,,,ELSTAT-U50
+G0065,Περιφερειακή ενότητα Πειραιώς,county,regional unit,G0011,,pending,,,,,,ELSTAT-U51
+G0066,Περιφερειακή ενότητα Νήσων,county,regional unit,G0011,,pending,,,,,,ELSTAT-U52
+G0067,Περιφερειακή ενότητα Λέσβου,county,regional unit,G0012,,pending,,,,,,ELSTAT-U53
+G0068,Περιφερειακή ενότητα Ικαρίας,county,regional unit,G0012,,pending,,,,,,ELSTAT-U54
+G0069,Περιφερειακή ενότητα Λήμνου,county,regional unit,G0012,,pending,,,,,,ELSTAT-U55
+G0070,Περιφερειακή ενότητα Σάμου,county,regional unit,G0012,,pending,,,,,,ELSTAT-U56
+G0071,Περιφερειακή ενότητα Χίου,county,regional unit,G0012,,pending,,,,,,ELSTAT-U57
+G0072,Περιφερειακή ενότητα Σύρου,county,regional unit,G0013,,pending,,,,,,ELSTAT-U58
+G0073,Περιφερειακή ενότητα Άνδρου,county,regional unit,G0013,,pending,,,,,,ELSTAT-U59
+G0074,Περιφερειακή ενότητα Θήρας,county,regional unit,G0013,,pending,,,,,,ELSTAT-U60
+G0075,Περιφερειακή ενότητα Καλύμνου,county,regional unit,G0013,,pending,,,,,,ELSTAT-U61
+G0076,Περιφερειακή ενότητα Καρπάθου - Ηρωικής Νήσου Κάσου,county,regional unit,G0013,,pending,,,,,,ELSTAT-U62
+G0077,Περιφερειακή ενότητα Κέας - Κύθνου,county,regional unit,G0013,,pending,,,,,,ELSTAT-U63
+G0078,Περιφερειακή ενότητα Κω,county,regional unit,G0013,,pending,,,,,,ELSTAT-U64
+G0079,Περιφερειακή ενότητα Μήλου,county,regional unit,G0013,,pending,,,,,,ELSTAT-U65
+G0080,Περιφερειακή ενότητα Μυκόνου,county,regional unit,G0013,,pending,,,,,,ELSTAT-U66
+G0081,Περιφερειακή ενότητα Νάξου,county,regional unit,G0013,,pending,,,,,,ELSTAT-U67
+G0082,Περιφερειακή ενότητα Πάρου,county,regional unit,G0013,,pending,,,,,,ELSTAT-U68
+G0083,Περιφερειακή ενότητα Ρόδου,county,regional unit,G0013,,pending,,,,,,ELSTAT-U69
+G0084,Περιφερειακή ενότητα Τήνου,county,regional unit,G0013,,pending,,,,,,ELSTAT-U70
+G0085,Περιφερειακή ενότητα Ηρακλείου,county,regional unit,G0014,,pending,,,,,,ELSTAT-U71
+G0086,Περιφερειακή ενότητα Λασιθίου,county,regional unit,G0014,,pending,,,,,,ELSTAT-U72
+G0087,Περιφερειακή ενότητα Ρεθύμνου,county,regional unit,G0014,,pending,,,,,,ELSTAT-U73
+G0088,Περιφερειακή ενότητα Χανίων,county,regional unit,G0014,,pending,,,,,,ELSTAT-U74
+G0089,Δήμος Κομοτηνής,council,municipality,G0015,,pending,,,,,,ELSTAT-M0101
+G0090,Δήμος Αρριανών,council,municipality,G0015,,pending,,,,,,ELSTAT-M0102
+G0091,Δήμος Ιάσμου,council,municipality,G0015,,pending,,,,,,ELSTAT-M0103
+G0092,Δήμος Μαρωνείας - Σαπών,council,municipality,G0015,,pending,,,,,,ELSTAT-M0104
+G0093,Δήμος Δράμας,council,municipality,G0016,,pending,,,,,,ELSTAT-M0201
+G0094,Δήμος Δοξάτου,council,municipality,G0016,,pending,,,,,,ELSTAT-M0202
+G0095,Δήμος Κάτω Νευροκοπίου,council,municipality,G0016,,pending,,,,,,ELSTAT-M0203
+G0096,Δήμος Παρανεστίου,council,municipality,G0016,,pending,,,,,,ELSTAT-M0204
+G0097,Δήμος Προσοτσάνης,council,municipality,G0016,,pending,,,,,,ELSTAT-M0205
+G0098,Δήμος Αλεξανδρούπολης,council,municipality,G0017,,pending,,,,,,ELSTAT-M0301
+G0099,Δήμος Διδυμοτείχου,council,municipality,G0017,,pending,,,,,,ELSTAT-M0302
+G0100,Δήμος Ορεστιάδας,council,municipality,G0017,,pending,,,,,,ELSTAT-M0303
+G0101,Δήμος Σαμοθράκης,council,municipality,G0017,,pending,,,,,,ELSTAT-M0304
+G0102,Δήμος Σουφλίου,council,municipality,G0017,,pending,,,,,,ELSTAT-M0305
+G0103,Δήμος Θάσου,council,municipality,G0018,,pending,,,,,,ELSTAT-M0401
+G0104,Δήμος Καβάλας,council,municipality,G0019,,pending,,,,,,ELSTAT-M0501
+G0105,Δήμος Νέστου,council,municipality,G0019,,pending,,,,,,ELSTAT-M0502
+G0106,Δήμος Παγγαίου,council,municipality,G0019,,pending,,,,,,ELSTAT-M0503
+G0107,Δήμος Ξάνθης,council,municipality,G0020,,pending,,,,,,ELSTAT-M0601
+G0108,Δήμος Αβδήρων,council,municipality,G0020,,pending,,,,,,ELSTAT-M0602
+G0109,Δήμος Μύκης,council,municipality,G0020,,pending,,,,,,ELSTAT-M0603
+G0110,Δήμος Τοπείρου,council,municipality,G0020,,pending,,,,,,ELSTAT-M0604
+G0111,Δήμος Θεσσαλονίκης,council,municipality,G0021,,pending,,,,,,ELSTAT-M0701
+G0112,Δήμος Αμπελοκήπων - Μενεμένης,council,municipality,G0021,,pending,,,,,,ELSTAT-M0702
+G0113,Δήμος Βόλβης,council,municipality,G0021,,pending,,,,,,ELSTAT-M0703
+G0114,Δήμος Δέλτα,council,municipality,G0021,,pending,,,,,,ELSTAT-M0704
+G0115,Δήμος Θερμαϊκού,council,municipality,G0021,,pending,,,,,,ELSTAT-M0705
+G0116,Δήμος Θέρμης,council,municipality,G0021,,pending,,,,,,ELSTAT-M0706
+G0117,Δήμος Καλαμαριάς,council,municipality,G0021,,pending,,,,,,ELSTAT-M0707
+G0118,Δήμος Κορδελιού - Ευόσμου,council,municipality,G0021,,pending,,,,,,ELSTAT-M0708
+G0119,Δήμος Λαγκαδά,council,municipality,G0021,,pending,,,,,,ELSTAT-M0709
+G0120,Δήμος Νεάπολης - Συκεών,council,municipality,G0021,,pending,,,,,,ELSTAT-M0710
+G0121,Δήμος Παύλου Μελά,council,municipality,G0021,,pending,,,,,,ELSTAT-M0711
+G0122,Δήμος Πυλαίας - Χορτιάτη,council,municipality,G0021,,pending,,,,,,ELSTAT-M0712
+G0123,Δήμος Χαλκηδόνος,council,municipality,G0021,,pending,,,,,,ELSTAT-M0713
+G0124,Δήμος Ωραιοκάστρου,council,municipality,G0021,,pending,,,,,,ELSTAT-M0714
+G0125,Δήμος Βέροιας,council,municipality,G0022,,pending,,,,,,ELSTAT-M0801
+G0126,Δήμος Αλεξάνδρειας,council,municipality,G0022,,pending,,,,,,ELSTAT-M0802
+G0127,Δήμος Ηρωικής Πόλεως Νάουσας,council,municipality,G0022,,pending,,,,,,ELSTAT-M0803
+G0128,Δήμος Κιλκίς,council,municipality,G0023,,pending,,,,,,ELSTAT-M0901
+G0129,Δήμος Παιονίας,council,municipality,G0023,,pending,,,,,,ELSTAT-M0902
+G0130,Δήμος Έδεσσας,council,municipality,G0024,,pending,,,,,,ELSTAT-M1001
+G0131,Δήμος Αλμωπίας,council,municipality,G0024,,pending,,,,,,ELSTAT-M1002
+G0132,Δήμος Πέλλας,council,municipality,G0024,,pending,,,,,,ELSTAT-M1003
+G0133,Δήμος Σκύδρας,council,municipality,G0024,,pending,,,,,,ELSTAT-M1004
+G0134,Δήμος Κατερίνης,council,municipality,G0025,,pending,,,,,,ELSTAT-M1101
+G0135,Δήμος Δίου - Ολύμπου,council,municipality,G0025,,pending,,,,,,ELSTAT-M1102
+G0136,Δήμος Πύδνας - Κολινδρού,council,municipality,G0025,,pending,,,,,,ELSTAT-M1103
+G0137,Δήμος Σερρών,council,municipality,G0026,,pending,,,,,,ELSTAT-M1201
+G0138,Δήμος Αμφίπολης,council,municipality,G0026,,pending,,,,,,ELSTAT-M1202
+G0139,Δήμος Βισαλτίας,council,municipality,G0026,,pending,,,,,,ELSTAT-M1203
+G0140,Δήμος Εμμανουήλ Παππά,council,municipality,G0026,,pending,,,,,,ELSTAT-M1204
+G0141,Δήμος Ηρακλείας,council,municipality,G0026,,pending,,,,,,ELSTAT-M1205
+G0142,Δήμος Νέας Ζίχνης,council,municipality,G0026,,pending,,,,,,ELSTAT-M1206
+G0143,Δήμος Σιντικής,council,municipality,G0026,,pending,,,,,,ELSTAT-M1207
+G0144,Δήμος Πολυγύρου,council,municipality,G0027,,pending,,,,,,ELSTAT-M1301
+G0145,Δήμος Αριστοτέλη,council,municipality,G0027,,pending,,,,,,ELSTAT-M1302
+G0146,Δήμος Κασσάνδρας,council,municipality,G0027,,pending,,,,,,ELSTAT-M1303
+G0147,Δήμος Νέας Προποντίδας,council,municipality,G0027,,pending,,,,,,ELSTAT-M1304
+G0148,Δήμος Σιθωνίας,council,municipality,G0027,,pending,,,,,,ELSTAT-M1305
+G0149,Δήμος Κοζάνης,council,municipality,G0028,,pending,,,,,,ELSTAT-M1401
+G0150,Δήμος Βελβεντού,council,municipality,G0028,,pending,,,,,,ELSTAT-M1402
+G0151,Δήμος Βοΐου,council,municipality,G0028,,pending,,,,,,ELSTAT-M1403
+G0152,Δήμος Εορδαίας,council,municipality,G0028,,pending,,,,,,ELSTAT-M1404
+G0153,Δήμος Σερβίων,council,municipality,G0028,,pending,,,,,,ELSTAT-M1405
+G0154,Δήμος Γρεβενών,council,municipality,G0029,,pending,,,,,,ELSTAT-M1501
+G0155,Δήμος Δεσκάτης,council,municipality,G0029,,pending,,,,,,ELSTAT-M1502
+G0156,Δήμος Καστοριάς,council,municipality,G0030,,pending,,,,,,ELSTAT-M1601
+G0157,Δήμος Άργους Ορεστικού,council,municipality,G0030,,pending,,,,,,ELSTAT-M1602
+G0158,Δήμος Νεστορίου,council,municipality,G0030,,pending,,,,,,ELSTAT-M1603
+G0159,Δήμος Φλώρινας,council,municipality,G0031,,pending,,,,,,ELSTAT-M1701
+G0160,Δήμος Αμυνταίου,council,municipality,G0031,,pending,,,,,,ELSTAT-M1702
+G0161,Δήμος Πρεσπών,council,municipality,G0031,,pending,,,,,,ELSTAT-M1703
+G0162,Δήμος Ιωαννιτών,council,municipality,G0032,,pending,,,,,,ELSTAT-M1801
+G0163,Δήμος Βορείων Τζουμέρκων,council,municipality,G0032,,pending,,,,,,ELSTAT-M1802
+G0164,Δήμος Δωδώνης,council,municipality,G0032,,pending,,,,,,ELSTAT-M1803
+G0165,Δήμος Ζαγορίου,council,municipality,G0032,,pending,,,,,,ELSTAT-M1804
+G0166,Δήμος Ζίτσας,council,municipality,G0032,,pending,,,,,,ELSTAT-M1805
+G0167,Δήμος Κόνιτσας,council,municipality,G0032,,pending,,,,,,ELSTAT-M1806
+G0168,Δήμος Μετσόβου,council,municipality,G0032,,pending,,,,,,ELSTAT-M1807
+G0169,Δήμος Πωγωνίου,council,municipality,G0032,,pending,,,,,,ELSTAT-M1808
+G0170,Δήμος Αρταίων,council,municipality,G0033,,pending,,,,,,ELSTAT-M1901
+G0171,Δήμος Γεωργίου Καραϊσκάκη,council,municipality,G0033,,pending,,,,,,ELSTAT-M1902
+G0172,Δήμος Κεντρικών Τζουμέρκων,council,municipality,G0033,,pending,,,,,,ELSTAT-M1903
+G0173,Δήμος Νικολάου Σκουφά,council,municipality,G0033,,pending,,,,,,ELSTAT-M1904
+G0174,Δήμος Ηγουμενίτσας,council,municipality,G0034,,pending,,,,,,ELSTAT-M2001
+G0175,Δήμος Σουλίου,council,municipality,G0034,,pending,,,,,,ELSTAT-M2002
+G0176,Δήμος Φιλιατών,council,municipality,G0034,,pending,,,,,,ELSTAT-M2003
+G0177,Δήμος Πρέβεζας,council,municipality,G0035,,pending,,,,,,ELSTAT-M2101
+G0178,Δήμος Ζηρού,council,municipality,G0035,,pending,,,,,,ELSTAT-M2102
+G0179,Δήμος Πάργας,council,municipality,G0035,,pending,,,,,,ELSTAT-M2103
+G0180,Δήμος Λαρισαίων,council,municipality,G0036,,pending,,,,,,ELSTAT-M2201
+G0181,Δήμος Αγιάς,council,municipality,G0036,,pending,,,,,,ELSTAT-M2202
+G0182,Δήμος Ελασσόνας,council,municipality,G0036,,pending,,,,,,ELSTAT-M2203
+G0183,Δήμος Κιλελέρ,council,municipality,G0036,,pending,,,,,,ELSTAT-M2204
+G0184,Δήμος Τεμπών,council,municipality,G0036,,pending,,,,,,ELSTAT-M2205
+G0185,Δήμος Τυρνάβου,council,municipality,G0036,,pending,,,,,,ELSTAT-M2206
+G0186,Δήμος Φαρσάλων,council,municipality,G0036,,pending,,,,,,ELSTAT-M2207
+G0187,Δήμος Καρδίτσας,council,municipality,G0037,,pending,,,,,,ELSTAT-M2301
+G0188,Δήμος Αργιθέας,council,municipality,G0037,,pending,,,,,,ELSTAT-M2302
+G0189,Δήμος Λίμνης Πλαστήρα,council,municipality,G0037,,pending,,,,,,ELSTAT-M2303
+G0190,Δήμος Μουζακίου,council,municipality,G0037,,pending,,,,,,ELSTAT-M2304
+G0191,Δήμος Παλαμά,council,municipality,G0037,,pending,,,,,,ELSTAT-M2305
+G0192,Δήμος Σοφάδων,council,municipality,G0037,,pending,,,,,,ELSTAT-M2306
+G0193,Δήμος Βόλου,council,municipality,G0038,,pending,,,,,,ELSTAT-M2401
+G0194,Δήμος Αλμυρού,council,municipality,G0038,,pending,,,,,,ELSTAT-M2402
+G0195,Δήμος Ζαγοράς - Μουρεσίου,council,municipality,G0038,,pending,,,,,,ELSTAT-M2403
+G0196,Δήμος Νοτίου Πηλίου,council,municipality,G0038,,pending,,,,,,ELSTAT-M2404
+G0197,Δήμος Ρήγα Φεραίου,council,municipality,G0038,,pending,,,,,,ELSTAT-M2405
+G0198,Δήμος Σκιάθου,council,municipality,G0039,,pending,,,,,,ELSTAT-M2501
+G0199,Δήμος Αλοννήσου,council,municipality,G0039,,pending,,,,,,ELSTAT-M2502
+G0200,Δήμος Σκοπέλου,council,municipality,G0039,,pending,,,,,,ELSTAT-M2503
+G0201,Δήμος Τρικκαίων,council,municipality,G0040,,pending,,,,,,ELSTAT-M2601
+G0202,Δήμος Μετεώρων,council,municipality,G0040,,pending,,,,,,ELSTAT-M2602
+G0203,Δήμος Πύλης,council,municipality,G0040,,pending,,,,,,ELSTAT-M2603
+G0204,Δήμος Φαρκαδόνας,council,municipality,G0040,,pending,,,,,,ELSTAT-M2604
+G0205,Δήμος Λαμιέων,council,municipality,G0041,,pending,,,,,,ELSTAT-M2701
+G0206,Δήμος Αμφίκλειας - Ελάτειας,council,municipality,G0041,,pending,,,,,,ELSTAT-M2702
+G0207,Δήμος Δομοκού,council,municipality,G0041,,pending,,,,,,ELSTAT-M2703
+G0208,Δήμος Καμένων Βούρλων,council,municipality,G0041,,pending,,,,,,ELSTAT-M2704
+G0209,Δήμος Λοκρών,council,municipality,G0041,,pending,,,,,,ELSTAT-M2705
+G0210,Δήμος Μακρακώμης,council,municipality,G0041,,pending,,,,,,ELSTAT-M2706
+G0211,Δήμος Στυλίδος,council,municipality,G0041,,pending,,,,,,ELSTAT-M2707
+G0212,Δήμος Λεβαδέων,council,municipality,G0042,,pending,,,,,,ELSTAT-M2801
+G0213,Δήμος Αλιάρτου - Θεσπιέων,council,municipality,G0042,,pending,,,,,,ELSTAT-M2802
+G0214,Δήμος Διστόμου - Αράχοβας - Αντίκυρας,council,municipality,G0042,,pending,,,,,,ELSTAT-M2803
+G0215,Δήμος Θηβαίων,council,municipality,G0042,,pending,,,,,,ELSTAT-M2804
+G0216,Δήμος Ορχομενού,council,municipality,G0042,,pending,,,,,,ELSTAT-M2805
+G0217,Δήμος Τανάγρας,council,municipality,G0042,,pending,,,,,,ELSTAT-M2806
+G0218,Δήμος Χαλκιδέων,council,municipality,G0043,,pending,,,,,,ELSTAT-M2901
+G0219,Δήμος Διρφύων - Μεσσαπίων,council,municipality,G0043,,pending,,,,,,ELSTAT-M2902
+G0220,Δήμος Ερέτριας,council,municipality,G0043,,pending,,,,,,ELSTAT-M2903
+G0221,Δήμος Ιστιαίας - Αιδηψού,council,municipality,G0043,,pending,,,,,,ELSTAT-M2904
+G0222,Δήμος Καρύστου,council,municipality,G0043,,pending,,,,,,ELSTAT-M2905
+G0223,Δήμος Κύμης - Αλιβερίου,council,municipality,G0043,,pending,,,,,,ELSTAT-M2906
+G0224,Δήμος Μαντουδίου - Λίμνης - Αγίας Άννας,council,municipality,G0043,,pending,,,,,,ELSTAT-M2907
+G0225,Δήμος Σκύρου,council,municipality,G0043,,pending,,,,,,ELSTAT-M2908
+G0226,Δήμος Καρπενησίου,council,municipality,G0044,,pending,,,,,,ELSTAT-M3001
+G0227,Δήμος Αγράφων,council,municipality,G0044,,pending,,,,,,ELSTAT-M3002
+G0228,Δήμος Δελφών,council,municipality,G0045,,pending,,,,,,ELSTAT-M3101
+G0229,Δήμος Δωρίδος,council,municipality,G0045,,pending,,,,,,ELSTAT-M3102
+G0230,Δήμος Κεντρικής Κέρκυρας και Διαποντίων Νήσων,council,municipality,G0046,,pending,,,,,,ELSTAT-M3201
+G0231,Δήμος Βόρειας Κέρκυρας,council,municipality,G0046,,pending,,,,,,ELSTAT-M3202
+G0232,Δήμος Νότιας Κέρκυρας,council,municipality,G0046,,pending,,,,,,ELSTAT-M3203
+G0233,Δήμος Παξών,council,municipality,G0046,,pending,,,,,,ELSTAT-M3204
+G0234,Δήμος Ζακύνθου,council,municipality,G0047,,pending,,,,,,ELSTAT-M3301
+G0235,Δήμος Ιθάκης,council,municipality,G0048,,pending,,,,,,ELSTAT-M3401
+G0236,Δήμος Αργοστολίου,council,municipality,G0049,,pending,,,,,,ELSTAT-M3501
+G0237,Δήμος Ληξουρίου,council,municipality,G0049,,pending,,,,,,ELSTAT-M3502
+G0238,Δήμος Σάμης,council,municipality,G0049,,pending,,,,,,ELSTAT-M3503
+G0239,Δήμος Λευκάδας,council,municipality,G0050,,pending,,,,,,ELSTAT-M3601
+G0240,Δήμος Μεγανησίου,council,municipality,G0050,,pending,,,,,,ELSTAT-M3602
+G0241,Δήμος Πατρέων,council,municipality,G0051,,pending,,,,,,ELSTAT-M3701
+G0242,Δήμος Αιγιαλείας,council,municipality,G0051,,pending,,,,,,ELSTAT-M3702
+G0243,Δήμος Δυτικής Αχαΐας,council,municipality,G0051,,pending,,,,,,ELSTAT-M3703
+G0244,Δήμος Ερυμάνθου,council,municipality,G0051,,pending,,,,,,ELSTAT-M3704
+G0245,Δήμος Καλαβρύτων,council,municipality,G0051,,pending,,,,,,ELSTAT-M3705
+G0246,Δήμος Ιεράς Πόλης Μεσολογγίου,council,municipality,G0052,,pending,,,,,,ELSTAT-M3801
+G0247,Δήμος Αγρινίου,council,municipality,G0052,,pending,,,,,,ELSTAT-M3802
+G0248,Δήμος Ακτίου - Βόνιτσας,council,municipality,G0052,,pending,,,,,,ELSTAT-M3803
+G0249,Δήμος Αμφιλοχίας,council,municipality,G0052,,pending,,,,,,ELSTAT-M3804
+G0250,Δήμος Θέρμου,council,municipality,G0052,,pending,,,,,,ELSTAT-M3805
+G0251,Δήμος Ναυπακτίας,council,municipality,G0052,,pending,,,,,,ELSTAT-M3806
+G0252,Δήμος Ξηρομέρου,council,municipality,G0052,,pending,,,,,,ELSTAT-M3807
+G0253,Δήμος Πύργου,council,municipality,G0053,,pending,,,,,,ELSTAT-M3901
+G0254,Δήμος Ανδραβίδας - Κυλλήνης,council,municipality,G0053,,pending,,,,,,ELSTAT-M3902
+G0255,Δήμος Ανδρίτσαινας - Κρεστένων,council,municipality,G0053,,pending,,,,,,ELSTAT-M3903
+G0256,Δήμος Αρχαίας Ολυμπίας,council,municipality,G0053,,pending,,,,,,ELSTAT-M3904
+G0257,Δήμος Ζαχάρως,council,municipality,G0053,,pending,,,,,,ELSTAT-M3905
+G0258,Δήμος Ήλιδας,council,municipality,G0053,,pending,,,,,,ELSTAT-M3906
+G0259,Δήμος Πηνειού,council,municipality,G0053,,pending,,,,,,ELSTAT-M3907
+G0260,Δήμος Τρίπολης,council,municipality,G0054,,pending,,,,,,ELSTAT-M4001
+G0261,Δήμος Βόρειας Κυνουρίας,council,municipality,G0054,,pending,,,,,,ELSTAT-M4002
+G0262,Δήμος Γορτυνίας,council,municipality,G0054,,pending,,,,,,ELSTAT-M4003
+G0263,Δήμος Μεγαλόπολης,council,municipality,G0054,,pending,,,,,,ELSTAT-M4004
+G0264,Δήμος Νότιας Κυνουρίας,council,municipality,G0054,,pending,,,,,,ELSTAT-M4005
+G0265,Δήμος Ναυπλιέων,council,municipality,G0055,,pending,,,,,,ELSTAT-M4101
+G0266,Δήμος Άργους - Μυκηνών,council,municipality,G0055,,pending,,,,,,ELSTAT-M4102
+G0267,Δήμος Επιδαύρου,council,municipality,G0055,,pending,,,,,,ELSTAT-M4103
+G0268,Δήμος Ερμιονίδας,council,municipality,G0055,,pending,,,,,,ELSTAT-M4104
+G0269,Δήμος Κορινθίων,council,municipality,G0056,,pending,,,,,,ELSTAT-M4201
+G0270,Δήμος Βέλου - Βόχας,council,municipality,G0056,,pending,,,,,,ELSTAT-M4202
+G0271,Δήμος Λουτρακίου - Περαχώρας - Αγίων Θεοδώρων,council,municipality,G0056,,pending,,,,,,ELSTAT-M4203
+G0272,Δήμος Νεμέας,council,municipality,G0056,,pending,,,,,,ELSTAT-M4204
+G0273,Δήμος Ξυλοκάστρου - Ευρωστίνης,council,municipality,G0056,,pending,,,,,,ELSTAT-M4205
+G0274,Δήμος Σικυωνίων,council,municipality,G0056,,pending,,,,,,ELSTAT-M4206
+G0275,Δήμος Σπάρτης,council,municipality,G0057,,pending,,,,,,ELSTAT-M4301
+G0276,Δήμος Ανατολικής Μάνης,council,municipality,G0057,,pending,,,,,,ELSTAT-M4302
+G0277,Δήμος Ελαφονήσου,council,municipality,G0057,,pending,,,,,,ELSTAT-M4303
+G0278,Δήμος Ευρώτα,council,municipality,G0057,,pending,,,,,,ELSTAT-M4304
+G0279,Δήμος Μονεμβασίας,council,municipality,G0057,,pending,,,,,,ELSTAT-M4305
+G0280,Δήμος Καλαμάτας,council,municipality,G0058,,pending,,,,,,ELSTAT-M4401
+G0281,Δήμος Δυτικής Μάνης,council,municipality,G0058,,pending,,,,,,ELSTAT-M4402
+G0282,Δήμος Μεσσήνης,council,municipality,G0058,,pending,,,,,,ELSTAT-M4403
+G0283,Δήμος Οιχαλίας,council,municipality,G0058,,pending,,,,,,ELSTAT-M4404
+G0284,Δήμος Πύλου - Νέστορος,council,municipality,G0058,,pending,,,,,,ELSTAT-M4405
+G0285,Δήμος Τριφυλίας,council,municipality,G0058,,pending,,,,,,ELSTAT-M4406
+G0286,Δήμος Αθηναίων,council,municipality,G0059,,pending,,,,,,ELSTAT-M4501
+G0287,Δήμος Βύρωνος,council,municipality,G0059,,pending,,,,,,ELSTAT-M4502
+G0288,Δήμος Γαλατσίου,council,municipality,G0059,,pending,,,,,,ELSTAT-M4503
+G0289,Δήμος Δάφνης - Υμηττού,council,municipality,G0059,,pending,,,,,,ELSTAT-M4504
+G0290,Δήμος Ζωγράφου,council,municipality,G0059,,pending,,,,,,ELSTAT-M4505
+G0291,Δήμος Ηλιουπόλεως,council,municipality,G0059,,pending,,,,,,ELSTAT-M4506
+G0292,Δήμος Καισαριανής,council,municipality,G0059,,pending,,,,,,ELSTAT-M4507
+G0293,Δήμος Νέας Φιλαδελφείας - Νέας Χαλκηδόνος,council,municipality,G0059,,pending,,,,,,ELSTAT-M4508
+G0294,Δήμος Αμαρουσίου,council,municipality,G0060,,pending,,,,,,ELSTAT-M4601
+G0295,Δήμος Αγίας Παρασκευής,council,municipality,G0060,,pending,,,,,,ELSTAT-M4602
+G0296,Δήμος Βριλησσίων,council,municipality,G0060,,pending,,,,,,ELSTAT-M4603
+G0297,Δήμος Ηρακλείου,council,municipality,G0060,,pending,,,,,,ELSTAT-M4604
+G0298,Δήμος Κηφισιάς,council,municipality,G0060,,pending,,,,,,ELSTAT-M4605
+G0299,Δήμος Λυκόβρυσης - Πεύκης,council,municipality,G0060,,pending,,,,,,ELSTAT-M4606
+G0300,Δήμος Μεταμορφώσεως,council,municipality,G0060,,pending,,,,,,ELSTAT-M4607
+G0301,Δήμος Νέας Ιωνίας,council,municipality,G0060,,pending,,,,,,ELSTAT-M4608
+G0302,Δήμος Παπάγου - Χολαργού,council,municipality,G0060,,pending,,,,,,ELSTAT-M4609
+G0303,Δήμος Πεντέλης,council,municipality,G0060,,pending,,,,,,ELSTAT-M4610
+G0304,Δήμος Φιλοθέης - Ψυχικού,council,municipality,G0060,,pending,,,,,,ELSTAT-M4611
+G0305,Δήμος Χαλανδρίου,council,municipality,G0060,,pending,,,,,,ELSTAT-M4612
+G0306,Δήμος Περιστερίου,council,municipality,G0061,,pending,,,,,,ELSTAT-M4701
+G0307,Δήμος Αγίας Βαρβάρας,council,municipality,G0061,,pending,,,,,,ELSTAT-M4702
+G0308,Δήμος Αγίων Αναργύρων - Καματερού,council,municipality,G0061,,pending,,,,,,ELSTAT-M4703
+G0309,Δήμος Αιγάλεω,council,municipality,G0061,,pending,,,,,,ELSTAT-M4704
+G0310,Δήμος Ιλίου,council,municipality,G0061,,pending,,,,,,ELSTAT-M4705
+G0311,Δήμος Πετρουπόλεως,council,municipality,G0061,,pending,,,,,,ELSTAT-M4706
+G0312,Δήμος Χαϊδαρίου,council,municipality,G0061,,pending,,,,,,ELSTAT-M4707
+G0313,Δήμος Καλλιθέας,council,municipality,G0062,,pending,,,,,,ELSTAT-M4801
+G0314,Δήμος Αγίου Δημητρίου,council,municipality,G0062,,pending,,,,,,ELSTAT-M4802
+G0315,Δήμος Αλίμου,council,municipality,G0062,,pending,,,,,,ELSTAT-M4803
+G0316,Δήμος Γλυφάδας,council,municipality,G0062,,pending,,,,,,ELSTAT-M4804
+G0317,Δήμος Ελληνικού - Αργυρούπολης,council,municipality,G0062,,pending,,,,,,ELSTAT-M4805
+G0318,Δήμος Μοσχάτου - Ταύρου,council,municipality,G0062,,pending,,,,,,ELSTAT-M4806
+G0319,Δήμος Νέας Σμύρνης,council,municipality,G0062,,pending,,,,,,ELSTAT-M4807
+G0320,Δήμος Παλαιού Φαλήρου,council,municipality,G0062,,pending,,,,,,ELSTAT-M4808
+G0321,Δήμος Αχαρνών,council,municipality,G0063,,pending,,,,,,ELSTAT-M4901
+G0322,Δήμος Βάρης - Βούλας - Βουλιαγμένης,council,municipality,G0063,,pending,,,,,,ELSTAT-M4902
+G0323,Δήμος Διονύσου,council,municipality,G0063,,pending,,,,,,ELSTAT-M4903
+G0324,Δήμος Κρωπίας,council,municipality,G0063,,pending,,,,,,ELSTAT-M4904
+G0325,Δήμος Λαυρεωτικής,council,municipality,G0063,,pending,,,,,,ELSTAT-M4905
+G0326,Δήμος Μαραθώνος,council,municipality,G0063,,pending,,,,,,ELSTAT-M4906
+G0327,Δήμος Μαρκοπούλου Μεσογαίας,council,municipality,G0063,,pending,,,,,,ELSTAT-M4907
+G0328,Δήμος Παιανίας,council,municipality,G0063,,pending,,,,,,ELSTAT-M4908
+G0329,Δήμος Παλλήνης,council,municipality,G0063,,pending,,,,,,ELSTAT-M4909
+G0330,Δήμος Ραφήνας - Πικερμίου,council,municipality,G0063,,pending,,,,,,ELSTAT-M4910
+G0331,Δήμος Σαρωνικού,council,municipality,G0063,,pending,,,,,,ELSTAT-M4911
+G0332,Δήμος Σπάτων - Αρτέμιδος,council,municipality,G0063,,pending,,,,,,ELSTAT-M4912
+G0333,Δήμος Ωρωπού,council,municipality,G0063,,pending,,,,,,ELSTAT-M4913
+G0334,Δήμος Ελευσίνας,council,municipality,G0064,,pending,,,,,,ELSTAT-M5001
+G0335,Δήμος Ασπροπύργου,council,municipality,G0064,,pending,,,,,,ELSTAT-M5002
+G0336,Δήμος Μάνδρας - Ειδυλλίας,council,municipality,G0064,,pending,,,,,,ELSTAT-M5003
+G0337,Δήμος Μεγαρέων,council,municipality,G0064,,pending,,,,,,ELSTAT-M5004
+G0338,Δήμος Φυλής,council,municipality,G0064,,pending,,,,,,ELSTAT-M5005
+G0339,Δήμος Πειραιώς,council,municipality,G0065,,pending,,,,,,ELSTAT-M5101
+G0340,Δήμος Κερατσινίου - Δραπετσώνας,council,municipality,G0065,,pending,,,,,,ELSTAT-M5102
+G0341,Δήμος Κορυδαλλού,council,municipality,G0065,,pending,,,,,,ELSTAT-M5103
+G0342,Δήμος Νίκαιας - Αγίου Ιωάννη Ρέντη,council,municipality,G0065,,pending,,,,,,ELSTAT-M5104
+G0343,Δήμος Περάματος,council,municipality,G0065,,pending,,,,,,ELSTAT-M5105
+G0344,Δήμος Σαλαμίνος,council,municipality,G0066,,pending,,,,,,ELSTAT-M5201
+G0345,Δήμος Αγκιστρίου,council,municipality,G0066,,pending,,,,,,ELSTAT-M5202
+G0346,Δήμος Αίγινας,council,municipality,G0066,,pending,,,,,,ELSTAT-M5203
+G0347,Δήμος Κυθήρων,council,municipality,G0066,,pending,,,,,,ELSTAT-M5204
+G0348,Δήμος Πόρου,council,municipality,G0066,,pending,,,,,,ELSTAT-M5205
+G0349,Δήμος Σπετσών,council,municipality,G0066,,pending,,,,,,ELSTAT-M5206
+G0350,Δήμος Τροιζηνίας - Μεθάνων,council,municipality,G0066,,pending,,,,,,ELSTAT-M5207
+G0351,Δήμος Ύδρας,council,municipality,G0066,,pending,,,,,,ELSTAT-M5208
+G0352,Δήμος Μυτιλήνης,council,municipality,G0067,,pending,,,,,,ELSTAT-M5301
+G0353,Δήμος Δυτικής Λέσβου,council,municipality,G0067,,pending,,,,,,ELSTAT-M5302
+G0354,Δήμος Ικαρίας,council,municipality,G0068,,pending,,,,,,ELSTAT-M5401
+G0355,Δήμος Φούρνων Κορσεών,council,municipality,G0068,,pending,,,,,,ELSTAT-M5402
+G0356,Δήμος Λήμνου,council,municipality,G0069,,pending,,,,,,ELSTAT-M5501
+G0357,Δήμος Αγίου Ευστρατίου,council,municipality,G0069,,pending,,,,,,ELSTAT-M5502
+G0358,Δήμος Ανατολικής Σάμου,council,municipality,G0070,,pending,,,,,,ELSTAT-M5601
+G0359,Δήμος Δυτικής Σάμου,council,municipality,G0070,,pending,,,,,,ELSTAT-M5602
+G0360,Δήμος Χίου,council,municipality,G0071,,pending,,,,,,ELSTAT-M5701
+G0361,Δήμος Ηρωικής Νήσου Ψαρών,council,municipality,G0071,,pending,,,,,,ELSTAT-M5702
+G0362,Δήμος Οινουσσών,council,municipality,G0071,,pending,,,,,,ELSTAT-M5703
+G0363,Δήμος Σύρου - Ερμούπολης,council,municipality,G0072,,pending,,,,,,ELSTAT-M5801
+G0364,Δήμος Άνδρου,council,municipality,G0073,,pending,,,,,,ELSTAT-M5901
+G0365,Δήμος Θήρας,council,municipality,G0074,,pending,,,,,,ELSTAT-M6001
+G0366,Δήμος Ανάφης,council,municipality,G0074,,pending,,,,,,ELSTAT-M6002
+G0367,Δήμος Ιητών,council,municipality,G0074,,pending,,,,,,ELSTAT-M6003
+G0368,Δήμος Σικίνου,council,municipality,G0074,,pending,,,,,,ELSTAT-M6004
+G0369,Δήμος Φολεγάνδρου,council,municipality,G0074,,pending,,,,,,ELSTAT-M6005
+G0370,Δήμος Καλυμνίων,council,municipality,G0075,,pending,,,,,,ELSTAT-M6101
+G0371,Δήμος Αγαθονησίου,council,municipality,G0075,,pending,,,,,,ELSTAT-M6102
+G0372,Δήμος Αστυπαλαίας,council,municipality,G0075,,pending,,,,,,ELSTAT-M6103
+G0373,Δήμος Λειψών,council,municipality,G0075,,pending,,,,,,ELSTAT-M6104
+G0374,Δήμος Λέρου,council,municipality,G0075,,pending,,,,,,ELSTAT-M6105
+G0375,Δήμος Πάτμου,council,municipality,G0075,,pending,,,,,,ELSTAT-M6106
+G0376,Δήμος Καρπάθου,council,municipality,G0076,,pending,,,,,,ELSTAT-M6201
+G0377,Δήμος Ηρωικής Νήσου Κάσου,council,municipality,G0076,,pending,,,,,,ELSTAT-M6202
+G0378,Δήμος Κέας,council,municipality,G0077,,pending,,,,,,ELSTAT-M6301
+G0379,Δήμος Κύθνου,council,municipality,G0077,,pending,,,,,,ELSTAT-M6302
+G0380,Δήμος Κω,council,municipality,G0078,,pending,,,,,,ELSTAT-M6401
+G0381,Δήμος Νισύρου,council,municipality,G0078,,pending,,,,,,ELSTAT-M6402
+G0382,Δήμος Μήλου,council,municipality,G0079,,pending,,,,,,ELSTAT-M6501
+G0383,Δήμος Κιμώλου,council,municipality,G0079,,pending,,,,,,ELSTAT-M6502
+G0384,Δήμος Σερίφου,council,municipality,G0079,,pending,,,,,,ELSTAT-M6503
+G0385,Δήμος Σίφνου,council,municipality,G0079,,pending,,,,,,ELSTAT-M6504
+G0386,Δήμος Μυκόνου,council,municipality,G0080,,pending,,,,,,ELSTAT-M6601
+G0387,Δήμος Αμοργού,council,municipality,G0081,,pending,,,,,,ELSTAT-M6701
+G0388,Δήμος Νάξου και Μικρών Κυκλάδων,council,municipality,G0081,,pending,,,,,,ELSTAT-M6702
+G0389,Δήμος Πάρου,council,municipality,G0082,,pending,,,,,,ELSTAT-M6801
+G0390,Δήμος Αντιπάρου,council,municipality,G0082,,pending,,,,,,ELSTAT-M6802
+G0391,Δήμος Ρόδου,council,municipality,G0083,,pending,,,,,,ELSTAT-M6901
+G0392,Δήμος Μεγίστης,council,municipality,G0083,,pending,,,,,,ELSTAT-M6902
+G0393,Δήμος Σύμης,council,municipality,G0083,,pending,,,,,,ELSTAT-M6903
+G0394,Δήμος Τήλου,council,municipality,G0083,,pending,,,,,,ELSTAT-M6904
+G0395,Δήμος Χάλκης,council,municipality,G0083,,pending,,,,,,ELSTAT-M6905
+G0396,Δήμος Τήνου,council,municipality,G0084,,pending,,,,,,ELSTAT-M7001
+G0397,Δήμος Ηρακλείου,council,municipality,G0085,,pending,,,,,,ELSTAT-M7101
+G0398,Δήμος Αρχανών - Αστερουσίων,council,municipality,G0085,,pending,,,,,,ELSTAT-M7102
+G0399,Δήμος Βιάννου,council,municipality,G0085,,pending,,,,,,ELSTAT-M7103
+G0400,Δήμος Γόρτυνας,council,municipality,G0085,,pending,,,,,,ELSTAT-M7104
+G0401,Δήμος Μαλεβιζίου,council,municipality,G0085,,pending,,,,,,ELSTAT-M7105
+G0402,Δήμος Μινώα Πεδιάδας,council,municipality,G0085,,pending,,,,,,ELSTAT-M7106
+G0403,Δήμος Φαιστού,council,municipality,G0085,,pending,,,,,,ELSTAT-M7107
+G0404,Δήμος Χερσονήσου,council,municipality,G0085,,pending,,,,,,ELSTAT-M7108
+G0405,Δήμος Αγίου Νικολάου,council,municipality,G0086,,pending,,,,,,ELSTAT-M7201
+G0406,Δήμος Ιεράπετρας,council,municipality,G0086,,pending,,,,,,ELSTAT-M7202
+G0407,Δήμος Οροπεδίου Λασιθίου,council,municipality,G0086,,pending,,,,,,ELSTAT-M7203
+G0408,Δήμος Σητείας,council,municipality,G0086,,pending,,,,,,ELSTAT-M7204
+G0409,Δήμος Ρεθύμνης,council,municipality,G0087,,pending,,,,,,ELSTAT-M7301
+G0410,Δήμος Αγίου Βασιλείου,council,municipality,G0087,,pending,,,,,,ELSTAT-M7302
+G0411,Δήμος Αμαρίου,council,municipality,G0087,,pending,,,,,,ELSTAT-M7303
+G0412,Δήμος Ανωγείων,council,municipality,G0087,,pending,,,,,,ELSTAT-M7304
+G0413,Δήμος Μυλοποτάμου,council,municipality,G0087,,pending,,,,,,ELSTAT-M7305
+G0414,Δήμος Χανίων,council,municipality,G0088,,pending,,,,,,ELSTAT-M7401
+G0415,Δήμος Αποκορώνου,council,municipality,G0088,,pending,,,,,,ELSTAT-M7402
+G0416,Δήμος Γαύδου,council,municipality,G0088,,pending,,,,,,ELSTAT-M7403
+G0417,Δήμος Καντάνου - Σελίνου,council,municipality,G0088,,pending,,,,,,ELSTAT-M7404
+G0418,Δήμος Κισσάμου,council,municipality,G0088,,pending,,,,,,ELSTAT-M7405
+G0419,Δήμος Πλατανιά,council,municipality,G0088,,pending,,,,,,ELSTAT-M7406
+G0420,Δήμος Σφακίων,council,municipality,G0088,,pending,,,,,,ELSTAT-M7407
