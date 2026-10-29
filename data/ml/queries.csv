@@ -1,13 +1,17 @@
-query_id,run_id,date,language,query,channel,results_opened,leads_added,note
-Q0001,R001,2026-10-29,fr,"Mali ""impôt sur la fortune"" OR ""taxe sur les grandes fortunes"" OR ""justice fiscale""",web,7,0,"Found discussions on justice fiscale, mining code reform, and absence of an ISF in Mali."
-Q0002,R001,2026-10-29,fr,"site:oxfam.org ""Mali"" ""justice fiscale"" OR ""taxer les riches"" OR ""inégalités""",web,6,0,"Oxfam reports on West Africa/Mali inequality, domestic resource mobilization, and VAT regressivity."
-Q0003,R001,2026-10-29,fr,"""Moussa Mara"" impôt OR fiscalité OR ""patrimoine"" OR ""fortune""",news,6,0,Mara declares his personal assets publicly and critiques abusive corporate exemptions; no wealth tax.
-Q0004,R001,2026-10-29,fr,"""Oumar Mariko"" OR ""parti SADI"" ""impôt"" OR ""taxe"" OR ""riches"" OR ""fortune""",news,6,0,SADI rhetoric focuses on peasants vs elites and foreign mining companies; no net wealth tax.
-Q0005,R001,2026-10-29,fr,"""Union Nationale des Travailleurs du Mali"" OR ""UNTM"" ""impôt"" OR ""fiscalité"" OR ""taxes""",news,6,0,UNTM advocacy addresses salary income tax (ITS) and high cost of living; no wealth tax motion.
-Q0006,R001,2026-10-29,fr,"""Tax Justice Network Africa"" ""Mali"" OR ""Publiez Ce Que Vous Payez""",web,6,0,PCQVP Mali coordinates extractive sector and mining revenue transparency campaigns.
-Q0007,R001,2026-10-29,fr,"""Mali"" ""UN tax convention"" OR ""convention fiscale"" vote",web,6,0,Mali voted for UN Tax Convention with Africa Group; also terminated bilateral 1972 treaty with France.
-Q0008,R001,2026-10-29,fr,"site:maliweb.net ""impôt sur la fortune"" OR ""taxe sur la fortune"" OR ""taxer la fortune""",archive,6,0,All hits refer to French ISF/IFI or US wealth tax debates; no Malian domestic proposal.
-Q0009,R001,2026-10-29,fr,"site:malijet.com ""impôt sur la fortune"" OR ""taxe sur la fortune"" OR ""taxer la fortune""",archive,6,0,All hits relate to French ISF or religious definition of Zakat; no Malian proposal.
-Q0010,R001,2026-10-29,fr,"UEMOA ""impôt sur la fortune"" OR ""impôt sur le patrimoine""",web,6,0,"In UEMOA, impôt sur le patrimoine refers exclusively to impôt sur le patrimoine foncier (IPF / property tax)."
-Q0011,R001,2026-10-29,en,"site:ictd.ac ""Mali"" ""wealth"" OR ""tax""",academic,6,0,ICTD research observes absence of standalone wealth tax in Mali; focuses on property and customs.
-Q0012,R001,2026-10-29,en,"site:maketaxfair.net ""Mali""",web,5,0,"Fair Tax Monitor baseline study for Mali (CRAFT project) evaluated equity and mining, not wealth taxation."
+query_id,query,purpose,run_id
+Q0001,"Mali ""impôt sur la fortune""",Test standard French term for net wealth tax in Mali,R001
+Q0002,"Mali ""impôt sur les grandes fortunes""",Test variant French wealth tax phrase in Mali,R001
+Q0003,"Mali ""taxer les riches"" OR ""taxation des riches""",Search broader political rhetoric on taxing the wealthy in Mali,R001
+Q0004,"Mali ""impôt sur le patrimoine""",Search patrimony tax debates in Mali,R001
+Q0005,"""Moussa Mara"" fiscalité OR impôt OR patrimoine",Investigate fiscal positions and asset declarations of former PM Moussa Mara,R001
+Q0006,"""Oumar Mariko"" SADI ""impôt"" OR richesse OR multinationales",Screen left-wing SADI leader Oumar Mariko for wealth tax proposals,R001
+Q0007,"Mali justice fiscale ""CAD-Mali"" OR ""PCQVP""",Screen civil society tax justice coalitions in Mali,R001
+Q0008,UNTM Mali syndicat fiscalité revendications,Examine peak trade union confederation fiscal demands,R001
+Q0009,"""Code Général des Impôts"" Mali ""fortune""",Verify whether Malian statutory tax law contains any net wealth tax provision,R001
+Q0010,"Mali code minier 2023 fiscalité or ""Que l'or brille pour les Maliens""",Verify focus of current fiscal policy under the transitional government,R001
+Q0011,"""Mali"" convention fiscale France dénonciation 2023",Investigate termination of 1972 bilateral tax treaty with France,R001
+Q0012,"Mali nisɔngɔ OR ""foroba nafolo"" fiscalité",Screen Bambara fiscal vocabulary for wealth-tax-adjacent proposals,R001
+Q0013,"taxextremewealth.com/signatures ""Moussa Mara"" OR ""Mali""",Examine international open letter signatory rosters for Malian signatories,R002
+Q0014,"""Clément Dembélé"" ""impôt sur la fortune"" OR ""ISF"" 2018",Examine 2018 presidential campaign proposals of Prof. Clément Dembélé,R002
+Q0015,"(""Modibo Sidibé"" OR ""Tiébilé Dramé"" OR ""Choguel Maïga"" OR ""Boubou Cissé"" OR ""Alousséni Sanou"") ""impôt sur la fortune""",Broad screen across key former and current Malian government heads and finance ministers,R002
+Q0016,"""CAD-Mali"" OR ""RJF-Mali"" ""impôt sur la fortune"" OR ""wealth tax""",Screen Malian civil society debt and tax coalitions for net wealth tax endorsements,R002
