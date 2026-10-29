@@ -24,7 +24,7 @@
 
 ## 4. Parties
 - **Communist Party of the Russian Federation (CPRF)**: Second-largest Duma faction (57 seats); author of parliamentary bills for an annual 1%–4% tax on luxury assets and fortunes over 150m RUB.
-- **A Just Russia – For Truth (SRZP)**: Third-largest faction (27 seats); official party program advocates progressive net wealth taxation and an annual solidarity wealth tax modelled on the French ISF.
+- **A Just Russia – For Truth (SRZP)**: Third-largest faction (27 seats); party chairman Mironov proposed discussing an annual solidarity wealth tax modelled on the French ISF.
 - **Yabloko (Яблоко)**: Non-parliamentary liberal-left party; supported luxury and excess wealth property taxation during parliamentary hearings.
 - **United Russia (Единая Россия)**: Majority faction (324 seats); has consistently voted down or shelved opposition wealth tax bills, supporting only consumption multipliers and progressive income tax.
 
@@ -78,3 +78,6 @@
 - **Run R005 (Next)**:
   - Scan regional CPRF and SRZP factions in regional parliaments (e.g. Moscow City Duma, Rostov Oblast Legislative Assembly, Krasnodar Krai Legislative Assembly, Irkutsk Legislative Assembly) for regional party bills and public statements.
   - Review academic publications in *Voprosy Ekonomiki* and *Russian Economic Journal* for structural wealth tax modelling.
+
+## Audit — R005
+- The earlier passes counted luxury taxes (on yachts, jets, supercars and expensive property) as wealth taxes. The definition excludes taxes on listed luxury goods or on high-value property, as the Singapore and China registers already do, so 22 of the 27 actors moved to exclusions: the CPRF bill and its sponsors, the SRZP bill 1153844-8 and its co-sponsors, the luxury-tax comments by SRZP, Yabloko and union figures, Prokhorov, Khodorkovsky, Ionin, Starikov, Auzan, Dmitrieva and the FNPR list item. Five remain: Mironov and SRZP (B: he proposes discussing a solidarity wealth tax on the French model; no bill or programme and no rates on the page), Glazyev and Nekipelov (B: the 2013 RAS report proposes a tax on wealth and luxury) and Guriev (C: lists a wealth tax as one option beside an inheritance and a luxury tax). The Shein blog page is gone (404) and the 2012 Prokhorov, Golov and Zyuganov and the 2016 Auzan pages could not be read by script, so none of their quotes could be checked. The run notes above describe the register as first submitted.
