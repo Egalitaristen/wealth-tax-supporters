@@ -1,0 +1,4 @@
+body_id,name,level,kind,seats,as_of,source_url,seat_view,notes
+B0001,Cámara de Diputadas y Diputados,national,chamber,155,2026-10-30,https://opendata.camara.cl/camaradiputados/WServices/WSDiputado.asmx/retornarDiputadosPeriodoActual,y,Party membership aggregated from the Chamber current-member API as at 30 October 2026. Independents are shown together. Only supporters checked against this official list are lit.
+B0002,Municipalidad de Recoleta,local,council,,,https://www.subdere.gov.cl/autoridades-nacionales/daniel-jadue-pc,,Historical mayoral office; no council seat chart.
+B0003,Senado de la República,national,chamber,,,https://www.senado.cl/senadoras-y-senadores,,Current Senate membership and party totals have not yet been systematically checked.
