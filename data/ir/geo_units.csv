@@ -1,0 +1,463 @@
+geo_unit_id,name,level,unit_type,parent_id,website,sweep_status,swept_run,swept_date,queries_run,hits,notes,code
+G0001,Iran,national,country,,https://dolat.ir,in_progress,R001,2026-10-30,,,"Seed research across national legislature (Islamic Consultative Assembly), political factions, economists, think tanks and sample regions.",IR
+G0002,Islamic Consultative Assembly,national,legislature,G0001,https://rc.majlis.ir,in_progress,R001,2026-10-30,,,Majles-e Shora-ye Eslami (مجلس شورای اسلامی). 290 seats.,
+G0003,Alborz,region,province,G0001,,pending,,,,,Province of Iran (البرز). OCHA P-code IR001.,IR001
+G0004,Ardabil,region,province,G0001,,pending,,,,,Province of Iran (اردبیل). OCHA P-code IR002.,IR002
+G0005,Bushehr,region,province,G0001,,pending,,,,,Province of Iran (بوشهر). OCHA P-code IR003.,IR003
+G0006,Chaharmahal and Bakhtiari,region,province,G0001,,pending,,,,,Province of Iran (چهارمحال و بختیاری). OCHA P-code IR004.,IR004
+G0007,East Azerbaijan,region,province,G0001,,pending,,,,,Province of Iran (آذربایجان شرقی). OCHA P-code IR005.,IR005
+G0008,Fars,region,province,G0001,,pending,,,,,Province of Iran (فارس). OCHA P-code IR006.,IR006
+G0009,Gilan,region,province,G0001,,pending,,,,,Province of Iran (گیلان). OCHA P-code IR007.,IR007
+G0010,Golestan,region,province,G0001,,pending,,,,,Province of Iran (گلستان). OCHA P-code IR008.,IR008
+G0011,Hamadan,region,province,G0001,,pending,,,,,Province of Iran (همدان). OCHA P-code IR009.,IR009
+G0012,Hormozgan,region,province,G0001,,pending,,,,,Province of Iran (هرمزگان). OCHA P-code IR010.,IR010
+G0013,Ilam,region,province,G0001,,pending,,,,,Province of Iran (ایلام). OCHA P-code IR011.,IR011
+G0014,Isfahan,region,province,G0001,,pending,,,,,Province of Iran (اصفهان). OCHA P-code IR012.,IR012
+G0015,Kerman,region,province,G0001,,pending,,,,,Province of Iran (کرمان). OCHA P-code IR013.,IR013
+G0016,Kermanshah,region,province,G0001,,pending,,,,,Province of Iran (کرمانشاه). OCHA P-code IR014.,IR014
+G0017,Khuzestan,region,province,G0001,,pending,,,,,Province of Iran (خوزستان). OCHA P-code IR015.,IR015
+G0018,Kohgiluyeh and Boyer-Ahmad,region,province,G0001,,pending,,,,,Province of Iran (کهگیلویه و بویراحمد). OCHA P-code IR016.,IR016
+G0019,Kurdistan,region,province,G0001,,pending,,,,,Province of Iran (کردستان). OCHA P-code IR017.,IR017
+G0020,Lorestan,region,province,G0001,,pending,,,,,Province of Iran (لرستان). OCHA P-code IR018.,IR018
+G0021,Markazi,region,province,G0001,,pending,,,,,Province of Iran (مرکزی). OCHA P-code IR019.,IR019
+G0022,Mazandaran,region,province,G0001,,pending,,,,,Province of Iran (مازندران). OCHA P-code IR020.,IR020
+G0023,North Khorasan,region,province,G0001,,pending,,,,,Province of Iran (خراسان شمالی). OCHA P-code IR021.,IR021
+G0024,Qazvin,region,province,G0001,,pending,,,,,Province of Iran (قزوین). OCHA P-code IR022.,IR022
+G0025,Qom,region,province,G0001,,pending,,,,,Province of Iran (قم). OCHA P-code IR023.,IR023
+G0026,Razavi Khorasan,region,province,G0001,,pending,,,,,Province of Iran (خراسان رضوی). OCHA P-code IR024.,IR024
+G0027,Semnan,region,province,G0001,,pending,,,,,Province of Iran (سمنان). OCHA P-code IR025.,IR025
+G0028,Sistan and Baluchestan,region,province,G0001,,pending,,,,,Province of Iran (سیستان و بلوچستان). OCHA P-code IR026.,IR026
+G0029,South Khorasan,region,province,G0001,,pending,,,,,Province of Iran (خراسان جنوبی). OCHA P-code IR027.,IR027
+G0030,Tehran,region,province,G0001,,pending,,,,,Province of Iran (تهران). OCHA P-code IR028.,IR028
+G0031,West Azerbaijan,region,province,G0001,,pending,,,,,Province of Iran (آذربایجان غربی). OCHA P-code IR029.,IR029
+G0032,Yazd,region,province,G0001,,pending,,,,,Province of Iran (یزد). OCHA P-code IR030.,IR030
+G0033,Zanjan,region,province,G0001,,pending,,,,,Province of Iran (زنجان). OCHA P-code IR031.,IR031
+G0034,Eshtehard,council,county,G0003,,pending,,,,,County (Shahrestan) in Alborz. OCHA P-code IR001001.,IR001001
+G0035,Fardis,council,county,G0003,,pending,,,,,County (Shahrestan) in Alborz. OCHA P-code IR001002.,IR001002
+G0036,Karaj,council,county,G0003,,pending,,,,,County (Shahrestan) in Alborz. OCHA P-code IR001003.,IR001003
+G0037,Nazarabad,council,county,G0003,,pending,,,,,County (Shahrestan) in Alborz. OCHA P-code IR001004.,IR001004
+G0038,Savojbolagh,council,county,G0003,,pending,,,,,County (Shahrestan) in Alborz. OCHA P-code IR001005.,IR001005
+G0039,Taleghan,council,county,G0003,,pending,,,,,County (Shahrestan) in Alborz. OCHA P-code IR001006.,IR001006
+G0040,Ardabil,council,county,G0004,,pending,,,,,County (Shahrestan) in Ardabil. OCHA P-code IR002001.,IR002001
+G0041,Bilasavar,council,county,G0004,,pending,,,,,County (Shahrestan) in Ardabil. OCHA P-code IR002002.,IR002002
+G0042,Germi,council,county,G0004,,pending,,,,,County (Shahrestan) in Ardabil. OCHA P-code IR002003.,IR002003
+G0043,Khalkhal,council,county,G0004,,pending,,,,,County (Shahrestan) in Ardabil. OCHA P-code IR002004.,IR002004
+G0044,Kowsar,council,county,G0004,,pending,,,,,County (Shahrestan) in Ardabil. OCHA P-code IR002005.,IR002005
+G0045,Meshginshahr,council,county,G0004,,pending,,,,,County (Shahrestan) in Ardabil. OCHA P-code IR002006.,IR002006
+G0046,Namin,council,county,G0004,,pending,,,,,County (Shahrestan) in Ardabil. OCHA P-code IR002007.,IR002007
+G0047,Nir,council,county,G0004,,pending,,,,,County (Shahrestan) in Ardabil. OCHA P-code IR002008.,IR002008
+G0048,Parsabad,council,county,G0004,,pending,,,,,County (Shahrestan) in Ardabil. OCHA P-code IR002009.,IR002009
+G0049,Sareyn,council,county,G0004,,pending,,,,,County (Shahrestan) in Ardabil. OCHA P-code IR002010.,IR002010
+G0050,Asaluyeh,council,county,G0005,,pending,,,,,County (Shahrestan) in Bushehr. OCHA P-code IR003001.,IR003001
+G0051,Bushehr,council,county,G0005,,pending,,,,,County (Shahrestan) in Bushehr. OCHA P-code IR003002.,IR003002
+G0052,Dashtestan,council,county,G0005,,pending,,,,,County (Shahrestan) in Bushehr. OCHA P-code IR003003.,IR003003
+G0053,Dashti,council,county,G0005,,pending,,,,,County (Shahrestan) in Bushehr. OCHA P-code IR003004.,IR003004
+G0054,Deylam,council,county,G0005,,pending,,,,,County (Shahrestan) in Bushehr. OCHA P-code IR003005.,IR003005
+G0055,Dayyer,council,county,G0005,,pending,,,,,County (Shahrestan) in Bushehr. OCHA P-code IR003006.,IR003006
+G0056,Ganaveh,council,county,G0005,,pending,,,,,County (Shahrestan) in Bushehr. OCHA P-code IR003007.,IR003007
+G0057,Jam,council,county,G0005,,pending,,,,,County (Shahrestan) in Bushehr. OCHA P-code IR003008.,IR003008
+G0058,Kangan,council,county,G0005,,pending,,,,,County (Shahrestan) in Bushehr. OCHA P-code IR003009.,IR003009
+G0059,Tangestan,council,county,G0005,,pending,,,,,County (Shahrestan) in Bushehr. OCHA P-code IR003010.,IR003010
+G0060,Ardal,council,county,G0006,,pending,,,,,County (Shahrestan) in Chaharmahal and Bakhtiari. OCHA P-code IR004001.,IR004001
+G0061,Ben,council,county,G0006,,pending,,,,,County (Shahrestan) in Chaharmahal and Bakhtiari. OCHA P-code IR004002.,IR004002
+G0062,Borujen,council,county,G0006,,pending,,,,,County (Shahrestan) in Chaharmahal and Bakhtiari. OCHA P-code IR004003.,IR004003
+G0063,Farsan,council,county,G0006,,pending,,,,,County (Shahrestan) in Chaharmahal and Bakhtiari. OCHA P-code IR004004.,IR004004
+G0064,Kiaar,council,county,G0006,,pending,,,,,County (Shahrestan) in Chaharmahal and Bakhtiari. OCHA P-code IR004005.,IR004005
+G0065,Kuhrang,council,county,G0006,,pending,,,,,County (Shahrestan) in Chaharmahal and Bakhtiari. OCHA P-code IR004006.,IR004006
+G0066,Lordegan,council,county,G0006,,pending,,,,,County (Shahrestan) in Chaharmahal and Bakhtiari. OCHA P-code IR004007.,IR004007
+G0067,Saman,council,county,G0006,,pending,,,,,County (Shahrestan) in Chaharmahal and Bakhtiari. OCHA P-code IR004008.,IR004008
+G0068,Shahrekord,council,county,G0006,,pending,,,,,County (Shahrestan) in Chaharmahal and Bakhtiari. OCHA P-code IR004009.,IR004009
+G0069,Ahar,council,county,G0007,,pending,,,,,County (Shahrestan) in East Azerbaijan. OCHA P-code IR005001.,IR005001
+G0070,Ajabshir,council,county,G0007,,pending,,,,,County (Shahrestan) in East Azerbaijan. OCHA P-code IR005002.,IR005002
+G0071,Azarshahr,council,county,G0007,,pending,,,,,County (Shahrestan) in East Azerbaijan. OCHA P-code IR005003.,IR005003
+G0072,Bonab,council,county,G0007,,pending,,,,,County (Shahrestan) in East Azerbaijan. OCHA P-code IR005004.,IR005004
+G0073,Bostanabad,council,county,G0007,,pending,,,,,County (Shahrestan) in East Azerbaijan. OCHA P-code IR005005.,IR005005
+G0074,Charuymaq,council,county,G0007,,pending,,,,,County (Shahrestan) in East Azerbaijan. OCHA P-code IR005006.,IR005006
+G0075,Hashtrud,council,county,G0007,,pending,,,,,County (Shahrestan) in East Azerbaijan. OCHA P-code IR005007.,IR005007
+G0076,Heris,council,county,G0007,,pending,,,,,County (Shahrestan) in East Azerbaijan. OCHA P-code IR005008.,IR005008
+G0077,Jolfa,council,county,G0007,,pending,,,,,County (Shahrestan) in East Azerbaijan. OCHA P-code IR005009.,IR005009
+G0078,Kalibar,council,county,G0007,,pending,,,,,County (Shahrestan) in East Azerbaijan. OCHA P-code IR005010.,IR005010
+G0079,Khodaafarin,council,county,G0007,,pending,,,,,County (Shahrestan) in East Azerbaijan. OCHA P-code IR005011.,IR005011
+G0080,Malekan,council,county,G0007,,pending,,,,,County (Shahrestan) in East Azerbaijan. OCHA P-code IR005012.,IR005012
+G0081,Maragheh,council,county,G0007,,pending,,,,,County (Shahrestan) in East Azerbaijan. OCHA P-code IR005013.,IR005013
+G0082,Marand,council,county,G0007,,pending,,,,,County (Shahrestan) in East Azerbaijan. OCHA P-code IR005014.,IR005014
+G0083,Mianeh,council,county,G0007,,pending,,,,,County (Shahrestan) in East Azerbaijan. OCHA P-code IR005015.,IR005015
+G0084,Osku,council,county,G0007,,pending,,,,,County (Shahrestan) in East Azerbaijan. OCHA P-code IR005016.,IR005016
+G0085,Sarab,council,county,G0007,,pending,,,,,County (Shahrestan) in East Azerbaijan. OCHA P-code IR005017.,IR005017
+G0086,Shabestar,council,county,G0007,,pending,,,,,County (Shahrestan) in East Azerbaijan. OCHA P-code IR005018.,IR005018
+G0087,Tabriz,council,county,G0007,,pending,,,,,County (Shahrestan) in East Azerbaijan. OCHA P-code IR005019.,IR005019
+G0088,Varzaqan,council,county,G0007,,pending,,,,,County (Shahrestan) in East Azerbaijan. OCHA P-code IR005020.,IR005020
+G0089,Abadeh,council,county,G0008,,pending,,,,,County (Shahrestan) in Fars. OCHA P-code IR006001.,IR006001
+G0090,Arsanjan,council,county,G0008,,pending,,,,,County (Shahrestan) in Fars. OCHA P-code IR006002.,IR006002
+G0091,Bavanat,council,county,G0008,,pending,,,,,County (Shahrestan) in Fars. OCHA P-code IR006003.,IR006003
+G0092,Darab,council,county,G0008,,pending,,,,,County (Shahrestan) in Fars. OCHA P-code IR006004.,IR006004
+G0093,Eqlid,council,county,G0008,,pending,,,,,County (Shahrestan) in Fars. OCHA P-code IR006005.,IR006005
+G0094,Estahban,council,county,G0008,,pending,,,,,County (Shahrestan) in Fars. OCHA P-code IR006006.,IR006006
+G0095,Farashband,council,county,G0008,,pending,,,,,County (Shahrestan) in Fars. OCHA P-code IR006007.,IR006007
+G0096,Fasa,council,county,G0008,,pending,,,,,County (Shahrestan) in Fars. OCHA P-code IR006008.,IR006008
+G0097,Firuzabad,council,county,G0008,,pending,,,,,County (Shahrestan) in Fars. OCHA P-code IR006009.,IR006009
+G0098,Gerash,council,county,G0008,,pending,,,,,County (Shahrestan) in Fars. OCHA P-code IR006010.,IR006010
+G0099,Jahrom,council,county,G0008,,pending,,,,,County (Shahrestan) in Fars. OCHA P-code IR006011.,IR006011
+G0100,Kavar,council,county,G0008,,pending,,,,,County (Shahrestan) in Fars. OCHA P-code IR006012.,IR006012
+G0101,Kazerun,council,county,G0008,,pending,,,,,County (Shahrestan) in Fars. OCHA P-code IR006013.,IR006013
+G0102,Kherameh,council,county,G0008,,pending,,,,,County (Shahrestan) in Fars. OCHA P-code IR006014.,IR006014
+G0103,Khonj,council,county,G0008,,pending,,,,,County (Shahrestan) in Fars. OCHA P-code IR006015.,IR006015
+G0104,Khorrambid,council,county,G0008,,pending,,,,,County (Shahrestan) in Fars. OCHA P-code IR006016.,IR006016
+G0105,Lamerd,council,county,G0008,,pending,,,,,County (Shahrestan) in Fars. OCHA P-code IR006017.,IR006017
+G0106,Larestan,council,county,G0008,,pending,,,,,County (Shahrestan) in Fars. OCHA P-code IR006018.,IR006018
+G0107,Mamasani,council,county,G0008,,pending,,,,,County (Shahrestan) in Fars. OCHA P-code IR006019.,IR006019
+G0108,Marvdasht,council,county,G0008,,pending,,,,,County (Shahrestan) in Fars. OCHA P-code IR006020.,IR006020
+G0109,Mehr,council,county,G0008,,pending,,,,,County (Shahrestan) in Fars. OCHA P-code IR006021.,IR006021
+G0110,Neyriz,council,county,G0008,,pending,,,,,County (Shahrestan) in Fars. OCHA P-code IR006022.,IR006022
+G0111,Pasargad,council,county,G0008,,pending,,,,,County (Shahrestan) in Fars. OCHA P-code IR006023.,IR006023
+G0112,Qir-o-Karzin,council,county,G0008,,pending,,,,,County (Shahrestan) in Fars. OCHA P-code IR006024.,IR006024
+G0113,Rostam,council,county,G0008,,pending,,,,,County (Shahrestan) in Fars. OCHA P-code IR006025.,IR006025
+G0114,Sarvestan,council,county,G0008,,pending,,,,,County (Shahrestan) in Fars. OCHA P-code IR006026.,IR006026
+G0115,Sepidan,council,county,G0008,,pending,,,,,County (Shahrestan) in Fars. OCHA P-code IR006027.,IR006027
+G0116,Shiraz,council,county,G0008,,pending,,,,,County (Shahrestan) in Fars. OCHA P-code IR006028.,IR006028
+G0117,Zarrindasht,council,county,G0008,,pending,,,,,County (Shahrestan) in Fars. OCHA P-code IR006029.,IR006029
+G0118,Amlash,council,county,G0009,,pending,,,,,County (Shahrestan) in Gilan. OCHA P-code IR007001.,IR007001
+G0119,Astane-ye-Ashrafiyeh,council,county,G0009,,pending,,,,,County (Shahrestan) in Gilan. OCHA P-code IR007002.,IR007002
+G0120,Astara,council,county,G0009,,pending,,,,,County (Shahrestan) in Gilan. OCHA P-code IR007003.,IR007003
+G0121,Bandar-e-Anzali,council,county,G0009,,pending,,,,,County (Shahrestan) in Gilan. OCHA P-code IR007004.,IR007004
+G0122,Fuman,council,county,G0009,,pending,,,,,County (Shahrestan) in Gilan. OCHA P-code IR007005.,IR007005
+G0123,Lahijan,council,county,G0009,,pending,,,,,County (Shahrestan) in Gilan. OCHA P-code IR007006.,IR007006
+G0124,Langrud,council,county,G0009,,pending,,,,,County (Shahrestan) in Gilan. OCHA P-code IR007007.,IR007007
+G0125,Masal,council,county,G0009,,pending,,,,,County (Shahrestan) in Gilan. OCHA P-code IR007008.,IR007008
+G0126,Rasht,council,county,G0009,,pending,,,,,County (Shahrestan) in Gilan. OCHA P-code IR007009.,IR007009
+G0127,Rezvanshahr,council,county,G0009,,pending,,,,,County (Shahrestan) in Gilan. OCHA P-code IR007010.,IR007010
+G0128,Rudbar,council,county,G0009,,pending,,,,,County (Shahrestan) in Gilan. OCHA P-code IR007011.,IR007011
+G0129,Rudsar,council,county,G0009,,pending,,,,,County (Shahrestan) in Gilan. OCHA P-code IR007012.,IR007012
+G0130,Shaft,council,county,G0009,,pending,,,,,County (Shahrestan) in Gilan. OCHA P-code IR007013.,IR007013
+G0131,Siahkal,council,county,G0009,,pending,,,,,County (Shahrestan) in Gilan. OCHA P-code IR007014.,IR007014
+G0132,Some'e-Sara,council,county,G0009,,pending,,,,,County (Shahrestan) in Gilan. OCHA P-code IR007015.,IR007015
+G0133,Talesh,council,county,G0009,,pending,,,,,County (Shahrestan) in Gilan. OCHA P-code IR007016.,IR007016
+G0134,Aliabad,council,county,G0010,,pending,,,,,County (Shahrestan) in Golestan. OCHA P-code IR008001.,IR008001
+G0135,Aqqala,council,county,G0010,,pending,,,,,County (Shahrestan) in Golestan. OCHA P-code IR008002.,IR008002
+G0136,Azadshahr,council,county,G0010,,pending,,,,,County (Shahrestan) in Golestan. OCHA P-code IR008003.,IR008003
+G0137,Bandar-e-Gaz,council,county,G0010,,pending,,,,,County (Shahrestan) in Golestan. OCHA P-code IR008004.,IR008004
+G0138,Galikash,council,county,G0010,,pending,,,,,County (Shahrestan) in Golestan. OCHA P-code IR008005.,IR008005
+G0139,Gomishan,council,county,G0010,,pending,,,,,County (Shahrestan) in Golestan. OCHA P-code IR008006.,IR008006
+G0140,Gonbad-e-Kavus,council,county,G0010,,pending,,,,,County (Shahrestan) in Golestan. OCHA P-code IR008007.,IR008007
+G0141,Gorgan,council,county,G0010,,pending,,,,,County (Shahrestan) in Golestan. OCHA P-code IR008008.,IR008008
+G0142,Kolaleh,council,county,G0010,,pending,,,,,County (Shahrestan) in Golestan. OCHA P-code IR008009.,IR008009
+G0143,Kordkuy,council,county,G0010,,pending,,,,,County (Shahrestan) in Golestan. OCHA P-code IR008010.,IR008010
+G0144,Maravehtapeh,council,county,G0010,,pending,,,,,County (Shahrestan) in Golestan. OCHA P-code IR008011.,IR008011
+G0145,Minudasht,council,county,G0010,,pending,,,,,County (Shahrestan) in Golestan. OCHA P-code IR008012.,IR008012
+G0146,Ramian,council,county,G0010,,pending,,,,,County (Shahrestan) in Golestan. OCHA P-code IR008013.,IR008013
+G0147,Bandar-e-Torkaman,council,county,G0010,,pending,,,,,County (Shahrestan) in Golestan. OCHA P-code IR008014.,IR008014
+G0148,Asadabad,council,county,G0011,,pending,,,,,County (Shahrestan) in Hamadan. OCHA P-code IR009001.,IR009001
+G0149,Bahar,council,county,G0011,,pending,,,,,County (Shahrestan) in Hamadan. OCHA P-code IR009002.,IR009002
+G0150,Famenin,council,county,G0011,,pending,,,,,County (Shahrestan) in Hamadan. OCHA P-code IR009003.,IR009003
+G0151,Hamadan,council,county,G0011,,pending,,,,,County (Shahrestan) in Hamadan. OCHA P-code IR009004.,IR009004
+G0152,Kabudarahang,council,county,G0011,,pending,,,,,County (Shahrestan) in Hamadan. OCHA P-code IR009005.,IR009005
+G0153,Malayer,council,county,G0011,,pending,,,,,County (Shahrestan) in Hamadan. OCHA P-code IR009006.,IR009006
+G0154,Nahavand,council,county,G0011,,pending,,,,,County (Shahrestan) in Hamadan. OCHA P-code IR009007.,IR009007
+G0155,Razan,council,county,G0011,,pending,,,,,County (Shahrestan) in Hamadan. OCHA P-code IR009008.,IR009008
+G0156,Tuyserkan,council,county,G0011,,pending,,,,,County (Shahrestan) in Hamadan. OCHA P-code IR009009.,IR009009
+G0157,Abumusa,council,county,G0012,,pending,,,,,County (Shahrestan) in Hormozgan. OCHA P-code IR010001.,IR010001
+G0158,Bandar-Abbas,council,county,G0012,,pending,,,,,County (Shahrestan) in Hormozgan. OCHA P-code IR010002.,IR010002
+G0159,Bandar-Lengeh,council,county,G0012,,pending,,,,,County (Shahrestan) in Hormozgan. OCHA P-code IR010003.,IR010003
+G0160,Bashagard,council,county,G0012,,pending,,,,,County (Shahrestan) in Hormozgan. OCHA P-code IR010004.,IR010004
+G0161,Bastak,council,county,G0012,,pending,,,,,County (Shahrestan) in Hormozgan. OCHA P-code IR010005.,IR010005
+G0162,Hajiabad,council,county,G0012,,pending,,,,,County (Shahrestan) in Hormozgan. OCHA P-code IR010006.,IR010006
+G0163,Jask,council,county,G0012,,pending,,,,,County (Shahrestan) in Hormozgan. OCHA P-code IR010007.,IR010007
+G0164,Khamir,council,county,G0012,,pending,,,,,County (Shahrestan) in Hormozgan. OCHA P-code IR010008.,IR010008
+G0165,Minab,council,county,G0012,,pending,,,,,County (Shahrestan) in Hormozgan. OCHA P-code IR010009.,IR010009
+G0166,Parsian,council,county,G0012,,pending,,,,,County (Shahrestan) in Hormozgan. OCHA P-code IR010010.,IR010010
+G0167,Qeshm,council,county,G0012,,pending,,,,,County (Shahrestan) in Hormozgan. OCHA P-code IR010011.,IR010011
+G0168,Rudan,council,county,G0012,,pending,,,,,County (Shahrestan) in Hormozgan. OCHA P-code IR010012.,IR010012
+G0169,Sirik,council,county,G0012,,pending,,,,,County (Shahrestan) in Hormozgan. OCHA P-code IR010013.,IR010013
+G0170,Abdanan,council,county,G0013,,pending,,,,,County (Shahrestan) in Ilam. OCHA P-code IR011001.,IR011001
+G0171,Badre,council,county,G0013,,pending,,,,,County (Shahrestan) in Ilam. OCHA P-code IR011002.,IR011002
+G0172,Shirvan-o-Chardavol,council,county,G0013,,pending,,,,,County (Shahrestan) in Ilam. OCHA P-code IR011003.,IR011003
+G0173,Darreh Shahr,council,county,G0013,,pending,,,,,County (Shahrestan) in Ilam. OCHA P-code IR011004.,IR011004
+G0174,Dehloran,council,county,G0013,,pending,,,,,County (Shahrestan) in Ilam. OCHA P-code IR011005.,IR011005
+G0175,Eyvan,council,county,G0013,,pending,,,,,County (Shahrestan) in Ilam. OCHA P-code IR011006.,IR011006
+G0176,Ilam,council,county,G0013,,pending,,,,,County (Shahrestan) in Ilam. OCHA P-code IR011007.,IR011007
+G0177,Malekshahi,council,county,G0013,,pending,,,,,County (Shahrestan) in Ilam. OCHA P-code IR011008.,IR011008
+G0178,Mehran,council,county,G0013,,pending,,,,,County (Shahrestan) in Ilam. OCHA P-code IR011009.,IR011009
+G0179,Sirvan,council,county,G0013,,pending,,,,,County (Shahrestan) in Ilam. OCHA P-code IR011010.,IR011010
+G0180,Aran-o-Bidgol,council,county,G0014,,pending,,,,,County (Shahrestan) in Isfahan. OCHA P-code IR012001.,IR012001
+G0181,Ardestan,council,county,G0014,,pending,,,,,County (Shahrestan) in Isfahan. OCHA P-code IR012002.,IR012002
+G0182,Borkhar,council,county,G0014,,pending,,,,,County (Shahrestan) in Isfahan. OCHA P-code IR012003.,IR012003
+G0183,Booeino Miyandasht,council,county,G0014,,pending,,,,,County (Shahrestan) in Isfahan. OCHA P-code IR012004.,IR012004
+G0184,Chadegan,council,county,G0014,,pending,,,,,County (Shahrestan) in Isfahan. OCHA P-code IR012005.,IR012005
+G0185,Dehaghan,council,county,G0014,,pending,,,,,County (Shahrestan) in Isfahan. OCHA P-code IR012006.,IR012006
+G0186,Falavarjan,council,county,G0014,,pending,,,,,County (Shahrestan) in Isfahan. OCHA P-code IR012007.,IR012007
+G0187,Faridan,council,county,G0014,,pending,,,,,County (Shahrestan) in Isfahan. OCHA P-code IR012008.,IR012008
+G0188,Fereydunshahr,council,county,G0014,,pending,,,,,County (Shahrestan) in Isfahan. OCHA P-code IR012009.,IR012009
+G0189,Golpayegan,council,county,G0014,,pending,,,,,County (Shahrestan) in Isfahan. OCHA P-code IR012010.,IR012010
+G0190,Isfahan,council,county,G0014,,pending,,,,,County (Shahrestan) in Isfahan. OCHA P-code IR012011.,IR012011
+G0191,Kashan,council,county,G0014,,pending,,,,,County (Shahrestan) in Isfahan. OCHA P-code IR012012.,IR012012
+G0192,Khansar,council,county,G0014,,pending,,,,,County (Shahrestan) in Isfahan. OCHA P-code IR012013.,IR012013
+G0193,Khomeinishahr,council,county,G0014,,pending,,,,,County (Shahrestan) in Isfahan. OCHA P-code IR012014.,IR012014
+G0194,Khorobiyabanak,council,county,G0014,,pending,,,,,County (Shahrestan) in Isfahan. OCHA P-code IR012015.,IR012015
+G0195,Lenjan,council,county,G0014,,pending,,,,,County (Shahrestan) in Isfahan. OCHA P-code IR012016.,IR012016
+G0196,Mobarakeh,council,county,G0014,,pending,,,,,County (Shahrestan) in Isfahan. OCHA P-code IR012017.,IR012017
+G0197,Nain,council,county,G0014,,pending,,,,,County (Shahrestan) in Isfahan. OCHA P-code IR012018.,IR012018
+G0198,Najafabad,council,county,G0014,,pending,,,,,County (Shahrestan) in Isfahan. OCHA P-code IR012019.,IR012019
+G0199,Natanz,council,county,G0014,,pending,,,,,County (Shahrestan) in Isfahan. OCHA P-code IR012020.,IR012020
+G0200,Shahreza,council,county,G0014,,pending,,,,,County (Shahrestan) in Isfahan. OCHA P-code IR012021.,IR012021
+G0201,Semirom,council,county,G0014,,pending,,,,,County (Shahrestan) in Isfahan. OCHA P-code IR012022.,IR012022
+G0202,Shahinshahro Meymeh,council,county,G0014,,pending,,,,,County (Shahrestan) in Isfahan. OCHA P-code IR012023.,IR012023
+G0203,Tiran-o-Korun,council,county,G0014,,pending,,,,,County (Shahrestan) in Isfahan. OCHA P-code IR012024.,IR012024
+G0204,Anar,council,county,G0015,,pending,,,,,County (Shahrestan) in Kerman. OCHA P-code IR013001.,IR013001
+G0205,Anbarabad,council,county,G0015,,pending,,,,,County (Shahrestan) in Kerman. OCHA P-code IR013002.,IR013002
+G0206,Arzuiyeh,council,county,G0015,,pending,,,,,County (Shahrestan) in Kerman. OCHA P-code IR013003.,IR013003
+G0207,Baft,council,county,G0015,,pending,,,,,County (Shahrestan) in Kerman. OCHA P-code IR013004.,IR013004
+G0208,Bam,council,county,G0015,,pending,,,,,County (Shahrestan) in Kerman. OCHA P-code IR013005.,IR013005
+G0209,Bardsir,council,county,G0015,,pending,,,,,County (Shahrestan) in Kerman. OCHA P-code IR013006.,IR013006
+G0210,Fahraj,council,county,G0015,,pending,,,,,County (Shahrestan) in Kerman. OCHA P-code IR013007.,IR013007
+G0211,Faryab,council,county,G0015,,pending,,,,,County (Shahrestan) in Kerman. OCHA P-code IR013008.,IR013008
+G0212,Ghaleye-Ganj,council,county,G0015,,pending,,,,,County (Shahrestan) in Kerman. OCHA P-code IR013009.,IR013009
+G0213,Jiroft,council,county,G0015,,pending,,,,,County (Shahrestan) in Kerman. OCHA P-code IR013010.,IR013010
+G0214,Kahnuj,council,county,G0015,,pending,,,,,County (Shahrestan) in Kerman. OCHA P-code IR013011.,IR013011
+G0215,Kerman,council,county,G0015,,pending,,,,,County (Shahrestan) in Kerman. OCHA P-code IR013012.,IR013012
+G0216,Kuhbonan,council,county,G0015,,pending,,,,,County (Shahrestan) in Kerman. OCHA P-code IR013013.,IR013013
+G0217,Manujan,council,county,G0015,,pending,,,,,County (Shahrestan) in Kerman. OCHA P-code IR013014.,IR013014
+G0218,Normashir,council,county,G0015,,pending,,,,,County (Shahrestan) in Kerman. OCHA P-code IR013015.,IR013015
+G0219,Rabar,council,county,G0015,,pending,,,,,County (Shahrestan) in Kerman. OCHA P-code IR013016.,IR013016
+G0220,Rafsanjan,council,county,G0015,,pending,,,,,County (Shahrestan) in Kerman. OCHA P-code IR013017.,IR013017
+G0221,Ravar,council,county,G0015,,pending,,,,,County (Shahrestan) in Kerman. OCHA P-code IR013018.,IR013018
+G0222,Rigan,council,county,G0015,,pending,,,,,County (Shahrestan) in Kerman. OCHA P-code IR013019.,IR013019
+G0223,Roudbar-e-Jonub,council,county,G0015,,pending,,,,,County (Shahrestan) in Kerman. OCHA P-code IR013020.,IR013020
+G0224,Shahr-e-Babak,council,county,G0015,,pending,,,,,County (Shahrestan) in Kerman. OCHA P-code IR013021.,IR013021
+G0225,Sirjan,council,county,G0015,,pending,,,,,County (Shahrestan) in Kerman. OCHA P-code IR013022.,IR013022
+G0226,Zarand,council,county,G0015,,pending,,,,,County (Shahrestan) in Kerman. OCHA P-code IR013023.,IR013023
+G0227,Dalaho,council,county,G0016,,pending,,,,,County (Shahrestan) in Kermanshah. OCHA P-code IR014001.,IR014001
+G0228,Islamabad-e-Gharb,council,county,G0016,,pending,,,,,County (Shahrestan) in Kermanshah. OCHA P-code IR014002.,IR014002
+G0229,Gilan-e-Gharb,council,county,G0016,,pending,,,,,County (Shahrestan) in Kermanshah. OCHA P-code IR014003.,IR014003
+G0230,Harsin,council,county,G0016,,pending,,,,,County (Shahrestan) in Kermanshah. OCHA P-code IR014004.,IR014004
+G0231,Javanrud,council,county,G0016,,pending,,,,,County (Shahrestan) in Kermanshah. OCHA P-code IR014005.,IR014005
+G0232,Kangavar,council,county,G0016,,pending,,,,,County (Shahrestan) in Kermanshah. OCHA P-code IR014006.,IR014006
+G0233,Kermanshah,council,county,G0016,,pending,,,,,County (Shahrestan) in Kermanshah. OCHA P-code IR014007.,IR014007
+G0234,Paveh,council,county,G0016,,pending,,,,,County (Shahrestan) in Kermanshah. OCHA P-code IR014008.,IR014008
+G0235,Qasr-e-Shirin,council,county,G0016,,pending,,,,,County (Shahrestan) in Kermanshah. OCHA P-code IR014009.,IR014009
+G0236,Ravansar,council,county,G0016,,pending,,,,,County (Shahrestan) in Kermanshah. OCHA P-code IR014010.,IR014010
+G0237,Sahneh,council,county,G0016,,pending,,,,,County (Shahrestan) in Kermanshah. OCHA P-code IR014011.,IR014011
+G0238,Solas-e-Babajani,council,county,G0016,,pending,,,,,County (Shahrestan) in Kermanshah. OCHA P-code IR014012.,IR014012
+G0239,Sarpol-e-Zahab,council,county,G0016,,pending,,,,,County (Shahrestan) in Kermanshah. OCHA P-code IR014013.,IR014013
+G0240,Sonqor,council,county,G0016,,pending,,,,,County (Shahrestan) in Kermanshah. OCHA P-code IR014014.,IR014014
+G0241,Abadan,council,county,G0017,,pending,,,,,County (Shahrestan) in Khuzestan. OCHA P-code IR015001.,IR015001
+G0242,Aghajari,council,county,G0017,,pending,,,,,County (Shahrestan) in Khuzestan. OCHA P-code IR015002.,IR015002
+G0243,Ahvaz,council,county,G0017,,pending,,,,,County (Shahrestan) in Khuzestan. OCHA P-code IR015003.,IR015003
+G0244,Andika,council,county,G0017,,pending,,,,,County (Shahrestan) in Khuzestan. OCHA P-code IR015004.,IR015004
+G0245,Andimeshk,council,county,G0017,,pending,,,,,County (Shahrestan) in Khuzestan. OCHA P-code IR015005.,IR015005
+G0246,Baghmalek,council,county,G0017,,pending,,,,,County (Shahrestan) in Khuzestan. OCHA P-code IR015006.,IR015006
+G0247,Mahshahr,council,county,G0017,,pending,,,,,County (Shahrestan) in Khuzestan. OCHA P-code IR015007.,IR015007
+G0248,Bavi,council,county,G0017,,pending,,,,,County (Shahrestan) in Khuzestan. OCHA P-code IR015008.,IR015008
+G0249,Behbahan,council,county,G0017,,pending,,,,,County (Shahrestan) in Khuzestan. OCHA P-code IR015009.,IR015009
+G0250,Dasht-e-Azadegan,council,county,G0017,,pending,,,,,County (Shahrestan) in Khuzestan. OCHA P-code IR015010.,IR015010
+G0251,Dezful,council,county,G0017,,pending,,,,,County (Shahrestan) in Khuzestan. OCHA P-code IR015011.,IR015011
+G0252,Guotvand,council,county,G0017,,pending,,,,,County (Shahrestan) in Khuzestan. OCHA P-code IR015012.,IR015012
+G0253,Haftgol,council,county,G0017,,pending,,,,,County (Shahrestan) in Khuzestan. OCHA P-code IR015013.,IR015013
+G0254,Hamidieh,council,county,G0017,,pending,,,,,County (Shahrestan) in Khuzestan. OCHA P-code IR015014.,IR015014
+G0255,Hendijan,council,county,G0017,,pending,,,,,County (Shahrestan) in Khuzestan. OCHA P-code IR015015.,IR015015
+G0256,Hoveizeh,council,county,G0017,,pending,,,,,County (Shahrestan) in Khuzestan. OCHA P-code IR015016.,IR015016
+G0257,Izeh,council,county,G0017,,pending,,,,,County (Shahrestan) in Khuzestan. OCHA P-code IR015017.,IR015017
+G0258,Karoun,council,county,G0017,,pending,,,,,County (Shahrestan) in Khuzestan. OCHA P-code IR015018.,IR015018
+G0259,Khorramshahr,council,county,G0017,,pending,,,,,County (Shahrestan) in Khuzestan. OCHA P-code IR015019.,IR015019
+G0260,Lali,council,county,G0017,,pending,,,,,County (Shahrestan) in Khuzestan. OCHA P-code IR015020.,IR015020
+G0261,Masjed-Soleyman,council,county,G0017,,pending,,,,,County (Shahrestan) in Khuzestan. OCHA P-code IR015021.,IR015021
+G0262,Omidiyeh,council,county,G0017,,pending,,,,,County (Shahrestan) in Khuzestan. OCHA P-code IR015022.,IR015022
+G0263,Ramhormoz,council,county,G0017,,pending,,,,,County (Shahrestan) in Khuzestan. OCHA P-code IR015023.,IR015023
+G0264,Ramshir,council,county,G0017,,pending,,,,,County (Shahrestan) in Khuzestan. OCHA P-code IR015024.,IR015024
+G0265,Shadegan,council,county,G0017,,pending,,,,,County (Shahrestan) in Khuzestan. OCHA P-code IR015025.,IR015025
+G0266,Shush,council,county,G0017,,pending,,,,,County (Shahrestan) in Khuzestan. OCHA P-code IR015026.,IR015026
+G0267,Shushtar,council,county,G0017,,pending,,,,,County (Shahrestan) in Khuzestan. OCHA P-code IR015027.,IR015027
+G0268,Bahmai,council,county,G0018,,pending,,,,,County (Shahrestan) in Kohgiluyeh and Boyer-Ahmad. OCHA P-code IR016001.,IR016001
+G0269,Basht,council,county,G0018,,pending,,,,,County (Shahrestan) in Kohgiluyeh and Boyer-Ahmad. OCHA P-code IR016002.,IR016002
+G0270,Yasooj,council,county,G0018,,pending,,,,,County (Shahrestan) in Kohgiluyeh and Boyer-Ahmad. OCHA P-code IR016003.,IR016003
+G0271,Charam,council,county,G0018,,pending,,,,,County (Shahrestan) in Kohgiluyeh and Boyer-Ahmad. OCHA P-code IR016004.,IR016004
+G0272,Dena,council,county,G0018,,pending,,,,,County (Shahrestan) in Kohgiluyeh and Boyer-Ahmad. OCHA P-code IR016005.,IR016005
+G0273,Gachsaran,council,county,G0018,,pending,,,,,County (Shahrestan) in Kohgiluyeh and Boyer-Ahmad. OCHA P-code IR016006.,IR016006
+G0274,Kohgeluyeh,council,county,G0018,,pending,,,,,County (Shahrestan) in Kohgiluyeh and Boyer-Ahmad. OCHA P-code IR016007.,IR016007
+G0275,Landeh,council,county,G0018,,pending,,,,,County (Shahrestan) in Kohgiluyeh and Boyer-Ahmad. OCHA P-code IR016008.,IR016008
+G0276,Baneh,council,county,G0019,,pending,,,,,County (Shahrestan) in Kurdistan. OCHA P-code IR017001.,IR017001
+G0277,Bijar,council,county,G0019,,pending,,,,,County (Shahrestan) in Kurdistan. OCHA P-code IR017002.,IR017002
+G0278,Dehgolan,council,county,G0019,,pending,,,,,County (Shahrestan) in Kurdistan. OCHA P-code IR017003.,IR017003
+G0279,Divandarreh,council,county,G0019,,pending,,,,,County (Shahrestan) in Kurdistan. OCHA P-code IR017004.,IR017004
+G0280,Qorveh,council,county,G0019,,pending,,,,,County (Shahrestan) in Kurdistan. OCHA P-code IR017005.,IR017005
+G0281,Kamyaran,council,county,G0019,,pending,,,,,County (Shahrestan) in Kurdistan. OCHA P-code IR017006.,IR017006
+G0282,Marivan,council,county,G0019,,pending,,,,,County (Shahrestan) in Kurdistan. OCHA P-code IR017007.,IR017007
+G0283,Sannandaj,council,county,G0019,,pending,,,,,County (Shahrestan) in Kurdistan. OCHA P-code IR017008.,IR017008
+G0284,Saqqez,council,county,G0019,,pending,,,,,County (Shahrestan) in Kurdistan. OCHA P-code IR017009.,IR017009
+G0285,Sarvabad,council,county,G0019,,pending,,,,,County (Shahrestan) in Kurdistan. OCHA P-code IR017010.,IR017010
+G0286,Aligudarz,council,county,G0020,,pending,,,,,County (Shahrestan) in Lorestan. OCHA P-code IR018001.,IR018001
+G0287,Azna,council,county,G0020,,pending,,,,,County (Shahrestan) in Lorestan. OCHA P-code IR018002.,IR018002
+G0288,Borujerd,council,county,G0020,,pending,,,,,County (Shahrestan) in Lorestan. OCHA P-code IR018003.,IR018003
+G0289,Delfan,council,county,G0020,,pending,,,,,County (Shahrestan) in Lorestan. OCHA P-code IR018004.,IR018004
+G0290,Doureh,council,county,G0020,,pending,,,,,County (Shahrestan) in Lorestan. OCHA P-code IR018005.,IR018005
+G0291,Dorud,council,county,G0020,,pending,,,,,County (Shahrestan) in Lorestan. OCHA P-code IR018006.,IR018006
+G0292,Khorramabad,council,county,G0020,,pending,,,,,County (Shahrestan) in Lorestan. OCHA P-code IR018007.,IR018007
+G0293,Kuhdasht,council,county,G0020,,pending,,,,,County (Shahrestan) in Lorestan. OCHA P-code IR018008.,IR018008
+G0294,Poldokhtar,council,county,G0020,,pending,,,,,County (Shahrestan) in Lorestan. OCHA P-code IR018009.,IR018009
+G0295,Romeshkan,council,county,G0020,,pending,,,,,County (Shahrestan) in Lorestan. OCHA P-code IR018010.,IR018010
+G0296,Selseleh,council,county,G0020,,pending,,,,,County (Shahrestan) in Lorestan. OCHA P-code IR018011.,IR018011
+G0297,Arak,council,county,G0021,,pending,,,,,County (Shahrestan) in Markazi. OCHA P-code IR019001.,IR019001
+G0298,Ashtian,council,county,G0021,,pending,,,,,County (Shahrestan) in Markazi. OCHA P-code IR019002.,IR019002
+G0299,Delijan,council,county,G0021,,pending,,,,,County (Shahrestan) in Markazi. OCHA P-code IR019003.,IR019003
+G0300,Farahan,council,county,G0021,,pending,,,,,County (Shahrestan) in Markazi. OCHA P-code IR019004.,IR019004
+G0301,Khomein,council,county,G0021,,pending,,,,,County (Shahrestan) in Markazi. OCHA P-code IR019005.,IR019005
+G0302,Khondab,council,county,G0021,,pending,,,,,County (Shahrestan) in Markazi. OCHA P-code IR019006.,IR019006
+G0303,Komeijan,council,county,G0021,,pending,,,,,County (Shahrestan) in Markazi. OCHA P-code IR019007.,IR019007
+G0304,Mahallat,council,county,G0021,,pending,,,,,County (Shahrestan) in Markazi. OCHA P-code IR019008.,IR019008
+G0305,Saveh,council,county,G0021,,pending,,,,,County (Shahrestan) in Markazi. OCHA P-code IR019009.,IR019009
+G0306,Shazand,council,county,G0021,,pending,,,,,County (Shahrestan) in Markazi. OCHA P-code IR019010.,IR019010
+G0307,Tafresh,council,county,G0021,,pending,,,,,County (Shahrestan) in Markazi. OCHA P-code IR019011.,IR019011
+G0308,Zarandieh,council,county,G0021,,pending,,,,,County (Shahrestan) in Markazi. OCHA P-code IR019012.,IR019012
+G0309,Abbasabad,council,county,G0022,,pending,,,,,County (Shahrestan) in Mazandaran. OCHA P-code IR020001.,IR020001
+G0310,Amol,council,county,G0022,,pending,,,,,County (Shahrestan) in Mazandaran. OCHA P-code IR020002.,IR020002
+G0311,Babol,council,county,G0022,,pending,,,,,County (Shahrestan) in Mazandaran. OCHA P-code IR020003.,IR020003
+G0312,Babolsar,council,county,G0022,,pending,,,,,County (Shahrestan) in Mazandaran. OCHA P-code IR020004.,IR020004
+G0313,Behshahr,council,county,G0022,,pending,,,,,County (Shahrestan) in Mazandaran. OCHA P-code IR020005.,IR020005
+G0314,Chalus,council,county,G0022,,pending,,,,,County (Shahrestan) in Mazandaran. OCHA P-code IR020006.,IR020006
+G0315,Feredunkenar,council,county,G0022,,pending,,,,,County (Shahrestan) in Mazandaran. OCHA P-code IR020007.,IR020007
+G0316,Galugah,council,county,G0022,,pending,,,,,County (Shahrestan) in Mazandaran. OCHA P-code IR020008.,IR020008
+G0317,Qaemshahr,council,county,G0022,,pending,,,,,County (Shahrestan) in Mazandaran. OCHA P-code IR020009.,IR020009
+G0318,Juybar,council,county,G0022,,pending,,,,,County (Shahrestan) in Mazandaran. OCHA P-code IR020010.,IR020010
+G0319,Kelardasht,council,county,G0022,,pending,,,,,County (Shahrestan) in Mazandaran. OCHA P-code IR020011.,IR020011
+G0320,Mahmudabad,council,county,G0022,,pending,,,,,County (Shahrestan) in Mazandaran. OCHA P-code IR020012.,IR020012
+G0321,Miandorud,council,county,G0022,,pending,,,,,County (Shahrestan) in Mazandaran. OCHA P-code IR020013.,IR020013
+G0322,Neka,council,county,G0022,,pending,,,,,County (Shahrestan) in Mazandaran. OCHA P-code IR020014.,IR020014
+G0323,Noshahr,council,county,G0022,,pending,,,,,County (Shahrestan) in Mazandaran. OCHA P-code IR020015.,IR020015
+G0324,Nur,council,county,G0022,,pending,,,,,County (Shahrestan) in Mazandaran. OCHA P-code IR020016.,IR020016
+G0325,Ramsar,council,county,G0022,,pending,,,,,County (Shahrestan) in Mazandaran. OCHA P-code IR020017.,IR020017
+G0326,Sari,council,county,G0022,,pending,,,,,County (Shahrestan) in Mazandaran. OCHA P-code IR020018.,IR020018
+G0327,Northern Savadkooh,council,county,G0022,,pending,,,,,County (Shahrestan) in Mazandaran. OCHA P-code IR020019.,IR020019
+G0328,Savadkuh,council,county,G0022,,pending,,,,,County (Shahrestan) in Mazandaran. OCHA P-code IR020020.,IR020020
+G0329,Simorgh,council,county,G0022,,pending,,,,,County (Shahrestan) in Mazandaran. OCHA P-code IR020021.,IR020021
+G0330,Tonekabon,council,county,G0022,,pending,,,,,County (Shahrestan) in Mazandaran. OCHA P-code IR020022.,IR020022
+G0331,Bojnurd,council,county,G0023,,pending,,,,,County (Shahrestan) in North Khorasan. OCHA P-code IR021001.,IR021001
+G0332,Esfarayen,council,county,G0023,,pending,,,,,County (Shahrestan) in North Khorasan. OCHA P-code IR021002.,IR021002
+G0333,Faroj,council,county,G0023,,pending,,,,,County (Shahrestan) in North Khorasan. OCHA P-code IR021003.,IR021003
+G0334,Germeh,council,county,G0023,,pending,,,,,County (Shahrestan) in North Khorasan. OCHA P-code IR021004.,IR021004
+G0335,Jajrom,council,county,G0023,,pending,,,,,County (Shahrestan) in North Khorasan. OCHA P-code IR021005.,IR021005
+G0336,Maneh-o-Samalqan,council,county,G0023,,pending,,,,,County (Shahrestan) in North Khorasan. OCHA P-code IR021006.,IR021006
+G0337,Razo Jalgelan,council,county,G0023,,pending,,,,,County (Shahrestan) in North Khorasan. OCHA P-code IR021007.,IR021007
+G0338,Shirvan,council,county,G0023,,pending,,,,,County (Shahrestan) in North Khorasan. OCHA P-code IR021008.,IR021008
+G0339,Abyek,council,county,G0024,,pending,,,,,County (Shahrestan) in Qazvin. OCHA P-code IR022001.,IR022001
+G0340,Alborz,council,county,G0024,,pending,,,,,County (Shahrestan) in Qazvin. OCHA P-code IR022002.,IR022002
+G0341,Avaj,council,county,G0024,,pending,,,,,County (Shahrestan) in Qazvin. OCHA P-code IR022003.,IR022003
+G0342,Buin-Zahra,council,county,G0024,,pending,,,,,County (Shahrestan) in Qazvin. OCHA P-code IR022004.,IR022004
+G0343,Qazvin,council,county,G0024,,pending,,,,,County (Shahrestan) in Qazvin. OCHA P-code IR022005.,IR022005
+G0344,Takestan,council,county,G0024,,pending,,,,,County (Shahrestan) in Qazvin. OCHA P-code IR022006.,IR022006
+G0345,Qom,council,county,G0025,,pending,,,,,County (Shahrestan) in Qom. OCHA P-code IR023001.,IR023001
+G0346,Bajestan,council,county,G0026,,pending,,,,,County (Shahrestan) in Razavi Khorasan. OCHA P-code IR024001.,IR024001
+G0347,Bakharz,council,county,G0026,,pending,,,,,County (Shahrestan) in Razavi Khorasan. OCHA P-code IR024002.,IR024002
+G0348,Bardaskan,council,county,G0026,,pending,,,,,County (Shahrestan) in Razavi Khorasan. OCHA P-code IR024003.,IR024003
+G0349,Torghabe-o-Shandiz,council,county,G0026,,pending,,,,,County (Shahrestan) in Razavi Khorasan. OCHA P-code IR024004.,IR024004
+G0350,Chenaran,council,county,G0026,,pending,,,,,County (Shahrestan) in Razavi Khorasan. OCHA P-code IR024005.,IR024005
+G0351,Dargaz,council,county,G0026,,pending,,,,,County (Shahrestan) in Razavi Khorasan. OCHA P-code IR024006.,IR024006
+G0352,Davarzan,council,county,G0026,,pending,,,,,County (Shahrestan) in Razavi Khorasan. OCHA P-code IR024007.,IR024007
+G0353,Fariman,council,county,G0026,,pending,,,,,County (Shahrestan) in Razavi Khorasan. OCHA P-code IR024008.,IR024008
+G0354,Firuzeh,council,county,G0026,,pending,,,,,County (Shahrestan) in Razavi Khorasan. OCHA P-code IR024009.,IR024009
+G0355,Gonabad,council,county,G0026,,pending,,,,,County (Shahrestan) in Razavi Khorasan. OCHA P-code IR024010.,IR024010
+G0356,Joghatai,council,county,G0026,,pending,,,,,County (Shahrestan) in Razavi Khorasan. OCHA P-code IR024011.,IR024011
+G0357,Jowayin,council,county,G0026,,pending,,,,,County (Shahrestan) in Razavi Khorasan. OCHA P-code IR024012.,IR024012
+G0358,Kalat,council,county,G0026,,pending,,,,,County (Shahrestan) in Razavi Khorasan. OCHA P-code IR024013.,IR024013
+G0359,Kashmar,council,county,G0026,,pending,,,,,County (Shahrestan) in Razavi Khorasan. OCHA P-code IR024014.,IR024014
+G0360,Khaf,council,county,G0026,,pending,,,,,County (Shahrestan) in Razavi Khorasan. OCHA P-code IR024015.,IR024015
+G0361,Khalilabad,council,county,G0026,,pending,,,,,County (Shahrestan) in Razavi Khorasan. OCHA P-code IR024016.,IR024016
+G0362,Khoshab,council,county,G0026,,pending,,,,,County (Shahrestan) in Razavi Khorasan. OCHA P-code IR024017.,IR024017
+G0363,Mahvelat,council,county,G0026,,pending,,,,,County (Shahrestan) in Razavi Khorasan. OCHA P-code IR024018.,IR024018
+G0364,Mashhad,council,county,G0026,,pending,,,,,County (Shahrestan) in Razavi Khorasan. OCHA P-code IR024019.,IR024019
+G0365,Nishapur,council,county,G0026,,pending,,,,,County (Shahrestan) in Razavi Khorasan. OCHA P-code IR024020.,IR024020
+G0366,Quchan,council,county,G0026,,pending,,,,,County (Shahrestan) in Razavi Khorasan. OCHA P-code IR024021.,IR024021
+G0367,Rashtkhar,council,county,G0026,,pending,,,,,County (Shahrestan) in Razavi Khorasan. OCHA P-code IR024022.,IR024022
+G0368,Sabzevar,council,county,G0026,,pending,,,,,County (Shahrestan) in Razavi Khorasan. OCHA P-code IR024023.,IR024023
+G0369,Sarakhs,council,county,G0026,,pending,,,,,County (Shahrestan) in Razavi Khorasan. OCHA P-code IR024024.,IR024024
+G0370,Taybad,council,county,G0026,,pending,,,,,County (Shahrestan) in Razavi Khorasan. OCHA P-code IR024025.,IR024025
+G0371,Torbat-e-Heydarieh,council,county,G0026,,pending,,,,,County (Shahrestan) in Razavi Khorasan. OCHA P-code IR024026.,IR024026
+G0372,Torbat-e-Jam,council,county,G0026,,pending,,,,,County (Shahrestan) in Razavi Khorasan. OCHA P-code IR024027.,IR024027
+G0373,Zave,council,county,G0026,,pending,,,,,County (Shahrestan) in Razavi Khorasan. OCHA P-code IR024028.,IR024028
+G0374,Aradan,council,county,G0027,,pending,,,,,County (Shahrestan) in Semnan. OCHA P-code IR025001.,IR025001
+G0375,Damghan,council,county,G0027,,pending,,,,,County (Shahrestan) in Semnan. OCHA P-code IR025002.,IR025002
+G0376,Garmsar,council,county,G0027,,pending,,,,,County (Shahrestan) in Semnan. OCHA P-code IR025003.,IR025003
+G0377,Mehdishahr,council,county,G0027,,pending,,,,,County (Shahrestan) in Semnan. OCHA P-code IR025004.,IR025004
+G0378,Meyami,council,county,G0027,,pending,,,,,County (Shahrestan) in Semnan. OCHA P-code IR025005.,IR025005
+G0379,Semnan,council,county,G0027,,pending,,,,,County (Shahrestan) in Semnan. OCHA P-code IR025006.,IR025006
+G0380,Shahrud,council,county,G0027,,pending,,,,,County (Shahrestan) in Semnan. OCHA P-code IR025008.,IR025008
+G0381,Sorkheh,council,county,G0027,,pending,,,,,County (Shahrestan) in Semnan. OCHA P-code IR025009.,IR025009
+G0382,Chabahar,council,county,G0028,,pending,,,,,County (Shahrestan) in Sistan and Baluchestan. OCHA P-code IR026001.,IR026001
+G0383,Dalgan,council,county,G0028,,pending,,,,,County (Shahrestan) in Sistan and Baluchestan. OCHA P-code IR026002.,IR026002
+G0384,Fanouj,council,county,G0028,,pending,,,,,County (Shahrestan) in Sistan and Baluchestan. OCHA P-code IR026003.,IR026003
+G0385,Hamoun,council,county,G0028,,pending,,,,,County (Shahrestan) in Sistan and Baluchestan. OCHA P-code IR026004.,IR026004
+G0386,Hirmand,council,county,G0028,,pending,,,,,County (Shahrestan) in Sistan and Baluchestan. OCHA P-code IR026005.,IR026005
+G0387,Iranshahr,council,county,G0028,,pending,,,,,County (Shahrestan) in Sistan and Baluchestan. OCHA P-code IR026006.,IR026006
+G0388,Khash,council,county,G0028,,pending,,,,,County (Shahrestan) in Sistan and Baluchestan. OCHA P-code IR026007.,IR026007
+G0389,Konarak,council,county,G0028,,pending,,,,,County (Shahrestan) in Sistan and Baluchestan. OCHA P-code IR026008.,IR026008
+G0390,Mehrestan,council,county,G0028,,pending,,,,,County (Shahrestan) in Sistan and Baluchestan. OCHA P-code IR026009.,IR026009
+G0391,Mirjaveh,council,county,G0028,,pending,,,,,County (Shahrestan) in Sistan and Baluchestan. OCHA P-code IR026010.,IR026010
+G0392,Nikshahr,council,county,G0028,,pending,,,,,County (Shahrestan) in Sistan and Baluchestan. OCHA P-code IR026011.,IR026011
+G0393,Nimrouz,council,county,G0028,,pending,,,,,County (Shahrestan) in Sistan and Baluchestan. OCHA P-code IR026012.,IR026012
+G0394,Ghasre Ghand,council,county,G0028,,pending,,,,,County (Shahrestan) in Sistan and Baluchestan. OCHA P-code IR026013.,IR026013
+G0395,Saravan,council,county,G0028,,pending,,,,,County (Shahrestan) in Sistan and Baluchestan. OCHA P-code IR026014.,IR026014
+G0396,Sarbaz,council,county,G0028,,pending,,,,,County (Shahrestan) in Sistan and Baluchestan. OCHA P-code IR026015.,IR026015
+G0397,Sibo Soran,council,county,G0028,,pending,,,,,County (Shahrestan) in Sistan and Baluchestan. OCHA P-code IR026016.,IR026016
+G0398,Zabol,council,county,G0028,,pending,,,,,County (Shahrestan) in Sistan and Baluchestan. OCHA P-code IR026017.,IR026017
+G0399,Zehak,council,county,G0028,,pending,,,,,County (Shahrestan) in Sistan and Baluchestan. OCHA P-code IR026018.,IR026018
+G0400,Zahedan,council,county,G0028,,pending,,,,,County (Shahrestan) in Sistan and Baluchestan. OCHA P-code IR026019.,IR026019
+G0401,Birjand,council,county,G0029,,pending,,,,,County (Shahrestan) in South Khorasan. OCHA P-code IR027001.,IR027001
+G0402,Boshruyeh,council,county,G0029,,pending,,,,,County (Shahrestan) in South Khorasan. OCHA P-code IR027002.,IR027002
+G0403,Darmian,council,county,G0029,,pending,,,,,County (Shahrestan) in South Khorasan. OCHA P-code IR027003.,IR027003
+G0404,Ferdows,council,county,G0029,,pending,,,,,County (Shahrestan) in South Khorasan. OCHA P-code IR027004.,IR027004
+G0405,Qaen,council,county,G0029,,pending,,,,,County (Shahrestan) in South Khorasan. OCHA P-code IR027005.,IR027005
+G0406,Khusf,council,county,G0029,,pending,,,,,County (Shahrestan) in South Khorasan. OCHA P-code IR027006.,IR027006
+G0407,Nehbandan,council,county,G0029,,pending,,,,,County (Shahrestan) in South Khorasan. OCHA P-code IR027007.,IR027007
+G0408,Sarayan,council,county,G0029,,pending,,,,,County (Shahrestan) in South Khorasan. OCHA P-code IR027008.,IR027008
+G0409,Sarbisheh,council,county,G0029,,pending,,,,,County (Shahrestan) in South Khorasan. OCHA P-code IR027009.,IR027009
+G0410,Tabas,council,county,G0029,,pending,,,,,County (Shahrestan) in South Khorasan. OCHA P-code IR027010.,IR027010
+G0411,Zirkouh,council,county,G0029,,pending,,,,,County (Shahrestan) in South Khorasan. OCHA P-code IR027011.,IR027011
+G0412,Baharestan,council,county,G0030,,pending,,,,,County (Shahrestan) in Tehran. OCHA P-code IR028001.,IR028001
+G0413,Damavand,council,county,G0030,,pending,,,,,County (Shahrestan) in Tehran. OCHA P-code IR028002.,IR028002
+G0414,Firuzkuh,council,county,G0030,,pending,,,,,County (Shahrestan) in Tehran. OCHA P-code IR028003.,IR028003
+G0415,Qarchak,council,county,G0030,,pending,,,,,County (Shahrestan) in Tehran. OCHA P-code IR028004.,IR028004
+G0416,Islamshahr,council,county,G0030,,pending,,,,,County (Shahrestan) in Tehran. OCHA P-code IR028005.,IR028005
+G0417,Malard,council,county,G0030,,pending,,,,,County (Shahrestan) in Tehran. OCHA P-code IR028006.,IR028006
+G0418,Pakdasht,council,county,G0030,,pending,,,,,County (Shahrestan) in Tehran. OCHA P-code IR028007.,IR028007
+G0419,Pardis,council,county,G0030,,pending,,,,,County (Shahrestan) in Tehran. OCHA P-code IR028008.,IR028008
+G0420,Pishva,council,county,G0030,,pending,,,,,County (Shahrestan) in Tehran. OCHA P-code IR028009.,IR028009
+G0421,Shahr-e Qods,council,county,G0030,,pending,,,,,County (Shahrestan) in Tehran. OCHA P-code IR028010.,IR028010
+G0422,Rey,council,county,G0030,,pending,,,,,County (Shahrestan) in Tehran. OCHA P-code IR028011.,IR028011
+G0423,Robat-Karim,council,county,G0030,,pending,,,,,County (Shahrestan) in Tehran. OCHA P-code IR028012.,IR028012
+G0424,Shahriar,council,county,G0030,,pending,,,,,County (Shahrestan) in Tehran. OCHA P-code IR028013.,IR028013
+G0425,Shemiranat,council,county,G0030,,pending,,,,,County (Shahrestan) in Tehran. OCHA P-code IR028014.,IR028014
+G0426,Tehran,council,county,G0030,,pending,,,,,County (Shahrestan) in Tehran. OCHA P-code IR028015.,IR028015
+G0427,Varamin,council,county,G0030,,pending,,,,,County (Shahrestan) in Tehran. OCHA P-code IR028016.,IR028016
+G0428,Oshnaviyeh,council,county,G0031,,pending,,,,,County (Shahrestan) in West Azerbaijan. OCHA P-code IR029001.,IR029001
+G0429,Bukan,council,county,G0031,,pending,,,,,County (Shahrestan) in West Azerbaijan. OCHA P-code IR029002.,IR029002
+G0430,Chaldoran,council,county,G0031,,pending,,,,,County (Shahrestan) in West Azerbaijan. OCHA P-code IR029003.,IR029003
+G0431,Chaypareh,council,county,G0031,,pending,,,,,County (Shahrestan) in West Azerbaijan. OCHA P-code IR029004.,IR029004
+G0432,Khoy,council,county,G0031,,pending,,,,,County (Shahrestan) in West Azerbaijan. OCHA P-code IR029005.,IR029005
+G0433,Mahabad,council,county,G0031,,pending,,,,,County (Shahrestan) in West Azerbaijan. OCHA P-code IR029006.,IR029006
+G0434,Maku,council,county,G0031,,pending,,,,,County (Shahrestan) in West Azerbaijan. OCHA P-code IR029007.,IR029007
+G0435,Miandoab,council,county,G0031,,pending,,,,,County (Shahrestan) in West Azerbaijan. OCHA P-code IR029008.,IR029008
+G0436,Naqadeh,council,county,G0031,,pending,,,,,County (Shahrestan) in West Azerbaijan. OCHA P-code IR029009.,IR029009
+G0437,Piranshahr,council,county,G0031,,pending,,,,,County (Shahrestan) in West Azerbaijan. OCHA P-code IR029010.,IR029010
+G0438,Poldasht,council,county,G0031,,pending,,,,,County (Shahrestan) in West Azerbaijan. OCHA P-code IR029011.,IR029011
+G0439,Salmas,council,county,G0031,,pending,,,,,County (Shahrestan) in West Azerbaijan. OCHA P-code IR029012.,IR029012
+G0440,Sardasht,council,county,G0031,,pending,,,,,County (Shahrestan) in West Azerbaijan. OCHA P-code IR029013.,IR029013
+G0441,Shahindej,council,county,G0031,,pending,,,,,County (Shahrestan) in West Azerbaijan. OCHA P-code IR029014.,IR029014
+G0442,Showt,council,county,G0031,,pending,,,,,County (Shahrestan) in West Azerbaijan. OCHA P-code IR029015.,IR029015
+G0443,Takab,council,county,G0031,,pending,,,,,County (Shahrestan) in West Azerbaijan. OCHA P-code IR029016.,IR029016
+G0444,Urumia,council,county,G0031,,pending,,,,,County (Shahrestan) in West Azerbaijan. OCHA P-code IR029017.,IR029017
+G0445,Abarkuh,council,county,G0032,,pending,,,,,County (Shahrestan) in Yazd. OCHA P-code IR030001.,IR030001
+G0446,Ardekan,council,county,G0032,,pending,,,,,County (Shahrestan) in Yazd. OCHA P-code IR030002.,IR030002
+G0447,Ashkezar,council,county,G0032,,pending,,,,,County (Shahrestan) in Yazd. OCHA P-code IR030003.,IR030003
+G0448,Bafq,council,county,G0032,,pending,,,,,County (Shahrestan) in Yazd. OCHA P-code IR030004.,IR030004
+G0449,Bahabad,council,county,G0032,,pending,,,,,County (Shahrestan) in Yazd. OCHA P-code IR030005.,IR030005
+G0450,Khatam,council,county,G0032,,pending,,,,,County (Shahrestan) in Yazd. OCHA P-code IR030006.,IR030006
+G0451,Mehriz,council,county,G0032,,pending,,,,,County (Shahrestan) in Yazd. OCHA P-code IR030007.,IR030007
+G0452,Meybod,council,county,G0032,,pending,,,,,County (Shahrestan) in Yazd. OCHA P-code IR030008.,IR030008
+G0453,Taft,council,county,G0032,,pending,,,,,County (Shahrestan) in Yazd. OCHA P-code IR030009.,IR030009
+G0454,Yazd,council,county,G0032,,pending,,,,,County (Shahrestan) in Yazd. OCHA P-code IR030010.,IR030010
+G0455,Abhar,council,county,G0033,,pending,,,,,County (Shahrestan) in Zanjan. OCHA P-code IR031001.,IR031001
+G0456,Eejrud,council,county,G0033,,pending,,,,,County (Shahrestan) in Zanjan. OCHA P-code IR031002.,IR031002
+G0457,Khodabandeh,council,county,G0033,,pending,,,,,County (Shahrestan) in Zanjan. OCHA P-code IR031003.,IR031003
+G0458,Khorramdarreh,council,county,G0033,,pending,,,,,County (Shahrestan) in Zanjan. OCHA P-code IR031004.,IR031004
+G0459,Mahneshan,council,county,G0033,,pending,,,,,County (Shahrestan) in Zanjan. OCHA P-code IR031005.,IR031005
+G0460,Soltanieh,council,county,G0033,,pending,,,,,County (Shahrestan) in Zanjan. OCHA P-code IR031006.,IR031006
+G0461,Tarom,council,county,G0033,,pending,,,,,County (Shahrestan) in Zanjan. OCHA P-code IR031007.,IR031007
+G0462,Zanjan,council,county,G0033,,pending,,,,,County (Shahrestan) in Zanjan. OCHA P-code IR031008.,IR031008

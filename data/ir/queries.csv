@@ -1,0 +1,62 @@
+query_id,run_id,date,language,query,channel,results_opened,leads_added,note
+Q0001,R001,2026-10-30,fa,مالیات بر ثروت,google,12,3,Initial broad search for wealth tax in Persian news and journals
+Q0002,R001,2026-10-30,fa,مالیات بر مجموع دارایی ها مجلس شورای اسلامی,google,8,1,Targeting 2012-2013 Direct Taxes reform bill in Majlis
+Q0003,R001,2026-10-30,fa,ارسلان فتحی پور مالیات بر ثروت,google,4,1,Found Tabnak 2013 interview on 0.2% wealth tax proposal
+Q0004,R001,2026-10-30,fa,حسین راغفر مالیات بر ثروت,google,6,1,Found ILNA 2023 interview on priority of wealth and financial capital taxation
+Q0005,R001,2026-10-30,fa,وحید شقاقی شهری مالیات بر ثروت,google,5,1,Found Tabnak 2019 interview on wealth tax and exit tax
+Q0006,R001,2026-10-30,fa,تاثیر مالیات بر ثروت بر نابرابری درآمد در ایران سعادت مهر,google,3,2,Found BASU 2023 empirical study recommending Piketty wealth tax
+Q0007,R001,2026-10-30,fa,فرشاد مومنی مالیات بر ثروت,google,4,0,Evaluated and excluded as out_of_definition
+Q0008,R001,2026-10-30,fa,علیرضا محجوب مالیات بر ثروت,google,3,0,Evaluated and excluded as out_of_definition
+Q0009,R002,2026-10-30,fa,غلامرضا تاجگردون مالیات بر ثروت,google,6,0,Evaluated and excluded as out_of_definition
+Q0010,R002,2026-10-30,fa,امیدعلی پارسا مالیات بر ثروت,google,8,0,Evaluated and excluded as out_of_definition
+Q0011,R002,2026-10-30,fa,مالیات بر ثروت پژوهشکده امور اقتصادی وزارت اقتصاد,google,5,2,Found December 2022 Ministry of Economy Wealth Tax Symposium on masireqtesad.ir
+Q0012,R002,2026-10-30,fa,محمدرضا یزدی زاده مالیات بر ثروت,google,6,1,Verified speech by former Tax Administration Strategic Council member
+Q0013,R002,2026-10-30,fa,سعید لیلاز مالیات بر ثروت,google,4,0,Evaluated and excluded as out_of_definition
+Q0014,R002,2026-10-30,fa,هادی قوامی مالیات بر ثروت,google,3,0,Evaluated and excluded as out_of_definition
+Q0015,R002,2026-10-30,fa,احمد توکلی مالیات بر ثروت,google,4,0,Evaluated and excluded as out_of_definition
+Q0016,R002,2026-10-30,fa,مالیات بر ثروت پژوهشنامه مالیاتی,google,8,0,Surveyed Tax Journal articles; noted empirical Piketty citations
+Q0017,R003,2026-10-30,fa,عباس شاکری مالیات بر ثروت,google,4,0,Evaluated and excluded as out_of_definition
+Q0018,R003,2026-10-30,fa,فرامرز توفیقی مالیات بر ثروت,google,4,0,Evaluated and excluded as out_of_definition
+Q0019,R003,2026-10-30,fa,علی خدایی مالیات بر ثروت,google,5,0,Evaluated and excluded as out_of_definition
+Q0020,R003,2026-10-30,fa,حسن صادقی مالیات بر ثروت,google,4,0,Evaluated and excluded as out_of_definition
+Q0021,R003,2026-10-30,fa,برنامه هفتم توسعه مالیات بر ثروت,google,8,0,Analyzed 7th Plan statutory provisions; confirmed focus is on luxury house/car excises and stamp duties
+Q0022,R003,2026-10-30,fa,داوود منظور مالیات بر ثروت,google,4,0,Evaluated and excluded as out_of_definition
+Q0023,R003,2026-10-30,fa,محمدهادی سبحانیان مالیات بر ثروت,google,6,0,Evaluated and excluded as out_of_definition
+Q0024,R003,2026-10-30,fa,لطفعلی عاقلی مالیات بر ثروت,google,4,0,Evaluated and excluded as out_of_definition
+Q0025,R004,2026-10-30,fa,جنبش عدالتخواه مالیات بر ثروت,google,5,0,Surveyed student activist movement statements; noted general anti-luxury rhetoric without bill sponsorship
+Q0026,R004,2026-10-30,fa,علی طیب نیا مالیات بر ثروت,google,6,0,Evaluated and excluded as out_of_definition
+Q0027,R004,2026-10-30,fa,عبدالناصر همتی مالیات بر ثروت,google,5,0,Evaluated and excluded as out_of_definition
+Q0028,R004,2026-10-30,fa,مسعود پزشکیان مالیات بر ثروت,google,9,0,Evaluated and excluded as out_of_definition
+Q0029,R004,2026-10-30,fa,احسان خاندوزی مالیات بر ثروت,google,4,0,Evaluated and excluded as out_of_definition
+Q0030,R005,2026-10-30,fa,حسن سبحانی مالیات بر ثروت,google,6,0,Surveyed views of prominent Tehran University economist and former MP; focused on CGT and speculation
+Q0031,R005,2026-10-30,fa,جعفر قادری مالیات بر ثروت,google,6,0,Evaluated Shiraz MP and economic committee chair; focused on financial accounts data and luxury taxes
+Q0032,R005,2026-10-30,fa,محسن زنگنه مالیات بر ثروت,google,4,0,Evaluated 7th Plan rapporteur; focused on CGT and speculation tax
+Q0033,R005,2026-10-30,fa,رحیم زارع مالیات بر ثروت,google,5,0,Evaluated budget commission spokesperson; announced luxury car/home excise rates
+Q0034,R005,2026-10-30,fa,پرویز صداقت مالیات بر ثروت,google,5,1,Found 2022 Critique of Political Economy analytical proposal for progressive wealth taxation
+Q0035,R005,2026-10-30,fa,محمد مالجو مالیات بر ثروت,google,7,1,Found 2017 Radio Zamaneh interview proposing integrated asset databases for wealth taxation
+Q0036,R005,2026-10-30,fa,احمد سیف مالیات بر ثروت,google,5,0,Evaluated Marxist political economist; critiques Piketty wealth tax as insufficient under capitalism
+Q0037,R005,2026-10-30,fa,علی سعدوندی مالیات,google,4,0,Evaluated macroeconomic consultant; proposes shift to PIT and consumption/Pigouvian taxes
+Q0038,R005,2026-10-30,fa,پیمان مولوی مالیات بر ثروت,google,5,0,Evaluated macroeconomic analyst; opposes tax hikes during stagflation
+Q0039,R005,2026-10-30,fa,میثم موسایی مالیات بر ثروت,google,4,0,Evaluated Islamic economics professor; focused on historical Islamic taxes
+Q0040,R005,2026-10-30,fa,بیژن بیدآباد مالیات بر ثروت,google,5,0,Evaluated Islamic banking scholar; focused on bank deposit taxation
+Q0041,R005,2026-10-30,fa,محبوبه فراهتی مالیات بر ثروت,google,3,0,Evaluated University of Tabriz ARDL study; concluded replacing wealth tax with PIT was progressive
+Q0042,R006,2026-10-30,fa,شمس‌الدین حسینی مالیات بر ثروت,google,6,0,Surveyed former Economy Minister and Economic Commission chair; focused on PIT and corporate tax cuts
+Q0043,R006,2026-10-30,fa,شمس الدین حسینی لایحه اصلاح قانون مالیات,google,5,0,Examined 2012 Direct Taxes reform bill background under his ministry
+Q0044,R006,2026-10-30,fa,شمس الدین حسینی مالیات بر مجموع دارایی,google,4,0,Checked whether he personally championed net wealth tax; focused on PIT and asset monetization
+Q0045,R006,2026-10-30,fa,موسی غنی‌نژاد مالیات,google,5,0,Evaluated leading classical liberal economist; opposes wealth taxation and state intervention
+Q0046,R006,2026-10-30,fa,محمد طبیبیان داود دانش جعفری مالیات,google,6,0,Evaluated former Minister Danesh-Jafari and free-market economist Tabibian; VAT and anti-inflation focus
+Q0047,R006,2026-10-30,fa,جواد صالحی اصفهانی مالیات بر ثروت,google,5,0,Evaluated foremost Iranian inequality scholar; advocates energy price reform and cash transfers over wealth tax
+Q0048,R006,2026-10-30,fa,کامل تقوی نژاد علی اکبر عرب مازار مالیات بر ثروت,google,5,0,Evaluated former INTA heads; focused on VAT and Comprehensive Tax Project (Tarh-e Jame Maliyati)
+Q0049,R006,2026-10-30,fa,محمدرضا فرزین مالیات بر ثروت,google,4,0,Evaluated Central Bank Governor; focused on subsidy reform and financial transaction IT infrastructure
+Q0050,R006,2026-10-30,fa,محسن رضایی مالیات بر ثروت,google,5,0,Evaluated former Expediency Council secretary; focused on asset disclosures for officials
+Q0051,R006,2026-10-30,fa,مالیات بر ثروت site:ensani.ir,google,6,0,Broad survey across Ensani humanities portal; confirmed theoretical wealth tax papers already captured
+Q0052,R007,2026-10-30,fa,جنبش عدالتخواه مالیات بر ثروت,google,5,0,Examined student justice movement discourse; identified general anti-luxury positions
+Q0053,R007,2026-10-30,fa,حسین حبیبی مالیات بر ثروت,google,6,0,Evaluated Islamic Labour Council board member; deceased 2023
+Q0054,R007,2026-10-30,fa,دیده بان شفافیت و عدالت مالیات بر ثروت,google,4,0,Evaluated anti-corruption NGO statements; focused on vacant homes and anti-evasion
+Q0055,R007,2026-10-30,fa,site:daad.ir مالیات بر ثروت OR مالیات,google,5,0,Surveyed daad.ir portal; confirmed focus on legal litigation and administrative corruption
+Q0056,R007,2026-10-30,fa,بیانیه مالیات بر ثروت site:ilna.ir OR site:isna.ir,google,8,1,Discovered official Worker House 1401 Budget Manifesto prioritizing wealth taxation
+Q0057,R007,2026-10-30,fa,جنبش عدالتخواه دانشجویی مالیات بر ثروت OR مالیات,google,6,0,Checked student union open letters; focused on high-income exemptions and anti-rent
+Q0058,R007,2026-10-30,fa,کانون عالی شوراهای اسلامی کار مالیات بر ثروت,google,4,0,Surveyed Islamic Labour Council federations; focused on poverty line income exemptions
+Q0059,R007,2026-10-30,fa,اتحادیه آزاد کارگران مالیات OR سندیکای کارگران شرکت واحد مالیات,google,5,0,Surveyed independent labor syndicates; focused on wage deductions and subsistence basket
+Q0060,R007,2026-10-30,fa,وحید اشتری OR یاشار سلطانی مالیات بر ثروت,google,4,0,Evaluated civil society investigative reporters; focused on corruption exposure
+Q0061,R007,2026-10-30,fa,انجمن جامعه شناسی ایران مالیات بر ثروت OR نابرابری,google,4,0,Surveyed Iranian Sociological Association seminars; general academic inequality discussions
