@@ -1,0 +1,28 @@
+query_id,run_id,date,language,query,channel,results_opened,leads_added,note
+Q0001,R001,2026-10-29,fr,"Maroc ""impôt sur la fortune""",web_search,5,2,Broad French search for wealth tax debate in Morocco
+Q0002,R001,2026-10-29,ar,"المغرب ""ضريبة على الثروة""",web_search,5,2,Broad Arabic search for wealth tax debate in Morocco
+Q0003,R001,2026-10-29,ar,"site:hespress.com ""ضريبة على الثروة""",web_search,4,1,Search Morocco's leading digital newspaper for wealth tax coverage
+Q0004,R001,2026-10-29,ar,"site:al3omk.com ""ضريبة على الثروة""",web_search,6,3,Search parliamentary and political coverage on Al3omk
+Q0005,R001,2026-10-29,fr,"site:lopinion.ma ""impôt sur la fortune""",web_search,3,1,Search national francophone press debates on ISF
+Q0006,R001,2026-10-29,fr,"""Confédération Démocratique du Travail"" ""impôt sur la fortune""",web_search,3,1,Screen major trade union confederation for wealth tax proposals
+Q0007,R001,2026-10-29,ar,"""فاطمة التامني"" ""ضريبة على الثروة""",web_search,3,1,Examine parliamentary amendments tabled by FGD deputy Fatima Tamni
+Q0008,R001,2026-10-29,ar,"""حزب التقدم والاشتراكية"" ""ضريبة على الثروة""",web_search,3,1,Examine PPS party platform and parliamentary finance bill amendments
+Q0009,R001,2026-10-29,ar,"""الفريق الحركي"" ""الضريبة السنوية على صافي الثروة""",web_search,2,1,Screen Haraki parliamentary group wealth tax amendments on PLF 2026
+Q0010,R001,2026-10-29,ar,"""عمر بلافريج"" ""ضريبة على الثروة""",web_search,3,1,Examine wealth and inheritance tax proposals of former deputy Omar Balafrej
+Q0011,R001,2026-10-29,ar,"""نبيلة منيب"" ""ضريبة على الثروة""",web_search,2,1,Examine PSU leader Nabila Mounib's parliamentary committee speeches
+Q0012,R001,2026-10-29,fr,"""Un Maroc égalitaire, une taxation juste"" oxfam",web_search,3,1,Identify and verify Oxfam Morocco's tax justice report and wealth tax proposals
+Q0013,R001,2026-10-29,fr,"""Najib Akesbi"" ""impôt sur la fortune""",web_search,4,0,Screen Morocco's prominent academic economist for wealth tax proposals
+Q0014,R001,2026-10-29,ar,"site:attacmaroc.org ""ضريبة على الثروة""",web_search,2,0,Screen ATTAC Maroc tax justice literature for net wealth tax proposals
+Q0015,R002,2026-10-29,ar,"""نجيب أقصبي"" ""ضريبة على الثروة""",web,6,1,Found Hespress 2011 interview and FNH coverage
+Q0016,R002,2026-10-29,ar,"""مهدي لحلو"" ""ضريبة على الثروة""",web,4,0,Examined Al Jazeera and Hespress; excluded (calls for luxury and inheritance taxes)
+Q0017,R002,2026-10-29,ar,"""فيدرالية اليسار الديمقراطي"" ""ضريبة على الثروة""",web,5,1,Found 2026-2031 election platform commitment in thevoice.ma
+Q0018,R002,2026-10-29,ar,"""الحزب الاشتراكي الموحد"" ""ضريبة على الثروة""",web,5,1,Found joint leftist alliance 2026-2031 program on psu.ma
+Q0019,R002,2026-10-29,ar,"""الجمعية المغربية لحقوق الإنسان"" ""ضريبة على الثروة""",web,4,3,Found joint memo with Transparency Maroc and Espace Associatif on PLF 2023 on amdh.org.ma
+Q0020,R003,2026-10-29,ar,"""المنظمة الديمقراطية للشغل"" ""ضريبة على الثروة""",web,4,1,Found ODT finance law communique demanding wealth tax on lakome2.com
+Q0021,R003,2026-10-29,ar,"""النهج الديمقراطي"" ""ضريبة تصاعدية على الثروة""",web,4,1,Found Voie Democratique statement on 2021 finance bill on al3omk.com
+Q0022,R003,2026-10-29,ar,"""أطاك المغرب"" ""ضريبة على الثروة""",web,5,1,Found ATTAC Maroc 7th national congress declaration demanding progressive wealth tax on lakome2.com
+Q0023,R003,2026-10-29,fr,"CGEM ""impôt sur la fortune""",web,4,0,Identified CGEM institutional opposition to wealth taxes; added to exclusions
+Q0024,R004,2026-10-30,ar,"""نبيل بنعبد الله"" ""ضريبة على الثروة""",web,3,1,Found PPS Secretary General signed statement calling for wealth tax on siyassi.com
+Q0025,R004,2026-10-30,ar,"""إدريس السنتيسي"" ""ضريبة على الثروة""",web,3,1,Found Haraki parliamentary group leader critique demanding wealth tax on al3omk.com
+Q0026,R004,2026-10-30,ar,"""رشيد الحموني"" ""ضريبة على الثروة""",web,4,1,Found PPS parliamentary group president speech demanding wealth tax on lakome2.com
+Q0027,R004,2026-10-30,ar,"""فوزي لقجع"" ""ضريبة على الثروة""",web,3,0,Screened Minister of Budget responses to parliamentary wealth tax motions; added to exclusions
