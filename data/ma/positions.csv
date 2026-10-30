@@ -1,0 +1,4 @@
+position_id,actor_id,body_id,role,party,geo_unit_id,start,end,current,member_ref,checked,source_url
+O00001,A0002,B0001,Députée à la Chambre des Représentants,Fédération de la Gauche Démocratique,G0055,2021,2026-09-23,n,,2026-10-29,https://www.chambredesrepresentants.ma
+O00002,A0005,B0001,Député à la Chambre des Représentants for Rabat-Océan,Fédération de la Gauche Démocratique,G0043,2016,2021,n,,2026-10-29,https://www.chambredesrepresentants.ma
+O00003,A0006,B0001,Députée à la Chambre des Représentants,Parti Socialiste Unifié,G0055,2021,2026-09-23,n,,2026-10-29,https://www.chambredesrepresentants.ma

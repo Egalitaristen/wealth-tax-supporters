@@ -1,0 +1,26 @@
+profile_id,actor_id,platform,url,source,checked
+P00001,A0001,website,https://www.cdtnationale.ma,actors.csv website column,2026-10-29
+P00002,A0003,website,https://pps.ma,actors.csv website column,2026-10-29
+P00003,A0004,website,https://alharaka.ma,actors.csv website column,2026-10-29
+P00004,A0007,website,https://maroc.oxfam.org,actors.csv website column,2026-10-29
+P00005,A0003,wikipedia,https://en.wikipedia.org/wiki/Party_of_Progress_and_Socialism,Wikidata Q1888857,2026-10-29
+P00006,A0004,wikipedia,https://en.wikipedia.org/wiki/Popular_Movement_(Morocco),Wikidata Q1471276,2026-10-29
+P00007,A0005,x,https://x.com/omarbalafrej,Wikidata Q20961736,2026-10-29
+P00008,A0005,instagram,https://www.instagram.com/omarbalafrej/,Wikidata Q20961736,2026-10-29
+P00009,A0005,facebook,https://www.facebook.com/omarbalafrej,Wikidata Q20961736,2026-10-29
+P00010,A0005,linkedin,https://www.linkedin.com/in/omar-balafrej-62577311/,Wikidata Q20961736,2026-10-29
+P00011,A0005,wikipedia,https://en.wikipedia.org/wiki/Omar_Balafrej,Wikidata Q20961736,2026-10-29
+P00012,A0006,wikipedia,https://en.wikipedia.org/wiki/Nabila_Mounib,Wikidata Q3334717,2026-10-29
+P00013,A0016,website,https://annahjaddimocrati.org,actors.csv website column,2026-10-29
+P00014,A0009,website,https://fgd.ma,actors.csv website column,2026-10-29
+P00015,A0010,website,https://psu.ma,actors.csv website column,2026-10-29
+P00016,A0012,website,https://amdh.org.ma,actors.csv website column,2026-10-29
+P00017,A0013,website,https://transparencymaroc.ma,actors.csv website column,2026-10-29
+P00018,A0009,wikipedia,https://en.wikipedia.org/wiki/Federation_of_the_Democratic_Left,Wikidata Q2838048,2026-10-29
+P00019,A0010,wikipedia,https://en.wikipedia.org/wiki/Unified_Socialist_Party_%28Morocco%29,Wikidata Q3366781,2026-10-29
+P00020,A0011,youtube,https://www.youtube.com/channel/UC6qTOnJ-UsrvInB0cg5Q1ZA,Wikidata Q3335299,2026-10-29
+P00021,A0012,wikipedia,https://en.wikipedia.org/wiki/Moroccan_Association_for_Human_Rights,Wikidata Q2867861,2026-10-29
+P00022,A0016,wikipedia,https://en.wikipedia.org/wiki/Workers'_Democratic_Way_Party,Wikidata Q3366144,2026-10-29
+P00023,A0017,website,https://attacmaroc.org,actors.csv website column,2026-10-29
+P00024,A0018,wikipedia,https://en.wikipedia.org/wiki/Nabil_Benabdallah,Wikidata Q3318734,2026-10-30
+P00025,A0020,wikipedia,https://ary.wikipedia.org/wiki/رشيد_حموني,Wikidata Q96758641,2026-10-30

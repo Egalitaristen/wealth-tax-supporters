@@ -1,0 +1,91 @@
+geo_unit_id,name,level,unit_type,parent_id,website,sweep_status,swept_run,swept_date,queries_run,hits,notes,code
+G0001,Morocco,national,country,,https://www.maroc.ma,in_progress,,,,,"National sweep across parliament (Chambre des Représentants, Chambre des Conseillers), political parties, trade unions (CDT, UMT), civil society and tax-justice coalitions (Oxfam au Maroc, ATTAC Maroc)",MA
+G0002,Chambre des Représentants,national,legislature,G0001,https://www.chambredesrepresentants.ma,in_progress,,,,,House of Representatives of Morocco (395 members),
+G0003,Chambre des Conseillers,national,legislature,G0001,https://www.chambredesconseillers.ma,in_progress,,,,,House of Councillors of Morocco (120 members),
+G0004,Tangier-Tetouan-Al Hoceima,region,region,G0001,,pending,,,,,Region of Morocco (ISO 3166-2:MA),MA-01
+G0005,Oriental,region,region,G0001,,pending,,,,,Region of Morocco (ISO 3166-2:MA),MA-02
+G0006,Fez-Meknes,region,region,G0001,,pending,,,,,Region of Morocco (ISO 3166-2:MA),MA-03
+G0007,Rabat-Salé-Kenitra,region,region,G0001,,pending,,,,,Region of Morocco (ISO 3166-2:MA),MA-04
+G0008,Béni Mellal-Khénifra,region,region,G0001,,pending,,,,,Region of Morocco (ISO 3166-2:MA),MA-05
+G0009,Casablanca-Settat,region,region,G0001,,pending,,,,,Region of Morocco (ISO 3166-2:MA),MA-06
+G0010,Marrakech-Safi,region,region,G0001,,pending,,,,,Region of Morocco (ISO 3166-2:MA),MA-07
+G0011,Drâa-Tafilalet,region,region,G0001,,pending,,,,,Region of Morocco (ISO 3166-2:MA),MA-08
+G0012,Souss-Massa,region,region,G0001,,pending,,,,,Region of Morocco (ISO 3166-2:MA),MA-09
+G0013,Guelmim-Oued Noun,region,region,G0001,,pending,,,,,Region of Morocco (ISO 3166-2:MA),MA-10
+G0014,Laâyoune-Sakia El Hamra,region,region,G0001,,pending,,,,,Region of Morocco (ISO 3166-2:MA),MA-11
+G0015,Dakhla-Oued Ed-Dahab,region,region,G0001,,pending,,,,,Region of Morocco (ISO 3166-2:MA),MA-12
+G0016,Al Hoceima,council,province,G0004,,pending,,,,,Al Hoceima Province,96644757B99920267922653
+G0017,Chefchaouen,council,province,G0004,,pending,,,,,Chefchaouen Province,96644757B54306876372793
+G0018,Fahs-Anjra,council,province,G0004,,pending,,,,,Fahs-Anjra Province,96644757B56432502406176
+G0019,Larache,council,province,G0004,,pending,,,,,Larache Province,96644757B18768670389586
+G0020,M'diq-Fnideq,council,prefecture,G0004,,pending,,,,,Préfecture de M'diq-Fnideq عمالة المضيق الفنيدق,96644757B89687162507810
+G0021,Ouezzane,council,province,G0004,,pending,,,,,Province d'Ouezzane إقليم وزان,96644757B93440982531475
+G0022,Tangier - Assilah,council,prefecture,G0004,,pending,,,,,Prefecture of Tangier - Assilah,96644757B99361415702964
+G0023,Tetouan,council,province,G0004,,pending,,,,,Tetouan Province,96644757B84561517472973
+G0024,Berkane,council,province,G0005,,pending,,,,,Province de Berkane إقليم بركان,96644757B69343874835814
+G0025,Driouch,council,province,G0005,,pending,,,,,Province de Driouch إقليم الدريوش,96644757B88930410593624
+G0026,Figuig,council,province,G0005,,pending,,,,,Province de Figuig إقليم الناظور,96644757B25874170222857
+G0027,Guercif,council,province,G0005,,pending,,,,,Province de Guercif إقليم جرسيف,96644757B63064605054668
+G0028,Jerada,council,province,G0005,,pending,,,,,Province de Jerada إقليم جرادة,96644757B21390270390615
+G0029,Nador,council,province,G0005,,pending,,,,,Province de Nador إقليم الناظور,96644757B25654465299878
+G0030,Oujda-Angad,council,prefecture,G0005,,pending,,,,,Préfecture d'Oujda-Angad عمالة وجدة - أنجاد,96644757B53695376753874
+G0031,Taourirt,council,province,G0005,,pending,,,,,Province de Taourirt إقليم تاوريرت,96644757B4563753155162
+G0032,Boulemane,council,province,G0006,,pending,,,,,Province de Boulemane إقليم بولمان,96644757B81090244987905
+G0033,El Hajeb,council,province,G0006,,pending,,,,,Province d'El Hajeb إقليم الحاجب,96644757B90056368806308
+G0034,Fès,council,prefecture,G0006,,pending,,,,,Préfecture de Fès عمالة فاس,96644757B2759448404756
+G0035,Ifrane,council,province,G0006,,pending,,,,,Province d'Ifrane ⵜⴰⵙⴳⴰ ⵏ ⵉⴼⵔⴰⵏ إقليم إفران,96644757B64717664824106
+G0036,Meknès,council,prefecture,G0006,,pending,,,,,Prefecture de Meknès عمالة مكناس,96644757B60043813814440
+G0037,Moulay Yacoub,council,province,G0006,,pending,,,,,Province de Moulay Yacoub إقليم مولاي يعقوب,96644757B42104761334354
+G0038,Sefrou,council,province,G0006,,pending,,,,,Province de Sefrou إقليم صفرو,96644757B1478822582790
+G0039,Taounate,council,province,G0006,,pending,,,,,Province de Taounate إقليم تاونات,96644757B36967765471663
+G0040,Taza,council,province,G0006,,pending,,,,,Province de Taza اقليم تازة,96644757B85287588144355
+G0041,Kenitra,council,province,G0007,,pending,,,,,Province de Kenitra إقليم القنيطرة,96644757B12662883146655
+G0042,Khémisset,council,province,G0007,,pending,,,,,Province de Khémisset إقليم الخميسات,96644757B24539393832458
+G0043,Rabat,council,prefecture,G0007,,pending,,,,,Prefecture of Rabat,96644757B91545835536411
+G0044,Salé,council,prefecture,G0007,,pending,,,,,Prefecture of Salé,96644757B6720908192283
+G0045,Sidi Kacem,council,province,G0007,,pending,,,,,Province de Sidi Kacem إقليم سيدي قاسم,96644757B9718685225615
+G0046,Sidi Slimane,council,province,G0007,,pending,,,,,Province de Sidi Slimane إقليم سيدي سليمان,96644757B64432809888793
+G0047,Skhirate-Témara,council,prefecture,G0007,,pending,,,,,Préfecture de Skhirate-Témara عمالة الصخيرات-تمارة,96644757B91342156363380
+G0048,Azilal,council,province,G0008,,pending,,,,,Province d'Azilal إقليم أزيلال,96644757B10773066300421
+G0049,Beni Mellal,council,province,G0008,,pending,,,,,Province de Beni Mellal إقليم بني ملال,96644757B40957387644980
+G0050,Fquih Ben Saleh,council,province,G0008,,pending,,,,,Province de Fquih Ben Saleh إقليم الفقيه بن صالح,96644757B50122508033550
+G0051,Khouribga,council,province,G0008,,pending,,,,,Province de Khouribga إقليم خريبكة,96644757B15248572972708
+G0052,Khénifra,council,province,G0008,,pending,,,,,Province de Khénifra إقليم خنيفرة,96644757B52871738396395
+G0053,Benslimane,council,province,G0009,,pending,,,,,Province de Benslimane إقليم بن سليمان,96644757B34372354169334
+G0054,Berrechid,council,province,G0009,,pending,,,,,Berrechid Province,96644757B26045285741175
+G0055,Casablanca,council,prefecture,G0009,,pending,,,,,Prefecture of Casablanca,96644757B69656421663665
+G0056,El Jadida,council,province,G0009,,pending,,,,,El Jadida Province,96644757B5863178934624
+G0057,Mohammédia,council,prefecture,G0009,,pending,,,,,Prefecture of Mohammédia,96644757B27397508075839
+G0058,Médiouna,council,province,G0009,,pending,,,,,Médiouna Province,96644757B92138134403299
+G0059,Nouaceur,council,province,G0009,,pending,,,,,Nouaceur Province,96644757B89345886069248
+G0060,Settat,council,province,G0009,,pending,,,,,Settat Province,96644757B9799798831472
+G0061,Sidi Bennour,council,province,G0009,,pending,,,,,Province de Sidi Bennour إقليم سيدي بنور,96644757B30309850889145
+G0062,Al Haouz,council,province,G0010,,pending,,,,,Al Haouz Province,96644757B698999344864
+G0063,Chichaoua,council,province,G0010,,pending,,,,,Chichaoua Province,96644757B46616002618727
+G0064,El Kelâat Es-Sraghna,council,province,G0010,,pending,,,,,Province d'El Kelâat Es-Sraghna إقليم قلعة السراغنة,96644757B21870556317795
+G0065,Essaouira,council,province,G0010,,pending,,,,,Essaouira Province,96644757B53936679900609
+G0066,Marrakech,council,prefecture,G0010,,pending,,,,,Préfecture de Marrakech عمالة مراكش,96644757B80339347175881
+G0067,Rhamna,council,province,G0010,,pending,,,,,Rhamna Province,96644757B21316479060137
+G0068,Safi,council,province,G0010,,pending,,,,,Province de Safi إقليم أسفي,96644757B23117375948520
+G0069,Youssoufia,council,province,G0010,,pending,,,,,Province de Youssoufia إقليم اليوسفية,96644757B54259280648674
+G0070,Errachidia,council,province,G0011,,pending,,,,,Province d'Errachidia إقليم الرشيدية,96644757B35891480133263
+G0071,Midelt,council,province,G0011,,pending,,,,,Province de Midelt إقليم ميدلت,96644757B71822601453569
+G0072,Ouarzazate,council,province,G0011,,pending,,,,,Ouarzazate Province,96644757B41522516415054
+G0073,Tinghir,council,province,G0011,,pending,,,,,Province de Tinghir إقليم تنغير,96644757B39685617616684
+G0074,Zagora,council,province,G0011,,pending,,,,,Zagora Province,96644757B83322507681707
+G0075,Agadir Ida-Outanane,council,prefecture,G0012,,pending,,,,,Agadir Ida-Outanane Prefecture,96644757B63187791317705
+G0076,Chtouka-Ait Baha,council,province,G0012,,pending,,,,,Chtouka-Ait Baha Province,96644757B99021473747258
+G0077,Inezgane-Ait Melloul,council,prefecture,G0012,,pending,,,,,Inezgane-Ait Melloul Prefecture,96644757B99662254658575
+G0078,Taroudant,council,province,G0012,,pending,,,,,Taroudant Province,96644757B53703826618026
+G0079,Tata,council,province,G0012,,pending,,,,,Tata Province,96644757B26550498921337
+G0080,Tiznit,council,province,G0012,,pending,,,,,Tiznit Province,96644757B52167870329218
+G0081,Assa-Zag,council,province,G0013,,pending,,,,,Assa-Zag Province,96644757B62254917052717
+G0082,Guelmim,council,province,G0013,,pending,,,,,Guelmim Province,96644757B36466177595872
+G0083,Sidi Ifni,council,province,G0013,,pending,,,,,Sidi Ifni Province,96644757B51161748863193
+G0084,Tan-Tan,council,province,G0013,,pending,,,,,Province de Tan-Tan إقليم طانطان,96644757B8060198419886
+G0085,Boujdour,council,province,G0014,,pending,,,,,Boujdour Province,96644757B48127384361052
+G0086,Es-Semara,council,province,G0014,,pending,,,,,Province d'Es-Semara إقليم السمارة,96644757B70524131405695
+G0087,Laayoune,council,province,G0014,,pending,,,,,Laayoune Province,96644757B90795389022281
+G0088,Tarfaya,council,province,G0014,,pending,,,,,Tarfaya Province,96644757B75888110493475
+G0089,Aousserd,council,province,G0015,,pending,,,,,Province d'Aousserd إقليم أوسرد,96644757B25593504689486
+G0090,Oued Ed-Dahab,council,province,G0015,,pending,,,,,Oued Ed-Dahab Province,96644757B78111329468616
