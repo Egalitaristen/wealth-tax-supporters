@@ -1,0 +1,9 @@
+query_id,run_id,date,language,query,channel,results_opened,leads_added,note
+Q0001,R001,2026-10-30,fa,مالیات بر ثروت,google,12,3,Initial broad search for wealth tax in Persian news and journals
+Q0002,R001,2026-10-30,fa,مالیات بر مجموع دارایی ها مجلس شورای اسلامی,google,8,1,Targeting 2012-2013 Direct Taxes reform bill in Majlis
+Q0003,R001,2026-10-30,fa,ارسلان فتحی پور مالیات بر ثروت,google,4,1,Found Tabnak 2013 interview on 0.2% wealth tax proposal
+Q0004,R001,2026-10-30,fa,حسین راغفر مالیات بر ثروت,google,6,1,Found ILNA 2023 interview on priority of wealth and financial capital taxation
+Q0005,R001,2026-10-30,fa,وحید شقاقی شهری مالیات بر ثروت,google,5,1,Found Tabnak 2019 interview on wealth tax and exit tax
+Q0006,R001,2026-10-30,fa,تاثیر مالیات بر ثروت بر نابرابری درآمد در ایران سعادت مهر,google,3,2,Found BASU 2023 empirical study recommending Piketty wealth tax
+Q0007,R001,2026-10-30,fa,فرشاد مومنی مالیات بر ثروت,google,4,0,Evaluated and excluded as out_of_definition
+Q0008,R001,2026-10-30,fa,علیرضا محجوب مالیات بر ثروت,google,3,0,Evaluated and excluded as out_of_definition

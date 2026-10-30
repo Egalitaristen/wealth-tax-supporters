@@ -1,0 +1,8 @@
+{
+  "name": "Iran",
+  "iso2": "IR",
+  "lead": "",
+  "status": "in progress",
+  "boundaries": "boundaries.json",
+  "notes": "Iran register R001 seed pass. Administrative tree covers 31 provinces (ostan) and 429 counties (shahrestan) from UN OCHA COD-AB under CC-BY-3.0-IGO."
+}
