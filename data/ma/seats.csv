@@ -1,1 +1,15 @@
 seat_id,body_id,party,seats,colour,order
+S0001,B0001,Parti Authenticité et Modernité,97,1b6ec2,1
+S0002,B0001,Rassemblement National des Indépendants,66,f58220,2
+S0003,B0001,Parti de l'Istiqlal,65,c8102e,3
+S0004,B0001,Parti de la Justice et du Développement,54,f0b323,4
+S0005,B0001,Mouvement Populaire,29,2e8b57,5
+S0006,B0001,Union Socialiste des Forces Populaires,26,d6336c,6
+S0007,B0001,Parti du Progrès et du Socialisme,19,b22222,7
+S0008,B0001,Union Constitutionnelle,17,8e6bbf,8
+S0009,B0001,Mouvement Démocratique et Social,8,6b8e23,9
+S0010,B0001,Alliance de la Gauche,8,e53935,10
+S0011,B0001,Front des Forces Démocratiques,2,7f8c8d,11
+S0012,B0001,Parti de l'Équité,2,95a5a6,12
+S0013,B0001,Parti des Néo-Démocrates,1,4a6fa5,13
+S0014,B0001,Parti de l'Unité et de la Démocratie,1,34495e,14
