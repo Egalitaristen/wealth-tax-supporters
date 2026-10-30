@@ -1,13 +1,13 @@
 # Area profile — Thailand
 
-First written 2026-10-30 (run R001). Updated 2026-10-30 (run R002) with deep research into macroeconomic institutes, civil service feasibility studies, labor coalitions, and formal exclusions. Expanded 2026-10-30 (run R003) with political party comparative analysis, grassroots social movements, academic inequality pioneers, Fiscal Policy Office feasibility, and comprehensive exclusions.
+First written 2026-10-30 (run R001). Updated 2026-10-30 (run R002) with deep research into macroeconomic institutes, civil service feasibility studies, labor coalitions, and formal exclusions. Expanded 2026-10-30 (run R003) with political party comparative analysis, grassroots social movements, academic inequality pioneers, Fiscal Policy Office feasibility, and comprehensive exclusions. Consolidated 2026-10-30 (run R004) with twin-bill legislative analysis (Survey 305 vs 310), single-asset exclusions (windfall tax, aggregated land tax), and saturation assessment.
 
 ## 1. Scope
 - Area: Thailand (ราชอาณาจักรไทย / Kingdom of Thailand); unitary constitutional monarchy in Southeast Asia.
 - Depth: **Deep / Expanded** (SKILL.md 6.1). Covers national legislative sponsors (Sapha Phuthaen Ratsadon / House of Representatives), political parties, academic economists, think tanks, civil society coalitions, economic media, and formal exclusions.
 - Levels of government in scope: National level (Ratthasapha / National Assembly, Khana Ratthamontri / Cabinet). Sub-national levels (76 provinces + Bangkok, and 928 administrative districts / amphoe) are loaded into `geo_units.csv` for geographic localization and mapping; local governments in Thailand (TAOs, PAOs, municipalities) have strictly limited revenue powers and cannot enact wealth taxes.
 - Languages to search in: Thai (primary, `th`), English (`en`).
-- Date of first run: 2026-10-30 (R001); expansion passes: 2026-10-30 (R002, R003).
+- Date of first run: 2026-10-30 (R001); expansion passes: 2026-10-30 (R002, R003, R004).
 
 ## 2. Wealth tax history and live proposals (2010 onwards)
 - **Background on Thai Wealth Concentration:** Thailand consistently ranks among the most unequal economies in the world regarding wealth distribution; Credit Suisse Global Wealth Reports indicated that the wealthiest 1% owned over 50% of the total wealth in the country.
@@ -21,8 +21,9 @@ First written 2026-10-30 (run R001). Updated 2026-10-30 (run R002) with deep res
 ## 3. Legislatures and where their records are
 - **Sapha Phuthaen Ratsadon (สภาผู้แทนราษฎร / House of Representatives):** Lower chamber, 500 members (400 constituency, 100 party list).
   - Portal: `https://www.parliament.go.th`
-  - Section 77 Public Consultation Portal: `https://www.parliament.go.th/section77/` (Searchable by bill name and survey ID; Survey ID 305 contains the Draft Wealth Tax Act).
-  - Consultation Outcome Report: `manage/files/file_20240220142504_2_305.pdf`.
+  - Section 77 Public Consultation Portal: `https://www.parliament.go.th/section77/` (Searchable by bill name and survey ID).
+  - **Survey ID 305 (Draft Wealth Tax Act / ร่าง พ.ร.บ. ภาษีความมั่งคั่ง พ.ศ. ....):** Submitted by Sirikanya Tansakun and MPs; consultation ran 2 Oct – 3 Nov 2023; outcome report: `manage/files/file_20240220142504_2_305.pdf`.
+  - **Survey ID 310 (Draft Aggregated Land Tax Act / ร่าง พ.ร.บ. ภาษีที่ดินรวมแปลง พ.ศ. ....):** Submitted by Sirikanya Tansakun and MPs (championed by Woraphop Viriyaroj); consultation report: `manage/files/file_20240122153357_2_310.pdf`. Single-asset real estate tax excluded from net wealth tax.
 - **Wuthisapha (วุฒิสภา / Senate):** Upper chamber, 200 members chosen from 20 professional groups under the 2024 selection system.
   - Portal: `https://www.senate.go.th`
 
@@ -88,8 +89,11 @@ First written 2026-10-30 (run R001). Updated 2026-10-30 (run R002) with deep res
 9. **Dr. Pornchai Thiraveja** (`X0009`, `insufficient_evidence`): Director-General of the Fiscal Policy Office (FPO / สศค.), Ministry of Finance. In May 2025, he outlined that the FPO is actively studying the design and feasibility of a Net Wealth Tax (ภาษีความมั่งคั่ง) to expand direct tax revenue; however, as a civil service agency head directing technical exploratory research without personal or political advocacy, this does not constitute policy advocacy under project standards.
 10. **Dr. Praipol Koomsup** (`X0010`, `insufficient_evidence`): Emeritus Professor of Economics and former Dean of Economics at Thammasat University. In his May 2023 public policy analysis 'เก็บภาษีจากคนรวย เพื่อช่วยคนจน' (Taxing the Rich to Help the Poor), he evaluated international precedents for wealth taxes (France, Spain, Switzerland) and raised cautionary considerations regarding administrative complexity and the narrow wealth tax base in developing countries, without advocating implementation.
 11. **Dr. Nipon Poapongsakorn** (`X0011`, `out_of_definition`): Distinguished Fellow and former President of the Thailand Development Research Institute (TDRI). Prolific researcher on inequality and fiscal policy who champions the reform of the Land and Buildings Tax (ภาษีที่ดินและสิ่งปลูกสร้าง) and inheritance tax to empower local government finance, rather than an ongoing net wealth tax.
+12. **Assoc. Prof. Dr. Veerayooth Kanchoochat** (`X0012`, `out_of_definition`): Associate Professor of Political Economy at GRIPS (Tokyo) and economic advisor to Move Forward / People's Party. While advising the party's broader platform, his specific public policy campaigns focused on industrial policy and enacting a Windfall Tax (ภาษีลาภลอย) on oil refinery excess margins during inflation, an excess profits tax excluded under Section 2.
+13. **Woraphop Viriyaroj** (`X0013`, `out_of_definition`): Party List MP and Deputy Chair of the House Finance and Tax Committee. While a prominent economic spokesperson for Move Forward / People's Party, his specific legislative drafting and sponsorship centered on the Draft Aggregated Land Tax Act (ร่าง พ.ร.บ. ภาษีที่ดินรวมแปลง พ.ศ. ...., Survey ID 310) to deter land hoarding, which is a single-asset real property tax excluded under Section 2 criteria.
 
 ## 11. Plan for future runs
-1. **Parliamentary Progress Tracking:** Monitor parliamentary status of the Draft Wealth Tax Act should the House of Representatives resume consideration or if People's Party reintroduces an updated version in the 2026/2027 legislative sessions.
+- **Saturation Status:** Saturated across all core layers (parliamentary bill sponsorship, political parties, academic public finance, think tanks, civil society coalitions, and economic media).
+1. **Parliamentary Progress Tracking:** Monitor parliamentary status of the Draft Wealth Tax Act should the House of Representatives resume consideration or if People's Party reintroduces an updated version in future legislative sessions.
 2. **Civil Service Policy Papers:** Track Fiscal Policy Office (FPO) publications regarding wealth base taxation studies, particularly in relation to OECD Pillar 2 and international automated financial account information exchange (CRS/MCAA).
 3. **Senate Committee Monitoring:** Track hearings in the Senate Standing Committee on Finance and Economic Affairs for any formal evaluations of progressive asset or wealth taxation.
