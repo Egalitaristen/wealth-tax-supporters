@@ -1,0 +1,8 @@
+{
+  "name": "Portugal",
+  "iso2": "PT",
+  "lead": "",
+  "status": "in progress",
+  "boundaries": "boundaries.json",
+  "notes": "Seed research in progress: national supporters, regional and local samples planned. Geography: 308 municipalities under 18 mainland districts and 11 island units (CAOP 2025); municipality and district/island boundaries © DGT via Esri Portugal, CC BY 4.0. Local units have not yet been swept."
+}

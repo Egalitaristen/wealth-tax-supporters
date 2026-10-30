@@ -1,0 +1,27 @@
+query_id,run_id,date,language,query,channel,results_opened,leads_added,note
+Q0001,R001,2026-10-30,pt,Portugal imposto sobre grandes fortunas proposta Bloco esquerda património riqueza,web,4,1,
+Q0002,R001,2026-10-30,pt,Portugal imposto riqueza grandes fortunas economistas organizações defendem,web,2,2,
+Q0003,R001,2026-10-30,en,Portugal wealth tax billionaires campaign Portuguese economists wealth tax,web,,,
+Q0004,R001,2026-10-30,pt,"""imposto sobre grandes fortunas"" ""assembleia municipal"" Lisboa",web,0,0,Broad search yielded no verified local council motion; official minutes not searched.
+Q0005,R001,2026-10-30,pt,"""imposto sobre grandes fortunas"" ""assembleia municipal"" Porto",web,0,0,Broad search yielded no verified local council motion; official minutes not searched.
+Q0006,R001,2026-10-30,pt,"""imposto sobre grandes fortunas"" ""assembleia municipal"" Coimbra",web,0,0,Broad search yielded no verified local council motion; official minutes not searched.
+Q0007,R001,2026-10-30,pt,"""imposto sobre grandes fortunas"" ""assembleia municipal"" Braga",web,0,0,Broad search yielded no verified local council motion; official minutes not searched.
+Q0008,R001,2026-10-30,pt,"""imposto sobre grandes fortunas"" ""assembleia municipal"" Faro",web,0,0,Broad search yielded no verified local council motion; official minutes not searched.
+Q0009,R004,2026-10-30,pt,"""41/XII"" ""fortunas"" deputados imposto solidariedade",web,2,1,Official bill and deputy activity; bill source identifies parliamentary group but not individual signatures.
+Q0010,R004,2026-10-30,pt,"""Ricardo Oliveira"" ""património mobiliário"" PCP",web,2,1,Public event speech advocates taxation of rich financial holdings.
+Q0011,R004,2026-10-30,pt,"""Inês de Sousa Real"" ""grandes fortunas"" 2024 imposto 282",web,2,2,Official PAN resolution recommends international initiatives without specifying design.
+Q0012,R005,2026-10-30,pt,Portugal imposto sobre a riqueza economista defende fortunas,web,3,3,Cadilhe primary interview gives design; Peralta and Rodrigues statements are qualified and graded C.
+Q0013,R005,2026-10-30,pt,Portugal imposto grandes fortunas associação justiça fiscal organização,web,2,0,Generic international campaign material did not establish specific Portuguese activity.
+Q0014,R005,2026-10-30,pt,imposto fortunas Açores assembleia regional,web,0,0,No verified regional initiative found in this broad search; formal regional records remain to be examined.
+Q0015,R006,2026-10-30,pt,Francisco Louçã imposto grandes fortunas 2025 proposta,web,2,1,Press coverage of his own 2025 campaign event describes the tax and his advocacy.
+Q0016,R006,2026-10-30,pt,Os Verdes imposto sobre as grandes fortunas 2011 2014,web,2,1,"2011 national council proposed consideration, not clear endorsement; 2005 and 2009 votes precede cutoff."
+Q0017,R008,2026-10-30,pt,João Rodrigues imposto grandes fortunas blog economista,web,2,0,Explicit 2008 blog post predates inclusion window; retain later ambiguous evidence pending a stronger source.
+Q0018,R008,2026-10-30,pt,Raquel Varela imposto sobre a riqueza 2021,web,2,1,Publisher author page lists excerpt from dated opinion piece calling for wealth tax; no specifics visible.
+Q0019,R008,2026-10-30,pt,Açores imposto sobre grandes fortunas opinião candidato,web,3,1,Candidate’s archived opinion column specifies threshold and rates; national election commission verifies candidature.
+Q0020,R009,2026-10-30,en,Greens EFA wealth tax Portugal Tax Justice Network study,web,3,1,European parliamentary group recommends progressive net wealth tax and publishes Portugal-specific estimates; distinct from Portuguese Green Party.
+Q0021,R009,2026-10-30,pt,Tax Justice Network Portugal imposto riqueza fortunas relatório,web,2,0,Network authored Portugal-specific modelling and advocates wealth taxes internationally; establish a clearer Portugal-specific endorsement before attributing support.
+Q0022,R010,2026-10-30,pt,imposto sobre as grandes fortunas defende economista sindicato Portugal,web,2,0,Broad sweep; found Pedro Filipe Soares and 2011 reported proposal.
+Q0023,R010,2026-10-30,pt,Catarina Martins imposto sobre as grandes fortunas,web,2,0,Party summer 2015 interview and adjacent manifesto identify support; 2021 report also discusses taxing fortunes.
+Q0024,R010,2026-10-30,pt,Tax Justice Network Portugal wealth tax 2025,web,2,0,Network advocacy and separately published Portugal modelling provide combined evidence.
+Q0025,R010,2026-10-30,pt,Açores Madeira imposto sobre grandes fortunas deputado,web,2,0,"2024 Azores Bloco platform found; regional search remains sampled, not exhaustive."
+Q0026,R010,2026-10-30,pt,os verdes imposto sobre as grandes fortunas assembleia 2016,web,2,0,No clear in-window endorsement verified; D0004 remains open.

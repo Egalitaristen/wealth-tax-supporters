@@ -1,0 +1,339 @@
+geo_unit_id,name,level,unit_type,parent_id,website,sweep_status,swept_run,swept_date,queries_run,hits,notes,code
+G0001,Portugal,national,country,,,in_progress,,,,,,PT
+G0002,Aveiro,region,district or island,G0001,,pending,,,,,,01
+G0003,Beja,region,district or island,G0001,,pending,,,,,,02
+G0004,Braga,region,district or island,G0001,,pending,,,,,,03
+G0005,Bragança,region,district or island,G0001,,pending,,,,,,04
+G0006,Castelo Branco,region,district or island,G0001,,pending,,,,,,05
+G0007,Coimbra,region,district or island,G0001,,pending,,,,,,06
+G0008,Évora,region,district or island,G0001,,pending,,,,,,07
+G0009,Faro,region,district or island,G0001,,pending,,,,,,08
+G0010,Guarda,region,district or island,G0001,,pending,,,,,,09
+G0011,Leiria,region,district or island,G0001,,pending,,,,,,10
+G0012,Lisboa,region,district or island,G0001,,pending,,,,,,11
+G0013,Portalegre,region,district or island,G0001,,pending,,,,,,12
+G0014,Porto,region,district or island,G0001,,pending,,,,,,13
+G0015,Santarém,region,district or island,G0001,,pending,,,,,,14
+G0016,Setúbal,region,district or island,G0001,,pending,,,,,,15
+G0017,Viana do Castelo,region,district or island,G0001,,pending,,,,,,16
+G0018,Vila Real,region,district or island,G0001,,pending,,,,,,17
+G0019,Viseu,region,district or island,G0001,,pending,,,,,,18
+G0020,Ilha da Madeira,region,district or island,G0001,,pending,,,,,,31
+G0021,Ilha de Porto Santo,region,district or island,G0001,,pending,,,,,,32
+G0022,Ilha de Santa Maria,region,district or island,G0001,,pending,,,,,,41
+G0023,Ilha de São Miguel,region,district or island,G0001,,pending,,,,,,42
+G0024,Ilha Terceira,region,district or island,G0001,,pending,,,,,,43
+G0025,Ilha da Graciosa,region,district or island,G0001,,pending,,,,,,44
+G0026,Ilha de São Jorge,region,district or island,G0001,,pending,,,,,,45
+G0027,Ilha do Pico,region,district or island,G0001,,pending,,,,,,46
+G0028,Ilha do Faial,region,district or island,G0001,,pending,,,,,,47
+G0029,Ilha das Flores,region,district or island,G0001,,pending,,,,,,48
+G0030,Ilha do Corvo,region,district or island,G0001,,pending,,,,,,49
+G0031,Águeda,council,municipality,G0002,,pending,,,,,,0101
+G0032,Albergaria-a-Velha,council,municipality,G0002,,pending,,,,,,0102
+G0033,Anadia,council,municipality,G0002,,pending,,,,,,0103
+G0034,Arouca,council,municipality,G0002,,pending,,,,,,0104
+G0035,Aveiro,council,municipality,G0002,,pending,,,,,,0105
+G0036,Castelo de Paiva,council,municipality,G0002,,pending,,,,,,0106
+G0037,Espinho,council,municipality,G0002,,pending,,,,,,0107
+G0038,Estarreja,council,municipality,G0002,,pending,,,,,,0108
+G0039,Santa Maria da Feira,council,municipality,G0002,,pending,,,,,,0109
+G0040,Ílhavo,council,municipality,G0002,,pending,,,,,,0110
+G0041,Mealhada,council,municipality,G0002,,pending,,,,,,0111
+G0042,Murtosa,council,municipality,G0002,,pending,,,,,,0112
+G0043,Oliveira de Azeméis,council,municipality,G0002,,pending,,,,,,0113
+G0044,Oliveira do Bairro,council,municipality,G0002,,pending,,,,,,0114
+G0045,Ovar,council,municipality,G0002,,pending,,,,,,0115
+G0046,São João da Madeira,council,municipality,G0002,,pending,,,,,,0116
+G0047,Sever do Vouga,council,municipality,G0002,,pending,,,,,,0117
+G0048,Vagos,council,municipality,G0002,,pending,,,,,,0118
+G0049,Vale de Cambra,council,municipality,G0002,,pending,,,,,,0119
+G0050,Aljustrel,council,municipality,G0003,,pending,,,,,,0201
+G0051,Almodôvar,council,municipality,G0003,,pending,,,,,,0202
+G0052,Alvito,council,municipality,G0003,,pending,,,,,,0203
+G0053,Barrancos,council,municipality,G0003,,pending,,,,,,0204
+G0054,Beja,council,municipality,G0003,,pending,,,,,,0205
+G0055,Castro Verde,council,municipality,G0003,,pending,,,,,,0206
+G0056,Cuba,council,municipality,G0003,,pending,,,,,,0207
+G0057,Ferreira do Alentejo,council,municipality,G0003,,pending,,,,,,0208
+G0058,Mértola,council,municipality,G0003,,pending,,,,,,0209
+G0059,Moura,council,municipality,G0003,,pending,,,,,,0210
+G0060,Odemira,council,municipality,G0003,,pending,,,,,,0211
+G0061,Ourique,council,municipality,G0003,,pending,,,,,,0212
+G0062,Serpa,council,municipality,G0003,,pending,,,,,,0213
+G0063,Vidigueira,council,municipality,G0003,,pending,,,,,,0214
+G0064,Amares,council,municipality,G0004,,pending,,,,,,0301
+G0065,Barcelos,council,municipality,G0004,,pending,,,,,,0302
+G0066,Braga,council,municipality,G0004,,pending,,,,,,0303
+G0067,Cabeceiras de Basto,council,municipality,G0004,,pending,,,,,,0304
+G0068,Celorico de Basto,council,municipality,G0004,,pending,,,,,,0305
+G0069,Esposende,council,municipality,G0004,,pending,,,,,,0306
+G0070,Fafe,council,municipality,G0004,,pending,,,,,,0307
+G0071,Guimarães,council,municipality,G0004,,pending,,,,,,0308
+G0072,Póvoa de Lanhoso,council,municipality,G0004,,pending,,,,,,0309
+G0073,Terras de Bouro,council,municipality,G0004,,pending,,,,,,0310
+G0074,Vieira do Minho,council,municipality,G0004,,pending,,,,,,0311
+G0075,Vila Nova de Famalicão,council,municipality,G0004,,pending,,,,,,0312
+G0076,Vila Verde,council,municipality,G0004,,pending,,,,,,0313
+G0077,Vizela,council,municipality,G0004,,pending,,,,,,0314
+G0078,Alfândega da Fé,council,municipality,G0005,,pending,,,,,,0401
+G0079,Bragança,council,municipality,G0005,,pending,,,,,,0402
+G0080,Carrazeda de Ansiães,council,municipality,G0005,,pending,,,,,,0403
+G0081,Freixo de Espada à Cinta,council,municipality,G0005,,pending,,,,,,0404
+G0082,Macedo de Cavaleiros,council,municipality,G0005,,pending,,,,,,0405
+G0083,Miranda do Douro,council,municipality,G0005,,pending,,,,,,0406
+G0084,Mirandela,council,municipality,G0005,,pending,,,,,,0407
+G0085,Mogadouro,council,municipality,G0005,,pending,,,,,,0408
+G0086,Torre de Moncorvo,council,municipality,G0005,,pending,,,,,,0409
+G0087,Vila Flor,council,municipality,G0005,,pending,,,,,,0410
+G0088,Vimioso,council,municipality,G0005,,pending,,,,,,0411
+G0089,Vinhais,council,municipality,G0005,,pending,,,,,,0412
+G0090,Belmonte,council,municipality,G0006,,pending,,,,,,0501
+G0091,Castelo Branco,council,municipality,G0006,,pending,,,,,,0502
+G0092,Covilhã,council,municipality,G0006,,pending,,,,,,0503
+G0093,Fundão,council,municipality,G0006,,pending,,,,,,0504
+G0094,Idanha-a-Nova,council,municipality,G0006,,pending,,,,,,0505
+G0095,Oleiros,council,municipality,G0006,,pending,,,,,,0506
+G0096,Penamacor,council,municipality,G0006,,pending,,,,,,0507
+G0097,Proença-a-Nova,council,municipality,G0006,,pending,,,,,,0508
+G0098,Sertã,council,municipality,G0006,,pending,,,,,,0509
+G0099,Vila de Rei,council,municipality,G0006,,pending,,,,,,0510
+G0100,Vila Velha de Ródão,council,municipality,G0006,,pending,,,,,,0511
+G0101,Arganil,council,municipality,G0007,,pending,,,,,,0601
+G0102,Cantanhede,council,municipality,G0007,,pending,,,,,,0602
+G0103,Coimbra,council,municipality,G0007,,pending,,,,,,0603
+G0104,Condeixa-a-Nova,council,municipality,G0007,,pending,,,,,,0604
+G0105,Figueira da Foz,council,municipality,G0007,,pending,,,,,,0605
+G0106,Góis,council,municipality,G0007,,pending,,,,,,0606
+G0107,Lousã,council,municipality,G0007,,pending,,,,,,0607
+G0108,Mira,council,municipality,G0007,,pending,,,,,,0608
+G0109,Miranda do Corvo,council,municipality,G0007,,pending,,,,,,0609
+G0110,Montemor-o-Velho,council,municipality,G0007,,pending,,,,,,0610
+G0111,Oliveira do Hospital,council,municipality,G0007,,pending,,,,,,0611
+G0112,Pampilhosa da Serra,council,municipality,G0007,,pending,,,,,,0612
+G0113,Penacova,council,municipality,G0007,,pending,,,,,,0613
+G0114,Penela,council,municipality,G0007,,pending,,,,,,0614
+G0115,Soure,council,municipality,G0007,,pending,,,,,,0615
+G0116,Tábua,council,municipality,G0007,,pending,,,,,,0616
+G0117,Vila Nova de Poiares,council,municipality,G0007,,pending,,,,,,0617
+G0118,Alandroal,council,municipality,G0008,,pending,,,,,,0701
+G0119,Arraiolos,council,municipality,G0008,,pending,,,,,,0702
+G0120,Borba,council,municipality,G0008,,pending,,,,,,0703
+G0121,Estremoz,council,municipality,G0008,,pending,,,,,,0704
+G0122,Évora,council,municipality,G0008,,pending,,,,,,0705
+G0123,Montemor-o-Novo,council,municipality,G0008,,pending,,,,,,0706
+G0124,Mora,council,municipality,G0008,,pending,,,,,,0707
+G0125,Mourão,council,municipality,G0008,,pending,,,,,,0708
+G0126,Portel,council,municipality,G0008,,pending,,,,,,0709
+G0127,Redondo,council,municipality,G0008,,pending,,,,,,0710
+G0128,Reguengos de Monsaraz,council,municipality,G0008,,pending,,,,,,0711
+G0129,Vendas Novas,council,municipality,G0008,,pending,,,,,,0712
+G0130,Viana do Alentejo,council,municipality,G0008,,pending,,,,,,0713
+G0131,Vila Viçosa,council,municipality,G0008,,pending,,,,,,0714
+G0132,Albufeira,council,municipality,G0009,,pending,,,,,,0801
+G0133,Alcoutim,council,municipality,G0009,,pending,,,,,,0802
+G0134,Aljezur,council,municipality,G0009,,pending,,,,,,0803
+G0135,Castro Marim,council,municipality,G0009,,pending,,,,,,0804
+G0136,Faro,council,municipality,G0009,,pending,,,,,,0805
+G0137,Lagoa,council,municipality,G0009,,pending,,,,,,0806
+G0138,Lagos,council,municipality,G0009,,pending,,,,,,0807
+G0139,Loulé,council,municipality,G0009,,pending,,,,,,0808
+G0140,Monchique,council,municipality,G0009,,pending,,,,,,0809
+G0141,Olhão,council,municipality,G0009,,pending,,,,,,0810
+G0142,Portimão,council,municipality,G0009,,pending,,,,,,0811
+G0143,São Brás de Alportel,council,municipality,G0009,,pending,,,,,,0812
+G0144,Silves,council,municipality,G0009,,pending,,,,,,0813
+G0145,Tavira,council,municipality,G0009,,pending,,,,,,0814
+G0146,Vila do Bispo,council,municipality,G0009,,pending,,,,,,0815
+G0147,Vila Real de Santo António,council,municipality,G0009,,pending,,,,,,0816
+G0148,Aguiar da Beira,council,municipality,G0010,,pending,,,,,,0901
+G0149,Almeida,council,municipality,G0010,,pending,,,,,,0902
+G0150,Celorico da Beira,council,municipality,G0010,,pending,,,,,,0903
+G0151,Figueira de Castelo Rodrigo,council,municipality,G0010,,pending,,,,,,0904
+G0152,Fornos de Algodres,council,municipality,G0010,,pending,,,,,,0905
+G0153,Gouveia,council,municipality,G0010,,pending,,,,,,0906
+G0154,Guarda,council,municipality,G0010,,pending,,,,,,0907
+G0155,Manteigas,council,municipality,G0010,,pending,,,,,,0908
+G0156,Mêda,council,municipality,G0010,,pending,,,,,,0909
+G0157,Pinhel,council,municipality,G0010,,pending,,,,,,0910
+G0158,Sabugal,council,municipality,G0010,,pending,,,,,,0911
+G0159,Seia,council,municipality,G0010,,pending,,,,,,0912
+G0160,Trancoso,council,municipality,G0010,,pending,,,,,,0913
+G0161,Vila Nova de Foz Côa,council,municipality,G0010,,pending,,,,,,0914
+G0162,Alcobaça,council,municipality,G0011,,pending,,,,,,1001
+G0163,Alvaiázere,council,municipality,G0011,,pending,,,,,,1002
+G0164,Ansião,council,municipality,G0011,,pending,,,,,,1003
+G0165,Batalha,council,municipality,G0011,,pending,,,,,,1004
+G0166,Bombarral,council,municipality,G0011,,pending,,,,,,1005
+G0167,Caldas da Rainha,council,municipality,G0011,,pending,,,,,,1006
+G0168,Castanheira de Pêra,council,municipality,G0011,,pending,,,,,,1007
+G0169,Figueiró dos Vinhos,council,municipality,G0011,,pending,,,,,,1008
+G0170,Leiria,council,municipality,G0011,,pending,,,,,,1009
+G0171,Marinha Grande,council,municipality,G0011,,pending,,,,,,1010
+G0172,Nazaré,council,municipality,G0011,,pending,,,,,,1011
+G0173,Óbidos,council,municipality,G0011,,pending,,,,,,1012
+G0174,Pedrógão Grande,council,municipality,G0011,,pending,,,,,,1013
+G0175,Peniche,council,municipality,G0011,,pending,,,,,,1014
+G0176,Pombal,council,municipality,G0011,,pending,,,,,,1015
+G0177,Porto de Mós,council,municipality,G0011,,pending,,,,,,1016
+G0178,Alenquer,council,municipality,G0012,,pending,,,,,,1101
+G0179,Arruda dos Vinhos,council,municipality,G0012,,pending,,,,,,1102
+G0180,Azambuja,council,municipality,G0012,,pending,,,,,,1103
+G0181,Cadaval,council,municipality,G0012,,pending,,,,,,1104
+G0182,Cascais,council,municipality,G0012,,pending,,,,,,1105
+G0183,Lisboa,council,municipality,G0012,,pending,,,,,,1106
+G0184,Loures,council,municipality,G0012,,pending,,,,,,1107
+G0185,Lourinhã,council,municipality,G0012,,pending,,,,,,1108
+G0186,Mafra,council,municipality,G0012,,pending,,,,,,1109
+G0187,Oeiras,council,municipality,G0012,,pending,,,,,,1110
+G0188,Sintra,council,municipality,G0012,,pending,,,,,,1111
+G0189,Sobral de Monte Agraço,council,municipality,G0012,,pending,,,,,,1112
+G0190,Torres Vedras,council,municipality,G0012,,pending,,,,,,1113
+G0191,Vila Franca de Xira,council,municipality,G0012,,pending,,,,,,1114
+G0192,Amadora,council,municipality,G0012,,pending,,,,,,1115
+G0193,Odivelas,council,municipality,G0012,,pending,,,,,,1116
+G0194,Alter do Chão,council,municipality,G0013,,pending,,,,,,1201
+G0195,Arronches,council,municipality,G0013,,pending,,,,,,1202
+G0196,Avis,council,municipality,G0013,,pending,,,,,,1203
+G0197,Campo Maior,council,municipality,G0013,,pending,,,,,,1204
+G0198,Castelo de Vide,council,municipality,G0013,,pending,,,,,,1205
+G0199,Crato,council,municipality,G0013,,pending,,,,,,1206
+G0200,Elvas,council,municipality,G0013,,pending,,,,,,1207
+G0201,Fronteira,council,municipality,G0013,,pending,,,,,,1208
+G0202,Gavião,council,municipality,G0013,,pending,,,,,,1209
+G0203,Marvão,council,municipality,G0013,,pending,,,,,,1210
+G0204,Monforte,council,municipality,G0013,,pending,,,,,,1211
+G0205,Nisa,council,municipality,G0013,,pending,,,,,,1212
+G0206,Ponte de Sor,council,municipality,G0013,,pending,,,,,,1213
+G0207,Portalegre,council,municipality,G0013,,pending,,,,,,1214
+G0208,Sousel,council,municipality,G0013,,pending,,,,,,1215
+G0209,Amarante,council,municipality,G0014,,pending,,,,,,1301
+G0210,Baião,council,municipality,G0014,,pending,,,,,,1302
+G0211,Felgueiras,council,municipality,G0014,,pending,,,,,,1303
+G0212,Gondomar,council,municipality,G0014,,pending,,,,,,1304
+G0213,Lousada,council,municipality,G0014,,pending,,,,,,1305
+G0214,Maia,council,municipality,G0014,,pending,,,,,,1306
+G0215,Marco de Canaveses,council,municipality,G0014,,pending,,,,,,1307
+G0216,Matosinhos,council,municipality,G0014,,pending,,,,,,1308
+G0217,Paços de Ferreira,council,municipality,G0014,,pending,,,,,,1309
+G0218,Paredes,council,municipality,G0014,,pending,,,,,,1310
+G0219,Penafiel,council,municipality,G0014,,pending,,,,,,1311
+G0220,Porto,council,municipality,G0014,,pending,,,,,,1312
+G0221,Póvoa de Varzim,council,municipality,G0014,,pending,,,,,,1313
+G0222,Santo Tirso,council,municipality,G0014,,pending,,,,,,1314
+G0223,Valongo,council,municipality,G0014,,pending,,,,,,1315
+G0224,Vila do Conde,council,municipality,G0014,,pending,,,,,,1316
+G0225,Vila Nova de Gaia,council,municipality,G0014,,pending,,,,,,1317
+G0226,Trofa,council,municipality,G0014,,pending,,,,,,1318
+G0227,Abrantes,council,municipality,G0015,,pending,,,,,,1401
+G0228,Alcanena,council,municipality,G0015,,pending,,,,,,1402
+G0229,Almeirim,council,municipality,G0015,,pending,,,,,,1403
+G0230,Alpiarça,council,municipality,G0015,,pending,,,,,,1404
+G0231,Benavente,council,municipality,G0015,,pending,,,,,,1405
+G0232,Cartaxo,council,municipality,G0015,,pending,,,,,,1406
+G0233,Chamusca,council,municipality,G0015,,pending,,,,,,1407
+G0234,Constância,council,municipality,G0015,,pending,,,,,,1408
+G0235,Coruche,council,municipality,G0015,,pending,,,,,,1409
+G0236,Entroncamento,council,municipality,G0015,,pending,,,,,,1410
+G0237,Ferreira do Zêzere,council,municipality,G0015,,pending,,,,,,1411
+G0238,Golegã,council,municipality,G0015,,pending,,,,,,1412
+G0239,Mação,council,municipality,G0015,,pending,,,,,,1413
+G0240,Rio Maior,council,municipality,G0015,,pending,,,,,,1414
+G0241,Salvaterra de Magos,council,municipality,G0015,,pending,,,,,,1415
+G0242,Santarém,council,municipality,G0015,,pending,,,,,,1416
+G0243,Sardoal,council,municipality,G0015,,pending,,,,,,1417
+G0244,Tomar,council,municipality,G0015,,pending,,,,,,1418
+G0245,Torres Novas,council,municipality,G0015,,pending,,,,,,1419
+G0246,Vila Nova da Barquinha,council,municipality,G0015,,pending,,,,,,1420
+G0247,Ourém,council,municipality,G0015,,pending,,,,,,1421
+G0248,Alcácer do Sal,council,municipality,G0016,,pending,,,,,,1501
+G0249,Alcochete,council,municipality,G0016,,pending,,,,,,1502
+G0250,Almada,council,municipality,G0016,,pending,,,,,,1503
+G0251,Barreiro,council,municipality,G0016,,pending,,,,,,1504
+G0252,Grândola,council,municipality,G0016,,pending,,,,,,1505
+G0253,Moita,council,municipality,G0016,,pending,,,,,,1506
+G0254,Montijo,council,municipality,G0016,,pending,,,,,,1507
+G0255,Palmela,council,municipality,G0016,,pending,,,,,,1508
+G0256,Santiago do Cacém,council,municipality,G0016,,pending,,,,,,1509
+G0257,Seixal,council,municipality,G0016,,pending,,,,,,1510
+G0258,Sesimbra,council,municipality,G0016,,pending,,,,,,1511
+G0259,Setúbal,council,municipality,G0016,,pending,,,,,,1512
+G0260,Sines,council,municipality,G0016,,pending,,,,,,1513
+G0261,Arcos de Valdevez,council,municipality,G0017,,pending,,,,,,1601
+G0262,Caminha,council,municipality,G0017,,pending,,,,,,1602
+G0263,Melgaço,council,municipality,G0017,,pending,,,,,,1603
+G0264,Monção,council,municipality,G0017,,pending,,,,,,1604
+G0265,Paredes de Coura,council,municipality,G0017,,pending,,,,,,1605
+G0266,Ponte da Barca,council,municipality,G0017,,pending,,,,,,1606
+G0267,Ponte de Lima,council,municipality,G0017,,pending,,,,,,1607
+G0268,Valença,council,municipality,G0017,,pending,,,,,,1608
+G0269,Viana do Castelo,council,municipality,G0017,,pending,,,,,,1609
+G0270,Vila Nova de Cerveira,council,municipality,G0017,,pending,,,,,,1610
+G0271,Alijó,council,municipality,G0018,,pending,,,,,,1701
+G0272,Boticas,council,municipality,G0018,,pending,,,,,,1702
+G0273,Chaves,council,municipality,G0018,,pending,,,,,,1703
+G0274,Mesão Frio,council,municipality,G0018,,pending,,,,,,1704
+G0275,Mondim de Basto,council,municipality,G0018,,pending,,,,,,1705
+G0276,Montalegre,council,municipality,G0018,,pending,,,,,,1706
+G0277,Murça,council,municipality,G0018,,pending,,,,,,1707
+G0278,Peso da Régua,council,municipality,G0018,,pending,,,,,,1708
+G0279,Ribeira de Pena,council,municipality,G0018,,pending,,,,,,1709
+G0280,Sabrosa,council,municipality,G0018,,pending,,,,,,1710
+G0281,Santa Marta de Penaguião,council,municipality,G0018,,pending,,,,,,1711
+G0282,Valpaços,council,municipality,G0018,,pending,,,,,,1712
+G0283,Vila Pouca de Aguiar,council,municipality,G0018,,pending,,,,,,1713
+G0284,Vila Real,council,municipality,G0018,,pending,,,,,,1714
+G0285,Armamar,council,municipality,G0019,,pending,,,,,,1801
+G0286,Carregal do Sal,council,municipality,G0019,,pending,,,,,,1802
+G0287,Castro Daire,council,municipality,G0019,,pending,,,,,,1803
+G0288,Cinfães,council,municipality,G0019,,pending,,,,,,1804
+G0289,Lamego,council,municipality,G0019,,pending,,,,,,1805
+G0290,Mangualde,council,municipality,G0019,,pending,,,,,,1806
+G0291,Moimenta da Beira,council,municipality,G0019,,pending,,,,,,1807
+G0292,Mortágua,council,municipality,G0019,,pending,,,,,,1808
+G0293,Nelas,council,municipality,G0019,,pending,,,,,,1809
+G0294,Oliveira de Frades,council,municipality,G0019,,pending,,,,,,1810
+G0295,Penalva do Castelo,council,municipality,G0019,,pending,,,,,,1811
+G0296,Penedono,council,municipality,G0019,,pending,,,,,,1812
+G0297,Resende,council,municipality,G0019,,pending,,,,,,1813
+G0298,Santa Comba Dão,council,municipality,G0019,,pending,,,,,,1814
+G0299,São João da Pesqueira,council,municipality,G0019,,pending,,,,,,1815
+G0300,São Pedro do Sul,council,municipality,G0019,,pending,,,,,,1816
+G0301,Sátão,council,municipality,G0019,,pending,,,,,,1817
+G0302,Sernancelhe,council,municipality,G0019,,pending,,,,,,1818
+G0303,Tabuaço,council,municipality,G0019,,pending,,,,,,1819
+G0304,Tarouca,council,municipality,G0019,,pending,,,,,,1820
+G0305,Tondela,council,municipality,G0019,,pending,,,,,,1821
+G0306,Vila Nova de Paiva,council,municipality,G0019,,pending,,,,,,1822
+G0307,Viseu,council,municipality,G0019,,pending,,,,,,1823
+G0308,Vouzela,council,municipality,G0019,,pending,,,,,,1824
+G0309,Calheta,council,municipality,G0020,,pending,,,,,,3101
+G0310,Câmara de Lobos,council,municipality,G0020,,pending,,,,,,3102
+G0311,Funchal,council,municipality,G0020,,pending,,,,,,3103
+G0312,Machico,council,municipality,G0020,,pending,,,,,,3104
+G0313,Ponta do Sol,council,municipality,G0020,,pending,,,,,,3105
+G0314,Porto Moniz,council,municipality,G0020,,pending,,,,,,3106
+G0315,Ribeira Brava,council,municipality,G0020,,pending,,,,,,3107
+G0316,Santa Cruz,council,municipality,G0020,,pending,,,,,,3108
+G0317,Santana,council,municipality,G0020,,pending,,,,,,3109
+G0318,São Vicente,council,municipality,G0020,,pending,,,,,,3110
+G0319,Porto Santo,council,municipality,G0021,,pending,,,,,,3201
+G0320,Vila do Porto,council,municipality,G0022,,pending,,,,,,4101
+G0321,Lagoa,council,municipality,G0023,,pending,,,,,,4201
+G0322,Nordeste,council,municipality,G0023,,pending,,,,,,4202
+G0323,Ponta Delgada,council,municipality,G0023,,pending,,,,,,4203
+G0324,Povoação,council,municipality,G0023,,pending,,,,,,4204
+G0325,Ribeira Grande,council,municipality,G0023,,pending,,,,,,4205
+G0326,Vila Franca do Campo,council,municipality,G0023,,pending,,,,,,4206
+G0327,Angra do Heroísmo,council,municipality,G0024,,pending,,,,,,4301
+G0328,Praia da Vitória,council,municipality,G0024,,pending,,,,,,4302
+G0329,Santa Cruz da Graciosa,council,municipality,G0025,,pending,,,,,,4401
+G0330,Calheta de São Jorge,council,municipality,G0026,,pending,,,,,,4501
+G0331,Velas,council,municipality,G0026,,pending,,,,,,4502
+G0332,Lajes do Pico,council,municipality,G0027,,pending,,,,,,4601
+G0333,Madalena,council,municipality,G0027,,pending,,,,,,4602
+G0334,São Roque do Pico,council,municipality,G0027,,pending,,,,,,4603
+G0335,Horta,council,municipality,G0028,,pending,,,,,,4701
+G0336,Lajes das Flores,council,municipality,G0029,,pending,,,,,,4801
+G0337,Santa Cruz das Flores,council,municipality,G0029,,pending,,,,,,4802
+G0338,Corvo,council,municipality,G0030,,pending,,,,,,4901
