@@ -1,0 +1,10 @@
+query_id,run_id,date,language,query,channel,results_opened,leads_added,note
+Q0001,R001,2026-10-30,th,"""ภาษีความมั่งคั่ง"" ศิริกัญญา ตันสกุล",web,6,2,Search for parliamentary wealth tax bill sponsorship and Sirikanya Tansakun statements
+Q0002,R001,2026-10-30,th,"""ภาษีความมั่งคั่ง"" ษัษฐรัมย์ ธรรมบุษดี We Fair",web,5,2,Search for We Fair civil society coalition and Sustarum Thammaboosadee
+Q0003,R001,2026-10-30,th,"""ภาษีความมั่งคั่ง"" ดวงมณี เลาวกุล",web,4,1,Search for Thammasat academic public finance proposals on wealth tax
+Q0004,R001,2026-10-30,th,"""ภาษีความมั่งคั่ง"" พิสิทธิ์ พัวพันธ์",web,3,1,Search for Ministry of Finance Fiscal Policy Office stance
+Q0005,R001,2026-10-30,th,"""ภาษีความมั่งคั่ง"" เดชรัตน์ สุขกำเนิด",web,4,1,Search for Think Forward Center think tank director
+Q0006,R001,2026-10-30,th,"""ภาษีความมั่งคั่ง"" รพีพัฒน์ อิงคสิทธิ์ The Matter",web,3,1,Search for economic commentator and wealth tax registry op-ed
+Q0007,R001,2026-10-30,th,"""ภาษีความมั่งคั่ง"" ไทยรัฐพลัส",web,4,1,Search for editorial positions of media outlets
+Q0008,R001,2026-10-30,th,"""ร่างพระราชบัญญัติภาษีความมั่งคั่ง"" parliament.go.th",web,5,1,Search for official parliamentary consultation record survey id 305
+Q0009,R001,2026-10-30,th,"""พิธา ลิ้มเจริญรัตน์"" ""ภาษีความมั่งคั่ง""",web,5,1,Search for party leadership debate statements on 0.5% wealth tax

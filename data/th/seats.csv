@@ -1,0 +1,11 @@
+seat_id,body_id,party,seats,colour,order
+S0001,B0001,Move Forward,151,ff7518,1
+S0002,B0001,Pheu Thai,141,da251d,2
+S0003,B0001,Bhumjaithai,71,002b7f,3
+S0004,B0001,Palang Pracharath,40,1e3a8a,4
+S0005,B0001,United Thai Nation,36,2b3990,5
+S0006,B0001,Democrat,25,00a3e0,6
+S0007,B0001,Chartthaipattana,10,d91b5c,7
+S0008,B0001,Prachachat,9,a65e2e,8
+S0009,B0001,Thai Sang Thai,6,7c3aed,9
+S0010,B0001,Others,11,888888,10
