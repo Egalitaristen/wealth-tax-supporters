@@ -72,3 +72,6 @@ Updated 2026-10-30. Initial seed run R001.
 - Track economic committee debates in the 12th Majlis (elected 2024) regarding direct tax reforms and potential renewed wealth tax amendments.
 - Search academic journal repositories (*Magiran*, *SID*, *Civilica*) for additional peer-reviewed econometric papers evaluating Piketty-style wealth taxes in Iran.
 - Monitor statements from provincial councils on national wealth redistribution.
+
+## Audit — R008
+- All 10 quotes were found on their pages. The two co-authors of the 2023 Payam Noor paper (Saadatmehr, Bazgir) were removed: the quoted sentence reports Piketty's view and the abstract is an empirical study with no recommendation, so they are exclusions. Arsalan Fathi-Pour sat in the 9th Majlis (2012-2016), so he is now marked as a former office holder. Eight supporters remain.
