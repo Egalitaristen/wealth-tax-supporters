@@ -13,6 +13,28 @@ from pathlib import Path
 ROOT = Path(__file__).resolve().parent.parent
 sys.path.insert(0, str(Path(__file__).resolve().parent))
 DATA = ROOT / "data"
+
+
+_HOME = None
+
+
+def people_home():
+    """(home, multi): home is {Wikidata id: home country ISO2} from data/home_countries.csv; multi is the ids that sit on more than one
+    country's register. A person on several registers is quoted, and listed first, only for their home country."""
+    global _HOME
+    if _HOME is None:
+        home, seen = {}, collections.defaultdict(set)
+        f = DATA / "home_countries.csv"
+        if f.exists():
+            home = {r["wikidata_qid"]: r["home_iso2"].upper() for r in rd(f)}
+        for folder in sorted(DATA.iterdir()):
+            a = folder / "actors.csv"
+            if a.exists():
+                for r in rd(a):
+                    if r.get("wikidata_qid"):
+                        seen[r["wikidata_qid"]].add(folder.name)
+        _HOME = (home, {q for q, s in seen.items() if len(s) > 1})
+    return _HOME
 SITE = ROOT / "site"
 RANK = {"A": 0, "B": 1, "C": 2}
 
@@ -460,7 +482,7 @@ def build_country(folder):
              for p in P]
     # Place rows: [slug, unit path, supporters inside]
     places = [[slug, unit_path(u, by_id), len(ids)] for u, ids in inside.items() if ids and u not in roots]
-    summary["featured"] = featured(P, ev)
+    summary["featured"] = featured(P, ev, summary["iso2"])
     summary["types"] = dict(collections.Counter(p[3] for p in P).most_common())
     summary["designs"] = dict(collections.Counter(d for p in P for d in p[12]).most_common())
     return summary, country, index, places
@@ -470,7 +492,7 @@ FEATURE_TYPES = ["economist", "wealthy_individual", "campaigner", "journalist", 
                  "academic", "business_leader", "cultural_figure", "legal_tax_professional", "faith"]
 
 
-def featured(P, ev):
+def featured(P, ev, iso2=""):
     """A few short, explicit quotes from named people for the home page, spread across types."""
     people = {p[0]: p for p in P if p[2] == "person"}
     spoken = {"speech", "op_ed", "statement", "interview", "social_post", "testimony", "publication", "editorial", "campaign"}
@@ -479,6 +501,9 @@ def featured(P, ev):
         p = people.get(e["actor_id"])
         q = re.sub(r"\s+", " ", e["quote_original"]).strip()
         if not p or e["grade"] != "A" or not (70 <= len(q) <= 230) or not e["source_url"].startswith("http"):
+            continue
+        home, multi = people_home()
+        if p[18] in multi and home.get(p[18]) != iso2.upper():  # quote people only for their own country
             continue
         # Whole sentences in the person's own voice: starts with a capital, ends with punctuation,
         # and does not describe them in the third person.
@@ -728,7 +753,7 @@ def main():
     # Anyone with a Wikidata id on more than one register is one person; rows without an id each count once.
     unique = len({r[8] or f"{r[0]}/{r[1]}" for r in index})
     world_resources = load_resources(countries)
-    world = dict(paths=paths, unique_supporters=unique, countries=countries, bodies=bodies, planned=planned, resources=world_resources, all_countries=sorted(every), built=datetime.date.today().isoformat())
+    world = dict(paths=paths, unique_supporters=unique, home={q: next((c["slug"] for c in countries if c["iso2"].upper() == h), "") for q, h in people_home()[0].items()}, countries=countries, bodies=bodies, planned=planned, resources=world_resources, all_countries=sorted(every), built=datetime.date.today().isoformat())
     json.dump(world, open(out / "data" / "world.json", "w", encoding="utf-8"), separators=(",", ":"), ensure_ascii=False)
     json.dump(dict(people=index, places=places), open(out / "data" / "index.json", "w", encoding="utf-8"),
               separators=(",", ":"), ensure_ascii=False)
