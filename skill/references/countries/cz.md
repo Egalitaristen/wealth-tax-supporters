@@ -59,5 +59,11 @@ The native `czechia()` adapter in `skill/scripts/seats.py` queries the official 
   - Nerudová's advocacy focuses on bringing Czech real estate property taxes closer to OECD averages. Pertold explicitly cautions against net wealth taxes due to mobile capital flight, arguing instead for personal income tax bracket progression. Both classified as `out_of_definition`.
 - **Tomáš Tožička (Tax Justice Network Czechia / Social Watch):**
   - Focuses on tax transparency, corporate anti-haven rules, and financial transaction taxes, rather than domestic net wealth taxation. Classified as `out_of_definition`.
+- **Daniel Prokop (PAQ Research) & Helena Horská (Raiffeisenbank / NERV):**
+  - Prokop advocates reforming the immovable property tax (*daň z nemovitých věcí*), ending the capital gains exemption on stock/real estate sales, and re-introducing progressive inheritance taxation, but does not propose an annual net wealth tax. Horská similarly supports property tax price maps and vacant apartment taxes. Both classified as `out_of_definition`.
+- **Marek Hilšer (Senator, Praha 2):**
+  - Proposed linking real estate property taxes to market values and removing corporate tax privileges for investment funds, but not a recurring net wealth tax. Classified as `out_of_definition`.
+- **Mojmír Hampl (National Budget Council / Národní rozpočtová rada):**
+  - Former CNB Vice-Governor and current fiscal council chair. Publicly critiques wealth taxes and selective taxes on the wealthy as fiscal illusions that distract from structural budget discipline. Classified as `opposes`.
 - **Vít Samek (former Vice-President of ČMKOS):**
   - Prominently advocated taxing accumulated wealth and capital on television panels, but passed away in January 2025. Classified as `deceased` under Ground Rule 2 (living figures only).

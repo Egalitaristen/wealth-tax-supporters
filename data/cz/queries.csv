@@ -18,3 +18,9 @@ Q0016,R003,2026-10-31,cs,"""Matěj Pomahač"" ""Zelení"" ""111 milionů korun""
 Q0017,R003,2026-10-31,cs,"""Vít Samek"" ČMKOS ""majetková daň"" zemřel",trade_union,2,0,Verified Vít Samek deceased in January 2025; excluded under living figures rule
 Q0018,R003,2026-10-31,cs,"""Robin Maialeh"" ""daň"" OR ""zdanění"" OR ""majetek"" RILSA",academic,4,0,Investigated RILSA wealth inequality studies
 Q0019,R003,2026-10-31,cs,"site:ferovedane.cz ""majetkové daně""",campaign,3,0,Verified Czech civil society campaign uses majetkové daně for real estate and inheritance
+Q0020,R004,2026-10-31,en,"site:howtheyvote.eu ""Maxová"" 155121",parliament,2,0,"Verified EP roll-call 155121: 16 Czech MEPs voted against, 3 Green/EFA Pirates voted for"
+Q0021,R004,2026-10-31,cs,"""Daniel Prokop"" ""daň z bohatství"" OR ""majetková daň""",academic,4,0,"Verified Daniel Prokop (PAQ Research) proposals focus on real estate valuation, closing capital gains exemptions, and inheritance taxes"
+Q0022,R004,2026-10-31,cs,"""Adéla Šípová"" ""daň z bohatství"" OR ""majetková daň""",senate,3,0,Verified Senator Adéla Šípová focuses on income tax progression on high salaries rather than wealth tax
+Q0023,R004,2026-10-31,cs,"""Marek Hilšer"" ""daň z bohatství"" OR ""majetková daň""",senate,3,0,Verified Senator Marek Hilšer proposal focuses on real estate market valuation and removing fund exemptions
+Q0024,R004,2026-10-31,cs,"""Mojmír Hampl"" ""daň z bohatství"" OR ""majetková daň""",academic,3,0,Verified National Budget Council chair Mojmír Hampl explicitly opposes wealth taxes as fiscal illusion
+Q0025,R004,2026-10-31,cs,"""Helena Horská"" ""daň z bohatství"" OR ""majetková daň""",academic,3,0,Verified NERV member Helena Horská supports real estate property taxes and vacant apartment taxes
