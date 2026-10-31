@@ -4,7 +4,7 @@
   "lead": "",
   "status": "in progress",
   "boundaries": "boundaries.json",
-  "notes": "Depth: seed. Scope: national level across key layers (Poslanecká sněmovna, European Parliament roll calls, parties SOCDEM and Zelení, trade union confederation ČMKOS, academic economists, and wealth managers), the 14 kraje (NUTS 3) and 6,258 obce (LAU). First pass R001 (2026-10-31).",
+  "notes": "Depth: seed. Scope: national level across key layers (Poslanecká sněmovna, European Parliament roll calls, parties SOCDEM and Zelení, academic economists, and wealth managers), the 14 kraje (NUTS 3) and 6,258 obce (LAU). First pass R001 (2026-10-31).",
   "polls": [
     {
       "support": 63,

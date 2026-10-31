@@ -41,12 +41,12 @@ The native `czechia()` adapter in `skill/scripts/seats.py` queries the official 
 3. **Budoucnost & Levice (Progressive Parties):**
    - Extra-parliamentary progressive movement *Budoucnost* and democratic socialist party *Levice* explicitly incorporate wealth taxation into their platforms to shift the fiscal burden away from labor.
 4. **Trade Unions (ČMKOS):**
-   - Led by Josef Středula; continuous advocacy for increasing taxes on capital and accumulated wealth (*zdanění majetku a kapitálu*) to fund public services and infrastructure.
+   - Left out: Josef Středula's call for "zdanění majetku" does not name a wealth tax (the inheritance and gift taxes were abolished in 2014). Look for a union paper that names one.
 5. **European Parliament Roll Calls:**
    - Pirate Party MEPs (Markéta Gregorová, Marcel Kolaja, Mikuláš Peksa) voted FOR European wealth tax amendments on EU own resources in May 2023 (vote 155121) and December 2023 (vote 162327).
 6. **Economic Experts & Academic Institutions:**
    - Miroslav Palanský (Charles University / Tax Justice Network) authored the 2024 Green Party wealth tax study.
-   - Ilona Švihlíková (Vysoká škola obchodní v Praze) advocates systemic wealth taxation to counteract oligarchical wealth concentration.
+   - Ilona Švihlíková (Vysoká škola obchodní v Praze) is left out: the interview found says only that property taxes do not exist.
    - Kamila Fialová (Institute of Sociology of the Czech Academy of Sciences / SOÚ AV ČR) endorsed Gabriel Zucman's billionaire minimum top-up wealth tax as relevant and fiscally meaningful for the Czech Republic.
 7. **Business Leaders & Philanthropists:**
    - Martin Vohánka (billionaire founder and CEO of Eurowag, Nadace BLÍŽKSOBĚ) agreed in a national *Forbes* survey that the wealthy should pay higher taxes, endorsing the progressive introduction of wealth and capital taxation as society develops.

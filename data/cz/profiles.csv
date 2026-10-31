@@ -5,7 +5,6 @@ P00003,A0004,website,https://socdem.cz,actors.csv website column,2026-10-31
 P00004,A0007,website,https://marketagregorova.cz,actors.csv website column,2026-10-31
 P00005,A0008,website,https://kolaja.eu,actors.csv website column,2026-10-31
 P00006,A0009,website,https://mikulas-peksa.eu,actors.csv website column,2026-10-31
-P00007,A0012,website,https://www.cmkos.cz,actors.csv website column,2026-10-31
 P00008,A0001,x,https://x.com/zeleni_cz,Wikidata Q631218,2026-10-31
 P00009,A0001,bluesky,https://bsky.app/profile/zeleni.cz,Wikidata Q631218,2026-10-31
 P00010,A0001,instagram,https://www.instagram.com/zeleni.cz/,Wikidata Q631218,2026-10-31
@@ -45,16 +44,6 @@ P00043,A0009,instagram,https://www.instagram.com/mikulaspeksa_official/,Wikidata
 P00044,A0009,facebook,https://www.facebook.com/peksamikulas,Wikidata Q30301690,2026-10-31
 P00045,A0009,mastodon,https://mastodon.pirati.cz/@mikulas_peksa,Wikidata Q30301690,2026-10-31
 P00046,A0009,wikipedia,https://en.wikipedia.org/wiki/Mikul%C3%A1%C5%A1_Peksa,Wikidata Q30301690,2026-10-31
-P00047,A0011,x,https://x.com/Ilona_Ekonomka,Wikidata Q12021505,2026-10-31
-P00048,A0011,facebook,https://www.facebook.com/ilona.svihlikova,Wikidata Q12021505,2026-10-31
-P00049,A0012,x,https://x.com/odbory,Wikidata Q340104,2026-10-31
-P00050,A0012,facebook,https://www.facebook.com/CMKOS,Wikidata Q340104,2026-10-31
-P00051,A0012,wikipedia,https://en.wikipedia.org/wiki/Czech-Moravian_Confederation_of_Trade_Unions,Wikidata Q340104,2026-10-31
-P00052,A0013,website,https://stredula.cz/,Wikidata Q16765242,2026-10-31
-P00053,A0013,x,https://x.com/JStredula,Wikidata Q16765242,2026-10-31
-P00054,A0013,instagram,https://www.instagram.com/josef_stredula/,Wikidata Q16765242,2026-10-31
-P00055,A0013,facebook,https://www.facebook.com/josef.stredula,Wikidata Q16765242,2026-10-31
-P00056,A0013,wikipedia,https://en.wikipedia.org/wiki/Josef_St%C5%99edula,Wikidata Q16765242,2026-10-31
 P00057,A0015,website,https://volim-budoucnost.cz,actors.csv website column,2026-10-31
 P00058,A0016,website,https://jsmelevice.cz,actors.csv website column,2026-10-31
 P00059,A0015,x,https://x.com/Budoucnost_cz,Wikidata Q97932831,2026-10-31

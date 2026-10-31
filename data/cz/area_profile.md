@@ -24,9 +24,9 @@
     - Mechanism: Taxes accumulated net wealth after debt deduction (e.g. mortgages), with exemptions for primary residences, designed to fund healthcare, education, and climate modernization.
     - Champions: Johanna Nejedlová (lead EP candidate), Michal Berg (party co-chair), Dr. Miroslav Palanský.
   - **SOCDEM Model (formerly ČSSD, 2021 & 2023):**
-    - Included in the official 2021 election manifesto: a 1% annual tax on net fortunes exceeding 100 million CZK (*majetková daň nad 100 milionů korun*) to cover public debt and covid costs.
+    - Included in the official 2021 election manifesto: a wealth tax on "giant fortunes" above 100 million CZK (*majetková daň z obřích majetků nad sto milionů korun*) to cover covid costs; the 1% rate comes from Špidla's 2023 article, not from the 2021 report.
     - Reaffirmed in 2023 policy articles by former Prime Minister Vladimír Špidla and backed by party chair Jana Maláčová.
-  - **Trade Union Confederation (ČMKOS):** Led by Josef Středula, ČMKOS has systematically demanded increasing taxation on wealth and capital (*zdanění majetku a kapitálu*) to address chronic structural deficits in public sector funding.
+  - **Left out as generic:** Trade union chairman Josef Středula (ČMKOS) said taxes must rise, including "zdanění majetku", and economist Ilona Švihlíková said "majetkové daně neexistují". Neither names a wealth tax, and Czechia dropped its inheritance and gift taxes in 2014, so both are in `exclusions.csv`.
   - **Wealth Managers & Business Commentators:** Mikuláš Splítek (portfolio manager at Erste Asset Management) published a prominent 2025 column in *Hospodářské noviny* endorsing a progressive wealth tax to curb compounding wealth inequality.
   - **European Parliament Roll Calls:** Czech Pirate Party MEPs (Markéta Gregorová, Marcel Kolaja, Mikuláš Peksa) voted in favor of EU wealth tax amendments on EU own resources in May 2023 (vote 155121) and December 2023 (vote 162327).
 - **Key Exclusions (Ground Rule 1):**
