@@ -1,6 +1,6 @@
 # Saudi Arabia (data/sa)
 
-Worked notes from the Saudi Arabia research passes (`R001` seed pass, `R002` deepening pass, 2026-10-31; 1 identified supporter, 12 documented exclusions, 1 opinion poll, 14 logged bilingual queries, 147 governorates loaded).
+Worked notes from the Saudi Arabia research passes (`R001` seed pass, `R002` deepening pass, `R003` saturation pass, 2026-10-31 to 2026-11-01; 1 identified supporter, 16 documented exclusions, 1 opinion poll, 21 logged bilingual queries, 147 governorates loaded).
 
 ## Levels and the geography register
 
@@ -47,3 +47,7 @@ Worked notes from the Saudi Arabia research passes (`R001` seed pass, `R002` dee
 10. **Dr. Abdullah Al-Maghlouth:** Member of the Saudi Economic Association and real estate economist who focused on implementing the White Land Tax to reduce urban land speculation; excluded land tax under Section 2.
 11. **Barjas Al-Barjas:** Prominent economic analyst who examined VAT, real estate transaction tax, and Zakat contributions to national social welfare, with no proposals for personal wealth taxation.
 12. **Dr. Nourah Al-Yousef:** Chair of the Saudi Economic Association and former Shura Council member who focused on energy economics and sovereign non-oil revenue diversification without advocating a net wealth tax.
+13. **National Committee of Workers Committees (NCWC):** Saudi national labor representative federation participating in G20 L20 on wages, labor standards, and cost-of-living impacts of VAT, with no proposals for wealth taxation.
+14. **Essam Al-Zamil:** Economic analyst who criticized the expansion of VAT and expat levies on middle-class purchasing power, while supporting White Land fees to fight real estate speculation; no wealth tax advocacy.
+15. **Dr. Salem Baajajah:** Professor of accounting and co-author of standard university textbook on Saudi Zakat and tax collection systems, focusing on technical ZATCA regulations, withholding taxes, and VAT compliance without proposing a net wealth tax.
+16. **Talat Hafez:** Banking expert and former secretary general of the Media and Banking Awareness Committee for Saudi banks who clarified that VAT applies strictly to explicit service fees and not to loans, salaries, or cash withdrawals.

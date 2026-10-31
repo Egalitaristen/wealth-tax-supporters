@@ -1,13 +1,13 @@
 # Area profile — Saudi Arabia (المملكة العربية السعودية)
 
-Save as `data/sa/area_profile.md`. Seed pass R001 and Deepening pass R002 completed 2026-10-31.
+Save as `data/sa/area_profile.md`. Seed pass R001, Deepening pass R002, and Saturation pass R003 completed 2026-11-01.
 
 ## 1. Scope
 - Area: Saudi Arabia (Kingdom of Saudi Arabia); type: country (absolute monarchy, G20 member).
-- Depth: Seed and Deepening (prominent national supporters, full geography hierarchy of 13 regions and 147 governorates, exclusions landscape across institutions and academic economics, and opinion polling).
+- Depth: Seed, Deepening, and Saturation (prominent national supporters, full geography hierarchy of 13 regions and 147 governorates, exclusions landscape across institutions, academic economics, banking, labor, and civil society, and opinion polling).
 - Levels of government in scope: national (King, Council of Ministers, Consultative Assembly / Majlis al-Shura), regional (13 administrative regions / Mintaqah), and local (147 governorates / Muhafazat).
 - Languages to search in: Arabic (`ar`), English (`en`).
-- Date of first run: 2026-10-31 (R001 and R002).
+- Date of runs: 2026-10-31 to 2026-11-01 (R001, R002, R003).
 
 ## 2. Wealth tax history and live proposals (2010 onwards)
 - **No statutory net wealth tax:** Saudi Arabia levies no secular net wealth tax on individuals, nor personal income tax, inheritance tax, or estate duty.
@@ -26,8 +26,11 @@ Save as `data/sa/area_profile.md`. Seed pass R001 and Deepening pass R002 comple
   - The Shura Council discusses tax laws referred by the Council of Ministers (e.g. amendments to corporate income tax on foreign partners, VAT, and excise taxes), but has never debated or sponsored a net wealth tax bill.
   - Individual economic committee members investigated (Dr. Fahad bin Juma'a, Dr. Said Al-Shaikh, Dr. Nourah Al-Yousef) focused on anti-evasion, digital cash reduction, White Land fees, and energy diversification, with zero wealth tax sponsorship.
 
-## 4. Parties
-- Political parties are legally prohibited in Saudi Arabia. Members of the Shura Council and public bodies serve as independent appointed individuals without party affiliations.
+## 4. Parties, civil society, and labor
+- Political parties are legally prohibited in Saudi Arabia.
+- Civil society is regulated under the Law on Associations and Foundations (Ministry of Human Resources and Social Development), which prohibits political advocacy or campaigning. Independent tax justice coalitions do not operate domestically.
+- During the 2020 Saudi G20 Presidency, the Civil 20 (C20) engagement group was boycotted by major international civil society coalitions (Amnesty International, Transparency International) over civic space concerns.
+- The National Committee of Workers Committees (NCWC) represents private-sector employees in social dialogue and the G20 L20 track, focusing on minimum wages and cost-of-living impacts of VAT, with no wealth tax proposals.
 
 ## 5. Government below national level
 - **Structure:** 13 Administrative Regions (Mintaqah / مناطق المملكة العربية السعودية), governed by regional governors (Emirs), subdivided into 147 Governorates (Muhafazat / محافظات).
@@ -67,8 +70,5 @@ Save as `data/sa/area_profile.md`. Seed pass R001 and Deepening pass R002 comple
 - Arab News business and economic columnists network.
 
 ## 10. Plan for the next runs
-- **Saturation status:** Saturated across primary layers. Domestic economic discourse is tightly focused on Vision 2030 non-oil diversification, white land fees, VAT, and Zakat anti-evasion. Secular net wealth tax advocacy remains uniquely represented by Khalid Abdulla-Janahi's *Arab News* proposal.
-- **Future updates:**
-  1. Periodic monitoring of Shura Council economic committee sessions.
-  2. Tracking G20 international tax implementation debates following the 2024 Rio declaration.
-  3. Monitoring *Arab News* and *Al-Eqtisadiah* columns for any new proposals.
+- **Saturation status:** Saturated across all layers (legislative, executive, academic economics, banking, labor, civil society, and G20 tracks). Domestic economic policy and public commentary center on Vision 2030 diversification, VAT, white land fees, and religious Zakat. Secular net wealth tax advocacy remains uniquely represented by Khalid Abdulla-Janahi's *Arab News* / KAEC proposal.
+- **Future updates:** Periodic monitoring of Shura Council annual reports, Vision 2030 fiscal updates, and G20 tax working group deliverables.
