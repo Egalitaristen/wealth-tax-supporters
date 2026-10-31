@@ -619,7 +619,10 @@ def japan():
     the page of the latest Diet session). The pages give names in kanji, so supporters are matched on the kanji in brackets after
     their name in the register (小池晃)."""
     PARTY = {"自民": "LDP", "立憲": "CDP", "維新": "Ishin", "国民": "DPP", "公明": "Komeito", "共産": "JCP", "れいわ": "Reiwa", "参政": "Sanseito",
-             "無": "Independent", "無所属": "Independent", "みんな": "Your Party", "社民": "SDP", "有志": "Yushi"}
+             "無": "Independent", "無所属": "Independent", "みんな": "Your Party", "社民": "SDP", "有志": "Yushi",
+             # Diet groups (会派) whose abbreviations the two Houses print; the English names follow the party or group's own usage
+             "中道": "Centrist Reform Alliance", "みらい": "Team Mirai", "みら": "Team Mirai", "志士": "Shishi no Kai", "民主": "DPP",
+             "い党": "Inochi no To", "沖縄": "Okinawa no Kaze", "保守": "Conservative Party of Japan", "碧水": "Hekisui-kai"}
 
     def party(raw):
         return PARTY.get(raw.strip(), raw.strip())
@@ -655,12 +658,16 @@ def japan():
     return [dict(name="House of Representatives (Shūgiin)", seats=465, source_url="https://www.shugiin.go.jp/internet/itdb_annai.nsf/html/statics/syu/1giin.htm",
                  note="465 seats; party blocks are the Diet groups (会派) named on the House's list, abbreviated in English where the abbreviation is well known.",
                  role="Member of the House of Representatives", role_re=r"(?i)house of representatives", role_start=r"(?i)member of the house of representatives", members=reps,
-                 party_order=["JCP", "Reiwa", "CDP", "SDP", "DPP", "Komeito", "Independent", "Ishin", "LDP", "Sanseito"],
-                 colours={"LDP": "d7263d", "CDP": "1d4ea1", "Ishin": "33a02c", "DPP": "f9a602", "Komeito": "f55881", "JCP": "d90000", "Reiwa": "ed6d9c", "Sanseito": "e6a000"}),
+                 party_order=["JCP", "Reiwa", "CDP", "Centrist Reform Alliance", "SDP", "Okinawa no Kaze", "Inochi no To", "Shishi no Kai", "DPP", "Team Mirai", "Komeito", "Independent", "Hekisui-kai", "Ishin", "LDP", "Sanseito", "Conservative Party of Japan"],
+                 colours={"LDP": "d7263d", "CDP": "1d4ea1", "Ishin": "33a02c", "DPP": "f9a602", "Komeito": "f55881", "JCP": "d90000", "Reiwa": "ed6d9c", "Sanseito": "e6a000",
+                          "Centrist Reform Alliance": "2a9d8f", "Team Mirai": "4fc3c9", "Shishi no Kai": "8e6bbf", "SDP": "2e7d32", "Inochi no To": "b5651d",
+                          "Okinawa no Kaze": "0e7c7b", "Conservative Party of Japan": "6d5acf", "Hekisui-kai": "9aa0a6", "Independent": "8a8680"}),
             dict(name="House of Councillors (Sangiin)", seats=248, source_url=url, note=f"248 seats; the member list of the {session}th Diet session. Groups as named on the House's list.",
                  role="Member of the House of Councillors", role_re=r"(?i)house of councillors", role_start=r"(?i)member of the house of councillors", members=sen,
-                 party_order=["JCP", "Reiwa", "CDP", "SDP", "DPP", "Komeito", "Independent", "Ishin", "LDP", "Sanseito"],
-                 colours={"LDP": "d7263d", "CDP": "1d4ea1", "Ishin": "33a02c", "DPP": "f9a602", "Komeito": "f55881", "JCP": "d90000", "Reiwa": "ed6d9c", "Sanseito": "e6a000"})]
+                 party_order=["JCP", "Reiwa", "CDP", "Centrist Reform Alliance", "SDP", "Okinawa no Kaze", "Inochi no To", "Shishi no Kai", "DPP", "Team Mirai", "Komeito", "Independent", "Hekisui-kai", "Ishin", "LDP", "Sanseito", "Conservative Party of Japan"],
+                 colours={"LDP": "d7263d", "CDP": "1d4ea1", "Ishin": "33a02c", "DPP": "f9a602", "Komeito": "f55881", "JCP": "d90000", "Reiwa": "ed6d9c", "Sanseito": "e6a000",
+                          "Centrist Reform Alliance": "2a9d8f", "Team Mirai": "4fc3c9", "Shishi no Kai": "8e6bbf", "SDP": "2e7d32", "Inochi no To": "b5651d",
+                          "Okinawa no Kaze": "0e7c7b", "Conservative Party of Japan": "6d5acf", "Hekisui-kai": "9aa0a6", "Independent": "8a8680"})]
 
 
 def malaysia():
