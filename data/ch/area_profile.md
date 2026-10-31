@@ -58,7 +58,7 @@ Written 2026-10-31 (run R001, seed pass). Lines marked `[verify]` come from a se
 ## 10. Plan for the next runs
 Ordered by expected yield per turn:
 1. **Council of States and earlier National Council votes** (2010 to 2019): query `Business` for earlier SP and Green motions and initiatives that asked for a wealth tax or a levy on large fortunes, and take the Ja votes (same method as H0001 to H0003). Expect a few dozen additional names, many new.
-2. **Seats tab:** write a `ch` adapter in `seats.py` from the `MemberCouncil` API (200 + 46 seats, party and canton for every member). Today `bodies.csv` has both chambers without `seat_view`.
+2. ~~Seats tab~~ done in this run with the `ch` adapter in `seats.py`; rerun it after each addition.
 3. **Cantonal parliaments with initiatives:** Geneva IN 185 (committee, parties, the Grand Conseil debate and vote), Neuchâtel POP initiative, St. Gallen initiative, Aargau 2016 "Millionärssteuer", Basel-Stadt, Bern, Vaud, Ticino. Read each cantonal source first (see leads).
 4. **Organisations:** SGB/USS, Unia, Travail.Suisse's own publications, Oxfam Switzerland, Alliance Sud, Public Eye, Greens Switzerland (the party as an actor), Juso.
 5. **Economists and academics:** Isabel Martínez, Reto Föllmi (has a wealth-tax alternative in the SRF piece, not support), the authors of the 2025/26 "Wealth and Inheritance" study, signatories of any open letter.

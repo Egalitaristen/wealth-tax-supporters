@@ -1,1 +1,20 @@
 seat_id,body_id,party,seats,colour,order
+S0001,B0001,Green Party,23,84b547,1
+S0002,B0001,Social Democratic Party,41,e8362d,2
+S0003,B0001,Green Liberal Party,11,a6cf42,3
+S0004,B0001,The Centre,29,f39200,4
+S0005,B0001,Evangelical People's Party,2,f0c800,5
+S0006,B0001,FDP.The Liberals,26,2a6ebb,6
+S0007,B0001,Swiss People's Party,62,3a8a3c,7
+S0008,B0001,Federal Democratic Union,2,7a6a53,8
+S0009,B0001,Geneva Citizens' Movement,2,f5a623,9
+S0010,B0001,Lega dei Ticinesi,1,1f4e9c,10
+S0011,B0001,Liberal-Democratic Party,1,5aa9e6,11
+S0012,B0002,Green Party,3,84b547,1
+S0013,B0002,Social Democratic Party,7,e8362d,2
+S0014,B0002,Green Liberal Party,1,a6cf42,3
+S0015,B0002,The Centre,15,f39200,4
+S0016,B0002,FDP.The Liberals,12,2a6ebb,5
+S0017,B0002,Swiss People's Party,6,3a8a3c,6
+S0018,B0002,Geneva Citizens' Movement,1,f5a623,7
+S0019,B0002,Independent,1,8a8680,8

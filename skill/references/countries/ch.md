@@ -30,4 +30,4 @@ German: Vermögenssteuer · Vermögensabgabe · Solidaritätsabgabe · Millionä
 
 ## Seats
 
-Not done. `bodies.csv` holds the two chambers without `seat_view`. A `ch` adapter for `skill/scripts/seats.py` can read `MemberCouncil` (`Active eq true`, `Council` 1 = National Council, 2 = Council of States) for the 200 and 46 members with party and canton.
+`python skill/scripts/seats.py data/ch` (adapter `ch`) reads `MemberCouncil` with `Active eq true` from the Parliament's OData service: 200 National Council and 46 Council of States members with party and canton, giving both chambers a Seats tab. The Greens' count includes the Alternative-die Grünen member from Zug. Run it again after each election (October 2027), by-election and run that adds politicians. Federal Councillors (`Council` 99) are not charted.
