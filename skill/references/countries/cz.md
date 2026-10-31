@@ -38,16 +38,24 @@ The native `czechia()` adapter in `skill/scripts/seats.py` queries the official 
    - Threshold: 100,000,000 CZK (~€4 million) net wealth.
    - Rate: 1.0% annually.
    - Championed in the 2021 manifesto by former Labour Minister Jana Maláčová and articulated in 2023 by former Prime Minister Vladimír Špidla.
-3. **Trade Unions (ČMKOS):**
+3. **Budoucnost & Levice (Progressive Parties):**
+   - Extra-parliamentary progressive movement *Budoucnost* and democratic socialist party *Levice* explicitly incorporate wealth taxation into their platforms to shift the fiscal burden away from labor.
+4. **Trade Unions (ČMKOS):**
    - Led by Josef Středula; continuous advocacy for increasing taxes on capital and accumulated wealth (*zdanění majetku a kapitálu*) to fund public services and infrastructure.
-4. **European Parliament Roll Calls:**
+5. **European Parliament Roll Calls:**
    - Pirate Party MEPs (Markéta Gregorová, Marcel Kolaja, Mikuláš Peksa) voted FOR European wealth tax amendments on EU own resources in May 2023 (vote 155121) and December 2023 (vote 162327).
-5. **Business Commentators:**
+6. **Business Commentators:**
    - Mikuláš Splítek (portfolio manager at Erste Asset Management) published a prominent 2025 column in *Hospodářské noviny* calling for progressive wealth taxation to prevent runaway compound wealth inequality.
 
 ## Crucial Exclusions (Ground Rule 1)
 
-- **Jakub Michálek (Piráti MP):**
-  - Advocated taxing capital gains on share sales exceeding 40 million CZK and windfall corporate taxes, but expressly not an annual net wealth tax. Classified as `out_of_definition`.
-- **KSČM (Komunistická strana Čech a Moravy):**
-  - Demanded a 40% income tax bracket for income over 1 million CZK and asset declaration checks, but not a recurring net wealth tax. Classified as `out_of_definition`.
+- **Jakub Michálek & Zdeněk Hřib (Piráti):**
+  - Advocated taxing capital gains on share sales exceeding 40 million CZK, vacant apartment property taxes (*daň z prázdného bytu*), and windfall corporate taxes, but expressly not an annual net wealth tax. Classified as `out_of_definition`.
+- **KSČM & Kateřina Konečná (Stačilo!):**
+  - Propose progressive corporate/income taxes, sectoral bank taxes, and taxing vacant apartments, but no recurring tax on total net personal wealth. Classified as `out_of_definition`.
+- **Petr Janský (Charles University / Centrum veřejných financí):**
+  - Author of *Chytřejší daně* / 17 recommendations for tax reform. In policy analysis, uses *majetkové daně* to refer exclusively to the real estate property tax (*daň z nemovitých věcí*) and inheritance/wealth transfer taxes, not an annual net wealth tax. Classified as `out_of_definition`.
+- **Danuše Nerudová (MEP, STAN) & Filip Pertold (CERGE-EI / IDEA):**
+  - Nerudová's advocacy focuses on bringing Czech real estate property taxes closer to OECD averages. Pertold explicitly cautions against net wealth taxes due to mobile capital flight, arguing instead for personal income tax bracket progression. Both classified as `out_of_definition`.
+- **Tomáš Tožička (Tax Justice Network Czechia / Social Watch):**
+  - Focuses on tax transparency, corporate anti-haven rules, and financial transaction taxes, rather than domestic net wealth taxation. Classified as `out_of_definition`.

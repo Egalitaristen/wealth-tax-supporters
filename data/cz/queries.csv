@@ -1,9 +1,15 @@
 query_id,run_id,date,language,query,channel,results_opened,leads_added,note
-Q0001,R001,2026-10-31,cs,"daň ze superbohatství" OR "daň z bohatství" site:zeleni.cz,party,4,3,Discovered Green Party policy platform and study by Miroslav Palanský
-Q0002,R001,2026-10-31,cs,site:michalberg.cz "zdanit superbohatství",party,2,1,Michal Berg blog post and proposal details
-Q0003,R001,2026-10-31,cs,"daň z majetku nad sto milionů" OR "majetková daň" ČSSD SOCDEM,party,5,3,SOCDEM election program and Maláčová statements
-Q0004,R001,2026-10-31,cs,site:denikreferendum.cz "Vladimír Špidla" "majetkových daní",media,3,1,Vladimír Špidla proposal in Deník Referendum
-Q0005,R001,2026-10-31,en,site:howtheyvote.eu "wealth tax" OR "own resources" Czechia,parliament,6,3,EP roll call votes 155121 and 162327 (Gregorová, Kolaja, Peksa)
-Q0006,R001,2026-10-31,cs,site:seznamzpravy.cz "Josef Středula" "zdanění majetku",trade_union,3,2,ČMKOS and Středula tax policy position
-Q0007,R001,2026-10-31,cs,"Ilona Švihlíková" "majetkové daně",media,3,1,Švihlíková radio interview on lack of wealth taxation
-Q0008,R001,2026-10-31,cs,site:archiv.hn.cz "Mikuláš Splítek" "daň z majetku",business,2,1,Splítek column in Hospodářské noviny
+Q0001,R001,2026-10-31,cs,"daň ze superbohatství OR ""daň z bohatství"" site:zeleni.cz",party,4,3,Discovered Green Party policy platform and study by Miroslav Palanský
+Q0002,R001,2026-10-31,cs,"site:michalberg.cz ""zdanit superbohatství""",party,2,1,Michal Berg blog post and proposal details
+Q0003,R001,2026-10-31,cs,"daň z majetku nad sto milionů OR ""majetková daň"" ČSSD SOCDEM",party,5,3,SOCDEM election program and Maláčová statements
+Q0004,R001,2026-10-31,cs,"site:denikreferendum.cz ""Vladimír Špidla"" ""majetkových daní""",media,3,1,Vladimír Špidla proposal in Deník Referendum
+Q0005,R001,2026-10-31,en,"site:howtheyvote.eu ""wealth tax"" OR ""own resources"" Czechia",parliament,6,3,"EP roll call votes 155121 and 162327 (Gregorová, Kolaja, Peksa)"
+Q0006,R001,2026-10-31,cs,"site:seznamzpravy.cz ""Josef Středula"" ""zdanění majetku""",trade_union,3,2,ČMKOS and Středula tax policy position
+Q0007,R001,2026-10-31,cs,"""Ilona Švihlíková"" ""majetkové daně""",media,3,1,Švihlíková radio interview on lack of wealth taxes
+Q0008,R001,2026-10-31,cs,"site:archiv.hn.cz ""Mikuláš Splítek"" ""daň z majetku""",business,2,1,Splítek commentary column in Hospodářské noviny
+Q0009,R002,2026-10-31,cs,"""Snížíme zdanění práce"" ""velkého majetku"" site:volim-budoucnost.cz",party,2,1,Budoucnost political movement goals: tax extreme wealth and capital to relieve labor
+Q0010,R002,2026-10-31,cs,"""zdanění finančních spekulací a velkého majetku"" site:jsmelevice.cz",party,2,1,Levice election program: shift taxation from labor to capital and large wealth
+Q0011,R002,2026-10-31,cs,"""Petr Janský"" ""Centrum veřejných financí"" ""majetkové daně""",academic,3,0,Verified Petr Janský recommendations focus on real estate and inheritance transfer taxes
+Q0012,R002,2026-10-31,cs,"""Filip Pertold"" ""daň z bohatství"" OR ""zdanění majetku"" IDEA",academic,3,0,Verified Filip Pertold critique of net wealth tax; recommends income tax progression instead
+Q0013,R002,2026-10-31,cs,"""Kateřina Konečná"" ""majetková daň"" OR ""daň z bohatství"" KSČM Stačilo",party,5,0,"Verified KSČM and Stačilo platform focus on sectoral corporate tax, income progression, and vacant apartments"
+Q0014,R002,2026-10-31,cs,"""Danuše Nerudová"" ""daň z nemovitostí"" OR ""daň z majetku"" NERV",politician,4,0,Verified Danuše Nerudová advocacy relates to real estate property tax (daň z nemovitých věcí)
