@@ -18,11 +18,12 @@ Written 2026-10-31 (run R001, seed pass). Lines marked `[verify]` come from a se
   - 23.3361, Stefania Prezioso Batou (Ensemble à Gauche): change Art. 128 of the Constitution to introduce a direct tax on the wealth of natural persons. Rejected 13 Mar 2024, 60 yes, 132 no.
   - 24.3761, Barbara Schaffner (Green Liberals): asks the Federal Council to examine federal wealth-tax models. A request to study, so not recorded as support (see `exclusions.csv`).
 - **Cantonal initiatives:**
+  - Wealth-tax proponents outside parties: Alfred Gantner (Dec 2025), Jan Colruyt (Mar 2026, Tages-Anzeiger interview), Solidar Suisse (Jan 2023), Marius Brülhart (Feb 2026).
   - Zurich, "Faire Finanzierung der Corona-Hilfen" (AL, SP, Greens, Juso, Junge Grüne, CSP, GBKZ, Travail.Suisse): temporary 20% surcharge on the top wealth-tax bracket for three years; withdrawn by its committee in August 2023 before a vote (AL statement, 11 Aug 2023).
   - Schaffhausen: Corona solidarity surcharge of 0.3 per mille on taxable wealth over CHF 2 million for five years, launched by the SP with AL and Greens; rejected 15 May 2022 with almost 69% against (SRF).
   - Geneva IN 185, "Pour une contribution temporaire de solidarité sur les grandes fortunes": 2.5 per mille on the part of a fortune above CHF 3 million for ten years (official initiative text; the 4.5 to 5 per mille in its own memorandum includes the centimes additionnels). Put to the vote on 18 June 2023 and rejected [verify the margin; one source says 59.5%]. In the Grand Conseil debate of 1 Sept 2022 (official minutes) Jean Batou (EAG), Pierre Eckert (Greens) and Sylvain Thévoz (SP) spoke for it, and the Conseil d'Etat's majority proposed a counter-proposal keeping the contribution for five years; the initiative went to the tax commission.
-  - Neuchâtel, POP initiative "Pour une fiscalité plus équitable": higher wealth-tax rate from CHF 500,000. Rejected at the ballot on 15 May 2022 [verify; the cantonal voter pamphlet marks it NON].
-  - St. Gallen: initiative to replace the flat wealth-tax rate by a progressive scale [verify; seen only in a search summary].
+  - Neuchâtel, POP initiative "Pour une fiscalité plus équitable": higher wealth-tax rate from CHF 500,000. Rejected at the ballot on 15 May 2022 (57.8% no, from a search summary; Le Matin and the POP's own page read).
+  - St. Gallen: SP, Greens and unions' "Steuergerechtigkeitsinitiative" for a three-step wealth-tax scale (2 per mille from CHF 1m, 3 per mille above 2m), rejected 14 June 2015 with 73% against (NZZ).
 - **Outside the definition (not recorded):** the Juso initiative "For a future" (50% federal inheritance and gift tax above CHF 50 million) was rejected on 30 Nov 2025 by about 78% [verify]; the 99%-Initiative (capital income) was rejected in 2021. Both are inheritance or capital-income taxes.
 - **After the Juso vote:** the billionaire Alfred Gantner (Partners Group) called for a progressive wealth tax on the very rich (1% above CHF 200 million, rising with wealth), 1 Dec 2025 (vol.at, zentralplus). In February 2026 Marius Brülhart (Lausanne) argued for a federal wealth tax instead of higher VAT or payroll levies to finance the 13th AHV pension and defence (SRF, 23 Feb 2026).
 
@@ -32,7 +33,7 @@ Written 2026-10-31 (run R001, seed pass). Lines marked `[verify]` come from a se
 
 ## 4. Parties
 - Left of centre, with positions on wealth taxation: Social Democratic Party (SP/PS), Greens (GPS/Verts), Swiss Party of Labour (PdA/POP), Alternative Liste (AL), solidaritéS/Ensemble à Gauche. In the 2021 to 2024 votes on the motions above, only SP and Greens members (and one AL/Zug Green) voted yes; no member of another group did.
-- Green Liberals: a federal wealth-tax study request (24.3761) and a reported proposal for a federal wealth tax with a CHF 5 million exemption [verify], so a possible further layer.
+- Green Liberals: National Councillor Patrick Hässig and the GLP proposed in February 2026 a federal wealth tax of 0.33% above CHF 5 million (about CHF 2.7bn a year) to fund the 13th AHV pension and the army (nau.ch, 20 Minuten); they are the only non-left federal supporters found. A study request by Barbara Schaffner (24.3761) is excluded. A Tamedia/20 Minuten poll of March 2026 is reported to show majority support for it (lead D0013).
 - Right and centre parties oppose; opponents are not recorded.
 
 ## 5. Government below national level
