@@ -1,0 +1,23 @@
+{
+  "name": "Switzerland",
+  "iso2": "CH",
+  "lead": "",
+  "status": "in progress",
+  "boundaries": "boundaries.json",
+  "notes": "Seed pass. Geography: 26 cantons (region, ISO 3166-2 codes, English names) and 2,110 municipalities (council tier, BFS numbers) from the BFS Historised Municipality Directory, snapshot 2026-10-01 (agvchapp.bfs.admin.ch); districts (Bezirke) are skipped because they are not general-purpose local government and several cantons have none. Boundaries: swisstopo swissBOUNDARIES3D 2026-01, free use under swisstopo's OGD terms with source reference (Bundesamt für Landestopografie swisstopo); the swiss-maps TopoJSON was not used because its BFS GEOSTAT data carries a non-commercial licence.",
+  "polls": [
+    {
+      "support": 68,
+      "support_text": "About two in three",
+      "oppose": 25,
+      "scope": "Swiss voters, Tamedia/20 Minuten post-vote survey (Nachabstimmungsbefragung), spring 2026",
+      "question": "Federal tax on large fortunes to finance the 13th AHV pension and the army, as an alternative to a VAT rise (the Green Liberal proposal is 0.33% above CHF 5 million)",
+      "question_original": "Bundessteuer auf grosse Vermögen zur Finanzierung der AHV und der Armee",
+      "pollster": "Leewas",
+      "commissioned_by": "Tamedia and 20 Minuten",
+      "fieldwork": "2026-03",
+      "published": "2026-03-15",
+      "url": "https://www.srf.ch/news/wirtschaft/vermoegenskonzentration-linker-staroekonom-fordert-mindeststeuer-fuer-superreiche"
+    }
+  ]
+}
