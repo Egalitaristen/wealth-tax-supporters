@@ -1692,7 +1692,61 @@ def switzerland():
     return chambers
 
 
-_ADAPTERS_LOWER = {"at": austria, "austria": austria, "nz": new_zealand, "se": sweden, "de": germany, "nl": netherlands, "no": norway, "fr": france, "br": brazil, "ca": canada, "es": spain, "pl": poland, "be": belgium, "in": india, "jp": japan, "my": malaysia, "sg": singapore, "id": indonesia, "ng": nigeria, "cn": china, "scottish_parliament": scottish_parliament, "european_parliament": european_parliament, "eu": european_parliament, "un": united_nations, "au": pan_african_parliament, "za": south_africa, "ie": ireland, "it": italy, "mx": mexico, "ar": argentina, "co": colombia, "fi": finland, "kr": south_korea}
+def czechia():
+    """Poslanecká sněmovna (200 seats): psp.cz member list."""
+    import html as _html
+    url = "https://www.psp.cz/sqw/snem.sqw?P1=0&P2=0"
+    raw = get(url, as_json=False).decode("windows-1250", errors="replace")
+    rows = re.findall(r'<tr>\s*<th>(.*?)</tr>', raw, re.DOTALL)
+    CLUB_MAP = {
+        "ODS": "ODS",
+        "ANO2011": "ANO 2011",
+        "Piráti": "Piráti",
+        "MS": "Motoristé sobě",
+        "KDU-ČSL": "KDU-ČSL",
+        "STAN": "STAN",
+        "TOP09": "TOP 09",
+        "SPD": "SPD",
+    }
+    members = []
+    for r in rows:
+        m_match = re.search(r'href="detail\.sqw\?id=(\d+)[^"]*">([^<]+)</a>', r)
+        if not m_match:
+            continue
+        mid = m_match.group(1)
+        name = _html.unescape(m_match.group(2)).replace("\xa0", " ").strip()
+        kraj_match = re.search(r'<a href="snem\.sqw\?id=\d+">([^<]+)</a>', r)
+        place = _html.unescape(kraj_match.group(1)).replace("\xa0", " ").strip() if kraj_match else ""
+        tds = re.findall(r'<td[^>]*>(.*?)</td>', r, re.DOTALL)
+        party = "Nezařazení"
+        if len(tds) >= 2:
+            m_party = re.search(r'title="[^"]*">([^<]+)</a>', tds[1])
+            if m_party:
+                raw_p = m_party.group(1).strip()
+                party = CLUB_MAP.get(raw_p, raw_p)
+        members.append(dict(name=name, party=party, ref=mid, place=place,
+                            url=f"https://www.psp.cz/sqw/detail.sqw?id={mid}"))
+    order = ["Piráti", "STAN", "TOP 09", "KDU-ČSL", "ODS", "ANO 2011", "Motoristé sobě", "SPD"]
+    colours = {
+        "Piráti": "000000",
+        "STAN": "7ac143",
+        "TOP 09": "993366",
+        "KDU-ČSL": "ffd700",
+        "ODS": "004494",
+        "ANO 2011": "261060",
+        "Motoristé sobě": "186088",
+        "SPD": "e2801e",
+    }
+    return [dict(name="Poslanecká sněmovna", level="national", seats=200,
+                 source_url="https://www.psp.cz/sqw/snem.sqw?P1=0&P2=0",
+                 note="200 seats. Sitting members and parliamentary clubs from the official Chamber of Deputies (Poslanecká sněmovna) member register.",
+                 role="Poslanec/poslankyně Poslanecké sněmovny",
+                 role_re=r"(?i)\bposlan(?:ec|kyně)\s+poslanecké\s+sněmovny\b|\bposlan(?:ec|kyně)\s+psp\b|\bčlen(?:ka)?\s+poslanecké\s+sněmovny\b",
+                 role_start=r"(?i)(poslan(?:ec|kyně)\s+poslanecké\s+sněmovny|poslaneck)",
+                 members=members, former=[], party_order=order, colours=colours)]
+
+
+_ADAPTERS_LOWER = {"at": austria, "austria": austria, "cz": czechia, "czechia": czechia, "nz": new_zealand, "se": sweden, "de": germany, "nl": netherlands, "no": norway, "fr": france, "br": brazil, "ca": canada, "es": spain, "pl": poland, "be": belgium, "in": india, "jp": japan, "my": malaysia, "sg": singapore, "id": indonesia, "ng": nigeria, "cn": china, "scottish_parliament": scottish_parliament, "european_parliament": european_parliament, "eu": european_parliament, "un": united_nations, "au": pan_african_parliament, "za": south_africa, "ie": ireland, "it": italy, "mx": mexico, "ar": argentina, "co": colombia, "fi": finland, "kr": south_korea}
 # countries that chart two chambers chain their adapters; the others return one
 ADAPTERS = dict(_ADAPTERS_LOWER, nl=lambda: netherlands() + netherlands_senate(), za=lambda: south_africa() + south_africa_ncop(),
                   ca=lambda: canada() + canada_senate(), australia=australia, eg=egypt,
