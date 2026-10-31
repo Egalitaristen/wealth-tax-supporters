@@ -44,13 +44,17 @@ The native `czechia()` adapter in `skill/scripts/seats.py` queries the official 
    - Led by Josef Středula; continuous advocacy for increasing taxes on capital and accumulated wealth (*zdanění majetku a kapitálu*) to fund public services and infrastructure.
 5. **European Parliament Roll Calls:**
    - Pirate Party MEPs (Markéta Gregorová, Marcel Kolaja, Mikuláš Peksa) voted FOR European wealth tax amendments on EU own resources in May 2023 (vote 155121) and December 2023 (vote 162327).
-6. **Business Commentators:**
+6. **Economic Experts & Academic Institutions:**
+   - Miroslav Palanský (Charles University / Tax Justice Network) authored the 2024 Green Party wealth tax study.
+   - Ilona Švihlíková (Vysoká škola obchodní v Praze) advocates systemic wealth taxation to counteract oligarchical wealth concentration.
+   - Kamila Fialová (Institute of Sociology of the Czech Academy of Sciences / SOÚ AV ČR) endorsed Gabriel Zucman's billionaire minimum top-up wealth tax as relevant and fiscally meaningful for the Czech Republic.
+7. **Business Commentators:**
    - Mikuláš Splítek (portfolio manager at Erste Asset Management) published a prominent 2025 column in *Hospodářské noviny* calling for progressive wealth taxation to prevent runaway compound wealth inequality.
 
 ## Crucial Exclusions (Ground Rule 1)
 
-- **Jakub Michálek & Zdeněk Hřib (Piráti):**
-  - Advocated taxing capital gains on share sales exceeding 40 million CZK, vacant apartment property taxes (*daň z prázdného bytu*), and windfall corporate taxes, but expressly not an annual net wealth tax. Classified as `out_of_definition`.
+- **Jakub Michálek, Zdeněk Hřib & Ivan Bartoš (Piráti):**
+  - Michálek and Hřib advocated taxing capital gains on share sales exceeding 40 million CZK, vacant apartment property taxes (*daň z prázdného bytu*), and windfall corporate taxes. Former party chair and Deputy PM Ivan Bartoš vigorously rejected broad wealth and residential property taxes, focusing solely on commercial real estate and corporate loopholes. Classified as `out_of_definition`.
 - **KSČM & Kateřina Konečná (Stačilo!):**
   - Propose progressive corporate/income taxes, sectoral bank taxes, and taxing vacant apartments, but no recurring tax on total net personal wealth. Classified as `out_of_definition`.
 - **Petr Janský (Charles University / Centrum veřejných financí):**
@@ -71,3 +75,7 @@ The native `czechia()` adapter in `skill/scripts/seats.py` queries the official 
   - Advocates shifting tax burden from labor to immovable property taxes (*daň z nemovitostí*) and consumption, but does not propose an annual net wealth tax. Classified as `out_of_definition`.
 - **Ondřej Malý (former Deputy Minister of Industry and Trade):**
   - Published public op-ed critique in *E15* rejecting Green Party super-wealth tax proposals due to capital flight risks. Classified as `opposes`.
+- **Miroslav Singer (former Governor of ČNB / Generali CEE):**
+  - Publicly critiques wealth taxes and millionaire levies citing capital flight and Norwegian billionaire relocation to Switzerland. Classified as `opposes`.
+- **Jan Bittner (VŠE / Masarykova demokratická akademie):**
+  - Advocates raising property taxes on third and subsequent real estate properties and restoring the real estate acquisition tax, but does not propose an annual net wealth tax. Classified as `out_of_definition`.
