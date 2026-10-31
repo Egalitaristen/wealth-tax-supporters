@@ -1,0 +1,8 @@
+query_id,run_id,date,language,query,channel,results_opened,leads_added,note
+Q0001,R001,2026-10-31,ar,ضريبة على الثروة السعودية OR مجلس الشورى,web,10,1,Broad search on wealth tax debates and Shura Council
+Q0002,R001,2026-10-31,ar,ضريبة الثروة الزكاة السعودية,web,8,1,Search exploring relationship between wealth tax proposals and Zakat
+Q0003,R001,2026-10-31,ar,ضريبة الثروة site:aleqt.com,web,6,0,Search in Al-Eqtisadiah business newspaper archive
+Q0004,R001,2026-10-31,ar,ضريبة الثروة site:okaz.com.sa,web,6,0,Search in Okaz newspaper archive
+Q0005,R001,2026-10-31,en,"site:arabnews.com ""wealth tax""",web,6,1,Discovered Khalid Abdulla-Janahi 1% wealth tax proposal
+Q0006,R001,2026-10-31,en,Earth4All Ipsos Saudi Arabia 54% wealth tax,web,4,0,Retrieved Earth4All / Ipsos 2024 G20 public opinion poll for Saudi Arabia
+Q0007,R001,2026-10-31,en,Mohammed Al-Jadaan wealth tax billionaires G20,web,5,0,Investigated Saudi delegation position at G20 Rio 2024

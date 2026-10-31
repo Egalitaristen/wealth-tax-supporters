@@ -1,0 +1,163 @@
+geo_unit_id,name,level,unit_type,parent_id,website,sweep_status,swept_run,swept_date,queries_run,hits,notes,code
+G0001,Saudi Arabia,national,country,,https://www.my.gov.sa,in_progress,,,,,Kingdom of Saudi Arabia,SA
+G0002,Majlis al-Shura,national,legislature,G0001,https://www.shura.gov.sa,in_progress,,,,,Consultative Assembly of Saudi Arabia (150 members),
+G0003,Riyadh Region,region,region,G0001,,pending,,,,,Administrative Region of Saudi Arabia (ISO 3166-2:SA-01),SA-01
+G0004,Makkah Region,region,region,G0001,,pending,,,,,Administrative Region of Saudi Arabia (ISO 3166-2:SA-02),SA-02
+G0005,Al Madinah Region,region,region,G0001,,pending,,,,,Administrative Region of Saudi Arabia (ISO 3166-2:SA-03),SA-03
+G0006,Eastern Region,region,region,G0001,,pending,,,,,Administrative Region of Saudi Arabia (ISO 3166-2:SA-04),SA-04
+G0007,Al-Qassim Region,region,region,G0001,,pending,,,,,Administrative Region of Saudi Arabia (ISO 3166-2:SA-05),SA-05
+G0008,Hayel Region,region,region,G0001,,pending,,,,,Administrative Region of Saudi Arabia (ISO 3166-2:SA-06),SA-06
+G0009,Tabuk Region,region,region,G0001,,pending,,,,,Administrative Region of Saudi Arabia (ISO 3166-2:SA-07),SA-07
+G0010,Northern Borders Region,region,region,G0001,,pending,,,,,Administrative Region of Saudi Arabia (ISO 3166-2:SA-08),SA-08
+G0011,Jazan Region,region,region,G0001,,pending,,,,,Administrative Region of Saudi Arabia (ISO 3166-2:SA-09),SA-09
+G0012,Najran Region,region,region,G0001,,pending,,,,,Administrative Region of Saudi Arabia (ISO 3166-2:SA-10),SA-10
+G0013,Al Bahah Region,region,region,G0001,,pending,,,,,Administrative Region of Saudi Arabia (ISO 3166-2:SA-11),SA-11
+G0014,Al Jawf Region,region,region,G0001,,pending,,,,,Administrative Region of Saudi Arabia (ISO 3166-2:SA-12),SA-12
+G0015,'Asir Region,region,region,G0001,,pending,,,,,Administrative Region of Saudi Arabia (ISO 3166-2:SA-14),SA-14
+G0016,Al Khubar,council,governorate,G0006,,pending,,,,,Al Khubar Governorate (Al Khubar Governorate),3984122B30508649206602
+G0017,Abqaiq,council,governorate,G0006,,pending,,,,,Abqaiq Governorate (Abqaiq Governorate),3984122B4619800555153
+G0018,Al Ahsa,council,governorate,G0006,,pending,,,,,Al Ahsa Governorate (Al Ahsa Governorate),3984122B69484211656738
+G0019,Al Udayd,council,governorate,G0006,,pending,,,,,Al Udayd Governorate (Al Udayd Governorate),3984122B39367206521153
+G0020,Al Nuayriyah,council,governorate,G0006,,pending,,,,,Al Nuayriyah Governorate (Al Nuayriyah Governorate),3984122B22034942489238
+G0021,Al Qatif,council,governorate,G0006,,pending,,,,,Al Qatif Governorate (Al Qatif Governorate),3984122B40060340495100
+G0022,Ras Tannurah,council,governorate,G0006,,pending,,,,,Ras Tannurah Governorate (Ras Tannurah Governorate),3984122B61840424602376
+G0023,Al Jubayl,council,governorate,G0006,,pending,,,,,Al Jubayl Governorate (Al Jubayl Governorate),3984122B84471186351671
+G0024,Al Khafji,council,governorate,G0006,,pending,,,,,Al Khafji Governorate (Al Khafji Governorate),3984122B26220942918379
+G0025,Hafar Al Batin,council,governorate,G0006,,pending,,,,,Hafar Al Batin Governorate (Hafar Al Batin Governorate),3984122B16255149512867
+G0026,Qaryah Al Ulya,council,governorate,G0006,,pending,,,,,Qaryah Al Ulya Governorate (Qaryah Al Ulya Governorate),3984122B62688507112454
+G0027,Uyun Al Jiwa,council,governorate,G0007,,pending,,,,,Uyun Al Jiwa Governorate (Uyun Al Jiwa),3984122B68275600935451
+G0028,Al Midhnab,council,governorate,G0007,,pending,,,,,Al Midhnab Governorate (Al Midhnab),3984122B36507370505821
+G0029,Al Asyah,council,governorate,G0007,,pending,,,,,Al Asyah Governorate (Al Asyah),3984122B64115635366838
+G0030,Riyadh Al Khabra,council,governorate,G0007,,pending,,,,,Riyadh Al Khabra Governorate (Riyadh Al Khabra),3984122B54540270490359
+G0031,Unayzah,council,governorate,G0007,,pending,,,,,Unayzah Governorate (Unayzah),3984122B25563935437347
+G0032,Uqlat As Suqur,council,governorate,G0007,,pending,,,,,Uqlat As Suqur Governorate (Uqlat As Suqur),3984122B57867781654923
+G0033,An Nabhaniyah,council,governorate,G0007,,pending,,,,,An Nabhaniyah Governorate (An Nabhaniyah),3984122B39265866339380
+G0034,Al Badai,council,governorate,G0007,,pending,,,,,Al Badai Governorate (Al Badai),3984122B27492717876987
+G0035,Al Bukayriyah,council,governorate,G0007,,pending,,,,,Al Bukayriyah Governorate (Al Bukayriyah),3984122B33387122902294
+G0036,Dariyah,council,governorate,G0007,,pending,,,,,Dariyah Governorate (Dariyah),3984122B92001523391587
+G0037,Buraydah,council,governorate,G0007,,pending,,,,,Buraydah Governorate (Buraydah),3984122B17448631655978
+G0038,Ar Rass,council,governorate,G0007,,pending,,,,,Ar Rass Governorate (Ar Rass),3984122B15700727279445
+G0039,Ash Shimasiyah,council,governorate,G0007,,pending,,,,,Ash Shimasiyah Governorate (Ash Shimasiyah),3984122B87362373452737
+G0040,Mawqaq,council,governorate,G0008,,pending,,,,,Mawqaq Governorate (Mawqaq),3984122B480049909683
+G0041,Baqa,council,governorate,G0008,,pending,,,,,Baqa Governorate (Baqa),3984122B33643384104424
+G0042,Hail,council,governorate,G0008,,pending,,,,,Hail Governorate (Hail),3984122B95191279844265
+G0043,Ash Shinan,council,governorate,G0008,,pending,,,,,Ash Shinan Governorate (Ash Shinan),3984122B89530353024742
+G0044,As Sulaymi,council,governorate,G0008,,pending,,,,,As Sulaymi Governorate (As Sulaymi),3984122B6814692020878
+G0045,Al Hait,council,governorate,G0008,,pending,,,,,Al Hait Governorate (Al Hait),3984122B12009021139817
+G0046,Simira,council,governorate,G0008,,pending,,,,,Simira Governorate (Simira),3984122B23018380260764
+G0047,Ash Shamli,council,governorate,G0008,,pending,,,,,Ash Shamli Governorate (Ash Shamli),3984122B13662372448842
+G0048,Al Ghazalah,council,governorate,G0008,,pending,,,,,Al Ghazalah Governorate (Al Ghazalah),3984122B36085012469316
+G0049,Rafha,council,governorate,G0010,,pending,,,,,Rafha Governorate (Rafha),3984122B93334986111826
+G0050,Arar,council,governorate,G0010,,pending,,,,,Arar Governorate (Arar),3984122B40044275926571
+G0051,Turayf,council,governorate,G0010,,pending,,,,,Turayf Governorate (Turayf),3984122B56317831263034
+G0052,Al Uwayqilah,council,governorate,G0010,,pending,,,,,Al Uwayqilah Governorate (Al Uwayqilah),3984122B18333295493073
+G0053,Sakaka,council,governorate,G0014,,pending,,,,,Sakaka Governorate (Sakaka),3984122B95279819102585
+G0054,Al Qurayyat,council,governorate,G0014,,pending,,,,,Al Qurayyat Governorate (Al Qurayyat),3984122B80532318679279
+G0055,Tubarjal,council,governorate,G0014,,pending,,,,,Tubarjal Governorate (Tubarjal),3984122B14172463980981
+G0056,Dawamat Al Jandal,council,governorate,G0014,,pending,,,,,Dawamat Al Jandal Governorate (Dawamat Al Jandal),3984122B72402855979310
+G0057,Umluj,council,governorate,G0009,,pending,,,,,Umluj Governorate (Umluj),3984122B90318481266976
+G0058,Tayma,council,governorate,G0009,,pending,,,,,Tayma Governorate (Tayma),3984122B14648526267703
+G0059,Al Wajh,council,governorate,G0009,,pending,,,,,Al Wajh Governorate (Al Wajh),3984122B68053650100350
+G0060,Duba,council,governorate,G0009,,pending,,,,,Duba Governorate (Duba),3984122B34924504957971
+G0061,Al Bad,council,governorate,G0009,,pending,,,,,Al Bad Governorate (Al Bad),3984122B3708851156849
+G0062,Tabuk,council,governorate,G0009,,pending,,,,,Tabuk Governorate (Tabuk),3984122B79783370872517
+G0063,Haqil,council,governorate,G0009,,pending,,,,,Haqil Governorate (Haqil),3984122B35604631232449
+G0064,Marat,council,governorate,G0003,,pending,,,,,Marat Governorate (Marat),3984122B65092650994448
+G0065,Wadi Ad Dawasir,council,governorate,G0003,,pending,,,,,Wadi Ad Dawasir Governorate (Wadi Ad Dawasir),3984122B65404118142218
+G0066,Thadiq,council,governorate,G0003,,pending,,,,,Thadiq Governorate (Thadiq),3984122B50313179672016
+G0067,Ad Diriyah,council,governorate,G0003,,pending,,,,,Ad Diriyah Governorate (Ad Diriyah),3984122B48280976482389
+G0068,Ad Dilam,council,governorate,G0003,,pending,,,,,Ad Dilam Governorate (Ad Dilam),3984122B16100468455266
+G0069,Duruma,council,governorate,G0003,,pending,,,,,Duruma Governorate (Duruma),3984122B68613467322132
+G0070,Al Ghat,council,governorate,G0003,,pending,,,,,Al Ghat Governorate (Al Ghat),3984122B63908068371379
+G0071,As Sulayyil,council,governorate,G0003,,pending,,,,,As Sulayyil Governorate (As Sulayyil),3984122B94186760530457
+G0072,Hawtat Bani Tamim,council,governorate,G0003,,pending,,,,,Hawtat Bani Tamim Governorate (Hawtat Bani Tamim),3984122B7481963684562
+G0073,Al Muzahimiyah,council,governorate,G0003,,pending,,,,,Al Muzahimiyah Governorate (Al Muzahimiyah),3984122B11069871020476
+G0074,Huraymila,council,governorate,G0003,,pending,,,,,Huraymila Governorate (Huraymila),3984122B33827806998616
+G0075,Al Quwayiyah,council,governorate,G0003,,pending,,,,,Al Quwayiyah Governorate (Al Quwayiyah),3984122B98096827354438
+G0076,Al Aflaj,council,governorate,G0003,,pending,,,,,Al Aflaj Governorate (Al Aflaj),3984122B44248707539988
+G0077,Az Zulfi,council,governorate,G0003,,pending,,,,,Az Zulfi Governorate (Az Zulfi),3984122B20567039661840
+G0078,Al Majmaah,council,governorate,G0003,,pending,,,,,Al Majmaah Governorate (Al Majmaah),3984122B56533090756858
+G0079,Al Kharj,council,governorate,G0003,,pending,,,,,Al Kharj Governorate (Al Kharj),3984122B32860253667060
+G0080,Shaqra,council,governorate,G0003,,pending,,,,,Shaqra Governorate (Shaqra),3984122B74365690787554
+G0081,Al Hariq,council,governorate,G0003,,pending,,,,,Al Hariq Governorate (Al Hariq),3984122B43345093389775
+G0082,Riyadh,council,governorate,G0003,,pending,,,,,Riyadh Governorate (Riyadh),3984122B77020451037372
+G0083,Ad Duwadimi,council,governorate,G0003,,pending,,,,,Ad Duwadimi Governorate (Ad Duwadimi),3984122B96211478214569
+G0084,Ar Rayn,council,governorate,G0003,,pending,,,,,Ar Rayn Governorate (Ar Rayn),3984122B64306207967491
+G0085,Rumah,council,governorate,G0003,,pending,,,,,Rumah Governorate (Rumah),3984122B77323630629341
+G0086,Afif,council,governorate,G0003,,pending,,,,,Afif Governorate (Afif),3984122B48946169239231
+G0087,Khubash,council,governorate,G0012,,pending,,,,,Khubash Governorate (Khubash),3984122B20572203792735
+G0088,Thar,council,governorate,G0012,,pending,,,,,Thar Governorate (Thar),3984122B2939613330368
+G0089,Najran,council,governorate,G0012,,pending,,,,,Najran Governorate (Najran),3984122B82591755430407
+G0090,Yadamah,council,governorate,G0012,,pending,,,,,Yadamah Governorate (Yadamah),3984122B76833096678906
+G0091,Sharurah,council,governorate,G0012,,pending,,,,,Sharurah Governorate (Sharurah),3984122B36425593132698
+G0092,Badr Al Janub,council,governorate,G0012,,pending,,,,,Badr Al Janub Governorate (Badr Al Janub),3984122B4067687799537
+G0093,Hubuna,council,governorate,G0012,,pending,,,,,Hubuna Governorate (Hubuna),3984122B48714984453886
+G0094,Al Madinah Al Munawwarah,council,governorate,G0005,,pending,,,,,Al Madinah Al Munawwarah Governorate (Al Madinah Al Munawwarah),3984122B50313348444377
+G0095,Al Mahd,council,governorate,G0005,,pending,,,,,Al Mahd Governorate (Al Mahd),3984122B26990711780324
+G0096,Yanbu,council,governorate,G0005,,pending,,,,,Yanbu Governorate (Yanbu),3984122B20787567293330
+G0097,Al Hinakiyah,council,governorate,G0005,,pending,,,,,Al Hinakiyah Governorate (Al Hinakiyah),3984122B35742954150102
+G0098,Khaybar,council,governorate,G0005,,pending,,,,,Khaybar Governorate (Khaybar),3984122B6641435026118
+G0099,Al Ula,council,governorate,G0005,,pending,,,,,Al Ula Governorate (Al Ula),3984122B50216061485501
+G0100,Al Is,council,governorate,G0005,,pending,,,,,Al Is Governorate (Al Is),3984122B67468002617128
+G0101,Wadi Al Fara,council,governorate,G0005,,pending,,,,,Wadi Al Fara Governorate (Wadi Al Fara),3984122B69585061714649
+G0102,Badr,council,governorate,G0005,,pending,,,,,Badr Governorate (Badr),3984122B72489083236979
+G0103,Al Kamil,council,governorate,G0004,,pending,,,,,Al Kamil Governorate (Al Kamil),3984122B69121504461453
+G0104,Makkah Al Mukarramah,council,governorate,G0004,,pending,,,,,Makkah Al Mukarramah Governorate (Makkah Al Mukarramah),3984122B19556133357457
+G0105,Al Qunfudhah,council,governorate,G0004,,pending,,,,,Al Qunfudhah Governorate (Al Qunfudhah),3984122B72809386874180
+G0106,Jiddah,council,governorate,G0004,,pending,,,,,Jiddah Governorate (Jiddah),3984122B38761650215427
+G0107,Khulays,council,governorate,G0004,,pending,,,,,Khulays Governorate (Khulays),3984122B86686016734091
+G0108,Turubah,council,governorate,G0004,,pending,,,,,Turubah Governorate (Turubah),3984122B29968432383437
+G0109,Al Jumum,council,governorate,G0004,,pending,,,,,Al Jumum Governorate (Al Jumum),3984122B50722062290492
+G0110,Rabigh,council,governorate,G0004,,pending,,,,,Rabigh Governorate (Rabigh),3984122B58101820729277
+G0111,Al Lith,council,governorate,G0004,,pending,,,,,Al Lith Governorate (Al Lith),3984122B45351244346346
+G0112,Ranyah,council,governorate,G0004,,pending,,,,,Ranyah Governorate (Ranyah),3984122B59353039891704
+G0113,Al Khurmah,council,governorate,G0004,,pending,,,,,Al Khurmah Governorate (Al Khurmah),3984122B24686766089891
+G0114,Bahrah,council,governorate,G0004,,pending,,,,,Bahrah Governorate (Bahrah),3984122B81051210981737
+G0115,Maysan,council,governorate,G0004,,pending,,,,,Maysan Governorate (Maysan),3984122B44354089369392
+G0116,Al Ardiyat,council,governorate,G0004,,pending,,,,,Al Ardiyat Governorate (Al Ardiyat),3984122B30168930492514
+G0117,Adam,council,governorate,G0004,,pending,,,,,Adam Governorate (Adam),3984122B570005006642
+G0118,Biljurashi,council,governorate,G0013,,pending,,,,,Biljurashi Governorate (Biljurashi),3984122B86528100329194
+G0119,Al Hajrah,council,governorate,G0013,,pending,,,,,Al Hajrah Governorate (Al Hajrah),3984122B69466254648027
+G0120,Al Mukhwah,council,governorate,G0013,,pending,,,,,Al Mukhwah Governorate (Al Mukhwah),3984122B12423677305762
+G0121,Qilwah,council,governorate,G0013,,pending,,,,,Qilwah Governorate (Qilwah),3984122B13944600420145
+G0122,Al Aqiq,council,governorate,G0013,,pending,,,,,Al Aqiq Governorate (Al Aqiq),3984122B31362289860365
+G0123,Al Qara,council,governorate,G0013,,pending,,,,,Al Qara Governorate (Al Qara),3984122B30402684707510
+G0124,Bani Hasan,council,governorate,G0013,,pending,,,,,Bani Hasan Governorate (Bani Hasan),3984122B97825072008534
+G0125,Al Mandaq,council,governorate,G0013,,pending,,,,,Al Mandaq Governorate (Al Mandaq),3984122B96488484620871
+G0126,Al Bahah,council,governorate,G0013,,pending,,,,,Al Bahah Governorate (Al Bahah),3984122B68383495668590
+G0127,Farat Ghamid Az Zinad,council,governorate,G0004,,pending,,,,,Farat Ghamid Az Zinad Governorate (Farat Ghamid Az Zinad),3984122B52962082234192
+G0128,Al Harth,council,governorate,G0011,,pending,,,,,Al Harth Governorate (Al Harth),3984122B55876340381489
+G0129,Damad,council,governorate,G0011,,pending,,,,,Damad Governorate (Damad),3984122B72811799674202
+G0130,Fayfa,council,governorate,G0011,,pending,,,,,Fayfa Governorate (Fayfa),3984122B64053799275284
+G0131,Samtah,council,governorate,G0011,,pending,,,,,Samtah Governorate (Samtah),3984122B51728476853107
+G0132,Farasan,council,governorate,G0011,,pending,,,,,Farasan Governorate (Farasan),3984122B10336140698777
+G0133,Ad Darb,council,governorate,G0011,,pending,,,,,Ad Darb Governorate (Ad Darb),3984122B93330555014597
+G0134,Sabya,council,governorate,G0011,,pending,,,,,Sabya Governorate (Sabya),3984122B63754303430795
+G0135,Ahad Al Masarihah,council,governorate,G0011,,pending,,,,,Ahad Al Masarihah Governorate (Ahad Al Masarihah),3984122B45033572727411
+G0136,Al Aydabi,council,governorate,G0011,,pending,,,,,Al Aydabi Governorate (Al Aydabi),3984122B69248928493715
+G0137,Ar Rayth,council,governorate,G0011,,pending,,,,,Ar Rayth Governorate (Ar Rayth),3984122B90940708913135
+G0138,At Tuwal,council,governorate,G0011,,pending,,,,,At Tuwal Governorate (At Tuwal),3984122B6871077007483
+G0139,Jazan,council,governorate,G0011,,pending,,,,,Jazan Governorate (Jazan),3984122B61358763727991
+G0140,Harub,council,governorate,G0011,,pending,,,,,Harub Governorate (Harub),3984122B26008207419026
+G0141,Ad Dair,council,governorate,G0011,,pending,,,,,Ad Dair Governorate (Ad Dair),3984122B7497647941468
+G0142,Al Aridah,council,governorate,G0011,,pending,,,,,Al Aridah Governorate (Al Aridah),3984122B90529489036183
+G0143,Abu Arish,council,governorate,G0011,,pending,,,,,Abu Arish Governorate (Abu Arish),3984122B22724727158318
+G0144,Baysh,council,governorate,G0011,,pending,,,,,Baysh Governorate (Baysh),3984122B34457102514074
+G0145,Zahran Al Janub,council,governorate,G0015,,pending,,,,,Zahran Al Janub Governorate (Zahran Al Janub),3984122B54727437999248
+G0146,Ahad Rufaydah,council,governorate,G0015,,pending,,,,,Ahad Rufaydah Governorate (Ahad Rufaydah),3984122B9965074397294
+G0147,Tathlith,council,governorate,G0015,,pending,,,,,Tathlith Governorate (Tathlith),3984122B92065083933541
+G0148,Abha,council,governorate,G0015,,pending,,,,,Abha Governorate (Abha),3984122B51804876701649
+G0149,Tarib,council,governorate,G0015,,pending,,,,,Tarib Governorate (Tarib),3984122B40135172930299
+G0150,Bishah,council,governorate,G0015,,pending,,,,,Bishah Governorate (Bishah),3984122B19652940197421
+G0151,Muhayil,council,governorate,G0015,,pending,,,,,Muhayil Governorate (Muhayil),3984122B440816765120
+G0152,Al Birk,council,governorate,G0004,,pending,,,,,Al Birk Governorate (Al Birk),3984122B83893098076336
+G0153,Al Harjah,council,governorate,G0015,,pending,,,,,Al Harjah Governorate (Al Harjah),3984122B81076833717863
+G0154,Balqarn,council,governorate,G0015,,pending,,,,,Balqarn Governorate (Balqarn),3984122B28930414143563
+G0155,Bariq,council,governorate,G0015,,pending,,,,,Bariq Governorate (Bariq),3984122B41076127569614
+G0156,Al Majardah,council,governorate,G0015,,pending,,,,,Al Majardah Governorate (Al Majardah),3984122B45681957662034
+G0157,An Namas,council,governorate,G0015,,pending,,,,,An Namas Governorate (An Namas),3984122B52293424846574
+G0158,Sarat Abidah,council,governorate,G0015,,pending,,,,,Sarat Abidah Governorate (Sarat Abidah),3984122B75809876949302
+G0159,Rijal Al Ma,council,governorate,G0015,,pending,,,,,Rijal Al Ma Governorate (Rijal Al Ma),3984122B12678922883619
+G0160,Tanumah,council,governorate,G0015,,pending,,,,,Tanumah Governorate (Tanumah),3984122B49746807963444
+G0161,Khamis Mushayt,council,governorate,G0015,,pending,,,,,Khamis Mushayt Governorate (Khamis Mushayt),3984122B46908914217356
+G0162,Al Taif,council,governorate,G0004,,pending,,,,,Al Taif Governorate (Al Taif),3984122B19781727618423
