@@ -1,0 +1,11 @@
+lead_id,kind,name,source_url,why,found_run,status,closed_run,note
+D0001,organisation,Economics Association of Malawi (ECAMA),https://mwnation.com/experts-urge-structural-reform/,Key economic body proposing 0.7% moderate wealth tax,R001,used,R001,Added as actor A0002.
+D0002,person,Bertha Bangara-Chikadza,https://mwnation.com/experts-urge-structural-reform/,ECAMA president proposing 0.7% wealth tax at CRI launch,R001,used,R001,Added as actor A0001.
+D0003,person,Agnes Nyirongo,https://mwnation.com/experts-urge-structural-reform/,CfSC governance officer proposing solidarity wealth levy on richest 1-5%,R001,used,R001,Added as actor A0003.
+D0004,organisation,Centre for Social Concern (CfSC),https://mwnation.com/experts-urge-structural-reform/,Catholic economic justice group advocating solidarity wealth levy,R001,used,R001,Added as actor A0004.
+D0005,person,Mathias Kafunda,https://mwnation.com/tax-policies-fuel-inequality-oxfam/,Oxfam Malawi Just Economies manager calling for progressive wealth clawback,R001,used,R001,Added as actor A0005.
+D0006,organisation,Oxfam in Malawi,https://southernafrica.oxfam.org/latest/publications/tackling-inequality-commitment-reducing-inequality-cri-country-profile-malawi,Publisher of 2025 CRI report proposing 0.7% wealth tax,R001,used,R001,Added as actor A0006.
+D0007,organisation,Malawi Economic Justice Network (MEJN),https://mwnation.com/experts-urge-structural-reform/,Co-publisher of CRI report calling for wealth tax,R001,used,R001,Added as actor A0007.
+D0008,organisation,Malawi Congress of Trade Unions (MCTU),https://mwnation.com/mctu-rejects-pension-death-benefits-tax-reforms/,National union confederation demanding alternative revenue targeting wealth,R001,used,R001,Added as actor A0008.
+D0009,person,Gladys Ganda,https://times.mw/report-exposes-grave-inequality/,Parliament Budget Committee chair,R001,rejected,R001,Spoke on those who have more contributing more without net wealth wording; recorded in exclusions.csv.
+D0010,document,Commitment to Reducing Inequality Malawi Country Profile 2025,https://southernafrica.oxfam.org/latest/publications/tackling-inequality-commitment-reducing-inequality-cri-country-profile-malawi,Key national inequality report proposing 0.7% wealth tax,R001,used,R001,"Used as evidence for Oxfam, MEJN, and ECAMA."

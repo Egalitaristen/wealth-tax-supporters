@@ -1,0 +1,37 @@
+geo_unit_id,name,level,unit_type,parent_id,website,sweep_status,swept_run,swept_date,queries_run,hits,notes,code
+G0001,Malawi,national,country,,,in_progress,,,,,National root.,MW
+G0002,Northern,region,region,G0001,,pending,,,,,Region of Malawi.,MW1
+G0003,Central,region,region,G0001,,pending,,,,,Region of Malawi.,MW2
+G0004,Southern,region,region,G0001,,pending,,,,,Region of Malawi.,MW3
+G0005,Chitipa,council,district,G0002,,pending,,,,,Malawi local government area (district).,MW101
+G0006,Karonga,council,district,G0002,,pending,,,,,Malawi local government area (district).,MW102
+G0007,Nkhatabay,council,district,G0002,,pending,,,,,Malawi local government area (district).,MW103
+G0008,Rumphi,council,district,G0002,,pending,,,,,Malawi local government area (district).,MW104
+G0009,Mzimba,council,district,G0002,,pending,,,,,Malawi local government area (district).,MW105
+G0010,Likoma,council,district,G0002,,pending,,,,,Malawi local government area (district).,MW106
+G0011,Mzuzu City,council,city_council,G0002,,pending,,,,,Malawi local government area (city_council).,MW107
+G0012,Kasungu,council,district,G0003,,pending,,,,,Malawi local government area (district).,MW201
+G0013,Nkhotakota,council,district,G0003,,pending,,,,,Malawi local government area (district).,MW202
+G0014,Ntchisi,council,district,G0003,,pending,,,,,Malawi local government area (district).,MW203
+G0015,Dowa,council,district,G0003,,pending,,,,,Malawi local government area (district).,MW204
+G0016,Salima,council,district,G0003,,pending,,,,,Malawi local government area (district).,MW205
+G0017,Lilongwe,council,district,G0003,,pending,,,,,Malawi local government area (district).,MW206
+G0018,Mchinji,council,district,G0003,,pending,,,,,Malawi local government area (district).,MW207
+G0019,Dedza,council,district,G0003,,pending,,,,,Malawi local government area (district).,MW208
+G0020,Ntcheu,council,district,G0003,,pending,,,,,Malawi local government area (district).,MW209
+G0021,Lilongwe City,council,city_council,G0003,,pending,,,,,Malawi local government area (city_council).,MW210
+G0022,Mangochi,council,district,G0004,,pending,,,,,Malawi local government area (district).,MW301
+G0023,Machinga,council,district,G0004,,pending,,,,,Malawi local government area (district).,MW302
+G0024,Zomba,council,district,G0004,,pending,,,,,Malawi local government area (district).,MW303
+G0025,Chiradzulu,council,district,G0004,,pending,,,,,Malawi local government area (district).,MW304
+G0026,Blantyre,council,district,G0004,,pending,,,,,Malawi local government area (district).,MW305
+G0027,Mwanza,council,district,G0004,,pending,,,,,Malawi local government area (district).,MW306
+G0028,Thyolo,council,district,G0004,,pending,,,,,Malawi local government area (district).,MW307
+G0029,Mulanje,council,district,G0004,,pending,,,,,Malawi local government area (district).,MW308
+G0030,Phalombe,council,district,G0004,,pending,,,,,Malawi local government area (district).,MW309
+G0031,Chikwawa,council,district,G0004,,pending,,,,,Malawi local government area (district).,MW310
+G0032,Nsanje,council,district,G0004,,pending,,,,,Malawi local government area (district).,MW311
+G0033,Balaka,council,district,G0004,,pending,,,,,Malawi local government area (district).,MW312
+G0034,Neno,council,district,G0004,,pending,,,,,Malawi local government area (district).,MW313
+G0035,Zomba City,council,city_council,G0004,,pending,,,,,Malawi local government area (city_council).,MW314
+G0036,Blantyre City,council,city_council,G0004,,pending,,,,,Malawi local government area (city_council).,MW315
