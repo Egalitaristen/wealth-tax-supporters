@@ -1,17 +1,9 @@
 position_id,actor_id,body_id,role,party,geo_unit_id,start,end,current,member_ref,checked,source_url
-O00001,A0008,B0001,Federal deputy,Labour Party,G0015,,,,,,https://www.ptdiputados.org.mx/integrante66.php?id=80
-O00002,A0009,B0001,Federal deputy,Morena,G0001,2024,,,,,https://repositoriodocumental.ine.mx/xmlui/bitstream/handle/123456789/176370/CGex202408-23-ap-4.pdf
-O00003,A0011,B0001,Federal deputy,Morena,G0001,2024,,,,,https://repositoriodocumental.ine.mx/xmlui/bitstream/handle/123456789/176370/CGex202408-23-ap-4.pdf
-O00004,A0012,B0001,"Federal deputy, LXV Legislature",Morena,G0010,2021,2024,n,,2026-10-26,https://www.diputadosmorena.org.mx/diputados/aleida-alavez/
-O00005,A0013,B0001,"Federal deputy, LXV Legislature",Morena,G0948,2021,2024,n,,2026-10-26,https://gaceta.diputados.gob.mx/PDF/InfoDip/65/610-20240112-II.pdf
-O00006,A0014,B0001,"Federal deputy, LXV Legislature",Morena,G0010,2021,2024,n,,2026-10-26,https://gaceta.diputados.gob.mx/PDF/65/2023/dic/20231215-A-1.pdf
-O00007,A0015,B0001,"Federal deputy, LXV Legislature",Morena,G0010,2021,2024,n,,2026-10-26,https://sitl.diputados.gob.mx/LXV_leg/album_2rec3anio.pdf
-O00008,A0016,B0002,Senator,Citizens Movement,G0001,2024,,,,,https://buroparlamentario.com/representantes/senado/amalia-dolores-garcia-medina/
 O00009,A0008,B0003,Federal deputy,Partido del Trabajo,G0015,,,y,josé-luis-sánchez-gonzález,2026-10-26,https://en.wikipedia.org/wiki/LXVI_Legislature_of_the_Mexican_Congress
-O00010,A0009,B0003,Federal deputy,Morena,G0001,,,y,alfonso-ramírez-cuéllar,2026-10-26,https://en.wikipedia.org/wiki/LXVI_Legislature_of_the_Mexican_Congress
-O00011,A0011,B0003,Federal deputy,Morena,G0001,,,y,manuel-vázquez-arellano,2026-10-26,https://en.wikipedia.org/wiki/LXVI_Legislature_of_the_Mexican_Congress
-O00012,A0012,B0003,Federal deputy,,G0010,,,n,,2026-10-26,https://en.wikipedia.org/wiki/LXVI_Legislature_of_the_Mexican_Congress
-O00013,A0013,B0003,Federal deputy,,G0948,,,n,,2026-10-26,https://en.wikipedia.org/wiki/LXVI_Legislature_of_the_Mexican_Congress
-O00014,A0014,B0003,Federal deputy,,G0010,,,n,,2026-10-26,https://en.wikipedia.org/wiki/LXVI_Legislature_of_the_Mexican_Congress
-O00015,A0015,B0003,Federal deputy,,G0010,,,n,,2026-10-26,https://en.wikipedia.org/wiki/LXVI_Legislature_of_the_Mexican_Congress
-O00016,A0016,B0004,Senator,Movimiento Ciudadano,G0001,,,y,amalia-garcía-medina,2026-10-26,https://en.wikipedia.org/wiki/LXVI_Legislature_of_the_Mexican_Congress
+O00010,A0009,B0003,Federal deputy,Morena,G0001,2024,,y,alfonso-ramírez-cuéllar,2026-10-26,https://en.wikipedia.org/wiki/LXVI_Legislature_of_the_Mexican_Congress
+O00011,A0011,B0003,Federal deputy,Morena,G0001,2024,,y,manuel-vázquez-arellano,2026-10-26,https://en.wikipedia.org/wiki/LXVI_Legislature_of_the_Mexican_Congress
+O00012,A0012,B0003,"Federal deputy, LXV Legislature",Morena,G0010,2021,2024,n,,2026-10-26,https://en.wikipedia.org/wiki/LXVI_Legislature_of_the_Mexican_Congress
+O00013,A0013,B0003,"Federal deputy, LXV Legislature",Morena,G0948,2021,2024,n,,2026-10-26,https://en.wikipedia.org/wiki/LXVI_Legislature_of_the_Mexican_Congress
+O00014,A0014,B0003,"Federal deputy, LXV Legislature",Morena,G0010,2021,2024,n,,2026-10-26,https://en.wikipedia.org/wiki/LXVI_Legislature_of_the_Mexican_Congress
+O00015,A0015,B0003,"Federal deputy, LXV Legislature",Morena,G0010,2021,2024,n,,2026-10-26,https://en.wikipedia.org/wiki/LXVI_Legislature_of_the_Mexican_Congress
+O00016,A0016,B0004,Senator,Movimiento Ciudadano,G0001,2024,,y,amalia-garcía-medina,2026-10-26,https://en.wikipedia.org/wiki/LXVI_Legislature_of_the_Mexican_Congress
