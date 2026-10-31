@@ -59,11 +59,11 @@ Written 2026-10-31 (run R001, seed pass). Lines marked `[verify]` come from a se
 
 ## 10. Plan for the next runs
 Ordered by expected yield per turn:
-1. **Council of States and earlier National Council votes** (2010 to 2019): query `Business` for earlier SP and Green motions and initiatives that asked for a wealth tax or a levy on large fortunes, and take the Ja votes (same method as H0001 to H0003). Expect a few dozen additional names, many new.
+1. ~~Earlier federal votes~~ searched: by title, the Federal Assembly's database holds no wealth-tax motion, initiative or Standesinitiative from 2010 to 2019 (the 2011 and 2013 items are lump-sum taxation, outside the definition). The first federal motions are the three of May 2020, now all harvested.
 2. ~~Seats tab~~ done in this run with the `ch` adapter in `seats.py`; rerun it after each addition.
-3. **Cantonal parliaments with initiatives:** Geneva IN 185 (committee, parties, the Grand Conseil debate and vote), Neuchâtel POP initiative, St. Gallen initiative, Aargau 2016 "Millionärssteuer", Basel-Stadt, Bern, Vaud, Ticino. Read each cantonal source first (see leads).
+3. **Cantonal parliaments:** web search found no initiative to raise the wealth tax in Basel-Stadt, Bern, Vaud or Ticino (the left there fought tax cuts, which is not recorded). Remaining: the Geneva Grand Conseil commission report and vote on IN 185, the Aargau 2018 initiative sponsors, and the cantonal parliament databases themselves (leads D0012, D0014, D0016).
 4. **Organisations:** SGB/USS, Unia, Travail.Suisse's own publications, Oxfam Switzerland, Alliance Sud, Public Eye, Greens Switzerland (the party as an actor), Juso.
 5. **Economists and academics:** Isabel Martínez, Reto Föllmi (has a wealth-tax alternative in the SRF piece, not support), the authors of the 2025/26 "Wealth and Inheritance" study, signatories of any open letter.
-6. **Wealthy and business supporters:** Swiss signatories of Millionaires for Humanity, Patriotic Millionaires and similar letters; follow-ups to Gantner's interview.
+6. **Wealthy and business supporters:** press coverage names Jan Colruyt as the only Swiss signatory of the 2026 Davos appeal; the signatory lists on the campaigns' sites need a browser (lead D0015).
 7. **Polls:** a poll on a wealth tax (not an inheritance tax) for `meta.json`; none was checked.
 - Decisions that changed the default: districts left out of the register; municipal sweep skipped (see section 5).
