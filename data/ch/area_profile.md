@@ -69,3 +69,6 @@ Ordered by expected yield per turn:
 6. **Wealthy and business supporters:** press coverage names Jan Colruyt as the only Swiss signatory of the 2026 Davos appeal; the signatory lists on the campaigns' sites need a browser (lead D0015).
 7. **Polls:** a poll on a wealth tax (not an inheritance tax) for `meta.json`; none was checked.
 - Decisions that changed the default: districts left out of the register; municipal sweep skipped (see section 5).
+
+## Audit — R002
+- All 388 quotes were found on their pages. The 257 roll-call rows were checked against the Swiss Parliament's open data: each member recorded voted Ja, and the four Ja totals (65, 66, 66 and 60 recorded here) match the votes on motions 20.3174, 20.3203, 20.3335 and 23.3361, which all ask for a tax on wealth. The six Swiss signatories of the 2024 and 2026 Davos letters were removed: the letters ask to "tax the super rich" and name no tax on wealth. 177 supporters remain.
