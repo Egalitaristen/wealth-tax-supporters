@@ -67,3 +67,7 @@ The native `czechia()` adapter in `skill/scripts/seats.py` queries the official 
   - Former CNB Vice-Governor and current fiscal council chair. Publicly critiques wealth taxes and selective taxes on the wealthy as fiscal illusions that distract from structural budget discipline. Classified as `opposes`.
 - **Vít Samek (former Vice-President of ČMKOS):**
   - Prominently advocated taxing accumulated wealth and capital on television panels, but passed away in January 2025. Classified as `deceased` under Ground Rule 2 (living figures only).
+- **Jan Švejnar (CERGE-EI / Columbia University):**
+  - Advocates shifting tax burden from labor to immovable property taxes (*daň z nemovitostí*) and consumption, but does not propose an annual net wealth tax. Classified as `out_of_definition`.
+- **Ondřej Malý (former Deputy Minister of Industry and Trade):**
+  - Published public op-ed critique in *E15* rejecting Green Party super-wealth tax proposals due to capital flight risks. Classified as `opposes`.
