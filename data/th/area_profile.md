@@ -101,3 +101,6 @@ First written 2026-10-30 (run R001). Updated 2026-10-30 (run R002) with deep res
 1. **Parliamentary Progress Tracking:** Monitor parliamentary status of the Draft Wealth Tax Act should the House of Representatives resume consideration or if People's Party reintroduces an updated version in future legislative sessions.
 2. **Civil Service Policy Papers:** Track Fiscal Policy Office (FPO) publications regarding wealth base taxation studies, particularly in relation to OECD Pillar 2 and international automated financial account information exchange (CRS/MCAA).
 3. **Senate Committee Monitoring:** Track hearings in the Senate Standing Committee on Finance and Economic Affairs for any formal evaluations of progressive asset or wealth taxation.
+
+## Audit — R006
+- All 14 quotes were found on their pages. The seat chart was the 2023 House; Thailand voted again on 8 February 2026 (Bhumjaithai 192, People's Party 120, Pheu Thai 74, Klatham 58, Democrat 21, others 35), so the chart now shows the 27th House. Sirikanya Tansakun was re-elected on the People's Party list. Two rows were removed: Burin Adulwattana (his quote lists wealth tax among possible revenue sources in a forecast) and Thairath Plus (an explainer on the We Fair proposal, not an editorial position). Eleven supporters remain.
