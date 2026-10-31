@@ -1,6 +1,6 @@
 # Thailand: wealth tax debate, sources and layers
 
-Notes from seed pass (R001, October 2026), deep research (R002), comparative party/academic research (R003), and consolidation pass (R004). Check that URLs still resolve before relying on them.
+Notes from seed pass (R001, October 2026), deep research (R002), comparative party/academic research (R003), consolidation pass (R004), and supporters expansion pass (R005). Check that URLs still resolve before relying on them.
 
 ## Levels and the geography register
 

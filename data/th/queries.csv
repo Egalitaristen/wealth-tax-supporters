@@ -27,3 +27,16 @@ Q0025,R004,2026-10-30,th,"""ไทยสร้างไทย"" ""สุดา�
 Q0026,R004,2026-10-30,th,"""วีระยุทธ กาญจน์ชูฉัตร"" ""ภาษีความมั่งคั่ง""",web,6,1,Investigated GRIPS economist Dr. Veerayooth Kanchoochat; verified specific advocacy focused on windfall tax on oil margins (X0012)
 Q0027,R004,2026-10-30,th,"""วรภพ วิริยะโรจน์"" ""ภาษีที่ดินรวมแปลง"" OR ""ภาษีความมั่งคั่ง""",web,6,1,Investigated MP Woraphop Viriyaroj; verified legislative sponsorship focused on Draft Aggregated Land Tax Act Survey ID 310 (X0013)
 Q0028,R004,2026-10-30,th,"""ศาสตรา สุดสวาสดิ์"" ""ภาษีความมั่งคั่ง"" OR ""ภาษีทรัพย์สิน""",web,5,0,Investigated NIDA economist Dr. Sasatra Sudsawasd; confirmed focus on tax expenditure and financial transaction taxes
+Q0029,R005,2026-10-31,th,"""อนุสรณ์ ธรรมใจ"" ""ภาษีความมั่งคั่ง""",web,4,0,Investigated economist Dr. Anusorn Tamajai; confirmed focus on capital gains and negative income tax
+Q0030,R005,2026-10-31,th,"""พริษฐ์ วัชรสินธุ"" ""ภาษีความมั่งคั่ง""",web,5,0,Investigated People's Party Deputy Leader Parit Wacharasindhu campaign communications
+Q0031,R005,2026-10-31,th,"site:peoplesparty.or.th ""ภาษีความมั่งคั่ง""",web,4,0,Reviewed People's Party official policy portals and tax reform platform
+Q0032,R005,2026-10-31,th,"(""Oxfam"" OR ""อ็อกแฟม"") ""ภาษีความมั่งคั่ง""",web,6,0,Investigated Oxfam Thailand and international Davos reports on wealth taxation
+Q0033,R005,2026-10-31,th,"""สมชัย จิตสุชน"" ""ภาษีความมั่งคั่ง""",web,6,0,Investigated TDRI researcher Dr. Somchai Jitsuchon; identified focus on VAT increase and property tax
+Q0034,R005,2026-10-31,th,"""ธนสักก์ เจนมานะ"" ""ภาษีความมั่งคั่ง""",web,4,0,Investigated World Inequality Lab researcher Dr. Thanasak Jenmana academic commentary
+Q0035,R005,2026-10-31,th,"""ธนาคารโลก"" (""ภาษีความมั่งคั่ง"" OR ""ความมั่งคั่ง"") site:thematter.co OR site:bangkokbiznews.com",web,4,0,Investigated World Bank Thailand statements on taxing high net worth individuals
+Q0036,R005,2026-10-31,en,"""Kim Edwards"" ""World Bank"" ""Thailand"" ""tax""",web,5,0,"Identified World Bank senior economist Kim Edwards recommendations (PIT, capital gains, property)"
+Q0037,R005,2026-10-31,th,"""พรรณิการ์"" ""ภาษีความมั่งคั่ง"" site:thairath.co.th OR site:bangkokbiznews.com",web,4,0,Investigated Progressive Movement executive Pannika Wanich campaign addresses
+Q0038,R005,2026-10-31,th,"""ธนาธร-ช่อ"" ลุยอีสานช่วยก้าวไกลหาเสียง site:bangkokbiznews.com",web,2,1,Discovered Thanathorn Juangroongruangkit verbatim quote advocating 300M THB net wealth tax
+Q0039,R005,2026-10-31,th,"site:thaipublica.org ""ภาษีความมั่งคั่ง""",web,6,0,Investigated ThaiPublica articles including 2012 fiscal research by Dr. Pan Ananapibut
+Q0040,R005,2026-10-31,th,"""พรรคสามัญชน"" ""ภาษีความมั่งคั่ง""",web,5,0,Investigated Commoners Party platform and We-Fair treaty interactions
+Q0041,R005,2026-10-31,th,"""ภาษีความมั่งคั่ง"" (""เครือข่ายแรงงาน"" OR ""สมัชชาคนจน"" OR ""สลัม 4 ภาค"")",web,5,0,"Investigated grassroots movements (Assembly of the Poor, Slum 4 Regions) tax demands"
