@@ -1,0 +1,19 @@
+seat_id,body_id,party,seats,colour,order
+S0001,B0001,Communist Party,8,C22936,1
+S0002,B0001,Humanist Action,1,B33666,2
+S0003,B0001,Broad Front,16,8F4E99,3
+S0004,B0001,Social Green Regionalist Federation,1,47875A,4
+S0005,B0001,Socialist Party,10,D84954,5
+S0006,B0001,Party for Democracy,4,E9BD36,6
+S0007,B0001,Radical Party,1,C77442,7
+S0008,B0001,Liberal Party,2,56A4D0,8
+S0009,B0001,Christian Democratic Party,7,E78745,9
+S0010,B0001,Political Evolution,2,58A4AA,10
+S0011,B0001,Democrats Chile,1,7B70AD,11
+S0012,B0001,People’s Party,14,B47D46,12
+S0013,B0001,Independent,27,A0A0A0,13
+S0014,B0001,National Renewal,11,3271AF,14
+S0015,B0001,Independent Democratic Union,13,24507B,15
+S0016,B0001,Christian Party of Chile,2,8D7161,16
+S0017,B0001,Republican Party,27,443A66,17
+S0018,B0001,National Libertarian Party,8,735AB5,18

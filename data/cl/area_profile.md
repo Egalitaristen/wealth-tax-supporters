@@ -1,0 +1,40 @@
+# Chile — research profile (R001)
+
+Scope: national seed, plus regional and local samples planned; this first pass is incomplete. Spanish search terms include “impuesto al patrimonio”, “súper ricos”, “grandes patrimonios” and “impuesto X la dignidad”.
+
+- Bill 13555-07, introduced on 1 June 2020, proposed a one-off tax on large fortunes. The official Chamber record names ten sponsors, now included; the roll-call lists remain to be processed: https://www.camara.cl/legislacion/ProyectosDeLey/tramitacion.aspx?prmID=14094.
+- In 2020, CUT, ANEF and other organisations campaigned for the bill as “Impuesto X la Dignidad”: https://cut.cl/web/impuesto-x-la-dignidad-gremios-y-sindicatos-piden-legislar-el-proyecto-de-impuesto-a-los-super-ricos/. An August 2020 report documents the campaign at that time: https://www.laizquierdadiario.cl/Impuesto-a-los-super-ricos-una-medida-que-debe-ser-unida-a-salidas-de-fondo. The CUT page does not state a date, so its campaign date is recorded as 2020, not a specific day.
+- Ramón López and Gino Sturla proposed a Chilean wealth-tax system in 2020: https://www.cepal.org/es/publicaciones/46834-hiperfortunas-superricos-que-tiene-sentido-un-impuesto-al-patrimonio. Vicente Silva and Rafael Carranza endorsed a minimum tax in 2026: https://www.lemondediplomatique.cl/2026/07/los-super-ricos-los-impuestos-y-el-futuro-de-la-democracia.html.
+
+## Geography and map
+
+The register contains 16 regions and 346 comunas from the CUT table based on SUBDERE/Geoportal: https://github.com/bastianolea/cut_comunas. BCN lists communes by region: https://www.bcn.cl/siit/mapoteca/comunas. The map uses 2020 BCN boundaries published by OCHA and geoBoundaries under CC BY 3.0 IGO: https://data.humdata.org/dataset/cod-ab-chl and https://www.geoboundaries.org/api/current/gbOpen/CHL/ADM3/. Its 345 shapes omit Antártica. The source labels two shapes Tocopilla; the northern inland shape is matched to Pozo Almonte (01401) by position and the source's own P-code table. Alternate spellings are matched to CUT names. OCHA documents unresolved topology defects. The boundary shapes are simplified and projected for display, with region outlines from the same source.
+
+## Remaining work
+
+Process the official parliamentary vote lists, investigate parties and other civic organisations, sample regional and local sources, check site suggestions, and determine legislators' constituencies and current seats. The Chamber seat chart was added in R003; the Senate remains unchecked. Automatic quote checks verified 8 rows; the Chamber and CEPAL pages could not be read by the checker, but their text was opened in the web reader. Exa was inaccessible.
+
+## R002: parliamentary and party research
+
+The 18 May 2021 vote on the wealth provision failed 79–47; the provision also contained a corporate-tax increase. The roll-call is queued rather than treated as conclusive individual support for the wealth component: https://www.bcn.cl/obtienearchivo?id=recursoslegales/10221.3/64648/1/C20210518_32.pdf and https://www.camara.cl/verDoc.aspx?formato=pdf&prmID=61118&prmTipo=SIAL. Historical regional constituencies for the 2020 bill sponsors are now recorded; current offices and seat totals are not verified. Gabriel Boric’s 2021 programme supports a net wealth tax: https://cuentapublica.decidechile.cl/document/programa_Boric_2022. The PPD site published an expert paper supportive of a one-off tax, but whether it was party policy needs checking: https://web.ppd.cl/ppd-propone-crear-comite-de-expertos-para-una-reforma-tributaria-y-nuevo-pacto-fiscal-que-permita-hacer-frente-a-la-crisis/.
+
+A local source sample found former Recoleta mayor Daniel Jadue’s 2021 presidential proposal for a permanent wealth tax: https://radio.uchile.cl/2021/06/16/con-reforma-tributaria-sin-afp-y-jornada-de-trabajo-de-40-horas-daniel-jadue-presenta-su-programa-de-gobierno/. This is a national proposal by a local officeholder, not a municipal resolution. Other local councils have not been systematically searched.
+
+## R003: 2026 minimum wealth-tax amendment
+
+Twelve deputies submitted an amendment for a 2% minimum tax on net fortunes over US$100 million, crediting personal taxes already paid: https://g5noticias.cl/2026/05/11/diputados-pc-ingresan-indicacion-a-reforma-tributaria-para-incorporar-impuesto-a-los-super-ricos/. The signatories are recorded individually. On 20 May the Chamber rejected an appeal against the amendment’s inadmissibility, a procedural vote rather than a vote enacting the tax: https://votos.cochid.cl/votacion/703849; official voting data: https://opendata.camara.cl/camaradiputados/WServices/WSLegislativo.asmx/retornarVotacionDetalle?prmVotacionId=88953. Current members were checked against https://opendata.camara.cl/camaradiputados/WServices/WSDiputado.asmx/retornarDiputadosPeriodoActual on 30 October 2026; the Chamber chart aggregates 155 members into 18 party groups using their membership as of that date. The API reports a future FechaInicio on its current-period records, so dates were derived from individual party membership periods; the current member list and its count were checked separately. The Senate remains unchecked.
+
+## R004: 2020 resolution and 2022 committee amendment
+
+Resolution 1088 requested a 2.5% tax on financial and nonfinancial net wealth above US$10 million. Six living sponsors are newly recorded; three were already in the dataset, and Guillermo Teillier died in 2023: https://www.bcn.cl/laborparlamentaria/documento?id=690155. The date is the session in which the resolution appears.
+
+The 6 January 2022 Chamber record reports a committee-approved annual wealth-tax amendment with rates of 1.5% above US$5 million and 2.5% above US$22 million and names its six sponsors by surname: https://www.bcn.cl/laborparlamentaria/documento?id=696533. The committee report supplies full names: https://obtienearchivo.bcn.cl/obtienearchivo?id=recursoslegales/10221.3/71420/1/documento_4179_1694188311402.pdf. Four sponsors are newly added and two were already included. The proposed tax was annual; the six-month payment provision describes its initial payment timing. Avoid treating the 98-vote figure for article 3 as an individual vote on the wealth-tax amendment to article 2. Pablo Lorenzini died in 2025. Matías Walker is recorded as a current senator, but Senate party totals remain unchecked.
+
+## R005: 2025 candidates and municipal search
+
+Gonzalo Winter’s primary programme proposed a wealth tax on high-wealth Chilean residents covering assets at home and abroad: https://estapasando.cl/wp-content/uploads/2025/05/1-GONZALO-WINTER-ETCHEBERRY.pdf. The current Chamber identifies him as a district 10 deputy. Jeannette Jara proposed a wealth tax to finance health reform in a June primary-campaign interview: https://www.cnnchile.com/programas-completos/jeannette-jara-propone-sueldo-vital-de-750-mil-y-dice-que-espera-poder-sacar-a-las-afp-del-sistema/. Her later August general-election platform omitted the super-rich tax; this historical statement does not establish her current position: https://www.df.cl/economia-y-politica/politica/jara-recibe-propuestas-de-la-cpc-y-senala-que-hay-convergencia-con-los.
+
+Searches found local officials debating property contributions; these are not sufficient evidence of support for a general wealth tax. A Santiago council minute indexed with a possible super-rich tax discussion is queued for attribution after full context can be retrieved.
+
+## Audit — R006
+- 30 of 46 quotes were found on their pages by the checker, four are bare surnames from the Chamber record, and 12 are on camara.cl and cepal.org, which answer scripts with errors, so they were not re-read. No row was removed: the sponsors and signatories come from official records, the one-off levy (bill 13555-07) and the net-wealth tax are included designs, and every Chamber position was checked against the Chamber API on 30 October 2026. The 155-seat chart adds up. Boric is a former president (term ended March 2026).

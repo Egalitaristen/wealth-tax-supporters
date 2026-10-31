@@ -179,8 +179,9 @@ async function searchData() {
     if (!byQid.has(p.qid)) byQid.set(p.qid, []);
     byQid.get(p.qid).push(p);
   }
-  for (const grp of byQid.values()) {
-    grp.sort(best);
+  for (const [qid, grp] of byQid) {
+    // Show the person under their home country when it is known, otherwise under the strongest entry.
+    grp.sort((x, y) => ((y.slug === (W.home || {})[qid]) - (x.slug === (W.home || {})[qid])) || best(x, y));
     one.push(grp.length === 1 ? grp[0] : Object.assign({}, grp[0], {also: grp.slice(1).map(p => p.slug), key: grp.map(p => p.key).join(' '), n: grp.reduce((s, p) => s + p.n, 0), all: grp}));
   }
   SEARCH.uniq = one;

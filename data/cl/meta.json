@@ -1,0 +1,8 @@
+{
+  "name": "Chile",
+  "iso2": "CL",
+  "lead": "",
+  "status": "in progress",
+  "boundaries": "boundaries.json",
+  "notes": "Seed research in progress; local and regional sources have not been systematically searched. Geography covers 16 regions and 346 comunas. The BCN/OCHA 2020 map has 345 shapes; Antártica has no shape. Pozo Almonte was mislabeled Tocopilla in the source and matched by location and CUT. Boundaries are simplified; source notes topology defects."
+}

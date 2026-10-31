@@ -1,0 +1,36 @@
+position_id,actor_id,body_id,role,party,geo_unit_id,start,end,current,member_ref,checked,source_url
+O00001,A0003,B0001,Deputy,Christian Democratic Party,G0011,2018-03-11,,,,,https://www.t13.cl/noticia/politica/elecciones-parlamentarias-estos-son-los-diputados-electos
+O00002,A0004,B0001,Deputy,Communist Party,G0014,2018-03-11,,,,,https://www.t13.cl/noticia/politica/elecciones-parlamentarias-estos-son-los-diputados-electos
+O00003,A0005,B0001,Deputy,Democratic Revolution,G0014,2018-03-11,,,,,https://www.t13.cl/noticia/politica/elecciones-parlamentarias-estos-son-los-diputados-electos
+O00004,A0006,B0001,Deputy,Communist Party,G0005,2018-03-11,,,,,https://www.t13.cl/noticia/politica/elecciones-parlamentarias-estos-son-los-diputados-electos
+O00005,A0007,B0001,Deputy,Socialist Party,G0016,2018-03-11,,,,,https://www.t13.cl/noticia/politica/elecciones-parlamentarias-estos-son-los-diputados-electos
+O00006,A0008,B0001,Deputy,Radical Party,G0008,2018-03-11,,,,,https://www.t13.cl/noticia/politica/elecciones-parlamentarias-estos-son-los-diputados-electos
+O00007,A0009,B0001,Deputy,Social Green Regionalist Federation,G0007,2018-03-11,,,,,https://www.t13.cl/noticia/politica/elecciones-parlamentarias-estos-son-los-diputados-electos
+O00008,A0010,B0001,Deputy,Party for Democracy,G0007,2018-03-11,,y,1077,2026-10-30,https://opendata.camara.cl/camaradiputados/WServices/WSDiputado.asmx/retornarDiputadosPeriodoActual
+O00009,A0011,B0001,Deputy,Communist Party,G0014,2018-03-11,,,,,https://www.t13.cl/noticia/politica/elecciones-parlamentarias-estos-son-los-diputados-electos
+O00010,A0012,B0001,Deputy,Social Green Regionalist Federation,G0003,2018-03-11,,,,,https://www.t13.cl/noticia/politica/elecciones-parlamentarias-estos-son-los-diputados-electos
+O00011,A0021,B0001,Deputy,Social Convergence,G0013,2018-03-11,,,,,https://www.t13.cl/noticia/politica/elecciones-parlamentarias-estos-son-los-diputados-electos
+O00012,A0022,B0002,Mayor,Communist Party,G0301,,2024,n,,2026-10-30,https://www.adnradio.cl/2026/07/09/modifican-parte-de-las-cautelares-de-daniel-jadue-conservan-la-prohibicion-de-acercarse-al-municipio-y-arresto-domiciliario-nocturno/
+O00013,A0023,B0001,Deputy,Communist Party,G0006,2026-03-11,,y,1122,2026-10-30,https://opendata.camara.cl/camaradiputados/WServices/WSDiputado.asmx/retornarDiputadosPeriodoActual
+O00014,A0024,B0001,Deputy,Communist Party,G0014,2026-03-11,,y,1173,2026-10-30,https://opendata.camara.cl/camaradiputados/WServices/WSDiputado.asmx/retornarDiputadosPeriodoActual
+O00015,A0025,B0001,Deputy,Communist Party,G0014,2026-03-11,,y,1213,2026-10-30,https://opendata.camara.cl/camaradiputados/WServices/WSDiputado.asmx/retornarDiputadosPeriodoActual
+O00016,A0026,B0001,Deputy,Communist Party,G0014,2026-03-11,,y,1159,2026-10-30,https://opendata.camara.cl/camaradiputados/WServices/WSDiputado.asmx/retornarDiputadosPeriodoActual
+O00017,A0027,B0001,Deputy,Communist Party,G0005,2026-03-11,,y,1117,2026-10-30,https://opendata.camara.cl/camaradiputados/WServices/WSDiputado.asmx/retornarDiputadosPeriodoActual
+O00018,A0028,B0001,Deputy,Independent,G0014,2026-03-11,,y,1074,2026-10-30,https://opendata.camara.cl/camaradiputados/WServices/WSDiputado.asmx/retornarDiputadosPeriodoActual
+O00019,A0029,B0001,Deputy,Communist Party,G0006,2026-03-11,,y,1211,2026-10-30,https://opendata.camara.cl/camaradiputados/WServices/WSDiputado.asmx/retornarDiputadosPeriodoActual
+O00020,A0030,B0001,Deputy,Communist Party,G0014,2026-03-11,,y,1012,2026-10-30,https://opendata.camara.cl/camaradiputados/WServices/WSDiputado.asmx/retornarDiputadosPeriodoActual
+O00021,A0031,B0001,Deputy,Independent,G0005,2026-03-11,,y,1250,2026-10-30,https://opendata.camara.cl/camaradiputados/WServices/WSDiputado.asmx/retornarDiputadosPeriodoActual
+O00022,A0032,B0001,Deputy,Humanist Action,G0014,2026-03-11,,y,1128,2026-10-30,https://opendata.camara.cl/camaradiputados/WServices/WSDiputado.asmx/retornarDiputadosPeriodoActual
+O00023,A0033,B0001,Deputy,Communist Party,G0014,2026-03-11,,y,1188,2026-10-30,https://opendata.camara.cl/camaradiputados/WServices/WSDiputado.asmx/retornarDiputadosPeriodoActual
+O00024,A0034,B0001,Deputy,Independent,G0014,2026-03-11,,y,1210,2026-10-30,https://opendata.camara.cl/camaradiputados/WServices/WSDiputado.asmx/retornarDiputadosPeriodoActual
+O00025,A0035,B0001,Deputy,,G0009,,,n,,2026-10-30,https://www.t13.cl/noticia/politica/elecciones-parlamentarias-estos-son-los-diputados-electos
+O00026,A0036,B0001,Deputy,Social Green Regionalist Federation,G0004,2026-03-11,,y,872,2026-10-30,https://opendata.camara.cl/camaradiputados/WServices/WSDiputado.asmx/retornarDiputadosPeriodoActual
+O00027,A0037,B0001,Deputy,Party for Democracy,G0010,2026-03-11,,y,1061,2026-10-30,https://opendata.camara.cl/camaradiputados/WServices/WSDiputado.asmx/retornarDiputadosPeriodoActual
+O00028,A0038,B0001,Deputy,,G0003,,,n,,2026-10-30,https://www.t13.cl/noticia/politica/elecciones-parlamentarias-estos-son-los-diputados-electos
+O00029,A0039,B0003,Senator,,G0005,2022-03-11,,y,,2026-10-30,https://www.senado.cl/senadoras-y-senadores/listado-de-senadoras-y-senadores/matias-walker-prieto-sen
+O00030,A0040,B0001,Deputy,Broad Front,G0014,2026-03-11,,y,1087,2026-10-30,https://opendata.camara.cl/camaradiputados/WServices/WSDiputado.asmx/retornarDiputadosPeriodoActual
+O00031,A0041,B0001,Deputy,,G0006,,,n,,2026-10-30,https://www.t13.cl/noticia/politica/elecciones-parlamentarias-estos-son-los-diputados-electos
+O00032,A0042,B0001,Deputy,,G0007,,,n,,2026-10-30,https://www.t13.cl/noticia/politica/elecciones-parlamentarias-estos-son-los-diputados-electos
+O00033,A0043,B0001,Deputy,,G0006,,,n,,2026-10-30,https://www.t13.cl/noticia/politica/elecciones-parlamentarias-estos-son-los-diputados-electos
+O00034,A0044,B0001,Deputy,,G0014,,,n,,2026-10-30,https://www.t13.cl/noticia/politica/elecciones-parlamentarias-estos-son-los-diputados-electos
+O00035,A0045,B0001,Deputy,Broad Front,G0014,2026-03-11,,y,1086,2026-10-30,https://www.camara.cl/diputados/detalle/audiencia.aspx?prmId=1086
