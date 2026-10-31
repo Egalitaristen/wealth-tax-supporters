@@ -1,19 +1,19 @@
 # Area profile — Saudi Arabia (المملكة العربية السعودية)
 
-Save as `data/sa/area_profile.md`. Seed pass R001, Deepening pass R002, and Saturation pass R003 completed 2026-11-01.
+Save as `data/sa/area_profile.md`. Seed pass R001, Deepening pass R002, Saturation pass R003, and Exhaustive Leads pass R004 completed 2026-11-01.
 
 ## 1. Scope
 - Area: Saudi Arabia (Kingdom of Saudi Arabia); type: country (absolute monarchy, G20 member).
-- Depth: Seed, Deepening, and Saturation (prominent national supporters, full geography hierarchy of 13 regions and 147 governorates, exclusions landscape across institutions, academic economics, banking, labor, and civil society, and opinion polling).
+- Depth: Seed, Deepening, Saturation, and Exhaustive Leads (prominent national supporters, full geography hierarchy of 13 regions and 147 governorates, exclusions landscape across institutions, academic economics, banking, labor, civil society, international coalitions, and opinion polling).
 - Levels of government in scope: national (King, Council of Ministers, Consultative Assembly / Majlis al-Shura), regional (13 administrative regions / Mintaqah), and local (147 governorates / Muhafazat).
 - Languages to search in: Arabic (`ar`), English (`en`).
-- Date of runs: 2026-10-31 to 2026-11-01 (R001, R002, R003).
+- Date of runs: 2026-10-31 to 2026-11-01 (R001, R002, R003, R004).
 
 ## 2. Wealth tax history and live proposals (2010 onwards)
 - **No statutory net wealth tax:** Saudi Arabia levies no secular net wealth tax on individuals, nor personal income tax, inheritance tax, or estate duty.
 - **The Zakat framework:** Saudi Arabia operates a mandatory religious wealth tax under Islamic jurisprudence—Zakat (زكاة)—administered by ZATCA (Zakat, Tax and Customs Authority / هيئة الزكاة والضريبة والجمارك) at 2.5% annually on the net working capital and commercial wealth base of Saudi and GCC companies and individual sole proprietors. In religious doctrine and national tax law, Zakat is a Sharia obligation dedicated to statutory social welfare categories (*masarif al-zakat*), distinct from general secular taxation.
 - **Vision 2030 fiscal reforms:** Following the 2014–2015 oil price downturn, fiscal policy focused on non-oil revenue diversification. Saudi Arabia introduced a 5% Value-Added Tax (VAT) in 2018 (raised to 15% in July 2020), an annual 2.5% White Land Tax (رسوم الأراضي البيضاء) on undeveloped urban plots to stimulate real estate development (excluded under Section 2 as a property/land levy), and a 5% Real Estate Transaction Tax (RETT).
-- **Executive stance:** In his April 2021 televised interview marking the fifth anniversary of Vision 2030, Crown Prince Mohammed bin Salman explicitly ruled out the introduction of personal income tax: *"There will be no income tax in Saudi Arabia at all"* (*لن يكون هناك ضريبة على الدخل في السعودية إطلاقاً*).
+- **Executive stance:** In his April 2021 televised interview marking the fifth anniversary of Vision 2030, Crown Prince Mohammed bin Salman explicitly ruled out the introduction of personal income tax: *"There will be no income tax in Saudi Arabia at all"* (*لن يكون هناك ضريبة على الدخل في السعودية إطلاقاً*). Finance Minister Mohammed Al-Jadaan has consistently reaffirmed that the Kingdom has no plans to levy individual income or wealth taxes.
 - **Public opinion:** In June 2024, an international survey conducted by Ipsos for the Earth4All initiative and Global Commons Alliance across G20 nations found that 54% of respondents in Saudi Arabia support introducing a wealth tax on wealthy individuals to fund transitions to sustainable economic models and social equity.
 - **International discussions:** As a member of the G20, Saudi Arabia participated in the consensus adoption of the G20 Ministerial Declaration on International Tax Cooperation in Rio de Janeiro (July 2024), which committed to cooperative engagement to ensure that ultra-high-net-worth individuals are effectively taxed, though without establishing a binding net wealth tax.
 
@@ -31,6 +31,7 @@ Save as `data/sa/area_profile.md`. Seed pass R001, Deepening pass R002, and Satu
 - Civil society is regulated under the Law on Associations and Foundations (Ministry of Human Resources and Social Development), which prohibits political advocacy or campaigning. Independent tax justice coalitions do not operate domestically.
 - During the 2020 Saudi G20 Presidency, the Civil 20 (C20) engagement group was boycotted by major international civil society coalitions (Amnesty International, Transparency International) over civic space concerns.
 - The National Committee of Workers Committees (NCWC) represents private-sector employees in social dialogue and the G20 L20 track, focusing on minimum wages and cost-of-living impacts of VAT, with no wealth tax proposals.
+- International high-net-worth coalitions (Patriotic Millionaires, Proud to Pay More, Millionaires for Humanity) contain zero signatories from Saudi Arabia.
 
 ## 5. Government below national level
 - **Structure:** 13 Administrative Regions (Mintaqah / مناطق المملكة العربية السعودية), governed by regional governors (Emirs), subdivided into 147 Governorates (Muhafazat / محافظات).
@@ -70,5 +71,5 @@ Save as `data/sa/area_profile.md`. Seed pass R001, Deepening pass R002, and Satu
 - Arab News business and economic columnists network.
 
 ## 10. Plan for the next runs
-- **Saturation status:** Saturated across all layers (legislative, executive, academic economics, banking, labor, civil society, and G20 tracks). Domestic economic policy and public commentary center on Vision 2030 diversification, VAT, white land fees, and religious Zakat. Secular net wealth tax advocacy remains uniquely represented by Khalid Abdulla-Janahi's *Arab News* / KAEC proposal.
+- **Saturation status:** Saturated across all layers (legislative, executive, academic economics, banking, labor, civil society, international coalitions, and G20 tracks). Exhaustive lead sweeps across academic literature, press archives (*Al-Jazirah*, *Okaz*, *Al-Riyadh*, *Arab News*, *Saudi Gazette*), KAEC panel transcripts, and international HNW coalitions confirm that Khalid Abdulla-Janahi remains the single public figure on record to have proposed an annual net wealth tax for Saudi Arabia/GCC. Domestic economic policy and public commentary center on Vision 2030 diversification, VAT, white land fees, and religious Zakat.
 - **Future updates:** Periodic monitoring of Shura Council annual reports, Vision 2030 fiscal updates, and G20 tax working group deliverables.

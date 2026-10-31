@@ -1,6 +1,6 @@
 # Saudi Arabia (data/sa)
 
-Worked notes from the Saudi Arabia research passes (`R001` seed pass, `R002` deepening pass, `R003` saturation pass, 2026-10-31 to 2026-11-01; 1 identified supporter, 16 documented exclusions, 1 opinion poll, 21 logged bilingual queries, 147 governorates loaded).
+Worked notes from the Saudi Arabia research passes (`R001` seed pass, `R002` deepening pass, `R003` saturation pass, `R004` exhaustive leads pass, 2026-10-31 to 2026-11-01; 1 identified supporter, 19 documented exclusions, 1 opinion poll, 27 logged bilingual queries, 6 tracked leads, 147 governorates loaded).
 
 ## Levels and the geography register
 
@@ -51,3 +51,6 @@ Worked notes from the Saudi Arabia research passes (`R001` seed pass, `R002` dee
 14. **Essam Al-Zamil:** Economic analyst who criticized the expansion of VAT and expat levies on middle-class purchasing power, while supporting White Land fees to fight real estate speculation; no wealth tax advocacy.
 15. **Dr. Salem Baajajah:** Professor of accounting and co-author of standard university textbook on Saudi Zakat and tax collection systems, focusing on technical ZATCA regulations, withholding taxes, and VAT compliance without proposing a net wealth tax.
 16. **Talat Hafez:** Banking expert and former secretary general of the Media and Banking Awareness Committee for Saudi banks who clarified that VAT applies strictly to explicit service fees and not to loans, salaries, or cash withdrawals.
+17. **Frank Kane:** Senior business columnist at *Arab News* who moderated the 2017 KAEC Top CEO panel where Janahi proposed a 1% wealth tax and reported on it, but did not personally sponsor or endorse a wealth tax proposal.
+18. **Khalid Abu-Ismail & Vladimir Hlasny:** Economists at UN ESCWA in Beirut who authored the 2020 regional technical paper *Wealth Inequality and Closing the Poverty Gap in Arab Countries: The Case for a Solidarity Wealth Tax*, modeling regional redistribution across 14 Arab countries without domestic Saudi policy advocacy (cataloged in global resources).
+19. **Mohammed Al-Jadaan:** Saudi Minister of Finance who repeatedly reaffirmed at G20 and WEF Davos that Saudi Arabia has no plans to introduce personal income or wealth taxation, relying on VAT, corporate taxes on foreign entities, and Zakat.

@@ -20,3 +20,9 @@ Q0018,R003,2026-11-01,ar,اللجنة الوطنية للجان العمالية
 Q0019,R003,2026-11-01,ar,عصام الزامل ضريبة الضرائب الثروة,web,5,0,Investigated economic analyst Essam Al-Zamil
 Q0020,R003,2026-11-01,ar,سالم باعجاجة ضريبة الزكاة,web,5,0,Investigated accounting professor Dr. Salem Baajajah
 Q0021,R003,2026-11-01,ar,طلعت حافظ ضريبة الضرائب الزكاة,web,5,0,Investigated banking spokesperson Talat Hafez
+Q0022,R004,2026-11-01,en,"""Frank Kane"" ""wealth tax"" ""Janahi"" OR ""Top CEO""",web,5,1,Investigated Frank Kane 2017 KAEC Top CEO panel role
+Q0023,R004,2026-11-01,en,Oxfam ""wealth tax"" ""Saudi"" OR ""Saudi Arabia"" OR ""Gulf"",web,6,0,Investigated Oxfam MENA climate and wealth inequality advocacy
+Q0024,R004,2026-11-01,en,"""Proud to Pay"" Survation ""Saudi Arabia"" OR ""G20"" ""millionaires""",web,6,1,Investigated Patriotic Millionaires and Proud to Pay More G20 signatories
+Q0025,R004,2026-11-01,ar,"""ضريبة الثروة"" site:ksu.edu.sa OR site:kau.edu.sa OR site:kfupm.edu.sa",web,6,0,Scanned Saudi university academic literature on wealth taxation
+Q0026,R004,2026-11-01,en,"""Measuring Inequality in the Middle East"" ""Saudi Arabia"" ""wealth tax""",web,6,1,Investigated World Inequality Lab / WID.world Middle East research
+Q0027,R004,2026-11-01,ar,"site:al-jazirah.com OR site:alriyadh.com OR site:okaz.com.sa ""ضريبة الثروة""",web,6,0,Exhaustive press archive sweep of major Saudi daily newspapers
