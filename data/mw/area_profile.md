@@ -1,13 +1,13 @@
 # Area profile — Malawi
 
-Save as `data/mw/area_profile.md`. Updated 2026-10-31 (Seed pass R001).
+Save as `data/mw/area_profile.md`. Updated 2026-10-31 (Deepening pass R002).
 
 ## 1. Scope
 - **Area:** Malawi; type: country (ISO2: `MW`, ISO3: `MWI`).
-- **Depth:** Seed pass (core prominent national supporters across all layers, coverage notes, next-run plan).
+- **Depth:** Seed pass (core prominent national supporters across all layers, coverage notes, next-run plan). Saturated after R002.
 - **Levels of government in scope:** National and regional; local tier loaded (32 councils: 28 districts, 4 cities), unit-by-unit sweep skipped as local authorities lack wealth tax powers.
 - **Languages to search in:** English (official language of law and government), Chichewa (national language).
-- **Date of first run:** 2026-10-31 (Run R001).
+- **Date of first run:** 2026-10-31 (Run R001; Run R002 deepening pass on 2026-10-31).
 
 ## 2. Wealth tax history and live proposals (2010 onwards)
 - **Current status:** Malawi has never enacted a standalone wealth tax or tax on individual net worth.
@@ -21,6 +21,8 @@ Save as `data/mw/area_profile.md`. Updated 2026-10-31 (Seed pass R001).
   - Minimum Alternative Tax (MAT) on gross turnover (corporate revenue tax).
   - Capital gains tax on listed shares (gains upon realization).
   - Mobile money transfer levy and bank transaction fees.
+  - Ecumenical ZacTax / Malawi Council of Churches campaigns against mining corporate tax holidays (corporate tax avoidance, not wealth tax).
+  - Afrobarometer Round 8 survey question on whether rich people should pay higher tax rates (general progressive tax rates, not an annual net wealth tax).
 
 ## 3. Legislatures and where their records are
 - **Chamber:** National Assembly of Malawi (unicameral parliament; 193 seats, expanded to 229 seats for 2025 elections by MEC).
@@ -62,7 +64,9 @@ Save as `data/mw/area_profile.md`. Updated 2026-10-31 (Seed pass R001).
 - **ActionAid Malawi:** Active in corporate tax justice and combating illicit financial flows.
 
 ## 10. Plan for the next runs
-- **Priority 1 (Parliamentary monitoring):** Track 2025/2026 National Assembly legislative sessions, budget statements from Ministry of Finance, and Budget & Finance Committee reports for any emerging wealth tax motions or bills.
-- **Priority 2 (Pre-budget submissions):** Review annual pre-budget memorandums submitted to the Ministry of Finance by ECAMA, MEJN, and CfSC.
-- **Priority 3 (Tax Justice Network Africa):** Check pan-African TJNA declarations for individual Malawian parliamentarians or experts signing continental wealth tax statements.
-- **Priority 4 (Local tier):** Aggregators only; no unit-by-unit sweep needed as local councils lack fiscal wealth jurisdiction.
+- **Saturation:** Core layers are saturated at 8 verified national supporters. No further open leads remain.
+- **Future monitoring (post-2025 election cycle):**
+  - Track 2025/2026 National Assembly legislative sessions, budget statements from Ministry of Finance, and Budget & Finance Committee reports for any emerging wealth tax motions or bills.
+  - Review future annual pre-budget submissions to the Ministry of Finance by ECAMA, MEJN, and CfSC.
+  - Track pan-African TJNA declarations for individual Malawian parliamentarians or experts signing continental wealth tax statements.
+  - Local tier: skip unit-by-unit sweep as local councils lack fiscal wealth jurisdiction.

@@ -1,8 +1,12 @@
 exclusion_id,name,reason,detail,source_url,run_id
-X0001,Gladys Ganda,out_of_definition,"Spoke on tax equity stating ""those who have more must contribute more"", but made no specific reference to net wealth taxation.",https://times.mw/report-exposes-grave-inequality/,R001
-X0002,Top 40% PAYE Income Tax Band,out_of_definition,Progressive income tax band on monthly earnings above K10 million enacted by Parliament; targets income rather than stock of wealth.,https://mra.mw,R001
-X0003,Estate Duty Act,out_of_definition,Inheritance tax on deceased estates (up to 11%); excluded under Section 2.,https://mra.mw,R001
-X0004,Minimum Alternative Tax (MAT),out_of_definition,Turnover-based corporate levy; corporate taxation is excluded under Section 2.,https://mccci.org,R001
-X0005,Mobile Money Transfer Levy,out_of_definition,Financial transaction levy; excluded under Section 2.,https://mra.mw,R001
-X0006,Goodall Gondwe,deceased,Former Minister of Finance; passed away in August 2023.,https://mwnation.com,R001
-X0007,Saulos Chilima,deceased,Former Vice President and UTM founder; passed away in June 2024.,https://mwnation.com,R001
+X0001,Gladys Ganda,out_of_definition,"Spoke on tax equity stating 'those who have more must contribute more', but made no specific reference to net wealth taxation.",https://times.mw/report-exposes-grave-inequality/,R001
+X0002,Top 40% PAYE Income Tax Band,out_of_definition,"Progressive income tax band on monthly earnings above K10 million enacted by Parliament; targets income rather than stock of wealth.",https://mra.mw,R001
+X0003,Estate Duty Act,out_of_definition,"Inheritance tax on deceased estates (up to 11%); excluded under Section 2.",https://mra.mw,R001
+X0004,Minimum Alternative Tax (MAT),out_of_definition,"Turnover-based corporate levy; corporate taxation is excluded under Section 2.",https://mccci.org,R001
+X0005,Mobile Money Transfer Levy,out_of_definition,"Financial transaction levy; excluded under Section 2.",https://mra.mw,R001
+X0006,Goodall Gondwe,deceased,"Former Minister of Finance; passed away in August 2023.",https://mwnation.com,R001
+X0007,Saulos Chilima,deceased,"Former Vice President and UTM founder; passed away in June 2024.",https://mwnation.com,R001
+X0008,Rev Alemekezeke Chikondi Phiri,out_of_definition,"Malawi Council of Churches General Secretary; campaigned against mining tax incentives and tax avoidance as part of the ecumenical ZacTax campaign, but made no specific call for net wealth taxation.",https://www.indcatholicnews.com/news/55294,R002
+X0009,Thomas Munthali,out_of_definition,"Former Director General of National Planning Commission; public commentary focuses on national wealth creation and GDP growth under Vision 2063 rather than wealth taxation.",https://times.mw,R002
+X0010,Ben Kaluwa,deceased,"Prominent Professor of Economics at University of Malawi (UNIMA); passed away in July 2022.",https://malawi24.com,R002
+X0011,Afrobarometer Round 8 Taxation Question,out_of_definition,"Surveyed whether it is fair to tax rich people at a higher rate than ordinary people; asks about progressive tax rates generally, not an annual net wealth tax.",https://afrobarometer.org,R002

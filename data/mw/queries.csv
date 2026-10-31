@@ -1,9 +1,13 @@
 query_id,run_id,date,language,query,channel,results_opened,leads_added,note
-Q0001,R001,2026-10-31,en,"Malawi ""wealth tax""",web,10,4,Broad web search on wealth tax in Malawi.
-Q0002,R001,2026-10-31,en,"""Ecama"" ""wealth tax"" Malawi OR ""The Nation""",web,8,2,Economics Association of Malawi wealth tax proposals.
-Q0003,R001,2026-10-31,en,"""Commitment to Reducing Inequality"" ""Malawi"" ""wealth tax""",web,8,3,CRI Malawi 2025 launch and partner statements.
-Q0004,R001,2026-10-31,en,"""Centre for Social Concern"" ""wealth tax"" OR ""solidarity wealth"" Malawi",web,6,2,CfSC proposals on solidarity wealth tax.
-Q0005,R001,2026-10-31,en,"""Malawi Congress of Trade Unions"" ""tax"" OR ""wealth""",web,6,2,MCTU response to pension taxation demanding wealth tax.
-Q0006,R001,2026-10-31,en,"Malawi ""National Assembly"" OR ""Parliament"" ""wealth tax""",web,8,1,Parliamentary tax reform and money bills review.
-Q0007,R001,2026-10-31,ny,"Malawi ""msonkho wa chuma"" OR ""msonkho pa chuma"" OR ""msonkho wa olemera""",web,6,1,Chichewa national language query on wealth taxation.
-Q0008,R001,2026-10-31,en,"""Malawi Revenue Authority"" ""wealth"" OR ""high net worth"" OR ""HNWI"" tax",web,6,1,MRA tax policy and HNWI review.
+Q0001,R001,2026-10-31,en,Malawi "wealth tax",web,10,4,Broad web search on wealth tax in Malawi.
+Q0002,R001,2026-10-31,en,"Ecama" "wealth tax" Malawi OR "The Nation",web,8,2,Economics Association of Malawi wealth tax proposals.
+Q0003,R001,2026-10-31,en,"Commitment to Reducing Inequality" "Malawi" "wealth tax",web,8,3,CRI Malawi 2025 launch and partner statements.
+Q0004,R001,2026-10-31,en,"Centre for Social Concern" "wealth tax" OR "solidarity wealth" Malawi,web,6,2,CfSC proposals on solidarity wealth tax.
+Q0005,R001,2026-10-31,en,"Malawi Congress of Trade Unions" "tax" OR "wealth",web,6,2,MCTU response to pension taxation demanding wealth tax.
+Q0006,R001,2026-10-31,en,Malawi "National Assembly" OR "Parliament" "wealth tax",web,8,1,Parliamentary tax reform and money bills review.
+Q0007,R001,2026-10-31,ny,Malawi "msonkho wa chuma" OR "msonkho pa chuma" OR "msonkho wa olemera",web,6,1,Chichewa national language query on wealth taxation.
+Q0008,R001,2026-10-31,en,"Malawi Revenue Authority" "wealth" OR "high net worth" OR "HNWI" tax,web,6,1,MRA tax policy and HNWI review.
+Q0009,R002,2026-10-31,en,"Catholic Commission for Justice and Peace" OR "CCJP" Malawi "wealth tax",web,6,1,Investigated CCJP and faith-based justice advocacy.
+Q0010,R002,2026-10-31,en,"Malawi" "Zacchaeus Tax" OR "ZacTax",web,6,2,Examined ecumenical ZacTax campaign statements by Malawi Council of Churches.
+Q0011,R002,2026-10-31,en,"University of Malawi" OR "Chancellor College" "wealth tax",web,6,1,Surveyed academic economics faculty at UNIMA.
+Q0012,R002,2026-10-31,en,site:afrobarometer.org Malawi "tax" rich OR wealthy,web,6,1,Evaluated Afrobarometer survey question for wealth tax qualification.
