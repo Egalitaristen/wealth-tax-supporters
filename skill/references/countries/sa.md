@@ -1,6 +1,6 @@
 # Saudi Arabia (data/sa)
 
-Worked notes from the Saudi Arabia research pass (`R001` seed pass, 2026-10-31; 1 identified supporter, 6 documented exclusions, 1 opinion poll, 7 logged bilingual queries, 147 governorates loaded).
+Worked notes from the Saudi Arabia research passes (`R001` seed pass, `R002` deepening pass, 2026-10-31; 1 identified supporter, 12 documented exclusions, 1 opinion poll, 14 logged bilingual queries, 147 governorates loaded).
 
 ## Levels and the geography register
 
@@ -41,3 +41,9 @@ Worked notes from the Saudi Arabia research pass (`R001` seed pass, 2026-10-31; 
 4. **G20 Rio Ministerial Declaration (July 2024):** Agreed by consensus on effective taxation of ultra-high-net-worth individuals, without endorsing a net wealth tax.
 5. **Mohammed bin Salman Al Saud (2021 Vision 2030 interview):** Explicitly stated there will be no personal income tax in Saudi Arabia.
 6. **Dr. Ihsan Bu-Hulaiga:** Published comparative analysis of California billionaire tax and European wealth taxes, discussing capital flight risks without endorsing a wealth tax.
+7. **Dr. Fahad bin Juma'a:** Former Shura Council member and economist who campaigned against the shadow economy, tax and zakat evasion, and advocated electronic payment systems and VAT/excise compliance.
+8. **Dr. Said Al-Shaikh:** Former chief economist of NCB and former Shura Council Finance Committee member who advocated White Land fees on vacant urban plots to stimulate real estate development; excluded land tax under Section 2.
+9. **Dr. Hamza Al-Salim:** Academic economist who authored comparative studies on Zakat and public taxation and argued in *Al-Jazirah* for progressive income taxation alongside VAT to pay for public services; income tax excluded under Section 2.
+10. **Dr. Abdullah Al-Maghlouth:** Member of the Saudi Economic Association and real estate economist who focused on implementing the White Land Tax to reduce urban land speculation; excluded land tax under Section 2.
+11. **Barjas Al-Barjas:** Prominent economic analyst who examined VAT, real estate transaction tax, and Zakat contributions to national social welfare, with no proposals for personal wealth taxation.
+12. **Dr. Nourah Al-Yousef:** Chair of the Saudi Economic Association and former Shura Council member who focused on energy economics and sovereign non-oil revenue diversification without advocating a net wealth tax.

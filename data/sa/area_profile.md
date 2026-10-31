@@ -1,13 +1,13 @@
 # Area profile — Saudi Arabia (المملكة العربية السعودية)
 
-Save as `data/sa/area_profile.md`. Seed pass R001 completed 2026-10-31.
+Save as `data/sa/area_profile.md`. Seed pass R001 and Deepening pass R002 completed 2026-10-31.
 
 ## 1. Scope
 - Area: Saudi Arabia (Kingdom of Saudi Arabia); type: country (absolute monarchy, G20 member).
-- Depth: Seed (prominent national supporters, full geography hierarchy of 13 regions and 147 governorates, exclusions landscape, and opinion polling).
+- Depth: Seed and Deepening (prominent national supporters, full geography hierarchy of 13 regions and 147 governorates, exclusions landscape across institutions and academic economics, and opinion polling).
 - Levels of government in scope: national (King, Council of Ministers, Consultative Assembly / Majlis al-Shura), regional (13 administrative regions / Mintaqah), and local (147 governorates / Muhafazat).
 - Languages to search in: Arabic (`ar`), English (`en`).
-- Date of first run: 2026-10-31.
+- Date of first run: 2026-10-31 (R001 and R002).
 
 ## 2. Wealth tax history and live proposals (2010 onwards)
 - **No statutory net wealth tax:** Saudi Arabia levies no secular net wealth tax on individuals, nor personal income tax, inheritance tax, or estate duty.
@@ -24,6 +24,7 @@ Save as `data/sa/area_profile.md`. Seed pass R001 completed 2026-10-31.
   - Member profiles: `https://www.shura.gov.sa/wps/wcm/connect/shuraen/aboutshura/councilmembers`
   - Debates and session summaries: Published via official session statements and press releases; no public individual roll-call voting system exists.
   - The Shura Council discusses tax laws referred by the Council of Ministers (e.g. amendments to corporate income tax on foreign partners, VAT, and excise taxes), but has never debated or sponsored a net wealth tax bill.
+  - Individual economic committee members investigated (Dr. Fahad bin Juma'a, Dr. Said Al-Shaikh, Dr. Nourah Al-Yousef) focused on anti-evasion, digital cash reduction, White Land fees, and energy diversification, with zero wealth tax sponsorship.
 
 ## 4. Parties
 - Political parties are legally prohibited in Saudi Arabia. Members of the Shura Council and public bodies serve as independent appointed individuals without party affiliations.
@@ -66,8 +67,8 @@ Save as `data/sa/area_profile.md`. Seed pass R001 completed 2026-10-31.
 - Arab News business and economic columnists network.
 
 ## 10. Plan for the next runs
-- **Expected yield:** Low per turn, reflecting the structural absence of partisan politics, the religious Zakat system, and official government policy maintaining zero personal income and wealth taxation.
-- **Action items for R002:**
-  1. Monitor Shura Council economic committee proceedings and annual financial reports for any fiscal debates.
-  2. Track ongoing G20 international tax implementation debates following the 2024 Rio ministerial declaration.
-  3. Monitor *Arab News* and *Al-Eqtisadiah* economic opinion columns for any emerging proposals by academic economists.
+- **Saturation status:** Saturated across primary layers. Domestic economic discourse is tightly focused on Vision 2030 non-oil diversification, white land fees, VAT, and Zakat anti-evasion. Secular net wealth tax advocacy remains uniquely represented by Khalid Abdulla-Janahi's *Arab News* proposal.
+- **Future updates:**
+  1. Periodic monitoring of Shura Council economic committee sessions.
+  2. Tracking G20 international tax implementation debates following the 2024 Rio declaration.
+  3. Monitoring *Arab News* and *Al-Eqtisadiah* columns for any new proposals.
