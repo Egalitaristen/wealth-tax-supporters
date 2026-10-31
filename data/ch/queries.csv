@@ -1,0 +1,26 @@
+query_id,run_id,date,language,query,channel,results_opened,leads_added,note
+Q0001,R001,2026-10-31,de,Vermögenssteuer Schweiz Initiative Forderung Milliardäre Steuer SP Gewerkschaftsbund,web,4,2,
+Q0002,R001,2026-10-31,fr,impôt sur la fortune Suisse initiative milliardaires taxe Zucman PS Suisse,web,3,1,
+Q0003,R001,2026-10-31,en,Switzerland wealth tax proposal economists Oxfam Switzerland billionaires tax 2025,web,3,1,
+Q0004,R001,2026-10-31,it,imposta sul patrimonio Svizzera iniziativa PS Ticino patrimoniale miliardari,web,2,0,
+Q0005,R001,2026-10-31,de,Alfred Gantner Vermögenssteuer progressive höhere Steuern Superreiche,web,3,0,
+Q0006,R001,2026-10-31,de,Kanton Vermögenssteuer erhöhen Initiative SP Grüne Juso Superreiche Kantonsrat,web,4,3,
+Q0007,R001,2026-10-31,fr,"Genève initiative impôt sur la fortune 1,5% dix ans votation 18 juin 2023",web,4,1,
+Q0008,R001,2026-10-31,de,Zürich Corona-Initiative Vermögenssteuer 20 Prozent Zuschlag Initiative SP AL Grüne,web,5,0,
+Q0009,R001,2026-10-31,de,Ökonom Schweiz fordert Vermögenssteuer Superreiche Brülhart Martínez,web,3,3,
+Q0010,R001,2026-10-31,de,"Vermögenssteuer, Millionäre, Milliardär, Solidaritätsabgabe, Superreiche (Business titles)",ws.parlament.ch OData,5,0,
+Q0011,R001,2026-10-31,de,"Business titles 2010-2019 (Vermögensgewinnsteuer, Reichtum, Erbschaftssteuer, Steuergerechtigkeit, Vermögen, Reiche)",ws.parlament.ch OData,8,0,"No wealth-tax motion, initiative or Standesinitiative by title before 2020; the 2011 and 2013 items are lump-sum taxation or inheritance tax"
+Q0012,R001,2026-10-31,de,Basel-Stadt Vermögenssteuer Initiative Erhöhung SP Grosser Rat,web,3,0,Only 2010 tax-cut initiatives and a 2019 SP idea on inheritance tax
+Q0013,R001,2026-10-31,de,Kanton Bern Vermögenssteuer Initiative SP Grüne höhere Vermögenssteuer,web,3,0,"2012 ""Faire Steuern"" initiative opposed cutting wealth taxes; no initiative to raise them"
+Q0014,R001,2026-10-31,fr,Vaud impôt sur la fortune initiative PS Verts POP hausse grandes fortunes,web,3,0,"Only the right-wing 12% tax-cut initiative, opposed by the left"
+Q0015,R001,2026-10-31,it,Ticino imposta sulla sostanza aumento iniziativa PS Verdi MPS,web,3,0,Only a 2008 exempt-amount initiative and 2024 fiscal-reform fights
+Q0016,R001,2026-10-31,de,Schweizer Millionäre Davos offener Brief Unterzeichner Millionaires for Humanity,web,4,1,No Swiss signatory list readable; Colruyt reported as the only Swiss signatory of the 2026 appeal
+Q0017,R001,2026-10-31,de,Schweizer Ökonomen offener Brief Vermögenssteuer Superreiche,web,4,0,No economists letter found
+Q0018,R001,2026-10-31,fr,économistes suisses appel taxer les ultra-riches impôt sur la fortune fédéral,web,4,0,Only a 2015 Brulhart/Krapf study
+Q0019,R001,2026-10-31,de,Oxfam Schweiz Alliance Sud Public Eye Attac Kirchen Vermögenssteuer,web,5,1,Alliance Sud found
+Q0020,R001,2026-10-31,de,"Denknetz, Alliance Sud, Kirchen, Caritas Vermögenssteuer",web,6,0,"No Denknetz, church or Caritas statement; Caritas 2012 rejected a one-off levy"
+Q0021,R001,2026-10-31,de,Zucman Universität Zürich Oktober 2026 Ökonomen Reaktion,web,3,0,Zucman is on the French register
+Q0022,R001,2026-10-31,de,SP Schweiz fordert Vermögenssteuer Bund (sp-ps.ch),web restricted to sp-ps.ch,5,0,Only an SRF quote by Sarah Wyss; SP motion already in register
+Q0023,R001,2026-10-31,de,Grüne Schweiz Vermögenssteuer Bund (gruene.ch),web restricted to gruene.ch,6,0,Consultation response of 27 May 2026 found
+Q0024,R001,2026-10-31,de,Juso Schweiz Vermögenssteuer nach der Abstimmung,web,5,0,"Juso initiative is an inheritance tax; Hostetmann says the fight for taxing large wealth continues, no wealth-tax proposal"
+Q0025,R001,2026-10-31,de,Zucman Zürich Gastgeber Ökonomen Reaktion,web + SRF in browser,4,0,"SRF 23 Oct 2026 article read: Salvi (Avenir Suisse) opposes, Stuber not a supporter; no host named"

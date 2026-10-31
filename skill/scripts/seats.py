@@ -1613,13 +1613,55 @@ def scottish_parliament():
 
 
 
+def switzerland():
+    """The Federal Assembly: National Council (200) and Council of States (46), from the Swiss Parliament's OData service (ws.parlament.ch),
+    MemberCouncil rows with Active=true. Each member carries party, canton (English name, as in the register) and the date they joined."""
+    import datetime as _dt
+    CANTON = {"ZH": "Zurich", "BE": "Bern", "LU": "Lucerne", "UR": "Uri", "SZ": "Schwyz", "OW": "Obwalden", "NW": "Nidwalden", "GL": "Glarus", "ZG": "Zug",
+              "FR": "Fribourg", "SO": "Solothurn", "BS": "Basel-Stadt", "BL": "Basel-Landschaft", "SH": "Schaffhausen", "AR": "Appenzell Ausserrhoden",
+              "AI": "Appenzell Innerrhoden", "SG": "St. Gallen", "GR": "Graubünden", "AG": "Aargau", "TG": "Thurgau", "TI": "Ticino", "VD": "Vaud",
+              "VS": "Valais", "NE": "Neuchâtel", "GE": "Geneva", "JU": "Jura"}
+    PARTY = {"SVP": "Swiss People's Party", "SP": "Social Democratic Party", "M-E": "The Centre", "FDP-Liberale": "FDP.The Liberals", "GRÜNE": "Green Party",
+             "glp": "Green Liberal Party", "MCG": "Geneva Citizens' Movement", "EVP": "Evangelical People's Party", "EDU": "Federal Democratic Union",
+             "Lega": "Lega dei Ticinesi", "Al": "Green Party", "LDP": "Liberal-Democratic Party", "-": "Independent", "PdA": "Swiss Party of Labour"}
+    url = "https://ws.parlament.ch/odata.svc/MemberCouncil?$top=400&$filter=" + urllib.parse.quote("Active eq true and Language eq 'DE'")
+    rows = get(url, headers={"Accept": "application/json"})
+    rows = rows["d"]["results"] if isinstance(rows["d"], dict) else rows["d"]
+    chambers = []
+    for council, name, seats, note, role in ((1, "National Council (Nationalrat)", 200, "200 seats, elected by proportional representation in the cantons.", "Member of the National Council"),
+                                              (2, "Council of States (Ständerat)", 46, "46 seats: two per canton, one per half-canton.", "Member of the Council of States")):
+        members = []
+        for x in rows:
+            if x["Council"] != council:
+                continue
+            j = x.get("DateJoining")
+            members.append(dict(name=f"{x['FirstName']} {x['LastName']}", party=PARTY.get(x["PartyAbbreviation"], x["PartyName"]), ref=str(x["PersonNumber"]),
+                                place=CANTON[x["CantonAbbreviation"]], url=f"https://www.parlament.ch/de/biografie?CouncillorId={x['PersonNumber']}",
+                                start=_dt.datetime.fromtimestamp(int(j[6:19]) / 1000, _dt.timezone.utc).strftime("%Y-%m-%d") if j else ""))
+        if len(members) != seats:
+            sys.exit(f"{name}: read {len(members)} members, expected {seats}; check the adapter")
+        count = {}
+        for m in members:
+            count[m["party"]] = count.get(m["party"], 0) + 1
+        chambers.append(dict(name=name, level="national", seats=seats, source_url="https://www.parlament.ch/en/organe/" + ("national-council" if council == 1 else "council-of-states"),
+                             note=note + " Who sits and their party are from the Federal Assembly's open data. Unlit seats mean nothing found, never opposition.",
+                             role=role, role_re=r"(?i)^(member|former member) of the national council" if council == 1 else r"(?i)council of states|ständerat", role_start=r"(?i)member of the national council" if council == 1 else r"(?i)member of the council of states",
+                             members=members, former=[],
+                             party_order=["Green Party", "Social Democratic Party", "Green Liberal Party", "The Centre", "Evangelical People's Party", "FDP.The Liberals", "Swiss People's Party", "Federal Democratic Union",
+                                          "Geneva Citizens' Movement", "Lega dei Ticinesi", "Liberal-Democratic Party", "Independent"],
+                             colours={"Green Party": "84b547", "Social Democratic Party": "e8362d", "Green Liberal Party": "a6cf42", "The Centre": "f39200", "Evangelical People's Party": "f0c800",
+                                      "FDP.The Liberals": "2a6ebb", "Swiss People's Party": "3a8a3c", "Federal Democratic Union": "7a6a53", "Geneva Citizens' Movement": "f5a623",
+                                      "Lega dei Ticinesi": "1f4e9c", "Liberal-Democratic Party": "5aa9e6", "Independent": "8a8680"}))
+    return chambers
+
+
 _ADAPTERS_LOWER = {"nz": new_zealand, "se": sweden, "de": germany, "nl": netherlands, "no": norway, "fr": france, "br": brazil, "ca": canada, "es": spain, "pl": poland, "be": belgium, "in": india, "jp": japan, "my": malaysia, "sg": singapore, "id": indonesia, "ng": nigeria, "cn": china, "scottish_parliament": scottish_parliament, "european_parliament": european_parliament, "eu": european_parliament, "un": united_nations, "au": pan_african_parliament, "za": south_africa, "ie": ireland, "it": italy, "mx": mexico, "ar": argentina, "co": colombia, "fi": finland, "kr": south_korea}
 # countries that chart two chambers chain their adapters; the others return one
 ADAPTERS = dict(_ADAPTERS_LOWER, nl=lambda: netherlands() + netherlands_senate(), za=lambda: south_africa() + south_africa_ncop(),
                   ca=lambda: canada() + canada_senate(), australia=australia, eg=egypt,
                   ng=lambda: nigeria() + nigeria_senate(),
                   es=lambda: spain() + spain_senate(), pl=lambda: poland() + poland_senate(), belgium_senate=belgium_senate,  # the Chamber needs its own saved page: run the Senate with --adapter belgium_senate
-                  id=lambda: indonesia() + indonesia_dpd(), egypt_senate=egypt_senate, malaysia_senate=malaysia_senate)  # the Dewan Rakyat needs its own saved page: run the Dewan Negara with --adapter malaysia_senate
+                  id=lambda: indonesia() + indonesia_dpd(), egypt_senate=egypt_senate, malaysia_senate=malaysia_senate, ch=switzerland)  # the Dewan Rakyat needs its own saved page: run the Dewan Negara with --adapter malaysia_senate
 
 
 def main():
