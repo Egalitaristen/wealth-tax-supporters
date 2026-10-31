@@ -578,7 +578,7 @@ def poll_line(c):
     return f" In polls, {p.get('support_text') or str(p['support']) + '%'} back {q[0].lower() + q[1:]} ({p['pollster']}, {str(p.get('published', ''))[:4]})."
 
 
-def share_pages(out, base, countries, full, unique=None):
+def share_pages(out, base, countries, full, unique=None, bodies=()):
     PRELOAD_SLUGS.update(c["slug"] for c in countries)
     """Writes per-page HTML (and share images when Pillow is installed). Returns the number of pages."""
     try:
@@ -633,6 +633,42 @@ def share_pages(out, base, countries, full, unique=None):
     write("/feedback", "Feedback and bug reports · Wealth Tax Supporters",
           "Something broken, confusing or missing? Send feedback or report a bug. No account needed.",
           "feedback", "Feedback and bug reports", lambda o: cards.page_card(o, "Feedback", "Tell us what to fix or improve", "Feedback, ideas and bug reports. No account needed."))
+
+    # The Parliaments page and the bodies above the countries (the European Parliament, the UN General Assembly): their own previews,
+    # a seats page, and one page per sitting supporter.
+    write("/parliaments", "Parliaments · Wealth Tax Supporters",
+          f"Which seats in the legislatures of {tot['countries']} countries, and in the European Parliament and the UN General Assembly, are held by a sitting supporter of a wealth tax, found so far.",
+          "parliaments", "Seats in every parliament",
+          lambda o: cards.page_card(o, "Parliaments", "Seats in every parliament", "Who sits today and has backed a wealth tax. Unlit seats mean nothing found, never opposition."))
+    for b in bodies:
+        D, slug, name = full[b["slug"]], b["slug"], b["name"]
+        legis = [dict(name=x["name"], seats=x["seats"], parties=[[q[0], q[1], q[2], len(q[3])] for q in x["parties"]]) for x in D.get("legis", [])]
+        lit = sum(q[3] for x in legis for q in x["parties"])
+        seats = sum(x["seats"] for x in legis)
+        if legis:
+            for path, title, kicker in ((f"/{slug}", f"{name} · Wealth Tax Supporters", name), (f"/{slug}/seats", f"Seats · {name} · Wealth Tax Supporters", name)):
+                write(path, title,
+                      f"{lit:,} of {seats:,} seats in the {legis[0]['name']} and its sister chambers are held by a sitting supporter of a wealth tax, found so far, shown by group." if len(legis) > 1 else
+                      f"{lit:,} of {seats:,} seats in the {legis[0]['name']} are held by a sitting supporter of a wealth tax, found so far, shown by group.",
+                      slug + ("-seats" if path.endswith("/seats") else ""), f"{name}: {lit:,} seats held by supporters found so far",
+                      lambda o, b=b, legis=legis: cards.seats_card(o, b, legis, "held by a sitting supporter of a wealth tax, found so far. Unlit seats mean nothing found, never opposition."))
+        ev_by = collections.defaultdict(list)
+        for e in D["E"]:
+            ev_by[e[0]].append(e)
+        for p in D["P"]:
+            es = sorted(ev_by[p[0]], key=lambda e: (e[2] != "A", e[3] not in SPOKEN, not e[6], -int((e[1] or "0")[:4] or 0)))
+            quote = re.sub(r"\s+", " ", es[0][6]).strip() if es and es[0][6] else ""
+            if quote and quote[0].islower():
+                quote = "…" + quote
+            role = " · ".join(x for x in (p[4], p[5]) if x)
+            y0, y1 = (p[10] or "")[:4], (p[11] or "")[:4]
+            span = y0 if y0 == y1 else f"{y0}–{y1}"
+            gradeline = f"{GRADE.get(p[8], '')} · {p[9]} statement{'s' if p[9] != 1 else ''}" + (f" · {span}" if y0 else "")
+            desc = (f"{role}. " if role else "") + (f"“{quote[:200]}{'…' if len(quote) > 200 else ''}” " if quote else "") +                 f"{p[9]} sourced statement{'s' if p[9] != 1 else ''} in support of a wealth tax."
+            write(f"/{slug}/{p[0]}", f"{p[1]} backs a wealth tax · Wealth Tax Supporters", desc, f"{slug}/{p[0]}",
+                  f"{p[1]}, {TYPE.get(p[3], p[3])}, {name}",
+                  lambda o, p=p, quote=quote, gradeline=gradeline, role=role: cards.person_card(
+                      o, {"name": p[1], "role": role}, name, quote, [], set(), TYPE.get(p[3], p[3]), gradeline))
 
     for c in countries:
         D, slug, name = full[c["slug"]], c["slug"], c["name"]
@@ -778,7 +814,7 @@ def main():
     html = html.replace('name="data-version" content=""', f'name="data-version" content="{dv}"')
     html = html.replace('href="/data/world.json" as="fetch"', f'href="/data/world.json?v={dv}" as="fetch"')
     (out / "index.html").write_text(html, encoding="utf-8")
-    n = share_pages(out, html, countries, full, unique)
+    n = share_pages(out, html, countries, full, unique, bodies)
     print(f"Built {len(countries)} countr{'y' if len(countries) == 1 else 'ies'} and {n} share pages into {out}")
 
 
