@@ -1,0 +1,2138 @@
+geo_unit_id,name,level,unit_type,parent_id,website,sweep_status,swept_run,swept_date,queries_run,hits,notes,code
+G0001,Switzerland,national,country,,,in_progress,,,,,National root.,CH
+G0002,Zurich,region,region,G0001,,pending,,,,,Canton of Switzerland.,CH-ZH
+G0003,Bern,region,region,G0001,,pending,,,,,Canton of Switzerland.,CH-BE
+G0004,Lucerne,region,region,G0001,,pending,,,,,Canton of Switzerland.,CH-LU
+G0005,Uri,region,region,G0001,,pending,,,,,Canton of Switzerland.,CH-UR
+G0006,Schwyz,region,region,G0001,,pending,,,,,Canton of Switzerland.,CH-SZ
+G0007,Obwalden,region,region,G0001,,pending,,,,,Canton of Switzerland.,CH-OW
+G0008,Nidwalden,region,region,G0001,,pending,,,,,Canton of Switzerland.,CH-NW
+G0009,Glarus,region,region,G0001,,pending,,,,,Canton of Switzerland.,CH-GL
+G0010,Zug,region,region,G0001,,pending,,,,,Canton of Switzerland.,CH-ZG
+G0011,Fribourg,region,region,G0001,,pending,,,,,Canton of Switzerland.,CH-FR
+G0012,Solothurn,region,region,G0001,,pending,,,,,Canton of Switzerland.,CH-SO
+G0013,Basel-Stadt,region,region,G0001,,pending,,,,,Canton of Switzerland.,CH-BS
+G0014,Basel-Landschaft,region,region,G0001,,pending,,,,,Canton of Switzerland.,CH-BL
+G0015,Schaffhausen,region,region,G0001,,pending,,,,,Canton of Switzerland.,CH-SH
+G0016,Appenzell Ausserrhoden,region,region,G0001,,pending,,,,,Canton of Switzerland.,CH-AR
+G0017,Appenzell Innerrhoden,region,region,G0001,,pending,,,,,Canton of Switzerland.,CH-AI
+G0018,St. Gallen,region,region,G0001,,pending,,,,,Canton of Switzerland.,CH-SG
+G0019,Graubünden,region,region,G0001,,pending,,,,,Canton of Switzerland.,CH-GR
+G0020,Aargau,region,region,G0001,,pending,,,,,Canton of Switzerland.,CH-AG
+G0021,Thurgau,region,region,G0001,,pending,,,,,Canton of Switzerland.,CH-TG
+G0022,Ticino,region,region,G0001,,pending,,,,,Canton of Switzerland.,CH-TI
+G0023,Vaud,region,region,G0001,,pending,,,,,Canton of Switzerland.,CH-VD
+G0024,Valais,region,region,G0001,,pending,,,,,Canton of Switzerland.,CH-VS
+G0025,Neuchâtel,region,region,G0001,,pending,,,,,Canton of Switzerland.,CH-NE
+G0026,Geneva,region,region,G0001,,pending,,,,,Canton of Switzerland.,CH-GE
+G0027,Jura,region,region,G0001,,pending,,,,,Canton of Switzerland.,CH-JU
+G0028,Adliswil,council,municipality,G0002,,pending,,,,,,131
+G0029,Aesch (ZH),council,municipality,G0002,,pending,,,,,,241
+G0030,Aeugst am Albis,council,municipality,G0002,,pending,,,,,,1
+G0031,Affoltern am Albis,council,municipality,G0002,,pending,,,,,,2
+G0032,Altikon,council,municipality,G0002,,pending,,,,,,211
+G0033,Andelfingen,council,municipality,G0002,,pending,,,,,,291
+G0034,BachenbÃ¼lach,council,municipality,G0002,,pending,,,,,,51
+G0035,Bachs,council,municipality,G0002,,pending,,,,,,81
+G0036,Bassersdorf,council,municipality,G0002,,pending,,,,,,52
+G0037,Bauma,council,municipality,G0002,,pending,,,,,,297
+G0038,Benken (ZH),council,municipality,G0002,,pending,,,,,,22
+G0039,Berg am Irchel,council,municipality,G0002,,pending,,,,,,23
+G0040,Birmensdorf (ZH),council,municipality,G0002,,pending,,,,,,242
+G0041,Bonstetten,council,municipality,G0002,,pending,,,,,,3
+G0042,Boppelsen,council,municipality,G0002,,pending,,,,,,82
+G0043,BrÃ¼tten,council,municipality,G0002,,pending,,,,,,213
+G0044,Bubikon,council,municipality,G0002,,pending,,,,,,112
+G0045,Buch am Irchel,council,municipality,G0002,,pending,,,,,,24
+G0046,Buchs (ZH),council,municipality,G0002,,pending,,,,,,83
+G0047,BÃ¤retswil,council,municipality,G0002,,pending,,,,,,111
+G0048,BÃ¼lach,council,municipality,G0002,,pending,,,,,,53
+G0049,Dachsen,council,municipality,G0002,,pending,,,,,,25
+G0050,Dielsdorf,council,municipality,G0002,,pending,,,,,,86
+G0051,Dietikon,council,municipality,G0002,,pending,,,,,,243
+G0052,Dietlikon,council,municipality,G0002,,pending,,,,,,54
+G0053,Dinhard,council,municipality,G0002,,pending,,,,,,216
+G0054,Dorf,council,municipality,G0002,,pending,,,,,,26
+G0055,DÃ¤gerlen,council,municipality,G0002,,pending,,,,,,214
+G0056,DÃ¤llikon,council,municipality,G0002,,pending,,,,,,84
+G0057,DÃ¤nikon,council,municipality,G0002,,pending,,,,,,85
+G0058,DÃ¤ttlikon,council,municipality,G0002,,pending,,,,,,215
+G0059,DÃ¼bendorf,council,municipality,G0002,,pending,,,,,,191
+G0060,DÃ¼rnten,council,municipality,G0002,,pending,,,,,,113
+G0061,Egg,council,municipality,G0002,,pending,,,,,,192
+G0062,Eglisau,council,municipality,G0002,,pending,,,,,,55
+G0063,Elgg,council,municipality,G0002,,pending,,,,,,294
+G0064,Ellikon an der Thur,council,municipality,G0002,,pending,,,,,,218
+G0065,Elsau,council,municipality,G0002,,pending,,,,,,219
+G0066,Embrach,council,municipality,G0002,,pending,,,,,,56
+G0067,Erlenbach (ZH),council,municipality,G0002,,pending,,,,,,151
+G0068,Fehraltorf,council,municipality,G0002,,pending,,,,,,172
+G0069,Feuerthalen,council,municipality,G0002,,pending,,,,,,27
+G0070,Fischenthal,council,municipality,G0002,,pending,,,,,,114
+G0071,Flaach,council,municipality,G0002,,pending,,,,,,28
+G0072,Flurlingen,council,municipality,G0002,,pending,,,,,,29
+G0073,Freienstein-Teufen,council,municipality,G0002,,pending,,,,,,57
+G0074,FÃ¤llanden,council,municipality,G0002,,pending,,,,,,193
+G0075,Geroldswil,council,municipality,G0002,,pending,,,,,,244
+G0076,Glattfelden,council,municipality,G0002,,pending,,,,,,58
+G0077,Gossau (ZH),council,municipality,G0002,,pending,,,,,,115
+G0078,Greifensee,council,municipality,G0002,,pending,,,,,,194
+G0079,GrÃ¼ningen,council,municipality,G0002,,pending,,,,,,116
+G0080,Hagenbuch,council,municipality,G0002,,pending,,,,,,220
+G0081,Hausen am Albis,council,municipality,G0002,,pending,,,,,,4
+G0082,Hedingen,council,municipality,G0002,,pending,,,,,,5
+G0083,Henggart,council,municipality,G0002,,pending,,,,,,31
+G0084,Herrliberg,council,municipality,G0002,,pending,,,,,,152
+G0085,Hettlingen,council,municipality,G0002,,pending,,,,,,221
+G0086,Hinwil,council,municipality,G0002,,pending,,,,,,117
+G0087,Hittnau,council,municipality,G0002,,pending,,,,,,173
+G0088,Hochfelden,council,municipality,G0002,,pending,,,,,,59
+G0089,Hombrechtikon,council,municipality,G0002,,pending,,,,,,153
+G0090,Horgen,council,municipality,G0002,,pending,,,,,,295
+G0091,HÃ¶ri,council,municipality,G0002,,pending,,,,,,60
+G0092,HÃ¼ntwangen,council,municipality,G0002,,pending,,,,,,61
+G0093,HÃ¼ttikon,council,municipality,G0002,,pending,,,,,,87
+G0094,Illnau-Effretikon,council,municipality,G0002,,pending,,,,,,296
+G0095,Kappel am Albis,council,municipality,G0002,,pending,,,,,,6
+G0096,Kilchberg (ZH),council,municipality,G0002,,pending,,,,,,135
+G0097,Kleinandelfingen,council,municipality,G0002,,pending,,,,,,33
+G0098,Kloten,council,municipality,G0002,,pending,,,,,,62
+G0099,Knonau,council,municipality,G0002,,pending,,,,,,7
+G0100,KÃ¼snacht (ZH),council,municipality,G0002,,pending,,,,,,154
+G0101,Langnau am Albis,council,municipality,G0002,,pending,,,,,,136
+G0102,Laufen-Uhwiesen,council,municipality,G0002,,pending,,,,,,34
+G0103,Lindau,council,municipality,G0002,,pending,,,,,,176
+G0104,Lufingen,council,municipality,G0002,,pending,,,,,,63
+G0105,Marthalen,council,municipality,G0002,,pending,,,,,,35
+G0106,Maschwanden,council,municipality,G0002,,pending,,,,,,8
+G0107,Maur,council,municipality,G0002,,pending,,,,,,195
+G0108,Meilen,council,municipality,G0002,,pending,,,,,,156
+G0109,Mettmenstetten,council,municipality,G0002,,pending,,,,,,9
+G0110,MÃ¤nnedorf,council,municipality,G0002,,pending,,,,,,155
+G0111,MÃ¶nchaltorf,council,municipality,G0002,,pending,,,,,,196
+G0112,Neerach,council,municipality,G0002,,pending,,,,,,88
+G0113,Neftenbach,council,municipality,G0002,,pending,,,,,,223
+G0114,Niederglatt,council,municipality,G0002,,pending,,,,,,89
+G0115,Niederhasli,council,municipality,G0002,,pending,,,,,,90
+G0116,Niederweningen,council,municipality,G0002,,pending,,,,,,91
+G0117,NÃ¼rensdorf,council,municipality,G0002,,pending,,,,,,64
+G0118,Oberembrach,council,municipality,G0002,,pending,,,,,,65
+G0119,Oberengstringen,council,municipality,G0002,,pending,,,,,,245
+G0120,Oberglatt,council,municipality,G0002,,pending,,,,,,92
+G0121,Oberrieden,council,municipality,G0002,,pending,,,,,,137
+G0122,Oberweningen,council,municipality,G0002,,pending,,,,,,93
+G0123,Obfelden,council,municipality,G0002,,pending,,,,,,10
+G0124,Oetwil am See,council,municipality,G0002,,pending,,,,,,157
+G0125,Oetwil an der Limmat,council,municipality,G0002,,pending,,,,,,246
+G0126,Opfikon,council,municipality,G0002,,pending,,,,,,66
+G0127,Ossingen,council,municipality,G0002,,pending,,,,,,37
+G0128,Otelfingen,council,municipality,G0002,,pending,,,,,,94
+G0129,Ottenbach,council,municipality,G0002,,pending,,,,,,11
+G0130,Pfungen,council,municipality,G0002,,pending,,,,,,224
+G0131,PfÃ¤ffikon,council,municipality,G0002,,pending,,,,,,177
+G0132,Rafz,council,municipality,G0002,,pending,,,,,,67
+G0133,Regensberg,council,municipality,G0002,,pending,,,,,,95
+G0134,Regensdorf,council,municipality,G0002,,pending,,,,,,96
+G0135,Rheinau,council,municipality,G0002,,pending,,,,,,38
+G0136,Richterswil,council,municipality,G0002,,pending,,,,,,138
+G0137,Rickenbach (ZH),council,municipality,G0002,,pending,,,,,,225
+G0138,Rifferswil,council,municipality,G0002,,pending,,,,,,12
+G0139,Rorbas,council,municipality,G0002,,pending,,,,,,68
+G0140,Russikon,council,municipality,G0002,,pending,,,,,,178
+G0141,RÃ¼mlang,council,municipality,G0002,,pending,,,,,,97
+G0142,RÃ¼schlikon,council,municipality,G0002,,pending,,,,,,139
+G0143,RÃ¼ti (ZH),council,municipality,G0002,,pending,,,,,,118
+G0144,Schlatt (ZH),council,municipality,G0002,,pending,,,,,,226
+G0145,Schleinikon,council,municipality,G0002,,pending,,,,,,98
+G0146,Schlieren,council,municipality,G0002,,pending,,,,,,247
+G0147,Schwerzenbach,council,municipality,G0002,,pending,,,,,,197
+G0148,SchÃ¶fflisdorf,council,municipality,G0002,,pending,,,,,,99
+G0149,SeegrÃ¤ben,council,municipality,G0002,,pending,,,,,,119
+G0150,Seuzach,council,municipality,G0002,,pending,,,,,,227
+G0151,Stadel,council,municipality,G0002,,pending,,,,,,100
+G0152,Stallikon,council,municipality,G0002,,pending,,,,,,13
+G0153,Stammheim,council,municipality,G0002,,pending,,,,,,292
+G0154,Steinmaur,council,municipality,G0002,,pending,,,,,,101
+G0155,StÃ¤fa,council,municipality,G0002,,pending,,,,,,158
+G0156,Thalheim an der Thur,council,municipality,G0002,,pending,,,,,,39
+G0157,Thalwil,council,municipality,G0002,,pending,,,,,,141
+G0158,Truttikon,council,municipality,G0002,,pending,,,,,,41
+G0159,TrÃ¼llikon,council,municipality,G0002,,pending,,,,,,40
+G0160,Turbenthal,council,municipality,G0002,,pending,,,,,,228
+G0161,Uetikon am See,council,municipality,G0002,,pending,,,,,,159
+G0162,Uitikon,council,municipality,G0002,,pending,,,,,,248
+G0163,Unterengstringen,council,municipality,G0002,,pending,,,,,,249
+G0164,Urdorf,council,municipality,G0002,,pending,,,,,,250
+G0165,Uster,council,municipality,G0002,,pending,,,,,,198
+G0166,Volken,council,municipality,G0002,,pending,,,,,,43
+G0167,Volketswil,council,municipality,G0002,,pending,,,,,,199
+G0168,Wald (ZH),council,municipality,G0002,,pending,,,,,,120
+G0169,Wallisellen,council,municipality,G0002,,pending,,,,,,69
+G0170,Wangen-BrÃ¼ttisellen,council,municipality,G0002,,pending,,,,,,200
+G0171,Wasterkingen,council,municipality,G0002,,pending,,,,,,70
+G0172,Weiach,council,municipality,G0002,,pending,,,,,,102
+G0173,Weiningen (ZH),council,municipality,G0002,,pending,,,,,,251
+G0174,Weisslingen,council,municipality,G0002,,pending,,,,,,180
+G0175,Wettswil am Albis,council,municipality,G0002,,pending,,,,,,14
+G0176,Wetzikon (ZH),council,municipality,G0002,,pending,,,,,,121
+G0177,Wiesendangen,council,municipality,G0002,,pending,,,,,,298
+G0178,Wil (ZH),council,municipality,G0002,,pending,,,,,,71
+G0179,Wila,council,municipality,G0002,,pending,,,,,,181
+G0180,Wildberg,council,municipality,G0002,,pending,,,,,,182
+G0181,Winkel,council,municipality,G0002,,pending,,,,,,72
+G0182,Winterthur,council,municipality,G0002,,pending,,,,,,230
+G0183,WÃ¤denswil,council,municipality,G0002,,pending,,,,,,293
+G0184,Zell (ZH),council,municipality,G0002,,pending,,,,,,231
+G0185,Zollikon,council,municipality,G0002,,pending,,,,,,161
+G0186,Zumikon,council,municipality,G0002,,pending,,,,,,160
+G0187,ZÃ¼rich,council,municipality,G0002,,pending,,,,,,261
+G0188,Aarberg,council,municipality,G0003,,pending,,,,,,301
+G0189,Aarwangen,council,municipality,G0003,,pending,,,,,,321
+G0190,Adelboden,council,municipality,G0003,,pending,,,,,,561
+G0191,Aefligen,council,municipality,G0003,,pending,,,,,,401
+G0192,Aegerten,council,municipality,G0003,,pending,,,,,,731
+G0193,Aeschi bei Spiez,council,municipality,G0003,,pending,,,,,,562
+G0194,Affoltern im Emmental,council,municipality,G0003,,pending,,,,,,951
+G0195,Alchenstorf,council,municipality,G0003,,pending,,,,,,402
+G0196,Allmendingen,council,municipality,G0003,,pending,,,,,,630
+G0197,Amsoldingen,council,municipality,G0003,,pending,,,,,,921
+G0198,Arch,council,municipality,G0003,,pending,,,,,,381
+G0199,Arni (BE),council,municipality,G0003,,pending,,,,,,602
+G0200,Attiswil,council,municipality,G0003,,pending,,,,,,971
+G0201,Auswil,council,municipality,G0003,,pending,,,,,,322
+G0202,Bannwil,council,municipality,G0003,,pending,,,,,,323
+G0203,Bargen (BE),council,municipality,G0003,,pending,,,,,,302
+G0204,Beatenberg,council,municipality,G0003,,pending,,,,,,571
+G0205,Bellmund,council,municipality,G0003,,pending,,,,,,732
+G0206,Belp,council,municipality,G0003,,pending,,,,,,861
+G0207,Belprahon,council,municipality,G0003,,pending,,,,,,681
+G0208,Berken,council,municipality,G0003,,pending,,,,,,972
+G0209,Bern,council,municipality,G0003,,pending,,,,,,351
+G0210,Bettenhausen,council,municipality,G0003,,pending,,,,,,973
+G0211,Biel/Bienne,council,municipality,G0003,,pending,,,,,,371
+G0212,Biglen,council,municipality,G0003,,pending,,,,,,603
+G0213,Bleienbach,council,municipality,G0003,,pending,,,,,,324
+G0214,Blumenstein,council,municipality,G0003,,pending,,,,,,922
+G0215,Bolligen,council,municipality,G0003,,pending,,,,,,352
+G0216,Boltigen,council,municipality,G0003,,pending,,,,,,791
+G0217,Bowil,council,municipality,G0003,,pending,,,,,,605
+G0218,Bremgarten bei Bern,council,municipality,G0003,,pending,,,,,,353
+G0219,Brenzikofen,council,municipality,G0003,,pending,,,,,,606
+G0220,Brienz (BE),council,municipality,G0003,,pending,,,,,,573
+G0221,Brienzwiler,council,municipality,G0003,,pending,,,,,,574
+G0222,BrÃ¼gg,council,municipality,G0003,,pending,,,,,,733
+G0223,BrÃ¼ttelen,council,municipality,G0003,,pending,,,,,,491
+G0224,Buchholterberg,council,municipality,G0003,,pending,,,,,,923
+G0225,Burgdorf,council,municipality,G0003,,pending,,,,,,404
+G0226,Burgistein,council,municipality,G0003,,pending,,,,,,863
+G0227,Busswil bei Melchnau,council,municipality,G0003,,pending,,,,,,325
+G0228,BÃ¤riswil,council,municipality,G0003,,pending,,,,,,403
+G0229,BÃ¤tterkinden,council,municipality,G0003,,pending,,,,,,533
+G0230,BÃ¶nigen,council,municipality,G0003,,pending,,,,,,572
+G0231,BÃ¼etigen,council,municipality,G0003,,pending,,,,,,382
+G0232,BÃ¼hl,council,municipality,G0003,,pending,,,,,,734
+G0233,BÃ¼ren an der Aare,council,municipality,G0003,,pending,,,,,,383
+G0234,Champoz,council,municipality,G0003,,pending,,,,,,683
+G0235,Corcelles (BE),council,municipality,G0003,,pending,,,,,,687
+G0236,CorgÃ©mont,council,municipality,G0003,,pending,,,,,,431
+G0237,Cormoret,council,municipality,G0003,,pending,,,,,,432
+G0238,CortÃ©bert,council,municipality,G0003,,pending,,,,,,433
+G0239,Court,council,municipality,G0003,,pending,,,,,,690
+G0240,Courtelary,council,municipality,G0003,,pending,,,,,,434
+G0241,CrÃ©mines,council,municipality,G0003,,pending,,,,,,691
+G0242,Deisswil bei MÃ¼nchenbuchsee,council,municipality,G0003,,pending,,,,,,535
+G0243,Diemtigen,council,municipality,G0003,,pending,,,,,,762
+G0244,Diessbach bei BÃ¼ren,council,municipality,G0003,,pending,,,,,,385
+G0245,Dotzigen,council,municipality,G0003,,pending,,,,,,386
+G0246,DÃ¤rligen,council,municipality,G0003,,pending,,,,,,575
+G0247,DÃ¤rstetten,council,municipality,G0003,,pending,,,,,,761
+G0248,DÃ¼rrenroth,council,municipality,G0003,,pending,,,,,,952
+G0249,Eggiwil,council,municipality,G0003,,pending,,,,,,901
+G0250,Epsach,council,municipality,G0003,,pending,,,,,,735
+G0251,Eriswil,council,municipality,G0003,,pending,,,,,,953
+G0252,Eriz,council,municipality,G0003,,pending,,,,,,924
+G0253,Erlach,council,municipality,G0003,,pending,,,,,,492
+G0254,Erlenbach im Simmental,council,municipality,G0003,,pending,,,,,,763
+G0255,Ersigen,council,municipality,G0003,,pending,,,,,,405
+G0256,Eschert,council,municipality,G0003,,pending,,,,,,692
+G0257,Evilard,council,municipality,G0003,,pending,,,,,,372
+G0258,Fahrni,council,municipality,G0003,,pending,,,,,,925
+G0259,Farnern,council,municipality,G0003,,pending,,,,,,975
+G0260,Ferenbalm,council,municipality,G0003,,pending,,,,,,662
+G0261,Finsterhennen,council,municipality,G0003,,pending,,,,,,493
+G0262,Forst-LÃ¤ngenbÃ¼hl,council,municipality,G0003,,pending,,,,,,948
+G0263,Fraubrunnen,council,municipality,G0003,,pending,,,,,,538
+G0264,Frauenkappelen,council,municipality,G0003,,pending,,,,,,663
+G0265,Freimettigen,council,municipality,G0003,,pending,,,,,,607
+G0266,Frutigen,council,municipality,G0003,,pending,,,,,,563
+G0267,Gals,council,municipality,G0003,,pending,,,,,,494
+G0268,Gampelen,council,municipality,G0003,,pending,,,,,,495
+G0269,Gerzensee,council,municipality,G0003,,pending,,,,,,866
+G0270,Gondiswil,council,municipality,G0003,,pending,,,,,,326
+G0271,Graben,council,municipality,G0003,,pending,,,,,,976
+G0272,Grandval,council,municipality,G0003,,pending,,,,,,694
+G0273,Grindelwald,council,municipality,G0003,,pending,,,,,,576
+G0274,Grossaffoltern,council,municipality,G0003,,pending,,,,,,303
+G0275,GrosshÃ¶chstetten,council,municipality,G0003,,pending,,,,,,608
+G0276,Gsteig,council,municipality,G0003,,pending,,,,,,841
+G0277,Gsteigwiler,council,municipality,G0003,,pending,,,,,,577
+G0278,Guggisberg,council,municipality,G0003,,pending,,,,,,852
+G0279,GurbrÃ¼,council,municipality,G0003,,pending,,,,,,665
+G0280,Gurzelen,council,municipality,G0003,,pending,,,,,,867
+G0281,Guttannen,council,municipality,G0003,,pending,,,,,,782
+G0282,GÃ¼ndlischwand,council,municipality,G0003,,pending,,,,,,578
+G0283,Habkern,council,municipality,G0003,,pending,,,,,,579
+G0284,Hagneck,council,municipality,G0003,,pending,,,,,,736
+G0285,Hasle bei Burgdorf,council,municipality,G0003,,pending,,,,,,406
+G0286,Hasliberg,council,municipality,G0003,,pending,,,,,,783
+G0287,Heiligenschwendi,council,municipality,G0003,,pending,,,,,,927
+G0288,Heimberg,council,municipality,G0003,,pending,,,,,,928
+G0289,Heimenhausen,council,municipality,G0003,,pending,,,,,,977
+G0290,Heimiswil,council,municipality,G0003,,pending,,,,,,407
+G0291,Hellsau,council,municipality,G0003,,pending,,,,,,408
+G0292,Herbligen,council,municipality,G0003,,pending,,,,,,610
+G0293,Hermrigen,council,municipality,G0003,,pending,,,,,,737
+G0294,Herzogenbuchsee,council,municipality,G0003,,pending,,,,,,979
+G0295,Hilterfingen,council,municipality,G0003,,pending,,,,,,929
+G0296,Hindelbank,council,municipality,G0003,,pending,,,,,,409
+G0297,Hofstetten bei Brienz,council,municipality,G0003,,pending,,,,,,580
+G0298,Homberg,council,municipality,G0003,,pending,,,,,,931
+G0299,Horrenbach-Buchen,council,municipality,G0003,,pending,,,,,,932
+G0300,Huttwil,council,municipality,G0003,,pending,,,,,,954
+G0301,HÃ¤utligen,council,municipality,G0003,,pending,,,,,,609
+G0302,HÃ¶chstetten,council,municipality,G0003,,pending,,,,,,410
+G0303,Iffwil,council,municipality,G0003,,pending,,,,,,541
+G0304,Inkwil,council,municipality,G0003,,pending,,,,,,980
+G0305,Innertkirchen,council,municipality,G0003,,pending,,,,,,784
+G0306,Ins,council,municipality,G0003,,pending,,,,,,496
+G0307,Interlaken,council,municipality,G0003,,pending,,,,,,581
+G0308,Ipsach,council,municipality,G0003,,pending,,,,,,739
+G0309,Iseltwald,council,municipality,G0003,,pending,,,,,,582
+G0310,Ittigen,council,municipality,G0003,,pending,,,,,,362
+G0311,Jaberg,council,municipality,G0003,,pending,,,,,,868
+G0312,Jegenstorf,council,municipality,G0003,,pending,,,,,,540
+G0313,Jens,council,municipality,G0003,,pending,,,,,,738
+G0314,Kallnach,council,municipality,G0003,,pending,,,,,,304
+G0315,Kandergrund,council,municipality,G0003,,pending,,,,,,564
+G0316,Kandersteg,council,municipality,G0003,,pending,,,,,,565
+G0317,Kappelen,council,municipality,G0003,,pending,,,,,,305
+G0318,Kaufdorf,council,municipality,G0003,,pending,,,,,,869
+G0319,Kehrsatz,council,municipality,G0003,,pending,,,,,,870
+G0320,Kernenried,council,municipality,G0003,,pending,,,,,,411
+G0321,Kiesen,council,municipality,G0003,,pending,,,,,,611
+G0322,Kirchberg (BE),council,municipality,G0003,,pending,,,,,,412
+G0323,Kirchdorf (BE),council,municipality,G0003,,pending,,,,,,872
+G0324,Kirchlindach,council,municipality,G0003,,pending,,,,,,354
+G0325,Konolfingen,council,municipality,G0003,,pending,,,,,,612
+G0326,Koppigen,council,municipality,G0003,,pending,,,,,,413
+G0327,Krattigen,council,municipality,G0003,,pending,,,,,,566
+G0328,Krauchthal,council,municipality,G0003,,pending,,,,,,414
+G0329,Kriechenwil,council,municipality,G0003,,pending,,,,,,666
+G0330,KÃ¶niz,council,municipality,G0003,,pending,,,,,,355
+G0331,La FerriÃ¨re,council,municipality,G0003,,pending,,,,,,435
+G0332,La Neuveville,council,municipality,G0003,,pending,,,,,,723
+G0333,Landiswil,council,municipality,G0003,,pending,,,,,,613
+G0334,Langenthal,council,municipality,G0003,,pending,,,,,,329
+G0335,Langnau im Emmental,council,municipality,G0003,,pending,,,,,,902
+G0336,Lauenen,council,municipality,G0003,,pending,,,,,,842
+G0337,Laupen,council,municipality,G0003,,pending,,,,,,667
+G0338,Lauperswil,council,municipality,G0003,,pending,,,,,,903
+G0339,Lauterbrunnen,council,municipality,G0003,,pending,,,,,,584
+G0340,Leissigen,council,municipality,G0003,,pending,,,,,,585
+G0341,Lengnau (BE),council,municipality,G0003,,pending,,,,,,387
+G0342,Lenk,council,municipality,G0003,,pending,,,,,,792
+G0343,Leuzigen,council,municipality,G0003,,pending,,,,,,388
+G0344,Ligerz,council,municipality,G0003,,pending,,,,,,740
+G0345,Linden,council,municipality,G0003,,pending,,,,,,614
+G0346,Lotzwil,council,municipality,G0003,,pending,,,,,,331
+G0347,Loveresse,council,municipality,G0003,,pending,,,,,,696
+G0348,Lyss,council,municipality,G0003,,pending,,,,,,306
+G0349,Lyssach,council,municipality,G0003,,pending,,,,,,415
+G0350,LÃ¼scherz,council,municipality,G0003,,pending,,,,,,497
+G0351,LÃ¼tschental,council,municipality,G0003,,pending,,,,,,586
+G0352,LÃ¼tzelflÃ¼h,council,municipality,G0003,,pending,,,,,,955
+G0353,Madiswil,council,municipality,G0003,,pending,,,,,,332
+G0354,Matten bei Interlaken,council,municipality,G0003,,pending,,,,,,587
+G0355,Mattstetten,council,municipality,G0003,,pending,,,,,,543
+G0356,Meienried,council,municipality,G0003,,pending,,,,,,389
+G0357,Meikirch,council,municipality,G0003,,pending,,,,,,307
+G0358,Meinisberg,council,municipality,G0003,,pending,,,,,,390
+G0359,Meiringen,council,municipality,G0003,,pending,,,,,,785
+G0360,Melchnau,council,municipality,G0003,,pending,,,,,,333
+G0361,Merzligen,council,municipality,G0003,,pending,,,,,,741
+G0362,Mirchel,council,municipality,G0003,,pending,,,,,,615
+G0363,Mont-Tramelan,council,municipality,G0003,,pending,,,,,,437
+G0364,Moosseedorf,council,municipality,G0003,,pending,,,,,,544
+G0365,Muri bei Bern,council,municipality,G0003,,pending,,,,,,356
+G0366,MÃ¶rigen,council,municipality,G0003,,pending,,,,,,742
+G0367,MÃ¼hleberg,council,municipality,G0003,,pending,,,,,,668
+G0368,MÃ¼nchenbuchsee,council,municipality,G0003,,pending,,,,,,546
+G0369,MÃ¼nchenwiler,council,municipality,G0003,,pending,,,,,,669
+G0370,MÃ¼nsingen,council,municipality,G0003,,pending,,,,,,616
+G0371,MÃ¼ntschemier,council,municipality,G0003,,pending,,,,,,498
+G0372,Neuenegg,council,municipality,G0003,,pending,,,,,,670
+G0373,Nidau,council,municipality,G0003,,pending,,,,,,743
+G0374,Niederbipp,council,municipality,G0003,,pending,,,,,,981
+G0375,NiederhÃ¼nigen,council,municipality,G0003,,pending,,,,,,617
+G0376,Niedermuhlern,council,municipality,G0003,,pending,,,,,,877
+G0377,Niederried bei Interlaken,council,municipality,G0003,,pending,,,,,,588
+G0378,NiederÃ¶nz,council,municipality,G0003,,pending,,,,,,982
+G0379,Nods,council,municipality,G0003,,pending,,,,,,724
+G0380,Oberbalm,council,municipality,G0003,,pending,,,,,,357
+G0381,Oberbipp,council,municipality,G0003,,pending,,,,,,983
+G0382,Oberburg,council,municipality,G0003,,pending,,,,,,418
+G0383,Oberdiessbach,council,municipality,G0003,,pending,,,,,,619
+G0384,Oberhofen am Thunersee,council,municipality,G0003,,pending,,,,,,934
+G0385,OberhÃ¼nigen,council,municipality,G0003,,pending,,,,,,629
+G0386,Oberlangenegg,council,municipality,G0003,,pending,,,,,,935
+G0387,Oberried am Brienzersee,council,municipality,G0003,,pending,,,,,,589
+G0388,Oberthal,council,municipality,G0003,,pending,,,,,,620
+G0389,Oberwil bei BÃ¼ren,council,municipality,G0003,,pending,,,,,,391
+G0390,Oberwil im Simmental,council,municipality,G0003,,pending,,,,,,766
+G0391,Ochlenberg,council,municipality,G0003,,pending,,,,,,985
+G0392,Oeschenbach,council,municipality,G0003,,pending,,,,,,335
+G0393,Oppligen,council,municipality,G0003,,pending,,,,,,622
+G0394,Orpund,council,municipality,G0003,,pending,,,,,,744
+G0395,Orvin,council,municipality,G0003,,pending,,,,,,438
+G0396,Ostermundigen,council,municipality,G0003,,pending,,,,,,363
+G0397,Perrefitte,council,municipality,G0003,,pending,,,,,,701
+G0398,Petit-Val,council,municipality,G0003,,pending,,,,,,716
+G0399,Pieterlen,council,municipality,G0003,,pending,,,,,,392
+G0400,Plateau de Diesse,council,municipality,G0003,,pending,,,,,,726
+G0401,Pohlern,council,municipality,G0003,,pending,,,,,,936
+G0402,Port,council,municipality,G0003,,pending,,,,,,745
+G0403,PÃ©ry-La Heutte,council,municipality,G0003,,pending,,,,,,450
+G0404,Radelfingen,council,municipality,G0003,,pending,,,,,,309
+G0405,Rapperswil (BE),council,municipality,G0003,,pending,,,,,,310
+G0406,RebÃ©velier,council,municipality,G0003,,pending,,,,,,715
+G0407,Reconvilier,council,municipality,G0003,,pending,,,,,,703
+G0408,Reichenbach im Kandertal,council,municipality,G0003,,pending,,,,,,567
+G0409,Reisiswil,council,municipality,G0003,,pending,,,,,,336
+G0410,Renan (BE),council,municipality,G0003,,pending,,,,,,441
+G0411,Reutigen,council,municipality,G0003,,pending,,,,,,767
+G0412,Riggisberg,council,municipality,G0003,,pending,,,,,,879
+G0413,Ringgenberg (BE),council,municipality,G0003,,pending,,,,,,590
+G0414,Roches (BE),council,municipality,G0003,,pending,,,,,,704
+G0415,Roggwil (BE),council,municipality,G0003,,pending,,,,,,337
+G0416,Rohrbach,council,municipality,G0003,,pending,,,,,,338
+G0417,Rohrbachgraben,council,municipality,G0003,,pending,,,,,,339
+G0418,Romont (BE),council,municipality,G0003,,pending,,,,,,442
+G0419,Rubigen,council,municipality,G0003,,pending,,,,,,623
+G0420,Rumendingen,council,municipality,G0003,,pending,,,,,,421
+G0421,Rumisberg,council,municipality,G0003,,pending,,,,,,987
+G0422,RÃ¶thenbach im Emmental,council,municipality,G0003,,pending,,,,,,904
+G0423,RÃ¼derswil,council,municipality,G0003,,pending,,,,,,905
+G0424,RÃ¼dtligen-AlchenflÃ¼h,council,municipality,G0003,,pending,,,,,,420
+G0425,RÃ¼eggisberg,council,municipality,G0003,,pending,,,,,,880
+G0426,RÃ¼egsau,council,municipality,G0003,,pending,,,,,,956
+G0427,RÃ¼schegg,council,municipality,G0003,,pending,,,,,,853
+G0428,RÃ¼ti bei BÃ¼ren,council,municipality,G0003,,pending,,,,,,393
+G0429,RÃ¼ti bei Lyssach,council,municipality,G0003,,pending,,,,,,422
+G0430,RÃ¼tschelen,council,municipality,G0003,,pending,,,,,,340
+G0431,Saanen,council,municipality,G0003,,pending,,,,,,843
+G0432,Safnern,council,municipality,G0003,,pending,,,,,,746
+G0433,Saicourt,council,municipality,G0003,,pending,,,,,,706
+G0434,Saint-Imier,council,municipality,G0003,,pending,,,,,,443
+G0435,Sauge,council,municipality,G0003,,pending,,,,,,449
+G0436,Saules (BE),council,municipality,G0003,,pending,,,,,,707
+G0437,Saxeten,council,municipality,G0003,,pending,,,,,,591
+G0438,Schangnau,council,municipality,G0003,,pending,,,,,,906
+G0439,Schattenhalb,council,municipality,G0003,,pending,,,,,,786
+G0440,Schelten,council,municipality,G0003,,pending,,,,,,708
+G0441,Scheuren,council,municipality,G0003,,pending,,,,,,747
+G0442,Schwadernau,council,municipality,G0003,,pending,,,,,,748
+G0443,Schwanden bei Brienz,council,municipality,G0003,,pending,,,,,,592
+G0444,Schwarzenburg,council,municipality,G0003,,pending,,,,,,855
+G0445,SchwarzhÃ¤usern,council,municipality,G0003,,pending,,,,,,341
+G0446,SchÃ¼pfen,council,municipality,G0003,,pending,,,,,,311
+G0447,Seeberg,council,municipality,G0003,,pending,,,,,,988
+G0448,Seedorf (BE),council,municipality,G0003,,pending,,,,,,312
+G0449,Seehof,council,municipality,G0003,,pending,,,,,,709
+G0450,Seftigen,council,municipality,G0003,,pending,,,,,,883
+G0451,Signau,council,municipality,G0003,,pending,,,,,,907
+G0452,Sigriswil,council,municipality,G0003,,pending,,,,,,938
+G0453,Siselen,council,municipality,G0003,,pending,,,,,,499
+G0454,Sonceboz-Sombeval,council,municipality,G0003,,pending,,,,,,444
+G0455,Sonvilier,council,municipality,G0003,,pending,,,,,,445
+G0456,Sorvilier,council,municipality,G0003,,pending,,,,,,711
+G0457,Spiez,council,municipality,G0003,,pending,,,,,,768
+G0458,St. Stephan,council,municipality,G0003,,pending,,,,,,793
+G0459,Steffisburg,council,municipality,G0003,,pending,,,,,,939
+G0460,Stettlen,council,municipality,G0003,,pending,,,,,,358
+G0461,Stocken-HÃ¶fen,council,municipality,G0003,,pending,,,,,,770
+G0462,Studen (BE),council,municipality,G0003,,pending,,,,,,749
+G0463,Sumiswald,council,municipality,G0003,,pending,,,,,,957
+G0464,Sutz-Lattrigen,council,municipality,G0003,,pending,,,,,,750
+G0465,Tavannes,council,municipality,G0003,,pending,,,,,,713
+G0466,Teuffenthal (BE),council,municipality,G0003,,pending,,,,,,940
+G0467,Thierachern,council,municipality,G0003,,pending,,,,,,941
+G0468,Thun,council,municipality,G0003,,pending,,,,,,942
+G0469,Thunstetten,council,municipality,G0003,,pending,,,,,,342
+G0470,Thurnen,council,municipality,G0003,,pending,,,,,,889
+G0471,ThÃ¶rigen,council,municipality,G0003,,pending,,,,,,989
+G0472,Toffen,council,municipality,G0003,,pending,,,,,,884
+G0473,Trachselwald,council,municipality,G0003,,pending,,,,,,958
+G0474,Tramelan,council,municipality,G0003,,pending,,,,,,446
+G0475,Treiten,council,municipality,G0003,,pending,,,,,,500
+G0476,Trub,council,municipality,G0003,,pending,,,,,,908
+G0477,Trubschachen,council,municipality,G0003,,pending,,,,,,909
+G0478,Tschugg,council,municipality,G0003,,pending,,,,,,501
+G0479,Twann-TÃ¼scherz,council,municipality,G0003,,pending,,,,,,756
+G0480,TÃ¤uffelen,council,municipality,G0003,,pending,,,,,,751
+G0481,Uebeschi,council,municipality,G0003,,pending,,,,,,943
+G0482,Uetendorf,council,municipality,G0003,,pending,,,,,,944
+G0483,Unterlangenegg,council,municipality,G0003,,pending,,,,,,945
+G0484,Unterseen,council,municipality,G0003,,pending,,,,,,593
+G0485,Ursenbach,council,municipality,G0003,,pending,,,,,,344
+G0486,Urtenen-SchÃ¶nbÃ¼hl,council,municipality,G0003,,pending,,,,,,551
+G0487,Uttigen,council,municipality,G0003,,pending,,,,,,885
+G0488,Utzenstorf,council,municipality,G0003,,pending,,,,,,552
+G0489,Valbirse,council,municipality,G0003,,pending,,,,,,717
+G0490,Vechigen,council,municipality,G0003,,pending,,,,,,359
+G0491,Villeret,council,municipality,G0003,,pending,,,,,,448
+G0492,Vinelz,council,municipality,G0003,,pending,,,,,,502
+G0493,Wachseldorn,council,municipality,G0003,,pending,,,,,,946
+G0494,Wald (BE),council,municipality,G0003,,pending,,,,,,888
+G0495,Walkringen,council,municipality,G0003,,pending,,,,,,626
+G0496,Walliswil bei Niederbipp,council,municipality,G0003,,pending,,,,,,990
+G0497,Walliswil bei Wangen,council,municipality,G0003,,pending,,,,,,991
+G0498,Walperswil,council,municipality,G0003,,pending,,,,,,754
+G0499,Walterswil (BE),council,municipality,G0003,,pending,,,,,,959
+G0500,Wangen an der Aare,council,municipality,G0003,,pending,,,,,,992
+G0501,Wattenwil,council,municipality,G0003,,pending,,,,,,886
+G0502,Wengi,council,municipality,G0003,,pending,,,,,,394
+G0503,Wichtrach,council,municipality,G0003,,pending,,,,,,632
+G0504,Wiedlisbach,council,municipality,G0003,,pending,,,,,,995
+G0505,Wiggiswil,council,municipality,G0003,,pending,,,,,,553
+G0506,Wilderswil,council,municipality,G0003,,pending,,,,,,594
+G0507,Wiler bei Utzenstorf,council,municipality,G0003,,pending,,,,,,554
+G0508,Wileroltigen,council,municipality,G0003,,pending,,,,,,671
+G0509,Willadingen,council,municipality,G0003,,pending,,,,,,423
+G0510,Wimmis,council,municipality,G0003,,pending,,,,,,769
+G0511,Wohlen bei Bern,council,municipality,G0003,,pending,,,,,,360
+G0512,Worb,council,municipality,G0003,,pending,,,,,,627
+G0513,Worben,council,municipality,G0003,,pending,,,,,,755
+G0514,Wynau,council,municipality,G0003,,pending,,,,,,345
+G0515,Wynigen,council,municipality,G0003,,pending,,,,,,424
+G0516,Wyssachen,council,municipality,G0003,,pending,,,,,,960
+G0517,Zielebach,council,municipality,G0003,,pending,,,,,,556
+G0518,Zollikofen,council,municipality,G0003,,pending,,,,,,361
+G0519,Zuzwil (BE),council,municipality,G0003,,pending,,,,,,557
+G0520,Zweisimmen,council,municipality,G0003,,pending,,,,,,794
+G0521,ZÃ¤ziwil,council,municipality,G0003,,pending,,,,,,628
+G0522,Adligenswil,council,municipality,G0004,,pending,,,,,,1051
+G0523,Aesch (LU),council,municipality,G0004,,pending,,,,,,1021
+G0524,Alberswil,council,municipality,G0004,,pending,,,,,,1121
+G0525,AltbÃ¼ron,council,municipality,G0004,,pending,,,,,,1122
+G0526,Altishofen,council,municipality,G0004,,pending,,,,,,1123
+G0527,Ballwil,council,municipality,G0004,,pending,,,,,,1023
+G0528,BeromÃ¼nster,council,municipality,G0004,,pending,,,,,,1081
+G0529,Buchrain,council,municipality,G0004,,pending,,,,,,1052
+G0530,Buttisholz,council,municipality,G0004,,pending,,,,,,1083
+G0531,BÃ¼ron,council,municipality,G0004,,pending,,,,,,1082
+G0532,Dagmersellen,council,municipality,G0004,,pending,,,,,,1125
+G0533,Dierikon,council,municipality,G0004,,pending,,,,,,1053
+G0534,Doppleschwand,council,municipality,G0004,,pending,,,,,,1001
+G0535,Ebikon,council,municipality,G0004,,pending,,,,,,1054
+G0536,Egolzwil,council,municipality,G0004,,pending,,,,,,1127
+G0537,Eich,council,municipality,G0004,,pending,,,,,,1084
+G0538,Emmen,council,municipality,G0004,,pending,,,,,,1024
+G0539,Entlebuch,council,municipality,G0004,,pending,,,,,,1002
+G0540,Ermensee,council,municipality,G0004,,pending,,,,,,1025
+G0541,Eschenbach (LU),council,municipality,G0004,,pending,,,,,,1026
+G0542,Escholzmatt-Marbach,council,municipality,G0004,,pending,,,,,,1010
+G0543,Ettiswil,council,municipality,G0004,,pending,,,,,,1128
+G0544,Fischbach,council,municipality,G0004,,pending,,,,,,1129
+G0545,FlÃ¼hli,council,municipality,G0004,,pending,,,,,,1004
+G0546,Geuensee,council,municipality,G0004,,pending,,,,,,1085
+G0547,Gisikon,council,municipality,G0004,,pending,,,,,,1055
+G0548,Greppen,council,municipality,G0004,,pending,,,,,,1056
+G0549,Grossdietwil,council,municipality,G0004,,pending,,,,,,1131
+G0550,Grosswangen,council,municipality,G0004,,pending,,,,,,1086
+G0551,Hasle (LU),council,municipality,G0004,,pending,,,,,,1005
+G0552,Hergiswil bei Willisau,council,municipality,G0004,,pending,,,,,,1132
+G0553,Hildisrieden,council,municipality,G0004,,pending,,,,,,1088
+G0554,Hitzkirch,council,municipality,G0004,,pending,,,,,,1030
+G0555,Hochdorf,council,municipality,G0004,,pending,,,,,,1031
+G0556,Hohenrain,council,municipality,G0004,,pending,,,,,,1032
+G0557,Horw,council,municipality,G0004,,pending,,,,,,1058
+G0558,Inwil,council,municipality,G0004,,pending,,,,,,1033
+G0559,Knutwil,council,municipality,G0004,,pending,,,,,,1089
+G0560,Kriens,council,municipality,G0004,,pending,,,,,,1059
+G0561,Luthern,council,municipality,G0004,,pending,,,,,,1135
+G0562,Luzern,council,municipality,G0004,,pending,,,,,,1061
+G0563,Malters,council,municipality,G0004,,pending,,,,,,1062
+G0564,Mauensee,council,municipality,G0004,,pending,,,,,,1091
+G0565,Meggen,council,municipality,G0004,,pending,,,,,,1063
+G0566,Meierskappel,council,municipality,G0004,,pending,,,,,,1064
+G0567,Menznau,council,municipality,G0004,,pending,,,,,,1136
+G0568,Nebikon,council,municipality,G0004,,pending,,,,,,1137
+G0569,Neuenkirch,council,municipality,G0004,,pending,,,,,,1093
+G0570,Nottwil,council,municipality,G0004,,pending,,,,,,1094
+G0571,Oberkirch,council,municipality,G0004,,pending,,,,,,1095
+G0572,Pfaffnau,council,municipality,G0004,,pending,,,,,,1139
+G0573,Rain,council,municipality,G0004,,pending,,,,,,1037
+G0574,Reiden,council,municipality,G0004,,pending,,,,,,1140
+G0575,Rickenbach (LU),council,municipality,G0004,,pending,,,,,,1097
+G0576,Roggliswil,council,municipality,G0004,,pending,,,,,,1142
+G0577,Romoos,council,municipality,G0004,,pending,,,,,,1007
+G0578,Root,council,municipality,G0004,,pending,,,,,,1065
+G0579,Rothenburg,council,municipality,G0004,,pending,,,,,,1040
+G0580,Ruswil,council,municipality,G0004,,pending,,,,,,1098
+G0581,RÃ¶merswil,council,municipality,G0004,,pending,,,,,,1039
+G0582,Schenkon,council,municipality,G0004,,pending,,,,,,1099
+G0583,Schlierbach,council,municipality,G0004,,pending,,,,,,1100
+G0584,Schongau,council,municipality,G0004,,pending,,,,,,1041
+G0585,Schwarzenberg,council,municipality,G0004,,pending,,,,,,1066
+G0586,SchÃ¶tz,council,municipality,G0004,,pending,,,,,,1143
+G0587,SchÃ¼pfheim,council,municipality,G0004,,pending,,,,,,1008
+G0588,Sempach,council,municipality,G0004,,pending,,,,,,1102
+G0589,Sursee,council,municipality,G0004,,pending,,,,,,1103
+G0590,Triengen,council,municipality,G0004,,pending,,,,,,1104
+G0591,Udligenswil,council,municipality,G0004,,pending,,,,,,1067
+G0592,Ufhusen,council,municipality,G0004,,pending,,,,,,1145
+G0593,Vitznau,council,municipality,G0004,,pending,,,,,,1068
+G0594,Wauwil,council,municipality,G0004,,pending,,,,,,1146
+G0595,Weggis,council,municipality,G0004,,pending,,,,,,1069
+G0596,Werthenstein,council,municipality,G0004,,pending,,,,,,1009
+G0597,Wikon,council,municipality,G0004,,pending,,,,,,1147
+G0598,Willisau,council,municipality,G0004,,pending,,,,,,1151
+G0599,Wolhusen,council,municipality,G0004,,pending,,,,,,1107
+G0600,Zell (LU),council,municipality,G0004,,pending,,,,,,1150
+G0601,Altdorf (UR),council,municipality,G0005,,pending,,,,,,1201
+G0602,Andermatt,council,municipality,G0005,,pending,,,,,,1202
+G0603,Attinghausen,council,municipality,G0005,,pending,,,,,,1203
+G0604,BÃ¼rglen (UR),council,municipality,G0005,,pending,,,,,,1205
+G0605,Erstfeld,council,municipality,G0005,,pending,,,,,,1206
+G0606,FlÃ¼elen,council,municipality,G0005,,pending,,,,,,1207
+G0607,Gurtnellen,council,municipality,G0005,,pending,,,,,,1209
+G0608,GÃ¶schenen,council,municipality,G0005,,pending,,,,,,1208
+G0609,Hospental,council,municipality,G0005,,pending,,,,,,1210
+G0610,Isenthal,council,municipality,G0005,,pending,,,,,,1211
+G0611,Realp,council,municipality,G0005,,pending,,,,,,1212
+G0612,Schattdorf,council,municipality,G0005,,pending,,,,,,1213
+G0613,Seedorf (UR),council,municipality,G0005,,pending,,,,,,1214
+G0614,Seelisberg,council,municipality,G0005,,pending,,,,,,1215
+G0615,Silenen,council,municipality,G0005,,pending,,,,,,1216
+G0616,Sisikon,council,municipality,G0005,,pending,,,,,,1217
+G0617,Spiringen,council,municipality,G0005,,pending,,,,,,1218
+G0618,UnterschÃ¤chen,council,municipality,G0005,,pending,,,,,,1219
+G0619,Wassen,council,municipality,G0005,,pending,,,,,,1220
+G0620,Alpthal,council,municipality,G0006,,pending,,,,,,1361
+G0621,Altendorf,council,municipality,G0006,,pending,,,,,,1341
+G0622,Arth,council,municipality,G0006,,pending,,,,,,1362
+G0623,Einsiedeln,council,municipality,G0006,,pending,,,,,,1301
+G0624,Feusisberg,council,municipality,G0006,,pending,,,,,,1321
+G0625,Freienbach,council,municipality,G0006,,pending,,,,,,1322
+G0626,Galgenen,council,municipality,G0006,,pending,,,,,,1342
+G0627,Gersau,council,municipality,G0006,,pending,,,,,,1311
+G0628,Illgau,council,municipality,G0006,,pending,,,,,,1363
+G0629,Ingenbohl,council,municipality,G0006,,pending,,,,,,1364
+G0630,Innerthal,council,municipality,G0006,,pending,,,,,,1343
+G0631,KÃ¼ssnacht (SZ),council,municipality,G0006,,pending,,,,,,1331
+G0632,Lachen,council,municipality,G0006,,pending,,,,,,1344
+G0633,Lauerz,council,municipality,G0006,,pending,,,,,,1365
+G0634,Morschach,council,municipality,G0006,,pending,,,,,,1366
+G0635,Muotathal,council,municipality,G0006,,pending,,,,,,1367
+G0636,Oberiberg,council,municipality,G0006,,pending,,,,,,1368
+G0637,Reichenburg,council,municipality,G0006,,pending,,,,,,1345
+G0638,Riemenstalden,council,municipality,G0006,,pending,,,,,,1369
+G0639,Rothenthurm,council,municipality,G0006,,pending,,,,,,1370
+G0640,Sattel,council,municipality,G0006,,pending,,,,,,1371
+G0641,Schwyz,council,municipality,G0006,,pending,,,,,,1372
+G0642,SchÃ¼belbach,council,municipality,G0006,,pending,,,,,,1346
+G0643,Steinen,council,municipality,G0006,,pending,,,,,,1373
+G0644,Steinerberg,council,municipality,G0006,,pending,,,,,,1374
+G0645,Tuggen,council,municipality,G0006,,pending,,,,,,1347
+G0646,Unteriberg,council,municipality,G0006,,pending,,,,,,1375
+G0647,Vorderthal,council,municipality,G0006,,pending,,,,,,1348
+G0648,Wangen (SZ),council,municipality,G0006,,pending,,,,,,1349
+G0649,Wollerau,council,municipality,G0006,,pending,,,,,,1323
+G0650,Alpnach,council,municipality,G0007,,pending,,,,,,1401
+G0651,Engelberg,council,municipality,G0007,,pending,,,,,,1402
+G0652,Giswil,council,municipality,G0007,,pending,,,,,,1403
+G0653,Kerns,council,municipality,G0007,,pending,,,,,,1404
+G0654,Lungern,council,municipality,G0007,,pending,,,,,,1405
+G0655,Sachseln,council,municipality,G0007,,pending,,,,,,1406
+G0656,Sarnen,council,municipality,G0007,,pending,,,,,,1407
+G0657,Beckenried,council,municipality,G0008,,pending,,,,,,1501
+G0658,Buochs,council,municipality,G0008,,pending,,,,,,1502
+G0659,Dallenwil,council,municipality,G0008,,pending,,,,,,1503
+G0660,Emmetten,council,municipality,G0008,,pending,,,,,,1504
+G0661,EnnetbÃ¼rgen,council,municipality,G0008,,pending,,,,,,1505
+G0662,Ennetmoos,council,municipality,G0008,,pending,,,,,,1506
+G0663,Hergiswil (NW),council,municipality,G0008,,pending,,,,,,1507
+G0664,Oberdorf (NW),council,municipality,G0008,,pending,,,,,,1508
+G0665,Stans,council,municipality,G0008,,pending,,,,,,1509
+G0666,Stansstad,council,municipality,G0008,,pending,,,,,,1510
+G0667,Wolfenschiessen,council,municipality,G0008,,pending,,,,,,1511
+G0668,Glarus,council,municipality,G0009,,pending,,,,,,1632
+G0669,Glarus Nord,council,municipality,G0009,,pending,,,,,,1630
+G0670,Glarus SÃ¼d,council,municipality,G0009,,pending,,,,,,1631
+G0671,Baar,council,municipality,G0010,,pending,,,,,,1701
+G0672,Cham,council,municipality,G0010,,pending,,,,,,1702
+G0673,HÃ¼nenberg,council,municipality,G0010,,pending,,,,,,1703
+G0674,Menzingen,council,municipality,G0010,,pending,,,,,,1704
+G0675,Neuheim,council,municipality,G0010,,pending,,,,,,1705
+G0676,OberÃ¤geri,council,municipality,G0010,,pending,,,,,,1706
+G0677,Risch,council,municipality,G0010,,pending,,,,,,1707
+G0678,Steinhausen,council,municipality,G0010,,pending,,,,,,1708
+G0679,UnterÃ¤geri,council,municipality,G0010,,pending,,,,,,1709
+G0680,Walchwil,council,municipality,G0010,,pending,,,,,,1710
+G0681,Zug,council,municipality,G0010,,pending,,,,,,1711
+G0682,Attalens,council,municipality,G0011,,pending,,,,,,2321
+G0683,Autigny,council,municipality,G0011,,pending,,,,,,2173
+G0684,Avry,council,municipality,G0011,,pending,,,,,,2174
+G0685,Bas-Intyamon,council,municipality,G0011,,pending,,,,,,2162
+G0686,Belfaux,council,municipality,G0011,,pending,,,,,,2175
+G0687,Belmont-Broye,council,municipality,G0011,,pending,,,,,,2053
+G0688,Billens-Hennens,council,municipality,G0011,,pending,,,,,,2063
+G0689,Bois-d'Amont,council,municipality,G0011,,pending,,,,,,2238
+G0690,Bossonnens,council,municipality,G0011,,pending,,,,,,2323
+G0691,Botterens,council,municipality,G0011,,pending,,,,,,2123
+G0692,Broc,council,municipality,G0011,,pending,,,,,,2124
+G0693,BrÃ¼nisried,council,municipality,G0011,,pending,,,,,,2292
+G0694,Bulle,council,municipality,G0011,,pending,,,,,,2125
+G0695,BÃ¶singen,council,municipality,G0011,,pending,,,,,,2295
+G0696,Cheyres-ChÃ¢bles,council,municipality,G0011,,pending,,,,,,2055
+G0697,ChÃ¢tel-Saint-Denis,council,municipality,G0011,,pending,,,,,,2325
+G0698,ChÃ¢tel-sur-Montsalvens,council,municipality,G0011,,pending,,,,,,2128
+G0699,ChÃ¢tillon (FR),council,municipality,G0011,,pending,,,,,,2008
+G0700,ChÃ¢tonnaye,council,municipality,G0011,,pending,,,,,,2068
+G0701,ChÃ©nens,council,municipality,G0011,,pending,,,,,,2177
+G0702,CorbiÃ¨res,council,municipality,G0011,,pending,,,,,,2129
+G0703,Corminboeuf,council,municipality,G0011,,pending,,,,,,2183
+G0704,Cottens (FR),council,municipality,G0011,,pending,,,,,,2186
+G0705,Courgevaux,council,municipality,G0011,,pending,,,,,,2250
+G0706,Courtepin,council,municipality,G0011,,pending,,,,,,2254
+G0707,Cressier (FR),council,municipality,G0011,,pending,,,,,,2257
+G0708,CrÃ©suz,council,municipality,G0011,,pending,,,,,,2130
+G0709,Cugy (FR),council,municipality,G0011,,pending,,,,,,2011
+G0710,Delley-Portalban,council,municipality,G0011,,pending,,,,,,2051
+G0711,DÃ¼dingen,council,municipality,G0011,,pending,,,,,,2293
+G0712,Echarlens,council,municipality,G0011,,pending,,,,,,2131
+G0713,Estavayer,council,municipality,G0011,,pending,,,,,,2054
+G0714,Ferpicloz,council,municipality,G0011,,pending,,,,,,2194
+G0715,Fribourg,council,municipality,G0011,,pending,,,,,,2196
+G0716,FrÃ¤schels,council,municipality,G0011,,pending,,,,,,2258
+G0717,FÃ©tigny-MÃ©niÃ¨res,council,municipality,G0011,,pending,,,,,,2056
+G0718,Gibloux,council,municipality,G0011,,pending,,,,,,2236
+G0719,Giffers,council,municipality,G0011,,pending,,,,,,2294
+G0720,Givisiez,council,municipality,G0011,,pending,,,,,,2197
+G0721,Gletterens,council,municipality,G0011,,pending,,,,,,2022
+G0722,Grandvillard,council,municipality,G0011,,pending,,,,,,2134
+G0723,Granges (Veveyse),council,municipality,G0011,,pending,,,,,,2328
+G0724,Granges-Paccot,council,municipality,G0011,,pending,,,,,,2198
+G0725,Grangettes,council,municipality,G0011,,pending,,,,,,2079
+G0726,Greng,council,municipality,G0011,,pending,,,,,,2261
+G0727,Grolley-Ponthaux,council,municipality,G0011,,pending,,,,,,2239
+G0728,GruyÃ¨res,council,municipality,G0011,,pending,,,,,,2135
+G0729,Gurmels,council,municipality,G0011,,pending,,,,,,2262
+G0730,Haut-Intyamon,council,municipality,G0011,,pending,,,,,,2121
+G0731,Hauterive (FR),council,municipality,G0011,,pending,,,,,,2233
+G0732,Hauteville,council,municipality,G0011,,pending,,,,,,2137
+G0733,Heitenried,council,municipality,G0011,,pending,,,,,,2296
+G0734,Jaun,council,municipality,G0011,,pending,,,,,,2138
+G0735,Kerzers,council,municipality,G0011,,pending,,,,,,2265
+G0736,KleinbÃ¶singen,council,municipality,G0011,,pending,,,,,,2266
+G0737,La Brillaz,council,municipality,G0011,,pending,,,,,,2234
+G0738,La Roche,council,municipality,G0011,,pending,,,,,,2149
+G0739,La Sonnaz,council,municipality,G0011,,pending,,,,,,2235
+G0740,La Verrerie,council,municipality,G0011,,pending,,,,,,2338
+G0741,Le ChÃ¢telard,council,municipality,G0011,,pending,,,,,,2067
+G0742,Le Flon,council,municipality,G0011,,pending,,,,,,2337
+G0743,Le Mouret,council,municipality,G0011,,pending,,,,,,2220
+G0744,Le PÃ¢quier (FR),council,municipality,G0011,,pending,,,,,,2145
+G0745,Les Montets,council,municipality,G0011,,pending,,,,,,2050
+G0746,Lully (FR),council,municipality,G0011,,pending,,,,,,2025
+G0747,Marly,council,municipality,G0011,,pending,,,,,,2206
+G0748,Marsens,council,municipality,G0011,,pending,,,,,,2140
+G0749,Massonnens,council,municipality,G0011,,pending,,,,,,2086
+G0750,Matran,council,municipality,G0011,,pending,,,,,,2208
+G0751,Meyriez,council,municipality,G0011,,pending,,,,,,2271
+G0752,Misery-Courtion,council,municipality,G0011,,pending,,,,,,2272
+G0753,Mont-Vully,council,municipality,G0011,,pending,,,,,,2284
+G0754,Montagny (FR),council,municipality,G0011,,pending,,,,,,2029
+G0755,Morlon,council,municipality,G0011,,pending,,,,,,2143
+G0756,Muntelier,council,municipality,G0011,,pending,,,,,,2274
+G0757,Murten,council,municipality,G0011,,pending,,,,,,2275
+G0758,MÃ©ziÃ¨res (FR),council,municipality,G0011,,pending,,,,,,2087
+G0759,Neyruz (FR),council,municipality,G0011,,pending,,,,,,2211
+G0760,Nuvilly,council,municipality,G0011,,pending,,,,,,2035
+G0761,Pierrafortscha,council,municipality,G0011,,pending,,,,,,2216
+G0762,Plaffeien,council,municipality,G0011,,pending,,,,,,2299
+G0763,Plasselb,council,municipality,G0011,,pending,,,,,,2300
+G0764,Pont-en-Ogoz,council,municipality,G0011,,pending,,,,,,2122
+G0765,Pont-la-Ville,council,municipality,G0011,,pending,,,,,,2147
+G0766,Prez,council,municipality,G0011,,pending,,,,,,2237
+G0767,PrÃ©vondavaux,council,municipality,G0011,,pending,,,,,,2038
+G0768,Rechthalten,council,municipality,G0011,,pending,,,,,,2301
+G0769,Remaufens,council,municipality,G0011,,pending,,,,,,2333
+G0770,Riaz,council,municipality,G0011,,pending,,,,,,2148
+G0771,Ried bei Kerzers,council,municipality,G0011,,pending,,,,,,2276
+G0772,Romont (FR),council,municipality,G0011,,pending,,,,,,2096
+G0773,Rue,council,municipality,G0011,,pending,,,,,,2097
+G0774,Saint-Aubin (FR),council,municipality,G0011,,pending,,,,,,2041
+G0775,Saint-Martin (FR),council,municipality,G0011,,pending,,,,,,2335
+G0776,Schmitten (FR),council,municipality,G0011,,pending,,,,,,2305
+G0777,Semsales,council,municipality,G0011,,pending,,,,,,2336
+G0778,Siviriez,council,municipality,G0011,,pending,,,,,,2099
+G0779,Sorens,council,municipality,G0011,,pending,,,,,,2153
+G0780,St. Silvester,council,municipality,G0011,,pending,,,,,,2303
+G0781,St. Ursen,council,municipality,G0011,,pending,,,,,,2304
+G0782,Surpierre,council,municipality,G0011,,pending,,,,,,2044
+G0783,SÃ¢les,council,municipality,G0011,,pending,,,,,,2152
+G0784,SÃ©vaz,council,municipality,G0011,,pending,,,,,,2043
+G0785,Tafers,council,municipality,G0011,,pending,,,,,,2306
+G0786,Tentlingen,council,municipality,G0011,,pending,,,,,,2307
+G0787,Torny,council,municipality,G0011,,pending,,,,,,2115
+G0788,Treyvaux,council,municipality,G0011,,pending,,,,,,2226
+G0789,Ueberstorf,council,municipality,G0011,,pending,,,,,,2308
+G0790,Ursy,council,municipality,G0011,,pending,,,,,,2102
+G0791,Val-de-Charmey,council,municipality,G0011,,pending,,,,,,2163
+G0792,Vallon,council,municipality,G0011,,pending,,,,,,2045
+G0793,Vaulruz,council,municipality,G0011,,pending,,,,,,2155
+G0794,Villars-sur-GlÃ¢ne,council,municipality,G0011,,pending,,,,,,2228
+G0795,Villarsel-sur-Marly,council,municipality,G0011,,pending,,,,,,2230
+G0796,Villaz,council,municipality,G0011,,pending,,,,,,2117
+G0797,Villorsonnens,council,municipality,G0011,,pending,,,,,,2114
+G0798,Vuadens,council,municipality,G0011,,pending,,,,,,2160
+G0799,Vuisternens-devant-Romont,council,municipality,G0011,,pending,,,,,,2113
+G0800,WÃ¼nnewil-Flamatt,council,municipality,G0011,,pending,,,,,,2309
+G0801,Aedermannsdorf,council,municipality,G0012,,pending,,,,,,2421
+G0802,Aeschi (SO),council,municipality,G0012,,pending,,,,,,2511
+G0803,Balm bei GÃ¼nsberg,council,municipality,G0012,,pending,,,,,,2541
+G0804,Balsthal,council,municipality,G0012,,pending,,,,,,2422
+G0805,Beinwil (SO),council,municipality,G0012,,pending,,,,,,2612
+G0806,Bellach,council,municipality,G0012,,pending,,,,,,2542
+G0807,Bettlach,council,municipality,G0012,,pending,,,,,,2543
+G0808,Biberist,council,municipality,G0012,,pending,,,,,,2513
+G0809,Biezwil,council,municipality,G0012,,pending,,,,,,2445
+G0810,Bolken,council,municipality,G0012,,pending,,,,,,2514
+G0811,Boningen,council,municipality,G0012,,pending,,,,,,2571
+G0812,Breitenbach,council,municipality,G0012,,pending,,,,,,2613
+G0813,Buchegg,council,municipality,G0012,,pending,,,,,,2465
+G0814,BÃ¤rschwil,council,municipality,G0012,,pending,,,,,,2611
+G0815,BÃ¤ttwil,council,municipality,G0012,,pending,,,,,,2471
+G0816,BÃ¼ren (SO),council,municipality,G0012,,pending,,,,,,2472
+G0817,BÃ¼sserach,council,municipality,G0012,,pending,,,,,,2614
+G0818,Deitingen,council,municipality,G0012,,pending,,,,,,2516
+G0819,Derendingen,council,municipality,G0012,,pending,,,,,,2517
+G0820,Dornach,council,municipality,G0012,,pending,,,,,,2473
+G0821,Drei HÃ¶fe,council,municipality,G0012,,pending,,,,,,2535
+G0822,Dulliken,council,municipality,G0012,,pending,,,,,,2573
+G0823,DÃ¤niken,council,municipality,G0012,,pending,,,,,,2572
+G0824,Egerkingen,council,municipality,G0012,,pending,,,,,,2401
+G0825,Eppenberg-WÃ¶schnau,council,municipality,G0012,,pending,,,,,,2574
+G0826,Erlinsbach (SO),council,municipality,G0012,,pending,,,,,,2503
+G0827,Erschwil,council,municipality,G0012,,pending,,,,,,2615
+G0828,Etziken,council,municipality,G0012,,pending,,,,,,2518
+G0829,Fehren,council,municipality,G0012,,pending,,,,,,2616
+G0830,Feldbrunnen-St. Niklaus,council,municipality,G0012,,pending,,,,,,2544
+G0831,Flumenthal,council,municipality,G0012,,pending,,,,,,2545
+G0832,Fulenbach,council,municipality,G0012,,pending,,,,,,2575
+G0833,Gempen,council,municipality,G0012,,pending,,,,,,2474
+G0834,Gerlafingen,council,municipality,G0012,,pending,,,,,,2519
+G0835,Grenchen,council,municipality,G0012,,pending,,,,,,2546
+G0836,Gretzenbach,council,municipality,G0012,,pending,,,,,,2576
+G0837,Grindel,council,municipality,G0012,,pending,,,,,,2617
+G0838,Gunzgen,council,municipality,G0012,,pending,,,,,,2578
+G0839,GÃ¼nsberg,council,municipality,G0012,,pending,,,,,,2547
+G0840,Hauenstein-Ifenthal,council,municipality,G0012,,pending,,,,,,2491
+G0841,Herbetswil,council,municipality,G0012,,pending,,,,,,2424
+G0842,Himmelried,council,municipality,G0012,,pending,,,,,,2618
+G0843,Hochwald,council,municipality,G0012,,pending,,,,,,2475
+G0844,Hofstetten-FlÃ¼h,council,municipality,G0012,,pending,,,,,,2476
+G0845,Holderbank (SO),council,municipality,G0012,,pending,,,,,,2425
+G0846,Horriwil,council,municipality,G0012,,pending,,,,,,2523
+G0847,Hubersdorf,council,municipality,G0012,,pending,,,,,,2548
+G0848,HÃ¤gendorf,council,municipality,G0012,,pending,,,,,,2579
+G0849,HÃ¤rkingen,council,municipality,G0012,,pending,,,,,,2402
+G0850,HÃ¼niken,council,municipality,G0012,,pending,,,,,,2524
+G0851,Kammersrohr,council,municipality,G0012,,pending,,,,,,2549
+G0852,Kappel (SO),council,municipality,G0012,,pending,,,,,,2580
+G0853,Kestenholz,council,municipality,G0012,,pending,,,,,,2403
+G0854,Kienberg,council,municipality,G0012,,pending,,,,,,2492
+G0855,KleinlÃ¼tzel,council,municipality,G0012,,pending,,,,,,2619
+G0856,Kriegstetten,council,municipality,G0012,,pending,,,,,,2525
+G0857,Langendorf,council,municipality,G0012,,pending,,,,,,2550
+G0858,Laupersdorf,council,municipality,G0012,,pending,,,,,,2426
+G0859,Lohn-Ammannsegg,council,municipality,G0012,,pending,,,,,,2526
+G0860,Lommiswil,council,municipality,G0012,,pending,,,,,,2551
+G0861,Lostorf,council,municipality,G0012,,pending,,,,,,2493
+G0862,Luterbach,council,municipality,G0012,,pending,,,,,,2527
+G0863,LÃ¼sslingen-Nennigkofen,council,municipality,G0012,,pending,,,,,,2464
+G0864,LÃ¼terkofen-Ichertswil,council,municipality,G0012,,pending,,,,,,2455
+G0865,Matzendorf,council,municipality,G0012,,pending,,,,,,2427
+G0866,Meltingen,council,municipality,G0012,,pending,,,,,,2620
+G0867,Messen,council,municipality,G0012,,pending,,,,,,2457
+G0868,Metzerlen-Mariastein,council,municipality,G0012,,pending,,,,,,2477
+G0869,MÃ¼mliswil-Ramiswil,council,municipality,G0012,,pending,,,,,,2428
+G0870,Neuendorf,council,municipality,G0012,,pending,,,,,,2404
+G0871,Niederbuchsiten,council,municipality,G0012,,pending,,,,,,2405
+G0872,NiedergÃ¶sgen,council,municipality,G0012,,pending,,,,,,2495
+G0873,Nuglar-St. Pantaleon,council,municipality,G0012,,pending,,,,,,2478
+G0874,Nunningen,council,municipality,G0012,,pending,,,,,,2621
+G0875,Oberbuchsiten,council,municipality,G0012,,pending,,,,,,2406
+G0876,Oberdorf (SO),council,municipality,G0012,,pending,,,,,,2553
+G0877,Obergerlafingen,council,municipality,G0012,,pending,,,,,,2528
+G0878,ObergÃ¶sgen,council,municipality,G0012,,pending,,,,,,2497
+G0879,Oensingen,council,municipality,G0012,,pending,,,,,,2407
+G0880,Olten,council,municipality,G0012,,pending,,,,,,2581
+G0881,Recherswil,council,municipality,G0012,,pending,,,,,,2530
+G0882,Rickenbach (SO),council,municipality,G0012,,pending,,,,,,2582
+G0883,Riedholz,council,municipality,G0012,,pending,,,,,,2554
+G0884,Rodersdorf,council,municipality,G0012,,pending,,,,,,2479
+G0885,RÃ¼ttenen,council,municipality,G0012,,pending,,,,,,2555
+G0886,Schnottwil,council,municipality,G0012,,pending,,,,,,2461
+G0887,SchÃ¶nenwerd,council,municipality,G0012,,pending,,,,,,2583
+G0888,Seewen,council,municipality,G0012,,pending,,,,,,2480
+G0889,Selzach,council,municipality,G0012,,pending,,,,,,2556
+G0890,Solothurn,council,municipality,G0012,,pending,,,,,,2601
+G0891,Starrkirch-Wil,council,municipality,G0012,,pending,,,,,,2584
+G0892,StÃ¼sslingen,council,municipality,G0012,,pending,,,,,,2499
+G0893,Subingen,council,municipality,G0012,,pending,,,,,,2532
+G0894,Trimbach,council,municipality,G0012,,pending,,,,,,2500
+G0895,Unterramsern,council,municipality,G0012,,pending,,,,,,2463
+G0896,Walterswil (SO),council,municipality,G0012,,pending,,,,,,2585
+G0897,Wangen bei Olten,council,municipality,G0012,,pending,,,,,,2586
+G0898,Welschenrohr-GÃ¤nsbrunnen,council,municipality,G0012,,pending,,,,,,2430
+G0899,Winznau,council,municipality,G0012,,pending,,,,,,2501
+G0900,Wisen (SO),council,municipality,G0012,,pending,,,,,,2502
+G0901,Witterswil,council,municipality,G0012,,pending,,,,,,2481
+G0902,Wolfwil,council,municipality,G0012,,pending,,,,,,2408
+G0903,Zuchwil,council,municipality,G0012,,pending,,,,,,2534
+G0904,Zullwil,council,municipality,G0012,,pending,,,,,,2622
+G0905,Basel,council,municipality,G0013,,pending,,,,,,2701
+G0906,Bettingen,council,municipality,G0013,,pending,,,,,,2702
+G0907,Riehen,council,municipality,G0013,,pending,,,,,,2703
+G0908,Aesch (BL),council,municipality,G0014,,pending,,,,,,2761
+G0909,Allschwil,council,municipality,G0014,,pending,,,,,,2762
+G0910,Anwil,council,municipality,G0014,,pending,,,,,,2841
+G0911,Arboldswil,council,municipality,G0014,,pending,,,,,,2881
+G0912,Arisdorf,council,municipality,G0014,,pending,,,,,,2821
+G0913,Arlesheim,council,municipality,G0014,,pending,,,,,,2763
+G0914,Augst,council,municipality,G0014,,pending,,,,,,2822
+G0915,Bennwil,council,municipality,G0014,,pending,,,,,,2882
+G0916,Biel-Benken,council,municipality,G0014,,pending,,,,,,2764
+G0917,Binningen,council,municipality,G0014,,pending,,,,,,2765
+G0918,Birsfelden,council,municipality,G0014,,pending,,,,,,2766
+G0919,Blauen,council,municipality,G0014,,pending,,,,,,2781
+G0920,Bottmingen,council,municipality,G0014,,pending,,,,,,2767
+G0921,Bretzwil,council,municipality,G0014,,pending,,,,,,2883
+G0922,Brislach,council,municipality,G0014,,pending,,,,,,2782
+G0923,Bubendorf,council,municipality,G0014,,pending,,,,,,2823
+G0924,Buckten,council,municipality,G0014,,pending,,,,,,2843
+G0925,Burg im Leimental,council,municipality,G0014,,pending,,,,,,2783
+G0926,Buus,council,municipality,G0014,,pending,,,,,,2844
+G0927,BÃ¶ckten,council,municipality,G0014,,pending,,,,,,2842
+G0928,Diegten,council,municipality,G0014,,pending,,,,,,2884
+G0929,Diepflingen,council,municipality,G0014,,pending,,,,,,2845
+G0930,Dittingen,council,municipality,G0014,,pending,,,,,,2784
+G0931,Duggingen,council,municipality,G0014,,pending,,,,,,2785
+G0932,Eptingen,council,municipality,G0014,,pending,,,,,,2885
+G0933,Ettingen,council,municipality,G0014,,pending,,,,,,2768
+G0934,Frenkendorf,council,municipality,G0014,,pending,,,,,,2824
+G0935,FÃ¼llinsdorf,council,municipality,G0014,,pending,,,,,,2825
+G0936,Gelterkinden,council,municipality,G0014,,pending,,,,,,2846
+G0937,Giebenach,council,municipality,G0014,,pending,,,,,,2826
+G0938,Grellingen,council,municipality,G0014,,pending,,,,,,2786
+G0939,Hemmiken,council,municipality,G0014,,pending,,,,,,2848
+G0940,Hersberg,council,municipality,G0014,,pending,,,,,,2827
+G0941,HÃ¤felfingen,council,municipality,G0014,,pending,,,,,,2847
+G0942,HÃ¶lstein,council,municipality,G0014,,pending,,,,,,2886
+G0943,Itingen,council,municipality,G0014,,pending,,,,,,2849
+G0944,Kilchberg (BL),council,municipality,G0014,,pending,,,,,,2851
+G0945,KÃ¤nerkinden,council,municipality,G0014,,pending,,,,,,2850
+G0946,Lampenberg,council,municipality,G0014,,pending,,,,,,2887
+G0947,Langenbruck,council,municipality,G0014,,pending,,,,,,2888
+G0948,Laufen,council,municipality,G0014,,pending,,,,,,2787
+G0949,Lausen,council,municipality,G0014,,pending,,,,,,2828
+G0950,Lauwil,council,municipality,G0014,,pending,,,,,,2889
+G0951,Liedertswil,council,municipality,G0014,,pending,,,,,,2890
+G0952,Liesberg,council,municipality,G0014,,pending,,,,,,2788
+G0953,Liestal,council,municipality,G0014,,pending,,,,,,2829
+G0954,Lupsingen,council,municipality,G0014,,pending,,,,,,2830
+G0955,LÃ¤ufelfingen,council,municipality,G0014,,pending,,,,,,2852
+G0956,Maisprach,council,municipality,G0014,,pending,,,,,,2853
+G0957,Muttenz,council,municipality,G0014,,pending,,,,,,2770
+G0958,MÃ¼nchenstein,council,municipality,G0014,,pending,,,,,,2769
+G0959,Nenzlingen,council,municipality,G0014,,pending,,,,,,2789
+G0960,Niederdorf,council,municipality,G0014,,pending,,,,,,2891
+G0961,Nusshof,council,municipality,G0014,,pending,,,,,,2854
+G0962,Oberdorf (BL),council,municipality,G0014,,pending,,,,,,2892
+G0963,Oberwil (BL),council,municipality,G0014,,pending,,,,,,2771
+G0964,Oltingen,council,municipality,G0014,,pending,,,,,,2855
+G0965,Ormalingen,council,municipality,G0014,,pending,,,,,,2856
+G0966,Pfeffingen,council,municipality,G0014,,pending,,,,,,2772
+G0967,Pratteln,council,municipality,G0014,,pending,,,,,,2831
+G0968,Ramlinsburg,council,municipality,G0014,,pending,,,,,,2832
+G0969,Reigoldswil,council,municipality,G0014,,pending,,,,,,2893
+G0970,Reinach (BL),council,municipality,G0014,,pending,,,,,,2773
+G0971,Rickenbach (BL),council,municipality,G0014,,pending,,,,,,2857
+G0972,Roggenburg,council,municipality,G0014,,pending,,,,,,2790
+G0973,Rothenfluh,council,municipality,G0014,,pending,,,,,,2858
+G0974,RÃ¶schenz,council,municipality,G0014,,pending,,,,,,2791
+G0975,RÃ¼mlingen,council,municipality,G0014,,pending,,,,,,2859
+G0976,RÃ¼nenberg,council,municipality,G0014,,pending,,,,,,2860
+G0977,SchÃ¶nenbuch,council,municipality,G0014,,pending,,,,,,2774
+G0978,Seltisberg,council,municipality,G0014,,pending,,,,,,2833
+G0979,Sissach,council,municipality,G0014,,pending,,,,,,2861
+G0980,Tecknau,council,municipality,G0014,,pending,,,,,,2862
+G0981,Tenniken,council,municipality,G0014,,pending,,,,,,2863
+G0982,Therwil,council,municipality,G0014,,pending,,,,,,2775
+G0983,ThÃ¼rnen,council,municipality,G0014,,pending,,,,,,2864
+G0984,Titterten,council,municipality,G0014,,pending,,,,,,2894
+G0985,Wahlen,council,municipality,G0014,,pending,,,,,,2792
+G0986,Waldenburg,council,municipality,G0014,,pending,,,,,,2895
+G0987,Wenslingen,council,municipality,G0014,,pending,,,,,,2865
+G0988,Wintersingen,council,municipality,G0014,,pending,,,,,,2866
+G0989,Wittinsburg,council,municipality,G0014,,pending,,,,,,2867
+G0990,Zeglingen,council,municipality,G0014,,pending,,,,,,2868
+G0991,Ziefen,council,municipality,G0014,,pending,,,,,,2834
+G0992,Zunzgen,council,municipality,G0014,,pending,,,,,,2869
+G0993,Zwingen,council,municipality,G0014,,pending,,,,,,2793
+G0994,Bargen (SH),council,municipality,G0015,,pending,,,,,,2931
+G0995,Beggingen,council,municipality,G0015,,pending,,,,,,2951
+G0996,Beringen,council,municipality,G0015,,pending,,,,,,2932
+G0997,Buch (SH),council,municipality,G0015,,pending,,,,,,2961
+G0998,Buchberg,council,municipality,G0015,,pending,,,,,,2933
+G0999,BÃ¼ttenhardt,council,municipality,G0015,,pending,,,,,,2914
+G1000,DÃ¶rflingen,council,municipality,G0015,,pending,,,,,,2915
+G1001,GÃ¤chlingen,council,municipality,G0015,,pending,,,,,,2901
+G1002,Hallau,council,municipality,G0015,,pending,,,,,,2971
+G1003,Hemishofen,council,municipality,G0015,,pending,,,,,,2962
+G1004,Lohn (SH),council,municipality,G0015,,pending,,,,,,2917
+G1005,LÃ¶hningen,council,municipality,G0015,,pending,,,,,,2903
+G1006,Merishausen,council,municipality,G0015,,pending,,,,,,2936
+G1007,Neuhausen am Rheinfall,council,municipality,G0015,,pending,,,,,,2937
+G1008,Neunkirch,council,municipality,G0015,,pending,,,,,,2904
+G1009,Oberhallau,council,municipality,G0015,,pending,,,,,,2972
+G1010,Ramsen,council,municipality,G0015,,pending,,,,,,2963
+G1011,RÃ¼dlingen,council,municipality,G0015,,pending,,,,,,2938
+G1012,Schaffhausen,council,municipality,G0015,,pending,,,,,,2939
+G1013,Schleitheim,council,municipality,G0015,,pending,,,,,,2952
+G1014,Siblingen,council,municipality,G0015,,pending,,,,,,2953
+G1015,Stein am Rhein,council,municipality,G0015,,pending,,,,,,2964
+G1016,Stetten (SH),council,municipality,G0015,,pending,,,,,,2919
+G1017,Thayngen,council,municipality,G0015,,pending,,,,,,2920
+G1018,Trasadingen,council,municipality,G0015,,pending,,,,,,2973
+G1019,Wilchingen,council,municipality,G0015,,pending,,,,,,2974
+G1020,BÃ¼hler,council,municipality,G0016,,pending,,,,,,3021
+G1021,Gais,council,municipality,G0016,,pending,,,,,,3022
+G1022,Grub (AR),council,municipality,G0016,,pending,,,,,,3031
+G1023,Heiden,council,municipality,G0016,,pending,,,,,,3032
+G1024,Herisau,council,municipality,G0016,,pending,,,,,,3001
+G1025,Hundwil,council,municipality,G0016,,pending,,,,,,3002
+G1026,Lutzenberg,council,municipality,G0016,,pending,,,,,,3033
+G1027,Rehetobel,council,municipality,G0016,,pending,,,,,,3034
+G1028,Reute (AR),council,municipality,G0016,,pending,,,,,,3035
+G1029,Schwellbrunn,council,municipality,G0016,,pending,,,,,,3004
+G1030,SchÃ¶nengrund,council,municipality,G0016,,pending,,,,,,3003
+G1031,Speicher,council,municipality,G0016,,pending,,,,,,3023
+G1032,Stein (AR),council,municipality,G0016,,pending,,,,,,3005
+G1033,Teufen (AR),council,municipality,G0016,,pending,,,,,,3024
+G1034,Trogen,council,municipality,G0016,,pending,,,,,,3025
+G1035,UrnÃ¤sch,council,municipality,G0016,,pending,,,,,,3006
+G1036,Wald (AR),council,municipality,G0016,,pending,,,,,,3036
+G1037,Waldstatt,council,municipality,G0016,,pending,,,,,,3007
+G1038,Walzenhausen,council,municipality,G0016,,pending,,,,,,3037
+G1039,Wolfhalden,council,municipality,G0016,,pending,,,,,,3038
+G1040,Appenzell,council,municipality,G0017,,pending,,,,,,3101
+G1041,Gonten,council,municipality,G0017,,pending,,,,,,3102
+G1042,Oberegg,council,municipality,G0017,,pending,,,,,,3111
+G1043,Schlatt-Haslen,council,municipality,G0017,,pending,,,,,,3104
+G1044,Schwende-RÃ¼te,council,municipality,G0017,,pending,,,,,,3112
+G1045,AltstÃ¤tten,council,municipality,G0018,,pending,,,,,,3251
+G1046,Amden,council,municipality,G0018,,pending,,,,,,3311
+G1047,Andwil (SG),council,municipality,G0018,,pending,,,,,,3441
+G1048,Au (SG),council,municipality,G0018,,pending,,,,,,3231
+G1049,Bad Ragaz,council,municipality,G0018,,pending,,,,,,3291
+G1050,Balgach,council,municipality,G0018,,pending,,,,,,3232
+G1051,Benken (SG),council,municipality,G0018,,pending,,,,,,3312
+G1052,Berg (SG),council,municipality,G0018,,pending,,,,,,3211
+G1053,Berneck,council,municipality,G0018,,pending,,,,,,3233
+G1054,Buchs (SG),council,municipality,G0018,,pending,,,,,,3271
+G1055,BÃ¼tschwil-Ganterschwil,council,municipality,G0018,,pending,,,,,,3395
+G1056,Degersheim,council,municipality,G0018,,pending,,,,,,3401
+G1057,Diepoldsau,council,municipality,G0018,,pending,,,,,,3234
+G1058,Ebnat-Kappel,council,municipality,G0018,,pending,,,,,,3352
+G1059,Eggersriet,council,municipality,G0018,,pending,,,,,,3212
+G1060,Eichberg,council,municipality,G0018,,pending,,,,,,3252
+G1061,Eschenbach (SG),council,municipality,G0018,,pending,,,,,,3342
+G1062,Flawil,council,municipality,G0018,,pending,,,,,,3402
+G1063,Flums,council,municipality,G0018,,pending,,,,,,3292
+G1064,Gaiserwald,council,municipality,G0018,,pending,,,,,,3442
+G1065,Gams,council,municipality,G0018,,pending,,,,,,3272
+G1066,Goldach,council,municipality,G0018,,pending,,,,,,3213
+G1067,Gommiswald,council,municipality,G0018,,pending,,,,,,3341
+G1068,Gossau (SG),council,municipality,G0018,,pending,,,,,,3443
+G1069,Grabs,council,municipality,G0018,,pending,,,,,,3273
+G1070,HÃ¤ggenschwil,council,municipality,G0018,,pending,,,,,,3201
+G1071,Jonschwil,council,municipality,G0018,,pending,,,,,,3405
+G1072,Kaltbrunn,council,municipality,G0018,,pending,,,,,,3313
+G1073,Kirchberg (SG),council,municipality,G0018,,pending,,,,,,3392
+G1074,Lichtensteig,council,municipality,G0018,,pending,,,,,,3374
+G1075,LÃ¼tisburg,council,municipality,G0018,,pending,,,,,,3393
+G1076,Marbach (SG),council,municipality,G0018,,pending,,,,,,3253
+G1077,Mels,council,municipality,G0018,,pending,,,,,,3293
+G1078,Mosnang,council,municipality,G0018,,pending,,,,,,3394
+G1079,Muolen,council,municipality,G0018,,pending,,,,,,3202
+G1080,MÃ¶rschwil,council,municipality,G0018,,pending,,,,,,3214
+G1081,Neckertal,council,municipality,G0018,,pending,,,,,,3396
+G1082,Nesslau,council,municipality,G0018,,pending,,,,,,3360
+G1083,NiederbÃ¼ren,council,municipality,G0018,,pending,,,,,,3422
+G1084,Niederhelfenschwil,council,municipality,G0018,,pending,,,,,,3423
+G1085,OberbÃ¼ren,council,municipality,G0018,,pending,,,,,,3424
+G1086,Oberriet (SG),council,municipality,G0018,,pending,,,,,,3254
+G1087,Oberuzwil,council,municipality,G0018,,pending,,,,,,3407
+G1088,PfÃ¤fers,council,municipality,G0018,,pending,,,,,,3294
+G1089,Quarten,council,municipality,G0018,,pending,,,,,,3295
+G1090,Rapperswil-Jona,council,municipality,G0018,,pending,,,,,,3340
+G1091,Rebstein,council,municipality,G0018,,pending,,,,,,3255
+G1092,Rheineck,council,municipality,G0018,,pending,,,,,,3235
+G1093,Rorschach,council,municipality,G0018,,pending,,,,,,3215
+G1094,Rorschacherberg,council,municipality,G0018,,pending,,,,,,3216
+G1095,RÃ¼thi (SG),council,municipality,G0018,,pending,,,,,,3256
+G1096,Sargans,council,municipality,G0018,,pending,,,,,,3296
+G1097,Schmerikon,council,municipality,G0018,,pending,,,,,,3338
+G1098,SchÃ¤nis,council,municipality,G0018,,pending,,,,,,3315
+G1099,Sennwald,council,municipality,G0018,,pending,,,,,,3274
+G1100,Sevelen,council,municipality,G0018,,pending,,,,,,3275
+G1101,St. Gallen,council,municipality,G0018,,pending,,,,,,3203
+G1102,St. Margrethen,council,municipality,G0018,,pending,,,,,,3236
+G1103,Steinach,council,municipality,G0018,,pending,,,,,,3217
+G1104,Thal,council,municipality,G0018,,pending,,,,,,3237
+G1105,TÃ¼bach,council,municipality,G0018,,pending,,,,,,3218
+G1106,Untereggen,council,municipality,G0018,,pending,,,,,,3219
+G1107,Uznach,council,municipality,G0018,,pending,,,,,,3339
+G1108,Uzwil,council,municipality,G0018,,pending,,,,,,3408
+G1109,Vilters-Wangs,council,municipality,G0018,,pending,,,,,,3297
+G1110,Waldkirch,council,municipality,G0018,,pending,,,,,,3444
+G1111,Walenstadt,council,municipality,G0018,,pending,,,,,,3298
+G1112,Wartau,council,municipality,G0018,,pending,,,,,,3276
+G1113,Wattwil,council,municipality,G0018,,pending,,,,,,3379
+G1114,Weesen,council,municipality,G0018,,pending,,,,,,3316
+G1115,Widnau,council,municipality,G0018,,pending,,,,,,3238
+G1116,Wil (SG),council,municipality,G0018,,pending,,,,,,3427
+G1117,Wildhaus-Alt St. Johann,council,municipality,G0018,,pending,,,,,,3359
+G1118,Wittenbach,council,municipality,G0018,,pending,,,,,,3204
+G1119,Zuzwil (SG),council,municipality,G0018,,pending,,,,,,3426
+G1120,Albula/Alvra,council,municipality,G0019,,pending,,,,,,3542
+G1121,Andeer,council,municipality,G0019,,pending,,,,,,3701
+G1122,Arosa,council,municipality,G0019,,pending,,,,,,3921
+G1123,Avers,council,municipality,G0019,,pending,,,,,,3681
+G1124,BergÃ¼n Filisur,council,municipality,G0019,,pending,,,,,,3544
+G1125,Bever,council,municipality,G0019,,pending,,,,,,3781
+G1126,Bonaduz,council,municipality,G0019,,pending,,,,,,3721
+G1127,Bregaglia,council,municipality,G0019,,pending,,,,,,3792
+G1128,Breil/Brigels,council,municipality,G0019,,pending,,,,,,3981
+G1129,Brusio,council,municipality,G0019,,pending,,,,,,3551
+G1130,Buseno,council,municipality,G0019,,pending,,,,,,3804
+G1131,Calanca,council,municipality,G0019,,pending,,,,,,3837
+G1132,Cama,council,municipality,G0019,,pending,,,,,,3831
+G1133,Castaneda,council,municipality,G0019,,pending,,,,,,3805
+G1134,Cazis,council,municipality,G0019,,pending,,,,,,3661
+G1135,Celerina/Schlarigna,council,municipality,G0019,,pending,,,,,,3782
+G1136,Chur,council,municipality,G0019,,pending,,,,,,3901
+G1137,Churwalden,council,municipality,G0019,,pending,,,,,,3911
+G1138,Conters im PrÃ¤ttigau,council,municipality,G0019,,pending,,,,,,3881
+G1139,Davos,council,municipality,G0019,,pending,,,,,,3851
+G1140,Disentis/MustÃ©r,council,municipality,G0019,,pending,,,,,,3982
+G1141,Domat/Ems,council,municipality,G0019,,pending,,,,,,3722
+G1142,Domleschg,council,municipality,G0019,,pending,,,,,,3673
+G1143,Falera,council,municipality,G0019,,pending,,,,,,3572
+G1144,Felsberg,council,municipality,G0019,,pending,,,,,,3731
+G1145,Ferrera,council,municipality,G0019,,pending,,,,,,3713
+G1146,Fideris,council,municipality,G0019,,pending,,,,,,3861
+G1147,Flerden,council,municipality,G0019,,pending,,,,,,3662
+G1148,Flims,council,municipality,G0019,,pending,,,,,,3732
+G1149,FlÃ¤sch,council,municipality,G0019,,pending,,,,,,3951
+G1150,Furna,council,municipality,G0019,,pending,,,,,,3862
+G1151,FÃ¼rstenau,council,municipality,G0019,,pending,,,,,,3633
+G1152,Grono,council,municipality,G0019,,pending,,,,,,3832
+G1153,GrÃ¼sch,council,municipality,G0019,,pending,,,,,,3961
+G1154,Ilanz/Glion,council,municipality,G0019,,pending,,,,,,3619
+G1155,Jenaz,council,municipality,G0019,,pending,,,,,,3863
+G1156,Jenins,council,municipality,G0019,,pending,,,,,,3952
+G1157,Klosters,council,municipality,G0019,,pending,,,,,,3871
+G1158,KÃ¼blis,council,municipality,G0019,,pending,,,,,,3882
+G1159,La Punt Chamues-ch,council,municipality,G0019,,pending,,,,,,3785
+G1160,Laax,council,municipality,G0019,,pending,,,,,,3575
+G1161,Landquart,council,municipality,G0019,,pending,,,,,,3955
+G1162,Lantsch/Lenz,council,municipality,G0019,,pending,,,,,,3513
+G1163,Lostallo,council,municipality,G0019,,pending,,,,,,3821
+G1164,Lumnezia,council,municipality,G0019,,pending,,,,,,3618
+G1165,Luzein,council,municipality,G0019,,pending,,,,,,3891
+G1166,Madulain,council,municipality,G0019,,pending,,,,,,3783
+G1167,Maienfeld,council,municipality,G0019,,pending,,,,,,3953
+G1168,Malans,council,municipality,G0019,,pending,,,,,,3954
+G1169,Masein,council,municipality,G0019,,pending,,,,,,3663
+G1170,Medel (Lucmagn),council,municipality,G0019,,pending,,,,,,3983
+G1171,Mesocco,council,municipality,G0019,,pending,,,,,,3822
+G1172,Muntogna da Schons,council,municipality,G0019,,pending,,,,,,3715
+G1173,Obersaxen Mundaun,council,municipality,G0019,,pending,,,,,,3988
+G1174,Pontresina,council,municipality,G0019,,pending,,,,,,3784
+G1175,Poschiavo,council,municipality,G0019,,pending,,,,,,3561
+G1176,Rheinwald,council,municipality,G0019,,pending,,,,,,3714
+G1177,RhÃ¤zÃ¼ns,council,municipality,G0019,,pending,,,,,,3723
+G1178,Rongellen,council,municipality,G0019,,pending,,,,,,3711
+G1179,Rossa,council,municipality,G0019,,pending,,,,,,3808
+G1180,Rothenbrunnen,council,municipality,G0019,,pending,,,,,,3637
+G1181,Roveredo (GR),council,municipality,G0019,,pending,,,,,,3834
+G1182,S-chanf,council,municipality,G0019,,pending,,,,,,3788
+G1183,Safiental,council,municipality,G0019,,pending,,,,,,3672
+G1184,Sagogn,council,municipality,G0019,,pending,,,,,,3581
+G1185,Samedan,council,municipality,G0019,,pending,,,,,,3786
+G1186,Samnaun,council,municipality,G0019,,pending,,,,,,3752
+G1187,San Vittore,council,municipality,G0019,,pending,,,,,,3835
+G1188,Santa Maria in Calanca,council,municipality,G0019,,pending,,,,,,3810
+G1189,Scharans,council,municipality,G0019,,pending,,,,,,3638
+G1190,Schiers,council,municipality,G0019,,pending,,,,,,3962
+G1191,Schluein,council,municipality,G0019,,pending,,,,,,3582
+G1192,Schmitten (GR),council,municipality,G0019,,pending,,,,,,3514
+G1193,Scuol,council,municipality,G0019,,pending,,,,,,3762
+G1194,Seewis im PrÃ¤ttigau,council,municipality,G0019,,pending,,,,,,3972
+G1195,Sils im Domleschg,council,municipality,G0019,,pending,,,,,,3640
+G1196,Sils im Engadin/Segl,council,municipality,G0019,,pending,,,,,,3789
+G1197,Silvaplana,council,municipality,G0019,,pending,,,,,,3790
+G1198,Soazza,council,municipality,G0019,,pending,,,,,,3823
+G1199,St. Moritz,council,municipality,G0019,,pending,,,,,,3787
+G1200,Sufers,council,municipality,G0019,,pending,,,,,,3695
+G1201,Sumvitg,council,municipality,G0019,,pending,,,,,,3985
+G1202,Surses,council,municipality,G0019,,pending,,,,,,3543
+G1203,Tamins,council,municipality,G0019,,pending,,,,,,3733
+G1204,Thusis,council,municipality,G0019,,pending,,,,,,3668
+G1205,Trimmis,council,municipality,G0019,,pending,,,,,,3945
+G1206,Trin,council,municipality,G0019,,pending,,,,,,3734
+G1207,Trun,council,municipality,G0019,,pending,,,,,,3987
+G1208,Tschappina,council,municipality,G0019,,pending,,,,,,3669
+G1209,Tujetsch,council,municipality,G0019,,pending,,,,,,3986
+G1210,Untervaz,council,municipality,G0019,,pending,,,,,,3946
+G1211,Urmein,council,municipality,G0019,,pending,,,,,,3670
+G1212,Val MÃ¼stair,council,municipality,G0019,,pending,,,,,,3847
+G1213,Vals,council,municipality,G0019,,pending,,,,,,3603
+G1214,Valsot,council,municipality,G0019,,pending,,,,,,3764
+G1215,Vaz/Obervaz,council,municipality,G0019,,pending,,,,,,3506
+G1216,Zernez,council,municipality,G0019,,pending,,,,,,3746
+G1217,Zillis-Reischen,council,municipality,G0019,,pending,,,,,,3712
+G1218,Zizers,council,municipality,G0019,,pending,,,,,,3947
+G1219,Zuoz,council,municipality,G0019,,pending,,,,,,3791
+G1220,Aarau,council,municipality,G0020,,pending,,,,,,4001
+G1221,Aarburg,council,municipality,G0020,,pending,,,,,,4271
+G1222,Abtwil,council,municipality,G0020,,pending,,,,,,4221
+G1223,Ammerswil,council,municipality,G0020,,pending,,,,,,4191
+G1224,Aristau,council,municipality,G0020,,pending,,,,,,4222
+G1225,Arni (AG),council,municipality,G0020,,pending,,,,,,4061
+G1226,Auenstein,council,municipality,G0020,,pending,,,,,,4091
+G1227,Auw,council,municipality,G0020,,pending,,,,,,4223
+G1228,Baden,council,municipality,G0020,,pending,,,,,,4021
+G1229,Beinwil (Freiamt),council,municipality,G0020,,pending,,,,,,4224
+G1230,Beinwil am See,council,municipality,G0020,,pending,,,,,,4131
+G1231,Bellikon,council,municipality,G0020,,pending,,,,,,4022
+G1232,Bergdietikon,council,municipality,G0020,,pending,,,,,,4023
+G1233,Berikon,council,municipality,G0020,,pending,,,,,,4062
+G1234,BesenbÃ¼ren,council,municipality,G0020,,pending,,,,,,4226
+G1235,Bettwil,council,municipality,G0020,,pending,,,,,,4227
+G1236,Biberstein,council,municipality,G0020,,pending,,,,,,4002
+G1237,Birmenstorf (AG),council,municipality,G0020,,pending,,,,,,4024
+G1238,Birr,council,municipality,G0020,,pending,,,,,,4092
+G1239,Birrhard,council,municipality,G0020,,pending,,,,,,4093
+G1240,Birrwil,council,municipality,G0020,,pending,,,,,,4132
+G1241,Boniswil,council,municipality,G0020,,pending,,,,,,4192
+G1242,Boswil,council,municipality,G0020,,pending,,,,,,4228
+G1243,Bottenwil,council,municipality,G0020,,pending,,,,,,4273
+G1244,Bremgarten (AG),council,municipality,G0020,,pending,,,,,,4063
+G1245,Brittnau,council,municipality,G0020,,pending,,,,,,4274
+G1246,Brugg,council,municipality,G0020,,pending,,,,,,4095
+G1247,Brunegg,council,municipality,G0020,,pending,,,,,,4193
+G1248,Buchs (AG),council,municipality,G0020,,pending,,,,,,4003
+G1249,Buttwil,council,municipality,G0020,,pending,,,,,,4230
+G1250,BÃ¶ttstein,council,municipality,G0020,,pending,,,,,,4303
+G1251,BÃ¶zberg,council,municipality,G0020,,pending,,,,,,4124
+G1252,BÃ¶ztal,council,municipality,G0020,,pending,,,,,,4185
+G1253,BÃ¼nzen,council,municipality,G0020,,pending,,,,,,4229
+G1254,BÃ¼ttikon,council,municipality,G0020,,pending,,,,,,4064
+G1255,DensbÃ¼ren,council,municipality,G0020,,pending,,,,,,4004
+G1256,Dietwil,council,municipality,G0020,,pending,,,,,,4231
+G1257,Dintikon,council,municipality,G0020,,pending,,,,,,4194
+G1258,Dottikon,council,municipality,G0020,,pending,,,,,,4065
+G1259,DÃ¶ttingen,council,municipality,G0020,,pending,,,,,,4304
+G1260,DÃ¼rrenÃ¤sch,council,municipality,G0020,,pending,,,,,,4134
+G1261,Eggenwil,council,municipality,G0020,,pending,,,,,,4066
+G1262,Egliswil,council,municipality,G0020,,pending,,,,,,4195
+G1263,Ehrendingen,council,municipality,G0020,,pending,,,,,,4049
+G1264,Eiken,council,municipality,G0020,,pending,,,,,,4161
+G1265,Endingen,council,municipality,G0020,,pending,,,,,,4305
+G1266,Ennetbaden,council,municipality,G0020,,pending,,,,,,4026
+G1267,Erlinsbach (AG),council,municipality,G0020,,pending,,,,,,4005
+G1268,Fahrwangen,council,municipality,G0020,,pending,,,,,,4196
+G1269,Fischbach-GÃ¶slikon,council,municipality,G0020,,pending,,,,,,4067
+G1270,Fisibach,council,municipality,G0020,,pending,,,,,,4306
+G1271,Fislisbach,council,municipality,G0020,,pending,,,,,,4027
+G1272,Freienwil,council,municipality,G0020,,pending,,,,,,4028
+G1273,Frick,council,municipality,G0020,,pending,,,,,,4163
+G1274,Full-Reuenthal,council,municipality,G0020,,pending,,,,,,4307
+G1275,Gansingen,council,municipality,G0020,,pending,,,,,,4164
+G1276,Gebenstorf,council,municipality,G0020,,pending,,,,,,4029
+G1277,Geltwil,council,municipality,G0020,,pending,,,,,,4232
+G1278,Gipf-Oberfrick,council,municipality,G0020,,pending,,,,,,4165
+G1279,Gontenschwil,council,municipality,G0020,,pending,,,,,,4135
+G1280,GrÃ¤nichen,council,municipality,G0020,,pending,,,,,,4006
+G1281,Habsburg,council,municipality,G0020,,pending,,,,,,4099
+G1282,Hallwil,council,municipality,G0020,,pending,,,,,,4197
+G1283,Hausen (AG),council,municipality,G0020,,pending,,,,,,4100
+G1284,Hellikon,council,municipality,G0020,,pending,,,,,,4251
+G1285,Hendschiken,council,municipality,G0020,,pending,,,,,,4198
+G1286,Herznach-Ueken,council,municipality,G0020,,pending,,,,,,4186
+G1287,Hirschthal,council,municipality,G0020,,pending,,,,,,4007
+G1288,Holderbank (AG),council,municipality,G0020,,pending,,,,,,4199
+G1289,Holziken,council,municipality,G0020,,pending,,,,,,4136
+G1290,Hunzenschwil,council,municipality,G0020,,pending,,,,,,4200
+G1291,HÃ¤gglingen,council,municipality,G0020,,pending,,,,,,4068
+G1292,Islisberg,council,municipality,G0020,,pending,,,,,,4084
+G1293,Jonen,council,municipality,G0020,,pending,,,,,,4071
+G1294,Kaiseraugst,council,municipality,G0020,,pending,,,,,,4252
+G1295,Kaisten,council,municipality,G0020,,pending,,,,,,4169
+G1296,Kallern,council,municipality,G0020,,pending,,,,,,4233
+G1297,Killwangen,council,municipality,G0020,,pending,,,,,,4030
+G1298,Kirchleerau,council,municipality,G0020,,pending,,,,,,4275
+G1299,Klingnau,council,municipality,G0020,,pending,,,,,,4309
+G1300,Koblenz,council,municipality,G0020,,pending,,,,,,4310
+G1301,KÃ¶lliken,council,municipality,G0020,,pending,,,,,,4276
+G1302,KÃ¼nten,council,municipality,G0020,,pending,,,,,,4031
+G1303,KÃ¼ttigen,council,municipality,G0020,,pending,,,,,,4008
+G1304,Laufenburg,council,municipality,G0020,,pending,,,,,,4170
+G1305,Leibstadt,council,municipality,G0020,,pending,,,,,,4311
+G1306,Leimbach (AG),council,municipality,G0020,,pending,,,,,,4137
+G1307,Lengnau (AG),council,municipality,G0020,,pending,,,,,,4312
+G1308,Lenzburg,council,municipality,G0020,,pending,,,,,,4201
+G1309,Leuggern,council,municipality,G0020,,pending,,,,,,4313
+G1310,Leutwil,council,municipality,G0020,,pending,,,,,,4138
+G1311,Lupfig,council,municipality,G0020,,pending,,,,,,4104
+G1312,Magden,council,municipality,G0020,,pending,,,,,,4253
+G1313,Mandach,council,municipality,G0020,,pending,,,,,,4105
+G1314,Meisterschwanden,council,municipality,G0020,,pending,,,,,,4202
+G1315,Mellikon,council,municipality,G0020,,pending,,,,,,4314
+G1316,Mellingen,council,municipality,G0020,,pending,,,,,,4033
+G1317,Menziken,council,municipality,G0020,,pending,,,,,,4139
+G1318,Merenschwand,council,municipality,G0020,,pending,,,,,,4234
+G1319,Mettauertal,council,municipality,G0020,,pending,,,,,,4184
+G1320,Moosleerau,council,municipality,G0020,,pending,,,,,,4277
+G1321,Muhen,council,municipality,G0020,,pending,,,,,,4009
+G1322,Mumpf,council,municipality,G0020,,pending,,,,,,4255
+G1323,Murgenthal,council,municipality,G0020,,pending,,,,,,4279
+G1324,Muri (AG),council,municipality,G0020,,pending,,,,,,4236
+G1325,MÃ¤genwil,council,municipality,G0020,,pending,,,,,,4032
+G1326,MÃ¶hlin,council,municipality,G0020,,pending,,,,,,4254
+G1327,MÃ¶nthal,council,municipality,G0020,,pending,,,,,,4106
+G1328,MÃ¶riken-Wildegg,council,municipality,G0020,,pending,,,,,,4203
+G1329,MÃ¼hlau,council,municipality,G0020,,pending,,,,,,4235
+G1330,MÃ¼lligen,council,municipality,G0020,,pending,,,,,,4107
+G1331,MÃ¼nchwilen (AG),council,municipality,G0020,,pending,,,,,,4172
+G1332,Neuenhof,council,municipality,G0020,,pending,,,,,,4034
+G1333,Niederlenz,council,municipality,G0020,,pending,,,,,,4204
+G1334,Niederrohrdorf,council,municipality,G0020,,pending,,,,,,4035
+G1335,Niederwil (AG),council,municipality,G0020,,pending,,,,,,4072
+G1336,Oberentfelden,council,municipality,G0020,,pending,,,,,,4010
+G1337,Oberhof,council,municipality,G0020,,pending,,,,,,4173
+G1338,Oberkulm,council,municipality,G0020,,pending,,,,,,4140
+G1339,Oberlunkhofen,council,municipality,G0020,,pending,,,,,,4073
+G1340,Obermumpf,council,municipality,G0020,,pending,,,,,,4256
+G1341,Oberrohrdorf,council,municipality,G0020,,pending,,,,,,4037
+G1342,OberrÃ¼ti,council,municipality,G0020,,pending,,,,,,4237
+G1343,Obersiggenthal,council,municipality,G0020,,pending,,,,,,4038
+G1344,Oberwil-Lieli,council,municipality,G0020,,pending,,,,,,4074
+G1345,Oeschgen,council,municipality,G0020,,pending,,,,,,4175
+G1346,Oftringen,council,municipality,G0020,,pending,,,,,,4280
+G1347,Olsberg,council,municipality,G0020,,pending,,,,,,4257
+G1348,Othmarsingen,council,municipality,G0020,,pending,,,,,,4205
+G1349,Reinach (AG),council,municipality,G0020,,pending,,,,,,4141
+G1350,Reitnau,council,municipality,G0020,,pending,,,,,,4281
+G1351,Remetschwil,council,municipality,G0020,,pending,,,,,,4039
+G1352,Remigen,council,municipality,G0020,,pending,,,,,,4110
+G1353,Rheinfelden,council,municipality,G0020,,pending,,,,,,4258
+G1354,Riniken,council,municipality,G0020,,pending,,,,,,4111
+G1355,Rothrist,council,municipality,G0020,,pending,,,,,,4282
+G1356,Rottenschwil,council,municipality,G0020,,pending,,,,,,4238
+G1357,Rudolfstetten-Friedlisberg,council,municipality,G0020,,pending,,,,,,4075
+G1358,Rupperswil,council,municipality,G0020,,pending,,,,,,4206
+G1359,RÃ¼fenach,council,municipality,G0020,,pending,,,,,,4112
+G1360,Safenwil,council,municipality,G0020,,pending,,,,,,4283
+G1361,Sarmenstorf,council,municipality,G0020,,pending,,,,,,4076
+G1362,Schafisheim,council,municipality,G0020,,pending,,,,,,4207
+G1363,Schinznach,council,municipality,G0020,,pending,,,,,,4125
+G1364,Schlossrued,council,municipality,G0020,,pending,,,,,,4142
+G1365,Schmiedrued,council,municipality,G0020,,pending,,,,,,4143
+G1366,Schneisingen,council,municipality,G0020,,pending,,,,,,4318
+G1367,Schupfart,council,municipality,G0020,,pending,,,,,,4259
+G1368,Schwaderloch,council,municipality,G0020,,pending,,,,,,4176
+G1369,SchÃ¶ftland,council,municipality,G0020,,pending,,,,,,4144
+G1370,Seengen,council,municipality,G0020,,pending,,,,,,4208
+G1371,Seon,council,municipality,G0020,,pending,,,,,,4209
+G1372,Siglistorf,council,municipality,G0020,,pending,,,,,,4319
+G1373,Sins,council,municipality,G0020,,pending,,,,,,4239
+G1374,Sisseln,council,municipality,G0020,,pending,,,,,,4177
+G1375,Spreitenbach,council,municipality,G0020,,pending,,,,,,4040
+G1376,Staffelbach,council,municipality,G0020,,pending,,,,,,4284
+G1377,Staufen,council,municipality,G0020,,pending,,,,,,4210
+G1378,Stein (AG),council,municipality,G0020,,pending,,,,,,4260
+G1379,Stetten (AG),council,municipality,G0020,,pending,,,,,,4041
+G1380,Strengelbach,council,municipality,G0020,,pending,,,,,,4285
+G1381,Suhr,council,municipality,G0020,,pending,,,,,,4012
+G1382,Tegerfelden,council,municipality,G0020,,pending,,,,,,4320
+G1383,Teufenthal (AG),council,municipality,G0020,,pending,,,,,,4145
+G1384,Thalheim (AG),council,municipality,G0020,,pending,,,,,,4117
+G1385,TÃ¤gerig,council,municipality,G0020,,pending,,,,,,4077
+G1386,Uerkheim,council,municipality,G0020,,pending,,,,,,4286
+G1387,Uezwil,council,municipality,G0020,,pending,,,,,,4078
+G1388,Unterentfelden,council,municipality,G0020,,pending,,,,,,4013
+G1389,Unterkulm,council,municipality,G0020,,pending,,,,,,4146
+G1390,Unterlunkhofen,council,municipality,G0020,,pending,,,,,,4079
+G1391,Untersiggenthal,council,municipality,G0020,,pending,,,,,,4044
+G1392,Veltheim (AG),council,municipality,G0020,,pending,,,,,,4120
+G1393,Villigen,council,municipality,G0020,,pending,,,,,,4121
+G1394,Villmergen,council,municipality,G0020,,pending,,,,,,4080
+G1395,Vordemwald,council,municipality,G0020,,pending,,,,,,4287
+G1396,Wallbach,council,municipality,G0020,,pending,,,,,,4261
+G1397,Waltenschwil,council,municipality,G0020,,pending,,,,,,4240
+G1398,Wegenstetten,council,municipality,G0020,,pending,,,,,,4262
+G1399,Wettingen,council,municipality,G0020,,pending,,,,,,4045
+G1400,Widen,council,municipality,G0020,,pending,,,,,,4081
+G1401,Wiliberg,council,municipality,G0020,,pending,,,,,,4288
+G1402,Windisch,council,municipality,G0020,,pending,,,,,,4123
+G1403,Wittnau,council,municipality,G0020,,pending,,,,,,4181
+G1404,Wohlen (AG),council,municipality,G0020,,pending,,,,,,4082
+G1405,Wohlenschwil,council,municipality,G0020,,pending,,,,,,4046
+G1406,WÃ¶lflinswil,council,municipality,G0020,,pending,,,,,,4182
+G1407,WÃ¼renlingen,council,municipality,G0020,,pending,,,,,,4047
+G1408,WÃ¼renlos,council,municipality,G0020,,pending,,,,,,4048
+G1409,Zeihen,council,municipality,G0020,,pending,,,,,,4183
+G1410,Zeiningen,council,municipality,G0020,,pending,,,,,,4263
+G1411,Zetzwil,council,municipality,G0020,,pending,,,,,,4147
+G1412,Zofingen,council,municipality,G0020,,pending,,,,,,4289
+G1413,Zufikon,council,municipality,G0020,,pending,,,,,,4083
+G1414,Zurzach,council,municipality,G0020,,pending,,,,,,4324
+G1415,Zuzgen,council,municipality,G0020,,pending,,,,,,4264
+G1416,Aadorf,council,municipality,G0021,,pending,,,,,,4551
+G1417,Affeltrangen,council,municipality,G0021,,pending,,,,,,4711
+G1418,Altnau,council,municipality,G0021,,pending,,,,,,4641
+G1419,Amlikon-Bissegg,council,municipality,G0021,,pending,,,,,,4881
+G1420,Amriswil,council,municipality,G0021,,pending,,,,,,4461
+G1421,Arbon,council,municipality,G0021,,pending,,,,,,4401
+G1422,Basadingen-Schlattingen,council,municipality,G0021,,pending,,,,,,4536
+G1423,Berg (TG),council,municipality,G0021,,pending,,,,,,4891
+G1424,Berlingen,council,municipality,G0021,,pending,,,,,,4801
+G1425,Bettwiesen,council,municipality,G0021,,pending,,,,,,4716
+G1426,Bichelsee-Balterswil,council,municipality,G0021,,pending,,,,,,4721
+G1427,Birwinken,council,municipality,G0021,,pending,,,,,,4901
+G1428,Bischofszell,council,municipality,G0021,,pending,,,,,,4471
+G1429,Bottighofen,council,municipality,G0021,,pending,,,,,,4643
+G1430,Braunau,council,municipality,G0021,,pending,,,,,,4723
+G1431,Bussnang,council,municipality,G0021,,pending,,,,,,4921
+G1432,BÃ¼rglen (TG),council,municipality,G0021,,pending,,,,,,4911
+G1433,Diessenhofen,council,municipality,G0021,,pending,,,,,,4545
+G1434,Dozwil,council,municipality,G0021,,pending,,,,,,4406
+G1435,Egnach,council,municipality,G0021,,pending,,,,,,4411
+G1436,Erlen,council,municipality,G0021,,pending,,,,,,4476
+G1437,Ermatingen,council,municipality,G0021,,pending,,,,,,4646
+G1438,Eschenz,council,municipality,G0021,,pending,,,,,,4806
+G1439,Eschlikon,council,municipality,G0021,,pending,,,,,,4724
+G1440,Felben-Wellhausen,council,municipality,G0021,,pending,,,,,,4561
+G1441,Fischingen,council,municipality,G0021,,pending,,,,,,4726
+G1442,Frauenfeld,council,municipality,G0021,,pending,,,,,,4566
+G1443,Gachnang,council,municipality,G0021,,pending,,,,,,4571
+G1444,Gottlieben,council,municipality,G0021,,pending,,,,,,4651
+G1445,GÃ¼ttingen,council,municipality,G0021,,pending,,,,,,4656
+G1446,Hauptwil-Gottshaus,council,municipality,G0021,,pending,,,,,,4486
+G1447,Hefenhofen,council,municipality,G0021,,pending,,,,,,4416
+G1448,Herdern,council,municipality,G0021,,pending,,,,,,4811
+G1449,Hohentannen,council,municipality,G0021,,pending,,,,,,4495
+G1450,Homburg,council,municipality,G0021,,pending,,,,,,4816
+G1451,Horn,council,municipality,G0021,,pending,,,,,,4421
+G1452,HÃ¼ttlingen,council,municipality,G0021,,pending,,,,,,4590
+G1453,HÃ¼ttwilen,council,municipality,G0021,,pending,,,,,,4821
+G1454,Kemmental,council,municipality,G0021,,pending,,,,,,4666
+G1455,Kesswil,council,municipality,G0021,,pending,,,,,,4426
+G1456,Kradolf-SchÃ¶nenberg,council,municipality,G0021,,pending,,,,,,4501
+G1457,Kreuzlingen,council,municipality,G0021,,pending,,,,,,4671
+G1458,Langrickenbach,council,municipality,G0021,,pending,,,,,,4681
+G1459,Lengwil,council,municipality,G0021,,pending,,,,,,4683
+G1460,Lommis,council,municipality,G0021,,pending,,,,,,4741
+G1461,Mammern,council,municipality,G0021,,pending,,,,,,4826
+G1462,Matzingen,council,municipality,G0021,,pending,,,,,,4591
+G1463,MÃ¤rstetten,council,municipality,G0021,,pending,,,,,,4941
+G1464,MÃ¼llheim,council,municipality,G0021,,pending,,,,,,4831
+G1465,MÃ¼nchwilen (TG),council,municipality,G0021,,pending,,,,,,4746
+G1466,MÃ¼nsterlingen,council,municipality,G0021,,pending,,,,,,4691
+G1467,Neunforn,council,municipality,G0021,,pending,,,,,,4601
+G1468,Pfyn,council,municipality,G0021,,pending,,,,,,4841
+G1469,Raperswilen,council,municipality,G0021,,pending,,,,,,4846
+G1470,Rickenbach (TG),council,municipality,G0021,,pending,,,,,,4751
+G1471,Roggwil (TG),council,municipality,G0021,,pending,,,,,,4431
+G1472,Romanshorn,council,municipality,G0021,,pending,,,,,,4436
+G1473,Salenstein,council,municipality,G0021,,pending,,,,,,4851
+G1474,Salmsach,council,municipality,G0021,,pending,,,,,,4441
+G1475,Schlatt (TG),council,municipality,G0021,,pending,,,,,,4546
+G1476,SchÃ¶nholzerswilen,council,municipality,G0021,,pending,,,,,,4756
+G1477,Sirnach,council,municipality,G0021,,pending,,,,,,4761
+G1478,Sommeri,council,municipality,G0021,,pending,,,,,,4446
+G1479,Steckborn,council,municipality,G0021,,pending,,,,,,4864
+G1480,Stettfurt,council,municipality,G0021,,pending,,,,,,4606
+G1481,Sulgen,council,municipality,G0021,,pending,,,,,,4506
+G1482,Thundorf,council,municipality,G0021,,pending,,,,,,4611
+G1483,Tobel-TÃ¤gerschen,council,municipality,G0021,,pending,,,,,,4776
+G1484,TÃ¤gerwilen,council,municipality,G0021,,pending,,,,,,4696
+G1485,Uesslingen-Buch,council,municipality,G0021,,pending,,,,,,4616
+G1486,Uttwil,council,municipality,G0021,,pending,,,,,,4451
+G1487,Wagenhausen,council,municipality,G0021,,pending,,,,,,4871
+G1488,Warth-Weiningen,council,municipality,G0021,,pending,,,,,,4621
+G1489,Weinfelden,council,municipality,G0021,,pending,,,,,,4946
+G1490,Wigoltingen,council,municipality,G0021,,pending,,,,,,4951
+G1491,Wilen (TG),council,municipality,G0021,,pending,,,,,,4786
+G1492,Wuppenau,council,municipality,G0021,,pending,,,,,,4791
+G1493,WÃ¤ldi,council,municipality,G0021,,pending,,,,,,4701
+G1494,WÃ¤ngi,council,municipality,G0021,,pending,,,,,,4781
+G1495,Zihlschlacht-Sitterdorf,council,municipality,G0021,,pending,,,,,,4511
+G1496,Acquarossa,council,municipality,G0022,,pending,,,,,,5048
+G1497,Agno,council,municipality,G0022,,pending,,,,,,5141
+G1498,Airolo,council,municipality,G0022,,pending,,,,,,5061
+G1499,Alto Malcantone,council,municipality,G0022,,pending,,,,,,5237
+G1500,Aranno,council,municipality,G0022,,pending,,,,,,5143
+G1501,Arbedo-Castione,council,municipality,G0022,,pending,,,,,,5001
+G1502,Arogno,council,municipality,G0022,,pending,,,,,,5144
+G1503,Ascona,council,municipality,G0022,,pending,,,,,,5091
+G1504,Avegno Gordevio,council,municipality,G0022,,pending,,,,,,5324
+G1505,Balerna,council,municipality,G0022,,pending,,,,,,5242
+G1506,Bedano,council,municipality,G0022,,pending,,,,,,5148
+G1507,Bedretto,council,municipality,G0022,,pending,,,,,,5063
+G1508,Bellinzona,council,municipality,G0022,,pending,,,,,,5002
+G1509,Biasca,council,municipality,G0022,,pending,,,,,,5281
+G1510,Bioggio,council,municipality,G0022,,pending,,,,,,5151
+G1511,Bissone,council,municipality,G0022,,pending,,,,,,5154
+G1512,Blenio,council,municipality,G0022,,pending,,,,,,5049
+G1513,Bosco/Gurin,council,municipality,G0022,,pending,,,,,,5304
+G1514,Breggia,council,municipality,G0022,,pending,,,,,,5269
+G1515,Brione sopra Minusio,council,municipality,G0022,,pending,,,,,,5096
+G1516,Brissago,council,municipality,G0022,,pending,,,,,,5097
+G1517,Brusino Arsizio,council,municipality,G0022,,pending,,,,,,5160
+G1518,Cademario,council,municipality,G0022,,pending,,,,,,5161
+G1519,Cadempino,council,municipality,G0022,,pending,,,,,,5162
+G1520,Cadenazzo,council,municipality,G0022,,pending,,,,,,5003
+G1521,Campo (Vallemaggia),council,municipality,G0022,,pending,,,,,,5307
+G1522,Canobbio,council,municipality,G0022,,pending,,,,,,5167
+G1523,Capriasca,council,municipality,G0022,,pending,,,,,,5226
+G1524,Caslano,council,municipality,G0022,,pending,,,,,,5171
+G1525,Castel San Pietro,council,municipality,G0022,,pending,,,,,,5249
+G1526,Centovalli,council,municipality,G0022,,pending,,,,,,5397
+G1527,Cerentino,council,municipality,G0022,,pending,,,,,,5309
+G1528,Cevio,council,municipality,G0022,,pending,,,,,,5310
+G1529,Chiasso,council,municipality,G0022,,pending,,,,,,5250
+G1530,Coldrerio,council,municipality,G0022,,pending,,,,,,5251
+G1531,Collina d'Oro,council,municipality,G0022,,pending,,,,,,5236
+G1532,Comano,council,municipality,G0022,,pending,,,,,,5176
+G1533,Cugnasco-Gerra,council,municipality,G0022,,pending,,,,,,5138
+G1534,Cureglia,council,municipality,G0022,,pending,,,,,,5180
+G1535,Dalpe,council,municipality,G0022,,pending,,,,,,5071
+G1536,Faido,council,municipality,G0022,,pending,,,,,,5072
+G1537,Gambarogno,council,municipality,G0022,,pending,,,,,,5398
+G1538,Giornico,council,municipality,G0022,,pending,,,,,,5073
+G1539,Gordola,council,municipality,G0022,,pending,,,,,,5108
+G1540,Grancia,council,municipality,G0022,,pending,,,,,,5186
+G1541,Gravesano,council,municipality,G0022,,pending,,,,,,5187
+G1542,Isone,council,municipality,G0022,,pending,,,,,,5009
+G1543,Lamone,council,municipality,G0022,,pending,,,,,,5189
+G1544,Lavertezzo,council,municipality,G0022,,pending,,,,,,5112
+G1545,Lavizzara,council,municipality,G0022,,pending,,,,,,5323
+G1546,Lema,council,municipality,G0022,,pending,,,,,,5395
+G1547,Linescio,council,municipality,G0022,,pending,,,,,,5315
+G1548,Locarno,council,municipality,G0022,,pending,,,,,,5113
+G1549,Losone,council,municipality,G0022,,pending,,,,,,5115
+G1550,Lugano,council,municipality,G0022,,pending,,,,,,5192
+G1551,Lumino,council,municipality,G0022,,pending,,,,,,5010
+G1552,Maggia,council,municipality,G0022,,pending,,,,,,5317
+G1553,Magliaso,council,municipality,G0022,,pending,,,,,,5193
+G1554,Manno,council,municipality,G0022,,pending,,,,,,5194
+G1555,Massagno,council,municipality,G0022,,pending,,,,,,5196
+G1556,Melide,council,municipality,G0022,,pending,,,,,,5198
+G1557,Mendrisio,council,municipality,G0022,,pending,,,,,,5254
+G1558,Mergoscia,council,municipality,G0022,,pending,,,,,,5117
+G1559,Mezzovico-Vira,council,municipality,G0022,,pending,,,,,,5199
+G1560,Minusio,council,municipality,G0022,,pending,,,,,,5118
+G1561,Monteceneri,council,municipality,G0022,,pending,,,,,,5238
+G1562,Morbio Inferiore,council,municipality,G0022,,pending,,,,,,5257
+G1563,Morcote,council,municipality,G0022,,pending,,,,,,5203
+G1564,Muralto,council,municipality,G0022,,pending,,,,,,5120
+G1565,Muzzano,council,municipality,G0022,,pending,,,,,,5205
+G1566,Neggio,council,municipality,G0022,,pending,,,,,,5206
+G1567,Novazzano,council,municipality,G0022,,pending,,,,,,5260
+G1568,Onsernone,council,municipality,G0022,,pending,,,,,,5136
+G1569,Origlio,council,municipality,G0022,,pending,,,,,,5208
+G1570,Orselina,council,municipality,G0022,,pending,,,,,,5121
+G1571,Paradiso,council,municipality,G0022,,pending,,,,,,5210
+G1572,Personico,council,municipality,G0022,,pending,,,,,,5076
+G1573,Pollegio,council,municipality,G0022,,pending,,,,,,5077
+G1574,Ponte Capriasca,council,municipality,G0022,,pending,,,,,,5212
+G1575,Porza,council,municipality,G0022,,pending,,,,,,5214
+G1576,Pura,council,municipality,G0022,,pending,,,,,,5216
+G1577,Quinto,council,municipality,G0022,,pending,,,,,,5079
+G1578,Riva San Vitale,council,municipality,G0022,,pending,,,,,,5263
+G1579,Riviera,council,municipality,G0022,,pending,,,,,,5287
+G1580,Ronco sopra Ascona,council,municipality,G0022,,pending,,,,,,5125
+G1581,Sant'Antonino,council,municipality,G0022,,pending,,,,,,5017
+G1582,Savosa,council,municipality,G0022,,pending,,,,,,5221
+G1583,Serravalle,council,municipality,G0022,,pending,,,,,,5050
+G1584,Sorengo,council,municipality,G0022,,pending,,,,,,5225
+G1585,Stabio,council,municipality,G0022,,pending,,,,,,5266
+G1586,Tenero-Contra,council,municipality,G0022,,pending,,,,,,5131
+G1587,Terre di Pedemonte,council,municipality,G0022,,pending,,,,,,5396
+G1588,Torricella-Taverne,council,municipality,G0022,,pending,,,,,,5227
+G1589,Tresa,council,municipality,G0022,,pending,,,,,,5239
+G1590,Vacallo,council,municipality,G0022,,pending,,,,,,5268
+G1591,Val Mara,council,municipality,G0022,,pending,,,,,,5240
+G1592,Vernate,council,municipality,G0022,,pending,,,,,,5230
+G1593,Verzasca,council,municipality,G0022,,pending,,,,,,5399
+G1594,Vezia,council,municipality,G0022,,pending,,,,,,5231
+G1595,Vico Morcote,council,municipality,G0022,,pending,,,,,,5233
+G1596,Aclens,council,municipality,G0023,,pending,,,,,,5621
+G1597,Agiez,council,municipality,G0023,,pending,,,,,,5742
+G1598,Aigle,council,municipality,G0023,,pending,,,,,,5401
+G1599,Allaman,council,municipality,G0023,,pending,,,,,,5851
+G1600,Arnex-sur-Nyon,council,municipality,G0023,,pending,,,,,,5701
+G1601,Arnex-sur-Orbe,council,municipality,G0023,,pending,,,,,,5743
+G1602,Arzier-Le Muids,council,municipality,G0023,,pending,,,,,,5702
+G1603,Assens,council,municipality,G0023,,pending,,,,,,5511
+G1604,Aubonne,council,municipality,G0023,,pending,,,,,,5422
+G1605,Avenches,council,municipality,G0023,,pending,,,,,,5451
+G1606,Ballaigues,council,municipality,G0023,,pending,,,,,,5744
+G1607,Ballens,council,municipality,G0023,,pending,,,,,,5423
+G1608,Bassins,council,municipality,G0023,,pending,,,,,,5703
+G1609,Baulmes,council,municipality,G0023,,pending,,,,,,5745
+G1610,Bavois,council,municipality,G0023,,pending,,,,,,5746
+G1611,Begnins,council,municipality,G0023,,pending,,,,,,5704
+G1612,Belmont-sur-Lausanne,council,municipality,G0023,,pending,,,,,,5581
+G1613,Belmont-sur-Yverdon,council,municipality,G0023,,pending,,,,,,5902
+G1614,Bercher,council,municipality,G0023,,pending,,,,,,5512
+G1615,Berolle,council,municipality,G0023,,pending,,,,,,5424
+G1616,Bettens,council,municipality,G0023,,pending,,,,,,5471
+G1617,Bex,council,municipality,G0023,,pending,,,,,,5402
+G1618,Bioley-Magnoux,council,municipality,G0023,,pending,,,,,,5903
+G1619,BiÃ¨re,council,municipality,G0023,,pending,,,,,,5425
+G1620,Blonay - Saint-LÃ©gier,council,municipality,G0023,,pending,,,,,,5892
+G1621,Bofflens,council,municipality,G0023,,pending,,,,,,5747
+G1622,Bogis-Bossey,council,municipality,G0023,,pending,,,,,,5705
+G1623,Bonvillars,council,municipality,G0023,,pending,,,,,,5551
+G1624,Borex,council,municipality,G0023,,pending,,,,,,5706
+G1625,Bottens,council,municipality,G0023,,pending,,,,,,5514
+G1626,Bougy-Villars,council,municipality,G0023,,pending,,,,,,5426
+G1627,Boulens,council,municipality,G0023,,pending,,,,,,5661
+G1628,Bourg-en-Lavaux,council,municipality,G0023,,pending,,,,,,5613
+G1629,Bournens,council,municipality,G0023,,pending,,,,,,5472
+G1630,Boussens,council,municipality,G0023,,pending,,,,,,5473
+G1631,Bremblens,council,municipality,G0023,,pending,,,,,,5622
+G1632,Bretigny-sur-Morrens,council,municipality,G0023,,pending,,,,,,5515
+G1633,BretonniÃ¨res,council,municipality,G0023,,pending,,,,,,5748
+G1634,Buchillon,council,municipality,G0023,,pending,,,,,,5623
+G1635,Bullet,council,municipality,G0023,,pending,,,,,,5552
+G1636,Bursinel,council,municipality,G0023,,pending,,,,,,5852
+G1637,Bursins,council,municipality,G0023,,pending,,,,,,5853
+G1638,Burtigny,council,municipality,G0023,,pending,,,,,,5854
+G1639,Bussigny,council,municipality,G0023,,pending,,,,,,5624
+G1640,Bussy-sur-Moudon,council,municipality,G0023,,pending,,,,,,5663
+G1641,Chamblon,council,municipality,G0023,,pending,,,,,,5904
+G1642,Champagne,council,municipality,G0023,,pending,,,,,,5553
+G1643,Champtauroz,council,municipality,G0023,,pending,,,,,,5812
+G1644,Champvent,council,municipality,G0023,,pending,,,,,,5905
+G1645,Chardonne,council,municipality,G0023,,pending,,,,,,5882
+G1646,Chavannes-de-Bogis,council,municipality,G0023,,pending,,,,,,5707
+G1647,Chavannes-des-Bois,council,municipality,G0023,,pending,,,,,,5708
+G1648,Chavannes-le-ChÃªne,council,municipality,G0023,,pending,,,,,,5907
+G1649,Chavannes-le-Veyron,council,municipality,G0023,,pending,,,,,,5475
+G1650,Chavannes-prÃ¨s-Renens,council,municipality,G0023,,pending,,,,,,5627
+G1651,Chavannes-sur-Moudon,council,municipality,G0023,,pending,,,,,,5665
+G1652,Chavornay,council,municipality,G0023,,pending,,,,,,5749
+G1653,Cheseaux-NorÃ©az,council,municipality,G0023,,pending,,,,,,5909
+G1654,Cheseaux-sur-Lausanne,council,municipality,G0023,,pending,,,,,,5582
+G1655,Chessel,council,municipality,G0023,,pending,,,,,,5403
+G1656,Chevilly,council,municipality,G0023,,pending,,,,,,5476
+G1657,Chevroux,council,municipality,G0023,,pending,,,,,,5813
+G1658,Chexbres,council,municipality,G0023,,pending,,,,,,5601
+G1659,Chigny,council,municipality,G0023,,pending,,,,,,5628
+G1660,ChÃ¢teau-d'Oex,council,municipality,G0023,,pending,,,,,,5841
+G1661,ChÃ©serex,council,municipality,G0023,,pending,,,,,,5709
+G1662,ChÃªne-PÃ¢quier,council,municipality,G0023,,pending,,,,,,5908
+G1663,Clarmont,council,municipality,G0023,,pending,,,,,,5629
+G1664,Coinsins,council,municipality,G0023,,pending,,,,,,5710
+G1665,Commugny,council,municipality,G0023,,pending,,,,,,5711
+G1666,Concise,council,municipality,G0023,,pending,,,,,,5554
+G1667,Coppet,council,municipality,G0023,,pending,,,,,,5712
+G1668,Corbeyrier,council,municipality,G0023,,pending,,,,,,5404
+G1669,Corcelles-le-Jorat,council,municipality,G0023,,pending,,,,,,5785
+G1670,Corcelles-prÃ¨s-Concise,council,municipality,G0023,,pending,,,,,,5555
+G1671,Corcelles-prÃ¨s-Payerne,council,municipality,G0023,,pending,,,,,,5816
+G1672,Corseaux,council,municipality,G0023,,pending,,,,,,5883
+G1673,Corsier-sur-Vevey,council,municipality,G0023,,pending,,,,,,5884
+G1674,Cossonay,council,municipality,G0023,,pending,,,,,,5477
+G1675,Crans (VD),council,municipality,G0023,,pending,,,,,,5713
+G1676,Crassier,council,municipality,G0023,,pending,,,,,,5714
+G1677,Crissier,council,municipality,G0023,,pending,,,,,,5583
+G1678,Cronay,council,municipality,G0023,,pending,,,,,,5910
+G1679,Croy,council,municipality,G0023,,pending,,,,,,5752
+G1680,Cuarnens,council,municipality,G0023,,pending,,,,,,5479
+G1681,Cuarny,council,municipality,G0023,,pending,,,,,,5911
+G1682,Cudrefin,council,municipality,G0023,,pending,,,,,,5456
+G1683,Cugy (VD),council,municipality,G0023,,pending,,,,,,5516
+G1684,Curtilles,council,municipality,G0023,,pending,,,,,,5669
+G1685,Daillens,council,municipality,G0023,,pending,,,,,,5480
+G1686,Denens,council,municipality,G0023,,pending,,,,,,5631
+G1687,Denges,council,municipality,G0023,,pending,,,,,,5632
+G1688,Dizy,council,municipality,G0023,,pending,,,,,,5481
+G1689,Dompierre (VD),council,municipality,G0023,,pending,,,,,,5671
+G1690,Donneloye,council,municipality,G0023,,pending,,,,,,5913
+G1691,Duillier,council,municipality,G0023,,pending,,,,,,5715
+G1692,Dully,council,municipality,G0023,,pending,,,,,,5855
+G1693,DÃ©moret,council,municipality,G0023,,pending,,,,,,5912
+G1694,Echallens,council,municipality,G0023,,pending,,,,,,5518
+G1695,Echandens,council,municipality,G0023,,pending,,,,,,5633
+G1696,Echichens,council,municipality,G0023,,pending,,,,,,5634
+G1697,EclÃ©pens,council,municipality,G0023,,pending,,,,,,5482
+G1698,Ecublens (VD),council,municipality,G0023,,pending,,,,,,5635
+G1699,Epalinges,council,municipality,G0023,,pending,,,,,,5584
+G1700,Ependes (VD),council,municipality,G0023,,pending,,,,,,5914
+G1701,Essertines-sur-Rolle,council,municipality,G0023,,pending,,,,,,5856
+G1702,Essertines-sur-Yverdon,council,municipality,G0023,,pending,,,,,,5520
+G1703,EtagniÃ¨res,council,municipality,G0023,,pending,,,,,,5521
+G1704,Etoy,council,municipality,G0023,,pending,,,,,,5636
+G1705,Eysins,council,municipality,G0023,,pending,,,,,,5716
+G1706,Faoug,council,municipality,G0023,,pending,,,,,,5458
+G1707,Ferreyres,council,municipality,G0023,,pending,,,,,,5483
+G1708,Fey,council,municipality,G0023,,pending,,,,,,5522
+G1709,Fiez,council,municipality,G0023,,pending,,,,,,5556
+G1710,Fontaines-sur-Grandson,council,municipality,G0023,,pending,,,,,,5557
+G1711,Forel (Lavaux),council,municipality,G0023,,pending,,,,,,5604
+G1712,Founex,council,municipality,G0023,,pending,,,,,,5717
+G1713,Froideville,council,municipality,G0023,,pending,,,,,,5523
+G1714,FÃ©chy,council,municipality,G0023,,pending,,,,,,5427
+G1715,Genolier,council,municipality,G0023,,pending,,,,,,5718
+G1716,Giez,council,municipality,G0023,,pending,,,,,,5559
+G1717,Gilly,council,municipality,G0023,,pending,,,,,,5857
+G1718,Gimel,council,municipality,G0023,,pending,,,,,,5428
+G1719,Gingins,council,municipality,G0023,,pending,,,,,,5719
+G1720,Givrins,council,municipality,G0023,,pending,,,,,,5720
+G1721,Gland,council,municipality,G0023,,pending,,,,,,5721
+G1722,Gollion,council,municipality,G0023,,pending,,,,,,5484
+G1723,GoumoÃ«ns,council,municipality,G0023,,pending,,,,,,5541
+G1724,Grancy,council,municipality,G0023,,pending,,,,,,5485
+G1725,Grandcour,council,municipality,G0023,,pending,,,,,,5817
+G1726,Grandevent,council,municipality,G0023,,pending,,,,,,5560
+G1727,Grandson,council,municipality,G0023,,pending,,,,,,5561
+G1728,Grens,council,municipality,G0023,,pending,,,,,,5722
+G1729,Gryon,council,municipality,G0023,,pending,,,,,,5405
+G1730,Hautemorges,council,municipality,G0023,,pending,,,,,,5656
+G1731,Henniez,council,municipality,G0023,,pending,,,,,,5819
+G1732,Hermenches,council,municipality,G0023,,pending,,,,,,5673
+G1733,Jongny,council,municipality,G0023,,pending,,,,,,5885
+G1734,Jorat-Menthue,council,municipality,G0023,,pending,,,,,,5804
+G1735,Jorat-MÃ©ziÃ¨res,council,municipality,G0023,,pending,,,,,,5806
+G1736,Jouxtens-MÃ©zery,council,municipality,G0023,,pending,,,,,,5585
+G1737,Juriens,council,municipality,G0023,,pending,,,,,,5754
+G1738,L'Abbaye,council,municipality,G0023,,pending,,,,,,5871
+G1739,L'Abergement,council,municipality,G0023,,pending,,,,,,5741
+G1740,L'Isle,council,municipality,G0023,,pending,,,,,,5486
+G1741,La Chaux (Cossonay),council,municipality,G0023,,pending,,,,,,5474
+G1742,La Praz,council,municipality,G0023,,pending,,,,,,5758
+G1743,La Rippe,council,municipality,G0023,,pending,,,,,,5726
+G1744,La Sarraz,council,municipality,G0023,,pending,,,,,,5498
+G1745,La Tour-de-Peilz,council,municipality,G0023,,pending,,,,,,5889
+G1746,Lausanne,council,municipality,G0023,,pending,,,,,,5586
+G1747,Lavey-Morcles,council,municipality,G0023,,pending,,,,,,5406
+G1748,Lavigny,council,municipality,G0023,,pending,,,,,,5637
+G1749,Le Chenit,council,municipality,G0023,,pending,,,,,,5872
+G1750,Le Lieu,council,municipality,G0023,,pending,,,,,,5873
+G1751,Le Mont-sur-Lausanne,council,municipality,G0023,,pending,,,,,,5587
+G1752,Le Vaud,council,municipality,G0023,,pending,,,,,,5731
+G1753,Les ClÃ©es,council,municipality,G0023,,pending,,,,,,5750
+G1754,Leysin,council,municipality,G0023,,pending,,,,,,5407
+G1755,Lignerolle,council,municipality,G0023,,pending,,,,,,5755
+G1756,Lonay,council,municipality,G0023,,pending,,,,,,5638
+G1757,Longirod,council,municipality,G0023,,pending,,,,,,5429
+G1758,Lovatens,council,municipality,G0023,,pending,,,,,,5674
+G1759,Lucens,council,municipality,G0023,,pending,,,,,,5675
+G1760,Luins,council,municipality,G0023,,pending,,,,,,5858
+G1761,Lully (VD),council,municipality,G0023,,pending,,,,,,5639
+G1762,Lussery-Villars,council,municipality,G0023,,pending,,,,,,5487
+G1763,Lussy-sur-Morges,council,municipality,G0023,,pending,,,,,,5640
+G1764,Lutry,council,municipality,G0023,,pending,,,,,,5606
+G1765,Maracon,council,municipality,G0023,,pending,,,,,,5790
+G1766,Marchissy,council,municipality,G0023,,pending,,,,,,5430
+G1767,Mathod,council,municipality,G0023,,pending,,,,,,5919
+G1768,Mauborget,council,municipality,G0023,,pending,,,,,,5562
+G1769,Mauraz,council,municipality,G0023,,pending,,,,,,5488
+G1770,Mex (VD),council,municipality,G0023,,pending,,,,,,5489
+G1771,Mies,council,municipality,G0023,,pending,,,,,,5723
+G1772,Missy,council,municipality,G0023,,pending,,,,,,5821
+G1773,Moiry,council,municipality,G0023,,pending,,,,,,5490
+G1774,Mollens (VD),council,municipality,G0023,,pending,,,,,,5431
+G1775,Molondin,council,municipality,G0023,,pending,,,,,,5921
+G1776,Mont-la-Ville,council,municipality,G0023,,pending,,,,,,5491
+G1777,Mont-sur-Rolle,council,municipality,G0023,,pending,,,,,,5859
+G1778,Montagny-prÃ¨s-Yverdon,council,municipality,G0023,,pending,,,,,,5922
+G1779,Montanaire,council,municipality,G0023,,pending,,,,,,5693
+G1780,Montcherand,council,municipality,G0023,,pending,,,,,,5756
+G1781,Montilliez,council,municipality,G0023,,pending,,,,,,5540
+G1782,Montpreveyres,council,municipality,G0023,,pending,,,,,,5792
+G1783,Montreux,council,municipality,G0023,,pending,,,,,,5886
+G1784,Montricher,council,municipality,G0023,,pending,,,,,,5492
+G1785,Morges,council,municipality,G0023,,pending,,,,,,5642
+G1786,Morrens (VD),council,municipality,G0023,,pending,,,,,,5527
+G1787,Moudon,council,municipality,G0023,,pending,,,,,,5678
+G1788,Mutrux,council,municipality,G0023,,pending,,,,,,5563
+G1789,Novalles,council,municipality,G0023,,pending,,,,,,5564
+G1790,Noville,council,municipality,G0023,,pending,,,,,,5408
+G1791,Nyon,council,municipality,G0023,,pending,,,,,,5724
+G1792,Ogens,council,municipality,G0023,,pending,,,,,,5680
+G1793,Ollon,council,municipality,G0023,,pending,,,,,,5409
+G1794,Onnens (VD),council,municipality,G0023,,pending,,,,,,5565
+G1795,Oppens,council,municipality,G0023,,pending,,,,,,5923
+G1796,Orbe,council,municipality,G0023,,pending,,,,,,5757
+G1797,Orges,council,municipality,G0023,,pending,,,,,,5924
+G1798,Ormont-Dessous,council,municipality,G0023,,pending,,,,,,5410
+G1799,Ormont-Dessus,council,municipality,G0023,,pending,,,,,,5411
+G1800,Orny,council,municipality,G0023,,pending,,,,,,5493
+G1801,Oron,council,municipality,G0023,,pending,,,,,,5805
+G1802,Orzens,council,municipality,G0023,,pending,,,,,,5925
+G1803,Oulens-sous-Echallens,council,municipality,G0023,,pending,,,,,,5529
+G1804,Pailly,council,municipality,G0023,,pending,,,,,,5530
+G1805,Paudex,council,municipality,G0023,,pending,,,,,,5588
+G1806,Payerne,council,municipality,G0023,,pending,,,,,,5822
+G1807,Penthalaz,council,municipality,G0023,,pending,,,,,,5495
+G1808,Penthaz,council,municipality,G0023,,pending,,,,,,5496
+G1809,PenthÃ©rÃ©az,council,municipality,G0023,,pending,,,,,,5531
+G1810,Perroy,council,municipality,G0023,,pending,,,,,,5860
+G1811,Poliez-Pittet,council,municipality,G0023,,pending,,,,,,5533
+G1812,Pompaples,council,municipality,G0023,,pending,,,,,,5497
+G1813,Pomy,council,municipality,G0023,,pending,,,,,,5926
+G1814,Prangins,council,municipality,G0023,,pending,,,,,,5725
+G1815,Premier,council,municipality,G0023,,pending,,,,,,5759
+G1816,Prilly,council,municipality,G0023,,pending,,,,,,5589
+G1817,Provence,council,municipality,G0023,,pending,,,,,,5566
+G1818,PrÃ©verenges,council,municipality,G0023,,pending,,,,,,5643
+G1819,PrÃ©vonloup,council,municipality,G0023,,pending,,,,,,5683
+G1820,Puidoux,council,municipality,G0023,,pending,,,,,,5607
+G1821,Pully,council,municipality,G0023,,pending,,,,,,5590
+G1822,Rances,council,municipality,G0023,,pending,,,,,,5760
+G1823,Renens (VD),council,municipality,G0023,,pending,,,,,,5591
+G1824,Rennaz,council,municipality,G0023,,pending,,,,,,5412
+G1825,Rivaz,council,municipality,G0023,,pending,,,,,,5609
+G1826,Roche (VD),council,municipality,G0023,,pending,,,,,,5413
+G1827,Rolle,council,municipality,G0023,,pending,,,,,,5861
+G1828,RomainmÃ´tier-Envy,council,municipality,G0023,,pending,,,,,,5761
+G1829,Romanel-sur-Lausanne,council,municipality,G0023,,pending,,,,,,5592
+G1830,Romanel-sur-Morges,council,municipality,G0023,,pending,,,,,,5645
+G1831,Ropraz,council,municipality,G0023,,pending,,,,,,5798
+G1832,Rossenges,council,municipality,G0023,,pending,,,,,,5684
+G1833,RossiniÃ¨re,council,municipality,G0023,,pending,,,,,,5842
+G1834,Rougemont,council,municipality,G0023,,pending,,,,,,5843
+G1835,Rovray,council,municipality,G0023,,pending,,,,,,5928
+G1836,Rueyres,council,municipality,G0023,,pending,,,,,,5534
+G1837,Saint-BarthÃ©lemy (VD),council,municipality,G0023,,pending,,,,,,5535
+G1838,Saint-Cergue,council,municipality,G0023,,pending,,,,,,5727
+G1839,Saint-George,council,municipality,G0023,,pending,,,,,,5434
+G1840,Saint-Livres,council,municipality,G0023,,pending,,,,,,5435
+G1841,Saint-Oyens,council,municipality,G0023,,pending,,,,,,5436
+G1842,Saint-Prex,council,municipality,G0023,,pending,,,,,,5646
+G1843,Saint-Saphorin (Lavaux),council,municipality,G0023,,pending,,,,,,5610
+G1844,Saint-Sulpice (VD),council,municipality,G0023,,pending,,,,,,5648
+G1845,Sainte-Croix,council,municipality,G0023,,pending,,,,,,5568
+G1846,Saubraz,council,municipality,G0023,,pending,,,,,,5437
+G1847,Savigny,council,municipality,G0023,,pending,,,,,,5611
+G1848,Senarclens,council,municipality,G0023,,pending,,,,,,5499
+G1849,Sergey,council,municipality,G0023,,pending,,,,,,5762
+G1850,Servion,council,municipality,G0023,,pending,,,,,,5799
+G1851,Signy-Avenex,council,municipality,G0023,,pending,,,,,,5728
+G1852,Suchy,council,municipality,G0023,,pending,,,,,,5929
+G1853,Sullens,council,municipality,G0023,,pending,,,,,,5501
+G1854,SuscÃ©vaz,council,municipality,G0023,,pending,,,,,,5930
+G1855,Syens,council,municipality,G0023,,pending,,,,,,5688
+G1856,Tannay,council,municipality,G0023,,pending,,,,,,5729
+G1857,Tartegnin,council,municipality,G0023,,pending,,,,,,5862
+G1858,Tolochenaz,council,municipality,G0023,,pending,,,,,,5649
+G1859,Trey,council,municipality,G0023,,pending,,,,,,5827
+G1860,Treycovagnes,council,municipality,G0023,,pending,,,,,,5931
+G1861,Treytorrens (Payerne),council,municipality,G0023,,pending,,,,,,5828
+G1862,TrÃ©lex,council,municipality,G0023,,pending,,,,,,5730
+G1863,TÃ©venon,council,municipality,G0023,,pending,,,,,,5571
+G1864,Ursins,council,municipality,G0023,,pending,,,,,,5932
+G1865,Valbroye,council,municipality,G0023,,pending,,,,,,5831
+G1866,Valeyres-sous-Montagny,council,municipality,G0023,,pending,,,,,,5933
+G1867,Valeyres-sous-Rances,council,municipality,G0023,,pending,,,,,,5763
+G1868,Valeyres-sous-Ursins,council,municipality,G0023,,pending,,,,,,5934
+G1869,Vallorbe,council,municipality,G0023,,pending,,,,,,5764
+G1870,Vaulion,council,municipality,G0023,,pending,,,,,,5765
+G1871,Vaux-sur-Morges,council,municipality,G0023,,pending,,,,,,5650
+G1872,Vevey,council,municipality,G0023,,pending,,,,,,5890
+G1873,Veytaux,council,municipality,G0023,,pending,,,,,,5891
+G1874,Vich,council,municipality,G0023,,pending,,,,,,5732
+G1875,Villars-Epeney,council,municipality,G0023,,pending,,,,,,5935
+G1876,Villars-Sainte-Croix,council,municipality,G0023,,pending,,,,,,5651
+G1877,Villars-le-Comte,council,municipality,G0023,,pending,,,,,,5690
+G1878,Villars-le-Terroir,council,municipality,G0023,,pending,,,,,,5537
+G1879,Villars-sous-Yens,council,municipality,G0023,,pending,,,,,,5652
+G1880,Villarzel,council,municipality,G0023,,pending,,,,,,5830
+G1881,Villeneuve (VD),council,municipality,G0023,,pending,,,,,,5414
+G1882,Vinzel,council,municipality,G0023,,pending,,,,,,5863
+G1883,Vuarrens,council,municipality,G0023,,pending,,,,,,5539
+G1884,Vucherens,council,municipality,G0023,,pending,,,,,,5692
+G1885,Vufflens-la-Ville,council,municipality,G0023,,pending,,,,,,5503
+G1886,Vufflens-le-ChÃ¢teau,council,municipality,G0023,,pending,,,,,,5653
+G1887,Vugelles-La Mothe,council,municipality,G0023,,pending,,,,,,5937
+G1888,Vuiteboeuf,council,municipality,G0023,,pending,,,,,,5766
+G1889,Vulliens,council,municipality,G0023,,pending,,,,,,5803
+G1890,Vullierens,council,municipality,G0023,,pending,,,,,,5654
+G1891,Vully-les-Lacs,council,municipality,G0023,,pending,,,,,,5464
+G1892,Yens,council,municipality,G0023,,pending,,,,,,5655
+G1893,Yverdon-les-Bains,council,municipality,G0023,,pending,,,,,,5938
+G1894,Yvonand,council,municipality,G0023,,pending,,,,,,5939
+G1895,Yvorne,council,municipality,G0023,,pending,,,,,,5415
+G1896,Agarn,council,municipality,G0024,,pending,,,,,,6101
+G1897,Albinen,council,municipality,G0024,,pending,,,,,,6102
+G1898,Anniviers,council,municipality,G0024,,pending,,,,,,6252
+G1899,Arbaz,council,municipality,G0024,,pending,,,,,,6261
+G1900,Ardon,council,municipality,G0024,,pending,,,,,,6021
+G1901,Ausserberg,council,municipality,G0024,,pending,,,,,,6191
+G1902,Ayent,council,municipality,G0024,,pending,,,,,,6082
+G1903,Baltschieder,council,municipality,G0024,,pending,,,,,,6281
+G1904,Bellwald,council,municipality,G0024,,pending,,,,,,6052
+G1905,Bettmeralp,council,municipality,G0024,,pending,,,,,,6205
+G1906,Binn,council,municipality,G0024,,pending,,,,,,6054
+G1907,Bister,council,municipality,G0024,,pending,,,,,,6172
+G1908,Bitsch,council,municipality,G0024,,pending,,,,,,6173
+G1909,Blatten,council,municipality,G0024,,pending,,,,,,6192
+G1910,Bourg-Saint-Pierre,council,municipality,G0024,,pending,,,,,,6032
+G1911,Bovernier,council,municipality,G0024,,pending,,,,,,6131
+G1912,Brig-Glis,council,municipality,G0024,,pending,,,,,,6002
+G1913,BÃ¼rchen,council,municipality,G0024,,pending,,,,,,6193
+G1914,Chalais,council,municipality,G0024,,pending,,,,,,6232
+G1915,Chamoson,council,municipality,G0024,,pending,,,,,,6022
+G1916,ChampÃ©ry,council,municipality,G0024,,pending,,,,,,6151
+G1917,Chippis,council,municipality,G0024,,pending,,,,,,6235
+G1918,Collombey-Muraz,council,municipality,G0024,,pending,,,,,,6152
+G1919,Collonges,council,municipality,G0024,,pending,,,,,,6211
+G1920,Conthey,council,municipality,G0024,,pending,,,,,,6023
+G1921,Crans-Montana,council,municipality,G0024,,pending,,,,,,6253
+G1922,DorÃ©naz,council,municipality,G0024,,pending,,,,,,6212
+G1923,Eggerberg,council,municipality,G0024,,pending,,,,,,6004
+G1924,Eischoll,council,municipality,G0024,,pending,,,,,,6194
+G1925,Eisten,council,municipality,G0024,,pending,,,,,,6282
+G1926,Embd,council,municipality,G0024,,pending,,,,,,6283
+G1927,Ergisch,council,municipality,G0024,,pending,,,,,,6104
+G1928,Ernen,council,municipality,G0024,,pending,,,,,,6056
+G1929,Evionnaz,council,municipality,G0024,,pending,,,,,,6213
+G1930,EvolÃ¨ne,council,municipality,G0024,,pending,,,,,,6083
+G1931,Ferden,council,municipality,G0024,,pending,,,,,,6195
+G1932,Fiesch,council,municipality,G0024,,pending,,,,,,6057
+G1933,Fieschertal,council,municipality,G0024,,pending,,,,,,6058
+G1934,Finhaut,council,municipality,G0024,,pending,,,,,,6214
+G1935,Fully,council,municipality,G0024,,pending,,,,,,6133
+G1936,Gampel-Bratsch,council,municipality,G0024,,pending,,,,,,6118
+G1937,Goms,council,municipality,G0024,,pending,,,,,,6077
+G1938,Grengiols,council,municipality,G0024,,pending,,,,,,6177
+G1939,Grimisuat,council,municipality,G0024,,pending,,,,,,6263
+G1940,GrÃ¤chen,council,municipality,G0024,,pending,,,,,,6285
+G1941,GrÃ´ne,council,municipality,G0024,,pending,,,,,,6238
+G1942,Guttet-Feschel,council,municipality,G0024,,pending,,,,,,6117
+G1943,HÃ©rÃ©mence,council,municipality,G0024,,pending,,,,,,6084
+G1944,Icogne,council,municipality,G0024,,pending,,,,,,6239
+G1945,Inden,council,municipality,G0024,,pending,,,,,,6109
+G1946,IsÃ©rables,council,municipality,G0024,,pending,,,,,,6134
+G1947,Kippel,council,municipality,G0024,,pending,,,,,,6197
+G1948,Lalden,council,municipality,G0024,,pending,,,,,,6286
+G1949,Lax,council,municipality,G0024,,pending,,,,,,6061
+G1950,Lens,council,municipality,G0024,,pending,,,,,,6240
+G1951,Leuk,council,municipality,G0024,,pending,,,,,,6110
+G1952,Leukerbad,council,municipality,G0024,,pending,,,,,,6111
+G1953,Leytron,council,municipality,G0024,,pending,,,,,,6135
+G1954,Liddes,council,municipality,G0024,,pending,,,,,,6033
+G1955,Martigny,council,municipality,G0024,,pending,,,,,,6136
+G1956,Martigny-Combe,council,municipality,G0024,,pending,,,,,,6137
+G1957,Massongex,council,municipality,G0024,,pending,,,,,,6215
+G1958,Mont-Noble,council,municipality,G0024,,pending,,,,,,6090
+G1959,Monthey,council,municipality,G0024,,pending,,,,,,6153
+G1960,MÃ¶rel-Filet,council,municipality,G0024,,pending,,,,,,6203
+G1961,Naters,council,municipality,G0024,,pending,,,,,,6007
+G1962,Nendaz,council,municipality,G0024,,pending,,,,,,6024
+G1963,Niedergesteln,council,municipality,G0024,,pending,,,,,,6198
+G1964,Noble-ContrÃ©e,council,municipality,G0024,,pending,,,,,,6254
+G1965,Oberems,council,municipality,G0024,,pending,,,,,,6112
+G1966,Obergoms,council,municipality,G0024,,pending,,,,,,6076
+G1967,OrsiÃ¨res,council,municipality,G0024,,pending,,,,,,6034
+G1968,Port-Valais,council,municipality,G0024,,pending,,,,,,6154
+G1969,Randa,council,municipality,G0024,,pending,,,,,,6287
+G1970,Raron,council,municipality,G0024,,pending,,,,,,6199
+G1971,Riddes,council,municipality,G0024,,pending,,,,,,6139
+G1972,Ried-Brig,council,municipality,G0024,,pending,,,,,,6008
+G1973,Riederalp,council,municipality,G0024,,pending,,,,,,6181
+G1974,Saas-Almagell,council,municipality,G0024,,pending,,,,,,6288
+G1975,Saas-Balen,council,municipality,G0024,,pending,,,,,,6289
+G1976,Saas-Fee,council,municipality,G0024,,pending,,,,,,6290
+G1977,Saas-Grund,council,municipality,G0024,,pending,,,,,,6291
+G1978,Saillon,council,municipality,G0024,,pending,,,,,,6140
+G1979,Saint-Gingolph,council,municipality,G0024,,pending,,,,,,6155
+G1980,Saint-LÃ©onard,council,municipality,G0024,,pending,,,,,,6246
+G1981,Saint-Martin (VS),council,municipality,G0024,,pending,,,,,,6087
+G1982,Saint-Maurice,council,municipality,G0024,,pending,,,,,,6217
+G1983,Salgesch,council,municipality,G0024,,pending,,,,,,6113
+G1984,Salvan,council,municipality,G0024,,pending,,,,,,6218
+G1985,SaviÃ¨se,council,municipality,G0024,,pending,,,,,,6265
+G1986,Saxon,council,municipality,G0024,,pending,,,,,,6141
+G1987,Sembrancher,council,municipality,G0024,,pending,,,,,,6035
+G1988,Sierre,council,municipality,G0024,,pending,,,,,,6248
+G1989,Simplon,council,municipality,G0024,,pending,,,,,,6009
+G1990,Sion,council,municipality,G0024,,pending,,,,,,6266
+G1991,St. Niklaus,council,municipality,G0024,,pending,,,,,,6292
+G1992,Stalden (VS),council,municipality,G0024,,pending,,,,,,6293
+G1993,Staldenried,council,municipality,G0024,,pending,,,,,,6294
+G1994,Steg-Hohtenn,council,municipality,G0024,,pending,,,,,,6204
+G1995,Termen,council,municipality,G0024,,pending,,,,,,6010
+G1996,Trient,council,municipality,G0024,,pending,,,,,,6142
+G1997,Troistorrents,council,municipality,G0024,,pending,,,,,,6156
+G1998,Turtmann-Unterems,council,municipality,G0024,,pending,,,,,,6119
+G1999,TÃ¤sch,council,municipality,G0024,,pending,,,,,,6295
+G2000,TÃ¶rbel,council,municipality,G0024,,pending,,,,,,6296
+G2001,UnterbÃ¤ch,council,municipality,G0024,,pending,,,,,,6201
+G2002,Val de Bagnes,council,municipality,G0024,,pending,,,,,,6037
+G2003,Val-d'Illiez,council,municipality,G0024,,pending,,,,,,6157
+G2004,Varen,council,municipality,G0024,,pending,,,,,,6116
+G2005,Vernayaz,council,municipality,G0024,,pending,,,,,,6219
+G2006,Vex,council,municipality,G0024,,pending,,,,,,6089
+G2007,Veysonnaz,council,municipality,G0024,,pending,,,,,,6267
+G2008,Vionnaz,council,municipality,G0024,,pending,,,,,,6158
+G2009,Visp,council,municipality,G0024,,pending,,,,,,6297
+G2010,Visperterminen,council,municipality,G0024,,pending,,,,,,6298
+G2011,Vouvry,council,municipality,G0024,,pending,,,,,,6159
+G2012,VÃ©rossaz,council,municipality,G0024,,pending,,,,,,6220
+G2013,VÃ©troz,council,municipality,G0024,,pending,,,,,,6025
+G2014,Wiler (LÃ¶tschen),council,municipality,G0024,,pending,,,,,,6202
+G2015,Zeneggen,council,municipality,G0024,,pending,,,,,,6299
+G2016,Zermatt,council,municipality,G0024,,pending,,,,,,6300
+G2017,Zwischbergen,council,municipality,G0024,,pending,,,,,,6011
+G2018,Boudry,council,municipality,G0025,,pending,,,,,,6404
+G2019,Brot-Plamboz,council,municipality,G0025,,pending,,,,,,6433
+G2020,Cornaux,council,municipality,G0025,,pending,,,,,,6451
+G2021,Cortaillod,council,municipality,G0025,,pending,,,,,,6408
+G2022,Cressier (NE),council,municipality,G0025,,pending,,,,,,6452
+G2023,La BrÃ©vine,council,municipality,G0025,,pending,,,,,,6432
+G2024,La Chaux-de-Fonds,council,municipality,G0025,,pending,,,,,,6421
+G2025,La Chaux-du-Milieu,council,municipality,G0025,,pending,,,,,,6435
+G2026,La CÃ´te-aux-FÃ©es,council,municipality,G0025,,pending,,,,,,6504
+G2027,La Grande BÃ©roche,council,municipality,G0025,,pending,,,,,,6417
+G2028,La Sagne,council,municipality,G0025,,pending,,,,,,6423
+G2029,LatÃ©na,council,municipality,G0025,,pending,,,,,,6513
+G2030,Le Cerneux-PÃ©quignot,council,municipality,G0025,,pending,,,,,,6434
+G2031,Le Landeron,council,municipality,G0025,,pending,,,,,,6455
+G2032,Le Locle,council,municipality,G0025,,pending,,,,,,6436
+G2033,Les Planchettes,council,municipality,G0025,,pending,,,,,,6422
+G2034,Les Ponts-de-Martel,council,municipality,G0025,,pending,,,,,,6437
+G2035,Les VerriÃ¨res,council,municipality,G0025,,pending,,,,,,6511
+G2036,LigniÃ¨res,council,municipality,G0025,,pending,,,,,,6456
+G2037,Milvignes,council,municipality,G0025,,pending,,,,,,6416
+G2038,NeuchÃ¢tel,council,municipality,G0025,,pending,,,,,,6458
+G2039,Rochefort,council,municipality,G0025,,pending,,,,,,6413
+G2040,Val-de-Ruz,council,municipality,G0025,,pending,,,,,,6487
+G2041,Val-de-Travers,council,municipality,G0025,,pending,,,,,,6512
+G2042,Aire-la-Ville,council,municipality,G0026,,pending,,,,,,6601
+G2043,AniÃ¨res,council,municipality,G0026,,pending,,,,,,6602
+G2044,Avully,council,municipality,G0026,,pending,,,,,,6603
+G2045,Avusy,council,municipality,G0026,,pending,,,,,,6604
+G2046,Bardonnex,council,municipality,G0026,,pending,,,,,,6605
+G2047,Bellevue,council,municipality,G0026,,pending,,,,,,6606
+G2048,Bernex,council,municipality,G0026,,pending,,,,,,6607
+G2049,Carouge (GE),council,municipality,G0026,,pending,,,,,,6608
+G2050,Cartigny,council,municipality,G0026,,pending,,,,,,6609
+G2051,Chancy,council,municipality,G0026,,pending,,,,,,6611
+G2052,Choulex,council,municipality,G0026,,pending,,,,,,6614
+G2053,ChÃªne-Bougeries,council,municipality,G0026,,pending,,,,,,6612
+G2054,ChÃªne-Bourg,council,municipality,G0026,,pending,,,,,,6613
+G2055,Collex-Bossy,council,municipality,G0026,,pending,,,,,,6615
+G2056,Collonge-Bellerive,council,municipality,G0026,,pending,,,,,,6616
+G2057,Cologny,council,municipality,G0026,,pending,,,,,,6617
+G2058,Confignon,council,municipality,G0026,,pending,,,,,,6618
+G2059,Corsier (GE),council,municipality,G0026,,pending,,,,,,6619
+G2060,CÃ©ligny,council,municipality,G0026,,pending,,,,,,6610
+G2061,Dardagny,council,municipality,G0026,,pending,,,,,,6620
+G2062,Genthod,council,municipality,G0026,,pending,,,,,,6622
+G2063,GenÃ¨ve,council,municipality,G0026,,pending,,,,,,6621
+G2064,Gy,council,municipality,G0026,,pending,,,,,,6624
+G2065,Hermance,council,municipality,G0026,,pending,,,,,,6625
+G2066,Jussy,council,municipality,G0026,,pending,,,,,,6626
+G2067,Laconnex,council,municipality,G0026,,pending,,,,,,6627
+G2068,Lancy,council,municipality,G0026,,pending,,,,,,6628
+G2069,Le Grand-Saconnex,council,municipality,G0026,,pending,,,,,,6623
+G2070,Meinier,council,municipality,G0026,,pending,,,,,,6629
+G2071,Meyrin,council,municipality,G0026,,pending,,,,,,6630
+G2072,Onex,council,municipality,G0026,,pending,,,,,,6631
+G2073,Perly-Certoux,council,municipality,G0026,,pending,,,,,,6632
+G2074,Plan-les-Ouates,council,municipality,G0026,,pending,,,,,,6633
+G2075,Pregny-ChambÃ©sy,council,municipality,G0026,,pending,,,,,,6634
+G2076,Presinge,council,municipality,G0026,,pending,,,,,,6635
+G2077,Puplinge,council,municipality,G0026,,pending,,,,,,6636
+G2078,Russin,council,municipality,G0026,,pending,,,,,,6637
+G2079,Satigny,council,municipality,G0026,,pending,,,,,,6638
+G2080,Soral,council,municipality,G0026,,pending,,,,,,6639
+G2081,ThÃ´nex,council,municipality,G0026,,pending,,,,,,6640
+G2082,Troinex,council,municipality,G0026,,pending,,,,,,6641
+G2083,Vandoeuvres,council,municipality,G0026,,pending,,,,,,6642
+G2084,Vernier,council,municipality,G0026,,pending,,,,,,6643
+G2085,Versoix,council,municipality,G0026,,pending,,,,,,6644
+G2086,Veyrier,council,municipality,G0026,,pending,,,,,,6645
+G2087,Alle,council,municipality,G0027,,pending,,,,,,6771
+G2088,Basse-Allaine,council,municipality,G0027,,pending,,,,,,6807
+G2089,Basse-Vendline,council,municipality,G0027,,pending,,,,,,6812
+G2090,Boncourt,council,municipality,G0027,,pending,,,,,,6774
+G2091,Bourrignon,council,municipality,G0027,,pending,,,,,,6703
+G2092,BoÃ©court,council,municipality,G0027,,pending,,,,,,6702
+G2093,Bure,council,municipality,G0027,,pending,,,,,,6778
+G2094,ChÃ¢tillon (JU),council,municipality,G0027,,pending,,,,,,6704
+G2095,Clos du Doubs,council,municipality,G0027,,pending,,,,,,6808
+G2096,Coeuve,council,municipality,G0027,,pending,,,,,,6781
+G2097,Cornol,council,municipality,G0027,,pending,,,,,,6782
+G2098,Courchapoix,council,municipality,G0027,,pending,,,,,,6706
+G2099,Courchavon,council,municipality,G0027,,pending,,,,,,6783
+G2100,Courgenay,council,municipality,G0027,,pending,,,,,,6784
+G2101,Courrendlin,council,municipality,G0027,,pending,,,,,,6708
+G2102,Courroux,council,municipality,G0027,,pending,,,,,,6709
+G2103,Courtedoux,council,municipality,G0027,,pending,,,,,,6785
+G2104,CourtÃ©telle,council,municipality,G0027,,pending,,,,,,6710
+G2105,Damphreux-Lugnez,council,municipality,G0027,,pending,,,,,,6811
+G2106,DelÃ©mont,council,municipality,G0027,,pending,,,,,,6711
+G2107,Develier,council,municipality,G0027,,pending,,,,,,6712
+G2108,Ederswiler,council,municipality,G0027,,pending,,,,,,6713
+G2109,Fahy,council,municipality,G0027,,pending,,,,,,6789
+G2110,Fontenais,council,municipality,G0027,,pending,,,,,,6790
+G2111,Grandfontaine,council,municipality,G0027,,pending,,,,,,6792
+G2112,Haute-Ajoie,council,municipality,G0027,,pending,,,,,,6809
+G2113,Haute-Sorne,council,municipality,G0027,,pending,,,,,,6729
+G2114,La Baroche,council,municipality,G0027,,pending,,,,,,6810
+G2115,Lajoux (JU),council,municipality,G0027,,pending,,,,,,6750
+G2116,Le BÃ©mont (JU),council,municipality,G0027,,pending,,,,,,6741
+G2117,Le Noirmont,council,municipality,G0027,,pending,,,,,,6754
+G2118,Les Bois,council,municipality,G0027,,pending,,,,,,6742
+G2119,Les Breuleux,council,municipality,G0027,,pending,,,,,,6743
+G2120,Les Enfers,council,municipality,G0027,,pending,,,,,,6745
+G2121,Les Genevez (JU),council,municipality,G0027,,pending,,,,,,6748
+G2122,Mervelier,council,municipality,G0027,,pending,,,,,,6715
+G2123,Mettembert,council,municipality,G0027,,pending,,,,,,6716
+G2124,Montfaucon,council,municipality,G0027,,pending,,,,,,6751
+G2125,Moutier,council,municipality,G0027,,pending,,,,,,6831
+G2126,Movelier,council,municipality,G0027,,pending,,,,,,6718
+G2127,Muriaux,council,municipality,G0027,,pending,,,,,,6753
+G2128,Pleigne,council,municipality,G0027,,pending,,,,,,6719
+G2129,Porrentruy,council,municipality,G0027,,pending,,,,,,6800
+G2130,Rossemaison,council,municipality,G0027,,pending,,,,,,6721
+G2131,SaignelÃ©gier,council,municipality,G0027,,pending,,,,,,6757
+G2132,Saint-Brais,council,municipality,G0027,,pending,,,,,,6758
+G2133,Saulcy,council,municipality,G0027,,pending,,,,,,6722
+G2134,Soubey,council,municipality,G0027,,pending,,,,,,6759
+G2135,SoyhiÃ¨res,council,municipality,G0027,,pending,,,,,,6724
+G2136,Val Terbi,council,municipality,G0027,,pending,,,,,,6730
+G2137,Vendlincourt,council,municipality,G0027,,pending,,,,,,6806

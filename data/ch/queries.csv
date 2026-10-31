@@ -1,0 +1,11 @@
+query_id,run_id,date,language,query,channel,results_opened,leads_added,note
+Q0001,R001,2026-10-31,de,Vermögenssteuer Schweiz Initiative Forderung Milliardäre Steuer SP Gewerkschaftsbund,web,4,2,
+Q0002,R001,2026-10-31,fr,impôt sur la fortune Suisse initiative milliardaires taxe Zucman PS Suisse,web,3,1,
+Q0003,R001,2026-10-31,en,Switzerland wealth tax proposal economists Oxfam Switzerland billionaires tax 2025,web,3,1,
+Q0004,R001,2026-10-31,it,imposta sul patrimonio Svizzera iniziativa PS Ticino patrimoniale miliardari,web,2,0,
+Q0005,R001,2026-10-31,de,Alfred Gantner Vermögenssteuer progressive höhere Steuern Superreiche,web,3,0,
+Q0006,R001,2026-10-31,de,Kanton Vermögenssteuer erhöhen Initiative SP Grüne Juso Superreiche Kantonsrat,web,4,3,
+Q0007,R001,2026-10-31,fr,"Genève initiative impôt sur la fortune 1,5% dix ans votation 18 juin 2023",web,4,1,
+Q0008,R001,2026-10-31,de,Zürich Corona-Initiative Vermögenssteuer 20 Prozent Zuschlag Initiative SP AL Grüne,web,5,0,
+Q0009,R001,2026-10-31,de,Ökonom Schweiz fordert Vermögenssteuer Superreiche Brülhart Martínez,web,3,3,
+Q0010,R001,2026-10-31,de,"Vermögenssteuer, Millionäre, Milliardär, Solidaritätsabgabe, Superreiche (Business titles)",ws.parlament.ch OData,5,0,

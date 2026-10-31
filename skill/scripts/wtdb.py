@@ -1127,6 +1127,9 @@ def _fetch_for_check(u, timeout):
             raw = resp.read()
             ctype = resp.headers.get("Content-Type", "").lower()
             charset = resp.headers.get_content_charset()
+        if raw[:2] == bytes([0x1f, 0x8b]):  # some servers gzip the body although the request did not ask for it
+            import gzip
+            raw = gzip.decompress(raw)
         if raw[:4] == b"%PDF" or "pdf" in ctype:
             text = _pdf_to_text(raw)
             return _plain(text, tags=False) if text else None  # a "<" in PDF text must not swallow what follows

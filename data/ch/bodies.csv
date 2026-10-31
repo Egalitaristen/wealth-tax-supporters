@@ -1,0 +1,3 @@
+body_id,name,level,kind,seats,as_of,source_url,seat_view,notes
+B0001,National Council (Nationalrat),national,chamber,200,,https://www.parlament.ch/en/organe/national-council,,Large chamber of the Federal Assembly; 200 members elected by proportional representation in the cantons.
+B0002,Council of States (Ständerat),national,chamber,46,,https://www.parlament.ch/en/organe/council-of-states,,"Small chamber of the Federal Assembly; two members per canton, one per half-canton."
