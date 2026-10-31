@@ -1,0 +1,5 @@
+position_id,actor_id,body_id,role,party,geo_unit_id,start,end,current,member_ref,checked,source_url
+O00001,A0003,B0001,Abgeordnete/r zum Nationalrat,SPÖ,G2107,,,y,5639,2026-10-31,https://www.parlament.gv.at/person/5639
+O00002,A0004,B0001,Abgeordnete/r zum Nationalrat,SPÖ,G2107,,,y,14842,2026-10-31,https://www.parlament.gv.at/person/14842
+O00003,A0010,B0001,Abgeordnete/r zum Nationalrat,SPÖ,G2107,,,y,30708,2026-10-31,https://www.parlament.gv.at/person/30708
+O00004,A0015,B0001,Abgeordnete/r zum Nationalrat,SPÖ,G2107,,,y,14844,2026-10-31,https://www.parlament.gv.at/person/14844

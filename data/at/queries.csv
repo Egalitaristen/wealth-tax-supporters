@@ -1,0 +1,9 @@
+query_id,run_id,date,language,query,channel,results_opened,leads_added,note
+Q0001,R001,2026-10-31,de,Vermögensteuer Österreich Babler SPÖ Modell,web,5,2,
+Q0002,R001,2026-10-31,de,site:parlament.gv.at Entschließungsantrag Vermögensteuer OR Millionärssteuer,parliament,6,2,
+Q0003,R001,2026-10-31,de,site:spoe.at Millionärsabgabe OR Vermögensteuer Babler,party,4,1,
+Q0004,R001,2026-10-31,de,Barbara Teiber Millionärssteuer OR Vermögensteuer GPA,trade_union,4,2,
+Q0005,R001,2026-10-31,de,Renate Anderl Arbeiterkammer Vermögensteuer OR Millionärssteuer,trade_union,3,2,
+Q0006,R001,2026-10-31,de,site:attac.at Vermögensabgabe OR Vermögensteuer Attac,ngo,4,1,
+Q0007,R001,2026-10-31,de,site:momentum-institut.at Vermögensteuer Barbara Blaha,think_tank,4,1,
+Q0008,R001,2026-10-31,de,site:kpoe.at Vermögensteuer OR Millionärssteuer,party,4,2,
