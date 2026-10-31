@@ -1,13 +1,13 @@
 # Area profile — Saudi Arabia (المملكة العربية السعودية)
 
-Save as `data/sa/area_profile.md`. Seed pass R001, Deepening pass R002, Saturation pass R003, and Exhaustive Leads pass R004 completed 2026-11-01.
+Save as `data/sa/area_profile.md`. Seed pass R001, Deepening pass R002, Saturation pass R003, Exhaustive Leads pass R004, and Extended Perimeter sweep R005 completed 2026-11-01.
 
 ## 1. Scope
 - Area: Saudi Arabia (Kingdom of Saudi Arabia); type: country (absolute monarchy, G20 member).
-- Depth: Seed, Deepening, Saturation, and Exhaustive Leads (prominent national supporters, full geography hierarchy of 13 regions and 147 governorates, exclusions landscape across institutions, academic economics, banking, labor, civil society, international coalitions, and opinion polling).
+- Depth: Seed, Deepening, Saturation, and Exhaustive Leads (prominent national supporters, full geography hierarchy of 13 regions and 147 governorates, exclusions landscape across institutions, academic economics, banking, labor, civil society, international coalitions, Islamic jurisprudence, political opposition, and opinion polling).
 - Levels of government in scope: national (King, Council of Ministers, Consultative Assembly / Majlis al-Shura), regional (13 administrative regions / Mintaqah), and local (147 governorates / Muhafazat).
 - Languages to search in: Arabic (`ar`), English (`en`).
-- Date of runs: 2026-10-31 to 2026-11-01 (R001, R002, R003, R004).
+- Date of runs: 2026-10-31 to 2026-11-01 (R001, R002, R003, R004, R005).
 
 ## 2. Wealth tax history and live proposals (2010 onwards)
 - **No statutory net wealth tax:** Saudi Arabia levies no secular net wealth tax on individuals, nor personal income tax, inheritance tax, or estate duty.
@@ -27,11 +27,12 @@ Save as `data/sa/area_profile.md`. Seed pass R001, Deepening pass R002, Saturati
   - Individual economic committee members investigated (Dr. Fahad bin Juma'a, Dr. Said Al-Shaikh, Dr. Nourah Al-Yousef) focused on anti-evasion, digital cash reduction, White Land fees, and energy diversification, with zero wealth tax sponsorship.
 
 ## 4. Parties, civil society, and labor
-- Political parties are legally prohibited in Saudi Arabia.
+- Political parties are legally prohibited in Saudi Arabia. Exiled political movements (e.g. the National Assembly Party - NAAS) oppose government taxation and VAT, viewing them as unjust extractions without democratic accountability.
 - Civil society is regulated under the Law on Associations and Foundations (Ministry of Human Resources and Social Development), which prohibits political advocacy or campaigning. Independent tax justice coalitions do not operate domestically.
 - During the 2020 Saudi G20 Presidency, the Civil 20 (C20) engagement group was boycotted by major international civil society coalitions (Amnesty International, Transparency International) over civic space concerns.
 - The National Committee of Workers Committees (NCWC) represents private-sector employees in social dialogue and the G20 L20 track, focusing on minimum wages and cost-of-living impacts of VAT, with no wealth tax proposals.
 - International high-net-worth coalitions (Patriotic Millionaires, Proud to Pay More, Millionaires for Humanity) contain zero signatories from Saudi Arabia.
+- Islamic legal scholarship (Ibn Baz, Ibn Uthaymeen, Saleh Al-Fawzan) treats non-Zakat direct taxes on personal capital as uncanonical *mukus* (unlawful levies), precluding Sharia-based secular wealth tax advocacy.
 
 ## 5. Government below national level
 - **Structure:** 13 Administrative Regions (Mintaqah / مناطق المملكة العربية السعودية), governed by regional governors (Emirs), subdivided into 147 Governorates (Muhafazat / محافظات).
@@ -57,8 +58,8 @@ Save as `data/sa/area_profile.md`. Seed pass R001, Deepening pass R002, Saturati
 
 ## 7. Media
 - National English dailies: *Arab News* (SRMG, Riyadh), *Saudi Gazette* (Okaz Organization, Jeddah).
-- National Arabic dailies: *Al-Riyadh*, *Al-Jazirah*, *Okaz*, *Al-Watan*, *Al-Madina*, *Al-Yaum*.
-- Business and financial media: *Al-Eqtisadiah* (aleqt.com), *Maaal* (maaal.com), *Argaam* (argaam.com).
+- National Arabic dailies: *Al-Riyadh*, *Al-Jazirah*, *Okaz*, *Al-Watan*, *Al-Madina*, *Al-Yaum*, *Asharq Al-Awsat*.
+- Business and financial media: *Al-Eqtisadiah* (aleqt.com), *Maaal* (maaal.com), *Argaam* (argaam.com / Alpha Beta).
 
 ## 8. Registers
 - Zakat, Tax and Customs Authority (ZATCA): `https://zatca.gov.sa/`
@@ -71,5 +72,5 @@ Save as `data/sa/area_profile.md`. Seed pass R001, Deepening pass R002, Saturati
 - Arab News business and economic columnists network.
 
 ## 10. Plan for the next runs
-- **Saturation status:** Saturated across all layers (legislative, executive, academic economics, banking, labor, civil society, international coalitions, and G20 tracks). Exhaustive lead sweeps across academic literature, press archives (*Al-Jazirah*, *Okaz*, *Al-Riyadh*, *Arab News*, *Saudi Gazette*), KAEC panel transcripts, and international HNW coalitions confirm that Khalid Abdulla-Janahi remains the single public figure on record to have proposed an annual net wealth tax for Saudi Arabia/GCC. Domestic economic policy and public commentary center on Vision 2030 diversification, VAT, white land fees, and religious Zakat.
+- **Saturation status:** Saturated across all layers (legislative, executive, academic economics, banking, labor, civil society, international coalitions, Islamic jurisprudence, and G20 tracks). Exhaustive sweeps across 33 logged queries, academic literature, press archives (*Al-Jazirah*, *Okaz*, *Al-Riyadh*, *Arab News*, *Saudi Gazette*, *Asharq Al-Awsat*, *Argaam*), KAEC panel transcripts, and international HNW coalitions confirm that Khalid Abdulla-Janahi remains the single public figure on record to have proposed an annual net wealth tax for Saudi Arabia/GCC. Domestic economic policy, academic consensus, and religious jurisprudence reject personal wealth taxes in favor of Zakat, VAT, and White Land fees.
 - **Future updates:** Periodic monitoring of Shura Council annual reports, Vision 2030 fiscal updates, and G20 tax working group deliverables.

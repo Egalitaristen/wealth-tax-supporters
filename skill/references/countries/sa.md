@@ -1,6 +1,6 @@
 # Saudi Arabia (data/sa)
 
-Worked notes from the Saudi Arabia research passes (`R001` seed pass, `R002` deepening pass, `R003` saturation pass, `R004` exhaustive leads pass, 2026-10-31 to 2026-11-01; 1 identified supporter, 19 documented exclusions, 1 opinion poll, 27 logged bilingual queries, 6 tracked leads, 147 governorates loaded).
+Worked notes from the Saudi Arabia research passes (`R001` seed pass, `R002` deepening pass, `R003` saturation pass, `R004` exhaustive leads pass, `R005` extended perimeter sweep, 2026-10-31 to 2026-11-01; 1 identified supporter, 22 documented exclusions, 1 opinion poll, 33 logged bilingual queries, 6 tracked leads, 147 governorates loaded).
 
 ## Levels and the geography register
 
@@ -54,3 +54,6 @@ Worked notes from the Saudi Arabia research passes (`R001` seed pass, `R002` dee
 17. **Frank Kane:** Senior business columnist at *Arab News* who moderated the 2017 KAEC Top CEO panel where Janahi proposed a 1% wealth tax and reported on it, but did not personally sponsor or endorse a wealth tax proposal.
 18. **Khalid Abu-Ismail & Vladimir Hlasny:** Economists at UN ESCWA in Beirut who authored the 2020 regional technical paper *Wealth Inequality and Closing the Poverty Gap in Arab Countries: The Case for a Solidarity Wealth Tax*, modeling regional redistribution across 14 Arab countries without domestic Saudi policy advocacy (cataloged in global resources).
 19. **Mohammed Al-Jadaan:** Saudi Minister of Finance who repeatedly reaffirmed at G20 and WEF Davos that Saudi Arabia has no plans to introduce personal income or wealth taxation, relying on VAT, corporate taxes on foreign entities, and Zakat.
+20. **Abdulhamid Al-Amri:** Prominent Saudi real estate economist and columnist who advocated aggressively for expanding and escalating the White Land Tax on vacant urban plots to curb real estate speculation; property levy excluded under Section 2.
+21. **Dr. Raja Almarzoqi:** Saudi macroeconomist, GCC General Coordinator for Negotiations, and co-author of *Islamic Macroeconomics* who analyzes Sharia-compliant public finance and non-oil revenue diversification without endorsing secular wealth taxes.
+22. **National Assembly Party (NAAS):** Exiled Saudi opposition party founded in 2020; its foundational political manifesto criticizes the imposition of VAT and administrative fees on citizens without democratic accountability, with no wealth tax proposals.

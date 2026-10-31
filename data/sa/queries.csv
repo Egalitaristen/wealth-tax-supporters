@@ -26,3 +26,9 @@ Q0024,R004,2026-11-01,en,"""Proud to Pay"" Survation ""Saudi Arabia"" OR ""G20""
 Q0025,R004,2026-11-01,ar,"""ضريبة الثروة"" site:ksu.edu.sa OR site:kau.edu.sa OR site:kfupm.edu.sa",web,6,0,Scanned Saudi university academic literature on wealth taxation
 Q0026,R004,2026-11-01,en,"""Measuring Inequality in the Middle East"" ""Saudi Arabia"" ""wealth tax""",web,6,1,Investigated World Inequality Lab / WID.world Middle East research
 Q0027,R004,2026-11-01,ar,"site:al-jazirah.com OR site:alriyadh.com OR site:okaz.com.sa ""ضريبة الثروة""",web,6,0,Exhaustive press archive sweep of major Saudi daily newspapers
+Q0028,R005,2026-11-01,ar,"""ضريبة على الأغنياء"" OR ""ضريبة على الأثرياء"" ""السعودية"" كاتب OR اقتصادي",web,6,0,Searched for Saudi writers proposing taxes on the wealthy
+Q0029,R005,2026-11-01,ar,"site:argaam.com ""ضريبة تصاعدية"" OR ""ضريبة الثروة""",web,5,0,Searched Argaam and Alpha Beta contributor columns
+Q0030,R005,2026-11-01,ar,"""عبدالحميد العمري"" ""ضريبة"" OR ""رسوم الأراضي""",web,5,0,Investigated real estate analyst Abdulhamid Al-Amri White Land tax advocacy
+Q0031,R005,2026-11-01,en,"""Lubna Olayan"" ""wealth tax"" OR ""taxing wealth"" OR ""inequality""",web,5,0,Investigated corporate leader Lubna Olayan public addresses
+Q0032,R005,2026-11-01,ar,"""فرض ضرائب على الأغنياء"" ابن عثيمين OR ابن باز OR الفوزان",web,6,0,Investigated Saudi grand jurists fatwas on non-Zakat taxes as mukus
+Q0033,R005,2026-11-01,ar,"site:aawsat.com ""ضريبة الثروة""",web,6,0,Searched Asharq Al-Awsat international reporting and column archives
