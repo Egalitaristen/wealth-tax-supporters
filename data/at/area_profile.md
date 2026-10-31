@@ -86,3 +86,6 @@
 ## 9. Saturation & coverage review
 - **Saturation reached:** Core political parties, federal parliament, European Parliament delegation, all major sectoral trade unions within the ÖGB, leading chambers (AK), prominent macro & inequality economists, charitable welfare NGOs (Volkshilfe), faith-based civil society (KABÖ), wealthy advocates (taxmenow, Millionaires for Humanity), and municipal/state anchors in Vienna and Styria are thoroughly cataloged across 4 iterative runs (R001–R004).
 - **Future maintenance:** Track any new parliamentary legislative initiatives in the XXVIII. Nationalrat and updates from the European Citizens' Initiative (ECI) *Tax the Rich*.
+
+## Audit — R005
+- 27 of 37 quotes were found on their pages; the other 10 are on parlament.gv.at, oegb.at, kpoe.at and similar sites that block scripts, so they were not re-read. Rows that only name a wealth tax with no rate, threshold or formal act are graded B (Katzian, Regner, Schürz, Fuhrmann, Volkshilfe and its director, Wall-Strasser, Krotzer); Elke Kahr's quote does not mention the tax itself, so it is C. "Millionärssteuer" (millionaires' tax) in Austria is the named SPÖ, ÖGB and AK model with a threshold of one million euros, so rows that use it stay A. The 183-seat Nationalrat chart adds up (FPÖ 57, ÖVP 51, SPÖ 41, NEOS 17, Greens 16, no club 1).
