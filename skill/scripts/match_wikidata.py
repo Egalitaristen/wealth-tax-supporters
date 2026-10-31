@@ -23,10 +23,10 @@ import wtdb  # noqa: E402
 UA = {"User-Agent": "wealth-tax-supporters/0.1 (https://github.com/Egalitaristen/wealth-tax-supporters)"}
 COUNTRY = {"BE": ("Q31", ["nl", "fr", "de", "en"]), "BR": ("Q155", ["pt", "en"]), "CA": ("Q16", ["en", "fr"]),
            "CN": ("Q148", ["zh", "en"]), "DK": ("Q35", ["da", "en"]), "DE": ("Q183", ["de", "en"]), "ES": ("Q29", ["es", "ca", "eu", "gl", "en"]),
-           "FR": ("Q142", ["fr", "en"]), "GB": ("Q145", ["en"]), "ID": ("Q252", ["id", "en"]), "IN": ("Q668", ["en", "hi"]),
+           "FR": ("Q142", ["fr", "en"]), "GB": ("Q145", ["en"]), "ID": ("Q252", ["id", "en"]), "IE": ("Q27", ["en", "ga"]), "IN": ("Q668", ["en", "hi"]), "IT": ("Q38", ["it", "en"]),
            "JP": ("Q17", ["ja", "en"]), "ML": ("Q912", ["fr", "bm", "en"]), "MX": ("Q96", ["es", "en"]), "MY": ("Q833", ["ms", "en"]), "NG": ("Q1033", ["en"]), "NL": ("Q55", ["nl", "en"]),
            "NO": ("Q20", ["nb", "nn", "en"]), "PL": ("Q36", ["pl", "en"]), "RU": ("Q159", ["ru", "en"]), "SE": ("Q34", ["sv", "en"]),
-           "SG": ("Q334", ["en", "zh"]), "TH": ("Q869", ["th", "en"]), "TR": ("Q43", ["tr", "en"]), "US": ("Q30", ["en"]),
+           "SG": ("Q334", ["en", "zh"]), "TH": ("Q869", ["th", "en"]), "TR": ("Q43", ["tr", "en"]), "US": ("Q30", ["en"]), "ZA": ("Q258", ["en", "af", "zu", "xh"]),
            "MW": ("Q1020", ["en", "ny"]), "CH": ("Q39", ["de", "fr", "it", "en"])}
 
 
