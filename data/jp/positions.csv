@@ -1,7 +1,7 @@
 position_id,actor_id,body_id,role,party,geo_unit_id,start,end,current,member_ref,checked,source_url
-O00001,A0004,B0001,Member of the House of Representatives,,G0687,,,n,,2026-10-25,https://www.shugiin.go.jp/internet/itdb_annai.nsf/html/statics/syu/1giin.htm
-O00002,A0005,B0001,Member of the House of Representatives,,G0687,,,n,,2026-10-25,https://www.shugiin.go.jp/internet/itdb_annai.nsf/html/statics/syu/1giin.htm
-O00003,A0006,B0001,Member of the House of Representatives,,G0687,,,n,,2026-10-25,https://www.shugiin.go.jp/internet/itdb_annai.nsf/html/statics/syu/1giin.htm
-O00004,A0002,B0002,Member of the House of Councillors,JCP,G0687,,,y,小池晃,2026-10-25,https://www.sangiin.go.jp/japanese/joho1/kousei/giin/222/giin.htm
-O00005,A0003,B0002,Member of the House of Councillors,JCP,G0687,,,y,大門実紀史,2026-10-25,https://www.sangiin.go.jp/japanese/joho1/kousei/giin/222/giin.htm
-O00006,A0007,B0002,Member of the House of Councillors,民主,G0011,,,y,舟山康江,2026-10-25,https://www.sangiin.go.jp/japanese/joho1/kousei/giin/222/giin.htm
+O00001,A0004,B0001,Member of the House of Representatives,,G0687,,,n,,2026-10-31,https://www.shugiin.go.jp/internet/itdb_annai.nsf/html/statics/syu/1giin.htm
+O00002,A0005,B0001,Member of the House of Representatives,,G0687,,,n,,2026-10-31,https://www.shugiin.go.jp/internet/itdb_annai.nsf/html/statics/syu/1giin.htm
+O00003,A0006,B0001,Member of the House of Representatives,,G0687,,,n,,2026-10-31,https://www.shugiin.go.jp/internet/itdb_annai.nsf/html/statics/syu/1giin.htm
+O00004,A0002,B0002,Member of the House of Councillors,JCP,G0687,,,y,小池晃,2026-10-31,https://www.sangiin.go.jp/japanese/joho1/kousei/giin/222/giin.htm
+O00005,A0003,B0002,Member of the House of Councillors,JCP,G0687,,,y,大門実紀史,2026-10-31,https://www.sangiin.go.jp/japanese/joho1/kousei/giin/222/giin.htm
+O00006,A0007,B0002,Member of the House of Councillors,DPP,G0011,,,y,舟山康江,2026-10-31,https://www.sangiin.go.jp/japanese/joho1/kousei/giin/222/giin.htm
