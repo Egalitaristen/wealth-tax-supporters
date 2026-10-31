@@ -4,5 +4,19 @@
   "lead": "",
   "status": "in progress",
   "boundaries": "boundaries.json",
-  "notes": "Seed pass. Geography: 26 cantons (region, ISO 3166-2 codes, English names) and 2,110 municipalities (council tier, BFS numbers) from the BFS Historised Municipality Directory, snapshot 2026-10-01 (agvchapp.bfs.admin.ch); districts (Bezirke) are skipped because they are not general-purpose local government and several cantons have none. Boundaries: swisstopo swissBOUNDARIES3D 2026-01, free use under swisstopo's OGD terms with source reference (Bundesamt für Landestopografie swisstopo); the swiss-maps TopoJSON was not used because its BFS GEOSTAT data carries a non-commercial licence."
+  "notes": "Seed pass. Geography: 26 cantons (region, ISO 3166-2 codes, English names) and 2,110 municipalities (council tier, BFS numbers) from the BFS Historised Municipality Directory, snapshot 2026-10-01 (agvchapp.bfs.admin.ch); districts (Bezirke) are skipped because they are not general-purpose local government and several cantons have none. Boundaries: swisstopo swissBOUNDARIES3D 2026-01, free use under swisstopo's OGD terms with source reference (Bundesamt für Landestopografie swisstopo); the swiss-maps TopoJSON was not used because its BFS GEOSTAT data carries a non-commercial licence.",
+  "polls": [
+    {
+      "support": 68,
+      "support_text": "About two in three",
+      "scope": "Swiss voters, Tamedia/20 Minuten post-vote survey (Nachabstimmungsbefragung)",
+      "question": "Federal wealth tax on large fortunes (the Green Liberal proposal: 0.33% above CHF 5 million, to fund the 13th AHV pension and the army)",
+      "question_original": "Bundesvermögenssteuer auf grosse Vermögen",
+      "pollster": "Leewas",
+      "commissioned_by": "Tamedia and 20 Minuten",
+      "fieldwork": "2026-03",
+      "published": "2026-03-15",
+      "url": "https://www.tagesanzeiger.ch/vermoegenssteuer-68-prozent-wollen-reiche-zur-kasse-bitten-190904006976"
+    }
+  ]
 }
