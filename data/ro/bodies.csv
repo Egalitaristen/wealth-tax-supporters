@@ -1,0 +1,5 @@
+body_id,name,level,kind,seats,as_of,source_url,seat_view,notes
+B0001,Senatul României,national,chamber,,,https://www.senat.ro/,,
+B0002,Camera Deputaților,national,chamber,,,https://www.cdep.ro/,,
+B0003,European Parliament,supranational,chamber,,,https://www.europarl.europa.eu/meps/en/124785/x/home,,
+B0004,Primăria Comunei Cumpăna,local,other,,,https://primaria-cumpana.ro/membru-primarie/gaju-mariana/,,

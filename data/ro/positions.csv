@@ -1,0 +1,20 @@
+position_id,actor_id,body_id,role,party,geo_unit_id,start,end,current,member_ref,checked,source_url
+P0001,A0003,B0001,Senator,Independent,G0032,2025-06-25,,,,,https://www.senat.ro/Legis/Lista.aspx?cod=26923
+P0002,A0004,B0002,Deputy,Independent,G0001,2025-06-25,,,,,https://www.senat.ro/Legis/Lista.aspx?cod=26923
+P0003,A0005,B0002,Deputy,Independent,G0041,2025-06-25,,,,,https://www.senat.ro/Legis/Lista.aspx?cod=26923
+P0004,A0006,B0002,Deputy,Independent,G0007,2025-06-25,,,,,https://www.senat.ro/Legis/Lista.aspx?cod=26923
+P0005,A0007,B0002,Deputy,Independent,G0025,2025-06-25,,,,,https://www.senat.ro/Legis/Lista.aspx?cod=26923
+P0006,A0008,B0002,Deputy,Independent,G0008,2025-06-25,,,,,https://www.senat.ro/Legis/Lista.aspx?cod=26923
+P0007,A0010,B0002,Deputy,Social Democratic Party,G0019,2010-03-16,2012-10-15,n,,2026-10-31,https://www.cdep.ro/ords/pls/proiecte/upl_pck2015.proiect?idp=10819
+P0008,A0015,B0003,Member of the European Parliament,Humanist Social Liberal Party,G0001,2023-12-11,,y,,2026-10-31,https://www.europarl.europa.eu/meps/en/124785/x/home
+P0009,A0017,B0001,Senator,Independent,G0038,2024-12-21,,y,,2026-10-31,https://www.senat.ro/FisaSenator.aspx?ParlamentarID=0317F068-49AD-4541-87D4-CC589AEF437F
+P0010,A0024,B0003,Member of the European Parliament,Independent,G0001,2023-12-06,,y,,2026-10-31,https://www.europarl.europa.eu/meps/en/download/advanced/pdf?countryCode=RO&euPoliticalGroupBodyRefNum=7028
+P0011,A0025,B0004,Mayor,Social Democratic Party,G1005,2024,,y,,2026-10-31,https://primaria-cumpana.ro/membru-primarie/gaju-mariana/
+P0012,A0026,B0003,Member of the European Parliament,Social Democratic Party,G0001,2023-12-12,,y,197658,2026-05-08,https://www.europarl.europa.eu/meps/ro/download/advanced/pdf?countryCode=RO
+P0013,A0027,B0003,Member of the European Parliament,Social Democratic Party,G0001,2023-12-12,2024-07-15,n,197657,2026-10-31,https://www.europarl.europa.eu/meps/en/197657/x/home
+P0014,A0028,B0003,Member of the European Parliament,Social Democratic Party,G0001,2023-12-12,,y,197653,2026-05-08,https://www.europarl.europa.eu/meps/ro/download/advanced/pdf?countryCode=RO
+P0015,A0029,B0003,Member of the European Parliament,Social Democratic Party,G0001,2023-12-12,,y,88882,2026-05-08,https://www.europarl.europa.eu/meps/ro/download/advanced/pdf?countryCode=RO
+P0016,A0030,B0003,Member of the European Parliament,Social Democratic Party,G0001,2023-12-12,,y,124784,2026-05-08,https://www.europarl.europa.eu/meps/ro/download/advanced/pdf?countryCode=RO
+P0017,A0031,B0003,Member of the European Parliament,Social Democratic Party,G0001,2023-12-12,2024-07-15,n,38595,2026-10-31,https://www.europarl.europa.eu/meps/en/38595/x/home
+P0018,A0032,B0003,Member of the European Parliament,Social Democratic Party,G0001,2023-12-12,,y,198183,2026-05-08,https://www.europarl.europa.eu/meps/ro/download/advanced/pdf?countryCode=RO
+P0019,A0033,B0003,Member of the European Parliament,Alliance for the Union of Romanians,G0001,2024-07-16,,y,257115,2026-05-08,https://www.europarl.europa.eu/meps/ro/download/advanced/pdf?countryCode=RO
