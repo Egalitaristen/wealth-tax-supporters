@@ -1,0 +1,8 @@
+{
+  "name": "Malawi",
+  "iso2": "MW",
+  "lead": "",
+  "status": "in progress",
+  "boundaries": "boundaries.json",
+  "notes": "Seed pass. Geography: 3 regions (Northern, Central, Southern) and 32 local councils (28 districts and 4 city councils). Boundaries: OCHA Common Operational Datasets (COD-AB) from the National Statistics Office of Malawi, published under CC BY-IGO."
+}

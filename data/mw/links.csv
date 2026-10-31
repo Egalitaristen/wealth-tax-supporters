@@ -1,0 +1,5 @@
+link_id,from_actor_id,to_actor_id,link_type,evidence_id,source_url,note
+L0001,A0001,A0002,leads,E00001,https://mwnation.com/experts-urge-structural-reform/,Dr. Bertha Bangara-Chikadza is President of ECAMA.
+L0002,A0003,A0004,works_for,E00003,https://mwnation.com/experts-urge-structural-reform/,Agnes Nyirongo is Economic Governance Officer at Centre for Social Concern.
+L0003,A0005,A0006,works_for,E00005,https://mwnation.com/tax-policies-fuel-inequality-oxfam/,Mathias Kafunda is Just Economies Programme and Policy Manager at Oxfam in Malawi.
+L0004,A0007,A0006,coalition_partner,E00007,https://mwnation.com/experts-urge-structural-reform/,MEJN co-produced and launched the CRI Malawi 2025 Profile with Oxfam.
