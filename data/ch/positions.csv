@@ -1,84 +1,87 @@
 position_id,actor_id,body_id,role,party,geo_unit_id,start,end,current,member_ref,checked,source_url
-O00001,A0001,B0001,Member of the National Council,,G0003,,,n,,2026-10-31,https://www.parlament.ch/en/organe/national-council
-O00002,A0002,B0001,Member of the National Council,Social Democratic Party,G0002,2023-12-04,,y,10812,2026-10-31,https://www.parlament.ch/de/biografie?CouncillorId=10812
-O00003,A0003,B0001,Member of the National Council,Social Democratic Party,G0024,2023-12-04,,y,4320,2026-10-31,https://www.parlament.ch/de/biografie?CouncillorId=4320
-O00004,A0004,B0001,Member of the National Council,Green Party,G0011,2023-12-04,,y,4245,2026-10-31,https://www.parlament.ch/de/biografie?CouncillorId=4245
-O00005,A0005,B0001,Member of the National Council,Green Party,G0013,2023-12-04,,y,4184,2026-10-31,https://www.parlament.ch/de/biografie?CouncillorId=4184
-O00006,A0006,B0001,Member of the National Council,,G0013,,,n,,2026-10-31,https://www.parlament.ch/en/organe/national-council
-O00007,A0007,B0001,Member of the National Council,Green Party,G0003,2023-12-04,,y,4246,2026-10-31,https://www.parlament.ch/de/biografie?CouncillorId=4246
-O00008,A0008,B0001,Member of the National Council,Social Democratic Party,G0002,2023-12-04,,y,4058,2026-10-31,https://www.parlament.ch/de/biografie?CouncillorId=4058
-O00009,A0009,B0001,Member of the National Council,,G0002,,,n,,2026-10-31,https://www.parlament.ch/en/organe/national-council
-O00010,A0010,B0001,Member of the National Council,Green Party,G0003,2023-12-04,,y,4247,2026-10-31,https://www.parlament.ch/de/biografie?CouncillorId=4247
-O00011,A0011,B0001,Member of the National Council,Social Democratic Party,G0023,2023-12-04,,y,4213,2026-10-31,https://www.parlament.ch/de/biografie?CouncillorId=4213
-O00012,A0012,B0001,Member of the National Council,,G0004,,,n,,2026-10-31,https://www.parlament.ch/en/organe/national-council
-O00013,A0013,B0001,Member of the National Council,Green Party,G0014,2023-12-04,,y,4315,2026-10-31,https://www.parlament.ch/de/biografie?CouncillorId=4315
-O00014,A0014,B0001,Member of the National Council,Social Democratic Party,G0020,2023-12-04,,y,10813,2026-10-31,https://www.parlament.ch/de/biografie?CouncillorId=10813
-O00015,A0015,B0001,Member of the National Council,Social Democratic Party,G0004,2023-12-04,,y,10828,2026-10-31,https://www.parlament.ch/de/biografie?CouncillorId=10828
-O00016,A0016,B0001,Member of the National Council,Green Party,G0024,2023-12-04,,y,4253,2026-10-31,https://www.parlament.ch/de/biografie?CouncillorId=4253
-O00017,A0017,B0001,Member of the National Council,Social Democratic Party,G0023,2023-12-04,,y,4219,2026-10-31,https://www.parlament.ch/de/biografie?CouncillorId=4219
-O00018,A0018,B0001,Member of the National Council,Social Democratic Party,G0026,2023-12-04,,y,4255,2026-10-31,https://www.parlament.ch/de/biografie?CouncillorId=4255
-O00019,A0019,B0001,Member of the National Council,Social Democratic Party,G0025,2023-12-04,,y,10829,2026-10-31,https://www.parlament.ch/de/biografie?CouncillorId=10829
-O00020,A0020,B0001,Member of the National Council,,G0021,,,n,,2026-10-31,https://www.parlament.ch/en/organe/national-council
-O00021,A0021,B0001,Member of the National Council,Social Democratic Party,G0026,2023-12-04,,y,4195,2026-10-31,https://www.parlament.ch/de/biografie?CouncillorId=4195
-O00022,A0022,B0001,Member of the National Council,,G0020,,,n,,2026-10-31,https://www.parlament.ch/en/organe/national-council
-O00023,A0024,B0001,Member of the National Council,,G0027,,,n,,2026-10-31,https://www.parlament.ch/en/organe/national-council
-O00024,A0025,B0001,Member of the National Council,,G0018,,,n,,2026-10-31,https://www.parlament.ch/en/organe/national-council
-O00025,A0026,B0001,Member of the National Council,Social Democratic Party,G0003,2023-12-04,,y,4262,2026-10-31,https://www.parlament.ch/de/biografie?CouncillorId=4262
-O00026,A0027,B0001,Member of the National Council,,G0002,,,n,,2026-10-31,https://www.parlament.ch/en/organe/national-council
-O00027,A0028,B0001,Member of the National Council,,G0002,,,n,,2026-10-31,https://www.parlament.ch/en/organe/national-council
-O00028,A0029,B0001,Member of the National Council,,G0021,,,n,,2026-10-31,https://www.parlament.ch/en/organe/national-council
-O00029,A0030,B0001,Member of the National Council,Social Democratic Party,G0018,2023-12-04,,y,4121,2026-10-31,https://www.parlament.ch/de/biografie?CouncillorId=4121
-O00030,A0031,B0001,Member of the National Council,Green Party,G0022,2026-05-26,,y,4268,2026-10-31,https://www.parlament.ch/de/biografie?CouncillorId=4268
-O00031,A0033,B0001,Member of the National Council,Social Democratic Party,G0023,2023-12-04,,y,10820,2026-10-31,https://www.parlament.ch/de/biografie?CouncillorId=10820
-O00032,A0034,B0001,Member of the National Council,Green Party,G0026,2023-12-04,,y,4272,2026-10-31,https://www.parlament.ch/de/biografie?CouncillorId=4272
-O00033,A0035,B0001,Member of the National Council,Green Party,G0020,2023-12-04,,y,4218,2026-10-31,https://www.parlament.ch/de/biografie?CouncillorId=4218
-O00034,A0036,B0001,Member of the National Council,,G0019,,,n,,2026-10-31,https://www.parlament.ch/en/organe/national-council
-O00035,A0037,B0001,Member of the National Council,Green Party,G0023,2023-12-04,,y,4327,2026-10-31,https://www.parlament.ch/de/biografie?CouncillorId=4327
-O00036,A0039,B0001,Member of the National Council,,G0023,,,n,,2026-10-31,https://www.parlament.ch/en/organe/national-council
-O00037,A0040,B0001,Member of the National Council,Social Democratic Party,G0002,2023-12-04,,y,4197,2026-10-31,https://www.parlament.ch/de/biografie?CouncillorId=4197
-O00038,A0041,B0001,Member of the National Council,Social Democratic Party,G0014,2023-12-04,,y,4228,2026-10-31,https://www.parlament.ch/de/biografie?CouncillorId=4228
-O00039,A0042,B0001,Member of the National Council,Social Democratic Party,G0003,2023-12-04,,y,4130,2026-10-31,https://www.parlament.ch/de/biografie?CouncillorId=4130
-O00040,A0043,B0001,Member of the National Council,Social Democratic Party,G0002,2023-12-04,,y,4198,2026-10-31,https://www.parlament.ch/de/biografie?CouncillorId=4198
-O00041,A0044,B0001,Member of the National Council,Green Party,G0023,2023-12-04,,y,4278,2026-10-31,https://www.parlament.ch/de/biografie?CouncillorId=4278
-O00042,A0045,B0001,Member of the National Council,Social Democratic Party,G0002,2023-12-04,,y,4223,2026-10-31,https://www.parlament.ch/de/biografie?CouncillorId=4223
-O00043,A0046,B0001,Member of the National Council,,G0015,,,n,,2026-10-31,https://www.parlament.ch/en/organe/national-council
-O00044,A0047,B0001,Member of the National Council,,G0023,,,n,,2026-10-31,https://www.parlament.ch/en/organe/national-council
-O00045,A0048,B0001,Member of the National Council,,G0014,,,n,,2026-10-31,https://www.parlament.ch/en/organe/national-council
-O00046,A0049,B0001,Member of the National Council,,G0026,,,n,,2026-10-31,https://www.parlament.ch/en/organe/national-council
-O00047,A0050,B0001,Member of the National Council,Social Democratic Party,G0011,2023-12-04,,y,4109,2026-10-31,https://www.parlament.ch/de/biografie?CouncillorId=4109
-O00048,A0051,B0001,Member of the National Council,Green Party,G0023,2026-04-02,,y,4280,2026-10-31,https://www.parlament.ch/de/biografie?CouncillorId=4280
-O00049,A0052,B0001,Member of the National Council,Green Party,G0002,2023-12-04,,y,3999,2026-10-31,https://www.parlament.ch/de/biografie?CouncillorId=3999
-O00050,A0053,B0001,Member of the National Council,,G0026,,,n,,2026-10-31,https://www.parlament.ch/en/organe/national-council
-O00051,A0054,B0001,Member of the National Council,Social Democratic Party,G0019,2023-12-04,,y,4281,2026-10-31,https://www.parlament.ch/de/biografie?CouncillorId=4281
-O00052,A0055,B0001,Member of the National Council,,G0023,,,n,,2026-10-31,https://www.parlament.ch/en/organe/national-council
-O00053,A0056,B0001,Member of the National Council,Social Democratic Party,G0026,2023-12-04,,y,10823,2026-10-31,https://www.parlament.ch/de/biografie?CouncillorId=10823
-O00054,A0057,B0001,Member of the National Council,Social Democratic Party,G0002,2023-12-04,,y,10824,2026-10-31,https://www.parlament.ch/de/biografie?CouncillorId=10824
-O00055,A0058,B0001,Member of the National Council,Social Democratic Party,G0004,2023-12-04,,y,10821,2026-10-31,https://www.parlament.ch/de/biografie?CouncillorId=10821
-O00056,A0060,B0001,Member of the National Council,Social Democratic Party,G0012,2023-12-04,,y,11506,2026-10-31,https://www.parlament.ch/de/biografie?CouncillorId=11506
-O00057,A0061,B0001,Member of the National Council,Green Party,G0018,2023-12-04,,y,4286,2026-10-31,https://www.parlament.ch/de/biografie?CouncillorId=4286
-O00058,A0062,B0001,Member of the National Council,,G0003,,,n,,2026-10-31,https://www.parlament.ch/en/organe/national-council
-O00059,A0063,B0001,Member of the National Council,Green Party,G0002,2023-12-04,,y,4288,2026-10-31,https://www.parlament.ch/de/biografie?CouncillorId=4288
-O00060,A0064,B0001,Member of the National Council,Social Democratic Party,G0021,2023-12-04,,y,10826,2026-10-31,https://www.parlament.ch/de/biografie?CouncillorId=10826
-O00061,A0065,B0001,Member of the National Council,Green Party,G0002,2024-12-02,,y,4289,2026-10-31,https://www.parlament.ch/de/biografie?CouncillorId=4289
-O00062,A0066,B0001,Member of the National Council,,G0011,,,n,,2026-10-31,https://www.parlament.ch/en/organe/national-council
-O00063,A0067,B0001,Member of the National Council,Social Democratic Party,G0002,2023-12-04,,y,4199,2026-10-31,https://www.parlament.ch/de/biografie?CouncillorId=4199
-O00064,A0068,B0001,Member of the National Council,Social Democratic Party,G0022,2023-12-04,,y,4312,2026-10-31,https://www.parlament.ch/de/biografie?CouncillorId=4312
-O00065,A0069,B0001,Member of the National Council,Social Democratic Party,G0020,2023-12-04,,y,4295,2026-10-31,https://www.parlament.ch/de/biografie?CouncillorId=4295
-O00066,A0070,B0001,Member of the National Council,,G0003,,,n,,2026-10-31,https://www.parlament.ch/en/organe/national-council
-O00067,A0071,B0001,Member of the National Council,Social Democratic Party,G0023,2023-12-04,,y,10827,2026-10-31,https://www.parlament.ch/de/biografie?CouncillorId=10827
-O00068,A0072,B0001,Member of the National Council,Social Democratic Party,G0023,2023-12-04,,y,10825,2026-10-31,https://www.parlament.ch/de/biografie?CouncillorId=10825
-O00069,A0073,B0001,Member of the National Council,Green Party,G0004,2023-12-04,,y,4221,2026-10-31,https://www.parlament.ch/de/biografie?CouncillorId=4221
-O00070,A0074,B0001,Member of the National Council,,G0026,,,n,,2026-10-31,https://www.parlament.ch/en/organe/national-council
-O00071,A0076,B0001,Member of the National Council,Green Party,G0010,2023-12-04,,y,4298,2026-10-31,https://www.parlament.ch/de/biografie?CouncillorId=4298
-O00072,A0077,B0001,Member of the National Council,Social Democratic Party,G0020,2023-12-04,,y,4057,2026-10-31,https://www.parlament.ch/de/biografie?CouncillorId=4057
-O00073,A0078,B0001,Member of the National Council,,G0012,,,n,,2026-10-31,https://www.parlament.ch/en/organe/national-council
-O00074,A0079,B0001,Member of the National Council,,G0002,,,n,,2026-10-31,https://www.parlament.ch/en/organe/national-council
-O00075,A0080,B0001,Member of the National Council,Social Democratic Party,G0013,2023-12-04,,y,4318,2026-10-31,https://www.parlament.ch/de/biografie?CouncillorId=4318
-O00076,A0081,B0001,Member of the National Council,Social Democratic Party,G0003,2023-12-04,,y,10851,2026-10-31,https://www.parlament.ch/de/biografie?CouncillorId=10851
-O00077,A0082,B0001,Member of the National Council,Social Democratic Party,G0003,2023-12-04,,y,10822,2026-10-31,https://www.parlament.ch/de/biografie?CouncillorId=10822
-O00078,A0083,B0001,Member of the National Council,,G0025,,,n,,2026-10-31,https://www.parlament.ch/en/organe/national-council
-O00079,A0023,B0002,Member of the Council of States,Green Party,G0025,2025-06-02,,y,4260,2026-10-31,https://www.parlament.ch/de/biografie?CouncillorId=4260
-O00080,A0032,B0002,Member of the Council of States,Social Democratic Party,G0025,2023-12-04,,y,4270,2026-10-31,https://www.parlament.ch/de/biografie?CouncillorId=4270
-O00081,A0038,B0002,Member of the Council of States,Social Democratic Party,G0023,2023-12-04,,y,491,2026-10-31,https://www.parlament.ch/de/biografie?CouncillorId=491
-O00082,A0059,B0002,Member of the Council of States,Social Democratic Party,G0012,2023-12-04,,y,4283,2026-10-31,https://www.parlament.ch/de/biografie?CouncillorId=4283
-O00083,A0075,B0002,Member of the Council of States,Social Democratic Party,G0003,2023-12-04,,y,4224,2026-10-31,https://www.parlament.ch/de/biografie?CouncillorId=4224
+O00084,A0104,B0003,Member of the Grand Conseil,Ensemble à Gauche,G0026,,,,,,https://ge.ch/grandconseil/memorial/seances/020503/19/4
+O00085,A0105,B0003,Member of the Grand Conseil,Green Party,G0026,,,,,,https://ge.ch/grandconseil/memorial/seances/020503/19/4
+O00086,A0106,B0003,Member of the Grand Conseil,Social Democratic Party,G0026,,,,,,https://ge.ch/grandconseil/memorial/seances/020503/19/4
+O00087,A0001,B0001,Member of the National Council,,G0003,,,n,,2026-10-31,https://www.parlament.ch/en/organe/national-council
+O00088,A0002,B0001,Member of the National Council,Social Democratic Party,G0002,2023-12-04,,y,10812,2026-10-31,https://www.parlament.ch/de/biografie?CouncillorId=10812
+O00089,A0003,B0001,Member of the National Council,Social Democratic Party,G0024,2023-12-04,,y,4320,2026-10-31,https://www.parlament.ch/de/biografie?CouncillorId=4320
+O00090,A0004,B0001,Member of the National Council,Green Party,G0011,2023-12-04,,y,4245,2026-10-31,https://www.parlament.ch/de/biografie?CouncillorId=4245
+O00091,A0005,B0001,Member of the National Council,Green Party,G0013,2023-12-04,,y,4184,2026-10-31,https://www.parlament.ch/de/biografie?CouncillorId=4184
+O00092,A0006,B0001,Member of the National Council,,G0013,,,n,,2026-10-31,https://www.parlament.ch/en/organe/national-council
+O00093,A0007,B0001,Member of the National Council,Green Party,G0003,2023-12-04,,y,4246,2026-10-31,https://www.parlament.ch/de/biografie?CouncillorId=4246
+O00094,A0008,B0001,Member of the National Council,Social Democratic Party,G0002,2023-12-04,,y,4058,2026-10-31,https://www.parlament.ch/de/biografie?CouncillorId=4058
+O00095,A0009,B0001,Member of the National Council,,G0002,,,n,,2026-10-31,https://www.parlament.ch/en/organe/national-council
+O00096,A0010,B0001,Member of the National Council,Green Party,G0003,2023-12-04,,y,4247,2026-10-31,https://www.parlament.ch/de/biografie?CouncillorId=4247
+O00097,A0011,B0001,Member of the National Council,Social Democratic Party,G0023,2023-12-04,,y,4213,2026-10-31,https://www.parlament.ch/de/biografie?CouncillorId=4213
+O00098,A0012,B0001,Member of the National Council,,G0004,,,n,,2026-10-31,https://www.parlament.ch/en/organe/national-council
+O00099,A0013,B0001,Member of the National Council,Green Party,G0014,2023-12-04,,y,4315,2026-10-31,https://www.parlament.ch/de/biografie?CouncillorId=4315
+O00100,A0014,B0001,Member of the National Council,Social Democratic Party,G0020,2023-12-04,,y,10813,2026-10-31,https://www.parlament.ch/de/biografie?CouncillorId=10813
+O00101,A0015,B0001,Member of the National Council,Social Democratic Party,G0004,2023-12-04,,y,10828,2026-10-31,https://www.parlament.ch/de/biografie?CouncillorId=10828
+O00102,A0016,B0001,Member of the National Council,Green Party,G0024,2023-12-04,,y,4253,2026-10-31,https://www.parlament.ch/de/biografie?CouncillorId=4253
+O00103,A0017,B0001,Member of the National Council,Social Democratic Party,G0023,2023-12-04,,y,4219,2026-10-31,https://www.parlament.ch/de/biografie?CouncillorId=4219
+O00104,A0018,B0001,Member of the National Council,Social Democratic Party,G0026,2023-12-04,,y,4255,2026-10-31,https://www.parlament.ch/de/biografie?CouncillorId=4255
+O00105,A0019,B0001,Member of the National Council,Social Democratic Party,G0025,2023-12-04,,y,10829,2026-10-31,https://www.parlament.ch/de/biografie?CouncillorId=10829
+O00106,A0020,B0001,Member of the National Council,,G0021,,,n,,2026-10-31,https://www.parlament.ch/en/organe/national-council
+O00107,A0021,B0001,Member of the National Council,Social Democratic Party,G0026,2023-12-04,,y,4195,2026-10-31,https://www.parlament.ch/de/biografie?CouncillorId=4195
+O00108,A0022,B0001,Member of the National Council,,G0020,,,n,,2026-10-31,https://www.parlament.ch/en/organe/national-council
+O00109,A0024,B0001,Member of the National Council,,G0027,,,n,,2026-10-31,https://www.parlament.ch/en/organe/national-council
+O00110,A0025,B0001,Member of the National Council,,G0018,,,n,,2026-10-31,https://www.parlament.ch/en/organe/national-council
+O00111,A0026,B0001,Member of the National Council,Social Democratic Party,G0003,2023-12-04,,y,4262,2026-10-31,https://www.parlament.ch/de/biografie?CouncillorId=4262
+O00112,A0027,B0001,Member of the National Council,,G0002,,,n,,2026-10-31,https://www.parlament.ch/en/organe/national-council
+O00113,A0028,B0001,Member of the National Council,,G0002,,,n,,2026-10-31,https://www.parlament.ch/en/organe/national-council
+O00114,A0029,B0001,Member of the National Council,,G0021,,,n,,2026-10-31,https://www.parlament.ch/en/organe/national-council
+O00115,A0030,B0001,Member of the National Council,Social Democratic Party,G0018,2023-12-04,,y,4121,2026-10-31,https://www.parlament.ch/de/biografie?CouncillorId=4121
+O00116,A0031,B0001,Member of the National Council,Green Party,G0022,2026-05-26,,y,4268,2026-10-31,https://www.parlament.ch/de/biografie?CouncillorId=4268
+O00117,A0033,B0001,Member of the National Council,Social Democratic Party,G0023,2023-12-04,,y,10820,2026-10-31,https://www.parlament.ch/de/biografie?CouncillorId=10820
+O00118,A0034,B0001,Member of the National Council,Green Party,G0026,2023-12-04,,y,4272,2026-10-31,https://www.parlament.ch/de/biografie?CouncillorId=4272
+O00119,A0035,B0001,Member of the National Council,Green Party,G0020,2023-12-04,,y,4218,2026-10-31,https://www.parlament.ch/de/biografie?CouncillorId=4218
+O00120,A0036,B0001,Member of the National Council,,G0019,,,n,,2026-10-31,https://www.parlament.ch/en/organe/national-council
+O00121,A0037,B0001,Member of the National Council,Green Party,G0023,2023-12-04,,y,4327,2026-10-31,https://www.parlament.ch/de/biografie?CouncillorId=4327
+O00122,A0039,B0001,Member of the National Council,,G0023,,,n,,2026-10-31,https://www.parlament.ch/en/organe/national-council
+O00123,A0040,B0001,Member of the National Council,Social Democratic Party,G0002,2023-12-04,,y,4197,2026-10-31,https://www.parlament.ch/de/biografie?CouncillorId=4197
+O00124,A0041,B0001,Member of the National Council,Social Democratic Party,G0014,2023-12-04,,y,4228,2026-10-31,https://www.parlament.ch/de/biografie?CouncillorId=4228
+O00125,A0042,B0001,Member of the National Council,Social Democratic Party,G0003,2023-12-04,,y,4130,2026-10-31,https://www.parlament.ch/de/biografie?CouncillorId=4130
+O00126,A0043,B0001,Member of the National Council,Social Democratic Party,G0002,2023-12-04,,y,4198,2026-10-31,https://www.parlament.ch/de/biografie?CouncillorId=4198
+O00127,A0044,B0001,Member of the National Council,Green Party,G0023,2023-12-04,,y,4278,2026-10-31,https://www.parlament.ch/de/biografie?CouncillorId=4278
+O00128,A0045,B0001,Member of the National Council,Social Democratic Party,G0002,2023-12-04,,y,4223,2026-10-31,https://www.parlament.ch/de/biografie?CouncillorId=4223
+O00129,A0046,B0001,Member of the National Council,,G0015,,,n,,2026-10-31,https://www.parlament.ch/en/organe/national-council
+O00130,A0047,B0001,Member of the National Council,,G0023,,,n,,2026-10-31,https://www.parlament.ch/en/organe/national-council
+O00131,A0048,B0001,Member of the National Council,,G0014,,,n,,2026-10-31,https://www.parlament.ch/en/organe/national-council
+O00132,A0049,B0001,Member of the National Council,,G0026,,,n,,2026-10-31,https://www.parlament.ch/en/organe/national-council
+O00133,A0050,B0001,Member of the National Council,Social Democratic Party,G0011,2023-12-04,,y,4109,2026-10-31,https://www.parlament.ch/de/biografie?CouncillorId=4109
+O00134,A0051,B0001,Member of the National Council,Green Party,G0023,2026-04-02,,y,4280,2026-10-31,https://www.parlament.ch/de/biografie?CouncillorId=4280
+O00135,A0052,B0001,Member of the National Council,Green Party,G0002,2023-12-04,,y,3999,2026-10-31,https://www.parlament.ch/de/biografie?CouncillorId=3999
+O00136,A0053,B0001,Member of the National Council,,G0026,,,n,,2026-10-31,https://www.parlament.ch/en/organe/national-council
+O00137,A0054,B0001,Member of the National Council,Social Democratic Party,G0019,2023-12-04,,y,4281,2026-10-31,https://www.parlament.ch/de/biografie?CouncillorId=4281
+O00138,A0055,B0001,Member of the National Council,,G0023,,,n,,2026-10-31,https://www.parlament.ch/en/organe/national-council
+O00139,A0056,B0001,Member of the National Council,Social Democratic Party,G0026,2023-12-04,,y,10823,2026-10-31,https://www.parlament.ch/de/biografie?CouncillorId=10823
+O00140,A0057,B0001,Member of the National Council,Social Democratic Party,G0002,2023-12-04,,y,10824,2026-10-31,https://www.parlament.ch/de/biografie?CouncillorId=10824
+O00141,A0058,B0001,Member of the National Council,Social Democratic Party,G0004,2023-12-04,,y,10821,2026-10-31,https://www.parlament.ch/de/biografie?CouncillorId=10821
+O00142,A0060,B0001,Member of the National Council,Social Democratic Party,G0012,2023-12-04,,y,11506,2026-10-31,https://www.parlament.ch/de/biografie?CouncillorId=11506
+O00143,A0061,B0001,Member of the National Council,Green Party,G0018,2023-12-04,,y,4286,2026-10-31,https://www.parlament.ch/de/biografie?CouncillorId=4286
+O00144,A0062,B0001,Member of the National Council,,G0003,,,n,,2026-10-31,https://www.parlament.ch/en/organe/national-council
+O00145,A0063,B0001,Member of the National Council,Green Party,G0002,2023-12-04,,y,4288,2026-10-31,https://www.parlament.ch/de/biografie?CouncillorId=4288
+O00146,A0064,B0001,Member of the National Council,Social Democratic Party,G0021,2023-12-04,,y,10826,2026-10-31,https://www.parlament.ch/de/biografie?CouncillorId=10826
+O00147,A0065,B0001,Member of the National Council,Green Party,G0002,2024-12-02,,y,4289,2026-10-31,https://www.parlament.ch/de/biografie?CouncillorId=4289
+O00148,A0066,B0001,Member of the National Council,,G0011,,,n,,2026-10-31,https://www.parlament.ch/en/organe/national-council
+O00149,A0067,B0001,Member of the National Council,Social Democratic Party,G0002,2023-12-04,,y,4199,2026-10-31,https://www.parlament.ch/de/biografie?CouncillorId=4199
+O00150,A0068,B0001,Member of the National Council,Social Democratic Party,G0022,2023-12-04,,y,4312,2026-10-31,https://www.parlament.ch/de/biografie?CouncillorId=4312
+O00151,A0069,B0001,Member of the National Council,Social Democratic Party,G0020,2023-12-04,,y,4295,2026-10-31,https://www.parlament.ch/de/biografie?CouncillorId=4295
+O00152,A0070,B0001,Member of the National Council,,G0003,,,n,,2026-10-31,https://www.parlament.ch/en/organe/national-council
+O00153,A0071,B0001,Member of the National Council,Social Democratic Party,G0023,2023-12-04,,y,10827,2026-10-31,https://www.parlament.ch/de/biografie?CouncillorId=10827
+O00154,A0072,B0001,Member of the National Council,Social Democratic Party,G0023,2023-12-04,,y,10825,2026-10-31,https://www.parlament.ch/de/biografie?CouncillorId=10825
+O00155,A0073,B0001,Member of the National Council,Green Party,G0004,2023-12-04,,y,4221,2026-10-31,https://www.parlament.ch/de/biografie?CouncillorId=4221
+O00156,A0074,B0001,Member of the National Council,,G0026,,,n,,2026-10-31,https://www.parlament.ch/en/organe/national-council
+O00157,A0076,B0001,Member of the National Council,Green Party,G0010,2023-12-04,,y,4298,2026-10-31,https://www.parlament.ch/de/biografie?CouncillorId=4298
+O00158,A0077,B0001,Member of the National Council,Social Democratic Party,G0020,2023-12-04,,y,4057,2026-10-31,https://www.parlament.ch/de/biografie?CouncillorId=4057
+O00159,A0078,B0001,Member of the National Council,,G0012,,,n,,2026-10-31,https://www.parlament.ch/en/organe/national-council
+O00160,A0079,B0001,Member of the National Council,,G0002,,,n,,2026-10-31,https://www.parlament.ch/en/organe/national-council
+O00161,A0080,B0001,Member of the National Council,Social Democratic Party,G0013,2023-12-04,,y,4318,2026-10-31,https://www.parlament.ch/de/biografie?CouncillorId=4318
+O00162,A0081,B0001,Member of the National Council,Social Democratic Party,G0003,2023-12-04,,y,10851,2026-10-31,https://www.parlament.ch/de/biografie?CouncillorId=10851
+O00163,A0082,B0001,Member of the National Council,Social Democratic Party,G0003,2023-12-04,,y,10822,2026-10-31,https://www.parlament.ch/de/biografie?CouncillorId=10822
+O00164,A0083,B0001,Member of the National Council,,G0025,,,n,,2026-10-31,https://www.parlament.ch/en/organe/national-council
+O00165,A0023,B0002,Member of the Council of States,Green Party,G0025,2025-06-02,,y,4260,2026-10-31,https://www.parlament.ch/de/biografie?CouncillorId=4260
+O00166,A0032,B0002,Member of the Council of States,Social Democratic Party,G0025,2023-12-04,,y,4270,2026-10-31,https://www.parlament.ch/de/biografie?CouncillorId=4270
+O00167,A0038,B0002,Member of the Council of States,Social Democratic Party,G0023,2023-12-04,,y,491,2026-10-31,https://www.parlament.ch/de/biografie?CouncillorId=491
+O00168,A0059,B0002,Member of the Council of States,Social Democratic Party,G0012,2023-12-04,,y,4283,2026-10-31,https://www.parlament.ch/de/biografie?CouncillorId=4283
+O00169,A0075,B0002,Member of the Council of States,Social Democratic Party,G0003,2023-12-04,,y,4224,2026-10-31,https://www.parlament.ch/de/biografie?CouncillorId=4224

@@ -1,3 +1,4 @@
 body_id,name,level,kind,seats,as_of,source_url,seat_view,notes
+B0003,Grand Conseil of Geneva,regional,chamber,100,,https://ge.ch/grandconseil/,,Cantonal parliament of Geneva (100 members). Not charted.
 B0001,National Council (Nationalrat),national,chamber,200,2026-10-31,https://www.parlament.ch/en/organe/national-council,y,"200 seats, elected by proportional representation in the cantons. Who sits and their party are from the Federal Assembly's open data. Unlit seats mean nothing found, never opposition."
 B0002,Council of States (Ständerat),national,chamber,46,2026-10-31,https://www.parlament.ch/en/organe/council-of-states,y,"46 seats: two per canton, one per half-canton. Who sits and their party are from the Federal Assembly's open data. Unlit seats mean nothing found, never opposition."
