@@ -1,0 +1,9 @@
+{
+  "name": "Thailand",
+  "iso2": "TH",
+  "lead": "",
+  "status": "in progress",
+  "boundaries": "boundaries.json",
+  "national_seat_roles": "(?i)party[- ]list",
+  "notes": "Depth: seed pass with sweeps across all layers. Scope: National level (Ratthasapha / Parliament of Thailand, political parties, academic economists, think tanks, trade unions, civil society campaigns), with 77 provinces and 928 administrative districts (amphoe/khet) in the geography register. District boundaries and province outlines from Royal Thai Survey Department / UN OCHA Common Operational Datasets (cod-ab-tha), CC BY-IGO."
+}

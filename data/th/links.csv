@@ -1,0 +1,5 @@
+link_id,from_actor_id,to_actor_id,link_type,evidence_id,source_url,note
+L0001,A0001,A0002,member_of,E00001,https://peoplesparty.or.th,Deputy Leader of People's Party
+L0002,A0001,A0003,member_of,E00004,https://www.parliament.go.th,Former Deputy Leader of Move Forward Party
+L0003,A0008,A0002,works_for,E00009,https://ngthai.com/featured/48198/dejrat-sukkamnerd/,Director of party-affiliated Think Forward Center
+L0004,A0004,A0009,leads,E00005,https://plus.thairath.co.th/topic/politics&society/104373,Academic lead of We Fair welfare working group

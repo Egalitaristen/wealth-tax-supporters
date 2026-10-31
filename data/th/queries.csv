@@ -1,0 +1,42 @@
+query_id,run_id,date,language,query,channel,results_opened,leads_added,note
+Q0001,R001,2026-10-30,th,"""ภาษีความมั่งคั่ง"" ศิริกัญญา ตันสกุล",web,6,2,Search for parliamentary wealth tax bill sponsorship and Sirikanya Tansakun statements
+Q0002,R001,2026-10-30,th,"""ภาษีความมั่งคั่ง"" ษัษฐรัมย์ ธรรมบุษดี We Fair",web,5,2,Search for We Fair civil society coalition and Sustarum Thammaboosadee
+Q0003,R001,2026-10-30,th,"""ภาษีความมั่งคั่ง"" ดวงมณี เลาวกุล",web,4,1,Search for Thammasat academic public finance proposals on wealth tax
+Q0004,R001,2026-10-30,th,"""ภาษีความมั่งคั่ง"" พิสิทธิ์ พัวพันธ์",web,3,1,Search for Ministry of Finance Fiscal Policy Office stance
+Q0005,R001,2026-10-30,th,"""ภาษีความมั่งคั่ง"" เดชรัตน์ สุขกำเนิด",web,4,1,Search for Think Forward Center think tank director
+Q0006,R001,2026-10-30,th,"""ภาษีความมั่งคั่ง"" รพีพัฒน์ อิงคสิทธิ์ The Matter",web,3,1,Search for economic commentator and wealth tax registry op-ed
+Q0007,R001,2026-10-30,th,"""ภาษีความมั่งคั่ง"" ไทยรัฐพลัส",web,4,1,Search for editorial positions of media outlets
+Q0008,R001,2026-10-30,th,"""ร่างพระราชบัญญัติภาษีความมั่งคั่ง"" parliament.go.th",web,5,1,Search for official parliamentary consultation record survey id 305
+Q0009,R001,2026-10-30,th,"""พิธา ลิ้มเจริญรัตน์"" ""ภาษีความมั่งคั่ง""",web,5,1,Search for party leadership debate statements on 0.5% wealth tax
+Q0010,R002,2026-10-30,th,"""อนุสรณ์ ธรรมใจ"" ""ภาษีความมั่งคั่ง""",web,8,0,Investigated Dr. Anusorn Tamajai; confirmed proposals focused on Negative Income Tax and global financial capital tax rather than domestic wealth tax
+Q0011,R002,2026-10-30,th,"""สาวิทย์ แก้วหวาน"" ""ภาษีความมั่งคั่ง""",web,7,0,Investigated trade union leaders (SERC / TLSC) on wealth tax and welfare proposals
+Q0012,R002,2026-10-30,th,"""นิติรัตน์ ทรัพย์สมบูรณ์"" ""ภาษีความมั่งคั่ง""",web,6,1,Investigated We Fair coordinator Nitirat Sapsomboon; confirmed 2020 iLaw interview omitted wealth tax in favor of capital gains and land taxes (X0003)
+Q0013,R002,2026-10-30,th,"""สมชัย จิตสุชน"" ""ภาษีความมั่งคั่ง""",web,8,1,Investigated TDRI research director Dr. Somchai Jitsuchon; verified proposals focus on property land & building and windfall taxes (X0004)
+Q0014,R002,2026-10-30,th,"""ลวรณ แสงสนิท"" ""ภาษีความมั่งคั่ง""",web,6,1,Investigated Permanent Secretary of Ministry of Finance Lavaron Sangsnit; verified statements represent administrative feasibility review (X0005)
+Q0015,R002,2026-10-30,th,"""พรรคเพื่อไทย"" ""ภาษีความมั่งคั่ง""",web,6,0,Investigated ruling Pheu Thai Party position; confirmed focus on Negative Income Tax and growth rather than net wealth tax
+Q0016,R002,2026-10-30,th,"""สถาบันแรงงานและเศรษฐกิจที่เป็นธรรม"" OR ""JELI"" ""ภาษีความมั่งคั่ง""",web,4,0,Investigated Just Economy and Labour Institute; confirmed focus on platform labor and automation taxes
+Q0017,R003,2026-10-30,th,"""Oxfam"" ""ภาษีความมั่งคั่ง"" site:thestandard.co",web,6,0,Investigated Oxfam international inequality reporting coverage in Thai media
+Q0018,R003,2026-10-30,th,"""ผาสุก พงษ์ไพจิตร"" ""ภาษีความมั่งคั่ง""",web,7,1,Investigated Prof. Pasuk Phongpaichit; verified focus on personal income tax reform, inheritance tax, and progressive land tax (X0007)
+Q0019,R003,2026-10-30,th,"""ขบวนการประชาชนเพื่อสังคมที่เป็นธรรม"" ""ภาษี"" ""ที่ดิน"" OR ""ความมั่งคั่ง""",web,6,1,Investigated P-Move grassroots coalition; confirmed flagship tax demands focus on Progressive Land Tax Act (X0008)
+Q0020,R003,2026-10-30,th,"""ก้าวต่อไป สศค. จากภาษีที่ดิน-มรดก สู่ภาษีความมั่งคั่ง-สังคมเป็นธรรม"" ดร.พรชัย ฐีระเวช",web,4,1,Investigated FPO Director-General Dr. Pornchai Thiraveja on net wealth tax feasibility studies (X0009)
+Q0021,R003,2026-10-30,th,"""เก็บภาษีจากคนรวย เพื่อช่วยคนจน"" ดร.พรายพล คุ้มทรัพย์",web,5,1,Investigated Thammasat economist Dr. Praipol Koomsup public policy op-ed on international wealth tax lessons (X0010)
+Q0022,R003,2026-10-30,th,"""นิพนธ์ พัวพงศกร"" ""ภาษีความมั่งคั่ง"" OR ""ภาษีทรัพย์สิน""",web,5,1,Investigated TDRI Distinguished Fellow Dr. Nipon Poapongsakorn; verified focus on land and buildings tax (X0011)
+Q0023,R003,2026-10-30,th,"""ประชาธิปัตย์"" OR ""ภูมิใจไทย"" ""ภาษีความมั่งคั่ง""",web,6,0,Investigated Democrat Party and Bhumjaithai Party tax platforms; confirmed no net wealth tax proposals
+Q0024,R004,2026-10-30,th,"""กัณวีร์ สืบแสง"" ""ภาษีความมั่งคั่ง""",web,5,0,Investigated Fair Party MP Kannavee Suebsang; confirmed focus on human rights and decentralization rather than wealth tax
+Q0025,R004,2026-10-30,th,"""ไทยสร้างไทย"" ""สุดารัตน์ เกยุราพันธุ์"" ""ภาษีความมั่งคั่ง""",web,5,0,Investigated Thai Sang Thai Party platform; verified focus on low-income tax exemption and SME relief
+Q0026,R004,2026-10-30,th,"""วีระยุทธ กาญจน์ชูฉัตร"" ""ภาษีความมั่งคั่ง""",web,6,1,Investigated GRIPS economist Dr. Veerayooth Kanchoochat; verified specific advocacy focused on windfall tax on oil margins (X0012)
+Q0027,R004,2026-10-30,th,"""วรภพ วิริยะโรจน์"" ""ภาษีที่ดินรวมแปลง"" OR ""ภาษีความมั่งคั่ง""",web,6,1,Investigated MP Woraphop Viriyaroj; verified legislative sponsorship focused on Draft Aggregated Land Tax Act Survey ID 310 (X0013)
+Q0028,R004,2026-10-30,th,"""ศาสตรา สุดสวาสดิ์"" ""ภาษีความมั่งคั่ง"" OR ""ภาษีทรัพย์สิน""",web,5,0,Investigated NIDA economist Dr. Sasatra Sudsawasd; confirmed focus on tax expenditure and financial transaction taxes
+Q0029,R005,2026-10-31,th,"""อนุสรณ์ ธรรมใจ"" ""ภาษีความมั่งคั่ง""",web,4,0,Investigated economist Dr. Anusorn Tamajai; confirmed focus on capital gains and negative income tax
+Q0030,R005,2026-10-31,th,"""พริษฐ์ วัชรสินธุ"" ""ภาษีความมั่งคั่ง""",web,5,0,Investigated People's Party Deputy Leader Parit Wacharasindhu campaign communications
+Q0031,R005,2026-10-31,th,"site:peoplesparty.or.th ""ภาษีความมั่งคั่ง""",web,4,0,Reviewed People's Party official policy portals and tax reform platform
+Q0032,R005,2026-10-31,th,"(""Oxfam"" OR ""อ็อกแฟม"") ""ภาษีความมั่งคั่ง""",web,6,0,Investigated Oxfam Thailand and international Davos reports on wealth taxation
+Q0033,R005,2026-10-31,th,"""สมชัย จิตสุชน"" ""ภาษีความมั่งคั่ง""",web,6,0,Investigated TDRI researcher Dr. Somchai Jitsuchon; identified focus on VAT increase and property tax
+Q0034,R005,2026-10-31,th,"""ธนสักก์ เจนมานะ"" ""ภาษีความมั่งคั่ง""",web,4,0,Investigated World Inequality Lab researcher Dr. Thanasak Jenmana academic commentary
+Q0035,R005,2026-10-31,th,"""ธนาคารโลก"" (""ภาษีความมั่งคั่ง"" OR ""ความมั่งคั่ง"") site:thematter.co OR site:bangkokbiznews.com",web,4,0,Investigated World Bank Thailand statements on taxing high net worth individuals
+Q0036,R005,2026-10-31,en,"""Kim Edwards"" ""World Bank"" ""Thailand"" ""tax""",web,5,0,"Identified World Bank senior economist Kim Edwards recommendations (PIT, capital gains, property)"
+Q0037,R005,2026-10-31,th,"""พรรณิการ์"" ""ภาษีความมั่งคั่ง"" site:thairath.co.th OR site:bangkokbiznews.com",web,4,0,Investigated Progressive Movement executive Pannika Wanich campaign addresses
+Q0038,R005,2026-10-31,th,"""ธนาธร-ช่อ"" ลุยอีสานช่วยก้าวไกลหาเสียง site:bangkokbiznews.com",web,2,1,Discovered Thanathorn Juangroongruangkit verbatim quote advocating 300M THB net wealth tax
+Q0039,R005,2026-10-31,th,"site:thaipublica.org ""ภาษีความมั่งคั่ง""",web,6,0,Investigated ThaiPublica articles including 2012 fiscal research by Dr. Pan Ananapibut
+Q0040,R005,2026-10-31,th,"""พรรคสามัญชน"" ""ภาษีความมั่งคั่ง""",web,5,0,Investigated Commoners Party platform and We-Fair treaty interactions
+Q0041,R005,2026-10-31,th,"""ภาษีความมั่งคั่ง"" (""เครือข่ายแรงงาน"" OR ""สมัชชาคนจน"" OR ""สลัม 4 ภาค"")",web,5,0,"Investigated grassroots movements (Assembly of the Poor, Slum 4 Regions) tax demands"

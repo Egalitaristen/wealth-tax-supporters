@@ -1,0 +1,1011 @@
+geo_unit_id,name,level,unit_type,parent_id,website,sweep_status,swept_run,swept_date,queries_run,hits,notes,code
+G0001,Thailand,national,country,,https://www.thaigov.go.th,pending,,,,,,TH
+G0002,Ratthasapha,national,legislature,G0001,https://www.parliament.go.th,pending,,,,,National Assembly of Thailand,
+G0003,Sapha Phuthaen Ratsadon,national,legislature,G0001,https://web.parliament.go.th/house,pending,,,,,House of Representatives (500 seats),
+G0004,Wuthisapha,national,legislature,G0001,https://web.parliament.go.th/senate,pending,,,,,Senate of Thailand (200 seats),
+G0005,Khana Ratthamontri,national,executive,G0001,https://www.thaigov.go.th,pending,,,,,Government of Thailand / Council of Ministers,
+G0006,Bangkok,region,special_administrative_area,G0001,,pending,,,,,Province (กรุงเทพมหานคร),TH10
+G0007,Samut Prakan,region,province,G0001,,pending,,,,,Province (สมุทรปราการ),TH11
+G0008,Nonthaburi,region,province,G0001,,pending,,,,,Province (นนทบุรี),TH12
+G0009,Pathum Thani,region,province,G0001,,pending,,,,,Province (ปทุมธานี),TH13
+G0010,Phra Nakhon Si Ayutthaya,region,province,G0001,,pending,,,,,Province (พระนครศรีอยุธยา),TH14
+G0011,Ang Thong,region,province,G0001,,pending,,,,,Province (อ่างทอง),TH15
+G0012,Lop Buri,region,province,G0001,,pending,,,,,Province (ลพบุรี),TH16
+G0013,Sing Buri,region,province,G0001,,pending,,,,,Province (สิงห์บุรี),TH17
+G0014,Chai Nat,region,province,G0001,,pending,,,,,Province (ชัยนาท),TH18
+G0015,Saraburi,region,province,G0001,,pending,,,,,Province (สระบุรี),TH19
+G0016,Chon Buri,region,province,G0001,,pending,,,,,Province (ชลบุรี),TH20
+G0017,Rayong,region,province,G0001,,pending,,,,,Province (ระยอง),TH21
+G0018,Chanthaburi,region,province,G0001,,pending,,,,,Province (จันทบุรี),TH22
+G0019,Trat,region,province,G0001,,pending,,,,,Province (ตราด),TH23
+G0020,Chachoengsao,region,province,G0001,,pending,,,,,Province (ฉะเชิงเทรา),TH24
+G0021,Prachin Buri,region,province,G0001,,pending,,,,,Province (ปราจีนบุรี),TH25
+G0022,Nakhon Nayok,region,province,G0001,,pending,,,,,Province (นครนายก),TH26
+G0023,Sa Kaeo,region,province,G0001,,pending,,,,,Province (สระแก้ว),TH27
+G0024,Nakhon Ratchasima,region,province,G0001,,pending,,,,,Province (นครราชสีมา),TH30
+G0025,Buri Ram,region,province,G0001,,pending,,,,,Province (บุรีรัมย์),TH31
+G0026,Surin,region,province,G0001,,pending,,,,,Province (สุรินทร์),TH32
+G0027,Si Sa Ket,region,province,G0001,,pending,,,,,Province (ศรีสะเกษ),TH33
+G0028,Ubon Ratchathani,region,province,G0001,,pending,,,,,Province (อุบลราชธานี),TH34
+G0029,Yasothon,region,province,G0001,,pending,,,,,Province (ยโสธร),TH35
+G0030,Chaiyaphum,region,province,G0001,,pending,,,,,Province (ชัยภูมิ),TH36
+G0031,Amnat Charoen,region,province,G0001,,pending,,,,,Province (อำนาจเจริญ),TH37
+G0032,Bueng Kan,region,province,G0001,,pending,,,,,Province (บึงกาฬ),TH38
+G0033,Nong Bua Lam Phu,region,province,G0001,,pending,,,,,Province (หนองบัวลำภู),TH39
+G0034,Khon Kaen,region,province,G0001,,pending,,,,,Province (ขอนแก่น),TH40
+G0035,Udon Thani,region,province,G0001,,pending,,,,,Province (อุดรธานี),TH41
+G0036,Loei,region,province,G0001,,pending,,,,,Province (เลย),TH42
+G0037,Nong Khai,region,province,G0001,,pending,,,,,Province (หนองคาย),TH43
+G0038,Maha Sarakham,region,province,G0001,,pending,,,,,Province (มหาสารคาม),TH44
+G0039,Roi Et,region,province,G0001,,pending,,,,,Province (ร้อยเอ็ด),TH45
+G0040,Kalasin,region,province,G0001,,pending,,,,,Province (กาฬสินธุ์),TH46
+G0041,Sakon Nakhon,region,province,G0001,,pending,,,,,Province (สกลนคร),TH47
+G0042,Nakhon Phanom,region,province,G0001,,pending,,,,,Province (นครพนม),TH48
+G0043,Mukdahan,region,province,G0001,,pending,,,,,Province (มุกดาหาร),TH49
+G0044,Chiang Mai,region,province,G0001,,pending,,,,,Province (เชียงใหม่),TH50
+G0045,Lamphun,region,province,G0001,,pending,,,,,Province (ลำพูน),TH51
+G0046,Lampang,region,province,G0001,,pending,,,,,Province (ลำปาง),TH52
+G0047,Uttaradit,region,province,G0001,,pending,,,,,Province (อุตรดิตถ์),TH53
+G0048,Phrae,region,province,G0001,,pending,,,,,Province (แพร่),TH54
+G0049,Nan,region,province,G0001,,pending,,,,,Province (น่าน),TH55
+G0050,Phayao,region,province,G0001,,pending,,,,,Province (พะเยา),TH56
+G0051,Chiang Rai,region,province,G0001,,pending,,,,,Province (เชียงราย),TH57
+G0052,Mae Hong Son,region,province,G0001,,pending,,,,,Province (แม่ฮ่องสอน),TH58
+G0053,Nakhon Sawan,region,province,G0001,,pending,,,,,Province (นครสวรรค์),TH60
+G0054,Uthai Thani,region,province,G0001,,pending,,,,,Province (อุทัยธานี),TH61
+G0055,Kamphaeng Phet,region,province,G0001,,pending,,,,,Province (กำแพงเพชร),TH62
+G0056,Tak,region,province,G0001,,pending,,,,,Province (ตาก),TH63
+G0057,Sukhothai,region,province,G0001,,pending,,,,,Province (สุโขทัย),TH64
+G0058,Phitsanulok,region,province,G0001,,pending,,,,,Province (พิษณุโลก),TH65
+G0059,Phichit,region,province,G0001,,pending,,,,,Province (พิจิตร),TH66
+G0060,Phetchabun,region,province,G0001,,pending,,,,,Province (เพชรบูรณ์),TH67
+G0061,Ratchaburi,region,province,G0001,,pending,,,,,Province (ราชบุรี),TH70
+G0062,Kanchanaburi,region,province,G0001,,pending,,,,,Province (กาญจนบุรี),TH71
+G0063,Suphan Buri,region,province,G0001,,pending,,,,,Province (สุพรรณบุรี),TH72
+G0064,Nakhon Pathom,region,province,G0001,,pending,,,,,Province (นครปฐม),TH73
+G0065,Samut Sakhon,region,province,G0001,,pending,,,,,Province (สมุทรสาคร),TH74
+G0066,Samut Songkhram,region,province,G0001,,pending,,,,,Province (สมุทรสงคราม),TH75
+G0067,Phetchaburi,region,province,G0001,,pending,,,,,Province (เพชรบุรี),TH76
+G0068,Prachuap Khiri Khan,region,province,G0001,,pending,,,,,Province (ประจวบคีรีขันธ์),TH77
+G0069,Nakhon Si Thammarat,region,province,G0001,,pending,,,,,Province (นครศรีธรรมราช),TH80
+G0070,Krabi,region,province,G0001,,pending,,,,,Province (กระบี่),TH81
+G0071,Phangnga,region,province,G0001,,pending,,,,,Province (พังงา),TH82
+G0072,Phuket,region,province,G0001,,pending,,,,,Province (ภูเก็ต),TH83
+G0073,Surat Thani,region,province,G0001,,pending,,,,,Province (สุราษฎร์ธานี),TH84
+G0074,Ranong,region,province,G0001,,pending,,,,,Province (ระนอง),TH85
+G0075,Chumphon,region,province,G0001,,pending,,,,,Province (ชุมพร),TH86
+G0076,Songkhla,region,province,G0001,,pending,,,,,Province (สงขลา),TH90
+G0077,Satun,region,province,G0001,,pending,,,,,Province (สตูล),TH91
+G0078,Trang,region,province,G0001,,pending,,,,,Province (ตรัง),TH92
+G0079,Phatthalung,region,province,G0001,,pending,,,,,Province (พัทลุง),TH93
+G0080,Pattani,region,province,G0001,,pending,,,,,Province (ปัตตานี),TH94
+G0081,Yala,region,province,G0001,,pending,,,,,Province (ยะลา),TH95
+G0082,Narathiwat,region,province,G0001,,pending,,,,,Province (นราธิวาส),TH96
+G0083,Phra Nakhon,county,khet,G0006,,pending,,,,,Khet (พระนคร),TH1001
+G0084,Dusit,county,khet,G0006,,pending,,,,,Khet (ดุสิต),TH1002
+G0085,Nong Chok,county,khet,G0006,,pending,,,,,Khet (หนองจอก),TH1003
+G0086,Bang Rak,county,khet,G0006,,pending,,,,,Khet (บางรัก),TH1004
+G0087,Bang Khen,county,khet,G0006,,pending,,,,,Khet (บางเขน),TH1005
+G0088,Bang Kapi,county,khet,G0006,,pending,,,,,Khet (บางกะปิ),TH1006
+G0089,Pathum Wan,county,khet,G0006,,pending,,,,,Khet (ปทุมวัน),TH1007
+G0090,Pom Prap Sattru Phai,county,khet,G0006,,pending,,,,,Khet (ป้อมปราบศัตรูพ่าย),TH1008
+G0091,Phra Khanong,county,khet,G0006,,pending,,,,,Khet (พระโขนง),TH1009
+G0092,Min Buri,county,khet,G0006,,pending,,,,,Khet (มีนบุรี),TH1010
+G0093,Lat Krabang,county,khet,G0006,,pending,,,,,Khet (ลาดกระบัง),TH1011
+G0094,Yan Nawa,county,khet,G0006,,pending,,,,,Khet (ยานนาวา),TH1012
+G0095,Samphanthawong,county,khet,G0006,,pending,,,,,Khet (สัมพันธวงศ์),TH1013
+G0096,Phaya Thai,county,khet,G0006,,pending,,,,,Khet (พญาไท),TH1014
+G0097,Thon Buri,county,khet,G0006,,pending,,,,,Khet (ธนบุรี),TH1015
+G0098,Bangkok Yai,county,khet,G0006,,pending,,,,,Khet (บางกอกใหญ่),TH1016
+G0099,Huai Khwang,county,khet,G0006,,pending,,,,,Khet (ห้วยขวาง),TH1017
+G0100,Khlong San,county,khet,G0006,,pending,,,,,Khet (คลองสาน),TH1018
+G0101,Taling Chan,county,khet,G0006,,pending,,,,,Khet (ตลิ่งชัน),TH1019
+G0102,Bangkok Noi,county,khet,G0006,,pending,,,,,Khet (บางกอกน้อย),TH1020
+G0103,Bang Khun Thian,county,khet,G0006,,pending,,,,,Khet (บางขุนเทียน),TH1021
+G0104,Phasi Charoen,county,khet,G0006,,pending,,,,,Khet (ภาษีเจริญ),TH1022
+G0105,Nong Khaem,county,khet,G0006,,pending,,,,,Khet (หนองแขม),TH1023
+G0106,Rat Burana,county,khet,G0006,,pending,,,,,Khet (ราษฎร์บูรณะ),TH1024
+G0107,Bang Phlat,county,khet,G0006,,pending,,,,,Khet (บางพลัด),TH1025
+G0108,Din Daeng,county,khet,G0006,,pending,,,,,Khet (ดินแดง),TH1026
+G0109,Bueng Kum,county,khet,G0006,,pending,,,,,Khet (บึงกุ่ม),TH1027
+G0110,Sathon,county,khet,G0006,,pending,,,,,Khet (สาทร),TH1028
+G0111,Bang Sue,county,khet,G0006,,pending,,,,,Khet (บางซื่อ),TH1029
+G0112,Chatuchak,county,khet,G0006,,pending,,,,,Khet (จตุจักร),TH1030
+G0113,Bang Kho Laem,county,khet,G0006,,pending,,,,,Khet (บางคอแหลม),TH1031
+G0114,Prawet,county,khet,G0006,,pending,,,,,Khet (ประเวศ),TH1032
+G0115,Khlong Toei,county,khet,G0006,,pending,,,,,Khet (คลองเตย),TH1033
+G0116,Suan Luang,county,khet,G0006,,pending,,,,,Khet (สวนหลวง),TH1034
+G0117,Chom Thong,county,khet,G0006,,pending,,,,,Khet (จอมทอง),TH1035
+G0118,Don Mueang,county,khet,G0006,,pending,,,,,Khet (ดอนเมือง),TH1036
+G0119,Ratchathewi,county,khet,G0006,,pending,,,,,Khet (ราชเทวี),TH1037
+G0120,Lat Phrao,county,khet,G0006,,pending,,,,,Khet (ลาดพร้าว),TH1038
+G0121,Vadhana,county,khet,G0006,,pending,,,,,Khet (วัฒนา),TH1039
+G0122,Bang Khae,county,khet,G0006,,pending,,,,,Khet (บางแค),TH1040
+G0123,Lak Si,county,khet,G0006,,pending,,,,,Khet (หลักสี่),TH1041
+G0124,Sai Mai,county,khet,G0006,,pending,,,,,Khet (สายไหม),TH1042
+G0125,Khan Na Yao,county,khet,G0006,,pending,,,,,Khet (คันนายาว),TH1043
+G0126,Saphan Sung,county,khet,G0006,,pending,,,,,Khet (สะพานสูง),TH1044
+G0127,Wang Thonglang,county,khet,G0006,,pending,,,,,Khet (วังทองหลาง),TH1045
+G0128,Khlong Sam Wa,county,khet,G0006,,pending,,,,,Khet (คลองสามวา),TH1046
+G0129,Bang Na,county,khet,G0006,,pending,,,,,Khet (บางนา),TH1047
+G0130,Thawi Watthana,county,khet,G0006,,pending,,,,,Khet (ทวีวัฒนา),TH1048
+G0131,Thung Khru,county,khet,G0006,,pending,,,,,Khet (ทุ่งครุ),TH1049
+G0132,Bang Bon,county,khet,G0006,,pending,,,,,Khet (บางบอน),TH1050
+G0133,Mueang Samut Prakan,county,amphoe,G0007,,pending,,,,,Amphoe (เมืองสมุทรปราการ),TH1101
+G0134,Bang Bo,county,amphoe,G0007,,pending,,,,,Amphoe (บางบ่อ),TH1102
+G0135,Bang Phli,county,amphoe,G0007,,pending,,,,,Amphoe (บางพลี),TH1103
+G0136,Phra Pradaeng,county,amphoe,G0007,,pending,,,,,Amphoe (พระประแดง),TH1104
+G0137,Phra Samut Chedi,county,amphoe,G0007,,pending,,,,,Amphoe (พระสมุทรเจดีย์),TH1105
+G0138,Bang Sao Thong,county,amphoe,G0007,,pending,,,,,Amphoe (บางเสาธง),TH1106
+G0139,Mueang Nonthaburi,county,amphoe,G0008,,pending,,,,,Amphoe (เมืองนนทบุรี),TH1201
+G0140,Bang Kruai,county,amphoe,G0008,,pending,,,,,Amphoe (บางกรวย),TH1202
+G0141,Bang Yai,county,amphoe,G0008,,pending,,,,,Amphoe (บางใหญ่),TH1203
+G0142,Bang Bua Thong,county,amphoe,G0008,,pending,,,,,Amphoe (บางบัวทอง),TH1204
+G0143,Sai Noi,county,amphoe,G0008,,pending,,,,,Amphoe (ไทรน้อย),TH1205
+G0144,Pak Kret,county,amphoe,G0008,,pending,,,,,Amphoe (ปากเกร็ด),TH1206
+G0145,Mueang Pathum Thani,county,amphoe,G0009,,pending,,,,,Amphoe (เมืองปทุมธานี),TH1301
+G0146,Khlong Luang,county,amphoe,G0009,,pending,,,,,Amphoe (คลองหลวง),TH1302
+G0147,Thanyaburi,county,amphoe,G0009,,pending,,,,,Amphoe (ธัญบุรี),TH1303
+G0148,Nong Suea,county,amphoe,G0009,,pending,,,,,Amphoe (หนองเสือ),TH1304
+G0149,Lat Lum Kaeo,county,amphoe,G0009,,pending,,,,,Amphoe (ลาดหลุมแก้ว),TH1305
+G0150,Lam Luk Ka,county,amphoe,G0009,,pending,,,,,Amphoe (ลำลูกกา),TH1306
+G0151,Sam Khok,county,amphoe,G0009,,pending,,,,,Amphoe (สามโคก),TH1307
+G0152,Phra Nakhon Si Ayutthaya,county,amphoe,G0010,,pending,,,,,Amphoe (พระนครศรีอยุธยา),TH1401
+G0153,Tha Ruea,county,amphoe,G0010,,pending,,,,,Amphoe (ท่าเรือ),TH1402
+G0154,Nakhon Luang,county,amphoe,G0010,,pending,,,,,Amphoe (นครหลวง),TH1403
+G0155,Bang Sai,county,amphoe,G0010,,pending,,,,,Amphoe (บางไทร),TH1404
+G0156,Bang Ban,county,amphoe,G0010,,pending,,,,,Amphoe (บางบาล),TH1405
+G0157,Bang Pa-In,county,amphoe,G0010,,pending,,,,,Amphoe (บางปะอิน),TH1406
+G0158,Bang Pahan,county,amphoe,G0010,,pending,,,,,Amphoe (บางปะหัน),TH1407
+G0159,Phak Hai,county,amphoe,G0010,,pending,,,,,Amphoe (ผักไห่),TH1408
+G0160,Phachi,county,amphoe,G0010,,pending,,,,,Amphoe (ภาชี),TH1409
+G0161,Lat Bua Luang,county,amphoe,G0010,,pending,,,,,Amphoe (ลาดบัวหลวง),TH1410
+G0162,Wang Noi,county,amphoe,G0010,,pending,,,,,Amphoe (วังน้อย),TH1411
+G0163,Sena,county,amphoe,G0010,,pending,,,,,Amphoe (เสนา),TH1412
+G0164,Bang Sai,county,amphoe,G0010,,pending,,,,,Amphoe (บางซ้าย),TH1413
+G0165,Uthai,county,amphoe,G0010,,pending,,,,,Amphoe (อุทัย),TH1414
+G0166,Maha Rat,county,amphoe,G0010,,pending,,,,,Amphoe (มหาราช),TH1415
+G0167,Ban Phraek,county,amphoe,G0010,,pending,,,,,Amphoe (บ้านแพรก),TH1416
+G0168,Mueang Ang Thong,county,amphoe,G0011,,pending,,,,,Amphoe (เมืองอ่างทอง),TH1501
+G0169,Chaiyo,county,amphoe,G0011,,pending,,,,,Amphoe (ไชโย),TH1502
+G0170,Pa Mok,county,amphoe,G0011,,pending,,,,,Amphoe (ป่าโมก),TH1503
+G0171,Pho Thong,county,amphoe,G0011,,pending,,,,,Amphoe (โพธิ์ทอง),TH1504
+G0172,Sawaeng Ha,county,amphoe,G0011,,pending,,,,,Amphoe (แสวงหา),TH1505
+G0173,Wiset Chai Chan,county,amphoe,G0011,,pending,,,,,Amphoe (วิเศษชัยชาญ),TH1506
+G0174,Samko,county,amphoe,G0011,,pending,,,,,Amphoe (สามโก้),TH1507
+G0175,Mueang Lop Buri,county,amphoe,G0012,,pending,,,,,Amphoe (เมืองลพบุรี),TH1601
+G0176,Phatthana Nikhom,county,amphoe,G0012,,pending,,,,,Amphoe (พัฒนานิคม),TH1602
+G0177,Khok Samrong,county,amphoe,G0012,,pending,,,,,Amphoe (โคกสำโรง),TH1603
+G0178,Chai Badan,county,amphoe,G0012,,pending,,,,,Amphoe (ชัยบาดาล),TH1604
+G0179,Tha Wung,county,amphoe,G0012,,pending,,,,,Amphoe (ท่าวุ้ง),TH1605
+G0180,Ban Mi,county,amphoe,G0012,,pending,,,,,Amphoe (บ้านหมี่),TH1606
+G0181,Tha Luang,county,amphoe,G0012,,pending,,,,,Amphoe (ท่าหลวง),TH1607
+G0182,Sa Bot,county,amphoe,G0012,,pending,,,,,Amphoe (สระโบสถ์),TH1608
+G0183,Khok Charoen,county,amphoe,G0012,,pending,,,,,Amphoe (โคกเจริญ),TH1609
+G0184,Lam Sonthi,county,amphoe,G0012,,pending,,,,,Amphoe (ลำสนธิ),TH1610
+G0185,Nong Muang,county,amphoe,G0012,,pending,,,,,Amphoe (หนองม่วง),TH1611
+G0186,Mueang Sing Buri,county,amphoe,G0013,,pending,,,,,Amphoe (เมืองสิงห์บุรี),TH1701
+G0187,Bang Rachan,county,amphoe,G0013,,pending,,,,,Amphoe (บางระจัน),TH1702
+G0188,Khai Bang Rachan,county,amphoe,G0013,,pending,,,,,Amphoe (ค่ายบางระจัน),TH1703
+G0189,Phrom Buri,county,amphoe,G0013,,pending,,,,,Amphoe (พรหมบุรี),TH1704
+G0190,Tha Chang,county,amphoe,G0013,,pending,,,,,Amphoe (ท่าช้าง),TH1705
+G0191,In Buri,county,amphoe,G0013,,pending,,,,,Amphoe (อินทร์บุรี),TH1706
+G0192,Mueang Chai Nat,county,amphoe,G0014,,pending,,,,,Amphoe (เมืองชัยนาท),TH1801
+G0193,Manorom,county,amphoe,G0014,,pending,,,,,Amphoe (มโนรมย์),TH1802
+G0194,Wat Sing,county,amphoe,G0014,,pending,,,,,Amphoe (วัดสิงห์),TH1803
+G0195,Sapphaya,county,amphoe,G0014,,pending,,,,,Amphoe (สรรพยา),TH1804
+G0196,Sankhaburi,county,amphoe,G0014,,pending,,,,,Amphoe (สรรคบุรี),TH1805
+G0197,Hankha,county,amphoe,G0014,,pending,,,,,Amphoe (หันคา),TH1806
+G0198,Nong Mamong,county,amphoe,G0014,,pending,,,,,Amphoe (หนองมะโมง),TH1807
+G0199,Noen Kham,county,amphoe,G0014,,pending,,,,,Amphoe (เนินขาม),TH1808
+G0200,Mueang Saraburi,county,amphoe,G0015,,pending,,,,,Amphoe (เมืองสระบุรี),TH1901
+G0201,Kaeng Khoi,county,amphoe,G0015,,pending,,,,,Amphoe (แก่งคอย),TH1902
+G0202,Nong Khae,county,amphoe,G0015,,pending,,,,,Amphoe (หนองแค),TH1903
+G0203,Wihan Daeng,county,amphoe,G0015,,pending,,,,,Amphoe (วิหารแดง),TH1904
+G0204,Nong Saeng,county,amphoe,G0015,,pending,,,,,Amphoe (หนองแซง),TH1905
+G0205,Ban Mo,county,amphoe,G0015,,pending,,,,,Amphoe (บ้านหมอ),TH1906
+G0206,Don Phut,county,amphoe,G0015,,pending,,,,,Amphoe (ดอนพุด),TH1907
+G0207,Nong Don,county,amphoe,G0015,,pending,,,,,Amphoe (หนองโดน),TH1908
+G0208,Phra Phutthabat,county,amphoe,G0015,,pending,,,,,Amphoe (พระพุทธบาท),TH1909
+G0209,Sao Hai,county,amphoe,G0015,,pending,,,,,Amphoe (เสาไห้),TH1910
+G0210,Muak Lek,county,amphoe,G0015,,pending,,,,,Amphoe (มวกเหล็ก),TH1911
+G0211,Wang Muang,county,amphoe,G0015,,pending,,,,,Amphoe (วังม่วง),TH1912
+G0212,Chaloem Phra Kiat,county,amphoe,G0015,,pending,,,,,Amphoe (เฉลิมพระเกียรติ),TH1913
+G0213,Mueang Chon Buri,county,amphoe,G0016,,pending,,,,,Amphoe (เมืองชลบุรี),TH2001
+G0214,Ban Bueng,county,amphoe,G0016,,pending,,,,,Amphoe (บ้านบึง),TH2002
+G0215,Nong Yai,county,amphoe,G0016,,pending,,,,,Amphoe (หนองใหญ่),TH2003
+G0216,Bang Lamung,county,amphoe,G0016,,pending,,,,,Amphoe (บางละมุง),TH2004
+G0217,Phan Thong,county,amphoe,G0016,,pending,,,,,Amphoe (พานทอง),TH2005
+G0218,Phanat Nikhom,county,amphoe,G0016,,pending,,,,,Amphoe (พนัสนิคม),TH2006
+G0219,Si Racha,county,amphoe,G0016,,pending,,,,,Amphoe (ศรีราชา),TH2007
+G0220,Ko Si Chang,county,amphoe,G0016,,pending,,,,,Amphoe (เกาะสีชัง),TH2008
+G0221,Sattahip,county,amphoe,G0016,,pending,,,,,Amphoe (สัตหีบ),TH2009
+G0222,Bo Thong,county,amphoe,G0016,,pending,,,,,Amphoe (บ่อทอง),TH2010
+G0223,Ko Chan,county,amphoe,G0016,,pending,,,,,Amphoe (เกาะจันทร์),TH2011
+G0224,Mueang Rayong,county,amphoe,G0017,,pending,,,,,Amphoe (เมืองระยอง),TH2101
+G0225,Ban Chang,county,amphoe,G0017,,pending,,,,,Amphoe (บ้านฉาง),TH2102
+G0226,Klaeng,county,amphoe,G0017,,pending,,,,,Amphoe (แกลง),TH2103
+G0227,Wang Chan,county,amphoe,G0017,,pending,,,,,Amphoe (วังจันทร์),TH2104
+G0228,Ban Khai,county,amphoe,G0017,,pending,,,,,Amphoe (บ้านค่าย),TH2105
+G0229,Pluak Daeng,county,amphoe,G0017,,pending,,,,,Amphoe (ปลวกแดง),TH2106
+G0230,Khao Chamao,county,amphoe,G0017,,pending,,,,,Amphoe (เขาชะเมา),TH2107
+G0231,Nikhom Phatthana,county,amphoe,G0017,,pending,,,,,Amphoe (นิคมพัฒนา),TH2108
+G0232,Mueang Chanthaburi,county,amphoe,G0018,,pending,,,,,Amphoe (เมืองจันทบุรี),TH2201
+G0233,Khlung,county,amphoe,G0018,,pending,,,,,Amphoe (ขลุง),TH2202
+G0234,Tha Mai,county,amphoe,G0018,,pending,,,,,Amphoe (ท่าใหม่),TH2203
+G0235,Pong Nam Ron,county,amphoe,G0018,,pending,,,,,Amphoe (โป่งน้ำร้อน),TH2204
+G0236,Makham,county,amphoe,G0018,,pending,,,,,Amphoe (มะขาม),TH2205
+G0237,Laem Sing,county,amphoe,G0018,,pending,,,,,Amphoe (แหลมสิงห์),TH2206
+G0238,Soi Dao,county,amphoe,G0018,,pending,,,,,Amphoe (สอยดาว),TH2207
+G0239,Kaeng Hang Maeo,county,amphoe,G0018,,pending,,,,,Amphoe (แก่งหางแมว),TH2208
+G0240,Na Yai Am,county,amphoe,G0018,,pending,,,,,Amphoe (นายายอาม),TH2209
+G0241,Khao Khitchakut,county,amphoe,G0018,,pending,,,,,Amphoe (เขาคิชฌกูฏ),TH2210
+G0242,Mueang Trat,county,amphoe,G0019,,pending,,,,,Amphoe (เมืองตราด),TH2301
+G0243,Khlong Yai,county,amphoe,G0019,,pending,,,,,Amphoe (คลองใหญ่),TH2302
+G0244,Khao Saming,county,amphoe,G0019,,pending,,,,,Amphoe (เขาสมิง),TH2303
+G0245,Bo Rai,county,amphoe,G0019,,pending,,,,,Amphoe (บ่อไร่),TH2304
+G0246,Laem Ngop,county,amphoe,G0019,,pending,,,,,Amphoe (แหลมงอบ),TH2305
+G0247,Ko Kut,county,amphoe,G0019,,pending,,,,,Amphoe (เกาะกูด),TH2306
+G0248,Ko Chang,county,amphoe,G0019,,pending,,,,,Amphoe (เกาะช้าง),TH2307
+G0249,Mueang Chachoengsao,county,amphoe,G0020,,pending,,,,,Amphoe (เมืองฉะเชิงเทรา),TH2401
+G0250,Bang Khla,county,amphoe,G0020,,pending,,,,,Amphoe (บางคล้า),TH2402
+G0251,Bang Nam Priao,county,amphoe,G0020,,pending,,,,,Amphoe (บางน้ำเปรี้ยว),TH2403
+G0252,Bang Pakong,county,amphoe,G0020,,pending,,,,,Amphoe (บางปะกง),TH2404
+G0253,Ban Pho,county,amphoe,G0020,,pending,,,,,Amphoe (บ้านโพธิ์),TH2405
+G0254,Phanom Sarakham,county,amphoe,G0020,,pending,,,,,Amphoe (พนมสารคาม),TH2406
+G0255,Ratchasan,county,amphoe,G0020,,pending,,,,,Amphoe (ราชสาส์น),TH2407
+G0256,Sanam Chai Khet,county,amphoe,G0020,,pending,,,,,Amphoe (สนามชัยเขต),TH2408
+G0257,Plaeng Yao,county,amphoe,G0020,,pending,,,,,Amphoe (แปลงยาว),TH2409
+G0258,Tha Takiap,county,amphoe,G0020,,pending,,,,,Amphoe (ท่าตะเกียบ),TH2410
+G0259,Khlong Khuean,county,amphoe,G0020,,pending,,,,,Amphoe (คลองเขื่อน),TH2411
+G0260,Mueang Prachin Buri,county,amphoe,G0021,,pending,,,,,Amphoe (เมืองปราจีนบุรี),TH2501
+G0261,Kabin Buri,county,amphoe,G0021,,pending,,,,,Amphoe (กบินทร์บุรี),TH2502
+G0262,Na Di,county,amphoe,G0021,,pending,,,,,Amphoe (นาดี),TH2503
+G0263,Ban Sang,county,amphoe,G0021,,pending,,,,,Amphoe (บ้านสร้าง),TH2506
+G0264,Prachantakham,county,amphoe,G0021,,pending,,,,,Amphoe (ประจันตคาม),TH2507
+G0265,Si Maha Phot,county,amphoe,G0021,,pending,,,,,Amphoe (ศรีมหาโพธิ),TH2508
+G0266,Si Mahosot,county,amphoe,G0021,,pending,,,,,Amphoe (ศรีมโหสถ),TH2509
+G0267,Mueang Nakhon Nayok,county,amphoe,G0022,,pending,,,,,Amphoe (เมืองนครนายก),TH2601
+G0268,Pak Phli,county,amphoe,G0022,,pending,,,,,Amphoe (ปากพลี),TH2602
+G0269,Ban Na,county,amphoe,G0022,,pending,,,,,Amphoe (บ้านนา),TH2603
+G0270,Ongkharak,county,amphoe,G0022,,pending,,,,,Amphoe (องครักษ์),TH2604
+G0271,Mueang Sa Kaeo,county,amphoe,G0023,,pending,,,,,Amphoe (เมืองสระแก้ว),TH2701
+G0272,Khlong Hat,county,amphoe,G0023,,pending,,,,,Amphoe (คลองหาด),TH2702
+G0273,Ta Phraya,county,amphoe,G0023,,pending,,,,,Amphoe (ตาพระยา),TH2703
+G0274,Wang Nam Yen,county,amphoe,G0023,,pending,,,,,Amphoe (วังน้ำเย็น),TH2704
+G0275,Watthana Nakhon,county,amphoe,G0023,,pending,,,,,Amphoe (วัฒนานคร),TH2705
+G0276,Aranyaprathet,county,amphoe,G0023,,pending,,,,,Amphoe (อรัญประเทศ),TH2706
+G0277,Khao Chakan,county,amphoe,G0023,,pending,,,,,Amphoe (เขาฉกรรจ์),TH2707
+G0278,Khok Sung,county,amphoe,G0023,,pending,,,,,Amphoe (โคกสูง),TH2708
+G0279,Wang Sombun,county,amphoe,G0023,,pending,,,,,Amphoe (วังสมบูรณ์),TH2709
+G0280,Mueang Nakhon Ratchasima,county,amphoe,G0024,,pending,,,,,Amphoe (เมืองนครราชสีมา),TH3001
+G0281,Khon Buri,county,amphoe,G0024,,pending,,,,,Amphoe (ครบุรี),TH3002
+G0282,Soeng Sang,county,amphoe,G0024,,pending,,,,,Amphoe (เสิงสาง),TH3003
+G0283,Khong,county,amphoe,G0024,,pending,,,,,Amphoe (คง),TH3004
+G0284,Ban Lueam,county,amphoe,G0024,,pending,,,,,Amphoe (บ้านเหลื่อม),TH3005
+G0285,Chakkarat,county,amphoe,G0024,,pending,,,,,Amphoe (จักราช),TH3006
+G0286,Chok Chai,county,amphoe,G0024,,pending,,,,,Amphoe (โชคชัย),TH3007
+G0287,Dan Khun Thot,county,amphoe,G0024,,pending,,,,,Amphoe (ด่านขุนทด),TH3008
+G0288,Non Thai,county,amphoe,G0024,,pending,,,,,Amphoe (โนนไทย),TH3009
+G0289,Non Sung,county,amphoe,G0024,,pending,,,,,Amphoe (โนนสูง),TH3010
+G0290,Kham Sakaesaeng,county,amphoe,G0024,,pending,,,,,Amphoe (ขามสะแกแสง),TH3011
+G0291,Bua Yai,county,amphoe,G0024,,pending,,,,,Amphoe (บัวใหญ่),TH3012
+G0292,Prathai,county,amphoe,G0024,,pending,,,,,Amphoe (ประทาย),TH3013
+G0293,Pak Thong Chai,county,amphoe,G0024,,pending,,,,,Amphoe (ปักธงชัย),TH3014
+G0294,Phimai,county,amphoe,G0024,,pending,,,,,Amphoe (พิมาย),TH3015
+G0295,Huai Thalaeng,county,amphoe,G0024,,pending,,,,,Amphoe (ห้วยแถลง),TH3016
+G0296,Chum Phuang,county,amphoe,G0024,,pending,,,,,Amphoe (ชุมพวง),TH3017
+G0297,Sung Noen,county,amphoe,G0024,,pending,,,,,Amphoe (สูงเนิน),TH3018
+G0298,Kham Thale So,county,amphoe,G0024,,pending,,,,,Amphoe (ขามทะเลสอ),TH3019
+G0299,Sikhio,county,amphoe,G0024,,pending,,,,,Amphoe (สีคิ้ว),TH3020
+G0300,Pak Chong,county,amphoe,G0024,,pending,,,,,Amphoe (ปากช่อง),TH3021
+G0301,Nong Bun Mak,county,amphoe,G0024,,pending,,,,,Amphoe (หนองบุญมาก),TH3022
+G0302,Kaeng Sanam Nang,county,amphoe,G0024,,pending,,,,,Amphoe (แก้งสนามนาง),TH3023
+G0303,Non Daeng,county,amphoe,G0024,,pending,,,,,Amphoe (โนนแดง),TH3024
+G0304,Wang Nam Khiao,county,amphoe,G0024,,pending,,,,,Amphoe (วังน้ำเขียว),TH3025
+G0305,Thepharak,county,amphoe,G0024,,pending,,,,,Amphoe (เทพารักษ์),TH3026
+G0306,Mueang Yang,county,amphoe,G0024,,pending,,,,,Amphoe (เมืองยาง),TH3027
+G0307,Phra Thong Kham,county,amphoe,G0024,,pending,,,,,Amphoe (พระทองคำ),TH3028
+G0308,Lam Thamenchai,county,amphoe,G0024,,pending,,,,,Amphoe (ลำทะเมนชัย),TH3029
+G0309,Bua Lai,county,amphoe,G0024,,pending,,,,,Amphoe (บัวลาย),TH3030
+G0310,Sida,county,amphoe,G0024,,pending,,,,,Amphoe (สีดา),TH3031
+G0311,Chaloem Phra Kiat,county,amphoe,G0024,,pending,,,,,Amphoe (เฉลิมพระเกียรติ),TH3032
+G0312,Mueang Buri Ram,county,amphoe,G0025,,pending,,,,,Amphoe (เมืองบุรีรัมย์),TH3101
+G0313,Khu Mueang,county,amphoe,G0025,,pending,,,,,Amphoe (คูเมือง),TH3102
+G0314,Krasang,county,amphoe,G0025,,pending,,,,,Amphoe (กระสัง),TH3103
+G0315,Nang Rong,county,amphoe,G0025,,pending,,,,,Amphoe (นางรอง),TH3104
+G0316,Nong Ki,county,amphoe,G0025,,pending,,,,,Amphoe (หนองกี่),TH3105
+G0317,Lahan Sai,county,amphoe,G0025,,pending,,,,,Amphoe (ละหานทราย),TH3106
+G0318,Prakhon Chai,county,amphoe,G0025,,pending,,,,,Amphoe (ประโคนชัย),TH3107
+G0319,Ban Kruat,county,amphoe,G0025,,pending,,,,,Amphoe (บ้านกรวด),TH3108
+G0320,Phutthaisong,county,amphoe,G0025,,pending,,,,,Amphoe (พุทไธสง),TH3109
+G0321,Lam Plai Mat,county,amphoe,G0025,,pending,,,,,Amphoe (ลำปลายมาศ),TH3110
+G0322,Satuek,county,amphoe,G0025,,pending,,,,,Amphoe (สตึก),TH3111
+G0323,Pakham,county,amphoe,G0025,,pending,,,,,Amphoe (ปะคำ),TH3112
+G0324,Na Pho,county,amphoe,G0025,,pending,,,,,Amphoe (นาโพธิ์),TH3113
+G0325,Nong Hong,county,amphoe,G0025,,pending,,,,,Amphoe (หนองหงส์),TH3114
+G0326,Phlapphla Chai,county,amphoe,G0025,,pending,,,,,Amphoe (พลับพลาชัย),TH3115
+G0327,Huai Rat,county,amphoe,G0025,,pending,,,,,Amphoe (ห้วยราช),TH3116
+G0328,Non Suwan,county,amphoe,G0025,,pending,,,,,Amphoe (โนนสุวรรณ),TH3117
+G0329,Chamni,county,amphoe,G0025,,pending,,,,,Amphoe (ชำนิ),TH3118
+G0330,Ban Mai Chaiyaphot,county,amphoe,G0025,,pending,,,,,Amphoe (บ้านใหม่ไชยพจน์),TH3119
+G0331,Non Din Daeng,county,amphoe,G0025,,pending,,,,,Amphoe (โนนดินแดง),TH3120
+G0332,Ban Dan,county,amphoe,G0025,,pending,,,,,Amphoe (บ้านด่าน),TH3121
+G0333,Khaen Dong,county,amphoe,G0025,,pending,,,,,Amphoe (แคนดง),TH3122
+G0334,Chaloem Phra Kiat,county,amphoe,G0025,,pending,,,,,Amphoe (เฉลิมพระเกียรติ),TH3123
+G0335,Mueang Surin,county,amphoe,G0026,,pending,,,,,Amphoe (เมืองสุรินทร์),TH3201
+G0336,Chumphon Buri,county,amphoe,G0026,,pending,,,,,Amphoe (ชุมพลบุรี),TH3202
+G0337,Tha Tum,county,amphoe,G0026,,pending,,,,,Amphoe (ท่าตูม),TH3203
+G0338,Chom Phra,county,amphoe,G0026,,pending,,,,,Amphoe (จอมพระ),TH3204
+G0339,Prasat,county,amphoe,G0026,,pending,,,,,Amphoe (ปราสาท),TH3205
+G0340,Kap Choeng,county,amphoe,G0026,,pending,,,,,Amphoe (กาบเชิง),TH3206
+G0341,Rattanaburi,county,amphoe,G0026,,pending,,,,,Amphoe (รัตนบุรี),TH3207
+G0342,Sanom,county,amphoe,G0026,,pending,,,,,Amphoe (สนม),TH3208
+G0343,Sikhoraphum,county,amphoe,G0026,,pending,,,,,Amphoe (ศีขรภูมิ),TH3209
+G0344,Sangkha,county,amphoe,G0026,,pending,,,,,Amphoe (สังขะ),TH3210
+G0345,Lamduan,county,amphoe,G0026,,pending,,,,,Amphoe (ลำดวน),TH3211
+G0346,Samrong Thap,county,amphoe,G0026,,pending,,,,,Amphoe (สำโรงทาบ),TH3212
+G0347,Buachet,county,amphoe,G0026,,pending,,,,,Amphoe (บัวเชด),TH3213
+G0348,Phanom Dong Rak,county,amphoe,G0026,,pending,,,,,Amphoe (พนมดงรัก),TH3214
+G0349,Si Narong,county,amphoe,G0026,,pending,,,,,Amphoe (ศรีณรงค์),TH3215
+G0350,Khwao Sin Rin,county,amphoe,G0026,,pending,,,,,Amphoe (เขวาสินรินทร์),TH3216
+G0351,Non Narai,county,amphoe,G0026,,pending,,,,,Amphoe (โนนนารายณ์),TH3217
+G0352,Mueang Si Sa Ket,county,amphoe,G0027,,pending,,,,,Amphoe (เมืองศรีสะเกษ),TH3301
+G0353,Yang Chum Noi,county,amphoe,G0027,,pending,,,,,Amphoe (ยางชุมน้อย),TH3302
+G0354,Kanthararom,county,amphoe,G0027,,pending,,,,,Amphoe (กันทรารมย์),TH3303
+G0355,Kantharalak,county,amphoe,G0027,,pending,,,,,Amphoe (กันทรลักษ์),TH3304
+G0356,Khukhan,county,amphoe,G0027,,pending,,,,,Amphoe (ขุขันธ์),TH3305
+G0357,Phrai Bueng,county,amphoe,G0027,,pending,,,,,Amphoe (ไพรบึง),TH3306
+G0358,Prang Ku,county,amphoe,G0027,,pending,,,,,Amphoe (ปรางค์กู่),TH3307
+G0359,Khun Han,county,amphoe,G0027,,pending,,,,,Amphoe (ขุนหาญ),TH3308
+G0360,Rasi Salai,county,amphoe,G0027,,pending,,,,,Amphoe (ราษีไศล),TH3309
+G0361,Uthumphon Phisai,county,amphoe,G0027,,pending,,,,,Amphoe (อุทุมพรพิสัย),TH3310
+G0362,Bueng Bun,county,amphoe,G0027,,pending,,,,,Amphoe (บึงบูรพ์),TH3311
+G0363,Huai Thap Than,county,amphoe,G0027,,pending,,,,,Amphoe (ห้วยทับทัน),TH3312
+G0364,Non Khun,county,amphoe,G0027,,pending,,,,,Amphoe (โนนคูณ),TH3313
+G0365,Si Rattana,county,amphoe,G0027,,pending,,,,,Amphoe (ศรีรัตนะ),TH3314
+G0366,Nam Kliang,county,amphoe,G0027,,pending,,,,,Amphoe (น้ำเกลี้ยง),TH3315
+G0367,Wang Hin,county,amphoe,G0027,,pending,,,,,Amphoe (วังหิน),TH3316
+G0368,Phu Sing,county,amphoe,G0027,,pending,,,,,Amphoe (ภูสิงห์),TH3317
+G0369,Mueang Chan,county,amphoe,G0027,,pending,,,,,Amphoe (เมืองจันทร์),TH3318
+G0370,Benchalak,county,amphoe,G0027,,pending,,,,,Amphoe (เบญจลักษ์),TH3319
+G0371,Phayu,county,amphoe,G0027,,pending,,,,,Amphoe (พยุห์),TH3320
+G0372,Pho Si Suwan,county,amphoe,G0027,,pending,,,,,Amphoe (โพธิ์ศรีสุวรรณ),TH3321
+G0373,Sila Lat,county,amphoe,G0027,,pending,,,,,Amphoe (ศิลาลาด),TH3322
+G0374,Mueang Ubon Ratchathani,county,amphoe,G0028,,pending,,,,,Amphoe (เมืองอุบลราชธานี),TH3401
+G0375,Si Mueang Mai,county,amphoe,G0028,,pending,,,,,Amphoe (ศรีเมืองใหม่),TH3402
+G0376,Khong Chiam,county,amphoe,G0028,,pending,,,,,Amphoe (โขงเจียม),TH3403
+G0377,Khueang Nai,county,amphoe,G0028,,pending,,,,,Amphoe (เขื่องใน),TH3404
+G0378,Khemarat,county,amphoe,G0028,,pending,,,,,Amphoe (เขมราฐ),TH3405
+G0379,Det Udom,county,amphoe,G0028,,pending,,,,,Amphoe (เดชอุดม),TH3407
+G0380,Na Chaluai,county,amphoe,G0028,,pending,,,,,Amphoe (นาจะหลวย),TH3408
+G0381,Nam Yuen,county,amphoe,G0028,,pending,,,,,Amphoe (น้ำยืน),TH3409
+G0382,Buntharik,county,amphoe,G0028,,pending,,,,,Amphoe (บุณฑริก),TH3410
+G0383,Trakan Phuet Phon,county,amphoe,G0028,,pending,,,,,Amphoe (ตระการพืชผล),TH3411
+G0384,Kut Khaopun,county,amphoe,G0028,,pending,,,,,Amphoe (กุดข้าวปุ้น),TH3412
+G0385,Muang Sam Sip,county,amphoe,G0028,,pending,,,,,Amphoe (ม่วงสามสิบ),TH3414
+G0386,Warin Chamrap,county,amphoe,G0028,,pending,,,,,Amphoe (วารินชำราบ),TH3415
+G0387,Phibun Mangsahan,county,amphoe,G0028,,pending,,,,,Amphoe (พิบูลมังสาหาร),TH3419
+G0388,Tan Sum,county,amphoe,G0028,,pending,,,,,Amphoe (ตาลสุม),TH3420
+G0389,Pho Sai,county,amphoe,G0028,,pending,,,,,Amphoe (โพธิ์ไทร),TH3421
+G0390,Samrong,county,amphoe,G0028,,pending,,,,,Amphoe (สำโรง),TH3422
+G0391,Don Mot Daeng,county,amphoe,G0028,,pending,,,,,Amphoe (ดอนมดแดง),TH3424
+G0392,Sirindhorn,county,amphoe,G0028,,pending,,,,,Amphoe (สิรินธร),TH3425
+G0393,Thung Si Udom,county,amphoe,G0028,,pending,,,,,Amphoe (ทุ่งศรีอุดม),TH3426
+G0394,Na Yia,county,amphoe,G0028,,pending,,,,,Amphoe (นาเยีย),TH3429
+G0395,Na Tan,county,amphoe,G0028,,pending,,,,,Amphoe (นาตาล),TH3430
+G0396,Lao Suea Kok,county,amphoe,G0028,,pending,,,,,Amphoe (เหล่าเสือโก้ก),TH3431
+G0397,Sawang Wirawong,county,amphoe,G0028,,pending,,,,,Amphoe (สว่างวีระวงศ์),TH3432
+G0398,Nam Khun,county,amphoe,G0028,,pending,,,,,Amphoe (น้ำขุ่น),TH3433
+G0399,Mueang Yasothon,county,amphoe,G0029,,pending,,,,,Amphoe (เมืองยโสธร),TH3501
+G0400,Sai Mun,county,amphoe,G0029,,pending,,,,,Amphoe (ทรายมูล),TH3502
+G0401,Kut Chum,county,amphoe,G0029,,pending,,,,,Amphoe (กุดชุม),TH3503
+G0402,Kham Khuean Kaeo,county,amphoe,G0029,,pending,,,,,Amphoe (คำเขื่อนแก้ว),TH3504
+G0403,Pa Tio,county,amphoe,G0029,,pending,,,,,Amphoe (ป่าติ้ว),TH3505
+G0404,Maha Chana Chai,county,amphoe,G0029,,pending,,,,,Amphoe (มหาชนะชัย),TH3506
+G0405,Kho Wang,county,amphoe,G0029,,pending,,,,,Amphoe (ค้อวัง),TH3507
+G0406,Loeng Nok Tha,county,amphoe,G0029,,pending,,,,,Amphoe (เลิงนกทา),TH3508
+G0407,Thai Charoen,county,amphoe,G0029,,pending,,,,,Amphoe (ไทยเจริญ),TH3509
+G0408,Mueang Chaiyaphum,county,amphoe,G0030,,pending,,,,,Amphoe (เมืองชัยภูมิ),TH3601
+G0409,Ban Khwao,county,amphoe,G0030,,pending,,,,,Amphoe (บ้านเขว้า),TH3602
+G0410,Khon Sawan,county,amphoe,G0030,,pending,,,,,Amphoe (คอนสวรรค์),TH3603
+G0411,Kaset Sombun,county,amphoe,G0030,,pending,,,,,Amphoe (เกษตรสมบูรณ์),TH3604
+G0412,Nong Bua Daeng,county,amphoe,G0030,,pending,,,,,Amphoe (หนองบัวแดง),TH3605
+G0413,Chatturat,county,amphoe,G0030,,pending,,,,,Amphoe (จัตุรัส),TH3606
+G0414,Bamnet Narong,county,amphoe,G0030,,pending,,,,,Amphoe (บำเหน็จณรงค์),TH3607
+G0415,Nong Bua Rawe,county,amphoe,G0030,,pending,,,,,Amphoe (หนองบัวระเหว),TH3608
+G0416,Thep Sathit,county,amphoe,G0030,,pending,,,,,Amphoe (เทพสถิต),TH3609
+G0417,Phu Khiao,county,amphoe,G0030,,pending,,,,,Amphoe (ภูเขียว),TH3610
+G0418,Ban Thaen,county,amphoe,G0030,,pending,,,,,Amphoe (บ้านแท่น),TH3611
+G0419,Kaeng Khro,county,amphoe,G0030,,pending,,,,,Amphoe (แก้งคร้อ),TH3612
+G0420,Khon San,county,amphoe,G0030,,pending,,,,,Amphoe (คอนสาร),TH3613
+G0421,Phakdi Chumphon,county,amphoe,G0030,,pending,,,,,Amphoe (ภักดีชุมพล),TH3614
+G0422,Noen Sa-Nga,county,amphoe,G0030,,pending,,,,,Amphoe (เนินสง่า),TH3615
+G0423,Sap Yai,county,amphoe,G0030,,pending,,,,,Amphoe (ซับใหญ่),TH3616
+G0424,Mueang Amnat Charoen,county,amphoe,G0031,,pending,,,,,Amphoe (เมืองอำนาจเจริญ),TH3701
+G0425,Chanuman,county,amphoe,G0031,,pending,,,,,Amphoe (ชานุมาน),TH3702
+G0426,Pathum Ratchawongsa,county,amphoe,G0031,,pending,,,,,Amphoe (ปทุมราชวงศา),TH3703
+G0427,Phana,county,amphoe,G0031,,pending,,,,,Amphoe (พนา),TH3704
+G0428,Senangkhanikhom,county,amphoe,G0031,,pending,,,,,Amphoe (เสนางคนิคม),TH3705
+G0429,Hua Taphan,county,amphoe,G0031,,pending,,,,,Amphoe (หัวตะพาน),TH3706
+G0430,Lue Amnat,county,amphoe,G0031,,pending,,,,,Amphoe (ลืออำนาจ),TH3707
+G0431,Mueang Bueng Kan,county,amphoe,G0032,,pending,,,,,Amphoe (เมืองบึงกาฬ),TH3801
+G0432,Phon Charoen,county,amphoe,G0032,,pending,,,,,Amphoe (พรเจริญ),TH3802
+G0433,So Phisai,county,amphoe,G0032,,pending,,,,,Amphoe (โซ่พิสัย),TH3803
+G0434,Seka,county,amphoe,G0032,,pending,,,,,Amphoe (เซกา),TH3804
+G0435,Pak Khat,county,amphoe,G0032,,pending,,,,,Amphoe (ปากคาด),TH3805
+G0436,Bueng Khong Long,county,amphoe,G0032,,pending,,,,,Amphoe (บึงโขงหลง),TH3806
+G0437,Si Wilai,county,amphoe,G0032,,pending,,,,,Amphoe (ศรีวิไล),TH3807
+G0438,Bung Khla,county,amphoe,G0032,,pending,,,,,Amphoe (บุ่งคล้า),TH3808
+G0439,Mueang Nong Bua Lam Phu,county,amphoe,G0033,,pending,,,,,Amphoe (เมืองหนองบัวลำภู),TH3901
+G0440,Na Klang,county,amphoe,G0033,,pending,,,,,Amphoe (นากลาง),TH3902
+G0441,Non Sang,county,amphoe,G0033,,pending,,,,,Amphoe (โนนสัง),TH3903
+G0442,Si Bun Rueang,county,amphoe,G0033,,pending,,,,,Amphoe (ศรีบุญเรือง),TH3904
+G0443,Suwannakhuha,county,amphoe,G0033,,pending,,,,,Amphoe (สุวรรณคูหา),TH3905
+G0444,Na Wang,county,amphoe,G0033,,pending,,,,,Amphoe (นาวัง),TH3906
+G0445,Mueang Khon Kaen,county,amphoe,G0034,,pending,,,,,Amphoe (เมืองขอนแก่น),TH4001
+G0446,Ban Fang,county,amphoe,G0034,,pending,,,,,Amphoe (บ้านฝาง),TH4002
+G0447,Phra Yuen,county,amphoe,G0034,,pending,,,,,Amphoe (พระยืน),TH4003
+G0448,Nong Ruea,county,amphoe,G0034,,pending,,,,,Amphoe (หนองเรือ),TH4004
+G0449,Chum Phae,county,amphoe,G0034,,pending,,,,,Amphoe (ชุมแพ),TH4005
+G0450,Si Chomphu,county,amphoe,G0034,,pending,,,,,Amphoe (สีชมพู),TH4006
+G0451,Nam Phong,county,amphoe,G0034,,pending,,,,,Amphoe (น้ำพอง),TH4007
+G0452,Ubolratana,county,amphoe,G0034,,pending,,,,,Amphoe (อุบลรัตน์),TH4008
+G0453,Kranuan,county,amphoe,G0034,,pending,,,,,Amphoe (กระนวน),TH4009
+G0454,Ban Phai,county,amphoe,G0034,,pending,,,,,Amphoe (บ้านไผ่),TH4010
+G0455,Pueai Noi,county,amphoe,G0034,,pending,,,,,Amphoe (เปือยน้อย),TH4011
+G0456,Phon,county,amphoe,G0034,,pending,,,,,Amphoe (พล),TH4012
+G0457,Waeng Yai,county,amphoe,G0034,,pending,,,,,Amphoe (แวงใหญ่),TH4013
+G0458,Waeng Noi,county,amphoe,G0034,,pending,,,,,Amphoe (แวงน้อย),TH4014
+G0459,Nong Song Hong,county,amphoe,G0034,,pending,,,,,Amphoe (หนองสองห้อง),TH4015
+G0460,Phu Wiang,county,amphoe,G0034,,pending,,,,,Amphoe (ภูเวียง),TH4016
+G0461,Mancha Khiri,county,amphoe,G0034,,pending,,,,,Amphoe (มัญจาคีรี),TH4017
+G0462,Chonnabot,county,amphoe,G0034,,pending,,,,,Amphoe (ชนบท),TH4018
+G0463,Khao Suan Kwang,county,amphoe,G0034,,pending,,,,,Amphoe (เขาสวนกวาง),TH4019
+G0464,Phu Pha Man,county,amphoe,G0034,,pending,,,,,Amphoe (ภูผาม่าน),TH4020
+G0465,Sam Sung,county,amphoe,G0034,,pending,,,,,Amphoe (ซำสูง),TH4021
+G0466,Khok Pho Chai,county,amphoe,G0034,,pending,,,,,Amphoe (โคกโพธิ์ไชย),TH4022
+G0467,Nong Na Kham,county,amphoe,G0034,,pending,,,,,Amphoe (หนองนาคำ),TH4023
+G0468,Ban Haet,county,amphoe,G0034,,pending,,,,,Amphoe (บ้านแฮด),TH4024
+G0469,Non Sila,county,amphoe,G0034,,pending,,,,,Amphoe (โนนศิลา),TH4025
+G0470,Wiang Kao,county,amphoe,G0034,,pending,,,,,Amphoe (เวียงเก่า),TH4029
+G0471,Mueang Udon Thani,county,amphoe,G0035,,pending,,,,,Amphoe (เมืองอุดรธานี),TH4101
+G0472,Kut Chap,county,amphoe,G0035,,pending,,,,,Amphoe (กุดจับ),TH4102
+G0473,Nong Wua So,county,amphoe,G0035,,pending,,,,,Amphoe (หนองวัวซอ),TH4103
+G0474,Kumphawapi,county,amphoe,G0035,,pending,,,,,Amphoe (กุมภวาปี),TH4104
+G0475,Non Sa-At,county,amphoe,G0035,,pending,,,,,Amphoe (โนนสะอาด),TH4105
+G0476,Nong Han,county,amphoe,G0035,,pending,,,,,Amphoe (หนองหาน),TH4106
+G0477,Thung Fon,county,amphoe,G0035,,pending,,,,,Amphoe (ทุ่งฝน),TH4107
+G0478,Chai Wan,county,amphoe,G0035,,pending,,,,,Amphoe (ไชยวาน),TH4108
+G0479,Si That,county,amphoe,G0035,,pending,,,,,Amphoe (ศรีธาตุ),TH4109
+G0480,Wang Sam Mo,county,amphoe,G0035,,pending,,,,,Amphoe (วังสามหมอ),TH4110
+G0481,Ban Dung,county,amphoe,G0035,,pending,,,,,Amphoe (บ้านดุง),TH4111
+G0482,Ban Phue,county,amphoe,G0035,,pending,,,,,Amphoe (บ้านผือ),TH4117
+G0483,Nam Som,county,amphoe,G0035,,pending,,,,,Amphoe (น้ำโสม),TH4118
+G0484,Phen,county,amphoe,G0035,,pending,,,,,Amphoe (เพ็ญ),TH4119
+G0485,Sang Khom,county,amphoe,G0035,,pending,,,,,Amphoe (สร้างคอม),TH4120
+G0486,Nong Saeng,county,amphoe,G0035,,pending,,,,,Amphoe (หนองแสง),TH4121
+G0487,Na Yung,county,amphoe,G0035,,pending,,,,,Amphoe (นายูง),TH4122
+G0488,Phibun Rak,county,amphoe,G0035,,pending,,,,,Amphoe (พิบูลย์รักษ์),TH4123
+G0489,Ku Kaeo,county,amphoe,G0035,,pending,,,,,Amphoe (กู่แก้ว),TH4124
+G0490,Prachaksinlapakhom,county,amphoe,G0035,,pending,,,,,Amphoe (ประจักษ์ศิลปาคม),TH4125
+G0491,Mueang Loei,county,amphoe,G0036,,pending,,,,,Amphoe (เมืองเลย),TH4201
+G0492,Na Duang,county,amphoe,G0036,,pending,,,,,Amphoe (นาด้วง),TH4202
+G0493,Chiang Khan,county,amphoe,G0036,,pending,,,,,Amphoe (เชียงคาน),TH4203
+G0494,Pak Chom,county,amphoe,G0036,,pending,,,,,Amphoe (ปากชม),TH4204
+G0495,Dan Sai,county,amphoe,G0036,,pending,,,,,Amphoe (ด่านซ้าย),TH4205
+G0496,Na Haeo,county,amphoe,G0036,,pending,,,,,Amphoe (นาแห้ว),TH4206
+G0497,Phu Ruea,county,amphoe,G0036,,pending,,,,,Amphoe (ภูเรือ),TH4207
+G0498,Tha Li,county,amphoe,G0036,,pending,,,,,Amphoe (ท่าลี่),TH4208
+G0499,Wang Saphung,county,amphoe,G0036,,pending,,,,,Amphoe (วังสะพุง),TH4209
+G0500,Phu Kradueng,county,amphoe,G0036,,pending,,,,,Amphoe (ภูกระดึง),TH4210
+G0501,Phu Luang,county,amphoe,G0036,,pending,,,,,Amphoe (ภูหลวง),TH4211
+G0502,Pha Khao,county,amphoe,G0036,,pending,,,,,Amphoe (ผาขาว),TH4212
+G0503,Erawan,county,amphoe,G0036,,pending,,,,,Amphoe (เอราวัณ),TH4213
+G0504,Nong Hin,county,amphoe,G0036,,pending,,,,,Amphoe (หนองหิน),TH4214
+G0505,Mueang Nong Khai,county,amphoe,G0037,,pending,,,,,Amphoe (เมืองหนองคาย),TH4301
+G0506,Tha Bo,county,amphoe,G0037,,pending,,,,,Amphoe (ท่าบ่อ),TH4302
+G0507,Phon Phisai,county,amphoe,G0037,,pending,,,,,Amphoe (โพนพิสัย),TH4305
+G0508,Si Chiang Mai,county,amphoe,G0037,,pending,,,,,Amphoe (ศรีเชียงใหม่),TH4307
+G0509,Sangkhom,county,amphoe,G0037,,pending,,,,,Amphoe (สังคม),TH4308
+G0510,Sakhrai,county,amphoe,G0037,,pending,,,,,Amphoe (สระใคร),TH4314
+G0511,Fao Rai,county,amphoe,G0037,,pending,,,,,Amphoe (เฝ้าไร่),TH4315
+G0512,Rattanawapi,county,amphoe,G0037,,pending,,,,,Amphoe (รัตนวาปี),TH4316
+G0513,Pho Tak,county,amphoe,G0037,,pending,,,,,Amphoe (โพธิ์ตาก),TH4317
+G0514,Mueang Maha Sarakham,county,amphoe,G0038,,pending,,,,,Amphoe (เมืองมหาสารคาม),TH4401
+G0515,Kae Dam,county,amphoe,G0038,,pending,,,,,Amphoe (แกดำ),TH4402
+G0516,Kosum Phisai,county,amphoe,G0038,,pending,,,,,Amphoe (โกสุมพิสัย),TH4403
+G0517,Kantharawichai,county,amphoe,G0038,,pending,,,,,Amphoe (กันทรวิชัย),TH4404
+G0518,Chiang Yuen,county,amphoe,G0038,,pending,,,,,Amphoe (เชียงยืน),TH4405
+G0519,Borabue,county,amphoe,G0038,,pending,,,,,Amphoe (บรบือ),TH4406
+G0520,Na Chueak,county,amphoe,G0038,,pending,,,,,Amphoe (นาเชือก),TH4407
+G0521,Phayakkhaphum Phisai,county,amphoe,G0038,,pending,,,,,Amphoe (พยัคฆภูมิพิสัย),TH4408
+G0522,Wapi Pathum,county,amphoe,G0038,,pending,,,,,Amphoe (วาปีปทุม),TH4409
+G0523,Na Dun,county,amphoe,G0038,,pending,,,,,Amphoe (นาดูน),TH4410
+G0524,Yang Sisurat,county,amphoe,G0038,,pending,,,,,Amphoe (ยางสีสุราช),TH4411
+G0525,Kut Rang,county,amphoe,G0038,,pending,,,,,Amphoe (กุดรัง),TH4412
+G0526,Chuen Chom,county,amphoe,G0038,,pending,,,,,Amphoe (ชื่นชม),TH4413
+G0527,Mueang Roi Et,county,amphoe,G0039,,pending,,,,,Amphoe (เมืองร้อยเอ็ด),TH4501
+G0528,Kaset Wisai,county,amphoe,G0039,,pending,,,,,Amphoe (เกษตรวิสัย),TH4502
+G0529,Pathum Rat,county,amphoe,G0039,,pending,,,,,Amphoe (ปทุมรัตต์),TH4503
+G0530,Chaturaphak Phiman,county,amphoe,G0039,,pending,,,,,Amphoe (จตุรพักตรพิมาน),TH4504
+G0531,Thawat Buri,county,amphoe,G0039,,pending,,,,,Amphoe (ธวัชบุรี),TH4505
+G0532,Phanom Phrai,county,amphoe,G0039,,pending,,,,,Amphoe (พนมไพร),TH4506
+G0533,Phon Thong,county,amphoe,G0039,,pending,,,,,Amphoe (โพนทอง),TH4507
+G0534,Pho Chai,county,amphoe,G0039,,pending,,,,,Amphoe (โพธิ์ชัย),TH4508
+G0535,Nong Phok,county,amphoe,G0039,,pending,,,,,Amphoe (หนองพอก),TH4509
+G0536,Selaphum,county,amphoe,G0039,,pending,,,,,Amphoe (เสลภูมิ),TH4510
+G0537,Suwannaphum,county,amphoe,G0039,,pending,,,,,Amphoe (สุวรรณภูมิ),TH4511
+G0538,Mueang Suang,county,amphoe,G0039,,pending,,,,,Amphoe (เมืองสรวง),TH4512
+G0539,Phon Sai,county,amphoe,G0039,,pending,,,,,Amphoe (โพนทราย),TH4513
+G0540,At Samat,county,amphoe,G0039,,pending,,,,,Amphoe (อาจสามารถ),TH4514
+G0541,Moei Wadi,county,amphoe,G0039,,pending,,,,,Amphoe (เมยวดี),TH4515
+G0542,Si Somdet,county,amphoe,G0039,,pending,,,,,Amphoe (ศรีสมเด็จ),TH4516
+G0543,Changhan,county,amphoe,G0039,,pending,,,,,Amphoe (จังหาร),TH4517
+G0544,Chiang Khwan,county,amphoe,G0039,,pending,,,,,Amphoe (เชียงขวัญ),TH4518
+G0545,Nong Hi,county,amphoe,G0039,,pending,,,,,Amphoe (หนองฮี),TH4519
+G0546,Thung Khao Luang,county,amphoe,G0039,,pending,,,,,Amphoe (ทุ่งเขาหลวง),TH4520
+G0547,Mueang Kalasin,county,amphoe,G0040,,pending,,,,,Amphoe (เมืองกาฬสินธุ์),TH4601
+G0548,Na Mon,county,amphoe,G0040,,pending,,,,,Amphoe (นามน),TH4602
+G0549,Kamalasai,county,amphoe,G0040,,pending,,,,,Amphoe (กมลาไสย),TH4603
+G0550,Rong Kham,county,amphoe,G0040,,pending,,,,,Amphoe (ร่องคำ),TH4604
+G0551,Kuchinarai,county,amphoe,G0040,,pending,,,,,Amphoe (กุฉินารายณ์),TH4605
+G0552,Khao Wong,county,amphoe,G0040,,pending,,,,,Amphoe (เขาวง),TH4606
+G0553,Yang Talat,county,amphoe,G0040,,pending,,,,,Amphoe (ยางตลาด),TH4607
+G0554,Huai Mek,county,amphoe,G0040,,pending,,,,,Amphoe (ห้วยเม็ก),TH4608
+G0555,Sahatsakhan,county,amphoe,G0040,,pending,,,,,Amphoe (สหัสขันธ์),TH4609
+G0556,Kham Muang,county,amphoe,G0040,,pending,,,,,Amphoe (คำม่วง),TH4610
+G0557,Tha Khantho,county,amphoe,G0040,,pending,,,,,Amphoe (ท่าคันโท),TH4611
+G0558,Nong Kung Si,county,amphoe,G0040,,pending,,,,,Amphoe (หนองกุงศรี),TH4612
+G0559,Somdet,county,amphoe,G0040,,pending,,,,,Amphoe (สมเด็จ),TH4613
+G0560,Huai Phueng,county,amphoe,G0040,,pending,,,,,Amphoe (ห้วยผึ้ง),TH4614
+G0561,Sam Chai,county,amphoe,G0040,,pending,,,,,Amphoe (สามชัย),TH4615
+G0562,Na Khu,county,amphoe,G0040,,pending,,,,,Amphoe (นาคู),TH4616
+G0563,Don Chan,county,amphoe,G0040,,pending,,,,,Amphoe (ดอนจาน),TH4617
+G0564,Khong Chai,county,amphoe,G0040,,pending,,,,,Amphoe (ฆ้องชัย),TH4618
+G0565,Mueang Sakon Nakhon,county,amphoe,G0041,,pending,,,,,Amphoe (เมืองสกลนคร),TH4701
+G0566,Kusuman,county,amphoe,G0041,,pending,,,,,Amphoe (กุสุมาลย์),TH4702
+G0567,Kut Bak,county,amphoe,G0041,,pending,,,,,Amphoe (กุดบาก),TH4703
+G0568,Phanna Nikhom,county,amphoe,G0041,,pending,,,,,Amphoe (พรรณานิคม),TH4704
+G0569,Phang Khon,county,amphoe,G0041,,pending,,,,,Amphoe (พังโคน),TH4705
+G0570,Waritchaphum,county,amphoe,G0041,,pending,,,,,Amphoe (วาริชภูมิ),TH4706
+G0571,Nikhom Nam Un,county,amphoe,G0041,,pending,,,,,Amphoe (นิคมน้ำอูน),TH4707
+G0572,Wanon Niwat,county,amphoe,G0041,,pending,,,,,Amphoe (วานรนิวาส),TH4708
+G0573,Kham Ta Kla,county,amphoe,G0041,,pending,,,,,Amphoe (คำตากล้า),TH4709
+G0574,Ban Muang,county,amphoe,G0041,,pending,,,,,Amphoe (บ้านม่วง),TH4710
+G0575,Akat Amnuai,county,amphoe,G0041,,pending,,,,,Amphoe (อากาศอำนวย),TH4711
+G0576,Sawang Daen Din,county,amphoe,G0041,,pending,,,,,Amphoe (สว่างแดนดิน),TH4712
+G0577,Song Dao,county,amphoe,G0041,,pending,,,,,Amphoe (ส่องดาว),TH4713
+G0578,Tao Ngoi,county,amphoe,G0041,,pending,,,,,Amphoe (เต่างอย),TH4714
+G0579,Khok Si Suphan,county,amphoe,G0041,,pending,,,,,Amphoe (โคกศรีสุพรรณ),TH4715
+G0580,Charoen Sin,county,amphoe,G0041,,pending,,,,,Amphoe (เจริญศิลป์),TH4716
+G0581,Phon Na Kaeo,county,amphoe,G0041,,pending,,,,,Amphoe (โพนนาแก้ว),TH4717
+G0582,Phu Phan,county,amphoe,G0041,,pending,,,,,Amphoe (ภูพาน),TH4718
+G0583,Mueang Nakhon Phanom,county,amphoe,G0042,,pending,,,,,Amphoe (เมืองนครพนม),TH4801
+G0584,Pla Pak,county,amphoe,G0042,,pending,,,,,Amphoe (ปลาปาก),TH4802
+G0585,Tha Uthen,county,amphoe,G0042,,pending,,,,,Amphoe (ท่าอุเทน),TH4803
+G0586,Ban Phaeng,county,amphoe,G0042,,pending,,,,,Amphoe (บ้านแพง),TH4804
+G0587,That Phanom,county,amphoe,G0042,,pending,,,,,Amphoe (ธาตุพนม),TH4805
+G0588,Renu Nakhon,county,amphoe,G0042,,pending,,,,,Amphoe (เรณูนคร),TH4806
+G0589,Na Kae,county,amphoe,G0042,,pending,,,,,Amphoe (นาแก),TH4807
+G0590,Si Songkhram,county,amphoe,G0042,,pending,,,,,Amphoe (ศรีสงคราม),TH4808
+G0591,Na Wa,county,amphoe,G0042,,pending,,,,,Amphoe (นาหว้า),TH4809
+G0592,Phon Sawan,county,amphoe,G0042,,pending,,,,,Amphoe (โพนสวรรค์),TH4810
+G0593,Na Thom,county,amphoe,G0042,,pending,,,,,Amphoe (นาทม),TH4811
+G0594,Wang Yang,county,amphoe,G0042,,pending,,,,,Amphoe (วังยาง),TH4812
+G0595,Mueang Mukdahan,county,amphoe,G0043,,pending,,,,,Amphoe (เมืองมุกดาหาร),TH4901
+G0596,Nikhom Kham Soi,county,amphoe,G0043,,pending,,,,,Amphoe (นิคมคำสร้อย),TH4902
+G0597,Don Tan,county,amphoe,G0043,,pending,,,,,Amphoe (ดอนตาล),TH4903
+G0598,Dong Luang,county,amphoe,G0043,,pending,,,,,Amphoe (ดงหลวง),TH4904
+G0599,Khamcha-I,county,amphoe,G0043,,pending,,,,,Amphoe (คำชะอี),TH4905
+G0600,Wan Yai,county,amphoe,G0043,,pending,,,,,Amphoe (หว้านใหญ่),TH4906
+G0601,Nong Sung,county,amphoe,G0043,,pending,,,,,Amphoe (หนองสูง),TH4907
+G0602,Mueang Chiang Mai,county,amphoe,G0044,,pending,,,,,Amphoe (เมืองเชียงใหม่),TH5001
+G0603,Chom Thong,county,amphoe,G0044,,pending,,,,,Amphoe (จอมทอง),TH5002
+G0604,Mae Chaem,county,amphoe,G0044,,pending,,,,,Amphoe (แม่แจ่ม),TH5003
+G0605,Chiang Dao,county,amphoe,G0044,,pending,,,,,Amphoe (เชียงดาว),TH5004
+G0606,Doi Saket,county,amphoe,G0044,,pending,,,,,Amphoe (ดอยสะเก็ด),TH5005
+G0607,Mae Taeng,county,amphoe,G0044,,pending,,,,,Amphoe (แม่แตง),TH5006
+G0608,Mae Rim,county,amphoe,G0044,,pending,,,,,Amphoe (แม่ริม),TH5007
+G0609,Samoeng,county,amphoe,G0044,,pending,,,,,Amphoe (สะเมิง),TH5008
+G0610,Fang,county,amphoe,G0044,,pending,,,,,Amphoe (ฝาง),TH5009
+G0611,Mae Ai,county,amphoe,G0044,,pending,,,,,Amphoe (แม่อาย),TH5010
+G0612,Phrao,county,amphoe,G0044,,pending,,,,,Amphoe (พร้าว),TH5011
+G0613,San Pa Tong,county,amphoe,G0044,,pending,,,,,Amphoe (สันป่าตอง),TH5012
+G0614,San Kamphaeng,county,amphoe,G0044,,pending,,,,,Amphoe (สันกำแพง),TH5013
+G0615,San Sai,county,amphoe,G0044,,pending,,,,,Amphoe (สันทราย),TH5014
+G0616,Hang Dong,county,amphoe,G0044,,pending,,,,,Amphoe (หางดง),TH5015
+G0617,Hot,county,amphoe,G0044,,pending,,,,,Amphoe (ฮอด),TH5016
+G0618,Doi Tao,county,amphoe,G0044,,pending,,,,,Amphoe (ดอยเต่า),TH5017
+G0619,Omkoi,county,amphoe,G0044,,pending,,,,,Amphoe (อมก๋อย),TH5018
+G0620,Saraphi,county,amphoe,G0044,,pending,,,,,Amphoe (สารภี),TH5019
+G0621,Wiang Haeng,county,amphoe,G0044,,pending,,,,,Amphoe (เวียงแหง),TH5020
+G0622,Chai Prakan,county,amphoe,G0044,,pending,,,,,Amphoe (ไชยปราการ),TH5021
+G0623,Mae Wang,county,amphoe,G0044,,pending,,,,,Amphoe (แม่วาง),TH5022
+G0624,Mae On,county,amphoe,G0044,,pending,,,,,Amphoe (แม่ออน),TH5023
+G0625,Doi Lo,county,amphoe,G0044,,pending,,,,,Amphoe (ดอยหล่อ),TH5024
+G0626,Galyani Vadhana,county,amphoe,G0044,,pending,,,,,Amphoe (กัลยาณิวัฒนา),TH5025
+G0627,Mueang Lamphun,county,amphoe,G0045,,pending,,,,,Amphoe (เมืองลำพูน),TH5101
+G0628,Mae Tha,county,amphoe,G0045,,pending,,,,,Amphoe (แม่ทา),TH5102
+G0629,Ban Hong,county,amphoe,G0045,,pending,,,,,Amphoe (บ้านโฮ่ง),TH5103
+G0630,Li,county,amphoe,G0045,,pending,,,,,Amphoe (ลี้),TH5104
+G0631,Thung Hua Chang,county,amphoe,G0045,,pending,,,,,Amphoe (ทุ่งหัวช้าง),TH5105
+G0632,Pa Sang,county,amphoe,G0045,,pending,,,,,Amphoe (ป่าซาง),TH5106
+G0633,Ban Thi,county,amphoe,G0045,,pending,,,,,Amphoe (บ้านธิ),TH5107
+G0634,Wiang Nong Long,county,amphoe,G0045,,pending,,,,,Amphoe (เวียงหนองล่อง),TH5108
+G0635,Mueang Lampang,county,amphoe,G0046,,pending,,,,,Amphoe (เมืองลำปาง),TH5201
+G0636,Mae Mo,county,amphoe,G0046,,pending,,,,,Amphoe (แม่เมาะ),TH5202
+G0637,Ko Kha,county,amphoe,G0046,,pending,,,,,Amphoe (เกาะคา),TH5203
+G0638,Soem Ngam,county,amphoe,G0046,,pending,,,,,Amphoe (เสริมงาม),TH5204
+G0639,Ngao,county,amphoe,G0046,,pending,,,,,Amphoe (งาว),TH5205
+G0640,Chae Hom,county,amphoe,G0046,,pending,,,,,Amphoe (แจ้ห่ม),TH5206
+G0641,Wang Nuea,county,amphoe,G0046,,pending,,,,,Amphoe (วังเหนือ),TH5207
+G0642,Thoen,county,amphoe,G0046,,pending,,,,,Amphoe (เถิน),TH5208
+G0643,Mae Phrik,county,amphoe,G0046,,pending,,,,,Amphoe (แม่พริก),TH5209
+G0644,Mae Tha,county,amphoe,G0046,,pending,,,,,Amphoe (แม่ทะ),TH5210
+G0645,Sop Prap,county,amphoe,G0046,,pending,,,,,Amphoe (สบปราบ),TH5211
+G0646,Hang Chat,county,amphoe,G0046,,pending,,,,,Amphoe (ห้างฉัตร),TH5212
+G0647,Mueang Pan,county,amphoe,G0046,,pending,,,,,Amphoe (เมืองปาน),TH5213
+G0648,Mueang Uttaradit,county,amphoe,G0047,,pending,,,,,Amphoe (เมืองอุตรดิตถ์),TH5301
+G0649,Tron,county,amphoe,G0047,,pending,,,,,Amphoe (ตรอน),TH5302
+G0650,Tha Pla,county,amphoe,G0047,,pending,,,,,Amphoe (ท่าปลา),TH5303
+G0651,Nam Pat,county,amphoe,G0047,,pending,,,,,Amphoe (น้ำปาด),TH5304
+G0652,Fak Tha,county,amphoe,G0047,,pending,,,,,Amphoe (ฟากท่า),TH5305
+G0653,Ban Khok,county,amphoe,G0047,,pending,,,,,Amphoe (บ้านโคก),TH5306
+G0654,Phichai,county,amphoe,G0047,,pending,,,,,Amphoe (พิชัย),TH5307
+G0655,Laplae,county,amphoe,G0047,,pending,,,,,Amphoe (ลับแล),TH5308
+G0656,Thong Saen Khan,county,amphoe,G0047,,pending,,,,,Amphoe (ทองแสนขัน),TH5309
+G0657,Mueang Phrae,county,amphoe,G0048,,pending,,,,,Amphoe (เมืองแพร่),TH5401
+G0658,Rong Kwang,county,amphoe,G0048,,pending,,,,,Amphoe (ร้องกวาง),TH5402
+G0659,Long,county,amphoe,G0048,,pending,,,,,Amphoe (ลอง),TH5403
+G0660,Sung Men,county,amphoe,G0048,,pending,,,,,Amphoe (สูงเม่น),TH5404
+G0661,Den Chai,county,amphoe,G0048,,pending,,,,,Amphoe (เด่นชัย),TH5405
+G0662,Song,county,amphoe,G0048,,pending,,,,,Amphoe (สอง),TH5406
+G0663,Wang Chin,county,amphoe,G0048,,pending,,,,,Amphoe (วังชิ้น),TH5407
+G0664,Nong Muang Khai,county,amphoe,G0048,,pending,,,,,Amphoe (หนองม่วงไข่),TH5408
+G0665,Mueang Nan,county,amphoe,G0049,,pending,,,,,Amphoe (เมืองน่าน),TH5501
+G0666,Mae Charim,county,amphoe,G0049,,pending,,,,,Amphoe (แม่จริม),TH5502
+G0667,Ban Luang,county,amphoe,G0049,,pending,,,,,Amphoe (บ้านหลวง),TH5503
+G0668,Na Noi,county,amphoe,G0049,,pending,,,,,Amphoe (นาน้อย),TH5504
+G0669,Pua,county,amphoe,G0049,,pending,,,,,Amphoe (ปัว),TH5505
+G0670,Tha Wang Pha,county,amphoe,G0049,,pending,,,,,Amphoe (ท่าวังผา),TH5506
+G0671,Wiang Sa,county,amphoe,G0049,,pending,,,,,Amphoe (เวียงสา),TH5507
+G0672,Thung Chang,county,amphoe,G0049,,pending,,,,,Amphoe (ทุ่งช้าง),TH5508
+G0673,Chiang Klang,county,amphoe,G0049,,pending,,,,,Amphoe (เชียงกลาง),TH5509
+G0674,Na Muen,county,amphoe,G0049,,pending,,,,,Amphoe (นาหมื่น),TH5510
+G0675,Santi Suk,county,amphoe,G0049,,pending,,,,,Amphoe (สันติสุข),TH5511
+G0676,Bo Kluea,county,amphoe,G0049,,pending,,,,,Amphoe (บ่อเกลือ),TH5512
+G0677,Song Khwae,county,amphoe,G0049,,pending,,,,,Amphoe (สองแคว),TH5513
+G0678,Phu Phiang,county,amphoe,G0049,,pending,,,,,Amphoe (ภูเพียง),TH5514
+G0679,Chaloem Phra Kiat,county,amphoe,G0049,,pending,,,,,Amphoe (เฉลิมพระเกียรติ),TH5515
+G0680,Mueang Phayao,county,amphoe,G0050,,pending,,,,,Amphoe (เมืองพะเยา),TH5601
+G0681,Chun,county,amphoe,G0050,,pending,,,,,Amphoe (จุน),TH5602
+G0682,Chiang Kham,county,amphoe,G0050,,pending,,,,,Amphoe (เชียงคำ),TH5603
+G0683,Chiang Muan,county,amphoe,G0050,,pending,,,,,Amphoe (เชียงม่วน),TH5604
+G0684,Dok Khamtai,county,amphoe,G0050,,pending,,,,,Amphoe (ดอกคำใต้),TH5605
+G0685,Pong,county,amphoe,G0050,,pending,,,,,Amphoe (ปง),TH5606
+G0686,Mae Chai,county,amphoe,G0050,,pending,,,,,Amphoe (แม่ใจ),TH5607
+G0687,Phu Sang,county,amphoe,G0050,,pending,,,,,Amphoe (ภูซาง),TH5608
+G0688,Phu Kamyao,county,amphoe,G0050,,pending,,,,,Amphoe (ภูกามยาว),TH5609
+G0689,Mueang Chiang Rai,county,amphoe,G0051,,pending,,,,,Amphoe (เมืองเชียงราย),TH5701
+G0690,Wiang Chai,county,amphoe,G0051,,pending,,,,,Amphoe (เวียงชัย),TH5702
+G0691,Chiang Khong,county,amphoe,G0051,,pending,,,,,Amphoe (เชียงของ),TH5703
+G0692,Thoeng,county,amphoe,G0051,,pending,,,,,Amphoe (เทิง),TH5704
+G0693,Phan,county,amphoe,G0051,,pending,,,,,Amphoe (พาน),TH5705
+G0694,Pa Daet,county,amphoe,G0051,,pending,,,,,Amphoe (ป่าแดด),TH5706
+G0695,Mae Chan,county,amphoe,G0051,,pending,,,,,Amphoe (แม่จัน),TH5707
+G0696,Chiang Saen,county,amphoe,G0051,,pending,,,,,Amphoe (เชียงแสน),TH5708
+G0697,Mae Sai,county,amphoe,G0051,,pending,,,,,Amphoe (แม่สาย),TH5709
+G0698,Mae Suai,county,amphoe,G0051,,pending,,,,,Amphoe (แม่สรวย),TH5710
+G0699,Wiang Pa Pao,county,amphoe,G0051,,pending,,,,,Amphoe (เวียงป่าเป้า),TH5711
+G0700,Phaya Mengrai,county,amphoe,G0051,,pending,,,,,Amphoe (พญาเม็งราย),TH5712
+G0701,Wiang Kaen,county,amphoe,G0051,,pending,,,,,Amphoe (เวียงแก่น),TH5713
+G0702,Khun Tan,county,amphoe,G0051,,pending,,,,,Amphoe (ขุนตาล),TH5714
+G0703,Mae Fa Luang,county,amphoe,G0051,,pending,,,,,Amphoe (แม่ฟ้าหลวง),TH5715
+G0704,Mae Lao,county,amphoe,G0051,,pending,,,,,Amphoe (แม่ลาว),TH5716
+G0705,Wiang Chiang Rung,county,amphoe,G0051,,pending,,,,,Amphoe (เวียงเชียงรุ้ง),TH5717
+G0706,Doi Luang,county,amphoe,G0051,,pending,,,,,Amphoe (ดอยหลวง),TH5718
+G0707,Mueang Mae Hong Son,county,amphoe,G0052,,pending,,,,,Amphoe (เมืองแม่ฮ่องสอน),TH5801
+G0708,Khun Yuam,county,amphoe,G0052,,pending,,,,,Amphoe (ขุนยวม),TH5802
+G0709,Pai,county,amphoe,G0052,,pending,,,,,Amphoe (ปาย),TH5803
+G0710,Mae Sariang,county,amphoe,G0052,,pending,,,,,Amphoe (แม่สะเรียง),TH5804
+G0711,Mae La Noi,county,amphoe,G0052,,pending,,,,,Amphoe (แม่ลาน้อย),TH5805
+G0712,Sop Moei,county,amphoe,G0052,,pending,,,,,Amphoe (สบเมย),TH5806
+G0713,Pang Mapha,county,amphoe,G0052,,pending,,,,,Amphoe (ปางมะผ้า),TH5807
+G0714,Mueang Nakhon Sawan,county,amphoe,G0053,,pending,,,,,Amphoe (เมืองนครสวรรค์),TH6001
+G0715,Krok Phra,county,amphoe,G0053,,pending,,,,,Amphoe (โกรกพระ),TH6002
+G0716,Chum Saeng,county,amphoe,G0053,,pending,,,,,Amphoe (ชุมแสง),TH6003
+G0717,Nong Bua,county,amphoe,G0053,,pending,,,,,Amphoe (หนองบัว),TH6004
+G0718,Banphot Phisai,county,amphoe,G0053,,pending,,,,,Amphoe (บรรพตพิสัย),TH6005
+G0719,Kao Liao,county,amphoe,G0053,,pending,,,,,Amphoe (เก้าเลี้ยว),TH6006
+G0720,Takhli,county,amphoe,G0053,,pending,,,,,Amphoe (ตาคลี),TH6007
+G0721,Tha Tako,county,amphoe,G0053,,pending,,,,,Amphoe (ท่าตะโก),TH6008
+G0722,Phaisali,county,amphoe,G0053,,pending,,,,,Amphoe (ไพศาลี),TH6009
+G0723,Phayuha Khiri,county,amphoe,G0053,,pending,,,,,Amphoe (พยุหะคีรี),TH6010
+G0724,Lat Yao,county,amphoe,G0053,,pending,,,,,Amphoe (ลาดยาว),TH6011
+G0725,Tak Fa,county,amphoe,G0053,,pending,,,,,Amphoe (ตากฟ้า),TH6012
+G0726,Mae Wong,county,amphoe,G0053,,pending,,,,,Amphoe (แม่วงก์),TH6013
+G0727,Mae Poen,county,amphoe,G0053,,pending,,,,,Amphoe (แม่เปิน),TH6014
+G0728,Chum Ta Bong,county,amphoe,G0053,,pending,,,,,Amphoe (ชุมตาบง),TH6015
+G0729,Mueang Uthai Thani,county,amphoe,G0054,,pending,,,,,Amphoe (เมืองอุทัยธานี),TH6101
+G0730,Thap Than,county,amphoe,G0054,,pending,,,,,Amphoe (ทัพทัน),TH6102
+G0731,Sawang Arom,county,amphoe,G0054,,pending,,,,,Amphoe (สว่างอารมณ์),TH6103
+G0732,Nong Chang,county,amphoe,G0054,,pending,,,,,Amphoe (หนองฉาง),TH6104
+G0733,Nong Khayang,county,amphoe,G0054,,pending,,,,,Amphoe (หนองขาหย่าง),TH6105
+G0734,Ban Rai,county,amphoe,G0054,,pending,,,,,Amphoe (บ้านไร่),TH6106
+G0735,Lan Sak,county,amphoe,G0054,,pending,,,,,Amphoe (ลานสัก),TH6107
+G0736,Huai Khot,county,amphoe,G0054,,pending,,,,,Amphoe (ห้วยคต),TH6108
+G0737,Mueang Kamphaeng Phet,county,amphoe,G0055,,pending,,,,,Amphoe (เมืองกำแพงเพชร),TH6201
+G0738,Sai Ngam,county,amphoe,G0055,,pending,,,,,Amphoe (ไทรงาม),TH6202
+G0739,Khlong Lan,county,amphoe,G0055,,pending,,,,,Amphoe (คลองลาน),TH6203
+G0740,Khanu Woralaksaburi,county,amphoe,G0055,,pending,,,,,Amphoe (ขาณุวรลักษบุรี),TH6204
+G0741,Khlong Khlung,county,amphoe,G0055,,pending,,,,,Amphoe (คลองขลุง),TH6205
+G0742,Phran Kratai,county,amphoe,G0055,,pending,,,,,Amphoe (พรานกระต่าย),TH6206
+G0743,Lan Krabue,county,amphoe,G0055,,pending,,,,,Amphoe (ลานกระบือ),TH6207
+G0744,Sai Thong Watthana,county,amphoe,G0055,,pending,,,,,Amphoe (ทรายทองวัฒนา),TH6208
+G0745,Pang Sila Thong,county,amphoe,G0055,,pending,,,,,Amphoe (ปางศิลาทอง),TH6209
+G0746,Bueng Samakkhi,county,amphoe,G0055,,pending,,,,,Amphoe (บึงสามัคคี),TH6210
+G0747,Kosamphi Nakhon,county,amphoe,G0055,,pending,,,,,Amphoe (โกสัมพีนคร),TH6211
+G0748,Mueang Tak,county,amphoe,G0056,,pending,,,,,Amphoe (เมืองตาก),TH6301
+G0749,Ban Tak,county,amphoe,G0056,,pending,,,,,Amphoe (บ้านตาก),TH6302
+G0750,Sam Ngao,county,amphoe,G0056,,pending,,,,,Amphoe (สามเงา),TH6303
+G0751,Mae Ramat,county,amphoe,G0056,,pending,,,,,Amphoe (แม่ระมาด),TH6304
+G0752,Tha Song Yang,county,amphoe,G0056,,pending,,,,,Amphoe (ท่าสองยาง),TH6305
+G0753,Mae Sot,county,amphoe,G0056,,pending,,,,,Amphoe (แม่สอด),TH6306
+G0754,Phop Phra,county,amphoe,G0056,,pending,,,,,Amphoe (พบพระ),TH6307
+G0755,Umphang,county,amphoe,G0056,,pending,,,,,Amphoe (อุ้มผาง),TH6308
+G0756,Wang Chao,county,amphoe,G0056,,pending,,,,,Amphoe (วังเจ้า),TH6309
+G0757,Mueang Sukhothai,county,amphoe,G0057,,pending,,,,,Amphoe (เมืองสุโขทัย),TH6401
+G0758,Ban Dan Lan Hoi,county,amphoe,G0057,,pending,,,,,Amphoe (บ้านด่านลานหอย),TH6402
+G0759,Khiri Mat,county,amphoe,G0057,,pending,,,,,Amphoe (คีรีมาศ),TH6403
+G0760,Kong Krailat,county,amphoe,G0057,,pending,,,,,Amphoe (กงไกรลาศ),TH6404
+G0761,Si Satchanalai,county,amphoe,G0057,,pending,,,,,Amphoe (ศรีสัชนาลัย),TH6405
+G0762,Si Samrong,county,amphoe,G0057,,pending,,,,,Amphoe (ศรีสำโรง),TH6406
+G0763,Sawankhalok,county,amphoe,G0057,,pending,,,,,Amphoe (สวรรคโลก),TH6407
+G0764,Si Nakhon,county,amphoe,G0057,,pending,,,,,Amphoe (ศรีนคร),TH6408
+G0765,Thung Saliam,county,amphoe,G0057,,pending,,,,,Amphoe (ทุ่งเสลี่ยม),TH6409
+G0766,Mueang Phitsanulok,county,amphoe,G0058,,pending,,,,,Amphoe (เมืองพิษณุโลก),TH6501
+G0767,Nakhon Thai,county,amphoe,G0058,,pending,,,,,Amphoe (นครไทย),TH6502
+G0768,Chat Trakan,county,amphoe,G0058,,pending,,,,,Amphoe (ชาติตระการ),TH6503
+G0769,Bang Rakam,county,amphoe,G0058,,pending,,,,,Amphoe (บางระกำ),TH6504
+G0770,Bang Krathum,county,amphoe,G0058,,pending,,,,,Amphoe (บางกระทุ่ม),TH6505
+G0771,Phrom Phiram,county,amphoe,G0058,,pending,,,,,Amphoe (พรหมพิราม),TH6506
+G0772,Wat Bot,county,amphoe,G0058,,pending,,,,,Amphoe (วัดโบสถ์),TH6507
+G0773,Wang Thong,county,amphoe,G0058,,pending,,,,,Amphoe (วังทอง),TH6508
+G0774,Noen Maprang,county,amphoe,G0058,,pending,,,,,Amphoe (เนินมะปราง),TH6509
+G0775,Mueang Phichit,county,amphoe,G0059,,pending,,,,,Amphoe (เมืองพิจิตร),TH6601
+G0776,Wang Sai Phun,county,amphoe,G0059,,pending,,,,,Amphoe (วังทรายพูน),TH6602
+G0777,Pho Prathap Chang,county,amphoe,G0059,,pending,,,,,Amphoe (โพธิ์ประทับช้าง),TH6603
+G0778,Taphan Hin,county,amphoe,G0059,,pending,,,,,Amphoe (ตะพานหิน),TH6604
+G0779,Bang Mun Nak,county,amphoe,G0059,,pending,,,,,Amphoe (บางมูลนาก),TH6605
+G0780,Pho Thale,county,amphoe,G0059,,pending,,,,,Amphoe (โพทะเล),TH6606
+G0781,Sam Ngam,county,amphoe,G0059,,pending,,,,,Amphoe (สามง่าม),TH6607
+G0782,Tap Khlo,county,amphoe,G0059,,pending,,,,,Amphoe (ทับคล้อ),TH6608
+G0783,Sak Lek,county,amphoe,G0059,,pending,,,,,Amphoe (สากเหล็ก),TH6609
+G0784,Bueng Na Rang,county,amphoe,G0059,,pending,,,,,Amphoe (บึงนาราง),TH6610
+G0785,Dong Charoen,county,amphoe,G0059,,pending,,,,,Amphoe (ดงเจริญ),TH6611
+G0786,Wachirabarami,county,amphoe,G0059,,pending,,,,,Amphoe (วชิรบารมี),TH6612
+G0787,Mueang Phetchabun,county,amphoe,G0060,,pending,,,,,Amphoe (เมืองเพชรบูรณ์),TH6701
+G0788,Chon Daen,county,amphoe,G0060,,pending,,,,,Amphoe (ชนแดน),TH6702
+G0789,Lom Sak,county,amphoe,G0060,,pending,,,,,Amphoe (หล่มสัก),TH6703
+G0790,Lom Kao,county,amphoe,G0060,,pending,,,,,Amphoe (หล่มเก่า),TH6704
+G0791,Wichian Buri,county,amphoe,G0060,,pending,,,,,Amphoe (วิเชียรบุรี),TH6705
+G0792,Si Thep,county,amphoe,G0060,,pending,,,,,Amphoe (ศรีเทพ),TH6706
+G0793,Nong Phai,county,amphoe,G0060,,pending,,,,,Amphoe (หนองไผ่),TH6707
+G0794,Bueng Sam Phan,county,amphoe,G0060,,pending,,,,,Amphoe (บึงสามพัน),TH6708
+G0795,Nam Nao,county,amphoe,G0060,,pending,,,,,Amphoe (น้ำหนาว),TH6709
+G0796,Wang Pong,county,amphoe,G0060,,pending,,,,,Amphoe (วังโป่ง),TH6710
+G0797,Khao Kho,county,amphoe,G0060,,pending,,,,,Amphoe (เขาค้อ),TH6711
+G0798,Mueang Ratchaburi,county,amphoe,G0061,,pending,,,,,Amphoe (เมืองราชบุรี),TH7001
+G0799,Chom Bueng,county,amphoe,G0061,,pending,,,,,Amphoe (จอมบึง),TH7002
+G0800,Suan Phueng,county,amphoe,G0061,,pending,,,,,Amphoe (สวนผึ้ง),TH7003
+G0801,Damnoen Saduak,county,amphoe,G0061,,pending,,,,,Amphoe (ดำเนินสะดวก),TH7004
+G0802,Ban Pong,county,amphoe,G0061,,pending,,,,,Amphoe (บ้านโป่ง),TH7005
+G0803,Bang Phae,county,amphoe,G0061,,pending,,,,,Amphoe (บางแพ),TH7006
+G0804,Photharam,county,amphoe,G0061,,pending,,,,,Amphoe (โพธาราม),TH7007
+G0805,Pak Tho,county,amphoe,G0061,,pending,,,,,Amphoe (ปากท่อ),TH7008
+G0806,Wat Phleng,county,amphoe,G0061,,pending,,,,,Amphoe (วัดเพลง),TH7009
+G0807,Ban Kha,county,amphoe,G0061,,pending,,,,,Amphoe (บ้านคา),TH7010
+G0808,Mueang Kanchanaburi,county,amphoe,G0062,,pending,,,,,Amphoe (เมืองกาญจนบุรี),TH7101
+G0809,Sai Yok,county,amphoe,G0062,,pending,,,,,Amphoe (ไทรโยค),TH7102
+G0810,Bo Phloi,county,amphoe,G0062,,pending,,,,,Amphoe (บ่อพลอย),TH7103
+G0811,Si Sawat,county,amphoe,G0062,,pending,,,,,Amphoe (ศรีสวัสดิ์),TH7104
+G0812,Tha Maka,county,amphoe,G0062,,pending,,,,,Amphoe (ท่ามะกา),TH7105
+G0813,Tha Muang,county,amphoe,G0062,,pending,,,,,Amphoe (ท่าม่วง),TH7106
+G0814,Thong Pha Phum,county,amphoe,G0062,,pending,,,,,Amphoe (ทองผาภูมิ),TH7107
+G0815,Sangkhla Buri,county,amphoe,G0062,,pending,,,,,Amphoe (สังขละบุรี),TH7108
+G0816,Phanom Thuan,county,amphoe,G0062,,pending,,,,,Amphoe (พนมทวน),TH7109
+G0817,Lao Khwan,county,amphoe,G0062,,pending,,,,,Amphoe (เลาขวัญ),TH7110
+G0818,Dan Makham Tia,county,amphoe,G0062,,pending,,,,,Amphoe (ด่านมะขามเตี้ย),TH7111
+G0819,Nong Prue,county,amphoe,G0062,,pending,,,,,Amphoe (หนองปรือ),TH7112
+G0820,Huai Krachao,county,amphoe,G0062,,pending,,,,,Amphoe (ห้วยกระเจา),TH7113
+G0821,Mueang Suphan Buri,county,amphoe,G0063,,pending,,,,,Amphoe (เมืองสุพรรณบุรี),TH7201
+G0822,Doem Bang Nang Buat,county,amphoe,G0063,,pending,,,,,Amphoe (เดิมบางนางบวช),TH7202
+G0823,Dan Chang,county,amphoe,G0063,,pending,,,,,Amphoe (ด่านช้าง),TH7203
+G0824,Bang Pla Ma,county,amphoe,G0063,,pending,,,,,Amphoe (บางปลาม้า),TH7204
+G0825,Si Prachan,county,amphoe,G0063,,pending,,,,,Amphoe (ศรีประจันต์),TH7205
+G0826,Don Chedi,county,amphoe,G0063,,pending,,,,,Amphoe (ดอนเจดีย์),TH7206
+G0827,Song Phi Nong,county,amphoe,G0063,,pending,,,,,Amphoe (สองพี่น้อง),TH7207
+G0828,Sam Chuk,county,amphoe,G0063,,pending,,,,,Amphoe (สามชุก),TH7208
+G0829,U Thong,county,amphoe,G0063,,pending,,,,,Amphoe (อู่ทอง),TH7209
+G0830,Nong Ya Sai,county,amphoe,G0063,,pending,,,,,Amphoe (หนองหญ้าไซ),TH7210
+G0831,Mueang Nakhon Pathom,county,amphoe,G0064,,pending,,,,,Amphoe (เมืองนครปฐม),TH7301
+G0832,Kamphaeng Saen,county,amphoe,G0064,,pending,,,,,Amphoe (กำแพงแสน),TH7302
+G0833,Nakhon Chai Si,county,amphoe,G0064,,pending,,,,,Amphoe (นครชัยศรี),TH7303
+G0834,Don Tum,county,amphoe,G0064,,pending,,,,,Amphoe (ดอนตูม),TH7304
+G0835,Bang Len,county,amphoe,G0064,,pending,,,,,Amphoe (บางเลน),TH7305
+G0836,Sam Phran,county,amphoe,G0064,,pending,,,,,Amphoe (สามพราน),TH7306
+G0837,Phutthamonthon,county,amphoe,G0064,,pending,,,,,Amphoe (พุทธมณฑล),TH7307
+G0838,Mueang Samut Sakhon,county,amphoe,G0065,,pending,,,,,Amphoe (เมืองสมุทรสาคร),TH7401
+G0839,Krathum Baen,county,amphoe,G0065,,pending,,,,,Amphoe (กระทุ่มแบน),TH7402
+G0840,Ban Phaeo,county,amphoe,G0065,,pending,,,,,Amphoe (บ้านแพ้ว),TH7403
+G0841,Mueang Samut Songkhram,county,amphoe,G0066,,pending,,,,,Amphoe (เมืองสมุทรสงคราม),TH7501
+G0842,Bang Khonthi,county,amphoe,G0066,,pending,,,,,Amphoe (บางคนที),TH7502
+G0843,Amphawa,county,amphoe,G0066,,pending,,,,,Amphoe (อัมพวา),TH7503
+G0844,Mueang Phetchaburi,county,amphoe,G0067,,pending,,,,,Amphoe (เมืองเพชรบุรี),TH7601
+G0845,Khao Yoi,county,amphoe,G0067,,pending,,,,,Amphoe (เขาย้อย),TH7602
+G0846,Nong Ya Plong,county,amphoe,G0067,,pending,,,,,Amphoe (หนองหญ้าปล้อง),TH7603
+G0847,Cha-Am,county,amphoe,G0067,,pending,,,,,Amphoe (ชะอำ),TH7604
+G0848,Tha Yang,county,amphoe,G0067,,pending,,,,,Amphoe (ท่ายาง),TH7605
+G0849,Ban Lat,county,amphoe,G0067,,pending,,,,,Amphoe (บ้านลาด),TH7606
+G0850,Ban Laem,county,amphoe,G0067,,pending,,,,,Amphoe (บ้านแหลม),TH7607
+G0851,Kaeng Krachan,county,amphoe,G0067,,pending,,,,,Amphoe (แก่งกระจาน),TH7608
+G0852,Mueang Prachuap Khiri Khan,county,amphoe,G0068,,pending,,,,,Amphoe (เมืองประจวบคีรีขันธ์),TH7701
+G0853,Kui Buri,county,amphoe,G0068,,pending,,,,,Amphoe (กุยบุรี),TH7702
+G0854,Thap Sakae,county,amphoe,G0068,,pending,,,,,Amphoe (ทับสะแก),TH7703
+G0855,Bang Saphan,county,amphoe,G0068,,pending,,,,,Amphoe (บางสะพาน),TH7704
+G0856,Bang Saphan Noi,county,amphoe,G0068,,pending,,,,,Amphoe (บางสะพานน้อย),TH7705
+G0857,Pran Buri,county,amphoe,G0068,,pending,,,,,Amphoe (ปราณบุรี),TH7706
+G0858,Hua Hin,county,amphoe,G0068,,pending,,,,,Amphoe (หัวหิน),TH7707
+G0859,Sam Roi Yot,county,amphoe,G0068,,pending,,,,,Amphoe (สามร้อยยอด),TH7708
+G0860,Mueang Nakhon Si Thammarat,county,amphoe,G0069,,pending,,,,,Amphoe (นครศรีธรรมราช),TH8001
+G0861,Phrom Khiri,county,amphoe,G0069,,pending,,,,,Amphoe (พรหมคีรี),TH8002
+G0862,Lan Saka,county,amphoe,G0069,,pending,,,,,Amphoe (ลานสกา),TH8003
+G0863,Chawang,county,amphoe,G0069,,pending,,,,,Amphoe (ฉวาง),TH8004
+G0864,Phipun,county,amphoe,G0069,,pending,,,,,Amphoe (พิปูน),TH8005
+G0865,Chian Yai,county,amphoe,G0069,,pending,,,,,Amphoe (เชียรใหญ่),TH8006
+G0866,Cha-Uat,county,amphoe,G0069,,pending,,,,,Amphoe (ชะอวด),TH8007
+G0867,Tha Sala,county,amphoe,G0069,,pending,,,,,Amphoe (ท่าศาลา),TH8008
+G0868,Thung Song,county,amphoe,G0069,,pending,,,,,Amphoe (ทุ่งสง),TH8009
+G0869,Na Bon,county,amphoe,G0069,,pending,,,,,Amphoe (นาบอน),TH8010
+G0870,Thung Yai,county,amphoe,G0069,,pending,,,,,Amphoe (ทุ่งใหญ่),TH8011
+G0871,Pak Phanang,county,amphoe,G0069,,pending,,,,,Amphoe (ปากพนัง),TH8012
+G0872,Ron Phibun,county,amphoe,G0069,,pending,,,,,Amphoe (ร่อนพิบูลย์),TH8013
+G0873,Sichon,county,amphoe,G0069,,pending,,,,,Amphoe (สิชล),TH8014
+G0874,Khanom,county,amphoe,G0069,,pending,,,,,Amphoe (ขนอม),TH8015
+G0875,Hua Sai,county,amphoe,G0069,,pending,,,,,Amphoe (หัวไทร),TH8016
+G0876,Bang Khan,county,amphoe,G0069,,pending,,,,,Amphoe (บางขัน),TH8017
+G0877,Tham Phannara,county,amphoe,G0069,,pending,,,,,Amphoe (ถ้ำพรรณรา),TH8018
+G0878,Chulabhorn,county,amphoe,G0069,,pending,,,,,Amphoe (จุฬาภรณ์),TH8019
+G0879,Phra Phrom,county,amphoe,G0069,,pending,,,,,Amphoe (พระพรหม),TH8020
+G0880,Nopphitam,county,amphoe,G0069,,pending,,,,,Amphoe (นบพิตำ),TH8021
+G0881,Chang Klang,county,amphoe,G0069,,pending,,,,,Amphoe (ช้างกลาง),TH8022
+G0882,Chaloem Phra Kiat,county,amphoe,G0069,,pending,,,,,Amphoe (เฉลิมพระเกียรติ),TH8023
+G0883,Mueang Krabi,county,amphoe,G0070,,pending,,,,,Amphoe (เมืองกระบี่),TH8101
+G0884,Khao Phanom,county,amphoe,G0070,,pending,,,,,Amphoe (เขาพนม),TH8102
+G0885,Ko Lanta,county,amphoe,G0070,,pending,,,,,Amphoe (เกาะลันตา),TH8103
+G0886,Khlong Thom,county,amphoe,G0070,,pending,,,,,Amphoe (คลองท่อม),TH8104
+G0887,Ao Luek,county,amphoe,G0070,,pending,,,,,Amphoe (อ่าวลึก),TH8105
+G0888,Plai Phraya,county,amphoe,G0070,,pending,,,,,Amphoe (ปลายพระยา),TH8106
+G0889,Lam Thap,county,amphoe,G0070,,pending,,,,,Amphoe (ลำทับ),TH8107
+G0890,Nuea Khlong,county,amphoe,G0070,,pending,,,,,Amphoe (เหนือคลอง),TH8108
+G0891,Mueang Phangnga,county,amphoe,G0071,,pending,,,,,Amphoe (เมืองพังงา),TH8201
+G0892,Ko Yao,county,amphoe,G0071,,pending,,,,,Amphoe (เกาะยาว),TH8202
+G0893,Kapong,county,amphoe,G0071,,pending,,,,,Amphoe (กะปง),TH8203
+G0894,Takua Thung,county,amphoe,G0071,,pending,,,,,Amphoe (ตะกั่วทุ่ง),TH8204
+G0895,Takua Pa,county,amphoe,G0071,,pending,,,,,Amphoe (ตะกั่วป่า),TH8205
+G0896,Khura Buri,county,amphoe,G0071,,pending,,,,,Amphoe (คุระบุรี),TH8206
+G0897,Thap Put,county,amphoe,G0071,,pending,,,,,Amphoe (ทับปุด),TH8207
+G0898,Thai Mueang,county,amphoe,G0071,,pending,,,,,Amphoe (ท้ายเหมือง),TH8208
+G0899,Mueang Phuket,county,amphoe,G0072,,pending,,,,,Amphoe (เมืองภูเก็ต),TH8301
+G0900,Kathu,county,amphoe,G0072,,pending,,,,,Amphoe (กะทู้),TH8302
+G0901,Thalang,county,amphoe,G0072,,pending,,,,,Amphoe (ถลาง),TH8303
+G0902,Mueang Surat Thani,county,amphoe,G0073,,pending,,,,,Amphoe (เมืองสุราษฎร์ธานี),TH8401
+G0903,Kanchanadit,county,amphoe,G0073,,pending,,,,,Amphoe (กาญจนดิษฐ์),TH8402
+G0904,Don Sak,county,amphoe,G0073,,pending,,,,,Amphoe (ดอนสัก),TH8403
+G0905,Ko Samui,county,amphoe,G0073,,pending,,,,,Amphoe (เกาะสมุย),TH8404
+G0906,Ko Pha-Ngan,county,amphoe,G0073,,pending,,,,,Amphoe (เกาะพะงัน),TH8405
+G0907,Chaiya,county,amphoe,G0073,,pending,,,,,Amphoe (ไชยา),TH8406
+G0908,Tha Chana,county,amphoe,G0073,,pending,,,,,Amphoe (ท่าชนะ),TH8407
+G0909,Khiri Rat Nikhom,county,amphoe,G0073,,pending,,,,,Amphoe (คีรีรัฐนิคม),TH8408
+G0910,Ban Ta Khun,county,amphoe,G0073,,pending,,,,,Amphoe (บ้านตาขุน),TH8409
+G0911,Phanom,county,amphoe,G0073,,pending,,,,,Amphoe (พนม),TH8410
+G0912,Tha Chang,county,amphoe,G0073,,pending,,,,,Amphoe (ท่าฉาง),TH8411
+G0913,Ban Na San,county,amphoe,G0073,,pending,,,,,Amphoe (บ้านนาสาร),TH8412
+G0914,Ban Na Doem,county,amphoe,G0073,,pending,,,,,Amphoe (บ้านนาเดิม),TH8413
+G0915,Khian Sa,county,amphoe,G0073,,pending,,,,,Amphoe (เคียนซา),TH8414
+G0916,Wiang Sa,county,amphoe,G0073,,pending,,,,,Amphoe (เวียงสระ),TH8415
+G0917,Phrasaeng,county,amphoe,G0073,,pending,,,,,Amphoe (พระแสง),TH8416
+G0918,Phunphin,county,amphoe,G0073,,pending,,,,,Amphoe (พุนพิน),TH8417
+G0919,Chai Buri,county,amphoe,G0073,,pending,,,,,Amphoe (ชัยบุรี),TH8418
+G0920,Vibhavadi,county,amphoe,G0073,,pending,,,,,Amphoe (วิภาวดี),TH8419
+G0921,Mueang Ranong,county,amphoe,G0074,,pending,,,,,Amphoe (เมืองระนอง),TH8501
+G0922,La-Un,county,amphoe,G0074,,pending,,,,,Amphoe (ละอุ่น),TH8502
+G0923,Kapoe,county,amphoe,G0074,,pending,,,,,Amphoe (กะเปอร์),TH8503
+G0924,Kra Buri,county,amphoe,G0074,,pending,,,,,Amphoe (กระบุรี),TH8504
+G0925,Suk Samran,county,amphoe,G0074,,pending,,,,,Amphoe (สุขสำราญ),TH8505
+G0926,Mueang Chumphon,county,amphoe,G0075,,pending,,,,,Amphoe (เมืองชุมพร),TH8601
+G0927,Tha Sae,county,amphoe,G0075,,pending,,,,,Amphoe (ท่าแซะ),TH8602
+G0928,Pathio,county,amphoe,G0075,,pending,,,,,Amphoe (ปะทิว),TH8603
+G0929,Lang Suan,county,amphoe,G0075,,pending,,,,,Amphoe (หลังสวน),TH8604
+G0930,Lamae,county,amphoe,G0075,,pending,,,,,Amphoe (ละแม),TH8605
+G0931,Phato,county,amphoe,G0075,,pending,,,,,Amphoe (พะโต๊ะ),TH8606
+G0932,Sawi,county,amphoe,G0075,,pending,,,,,Amphoe (สวี),TH8607
+G0933,Thung Tako,county,amphoe,G0075,,pending,,,,,Amphoe (ทุ่งตะโก),TH8608
+G0934,Mueang Songkhla,county,amphoe,G0076,,pending,,,,,Amphoe (เมืองสงขลา),TH9001
+G0935,Sathing Phra,county,amphoe,G0076,,pending,,,,,Amphoe (สทิงพระ),TH9002
+G0936,Chana,county,amphoe,G0076,,pending,,,,,Amphoe (จะนะ),TH9003
+G0937,Na Thawi,county,amphoe,G0076,,pending,,,,,Amphoe (นาทวี),TH9004
+G0938,Thepha,county,amphoe,G0076,,pending,,,,,Amphoe (เทพา),TH9005
+G0939,Saba Yoi,county,amphoe,G0076,,pending,,,,,Amphoe (สะบ้าย้อย),TH9006
+G0940,Ranot,county,amphoe,G0076,,pending,,,,,Amphoe (ระโนด),TH9007
+G0941,Krasae Sin,county,amphoe,G0076,,pending,,,,,Amphoe (กระแสสินธุ์),TH9008
+G0942,Rattaphum,county,amphoe,G0076,,pending,,,,,Amphoe (รัตภูมิ),TH9009
+G0943,Sadao,county,amphoe,G0076,,pending,,,,,Amphoe (สะเดา),TH9010
+G0944,Hat Yai,county,amphoe,G0076,,pending,,,,,Amphoe (หาดใหญ่),TH9011
+G0945,Na Mom,county,amphoe,G0076,,pending,,,,,Amphoe (นาหม่อม),TH9012
+G0946,Khuan Niang,county,amphoe,G0076,,pending,,,,,Amphoe (ควนเนียง),TH9013
+G0947,Bang Klam,county,amphoe,G0076,,pending,,,,,Amphoe (บางกล่ำ),TH9014
+G0948,Singhanakhon,county,amphoe,G0076,,pending,,,,,Amphoe (สิงหนคร),TH9015
+G0949,Khlong Hoi Khong,county,amphoe,G0076,,pending,,,,,Amphoe (คลองหอยโข่ง),TH9016
+G0950,Mueang Satun,county,amphoe,G0077,,pending,,,,,Amphoe (เมืองสตูล),TH9101
+G0951,Khuan Don,county,amphoe,G0077,,pending,,,,,Amphoe (ควนโดน),TH9102
+G0952,Khuan Kalong,county,amphoe,G0077,,pending,,,,,Amphoe (ควนกาหลง),TH9103
+G0953,Tha Phae,county,amphoe,G0077,,pending,,,,,Amphoe (ท่าแพ),TH9104
+G0954,La-Ngu,county,amphoe,G0077,,pending,,,,,Amphoe (ละงู),TH9105
+G0955,Thung Wa,county,amphoe,G0077,,pending,,,,,Amphoe (ทุ่งหว้า),TH9106
+G0956,Manang,county,amphoe,G0077,,pending,,,,,Amphoe (มะนัง),TH9107
+G0957,Mueang Trang,county,amphoe,G0078,,pending,,,,,Amphoe (เมืองตรัง),TH9201
+G0958,Kantang,county,amphoe,G0078,,pending,,,,,Amphoe (กันตัง),TH9202
+G0959,Yan Ta Khao,county,amphoe,G0078,,pending,,,,,Amphoe (ย่านตาขาว),TH9203
+G0960,Palian,county,amphoe,G0078,,pending,,,,,Amphoe (ปะเหลียน),TH9204
+G0961,Sikao,county,amphoe,G0078,,pending,,,,,Amphoe (สิเกา),TH9205
+G0962,Huai Yot,county,amphoe,G0078,,pending,,,,,Amphoe (ห้วยยอด),TH9206
+G0963,Wang Wiset,county,amphoe,G0078,,pending,,,,,Amphoe (วังวิเศษ),TH9207
+G0964,Na Yong,county,amphoe,G0078,,pending,,,,,Amphoe (นาโยง),TH9208
+G0965,Ratsada,county,amphoe,G0078,,pending,,,,,Amphoe (รัษฎา),TH9209
+G0966,Hat Samran,county,amphoe,G0078,,pending,,,,,Amphoe (หาดสำราญ),TH9210
+G0967,Mueang Phatthalung,county,amphoe,G0079,,pending,,,,,Amphoe (เมืองพัทลุง),TH9301
+G0968,Kong Ra,county,amphoe,G0079,,pending,,,,,Amphoe (กงหรา),TH9302
+G0969,Khao Chaison,county,amphoe,G0079,,pending,,,,,Amphoe (เขาชัยสน),TH9303
+G0970,Tamot,county,amphoe,G0079,,pending,,,,,Amphoe (ตะโหมด),TH9304
+G0971,Khuan Khanun,county,amphoe,G0079,,pending,,,,,Amphoe (ควนขนุน),TH9305
+G0972,Pak Phayun,county,amphoe,G0079,,pending,,,,,Amphoe (ปากพะยูน),TH9306
+G0973,Si Banphot,county,amphoe,G0079,,pending,,,,,Amphoe (ศรีบรรพต),TH9307
+G0974,Pa Bon,county,amphoe,G0079,,pending,,,,,Amphoe (ป่าบอน),TH9308
+G0975,Bang Kaeo,county,amphoe,G0079,,pending,,,,,Amphoe (บางแก้ว),TH9309
+G0976,Pa Phayom,county,amphoe,G0079,,pending,,,,,Amphoe (ป่าพะยอม),TH9310
+G0977,Srinagarindra,county,amphoe,G0079,,pending,,,,,Amphoe (ศรีนครินทร์),TH9311
+G0978,Mueang Pattani,county,amphoe,G0080,,pending,,,,,Amphoe (เมืองปัตตานี),TH9401
+G0979,Khok Pho,county,amphoe,G0080,,pending,,,,,Amphoe (โคกโพธิ์),TH9402
+G0980,Nong Chik,county,amphoe,G0080,,pending,,,,,Amphoe (หนองจิก),TH9403
+G0981,Panare,county,amphoe,G0080,,pending,,,,,Amphoe (ปะนาเระ),TH9404
+G0982,Mayo,county,amphoe,G0080,,pending,,,,,Amphoe (มายอ),TH9405
+G0983,Thung Yang Daeng,county,amphoe,G0080,,pending,,,,,Amphoe (ทุ่งยางแดง),TH9406
+G0984,Sai Buri,county,amphoe,G0080,,pending,,,,,Amphoe (สายบุรี),TH9407
+G0985,Mai Kaen,county,amphoe,G0080,,pending,,,,,Amphoe (ไม้แก่น),TH9408
+G0986,Yaring,county,amphoe,G0080,,pending,,,,,Amphoe (ยะหริ่ง),TH9409
+G0987,Yarang,county,amphoe,G0080,,pending,,,,,Amphoe (ยะรัง),TH9410
+G0988,Kapho,county,amphoe,G0080,,pending,,,,,Amphoe (กะพ้อ),TH9411
+G0989,Mae Lan,county,amphoe,G0080,,pending,,,,,Amphoe (แม่ลาน),TH9412
+G0990,Mueang Yala,county,amphoe,G0081,,pending,,,,,Amphoe (เมืองยะลา),TH9501
+G0991,Betong,county,amphoe,G0081,,pending,,,,,Amphoe (เบตง),TH9502
+G0992,Bannang Sata,county,amphoe,G0081,,pending,,,,,Amphoe (บันนังสตา),TH9503
+G0993,Than To,county,amphoe,G0081,,pending,,,,,Amphoe (ธารโต),TH9504
+G0994,Yaha,county,amphoe,G0081,,pending,,,,,Amphoe (ยะหา),TH9505
+G0995,Raman,county,amphoe,G0081,,pending,,,,,Amphoe (รามัน),TH9506
+G0996,Kabang,county,amphoe,G0081,,pending,,,,,Amphoe (กาบัง),TH9507
+G0997,Krong Pinang,county,amphoe,G0081,,pending,,,,,Amphoe (กรงปินัง),TH9508
+G0998,Mueang Narathiwat,county,amphoe,G0082,,pending,,,,,Amphoe (เมืองนราธิวาส),TH9601
+G0999,Tak Bai,county,amphoe,G0082,,pending,,,,,Amphoe (ตากใบ),TH9602
+G1000,Bacho,county,amphoe,G0082,,pending,,,,,Amphoe (บาเจาะ),TH9603
+G1001,Yi-Ngo,county,amphoe,G0082,,pending,,,,,Amphoe (ยี่งอ),TH9604
+G1002,Ra-Ngae,county,amphoe,G0082,,pending,,,,,Amphoe (ระแงะ),TH9605
+G1003,Rueso,county,amphoe,G0082,,pending,,,,,Amphoe (รือเสาะ),TH9606
+G1004,Si Sakhon,county,amphoe,G0082,,pending,,,,,Amphoe (ศรีสาคร),TH9607
+G1005,Waeng,county,amphoe,G0082,,pending,,,,,Amphoe (แว้ง),TH9608
+G1006,Sukhirin,county,amphoe,G0082,,pending,,,,,Amphoe (สุคิริน),TH9609
+G1007,Su-Ngai Kolok,county,amphoe,G0082,,pending,,,,,Amphoe (สุไหงโก-ลก),TH9610
+G1008,Su-Ngai Padi,county,amphoe,G0082,,pending,,,,,Amphoe (สุไหงปาดี),TH9611
+G1009,Chanae,county,amphoe,G0082,,pending,,,,,Amphoe (จะแนะ),TH9612
+G1010,Cho-Airong,county,amphoe,G0082,,pending,,,,,Amphoe (เจาะไอร้อง),TH9613

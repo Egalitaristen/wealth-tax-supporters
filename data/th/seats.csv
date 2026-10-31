@@ -1,0 +1,10 @@
+seat_id,body_id,party,seats,colour,order
+S0001,B0001,Bhumjaithai,192,002b7f,1
+S0002,B0001,People's Party,120,ff7518,2
+S0003,B0001,Pheu Thai,74,da251d,3
+S0004,B0001,Klatham,58,1f6f4a,4
+S0005,B0001,Democrat,21,00a3e0,5
+S0006,B0001,Thai Ruam Palang,6,8d5a97,6
+S0007,B0001,Prachachat,5,a65e2e,7
+S0008,B0001,Palang Pracharath,5,1e3a8a,8
+S0009,B0001,Others,19,888888,9
