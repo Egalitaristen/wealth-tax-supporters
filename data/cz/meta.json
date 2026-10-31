@@ -1,0 +1,23 @@
+{
+  "name": "Czechia",
+  "iso2": "CZ",
+  "lead": "",
+  "status": "in progress",
+  "boundaries": "boundaries.json",
+  "notes": "Depth: seed. Scope: national level across key layers (Poslanecká sněmovna, European Parliament roll calls, parties SOCDEM and Zelení, academic economists, and wealth managers), the 14 kraje (NUTS 3) and 6,258 obce (LAU). First pass R001 (2026-10-31).",
+  "polls": [
+    {
+      "support": 63,
+      "oppose": null,
+      "scope": "Czechia, representative sample",
+      "question": "Introduction of a tax on super-wealth (assets above 111 million CZK at a rate of 3.5%)",
+      "question_original": "Zavedení daně ze superbohatství (tedy majetku nad 111 milionů korun sazbou 3,5 %)",
+      "pollster": "Representative opinion poll",
+      "commissioned_by": "Strana zelených (Green Party)",
+      "fieldwork": "2024-05",
+      "sample": "Representative sample of Czech population",
+      "published": "2024-05-22",
+      "url": "https://www.zeleni.cz/dan-ze-superbohatsvi-by-mohla-prinest-az-58-mld-rocne/"
+    }
+  ]
+}

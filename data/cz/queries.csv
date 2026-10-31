@@ -1,0 +1,44 @@
+query_id,run_id,date,language,query,channel,results_opened,leads_added,note
+Q0001,R001,2026-10-31,cs,"daň ze superbohatství OR ""daň z bohatství"" site:zeleni.cz",party,4,3,Discovered Green Party policy platform and study by Miroslav Palanský
+Q0002,R001,2026-10-31,cs,"site:michalberg.cz ""zdanit superbohatství""",party,2,1,Michal Berg blog post and proposal details
+Q0003,R001,2026-10-31,cs,"daň z majetku nad sto milionů OR ""majetková daň"" ČSSD SOCDEM",party,5,3,SOCDEM election program and Maláčová statements
+Q0004,R001,2026-10-31,cs,"site:denikreferendum.cz ""Vladimír Špidla"" ""majetkových daní""",media,3,1,Vladimír Špidla proposal in Deník Referendum
+Q0005,R001,2026-10-31,en,"site:howtheyvote.eu ""wealth tax"" OR ""own resources"" Czechia",parliament,6,3,"EP roll call votes 155121 and 162327 (Gregorová, Kolaja, Peksa)"
+Q0006,R001,2026-10-31,cs,"site:seznamzpravy.cz ""Josef Středula"" ""zdanění majetku""",trade_union,3,2,ČMKOS and Středula tax policy position
+Q0007,R001,2026-10-31,cs,"""Ilona Švihlíková"" ""majetkové daně""",media,3,1,Švihlíková radio interview on lack of wealth taxes
+Q0008,R001,2026-10-31,cs,"site:archiv.hn.cz ""Mikuláš Splítek"" ""daň z majetku""",business,2,1,Splítek commentary column in Hospodářské noviny
+Q0009,R002,2026-10-31,cs,"""Snížíme zdanění práce"" ""velkého majetku"" site:volim-budoucnost.cz",party,2,1,Budoucnost political movement goals: tax extreme wealth and capital to relieve labor
+Q0010,R002,2026-10-31,cs,"""zdanění finančních spekulací a velkého majetku"" site:jsmelevice.cz",party,2,1,Levice election program: shift taxation from labor to capital and large wealth
+Q0011,R002,2026-10-31,cs,"""Petr Janský"" ""Centrum veřejných financí"" ""majetkové daně""",academic,3,0,Verified Petr Janský recommendations focus on real estate and inheritance transfer taxes
+Q0012,R002,2026-10-31,cs,"""Filip Pertold"" ""daň z bohatství"" OR ""zdanění majetku"" IDEA",academic,3,0,Verified Filip Pertold critique of net wealth tax; recommends income tax progression instead
+Q0013,R002,2026-10-31,cs,"""Kateřina Konečná"" ""majetková daň"" OR ""daň z bohatství"" KSČM Stačilo",party,5,0,"Verified KSČM and Stačilo platform focus on sectoral corporate tax, income progression, and vacant apartments"
+Q0014,R002,2026-10-31,cs,"""Danuše Nerudová"" ""daň z nemovitostí"" OR ""daň z majetku"" NERV",politician,4,0,Verified Danuše Nerudová advocacy relates to real estate property tax (daň z nemovitých věcí)
+Q0015,R003,2026-10-31,cs,"""Gabriela Svárovská"" ""zdanění extrémního bohatství"" OR ""daň z bohatství""",politician,3,1,Discovered sitting MP Gabriela Svárovská CNN Prima News interview supporting wealth tax
+Q0016,R003,2026-10-31,cs,"""Matěj Pomahač"" ""Zelení"" ""111 milionů korun"" ""3,5 procenta""",politician,2,1,Discovered Green Party co-chair Matěj Pomahač commentary in Deník Referendum
+Q0017,R003,2026-10-31,cs,"""Vít Samek"" ČMKOS ""majetková daň"" zemřel",trade_union,2,0,Verified Vít Samek deceased in January 2025; excluded under living figures rule
+Q0018,R003,2026-10-31,cs,"""Robin Maialeh"" ""daň"" OR ""zdanění"" OR ""majetek"" RILSA",academic,4,0,Investigated RILSA wealth inequality studies
+Q0019,R003,2026-10-31,cs,"site:ferovedane.cz ""majetkové daně""",campaign,3,0,Verified Czech civil society campaign uses majetkové daně for real estate and inheritance
+Q0020,R004,2026-10-31,en,"site:howtheyvote.eu ""Maxová"" 155121",parliament,2,0,"Verified EP roll-call 155121: 16 Czech MEPs voted against, 3 Green/EFA Pirates voted for"
+Q0021,R004,2026-10-31,cs,"""Daniel Prokop"" ""daň z bohatství"" OR ""majetková daň""",academic,4,0,"Verified Daniel Prokop (PAQ Research) proposals focus on real estate valuation, closing capital gains exemptions, and inheritance taxes"
+Q0022,R004,2026-10-31,cs,"""Adéla Šípová"" ""daň z bohatství"" OR ""majetková daň""",senate,3,0,Verified Senator Adéla Šípová focuses on income tax progression on high salaries rather than wealth tax
+Q0023,R004,2026-10-31,cs,"""Marek Hilšer"" ""daň z bohatství"" OR ""majetková daň""",senate,3,0,Verified Senator Marek Hilšer proposal focuses on real estate market valuation and removing fund exemptions
+Q0024,R004,2026-10-31,cs,"""Mojmír Hampl"" ""daň z bohatství"" OR ""majetková daň""",academic,3,0,Verified National Budget Council chair Mojmír Hampl explicitly opposes wealth taxes as fiscal illusion
+Q0025,R004,2026-10-31,cs,"""Helena Horská"" ""daň z bohatství"" OR ""majetková daň""",academic,3,0,Verified NERV member Helena Horská supports real estate property taxes and vacant apartment taxes
+Q0026,R005,2026-10-31,cs,"""Evropská občanská iniciativa"" ""daň z bohatství"" OR ""Tax the rich"" Česko",campaign,4,0,"Investigated Czech participation in ECI Tax the Rich (marginal signature count, no prominent sponsors)"
+Q0027,R005,2026-10-31,cs,"""Martin Netolický"" ""daň"" OR ""zdanění"" OR ""majetková daň""",regional,3,0,Verified Pardubice Governor Netolický focuses on RUD revenue sharing and opposing super-gross wage abolition
+Q0028,R005,2026-10-31,cs,"""Tomáš Sedláček"" ""daň z bohatství"" OR ""Piketty""",academic,4,0,Verified Tomáš Sedláček philosophical commentary on capitalism and inequality
+Q0029,R005,2026-10-31,cs,"""Jan Švejnar"" ""daň z bohatství"" OR ""majetková daň""",academic,4,0,Verified Jan Švejnar recommendations focus on immovable property taxes and consumption taxes
+Q0030,R005,2026-10-31,cs,"""Jan Čižinský"" ""daň"" OR ""zdanění"" OR ""majetková daň""",municipal,3,0,Verified Prague municipal leader Čižinský focuses on local fees and social housing
+Q0031,R005,2026-10-31,cs,"site:e15.cz ""Zelená daň ze superbohatství je hloupost""",media,2,0,Identified Ondřej Malý public critique of Strana zelených wealth tax proposal
+Q0032,R006,2026-10-31,cs,"""Ivan Bartoš"" ""daň z bohatství"" OR ""majetková daň"" OR ""zdanění bohatých""",party_leader,4,0,"Verified Ivan Bartoš rejects broad property and wealth taxes, focusing on commercial real estate and loopholes"
+Q0033,R006,2026-10-31,cs,"""Kamila Fialová"" ""daň z bohatství"" OR ""zdanění bohatství"" OR ""daň z majetku""",academic,4,1,Identified AV ČR economist Kamila Fialová endorsing Zucman billionaire minimum wealth tax as relevant for Czechia
+Q0034,R006,2026-10-31,cs,"site:denikalarm.cz ""Kamila Fialová"" ""Vysoká majetková nerovnost""",media,3,1,Retrieved verbatim interview text and Zucman billionaire top-up wealth tax endorsement
+Q0035,R006,2026-10-31,cs,"""Miroslav Singer"" ""daň z bohatství"" OR ""zdanění bohatých"" OR ""majetková daň""",expert,3,0,Documented former ČNB Governor Singer opposition to wealth taxes citing Norwegian capital flight
+Q0036,R006,2026-10-31,cs,"""Jan Bittner"" ""daň z bohatství"" OR ""majetková daň"" OR ""zdanění majetku""",academic,4,0,"Verified Jan Bittner proposals focus on 3rd+ property tax and acquisition tax, excluded under GR1"
+Q0037,R006,2026-10-31,cs,"""Jiří Šteg"" ""daň z bohatství"" OR ""zdanění bohatých"" OR ""majetková daň""",expert,3,0,Verified Jiří Šteg focuses on dividend transfer taxes and corporate anti-avoidance
+Q0038,R007,2026-10-31,cs,"""Bohumír Dufek"" ""daň z bohatství"" OR ""majetková daň"" OR ""zdanění bohatých""",union,4,0,Verified ASO union leader Dufek focuses on corporate dividend outflows and opposing wage tax hikes
+Q0039,R007,2026-10-31,cs,"""Martin Vohánka"" ""daň z bohatství"" OR ""zdanění bohatých"" OR ""majetková daň""",business,4,1,Identified billionaire entrepreneur Martin Vohánka endorsing phased introduction of wealth and capital taxes
+Q0040,R007,2026-10-31,cs,"site:forbes.cz ""Zavírání nůžek, či marxismus? Jak čeští miliardáři vnímají daň pro nejbohatší""",business_media,3,1,Retrieved Forbes survey of Czech billionaires regarding wealth taxation
+Q0041,R007,2026-10-31,cs,"""Petr Borkovec"" ""daň z bohatství"" OR ""zdanění majetku""",business,2,0,Documented Petr Borkovec proposing 2nd+ home real estate tax while explicitly rejecting capital tax
+Q0042,R007,2026-10-31,cs,"""Dušan Kunovský"" ""daň z bohatství""",business,2,0,Documented Central Group owner Dušan Kunovský opposition to wealth tax as Marxist populism
+Q0043,R007,2026-10-31,cs,"""Vlastislav Bříza"" ""majetkové daně"" OR ""dědické daně""",business,2,0,Documented Koh-i-noor owner Vlastislav Bříza opposition citing liquidation of domestic owners

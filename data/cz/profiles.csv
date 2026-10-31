@@ -1,0 +1,67 @@
+profile_id,actor_id,platform,url,source,checked
+P00001,A0001,website,https://www.zeleni.cz,actors.csv website column,2026-10-31
+P00002,A0002,website,https://michalberg.cz,actors.csv website column,2026-10-31
+P00003,A0004,website,https://socdem.cz,actors.csv website column,2026-10-31
+P00004,A0007,website,https://marketagregorova.cz,actors.csv website column,2026-10-31
+P00005,A0008,website,https://kolaja.eu,actors.csv website column,2026-10-31
+P00006,A0009,website,https://mikulas-peksa.eu,actors.csv website column,2026-10-31
+P00008,A0001,x,https://x.com/zeleni_cz,Wikidata Q631218,2026-10-31
+P00009,A0001,bluesky,https://bsky.app/profile/zeleni.cz,Wikidata Q631218,2026-10-31
+P00010,A0001,instagram,https://www.instagram.com/zeleni.cz/,Wikidata Q631218,2026-10-31
+P00011,A0001,facebook,https://www.facebook.com/stranazelenych,Wikidata Q631218,2026-10-31
+P00012,A0001,youtube,https://www.youtube.com/channel/UCtYxnvekc2-3P74TdLx0srQ,Wikidata Q631218,2026-10-31
+P00013,A0001,wikipedia,https://en.wikipedia.org/wiki/Green_Party_%28Czech_Republic%29,Wikidata Q631218,2026-10-31
+P00014,A0002,x,https://x.com/michalberg,Wikidata Q19602406,2026-10-31
+P00015,A0002,facebook,https://www.facebook.com/michal.berg,Wikidata Q19602406,2026-10-31
+P00016,A0002,tiktok,https://www.tiktok.com/@michal_berg,Wikidata Q19602406,2026-10-31
+P00017,A0003,x,https://x.com/nejedlova,Wikidata Q111134649,2026-10-31
+P00018,A0003,instagram,https://www.instagram.com/johanna_neje/,Wikidata Q111134649,2026-10-31
+P00019,A0003,facebook,https://www.facebook.com/johanna.nejedlova,Wikidata Q111134649,2026-10-31
+P00020,A0004,x,https://x.com/CSSD,Wikidata Q341148,2026-10-31
+P00021,A0004,wikipedia,https://en.wikipedia.org/wiki/Social_Democracy_%28Czech_Republic%29,Wikidata Q341148,2026-10-31
+P00022,A0005,website,https://janamalacova.cz,Wikidata Q55594748,2026-10-31
+P00023,A0005,x,https://x.com/jmalacova,Wikidata Q55594748,2026-10-31
+P00024,A0005,instagram,https://www.instagram.com/jana_malacova/,Wikidata Q55594748,2026-10-31
+P00025,A0005,facebook,https://www.facebook.com/JMalacova,Wikidata Q55594748,2026-10-31
+P00026,A0005,wikipedia,https://en.wikipedia.org/wiki/Jana_Mal%C3%A1%C4%8Dov%C3%A1,Wikidata Q55594748,2026-10-31
+P00027,A0006,x,https://x.com/vladimir_spidla,Wikidata Q32777,2026-10-31
+P00028,A0006,facebook,https://www.facebook.com/vladimir.spidla.52,Wikidata Q32777,2026-10-31
+P00029,A0006,wikipedia,https://en.wikipedia.org/wiki/Vladim%C3%ADr_%C5%A0pidla,Wikidata Q32777,2026-10-31
+P00030,A0007,x,https://x.com/MarketkaG,Wikidata Q60552203,2026-10-31
+P00031,A0007,bluesky,https://bsky.app/profile/marketkag.eurosky.social,Wikidata Q60552203,2026-10-31
+P00032,A0007,instagram,https://www.instagram.com/ruzovarebelka/,Wikidata Q60552203,2026-10-31
+P00033,A0007,facebook,https://www.facebook.com/gregorova.marketka,Wikidata Q60552203,2026-10-31
+P00034,A0007,youtube,https://www.youtube.com/channel/UCcf12G_5igxOSZBFSt4eEAQ,Wikidata Q60552203,2026-10-31
+P00035,A0007,mastodon,https://mastodon.pirati.cz/@marketkag,Wikidata Q60552203,2026-10-31
+P00036,A0007,wikipedia,https://en.wikipedia.org/wiki/Mark%C3%A9ta_Gregorov%C3%A1,Wikidata Q60552203,2026-10-31
+P00037,A0008,x,https://x.com/piratkolaja,Wikidata Q1485198,2026-10-31
+P00038,A0008,instagram,https://www.instagram.com/kolajamarcel/,Wikidata Q1485198,2026-10-31
+P00039,A0008,facebook,https://www.facebook.com/PiratKolaja,Wikidata Q1485198,2026-10-31
+P00040,A0008,mastodon,https://mastodon.pirati.cz/@marcel_kolaja,Wikidata Q1485198,2026-10-31
+P00041,A0008,wikipedia,https://en.wikipedia.org/wiki/Marcel_Kolaja,Wikidata Q1485198,2026-10-31
+P00042,A0009,x,https://x.com/vonpecka,Wikidata Q30301690,2026-10-31
+P00043,A0009,instagram,https://www.instagram.com/mikulaspeksa_official/,Wikidata Q30301690,2026-10-31
+P00044,A0009,facebook,https://www.facebook.com/peksamikulas,Wikidata Q30301690,2026-10-31
+P00045,A0009,mastodon,https://mastodon.pirati.cz/@mikulas_peksa,Wikidata Q30301690,2026-10-31
+P00046,A0009,wikipedia,https://en.wikipedia.org/wiki/Mikul%C3%A1%C5%A1_Peksa,Wikidata Q30301690,2026-10-31
+P00057,A0015,website,https://volim-budoucnost.cz,actors.csv website column,2026-10-31
+P00058,A0016,website,https://jsmelevice.cz,actors.csv website column,2026-10-31
+P00059,A0015,x,https://x.com/Budoucnost_cz,Wikidata Q97932831,2026-10-31
+P00060,A0015,instagram,https://www.instagram.com/budoucnostcz/,Wikidata Q97932831,2026-10-31
+P00061,A0015,facebook,https://www.facebook.com/BudoucnostCZ,Wikidata Q97932831,2026-10-31
+P00062,A0015,wikipedia,https://en.wikipedia.org/wiki/Budoucnost,Wikidata Q97932831,2026-10-31
+P00063,A0016,instagram,https://www.instagram.com/jsme_levice/,Wikidata Q1315362,2026-10-31
+P00064,A0016,facebook,https://www.facebook.com/jsmeLevice,Wikidata Q1315362,2026-10-31
+P00065,A0016,youtube,https://www.youtube.com/channel/UC6v-qmxo3QlVzq3mzw62DZg,Wikidata Q1315362,2026-10-31
+P00066,A0016,wikipedia,https://en.wikipedia.org/wiki/The_Left_%28Czech_Republic%29,Wikidata Q1315362,2026-10-31
+P00067,A0017,website,https://www.psp.cz/sqw/detail.sqw?id=7049,actors.csv website column,2026-10-31
+P00068,A0018,website,https://zeleni.cz,actors.csv website column,2026-10-31
+P00069,A0017,instagram,https://www.instagram.com/gabriela_svarovska_zeleni/,Wikidata Q130759141,2026-10-31
+P00070,A0017,facebook,https://www.facebook.com/61568751055028,Wikidata Q130759141,2026-10-31
+P00071,A0017,youtube,https://www.youtube.com/channel/UCA_XGIQyZj64DMVX0YrZs-w,Wikidata Q130759141,2026-10-31
+P00072,A0017,linkedin,https://www.linkedin.com/in/gabriela-svárovská-a967223/,Wikidata Q130759141,2026-10-31
+P00073,A0018,facebook,https://www.facebook.com/61567888000120,Wikidata Q130758616,2026-10-31
+P00074,A0019,website,https://www.soc.cas.cz/lide/kamila-fialova,actors.csv website column,2026-10-31
+P00075,A0020,website,https://www.eurowag.com,actors.csv website column,2026-10-31
+P00076,A0020,linkedin,https://www.linkedin.com/in/martinvohanka/,Wikidata Q61740607,2026-10-31
+P00077,A0020,wikipedia,https://en.wikipedia.org/wiki/Martin_Voh%C3%A1nka,Wikidata Q61740607,2026-10-31
