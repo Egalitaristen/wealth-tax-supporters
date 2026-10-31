@@ -545,9 +545,17 @@ def _attr(s):
     return (s or "").replace("&", "&amp;").replace('"', "&quot;").replace("<", "&lt;")
 
 
+PRELOAD_SLUGS = set()
+
+
 def page_html(base, title, desc, path, image, alt):
     """The site page with this page's meta tags, so link previews show the right title and image."""
     h = base
+    m = re.match(r"/([a-z][a-z0-9-]*)(?:/|$)", path)
+    if m and m.group(1) in PRELOAD_SLUGS:  # a country page needs its own data file at once
+        v = re.search(r'name="data-version" content="(\w+)"', h)
+        tag = '<link rel="preload" href="/data/%s.json?v=%s" as="fetch" crossorigin>' % (m.group(1), v.group(1) if v else "")
+        h = h.replace("</head>", tag + chr(10) + "</head>", 1)
     h = re.sub(r"<title>.*?</title>", f"<title>{_attr(title)}</title>", h, count=1)
     for prop, val in (("name=\"description\"", desc), ("property=\"og:title\"", title), ("property=\"og:description\"", desc),
                       ("property=\"og:url\"", SITE_URL + path), ("property=\"og:image\"", SITE_URL + image),
@@ -571,6 +579,7 @@ def poll_line(c):
 
 
 def share_pages(out, base, countries, full, unique=None):
+    PRELOAD_SLUGS.update(c["slug"] for c in countries)
     """Writes per-page HTML (and share images when Pillow is installed). Returns the number of pages."""
     try:
         import share_cards as cards
@@ -706,6 +715,8 @@ def main():
     assets = [f for f in SITE.iterdir() if f.is_file() and f.name != "index.html"]
     for f in assets:
         shutil.copy(f, out / f.name)
+    if (SITE / "fonts").is_dir():  # self-hosted fonts
+        shutil.copytree(SITE / "fonts", out / "fonts")
     # A content hash in each asset URL makes updates show at once despite caching.
     html = (SITE / "index.html").read_text(encoding="utf-8")
     for f in assets:
@@ -753,15 +764,19 @@ def main():
     # Anyone with a Wikidata id on more than one register is one person; rows without an id each count once.
     unique = len({r[8] or f"{r[0]}/{r[1]}" for r in index})
     world_resources = load_resources(countries)
-    world = dict(paths=paths, unique_supporters=unique, home={q: next((c["slug"] for c in countries if c["iso2"].upper() == h), "") for q, h in people_home()[0].items()}, countries=countries, bodies=bodies, planned=planned, resources=world_resources, all_countries=sorted(every), built=datetime.date.today().isoformat())
+    world = dict(unique_supporters=unique, home={q: next((c["slug"] for c in countries if c["iso2"].upper() == h), "") for q, h in people_home()[0].items()}, countries=countries, bodies=bodies, planned=planned, resources=world_resources, all_countries=sorted(every), built=datetime.date.today().isoformat())
     json.dump(world, open(out / "data" / "world.json", "w", encoding="utf-8"), separators=(",", ":"), ensure_ascii=False)
+    # The outlines are two thirds of the world file; only the map pages need them, so they load separately.
+    json.dump(dict(paths=paths), open(out / "data" / "map.json", "w", encoding="utf-8"), separators=(",", ":"), ensure_ascii=False)
     json.dump(dict(people=index, places=places), open(out / "data" / "index.json", "w", encoding="utf-8"),
               separators=(",", ":"), ensure_ascii=False)
     # A hash of the data files goes into the page (meta data-version) and onto each data request.
     dh = hashlib.md5()
     for f in sorted((out / "data").iterdir()):
         dh.update(f.read_bytes())
-    html = html.replace('name="data-version" content=""', f'name="data-version" content="{dh.hexdigest()[:8]}"')
+    dv = dh.hexdigest()[:8]
+    html = html.replace('name="data-version" content=""', f'name="data-version" content="{dv}"')
+    html = html.replace('href="/data/world.json" as="fetch"', f'href="/data/world.json?v={dv}" as="fetch"')
     (out / "index.html").write_text(html, encoding="utf-8")
     n = share_pages(out, html, countries, full, unique)
     print(f"Built {len(countries)} countr{'y' if len(countries) == 1 else 'ies'} and {n} share pages into {out}")
