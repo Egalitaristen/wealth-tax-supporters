@@ -48,7 +48,8 @@ The native `czechia()` adapter in `skill/scripts/seats.py` queries the official 
    - Miroslav Palanský (Charles University / Tax Justice Network) authored the 2024 Green Party wealth tax study.
    - Ilona Švihlíková (Vysoká škola obchodní v Praze) advocates systemic wealth taxation to counteract oligarchical wealth concentration.
    - Kamila Fialová (Institute of Sociology of the Czech Academy of Sciences / SOÚ AV ČR) endorsed Gabriel Zucman's billionaire minimum top-up wealth tax as relevant and fiscally meaningful for the Czech Republic.
-7. **Business Commentators:**
+7. **Business Leaders & Philanthropists:**
+   - Martin Vohánka (billionaire founder and CEO of Eurowag, Nadace BLÍŽKSOBĚ) agreed in a national *Forbes* survey that the wealthy should pay higher taxes, endorsing the progressive introduction of wealth and capital taxation as society develops.
    - Mikuláš Splítek (portfolio manager at Erste Asset Management) published a prominent 2025 column in *Hospodářské noviny* calling for progressive wealth taxation to prevent runaway compound wealth inequality.
 
 ## Crucial Exclusions (Ground Rule 1)
@@ -79,3 +80,7 @@ The native `czechia()` adapter in `skill/scripts/seats.py` queries the official 
   - Publicly critiques wealth taxes and millionaire levies citing capital flight and Norwegian billionaire relocation to Switzerland. Classified as `opposes`.
 - **Jan Bittner (VŠE / Masarykova demokratická akademie):**
   - Advocates raising property taxes on third and subsequent real estate properties and restoring the real estate acquisition tax, but does not propose an annual net wealth tax. Classified as `out_of_definition`.
+- **Petr Borkovec (Partners Group):**
+  - Proposes taxing second and subsequent homes and land, but explicitly rejects taxing capital. Classified as `out_of_definition`.
+- **Dušan Kunovský (Central Group) & Vlastislav Bříza (Koh-i-noor):**
+  - Kunovský condemned wealth taxes as destructive Marxist envy taxes that would prompt capital flight. Bříza argued wealth and inheritance taxes would liquidate domestic family businesses and force sales to foreign entities. Both classified as `opposes`.
