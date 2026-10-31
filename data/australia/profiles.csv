@@ -1,1 +1,73 @@
 profile_id,actor_id,platform,url,source,checked
+P00001,A0001,website,https://greens.org.au,actors.csv website column,2026-10-31
+P00002,A0002,website,https://www.oxfam.org.au,actors.csv website column,2026-10-31
+P00003,A0003,website,https://australiainstitute.org.au,actors.csv website column,2026-10-31
+P00004,A0004,website,https://www.aph.gov.au/Senator_McKim,actors.csv website column,2026-10-31
+P00005,A0005,website,https://australiainstitute.org.au/expert/david-richardson/,actors.csv website column,2026-10-31
+P00006,A0007,website,https://barbarapocock.com.au,actors.csv website column,2026-10-31
+P00007,A0010,website,https://www.amwu.org.au,actors.csv website column,2026-10-31
+P00008,A0011,website,https://socialist-alliance.org,actors.csv website column,2026-10-31
+P00009,A0012,website,https://www.victoriansocialists.org.au,actors.csv website column,2026-10-31
+P00010,A0024,website,https://sustain.org.au,actors.csv website column,2026-10-31
+P00011,A0027,website,https://www.abigailboyd.org,actors.csv website column,2026-10-31
+P00012,A0039,website,https://alexwhite.org,actors.csv website column,2026-10-31
+P00013,A0001,x,https://x.com/Greens,Wikidata Q781486,2026-10-31
+P00014,A0001,bluesky,https://bsky.app/profile/greens.org.au,Wikidata Q781486,2026-10-31
+P00015,A0001,instagram,https://www.instagram.com/australiangreens/,Wikidata Q781486,2026-10-31
+P00016,A0001,facebook,https://www.facebook.com/Australian.Greens,Wikidata Q781486,2026-10-31
+P00017,A0001,tiktok,https://www.tiktok.com/@australiangreens,Wikidata Q781486,2026-10-31
+P00018,A0001,wikipedia,https://en.wikipedia.org/wiki/Australian_Greens,Wikidata Q781486,2026-10-31
+P00019,A0002,x,https://x.com/OxfamAustralia,Wikidata Q7115193,2026-10-31
+P00020,A0002,wikipedia,https://en.wikipedia.org/wiki/Oxfam_Australia,Wikidata Q7115193,2026-10-31
+P00021,A0003,x,https://x.com/TheAusInstitute,Wikidata Q7714915,2026-10-31
+P00022,A0003,bluesky,https://bsky.app/profile/australiainstitute.org.au,Wikidata Q7714915,2026-10-31
+P00023,A0003,instagram,https://www.instagram.com/theausinstitute/,Wikidata Q7714915,2026-10-31
+P00024,A0003,facebook,https://www.facebook.com/TheAustraliaInstitute,Wikidata Q7714915,2026-10-31
+P00025,A0003,youtube,https://www.youtube.com/channel/UCKOfG5nxZCffjOqOzaTFTcA,Wikidata Q7714915,2026-10-31
+P00026,A0003,tiktok,https://www.tiktok.com/@theausinstitute,Wikidata Q7714915,2026-10-31
+P00027,A0003,wikipedia,https://en.wikipedia.org/wiki/The_Australia_Institute,Wikidata Q7714915,2026-10-31
+P00028,A0004,x,https://x.com/NickMcKim,Wikidata Q14201517,2026-10-31
+P00029,A0004,bluesky,https://bsky.app/profile/nickmckim.bsky.social,Wikidata Q14201517,2026-10-31
+P00030,A0004,wikipedia,https://en.wikipedia.org/wiki/Nick_McKim,Wikidata Q14201517,2026-10-31
+P00031,A0007,x,https://x.com/BarbaraPocock,Wikidata Q63405944,2026-10-31
+P00032,A0007,bluesky,https://bsky.app/profile/barbarapocock.bsky.social,Wikidata Q63405944,2026-10-31
+P00033,A0007,instagram,https://www.instagram.com/barbarapocock/,Wikidata Q63405944,2026-10-31
+P00034,A0007,linkedin,https://www.linkedin.com/in/barbara-pocock-3a429a15/,Wikidata Q63405944,2026-10-31
+P00035,A0007,wikipedia,https://en.wikipedia.org/wiki/Barbara_Pocock,Wikidata Q63405944,2026-10-31
+P00036,A0008,website,https://www.adambandt.com/,Wikidata Q4678672,2026-10-31
+P00037,A0008,x,https://x.com/AdamBandt,Wikidata Q4678672,2026-10-31
+P00038,A0008,bluesky,https://bsky.app/profile/adambandt.bsky.social,Wikidata Q4678672,2026-10-31
+P00039,A0008,instagram,https://www.instagram.com/adambandt/,Wikidata Q4678672,2026-10-31
+P00040,A0008,facebook,https://www.facebook.com/Adam.Bandt.MP,Wikidata Q4678672,2026-10-31
+P00041,A0008,tiktok,https://www.tiktok.com/@adambandt,Wikidata Q4678672,2026-10-31
+P00042,A0008,wikipedia,https://en.wikipedia.org/wiki/Adam_Bandt,Wikidata Q4678672,2026-10-31
+P00043,A0011,wikipedia,https://en.wikipedia.org/wiki/Socialist_Alliance_%28Australia%29,Wikidata Q916989,2026-10-31
+P00044,A0012,x,https://x.com/vic_socialists,Wikidata Q55637098,2026-10-31
+P00045,A0012,instagram,https://www.instagram.com/vic_socialists/,Wikidata Q55637098,2026-10-31
+P00046,A0012,facebook,https://www.facebook.com/vicsocialists,Wikidata Q55637098,2026-10-31
+P00047,A0012,wikipedia,https://en.wikipedia.org/wiki/Victorian_Socialists,Wikidata Q55637098,2026-10-31
+P00048,A0014,x,https://x.com/ShoebridgeMLC,Wikidata Q5239754,2026-10-31
+P00049,A0014,instagram,https://www.instagram.com/shoebridgemlc/,Wikidata Q5239754,2026-10-31
+P00050,A0014,facebook,https://www.facebook.com/DavidShoebridgeMLC,Wikidata Q5239754,2026-10-31
+P00051,A0014,youtube,https://www.youtube.com/channel/UCdroiRyrqfhyB_UqoDOpfKg,Wikidata Q5239754,2026-10-31
+P00052,A0014,tiktok,https://www.tiktok.com/@senatorshoebridge,Wikidata Q5239754,2026-10-31
+P00053,A0014,wikipedia,https://en.wikipedia.org/wiki/David_Shoebridge,Wikidata Q5239754,2026-10-31
+P00054,A0015,wikipedia,https://en.wikipedia.org/wiki/Steph_Hodgins-May,Wikidata Q110084949,2026-10-31
+P00055,A0016,x,https://x.com/Jordonsteele,Wikidata Q33139188,2026-10-31
+P00056,A0016,instagram,https://www.instagram.com/jordonsteelejohn/,Wikidata Q33139188,2026-10-31
+P00057,A0016,facebook,https://www.facebook.com/JordonSteeleJohn,Wikidata Q33139188,2026-10-31
+P00058,A0016,wikipedia,https://en.wikipedia.org/wiki/Jordon_Steele-John,Wikidata Q33139188,2026-10-31
+P00059,A0017,wikipedia,https://en.wikipedia.org/wiki/Elizabeth_Watson-Brown,Wikidata Q18813613,2026-10-31
+P00060,A0026,x,https://x.com/RDNS_TAI,Wikidata Q7325173,2026-10-31
+P00061,A0026,wikipedia,https://en.wikipedia.org/wiki/Richard_Denniss,Wikidata Q7325173,2026-10-31
+P00062,A0027,instagram,https://www.instagram.com/abigailboydmlc/,Wikidata Q62961056,2026-10-31
+P00063,A0027,wikipedia,https://en.wikipedia.org/wiki/Abigail_Boyd,Wikidata Q62961056,2026-10-31
+P00064,A0029,website,https://larissa-waters.greensmps.org.au/about,Wikidata Q6489515,2026-10-31
+P00065,A0029,x,https://x.com/larissawaters,Wikidata Q6489515,2026-10-31
+P00066,A0029,bluesky,https://bsky.app/profile/larissawaters.bsky.social,Wikidata Q6489515,2026-10-31
+P00067,A0029,instagram,https://www.instagram.com/larissawaters/,Wikidata Q6489515,2026-10-31
+P00068,A0029,facebook,https://www.facebook.com/larissawaters,Wikidata Q6489515,2026-10-31
+P00069,A0029,tiktok,https://www.tiktok.com/@larissawaters,Wikidata Q6489515,2026-10-31
+P00070,A0029,wikipedia,https://en.wikipedia.org/wiki/Larissa_Waters,Wikidata Q6489515,2026-10-31
+P00071,A0036,wikipedia,https://en.wikipedia.org/wiki/Carl_Rhodes,Wikidata Q58064511,2026-10-31
+P00072,A0037,wikipedia,https://en.wikipedia.org/wiki/Frank_Stilwell_%28economist%29,Wikidata Q5489799,2026-10-31

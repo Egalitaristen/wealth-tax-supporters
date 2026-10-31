@@ -2,3 +2,34 @@ profile_id,actor_id,platform,url,source,checked
 P00001,A0005,website,https://www.ibon.org/,https://www.ibon.org/,2026-10-28
 P00002,A0032,website,https://www.twn.my/,https://www.twn.my/,2026-10-28
 P00003,A0030,website,https://waldenbello.org/,https://waldenbello.org/,2026-10-28
+P00004,A0001,wikipedia,https://en.wikipedia.org/wiki/Antonio_Tinio,Wikidata Q17370935,2026-10-31
+P00005,A0002,instagram,https://www.instagram.com/sarahelago/,Wikidata Q66777017,2026-10-31
+P00006,A0002,facebook,https://www.facebook.com/sjielago,Wikidata Q66777017,2026-10-31
+P00007,A0002,wikipedia,https://en.wikipedia.org/wiki/Sarah_Elago,Wikidata Q66777017,2026-10-31
+P00008,A0004,website,https://leiladelima.ph,Wikidata Q520173,2026-10-31
+P00009,A0004,facebook,https://www.facebook.com/leiladelimaofficial,Wikidata Q520173,2026-10-31
+P00010,A0004,wikipedia,https://en.wikipedia.org/wiki/Leila_de_Lima,Wikidata Q520173,2026-10-31
+P00011,A0005,x,https://x.com/IBONFoundation,Wikidata Q17073304,2026-10-31
+P00012,A0005,facebook,https://www.facebook.com/IBONFoundation,Wikidata Q17073304,2026-10-31
+P00013,A0005,youtube,https://www.youtube.com/channel/UChjDLAX7Y2lQgjkdCLtmDkg,Wikidata Q17073304,2026-10-31
+P00014,A0005,wikipedia,https://en.wikipedia.org/wiki/IBON_Foundation,Wikidata Q17073304,2026-10-31
+P00015,A0009,website,https://attykaka.wordpress.com,Wikidata Q6349093,2026-10-31
+P00016,A0009,wikipedia,https://en.wikipedia.org/wiki/Kaka_Bag-ao,Wikidata Q6349093,2026-10-31
+P00017,A0010,wikipedia,https://en.wikipedia.org/wiki/Chel_Diokno,Wikidata Q6279455,2026-10-31
+P00018,A0012,wikipedia,https://en.wikipedia.org/wiki/Raymond_Mendoza,Wikidata Q12969824,2026-10-31
+P00019,A0022,wikipedia,https://en.wikipedia.org/wiki/Eufemia_Cullamat,Wikidata Q66777002,2026-10-31
+P00020,A0023,wikipedia,https://en.wikipedia.org/wiki/France_Castro,Wikidata Q66776994,2026-10-31
+P00021,A0024,wikipedia,https://en.wikipedia.org/wiki/Arlene_Brosas,Wikidata Q66776979,2026-10-31
+P00022,A0025,website,https://www.kaleody.org/,Wikidata Q63869620,2026-10-31
+P00023,A0025,x,https://x.com/leodymanggagawa,Wikidata Q63869620,2026-10-31
+P00024,A0025,facebook,https://www.facebook.com/KaLeodyDeGuzman,Wikidata Q63869620,2026-10-31
+P00025,A0025,wikipedia,https://en.wikipedia.org/wiki/Leody_de_Guzman,Wikidata Q63869620,2026-10-31
+P00026,A0030,x,https://x.com/WaldenBello,Wikidata Q1285526,2026-10-31
+P00027,A0030,instagram,https://www.instagram.com/teamwaldenph/,Wikidata Q1285526,2026-10-31
+P00028,A0030,facebook,https://www.facebook.com/WaldenBelloOfficial,Wikidata Q1285526,2026-10-31
+P00029,A0030,wikipedia,https://en.wikipedia.org/wiki/Walden_Bello,Wikidata Q1285526,2026-10-31
+P00030,A0034,wikipedia,https://en.wikipedia.org/wiki/Teodoro_Casi%C3%B1o,Wikidata Q7701082,2026-10-31
+P00031,A0039,facebook,https://www.facebook.com/manggagawangpilipino,Wikidata Q4986989,2026-10-31
+P00032,A0039,wikipedia,https://en.wikipedia.org/wiki/Bukluran_ng_Manggagawang_Pilipino,Wikidata Q4986989,2026-10-31
+P00033,A0049,website,https://www.ffw.ph/,Wikidata Q5440814,2026-10-31
+P00034,A0049,wikipedia,https://en.wikipedia.org/wiki/Federation_of_Free_Workers,Wikidata Q5440814,2026-10-31
