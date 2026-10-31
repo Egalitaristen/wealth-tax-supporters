@@ -9,14 +9,15 @@
     {
       "support": 68,
       "support_text": "About two in three",
-      "scope": "Swiss voters, Tamedia/20 Minuten post-vote survey (Nachabstimmungsbefragung)",
-      "question": "Federal wealth tax on large fortunes (the Green Liberal proposal: 0.33% above CHF 5 million, to fund the 13th AHV pension and the army)",
-      "question_original": "Bundesvermögenssteuer auf grosse Vermögen",
+      "oppose": 25,
+      "scope": "Swiss voters, Tamedia/20 Minuten post-vote survey (Nachabstimmungsbefragung), spring 2026",
+      "question": "Federal tax on large fortunes to finance the 13th AHV pension and the army, as an alternative to a VAT rise (the Green Liberal proposal is 0.33% above CHF 5 million)",
+      "question_original": "Bundessteuer auf grosse Vermögen zur Finanzierung der AHV und der Armee",
       "pollster": "Leewas",
       "commissioned_by": "Tamedia and 20 Minuten",
       "fieldwork": "2026-03",
       "published": "2026-03-15",
-      "url": "https://www.tagesanzeiger.ch/vermoegenssteuer-68-prozent-wollen-reiche-zur-kasse-bitten-190904006976"
+      "url": "https://www.srf.ch/news/wirtschaft/vermoegenskonzentration-linker-staroekonom-fordert-mindeststeuer-fuer-superreiche"
     }
   ]
 }
