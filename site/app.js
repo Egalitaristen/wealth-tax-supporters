@@ -44,6 +44,13 @@ const DV = document.querySelector('meta[name=data-version]')?.content || '';
 const getJSON = url => cache[url] || (cache[url] = fetch(DV ? `${url}?v=${DV}` : url).then(r => { if (!r.ok) throw new Error(r.status + ' ' + url); return r.json(); }));
 const WORLD = () => getJSON('/data/world.json');
 const INDEX = () => getJSON('/data/index.json');
+// The world outlines are two thirds of the world file and only the map pages draw them, so they load on their own.
+const mapReady = async W => { if (!W.paths) W.paths = (await getJSON('/data/map.json')).paths; };
+async function drawWorld(W, opts) {
+  await mapReady(W);
+  const box = $('#world');
+  return box && box.isConnected ? worldMap(box, W, opts) : () => {};
+}
 const prepared = {};
 function loadCountry(slug) {
   return prepared[slug] || (prepared[slug] = getJSON(`/data/${slug}.json`).then(D => {
@@ -230,7 +237,7 @@ function filterBar(root, onChange) {
   root.innerHTML = '<button type="button" class="fbtn" aria-expanded="false"><svg viewBox="0 0 20 20" aria-hidden="true"><path d="M3 5h14M6 10h8M9 15h2"/></svg>Filters<b class="fcount" hidden></b></button>';
   const btn = $('.fbtn', root), panel = document.createElement('div');
   panel.className = 'fpanel'; panel.hidden = true; root.append(panel);
-  searchData().then(S => {
+  const fill = () => searchData().then(S => {
     const countries = S.countries.slice().sort((a, b) => a.name.localeCompare(b.name));
     const types = [...new Set(S.people.map(p => p.type))].sort((a, b) => (TYPES_PL[a] || a).localeCompare(TYPES_PL[b] || b));
     panel.innerHTML = `<label>Country<select data-f="country"><option value="">All countries</option>${countries.map(c => `<option value="${esc(c.slug)}">${esc(c.name)}</option>`).join('')}</select></label>
@@ -238,9 +245,10 @@ function filterBar(root, onChange) {
       <label>Strength of evidence<select data-f="grade"><option value="">Any</option>${['A', 'B', 'C'].map(g => `<option value="${g}">${esc(GRADE[g])}</option>`).join('')}</select></label>
       <button type="button" class="flink" data-clear>Clear</button>`;
   });
+  let filled = false;
   const get = () => Object.fromEntries($$('select[data-f]', panel).map(s => [s.dataset.f, s.value]));
   const sync = () => { const n = Object.values(get()).filter(Boolean).length, c = $('.fcount', root); c.hidden = !n; c.textContent = n; root.classList.toggle('on', n > 0); };
-  btn.addEventListener('click', e => { e.preventDefault(); panel.hidden = !panel.hidden; btn.setAttribute('aria-expanded', String(!panel.hidden)); });
+  btn.addEventListener('click', e => { e.preventDefault(); if (!filled) { filled = true; fill(); } panel.hidden = !panel.hidden; btn.setAttribute('aria-expanded', String(!panel.hidden)); });
   panel.addEventListener('change', () => { sync(); onChange(); });
   panel.addEventListener('click', e => { if (e.target.closest('[data-clear]')) { $$('select', panel).forEach(s => { s.value = ''; }); sync(); onChange(); } });
   return get;
@@ -257,7 +265,7 @@ function attachSearch(input, box, {onOpen = () => {}, onClose = () => {}, filter
     if (res) { setAct(0); onOpen(); } else onClose();
   };
   input.addEventListener('input', update);
-  input.addEventListener('focus', () => { if (input.value.trim()) update(); });
+  input.addEventListener('focus', () => { searchData(); if (input.value.trim()) update(); });
   input.addEventListener('keydown', e => {
     if (e.key === 'ArrowDown') { e.preventDefault(); setAct(act + 1); }
     else if (e.key === 'ArrowUp') { e.preventDefault(); setAct(act - 1); }
@@ -277,6 +285,7 @@ let palFilters = () => ({});
 const palUpdate = attachSearch(palQ, palRes, {onClose: () => { palRes.hidden = false; palRes.innerHTML = ''; }, filters: () => palFilters()});
 palFilters = filterBar($('#pal-f'), () => { palRes.hidden = false; palUpdate(); });
 $('#open-search').addEventListener('click', () => openPalette());
+['pointerenter', 'touchstart', 'focus'].forEach(ev => $('#open-search').addEventListener(ev, () => searchData(), {once: true, passive: true}));
 $('#pal-close').addEventListener('click', closePalette);
 pal.addEventListener('click', e => { if (e.target === pal) closePalette(); });
 document.addEventListener('keydown', e => {
@@ -333,8 +342,9 @@ async function countriesPage(W) {
   main.innerHTML = `<div class="wrap page-head fade"><div class="kicker">The map so far</div><h1>Country <em>by</em> country</h1>
     <p class="lede" style="margin-top:18px">${cs.length} countries so far. Each is researched separately, from parliaments and councils down to unions and open letters. Pick one to see who is on record there.</p></div>
     <div class="wrap" style="margin-top:24px">${countriesBlock(cs)}</div><div style="height:72px"></div>`;
-  const stopWorld = worldMap($('#world'), W);
+  let stopWorld = () => {};
   leaving = () => stopWorld();
+  drawWorld(W).then(stop => { stopWorld = stop; });
 }
 // Seats of every legislature we chart: supranational bodies first, then countries. Dots lit are sitting supporters found so far.
 function parliamentRows(items, slugOf) {
@@ -366,8 +376,9 @@ async function parliamentsPage(W) {
         <div class="zoomer"><button type="button" data-z="in" aria-label="Zoom in">+</button><button type="button" data-z="out" aria-label="Zoom out">−</button><button type="button" data-z="fit" aria-label="Show the whole world">⤢</button></div>
       </div>
       <div class="countries">${parliamentRows(cs, c => `/${c.slug}/seats`)}</div></div><div style="height:72px"></div>`;
-  const stopWorld = worldMap($('#world'), W, {seats: true});
+  let stopWorld = () => {};
   leaving = () => stopWorld();
+  drawWorld(W, {seats: true}).then(stop => { stopWorld = stop; });
 }
 
 // Polls, papers, reports and bills, filterable by kind, place and year. The filters live in the query string, so a view can be shared.
@@ -535,8 +546,9 @@ async function home(W) {
   $$('[data-try]').forEach(b => b.addEventListener('click', () => { hq.value = b.dataset.try; hq.dispatchEvent(new Event('input')); hq.focus(); }));
   const outside = e => { if (!e.target.closest('.big-search, .try')) hres.hidden = true; };
   document.addEventListener('click', outside);
-  const stopWorld = worldMap($('#world'), W);
+  let stopWorld = () => {};
   leaving = () => { document.removeEventListener('click', outside); stopWorld(); };
+  drawWorld(W).then(stop => { stopWorld = stop; });
 }
 
 // Pan and zoom for any map element. The view is a rectangle [x, y, w, h] in map units and onView draws it.
