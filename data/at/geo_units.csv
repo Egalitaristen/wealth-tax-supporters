@@ -1,0 +1,2108 @@
+geo_unit_id,name,level,unit_type,parent_id,website,sweep_status,swept_run,swept_date,queries_run,hits,notes,code
+G0001,Austria,national,country,,https://www.oesterreich.gv.at,in_progress,,,,,Federal Republic of Austria,AT
+G0002,Nationalrat,national,legislature,G0001,https://www.parlament.gv.at,pending,,,,,"National Council, lower chamber of Parliament (183 seats)",
+G0003,Bundesrat,national,legislature,G0001,https://www.parlament.gv.at,pending,,,,,"Federal Council, upper chamber representing the Länder (60 seats)",
+G0004,Bundesregierung,national,executive,G0001,https://www.bundeskanzleramt.gv.at,pending,,,,,Federal Government of Austria,
+G0005,European Parliament (Austrian MEPs),supranational,legislature,G0001,https://www.europarl.europa.eu,pending,,,,,Austrian members of the European Parliament (20 seats),
+G0006,Burgenland,region,state (Bundesland),G0001,https://www.burgenland.at,pending,,,,,Federal State of Burgenland,AT-1
+G0007,Kärnten,region,state (Bundesland),G0001,https://www.ktn.gv.at,pending,,,,,Federal State of Kärnten,AT-2
+G0008,Niederösterreich,region,state (Bundesland),G0001,https://www.noe.gv.at,pending,,,,,Federal State of Niederösterreich,AT-3
+G0009,Oberösterreich,region,state (Bundesland),G0001,https://www.land-oberoesterreich.gv.at,pending,,,,,Federal State of Oberösterreich,AT-4
+G0010,Salzburg,region,state (Bundesland),G0001,https://www.salzburg.gv.at,pending,,,,,Federal State of Salzburg,AT-5
+G0011,Steiermark,region,state (Bundesland),G0001,https://www.verwaltung.steiermark.at,pending,,,,,Federal State of Steiermark,AT-6
+G0012,Tirol,region,state (Bundesland),G0001,https://www.tirol.gv.at,pending,,,,,Federal State of Tirol,AT-7
+G0013,Vorarlberg,region,state (Bundesland),G0001,https://www.vorarlberg.at,pending,,,,,Federal State of Vorarlberg,AT-8
+G0014,Wien,region,state (Bundesland),G0001,https://www.wien.gv.at,pending,,,,,Federal State of Wien,AT-9
+G0015,Eisenstadt,council,municipality,G0006,,pending,,,,,,10101
+G0016,Rust,council,municipality,G0006,,pending,,,,,,10201
+G0017,Breitenbrunn am Neusiedler See,council,municipality,G0006,,pending,,,,,,10301
+G0018,Donnerskirchen,council,municipality,G0006,,pending,,,,,,10302
+G0019,Großhöflein,council,municipality,G0006,,pending,,,,,,10303
+G0020,Hornstein,council,municipality,G0006,,pending,,,,,,10304
+G0021,Klingenbach,council,municipality,G0006,,pending,,,,,,10305
+G0022,Leithaprodersdorf,council,municipality,G0006,,pending,,,,,,10306
+G0023,Mörbisch am See,council,municipality,G0006,,pending,,,,,,10307
+G0024,Müllendorf,council,municipality,G0006,,pending,,,,,,10308
+G0025,Neufeld an der Leitha,council,municipality,G0006,,pending,,,,,,10309
+G0026,Oggau am Neusiedler See,council,municipality,G0006,,pending,,,,,,10310
+G0027,Oslip,council,municipality,G0006,,pending,,,,,,10311
+G0028,Purbach am Neusiedler See,council,municipality,G0006,,pending,,,,,,10312
+G0029,Sankt Margarethen im Burgenland,council,municipality,G0006,,pending,,,,,,10313
+G0030,Schützen am Gebirge,council,municipality,G0006,,pending,,,,,,10314
+G0031,Siegendorf,council,municipality,G0006,,pending,,,,,,10315
+G0032,Steinbrunn,council,municipality,G0006,,pending,,,,,,10316
+G0033,Trausdorf an der Wulka,council,municipality,G0006,,pending,,,,,,10317
+G0034,Wimpassing an der Leitha,council,municipality,G0006,,pending,,,,,,10318
+G0035,Wulkaprodersdorf,council,municipality,G0006,,pending,,,,,,10319
+G0036,Loretto,council,municipality,G0006,,pending,,,,,,10320
+G0037,Stotzing,council,municipality,G0006,,pending,,,,,,10321
+G0038,Zillingtal,council,municipality,G0006,,pending,,,,,,10322
+G0039,Zagersdorf,council,municipality,G0006,,pending,,,,,,10323
+G0040,Bocksdorf,council,municipality,G0006,,pending,,,,,,10401
+G0041,Burgauberg-Neudauberg,council,municipality,G0006,,pending,,,,,,10402
+G0042,Eberau,council,municipality,G0006,,pending,,,,,,10403
+G0043,Gerersdorf-Sulz,council,municipality,G0006,,pending,,,,,,10404
+G0044,Güssing,council,municipality,G0006,,pending,,,,,,10405
+G0045,Güttenbach,council,municipality,G0006,,pending,,,,,,10406
+G0046,Heiligenbrunn,council,municipality,G0006,,pending,,,,,,10407
+G0047,Kukmirn,council,municipality,G0006,,pending,,,,,,10408
+G0048,Neuberg im Burgenland,council,municipality,G0006,,pending,,,,,,10409
+G0049,Neustift bei Güssing,council,municipality,G0006,,pending,,,,,,10410
+G0050,Olbendorf,council,municipality,G0006,,pending,,,,,,10411
+G0051,Ollersdorf im Burgenland,council,municipality,G0006,,pending,,,,,,10412
+G0052,Sankt Michael im Burgenland,council,municipality,G0006,,pending,,,,,,10413
+G0053,Stegersbach,council,municipality,G0006,,pending,,,,,,10414
+G0054,Stinatz,council,municipality,G0006,,pending,,,,,,10415
+G0055,Strem,council,municipality,G0006,,pending,,,,,,10416
+G0056,Tobaj,council,municipality,G0006,,pending,,,,,,10417
+G0057,Hackerberg,council,municipality,G0006,,pending,,,,,,10418
+G0058,Wörterberg,council,municipality,G0006,,pending,,,,,,10419
+G0059,Großmürbisch,council,municipality,G0006,,pending,,,,,,10420
+G0060,Inzenhof,council,municipality,G0006,,pending,,,,,,10421
+G0061,Kleinmürbisch,council,municipality,G0006,,pending,,,,,,10422
+G0062,Tschanigraben,council,municipality,G0006,,pending,,,,,,10423
+G0063,Heugraben,council,municipality,G0006,,pending,,,,,,10424
+G0064,Rohr im Burgenland,council,municipality,G0006,,pending,,,,,,10425
+G0065,Bildein,council,municipality,G0006,,pending,,,,,,10426
+G0066,Rauchwart,council,municipality,G0006,,pending,,,,,,10427
+G0067,Moschendorf,council,municipality,G0006,,pending,,,,,,10428
+G0068,Deutsch Kaltenbrunn,council,municipality,G0006,,pending,,,,,,10501
+G0069,Eltendorf,council,municipality,G0006,,pending,,,,,,10502
+G0070,Heiligenkreuz im Lafnitztal,council,municipality,G0006,,pending,,,,,,10503
+G0071,Jennersdorf,council,municipality,G0006,,pending,,,,,,10504
+G0072,Minihof-Liebau,council,municipality,G0006,,pending,,,,,,10505
+G0073,Mogersdorf,council,municipality,G0006,,pending,,,,,,10506
+G0074,Neuhaus am Klausenbach,council,municipality,G0006,,pending,,,,,,10507
+G0075,Rudersdorf,council,municipality,G0006,,pending,,,,,,10508
+G0076,Sankt Martin an der Raab,council,municipality,G0006,,pending,,,,,,10509
+G0077,Weichselbaum,council,municipality,G0006,,pending,,,,,,10510
+G0078,Königsdorf,council,municipality,G0006,,pending,,,,,,10511
+G0079,Mühlgraben,council,municipality,G0006,,pending,,,,,,10512
+G0080,Draßburg,council,municipality,G0006,,pending,,,,,,10601
+G0081,Forchtenstein,council,municipality,G0006,,pending,,,,,,10602
+G0082,Hirm,council,municipality,G0006,,pending,,,,,,10603
+G0083,Loipersbach im Burgenland,council,municipality,G0006,,pending,,,,,,10604
+G0084,Marz,council,municipality,G0006,,pending,,,,,,10605
+G0085,Mattersburg,council,municipality,G0006,,pending,,,,,,10606
+G0086,Neudörfl,council,municipality,G0006,,pending,,,,,,10607
+G0087,Pöttelsdorf,council,municipality,G0006,,pending,,,,,,10608
+G0088,Pöttsching,council,municipality,G0006,,pending,,,,,,10609
+G0089,Rohrbach bei Mattersburg,council,municipality,G0006,,pending,,,,,,10610
+G0090,Bad Sauerbrunn,council,municipality,G0006,,pending,,,,,,10611
+G0091,Schattendorf,council,municipality,G0006,,pending,,,,,,10612
+G0092,Sieggraben,council,municipality,G0006,,pending,,,,,,10613
+G0093,Sigleß,council,municipality,G0006,,pending,,,,,,10614
+G0094,Wiesen,council,municipality,G0006,,pending,,,,,,10615
+G0095,Antau,council,municipality,G0006,,pending,,,,,,10616
+G0096,Baumgarten,council,municipality,G0006,,pending,,,,,,10617
+G0097,Zemendorf-Stöttera,council,municipality,G0006,,pending,,,,,,10618
+G0098,Krensdorf,council,municipality,G0006,,pending,,,,,,10619
+G0099,Andau,council,municipality,G0006,,pending,,,,,,10701
+G0100,Apetlon,council,municipality,G0006,,pending,,,,,,10702
+G0101,Bruckneudorf,council,municipality,G0006,,pending,,,,,,10703
+G0102,Deutsch Jahrndorf,council,municipality,G0006,,pending,,,,,,10704
+G0103,Frauenkirchen,council,municipality,G0006,,pending,,,,,,10705
+G0104,Gattendorf,council,municipality,G0006,,pending,,,,,,10706
+G0105,Gols,council,municipality,G0006,,pending,,,,,,10707
+G0106,Halbturn,council,municipality,G0006,,pending,,,,,,10708
+G0107,Illmitz,council,municipality,G0006,,pending,,,,,,10709
+G0108,Jois,council,municipality,G0006,,pending,,,,,,10710
+G0109,Kittsee,council,municipality,G0006,,pending,,,,,,10711
+G0110,Mönchhof,council,municipality,G0006,,pending,,,,,,10712
+G0111,Neusiedl am See,council,municipality,G0006,,pending,,,,,,10713
+G0112,Nickelsdorf,council,municipality,G0006,,pending,,,,,,10714
+G0113,Pama,council,municipality,G0006,,pending,,,,,,10715
+G0114,Pamhagen,council,municipality,G0006,,pending,,,,,,10716
+G0115,Parndorf,council,municipality,G0006,,pending,,,,,,10717
+G0116,Podersdorf am See,council,municipality,G0006,,pending,,,,,,10718
+G0117,Sankt Andrä am Zicksee,council,municipality,G0006,,pending,,,,,,10719
+G0118,Tadten,council,municipality,G0006,,pending,,,,,,10720
+G0119,Wallern im Burgenland,council,municipality,G0006,,pending,,,,,,10721
+G0120,Weiden am See,council,municipality,G0006,,pending,,,,,,10722
+G0121,Winden am See,council,municipality,G0006,,pending,,,,,,10723
+G0122,Zurndorf,council,municipality,G0006,,pending,,,,,,10724
+G0123,Neudorf,council,municipality,G0006,,pending,,,,,,10725
+G0124,Potzneusiedl,council,municipality,G0006,,pending,,,,,,10726
+G0125,Edelstal,council,municipality,G0006,,pending,,,,,,10727
+G0126,Deutschkreutz,council,municipality,G0006,,pending,,,,,,10801
+G0127,Draßmarkt,council,municipality,G0006,,pending,,,,,,10802
+G0128,Frankenau-Unterpullendorf,council,municipality,G0006,,pending,,,,,,10803
+G0129,Großwarasdorf,council,municipality,G0006,,pending,,,,,,10804
+G0130,Horitschon,council,municipality,G0006,,pending,,,,,,10805
+G0131,Kaisersdorf,council,municipality,G0006,,pending,,,,,,10806
+G0132,Kobersdorf,council,municipality,G0006,,pending,,,,,,10807
+G0133,Lackenbach,council,municipality,G0006,,pending,,,,,,10808
+G0134,Lockenhaus,council,municipality,G0006,,pending,,,,,,10809
+G0135,Lutzmannsburg,council,municipality,G0006,,pending,,,,,,10810
+G0136,Mannersdorf an der Rabnitz,council,municipality,G0006,,pending,,,,,,10811
+G0137,Markt Sankt Martin,council,municipality,G0006,,pending,,,,,,10812
+G0138,Neckenmarkt,council,municipality,G0006,,pending,,,,,,10813
+G0139,Neutal,council,municipality,G0006,,pending,,,,,,10814
+G0140,Nikitsch,council,municipality,G0006,,pending,,,,,,10815
+G0141,Oberpullendorf,council,municipality,G0006,,pending,,,,,,10816
+G0142,Pilgersdorf,council,municipality,G0006,,pending,,,,,,10817
+G0143,Piringsdorf,council,municipality,G0006,,pending,,,,,,10818
+G0144,Raiding,council,municipality,G0006,,pending,,,,,,10819
+G0145,Ritzing,council,municipality,G0006,,pending,,,,,,10820
+G0146,Steinberg-Dörfl,council,municipality,G0006,,pending,,,,,,10821
+G0147,Stoob,council,municipality,G0006,,pending,,,,,,10822
+G0148,Weppersdorf,council,municipality,G0006,,pending,,,,,,10823
+G0149,Lackendorf,council,municipality,G0006,,pending,,,,,,10824
+G0150,Unterfrauenhaid,council,municipality,G0006,,pending,,,,,,10825
+G0151,Unterrabnitz-Schwendgraben,council,municipality,G0006,,pending,,,,,,10826
+G0152,Weingraben,council,municipality,G0006,,pending,,,,,,10827
+G0153,Oberloisdorf,council,municipality,G0006,,pending,,,,,,10828
+G0154,Bad Tatzmannsdorf,council,municipality,G0006,,pending,,,,,,10901
+G0155,Bernstein,council,municipality,G0006,,pending,,,,,,10902
+G0156,Deutsch Schützen-Eisenberg,council,municipality,G0006,,pending,,,,,,10903
+G0157,Grafenschachen,council,municipality,G0006,,pending,,,,,,10904
+G0158,Großpetersdorf,council,municipality,G0006,,pending,,,,,,10905
+G0159,Hannersdorf,council,municipality,G0006,,pending,,,,,,10906
+G0160,Kemeten,council,municipality,G0006,,pending,,,,,,10907
+G0161,Kohfidisch,council,municipality,G0006,,pending,,,,,,10908
+G0162,Litzelsdorf,council,municipality,G0006,,pending,,,,,,10909
+G0163,Loipersdorf-Kitzladen,council,municipality,G0006,,pending,,,,,,10910
+G0164,Mariasdorf,council,municipality,G0006,,pending,,,,,,10911
+G0165,Markt Allhau,council,municipality,G0006,,pending,,,,,,10912
+G0166,Markt Neuhodis,council,municipality,G0006,,pending,,,,,,10913
+G0167,Mischendorf,council,municipality,G0006,,pending,,,,,,10914
+G0168,Oberdorf im Burgenland,council,municipality,G0006,,pending,,,,,,10915
+G0169,Oberschützen,council,municipality,G0006,,pending,,,,,,10916
+G0170,Oberwart,council,municipality,G0006,,pending,,,,,,10917
+G0171,Pinkafeld,council,municipality,G0006,,pending,,,,,,10918
+G0172,Rechnitz,council,municipality,G0006,,pending,,,,,,10919
+G0173,Riedlingsdorf,council,municipality,G0006,,pending,,,,,,10920
+G0174,Rotenturm an der Pinka,council,municipality,G0006,,pending,,,,,,10921
+G0175,Schachendorf,council,municipality,G0006,,pending,,,,,,10922
+G0176,Stadtschlaining,council,municipality,G0006,,pending,,,,,,10923
+G0177,Unterkohlstätten,council,municipality,G0006,,pending,,,,,,10924
+G0178,Unterwart,council,municipality,G0006,,pending,,,,,,10925
+G0179,Weiden bei Rechnitz,council,municipality,G0006,,pending,,,,,,10926
+G0180,Wiesfleck,council,municipality,G0006,,pending,,,,,,10927
+G0181,Wolfau,council,municipality,G0006,,pending,,,,,,10928
+G0182,Neustift an der Lafnitz,council,municipality,G0006,,pending,,,,,,10929
+G0183,Jabing,council,municipality,G0006,,pending,,,,,,10930
+G0184,Badersdorf,council,municipality,G0006,,pending,,,,,,10931
+G0185,Schandorf,council,municipality,G0006,,pending,,,,,,10932
+G0186,Klagenfurt am Wörthersee,council,municipality,G0007,,pending,,,,,,20101
+G0187,Villach,council,municipality,G0007,,pending,,,,,,20201
+G0188,Dellach,council,municipality,G0007,,pending,,,,,,20302
+G0189,Hermagor-Pressegger See,council,municipality,G0007,,pending,,,,,,20305
+G0190,Kirchbach,council,municipality,G0007,,pending,,,,,,20306
+G0191,Kötschach-Mauthen,council,municipality,G0007,,pending,,,,,,20307
+G0192,St. Stefan im Gailtal,council,municipality,G0007,,pending,,,,,,20316
+G0193,Gitschtal,council,municipality,G0007,,pending,,,,,,20320
+G0194,Lesachtal,council,municipality,G0007,,pending,,,,,,20321
+G0195,Ebenthal in Kärnten,council,municipality,G0007,,pending,,,,,,20402
+G0196,Feistritz im Rosental,council,municipality,G0007,,pending,,,,,,20403
+G0197,Ferlach,council,municipality,G0007,,pending,,,,,,20405
+G0198,Grafenstein,council,municipality,G0007,,pending,,,,,,20409
+G0199,Keutschach am See,council,municipality,G0007,,pending,,,,,,20412
+G0200,Köttmannsdorf,council,municipality,G0007,,pending,,,,,,20414
+G0201,Krumpendorf am Wörthersee,council,municipality,G0007,,pending,,,,,,20415
+G0202,Ludmannsdorf,council,municipality,G0007,,pending,,,,,,20416
+G0203,Maria Rain,council,municipality,G0007,,pending,,,,,,20417
+G0204,Maria Saal,council,municipality,G0007,,pending,,,,,,20418
+G0205,Maria Wörth,council,municipality,G0007,,pending,,,,,,20419
+G0206,Moosburg,council,municipality,G0007,,pending,,,,,,20421
+G0207,Pörtschach am Wörther See,council,municipality,G0007,,pending,,,,,,20424
+G0208,Poggersdorf,council,municipality,G0007,,pending,,,,,,20425
+G0209,St. Margareten im Rosental,council,municipality,G0007,,pending,,,,,,20428
+G0210,Schiefling am Wörthersee,council,municipality,G0007,,pending,,,,,,20432
+G0211,Techelsberg am Wörther See,council,municipality,G0007,,pending,,,,,,20435
+G0212,Zell,council,municipality,G0007,,pending,,,,,,20441
+G0213,Magdalensberg,council,municipality,G0007,,pending,,,,,,20442
+G0214,Althofen,council,municipality,G0007,,pending,,,,,,20501
+G0215,Brückl,council,municipality,G0007,,pending,,,,,,20502
+G0216,Deutsch-Griffen,council,municipality,G0007,,pending,,,,,,20503
+G0217,Eberstein,council,municipality,G0007,,pending,,,,,,20504
+G0218,Friesach,council,municipality,G0007,,pending,,,,,,20505
+G0219,Glödnitz,council,municipality,G0007,,pending,,,,,,20506
+G0220,Gurk,council,municipality,G0007,,pending,,,,,,20508
+G0221,Guttaring,council,municipality,G0007,,pending,,,,,,20509
+G0222,Hüttenberg,council,municipality,G0007,,pending,,,,,,20511
+G0223,Kappel am Krappfeld,council,municipality,G0007,,pending,,,,,,20512
+G0224,Klein St. Paul,council,municipality,G0007,,pending,,,,,,20513
+G0225,Liebenfels,council,municipality,G0007,,pending,,,,,,20515
+G0226,Metnitz,council,municipality,G0007,,pending,,,,,,20518
+G0227,Micheldorf,council,municipality,G0007,,pending,,,,,,20519
+G0228,Mölbling,council,municipality,G0007,,pending,,,,,,20520
+G0229,St. Georgen am Längsee,council,municipality,G0007,,pending,,,,,,20523
+G0230,St. Veit an der Glan,council,municipality,G0007,,pending,,,,,,20527
+G0231,Straßburg,council,municipality,G0007,,pending,,,,,,20530
+G0232,Weitensfeld im Gurktal,council,municipality,G0007,,pending,,,,,,20531
+G0233,Frauenstein,council,municipality,G0007,,pending,,,,,,20534
+G0234,Bad Kleinkirchheim,council,municipality,G0007,,pending,,,,,,20601
+G0235,Baldramsdorf,council,municipality,G0007,,pending,,,,,,20602
+G0236,Berg im Drautal,council,municipality,G0007,,pending,,,,,,20603
+G0237,Dellach im Drautal,council,municipality,G0007,,pending,,,,,,20604
+G0238,Großkirchheim,council,municipality,G0007,,pending,,,,,,20605
+G0239,Flattach,council,municipality,G0007,,pending,,,,,,20607
+G0240,Gmünd in Kärnten,council,municipality,G0007,,pending,,,,,,20608
+G0241,Greifenburg,council,municipality,G0007,,pending,,,,,,20609
+G0242,Heiligenblut am Großglockner,council,municipality,G0007,,pending,,,,,,20610
+G0243,Irschen,council,municipality,G0007,,pending,,,,,,20611
+G0244,Kleblach-Lind,council,municipality,G0007,,pending,,,,,,20613
+G0245,Lendorf,council,municipality,G0007,,pending,,,,,,20616
+G0246,Mallnitz,council,municipality,G0007,,pending,,,,,,20618
+G0247,Malta,council,municipality,G0007,,pending,,,,,,20619
+G0248,Millstatt am See,council,municipality,G0007,,pending,,,,,,20620
+G0249,Mörtschach,council,municipality,G0007,,pending,,,,,,20622
+G0250,Mühldorf,council,municipality,G0007,,pending,,,,,,20624
+G0251,Oberdrauburg,council,municipality,G0007,,pending,,,,,,20625
+G0252,Obervellach,council,municipality,G0007,,pending,,,,,,20627
+G0253,Radenthein,council,municipality,G0007,,pending,,,,,,20630
+G0254,Rangersdorf,council,municipality,G0007,,pending,,,,,,20631
+G0255,Rennweg am Katschberg,council,municipality,G0007,,pending,,,,,,20632
+G0256,Sachsenburg,council,municipality,G0007,,pending,,,,,,20633
+G0257,Seeboden am Millstätter See,council,municipality,G0007,,pending,,,,,,20634
+G0258,Spittal an der Drau,council,municipality,G0007,,pending,,,,,,20635
+G0259,Stall,council,municipality,G0007,,pending,,,,,,20636
+G0260,Steinfeld,council,municipality,G0007,,pending,,,,,,20637
+G0261,Trebesing,council,municipality,G0007,,pending,,,,,,20638
+G0262,Weißensee,council,municipality,G0007,,pending,,,,,,20639
+G0263,Winklern,council,municipality,G0007,,pending,,,,,,20640
+G0264,Krems in Kärnten,council,municipality,G0007,,pending,,,,,,20642
+G0265,Lurnfeld,council,municipality,G0007,,pending,,,,,,20643
+G0266,Reißeck,council,municipality,G0007,,pending,,,,,,20644
+G0267,Afritz am See,council,municipality,G0007,,pending,,,,,,20701
+G0268,Arnoldstein,council,municipality,G0007,,pending,,,,,,20702
+G0269,Arriach,council,municipality,G0007,,pending,,,,,,20703
+G0270,Bad Bleiberg,council,municipality,G0007,,pending,,,,,,20705
+G0271,Feistritz an der Gail,council,municipality,G0007,,pending,,,,,,20707
+G0272,Feld am See,council,municipality,G0007,,pending,,,,,,20708
+G0273,Ferndorf,council,municipality,G0007,,pending,,,,,,20710
+G0274,Finkenstein am Faaker See,council,municipality,G0007,,pending,,,,,,20711
+G0275,Fresach,council,municipality,G0007,,pending,,,,,,20712
+G0276,Hohenthurn,council,municipality,G0007,,pending,,,,,,20713
+G0277,Nötsch im Gailtal,council,municipality,G0007,,pending,,,,,,20719
+G0278,Paternion,council,municipality,G0007,,pending,,,,,,20720
+G0279,Rosegg,council,municipality,G0007,,pending,,,,,,20721
+G0280,St. Jakob im Rosental,council,municipality,G0007,,pending,,,,,,20722
+G0281,Stockenboi,council,municipality,G0007,,pending,,,,,,20723
+G0282,Treffen am Ossiacher See,council,municipality,G0007,,pending,,,,,,20724
+G0283,Velden am Wörther See,council,municipality,G0007,,pending,,,,,,20725
+G0284,Weißenstein,council,municipality,G0007,,pending,,,,,,20726
+G0285,Wernberg,council,municipality,G0007,,pending,,,,,,20727
+G0286,Bleiburg,council,municipality,G0007,,pending,,,,,,20801
+G0287,Diex,council,municipality,G0007,,pending,,,,,,20802
+G0288,Eberndorf,council,municipality,G0007,,pending,,,,,,20803
+G0289,Eisenkappel-Vellach,council,municipality,G0007,,pending,,,,,,20804
+G0290,Feistritz ob Bleiburg,council,municipality,G0007,,pending,,,,,,20805
+G0291,Gallizien,council,municipality,G0007,,pending,,,,,,20806
+G0292,Globasnitz,council,municipality,G0007,,pending,,,,,,20807
+G0293,Griffen,council,municipality,G0007,,pending,,,,,,20808
+G0294,Neuhaus,council,municipality,G0007,,pending,,,,,,20810
+G0295,Ruden,council,municipality,G0007,,pending,,,,,,20812
+G0296,St. Kanzian am Klopeiner See,council,municipality,G0007,,pending,,,,,,20813
+G0297,Sittersdorf,council,municipality,G0007,,pending,,,,,,20815
+G0298,Völkermarkt,council,municipality,G0007,,pending,,,,,,20817
+G0299,Bad St. Leonhard im Lavanttal,council,municipality,G0007,,pending,,,,,,20901
+G0300,Frantschach-St. Gertraud,council,municipality,G0007,,pending,,,,,,20905
+G0301,Lavamünd,council,municipality,G0007,,pending,,,,,,20909
+G0302,Preitenegg,council,municipality,G0007,,pending,,,,,,20911
+G0303,Reichenfels,council,municipality,G0007,,pending,,,,,,20912
+G0304,St. Andrä,council,municipality,G0007,,pending,,,,,,20913
+G0305,St. Georgen im Lavanttal,council,municipality,G0007,,pending,,,,,,20914
+G0306,St. Paul im Lavanttal,council,municipality,G0007,,pending,,,,,,20918
+G0307,Wolfsberg,council,municipality,G0007,,pending,,,,,,20923
+G0308,Albeck,council,municipality,G0007,,pending,,,,,,21001
+G0309,Feldkirchen in Kärnten,council,municipality,G0007,,pending,,,,,,21002
+G0310,Glanegg,council,municipality,G0007,,pending,,,,,,21003
+G0311,Gnesau,council,municipality,G0007,,pending,,,,,,21004
+G0312,Himmelberg,council,municipality,G0007,,pending,,,,,,21005
+G0313,Ossiach,council,municipality,G0007,,pending,,,,,,21006
+G0314,Reichenau,council,municipality,G0007,,pending,,,,,,21007
+G0315,St. Urban,council,municipality,G0007,,pending,,,,,,21008
+G0316,Steindorf am Ossiacher See,council,municipality,G0007,,pending,,,,,,21009
+G0317,Steuerberg,council,municipality,G0007,,pending,,,,,,21010
+G0318,Krems an der Donau,council,municipality,G0008,,pending,,,,,,30101
+G0319,St. Pölten,council,municipality,G0008,,pending,,,,,,30201
+G0320,Waidhofen an der Ybbs,council,municipality,G0008,,pending,,,,,,30301
+G0321,Wiener Neustadt,council,municipality,G0008,,pending,,,,,,30401
+G0322,Allhartsberg,council,municipality,G0008,,pending,,,,,,30501
+G0323,Amstetten,council,municipality,G0008,,pending,,,,,,30502
+G0324,Ardagger,council,municipality,G0008,,pending,,,,,,30503
+G0325,Aschbach-Markt,council,municipality,G0008,,pending,,,,,,30504
+G0326,Behamberg,council,municipality,G0008,,pending,,,,,,30506
+G0327,Biberbach,council,municipality,G0008,,pending,,,,,,30507
+G0328,Ennsdorf,council,municipality,G0008,,pending,,,,,,30508
+G0329,Ernsthofen,council,municipality,G0008,,pending,,,,,,30509
+G0330,Ertl,council,municipality,G0008,,pending,,,,,,30510
+G0331,Euratsfeld,council,municipality,G0008,,pending,,,,,,30511
+G0332,Ferschnitz,council,municipality,G0008,,pending,,,,,,30512
+G0333,Haag,council,municipality,G0008,,pending,,,,,,30514
+G0334,Haidershofen,council,municipality,G0008,,pending,,,,,,30515
+G0335,Hollenstein an der Ybbs,council,municipality,G0008,,pending,,,,,,30516
+G0336,Kematen an der Ybbs,council,municipality,G0008,,pending,,,,,,30517
+G0337,Neuhofen an der Ybbs,council,municipality,G0008,,pending,,,,,,30520
+G0338,Neustadtl an der Donau,council,municipality,G0008,,pending,,,,,,30521
+G0339,Oed-Oehling,council,municipality,G0008,,pending,,,,,,30522
+G0340,Opponitz,council,municipality,G0008,,pending,,,,,,30524
+G0341,St. Georgen am Reith,council,municipality,G0008,,pending,,,,,,30526
+G0342,St. Georgen am Ybbsfelde,council,municipality,G0008,,pending,,,,,,30527
+G0343,St. Pantaleon-Erla,council,municipality,G0008,,pending,,,,,,30529
+G0344,St. Peter in der Au,council,municipality,G0008,,pending,,,,,,30530
+G0345,St. Valentin,council,municipality,G0008,,pending,,,,,,30531
+G0346,Seitenstetten,council,municipality,G0008,,pending,,,,,,30532
+G0347,Sonntagberg,council,municipality,G0008,,pending,,,,,,30533
+G0348,Strengberg,council,municipality,G0008,,pending,,,,,,30534
+G0349,Viehdorf,council,municipality,G0008,,pending,,,,,,30536
+G0350,Wallsee-Sindelburg,council,municipality,G0008,,pending,,,,,,30538
+G0351,Weistrach,council,municipality,G0008,,pending,,,,,,30539
+G0352,Winklarn,council,municipality,G0008,,pending,,,,,,30541
+G0353,Wolfsbach,council,municipality,G0008,,pending,,,,,,30542
+G0354,Ybbsitz,council,municipality,G0008,,pending,,,,,,30543
+G0355,Zeillern,council,municipality,G0008,,pending,,,,,,30544
+G0356,Alland,council,municipality,G0008,,pending,,,,,,30601
+G0357,Altenmarkt an der Triesting,council,municipality,G0008,,pending,,,,,,30602
+G0358,Bad Vöslau,council,municipality,G0008,,pending,,,,,,30603
+G0359,Baden,council,municipality,G0008,,pending,,,,,,30604
+G0360,Berndorf,council,municipality,G0008,,pending,,,,,,30605
+G0361,Ebreichsdorf,council,municipality,G0008,,pending,,,,,,30607
+G0362,Enzesfeld-Lindabrunn,council,municipality,G0008,,pending,,,,,,30608
+G0363,Furth an der Triesting,council,municipality,G0008,,pending,,,,,,30609
+G0364,Günselsdorf,council,municipality,G0008,,pending,,,,,,30612
+G0365,Heiligenkreuz,council,municipality,G0008,,pending,,,,,,30613
+G0366,Hernstein,council,municipality,G0008,,pending,,,,,,30614
+G0367,Hirtenberg,council,municipality,G0008,,pending,,,,,,30615
+G0368,Klausen-Leopoldsdorf,council,municipality,G0008,,pending,,,,,,30616
+G0369,Kottingbrunn,council,municipality,G0008,,pending,,,,,,30618
+G0370,Leobersdorf,council,municipality,G0008,,pending,,,,,,30620
+G0371,Mitterndorf an der Fischa,council,municipality,G0008,,pending,,,,,,30621
+G0372,Oberwaltersdorf,council,municipality,G0008,,pending,,,,,,30623
+G0373,Pfaffstätten,council,municipality,G0008,,pending,,,,,,30625
+G0374,Pottendorf,council,municipality,G0008,,pending,,,,,,30626
+G0375,Pottenstein,council,municipality,G0008,,pending,,,,,,30627
+G0376,Reisenberg,council,municipality,G0008,,pending,,,,,,30629
+G0377,Schönau an der Triesting,council,municipality,G0008,,pending,,,,,,30631
+G0378,Seibersdorf,council,municipality,G0008,,pending,,,,,,30633
+G0379,Sooß,council,municipality,G0008,,pending,,,,,,30635
+G0380,Tattendorf,council,municipality,G0008,,pending,,,,,,30636
+G0381,Teesdorf,council,municipality,G0008,,pending,,,,,,30637
+G0382,Traiskirchen,council,municipality,G0008,,pending,,,,,,30639
+G0383,Trumau,council,municipality,G0008,,pending,,,,,,30641
+G0384,Weissenbach an der Triesting,council,municipality,G0008,,pending,,,,,,30645
+G0385,Blumau-Neurißhof,council,municipality,G0008,,pending,,,,,,30646
+G0386,Au am Leithaberge,council,municipality,G0008,,pending,,,,,,30701
+G0387,Bad Deutsch-Altenburg,council,municipality,G0008,,pending,,,,,,30702
+G0388,Berg,council,municipality,G0008,,pending,,,,,,30703
+G0389,Bruck an der Leitha,council,municipality,G0008,,pending,,,,,,30704
+G0390,Enzersdorf an der Fischa,council,municipality,G0008,,pending,,,,,,30706
+G0391,Göttlesbrunn-Arbesthal,council,municipality,G0008,,pending,,,,,,30708
+G0392,Götzendorf an der Leitha,council,municipality,G0008,,pending,,,,,,30709
+G0393,Hainburg a.d. Donau,council,municipality,G0008,,pending,,,,,,30710
+G0394,Haslau-Maria Ellend,council,municipality,G0008,,pending,,,,,,30711
+G0395,Höflein,council,municipality,G0008,,pending,,,,,,30712
+G0396,Hof am Leithaberge,council,municipality,G0008,,pending,,,,,,30713
+G0397,Hundsheim,council,municipality,G0008,,pending,,,,,,30715
+G0398,Mannersdorf am Leithagebirge,council,municipality,G0008,,pending,,,,,,30716
+G0399,Petronell-Carnuntum,council,municipality,G0008,,pending,,,,,,30718
+G0400,Prellenkirchen,council,municipality,G0008,,pending,,,,,,30719
+G0401,Rohrau,council,municipality,G0008,,pending,,,,,,30721
+G0402,Scharndorf,council,municipality,G0008,,pending,,,,,,30722
+G0403,Sommerein,council,municipality,G0008,,pending,,,,,,30724
+G0404,Trautmannsdorf an der Leitha,council,municipality,G0008,,pending,,,,,,30726
+G0405,Wolfsthal,council,municipality,G0008,,pending,,,,,,30728
+G0406,Ebergassing,council,municipality,G0008,,pending,,,,,,30729
+G0407,Fischamend,council,municipality,G0008,,pending,,,,,,30730
+G0408,Gramatneusiedl,council,municipality,G0008,,pending,,,,,,30731
+G0409,Himberg,council,municipality,G0008,,pending,,,,,,30732
+G0410,Klein-Neusiedl,council,municipality,G0008,,pending,,,,,,30733
+G0411,Lanzendorf,council,municipality,G0008,,pending,,,,,,30734
+G0412,Leopoldsdorf,council,municipality,G0008,,pending,,,,,,30735
+G0413,Maria-Lanzendorf,council,municipality,G0008,,pending,,,,,,30736
+G0414,Moosbrunn,council,municipality,G0008,,pending,,,,,,30737
+G0415,Rauchenwarth,council,municipality,G0008,,pending,,,,,,30738
+G0416,Schwadorf,council,municipality,G0008,,pending,,,,,,30739
+G0417,Schwechat,council,municipality,G0008,,pending,,,,,,30740
+G0418,Zwölfaxing,council,municipality,G0008,,pending,,,,,,30741
+G0419,Aderklaa,council,municipality,G0008,,pending,,,,,,30801
+G0420,Andlersdorf,council,municipality,G0008,,pending,,,,,,30802
+G0421,Angern an der March,council,municipality,G0008,,pending,,,,,,30803
+G0422,Auersthal,council,municipality,G0008,,pending,,,,,,30804
+G0423,Bad Pirawarth,council,municipality,G0008,,pending,,,,,,30805
+G0424,Deutsch-Wagram,council,municipality,G0008,,pending,,,,,,30808
+G0425,Drösing,council,municipality,G0008,,pending,,,,,,30810
+G0426,Dürnkrut,council,municipality,G0008,,pending,,,,,,30811
+G0427,Ebenthal,council,municipality,G0008,,pending,,,,,,30812
+G0428,Eckartsau,council,municipality,G0008,,pending,,,,,,30813
+G0429,Engelhartstetten,council,municipality,G0008,,pending,,,,,,30814
+G0430,Gänserndorf,council,municipality,G0008,,pending,,,,,,30817
+G0431,Glinzendorf,council,municipality,G0008,,pending,,,,,,30819
+G0432,Groß-Enzersdorf,council,municipality,G0008,,pending,,,,,,30821
+G0433,Großhofen,council,municipality,G0008,,pending,,,,,,30822
+G0434,Groß-Schweinbarth,council,municipality,G0008,,pending,,,,,,30824
+G0435,Haringsee,council,municipality,G0008,,pending,,,,,,30825
+G0436,Hauskirchen,council,municipality,G0008,,pending,,,,,,30826
+G0437,Hohenau an der March,council,municipality,G0008,,pending,,,,,,30827
+G0438,Hohenruppersdorf,council,municipality,G0008,,pending,,,,,,30828
+G0439,Jedenspeigen,council,municipality,G0008,,pending,,,,,,30829
+G0440,Lassee,council,municipality,G0008,,pending,,,,,,30830
+G0441,Leopoldsdorf im Marchfeld,council,municipality,G0008,,pending,,,,,,30831
+G0442,Mannsdorf an der Donau,council,municipality,G0008,,pending,,,,,,30834
+G0443,Marchegg,council,municipality,G0008,,pending,,,,,,30835
+G0444,Markgrafneusiedl,council,municipality,G0008,,pending,,,,,,30836
+G0445,Matzen-Raggendorf,council,municipality,G0008,,pending,,,,,,30838
+G0446,Neusiedl an der Zaya,council,municipality,G0008,,pending,,,,,,30841
+G0447,Obersiebenbrunn,council,municipality,G0008,,pending,,,,,,30842
+G0448,Orth an der Donau,council,municipality,G0008,,pending,,,,,,30844
+G0449,Palterndorf-Dobermannsdorf,council,municipality,G0008,,pending,,,,,,30845
+G0450,Parbasdorf,council,municipality,G0008,,pending,,,,,,30846
+G0451,Prottes,council,municipality,G0008,,pending,,,,,,30848
+G0452,Raasdorf,council,municipality,G0008,,pending,,,,,,30849
+G0453,Ringelsdorf-Niederabsdorf,council,municipality,G0008,,pending,,,,,,30850
+G0454,Schönkirchen-Reyersdorf,council,municipality,G0008,,pending,,,,,,30852
+G0455,Spannberg,council,municipality,G0008,,pending,,,,,,30854
+G0456,Strasshof an der Nordbahn,council,municipality,G0008,,pending,,,,,,30856
+G0457,Sulz im Weinviertel,council,municipality,G0008,,pending,,,,,,30857
+G0458,Untersiebenbrunn,council,municipality,G0008,,pending,,,,,,30858
+G0459,Velm-Götzendorf,council,municipality,G0008,,pending,,,,,,30859
+G0460,Weikendorf,council,municipality,G0008,,pending,,,,,,30860
+G0461,Zistersdorf,council,municipality,G0008,,pending,,,,,,30863
+G0462,Weiden an der March,council,municipality,G0008,,pending,,,,,,30865
+G0463,Amaliendorf-Aalfang,council,municipality,G0008,,pending,,,,,,30902
+G0464,Brand-Nagelberg,council,municipality,G0008,,pending,,,,,,30903
+G0465,Eggern,council,municipality,G0008,,pending,,,,,,30904
+G0466,Eisgarn,council,municipality,G0008,,pending,,,,,,30906
+G0467,Gmünd,council,municipality,G0008,,pending,,,,,,30908
+G0468,Großdietmanns,council,municipality,G0008,,pending,,,,,,30909
+G0469,Bad Großpertholz,council,municipality,G0008,,pending,,,,,,30910
+G0470,Großschönau,council,municipality,G0008,,pending,,,,,,30912
+G0471,Moorbad Harbach,council,municipality,G0008,,pending,,,,,,30913
+G0472,Haugschlag,council,municipality,G0008,,pending,,,,,,30915
+G0473,Heidenreichstein,council,municipality,G0008,,pending,,,,,,30916
+G0474,Hirschbach,council,municipality,G0008,,pending,,,,,,30917
+G0475,Hoheneich,council,municipality,G0008,,pending,,,,,,30920
+G0476,Kirchberg am Walde,council,municipality,G0008,,pending,,,,,,30921
+G0477,Litschau,council,municipality,G0008,,pending,,,,,,30925
+G0478,Reingers,council,municipality,G0008,,pending,,,,,,30929
+G0479,St. Martin,council,municipality,G0008,,pending,,,,,,30932
+G0480,Schrems,council,municipality,G0008,,pending,,,,,,30935
+G0481,Unserfrau-Altweitra,council,municipality,G0008,,pending,,,,,,30939
+G0482,Waldenstein,council,municipality,G0008,,pending,,,,,,30940
+G0483,Weitra,council,municipality,G0008,,pending,,,,,,30942
+G0484,Alberndorf im Pulkautal,council,municipality,G0008,,pending,,,,,,31001
+G0485,Göllersdorf,council,municipality,G0008,,pending,,,,,,31008
+G0486,Grabern,council,municipality,G0008,,pending,,,,,,31009
+G0487,Guntersdorf,council,municipality,G0008,,pending,,,,,,31014
+G0488,Hadres,council,municipality,G0008,,pending,,,,,,31015
+G0489,Hardegg,council,municipality,G0008,,pending,,,,,,31016
+G0490,Haugsdorf,council,municipality,G0008,,pending,,,,,,31018
+G0491,Heldenberg,council,municipality,G0008,,pending,,,,,,31019
+G0492,Hohenwarth-Mühlbach a.M.,council,municipality,G0008,,pending,,,,,,31021
+G0493,Hollabrunn,council,municipality,G0008,,pending,,,,,,31022
+G0494,Mailberg,council,municipality,G0008,,pending,,,,,,31025
+G0495,Maissau,council,municipality,G0008,,pending,,,,,,31026
+G0496,Nappersdorf-Kammersdorf,council,municipality,G0008,,pending,,,,,,31028
+G0497,Pernersdorf,council,municipality,G0008,,pending,,,,,,31033
+G0498,Pulkau,council,municipality,G0008,,pending,,,,,,31035
+G0499,Ravelsbach,council,municipality,G0008,,pending,,,,,,31036
+G0500,Retz,council,municipality,G0008,,pending,,,,,,31037
+G0501,Retzbach,council,municipality,G0008,,pending,,,,,,31038
+G0502,Schrattenthal,council,municipality,G0008,,pending,,,,,,31041
+G0503,Seefeld-Kadolz,council,municipality,G0008,,pending,,,,,,31042
+G0504,Sitzendorf an der Schmida,council,municipality,G0008,,pending,,,,,,31043
+G0505,Wullersdorf,council,municipality,G0008,,pending,,,,,,31051
+G0506,Zellerndorf,council,municipality,G0008,,pending,,,,,,31052
+G0507,Ziersdorf,council,municipality,G0008,,pending,,,,,,31053
+G0508,Altenburg,council,municipality,G0008,,pending,,,,,,31101
+G0509,Brunn an der Wild,council,municipality,G0008,,pending,,,,,,31102
+G0510,Burgschleinitz-Kühnring,council,municipality,G0008,,pending,,,,,,31103
+G0511,Drosendorf-Zissersdorf,council,municipality,G0008,,pending,,,,,,31104
+G0512,Eggenburg,council,municipality,G0008,,pending,,,,,,31105
+G0513,Gars am Kamp,council,municipality,G0008,,pending,,,,,,31106
+G0514,Geras,council,municipality,G0008,,pending,,,,,,31107
+G0515,Horn,council,municipality,G0008,,pending,,,,,,31109
+G0516,Irnfritz-Messern,council,municipality,G0008,,pending,,,,,,31110
+G0517,Japons,council,municipality,G0008,,pending,,,,,,31111
+G0518,Langau,council,municipality,G0008,,pending,,,,,,31113
+G0519,Meiseldorf,council,municipality,G0008,,pending,,,,,,31114
+G0520,Pernegg,council,municipality,G0008,,pending,,,,,,31117
+G0521,Röhrenbach,council,municipality,G0008,,pending,,,,,,31119
+G0522,Röschitz,council,municipality,G0008,,pending,,,,,,31120
+G0523,Rosenburg-Mold,council,municipality,G0008,,pending,,,,,,31121
+G0524,St. Bernhard-Frauenhofen,council,municipality,G0008,,pending,,,,,,31123
+G0525,Sigmundsherberg,council,municipality,G0008,,pending,,,,,,31124
+G0526,Weitersfeld,council,municipality,G0008,,pending,,,,,,31129
+G0527,Straning-Grafenberg,council,municipality,G0008,,pending,,,,,,31130
+G0528,Bisamberg,council,municipality,G0008,,pending,,,,,,31201
+G0529,Enzersfeld im Weinviertel,council,municipality,G0008,,pending,,,,,,31202
+G0530,Ernstbrunn,council,municipality,G0008,,pending,,,,,,31203
+G0531,Großmugl,council,municipality,G0008,,pending,,,,,,31204
+G0532,Großrußbach,council,municipality,G0008,,pending,,,,,,31205
+G0533,Hagenbrunn,council,municipality,G0008,,pending,,,,,,31206
+G0534,Harmannsdorf,council,municipality,G0008,,pending,,,,,,31207
+G0535,Hausleiten,council,municipality,G0008,,pending,,,,,,31208
+G0536,Korneuburg,council,municipality,G0008,,pending,,,,,,31213
+G0537,Langenzersdorf,council,municipality,G0008,,pending,,,,,,31214
+G0538,Leitzersdorf,council,municipality,G0008,,pending,,,,,,31215
+G0539,Leobendorf,council,municipality,G0008,,pending,,,,,,31216
+G0540,Rußbach,council,municipality,G0008,,pending,,,,,,31224
+G0541,Sierndorf,council,municipality,G0008,,pending,,,,,,31226
+G0542,Spillern,council,municipality,G0008,,pending,,,,,,31227
+G0543,Stetteldorf am Wagram,council,municipality,G0008,,pending,,,,,,31228
+G0544,Stetten,council,municipality,G0008,,pending,,,,,,31229
+G0545,Stockerau,council,municipality,G0008,,pending,,,,,,31230
+G0546,Niederhollabrunn,council,municipality,G0008,,pending,,,,,,31234
+G0547,Gerasdorf bei Wien,council,municipality,G0008,,pending,,,,,,31235
+G0548,Aggsbach,council,municipality,G0008,,pending,,,,,,31301
+G0549,Albrechtsberg an der Großen Krems,council,municipality,G0008,,pending,,,,,,31302
+G0550,Bergern im Dunkelsteinerwald,council,municipality,G0008,,pending,,,,,,31303
+G0551,Dürnstein,council,municipality,G0008,,pending,,,,,,31304
+G0552,Grafenegg,council,municipality,G0008,,pending,,,,,,31308
+G0553,Furth bei Göttweig,council,municipality,G0008,,pending,,,,,,31309
+G0554,Gedersdorf,council,municipality,G0008,,pending,,,,,,31310
+G0555,Gföhl,council,municipality,G0008,,pending,,,,,,31311
+G0556,Hadersdorf-Kammern,council,municipality,G0008,,pending,,,,,,31315
+G0557,Jaidhof,council,municipality,G0008,,pending,,,,,,31319
+G0558,Krumau am Kamp,council,municipality,G0008,,pending,,,,,,31321
+G0559,Langenlois,council,municipality,G0008,,pending,,,,,,31322
+G0560,Lengenfeld,council,municipality,G0008,,pending,,,,,,31323
+G0561,Lichtenau im Waldviertel,council,municipality,G0008,,pending,,,,,,31324
+G0562,Maria Laach am Jauerling,council,municipality,G0008,,pending,,,,,,31326
+G0563,Mautern an der Donau,council,municipality,G0008,,pending,,,,,,31327
+G0564,Mühldorf,council,municipality,G0008,,pending,,,,,,31330
+G0565,Paudorf,council,municipality,G0008,,pending,,,,,,31333
+G0566,Rastenfeld,council,municipality,G0008,,pending,,,,,,31336
+G0567,Rohrendorf bei Krems,council,municipality,G0008,,pending,,,,,,31337
+G0568,Rossatz-Arnsdorf,council,municipality,G0008,,pending,,,,,,31338
+G0569,St. Leonhard am Hornerwald,council,municipality,G0008,,pending,,,,,,31340
+G0570,Senftenberg,council,municipality,G0008,,pending,,,,,,31343
+G0571,Spitz,council,municipality,G0008,,pending,,,,,,31344
+G0572,Straß im Straßertale,council,municipality,G0008,,pending,,,,,,31346
+G0573,Stratzing,council,municipality,G0008,,pending,,,,,,31347
+G0574,Weinzierl am Walde,council,municipality,G0008,,pending,,,,,,31350
+G0575,Weißenkirchen in der Wachau,council,municipality,G0008,,pending,,,,,,31351
+G0576,Schönberg am Kamp,council,municipality,G0008,,pending,,,,,,31355
+G0577,Droß,council,municipality,G0008,,pending,,,,,,31356
+G0578,Annaberg,council,municipality,G0008,,pending,,,,,,31401
+G0579,Eschenau,council,municipality,G0008,,pending,,,,,,31402
+G0580,Hainfeld,council,municipality,G0008,,pending,,,,,,31403
+G0581,Hohenberg,council,municipality,G0008,,pending,,,,,,31404
+G0582,Kaumberg,council,municipality,G0008,,pending,,,,,,31405
+G0583,Kleinzell,council,municipality,G0008,,pending,,,,,,31406
+G0584,Lilienfeld,council,municipality,G0008,,pending,,,,,,31407
+G0585,Mitterbach am Erlaufsee,council,municipality,G0008,,pending,,,,,,31408
+G0586,Ramsau,council,municipality,G0008,,pending,,,,,,31409
+G0587,Rohrbach an der Gölsen,council,municipality,G0008,,pending,,,,,,31410
+G0588,St. Aegyd am Neuwalde,council,municipality,G0008,,pending,,,,,,31411
+G0589,St. Veit an der Gölsen,council,municipality,G0008,,pending,,,,,,31412
+G0590,Traisen,council,municipality,G0008,,pending,,,,,,31413
+G0591,Türnitz,council,municipality,G0008,,pending,,,,,,31414
+G0592,Artstetten-Pöbring,council,municipality,G0008,,pending,,,,,,31502
+G0593,Bergland,council,municipality,G0008,,pending,,,,,,31503
+G0594,Bischofstetten,council,municipality,G0008,,pending,,,,,,31504
+G0595,Blindenmarkt,council,municipality,G0008,,pending,,,,,,31505
+G0596,Dorfstetten,council,municipality,G0008,,pending,,,,,,31506
+G0597,Dunkelsteinerwald,council,municipality,G0008,,pending,,,,,,31507
+G0598,Erlauf,council,municipality,G0008,,pending,,,,,,31508
+G0599,Golling an der Erlauf,council,municipality,G0008,,pending,,,,,,31509
+G0600,Hofamt Priel,council,municipality,G0008,,pending,,,,,,31511
+G0601,Hürm,council,municipality,G0008,,pending,,,,,,31513
+G0602,Kilb,council,municipality,G0008,,pending,,,,,,31514
+G0603,Kirnberg an der Mank,council,municipality,G0008,,pending,,,,,,31515
+G0604,Klein-Pöchlarn,council,municipality,G0008,,pending,,,,,,31516
+G0605,Krummnußbaum,council,municipality,G0008,,pending,,,,,,31517
+G0606,Leiben,council,municipality,G0008,,pending,,,,,,31519
+G0607,Loosdorf,council,municipality,G0008,,pending,,,,,,31520
+G0608,Mank,council,municipality,G0008,,pending,,,,,,31521
+G0609,Marbach an der Donau,council,municipality,G0008,,pending,,,,,,31522
+G0610,Maria Taferl,council,municipality,G0008,,pending,,,,,,31523
+G0611,Melk,council,municipality,G0008,,pending,,,,,,31524
+G0612,Münichreith-Laimbach,council,municipality,G0008,,pending,,,,,,31525
+G0613,Neumarkt an der Ybbs,council,municipality,G0008,,pending,,,,,,31527
+G0614,Nöchling,council,municipality,G0008,,pending,,,,,,31528
+G0615,Persenbeug-Gottsdorf,council,municipality,G0008,,pending,,,,,,31530
+G0616,Petzenkirchen,council,municipality,G0008,,pending,,,,,,31531
+G0617,Pöchlarn,council,municipality,G0008,,pending,,,,,,31533
+G0618,Pöggstall,council,municipality,G0008,,pending,,,,,,31534
+G0619,Raxendorf,council,municipality,G0008,,pending,,,,,,31535
+G0620,Ruprechtshofen,council,municipality,G0008,,pending,,,,,,31537
+G0621,St. Leonhard am Forst,council,municipality,G0008,,pending,,,,,,31539
+G0622,St. Martin-Karlsbach,council,municipality,G0008,,pending,,,,,,31540
+G0623,St. Oswald,council,municipality,G0008,,pending,,,,,,31541
+G0624,Schönbühel-Aggsbach,council,municipality,G0008,,pending,,,,,,31542
+G0625,Schollach,council,municipality,G0008,,pending,,,,,,31543
+G0626,Weiten,council,municipality,G0008,,pending,,,,,,31546
+G0627,Ybbs an der Donau,council,municipality,G0008,,pending,,,,,,31549
+G0628,Zelking-Matzleinsdorf,council,municipality,G0008,,pending,,,,,,31550
+G0629,Texingtal,council,municipality,G0008,,pending,,,,,,31551
+G0630,Yspertal,council,municipality,G0008,,pending,,,,,,31552
+G0631,Emmersdorf an der Donau,council,municipality,G0008,,pending,,,,,,31553
+G0632,Altlichtenwarth,council,municipality,G0008,,pending,,,,,,31601
+G0633,Asparn an der Zaya,council,municipality,G0008,,pending,,,,,,31603
+G0634,Bernhardsthal,council,municipality,G0008,,pending,,,,,,31604
+G0635,Bockfließ,council,municipality,G0008,,pending,,,,,,31605
+G0636,Drasenhofen,council,municipality,G0008,,pending,,,,,,31606
+G0637,Falkenstein,council,municipality,G0008,,pending,,,,,,31608
+G0638,Fallbach,council,municipality,G0008,,pending,,,,,,31609
+G0639,Gaubitsch,council,municipality,G0008,,pending,,,,,,31611
+G0640,Gaweinstal,council,municipality,G0008,,pending,,,,,,31612
+G0641,Gnadendorf,council,municipality,G0008,,pending,,,,,,31613
+G0642,Großebersdorf,council,municipality,G0008,,pending,,,,,,31614
+G0643,Großengersdorf,council,municipality,G0008,,pending,,,,,,31615
+G0644,Großharras,council,municipality,G0008,,pending,,,,,,31616
+G0645,Großkrut,council,municipality,G0008,,pending,,,,,,31617
+G0646,Hausbrunn,council,municipality,G0008,,pending,,,,,,31620
+G0647,Herrnbaumgarten,council,municipality,G0008,,pending,,,,,,31621
+G0648,Hochleithen,council,municipality,G0008,,pending,,,,,,31622
+G0649,Kreuttal,council,municipality,G0008,,pending,,,,,,31627
+G0650,Kreuzstetten,council,municipality,G0008,,pending,,,,,,31628
+G0651,Laa an der Thaya,council,municipality,G0008,,pending,,,,,,31629
+G0652,Ladendorf,council,municipality,G0008,,pending,,,,,,31630
+G0653,Mistelbach,council,municipality,G0008,,pending,,,,,,31633
+G0654,Neudorf im Weinviertel,council,municipality,G0008,,pending,,,,,,31634
+G0655,Niederleis,council,municipality,G0008,,pending,,,,,,31636
+G0656,Pillichsdorf,council,municipality,G0008,,pending,,,,,,31642
+G0657,Poysdorf,council,municipality,G0008,,pending,,,,,,31644
+G0658,Rabensburg,council,municipality,G0008,,pending,,,,,,31645
+G0659,Schrattenberg,council,municipality,G0008,,pending,,,,,,31646
+G0660,Staatz,council,municipality,G0008,,pending,,,,,,31649
+G0661,Stronsdorf,council,municipality,G0008,,pending,,,,,,31650
+G0662,Ulrichskirchen-Schleinbach,council,municipality,G0008,,pending,,,,,,31651
+G0663,Unterstinkenbrunn,council,municipality,G0008,,pending,,,,,,31652
+G0664,Wildendürnbach,council,municipality,G0008,,pending,,,,,,31653
+G0665,Wilfersdorf,council,municipality,G0008,,pending,,,,,,31654
+G0666,Wolkersdorf im Weinviertel,council,municipality,G0008,,pending,,,,,,31655
+G0667,Ottenthal,council,municipality,G0008,,pending,,,,,,31658
+G0668,Achau,council,municipality,G0008,,pending,,,,,,31701
+G0669,Biedermannsdorf,council,municipality,G0008,,pending,,,,,,31702
+G0670,Breitenfurt bei Wien,council,municipality,G0008,,pending,,,,,,31703
+G0671,Brunn am Gebirge,council,municipality,G0008,,pending,,,,,,31704
+G0672,Gaaden,council,municipality,G0008,,pending,,,,,,31706
+G0673,Gießhübl,council,municipality,G0008,,pending,,,,,,31707
+G0674,Gumpoldskirchen,council,municipality,G0008,,pending,,,,,,31709
+G0675,Guntramsdorf,council,municipality,G0008,,pending,,,,,,31710
+G0676,Hennersdorf,council,municipality,G0008,,pending,,,,,,31711
+G0677,Hinterbrühl,council,municipality,G0008,,pending,,,,,,31712
+G0678,Kaltenleutgeben,council,municipality,G0008,,pending,,,,,,31713
+G0679,Laab im Walde,council,municipality,G0008,,pending,,,,,,31714
+G0680,Laxenburg,council,municipality,G0008,,pending,,,,,,31715
+G0681,Maria Enzersdorf,council,municipality,G0008,,pending,,,,,,31716
+G0682,Mödling,council,municipality,G0008,,pending,,,,,,31717
+G0683,Münchendorf,council,municipality,G0008,,pending,,,,,,31718
+G0684,Perchtoldsdorf,council,municipality,G0008,,pending,,,,,,31719
+G0685,Vösendorf,council,municipality,G0008,,pending,,,,,,31723
+G0686,Wiener Neudorf,council,municipality,G0008,,pending,,,,,,31725
+G0687,Wienerwald,council,municipality,G0008,,pending,,,,,,31726
+G0688,Altendorf,council,municipality,G0008,,pending,,,,,,31801
+G0689,Aspang-Markt,council,municipality,G0008,,pending,,,,,,31802
+G0690,Aspangberg-St. Peter,council,municipality,G0008,,pending,,,,,,31803
+G0691,Breitenau,council,municipality,G0008,,pending,,,,,,31804
+G0692,Breitenstein,council,municipality,G0008,,pending,,,,,,31805
+G0693,Buchbach,council,municipality,G0008,,pending,,,,,,31806
+G0694,Edlitz,council,municipality,G0008,,pending,,,,,,31807
+G0695,Enzenreith,council,municipality,G0008,,pending,,,,,,31808
+G0696,Feistritz am Wechsel,council,municipality,G0008,,pending,,,,,,31809
+G0697,Gloggnitz,council,municipality,G0008,,pending,,,,,,31810
+G0698,Grafenbach-St. Valentin,council,municipality,G0008,,pending,,,,,,31811
+G0699,Grimmenstein,council,municipality,G0008,,pending,,,,,,31812
+G0700,Grünbach am Schneeberg,council,municipality,G0008,,pending,,,,,,31813
+G0701,Kirchberg am Wechsel,council,municipality,G0008,,pending,,,,,,31814
+G0702,Mönichkirchen,council,municipality,G0008,,pending,,,,,,31815
+G0703,Natschbach-Loipersbach,council,municipality,G0008,,pending,,,,,,31817
+G0704,Neunkirchen,council,municipality,G0008,,pending,,,,,,31818
+G0705,Otterthal,council,municipality,G0008,,pending,,,,,,31820
+G0706,Payerbach,council,municipality,G0008,,pending,,,,,,31821
+G0707,Pitten,council,municipality,G0008,,pending,,,,,,31823
+G0708,Prigglitz,council,municipality,G0008,,pending,,,,,,31825
+G0709,Puchberg am Schneeberg,council,municipality,G0008,,pending,,,,,,31826
+G0710,Raach am Hochgebirge,council,municipality,G0008,,pending,,,,,,31827
+G0711,Reichenau an der Rax,council,municipality,G0008,,pending,,,,,,31829
+G0712,St. Corona am Wechsel,council,municipality,G0008,,pending,,,,,,31830
+G0713,St. Egyden am Steinfeld,council,municipality,G0008,,pending,,,,,,31831
+G0714,Scheiblingkirchen-Thernberg,council,municipality,G0008,,pending,,,,,,31832
+G0715,Schottwien,council,municipality,G0008,,pending,,,,,,31833
+G0716,Schrattenbach,council,municipality,G0008,,pending,,,,,,31834
+G0717,Schwarzau am Steinfeld,council,municipality,G0008,,pending,,,,,,31835
+G0718,Schwarzau im Gebirge,council,municipality,G0008,,pending,,,,,,31836
+G0719,Seebenstein,council,municipality,G0008,,pending,,,,,,31837
+G0720,Semmering,council,municipality,G0008,,pending,,,,,,31838
+G0721,Ternitz,council,municipality,G0008,,pending,,,,,,31839
+G0722,Thomasberg,council,municipality,G0008,,pending,,,,,,31840
+G0723,Trattenbach,council,municipality,G0008,,pending,,,,,,31841
+G0724,Bürg-Vöstenhof,council,municipality,G0008,,pending,,,,,,31842
+G0725,Warth,council,municipality,G0008,,pending,,,,,,31843
+G0726,Wartmannstetten,council,municipality,G0008,,pending,,,,,,31844
+G0727,Willendorf,council,municipality,G0008,,pending,,,,,,31845
+G0728,Wimpassing im Schwarzatale,council,municipality,G0008,,pending,,,,,,31846
+G0729,Würflach,council,municipality,G0008,,pending,,,,,,31847
+G0730,Zöbern,council,municipality,G0008,,pending,,,,,,31848
+G0731,Höflein an der Hohen Wand,council,municipality,G0008,,pending,,,,,,31849
+G0732,Altlengbach,council,municipality,G0008,,pending,,,,,,31901
+G0733,Asperhofen,council,municipality,G0008,,pending,,,,,,31902
+G0734,Böheimkirchen,council,municipality,G0008,,pending,,,,,,31903
+G0735,Brand-Laaben,council,municipality,G0008,,pending,,,,,,31904
+G0736,Eichgraben,council,municipality,G0008,,pending,,,,,,31905
+G0737,Frankenfels,council,municipality,G0008,,pending,,,,,,31906
+G0738,Gerersdorf,council,municipality,G0008,,pending,,,,,,31907
+G0739,Hofstetten-Grünau,council,municipality,G0008,,pending,,,,,,31909
+G0740,Hafnerbach,council,municipality,G0008,,pending,,,,,,31910
+G0741,Haunoldstein,council,municipality,G0008,,pending,,,,,,31911
+G0742,Herzogenburg,council,municipality,G0008,,pending,,,,,,31912
+G0743,Inzersdorf-Getzersdorf,council,municipality,G0008,,pending,,,,,,31913
+G0744,Kapelln,council,municipality,G0008,,pending,,,,,,31915
+G0745,Karlstetten,council,municipality,G0008,,pending,,,,,,31916
+G0746,Kasten bei Böheimkirchen,council,municipality,G0008,,pending,,,,,,31917
+G0747,Kirchberg an der Pielach,council,municipality,G0008,,pending,,,,,,31918
+G0748,Kirchstetten,council,municipality,G0008,,pending,,,,,,31919
+G0749,Loich,council,municipality,G0008,,pending,,,,,,31920
+G0750,Maria Anzbach,council,municipality,G0008,,pending,,,,,,31921
+G0751,Markersdorf-Haindorf,council,municipality,G0008,,pending,,,,,,31922
+G0752,Michelbach,council,municipality,G0008,,pending,,,,,,31923
+G0753,Neidling,council,municipality,G0008,,pending,,,,,,31925
+G0754,Neulengbach,council,municipality,G0008,,pending,,,,,,31926
+G0755,Neustift-Innermanzing,council,municipality,G0008,,pending,,,,,,31927
+G0756,Nußdorf ob der Traisen,council,municipality,G0008,,pending,,,,,,31928
+G0757,Ober-Grafendorf,council,municipality,G0008,,pending,,,,,,31929
+G0758,Obritzberg-Rust,council,municipality,G0008,,pending,,,,,,31930
+G0759,Prinzersdorf,council,municipality,G0008,,pending,,,,,,31932
+G0760,Pyhra,council,municipality,G0008,,pending,,,,,,31934
+G0761,Rabenstein an der Pielach,council,municipality,G0008,,pending,,,,,,31935
+G0762,St. Margarethen an der Sierning,council,municipality,G0008,,pending,,,,,,31938
+G0763,Schwarzenbach an der Pielach,council,municipality,G0008,,pending,,,,,,31939
+G0764,Statzendorf,council,municipality,G0008,,pending,,,,,,31940
+G0765,Stössing,council,municipality,G0008,,pending,,,,,,31941
+G0766,Traismauer,council,municipality,G0008,,pending,,,,,,31943
+G0767,Weinburg,council,municipality,G0008,,pending,,,,,,31945
+G0768,Perschling,council,municipality,G0008,,pending,,,,,,31946
+G0769,Wilhelmsburg,council,municipality,G0008,,pending,,,,,,31947
+G0770,Wölbling,council,municipality,G0008,,pending,,,,,,31948
+G0771,Gablitz,council,municipality,G0008,,pending,,,,,,31949
+G0772,Mauerbach,council,municipality,G0008,,pending,,,,,,31950
+G0773,Pressbaum,council,municipality,G0008,,pending,,,,,,31951
+G0774,Purkersdorf,council,municipality,G0008,,pending,,,,,,31952
+G0775,Tullnerbach,council,municipality,G0008,,pending,,,,,,31953
+G0776,Wolfsgraben,council,municipality,G0008,,pending,,,,,,31954
+G0777,Gaming,council,municipality,G0008,,pending,,,,,,32001
+G0778,Göstling an der Ybbs,council,municipality,G0008,,pending,,,,,,32002
+G0779,Gresten,council,municipality,G0008,,pending,,,,,,32003
+G0780,Gresten-Land,council,municipality,G0008,,pending,,,,,,32004
+G0781,Lunz am See,council,municipality,G0008,,pending,,,,,,32005
+G0782,Oberndorf an der Melk,council,municipality,G0008,,pending,,,,,,32006
+G0783,Puchenstuben,council,municipality,G0008,,pending,,,,,,32007
+G0784,Purgstall an der Erlauf,council,municipality,G0008,,pending,,,,,,32008
+G0785,Randegg,council,municipality,G0008,,pending,,,,,,32009
+G0786,Reinsberg,council,municipality,G0008,,pending,,,,,,32010
+G0787,St. Anton an der Jeßnitz,council,municipality,G0008,,pending,,,,,,32011
+G0788,St. Georgen an der Leys,council,municipality,G0008,,pending,,,,,,32012
+G0789,Scheibbs,council,municipality,G0008,,pending,,,,,,32013
+G0790,Steinakirchen am Forst,council,municipality,G0008,,pending,,,,,,32014
+G0791,Wang,council,municipality,G0008,,pending,,,,,,32015
+G0792,Wieselburg,council,municipality,G0008,,pending,,,,,,32016
+G0793,Wieselburg-Land,council,municipality,G0008,,pending,,,,,,32017
+G0794,Wolfpassing,council,municipality,G0008,,pending,,,,,,32018
+G0795,Absdorf,council,municipality,G0008,,pending,,,,,,32101
+G0796,Atzenbrugg,council,municipality,G0008,,pending,,,,,,32104
+G0797,Fels am Wagram,council,municipality,G0008,,pending,,,,,,32106
+G0798,Grafenwörth,council,municipality,G0008,,pending,,,,,,32107
+G0799,Großriedenthal,council,municipality,G0008,,pending,,,,,,32109
+G0800,Großweikersdorf,council,municipality,G0008,,pending,,,,,,32110
+G0801,Judenau-Baumgarten,council,municipality,G0008,,pending,,,,,,32112
+G0802,Kirchberg am Wagram,council,municipality,G0008,,pending,,,,,,32114
+G0803,Königsbrunn am Wagram,council,municipality,G0008,,pending,,,,,,32115
+G0804,Königstetten,council,municipality,G0008,,pending,,,,,,32116
+G0805,Langenrohr,council,municipality,G0008,,pending,,,,,,32119
+G0806,Michelhausen,council,municipality,G0008,,pending,,,,,,32120
+G0807,Sieghartskirchen,council,municipality,G0008,,pending,,,,,,32131
+G0808,Sitzenberg-Reidling,council,municipality,G0008,,pending,,,,,,32132
+G0809,Tulbing,council,municipality,G0008,,pending,,,,,,32134
+G0810,Tulln an der Donau,council,municipality,G0008,,pending,,,,,,32135
+G0811,Würmla,council,municipality,G0008,,pending,,,,,,32139
+G0812,Zeiselmauer-Wolfpassing,council,municipality,G0008,,pending,,,,,,32140
+G0813,Zwentendorf an der Donau,council,municipality,G0008,,pending,,,,,,32141
+G0814,St. Andrä-Wördern,council,municipality,G0008,,pending,,,,,,32142
+G0815,Muckendorf-Wipfing,council,municipality,G0008,,pending,,,,,,32143
+G0816,Klosterneuburg,council,municipality,G0008,,pending,,,,,,32144
+G0817,Dietmanns,council,municipality,G0008,,pending,,,,,,32202
+G0818,Dobersberg,council,municipality,G0008,,pending,,,,,,32203
+G0819,Gastern,council,municipality,G0008,,pending,,,,,,32206
+G0820,Groß-Siegharts,council,municipality,G0008,,pending,,,,,,32207
+G0821,Karlstein an der Thaya,council,municipality,G0008,,pending,,,,,,32209
+G0822,Kautzen,council,municipality,G0008,,pending,,,,,,32210
+G0823,Ludweis-Aigen,council,municipality,G0008,,pending,,,,,,32212
+G0824,Pfaffenschlag bei Waidhofen a.d.Thaya,council,municipality,G0008,,pending,,,,,,32214
+G0825,Raabs an der Thaya,council,municipality,G0008,,pending,,,,,,32216
+G0826,Thaya,council,municipality,G0008,,pending,,,,,,32217
+G0827,Vitis,council,municipality,G0008,,pending,,,,,,32219
+G0828,Waidhofen an der Thaya,council,municipality,G0008,,pending,,,,,,32220
+G0829,Waidhofen an der Thaya-Land,council,municipality,G0008,,pending,,,,,,32221
+G0830,Waldkirchen an der Thaya,council,municipality,G0008,,pending,,,,,,32222
+G0831,Windigsteig,council,municipality,G0008,,pending,,,,,,32223
+G0832,Bad Fischau-Brunn,council,municipality,G0008,,pending,,,,,,32301
+G0833,Bad Schönau,council,municipality,G0008,,pending,,,,,,32302
+G0834,Ebenfurth,council,municipality,G0008,,pending,,,,,,32304
+G0835,Eggendorf,council,municipality,G0008,,pending,,,,,,32305
+G0836,Bad Erlach,council,municipality,G0008,,pending,,,,,,32306
+G0837,Felixdorf,council,municipality,G0008,,pending,,,,,,32307
+G0838,Gutenstein,council,municipality,G0008,,pending,,,,,,32308
+G0839,Hochneukirchen-Gschaidt,council,municipality,G0008,,pending,,,,,,32309
+G0840,Hochwolkersdorf,council,municipality,G0008,,pending,,,,,,32310
+G0841,Hohe Wand,council,municipality,G0008,,pending,,,,,,32311
+G0842,Hollenthon,council,municipality,G0008,,pending,,,,,,32312
+G0843,Katzelsdorf,council,municipality,G0008,,pending,,,,,,32313
+G0844,Kirchschlag in der Buckligen Welt,council,municipality,G0008,,pending,,,,,,32314
+G0845,Krumbach,council,municipality,G0008,,pending,,,,,,32315
+G0846,Lanzenkirchen,council,municipality,G0008,,pending,,,,,,32316
+G0847,Lichtenegg,council,municipality,G0008,,pending,,,,,,32317
+G0848,Lichtenwörth,council,municipality,G0008,,pending,,,,,,32318
+G0849,Markt Piesting,council,municipality,G0008,,pending,,,,,,32319
+G0850,Matzendorf-Hölles,council,municipality,G0008,,pending,,,,,,32320
+G0851,Miesenbach,council,municipality,G0008,,pending,,,,,,32321
+G0852,Muggendorf,council,municipality,G0008,,pending,,,,,,32322
+G0853,Pernitz,council,municipality,G0008,,pending,,,,,,32323
+G0854,Rohr im Gebirge,council,municipality,G0008,,pending,,,,,,32324
+G0855,Bromberg,council,municipality,G0008,,pending,,,,,,32325
+G0856,Schwarzenbach,council,municipality,G0008,,pending,,,,,,32326
+G0857,Sollenau,council,municipality,G0008,,pending,,,,,,32327
+G0858,Theresienfeld,council,municipality,G0008,,pending,,,,,,32330
+G0859,Waidmannsfeld,council,municipality,G0008,,pending,,,,,,32331
+G0860,Waldegg,council,municipality,G0008,,pending,,,,,,32332
+G0861,Walpersbach,council,municipality,G0008,,pending,,,,,,32333
+G0862,Weikersdorf am Steinfelde,council,municipality,G0008,,pending,,,,,,32334
+G0863,Wiesmath,council,municipality,G0008,,pending,,,,,,32335
+G0864,Winzendorf-Muthmannsdorf,council,municipality,G0008,,pending,,,,,,32336
+G0865,Wöllersdorf-Steinabrückl,council,municipality,G0008,,pending,,,,,,32337
+G0866,Zillingdorf,council,municipality,G0008,,pending,,,,,,32338
+G0867,Allentsteig,council,municipality,G0008,,pending,,,,,,32501
+G0868,Arbesbach,council,municipality,G0008,,pending,,,,,,32502
+G0869,Bärnkopf,council,municipality,G0008,,pending,,,,,,32503
+G0870,Echsenbach,council,municipality,G0008,,pending,,,,,,32504
+G0871,Göpfritz an der Wild,council,municipality,G0008,,pending,,,,,,32505
+G0872,Grafenschlag,council,municipality,G0008,,pending,,,,,,32506
+G0873,Groß Gerungs,council,municipality,G0008,,pending,,,,,,32508
+G0874,Großgöttfritz,council,municipality,G0008,,pending,,,,,,32509
+G0875,Gutenbrunn,council,municipality,G0008,,pending,,,,,,32511
+G0876,Kirchschlag,council,municipality,G0008,,pending,,,,,,32514
+G0877,Kottes-Purk,council,municipality,G0008,,pending,,,,,,32515
+G0878,Langschlag,council,municipality,G0008,,pending,,,,,,32516
+G0879,Martinsberg,council,municipality,G0008,,pending,,,,,,32517
+G0880,Ottenschlag,council,municipality,G0008,,pending,,,,,,32518
+G0881,Altmelon,council,municipality,G0008,,pending,,,,,,32519
+G0882,Pölla,council,municipality,G0008,,pending,,,,,,32520
+G0883,Rappottenstein,council,municipality,G0008,,pending,,,,,,32521
+G0884,Sallingberg,council,municipality,G0008,,pending,,,,,,32522
+G0885,Schönbach,council,municipality,G0008,,pending,,,,,,32523
+G0886,Schwarzenau,council,municipality,G0008,,pending,,,,,,32524
+G0887,Schweiggers,council,municipality,G0008,,pending,,,,,,32525
+G0888,Bad Traunstein,council,municipality,G0008,,pending,,,,,,32528
+G0889,Waldhausen,council,municipality,G0008,,pending,,,,,,32529
+G0890,Zwettl-Niederösterreich,council,municipality,G0008,,pending,,,,,,32530
+G0891,Linz,council,municipality,G0009,,pending,,,,,,40101
+G0892,Steyr,council,municipality,G0009,,pending,,,,,,40201
+G0893,Wels,council,municipality,G0009,,pending,,,,,,40301
+G0894,Altheim,council,municipality,G0009,,pending,,,,,,40401
+G0895,Aspach,council,municipality,G0009,,pending,,,,,,40402
+G0896,Auerbach,council,municipality,G0009,,pending,,,,,,40403
+G0897,Braunau am Inn,council,municipality,G0009,,pending,,,,,,40404
+G0898,Burgkirchen,council,municipality,G0009,,pending,,,,,,40405
+G0899,Eggelsberg,council,municipality,G0009,,pending,,,,,,40406
+G0900,Feldkirchen bei Mattighofen,council,municipality,G0009,,pending,,,,,,40407
+G0901,Franking,council,municipality,G0009,,pending,,,,,,40408
+G0902,Geretsberg,council,municipality,G0009,,pending,,,,,,40409
+G0903,Gilgenberg am Weilhart,council,municipality,G0009,,pending,,,,,,40410
+G0904,Haigermoos,council,municipality,G0009,,pending,,,,,,40411
+G0905,Handenberg,council,municipality,G0009,,pending,,,,,,40412
+G0906,Helpfau-Uttendorf,council,municipality,G0009,,pending,,,,,,40413
+G0907,Hochburg-Ach,council,municipality,G0009,,pending,,,,,,40414
+G0908,Höhnhart,council,municipality,G0009,,pending,,,,,,40415
+G0909,Jeging,council,municipality,G0009,,pending,,,,,,40416
+G0910,Kirchberg bei Mattighofen,council,municipality,G0009,,pending,,,,,,40417
+G0911,Lengau,council,municipality,G0009,,pending,,,,,,40418
+G0912,Lochen am See,council,municipality,G0009,,pending,,,,,,40419
+G0913,Maria Schmolln,council,municipality,G0009,,pending,,,,,,40420
+G0914,Mattighofen,council,municipality,G0009,,pending,,,,,,40421
+G0915,Mauerkirchen,council,municipality,G0009,,pending,,,,,,40422
+G0916,Mining,council,municipality,G0009,,pending,,,,,,40423
+G0917,Moosbach,council,municipality,G0009,,pending,,,,,,40424
+G0918,Moosdorf,council,municipality,G0009,,pending,,,,,,40425
+G0919,Munderfing,council,municipality,G0009,,pending,,,,,,40426
+G0920,Neukirchen an der Enknach,council,municipality,G0009,,pending,,,,,,40427
+G0921,Ostermiething,council,municipality,G0009,,pending,,,,,,40428
+G0922,Palting,council,municipality,G0009,,pending,,,,,,40429
+G0923,Perwang am Grabensee,council,municipality,G0009,,pending,,,,,,40430
+G0924,Pfaffstätt,council,municipality,G0009,,pending,,,,,,40431
+G0925,Pischelsdorf am Engelbach,council,municipality,G0009,,pending,,,,,,40432
+G0926,Polling im Innkreis,council,municipality,G0009,,pending,,,,,,40433
+G0927,Roßbach,council,municipality,G0009,,pending,,,,,,40434
+G0928,St. Georgen am Fillmannsbach,council,municipality,G0009,,pending,,,,,,40435
+G0929,St. Johann am Walde,council,municipality,G0009,,pending,,,,,,40436
+G0930,St. Pantaleon,council,municipality,G0009,,pending,,,,,,40437
+G0931,St. Peter am Hart,council,municipality,G0009,,pending,,,,,,40438
+G0932,St. Radegund,council,municipality,G0009,,pending,,,,,,40439
+G0933,St. Veit im Innkreis,council,municipality,G0009,,pending,,,,,,40440
+G0934,Schalchen,council,municipality,G0009,,pending,,,,,,40441
+G0935,Schwand im Innkreis,council,municipality,G0009,,pending,,,,,,40442
+G0936,Tarsdorf,council,municipality,G0009,,pending,,,,,,40443
+G0937,Treubach,council,municipality,G0009,,pending,,,,,,40444
+G0938,Überackern,council,municipality,G0009,,pending,,,,,,40445
+G0939,Weng im Innkreis,council,municipality,G0009,,pending,,,,,,40446
+G0940,Alkoven,council,municipality,G0009,,pending,,,,,,40501
+G0941,Aschach an der Donau,council,municipality,G0009,,pending,,,,,,40502
+G0942,Eferding,council,municipality,G0009,,pending,,,,,,40503
+G0943,Fraham,council,municipality,G0009,,pending,,,,,,40504
+G0944,Haibach ob der Donau,council,municipality,G0009,,pending,,,,,,40505
+G0945,Hartkirchen,council,municipality,G0009,,pending,,,,,,40506
+G0946,Hinzenbach,council,municipality,G0009,,pending,,,,,,40507
+G0947,Prambachkirchen,council,municipality,G0009,,pending,,,,,,40508
+G0948,Pupping,council,municipality,G0009,,pending,,,,,,40509
+G0949,St. Marienkirchen an der Polsenz,council,municipality,G0009,,pending,,,,,,40510
+G0950,Scharten,council,municipality,G0009,,pending,,,,,,40511
+G0951,Stroheim,council,municipality,G0009,,pending,,,,,,40512
+G0952,Freistadt,council,municipality,G0009,,pending,,,,,,40601
+G0953,Grünbach,council,municipality,G0009,,pending,,,,,,40602
+G0954,Gutau,council,municipality,G0009,,pending,,,,,,40603
+G0955,Hagenberg im Mühlkreis,council,municipality,G0009,,pending,,,,,,40604
+G0956,Hirschbach im Mühlkreis,council,municipality,G0009,,pending,,,,,,40605
+G0957,Kaltenberg,council,municipality,G0009,,pending,,,,,,40606
+G0958,Kefermarkt,council,municipality,G0009,,pending,,,,,,40607
+G0959,Königswiesen,council,municipality,G0009,,pending,,,,,,40608
+G0960,Lasberg,council,municipality,G0009,,pending,,,,,,40609
+G0961,Leopoldschlag,council,municipality,G0009,,pending,,,,,,40610
+G0962,Liebenau,council,municipality,G0009,,pending,,,,,,40611
+G0963,Neumarkt im Mühlkreis,council,municipality,G0009,,pending,,,,,,40612
+G0964,Pierbach,council,municipality,G0009,,pending,,,,,,40613
+G0965,Pregarten,council,municipality,G0009,,pending,,,,,,40614
+G0966,Rainbach im Mühlkreis,council,municipality,G0009,,pending,,,,,,40615
+G0967,Sandl,council,municipality,G0009,,pending,,,,,,40616
+G0968,St. Leonhard bei Freistadt,council,municipality,G0009,,pending,,,,,,40617
+G0969,St. Oswald bei Freistadt,council,municipality,G0009,,pending,,,,,,40618
+G0970,Schönau im Mühlkreis,council,municipality,G0009,,pending,,,,,,40619
+G0971,Tragwein,council,municipality,G0009,,pending,,,,,,40620
+G0972,Unterweißenbach,council,municipality,G0009,,pending,,,,,,40621
+G0973,Unterweitersdorf,council,municipality,G0009,,pending,,,,,,40622
+G0974,Waldburg,council,municipality,G0009,,pending,,,,,,40623
+G0975,Wartberg ob der Aist,council,municipality,G0009,,pending,,,,,,40624
+G0976,Weitersfelden,council,municipality,G0009,,pending,,,,,,40625
+G0977,Windhaag bei Freistadt,council,municipality,G0009,,pending,,,,,,40626
+G0978,Bad Zell,council,municipality,G0009,,pending,,,,,,40627
+G0979,Altmünster,council,municipality,G0009,,pending,,,,,,40701
+G0980,Bad Goisern am Hallstättersee,council,municipality,G0009,,pending,,,,,,40702
+G0981,Bad Ischl,council,municipality,G0009,,pending,,,,,,40703
+G0982,Ebensee am Traunsee,council,municipality,G0009,,pending,,,,,,40704
+G0983,Gmunden,council,municipality,G0009,,pending,,,,,,40705
+G0984,Gosau,council,municipality,G0009,,pending,,,,,,40706
+G0985,Grünau im Almtal,council,municipality,G0009,,pending,,,,,,40707
+G0986,Gschwandt,council,municipality,G0009,,pending,,,,,,40708
+G0987,Hallstatt,council,municipality,G0009,,pending,,,,,,40709
+G0988,Kirchham,council,municipality,G0009,,pending,,,,,,40710
+G0989,Laakirchen,council,municipality,G0009,,pending,,,,,,40711
+G0990,Obertraun,council,municipality,G0009,,pending,,,,,,40712
+G0991,Ohlsdorf,council,municipality,G0009,,pending,,,,,,40713
+G0992,Pinsdorf,council,municipality,G0009,,pending,,,,,,40714
+G0993,Roitham am Traunfall,council,municipality,G0009,,pending,,,,,,40715
+G0994,St. Konrad,council,municipality,G0009,,pending,,,,,,40716
+G0995,St. Wolfgang im Salzkammergut,council,municipality,G0009,,pending,,,,,,40717
+G0996,Traunkirchen,council,municipality,G0009,,pending,,,,,,40718
+G0997,Scharnstein,council,municipality,G0009,,pending,,,,,,40719
+G0998,Vorchdorf,council,municipality,G0009,,pending,,,,,,40720
+G0999,Aistersheim,council,municipality,G0009,,pending,,,,,,40801
+G1000,Bad Schallerbach,council,municipality,G0009,,pending,,,,,,40802
+G1001,Eschenau im Hausruckkreis,council,municipality,G0009,,pending,,,,,,40804
+G1002,Gallspach,council,municipality,G0009,,pending,,,,,,40805
+G1003,Gaspoltshofen,council,municipality,G0009,,pending,,,,,,40806
+G1004,Geboltskirchen,council,municipality,G0009,,pending,,,,,,40807
+G1005,Grieskirchen,council,municipality,G0009,,pending,,,,,,40808
+G1006,Haag am Hausruck,council,municipality,G0009,,pending,,,,,,40809
+G1007,Heiligenberg,council,municipality,G0009,,pending,,,,,,40810
+G1008,Hofkirchen an der Trattnach,council,municipality,G0009,,pending,,,,,,40811
+G1009,Kallham,council,municipality,G0009,,pending,,,,,,40812
+G1010,Kematen am Innbach,council,municipality,G0009,,pending,,,,,,40813
+G1011,Meggenhofen,council,municipality,G0009,,pending,,,,,,40814
+G1012,Michaelnbach,council,municipality,G0009,,pending,,,,,,40815
+G1013,Natternbach,council,municipality,G0009,,pending,,,,,,40816
+G1014,Neukirchen am Walde,council,municipality,G0009,,pending,,,,,,40817
+G1015,Neumarkt im Hausruckkreis,council,municipality,G0009,,pending,,,,,,40818
+G1016,Pötting,council,municipality,G0009,,pending,,,,,,40820
+G1017,Pollham,council,municipality,G0009,,pending,,,,,,40821
+G1018,Pram,council,municipality,G0009,,pending,,,,,,40822
+G1019,Rottenbach,council,municipality,G0009,,pending,,,,,,40823
+G1020,St. Agatha,council,municipality,G0009,,pending,,,,,,40824
+G1021,St. Georgen bei Grieskirchen,council,municipality,G0009,,pending,,,,,,40825
+G1022,St. Thomas,council,municipality,G0009,,pending,,,,,,40826
+G1023,Schlüßlberg,council,municipality,G0009,,pending,,,,,,40827
+G1024,Steegen,council,municipality,G0009,,pending,,,,,,40828
+G1025,Taufkirchen an der Trattnach,council,municipality,G0009,,pending,,,,,,40829
+G1026,Tollet,council,municipality,G0009,,pending,,,,,,40830
+G1027,Waizenkirchen,council,municipality,G0009,,pending,,,,,,40831
+G1028,Wallern an der Trattnach,council,municipality,G0009,,pending,,,,,,40832
+G1029,Weibern,council,municipality,G0009,,pending,,,,,,40833
+G1030,Wendling,council,municipality,G0009,,pending,,,,,,40834
+G1031,Peuerbach,council,municipality,G0009,,pending,,,,,,40835
+G1032,Edlbach,council,municipality,G0009,,pending,,,,,,40901
+G1033,Grünburg,council,municipality,G0009,,pending,,,,,,40902
+G1034,Hinterstoder,council,municipality,G0009,,pending,,,,,,40903
+G1035,Inzersdorf im Kremstal,council,municipality,G0009,,pending,,,,,,40904
+G1036,Kirchdorf an der Krems,council,municipality,G0009,,pending,,,,,,40905
+G1037,Klaus an der Pyhrnbahn,council,municipality,G0009,,pending,,,,,,40906
+G1038,Kremsmünster,council,municipality,G0009,,pending,,,,,,40907
+G1039,Micheldorf in Oberösterreich,council,municipality,G0009,,pending,,,,,,40908
+G1040,Molln,council,municipality,G0009,,pending,,,,,,40909
+G1041,Nußbach,council,municipality,G0009,,pending,,,,,,40910
+G1042,Oberschlierbach,council,municipality,G0009,,pending,,,,,,40911
+G1043,Pettenbach,council,municipality,G0009,,pending,,,,,,40912
+G1044,Ried im Traunkreis,council,municipality,G0009,,pending,,,,,,40913
+G1045,Rosenau am Hengstpaß,council,municipality,G0009,,pending,,,,,,40914
+G1046,Roßleithen,council,municipality,G0009,,pending,,,,,,40915
+G1047,St. Pankraz,council,municipality,G0009,,pending,,,,,,40916
+G1048,Schlierbach,council,municipality,G0009,,pending,,,,,,40917
+G1049,Spital am Pyhrn,council,municipality,G0009,,pending,,,,,,40918
+G1050,Steinbach am Ziehberg,council,municipality,G0009,,pending,,,,,,40919
+G1051,Steinbach an der Steyr,council,municipality,G0009,,pending,,,,,,40920
+G1052,Vorderstoder,council,municipality,G0009,,pending,,,,,,40921
+G1053,Wartberg an der Krems,council,municipality,G0009,,pending,,,,,,40922
+G1054,Windischgarsten,council,municipality,G0009,,pending,,,,,,40923
+G1055,Allhaming,council,municipality,G0009,,pending,,,,,,41001
+G1056,Ansfelden,council,municipality,G0009,,pending,,,,,,41002
+G1057,Asten,council,municipality,G0009,,pending,,,,,,41003
+G1058,Eggendorf im Traunkreis,council,municipality,G0009,,pending,,,,,,41004
+G1059,Enns,council,municipality,G0009,,pending,,,,,,41005
+G1060,Hargelsberg,council,municipality,G0009,,pending,,,,,,41006
+G1061,Hörsching,council,municipality,G0009,,pending,,,,,,41007
+G1062,Hofkirchen im Traunkreis,council,municipality,G0009,,pending,,,,,,41008
+G1063,Kematen an der Krems,council,municipality,G0009,,pending,,,,,,41009
+G1064,Kirchberg-Thening,council,municipality,G0009,,pending,,,,,,41010
+G1065,Kronstorf,council,municipality,G0009,,pending,,,,,,41011
+G1066,Leonding,council,municipality,G0009,,pending,,,,,,41012
+G1067,St. Florian,council,municipality,G0009,,pending,,,,,,41013
+G1068,Neuhofen an der Krems,council,municipality,G0009,,pending,,,,,,41014
+G1069,Niederneukirchen,council,municipality,G0009,,pending,,,,,,41015
+G1070,Oftering,council,municipality,G0009,,pending,,,,,,41016
+G1071,Pasching,council,municipality,G0009,,pending,,,,,,41017
+G1072,Piberbach,council,municipality,G0009,,pending,,,,,,41018
+G1073,Pucking,council,municipality,G0009,,pending,,,,,,41019
+G1074,St. Marien,council,municipality,G0009,,pending,,,,,,41020
+G1075,Traun,council,municipality,G0009,,pending,,,,,,41021
+G1076,Wilhering,council,municipality,G0009,,pending,,,,,,41022
+G1077,Allerheiligen im Mühlkreis,council,municipality,G0009,,pending,,,,,,41101
+G1078,Arbing,council,municipality,G0009,,pending,,,,,,41102
+G1079,Baumgartenberg,council,municipality,G0009,,pending,,,,,,41103
+G1080,Dimbach,council,municipality,G0009,,pending,,,,,,41104
+G1081,Grein,council,municipality,G0009,,pending,,,,,,41105
+G1082,Katsdorf,council,municipality,G0009,,pending,,,,,,41106
+G1083,Klam,council,municipality,G0009,,pending,,,,,,41107
+G1084,Bad Kreuzen,council,municipality,G0009,,pending,,,,,,41108
+G1085,Langenstein,council,municipality,G0009,,pending,,,,,,41109
+G1086,Luftenberg an der Donau,council,municipality,G0009,,pending,,,,,,41110
+G1087,Mauthausen,council,municipality,G0009,,pending,,,,,,41111
+G1088,Mitterkirchen im Machland,council,municipality,G0009,,pending,,,,,,41112
+G1089,Münzbach,council,municipality,G0009,,pending,,,,,,41113
+G1090,Naarn im Machlande,council,municipality,G0009,,pending,,,,,,41114
+G1091,Pabneukirchen,council,municipality,G0009,,pending,,,,,,41115
+G1092,Perg,council,municipality,G0009,,pending,,,,,,41116
+G1093,Rechberg,council,municipality,G0009,,pending,,,,,,41117
+G1094,Ried in der Riedmark,council,municipality,G0009,,pending,,,,,,41118
+G1095,St. Georgen am Walde,council,municipality,G0009,,pending,,,,,,41119
+G1096,St. Georgen an der Gusen,council,municipality,G0009,,pending,,,,,,41120
+G1097,St. Nikola an der Donau,council,municipality,G0009,,pending,,,,,,41121
+G1098,St. Thomas am Blasenstein,council,municipality,G0009,,pending,,,,,,41122
+G1099,Saxen,council,municipality,G0009,,pending,,,,,,41123
+G1100,Schwertberg,council,municipality,G0009,,pending,,,,,,41124
+G1101,Waldhausen im Strudengau,council,municipality,G0009,,pending,,,,,,41125
+G1102,Windhaag bei Perg,council,municipality,G0009,,pending,,,,,,41126
+G1103,Andrichsfurt,council,municipality,G0009,,pending,,,,,,41201
+G1104,Antiesenhofen,council,municipality,G0009,,pending,,,,,,41202
+G1105,Aurolzmünster,council,municipality,G0009,,pending,,,,,,41203
+G1106,Eberschwang,council,municipality,G0009,,pending,,,,,,41204
+G1107,Eitzing,council,municipality,G0009,,pending,,,,,,41205
+G1108,Geiersberg,council,municipality,G0009,,pending,,,,,,41206
+G1109,Geinberg,council,municipality,G0009,,pending,,,,,,41207
+G1110,Gurten,council,municipality,G0009,,pending,,,,,,41208
+G1111,Hohenzell,council,municipality,G0009,,pending,,,,,,41209
+G1112,Kirchdorf am Inn,council,municipality,G0009,,pending,,,,,,41210
+G1113,Kirchheim im Innkreis,council,municipality,G0009,,pending,,,,,,41211
+G1114,Lambrechten,council,municipality,G0009,,pending,,,,,,41212
+G1115,Lohnsburg am Kobernaußerwald,council,municipality,G0009,,pending,,,,,,41213
+G1116,Mehrnbach,council,municipality,G0009,,pending,,,,,,41214
+G1117,Mettmach,council,municipality,G0009,,pending,,,,,,41215
+G1118,Mörschwang,council,municipality,G0009,,pending,,,,,,41216
+G1119,Mühlheim am Inn,council,municipality,G0009,,pending,,,,,,41217
+G1120,Neuhofen im Innkreis,council,municipality,G0009,,pending,,,,,,41218
+G1121,Obernberg am Inn,council,municipality,G0009,,pending,,,,,,41219
+G1122,Ort im Innkreis,council,municipality,G0009,,pending,,,,,,41220
+G1123,Pattigham,council,municipality,G0009,,pending,,,,,,41221
+G1124,Peterskirchen,council,municipality,G0009,,pending,,,,,,41222
+G1125,Pramet,council,municipality,G0009,,pending,,,,,,41223
+G1126,Reichersberg,council,municipality,G0009,,pending,,,,,,41224
+G1127,Ried im Innkreis,council,municipality,G0009,,pending,,,,,,41225
+G1128,St. Georgen bei Obernberg am Inn,council,municipality,G0009,,pending,,,,,,41226
+G1129,St. Marienkirchen am Hausruck,council,municipality,G0009,,pending,,,,,,41227
+G1130,St. Martin im Innkreis,council,municipality,G0009,,pending,,,,,,41228
+G1131,Schildorn,council,municipality,G0009,,pending,,,,,,41229
+G1132,Senftenbach,council,municipality,G0009,,pending,,,,,,41230
+G1133,Taiskirchen im Innkreis,council,municipality,G0009,,pending,,,,,,41231
+G1134,Tumeltsham,council,municipality,G0009,,pending,,,,,,41232
+G1135,Utzenaich,council,municipality,G0009,,pending,,,,,,41233
+G1136,Waldzell,council,municipality,G0009,,pending,,,,,,41234
+G1137,Weilbach,council,municipality,G0009,,pending,,,,,,41235
+G1138,Wippenham,council,municipality,G0009,,pending,,,,,,41236
+G1139,Altenfelden,council,municipality,G0009,,pending,,,,,,41304
+G1140,Arnreit,council,municipality,G0009,,pending,,,,,,41305
+G1141,Atzesberg,council,municipality,G0009,,pending,,,,,,41306
+G1142,Auberg,council,municipality,G0009,,pending,,,,,,41307
+G1143,Haslach an der Mühl,council,municipality,G0009,,pending,,,,,,41309
+G1144,Hörbich,council,municipality,G0009,,pending,,,,,,41311
+G1145,Hofkirchen im Mühlkreis,council,municipality,G0009,,pending,,,,,,41312
+G1146,Julbach,council,municipality,G0009,,pending,,,,,,41313
+G1147,Kirchberg ob der Donau,council,municipality,G0009,,pending,,,,,,41314
+G1148,Klaffer am Hochficht,council,municipality,G0009,,pending,,,,,,41315
+G1149,Kleinzell im Mühlkreis,council,municipality,G0009,,pending,,,,,,41316
+G1150,Kollerschlag,council,municipality,G0009,,pending,,,,,,41317
+G1151,Lembach im Mühlkreis,council,municipality,G0009,,pending,,,,,,41318
+G1152,Lichtenau im Mühlkreis,council,municipality,G0009,,pending,,,,,,41319
+G1153,Nebelberg,council,municipality,G0009,,pending,,,,,,41320
+G1154,Neufelden,council,municipality,G0009,,pending,,,,,,41321
+G1155,Niederkappel,council,municipality,G0009,,pending,,,,,,41322
+G1156,Niederwaldkirchen,council,municipality,G0009,,pending,,,,,,41323
+G1157,Oberkappel,council,municipality,G0009,,pending,,,,,,41324
+G1158,Oepping,council,municipality,G0009,,pending,,,,,,41325
+G1159,Peilstein im Mühlviertel,council,municipality,G0009,,pending,,,,,,41326
+G1160,Pfarrkirchen im Mühlkreis,council,municipality,G0009,,pending,,,,,,41327
+G1161,Putzleinsdorf,council,municipality,G0009,,pending,,,,,,41328
+G1162,Neustift im Mühlkreis,council,municipality,G0009,,pending,,,,,,41329
+G1163,St. Johann am Wimberg,council,municipality,G0009,,pending,,,,,,41331
+G1164,St. Martin im Mühlkreis,council,municipality,G0009,,pending,,,,,,41332
+G1165,St. Oswald bei Haslach,council,municipality,G0009,,pending,,,,,,41333
+G1166,St. Peter am Wimberg,council,municipality,G0009,,pending,,,,,,41334
+G1167,St. Ulrich im Mühlkreis,council,municipality,G0009,,pending,,,,,,41336
+G1168,St. Veit im Mühlkreis,council,municipality,G0009,,pending,,,,,,41337
+G1169,Sarleinsbach,council,municipality,G0009,,pending,,,,,,41338
+G1170,Schwarzenberg am Böhmerwald,council,municipality,G0009,,pending,,,,,,41341
+G1171,Ulrichsberg,council,municipality,G0009,,pending,,,,,,41342
+G1172,Aigen-Schlägl,council,municipality,G0009,,pending,,,,,,41343
+G1173,Rohrbach-Berg,council,municipality,G0009,,pending,,,,,,41344
+G1174,Helfenberg,council,municipality,G0009,,pending,,,,,,41345
+G1175,St. Stefan-Afiesl,council,municipality,G0009,,pending,,,,,,41346
+G1176,Altschwendt,council,municipality,G0009,,pending,,,,,,41401
+G1177,Andorf,council,municipality,G0009,,pending,,,,,,41402
+G1178,Brunnenthal,council,municipality,G0009,,pending,,,,,,41403
+G1179,Diersbach,council,municipality,G0009,,pending,,,,,,41404
+G1180,Dorf an der Pram,council,municipality,G0009,,pending,,,,,,41405
+G1181,Eggerding,council,municipality,G0009,,pending,,,,,,41406
+G1182,Engelhartszell,council,municipality,G0009,,pending,,,,,,41407
+G1183,Enzenkirchen,council,municipality,G0009,,pending,,,,,,41408
+G1184,Esternberg,council,municipality,G0009,,pending,,,,,,41409
+G1185,Freinberg,council,municipality,G0009,,pending,,,,,,41410
+G1186,Kopfing im Innkreis,council,municipality,G0009,,pending,,,,,,41411
+G1187,Mayrhof,council,municipality,G0009,,pending,,,,,,41412
+G1188,Münzkirchen,council,municipality,G0009,,pending,,,,,,41413
+G1189,Raab,council,municipality,G0009,,pending,,,,,,41414
+G1190,Rainbach im Innkreis,council,municipality,G0009,,pending,,,,,,41415
+G1191,Riedau,council,municipality,G0009,,pending,,,,,,41416
+G1192,St. Aegidi,council,municipality,G0009,,pending,,,,,,41417
+G1193,St. Florian am Inn,council,municipality,G0009,,pending,,,,,,41418
+G1194,St. Marienkirchen bei Schärding,council,municipality,G0009,,pending,,,,,,41419
+G1195,St. Roman,council,municipality,G0009,,pending,,,,,,41420
+G1196,St. Willibald,council,municipality,G0009,,pending,,,,,,41421
+G1197,Schärding,council,municipality,G0009,,pending,,,,,,41422
+G1198,Schardenberg,council,municipality,G0009,,pending,,,,,,41423
+G1199,Sigharting,council,municipality,G0009,,pending,,,,,,41424
+G1200,Suben,council,municipality,G0009,,pending,,,,,,41425
+G1201,Taufkirchen an der Pram,council,municipality,G0009,,pending,,,,,,41426
+G1202,Vichtenstein,council,municipality,G0009,,pending,,,,,,41427
+G1203,Waldkirchen am Wesen,council,municipality,G0009,,pending,,,,,,41428
+G1204,Wernstein am Inn,council,municipality,G0009,,pending,,,,,,41429
+G1205,Zell an der Pram,council,municipality,G0009,,pending,,,,,,41430
+G1206,Adlwang,council,municipality,G0009,,pending,,,,,,41501
+G1207,Aschach an der Steyr,council,municipality,G0009,,pending,,,,,,41502
+G1208,Bad Hall,council,municipality,G0009,,pending,,,,,,41503
+G1209,Dietach,council,municipality,G0009,,pending,,,,,,41504
+G1210,Gaflenz,council,municipality,G0009,,pending,,,,,,41505
+G1211,Garsten,council,municipality,G0009,,pending,,,,,,41506
+G1212,Großraming,council,municipality,G0009,,pending,,,,,,41507
+G1213,Laussa,council,municipality,G0009,,pending,,,,,,41508
+G1214,Losenstein,council,municipality,G0009,,pending,,,,,,41509
+G1215,Maria Neustift,council,municipality,G0009,,pending,,,,,,41510
+G1216,Pfarrkirchen bei Bad Hall,council,municipality,G0009,,pending,,,,,,41511
+G1217,Reichraming,council,municipality,G0009,,pending,,,,,,41512
+G1218,Rohr im Kremstal,council,municipality,G0009,,pending,,,,,,41513
+G1219,St. Ulrich bei Steyr,council,municipality,G0009,,pending,,,,,,41514
+G1220,Schiedlberg,council,municipality,G0009,,pending,,,,,,41515
+G1221,Sierning,council,municipality,G0009,,pending,,,,,,41516
+G1222,Ternberg,council,municipality,G0009,,pending,,,,,,41517
+G1223,Waldneukirchen,council,municipality,G0009,,pending,,,,,,41518
+G1224,Wolfern,council,municipality,G0009,,pending,,,,,,41521
+G1225,Weyer,council,municipality,G0009,,pending,,,,,,41522
+G1226,Alberndorf in der Riedmark,council,municipality,G0009,,pending,,,,,,41601
+G1227,Altenberg bei Linz,council,municipality,G0009,,pending,,,,,,41602
+G1228,Bad Leonfelden,council,municipality,G0009,,pending,,,,,,41603
+G1229,Eidenberg,council,municipality,G0009,,pending,,,,,,41604
+G1230,Engerwitzdorf,council,municipality,G0009,,pending,,,,,,41605
+G1231,Feldkirchen an der Donau,council,municipality,G0009,,pending,,,,,,41606
+G1232,Gallneukirchen,council,municipality,G0009,,pending,,,,,,41607
+G1233,Goldwörth,council,municipality,G0009,,pending,,,,,,41608
+G1234,Gramastetten,council,municipality,G0009,,pending,,,,,,41609
+G1235,Haibach im Mühlkreis,council,municipality,G0009,,pending,,,,,,41610
+G1236,Hellmonsödt,council,municipality,G0009,,pending,,,,,,41611
+G1237,Herzogsdorf,council,municipality,G0009,,pending,,,,,,41612
+G1238,Kirchschlag bei Linz,council,municipality,G0009,,pending,,,,,,41613
+G1239,Lichtenberg,council,municipality,G0009,,pending,,,,,,41614
+G1240,Oberneukirchen,council,municipality,G0009,,pending,,,,,,41615
+G1241,Ottenschlag im Mühlkreis,council,municipality,G0009,,pending,,,,,,41616
+G1242,Ottensheim,council,municipality,G0009,,pending,,,,,,41617
+G1243,Puchenau,council,municipality,G0009,,pending,,,,,,41618
+G1244,Reichenau im Mühlkreis,council,municipality,G0009,,pending,,,,,,41619
+G1245,Reichenthal,council,municipality,G0009,,pending,,,,,,41620
+G1246,St. Gotthard im Mühlkreis,council,municipality,G0009,,pending,,,,,,41621
+G1247,Schenkenfelden,council,municipality,G0009,,pending,,,,,,41622
+G1248,Sonnberg im Mühlkreis,council,municipality,G0009,,pending,,,,,,41623
+G1249,Steyregg,council,municipality,G0009,,pending,,,,,,41624
+G1250,Walding,council,municipality,G0009,,pending,,,,,,41626
+G1251,Zwettl an der Rodl,council,municipality,G0009,,pending,,,,,,41627
+G1252,Vorderweißenbach,council,municipality,G0009,,pending,,,,,,41628
+G1253,Ampflwang im Hausruckwald,council,municipality,G0009,,pending,,,,,,41701
+G1254,Attersee am Attersee,council,municipality,G0009,,pending,,,,,,41702
+G1255,Attnang-Puchheim,council,municipality,G0009,,pending,,,,,,41703
+G1256,Atzbach,council,municipality,G0009,,pending,,,,,,41704
+G1257,Aurach am Hongar,council,municipality,G0009,,pending,,,,,,41705
+G1258,Berg im Attergau,council,municipality,G0009,,pending,,,,,,41706
+G1259,Desselbrunn,council,municipality,G0009,,pending,,,,,,41707
+G1260,Fornach,council,municipality,G0009,,pending,,,,,,41708
+G1261,Frankenburg am Hausruck,council,municipality,G0009,,pending,,,,,,41709
+G1262,Frankenmarkt,council,municipality,G0009,,pending,,,,,,41710
+G1263,Gampern,council,municipality,G0009,,pending,,,,,,41711
+G1264,Innerschwand am Mondsee,council,municipality,G0009,,pending,,,,,,41712
+G1265,Lenzing,council,municipality,G0009,,pending,,,,,,41713
+G1266,Manning,council,municipality,G0009,,pending,,,,,,41714
+G1267,Mondsee,council,municipality,G0009,,pending,,,,,,41715
+G1268,Neukirchen an der Vöckla,council,municipality,G0009,,pending,,,,,,41716
+G1269,Niederthalheim,council,municipality,G0009,,pending,,,,,,41717
+G1270,Nußdorf am Attersee,council,municipality,G0009,,pending,,,,,,41718
+G1271,Oberhofen am Irrsee,council,municipality,G0009,,pending,,,,,,41719
+G1272,Oberndorf bei Schwanenstadt,council,municipality,G0009,,pending,,,,,,41720
+G1273,Oberwang,council,municipality,G0009,,pending,,,,,,41721
+G1274,Ottnang am Hausruck,council,municipality,G0009,,pending,,,,,,41722
+G1275,Pfaffing,council,municipality,G0009,,pending,,,,,,41723
+G1276,Pilsbach,council,municipality,G0009,,pending,,,,,,41724
+G1277,Pitzenberg,council,municipality,G0009,,pending,,,,,,41725
+G1278,Pöndorf,council,municipality,G0009,,pending,,,,,,41726
+G1279,Puchkirchen am Trattberg,council,municipality,G0009,,pending,,,,,,41727
+G1280,Pühret,council,municipality,G0009,,pending,,,,,,41728
+G1281,Redleiten,council,municipality,G0009,,pending,,,,,,41729
+G1282,Redlham,council,municipality,G0009,,pending,,,,,,41730
+G1283,Regau,council,municipality,G0009,,pending,,,,,,41731
+G1284,Rüstorf,council,municipality,G0009,,pending,,,,,,41732
+G1285,Rutzenham,council,municipality,G0009,,pending,,,,,,41733
+G1286,St. Georgen im Attergau,council,municipality,G0009,,pending,,,,,,41734
+G1287,St. Lorenz,council,municipality,G0009,,pending,,,,,,41735
+G1288,Schlatt,council,municipality,G0009,,pending,,,,,,41736
+G1289,Schörfling am Attersee,council,municipality,G0009,,pending,,,,,,41737
+G1290,Schwanenstadt,council,municipality,G0009,,pending,,,,,,41738
+G1291,Seewalchen am Attersee,council,municipality,G0009,,pending,,,,,,41739
+G1292,Steinbach am Attersee,council,municipality,G0009,,pending,,,,,,41740
+G1293,Straß im Attergau,council,municipality,G0009,,pending,,,,,,41741
+G1294,Tiefgraben,council,municipality,G0009,,pending,,,,,,41742
+G1295,Timelkam,council,municipality,G0009,,pending,,,,,,41743
+G1296,Ungenach,council,municipality,G0009,,pending,,,,,,41744
+G1297,Unterach am Attersee,council,municipality,G0009,,pending,,,,,,41745
+G1298,Vöcklabruck,council,municipality,G0009,,pending,,,,,,41746
+G1299,Vöcklamarkt,council,municipality,G0009,,pending,,,,,,41747
+G1300,Weißenkirchen im Attergau,council,municipality,G0009,,pending,,,,,,41748
+G1301,Weyregg am Attersee,council,municipality,G0009,,pending,,,,,,41749
+G1302,Wolfsegg am Hausruck,council,municipality,G0009,,pending,,,,,,41750
+G1303,Zell am Moos,council,municipality,G0009,,pending,,,,,,41751
+G1304,Zell am Pettenfirst,council,municipality,G0009,,pending,,,,,,41752
+G1305,Aichkirchen,council,municipality,G0009,,pending,,,,,,41801
+G1306,Bachmanning,council,municipality,G0009,,pending,,,,,,41802
+G1307,Bad Wimsbach-Neydharting,council,municipality,G0009,,pending,,,,,,41803
+G1308,Buchkirchen,council,municipality,G0009,,pending,,,,,,41804
+G1309,Eberstalzell,council,municipality,G0009,,pending,,,,,,41805
+G1310,Edt bei Lambach,council,municipality,G0009,,pending,,,,,,41806
+G1311,Fischlham,council,municipality,G0009,,pending,,,,,,41807
+G1312,Gunskirchen,council,municipality,G0009,,pending,,,,,,41808
+G1313,Holzhausen,council,municipality,G0009,,pending,,,,,,41809
+G1314,Krenglbach,council,municipality,G0009,,pending,,,,,,41810
+G1315,Lambach,council,municipality,G0009,,pending,,,,,,41811
+G1316,Marchtrenk,council,municipality,G0009,,pending,,,,,,41812
+G1317,Neukirchen bei Lambach,council,municipality,G0009,,pending,,,,,,41813
+G1318,Offenhausen,council,municipality,G0009,,pending,,,,,,41814
+G1319,Pennewang,council,municipality,G0009,,pending,,,,,,41815
+G1320,Pichl bei Wels,council,municipality,G0009,,pending,,,,,,41816
+G1321,Sattledt,council,municipality,G0009,,pending,,,,,,41817
+G1322,Schleißheim,council,municipality,G0009,,pending,,,,,,41818
+G1323,Sipbachzell,council,municipality,G0009,,pending,,,,,,41819
+G1324,Stadl-Paura,council,municipality,G0009,,pending,,,,,,41820
+G1325,Steinerkirchen an der Traun,council,municipality,G0009,,pending,,,,,,41821
+G1326,Steinhaus,council,municipality,G0009,,pending,,,,,,41822
+G1327,Thalheim bei Wels,council,municipality,G0009,,pending,,,,,,41823
+G1328,Weißkirchen an der Traun,council,municipality,G0009,,pending,,,,,,41824
+G1329,Salzburg,council,municipality,G0010,,pending,,,,,,50101
+G1330,Abtenau,council,municipality,G0010,,pending,,,,,,50201
+G1331,Adnet,council,municipality,G0010,,pending,,,,,,50202
+G1332,Annaberg-Lungötz,council,municipality,G0010,,pending,,,,,,50203
+G1333,Golling an der Salzach,council,municipality,G0010,,pending,,,,,,50204
+G1334,Hallein,council,municipality,G0010,,pending,,,,,,50205
+G1335,Krispl,council,municipality,G0010,,pending,,,,,,50206
+G1336,Kuchl,council,municipality,G0010,,pending,,,,,,50207
+G1337,Oberalm,council,municipality,G0010,,pending,,,,,,50208
+G1338,Puch bei Hallein,council,municipality,G0010,,pending,,,,,,50209
+G1339,Rußbach am Paß Gschütt,council,municipality,G0010,,pending,,,,,,50210
+G1340,St. Koloman,council,municipality,G0010,,pending,,,,,,50211
+G1341,Scheffau am Tennengebirge,council,municipality,G0010,,pending,,,,,,50212
+G1342,Bad Vigaun,council,municipality,G0010,,pending,,,,,,50213
+G1343,Anif,council,municipality,G0010,,pending,,,,,,50301
+G1344,Anthering,council,municipality,G0010,,pending,,,,,,50302
+G1345,Bergheim,council,municipality,G0010,,pending,,,,,,50303
+G1346,Berndorf bei Salzburg,council,municipality,G0010,,pending,,,,,,50304
+G1347,Bürmoos,council,municipality,G0010,,pending,,,,,,50305
+G1348,Dorfbeuern,council,municipality,G0010,,pending,,,,,,50306
+G1349,Ebenau,council,municipality,G0010,,pending,,,,,,50307
+G1350,Elixhausen,council,municipality,G0010,,pending,,,,,,50308
+G1351,Elsbethen,council,municipality,G0010,,pending,,,,,,50309
+G1352,Eugendorf,council,municipality,G0010,,pending,,,,,,50310
+G1353,Faistenau,council,municipality,G0010,,pending,,,,,,50311
+G1354,Fuschl am See,council,municipality,G0010,,pending,,,,,,50312
+G1355,Göming,council,municipality,G0010,,pending,,,,,,50313
+G1356,Grödig,council,municipality,G0010,,pending,,,,,,50314
+G1357,Großgmain,council,municipality,G0010,,pending,,,,,,50315
+G1358,Hallwang,council,municipality,G0010,,pending,,,,,,50316
+G1359,Henndorf am Wallersee,council,municipality,G0010,,pending,,,,,,50317
+G1360,Hintersee,council,municipality,G0010,,pending,,,,,,50318
+G1361,Hof bei Salzburg,council,municipality,G0010,,pending,,,,,,50319
+G1362,Köstendorf,council,municipality,G0010,,pending,,,,,,50320
+G1363,Koppl,council,municipality,G0010,,pending,,,,,,50321
+G1364,Lamprechtshausen,council,municipality,G0010,,pending,,,,,,50322
+G1365,Mattsee,council,municipality,G0010,,pending,,,,,,50323
+G1366,Neumarkt am Wallersee,council,municipality,G0010,,pending,,,,,,50324
+G1367,Nußdorf am Haunsberg,council,municipality,G0010,,pending,,,,,,50325
+G1368,Oberndorf bei Salzburg,council,municipality,G0010,,pending,,,,,,50326
+G1369,Obertrum am See,council,municipality,G0010,,pending,,,,,,50327
+G1370,Plainfeld,council,municipality,G0010,,pending,,,,,,50328
+G1371,St. Georgen bei Salzburg,council,municipality,G0010,,pending,,,,,,50329
+G1372,St. Gilgen,council,municipality,G0010,,pending,,,,,,50330
+G1373,Schleedorf,council,municipality,G0010,,pending,,,,,,50331
+G1374,Seeham,council,municipality,G0010,,pending,,,,,,50332
+G1375,Straßwalchen,council,municipality,G0010,,pending,,,,,,50335
+G1376,Strobl,council,municipality,G0010,,pending,,,,,,50336
+G1377,Thalgau,council,municipality,G0010,,pending,,,,,,50337
+G1378,Wals-Siezenheim,council,municipality,G0010,,pending,,,,,,50338
+G1379,Seekirchen am Wallersee,council,municipality,G0010,,pending,,,,,,50339
+G1380,Altenmarkt im Pongau,council,municipality,G0010,,pending,,,,,,50401
+G1381,Bad Hofgastein,council,municipality,G0010,,pending,,,,,,50402
+G1382,Bad Gastein,council,municipality,G0010,,pending,,,,,,50403
+G1383,Bischofshofen,council,municipality,G0010,,pending,,,,,,50404
+G1384,Dorfgastein,council,municipality,G0010,,pending,,,,,,50405
+G1385,Eben im Pongau,council,municipality,G0010,,pending,,,,,,50406
+G1386,Filzmoos,council,municipality,G0010,,pending,,,,,,50407
+G1387,Flachau,council,municipality,G0010,,pending,,,,,,50408
+G1388,Forstau,council,municipality,G0010,,pending,,,,,,50409
+G1389,Goldegg,council,municipality,G0010,,pending,,,,,,50410
+G1390,Großarl,council,municipality,G0010,,pending,,,,,,50411
+G1391,Hüttau,council,municipality,G0010,,pending,,,,,,50412
+G1392,Hüttschlag,council,municipality,G0010,,pending,,,,,,50413
+G1393,Kleinarl,council,municipality,G0010,,pending,,,,,,50414
+G1394,Mühlbach am Hochkönig,council,municipality,G0010,,pending,,,,,,50415
+G1395,Pfarrwerfen,council,municipality,G0010,,pending,,,,,,50416
+G1396,Radstadt,council,municipality,G0010,,pending,,,,,,50417
+G1397,St. Johann im Pongau,council,municipality,G0010,,pending,,,,,,50418
+G1398,St. Martin am Tennengebirge,council,municipality,G0010,,pending,,,,,,50419
+G1399,St. Veit im Pongau,council,municipality,G0010,,pending,,,,,,50420
+G1400,Schwarzach im Pongau,council,municipality,G0010,,pending,,,,,,50421
+G1401,Untertauern,council,municipality,G0010,,pending,,,,,,50422
+G1402,Wagrain,council,municipality,G0010,,pending,,,,,,50423
+G1403,Werfen,council,municipality,G0010,,pending,,,,,,50424
+G1404,Werfenweng,council,municipality,G0010,,pending,,,,,,50425
+G1405,Göriach,council,municipality,G0010,,pending,,,,,,50501
+G1406,Lessach,council,municipality,G0010,,pending,,,,,,50502
+G1407,Mariapfarr,council,municipality,G0010,,pending,,,,,,50503
+G1408,Mauterndorf,council,municipality,G0010,,pending,,,,,,50504
+G1409,Muhr,council,municipality,G0010,,pending,,,,,,50505
+G1410,Ramingstein,council,municipality,G0010,,pending,,,,,,50506
+G1411,St. Andrä im Lungau,council,municipality,G0010,,pending,,,,,,50507
+G1412,St. Margarethen im Lungau,council,municipality,G0010,,pending,,,,,,50508
+G1413,St. Michael im Lungau,council,municipality,G0010,,pending,,,,,,50509
+G1414,Tamsweg,council,municipality,G0010,,pending,,,,,,50510
+G1415,Thomatal,council,municipality,G0010,,pending,,,,,,50511
+G1416,Tweng,council,municipality,G0010,,pending,,,,,,50512
+G1417,Unternberg,council,municipality,G0010,,pending,,,,,,50513
+G1418,Weißpriach,council,municipality,G0010,,pending,,,,,,50514
+G1419,Zederhaus,council,municipality,G0010,,pending,,,,,,50515
+G1420,Bramberg am Wildkogel,council,municipality,G0010,,pending,,,,,,50601
+G1421,Bruck an der Großglocknerstraße,council,municipality,G0010,,pending,,,,,,50602
+G1422,Dienten am Hochkönig,council,municipality,G0010,,pending,,,,,,50603
+G1423,Fusch an der Großglocknerstraße,council,municipality,G0010,,pending,,,,,,50604
+G1424,Hollersbach im Pinzgau,council,municipality,G0010,,pending,,,,,,50605
+G1425,Kaprun,council,municipality,G0010,,pending,,,,,,50606
+G1426,Krimml,council,municipality,G0010,,pending,,,,,,50607
+G1427,Lend,council,municipality,G0010,,pending,,,,,,50608
+G1428,Leogang,council,municipality,G0010,,pending,,,,,,50609
+G1429,Lofer,council,municipality,G0010,,pending,,,,,,50610
+G1430,Maishofen,council,municipality,G0010,,pending,,,,,,50611
+G1431,Maria Alm am Steinernen Meer,council,municipality,G0010,,pending,,,,,,50612
+G1432,Mittersill,council,municipality,G0010,,pending,,,,,,50613
+G1433,Neukirchen am Großvenediger,council,municipality,G0010,,pending,,,,,,50614
+G1434,Niedernsill,council,municipality,G0010,,pending,,,,,,50615
+G1435,Piesendorf,council,municipality,G0010,,pending,,,,,,50616
+G1436,Rauris,council,municipality,G0010,,pending,,,,,,50617
+G1437,Saalbach-Hinterglemm,council,municipality,G0010,,pending,,,,,,50618
+G1438,Saalfelden am Steinernen Meer,council,municipality,G0010,,pending,,,,,,50619
+G1439,St. Martin bei Lofer,council,municipality,G0010,,pending,,,,,,50620
+G1440,Stuhlfelden,council,municipality,G0010,,pending,,,,,,50621
+G1441,Taxenbach,council,municipality,G0010,,pending,,,,,,50622
+G1442,Unken,council,municipality,G0010,,pending,,,,,,50623
+G1443,Uttendorf,council,municipality,G0010,,pending,,,,,,50624
+G1444,Viehhofen,council,municipality,G0010,,pending,,,,,,50625
+G1445,Wald im Pinzgau,council,municipality,G0010,,pending,,,,,,50626
+G1446,Weißbach bei Lofer,council,municipality,G0010,,pending,,,,,,50627
+G1447,Zell am See,council,municipality,G0010,,pending,,,,,,50628
+G1448,Graz,council,municipality,G0011,,pending,,,,,,60101
+G1449,Frauental an der Laßnitz,council,municipality,G0011,,pending,,,,,,60305
+G1450,Lannach,council,municipality,G0011,,pending,,,,,,60318
+G1451,Pölfing-Brunn,council,municipality,G0011,,pending,,,,,,60323
+G1452,Preding,council,municipality,G0011,,pending,,,,,,60324
+G1453,Sankt Josef (Weststeiermark),council,municipality,G0011,,pending,,,,,,60326
+G1454,Sankt Peter im Sulmtal,council,municipality,G0011,,pending,,,,,,60329
+G1455,Wettmannstätten,council,municipality,G0011,,pending,,,,,,60341
+G1456,Deutschlandsberg,council,municipality,G0011,,pending,,,,,,60344
+G1457,Eibiswald,council,municipality,G0011,,pending,,,,,,60345
+G1458,Groß Sankt Florian,council,municipality,G0011,,pending,,,,,,60346
+G1459,Sankt Martin im Sulmtal,council,municipality,G0011,,pending,,,,,,60347
+G1460,Sankt Stefan ob Stainz,council,municipality,G0011,,pending,,,,,,60348
+G1461,Bad Schwanberg,council,municipality,G0011,,pending,,,,,,60349
+G1462,Stainz,council,municipality,G0011,,pending,,,,,,60350
+G1463,Wies,council,municipality,G0011,,pending,,,,,,60351
+G1464,Feldkirchen bei Graz,council,municipality,G0011,,pending,,,,,,60608
+G1465,Gössendorf,council,municipality,G0011,,pending,,,,,,60611
+G1466,Gratkorn,council,municipality,G0011,,pending,,,,,,60613
+G1467,Hart bei Graz,council,municipality,G0011,,pending,,,,,,60617
+G1468,Haselsdorf-Tobelbad,council,municipality,G0011,,pending,,,,,,60618
+G1469,Hausmannstätten,council,municipality,G0011,,pending,,,,,,60619
+G1470,Kainbach bei Graz,council,municipality,G0011,,pending,,,,,,60623
+G1471,Kalsdorf bei Graz,council,municipality,G0011,,pending,,,,,,60624
+G1472,Kumberg,council,municipality,G0011,,pending,,,,,,60626
+G1473,Laßnitzhöhe,council,municipality,G0011,,pending,,,,,,60628
+G1474,Lieboch,council,municipality,G0011,,pending,,,,,,60629
+G1475,Peggau,council,municipality,G0011,,pending,,,,,,60632
+G1476,Sankt Bartholomä,council,municipality,G0011,,pending,,,,,,60639
+G1477,Sankt Oswald bei Plankenwarth,council,municipality,G0011,,pending,,,,,,60641
+G1478,Sankt Radegund bei Graz,council,municipality,G0011,,pending,,,,,,60642
+G1479,Semriach,council,municipality,G0011,,pending,,,,,,60645
+G1480,Stattegg,council,municipality,G0011,,pending,,,,,,60646
+G1481,Stiwoll,council,municipality,G0011,,pending,,,,,,60647
+G1482,Thal,council,municipality,G0011,,pending,,,,,,60648
+G1483,Übelbach,council,municipality,G0011,,pending,,,,,,60651
+G1484,Vasoldsberg,council,municipality,G0011,,pending,,,,,,60653
+G1485,Weinitzen,council,municipality,G0011,,pending,,,,,,60654
+G1486,Werndorf,council,municipality,G0011,,pending,,,,,,60655
+G1487,Wundschuh,council,municipality,G0011,,pending,,,,,,60656
+G1488,Deutschfeistritz,council,municipality,G0011,,pending,,,,,,60659
+G1489,Dobl-Zwaring,council,municipality,G0011,,pending,,,,,,60660
+G1490,Eggersdorf bei Graz,council,municipality,G0011,,pending,,,,,,60661
+G1491,Fernitz-Mellach,council,municipality,G0011,,pending,,,,,,60662
+G1492,Frohnleiten,council,municipality,G0011,,pending,,,,,,60663
+G1493,Gratwein-Straßengel,council,municipality,G0011,,pending,,,,,,60664
+G1494,Hitzendorf,council,municipality,G0011,,pending,,,,,,60665
+G1495,Nestelbach bei Graz,council,municipality,G0011,,pending,,,,,,60666
+G1496,Raaba-Grambach,council,municipality,G0011,,pending,,,,,,60667
+G1497,Sankt Marein bei Graz,council,municipality,G0011,,pending,,,,,,60668
+G1498,Seiersberg-Pirka,council,municipality,G0011,,pending,,,,,,60669
+G1499,Premstätten,council,municipality,G0011,,pending,,,,,,60670
+G1500,Allerheiligen bei Wildon,council,municipality,G0011,,pending,,,,,,61001
+G1501,Arnfels,council,municipality,G0011,,pending,,,,,,61002
+G1502,Empersdorf,council,municipality,G0011,,pending,,,,,,61007
+G1503,Gabersdorf,council,municipality,G0011,,pending,,,,,,61008
+G1504,Gralla,council,municipality,G0011,,pending,,,,,,61012
+G1505,Großklein,council,municipality,G0011,,pending,,,,,,61013
+G1506,Heimschuh,council,municipality,G0011,,pending,,,,,,61016
+G1507,Hengsberg,council,municipality,G0011,,pending,,,,,,61017
+G1508,Kitzeck im Sausal,council,municipality,G0011,,pending,,,,,,61019
+G1509,Lang,council,municipality,G0011,,pending,,,,,,61020
+G1510,Lebring-Sankt Margarethen,council,municipality,G0011,,pending,,,,,,61021
+G1511,Oberhaag,council,municipality,G0011,,pending,,,,,,61024
+G1512,Ragnitz,council,municipality,G0011,,pending,,,,,,61027
+G1513,Sankt Andrä-Höch,council,municipality,G0011,,pending,,,,,,61030
+G1514,Sankt Johann im Saggautal,council,municipality,G0011,,pending,,,,,,61032
+G1515,Sankt Nikolai im Sausal,council,municipality,G0011,,pending,,,,,,61033
+G1516,Tillmitsch,council,municipality,G0011,,pending,,,,,,61043
+G1517,Wagna,council,municipality,G0011,,pending,,,,,,61045
+G1518,Ehrenhausen an der Weinstraße,council,municipality,G0011,,pending,,,,,,61049
+G1519,Gamlitz,council,municipality,G0011,,pending,,,,,,61050
+G1520,Gleinstätten,council,municipality,G0011,,pending,,,,,,61051
+G1521,Heiligenkreuz am Waasen,council,municipality,G0011,,pending,,,,,,61052
+G1522,Leibnitz,council,municipality,G0011,,pending,,,,,,61053
+G1523,Leutschach an der Weinstraße,council,municipality,G0011,,pending,,,,,,61054
+G1524,Sankt Georgen an der Stiefing,council,municipality,G0011,,pending,,,,,,61055
+G1525,Schwarzautal,council,municipality,G0011,,pending,,,,,,61057
+G1526,Wildon,council,municipality,G0011,,pending,,,,,,61059
+G1527,Sankt Veit in der Südsteiermark,council,municipality,G0011,,pending,,,,,,61060
+G1528,Straß in Steiermark,council,municipality,G0011,,pending,,,,,,61061
+G1529,Eisenerz,council,municipality,G0011,,pending,,,,,,61101
+G1530,Kalwang,council,municipality,G0011,,pending,,,,,,61105
+G1531,Kammern im Liesingtal,council,municipality,G0011,,pending,,,,,,61106
+G1532,Kraubath an der Mur,council,municipality,G0011,,pending,,,,,,61107
+G1533,Leoben,council,municipality,G0011,,pending,,,,,,61108
+G1534,Mautern in Steiermark,council,municipality,G0011,,pending,,,,,,61109
+G1535,Niklasdorf,council,municipality,G0011,,pending,,,,,,61110
+G1536,Proleb,council,municipality,G0011,,pending,,,,,,61111
+G1537,Radmer,council,municipality,G0011,,pending,,,,,,61112
+G1538,Sankt Michael in Obersteiermark,council,municipality,G0011,,pending,,,,,,61113
+G1539,Sankt Peter-Freienstein,council,municipality,G0011,,pending,,,,,,61114
+G1540,Sankt Stefan ob Leoben,council,municipality,G0011,,pending,,,,,,61115
+G1541,Traboch,council,municipality,G0011,,pending,,,,,,61116
+G1542,Vordernberg,council,municipality,G0011,,pending,,,,,,61118
+G1543,Wald am Schoberpaß,council,municipality,G0011,,pending,,,,,,61119
+G1544,Trofaiach,council,municipality,G0011,,pending,,,,,,61120
+G1545,Aigen im Ennstal,council,municipality,G0011,,pending,,,,,,61203
+G1546,Altaussee,council,municipality,G0011,,pending,,,,,,61204
+G1547,Altenmarkt bei Sankt Gallen,council,municipality,G0011,,pending,,,,,,61205
+G1548,Ardning,council,municipality,G0011,,pending,,,,,,61206
+G1549,Bad Aussee,council,municipality,G0011,,pending,,,,,,61207
+G1550,Gröbming,council,municipality,G0011,,pending,,,,,,61213
+G1551,Grundlsee,council,municipality,G0011,,pending,,,,,,61215
+G1552,Haus,council,municipality,G0011,,pending,,,,,,61217
+G1553,Lassing,council,municipality,G0011,,pending,,,,,,61222
+G1554,Ramsau am Dachstein,council,municipality,G0011,,pending,,,,,,61236
+G1555,Selzthal,council,municipality,G0011,,pending,,,,,,61243
+G1556,Trieben,council,municipality,G0011,,pending,,,,,,61247
+G1557,Wildalpen,council,municipality,G0011,,pending,,,,,,61251
+G1558,Wörschach,council,municipality,G0011,,pending,,,,,,61252
+G1559,Admont,council,municipality,G0011,,pending,,,,,,61253
+G1560,Aich,council,municipality,G0011,,pending,,,,,,61254
+G1561,Bad Mitterndorf,council,municipality,G0011,,pending,,,,,,61255
+G1562,Gaishorn am See,council,municipality,G0011,,pending,,,,,,61256
+G1563,Irdning-Donnersbachtal,council,municipality,G0011,,pending,,,,,,61257
+G1564,Landl,council,municipality,G0011,,pending,,,,,,61258
+G1565,Liezen,council,municipality,G0011,,pending,,,,,,61259
+G1566,Michaelerberg-Pruggern,council,municipality,G0011,,pending,,,,,,61260
+G1567,Mitterberg-Sankt Martin,council,municipality,G0011,,pending,,,,,,61261
+G1568,Öblarn,council,municipality,G0011,,pending,,,,,,61262
+G1569,Rottenmann,council,municipality,G0011,,pending,,,,,,61263
+G1570,Sankt Gallen,council,municipality,G0011,,pending,,,,,,61264
+G1571,Schladming,council,municipality,G0011,,pending,,,,,,61265
+G1572,Sölk,council,municipality,G0011,,pending,,,,,,61266
+G1573,Stainach-Pürgg,council,municipality,G0011,,pending,,,,,,61267
+G1574,Mühlen,council,municipality,G0011,,pending,,,,,,61410
+G1575,Niederwölz,council,municipality,G0011,,pending,,,,,,61413
+G1576,St. Peter am Kammersberg,council,municipality,G0011,,pending,,,,,,61425
+G1577,Schöder,council,municipality,G0011,,pending,,,,,,61428
+G1578,Krakau,council,municipality,G0011,,pending,,,,,,61437
+G1579,Murau,council,municipality,G0011,,pending,,,,,,61438
+G1580,Neumarkt in der Steiermark,council,municipality,G0011,,pending,,,,,,61439
+G1581,Oberwölz,council,municipality,G0011,,pending,,,,,,61440
+G1582,Ranten,council,municipality,G0011,,pending,,,,,,61441
+G1583,Sankt Georgen am Kreischberg,council,municipality,G0011,,pending,,,,,,61442
+G1584,Sankt Lambrecht,council,municipality,G0011,,pending,,,,,,61443
+G1585,Scheifling,council,municipality,G0011,,pending,,,,,,61444
+G1586,Stadl-Predlitz,council,municipality,G0011,,pending,,,,,,61445
+G1587,Teufenbach-Katsch,council,municipality,G0011,,pending,,,,,,61446
+G1588,Krottendorf-Gaisfeld,council,municipality,G0011,,pending,,,,,,61611
+G1589,Ligist,council,municipality,G0011,,pending,,,,,,61612
+G1590,Mooskirchen,council,municipality,G0011,,pending,,,,,,61615
+G1591,Rosental an der Kainach,council,municipality,G0011,,pending,,,,,,61618
+G1592,Sankt Martin am Wöllmißberg,council,municipality,G0011,,pending,,,,,,61621
+G1593,Stallhofen,council,municipality,G0011,,pending,,,,,,61624
+G1594,Voitsberg,council,municipality,G0011,,pending,,,,,,61625
+G1595,Bärnbach,council,municipality,G0011,,pending,,,,,,61626
+G1596,Edelschrott,council,municipality,G0011,,pending,,,,,,61627
+G1597,Geistthal-Södingberg,council,municipality,G0011,,pending,,,,,,61628
+G1598,Hirschegg-Pack,council,municipality,G0011,,pending,,,,,,61629
+G1599,Kainach bei Voitsberg,council,municipality,G0011,,pending,,,,,,61630
+G1600,Köflach,council,municipality,G0011,,pending,,,,,,61631
+G1601,Maria Lankowitz,council,municipality,G0011,,pending,,,,,,61632
+G1602,Söding-Sankt Johann,council,municipality,G0011,,pending,,,,,,61633
+G1603,Albersdorf-Prebuch,council,municipality,G0011,,pending,,,,,,61701
+G1604,Fischbach,council,municipality,G0011,,pending,,,,,,61708
+G1605,Floing,council,municipality,G0011,,pending,,,,,,61710
+G1606,Gasen,council,municipality,G0011,,pending,,,,,,61711
+G1607,Markt Hartmannsdorf,council,municipality,G0011,,pending,,,,,,61716
+G1608,Hofstätten an der Raab,council,municipality,G0011,,pending,,,,,,61719
+G1609,Ludersdorf-Wilfersdorf,council,municipality,G0011,,pending,,,,,,61727
+G1610,Miesenbach bei Birkfeld,council,municipality,G0011,,pending,,,,,,61728
+G1611,Mitterdorf an der Raab,council,municipality,G0011,,pending,,,,,,61729
+G1612,Mortantsch,council,municipality,G0011,,pending,,,,,,61730
+G1613,Naas,council,municipality,G0011,,pending,,,,,,61731
+G1614,Puch bei Weiz,council,municipality,G0011,,pending,,,,,,61740
+G1615,Ratten,council,municipality,G0011,,pending,,,,,,61741
+G1616,Rettenegg,council,municipality,G0011,,pending,,,,,,61743
+G1617,St. Kathrein am Hauenstein,council,municipality,G0011,,pending,,,,,,61744
+G1618,Sankt Kathrein am Offenegg,council,municipality,G0011,,pending,,,,,,61745
+G1619,St. Margarethen an der Raab,council,municipality,G0011,,pending,,,,,,61746
+G1620,Sinabelkirchen,council,municipality,G0011,,pending,,,,,,61748
+G1621,Strallegg,council,municipality,G0011,,pending,,,,,,61750
+G1622,Thannhausen,council,municipality,G0011,,pending,,,,,,61751
+G1623,Anger,council,municipality,G0011,,pending,,,,,,61756
+G1624,Birkfeld,council,municipality,G0011,,pending,,,,,,61757
+G1625,Fladnitz an der Teichalm,council,municipality,G0011,,pending,,,,,,61758
+G1626,Gersdorf an der Feistritz,council,municipality,G0011,,pending,,,,,,61759
+G1627,Gleisdorf,council,municipality,G0011,,pending,,,,,,61760
+G1628,Gutenberg,council,municipality,G0011,,pending,,,,,,61761
+G1629,Ilztal,council,municipality,G0011,,pending,,,,,,61762
+G1630,Passail,council,municipality,G0011,,pending,,,,,,61763
+G1631,Pischelsdorf am Kulm,council,municipality,G0011,,pending,,,,,,61764
+G1632,Sankt Ruprecht an der Raab,council,municipality,G0011,,pending,,,,,,61765
+G1633,Weiz,council,municipality,G0011,,pending,,,,,,61766
+G1634,Fohnsdorf,council,municipality,G0011,,pending,,,,,,62007
+G1635,Gaal,council,municipality,G0011,,pending,,,,,,62008
+G1636,Hohentauern,council,municipality,G0011,,pending,,,,,,62010
+G1637,Kobenz,council,municipality,G0011,,pending,,,,,,62014
+G1638,Pusterwald,council,municipality,G0011,,pending,,,,,,62021
+G1639,Sankt Georgen ob Judenburg,council,municipality,G0011,,pending,,,,,,62026
+G1640,Sankt Peter ob Judenburg,council,municipality,G0011,,pending,,,,,,62032
+G1641,Seckau,council,municipality,G0011,,pending,,,,,,62034
+G1642,Unzmarkt-Frauenburg,council,municipality,G0011,,pending,,,,,,62036
+G1643,Zeltweg,council,municipality,G0011,,pending,,,,,,62038
+G1644,Lobmingtal,council,municipality,G0011,,pending,,,,,,62039
+G1645,Judenburg,council,municipality,G0011,,pending,,,,,,62040
+G1646,Knittelfeld,council,municipality,G0011,,pending,,,,,,62041
+G1647,Obdach,council,municipality,G0011,,pending,,,,,,62042
+G1648,Pöls-Oberkurzheim,council,municipality,G0011,,pending,,,,,,62043
+G1649,Pölstal,council,municipality,G0011,,pending,,,,,,62044
+G1650,Sankt Marein-Feistritz,council,municipality,G0011,,pending,,,,,,62045
+G1651,Sankt Margarethen bei Knittelfeld,council,municipality,G0011,,pending,,,,,,62046
+G1652,Spielberg,council,municipality,G0011,,pending,,,,,,62047
+G1653,Weißkirchen in Steiermark,council,municipality,G0011,,pending,,,,,,62048
+G1654,Breitenau am Hochlantsch,council,municipality,G0011,,pending,,,,,,62105
+G1655,Krieglach,council,municipality,G0011,,pending,,,,,,62115
+G1656,Langenwang,council,municipality,G0011,,pending,,,,,,62116
+G1657,Pernegg an der Mur,council,municipality,G0011,,pending,,,,,,62125
+G1658,Sankt Lorenzen im Mürztal,council,municipality,G0011,,pending,,,,,,62128
+G1659,Spital am Semmering,council,municipality,G0011,,pending,,,,,,62131
+G1660,Stanz im Mürztal,council,municipality,G0011,,pending,,,,,,62132
+G1661,Turnau,council,municipality,G0011,,pending,,,,,,62135
+G1662,Aflenz,council,municipality,G0011,,pending,,,,,,62138
+G1663,Bruck an der Mur,council,municipality,G0011,,pending,,,,,,62139
+G1664,Kapfenberg,council,municipality,G0011,,pending,,,,,,62140
+G1665,Kindberg,council,municipality,G0011,,pending,,,,,,62141
+G1666,Mariazell,council,municipality,G0011,,pending,,,,,,62142
+G1667,Mürzzuschlag,council,municipality,G0011,,pending,,,,,,62143
+G1668,Neuberg an der Mürz,council,municipality,G0011,,pending,,,,,,62144
+G1669,Sankt Barbara im Mürztal,council,municipality,G0011,,pending,,,,,,62145
+G1670,Sankt Marein im Mürztal,council,municipality,G0011,,pending,,,,,,62146
+G1671,Thörl,council,municipality,G0011,,pending,,,,,,62147
+G1672,Tragöß-Sankt Katharein,council,municipality,G0011,,pending,,,,,,62148
+G1673,Bad Blumau,council,municipality,G0011,,pending,,,,,,62202
+G1674,Buch-St. Magdalena,council,municipality,G0011,,pending,,,,,,62205
+G1675,Burgau,council,municipality,G0011,,pending,,,,,,62206
+G1676,Ebersdorf,council,municipality,G0011,,pending,,,,,,62209
+G1677,Friedberg,council,municipality,G0011,,pending,,,,,,62211
+G1678,Greinbach,council,municipality,G0011,,pending,,,,,,62214
+G1679,Großsteinbach,council,municipality,G0011,,pending,,,,,,62216
+G1680,Hartberg,council,municipality,G0011,,pending,,,,,,62219
+G1681,Hartberg Umgebung,council,municipality,G0011,,pending,,,,,,62220
+G1682,Lafnitz,council,municipality,G0011,,pending,,,,,,62226
+G1683,Ottendorf an der Rittschein,council,municipality,G0011,,pending,,,,,,62232
+G1684,Pinggau,council,municipality,G0011,,pending,,,,,,62233
+G1685,Pöllauberg,council,municipality,G0011,,pending,,,,,,62235
+G1686,Sankt Jakob im Walde,council,municipality,G0011,,pending,,,,,,62242
+G1687,Sankt Johann in der Haide,council,municipality,G0011,,pending,,,,,,62244
+G1688,Sankt Lorenzen am Wechsel,council,municipality,G0011,,pending,,,,,,62245
+G1689,Schäffern,council,municipality,G0011,,pending,,,,,,62247
+G1690,Söchau,council,municipality,G0011,,pending,,,,,,62252
+G1691,Stubenberg,council,municipality,G0011,,pending,,,,,,62256
+G1692,Wenigzell,council,municipality,G0011,,pending,,,,,,62262
+G1693,Bad Waltersdorf,council,municipality,G0011,,pending,,,,,,62264
+G1694,Dechantskirchen,council,municipality,G0011,,pending,,,,,,62265
+G1695,Feistritztal,council,municipality,G0011,,pending,,,,,,62266
+G1696,Fürstenfeld,council,municipality,G0011,,pending,,,,,,62267
+G1697,Grafendorf bei Hartberg,council,municipality,G0011,,pending,,,,,,62268
+G1698,Großwilfersdorf,council,municipality,G0011,,pending,,,,,,62269
+G1699,Hartl,council,municipality,G0011,,pending,,,,,,62270
+G1700,Ilz,council,municipality,G0011,,pending,,,,,,62271
+G1701,Kaindorf,council,municipality,G0011,,pending,,,,,,62272
+G1702,Bad Loipersdorf,council,municipality,G0011,,pending,,,,,,62273
+G1703,Neudau,council,municipality,G0011,,pending,,,,,,62274
+G1704,Pöllau,council,municipality,G0011,,pending,,,,,,62275
+G1705,Rohr bei Hartberg,council,municipality,G0011,,pending,,,,,,62276
+G1706,Rohrbach an der Lafnitz,council,municipality,G0011,,pending,,,,,,62277
+G1707,Vorau,council,municipality,G0011,,pending,,,,,,62278
+G1708,Waldbach-Mönichwald,council,municipality,G0011,,pending,,,,,,62279
+G1709,Edelsbach bei Feldbach,council,municipality,G0011,,pending,,,,,,62311
+G1710,Eichkögl,council,municipality,G0011,,pending,,,,,,62314
+G1711,Halbenrain,council,municipality,G0011,,pending,,,,,,62326
+G1712,Jagerberg,council,municipality,G0011,,pending,,,,,,62330
+G1713,Kapfenstein,council,municipality,G0011,,pending,,,,,,62332
+G1714,Klöch,council,municipality,G0011,,pending,,,,,,62335
+G1715,Mettersdorf am Saßbach,council,municipality,G0011,,pending,,,,,,62343
+G1716,Tieschen,council,municipality,G0011,,pending,,,,,,62368
+G1717,Unterlamm,council,municipality,G0011,,pending,,,,,,62372
+G1718,Bad Gleichenberg,council,municipality,G0011,,pending,,,,,,62375
+G1719,Bad Radkersburg,council,municipality,G0011,,pending,,,,,,62376
+G1720,Deutsch Goritz,council,municipality,G0011,,pending,,,,,,62377
+G1721,Fehring,council,municipality,G0011,,pending,,,,,,62378
+G1722,Feldbach,council,municipality,G0011,,pending,,,,,,62379
+G1723,Gnas,council,municipality,G0011,,pending,,,,,,62380
+G1724,Kirchbach-Zerlach,council,municipality,G0011,,pending,,,,,,62381
+G1725,Kirchberg an der Raab,council,municipality,G0011,,pending,,,,,,62382
+G1726,Mureck,council,municipality,G0011,,pending,,,,,,62383
+G1727,Paldau,council,municipality,G0011,,pending,,,,,,62384
+G1728,Pirching am Traubenberg,council,municipality,G0011,,pending,,,,,,62385
+G1729,Riegersburg,council,municipality,G0011,,pending,,,,,,62386
+G1730,Sankt Anna am Aigen,council,municipality,G0011,,pending,,,,,,62387
+G1731,Sankt Peter am Ottersbach,council,municipality,G0011,,pending,,,,,,62388
+G1732,Sankt Stefan im Rosental,council,municipality,G0011,,pending,,,,,,62389
+G1733,Straden,council,municipality,G0011,,pending,,,,,,62390
+G1734,Innsbruck,council,municipality,G0012,,pending,,,,,,70101
+G1735,Arzl im Pitztal,council,municipality,G0012,,pending,,,,,,70201
+G1736,Haiming,council,municipality,G0012,,pending,,,,,,70202
+G1737,Imst,council,municipality,G0012,,pending,,,,,,70203
+G1738,Imsterberg,council,municipality,G0012,,pending,,,,,,70204
+G1739,Jerzens,council,municipality,G0012,,pending,,,,,,70205
+G1740,Karres,council,municipality,G0012,,pending,,,,,,70206
+G1741,Karrösten,council,municipality,G0012,,pending,,,,,,70207
+G1742,Längenfeld,council,municipality,G0012,,pending,,,,,,70208
+G1743,Mieming,council,municipality,G0012,,pending,,,,,,70209
+G1744,Mils bei Imst,council,municipality,G0012,,pending,,,,,,70210
+G1745,Mötz,council,municipality,G0012,,pending,,,,,,70211
+G1746,Nassereith,council,municipality,G0012,,pending,,,,,,70212
+G1747,Obsteig,council,municipality,G0012,,pending,,,,,,70213
+G1748,Oetz,council,municipality,G0012,,pending,,,,,,70214
+G1749,Rietz,council,municipality,G0012,,pending,,,,,,70215
+G1750,Roppen,council,municipality,G0012,,pending,,,,,,70216
+G1751,St. Leonhard im Pitztal,council,municipality,G0012,,pending,,,,,,70217
+G1752,Sautens,council,municipality,G0012,,pending,,,,,,70218
+G1753,Silz,council,municipality,G0012,,pending,,,,,,70219
+G1754,Sölden,council,municipality,G0012,,pending,,,,,,70220
+G1755,Stams,council,municipality,G0012,,pending,,,,,,70221
+G1756,Tarrenz,council,municipality,G0012,,pending,,,,,,70222
+G1757,Umhausen,council,municipality,G0012,,pending,,,,,,70223
+G1758,Wenns,council,municipality,G0012,,pending,,,,,,70224
+G1759,Absam,council,municipality,G0012,,pending,,,,,,70301
+G1760,Aldrans,council,municipality,G0012,,pending,,,,,,70302
+G1761,Ampass,council,municipality,G0012,,pending,,,,,,70303
+G1762,Axams,council,municipality,G0012,,pending,,,,,,70304
+G1763,Baumkirchen,council,municipality,G0012,,pending,,,,,,70305
+G1764,Birgitz,council,municipality,G0012,,pending,,,,,,70306
+G1765,Ellbögen,council,municipality,G0012,,pending,,,,,,70307
+G1766,Flaurling,council,municipality,G0012,,pending,,,,,,70308
+G1767,Fritzens,council,municipality,G0012,,pending,,,,,,70309
+G1768,Fulpmes,council,municipality,G0012,,pending,,,,,,70310
+G1769,Gnadenwald,council,municipality,G0012,,pending,,,,,,70311
+G1770,Götzens,council,municipality,G0012,,pending,,,,,,70312
+G1771,Gries am Brenner,council,municipality,G0012,,pending,,,,,,70313
+G1772,Gries im Sellrain,council,municipality,G0012,,pending,,,,,,70314
+G1773,Grinzens,council,municipality,G0012,,pending,,,,,,70315
+G1774,Gschnitz,council,municipality,G0012,,pending,,,,,,70317
+G1775,Hatting,council,municipality,G0012,,pending,,,,,,70318
+G1776,Inzing,council,municipality,G0012,,pending,,,,,,70319
+G1777,Kematen in Tirol,council,municipality,G0012,,pending,,,,,,70320
+G1778,Kolsass,council,municipality,G0012,,pending,,,,,,70322
+G1779,Kolsassberg,council,municipality,G0012,,pending,,,,,,70323
+G1780,Lans,council,municipality,G0012,,pending,,,,,,70325
+G1781,Leutasch,council,municipality,G0012,,pending,,,,,,70326
+G1782,Mieders,council,municipality,G0012,,pending,,,,,,70328
+G1783,Mils,council,municipality,G0012,,pending,,,,,,70329
+G1784,Mutters,council,municipality,G0012,,pending,,,,,,70331
+G1785,Natters,council,municipality,G0012,,pending,,,,,,70332
+G1786,Navis,council,municipality,G0012,,pending,,,,,,70333
+G1787,Neustift im Stubaital,council,municipality,G0012,,pending,,,,,,70334
+G1788,Oberhofen im Inntal,council,municipality,G0012,,pending,,,,,,70335
+G1789,Obernberg am Brenner,council,municipality,G0012,,pending,,,,,,70336
+G1790,Oberperfuss,council,municipality,G0012,,pending,,,,,,70337
+G1791,Patsch,council,municipality,G0012,,pending,,,,,,70338
+G1792,Pettnau,council,municipality,G0012,,pending,,,,,,70339
+G1793,Pfaffenhofen,council,municipality,G0012,,pending,,,,,,70340
+G1794,Polling in Tirol,council,municipality,G0012,,pending,,,,,,70342
+G1795,Ranggen,council,municipality,G0012,,pending,,,,,,70343
+G1796,Reith bei Seefeld,council,municipality,G0012,,pending,,,,,,70344
+G1797,Rinn,council,municipality,G0012,,pending,,,,,,70345
+G1798,Rum,council,municipality,G0012,,pending,,,,,,70346
+G1799,St. Sigmund im Sellrain,council,municipality,G0012,,pending,,,,,,70347
+G1800,Scharnitz,council,municipality,G0012,,pending,,,,,,70348
+G1801,Schmirn,council,municipality,G0012,,pending,,,,,,70349
+G1802,Schönberg im Stubaital,council,municipality,G0012,,pending,,,,,,70350
+G1803,Seefeld in Tirol,council,municipality,G0012,,pending,,,,,,70351
+G1804,Sellrain,council,municipality,G0012,,pending,,,,,,70352
+G1805,Sistrans,council,municipality,G0012,,pending,,,,,,70353
+G1806,Hall in Tirol,council,municipality,G0012,,pending,,,,,,70354
+G1807,Steinach am Brenner,council,municipality,G0012,,pending,,,,,,70355
+G1808,Telfes im Stubai,council,municipality,G0012,,pending,,,,,,70356
+G1809,Telfs,council,municipality,G0012,,pending,,,,,,70357
+G1810,Thaur,council,municipality,G0012,,pending,,,,,,70358
+G1811,Trins,council,municipality,G0012,,pending,,,,,,70359
+G1812,Tulfes,council,municipality,G0012,,pending,,,,,,70360
+G1813,Unterperfuss,council,municipality,G0012,,pending,,,,,,70361
+G1814,Vals,council,municipality,G0012,,pending,,,,,,70362
+G1815,Völs,council,municipality,G0012,,pending,,,,,,70364
+G1816,Volders,council,municipality,G0012,,pending,,,,,,70365
+G1817,Wattenberg,council,municipality,G0012,,pending,,,,,,70366
+G1818,Wattens,council,municipality,G0012,,pending,,,,,,70367
+G1819,Wildermieming,council,municipality,G0012,,pending,,,,,,70368
+G1820,Zirl,council,municipality,G0012,,pending,,,,,,70369
+G1821,Matrei am Brenner,council,municipality,G0012,,pending,,,,,,70370
+G1822,Aurach bei Kitzbühel,council,municipality,G0012,,pending,,,,,,70401
+G1823,Brixen im Thale,council,municipality,G0012,,pending,,,,,,70402
+G1824,Fieberbrunn,council,municipality,G0012,,pending,,,,,,70403
+G1825,Going am Wilden Kaiser,council,municipality,G0012,,pending,,,,,,70404
+G1826,Hochfilzen,council,municipality,G0012,,pending,,,,,,70405
+G1827,Hopfgarten im Brixental,council,municipality,G0012,,pending,,,,,,70406
+G1828,Itter,council,municipality,G0012,,pending,,,,,,70407
+G1829,Jochberg,council,municipality,G0012,,pending,,,,,,70408
+G1830,Kirchberg in Tirol,council,municipality,G0012,,pending,,,,,,70409
+G1831,Kirchdorf in Tirol,council,municipality,G0012,,pending,,,,,,70410
+G1832,Kitzbühel,council,municipality,G0012,,pending,,,,,,70411
+G1833,Kössen,council,municipality,G0012,,pending,,,,,,70412
+G1834,Oberndorf in Tirol,council,municipality,G0012,,pending,,,,,,70413
+G1835,Reith bei Kitzbühel,council,municipality,G0012,,pending,,,,,,70414
+G1836,St. Jakob in Haus,council,municipality,G0012,,pending,,,,,,70415
+G1837,St. Johann in Tirol,council,municipality,G0012,,pending,,,,,,70416
+G1838,St. Ulrich am Pillersee,council,municipality,G0012,,pending,,,,,,70417
+G1839,Schwendt,council,municipality,G0012,,pending,,,,,,70418
+G1840,Waidring,council,municipality,G0012,,pending,,,,,,70419
+G1841,Westendorf,council,municipality,G0012,,pending,,,,,,70420
+G1842,Alpbach,council,municipality,G0012,,pending,,,,,,70501
+G1843,Angath,council,municipality,G0012,,pending,,,,,,70502
+G1844,Bad Häring,council,municipality,G0012,,pending,,,,,,70503
+G1845,Brandenberg,council,municipality,G0012,,pending,,,,,,70504
+G1846,Breitenbach am Inn,council,municipality,G0012,,pending,,,,,,70505
+G1847,Brixlegg,council,municipality,G0012,,pending,,,,,,70506
+G1848,Ebbs,council,municipality,G0012,,pending,,,,,,70508
+G1849,Ellmau,council,municipality,G0012,,pending,,,,,,70509
+G1850,Erl,council,municipality,G0012,,pending,,,,,,70510
+G1851,Kirchbichl,council,municipality,G0012,,pending,,,,,,70511
+G1852,Kramsach,council,municipality,G0012,,pending,,,,,,70512
+G1853,Kufstein,council,municipality,G0012,,pending,,,,,,70513
+G1854,Kundl,council,municipality,G0012,,pending,,,,,,70514
+G1855,Langkampfen,council,municipality,G0012,,pending,,,,,,70515
+G1856,Mariastein,council,municipality,G0012,,pending,,,,,,70516
+G1857,Münster,council,municipality,G0012,,pending,,,,,,70517
+G1858,Niederndorf,council,municipality,G0012,,pending,,,,,,70518
+G1859,Niederndorferberg,council,municipality,G0012,,pending,,,,,,70519
+G1860,Radfeld,council,municipality,G0012,,pending,,,,,,70520
+G1861,Rattenberg,council,municipality,G0012,,pending,,,,,,70521
+G1862,Reith im Alpbachtal,council,municipality,G0012,,pending,,,,,,70522
+G1863,Rettenschöss,council,municipality,G0012,,pending,,,,,,70523
+G1864,Scheffau am Wilden Kaiser,council,municipality,G0012,,pending,,,,,,70524
+G1865,Schwoich,council,municipality,G0012,,pending,,,,,,70525
+G1866,Söll,council,municipality,G0012,,pending,,,,,,70526
+G1867,Thiersee,council,municipality,G0012,,pending,,,,,,70527
+G1868,Angerberg,council,municipality,G0012,,pending,,,,,,70528
+G1869,Walchsee,council,municipality,G0012,,pending,,,,,,70529
+G1870,Wildschönau,council,municipality,G0012,,pending,,,,,,70530
+G1871,Wörgl,council,municipality,G0012,,pending,,,,,,70531
+G1872,Faggen,council,municipality,G0012,,pending,,,,,,70601
+G1873,Fendels,council,municipality,G0012,,pending,,,,,,70602
+G1874,Fiss,council,municipality,G0012,,pending,,,,,,70603
+G1875,Fließ,council,municipality,G0012,,pending,,,,,,70604
+G1876,Flirsch,council,municipality,G0012,,pending,,,,,,70605
+G1877,Galtür,council,municipality,G0012,,pending,,,,,,70606
+G1878,Grins,council,municipality,G0012,,pending,,,,,,70607
+G1879,Ischgl,council,municipality,G0012,,pending,,,,,,70608
+G1880,Kappl,council,municipality,G0012,,pending,,,,,,70609
+G1881,Kaunerberg,council,municipality,G0012,,pending,,,,,,70610
+G1882,Kaunertal,council,municipality,G0012,,pending,,,,,,70611
+G1883,Kauns,council,municipality,G0012,,pending,,,,,,70612
+G1884,Ladis,council,municipality,G0012,,pending,,,,,,70613
+G1885,Landeck,council,municipality,G0012,,pending,,,,,,70614
+G1886,Nauders,council,municipality,G0012,,pending,,,,,,70615
+G1887,Pettneu am Arlberg,council,municipality,G0012,,pending,,,,,,70616
+G1888,Pfunds,council,municipality,G0012,,pending,,,,,,70617
+G1889,Pians,council,municipality,G0012,,pending,,,,,,70618
+G1890,Prutz,council,municipality,G0012,,pending,,,,,,70619
+G1891,Ried im Oberinntal,council,municipality,G0012,,pending,,,,,,70620
+G1892,St. Anton am Arlberg,council,municipality,G0012,,pending,,,,,,70621
+G1893,Schönwies,council,municipality,G0012,,pending,,,,,,70622
+G1894,See,council,municipality,G0012,,pending,,,,,,70623
+G1895,Serfaus,council,municipality,G0012,,pending,,,,,,70624
+G1896,Spiss,council,municipality,G0012,,pending,,,,,,70625
+G1897,Stanz bei Landeck,council,municipality,G0012,,pending,,,,,,70626
+G1898,Strengen,council,municipality,G0012,,pending,,,,,,70627
+G1899,Tobadill,council,municipality,G0012,,pending,,,,,,70628
+G1900,Tösens,council,municipality,G0012,,pending,,,,,,70629
+G1901,Zams,council,municipality,G0012,,pending,,,,,,70630
+G1902,Abfaltersbach,council,municipality,G0012,,pending,,,,,,70701
+G1903,Ainet,council,municipality,G0012,,pending,,,,,,70702
+G1904,Amlach,council,municipality,G0012,,pending,,,,,,70703
+G1905,Anras,council,municipality,G0012,,pending,,,,,,70704
+G1906,Assling,council,municipality,G0012,,pending,,,,,,70705
+G1907,Außervillgraten,council,municipality,G0012,,pending,,,,,,70706
+G1908,Dölsach,council,municipality,G0012,,pending,,,,,,70707
+G1909,Gaimberg,council,municipality,G0012,,pending,,,,,,70708
+G1910,Hopfgarten in Defereggen,council,municipality,G0012,,pending,,,,,,70709
+G1911,Innervillgraten,council,municipality,G0012,,pending,,,,,,70710
+G1912,Iselsberg-Stronach,council,municipality,G0012,,pending,,,,,,70711
+G1913,Kals am Großglockner,council,municipality,G0012,,pending,,,,,,70712
+G1914,Kartitsch,council,municipality,G0012,,pending,,,,,,70713
+G1915,Lavant,council,municipality,G0012,,pending,,,,,,70714
+G1916,Leisach,council,municipality,G0012,,pending,,,,,,70715
+G1917,Lienz,council,municipality,G0012,,pending,,,,,,70716
+G1918,Matrei in Osttirol,council,municipality,G0012,,pending,,,,,,70717
+G1919,Nikolsdorf,council,municipality,G0012,,pending,,,,,,70718
+G1920,Nußdorf-Debant,council,municipality,G0012,,pending,,,,,,70719
+G1921,Oberlienz,council,municipality,G0012,,pending,,,,,,70720
+G1922,Obertilliach,council,municipality,G0012,,pending,,,,,,70721
+G1923,Prägraten am Großvenediger,council,municipality,G0012,,pending,,,,,,70723
+G1924,St. Jakob in Defereggen,council,municipality,G0012,,pending,,,,,,70724
+G1925,St. Johann im Walde,council,municipality,G0012,,pending,,,,,,70725
+G1926,St. Veit in Defereggen,council,municipality,G0012,,pending,,,,,,70726
+G1927,Schlaiten,council,municipality,G0012,,pending,,,,,,70727
+G1928,Sillian,council,municipality,G0012,,pending,,,,,,70728
+G1929,Strassen,council,municipality,G0012,,pending,,,,,,70729
+G1930,Thurn,council,municipality,G0012,,pending,,,,,,70731
+G1931,Tristach,council,municipality,G0012,,pending,,,,,,70732
+G1932,Untertilliach,council,municipality,G0012,,pending,,,,,,70733
+G1933,Virgen,council,municipality,G0012,,pending,,,,,,70734
+G1934,Heinfels,council,municipality,G0012,,pending,,,,,,70735
+G1935,Bach,council,municipality,G0012,,pending,,,,,,70801
+G1936,Berwang,council,municipality,G0012,,pending,,,,,,70802
+G1937,Biberwier,council,municipality,G0012,,pending,,,,,,70803
+G1938,Bichlbach,council,municipality,G0012,,pending,,,,,,70804
+G1939,Breitenwang,council,municipality,G0012,,pending,,,,,,70805
+G1940,Ehenbichl,council,municipality,G0012,,pending,,,,,,70806
+G1941,Ehrwald,council,municipality,G0012,,pending,,,,,,70807
+G1942,Elbigenalp,council,municipality,G0012,,pending,,,,,,70808
+G1943,Elmen,council,municipality,G0012,,pending,,,,,,70809
+G1944,Forchach,council,municipality,G0012,,pending,,,,,,70810
+G1945,Grän,council,municipality,G0012,,pending,,,,,,70811
+G1946,Gramais,council,municipality,G0012,,pending,,,,,,70812
+G1947,Häselgehr,council,municipality,G0012,,pending,,,,,,70813
+G1948,Heiterwang,council,municipality,G0012,,pending,,,,,,70814
+G1949,Hinterhornbach,council,municipality,G0012,,pending,,,,,,70815
+G1950,Höfen,council,municipality,G0012,,pending,,,,,,70816
+G1951,Holzgau,council,municipality,G0012,,pending,,,,,,70817
+G1952,Jungholz,council,municipality,G0012,,pending,,,,,,70818
+G1953,Kaisers,council,municipality,G0012,,pending,,,,,,70819
+G1954,Lechaschau,council,municipality,G0012,,pending,,,,,,70820
+G1955,Lermoos,council,municipality,G0012,,pending,,,,,,70821
+G1956,Musau,council,municipality,G0012,,pending,,,,,,70822
+G1957,Namlos,council,municipality,G0012,,pending,,,,,,70823
+G1958,Nesselwängle,council,municipality,G0012,,pending,,,,,,70824
+G1959,Pfafflar,council,municipality,G0012,,pending,,,,,,70825
+G1960,Pflach,council,municipality,G0012,,pending,,,,,,70826
+G1961,Pinswang,council,municipality,G0012,,pending,,,,,,70827
+G1962,Reutte,council,municipality,G0012,,pending,,,,,,70828
+G1963,Schattwald,council,municipality,G0012,,pending,,,,,,70829
+G1964,Stanzach,council,municipality,G0012,,pending,,,,,,70830
+G1965,Steeg,council,municipality,G0012,,pending,,,,,,70831
+G1966,Tannheim,council,municipality,G0012,,pending,,,,,,70832
+G1967,Vils,council,municipality,G0012,,pending,,,,,,70833
+G1968,Vorderhornbach,council,municipality,G0012,,pending,,,,,,70834
+G1969,Wängle,council,municipality,G0012,,pending,,,,,,70835
+G1970,Weißenbach am Lech,council,municipality,G0012,,pending,,,,,,70836
+G1971,Zöblen,council,municipality,G0012,,pending,,,,,,70837
+G1972,Achenkirch,council,municipality,G0012,,pending,,,,,,70901
+G1973,Aschau im Zillertal,council,municipality,G0012,,pending,,,,,,70902
+G1974,Brandberg,council,municipality,G0012,,pending,,,,,,70903
+G1975,Bruck am Ziller,council,municipality,G0012,,pending,,,,,,70904
+G1976,Buch in Tirol,council,municipality,G0012,,pending,,,,,,70905
+G1977,Eben am Achensee,council,municipality,G0012,,pending,,,,,,70907
+G1978,Finkenberg,council,municipality,G0012,,pending,,,,,,70908
+G1979,Fügen,council,municipality,G0012,,pending,,,,,,70909
+G1980,Fügenberg,council,municipality,G0012,,pending,,,,,,70910
+G1981,Gallzein,council,municipality,G0012,,pending,,,,,,70911
+G1982,Gerlos,council,municipality,G0012,,pending,,,,,,70912
+G1983,Gerlosberg,council,municipality,G0012,,pending,,,,,,70913
+G1984,Hainzenberg,council,municipality,G0012,,pending,,,,,,70914
+G1985,Hart im Zillertal,council,municipality,G0012,,pending,,,,,,70915
+G1986,Hippach,council,municipality,G0012,,pending,,,,,,70916
+G1987,Jenbach,council,municipality,G0012,,pending,,,,,,70917
+G1988,Kaltenbach,council,municipality,G0012,,pending,,,,,,70918
+G1989,Mayrhofen,council,municipality,G0012,,pending,,,,,,70920
+G1990,Pill,council,municipality,G0012,,pending,,,,,,70921
+G1991,Ramsau im Zillertal,council,municipality,G0012,,pending,,,,,,70922
+G1992,Ried im Zillertal,council,municipality,G0012,,pending,,,,,,70923
+G1993,Rohrberg,council,municipality,G0012,,pending,,,,,,70924
+G1994,Schlitters,council,municipality,G0012,,pending,,,,,,70925
+G1995,Schwaz,council,municipality,G0012,,pending,,,,,,70926
+G1996,Schwendau,council,municipality,G0012,,pending,,,,,,70927
+G1997,Stans,council,municipality,G0012,,pending,,,,,,70928
+G1998,Steinberg am Rofan,council,municipality,G0012,,pending,,,,,,70929
+G1999,Strass im Zillertal,council,municipality,G0012,,pending,,,,,,70930
+G2000,Stumm,council,municipality,G0012,,pending,,,,,,70931
+G2001,Stummerberg,council,municipality,G0012,,pending,,,,,,70932
+G2002,Terfens,council,municipality,G0012,,pending,,,,,,70933
+G2003,Tux,council,municipality,G0012,,pending,,,,,,70934
+G2004,Uderns,council,municipality,G0012,,pending,,,,,,70935
+G2005,Vomp,council,municipality,G0012,,pending,,,,,,70936
+G2006,Weer,council,municipality,G0012,,pending,,,,,,70937
+G2007,Weerberg,council,municipality,G0012,,pending,,,,,,70938
+G2008,Wiesing,council,municipality,G0012,,pending,,,,,,70939
+G2009,Zell am Ziller,council,municipality,G0012,,pending,,,,,,70940
+G2010,Zellberg,council,municipality,G0012,,pending,,,,,,70941
+G2011,Bartholomäberg,council,municipality,G0013,,pending,,,,,,80101
+G2012,Blons,council,municipality,G0013,,pending,,,,,,80102
+G2013,Bludenz,council,municipality,G0013,,pending,,,,,,80103
+G2014,Bludesch,council,municipality,G0013,,pending,,,,,,80104
+G2015,Brand,council,municipality,G0013,,pending,,,,,,80105
+G2016,Bürs,council,municipality,G0013,,pending,,,,,,80106
+G2017,Bürserberg,council,municipality,G0013,,pending,,,,,,80107
+G2018,Dalaas,council,municipality,G0013,,pending,,,,,,80108
+G2019,Fontanella,council,municipality,G0013,,pending,,,,,,80109
+G2020,Gaschurn,council,municipality,G0013,,pending,,,,,,80110
+G2021,Innerbraz,council,municipality,G0013,,pending,,,,,,80111
+G2022,Klösterle,council,municipality,G0013,,pending,,,,,,80112
+G2023,Lech,council,municipality,G0013,,pending,,,,,,80113
+G2024,Lorüns,council,municipality,G0013,,pending,,,,,,80114
+G2025,Ludesch,council,municipality,G0013,,pending,,,,,,80115
+G2026,Nenzing,council,municipality,G0013,,pending,,,,,,80116
+G2027,Nüziders,council,municipality,G0013,,pending,,,,,,80117
+G2028,Raggal,council,municipality,G0013,,pending,,,,,,80118
+G2029,St. Anton im Montafon,council,municipality,G0013,,pending,,,,,,80119
+G2030,St. Gallenkirch,council,municipality,G0013,,pending,,,,,,80120
+G2031,St. Gerold,council,municipality,G0013,,pending,,,,,,80121
+G2032,Schruns,council,municipality,G0013,,pending,,,,,,80122
+G2033,Silbertal,council,municipality,G0013,,pending,,,,,,80123
+G2034,Sonntag,council,municipality,G0013,,pending,,,,,,80124
+G2035,Stallehr,council,municipality,G0013,,pending,,,,,,80125
+G2036,Thüringen,council,municipality,G0013,,pending,,,,,,80126
+G2037,Thüringerberg,council,municipality,G0013,,pending,,,,,,80127
+G2038,Tschagguns,council,municipality,G0013,,pending,,,,,,80128
+G2039,Vandans,council,municipality,G0013,,pending,,,,,,80129
+G2040,Alberschwende,council,municipality,G0013,,pending,,,,,,80201
+G2041,Andelsbuch,council,municipality,G0013,,pending,,,,,,80202
+G2042,Au,council,municipality,G0013,,pending,,,,,,80203
+G2043,Bezau,council,municipality,G0013,,pending,,,,,,80204
+G2044,Bildstein,council,municipality,G0013,,pending,,,,,,80205
+G2045,Bizau,council,municipality,G0013,,pending,,,,,,80206
+G2046,Bregenz,council,municipality,G0013,,pending,,,,,,80207
+G2047,Buch,council,municipality,G0013,,pending,,,,,,80208
+G2048,Damüls,council,municipality,G0013,,pending,,,,,,80209
+G2049,Doren,council,municipality,G0013,,pending,,,,,,80210
+G2050,Egg,council,municipality,G0013,,pending,,,,,,80211
+G2051,Eichenberg,council,municipality,G0013,,pending,,,,,,80212
+G2052,Fußach,council,municipality,G0013,,pending,,,,,,80213
+G2053,Gaißau,council,municipality,G0013,,pending,,,,,,80214
+G2054,Hard,council,municipality,G0013,,pending,,,,,,80215
+G2055,Hittisau,council,municipality,G0013,,pending,,,,,,80216
+G2056,Höchst,council,municipality,G0013,,pending,,,,,,80217
+G2057,Hörbranz,council,municipality,G0013,,pending,,,,,,80218
+G2058,Hohenweiler,council,municipality,G0013,,pending,,,,,,80219
+G2059,Kennelbach,council,municipality,G0013,,pending,,,,,,80220
+G2060,Krumbach,council,municipality,G0013,,pending,,,,,,80221
+G2061,Langen bei Bregenz,council,municipality,G0013,,pending,,,,,,80222
+G2062,Langenegg,council,municipality,G0013,,pending,,,,,,80223
+G2063,Lauterach,council,municipality,G0013,,pending,,,,,,80224
+G2064,Lingenau,council,municipality,G0013,,pending,,,,,,80225
+G2065,Lochau,council,municipality,G0013,,pending,,,,,,80226
+G2066,Mellau,council,municipality,G0013,,pending,,,,,,80227
+G2067,Mittelberg,council,municipality,G0013,,pending,,,,,,80228
+G2068,Möggers,council,municipality,G0013,,pending,,,,,,80229
+G2069,Reuthe,council,municipality,G0013,,pending,,,,,,80230
+G2070,Riefensberg,council,municipality,G0013,,pending,,,,,,80231
+G2071,Schnepfau,council,municipality,G0013,,pending,,,,,,80232
+G2072,Schoppernau,council,municipality,G0013,,pending,,,,,,80233
+G2073,Schröcken,council,municipality,G0013,,pending,,,,,,80234
+G2074,Schwarzach,council,municipality,G0013,,pending,,,,,,80235
+G2075,Schwarzenberg,council,municipality,G0013,,pending,,,,,,80236
+G2076,Sibratsgfäll,council,municipality,G0013,,pending,,,,,,80237
+G2077,Sulzberg,council,municipality,G0013,,pending,,,,,,80238
+G2078,Warth,council,municipality,G0013,,pending,,,,,,80239
+G2079,Wolfurt,council,municipality,G0013,,pending,,,,,,80240
+G2080,Dornbirn,council,municipality,G0013,,pending,,,,,,80301
+G2081,Hohenems,council,municipality,G0013,,pending,,,,,,80302
+G2082,Lustenau,council,municipality,G0013,,pending,,,,,,80303
+G2083,Altach,council,municipality,G0013,,pending,,,,,,80401
+G2084,Düns,council,municipality,G0013,,pending,,,,,,80402
+G2085,Dünserberg,council,municipality,G0013,,pending,,,,,,80403
+G2086,Feldkirch,council,municipality,G0013,,pending,,,,,,80404
+G2087,Frastanz,council,municipality,G0013,,pending,,,,,,80405
+G2088,Fraxern,council,municipality,G0013,,pending,,,,,,80406
+G2089,Göfis,council,municipality,G0013,,pending,,,,,,80407
+G2090,Götzis,council,municipality,G0013,,pending,,,,,,80408
+G2091,Klaus,council,municipality,G0013,,pending,,,,,,80409
+G2092,Koblach,council,municipality,G0013,,pending,,,,,,80410
+G2093,Laterns,council,municipality,G0013,,pending,,,,,,80411
+G2094,Mäder,council,municipality,G0013,,pending,,,,,,80412
+G2095,Meiningen,council,municipality,G0013,,pending,,,,,,80413
+G2096,Rankweil,council,municipality,G0013,,pending,,,,,,80414
+G2097,Röns,council,municipality,G0013,,pending,,,,,,80415
+G2098,Röthis,council,municipality,G0013,,pending,,,,,,80416
+G2099,Satteins,council,municipality,G0013,,pending,,,,,,80417
+G2100,Schlins,council,municipality,G0013,,pending,,,,,,80418
+G2101,Schnifis,council,municipality,G0013,,pending,,,,,,80419
+G2102,Sulz,council,municipality,G0013,,pending,,,,,,80420
+G2103,Übersaxen,council,municipality,G0013,,pending,,,,,,80421
+G2104,Viktorsberg,council,municipality,G0013,,pending,,,,,,80422
+G2105,Weiler,council,municipality,G0013,,pending,,,,,,80423
+G2106,Zwischenwasser,council,municipality,G0013,,pending,,,,,,80424
+G2107,Wien,council,municipality,G0014,,pending,,,,,,90001

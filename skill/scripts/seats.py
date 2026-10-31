@@ -258,6 +258,36 @@ def sweden():
                           "Centre Party": "009933", "Green Party": "83cf39", "Christian Democrats": "005ea1", "Liberals": "006ab3"})]
 
 
+def austria():
+    """Nationalrat (183 seats): parlament.gv.at open data JSON API."""
+    url = "https://www.parlament.gv.at/Filter/api/json/post?jsMode=EVAL&FBEZ=WFW_002&listeId=undefined&showAll=true&export=true"
+    body = json.dumps({"STEP": ["1000"], "NRBR": ["NR"], "GP": ["AKT"], "R_WF": ["FR"], "R_PBW": ["WK"], "M": ["M"], "W": ["W"]}).encode("utf-8")
+    req = urllib.request.Request(url, data=body, headers={"User-Agent": "Mozilla/5.0", "Content-Type": "application/json"})
+    data = json.loads(urllib.request.urlopen(req, timeout=30).read().decode("utf-8"))
+    rows = data.get("rows", [])
+    members = []
+    PARTY_MAP = {"FPÖ": "FPÖ", "ÖVP": "ÖVP", "SPÖ": "SPÖ", "NEOS": "NEOS", "GRÜNE": "Grüne", "OK": "Ohne Klub"}
+    for r in rows:
+        html_info = r[6]
+        vorname = re.search(r"Vorname:\s*([^\n<]+)", html_info)
+        nachname = re.search(r"Nachname:\s*([^\n<]+)", html_info)
+        v = vorname.group(1).strip() if vorname else ""
+        n = nachname.group(1).strip() if nachname else ""
+        name = f"{v} {n}".strip() if v and n else r[0]
+        raw_party = r[9]
+        party = PARTY_MAP.get(raw_party, raw_party)
+        ref = r[7].split("/")[-1] if r[7] else ""
+        bland = re.search(r"Bundesland:\s*([^\n<]+)", html_info)
+        place = bland.group(1).strip() if bland else ""
+        members.append(dict(name=name, party=party, ref=ref, place=place, url="https://www.parlament.gv.at" + (r[7] or "")))
+    order = ["SPÖ", "Grüne", "NEOS", "Ohne Klub", "ÖVP", "FPÖ"]
+    return [dict(name="Nationalrat", level="national", seats=183, source_url="https://www.parlament.gv.at/recherchieren/personen/nationalrat",
+                 note="183 seats (28th legislative period, elected 29 September 2024). Sitting members and parties from the official Austrian Parliament JSON API.",
+                 role="Abgeordnete/r zum Nationalrat", role_re=r"(?i)nationalrat|\babgeordnete[rn]? zum nationalrat\b|\bNR-Abgeordnete[rn]?\b", role_start=r"(?i)(nationalrat|abgeordnete[rn]? zum nationalrat)",
+                 members=members, former=[], party_order=order,
+                 colours={"SPÖ": "e30613", "Grüne": "88b62a", "NEOS": "e84188", "Ohne Klub": "888888", "ÖVP": "63c3d0", "FPÖ": "0056a2"})]
+
+
 def germany():
     """The Bundestag: abgeordnetenwatch.de API (CC0), mandates of the current period; older periods give former members with end dates."""
     API = "https://www.abgeordnetenwatch.de/api/v2/"
@@ -1655,7 +1685,7 @@ def switzerland():
     return chambers
 
 
-_ADAPTERS_LOWER = {"nz": new_zealand, "se": sweden, "de": germany, "nl": netherlands, "no": norway, "fr": france, "br": brazil, "ca": canada, "es": spain, "pl": poland, "be": belgium, "in": india, "jp": japan, "my": malaysia, "sg": singapore, "id": indonesia, "ng": nigeria, "cn": china, "scottish_parliament": scottish_parliament, "european_parliament": european_parliament, "eu": european_parliament, "un": united_nations, "au": pan_african_parliament, "za": south_africa, "ie": ireland, "it": italy, "mx": mexico, "ar": argentina, "co": colombia, "fi": finland, "kr": south_korea}
+_ADAPTERS_LOWER = {"at": austria, "austria": austria, "nz": new_zealand, "se": sweden, "de": germany, "nl": netherlands, "no": norway, "fr": france, "br": brazil, "ca": canada, "es": spain, "pl": poland, "be": belgium, "in": india, "jp": japan, "my": malaysia, "sg": singapore, "id": indonesia, "ng": nigeria, "cn": china, "scottish_parliament": scottish_parliament, "european_parliament": european_parliament, "eu": european_parliament, "un": united_nations, "au": pan_african_parliament, "za": south_africa, "ie": ireland, "it": italy, "mx": mexico, "ar": argentina, "co": colombia, "fi": finland, "kr": south_korea}
 # countries that chart two chambers chain their adapters; the others return one
 ADAPTERS = dict(_ADAPTERS_LOWER, nl=lambda: netherlands() + netherlands_senate(), za=lambda: south_africa() + south_africa_ncop(),
                   ca=lambda: canada() + canada_senate(), australia=australia, eg=egypt,
