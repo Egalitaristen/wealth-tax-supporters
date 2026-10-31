@@ -13,7 +13,7 @@ Save as `data/mw/area_profile.md`. Updated 2026-10-31 (Deepening pass R002).
 - **Current status:** Malawi has never enacted a standalone wealth tax or tax on individual net worth.
 - **Existing tax framework:** Administered by the Malawi Revenue Authority (MRA) under the Ministry of Finance. Relies on Personal Income Tax (PAYE), Corporate Income Tax (CIT, 30%), Value Added Tax (VAT, 16.5%), and Estate Duty under the Estate Duty Act (up to 11% on inheritance upon death).
 - **Key debate moments & proposals:**
-  - **July 2025 CRI Profile Launch:** Economics Association of Malawi (ECAMA), Oxfam in Malawi, Centre for Social Concern (CfSC), and the Malawi Economic Justice Network (MEJN) launched the *Commitment to Reducing Inequality (CRI) Malawi Country Profile 2025*. ECAMA President Dr. Bertha Bangara-Chikadza presented a 5-point reform agenda proposing a 0.7% moderate wealth tax ($70 million/year) to fund an essential package of healthcare for 890,000 citizens. CfSC Economic Governance Officer Agnes Nyirongo proposed a solidarity wealth levy on the richest 1% to 5% of individuals.
+  - **July 2025 CRI Profile Launch:** Economics Association of Malawi (ECAMA), Oxfam in Malawi, Centre for Social Concern (CfSC), and the Malawi Economic Justice Network (MEJN) launched the *Commitment to Reducing Inequality (CRI) Malawi Country Profile 2025*. ECAMA President Dr. Bertha Bangara-Chikadza presented a 5-point reform agenda proposing a moderate wealth tax (0.7% of GDP in revenue, not a rate) ($70 million/year) to fund an essential package of healthcare for 890,000 citizens. CfSC Economic Governance Officer Agnes Nyirongo proposed a solidarity wealth levy on the richest 1% to 5% of individuals.
   - **January 2022 Post-Pandemic Redesign:** Oxfam in Malawi (Mathias Kafunda) called on government to claw back extreme wealth through progressive taxation following the *Inequality Kills* report.
   - **January 2026 Pension Tax Pushback:** Malawi Congress of Trade Unions (MCTU) rejected Treasury proposals on taxing retirement pensions, demanding alternative revenue measures targeting wealth, tax evasion, and high-income earners.
 - **Excluded near-misses:**
@@ -70,3 +70,6 @@ Save as `data/mw/area_profile.md`. Updated 2026-10-31 (Deepening pass R002).
   - Review future annual pre-budget submissions to the Ministry of Finance by ECAMA, MEJN, and CfSC.
   - Track pan-African TJNA declarations for individual Malawian parliamentarians or experts signing continental wealth tax statements.
   - Local tier: skip unit-by-unit sweep as local councils lack fiscal wealth jurisdiction.
+
+## Audit — R003
+- All 8 quotes were found on their pages (the two Oxfam rows after dropping a footnote marker from the quote). The "0.7%" in the earlier notes is a revenue estimate in the Oxfam profile ($70 million, 0.7% of GDP), which the Nation article misreads as a rate; no rate is recorded. Because the evidence is a reporter's description or an example in a report, the ECAMA and CfSC rows and the Oxfam and MEJN rows are B. The Malawi Congress of Trade Unions stays C.
