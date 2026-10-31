@@ -25,15 +25,15 @@ The native `czechia()` adapter in `skill/scripts/seats.py` queries the official 
 - Encoded in `windows-1250`.
 - Returns all 200 sitting MPs of the 9th legislative period.
 - Parliamentary clubs (as of October 2026): ANO 2011 (80), ODS (27), STAN (22), Piráti (18), KDU-ČSL (16), SPD (15), Motoristé sobě (13), TOP 09 (9).
-- Supporter position matching: maps sitting MPs to `psp.cz` detail pages (`detail.sqw?id=...`).
+- Supporter position matching: maps sitting MPs to `psp.cz` detail pages (`detail.sqw?id=...`). Sitting MP Gabriela Svárovská (`id=7049`, co-chair of Strana zelených) matches 1 seat in Poslanecká sněmovna.
 
 ## Core political landscape & models
 
-1. **Strana zelených / Palanský Model (2024):**
+1. **Strana zelených / Palanský Model (2024–2026):**
    - Threshold: 111,000,000 CZK (~€4.4 million) net wealth.
    - Rate: 3.5% annually; progressive alternatives modeled from 33m and 68m CZK.
    - Yield: ~58 billion CZK (~€2.3 billion) annually from ~4,200 wealthy individuals.
-   - Authored by economist Dr. Miroslav Palanský (Tax Justice Network / Charles University); championed by Johanna Nejedlová and Michal Berg.
+   - Authored by economist Dr. Miroslav Palanský (Tax Justice Network / Charles University); championed by Johanna Nejedlová, Michal Berg, and party co-chairs Matěj Pomahač and Gabriela Svárovská (sitting MP in Poslanecká sněmovna).
 2. **SOCDEM (formerly ČSSD) Model (2021 & 2023):**
    - Threshold: 100,000,000 CZK (~€4 million) net wealth.
    - Rate: 1.0% annually.
@@ -59,3 +59,5 @@ The native `czechia()` adapter in `skill/scripts/seats.py` queries the official 
   - Nerudová's advocacy focuses on bringing Czech real estate property taxes closer to OECD averages. Pertold explicitly cautions against net wealth taxes due to mobile capital flight, arguing instead for personal income tax bracket progression. Both classified as `out_of_definition`.
 - **Tomáš Tožička (Tax Justice Network Czechia / Social Watch):**
   - Focuses on tax transparency, corporate anti-haven rules, and financial transaction taxes, rather than domestic net wealth taxation. Classified as `out_of_definition`.
+- **Vít Samek (former Vice-President of ČMKOS):**
+  - Prominently advocated taxing accumulated wealth and capital on television panels, but passed away in January 2025. Classified as `deceased` under Ground Rule 2 (living figures only).

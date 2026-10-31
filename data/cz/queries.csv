@@ -13,3 +13,8 @@ Q0011,R002,2026-10-31,cs,"""Petr Janský"" ""Centrum veřejných financí"" ""ma
 Q0012,R002,2026-10-31,cs,"""Filip Pertold"" ""daň z bohatství"" OR ""zdanění majetku"" IDEA",academic,3,0,Verified Filip Pertold critique of net wealth tax; recommends income tax progression instead
 Q0013,R002,2026-10-31,cs,"""Kateřina Konečná"" ""majetková daň"" OR ""daň z bohatství"" KSČM Stačilo",party,5,0,"Verified KSČM and Stačilo platform focus on sectoral corporate tax, income progression, and vacant apartments"
 Q0014,R002,2026-10-31,cs,"""Danuše Nerudová"" ""daň z nemovitostí"" OR ""daň z majetku"" NERV",politician,4,0,Verified Danuše Nerudová advocacy relates to real estate property tax (daň z nemovitých věcí)
+Q0015,R003,2026-10-31,cs,"""Gabriela Svárovská"" ""zdanění extrémního bohatství"" OR ""daň z bohatství""",politician,3,1,Discovered sitting MP Gabriela Svárovská CNN Prima News interview supporting wealth tax
+Q0016,R003,2026-10-31,cs,"""Matěj Pomahač"" ""Zelení"" ""111 milionů korun"" ""3,5 procenta""",politician,2,1,Discovered Green Party co-chair Matěj Pomahač commentary in Deník Referendum
+Q0017,R003,2026-10-31,cs,"""Vít Samek"" ČMKOS ""majetková daň"" zemřel",trade_union,2,0,Verified Vít Samek deceased in January 2025; excluded under living figures rule
+Q0018,R003,2026-10-31,cs,"""Robin Maialeh"" ""daň"" OR ""zdanění"" OR ""majetek"" RILSA",academic,4,0,Investigated RILSA wealth inequality studies
+Q0019,R003,2026-10-31,cs,"site:ferovedane.cz ""majetkové daně""",campaign,3,0,Verified Czech civil society campaign uses majetkové daně for real estate and inheritance
