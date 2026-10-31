@@ -1,1 +1,7 @@
 profile_id,actor_id,platform,url,source,checked
+P00001,A0003,website,https://www.oxfam.org/,Wikidata Q267941,2026-10-31
+P00002,A0003,x,https://x.com/oxfamgb,Wikidata Q267941,2026-10-31
+P00003,A0003,instagram,https://www.instagram.com/oxfaminternational/,Wikidata Q267941,2026-10-31
+P00004,A0003,facebook,https://www.facebook.com/oxfamGB,Wikidata Q267941,2026-10-31
+P00005,A0003,youtube,https://www.youtube.com/channel/UCP19oUtmzamYAOTuOpTfThg,Wikidata Q267941,2026-10-31
+P00006,A0003,wikipedia,https://en.wikipedia.org/wiki/Oxfam,Wikidata Q267941,2026-10-31

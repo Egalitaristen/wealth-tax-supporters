@@ -1,1 +1,25 @@
 profile_id,actor_id,platform,url,source,checked
+P00001,A0001,x,https://x.com/pavese,Wikidata Q6110397,2026-10-31
+P00002,A0001,wikipedia,https://en.wikipedia.org/wiki/Roc%C3%ADo_Silva-Santisteban,Wikidata Q6110397,2026-10-31
+P00003,A0002,x,https://x.com/MirtyVas,Wikidata Q84282244,2026-10-31
+P00004,A0002,wikipedia,https://en.wikipedia.org/wiki/Mirtha_V%C3%A1squez,Wikidata Q84282244,2026-10-31
+P00005,A0005,website,https://pedrofrancke.com,Wikidata Q107138636,2026-10-31
+P00006,A0005,x,https://x.com/pedrofrancke,Wikidata Q107138636,2026-10-31
+P00007,A0005,wikipedia,https://en.wikipedia.org/wiki/Pedro_Francke,Wikidata Q107138636,2026-10-31
+P00008,A0008,website,https://www.cgtp.org.pe/,Wikidata Q2992753,2026-10-31
+P00009,A0008,wikipedia,https://en.wikipedia.org/wiki/Confederaci%C3%B3n_General_de_Trabajadores_del_Per%C3%BA,Wikidata Q2992753,2026-10-31
+P00010,A0011,website,https://www.juntosporelperu.org.pe,Wikidata Q76656948,2026-10-31
+P00011,A0011,x,https://x.com/jpjuntosporelpe,Wikidata Q76656948,2026-10-31
+P00012,A0011,facebook,https://www.facebook.com/JuntosPorElPeru.Oficial,Wikidata Q76656948,2026-10-31
+P00013,A0011,wikipedia,https://en.wikipedia.org/wiki/Together_for_Peru,Wikidata Q76656948,2026-10-31
+P00014,A0012,website,https://www.partidomorado.pe/,Wikidata Q48796385,2026-10-31
+P00015,A0012,wikipedia,https://en.wikipedia.org/wiki/Purple_Party,Wikidata Q48796385,2026-10-31
+P00016,A0019,website,https://veronikamendoza.pe/,Wikidata Q11015795,2026-10-31
+P00017,A0019,x,https://x.com/Vero_Mendoza_F,Wikidata Q11015795,2026-10-31
+P00018,A0019,instagram,https://www.instagram.com/veromendoza_peru/,Wikidata Q11015795,2026-10-31
+P00019,A0019,facebook,https://www.facebook.com/veromendozaf,Wikidata Q11015795,2026-10-31
+P00020,A0019,youtube,https://www.youtube.com/channel/UC0Pyt0H63oOQBIGEsFFa1Qw,Wikidata Q11015795,2026-10-31
+P00021,A0019,wikipedia,https://en.wikipedia.org/wiki/Ver%C3%B3nika_Mendoza,Wikidata Q11015795,2026-10-31
+P00022,A0023,website,https://cooperaccion.org.pe,Wikidata Q65622053,2026-10-31
+P00023,A0023,x,https://x.com/CooperAccionPER,Wikidata Q65622053,2026-10-31
+P00024,A0023,facebook,https://www.facebook.com/CooperAccionPeru,Wikidata Q65622053,2026-10-31
