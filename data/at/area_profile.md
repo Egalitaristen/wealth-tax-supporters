@@ -1,17 +1,17 @@
 # Area profile — Austria (AT)
 
-*Last updated: 2026-10-31 (Deep Pass R003 completed)*
+*Last updated: 2026-10-31 (Economics & Civil Society Pass R004 completed)*
 
 ## 1. Scope
 - **Area:** Austria (Republic of Austria / *Republik Österreich*); ISO 3166-1 alpha-2: `AT`.
-- **Depth:** Deep pass (National tier + Supranational MEP tier + 9 Federal States / *Bundesländer* + municipal anchors Vienna, Graz, Linz).
+- **Depth:** Deep pass (National tier + Supranational MEP tier + 9 Federal States / *Bundesländer* + municipal anchors Vienna, Graz, Linz + academic economists & civil society).
 - **Levels of government in scope:**
   - National: Nationalrat (183 seats), Bundesrat (61 seats), Federal Government (*Bundesregierung*).
   - Supranational: European Parliament (Austrian delegation).
   - Regional: 9 Federal States (*Bundesländer*: Burgenland, Kärnten, Niederösterreich, Oberösterreich, Salzburg, Steiermark, Tirol, Vorarlberg, Wien).
   - Local: 2,093 Municipalities (*Gemeinden*, with official 5-digit *Gemeindekennziffer* / GKZ codes).
 - **Languages:** German (*Deutsch*).
-- **Current register status:** 31 actors (23 individuals, 8 organisations), 31 evidence rows (20 Grade A, 11 Grade B), 25 relational links, 6 sitting Nationalrat MPs linked to B0001.
+- **Current register status:** 37 actors (24 individuals, 13 organisations), 37 evidence rows (29 Grade A, 8 Grade B), 28 relational links, 6 sitting Nationalrat MPs linked to B0001.
 
 ---
 
@@ -77,11 +77,12 @@
 ## 8. Known networks & key civil society organisations
 - **Trade unions:** ÖGB (*Österreichischer Gewerkschaftsbund*), Gewerkschaft GPA, Gewerkschaft Bau-Holz (GBH), PRO-GE, Gewerkschaft vida.
 - **Chambers:** *Arbeiterkammer* (AK / Federal Chamber of Labour).
-- **Think tanks & Academic Research:** *Momentum Institut* (lead research institute producing distribution and revenue models), AK Wien economic research department (Dr. Markus Marterbauer, Dr. Matthias Schnetzer), ICAE Linz / JKU (Prof. Dr. Jakob Kapeller), OeNB wealth research (Dr. Martin Schürz).
-- **NGOs & Campaigns:** *Attac Österreich*, *taxmenow* (German-speaking wealthy advocates initiative active in Austria), *Guter Rat für Rückverteilung*.
+- **Think tanks & Academic Research:** *Momentum Institut* (lead research institute producing distribution and revenue models; Dr. Oliver Picek, Leonhard Dobusch), AK Wien economic research department (Dr. Markus Marterbauer, Dr. Matthias Schnetzer), ICAE Linz / JKU (Prof. Dr. Jakob Kapeller), OeNB wealth research (Dr. Martin Schürz).
+- **Charitable & Faith-based Civil Society:** *Volkshilfe Österreich* (Erich Fenninger), *Katholische ArbeitnehmerInnen-Bewegung Österreich* (KABÖ; Anna Wall-Strasser).
+- **Campaign Coalitions & Wealthy Advocates:** *Allianz für einen fairen Beitrag der Reichsten* (cross-movement coalition of ÖGB, AK, Volkshilfe, Armutskonferenz, Attac, KABÖ), *Attac Österreich*, *taxmenow* (Marlene Engelhorn), *Millionaires for Humanity* (Ernest Fuhrmann), *Guter Rat für Rückverteilung*.
 
 ---
 
 ## 9. Saturation & coverage review
-- **Saturation reached:** Core political parties, federal parliament, European Parliament delegation, all major sectoral trade unions within the ÖGB, leading chambers (AK), prominent inequality and wealth economists, and municipal/state anchors in Vienna and Styria are thoroughly cataloged.
+- **Saturation reached:** Core political parties, federal parliament, European Parliament delegation, all major sectoral trade unions within the ÖGB, leading chambers (AK), prominent macro & inequality economists, charitable welfare NGOs (Volkshilfe), faith-based civil society (KABÖ), wealthy advocates (taxmenow, Millionaires for Humanity), and municipal/state anchors in Vienna and Styria are thoroughly cataloged across 4 iterative runs (R001–R004).
 - **Future maintenance:** Track any new parliamentary legislative initiatives in the XXVIII. Nationalrat and updates from the European Citizens' Initiative (ECI) *Tax the Rich*.
