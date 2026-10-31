@@ -25,7 +25,7 @@ The native `austria()` adapter in `skill/scripts/seats.py` queries the official 
 - Body: `{"STEP": ["1000"], "NRBR": ["NR"], "GP": ["AKT"], "R_WF": ["FR"], "R_PBW": ["WK"], "M": ["M"], "W": ["W"]}`
 - Returns all 183 sitting MPs of the 28th legislative period (elected 29 September 2024).
 - Parties: FPÖ (57), ÖVP (51), SPÖ (41), NEOS (17), Grüne (16), Ohne Klub (1).
-- Supporter position matching: maps sitting MPs (such as Julia Herr, Kai Jan Krainer, Barbara Teiber, Dr. Christoph Matznetter) to their person profiles on `parlament.gv.at`.
+- Supporter position matching: maps sitting MPs (Julia Herr, Kai Jan Krainer, Barbara Teiber, Dr. Christoph Matznetter, Josef Muchitsch, Reinhold Binder) to their person profiles on `parlament.gv.at`. Note: SPÖ leader Andreas Babler's Nationalrat mandate rests while serving in the federal government per B-VG Art. 56.
 
 ## Core political landscape & models
 
