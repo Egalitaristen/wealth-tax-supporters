@@ -77,3 +77,5 @@ Leads not yet listed:
 - The Catalan Decreto ley 10/2024 and the Parlament resolution 30/XV, the Gipuzkoa and Bizkaia norma forales on the solidarity tax, and Navarre's 2023 levy on large fortunes: evidence rows exist but the original texts were not read in this pass.
 - Sumar's May 2026 bill for a tax on large inheritances and gifts (BOCG 335-1) was read and left out: inheritance tax only.
 - AIReF's revenue estimates for the solidarity tax (2022) and the Economistas Frente a la Crisis manifestos: known from press summaries only.
+
+Cosponsor check (1 November 2026): bills 122/000213 and 122/000045 were read in full from the BOCG (Wayback copies); their signatories are all linked. The signatories of Sumar's bill 122/000303 (BOCG 361-1) could not be read: congreso.es refuses scripts, the PDF opens as a download in the browser and the Wayback Machine holds no copy. The three people linked came from the earlier pass.

@@ -81,3 +81,5 @@ Leads not yet listed:
 - The AVS "restituzione fiscale" package of 2 October 2026 (1% to 3.5% above €5.4 million): no bill number in the Camera was found, only press coverage.
 - Sinistra Italiana's 2021 popular-initiative bill (Cassazione filing), and the Sbilanciamoci *Controfinanziaria 2024* (already an evidence row).
 - No official camera.it or senato.it record of a wealth-tax bill in the current legislature was found by search; the parliamentary database was not queried directly.
+
+Cosponsor check (1 November 2026): the popular-initiative text (unpercentoequo.it PDF) names no promoters or committee members and the campaign site shows no text to scripts, so only Maurizio Acerbo stays linked.
