@@ -58,3 +58,12 @@ R012 correction: visual inspection of Nam Dong-ho’s leaflet showed its 90% cal
 
 ## Review corrections
 Removed the Korean Office and Financial Services Workers' Union (A0030, E00032): its only source was a site-search results page that no longer shows the quote and the original article was never opened. The union can be re-added with the article itself. Quote checks: 42 of 47 rows found by script; 2 more by tag-stripped text; 2 vop.co.kr pages read in a browser (the script cannot connect to that host); 5 candidate leaflets (PDFs without a text layer) read by eye. Open question for the next run: whether the Minjung Party 2020 leaflets' "wealth tax up to 90%" (E00042 to E00047) is a wealth tax or the inheritance and gift tax rate (lead D0004); graded B with the doubt noted.
+
+## Resources pass (1 November 2026)
+
+Listed on the Resources page after reading each source: the KIPF report of January 2013 on the wealth tax and the comprehensive real estate tax, the 2014 paper by Kim, Park and Lee on problems of a net wealth tax (which argues against), the proceedings of the Labour Party forum of October 2024. Left out as a lead: a Realmeter poll for OhmyNews (March 2019, 67% for, 27.2% against), known only from a regional newspaper's repost without the question wording or fieldwork dates; list it if Realmeter's own release is found. No bill on a net wealth tax was found in the National Assembly: the one hit, a 2026 amendment of the comprehensive real estate tax law, is a property tax. The Ipsos and Earth4All survey of G20 countries (2024) is said in the press to show 71% for a wealth tax in Korea, but Ipsos's own tables were not read and the figure was not listed.
+
+Leads not yet listed:
+- Reform Party survey of July 2026 on strengthening property holding taxes: not a wealth tax, so left out.
+- ScienceON: 우리나라에서의 순부유세 도입에 관한 연구 (a thesis); the full text was not read.
+- The National Assembly bill system (의안정보시스템) was not queried directly for 부유세 or 순자산세 bills.

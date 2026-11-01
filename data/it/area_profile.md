@@ -71,3 +71,13 @@ First written 2026-10-22 (run R001). Seed pass across national, regional and loc
 Four rows were removed (Forum Disuguaglianze e Diversità: the quoted sentence is not in the source table; Fumagalli: the page could not be read and the quote describes a petition; Dalle Luche: the quote only cites an analysis; Di Turi: generic). Sbilanciamoci's quote was replaced with the sentence the PDF actually contains, and the Patriotic Millionaires and Tridico rows are grade B. The Demopolis poll was dated May 2024 and linked to an unrelated article: it was fieldwork in September 2024, published 26 September 2024, and now links to Oxfam Italia's press release (Oxfam commissioned it). I checked all 187 quotes against their sources: 182 matched as written and the five that did not are the ones above (one more was an HTML apostrophe difference).
 
 **Exclusion row removed.** The effimera.org page that an early run rejected for Andrea Fumagalli was a signature-drive page and could not be read; he stays on the May 2024 economists' manifesto (E00088), whose quote is on its page.
+
+## Resources pass (1 November 2026)
+
+Listed on the Resources page after reading each source: the popular-initiative bill "Imposta grandi patrimoni" (1%Equo campaign, from the promoters' text; it is only filed at the Corte di Cassazione and has no parliamentary number, with signature collection to 15 November 2026), the TaxTheRich manifesto of 134 Italian economists (April 2024, presented with Oxfam Italia) and the World Inequality Lab working paper 2024/23 by Dalle Luche, Guzzardi, Palagi, Roventini and Santoro. The two polls already in `meta.json` (Demopolis for Oxfam, 2024; Piazzapulita, 2026) were left as they are.
+
+Leads not yet listed:
+- The Fratoianni–Orfini amendment of November 2020 to the budget law (a 0.2% to 2% ordinary tax on net wealth above €500,000), withdrawn in committee on 16 December 2020 and rejected as an *ordine del giorno* (19 in favour, 6 abstentions, 462 against), known only from Il Fatto Quotidiano; the Camera's own records were not read.
+- The AVS "restituzione fiscale" package of 2 October 2026 (1% to 3.5% above €5.4 million): no bill number in the Camera was found, only press coverage.
+- Sinistra Italiana's 2021 popular-initiative bill (Cassazione filing), and the Sbilanciamoci *Controfinanziaria 2024* (already an evidence row).
+- No official camera.it or senato.it record of a wealth-tax bill in the current legislature was found by search; the parliamentary database was not queried directly.

@@ -76,3 +76,13 @@ First written 2026-10-22 (run R001).
   2. Economists snowballing (Kalle Moene, Gabriel Zucman Norway visits/co-authors, Rolf Aaberge, Annette Alstadsæter).
   3. Regional and local sweep of key municipalities (Oslo, Bergen, Trondheim, Tromsø council groups).
   4. Business/wealthy voices (patriotic millionaires letters, business op-eds).
+
+## Resources pass (1 November 2026)
+
+Listed on the Resources page after reading each source: the Storting's 2026 tax decision (Vedtak 212), which sets the wealth tax now in force (formuesskatt, an annual net wealth tax; the date of the vote is not on the page), the Skatteutvalget's NOU 2022: 20 (read through the Wayback copy of the ministry's news item of 19 December 2022, because regjeringen.no refuses scripts), and Marius Ring's paper in the Review of Economic Studies. No Norwegian poll on the wealth tax was listed: the only ones found were a 2013 InFact poll for VG known from press coverage and a December 2024 Respons Analyse survey of 400 businesses (on a host with a bad certificate), neither read from the pollster's release.
+
+Leads not yet listed, because the document was not read or was not clearly about the wealth tax:
+- NOU 2003: 9 (the Skauge committee) and NOU 2014: 13 (the Scheel committee), both cited in Storting papers on formuesskatt; regjeringen.no refused scripts and no archive copy was read.
+- Storting private members' proposals on the wealth tax (for example Dokument 8:72 S (2012–2013) from KrF on working capital, Dokument 8:196 S (2020–2021) from FrP to remove it on business assets): the proposal text and outcome were not read. Dokument 8:97 S and 8:94 S (2025–2026) are about the valuation of homes, not the wealth tax itself.
+- Statistics Norway's research project page *Hvordan virker formuesskatten?* (2022) describes a project and states no conclusion; Tankesmien Agenda's 2026 article, Langsikt's 2025 publication and Manifest Analyse's 2024 note are already evidence rows but were not read as reports.
+- A DN poll on keeping the wealth tax (the snippet gave neither date nor pollster) and an Aftenposten end-of-campaign poll mentioned by Altinget.

@@ -90,3 +90,12 @@ The original Tax Extreme Wealth letter roster yields12 new public Dutch signator
 Frank Herreveld proposes a temporary1.2% stock levy on the former box3 asset base, while Gerard Bosman proposes a progressive tax above EUR1m in his personal policy essay. Neither claim is represented as adopted organisational policy. Balkenende's G20 letter remains a lead because the opened original does not by itself clearly settle a wealth-stock minimum rather than income-tax support. Peter Leest's existing unresolved identity exclusion remains unchanged. Ronald van Raak's retelling of an anonymous millionaire's views is not imported as his own explicit endorsement.
 
 [Research ledger](research_R005.md), [QA](qa_R005.md) and [independent source review](qa_R005_peer.md) record scope, identity limits and checks. Existing union, original interview/audio, party-policy and targeted local leads remain open. No national or local saturation is claimed.
+
+## Resources pass (1 November 2026)
+
+Listed on the Resources page after reading each source: three Tweede Kamer motions (De Jong c.s. 36 202, nr. 102 of 9 November 2022, adopted, on a millionaire tax of 1% on box 3 assets above €1 million; Alkaya, 36 418, nr. 74, and Van der Lee, 36 418, nr. 76, both of 25 October 2023, on a global billionaire wealth tax); the CE Delft report of May 2025 on a carbon-weighted wealth tax was left out as borderline (a net-wealth base with rates weighted by carbon). The Alkaya motion's vote was not read: the text of the follow-up motion Dijk and Maatoug (25 087, nr. 330) calls it adopted. No bill on a wealth tax (as opposed to the box 3 tax on assumed returns) was found; the 2024 Dijk motions on a millionaire tax were not read as texts. No new Dutch poll was listed: the claim of "seven in ten" in a motion and the Oxfam Novib figure already in `meta.json` have no pollster release, and no I&O Research, Ipsos, EenVandaag or Kantar poll on a net wealth tax turned up.
+
+Leads not yet listed:
+- The April 2024 Tweede Kamer debate on taxing the extremely rich (Dijk's motions for a national 1% tax above €1 million and a European exit tax): the motions and their votes of 9 April 2024 were not read.
+- The Keune and de Beer essay in *Socialisme en Democratie* (2020), the nlfiscaal articles of 2022 to 2026 (behind a login) and the Studiecommissie Belastingstelsel.
+- The 2023 NOS overview of party programmes on a millionaire tax is a press summary, not a document of the parties.
