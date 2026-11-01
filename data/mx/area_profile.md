@@ -34,3 +34,17 @@
 ## Review corrections (PR review, 2026-10-26)
 
 Seventeen people were removed after the quotes and sources were read: Ifigenia Martínez Hernández (died 5 October 2024); six interviewees whose quote is not support (Pérez Garrido, Villarreal Páez, Carbajal, Campos Vázquez, del Ángel Mobarak, de la Mora); six credits on Oxfam México's 2022 report, which mentions a wealth tax only once, as a future step; two on a Fundar/ACIJ report that could not be read; and two on Oxfam's 2026 "Oligarquía o democracia" report. They are in exclusions.csv. The eight authors of Oxfam's 2026 "Financiar el futuro" report (which calls for a 3% minimum tax on the net wealth of the very rich), the five signers of the 2023 constitutional initiative and the PT group's 2020 proposal are now grade B: an author credit or a name in a gazette list is not the person's own statement, and the gazette pages could not be opened to read the initiative.
+
+## Resources pass (1 November 2026)
+
+Listed on the Resources page after reading the source: the PT deputy José Luis Sánchez González's 2026 initiative on a tax on large fortunes (the sponsor's page, which gives the 100 million peso threshold; the Chamber's Gaceta refused connections, so the committee and any vote were not seen and `state` is an inference: pending). No Mexican poll on a wealth tax was found whose own release could be read.
+
+Leads not yet listed, because the document was not read or is not about a net wealth tax alone:
+- Senator Amalia García Medina's (Movimiento Ciudadano) April 2026 initiative: a wealth-concentration tax of 2% to 6% above 100 million pesos, with inheritance and luxury-goods taxes (known from a Pérez-Llorca legal note; the Senate's own page was not read).
+- The May 2023 constitutional initiative on article 31 (Gaceta, 24 May 2023) and the PT group's 2020 proposal of a 4.5% solidarity tax: both are evidence rows, but the Gaceta did not load.
+- Oxfam México's May 2026 *Financiar el futuro* (a whole public-finance report; its wealth-tax section backs a 3% minimum tax on the net wealth of centimillionaires) and the International Tax Observatory's April 2026 Latin America report on minimum taxation of high-net-worth individuals (seven countries; a minimum tax rather than a plain wealth tax).
+- Fundar, CIEP and Oxfam México's 2021 study on wealth taxes (net wealth tax estimated at 99 billion pesos, 0.4% of GDP), known only from La Razón and El Contribuyente.
+- A 2020 CELAG poll, reported in a La Jornada column as 67% support in Mexico: CELAG's release and the question were not found.
+- The UNAM paper *Una propuesta de impuesto a la riqueza para México* (Problemas del Desarrollo, 2022; the journal site returned 403).
+
+Searched in Spanish (initiative, Senate, poll, report and paper terms); no other bill or published poll found.

@@ -39,3 +39,15 @@ The co-authored [RedGE/AIS fiscal report](https://www.redge.org.pe/sites/default
 
 ## Review corrections
 Oxfam in Peru (E00006): replaced a general line about direct taxes with the sentence in the same statement that names a wealth tax on individuals above US$ 1 million at 1% to 3%, and raised it to grade A. CGTP (E00008, E00009): the quote was spliced across two page columns; replaced with the linear sentence from the same document. Juntos por el Perú 2026 (E00012): left as it was; the script cannot read the programme's table columns, and the quote was checked by eye on the rendered page (strategic objective "Crear un sistema tributario progresivo: impuesto a grandes fortunas en situación de crisis..."). Quotes checked by script (25 of 27 found; E00007 and E00012 are PDFs the script cannot read) and those two by reading the extracted text and the rendered page.
+
+## Resources pass (1 November 2026)
+
+Listed on the Resources page after reading the bill PDFs on congreso.gob.pe: Proyecto de Ley 5163/2020-CR (Frente Amplio) and 06615/2020-CR (Somos Perú). Both are marked `lapsed` as an inference: no committee report or vote was found and the 2020-2021 Congress ended in July 2021. Also listed: the CIAT working paper of January 2018 on wealth taxes in Latin America (country `global`; it includes a simulation for Peru).
+
+Leads not yet listed:
+- Proyecto de Ley 3060/2022-CR, Perú Libre (Kelly Portalatino), "impuesto a la fortuna con justicia social", threshold 3,500 UIT: known from IUS Latin, Exitosa and LP Derecho; the official PDF was not found (guessed URLs returned 404).
+- Proyecto de Ley 5081/2020-CR, mentioned in an RPP column; not found.
+- COMEX Peru's April 2020 letter against a wealth tax and the UPeU and PUCP papers (the PUCP repository answered "Access Denied"; the UPeU journal answered 403).
+- The International Tax Observatory's 2026 minimum-tax report (seven Latin American countries incl. Peru; a minimum tax on individuals, not listed).
+
+No poll (Ipsos, IEP, Datum) asking about a wealth tax was found. Searched in Spanish.
