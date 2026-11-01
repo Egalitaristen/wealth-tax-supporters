@@ -1,0 +1,41 @@
+query_id,run_id,date,language,query,channel,results_opened,leads_added,note
+Q0001,R001,2026-10-31,ar,ضريبة على الثروة السعودية OR مجلس الشورى,web,10,1,Broad search on wealth tax debates and Shura Council
+Q0002,R001,2026-10-31,ar,ضريبة الثروة الزكاة السعودية,web,8,1,Search exploring relationship between wealth tax proposals and Zakat
+Q0003,R001,2026-10-31,ar,ضريبة الثروة site:aleqt.com,web,6,0,Search in Al-Eqtisadiah business newspaper archive
+Q0004,R001,2026-10-31,ar,ضريبة الثروة site:okaz.com.sa,web,6,0,Search in Okaz newspaper archive
+Q0005,R001,2026-10-31,en,"site:arabnews.com ""wealth tax""",web,6,1,Discovered Khalid Abdulla-Janahi 1% wealth tax proposal
+Q0006,R001,2026-10-31,en,Earth4All Ipsos Saudi Arabia 54% wealth tax,web,4,0,Retrieved Earth4All / Ipsos 2024 G20 public opinion poll for Saudi Arabia
+Q0007,R001,2026-10-31,en,Mohammed Al-Jadaan wealth tax billionaires G20,web,5,0,Investigated Saudi delegation position at G20 Rio 2024
+Q0008,R002,2026-10-31,ar,فهد بن جمعة ضريبة OR الثروة OR الزكاة,web,6,0,Investigated former Shura Council economist Dr. Fahad bin Juma'a
+Q0009,R002,2026-10-31,ar,سعيد الشيخ ضريبة OR الثروة OR الزكاة مجلس الشورى,web,6,0,Investigated former Shura Council finance member Dr. Said Al-Shaikh
+Q0010,R002,2026-10-31,ar,نورة اليوسف ضريبة OR الضرائب OR الدخل OR الشورى,web,5,0,Investigated Saudi Economic Association chair Dr. Nourah Al-Yousef
+Q0011,R002,2026-10-31,ar,حمزة السالم ضريبة OR الزكاة,web,5,0,Investigated academic economist Dr. Hamza Al-Salim
+Q0012,R002,2026-10-31,ar,عبدالله المغلوث ضريبة OR الزكاة OR الأراضي,web,5,0,Investigated real estate economist Dr. Abdullah Al-Maghlouth
+Q0013,R002,2026-10-31,ar,برجس البرجس ضريبة OR الزكاة OR الثروة,web,5,0,Investigated economic writer Barjas Al-Barjas
+Q0014,R002,2026-10-31,en,ESCWA wealth tax Arab region Saudi Arabia OR GCC,web,6,0,Investigated UN ESCWA regional wealth tax and inequality studies
+Q0015,R003,2026-11-01,en,T20 Think20 Saudi Arabia wealth tax inequality,web,6,0,Investigated T20 Saudi Arabia 2020 task force briefs on fiscal policy
+Q0016,R003,2026-11-01,en,Civil 20 C20 2020 wealth tax Saudi Arabia,web,6,0,Investigated C20 Saudi Arabia 2020 civil society process and boycott
+Q0017,R003,2026-11-01,ar,معهد الاقتصاد الإسلامي ضريبة الثروة الزكاة,web,6,0,Investigated KAU Islamic Economics Institute comparative taxation research
+Q0018,R003,2026-11-01,ar,اللجنة الوطنية للجان العمالية ضريبة الأجور,web,5,0,Investigated National Committee of Workers Committees (NCWC) labor positions
+Q0019,R003,2026-11-01,ar,عصام الزامل ضريبة الضرائب الثروة,web,5,0,Investigated economic analyst Essam Al-Zamil
+Q0020,R003,2026-11-01,ar,سالم باعجاجة ضريبة الزكاة,web,5,0,Investigated accounting professor Dr. Salem Baajajah
+Q0021,R003,2026-11-01,ar,طلعت حافظ ضريبة الضرائب الزكاة,web,5,0,Investigated banking spokesperson Talat Hafez
+Q0022,R004,2026-11-01,en,"""Frank Kane"" ""wealth tax"" ""Janahi"" OR ""Top CEO""",web,5,1,Investigated Frank Kane 2017 KAEC Top CEO panel role
+Q0023,R004,2026-11-01,en,"Oxfam """"wealth tax"""" """"Saudi"""" OR """"Saudi Arabia"""" OR """"Gulf""""",web,6,0,Investigated Oxfam MENA climate and wealth inequality advocacy
+Q0024,R004,2026-11-01,en,"""Proud to Pay"" Survation ""Saudi Arabia"" OR ""G20"" ""millionaires""",web,6,1,Investigated Patriotic Millionaires and Proud to Pay More G20 signatories
+Q0025,R004,2026-11-01,ar,"""ضريبة الثروة"" site:ksu.edu.sa OR site:kau.edu.sa OR site:kfupm.edu.sa",web,6,0,Scanned Saudi university academic literature on wealth taxation
+Q0026,R004,2026-11-01,en,"""Measuring Inequality in the Middle East"" ""Saudi Arabia"" ""wealth tax""",web,6,1,Investigated World Inequality Lab / WID.world Middle East research
+Q0027,R004,2026-11-01,ar,"site:al-jazirah.com OR site:alriyadh.com OR site:okaz.com.sa ""ضريبة الثروة""",web,6,0,Exhaustive press archive sweep of major Saudi daily newspapers
+Q0028,R005,2026-11-01,ar,"""ضريبة على الأغنياء"" OR ""ضريبة على الأثرياء"" ""السعودية"" كاتب OR اقتصادي",web,6,0,Searched for Saudi writers proposing taxes on the wealthy
+Q0029,R005,2026-11-01,ar,"site:argaam.com ""ضريبة تصاعدية"" OR ""ضريبة الثروة""",web,5,0,Searched Argaam and Alpha Beta contributor columns
+Q0030,R005,2026-11-01,ar,"""عبدالحميد العمري"" ""ضريبة"" OR ""رسوم الأراضي""",web,5,0,Investigated real estate analyst Abdulhamid Al-Amri White Land tax advocacy
+Q0031,R005,2026-11-01,en,"""Lubna Olayan"" ""wealth tax"" OR ""taxing wealth"" OR ""inequality""",web,5,0,Investigated corporate leader Lubna Olayan public addresses
+Q0032,R005,2026-11-01,ar,"""فرض ضرائب على الأغنياء"" ابن عثيمين OR ابن باز OR الفوزان",web,6,0,Investigated Saudi grand jurists fatwas on non-Zakat taxes as mukus
+Q0033,R005,2026-11-01,ar,"site:aawsat.com ""ضريبة الثروة""",web,6,0,Searched Asharq Al-Awsat international reporting and column archives
+Q0034,R006,2026-11-01,en,Omar Al-Ubaydli wealth tax Saudi Arabia Islam-friendly,web,6,1,Found Al Arabiya op-ed (May 2021) and Mercatus/Substack copies
+Q0035,R006,2026-11-01,en,Gulf wealth tax Nasser Saidi OR Gulf Research Center OR Chatham House,web,6,0,Nothing new beyond Janahi
+Q0036,R006,2026-11-01,ar,مقال كاتب سعودي يدعو لفرض ضريبة على الثروات الكبيرة بدل الضريبة المضافة,web,6,0,Nothing Saudi; Al-Madina column defends VAT
+Q0037,R006,2026-11-01,en,Saudi Shura Council member proposes wealth tax,web,6,0,Only expat income and remittance levy debates
+Q0038,R006,2026-11-01,ar,سعوديون ينتقدون رجل أعمال دعا لفرض الضرائب,web,6,0,Saleh Kamel on taxes in general (excluded)
+Q0039,R006,2026-11-01,ar,أستاذ اقتصاد سعودي ضريبة على الثروة OR الثروات OR الأثرياء (extended),web,6,0,No Saudi academic found
+Q0040,R006,2026-11-01,en,Saudi columnist OR professor wealth tax Saudi Gazette OR Arab News 2022-2025 (extended),web,6,0,Only Al-Ubaydli again

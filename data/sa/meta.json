@@ -1,0 +1,23 @@
+{
+  "name": "Saudi Arabia",
+  "iso2": "SA",
+  "lead": "",
+  "status": "in progress",
+  "boundaries": "boundaries.json",
+  "notes": "Depth: seed. Scope: national (Majlis al-Shura, ministers, financial experts, economists, think tanks, international campaigns) and regional/local structure (13 regions, 147 governorates). Local tier: 147 governorates (muhafazat); regional tier: 13 administrative regions (mintaqah). Boundaries from geoBoundaries gbOpen (ADM1: ODbL-1.0; ADM2: CC BY-SA 2.0). Seed pass R001 completed 2026-10-31.",
+  "polls": [
+    {
+      "support": 54,
+      "oppose": null,
+      "scope": "Saudi Arabia, adults aged 18-75",
+      "question": "A wealth tax on wealthy individuals to fund major changes to our economy and lifestyles (support / strongly support)",
+      "question_original": "فرض ضريبة ثروة على الأفراد الأثرياء لتمويل تغييرات رئيسية في اقتصادنا وأنماط حياتنا",
+      "pollster": "Ipsos",
+      "commissioned_by": "Earth4All and Global Commons Alliance",
+      "fieldwork": "2024-03-05 - 2024-04-08",
+      "sample": "1,000 adults aged 18-75",
+      "published": "2024-06-24",
+      "url": "https://earth4all.life/global-survey-2024/"
+    }
+  ]
+}
