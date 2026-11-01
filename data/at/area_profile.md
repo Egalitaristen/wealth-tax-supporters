@@ -89,3 +89,16 @@
 
 ## Audit — R005
 - 27 of 37 quotes were found on their pages; the other 10 are on parlament.gv.at, oegb.at, kpoe.at and similar sites that block scripts, so they were not re-read. Rows that only name a wealth tax with no rate, threshold or formal act are graded B (Katzian, Regner, Schürz, Fuhrmann, Volkshilfe and its director, Wall-Strasser, Krotzer); Elke Kahr's quote does not mention the tax itself, so it is C. "Millionärssteuer" (millionaires' tax) in Austria is the named SPÖ, ÖGB and AK model with a threshold of one million euros, so rows that use it stay A. The 183-seat Nationalrat chart adds up (FPÖ 57, ÖVP 51, SPÖ 41, NEOS 17, Greens 16, no club 1).
+
+
+## Resources pass (1 November 2026)
+
+Listed on the Resources page after reading each source: the Heck, Kapeller and Wildauer post on the A&W Blog (the 1-2-3-4 tariff and its revenue range) and, as a poll, the SORA study for the Momentum Institut (read from its own PDF: 65% for, 19% against a tax on large wealth, 2,000 people, fieldwork 26 July to 25 September 2022).
+
+Searched and not listed: the Nationalrat's XXVII. GP motions on a wealth tax. Motion [1077/UEA](https://www.parlament.gv.at/gegenstand/XXVII/UEA/1077) (Julia Herr, "Einführung einer Millionärssteuer") was rejected on 14 June 2023 (SPÖ for; ÖVP, FPÖ, Greens, NEOS against), but its text argues about "Millionenerben" and asks only for "eine Millionärssteuer für die Reichsten", so it is not clearly an annual net wealth tax; 24/UEA concerns the 55% income-tax top rate and 99/UEA (NEOS, 2020) asks the government to start neither an inheritance nor a wealth tax. No Nationalrat bill for a stand-alone net wealth tax was found.
+
+Leads not yet listed:
+- Evidence row E00003 gives 20 November 2020 for 1077/UEA, but the parliament page dates it 14 June 2023 (introduced and rejected at the 219th session); correct the row and decide whether the motion counts.
+- The Momentum analysis "Vermögensteuer: So viel bringt sie" (cited in the evidence) returned 404 on its old address; find the current address and read it.
+- The AK study behind the A&W post ("Vermögenskonzentration in Österreich – Ein Update auf Basis des HFCS 2017", Heck, Kapeller, Wildauer) and the 2024 AK study by Heck, Hornykewycz, Kapeller and Wildauer, whose models the press reports at EUR 6 to 12 billion: read the studies themselves.
+- Polls known only from press or blog summaries, without the pollster's release or wording: the A&W Blog compilation of 2018 (Format, Österreich, Kurier, profil polls), the GPA poll (76%, inheritance and wealth tax from EUR 1 million together), the profil/Unique research poll (54%, inheritance and wealth together) and the SORA poll for Volkshilfe of August 2022 (78%, inheritance and wealth tax together).

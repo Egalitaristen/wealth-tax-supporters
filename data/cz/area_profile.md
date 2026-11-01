@@ -85,3 +85,15 @@
   - Review sitting members of the Poslanecká sněmovna Budget Committee (*Rozpočtový výbor*).
   - Survey regional governors (*hejtmani*) and regional council motions across kraje.
   - Check academics at CERGE-EI, Prague University of Economics and Business (VŠE), and Institute of Economic Studies (IES).
+
+
+## Resources pass (1 November 2026)
+
+Listed on the Resources page after reading each source: Miroslav Palanský's study for the Green Party (read from the PDF; 3.5% above CZK 111 million) and the 2025 paper by Michal Radvan and Taisiia Chepys in Studia Iuridica Lublinensia (read in full text, open access). The Green Party poll was already in `meta.json` and is not repeated.
+
+No bill, motion or law on a net wealth tax in the Chamber of Deputies was found. The search was a web search for the Chamber's "sněmovní tisk" records (queries on daň z majetku, majetková daň, daň ze superbohatství); the psp.cz database was not queried directly, so a bill with different wording could have been missed. The ČSSD 2021 proposal in the evidence is an election manifesto line, not a bill.
+
+Leads not yet listed:
+- A diploma thesis at a Prague university on a progressive net wealth tax and inequality in Czechia (2000 to 2023) found only as a search snippet: not a peer-reviewed work, not read.
+- The Hospodářské noviny opinion piece of 16 December 2025 on a wealth tax without debt deduction (an opinion piece, not a paper).
+- No Czech poll apart from the Green Party's was found; the CVVM and Kantar results that turned up concern income tax and sector taxes, not wealth.

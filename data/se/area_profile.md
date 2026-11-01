@@ -84,3 +84,17 @@ Status after R001 (2026-10-19): 35 actors, 58 evidence rows, all `verified=n`. N
 Tooling: adapters `se_riksdag_scan.py` and `se_meetingplus_scan.py` exist. Do not build further municipal crawlers unless a sample shows hits (skill 6.5).
 
 Update sweeps after completion: re-run H0001 each autumn (budget motions, October) and each spring (spring bill motions, April-May).
+
+
+## Resources pass (1 November 2026)
+
+Listed on the Resources page after reading each source: three private motions to the Riksdag that are about the wealth tax itself, read on data.riksdagen.se together with the Riksdag's recorded outcome (all rejected): 2009/10:Sk342 (Ameer Sachet, S), 2013/14:Sk403 and 2016/17:2632 (Lillemets and Mutt, MP). The Verian poll for Oxfam Sverige was already in `meta.json`.
+
+Not listed: the Vänsterpartiet budget and spring motions (2019/20:2915, 2021/22:3278, 2025/26:4108 and others) and the MP and S motions on capital taxes; they mention a wealth tax inside a whole tax-policy programme, with no separate proposal on it. The Riksdag's motion search (data.riksdagen.se, query förmögenhetsskatt) was read through 2005 and no other dedicated wealth-tax motion since 2016/17 turned up.
+
+Leads not yet listed:
+- Arena Idé, "Skatt på kapital – Skatteöversyn delrapport 3" (March 2026, Odeberg and Österlund): proposes a wealth tax of 0.3% on net wealth above SEK 10 million (at least SEK 23 billion a year) but as one of several capital-tax measures in a 100 billion package, so left out as a whole-reform report; the earlier delrapporter and the Tankesmedjan Tiden reports of 2017 and 2020 are of the same kind.
+- Verian poll for Oxfam Sverige (June 2026): the existing poll's `fieldwork` is empty and its `url` is the Realtid report. Oxfam's own release (press room, Mynewsdesk) could not be reached from the pages that load without scripts; add the release, the fieldwork dates and the exact question.
+- Oxfam Sverige's report "Vårt ojämlika Sverige" (February 2026): the PDF is over 10 MB and was not read.
+- Åsa Hansson, "Förmögenhetsskatten som symbol", Ratio Working Paper 39 (2002): read the abstract only; the month of publication is not shown.
+- Press-only polls on a Swedish wealth tax (a Dagens PS item of 23 September 2025 on a poll for Zucman's proposal turned out to be about France) were not found with a pollster's release.
