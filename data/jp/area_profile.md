@@ -78,3 +78,14 @@ First written 2026-10-22 (run R001); expanded to multi-hundred supporters in run
 - **自治体問題研究所** (Institute for Local Government Issues, `https://www.jichiken.jp/`): Research institute publishing academic studies on wealth tax institutional design and local finances.
 - **政治経済研究所** (Political Economy Research Institute, `https://seikeiken.org/`): Think tank researching international tax cooperation and billionaire minimum taxes.
 - **日本弁護士連合会** (Nichibenren / Japan Federation of Bar Associations): Debates tax justice, human rights, and social safety net funding.
+
+## Resources pass (1 November 2026)
+
+Listed on the Resources page after reading each source: the Wealth Tax Act of 1950 (富裕税法, Law No. 174), which was an annual net wealth tax and was repealed from 1 August 1953 (read in the Nagoya University law database), and Masato Kikuya's 2016 paper on reintroducing it. Japan has no wealth tax in force. No bill on a wealth tax in the present Diet and no published poll on a wealth tax in Japan were found (searched in Japanese and English: 富裕税, 純資産課税, 世論調査, 法案). The party questionnaire of the Citizens' Network for Fair Taxation (July 2025) shows the JCP, SDP and Reiwa in favour and the LDP against, but it is a survey of parties, not of the public.
+
+Leads not yet listed:
+- The National Tax College paper 富裕税の創設とその終焉 (tax-college research series, volume 15): the page shows no author or date, so it cannot be listed.
+- Katsuhiko Sekino, 戦後日本の富裕税 (Chuo University 経済学論纂 62, September 2021): the university's repository was down for maintenance on 1 November 2026.
+- 富裕税入門 (Akashi Shoten, August 2025), a book whose authors the organiser's page does not name.
+- The 1946 one-off property tax (財産税法, Law No. 52 of 1946), known only from the Kikuya paper.
+- Keidanren's December 2024 policy proposal on taxing the wealthy (reported by Akahata): not read, and probably about minimum taxation rather than a net wealth tax.

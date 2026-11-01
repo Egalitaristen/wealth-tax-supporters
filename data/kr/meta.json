@@ -4,5 +4,20 @@
   "lead": "Egalitaristen",
   "status": "in progress",
   "boundaries": "boundaries.json",
-  "notes": "Depth: partial seed. Scope: national; regional and local supporters have not been systematically researched. Geography and map use SGIS-derived 2026-10-01 boundaries (CC BY 4.0; Statistics Korea KOGL Type 1), with non-autonomous districts merged into their city. Codes await independent comparison with an official current list. Historical statements do not establish current support."
+  "notes": "Depth: partial seed. Scope: national; regional and local supporters have not been systematically researched. Geography and map use SGIS-derived 2026-10-01 boundaries (CC BY 4.0; Statistics Korea KOGL Type 1), with non-autonomous districts merged into their city. Codes await independent comparison with an official current list. Historical statements do not establish current support.",
+  "polls": [
+    {
+      "support": 67,
+      "oppose": 27.2,
+      "scope": "South Korea, adults aged 19 and over",
+      "question": "A wealth tax on ultra-high earners (the exact wording is not published)",
+      "question_original": "초고소득자 부유세 도입",
+      "pollster": "Realmeter (리얼미터)",
+      "commissioned_by": "OhmyNews (오마이뉴스)",
+      "fieldwork": "March 2019 (commissioned 12 March; exact dates not stated)",
+      "sample": "501 adults reached by random-digit dialling (5,856 contacted, 8.6% response), margin of error ±4.4 points",
+      "published": "2019-03-13",
+      "url": "http://www.jejusori.net/news/articleView.html?idxno=300597"
+    }
+  ]
 }
