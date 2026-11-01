@@ -4,5 +4,20 @@
   "lead": "Egalitaristen",
   "status": "in progress",
   "boundaries": "boundaries.json",
-  "notes": "Depth: seed. Scope: national, regional (9 provinces) and local (sampled). The geography register holds the country root, three national institutions, 9 provinces, 44 district municipalities, 8 metropolitan municipalities and 205 local municipalities (OCHA COD-AB P-codes, from the Municipal Demarcation Board's 2020 boundaries). The map (213 map units: the 205 local municipalities and 8 metros; districts and provinces drawn as outlines) comes from OCHA HDX cod-ab-zaf under CC BY-IGO 3.0. Started as the home of the Pan-African Parliament delegation's candidates (see data/au)."
+  "notes": "Depth: seed. Scope: national, regional (9 provinces) and local (sampled). The geography register holds the country root, three national institutions, 9 provinces, 44 district municipalities, 8 metropolitan municipalities and 205 local municipalities (OCHA COD-AB P-codes, from the Municipal Demarcation Board's 2020 boundaries). The map (213 map units: the 205 local municipalities and 8 metros; districts and provinces drawn as outlines) comes from OCHA HDX cod-ab-zaf under CC BY-IGO 3.0. Started as the home of the Pan-African Parliament delegation's candidates (see data/au).",
+  "polls": [
+    {
+      "support": 68,
+      "oppose": 12,
+      "scope": "South Africa, adults, online",
+      "sample": "1,000 respondents in South Africa (21,000 across 21 countries)",
+      "url": "https://res.cloudinary.com/dfyeeawiq/images/v1718715240/Earth-for-All-Survey-2024-South-Africa-Country-Deck/Earth-for-All-Survey-2024-South-Africa-Country-Deck.pdf",
+      "question": "Wealthy people paying a higher tax on their wealth, as a means of funding major changes to our economy and lifestyles",
+      "question_original": "",
+      "pollster": "Ipsos",
+      "commissioned_by": "Earth4All and the Global Commons Alliance",
+      "fieldwork": "2024-03-05 to 2024-04-08",
+      "published": "2024-06"
+    }
+  ]
 }

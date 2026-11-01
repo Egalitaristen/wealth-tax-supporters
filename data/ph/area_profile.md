@@ -55,3 +55,14 @@ R007 added [Bayan Central Visayas](https://www.philstar.com/the-freeman/cebu-new
 ## R008: final sample
 
 A regional [Negros coalition](https://digicastnegros.com/transport-strike-rally-set-wednesday-no-to-oil-price-hike-coalition-formed/) and the national [Federation of Free Workers](https://ninetydegreesph.com/labor-group-pushes-exemption-for-p50k-earners-higher-taxes-on-billionaires-corporations/) publicly called for wealth taxes. [SANLAKAS](https://sanlakasfamily.blogspot.com/2022/09/) proposed taxing 1% of billionaires' wealth. All three quotes matched automatically. A separate review found no high-impact evidence or geography errors. The outcome of SUPER Federation's announced merger remains unverified; further local research and a party-seat breakdown remain future work.
+
+
+## Resources pass (1 November 2026)
+
+Listed on the Resources page after reading each text: House Bills 10253 (Eighteenth Congress), 4304, 8123 and 9274 (Twentieth Congress), Tadem's 2023 UP CIDS monograph and IBON's "Tax the super-rich" (August 2023). All four bills were read from the House PDFs, which show the filing date and the sponsors but no later stage; the state of HB 10253 is inferred from the end of the Eighteenth Congress, and the others are listed as pending. Searched for a Philippine poll on a wealth tax (SWS, Pulse Asia, OCTA, WR Numero, press): none found.
+
+Leads not yet listed:
+- House Bill 8860 (TUCP Party-list Rep. Raymond Mendoza, 14 April 2026, the PATAS Act): a tax reform package that raises the income tax exemption, adds a windfall profits tax and a Solidarity Wealth Tax on net worth of 1 billion pesos or more. Left out because the wealth tax is one part of a broader reform; the bill is already a source for the register.
+- UP CIDS Policy Brief 2022-07, "Tax the Rich! Nine Reasons for a Wealth Tax" (Tadem): an extract of the monograph; the publication month is not on the brief.
+- Wealth tax campaign material from APMDD (August 2022, "Tax the rich, not the poor") and the University of the Philippines School of Economics study "Wealth tax: cross-country analysis and implications for the Philippines" (selib.upd.edu.ph): not read.
+- Senate bills: the Senate legislative database refused scripts (403), so no Senate bill was checked.
