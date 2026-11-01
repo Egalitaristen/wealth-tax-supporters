@@ -99,3 +99,6 @@ Leads not yet listed:
 - The April 2024 Tweede Kamer debate on taxing the extremely rich (Dijk's motions for a national 1% tax above €1 million and a European exit tax): the motions and their votes of 9 April 2024 were not read.
 - The Keune and de Beer essay in *Socialisme en Democratie* (2020), the nlfiscaal articles of 2022 to 2026 (behind a login) and the Studiecommissie Belastingstelsel.
 - The 2023 NOS overview of party programmes on a millionaire tax is a press summary, not a document of the parties.
+
+## Taxes in force that are outside the definition
+- **Box 3 (inkomstenbelasting):** the Dutch tax on savings and investments is an income tax on a deemed return on net assets, not a levy on the wealth itself, so it is outside the definition. Positions on box 3 reform are not counted unless they call for a wealth tax. `[verify: stated from general knowledge, not read from the law for this note]`
