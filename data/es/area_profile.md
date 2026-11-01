@@ -17,7 +17,7 @@ First written 2026-10-21 (run R001). Seed pass, national level only. Lines marke
 - 2023: Sumar's election programme proposes making it permanent with rates of at least 4% ([Valencia Plaza](https://valenciaplaza.com/valenciaplaza/sumar-plantea-subir-el-irpf-a-rentas-de-mas-de-120000-euros-y-un-tipo-minimo-del-15-en-sociedades)).
 - 2025-2026: the Government pushes international taxation of large fortunes (Spain-Brazil paper at the UN financing conference in Seville, 1 July 2025: [El Salto](https://www.elsaltodiario.com/fiscalidad/espana-brasil-unen-proponer-mayores-impuestos-superricos-onu-sevilla)); Minister Bustinduy met Gabriel Zucman on 6 Feb 2026 to study a 2% tax above EUR 100m ([ministry release](https://www.dsca.gob.es/es/comunicacion/notas-prensa/bustinduy-se-reune-zucman-estudiar-como-funcionaria-su-impuesto)); Sánchez spoke for a global tax on wealth on 20 Feb 2026 ([Europa Press via Bolsamanía](https://www.bolsamania.com/noticias/economia/economia--sanchez-critica-los-regalos-fiscales-de-las-ccaa-a-las-elites-los-que-mas-tienen-deben-contribuir-mas--21774918.html)).
 - Opposition (not recorded as actors): the PP and Vox; the Consejo General de Economistas and its REAF argue against making it permanent (`exclusions.csv`).
-- Polls: none found yet.
+- Polls: two listed in the resources pass of 1 November 2026 (see its section).
 
 ## 3. Legislatures and where their records are
 - **Congreso de los Diputados.** Roll calls with every deputy's vote are open data: list the votes of a day with `https://www.congreso.es/es/opendata/votaciones?p_p_id=votaciones&p_p_lifecycle=0&p_p_state=normal&p_p_mode=view&targetLegislatura=XIV&currentLegislatura=XV&targetDate=07%2F06%2F2022` (legislature in Roman numerals, date as dd/mm/yyyy); each vote has `.json`, `.xml` and `.pdf` files under `/webpublica/opendata/votaciones/Leg<n>/Sesion<n>/<yyyymmdd>/Votacion<nnn>/`. The XML (ISO-8859-1) holds the accents as plain text, so quotes taken from it can be checked; the JSON escapes them as `\uXXXX`.
@@ -64,3 +64,16 @@ First written 2026-10-21 (run R001). Seed pass, national level only. Lines marke
 7. **Media:** opinion columns and editorials (elDiario.es, Público, La Marea, El Salto).
 8. **Wealthy individuals and business:** none found; the Spanish names on the 2020 Millionaires for Humanity letter were removed as false (`exclusions.csv`). Check Patriotic Millionaires and Proud to Pay More for Spanish signatories.
 9. **Map and register:** pick the tier, check the licence, load provinces or municipalities with INE codes.
+
+## Resources pass (1 November 2026)
+
+Listed on the Resources page after reading each document: the Podemos bill of 2022 (BOCG 235-1, with the Pleno's rejection in 235-2), the Podemos bill of January 2024 (BOCG 53-1), Sumar's bill of September 2026 for a 3% levy above EUR 50 million (BOCG 361-1), the Álava Norma Foral 23/2023, the Wealth Cap Project and Oxfam Intermón reports of 2026, Fedea's note of November 2022 and the Libro Blanco of March 2022; and two polls, read from the pages that publish them (elDiario.es for its own Simple Lógica poll of August 2022; Oxfam Intermón's release of the Glocalities poll for Millionaires for Humanity, April 2021). Ley 38/2022 was already listed. Polls: the registers' earlier line "none found" no longer holds.
+
+Marked `lapsed` on an inference, not on a parliament page: the Cortes were dissolved on 6 October 2026, and the pages read show only that the Mesa admitted bills 122/000045 and 122/000303 for processing. Check the Congreso's initiative pages (congreso.es refuses scripts) once the new legislature meets.
+
+Leads not yet listed:
+- The 40dB poll for Oxfam Intermón (April 2024, about 4,000 online interviews): 62.1% say large fortunes pay too little tax. This is not a question on a wealth tax, so it is left out; the Oxfam release was not found.
+- CIS 2026 survey on tax fairness (77.2% say the richest do not pay their share), known only from Xataka; also not a wealth-tax question.
+- The Catalan Decreto ley 10/2024 and the Parlament resolution 30/XV, the Gipuzkoa and Bizkaia norma forales on the solidarity tax, and Navarre's 2023 levy on large fortunes: evidence rows exist but the original texts were not read in this pass.
+- Sumar's May 2026 bill for a tax on large inheritances and gifts (BOCG 335-1) was read and left out: inheritance tax only.
+- AIReF's revenue estimates for the solidarity tax (2022) and the Economistas Frente a la Crisis manifestos: known from press summaries only.

@@ -35,3 +35,16 @@ Parties for nine senators of the 2018-2022 term come from the [Senate's 13 May 2
 Senators and the special Indigenous seat are elected nationally, so they stay at the country root; `validate` warns about this, and the warning is expected here. Representatives for a department sit in that department. `positions.csv` records every legislator's office and term from the source that names it; none is marked `current=y` because the sitting list has not been read yet, so the Seats tab is not built.
 
 Quote check (R007): all 65 evidence rows were found on their source pages by `checkquotes`; the 50 politician rows quote the source's own roster entry, so the quotes are short.
+
+## Resources pass (1 November 2026)
+
+Listed on the Resources page after reading each document: Ley 2277 de 2022 (articles 35 to 37, from the Senate's text page), the first-debate report on Bill 070 de 2020 Cámara (camara.gov.co refuses connections, so the Wayback copy was read), the positive report on Bill 066 de 2021 Cámara (Gaceta del Congreso 1634), the Institute for Policy Studies brief of August 2022, CELAG's regional estimate of June 2020 and the Uniandes *Nota Macroeconómica* 43 (read from the faculty's summary page; the PDF is in its repository, which returned a page and not the file). No poll on a wealth tax was found in searches in Spanish for Invamer, Guarumo, Datexco, Cifras y Conceptos and Oxfam.
+
+Bills 070/2020 and 066/2021 are marked `lapsed` on an inference: the pages read show a report asking to archive the first and a positive report on the second, and not what happened next. Check SILEG/Congreso Visible for their outcome.
+
+Leads not yet listed:
+- The Oxfam Colombia and Dejusticia report of December 2025 (already evidence rows) was read, but wealth tax is one recommendation among many, so it is left out.
+- José Antonio Ocampo's August 2022 presentation of the reform (UGPP): the wealth tax is one row of a table, not listed.
+- Oxfam's *La ley del más rico* (January 2023): its Colombia proposal (2% / 3% above USD 50 million / 5%, USD 2.8 billion) is in a Latin America supplement that could not be opened; the global report page does not mention Colombia.
+- The Senate proposition of 13 May 2020 (more than 50 senators) is a motion calling for the wealth tax to be raised, with no bill number or rates: left out.
+- Proposals of 2026 to abolish the wealth tax (President De la Espriella) and the Constitutional Court ruling on articles 36 and 37 (Comunicado 42 of 2024): not read.

@@ -4,5 +4,19 @@
   "lead": "Egalitaristen",
   "status": "in progress",
   "boundaries": "boundaries.json",
-  "notes": "Initial research in progress. ABS 2025 local government areas and unincorporated areas, with 2021 states and territories. The australia slug avoids collision with the African Union at au."
+  "notes": "Initial research in progress. ABS 2025 local government areas and unincorporated areas, with 2021 states and territories. The australia slug avoids collision with the African Union at au.",
+  "polls": [
+    {
+      "support": 74,
+      "oppose": null,
+      "scope": "Australia, adults",
+      "question": "A wealth tax on people with wealth of over $50 million",
+      "pollster": "YouGov",
+      "commissioned_by": "Oxfam Australia",
+      "fieldwork": "not stated in Oxfam's release",
+      "sample": "not stated in Oxfam's release",
+      "published": "2024-07-25",
+      "url": "https://www.oxfam.org.au/media-releases/top-1-percent-bags-over-40-trillion-in-new-wealth-during-past-decade-as-taxes-on-the-rich-reach-historic-lows/"
+    }
+  ]
 }
