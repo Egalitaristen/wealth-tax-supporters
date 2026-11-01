@@ -323,7 +323,7 @@ def build_supranational(folder, full):
 
 
 RESOURCE_KINDS = ("poll", "paper", "report", "bill")
-BILL_STATES = {"in_force": "In force", "pending": "Pending", "rejected": "Rejected", "lapsed": "Lapsed"}
+BILL_STATES = {"in_force": "In force", "pending": "Pending", "rejected": "Rejected", "lapsed": "Lapsed", "adopted": "Adopted"}
 
 
 def load_resources(countries, people):
