@@ -67,3 +67,9 @@
   2. **Academic & Think Tank Publications**: Review Singapore Economic Review, SSRN, and NUS/NTU faculty publications on wealth distribution and capital taxation models.
   3. **Trade Unions & Labour Organisations**: Survey NTUC, Migrant Workers Centre, and other workers' advocacy groups for formal Budget submissions recommending progressive wealth taxes.
   4. **Inequality-focused Civic Coalitions**: Survey additional ground-up initiatives and youth platforms (e.g. LepakInSG, CAPE, New Naratif) for policy positions on taxing accumulated wealth.
+
+## Resources pass (1 November 2026)
+
+Listed on the Resources page: the Adjournment Motion of 1 November 2021 on "Taxation for a Dynamic and Fair 21st Century Economy", read in the Official Report on sprs.parl.gov.sg. An adjournment motion ends without a vote on its proposal, so its `state` is `pending` by inference, not because a page says so.
+
+Searched for polls on a wealth tax in Singapore (IPS, YouGov, Blackbox, Milieu): none found; the only tax-attitude survey found (IPS, 2018) is about higher taxes for elderly support, not a wealth tax. No bill, other motion or official report on a wealth tax was found. Lead not listed: the 2021 NUS and RICE commentaries (op-eds, already evidence rows).

@@ -110,3 +110,12 @@ Updated: 2026-10-23 (R002 expansion pass).
   - 12 new evidence items (reaching 31 total evidence items across R001 and R002), 100% checkquote verification on web quotes.
   - 5 new actor links (reaching 9 total links).
   - 4 new exclusions documented: Datuk Seri Ir. Dr. Wee Ka Siong (MCA), Dr. Mohd Afzanizam Abdul Rashid (Bank Muamalat), Datuk William Ng (SAMENTA), and Dr. Muhammed Abdul Khalid (inheritance tax only).
+
+## Resources pass (1 November 2026)
+
+Searched in English and Malay (cukai kekayaan) for bills, motions, reports and polls. None listed. Findings:
+- No bill or motion on a wealth tax: it has been raised in Dewan Rakyat and Dewan Negara debates (already evidence rows) and answered in a written reply of 15 July 2026 (JDR15072026, the Finance Ministry saying any proposal needs careful study given the small tax base); a debate speech or a written answer is not a bill or motion.
+- No poll on a wealth tax: only polls on GST (Merdeka Center 2014) and general tax attitudes were found.
+- No think-tank or academic paper on a net wealth tax: REFSA's May 2023 page mentions a high-exemption wealth tax in passing; ISIS's Budget 2025 note is a whole-budget note.
+
+Leads not listed: the Sunway Stories piece "Is Wealth Tax the Right Fit for Malaysia?" (1 July 2026), a short commentary built on one interview, with no data, so not a paper; PSM's statement "Despicable to even think of GST!" (18 December 2020) proposing 2% to 10% on fortunes of RM1 billion and above, a party press statement rather than a report; PSM's July 2020 post-COVID paper and Aliran's October 2023 revenue piece, not read in full.

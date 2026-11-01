@@ -104,3 +104,15 @@ First written 2026-10-30 (run R001). Updated 2026-10-30 (run R002) with deep res
 
 ## Audit — R006
 - All 14 quotes were found on their pages. The seat chart was the 2023 House; Thailand voted again on 8 February 2026 (Bhumjaithai 192, People's Party 120, Pheu Thai 74, Klatham 58, Democrat 21, others 35), so the chart now shows the 27th House. Sirikanya Tansakun was re-elected on the People's Party list. Two rows were removed: Burin Adulwattana (his quote lists wealth tax among possible revenue sources in a forecast) and Thairath Plus (an explainer on the We Fair proposal, not an editorial position). Eleven supporters remain.
+
+## Resources pass (1 November 2026)
+
+Listed on the Resources page: the Draft Wealth Tax Act (Survey ID 305), read on the House of Representatives' Section 77 page (status "นายกรัฐมนตรีไม่รับรอง"). It is listed as `pending` by inference: the page shows no vote and no withdrawal, only that the Prime Minister did not certify the money bill.
+
+Searched in Thai (ภาษีความมั่งคั่ง, โพล, นิด้าโพล, สวนดุสิต) for polls: none found. No academic or official paper on a net wealth tax found.
+
+Leads not listed:
+- Chulalongkorn University independent study "แนวทางในการจัดเก็บภาษีความมั่งคั่ง (Wealth Tax) ในประเทศไทย" (Phatnichanon Lapprasoeinlam, 2022, 130 pages, advisor Arm Tangniran): its abstract concentrates on the Land and Building Tax Act 2019 and property tax, so it is not clearly about a net wealth tax; the full text was not read.
+- The We Fair network's parallel civil-society bill (1% on assets over 30 million THB for a 3,000 THB pension): no text or filing page was found.
+- The Fiscal Policy Office's study of a net wealth tax (reported May 2025): no published document found.
+- The Section 77 summary report of the hearing (the "รายงานสรุปความคิดเห็น" file on the same page) was not opened.
