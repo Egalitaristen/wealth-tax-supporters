@@ -25,6 +25,12 @@ Worked notes from the Saudi Arabia research passes (`R001` seed pass, `R002` dee
      - Verbatim quote: `He proposes an annual 1 percent “wealth tax” on people with $5 million or more in assets — something that would allow governments to funnel more money into education.`
      - Sourced to *Arab News* reporting on the summit proceedings.
 
+2. **A0002: Omar Al-Ubaydli** (`economist`, `journalist`; Bahrain-based economist and columnist).
+   - **Grade A** (`op_ed`, 2021-05-02, *Al Arabiya English*): *"Wealth tax: An Islam-friendly way to combat inequality"*.
+     - Verbatim quote: `The Saudi tax system’s nascence allows room for experimentation. One trial that merits consideration is a wealth tax: it would combat inequality in an Islam-friendly manner`
+     - Recommends a wealth tax for Saudi Arabia, noting that zakat loosely equals a 2.5% wealth tax and that Piketty's figure is about 2%. No rate or threshold is proposed, so the design is `wealth_tax_unspecified`. He is Bahraini, like Janahi, and is in this register because the piece is addressed to Saudi policy.
+   - Left out: Saleh Kamel (CNN Arabic, December 2016) said Gulf taxes were late and zakat is a kind of tax, with no wealth tax named (`X0023`).
+
 ## Public opinion polls
 
 - **Ipsos / Earth4All G20 Survey (June 2024):**
