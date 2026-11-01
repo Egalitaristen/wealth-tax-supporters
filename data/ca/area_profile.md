@@ -69,3 +69,13 @@ Updated priority plan:
 3. Recover PEI NDP original platform; find dated 350 Canada advocacy and clarify the New Brunswick letter tax base. Expand thin territories through direct own statements.
 4. Public cultural/faith individuals and specific funding records remain thin. Hosting a campaign or employing a supporter is insufficient by itself.
 5. Resolve Brian Alkerton identity and check newer retractions. Maintain proportional municipal sampling; no exhaustive crawl justified.
+
+## 12. Resources pass (1 November 2026)
+
+Listed on the Resources page after reading each source: the 16 November 2020 Commons vote, motions M-43 and M-68, the PBO's 2020 costing and its 2025 costing of the NDP proposal, and reports by the Broadbent Institute, Canadians for Tax Fairness and IRIS; and the Abacus Data poll of November 2020, read from its own release (abacusdata.ca refuses scripts, so the Wayback copy of 29 December 2020 was read). No bill on a wealth tax was found in the 44th or 45th Parliament; the 2025 and 2026 proposals are party platforms and a PBO costing.
+
+Leads not yet listed, because the pollster's own page or the document was not read:
+- Abacus Data for the Broadbent Institute (June 2020): 75% favoured a 1% to 2% tax on large fortunes, as the Broadbent paper reports it; and a July 2020 Abacus poll for the Broadbent Institute and PIPSC reported as 89% for a 1% tax. The two reports describe the July question differently, so read Abacus's release before listing it.
+- The PBO's September 2021 election costing of an annual net wealth tax (cited as the method source in the 2025 costing).
+- A 2019 Abacus poll for North99 (2% above $50 million), and a 2021 Yahoo/Maru poll, known only from press coverage.
+- Better Way Alberta's 2022 revenue report and the Newfoundland and Labrador *Big Reset* report (both already evidence rows) and the Quebec National Assembly motion of May 2025 (a study motion, nine yeas).
