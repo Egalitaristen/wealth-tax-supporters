@@ -14,7 +14,8 @@
       "commissioned_by": "Parti socialiste",
       "fieldwork": "2025-09-10/11",
       "published": "2025-09",
-      "url": "https://www.publicsenat.fr/actualites/politique/la-taxe-zucman-plebiscitee-par-86-des-francais-il-se-passe-un-truc-massif-et-transpartisan-dans-le-pays"
+      "url": "https://www.ifopgroup.com/?p=83476",
+      "sample": "1,000 adults"
     },
     {
       "support": 74,
@@ -24,7 +25,20 @@
       "commissioned_by": "BFMTV",
       "fieldwork": "2025-09",
       "published": "2025-09-25",
-      "url": "https://elabe.fr/wp-content/uploads/2025/09/25092025_elabe_bfmtv_les-francais-et-les-impots.pdf"
+      "url": "https://elabe.fr/wp-content/uploads/2025/09/25092025_elabe_bfmtv_les-francais-et-les-impots.pdf",
+      "sample": ""
+    },
+    {
+      "support": 59,
+      "scope": "France mainland, adults",
+      "question": "Whether the deputies were wrong to reject the 'taxe Zucman' (2% of wealth for households above EUR 100m, about 1,800 households, professional assets included); 59% said wrong to reject, 40% right to reject",
+      "question_original": "Les députés ont eu tort / raison de rejeter l'instauration de la taxe Zucman",
+      "pollster": "Elabe",
+      "commissioned_by": "BFMTV",
+      "fieldwork": "2025-11-04/05",
+      "sample": "1,000 adults",
+      "published": "2025-11-05",
+      "url": "https://elabe.fr/wp-content/uploads/2025/11/05112025_elabe-bfmtv_les-francais-le-budget-et-la-fiscalite.pdf"
     }
   ]
 }

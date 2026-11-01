@@ -22,3 +22,13 @@ Département outlines from OpenStreetMap France (ODbL, via data.gouv.fr), INSEE 
 3. Leaders without a primary quote yet: Tondelier, Roussel, Piketty, Saez, Landais, Cagé, Artus; FSU, Solidaires, UNSA; tech entrepreneurs (Thiberge, Rudelle, Batty).
 4. Local: Joeuf motion (30 Oct 2025) and Meurthe-et-Moselle department motion (June 2025, site blocked) are leads; sample large cities.
 5. Opinion columns and editorials.
+
+## Resources pass (1 November 2026)
+
+Listed on the Resources page after reading each text: the Assemblée nationale bills no. 246, 2193, 359, 648 and 2563 (first pages, articles and exposés des motifs), the commission des finances report no. 930 and the Senate finance committee's summary of 4 June 2025; and, in `meta.json`, the Elabe/BFMTV poll of 4 to 5 November 2025 (read from the PDF; the question asks whether the deputies were wrong to reject the tax) and the Ifop release for the Parti socialiste, now linked to Ifop's own page. The status of the 16th-legislature bills is inferred (see the PR): their pages show no stage after referral and the legislature ended with the dissolution of June 2024.
+
+Leads not yet listed:
+- Conseil d'analyse économique, Focus no. 118 (July 2025) on capital taxation and tax exile: studies the 2013 and 2017 reforms (wealth-tax and flat-tax changes) and does not cost a net wealth tax, so left out; read it in full before deciding.
+- Conseil des prélèvements obligatoires and Cour des comptes reports on the taxation of wealth: whole-reform reports; no text on a net wealth tax read.
+- Conseil constitutionnel: a search for a decision on the 2025/2026 Zucman amendments found none (the amendments were rejected in committee on 20 October and in the chamber on 31 October 2025, per press reports not read in full), and the Conseil d'État opinion quoted in the debate was not read.
+- Other Ifop, Ipsos, Odoxa and Harris polls on the Zucman tax: not found with a question wording and fieldwork dates.

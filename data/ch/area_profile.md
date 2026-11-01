@@ -72,3 +72,14 @@ Ordered by expected yield per turn:
 
 ## Audit — R002
 - All 388 quotes were found on their pages. The 257 roll-call rows were checked against the Swiss Parliament's open data: each member recorded voted Ja, and the four Ja totals (65, 66, 66 and 60 recorded here) match the votes on motions 20.3174, 20.3203, 20.3335 and 23.3361, which all ask for a tax on wealth. The six Swiss signatories of the 2024 and 2026 Davos letters were removed: the letters ask to "tax the super rich" and name no tax on wealth. 177 supporters remain.
+
+## Resources pass (1 November 2026)
+
+Added after reading the Curia Vista record and the Grand Conseil texts: motion 20.3335 (Prezioso Batou; 1% over CHF 2 million for three years; rejected 66 to 127 on 15 March 2022) and the Geneva initiative IN 185 (initiative text; Grand Conseil vote of 26 January 2023 read in the memorial). The ballot result of 18 June 2023 was not found on an official page (ge.ch showed "no result yet"); a press result of 55.1% no was seen but not used.
+
+Searched, none found at federal level beyond motions 20.3174, 20.3203, 20.3335 and 23.3361: a federal wealth-tax motion by Patrick Hässig (Green Liberals) after the November 2025 vote (the Curia Vista query returned nothing usable; read it in a browser), and a federal-level costing report or comparative report on a net wealth tax.
+
+Leads not yet listed:
+- Vaud 20_MOT_159 (2021), 25_MOT_51 (28 October 2025) and 26_INI_13 (3 November 2026 sitting): vd.ch page not reachable (404); outcomes not read.
+- Neuchâtel POP initiative (rejected 15 May 2022), Aargau "Millionärssteuer" (2018), St. Gallen progressive-scale initiative (2015): proposals to raise an existing cantonal wealth tax, official pamphlets not readable.
+- "Wealth and Inheritance in 21st-Century Switzerland" (Brülhart and colleagues, 2026): describes effects; not read as a proposal of a wealth tax.
