@@ -1,1 +1,5 @@
 body_id,name,level,kind,seats,as_of,source_url,seat_view,notes
+B0001,Senado de la República,national,chamber,,,,,"30 senators elected nationally plus the Vice President; the member list was not read from an official source, so no seat chart."
+B0002,Cámara de Representantes,national,chamber,,,,,"99 deputies elected by department; member list not read from an official source, so no seat chart."
+B0003,Poder Ejecutivo (Ministerio de Trabajo y Seguridad Social),national,other,,,,,
+B0004,Intendencia de Montevideo,regional,other,,,,,

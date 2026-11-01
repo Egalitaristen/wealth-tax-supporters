@@ -1,1 +1,10 @@
 actor_id,name,kind,actor_type,other_types,role,affiliation,party,affiliation_actor_id,country,level,location,geo_unit_id,location_source,wikidata_qid,website,status,alive_checked,prominence,notes,added_run,updated,refined
+A0001,PIT-CNT,organisation,union,,Uruguay's single national trade-union confederation,,,,Uruguay,national,Uruguay,G0001,,Q376074,,active,na,national,,R001,2026-11-01,
+A0002,Marcelo Abdala,person,union_official,,President of the PIT-CNT,PIT-CNT,,A0001,Uruguay,national,Uruguay,G0001,,,,active,y,national,,R001,2026-11-01,
+A0003,José Lorenzo López,person,union_official,,PIT-CNT leader,PIT-CNT,,A0001,Uruguay,national,Uruguay,G0001,,,,active,y,local,,R001,2026-11-01,
+A0004,Partido Socialista del Uruguay,organisation,party,,Party within the Frente Amplio,,,,Uruguay,national,Uruguay,G0001,,Q1282824,,active,na,national,Its national executive committee backs the 1% tax on the richest 1%.,R001,2026-11-01,
+A0005,Gustavo González,person,politician,,Senator,,Socialist Party,,Uruguay,national,Uruguay,G0001,,Q42391460,,active,y,national,,R001,2026-11-01,
+A0006,Felipe Carballo,person,politician,,Senator (list 711),,Frente Amplio,,Uruguay,national,Uruguay,G0001,,Q28517183,,active,y,national,,R001,2026-11-01,
+A0007,Alejandro Zavala,person,politician,,Deputy,,Frente Amplio,,Uruguay,national,Uruguay,G0001,,Q127847195,,active,y,national,Conditions his support on how the tax is implemented.,R001,2026-11-01,
+A0008,Juan Castillo,person,politician,,Minister of Labour and Social Security,,Communist Party,,Uruguay,national,Uruguay,G0001,,Q6455688,,active,y,national,,R001,2026-11-01,
+A0009,Mario Bergara,person,politician,,Intendente (mayor) of Montevideo; former Minister of Economy,,Frente Amplio,,Uruguay,regional,Uruguay > Montevideo,G0011,,Q5998504,,active,y,national,,R001,2026-11-01,

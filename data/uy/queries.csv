@@ -1,1 +1,7 @@
 query_id,run_id,date,language,query,channel,results_opened,leads_added,note
+Q0001,R001,2026-11-01,es,PIT-CNT propuesta sobretasa impuesto al patrimonio 1% más rico,"web, news",6,3,
+Q0002,R001,2026-11-01,es,Gustavo González senador impuesto a los millonarios proyecto de ley,"web, news",3,1,
+Q0003,R001,2026-11-01,es,Óscar Andrade Constanza Moreira Felipe Carballo impuesto 1% más rico,"web, news",3,2,Only Carballo has his own quote.
+Q0004,R001,2026-11-01,es,carta académicos Pit-Cnt Mauricio Da Rosa,web,2,2,
+Q0005,R001,2026-11-01,es,encuesta impuesto 1% más rico Uruguay,web,2,1,"Only one poll, in a secondary report."
+Q0006,R001,2026-11-01,es,Uruguay impuesto riqueza Observatorio Fiscal Zucman,web,2,1,

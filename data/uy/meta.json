@@ -3,6 +3,7 @@
   "iso2": "UY",
   "lead": "Egalitaristen",
   "status": "in progress",
-  "boundaries": "",
-  "notes": "Depth: not started. Folder opened only to hold the in-force Impuesto al Patrimonio; no supporter research yet."
+  "boundaries": "boundaries.json",
+  "notes": "Seed pass (national level, no regional or local sweep). Register: the 19 departamentos, which are governed by intendencias and are the local tier used here; the 125 municipios (a third tier since 2010) are not loaded because no official code list under an open licence was found (OCHA/HDX COD-AB Uruguay 2020 has only departamentos and 204 unnamed second-level areas). Map: OCHA/HDX COD-AB Uruguay 2020 departamentos, CC BY-IGO. No seats adapter: positions are not checked against an official member list.",
+  "national_seat_roles": "^Senator"
 }

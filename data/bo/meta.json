@@ -3,6 +3,6 @@
   "iso2": "BO",
   "lead": "Egalitaristen",
   "status": "in progress",
-  "boundaries": "",
-  "notes": "Depth: not started. Folder opened only to hold the in-force Impuesto a las Grandes Fortunas (Ley 1357); no supporter research yet."
+  "boundaries": "boundaries.json",
+  "notes": "Seed pass (national level, no regional or local sweep). Register: 9 departamentos, 112 provincias and 339 municipios (OCHA/HDX COD-AB Bolivia, valid 2024-09-16, CC BY-IGO, P-codes from the INE codes); map from the same shapes. Folder opened for the in-force Impuesto a las Grandes Fortunas (Ley 1357). No seats adapter: positions are not checked against an official member list."
 }

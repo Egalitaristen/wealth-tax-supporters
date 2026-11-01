@@ -1,1 +1,5 @@
 query_id,run_id,date,language,query,channel,results_opened,leads_added,note
+Q0001,R001,2026-11-01,es,Oxfam Bolivia comunicado Impuesto a las Grandes Fortunas,web,2,0,
+Q0002,R001,2026-11-01,es,Bolivia IGF eliminación Cámara de Diputados Comisión de Planificación,"web, news",4,2,
+Q0003,R001,2026-11-01,es,Bolivia impuesto grandes fortunas defensa legisladores COB CEDLA,web,3,3,
+Q0004,R001,2026-11-01,es,Ley 1357 Diputados Senado aprobación 2020,"web, news",4,2,
