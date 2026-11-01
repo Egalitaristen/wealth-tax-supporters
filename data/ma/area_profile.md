@@ -114,3 +114,11 @@ Save as `data/ma/area_profile.md`. Parliamentary group leadership sweep complete
 
 ## Audit — R005
 - All 20 quotes were found on their pages. The House of Representatives was renewed on 23 September 2026 (PAM 97, RNI 66, Istiqlal 65, PJD 54, MP 29, USFP 26, PPS 19, UC 17, MDS 8, Alliance de la Gauche 8, others 6; announced majority PAM, Istiqlal, USFP and PPS), so the seat chart now uses that distribution and the 2021-term positions of Fatima Tamni and Nabila Mounib are closed on 23 September 2026: Hespress reports Tamni did not regain her seat, Le Desk reports both won regional-list seats, and the Interior Ministry list was not read. USFP, previously an exclusion for a property-only amendment, is added at grade B from its 2026 programme (a progressive tax on large net fortunes); PPS, in the same announced majority, is already a supporter. Omar Balafrej (2020), Najib Akesbi and Nabila Mounib are graded B because the quotes are reporters' paraphrase or imply support without stating it.
+
+## Resources pass (1 November 2026)
+
+Searched (Arabic, French, English): Chamber of Representatives finance bill amendments, reports, polls. No poll found. Opposition amendments for a wealth tax were proposed to the 2025 and 2026 finance bills (PPS: tiers of 0.20% to 0.30% on net wealth above 10 million dirhams, per press; PJD 2026), but they are known only from news reports and the chamber's own amendment documents could not be read, so no bill is listed.
+
+Leads not listed:
+- PPS and PJD amendments to the 2025 and 2026 finance bills (al3omk.com reports); outcome per press: rejected by the government, but no vote record seen.
+- Oxfam, Un Maroc egalitaire, une taxation juste (January 2019): read; it recommends a progressive tax on wealth held and transmitted among many tax measures, so it is a whole-tax report and was left out.

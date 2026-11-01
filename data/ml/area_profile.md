@@ -78,3 +78,7 @@ Save as `data/ml/area_profile.md`. Seed and wider research passes completed 2026
 
 ## Audit — R003
 - Both quotes were found on their pages. Moussa Mara is regraded A to B because the only evidence is the campaign's signature list. A further search in French (opposition parties, unions, economists, Oxfam and tax-justice networks, Mara's own statements) found no other Malian supporter of a wealth tax; the signature list names only one Malian. Mara was sentenced in October 2025, so recent statements may be hard to find.
+
+## Resources pass (1 November 2026)
+
+Searched (French and English): National Transition Council, ministry of finance, reports, polls (Afrobarometer). No bill, report or poll about an impot sur la fortune in Mali was found; nothing listed.

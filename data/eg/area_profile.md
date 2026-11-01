@@ -36,3 +36,12 @@ First written 27 October 2026 (R001). Seed pass.
 ## Review corrections
 
 The five named authors of the Oxfam MENA paper were removed (a regional recommendation, not an Egypt proposal); Oxfam International is now grade B. Kamal Ahmed's quote was corrected to the wording on the Al-Ahram Gate page. The Piketty row now quotes Ahram Online's report of his call for a progressive wealth tax in Egypt (the earlier quote was about zakat). Negad El Borai is grade B (second-hand report of a Facebook post). Ali Abdel Aal stays at B with a note: the article describes the tax he asks the minister to record as a temporary surcharge on high net income. The three Masr360 interview rows had broken URLs and now point to the article. No Egyptian map exists yet.
+
+## Resources pass (1 November 2026)
+
+Searched (Arabic and English): House of Representatives bills and motions, reports, polls (Arab Barometer, Ipsos). No bill or poll about a wealth tax found; Egypt has no net wealth tax. Listed one report: Alternative Policy Solutions (AUC), Toward a Wealth Tax in Egypt, January 2018 (read).
+
+Leads not listed:
+- The April 2017 National Planning Institute study proposing a one-off wealth tax to repay debt: known only from a news report (elbalad).
+- Oxfam's October 2023 Middle East and North Africa gap report: regional, not about Egypt alone.
+- MP proposals reported in the press (December 2017 1% levy; March 2026 call to turn the built-property tax into a wealth tax): no bill text or number seen.
