@@ -59,3 +59,5 @@ Leads not yet listed:
 - The FES study of May 2026 "Cum reconstruim bugetul?" (a three-scenario budget study with a 0.5% tax on financial wealth in one scenario): a whole-budget study, so left out.
 - Nicoleta Mihăilă, "Trends in wealth taxation in the current economic context in Romania and European Union" (Journal of Romanian Literary Studies, 2024): read; it surveys income and property taxation and tax revenue trends and is not about a net wealth tax.
 - A poll for Pactul pentru Fiscalitate (58.7% for higher taxes on those with more houses, land and cars): undated and not about net wealth.
+
+Second pass (1 November 2026, polls): the INSCOP poll of 10 to 15 September 2015 is reported by Economica.net as 1,085 people, margin of error 3%, commissioned by Adevărul, 85% a good opinion of the initiative, 7.5% bad, 3.7% neutral, 3.8% no answer; INSCOP's own release was still not found, so it is not listed.

@@ -74,3 +74,5 @@ Leads not listed:
 - Newshub-Reid Research poll (August 2023) on Chris Hipkins ruling out a wealth tax, and Horizon Research (20 to 25 February 2025, n=1,017): only secondary summaries were reachable, with no wording.
 - Max Rashbrooke's paper on the case for a net wealth tax, published by Tax Justice Aotearoa (blog summary of 31 January, year not shown, dated 2020 in the register): the paper itself could not be found, only the author's summary page.
 - Lisa Marriott, "Advancing better tax policy: the role of wealth taxes in New Zealand" (Policy Quarterly, August 2016): read, but about estate, gift and capital gains taxes, so excluded.
+
+Second pass (1 November 2026): no member's bill on a wealth tax found. The Green Party's 2026 tax plan (net wealth tax of 2.5%, with reports differing on the threshold) and Te Pāti Māori's 2026 tax policy are election policies, not bills; they could be added as party-policy documents if the Resources page takes that kind.

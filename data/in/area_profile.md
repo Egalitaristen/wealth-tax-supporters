@@ -62,3 +62,5 @@ Leads not yet listed, because the document was not read or is not about a net we
 - The April 2020 paper by about 50 Indian Revenue Service officers (a temporary wealth tax among its options): the board disowned it and the paper itself was not read.
 - The Direct Taxes Code Bill, 2010 is reported to have included a wealth tax on net assets; the bill text was not read, so its design and state are unconfirmed.
 - Oxfam India inequality reports and Hindi-language reports: not read for a wealth tax proposal.
+
+Second pass (1 November 2026): no bill to reintroduce a wealth tax in the Lok Sabha or Rajya Sabha found; the Wealth-tax Act 1957 was abolished from FY 2016-17. The Congress 2024 call for a 2% tax on billionaires is a political demand, not a bill. Nothing listed.

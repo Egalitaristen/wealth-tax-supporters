@@ -67,3 +67,5 @@ Leads not yet listed:
 - Reform Party survey of July 2026 on strengthening property holding taxes: not a wealth tax, so left out.
 - ScienceON: 우리나라에서의 순부유세 도입에 관한 연구 (a thesis); the full text was not read.
 - The National Assembly bill system (의안정보시스템) was not queried directly for 부유세 or 순자산세 bills.
+
+Second pass (1 November 2026): searched for a Korean wealth-tax bill (부유세, 순자산세) and found none in the sources reachable; the Democratic Labour Party's wealth-tax proposal of the 2000s is described in press without a bill number. Old polls on a wealth tax are known only from press (KBS and Media Research, May 2004, 69.1% in favour; a 2010 poll released by the politician who commissioned it). The Realmeter and Research DNA polls found are about property holding taxes, not a wealth tax. Nothing listed.

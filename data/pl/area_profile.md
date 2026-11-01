@@ -74,3 +74,5 @@ Leads not yet listed:
 - The European Parliament amendments of 2023 (A9-0155/2023, A9-0336/2023) are EU votes, already evidence rows.
 
 Searched in Polish; no Polish poll asking about a wealth tax was read.
+
+Second pass (1 November 2026): no wealth-tax bill (druk) found in the Sejm database results; Razem's and Lewica's real-estate and cadastral tax proposals are property taxes. CBOS 2018 asked about extra tax on the top 5% of earners (income), not wealth. The IBS paper of Wroski is already listed. Nothing new listed.
