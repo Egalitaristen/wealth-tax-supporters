@@ -1009,3 +1009,9 @@ body:not(.ready) .foot { visibility: hidden; }
 .alinks { list-style: none; padding: 0; margin: 8px 0 0; font-size: 14.5px; }
 .alinks li { margin: 6px 0; }
 @media (max-width: 720px) { .prose .counts { grid-template-columns: minmax(0, 1fr); } }
+
+/* Country flags beside country names */
+.flag { display: inline-block; width: 16px; height: 12px; object-fit: cover; border-radius: 2px; vertical-align: -1px; margin-right: 6px; box-shadow: 0 0 0 1px rgba(128, 128, 128, .35); }
+.ritem .rc .flag { margin-right: 4px; }
+.res-k a { white-space: nowrap; }
+.res-k a .flag { margin-right: 6px; }
