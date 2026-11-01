@@ -323,10 +323,12 @@ def build_supranational(folder, full):
 
 
 RESOURCE_KINDS = ("poll", "paper", "report", "bill")
+BILL_STATES = {"in_force": "In force", "pending": "Pending", "rejected": "Rejected", "lapsed": "Lapsed"}
 
 
-def load_resources(countries):
-    """Polls (from each country's meta.json) and the papers, reports and bills in data/resources.json, as one list for the Resources page."""
+def load_resources(countries, people):
+    """Polls (from each country's meta.json) and the papers, reports and bills in data/resources.json, as one list for the Resources page.
+    `people` maps (country folder, actor id) to a name, so a resource can link its authors and sponsors to their profiles."""
     names = {c["slug"]: c["name"] for c in countries}
     out = []
     for c in countries:
@@ -342,7 +344,15 @@ def load_resources(countries):
             raise SystemExit(f"resources.json: needs title, by, published and an https url: {r.get('title')!r}")
         if r.get("country") != "global" and r.get("country") not in names:
             raise SystemExit(f"resources.json: unknown country {r.get('country')!r} in {r.get('title')!r}")
-        out.append({k: r[k] for k in ("kind", "country", "title", "by", "published", "url", "summary", "status", "level") if r.get(k)})
+        if r["kind"] == "bill" and r.get("state") not in BILL_STATES:
+            raise SystemExit(f"resources.json: a bill needs state {sorted(BILL_STATES)}: {r.get('title')!r}")
+        row = {k: r[k] for k in ("kind", "country", "title", "by", "published", "url", "summary", "status", "state", "level") if r.get(k)}
+        for ref in r.get("people", []):
+            key = tuple(str(ref).split(":", 1))
+            if key not in people:
+                raise SystemExit(f"resources.json: unknown person {ref!r} in {r.get('title')!r} (use 'folder:actor_id')")
+            row.setdefault("people", []).append([key[0], key[1], people[key]])
+        out.append(row)
     for r in out:
         r["cname"] = names.get(r["country"], "Global")
     out.sort(key=lambda r: (r["published"], r["title"]), reverse=True)
@@ -687,7 +697,7 @@ def share_pages(out, base, countries, full, unique=None, bodies=()):
                           f"Browse all {c['supporters']:,} public figures and organisations in {the(name)} who back a wealth tax, by place, party and type."),
             "time": (f"When they said it · {name}", "Over time · statements per year", f"sourced statements since {years[0] if years else ''}",
                      f"{c['evidence']:,} sourced statements in support of a wealth tax in {the(name)}, year by year."),
-            "method": (f"How it was built · {name}", "Method · polls, sources and downloads", found,
+            "method": (f"How it was built · {name}", "Method · polls, bills, sources and downloads", found,
                        f"How the {name} register was built, what polls say about a wealth tax, and the data as CSV.{poll_line(c)}"),
         }
         if D.get("legis"):
@@ -799,7 +809,7 @@ def main():
             every.add(getattr(c, "common_name", None) or c.name)
     # Anyone with a Wikidata id on more than one register is one person; rows without an id each count once.
     unique = len({r[8] or f"{r[0]}/{r[1]}" for r in index})
-    world_resources = load_resources(countries)
+    world_resources = load_resources(countries, {(r[0], r[1]): r[2] for r in index})
     world = dict(unique_supporters=unique, home={q: next((c["slug"] for c in countries if c["iso2"].upper() == h), "") for q, h in people_home()[0].items()}, countries=countries, bodies=bodies, planned=planned, resources=world_resources, all_countries=sorted(every), built=datetime.date.today().isoformat())
     json.dump(world, open(out / "data" / "world.json", "w", encoding="utf-8"), separators=(",", ":"), ensure_ascii=False)
     # The outlines are two thirds of the world file; only the map pages need them, so they load separately.

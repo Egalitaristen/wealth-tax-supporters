@@ -383,13 +383,24 @@ async function parliamentsPage(W) {
 
 // Polls, papers, reports and bills, filterable by kind, place and year. The filters live in the query string, so a view can be shared.
 const RES_KIND = {poll: ['Polls', 'Poll'], paper: ['Papers', 'Paper'], report: ['Reports and proposals', 'Report'], bill: ['Bills and laws', 'Bill or law']};
+const RES_STATE = {in_force: 'In force', pending: 'Pending', rejected: 'Rejected', lapsed: 'Lapsed'};
+const resCard = (r, place = true) => `<article class="res">
+      <div class="res-k"><span class="rk rk-${r.kind}">${esc(RES_KIND[r.kind][1])}</span>${place ? `<span>${r.country === 'global' ? esc(r.cname) : `<a href="/${esc(r.country)}">${esc(r.cname)}</a>`}</span>` : ''}${r.level ? `<span>${esc(label(LEVEL, r.level))}</span>` : ''}<span>${esc(pollDate(r.published))}</span></div>
+      ${r.fig ? `<div class="res-fig">${esc(r.fig)}</div>` : ''}
+      <h3>${ext(r.url, esc(r.title) + ' ↗')}</h3>
+      <div class="res-by">${esc(r.by)}</div>
+      ${r.summary ? `<p>${esc(r.summary)}</p>` : ''}
+      ${r.status ? `<div class="res-st"><b>${esc(RES_STATE[r.state] || 'Status')}</b> ${esc(r.status)}</div>` : ''}
+      ${(r.people || []).length ? `<div class="res-st"><b>In the register</b> ${r.people.map(([s, i, n]) => `<a href="/${esc(s)}/${enc(i)}">${esc(n)}</a>`).join(', ')}</div>` : ''}
+    </article>`;
 async function resourcesPage(W) {
   setTitle('Resources');
   const all = W.resources || [], q0 = new URLSearchParams(location.search);
-  const f = {kind: q0.get('kind') || '', country: q0.get('country') || '', year: q0.get('year') || '', q: q0.get('q') || ''};
+  const f = {kind: q0.get('kind') || '', country: q0.get('country') || '', year: q0.get('year') || '', state: q0.get('state') || '', level: q0.get('level') || '', q: q0.get('q') || ''};
   const yearOf = r => String(r.published).slice(0, 4);
   const places = [...new Map(all.map(r => [r.country, r.cname])).entries()].sort((a, b) => (a[0] === 'global') - (b[0] === 'global') || a[1].localeCompare(b[1]));
   const years = [...new Set(all.map(yearOf))].sort().reverse();
+  const states = Object.keys(RES_STATE).filter(k => all.some(r => r.state === k)), levels = [...new Set(all.map(r => r.level).filter(Boolean))].sort();
   main.innerHTML = `<div class="wrap page-head fade"><div class="kicker">Polls, papers, reports and bills</div><h1>Resources</h1>
     <p class="lede" style="margin-top:18px">What the evidence and the legislation say about a wealth tax. Polls are checked against the pollster's own report; papers, reports and bills link to the original. Only material about an actual wealth tax is listed.</p></div>
     <div class="wrap" style="margin-top:28px;padding-bottom:72px">
@@ -398,12 +409,14 @@ async function resourcesPage(W) {
         <input id="rq" type="search" class="field" placeholder="Search titles, authors, places…" aria-label="Search resources" autocomplete="off">
         <select id="rc" class="field" aria-label="Place"><option value="">All places</option>${places.map(([k, n]) => `<option value="${esc(k)}">${esc(n)}</option>`).join('')}</select>
         <select id="ry" class="field" aria-label="Year"><option value="">Any year</option>${years.map(y => `<option>${esc(y)}</option>`).join('')}</select>
+        <select id="rs" class="field" aria-label="Status of bills"><option value="">Any status</option>${states.map(k => `<option value="${k}">${esc(RES_STATE[k])}</option>`).join('')}</select>
+        <select id="rv" class="field" aria-label="Level of government"><option value="">Any level</option>${levels.map(k => `<option value="${esc(k)}">${esc(label(LEVEL, k))}</option>`).join('')}</select>
       </div>
       <div class="rcount" id="rn" aria-live="polite"></div>
       <div class="rlist" id="rl"></div></div>`;
-  const kinds = $('#rk'), list = $('#rl'), rq = $('#rq'), rc = $('#rc'), ry = $('#ry');
-  rq.value = f.q; rc.value = f.country; ry.value = f.year;
-  const hit = (r, skip) => (skip === 'kind' || !f.kind || r.kind === f.kind) && (!f.country || r.country === f.country) && (!f.year || yearOf(r) === f.year) &&
+  const kinds = $('#rk'), list = $('#rl'), rq = $('#rq'), rc = $('#rc'), ry = $('#ry'), rs = $('#rs'), rv = $('#rv');
+  rq.value = f.q; rc.value = f.country; ry.value = f.year; rs.value = f.state; rv.value = f.level;
+  const hit = (r, skip) => (skip === 'kind' || !f.kind || r.kind === f.kind) && (!f.country || r.country === f.country) && (!f.year || yearOf(r) === f.year) && (!f.state || r.state === f.state) && (!f.level || r.level === f.level) &&
     (!f.q || norm([r.title, r.by, r.cname, r.summary, r.status].join(' ')).includes(norm(f.q)));
   const draw = () => {
     const counts = {}; all.filter(r => hit(r, 'kind')).forEach(r => { counts[r.kind] = (counts[r.kind] || 0) + 1; });
@@ -412,14 +425,7 @@ async function resourcesPage(W) {
       Object.entries(RES_KIND).map(([k, [pl]]) => `<button type="button" class="chip${f.kind === k ? ' on' : ''}" data-k="${k}">${pl} <b>${counts[k] || 0}</b></button>`).join('');
     const rows = all.filter(r => hit(r));
     $('#rn').textContent = `${rows.length} ${rows.length === 1 ? 'resource' : 'resources'}`;
-    list.innerHTML = rows.map(r => `<article class="res">
-      <div class="res-k"><span class="rk rk-${r.kind}">${esc(RES_KIND[r.kind][1])}</span><span>${r.country === 'global' ? esc(r.cname) : `<a href="/${esc(r.country)}">${esc(r.cname)}</a>`}</span><span>${esc(pollDate(r.published))}</span></div>
-      ${r.fig ? `<div class="res-fig">${esc(r.fig)}</div>` : ''}
-      <h3>${ext(r.url, esc(r.title) + ' ↗')}</h3>
-      <div class="res-by">${esc(r.by)}</div>
-      ${r.summary ? `<p>${esc(r.summary)}</p>` : ''}
-      ${r.status ? `<div class="res-st"><b>Status</b> ${esc(r.status)}</div>` : ''}
-    </article>`).join('') || '<div class="rempty">Nothing matches these filters.</div>';
+    list.innerHTML = rows.map(r => resCard(r)).join('') || '<div class="rempty">Nothing matches these filters.</div>';
     const u = new URLSearchParams(Object.entries(f).filter(([, v]) => v)).toString();
     history.replaceState(null, '', '/resources' + (u ? '?' + u : ''));
   };
@@ -427,6 +433,8 @@ async function resourcesPage(W) {
   rq.addEventListener('input', () => { f.q = rq.value; draw(); });
   rc.addEventListener('change', () => { f.country = rc.value; draw(); });
   ry.addEventListener('change', () => { f.year = ry.value; draw(); });
+  rs.addEventListener('change', () => { f.state = rs.value; draw(); });
+  rv.addEventListener('change', () => { f.level = rv.value; draw(); });
   draw();
 }
 
@@ -928,7 +936,8 @@ function timeSection(box, D, slug, S) {
     </section>`;
 }
 
-function methodSection(box, D, slug) {
+async function methodSection(box, D, slug) {
+  const W = await WORLD(), docs = (W.resources || []).filter(r => r.country === slug && r.kind !== 'poll');
   const m = D.meta, sup = D.places.filter(p => p.mapped && p.ids.length).length;
   box.innerHTML = `<section class="c-sec">
     ${(m.polls || []).length ? `<div id="polls" style="margin-bottom:48px">
@@ -941,6 +950,10 @@ function methodSection(box, D, slug) {
           <div class="poll-meta">${esc([p.scope, p.sample, p.fieldwork ? 'fieldwork ' + p.fieldwork : ''].filter(Boolean).join(' · '))}</div>
           <div class="poll-meta">${ext(p.url, esc(pollSource(p)) + ' ↗')}</div></div>
       </div>`).join('')}</div></div>` : ''}
+    ${docs.length ? `<div id="resources" style="margin-bottom:48px">
+      <div class="sec-head"><div><div class="kicker">Bills, papers and reports</div><h2>What has been proposed and written</h2></div>
+        <p>Bills, motions and laws about an actual wealth tax, with the reports behind them. <a href="/resources?country=${enc(slug)}">Open on the Resources page</a>.</p></div>
+      <div class="rlist">${docs.map(r => resCard(r, false)).join('')}</div></div>` : ''}
     <div class="sec-head"><div><div class="kicker">Method and gaps</div><h2>How this was built</h2></div></div>
     <div class="method">
     <div class="prose">
@@ -1288,6 +1301,7 @@ async function personPage(slug, id) {
   main.innerHTML = '<div class="loading">Loading</div>';
   const D = await loadCountry(slug), m = D.meta, p = D.byId[id];
   if (!p) return notFound();
+  const docs = ((await WORLD()).resources || []).filter(r => (r.people || []).some(x => x[0] === slug && x[1] === id));
   setTitle(`${p[P_.name]} (${m.name})`);
   const ev = (D.evBy[id] || []).slice().sort((a, b) => (b[E_.date] || '').localeCompare(a[E_.date] || '') || (a[E_.grade] || '').localeCompare(b[E_.grade] || ''));
   const crumbs = placeCrumbs(D, slug, p), linkBtns = profileLinks(p);
@@ -1319,6 +1333,7 @@ async function personPage(slug, id) {
       <div class="statements">
         <h2>On the record <span class="n">${ev.length} statement${ev.length === 1 ? '' : 's'}</span></h2>
         <div style="margin-top:18px">${ev.map(e => evCard(e, m, slug)).join('')}</div>
+        ${docs.length ? `<div class="nearby"><div class="kicker">Bills and reports</div><h3>Sponsored or written by ${esc(p[P_.name])}</h3><div class="rlist">${docs.map(r => resCard(r)).join('')}</div></div>` : ''}
         ${near.length ? `<div class="nearby"><div class="kicker">Nearby</div><h3>Also in ${esc(mine.name)}</h3>
           <div class="mini">${near.map(q => `<a href="/${slug}/${enc(q[P_.id])}">${glyph(q[P_.grade])}&nbsp; ${esc(q[P_.name])}<span>${esc([label(TYPE, q[P_.type]), q[P_.role]].filter(Boolean).join(' · '))}</span></a>`).join('')}</div>
           <p style="margin-top:14px;font-size:14px"><a href="/${slug}/directory?place=${enc(mine.path)}">See everyone in ${esc(mine.name)} →</a></p></div>` : ''}
