@@ -17,6 +17,18 @@
       "sample": 1003,
       "published": "2026-09-24",
       "url": "https://www.ipsos.com/en-nz/34th-ipsos-nz-issues-monitor-sept-2026"
+    },
+    {
+      "support": 16,
+      "oppose": 72,
+      "scope": "New Zealand adults (national sample; sampling frame not stated in the release)",
+      "question": "Do you think there should be a tax that people pay on assets such as houses, cars and KiwiSaver accounts, additional to the existing income tax?",
+      "pollster": "Curia Market Research",
+      "commissioned_by": "New Zealand Taxpayers' Union (an opponent of the tax)",
+      "fieldwork": "2020-09-22 to 2020-09-24",
+      "sample": "1,080 respondents, margin of error 3.0%",
+      "published": "2020-10-13",
+      "url": "https://www.taxpayers.org.nz/asset_tax_polling"
     }
   ]
 }

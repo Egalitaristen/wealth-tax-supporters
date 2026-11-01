@@ -62,3 +62,15 @@ The [former-member register](https://www3.parliament.nz/en/mps-and-electorates/f
 Wellington’s historical offices are recorded separately without a council Seats tab. [DPMC’s honours citation](https://www.dpmc.govt.nz/new-year-honours-2017-citations-companions-queens-service-order) records Wade-Brown’s mayoralty (2010–2016) and two councillor periods (1994–1998 and 2001–2010). The council’s 2023/24 annual report, volume 1, p142 records Paul’s 2019 start and November 2023 resignation. Party fields for historical council offices are blank where those sources do not establish the affiliation throughout the term.
 
 Refresh with `python skill/scripts/seats.py data/nz`; source-access and map recipes are in `skill/references/countries/nz.md`. The official site challenges direct command-line access, so the adapter reads its published pages through Jina and retains official URLs as citations. No private contact details are collected.
+
+## Resources pass (1 November 2026)
+
+Listed on the Resources page: Tax Justice Aotearoa's *Wealth Tax Policy Note* (Tayla Forward, March 2026), read in full in its PDF; and, in `meta.json`, the Curia Market Research poll for the Taxpayers' Union (22 to 24 September 2020, 16% for, 72% against), read from the Union's own release. The Ipsos poll of September 2026 was already listed.
+
+No member's bill or government bill on a net wealth tax was found (Green and Te Pāti Māori proposals are party policies, and the 2018 Tax Working Group material is not about a net wealth tax).
+
+Leads not listed:
+- 1News Verian poll (fieldwork 12 to 16 August 2023): 63% for, 28% against a wealth tax on assets over $2 million if it paid for free dental care. Known from the 1News article; the Verian report is only on Scribd, so the exact wording and sample were not confirmed.
+- Newshub-Reid Research poll (August 2023) on Chris Hipkins ruling out a wealth tax, and Horizon Research (20 to 25 February 2025, n=1,017): only secondary summaries were reachable, with no wording.
+- Max Rashbrooke's paper on the case for a net wealth tax, published by Tax Justice Aotearoa (blog summary of 31 January, year not shown, dated 2020 in the register): the paper itself could not be found, only the author's summary page.
+- Lisa Marriott, "Advancing better tax policy: the role of wealth taxes in New Zealand" (Policy Quarterly, August 2016): read, but about estate, gift and capital gains taxes, so excluded.

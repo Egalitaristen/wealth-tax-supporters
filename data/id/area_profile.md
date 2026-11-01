@@ -110,3 +110,12 @@ First written 2026-10-22 (run R001). Seed pass, national level focus with comple
   1. **Regional Councils (DPRD) in Key Industrial Hubs:** Sample provincial and city councils in Jawa Barat (Bandung, Bekasi), Jawa Timur (Surabaya), and Banten (Tangerang).
   2. **Faith-Based Economic Justice Bodies:** Target religious welfare and legal reform divisions (e.g. Lakpesdam PBNU, Majelis Tarjih PP Muhammadiyah) on alignment between zakat mal and progressive wealth taxes.
   3. **Regional Ombudsmen:** Follow up on provincial representative offices of Ombudsman RI in other key regions beyond NTB.
+
+## Resources pass (1 November 2026)
+
+Listed on the Resources page after reading each document: The PRAKARSA Policy Briefs 35 (November 2022) and 42 (October 2023), read from their English PDFs. The three polls (Ipsos, Glocalities, CELIOS) were already in `meta.json`. No bill or motion on a wealth tax was found: searches in Indonesian and English for an RUU pajak kekayaan, Prolegnas entries and Komisi XI motions turned up only members' statements (a DPR member's 2021 proposal of 0.5% to 2% reported by DDTC, the PKS call for a study), no filed text.
+
+Leads not yet listed, because the document was not read or is not about a net wealth tax alone:
+- PRAKARSA Policy Brief 36 (December 2022): its text is about zakat and taxes in Islam and compares zakat management in Indonesia and Malaysia; the wealth tax proposal itself is thin, so it is not listed.
+- CELIOS, *Dengan Hormat, Pejabat Negara, Jangan Menarik Pajak Seperti Berburu di Kebun Binatang* (August 2025; page on celios.co.id) and the inequality reports of September 2024 and April 2026: broad reports whose wealth tax chapter (2% on the 50 richest, IDR 81.6 trillion) is one of many revenue options, and the full report PDFs were not opened.
+- The FPBI white paper on tax reform (May 2025): a whole-reform paper.
