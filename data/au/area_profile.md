@@ -13,3 +13,7 @@
 **Not yet searched.** PAP plenary Hansards and committee reports after 2020 (the open-data portal stops around 2020; the 2026 documents are on pap.au.int/en/documents and need a page-by-page read); each member's own national parliament record (a wealth-tax motion or bill sponsored in Egypt, Kenya, Nigeria, South Africa, Zimbabwe, Namibia, Tunisia and so on); the AU Assembly decisions and the African Group's positions in the UN tax convention talks; the 15 or so states whose delegations are not listed. A blank is "not searched", never "no support".
 
 **Leads logged** (data/leads.csv, L0011 to L0014): the EFF, Kenya's Institute of Public Finance, Akina Mama wa Afrika, Greenpeace Africa.
+
+## Resources pass (1 November 2026)
+
+Nothing listed. The Pan-African Parliament and the AU have no bill, report or poll on a wealth tax (see runs R001 and R002); an AU-level source would be a document of the Assembly or Commission, none found. Searched in English.

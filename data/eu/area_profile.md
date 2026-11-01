@@ -49,3 +49,12 @@ For each legislature (national, devolved, regional, supranational members from t
 ## 10. Plan for the next runs
 - Layers and lists still to do, ordered by expected yield per hour, with what is blocked. Copy it into `notes_next` of the last run row.
 - Decisions that changed the default workflow, and why.
+
+## Resources pass (1 November 2026)
+
+Listed under `global` (the build accepts register folders and `global` only, so the EU and UN pages show no Method-tab list): the 2023 "Tax the rich" citizens' initiative (registered 11 July 2023; collection closed unsuccessful, 357,155 signatures, read on the Commission's register page), the Greens/EFA study of September 2023, the EU Tax Observatory's March 2025 note on minimum taxation in the EU, the FEPS/Renner policy study of March 2021, WIFO's 2022 article on a harmonised EU net wealth tax, and Landais, Saez and Zucman's April 2020 VoxEU column. No Parliament or Commission bill exists; no EU-wide poll on a wealth tax was found.
+
+Leads not listed:
+- European Parliament research briefing "Solidarity and wealth tax" (Policy Department for Budgetary Affairs, April 2022, read): covers solidarity levies of many kinds as well as wealth taxes, so it was left out.
+- The Commission's study on wealth-related taxes (launched December 2024, per Commissioner Hoekstra as quoted in press) and the December 2025 hearing of Parliament's tax subcommittee (FISC) on taxing ultra-high-net-worth individuals: no document read.
+- The EU Tax Observatory note's own figures were not read in full (its page shows no revenue numbers); the 67 and 121 billion euro figures come from Oxfam's press release of 17 March 2025.

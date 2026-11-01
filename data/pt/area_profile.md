@@ -62,3 +62,5 @@ Leads not yet listed:
 - Greens/EFA, *Tax the Rich: From Slogan to Reality* (September 2023; an EU-wide report estimating 3.7 billion euros for Portugal); not read in full.
 
 No Portuguese poll asking about a wealth tax was found. Searched in Portuguese.
+
+Second search (batch 4, 1 November 2026): the outcome of PL 41/XII/1.ª and of BE's November 2024 budget proposal (above 3 million euros, 1.7% to 3.5%, per RR) was still not found in any page that could be read; nothing added.
