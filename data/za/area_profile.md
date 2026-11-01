@@ -42,3 +42,16 @@ R001 (2026-10-26)
 ## Review corrections
 
 One member was removed (the quote reports the Finance Minister's view that a wealth tax is not viable). Four rows were regraded to B: the Parliamentary Budget Office's brief (a costed option, not a recommendation) and three rows from Parliamentary Monitoring Group's third-person summaries of testimony (Amandla.mobi, Tlou Seopa, Women on Farms Project), which are not the speakers' own words.
+
+
+## Resources pass (1 November 2026)
+
+Listed on the Resources page after reading each document: the World Inequality Lab working paper "A Wealth Tax for South Africa" (January 2021), and the Ipsos poll for Earth4All and the Global Commons Alliance (March to April 2024), read from the South Africa country deck: 68% for wealthy people paying a higher tax on their wealth, 12% against. No bill or motion on a wealth tax in the National Assembly or the NCOP was found (searched PMG and the news for "wealth tax bill"); the written questions on pmg.org.za are questions, not bills.
+
+Leads not yet listed:
+- The Parliamentary Budget Office's second pre-budget brief (March 2025): its section 5.4 simulates a 0.5% net wealth tax as an alternative to the VAT rise, but the brief is a broad review of revenue options, so it is not listed.
+- Davis Tax Committee, Report on the feasibility of a wealth tax (March or April 2018): secondary sources say it judged an annual wealth tax infeasible in the short term and urged a stronger estate duty. The report itself was not reachable (taxcom.org.za errored and the Treasury links returned a web page, not the PDF), so it is not listed.
+- Glocalities poll of 2021 (60% for an extra 1% a year on wealth above R150 million; 78% of ANC voters): known only from a Cape Times opinion piece of July 2021, with no pollster release, sample or fieldwork dates.
+- Oxfam South Africa and Patriotic Millionaires survey of 543 dollar millionaires (November 2025, 64% for a 2% wealth tax): a survey of millionaires, not the public, known from press coverage only.
+- Afrobarometer dispatch AD617 (March 2023): fairness of taxing the rich at higher rates, not a wealth tax.
+- Wits and Rhodes student dissertations on a wealth tax (2018 to 2023): not peer reviewed, not read.

@@ -49,3 +49,13 @@ First written 2026-10-22 (runs R001–R002). Seed pass + wide general sweep.
 2. **Subnational Tax Justice and Governance Platform (TJ&GP) Chapters:** Sweep state TJ&GP chapters across the remaining states (`Bauchi`, `Plateau`, `Kwara`, `Cross River`, `Akwa Ibom`, `Taraba`, `Jigawa`) for state coordinators and communiqués ([Tax Justice & Governance Platform](https://taxjustice.ng/about-us)). Expected yield: 10–15 regional campaigners.
 3. **Additional CITN & University Law Journal Papers:** Sweep the Chartered Institute of Taxation of Nigeria (*Journal of Taxation and Economic Development*) and university law journals for additional inheritance/Capital Transfer Tax papers ([Taxing the Rich PDF](https://oi-files-cng-v2-prod.s3.eu-west-2.amazonaws.com/nigeria.oxfam.org/s3fs-public/Taxing%20the%20Rich%20Spread.pdf?VersionId=0nArswGanmdZOgSm4gvshQZvXqKBUU_8)). Expected yield: 5–15 academics.
 4. **Upgrade C-graded actors (`25 actors`):** Look for specific wealth-tax design endorsements from C-graded union leaders and politicians.
+
+
+## Resources pass (1 November 2026)
+
+Listed on the Resources page after reading it: "Taxing the Rich: Nigerian Fair Tax Monitor Thematic Report" (October 2024), which recommends a progressive net wealth tax and cites a revenue estimate. Searched the National Assembly bills and news for a wealth tax bill or motion: none found; the Nigeria Tax Act, 2025 raised the top income tax rate and did not create a wealth tax. Searched for polls (NOI Polls, Afrobarometer, Oxfam, press): none asks about a wealth tax; the March 2026 NOI Polls release is on the tax reform as a whole.
+
+Leads not yet listed:
+- Oxfam, CARE, CISLAC and others, "Income and Wealth Inequality in Nigeria: Trends and Drivers" (2024; already an evidence source): recommends a progressive net wealth tax but is a whole inequality report, so it is not listed.
+- Occhiali, Kangave and Khan, "Taxing high-net-worth individuals in Nigeria" (ICTD Working Paper 188, 2024; Development Policy Review 2025): about taxing wealthy individuals under the existing taxes, not a net wealth tax; not read in full.
+- Raji in ThisDay, 14 December 2024, on a one-off 2% levy: an opinion piece, not a paper.

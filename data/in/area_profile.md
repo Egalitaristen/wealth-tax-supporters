@@ -51,3 +51,14 @@ R002 did items 1 and 2 in part; the order after R002 is in `notes_next` of the R
 5. **Hindi and regional-language sources**, state assemblies, municipal bodies: only if 1–4 show support lives there.
 6. QIDs and `profiles.csv`: fill Wikidata IDs for the people added (the API rate-limited the sandbox).
 7. Map: district codes in `boundaries.json` are assigned in this project (state code plus running number) because no official-code source with open shapes was found; swap in Local Government Directory (LGD) codes. The shapes are the Census 2011 districts with later changes; newer districts are missing.
+
+
+## Resources pass (1 November 2026)
+
+Listed on the Resources page after reading each document: the World Inequality Lab issue brief of May 2024 (2% on net wealth above 10 crore rupees) and Wealth Tracker India 2026 (Centre for Financial Accountability and Tax the Top); and the Ipsos poll for Earth4All and the Global Commons Alliance (March to April 2024), read from the India country deck: 74% for wealthy people paying a higher tax on their wealth, 9% against. No bill or motion on a wealth tax was found: the Wealth-Tax Act, 1957 was abolished in 2015 and the R002 sweep of both Houses since 2010 found only speeches (searched again for private members' bills, none found).
+
+Leads not yet listed, because the document was not read or is not about a net wealth tax:
+- Fight Inequality Alliance India survey (3,231 people, 24 states, reported in 2021 and 2022): over 80% for taxing the rich and pandemic profiteers. A surcharge and a tax on "the rich", not a wealth tax; the pollster's release was not read.
+- The April 2020 paper by about 50 Indian Revenue Service officers (a temporary wealth tax among its options): the board disowned it and the paper itself was not read.
+- The Direct Taxes Code Bill, 2010 is reported to have included a wealth tax on net assets; the bill text was not read, so its design and state are unconfirmed.
+- Oxfam India inequality reports and Hindi-language reports: not read for a wealth tax proposal.
