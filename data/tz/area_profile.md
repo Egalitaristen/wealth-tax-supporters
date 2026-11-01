@@ -45,3 +45,11 @@ Parliament, party programmes, unions, organisations, regional and local records,
 - A March 2024 Dar es Salaam workshop included a session on net wealth taxation. The published programme names international and other-country speakers but does not establish any Tanzanian participant’s endorsement: https://www.addistaxinitiative.net/event/closing-tax-gap-role-wealth-taxation
 
 - Manual audit (R020): all 11 distinct sources were opened and each quote and attribution read. 10 of 12 quotes pass the automated checker; the two it cannot read (the FES paper and the UNCTAD report) were checked by hand on archived copies. Nine organisations were removed, one author restored (Moritz Meier-Ewert, UNCTAD report on Tanzania).
+
+## Resources pass (1 November 2026)
+
+Searched (English and Swahili): Parliament bills, reports, polls (Afrobarometer, REPOA). No bill or poll about a wealth tax found. Listed one report: FES Tanzania, The Case for a Wealth Tax in Tanzania (Balozi Morwa Mollel, December 2025; read).
+
+Leads not listed:
+- UNCTAD, Combating inequality and poverty in the United Republic of Tanzania (December 2024, published 2025): read; recommends introducing "a small wealth tax" in one bullet of a broad inequality report, so left out as a whole-report mention.
+- Policy Forum Tanzania brief on taxing the wealthiest, the UDSM Tanzanian Economic Review article (2024) and the 2022 SADC inequality report: not read in full or only partly about wealth tax.

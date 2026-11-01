@@ -75,3 +75,11 @@ Updated 2026-10-30. Initial seed run R001.
 
 ## Audit — R008
 - All 10 quotes were found on their pages. The two co-authors of the 2023 Payam Noor paper (Saadatmehr, Bazgir) were removed: the quoted sentence reports Piketty's view and the abstract is an empirical study with no recommendation, so they are exclusions. Arsalan Fathi-Pour sat in the 9th Majlis (2012-2016), so he is now marked as a former office holder. Eight supporters remain.
+
+## Resources pass (1 November 2026)
+
+Searched (Persian and English): Majlis bills, Tax Organisation drafts, papers, polls. No bill, report or poll about an actual net wealth tax was found; nothing listed. Iran has no net wealth tax.
+
+Leads not listed:
+- A report that the economy minister said a draft "wealth tax bill" was prepared at the Tax Organisation, to go to the Majlis after the fifth development plan (jamejamonline.ir, undated in the result; the draft itself not seen).
+- The capital gains (speculation) tax bill and the Majlis measure taxing houses over 20 billion tomans and luxury cars: property and gains taxes, not net wealth.

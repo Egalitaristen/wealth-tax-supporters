@@ -90,3 +90,12 @@ The following prominent figures and organizations were systematically researched
 - **Provincial CPPCC & Departmental Proposals:** Sweep provincial political consultative conferences (e.g. Zhejiang, Guangdong, Jiangsu) for formal member proposals on high-net-worth cross-border asset regulation and expatriation tax pilots.
 - **Macao SAR & Greater Bay Area:** Review Macao Legislative Assembly debates and GBA cross-border financial tax coordination discussions.
 - **Local Tax Administrative Institutes:** Expand coverage to provincial tax academies and regional academic networks.
+
+## Resources pass (1 November 2026)
+
+Searched (Chinese and English): NPC/CPPCC proposals, polls, papers. No bill, motion or poll found; China has no wealth tax bill. Nothing listed.
+
+Leads not listed:
+- Bai Yanfeng and Yuan Guibo, 全球最低财富税发展脉络及中国应对措施 (财政科学 2024 no. 4), read in full at http://ipft.ruc.edu.cn/yjcg/sdpl/c4477742d9064feb8b5935ef6396a194.htm: about the global minimum wealth tax and China, but the page is http only (https fails) and the journal's own page was not found, so no https url could be listed.
+- The 23 November 2023 Southwestern University of Finance and Economics seminar on net wealth measurement and a wealth tax (spft.swufe.edu.cn): a news item about a seminar, no document read.
+- The 2021 Bloomberg report on Li Shi and Yang Yixin's Economic Daily article (paywalled, abstract only; mentions property and inheritance tax alongside).

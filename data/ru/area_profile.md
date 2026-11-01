@@ -83,3 +83,12 @@
 - The earlier passes counted luxury taxes (on yachts, jets, supercars and expensive property) as wealth taxes. The definition excludes taxes on listed luxury goods or on high-value property, as the Singapore and China registers already do, so 20 of the 27 actors moved to exclusions: the CPRF bill and its sponsors, the SRZP bill 1153844-8 and its co-sponsors, the luxury-tax comments by SRZP, Yabloko and union figures, Prokhorov, Khodorkovsky, Ionin, Starikov, Auzan, Dmitrieva and the FNPR list item. Seven remain after a second search: Mironov and SRZP (B: on 2 April 2025 he proposed discussing a solidarity wealth tax on the French model, and in May 2025 a luxury tax and/or a tax on wealth; no bill or programme and no rates), Zyuganov and the CPRF (C: his 6 January 2024 post says the party has long insisted on a higher tax on wealth, in a post about income progression), Glazyev and Nekipelov (B: the 2013 RAS report proposes a tax on wealth and luxury) and Guriev (C: lists a wealth tax as one option beside an inheritance and a luxury tax). The Shein blog page is gone (404) and the 2012 Prokhorov and Golov and the 2016 Auzan pages could not be read by script, so none of their quotes could be checked. The run notes above describe the register as first submitted.
 
 The second search (Russian and English, about a dozen queries on parties, economists, unions and exile opposition) found no other person or body asking for a net wealth tax: Russian debate is about income-tax progression and luxury goods. Delyagin, Dmitrieva, Gontmakher, Yabloko and the Left Front were checked and name no wealth tax.
+
+## Resources pass (1 November 2026)
+
+Searched (Russian and English): State Duma bills and motions, VTsIOM, Levada and FOM polls, papers on a net wealth tax. No bill, report or poll about an actual net wealth tax was found, so nothing was listed.
+
+Leads not listed:
+- The KPRF "luxury tax" bill announced in May 2026 (property over 150 million roubles, yachts, aircraft; sent to the government for an opinion on 27 May per gazeta.ru): a tax on listed luxury goods and high-value property, not a net wealth tax; the Duma bill page was not read.
+- VTsIOM polls (2021: 83% for a progressive scale; 2024: 76% for higher tax on salaries over 200,000 roubles): ask about income tax, not wealth.
+- The 2013 Russian Academy of Sciences proposal is known only from a news repost (sibnet), not the document.

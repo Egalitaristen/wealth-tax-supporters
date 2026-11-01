@@ -33,3 +33,12 @@
 ## Review corrections
 
 Seven rows (and their people) were removed: three students and a postgraduate (private individuals), a co-author whose quote is a passing mention in a list, a paper on a journal page that could not be opened, and two conference papers whose quotes are not in the PDF text. The three authors of the 2017 'Wealth taxation: challenges for Ukraine' paper are grade C, because the abstract describes the paper ('prospects ... considered') rather than stating a position; the Pyroha pair, Sverdan and the 2012 Rada speech are grade B. The quotes of the Growford report, the Pyroha paper, the Wunu and economdevelopment abstracts and the Rada transcript were read at their sources in a browser.
+
+## Resources pass (1 November 2026)
+
+Searched (Ukrainian and English): Verkhovna Rada bills, polls (KIIS, Razumkov, Rating), papers. No poll about a wealth tax found. Listed one report: GROWFORD Institute, Kostiantyn Shvabii, 24 May 2021 (read on the institute's page).
+
+Leads not listed:
+- The Cabinet's 2012 bill on taxing wealth and luxury (flats over 200 square metres), reported as no. 10558 or 10588 by UNIAN: a property and luxury tax, parliament page not read.
+- Krysovatyi, Fedosov and Yarenko, Taxation of wealth: challenges for Ukraine (2017): the abstract does not say it concerns a net wealth tax.
+- KIIS and Razumkov polls on higher taxes in general: not about a wealth tax.

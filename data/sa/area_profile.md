@@ -75,3 +75,9 @@ Save as `data/sa/area_profile.md`. Seed pass R001, Deepening pass R002, Saturati
 - **Saturation status:** Saturated across all layers (legislative, executive, academic economics, banking, labor, civil society, international coalitions, Islamic jurisprudence, and G20 tracks). Exhaustive sweeps across 33 logged queries, academic literature, press archives (*Al-Jazirah*, *Okaz*, *Al-Riyadh*, *Arab News*, *Saudi Gazette*, *Asharq Al-Awsat*, *Argaam*), KAEC panel transcripts, and international HNW coalitions found two people on record who proposed a wealth tax for Saudi Arabia: Khalid Abdulla-Janahi (an annual 1% tax on assets over $5m for the GCC, 2017) and Omar Al-Ubaydli (a wealth tax for Saudi Arabia, no design, 2021). Both are Bahrain-based Gulf commentators, not Saudi officials. Run R006 (2026-11-01) added the second; the 33 logged queries of R001 to R005 had missed his Al Arabiya op-ed. Domestic economic policy, academic consensus, and religious jurisprudence reject personal wealth taxes in favor of Zakat, VAT, and White Land fees.
 - **Quote verification:** 2 of 2 evidence rows (E00001, E00002) were checked by hand and verified word-for-word against the published source text on *Arab News* (automated scrapers in `checkquotes` are skipped due to CDN bot protection). E00001 includes an archived snapshot URL.
 - **Future updates:** Periodic monitoring of Shura Council annual reports, Vision 2030 fiscal updates, and G20 tax working group deliverables.
+
+## Resources pass (1 November 2026)
+
+Searched (Arabic and English): Shura Council, polls, papers. The existing Ipsos/Earth4All poll is already in meta.json. No bill, report or other poll about a wealth tax found; Zakat is a religious levy and is not counted (see above). Nothing added.
+
+Leads not listed: the Arab News 2017 Gulf wealth-tax commentary is an opinion piece, not a paper.
