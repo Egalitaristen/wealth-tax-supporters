@@ -32,3 +32,6 @@ Leads not yet listed:
 - Conseil des prélèvements obligatoires and Cour des comptes reports on the taxation of wealth: whole-reform reports; no text on a net wealth tax read.
 - Conseil constitutionnel: a search for a decision on the 2025/2026 Zucman amendments found none (the amendments were rejected in committee on 20 October and in the chamber on 31 October 2025, per press reports not read in full), and the Conseil d'État opinion quoted in the debate was not read.
 - Other Ifop, Ipsos, Odoxa and Harris polls on the Zucman tax: not found with a question wording and fieldwork dates.
+
+## Taxes in force that are outside the definition
+- **Impôt sur la fortune immobilière (IFI):** in force since 2018, it taxes real estate only (net property above EUR 1.3 million), so it is a property tax outside the definition. A call to bring back a tax on all net wealth (the old ISF) is inside it. `[verify: stated from general knowledge, not read from the law for this note]`

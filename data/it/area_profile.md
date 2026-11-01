@@ -83,3 +83,6 @@ Leads not yet listed:
 - No official camera.it or senato.it record of a wealth-tax bill in the current legislature was found by search; the parliamentary database was not queried directly.
 
 Cosponsor check (1 November 2026): the popular-initiative text (unpercentoequo.it PDF) names no promoters or committee members and the campaign site shows no text to scripts, so only Maurizio Acerbo stays linked.
+
+## Taxes in force that are outside the definition
+- **IVIE and IVAFE:** annual levies on property held abroad (IVIE) and on foreign financial assets (IVAFE). They are property and financial-asset taxes, not a tax on net wealth, so they are outside the definition. `[verify: stated from general knowledge, not read from the law for this note]`

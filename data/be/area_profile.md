@@ -118,3 +118,6 @@ Leads not yet listed:
 - Amendment 10 to the 2025 Ways and Means budget (DOC 56 0853/008, 2% above EUR 5 million and 3% above EUR 10 million); an amendment, not a bill, and not read here.
 - Vooruit's 2026 "millionaires' contribution" is an extension of the securities-account tax, not a net wealth tax.
 - The CNCD-11.11.11 / Ipsos poll of October 2023 mentioned in the country notes was removed earlier for lack of a readable source.
+
+## Taxes in force that are outside the definition
+- **Taxe sur les comptes-titres (securities-account tax):** a yearly levy on securities accounts above a threshold. It covers financial accounts, not net wealth, so it is outside the definition. `[verify: stated from general knowledge, not read from the law for this note]`
