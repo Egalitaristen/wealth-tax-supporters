@@ -763,6 +763,8 @@ def main():
         shutil.copy(f, out / f.name)
     if (SITE / "fonts").is_dir():  # self-hosted fonts
         shutil.copytree(SITE / "fonts", out / "fonts")
+    if (SITE / "vendor" / "flags").is_dir():  # country flags (flag-icons, MIT), shown next to country names
+        shutil.copytree(SITE / "vendor" / "flags", out / "flags")
     # A content hash in each asset URL makes updates show at once despite caching.
     html = (SITE / "index.html").read_text(encoding="utf-8")
     for f in assets:

@@ -189,7 +189,10 @@ async function searchData() {
   for (const [qid, grp] of byQid) {
     // Show the person under their home country when it is known, otherwise under the strongest entry.
     grp.sort((x, y) => ((y.slug === (W.home || {})[qid]) - (x.slug === (W.home || {})[qid])) || best(x, y));
-    one.push(grp.length === 1 ? grp[0] : Object.assign({}, grp[0], {also: grp.slice(1).map(p => p.slug), key: grp.map(p => p.key).join(' '), n: grp.reduce((s, p) => s + p.n, 0), all: grp}));
+    // A home country with no register of its own for this person (Piketty is French, and France's register does not list him) is still
+    // the country shown; the link goes to the strongest entry and `also` lists every register that has one.
+    const hs = (W.home || {})[qid], away = hs && !grp.some(p => p.slug === hs);
+    one.push(grp.length === 1 ? grp[0] : Object.assign({}, grp[0], {also: (away ? grp : grp.slice(1)).map(p => p.slug), disp: away ? hs : grp[0].slug, key: grp.map(p => p.key).join(' ') + (away ? ' ' + norm(cname[hs] || '') : ''), n: grp.reduce((s, p) => s + p.n, 0), all: grp}));
   }
   SEARCH.uniq = one;
   return SEARCH;
@@ -224,11 +227,11 @@ function resultsHtml(S, res, q) {
   if (!res) return '';
   const groups = [];
   if (res.countries.length) groups.push(`<div class="rgroup">Countries</div>` + res.countries.map(c =>
-    `<a class="ritem" href="/${c.slug}"><span class="rm"><span class="rn">${mark(c.name, q)}</span><span class="rs">${fmt(c.n)} on record so far</span></span><span class="rc">Country</span></a>`).join(''));
+    `<a class="ritem" href="/${c.slug}"><span class="rm"><span class="rn">${flag(c.slug)}${mark(c.name, q)}</span><span class="rs">${fmt(c.n)} on record so far</span></span><span class="rc">Country</span></a>`).join(''));
   if (res.places.length) groups.push(`<div class="rgroup">Places</div>` + res.places.map(p =>
     `<a class="ritem" href="/${p.slug}?place=${enc(p.path)}"><span class="rm"><span class="rn">${mark(p.name, q)}</span><span class="rs">${esc(p.path)}</span></span><span class="rc">${fmt(p.n)}</span></a>`).join(''));
   if (res.people.length) groups.push(`<div class="rgroup">People and organisations${res.total > res.people.length ? ` · top ${res.people.length} of ${fmt(res.total)}` : ''}</div>` + res.people.map(p =>
-    `<a class="ritem" href="/${p.slug}/${enc(p.id)}">${glyph(p.grade)}<span class="rm"><span class="rn">${mark(p.name, q)}</span><span class="rs">${esc([TYPE[p.type], p.role, p.place].filter(Boolean).join(' · '))}</span></span><span class="rc" title="${esc([p.slug, ...(p.also || [])].map(s => S.cname[s]).join(', '))}">${esc(S.ciso[p.slug])}${p.also ? ` +${p.also.length}` : ''}</span></a>`).join(''));
+    `<a class="ritem" href="/${p.slug}/${enc(p.id)}">${glyph(p.grade)}<span class="rm"><span class="rn">${mark(p.name, q)}</span><span class="rs">${esc([TYPE[p.type], p.role, p.place].filter(Boolean).join(' · '))}</span></span><span class="rc" title="${esc((p.disp && p.disp !== p.slug ? p.also : [p.slug, ...(p.also || [])]).map(s => S.cname[s]).join(', '))}">${flag(p.disp || p.slug) || esc(S.ciso[p.disp || p.slug])}${p.also ? ` +${p.also.length}` : ''}</span></a>`).join(''));
   return groups.join('') || `<div class="rempty">${q.trim() ? `No match for “${esc(q)}”.` : 'No one matches these filters.'} Try a surname, a town, or a type such as “economists”, or loosen the filters.</div>`;
 }
 // A "Filters" button that opens a small panel (country, who, strength). Collapsed until asked for; the count shows what is on.
@@ -384,8 +387,10 @@ async function parliamentsPage(W) {
 // Polls, papers, reports and bills, filterable by kind, place and year. The filters live in the query string, so a view can be shared.
 const RES_KIND = {poll: ['Polls', 'Poll'], paper: ['Papers', 'Paper'], report: ['Reports and proposals', 'Report'], bill: ['Bills and laws', 'Bill or law']};
 const RES_STATE = {in_force: 'In force', pending: 'Pending', rejected: 'Rejected', lapsed: 'Lapsed'};
+// A country's flag, by register folder (the folder is the lower-case ISO code; Australia's is `australia`, and the African Union and `global` have none).
+const flag = slug => { const c = slug === 'australia' ? 'au' : (slug === 'au' || slug === 'global' || !/^[a-z]{2}$/.test(slug || '')) ? '' : slug; return c ? `<img class="flag" src="/flags/${c}.svg" alt="" width="16" height="12" loading="lazy">` : ''; };
 const resCard = (r, place = true) => `<article class="res">
-      <div class="res-k"><span class="rk rk-${r.kind}">${esc(RES_KIND[r.kind][1])}</span>${place ? `<span>${r.country === 'global' ? esc(r.cname) : `<a href="/${esc(r.country)}">${esc(r.cname)}</a>`}</span>` : ''}${r.level ? `<span>${esc(label(LEVEL, r.level))}</span>` : ''}<span>${esc(pollDate(r.published))}</span></div>
+      <div class="res-k"><span class="rk rk-${r.kind}">${esc(RES_KIND[r.kind][1])}</span>${place ? `<span>${r.country === 'global' ? esc(r.cname) : `<a href="/${esc(r.country)}">${flag(r.country)}${esc(r.cname)}</a>`}</span>` : ''}${r.level ? `<span>${esc(label(LEVEL, r.level))}</span>` : ''}<span>${esc(pollDate(r.published))}</span></div>
       ${r.fig ? `<div class="res-fig">${esc(r.fig)}</div>` : ''}
       <h3>${ext(r.url, esc(r.title) + ' ↗')}</h3>
       <div class="res-by">${esc(r.by)}</div>
@@ -1587,7 +1592,7 @@ async function globalDirectory(W, params) {
   const row = p => `<li><a class="drow" href="/${esc(p.slug)}/${enc(p.id)}">${glyph(p.grade)}
       <span class="dm"><span class="dn">${esc(p.name)}</span><span class="dr">${esc(p.role.slice(0, 140))}</span>
         <span class="dt"><span class="tag">${esc(label(TYPE, p.type))}</span></span></span>
-      <span class="dp" ${p.also ? `title="${esc([p.slug, ...p.also].map(s => S.cname[s] || s).join(', '))}"` : ''}>${esc(S.cname[p.slug] || p.slug)}${p.also ? ` +${p.also.length} more` : ''}${!p.also && p.place && p.place !== S.cname[p.slug] ? ' · ' + esc(p.place) : ''}</span>
+      <span class="dp" ${p.also ? `title="${esc([p.slug, ...p.also].map(s => S.cname[s] || s).join(', '))}"` : ''}>${flag(p.disp || p.slug)}${esc(S.cname[p.disp || p.slug] || p.slug)}${p.also ? ` +${p.also.length} more` : ''}${!p.also && p.place && p.place !== S.cname[p.slug] ? ' · ' + esc(p.place) : ''}</span>
       <span class="dd"><b>${p.n}</b>statement${p.n === 1 ? '' : 's'}</span></a></li>`;
   const draw = () => {
     const toks = norm(ST.q).trim().split(/\s+/).filter(Boolean);
