@@ -79,3 +79,14 @@ R002 and R003 (2026-10-20) worked the first plan: the 2013 and 2022 roll calls, 
 - **Blocked or unreachable from this environment:** `die-linke.de`, `linksfraktion.de` (403), `bsw-vg.de` (refused), `taxmenow.eu` (bot check), `gew.de` and `der-paritaetische.de` (403 to plain clients), `zeit.de` (403), `wer-hat-der-gibt.de` (policy denial; the alliance's other site `werhatdergibt.org` works), the Left's Landtag database (certificate mismatch), Wikidata and Wikipedia APIs (429, intermittently), the Internet Archive (intermittent resets).
 
 **Exclusion rows removed.** Marlene Engelhorn lives in Austria and an early run excluded her as a petition signer; she is kept in this register because her taxmenow campaign and German-language interviews address Germany's suspended wealth tax (E00220, E00293). Peter Vollmer was excluded as a petition signer with no role stated, but his own 2011 statement for a wealth levy and a permanent wealth tax (E00242) stands, so he is kept.
+
+## Resources pass (1 November 2026)
+
+Listed on the Resources page after reading each Drucksache: Bundestag motions 17/2944, 17/8792, 17/10778, 19/94, 19/28908, 20/4307 and 21/8267, the Greens' bill 17/10770 (outcome from the official roll-call list of 27 June 2013), and three Landtag motions (Berlin 19/1952, with the committee recommendation 19/2364; Saxony-Anhalt 7/845; Hesse 19/4497), alongside the existing 21/4029, whose status was updated from the Bundestag text archive (first reading 6 March 2026) and the Finance Committee report 21/8481. Outcomes were taken from the Bundestag text archive (20/4307: 36 yes, 649 no; 17/8792: debated 23 March 2012, referred to committees, no vote seen). Reports and papers: DIW Wochenberichte 42/2012 (Bach and Beznoska) and 4/2016 (Bach and Thiemann) and the Hans-Böckler-Stiftung legal opinion by Thiele (2023). Poll: YouGov Omnibus, November 2016, 52% for and 30% against, from YouGov's own article (the exact wording is not published there).
+
+Not listed, and why:
+- 20/11630 (Left, June 2024, a global minimum tax on billionaires without a rate or a net wealth base) and 19/25789 (FDP bill to repeal the Vermögensteuergesetz): not asking for a net wealth tax.
+- Saxony 6/9213 and 7/192: read only through the Internet Archive copy of the Left's motion database, not the Landtag's own portal.
+- The 2012 Länder initiative in the Bundesrat and the 2011 to 2014 ten-Länder draft: no Bundesrat document was opened.
+- Polls known from press or secondary pages only: Infratest dimap (ARD-DeutschlandTrend April 2025, 69% "right direction"; "Deine Meinung zählt!" April 2026, 64% to 29%), Forsa April 2012 (77%, cited in Drucksache 17/10778), the Ipsos G20 poll (not Germany-specific).
+- DIW Politikberatung kompakt 108 (2016), 68 (2012) and 59 (2010), and the WSI short opinion by Kommer and Kosters: the DIW and WSI pages were not read beyond their titles.

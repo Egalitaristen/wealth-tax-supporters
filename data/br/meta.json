@@ -18,6 +18,19 @@
       "sample": "22,000 respondents in 22 countries",
       "published": "2024-06-24",
       "url": "https://www.poder360.com.br/economia/69-dos-brasileiros-apoiam-taxar-super-ricos-diz-pesquisa/"
+    },
+    {
+      "support": 80,
+      "oppose": 20,
+      "scope": "Brazil, residents aged 16 and over, telephone (automated voice) survey",
+      "question": "Whether large fortunes should be taxed to fight the coronavirus; 80% yes, 20% no",
+      "question_original": "Você acha que grandes fortunas deveriam ser taxadas para combater o coronavírus?",
+      "pollster": "DataSenado",
+      "commissioned_by": "DataSenado, the Federal Senate's research institute (own survey)",
+      "fieldwork": "2020-04-18 to 2020-04-23",
+      "sample": "1,200 interviews, stratified probability sample, margin of error +/- 4.3%",
+      "published": "2020-04",
+      "url": "https://www12.senado.leg.br/institucional/datasenado/arquivos/80-dos-brasileiros-apoiam-a-criacao-de-imposto-sobre-grandes-fortunas"
     }
   ]
 }

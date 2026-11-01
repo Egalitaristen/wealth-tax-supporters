@@ -4,5 +4,20 @@
   "lead": "",
   "status": "in progress",
   "boundaries": "boundaries.json",
-  "notes": "Seed R001 (2026-10-26): national parties, three TDs and Oxfam Ireland added from opened primary sources. Geography register: 31 statutory local authorities, using Tailte Éireann 2026 boundary IDs. The map is the 31 local authorities from Tailte Éireann (CC BY 4.0, 2026), generalised. The three TDs are temporarily at the country root until their constituencies and current offices are verified from the Oireachtas register. Regional and local research has not begun."
+  "notes": "Seed R001 (2026-10-26): national parties, three TDs and Oxfam Ireland added from opened primary sources. Geography register: 31 statutory local authorities, using Tailte Éireann 2026 boundary IDs. The map is the 31 local authorities from Tailte Éireann (CC BY 4.0, 2026), generalised. The three TDs are temporarily at the country root until their constituencies and current offices are verified from the Oireachtas register. Regional and local research has not begun.",
+  "polls": [
+    {
+      "support": 82,
+      "oppose": 14,
+      "scope": "Ireland, 1,016 people questioned",
+      "question": "Whether the Government should introduce a wealth tax on individuals with net assets (property, financial assets and luxury items) above 1 million euro who also have an annual income above 100,000 euro; 82% agreed strongly or slightly",
+      "question_original": "Do you agree or disagree that the Government should introduce a wealth tax on individuals who have net assets (including property, financial assets and luxury items) which are valued at more than one million euro and who have an annual individual income of more than a hundred thousand euro?",
+      "pollster": "MRBI",
+      "commissioned_by": "The Community Platform (coalition of social-justice organisations)",
+      "fieldwork": "2010 (dates not stated in the analysis)",
+      "sample": "1,016 people",
+      "published": "2010-11",
+      "url": "https://www.nwci.ie/download/pdf/mrbi_poll_analysis.pdf"
+    }
+  ]
 }
