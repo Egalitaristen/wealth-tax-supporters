@@ -386,7 +386,7 @@ async function parliamentsPage(W) {
 
 // Polls, papers, reports and bills, filterable by kind, place and year. The filters live in the query string, so a view can be shared.
 const RES_KIND = {poll: ['Polls', 'Poll'], paper: ['Papers', 'Paper'], report: ['Reports and proposals', 'Report'], bill: ['Bills and laws', 'Bill or law']};
-const RES_STATE = {in_force: 'In force', pending: 'Pending', rejected: 'Rejected', lapsed: 'Lapsed'};
+const RES_STATE = {in_force: 'In force', pending: 'Pending', rejected: 'Rejected', lapsed: 'Lapsed', adopted: 'Adopted'};
 // A country's flag, by register folder (the folder is the lower-case ISO code; Australia's is `australia`, and the African Union and `global` have none).
 const flag = slug => { const c = slug === 'australia' ? 'au' : (slug === 'au' || slug === 'global' || !/^[a-z]{2}$/.test(slug || '')) ? '' : slug; return c ? `<img class="flag" src="/flags/${c}.svg" alt="" width="16" height="12" loading="lazy">` : ''; };
 const resCard = (r, place = true) => `<article class="res">
