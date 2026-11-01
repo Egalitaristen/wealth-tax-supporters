@@ -34,3 +34,14 @@ Searched the first 20 sitting deputies of Unión por la Patria not yet in the re
 
 ## R009 — roll call, 2026-10-28
 Matched the Senate's official roll call of 4 December 2020 on the Aporte Solidario y Extraordinario (acta 1257: 42 for, 26 against) to the 72 senators who sit today: six voted for it and are added with the vote as evidence (grade A, one-off levy), each quoted from their own entry in the list. The Chamber of Deputies roll call of 18 November 2020 (133 for) could not be read: the Chamber's voting site times out from here, its open-data vote files stop in 2018 and the transcript has no appendix with the lists. It stays open as lead D0003. Former senators and deputies who voted for the levy are not recorded in this pass; they are supporters too and can be added from the same lists.
+
+## Resources pass (1 November 2026)
+
+Listed on the Resources page after reading each document: Ley 27.605 (the Aporte Solidario y Extraordinario; the text published by the Boletín Oficial, read from a copy of the Colegio de Escribanos), the IPyPP report of June 2024 and CELAG's regional estimate of June 2020. No poll was listed: none could be read from the pollster's own release (see below). The Chamber's bill 4534-D-2020 is not listed as a bill of its own because the Chamber's page (hcdn.gob.ar) returned "not found" and the Boletín Oficial text of the law was used instead.
+
+Leads not yet listed:
+- Polls of 2020 on the Aporte Solidario, known only from news reports: Celag (76.2% yes, 21.4% no, reported 7 May 2020), Analogías (64.1% for the one-off levy above ARS 200 million, 28.3% against, 4 and 5 September 2020, 2,962 telephone interviews; about 60% for making it yearly), Gustavo Córdoba y Asociados (61.6%) and Clivajes (79.5%). None of the pollsters' own pages was found; Celag's site has regional analyses but not the survey. Most of these pollsters are close to the then government; a poll with a different result (50.5% against a permanent tax) was reported without naming the pollster. Find the tables before listing any.
+- The Chamber of Deputies roll call of 18 November 2020 and bill 4534-D-2020 (still lead D0003): hcdn.gob.ar did not answer.
+- The 2022 ten-year wealth-tax bill of Pablo Carro (lead D0001) and Walberto Allende's bill: not read.
+- Regional work by the Observatorio Fiscal (Zucman, April 2026) on a 2% tax above USD 100 million in seven Latin American countries: known from a news report only.
+- Municipal motions of 2020 (Berazategui, Mar del Plata, Bariloche and others) are evidence rows, not listed as bills.

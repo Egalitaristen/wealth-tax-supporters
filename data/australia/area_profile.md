@@ -46,3 +46,15 @@ Parliament’s member contact CSV page returned HTTP 403, so neither chamber has
 ## Review corrections
 
 All 45 quotes were checked against their sources: 36 by script and nine (Hansard pages, Oxfam, the Australia Institute pages via their Wayback copies because of a bot check, and the NewDaily article) by hand in a browser. Hansard speakers were confirmed for Pocock, Hodgins-May, Shoebridge and Watson-Brown. Gary Stevenson was removed (a UK-based commentator, already in the Great Britain register) and Ebony Bennett's article was regraded B because it describes the research rather than stating a position outright.
+
+## Resources pass (1 November 2026)
+
+This is the national Australian register (`au` is the African Union). Listed on the Resources page after reading each source: The Australia Institute's discussion paper of August 2025 (the site refuses scripts, so the Wayback copy was read), the Greens' announcement of the billionaires tax of 11 February 2025, the Senate division of the same day on the Greens' urgency motion (theyvoteforyou.org.au asks for a browser check, so the Wayback copy was read; the original is listed), the paper by Andrew, Baker, Cooper and Tweedie (2022), and Oxfam Australia's July 2024 release of its YouGov poll (74% for a wealth tax on people with more than $50 million). The release does not give the fieldwork dates or the sample, and the YouGov tables were not found.
+
+No Australian bill for a net wealth tax was found: the Greens' plan has been put to the Senate only as an urgency motion, and no bill for it appeared in the searches. The parliament's own division page (aph.gov.au refuses scripts) was not read; the vote count comes from the Wayback copy of theyvoteforyou.org.au.
+
+Leads not yet listed:
+- The Australia Institute/YouGov poll of June 2025 asked about the $3 million superannuation tax (52% for), not a wealth tax.
+- Abigail Boyd's notice of motion in the NSW Legislative Council (February 2026) only notes Oxfam's 2026 inequality report; left out as it is not a proposal for a tax.
+- Oxfam Australia's January 2026 inequality report and the Parliamentary Budget Office costing of the Greens plan: not read.
+- Press reports of a poll by Redbridge or Essential on a wealth tax: none found; Accountants Daily (July 2024) reports the Oxfam/YouGov poll above.
