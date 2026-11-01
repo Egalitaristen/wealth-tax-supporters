@@ -61,3 +61,16 @@ Agent Reach/Exa and opened web sources were used. Exa intermittently rate-limite
 R004 adds30 further public figures matched to manifesto positions and three economists with direct personal endorsements: Michał Myck, Michał Brzeziński and Marek Ignaszak. Total295 actors/312 evidence rows. Roster evidence remains gradeB;251 qualifying public endorsements cumulatively,245 new actors across R003/R004. The R003 screening ledger is a historical snapshot; new identities, public-role sources and obituary-check methods are preserved in research_r004_identity_ledger.csv. No annual frequency is inferred for the three expert sources.
 
 Broader party, union, wealthy/faith and parliamentary searches mostly returned existing actors, excluded tax bases or research discussion without endorsement. H0005 closes with zero actors after reading the original Presidency report; H0009 preserves a specific2025 EP wealth-tax amendment lead pending readable amendment-specific voting records. No party-member or whole-report vote inference. Independent QA reviewed all three expert originals and five randomly sampled roster identities. The parent also repeated all three expert originals and five public-role originals. All evidence remains verified=n. Full outcomes and access limits: research_r004.md and research_r004_qa.md.
+
+## Resources pass (1 November 2026)
+
+Listed on the Resources page after reading each source: the 2015 article by Malinowski and Tomkiewicz on a global wealth tax, the IBS Policy Paper 03/2021 by Marcin Wroński (a sceptical estimate of a net wealth tax), and Partia Razem's January 2020 position proposing a wealth tax of 1% to 8%.
+
+No bill on a net wealth tax was found. The Sejm API's print lists for terms 7 to 10 were searched by title for wealth, fortune and richest-tax terms; the only hits were treaty ratifications and an insurance bill. Razem's 2020 text mentions no draft bill. (Titles that only amend a general tax act could hide a wealth-tax bill.)
+
+Leads not yet listed:
+- A Special Eurobarometer reported by money.pl as 49% of Poles supporting a tax on the richest 0.001% (EU average 65%): the Eurobarometer page (survey 3375) did not show its content, so the question, fieldwork and commissioner could not be read.
+- CBOS and Gazeta Prawna / PBS polls on higher taxes for the rich: they ask about higher taxes on high earners, not a wealth tax.
+- The European Parliament amendments of 2023 (A9-0155/2023, A9-0336/2023) are EU votes, already evidence rows.
+
+Searched in Polish; no Polish poll asking about a wealth tax was read.

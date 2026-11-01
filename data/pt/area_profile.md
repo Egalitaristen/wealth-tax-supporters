@@ -49,3 +49,16 @@ Former parliamentary leader [Pedro Filipe Soares](https://www.rtp.pt/noticias/ec
 
 ## Audit — R011
 - 45 of 47 quotes were found on their pages; the other two (Reis, Louçã) are on sites that answer 403 to scripts. Pedro Filipe Soares was removed (the cited report is about a luxury-property tax and the quote never mentions wealth) and José Reis was removed (his quote does not state support and could not be re-read); both are now exclusions. Francisco Louçã is graded B because the quote is the reporter's description. The 230-seat chart matches the 2025 election result (PSD 89, Chega 60, PS 58, IL 9, Livre 6, PCP 3, CDS-PP 2, BE, PAN and JPP 1 each).
+
+## Resources pass (1 November 2026)
+
+No bill, paper, report or poll was added for Portugal. Parliamentary instruments were identified and, for Projeto de Lei 41/XII/1.ª (BE, 2011, solidarity tax on large fortunes above 2 million euros) and Projetos de Resolução 81/XVI/1.ª and 282/XVI/1.ª, the text on app.parlamento.pt was read, but the outcome was not shown by any parliament page I could read, so no `state` could be stated.
+
+Leads not yet listed:
+- PL 41/XII/1.ª (BE): an RTP report (undated) says PSD and CDS-PP would vote against and PCP and PEV for; no recorded result seen.
+- BE bills of 2002 (PL 128/VIII), 2005 (PL 89/X) and 2009 (PL 722/X): known from search snippets of the Diário da Assembleia da República; not read.
+- The three resolutions of 25 September 2024 (PS, Livre, PAN), reported by RTP and Público (Lusa) as rejected by PSD, CDS-PP, Chega and IL; the report gives no project numbers, so PJR 81/XVI (Livre, 7 May 2024), 199/XVI (PS) and 282/XVI cannot be matched with certainty. They only recommend supporting international initiatives. The 28 November 2024 vote on a Livre working group on a wealth tax (Público; 403) is also unread.
+- BE's November 2024 proposal (above 3 million euros, 1.7% to 3.5%) and PCP's budget amendments (0.8% on financial assets above 1 million euros): amendments, not read at parliament.pt; the PCP tax is on financial assets only.
+- Greens/EFA, *Tax the Rich: From Slogan to Reality* (September 2023; an EU-wide report estimating 3.7 billion euros for Portugal); not read in full.
+
+No Portuguese poll asking about a wealth tax was found. Searched in Portuguese.
