@@ -63,3 +63,14 @@ Greek: φόρος πλούτου, φόρος μεγάλης περιουσίας
 ## Audit — R010
 
 - All 33 distinct sources were opened and each quote and attribution read. Konstadellis (ELIAMEP paper) was removed: he calls an annual global wealth tax ideal but utopian and proposes auctioning privileges instead. Tsakloglou was regraded to C and Kaplanoglou's quote replaced. The 2011 Greek-German call is a press release naming ten Greek co-signers, so those rows stay at B.
+
+## Resources pass (1 November 2026)
+
+Nothing listed. Searched in Greek and English: the Hellenic Parliament's bills (SYRIZA, KKE, New Left, Course of Freedom, PASOK), Greek and international research on a Greek net wealth tax (Bank of Greece, KEPE, IOBE, HFCS-based work) and polls (Pulse, MRB, Metron Analysis, Alco, Public Issue, Prorata, Dianeosis, Eteron). No bill, report or poll about an actual net wealth tax that could be read in full was found. The SYRIZA bill filed on 16 May 2024 ("stable, progressive and fair taxation of incomes and property") concerns income tax scales and the ENFIA property tax, not a net wealth tax, and was left out.
+
+Leads not yet listed:
+- Papanikos, "Taxing wealth and only wealth in an advanced economy with an informal economy and vast tax evasion: the case of Greece" (DIW Vierteljahrshefte 3/2015): proposes replacing the tax system with one based only on wealth; the abstract does not say whether the base is net of debts.
+- Tax Justice Network (August 2024) estimate that a Spain-style tax would raise over EUR 700 million a year from the richest 0.5% of households; only a press summary was found, not the report.
+- A nationwide survey of April 2026 (1,504 adults) reported by To Vima: 86.5% agree taxing the wealthy more is necessary for social justice; the pollster and client are not named and the question is not about a net wealth tax by name.
+- Reported but untabled proposals: a 0.6-0.7% tax on net wealth (ex-minister Sallas), a PASOK Zucman-style tax (1% on EUR 1-99 million, 2% above EUR 100 million) and a "patriotic contribution" from Tsipras's new party; no bill text was found.
+- Christelis's HFCS paper on the real-estate wealth tax is about the property tax and was left out.

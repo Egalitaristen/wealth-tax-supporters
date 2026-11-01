@@ -4,5 +4,21 @@
   "lead": "",
   "status": "in progress",
   "boundaries": "boundaries.json",
-  "notes": "Seed pass: national, regional and municipal scope; 5 regions and 98 municipalities. Geographic register loaded, local research limited. Municipal and regional map based on DAGI data from Vejdirektoratet, CC BY 4.0, retrieved 2026-10-29."
+  "notes": "Seed pass: national, regional and municipal scope; 5 regions and 98 municipalities. Geographic register loaded, local research limited. Municipal and regional map based on DAGI data from Vejdirektoratet, CC BY 4.0, retrieved 2026-10-29.",
+  "polls": [
+    {
+      "support": 15,
+      "support_text": "About 1 in 7",
+      "oppose": 77,
+      "scope": "Denmark, private-sector managers who are members of Lederne (not the general public)",
+      "question": "Do you, as a manager, think a wealth tax should be reintroduced in Denmark? (yes / no / don't know)",
+      "question_original": "Mener du som leder, at der bør genindføres en formueskat i Danmark?",
+      "pollster": "Lederne (survey among its own members)",
+      "commissioned_by": "Lederne, the managers' trade union",
+      "fieldwork": "2026-03-02 to 2026-03-05",
+      "sample": "927 private-sector managers who completed the survey",
+      "published": "2026-03",
+      "url": "https://www.lederne.dk/-/media/files/analyser/lederneanalyse_survey-om-formueskat.pdf"
+    }
+  ]
 }
