@@ -55,3 +55,5 @@ Leads not yet listed:
 - Oxfam South Africa and Patriotic Millionaires survey of 543 dollar millionaires (November 2025, 64% for a 2% wealth tax): a survey of millionaires, not the public, known from press coverage only.
 - Afrobarometer dispatch AD617 (March 2023): fairness of taxing the rich at higher rates, not a wealth tax.
 - Wits and Rhodes student dissertations on a wealth tax (2018 to 2023): not peer reviewed, not read.
+
+Second pass (1 November 2026): no wealth-tax bill, private member's bill or motion was found. The EFF has proposed a wealth tax in its alternative budgets (2025), and the Finance Minister's written reply of July 2026 to an EFF question said the government is not considering one (reported by IOL); neither was read at the source. Nothing listed.

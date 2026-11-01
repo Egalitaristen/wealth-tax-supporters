@@ -9,15 +9,14 @@
     {
       "support": 53,
       "oppose": null,
-      "scope": "Sweden, adults",
-      "question": "A special billionaire tax for people with more than 1 billion kronor in wealth (\"very\" or \"fairly\" good)",
-      "question_original": "Vad tycker du om förslaget att införa en särskild miljardärsskatt för dem med över en 1 miljard kronor i förmögenhet?",
+      "scope": "Sweden, adults aged 18 to 84",
+      "question": "Whether a billionaire tax is a good proposal (Oxfam Sverige's release gives no exact wording; Realtid's report describes it as a special tax on people with more than SEK 1 billion in wealth)",
       "pollster": "Verian",
       "commissioned_by": "Oxfam Sverige",
-      "fieldwork": "",
-      "sample": "1,056 people",
+      "fieldwork": "2026-05-26 to 2026-05-28",
+      "sample": "1,056 respondents, web interviews in the randomly recruited Sifopanelen, weighted by sex, age, region and party sympathy",
       "published": "2026-06-11",
-      "url": "https://www.realtid.se/bors-finans/varannan-svensk-vill-se-skatt-for-miljardarer/"
+      "url": "https://oxfam.se/nyheter/ny-undersokning-varannan-svensk-vill-ha-en-miljardarsskatt/"
     }
   ]
 }

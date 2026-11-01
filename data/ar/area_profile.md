@@ -45,3 +45,5 @@ Leads not yet listed:
 - The 2022 ten-year wealth-tax bill of Pablo Carro (lead D0001) and Walberto Allende's bill: not read.
 - Regional work by the Observatorio Fiscal (Zucman, April 2026) on a 2% tax above USD 100 million in seven Latin American countries: known from a news report only.
 - Municipal motions of 2020 (Berazategui, Mar del Plata, Bariloche and others) are evidence rows, not listed as bills.
+
+Second pass (1 November 2026, polls): searched again for the pollsters' own pages for the 2020 Aporte Solidario polls and found none. Analogías: Letra P (15 September 2020) gives fieldwork 4 and 5 September, 2,962 telephone interviews and results by political group; iProfesional (21 September 2020) gives 64.1% for, 28.3% against, 7.6% no opinion, but it is not clear the two come from the same sample, and neither links the report. The Observatorio de Economía Política of the University of Buenos Aires is cited for a May 2020 survey with 54.4% agreeing (its site now redirects and the Wayback Machine has no copy of `/wp-content/uploads/sites/251/2020/05/INFORME.pdf`). Nothing listed.

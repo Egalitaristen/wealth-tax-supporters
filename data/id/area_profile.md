@@ -119,3 +119,5 @@ Leads not yet listed, because the document was not read or is not about a net we
 - PRAKARSA Policy Brief 36 (December 2022): its text is about zakat and taxes in Islam and compares zakat management in Indonesia and Malaysia; the wealth tax proposal itself is thin, so it is not listed.
 - CELIOS, *Dengan Hormat, Pejabat Negara, Jangan Menarik Pajak Seperti Berburu di Kebun Binatang* (August 2025; page on celios.co.id) and the inequality reports of September 2024 and April 2026: broad reports whose wealth tax chapter (2% on the 50 richest, IDR 81.6 trillion) is one of many revenue options, and the full report PDFs were not opened.
 - The FPBI white paper on tax reform (May 2025): a whole-reform paper.
+
+Second pass (1 November 2026): no wealth-tax bill in the DPR or Prolegnas found; the 35% top rate in the HPP law of 2021 is an income tax. Celios (2024: 2% on the 50 richest, about Rp 81.56 trillion) and INDEF (August 2024) proposals are known from press; their own reports were not read. Nothing listed.

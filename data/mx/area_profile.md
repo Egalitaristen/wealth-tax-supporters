@@ -48,3 +48,5 @@ Leads not yet listed, because the document was not read or is not about a net we
 - The UNAM paper *Una propuesta de impuesto a la riqueza para México* (Problemas del Desarrollo, 2022; the journal site returned 403).
 
 Searched in Spanish (initiative, Senate, poll, report and paper terms); no other bill or published poll found.
+
+Second pass (1 November 2026, polls): the Indesig study of June 2022 (a wealth tax on the richest 10%, rates 0.9% to 1.9%, about 373,083 million pesos or 1.51% of GDP, reported by IDC and El CEO) and its '8 in 10' support figure are known only from press; the study and its survey sheet were not found. An academic survey of 3,179 people in El Trimestre Económico (average support 47.6% for new taxes on high incomes; a temporary wealth tax the most popular) asks about taxes in general. Nothing listed.

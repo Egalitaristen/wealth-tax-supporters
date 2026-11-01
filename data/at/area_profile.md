@@ -102,3 +102,5 @@ Leads not yet listed:
 - The Momentum analysis "Vermögensteuer: So viel bringt sie" (cited in the evidence) returned 404 on its old address; find the current address and read it.
 - The AK study behind the A&W post ("Vermögenskonzentration in Österreich – Ein Update auf Basis des HFCS 2017", Heck, Kapeller, Wildauer) and the 2024 AK study by Heck, Hornykewycz, Kapeller and Wildauer, whose models the press reports at EUR 6 to 12 billion: read the studies themselves.
 - Polls known only from press or blog summaries, without the pollster's release or wording: the A&W Blog compilation of 2018 (Format, Österreich, Kurier, profil polls), the GPA poll (76%, inheritance and wealth tax from EUR 1 million together), the profil/Unique research poll (54%, inheritance and wealth together) and the SORA poll for Volkshilfe of August 2022 (78%, inheritance and wealth tax together).
+
+Second pass (1 November 2026): the motions found in the Nationalrat on wealth or inheritance taxes are the Greens' urgent motion on an inheritance tax (rejected) and a NEOS motion (Schellhorn) against both; no motion for a wealth tax itself was found on parlament.gv.at. Nothing listed.
