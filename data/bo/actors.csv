@@ -1,1 +1,7 @@
 actor_id,name,kind,actor_type,other_types,role,affiliation,party,affiliation_actor_id,country,level,location,geo_unit_id,location_source,wikidata_qid,website,status,alive_checked,prominence,notes,added_run,updated,refined
+A0001,Oxfam en Bolivia,organisation,ngo_campaign,,Anti-poverty NGO,,,,Bolivia,national,Bolivia,G0001,,,https://www.bolivia.oxfam.org,active,na,national,,R001,2026-11-01,
+A0002,"Comisión de Planificación, Política Económica y Finanzas (Cámara de Diputados)",organisation,government_body,,Committee of the Chamber of Deputies,,,,Bolivia,national,Bolivia,G0001,,,,active,na,national,,R001,2026-11-01,
+A0003,Luis Arce,person,politician,,President of Bolivia 2020 to 2025; promulgated Ley 1357,,Movement for Socialism,,Bolivia,national,Bolivia,G0001,,Q16149892,,former_role,y,international,,R001,2026-11-01,
+A0004,Evo Morales,person,politician,,Former President of Bolivia,,Movement for Socialism,,Bolivia,national,Bolivia,G0001,,Q42410,,former_role,y,international,,R001,2026-11-01,
+A0005,Movimiento al Socialismo,organisation,party,,Governing party 2006 to 2025,,,,Bolivia,national,Bolivia,G0001,,Q1142239,,active,na,national,,R001,2026-11-01,
+A0006,Asamblea Legislativa Plurinacional,organisation,government_body,,Bolivia's national legislature,,,,Bolivia,national,Bolivia,G0001,,,,active,na,national,,R001,2026-11-01,

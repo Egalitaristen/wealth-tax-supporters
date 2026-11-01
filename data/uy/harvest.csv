@@ -1,1 +1,3 @@
 harvest_id,title,list_type,url,date,est_size,status,actors_added,notes
+H0001,Cosponsors of the bill for a tax on the richest 1% promoted by Senator González,cosponsors,https://www.ambito.com/uruguay/el-partido-socialista-presiona-al-gobierno-e-insiste-implementar-el-impuesto-al-1-mas-rico-n6179466,,,queued,,Bill not found on parlamento.gub.uy.
+H0002,Members of the PIT-CNT consultative commission (authors of the surcharge report),report_authors,https://www.pitcnt.uy/sites/default/files/2025-11/IPPF.pdf,2025-11-24,9,done,9,Named in the report's first footnote.

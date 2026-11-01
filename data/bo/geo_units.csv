@@ -1,1 +1,462 @@
 geo_unit_id,name,level,unit_type,parent_id,website,sweep_status,swept_run,swept_date,queries_run,hits,notes,code
+G0001,Bolivia,national,country,,,pending,,,,,,
+G0002,Chuquisaca,region,departamento,G0001,,pending,,,,,,BO01
+G0003,La Paz,region,departamento,G0001,,pending,,,,,,BO02
+G0004,Cochabamba,region,departamento,G0001,,pending,,,,,,BO03
+G0005,Oruro,region,departamento,G0001,,pending,,,,,,BO04
+G0006,Potosí,region,departamento,G0001,,pending,,,,,,BO05
+G0007,Tarija,region,departamento,G0001,,pending,,,,,,BO06
+G0008,Santa Cruz,region,departamento,G0001,,pending,,,,,,BO07
+G0009,Beni,region,departamento,G0001,,pending,,,,,,BO08
+G0010,Pando,region,departamento,G0001,,pending,,,,,,BO09
+G0011,Oropeza,region,provincia,G0002,,pending,,,,,,BO0101
+G0012,Azurduy,region,provincia,G0002,,pending,,,,,,BO0102
+G0013,Zudáñez,region,provincia,G0002,,pending,,,,,,BO0103
+G0014,Tomina,region,provincia,G0002,,pending,,,,,,BO0104
+G0015,Hernando Siles,region,provincia,G0002,,pending,,,,,,BO0105
+G0016,Yamparáez,region,provincia,G0002,,pending,,,,,,BO0106
+G0017,Nor Cinti,region,provincia,G0002,,pending,,,,,,BO0107
+G0018,Belisario Boeto,region,provincia,G0002,,pending,,,,,,BO0108
+G0019,Sur Cinti,region,provincia,G0002,,pending,,,,,,BO0109
+G0020,Luis Calvo,region,provincia,G0002,,pending,,,,,,BO0110
+G0021,Murillo,region,provincia,G0003,,pending,,,,,,BO0201
+G0022,Omasuyos,region,provincia,G0003,,pending,,,,,,BO0202
+G0023,Pacajes,region,provincia,G0003,,pending,,,,,,BO0203
+G0024,Camacho,region,provincia,G0003,,pending,,,,,,BO0204
+G0025,Muñecas,region,provincia,G0003,,pending,,,,,,BO0205
+G0026,Larecaja,region,provincia,G0003,,pending,,,,,,BO0206
+G0027,Franz Tamayo,region,provincia,G0003,,pending,,,,,,BO0207
+G0028,Ingavi,region,provincia,G0003,,pending,,,,,,BO0208
+G0029,Loayza,region,provincia,G0003,,pending,,,,,,BO0209
+G0030,Inquisivi,region,provincia,G0003,,pending,,,,,,BO0210
+G0031,Sud Yungas,region,provincia,G0003,,pending,,,,,,BO0211
+G0032,Los Andes,region,provincia,G0003,,pending,,,,,,BO0212
+G0033,Aroma,region,provincia,G0003,,pending,,,,,,BO0213
+G0034,Nor Yungas,region,provincia,G0003,,pending,,,,,,BO0214
+G0035,Abel Iturralde,region,provincia,G0003,,pending,,,,,,BO0215
+G0036,Bautista Saavedra,region,provincia,G0003,,pending,,,,,,BO0216
+G0037,Manco Kapac,region,provincia,G0003,,pending,,,,,,BO0217
+G0038,Gualberto Villarroel,region,provincia,G0003,,pending,,,,,,BO0218
+G0039,General José Manuel Pando,region,provincia,G0003,,pending,,,,,,BO0219
+G0040,Caranavi,region,provincia,G0003,,pending,,,,,,BO0220
+G0041,Cercado,region,provincia,G0004,,pending,,,,,,BO0301
+G0042,Campero,region,provincia,G0004,,pending,,,,,,BO0302
+G0043,Ayopaya,region,provincia,G0004,,pending,,,,,,BO0303
+G0044,Esteban Arze,region,provincia,G0004,,pending,,,,,,BO0304
+G0045,Arani,region,provincia,G0004,,pending,,,,,,BO0305
+G0046,Arque,region,provincia,G0004,,pending,,,,,,BO0306
+G0047,Capinota,region,provincia,G0004,,pending,,,,,,BO0307
+G0048,Germán Jordán,region,provincia,G0004,,pending,,,,,,BO0308
+G0049,Quillacollo,region,provincia,G0004,,pending,,,,,,BO0309
+G0050,Chapare,region,provincia,G0004,,pending,,,,,,BO0310
+G0051,Tapacarí,region,provincia,G0004,,pending,,,,,,BO0311
+G0052,Carrasco,region,provincia,G0004,,pending,,,,,,BO0312
+G0053,Mizque,region,provincia,G0004,,pending,,,,,,BO0313
+G0054,Punata,region,provincia,G0004,,pending,,,,,,BO0314
+G0055,Bolivar,region,provincia,G0004,,pending,,,,,,BO0315
+G0056,Tiraque,region,provincia,G0004,,pending,,,,,,BO0316
+G0057,Cercado,region,provincia,G0005,,pending,,,,,,BO0401
+G0058,Abaroa,region,provincia,G0005,,pending,,,,,,BO0402
+G0059,Carangas,region,provincia,G0005,,pending,,,,,,BO0403
+G0060,Sajama,region,provincia,G0005,,pending,,,,,,BO0404
+G0061,Litoral,region,provincia,G0005,,pending,,,,,,BO0405
+G0062,Poopó,region,provincia,G0005,,pending,,,,,,BO0406
+G0063,Pantaleón Dalence,region,provincia,G0005,,pending,,,,,,BO0407
+G0064,Ladislao Cabrera,region,provincia,G0005,,pending,,,,,,BO0408
+G0065,Sabaya,region,provincia,G0005,,pending,,,,,,BO0409
+G0066,Saucarí,region,provincia,G0005,,pending,,,,,,BO0410
+G0067,Tomás Barrón,region,provincia,G0005,,pending,,,,,,BO0411
+G0068,Sur Carangas,region,provincia,G0005,,pending,,,,,,BO0412
+G0069,San Pedro de Totora,region,provincia,G0005,,pending,,,,,,BO0413
+G0070,Sebastián Pagador,region,provincia,G0005,,pending,,,,,,BO0414
+G0071,Mejillones,region,provincia,G0005,,pending,,,,,,BO0415
+G0072,Nor Carangas,region,provincia,G0005,,pending,,,,,,BO0416
+G0073,Tomás Frías,region,provincia,G0006,,pending,,,,,,BO0501
+G0074,Rafael Bustillo,region,provincia,G0006,,pending,,,,,,BO0502
+G0075,Cornelio Saavedra,region,provincia,G0006,,pending,,,,,,BO0503
+G0076,Chayanta,region,provincia,G0006,,pending,,,,,,BO0504
+G0077,Chárcas,region,provincia,G0006,,pending,,,,,,BO0505
+G0078,Nor Chichas,region,provincia,G0006,,pending,,,,,,BO0506
+G0079,Alonso de Ibáñez,region,provincia,G0006,,pending,,,,,,BO0507
+G0080,Sur Chichas,region,provincia,G0006,,pending,,,,,,BO0508
+G0081,Nor Lipez,region,provincia,G0006,,pending,,,,,,BO0509
+G0082,Sur Lipez,region,provincia,G0006,,pending,,,,,,BO0510
+G0083,José María Linares,region,provincia,G0006,,pending,,,,,,BO0511
+G0084,Antonio Quijarro,region,provincia,G0006,,pending,,,,,,BO0512
+G0085,General Bilbao,region,provincia,G0006,,pending,,,,,,BO0513
+G0086,Daniel Campos,region,provincia,G0006,,pending,,,,,,BO0514
+G0087,Modesto Omiste,region,provincia,G0006,,pending,,,,,,BO0515
+G0088,Enrique Baldivieso,region,provincia,G0006,,pending,,,,,,BO0516
+G0089,Cercado,region,provincia,G0007,,pending,,,,,,BO0601
+G0090,Arce,region,provincia,G0007,,pending,,,,,,BO0602
+G0091,Gran Chaco,region,provincia,G0007,,pending,,,,,,BO0603
+G0092,Avilés,region,provincia,G0007,,pending,,,,,,BO0604
+G0093,Méndez,region,provincia,G0007,,pending,,,,,,BO0605
+G0094,O'Connor,region,provincia,G0007,,pending,,,,,,BO0606
+G0095,Andrés Ibáñez,region,provincia,G0008,,pending,,,,,,BO0701
+G0096,Warnes,region,provincia,G0008,,pending,,,,,,BO0702
+G0097,Velasco,region,provincia,G0008,,pending,,,,,,BO0703
+G0098,Ichilo,region,provincia,G0008,,pending,,,,,,BO0704
+G0099,Chiquitos,region,provincia,G0008,,pending,,,,,,BO0705
+G0100,Sara,region,provincia,G0008,,pending,,,,,,BO0706
+G0101,Cordillera,region,provincia,G0008,,pending,,,,,,BO0707
+G0102,Vallegrande,region,provincia,G0008,,pending,,,,,,BO0708
+G0103,Florida,region,provincia,G0008,,pending,,,,,,BO0709
+G0104,Obispo Santistéban,region,provincia,G0008,,pending,,,,,,BO0710
+G0105,Ñuflo De Chávez,region,provincia,G0008,,pending,,,,,,BO0711
+G0106,Angel Sandoval,region,provincia,G0008,,pending,,,,,,BO0712
+G0107,Manuel María Caballero,region,provincia,G0008,,pending,,,,,,BO0713
+G0108,Germán Busch,region,provincia,G0008,,pending,,,,,,BO0714
+G0109,Guarayos,region,provincia,G0008,,pending,,,,,,BO0715
+G0110,Cercado,region,provincia,G0009,,pending,,,,,,BO0801
+G0111,Vaca Diez,region,provincia,G0009,,pending,,,,,,BO0802
+G0112,General José Ballivián,region,provincia,G0009,,pending,,,,,,BO0803
+G0113,Yacuma,region,provincia,G0009,,pending,,,,,,BO0804
+G0114,Moxos,region,provincia,G0009,,pending,,,,,,BO0805
+G0115,Marbán,region,provincia,G0009,,pending,,,,,,BO0806
+G0116,Mamoré,region,provincia,G0009,,pending,,,,,,BO0807
+G0117,Iténez,region,provincia,G0009,,pending,,,,,,BO0808
+G0118,Nicolás Suárez,region,provincia,G0010,,pending,,,,,,BO0901
+G0119,Manuripi,region,provincia,G0010,,pending,,,,,,BO0902
+G0120,Madre de Dios,region,provincia,G0010,,pending,,,,,,BO0903
+G0121,Abuná,region,provincia,G0010,,pending,,,,,,BO0904
+G0122,Federico Román,region,provincia,G0010,,pending,,,,,,BO0905
+G0123,Sucre,council,municipio,G0011,,pending,,,,,,BO010101
+G0124,Yotala,council,municipio,G0011,,pending,,,,,,BO010102
+G0125,Poroma,council,municipio,G0011,,pending,,,,,,BO010103
+G0126,Azurduy,council,municipio,G0012,,pending,,,,,,BO010201
+G0127,Tarvita,council,municipio,G0012,,pending,,,,,,BO010202
+G0128,Zudañez,council,municipio,G0013,,pending,,,,,,BO010301
+G0129,Presto,council,municipio,G0013,,pending,,,,,,BO010302
+G0130,Mojocoya,council,municipio,G0013,,pending,,,,,,BO010303
+G0131,Villa Ricardo Mugia - Icla,council,municipio,G0013,,pending,,,,,,BO010304
+G0132,Padilla,council,municipio,G0014,,pending,,,,,,BO010401
+G0133,Tomina,council,municipio,G0014,,pending,,,,,,BO010402
+G0134,Sopachui,council,municipio,G0014,,pending,,,,,,BO010403
+G0135,Alcalá,council,municipio,G0014,,pending,,,,,,BO010404
+G0136,El Villar,council,municipio,G0014,,pending,,,,,,BO010405
+G0137,Monteagudo,council,municipio,G0015,,pending,,,,,,BO010501
+G0138,Huacareta,council,municipio,G0015,,pending,,,,,,BO010502
+G0139,Tarabuco,council,municipio,G0016,,pending,,,,,,BO010601
+G0140,Yamparáez,council,municipio,G0016,,pending,,,,,,BO010602
+G0141,Camargo,council,municipio,G0017,,pending,,,,,,BO010701
+G0142,San Lucas,council,municipio,G0017,,pending,,,,,,BO010702
+G0143,Incahuasi,council,municipio,G0017,,pending,,,,,,BO010703
+G0144,Villa Charcas,council,municipio,G0017,,pending,,,,,,BO010704
+G0145,Villa Serrano,council,municipio,G0018,,pending,,,,,,BO010801
+G0146,Villa Abecia,council,municipio,G0019,,pending,,,,,,BO010901
+G0147,Culpina,council,municipio,G0019,,pending,,,,,,BO010902
+G0148,Las Carreras,council,municipio,G0019,,pending,,,,,,BO010903
+G0149,Villa Vaca Guzmán,council,municipio,G0020,,pending,,,,,,BO011001
+G0150,Huacaya,council,municipio,G0020,,pending,,,,,,BO011002
+G0151,Macharetí,council,municipio,G0020,,pending,,,,,,BO011003
+G0152,Nuestra Señora de La Paz,council,municipio,G0021,,pending,,,,,,BO020101
+G0153,Palca,council,municipio,G0021,,pending,,,,,,BO020102
+G0154,Mecapaca,council,municipio,G0021,,pending,,,,,,BO020103
+G0155,Achocalla,council,municipio,G0021,,pending,,,,,,BO020104
+G0156,El Alto,council,municipio,G0021,,pending,,,,,,BO020105
+G0157,Achacachi,council,municipio,G0022,,pending,,,,,,BO020201
+G0158,Villa Ancoraimes,council,municipio,G0022,,pending,,,,,,BO020202
+G0159,Huarina,council,municipio,G0022,,pending,,,,,,BO020203
+G0160,Santiago de Huata,council,municipio,G0022,,pending,,,,,,BO020204
+G0161,Huatajata,council,municipio,G0022,,pending,,,,,,BO020205
+G0162,Chua Cocani,council,municipio,G0022,,pending,,,,,,BO020206
+G0163,Corocoro,council,municipio,G0023,,pending,,,,,,BO020301
+G0164,Caquiaviri,council,municipio,G0023,,pending,,,,,,BO020302
+G0165,Calacoto,council,municipio,G0023,,pending,,,,,,BO020303
+G0166,Comanche,council,municipio,G0023,,pending,,,,,,BO020304
+G0167,Charaña,council,municipio,G0023,,pending,,,,,,BO020305
+G0168,Waldo Ballivian,council,municipio,G0023,,pending,,,,,,BO020306
+G0169,Nazacara de Pacajes,council,municipio,G0023,,pending,,,,,,BO020307
+G0170,Santiago de Callapa,council,municipio,G0023,,pending,,,,,,BO020308
+G0171,Puerto Acosta,council,municipio,G0024,,pending,,,,,,BO020401
+G0172,Mocomoco,council,municipio,G0024,,pending,,,,,,BO020402
+G0173,Puerto Mayor de Carabuco,council,municipio,G0024,,pending,,,,,,BO020403
+G0174,Humanata,council,municipio,G0024,,pending,,,,,,BO020404
+G0175,Escoma,council,municipio,G0024,,pending,,,,,,BO020405
+G0176,Chuma,council,municipio,G0025,,pending,,,,,,BO020501
+G0177,Ayata,council,municipio,G0025,,pending,,,,,,BO020502
+G0178,Aucapata,council,municipio,G0025,,pending,,,,,,BO020503
+G0179,Sorata,council,municipio,G0026,,pending,,,,,,BO020601
+G0180,Guanay,council,municipio,G0026,,pending,,,,,,BO020602
+G0181,Tacacoma,council,municipio,G0026,,pending,,,,,,BO020603
+G0182,Quiabaya,council,municipio,G0026,,pending,,,,,,BO020604
+G0183,Combaya,council,municipio,G0026,,pending,,,,,,BO020605
+G0184,Tipuani,council,municipio,G0026,,pending,,,,,,BO020606
+G0185,Mapiri,council,municipio,G0026,,pending,,,,,,BO020607
+G0186,Teoponte,council,municipio,G0026,,pending,,,,,,BO020608
+G0187,Apolo,council,municipio,G0027,,pending,,,,,,BO020701
+G0188,Pelechuco,council,municipio,G0027,,pending,,,,,,BO020702
+G0189,Viacha,council,municipio,G0028,,pending,,,,,,BO020801
+G0190,Puerto Mayor de Guaqui,council,municipio,G0028,,pending,,,,,,BO020802
+G0191,Tiahuanacu,council,municipio,G0028,,pending,,,,,,BO020803
+G0192,Desaguadero,council,municipio,G0028,,pending,,,,,,BO020804
+G0193,La (Marka) San Andrés de Machaca,council,municipio,G0028,,pending,,,,,,BO020805
+G0194,Jesús de Machaka,council,municipio,G0028,,pending,,,,,,BO020806
+G0195,Taraco,council,municipio,G0028,,pending,,,,,,BO020807
+G0196,Luribay,council,municipio,G0029,,pending,,,,,,BO020901
+G0197,Sapahaqui,council,municipio,G0029,,pending,,,,,,BO020902
+G0198,Yaco,council,municipio,G0029,,pending,,,,,,BO020903
+G0199,Malla,council,municipio,G0029,,pending,,,,,,BO020904
+G0200,Cairoma,council,municipio,G0029,,pending,,,,,,BO020905
+G0201,Inquisivi,council,municipio,G0030,,pending,,,,,,BO021001
+G0202,Quime,council,municipio,G0030,,pending,,,,,,BO021002
+G0203,Cajuata,council,municipio,G0030,,pending,,,,,,BO021003
+G0204,Colquiri,council,municipio,G0030,,pending,,,,,,BO021004
+G0205,Ichoca,council,municipio,G0030,,pending,,,,,,BO021005
+G0206,Villa Libertad Licoma,council,municipio,G0030,,pending,,,,,,BO021006
+G0207,Chulumani,council,municipio,G0031,,pending,,,,,,BO021101
+G0208,Irupana,council,municipio,G0031,,pending,,,,,,BO021102
+G0209,Yanacachi,council,municipio,G0031,,pending,,,,,,BO021103
+G0210,Palos Blancos,council,municipio,G0031,,pending,,,,,,BO021104
+G0211,La Asunta,council,municipio,G0031,,pending,,,,,,BO021105
+G0212,Pucarani,council,municipio,G0032,,pending,,,,,,BO021201
+G0213,Laja,council,municipio,G0032,,pending,,,,,,BO021202
+G0214,Batallas,council,municipio,G0032,,pending,,,,,,BO021203
+G0215,Puerto Pérez,council,municipio,G0032,,pending,,,,,,BO021204
+G0216,Sicasica,council,municipio,G0033,,pending,,,,,,BO021301
+G0217,Umala,council,municipio,G0033,,pending,,,,,,BO021302
+G0218,Ayo Ayo,council,municipio,G0033,,pending,,,,,,BO021303
+G0219,Calamarca,council,municipio,G0033,,pending,,,,,,BO021304
+G0220,Patacamaya,council,municipio,G0033,,pending,,,,,,BO021305
+G0221,Colquencha,council,municipio,G0033,,pending,,,,,,BO021306
+G0222,Collana,council,municipio,G0033,,pending,,,,,,BO021307
+G0223,Coroico,council,municipio,G0034,,pending,,,,,,BO021401
+G0224,Coripata,council,municipio,G0034,,pending,,,,,,BO021402
+G0225,Ixiamas,council,municipio,G0035,,pending,,,,,,BO021501
+G0226,San Buenaventura,council,municipio,G0035,,pending,,,,,,BO021502
+G0227,Charazani,council,municipio,G0036,,pending,,,,,,BO021601
+G0228,Curva,council,municipio,G0036,,pending,,,,,,BO021602
+G0229,Copacabana,council,municipio,G0037,,pending,,,,,,BO021701
+G0230,San Pedro de Tiquina,council,municipio,G0037,,pending,,,,,,BO021702
+G0231,Tito Yupanqui,council,municipio,G0037,,pending,,,,,,BO021703
+G0232,San Pedro de Curahuara,council,municipio,G0038,,pending,,,,,,BO021801
+G0233,Papel Pampa,council,municipio,G0038,,pending,,,,,,BO021802
+G0234,Chacarilla,council,municipio,G0038,,pending,,,,,,BO021803
+G0235,Santiago de Machaca,council,municipio,G0039,,pending,,,,,,BO021901
+G0236,Catacora,council,municipio,G0039,,pending,,,,,,BO021902
+G0237,Caranavi,council,municipio,G0040,,pending,,,,,,BO022001
+G0238,Alto Beni,council,municipio,G0040,,pending,,,,,,BO022002
+G0239,Cochabamba,council,municipio,G0041,,pending,,,,,,BO030101
+G0240,Aiquile,council,municipio,G0042,,pending,,,,,,BO030201
+G0241,Pasorapa,council,municipio,G0042,,pending,,,,,,BO030202
+G0242,Omereque,council,municipio,G0042,,pending,,,,,,BO030203
+G0243,Ayopaya,council,municipio,G0043,,pending,,,,,,BO030301
+G0244,Morochata,council,municipio,G0043,,pending,,,,,,BO030302
+G0245,Cocapata,council,municipio,G0043,,pending,,,,,,BO030303
+G0246,Tarata,council,municipio,G0044,,pending,,,,,,BO030401
+G0247,Anzaldo,council,municipio,G0044,,pending,,,,,,BO030402
+G0248,Arbieto,council,municipio,G0044,,pending,,,,,,BO030403
+G0249,Sacabamba,council,municipio,G0044,,pending,,,,,,BO030404
+G0250,Arani,council,municipio,G0045,,pending,,,,,,BO030501
+G0251,Vacas,council,municipio,G0045,,pending,,,,,,BO030502
+G0252,Arque,council,municipio,G0046,,pending,,,,,,BO030601
+G0253,Tacopaya,council,municipio,G0046,,pending,,,,,,BO030602
+G0254,Capinota,council,municipio,G0047,,pending,,,,,,BO030701
+G0255,Santivañez,council,municipio,G0047,,pending,,,,,,BO030702
+G0256,Sicaya,council,municipio,G0047,,pending,,,,,,BO030703
+G0257,Cliza,council,municipio,G0048,,pending,,,,,,BO030801
+G0258,Toco,council,municipio,G0048,,pending,,,,,,BO030802
+G0259,Tolata,council,municipio,G0048,,pending,,,,,,BO030803
+G0260,Quillacollo,council,municipio,G0049,,pending,,,,,,BO030901
+G0261,Sipesipe,council,municipio,G0049,,pending,,,,,,BO030902
+G0262,Tiquipaya,council,municipio,G0049,,pending,,,,,,BO030903
+G0263,Vinto,council,municipio,G0049,,pending,,,,,,BO030904
+G0264,Colcapirhua,council,municipio,G0049,,pending,,,,,,BO030905
+G0265,Sacaba,council,municipio,G0050,,pending,,,,,,BO031001
+G0266,Colomi,council,municipio,G0050,,pending,,,,,,BO031002
+G0267,Villa Tunari,council,municipio,G0050,,pending,,,,,,BO031003
+G0268,Tapacarí,council,municipio,G0051,,pending,,,,,,BO031101
+G0269,Totora,council,municipio,G0052,,pending,,,,,,BO031201
+G0270,Pojo,council,municipio,G0052,,pending,,,,,,BO031202
+G0271,Pocona,council,municipio,G0052,,pending,,,,,,BO031203
+G0272,Chimoré,council,municipio,G0052,,pending,,,,,,BO031204
+G0273,Puerto Villarroel,council,municipio,G0052,,pending,,,,,,BO031205
+G0274,Entre Ríos,council,municipio,G0052,,pending,,,,,,BO031206
+G0275,Mizque,council,municipio,G0053,,pending,,,,,,BO031301
+G0276,Vila Vila,council,municipio,G0053,,pending,,,,,,BO031302
+G0277,Alalay,council,municipio,G0053,,pending,,,,,,BO031303
+G0278,Punata,council,municipio,G0054,,pending,,,,,,BO031401
+G0279,Villa Rivero,council,municipio,G0054,,pending,,,,,,BO031402
+G0280,San Benito,council,municipio,G0054,,pending,,,,,,BO031403
+G0281,Tacachi,council,municipio,G0054,,pending,,,,,,BO031404
+G0282,Villa Gualberto Villarroel,council,municipio,G0054,,pending,,,,,,BO031405
+G0283,Bolivar,council,municipio,G0055,,pending,,,,,,BO031501
+G0284,Tiraque,council,municipio,G0056,,pending,,,,,,BO031601
+G0285,Shinahota,council,municipio,G0056,,pending,,,,,,BO031602
+G0286,Oruro,council,municipio,G0057,,pending,,,,,,BO040101
+G0287,Caracollo,council,municipio,G0057,,pending,,,,,,BO040102
+G0288,El Choro,council,municipio,G0057,,pending,,,,,,BO040103
+G0289,Paria,council,municipio,G0057,,pending,,,,,,BO040104
+G0290,Challapata,council,municipio,G0058,,pending,,,,,,BO040201
+G0291,Santuario de Quillacas,council,municipio,G0058,,pending,,,,,,BO040202
+G0292,Corque,council,municipio,G0059,,pending,,,,,,BO040301
+G0293,Choquecota,council,municipio,G0059,,pending,,,,,,BO040302
+G0294,Curahuara de Carangas,council,municipio,G0060,,pending,,,,,,BO040401
+G0295,Turco,council,municipio,G0060,,pending,,,,,,BO040402
+G0296,Huachacalla,council,municipio,G0061,,pending,,,,,,BO040501
+G0297,Escara,council,municipio,G0061,,pending,,,,,,BO040502
+G0298,Cruz de Machacamarca,council,municipio,G0061,,pending,,,,,,BO040503
+G0299,Yunguyo del Litoral,council,municipio,G0061,,pending,,,,,,BO040504
+G0300,Esmeralda,council,municipio,G0061,,pending,,,,,,BO040505
+G0301,Poopó,council,municipio,G0062,,pending,,,,,,BO040601
+G0302,Pazña,council,municipio,G0062,,pending,,,,,,BO040602
+G0303,Antequera,council,municipio,G0062,,pending,,,,,,BO040603
+G0304,Huanuni,council,municipio,G0063,,pending,,,,,,BO040701
+G0305,Machacamarca,council,municipio,G0063,,pending,,,,,,BO040702
+G0306,Salinas de Garcí Mendoza,council,municipio,G0064,,pending,,,,,,BO040801
+G0307,Pampa Aullagas,council,municipio,G0064,,pending,,,,,,BO040802
+G0308,Sabaya,council,municipio,G0065,,pending,,,,,,BO040901
+G0309,Coipasa,council,municipio,G0065,,pending,,,,,,BO040902
+G0310,Chipaya,council,municipio,G0065,,pending,,,,,,BO040903
+G0311,Toledo,council,municipio,G0066,,pending,,,,,,BO041001
+G0312,Eucaliptus,council,municipio,G0067,,pending,,,,,,BO041101
+G0313,Andamarca,council,municipio,G0068,,pending,,,,,,BO041201
+G0314,Belén de Andamarca,council,municipio,G0068,,pending,,,,,,BO041202
+G0315,Totora,council,municipio,G0069,,pending,,,,,,BO041301
+G0316,Santiago de Huari,council,municipio,G0070,,pending,,,,,,BO041401
+G0317,La Rivera,council,municipio,G0071,,pending,,,,,,BO041501
+G0318,Todos Santos,council,municipio,G0071,,pending,,,,,,BO041502
+G0319,Carangas,council,municipio,G0071,,pending,,,,,,BO041503
+G0320,Huayllamarca,council,municipio,G0072,,pending,,,,,,BO041601
+G0321,Potosí,council,municipio,G0073,,pending,,,,,,BO050101
+G0322,Tinguipaya,council,municipio,G0073,,pending,,,,,,BO050102
+G0323,Yocalla,council,municipio,G0073,,pending,,,,,,BO050103
+G0324,Urmiri,council,municipio,G0073,,pending,,,,,,BO050104
+G0325,Uncía,council,municipio,G0074,,pending,,,,,,BO050201
+G0326,Chayanta,council,municipio,G0074,,pending,,,,,,BO050202
+G0327,Llallagua,council,municipio,G0074,,pending,,,,,,BO050203
+G0328,Chuquihuta Ayllu Jucumani,council,municipio,G0074,,pending,,,,,,BO050204
+G0329,Betanzos,council,municipio,G0075,,pending,,,,,,BO050301
+G0330,Chaquí,council,municipio,G0075,,pending,,,,,,BO050302
+G0331,Tacobamba,council,municipio,G0075,,pending,,,,,,BO050303
+G0332,Colquechaca,council,municipio,G0076,,pending,,,,,,BO050401
+G0333,Ravelo,council,municipio,G0076,,pending,,,,,,BO050402
+G0334,Pocoata,council,municipio,G0076,,pending,,,,,,BO050403
+G0335,Ocurí,council,municipio,G0076,,pending,,,,,,BO050404
+G0336,San Pedro,council,municipio,G0077,,pending,,,,,,BO050501
+G0337,Toro Toro,council,municipio,G0077,,pending,,,,,,BO050502
+G0338,Cotagaita,council,municipio,G0078,,pending,,,,,,BO050601
+G0339,Vitiche,council,municipio,G0078,,pending,,,,,,BO050602
+G0340,Sacaca,council,municipio,G0079,,pending,,,,,,BO050701
+G0341,Caripuyo,council,municipio,G0079,,pending,,,,,,BO050702
+G0342,Tupiza,council,municipio,G0080,,pending,,,,,,BO050801
+G0343,Atocha,council,municipio,G0080,,pending,,,,,,BO050802
+G0344,"Colcha ""K""",council,municipio,G0081,,pending,,,,,,BO050901
+G0345,San Pedro de Quemes,council,municipio,G0081,,pending,,,,,,BO050902
+G0346,San Pablo,council,municipio,G0082,,pending,,,,,,BO051001
+G0347,Mojinete,council,municipio,G0082,,pending,,,,,,BO051002
+G0348,San Antonio de Esmoruco,council,municipio,G0082,,pending,,,,,,BO051003
+G0349,Puna,council,municipio,G0083,,pending,,,,,,BO051101
+G0350,"Caiza ""D""",council,municipio,G0083,,pending,,,,,,BO051102
+G0351,Ckochas,council,municipio,G0083,,pending,,,,,,BO051103
+G0352,Uyuni,council,municipio,G0084,,pending,,,,,,BO051201
+G0353,Tomave,council,municipio,G0084,,pending,,,,,,BO051202
+G0354,Porco,council,municipio,G0084,,pending,,,,,,BO051203
+G0355,Arampampa,council,municipio,G0085,,pending,,,,,,BO051301
+G0356,Acasio,council,municipio,G0085,,pending,,,,,,BO051302
+G0357,Llica,council,municipio,G0086,,pending,,,,,,BO051401
+G0358,Tahua,council,municipio,G0086,,pending,,,,,,BO051402
+G0359,Villazón,council,municipio,G0087,,pending,,,,,,BO051501
+G0360,San Agustín,council,municipio,G0088,,pending,,,,,,BO051601
+G0361,Tarija,council,municipio,G0089,,pending,,,,,,BO060101
+G0362,Padcaya,council,municipio,G0090,,pending,,,,,,BO060201
+G0363,Bermejo,council,municipio,G0090,,pending,,,,,,BO060202
+G0364,Yacuiba,council,municipio,G0091,,pending,,,,,,BO060301
+G0365,Caraparí,council,municipio,G0091,,pending,,,,,,BO060302
+G0366,Villa Montes,council,municipio,G0091,,pending,,,,,,BO060303
+G0367,Uriondo,council,municipio,G0092,,pending,,,,,,BO060401
+G0368,Yunchará,council,municipio,G0092,,pending,,,,,,BO060402
+G0369,San Lorenzo,council,municipio,G0093,,pending,,,,,,BO060501
+G0370,El Puente,council,municipio,G0093,,pending,,,,,,BO060502
+G0371,Entre Ríos,council,municipio,G0094,,pending,,,,,,BO060601
+G0372,Santa Cruz de la Sierra,council,municipio,G0095,,pending,,,,,,BO070101
+G0373,Cotoca,council,municipio,G0095,,pending,,,,,,BO070102
+G0374,Porongo,council,municipio,G0095,,pending,,,,,,BO070103
+G0375,La Guardia,council,municipio,G0095,,pending,,,,,,BO070104
+G0376,El Torno,council,municipio,G0095,,pending,,,,,,BO070105
+G0377,Warnes,council,municipio,G0096,,pending,,,,,,BO070201
+G0378,Okinawa Uno,council,municipio,G0096,,pending,,,,,,BO070202
+G0379,San Ignacio,council,municipio,G0097,,pending,,,,,,BO070301
+G0380,San Miguel,council,municipio,G0097,,pending,,,,,,BO070302
+G0381,San Rafael,council,municipio,G0097,,pending,,,,,,BO070303
+G0382,Buena Vista,council,municipio,G0098,,pending,,,,,,BO070401
+G0383,San Carlos,council,municipio,G0098,,pending,,,,,,BO070402
+G0384,Yapacaní,council,municipio,G0098,,pending,,,,,,BO070403
+G0385,San Juan,council,municipio,G0098,,pending,,,,,,BO070404
+G0386,San José,council,municipio,G0099,,pending,,,,,,BO070501
+G0387,Pailón,council,municipio,G0099,,pending,,,,,,BO070502
+G0388,Roboré,council,municipio,G0099,,pending,,,,,,BO070503
+G0389,Portachuelo,council,municipio,G0100,,pending,,,,,,BO070601
+G0390,Santa Rosa,council,municipio,G0100,,pending,,,,,,BO070602
+G0391,Colpa Bélgica,council,municipio,G0100,,pending,,,,,,BO070603
+G0392,Lagunillas,council,municipio,G0101,,pending,,,,,,BO070701
+G0393,Charagua,council,municipio,G0101,,pending,,,,,,BO070702
+G0394,Cabezas,council,municipio,G0101,,pending,,,,,,BO070703
+G0395,Cuevo,council,municipio,G0101,,pending,,,,,,BO070704
+G0396,Gutiérrez,council,municipio,G0101,,pending,,,,,,BO070705
+G0397,Camiri,council,municipio,G0101,,pending,,,,,,BO070706
+G0398,Boyuibe,council,municipio,G0101,,pending,,,,,,BO070707
+G0399,Vallegrande,council,municipio,G0102,,pending,,,,,,BO070801
+G0400,Trigal,council,municipio,G0102,,pending,,,,,,BO070802
+G0401,Moromoro,council,municipio,G0102,,pending,,,,,,BO070803
+G0402,Postrervalle,council,municipio,G0102,,pending,,,,,,BO070804
+G0403,Pucará,council,municipio,G0102,,pending,,,,,,BO070805
+G0404,Samaipata,council,municipio,G0103,,pending,,,,,,BO070901
+G0405,Pampa Grande,council,municipio,G0103,,pending,,,,,,BO070902
+G0406,Mairana,council,municipio,G0103,,pending,,,,,,BO070903
+G0407,Quirusillas,council,municipio,G0103,,pending,,,,,,BO070904
+G0408,Montero,council,municipio,G0104,,pending,,,,,,BO071001
+G0409,General Saavedra,council,municipio,G0104,,pending,,,,,,BO071002
+G0410,Mineros,council,municipio,G0104,,pending,,,,,,BO071003
+G0411,Fernández Alonso,council,municipio,G0104,,pending,,,,,,BO071004
+G0412,San Pedro,council,municipio,G0104,,pending,,,,,,BO071005
+G0413,Concepción,council,municipio,G0105,,pending,,,,,,BO071101
+G0414,San Javier,council,municipio,G0105,,pending,,,,,,BO071102
+G0415,San Julián,council,municipio,G0105,,pending,,,,,,BO071103
+G0416,San Antonio de Lomerio,council,municipio,G0105,,pending,,,,,,BO071104
+G0417,San Ramón,council,municipio,G0105,,pending,,,,,,BO071105
+G0418,Cuatro Cañadas,council,municipio,G0105,,pending,,,,,,BO071106
+G0419,San Matías,council,municipio,G0106,,pending,,,,,,BO071201
+G0420,Comarapa,council,municipio,G0107,,pending,,,,,,BO071301
+G0421,Saipina,council,municipio,G0107,,pending,,,,,,BO071302
+G0422,Puerto Suarez,council,municipio,G0108,,pending,,,,,,BO071401
+G0423,Puerto Quijarro,council,municipio,G0108,,pending,,,,,,BO071402
+G0424,El Carmen Rivero Tórrez,council,municipio,G0108,,pending,,,,,,BO071403
+G0425,Ascención de Guarayos,council,municipio,G0109,,pending,,,,,,BO071501
+G0426,Urubicha,council,municipio,G0109,,pending,,,,,,BO071502
+G0427,El Puente,council,municipio,G0109,,pending,,,,,,BO071503
+G0428,Trinidad,council,municipio,G0110,,pending,,,,,,BO080101
+G0429,San Javier,council,municipio,G0110,,pending,,,,,,BO080102
+G0430,Riberalta,council,municipio,G0111,,pending,,,,,,BO080201
+G0431,Guayaramerín,council,municipio,G0111,,pending,,,,,,BO080202
+G0432,Reyes,council,municipio,G0112,,pending,,,,,,BO080301
+G0433,San Borja,council,municipio,G0112,,pending,,,,,,BO080302
+G0434,Santa Rosa,council,municipio,G0112,,pending,,,,,,BO080303
+G0435,Puerto Menor de Rurrenabaque,council,municipio,G0112,,pending,,,,,,BO080304
+G0436,Santa Ana,council,municipio,G0113,,pending,,,,,,BO080401
+G0437,Exaltación,council,municipio,G0113,,pending,,,,,,BO080402
+G0438,San Ignacio,council,municipio,G0114,,pending,,,,,,BO080501
+G0439,Loreto,council,municipio,G0115,,pending,,,,,,BO080601
+G0440,San Andrés,council,municipio,G0115,,pending,,,,,,BO080602
+G0441,San Joaquín,council,municipio,G0116,,pending,,,,,,BO080701
+G0442,San Ramón,council,municipio,G0116,,pending,,,,,,BO080702
+G0443,Puerto Siles,council,municipio,G0116,,pending,,,,,,BO080703
+G0444,Magdalena,council,municipio,G0117,,pending,,,,,,BO080801
+G0445,Baures,council,municipio,G0117,,pending,,,,,,BO080802
+G0446,Huacaraje,council,municipio,G0117,,pending,,,,,,BO080803
+G0447,Cobija,council,municipio,G0118,,pending,,,,,,BO090101
+G0448,Porvenir,council,municipio,G0118,,pending,,,,,,BO090102
+G0449,Bolpebra,council,municipio,G0118,,pending,,,,,,BO090103
+G0450,Bella Flor,council,municipio,G0118,,pending,,,,,,BO090104
+G0451,Puerto Rico,council,municipio,G0119,,pending,,,,,,BO090201
+G0452,San Pedro,council,municipio,G0119,,pending,,,,,,BO090202
+G0453,Filadelfia,council,municipio,G0119,,pending,,,,,,BO090203
+G0454,Puerto Gonzalo Moreno,council,municipio,G0120,,pending,,,,,,BO090301
+G0455,San Lorenzo,council,municipio,G0120,,pending,,,,,,BO090302
+G0456,Sena,council,municipio,G0120,,pending,,,,,,BO090303
+G0457,Santa Rosa,council,municipio,G0121,,pending,,,,,,BO090401
+G0458,Ingavi,council,municipio,G0121,,pending,,,,,,BO090402
+G0459,Nueva Esperanza,council,municipio,G0122,,pending,,,,,,BO090501
+G0460,Villa Nueva,council,municipio,G0122,,pending,,,,,,BO090502
+G0461,Santos Mercado,council,municipio,G0122,,pending,,,,,,BO090503

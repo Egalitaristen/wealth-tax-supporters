@@ -1,1 +1,21 @@
 geo_unit_id,name,level,unit_type,parent_id,website,sweep_status,swept_run,swept_date,queries_run,hits,notes,code
+G0001,Uruguay,national,country,,,pending,,,,,,
+G0002,Artigas,council,departamento (intendencia),G0001,,pending,,,,,,UY01
+G0003,Canelones,council,departamento (intendencia),G0001,,pending,,,,,,UY02
+G0004,Cerro Largo,council,departamento (intendencia),G0001,,pending,,,,,,UY03
+G0005,Colonia,council,departamento (intendencia),G0001,,pending,,,,,,UY04
+G0006,Durazno,council,departamento (intendencia),G0001,,pending,,,,,,UY05
+G0007,Flores,council,departamento (intendencia),G0001,,pending,,,,,,UY06
+G0008,Florida,council,departamento (intendencia),G0001,,pending,,,,,,UY07
+G0009,Lavalleja,council,departamento (intendencia),G0001,,pending,,,,,,UY08
+G0010,Maldonado,council,departamento (intendencia),G0001,,pending,,,,,,UY09
+G0011,Montevideo,council,departamento (intendencia),G0001,,pending,,,,,,UY10
+G0012,Paysandú,council,departamento (intendencia),G0001,,pending,,,,,,UY11
+G0013,Río Negro,council,departamento (intendencia),G0001,,pending,,,,,,UY12
+G0014,Rivera,council,departamento (intendencia),G0001,,pending,,,,,,UY13
+G0015,Rocha,council,departamento (intendencia),G0001,,pending,,,,,,UY14
+G0016,Salto,council,departamento (intendencia),G0001,,pending,,,,,,UY15
+G0017,San José,council,departamento (intendencia),G0001,,pending,,,,,,UY16
+G0018,Soriano,council,departamento (intendencia),G0001,,pending,,,,,,UY17
+G0019,Tacuarembó,council,departamento (intendencia),G0001,,pending,,,,,,UY18
+G0020,Treinta y Tres,council,departamento (intendencia),G0001,,pending,,,,,,UY19

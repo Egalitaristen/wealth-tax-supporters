@@ -1,1 +1,12 @@
 position_id,actor_id,body_id,role,party,geo_unit_id,start,end,current,member_ref,checked,source_url
+O00001,A0005,B0001,Senator,Socialist Party,,,,,,,https://www.ambito.com/uruguay/el-partido-socialista-presiona-al-gobierno-e-insiste-implementar-el-impuesto-al-1-mas-rico-n6179466
+O00002,A0006,B0001,Senator,Frente Amplio,,,,,,,https://www.elobservador.com.uy/nacional/resistido-orsi-y-oddone-impuesto-al-1-mas-rico-suma-respaldo-cuatro-senadores-del-frente-amplio-n6008459
+O00003,A0007,B0002,Deputy,Frente Amplio,,,,,,,https://www.elobservador.com.uy/nacional/diputados-del-fa-dicen-que-podrian-votar-las-dos-manos-el-impuesto-al-1-mas-rico-pero-que-si-el-debate-presupuesto-fue-feroz-no-imaginan-otro-impuesto-n6024736
+O00004,A0008,B0003,Minister of Labour and Social Security,Communist Party,,,,,,,https://www.montevideo.com.uy/Noticias/-Comparto-la-direccion-a-la-que-apunta--Castillo-dijo-estar-a-favor-del-impuesto-a-ricos-uc931881
+O00005,A0009,B0004,Intendente,Frente Amplio,G0011,,,,,,https://www.montevideo.com.uy/Noticias/Sobretasa-al-1--mas-rico--Bergara-considero-que-se-trata-de-un-formato-razonable--uc944418
+O00006,A0010,B0001,Senator,Communist Party,,,,,,,https://www.elobservador.com.uy/economia-y-empresas/senadores-del-fa-vuelven-proponer-sobretasa-25-el-impuesto-al-patrimonio-n5989552
+O00007,A0011,B0001,Senator (2020 to 2025 term),Frente Amplio,,,,,,,https://www.elobservador.com.uy/economia-y-empresas/senadores-del-fa-vuelven-proponer-sobretasa-25-el-impuesto-al-patrimonio-n5989552
+O00008,A0012,B0001,Senator (2020 to 2025 term),Frente Amplio,,,,,,,https://www.elobservador.com.uy/economia-y-empresas/senadores-del-fa-vuelven-proponer-sobretasa-25-el-impuesto-al-patrimonio-n5989552
+O00009,A0013,B0001,Senator (2020 to 2025 term),Frente Amplio,,,,,,,https://www.elobservador.com.uy/economia-y-empresas/senadores-del-fa-vuelven-proponer-sobretasa-25-el-impuesto-al-patrimonio-n5989552
+O00010,A0014,B0001,Senator (2020 to 2025 term),Frente Amplio,,,,,,,https://www.elobservador.com.uy/economia-y-empresas/senadores-del-fa-vuelven-proponer-sobretasa-25-el-impuesto-al-patrimonio-n5989552
+O00011,A0015,B0001,Senator (2020 to 2025 term),Frente Amplio,,,,,,,https://www.elobservador.com.uy/economia-y-empresas/senadores-del-fa-vuelven-proponer-sobretasa-25-el-impuesto-al-patrimonio-n5989552
