@@ -29,3 +29,13 @@ The [official Folketing distribution](https://www.ft.dk/Medlemmer/Mandatfordelin
 
 ## Audit — R006
 - 31 of 51 quotes were found on their pages by the checker; the other 20 are on ft.dk (Folketing), which answers scripts with a Cloudflare check, so they are not machine-verified. Government roles were checked against the 3 June 2026 Frederiksen III government (Pia Olsen Dyhr is economy and interior minister). The open letter of 10 March 2026 (E00015–E00024) is signed by the named chiefs and argues for the Social Democrats' wealth tax, so each signature stands as their own statement. Wikidata ids were added for 27 actors and websites for seven organisations.
+
+## Resources pass (1 November 2026)
+
+Listed on the Resources page after reading each source: motion B 70 (2021-22) for a progressive wealth tax, read from the Wayback copy of 23 January 2024 because ft.dk is behind a Cloudflare check; the Quarterly Journal of Economics paper on the Danish wealth tax; the CEPOS analysis of 9 March 2026 and the Dansk Industri analysis of March 2026 on the Social Democrats' 0.5% tax above DKK 25 million; and the Lederne member survey of March 2026 (15% for, 77% against among private-sector managers, not the general public). The 2026 proposals of Socialdemokratiet, SF and Enhedslisten are election platforms; no motion for them was found in the Folketing.
+
+Leads not yet listed, because the pollster's own release or the document was not read:
+- Megafon for TV 2 (26 February 2026): 41% for, 45% against the Social Democrats' tax, as TV 2 reports it; no question wording, fieldwork or sample was published in the article.
+- Epinion for FH (fieldwork 15-18 January 2026): 50% fully or partly agree a tax aimed at the very highest fortunes would be reasonable, 27% disagree, as FH's blog reports it; no wording, sample or Epinion release was found.
+- FH's proposal "Raad til hverdagen" (15 January 2026: 0.3% above DKK 20 million) and its background analysis; Dansk Erhverv's analyses of March-April 2026 (78% of the revenue from business assets); DI's "fakta om formueskat" comparison; Folketing answers in the Skatteudvalg (SAU spm 301, 2024-25) that model a 0.5% tax above DKK 5 million.
+- A possible 2023-24 motion (B 59) came up in a search but nothing shows it concerns a wealth tax.

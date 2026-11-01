@@ -71,3 +71,13 @@ Priorities after this pass: obtain complete older motion/bill lists from an acce
 ## Review notes
 
 Checked on review: all other quotes were found on their source pages by script, and the 50 signature rows (38 names on LA 55/2012 vp, 12 on TPA 25/2022 vp) were read in a browser on the official pages (the 2012 block lists 39 names; the one excluded is the deceased signer). The three 2010 and one 2014 reservation quotes were found on Edilex, and the reservations' signatories there match the rows. No rows were changed.
+
+## Resources pass (1 November 2026)
+
+Listed on the Resources page after reading each document: the six wealth-tax initiatives in the Eduskunta's own documents (LA 81/2006, LA 84/2009, LA 63/2010, LA 55/2012, LA 62/2014 and TPA 25/2022) and Finnwatch's October 2024 article on Zucman's minimum tax. The initiative pages show no committee or plenary decision, so they are listed as pending (the state is an inference from the absence of a decision; the pages were not checked for a lapse at the end of the term). No Finnish poll asking about a wealth tax, with the pollster's own release, question wording and fieldwork, was found; searches in Finnish and Swedish (kysely varallisuusvero, opinionsundersökning förmögenhetsskatt) returned only inheritance-tax and general tax-attitude surveys. No Finnish official report or academic paper on restoring the tax was found either (VATT, PTT, Bank of Finland and Kalevi Sorsa Foundation searched by name).
+
+Leads not yet listed, because the document or the pollster's page was not read:
+- A 2026 Left Alliance proposal for a 1% millionaire tax above EUR 1 million (chair Minja Koskela), known from press coverage only.
+- The Yle tax-policy survey of July 2009, which asked whether the wealth tax abolished in 2006 should return; only the dataset description was seen, not the result.
+- Older initiatives that surfaced in a search of the Eduskunta archive (LA 91/2004, LA 40/2004 and budget motions TAA 166/2010, TAA 210/2009, TAA 362/2007, TPA 1/2007) were not read.
+- The SAK blog of 2019 and Jarkko Eloranta's 2025 defence-tax proposal (already cited in section 2) are positions of an organisation, not reports.

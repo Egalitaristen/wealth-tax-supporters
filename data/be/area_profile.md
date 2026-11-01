@@ -106,3 +106,14 @@ First written 2026-10-23 (runs R001 to R005). Lines marked *[verify]* come from 
 - **R005 (Nationwide multi-level sweep across municipalities and union sectors):** 25 actors (total 105) covering municipal leaders across Antwerp, Ghent, Brussels, Charleroi, Aalst, Seraing, La Louvière, Saint-Gilles, and sectoral trade union leaders.
 - **Database Status:** 105 supporters, 105 evidence rows, 93 links, 15 exclusions, 6 harvests, 5 runs. 100% verified quotes on live source pages (0 missing, 0 skipped). 0 validation errors, 0 warnings.
 
+
+## Resources pass (1 November 2026)
+
+Listed on the Resources page after reading each source: the six Chamber bills DOC 54 0770, 55 0036, 55 0397, 56 0323, 56 0901 and 56 1298 (text of the first document and the dossier page on dekamer.be for each); the DULBEA study for the Federal Planning Bureau (2023); Apostel and O'Neill's paper on a one-off wealth tax (2022); Roelandts's paper on public support (2025); and the 11.11.11 / Ipsos poll of October 2021 from the commissioner's own press file (64% for a "corona" tax on large fortunes, 72% for a European tax on large assets). Bill states follow the dossier pages: 54 0770, 55 0036 and 55 0397 lapsed; 56 0323, 56 0901 and 56 1298 are pending. The dossier for 56 0901 also lists a committee entry "verworpen" dated 6 October 2026 without saying what was rejected, so it stays pending.
+
+Leads not yet listed:
+- The Federal Planning Bureau working paper by Bastin and Van Camp (DC2024 WP 8, February 2024; about EUR 4.7 billion for a 1-2-3% tax above EUR 1 million), known from the Forum for the Future page and press; the plan.be PDFs returned 404.
+- Ipsos Grand Barometer of 1-9 June 2025 (2,605 Belgians, for Le Soir, RTL, HLN and VTM): 76% said taxing the richest should be the main way to reduce the deficit, as Business AM reports it; the Ipsos release and the question were not found. Also an Ipsos 2012 poll (75%) known from a union newsletter and the VRT overview of 2017.
+- Amendment 10 to the 2025 Ways and Means budget (DOC 56 0853/008, 2% above EUR 5 million and 3% above EUR 10 million); an amendment, not a bill, and not read here.
+- Vooruit's 2026 "millionaires' contribution" is an extension of the securities-account tax, not a net wealth tax.
+- The CNCD-11.11.11 / Ipsos poll of October 2023 mentioned in the country notes was removed earlier for lack of a readable source.
