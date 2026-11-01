@@ -101,3 +101,15 @@
 
 ## Audit — R007
 - Every quote was read on its page (41 of 41 found). Süleyman Girgin was removed (speech lists wealth tax only as one direct tax of developed countries; exclusion X0008). Genel-İş now rests on its president's op-ed, not a report that only mentioned wealth tax. Regraded to B: Çerkezoğlu (DİSK demand list, not her sentence), Bozdağ (regrets no wealth tax came, no demand), Çimen (literature study), KEDV (Oxfam's calculation).
+
+
+## Resources pass (1 November 2026)
+
+Listed on the Resources page after reading each source: bill 2/2613 "Servet Vergisi ve Temel Gelir Güvencesi Kanun Teklifi" (Perihan Koca, DEM Parti; the bill text was read from the TBMM PDF) and two papers, Yılmaz (2025, a proposed net wealth tax for Türkiye) and Çimen (December 2025, with a section on Türkiye). The Ipsos poll for Earth4All was already in `meta.json`.
+
+No other wealth-tax bill in the Grand National Assembly was found; the search was a web search plus the TBMM record behind the evidence row, and the TBMM bill database was not queried directly. No Turkish pollster's own release on a wealth tax was found (Metropoll, KONDA, Areda searches returned nothing on the subject).
+
+Leads not yet listed:
+- Ali Çelikkaya, "Bir Vergi Politikası Aracı Olarak Net Servet Vergisi Uygulaması" (Sosyal, Beşeri ve İdari Bilimler Dergisi, 6 August 2022): a Turkish-language paper on net wealth tax design in general terms, not specific to Türkiye; decide whether it counts for the country.
+- The Erdemoğlu proposal discussed in the T24 column of 27 March 2024 and the TTB, Birleşik Metal-İş and DİSK statements in the evidence are statements of position, not papers or bills.
+- The Oxfam 2026 report (via KEDV): a global report, not about a Turkish wealth tax.

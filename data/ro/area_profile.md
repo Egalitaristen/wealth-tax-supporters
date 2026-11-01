@@ -45,3 +45,17 @@ The geography uses the INS SIRUTA S1 2026 register, [normalized and republished 
 
 ## Audit — R016
 - 35 of 38 remaining quotes were found on their pages. The European Parliament votes (12 December 2023 amendment 2; 2 April 2025 amendment 82) were checked against the How They Vote API, which lists the nine Romanian members who voted for the first and Piperea and Ștefănuță for the second; the two roll-call rows the checker misses (Benea, Ștefănuță) match the API names exactly and differ only in how accents are encoded. Cornel Ban's and Cristian Pop's study quote is corrected to the exact wording ("1 milion de euro") and graded B, because the study models it as one of three scenarios; Ban's own interview (E00023) keeps him at A. Maria Grapini's 2023 speech row was removed: the EUR-Lex and Parliament pages return nothing to scripts, and she keeps her statement of 28 July 2023 and her 2024 vote.
+
+
+## Resources pass (1 November 2026)
+
+Listed on the Resources page after reading each source: the Senate registers for L361/2010 (annual tax on wealth, PSD, rejected by both chambers) and L299/2025 (the explanatory memorandum, read in full, shows a Title on the tax on large fortunes: 1%, 2% or 3% of declared wealth of individuals above EUR 10 million). The text of L361/2010 on the Chamber's site is a scan with no text layer, so the rate (0.5% above EUR 500,000 in the evidence row) was not verified and is not in the summary.
+
+No Romanian poll with the pollster's own release was found. No academic paper on a net wealth tax in Romania was found.
+
+Leads not yet listed:
+- INSCOP poll of 10 to 15 September 2015 (85% with a good opinion of the "initiative to tax large fortunes", commissioned by Adevărul per a ziare.ro item): known from Economica.net and an inscop.ro repost of a press item, without question wording or sample; the initiative was the UNPR proposal. Read INSCOP's own report before listing.
+- UNPR bills of 2012 and 2015 (1% a year on assets above about EUR 450,000, reported as rejected): bill numbers not found on the Senate or Chamber sites.
+- The FES study of May 2026 "Cum reconstruim bugetul?" (a three-scenario budget study with a 0.5% tax on financial wealth in one scenario): a whole-budget study, so left out.
+- Nicoleta Mihăilă, "Trends in wealth taxation in the current economic context in Romania and European Union" (Journal of Romanian Literary Studies, 2024): read; it surveys income and property taxation and tax revenue trends and is not about a net wealth tax.
+- A poll for Pactul pentru Fiscalitate (58.7% for higher taxes on those with more houses, land and cars): undated and not about net wealth.

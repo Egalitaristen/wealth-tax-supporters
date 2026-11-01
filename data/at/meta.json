@@ -4,5 +4,20 @@
   "lead": "",
   "status": "in progress",
   "boundaries": "boundaries.json",
-  "notes": ""
+  "notes": "",
+  "polls": [
+    {
+      "support": 65,
+      "oppose": 19,
+      "scope": "Austria, residents aged 16 and over (2,000 people)",
+      "question": "Introduction of a tax on large wealth (agree, rather than disagree), asked among several tax proposals",
+      "question_original": "In der Politik werden unterschiedliche Ideen zum Thema Steuern diskutiert. Was denken Sie über die folgenden Vorschläge – sind Sie eher dafür oder eher dagegen? (Einführung Steuer auf große Vermögen)",
+      "pollster": "SORA Institute for Social Research and Consulting",
+      "commissioned_by": "Momentum Institut",
+      "fieldwork": "2022-07-26 - 2022-09-25",
+      "sample": "2,000 people aged 16 and over, representative",
+      "published": "2023-03",
+      "url": "https://www.momentum-institut.at/wp-content/uploads/2024/09/umverteilung-so-denken-die-vielen-sora-momentum-institut-marz-2023.pdf"
+    }
+  ]
 }
