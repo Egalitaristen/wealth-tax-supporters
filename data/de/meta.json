@@ -18,6 +18,19 @@
       "sample": "1,008 people",
       "published": "2024-07-09",
       "url": "https://www.schwaebische.de/politik/umfrage-mehrheit-ist-fuer-vermoegenssteuer-2686241"
+    },
+    {
+      "support": 52,
+      "oppose": 30,
+      "scope": "Germany, representative sample (1,042 respondents)",
+      "question": "Whether a wealth tax should be (re)introduced in Germany: 52% yes, 30% no, 18% don't know",
+      "question_original": "",
+      "pollster": "YouGov",
+      "commissioned_by": "YouGov (its own Omnibus)",
+      "fieldwork": "2016-11-18 to 2016-11-22",
+      "sample": "1,042 respondents",
+      "published": "2016-11-25",
+      "url": "https://yougov.com/de-de/artikel/17069-welche-gruppen-fur-die-vermogenssteuer-sind"
     }
   ]
 }

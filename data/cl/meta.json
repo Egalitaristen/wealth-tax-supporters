@@ -4,5 +4,20 @@
   "lead": "",
   "status": "in progress",
   "boundaries": "boundaries.json",
-  "notes": "Seed research in progress; local and regional sources have not been systematically searched. Geography covers 16 regions and 346 comunas. The BCN/OCHA 2020 map has 345 shapes; Antártica has no shape. Pozo Almonte was mislabeled Tocopilla in the source and matched by location and CUT. Boundaries are simplified; source notes topology defects."
+  "notes": "Seed research in progress; local and regional sources have not been systematically searched. Geography covers 16 regions and 346 comunas. The BCN/OCHA 2020 map has 345 shapes; Antártica has no shape. Pozo Almonte was mislabeled Tocopilla in the source and matched by location and CUT. Boundaries are simplified; source notes topology defects.",
+  "polls": [
+    {
+      "support": 82.9,
+      "oppose": null,
+      "scope": "Chile, adults 18 and over in 166 comunas, online panel",
+      "question": "Agreement with Congress approving a tax of 2.5% on the net wealth of people with US$ 22 million or more, to fund the response to the covid-19 crisis (the 'súper ricos' bill); 82.9% strongly agreed or agreed",
+      "question_original": "¿Qué tan de acuerdo o en desacuerdo estás con que se apruebe en el congreso un impuesto a los super ricos?",
+      "pollster": "Activa Research (Pulso Ciudadano)",
+      "commissioned_by": "Activa (its own fortnightly Pulso Ciudadano tracker)",
+      "fieldwork": "2021-04-28 to 2021-04-30",
+      "sample": "1,184 interviews, non-probability online panel, margin of error +/- 2.8%",
+      "published": "2021-05",
+      "url": "https://media-front.elmostrador.cl/2021/05/Pulso_Ciudadano_ABRIL_Q2.pdf"
+    }
+  ]
 }

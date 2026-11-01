@@ -56,3 +56,15 @@ First written 2026-10-21 (run R001). Seed pass, national level only. Lines marke
 6. **Polls:** the Oxfam/Datafolha series (84-85% for higher taxes on the very rich) asks about taxing the rich in general; read the releases to see whether any item names large fortunas.
 7. **Regional and local:** sample the Assembleias of Rio Grande do Sul, São Paulo, Rio, Bahia and capital councils (Luciana Genro is a state deputy in RS); likely low yield, as the tax is federal.
 8. **Map** once the IBGE licence is settled.
+
+## Resources pass (1 November 2026)
+
+Listed on the Resources page: 18 bills, two reports and one new poll. Câmara bills were taken from the 45 in `harvest.csv` (H0001 to H0045) and kept to the main vehicle PLP 277/2008 and the distinct bills with a different sponsor group or year (PLP 26/2011, 130/2012, 9/2019, 188/2020, 193/2020, 130/2021, 69/2023, 203/2024 and 5/2026); the situation of each is the Câmara's own open data (dadosabertos.camara.leg.br, read on 1 November 2026), most being "Tramitando em Conjunto" with PLP 277/2008. The Senate's eight bills (PLS 534/2011, 315/2015, 139/2017, PLP 183/2019, 38/2020, 50/2020, 101/2021, 125/2021) have their situation and authors from the Senate open data. Reports: the Fenafisco, Anfip and Instituto Justiça Fiscal study of July 2020 (executive report read) and Ipea One Pager 378 (2018). Poll: DataSenado, 18 to 23 April 2020, read from its own report (80% yes, 20% no; the question mentions taxing large fortunes to fight the coronavirus). No law is in force: art. 153, VII of the Constitution has never been regulated.
+
+Not listed, and why:
+- The other 33 Câmara IGF bills (H0002 to H0044 in `harvest.csv`): attached to PLP 277/2008, archived or returned to their authors; their sponsors are already in the register.
+- PLP 206/2024 (CIDE-Educação, a contribution on "grandes fortunas" for education): the tax base was not read, so it is not confirmed as a net wealth tax.
+- Plenary Amendment 8 to PLP 108/2024 (30 October 2024, 136 to 262): the amendment text was known only from press coverage; the Câmara's vote page lists the amendment but not its content.
+- The Zucman report for the G20 under Brazil's presidency (June 2024), a 2% minimum tax on billionaires' wealth: global, not read in full here.
+- Polls: the existing Ipsos / Earth4All entry is linked to Poder360's coverage, not to Ipsos (replace with the Ipsos release); a 2021 Ipsos poll and a CASB poll are known from press only; the Oxfam/Datafolha series asks about the rich paying more tax in general, not a wealth tax.
+- The Senate's Consultoria Legislativa study on the IGF (hosted on conjur.com.br, not read).

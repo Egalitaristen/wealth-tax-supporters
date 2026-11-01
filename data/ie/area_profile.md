@@ -63,3 +63,14 @@ Barra Roantree (ESRI) was removed: the Irish Times piece reports a once-off weal
 ## Map and constituencies (review)
 
 The map is the 31 local authorities from Tailte Éireann (CC BY 4.0, 2026), generalised. Eight sitting TDs are placed in the council area their constituency lies mostly in (constituencies are from the Oireachtas members API for the 34th Dáil): Nash (Louth), O'Callaghan (Dublin Bay North, Dublin City), Doherty (Donegal), Boyd Barrett (Dún Laoghaire), Murphy (Dublin South-West, South Dublin), Gould (Cork North-Central, Cork City), Farrell (Galway West, Galway City) and McDonald (Dublin Central, Dublin City). Róisín Shortall, Mick Barry and Thomas Pringle do not appear in the API's list of the 34th Dáil, so their roles ("Deputy", "TD") are probably out of date; the senators have no constituency. These need checking in the next refinement run.
+
+## Resources pass (1 November 2026)
+
+Listed on the Resources page after reading each source: the Wealth Tax Act, 1975 and section 38 of the Finance Act, 1978 (Irish Statute Book), the Seanad Report Stage recommendation 3 of 12 December 2023 on the Finance (No. 2) Bill (from the Oireachtas debate record PDF; declared lost), the Oxfam Ireland report of January 2026 and NERI Working Paper 78 (both by McDonnell, Nugent and McCaughey), and the ESRI / ifo DICE paper of 2018 by Lawless and Lynch (from the ESRI's abstract). Poll: MRBI for the Community Platform, 2010, from the National Women's Council's analysis of the poll (the pollster's own release was not found); the question asks about people with net assets above 1 million euro and income above 100,000 euro, so it is narrower than a general wealth tax. No Dáil bill on a wealth tax since 1975 was found.
+
+Leads not yet listed:
+- The Seanad Committee Stage amendment on a 1% tax above 10 million euro (Lynn Ruane, 5 December 2023): oireachtas.ie shows a human-verification page here, so the page was not read.
+- Sinn Féin's 2013 "A Wealth Tax" proposal (the sinnfein.ie link no longer resolves), Labour's and the Social Democrats' proposals (known from Chartered Accountants Ireland's summary of manifestos).
+- The Commission on Taxation and Welfare (2022), reported not to recommend a wealth tax; the ESRI estimate of 109 million euro with homes and farms exempt (Irish Examiner coverage; the ESRI paper was not located).
+- Other polls: Taxback.com 2017 (65% and 87% in two reports; commercial survey, the Irish Times notes a leading preamble), an online reader poll on TheJournal.ie (not representative). No recent representative poll by an independent pollster was found.
+- NERI's 2016 blog "An Irish Wealth Tax" and Oxfam Ireland's 2022 report (1.5% above 4 million euro).

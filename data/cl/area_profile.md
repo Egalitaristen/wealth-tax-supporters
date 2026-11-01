@@ -38,3 +38,15 @@ Searches found local officials debating property contributions; these are not su
 
 ## Audit — R006
 - 30 of 46 quotes were found on their pages by the checker, four are bare surnames from the Chamber record, and 12 are on camara.cl and cepal.org, which answer scripts with errors, so they were not re-read. No row was removed: the sponsors and signatories come from official records, the one-off levy (bill 13555-07) and the net-wealth tax are included designs, and every Chamber position was checked against the Chamber API on 30 October 2026. The 155-seat chart adds up. Boric is a former president (term ended March 2026).
+
+## Resources pass (1 November 2026)
+
+Listed on the Resources page after reading each source: Boletín 13555-07 (the Chamber's own page, read in the built-in browser because plain requests get a 403), the CEPAL paper by López and Sturla, the Estudios Públicos paper by González, Larraín and Perelló, and the Activa Pulso Ciudadano poll of 28 to 30 April 2021, read from the report's own tables (the PDF is hosted by El Mostrador). Searched and not found: a Senate bill or a second chamber vote on 13555-07 (the Chamber's page shows the second constitutional stage after the oficio of 18 May 2021); a Cadem, Criteria, CEP or Ipsos poll that names a wealth tax or the "súper ricos" tax (only press mentions).
+
+Leads not yet listed, because the document itself was not read:
+- Proyecto de resolución 1.088 (26 May 2020, "impuesto al patrimonio para crear una renta básica de emergencia", ten sponsors): the BCN index gives the title and sponsors but not the text; Radio Agricultura reports a 2.5% tax request approved 85 to 19 with 40 abstentions, which the Chamber's own vote page should confirm.
+- The May 2026 amendment by Communist Party deputies to the tax reform (known from g5noticias): find the bill and the amendment on the Chamber's site.
+- The Ministry of Finance study of the wealth tax in the 2022 reform ("efecto progresivo del Impuesto al Patrimonio"): hacienda.cl was refused here.
+- The Chamber's Constitution Committee reports of April 2021 and the Chamber news items on the hearings (camara.cl returns 403 to plain requests).
+- Cadem Plaza Pública 2023 ("more than 70% for a special tax on high fortunes", press summary only) and the Frente Amplio primary consultation (94.1%, a party vote, not a poll).
+- A University of Chile economics working paper of June 2020 on the tax (econ.uchile.cl PDF, text not extracted); the Estudios Públicos month of publication (listed as 2021).
