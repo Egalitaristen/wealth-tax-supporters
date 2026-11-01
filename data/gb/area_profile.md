@@ -132,3 +132,13 @@ Counts from `wtdb.py status`: journalist 1, media_outlet 0, think_tank 1, funder
 - **Gary Stevenson** (Gary's Economics, about one million followers on YouTube per the New Statesman) now typed journalist (video commentary) with three more rows: New Statesman op-ed describing his advocacy, a New Statesman podcast on his lobbying of the new government, and his own Millionaires for Humanity statement.
 - **Jeremy Corbyn:** 2023 statement for a 1-2% wealth tax on assets over £10m added.
 - **Leads not added:** Aaron Bastani, Grace Blakeley, Paul Mason, Mehdi Hasan, Ash Sarkar, Jolyon Maugham, Will Hutton, Mariana Mazzucato (questioned the Green plan in Jan 2026).
+
+## Resources pass (1 November 2026)
+
+Listed after reading each page: Early Day Motions 420 (2021), 340 (2024), 1725 and 1909 (2025) and 276 (2026) on edm.parliament.uk (opened in the built-in browser; the site refuses scripts), the House of Commons Library debate pack of June 2022, and the International Tax Observatory report by Ben Tippet and Gabriel Zucman (July 2026). No Private Member's Bill or Government bill on a net wealth tax was found; the Early Day Motions are the only parliamentary texts. EDM states: the 2021-22 and 2024-26 session motions are marked lapsed (inferred from the session labels on the page), EDM 276 of the 2026-27 session pending.
+
+Leads not yet listed:
+- EDM 893 (25 January 2022, 66 signatures): asks to replace the National Insurance rise with "taxes on the wealth of the richest one per cent"; not clearly a net wealth tax.
+- Green Party policy paper and manifesto: policy.greenparty.org.uk redirects to a login; the 19 November 2025 letter is already in the evidence rows. Liberal Democrat policy: no wealth tax found in the policy papers searched.
+- Wealth Tax Commission evidence papers and academic papers by Advani, Chamberlain and Summers: only the final report is listed.
+- Ipsos poll of October 2025 (64% for the Green Party proposal) and the YouGov/Oxfam 2% poll: known from press only, no release with wording and fieldwork read. The Tax Institute survey (members, not the public) was not used.

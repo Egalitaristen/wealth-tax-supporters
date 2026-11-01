@@ -93,3 +93,13 @@ One search per state (50 states plus DC) for wealth tax, billionaire tax or net 
 - **Excluded by scope:** the January 2026 Davos "Time to Win" letter (about 400 millionaires; asks generically to "tax the super rich", not a wealth tax); Booker and Van Hollen tax bills (income tax).
 - **Blocked (403), not retried:** Axios, Bloomberg Opinion, The Hill, dsausa.org.
 
+
+## Resources pass (1 November 2026)
+
+Listed after reading each text: the Ultra-Millionaire Tax Act text of the 117th, 118th and 119th Congresses (govinfo; the 118th text differs from the 117th in its bracket structure and trust rules; the 119th differs from the 118th only in dates and funding years, and is listed separately because it is the bill now before Congress), the Sanders/Khanna Make Billionaires Pay Their Fair Share Act, California Proposition 40 (Attorney General's title and summary and the Legislative Analyst's analysis in the official voter guide), Maryland HB 1238 and Washington HB 1319 (texts), the Saez-Zucman letter of February 2021 and the Penn Wharton Budget Model analysis of March 2021. No official Joint Committee on Taxation or Congressional Budget Office score of a net wealth tax was found.
+
+Leads not yet listed:
+- Saez and Zucman analysis of the Sanders wealth tax (2 March 2026): sanders.senate.gov refuses scripts (403); no archive copy read.
+- Hawaii SB 313 and HB 1235 (2025), Rhode Island S 2361 (2026), Illinois SB 3376, HB 5215 and SB 3884, Minnesota HF 4616, Vermont H.827, Washington SB 5797, and the 2023 bills in California, New York (S 1570, S 165 are mark-to-market income taxes, left out), Hawaii, Washington: legislature pages refused scripts or were not read for this pass.
+- Penn Wharton Budget Model 2019 analyses of the Warren and Sanders campaign plans (known from press), Tax Policy Center and ITEP analyses, and the Institute for Policy Studies reports in the evidence rows.
+- Congress.gov pages for the bills refuse scripts (403); statuses above come from the govinfo bill status files.
