@@ -17,3 +17,9 @@
 ## Review corrections
 
 Eight evidence rows were removed because their quote does not name a wealth tax or only names a document (a G20 communiqué, a joint text saying the super-rich should be 'taxed more efficiently', speeches asking for 'proportional' or 'minimal global' taxation, and a raised threshold for Norway's existing tax). Brazil keeps the April 2024 joint call for a global levy on billionaires and its 2025 General Assembly speech on a minimum global tax; Spain keeps the joint call and its 2025 statement on minimum taxation of large fortunes; Norway keeps Labour's pledge to keep the wealth tax. All four lit seats stay lit.
+
+## Resources pass (1 November 2026)
+
+Listed under `global` (the build accepts register folders and `global` only): UN DESA Policy Brief No. 168 on net wealth taxes (4 December 2024, read) and the UN Handbook on Wealth and Solidarity Taxes (listed on the Tax Committee's publications page under 2025; the PDF refuses scripts, so its text was not read and the summary says only what the UN's own pages say about it). The Zucman G20 blueprint and the ESCWA paper are already listed under `global`. No poll or bill applies to the General Assembly.
+
+Leads not listed: the UN Sample Net Wealth Tax Law (said to be part of the Handbook; its CRP page also refuses scripts), the Subcommittee on Wealth Taxation's workplan for the 32nd session (March 2026) and its planned guidance on taxing high-net-worth individuals (due by October 2028).
