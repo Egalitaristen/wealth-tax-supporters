@@ -320,7 +320,7 @@ function countryRows(cs) {
     const ch = c.chambers || [];
     return `
       <a class="crow" href="/${c.slug}">
-        <span class="iso">${esc(c.iso2)}</span>
+        <span class="iso">${flag(c.slug) || esc(c.iso2)}</span>
         <span class="nm">${esc(c.name)}</span>
         <span class="st inl"><b>${fmt(c.supporters)}</b> <span>on record so far</span></span>
         <span class="st hide-s seatcol">${ch.length ? ch.map(x => `<span class="sl"><span title="${esc(x[0])}">${esc(x[0])}</span> <b>${fmt(x[2])}<i> / ${fmt(x[1])}</i></b></span>`).join('') : '<b>·</b>'}</span>
@@ -355,7 +355,7 @@ function parliamentRows(items, slugOf) {
     const ch = c.chambers || [];
     return `
       <a class="crow par" href="${slugOf(c)}">
-        <span class="iso">${esc(c.iso2 || c.slug.toUpperCase())}</span>
+        <span class="iso">${flag(c.slug) || esc(c.iso2 || c.slug.toUpperCase())}</span>
         <span class="nm">${esc(c.name)}</span>
         <span class="st seatcol">${ch.map(x => `<span class="sl"><span title="${esc(x[0])}">${esc(x[0])}</span> <b>${fmt(x[2])}<i> / ${fmt(x[1])}</i></b></span>`).join('')}</span>
         <span class="arrow">→</span>
@@ -501,7 +501,7 @@ async function home(W) {
     <div class="sec-head"><div><div class="kicker">Public opinion</div><h2>Most people <em>already agree</em></h2></div>
       <p>The register counts who has said it in public. Polls show how many more agree. Each figure is for the design the poll asked about.</p></div>
     <div class="polls home">${cs.filter(c => (c.polls || []).length).slice(0, 3).map(c => { const p = c.polls[0]; return `<div class="poll">
-      <div class="poll-fig"><b>${esc(pollFig(p))}</b><span>${esc(c.name)}</span></div>
+      <div class="poll-fig"><b>${esc(pollFig(p))}</b><span>${flag(c.slug)}${esc(c.name)}</span></div>
       <div class="poll-body"><p>back ${esc(p.question.replace(/^./, x => x.toLowerCase()))}.</p>
         <div class="poll-meta">${ext(p.url, esc(pollSource(p)) + ' ↗')} · <a href="/${c.slug}/method#polls">all polls</a></div></div>
     </div>`; }).join('')}</div>
@@ -520,7 +520,7 @@ async function home(W) {
     <div class="quotes">${feats.map(([c, f]) => `
       <figure class="quote" style="margin:0">
         <blockquote>${esc(f[4])}</blockquote>
-        <figcaption class="who"><div><a class="name" href="/${c.slug}/${enc(f[0])}">${esc(f[1])}</a><span>${esc(label(TYPE, f[2]))} · ${esc(c.name)}${f[7] ? ' · ' + esc(year(f[7])) : ''}</span></div>
+        <figcaption class="who"><div><a class="name" href="/${c.slug}/${enc(f[0])}">${esc(f[1])}</a><span>${esc(label(TYPE, f[2]))} · ${flag(c.slug)}${esc(c.name)}${f[7] ? ' · ' + esc(year(f[7])) : ''}</span></div>
           ${safeUrl(f[5]) ? ext(f[5], 'Source ↗', 'src') : ''}</figcaption>
       </figure>`).join('')}</div>
   </div></section>` : ''}
