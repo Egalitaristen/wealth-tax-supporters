@@ -32,7 +32,7 @@ The [official Folketing distribution](https://www.ft.dk/Medlemmer/Mandatfordelin
 
 ## Resources pass (1 November 2026)
 
-Listed on the Resources page after reading each source: motion B 70 (2021-22) for a progressive wealth tax, read from the Wayback copy of 23 January 2024 because ft.dk is behind a Cloudflare check; the Quarterly Journal of Economics paper on the Danish wealth tax; the CEPOS analysis of 9 March 2026 and the Dansk Industri analysis of March 2026 on the Social Democrats' 0.5% tax above DKK 25 million; and the Lederne member survey of March 2026 (15% for, 77% against among private-sector managers, not the general public). The 2026 proposals of Socialdemokratiet, SF and Enhedslisten are election platforms; no motion for them was found in the Folketing.
+Listed on the Resources page after reading each source: motion B 70 (2021-22) for a progressive wealth tax, read from the Wayback copy of 23 January 2024 because ft.dk is behind a Cloudflare check; the Quarterly Journal of Economics paper on the Danish wealth tax; the CEPOS analysis of 9 March 2026 and the Dansk Industri analysis of March 2026 on the Social Democrats' 0.5% tax above DKK 25 million; the Lederne member survey of March 2026 (15% for, 77% against among private-sector managers) was removed from the polls because it does not measure public opinion. The 2026 proposals of Socialdemokratiet, SF and Enhedslisten are election platforms; no motion for them was found in the Folketing.
 
 Leads not yet listed, because the pollster's own release or the document was not read:
 - Megafon for TV 2 (26 February 2026): 41% for, 45% against the Social Democrats' tax, as TV 2 reports it; no question wording, fieldwork or sample was published in the article.
