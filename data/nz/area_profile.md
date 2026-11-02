@@ -76,3 +76,12 @@ Leads not listed:
 - Lisa Marriott, "Advancing better tax policy: the role of wealth taxes in New Zealand" (Policy Quarterly, August 2016): read, but about estate, gift and capital gains taxes, so excluded.
 
 Second pass (1 November 2026): no member's bill on a wealth tax found. The Green Party's 2026 tax plan (net wealth tax of 2.5%, with reports differing on the threshold) and Te Pāti Māori's 2026 tax policy are election policies, not bills; they could be added as party-policy documents if the Resources page takes that kind.
+
+## Refinement pass (2 November 2026)
+
+Tayla Forward (A0012) re-checked: quote still in the March 2026 policy note; role, place and a Newsroom report of her view (30 October 2026) added. Her late-October 2026 effective-tax-rate report is covered by Newsroom, which says she favours a wealth tax; the report itself was not found.
+
+Leads not added:
+- Debbie Ngarewa-Packer (Te Pāti Māori co-leader): coverage says she named a wealth tax the party's coalition bottom line in the 2023 Newshub Nation debate, but no article that could be opened carried her own words. The 1News 27 July 2023 piece quotes her without the tax.
+- Chlöe Swarbrick is already A0003; Newsroom's 30 October 2026 piece quotes her on the report, not on the tax.
+- Rob Campbell, Chris Trotter: no net-wealth-tax statement found. Jonathan Barrett: discusses options with Lisa Marriott, no endorsement.
