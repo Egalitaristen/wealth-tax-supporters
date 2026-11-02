@@ -389,6 +389,13 @@ const RES_KIND = {poll: ['Polls', 'Poll'], paper: ['Papers', 'Paper'], report: [
 const RES_STATE = {in_force: 'In force', pending: 'Pending', rejected: 'Rejected', lapsed: 'Lapsed', adopted: 'Adopted'};
 // A country's flag, by register folder (the folder is the lower-case ISO code; Australia's is `australia`, and the African Union and `global` have none).
 const flag = slug => { const c = slug === 'australia' ? 'au' : (slug === 'au' || slug === 'global' || !/^[a-z]{2}$/.test(slug || '')) ? '' : slug; return c ? `<img class="flag" src="/flags/${c}.svg" alt="" width="16" height="12" loading="lazy">` : ''; };
+// A bill's supporters, linked. A long list (a ballot measure can have hundreds) shows its first names and folds the rest behind "+N more".
+const RES_PEOPLE_SHOWN = 12;
+const resPeople = people => {
+  const link = ([s, i, n]) => `<a href="/${esc(s)}/${enc(i)}">${esc(n)}</a>`;
+  if (people.length <= RES_PEOPLE_SHOWN + 3) return people.map(link).join(', ');
+  return `${people.slice(0, RES_PEOPLE_SHOWN).map(link).join(', ')}<details class="res-more"><summary>+${fmt(people.length - RES_PEOPLE_SHOWN)} more</summary>${people.slice(RES_PEOPLE_SHOWN).map(link).join(', ')}</details>`;
+};
 const resCard = (r, place = true) => `<article class="res">
       <div class="res-k"><span class="rk rk-${r.kind}">${esc(RES_KIND[r.kind][1])}</span>${place ? `<span>${r.country === 'global' ? esc(r.cname) : `<a href="/${esc(r.country)}">${flag(r.country)}${esc(r.cname)}</a>`}</span>` : ''}${r.level ? `<span>${esc(label(LEVEL, r.level))}</span>` : ''}<span>${esc(pollDate(r.published))}</span></div>
       ${r.fig ? `<div class="res-fig">${esc(r.fig)}</div>` : ''}
@@ -396,7 +403,7 @@ const resCard = (r, place = true) => `<article class="res">
       <div class="res-by">${esc(r.by)}</div>
       ${r.summary ? `<p>${esc(r.summary)}</p>` : ''}
       ${r.status ? `<div class="res-st"><b>${esc(RES_STATE[r.state] || 'Status')}</b> ${esc(r.status)}</div>` : ''}
-      ${(r.people || []).length ? `<div class="res-st"><b>In the register</b> ${r.people.map(([s, i, n]) => `<a href="/${esc(s)}/${enc(i)}">${esc(n)}</a>`).join(', ')}</div>` : ''}
+      ${(r.people || []).length ? `<div class="res-st"><b>In the register</b> ${resPeople(r.people)}</div>` : ''}
     </article>`;
 async function resourcesPage(W) {
   setTitle('Resources');
