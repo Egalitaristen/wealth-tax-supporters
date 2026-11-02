@@ -12,6 +12,8 @@ const year = d => (d || '').slice(0, 4);
 const issueUrl = (title, fields = {}) =>
   `https://github.com/${REPO}/issues/new?template=data-report.yml&title=${enc(title)}` +
   Object.entries(fields).map(([k, v]) => `&${k}=${enc(v)}`).join('');
+// The site's own report-a-mistake form (no account needed), prefilled with the country, entry and name where known.
+const reportUrl = (fields = {}) => '/report' + (Object.keys(fields).length ? '?' + new URLSearchParams(fields) : '');
 const DISCORD = 'https://discord.gg/yCjEK47aeh';
 // The site's own suggestion form (no account needed), prefilled with a country and place where known.
 const suggestUrl = (fields = {}) => '/contribute' + (Object.keys(fields).length ? '?' + new URLSearchParams(fields) : '') + '#suggest';
@@ -143,11 +145,12 @@ async function render(fresh) {
     else if (parts[0] === 'directory' && parts.length === 1) await globalDirectory(W, params);
     else if ((parts[0] === 'contribute' || parts[0] === 'suggest') && parts.length === 1) contributePage(W, params);
     else if (parts[0] === 'feedback' && parts.length === 1) feedbackPage(params);
+    else if (parts[0] === 'report' && parts.length === 1) reportPage(params);
     else if (country && parts.length === 1) await countryPage(country.slug, params);
     else if (country && parts.length === 2 && SECTIONS[parts[1]]) await countryPage(country.slug, params, parts[1]);
     else if (country && parts.length === 2) await personPage(country.slug, parts[1]);
     else notFound();
-    const navKey = {countries: '/countries', parliaments: '/parliaments', directory: '/directory', resources: '/resources', method: '/method', about: '/about', contribute: '/contribute', suggest: '/contribute', feedback: '/feedback'}[parts[0]] || null;
+    const navKey = {countries: '/countries', parliaments: '/parliaments', directory: '/directory', resources: '/resources', method: '/method', about: '/about', contribute: '/contribute', suggest: '/contribute', feedback: '/feedback', report: '/feedback'}[parts[0]] || null;
     if (navKey) $$('.nav a, .fb-link').forEach(a => { if (a.getAttribute('href') === navKey) a.setAttribute('aria-current', 'page'); });
   } catch (err) {
     console.error(err);
@@ -548,7 +551,7 @@ async function home(W) {
       <div><div class="kicker">02</div><h3>Graded</h3>
         <div class="grades">${['A', 'B', 'C'].map(g => `<div>${glyph(g)}<span><b>${GRADE[g]}</b> · ${esc(GRADE_LONG[g].split(': ').pop().replace(/^./, c => c.toLowerCase()))}</span></div>`).join('')}</div>
         <p>Only an actual tax on wealth counts. Higher income or capital gains taxes alone do not.</p></div>
-      <div><div class="kicker">03</div><h3>Open</h3><p>The data is free to reuse under CC BY 4.0, with CSV downloads for every country. Errors are reported in public on GitHub and fixed in the open.</p><p><a href="/method">Read the method →</a></p></div>
+      <div><div class="kicker">03</div><h3>Open</h3><p>The data is free to reuse under CC BY 4.0, with CSV downloads for every country. Anyone can report an error, on the site or in public on GitHub, and it is fixed in the open.</p><p><a href="/method">Read the method →</a></p></div>
     </div>
   </div></section>
 
@@ -972,8 +975,8 @@ async function methodSection(box, D, slug) {
       ${m.notes ? `<p>${esc(m.notes)}</p>` : ''}
       <p>Researchers search parliaments, councils, parties, unions, campaigns, open letters and the press, and record only statements that back an actual wealth tax. Each statement is quoted word for word, linked to its source and graded by how explicit it is.</p>
       <p>The register grows with every research run and will never be complete. ${fmt(m.units_with_supporters)} of ${fmt(m.units)} areas have at least one recorded supporter so far; an empty area means <em>nobody recorded yet</em>, not <em>no supporters</em>. ${m.excluded ? `${fmt(m.excluded)} candidates were looked at and left out, for example because they backed other taxes on the rich but not a wealth tax.` : ''}</p>
-      <p>See something wrong, or want an entry removed? Every entry has a report link, and reports are handled in public.</p>
-      <p><a class="btn sm" href="${esc(issueUrl(`[${m.iso2}] Report: country data`, {country: slug}))}" target="_blank" rel="noopener">Report a problem with ${esc(m.name)} ↗</a></p>
+      <p>See something wrong, or want an entry removed? Every entry has a report link, and the form needs no account.</p>
+      <p><a class="btn sm" href="${esc(reportUrl({country: slug, name: m.name}))}">Report a problem with ${esc(m.name)} →</a></p>
     </div>
     <div>
       <dl class="kv" style="margin:0">
@@ -1166,7 +1169,7 @@ function profilePreview(D, slug, p) {
       </div>`).join('')}
       ${ev.length > 2 ? `<div class="muted" style="font-size:13px">and ${ev.length - 2} more on the full profile</div>` : ''}</div>
     <div class="pv-acts"><a class="btn sm" href="/${slug}/${enc(id)}">Open full profile →</a>
-      <a class="report" style="margin:0" href="${esc(issueUrl(`[${m.iso2}] Report: ${p[P_.name]}`, {country: slug, entry: id}))}" target="_blank" rel="noopener">Report ↗</a></div>
+      <a class="report" style="margin:0" href="${esc(reportUrl({country: slug, entry: id, name: p[P_.name]}))}">Report →</a></div>
   </div>`;
 }
 
@@ -1340,7 +1343,7 @@ async function personPage(slug, id) {
         </dl>
         <div id="elsewhere"></div>
         ${p[P_.notes] ? `<p class="p-note">${esc(p[P_.notes])}</p>` : ''}
-        <a class="report" href="${esc(issueUrl(`[${m.iso2}] Report: ${p[P_.name]}`, {country: slug, entry: id}))}" target="_blank" rel="noopener">Something wrong, or want this removed? Report it ↗</a>
+        <a class="report" href="${esc(reportUrl({country: slug, entry: id, name: p[P_.name], page: `/${slug}/${id}`}))}">Something wrong, or want this removed? Report it →</a>
       </aside>
       <div class="statements">
         <h2>On the record <span class="n">${ev.length} statement${ev.length === 1 ? '' : 's'}</span></h2>
@@ -1370,7 +1373,7 @@ function evCard(e, m, slug) {
     ${e[E_.detail] ? `<p class="muted" style="font-size:14px;margin-top:-4px">${esc(e[E_.detail])}</p>` : ''}
     <div class="ev-src">
       <div>${url ? ext(url, esc(e[E_.title] || e[E_.pub] || url) + ' ↗', 's') : esc(e[E_.title])}<span class="pub">${esc(e[E_.pub])}</span></div>
-      <div class="ev-foot">${safeUrl(e[E_.archive]) ? `<a href="${esc(safeUrl(e[E_.archive]))}" target="_blank" rel="noopener">Archived copy</a> · ` : ''}<a href="${esc(issueUrl(`[${m.iso2}] Report: ${e[E_.id]}`, {country: slug, entry: e[E_.id]}))}" target="_blank" rel="noopener">Report</a></div>
+      <div class="ev-foot">${safeUrl(e[E_.archive]) ? `<a href="${esc(safeUrl(e[E_.archive]))}" target="_blank" rel="noopener">Archived copy</a> · ` : ''}<a href="${esc(reportUrl({country: slug, evidence: e[E_.id]}))}">Report</a></div>
     </div>
   </article>`;
 }
@@ -1404,7 +1407,7 @@ function aboutPage(W) {
         <li>Join the conversation on <a href="https://discord.gg/yCjEK47aeh" target="_blank" rel="noopener">Discord</a>.</li>
       </ul>
       <h2>Removal and corrections</h2>
-      <p>Anyone listed can ask to be removed or corrected, using the report link on their entry or a report on GitHub.</p>
+      <p>Anyone listed can ask to be removed or corrected, using the report link on their entry or the <a href="/report?kind=removal">report form</a>.</p>
     </div>
     <aside class="aside-card"><h3>How is it built?</h3><p>What counts as support, how evidence is graded and how it is checked.</p>
       <p><a class="btn sm" href="/method">Read the method</a></p>
@@ -1483,14 +1486,14 @@ function methodPage(W) {
       <h2 id="coverage">Coverage</h2>
       <p>Countries are researched layer by layer, national first. Regional and local areas are sampled first and searched further where they turn up supporters. The register is never finished: an empty area on a map means <em>nobody recorded yet</em>, not <em>no supporters</em>. On the seat charts, an unlit seat means nothing was found, never opposition. Planned work is on the ${gl('', 'repository')} and the <a href="https://github.com/users/Egalitaristen/projects/3" target="_blank" rel="noopener">roadmap board ↗</a>.</p>
       <h2 id="removal">Removal and corrections</h2>
-      <p>Anyone listed can ask to be removed or corrected. Use the report link on the entry, <a href="/feedback">send feedback</a> or <a href="${esc(issueUrl('Removal request: '))}" target="_blank" rel="noopener">open a request on GitHub ↗</a>. Say which entry and, if you can, link a source. People who have died are removed.</p>
+      <p>Anyone listed can ask to be removed or corrected. Use the report link on the entry or the <a href="/report?kind=removal">report form</a> (you can also <a href="${esc(issueUrl('Removal request: '))}" target="_blank" rel="noopener">open a request on GitHub ↗</a>). Say which entry and, if you can, link a source. People who have died are removed.</p>
       <h2 id="reuse">Reuse</h2>
       <p>The data is free to reuse under the Creative Commons Attribution 4.0 licence. Quotes stay the copyright of their publishers. Each country has CSV downloads on its Method tab, and the whole database is on ${gl('tree/main/data', 'GitHub')}.</p>
       <h2 id="next">What comes next</h2>
       <p>Today the register lists public figures and organisations only. A way for ordinary supporters to find each other in their own area is planned, with privacy and consent built in first. It is not open yet.</p>
     </div>
-    <aside class="aside-card"><h3>Spotted a mistake?</h3><p>Reports are public GitHub issues. Say which entry is wrong and, if you can, link a source.</p>
-      <p><a class="btn sm" href="${esc(issueUrl('Report: '))}" target="_blank" rel="noopener">Report a mistake ↗</a></p>
+    <aside class="aside-card"><h3>Spotted a mistake?</h3><p>Say which entry is wrong and, if you can, link a source. No account needed.</p>
+      <p><a class="btn sm" href="${reportUrl()}">Report a mistake →</a></p>
       <div class="kicker" style="margin-top:22px">Help build it</div>
       <ul class="alinks">
         <li><a href="/contribute#suggest">Suggest a supporter we missed</a></li>
@@ -1649,8 +1652,8 @@ function feedbackPage(params) {
     <aside class="aside-card"><h3>Other ways</h3>
       <p>Prefer to talk it through? Join the Discord.</p>
       <p><a class="btn sm" href="${DISCORD}" target="_blank" rel="noopener">Join the Discord ↗</a></p>
-      <p style="margin-top:18px">Found a mistake in a person's entry? Report it on GitHub, where it is tracked until it is fixed.</p>
-      <p><a class="btn sm ghost" href="${esc(issueUrl('Report: '))}" target="_blank" rel="noopener">Report a mistake ↗</a></p>
+      <p style="margin-top:18px">Found a mistake in a person's entry? Use the report form.</p>
+      <p><a class="btn sm ghost" href="${reportUrl()}">Report a mistake →</a></p>
       <p class="fine" style="margin-top:18px">Know a supporter we are missing? <a href="/contribute#suggest">Suggest a supporter</a>.</p></aside>
   </div>`;
   const form = $('#feedback-form'), msg = $('#fb-msg'), send = $('#fb-send'), text = $('#fb-message');
@@ -1677,8 +1680,81 @@ function feedbackPage(params) {
   });
 }
 
+// ---------- report a mistake ----------
+function reportPage(params) {
+  setTitle('Report a mistake');
+  const removal = params.get('kind') === 'removal';
+  const country = (params.get('country') || '').toLowerCase().replace(/[^a-z0-9-]/g, '').slice(0, 20);
+  const entry = (params.get('entry') || '').trim().slice(0, 40), evidence = (params.get('evidence') || '').trim().slice(0, 40);
+  const name = (params.get('name') || '').trim().slice(0, 200);
+  const from = params.get('page') || (document.referrer && new URL(document.referrer).origin === location.origin ? new URL(document.referrer).pathname : '');
+  const pre = v => v ? ' class="field pre"' : ' class="field"';
+  const gh = () => {
+    const f = Object.fromEntries(new FormData($('#report-form')));
+    const ref = f.entry || f.evidence || name;
+    const fields = {};
+    if (f.country) fields.country = f.country;
+    if (f.entry || f.evidence) fields.entry = f.entry || f.evidence;
+    return issueUrl(`${f.country ? `[${f.country.toUpperCase()}] ` : ''}${f.kind === 'removal' ? 'Removal request' : 'Report'}: ${ref || ''}`, fields);
+  };
+  main.innerHTML = `
+  <div class="wrap page-head fade"><div class="kicker">Report a mistake</div><h1>Spotted a mistake? <em>Tell us.</em></h1>
+    <p class="lede" style="margin-top:18px">Wrong quote, broken link, the wrong person, or an entry about you that should be corrected or removed. Say which entry and what is wrong. No account needed.</p></div>
+  <div class="wrap two" style="margin-top:36px">
+    <form class="suggest" id="report-form" novalidate>
+      <fieldset class="kinds"><legend>What is it?</legend>
+        <label><input type="radio" name="kind" value="wrong"${removal ? '' : ' checked'}> Something is wrong</label>
+        <label><input type="radio" name="kind" value="removal"${removal ? ' checked' : ''}> Remove or correct an entry about me</label>
+      </fieldset>
+      ${name ? `<p class="fine" id="rp-name" style="margin:0">Reporting: <b style="color:var(--ink);font-weight:500">${esc(name)}</b></p>` : ''}
+      <div class="pair">
+        <label><span>Country</span><input${pre(country)} name="country" maxlength="20" value="${esc(country)}" placeholder="For example gb" autocomplete="off"></label>
+        <label><span>Entry</span><input${pre(entry)} name="entry" maxlength="40" value="${esc(entry)}" placeholder="Name or ID, for example A0123" autocomplete="off"></label>
+      </div>
+      ${evidence ? `<label><span>Source (evidence ID)</span><input class="field pre" name="evidence" maxlength="40" value="${esc(evidence)}" autocomplete="off"></label>` : ''}
+      <label><span>What is wrong? <b>*</b></span><textarea class="field" name="message" rows="6" required maxlength="4000" id="rp-message"></textarea></label>
+      <label><span>A link that shows it</span><input class="field" name="source_url" type="url" maxlength="500" placeholder="Optional, starting with https://" autocomplete="off"></label>
+      <label><span>Email, if you would like a reply</span><input class="field" name="contact" type="email" maxlength="200" placeholder="Optional" autocomplete="off"><small>Only used to answer you about this report.</small></label>
+      <input type="hidden" name="page" value="${esc(from)}">
+      <label class="hp" aria-hidden="true">Leave this empty<input name="website" tabindex="-1" autocomplete="off"></label>
+      <div class="suggest-foot"><button class="btn" type="submit" id="rp-send">Send</button><span class="sg-msg" id="rp-msg" role="status"></span></div>
+      <p class="fine">We don't ask who you are. To stop spam we keep a scrambled code of your connection that changes every day and can't be traced back to you. Anyone listed can ask to be removed or corrected; people who have died are removed.</p>
+    </form>
+    <aside class="aside-card"><h3>Other ways</h3>
+      <p>Prefer a public record? Report it on GitHub instead, where it is tracked until it is fixed. Your GitHub name is shown on it.</p>
+      <p><a class="btn sm" id="rp-gh" href="${esc(issueUrl('Report: ', country || entry || evidence ? {...(country && {country}), ...((entry || evidence) && {entry: entry || evidence})} : {}))}" target="_blank" rel="noopener">Report it on GitHub instead ↗</a></p>
+      <p style="margin-top:18px">Prefer to talk it through? Join the Discord.</p>
+      <p><a class="btn sm ghost" href="${DISCORD}" target="_blank" rel="noopener">Join the Discord ↗</a></p>
+      <p class="fine" style="margin-top:18px">Not a mistake, but an idea or a bug on the site? <a href="/feedback">Send feedback</a>.</p></aside>
+  </div>`;
+  const form = $('#report-form'), msg = $('#rp-msg'), send = $('#rp-send'), text = $('#rp-message');
+  const hint = () => {
+    text.placeholder = form.kind.value === 'removal'
+      ? 'Which entry is about you, and what should change or be removed? Say whether it is a correction or a removal.'
+      : 'What is wrong, and what should it say? For example: the quote is not on that page, or the person has died.';
+    $('#rp-gh').href = gh();
+  };
+  form.addEventListener('change', hint); form.addEventListener('input', hint); hint();
+  form.addEventListener('submit', async e => {
+    e.preventDefault();
+    const data = Object.fromEntries(new FormData(form));
+    if (data.message.trim().length < 5) { msg.textContent = 'Please say what is wrong, in a few words.'; msg.className = 'sg-msg err'; return; }
+    if (data.source_url.trim() && !/^https?:\/\//i.test(data.source_url.trim())) { msg.textContent = 'The source link should start with https:// (or leave it empty).'; msg.className = 'sg-msg err'; return; }
+    send.disabled = true; msg.textContent = 'Sending…'; msg.className = 'sg-msg';
+    try {
+      const r = await fetch('/api/report', {method: 'POST', headers: {'content-type': 'application/json'}, body: JSON.stringify(data)});
+      const out = await r.json().catch(() => ({}));
+      if (!r.ok) throw new Error(out.error || 'Could not send it. Please try again, or report it on GitHub.');
+      form.innerHTML = `<div class="sg-done"><h2>Thank you.</h2><p>We'll check it against the source and fix it if it is wrong.</p>
+        <p style="margin-top:18px"><a class="btn" href="/">Back to the register</a></p></div>`;
+    } catch (err) {
+      msg.textContent = err.message; msg.className = 'sg-msg err'; send.disabled = false;
+    }
+  });
+}
+
 // ---------- start ----------
 $('#menu').addEventListener('click', () => { const o = $('.top').classList.toggle('menu-open'); $('#menu').setAttribute('aria-expanded', String(o)); });
-$('#report-foot').href = issueUrl('Report: ');
+$('#report-foot').href = reportUrl();
 $('#repo-link').href = `https://github.com/${REPO}`;
 render(false).finally(() => document.body.classList.add('ready'));

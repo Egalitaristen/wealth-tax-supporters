@@ -898,6 +898,7 @@ body:not(.ready) .foot { visibility: hidden; }
 .suggest-foot { display: flex; align-items: center; gap: 16px; flex-wrap: wrap; }
 .sg-msg { font-size: 14px; color: var(--ink-2); }
 .sg-msg.err { color: var(--signal); }
+.suggest .field.pre { background: var(--paper-2); }
 .suggest .fine, .aside-card .fine { font-size: 13px; color: var(--ink-3); }
 .sg-done h2 { font: 400 34px/1.1 var(--serif); margin-bottom: 10px; }
 @media (max-width: 720px) { .suggest .pair { grid-template-columns: 1fr; } }

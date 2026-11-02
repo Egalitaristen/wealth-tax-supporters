@@ -59,11 +59,26 @@ python scripts/suggestions.py feedback                      # the new ones
 python scripts/suggestions.py fmark 1a2b3c4d done           # or wontfix, with an optional note
 ```
 
+### Mistake reports
+
+The `/report` page (every "Report" link on an entry, a source or a country page, and "Report a mistake" in the footer)
+posts to `/api/report`, which stores each report in the `reports` table of the same database (schema:
+`infra/d1/reports.sql`, created once with
+`npx wrangler d1 execute wts-suggestions --remote --file=infra/d1/reports.sql`; do this before deploying a Worker that
+has the endpoint). It is limited to 10 a day per sender and stores an optional source link (http or https only) and an
+email address only if the sender gives one. The page also offers a public GitHub issue as the alternative.
+
+```bash
+python scripts/suggestions.py reports                       # the new ones
+python scripts/suggestions.py rmark 1a2b3c4d done           # or wontfix, with an optional note
+```
+
 To run the Worker locally with a local copy of the database:
 
 ```bash
 npx wrangler d1 execute wts-suggestions --local --file infra/d1/suggestions.sql
 npx wrangler d1 execute wts-suggestions --local --file infra/d1/feedback.sql
+npx wrangler d1 execute wts-suggestions --local --file infra/d1/reports.sql
 python scripts/build_site.py && npx wrangler dev --local
 ```
 
