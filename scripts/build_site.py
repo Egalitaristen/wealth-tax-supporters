@@ -652,6 +652,11 @@ def share_pages(out, base, countries, full, unique=None, bodies=(), resources=()
           "feedback", "Feedback and bug reports", lambda o: cards.page_card(o, "Feedback", "Tell us what to fix or improve", "Feedback, ideas and bug reports. No account needed.",
                                     [("1", "Report a bug"), ("2", "Suggest an improvement"), ("3", "Flag a mistake")]))
 
+    write("/report", "Report a mistake · Wealth Tax Supporters",
+          "Something wrong in an entry, or want one about you removed or corrected? Tell us here. No account needed.",
+          "report", "Report a mistake", lambda o: cards.page_card(o, "Report", "Spotted a mistake?", "Wrong, broken or out of date? Tell us, with a source if you can.",
+                                    [("1", "Say which entry"), ("2", "Say what is wrong"), ("3", "Link a source")]))
+
     # The Parliaments page and the bodies above the countries (the European Parliament, the UN General Assembly): their own previews,
     # a seats page, and one page per sitting supporter.
     # Chambers, sitting supporters and seats across every country and body with a seat chart.

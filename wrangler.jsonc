@@ -15,6 +15,7 @@
   },
   "d1_databases": [
     // Suggestions from the /suggest form; schema in infra/d1/suggestions.sql. Review: python scripts/suggestions.py
+    // (feedback: infra/d1/feedback.sql; mistake reports: infra/d1/reports.sql)
     {"binding": "DB", "database_name": "wts-suggestions", "database_id": "922ea23d-2e29-42b6-abbb-5354ffd54f7e"}
   ],
   "workers_dev": true,
