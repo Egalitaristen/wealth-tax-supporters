@@ -1,0 +1,93 @@
+geo_unit_id,name,level,unit_type,parent_id,website,sweep_status,swept_run,swept_date,queries_run,hits,notes,code
+G0001,Costa Rica,national,country,,,pending,,,,,,
+G0002,San José,region,provincia,G0001,,pending,,,,,,CR1
+G0003,Alajuela,region,provincia,G0001,,pending,,,,,,CR2
+G0004,Cartago,region,provincia,G0001,,pending,,,,,,CR3
+G0005,Heredia,region,provincia,G0001,,pending,,,,,,CR4
+G0006,Guanacaste,region,provincia,G0001,,pending,,,,,,CR5
+G0007,Puntarenas,region,provincia,G0001,,pending,,,,,,CR6
+G0008,Limón,region,provincia,G0001,,pending,,,,,,CR7
+G0009,San José,council,cantón,G0002,,pending,,,,,,CR101
+G0010,Escazú,council,cantón,G0002,,pending,,,,,,CR102
+G0011,Desamparados,council,cantón,G0002,,pending,,,,,,CR103
+G0012,Puriscal,council,cantón,G0002,,pending,,,,,,CR104
+G0013,Tarrazú,council,cantón,G0002,,pending,,,,,,CR105
+G0014,Aserrí,council,cantón,G0002,,pending,,,,,,CR106
+G0015,Mora,council,cantón,G0002,,pending,,,,,,CR107
+G0016,Goicoechea,council,cantón,G0002,,pending,,,,,,CR108
+G0017,Santa Ana,council,cantón,G0002,,pending,,,,,,CR109
+G0018,Alajuelita,council,cantón,G0002,,pending,,,,,,CR110
+G0019,Vázquez de Coronado,council,cantón,G0002,,pending,,,,,,CR111
+G0020,Acosta,council,cantón,G0002,,pending,,,,,,CR112
+G0021,Tibás,council,cantón,G0002,,pending,,,,,,CR113
+G0022,Moravia,council,cantón,G0002,,pending,,,,,,CR114
+G0023,Montes de Oca,council,cantón,G0002,,pending,,,,,,CR115
+G0024,Turrubares,council,cantón,G0002,,pending,,,,,,CR116
+G0025,Dota,council,cantón,G0002,,pending,,,,,,CR117
+G0026,Curridabat,council,cantón,G0002,,pending,,,,,,CR118
+G0027,Pérez Zeledón,council,cantón,G0002,,pending,,,,,,CR119
+G0028,León Cortés Castro,council,cantón,G0002,,pending,,,,,,CR120
+G0029,Alajuela,council,cantón,G0003,,pending,,,,,,CR201
+G0030,San Ramón,council,cantón,G0003,,pending,,,,,,CR202
+G0031,Grecia,council,cantón,G0003,,pending,,,,,,CR203
+G0032,San Mateo,council,cantón,G0003,,pending,,,,,,CR204
+G0033,Atenas,council,cantón,G0003,,pending,,,,,,CR205
+G0034,Naranjo,council,cantón,G0003,,pending,,,,,,CR206
+G0035,Palmares,council,cantón,G0003,,pending,,,,,,CR207
+G0036,Poás,council,cantón,G0003,,pending,,,,,,CR208
+G0037,Orotina,council,cantón,G0003,,pending,,,,,,CR209
+G0038,San Carlos,council,cantón,G0003,,pending,,,,,,CR210
+G0039,Zarcero,council,cantón,G0003,,pending,,,,,,CR211
+G0040,Sarchí,council,cantón,G0003,,pending,,,,,,CR212
+G0041,Upala,council,cantón,G0003,,pending,,,,,,CR213
+G0042,Los Chiles,council,cantón,G0003,,pending,,,,,,CR214
+G0043,Guatuso,council,cantón,G0003,,pending,,,,,,CR215
+G0044,Río Cuarto,council,cantón,G0003,,pending,,,,,,CR216
+G0045,Cartago,council,cantón,G0004,,pending,,,,,,CR301
+G0046,Paraíso,council,cantón,G0004,,pending,,,,,,CR302
+G0047,La Unión,council,cantón,G0004,,pending,,,,,,CR303
+G0048,Jiménez,council,cantón,G0004,,pending,,,,,,CR304
+G0049,Turrialba,council,cantón,G0004,,pending,,,,,,CR305
+G0050,Alvarado,council,cantón,G0004,,pending,,,,,,CR306
+G0051,Oreamuno,council,cantón,G0004,,pending,,,,,,CR307
+G0052,El Guarco,council,cantón,G0004,,pending,,,,,,CR308
+G0053,Heredia,council,cantón,G0005,,pending,,,,,,CR401
+G0054,Barva,council,cantón,G0005,,pending,,,,,,CR402
+G0055,Santo Domingo,council,cantón,G0005,,pending,,,,,,CR403
+G0056,Santa Bárbara,council,cantón,G0005,,pending,,,,,,CR404
+G0057,San Rafael,council,cantón,G0005,,pending,,,,,,CR405
+G0058,San Isidro,council,cantón,G0005,,pending,,,,,,CR406
+G0059,Belén,council,cantón,G0005,,pending,,,,,,CR407
+G0060,Flores,council,cantón,G0005,,pending,,,,,,CR408
+G0061,San Pablo,council,cantón,G0005,,pending,,,,,,CR409
+G0062,Sarapiquí,council,cantón,G0005,,pending,,,,,,CR410
+G0063,Liberia,council,cantón,G0006,,pending,,,,,,CR501
+G0064,Nicoya,council,cantón,G0006,,pending,,,,,,CR502
+G0065,Santa Cruz,council,cantón,G0006,,pending,,,,,,CR503
+G0066,Bagaces,council,cantón,G0006,,pending,,,,,,CR504
+G0067,Carrillo,council,cantón,G0006,,pending,,,,,,CR505
+G0068,Cañas,council,cantón,G0006,,pending,,,,,,CR506
+G0069,Abangares,council,cantón,G0006,,pending,,,,,,CR507
+G0070,Tilarán,council,cantón,G0006,,pending,,,,,,CR508
+G0071,Nandayure,council,cantón,G0006,,pending,,,,,,CR509
+G0072,La Cruz,council,cantón,G0006,,pending,,,,,,CR510
+G0073,Hojancha,council,cantón,G0006,,pending,,,,,,CR511
+G0074,Puntarenas,council,cantón,G0007,,pending,,,,,,CR601
+G0075,Esparza,council,cantón,G0007,,pending,,,,,,CR602
+G0076,Buenos Aires,council,cantón,G0007,,pending,,,,,,CR603
+G0077,Montes de Oro,council,cantón,G0007,,pending,,,,,,CR604
+G0078,Osa,council,cantón,G0007,,pending,,,,,,CR605
+G0079,Quepos,council,cantón,G0007,,pending,,,,,,CR606
+G0080,Golfito,council,cantón,G0007,,pending,,,,,,CR607
+G0081,Coto Brus,council,cantón,G0007,,pending,,,,,,CR608
+G0082,Parrita,council,cantón,G0007,,pending,,,,,,CR609
+G0083,Corredores,council,cantón,G0007,,pending,,,,,,CR610
+G0084,Garabito,council,cantón,G0007,,pending,,,,,,CR611
+G0085,Monteverde,council,cantón,G0007,,pending,,,,,,CR612
+G0086,Puerto Jiménez,council,cantón,G0007,,pending,,,,,,CR613
+G0087,Limón,council,cantón,G0008,,pending,,,,,,CR701
+G0088,Pococí,council,cantón,G0008,,pending,,,,,,CR702
+G0089,Siquirres,council,cantón,G0008,,pending,,,,,,CR703
+G0090,Talamanca,council,cantón,G0008,,pending,,,,,,CR704
+G0091,Matina,council,cantón,G0008,,pending,,,,,,CR705
+G0092,Guácimo,council,cantón,G0008,,pending,,,,,,CR706

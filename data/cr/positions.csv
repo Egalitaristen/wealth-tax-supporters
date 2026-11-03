@@ -1,0 +1,4 @@
+position_id,actor_id,body_id,role,party,geo_unit_id,start,end,current,member_ref,checked,source_url
+O00001,A0001,B0001,Deputy,National Liberation Party,,2018,2022,,,,https://delfino.cr/asamblea/proyecto/22113
+O00002,A0002,B0001,Deputy,Citizens' Action Party,,2018,2022,,,,https://delfino.cr/asamblea/congresistas/paola-viviana-vega-rodriguez
+O00003,A0003,B0001,Deputy; head of the Frente Amplio group,Frente Amplio,,2018,,,,,https://delfino.cr/asamblea/proyecto/21883

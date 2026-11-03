@@ -1,0 +1,8 @@
+# Costa Rica (data/cr)
+
+- **Geography:** 7 provincias and 84 cantones from the [OCHA / HDX COD-AB Costa Rica](https://data.humdata.org/dataset/cod-ab-cri) GeoJSON (valid 2024-12-03, CC BY-IGO), P-codes `CR1` to `CR7` and `CR101` upwards; the 489 distritos (admin 3) are not loaded. Before `topo_to_boundaries.py`, drop the Isla del Coco polygons from the Puntarenas MultiPolygon (parts with maximum latitude below 7.5) or the mainland shrinks to a corner of the frame. Then run it for admin 2 (`--name-prop adm2_name --code-prop adm2_pcode`) and admin 1 (`adm1_name`, `adm1_pcode`) with `--project lonlat --scale 100 --simplify 0.2`, and merge with `merge_boundaries.py units.json --regions prov.json`.
+- **Seats:** no adapter. The Asamblea Legislativa has 57 deputies elected by province; positions are recorded with `current` blank.
+- **Sources that work:** elmundo.cr, observador.cr, delfino.cr (a page for every bill: `delfino.cr/asamblea/proyecto/<expediente>` gives state, committee and principal signatory), semanariouniversidad.com, teletica.com, larepublica.net, and `proyectos.conare.ac.cr/asamblea/<expediente>.pdf` for bill texts. Observador's page text starts with a long menu: search for the article title.
+- **Sources that block scripts:** frenteamplio.org and tse.go.cr answered a script with an error page (the party programmes were not read).
+- **Quirks:** "impuesto solidario" in Costa Rica also means the luxury-homes tax (Ley 8683) and the company levy of 2003; read the bill, not the name. The 2020 wave was the COVID-19 emergency, so bills are mostly one-off levies.
+- **Wikidata:** `match_wikidata.py` has no entry for `CR`; QIDs were looked up by hand. Wikidata search rate-limits after about ten calls.
