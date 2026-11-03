@@ -43,6 +43,7 @@ Seed pass of 2026-11-03 (run R001). Every line has a source; web-search summarie
 ## 12. Searched, nothing found
 - Nothing found: an MP bill or motion for a wealth tax; a TUC Ghana, GAWU or ICU call for one; a church council call; a party manifesto plank; a poll on a wealth tax in Ghana.
 - Rejected as out of definition (see `exclusions.csv`): Bokpin's February 2025 call on high-net-worth taxation, the Tax Justice Coalition's "direct taxes on incomes, wealth and property", Vitus Azeem's property tax, Daniel Domelevo's source-of-wealth law, the 2018 high-net-worth income tax.
+- Round 2 (R002), nothing new: web searches for Hansard debates, Mahama or NDC statements, TUC Ghana, GAWU, Catholic and Christian Council statements and ISSER/IFS economists found no wealth-tax call. The NDC 2024 manifesto (abridged PDF) and Mahama's campaign document contain no wealth-tax wording. Prof Peter Quartey (ISSER) wants the rich taxed through property rates only (excluded). parliament.gh's search answers scripts with a redirect and empty body, so Hansard itself was not read.
 - Not done: `archive_url` is empty (the Wayback lookup was not run).
 - Quotes: all 7 checked by `checkquotes` (7 found, 0 missing).
 
