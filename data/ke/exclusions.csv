@@ -1,0 +1,7 @@
+exclusion_id,name,reason,detail,source_url,run_id
+X0001,Julius Muia,insufficient_evidence,"Treasury Principal Secretary in March 2021: Treasury was ""in discussions over the wealth tax"", no position.",https://www.businessdailyafrica.com/bd/economy/treasury-plans-wealth-tax-to-fix-july-budget-3317572,R001
+X0002,John Kitui,insufficient_evidence,"Oxfam in Kenya country director; the quote found is about low taxes on the richest, not a wealth tax. Oxfam in Kenya itself is recorded.",https://kenya.oxfam.org/node/188,R001
+X0003,Ruth Odinga,out_of_definition,Kisumu Woman Representative: luxury sectors such as aviation should pay more (a sector tax).,https://www.the-star.co.ke/business/2026-05-28-activists-ask-state-to-mobilise-sh129-billion-from-rich-kenyans,R001
+X0004,Francis Atwoli,out_of_definition,"COTU: asked to tax ""heavily"" people who acquired property through dubious means (2018); an anti-corruption measure, not a wealth tax.",https://www.the-star.co.ke/news/2018-09-12-scrap-16-fuel-levy-kenyans-are-suffering-atwoli/,R001
+X0005,Ole Sapit and the church councils,insufficient_evidence,Opposed tax rises on ordinary Kenyans and pointed to leakages; no call to tax wealth found.,https://www.kenyanews.go.ke/sapit-urges-state-to-ease-the-tax-burden/,R001
+X0006,Kenya Finance Bill 2024 vehicle circulation tax,out_of_definition,"Press loosely called the annual motor-vehicle levy a ""wealth tax""; it is a vehicle tax, withdrawn after the protests.",https://techcabal.com/2024/06/21/as-president-ruto-digs-in-on-finance-bill-kenyan/,R001
