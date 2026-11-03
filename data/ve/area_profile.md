@@ -10,7 +10,7 @@ Seed pass of 2026-11-03 (run R001). Lines marked `[verify]` come from a search s
 
 ## 2. Wealth tax history and live proposals (2010 onwards)
 - **Impuesto a los Grandes Patrimonios (IGP):** created by the "Ley Constitucional" of the 2017 National Constituent Assembly (ANC), dated 2 July 2019 and published in Gaceta Oficial 41.667 of 3 July 2019, reprinted for material errors in Gaceta 41.696 of 16 August 2019 ([El Español / EFE, 3 Jul 2019](https://www.elespanol.com/invertia/economia/20190703/constituyente-chavista-aprueba-impuesto-grandes-patrimonios/410960325_0.html); [reprint](https://www.venamcham.org/wp-content/uploads/2021/11/Gaceta-Oficial-41696-Ley-Impuesto-Patrimonio-Reimpresion.pdf)). It taxes the net wealth of individuals and companies that the tax authority classes as special taxpayers; the reprint set the entry threshold at 150 million tax units (the first text said 36 million for individuals and 100 million for companies). Rate: 0.25% to 1.5%, fixed by the Executive; 0.25% since 2019. Accrual date: 30 September each year.
-- **Status: in force and collected.** A Forvis Mazars note of September 2023 calls it the fifth year of application and says the rate has been 0.25% since the start ([Forvis Mazars](https://www.forvismazars.com/ve/es/insights/forvis-mazars-insights/breves-comentarios-sobre-el-igp)); a Crowe bulletin on the September closing treats it as a current duty `[verify]`. The Gaceta Oficial and Seniat were not read for 2025 or 2026, so nothing is known about a change under the authorities of 2026.
+- **Status: in force and collected.** The tax authority itself opened the 2023-24 filing and payment period on 2 October 2024 ([Seniat via the Ministry of Economy and Finance](https://www.mppef.gob.ve/seniat-inicia-plazo-para-declaracion-y-pago-del-impuesto-a-los-grandes-patrimonios/)); a Forvis Mazars note of September 2023 calls it the fifth year of application at 0.25% ([Forvis Mazars](https://www.forvismazars.com/ve/es/insights/forvis-mazars-insights/breves-comentarios-sobre-el-igp)); a 2026 practitioner guide treats the 2026 filing as due and values the threshold at the September 2025 tax unit ([Nayma Consultores](https://naymaconsultores.com/claves-para-declarar-impuesto-a-los-grandes-patrimonios/)). The 2026 Seniat calendar (Providencia SNAT/2025/000091) is cited by practitioners only `[verify]`; the Gaceta of 2026 was not read.
 - **Legitimacy:** the ANC is not recognised by much of the international community, and the opposition-aligned press and Fedecámaras criticised the tax (`leads.csv`). A 2020 legal book on the tax questions the ANC's competence to create it (Meleán Brito, Universidad de los Andes).
 - **May 2023:** Acción Democrática deputy Luis Eduardo Martínez said he would promote a "Ley de Impuesto al Patrimonio" for Venezuelans abroad, mainly to register their assets ([Diario Las Américas](https://www.diariolasamericas.com/america-latina/proponen-impuesto-bienes-venezolanos-el-exterior-n5335542/amp)). No bill was found.
 - **Out of definition:** the Impuesto a las Grandes Transacciones Financieras (IGTF, a tax on payments), the 2018 VAT reform and the income-tax advances. Recorded in `exclusions.csv`.
@@ -31,14 +31,14 @@ Seed pass of 2026-11-03 (run R001). Lines marked `[verify]` come from a search s
 - El Español / EFE, Diario Las Américas, NTN24, La Patilla and Aporrea (both answered a bot check and were not read), finanzasdigital.com, law-firm bulletins (PwC, Forvis Mazars, Crowe, Travieso Evans).
 
 ## 9. Known networks
-- None found yet. The law went through the ANC en bloque, and no party, union, economist or NGO statement for it turned up.
+- Chavista institutions only: the ANC board (Cabello, Díaz), the Seniat and one health-workers union leader (Fenasirtrasalud). The law went through the ANC en bloque. No statement by a party as such, a confederation (CTV, UNETE, CBST, ASI), an NGO or an economist turned up; opposition voices and Fedecámaras oppose the tax.
 
 ## 10. Plan for the next runs
-1. Gaceta Oficial 41.667, the ANC site and the session of 2 July 2019: signatories and speakers.
+1. The ANC site and the TSJ Gaceta archive for the other board signatures and the session of 2 July 2019.
 2. Aporrea, PCV, CTV, CBST and UNETE statements, with a browser.
 3. Venezuelan names in international letters (Patriotic Millionaires, G20 economists, Oxfam).
-4. Confirm the IGP is still collected in 2026.
+4. Read the 2026 Seniat calendar in the Gaceta; CENDES and Observatorio Venezolano de Finanzas by name.
 
 ## 12. Searched, nothing found
 - Searched, nothing found: a deputy's wealth-tax bill in the Asamblea Nacional apart from the 2023 announcement; PCV, union, church, UCV/UCAB/CENDES or Oxfam statements; the Venezuelan government's position on the G20 billionaire tax; any poll.
-- Left out on purpose: Seniat head José David Cabello (the 2018 reform is not a wealth tax); the ANC board (Diosdado Cabello and others) until their signature on the law itself is read.
+- Left out on purpose: Seniat head José David Cabello (the 2018 reform is not a wealth tax; the 2024 notice quotes no one); the other ANC board members (Requena, Vásquez, Pérez), who sign only the 2019 correction notice; the 2022 IGTF reform (a transaction tax).
