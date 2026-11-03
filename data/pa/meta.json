@@ -1,0 +1,8 @@
+{
+  "name": "Panama",
+  "iso2": "PA",
+  "lead": "Egalitaristen",
+  "status": "in progress",
+  "boundaries": "boundaries.json",
+  "notes": "Seed pass (national level, no regional or local sweep). Register: the 13 first-level areas (10 provincias and 3 comarcas indígenas with provincial status) as regions and the 76 distritos (municipios, which elect an alcalde and a concejo) as the local tier; the 594 corregimientos are not loaded. Map and codes: OCHA / HDX COD-AB Panama (valid 2021-10-20, INEC codes), CC BY-IGO. No seats adapter: the Asamblea Nacional member list was not read, so no seat chart and no positions. Result: no Panamanian supporter of an actual net-wealth levy was found; the only entry is Oxfam's regional Central America report (see area_profile.md)."
+}

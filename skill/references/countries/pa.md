@@ -1,0 +1,7 @@
+# Panama (data/pa)
+
+- **Geography:** 13 first-level areas (10 provincias, 3 comarcas indígenas) and 76 distritos from the OCHA / HDX COD-AB Panama GeoJSON (valid 2021-10-20, INEC codes, CC BY-IGO); codes are the OCHA P-codes (`PA01`, `PA0101`). The 594 corregimientos (`pan_admin3`) are not loaded. Run `topo_to_boundaries.py` on `pan_admin2.geojson` (`--name-prop adm2_name --code-prop adm2_pcode`) and on `pan_admin1.geojson` (`adm1_name`, `adm1_pcode`), both with `--project lonlat --scale 100 --simplify 0.2`, then merge with `merge_boundaries.py units.json --regions regions.json`. The source string passed on the command line has to be edited back to words afterwards.
+- **Seats:** no adapter. The Asamblea Nacional (71 deputies) member list was not read.
+- **Sources that work:** panamaamerica.com.pa, laestrella.com.pa, prensa.com (search snippets only), mef.gob.pa and the Oxfam LAC site. The Legispan store (`s3-legispan.asamblea.gob.pa`) holds minutes, Gazette and bills as PDFs and shows up in search; its bill search was not run. elsoca.org answers 403.
+- **Context:** Panama has a property tax (impuesto de inmuebles, Ley 66 of 2017) and no net-wealth tax. The 2026 Ley 526 taxes multinationals without substance at 15%; the debate is about EU blacklisting, not personal wealth. First pass found no Panamanian supporter, so expect a thin register.
+- **Wikidata:** `match_wikidata.py` has no entry for `PA`; add one when people are recorded.

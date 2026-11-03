@@ -1,0 +1,16 @@
+query_id,run_id,date,language,query,channel,results_opened,leads_added,note
+Q0001,R001,2026-11-03,es,Panamá impuesto a las grandes fortunas patrimonio diputado anteproyecto,web,1,0,"Only Argentine, Chilean, Spanish and Paraguayan results."
+Q0002,R001,2026-11-03,es,Panamá impuesto a la riqueza Frenadeso Conato Suntracs Universidad de Panamá,web,3,2,No wealth-tax statement.
+Q0003,R001,2026-11-03,en,Panama wealth tax billionaires proposal Asamblea Nacional deputy,web,2,0,Only the 15% shell-company tax.
+Q0004,R001,2026-11-03,es,Panamá impuesto al patrimonio diputado Vamos Frente Amplio por la Democracia Otro Camino,web,0,0,Nothing on Panama.
+Q0005,R001,2026-11-03,es,Panamá gravar las grandes fortunas reforma Caja de Seguro Social 2025,web,2,0,Law 462 changed contributions; no wealth tax.
+Q0006,R001,2026-11-03,es,Janine Prado Ernesto Cedeño Betserai Richards Jhonathan Vega impuesto riqueza,web,0,0,No wealth-tax statement.
+Q0007,R001,2026-11-03,es,economista panameño impuesto al patrimonio Jované Argote Universidad de Panamá,web,3,0,Only exemptions and property-tax papers; both excluded.
+Q0008,R001,2026-11-03,es,Mulino impuesto a los ricos riqueza patrimonio Panamá,web,0,0,Only the 15% substance law.
+Q0009,R001,2026-11-03,es,Panamá pandemia 2020 diputado impuesto solidario grandes fortunas,web,0,0,Argentine results only.
+Q0010,R001,2026-11-03,es,Oxfam Latindadd CEPAL Panamá impuesto sobre la riqueza,web,3,2,Oxfam Central America report found.
+Q0011,R001,2026-11-03,es,Panamá proyecto de ley impuesto a la riqueza prohijado,web,0,0,None.
+Q0012,R001,2026-11-03,es,Alianza Pueblo Unido por la Vida Panamá pliego impuestos ricos,web,0,0,"Profit margins and evasion, no wealth tax."
+Q0013,R001,2026-11-03,es,Movimiento Otro Camino Frente Amplio por la Democracia Partido Panameñista reforma tributaria patrimonio,web,0,0,None.
+Q0014,R001,2026-11-03,es,Panamá Cáritas Conferencia Episcopal impuesto riqueza arzobispo Ulloa,web,0,0,Archbishop speaks on corruption and inequality only.
+Q0015,R001,2026-11-03,en,Panama wealth tax Oxfam Tax Justice Latindadd ICRICT Panamanian supporter,web,0,1,Panama Papers press release only.
