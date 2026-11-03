@@ -62,3 +62,12 @@ Seed pass of 2026-11-03 (run R001). Every line has a source; lines marked `[veri
 | Gen Z / civil-society demands | 2 | Slogan "Tax the Rich, Not the Hustlers"; no written demand naming a net-wealth levy found. Okoa Kenya (28 organisations) objected to exemptions for the wealthy, not a wealth tax. Dropped. |
 | UN tax convention, AU, G20 | 3 | Kenya speaks for the African Group on Article 6 (high-net-worth individuals) but no Kenyan call for a wealth tax was found; a KHRC statement at INC-5 is reported second-hand (open lead). |
 | Think tank and NGO staff | 2 | Productive: Star (10 Sept 2026) and International Lawyers Project (Oct 2026) added three actors and a second IPF and KHRC row. |
+
+### Round 3 (2026-11-03)
+| Direction | Searches | Result |
+|---|---|---|
+| Kenyans in the other registers and leads (`data/leads.csv`, `data/un`, `data/eu`, `data/supranational.json`, all `actors.csv`) | grep | No Kenyan actor elsewhere; the three Kenya leads (IPF, Ruto, NTA) were already covered. Dropped. |
+| Kenyan economists, academics, NGO leaders | 3 | Only the NTA and IPF authors recur. Lyla Latif's own SSRN brief (24 Sept 2025) upgrades her to A. KIPPRA, Strathmore, IEA Kenya, SID, Okoa Uchumi, Hakijamii, TI Kenya, Bunge la Mwananchi: nothing found. Columns by Faustine Mwinzi (weighs it) and Baston Woodland (opposes) are exclusions. |
+| Global documents (Oxfam, TJNA, ATAF, UNECA, AU panel) | 2 | The Kenya Fair Tax Monitor 2022 counts property and capital gains as "wealth taxes" (out of definition). No Kenyan signatory or author found. Dropped. |
+| Polls (Afrobarometer, TIFA, Infotrak, Mizani) | 1 | None found; Ipsos/Earth4All remains the only poll (open lead D0003). |
+| Papers | - | Added to `resources_proposed.jsonl`: Latif's SSRN brief. |
