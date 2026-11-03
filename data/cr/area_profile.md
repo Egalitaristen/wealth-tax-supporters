@@ -63,6 +63,13 @@ Seed pass of 2026-11-03 (run R001). Lines marked `[verify]` come from a search s
 - **Students (FEUCR), APSE, ANDE, SEC, church:** two searches each, only budget (FEES) disputes and no wealth-tax statement. Dropped.
 - **Signers:** the 25 signers were not checked for a date of death individually (assumed alive; three with a Wikidata entry show none); their profession was not checked.
 
+## 11c. Directions tried in round 4 (2026-11-03) and their yield
+- **Frente Amplio deputies, mayors and candidates:** the 2022 government plan was read (inheritance, profit and transaction taxes; no net-wealth tax: exclusion). Villalta is recorded for bill 21.883; Román, Trejos, Araya and Segura appear only for anti-evasion bills and the passive-income tax (24.206). Nothing for PLN, PAC or PPSD members beyond Nicolás, Vega and Alvarado. Dropped.
+- **Latin American letters (CELAG, CLACSO, Justicia Fiscal, G20 billionaire tax, Oxfam LAC):** one extended search, no Costa Rican signer found. The Zucman-tax study of April 2026 covers seven other countries. Dropped.
+- **Unions, universities, churches:** nothing new beyond ANEP, BUSSCO, SITRASEP, CNE, Grupo Economía Pluralista; FEUCR, APSE, ANDE, SEC, Lutheran, Jesuit and episcopal sources gave no wealth-tax statement. Dropped.
+- **Think tanks and columnists (CIEP, IICE, Estado de la Nación, ICEFI, Colegio de Economistas, press):** no recommendation of a net-wealth tax found; the 2021 article by Esteban Arias (UCR) analyses and does not recommend. Dropped.
+- **Seat chart and bill states:** unchanged; no adapter, and the Assembly site is unreachable from here.
+
 ## 12. Searched, nothing found
 - Searched, nothing found: a bishops' or archbishop's call for a wealth tax; a poll on a wealth tax; any 2022 to 2026 bill on net wealth; positions of APSE and Rerum Novarum (ANDE only objected to the IMF package); G20 billionaire-tax statements by a Costa Rican official.
 - Left out on purpose: Eduardo Cruickshank (died 2025); the UCR open letter to 100 business owners (asks for a voluntary solidarity fund); Paola Vega's own bill (income surcharge).
