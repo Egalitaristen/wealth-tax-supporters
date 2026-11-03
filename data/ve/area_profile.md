@@ -39,6 +39,19 @@ Seed pass of 2026-11-03 (run R001). Lines marked `[verify]` come from a search s
 3. Venezuelan names in international letters (Patriotic Millionaires, G20 economists, Oxfam).
 4. Read the 2026 Seniat calendar in the Gaceta; CENDES and Observatorio Venezolano de Finanzas by name.
 
+## 11. Directions tried and their yield
+| Direction | Searches | Yield |
+|---|---|---|
+| Law, Gaceta, practitioner notes (R001-R002) | 6 | The law, its status, the signatures of Díaz and Cabello, the Seniat notice |
+| Press of the time (El Universal, El Español, Efecto Cocuyo, CEDICE) (R003) | 3 | Camacho and a second quote of Méndez; the rest is criticism of the tax (Efecto Cocuyo: economist Rosamnis Marcano, lawyer Valentina Cabrera) |
+| Left parties and groups (PCV, Marea Socialista, Bandera Roja) (R003) | 2 | Nothing usable: PCV calls for "elevación del impuesto al capital" (excluded) |
+| Maduro and ministers (R003) | 1 | Only the IGTF, out of definition |
+| Unions (R002-R003) | 2 | One union leader (grade C) |
+| UN and G20 delegates, letters (R002-R003) | 3 | Nothing: no Venezuelan statement found |
+| Church and NGOs (R003) | 1 | Nothing on a wealth tax |
+| Economists, think tanks (R002-R003) | 3 | Nothing in favour; critics only |
+Dropped after two or three empty searches: the G20 and UN direction, the church, the left groups. Not yet tried: the ANC Diario de Debates (TSJ server down), Telesur and Correo del Orinoco directly, Aporrea with a browser.
+
 ## 12. Searched, nothing found
 - Searched, nothing found: a deputy's wealth-tax bill in the Asamblea Nacional apart from the 2023 announcement; PCV, union, church, UCV/UCAB/CENDES or Oxfam statements; the Venezuelan government's position on the G20 billionaire tax; any poll.
 - Left out on purpose: Seniat head José David Cabello (the 2018 reform is not a wealth tax; the 2024 notice quotes no one); the other ANC board members (Requena, Vásquez, Pérez), who sign only the 2019 correction notice; the 2022 IGTF reform (a transaction tax).
