@@ -71,3 +71,11 @@ Seed pass of 2026-11-03 (run R001). Every line has a source; lines marked `[veri
 | Global documents (Oxfam, TJNA, ATAF, UNECA, AU panel) | 2 | The Kenya Fair Tax Monitor 2022 counts property and capital gains as "wealth taxes" (out of definition). No Kenyan signatory or author found. Dropped. |
 | Polls (Afrobarometer, TIFA, Infotrak, Mizani) | 1 | None found; Ipsos/Earth4All remains the only poll (open lead D0003). |
 | Papers | - | Added to `resources_proposed.jsonl`: Latif's SSRN brief. |
+
+### Round 4 (2026-11-03)
+| Direction | Result |
+|---|---|
+| The actors' own pages | Only the NTA site added a statement: Patrick Nyangweso's opening remarks of 28 Oct 2025 (A0005). Oxfam in Kenya, IPF and KHRC pages gave nothing beyond what is cited; personal social accounts were not opened. |
+| Authors and endorsers of cited documents | The NTA report names Latif as author; Irene Otieno, Tedd Awour, John Thomi and Karanja Chege reviewed it (reviewers, not recorded) and a list of institutions took part in interviews (not recorded). The IPF paper names Murakaru (author), Veronicah Ndegwa, Jason Lakin (reviewer), James Muraguri and Daniel Ndirangu (IPF leaders): no wealth-tax statement of their own yet. |
+| Columnists | The Business Daily, Star and Kenya Times pieces found are already handled; The Nation, Elephant, Africa Uncensored and The Continent returned nothing. |
+| Verdict | Small entry: 16 actors, 20 evidence rows, all organisations or individuals in the policy-advocacy layer. See the pull request. |
