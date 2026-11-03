@@ -1,0 +1,278 @@
+geo_unit_id,name,level,unit_type,parent_id,website,sweep_status,swept_run,swept_date,queries_run,hits,notes,code
+G0001,Ghana,national,country,,,pending,,,,,,
+G0002,Ahafo,region,region,G0001,,pending,,,,,,GH01
+G0003,Ashanti,region,region,G0001,,pending,,,,,,GH02
+G0004,Bono,region,region,G0001,,pending,,,,,,GH03
+G0005,Bono East,region,region,G0001,,pending,,,,,,GH04
+G0006,Central,region,region,G0001,,pending,,,,,,GH05
+G0007,Eastern,region,region,G0001,,pending,,,,,,GH06
+G0008,Greater Accra,region,region,G0001,,pending,,,,,,GH07
+G0009,Northern,region,region,G0001,,pending,,,,,,GH08
+G0010,North East,region,region,G0001,,pending,,,,,,GH09
+G0011,Oti,region,region,G0001,,pending,,,,,,GH10
+G0012,Savannah,region,region,G0001,,pending,,,,,,GH11
+G0013,Upper East,region,region,G0001,,pending,,,,,,GH12
+G0014,Upper West,region,region,G0001,,pending,,,,,,GH13
+G0015,Volta,region,region,G0001,,pending,,,,,,GH14
+G0016,Western,region,region,G0001,,pending,,,,,,GH15
+G0017,Western North,region,region,G0001,,pending,,,,,,GH16
+G0018,Asunafo North Municipal,council,municipal assembly,G0002,,pending,,,,,,GH0101
+G0019,Asunafo South,council,district assembly,G0002,,pending,,,,,,GH0102
+G0020,Asutifi North,council,district assembly,G0002,,pending,,,,,,GH0103
+G0021,Asutifi South,council,district assembly,G0002,,pending,,,,,,GH0104
+G0022,Tano North Municipal,council,municipal assembly,G0002,,pending,,,,,,GH0105
+G0023,Tano South Municipal,council,municipal assembly,G0002,,pending,,,,,,GH0106
+G0024,Adansi Akrofuom,council,district assembly,G0003,,pending,,,,,,GH0201
+G0025,Adansi Asokwa,council,district assembly,G0003,,pending,,,,,,GH0202
+G0026,Adansi North,council,district assembly,G0003,,pending,,,,,,GH0203
+G0027,Adansi South,council,district assembly,G0003,,pending,,,,,,GH0204
+G0028,Afigya Kwabre North,council,district assembly,G0003,,pending,,,,,,GH0205
+G0029,Afigya Kwabre South,council,district assembly,G0003,,pending,,,,,,GH0206
+G0030,Ahafo Ano North,council,district assembly,G0003,,pending,,,,,,GH0207
+G0031,Ahafo Ano South East,council,district assembly,G0003,,pending,,,,,,GH0208
+G0032,Ahafo Ano South West,council,district assembly,G0003,,pending,,,,,,GH0209
+G0033,Amansie Central,council,district assembly,G0003,,pending,,,,,,GH0210
+G0034,Amansie South,council,district assembly,G0003,,pending,,,,,,GH0211
+G0035,Amansie West,council,district assembly,G0003,,pending,,,,,,GH0212
+G0036,Asante Akim Central Municipal,council,municipal assembly,G0003,,pending,,,,,,GH0213
+G0037,Asante Akim North,council,district assembly,G0003,,pending,,,,,,GH0214
+G0038,Asante Akim South,council,district assembly,G0003,,pending,,,,,,GH0215
+G0039,Asokore Mampong Municipal,council,municipal assembly,G0003,,pending,,,,,,GH0216
+G0040,Asokwa  Municipal,council,municipal assembly,G0003,,pending,,,,,,GH0217
+G0041,Atwima Kwanwoma,council,district assembly,G0003,,pending,,,,,,GH0218
+G0042,Atwima Mponua,council,district assembly,G0003,,pending,,,,,,GH0219
+G0043,Atwima Nwabiagya North,council,district assembly,G0003,,pending,,,,,,GH0220
+G0044,Atwima Nwabiagya South,council,district assembly,G0003,,pending,,,,,,GH0221
+G0045,Bekwai Municipal,council,municipal assembly,G0003,,pending,,,,,,GH0222
+G0046,Bosome Freho,council,district assembly,G0003,,pending,,,,,,GH0223
+G0047,Bosomtwe,council,district assembly,G0003,,pending,,,,,,GH0224
+G0048,Ejisu Municipal,council,municipal assembly,G0003,,pending,,,,,,GH0225
+G0049,Ejura-Sekyedumase,council,district assembly,G0003,,pending,,,,,,GH0226
+G0050,Juaben Municipal,council,municipal assembly,G0003,,pending,,,,,,GH0227
+G0051,Kumasi Metropolitan,council,metropolitan assembly,G0003,,pending,,,,,,GH0228
+G0052,Kwabre East,council,district assembly,G0003,,pending,,,,,,GH0229
+G0053,Kwadaso Municipal,council,municipal assembly,G0003,,pending,,,,,,GH0230
+G0054,Mampong Municipal,council,municipal assembly,G0003,,pending,,,,,,GH0231
+G0055,Obuasi East,council,district assembly,G0003,,pending,,,,,,GH0232
+G0056,Obuasi Municipal,council,municipal assembly,G0003,,pending,,,,,,GH0233
+G0057,Offinso Municipal,council,municipal assembly,G0003,,pending,,,,,,GH0234
+G0058,Offinso North,council,district assembly,G0003,,pending,,,,,,GH0235
+G0059,Oforikrom Municipal,council,municipal assembly,G0003,,pending,,,,,,GH0236
+G0060,Old Tafo Municipal,council,municipal assembly,G0003,,pending,,,,,,GH0237
+G0061,Sekyere Afram Plains North,council,district assembly,G0003,,pending,,,,,,GH0238
+G0062,Sekyere Central,council,district assembly,G0003,,pending,,,,,,GH0239
+G0063,Sekyere East,council,district assembly,G0003,,pending,,,,,,GH0240
+G0064,Sekyere Kumawu,council,district assembly,G0003,,pending,,,,,,GH0241
+G0065,Sekyere South,council,district assembly,G0003,,pending,,,,,,GH0242
+G0066,Suame Municipal,council,municipal assembly,G0003,,pending,,,,,,GH0243
+G0067,Banda,council,district assembly,G0004,,pending,,,,,,GH0301
+G0068,Berekum East Municipal,council,municipal assembly,G0004,,pending,,,,,,GH0302
+G0069,Berekum West,council,district assembly,G0004,,pending,,,,,,GH0303
+G0070,Dormaa East,council,district assembly,G0004,,pending,,,,,,GH0304
+G0071,Dormaa Municipal,council,municipal assembly,G0004,,pending,,,,,,GH0305
+G0072,Dormaa West,council,district assembly,G0004,,pending,,,,,,GH0306
+G0073,Jaman North,council,district assembly,G0004,,pending,,,,,,GH0307
+G0074,Jaman South Municipal,council,municipal assembly,G0004,,pending,,,,,,GH0308
+G0075,Sunyani Municipal,council,municipal assembly,G0004,,pending,,,,,,GH0309
+G0076,Sunyani West,council,district assembly,G0004,,pending,,,,,,GH0310
+G0077,Tain,council,district assembly,G0004,,pending,,,,,,GH0311
+G0078,Wenchi Municipal,council,municipal assembly,G0004,,pending,,,,,,GH0312
+G0079,Atebubu Amantin,council,district assembly,G0005,,pending,,,,,,GH0401
+G0080,Kintampo North Municipal,council,municipal assembly,G0005,,pending,,,,,,GH0402
+G0081,Kintampo South,council,district assembly,G0005,,pending,,,,,,GH0403
+G0082,Nkoranza North,council,district assembly,G0005,,pending,,,,,,GH0404
+G0083,Nkoranza South,council,district assembly,G0005,,pending,,,,,,GH0405
+G0084,Pru East,council,district assembly,G0005,,pending,,,,,,GH0406
+G0085,Pru West,council,district assembly,G0005,,pending,,,,,,GH0407
+G0086,Sene East,council,district assembly,G0005,,pending,,,,,,GH0408
+G0087,Sene West,council,district assembly,G0005,,pending,,,,,,GH0409
+G0088,Techiman Municipal,council,municipal assembly,G0005,,pending,,,,,,GH0410
+G0089,Techiman North,council,district assembly,G0005,,pending,,,,,,GH0411
+G0090,Abura-Asebu-Kwamankese,council,district assembly,G0006,,pending,,,,,,GH0501
+G0091,Agona East,council,district assembly,G0006,,pending,,,,,,GH0502
+G0092,Agona West Municipal,council,municipal assembly,G0006,,pending,,,,,,GH0503
+G0093,Ajumako-Enyan-Essiam,council,district assembly,G0006,,pending,,,,,,GH0504
+G0094,Asikuma-Odoben-Brakwa,council,district assembly,G0006,,pending,,,,,,GH0505
+G0095,Assin Fosu,council,district assembly,G0006,,pending,,,,,,GH0506
+G0096,Assin North,council,district assembly,G0006,,pending,,,,,,GH0507
+G0097,Assin South,council,district assembly,G0006,,pending,,,,,,GH0508
+G0098,Awutu Senya,council,district assembly,G0006,,pending,,,,,,GH0509
+G0099,Awutu Senya East,council,district assembly,G0006,,pending,,,,,,GH0510
+G0100,Cape Coast Metropolitan,council,metropolitan assembly,G0006,,pending,,,,,,GH0511
+G0101,Effutu Municipal,council,municipal assembly,G0006,,pending,,,,,,GH0512
+G0102,Ekumfi,council,district assembly,G0006,,pending,,,,,,GH0513
+G0103,Gomoa Central,council,district assembly,G0006,,pending,,,,,,GH0514
+G0104,Gomoa East,council,district assembly,G0006,,pending,,,,,,GH0515
+G0105,Gomoa West,council,district assembly,G0006,,pending,,,,,,GH0516
+G0106,Komenda-Edina-Eguafo-Abirem Municipal,council,municipal assembly,G0006,,pending,,,,,,GH0517
+G0107,Mfantseman Municipal,council,municipal assembly,G0006,,pending,,,,,,GH0518
+G0108,Twifo Atti-Morkwa,council,district assembly,G0006,,pending,,,,,,GH0519
+G0109,Twifo Hemang Lower Denkyira,council,district assembly,G0006,,pending,,,,,,GH0520
+G0110,Upper Denkyira East Municipal,council,municipal assembly,G0006,,pending,,,,,,GH0521
+G0111,Upper Denkyira West,council,district assembly,G0006,,pending,,,,,,GH0522
+G0112,Abuakwa North,council,district assembly,G0007,,pending,,,,,,GH0601
+G0113,Abuakwa South,council,district assembly,G0007,,pending,,,,,,GH0602
+G0114,Achiase,council,district assembly,G0007,,pending,,,,,,GH0603
+G0115,Akwapem North,council,district assembly,G0007,,pending,,,,,,GH0604
+G0116,Akwapem South,council,district assembly,G0007,,pending,,,,,,GH0605
+G0117,Akyem Mansa,council,district assembly,G0007,,pending,,,,,,GH0606
+G0118,Asene Akroso Manso,council,district assembly,G0007,,pending,,,,,,GH0607
+G0119,Asuogyaman,council,district assembly,G0007,,pending,,,,,,GH0608
+G0120,Atiwa East,council,district assembly,G0007,,pending,,,,,,GH0609
+G0121,Atiwa West,council,district assembly,G0007,,pending,,,,,,GH0610
+G0122,Ayensuano,council,district assembly,G0007,,pending,,,,,,GH0611
+G0123,Birim Central Municipal,council,municipal assembly,G0007,,pending,,,,,,GH0612
+G0124,Birim North,council,district assembly,G0007,,pending,,,,,,GH0613
+G0125,Birim South,council,district assembly,G0007,,pending,,,,,,GH0614
+G0126,Denkyembour,council,district assembly,G0007,,pending,,,,,,GH0615
+G0127,Fanteakwa North,council,district assembly,G0007,,pending,,,,,,GH0616
+G0128,Fanteakwa South,council,district assembly,G0007,,pending,,,,,,GH0617
+G0129,Kwaebibirem,council,district assembly,G0007,,pending,,,,,,GH0618
+G0130,Kwahu Afram Plains North,council,district assembly,G0007,,pending,,,,,,GH0619
+G0131,Kwahu Afram Plains South,council,district assembly,G0007,,pending,,,,,,GH0620
+G0132,Kwahu East,council,district assembly,G0007,,pending,,,,,,GH0621
+G0133,Kwahu South,council,district assembly,G0007,,pending,,,,,,GH0622
+G0134,Kwahu West,council,district assembly,G0007,,pending,,,,,,GH0623
+G0135,Lower Manya,council,district assembly,G0007,,pending,,,,,,GH0624
+G0136,New Juaben North Municipal,council,municipal assembly,G0007,,pending,,,,,,GH0625
+G0137,New Juaben South Municipal,council,municipal assembly,G0007,,pending,,,,,,GH0626
+G0138,Nsawam Adoagyiri,council,district assembly,G0007,,pending,,,,,,GH0627
+G0139,Okere,council,district assembly,G0007,,pending,,,,,,GH0628
+G0140,Suhum Municipal,council,municipal assembly,G0007,,pending,,,,,,GH0629
+G0141,Upper Manya,council,district assembly,G0007,,pending,,,,,,GH0630
+G0142,Upper West Akim,council,district assembly,G0007,,pending,,,,,,GH0631
+G0143,West Akim,council,district assembly,G0007,,pending,,,,,,GH0632
+G0144,Yilo Krobo,council,district assembly,G0007,,pending,,,,,,GH0633
+G0145,Ablekuma Central Municipal,council,municipal assembly,G0008,,pending,,,,,,GH0701
+G0146,Ablekuma North Municipal,council,municipal assembly,G0008,,pending,,,,,,GH0702
+G0147,Ablekuma West Municipal,council,municipal assembly,G0008,,pending,,,,,,GH0703
+G0148,Accra Metropolis,council,district assembly,G0008,,pending,,,,,,GH0704
+G0149,Ada East,council,district assembly,G0008,,pending,,,,,,GH0705
+G0150,Ada West,council,district assembly,G0008,,pending,,,,,,GH0706
+G0151,Adenta Municipal,council,municipal assembly,G0008,,pending,,,,,,GH0707
+G0152,Ashaiman Municipal,council,municipal assembly,G0008,,pending,,,,,,GH0708
+G0153,Ayawaso Central Municipal,council,municipal assembly,G0008,,pending,,,,,,GH0709
+G0154,Ayawaso East Municipal,council,municipal assembly,G0008,,pending,,,,,,GH0710
+G0155,Ayawaso North Municipal,council,municipal assembly,G0008,,pending,,,,,,GH0711
+G0156,Ayawaso West,council,district assembly,G0008,,pending,,,,,,GH0712
+G0157,Ga Central Municipal,council,municipal assembly,G0008,,pending,,,,,,GH0713
+G0158,Ga East,council,district assembly,G0008,,pending,,,,,,GH0714
+G0159,Ga North Municipal,council,municipal assembly,G0008,,pending,,,,,,GH0715
+G0160,Ga South Municipal,council,municipal assembly,G0008,,pending,,,,,,GH0716
+G0161,Ga West Municipal,council,municipal assembly,G0008,,pending,,,,,,GH0717
+G0162,Korle Klottey Municipal,council,municipal assembly,G0008,,pending,,,,,,GH0718
+G0163,Kpone Katamanso,council,district assembly,G0008,,pending,,,,,,GH0719
+G0164,Krowor Municipal,council,municipal assembly,G0008,,pending,,,,,,GH0720
+G0165,La Dade-Kotopon,council,district assembly,G0008,,pending,,,,,,GH0721
+G0166,La-Nkwantanang-Madina,council,district assembly,G0008,,pending,,,,,,GH0722
+G0167,Ledzokuku Municipal,council,municipal assembly,G0008,,pending,,,,,,GH0723
+G0168,Ningo/Prampram,council,district assembly,G0008,,pending,,,,,,GH0724
+G0169,Okaikwei North Municipal,council,municipal assembly,G0008,,pending,,,,,,GH0725
+G0170,Shai Osudoku,council,district assembly,G0008,,pending,,,,,,GH0726
+G0171,Tema Metropolitan,council,metropolitan assembly,G0008,,pending,,,,,,GH0727
+G0172,Tema West Municipal,council,municipal assembly,G0008,,pending,,,,,,GH0728
+G0173,Weija Gbawe Municipal,council,municipal assembly,G0008,,pending,,,,,,GH0729
+G0174,Gushegu,council,district assembly,G0009,,pending,,,,,,GH0801
+G0175,Karaga,council,district assembly,G0009,,pending,,,,,,GH0802
+G0176,Kpandai,council,district assembly,G0009,,pending,,,,,,GH0803
+G0177,Kumbungu,council,district assembly,G0009,,pending,,,,,,GH0804
+G0178,Mion,council,district assembly,G0009,,pending,,,,,,GH0805
+G0179,Nanton,council,district assembly,G0009,,pending,,,,,,GH0806
+G0180,Nanumba North,council,district assembly,G0009,,pending,,,,,,GH0807
+G0181,Nanumba South,council,district assembly,G0009,,pending,,,,,,GH0808
+G0182,Saboba,council,district assembly,G0009,,pending,,,,,,GH0809
+G0183,Sagnerigu,council,district assembly,G0009,,pending,,,,,,GH0810
+G0184,Savelugu,council,district assembly,G0009,,pending,,,,,,GH0811
+G0185,Tamale Metropolitan,council,metropolitan assembly,G0009,,pending,,,,,,GH0812
+G0186,Tatale Sanguli,council,district assembly,G0009,,pending,,,,,,GH0813
+G0187,Tolon,council,district assembly,G0009,,pending,,,,,,GH0814
+G0188,Yendi Municipal,council,municipal assembly,G0009,,pending,,,,,,GH0815
+G0189,Zabzugu,council,district assembly,G0009,,pending,,,,,,GH0816
+G0190,Bunkpurugu Nakpanduri,council,district assembly,G0010,,pending,,,,,,GH0901
+G0191,Chereponi,council,district assembly,G0010,,pending,,,,,,GH0902
+G0192,East Mamprusi,council,district assembly,G0010,,pending,,,,,,GH0903
+G0193,Mamprugu Moagduri,council,district assembly,G0010,,pending,,,,,,GH0904
+G0194,West Mamprusi Municipal,council,municipal assembly,G0010,,pending,,,,,,GH0905
+G0195,Yunyoo-Nasuan,council,district assembly,G0010,,pending,,,,,,GH0906
+G0196,Biakoye,council,district assembly,G0011,,pending,,,,,,GH1001
+G0197,Jasikan,council,district assembly,G0011,,pending,,,,,,GH1002
+G0198,Kadjebi,council,district assembly,G0011,,pending,,,,,,GH1003
+G0199,Krachi East Municipal,council,municipal assembly,G0011,,pending,,,,,,GH1004
+G0200,Krachi Nchumuru,council,district assembly,G0011,,pending,,,,,,GH1005
+G0201,Krachi West,council,district assembly,G0011,,pending,,,,,,GH1006
+G0202,Nkwanta North,council,district assembly,G0011,,pending,,,,,,GH1007
+G0203,Nkwanta South Municipal,council,municipal assembly,G0011,,pending,,,,,,GH1008
+G0204,Bole,council,district assembly,G0012,,pending,,,,,,GH1101
+G0205,Central Gonja,council,district assembly,G0012,,pending,,,,,,GH1102
+G0206,East Gonja Municipal,council,municipal assembly,G0012,,pending,,,,,,GH1103
+G0207,North East Gonja,council,district assembly,G0012,,pending,,,,,,GH1104
+G0208,North Gonja,council,district assembly,G0012,,pending,,,,,,GH1105
+G0209,Sawla-Tuna-Kalba,council,district assembly,G0012,,pending,,,,,,GH1106
+G0210,West Gonja,council,district assembly,G0012,,pending,,,,,,GH1107
+G0211,Bawku Municipal,council,municipal assembly,G0013,,pending,,,,,,GH1201
+G0212,Bawku West,council,district assembly,G0013,,pending,,,,,,GH1202
+G0213,Binduri,council,district assembly,G0013,,pending,,,,,,GH1203
+G0214,Bolga  East,council,district assembly,G0013,,pending,,,,,,GH1204
+G0215,Bolgatanga Municipal,council,municipal assembly,G0013,,pending,,,,,,GH1205
+G0216,Bongo,council,district assembly,G0013,,pending,,,,,,GH1206
+G0217,Builsa North,council,district assembly,G0013,,pending,,,,,,GH1207
+G0218,Builsa South,council,district assembly,G0013,,pending,,,,,,GH1208
+G0219,Garu,council,district assembly,G0013,,pending,,,,,,GH1209
+G0220,Kasena Nankana East,council,district assembly,G0013,,pending,,,,,,GH1210
+G0221,Kasena Nankana West,council,district assembly,G0013,,pending,,,,,,GH1211
+G0222,Nabdam,council,district assembly,G0013,,pending,,,,,,GH1212
+G0223,Pusiga,council,district assembly,G0013,,pending,,,,,,GH1213
+G0224,Talensi,council,district assembly,G0013,,pending,,,,,,GH1214
+G0225,Tempane,council,district assembly,G0013,,pending,,,,,,GH1215
+G0226,Daffiama Bussie Issa,council,district assembly,G0014,,pending,,,,,,GH1301
+G0227,Jirapa,council,district assembly,G0014,,pending,,,,,,GH1302
+G0228,Lambussie-Karni,council,district assembly,G0014,,pending,,,,,,GH1303
+G0229,Lawra,council,district assembly,G0014,,pending,,,,,,GH1304
+G0230,Nadowli-Kaleo,council,district assembly,G0014,,pending,,,,,,GH1305
+G0231,Nandom,council,district assembly,G0014,,pending,,,,,,GH1306
+G0232,Sissala East,council,district assembly,G0014,,pending,,,,,,GH1307
+G0233,Sissala West,council,district assembly,G0014,,pending,,,,,,GH1308
+G0234,Wa East,council,district assembly,G0014,,pending,,,,,,GH1309
+G0235,Wa Municipal,council,municipal assembly,G0014,,pending,,,,,,GH1310
+G0236,Wa West,council,district assembly,G0014,,pending,,,,,,GH1311
+G0237,Adaklu,council,district assembly,G0015,,pending,,,,,,GH1401
+G0238,Afadzato South,council,district assembly,G0015,,pending,,,,,,GH1402
+G0239,Agotime Ziope,council,district assembly,G0015,,pending,,,,,,GH1403
+G0240,Akatsi North,council,district assembly,G0015,,pending,,,,,,GH1404
+G0241,Akatsi South,council,district assembly,G0015,,pending,,,,,,GH1405
+G0242,Anloga,council,district assembly,G0015,,pending,,,,,,GH1406
+G0243,Central Tongu,council,district assembly,G0015,,pending,,,,,,GH1407
+G0244,Ho Municipal,council,municipal assembly,G0015,,pending,,,,,,GH1408
+G0245,Ho West,council,district assembly,G0015,,pending,,,,,,GH1409
+G0246,Hohoe Municipal,council,municipal assembly,G0015,,pending,,,,,,GH1410
+G0247,Keta Municipal,council,municipal assembly,G0015,,pending,,,,,,GH1411
+G0248,Ketu North,council,district assembly,G0015,,pending,,,,,,GH1412
+G0249,Ketu South,council,district assembly,G0015,,pending,,,,,,GH1413
+G0250,Kpando Municipal,council,municipal assembly,G0015,,pending,,,,,,GH1414
+G0251,North Dayi,council,district assembly,G0015,,pending,,,,,,GH1415
+G0252,North Tongu,council,district assembly,G0015,,pending,,,,,,GH1416
+G0253,South Dayi,council,district assembly,G0015,,pending,,,,,,GH1417
+G0254,South Tongu,council,district assembly,G0015,,pending,,,,,,GH1418
+G0255,Ahanta West Municipal,council,municipal assembly,G0016,,pending,,,,,,GH1501
+G0256,Effia Kwesimintsim Municipal,council,municipal assembly,G0016,,pending,,,,,,GH1502
+G0257,Ellembelle,council,district assembly,G0016,,pending,,,,,,GH1503
+G0258,Jomoro,council,district assembly,G0016,,pending,,,,,,GH1504
+G0259,Mpohor,council,district assembly,G0016,,pending,,,,,,GH1505
+G0260,Nzema East,council,district assembly,G0016,,pending,,,,,,GH1506
+G0261,Prestea/Huni Valley,council,district assembly,G0016,,pending,,,,,,GH1507
+G0262,Sekondi Takoradi Metropolis,council,district assembly,G0016,,pending,,,,,,GH1508
+G0263,Shama,council,district assembly,G0016,,pending,,,,,,GH1509
+G0264,Tarkwa Nsuaem,council,district assembly,G0016,,pending,,,,,,GH1510
+G0265,Wassa Amenfi Central,council,district assembly,G0016,,pending,,,,,,GH1511
+G0266,Wassa Amenfi East,council,district assembly,G0016,,pending,,,,,,GH1512
+G0267,Wassa Amenfi West,council,district assembly,G0016,,pending,,,,,,GH1513
+G0268,Wassa East,council,district assembly,G0016,,pending,,,,,,GH1514
+G0269,Aowin,council,district assembly,G0017,,pending,,,,,,GH1601
+G0270,Bia East,council,district assembly,G0017,,pending,,,,,,GH1602
+G0271,Bia West,council,district assembly,G0017,,pending,,,,,,GH1603
+G0272,Bibiani-Anhwiaso-Bekwai Municipal,council,municipal assembly,G0017,,pending,,,,,,GH1604
+G0273,Bodi,council,district assembly,G0017,,pending,,,,,,GH1605
+G0274,Juaboso,council,district assembly,G0017,,pending,,,,,,GH1606
+G0275,Sefwi Akontombra,council,district assembly,G0017,,pending,,,,,,GH1607
+G0276,Sefwi-Wiawso,council,district assembly,G0017,,pending,,,,,,GH1608
+G0277,Suaman,council,district assembly,G0017,,pending,,,,,,GH1609
