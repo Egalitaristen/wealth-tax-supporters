@@ -57,3 +57,15 @@ Seed pass of 2026-11-03 (run R001). Lines marked `[verify]` come from a search s
 | Candidates 2023 and 2025 (González, Pérez, Pabón, Álvarez) | Empty after three searches: no wealth tax in the coverage of their plans; the plan PDFs at the CNE were not read. |
 | Economists (Acosta, Dávalos, Larrea, Samaniego, Crespo) | Empty: no statement on a wealth tax found. |
 | Press (Plan V, GK, La Hora, Ecuavisa) | Empty for named supporters. A 2015 Rebelión column calling for taxes on large fortunes is by a Uruguayan writer, so it belongs to the Uruguay register. |
+
+### Round 3 (2026-11-03)
+| Direction | Yield |
+|---|---|
+| Open leads | Closed 3 as rejected (FUT, Iza, Wilma Andrade), 3 annotated with what was tried (Cueva, Oxfam, committee report). The Assembly's notes on the November 2021 committee votes give totals on whole reports (6, then 7 in favour) and name the chair (Daniel Noboa Azín) and movers, which does not count as support for the contribution. |
+| Economists and columnists | Andrés Mideros (PUCE) added: recommends keeping the wealth tax permanently (Primicias, 19 Oct 2021). Vanessa Carrión (UDLA) left out: weighs taxing the rich without calling for it. |
+| Polls (Cedatos, Perfiles de Opinión, Click Research) | Empty after two searches: no Ecuador poll on a wealth tax found. |
+| FENOCIN, UNE | Empty after two searches. |
+| Local officials (prefects, mayors, councillors) | Empty: coverage is of their own declared wealth, not of tax positions. |
+| CEPAL, FLACSO, Oxfam Ecuador papers | Nothing Ecuador-specific beyond Primicias' mention that ECLAC's Panorama Fiscal 2021 discusses keeping the wealth tax; the regional report was not read. The UTA thesis repository answers scripts with 403 and was not opened. No new resources beyond the three in `resources_proposed.jsonl`. |
+| Candidate plans (2021 to 2025) | Not advanced beyond press summaries; plan PDFs at the CNE are the next step. |
+| Bill sponsors and signatures 2019 to 2026 (Wayback of the Assembly register) | Not reached; no bill by an assembly member found in round 2 either. |
