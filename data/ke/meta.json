@@ -1,0 +1,9 @@
+{
+  "name": "Kenya",
+  "iso2": "KE",
+  "lead": "Egalitaristen",
+  "status": "in progress",
+  "boundaries": "boundaries.json",
+  "notes": "Seed pass, national level only; no county sweep. Register: the 47 counties (the lowest tier of general-purpose local government, each with an elected governor and assembly), numbered 001 to 047 as in the First Schedule of the Constitution. Sub-county wards are not loaded. Map: RCMRD county boundaries via geoBoundaries gbOpen (public domain); the OCHA/HDX COD-AB Kenya download (IEBC, CC BY-IGO) is behind a bot challenge and was not bypassed. No seats adapter: positions are not checked against an official member list. Kenya has no net-wealth tax in force; no legislator bill or motion for one was found.",
+  "national_seat_roles": "^Senator"
+}

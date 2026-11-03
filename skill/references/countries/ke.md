@@ -1,0 +1,7 @@
+# Kenya (data/ke)
+
+- **Geography:** the 47 counties are the local tier, numbered `001` to `047` in the order of the First Schedule of the Constitution (Mombasa 001 ... Nairobi 047). Wards are not loaded. Map: county shapes from RCMRD via geoBoundaries gbOpen (KEN-ADM1, 2020, "Public Domain"); the country outline from KEN-ADM0 is the `regions` layer. The OCHA/HDX COD-AB Kenya files (IEBC, CC BY-IGO) sit behind a bot challenge that plain downloads do not pass, and it was not bypassed. If a browser download of that dataset is available later, rebuild the map from it and use its P-codes. Recipe: add a `code` property to each county feature (geoBoundaries calls Tharaka-Nithi "Tharaka"), then `topo_to_boundaries.py ken1.geojson --name-prop name --code-prop code --project lonlat --scale 100 --simplify 0.2` and merge the ADM0 outline with `merge_boundaries.py`.
+- **Seats:** no adapter. The National Assembly (349) and the Senate (67) member lists were not read, so no seat chart. The only politician, the President, sits in a body of kind `other`.
+- **Sources that work:** Business Daily, The Star, The Standard, Capital FM and VOA answer plain requests; People Daily returns 403 to scripts. The IPF and NTA PDFs read with `pdftotext`. Mzalendo mirrors Hansard.
+- **The debate:** carried by NGOs and think tanks (NTA, IPF, Oxfam in Kenya, KHRC) and staff columns in Business Daily and The Star; no legislator, party or union position was found in the first pass.
+- **Wikidata:** `match_wikidata.py` has no entry for `KE`; ids were set by hand.

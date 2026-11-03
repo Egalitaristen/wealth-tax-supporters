@@ -1,0 +1,49 @@
+geo_unit_id,name,level,unit_type,parent_id,website,sweep_status,swept_run,swept_date,queries_run,hits,notes,code
+G0001,Kenya,national,country,,,pending,,,,,,
+G0002,Mombasa,county,county (county government),G0001,,pending,,,,,,001
+G0003,Kwale,county,county (county government),G0001,,pending,,,,,,002
+G0004,Kilifi,county,county (county government),G0001,,pending,,,,,,003
+G0005,Tana River,county,county (county government),G0001,,pending,,,,,,004
+G0006,Lamu,county,county (county government),G0001,,pending,,,,,,005
+G0007,Taita Taveta,county,county (county government),G0001,,pending,,,,,,006
+G0008,Garissa,county,county (county government),G0001,,pending,,,,,,007
+G0009,Wajir,county,county (county government),G0001,,pending,,,,,,008
+G0010,Mandera,county,county (county government),G0001,,pending,,,,,,009
+G0011,Marsabit,county,county (county government),G0001,,pending,,,,,,010
+G0012,Isiolo,county,county (county government),G0001,,pending,,,,,,011
+G0013,Meru,county,county (county government),G0001,,pending,,,,,,012
+G0014,Tharaka-Nithi,county,county (county government),G0001,,pending,,,,,,013
+G0015,Embu,county,county (county government),G0001,,pending,,,,,,014
+G0016,Kitui,county,county (county government),G0001,,pending,,,,,,015
+G0017,Machakos,county,county (county government),G0001,,pending,,,,,,016
+G0018,Makueni,county,county (county government),G0001,,pending,,,,,,017
+G0019,Nyandarua,county,county (county government),G0001,,pending,,,,,,018
+G0020,Nyeri,county,county (county government),G0001,,pending,,,,,,019
+G0021,Kirinyaga,county,county (county government),G0001,,pending,,,,,,020
+G0022,Murang'a,county,county (county government),G0001,,pending,,,,,,021
+G0023,Kiambu,county,county (county government),G0001,,pending,,,,,,022
+G0024,Turkana,county,county (county government),G0001,,pending,,,,,,023
+G0025,West Pokot,county,county (county government),G0001,,pending,,,,,,024
+G0026,Samburu,county,county (county government),G0001,,pending,,,,,,025
+G0027,Trans Nzoia,county,county (county government),G0001,,pending,,,,,,026
+G0028,Uasin Gishu,county,county (county government),G0001,,pending,,,,,,027
+G0029,Elgeyo-Marakwet,county,county (county government),G0001,,pending,,,,,,028
+G0030,Nandi,county,county (county government),G0001,,pending,,,,,,029
+G0031,Baringo,county,county (county government),G0001,,pending,,,,,,030
+G0032,Laikipia,county,county (county government),G0001,,pending,,,,,,031
+G0033,Nakuru,county,county (county government),G0001,,pending,,,,,,032
+G0034,Narok,county,county (county government),G0001,,pending,,,,,,033
+G0035,Kajiado,county,county (county government),G0001,,pending,,,,,,034
+G0036,Kericho,county,county (county government),G0001,,pending,,,,,,035
+G0037,Bomet,county,county (county government),G0001,,pending,,,,,,036
+G0038,Kakamega,county,county (county government),G0001,,pending,,,,,,037
+G0039,Vihiga,county,county (county government),G0001,,pending,,,,,,038
+G0040,Bungoma,county,county (county government),G0001,,pending,,,,,,039
+G0041,Busia,county,county (county government),G0001,,pending,,,,,,040
+G0042,Siaya,county,county (county government),G0001,,pending,,,,,,041
+G0043,Kisumu,county,county (county government),G0001,,pending,,,,,,042
+G0044,Homa Bay,county,county (county government),G0001,,pending,,,,,,043
+G0045,Migori,county,county (county government),G0001,,pending,,,,,,044
+G0046,Kisii,county,county (county government),G0001,,pending,,,,,,045
+G0047,Nyamira,county,county (county government),G0001,,pending,,,,,,046
+G0048,Nairobi,county,county (county government),G0001,,pending,,,,,,047
