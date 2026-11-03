@@ -46,6 +46,14 @@ Seed pass of 2026-11-03 (run R001). Lines marked `[verify]` come from a search s
 3. Polls, Oxfam / ECLAC statements for Costa Rica and G20 billionaire-tax letters; a Costa Rican poll on taxing the rich was not found.
 4. Church, universities (UCR, UNA, UNED), APSE, ANDE, Rerum Novarum: searched, nothing found in this pass.
 
+## 11. Directions tried in round 2 (2026-11-03) and their yield
+- **Bill states and signatories:** Delfino.cr bill pages (22.113 rejected, 21.883 archived) are the only state source reached; the Assembly's own site refuses connections from here and has no Wayback copy. The principal signatory is shown, co-signers are not. Yield: no change. Dropped.
+- **Seat chart and sitting deputies:** `seats.py` has no Costa Rica adapter, so no chart. A pre-declaration list names seven Frente Amplio deputies for 2026-2030 (Villalta, Trejos, Román, Araya, Mora, Segura, Sáenz; `[verify]`); only Villalta is recorded. Left as a lead.
+- **Party programmes and 2026 candidates:** El Financiero's candidate survey (24 Jan 2026): Ariel Robles (FA) proposes an inheritance tax above US$3 million and no new taxes; David Hernández (PT) wants more progressive taxes; Laura Fernández promised no new taxes. All three are exclusions. Dobles (Coalición Agenda Ciudadana), Ramos (PLN) and the PSD: nothing found in two searches each. Dropped.
+- **Hacienda statements:** nothing on a wealth tax from the Ministry in 2022 to 2026 (one search, only Spanish results). Dropped.
+- **Unions and groups:** the Latindadd report of Sept 2021 quotes a BUSSCO and Comisión Nacional de Enlace proposal "gravando el patrimonio, las herencias y las grandes fortunas" with a 1% net-wealth tax; BUSSCO upgraded to A, CNE and its two experts added. APSE, ANDE, SEC, Rerum Novarum, Colegio de Economistas, Estado de la Nación, Cáritas, Oxfam Costa Rica: nothing beyond 2020 in two searches. Dropped.
+- **Economists and press:** Lorenzo Ramírez (IIS-UCR) is also a co-author of the BUSSCO/CNE proposal (A); Jorge Coronado Marroquín added; Johan Madriz (Izquierda Web, 5 Aug 2020) added at B. No named supporter in La Nación, CRHoy or El Financiero beyond those. Dropped after two empty searches.
+
 ## 12. Searched, nothing found
 - Searched, nothing found: a bishops' or archbishop's call for a wealth tax; a poll on a wealth tax; any 2022 to 2026 bill on net wealth; positions of APSE and Rerum Novarum (ANDE only objected to the IMF package); G20 billionaire-tax statements by a Costa Rican official.
 - Left out on purpose: Eduardo Cruickshank (died 2025); the UCR open letter to 100 business owners (asks for a voluntary solidarity fund); Paola Vega's own bill (income surcharge).
