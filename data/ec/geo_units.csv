@@ -1,0 +1,247 @@
+geo_unit_id,name,level,unit_type,parent_id,website,sweep_status,swept_run,swept_date,queries_run,hits,notes,code
+G0001,Ecuador,national,country,,,pending,,,,,,
+G0002,Azuay,region,provincia,G0001,,pending,,,,,,01
+G0003,Bolívar,region,provincia,G0001,,pending,,,,,,02
+G0004,Cañar,region,provincia,G0001,,pending,,,,,,03
+G0005,Carchi,region,provincia,G0001,,pending,,,,,,04
+G0006,Cotopaxi,region,provincia,G0001,,pending,,,,,,05
+G0007,Chimborazo,region,provincia,G0001,,pending,,,,,,06
+G0008,El Oro,region,provincia,G0001,,pending,,,,,,07
+G0009,Esmeraldas,region,provincia,G0001,,pending,,,,,,08
+G0010,Guayas,region,provincia,G0001,,pending,,,,,,09
+G0011,Imbabura,region,provincia,G0001,,pending,,,,,,10
+G0012,Loja,region,provincia,G0001,,pending,,,,,,11
+G0013,Los Ríos,region,provincia,G0001,,pending,,,,,,12
+G0014,Manabí,region,provincia,G0001,,pending,,,,,,13
+G0015,Morona Santiago,region,provincia,G0001,,pending,,,,,,14
+G0016,Napo,region,provincia,G0001,,pending,,,,,,15
+G0017,Pastaza,region,provincia,G0001,,pending,,,,,,16
+G0018,Pichincha,region,provincia,G0001,,pending,,,,,,17
+G0019,Tungurahua,region,provincia,G0001,,pending,,,,,,18
+G0020,Zamora Chinchipe,region,provincia,G0001,,pending,,,,,,19
+G0021,Galápagos,region,provincia,G0001,,pending,,,,,,20
+G0022,Sucumbíos,region,provincia,G0001,,pending,,,,,,21
+G0023,Orellana,region,provincia,G0001,,pending,,,,,,22
+G0024,Santo Domingo de los Tsáchilas,region,provincia,G0001,,pending,,,,,,23
+G0025,Santa Elena,region,provincia,G0001,,pending,,,,,,24
+G0026,Cuenca,council,cantón,G0002,,pending,,,,,,0101
+G0027,Giron,council,cantón,G0002,,pending,,,,,,0102
+G0028,Gualaceo,council,cantón,G0002,,pending,,,,,,0103
+G0029,Nabon,council,cantón,G0002,,pending,,,,,,0104
+G0030,Paute,council,cantón,G0002,,pending,,,,,,0105
+G0031,Pucara,council,cantón,G0002,,pending,,,,,,0106
+G0032,San Fernando,council,cantón,G0002,,pending,,,,,,0107
+G0033,Santa Isabel,council,cantón,G0002,,pending,,,,,,0108
+G0034,Sigsig,council,cantón,G0002,,pending,,,,,,0109
+G0035,Oña,council,cantón,G0002,,pending,,,,,,0110
+G0036,Chordeleg,council,cantón,G0002,,pending,,,,,,0111
+G0037,El Pan,council,cantón,G0002,,pending,,,,,,0112
+G0038,Sevilla De Oro,council,cantón,G0002,,pending,,,,,,0113
+G0039,Guachapala,council,cantón,G0002,,pending,,,,,,0114
+G0040,Camilo Ponce Enriquez,council,cantón,G0002,,pending,,,,,,0115
+G0041,Guaranda,council,cantón,G0003,,pending,,,,,,0201
+G0042,Chillanes,council,cantón,G0003,,pending,,,,,,0202
+G0043,Chimbo,council,cantón,G0003,,pending,,,,,,0203
+G0044,Echeandia,council,cantón,G0003,,pending,,,,,,0204
+G0045,San Miguel,council,cantón,G0003,,pending,,,,,,0205
+G0046,Caluma,council,cantón,G0003,,pending,,,,,,0206
+G0047,Las Naves,council,cantón,G0003,,pending,,,,,,0207
+G0048,Azogues,council,cantón,G0004,,pending,,,,,,0301
+G0049,Biblian,council,cantón,G0004,,pending,,,,,,0302
+G0050,Cañar,council,cantón,G0004,,pending,,,,,,0303
+G0051,La Troncal,council,cantón,G0004,,pending,,,,,,0304
+G0052,El Tambo,council,cantón,G0004,,pending,,,,,,0305
+G0053,Deleg,council,cantón,G0004,,pending,,,,,,0306
+G0054,Suscal,council,cantón,G0004,,pending,,,,,,0307
+G0055,Tulcan,council,cantón,G0005,,pending,,,,,,0401
+G0056,Bolivar,council,cantón,G0005,,pending,,,,,,0402
+G0057,Espejo,council,cantón,G0005,,pending,,,,,,0403
+G0058,Mira,council,cantón,G0005,,pending,,,,,,0404
+G0059,Montufar,council,cantón,G0005,,pending,,,,,,0405
+G0060,San Pedro De Huaca,council,cantón,G0005,,pending,,,,,,0406
+G0061,Latacunga,council,cantón,G0006,,pending,,,,,,0501
+G0062,La Mana,council,cantón,G0006,,pending,,,,,,0502
+G0063,Pangua,council,cantón,G0006,,pending,,,,,,0503
+G0064,Pujili,council,cantón,G0006,,pending,,,,,,0504
+G0065,Salcedo,council,cantón,G0006,,pending,,,,,,0505
+G0066,Saquisili,council,cantón,G0006,,pending,,,,,,0506
+G0067,Sigchos,council,cantón,G0006,,pending,,,,,,0507
+G0068,Riobamba,council,cantón,G0007,,pending,,,,,,0601
+G0069,Alausi,council,cantón,G0007,,pending,,,,,,0602
+G0070,Colta,council,cantón,G0007,,pending,,,,,,0603
+G0071,Chambo,council,cantón,G0007,,pending,,,,,,0604
+G0072,Chunchi,council,cantón,G0007,,pending,,,,,,0605
+G0073,Guamote,council,cantón,G0007,,pending,,,,,,0606
+G0074,Guano,council,cantón,G0007,,pending,,,,,,0607
+G0075,Pallatanga,council,cantón,G0007,,pending,,,,,,0608
+G0076,Penipe,council,cantón,G0007,,pending,,,,,,0609
+G0077,Cumanda,council,cantón,G0007,,pending,,,,,,0610
+G0078,Machala,council,cantón,G0008,,pending,,,,,,0701
+G0079,Arenillas,council,cantón,G0008,,pending,,,,,,0702
+G0080,Atahualpa,council,cantón,G0008,,pending,,,,,,0703
+G0081,Balsas,council,cantón,G0008,,pending,,,,,,0704
+G0082,Chilla,council,cantón,G0008,,pending,,,,,,0705
+G0083,El Guabo,council,cantón,G0008,,pending,,,,,,0706
+G0084,Huaquillas,council,cantón,G0008,,pending,,,,,,0707
+G0085,Marcabeli,council,cantón,G0008,,pending,,,,,,0708
+G0086,Pasaje,council,cantón,G0008,,pending,,,,,,0709
+G0087,Piñas,council,cantón,G0008,,pending,,,,,,0710
+G0088,Portovelo,council,cantón,G0008,,pending,,,,,,0711
+G0089,Santa Rosa,council,cantón,G0008,,pending,,,,,,0712
+G0090,Zaruma,council,cantón,G0008,,pending,,,,,,0713
+G0091,Las Lajas,council,cantón,G0008,,pending,,,,,,0714
+G0092,Esmeraldas,council,cantón,G0009,,pending,,,,,,0801
+G0093,Eloy Alfaro,council,cantón,G0009,,pending,,,,,,0802
+G0094,Muisne,council,cantón,G0009,,pending,,,,,,0803
+G0095,Quininde,council,cantón,G0009,,pending,,,,,,0804
+G0096,San Lorenzo,council,cantón,G0009,,pending,,,,,,0805
+G0097,Atacames,council,cantón,G0009,,pending,,,,,,0806
+G0098,Rioverde,council,cantón,G0009,,pending,,,,,,0807
+G0099,La Concordia,council,cantón,G0009,,pending,,,,,,0808
+G0100,Guayaquil,council,cantón,G0010,,pending,,,,,,0901
+G0101,Alfredo Baquerizo Moreno,council,cantón,G0010,,pending,,,,,,0902
+G0102,Balao,council,cantón,G0010,,pending,,,,,,0903
+G0103,Balzar,council,cantón,G0010,,pending,,,,,,0904
+G0104,Colimes,council,cantón,G0010,,pending,,,,,,0905
+G0105,Daule,council,cantón,G0010,,pending,,,,,,0906
+G0106,Duran,council,cantón,G0010,,pending,,,,,,0907
+G0107,Empalme,council,cantón,G0010,,pending,,,,,,0908
+G0108,El Triunfo,council,cantón,G0010,,pending,,,,,,0909
+G0109,Milagro,council,cantón,G0010,,pending,,,,,,0910
+G0110,Naranjal,council,cantón,G0010,,pending,,,,,,0911
+G0111,Naranjito,council,cantón,G0010,,pending,,,,,,0912
+G0112,Palestina,council,cantón,G0010,,pending,,,,,,0913
+G0113,Pedro Carbo,council,cantón,G0010,,pending,,,,,,0914
+G0114,Samborondon,council,cantón,G0010,,pending,,,,,,0916
+G0115,Santa Lucia,council,cantón,G0010,,pending,,,,,,0918
+G0116,Salitre,council,cantón,G0010,,pending,,,,,,0919
+G0117,San Jacinto De Yaguachi,council,cantón,G0010,,pending,,,,,,0920
+G0118,Playas,council,cantón,G0010,,pending,,,,,,0921
+G0119,Simon Bolivar,council,cantón,G0010,,pending,,,,,,0922
+G0120,Crnel. Marcelino Maridueña,council,cantón,G0010,,pending,,,,,,0923
+G0121,Lomas De Sargentillo,council,cantón,G0010,,pending,,,,,,0924
+G0122,Nobol,council,cantón,G0010,,pending,,,,,,0925
+G0123,Gnral. Antonio Elizalde,council,cantón,G0010,,pending,,,,,,0927
+G0124,Isidro Ayora,council,cantón,G0010,,pending,,,,,,0928
+G0125,Ibarra,council,cantón,G0011,,pending,,,,,,1001
+G0126,Antonio Ante,council,cantón,G0011,,pending,,,,,,1002
+G0127,Cotacachi,council,cantón,G0011,,pending,,,,,,1003
+G0128,Otavalo,council,cantón,G0011,,pending,,,,,,1004
+G0129,Pimampiro,council,cantón,G0011,,pending,,,,,,1005
+G0130,San Miguel De Urcuqui,council,cantón,G0011,,pending,,,,,,1006
+G0131,Loja,council,cantón,G0012,,pending,,,,,,1101
+G0132,Calvas,council,cantón,G0012,,pending,,,,,,1102
+G0133,Catamayo,council,cantón,G0012,,pending,,,,,,1103
+G0134,Celica,council,cantón,G0012,,pending,,,,,,1104
+G0135,Chaguarpamba,council,cantón,G0012,,pending,,,,,,1105
+G0136,Espindola,council,cantón,G0012,,pending,,,,,,1106
+G0137,Gonzanama,council,cantón,G0012,,pending,,,,,,1107
+G0138,Macara,council,cantón,G0012,,pending,,,,,,1108
+G0139,Paltas,council,cantón,G0012,,pending,,,,,,1109
+G0140,Puyango,council,cantón,G0012,,pending,,,,,,1110
+G0141,Saraguro,council,cantón,G0012,,pending,,,,,,1111
+G0142,Sozoranga,council,cantón,G0012,,pending,,,,,,1112
+G0143,Zapotillo,council,cantón,G0012,,pending,,,,,,1113
+G0144,Pindal,council,cantón,G0012,,pending,,,,,,1114
+G0145,Quilanga,council,cantón,G0012,,pending,,,,,,1115
+G0146,Olmedo,council,cantón,G0012,,pending,,,,,,1116
+G0147,Babahoyo,council,cantón,G0013,,pending,,,,,,1201
+G0148,Baba,council,cantón,G0013,,pending,,,,,,1202
+G0149,Montalvo,council,cantón,G0013,,pending,,,,,,1203
+G0150,Puebloviejo,council,cantón,G0013,,pending,,,,,,1204
+G0151,Quevedo,council,cantón,G0013,,pending,,,,,,1205
+G0152,Urdaneta,council,cantón,G0013,,pending,,,,,,1206
+G0153,Ventanas,council,cantón,G0013,,pending,,,,,,1207
+G0154,Vinces,council,cantón,G0013,,pending,,,,,,1208
+G0155,Palenque,council,cantón,G0013,,pending,,,,,,1209
+G0156,Buena Fe,council,cantón,G0013,,pending,,,,,,1210
+G0157,Valencia,council,cantón,G0013,,pending,,,,,,1211
+G0158,Mocache,council,cantón,G0013,,pending,,,,,,1212
+G0159,Quinsaloma,council,cantón,G0013,,pending,,,,,,1213
+G0160,Portoviejo,council,cantón,G0014,,pending,,,,,,1301
+G0161,Bolivar,council,cantón,G0014,,pending,,,,,,1302
+G0162,Chone,council,cantón,G0014,,pending,,,,,,1303
+G0163,El Carmen,council,cantón,G0014,,pending,,,,,,1304
+G0164,Flavio Alfaro,council,cantón,G0014,,pending,,,,,,1305
+G0165,Jipijapa,council,cantón,G0014,,pending,,,,,,1306
+G0166,Junin,council,cantón,G0014,,pending,,,,,,1307
+G0167,Manta,council,cantón,G0014,,pending,,,,,,1308
+G0168,Montecristi,council,cantón,G0014,,pending,,,,,,1309
+G0169,Pajan,council,cantón,G0014,,pending,,,,,,1310
+G0170,Pichincha,council,cantón,G0014,,pending,,,,,,1311
+G0171,Rocafuerte,council,cantón,G0014,,pending,,,,,,1312
+G0172,Santa Ana,council,cantón,G0014,,pending,,,,,,1313
+G0173,Sucre,council,cantón,G0014,,pending,,,,,,1314
+G0174,Tosagua,council,cantón,G0014,,pending,,,,,,1315
+G0175,24 De Mayo,council,cantón,G0014,,pending,,,,,,1316
+G0176,Pedernales,council,cantón,G0014,,pending,,,,,,1317
+G0177,Olmedo,council,cantón,G0014,,pending,,,,,,1318
+G0178,Puerto Lopez,council,cantón,G0014,,pending,,,,,,1319
+G0179,Jama,council,cantón,G0014,,pending,,,,,,1320
+G0180,Jaramijo,council,cantón,G0014,,pending,,,,,,1321
+G0181,San Vicente,council,cantón,G0014,,pending,,,,,,1322
+G0182,Morona,council,cantón,G0015,,pending,,,,,,1401
+G0183,Gualaquiza,council,cantón,G0015,,pending,,,,,,1402
+G0184,Limon Indanza,council,cantón,G0015,,pending,,,,,,1403
+G0185,Palora,council,cantón,G0015,,pending,,,,,,1404
+G0186,Santiago,council,cantón,G0015,,pending,,,,,,1405
+G0187,Sucua,council,cantón,G0015,,pending,,,,,,1406
+G0188,Huamboya,council,cantón,G0015,,pending,,,,,,1407
+G0189,San Juan Bosco,council,cantón,G0015,,pending,,,,,,1408
+G0190,Taisha,council,cantón,G0015,,pending,,,,,,1409
+G0191,Logroðo,council,cantón,G0015,,pending,,,,,,1410
+G0192,Pablo Sexto,council,cantón,G0015,,pending,,,,,,1411
+G0193,Tiwintza,council,cantón,G0015,,pending,,,,,,1412
+G0194,Tena,council,cantón,G0016,,pending,,,,,,1501
+G0195,Archidona,council,cantón,G0016,,pending,,,,,,1503
+G0196,El Chaco,council,cantón,G0016,,pending,,,,,,1504
+G0197,Quijos,council,cantón,G0016,,pending,,,,,,1507
+G0198,Carlos Julio Arosemena Tola,council,cantón,G0016,,pending,,,,,,1509
+G0199,Pastaza,council,cantón,G0017,,pending,,,,,,1601
+G0200,Mera,council,cantón,G0017,,pending,,,,,,1602
+G0201,Santa Clara,council,cantón,G0017,,pending,,,,,,1603
+G0202,Arajuno,council,cantón,G0017,,pending,,,,,,1604
+G0203,Quito,council,cantón,G0018,,pending,,,,,,1701
+G0204,Cayambe,council,cantón,G0018,,pending,,,,,,1702
+G0205,Mejia,council,cantón,G0018,,pending,,,,,,1703
+G0206,Pedro Moncayo,council,cantón,G0018,,pending,,,,,,1704
+G0207,Rumiðahui,council,cantón,G0018,,pending,,,,,,1705
+G0208,San Miguel De Los Bancos,council,cantón,G0018,,pending,,,,,,1707
+G0209,Pedro Vicente Maldonado,council,cantón,G0018,,pending,,,,,,1708
+G0210,Puerto Quito,council,cantón,G0018,,pending,,,,,,1709
+G0211,Ambato,council,cantón,G0019,,pending,,,,,,1801
+G0212,Baños De Agua Santa,council,cantón,G0019,,pending,,,,,,1802
+G0213,Cevallos,council,cantón,G0019,,pending,,,,,,1803
+G0214,Mocha,council,cantón,G0019,,pending,,,,,,1804
+G0215,Patate,council,cantón,G0019,,pending,,,,,,1805
+G0216,Quero,council,cantón,G0019,,pending,,,,,,1806
+G0217,San Pedro De Pelileo,council,cantón,G0019,,pending,,,,,,1807
+G0218,Santiago De Pillaro,council,cantón,G0019,,pending,,,,,,1808
+G0219,Tisaleo,council,cantón,G0019,,pending,,,,,,1809
+G0220,Zamora,council,cantón,G0020,,pending,,,,,,1901
+G0221,Chinchipe,council,cantón,G0020,,pending,,,,,,1902
+G0222,Nangaritza,council,cantón,G0020,,pending,,,,,,1903
+G0223,Yacuambi,council,cantón,G0020,,pending,,,,,,1904
+G0224,Yantzaza,council,cantón,G0020,,pending,,,,,,1905
+G0225,El Pangui,council,cantón,G0020,,pending,,,,,,1906
+G0226,Centinela Del Condor,council,cantón,G0020,,pending,,,,,,1907
+G0227,Palanda,council,cantón,G0020,,pending,,,,,,1908
+G0228,Paquisha,council,cantón,G0020,,pending,,,,,,1909
+G0229,San Cristobal,council,cantón,G0021,,pending,,,,,,2001
+G0230,Isabela,council,cantón,G0021,,pending,,,,,,2002
+G0231,Santa Cruz,council,cantón,G0021,,pending,,,,,,2003
+G0232,Lago Agrio,council,cantón,G0022,,pending,,,,,,2101
+G0233,Gonzalo Pizarro,council,cantón,G0022,,pending,,,,,,2102
+G0234,Putumayo,council,cantón,G0022,,pending,,,,,,2103
+G0235,Shushufindi,council,cantón,G0022,,pending,,,,,,2104
+G0236,Sucumbios,council,cantón,G0022,,pending,,,,,,2105
+G0237,Cascales,council,cantón,G0022,,pending,,,,,,2106
+G0238,Cuyabeno,council,cantón,G0022,,pending,,,,,,2107
+G0239,Orellana,council,cantón,G0023,,pending,,,,,,2201
+G0240,Aguarico,council,cantón,G0023,,pending,,,,,,2202
+G0241,La Joya De Los Sachas,council,cantón,G0023,,pending,,,,,,2203
+G0242,Loreto,council,cantón,G0023,,pending,,,,,,2204
+G0243,Santo Domingo,council,cantón,G0024,,pending,,,,,,2301
+G0244,Santa Elena,council,cantón,G0025,,pending,,,,,,2401
+G0245,La Libertad,council,cantón,G0025,,pending,,,,,,2402
+G0246,Salinas,council,cantón,G0025,,pending,,,,,,2403

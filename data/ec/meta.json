@@ -1,0 +1,8 @@
+{
+  "name": "Ecuador",
+  "iso2": "EC",
+  "lead": "Egalitaristen",
+  "status": "in progress",
+  "boundaries": "boundaries.json",
+  "notes": "Seed pass (national level, no provincial or cantonal sweep). Register: 24 provincias and 221 cantones (INEC Clasificador Geográfico Estadístico codes, read from an ArcGIS republication of the INEC list; the three zonas no delimitadas are not loaded). Map: geoBoundaries gbOpen ECU ADM2 (INEC and OCHA ROLAC, 2019, CC BY 3.0 IGO) and ADM1 (CC0); the HDX COD-AB Ecuador files could not be fetched (HDX answers scripts with a bot challenge, which is not bypassed). Ecuador has taxed net wealth twice, both one-off: the 2016 earthquake contribution (Correa) and the 2021 temporary contribution (Lasso); both lapsed. No seats adapter."
+}

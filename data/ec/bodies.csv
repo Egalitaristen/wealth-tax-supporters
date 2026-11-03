@@ -1,0 +1,3 @@
+body_id,name,level,kind,seats,as_of,source_url,seat_view,notes
+B0001,Asamblea Nacional,national,chamber,,,,,"Member list not read from an official source, so no seat chart."
+B0002,Función Ejecutiva,national,other,,,,,President and ministers.

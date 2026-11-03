@@ -1,0 +1,12 @@
+query_id,run_id,date,language,query,channel,results_opened,leads_added,note
+Q0001,R001,2026-11-03,es,Ecuador impuesto a los grandes patrimonios proyecto de ley asambleísta,web,3,1,
+Q0002,R001,2026-11-03,es,Ecuador impuesto a las grandes fortunas Revolución Ciudadana propuesta,web,3,2,
+Q0003,R001,2026-11-03,en,Ecuador wealth tax billionaires proposal Assembly,web,3,0,
+Q0004,R001,2026-11-03,es,contribución solidaria patrimonio Ecuador Ley de Simplificación y Progresividad Tributaria,web,4,0,
+Q0005,R001,2026-11-03,es,"Ley de Solidaridad y Corresponsabilidad 2016 contribución patrimonio 0,9% terremoto","web, Asamblea Nacional",6,0,
+Q0006,R001,2026-11-03,es,Ecuador Asamblea contribución temporal patrimonio Ley de Desarrollo Económico 2021,web,5,2,
+Q0007,R001,2026-11-03,es,CONAIE impuesto a la riqueza grandes fortunas propuesta,web,5,2,
+Q0008,R001,2026-11-03,es,FUT CONAIE Frente Popular impuesto a las grandes fortunas 2020,web,4,3,
+Q0009,R001,2026-11-03,es,Blasco Luna Revolución Ciudadana impuesto grandes fortunas un millón de dólares IVA 2024,"web, news",5,1,
+Q0010,R001,2026-11-03,es,Pachakutik impuesto al patrimonio grandes fortunas,web,3,0,
+Q0011,R001,2026-11-03,es,Oxfam Ecuador impuesto a la riqueza multimillonarios,web,3,1,
