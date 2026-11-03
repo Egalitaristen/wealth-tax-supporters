@@ -1,0 +1,7 @@
+actor_id,name,kind,actor_type,other_types,role,affiliation,party,affiliation_actor_id,country,level,location,geo_unit_id,location_source,wikidata_qid,website,status,alive_checked,prominence,notes,added_run,updated,refined
+A0001,Godfred Bokpin,person,economist,,"Professor of Finance and Economics, University of Ghana Business School",University of Ghana Business School,,,Ghana,national,Ghana,G0001,,,,active,y,national,,R001,2026-11-03,
+A0002,AbibiNsroma Foundation,organisation,ngo_campaign,,Ghana-based anti-poverty and environment NGO; campaign for a tax on the super-rich,,,,Ghana,national,Ghana,G0001,,,,active,na,local,,R001,2026-11-03,
+A0003,Bob Amiteye,person,campaigner,,"Spokesman, AbibiNsroma Foundation",AbibiNsroma Foundation,,,Ghana,national,Ghana,G0001,,,,active,y,local,,R001,2026-11-03,
+A0004,GCAP Ghana,organisation,ngo_campaign,,Ghana chapter of the Global Call to Action Against Poverty,,,,Ghana,national,Ghana,G0001,,,,active,na,local,,R001,2026-11-03,
+A0005,Northern Recovery Project (NRP-Ghana),organisation,ngo_campaign,,Signatory of the 2025 G20 open letter; Ghana-based,,,,Ghana,national,Ghana,G0001,,,,active,na,local,,R001,2026-11-03,
+A0006,Anthony Kamande,person,campaigner,,"Inequality Research Co-ordinator, Oxfam International",Oxfam International,,,Ghana,national,Ghana,G0001,,,,active,y,international,Included because he presented on progressive taxation at a Ghana forum (May 2024); Oxfam International is not itself added as a Ghana actor.,R001,2026-11-03,

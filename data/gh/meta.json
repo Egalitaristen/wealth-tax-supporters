@@ -1,0 +1,8 @@
+{
+  "name": "Ghana",
+  "iso2": "GH",
+  "lead": "Egalitaristen",
+  "status": "in progress",
+  "boundaries": "boundaries.json",
+  "notes": "Seed pass (national level, English only). Register: the 16 regions and the 260 Metropolitan, Municipal and District Assemblies (MMDAs), the local tier, with OCHA P-codes (GH01-GH16, GH0101-GH1609). No regional or local sweep. Map: OCHA/HDX COD-AB Ghana (Survey and Mapping Division of Ghana), CC BY-IGO, read from the unmodified copy at data.fieldmaps.io because HDX download links answer scripts with a bot challenge (not bypassed). No seats adapter: Ghana is not in seats.py and parliament.gh was not read for members. Ghana has no net wealth tax; no bill or motion for one was found."
+}
