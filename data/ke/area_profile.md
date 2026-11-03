@@ -52,3 +52,13 @@ Seed pass of 2026-11-03 (run R001). Every line has a source; lines marked `[veri
 - Tax Justice Network Africa, Okoa Uchumi, IEA Kenya and SID: no Kenya wealth-tax statement found by search.
 - The African Union / G20 billionaire-tax track: Kenya's government statements on global taxes concern climate levies and a financial-transactions tax, not a billionaire tax.
 - Quote check: 13 of 13 rows found on their pages by `checkquotes`.
+
+## 13. Direction log (round 2, 2026-11-03)
+| Direction | Searches | Result |
+|---|---|---|
+| Legislators (MPs, senators, governors; Hansard via Mzalendo; Azimio, ODM, DCP, Jubilee, Wiper, Roots, Kenya Kwanza) | 6 | Empty. Finance Bill 2024 to 2026 speeches reported by name (Nyoro, Mbui, Emaase, Kuria Kimani) do not mention a wealth tax; Treasury CS Mbadi speaks of enforcement against rental income and business. Mzalendo's own search tool was not used (engine results are fragments). Dropped; the Hansard full-text lead stays open. |
+| Unions (COTU, KNUT, KUPPET, KMPDU) | 2 | Empty: calls for PAYE relief and against taxes on workers; Atwoli 2018 asked to tax "heavily" those with dubiously acquired property (anti-corruption, excluded). Dropped. |
+| Churches (NCCK, KCCB, ACK) | 3 | Empty: 2026 memoranda ask for relief for ordinary Kenyans and tougher penalties on evasion by high-net-worth individuals. Dropped. |
+| Gen Z / civil-society demands | 2 | Slogan "Tax the Rich, Not the Hustlers"; no written demand naming a net-wealth levy found. Okoa Kenya (28 organisations) objected to exemptions for the wealthy, not a wealth tax. Dropped. |
+| UN tax convention, AU, G20 | 3 | Kenya speaks for the African Group on Article 6 (high-net-worth individuals) but no Kenyan call for a wealth tax was found; a KHRC statement at INC-5 is reported second-hand (open lead). |
+| Think tank and NGO staff | 2 | Productive: Star (10 Sept 2026) and International Lawyers Project (Oct 2026) added three actors and a second IPF and KHRC row. |
