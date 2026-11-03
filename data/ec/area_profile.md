@@ -69,3 +69,15 @@ Seed pass of 2026-11-03 (run R001). Lines marked `[verify]` come from a search s
 | CEPAL, FLACSO, Oxfam Ecuador papers | Nothing Ecuador-specific beyond Primicias' mention that ECLAC's Panorama Fiscal 2021 discusses keeping the wealth tax; the regional report was not read. The UTA thesis repository answers scripts with 403 and was not opened. No new resources beyond the three in `resources_proposed.jsonl`. |
 | Candidate plans (2021 to 2025) | Not advanced beyond press summaries; plan PDFs at the CNE are the next step. |
 | Bill sponsors and signatures 2019 to 2026 (Wayback of the Assembly register) | Not reached; no bill by an assembly member found in round 2 either. |
+
+### Round 4 (2026-11-03)
+| Direction | Yield |
+|---|---|
+| Other registers (data/leads.csv, un, eu, supranational.json, all actors and evidence) | One hit only: a student in the UK register; no Ecuadorian with wealth-tax evidence elsewhere. No rows needed. |
+| International letters | The 15 May 2024 letter of peasant and indigenous movements to Pope Francis backing Brazil's G20 proposal of an annual 2% tax on billionaires lists six Ecuadorian organisations (FENOCIN, FEI, CNCR, CONFEUNASSCE, FENACLE, Red Apícola Ecuador); all six added. |
+| Economists and commentators | Napoleón Santamaría (lawyer, Teleamazonas, 2 June 2020) added. USFQ, ESPOL, FLACSO, UASB: no statement found in 3 searches. |
+| Assembly members of RC, Pachakutik, ID, Partido Socialista since 2013 | Named-member searches (Muñoz, Quishpe, Alemán, Veloz, Cerda, Melo, Zambrano) returned nothing on a wealth tax. The Assembly's member lists were not walked name by name; this stays the main untested direction. ID, Partido Socialista and Frente Amplio programmes: nothing found. |
+| Church (CEE, Jesuits), PUCE as an institution | Empty after 2 searches. |
+| Prefects, mayors, councillors | Empty (see round 3). |
+| Polls, papers | Empty: no Ecuador poll; no new resources for `resources_proposed.jsonl`. |
+| Leads | All 12 closed (used or rejected) with a note on what was tried. |
