@@ -54,6 +54,15 @@ Seed pass of 2026-11-03 (run R001). Lines marked `[verify]` come from a search s
 - **Unions and groups:** the Latindadd report of Sept 2021 quotes a BUSSCO and Comisión Nacional de Enlace proposal "gravando el patrimonio, las herencias y las grandes fortunas" with a 1% net-wealth tax; BUSSCO upgraded to A, CNE and its two experts added. APSE, ANDE, SEC, Rerum Novarum, Colegio de Economistas, Estado de la Nación, Cáritas, Oxfam Costa Rica: nothing beyond 2020 in two searches. Dropped.
 - **Economists and press:** Lorenzo Ramírez (IIS-UCR) is also a co-author of the BUSSCO/CNE proposal (A); Jorge Coronado Marroquín added; Johan Madriz (Izquierda Web, 5 Aug 2020) added at B. No named supporter in La Nación, CRHoy or El Financiero beyond those. Dropped after two empty searches.
 
+## 11b. Directions tried in round 3 (2026-11-03) and their yield
+- **Open leads:** Grupo Economía Pluralista worked: its letter of 28 Aug 2020 ([La Revista CR](https://www.larevista.cr/aporte-del-grupo-economia-pluralista-a-la-convocatoria-costa-rica-escucha-propone-y-dialoga/)) says the temporary income tax could be complemented by "un impuesto generalizado sobre los patrimonios, incluidos los de tipo financiero"; the group and its 25 signers are recorded at B (the sentence is hedged). Its member Luis Paulino Vargas Solís proposed an annual net-wealth tax in 2025 (exempt to CRC 150 million, 0.5% to 2.0%; [Revista Rupturas](https://www.scielo.sa.cr/scielo.php?pid=S2215-24662025000200007&script=sci_arttext&tlng=pt)): A. High yield.
+- **Papers:** Oxfam's regional briefing (2020), the CIAT working paper (2018) and the Vargas paper are listed in `resources_proposed.jsonl`. A CIEP-UCR poll on taxing the rich: two searches, none found (only a 2024 UCR poll with 66% against any tax increase, not about wealth). Dropped.
+- **2026 election and incoming government:** El Financiero's candidate survey and the PLN pre-candidate survey show no wealth-tax position; Laura Fernández promised no new taxes. Dropped.
+- **Bill signatory lists:** the Assembly site (asamblea.go.cr, SIL) refuses connections from here and has no Wayback copy; Delfino.cr shows the principal signatory only. Dropped.
+- **Civic figures (regidores, alcaldes, ex-ministers, ex-PAC/PLN presidents):** two searches, nothing beyond those already recorded (Alvarado, Bolaños). Dropped.
+- **Students (FEUCR), APSE, ANDE, SEC, church:** two searches each, only budget (FEES) disputes and no wealth-tax statement. Dropped.
+- **Signers:** the 25 signers were not checked for a date of death individually (assumed alive; three with a Wikidata entry show none); their profession was not checked.
+
 ## 12. Searched, nothing found
 - Searched, nothing found: a bishops' or archbishop's call for a wealth tax; a poll on a wealth tax; any 2022 to 2026 bill on net wealth; positions of APSE and Rerum Novarum (ANDE only objected to the IMF package); G20 billionaire-tax statements by a Costa Rican official.
 - Left out on purpose: Eduardo Cruickshank (died 2025); the UCR open letter to 100 business owners (asks for a voluntary solidarity fund); Paola Vega's own bill (income surcharge).
