@@ -39,3 +39,10 @@ Q0037,R004,2026-11-04,es,Panamá estudio impuesto a la riqueza patrimonio viabil
 Q0038,R004,2026-11-04,es,Frente Amplio por la Democracia PRD Partido Popular programa reforma tributaria grandes patrimonios,web,0,0,None.
 Q0039,R004,2026-11-04,es,Eduardo Lamphrey economista columnista,web,3,0,Exists; no death record.
 Q0040,R004,2026-11-04,es,Eduardo Lamphrey impuesto grandes fortunas riqueza tributación,web,2,0,Second column: no wealth tax.
+Q0041,R005,2026-11-04,es,"register, leads, UN and supranational files: Panamanians with evidence elsewhere",git grep,0,0,No Panamanian actor or lead in any other folder.
+Q0042,R005,2026-11-04,es,"Wikidata: 99 living Panamanian economists, academics and politicians (SPARQL), ten checked by name",wikidata+web,10,0,"Gordón, Jované, Bernal, Méndez, Arrocha, Mirones, Lombana, Vásquez, Silva, Navarro: none calls for a wealth tax."
+Q0043,R005,2026-11-04,es,Maribel Gordón impuesto a la riqueza grandes fortunas,web,4,1,Regressive-tax critique only; excluded.
+Q0044,R005,2026-11-04,es,Juan Jované impuesto ricos grandes fortunas,web,3,0,None.
+Q0045,R005,2026-11-04,es,laestrella.com.pa columnistas impuesto a las grandes fortunas riqueza multimillonarios,web,3,1,Only evasion and progressive-tax columns.
+Q0046,R005,2026-11-04,es,Panameño firma carta CLACSO CELAG Oxfam impuesto global multimillonarios,web,0,0,No Panamanian signer.
+Q0047,R005,2026-11-04,es,Oxfam socios organización panameña justicia fiscal Fospa Alianza Ciudadana,web,0,0,No Panamanian partner.
