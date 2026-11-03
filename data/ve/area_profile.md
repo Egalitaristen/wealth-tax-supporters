@@ -55,6 +55,10 @@ Seed pass of 2026-11-03 (run R001). Lines marked `[verify]` come from a search s
 | Opposition programmes (Plan País, Unidad Nacional, UNT, PJ) (R004) | 1 | Nothing on keeping or repealing the IGP; the Asociación Venezolana de Derecho Tributario called the law null because the ANC created it |
 | Telesur, Aporrea, ANC Diario de Debates (R004) | 2 | Not read: Telesur not found by search, Aporrea and Biblat answer bot checks, the TSJ server is down |
 | Papers by Venezuelan economists (R004) | 1 | One lead (ULA paper on the impuesto al patrimonio, c. 2015), abstract unread; no resource proposed |
+| People side (R005): cross-check of the whole register, `data/leads.csv`, `data/un`, `data/eu` | 3 greps | No Venezuelan actor or lead in any other folder |
+| Diaspora and academic economists (Hausmann, Rodríguez, Santos, Palma, Sutherland, Álvarez, Faría, Machado) (R005) | 2 | Nothing; none argues for a wealth tax in the results |
+| Left writers (R005) | 2 | Luis Britto García, 2014 column: "Crear impuestos patrimoniales para las altas concentraciones de propiedad" (grade B) |
+| Regional networks and letters (Latindadd, Tax Justice LAC, CELAG, CLACSO, Alba) (R005) | 3 | Nothing signed by a Venezuelan; the Latindadd 2021 report lists Venezuela only in a table and as one of four countries with a net-wealth tax, so it is not proposed as a country resource |
 Dropped after two or three empty searches: the G20 and UN direction, the church, the left groups, polls, opposition programmes, officials' statements. Not yet tried: the ANC Diario de Debates (TSJ server down), Telesur and Correo del Orinoco directly, Aporrea with a browser.
 
 ## 12. Searched, nothing found
