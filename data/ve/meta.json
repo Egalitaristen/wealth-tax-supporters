@@ -1,0 +1,8 @@
+{
+  "name": "Venezuela",
+  "iso2": "VE",
+  "lead": "Egalitaristen",
+  "status": "in progress",
+  "boundaries": "boundaries.json",
+  "notes": "Seed pass (national level, no regional or local sweep). Register: 25 first-level areas (23 estados, Distrito Capital, Dependencias Federales; La Guaira is listed as an estado) and 336 municipios from OCHA/HDX COD-AB Venezuela (INE, valid 2021-02-23, CC BY-IGO, P-codes built from INE codes); map from the same shapes. Folder opened for the in-force Impuesto a los Grandes Patrimonios (Ley Constitucional of the 2017 Constituent Assembly, 2019). Only one law and three actors found: support is thin because opposition and independent voices reject the tax and the chavista side seldom explains it. No seats adapter: positions are not checked against an official member list."
+}

@@ -1,0 +1,363 @@
+geo_unit_id,name,level,unit_type,parent_id,website,sweep_status,swept_run,swept_date,queries_run,hits,notes,code
+G0001,Venezuela,national,country,,,pending,,,,,,
+G0002,Distrito Capital,region,distrito capital,G0001,,pending,,,,,,VE01
+G0003,Amazonas,region,estado,G0001,,pending,,,,,,VE02
+G0004,Anzoátegui,region,estado,G0001,,pending,,,,,,VE03
+G0005,Apure,region,estado,G0001,,pending,,,,,,VE04
+G0006,Aragua,region,estado,G0001,,pending,,,,,,VE05
+G0007,Barinas,region,estado,G0001,,pending,,,,,,VE06
+G0008,Bolívar,region,estado,G0001,,pending,,,,,,VE07
+G0009,Carabobo,region,estado,G0001,,pending,,,,,,VE08
+G0010,Cojedes,region,estado,G0001,,pending,,,,,,VE09
+G0011,Delta Amacuro,region,estado,G0001,,pending,,,,,,VE10
+G0012,Falcón,region,estado,G0001,,pending,,,,,,VE11
+G0013,Guárico,region,estado,G0001,,pending,,,,,,VE12
+G0014,Lara,region,estado,G0001,,pending,,,,,,VE13
+G0015,Mérida,region,estado,G0001,,pending,,,,,,VE14
+G0016,Miranda,region,estado,G0001,,pending,,,,,,VE15
+G0017,Monagas,region,estado,G0001,,pending,,,,,,VE16
+G0018,Nueva Esparta,region,estado,G0001,,pending,,,,,,VE17
+G0019,Portuguesa,region,estado,G0001,,pending,,,,,,VE18
+G0020,Sucre,region,estado,G0001,,pending,,,,,,VE19
+G0021,Táchira,region,estado,G0001,,pending,,,,,,VE20
+G0022,Trujillo,region,estado,G0001,,pending,,,,,,VE21
+G0023,Yaracuy,region,estado,G0001,,pending,,,,,,VE22
+G0024,Zulia,region,estado,G0001,,pending,,,,,,VE23
+G0025,La Guaira,region,estado,G0001,,pending,,,,,,VE24
+G0026,Dependencias Federales,region,dependencias federales,G0001,,pending,,,,,,VE25
+G0027,Libertador,council,municipio,G0002,,pending,,,,,,VE0101
+G0028,Autónomo Alto Orinoco,council,municipio,G0003,,pending,,,,,,VE0201
+G0029,Autónomo Atabapo,council,municipio,G0003,,pending,,,,,,VE0202
+G0030,Autónomo Atures,council,municipio,G0003,,pending,,,,,,VE0203
+G0031,Autónomo Autana,council,municipio,G0003,,pending,,,,,,VE0204
+G0032,Autónomo Maroa,council,municipio,G0003,,pending,,,,,,VE0205
+G0033,Manapiare,council,municipio,G0003,,pending,,,,,,VE0206
+G0034,Autónomo Rio Negro,council,municipio,G0003,,pending,,,,,,VE0207
+G0035,Anaco,council,municipio,G0004,,pending,,,,,,VE0301
+G0036,Aragua,council,municipio,G0004,,pending,,,,,,VE0302
+G0037,Fernando de Peñalver,council,municipio,G0004,,pending,,,,,,VE0303
+G0038,Francisco del Carmen Carvajal,council,municipio,G0004,,pending,,,,,,VE0304
+G0039,Francisco de Miranda,council,municipio,G0004,,pending,,,,,,VE0305
+G0040,Guanta,council,municipio,G0004,,pending,,,,,,VE0306
+G0041,Independencia,council,municipio,G0004,,pending,,,,,,VE0307
+G0042,Juan Antonio Sotillo,council,municipio,G0004,,pending,,,,,,VE0308
+G0043,Juan Manuel Cajigal,council,municipio,G0004,,pending,,,,,,VE0309
+G0044,José Gregorio Monagas,council,municipio,G0004,,pending,,,,,,VE0310
+G0045,Libertad,council,municipio,G0004,,pending,,,,,,VE0311
+G0046,Manuel Ezequiel Bruzual,council,municipio,G0004,,pending,,,,,,VE0312
+G0047,Pedro María Freites,council,municipio,G0004,,pending,,,,,,VE0313
+G0048,Piritu,council,municipio,G0004,,pending,,,,,,VE0314
+G0049,San José de Guanipa,council,municipio,G0004,,pending,,,,,,VE0315
+G0050,San Juan de Capistrano,council,municipio,G0004,,pending,,,,,,VE0316
+G0051,Santa Ana,council,municipio,G0004,,pending,,,,,,VE0317
+G0052,Simón Bolívar,council,municipio,G0004,,pending,,,,,,VE0318
+G0053,Simón Rodríguez,council,municipio,G0004,,pending,,,,,,VE0319
+G0054,Sir Arthur Mc Gregor,council,municipio,G0004,,pending,,,,,,VE0320
+G0055,Diego Bautista Urbaneja,council,municipio,G0004,,pending,,,,,,VE0321
+G0056,Achaguas,council,municipio,G0005,,pending,,,,,,VE0401
+G0057,Biruaca,council,municipio,G0005,,pending,,,,,,VE0402
+G0058,Muñoz,council,municipio,G0005,,pending,,,,,,VE0403
+G0059,Páez,council,municipio,G0005,,pending,,,,,,VE0404
+G0060,Pedro Camejo,council,municipio,G0005,,pending,,,,,,VE0405
+G0061,Rómulo Gallegos,council,municipio,G0005,,pending,,,,,,VE0406
+G0062,San Fernando,council,municipio,G0005,,pending,,,,,,VE0407
+G0063,Bolívar,council,municipio,G0006,,pending,,,,,,VE0501
+G0064,Camatagua,council,municipio,G0006,,pending,,,,,,VE0502
+G0065,Girardot,council,municipio,G0006,,pending,,,,,,VE0503
+G0066,José Ángel Lamas,council,municipio,G0006,,pending,,,,,,VE0504
+G0067,José Félix Ribas,council,municipio,G0006,,pending,,,,,,VE0505
+G0068,José Rafael Revenga,council,municipio,G0006,,pending,,,,,,VE0506
+G0069,Libertador,council,municipio,G0006,,pending,,,,,,VE0507
+G0070,Mario Briceño Iragorri,council,municipio,G0006,,pending,,,,,,VE0508
+G0071,San Casimiro,council,municipio,G0006,,pending,,,,,,VE0509
+G0072,San Sebastián,council,municipio,G0006,,pending,,,,,,VE0510
+G0073,Santiago Mariño,council,municipio,G0006,,pending,,,,,,VE0511
+G0074,Santos Michelena,council,municipio,G0006,,pending,,,,,,VE0512
+G0075,Sucre,council,municipio,G0006,,pending,,,,,,VE0513
+G0076,Tovar,council,municipio,G0006,,pending,,,,,,VE0514
+G0077,Urdaneta,council,municipio,G0006,,pending,,,,,,VE0515
+G0078,Ezequiel Zamora,council,municipio,G0006,,pending,,,,,,VE0516
+G0079,Francisco Linares Alcántara,council,municipio,G0006,,pending,,,,,,VE0517
+G0080,Ocumare de la Costa de Oro,council,municipio,G0006,,pending,,,,,,VE0518
+G0081,Alberto Arvelo Torrealba,council,municipio,G0007,,pending,,,,,,VE0601
+G0082,Antonio José de Sucre,council,municipio,G0007,,pending,,,,,,VE0602
+G0083,Arismendi,council,municipio,G0007,,pending,,,,,,VE0603
+G0084,Barinas,council,municipio,G0007,,pending,,,,,,VE0604
+G0085,Bolívar,council,municipio,G0007,,pending,,,,,,VE0605
+G0086,Cruz Paredes,council,municipio,G0007,,pending,,,,,,VE0606
+G0087,Ezequiel Zamora,council,municipio,G0007,,pending,,,,,,VE0607
+G0088,Obispos,council,municipio,G0007,,pending,,,,,,VE0608
+G0089,Pedraza,council,municipio,G0007,,pending,,,,,,VE0609
+G0090,Rojas,council,municipio,G0007,,pending,,,,,,VE0610
+G0091,Sosa,council,municipio,G0007,,pending,,,,,,VE0611
+G0092,Andrés Eloy Blanco,council,municipio,G0007,,pending,,,,,,VE0612
+G0093,Caroní,council,municipio,G0008,,pending,,,,,,VE0701
+G0094,Cedeño,council,municipio,G0008,,pending,,,,,,VE0702
+G0095,El Callao,council,municipio,G0008,,pending,,,,,,VE0703
+G0096,Gran Sabana,council,municipio,G0008,,pending,,,,,,VE0704
+G0097,Angostura del Orinoco,council,municipio,G0008,,pending,,,,,,VE0705
+G0098,Piar,council,municipio,G0008,,pending,,,,,,VE0706
+G0099,Bolivariano Angostura,council,municipio,G0008,,pending,,,,,,VE0707
+G0100,Roscio,council,municipio,G0008,,pending,,,,,,VE0708
+G0101,Sifontes,council,municipio,G0008,,pending,,,,,,VE0709
+G0102,Sucre,council,municipio,G0008,,pending,,,,,,VE0710
+G0103,Padre Pedro Chien,council,municipio,G0008,,pending,,,,,,VE0711
+G0104,Bejuma,council,municipio,G0009,,pending,,,,,,VE0801
+G0105,Carlos Arvelo,council,municipio,G0009,,pending,,,,,,VE0802
+G0106,Diego Ibarra,council,municipio,G0009,,pending,,,,,,VE0803
+G0107,Guacara,council,municipio,G0009,,pending,,,,,,VE0804
+G0108,Juan José Mora,council,municipio,G0009,,pending,,,,,,VE0805
+G0109,Libertador,council,municipio,G0009,,pending,,,,,,VE0806
+G0110,Los Guayos,council,municipio,G0009,,pending,,,,,,VE0807
+G0111,Miranda,council,municipio,G0009,,pending,,,,,,VE0808
+G0112,Montalbán,council,municipio,G0009,,pending,,,,,,VE0809
+G0113,Naguanagua,council,municipio,G0009,,pending,,,,,,VE0810
+G0114,Puerto Cabello,council,municipio,G0009,,pending,,,,,,VE0811
+G0115,San Diego,council,municipio,G0009,,pending,,,,,,VE0812
+G0116,San Joaquín,council,municipio,G0009,,pending,,,,,,VE0813
+G0117,Valencia,council,municipio,G0009,,pending,,,,,,VE0814
+G0118,Anzoátegui,council,municipio,G0010,,pending,,,,,,VE0901
+G0119,Tinaquillo,council,municipio,G0010,,pending,,,,,,VE0902
+G0120,Girardot,council,municipio,G0010,,pending,,,,,,VE0903
+G0121,Lima Blanco,council,municipio,G0010,,pending,,,,,,VE0904
+G0122,Pao de San Juan Bautista,council,municipio,G0010,,pending,,,,,,VE0905
+G0123,Ricaurte,council,municipio,G0010,,pending,,,,,,VE0906
+G0124,Rómulo Gallegos,council,municipio,G0010,,pending,,,,,,VE0907
+G0125,Ezequiel Zamora,council,municipio,G0010,,pending,,,,,,VE0908
+G0126,Tinaco,council,municipio,G0010,,pending,,,,,,VE0909
+G0127,Antonio Díaz,council,municipio,G0011,,pending,,,,,,VE1001
+G0128,Casacoima,council,municipio,G0011,,pending,,,,,,VE1002
+G0129,Pedernales,council,municipio,G0011,,pending,,,,,,VE1003
+G0130,Tucupita,council,municipio,G0011,,pending,,,,,,VE1004
+G0131,Acosta,council,municipio,G0012,,pending,,,,,,VE1101
+G0132,Bolívar,council,municipio,G0012,,pending,,,,,,VE1102
+G0133,Buchivacoa,council,municipio,G0012,,pending,,,,,,VE1103
+G0134,Cacique Manaure,council,municipio,G0012,,pending,,,,,,VE1104
+G0135,Carirubana,council,municipio,G0012,,pending,,,,,,VE1105
+G0136,Colina,council,municipio,G0012,,pending,,,,,,VE1106
+G0137,Dabajuro,council,municipio,G0012,,pending,,,,,,VE1107
+G0138,Democracia,council,municipio,G0012,,pending,,,,,,VE1108
+G0139,Falcón,council,municipio,G0012,,pending,,,,,,VE1109
+G0140,Federación,council,municipio,G0012,,pending,,,,,,VE1110
+G0141,Jacura,council,municipio,G0012,,pending,,,,,,VE1111
+G0142,Los Taques,council,municipio,G0012,,pending,,,,,,VE1112
+G0143,Mauroa,council,municipio,G0012,,pending,,,,,,VE1113
+G0144,Miranda,council,municipio,G0012,,pending,,,,,,VE1114
+G0145,Monseñor Iturriza,council,municipio,G0012,,pending,,,,,,VE1115
+G0146,Palmasola,council,municipio,G0012,,pending,,,,,,VE1116
+G0147,Petit,council,municipio,G0012,,pending,,,,,,VE1117
+G0148,Piritu,council,municipio,G0012,,pending,,,,,,VE1118
+G0149,San Francisco,council,municipio,G0012,,pending,,,,,,VE1119
+G0150,Silva,council,municipio,G0012,,pending,,,,,,VE1120
+G0151,Sucre,council,municipio,G0012,,pending,,,,,,VE1121
+G0152,Tocopero,council,municipio,G0012,,pending,,,,,,VE1122
+G0153,Unión,council,municipio,G0012,,pending,,,,,,VE1123
+G0154,Urumaco,council,municipio,G0012,,pending,,,,,,VE1124
+G0155,Zamora,council,municipio,G0012,,pending,,,,,,VE1125
+G0156,Camaguan,council,municipio,G0013,,pending,,,,,,VE1201
+G0157,Chaguaramas,council,municipio,G0013,,pending,,,,,,VE1202
+G0158,El Socorro,council,municipio,G0013,,pending,,,,,,VE1203
+G0159,San Gerónimo de Guayabal,council,municipio,G0013,,pending,,,,,,VE1204
+G0160,Leonardo Infante,council,municipio,G0013,,pending,,,,,,VE1205
+G0161,Las Mercedes,council,municipio,G0013,,pending,,,,,,VE1206
+G0162,Julián Mellado,council,municipio,G0013,,pending,,,,,,VE1207
+G0163,Francisco de Miranda,council,municipio,G0013,,pending,,,,,,VE1208
+G0164,José Tadeo Monagas,council,municipio,G0013,,pending,,,,,,VE1209
+G0165,Ortiz,council,municipio,G0013,,pending,,,,,,VE1210
+G0166,José Félix Ribas,council,municipio,G0013,,pending,,,,,,VE1211
+G0167,Juan Germán Roscio,council,municipio,G0013,,pending,,,,,,VE1212
+G0168,San José de Guaribe,council,municipio,G0013,,pending,,,,,,VE1213
+G0169,Santa María de Ipire,council,municipio,G0013,,pending,,,,,,VE1214
+G0170,Pedro Zaraza,council,municipio,G0013,,pending,,,,,,VE1215
+G0171,Andrés Eloy Blanco,council,municipio,G0014,,pending,,,,,,VE1301
+G0172,Crespo,council,municipio,G0014,,pending,,,,,,VE1302
+G0173,Iribarren,council,municipio,G0014,,pending,,,,,,VE1303
+G0174,Jiménez,council,municipio,G0014,,pending,,,,,,VE1304
+G0175,Moran,council,municipio,G0014,,pending,,,,,,VE1305
+G0176,Palavecino,council,municipio,G0014,,pending,,,,,,VE1306
+G0177,Simón Planas,council,municipio,G0014,,pending,,,,,,VE1307
+G0178,Torres,council,municipio,G0014,,pending,,,,,,VE1308
+G0179,Urdaneta,council,municipio,G0014,,pending,,,,,,VE1309
+G0180,Alberto Adriani,council,municipio,G0015,,pending,,,,,,VE1401
+G0181,Andrés Bello,council,municipio,G0015,,pending,,,,,,VE1402
+G0182,Antonio Pinto Salinas,council,municipio,G0015,,pending,,,,,,VE1403
+G0183,Aricagua,council,municipio,G0015,,pending,,,,,,VE1404
+G0184,Arzobispo Chacón,council,municipio,G0015,,pending,,,,,,VE1405
+G0185,Campo Elías,council,municipio,G0015,,pending,,,,,,VE1406
+G0186,Caracciolo Parra Olmedo,council,municipio,G0015,,pending,,,,,,VE1407
+G0187,Cardenal Quintero,council,municipio,G0015,,pending,,,,,,VE1408
+G0188,Guaraque,council,municipio,G0015,,pending,,,,,,VE1409
+G0189,Julio Cesar Sala,council,municipio,G0015,,pending,,,,,,VE1410
+G0190,Justo Briceño,council,municipio,G0015,,pending,,,,,,VE1411
+G0191,Libertador,council,municipio,G0015,,pending,,,,,,VE1412
+G0192,Miranda,council,municipio,G0015,,pending,,,,,,VE1413
+G0193,Obispo Ramos de Lora,council,municipio,G0015,,pending,,,,,,VE1414
+G0194,Padre Noguera,council,municipio,G0015,,pending,,,,,,VE1415
+G0195,Pueblo Llano,council,municipio,G0015,,pending,,,,,,VE1416
+G0196,Rangel,council,municipio,G0015,,pending,,,,,,VE1417
+G0197,Rivas Dávila,council,municipio,G0015,,pending,,,,,,VE1418
+G0198,Santos Marquina,council,municipio,G0015,,pending,,,,,,VE1419
+G0199,Sucre,council,municipio,G0015,,pending,,,,,,VE1420
+G0200,Tovar,council,municipio,G0015,,pending,,,,,,VE1421
+G0201,Tulio Febres Cordero,council,municipio,G0015,,pending,,,,,,VE1422
+G0202,Zea,council,municipio,G0015,,pending,,,,,,VE1423
+G0203,Acevedo,council,municipio,G0016,,pending,,,,,,VE1501
+G0204,Andrés Bello,council,municipio,G0016,,pending,,,,,,VE1502
+G0205,Baruta,council,municipio,G0016,,pending,,,,,,VE1503
+G0206,Brión,council,municipio,G0016,,pending,,,,,,VE1504
+G0207,Buroz,council,municipio,G0016,,pending,,,,,,VE1505
+G0208,Carrizal,council,municipio,G0016,,pending,,,,,,VE1506
+G0209,Chacao,council,municipio,G0016,,pending,,,,,,VE1507
+G0210,Cristóbal Rojas,council,municipio,G0016,,pending,,,,,,VE1508
+G0211,El Hatillo,council,municipio,G0016,,pending,,,,,,VE1509
+G0212,Bolivariano Guaicaipuro,council,municipio,G0016,,pending,,,,,,VE1510
+G0213,Independencia,council,municipio,G0016,,pending,,,,,,VE1511
+G0214,Lander,council,municipio,G0016,,pending,,,,,,VE1512
+G0215,Los Salías,council,municipio,G0016,,pending,,,,,,VE1513
+G0216,Páez,council,municipio,G0016,,pending,,,,,,VE1514
+G0217,Paz Castillo,council,municipio,G0016,,pending,,,,,,VE1515
+G0218,Pedro Gual,council,municipio,G0016,,pending,,,,,,VE1516
+G0219,Plaza,council,municipio,G0016,,pending,,,,,,VE1517
+G0220,Simón Bolívar,council,municipio,G0016,,pending,,,,,,VE1518
+G0221,Sucre,council,municipio,G0016,,pending,,,,,,VE1519
+G0222,Urdaneta,council,municipio,G0016,,pending,,,,,,VE1520
+G0223,Zamora,council,municipio,G0016,,pending,,,,,,VE1521
+G0224,Acosta,council,municipio,G0017,,pending,,,,,,VE1601
+G0225,Aguasay,council,municipio,G0017,,pending,,,,,,VE1602
+G0226,Bolívar,council,municipio,G0017,,pending,,,,,,VE1603
+G0227,Caripe,council,municipio,G0017,,pending,,,,,,VE1604
+G0228,Cedeño,council,municipio,G0017,,pending,,,,,,VE1605
+G0229,Ezequiel Zamora,council,municipio,G0017,,pending,,,,,,VE1606
+G0230,Libertador,council,municipio,G0017,,pending,,,,,,VE1607
+G0231,Maturín,council,municipio,G0017,,pending,,,,,,VE1608
+G0232,Piar,council,municipio,G0017,,pending,,,,,,VE1609
+G0233,Punceres,council,municipio,G0017,,pending,,,,,,VE1610
+G0234,Santa Babara,council,municipio,G0017,,pending,,,,,,VE1611
+G0235,Sotillo,council,municipio,G0017,,pending,,,,,,VE1612
+G0236,Uracoa,council,municipio,G0017,,pending,,,,,,VE1613
+G0237,Antolín del Campo,council,municipio,G0018,,pending,,,,,,VE1701
+G0238,Arismendi,council,municipio,G0018,,pending,,,,,,VE1702
+G0239,Díaz,council,municipio,G0018,,pending,,,,,,VE1703
+G0240,García,council,municipio,G0018,,pending,,,,,,VE1704
+G0241,Gómez,council,municipio,G0018,,pending,,,,,,VE1705
+G0242,Maneiro,council,municipio,G0018,,pending,,,,,,VE1706
+G0243,Marcano,council,municipio,G0018,,pending,,,,,,VE1707
+G0244,Mariño,council,municipio,G0018,,pending,,,,,,VE1708
+G0245,Macanao,council,municipio,G0018,,pending,,,,,,VE1709
+G0246,Tubores,council,municipio,G0018,,pending,,,,,,VE1710
+G0247,Villalba,council,municipio,G0018,,pending,,,,,,VE1711
+G0248,Agua Blanca,council,municipio,G0019,,pending,,,,,,VE1801
+G0249,Araure,council,municipio,G0019,,pending,,,,,,VE1802
+G0250,Esteller,council,municipio,G0019,,pending,,,,,,VE1803
+G0251,Guanare,council,municipio,G0019,,pending,,,,,,VE1804
+G0252,Guanarito,council,municipio,G0019,,pending,,,,,,VE1805
+G0253,Monseñor José Vicente de Und,council,municipio,G0019,,pending,,,,,,VE1806
+G0254,Ospino,council,municipio,G0019,,pending,,,,,,VE1807
+G0255,Páez,council,municipio,G0019,,pending,,,,,,VE1808
+G0256,Papelón,council,municipio,G0019,,pending,,,,,,VE1809
+G0257,San Genaro de Boconoito,council,municipio,G0019,,pending,,,,,,VE1810
+G0258,San Rafael de Onoto,council,municipio,G0019,,pending,,,,,,VE1811
+G0259,Santa Rosalía,council,municipio,G0019,,pending,,,,,,VE1812
+G0260,Sucre,council,municipio,G0019,,pending,,,,,,VE1813
+G0261,Turen,council,municipio,G0019,,pending,,,,,,VE1814
+G0262,Andrés Eloy Blanco,council,municipio,G0020,,pending,,,,,,VE1901
+G0263,Andrés Mata,council,municipio,G0020,,pending,,,,,,VE1902
+G0264,Arismendi,council,municipio,G0020,,pending,,,,,,VE1903
+G0265,Benítez,council,municipio,G0020,,pending,,,,,,VE1904
+G0266,Bermúdez,council,municipio,G0020,,pending,,,,,,VE1905
+G0267,Bolívar,council,municipio,G0020,,pending,,,,,,VE1906
+G0268,Cajigal,council,municipio,G0020,,pending,,,,,,VE1907
+G0269,Cruz Salmerón Acosta,council,municipio,G0020,,pending,,,,,,VE1908
+G0270,Libertador,council,municipio,G0020,,pending,,,,,,VE1909
+G0271,Mariño,council,municipio,G0020,,pending,,,,,,VE1910
+G0272,Mejía,council,municipio,G0020,,pending,,,,,,VE1911
+G0273,Montes,council,municipio,G0020,,pending,,,,,,VE1912
+G0274,Ribero,council,municipio,G0020,,pending,,,,,,VE1913
+G0275,Sucre,council,municipio,G0020,,pending,,,,,,VE1914
+G0276,Valdez,council,municipio,G0020,,pending,,,,,,VE1915
+G0277,Andrés Bello,council,municipio,G0021,,pending,,,,,,VE2001
+G0278,Antonio Rómulo Costa,council,municipio,G0021,,pending,,,,,,VE2002
+G0279,Ayacucho,council,municipio,G0021,,pending,,,,,,VE2003
+G0280,Bolívar,council,municipio,G0021,,pending,,,,,,VE2004
+G0281,Cárdenas,council,municipio,G0021,,pending,,,,,,VE2005
+G0282,Córdoba,council,municipio,G0021,,pending,,,,,,VE2006
+G0283,Fernández Feo,council,municipio,G0021,,pending,,,,,,VE2007
+G0284,Francisco de Miranda,council,municipio,G0021,,pending,,,,,,VE2008
+G0285,García de Hevia,council,municipio,G0021,,pending,,,,,,VE2009
+G0286,Guasimos,council,municipio,G0021,,pending,,,,,,VE2010
+G0287,Independencia,council,municipio,G0021,,pending,,,,,,VE2011
+G0288,Jáuregui,council,municipio,G0021,,pending,,,,,,VE2012
+G0289,José María Vargas,council,municipio,G0021,,pending,,,,,,VE2013
+G0290,Junín,council,municipio,G0021,,pending,,,,,,VE2014
+G0291,Libertad,council,municipio,G0021,,pending,,,,,,VE2015
+G0292,Libertador,council,municipio,G0021,,pending,,,,,,VE2016
+G0293,Lobatera,council,municipio,G0021,,pending,,,,,,VE2017
+G0294,Michelena,council,municipio,G0021,,pending,,,,,,VE2018
+G0295,Panamericano,council,municipio,G0021,,pending,,,,,,VE2019
+G0296,Pedro María Ureña,council,municipio,G0021,,pending,,,,,,VE2020
+G0297,Rafael Urdaneta,council,municipio,G0021,,pending,,,,,,VE2021
+G0298,Samuel Darío Maldonado,council,municipio,G0021,,pending,,,,,,VE2022
+G0299,San Cristóbal,council,municipio,G0021,,pending,,,,,,VE2023
+G0300,Seboruco,council,municipio,G0021,,pending,,,,,,VE2024
+G0301,Simón Rodríguez,council,municipio,G0021,,pending,,,,,,VE2025
+G0302,Sucre,council,municipio,G0021,,pending,,,,,,VE2026
+G0303,Torbes,council,municipio,G0021,,pending,,,,,,VE2027
+G0304,Uribante,council,municipio,G0021,,pending,,,,,,VE2028
+G0305,San Judas Tadeo,council,municipio,G0021,,pending,,,,,,VE2029
+G0306,Andrés Bello,council,municipio,G0022,,pending,,,,,,VE2101
+G0307,Bocono,council,municipio,G0022,,pending,,,,,,VE2102
+G0308,Bolívar,council,municipio,G0022,,pending,,,,,,VE2103
+G0309,Candelaria,council,municipio,G0022,,pending,,,,,,VE2104
+G0310,Carache,council,municipio,G0022,,pending,,,,,,VE2105
+G0311,Escuque,council,municipio,G0022,,pending,,,,,,VE2106
+G0312,José Felipe Márquez Cañizal,council,municipio,G0022,,pending,,,,,,VE2107
+G0313,Juan Vicente Campo Elías,council,municipio,G0022,,pending,,,,,,VE2108
+G0314,La Ceiba,council,municipio,G0022,,pending,,,,,,VE2109
+G0315,Miranda,council,municipio,G0022,,pending,,,,,,VE2110
+G0316,Monte Carmelo,council,municipio,G0022,,pending,,,,,,VE2111
+G0317,Motatan,council,municipio,G0022,,pending,,,,,,VE2112
+G0318,Pampan,council,municipio,G0022,,pending,,,,,,VE2113
+G0319,Pampanito,council,municipio,G0022,,pending,,,,,,VE2114
+G0320,Rafael Rangel,council,municipio,G0022,,pending,,,,,,VE2115
+G0321,San Rafael de Carvajal,council,municipio,G0022,,pending,,,,,,VE2116
+G0322,Sucre,council,municipio,G0022,,pending,,,,,,VE2117
+G0323,Trujillo,council,municipio,G0022,,pending,,,,,,VE2118
+G0324,Urdaneta,council,municipio,G0022,,pending,,,,,,VE2119
+G0325,Valera,council,municipio,G0022,,pending,,,,,,VE2120
+G0326,Arístides Bastidas,council,municipio,G0023,,pending,,,,,,VE2201
+G0327,Bolívar,council,municipio,G0023,,pending,,,,,,VE2202
+G0328,Bruzual,council,municipio,G0023,,pending,,,,,,VE2203
+G0329,Cocorote,council,municipio,G0023,,pending,,,,,,VE2204
+G0330,Independencia,council,municipio,G0023,,pending,,,,,,VE2205
+G0331,José Antonio Páez,council,municipio,G0023,,pending,,,,,,VE2206
+G0332,La Trinidad,council,municipio,G0023,,pending,,,,,,VE2207
+G0333,Manuel Monge,council,municipio,G0023,,pending,,,,,,VE2208
+G0334,Nirgua,council,municipio,G0023,,pending,,,,,,VE2209
+G0335,Peña,council,municipio,G0023,,pending,,,,,,VE2210
+G0336,San Felipe,council,municipio,G0023,,pending,,,,,,VE2211
+G0337,Sucre,council,municipio,G0023,,pending,,,,,,VE2212
+G0338,Urachiche,council,municipio,G0023,,pending,,,,,,VE2213
+G0339,Veroes,council,municipio,G0023,,pending,,,,,,VE2214
+G0340,Almirante Padilla,council,municipio,G0024,,pending,,,,,,VE2301
+G0341,Baralt,council,municipio,G0024,,pending,,,,,,VE2302
+G0342,Cabimas,council,municipio,G0024,,pending,,,,,,VE2303
+G0343,Catatumbo,council,municipio,G0024,,pending,,,,,,VE2304
+G0344,Colon,council,municipio,G0024,,pending,,,,,,VE2305
+G0345,Francisco Javier Pulgar,council,municipio,G0024,,pending,,,,,,VE2306
+G0346,Jesús Enrique Lossada,council,municipio,G0024,,pending,,,,,,VE2307
+G0347,Jesús María Semprum,council,municipio,G0024,,pending,,,,,,VE2308
+G0348,La Cañada de Urdaneta,council,municipio,G0024,,pending,,,,,,VE2309
+G0349,Lagunillas,council,municipio,G0024,,pending,,,,,,VE2310
+G0350,Machiques de Perija,council,municipio,G0024,,pending,,,,,,VE2311
+G0351,Mara,council,municipio,G0024,,pending,,,,,,VE2312
+G0352,Maracaibo,council,municipio,G0024,,pending,,,,,,VE2313
+G0353,Miranda,council,municipio,G0024,,pending,,,,,,VE2314
+G0354,Indígena Bolivariano Guajira,council,municipio,G0024,,pending,,,,,,VE2315
+G0355,Rosario de Perija,council,municipio,G0024,,pending,,,,,,VE2316
+G0356,San Francisco,council,municipio,G0024,,pending,,,,,,VE2317
+G0357,Santa Rita,council,municipio,G0024,,pending,,,,,,VE2318
+G0358,Simón Bolívar,council,municipio,G0024,,pending,,,,,,VE2319
+G0359,Sucre,council,municipio,G0024,,pending,,,,,,VE2320
+G0360,Valmore Rodríguez,council,municipio,G0024,,pending,,,,,,VE2321
+G0361,Vargas,council,municipio,G0025,,pending,,,,,,VE2401
+G0362,Dependencias Federales,council,municipio,G0026,,pending,,,,,,VE2501
