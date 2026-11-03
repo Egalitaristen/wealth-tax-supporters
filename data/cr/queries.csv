@@ -1,0 +1,13 @@
+query_id,run_id,date,language,query,channel,results_opened,leads_added,note
+Q0001,R001,2026-11-03,es,proyecto de ley impuesto a las grandes fortunas Costa Rica diputados expediente,web,4,1,
+Q0002,R001,2026-11-03,es,Costa Rica impuesto a la riqueza patrimonio grandes fortunas Frente Amplio proyecto,web,5,2,
+Q0003,R001,2026-11-03,en,Costa Rica wealth tax billionaires proposal deputies union ANEP,web,3,0,
+Q0004,R001,2026-11-03,es,impuesto a la riqueza Costa Rica sindicatos ANEP APSE ANDE propuesta grandes fortunas,web,5,3,
+Q0005,R001,2026-11-03,es,Villalta Paola Vega proyecto de ley impuesto grandes capitales 2020 Franggi Nicolás,web,4,2,
+Q0006,R001,2026-11-03,es,Grupo de Economía Pluralista carta presidente Alvarado impuesto grandes patrimonios,web,5,2,
+Q0007,R001,2026-11-03,es,Frente Amplio plan de gobierno 2026-2030 impuesto patrimonio grandes fortunas,web,2,1,
+Q0008,R001,2026-11-03,es,Observatorio Económico y Social UNA impuesto a la riqueza patrimonio Costa Rica,web,3,0,
+Q0009,R001,2026-11-03,es,Costa Rica arzobispo Iglesia Católica impuesto grandes fortunas pandemia 2020,web,3,0,
+Q0010,R001,2026-11-03,es,Costa Rica impuesto a la riqueza encuesta CIEP UCR apoyo gravar ricos,web,3,0,
+Q0011,R001,2026-11-03,es,Costa Rica impuesto a milmillonarios G20 Zucman Oxfam ministro Hacienda diputado,web,3,0,
+Q0012,R001,2026-11-03,es,Costa Rica diputados Frente Amplio 2022 2026 grandes fortunas grandes patrimonios Oxfam moción,web (extended),4,0,

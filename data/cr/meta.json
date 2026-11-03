@@ -1,0 +1,8 @@
+{
+  "name": "Costa Rica",
+  "iso2": "CR",
+  "lead": "Egalitaristen",
+  "status": "in progress",
+  "boundaries": "boundaries.json",
+  "notes": "Seed pass (national level, no regional or local sweep). Register: 7 provincias and 84 cantones (OCHA/HDX COD-AB Costa Rica, valid 2024-12-03, CC BY-IGO, P-codes CR1 to CR7 and CR101 and up); the 489 distritos are not loaded. Map from the same shapes, with the Isla del Coco parts of Puntarenas dropped so the mainland fills the frame. No seats adapter: positions are not checked against an official member list. Also in the file: the Impuesto solidario a las viviendas de lujo (Ley 8683) and the personas jurídicas tax are property or company taxes and are not counted."
+}

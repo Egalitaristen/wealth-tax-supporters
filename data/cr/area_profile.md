@@ -1,0 +1,52 @@
+# Area profile — Costa Rica
+
+Seed pass of 2026-11-03 (run R001). Lines marked `[verify]` come from a search summary only.
+
+## 1. Scope
+- Area: Costa Rica; type: country
+- Depth: Seed, national level only. No provincial or cantonal sweep.
+- Register: 7 provincias and 84 cantones from [OCHA / HDX COD-AB Costa Rica](https://data.humdata.org/dataset/cod-ab-cri) (valid 2024-12-03; CC BY-IGO), P-codes `CR1` to `CR7` and `CR101` upwards. The 489 distritos are not loaded. Map from the same shapes (Isla del Coco dropped).
+- Languages searched: Spanish and English.
+- Date of first run: 2026-11-03.
+
+## 2. Wealth tax history and live proposals (2010 onwards)
+- **No wealth tax is in force.** Costa Rica has an "impuesto solidario" on luxury homes (Ley 8683) and a levy on legal persons; both are property or company taxes and are not counted. A 0.1% levy on company equity was applied in 2003 under the 2002 Ley 8343, according to the text of expediente 21.883 and a [Delfino.cr column](https://delfino.cr/2020/07/hacia-el-impuesto-solidario); not checked further.
+- **2020, COVID-19 crisis: the only wave found.** Between March and October 2020 unions, the governing PAC, ethics advisers to the president, a few deputies and the president himself called for taxes on large fortunes:
+  - 26 Mar 2020: José María Villalta (Frente Amplio) files expediente 21.883, with a one-off 0.1% on the net equity of companies ([bill text](https://proyectos.conare.ac.cr/asamblea/21883.pdf)); archived ([Delfino.cr](https://delfino.cr/asamblea/proyecto/21883)).
+  - 4 Apr 2020: ANEP proposes a temporary 10% on the wealth of large personal and family fortunes ([Semanario Universidad](https://semanariouniversidad.com/pais/organizaciones-sindicales-proponen-medidas-para-enfrentar-emergencia-por-covid-19/)).
+  - 13 Jul 2020: President Carlos Alvarado tells an OECD ministerial summit "debemos tasar la riqueza" ([Observador](https://observador.cr/noticia/nuevos-impuestos-a-riqueza-para-mas-igualdad-propone-alvarado-ante-ocde/)).
+  - 27 Jul 2020: the PAC Political Commission asks to tax "grandes rentas y capitales" ([Observador](https://observador.cr/pac-pide-mas-impuestos-ahora-sobre-grandes-capitales/)).
+  - 29 Jul 2020: Franggi Nicolás (PLN) files expediente 22.113, a one-off 1% on declared assets above US$2.5m (persons) or US$5m (companies) ([El Mundo](https://elmundo.cr/costa-rica/nicolas-presenta-proyecto-para-gravar-la-riqueza-a-grandes-capitales/)); rejected ([Delfino.cr](https://delfino.cr/asamblea/proyecto/22113)). Paola Vega (PAC) backed it on 2 Oct 2020 ([El Mundo](https://elmundo.cr/costa-rica/paola-vega-sobre-proyecto-de-fanggi-nicolas-coincidimos-en-que-quienes-mas-tengan-aporten-mas/)).
+  - The Assembly president, Eduardo Cruickshank, floated a one-off levy on bank deposits above CRC 50 million; Wikidata records his death in March 2025, so he is an exclusion ([Observador](https://observador.cr/presidente-del-congreso-propone-impuesto-solidario-a-grandes-capitales/)).
+  - The groups of PUSC, PLN and Restauración Nacional rejected new taxes in July 2020 ([Observador](https://observador.cr/diputados-rechazan-propuesta-de-mas-impuestos-impulsada-por-varios-grupos-de-politicos/)). Not recorded.
+- **2022 to 2026:** no bill or motion on net wealth found. The Frente Amplio group's tax bills are about evasion and passive extraterritorial income (expediente 24.206, rejected in committee in 2026; [Semanario Universidad](https://semanariouniversidad.com/pais/ppso-y-pln-se-niegan-a-reestablecer-un-impuesto-a-grandes-capitales-que-beneficiaria-a-becas-avancemos/)); Villalta's July 2026 request for 11 fiscal bills is about evasion and privileges ([Delfino.cr](https://delfino.cr/2026/07/frente-amplio-pide-a-laura-fernandez-convocar-proyectos-para-combatir-evasion-y-elusion-fiscal)).
+- **Climate:** the ruling Pueblo Soberano and the PLN oppose new taxes; Semanario Universidad (Jan 2026) quotes an ex-vice-minister of Finance who sees little political future for taxes on the very rich ([article](https://semanariouniversidad.com/pais/ni-costa-rica-ni-america-latina-se-beneficiaran-con-impuesto-a-multinacionales-y-grandes-riquezas/)).
+
+## 3. Legislature
+- Asamblea Legislativa: 57 deputies elected by province. Bill pages (state, principal signatory, text) are on [Delfino.cr](https://delfino.cr/asamblea/proyecto/22113); the CONARE mirror (`proyectos.conare.ac.cr/asamblea/<expediente>.pdf`) carries bill texts. No official member list was read, so no seat chart.
+
+## 4. Parties
+- PAC: statement of its Political Commission (grade C). Frente Amplio: its deputy's bill. PLN: one deputy's bill, but the PLN group voted against new taxes. The Frente Amplio programmes (2018, 2022, 2026) were not read: frenteamplio.org and tse.go.cr answered a script with an error page, which was not bypassed.
+
+## 5. Government below national level
+- 7 provincias (no provincial government) and 84 cantones (municipalidades). Not sampled; nothing suggests municipalities play a role in this debate.
+
+## 6. Search terms
+- impuesto a la riqueza; impuesto solidario (a la riqueza / a los grandes capitales); gravar las grandes fortunas; impuesto al patrimonio; megariquezas. Watch for "impuesto solidario a las viviendas de lujo" (Ley 8683) and "impuesto a las personas jurídicas", which are property and company taxes.
+
+## 7. Media
+- elmundo.cr, observador.cr, delfino.cr, semanariouniversidad.com, teletica.com and larepublica.net work. Delfino.cr has a page for every bill.
+
+## 9. Known networks
+- ANEP (Albino Vargas), BUSSCO, Encuentro Social Multisectorial; Grupo de Economía Pluralista (Luis Paulino Vargas, UNED); the "garantes éticos" advisers; IIS-UCR researchers; Oxfam (regional report, 2020).
+
+## 10. Plan for the next runs
+1. Open the leads in `leads.csv`: the letter of 180 signers (July 2020), Grupo de Economía Pluralista, Frente Amplio programmes (in a browser), Encuentro Social Multisectorial, Albino Vargas in his own words.
+2. Search the 2022-2026 and 2026-2030 deputies for bills on large fortunes; confirm bill states on the Assembly's own site.
+3. Polls, Oxfam / ECLAC statements for Costa Rica and G20 billionaire-tax letters; a Costa Rican poll on taxing the rich was not found.
+4. Church, universities (UCR, UNA, UNED), APSE, ANDE, Rerum Novarum: searched, nothing found in this pass.
+
+## 12. Searched, nothing found
+- Searched, nothing found: a bishops' or archbishop's call for a wealth tax; a poll on a wealth tax; any 2022 to 2026 bill on net wealth; positions of APSE and Rerum Novarum (ANDE only objected to the IMF package); G20 billionaire-tax statements by a Costa Rican official.
+- Left out on purpose: Eduardo Cruickshank (died 2025); the UCR open letter to 100 business owners (asks for a voluntary solidarity fund); Paola Vega's own bill (income surcharge).
+- How the quotes were checked: all 15 rows pass `wtdb.py checkquotes`; 6 of the 15 rows have a Wayback copy, the other sources had none.
