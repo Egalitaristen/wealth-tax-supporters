@@ -10,7 +10,7 @@ Seed pass of 2026-11-03 (run R001). Every line has a source; lines marked `[veri
 - Map: [OCHA / HDX COD-AB Panama](https://data.humdata.org/dataset/cod-ab-pan) (valid 2021-10-20, from the Instituto Nacional de Estadística y Censo), CC BY-IGO; codes are the OCHA P-codes (province `PA01` to `PA13`, district `PA0101` and so on).
 
 ## 2. Wealth tax history and live proposals (2010 onwards)
-- **Headline finding: no Panamanian deputy, party, union, academic, church body or business figure was found on the record for an actual wealth tax.** Twenty-five searches in Spanish and English over two passes (see `queries.csv`) returned only Argentine, Chilean, Spanish and Colombian material, or other Panamanian tax stories. This says what web search reaches, not that nobody has ever proposed one: the Assembly's bill search could not be opened (asamblea.gob.pa timed out, the Legispan root answers 403 to scripts, not bypassed), so bills were searched only through Legispan PDFs and news that search engines index.
+- **Headline finding: no Panamanian deputy, party, union, academic, church body or business figure was found on the record for an actual wealth tax.** Thirty-three searches in Spanish and English over three passes (see `queries.csv`) returned only Argentine, Chilean, Spanish and Colombian material, or other Panamanian tax stories. This says what web search reaches, not that nobody has ever proposed one: the Assembly's bill search could not be opened (asamblea.gob.pa timed out, the Legispan root answers 403 to scripts, not bypassed), so bills were searched only through Legispan PDFs and news that search engines index.
 - **No net-wealth tax is in force.** Panama has a property tax (impuesto de inmuebles, Ley 66 of 2017) and no tax on total net wealth; a law-firm guide says so ([Morgan & Morgan](https://morimor.com/es/private-wealth-2023-panama/)) `[verify: search summary only]`. The property tax is out of definition and is not listed as a resource.
 - **2025 social-security reform.** Ley 462 of 18 March 2025 changed contributions, pensions and governance of the Caja de Seguro Social; President Mulino said it raised no taxes ([MEF](https://www.mef.gob.pa/2025/03/presidente-mulino-sanciona-nueva-ley-de-la-css/)). No wealth-tax proposal was found in that debate.
 - **2026 tax reform.** Ley 526 (Proyecto 641, approved 70 to 0 in the third debate, in force from fiscal 2027) sets a 15% tax on multinational entities without economic substance, to leave the EU list of non-cooperative jurisdictions ([Lac Group](https://www.lacgrp.com/ley-526-sustancia-economica-panama-2026/)). A corporate tax, out of definition.
@@ -22,6 +22,7 @@ Seed pass of 2026-11-03 (run R001). Every line has a source; lines marked `[veri
 - **Polls:** none found.
 
 ## 3. Legislature
+- **Bill scan (R003):** Fundación Espacio Cívico mirrors the Assembly's register and serves it through its own public JSON ([Buscador de Leyes](https://espaciocivico.org/proyectos)). I read all 834 bills filed since 2 July 2024 (2024: 218, 2025: 345, 2026: 271 up to August) and scanned the titles for patrimonio, riqueza, fortunas, millonarios, solidario and any tax wording. **None proposes a wealth tax.** The tax bills are the 2026 economic-substance law, the 2025 income-tax anteproyecto of Pérez Barboni, Código Fiscal and ITBMS changes, short-stay lodging and budgets. The 2019-2024 term is not in the mirror and was not checked. The site rate-limited the first, faster attempt (HTTP 429); the second ran with pauses.
 - Asamblea Nacional (71 deputies, single chamber): bills and minutes on [asamblea.gob.pa](https://www.asamblea.gob.pa) and the Legispan store (`s3-legispan.asamblea.gob.pa`); the minutes are PDFs. The Legispan bill search was not run. The member list was not read, so no seat chart and no positions.
 - Parties and blocs seen in coverage: Vamos (Janine Prado heads the bench), Movimiento Otro Camino (MOCA), independents (Pérez Barboni), PRD, Panameñista. None was found with a wealth-tax programme or bill.
 
@@ -48,6 +49,18 @@ Seed pass of 2026-11-03 (run R001). Every line has a source; lines marked `[veri
 3. Identify Panamanian partners of Latindadd and the Plataforma Tributaria LAC.
 4. The El Socialista Centroamericano piece (the site answers 403; try an archive copy).
 5. Watch the 2027 budget and any follow-up to Ley 526.
+
+## 11. Directions tried and their yield
+| Direction | Yield |
+|---|---|
+| Web search on deputies, parties, unions, church, economists (R001) | nothing |
+| Legispan PDFs and news via search, asamblea.gob.pa directly (R002) | site blocked or timed out; nothing |
+| CSS-reform debate 2024-25, Universidad de Panamá (R002) | opposition to Ley 163, no wealth tax; one student remark, excluded |
+| International letters, Latindadd and tax-justice papers (R002) | Panama only in a country list |
+| Press archives by outlet, deputies' X posts, Parlatino (R003) | nothing; search returns other countries |
+| Marco Gandásegui h. and CELA (R003) | columns on tax cuts for the rich, not a wealth tax |
+| Espacio Cívico bill mirror, 834 bills since July 2024 (R003) | clean negative for the current Assembly |
+| Oxfam Central America report (R001) | the one supporter |
 
 ## 12. Searched, nothing found
 - Wealth-tax statements by: Asamblea deputies (Prado, Cedeño, Richards, Vega, Pérez Barboni), President Mulino, the Universidad de Panamá, the Catholic Church, Alianza Pueblo Unido por la Vida, CONATO, CONUSI, Frenadeso, SUNTRACS. No Panamanian signatory of an international letter (G20 billionaire tax) was found.
