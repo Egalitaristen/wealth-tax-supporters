@@ -44,3 +44,16 @@ Seed pass of 2026-11-03 (run R001). Lines marked `[verify]` come from a search s
 ## 12. Searched, nothing found
 - Searched, nothing found: any bill by an assembly member for a permanent wealth tax filed in the 2023-2025 legislature; positions of Izquierda Democrática and the Partido Socialista; an Ecuador-specific Oxfam proposal; a poll on a wealth tax.
 - Left out on purpose: the FUT, the Frente Popular and Pachakutik until a statement of their own is read (see `leads.csv` and `exclusions.csv`).
+
+## 13. Directions tried (round 2, 2026-11-03)
+| Direction | Yield |
+|---|---|
+| Assembly bills for a tax on great wealth, 2019 to 2026 | No bill found. Proposals were made inside debates: Blasco Luna (RC) and Fabiola Sanmartín (Pachakutik) in the January 2024 VAT debate (both added). |
+| Per-member votes (2016, 2020, 2021) | None found. The 2016 plenary vote was 94 of 127 present in session 387 on 12 May 2016 [verify, search summary]; the Assembly's press notes give totals only. Open leads. |
+| RC bloc's own text | Only press reports (El Universo, El Mercurio Manta, Primicias, Prensa Mercosur); bloc row upgraded with a second source. Original minority report not located. |
+| Unions (FUT, CEDOCUT, UGTE) | Empty: the 2024 FUT list asks for a 5% contribution on extraordinary profits and collection of tax debts, which is out of definition. |
+| CONAIE leaders (Iza, Vargas) | Nothing in their own words; the organisation's rows stand. |
+| Candidates 2021 | César Montúfar (Concertación-Partido Socialista) added. Arauz's plan lists taxes on platforms and ecological taxes, no wealth tax. |
+| Candidates 2023 and 2025 (González, Pérez, Pabón, Álvarez) | Empty after three searches: no wealth tax in the coverage of their plans; the plan PDFs at the CNE were not read. |
+| Economists (Acosta, Dávalos, Larrea, Samaniego, Crespo) | Empty: no statement on a wealth tax found. |
+| Press (Plan V, GK, La Hora, Ecuavisa) | Empty for named supporters. A 2015 Rebelión column calling for taxes on large fortunes is by a Uruguayan writer, so it belongs to the Uruguay register. |
