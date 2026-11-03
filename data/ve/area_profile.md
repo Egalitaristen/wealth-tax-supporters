@@ -50,7 +50,12 @@ Seed pass of 2026-11-03 (run R001). Lines marked `[verify]` come from a search s
 | UN and G20 delegates, letters (R002-R003) | 3 | Nothing: no Venezuelan statement found |
 | Church and NGOs (R003) | 1 | Nothing on a wealth tax |
 | Economists, think tanks (R002-R003) | 3 | Nothing in favour; critics only |
-Dropped after two or three empty searches: the G20 and UN direction, the church, the left groups. Not yet tried: the ANC Diario de Debates (TSJ server down), Telesur and Correo del Orinoco directly, Aporrea with a browser.
+| Officials and party leaders: Delcy Rodríguez, Figuera, Cabello (R004) | 1 | Nothing on taxing great fortunes. On 8 Oct 2026 Rodríguez announced a tax reform ("Viene una reforma tributaria en Venezuela", Infobae) to "armonizar la carga fiscal"; no mention of the IGP |
+| Polls (Datanálisis, Delphos, Hinterlaces, Meganálisis) (R004) | 1 | No Venezuelan poll found |
+| Opposition programmes (Plan País, Unidad Nacional, UNT, PJ) (R004) | 1 | Nothing on keeping or repealing the IGP; the Asociación Venezolana de Derecho Tributario called the law null because the ANC created it |
+| Telesur, Aporrea, ANC Diario de Debates (R004) | 2 | Not read: Telesur not found by search, Aporrea and Biblat answer bot checks, the TSJ server is down |
+| Papers by Venezuelan economists (R004) | 1 | One lead (ULA paper on the impuesto al patrimonio, c. 2015), abstract unread; no resource proposed |
+Dropped after two or three empty searches: the G20 and UN direction, the church, the left groups, polls, opposition programmes, officials' statements. Not yet tried: the ANC Diario de Debates (TSJ server down), Telesur and Correo del Orinoco directly, Aporrea with a browser.
 
 ## 12. Searched, nothing found
 - Searched, nothing found: a deputy's wealth-tax bill in the Asamblea Nacional apart from the 2023 announcement; PCV, union, church, UCV/UCAB/CENDES or Oxfam statements; the Venezuelan government's position on the G20 billionaire tax; any poll.
