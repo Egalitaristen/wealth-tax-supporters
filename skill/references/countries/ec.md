@@ -1,0 +1,8 @@
+# Ecuador (data/ec)
+
+- **Geography:** 24 provincias and 221 cantones with INEC DPA codes (provinces `01` to `24`, cantons four digits such as `0101`), read as distinct values from the ArcGIS layer `Parroquias_del_Ecuador` (a republication of the INEC Clasificador Geográfico Estadístico). The three zonas no delimitadas (`90xx`) are not loaded. The HDX COD-AB Ecuador files (`cod-ab-ecu`) answer scripts with an AWS bot challenge and were not fetched.
+- **Map:** geoBoundaries gbOpen ECU ADM2 (223 shapes, INEC and OCHA ROLAC 2019, CC BY 3.0 IGO; no codes in the file, two cantons are called Bolívar) and ADM1 (CC0). Each canton was given its INEC code by name within the province that contains its centroid; `topo_to_boundaries.py --project lonlat --scale 100 --simplify 0.2` on the coded GeoJSON, then `merge_boundaries.py units.json --regions prov.json`. Manga del Cura (`9003`) has no shape.
+- **Seats:** no adapter. The Asamblea Nacional member list was not read, so no seat chart; positions are recorded with `current` blank.
+- **Sources that work:** primicias.ec, elcomercio.com, expreso.ec, teleamazonas.com, kchcomunicacion.com, prensamercosur.org, asambleanacional.gob.ec (press notes and member blogs; pages are Latin-1 in places), coyunturauceiie.wordpress.com. The Registro Oficial 759 scan of 2016 is on files.eluniverso.com and reads with `pypdf`.
+- **Quirks:** the 2016 and 2021 levies are one-off "contribuciones", not annual taxes, and both are `lapsed`. Do not mix them with the 2019 contribution on company income, the 2020 contributions on salaries or the 2015 inheritance bill.
+- **Wikidata:** `match_wikidata.py` has no entry for `EC` (Q736, `es`, `en`); the QIDs in this folder were looked up with the Wikidata search API.

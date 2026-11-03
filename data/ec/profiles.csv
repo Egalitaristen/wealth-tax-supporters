@@ -1,0 +1,18 @@
+profile_id,actor_id,platform,url,source,checked
+P00001,A0009,website,https://conaie.org,actors.csv website column,2026-11-03
+P00002,A0001,x,https://x.com/Mashirafael,Wikidata Q19581,2026-11-03
+P00003,A0001,instagram,https://www.instagram.com/mashirafaeloficial/,Wikidata Q19581,2026-11-03
+P00004,A0001,facebook,https://www.facebook.com/MashiRafael,Wikidata Q19581,2026-11-03
+P00005,A0001,wikipedia,https://en.wikipedia.org/wiki/Rafael_Correa,Wikidata Q19581,2026-11-03
+P00006,A0003,website,https://www.asambleanacional.gob.ec/,Wikidata Q1319595,2026-11-03
+P00007,A0003,wikipedia,https://en.wikipedia.org/wiki/National_Assembly_%28Ecuador%29,Wikidata Q1319595,2026-11-03
+P00008,A0005,x,https://x.com/LassoGuillermo,Wikidata Q4414537,2026-11-03
+P00009,A0005,instagram,https://www.instagram.com/guillermolasso/,Wikidata Q4414537,2026-11-03
+P00010,A0005,facebook,https://www.facebook.com/LassoGuillermo,Wikidata Q4414537,2026-11-03
+P00011,A0005,youtube,https://www.youtube.com/channel/UCn3R3hLIY912Xoa_LJnSXPQ,Wikidata Q4414537,2026-11-03
+P00012,A0005,tiktok,https://www.tiktok.com/@guillermolasso,Wikidata Q4414537,2026-11-03
+P00013,A0005,linkedin,https://www.linkedin.com/in/guillermolasso/,Wikidata Q4414537,2026-11-03
+P00014,A0005,wikipedia,https://en.wikipedia.org/wiki/Guillermo_Lasso,Wikidata Q4414537,2026-11-03
+P00015,A0009,x,https://x.com/conaie_ecuador,Wikidata Q1024020,2026-11-03
+P00016,A0009,facebook,https://www.facebook.com/conaie.org,Wikidata Q1024020,2026-11-03
+P00017,A0009,wikipedia,https://en.wikipedia.org/wiki/Confederation_of_Indigenous_Nationalities_of_Ecuador,Wikidata Q1024020,2026-11-03
