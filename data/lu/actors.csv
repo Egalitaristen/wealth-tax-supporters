@@ -1,0 +1,6 @@
+actor_id,name,kind,actor_type,other_types,role,affiliation,party,affiliation_actor_id,country,level,location,geo_unit_id,location_source,wikidata_qid,website,status,alive_checked,prominence,notes,added_run,updated,refined
+A0001,déi Lénk,organisation,party,,,,déi Lénk,,LU,national,Luxembourg,G0001,,,,active,na,national,,R001,2026-11-04,
+A0002,déi gréng,organisation,party,,,,déi gréng,,LU,national,Luxembourg,G0001,,,,active,na,national,,R001,2026-11-04,
+A0003,Kommunistesch Partei Lëtzebuerg (KPL),organisation,party,,,,KPL,,LU,national,Luxembourg,G0001,,,,active,na,national,,R001,2026-11-04,
+A0004,Sam Tanson,person,politician,,Member of the Chamber of Deputies,,déi gréng,,LU,national,Luxembourg > Centre,G0001,,Q13104925,,active,y,national,Former minister of culture and of justice.,R001,2026-11-04,
+A0005,Tilly Metz,person,politician,,Former Member of the European Parliament (Greens/EFA),,déi gréng,,LU,supranational,Luxembourg,G0001,,Q13105242,,former_role,y,national,MEP 2019-2024.,R002,2026-11-04,

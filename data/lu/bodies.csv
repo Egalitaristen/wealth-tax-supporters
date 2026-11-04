@@ -1,0 +1,2 @@
+body_id,name,level,kind,seats,as_of,source_url,seat_view,notes
+B0001,Chambre des Députés,national,chamber,,,https://www.chd.lu/en/deputies,,"Seat chart not enabled: the Chamber publishes a member list, but no Luxembourg adapter exists in seats.py yet."

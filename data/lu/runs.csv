@@ -1,0 +1,3 @@
+run_id,date,assistant,focus,targets,queries_run,sources_opened,candidates_seen,new_actors,new_evidence,grade_upgrades,saturation,notes_next
+R001,2026-11-04,Claude,Luxembourg seed pass,"Chamber, parties, unions",3,14,7,4,5,0,Not saturated; thin: three parties and one motion by a deputy.,"Get the member vote on motion 4406; read the LSAP, déi gréng and déi Lénk 2023 programmes at the party; unions (OGBL, LCGB); add an seats.py adapter for the Chamber."
+R002,2026-11-04,Claude,"Round 2: votes, deputies, unions, economists, polls",,3,9,,1,3,,Still thin.,Nominal vote on motion 4406; déi Lénk deputies; LSAP programme; OGBL/LCGB/CSL budget opinions; seats.py adapter.
