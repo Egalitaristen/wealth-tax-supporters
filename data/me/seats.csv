@@ -1,1 +1,14 @@
 seat_id,body_id,party,seats,colour,order
+S0001,B0001,Europe Now (PES),19,1d9bd7,1
+S0002,B0001,DPS,16,e4002b,2
+S0003,B0001,ZBCG - New Serb Democracy,9,2b3a8c,3
+S0004,B0001,Democrats,7,f5a800,4
+S0005,B0001,Bosniak Party,6,1f8a4c,5
+S0006,B0001,ZBCG - Democratic People's Party,3,6a7fb5,6
+S0007,B0001,URA,4,6dc04b,7
+S0008,B0001,SNP - Civis,3,c0392b,8
+S0009,B0001,European Alliance,3,8e44ad,9
+S0010,B0001,Albanian Forum,2,7f8c8d,10
+S0011,B0001,DUA and HGI,2,b08968,11
+S0012,B0001,Special club,4,95a5a6,12
+S0013,B0001,Independents,3,bdbdbd,13

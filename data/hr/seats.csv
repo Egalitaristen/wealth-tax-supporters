@@ -1,1 +1,15 @@
 seat_id,body_id,party,seats,colour,order
+S0001,B0001,HDZ,58,1f4fa3,1
+S0002,B0001,SDP,34,e4002b,2
+S0003,B0001,Domovinski pokret,8,0d6b3d,3
+S0004,B0001,Most,7,f08a00,4
+S0005,B0001,Možemo!,10,6dc04b,5
+S0006,B0001,"Centar, NPS and GLAS",5,f7c600,6
+S0007,B0001,DOMiNO and Hrvatski suverenisti,4,3a3a3a,7
+S0008,B0001,"HSS, HNP and independent",3,2e8b57,8
+S0009,B0001,HSLS and independent,3,e8a800,9
+S0010,B0001,"IDS, PGS and independent",3,1b9d5a,10
+S0011,B0001,Drito and HPN (independents),3,7a7a7a,11
+S0012,B0001,Nezavisni and HSU,3,9a9a9a,12
+S0013,B0001,SDSS,3,2b5aa7,13
+S0014,B0001,Other MPs and minority representatives,7,bdbdbd,14
