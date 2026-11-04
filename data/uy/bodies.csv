@@ -1,5 +1,5 @@
 body_id,name,level,kind,seats,as_of,source_url,seat_view,notes
-B0001,Senado de la República,national,chamber,,,,,"30 senators elected nationally plus the Vice President; the member list was not read from an official source, so no seat chart."
-B0002,Cámara de Representantes,national,chamber,,,,,"99 deputies elected by department; member list not read from an official source, so no seat chart."
+B0001,Senado de la República,national,chamber,30,2026-11-04,https://parlamento.gub.uy/camarasycomisiones/senadores/plenario/integracion,y,"Official integración (actuantes), 4 Nov 2026: 30 senators by party; the Vice President (Carolina Cosse, Frente Amplio) presides and is not counted. Substitutes acting for a titular count in their party. The Titulares list was also read: Felipe Carballo is a titular but not among the actuantes on 4 Nov."
+B0002,Cámara de Representantes,national,chamber,99,2026-11-04,https://parlamento.gub.uy/camarasycomisiones/representantes/plenario/integracion,y,"Official integración (actuantes), 4 Nov 2026: 99 deputies by party, substitutes acting for a titular counted in their party."
 B0003,Poder Ejecutivo (Ministerio de Trabajo y Seguridad Social),national,other,,,,,
 B0004,Intendencia de Montevideo,regional,other,,,,,

@@ -1,1 +1,6 @@
 seat_id,body_id,party,seats,colour,order
+S0001,B0001,ADN,67,f5c518,1
+S0002,B0001,Revolución Ciudadana,61,e1251b,2
+S0003,B0001,Pachakutik,9,7a3f98,3
+S0004,B0001,PSC,4,1f6fb2,4
+S0005,B0001,Other parties (no party icon on the list),10,9a9a9a,5

@@ -1,3 +1,3 @@
 body_id,name,level,kind,seats,as_of,source_url,seat_view,notes
-B0001,Asamblea Nacional,national,chamber,,,,,"Member list not read from an official source, so no seat chart."
+B0001,Asamblea Nacional,national,chamber,151,2026-11-04,https://www.asambleanacional.gob.ec/es/pleno-asambleistas,y,"Official plenary list 2025-2029: 151 asambleistas. The list marks each member with a party icon (ADN, Revolución Ciudadana, Pachakutik, PSC); 10 members show a generic icon and are grouped as Other parties. Unicameral."
 B0002,Función Ejecutiva,national,other,,,,,President and ministers.
