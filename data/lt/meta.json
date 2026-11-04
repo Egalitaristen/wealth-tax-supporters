@@ -4,5 +4,5 @@
   "lead": "",
   "status": "in progress",
   "boundaries": "boundaries.json",
-  "notes": "Depth: seed. Scope: national and European Parliament roll call; register = 10 apskritys (ISO 3166-2) and 60 savivaldybės (LAU). First pass R001 (2026-11-04). Lithuania's 2021 turto mokestis is a tax on high-value real estate, now the Nekilnojamojo turto mokestis (new law from 2026), so it is excluded as a property-only tax; no net-wealth-tax proposal was found in the Seimas. Map: Eurostat GISCO LAU 2024 (units) and NUTS 2024 level 3 (regions), CC BY 4.0, codes are Eurostat LAU codes (units). Seats tab left blank: no supporter currently sits in the Seimas."
+  "notes": "Depth: seed. Scope: national and European Parliament roll call; register = 10 apskritys (ISO 3166-2) and 60 savivaldybės (LAU). First pass R001 (2026-11-04). Lithuania's 2021 turto mokestis is a tax on high-value real estate, now the Nekilnojamojo turto mokestis (new law from 2026), so it is excluded as a property-only tax; no net-wealth-tax proposal was found in the Seimas. Map: Eurostat GISCO LAU 2024 (units) and NUTS 2024 level 3 (regions), CC BY 4.0, codes are Eurostat LAU codes (units). Seats tab: Seimas (141 seats) from the Seimas open data; two register supporters sit (Olekas, Ropė)."
 }

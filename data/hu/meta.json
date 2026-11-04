@@ -4,7 +4,7 @@
   "lead": "",
   "status": "in progress",
   "boundaries": "boundaries.json",
-  "notes": "Depth: seed (first pass R001, 2026-11-04). Scope: national legislature (bills), governing party and government, Párbeszéd, EP roll calls, one business figure; 20 counties (NUTS 3) and 3,155 settlements (LAU) in the register; local units not swept. Map: Eurostat GISCO LAU and NUTS 2024 (CC BY 4.0). No Seats tab: parlament.hu serves a CAPTCHA to scripts (not bypassed).",
+  "notes": "Depth: seed (first pass R001, 2026-11-04). Scope: national legislature (bills), governing party and government, Párbeszéd, EP roll calls, one business figure; 20 counties (NUTS 3) and 3,155 settlements (LAU) in the register; local units not swept. Map: Eurostat GISCO LAU and NUTS 2024 (CC BY 4.0). Seats tab: National Assembly party counts from MTI's report of the 9 May 2026 inaugural sitting; parlament.hu serves a CAPTCHA to scripts (not bypassed), so sitting MPs were checked against the hu.wikipedia list.",
   "polls": [
     {
       "support": 85,

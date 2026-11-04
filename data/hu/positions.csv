@@ -1,7 +1,9 @@
 position_id,actor_id,body_id,role,party,geo_unit_id,start,end,current,member_ref,checked,source_url
-O00001,A0006,B0001,Member of the National Assembly,Párbeszéd,,2023-10,,,,,https://web.archive.org/web/2024id_/https://www.parlament.hu/irom42/05575/05575.pdf
-O00002,A0007,B0001,Member of the National Assembly,Párbeszéd,,2023-10,,,,,https://web.archive.org/web/2024id_/https://www.parlament.hu/irom42/05575/05575.pdf
-O00003,A0008,B0001,Member of the National Assembly,Párbeszéd,,2023-10,,,,,https://web.archive.org/web/2024id_/https://www.parlament.hu/irom42/05575/05575.pdf
-O00004,A0009,B0001,Member of the National Assembly,Párbeszéd,,2023-10,,,,,https://web.archive.org/web/2024id_/https://www.parlament.hu/irom42/05575/05575.pdf
-O00005,A0010,B0001,Member of the National Assembly,Párbeszéd,,2023-10,,,,,https://web.archive.org/web/2024id_/https://www.parlament.hu/irom42/05575/05575.pdf
-O00006,A0011,B0001,Member of the National Assembly,Párbeszéd,,2023-10,,,,,https://web.archive.org/web/2024id_/https://www.parlament.hu/irom42/05575/05575.pdf
+O00001,A0006,B0001,Member of the National Assembly,Párbeszéd,,2023-10,2026-05-09,n,,2026-11-04,https://web.archive.org/web/2024id_/https://www.parlament.hu/irom42/05575/05575.pdf
+O00002,A0007,B0001,Member of the National Assembly,Párbeszéd,,2023-10,2026-05-09,n,,2026-11-04,https://web.archive.org/web/2024id_/https://www.parlament.hu/irom42/05575/05575.pdf
+O00003,A0008,B0001,Member of the National Assembly,Párbeszéd,,2023-10,2026-05-09,n,,2026-11-04,https://web.archive.org/web/2024id_/https://www.parlament.hu/irom42/05575/05575.pdf
+O00004,A0009,B0001,Member of the National Assembly,Párbeszéd,,2023-10,2026-05-09,n,,2026-11-04,https://web.archive.org/web/2024id_/https://www.parlament.hu/irom42/05575/05575.pdf
+O00005,A0010,B0001,Member of the National Assembly,Párbeszéd,,2023-10,2026-05-09,n,,2026-11-04,https://web.archive.org/web/2024id_/https://www.parlament.hu/irom42/05575/05575.pdf
+O00006,A0011,B0001,Member of the National Assembly,Párbeszéd,,2023-10,2026-05-09,n,,2026-11-04,https://web.archive.org/web/2024id_/https://www.parlament.hu/irom42/05575/05575.pdf
+O00007,A0002,B0001,Member of the National Assembly,Tisza,,2026-05-09,,y,,2026-11-04,https://hu.wikipedia.org/wiki/2026%E2%80%932030_k%C3%B6z%C3%B6tti_magyar_orsz%C3%A1ggy%C5%B1l%C3%A9si_k%C3%A9pvisel%C5%91k_list%C3%A1ja
+O00008,A0003,B0001,Member of the National Assembly,Tisza,,2026-05-09,,y,,2026-11-04,https://hu.wikipedia.org/wiki/2026%E2%80%932030_k%C3%B6z%C3%B6tti_magyar_orsz%C3%A1ggy%C5%B1l%C3%A9si_k%C3%A9pvisel%C5%91k_list%C3%A1ja

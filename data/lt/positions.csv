@@ -1,1 +1,3 @@
 position_id,actor_id,body_id,role,party,geo_unit_id,start,end,current,member_ref,checked,source_url
+O00001,A0002,B0001,Member of the Seimas,Non-attached,G0001,2024-11-14,,y,7193,2026-11-04,https://apps.lrs.lt/sip/p2b.ad_seimo_nariai
+O00002,A0004,B0001,Member of the Seimas,"Lithuanian Farmers, Greens and Christian Families Union",G0001,2024-11-14,,y,23279,2026-11-04,https://apps.lrs.lt/sip/p2b.ad_seimo_nariai

@@ -1,1 +1,7 @@
 seat_id,body_id,party,seats,colour,order
+S0001,B0001,Progressives,10,e5007d,1
+S0002,B0001,United List,41,3a7d2c,2
+S0003,B0001,New Unity,7,f5a300,3
+S0004,B0001,Latvia First,17,7a1f3d,4
+S0005,B0001,Sovereign Power / Young Latvians,15,555555,5
+S0006,B0001,National Alliance,10,8b1a1a,6
