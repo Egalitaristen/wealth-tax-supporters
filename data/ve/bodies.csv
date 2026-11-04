@@ -1,3 +1,3 @@
 body_id,name,level,kind,seats,as_of,source_url,seat_view,notes
 B0001,Asamblea Nacional Constituyente (2017),national,chamber,,,,,"Dissolved December 2020. Member list not read from an official source, so no seat chart."
-B0002,Asamblea Nacional,national,chamber,,,,,"Unicameral legislature. Member list not read from an official source, so no seat chart."
+B0002,Asamblea Nacional,national,chamber,285,2026-11-04,https://www.asambleanacional.gob.ve/diputados,y,"Official list of deputies (principals only; the three alternates listed are left out): 285. Parties as the Assembly shows them; seven deputies (Cojedes, Carabobo, Guarico) show no party on the list. Unicameral; installed January 2026."

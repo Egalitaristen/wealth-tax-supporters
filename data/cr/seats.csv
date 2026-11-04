@@ -1,1 +1,6 @@
 seat_id,body_id,party,seats,colour,order
+S0001,B0001,Pueblo Soberano,31,0a8f6a,1
+S0002,B0001,National Liberation Party,17,1f9d3a,2
+S0003,B0001,Frente Amplio,7,f2a900,3
+S0004,B0001,Coalición Agenda Ciudadana,1,7a3f98,4
+S0005,B0001,Social Christian Unity Party,1,1f5fbf,5

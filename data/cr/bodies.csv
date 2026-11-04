@@ -1,2 +1,2 @@
 body_id,name,level,kind,seats,as_of,source_url,seat_view,notes
-B0001,Asamblea Legislativa,national,chamber,,,,,"Unicameral, 57 deputies elected by province. Member list not read from an official source, so no seat chart."
+B0001,Asamblea Legislativa,national,chamber,57,2026-03-23,https://observador.cr/tse-emite-declaratoria-oficial-para-diputados-esta-sera-la-asamblea-legislativa-2026-2030/,y,"Seats by party from the TSE declaratoria of 23 March 2026 as reported by Observador CR (31 / 17 / 7 / 1 / 1). The Assembly site (asamblea.go.cr) refused connections, so the live roster was not checked and no supporter is marked current."
