@@ -1,0 +1,4 @@
+actor_id,name,kind,actor_type,other_types,role,affiliation,party,affiliation_actor_id,country,level,location,geo_unit_id,location_source,wikidata_qid,website,status,alive_checked,prominence,notes,added_run,updated,refined
+A0001,Sósíalistaflokkur Íslands,organisation,party,,,,Socialist Party of Iceland,,IS,national,Iceland,G0001,,,,active,na,national,Holds no Alþingi seats; one Reykjavík city councillor.,R001,2026-11-04,
+A0002,Vinstrihreyfingin – grænt framboð,organisation,party,,,,Left-Green Movement,,IS,national,Iceland,G0001,,,,active,na,national,Platform text is from the 2023 national congress; the party lost all its Alþingi seats in 2024.,R001,2026-11-04,
+A0003,Alþýðusamband Íslands (ASÍ),organisation,union,,,,,,IS,national,Iceland,G0001,,,,active,na,national,,R001,2026-11-04,

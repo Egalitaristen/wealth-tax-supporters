@@ -1,0 +1,71 @@
+geo_unit_id,name,level,unit_type,parent_id,website,sweep_status,swept_run,swept_date,queries_run,hits,notes,code
+G0001,Iceland,national,country,,,in_progress,,,,,,IS
+G0002,Höfuðborgarsvæði,region,region,G0001,,pending,,,,,ISO 3166-2:IS region (landsvæði),IS-1
+G0003,Suðurnes,region,region,G0001,,pending,,,,,ISO 3166-2:IS region (landsvæði),IS-2
+G0004,Vesturland,region,region,G0001,,pending,,,,,ISO 3166-2:IS region (landsvæði),IS-3
+G0005,Vestfirðir,region,region,G0001,,pending,,,,,ISO 3166-2:IS region (landsvæði),IS-4
+G0006,Norðurland vestra,region,region,G0001,,pending,,,,,ISO 3166-2:IS region (landsvæði),IS-5
+G0007,Norðurland eystra,region,region,G0001,,pending,,,,,ISO 3166-2:IS region (landsvæði),IS-6
+G0008,Austurland,region,region,G0001,,pending,,,,,ISO 3166-2:IS region (landsvæði),IS-7
+G0009,Suðurland,region,region,G0001,,pending,,,,,ISO 3166-2:IS region (landsvæði),IS-8
+G0010,Reykjavíkurborg,council,municipality,G0002,,pending,,,,,Statistics Iceland municipality number,0000
+G0011,Kópavogsbær,council,municipality,G0002,,pending,,,,,Statistics Iceland municipality number,1000
+G0012,Seltjarnarnesbær,council,municipality,G0002,,pending,,,,,Statistics Iceland municipality number,1100
+G0013,Garðabær,council,municipality,G0002,,pending,,,,,Statistics Iceland municipality number,1300
+G0014,Hafnarfjarðarkaupstaður,council,municipality,G0002,,pending,,,,,Statistics Iceland municipality number,1400
+G0015,Mosfellsbær,council,municipality,G0002,,pending,,,,,Statistics Iceland municipality number,1604
+G0016,Kjósarhreppur,council,municipality,G0002,,pending,,,,,Statistics Iceland municipality number,1606
+G0017,Reykjanesbær,council,municipality,G0003,,pending,,,,,Statistics Iceland municipality number,2000
+G0018,Grindavíkurbær,council,municipality,G0003,,pending,,,,,Statistics Iceland municipality number,2300
+G0019,Sveitarfélagið Vogar,council,municipality,G0003,,pending,,,,,Statistics Iceland municipality number,2506
+G0020,Suðurnesjabær,council,municipality,G0003,,pending,,,,,Statistics Iceland municipality number,2510
+G0021,Akraneskaupstaður,council,municipality,G0004,,pending,,,,,Statistics Iceland municipality number,3000
+G0022,Hvalfjarðarsveit,council,municipality,G0004,,pending,,,,,Statistics Iceland municipality number,3511
+G0023,Borgarbyggð,council,municipality,G0004,,pending,,,,,Statistics Iceland municipality number,3609
+G0024,Grundarfjarðarbær,council,municipality,G0004,,pending,,,,,Statistics Iceland municipality number,3709
+G0025,Eyja- og Miklaholtshreppur,council,municipality,G0004,,pending,,,,,Statistics Iceland municipality number,3713
+G0026,Snæfellsbær,council,municipality,G0004,,pending,,,,,Statistics Iceland municipality number,3714
+G0027,Sveitarfélagið Stykkishólmur,council,municipality,G0004,,pending,,,,,Statistics Iceland municipality number,3716
+G0028,Dalabyggð,council,municipality,G0004,,pending,,,,,Statistics Iceland municipality number,3811
+G0029,Bolungarvíkurkaupstaður,council,municipality,G0005,,pending,,,,,Statistics Iceland municipality number,4100
+G0030,Ísafjarðarbær,council,municipality,G0005,,pending,,,,,Statistics Iceland municipality number,4200
+G0031,Reykhólahreppur,council,municipality,G0005,,pending,,,,,Statistics Iceland municipality number,4502
+G0032,Vesturbyggð,council,municipality,G0005,,pending,,,,,Statistics Iceland municipality number,4604
+G0033,Súðavíkurhreppur,council,municipality,G0005,,pending,,,,,Statistics Iceland municipality number,4803
+G0034,Árneshreppur,council,municipality,G0005,,pending,,,,,Statistics Iceland municipality number,4901
+G0035,Kaldrananeshreppur,council,municipality,G0005,,pending,,,,,Statistics Iceland municipality number,4902
+G0036,Strandabyggð,council,municipality,G0005,,pending,,,,,Statistics Iceland municipality number,4911
+G0037,Húnaþing vestra,council,municipality,G0006,,pending,,,,,Statistics Iceland municipality number,5508
+G0038,Sveitarfélagið Skagaströnd,council,municipality,G0006,,pending,,,,,Statistics Iceland municipality number,5609
+G0039,Húnabyggð,council,municipality,G0006,,pending,,,,,Statistics Iceland municipality number,5613
+G0040,Skagafjörður,council,municipality,G0006,,pending,,,,,Statistics Iceland municipality number,5716
+G0041,Akureyrarbær,council,municipality,G0007,,pending,,,,,Statistics Iceland municipality number,6000
+G0042,Norðurþing,council,municipality,G0007,,pending,,,,,Statistics Iceland municipality number,6100
+G0043,Fjallabyggð,council,municipality,G0007,,pending,,,,,Statistics Iceland municipality number,6250
+G0044,Dalvíkurbyggð,council,municipality,G0007,,pending,,,,,Statistics Iceland municipality number,6400
+G0045,Eyjafjarðarsveit,council,municipality,G0007,,pending,,,,,Statistics Iceland municipality number,6513
+G0046,Hörgársveit,council,municipality,G0007,,pending,,,,,Statistics Iceland municipality number,6515
+G0047,Svalbarðsstrandarhreppur,council,municipality,G0007,,pending,,,,,Statistics Iceland municipality number,6601
+G0048,Grýtubakkahreppur,council,municipality,G0007,,pending,,,,,Statistics Iceland municipality number,6602
+G0049,Tjörneshreppur,council,municipality,G0007,,pending,,,,,Statistics Iceland municipality number,6611
+G0050,Þingeyjarsveit,council,municipality,G0007,,pending,,,,,Statistics Iceland municipality number,6613
+G0051,Langanesbyggð,council,municipality,G0007,,pending,,,,,Statistics Iceland municipality number,6710
+G0052,Fjarðabyggð,council,municipality,G0008,,pending,,,,,Statistics Iceland municipality number,7300
+G0053,Múlaþing,council,municipality,G0008,,pending,,,,,Statistics Iceland municipality number,7400
+G0054,Vopnafjarðarhreppur,council,municipality,G0008,,pending,,,,,Statistics Iceland municipality number,7502
+G0055,Fljótsdalshreppur,council,municipality,G0008,,pending,,,,,Statistics Iceland municipality number,7505
+G0056,Vestmannaeyjabær,council,municipality,G0009,,pending,,,,,Statistics Iceland municipality number,8000
+G0057,Sveitarfélagið Árborg,council,municipality,G0009,,pending,,,,,Statistics Iceland municipality number,8200
+G0058,Sveitarfélagið Hornafjörður,council,municipality,G0009,,pending,,,,,Statistics Iceland municipality number,8401
+G0059,Mýrdalshreppur,council,municipality,G0009,,pending,,,,,Statistics Iceland municipality number,8508
+G0060,Skaftárhreppur,council,municipality,G0009,,pending,,,,,Statistics Iceland municipality number,8509
+G0061,Ásahreppur,council,municipality,G0009,,pending,,,,,Statistics Iceland municipality number,8610
+G0062,Rangárþing eystra,council,municipality,G0009,,pending,,,,,Statistics Iceland municipality number,8613
+G0063,Rangárþing ytra,council,municipality,G0009,,pending,,,,,Statistics Iceland municipality number,8614
+G0064,Hrunamannahreppur,council,municipality,G0009,,pending,,,,,Statistics Iceland municipality number,8710
+G0065,Hveragerðisbær,council,municipality,G0009,,pending,,,,,Statistics Iceland municipality number,8716
+G0066,Sveitarfélagið Ölfus,council,municipality,G0009,,pending,,,,,Statistics Iceland municipality number,8717
+G0067,Grímsnes- og Grafningshreppur,council,municipality,G0009,,pending,,,,,Statistics Iceland municipality number,8719
+G0068,Skeiða- og Gnúpverjahreppur,council,municipality,G0009,,pending,,,,,Statistics Iceland municipality number,8720
+G0069,Bláskógabyggð,council,municipality,G0009,,pending,,,,,Statistics Iceland municipality number,8721
+G0070,Flóahreppur,council,municipality,G0009,,pending,,,,,Statistics Iceland municipality number,8722

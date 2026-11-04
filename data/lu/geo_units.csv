@@ -1,0 +1,114 @@
+geo_unit_id,name,level,unit_type,parent_id,website,sweep_status,swept_run,swept_date,queries_run,hits,notes,code
+G0001,Luxembourg,national,country,,,in_progress,,,,,,LU
+G0002,Capellen,region,canton,G0001,,pending,,,,,"Canton, LAU1 code with LU- prefix",LU-01
+G0003,Esch-sur-Alzette,region,canton,G0001,,pending,,,,,"Canton, LAU1 code with LU- prefix",LU-02
+G0004,Luxembourg,region,canton,G0001,,pending,,,,,"Canton, LAU1 code with LU- prefix",LU-03
+G0005,Mersch,region,canton,G0001,,pending,,,,,"Canton, LAU1 code with LU- prefix",LU-04
+G0006,Clervaux,region,canton,G0001,,pending,,,,,"Canton, LAU1 code with LU- prefix",LU-05
+G0007,Diekirch,region,canton,G0001,,pending,,,,,"Canton, LAU1 code with LU- prefix",LU-06
+G0008,Redange,region,canton,G0001,,pending,,,,,"Canton, LAU1 code with LU- prefix",LU-07
+G0009,Wiltz,region,canton,G0001,,pending,,,,,"Canton, LAU1 code with LU- prefix",LU-08
+G0010,Vianden,region,canton,G0001,,pending,,,,,"Canton, LAU1 code with LU- prefix",LU-09
+G0011,Echternach,region,canton,G0001,,pending,,,,,"Canton, LAU1 code with LU- prefix",LU-10
+G0012,Grevenmacher,region,canton,G0001,,pending,,,,,"Canton, LAU1 code with LU- prefix",LU-11
+G0013,Remich,region,canton,G0001,,pending,,,,,"Canton, LAU1 code with LU- prefix",LU-12
+G0014,Dippach,council,commune,G0002,,pending,,,,,LAU2 commune code,0101
+G0015,Garnich,council,commune,G0002,,pending,,,,,LAU2 commune code,0102
+G0016,Habscht,council,commune,G0002,,pending,,,,,LAU2 commune code,0103
+G0017,Käerjeng,council,commune,G0002,,pending,,,,,LAU2 commune code,0104
+G0018,Kehlen,council,commune,G0002,,pending,,,,,LAU2 commune code,0105
+G0019,Koerich,council,commune,G0002,,pending,,,,,LAU2 commune code,0106
+G0020,Kopstal,council,commune,G0002,,pending,,,,,LAU2 commune code,0107
+G0021,Mamer,council,commune,G0002,,pending,,,,,LAU2 commune code,0108
+G0022,Steinfort,council,commune,G0002,,pending,,,,,LAU2 commune code,0110
+G0023,Bettembourg,council,commune,G0003,,pending,,,,,LAU2 commune code,0201
+G0024,Differdange,council,commune,G0003,,pending,,,,,LAU2 commune code,0202
+G0025,Dudelange,council,commune,G0003,,pending,,,,,LAU2 commune code,0203
+G0026,Esch-sur-Alzette,council,commune,G0003,,pending,,,,,LAU2 commune code,0204
+G0027,Frisange,council,commune,G0003,,pending,,,,,LAU2 commune code,0205
+G0028,Kayl,council,commune,G0003,,pending,,,,,LAU2 commune code,0206
+G0029,Leudelange,council,commune,G0003,,pending,,,,,LAU2 commune code,0207
+G0030,Mondercange,council,commune,G0003,,pending,,,,,LAU2 commune code,0208
+G0031,Pétange,council,commune,G0003,,pending,,,,,LAU2 commune code,0209
+G0032,Reckange-sur-Mess,council,commune,G0003,,pending,,,,,LAU2 commune code,0210
+G0033,Roeser,council,commune,G0003,,pending,,,,,LAU2 commune code,0211
+G0034,Rumelange,council,commune,G0003,,pending,,,,,LAU2 commune code,0212
+G0035,Sanem,council,commune,G0003,,pending,,,,,LAU2 commune code,0213
+G0036,Schifflange,council,commune,G0003,,pending,,,,,LAU2 commune code,0214
+G0037,Bertrange,council,commune,G0004,,pending,,,,,LAU2 commune code,0301
+G0038,Contern,council,commune,G0004,,pending,,,,,LAU2 commune code,0302
+G0039,Hesperange,council,commune,G0004,,pending,,,,,LAU2 commune code,0303
+G0040,Luxembourg,council,commune,G0004,,pending,,,,,LAU2 commune code,0304
+G0041,Niederanven,council,commune,G0004,,pending,,,,,LAU2 commune code,0305
+G0042,Sandweiler,council,commune,G0004,,pending,,,,,LAU2 commune code,0306
+G0043,Schuttrange,council,commune,G0004,,pending,,,,,LAU2 commune code,0307
+G0044,Steinsel,council,commune,G0004,,pending,,,,,LAU2 commune code,0308
+G0045,Strassen,council,commune,G0004,,pending,,,,,LAU2 commune code,0309
+G0046,Walferdange,council,commune,G0004,,pending,,,,,LAU2 commune code,0310
+G0047,Weiler-la-Tour,council,commune,G0004,,pending,,,,,LAU2 commune code,0311
+G0048,Colmar-Berg,council,commune,G0005,,pending,,,,,LAU2 commune code,0401
+G0049,Bissen,council,commune,G0005,,pending,,,,,LAU2 commune code,0402
+G0050,Helperknapp,council,commune,G0005,,pending,,,,,LAU2 commune code,0403
+G0051,Fischbach,council,commune,G0005,,pending,,,,,LAU2 commune code,0404
+G0052,Heffingen,council,commune,G0005,,pending,,,,,LAU2 commune code,0405
+G0053,Larochette,council,commune,G0005,,pending,,,,,LAU2 commune code,0406
+G0054,Lintgen,council,commune,G0005,,pending,,,,,LAU2 commune code,0407
+G0055,Lorentzweiler,council,commune,G0005,,pending,,,,,LAU2 commune code,0408
+G0056,Mersch,council,commune,G0005,,pending,,,,,LAU2 commune code,0409
+G0057,Nommern,council,commune,G0005,,pending,,,,,LAU2 commune code,0410
+G0058,Clervaux,council,commune,G0006,,pending,,,,,LAU2 commune code,0501
+G0059,Wincrange,council,commune,G0006,,pending,,,,,LAU2 commune code,0502
+G0060,Parc Hosingen,council,commune,G0006,,pending,,,,,LAU2 commune code,0503
+G0061,Troisvierges,council,commune,G0006,,pending,,,,,LAU2 commune code,0504
+G0062,Weiswampach,council,commune,G0006,,pending,,,,,LAU2 commune code,0505
+G0063,Bettendorf,council,commune,G0007,,pending,,,,,LAU2 commune code,0601
+G0064,Bourscheid,council,commune,G0007,,pending,,,,,LAU2 commune code,0602
+G0065,Diekirch,council,commune,G0007,,pending,,,,,LAU2 commune code,0603
+G0066,Erpeldange-sur-Sûre,council,commune,G0007,,pending,,,,,LAU2 commune code,0604
+G0067,Ettelbruck,council,commune,G0007,,pending,,,,,LAU2 commune code,0605
+G0068,Feulen,council,commune,G0007,,pending,,,,,LAU2 commune code,0606
+G0069,Mertzig,council,commune,G0007,,pending,,,,,LAU2 commune code,0607
+G0070,Reisdorf,council,commune,G0007,,pending,,,,,LAU2 commune code,0608
+G0071,Schieren,council,commune,G0007,,pending,,,,,LAU2 commune code,0609
+G0072,Vallée de l'Ernz,council,commune,G0007,,pending,,,,,LAU2 commune code,0610
+G0073,Beckerich,council,commune,G0008,,pending,,,,,LAU2 commune code,0701
+G0074,Préizerdaul,council,commune,G0008,,pending,,,,,LAU2 commune code,0702
+G0075,Ell,council,commune,G0008,,pending,,,,,LAU2 commune code,0703
+G0076,Rambrouch,council,commune,G0008,,pending,,,,,LAU2 commune code,0704
+G0077,Redange/Attert,council,commune,G0008,,pending,,,,,LAU2 commune code,0706
+G0078,Saeul,council,commune,G0008,,pending,,,,,LAU2 commune code,0707
+G0079,Useldange,council,commune,G0008,,pending,,,,,LAU2 commune code,0708
+G0080,Vichten,council,commune,G0008,,pending,,,,,LAU2 commune code,0709
+G0081,Groussbus-Wal,council,commune,G0008,,pending,,,,,LAU2 commune code,0711
+G0082,Boulaide,council,commune,G0009,,pending,,,,,LAU2 commune code,0801
+G0083,Esch-sur-Sûre,council,commune,G0009,,pending,,,,,LAU2 commune code,0802
+G0084,Goesdorf,council,commune,G0009,,pending,,,,,LAU2 commune code,0804
+G0085,Kiischpelt,council,commune,G0009,,pending,,,,,LAU2 commune code,0805
+G0086,Lac de la Haute-Sûre,council,commune,G0009,,pending,,,,,LAU2 commune code,0806
+G0087,Wiltz,council,commune,G0009,,pending,,,,,LAU2 commune code,0807
+G0088,Winseler,council,commune,G0009,,pending,,,,,LAU2 commune code,0808
+G0089,Tandel,council,commune,G0010,,pending,,,,,LAU2 commune code,0901
+G0090,Putscheid,council,commune,G0010,,pending,,,,,LAU2 commune code,0902
+G0091,Vianden,council,commune,G0010,,pending,,,,,LAU2 commune code,0903
+G0092,Beaufort,council,commune,G0011,,pending,,,,,LAU2 commune code,1001
+G0093,Bech,council,commune,G0011,,pending,,,,,LAU2 commune code,1002
+G0094,Berdorf,council,commune,G0011,,pending,,,,,LAU2 commune code,1003
+G0095,Consdorf,council,commune,G0011,,pending,,,,,LAU2 commune code,1004
+G0096,Echternach,council,commune,G0011,,pending,,,,,LAU2 commune code,1005
+G0097,Rosport-Mompach,council,commune,G0011,,pending,,,,,LAU2 commune code,1006
+G0098,Waldbillig,council,commune,G0011,,pending,,,,,LAU2 commune code,1008
+G0099,Betzdorf,council,commune,G0012,,pending,,,,,LAU2 commune code,1101
+G0100,Biwer,council,commune,G0012,,pending,,,,,LAU2 commune code,1102
+G0101,Flaxweiler,council,commune,G0012,,pending,,,,,LAU2 commune code,1103
+G0102,Grevenmacher,council,commune,G0012,,pending,,,,,LAU2 commune code,1104
+G0103,Junglinster,council,commune,G0012,,pending,,,,,LAU2 commune code,1105
+G0104,Manternach,council,commune,G0012,,pending,,,,,LAU2 commune code,1106
+G0105,Mertert,council,commune,G0012,,pending,,,,,LAU2 commune code,1107
+G0106,Wormeldange,council,commune,G0012,,pending,,,,,LAU2 commune code,1108
+G0107,Dalheim,council,commune,G0013,,pending,,,,,LAU2 commune code,1202
+G0108,Lenningen,council,commune,G0013,,pending,,,,,LAU2 commune code,1203
+G0109,Mondorf-les-Bains,council,commune,G0013,,pending,,,,,LAU2 commune code,1204
+G0110,Remich,council,commune,G0013,,pending,,,,,LAU2 commune code,1205
+G0111,Schengen,council,commune,G0013,,pending,,,,,LAU2 commune code,1206
+G0112,Stadtbredimus,council,commune,G0013,,pending,,,,,LAU2 commune code,1207
+G0113,Bous-Waldbredimus,council,commune,G0013,,pending,,,,,LAU2 commune code,1209
