@@ -1,0 +1,5 @@
+exclusion_id,name,reason,detail,source_url,run_id
+X0001,Levica solidarity tax / excess-profits tax,out_of_definition,"Windfall/extra-profit tax on companies, not a tax on net wealth",https://lenka.mk/news/levicza-povlechen-e-predlog-zakonot-za-odanochuva%D1%9Ae-na-ekstra-profitite/,R001
+X0002,Levica progressive personal income tax and tax on luxury goods,out_of_definition,"Graduated income tax (up to 15%) and a tax on luxury goods (jewellery, yachts, art) are income and consumption taxes",https://northmacedonia.rferl.org/a/progresiven-ramen-oligarhiski-danok-izborna-programa/32925279.html,R001
+X0003,Левица: Put your hand in the millionaires pockets (civilmedia.mk),insufficient_evidence,Generic tax-the-rich statement about farmers exemption; no reference to wealth,https://civilmedia.mk/lviza-nzadovolna-od-novata-fiskalna-politika-na-vladata,R001
+X0004,Respublica column on progressive personal income tax,out_of_definition,Argues for returning to a progressive income tax,https://respublica.edu.mk/blog/javen-interes/2017-01-31-10-01-01/,R002

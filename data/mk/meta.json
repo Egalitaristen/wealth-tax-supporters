@@ -1,0 +1,8 @@
+{
+  "name": "North Macedonia",
+  "iso2": "MK",
+  "lead": "",
+  "status": "in progress",
+  "boundaries": "boundaries.json",
+  "notes": "Seed pass, national level only. Geography: 80 opštini (municipalities, the four Skopje municipalities among them) under 8 statistical planning regions; shapes and codes from OCHA/HDX COD-AB North Macedonia 2025, CC BY-IGO. Unit codes are the dataset's PCODEX because the four Skopje municipalities share one ADM2 P-code. No local sweeps. Seats tab not built: the Sobranie list could not be read by script (see area_profile.md)."
+}

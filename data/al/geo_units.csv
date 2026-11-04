@@ -1,0 +1,75 @@
+geo_unit_id,name,level,unit_type,parent_id,website,sweep_status,swept_run,swept_date,queries_run,hits,notes,code
+G0001,Albania,national,country,,,in_progress,,,,,,AL
+G0002,Berat,region,qark (county),G0001,,pending,,,,,,AL01
+G0003,Dibër,region,qark (county),G0001,,pending,,,,,,AL02
+G0004,Durrës,region,qark (county),G0001,,pending,,,,,,AL03
+G0005,Elbasan,region,qark (county),G0001,,pending,,,,,,AL04
+G0006,Fier,region,qark (county),G0001,,pending,,,,,,AL05
+G0007,Gjirokastër,region,qark (county),G0001,,pending,,,,,,AL06
+G0008,Korçë,region,qark (county),G0001,,pending,,,,,,AL07
+G0009,Kukës,region,qark (county),G0001,,pending,,,,,,AL08
+G0010,Lezhë,region,qark (county),G0001,,pending,,,,,,AL09
+G0011,Shkodër,region,qark (county),G0001,,pending,,,,,,AL10
+G0012,Tiranë,region,qark (county),G0001,,pending,,,,,,AL11
+G0013,Vlorë,region,qark (county),G0001,,pending,,,,,,AL12
+G0014,Berat,council,bashki (municipality),G0002,,pending,,,,,,AL0101
+G0015,Kuçovë,council,bashki (municipality),G0002,,pending,,,,,,AL0102
+G0016,Poliçan,council,bashki (municipality),G0002,,pending,,,,,,AL0103
+G0017,Skraparit,council,bashki (municipality),G0002,,pending,,,,,,AL0104
+G0018,Ura Vajgurorë,council,bashki (municipality),G0002,,pending,,,,,,AL0105
+G0019,Bulqizë,council,bashki (municipality),G0003,,pending,,,,,,AL0201
+G0020,Dibër,council,bashki (municipality),G0003,,pending,,,,,,AL0202
+G0021,Klos,council,bashki (municipality),G0003,,pending,,,,,,AL0203
+G0022,Mat,council,bashki (municipality),G0003,,pending,,,,,,AL0204
+G0023,Durrës,council,bashki (municipality),G0004,,pending,,,,,,AL0301
+G0024,Krujë,council,bashki (municipality),G0004,,pending,,,,,,AL0302
+G0025,Shijak,council,bashki (municipality),G0004,,pending,,,,,,AL0303
+G0026,Belsh,council,bashki (municipality),G0005,,pending,,,,,,AL0401
+G0027,Cërrik,council,bashki (municipality),G0005,,pending,,,,,,AL0402
+G0028,Elbasan,council,bashki (municipality),G0005,,pending,,,,,,AL0403
+G0029,Gramsh,council,bashki (municipality),G0005,,pending,,,,,,AL0404
+G0030,Librazhd,council,bashki (municipality),G0005,,pending,,,,,,AL0405
+G0031,Peqin,council,bashki (municipality),G0005,,pending,,,,,,AL0406
+G0032,Prrenjas,council,bashki (municipality),G0005,,pending,,,,,,AL0407
+G0033,Divjakë,council,bashki (municipality),G0006,,pending,,,,,,AL0501
+G0034,Fier,council,bashki (municipality),G0006,,pending,,,,,,AL0502
+G0035,Lushnjës,council,bashki (municipality),G0006,,pending,,,,,,AL0503
+G0036,Mallakastrës,council,bashki (municipality),G0006,,pending,,,,,,AL0504
+G0037,Patos,council,bashki (municipality),G0006,,pending,,,,,,AL0505
+G0038,Roskovec,council,bashki (municipality),G0006,,pending,,,,,,AL0506
+G0039,Dropull,council,bashki (municipality),G0007,,pending,,,,,,AL0601
+G0040,Gjirokastër,council,bashki (municipality),G0007,,pending,,,,,,AL0602
+G0041,Këlcyrë,council,bashki (municipality),G0007,,pending,,,,,,AL0603
+G0042,Libohovë,council,bashki (municipality),G0007,,pending,,,,,,AL0604
+G0043,Memaliaj,council,bashki (municipality),G0007,,pending,,,,,,AL0605
+G0044,Përmet,council,bashki (municipality),G0007,,pending,,,,,,AL0606
+G0045,Tepelenë,council,bashki (municipality),G0007,,pending,,,,,,AL0607
+G0046,Devollit,council,bashki (municipality),G0008,,pending,,,,,,AL0701
+G0047,Kolonjës,council,bashki (municipality),G0008,,pending,,,,,,AL0702
+G0048,Korçë,council,bashki (municipality),G0008,,pending,,,,,,AL0703
+G0049,Maliq,council,bashki (municipality),G0008,,pending,,,,,,AL0704
+G0050,Pogradec,council,bashki (municipality),G0008,,pending,,,,,,AL0705
+G0051,Pustec,council,bashki (municipality),G0008,,pending,,,,,,AL0706
+G0052,Krumë,council,bashki (municipality),G0009,,pending,,,,,,AL0801
+G0053,Kukës,council,bashki (municipality),G0009,,pending,,,,,,AL0802
+G0054,Topojë,council,bashki (municipality),G0009,,pending,,,,,,AL0803
+G0055,Kurbinit,council,bashki (municipality),G0010,,pending,,,,,,AL0901
+G0056,Lezhë,council,bashki (municipality),G0010,,pending,,,,,,AL0902
+G0057,Mirditës,council,bashki (municipality),G0010,,pending,,,,,,AL0903
+G0058,Fushë Arrëz,council,bashki (municipality),G0011,,pending,,,,,,AL1001
+G0059,Malësi e Madhe,council,bashki (municipality),G0011,,pending,,,,,,AL1002
+G0060,Pukë,council,bashki (municipality),G0011,,pending,,,,,,AL1003
+G0061,Shkodër,council,bashki (municipality),G0011,,pending,,,,,,AL1004
+G0062,Vau i Dejës,council,bashki (municipality),G0011,,pending,,,,,,AL1005
+G0063,Kamëz,council,bashki (municipality),G0012,,pending,,,,,,AL1101
+G0064,Kavajë,council,bashki (municipality),G0012,,pending,,,,,,AL1102
+G0065,Rrogozhinë,council,bashki (municipality),G0012,,pending,,,,,,AL1103
+G0066,Vorë,council,bashki (municipality),G0012,,pending,,,,,,AL1104
+G0067,Tiranë,council,bashki (municipality),G0012,,pending,,,,,,AL1105
+G0068,Delvinë,council,bashki (municipality),G0013,,pending,,,,,,AL1201
+G0069,Finiq,council,bashki (municipality),G0013,,pending,,,,,,AL1202
+G0070,Himarë,council,bashki (municipality),G0013,,pending,,,,,,AL1203
+G0071,Konispol,council,bashki (municipality),G0013,,pending,,,,,,AL1204
+G0072,Sarandë,council,bashki (municipality),G0013,,pending,,,,,,AL1205
+G0073,Selenicë,council,bashki (municipality),G0013,,pending,,,,,,AL1206
+G0074,Vlorë,council,bashki (municipality),G0013,,pending,,,,,,AL1207
