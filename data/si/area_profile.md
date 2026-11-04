@@ -15,8 +15,8 @@
 davek na bogastvo, davek na premoženje, premoženjski davek, obdavčitev najbogatejših, davek na neto premoženje. "Davek na premoženje" often means real estate.
 
 ## 4. Findings
-- Only one Državni zbor bill on a wealth tax was looked for and none found; Levica's 2022 bill taxes empty and large dwellings (excluded). The EPA register was not searched in full.
-- Union, NGO and two small parties are the main supporters found. No Slovenian economist on record was found.
+- Levica's 2022 programme promises a progressive tax on the whole net wealth of millionaires (grade A). Its 2022 bill taxes empty and large dwellings (property only, not counted). No Državni zbor bill on a net wealth tax was found; the EPA register was not searched in full.
+- SNZ-FIABCI (president Marko Novak) proposes the "Tisočinka", about 0.1% on all wealth, which SD took up in 2022; ZSSS asks for a tax on all wealth; Greenpeace, Vesna, SD, Pirates, Kordiš, Golob (C) are on record. No Slovenian economist on record and no poll found.
 
 ## 5. Plan for the next runs
 See `notes_next` in runs.csv and the open leads.

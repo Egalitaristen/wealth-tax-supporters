@@ -1,2 +1,3 @@
 run_id,date,assistant,focus,targets,queries_run,sources_opened,candidates_seen,new_actors,new_evidence,grade_upgrades,saturation,notes_next
 R001,2026-11-04,Claude,Croatia seed pass,"Radnička fronta, SDP, Možemo, unions; geography register",4,,,4,5,,not assessed,"Sabor record of the 2023 RF conclusion; Možemo and Nova ljevica programmes; SDP programme text; economists (EIZ, IJF); unions SSSH/NHS/Matica after 2010."
+R002,2026-11-04,Claude,"Croatia round 2: fate of the RF Sabor conclusion, Peović, parties, economists, unions","Sabor, parties, economists",7,,,1,3,,not assessed,Sabor e-doc record of the conclusion (not found); Čavrak (403); Most/Centar/SSSH/NHS/Matica post-2010 statements; Možemo property-only confirmed; SDP programme text.
