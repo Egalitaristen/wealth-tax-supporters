@@ -1,5 +1,0 @@
-lead_id,kind,name,source_url,why,found_run,status,closed_run,note
-D0001,person,"Branko Milanovic (economist, Serbian-American)",https://tportal.hr,"A search summary says he discusses the Zucman tax in a Serbian-language interview; lives and works abroad, belongs in a US or global register.",R001,open,,Not opened; log in data/leads.csv for US if picked up.
-D0002,list,Narodna skupstina bills (porez na bogatstvo / imovinu),https://www.parlament.gov.rs/akti/predlozi-zakona,No Serbian bill for a net wealth tax found by web search; the Assembly's register was not searched.,R001,open,,Not searched by keyword.
-D0003,organisation,UGS Nezavisnost and Savez samostalnih sindikata Srbije (sindikat.rs),https://nezavisnost.org,Union positions on progressive income tax found; whether either names a wealth tax is unchecked.,R001,open,,Searched via news only.
-D0004,organisation,"Fondacija Rosa Luxemburg Beograd, Crta, Fiskalni savet, FEFA, CEVES",https://www.rosalux.rs,Named in the brief; publications not searched for a wealth tax.,R001,open,,One web search was declined by the environment; not retried.
