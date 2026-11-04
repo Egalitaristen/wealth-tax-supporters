@@ -1,0 +1,27 @@
+geo_unit_id,name,level,unit_type,parent_id,website,sweep_status,swept_run,swept_date,queries_run,hits,notes,code
+G0001,Montenegro,national,country,,,in_progress,,,,,,ME
+G0002,Andrijevica,council,municipality (opština),G0001,,pending,,,,,,ME-01
+G0003,Bar,council,municipality (opština),G0001,,pending,,,,,,ME-02
+G0004,Berane,council,municipality (opština),G0001,,pending,,,,,,ME-03
+G0005,Bijelo Polje,council,municipality (opština),G0001,,pending,,,,,,ME-04
+G0006,Budva,council,municipality (opština),G0001,,pending,,,,,,ME-05
+G0007,Cetinje,council,municipality (opština),G0001,,pending,,,,,,ME-06
+G0008,Danilovgrad,council,municipality (opština),G0001,,pending,,,,,,ME-07
+G0009,Herceg Novi,council,municipality (opština),G0001,,pending,,,,,,ME-08
+G0010,Kolašin,council,municipality (opština),G0001,,pending,,,,,,ME-09
+G0011,Kotor,council,municipality (opština),G0001,,pending,,,,,,ME-10
+G0012,Mojkovac,council,municipality (opština),G0001,,pending,,,,,,ME-11
+G0013,Nikšić,council,municipality (opština),G0001,,pending,,,,,,ME-12
+G0014,Plav,council,municipality (opština),G0001,,pending,,,,,,ME-13
+G0015,Pljevlja,council,municipality (opština),G0001,,pending,,,,,,ME-14
+G0016,Plužine,council,municipality (opština),G0001,,pending,,,,,,ME-15
+G0017,Podgorica,council,municipality (opština),G0001,,pending,,,,,,ME-16
+G0018,Rožaje,council,municipality (opština),G0001,,pending,,,,,,ME-17
+G0019,Šavnik,council,municipality (opština),G0001,,pending,,,,,,ME-18
+G0020,Tivat,council,municipality (opština),G0001,,pending,,,,,,ME-19
+G0021,Ulcinj,council,municipality (opština),G0001,,pending,,,,,,ME-20
+G0022,Žabljak,council,municipality (opština),G0001,,pending,,,,,,ME-21
+G0023,Gusinje,council,municipality (opština),G0001,,pending,,,,,,ME-22
+G0024,Petnjica,council,municipality (opština),G0001,,pending,,,,,,ME-23
+G0025,Tuzi,council,municipality (opština),G0001,,pending,,,,,,ME-24
+G0026,Zeta,council,municipality (opština),G0001,,pending,,,,,,ME-25

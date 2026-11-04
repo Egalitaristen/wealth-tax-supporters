@@ -1,0 +1,3 @@
+lead_id,kind,name,source_url,why,found_run,status,closed_run,note
+D0001,document,Skupština bills registry (zakoni.skupstina.me) search for porez na bogatstvo / imovinu,https://zakoni.skupstina.me/,Searches by web engine found no MP bill; the registry itself was not searched,R001,open,,
+D0002,organisation,"Levica Crne Gore, URA, Evropa sad, Demokrate, SDP: programmes",https://www.skupstina.me/,Programmes not read; no web hit tied any to a wealth tax,R001,open,,
