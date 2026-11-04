@@ -1,0 +1,4 @@
+actor_id,name,kind,actor_type,other_types,role,affiliation,party,affiliation_actor_id,country,level,location,geo_unit_id,location_source,wikidata_qid,website,status,alive_checked,prominence,notes,added_run,updated,refined
+A0001,ADPD – The Green Party (Alternattiva Demokratika),organisation,party,,Political party (member of the European Greens),,,,Malta,national,Malta,G0001,,Q438783,https://adpd.mt/,active,na,national,,R001,2026-11-04,
+A0002,Ralph Cassar,person,politician,,"Secretary-General, ADPD – The Green Party",ADPD – The Green Party,ADPD,A0001,Malta,national,Malta,G0001,,,,active,y,national,,R001,2026-11-04,
+A0003,Sandra Gauci,person,politician,,"Chairperson, ADPD – The Green Party",ADPD – The Green Party,ADPD,A0001,Malta,national,Malta,G0001,,Q118718394,,active,y,national,,R001,2026-11-04,

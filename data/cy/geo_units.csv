@@ -1,0 +1,8 @@
+geo_unit_id,name,level,unit_type,parent_id,website,sweep_status,swept_run,swept_date,queries_run,hits,notes,code
+G0001,Cyprus,national,country,,https://www.cyprus.gov.cy/,in_progress,R001,2026-11-04,,,R001: national research; districts not swept.,CY
+G0002,Nicosia,county,district,G0001,,pending,,,,,ISO 3166-2:CY code. Famagusta and Kyrenia districts lie mostly in the area outside government control.,CY-01
+G0003,Limassol,county,district,G0001,,pending,,,,,ISO 3166-2:CY code. Famagusta and Kyrenia districts lie mostly in the area outside government control.,CY-02
+G0004,Larnaca,county,district,G0001,,pending,,,,,ISO 3166-2:CY code. Famagusta and Kyrenia districts lie mostly in the area outside government control.,CY-03
+G0005,Famagusta,county,district,G0001,,pending,,,,,ISO 3166-2:CY code. Famagusta and Kyrenia districts lie mostly in the area outside government control.,CY-04
+G0006,Paphos,county,district,G0001,,pending,,,,,ISO 3166-2:CY code. Famagusta and Kyrenia districts lie mostly in the area outside government control.,CY-05
+G0007,Kyrenia,county,district,G0001,,pending,,,,,ISO 3166-2:CY code. Famagusta and Kyrenia districts lie mostly in the area outside government control.,CY-06

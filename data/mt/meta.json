@@ -1,0 +1,8 @@
+{
+  "name": "Malta",
+  "iso2": "MT",
+  "lead": "",
+  "status": "in progress",
+  "boundaries": "boundaries.json",
+  "notes": "R001 (2026-11-04): first pass, 3 actors (ADPD, Ralph Cassar, Sandra Gauci). Malta has no wealth tax and neither big party backs one; the Maltese yield is small. Geography: 68 local councils (ISO 3166-2:MT codes) under the country root; no region tier is loaded. Map: geoBoundaries gbOpen MLT ADM1 (d-maps.com, 2022, public domain), codes ISO 3166-2:MT; no region outlines because no open region shapes with official codes were found. Local councils not swept. No Seats tab: no supporter sits in the House of Representatives (ADPD holds no seat)."
+}

@@ -1,0 +1,8 @@
+{
+  "name": "Cyprus",
+  "iso2": "CY",
+  "lead": "",
+  "status": "in progress",
+  "boundaries": "boundaries.json",
+  "notes": "R001 (2026-11-04): first pass, 3 actors (AKEL, PEO, AKEL MP Aristos Damianou). AKEL's December 2025 bills are property-only (0.1% above 3 million euro) and a company levy, so they are excluded; support rests on AKEL's memorandum and a union statement naming taxation of wealth. Geography: the 6 districts (ISO 3166-2:CY) as the local tier; municipalities and communities are not loaded (no open boundary set with official LAU codes was fetched). Map: geoBoundaries gbOpen CYP ADM1 (OpenStreetMap, ODbL). No Seats tab: parliament.cy answers 403 to scripts, so the member list was not read; Damianou's position is unchecked (current blank)."
+}
