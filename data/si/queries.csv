@@ -1,0 +1,5 @@
+query_id,run_id,date,language,query,channel,results_opened,leads_added,note
+Q0001,R001,2026-11-04,sl,Levica davek na premoženje zakon predlog Državni zbor,web,3,1,
+Q0002,R001,2026-11-04,sl,Slovenija davek na neto premoženje predlog,web,4,1,
+Q0003,R001,2026-11-04,sl,Obdavčimo najbogatejše Tax the Rich Levica SD Vesna,web,4,1,
+Q0004,R001,2026-11-04,en,Slovenia wealth tax Levica billionaires,web,2,,

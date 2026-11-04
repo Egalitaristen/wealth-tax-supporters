@@ -1,0 +1,8 @@
+{
+  "name": "Croatia",
+  "iso2": "HR",
+  "lead": "",
+  "status": "in progress",
+  "boundaries": "boundaries.json",
+  "notes": "Seed pass, national level. Geography: 556 općine and gradovi under 20 counties and Grad Zagreb (NUTS 3), Eurostat GISCO LAU/NUTS 2024, shapes (c) EuroGeographics, CC BY 4.0 as used for Czechia; local units not swept. Seats tab not built: no supporter currently sits in the Sabor."
+}

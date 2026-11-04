@@ -1,0 +1,2 @@
+body_id,name,level,kind,seats,as_of,source_url,seat_view,notes
+B0001,Državni zbor (National Assembly),national,chamber,,,https://www.dz-rs.si/,,90 seats. No Seats tab: the Državni zbor member list is a JavaScript portal and seats.py has no adapter for it.
