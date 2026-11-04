@@ -1,0 +1,8 @@
+seat_id,body_id,party,seats,colour,order
+S0001,B0001,Reform,36,fed600,1
+S0002,B0001,Eesti 200,12,0ab4be,2
+S0003,B0001,Centre Party,7,007f3f,3
+S0004,B0001,Isamaa,8,009fe3,4
+S0005,B0001,EKRE,9,8b4513,5
+S0006,B0001,Social Democratic Party,9,e10600,6
+S0007,B0001,Non-attached,20,8a8680,7

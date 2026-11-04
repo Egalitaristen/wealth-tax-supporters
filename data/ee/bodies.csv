@@ -1,0 +1,2 @@
+body_id,name,level,kind,seats,as_of,source_url,seat_view,notes
+B0001,Riigikogu,national,chamber,101,2026-11-04,https://api.riigikogu.ee/api/plenary-members?lang=et,y,"101 seats; faction counts from the Riigikogu's own open member list (api.riigikogu.ee, plenary-members), read 2026-11-04. Non-attached members are shown as Non-attached."

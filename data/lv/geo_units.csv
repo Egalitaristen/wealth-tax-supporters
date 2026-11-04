@@ -1,0 +1,53 @@
+geo_unit_id,name,level,unit_type,parent_id,website,sweep_status,swept_run,swept_date,queries_run,hits,notes,code
+G0001,Latvia,national,country,,,in_progress,,,,,Latvija,LV
+G0002,Saeima,national,legislature,G0001,https://www.saeima.lv,pending,,,,,Saeima of the Republic of Latvia (100 seats),
+G0003,Latvijas Republikas Ministru kabinets,national,executive,G0001,https://www.mk.gov.lv,pending,,,,,Government,
+G0004,European Parliament (Latvia),supranational,legislature,G0001,https://www.europarl.europa.eu,pending,,,,,Latvian MEPs (9 seats),
+G0005,Latgale,region,plānošanas reģions,G0001,,pending,,,,,NUTS 3 LV005,LV005
+G0006,Zemgale,region,plānošanas reģions,G0001,,pending,,,,,NUTS 3 LV009,LV009
+G0007,Rīga,region,plānošanas reģions,G0001,,pending,,,,,NUTS 3 LV00A,LV00A
+G0008,Kurzeme,region,plānošanas reģions,G0001,,pending,,,,,NUTS 3 LV00B,LV00B
+G0009,Vidzeme,region,plānošanas reģions,G0001,,pending,,,,,NUTS 3 LV00C,LV00C
+G0010,Augšdaugavas novads,council,novads / valstspilsēta,G0005,,pending,,,,,,0022000
+G0011,Balvu novads,council,novads / valstspilsēta,G0005,,pending,,,,,,0024000
+G0012,Daugavpils,council,novads / valstspilsēta,G0005,,pending,,,,,,0002000
+G0013,Krāslavas novads,council,novads / valstspilsēta,G0005,,pending,,,,,,0032000
+G0014,Ludzas novads,council,novads / valstspilsēta,G0005,,pending,,,,,,0037000
+G0015,Līvānu novads,council,novads / valstspilsēta,G0005,,pending,,,,,,0036000
+G0016,Preiļu novads,council,novads / valstspilsēta,G0005,,pending,,,,,,0042000
+G0017,Rēzekne,council,novads / valstspilsēta,G0005,,pending,,,,,,0006000
+G0018,Rēzeknes novads,council,novads / valstspilsēta,G0005,,pending,,,,,,0043000
+G0019,Aizkraukles novads,council,novads / valstspilsēta,G0006,,pending,,,,,,0020000
+G0020,Bauskas novads,council,novads / valstspilsēta,G0006,,pending,,,,,,0025000
+G0021,Dobeles novads,council,novads / valstspilsēta,G0006,,pending,,,,,,0028000
+G0022,Jelgava,council,novads / valstspilsēta,G0006,,pending,,,,,,0003000
+G0023,Jelgavas novads,council,novads / valstspilsēta,G0006,,pending,,,,,,0030000
+G0024,Jēkabpils novads,council,novads / valstspilsēta,G0006,,pending,,,,,,0031000
+G0025,Jūrmala,council,novads / valstspilsēta,G0007,,pending,,,,,,0004000
+G0026,Mārupes novads,council,novads / valstspilsēta,G0007,,pending,,,,,,0039000
+G0027,Olaines novads,council,novads / valstspilsēta,G0007,,pending,,,,,,0041000
+G0028,Ropažu novads,council,novads / valstspilsēta,G0007,,pending,,,,,,0044000
+G0029,Rīga,council,novads / valstspilsēta,G0007,,pending,,,,,,0001000
+G0030,Salaspils novads,council,novads / valstspilsēta,G0007,,pending,,,,,,0045000
+G0031,Siguldas novads,council,novads / valstspilsēta,G0007,,pending,,,,,,0048000
+G0032,Ādažu novads,council,novads / valstspilsēta,G0007,,pending,,,,,,0023000
+G0033,Ķekavas novads,council,novads / valstspilsēta,G0007,,pending,,,,,,0034000
+G0034,Dienvidkurzemes novads,council,novads / valstspilsēta,G0008,,pending,,,,,,0027000
+G0035,Kuldīgas novads,council,novads / valstspilsēta,G0008,,pending,,,,,,0033000
+G0036,Liepāja,council,novads / valstspilsēta,G0008,,pending,,,,,,0005000
+G0037,Saldus novads,council,novads / valstspilsēta,G0008,,pending,,,,,,0046000
+G0038,Talsu novads,council,novads / valstspilsēta,G0008,,pending,,,,,,0051000
+G0039,Tukuma novads,council,novads / valstspilsēta,G0008,,pending,,,,,,0052000
+G0040,Ventspils,council,novads / valstspilsēta,G0008,,pending,,,,,,0007000
+G0041,Ventspils novads,council,novads / valstspilsēta,G0008,,pending,,,,,,0056000
+G0042,Alūksnes novads,council,novads / valstspilsēta,G0009,,pending,,,,,,0021000
+G0043,Cēsu novads,council,novads / valstspilsēta,G0009,,pending,,,,,,0026000
+G0044,Gulbenes novads,council,novads / valstspilsēta,G0009,,pending,,,,,,0029000
+G0045,Limbažu novads,council,novads / valstspilsēta,G0009,,pending,,,,,,0035000
+G0046,Madonas novads,council,novads / valstspilsēta,G0009,,pending,,,,,,0038000
+G0047,Ogres novads,council,novads / valstspilsēta,G0009,,pending,,,,,,0040000
+G0048,Saulkrastu novads,council,novads / valstspilsēta,G0009,,pending,,,,,,0047000
+G0049,Smiltenes novads,council,novads / valstspilsēta,G0009,,pending,,,,,,0049000
+G0050,Valkas novads,council,novads / valstspilsēta,G0009,,pending,,,,,,0053000
+G0051,Valmieras novads,council,novads / valstspilsēta,G0009,,pending,,,,,,0054000
+G0052,Varakļānu novads,council,novads / valstspilsēta,G0009,,pending,,,,,,0055000

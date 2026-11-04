@@ -1,0 +1,4 @@
+lead_id,kind,name,source_url,why,found_run,status,closed_run,note
+D0001,document,Riigikogu bill on a progressive income tax from 1 July 2026 and SDE proposals on a tax on company assets,https://www.riigikogu.ee/download/c971209d-5ad9-4bf4-9123-c4082ca07997,Check whether any bill names a personal net-wealth tax; likely income-tax only.,R001,open,,Not opened.
+D0002,person,"Mihkel Nestor and Eesti Pank researchers (Meriküll, Rõõm) on wealth taxes",https://www.eestipank.ee/en/publications/occasional-papers/2023/22023-what-explains-wealth-inequality-estonia-role-wealth-components-household-size-and-regions,Measure wealth inequality; look for a recommendation of a wealth tax.,R001,open,,Papers describe inequality only so far.
+D0003,organisation,EAKL and TALO tax positions,https://www.eakl.ee/,No named wealth-tax demand found by search.,R001,open,,Site not read.
