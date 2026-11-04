@@ -57,7 +57,7 @@ A0055,Jorge Gómez,person,politician,,"Representative, bill author (2020)",,Polo
 A0056,Partido Comunes,organisation,party,,,,,,Colombia,national,Colombia,G0001,,,,active,na,national,,R005,2026-10-28,
 A0057,Alianza Verde,organisation,party,,,,,,Colombia,national,Colombia,G0001,,Q1452567,,active,na,national,,R005,2026-10-28,
 A0058,David Racero,person,politician,,Senator (2026-2030),,Coalición Decentes,,Colombia,national,"Colombia > Bogotá, D.C.",G0004,,Q98766714,,active,y,national,Historical 2021 affiliation and office.,R005,2026-10-28,
-A0059,Leopoldo Fergusson,person,economist,,"Economist, Universidad de los Andes",,,,Colombia,national,Colombia,G0001,,,,active,y,national,,R006,2026-10-28,
+A0059,Leopoldo Fergusson,person,economist,,"Full professor of economics, Universidad de los Andes",,,,Colombia,national,Colombia,G0001,,Q102589343,,active,y,national,,R006,2026-11-04,2026-11-04
 A0060,Marc Hofstetter,person,economist,,"Economist, Universidad de los Andes",,,,Colombia,national,Colombia,G0001,,,,active,y,national,,R006,2026-10-28,
 A0061,Bruce Mac Master,person,business_leader,,President of ANDI,,,,Colombia,national,Colombia,G0001,,,,active,y,national,,R006,2026-10-28,
 A0062,Ricardo Bonilla González,person,economist,,Former Minister of Finance,,,,Colombia,national,Colombia,G0001,,Q112672048,,former_role,y,national,,R006,2026-10-28,
