@@ -1,98 +1,449 @@
 profile_id,actor_id,platform,url,source,checked
-P0001,A0001,website,https://partiarazem.pl/,Party policy and manifesto pages,2026-10-22
-P00002,A0015,website,https://partiazieloni.pl/,actors.csv website column,2026-10-24
-P00003,A0016,website,https://www.malgorzatatracz.pl/,actors.csv website column,2026-10-24
-P00004,A0017,website,https://mlodalewica.pl/,actors.csv website column,2026-10-24
-P00005,A0018,website,https://www.opzz.org.pl/,actors.csv website column,2026-10-24
-P00006,A0019,website,https://www.opzz.org.pl/opzz/wladze/prezydium/kierownictwo/piotr-ostrowski,actors.csv website column,2026-10-24
-P00007,A0020,website,https://www.wemove.eu/,actors.csv website column,2026-10-24
-P00008,A0024,website,https://www.robertbiedron.pl/,actors.csv website column,2026-10-24
-P00009,A0027,website,https://www.liberadzki.pl/,actors.csv website column,2026-10-24
-P00010,A0028,website,https://www.miller.pl/,actors.csv website column,2026-10-24
-P00011,A0034,website,"https://www.euroreg.uw.edu.pl/pl/zespol,jakub-rok",actors.csv website column,2026-10-24
-P00012,A0035,website,https://www.uni.lodz.pl/pracownicy/jakub-kronenberg,actors.csv website column,2026-10-24
-P00013,A0046,website,https://missionpossible.org.pl/,actors.csv website column,2026-10-24
-P00014,A0047,website,https://missionpossible.org.pl/,actors.csv website column,2026-10-24
-P00015,A0077,website,https://ue.poznan.pl/osoby/dr-pawel-luczak/,actors.csv website column,2026-10-24
-P00016,A0082,website,https://magazynkontakt.pl/profil/cwynar-tobiasz/,actors.csv website column,2026-10-24
-P00017,A0100,website,https://www.uni.lodz.pl/pracownicy/marcin-boguslawski,actors.csv website column,2026-10-24
-P00018,A0101,website,https://socjologia.uwr.edu.pl/instytut/pracownicy/pracownicy-instytutu/adam-mrozowicki/,actors.csv website column,2026-10-24
-P00019,A0106,website,https://www.lazarski.pl/pl/node/18022,actors.csv website column,2026-10-24
-P00020,A0136,website,https://wns.uwr.edu.pl/pracownicy-jednostki/?omegaId=UWRbac6466b36d94cfe9944642d89323100,actors.csv website column,2026-10-24
-P00021,A0193,website,https://ipsf.uek.krakow.pl/ks/pracownicy/dr-anna-gorka/,actors.csv website column,2026-10-24
-P00022,A0215,website,https://artmuseum.pl/artysci/katarzyna-gorna,actors.csv website column,2026-10-24
-P00023,A0216,website,https://www.kozminski.edu.pl/en/community/card/prof-gavin-rae-0,actors.csv website column,2026-10-24
-P00024,A0293,website,https://cenea.org.pl/pl/kadra/michal-myck/,actors.csv website column,2026-10-24
-P00025,A0294,website,https://ekonomiapolityczna.wne.uw.edu.pl/pl/pracownicy/mbrzezinski,actors.csv website column,2026-10-24
-P00026,A0295,website,https://marekignaszak.github.io/,actors.csv website column,2026-10-24
-P00027,A0002,instagram,https://www.instagram.com/fejfbook/,Wikidata Q112079994,2026-10-24
-P00028,A0002,facebook,https://www.facebook.com/jurij.gagarin.5,Wikidata Q112079994,2026-10-24
-P00029,A0006,wikipedia,https://en.wikipedia.org/wiki/Rafa%C5%82_Wo%C5%9B,Wikidata Q18433593,2026-10-24
-P00030,A0008,website,https://lewicarazem2019.pl/kandydaci/bio/piotr-ikonowicz,Wikidata Q7196953,2026-10-24
-P00031,A0008,youtube,https://www.youtube.com/channel/UClNIOtN3KV770EPSs8xDcLg,Wikidata Q7196953,2026-10-24
-P00032,A0008,wikipedia,https://en.wikipedia.org/wiki/Piotr_Ikonowicz,Wikidata Q7196953,2026-10-24
-P00033,A0009,linkedin,https://www.linkedin.com/in/łukasz-komuda-b46a14214/,Wikidata Q107566958,2026-10-24
-P00034,A0014,x,https://x.com/ZygmuntowskiJ,Wikidata Q136029956,2026-10-24
-P00035,A0014,instagram,https://www.instagram.com/zygmuntowskij/,Wikidata Q136029956,2026-10-24
-P00036,A0014,facebook,https://www.facebook.com/zygmuntowskij,Wikidata Q136029956,2026-10-24
-P00037,A0014,linkedin,https://www.linkedin.com/in/zygmuntowskij/,Wikidata Q136029956,2026-10-24
-P00038,A0016,x,https://x.com/GoTracz,Wikidata Q20873946,2026-10-24
-P00039,A0016,instagram,https://www.instagram.com/go_tracz/,Wikidata Q20873946,2026-10-24
-P00040,A0016,facebook,https://www.facebook.com/GoTracz,Wikidata Q20873946,2026-10-24
-P00041,A0016,youtube,https://www.youtube.com/channel/UCjyFLKRIE0o2AAqNMGqidKA,Wikidata Q20873946,2026-10-24
-P00042,A0016,wikipedia,https://en.wikipedia.org/wiki/Ma%C5%82gorzata_Tracz,Wikidata Q20873946,2026-10-24
-P00043,A0022,website,https://danuta-huebner.pl,Wikidata Q242090,2026-10-24
-P00044,A0022,x,https://x.com/danutahuebner,Wikidata Q242090,2026-10-24
-P00045,A0022,instagram,https://www.instagram.com/danutahuebner/,Wikidata Q242090,2026-10-24
-P00046,A0022,facebook,https://www.facebook.com/danuta.hubner,Wikidata Q242090,2026-10-24
-P00047,A0022,youtube,https://www.youtube.com/channel/UCnkIPjBSY3x2x7tMEOphdLQ,Wikidata Q242090,2026-10-24
-P00048,A0022,wikipedia,https://en.wikipedia.org/wiki/Danuta_H%C3%BCbner,Wikidata Q242090,2026-10-24
-P00049,A0023,website,https://marekbalt.info,Wikidata Q11767999,2026-10-24
-P00050,A0023,x,https://x.com/poselbalt,Wikidata Q11767999,2026-10-24
-P00051,A0023,instagram,https://www.instagram.com/marek_balt/,Wikidata Q11767999,2026-10-24
-P00052,A0023,facebook,https://www.facebook.com/baltmarek,Wikidata Q11767999,2026-10-24
-P00053,A0023,wikipedia,https://en.wikipedia.org/wiki/Marek_Balt,Wikidata Q11767999,2026-10-24
-P00054,A0024,x,https://x.com/RobertBiedron,Wikidata Q174491,2026-10-24
-P00055,A0024,instagram,https://www.instagram.com/robertbiedron/,Wikidata Q174491,2026-10-24
-P00056,A0024,facebook,https://www.facebook.com/RobertBiedron,Wikidata Q174491,2026-10-24
-P00057,A0024,youtube,https://www.youtube.com/channel/UCmVXZzyiiV1v--wtZ5OU5Sw,Wikidata Q174491,2026-10-24
-P00058,A0024,wikipedia,https://en.wikipedia.org/wiki/Robert_Biedro%C5%84,Wikidata Q174491,2026-10-24
-P00059,A0025,facebook,https://www.facebook.com/PremierCimoszewicz,Wikidata Q55915,2026-10-24
-P00060,A0025,wikipedia,https://en.wikipedia.org/wiki/W%C5%82odzimierz_Cimoszewicz,Wikidata Q55915,2026-10-24
-P00061,A0026,x,https://x.com/lukaszkohut,Wikidata Q64141630,2026-10-24
-P00062,A0026,instagram,https://www.instagram.com/lukaszkohut/,Wikidata Q64141630,2026-10-24
-P00063,A0026,facebook,https://www.facebook.com/KohutLukaszMarcin,Wikidata Q64141630,2026-10-24
-P00064,A0026,wikipedia,https://en.wikipedia.org/wiki/%C5%81ukasz_Kohut,Wikidata Q64141630,2026-10-24
-P00065,A0027,x,https://x.com/BLiberadzki,Wikidata Q4937928,2026-10-24
-P00066,A0027,facebook,https://www.facebook.com/BoguslawLiberadzki,Wikidata Q4937928,2026-10-24
-P00067,A0027,wikipedia,https://en.wikipedia.org/wiki/Bogus%C5%82aw_Liberadzki,Wikidata Q4937928,2026-10-24
-P00068,A0028,x,https://x.com/LeszekMiller,Wikidata Q55782,2026-10-24
-P00069,A0028,instagram,https://www.instagram.com/leszekmiller.official/,Wikidata Q55782,2026-10-24
-P00070,A0028,facebook,https://www.facebook.com/MillerLeszek,Wikidata Q55782,2026-10-24
-P00071,A0028,wikipedia,https://en.wikipedia.org/wiki/Leszek_Miller,Wikidata Q55782,2026-10-24
-P00072,A0029,wikipedia,https://en.wikipedia.org/wiki/Marek_Belka,Wikidata Q55900,2026-10-24
-P00073,A0041,wikipedia,https://en.wikipedia.org/wiki/Ryszard_Bugaj,Wikidata Q7385386,2026-10-24
-P00074,A0042,website,https://gabriel-zucman.eu/,Wikidata Q15811211,2026-10-24
-P00075,A0042,x,https://x.com/gabriel_zucman,Wikidata Q15811211,2026-10-24
-P00076,A0042,bluesky,https://bsky.app/profile/gabrielzucman.bsky.social,Wikidata Q15811211,2026-10-24
-P00077,A0042,wikipedia,https://en.wikipedia.org/wiki/Gabriel_Zucman,Wikidata Q15811211,2026-10-24
-P00078,A0045,x,https://x.com/sylwiaspurek,Wikidata Q55082237,2026-10-24
-P00079,A0045,facebook,https://www.facebook.com/drSylwiaSpurek,Wikidata Q55082237,2026-10-24
-P00080,A0045,wikipedia,https://en.wikipedia.org/wiki/Sylwia_Spurek,Wikidata Q55082237,2026-10-24
-P00081,A0048,wikipedia,https://en.wikipedia.org/wiki/Monika_Kostera,Wikidata Q6900199,2026-10-24
-P00082,A0058,website,https://www.karolmuszynski.com/,Wikidata Q124003187,2026-10-24
-P00083,A0058,x,https://x.com/muszynski_karol,Wikidata Q124003187,2026-10-24
-P00084,A0058,linkedin,https://www.linkedin.com/in/karol-muszyński-883a841a6/,Wikidata Q124003187,2026-10-24
-P00085,A0069,x,https://x.com/joannamgm,Wikidata Q119855421,2026-10-24
-P00086,A0069,linkedin,https://www.linkedin.com/in/joanna-grzymala-moszczynska/,Wikidata Q119855421,2026-10-24
-P00087,A0113,website,https://www.szahaj.com/,Wikidata Q9153688,2026-10-24
-P00088,A0154,website,https://www.kociak.org/,Wikidata Q57080794,2026-10-24
-P00089,A0165,website,https://jacekkochanowski.wordpress.com,Wikidata Q11715369,2026-10-24
-P00090,A0165,facebook,https://www.facebook.com/jacekkocha,Wikidata Q11715369,2026-10-24
-P00091,A0165,wikipedia,https://en.wikipedia.org/wiki/Jacek_Kochanowski,Wikidata Q11715369,2026-10-24
-P00092,A0166,website,https://rafalmatera.pl/,Wikidata Q63115767,2026-10-24
-P00093,A0232,x,https://x.com/majakstasko,Wikidata Q107062020,2026-10-24
-P00094,A0232,instagram,https://www.instagram.com/majakstasko/,Wikidata Q107062020,2026-10-24
-P00095,A0232,facebook,https://www.facebook.com/maja.stasko,Wikidata Q107062020,2026-10-24
-P00096,A0232,tiktok,https://www.tiktok.com/@majakstasko,Wikidata Q107062020,2026-10-24
-P00097,A0232,wikipedia,https://en.wikipedia.org/wiki/Maja_Sta%C5%9Bko,Wikidata Q107062020,2026-10-24
+P0001,A0001,website,https://partiarazem.pl/,Party policy and manifesto pages,2026-11-04
+P0002,A0002,facebook,https://www.facebook.com/jurij.gagarin.5,Wikidata Q112079994,2026-11-04
+P0003,A0002,instagram,https://www.instagram.com/fejfbook/,Wikidata Q112079994,2026-11-04
+P0004,A0003,official_page,https://krytykapolityczna.pl/bio/marcin-gerwin/,Krytyka Polityczna author bio,2026-11-04
+P0005,A0004,official_page,https://krytykapolityczna.pl/bio/artur-troost/,Krytyka Polityczna author bio,2026-11-04
+P0006,A0004,official_page,https://orcid.org/0009-0003-9388-190X,ORCID public register (Uniwersytet Warszawski),2026-11-04
+P0007,A0005,official_page,https://radon.nauka.gov.pl/dane/profil/B7A8E450A4BBCA6A60A3050615D22C1B00F115BA,RAD-on POL-on official academic register (radon.nauka.gov.pl),2026-11-04
+P0008,A0005,wikipedia,https://pl.wikipedia.org/wiki/Karolina_Boro%C5%84ska-Hryniewiecka,Wikidata Q137757828 sitelink (plwiki),2026-11-04
+P0009,A0006,wikipedia,https://en.wikipedia.org/wiki/Rafa%C5%82_Wo%C5%9B,Wikidata Q18433593,2026-11-04
+P0010,A0007,official_page,https://radon.nauka.gov.pl/dane/profil/C19F525BF2DDEA5A438FA0ABD798AD78EA6FAEF4,RAD-on POL-on official academic register (radon.nauka.gov.pl),2026-11-04
+P0011,A0008,website,https://lewicarazem2019.pl/kandydaci/bio/piotr-ikonowicz,Wikidata Q7196953,2026-11-04
+P0012,A0008,wikipedia,https://en.wikipedia.org/wiki/Piotr_Ikonowicz,Wikidata Q7196953,2026-11-04
+P0013,A0008,youtube,https://www.youtube.com/channel/UClNIOtN3KV770EPSs8xDcLg,Wikidata Q7196953,2026-11-04
+P0014,A0009,linkedin,https://www.linkedin.com/in/łukasz-komuda-b46a14214/,Wikidata Q107566958,2026-11-04
+P0015,A0009,official_page,https://oko.press/autor/lukasz_komuda,R003 public-role manifest verification,2026-11-04
+P0016,A0010,official_page,https://radon.nauka.gov.pl/dane/profil/4ECE9EBD07763C8692DCB91CFE94E5388B2B1808,RAD-on POL-on official academic register (radon.nauka.gov.pl),2026-11-04
+P0017,A0011,official_page,https://radon.nauka.gov.pl/dane/profil/62467001F84118B03DC8AF1271198A24846C4C0E,RAD-on POL-on official academic register (radon.nauka.gov.pl),2026-11-04
+P0018,A0012,official_page,https://radon.nauka.gov.pl/dane/profil/479BC0DA6CCFB02DE88820373A9BA0C06FB8DCA3,RAD-on POL-on official academic register (radon.nauka.gov.pl),2026-11-04
+P0019,A0013,wikipedia,https://pl.wikipedia.org/wiki/Piotr_Soroczy%C5%84ski,Wikidata Q55392622 sitelink (plwiki),2026-11-04
+P0020,A0014,facebook,https://www.facebook.com/zygmuntowskij,Wikidata Q136029956,2026-11-04
+P0021,A0014,instagram,https://www.instagram.com/zygmuntowskij/,Wikidata Q136029956,2026-11-04
+P0022,A0014,linkedin,https://www.linkedin.com/in/zygmuntowskij/,Wikidata Q136029956,2026-11-04
+P0023,A0014,official_page,https://radon.nauka.gov.pl/dane/profil/242122650F264EF587277C0D2FC6328FD646F705,RAD-on POL-on official academic register (radon.nauka.gov.pl),2026-11-04
+P0024,A0014,wikipedia,https://pl.wikipedia.org/wiki/Jan_Oleszczuk-Zygmuntowski,Wikidata Q136029956 sitelink (plwiki),2026-11-04
+P0025,A0014,x,https://x.com/ZygmuntowskiJ,Wikidata Q136029956,2026-11-04
+P0026,A0015,facebook,https://www.facebook.com/GreenPartyIreland,Wikidata Q831015,2026-11-04
+P0027,A0015,instagram,https://www.instagram.com/greenpartyire/,Wikidata Q831015,2026-11-04
+P0028,A0015,website,https://partiazieloni.pl/,actors.csv website column,2026-11-04
+P0029,A0015,wikipedia,https://en.wikipedia.org/wiki/Green_Party_%28Ireland%29,Wikidata Q831015,2026-11-04
+P0030,A0015,wikipedia,https://en.wikipedia.org/wiki/Green_Party_(Ireland),Wikidata Q831015 sitelink (enwiki),2026-11-04
+P0031,A0015,x,https://x.com/greenparty_ie,Wikidata Q831015,2026-11-04
+P0032,A0015,youtube,https://www.youtube.com/channel/UChGabs_t3g28bCwlwN3xyVw,Wikidata Q831015,2026-11-04
+P0033,A0016,facebook,https://www.facebook.com/GoTracz,Wikidata Q20873946,2026-11-04
+P0034,A0016,instagram,https://www.instagram.com/go_tracz/,Wikidata Q20873946,2026-11-04
+P0035,A0016,website,https://www.malgorzatatracz.pl/,actors.csv website column,2026-11-04
+P0036,A0016,wikipedia,https://en.wikipedia.org/wiki/Ma%C5%82gorzata_Tracz,Wikidata Q20873946,2026-11-04
+P0037,A0016,x,https://x.com/GoTracz,Wikidata Q20873946,2026-11-04
+P0038,A0016,youtube,https://www.youtube.com/channel/UCjyFLKRIE0o2AAqNMGqidKA,Wikidata Q20873946,2026-11-04
+P0039,A0017,website,https://mlodalewica.pl/,actors.csv website column,2026-11-04
+P0040,A0018,website,https://www.opzz.org.pl/,actors.csv website column,2026-11-04
+P0041,A0019,website,https://www.opzz.org.pl/opzz/wladze/prezydium/kierownictwo/piotr-ostrowski,actors.csv website column,2026-11-04
+P0042,A0019,wikipedia,https://pl.wikipedia.org/wiki/Piotr_Ostrowski_(zwi%C4%85zkowiec),Wikidata Q117683996 sitelink (plwiki),2026-11-04
+P0043,A0020,website,https://www.wemove.eu/,actors.csv website column,2026-11-04
+P0044,A0021,official_page,https://radon.nauka.gov.pl/dane/profil/F1EB6035D447EFFF59D88F78CE023A0EEFD73BEC,RAD-on POL-on official academic register (radon.nauka.gov.pl),2026-11-04
+P0045,A0021,wikipedia,https://en.wikipedia.org/wiki/Adam_Ostolski,Wikidata Q6543404 sitelink (enwiki),2026-11-04
+P0046,A0022,facebook,https://www.facebook.com/danuta.hubner,Wikidata Q242090,2026-11-04
+P0047,A0022,instagram,https://www.instagram.com/danutahuebner/,Wikidata Q242090,2026-11-04
+P0048,A0022,website,https://danuta-huebner.pl,Wikidata Q242090,2026-11-04
+P0049,A0022,wikipedia,https://en.wikipedia.org/wiki/Danuta_H%C3%BCbner,Wikidata Q242090,2026-11-04
+P0050,A0022,x,https://x.com/danutahuebner,Wikidata Q242090,2026-11-04
+P0051,A0022,youtube,https://www.youtube.com/channel/UCnkIPjBSY3x2x7tMEOphdLQ,Wikidata Q242090,2026-11-04
+P0052,A0023,facebook,https://www.facebook.com/baltmarek,Wikidata Q11767999,2026-11-04
+P0053,A0023,instagram,https://www.instagram.com/marek_balt/,Wikidata Q11767999,2026-11-04
+P0054,A0023,website,https://marekbalt.info,Wikidata Q11767999,2026-11-04
+P0055,A0023,wikipedia,https://en.wikipedia.org/wiki/Marek_Balt,Wikidata Q11767999,2026-11-04
+P0056,A0023,x,https://x.com/poselbalt,Wikidata Q11767999,2026-11-04
+P0057,A0024,facebook,https://www.facebook.com/RobertBiedron,Wikidata Q174491,2026-11-04
+P0058,A0024,instagram,https://www.instagram.com/robertbiedron/,Wikidata Q174491,2026-11-04
+P0059,A0024,website,https://www.robertbiedron.pl/,actors.csv website column,2026-11-04
+P0060,A0024,wikipedia,https://en.wikipedia.org/wiki/Robert_Biedro%C5%84,Wikidata Q174491,2026-11-04
+P0061,A0024,x,https://x.com/RobertBiedron,Wikidata Q174491,2026-11-04
+P0062,A0024,youtube,https://www.youtube.com/channel/UCmVXZzyiiV1v--wtZ5OU5Sw,Wikidata Q174491,2026-11-04
+P0063,A0025,facebook,https://www.facebook.com/PremierCimoszewicz,Wikidata Q55915,2026-11-04
+P0064,A0025,wikipedia,https://en.wikipedia.org/wiki/W%C5%82odzimierz_Cimoszewicz,Wikidata Q55915,2026-11-04
+P0065,A0026,facebook,https://www.facebook.com/KohutLukaszMarcin,Wikidata Q64141630,2026-11-04
+P0066,A0026,instagram,https://www.instagram.com/lukaszkohut/,Wikidata Q64141630,2026-11-04
+P0067,A0026,wikipedia,https://en.wikipedia.org/wiki/%C5%81ukasz_Kohut,Wikidata Q64141630,2026-11-04
+P0068,A0026,x,https://x.com/lukaszkohut,Wikidata Q64141630,2026-11-04
+P0069,A0027,facebook,https://www.facebook.com/BoguslawLiberadzki,Wikidata Q4937928,2026-11-04
+P0070,A0027,website,https://www.liberadzki.pl/,actors.csv website column,2026-11-04
+P0071,A0027,wikipedia,https://en.wikipedia.org/wiki/Bogus%C5%82aw_Liberadzki,Wikidata Q4937928,2026-11-04
+P0072,A0027,x,https://x.com/BLiberadzki,Wikidata Q4937928,2026-11-04
+P0073,A0028,facebook,https://www.facebook.com/MillerLeszek,Wikidata Q55782,2026-11-04
+P0074,A0028,instagram,https://www.instagram.com/leszekmiller.official/,Wikidata Q55782,2026-11-04
+P0075,A0028,website,https://www.miller.pl/,actors.csv website column,2026-11-04
+P0076,A0028,wikipedia,https://en.wikipedia.org/wiki/Leszek_Miller,Wikidata Q55782,2026-11-04
+P0077,A0028,x,https://x.com/LeszekMiller,Wikidata Q55782,2026-11-04
+P0078,A0029,wikipedia,https://en.wikipedia.org/wiki/Marek_Belka,Wikidata Q55900,2026-11-04
+P0079,A0030,official_page,https://radon.nauka.gov.pl/dane/profil/BFDEAFAE33DE2A082C89A29DA53ABC36F0D07F59,RAD-on POL-on official academic register (radon.nauka.gov.pl),2026-11-04
+P0080,A0031,official_page,https://radon.nauka.gov.pl/dane/profil/5643535D7A54DBACC8C422484FB2ABFC821E3B08,RAD-on POL-on official academic register (radon.nauka.gov.pl),2026-11-04
+P0081,A0033,official_page,https://torun-pl.academia.edu/TomaszMarkiewka,Wikidata Q97600245 P856,2026-11-04
+P0082,A0033,wikipedia,https://pl.wikipedia.org/wiki/Tomasz_Markiewka,Wikidata Q97600245 sitelink (plwiki),2026-11-04
+P0083,A0034,official_page,https://radon.nauka.gov.pl/dane/profil/968BEC5E6D42124BA28506B053598B68835E0F18,RAD-on POL-on official academic register (radon.nauka.gov.pl),2026-11-04
+P0084,A0034,website,"https://www.euroreg.uw.edu.pl/pl/zespol,jakub-rok",actors.csv website column,2026-11-04
+P0085,A0035,official_page,https://radon.nauka.gov.pl/dane/profil/53A2D5BA2486D7934B4B753BACED9CE5D23DF3DA,RAD-on POL-on official academic register (radon.nauka.gov.pl),2026-11-04
+P0086,A0035,website,https://www.uni.lodz.pl/pracownicy/jakub-kronenberg,actors.csv website column,2026-11-04
+P0087,A0035,wikipedia,https://pl.wikipedia.org/wiki/Jakub_Kronenberg,Wikidata Q58417834 sitelink (plwiki),2026-11-04
+P0088,A0036,website,https://zero-waste.pl/,Official website of Polskie Stowarzyszenie Zero Waste,2026-11-04
+P0089,A0037,website,https://eko-unia.org.pl/,Official website of Stowarzyszenie Ekologiczne EKO-UNIA,2026-11-04
+P0090,A0038,website,https://ekonsument.pl/,Official website of Fundacja Kupuj Odpowiedzialnie,2026-11-04
+P0091,A0039,official_page,https://orcid.org/0000-0002-4624-4268,ORCID public register (SGH / PTE),2026-11-04
+P0092,A0039,wikipedia,https://pl.wikipedia.org/wiki/El%C5%BCbieta_M%C4%85czy%C5%84ska-Ziemacka,Wikidata Q9253216 sitelink (plwiki),2026-11-04
+P0093,A0040,official_page,https://orcid.org/0000-0002-0838-688X,ORCID public register,2026-11-04
+P0094,A0040,wikipedia,https://pl.wikipedia.org/wiki/Micha%C5%82_Sutowski,Wikidata Q19268887 sitelink (plwiki),2026-11-04
+P0095,A0041,wikipedia,https://en.wikipedia.org/wiki/Ryszard_Bugaj,Wikidata Q7385386,2026-11-04
+P0096,A0042,bluesky,https://bsky.app/profile/gabrielzucman.bsky.social,Wikidata Q15811211,2026-11-04
+P0097,A0042,website,https://gabriel-zucman.eu/,Wikidata Q15811211,2026-11-04
+P0098,A0042,wikipedia,https://en.wikipedia.org/wiki/Gabriel_Zucman,Wikidata Q15811211,2026-11-04
+P0099,A0042,x,https://x.com/gabriel_zucman,Wikidata Q15811211,2026-11-04
+P0100,A0043,official_page,https://ifispan.pl/the-30th-anniversary-of-gssr-and-the-inauguration-of-the-academic-year-2022-2023/,IFiS PAN / GSSR faculty & alumni record,2026-11-04
+P0101,A0044,official_page,https://radon.nauka.gov.pl/dane/profil/7334623142B5A47C5F41972B87CB378DD3098CA5,RAD-on POL-on official academic register (radon.nauka.gov.pl),2026-11-04
+P0102,A0045,facebook,https://www.facebook.com/drSylwiaSpurek,Wikidata Q55082237,2026-11-04
+P0103,A0045,wikipedia,https://en.wikipedia.org/wiki/Sylwia_Spurek,Wikidata Q55082237,2026-11-04
+P0104,A0045,x,https://x.com/sylwiaspurek,Wikidata Q55082237,2026-11-04
+P0105,A0046,website,https://missionpossible.org.pl/,actors.csv website column,2026-11-04
+P0106,A0047,website,https://missionpossible.org.pl/,actors.csv website column,2026-11-04
+P0107,A0048,official_page,https://radon.nauka.gov.pl/dane/profil/D37250515CF580AE5CF19C813CFA64BC642BE27C,RAD-on POL-on official academic register (radon.nauka.gov.pl),2026-11-04
+P0108,A0048,wikipedia,https://en.wikipedia.org/wiki/Monika_Kostera,Wikidata Q6900199,2026-11-04
+P0109,A0049,official_page,https://radon.nauka.gov.pl/dane/profil/700E46B299BB100CEC21BC1B69FBEEAA6D14A2DE,RAD-on POL-on official academic register (radon.nauka.gov.pl),2026-11-04
+P0110,A0050,official_page,https://radon.nauka.gov.pl/dane/profil/4565180BF78A0CCF565CFB54075F1AA969B6E995,RAD-on POL-on official academic register (radon.nauka.gov.pl),2026-11-04
+P0111,A0051,official_page,https://radon.nauka.gov.pl/dane/profil/418A85B8103532CFF3D0A1713136F31D28AE8990,RAD-on POL-on official academic register (radon.nauka.gov.pl),2026-11-04
+P0112,A0052,official_page,https://orcid.org/0000-0002-8884-6996,ORCID public register (University of Oxford),2026-11-04
+P0113,A0053,official_page,https://radon.nauka.gov.pl/dane/profil/5C9DF1B601AF383003DB7B9CFDEF7138885C3BF1,RAD-on POL-on official academic register (radon.nauka.gov.pl),2026-11-04
+P0114,A0054,official_page,https://radon.nauka.gov.pl/dane/profil/FCA78F58EA846D7EE55436696A880CE929152999,RAD-on POL-on official academic register (radon.nauka.gov.pl),2026-11-04
+P0115,A0055,official_page,https://orcid.org/0009-0004-9421-927X,ORCID public register,2026-11-04
+P0116,A0056,official_page,https://orcid.org/0000-0002-6899-414X,ORCID public register (UEP Poznań),2026-11-04
+P0117,A0057,official_page,https://radon.nauka.gov.pl/dane/profil/4F537CDC3A66CF245023F1C05E492CDC3F685ACB,RAD-on POL-on official academic register (radon.nauka.gov.pl),2026-11-04
+P0118,A0057,wikipedia,https://pl.wikipedia.org/wiki/Anna_Zachorowska-Mazurkiewicz,Wikidata Q64149224 sitelink (plwiki),2026-11-04
+P0119,A0058,linkedin,https://www.linkedin.com/in/karol-muszyński-883a841a6/,Wikidata Q124003187,2026-11-04
+P0120,A0058,official_page,https://radon.nauka.gov.pl/dane/profil/77832F2E3B8A763521257EB8BE8FDD2E5831A16A,RAD-on POL-on official academic register (radon.nauka.gov.pl),2026-11-04
+P0121,A0058,website,https://www.karolmuszynski.com/,Wikidata Q124003187,2026-11-04
+P0122,A0058,x,https://x.com/muszynski_karol,Wikidata Q124003187,2026-11-04
+P0123,A0059,official_page,https://radon.nauka.gov.pl/dane/profil/D31A0CCCB13BA11B08CFFBECF4C721F1AA042ED3,RAD-on POL-on official academic register (radon.nauka.gov.pl),2026-11-04
+P0124,A0060,official_page,https://radon.nauka.gov.pl/dane/profil/91CCB91C1D9321F129679C8CB620235C081E733E,RAD-on POL-on official academic register (radon.nauka.gov.pl),2026-11-04
+P0125,A0061,official_page,https://orcid.org/0000-0003-1589-5858,ORCID public register (Birmingham City University),2026-11-04
+P0126,A0062,official_page,https://radon.nauka.gov.pl/dane/profil/1CBEFE311082E7A497A166C71588823ED6C13DCB,RAD-on POL-on official academic register (radon.nauka.gov.pl),2026-11-04
+P0127,A0063,official_page,https://radon.nauka.gov.pl/dane/profil/7B9FB61E5113FB62E12B5BF986BAC7DC945914AF,RAD-on POL-on official academic register (radon.nauka.gov.pl),2026-11-04
+P0128,A0063,wikipedia,https://pl.wikipedia.org/wiki/Przemys%C5%82aw_Tacik,Wikidata Q113736468 sitelink (plwiki),2026-11-04
+P0129,A0064,official_page,https://radon.nauka.gov.pl/dane/profil/0A85CFCC09A8BE09BADD826419597E5D7B56EC51,RAD-on POL-on official academic register (radon.nauka.gov.pl),2026-11-04
+P0130,A0065,official_page,https://radon.nauka.gov.pl/dane/profil/E664616E69B6FF968801F154CFDD9D38C7D66F6C,RAD-on POL-on official academic register (radon.nauka.gov.pl),2026-11-04
+P0131,A0066,official_page,https://radon.nauka.gov.pl/dane/profil/6E3E30FB343CE321919BCD5574851E4E59D8D0AB,RAD-on POL-on official academic register (radon.nauka.gov.pl),2026-11-04
+P0132,A0067,official_page,https://radon.nauka.gov.pl/dane/profil/EB86BF32DCA2E0B3CE151FC19309B4997AA68B03,RAD-on POL-on official academic register (radon.nauka.gov.pl),2026-11-04
+P0133,A0068,official_page,https://radon.nauka.gov.pl/dane/profil/D8C4958338C41D5B2332172DAB7EE41A0064551C,RAD-on POL-on official academic register (radon.nauka.gov.pl),2026-11-04
+P0134,A0068,wikipedia,https://pl.wikipedia.org/wiki/Beata_Kowalska_(socjolog),Wikidata Q57419854 sitelink (plwiki),2026-11-04
+P0135,A0069,linkedin,https://www.linkedin.com/in/joanna-grzymala-moszczynska/,Wikidata Q119855421,2026-11-04
+P0136,A0069,official_page,https://radon.nauka.gov.pl/dane/profil/39953780C6518843AC9902FEAC28530E645C1D52,RAD-on POL-on official academic register (radon.nauka.gov.pl),2026-11-04
+P0137,A0069,x,https://x.com/joannamgm,Wikidata Q119855421,2026-11-04
+P0138,A0070,official_page,https://radon.nauka.gov.pl/dane/profil/80AE2FC0F9EE5D9E5369FD5AA33FD5501F89AC75,RAD-on POL-on official academic register (radon.nauka.gov.pl),2026-11-04
+P0139,A0071,official_page,https://radon.nauka.gov.pl/dane/profil/F9DEDD4B3D888917EA85D6ED29B9B5EEF1BB5C5B,RAD-on POL-on official academic register (radon.nauka.gov.pl),2026-11-04
+P0140,A0072,official_page,https://radon.nauka.gov.pl/dane/profil/3AC80F0196617DFCF87DD9B20720D2ACB49A65FC,RAD-on POL-on official academic register (radon.nauka.gov.pl),2026-11-04
+P0141,A0073,official_page,https://radon.nauka.gov.pl/dane/profil/5F47F94F678E35043B49EEBC448812CCD2F27617,RAD-on POL-on official academic register (radon.nauka.gov.pl),2026-11-04
+P0142,A0074,official_page,https://radon.nauka.gov.pl/dane/profil/3C4F8AD602FFF1E17FE5AA537C5E5A090ED3E630,RAD-on POL-on official academic register (radon.nauka.gov.pl),2026-11-04
+P0143,A0074,wikipedia,https://pl.wikipedia.org/wiki/Tomasz_Wojciech_Majewski,Wikidata Q48850414 sitelink (plwiki),2026-11-04
+P0144,A0075,official_page,https://radon.nauka.gov.pl/dane/profil/E28530976023F58C925A978E6F36F9CCE7782A24,RAD-on POL-on official academic register (radon.nauka.gov.pl),2026-11-04
+P0145,A0075,wikipedia,https://pl.wikipedia.org/wiki/Paulina_Kramarz,Wikidata Q85133201 sitelink (plwiki),2026-11-04
+P0146,A0076,official_page,https://radon.nauka.gov.pl/dane/profil/759A76CE4F9322C8EF03E2DF7C3FD382B219396E,RAD-on POL-on official academic register (radon.nauka.gov.pl),2026-11-04
+P0147,A0077,official_page,https://radon.nauka.gov.pl/dane/profil/CF6CFAFBF7AD32AB319184B586B79F2BFCA137EA,RAD-on POL-on official academic register (radon.nauka.gov.pl),2026-11-04
+P0148,A0077,website,https://ue.poznan.pl/osoby/dr-pawel-luczak/,actors.csv website column,2026-11-04
+P0149,A0078,official_page,https://radon.nauka.gov.pl/dane/profil/661E2D7C1F80E7A1D72E182DC34E12398C92BB05,RAD-on POL-on official academic register (radon.nauka.gov.pl),2026-11-04
+P0150,A0079,official_page,https://radon.nauka.gov.pl/dane/profil/58142DAADD4C51D8472767B1DBDE0A8497908610,RAD-on POL-on official academic register (radon.nauka.gov.pl),2026-11-04
+P0151,A0080,official_page,https://radon.nauka.gov.pl/dane/profil/0DA775FE9B1CD036A0932434D902D6C0530A7652,RAD-on POL-on official academic register (radon.nauka.gov.pl),2026-11-04
+P0152,A0081,official_page,https://radon.nauka.gov.pl/dane/profil/A388BBD80692259CACD934F32AD877A27E428EC5,RAD-on POL-on official academic register (radon.nauka.gov.pl),2026-11-04
+P0153,A0082,official_page,https://radon.nauka.gov.pl/dane/profil/4507343F4C67C30266190D50D885182FA3E75656,RAD-on POL-on official academic register (radon.nauka.gov.pl),2026-11-04
+P0154,A0082,website,https://magazynkontakt.pl/profil/cwynar-tobiasz/,actors.csv website column,2026-11-04
+P0155,A0083,official_page,https://radon.nauka.gov.pl/dane/profil/F1D73E9E3CB4A71BA1D8A3AB7CDC4C9411806A41,RAD-on POL-on official academic register (radon.nauka.gov.pl),2026-11-04
+P0156,A0084,official_page,https://radon.nauka.gov.pl/dane/profil/F2D07ABE8C5F130702D5A6268873A66D1734C233,RAD-on POL-on official academic register (radon.nauka.gov.pl),2026-11-04
+P0157,A0084,official_page,https://wbask.asp.waw.pl/zespol/dr-piotr-p-plucienniczak/,ASP Warszawa faculty profile,2026-11-04
+P0158,A0086,official_page,https://radon.nauka.gov.pl/dane/profil/5CAB1ACF93D21E72D02E34481BF3F66E1C186719,RAD-on POL-on official academic register (radon.nauka.gov.pl),2026-11-04
+P0159,A0087,official_page,https://radon.nauka.gov.pl/dane/profil/1763A40147CF993B91A97797AE53E616E7ED828B,RAD-on POL-on official academic register (radon.nauka.gov.pl),2026-11-04
+P0160,A0088,facebook,https://www.facebook.com/maciejszlinder,https://maciejszlinder.pl/,2026-11-04
+P0161,A0088,instagram,https://www.instagram.com/maciej_szlinder,https://maciejszlinder.pl/,2026-11-04
+P0162,A0088,official_page,https://radon.nauka.gov.pl/dane/profil/3C35C84A5A2BBF6198973A90DB9B0D4F59F67E53,RAD-on POL-on official academic register (radon.nauka.gov.pl),2026-11-04
+P0163,A0088,website,https://maciejszlinder.pl/,https://maciejszlinder.pl/,2026-11-04
+P0164,A0088,wikipedia,https://pl.wikipedia.org/wiki/Maciej_Szlinder,https://pl.wikipedia.org/wiki/Maciej_Szlinder,2026-11-04
+P0165,A0088,x,https://x.com/mszlinder,https://maciejszlinder.pl/,2026-11-04
+P0166,A0089,official_page,https://rada-uczelni.uj.edu.pl/sklad-rady,Uniwersytet Jagielloński Council profile,2026-11-04
+P0167,A0089,official_page,https://radon.nauka.gov.pl/dane/profil/C07ADEF8040B4C9B17C38F0DF55F71E167D09CCE,RAD-on POL-on official academic register (radon.nauka.gov.pl),2026-11-04
+P0168,A0090,official_page,https://radon.nauka.gov.pl/dane/profil/BA0BD30BAFBB9BE456AEC440C05FEBA89A09CD82,RAD-on POL-on official academic register (radon.nauka.gov.pl),2026-11-04
+P0169,A0091,official_page,https://radon.nauka.gov.pl/dane/profil/31D1C7B84F0CDADC5B4126965D85A65486BB13DF,RAD-on POL-on official academic register (radon.nauka.gov.pl),2026-11-04
+P0170,A0092,official_page,https://radon.nauka.gov.pl/dane/profil/F74EEAB297A1A510C321839882C60A92A69A7136,RAD-on POL-on official academic register (radon.nauka.gov.pl),2026-11-04
+P0171,A0093,official_page,https://radon.nauka.gov.pl/dane/profil/CD82D2B7D2882F0C3A94F4FAB0B0AE00339768ED,RAD-on POL-on official academic register (radon.nauka.gov.pl),2026-11-04
+P0172,A0094,official_page,https://radon.nauka.gov.pl/dane/profil/D61B10DFBC034198EE0601D01BC042460AA6A4D2,RAD-on POL-on official academic register (radon.nauka.gov.pl),2026-11-04
+P0173,A0095,official_page,https://radon.nauka.gov.pl/dane/profil/A50FCBD3771AE08DE54FD91A248EE05A5077374A,RAD-on POL-on official academic register (radon.nauka.gov.pl),2026-11-04
+P0174,A0095,official_page,https://us.edu.pl/kandydat/joanna-wowrzeczka-ambasadorka-kierunku-studiow/,Uniwersytet Śląski profile,2026-11-04
+P0175,A0095,wikipedia,https://pl.wikipedia.org/wiki/Joanna_Wowrzeczka,Wikidata Q56256069 sitelink (plwiki),2026-11-04
+P0176,A0096,official_page,https://ifs.filg.uj.edu.pl/wanda-stepniak-minczewa,Wikidata Q126277742 P856,2026-11-04
+P0177,A0096,official_page,https://orcid.org/0009-0003-3043-4969,ORCID public register (Uniwersytet Jagielloński),2026-11-04
+P0178,A0097,official_page,https://radon.nauka.gov.pl/dane/profil/5FE9980594669FAC9F9683F9B2E8C9A9494B4F55,RAD-on POL-on official academic register (radon.nauka.gov.pl),2026-11-04
+P0179,A0098,official_page,https://economicus.ue.katowice.pl/info/author/UEKT37fbdd5c5450400e8f5e4932a90660f6/,UE Katowice researcher profile,2026-11-04
+P0180,A0098,official_page,https://radon.nauka.gov.pl/dane/profil/07C671FBD65C105D17A357F133128D90B916D0E0,RAD-on POL-on official academic register (radon.nauka.gov.pl),2026-11-04
+P0181,A0099,official_page,https://radon.nauka.gov.pl/dane/profil/F6E75FD032CC6178454F72363DDE64E86AEE95DF,RAD-on POL-on official academic register (radon.nauka.gov.pl),2026-11-04
+P0182,A0100,official_page,https://radon.nauka.gov.pl/dane/profil/A8D8A2FCB0DF077C671F01F1323C6C08FCE101B2,RAD-on POL-on official academic register (radon.nauka.gov.pl),2026-11-04
+P0183,A0100,website,https://www.uni.lodz.pl/pracownicy/marcin-boguslawski,actors.csv website column,2026-11-04
+P0184,A0101,official_page,https://radon.nauka.gov.pl/dane/profil/CC83B5B68BEFAC67C1F20B11EF160C023700083B,RAD-on POL-on official academic register (radon.nauka.gov.pl),2026-11-04
+P0185,A0101,website,https://socjologia.uwr.edu.pl/instytut/pracownicy/pracownicy-instytutu/adam-mrozowicki/,actors.csv website column,2026-11-04
+P0186,A0102,official_page,https://radon.nauka.gov.pl/dane/profil/19AC96D5940FC5105DD812920C79926B68DFE003,RAD-on POL-on official academic register (radon.nauka.gov.pl),2026-11-04
+P0187,A0102,wikipedia,https://pl.wikipedia.org/wiki/%C5%81ukasz_Mamica,Wikidata Q119104950 sitelink (plwiki),2026-11-04
+P0188,A0103,official_page,https://radon.nauka.gov.pl/dane/profil/DCE8F667E87CF05AE44F61C49EF85FB8F7A25787,RAD-on POL-on official academic register (radon.nauka.gov.pl),2026-11-04
+P0189,A0104,official_page,https://radon.nauka.gov.pl/dane/profil/A431D1F42FE6F8263F7BFF2435A769F6ECB42F06,RAD-on POL-on official academic register (radon.nauka.gov.pl),2026-11-04
+P0190,A0105,official_page,https://radon.nauka.gov.pl/dane/profil/FBFC9E66380D721E325A1DCDB57661574D7751C7,RAD-on POL-on official academic register (radon.nauka.gov.pl),2026-11-04
+P0191,A0106,official_page,https://radon.nauka.gov.pl/dane/profil/DBFC0A998EB9F90DDDE9597BD808097DDFC3E4BC,RAD-on POL-on official academic register (radon.nauka.gov.pl),2026-11-04
+P0192,A0106,website,https://www.lazarski.pl/pl/node/18022,actors.csv website column,2026-11-04
+P0193,A0107,official_page,https://radon.nauka.gov.pl/dane/profil/AFEAD1E5C0BB31FC9E81523C5D6C56ADA3C21A44,RAD-on POL-on official academic register (radon.nauka.gov.pl),2026-11-04
+P0194,A0108,official_page,https://radon.nauka.gov.pl/dane/profil/7F710755ED70D2B266FFC03650793E8784CF015A,RAD-on POL-on official academic register (radon.nauka.gov.pl),2026-11-04
+P0195,A0109,official_page,https://radon.nauka.gov.pl/dane/profil/42D7CD67A7D7F30C9F0EE8E328419C40A526DC2E,RAD-on POL-on official academic register (radon.nauka.gov.pl),2026-11-04
+P0196,A0110,official_page,https://radon.nauka.gov.pl/dane/profil/C42F57DC98DF544F8F730F00BAF7CE64292D296A,RAD-on POL-on official academic register (radon.nauka.gov.pl),2026-11-04
+P0197,A0111,official_page,https://radon.nauka.gov.pl/dane/profil/96707BFBD978853C543C59254A7808BB4F99FA8F,RAD-on POL-on official academic register (radon.nauka.gov.pl),2026-11-04
+P0198,A0112,official_page,https://euromemo.eu/history/,EuroMemo Group steering committee record,2026-11-04
+P0199,A0113,website,https://www.szahaj.com/,Wikidata Q9153688,2026-11-04
+P0200,A0113,wikipedia,https://pl.wikipedia.org/wiki/Andrzej_Szahaj,Wikidata Q9153688 sitelink (plwiki),2026-11-04
+P0201,A0114,official_page,https://orcid.org/0000-0001-8777-2377,ORCID public register (UEP Poznań / UZ),2026-11-04
+P0202,A0115,official_page,https://radon.nauka.gov.pl/dane/profil/629C89BF202829DCF843F2738148DCAD3D150719,RAD-on POL-on official academic register (radon.nauka.gov.pl),2026-11-04
+P0203,A0115,official_page,https://trawski.net/,Wikidata Q113586644 P856,2026-11-04
+P0204,A0116,official_page,https://radon.nauka.gov.pl/dane/profil/64FC41D21030556BC3ECBF6D95686B944938AD37,RAD-on POL-on official academic register (radon.nauka.gov.pl),2026-11-04
+P0205,A0116,wikipedia,https://pl.wikipedia.org/wiki/Andrzej_W._Nowak,Wikidata Q110428721 sitelink (plwiki),2026-11-04
+P0206,A0117,official_page,https://radon.nauka.gov.pl/dane/profil/D14B3C3292F8DE3D2136F8563E6608CDD46E90EE,RAD-on POL-on official academic register (radon.nauka.gov.pl),2026-11-04
+P0207,A0117,wikipedia,https://pl.wikipedia.org/wiki/Monika_Bobako,Wikidata Q61942184 sitelink (plwiki),2026-11-04
+P0208,A0118,official_page,https://orcid.org/0000-0002-9868-1275,ORCID public register (Uniwersytet Warszawski),2026-11-04
+P0209,A0119,official_page,https://radon.nauka.gov.pl/dane/profil/D2E2AF44380D71BDD4172172FC3A73C1709C7CFF,RAD-on POL-on official academic register (radon.nauka.gov.pl),2026-11-04
+P0210,A0120,official_page,https://radon.nauka.gov.pl/dane/profil/B4CCE5FDC87DCCD82D4D50424E9FEC703CBFCEE0,RAD-on POL-on official academic register (radon.nauka.gov.pl),2026-11-04
+P0211,A0121,official_page,https://ippa.uek.krakow.pl/kpp/pracownicy/pracownik-3-3/,UEK Kraków faculty profile,2026-11-04
+P0212,A0121,official_page,https://radon.nauka.gov.pl/dane/profil/E627ACD8347CD9ED812EB9D4A3CFD67C16216F28,RAD-on POL-on official academic register (radon.nauka.gov.pl),2026-11-04
+P0213,A0122,official_page,https://radon.nauka.gov.pl/dane/profil/1EE9440C1662A4E44B14F408CC68152175B0E2D2,RAD-on POL-on official academic register (radon.nauka.gov.pl),2026-11-04
+P0214,A0122,wikipedia,https://pl.wikipedia.org/wiki/Katarzyna_Sztop-Rutkowska,Wikidata Q85134006 sitelink (plwiki),2026-11-04
+P0215,A0123,official_page,https://gap.uek.krakow.pl/blog/pracownicy/dr-michal-zabinski/,UEK Kraków faculty profile,2026-11-04
+P0216,A0123,official_page,https://radon.nauka.gov.pl/dane/profil/8C889C3B6916A029C551D42C11F5B1A0B78917E9,RAD-on POL-on official academic register (radon.nauka.gov.pl),2026-11-04
+P0217,A0124,official_page,https://orcid.org/0000-0001-6905-6342,ORCID public register (UWM w Olsztynie),2026-11-04
+P0218,A0125,official_page,https://radon.nauka.gov.pl/dane/profil/37238161A4AF2F1D710D5CD5368431F5E004CA10,RAD-on POL-on official academic register (radon.nauka.gov.pl),2026-11-04
+P0219,A0126,official_page,https://radon.nauka.gov.pl/dane/profil/7D5DF0C4AC68D29E266A40CB0809C30C0804CD26,RAD-on POL-on official academic register (radon.nauka.gov.pl),2026-11-04
+P0220,A0128,official_page,https://orcid.org/0000-0001-7117-054X,ORCID public register (Uniwersytet Wrocławski),2026-11-04
+P0221,A0130,official_page,https://radon.nauka.gov.pl/dane/profil/9B4A7A859A9C98DB4F89B824A41618728BDBACA8,RAD-on POL-on official academic register (radon.nauka.gov.pl),2026-11-04
+P0222,A0130,wikipedia,https://pl.wikipedia.org/wiki/Andrzej_Kucner,Wikidata Q86726032 sitelink (plwiki),2026-11-04
+P0223,A0131,official_page,https://radon.nauka.gov.pl/dane/profil/1CD47C819D79B98A3138DE999B0A36F98692E646,RAD-on POL-on official academic register (radon.nauka.gov.pl),2026-11-04
+P0224,A0132,wikipedia,https://pl.wikipedia.org/wiki/Adam_Manikowski,Wikidata Q97370575 sitelink (plwiki),2026-11-04
+P0225,A0133,official_page,https://radon.nauka.gov.pl/dane/profil/D2DE6E5EADA968D702B21DBBC081D0E1A35BA659,RAD-on POL-on official academic register (radon.nauka.gov.pl),2026-11-04
+P0226,A0133,wikipedia,https://pl.wikipedia.org/wiki/Katarzyna_Kajdanek,Wikidata Q86249308 sitelink (plwiki),2026-11-04
+P0227,A0134,official_page,https://radon.nauka.gov.pl/dane/profil/AB88A88AE8561C24F36A2CBE6EA487799A719EC1,RAD-on POL-on official academic register (radon.nauka.gov.pl),2026-11-04
+P0228,A0135,official_page,https://orcid.org/0009-0004-7152-3164,ORCID public register (Uniwersytet Łódzki),2026-11-04
+P0229,A0136,official_page,https://radon.nauka.gov.pl/dane/profil/53BFE28ECB4636366F4A5011081ECF049E3B450B,RAD-on POL-on official academic register (radon.nauka.gov.pl),2026-11-04
+P0230,A0136,website,https://wns.uwr.edu.pl/pracownicy-jednostki/?omegaId=UWRbac6466b36d94cfe9944642d89323100,actors.csv website column,2026-11-04
+P0231,A0136,wikipedia,https://pl.wikipedia.org/wiki/Micha%C5%82_Piekarski_(grafik),Wikidata Q125117082 sitelink (plwiki),2026-11-04
+P0232,A0137,official_page,https://orcid.org/0000-0002-6521-0477,ORCID public register (Collegium Civitas),2026-11-04
+P0233,A0137,wikipedia,https://en.wikipedia.org/wiki/Izabela_Wagner,Wikidata Q105402768 sitelink (enwiki),2026-11-04
+P0234,A0138,official_page,https://radon.nauka.gov.pl/dane/profil/0D4B8FB7F5DC74EA8F2884B68788A73E36FD2687,RAD-on POL-on official academic register (radon.nauka.gov.pl),2026-11-04
+P0235,A0139,official_page,https://radon.nauka.gov.pl/dane/profil/D5EF5C4CC3199E1258837DF25B9BA3A0D52F79E2,RAD-on POL-on official academic register (radon.nauka.gov.pl),2026-11-04
+P0236,A0140,official_page,https://radon.nauka.gov.pl/dane/profil/590599D37C2A8F822F00B601FEE6E9311AD047FD,RAD-on POL-on official academic register (radon.nauka.gov.pl),2026-11-04
+P0237,A0140,wikipedia,https://en.wikipedia.org/wiki/Tomasz_Ganicz,Wikidata Q9359290 sitelink (enwiki),2026-11-04
+P0238,A0141,wikipedia,https://en.wikipedia.org/wiki/Anna_Baumgart,Wikidata Q9155013 sitelink (enwiki),2026-11-04
+P0239,A0143,official_page,https://radon.nauka.gov.pl/dane/profil/B41B023273BACD282133B9B5C75EA380F512EBBA,RAD-on POL-on official academic register (radon.nauka.gov.pl),2026-11-04
+P0240,A0144,official_page,https://radon.nauka.gov.pl/dane/profil/84FFACC2FACEBB623841D7837C9F2D9D829088FF,RAD-on POL-on official academic register (radon.nauka.gov.pl),2026-11-04
+P0241,A0145,official_page,https://orcid.org/0000-0003-4078-4981,ORCID public register (IPI PAN / UW),2026-11-04
+P0242,A0146,official_page,https://radon.nauka.gov.pl/dane/profil/0BE07434C92A376ECF0CCE5A28AC88099D104F9F,RAD-on POL-on official academic register (radon.nauka.gov.pl),2026-11-04
+P0243,A0147,official_page,https://radon.nauka.gov.pl/dane/profil/B8EAAD23A53319950D2C292223982B9B4696E006,RAD-on POL-on official academic register (radon.nauka.gov.pl),2026-11-04
+P0244,A0148,official_page,https://radon.nauka.gov.pl/dane/profil/7D0052F7457D325C7DEAFD0DEEE1F72D3604DC3C,RAD-on POL-on official academic register (radon.nauka.gov.pl),2026-11-04
+P0245,A0149,official_page,https://radon.nauka.gov.pl/dane/profil/6760B5E63DB2CF790A346619D9EA4148C5AD6C75,RAD-on POL-on official academic register (radon.nauka.gov.pl),2026-11-04
+P0246,A0149,official_page,https://socjologia.uwr.edu.pl/instytut/pracownicy/pracownicy-instytutu/lukasz-moll/,UWr Institute of Sociology profile,2026-11-04
+P0247,A0150,wikipedia,https://pl.wikipedia.org/wiki/Ma%C5%82gorzata_Kowalska,Wikidata Q24428559 sitelink (plwiki),2026-11-04
+P0248,A0151,official_page,https://radon.nauka.gov.pl/dane/profil/04D197AAAB8E3E0D26B79B855D8C091549F737A2,RAD-on POL-on official academic register (radon.nauka.gov.pl),2026-11-04
+P0249,A0153,official_page,https://radon.nauka.gov.pl/dane/profil/BADD2865AB329B80BA04F81AD2D0D9C6858A58A5,RAD-on POL-on official academic register (radon.nauka.gov.pl),2026-11-04
+P0250,A0154,official_page,https://orcid.org/0000-0001-6449-1185,Wikidata Q57080794 P496 (ORCID),2026-11-04
+P0251,A0154,website,https://www.kociak.org/,Wikidata Q57080794,2026-11-04
+P0252,A0154,wikipedia,https://pl.wikipedia.org/wiki/Jerzy_Kociatkiewicz,Wikidata Q57080794 sitelink (plwiki),2026-11-04
+P0253,A0155,official_page,https://radon.nauka.gov.pl/dane/profil/5C37D08B29B4AA78209F4D00A2A08F15B55B1E9F,RAD-on POL-on official academic register (radon.nauka.gov.pl),2026-11-04
+P0254,A0156,official_page,https://radon.nauka.gov.pl/dane/profil/223595730360A1AE0D77AF9F1FF35E62970D1C8D,RAD-on POL-on official academic register (radon.nauka.gov.pl),2026-11-04
+P0255,A0157,official_page,https://radon.nauka.gov.pl/dane/profil/B3320DC21D41320432CAE7D6BB81DD017BCB55A1,RAD-on POL-on official academic register (radon.nauka.gov.pl),2026-11-04
+P0256,A0157,wikipedia,https://pl.wikipedia.org/wiki/Micha%C5%82_Apollo,Wikidata Q58011877 sitelink (plwiki),2026-11-04
+P0257,A0158,official_page,https://orcid.org/0000-0001-8574-9253,ORCID public register (Uniwersytet Śląski),2026-11-04
+P0258,A0159,official_page,https://radon.nauka.gov.pl/dane/profil/625119510BCC325D71AD7841856485B4C67F9103,RAD-on POL-on official academic register (radon.nauka.gov.pl),2026-11-04
+P0259,A0160,official_page,https://orcid.org/0000-0001-5395-9256,ORCID public register (University of Helsinki),2026-11-04
+P0260,A0161,official_page,https://radon.nauka.gov.pl/dane/profil/D46D3D1ACAC78258776A3A1104DFBAAA442B1486,RAD-on POL-on official academic register (radon.nauka.gov.pl),2026-11-04
+P0261,A0162,official_page,https://radon.nauka.gov.pl/dane/profil/0E94807257D916A343810962D5743EEC67DAEFCC,RAD-on POL-on official academic register (radon.nauka.gov.pl),2026-11-04
+P0262,A0163,official_page,https://radon.nauka.gov.pl/dane/profil/6793193A10E9B8091627E8C6C7CEAE383AE69F89,RAD-on POL-on official academic register (radon.nauka.gov.pl),2026-11-04
+P0263,A0165,facebook,https://www.facebook.com/jacekkocha,Wikidata Q11715369,2026-11-04
+P0264,A0165,official_page,https://radon.nauka.gov.pl/dane/profil/CA8036C60A1D1651B11BCFF10401035AD1626410,RAD-on POL-on official academic register (radon.nauka.gov.pl),2026-11-04
+P0265,A0165,website,https://jacekkochanowski.wordpress.com,Wikidata Q11715369,2026-11-04
+P0266,A0165,wikipedia,https://en.wikipedia.org/wiki/Jacek_Kochanowski,Wikidata Q11715369,2026-11-04
+P0267,A0166,official_page,https://radon.nauka.gov.pl/dane/profil/47AB7CA6F327D2888EA8A6D565E565C3D909DC14,RAD-on POL-on official academic register (radon.nauka.gov.pl),2026-11-04
+P0268,A0166,website,https://rafalmatera.pl/,Wikidata Q63115767,2026-11-04
+P0269,A0166,wikipedia,https://pl.wikipedia.org/wiki/Rafa%C5%82_Matera,Wikidata Q63115767 sitelink (plwiki),2026-11-04
+P0270,A0167,official_page,https://radon.nauka.gov.pl/dane/profil/B60A73FCE97322B9CC6313827AA0B18859CD954F,RAD-on POL-on official academic register (radon.nauka.gov.pl),2026-11-04
+P0271,A0167,wikipedia,https://pl.wikipedia.org/wiki/Mariusz_Soko%C5%82owicz,Wikidata Q112130923 sitelink (plwiki),2026-11-04
+P0272,A0168,official_page,https://radon.nauka.gov.pl/dane/profil/56D5B6FB96C242DDBD4A6A1163CDE636E9CAB696,RAD-on POL-on official academic register (radon.nauka.gov.pl),2026-11-04
+P0273,A0169,official_page,https://orcid.org/0000-0002-6495-8408,ORCID public register (IGF PAN),2026-11-04
+P0274,A0170,official_page,https://radon.nauka.gov.pl/dane/profil/368104C6D0B0DF3450E0B6BDEFEEAB4B56A72E07,RAD-on POL-on official academic register (radon.nauka.gov.pl),2026-11-04
+P0275,A0172,official_page,https://radon.nauka.gov.pl/dane/profil/C1354DB69ED9A01000CF6EAF1301E8401E7BC6FB,RAD-on POL-on official academic register (radon.nauka.gov.pl),2026-11-04
+P0276,A0173,official_page,https://radon.nauka.gov.pl/dane/profil/E5A5DD1CFA795451A00A782C6F4039CB2142D7CC,RAD-on POL-on official academic register (radon.nauka.gov.pl),2026-11-04
+P0277,A0174,official_page,https://radon.nauka.gov.pl/dane/profil/5C84288B8A270A7644E3DC9D71B770694220EC59,RAD-on POL-on official academic register (radon.nauka.gov.pl),2026-11-04
+P0278,A0176,official_page,https://radon.nauka.gov.pl/dane/profil/F21387EBACCBE13471279589E918E1E8C90EA914,RAD-on POL-on official academic register (radon.nauka.gov.pl),2026-11-04
+P0279,A0177,official_page,https://orcid.org/0000-0002-6145-6322,ORCID public register,2026-11-04
+P0280,A0178,official_page,https://radon.nauka.gov.pl/dane/profil/604C23255A14301095AA66C7EBD6399B4FE1567A,RAD-on POL-on official academic register (radon.nauka.gov.pl),2026-11-04
+P0281,A0179,official_page,https://radon.nauka.gov.pl/dane/profil/453A2ABE25064F126834AB7797D4E3A37800B8CE,RAD-on POL-on official academic register (radon.nauka.gov.pl),2026-11-04
+P0282,A0179,official_page,https://www.home.umk.pl/~gruszka/,UMK Toruń academic page,2026-11-04
+P0283,A0180,official_page,https://radon.nauka.gov.pl/dane/profil/000356D91EC17C1525677C8CA0D588F9487D4BCC,RAD-on POL-on official academic register (radon.nauka.gov.pl),2026-11-04
+P0284,A0181,official_page,https://radon.nauka.gov.pl/dane/profil/60240B5E068606E0C9C42D1EE7971710BBDFD13C,RAD-on POL-on official academic register (radon.nauka.gov.pl),2026-11-04
+P0285,A0182,official_page,https://radon.nauka.gov.pl/dane/profil/29D8354B9E6B3AD685FF77D41C3088A324AE95CA,RAD-on POL-on official academic register (radon.nauka.gov.pl),2026-11-04
+P0286,A0182,wikipedia,https://pl.wikipedia.org/wiki/Izabela_Mironowicz,Wikidata Q97285384 sitelink (plwiki),2026-11-04
+P0287,A0183,official_page,https://radon.nauka.gov.pl/dane/profil/7B7380D4FF201BC67786E51C18DBB3BB54137F21,RAD-on POL-on official academic register (radon.nauka.gov.pl),2026-11-04
+P0288,A0184,official_page,https://radon.nauka.gov.pl/dane/profil/FCE5AEE524282A9C6CC2AA561C31221C190462B7,RAD-on POL-on official academic register (radon.nauka.gov.pl),2026-11-04
+P0289,A0184,wikipedia,https://pl.wikipedia.org/wiki/Wojciech_%C5%9Amieja,Wikidata Q9377036 sitelink (plwiki),2026-11-04
+P0290,A0185,official_page,https://radon.nauka.gov.pl/dane/profil/F8940DC021E971BEAAF0D8993732304005614BD4,RAD-on POL-on official academic register (radon.nauka.gov.pl),2026-11-04
+P0291,A0186,official_page,https://orcid.org/0000-0001-6625-1409,ORCID public register (University of Helsinki),2026-11-04
+P0292,A0187,official_page,https://radon.nauka.gov.pl/dane/profil/DE9014AB7D6C5F1F3F7D0903B1CAD44FB7147CEF,RAD-on POL-on official academic register (radon.nauka.gov.pl),2026-11-04
+P0293,A0187,wikipedia,https://pl.wikipedia.org/wiki/Karolina_Freino,Wikidata Q11736424 sitelink (plwiki),2026-11-04
+P0294,A0188,official_page,https://radon.nauka.gov.pl/dane/profil/487A6A03085CF68E0070AF2B48E1A3D27FD167F5,RAD-on POL-on official academic register (radon.nauka.gov.pl),2026-11-04
+P0295,A0189,official_page,https://radon.nauka.gov.pl/dane/profil/C4A963C2024152AE5FDE160CD85DD1812C637681,RAD-on POL-on official academic register (radon.nauka.gov.pl),2026-11-04
+P0296,A0189,wikipedia,https://pl.wikipedia.org/wiki/Pawe%C5%82_Ta%C5%84ski,Wikidata Q16586836 sitelink (plwiki),2026-11-04
+P0297,A0190,official_page,https://orcid.org/0000-0001-8423-9198,Wikidata Q136701921 P496 (ORCID),2026-11-04
+P0298,A0191,official_page,https://radon.nauka.gov.pl/dane/profil/5E024095587BC533CC4D234C9E68D4D03E21C57B,RAD-on POL-on official academic register (radon.nauka.gov.pl),2026-11-04
+P0299,A0192,official_page,https://radon.nauka.gov.pl/dane/profil/076161A510AAB5E4A2969181B442AA9729BAD4D9,RAD-on POL-on official academic register (radon.nauka.gov.pl),2026-11-04
+P0300,A0193,official_page,https://radon.nauka.gov.pl/dane/profil/A5E6F8C1F4F7D274C185A3A125635F5BB55087C7,RAD-on POL-on official academic register (radon.nauka.gov.pl),2026-11-04
+P0301,A0193,website,https://ipsf.uek.krakow.pl/ks/pracownicy/dr-anna-gorka/,actors.csv website column,2026-11-04
+P0302,A0194,official_page,https://orcid.org/0000-0002-2970-1228,ORCID public register (Uniwersytet Wrocławski),2026-11-04
+P0303,A0195,official_page,https://orcid.org/0000-0002-9710-9189,ORCID public register,2026-11-04
+P0304,A0196,official_page,https://radon.nauka.gov.pl/dane/profil/F3375CAB10A5D1D1A909BBF6C2C02670CE84F2F6,RAD-on POL-on official academic register (radon.nauka.gov.pl),2026-11-04
+P0305,A0197,official_page,https://radon.nauka.gov.pl/dane/profil/76FE37629BB2D02A85FA4929B96E53520674B582,RAD-on POL-on official academic register (radon.nauka.gov.pl),2026-11-04
+P0306,A0198,official_page,https://radon.nauka.gov.pl/dane/profil/F5821E38E511C72B6A5B010D25DD5DD51E53E6F0,RAD-on POL-on official academic register (radon.nauka.gov.pl),2026-11-04
+P0307,A0199,official_page,https://radon.nauka.gov.pl/dane/profil/EEBC78F8F41427854452099471BEBC79338E5443,RAD-on POL-on official academic register (radon.nauka.gov.pl),2026-11-04
+P0308,A0199,wikipedia,https://en.wikipedia.org/wiki/Micha%C5%82_Bohun,Wikidata Q112550175 sitelink (enwiki),2026-11-04
+P0309,A0200,official_page,https://radon.nauka.gov.pl/dane/profil/FB1D502DC0173951AA65E1F272C528624EBE80F5,RAD-on POL-on official academic register (radon.nauka.gov.pl),2026-11-04
+P0310,A0201,official_page,https://radon.nauka.gov.pl/dane/profil/E8D5355C0D6186DD4A6A56EC0F235846789FA539,RAD-on POL-on official academic register (radon.nauka.gov.pl),2026-11-04
+P0311,A0202,official_page,https://obserwatoriumedukacji.pl/jest-juz-ksiazka-dr-borysa-binkowskiego-owoc-projektu-szkola-od-nowa/,Projekt Szkoła od Nowa publication record,2026-11-04
+P0312,A0203,official_page,https://radon.nauka.gov.pl/dane/profil/386DF3F20F5023317AA004253622F83CAF0B82C6,RAD-on POL-on official academic register (radon.nauka.gov.pl),2026-11-04
+P0313,A0204,official_page,https://radon.nauka.gov.pl/dane/profil/BC79A09B698047DC2DDF31B7F44C3DCF4821C322,RAD-on POL-on official academic register (radon.nauka.gov.pl),2026-11-04
+P0314,A0205,official_page,https://radon.nauka.gov.pl/dane/profil/FA1663842EDACF7025367C69418D1084C1143561,RAD-on POL-on official academic register (radon.nauka.gov.pl),2026-11-04
+P0315,A0206,official_page,https://radon.nauka.gov.pl/dane/profil/660932D0E893A6DDBE7CEB958CD7BE06F9930A91,RAD-on POL-on official academic register (radon.nauka.gov.pl),2026-11-04
+P0316,A0207,official_page,https://radon.nauka.gov.pl/dane/profil/D6A000576D3692BDDD1A7AD51B3B8A4EA034DCCD,RAD-on POL-on official academic register (radon.nauka.gov.pl),2026-11-04
+P0317,A0208,official_page,https://orcid.org/0009-0006-7635-013X,ORCID public register (Collegium Civitas),2026-11-04
+P0318,A0209,wikipedia,https://pl.wikipedia.org/wiki/Magdalena_Szpunar,Wikidata Q124686317 sitelink (plwiki),2026-11-04
+P0319,A0210,wikipedia,https://pl.wikipedia.org/wiki/Andrzej_de_Lazari,Wikidata Q4156220 sitelink (plwiki),2026-11-04
+P0320,A0211,official_page,https://radon.nauka.gov.pl/dane/profil/6D6292AAE962D0643E523C8C31D81C24E301C5B1,RAD-on POL-on official academic register (radon.nauka.gov.pl),2026-11-04
+P0321,A0212,official_page,https://radon.nauka.gov.pl/dane/profil/ADCC691F648EECBFEDFEF314013A84A92DB0608B,RAD-on POL-on official academic register (radon.nauka.gov.pl),2026-11-04
+P0322,A0212,wikipedia,https://pl.wikipedia.org/wiki/Julia_Kubisa,Wikidata Q117304941 sitelink (plwiki),2026-11-04
+P0323,A0213,official_page,https://radon.nauka.gov.pl/dane/profil/DAE803F782051C22A4D544126ACEA85946031802,RAD-on POL-on official academic register (radon.nauka.gov.pl),2026-11-04
+P0324,A0214,official_page,https://radon.nauka.gov.pl/dane/profil/90A2FE177D47A1719B38CAC01131B0DBE27D4370,RAD-on POL-on official academic register (radon.nauka.gov.pl),2026-11-04
+P0325,A0214,wikipedia,https://pl.wikipedia.org/wiki/Jan_Sowa,Wikidata Q11719048 sitelink (plwiki),2026-11-04
+P0326,A0215,website,https://artmuseum.pl/artysci/katarzyna-gorna,actors.csv website column,2026-11-04
+P0327,A0215,wikipedia,https://pl.wikipedia.org/wiki/Katarzyna_G%C3%B3rna,Wikidata Q11736969 sitelink (plwiki),2026-11-04
+P0328,A0216,official_page,https://radon.nauka.gov.pl/dane/profil/AB724FA9D35E33650105B6A921A1028ACB9F82B6,RAD-on POL-on official academic register (radon.nauka.gov.pl),2026-11-04
+P0329,A0216,website,https://www.kozminski.edu.pl/en/community/card/prof-gavin-rae-0,actors.csv website column,2026-11-04
+P0330,A0217,official_page,https://radon.nauka.gov.pl/dane/profil/4DD239C5DE9EEB1CECAB97DA3811301A60A7F84B,RAD-on POL-on official academic register (radon.nauka.gov.pl),2026-11-04
+P0331,A0218,official_page,https://radon.nauka.gov.pl/dane/profil/10B6DA2C734142A327B517951D063FF0FE5E0662,RAD-on POL-on official academic register (radon.nauka.gov.pl),2026-11-04
+P0332,A0218,official_page,https://www.wfins.umk.pl/wydzial/pracownicy/?id=7738140,Wikidata Q60835375 P856,2026-11-04
+P0333,A0218,wikipedia,https://pl.wikipedia.org/wiki/Ewa_Bi%C5%84czyk_(ur._1976),Wikidata Q60835375 sitelink (plwiki),2026-11-04
+P0334,A0219,official_page,https://radon.nauka.gov.pl/dane/profil/5335537D5EE593A86C32BEDF97D7EDB8E97A6120,RAD-on POL-on official academic register (radon.nauka.gov.pl),2026-11-04
+P0335,A0219,wikipedia,https://pl.wikipedia.org/wiki/Piotr_Skuba%C5%82a,Wikidata Q85132594 sitelink (plwiki),2026-11-04
+P0336,A0220,website,https://nikodemszewczyk.com/,R003 public-role manifest verification,2026-11-04
+P0337,A0221,official_page,"https://www.polskieradio.pl/8/11107/artykul/3708451,przemyslaw-wielgosz-nasz-koniec-wcale-nie-musi-byc-blisko",R003 public-role manifest verification,2026-11-04
+P0338,A0221,wikipedia,https://pl.wikipedia.org/wiki/Przemys%C5%82aw_Wielgosz,Wikidata Q11828982 sitelink (plwiki),2026-11-04
+P0339,A0222,official_page,https://oko.press/autor/filip_konopczynski,R003 public-role manifest verification,2026-11-04
+P0340,A0223,official_page,https://2022.biennalewarszawa.pl/bio/bartek-frackowiak/,R003 public-role manifest verification,2026-11-04
+P0341,A0224,official_page,https://grotowski.net/biogramy/pawel-wodzinski,R003 public-role manifest verification,2026-11-04
+P0342,A0225,official_page,https://opowiadania.org/bio/roman-kurkiewicz/,R003 public-role manifest verification,2026-11-04
+P0343,A0225,wikipedia,https://pl.wikipedia.org/wiki/Roman_Kurkiewicz,Wikidata Q11835246 sitelink (plwiki),2026-11-04
+P0344,A0226,official_page,https://nowyobywatel.pl/author/bartlomiejkozek/,R003 public-role manifest verification,2026-11-04
+P0345,A0227,official_page,https://www.efcongress.com/osoby/edwin-bendyk/,R003 public-role manifest verification,2026-11-04
+P0346,A0227,wikipedia,https://pl.wikipedia.org/wiki/Edwin_Bendyk,Wikidata Q9251330 sitelink (plwiki),2026-11-04
+P0347,A0228,official_page,https://bip.um.suwalki.pl/Menu_podmiotowe/oswiadczenie_majatkowe_s/oswiadczenie-majatkowe-wojciech-pajak-2024.html,R003 public-role manifest verification,2026-11-04
+P0348,A0229,official_page,https://galeriaarsenal.pl/wydarzenia/performans-waldemara-tatarczuka-i-aliny-kleytman/,R003 public-role manifest verification,2026-11-04
+P0349,A0229,wikipedia,https://en.wikipedia.org/wiki/Waldemar_Tatarczuk,Wikidata Q7961444 sitelink (enwiki),2026-11-04
+P0350,A0230,official_page,https://radon.nauka.gov.pl/dane/profil/BBFC4D8BD59F7D044A8FA41DFD0B1423C8EF469A,RAD-on POL-on official academic register (radon.nauka.gov.pl),2026-11-04
+P0351,A0230,official_page,https://wolnelektury.pl/katalog/autor/konrad-gliscinski/,R003 public-role manifest verification,2026-11-04
+P0352,A0231,official_page,https://udskior32.kombatanci.gov.pl/index.php/pl/urząd/zastępca-szefa-urzędu,R003 public-role manifest verification,2026-11-04
+P0353,A0232,facebook,https://www.facebook.com/maja.stasko,Wikidata Q107062020,2026-11-04
+P0354,A0232,instagram,https://www.instagram.com/majakstasko/,Wikidata Q107062020,2026-11-04
+P0355,A0232,official_page,"https://www.polskieradio.pl/13/11465/Artykul/3478636,maja-stasko-starania-o-ciaze-to-ciagle-pozbywanie-mnie-ciala",R003 public-role manifest verification,2026-11-04
+P0356,A0232,tiktok,https://www.tiktok.com/@majakstasko,Wikidata Q107062020,2026-11-04
+P0357,A0232,wikipedia,https://en.wikipedia.org/wiki/Maja_Sta%C5%9Bko,Wikidata Q107062020,2026-11-04
+P0358,A0232,x,https://x.com/majakstasko,Wikidata Q107062020,2026-11-04
+P0359,A0233,official_page,https://piotrczerski.art/bio-contact/,R003 public-role manifest verification,2026-11-04
+P0360,A0233,wikipedia,https://pl.wikipedia.org/wiki/Piotr_Czerski,Wikidata Q11817398 sitelink (plwiki),2026-11-04
+P0361,A0234,official_page,https://www.miesiecznik.znak.com.pl/autor/filip-springer/,R003 public-role manifest verification,2026-11-04
+P0362,A0234,wikipedia,https://pl.wikipedia.org/wiki/Filip_Springer,Wikidata Q9259634 sitelink (plwiki),2026-11-04
+P0363,A0235,official_page,https://ucd.academia.edu/DorotaSzelewa,R003 public-role manifest verification,2026-11-04
+P0364,A0236,official_page,https://dzikiezycie.pl/archiwum/2013/luty-2013/zielone-wiadomosci-zielone-jest-polityczne,R003 public-role manifest verification,2026-11-04
+P0365,A0237,official_page,https://civitas.edu.pl/pl/uczelnia/kalendarium/biografia-i-kariera-dziennikarza-areta-szpura,R003 public-role manifest verification,2026-11-04
+P0366,A0237,wikipedia,https://pl.wikipedia.org/wiki/Areta_Szpura,Wikidata Q97370644 sitelink (plwiki),2026-11-04
+P0367,A0238,official_page,"https://www.polskieradio.pl/Ludzie/3286457,Adriana-Prodeus",R003 public-role manifest verification,2026-11-04
+P0368,A0239,official_page,https://konfederacjapracy.org.pl/kontakt/,R003 public-role manifest verification,2026-11-04
+P0369,A0240,official_page,https://nowyobywatel.pl/author/jaroslaw-niemiec/,R003 public-role manifest verification,2026-11-04
+P0370,A0240,wikipedia,https://pl.wikipedia.org/wiki/Jaros%C5%82aw_Niemiec,Wikidata Q121319468 sitelink (plwiki),2026-11-04
+P0371,A0241,official_page,https://zdrowarzeka.pl/author/bednarek/,R003 public-role manifest verification,2026-11-04
+P0372,A0242,official_page,https://www.czaplinek.pl/aktualnosc/czaplinek-oczami-rzecznika-rzek-rozmowa-z-arturem-furdyna-z-cyklu-czaplinek-przystan-na,R003 public-role manifest verification,2026-11-04
+P0373,A0243,official_page,https://radon.nauka.gov.pl/dane/profil/8957A99C951BD2536CEBD9BEBECD95DFC3DB2D47,RAD-on POL-on official academic register (radon.nauka.gov.pl),2026-11-04
+P0374,A0243,official_page,https://zielonasiec.pl/nasz-zespol/,R003 public-role manifest verification,2026-11-04
+P0375,A0244,official_page,https://www.ozzip.pl/informacje/itemlist/tag/region%20wschodni,R003 public-role manifest verification,2026-11-04
+P0376,A0245,official_page,https://www.climateleadership.pl/pl/eksperci/virginie-little,R003 public-role manifest verification,2026-11-04
+P0377,A0246,official_page,https://marginesy.com.pl/autor/607,R003 public-role manifest verification,2026-11-04
+P0378,A0247,official_page,https://agriculture.ec.europa.eu/system/files/2020-12/bio-speakers-agri-outlook-conf-2020_en_0.pdf,R003 public-role manifest verification,2026-11-04
+P0379,A0248,official_page,https://nowyobywatel.pl/2013/07/07/wyrzucony-za-uczciwosc/,R003 public-role manifest verification,2026-11-04
+P0380,A0249,official_page,https://dziennikliteracki.pl/osoba/magda-lipska/,R003 public-role manifest verification,2026-11-04
+P0381,A0250,official_page,https://culture.pl/pl/tworca/ada-piekarska,R003 public-role manifest verification,2026-11-04
+P0382,A0251,official_page,https://www.bip.krakow.pl/?dok_id=191719,R003 public-role manifest verification,2026-11-04
+P0383,A0252,official_page,https://www.deloitte.com/pl/pl/about/people/profiles.msadkowska%2B4d4dc034.html,R003 public-role manifest verification,2026-11-04
+P0384,A0252,wikipedia,https://en.wikipedia.org/wiki/Monika_Sadkowska,Wikidata Q111144381 sitelink (enwiki),2026-11-04
+P0385,A0253,official_page,https://noizz.pl/wywiady/prawa-lokatorskie-tvp-i-transplciowosc-wywiad-z-zenobia-zaczek/spfc2dv,R003 public-role manifest verification,2026-11-04
+P0386,A0253,wikipedia,https://en.wikipedia.org/wiki/Zenobia_%C5%BBaczek,Wikidata Q56650879 sitelink (enwiki),2026-11-04
+P0387,A0254,official_page,https://www.researchgate.net/publication/354951049_SPOLECZNA_INSPEKCJA_PRACY,R003 public-role manifest verification,2026-11-04
+P0388,A0255,official_page,https://szkola-doktorska.uken.krakow.pl/doktorant/barbara-nawrocka/,R003 public-role manifest verification,2026-11-04
+P0389,A0256,official_page,https://www.lse.ac.uk/granthaminstitute/profile/katarzyna-szwarc/,R003 public-role manifest verification,2026-11-04
+P0390,A0257,official_page,https://trafo.art/artist-talk-jonathan-meese-michal-jankowskikoncert-i-dj-set-hubert-kostkiewicz/,R003 public-role manifest verification,2026-11-04
+P0391,A0258,official_page,https://collections.fes.de/publikationen/ident/fes/15922,R003 public-role manifest verification,2026-11-04
+P0392,A0258,official_page,https://radon.nauka.gov.pl/dane/profil/DB7BD2B7340AB86A615483F224ECEF752A220443,RAD-on POL-on official academic register (radon.nauka.gov.pl),2026-11-04
+P0393,A0259,official_page,https://ostroznie-dziecko-2021.fdds.pl/,R003 public-role manifest verification,2026-11-04
+P0394,A0260,official_page,https://magazynszum.pl/godzina-szumu-85-agata-cieslak-iga-maria-szczepanska/,R003 public-role manifest verification,2026-11-04
+P0395,A0260,official_page,https://www.agata-cieslak.com/,Wikidata Q106646441 P856,2026-11-04
+P0396,A0261,official_page,https://archiwum.u-jazdowski.pl/index.php?action=aktualnosci&id=989&lang=&s2=1,R003 public-role manifest verification,2026-11-04
+P0397,A0262,official_page,https://www.gov.pl/web/konferencja-ncbr-horyzont-innowacji/martyna-slowik,R003 public-role manifest verification,2026-11-04
+P0398,A0263,official_page,https://radon.nauka.gov.pl/dane/profil/A8233925E501C6DA38A1E53C5CB4E449FC753DF7,RAD-on POL-on official academic register (radon.nauka.gov.pl),2026-11-04
+P0399,A0263,official_page,https://www.postkeynesian.net/member/gracjan-robert-bachurewicz/,R004 identity ledger verification,2026-11-04
+P0400,A0264,official_page,https://kulturoznawstwo.uni.wroc.pl/Instytut-Kulturoznawstwa/Zespol/Pracownicy/dr-Franciszek-Chwalczyk,R004 identity ledger verification,2026-11-04
+P0401,A0264,official_page,https://radon.nauka.gov.pl/dane/profil/78755BECBD02707E1A14D0DFAEBF91F3A36DA9C4,RAD-on POL-on official academic register (radon.nauka.gov.pl),2026-11-04
+P0402,A0265,official_page,https://radon.nauka.gov.pl/dane/profil/1BBBA6DC1ECDEF489147CC85B08E5A9D81296C42,RAD-on POL-on official academic register (radon.nauka.gov.pl),2026-11-04
+P0403,A0265,official_page,https://www.sh.se/english/sodertorn-university/contact/researchers/anna-ratecka,R004 identity ledger verification,2026-11-04
+P0404,A0266,official_page,https://radon.nauka.gov.pl/dane/profil/07439CA2320E4CE16375A4DB7AA6CC28A52ECF7C,RAD-on POL-on official academic register (radon.nauka.gov.pl),2026-11-04
+P0405,A0266,official_page,https://www.uw.edu.pl/stypendia-ministra-dla-wybitnych-mlodych-naukowcow-2020/,R004 identity ledger verification,2026-11-04
+P0406,A0267,official_page,https://radon.nauka.gov.pl/dane/profil/80B8B3997387FA80456A30D0D1CF2D84C0479D82,RAD-on POL-on official academic register (radon.nauka.gov.pl),2026-11-04
+P0407,A0267,official_page,"https://www.umcs.pl/pl/addres-book-employee,26530,pl.html",R004 identity ledger verification,2026-11-04
+P0408,A0268,official_page,https://ibl.academia.edu/PiotrFortuna,R004 identity ledger verification,2026-11-04
+P0409,A0269,official_page,https://wa.pwr.edu.pl/studenci/studia-doktoranckie/obrony-rozpraw-doktorskich/robert-skrzypczynski-109.html,R004 identity ledger verification,2026-11-04
+P0410,A0270,official_page,https://ikp.uw.edu.pl/bio/dr-kornelia-sobczak/,R004 identity ledger verification,2026-11-04
+P0411,A0271,official_page,https://philpeople.org/profiles/natalia-anna-michna/publications,R004 identity ledger verification,2026-11-04
+P0412,A0271,official_page,https://radon.nauka.gov.pl/dane/profil/049CC5AC144F9952D3E4AD60F266DE07CE02EDFA,RAD-on POL-on official academic register (radon.nauka.gov.pl),2026-11-04
+P0413,A0272,official_page,https://radon.nauka.gov.pl/dane/profil/8305ECA1D3E8A3B7AE77A04289B93673437E6AD5,RAD-on POL-on official academic register (radon.nauka.gov.pl),2026-11-04
+P0414,A0272,official_page,https://ue.poznan.pl/uniwersytet/instytuty-i-katedry/instytut-ekonomiczno-spoleczny/katedra-socjologii-i-etyki-gospodarczej/,R004 identity ledger verification,2026-11-04
+P0415,A0273,official_page,https://climate-change-emotions.org/en/michalina-marczak-msc/,R004 identity ledger verification,2026-11-04
+P0416,A0274,official_page,https://wuwr.pl/prt/article/download/17497/15764/25175,R004 identity ledger verification,2026-11-04
+P0417,A0275,official_page,https://psychologia.wfch.uksw.edu.pl/stupak,R004 identity ledger verification,2026-11-04
+P0418,A0275,official_page,https://radon.nauka.gov.pl/dane/profil/C1D5F1B9604DB6C0471CDA3E6471E69B0F766DE2,RAD-on POL-on official academic register (radon.nauka.gov.pl),2026-11-04
+P0419,A0276,official_page,https://kulturoznawstwo.amu.edu.pl/pracownicy-instytutu-kulturoznawstwa/projekty-badawcze/,R004 identity ledger verification,2026-11-04
+P0420,A0277,official_page,https://ikp.uw.edu.pl/bio/mgr-marcin-golab/,R004 identity ledger verification,2026-11-04
+P0421,A0277,official_page,https://radon.nauka.gov.pl/dane/profil/23FE3585F1FF73794C5671C78F3B7D7B8810B6AF,RAD-on POL-on official academic register (radon.nauka.gov.pl),2026-11-04
+P0422,A0278,official_page,https://www.researchgate.net/profile/Elzbieta-Filipow,R004 identity ledger verification,2026-11-04
+P0423,A0279,official_page,https://didaskalia.pl/sites/default/files/content/attachments/didaskalia_167.pdf,R004 identity ledger verification,2026-11-04
+P0424,A0279,official_page,https://radon.nauka.gov.pl/dane/profil/1FB685B95489AA07DB396CE0FAD9A7E931B43DC8,RAD-on POL-on official academic register (radon.nauka.gov.pl),2026-11-04
+P0425,A0280,official_page,https://hat.web.amu.edu.pl/bio/dr-milosz-markiewicz/,R004 identity ledger verification,2026-11-04
+P0426,A0280,official_page,https://radon.nauka.gov.pl/dane/profil/5476C80E09E7A78FD1744A529B70511AF8F5191E,RAD-on POL-on official academic register (radon.nauka.gov.pl),2026-11-04
+P0427,A0281,official_page,https://pl.caa-international.org/lukasz-miszk/,R004 identity ledger verification,2026-11-04
+P0428,A0281,official_page,https://radon.nauka.gov.pl/dane/profil/767FFFA466CE493967B021D24DA32CBBDA0CCBD4,RAD-on POL-on official academic register (radon.nauka.gov.pl),2026-11-04
+P0429,A0282,official_page,https://www.sylff.org/fellows/marcin-wrobel/,R004 identity ledger verification,2026-11-04
+P0430,A0283,official_page,https://iszd.uken.krakow.pl/pracownicy-up/bobrowska/,R004 identity ledger verification,2026-11-04
+P0431,A0283,official_page,https://radon.nauka.gov.pl/dane/profil/130C87FB19175AE80A74F723B98D31828C4940B0,RAD-on POL-on official academic register (radon.nauka.gov.pl),2026-11-04
+P0432,A0284,official_page,"https://www.gazetaprawna.pl/wiadomosci/artykuly/1101369,polska-fundacja-przekazala-srodki-do-uzdatniania-wody-w-donbasie.html",R004 identity ledger verification,2026-11-04
+P0433,A0285,official_page,https://radon.nauka.gov.pl/dane/profil/70CF46A2BCFFC231744275AAC15537DD0E228FD5,RAD-on POL-on official academic register (radon.nauka.gov.pl),2026-11-04
+P0434,A0285,official_page,https://www.ibok.org.pl/nasi-czlonkowie/bogna-halska-pionka/,R004 identity ledger verification,2026-11-04
+P0435,A0286,official_page,https://www.ibok.org.pl/2023/03/webinar-planowanie-badan/,R004 identity ledger verification,2026-11-04
+P0436,A0287,official_page,https://fundacjagloballab.wordpress.com/nasz-zespol/,R004 identity ledger verification,2026-11-04
+P0437,A0288,official_page,https://kulturaliberalna.pl/2011/03/08/adamczyk-moja-ulica-murem-podzielona/,R004 identity ledger verification,2026-11-04
+P0438,A0289,official_page,https://radon.nauka.gov.pl/dane/profil/BC6B8BC1022A9CCA71227D9B21E121A9E4A16983,RAD-on POL-on official academic register (radon.nauka.gov.pl),2026-11-04
+P0439,A0289,official_page,https://sd.ujk.edu.pl/o-szkole/wladze-sd-2020-2024/,R004 identity ledger verification,2026-11-04
+P0440,A0290,official_page,https://fu-berlin.academia.edu/SabinaFio%C5%82na,R004 identity ledger verification,2026-11-04
+P0441,A0291,official_page,https://pressto.amu.edu.pl/index.php/prt/article/view/5396,R004 identity ledger verification,2026-11-04
+P0442,A0292,official_page,https://psych.uw.edu.pl/dla-studentow/praktyki-zawodowe/dziurla-rafal/,R004 identity ledger verification,2026-11-04
+P0443,A0293,official_page,https://radon.nauka.gov.pl/dane/profil/E8089C0A302AF22AABBF876319970BF0BB2C7A1B,RAD-on POL-on official academic register (radon.nauka.gov.pl),2026-11-04
+P0444,A0293,website,https://cenea.org.pl/pl/kadra/michal-myck/,actors.csv website column,2026-11-04
+P0445,A0294,official_page,https://radon.nauka.gov.pl/dane/profil/2F4C72BDE754F8E6E001BF02289834883206D154,RAD-on POL-on official academic register (radon.nauka.gov.pl),2026-11-04
+P0446,A0294,website,https://ekonomiapolityczna.wne.uw.edu.pl/pl/pracownicy/mbrzezinski,actors.csv website column,2026-11-04
+P0447,A0294,wikipedia,https://pl.wikipedia.org/wiki/Micha%C5%82_Brzezi%C5%84ski_(ekonomista),Wikidata Q87016652 sitelink (plwiki),2026-11-04
+P0448,A0295,website,https://marekignaszak.github.io/,actors.csv website column,2026-11-04
