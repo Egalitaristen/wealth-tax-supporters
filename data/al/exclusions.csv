@@ -1,3 +1,5 @@
 exclusion_id,name,reason,detail,source_url,run_id
 X0001,ALTAX temporary super tax article,out_of_definition,Temporary super tax on real estate and dividends proposed by a tax firm; not a net wealth tax,https://altax.al/en/capital-taxation-or-super-tax-of-wealth-of-rich-albanians-in-the-time-of-economic-polarization/,R001
 X0002,Lëvizja Bashkë progressive income tax (up to 35%),out_of_definition,"Programme proposes a sliding income tax scale; income tax, not wealth",https://www.reporter.al/2025/04/02/levizja-bashke-e-majta-e-re-qe-po-krijon-pritshmeri-dhe-antagonizem/,R001
+X0003,Lëvizja Bashkë manifesto: progressive taxation,insufficient_evidence,Manifesto says those who own more wealth should pay more than the propertyless and small owners; no wealth tax named,https://levizjabashke.al/manifesti/,R002
+X0004,ALTAX article on taxing passive wealth accumulation,out_of_definition,Argues a classic net wealth tax is premature and prefers targeted taxes on passive wealth and luxury assets,https://altax.al/si-mund-te-tatohet-me-drejt-akumulimi-i-madh-pasiv-i-pasurise-ne-shqiperi-pa-demtuar-kapitalin-produktiv-dhe-investimin/,R002

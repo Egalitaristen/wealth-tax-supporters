@@ -1,2 +1,0 @@
-run_id,date,assistant,focus,targets,queries_run,sources_opened,candidates_seen,new_actors,new_evidence,grade_upgrades,saturation,notes_next
-R001,2026-11-04,Claude Sonnet 5.5,Kosovo first pass,"National parties (Vetevendosje, LDK, PDK, AAK), economists, unions; geography",7,,,0,0,,"thin: few finds, searches mostly return other taxes","Read the VV, LDK, PDK, AAK programmes and Assembly records directly; check GAP Institute, Riinvest, INDEP, Fiscal Council and BSPK sites; load the districts and official municipality codes."

@@ -13,7 +13,7 @@
 tatim mbi pasurinë, taksë mbi pasurinë, taksimi i pasurisë, tatim progresiv (usually income tax), taksa e pasurisë (= immovable property tax in Albanian law: excluded).
 
 ## 4. Result
-One party at grade C. The 177-page Bashkë programme, PS/PD, unions (BSPSH, KSSH) and economists were searched without a hit; sites were not exhaustively read. The Kuvendi publishes members and parties, but no adapter exists in seats.py, so no Seats tab was built.
+One party at grade C and one economist (Majlind Lazimi, 2020 op-ed: 1% on net wealth of EUR 500,000-1m, 2% above). Bashkë's manifesto says only that those who own more wealth should pay more (exclusion). The 177-page Bashkë programme, PS/PD, unions (BSPSH, KSSH) and economists were searched without a hit; sites were not exhaustively read. parlament.al is a JavaScript app that returns no member list to scripts and seats.py has no adapter, so no Seats tab was built.
 
 ## 10. Plan for the next runs
 See `runs.csv` notes_next and `leads.csv`.

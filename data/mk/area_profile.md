@@ -13,7 +13,7 @@
 данок на богатство, данок на луксуз (богатство), данок на имот (property tax: excluded), прогресивно оданочување (income tax: excluded), солидарен данок (windfall: excluded).
 
 ## 4. Result
-Two parties and one politician; no bill, union or economist support found. levica.mk refuses scripts and was not bypassed, so the programme text was not read. No Seats tab: sobranie.mk offers an HTML member page but no adapter exists in seats.py and no sitting-member check was done for the one politician.
+Two parties and one politician (round 2 added Levica's 2020 election programme, p. 14: single progressive net-wealth tax, five bands from 0% to 1%, read in the party's own PDF); no bill, union or economist support found. levica.mk refuses scripts and was not bypassed, so the programme text was not read. No Seats tab: sobranie.mk's member and group pages are an Angular app that returns no list to scripts, seats.py has no adapter, and no sitting-member check was done for the one politician.
 
 ## 10. Plan for the next runs
 See `runs.csv` notes_next and `leads.csv`.
