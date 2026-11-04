@@ -1,1 +1,8 @@
 seat_id,body_id,party,seats,colour,order
+S0001,B0001,Your Macedonia (VMRO-DPMNE coalition),58,9b1c1c,1
+S0002,B0001,VLEN,10,1f6fb4,2
+S0003,B0001,ZNAM,5,c9a227,3
+S0004,B0001,For European Future (SDSM coalition),18,e4002b,4
+S0005,B0001,European Front (DUI coalition),11,2e8b57,5
+S0006,B0001,Levica,6,8b1a2b,6
+S0007,B0001,MPs outside parliamentary groups,12,bdbdbd,7

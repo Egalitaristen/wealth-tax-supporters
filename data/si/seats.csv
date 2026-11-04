@@ -1,1 +1,9 @@
 seat_id,body_id,party,seats,colour,order
+S0001,B0001,Freedom Movement,29,5fb946,1
+S0002,B0001,Social Democrats,6,e4002b,2
+S0003,B0001,Levica,5,8b1a2b,3
+S0004,B0001,Democrats (Logar),6,7a4cc2,4
+S0005,B0001,"NSi, SLS and Fokus",9,1f6fb4,5
+S0006,B0001,Resni.ca,5,6b7280,6
+S0007,B0001,Slovenian Democratic Party (SDS),28,f5a800,7
+S0008,B0001,Italian and Hungarian minorities,2,a3a3a3,8
