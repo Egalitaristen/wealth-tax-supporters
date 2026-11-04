@@ -1,0 +1,295 @@
+geo_unit_id,name,level,unit_type,parent_id,website,sweep_status,swept_run,swept_date,queries_run,hits,notes,code
+G0001,Bulgaria,national,country,,https://www.government.bg,in_progress,R001,2026-11-04,,,National seed pass only; no regional or local sweep.,BG
+G0002,Видин,region,oblast,G0001,,pending,,,,,Eurostat GISCO NUTS 2024 level 3. Latin: Vidin,BG311
+G0003,Монтана,region,oblast,G0001,,pending,,,,,Eurostat GISCO NUTS 2024 level 3. Latin: Montana,BG312
+G0004,Враца,region,oblast,G0001,,pending,,,,,Eurostat GISCO NUTS 2024 level 3. Latin: Vratsa,BG313
+G0005,Плевен,region,oblast,G0001,,pending,,,,,Eurostat GISCO NUTS 2024 level 3. Latin: Pleven,BG314
+G0006,Ловеч,region,oblast,G0001,,pending,,,,,Eurostat GISCO NUTS 2024 level 3. Latin: Lovech,BG315
+G0007,Велико Търново,region,oblast,G0001,,pending,,,,,Eurostat GISCO NUTS 2024 level 3. Latin: Veliko Tarnovo,BG321
+G0008,Габрово,region,oblast,G0001,,pending,,,,,Eurostat GISCO NUTS 2024 level 3. Latin: Gabrovo,BG322
+G0009,Русе,region,oblast,G0001,,pending,,,,,Eurostat GISCO NUTS 2024 level 3. Latin: Ruse,BG323
+G0010,Разград,region,oblast,G0001,,pending,,,,,Eurostat GISCO NUTS 2024 level 3. Latin: Razgrad,BG324
+G0011,Силистра,region,oblast,G0001,,pending,,,,,Eurostat GISCO NUTS 2024 level 3. Latin: Silistra,BG325
+G0012,Варна,region,oblast,G0001,,pending,,,,,Eurostat GISCO NUTS 2024 level 3. Latin: Varna,BG331
+G0013,Добрич,region,oblast,G0001,,pending,,,,,Eurostat GISCO NUTS 2024 level 3. Latin: Dobrich,BG332
+G0014,Шумен,region,oblast,G0001,,pending,,,,,Eurostat GISCO NUTS 2024 level 3. Latin: Shumen,BG333
+G0015,Търговище,region,oblast,G0001,,pending,,,,,Eurostat GISCO NUTS 2024 level 3. Latin: Targovishte,BG334
+G0016,Бургас,region,oblast,G0001,,pending,,,,,Eurostat GISCO NUTS 2024 level 3. Latin: Burgas,BG341
+G0017,Сливен,region,oblast,G0001,,pending,,,,,Eurostat GISCO NUTS 2024 level 3. Latin: Sliven,BG342
+G0018,Ямбол,region,oblast,G0001,,pending,,,,,Eurostat GISCO NUTS 2024 level 3. Latin: Yambol,BG343
+G0019,Стара Загора,region,oblast,G0001,,pending,,,,,Eurostat GISCO NUTS 2024 level 3. Latin: Stara Zagora,BG344
+G0020,София (столица),region,oblast,G0001,,pending,,,,,Eurostat GISCO NUTS 2024 level 3. Latin: Sofia (stolitsa),BG411
+G0021,София,region,oblast,G0001,,pending,,,,,Eurostat GISCO NUTS 2024 level 3. Latin: Sofia,BG412
+G0022,Благоевград,region,oblast,G0001,,pending,,,,,Eurostat GISCO NUTS 2024 level 3. Latin: Blagoevgrad,BG413
+G0023,Перник,region,oblast,G0001,,pending,,,,,Eurostat GISCO NUTS 2024 level 3. Latin: Pernik,BG414
+G0024,Кюстендил,region,oblast,G0001,,pending,,,,,Eurostat GISCO NUTS 2024 level 3. Latin: Kyustendil,BG415
+G0025,Пловдив,region,oblast,G0001,,pending,,,,,Eurostat GISCO NUTS 2024 level 3. Latin: Plovdiv,BG421
+G0026,Хасково,region,oblast,G0001,,pending,,,,,Eurostat GISCO NUTS 2024 level 3. Latin: Haskovo,BG422
+G0027,Пазарджик,region,oblast,G0001,,pending,,,,,Eurostat GISCO NUTS 2024 level 3. Latin: Pazardzhik,BG423
+G0028,Смолян,region,oblast,G0001,,pending,,,,,Eurostat GISCO NUTS 2024 level 3. Latin: Smolyan,BG424
+G0029,Кърджали,region,oblast,G0001,,pending,,,,,Eurostat GISCO NUTS 2024 level 3. Latin: Kardzhali,BG425
+G0030,Белоградчик,council,municipality,G0002,,pending,,,,,,VID01
+G0031,Бойница,council,municipality,G0002,,pending,,,,,,VID03
+G0032,Брегово,council,municipality,G0002,,pending,,,,,,VID06
+G0033,Видин,council,municipality,G0002,,pending,,,,,,VID09
+G0034,Грамада,council,municipality,G0002,,pending,,,,,,VID15
+G0035,Димово,council,municipality,G0002,,pending,,,,,,VID16
+G0036,Кула,council,municipality,G0002,,pending,,,,,,VID22
+G0037,Макреш,council,municipality,G0002,,pending,,,,,,VID25
+G0038,Ново село,council,municipality,G0002,,pending,,,,,,VID30
+G0039,Ружинци,council,municipality,G0002,,pending,,,,,,VID33
+G0040,Чупрене,council,municipality,G0002,,pending,,,,,,VID37
+G0041,Берковица,council,municipality,G0003,,pending,,,,,,MON02
+G0042,Бойчиновци,council,municipality,G0003,,pending,,,,,,MON04
+G0043,Брусарци,council,municipality,G0003,,pending,,,,,,MON07
+G0044,Вълчедръм,council,municipality,G0003,,pending,,,,,,MON11
+G0045,Вършец,council,municipality,G0003,,pending,,,,,,MON12
+G0046,Георги Дамяново,council,municipality,G0003,,pending,,,,,,MON14
+G0047,Лом,council,municipality,G0003,,pending,,,,,,MON24
+G0048,Медковец,council,municipality,G0003,,pending,,,,,,MON26
+G0049,Монтана,council,municipality,G0003,,pending,,,,,,MON29
+G0050,Чипровци,council,municipality,G0003,,pending,,,,,,MON36
+G0051,Якимово,council,municipality,G0003,,pending,,,,,,MON38
+G0052,Борован,council,municipality,G0004,,pending,,,,,,VRC05
+G0053,Бяла Слатина,council,municipality,G0004,,pending,,,,,,VRC08
+G0054,Враца,council,municipality,G0004,,pending,,,,,,VRC10
+G0055,Козлодуй,council,municipality,G0004,,pending,,,,,,VRC20
+G0056,Криводол,council,municipality,G0004,,pending,,,,,,VRC21
+G0057,Мездра,council,municipality,G0004,,pending,,,,,,VRC27
+G0058,Мизия,council,municipality,G0004,,pending,,,,,,VRC28
+G0059,Оряхово,council,municipality,G0004,,pending,,,,,,VRC31
+G0060,Роман,council,municipality,G0004,,pending,,,,,,VRC32
+G0061,Хайредин,council,municipality,G0004,,pending,,,,,,VRC35
+G0062,Белене,council,municipality,G0005,,pending,,,,,,PVN03
+G0063,Гулянци,council,municipality,G0005,,pending,,,,,,PVN08
+G0064,Долна Митрополия,council,municipality,G0005,,pending,,,,,,PVN10
+G0065,Долни Дъбник,council,municipality,G0005,,pending,,,,,,PVN11
+G0066,Левски,council,municipality,G0005,,pending,,,,,,PVN16
+G0067,Никопол,council,municipality,G0005,,pending,,,,,,PVN21
+G0068,Искър,council,municipality,G0005,,pending,,,,,,PVN23
+G0069,Плевен,council,municipality,G0005,,pending,,,,,,PVN24
+G0070,Пордим,council,municipality,G0005,,pending,,,,,,PVN27
+G0071,Червен бряг,council,municipality,G0005,,pending,,,,,,PVN37
+G0072,Кнежа,council,municipality,G0005,,pending,,,,,,PVN39
+G0073,Априлци,council,municipality,G0006,,pending,,,,,,LOV02
+G0074,Летница,council,municipality,G0006,,pending,,,,,,LOV17
+G0075,Ловеч,council,municipality,G0006,,pending,,,,,,LOV18
+G0076,Луковит,council,municipality,G0006,,pending,,,,,,LOV19
+G0077,Тетевен,council,municipality,G0006,,pending,,,,,,LOV33
+G0078,Троян,council,municipality,G0006,,pending,,,,,,LOV34
+G0079,Угърчин,council,municipality,G0006,,pending,,,,,,LOV36
+G0080,Ябланица,council,municipality,G0006,,pending,,,,,,LOV38
+G0081,Велико Търново,council,municipality,G0007,,pending,,,,,,VTR04
+G0082,Горна Оряховица,council,municipality,G0007,,pending,,,,,,VTR06
+G0083,Елена,council,municipality,G0007,,pending,,,,,,VTR13
+G0084,Златарица,council,municipality,G0007,,pending,,,,,,VTR14
+G0085,Лясковец,council,municipality,G0007,,pending,,,,,,VTR20
+G0086,Павликени,council,municipality,G0007,,pending,,,,,,VTR22
+G0087,Полски Тръмбеш,council,municipality,G0007,,pending,,,,,,VTR26
+G0088,Свищов,council,municipality,G0007,,pending,,,,,,VTR28
+G0089,Стражица,council,municipality,G0007,,pending,,,,,,VTR31
+G0090,Сухиндол,council,municipality,G0007,,pending,,,,,,VTR32
+G0091,Габрово,council,municipality,G0008,,pending,,,,,,GAB05
+G0092,Дряново,council,municipality,G0008,,pending,,,,,,GAB12
+G0093,Севлиево,council,municipality,G0008,,pending,,,,,,GAB29
+G0094,Трявна,council,municipality,G0008,,pending,,,,,,GAB35
+G0095,Борово,council,municipality,G0009,,pending,,,,,,RSE03
+G0096,Бяла,council,municipality,G0009,,pending,,,,,,RSE04
+G0097,Ветово,council,municipality,G0009,,pending,,,,,,RSE05
+G0098,Две могили,council,municipality,G0009,,pending,,,,,,RSE08
+G0099,Иваново,council,municipality,G0009,,pending,,,,,,RSE13
+G0100,Русе,council,municipality,G0009,,pending,,,,,,RSE27
+G0101,Сливо поле,council,municipality,G0009,,pending,,,,,,RSE33
+G0102,Ценово,council,municipality,G0009,,pending,,,,,,RSE37
+G0103,Завет,council,municipality,G0010,,pending,,,,,,RAZ11
+G0104,Исперих,council,municipality,G0010,,pending,,,,,,RAZ14
+G0105,Кубрат,council,municipality,G0010,,pending,,,,,,RAZ16
+G0106,Лозница,council,municipality,G0010,,pending,,,,,,RAZ17
+G0107,Разград,council,municipality,G0010,,pending,,,,,,RAZ26
+G0108,Самуил,council,municipality,G0010,,pending,,,,,,RAZ29
+G0109,Цар Калоян,council,municipality,G0010,,pending,,,,,,RAZ36
+G0110,Алфатар,council,municipality,G0011,,pending,,,,,,SLS01
+G0111,Главиница,council,municipality,G0011,,pending,,,,,,SLS07
+G0112,Дулово,council,municipality,G0011,,pending,,,,,,SLS10
+G0113,Кайнарджа,council,municipality,G0011,,pending,,,,,,SLS15
+G0114,Силистра,council,municipality,G0011,,pending,,,,,,SLS31
+G0115,Ситово,council,municipality,G0011,,pending,,,,,,SLS32
+G0116,Тутракан,council,municipality,G0011,,pending,,,,,,SLS34
+G0117,Аврен,council,municipality,G0012,,pending,,,,,,VAR01
+G0118,Аксаково,council,municipality,G0012,,pending,,,,,,VAR02
+G0119,Белослав,council,municipality,G0012,,pending,,,,,,VAR04
+G0120,Бяла,council,municipality,G0012,,pending,,,,,,VAR05
+G0121,Варна,council,municipality,G0012,,pending,,,,,,VAR06
+G0122,Ветрино,council,municipality,G0012,,pending,,,,,,VAR08
+G0123,Вълчи дол,council,municipality,G0012,,pending,,,,,,VAR09
+G0124,Долни чифлик,council,municipality,G0012,,pending,,,,,,VAR13
+G0125,Девня,council,municipality,G0012,,pending,,,,,,VAR14
+G0126,Дългопол,council,municipality,G0012,,pending,,,,,,VAR16
+G0127,Провадия,council,municipality,G0012,,pending,,,,,,VAR24
+G0128,Суворово,council,municipality,G0012,,pending,,,,,,VAR26
+G0129,Балчик,council,municipality,G0013,,pending,,,,,,DOB03
+G0130,Генерал Тошево,council,municipality,G0013,,pending,,,,,,DOB12
+G0131,Добрич-селска,council,municipality,G0013,,pending,,,,,,DOB15
+G0132,Каварна,council,municipality,G0013,,pending,,,,,,DOB17
+G0133,Крушари,council,municipality,G0013,,pending,,,,,,DOB20
+G0134,Тервел,council,municipality,G0013,,pending,,,,,,DOB27
+G0135,Добрич,council,municipality,G0013,,pending,,,,,,DOB28
+G0136,Шабла,council,municipality,G0013,,pending,,,,,,DOB29
+G0137,Венец,council,municipality,G0014,,pending,,,,,,SHU07
+G0138,Върбица,council,municipality,G0014,,pending,,,,,,SHU10
+G0139,Хитрино,council,municipality,G0014,,pending,,,,,,SHU11
+G0140,Каолиново,council,municipality,G0014,,pending,,,,,,SHU18
+G0141,Каспичан,council,municipality,G0014,,pending,,,,,,SHU19
+G0142,Никола Козлево,council,municipality,G0014,,pending,,,,,,SHU21
+G0143,Нови пазар,council,municipality,G0014,,pending,,,,,,SHU22
+G0144,Велики Преслав,council,municipality,G0014,,pending,,,,,,SHU23
+G0145,Смядово,council,municipality,G0014,,pending,,,,,,SHU25
+G0146,Шумен,council,municipality,G0014,,pending,,,,,,SHU30
+G0147,Антоново,council,municipality,G0015,,pending,,,,,,TGV02
+G0148,Омуртаг,council,municipality,G0015,,pending,,,,,,TGV22
+G0149,Опака,council,municipality,G0015,,pending,,,,,,TGV23
+G0150,Попово,council,municipality,G0015,,pending,,,,,,TGV24
+G0151,Търговище,council,municipality,G0015,,pending,,,,,,TGV35
+G0152,Айтос,council,municipality,G0016,,pending,,,,,,BGS01
+G0153,Бургас,council,municipality,G0016,,pending,,,,,,BGS04
+G0154,Средец,council,municipality,G0016,,pending,,,,,,BGS06
+G0155,Камено,council,municipality,G0016,,pending,,,,,,BGS08
+G0156,Карнобат,council,municipality,G0016,,pending,,,,,,BGS09
+G0157,Малко Търново,council,municipality,G0016,,pending,,,,,,BGS12
+G0158,Царево,council,municipality,G0016,,pending,,,,,,BGS13
+G0159,Несебър,council,municipality,G0016,,pending,,,,,,BGS15
+G0160,Поморие,council,municipality,G0016,,pending,,,,,,BGS17
+G0161,Руен,council,municipality,G0016,,pending,,,,,,BGS18
+G0162,Созопол,council,municipality,G0016,,pending,,,,,,BGS21
+G0163,Сунгурларе,council,municipality,G0016,,pending,,,,,,BGS23
+G0164,Приморско,council,municipality,G0016,,pending,,,,,,BGS27
+G0165,Котел,council,municipality,G0017,,pending,,,,,,SLV11
+G0166,Нова Загора,council,municipality,G0017,,pending,,,,,,SLV16
+G0167,Сливен,council,municipality,G0017,,pending,,,,,,SLV20
+G0168,Твърдица,council,municipality,G0017,,pending,,,,,,SLV24
+G0169,Болярово,council,municipality,G0018,,pending,,,,,,JAM03
+G0170,Елхово,council,municipality,G0018,,pending,,,,,,JAM07
+G0171,Стралджа,council,municipality,G0018,,pending,,,,,,JAM22
+G0172,Тунджа,council,municipality,G0018,,pending,,,,,,JAM25
+G0173,Ямбол,council,municipality,G0018,,pending,,,,,,JAM26
+G0174,Братя Даскалови,council,municipality,G0019,,pending,,,,,,SZR04
+G0175,Гълъбово,council,municipality,G0019,,pending,,,,,,SZR07
+G0176,Казанлък,council,municipality,G0019,,pending,,,,,,SZR12
+G0177,Мъглиж,council,municipality,G0019,,pending,,,,,,SZR22
+G0178,Опан,council,municipality,G0019,,pending,,,,,,SZR23
+G0179,Павел баня,council,municipality,G0019,,pending,,,,,,SZR24
+G0180,Раднево,council,municipality,G0019,,pending,,,,,,SZR27
+G0181,Стара Загора,council,municipality,G0019,,pending,,,,,,SZR31
+G0182,Чирпан,council,municipality,G0019,,pending,,,,,,SZR36
+G0183,Гурково,council,municipality,G0019,,pending,,,,,,SZR37
+G0184,Николаево,council,municipality,G0019,,pending,,,,,,SZR38
+G0185,Столична,council,municipality,G0020,,pending,,,,,,SOF46
+G0186,Божурище,council,municipality,G0021,,pending,,,,,,SFO06
+G0187,Ботевград,council,municipality,G0021,,pending,,,,,,SFO07
+G0188,Годеч,council,municipality,G0021,,pending,,,,,,SFO09
+G0189,Горна Малина,council,municipality,G0021,,pending,,,,,,SFO10
+G0190,Драгоман,council,municipality,G0021,,pending,,,,,,SFO16
+G0191,Елин Пелин,council,municipality,G0021,,pending,,,,,,SFO17
+G0192,Етрополе,council,municipality,G0021,,pending,,,,,,SFO18
+G0193,Ихтиман,council,municipality,G0021,,pending,,,,,,SFO20
+G0194,Копривщица,council,municipality,G0021,,pending,,,,,,SFO24
+G0195,Костенец,council,municipality,G0021,,pending,,,,,,SFO25
+G0196,Костинброд,council,municipality,G0021,,pending,,,,,,SFO26
+G0197,Правец,council,municipality,G0021,,pending,,,,,,SFO34
+G0198,Самоков,council,municipality,G0021,,pending,,,,,,SFO39
+G0199,Своге,council,municipality,G0021,,pending,,,,,,SFO43
+G0200,Сливница,council,municipality,G0021,,pending,,,,,,SFO45
+G0201,Златица,council,municipality,G0021,,pending,,,,,,SFO47
+G0202,Антон,council,municipality,G0021,,pending,,,,,,SFO54
+G0203,Пирдоп,council,municipality,G0021,,pending,,,,,,SFO55
+G0204,Мирково,council,municipality,G0021,,pending,,,,,,SFO56
+G0205,Чавдар,council,municipality,G0021,,pending,,,,,,SFO57
+G0206,Челопеч,council,municipality,G0021,,pending,,,,,,SFO58
+G0207,Долна баня,council,municipality,G0021,,pending,,,,,,SFO59
+G0208,Банско,council,municipality,G0022,,pending,,,,,,BLG01
+G0209,Белица,council,municipality,G0022,,pending,,,,,,BLG02
+G0210,Благоевград,council,municipality,G0022,,pending,,,,,,BLG03
+G0211,Гоце Делчев,council,municipality,G0022,,pending,,,,,,BLG11
+G0212,Гърмен,council,municipality,G0022,,pending,,,,,,BLG13
+G0213,Кресна,council,municipality,G0022,,pending,,,,,,BLG28
+G0214,Петрич,council,municipality,G0022,,pending,,,,,,BLG33
+G0215,Разлог,council,municipality,G0022,,pending,,,,,,BLG37
+G0216,Сандански,council,municipality,G0022,,pending,,,,,,BLG40
+G0217,Сатовча,council,municipality,G0022,,pending,,,,,,BLG42
+G0218,Симитли,council,municipality,G0022,,pending,,,,,,BLG44
+G0219,Струмяни,council,municipality,G0022,,pending,,,,,,BLG49
+G0220,Хаджидимово,council,municipality,G0022,,pending,,,,,,BLG52
+G0221,Якоруда,council,municipality,G0022,,pending,,,,,,BLG53
+G0222,Брезник,council,municipality,G0023,,pending,,,,,,PER08
+G0223,Земен,council,municipality,G0023,,pending,,,,,,PER19
+G0224,Ковачевци,council,municipality,G0023,,pending,,,,,,PER22
+G0225,Перник,council,municipality,G0023,,pending,,,,,,PER32
+G0226,Радомир,council,municipality,G0023,,pending,,,,,,PER36
+G0227,Трън,council,municipality,G0023,,pending,,,,,,PER51
+G0228,Бобов дол,council,municipality,G0024,,pending,,,,,,KNL04
+G0229,Бобошево,council,municipality,G0024,,pending,,,,,,KNL05
+G0230,Кочериново,council,municipality,G0024,,pending,,,,,,KNL27
+G0231,Кюстендил,council,municipality,G0024,,pending,,,,,,KNL29
+G0232,Невестино,council,municipality,G0024,,pending,,,,,,KNL31
+G0233,Рила,council,municipality,G0024,,pending,,,,,,KNL38
+G0234,Сапарева баня,council,municipality,G0024,,pending,,,,,,KNL41
+G0235,Дупница,council,municipality,G0024,,pending,,,,,,KNL48
+G0236,Трекляно,council,municipality,G0024,,pending,,,,,,KNL50
+G0237,Асеновград,council,municipality,G0025,,pending,,,,,,PDV01
+G0238,Брезово,council,municipality,G0025,,pending,,,,,,PDV07
+G0239,Калояново,council,municipality,G0025,,pending,,,,,,PDV12
+G0240,Карлово,council,municipality,G0025,,pending,,,,,,PDV13
+G0241,Лъки,council,municipality,G0025,,pending,,,,,,PDV15
+G0242,Марица,council,municipality,G0025,,pending,,,,,,PDV17
+G0243,Пловдив,council,municipality,G0025,,pending,,,,,,PDV22
+G0244,Първомай,council,municipality,G0025,,pending,,,,,,PDV23
+G0245,Раковски,council,municipality,G0025,,pending,,,,,,PDV25
+G0246,Родопи,council,municipality,G0025,,pending,,,,,,PDV26
+G0247,Садово,council,municipality,G0025,,pending,,,,,,PDV28
+G0248,Съединение,council,municipality,G0025,,pending,,,,,,PDV33
+G0249,Хисаря,council,municipality,G0025,,pending,,,,,,PDV37
+G0250,Кричим,council,municipality,G0025,,pending,,,,,,PDV39
+G0251,Перущица,council,municipality,G0025,,pending,,,,,,PDV40
+G0252,Стамболийски,council,municipality,G0025,,pending,,,,,,PDV41
+G0253,Куклен,council,municipality,G0025,,pending,,,,,,PDV42
+G0254,Сопот,council,municipality,G0025,,pending,,,,,,PDV43
+G0255,Димитровград,council,municipality,G0026,,pending,,,,,,HKV09
+G0256,Ивайловград,council,municipality,G0026,,pending,,,,,,HKV11
+G0257,Любимец,council,municipality,G0026,,pending,,,,,,HKV17
+G0258,Маджарово,council,municipality,G0026,,pending,,,,,,HKV18
+G0259,Минерални бани,council,municipality,G0026,,pending,,,,,,HKV19
+G0260,Свиленград,council,municipality,G0026,,pending,,,,,,HKV28
+G0261,Симеоновград,council,municipality,G0026,,pending,,,,,,HKV29
+G0262,Стамболово,council,municipality,G0026,,pending,,,,,,HKV30
+G0263,Тополовград,council,municipality,G0026,,pending,,,,,,HKV32
+G0264,Харманли,council,municipality,G0026,,pending,,,,,,HKV33
+G0265,Хасково,council,municipality,G0026,,pending,,,,,,HKV34
+G0266,Батак,council,municipality,G0027,,pending,,,,,,PAZ03
+G0267,Белово,council,municipality,G0027,,pending,,,,,,PAZ04
+G0268,Брацигово,council,municipality,G0027,,pending,,,,,,PAZ06
+G0269,Велинград,council,municipality,G0027,,pending,,,,,,PAZ08
+G0270,Лесичово,council,municipality,G0027,,pending,,,,,,PAZ14
+G0271,Пазарджик,council,municipality,G0027,,pending,,,,,,PAZ19
+G0272,Панагюрище,council,municipality,G0027,,pending,,,,,,PAZ20
+G0273,Пещера,council,municipality,G0027,,pending,,,,,,PAZ21
+G0274,Ракитово,council,municipality,G0027,,pending,,,,,,PAZ24
+G0275,Септември,council,municipality,G0027,,pending,,,,,,PAZ29
+G0276,Стрелча,council,municipality,G0027,,pending,,,,,,PAZ32
+G0277,Сърница,council,municipality,G0027,,pending,,,,,,PAZ39
+G0278,Баните,council,municipality,G0028,,pending,,,,,,SML02
+G0279,Борино,council,municipality,G0028,,pending,,,,,,SML05
+G0280,Девин,council,municipality,G0028,,pending,,,,,,SML09
+G0281,Доспат,council,municipality,G0028,,pending,,,,,,SML10
+G0282,Златоград,council,municipality,G0028,,pending,,,,,,SML11
+G0283,Мадан,council,municipality,G0028,,pending,,,,,,SML16
+G0284,Неделино,council,municipality,G0028,,pending,,,,,,SML18
+G0285,Рудозем,council,municipality,G0028,,pending,,,,,,SML27
+G0286,Смолян,council,municipality,G0028,,pending,,,,,,SML31
+G0287,Чепеларе,council,municipality,G0028,,pending,,,,,,SML38
+G0288,Ардино,council,municipality,G0029,,pending,,,,,,KRZ02
+G0289,Джебел,council,municipality,G0029,,pending,,,,,,KRZ08
+G0290,Кирково,council,municipality,G0029,,pending,,,,,,KRZ14
+G0291,Крумовград,council,municipality,G0029,,pending,,,,,,KRZ15
+G0292,Кърджали,council,municipality,G0029,,pending,,,,,,KRZ16
+G0293,Момчилград,council,municipality,G0029,,pending,,,,,,KRZ21
+G0294,Черноочене,council,municipality,G0029,,pending,,,,,,KRZ35

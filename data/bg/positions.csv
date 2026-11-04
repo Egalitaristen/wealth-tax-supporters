@@ -1,0 +1,2 @@
+position_id,actor_id,body_id,role,party,geo_unit_id,start,end,current,member_ref,checked,source_url
+O00001,A0009,B0001,Member of the National Assembly,Progressive Bulgaria,G0023,2026-04-30,,y,5164,2026-11-04,https://www.parliament.bg/api/v1/coll-list-ns/bg

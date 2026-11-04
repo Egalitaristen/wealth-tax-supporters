@@ -1,0 +1,3 @@
+harvest_id,title,list_type,url,date,est_size,status,actors_added,notes
+H0001,"European Parliament roll-call vote 129, 10 May 2023 (A9-0155/2023 Am 2), Bulgarian MEPs",roll_call,https://www.europarl.europa.eu/doceo/document/PV-9-2023-05-10-RCV_EN.pdf,2023-05-10,17 Bulgarian MEPs,done,3,"FOR: Penkova, Stanishev, Yoncheva. howtheyvote.eu vote 155121 gives the same split."
+H0002,"European Parliament roll-call vote 62, 12 Dec 2023 (A9-0336/2023 Am 2), Bulgarian MEPs",roll_call,https://www.europarl.europa.eu/doceo/document/PV-9-2023-12-12-RCV_EN.pdf,2023-12-12,17 Bulgarian MEPs,done,2,"FOR: Hristov, Penkova, Vitanov (Penkova already in the register). howtheyvote.eu vote 162327."
