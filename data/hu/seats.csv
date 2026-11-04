@@ -1,1 +1,5 @@
 seat_id,body_id,party,seats,colour,order
+S0001,B0001,Tisza,141,1db5e8,1
+S0002,B0001,Mi Hazánk,6,6b8e23,2
+S0003,B0001,KDNP,8,e3a900,3
+S0004,B0001,Fidesz,44,fd8100,4

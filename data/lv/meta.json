@@ -4,5 +4,5 @@
   "lead": "",
   "status": "in progress",
   "boundaries": "boundaries.json",
-  "notes": "Depth: seed. Scope: national; register = 5 NUTS 3 regions and 43 pašvaldības (LAU). First pass R001 (2026-11-04). Progressive income tax and the 'solidarity tax' (a social-contribution rate on high income, nicknamed the 'rich people's tax') are excluded; the only wealth-tax supporters found are the 2013 Left-Wing Patriots petition and one MEP's vote. Map: Eurostat GISCO LAU 2024 (units) and NUTS 2024 level 3 (regions), CC BY 4.0, codes are Eurostat LAU codes (units). Seats tab left blank: no supporter currently sits in the Saeima."
+  "notes": "Depth: seed. Scope: national; register = 5 NUTS 3 regions and 43 pašvaldības (LAU). First pass R001 (2026-11-04). Progressive income tax and the 'solidarity tax' (a social-contribution rate on high income, nicknamed the 'rich people's tax') are excluded; the only wealth-tax supporters found are the 2013 Left-Wing Patriots petition and one MEP's vote. Map: Eurostat GISCO LAU 2024 (units) and NUTS 2024 level 3 (regions), CC BY 4.0, codes are Eurostat LAU codes (units). Seats tab: 15th Saeima seats by list (unlit: no supporter sits in the Saeima)."
 }

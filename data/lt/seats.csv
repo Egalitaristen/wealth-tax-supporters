@@ -1,1 +1,10 @@
 seat_id,body_id,party,seats,colour,order
+S0001,B0001,Social Democratic Party of Lithuania,52,e2001a,1
+S0002,B0001,"Lithuanian Farmers, Greens and Christian Families Union",9,4c9a2a,2
+S0003,B0001,"Democrats ""For Lithuania""",13,7b3f98,3
+S0004,B0001,Liberal Movement,11,f39200,4
+S0005,B0001,Mixed group,9,999999,5
+S0006,B0001,Non-attached,1,bbbbbb,6
+S0007,B0001,Homeland Union – Lithuanian Christian Democrats,28,0b6fb5,7
+S0008,B0001,Dawn of Nemunas,17,1b3a6b,8
+S0009,B0001,Vacant,1,dddddd,9

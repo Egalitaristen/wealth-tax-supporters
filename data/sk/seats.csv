@@ -1,1 +1,10 @@
 seat_id,body_id,party,seats,colour,order
+S0001,B0001,Progressive Slovakia,33,00a3dd,1
+S0002,B0001,Freedom and Solidarity,12,66ccff,2
+S0003,B0001,Slovakia – For the People,12,f08a00,3
+S0004,B0001,KDH,11,ffd500,4
+S0005,B0001,Non-attached,7,999999,5
+S0006,B0001,Hlas – Social Democracy,25,c8102e,6
+S0007,B0001,Smer – Social Democracy,41,e2231a,7
+S0008,B0001,SNS,8,003a79,8
+S0009,B0001,Vacant,1,dddddd,9
