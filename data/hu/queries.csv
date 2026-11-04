@@ -1,0 +1,10 @@
+query_id,run_id,date,language,query,channel,results_opened,leads_added,note
+Q0001,R001,2026-11-04,hu,vagyonadó törvényjavaslat Országgyűlés képviselő benyújtotta szupergazdagok adója,web,6,3,
+Q0002,R001,2026-11-04,hu,Tisza-kormány vagyonadó egymilliárd forint 1 százalék,web,6,2,
+Q0003,R001,2026-11-04,hu,szakszervezet MSZSZ Liga Vasas vagyonadó,web,0,1,no hit
+Q0004,R001,2026-11-04,hu,Mi Hazánk Momentum DK vagyonadó javaslat,web,0,1,no hit
+Q0005,R001,2026-11-04,hu,közvélemény-kutatás vagyonadó támogatottság,web,0,0,no poll on a wealth tax found
+Q0006,R002,2026-11-04,hu,vagyonadó törvényjavaslat benyújtotta Országgyűlés T/ szám,web,4,2,found T/930
+Q0007,R002,2026-11-04,hu,vagyonadó Fidesz DK MSZP LMP Momentum Mi Hazánk frakció,web,2,0,only Fidesz and KDNP reactions found
+Q0008,R002,2026-11-04,hu,vagyonadó közvélemény-kutatás Medián Publicus 21 Kutatóközpont Nézőpont,web,0,0,GKI poll found via a different query
+Q0009,R002,2026-11-04,hu,Bojár Gábor interjú vagyonadó,web,1,0,

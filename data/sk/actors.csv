@@ -1,0 +1,5 @@
+actor_id,name,kind,actor_type,other_types,role,affiliation,party,affiliation_actor_id,country,level,location,geo_unit_id,location_source,wikidata_qid,website,status,alive_checked,prominence,notes,added_run,updated,refined
+A0001,Brigita Schmögnerová,person,economist,,Former Minister of Finance of Slovakia (1998-2002); economist and commentator,,,,Slovakia,national,Slovakia,G0001,,Q440874,,active,y,national,,R001,2026-11-04,
+A0002,Monika Beňová,person,politician,,"Member of the European Parliament (Smer-SD, S&D)",,Smer-SD,,Slovakia,supranational,Slovakia,G0001,,Q441032,,active,y,national,,R001,2026-11-04,
+A0003,Katarína Roth Neveďalová,person,politician,,Member of the European Parliament (Smer-SD),,Smer-SD,,Slovakia,supranational,Slovakia,G0001,,Q1735624,,active,y,national,,R001,2026-11-04,
+A0004,Robert Hajšel,person,politician,,"Member of the European Parliament, 2019-2024 (S&D)",,Independent,,Slovakia,supranational,Slovakia,G0001,,Q62667399,,former_role,y,national,Listed as independent by howtheyvote.eu on the December 2023 vote.,R001,2026-11-04,

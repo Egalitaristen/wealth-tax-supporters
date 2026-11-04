@@ -1,0 +1,2 @@
+body_id,name,level,kind,seats,as_of,source_url,seat_view,notes
+B0001,Országgyűlés (National Assembly),national,chamber,,,,,"No Seats tab: parlament.hu answers scripts with a CAPTCHA and data.ipu.org with a Cloudflare check (neither bypassed). Secondary source (hu.wikipedia 2026 election article) gives the April 2026 result: Tisza 141, Fidesz-KDNP 52, Mi Hazánk 6 of 199; not entered as seats."
