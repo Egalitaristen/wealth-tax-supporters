@@ -1,0 +1,8 @@
+{
+  "name": "Montenegro",
+  "iso2": "ME",
+  "lead": "",
+  "status": "in progress",
+  "boundaries": "",
+  "notes": "First pass, national level; very sparse. Geography: 25 municipalities (opštine) with ISO 3166-2:ME codes. No map: HDX has no COD-AB for Montenegro and geoBoundaries (OSM, ODbL, 23 units, no official codes) is out of date. No Seats tab: no supporter found who sits in the Skupština. Round 2 checked Eurostat GISCO LAU 2023: no ME units, so no map."
+}
