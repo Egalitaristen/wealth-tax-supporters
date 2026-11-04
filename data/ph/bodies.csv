@@ -1,4 +1,4 @@
 body_id,name,level,kind,seats,as_of,source_url,seat_view,notes
-B0001,House of Representatives,national,chamber,,,https://www.congress.gov.ph/,,
+B0001,House of Representatives,national,chamber,318,2026-11-04,https://www.congress.gov.ph/,,"20th Congress: the House's own member list (congress.gov.ph/house-members, read 2026-11-04) shows 317 of 318 seats filled and names party-list representatives by party-list but gives no party for district representatives, so a seat chart by party cannot be built from it; Seats tab left off. The Senate (24) is not charted either: senate.gov.ph refuses scripts and no supporter sits in it."
 B0002,Presidential and vice-presidential election,national,other,,,,,"Presidential candidacy, not a chamber."
 B0003,Senate election,national,other,,,,,"Senate candidacy, not a chamber."

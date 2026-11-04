@@ -1,5 +1,5 @@
 body_id,name,level,kind,seats,as_of,source_url,seat_view,notes
-B0001,Senatul României,national,chamber,,,https://www.senat.ro/,,
-B0002,Camera Deputaților,national,chamber,,,https://www.cdep.ro/,,
+B0001,Senatul României,national,chamber,136,2026-11-04,https://www.cdep.ro/ords/pls/parlam/structura2015.de?idl=1&cam=1&leg=2024,y,"136 senators; 134 sit on the date given, 2 seats vacant (group sizes from the Parliament's Senate list and group page: PSD 36, AUR 28, PNL 22, USR 19, PACE 11, UDMR 10, unaffiliated 8). senat.ro publishes the list only as a postback grid, so the list on cdep.ro (the Chamber of Deputies' site, which carries both chambers) was used. PACE = PACE - Intai Romania group."
+B0002,Camera Deputaților,national,chamber,330,2026-11-04,https://www.cdep.ro/ords/pls/parlam/structura2015.de?idl=1,y,"330 deputies, 2024-2028 legislature, by parliamentary group on the Chamber's own list (affiliated members counted with their group: PSD 85 + 7, PNL 53 + 2, AUR 61 + 1; the Chamber's group page gives PSD 92, AUR 62, PNL 55, USR 40, UDMR 21, minorities 17, UPR 15, SOS RO 13, unaffiliated 15). PSD, PNL, AUR, USR, UDMR are the parties; UPR = Uniti pentru Romania group."
 B0003,European Parliament,supranational,chamber,,,https://www.europarl.europa.eu/meps/en/124785/x/home,,
 B0004,Primăria Comunei Cumpăna,local,other,,,https://primaria-cumpana.ro/membru-primarie/gaju-mariana/,,
