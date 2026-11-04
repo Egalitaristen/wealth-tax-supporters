@@ -1,0 +1,48 @@
+query_id,run_id,date,language,query,channel,results_opened,leads_added,note
+Q0001,R001,2026-11-03,es,Panamá impuesto a las grandes fortunas patrimonio diputado anteproyecto,web,1,0,"Only Argentine, Chilean, Spanish and Paraguayan results."
+Q0002,R001,2026-11-03,es,Panamá impuesto a la riqueza Frenadeso Conato Suntracs Universidad de Panamá,web,3,2,No wealth-tax statement.
+Q0003,R001,2026-11-03,en,Panama wealth tax billionaires proposal Asamblea Nacional deputy,web,2,0,Only the 15% shell-company tax.
+Q0004,R001,2026-11-03,es,Panamá impuesto al patrimonio diputado Vamos Frente Amplio por la Democracia Otro Camino,web,0,0,Nothing on Panama.
+Q0005,R001,2026-11-03,es,Panamá gravar las grandes fortunas reforma Caja de Seguro Social 2025,web,2,0,Law 462 changed contributions; no wealth tax.
+Q0006,R001,2026-11-03,es,Janine Prado Ernesto Cedeño Betserai Richards Jhonathan Vega impuesto riqueza,web,0,0,No wealth-tax statement.
+Q0007,R001,2026-11-03,es,economista panameño impuesto al patrimonio Jované Argote Universidad de Panamá,web,3,0,Only exemptions and property-tax papers; both excluded.
+Q0008,R001,2026-11-03,es,Mulino impuesto a los ricos riqueza patrimonio Panamá,web,0,0,Only the 15% substance law.
+Q0009,R001,2026-11-03,es,Panamá pandemia 2020 diputado impuesto solidario grandes fortunas,web,0,0,Argentine results only.
+Q0010,R001,2026-11-03,es,Oxfam Latindadd CEPAL Panamá impuesto sobre la riqueza,web,3,2,Oxfam Central America report found.
+Q0011,R001,2026-11-03,es,Panamá proyecto de ley impuesto a la riqueza prohijado,web,0,0,None.
+Q0012,R001,2026-11-03,es,Alianza Pueblo Unido por la Vida Panamá pliego impuestos ricos,web,0,0,"Profit margins and evasion, no wealth tax."
+Q0013,R001,2026-11-03,es,Movimiento Otro Camino Frente Amplio por la Democracia Partido Panameñista reforma tributaria patrimonio,web,0,0,None.
+Q0014,R001,2026-11-03,es,Panamá Cáritas Conferencia Episcopal impuesto riqueza arzobispo Ulloa,web,0,0,Archbishop speaks on corruption and inequality only.
+Q0015,R001,2026-11-03,en,Panama wealth tax Oxfam Tax Justice Latindadd ICRICT Panamanian supporter,web,0,1,Panama Papers press release only.
+Q0016,R002,2026-11-04,es,site:asamblea.gob.pa grandes fortunas impuesto al patrimonio anteproyecto,web,1,0,Only unrelated Assembly documents.
+Q0017,R002,2026-11-04,es,s3-legispan grandes fortunas impuesto solidario acta pleno,web,0,0,Spanish results only.
+Q0018,R002,2026-11-04,es,diputado panameño impuesto a los ricos millonarios grandes fortunas 2019-2023,web,0,0,Other countries only.
+Q0019,R002,2026-11-04,es,Suntracs Conusi Conato Frenadeso reforma CSS 2025 gravar grandes fortunas,web,4,0,Opposition to Ley 163; no wealth-tax call.
+Q0020,R002,2026-11-04,es,Panamá firmantes carta impuesto multimillonarios G20 CELAG CLACSO Tax Justice Network,web,0,0,No Panamanian signatory.
+Q0021,R002,2026-11-04,es,Panamá CSS reforma economistas Universidad de Panamá impuesto a los más ricos,web,3,1,One student remark about grandes fortunas; excluded.
+Q0022,R002,2026-11-04,es,Vamos bancada propuesta fiscal impuesto patrimonio grandes fortunas Vásquez Prado,web,0,0,None.
+Q0023,R002,2026-11-04,es,Jované Gandásegui Estrada Castro Sagel impuesto a la riqueza Panamá,web,0,0,None.
+Q0024,R002,2026-11-04,es,diputado Panamá gravar la riqueza proyecto 2025 2026 Zúñiga Cedeño Ulate Brenes,web,0,0,Only the substance law.
+Q0025,R002,2026-11-04,en,Panama UN tax convention billionaire tax Sevilla initiative signatories,web,0,0,No position found.
+Q0026,R003,2026-11-04,es,prensa.com impuesto a la riqueza grandes fortunas gravar a los más ricos Panamá,web,0,0,Other countries only.
+Q0027,R003,2026-11-04,es,Parlatino ley modelo impuesto grandes fortunas legisladores panameños,web,1,0,Nothing on Panama.
+Q0028,R003,2026-11-04,es,Marco Gandásegui CELA impuestos a los ricos gravar la riqueza,web,3,1,Columns on tax cuts for the rich; no wealth-tax call; excluded.
+Q0029,R003,2026-11-04,es,Crítica Telemetro Metro Libre TVN diputado impuesto a los ricos millonarios,web,0,0,Argentine results.
+Q0030,R003,2026-11-04,es,Conferencia Episcopal UNACHI Universidad de Panamá impuesto riqueza patrimonio desigualdad,web,3,0,Inequality data only.
+Q0031,R003,2026-11-04,es,anteproyecto impuesto patrimonio riqueza fortunas comisión Economía y Finanzas Panamá,web,2,0,Only the substance law and the transfer-tax bill.
+Q0032,R003,2026-11-04,es,diputado Panamá X impuesto a la riqueza super ricos Vamos Otro Camino,web,2,1,Led to the Espacio Cívico bill mirror.
+Q0033,R003,2026-11-04,es,"espaciocivico.org proyectos de ley (all 834 bills since July 2024, title scan for wealth, fortune, patrimonio, tax)",site JSON,834,0,No wealth-tax bill among them.
+Q0034,R004,2026-11-04,es,encuesta Panamá impuestos a los ricos grandes fortunas CIEPS Ipsos Dichter & Neira,web,2,0,No Panamanian poll; Latinobarómetro asks about waste of taxes only.
+Q0035,R004,2026-11-04,es,Panamá columna los más ricos deben pagar más impuestos patrimonio economista sindicalista,web,8,2,Found Lamphrey's column (supporter) and a 2020 opposing column.
+Q0036,R004,2026-11-04,es,RJFALC Red de Justicia Fiscal Panamá organización panameña,web,3,1,No Panamanian member found; Panama named as PTLAC country.
+Q0037,R004,2026-11-04,es,Panamá estudio impuesto a la riqueza patrimonio viabilidad CEPAL ICEFI Universidad de Panamá CIEPS,web,4,1,Regional studies only.
+Q0038,R004,2026-11-04,es,Frente Amplio por la Democracia PRD Partido Popular programa reforma tributaria grandes patrimonios,web,0,0,None.
+Q0039,R004,2026-11-04,es,Eduardo Lamphrey economista columnista,web,3,0,Exists; no death record.
+Q0040,R004,2026-11-04,es,Eduardo Lamphrey impuesto grandes fortunas riqueza tributación,web,2,0,Second column: no wealth tax.
+Q0041,R005,2026-11-04,es,"register, leads, UN and supranational files: Panamanians with evidence elsewhere",git grep,0,0,No Panamanian actor or lead in any other folder.
+Q0042,R005,2026-11-04,es,"Wikidata: 99 living Panamanian economists, academics and politicians (SPARQL), ten checked by name",wikidata+web,10,0,"Gordón, Jované, Bernal, Méndez, Arrocha, Mirones, Lombana, Vásquez, Silva, Navarro: none calls for a wealth tax."
+Q0043,R005,2026-11-04,es,Maribel Gordón impuesto a la riqueza grandes fortunas,web,4,1,Regressive-tax critique only; excluded.
+Q0044,R005,2026-11-04,es,Juan Jované impuesto ricos grandes fortunas,web,3,0,None.
+Q0045,R005,2026-11-04,es,laestrella.com.pa columnistas impuesto a las grandes fortunas riqueza multimillonarios,web,3,1,Only evasion and progressive-tax columns.
+Q0046,R005,2026-11-04,es,Panameño firma carta CLACSO CELAG Oxfam impuesto global multimillonarios,web,0,0,No Panamanian signer.
+Q0047,R005,2026-11-04,es,Oxfam socios organización panameña justicia fiscal Fospa Alianza Ciudadana,web,0,0,No Panamanian partner.

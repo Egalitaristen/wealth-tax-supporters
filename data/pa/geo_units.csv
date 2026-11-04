@@ -1,0 +1,91 @@
+geo_unit_id,name,level,unit_type,parent_id,website,sweep_status,swept_run,swept_date,queries_run,hits,notes,code
+G0001,Panama,national,country,,,pending,,,,,,
+G0002,Bocas del Toro,region,provincia,G0001,,pending,,,,,,PA01
+G0003,Chiriquí,region,provincia,G0001,,pending,,,,,,PA02
+G0004,Coclé,region,provincia,G0001,,pending,,,,,,PA03
+G0005,Colón,region,provincia,G0001,,pending,,,,,,PA04
+G0006,Darién,region,provincia,G0001,,pending,,,,,,PA05
+G0007,Emberá,region,comarca indígena,G0001,,pending,,,,,,PA06
+G0008,Herrera,region,provincia,G0001,,pending,,,,,,PA07
+G0009,Kuna Yala,region,comarca indígena,G0001,,pending,,,,,,PA08
+G0010,Los Santos,region,provincia,G0001,,pending,,,,,,PA09
+G0011,Ngöbe Buglé,region,comarca indígena,G0001,,pending,,,,,,PA10
+G0012,Panamá Oeste,region,provincia,G0001,,pending,,,,,,PA11
+G0013,Panamá,region,provincia,G0001,,pending,,,,,,PA12
+G0014,Veraguas,region,provincia,G0001,,pending,,,,,,PA13
+G0015,Bocas del Toro,council,distrito (municipio),G0002,,pending,,,,,,PA0101
+G0016,Changuinola,council,distrito (municipio),G0002,,pending,,,,,,PA0102
+G0017,Chiriquí Grande,council,distrito (municipio),G0002,,pending,,,,,,PA0103
+G0018,Alanje,council,distrito (municipio),G0003,,pending,,,,,,PA0201
+G0019,Barú,council,distrito (municipio),G0003,,pending,,,,,,PA0202
+G0020,Boquerón,council,distrito (municipio),G0003,,pending,,,,,,PA0203
+G0021,Boquete,council,distrito (municipio),G0003,,pending,,,,,,PA0204
+G0022,Bugaba,council,distrito (municipio),G0003,,pending,,,,,,PA0205
+G0023,David,council,distrito (municipio),G0003,,pending,,,,,,PA0206
+G0024,Dolega,council,distrito (municipio),G0003,,pending,,,,,,PA0207
+G0025,Gualaca,council,distrito (municipio),G0003,,pending,,,,,,PA0208
+G0026,Remedios,council,distrito (municipio),G0003,,pending,,,,,,PA0209
+G0027,Renacimiento,council,distrito (municipio),G0003,,pending,,,,,,PA0210
+G0028,San Félix,council,distrito (municipio),G0003,,pending,,,,,,PA0211
+G0029,San Lorenzo,council,distrito (municipio),G0003,,pending,,,,,,PA0212
+G0030,Tolé,council,distrito (municipio),G0003,,pending,,,,,,PA0213
+G0031,Aguadulce,council,distrito (municipio),G0004,,pending,,,,,,PA0301
+G0032,Antón,council,distrito (municipio),G0004,,pending,,,,,,PA0302
+G0033,La Pintada,council,distrito (municipio),G0004,,pending,,,,,,PA0303
+G0034,Natá,council,distrito (municipio),G0004,,pending,,,,,,PA0304
+G0035,Olá,council,distrito (municipio),G0004,,pending,,,,,,PA0305
+G0036,Penonomé,council,distrito (municipio),G0004,,pending,,,,,,PA0306
+G0037,Chagres,council,distrito (municipio),G0005,,pending,,,,,,PA0401
+G0038,Colón,council,distrito (municipio),G0005,,pending,,,,,,PA0402
+G0039,Donoso,council,distrito (municipio),G0005,,pending,,,,,,PA0403
+G0040,Portobelo,council,distrito (municipio),G0005,,pending,,,,,,PA0404
+G0041,Santa Isabel,council,distrito (municipio),G0005,,pending,,,,,,PA0405
+G0042,Chepigana,council,distrito (municipio),G0006,,pending,,,,,,PA0501
+G0043,Pinogana,council,distrito (municipio),G0006,,pending,,,,,,PA0502
+G0044,Cémaco,council,distrito (municipio),G0007,,pending,,,,,,PA0601
+G0045,Sambú,council,distrito (municipio),G0007,,pending,,,,,,PA0602
+G0046,Chitré,council,distrito (municipio),G0008,,pending,,,,,,PA0701
+G0047,Las Minas,council,distrito (municipio),G0008,,pending,,,,,,PA0702
+G0048,Los Pozos,council,distrito (municipio),G0008,,pending,,,,,,PA0703
+G0049,Ocú,council,distrito (municipio),G0008,,pending,,,,,,PA0704
+G0050,Parita,council,distrito (municipio),G0008,,pending,,,,,,PA0705
+G0051,Pesé,council,distrito (municipio),G0008,,pending,,,,,,PA0706
+G0052,Santa María,council,distrito (municipio),G0008,,pending,,,,,,PA0707
+G0053,Kuna Yala,council,distrito (municipio),G0009,,pending,,,,,,PA0801
+G0054,Guararé,council,distrito (municipio),G0010,,pending,,,,,,PA0901
+G0055,Las Tablas,council,distrito (municipio),G0010,,pending,,,,,,PA0902
+G0056,Los Santos,council,distrito (municipio),G0010,,pending,,,,,,PA0903
+G0057,Macaracas,council,distrito (municipio),G0010,,pending,,,,,,PA0904
+G0058,Pedasí,council,distrito (municipio),G0010,,pending,,,,,,PA0905
+G0059,Pocrí,council,distrito (municipio),G0010,,pending,,,,,,PA0906
+G0060,Tonosí,council,distrito (municipio),G0010,,pending,,,,,,PA0907
+G0061,Besiko,council,distrito (municipio),G0011,,pending,,,,,,PA1001
+G0062,Mironó,council,distrito (municipio),G0011,,pending,,,,,,PA1002
+G0063,Müna,council,distrito (municipio),G0011,,pending,,,,,,PA1003
+G0064,Nole Duima,council,distrito (municipio),G0011,,pending,,,,,,PA1004
+G0065,Ñürüm,council,distrito (municipio),G0011,,pending,,,,,,PA1005
+G0066,Kankintú,council,distrito (municipio),G0011,,pending,,,,,,PA1006
+G0067,Kusapín,council,distrito (municipio),G0011,,pending,,,,,,PA1007
+G0068,Arraiján,council,distrito (municipio),G0012,,pending,,,,,,PA1101
+G0069,Capira,council,distrito (municipio),G0012,,pending,,,,,,PA1102
+G0070,Chame,council,distrito (municipio),G0012,,pending,,,,,,PA1103
+G0071,La Chorrera,council,distrito (municipio),G0012,,pending,,,,,,PA1104
+G0072,San Carlos,council,distrito (municipio),G0012,,pending,,,,,,PA1105
+G0073,Balboa,council,distrito (municipio),G0013,,pending,,,,,,PA1201
+G0074,Chepo,council,distrito (municipio),G0013,,pending,,,,,,PA1202
+G0075,Chimán,council,distrito (municipio),G0013,,pending,,,,,,PA1203
+G0076,Panamá,council,distrito (municipio),G0013,,pending,,,,,,PA1204
+G0077,San Miguelito,council,distrito (municipio),G0013,,pending,,,,,,PA1205
+G0078,Taboga,council,distrito (municipio),G0013,,pending,,,,,,PA1206
+G0079,Atalaya,council,distrito (municipio),G0014,,pending,,,,,,PA1301
+G0080,Calobre,council,distrito (municipio),G0014,,pending,,,,,,PA1302
+G0081,Cañazas,council,distrito (municipio),G0014,,pending,,,,,,PA1303
+G0082,La Mesa,council,distrito (municipio),G0014,,pending,,,,,,PA1304
+G0083,Las Palmas,council,distrito (municipio),G0014,,pending,,,,,,PA1305
+G0084,Mariato,council,distrito (municipio),G0014,,pending,,,,,,PA1306
+G0085,Montijo,council,distrito (municipio),G0014,,pending,,,,,,PA1307
+G0086,Río de Jesús,council,distrito (municipio),G0014,,pending,,,,,,PA1308
+G0087,San Francisco,council,distrito (municipio),G0014,,pending,,,,,,PA1309
+G0088,Santa Fe,council,distrito (municipio),G0014,,pending,,,,,,PA1310
+G0089,Santiago,council,distrito (municipio),G0014,,pending,,,,,,PA1311
+G0090,Soná,council,distrito (municipio),G0014,,pending,,,,,,PA1312
