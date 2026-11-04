@@ -3,6 +3,6 @@
   "iso2": "ME",
   "lead": "",
   "status": "in progress",
-  "boundaries": "",
-  "notes": "First pass, national level; very sparse. Geography: 25 municipalities (opštine) with ISO 3166-2:ME codes. No map yet (ELWar municipality shapefiles, doi 10.7802/2358, CC BY 4.0, are the candidate source): HDX has no COD-AB for Montenegro and geoBoundaries (OSM, ODbL, 23 units, no official codes) is out of date. No Seats tab: no supporter found who sits in the Skupština. Round 2 checked Eurostat GISCO LAU 2023: no ME units, so no map."
+  "boundaries": "boundaries.json",
+  "notes": "First pass, national level; very sparse. Geography: 25 municipalities (opštine) with ISO 3166-2:ME codes. Map: 24 municipal shapes (2020 layer; Zeta, created 2022, has no separate shape and is drawn inside Podgorica), matched by ISO 3166-2:ME codes. Shapes: Glaurdić, Kaniški, Budimir & Ondrejka, Spatial Data of Municipalities in Yugoslavia and Its Successor States 1970-2020 (ELWar project, GESIS / University of Luxembourg, doi 10.7802/2358), 2020 layer, CC BY 4.0; made from the official gazettes, not OpenStreetMap. Eurostat GISCO LAU 2024 has no ME units; HDX has no COD-AB; geoBoundaries is OSM-derived ODbL. No Seats tab: no supporter found who sits in the Skupština. Round 2 checked Eurostat GISCO LAU 2023: no ME units, so no map."
 }
