@@ -1,11 +1,11 @@
 position_id,actor_id,body_id,role,party,geo_unit_id,start,end,current,member_ref,checked,source_url
-O00169,A0333,B0004,Senedd Member (Labour); led the 19 Nov 2025 wealth tax debate,Labour,G0017,,,,,,
-O00170,A0334,B0004,"Senedd Member and Leader, Welsh Liberal Democrats",Liberal Democrats,G0017,,,,,,
+O00169,A0333,B0004,Former Senedd Member for Cardiff North (2011–2026); led the 19 Nov 2025 wealth tax debate,Labour,G0109,2011-05-05,2026-04-07,n,,2026-11-04,https://en.wikipedia.org/wiki/Julie_Morgan
+O00170,A0334,B0004,Leader of the Welsh Liberal Democrats; Senedd Member (Brycheiniog Tawe Nedd),Liberal Democrats,G0296,2021-05-06,,y,,2026-11-04,https://senedd.wales/people/jane-dodds-ms/
 O00171,A0335,B0004,"Cabinet Minister for Culture and Sport, Trefnydd and Chief Whip; Senedd Member (Pontypridd Cynon Merthyr)",Plaid Cymru,G0304,2021-05-08,,y,426,2026-11-04,https://senedd.wales/people/heledd-fychan-ms/
-O00172,A0339,B0005,"Hackney councillor (Dalston), Green co-leader; London Assembly Member",Green Party,G0191,,,,,,
-O00173,A0339,B0006,"Hackney councillor (Dalston), Green co-leader; London Assembly Member",Green Party,G0191,,,,,,
+O00172,A0339,B0005,"Hackney councillor (Dalston), Green co-leader; London Assembly Member",Green Party,G0191,2024-05-02,,y,,2026-11-04,https://www.london.gov.uk/who-we-are/what-london-assembly-does/london-assembly-members/zoe-garbett
+O00173,A0339,B0006,"Hackney councillor (Dalston), Green co-leader; London Assembly Member",Green Party,G0191,2022-05-05,,y,5320,2026-11-04,https://hackney.moderngov.co.uk/mgUserInfo.aspx?UID=5320
 O00174,A0340,B0006,"Hackney councillor, Hackney Independent Socialist Group (Victoria ward)",Independent,G0191,2018-05-03,,y,4865,2026-11-04,https://opencouncil.network/people/penny-wrout
-O00175,A0341,B0007,Lambeth councillor (Green); opened the debate on the wealth tax motion on 15 Oct 2025,Green Party,G0225,,,,,,
+O00175,A0341,B0007,Lambeth councillor (Green); opened the debate on the wealth tax motion on 15 Oct 2025,Green Party,G0225,2014-05-22,,y,8900,2026-11-04,https://moderngov.lambeth.gov.uk/mgUserInfo.aspx?UID=8900
 O00176,A0342,B0007,Leader of the Council; Lambeth councillor (Streatham Hill East),Green Party,G0225,2026-05-07,,y,40084,2026-11-04,https://www.lambeth.gov.uk/about-council/councillors-mayor/leader-council
 O00177,A0345,B0008,Newham councillor (Canning Town North),Green Party,G0262,2023-11-30,,y,5674,2026-11-04,https://opencouncil.network/people/areeq-chowdhury
 O00178,A0346,B0008,Chair of the Council; Newham councillor (Stratford Olympic Park),Green Party,G0262,2022-05-05,,y,5649,2026-11-04,https://www.newham.gov.uk/council/council-chair-first-citizen-newham
@@ -13,28 +13,28 @@ O00179,A0349,B0009,Calderdale councillor (Northowram and Shelf); Leader of the G
 O00180,A0350,B0009,Calderdale councillor (Northowram and Shelf),Green Party,G0106,2023-05-04,,y,542,2026-11-04,https://opencouncil.network/people/dan-wood
 O00182,A0352,B0011,Leeds councillor (Wetherby); Leader of the Green Group on Leeds City Council,Green Party,G0227,,,,,,
 O00183,A0508,B0012,"Independent councillor, Erne East, Fermanagh and Omagh District Council (co-opted March 2020); proposed the Oct 2021 wea",Independent,G0175,,,,,,
-O00185,A0509,B0012,"Cross-Community Labour Alternative councillor, Fermanagh and Omagh District Council; seconded the Oct 2021 wealth tax mo",Labour Alternative,G0175,,,,,,
-O00187,A0513,B0005,Leader of the Green Party; London Assembly Member,Green Party,G0417,,,,,,
-O00188,A0514,B0011,Deputy Leader of the Green Party; Leeds councillor (Gipton and Harehills),Green Party,G0227,,,,,,
+O00185,A0509,B0012,"Cross-Community Labour Alternative councillor, Fermanagh and Omagh District Council; seconded the Oct 2021 wealth tax mo",Labour Alternative,G0175,2020-03-26,2023-05-18,n,,2026-11-04,https://en.wikipedia.org/wiki/2023_Fermanagh_and_Omagh_District_Council_election
+O00187,A0513,B0005,Leader of the Green Party; London Assembly Member,Green Party,G0417,2021-05-06,,y,,2026-11-04,https://www.london.gov.uk/who-we-are/what-london-assembly-does/london-assembly-members/zack-polanski
+O00188,A0514,B0011,Deputy Leader of the Green Party; Leeds councillor (Gipton and Harehills),Green Party,G0227,2024-05-02,,y,9648,2026-11-04,https://democracy.leeds.gov.uk/mgUserInfo.aspx?UID=9648
 O00189,A0519,B0015,"Leader, Babergh District Council (North West Cosford ward)",Green Party,G0068,2023-05-04,,y,8195,2026-11-04,https://www.babergh.gov.uk/w/newly-elected-council-leader-outlines-need-for-targeted-action-amid-funding-challenges
 O00190,A0520,B0016,"Leader, Forest of Dean District Council (Tidenham ward)",Green Party,G0179,2023-05-04,,y,5661,2026-11-04,https://opencouncil.network/people/adrian-birch-2
 O00191,A0521,B0016,"Deputy Leader, Forest of Dean District Council (Newnham ward)",Green Party,G0179,2019-05-02,,y,4303,2026-11-04,https://opencouncil.network/people/andy-moore
-O00192,A0522,B0017,"Leader, Folkestone and Hythe District Council",Green Party,G0178,,,,,,
-O00193,A0523,B0018,"Leader, East Hertfordshire Council",Green Party,G0157,,,,,,
-O00194,A0524,B0019,"Leader, East Suffolk Council",Green Party,G0163,,,,,,
+O00192,A0522,B0017,"Leader, Folkestone and Hythe District Council",Green Party,G0178,,,y,2124,2026-11-04,https://folkestone-hythe.moderngov.co.uk/mgUserInfo.aspx?UID=2124
+O00193,A0523,B0018,"Leader, East Hertfordshire Council",Green Party,G0157,,,y,2681,2026-11-04,https://democracy.eastherts.gov.uk/mgUserInfo.aspx?UID=2681
+O00194,A0524,B0019,"Leader, East Suffolk Council",Green Party,G0163,,,y,,2026-11-04,https://www.eastsuffolk.gov.uk/sites/default/files/2026-02/East%20Suffolk%20Councillor%20poster.pdf
 O00195,A0525,B0020,"Leader, Bristol City Council",Green Party,G0096,,,,,,
 O00196,A0526,B0020,"Deputy Leader, Bristol City Council",Green Party,G0096,,,,,,
-O00197,A0527,B0021,"Co-Leader, Runnymede Council",Green Party,G0311,,,,,,
-O00198,A0528,B0022,"Leader, Hastings Borough Council",Green Party,G0200,,,,,,
-O00199,A0529,B0022,"Deputy Leader, Hastings Borough Council",Green Party,G0200,,,,,,
-O00200,A0530,B0023,"Leader, Lancaster City Council",Green Party,G0226,,,,,,
-O00201,A0531,B0024,"Leader, Stroud District Council",Green Party,G0353,,,,,,
-O00202,A0532,B0024,"Deputy Leader, Stroud District Council",Green Party,G0353,,,,,,
-O00203,A0533,B0025,"Leader, Warwick District Council",Green Party,G0386,,,,,,
-O00204,A0534,B0026,"Leader, Mid Suffolk District Council",Green Party,G0246,,,,,,
-O00205,A0535,B0026,"Deputy Leader, Mid Suffolk District Council",Green Party,G0246,,,,,,
+O00197,A0527,B0021,"Co-Leader, Runnymede Council",Green Party,G0311,,,y,283,2026-11-04,https://democracy.runnymede.gov.uk/mgUserInfo.aspx?UID=283
+O00198,A0528,B0022,"Leader, Hastings Borough Council",Green Party,G0200,,,y,2159,2026-11-04,https://hastings.moderngov.co.uk/mgUserInfo.aspx?UID=2159
+O00199,A0529,B0022,"Deputy Leader, Hastings Borough Council",Green Party,G0200,,,y,2041,2026-11-04,https://hastings.moderngov.co.uk/mgUserInfo.aspx?UID=2041
+O00200,A0530,B0023,"Leader, Lancaster City Council",Green Party,G0226,,,y,2674,2026-11-04,https://committeeadmin.lancaster.gov.uk/mgUserInfo.aspx?UID=2674
+O00201,A0531,B0024,"Leader, Stroud District Council",Green Party,G0353,,,y,1723,2026-11-04,https://stroud.moderngov.co.uk/mgUserInfo.aspx?UID=1723
+O00202,A0532,B0024,"Deputy Leader, Stroud District Council",Green Party,G0353,,,y,116,2026-11-04,https://stroud.moderngov.co.uk/mgUserInfo.aspx?UID=116
+O00203,A0533,B0025,"Leader, Warwick District Council",Green Party,G0386,,,y,188,2026-11-04,https://estates10.warwickdc.gov.uk/cmis/CouncillorsAtoZ/tabid/39/ctl/ViewCMIS_Person/mid/536/id/188/Default.aspx
+O00204,A0534,B0026,"Leader, Mid Suffolk District Council",Green Party,G0246,,,y,679,2026-11-04,https://baberghmidsuffolk.moderngov.co.uk/mgUserInfo.aspx?UID=679
+O00205,A0535,B0026,"Deputy Leader, Mid Suffolk District Council",Green Party,G0246,,,y,8221,2026-11-04,https://baberghmidsuffolk.moderngov.co.uk/mgUserInfo.aspx?UID=8221
 O00206,A0536,B0027,"Leader, Maidstone Borough Council",Green Party,G0236,,,,,,
-O00207,A0537,B0028,"Leader, Lewes District Council",Green Party,G0229,,,,,,
+O00207,A0537,B0028,"Leader, Lewes District Council",Green Party,G0229,,,y,471,2026-11-04,https://democracy.lewes-eastbourne.gov.uk/mgUserInfo.aspx?UID=471
 O00208,A0219,B0029,Councillor for Chaucer,Green Party,G0341,2026-05-11,,y,50003423,2026-10-25,https://moderngov.southwark.gov.uk/mgUserInfo.aspx?UID=50003423
 O00209,A0219,B0029,Deputy Executive Member for Adult Services,Green Party,G0341,,,y,50003423,2026-10-25,https://moderngov.southwark.gov.uk/mgUserInfo.aspx?UID=50003423
 O00278,A0001,B0001,MP,Labour,G0015,2015-05-07,,y,4493,2026-11-04,https://members.parliament.uk/member/4493/contact
@@ -210,3 +210,5 @@ O00447,A0286,B0003,MSP,Scottish National Party,G0016,2016-05-05,,y,5669,2026-11-
 O00448,A0287,B0003,MSP,Scottish Greens,G0016,2021-05-06,,y,16207,2026-11-04,https://data.parliament.scot/api/members
 O00449,A0288,B0003,MSP,Scottish Greens,G0016,2021-05-06,,y,16196,2026-11-04,https://data.parliament.scot/api/members
 O00450,A0289,B0003,MSP,Scottish Greens,G0016,2003-05-01,,y,2127,2026-11-04,https://data.parliament.scot/api/members
+O00451,A0516,B0004,Leader of the Wales Green Party; Senedd Member (Caerdydd Penarth),Wales Green Party,G0376,2026-05-08,,y,,2026-11-04,https://senedd.wales/people/anthony-slaughter-ms/
+O00452,A0515,B0030,Leader of Wealden District Council (Hartfield ward),Green Party,G0390,2023-05-04,,y,50002986,2026-11-04,https://council.wealden.gov.uk/mgUserInfo.aspx?UID=50002986
