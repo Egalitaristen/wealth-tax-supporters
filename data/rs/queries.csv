@@ -1,0 +1,10 @@
+query_id,run_id,date,language,query,channel,results_opened,leads_added,note
+Q0001,R001,2026-11-04,sr,porez na bogatstvo Srbija predlog Zeleno-levi front Moramo porez na imovinu najbogatijih,web,4,1,
+Q0002,R001,2026-11-04,sr,porez na bogate Srbija poslanik predlog zakona milijarderi porez na bogatstvo sindikat,web,4,0,
+Q0003,R001,2026-11-04,sr,"""porez na bogatstvo"" Srbija poslanik OR stranka OR sindikat predlog uvođenje",web,3,0,
+Q0004,R001,2026-11-04,sr,"""porez na imovinu"" najbogatijih OR ""porez na bogatstvo"" Kreni-Promeni OR Savo Manojlović OR Marinika Tepić OR Đilas",web,4,0,
+Q0005,R001,2026-11-04,sr,sindikat Nezavisnost OR Savez samostalnih sindikata zahteva porez na bogatstvo OR progresivno oporezivanje,web,3,1,
+Q0006,R001,2026-11-04,sr,Srbija porez na milijardere OR porez na superbogate poslanik OR ekonomista OR stranka,web,4,1,
+Q0007,R001,2026-11-04,sr,Zukman porez milijarderi Srbija intervju ekonomista porez na bogatstvo,web,3,1,
+Q0008,R001,2026-11-04,en,Serbia wealth tax proposal Green-Left Front OR Kreni-Promeni OR economist OR union,web,3,0,
+Q0009,R001,2026-11-04,sr,Zeleno-levi front program porez na bogatstvo oporezivanje bogatstva,web,3,0,

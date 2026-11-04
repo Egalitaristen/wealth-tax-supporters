@@ -1,0 +1,2 @@
+body_id,name,level,kind,seats,as_of,source_url,seat_view,notes
+B0001,Narodno sabranie (National Assembly),national,chamber,240,2026-11-04,https://www.parliament.bg/bg/MP,y,"52nd National Assembly (opened 2026-04-30). Seats by parliamentary group, from the Assembly open-data endpoints https://www.parliament.bg/api/v1/coll-list/bg/2 (group sizes) and https://www.parliament.bg/api/v1/coll-list-ns/bg (240 members). Groups, not parties: DB and PP formed separate groups after the election."

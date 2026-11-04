@@ -1,0 +1,8 @@
+{
+  "name": "Serbia",
+  "iso2": "RS",
+  "lead": "",
+  "status": "in progress",
+  "boundaries": "boundaries.json",
+  "notes": "Depth: seed (R001, 2026-11-04). National level only. No supporter of an actual wealth tax was found, so actors and evidence are empty; the near-misses are in exclusions.csv. Serbian debate is about progressive income tax, the annual income tax for high earners (the 'porez na bogate') and property tax, all out of definition. Register: 25 districts (NUTS 3) and 168 cities and municipalities (Eurostat GISCO LAU 2024, Serbia without Kosovo; the official count is 174, GISCO lists Belgrade's city municipalities and some cities differently). Map: Eurostat GISCO LAU 2024 and NUTS 2024, CC BY 4.0, codes are the Eurostat LAU codes and NUTS. No Seats tab: no supporter sits in the Narodna skupstina, so there is nothing to light."
+}

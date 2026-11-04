@@ -1,0 +1,8 @@
+{
+  "name": "Bulgaria",
+  "iso2": "BG",
+  "lead": "",
+  "status": "in progress",
+  "boundaries": "boundaries.json",
+  "notes": "Depth: seed (R001, 2026-11-04). National level only. 8 supporters, 11 evidence rows: two union confederations (KNSB, Podkrepa) and their officials, and five Socialist MEPs or ex-MEPs on two European Parliament roll calls (one now sits in the National Assembly). No MP bill, party programme or economist's recommendation for a net wealth tax was found; Bulgaria's debate is about replacing the 10% flat income tax with a progressive one, which is out of definition. Register: 28 oblasti (NUTS 3) and 265 obshtini (LAU), Eurostat GISCO 2024. Map: Eurostat GISCO LAU 2024 and NUTS 2024, CC BY 4.0, codes are Eurostat LAU (national NSI codes) and NUTS. Seats: 52nd National Assembly, 240 seats, from parliament.bg open data. capital.bg blocks scripts and was not read."
+}

@@ -1,0 +1,195 @@
+geo_unit_id,name,level,unit_type,parent_id,website,sweep_status,swept_run,swept_date,queries_run,hits,notes,code
+G0001,Serbia,national,country,,https://www.srbija.gov.rs,in_progress,R001,2026-11-04,,,National seed pass only; no regional or local sweep.,RS
+G0002,City of Belgrade,region,district,G0001,,pending,,,,,Eurostat GISCO NUTS 2024 level 3. Serbian: Београдска област,RS110
+G0003,Zapadnobačka oblast ,region,district,G0001,,pending,,,,,Eurostat GISCO NUTS 2024 level 3. Serbian: Западнобачка област,RS121
+G0004,Južnobanatska oblast,region,district,G0001,,pending,,,,,Eurostat GISCO NUTS 2024 level 3. Serbian: Јужнобанатска област,RS122
+G0005,Južnobačka oblast,region,district,G0001,,pending,,,,,Eurostat GISCO NUTS 2024 level 3. Serbian: Јужнобачка област,RS123
+G0006,Severnobanatska oblast,region,district,G0001,,pending,,,,,Eurostat GISCO NUTS 2024 level 3. Serbian: Севернобанатска област,RS124
+G0007,Severnobačka oblast,region,district,G0001,,pending,,,,,Eurostat GISCO NUTS 2024 level 3. Serbian: Севернобачка област,RS125
+G0008,Srednjobanatska oblast,region,district,G0001,,pending,,,,,Eurostat GISCO NUTS 2024 level 3. Serbian: Средњобанатска област,RS126
+G0009,Sremska oblast,region,district,G0001,,pending,,,,,Eurostat GISCO NUTS 2024 level 3. Serbian: Сремска област,RS127
+G0010,Zlatiborska oblast,region,district,G0001,,pending,,,,,Eurostat GISCO NUTS 2024 level 3. Serbian: Златиборска област,RS211
+G0011,Kolubarska oblast,region,district,G0001,,pending,,,,,Eurostat GISCO NUTS 2024 level 3. Serbian: Колубарска област,RS212
+G0012,Mačvanska oblast,region,district,G0001,,pending,,,,,Eurostat GISCO NUTS 2024 level 3. Serbian: Мачванска област,RS213
+G0013,Moravička oblast,region,district,G0001,,pending,,,,,Eurostat GISCO NUTS 2024 level 3. Serbian: Моравичка област,RS214
+G0014,Pomoravska oblast,region,district,G0001,,pending,,,,,Eurostat GISCO NUTS 2024 level 3. Serbian: Поморавска област,RS215
+G0015,Rasinska oblast,region,district,G0001,,pending,,,,,Eurostat GISCO NUTS 2024 level 3. Serbian: Расинска област,RS216
+G0016,Raška oblast,region,district,G0001,,pending,,,,,Eurostat GISCO NUTS 2024 level 3. Serbian: Рашка област,RS217
+G0017,Šumadijska oblast,region,district,G0001,,pending,,,,,Eurostat GISCO NUTS 2024 level 3. Serbian: Шумадијска област,RS218
+G0018,Borska oblast,region,district,G0001,,pending,,,,,Eurostat GISCO NUTS 2024 level 3. Serbian: Борска област,RS221
+G0019,Braničevska oblast,region,district,G0001,,pending,,,,,Eurostat GISCO NUTS 2024 level 3. Serbian: Браничевска област,RS222
+G0020,Zaječarska oblast,region,district,G0001,,pending,,,,,Eurostat GISCO NUTS 2024 level 3. Serbian: Зајечарска област,RS223
+G0021,Jablanička oblast,region,district,G0001,,pending,,,,,Eurostat GISCO NUTS 2024 level 3. Serbian: Јабланичка област,RS224
+G0022,Nišavska oblast,region,district,G0001,,pending,,,,,Eurostat GISCO NUTS 2024 level 3. Serbian: Нишавска област,RS225
+G0023,Pirotska oblast,region,district,G0001,,pending,,,,,Eurostat GISCO NUTS 2024 level 3. Serbian: Пиротска област,RS226
+G0024,Podunavska oblast,region,district,G0001,,pending,,,,,Eurostat GISCO NUTS 2024 level 3. Serbian: Подунавска област,RS227
+G0025,Pčinjska oblast,region,district,G0001,,pending,,,,,Eurostat GISCO NUTS 2024 level 3. Serbian: Пчињска област,RS228
+G0026,Toplička oblast,region,district,G0001,,pending,,,,,Eurostat GISCO NUTS 2024 level 3. Serbian: Топличка област,RS229
+G0027,Belgrade - Barajevo,council,city or municipality,G0002,,pending,,,,,,70092
+G0028,Belgrade - Voždovac,council,city or municipality,G0002,,pending,,,,,,70106
+G0029,Belgrade - Vračar,council,city or municipality,G0002,,pending,,,,,,70114
+G0030,Belgrade - Grocka,council,city or municipality,G0002,,pending,,,,,,70122
+G0031,Belgrade - Zvezdara,council,city or municipality,G0002,,pending,,,,,,70149
+G0032,Belgrade - Zemun,council,city or municipality,G0002,,pending,,,,,,70157
+G0033,Belgrade - Lazarevac,council,city or municipality,G0002,,pending,,,,,,70165
+G0034,Belgrade - Mladenovac,council,city or municipality,G0002,,pending,,,,,,70173
+G0035,Belgrade - Novi Beograd,council,city or municipality,G0002,,pending,,,,,,70181
+G0036,Belgrade - Obrenovac,council,city or municipality,G0002,,pending,,,,,,70190
+G0037,Belgrade - Palilula,council,city or municipality,G0002,,pending,,,,,,70203
+G0038,Belgrade - Rakovica,council,city or municipality,G0002,,pending,,,,,,70211
+G0039,Belgrade - Savski venac,council,city or municipality,G0002,,pending,,,,,,70220
+G0040,Belgrade - Sopot,council,city or municipality,G0002,,pending,,,,,,70238
+G0041,Belgrade - Stari grad,council,city or municipality,G0002,,pending,,,,,,70246
+G0042,Belgrade - Čukarica,council,city or municipality,G0002,,pending,,,,,,70254
+G0043,Belgrade - Surčin,council,city or municipality,G0002,,pending,,,,,,71293
+G0044,Apatin,council,city or municipality,G0003,,pending,,,,,,80047
+G0045,Kula,council,city or municipality,G0003,,pending,,,,,,80233
+G0046,Odžaci,council,city or municipality,G0003,,pending,,,,,,80306
+G0047,Sombor,council,city or municipality,G0003,,pending,,,,,,80381
+G0048,Alibunar,council,city or municipality,G0004,,pending,,,,,,80039
+G0049,Bela Crkva,council,city or municipality,G0004,,pending,,,,,,80098
+G0050,Vršac,council,city or municipality,G0004,,pending,,,,,,80128
+G0051,Kovačica,council,city or municipality,G0004,,pending,,,,,,80217
+G0052,Kovin,council,city or municipality,G0004,,pending,,,,,,80225
+G0053,Opovo,council,city or municipality,G0004,,pending,,,,,,80292
+G0054,Pančevo,council,city or municipality,G0004,,pending,,,,,,80314
+G0055,Plandište,council,city or municipality,G0004,,pending,,,,,,80349
+G0056,Bač,council,city or municipality,G0005,,pending,,,,,,80055
+G0057,Bačka Palanka,council,city or municipality,G0005,,pending,,,,,,80063
+G0058,Bački Petrovac,council,city or municipality,G0005,,pending,,,,,,80080
+G0059,Beočin,council,city or municipality,G0005,,pending,,,,,,80101
+G0060,Bečej,council,city or municipality,G0005,,pending,,,,,,80110
+G0061,Žabalj,council,city or municipality,G0005,,pending,,,,,,80136
+G0062,Novi Sad,council,city or municipality,G0005,,pending,,,,,,80284
+G0063,Srbobran,council,city or municipality,G0005,,pending,,,,,,80390
+G0064,Sremski Karlovci,council,city or municipality,G0005,,pending,,,,,,80411
+G0065,Temerin,council,city or municipality,G0005,,pending,,,,,,80446
+G0066,Titel,council,city or municipality,G0005,,pending,,,,,,80454
+G0067,Vrbas,council,city or municipality,G0005,,pending,,,,,,80462
+G0068,Ada,council,city or municipality,G0006,,pending,,,,,,80012
+G0069,Kanjiža,council,city or municipality,G0006,,pending,,,,,,80195
+G0070,Kikinda,council,city or municipality,G0006,,pending,,,,,,80209
+G0071,Novi Kneževac,council,city or municipality,G0006,,pending,,,,,,80276
+G0072,Senta,council,city or municipality,G0006,,pending,,,,,,80365
+G0073,Čoka,council,city or municipality,G0006,,pending,,,,,,80489
+G0074,Bačka Topola,council,city or municipality,G0007,,pending,,,,,,80071
+G0075,Mali Iđoš,council,city or municipality,G0007,,pending,,,,,,80241
+G0076,Subotica,council,city or municipality,G0007,,pending,,,,,,80438
+G0077,Žitište,council,city or municipality,G0008,,pending,,,,,,80144
+G0078,Zrenjanin,council,city or municipality,G0008,,pending,,,,,,80152
+G0079,Nova Crnja,council,city or municipality,G0008,,pending,,,,,,80250
+G0080,Novi Bečej,council,city or municipality,G0008,,pending,,,,,,80268
+G0081,Sečanj,council,city or municipality,G0008,,pending,,,,,,80373
+G0082,Inđija,council,city or municipality,G0009,,pending,,,,,,80179
+G0083,Irig,council,city or municipality,G0009,,pending,,,,,,80187
+G0084,Pećinci,council,city or municipality,G0009,,pending,,,,,,80322
+G0085,Ruma,council,city or municipality,G0009,,pending,,,,,,80357
+G0086,Sremska Mitrovica,council,city or municipality,G0009,,pending,,,,,,80403
+G0087,Stara Pazova,council,city or municipality,G0009,,pending,,,,,,80420
+G0088,Šid,council,city or municipality,G0009,,pending,,,,,,80497
+G0089,Arilje,council,city or municipality,G0010,,pending,,,,,,70041
+G0090,Bajina Bašta,council,city or municipality,G0010,,pending,,,,,,70068
+G0091,Kosjerić,council,city or municipality,G0010,,pending,,,,,,70629
+G0092,Nova Varoš,council,city or municipality,G0010,,pending,,,,,,70866
+G0093,Požega,council,city or municipality,G0010,,pending,,,,,,70955
+G0094,Priboj,council,city or municipality,G0010,,pending,,,,,,70971
+G0095,Prijepolje,council,city or municipality,G0010,,pending,,,,,,70980
+G0096,Sjenica,council,city or municipality,G0010,,pending,,,,,,71072
+G0097,Užice,council,city or municipality,G0010,,pending,,,,,,71145
+G0098,Čajetina,council,city or municipality,G0010,,pending,,,,,,71234
+G0099,Sevojno,council,city or municipality,G0010,,pending,,,,,,71366
+G0100,Valjevo,council,city or municipality,G0011,,pending,,,,,,70360
+G0101,Lajkovac,council,city or municipality,G0011,,pending,,,,,,70700
+G0102,Ljig,council,city or municipality,G0011,,pending,,,,,,70769
+G0103,Mionica,council,city or municipality,G0011,,pending,,,,,,70831
+G0104,Osečina,council,city or municipality,G0011,,pending,,,,,,70882
+G0105,Ub,council,city or municipality,G0011,,pending,,,,,,71218
+G0106,Bogatić,council,city or municipality,G0012,,pending,,,,,,70289
+G0107,Vladimirci,council,city or municipality,G0012,,pending,,,,,,70408
+G0108,Koceljeva,council,city or municipality,G0012,,pending,,,,,,70637
+G0109,Krupanj,council,city or municipality,G0012,,pending,,,,,,70661
+G0110,Loznica,council,city or municipality,G0012,,pending,,,,,,70734
+G0111,Ljubovija,council,city or municipality,G0012,,pending,,,,,,70777
+G0112,Mali Zvornik,council,city or municipality,G0012,,pending,,,,,,70793
+G0113,Šabac,council,city or municipality,G0012,,pending,,,,,,71269
+G0114,Gornji Milanovac,council,city or municipality,G0013,,pending,,,,,,70483
+G0115,Ivanjica,council,city or municipality,G0013,,pending,,,,,,70564
+G0116,Lučani,council,city or municipality,G0013,,pending,,,,,,70742
+G0117,Čačak,council,city or municipality,G0013,,pending,,,,,,71242
+G0118,Despotovac,council,city or municipality,G0014,,pending,,,,,,70491
+G0119,Paraćin,council,city or municipality,G0014,,pending,,,,,,70904
+G0120,Rekovac,council,city or municipality,G0014,,pending,,,,,,71030
+G0121,Jagodina,council,city or municipality,G0014,,pending,,,,,,71048
+G0122,Svilajnac,council,city or municipality,G0014,,pending,,,,,,71056
+G0123,Ćuprija,council,city or municipality,G0014,,pending,,,,,,71200
+G0124,Aleksandrovac,council,city or municipality,G0015,,pending,,,,,,70017
+G0125,Brus,council,city or municipality,G0015,,pending,,,,,,70343
+G0126,Varvarin,council,city or municipality,G0015,,pending,,,,,,70378
+G0127,Kruševac,council,city or municipality,G0015,,pending,,,,,,70670
+G0128,Trstenik,council,city or municipality,G0015,,pending,,,,,,71170
+G0129,Ćićevac,council,city or municipality,G0015,,pending,,,,,,71196
+G0130,Vrnjačka Banja,council,city or municipality,G0016,,pending,,,,,,70459
+G0131,Kraljevo,council,city or municipality,G0016,,pending,,,,,,70653
+G0132,Novi Pazar,council,city or municipality,G0016,,pending,,,,,,70874
+G0133,Raška,council,city or municipality,G0016,,pending,,,,,,71021
+G0134,Tutin,council,city or municipality,G0016,,pending,,,,,,71188
+G0135,Arandjelovac,council,city or municipality,G0017,,pending,,,,,,70033
+G0136,Batočina,council,city or municipality,G0017,,pending,,,,,,70076
+G0137,Knić,council,city or municipality,G0017,,pending,,,,,,70599
+G0138,Kragujevac,council,city or municipality,G0017,,pending,,,,,,70645
+G0139,Rača,council,city or municipality,G0017,,pending,,,,,,71013
+G0140,Topola,council,city or municipality,G0017,,pending,,,,,,71153
+G0141,Lapovo,council,city or municipality,G0017,,pending,,,,,,71277
+G0142,Bor,council,city or municipality,G0018,,pending,,,,,,70327
+G0143,Kladovo,council,city or municipality,G0018,,pending,,,,,,70572
+G0144,Majdanpek,council,city or municipality,G0018,,pending,,,,,,70785
+G0145,Negotin,council,city or municipality,G0018,,pending,,,,,,70840
+G0146,Veliko Gradište,council,city or municipality,G0019,,pending,,,,,,70394
+G0147,Golubac,council,city or municipality,G0019,,pending,,,,,,70475
+G0148,Žabari,council,city or municipality,G0019,,pending,,,,,,70521
+G0149,Žagubica,council,city or municipality,G0019,,pending,,,,,,70530
+G0150,Kučevo,council,city or municipality,G0019,,pending,,,,,,70696
+G0151,Malo Crniće,council,city or municipality,G0019,,pending,,,,,,70807
+G0152,Petrovac na Mlavi,council,city or municipality,G0019,,pending,,,,,,70912
+G0153,Požarevac,council,city or municipality,G0019,,pending,,,,,,70947
+G0154,Kostolac,council,city or municipality,G0019,,pending,,,,,,71340
+G0155,Boljevac,council,city or municipality,G0020,,pending,,,,,,70319
+G0156,Zaječar,council,city or municipality,G0020,,pending,,,,,,70556
+G0157,Knjaževac,council,city or municipality,G0020,,pending,,,,,,70602
+G0158,Sokobanja,council,city or municipality,G0020,,pending,,,,,,71129
+G0159,Bojnik,council,city or municipality,G0021,,pending,,,,,,70297
+G0160,Vlasotince,council,city or municipality,G0021,,pending,,,,,,70424
+G0161,Lebane,council,city or municipality,G0021,,pending,,,,,,70718
+G0162,Leskovac,council,city or municipality,G0021,,pending,,,,,,70726
+G0163,Medveđa,council,city or municipality,G0021,,pending,,,,,,70815
+G0164,Crna Trava,council,city or municipality,G0021,,pending,,,,,,71226
+G0165,Aleksinac,council,city or municipality,G0022,,pending,,,,,,70025
+G0166,Gadžin Han,council,city or municipality,G0022,,pending,,,,,,70467
+G0167,Doljevac,council,city or municipality,G0022,,pending,,,,,,70513
+G0168,Merošina,council,city or municipality,G0022,,pending,,,,,,70823
+G0169,Ražanj,council,city or municipality,G0022,,pending,,,,,,71005
+G0170,Svrljig,council,city or municipality,G0022,,pending,,,,,,71064
+G0171,Niš - Niška Banja,council,city or municipality,G0022,,pending,,,,,,71285
+G0172,Niš - Pantelej,council,city or municipality,G0022,,pending,,,,,,71307
+G0173,Niš - Crveni Krst,council,city or municipality,G0022,,pending,,,,,,71315
+G0174,Niš - Palilula,council,city or municipality,G0022,,pending,,,,,,71323
+G0175,Niš - Medijana,council,city or municipality,G0022,,pending,,,,,,71331
+G0176,Babušnica,council,city or municipality,G0023,,pending,,,,,,70050
+G0177,Bela Palanka,council,city or municipality,G0023,,pending,,,,,,70084
+G0178,Dimitrovgrad,council,city or municipality,G0023,,pending,,,,,,70505
+G0179,Pirot,council,city or municipality,G0023,,pending,,,,,,70939
+G0180,Velika Plana,council,city or municipality,G0024,,pending,,,,,,70386
+G0181,Smederevo,council,city or municipality,G0024,,pending,,,,,,71099
+G0182,Smederevska Palanka,council,city or municipality,G0024,,pending,,,,,,71102
+G0183,Bosilegrad,council,city or municipality,G0025,,pending,,,,,,70335
+G0184,Bujanovac,council,city or municipality,G0025,,pending,,,,,,70351
+G0185,Vladičin Han,council,city or municipality,G0025,,pending,,,,,,70416
+G0186,Vranje,council,city or municipality,G0025,,pending,,,,,,70432
+G0187,Preševo,council,city or municipality,G0025,,pending,,,,,,70963
+G0188,Surdulica,council,city or municipality,G0025,,pending,,,,,,71137
+G0189,Trgovište,council,city or municipality,G0025,,pending,,,,,,71161
+G0190,Vranjska Banja,council,city or municipality,G0025,,pending,,,,,,71358
+G0191,Blace,council,city or municipality,G0026,,pending,,,,,,70262
+G0192,Žitorađa,council,city or municipality,G0026,,pending,,,,,,70548
+G0193,Kuršumlija,council,city or municipality,G0026,,pending,,,,,,70688
+G0194,Prokuplje,council,city or municipality,G0026,,pending,,,,,,70998
