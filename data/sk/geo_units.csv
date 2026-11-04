@@ -1,0 +1,2940 @@
+geo_unit_id,name,level,unit_type,parent_id,website,sweep_status,swept_run,swept_date,queries_run,hits,notes,code
+G0001,Slovakia,national,country,,,pending,,,,,Slovak Republic (Slovensko),SK
+G0002,Národná rada Slovenskej republiky,national,legislature,G0001,https://www.nrsr.sk,pending,,,,,"National Council, unicameral parliament (150 seats)",
+G0003,Vláda Slovenskej republiky,national,executive,G0001,https://www.vlada.gov.sk,pending,,,,,Government of the Slovak Republic,
+G0004,European Parliament (Slovakia MEPs),supranational,legislature,G0001,https://www.europarl.europa.eu,pending,,,,,Slovakia members of the European Parliament,
+G0005,Bratislavský kraj,region,kraj,G0001,,pending,,,,,,SK010
+G0006,Trnavský kraj,region,kraj,G0001,,pending,,,,,,SK021
+G0007,Trenčiansky kraj,region,kraj,G0001,,pending,,,,,,SK022
+G0008,Nitriansky kraj,region,kraj,G0001,,pending,,,,,,SK023
+G0009,Žilinský kraj,region,kraj,G0001,,pending,,,,,,SK031
+G0010,Banskobystrický kraj,region,kraj,G0001,,pending,,,,,,SK032
+G0011,Prešovský kraj,region,kraj,G0001,,pending,,,,,,SK041
+G0012,Košický kraj,region,kraj,G0001,,pending,,,,,,SK042
+G0013,Bernolákovo,council,obec,G0005,,pending,,,,,,507814
+G0014,Blatné,council,obec,G0005,,pending,,,,,,507822
+G0015,Boldog,council,obec,G0005,,pending,,,,,,503681
+G0016,Borinka,council,obec,G0005,,pending,,,,,,507831
+G0017,Bratislava - mestská časť Devín,council,obec,G0005,,pending,,,,,,529401
+G0018,Bratislava - mestská časť Devínska Nová Ves,council,obec,G0005,,pending,,,,,,529371
+G0019,Bratislava - mestská časť Dúbravka,council,obec,G0005,,pending,,,,,,529389
+G0020,Bratislava - mestská časť Jarovce,council,obec,G0005,,pending,,,,,,529443
+G0021,Bratislava - mestská časť Karlova Ves,council,obec,G0005,,pending,,,,,,529397
+G0022,Bratislava - mestská časť Lamač,council,obec,G0005,,pending,,,,,,529419
+G0023,Bratislava - mestská časť Nové Mesto,council,obec,G0005,,pending,,,,,,529346
+G0024,Bratislava - mestská časť Petržalka,council,obec,G0005,,pending,,,,,,529460
+G0025,Bratislava - mestská časť Podunajské Biskupice,council,obec,G0005,,pending,,,,,,529311
+G0026,Bratislava - mestská časť Rača,council,obec,G0005,,pending,,,,,,529354
+G0027,Bratislava - mestská časť Rusovce,council,obec,G0005,,pending,,,,,,529494
+G0028,Bratislava - mestská časť Ružinov,council,obec,G0005,,pending,,,,,,529320
+G0029,Bratislava - mestská časť Staré Mesto,council,obec,G0005,,pending,,,,,,528595
+G0030,Bratislava - mestská časť Vajnory,council,obec,G0005,,pending,,,,,,529362
+G0031,Bratislava - mestská časť Vrakuňa,council,obec,G0005,,pending,,,,,,529338
+G0032,Bratislava - mestská časť Záhorská Bystrica,council,obec,G0005,,pending,,,,,,529427
+G0033,Bratislava - mestská časť Čunovo,council,obec,G0005,,pending,,,,,,529435
+G0034,Budmerice,council,obec,G0005,,pending,,,,,,507849
+G0035,Báhoň,council,obec,G0005,,pending,,,,,,507806
+G0036,Chorvátsky Grob,council,obec,G0005,,pending,,,,,,507911
+G0037,Doľany (okres Pezinok),council,obec,G0005,,pending,,,,,,507873
+G0038,Dubová (okres Pezinok),council,obec,G0005,,pending,,,,,,507881
+G0039,Dunajská Lužná,council,obec,G0005,,pending,,,,,,545333
+G0040,Gajary,council,obec,G0005,,pending,,,,,,507890
+G0041,Hamuliakovo,council,obec,G0005,,pending,,,,,,507903
+G0042,Hrubá Borša,council,obec,G0005,,pending,,,,,,503797
+G0043,Hrubý Šúr,council,obec,G0005,,pending,,,,,,503801
+G0044,Hurbanova Ves,council,obec,G0005,,pending,,,,,,503819
+G0045,Igram,council,obec,G0005,,pending,,,,,,555487
+G0046,Ivanka pri Dunaji,council,obec,G0005,,pending,,,,,,507938
+G0047,Jablonec,council,obec,G0005,,pending,,,,,,507946
+G0048,Jablonové (okres Malacky),council,obec,G0005,,pending,,,,,,507954
+G0049,Jakubov,council,obec,G0005,,pending,,,,,,507962
+G0050,Kalinkovo,council,obec,G0005,,pending,,,,,,507997
+G0051,Kaplna,council,obec,G0005,,pending,,,,,,555495
+G0052,Kostolište,council,obec,G0005,,pending,,,,,,508012
+G0053,Kostolná pri Dunaji,council,obec,G0005,,pending,,,,,,503851
+G0054,Kráľová pri Senci,council,obec,G0005,,pending,,,,,,503894
+G0055,Kuchyňa,council,obec,G0005,,pending,,,,,,508021
+G0056,Limbach,council,obec,G0005,,pending,,,,,,508047
+G0057,Lozorno,council,obec,G0005,,pending,,,,,,508055
+G0058,Láb,council,obec,G0005,,pending,,,,,,508039
+G0059,Malacky,council,obec,G0005,,pending,,,,,,508063
+G0060,Malinovo,council,obec,G0005,,pending,,,,,,508071
+G0061,Malé Leváre,council,obec,G0005,,pending,,,,,,504556
+G0062,Marianka,council,obec,G0005,,pending,,,,,,508080
+G0063,Miloslavov,council,obec,G0005,,pending,,,,,,508098
+G0064,Modra,council,obec,G0005,,pending,,,,,,508101
+G0065,Most pri Bratislave,council,obec,G0005,,pending,,,,,,508110
+G0066,Nová Dedinka,council,obec,G0005,,pending,,,,,,508136
+G0067,Nový Svet,council,obec,G0005,,pending,,,,,,582549
+G0068,Pernek,council,obec,G0005,,pending,,,,,,508161
+G0069,Pezinok,council,obec,G0005,,pending,,,,,,508179
+G0070,Plavecké Podhradie,council,obec,G0005,,pending,,,,,,504629
+G0071,Plavecký Mikuláš,council,obec,G0005,,pending,,,,,,504637
+G0072,Plavecký Štvrtok,council,obec,G0005,,pending,,,,,,508195
+G0073,Píla (okres Pezinok),council,obec,G0005,,pending,,,,,,508187
+G0074,Reca,council,obec,G0005,,pending,,,,,,503983
+G0075,Rohožník (okres Malacky),council,obec,G0005,,pending,,,,,,504769
+G0076,Rovinka,council,obec,G0005,,pending,,,,,,508209
+G0077,Senec,council,obec,G0005,,pending,,,,,,508217
+G0078,Slovenský Grob,council,obec,G0005,,pending,,,,,,508225
+G0079,Sološnica,council,obec,G0005,,pending,,,,,,504858
+G0080,Studienka,council,obec,G0005,,pending,,,,,,504874
+G0081,Stupava,council,obec,G0005,,pending,,,,,,508233
+G0082,Suchohrad,council,obec,G0005,,pending,,,,,,508241
+G0083,Svätý Jur,council,obec,G0005,,pending,,,,,,507989
+G0084,Tomášov,council,obec,G0005,,pending,,,,,,508276
+G0085,Tureň,council,obec,G0005,,pending,,,,,,508284
+G0086,Veľké Leváre,council,obec,G0005,,pending,,,,,,504947
+G0087,Veľký Biel,council,obec,G0005,,pending,,,,,,508292
+G0088,Viničné,council,obec,G0005,,pending,,,,,,508306
+G0089,Vinosady,council,obec,G0005,,pending,,,,,,508314
+G0090,Vištuk,council,obec,G0005,,pending,,,,,,508322
+G0091,Vlky,council,obec,G0005,,pending,,,,,,508331
+G0092,Vysoká pri Morave,council,obec,G0005,,pending,,,,,,508349
+G0093,Zohor,council,obec,G0005,,pending,,,,,,508381
+G0094,Záhorie (vojenský obvod),council,obec,G0005,,pending,,,,,,500267
+G0095,Záhorská Ves,council,obec,G0005,,pending,,,,,,508365
+G0096,Zálesie (okres Senec),council,obec,G0005,,pending,,,,,,555509
+G0097,Závod,council,obec,G0005,,pending,,,,,,504980
+G0098,Častá,council,obec,G0005,,pending,,,,,,507857
+G0099,Čataj,council,obec,G0005,,pending,,,,,,507865
+G0100,Šenkvice,council,obec,G0005,,pending,,,,,,508250
+G0101,Štefanová,council,obec,G0005,,pending,,,,,,508268
+G0102,Abrahám,council,obec,G0006,,pending,,,,,,503673
+G0103,Baka,council,obec,G0006,,pending,,,,,,501450
+G0104,Baloň,council,obec,G0006,,pending,,,,,,501468
+G0105,Banka,council,obec,G0006,,pending,,,,,,581399
+G0106,Bašovce,council,obec,G0006,,pending,,,,,,558354
+G0107,Bellova Ves,council,obec,G0006,,pending,,,,,,555517
+G0108,Biely Kostol,council,obec,G0006,,pending,,,,,,580473
+G0109,Blahová,council,obec,G0006,,pending,,,,,,501484
+G0110,Blatná na Ostrove,council,obec,G0006,,pending,,,,,,501492
+G0111,Bodíky,council,obec,G0006,,pending,,,,,,503461
+G0112,Bohdanovce nad Trnavou,council,obec,G0006,,pending,,,,,,506796
+G0113,Boheľov,council,obec,G0006,,pending,,,,,,501506
+G0114,Bojničky,council,obec,G0006,,pending,,,,,,506800
+G0115,Boleráz,council,obec,G0006,,pending,,,,,,506818
+G0116,Borovce,council,obec,G0006,,pending,,,,,,506834
+G0117,Borová,council,obec,G0006,,pending,,,,,,506826
+G0118,Borský Mikuláš,council,obec,G0006,,pending,,,,,,504238
+G0119,Borský Svätý Jur,council,obec,G0006,,pending,,,,,,504220
+G0120,Brestovany,council,obec,G0006,,pending,,,,,,506842
+G0121,Brodské,council,obec,G0006,,pending,,,,,,504271
+G0122,Buková,council,obec,G0006,,pending,,,,,,506869
+G0123,Bučany,council,obec,G0006,,pending,,,,,,506851
+G0124,Báč,council,obec,G0006,,pending,,,,,,501441
+G0125,Bílkove Humence,council,obec,G0006,,pending,,,,,,504211
+G0126,Bíňovce,council,obec,G0006,,pending,,,,,,506788
+G0127,Cerová,council,obec,G0006,,pending,,,,,,504297
+G0128,Chropov,council,obec,G0006,,pending,,,,,,504394
+G0129,Chtelnica,council,obec,G0006,,pending,,,,,,507121
+G0130,Cífer,council,obec,G0006,,pending,,,,,,506877
+G0131,Dechtice,council,obec,G0006,,pending,,,,,,506893
+G0132,Dlhá,council,obec,G0006,,pending,,,,,,556599
+G0133,Dobrohošť,council,obec,G0006,,pending,,,,,,501549
+G0134,Dobrá Voda,council,obec,G0006,,pending,,,,,,506915
+G0135,Dojč,council,obec,G0006,,pending,,,,,,504335
+G0136,Dolná Krupá,council,obec,G0006,,pending,,,,,,506923
+G0137,Dolná Streda,council,obec,G0006,,pending,,,,,,555789
+G0138,Dolné Dubové,council,obec,G0006,,pending,,,,,,506931
+G0139,Dolné Lovčice,council,obec,G0006,,pending,,,,,,556661
+G0140,Dolné Orešany,council,obec,G0006,,pending,,,,,,506940
+G0141,Dolné Otrokovce,council,obec,G0006,,pending,,,,,,506958
+G0142,Dolné Saliby,council,obec,G0006,,pending,,,,,,503746
+G0143,Dolné Trhovište,council,obec,G0006,,pending,,,,,,506966
+G0144,Dolné Zelenice,council,obec,G0006,,pending,,,,,,556521
+G0145,Dolný Bar,council,obec,G0006,,pending,,,,,,501557
+G0146,Dolný Chotár,council,obec,G0006,,pending,,,,,,503754
+G0147,Dolný Lopašov,council,obec,G0006,,pending,,,,,,506982
+G0148,Dolný Štál,council,obec,G0006,,pending,,,,,,501611
+G0149,Drahovce,council,obec,G0006,,pending,,,,,,506991
+G0150,Dubovany,council,obec,G0006,,pending,,,,,,507008
+G0151,Dubovce,council,obec,G0006,,pending,,,,,,504343
+G0152,Ducové,council,obec,G0006,,pending,,,,,,558338
+G0153,Dunajská Streda,council,obec,G0006,,pending,,,,,,501433
+G0154,Dunajský Klátov,council,obec,G0006,,pending,,,,,,555541
+G0155,Dvorníky,council,obec,G0006,,pending,,,,,,507024
+G0156,Gabčíkovo,council,obec,G0006,,pending,,,,,,501573
+G0157,Galanta,council,obec,G0006,,pending,,,,,,503665
+G0158,Gbely,council,obec,G0006,,pending,,,,,,504351
+G0159,Gáň,council,obec,G0006,,pending,,,,,,503762
+G0160,Hlboké,council,obec,G0006,,pending,,,,,,504360
+G0161,Hlohovec,council,obec,G0006,,pending,,,,,,507032
+G0162,Holice,council,obec,G0006,,pending,,,,,,501581
+G0163,Holíč,council,obec,G0006,,pending,,,,,,504378
+G0164,Horná Krupá,council,obec,G0006,,pending,,,,,,507041
+G0165,Horná Potôň,council,obec,G0006,,pending,,,,,,501590
+G0166,Horné Dubové,council,obec,G0006,,pending,,,,,,507059
+G0167,Horné Mýto,council,obec,G0006,,pending,,,,,,555568
+G0168,Horné Orešany,council,obec,G0006,,pending,,,,,,507067
+G0169,Horné Otrokovce,council,obec,G0006,,pending,,,,,,507075
+G0170,Horné Saliby,council,obec,G0006,,pending,,,,,,503771
+G0171,Horné Trhovište,council,obec,G0006,,pending,,,,,,556602
+G0172,Horné Zelenice,council,obec,G0006,,pending,,,,,,556530
+G0173,Horný Bar,council,obec,G0006,,pending,,,,,,501603
+G0174,Hoste,council,obec,G0006,,pending,,,,,,503789
+G0175,Hradište pod Vrátnom,council,obec,G0006,,pending,,,,,,504386
+G0176,Hrnčiarovce nad Parnou,council,obec,G0006,,pending,,,,,,581020
+G0177,Hubice,council,obec,G0006,,pending,,,,,,501620
+G0178,Hubina,council,obec,G0006,,pending,,,,,,556581
+G0179,Hviezdoslavov,council,obec,G0006,,pending,,,,,,501638
+G0180,Jablonica,council,obec,G0006,,pending,,,,,,504416
+G0181,Jahodná,council,obec,G0006,,pending,,,,,,501654
+G0182,Jalšové,council,obec,G0006,,pending,,,,,,507130
+G0183,Janíky,council,obec,G0006,,pending,,,,,,501662
+G0184,Jaslovské Bohunice,council,obec,G0006,,pending,,,,,,507156
+G0185,Jelka,council,obec,G0006,,pending,,,,,,503835
+G0186,Jurová,council,obec,G0006,,pending,,,,,,501671
+G0187,Jánovce (okres Galanta),council,obec,G0006,,pending,,,,,,503827
+G0188,Kajal,council,obec,G0006,,pending,,,,,,503843
+G0189,Koplotovce,council,obec,G0006,,pending,,,,,,507202
+G0190,Kopčany,council,obec,G0006,,pending,,,,,,504459
+G0191,Kostolné Kračany,council,obec,G0006,,pending,,,,,,501697
+G0192,Koválov,council,obec,G0006,,pending,,,,,,504475
+G0193,Koválovec,council,obec,G0006,,pending,,,,,,504483
+G0194,Kočín-Lančár,council,obec,G0006,,pending,,,,,,507199
+G0195,Košolná,council,obec,G0006,,pending,,,,,,507211
+G0196,Košúty,council,obec,G0006,,pending,,,,,,503860
+G0197,Krakovany,council,obec,G0006,,pending,,,,,,507229
+G0198,Križovany nad Dudváhom,council,obec,G0006,,pending,,,,,,556483
+G0199,Kráľov Brod,council,obec,G0006,,pending,,,,,,503878
+G0200,Kráľovičove Kračany,council,obec,G0006,,pending,,,,,,501701
+G0201,Kuklov,council,obec,G0006,,pending,,,,,,504491
+G0202,Kvetoslavov,council,obec,G0006,,pending,,,,,,501727
+G0203,Kyselica,council,obec,G0006,,pending,,,,,,580597
+G0204,Kátlovce,council,obec,G0006,,pending,,,,,,507164
+G0205,Kátov,council,obec,G0006,,pending,,,,,,504432
+G0206,Kútniky,council,obec,G0006,,pending,,,,,,501719
+G0207,Kúty,council,obec,G0006,,pending,,,,,,504513
+G0208,Kľačany,council,obec,G0006,,pending,,,,,,507172
+G0209,Kľúčovec,council,obec,G0006,,pending,,,,,,501689
+G0210,Lakšárska Nová Ves,council,obec,G0006,,pending,,,,,,504521
+G0211,Lehnice,council,obec,G0006,,pending,,,,,,501735
+G0212,Leopoldov,council,obec,G0006,,pending,,,,,,507253
+G0213,Letničie,council,obec,G0006,,pending,,,,,,504530
+G0214,Lopašov,council,obec,G0006,,pending,,,,,,504548
+G0215,Lošonec,council,obec,G0006,,pending,,,,,,556688
+G0216,Lúč na Ostrove,council,obec,G0006,,pending,,,,,,501743
+G0217,Macov,council,obec,G0006,,pending,,,,,,555606
+G0218,Mad,council,obec,G0006,,pending,,,,,,555649
+G0219,Madunice,council,obec,G0006,,pending,,,,,,507288
+G0220,Majcichov,council,obec,G0006,,pending,,,,,,507296
+G0221,Malá Mača,council,obec,G0006,,pending,,,,,,582638
+G0222,Malé Dvorníky,council,obec,G0006,,pending,,,,,,555665
+G0223,Malženice,council,obec,G0006,,pending,,,,,,507318
+G0224,Matúškovo,council,obec,G0006,,pending,,,,,,555754
+G0225,Medveďov,council,obec,G0006,,pending,,,,,,501760
+G0226,Merašice,council,obec,G0006,,pending,,,,,,507326
+G0227,Michal na Ostrove,council,obec,G0006,,pending,,,,,,501786
+G0228,Mierovo,council,obec,G0006,,pending,,,,,,501778
+G0229,Mokrý Háj,council,obec,G0006,,pending,,,,,,504564
+G0230,Moravany nad Váhom,council,obec,G0006,,pending,,,,,,507342
+G0231,Moravský Svätý Ján,council,obec,G0006,,pending,,,,,,504572
+G0232,Mostová,council,obec,G0006,,pending,,,,,,503924
+G0233,Naháč,council,obec,G0006,,pending,,,,,,507351
+G0234,Nižná (okres Piešťany),council,obec,G0006,,pending,,,,,,507369
+G0235,Nový Život,council,obec,G0006,,pending,,,,,,501808
+G0236,Ohrady,council,obec,G0006,,pending,,,,,,501816
+G0237,Okoč,council,obec,G0006,,pending,,,,,,501824
+G0238,Opoj,council,obec,G0006,,pending,,,,,,556491
+G0239,Orechová Potôň,council,obec,G0006,,pending,,,,,,501859
+G0240,Oreské (okres Skalica),council,obec,G0006,,pending,,,,,,504599
+G0241,Ostrov (okres Piešťany),council,obec,G0006,,pending,,,,,,507385
+G0242,Osuské,council,obec,G0006,,pending,,,,,,504602
+G0243,Oľdza,council,obec,G0006,,pending,,,,,,501832
+G0244,Padáň,council,obec,G0006,,pending,,,,,,501867
+G0245,Pastuchov,council,obec,G0006,,pending,,,,,,507415
+G0246,Pata,council,obec,G0006,,pending,,,,,,503959
+G0247,Pataš,council,obec,G0006,,pending,,,,,,501883
+G0248,Pavlice,council,obec,G0006,,pending,,,,,,556556
+G0249,Petrova Ves,council,obec,G0006,,pending,,,,,,504611
+G0250,Pečeňady,council,obec,G0006,,pending,,,,,,507431
+G0251,Piešťany,council,obec,G0006,,pending,,,,,,507440
+G0252,Plavecký Peter,council,obec,G0006,,pending,,,,,,504645
+G0253,Podbranč,council,obec,G0006,,pending,,,,,,504653
+G0254,Popudinské Močidľany,council,obec,G0006,,pending,,,,,,504670
+G0255,Potônske Lúky,council,obec,G0006,,pending,,,,,,582522
+G0256,Povoda,council,obec,G0006,,pending,,,,,,555720
+G0257,Prašník,council,obec,G0006,,pending,,,,,,507466
+G0258,Prietrž,council,obec,G0006,,pending,,,,,,504700
+G0259,Prietržka,council,obec,G0006,,pending,,,,,,504718
+G0260,Prievaly,council,obec,G0006,,pending,,,,,,504726
+G0261,Pusté Sady,council,obec,G0006,,pending,,,,,,503967
+G0262,Pusté Úľany,council,obec,G0006,,pending,,,,,,503975
+G0263,Radimov,council,obec,G0006,,pending,,,,,,504734
+G0264,Radošovce (Skalica),council,obec,G0006,,pending,,,,,,504742
+G0265,Radošovce (okres Trnava),council,obec,G0006,,pending,,,,,,556653
+G0266,Rakovice,council,obec,G0006,,pending,,,,,,507482
+G0267,Ratkovce,council,obec,G0006,,pending,,,,,,518620
+G0268,Ratnovce,council,obec,G0006,,pending,,,,,,507491
+G0269,Rohov,council,obec,G0006,,pending,,,,,,556122
+G0270,Rohovce,council,obec,G0006,,pending,,,,,,501891
+G0271,Rovensko,council,obec,G0006,,pending,,,,,,504777
+G0272,Ružindol,council,obec,G0006,,pending,,,,,,507512
+G0273,Rybky,council,obec,G0006,,pending,,,,,,556131
+G0274,Sap,council,obec,G0006,,pending,,,,,,501875
+G0275,Sasinkovo,council,obec,G0006,,pending,,,,,,507521
+G0276,Sekule,council,obec,G0006,,pending,,,,,,556114
+G0277,Senica,council,obec,G0006,,pending,,,,,,504203
+G0278,Sereď,council,obec,G0006,,pending,,,,,,504009
+G0279,Siladice,council,obec,G0006,,pending,,,,,,507539
+G0280,Skalica,council,obec,G0006,,pending,,,,,,504815
+G0281,Slovenská Nová Ves,council,obec,G0006,,pending,,,,,,556564
+G0282,Sládkovičovo,council,obec,G0006,,pending,,,,,,504017
+G0283,Smolenice,council,obec,G0006,,pending,,,,,,507555
+G0284,Smolinské,council,obec,G0006,,pending,,,,,,504823
+G0285,Smrdáky,council,obec,G0006,,pending,,,,,,504831
+G0286,Sobotište,council,obec,G0006,,pending,,,,,,504840
+G0287,Sokolovce,council,obec,G0006,,pending,,,,,,507563
+G0288,Suchá nad Parnou,council,obec,G0006,,pending,,,,,,507571
+G0289,Tekolďany,council,obec,G0006,,pending,,,,,,556611
+G0290,Tepličky,council,obec,G0006,,pending,,,,,,556645
+G0291,Tomášikovo,council,obec,G0006,,pending,,,,,,504076
+G0292,Topoľnica,council,obec,G0006,,pending,,,,,,504084
+G0293,Topoľníky,council,obec,G0006,,pending,,,,,,501921
+G0294,Trakovice,council,obec,G0006,,pending,,,,,,507661
+G0295,Trebatice,council,obec,G0006,,pending,,,,,,507679
+G0296,Trhová Hradská,council,obec,G0006,,pending,,,,,,555576
+G0297,Trnava,council,obec,G0006,,pending,,,,,,506745
+G0298,Trnovec,council,obec,G0006,,pending,,,,,,504912
+G0299,Trnávka (okres Dunajská Streda),council,obec,G0006,,pending,,,,,,501956
+G0300,Trstená na Ostrove,council,obec,G0006,,pending,,,,,,501964
+G0301,Trstice,council,obec,G0006,,pending,,,,,,504106
+G0302,Trstín,council,obec,G0006,,pending,,,,,,507687
+G0303,Unín,council,obec,G0006,,pending,,,,,,504939
+G0304,Veselé,council,obec,G0006,,pending,,,,,,507725
+G0305,Veľká Mača,council,obec,G0006,,pending,,,,,,504122
+G0306,Veľká Paka,council,obec,G0006,,pending,,,,,,501972
+G0307,Veľké Blahovo,council,obec,G0006,,pending,,,,,,501981
+G0308,Veľké Dvorníky,council,obec,G0006,,pending,,,,,,555673
+G0309,Veľké Kostoľany,council,obec,G0006,,pending,,,,,,507709
+G0310,Veľké Orvište,council,obec,G0006,,pending,,,,,,556572
+G0311,Veľké Úľany,council,obec,G0006,,pending,,,,,,504131
+G0312,Veľký Grob,council,obec,G0006,,pending,,,,,,504149
+G0313,Veľký Meder,council,obec,G0006,,pending,,,,,,501522
+G0314,Vieska (okres Dunajská Streda),council,obec,G0006,,pending,,,,,,555746
+G0315,Vinohrady nad Váhom,council,obec,G0006,,pending,,,,,,504157
+G0316,Vlčkovce,council,obec,G0006,,pending,,,,,,556513
+G0317,Voderady,council,obec,G0006,,pending,,,,,,507741
+G0318,Vojka nad Dunajom,council,obec,G0006,,pending,,,,,,501999
+G0319,Vozokany (okres (Galanta),council,obec,G0006,,pending,,,,,,504173
+G0320,Vrakúň,council,obec,G0006,,pending,,,,,,502006
+G0321,Vrbové,council,obec,G0006,,pending,,,,,,507750
+G0322,Vrádište,council,obec,G0006,,pending,,,,,,504963
+G0323,Vydrany,council,obec,G0006,,pending,,,,,,502014
+G0324,Váhovce,council,obec,G0006,,pending,,,,,,504114
+G0325,Zavar,council,obec,G0006,,pending,,,,,,507768
+G0326,Zeleneč,council,obec,G0006,,pending,,,,,,507776
+G0327,Zemianske Sady,council,obec,G0006,,pending,,,,,,504181
+G0328,Zlaté Klasy,council,obec,G0006,,pending,,,,,,502022
+G0329,Zvončín,council,obec,G0006,,pending,,,,,,581488
+G0330,Čakany,council,obec,G0006,,pending,,,,,,501514
+G0331,Častkov,council,obec,G0006,,pending,,,,,,504327
+G0332,Čenkovce,council,obec,G0006,,pending,,,,,,580554
+G0333,Červeník,council,obec,G0006,,pending,,,,,,506885
+G0334,Čierna Voda,council,obec,G0006,,pending,,,,,,503690
+G0335,Čierny Brod,council,obec,G0006,,pending,,,,,,503703
+G0336,Čiližská Radvaň,council,obec,G0006,,pending,,,,,,501531
+G0337,Čáry,council,obec,G0006,,pending,,,,,,504319
+G0338,Ňárad,council,obec,G0006,,pending,,,,,,501930
+G0339,Šajdíkove Humence,council,obec,G0006,,pending,,,,,,504882
+G0340,Šalgočka,council,obec,G0006,,pending,,,,,,504033
+G0341,Šamorín,council,obec,G0006,,pending,,,,,,501905
+G0342,Šaštín-Stráže,council,obec,G0006,,pending,,,,,,504891
+G0343,Šelpice,council,obec,G0006,,pending,,,,,,556670
+G0344,Šintava,council,obec,G0006,,pending,,,,,,504041
+G0345,Šoporňa,council,obec,G0006,,pending,,,,,,504050
+G0346,Špačince,council,obec,G0006,,pending,,,,,,507601
+G0347,Štefanov,council,obec,G0006,,pending,,,,,,504904
+G0348,Šterusy,council,obec,G0006,,pending,,,,,,556548
+G0349,Štvrtok na Ostrove,council,obec,G0006,,pending,,,,,,501913
+G0350,Šípkové,council,obec,G0006,,pending,,,,,,558397
+G0351,Šúrovce,council,obec,G0006,,pending,,,,,,507636
+G0352,Žlkovce,council,obec,G0006,,pending,,,,,,507792
+G0353,Adamovské Kochanovce,council,obec,G0007,,pending,,,,,,505838
+G0354,Beckov,council,obec,G0007,,pending,,,,,,505846
+G0355,Beluša,council,obec,G0007,,pending,,,,,,512851
+G0356,Bobot,council,obec,G0007,,pending,,,,,,505854
+G0357,Bodiná,council,obec,G0007,,pending,,,,,,557633
+G0358,Bohunice (okres Ilava),council,obec,G0007,,pending,,,,,,582301
+G0359,Bojnice,council,obec,G0007,,pending,,,,,,513903
+G0360,Bolešov,council,obec,G0007,,pending,,,,,,512885
+G0361,Borčany,council,obec,G0007,,pending,,,,,,556793
+G0362,Borčice,council,obec,G0007,,pending,,,,,,557391
+G0363,Bošany,council,obec,G0007,,pending,,,,,,542733
+G0364,Bošáca,council,obec,G0007,,pending,,,,,,505871
+G0365,Brestovec (okres Myjava),council,obec,G0007,,pending,,,,,,504254
+G0366,Brezolupy,council,obec,G0007,,pending,,,,,,542741
+G0367,Brezová pod Bradlom,council,obec,G0007,,pending,,,,,,504262
+G0368,Brodzany,council,obec,G0007,,pending,,,,,,580449
+G0369,Brunovce,council,obec,G0007,,pending,,,,,,505889
+G0370,Brvnište,council,obec,G0007,,pending,,,,,,512915
+G0371,Bukovec (okres Myjava),council,obec,G0007,,pending,,,,,,504289
+G0372,Bystričany,council,obec,G0007,,pending,,,,,,513911
+G0373,Bzince pod Javorinou,council,obec,G0007,,pending,,,,,,505897
+G0374,Bánovce nad Bebravou,council,obec,G0007,,pending,,,,,,542652
+G0375,Chocholná-Velčice,council,obec,G0007,,pending,,,,,,506087
+G0376,Chrenovec-Brusno,council,obec,G0007,,pending,,,,,,514021
+G0377,Chudá Lehota,council,obec,G0007,,pending,,,,,,556408
+G0378,Chvojnica (okres Myjava),council,obec,G0007,,pending,,,,,,504408
+G0379,Chvojnica (okres Prievidza),council,obec,G0007,,pending,,,,,,514039
+G0380,Chynorany,council,obec,G0007,,pending,,,,,,543004
+G0381,Cigeľ,council,obec,G0007,,pending,,,,,,513920
+G0382,Cimenná,council,obec,G0007,,pending,,,,,,542776
+G0383,Dežerice,council,obec,G0007,,pending,,,,,,542822
+G0384,Diviacka Nová Ves,council,obec,G0007,,pending,,,,,,513954
+G0385,Diviaky nad Nitricou,council,obec,G0007,,pending,,,,,,513962
+G0386,Dlžín,council,obec,G0007,,pending,,,,,,513971
+G0387,Dohňany,council,obec,G0007,,pending,,,,,,512940
+G0388,Dolná Breznica,council,obec,G0007,,pending,,,,,,512958
+G0389,Dolná Mariková,council,obec,G0007,,pending,,,,,,512966
+G0390,Dolná Poruba,council,obec,G0007,,pending,,,,,,505935
+G0391,Dolná Súča,council,obec,G0007,,pending,,,,,,505943
+G0392,Dolné Kočkovce,council,obec,G0007,,pending,,,,,,557439
+G0393,Dolné Naštice,council,obec,G0007,,pending,,,,,,542849
+G0394,Dolné Srnie,council,obec,G0007,,pending,,,,,,505951
+G0395,Dolné Vestenice,council,obec,G0007,,pending,,,,,,513989
+G0396,Dolný Lieskov,council,obec,G0007,,pending,,,,,,546640
+G0397,Domaniža,council,obec,G0007,,pending,,,,,,513008
+G0398,Drietoma,council,obec,G0007,,pending,,,,,,505960
+G0399,Dubnica nad Váhom,council,obec,G0007,,pending,,,,,,513016
+G0400,Dubnička,council,obec,G0007,,pending,,,,,,542857
+G0401,Dubodiel,council,obec,G0007,,pending,,,,,,505978
+G0402,Dulov,council,obec,G0007,,pending,,,,,,513024
+G0403,Dvorec,council,obec,G0007,,pending,,,,,,542873
+G0404,Haluzice,council,obec,G0007,,pending,,,,,,556424
+G0405,Haláčovce,council,obec,G0007,,pending,,,,,,542890
+G0406,Handlová,council,obec,G0007,,pending,,,,,,513997
+G0407,Hatné,council,obec,G0007,,pending,,,,,,557510
+G0408,Horná Breznica,council,obec,G0007,,pending,,,,,,557692
+G0409,Horná Mariková,council,obec,G0007,,pending,,,,,,513083
+G0410,Horná Poruba,council,obec,G0007,,pending,,,,,,513091
+G0411,Horná Streda,council,obec,G0007,,pending,,,,,,506001
+G0412,Horná Súča,council,obec,G0007,,pending,,,,,,506010
+G0413,Horná Ves (okres Prievidza),council,obec,G0007,,pending,,,,,,514004
+G0414,Horné Naštice,council,obec,G0007,,pending,,,,,,542920
+G0415,Horné Srnie,council,obec,G0007,,pending,,,,,,506036
+G0416,Horné Vestenice,council,obec,G0007,,pending,,,,,,514012
+G0417,Horný Lieskov,council,obec,G0007,,pending,,,,,,580856
+G0418,Horovce (okres Púchov),council,obec,G0007,,pending,,,,,,513121
+G0419,Horňany,council,obec,G0007,,pending,,,,,,506028
+G0420,Hrabovka,council,obec,G0007,,pending,,,,,,506044
+G0421,Hrachovište,council,obec,G0007,,pending,,,,,,506061
+G0422,Hradište (okres Partizánske),council,obec,G0007,,pending,,,,,,542962
+G0423,Hrašné,council,obec,G0007,,pending,,,,,,506079
+G0424,Hrádok,council,obec,G0007,,pending,,,,,,506052
+G0425,Hôrka nad Váhom,council,obec,G0007,,pending,,,,,,505994
+G0426,Ilava,council,obec,G0007,,pending,,,,,,513156
+G0427,Ivanovce,council,obec,G0007,,pending,,,,,,506095
+G0428,Jablonka,council,obec,G0007,,pending,,,,,,504424
+G0429,Jalovec (okres Prievidza),council,obec,G0007,,pending,,,,,,557714
+G0430,Jasenica,council,obec,G0007,,pending,,,,,,513172
+G0431,Ješkova Ves,council,obec,G0007,,pending,,,,,,556416
+G0432,Kamenec pod Vtáčnikom,council,obec,G0007,,pending,,,,,,514063
+G0433,Kameničany,council,obec,G0007,,pending,,,,,,557404
+G0434,Kanianka,council,obec,G0007,,pending,,,,,,514071
+G0435,Klieština,council,obec,G0007,,pending,,,,,,557552
+G0436,Klátova Nová Ves,council,obec,G0007,,pending,,,,,,543047
+G0437,Kocurany,council,obec,G0007,,pending,,,,,,514098
+G0438,Kolačno,council,obec,G0007,,pending,,,,,,543055
+G0439,Kostolec,council,obec,G0007,,pending,,,,,,513245
+G0440,Kostolná Ves,council,obec,G0007,,pending,,,,,,514101
+G0441,Kostolná-Záriečie,council,obec,G0007,,pending,,,,,,506133
+G0442,Kostolné,council,obec,G0007,,pending,,,,,,506141
+G0443,Kočovce,council,obec,G0007,,pending,,,,,,506125
+G0444,Koš,council,obec,G0007,,pending,,,,,,514110
+G0445,Košariská,council,obec,G0007,,pending,,,,,,504467
+G0446,Košeca,council,obec,G0007,,pending,,,,,,513253
+G0447,Košecké Podhradie,council,obec,G0007,,pending,,,,,,513351
+G0448,Krajné,council,obec,G0007,,pending,,,,,,506150
+G0449,Krivoklát,council,obec,G0007,,pending,,,,,,557617
+G0450,Krivosúd-Bodovka,council,obec,G0007,,pending,,,,,,506168
+G0451,Krásna Ves,council,obec,G0007,,pending,,,,,,543080
+G0452,Krásno,council,obec,G0007,,pending,,,,,,556246
+G0453,Kvašov,council,obec,G0007,,pending,,,,,,557501
+G0454,Kálnica,council,obec,G0007,,pending,,,,,,506109
+G0455,Kľačno,council,obec,G0007,,pending,,,,,,514080
+G0456,Kšinná,council,obec,G0007,,pending,,,,,,543136
+G0457,Ladce,council,obec,G0007,,pending,,,,,,513296
+G0458,Lazany,council,obec,G0007,,pending,,,,,,514128
+G0459,Lazy pod Makytou,council,obec,G0007,,pending,,,,,,513300
+G0460,Lednica,council,obec,G0007,,pending,,,,,,513318
+G0461,Lednické Rovne,council,obec,G0007,,pending,,,,,,513326
+G0462,Lehota pod Vtáčnikom,council,obec,G0007,,pending,,,,,,514136
+G0463,Libichava,council,obec,G0007,,pending,,,,,,556360
+G0464,Liešťany,council,obec,G0007,,pending,,,,,,514144
+G0465,Lipník,council,obec,G0007,,pending,,,,,,557706
+G0466,Livina,council,obec,G0007,,pending,,,,,,556173
+G0467,Livinské Opatovce,council,obec,G0007,,pending,,,,,,556190
+G0468,Lubina,council,obec,G0007,,pending,,,,,,506184
+G0469,Lysá pod Makytou,council,obec,G0007,,pending,,,,,,513342
+G0470,Lúka,council,obec,G0007,,pending,,,,,,506206
+G0471,Lúky,council,obec,G0007,,pending,,,,,,513334
+G0472,Malinová,council,obec,G0007,,pending,,,,,,514187
+G0473,Malá Hradná,council,obec,G0007,,pending,,,,,,505072
+G0474,Malá Čausa,council,obec,G0007,,pending,,,,,,514179
+G0475,Malé Hoste,council,obec,G0007,,pending,,,,,,505102
+G0476,Malé Kršteňany,council,obec,G0007,,pending,,,,,,505129
+G0477,Malé Lednice,council,obec,G0007,,pending,,,,,,557579
+G0478,Malé Uherce,council,obec,G0007,,pending,,,,,,580953
+G0479,Melčice-Lieskové,council,obec,G0007,,pending,,,,,,545686
+G0480,Mestečko,council,obec,G0007,,pending,,,,,,513377
+G0481,Miezgovce,council,obec,G0007,,pending,,,,,,505153
+G0482,Mikušovce (okres Ilava),council,obec,G0007,,pending,,,,,,513385
+G0483,Mníchova Lehota,council,obec,G0007,,pending,,,,,,506231
+G0484,Modrovka,council,obec,G0007,,pending,,,,,,506257
+G0485,Modrová,council,obec,G0007,,pending,,,,,,506249
+G0486,Mojtín,council,obec,G0007,,pending,,,,,,513407
+G0487,Moravské Lieskové,council,obec,G0007,,pending,,,,,,506265
+G0488,Motešice,council,obec,G0007,,pending,,,,,,506273
+G0489,Myjava,council,obec,G0007,,pending,,,,,,504581
+G0490,Nadlice,council,obec,G0007,,pending,,,,,,505170
+G0491,Nedanovce,council,obec,G0007,,pending,,,,,,505196
+G0492,Nedašovce,council,obec,G0007,,pending,,,,,,505200
+G0493,Nedožery-Brezany,council,obec,G0007,,pending,,,,,,514209
+G0494,Nemšová,council,obec,G0007,,pending,,,,,,506281
+G0495,Neporadza (okres Trenčín),council,obec,G0007,,pending,,,,,,506290
+G0496,Nevidzany (okres Prievidza),council,obec,G0007,,pending,,,,,,514217
+G0497,Nimnica,council,obec,G0007,,pending,,,,,,557447
+G0498,Nitrianske Pravno,council,obec,G0007,,pending,,,,,,514225
+G0499,Nitrianske Rudno,council,obec,G0007,,pending,,,,,,514233
+G0500,Nitrianske Sučany,council,obec,G0007,,pending,,,,,,514241
+G0501,Nitrica,council,obec,G0007,,pending,,,,,,514250
+G0502,Nová Bošáca,council,obec,G0007,,pending,,,,,,506303
+G0503,Nová Dubnica,council,obec,G0007,,pending,,,,,,513440
+G0504,Nová Lehota,council,obec,G0007,,pending,,,,,,506311
+G0505,Nová Ves nad Váhom,council,obec,G0007,,pending,,,,,,556459
+G0506,Nováky,council,obec,G0007,,pending,,,,,,514268
+G0507,Nové Mesto nad Váhom,council,obec,G0007,,pending,,,,,,506338
+G0508,Omastiná,council,obec,G0007,,pending,,,,,,505277
+G0509,Omšenie,council,obec,G0007,,pending,,,,,,506354
+G0510,Opatovce,council,obec,G0007,,pending,,,,,,506371
+G0511,Opatovce nad Nitrou,council,obec,G0007,,pending,,,,,,514284
+G0512,Oslany,council,obec,G0007,,pending,,,,,,514292
+G0513,Ostratice,council,obec,G0007,,pending,,,,,,505307
+G0514,Otrhánky,council,obec,G0007,,pending,,,,,,556289
+G0515,Očkov,council,obec,G0007,,pending,,,,,,506346
+G0516,Papradno,council,obec,G0007,,pending,,,,,,513466
+G0517,Partizánske,council,obec,G0007,,pending,,,,,,505315
+G0518,Pažiť,council,obec,G0007,,pending,,,,,,505323
+G0519,Petrova Lehota,council,obec,G0007,,pending,,,,,,581348
+G0520,Pečeňany,council,obec,G0007,,pending,,,,,,505331
+G0521,Plevník-Drienové,council,obec,G0007,,pending,,,,,,513474
+G0522,Pobedim,council,obec,G0007,,pending,,,,,,506401
+G0523,Pochabany,council,obec,G0007,,pending,,,,,,556742
+G0524,Podhradie (okres Prievidza),council,obec,G0007,,pending,,,,,,514306
+G0525,Podkylava,council,obec,G0007,,pending,,,,,,506419
+G0526,Podlužany (okres Bánovce nad Bebravou),council,obec,G0007,,pending,,,,,,505358
+G0527,Podolie,council,obec,G0007,,pending,,,,,,506427
+G0528,Podskalie,council,obec,G0007,,pending,,,,,,580864
+G0529,Polianka,council,obec,G0007,,pending,,,,,,504661
+G0530,Poluvsie,council,obec,G0007,,pending,,,,,,514314
+G0531,Poriadie,council,obec,G0007,,pending,,,,,,504688
+G0532,Poruba,council,obec,G0007,,pending,,,,,,514322
+G0533,Potvorice,council,obec,G0007,,pending,,,,,,506435
+G0534,Považany,council,obec,G0007,,pending,,,,,,506443
+G0535,Považská Bystrica,council,obec,G0007,,pending,,,,,,512842
+G0536,Počarová,council,obec,G0007,,pending,,,,,,558222
+G0537,Pravenec,council,obec,G0007,,pending,,,,,,514331
+G0538,Pravotice,council,obec,G0007,,pending,,,,,,505382
+G0539,Prečín,council,obec,G0007,,pending,,,,,,513563
+G0540,Priepasné,council,obec,G0007,,pending,,,,,,504696
+G0541,Prievidza,council,obec,G0007,,pending,,,,,,513881
+G0542,Pruské,council,obec,G0007,,pending,,,,,,513598
+G0543,Prusy,council,obec,G0007,,pending,,,,,,505412
+G0544,Pružina,council,obec,G0007,,pending,,,,,,513601
+G0545,Púchov,council,obec,G0007,,pending,,,,,,513610
+G0546,Radobica,council,obec,G0007,,pending,,,,,,514349
+G0547,Rudnianska Lehota,council,obec,G0007,,pending,,,,,,514365
+G0548,Rudník (okres Myjava),council,obec,G0007,,pending,,,,,,504793
+G0549,Ruskovce (okres Bánovce nad Bebravou),council,obec,G0007,,pending,,,,,,505447
+G0550,Rybany,council,obec,G0007,,pending,,,,,,505455
+G0551,Ráztočno,council,obec,G0007,,pending,,,,,,514357
+G0552,Sebedražie,council,obec,G0007,,pending,,,,,,514373
+G0553,Sedmerovec,council,obec,G0007,,pending,,,,,,557412
+G0554,Selec,council,obec,G0007,,pending,,,,,,506478
+G0555,Seč,council,obec,G0007,,pending,,,,,,514381
+G0556,Skalka nad Váhom,council,obec,G0007,,pending,,,,,,546682
+G0557,Skačany,council,obec,G0007,,pending,,,,,,505463
+G0558,Slatina nad Bebravou,council,obec,G0007,,pending,,,,,,505471
+G0559,Slatinka nad Bebravou,council,obec,G0007,,pending,,,,,,505480
+G0560,Slavnica,council,obec,G0007,,pending,,,,,,557421
+G0561,Slopná,council,obec,G0007,,pending,,,,,,557480
+G0562,Soblahov,council,obec,G0007,,pending,,,,,,506508
+G0563,Stará Lehota,council,obec,G0007,,pending,,,,,,506516
+G0564,Stará Myjava,council,obec,G0007,,pending,,,,,,504866
+G0565,Stará Turá,council,obec,G0007,,pending,,,,,,506524
+G0566,Streženice,council,obec,G0007,,pending,,,,,,557471
+G0567,Stupné,council,obec,G0007,,pending,,,,,,513687
+G0568,Sverepec,council,obec,G0007,,pending,,,,,,518913
+G0569,Svinná,council,obec,G0007,,pending,,,,,,506532
+G0570,Sádočné,council,obec,G0007,,pending,,,,,,557595
+G0571,Temeš,council,obec,G0007,,pending,,,,,,514403
+G0572,Timoradza,council,obec,G0007,,pending,,,,,,505579
+G0573,Trebichava,council,obec,G0007,,pending,,,,,,505595
+G0574,Trenčianska Teplá,council,obec,G0007,,pending,,,,,,506559
+G0575,Trenčianska Turná,council,obec,G0007,,pending,,,,,,506567
+G0576,Trenčianske Bohuslavice,council,obec,G0007,,pending,,,,,,506583
+G0577,Trenčianske Jastrabie,council,obec,G0007,,pending,,,,,,506591
+G0578,Trenčianske Mitice,council,obec,G0007,,pending,,,,,,506605
+G0579,Trenčianske Stankovce,council,obec,G0007,,pending,,,,,,545741
+G0580,Trenčianske Teplice,council,obec,G0007,,pending,,,,,,506613
+G0581,Trenčín,council,obec,G0007,,pending,,,,,,505820
+G0582,Tuchyňa,council,obec,G0007,,pending,,,,,,513725
+G0583,Turčianky,council,obec,G0007,,pending,,,,,,556271
+G0584,Tužina,council,obec,G0007,,pending,,,,,,514411
+G0585,Udiča,council,obec,G0007,,pending,,,,,,513741
+G0586,Uhrovec,council,obec,G0007,,pending,,,,,,505625
+G0587,Uhrovské Podhradie,council,obec,G0007,,pending,,,,,,505633
+G0588,Valaská Belá,council,obec,G0007,,pending,,,,,,514420
+G0589,Vaďovce,council,obec,G0007,,pending,,,,,,506630
+G0590,Veľká Hradná,council,obec,G0007,,pending,,,,,,506648
+G0591,Veľká Čausa,council,obec,G0007,,pending,,,,,,514438
+G0592,Veľké Bierovce,council,obec,G0007,,pending,,,,,,506656
+G0593,Veľké Chlievany,council,obec,G0007,,pending,,,,,,505692
+G0594,Veľké Držkovce,council,obec,G0007,,pending,,,,,,545651
+G0595,Veľké Hoste,council,obec,G0007,,pending,,,,,,505684
+G0596,Veľké Kršteňany,council,obec,G0007,,pending,,,,,,505706
+G0597,Veľké Uherce,council,obec,G0007,,pending,,,,,,505722
+G0598,Veľký Klíž,council,obec,G0007,,pending,,,,,,505731
+G0599,Visolaje,council,obec,G0007,,pending,,,,,,513776
+G0600,Višňové (okres Nové Mesto nad Váhom),council,obec,G0007,,pending,,,,,,506672
+G0601,Vrbovce,council,obec,G0007,,pending,,,,,,504971
+G0602,Vrchteplá,council,obec,G0007,,pending,,,,,,513784
+G0603,Vršatské Podhradie,council,obec,G0007,,pending,,,,,,557625
+G0604,Vydrná,council,obec,G0007,,pending,,,,,,557498
+G0605,Vysočany,council,obec,G0007,,pending,,,,,,505765
+G0606,Zamarovce,council,obec,G0007,,pending,,,,,,556475
+G0607,Zemianske Kostoľany,council,obec,G0007,,pending,,,,,,514454
+G0608,Zemianske Podhradie,council,obec,G0007,,pending,,,,,,556441
+G0609,Zlatníky,council,obec,G0007,,pending,,,,,,505790
+G0610,Zliechov,council,obec,G0007,,pending,,,,,,513865
+G0611,Zubák,council,obec,G0007,,pending,,,,,,500348
+G0612,Záriečie,council,obec,G0007,,pending,,,,,,513814
+G0613,Záskalie,council,obec,G0007,,pending,,,,,,513822
+G0614,Čachtice,council,obec,G0007,,pending,,,,,,505901
+G0615,Častkovce,council,obec,G0007,,pending,,,,,,505919
+G0616,Čavoj,council,obec,G0007,,pending,,,,,,513938
+G0617,Čelkova Lehota,council,obec,G0007,,pending,,,,,,557561
+G0618,Čereňany,council,obec,G0007,,pending,,,,,,513946
+G0619,Červený Kameň,council,obec,G0007,,pending,,,,,,512931
+G0620,Čierna Lehota (okres Bánovce nad Bebravou),council,obec,G0007,,pending,,,,,,542806
+G0621,Ďurďové,council,obec,G0007,,pending,,,,,,557609
+G0622,Ľutov,council,obec,G0007,,pending,,,,,,505056
+G0623,Šišov,council,obec,G0007,,pending,,,,,,505552
+G0624,Štvrtok,council,obec,G0007,,pending,,,,,,506541
+G0625,Šípkov,council,obec,G0007,,pending,,,,,,505544
+G0626,Šútovce,council,obec,G0007,,pending,,,,,,514390
+G0627,Žabokreky nad Nitrou,council,obec,G0007,,pending,,,,,,505803
+G0628,Žitná-Radiša,council,obec,G0007,,pending,,,,,,505811
+G0629,Alekšince,council,obec,G0008,,pending,,,,,,500020
+G0630,Andovce,council,obec,G0008,,pending,,,,,,503029
+G0631,Ardanovce,council,obec,G0008,,pending,,,,,,556220
+G0632,Babindol,council,obec,G0008,,pending,,,,,,581623
+G0633,Bajka,council,obec,G0008,,pending,,,,,,502049
+G0634,Bajtava,council,obec,G0008,,pending,,,,,,503037
+G0635,Bajč,council,obec,G0008,,pending,,,,,,501034
+G0636,Bardoňovo,council,obec,G0008,,pending,,,,,,503053
+G0637,Beladice,council,obec,G0008,,pending,,,,,,500062
+G0638,Belince,council,obec,G0008,,pending,,,,,,542661
+G0639,Belá (okres Nové Zámky),council,obec,G0008,,pending,,,,,,503061
+G0640,Beša (okres Levice),council,obec,G0008,,pending,,,,,,502065
+G0641,Bešeňov,council,obec,G0008,,pending,,,,,,503070
+G0642,Bielovce,council,obec,G0008,,pending,,,,,,502073
+G0643,Biskupová,council,obec,G0008,,pending,,,,,,542695
+G0644,Blesovce,council,obec,G0008,,pending,,,,,,542709
+G0645,Bodza,council,obec,G0008,,pending,,,,,,501042
+G0646,Bodzianske Lúky,council,obec,G0008,,pending,,,,,,555819
+G0647,Bohunice (okres Levice),council,obec,G0008,,pending,,,,,,580937
+G0648,Bojná,council,obec,G0008,,pending,,,,,,542717
+G0649,Bory,council,obec,G0008,,pending,,,,,,502090
+G0650,Branovo,council,obec,G0008,,pending,,,,,,503096
+G0651,Branč,council,obec,G0008,,pending,,,,,,500071
+G0652,Brestovec (okres Komárno),council,obec,G0008,,pending,,,,,,501069
+G0653,Brhlovce,council,obec,G0008,,pending,,,,,,502103
+G0654,Bruty,council,obec,G0008,,pending,,,,,,503100
+G0655,Báb,council,obec,G0008,,pending,,,,,,500046
+G0656,Bádice,council,obec,G0008,,pending,,,,,,582697
+G0657,Bánov,council,obec,G0008,,pending,,,,,,503045
+G0658,Bátorove Kosihy,council,obec,G0008,,pending,,,,,,501395
+G0659,Bátovce,council,obec,G0008,,pending,,,,,,502057
+G0660,Bíňa,council,obec,G0008,,pending,,,,,,503088
+G0661,Búč,council,obec,G0008,,pending,,,,,,501077
+G0662,Cabaj-Čápor,council,obec,G0008,,pending,,,,,,545589
+G0663,Chotín,council,obec,G0008,,pending,,,,,,501158
+G0664,Choča,council,obec,G0008,,pending,,,,,,500321
+G0665,Chrabrany,council,obec,G0008,,pending,,,,,,556165
+G0666,Chľaba,council,obec,G0008,,pending,,,,,,503207
+G0667,Dedina Mládeže,council,obec,G0008,,pending,,,,,,501107
+G0668,Dedinka,council,obec,G0008,,pending,,,,,,503134
+G0669,Demandice,council,obec,G0008,,pending,,,,,,502154
+G0670,Devičany,council,obec,G0008,,pending,,,,,,502162
+G0671,Diakovce,council,obec,G0008,,pending,,,,,,503711
+G0672,Dlhá nad Váhom,council,obec,G0008,,pending,,,,,,503720
+G0673,Dolná Seč,council,obec,G0008,,pending,,,,,,502171
+G0674,Dolné Lefantovce,council,obec,G0008,,pending,,,,,,582425
+G0675,Dolné Obdokovce,council,obec,G0008,,pending,,,,,,500194
+G0676,Dolné Semerovce,council,obec,G0008,,pending,,,,,,502189
+G0677,Dolný Ohaj,council,obec,G0008,,pending,,,,,,503151
+G0678,Dolný Pial,council,obec,G0008,,pending,,,,,,502197
+G0679,Domadice,council,obec,G0008,,pending,,,,,,502201
+G0680,Drženice,council,obec,G0008,,pending,,,,,,502219
+G0681,Dubník,council,obec,G0008,,pending,,,,,,503169
+G0682,Dulovce,council,obec,G0008,,pending,,,,,,501123
+G0683,Dvorany nad Nitrou,council,obec,G0008,,pending,,,,,,556262
+G0684,Dvory nad Žitavou,council,obec,G0008,,pending,,,,,,503177
+G0685,Farná,council,obec,G0008,,pending,,,,,,502227
+G0686,Gbelce,council,obec,G0008,,pending,,,,,,503185
+G0687,Golianovo,council,obec,G0008,,pending,,,,,,500232
+G0688,Hajná Nová Ves,council,obec,G0008,,pending,,,,,,542881
+G0689,Hokovce,council,obec,G0008,,pending,,,,,,502243
+G0690,Holiare,council,obec,G0008,,pending,,,,,,580911
+G0691,Hontianska Vrbica,council,obec,G0008,,pending,,,,,,502251
+G0692,Hontianske Trsťany,council,obec,G0008,,pending,,,,,,545350
+G0693,Horná Kráľová,council,obec,G0008,,pending,,,,,,555878
+G0694,Horná Seč,council,obec,G0008,,pending,,,,,,502260
+G0695,Horné Chlebany,council,obec,G0008,,pending,,,,,,556351
+G0696,Horné Lefantovce,council,obec,G0008,,pending,,,,,,545635
+G0697,Horné Obdokovce,council,obec,G0008,,pending,,,,,,542938
+G0698,Horné Semerovce,council,obec,G0008,,pending,,,,,,502278
+G0699,Horné Turovce,council,obec,G0008,,pending,,,,,,502286
+G0700,Horné Štitáre,council,obec,G0008,,pending,,,,,,542954
+G0701,Horný Pial,council,obec,G0008,,pending,,,,,,502294
+G0702,Hostie,council,obec,G0008,,pending,,,,,,500283
+G0703,Hosťovce (okres Zlaté Moravce),council,obec,G0008,,pending,,,,,,500305
+G0704,Hosťová,council,obec,G0008,,pending,,,,,,555959
+G0705,Hrkovce,council,obec,G0008,,pending,,,,,,581895
+G0706,Hronovce,council,obec,G0008,,pending,,,,,,502324
+G0707,Hronské Kosihy,council,obec,G0008,,pending,,,,,,502341
+G0708,Hronské Kľačany,council,obec,G0008,,pending,,,,,,502332
+G0709,Hruboňovo,council,obec,G0008,,pending,,,,,,500313
+G0710,Hrušovany,council,obec,G0008,,pending,,,,,,542971
+G0711,Hul,council,obec,G0008,,pending,,,,,,503193
+G0712,Hurbanovo,council,obec,G0008,,pending,,,,,,501140
+G0713,Hájske,council,obec,G0008,,pending,,,,,,500241
+G0714,Imeľ,council,obec,G0008,,pending,,,,,,501166
+G0715,Ipeľské Úľany,council,obec,G0008,,pending,,,,,,502367
+G0716,Ipeľský Sokolec,council,obec,G0008,,pending,,,,,,502375
+G0717,Ivanka pri Nitre,council,obec,G0008,,pending,,,,,,558320
+G0718,Iňa,council,obec,G0008,,pending,,,,,,502359
+G0719,Iža,council,obec,G0008,,pending,,,,,,501174
+G0720,Jabloňovce,council,obec,G0008,,pending,,,,,,502383
+G0721,Jacovce,council,obec,G0008,,pending,,,,,,556157
+G0722,Jarok,council,obec,G0008,,pending,,,,,,500356
+G0723,Jasová,council,obec,G0008,,pending,,,,,,503215
+G0724,Jatov,council,obec,G0008,,pending,,,,,,503223
+G0725,Jedľové Kostoľany,council,obec,G0008,,pending,,,,,,500364
+G0726,Jelenec,council,obec,G0008,,pending,,,,,,500372
+G0727,Jelšovce,council,obec,G0008,,pending,,,,,,500381
+G0728,Jesenské (okres Levice),council,obec,G0008,,pending,,,,,,556777
+G0729,Jur nad Hronom,council,obec,G0008,,pending,,,,,,502391
+G0730,Kalná nad Hronom,council,obec,G0008,,pending,,,,,,502413
+G0731,Kamanová,council,obec,G0008,,pending,,,,,,543039
+G0732,Kamenica nad Hronom,council,obec,G0008,,pending,,,,,,503231
+G0733,Kameničná,council,obec,G0008,,pending,,,,,,501182
+G0734,Kamenný Most,council,obec,G0008,,pending,,,,,,503258
+G0735,Kamenín,council,obec,G0008,,pending,,,,,,503240
+G0736,Kapince,council,obec,G0008,,pending,,,,,,500399
+G0737,Keť,council,obec,G0008,,pending,,,,,,502472
+G0738,Klasov,council,obec,G0008,,pending,,,,,,500402
+G0739,Klížska Nemá,council,obec,G0008,,pending,,,,,,501191
+G0740,Kmeťovo,council,obec,G0008,,pending,,,,,,503266
+G0741,Kolta,council,obec,G0008,,pending,,,,,,503274
+G0742,Kolárovo,council,obec,G0008,,pending,,,,,,501204
+G0743,Kolíňany,council,obec,G0008,,pending,,,,,,500411
+G0744,Komjatice,council,obec,G0008,,pending,,,,,,503282
+G0745,Komoča,council,obec,G0008,,pending,,,,,,503291
+G0746,Komárno,council,obec,G0008,,pending,,,,,,501026
+G0747,Koniarovce,council,obec,G0008,,pending,,,,,,543063
+G0748,Kostoľany pod Tribečom,council,obec,G0008,,pending,,,,,,500429
+G0749,Kovarce,council,obec,G0008,,pending,,,,,,543071
+G0750,Kozárovce,council,obec,G0008,,pending,,,,,,502421
+G0751,Kravany nad Dunajom,council,obec,G0008,,pending,,,,,,501212
+G0752,Krnča,council,obec,G0008,,pending,,,,,,543101
+G0753,Krtovce,council,obec,G0008,,pending,,,,,,543110
+G0754,Krušovce,council,obec,G0008,,pending,,,,,,556149
+G0755,Kráľová nad Váhom,council,obec,G0008,,pending,,,,,,503886
+G0756,Krškany,council,obec,G0008,,pending,,,,,,502430
+G0757,Kubáňovo,council,obec,G0008,,pending,,,,,,502448
+G0758,Kukučínov,council,obec,G0008,,pending,,,,,,502456
+G0759,Kuraľany,council,obec,G0008,,pending,,,,,,502464
+G0760,Kuzmice (okres Topoľčany),council,obec,G0008,,pending,,,,,,581704
+G0761,Ladice,council,obec,G0008,,pending,,,,,,500437
+G0762,Lehota,council,obec,G0008,,pending,,,,,,500453
+G0763,Levice,council,obec,G0008,,pending,,,,,,502031
+G0764,Leľa,council,obec,G0008,,pending,,,,,,503312
+G0765,Lipovník (okres Topoľčany),council,obec,G0008,,pending,,,,,,505021
+G0766,Lipová (okres Nové Zámky),council,obec,G0008,,pending,,,,,,503321
+G0767,Lipové,council,obec,G0008,,pending,,,,,,501221
+G0768,Lok,council,obec,G0008,,pending,,,,,,502481
+G0769,Lontov,council,obec,G0008,,pending,,,,,,502499
+G0770,Lovce,council,obec,G0008,,pending,,,,,,500461
+G0771,Ludanice,council,obec,G0008,,pending,,,,,,505048
+G0772,Lukáčovce,council,obec,G0008,,pending,,,,,,500488
+G0773,Lula,council,obec,G0008,,pending,,,,,,502502
+G0774,Lužany,council,obec,G0008,,pending,,,,,,505064
+G0775,Lužianky,council,obec,G0008,,pending,,,,,,580899
+G0776,Lúčnica nad Žitavou,council,obec,G0008,,pending,,,,,,500470
+G0777,Machulince,council,obec,G0008,,pending,,,,,,500500
+G0778,Malá nad Hronom,council,obec,G0008,,pending,,,,,,503347
+G0779,Malé Chyndice,council,obec,G0008,,pending,,,,,,556785
+G0780,Malé Kosihy,council,obec,G0008,,pending,,,,,,503355
+G0781,Malé Kozmálovce,council,obec,G0008,,pending,,,,,,581135
+G0782,Malé Ludince,council,obec,G0008,,pending,,,,,,502537
+G0783,Malé Ripňany,council,obec,G0008,,pending,,,,,,505137
+G0784,Malé Vozokany,council,obec,G0008,,pending,,,,,,555924
+G0785,Malé Zálužie,council,obec,G0008,,pending,,,,,,500534
+G0786,Malý Cetín,council,obec,G0008,,pending,,,,,,555908
+G0787,Malý Lapáš,council,obec,G0008,,pending,,,,,,555851
+G0788,Mankovce,council,obec,G0008,,pending,,,,,,500542
+G0789,Marcelová,council,obec,G0008,,pending,,,,,,501239
+G0790,Martin nad Žitavou,council,obec,G0008,,pending,,,,,,500551
+G0791,Martovce,council,obec,G0008,,pending,,,,,,501247
+G0792,Maňa,council,obec,G0008,,pending,,,,,,503363
+G0793,Melek,council,obec,G0008,,pending,,,,,,500569
+G0794,Michal nad Žitavou,council,obec,G0008,,pending,,,,,,503371
+G0795,Modrany,council,obec,G0008,,pending,,,,,,501263
+G0796,Mojmírovce,council,obec,G0008,,pending,,,,,,500577
+G0797,Mojzesovo,council,obec,G0008,,pending,,,,,,503398
+G0798,Moča,council,obec,G0008,,pending,,,,,,501255
+G0799,Močenok,council,obec,G0008,,pending,,,,,,500739
+G0800,Mudroňovo,council,obec,G0008,,pending,,,,,,501271
+G0801,Mužla,council,obec,G0008,,pending,,,,,,503401
+G0802,Málaš,council,obec,G0008,,pending,,,,,,502511
+G0803,Mýtne Ludany,council,obec,G0008,,pending,,,,,,502570
+G0804,Neded,council,obec,G0008,,pending,,,,,,503932
+G0805,Nemečky,council,obec,G0008,,pending,,,,,,505226
+G0806,Nemčice,council,obec,G0008,,pending,,,,,,581305
+G0807,Nemčiňany,council,obec,G0008,,pending,,,,,,500585
+G0808,Nesvady,council,obec,G0008,,pending,,,,,,501280
+G0809,Neverice,council,obec,G0008,,pending,,,,,,500593
+G0810,Nevidzany (okres Zlaté Moravce),council,obec,G0008,,pending,,,,,,500607
+G0811,Nitra,council,obec,G0008,,pending,,,,,,500011
+G0812,Nitrianska Blatnica,council,obec,G0008,,pending,,,,,,505234
+G0813,Nitrianska Streda,council,obec,G0008,,pending,,,,,,505242
+G0814,Nitrianske Hrnčiarovce,council,obec,G0008,,pending,,,,,,556696
+G0815,Norovce,council,obec,G0008,,pending,,,,,,505251
+G0816,Nová Dedina,council,obec,G0008,,pending,,,,,,502588
+G0817,Nová Ves nad Žitavou,council,obec,G0008,,pending,,,,,,500631
+G0818,Nová Vieska,council,obec,G0008,,pending,,,,,,503436
+G0819,Nové Sady,council,obec,G0008,,pending,,,,,,500640
+G0820,Nové Zámky,council,obec,G0008,,pending,,,,,,503011
+G0821,Nový Tekov,council,obec,G0008,,pending,,,,,,502596
+G0822,Nána,council,obec,G0008,,pending,,,,,,556092
+G0823,Nýrovce,council,obec,G0008,,pending,,,,,,502600
+G0824,Obid,council,obec,G0008,,pending,,,,,,582361
+G0825,Obyce,council,obec,G0008,,pending,,,,,,500658
+G0826,Okoličná na Ostrove,council,obec,G0008,,pending,,,,,,501301
+G0827,Ondrejovce,council,obec,G0008,,pending,,,,,,502618
+G0828,Oponice,council,obec,G0008,,pending,,,,,,505285
+G0829,Orešany,council,obec,G0008,,pending,,,,,,556211
+G0830,Palárikovo,council,obec,G0008,,pending,,,,,,503452
+G0831,Pastovce,council,obec,G0008,,pending,,,,,,502626
+G0832,Patince,council,obec,G0008,,pending,,,,,,501310
+G0833,Pavlová,council,obec,G0008,,pending,,,,,,556033
+G0834,Paňa,council,obec,G0008,,pending,,,,,,500666
+G0835,Pečenice,council,obec,G0008,,pending,,,,,,502634
+G0836,Plavé Vozokany,council,obec,G0008,,pending,,,,,,502651
+G0837,Plášťovce,council,obec,G0008,,pending,,,,,,502642
+G0838,Podhorany (okres Nitra),council,obec,G0008,,pending,,,,,,500674
+G0839,Podhradie (okres Topoľčany),council,obec,G0008,,pending,,,,,,505340
+G0840,Podhájska,council,obec,G0008,,pending,,,,,,503479
+G0841,Podlužany (okres Levice),council,obec,G0008,,pending,,,,,,502669
+G0842,Pohranice,council,obec,G0008,,pending,,,,,,500682
+G0843,Pohronský Ruskov,council,obec,G0008,,pending,,,,,,502677
+G0844,Pozba,council,obec,G0008,,pending,,,,,,503487
+G0845,Poľný Kesov,council,obec,G0008,,pending,,,,,,500691
+G0846,Prašice,council,obec,G0008,,pending,,,,,,505374
+G0847,Preseľany,council,obec,G0008,,pending,,,,,,505404
+G0848,Pribeta,council,obec,G0008,,pending,,,,,,501328
+G0849,Práznovce,council,obec,G0008,,pending,,,,,,581658
+G0850,Pukanec,council,obec,G0008,,pending,,,,,,502693
+G0851,Radava,council,obec,G0008,,pending,,,,,,503495
+G0852,Radošina,council,obec,G0008,,pending,,,,,,505421
+G0853,Radvaň nad Dunajom,council,obec,G0008,,pending,,,,,,501336
+G0854,Rajčany,council,obec,G0008,,pending,,,,,,505439
+G0855,Rastislavice,council,obec,G0008,,pending,,,,,,503509
+G0856,Rišňovce,council,obec,G0008,,pending,,,,,,500704
+G0857,Rumanová,council,obec,G0008,,pending,,,,,,500712
+G0858,Rybník (okres Levice),council,obec,G0008,,pending,,,,,,502707
+G0859,Rúbaň,council,obec,G0008,,pending,,,,,,503517
+G0860,Salka,council,obec,G0008,,pending,,,,,,503525
+G0861,Santovka,council,obec,G0008,,pending,,,,,,502715
+G0862,Sazdice,council,obec,G0008,,pending,,,,,,502723
+G0863,Selice,council,obec,G0008,,pending,,,,,,503991
+G0864,Semerovo,council,obec,G0008,,pending,,,,,,503533
+G0865,Sikenica,council,obec,G0008,,pending,,,,,,502731
+G0866,Sikenička,council,obec,G0008,,pending,,,,,,503541
+G0867,Skýcov,council,obec,G0008,,pending,,,,,,500721
+G0868,Slatina,council,obec,G0008,,pending,,,,,,502740
+G0869,Slepčany,council,obec,G0008,,pending,,,,,,500755
+G0870,Sokolce,council,obec,G0008,,pending,,,,,,501344
+G0871,Solčany,council,obec,G0008,,pending,,,,,,505498
+G0872,Solčianky,council,obec,G0008,,pending,,,,,,556327
+G0873,Starý Hrádok,council,obec,G0008,,pending,,,,,,502758
+G0874,Starý Tekov,council,obec,G0008,,pending,,,,,,502766
+G0875,Strekov,council,obec,G0008,,pending,,,,,,503550
+G0876,Svodín,council,obec,G0008,,pending,,,,,,503568
+G0877,Svrbice,council,obec,G0008,,pending,,,,,,556238
+G0878,Svätoplukovo,council,obec,G0008,,pending,,,,,,555991
+G0879,Svätý Peter,council,obec,G0008,,pending,,,,,,501115
+G0880,Súlovce,council,obec,G0008,,pending,,,,,,505510
+G0881,Sľažany,council,obec,G0008,,pending,,,,,,500747
+G0882,Tajná,council,obec,G0008,,pending,,,,,,500798
+G0883,Tehla,council,obec,G0008,,pending,,,,,,502812
+G0884,Tekovské Lužany,council,obec,G0008,,pending,,,,,,502821
+G0885,Tekovské Nemce,council,obec,G0008,,pending,,,,,,517305
+G0886,Tekovský Hrádok,council,obec,G0008,,pending,,,,,,502847
+G0887,Telince,council,obec,G0008,,pending,,,,,,555967
+G0888,Tesáre,council,obec,G0008,,pending,,,,,,505561
+G0889,Tesárske Mlyňany,council,obec,G0008,,pending,,,,,,500810
+G0890,Tešedíkovo,council,obec,G0008,,pending,,,,,,504068
+G0891,Tlmače,council,obec,G0008,,pending,,,,,,502863
+G0892,Topoľčany,council,obec,G0008,,pending,,,,,,504998
+G0893,Topoľčianky,council,obec,G0008,,pending,,,,,,500828
+G0894,Tovarníky,council,obec,G0008,,pending,,,,,,580457
+G0895,Trnovec nad Váhom,council,obec,G0008,,pending,,,,,,504092
+G0896,Trávnica,council,obec,G0008,,pending,,,,,,503606
+G0897,Trávnik,council,obec,G0008,,pending,,,,,,501379
+G0898,Tupá,council,obec,G0008,,pending,,,,,,502871
+G0899,Turá,council,obec,G0008,,pending,,,,,,502880
+G0900,Tvrdomestice,council,obec,G0008,,pending,,,,,,505617
+G0901,Tvrdošovce,council,obec,G0008,,pending,,,,,,503614
+G0902,Tôň,council,obec,G0008,,pending,,,,,,501361
+G0903,Uhliská,council,obec,G0008,,pending,,,,,,502898
+G0904,Urmince,council,obec,G0008,,pending,,,,,,505641
+G0905,Velušovce,council,obec,G0008,,pending,,,,,,505749
+G0906,Velčice,council,obec,G0008,,pending,,,,,,500836
+G0907,Veľká Dolina,council,obec,G0008,,pending,,,,,,500844
+G0908,Veľké Chyndice,council,obec,G0008,,pending,,,,,,500518
+G0909,Veľké Dvorany,council,obec,G0008,,pending,,,,,,505676
+G0910,Veľké Kosihy,council,obec,G0008,,pending,,,,,,501387
+G0911,Veľké Kozmálovce,council,obec,G0008,,pending,,,,,,581160
+G0912,Veľké Lovce,council,obec,G0008,,pending,,,,,,503631
+G0913,Veľké Ludince,council,obec,G0008,,pending,,,,,,502910
+G0914,Veľké Ripňany,council,obec,G0008,,pending,,,,,,505714
+G0915,Veľké Turovce,council,obec,G0008,,pending,,,,,,502928
+G0916,Veľké Vozokany,council,obec,G0008,,pending,,,,,,555932
+G0917,Veľké Zálužie,council,obec,G0008,,pending,,,,,,500887
+G0918,Veľký Cetín,council,obec,G0008,,pending,,,,,,500895
+G0919,Veľký Kýr,council,obec,G0008,,pending,,,,,,503380
+G0920,Veľký Lapáš,council,obec,G0008,,pending,,,,,,555860
+G0921,Veľký Ďur,council,obec,G0008,,pending,,,,,,502936
+G0922,Vieska nad Žitavou,council,obec,G0008,,pending,,,,,,500909
+G0923,Vinodol,council,obec,G0008,,pending,,,,,,500917
+G0924,Virt,council,obec,G0008,,pending,,,,,,555827
+G0925,Vlkas,council,obec,G0008,,pending,,,,,,556025
+G0926,Vlčany,council,obec,G0008,,pending,,,,,,504165
+G0927,Volkovce,council,obec,G0008,,pending,,,,,,500925
+G0928,Vozokany (okres Topoľčany),council,obec,G0008,,pending,,,,,,505757
+G0929,Vrbová nad Váhom,council,obec,G0008,,pending,,,,,,501409
+G0930,Vráble,council,obec,G0008,,pending,,,,,,500933
+G0931,Vyškovce nad Ipľom,council,obec,G0008,,pending,,,,,,502944
+G0932,Vyšné nad Hronom,council,obec,G0008,,pending,,,,,,502952
+G0933,Výčapy-Opatovce,council,obec,G0008,,pending,,,,,,500941
+G0934,Zalaba,council,obec,G0008,,pending,,,,,,502961
+G0935,Zbehy,council,obec,G0008,,pending,,,,,,500950
+G0936,Zbrojníky,council,obec,G0008,,pending,,,,,,502979
+G0937,Zemianska Olča,council,obec,G0008,,pending,,,,,,501417
+G0938,Zemné,council,obec,G0008,,pending,,,,,,503649
+G0939,Zlatno (okres Zlaté Moravce),council,obec,G0008,,pending,,,,,,500976
+G0940,Zlatná na Ostrove,council,obec,G0008,,pending,,,,,,501425
+G0941,Zlaté Moravce,council,obec,G0008,,pending,,,,,,500968
+G0942,Závada (okres Topoľčany),council,obec,G0008,,pending,,,,,,505773
+G0943,Úľany nad Žitavou,council,obec,G0008,,pending,,,,,,556050
+G0944,Čab,council,obec,G0008,,pending,,,,,,582387
+G0945,Čajkov,council,obec,G0008,,pending,,,,,,502111
+G0946,Čaka,council,obec,G0008,,pending,,,,,,502120
+G0947,Čakajovce,council,obec,G0008,,pending,,,,,,500101
+G0948,Čalovec,council,obec,G0008,,pending,,,,,,501085
+G0949,Čaradice,council,obec,G0008,,pending,,,,,,500127
+G0950,Čata,council,obec,G0008,,pending,,,,,,555843
+G0951,Čechy,council,obec,G0008,,pending,,,,,,503118
+G0952,Čechynce,council,obec,G0008,,pending,,,,,,555886
+G0953,Čermany,council,obec,G0008,,pending,,,,,,542792
+G0954,Černík,council,obec,G0008,,pending,,,,,,503126
+G0955,Červený Hrádok,council,obec,G0008,,pending,,,,,,555916
+G0956,Čeľadice,council,obec,G0008,,pending,,,,,,500135
+G0957,Čeľadince,council,obec,G0008,,pending,,,,,,556297
+G0958,Čierne Kľačany,council,obec,G0008,,pending,,,,,,500151
+G0959,Čifáre,council,obec,G0008,,pending,,,,,,500160
+G0960,Číčov,council,obec,G0008,,pending,,,,,,501093
+G0961,Ľubá,council,obec,G0008,,pending,,,,,,503339
+G0962,Ľudovítová,council,obec,G0008,,pending,,,,,,581097
+G0963,Šahy,council,obec,G0008,,pending,,,,,,502782
+G0964,Šalgovce,council,obec,G0008,,pending,,,,,,505536
+G0965,Šalov,council,obec,G0008,,pending,,,,,,502791
+G0966,Šarkan,council,obec,G0008,,pending,,,,,,503576
+G0967,Šarovce,council,obec,G0008,,pending,,,,,,502804
+G0968,Šaľa,council,obec,G0008,,pending,,,,,,504025
+G0969,Šrobárová,council,obec,G0008,,pending,,,,,,501352
+G0970,Štefanovičová,council,obec,G0008,,pending,,,,,,581691
+G0971,Štitáre,council,obec,G0008,,pending,,,,,,582719
+G0972,Štúrovo,council,obec,G0008,,pending,,,,,,503584
+G0973,Šurany,council,obec,G0008,,pending,,,,,,503592
+G0974,Šurianky,council,obec,G0008,,pending,,,,,,500780
+G0975,Želiezovce,council,obec,G0008,,pending,,,,,,502987
+G0976,Žemberovce,council,obec,G0008,,pending,,,,,,502995
+G0977,Žemliare,council,obec,G0008,,pending,,,,,,503002
+G0978,Žihárec,council,obec,G0008,,pending,,,,,,504190
+G0979,Žikava,council,obec,G0008,,pending,,,,,,500984
+G0980,Žirany,council,obec,G0008,,pending,,,,,,500992
+G0981,Žitavany,council,obec,G0008,,pending,,,,,,582816
+G0982,Žitavce,council,obec,G0008,,pending,,,,,,501018
+G0983,Abramová,council,obec,G0009,,pending,,,,,,512044
+G0984,Babín,council,obec,G0009,,pending,,,,,,509558
+G0985,Belá (okres Žilina),council,obec,G0009,,pending,,,,,,517429
+G0986,Belá-Dulice,council,obec,G0009,,pending,,,,,,512052
+G0987,Benice,council,obec,G0009,,pending,,,,,,512061
+G0988,Beňadiková,council,obec,G0009,,pending,,,,,,510271
+G0989,Beňadovo,council,obec,G0009,,pending,,,,,,509566
+G0990,Bešeňová,council,obec,G0009,,pending,,,,,,510301
+G0991,Bitarová,council,obec,G0009,,pending,,,,,,547522
+G0992,Blatnica,council,obec,G0009,,pending,,,,,,512079
+G0993,Blažovce,council,obec,G0009,,pending,,,,,,512087
+G0994,Bobrov,council,obec,G0009,,pending,,,,,,509582
+G0995,Bobrovec,council,obec,G0009,,pending,,,,,,510327
+G0996,Bobrovník,council,obec,G0009,,pending,,,,,,510335
+G0997,Bobrovček,council,obec,G0009,,pending,,,,,,510319
+G0998,Bodorová,council,obec,G0009,,pending,,,,,,512095
+G0999,Borcová,council,obec,G0009,,pending,,,,,,512109
+G1000,Breza,council,obec,G0009,,pending,,,,,,509591
+G1001,Brezany,council,obec,G0009,,pending,,,,,,547557
+G1002,Brezovica (okres Tvrdošín),council,obec,G0009,,pending,,,,,,509604
+G1003,Brieštie,council,obec,G0009,,pending,,,,,,512117
+G1004,Budiš,council,obec,G0009,,pending,,,,,,512125
+G1005,Bukovina,council,obec,G0009,,pending,,,,,,510351
+G1006,Bystrička,council,obec,G0009,,pending,,,,,,512133
+G1007,Bytča,council,obec,G0009,,pending,,,,,,517461
+G1008,Bziny,council,obec,G0009,,pending,,,,,,580813
+G1009,Chlebnice,council,obec,G0009,,pending,,,,,,509698
+G1010,Demänovská Dolina,council,obec,G0009,,pending,,,,,,510386
+G1011,Diaková,council,obec,G0009,,pending,,,,,,512168
+G1012,Divina,council,obec,G0009,,pending,,,,,,517488
+G1013,Divinka,council,obec,G0009,,pending,,,,,,517496
+G1014,Dlhá nad Kysucou,council,obec,G0009,,pending,,,,,,509167
+G1015,Dlhá nad Oravou,council,obec,G0009,,pending,,,,,,509639
+G1016,Dlhé Pole,council,obec,G0009,,pending,,,,,,517500
+G1017,Dolná Tižina,council,obec,G0009,,pending,,,,,,517518
+G1018,Dolný Hričov,council,obec,G0009,,pending,,,,,,517526
+G1019,Dolný Kalník,council,obec,G0009,,pending,,,,,,512206
+G1020,Dolný Kubín,council,obec,G0009,,pending,,,,,,509540
+G1021,Dolný Vadičov,council,obec,G0009,,pending,,,,,,509175
+G1022,Dražkovce,council,obec,G0009,,pending,,,,,,512214
+G1023,Dubové (okres Turčianske Teplice),council,obec,G0009,,pending,,,,,,512222
+G1024,Dunajov,council,obec,G0009,,pending,,,,,,509183
+G1025,Dúbrava (okres Liptovský Mikuláš),council,obec,G0009,,pending,,,,,,510408
+G1026,Fačkov,council,obec,G0009,,pending,,,,,,517542
+G1027,Folkušová,council,obec,G0009,,pending,,,,,,512257
+G1028,Galovany,council,obec,G0009,,pending,,,,,,510416
+G1029,Gbeľany,council,obec,G0009,,pending,,,,,,517551
+G1030,Gôtovany,council,obec,G0009,,pending,,,,,,510424
+G1031,Habovka,council,obec,G0009,,pending,,,,,,509655
+G1032,Hladovka,council,obec,G0009,,pending,,,,,,509663
+G1033,Hlboké nad Váhom,council,obec,G0009,,pending,,,,,,581984
+G1034,Horná Lehota (okres Dolný Kubín),council,obec,G0009,,pending,,,,,,509671
+G1035,Horná Štubňa,council,obec,G0009,,pending,,,,,,512273
+G1036,Horný Hričov,council,obec,G0009,,pending,,,,,,517593
+G1037,Horný Kalník,council,obec,G0009,,pending,,,,,,512290
+G1038,Horný Vadičov,council,obec,G0009,,pending,,,,,,509205
+G1039,Hričovské Podhradie,council,obec,G0009,,pending,,,,,,547590
+G1040,Hruštín,council,obec,G0009,,pending,,,,,,509680
+G1041,Hubová,council,obec,G0009,,pending,,,,,,510441
+G1042,Huty,council,obec,G0009,,pending,,,,,,510459
+G1043,Hvozdnica,council,obec,G0009,,pending,,,,,,517623
+G1044,Hybe,council,obec,G0009,,pending,,,,,,510467
+G1045,Háj (okres Turčianske Teplice),council,obec,G0009,,pending,,,,,,512265
+G1046,Hôrky,council,obec,G0009,,pending,,,,,,517577
+G1047,Istebné,council,obec,G0009,,pending,,,,,,509701
+G1048,Ivachnová,council,obec,G0009,,pending,,,,,,507300
+G1049,Ivančiná,council,obec,G0009,,pending,,,,,,512303
+G1050,Ižipovce,council,obec,G0009,,pending,,,,,,556807
+G1051,Jablonové (okres Bytča),council,obec,G0009,,pending,,,,,,517631
+G1052,Jakubovany (okres Liptovský Mikuláš),council,obec,G0009,,pending,,,,,,510505
+G1053,Jalovec (okres Liptovský Mikuláš),council,obec,G0009,,pending,,,,,,510513
+G1054,Jamník (okres Liptovský Mikuláš),council,obec,G0009,,pending,,,,,,510521
+G1055,Jasenovo,council,obec,G0009,,pending,,,,,,512311
+G1056,Jasenová,council,obec,G0009,,pending,,,,,,509710
+G1057,Jasenové,council,obec,G0009,,pending,,,,,,517640
+G1058,Jazernica,council,obec,G0009,,pending,,,,,,512320
+G1059,Kalameny,council,obec,G0009,,pending,,,,,,510530
+G1060,Kamenná Poruba (okres Žilina),council,obec,G0009,,pending,,,,,,517658
+G1061,Karlová,council,obec,G0009,,pending,,,,,,512346
+G1062,Kaľamenová,council,obec,G0009,,pending,,,,,,512338
+G1063,Klin,council,obec,G0009,,pending,,,,,,509728
+G1064,Klokočov (okres Čadca),council,obec,G0009,,pending,,,,,,509213
+G1065,Klubina,council,obec,G0009,,pending,,,,,,509221
+G1066,Kláštor pod Znievom,council,obec,G0009,,pending,,,,,,512354
+G1067,Kolárovice,council,obec,G0009,,pending,,,,,,517674
+G1068,Komjatná,council,obec,G0009,,pending,,,,,,510548
+G1069,Konská (okres Liptovský Mikuláš),council,obec,G0009,,pending,,,,,,507393
+G1070,Konská (okres Žilina),council,obec,G0009,,pending,,,,,,517682
+G1071,Korňa,council,obec,G0009,,pending,,,,,,509230
+G1072,Kotešová,council,obec,G0009,,pending,,,,,,517691
+G1073,Kotrčiná Lúčka,council,obec,G0009,,pending,,,,,,517704
+G1074,Košťany nad Turcom,council,obec,G0009,,pending,,,,,,512371
+G1075,Krasňany,council,obec,G0009,,pending,,,,,,517712
+G1076,Kraľovany,council,obec,G0009,,pending,,,,,,509744
+G1077,Krivá,council,obec,G0009,,pending,,,,,,509761
+G1078,Krpeľany,council,obec,G0009,,pending,,,,,,512389
+G1079,Krušetnica,council,obec,G0009,,pending,,,,,,509779
+G1080,Krásno nad Kysucou,council,obec,G0009,,pending,,,,,,509248
+G1081,Kráľova Lehota,council,obec,G0009,,pending,,,,,,510564
+G1082,Kunerad,council,obec,G0009,,pending,,,,,,517721
+G1083,Kvačany (okres Liptovský Mikuláš),council,obec,G0009,,pending,,,,,,510572
+G1084,Kysucké Nové Mesto,council,obec,G0009,,pending,,,,,,509256
+G1085,Kysucký Lieskovec,council,obec,G0009,,pending,,,,,,509264
+G1086,Kľače,council,obec,G0009,,pending,,,,,,557994
+G1087,Laskár,council,obec,G0009,,pending,,,,,,512397
+G1088,Lazisko,council,obec,G0009,,pending,,,,,,510581
+G1089,Leštiny,council,obec,G0009,,pending,,,,,,509787
+G1090,Ležiachov,council,obec,G0009,,pending,,,,,,512419
+G1091,Liesek,council,obec,G0009,,pending,,,,,,509795
+G1092,Lietava,council,obec,G0009,,pending,,,,,,517739
+G1093,Lietavská Lúčka,council,obec,G0009,,pending,,,,,,557935
+G1094,Lietavská Svinná-Babkov,council,obec,G0009,,pending,,,,,,517755
+G1095,Liešno,council,obec,G0009,,pending,,,,,,512427
+G1096,Likavka,council,obec,G0009,,pending,,,,,,510599
+G1097,Lipovec (okres Martin),council,obec,G0009,,pending,,,,,,512435
+G1098,Liptovská Anna,council,obec,G0009,,pending,,,,,,510602
+G1099,Liptovská Kokava,council,obec,G0009,,pending,,,,,,510611
+G1100,Liptovská Lúžna,council,obec,G0009,,pending,,,,,,510629
+G1101,Liptovská Osada,council,obec,G0009,,pending,,,,,,510637
+G1102,Liptovská Porúbka,council,obec,G0009,,pending,,,,,,558281
+G1103,Liptovská Sielnica,council,obec,G0009,,pending,,,,,,510653
+G1104,Liptovská Teplá,council,obec,G0009,,pending,,,,,,510670
+G1105,Liptovská Štiavnica,council,obec,G0009,,pending,,,,,,510661
+G1106,Liptovské Beharovce,council,obec,G0009,,pending,,,,,,510688
+G1107,Liptovské Kľačany,council,obec,G0009,,pending,,,,,,510696
+G1108,Liptovské Matiašovce,council,obec,G0009,,pending,,,,,,510700
+G1109,Liptovské Revúce,council,obec,G0009,,pending,,,,,,510718
+G1110,Liptovské Sliače,council,obec,G0009,,pending,,,,,,511005
+G1111,Liptovský Hrádok,council,obec,G0009,,pending,,,,,,510726
+G1112,Liptovský Ján,council,obec,G0009,,pending,,,,,,510734
+G1113,Liptovský Michal,council,obec,G0009,,pending,,,,,,510742
+G1114,Liptovský Mikuláš,council,obec,G0009,,pending,,,,,,510262
+G1115,Liptovský Ondrej,council,obec,G0009,,pending,,,,,,510751
+G1116,Liptovský Peter,council,obec,G0009,,pending,,,,,,580287
+G1117,Liptovský Trnovec,council,obec,G0009,,pending,,,,,,510777
+G1118,Lisková,council,obec,G0009,,pending,,,,,,510785
+G1119,Lodno,council,obec,G0009,,pending,,,,,,509272
+G1120,Lokca,council,obec,G0009,,pending,,,,,,509809
+G1121,Lomná,council,obec,G0009,,pending,,,,,,509817
+G1122,Lopušné Pažite,council,obec,G0009,,pending,,,,,,509281
+G1123,Ludrová,council,obec,G0009,,pending,,,,,,510823
+G1124,Lutiše,council,obec,G0009,,pending,,,,,,517763
+G1125,Lysica,council,obec,G0009,,pending,,,,,,517771
+G1126,Lúčky (okres Ružomberok),council,obec,G0009,,pending,,,,,,510815
+G1127,Makov,council,obec,G0009,,pending,,,,,,509299
+G1128,Malatiná,council,obec,G0009,,pending,,,,,,509825
+G1129,Malatíny,council,obec,G0009,,pending,,,,,,510831
+G1130,Malužiná,council,obec,G0009,,pending,,,,,,510858
+G1131,Malá Čierna,council,obec,G0009,,pending,,,,,,517780
+G1132,Malé Borové,council,obec,G0009,,pending,,,,,,510840
+G1133,Malý Čepčín,council,obec,G0009,,pending,,,,,,512443
+G1134,Martin,council,obec,G0009,,pending,,,,,,512036
+G1135,Martinček,council,obec,G0009,,pending,,,,,,510866
+G1136,Maršová-Rašov,council,obec,G0009,,pending,,,,,,517798
+G1137,Medzibrodie nad Oravou,council,obec,G0009,,pending,,,,,,509833
+G1138,Mojš,council,obec,G0009,,pending,,,,,,517801
+G1139,Moškovec,council,obec,G0009,,pending,,,,,,512451
+G1140,Mošovce,council,obec,G0009,,pending,,,,,,512460
+G1141,Mútne,council,obec,G0009,,pending,,,,,,509850
+G1142,Necpaly,council,obec,G0009,,pending,,,,,,512478
+G1143,Nededza,council,obec,G0009,,pending,,,,,,517828
+G1144,Nesluša,council,obec,G0009,,pending,,,,,,509302
+G1145,Nezbudská Lúčka,council,obec,G0009,,pending,,,,,,558168
+G1146,Nižná (okres Tvrdošín),council,obec,G0009,,pending,,,,,,509876
+G1147,Nižná Boca,council,obec,G0009,,pending,,,,,,510874
+G1148,Nolčovo,council,obec,G0009,,pending,,,,,,512486
+G1149,Novoť,council,obec,G0009,,pending,,,,,,509884
+G1150,Nová Bystrica,council,obec,G0009,,pending,,,,,,509311
+G1151,Námestovo,council,obec,G0009,,pending,,,,,,509868
+G1152,Ochodnica,council,obec,G0009,,pending,,,,,,509329
+G1153,Olešná,council,obec,G0009,,pending,,,,,,509337
+G1154,Ondrašová,council,obec,G0009,,pending,,,,,,512494
+G1155,Oravská Jasenica,council,obec,G0009,,pending,,,,,,509892
+G1156,Oravská Lesná,council,obec,G0009,,pending,,,,,,509906
+G1157,Oravská Polhora,council,obec,G0009,,pending,,,,,,509914
+G1158,Oravská Poruba,council,obec,G0009,,pending,,,,,,509922
+G1159,Oravské Veselé,council,obec,G0009,,pending,,,,,,509931
+G1160,Oravský Biely Potok,council,obec,G0009,,pending,,,,,,509949
+G1161,Oravský Podzámok,council,obec,G0009,,pending,,,,,,509957
+G1162,Osádka,council,obec,G0009,,pending,,,,,,509965
+G1163,Ovčiarsko,council,obec,G0009,,pending,,,,,,547611
+G1164,Oščadnica,council,obec,G0009,,pending,,,,,,509345
+G1165,Partizánska Ľupča,council,obec,G0009,,pending,,,,,,510904
+G1166,Pavlova Ves,council,obec,G0009,,pending,,,,,,510921
+G1167,Pavčina Lehota,council,obec,G0009,,pending,,,,,,510912
+G1168,Paština Závada,council,obec,G0009,,pending,,,,,,547620
+G1169,Petrovice,council,obec,G0009,,pending,,,,,,517861
+G1170,Podbiel,council,obec,G0009,,pending,,,,,,509981
+G1171,Podhorie (okres Žilina),council,obec,G0009,,pending,,,,,,517879
+G1172,Podhradie (okres Martin),council,obec,G0009,,pending,,,,,,512508
+G1173,Podtureň,council,obec,G0009,,pending,,,,,,510947
+G1174,Podvysoká,council,obec,G0009,,pending,,,,,,509361
+G1175,Pokryváč,council,obec,G0009,,pending,,,,,,509990
+G1176,Porúbka (okres Žilina),council,obec,G0009,,pending,,,,,,557960
+G1177,Potok (okres Ružomberok),council,obec,G0009,,pending,,,,,,510955
+G1178,Povina,council,obec,G0009,,pending,,,,,,509370
+G1179,Predmier,council,obec,G0009,,pending,,,,,,517895
+G1180,Pribiš,council,obec,G0009,,pending,,,,,,510009
+G1181,Pribylina,council,obec,G0009,,pending,,,,,,510963
+G1182,Prosiek,council,obec,G0009,,pending,,,,,,510971
+G1183,Príbovce,council,obec,G0009,,pending,,,,,,512524
+G1184,Pucov,council,obec,G0009,,pending,,,,,,510017
+G1185,Párnica,council,obec,G0009,,pending,,,,,,509973
+G1186,Rabča,council,obec,G0009,,pending,,,,,,510025
+G1187,Rabčice,council,obec,G0009,,pending,,,,,,510033
+G1188,Radoľa,council,obec,G0009,,pending,,,,,,580791
+G1189,Radôstka,council,obec,G0009,,pending,,,,,,509396
+G1190,Rajec,council,obec,G0009,,pending,,,,,,517917
+G1191,Rajecká Lesná,council,obec,G0009,,pending,,,,,,517925
+G1192,Rajecké Teplice,council,obec,G0009,,pending,,,,,,517933
+G1193,Rakovo,council,obec,G0009,,pending,,,,,,512541
+G1194,Raková,council,obec,G0009,,pending,,,,,,509400
+G1195,Rakša,council,obec,G0009,,pending,,,,,,512559
+G1196,Ratkovo,council,obec,G0009,,pending,,,,,,512567
+G1197,Rosina,council,obec,G0009,,pending,,,,,,517941
+G1198,Rudina,council,obec,G0009,,pending,,,,,,509426
+G1199,Rudinka,council,obec,G0009,,pending,,,,,,509434
+G1200,Rudinská,council,obec,G0009,,pending,,,,,,509442
+G1201,Rudno,council,obec,G0009,,pending,,,,,,512575
+G1202,Ružomberok,council,obec,G0009,,pending,,,,,,510998
+G1203,Sedliacka Dubová,council,obec,G0009,,pending,,,,,,510041
+G1204,Sihelné,council,obec,G0009,,pending,,,,,,510050
+G1205,Skalité,council,obec,G0009,,pending,,,,,,509451
+G1206,Sklabinský Podzámok,council,obec,G0009,,pending,,,,,,512591
+G1207,Sklabiňa,council,obec,G0009,,pending,,,,,,512583
+G1208,Sklené,council,obec,G0009,,pending,,,,,,512605
+G1209,Slovany,council,obec,G0009,,pending,,,,,,512613
+G1210,Slovenské Pravno,council,obec,G0009,,pending,,,,,,512621
+G1211,Smrečany,council,obec,G0009,,pending,,,,,,511013
+G1212,Snežnica,council,obec,G0009,,pending,,,,,,509469
+G1213,Socovce,council,obec,G0009,,pending,,,,,,512630
+G1214,Stankovany,council,obec,G0009,,pending,,,,,,511030
+G1215,Stará Bystrica,council,obec,G0009,,pending,,,,,,509477
+G1216,Staškov,council,obec,G0009,,pending,,,,,,509485
+G1217,Strečno,council,obec,G0009,,pending,,,,,,517984
+G1218,Stránske,council,obec,G0009,,pending,,,,,,517968
+G1219,Stráňavy,council,obec,G0009,,pending,,,,,,517950
+G1220,Stráža,council,obec,G0009,,pending,,,,,,517976
+G1221,Suchá Hora,council,obec,G0009,,pending,,,,,,510076
+G1222,Sučany,council,obec,G0009,,pending,,,,,,512648
+G1223,Svederník,council,obec,G0009,,pending,,,,,,518000
+G1224,Svrčinovec,council,obec,G0009,,pending,,,,,,509493
+G1225,Svätý Kríž,council,obec,G0009,,pending,,,,,,511048
+G1226,Súľov-Hradná,council,obec,G0009,,pending,,,,,,517992
+G1227,Teplička nad Váhom,council,obec,G0009,,pending,,,,,,518034
+G1228,Terchová,council,obec,G0009,,pending,,,,,,518042
+G1229,Trebostovo,council,obec,G0009,,pending,,,,,,512664
+G1230,Trnovo,council,obec,G0009,,pending,,,,,,512672
+G1231,Trstená,council,obec,G0009,,pending,,,,,,510106
+G1232,Trstené,council,obec,G0009,,pending,,,,,,511072
+G1233,Turany,council,obec,G0009,,pending,,,,,,512681
+G1234,Turie,council,obec,G0009,,pending,,,,,,518051
+G1235,Turzovka,council,obec,G0009,,pending,,,,,,509507
+G1236,Turík,council,obec,G0009,,pending,,,,,,507407
+G1237,Turček,council,obec,G0009,,pending,,,,,,512699
+G1238,Turčianska Štiavnička,council,obec,G0009,,pending,,,,,,512702
+G1239,Turčianske Jaseno,council,obec,G0009,,pending,,,,,,545961
+G1240,Turčianske Kľačany,council,obec,G0009,,pending,,,,,,512711
+G1241,Turčianske Teplice,council,obec,G0009,,pending,,,,,,512729
+G1242,Turčiansky Peter,council,obec,G0009,,pending,,,,,,512753
+G1243,Turčiansky Ďur,council,obec,G0009,,pending,,,,,,512737
+G1244,Tvrdošín,council,obec,G0009,,pending,,,,,,510114
+G1245,Uhorská Ves,council,obec,G0009,,pending,,,,,,511099
+G1246,Valaská Dubová,council,obec,G0009,,pending,,,,,,511102
+G1247,Valča,council,obec,G0009,,pending,,,,,,512761
+G1248,Varín,council,obec,G0009,,pending,,,,,,518069
+G1249,Vasiľov,council,obec,G0009,,pending,,,,,,510149
+G1250,Vavrečka,council,obec,G0009,,pending,,,,,,510157
+G1251,Vavrišovo,council,obec,G0009,,pending,,,,,,511111
+G1252,Važec,council,obec,G0009,,pending,,,,,,511129
+G1253,Veličná,council,obec,G0009,,pending,,,,,,510165
+G1254,Veterná Poruba,council,obec,G0009,,pending,,,,,,511145
+G1255,Veľká Čierna,council,obec,G0009,,pending,,,,,,518077
+G1256,Veľké Borové,council,obec,G0009,,pending,,,,,,511137
+G1257,Veľké Rovné,council,obec,G0009,,pending,,,,,,518085
+G1258,Veľký Čepčín,council,obec,G0009,,pending,,,,,,512788
+G1259,Vitanová,council,obec,G0009,,pending,,,,,,510173
+G1260,Višňové (okres Žilina),council,obec,G0009,,pending,,,,,,518093
+G1261,Vlachy,council,obec,G0009,,pending,,,,,,511153
+G1262,Vrícko,council,obec,G0009,,pending,,,,,,512796
+G1263,Vrútky,council,obec,G0009,,pending,,,,,,557358
+G1264,Vysoká nad Kysucou,council,obec,G0009,,pending,,,,,,509515
+G1265,Vyšná Boca,council,obec,G0009,,pending,,,,,,511188
+G1266,Vyšný Kubín,council,obec,G0009,,pending,,,,,,510181
+G1267,Východná,council,obec,G0009,,pending,,,,,,511170
+G1268,Zborov nad Bystricou,council,obec,G0009,,pending,,,,,,509531
+G1269,Zbyňov,council,obec,G0009,,pending,,,,,,518131
+G1270,Zuberec,council,obec,G0009,,pending,,,,,,510238
+G1271,Zubrohlava,council,obec,G0009,,pending,,,,,,510246
+G1272,Zábiedovo,council,obec,G0009,,pending,,,,,,510190
+G1273,Záborie,council,obec,G0009,,pending,,,,,,512818
+G1274,Zákamenné,council,obec,G0009,,pending,,,,,,510203
+G1275,Zákopčie,council,obec,G0009,,pending,,,,,,509523
+G1276,Závažná Poruba,council,obec,G0009,,pending,,,,,,511196
+G1277,Zázrivá,council,obec,G0009,,pending,,,,,,510211
+G1278,Čadca,council,obec,G0009,,pending,,,,,,509132
+G1279,Čierne,council,obec,G0009,,pending,,,,,,509159
+G1280,Čimhová,council,obec,G0009,,pending,,,,,,518719
+G1281,Čičmany,council,obec,G0009,,pending,,,,,,517470
+G1282,Čremošné,council,obec,G0009,,pending,,,,,,512141
+G1283,Ďanová,council,obec,G0009,,pending,,,,,,512150
+G1284,Ďurčiná,council,obec,G0009,,pending,,,,,,557986
+G1285,Ľubeľa,council,obec,G0009,,pending,,,,,,510793
+G1286,Ľubochňa,council,obec,G0009,,pending,,,,,,510807
+G1287,Štefanov nad Oravou,council,obec,G0009,,pending,,,,,,510084
+G1288,Štiavnik,council,obec,G0009,,pending,,,,,,518018
+G1289,Štiavnička,council,obec,G0009,,pending,,,,,,511056
+G1290,Šuja,council,obec,G0009,,pending,,,,,,581712
+G1291,Švošov,council,obec,G0009,,pending,,,,,,511064
+G1292,Šútovo,council,obec,G0009,,pending,,,,,,512656
+G1293,Ťapešovo,council,obec,G0009,,pending,,,,,,510092
+G1294,Žabokreky,council,obec,G0009,,pending,,,,,,512834
+G1295,Žaškov,council,obec,G0009,,pending,,,,,,510254
+G1296,Žiar (okres Liptovský Mikuláš),council,obec,G0009,,pending,,,,,,511200
+G1297,Žilina,council,obec,G0009,,pending,,,,,,517402
+G1298,Abovce,council,obec,G0010,,pending,,,,,,557757
+G1299,Babinec,council,obec,G0010,,pending,,,,,,514489
+G1300,Babiná,council,obec,G0010,,pending,,,,,,518166
+G1301,Bacúch,council,obec,G0010,,pending,,,,,,508446
+G1302,Bacúrov,council,obec,G0010,,pending,,,,,,518174
+G1303,Badín,council,obec,G0010,,pending,,,,,,508454
+G1304,Balog nad Ipľom,council,obec,G0010,,pending,,,,,,515868
+G1305,Baláže,council,obec,G0010,,pending,,,,,,508471
+G1306,Banská Belá,council,obec,G0010,,pending,,,,,,516627
+G1307,Banská Bystrica,council,obec,G0010,,pending,,,,,,508438
+G1308,Banská Štiavnica,council,obec,G0010,,pending,,,,,,516643
+G1309,Banský Studenec,council,obec,G0010,,pending,,,,,,516651
+G1310,Barca,council,obec,G0010,,pending,,,,,,514501
+G1311,Bartošova Lehôtka,council,obec,G0010,,pending,,,,,,516660
+G1312,Baďan,council,obec,G0010,,pending,,,,,,516601
+G1313,Belina,council,obec,G0010,,pending,,,,,,511234
+G1314,Beluj,council,obec,G0010,,pending,,,,,,516678
+G1315,Belín,council,obec,G0010,,pending,,,,,,514535
+G1316,Beňuš,council,obec,G0010,,pending,,,,,,508462
+G1317,Biskupice,council,obec,G0010,,pending,,,,,,557315
+G1318,Blhovce,council,obec,G0010,,pending,,,,,,514543
+G1319,Bottovo,council,obec,G0010,,pending,,,,,,514551
+G1320,Boľkovce,council,obec,G0010,,pending,,,,,,511251
+G1321,Braväcovo,council,obec,G0010,,pending,,,,,,508489
+G1322,Brehy,council,obec,G0010,,pending,,,,,,581607
+G1323,Breziny,council,obec,G0010,,pending,,,,,,518191
+G1324,Breznička (okres Poltár),council,obec,G0010,,pending,,,,,,511269
+G1325,Brezno,council,obec,G0010,,pending,,,,,,508497
+G1326,Brusno,council,obec,G0010,,pending,,,,,,508675
+G1327,Brusník,council,obec,G0010,,pending,,,,,,515884
+G1328,Budikovany,council,obec,G0010,,pending,,,,,,514586
+G1329,Budiná,council,obec,G0010,,pending,,,,,,511277
+G1330,Budča,council,obec,G0010,,pending,,,,,,518204
+G1331,Bulhary,council,obec,G0010,,pending,,,,,,558273
+G1332,Buzitka,council,obec,G0010,,pending,,,,,,511293
+G1333,Bušince,council,obec,G0010,,pending,,,,,,515892
+G1334,Bystrá (okres Brezno),council,obec,G0010,,pending,,,,,,557251
+G1335,Bzenica,council,obec,G0010,,pending,,,,,,516708
+G1336,Bzovská Lehôtka,council,obec,G0010,,pending,,,,,,518221
+G1337,Bzovík,council,obec,G0010,,pending,,,,,,518212
+G1338,Bátka,council,obec,G0010,,pending,,,,,,514519
+G1339,Bátorová,council,obec,G0010,,pending,,,,,,515876
+G1340,Cakov,council,obec,G0010,,pending,,,,,,514594
+G1341,Cerovo,council,obec,G0010,,pending,,,,,,518239
+G1342,Chanava,council,obec,G0010,,pending,,,,,,514951
+G1343,Chrastince,council,obec,G0010,,pending,,,,,,516058
+G1344,Chrámec,council,obec,G0010,,pending,,,,,,514969
+G1345,Chrťany,council,obec,G0010,,pending,,,,,,516066
+G1346,Chvalová,council,obec,G0010,,pending,,,,,,514977
+G1347,Chyžné,council,obec,G0010,,pending,,,,,,525774
+G1348,Cinobaňa,council,obec,G0010,,pending,,,,,,511315
+G1349,Dačov Lom,council,obec,G0010,,pending,,,,,,515949
+G1350,Dekýš,council,obec,G0010,,pending,,,,,,516716
+G1351,Detva,council,obec,G0010,,pending,,,,,,518263
+G1352,Detvianska Huta,council,obec,G0010,,pending,,,,,,518271
+G1353,Devičie,council,obec,G0010,,pending,,,,,,518280
+G1354,Divín,council,obec,G0010,,pending,,,,,,511358
+G1355,Dobroč,council,obec,G0010,,pending,,,,,,511366
+G1356,Dobrá Niva,council,obec,G0010,,pending,,,,,,518298
+G1357,Dolinka,council,obec,G0010,,pending,,,,,,515957
+G1358,Dolná Lehota,council,obec,G0010,,pending,,,,,,508535
+G1359,Dolná Mičiná,council,obec,G0010,,pending,,,,,,508543
+G1360,Dolná Strehová,council,obec,G0010,,pending,,,,,,515965
+G1361,Dolná Trnávka,council,obec,G0010,,pending,,,,,,516724
+G1362,Dolná Ves,council,obec,G0010,,pending,,,,,,516732
+G1363,Dolná Ždaňa,council,obec,G0010,,pending,,,,,,516741
+G1364,Dolné Mladonice,council,obec,G0010,,pending,,,,,,518301
+G1365,Dolné Plachtince,council,obec,G0010,,pending,,,,,,515973
+G1366,Dolné Strháre,council,obec,G0010,,pending,,,,,,515981
+G1367,Dolné Zahorany,council,obec,G0010,,pending,,,,,,514632
+G1368,Dolný Badín,council,obec,G0010,,pending,,,,,,518310
+G1369,Dolný Harmanec,council,obec,G0010,,pending,,,,,,508551
+G1370,Domaníky,council,obec,G0010,,pending,,,,,,518336
+G1371,Donovaly,council,obec,G0010,,pending,,,,,,508560
+G1372,Dražice,council,obec,G0010,,pending,,,,,,514641
+G1373,Drienovo,council,obec,G0010,,pending,,,,,,518352
+G1374,Drienčany,council,obec,G0010,,pending,,,,,,514659
+G1375,Drábsko,council,obec,G0010,,pending,,,,,,508578
+G1376,Drážovce,council,obec,G0010,,pending,,,,,,518344
+G1377,Drňa,council,obec,G0010,,pending,,,,,,514667
+G1378,Držkovce,council,obec,G0010,,pending,,,,,,514675
+G1379,Dubno,council,obec,G0010,,pending,,,,,,514683
+G1380,Dubovec,council,obec,G0010,,pending,,,,,,514691
+G1381,Dubové (okres Zvolen),council,obec,G0010,,pending,,,,,,518361
+G1382,Dudince,council,obec,G0010,,pending,,,,,,518387
+G1383,Dulovo,council,obec,G0010,,pending,,,,,,557919
+G1384,Dúbravica,council,obec,G0010,,pending,,,,,,508586
+G1385,Dúbravy,council,obec,G0010,,pending,,,,,,518379
+G1386,Figa,council,obec,G0010,,pending,,,,,,514713
+G1387,Fiľakovo,council,obec,G0010,,pending,,,,,,511391
+G1388,Fiľakovské Kováče,council,obec,G0010,,pending,,,,,,511404
+G1389,Gemer,council,obec,G0010,,pending,,,,,,514721
+G1390,Gemerská Ves,council,obec,G0010,,pending,,,,,,514756
+G1391,Gemerské Dechtáre,council,obec,G0010,,pending,,,,,,514764
+G1392,Gemerské Michalovce,council,obec,G0010,,pending,,,,,,557889
+G1393,Gemerské Teplice,council,obec,G0010,,pending,,,,,,525677
+G1394,Gemerský Jablonec,council,obec,G0010,,pending,,,,,,514781
+G1395,Gemerský Sad,council,obec,G0010,,pending,,,,,,525685
+G1396,Gemerček,council,obec,G0010,,pending,,,,,,514730
+G1397,Glabušovce,council,obec,G0010,,pending,,,,,,516007
+G1398,Gortva,council,obec,G0010,,pending,,,,,,514799
+G1399,Gregorova Vieska,council,obec,G0010,,pending,,,,,,557331
+G1400,Hajnáčka,council,obec,G0010,,pending,,,,,,514811
+G1401,Halič,council,obec,G0010,,pending,,,,,,511421
+G1402,Harmanec,council,obec,G0010,,pending,,,,,,508594
+G1403,Heľpa,council,obec,G0010,,pending,,,,,,508608
+G1404,Hiadeľ,council,obec,G0010,,pending,,,,,,508616
+G1405,Hliník nad Hronom,council,obec,G0010,,pending,,,,,,516767
+G1406,Hnúšťa,council,obec,G0010,,pending,,,,,,514829
+G1407,Hodejov,council,obec,G0010,,pending,,,,,,514837
+G1408,Hodejovec,council,obec,G0010,,pending,,,,,,514845
+G1409,Hodruša-Hámre,council,obec,G0010,,pending,,,,,,516759
+G1410,Holiša,council,obec,G0010,,pending,,,,,,511439
+G1411,Hontianske Moravce,council,obec,G0010,,pending,,,,,,518409
+G1412,Hontianske Nemce,council,obec,G0010,,pending,,,,,,518417
+G1413,Hontianske Tesáre,council,obec,G0010,,pending,,,,,,518425
+G1414,Horná Lehota (okres Brezno),council,obec,G0010,,pending,,,,,,508624
+G1415,Horná Mičiná,council,obec,G0010,,pending,,,,,,508632
+G1416,Horná Strehová,council,obec,G0010,,pending,,,,,,516015
+G1417,Horná Ves (okres Žiar nad Hronom),council,obec,G0010,,pending,,,,,,581747
+G1418,Horná Ždaňa,council,obec,G0010,,pending,,,,,,516791
+G1419,Horné Hámre,council,obec,G0010,,pending,,,,,,516805
+G1420,Horné Mladonice,council,obec,G0010,,pending,,,,,,518433
+G1421,Horné Plachtince,council,obec,G0010,,pending,,,,,,516023
+G1422,Horné Pršany,council,obec,G0010,,pending,,,,,,508641
+G1423,Horné Strháre,council,obec,G0010,,pending,,,,,,516031
+G1424,Horné Zahorany,council,obec,G0010,,pending,,,,,,514853
+G1425,Horný Badín,council,obec,G0010,,pending,,,,,,518441
+G1426,Horný Tisovník,council,obec,G0010,,pending,,,,,,518450
+G1427,Hostice,council,obec,G0010,,pending,,,,,,514861
+G1428,Hostišovce,council,obec,G0010,,pending,,,,,,514870
+G1429,Hrabičov,council,obec,G0010,,pending,,,,,,516813
+G1430,Hrachovo,council,obec,G0010,,pending,,,,,,514888
+G1431,Hradište (okres Poltár),council,obec,G0010,,pending,,,,,,511447
+G1432,Hriňová,council,obec,G0010,,pending,,,,,,518468
+G1433,Hrlica,council,obec,G0010,,pending,,,,,,514896
+G1434,Hrnčiarska Ves,council,obec,G0010,,pending,,,,,,514900
+G1435,Hrnčiarske Zalužany,council,obec,G0010,,pending,,,,,,514918
+G1436,Hrochoť,council,obec,G0010,,pending,,,,,,508659
+G1437,Hronec,council,obec,G0010,,pending,,,,,,508667
+G1438,Hronsek,council,obec,G0010,,pending,,,,,,580236
+G1439,Hronská Breznica,council,obec,G0010,,pending,,,,,,518476
+G1440,Hronská Dúbrava,council,obec,G0010,,pending,,,,,,516821
+G1441,Hronský Beňadik,council,obec,G0010,,pending,,,,,,516830
+G1442,Hrušov (okres Veľký Krtíš),council,obec,G0010,,pending,,,,,,516040
+G1443,Hrušovo,council,obec,G0010,,pending,,,,,,514926
+G1444,Hubovo,council,obec,G0010,,pending,,,,,,514934
+G1445,Hucín,council,obec,G0010,,pending,,,,,,525766
+G1446,Husiná,council,obec,G0010,,pending,,,,,,514942
+G1447,Ihráč,council,obec,G0010,,pending,,,,,,516848
+G1448,Ilija,council,obec,G0010,,pending,,,,,,516856
+G1449,Ipeľské Predmostie,council,obec,G0010,,pending,,,,,,516074
+G1450,Ivanice,council,obec,G0010,,pending,,,,,,514985
+G1451,Jalšovík,council,obec,G0010,,pending,,,,,,518484
+G1452,Janice,council,obec,G0010,,pending,,,,,,514993
+G1453,Janova Lehota,council,obec,G0010,,pending,,,,,,516872
+G1454,Jarabá,council,obec,G0010,,pending,,,,,,508691
+G1455,Jasenie,council,obec,G0010,,pending,,,,,,508705
+G1456,Jastrabá,council,obec,G0010,,pending,,,,,,516881
+G1457,Jelšava,council,obec,G0010,,pending,,,,,,525791
+G1458,Jelšovec,council,obec,G0010,,pending,,,,,,511463
+G1459,Jesenské (okres Rimavská Sobota),council,obec,G0010,,pending,,,,,,515001
+G1460,Jestice,council,obec,G0010,,pending,,,,,,515019
+G1461,Kalinovo,council,obec,G0010,,pending,,,,,,511471
+G1462,Kalonda,council,obec,G0010,,pending,,,,,,511480
+G1463,Kaloša,council,obec,G0010,,pending,,,,,,515027
+G1464,Kamenné Kosihy,council,obec,G0010,,pending,,,,,,516082
+G1465,Kameňany,council,obec,G0010,,pending,,,,,,525812
+G1466,Kesovce,council,obec,G0010,,pending,,,,,,515035
+G1467,Kiarov,council,obec,G0010,,pending,,,,,,516091
+G1468,Klenovec,council,obec,G0010,,pending,,,,,,515043
+G1469,Kleňany,council,obec,G0010,,pending,,,,,,516104
+G1470,Klokoč,council,obec,G0010,,pending,,,,,,518492
+G1471,Kociha,council,obec,G0010,,pending,,,,,,515051
+G1472,Kokava nad Rimavicou,council,obec,G0010,,pending,,,,,,511498
+G1473,Koláre,council,obec,G0010,,pending,,,,,,516112
+G1474,Konrádovce,council,obec,G0010,,pending,,,,,,515060
+G1475,Kopernica,council,obec,G0010,,pending,,,,,,516937
+G1476,Kordíky,council,obec,G0010,,pending,,,,,,508713
+G1477,Korytárky,council,obec,G0010,,pending,,,,,,580520
+G1478,Kosihovce,council,obec,G0010,,pending,,,,,,516121
+G1479,Kosihy nad Ipľom,council,obec,G0010,,pending,,,,,,516139
+G1480,Kosorín,council,obec,G0010,,pending,,,,,,516945
+G1481,Kotmanová,council,obec,G0010,,pending,,,,,,511374
+G1482,Kováčovce,council,obec,G0010,,pending,,,,,,516147
+G1483,Kováčová (okres Zvolen),council,obec,G0010,,pending,,,,,,518506
+G1484,Kozelník,council,obec,G0010,,pending,,,,,,516953
+G1485,Kozí Vrbovok,council,obec,G0010,,pending,,,,,,518514
+G1486,Krahule,council,obec,G0010,,pending,,,,,,516961
+G1487,Kraskovo,council,obec,G0010,,pending,,,,,,515086
+G1488,Kremnica,council,obec,G0010,,pending,,,,,,516970
+G1489,Kremnické Bane,council,obec,G0010,,pending,,,,,,516988
+G1490,Kriváň,council,obec,G0010,,pending,,,,,,518549
+G1491,Krná,council,obec,G0010,,pending,,,,,,511501
+G1492,Krokava,council,obec,G0010,,pending,,,,,,515094
+G1493,Krupina,council,obec,G0010,,pending,,,,,,518557
+G1494,Kružno,council,obec,G0010,,pending,,,,,,515108
+G1495,Králiky,council,obec,G0010,,pending,,,,,,508721
+G1496,Kráľ,council,obec,G0010,,pending,,,,,,515078
+G1497,Kráľovce-Krnišov,council,obec,G0010,,pending,,,,,,518531
+G1498,Kunešov,council,obec,G0010,,pending,,,,,,516996
+G1499,Kyjatice,council,obec,G0010,,pending,,,,,,515116
+G1500,Kynceľová,council,obec,G0010,,pending,,,,,,557277
+G1501,Kľak,council,obec,G0010,,pending,,,,,,516902
+G1502,Lackov,council,obec,G0010,,pending,,,,,,518565
+G1503,Ladomerská Vieska,council,obec,G0010,,pending,,,,,,599328
+G1504,Ladzany,council,obec,G0010,,pending,,,,,,518573
+G1505,Lehota nad Rimavicou,council,obec,G0010,,pending,,,,,,515124
+G1506,Lehôtka,council,obec,G0010,,pending,,,,,,511528
+G1507,Lehôtka pod Brehmi,council,obec,G0010,,pending,,,,,,517011
+G1508,Lenartovce,council,obec,G0010,,pending,,,,,,515132
+G1509,Lenka,council,obec,G0010,,pending,,,,,,515141
+G1510,Lentvora,council,obec,G0010,,pending,,,,,,511536
+G1511,Lesenice,council,obec,G0010,,pending,,,,,,516155
+G1512,Levkuška,council,obec,G0010,,pending,,,,,,515159
+G1513,Leváre,council,obec,G0010,,pending,,,,,,515574
+G1514,Lešť (vojenský obvod),council,obec,G0010,,pending,,,,,,518581
+G1515,Licince,council,obec,G0010,,pending,,,,,,525901
+G1516,Lieskovec (okres Zvolen),council,obec,G0010,,pending,,,,,,558133
+G1517,Lipovany,council,obec,G0010,,pending,,,,,,511544
+G1518,Lipovec (okres Rimavská Sobota),council,obec,G0010,,pending,,,,,,515167
+G1519,Litava,council,obec,G0010,,pending,,,,,,518611
+G1520,Lišov,council,obec,G0010,,pending,,,,,,518603
+G1521,Lom nad Rimavicou,council,obec,G0010,,pending,,,,,,508730
+G1522,Lovinobaňa,council,obec,G0010,,pending,,,,,,511552
+G1523,Lovča,council,obec,G0010,,pending,,,,,,517020
+G1524,Lovčica-Trubín,council,obec,G0010,,pending,,,,,,517038
+G1525,Lubeník,council,obec,G0010,,pending,,,,,,525928
+G1526,Lukavica (okres Zvolen),council,obec,G0010,,pending,,,,,,558087
+G1527,Lukovištia,council,obec,G0010,,pending,,,,,,515175
+G1528,Lupoč,council,obec,G0010,,pending,,,,,,511579
+G1529,Lutila,council,obec,G0010,,pending,,,,,,599336
+G1530,Lučatín,council,obec,G0010,,pending,,,,,,508756
+G1531,Lučenec,council,obec,G0010,,pending,,,,,,511218
+G1532,Látky,council,obec,G0010,,pending,,,,,,511510
+G1533,Lúčky (okres Žiar nad Hronom),council,obec,G0010,,pending,,,,,,517046
+G1534,Magnezitovce,council,obec,G0010,,pending,,,,,,525944
+G1535,Malachov,council,obec,G0010,,pending,,,,,,580244
+G1536,Malá Lehota,council,obec,G0010,,pending,,,,,,517062
+G1537,Malá Čalomija,council,obec,G0010,,pending,,,,,,516171
+G1538,Malé Straciny,council,obec,G0010,,pending,,,,,,558206
+G1539,Malé Zlievce,council,obec,G0010,,pending,,,,,,516198
+G1540,Malý Krtíš,council,obec,G0010,,pending,,,,,,558192
+G1541,Martinová,council,obec,G0010,,pending,,,,,,515183
+G1542,Mašková,council,obec,G0010,,pending,,,,,,511609
+G1543,Medovarce,council,obec,G0010,,pending,,,,,,518646
+G1544,Medzibrod,council,obec,G0010,,pending,,,,,,508764
+G1545,Michalková,council,obec,G0010,,pending,,,,,,518654
+G1546,Michalová,council,obec,G0010,,pending,,,,,,508772
+G1547,Mikušovce (okres Lučenec),council,obec,G0010,,pending,,,,,,580309
+G1548,Mládzovo,council,obec,G0010,,pending,,,,,,511617
+G1549,Modrý Kameň,council,obec,G0010,,pending,,,,,,516210
+G1550,Mokrá Lúka,council,obec,G0010,,pending,,,,,,580384
+G1551,Motyčky,council,obec,G0010,,pending,,,,,,508802
+G1552,Močiar,council,obec,G0010,,pending,,,,,,517071
+G1553,Moštenica,council,obec,G0010,,pending,,,,,,508799
+G1554,Muránska Dlhá Lúka,council,obec,G0010,,pending,,,,,,525995
+G1555,Muránska Huta,council,obec,G0010,,pending,,,,,,526002
+G1556,Muránska Lehota,council,obec,G0010,,pending,,,,,,526011
+G1557,Muránska Zdychava,council,obec,G0010,,pending,,,,,,526029
+G1558,Muráň,council,obec,G0010,,pending,,,,,,525987
+G1559,Mučín,council,obec,G0010,,pending,,,,,,511625
+G1560,Muľa,council,obec,G0010,,pending,,,,,,516228
+G1561,Málinec,council,obec,G0010,,pending,,,,,,511595
+G1562,Môlča,council,obec,G0010,,pending,,,,,,508781
+G1563,Mýtna,council,obec,G0010,,pending,,,,,,511641
+G1564,Mýto pod Ďumbierom,council,obec,G0010,,pending,,,,,,508811
+G1565,Nandraž,council,obec,G0010,,pending,,,,,,526037
+G1566,Nemce,council,obec,G0010,,pending,,,,,,557285
+G1567,Nemecká,council,obec,G0010,,pending,,,,,,508829
+G1568,Nenince,council,obec,G0010,,pending,,,,,,516236
+G1569,Neporadza (okres Rimavská Sobota),council,obec,G0010,,pending,,,,,,515205
+G1570,Nevoľné,council,obec,G0010,,pending,,,,,,517089
+G1571,Nitra nad Ipľom,council,obec,G0010,,pending,,,,,,511668
+G1572,Nižný Skálnik,council,obec,G0010,,pending,,,,,,557790
+G1573,Nová Baňa,council,obec,G0010,,pending,,,,,,517097
+G1574,Nová Bašta,council,obec,G0010,,pending,,,,,,515230
+G1575,Nová Ves,council,obec,G0010,,pending,,,,,,516244
+G1576,Nové Hony,council,obec,G0010,,pending,,,,,,511676
+G1577,Obeckov,council,obec,G0010,,pending,,,,,,516252
+G1578,Olováry,council,obec,G0010,,pending,,,,,,516261
+G1579,Opatovská Nová Ves,council,obec,G0010,,pending,,,,,,516279
+G1580,Opava,council,obec,G0010,,pending,,,,,,516287
+G1581,Oravce,council,obec,G0010,,pending,,,,,,508837
+G1582,Orovnica,council,obec,G0010,,pending,,,,,,580546
+G1583,Orávka,council,obec,G0010,,pending,,,,,,515248
+G1584,Osrblie,council,obec,G0010,,pending,,,,,,508845
+G1585,Ostrá Lúka,council,obec,G0010,,pending,,,,,,518671
+G1586,Ostrý Grúň,council,obec,G0010,,pending,,,,,,517119
+G1587,Otročok,council,obec,G0010,,pending,,,,,,515256
+G1588,Ozdín,council,obec,G0010,,pending,,,,,,511684
+G1589,Očová,council,obec,G0010,,pending,,,,,,518662
+G1590,Ožďany,council,obec,G0010,,pending,,,,,,515264
+G1591,Padarovce,council,obec,G0010,,pending,,,,,,515272
+G1592,Panické Dravce,council,obec,G0010,,pending,,,,,,511692
+G1593,Pavlovce (okres Rimavská Sobota),council,obec,G0010,,pending,,,,,,515281
+G1594,Petrovce (okres Rimavská Sobota),council,obec,G0010,,pending,,,,,,515299
+G1595,Pinciná,council,obec,G0010,,pending,,,,,,511714
+G1596,Pitelová,council,obec,G0010,,pending,,,,,,517135
+G1597,Pleš,council,obec,G0010,,pending,,,,,,511722
+G1598,Pliešovce,council,obec,G0010,,pending,,,,,,518689
+G1599,Ploské (okres Revúca),council,obec,G0010,,pending,,,,,,515302
+G1600,Podbrezová,council,obec,G0010,,pending,,,,,,508853
+G1601,Podhorie (okres Banská Štiavnica),council,obec,G0010,,pending,,,,,,517143
+G1602,Podkonice,council,obec,G0010,,pending,,,,,,508861
+G1603,Podkriváň,council,obec,G0010,,pending,,,,,,511731
+G1604,Podrečany,council,obec,G0010,,pending,,,,,,511749
+G1605,Podzámčok,council,obec,G0010,,pending,,,,,,518697
+G1606,Pohorelá,council,obec,G0010,,pending,,,,,,508870
+G1607,Pohronská Polhora,council,obec,G0010,,pending,,,,,,508888
+G1608,Pohronský Bukovec,council,obec,G0010,,pending,,,,,,508896
+G1609,Polichno,council,obec,G0010,,pending,,,,,,511757
+G1610,Polina,council,obec,G0010,,pending,,,,,,515311
+G1611,Polomka,council,obec,G0010,,pending,,,,,,508900
+G1612,Poltár,council,obec,G0010,,pending,,,,,,511765
+G1613,Poniky,council,obec,G0010,,pending,,,,,,508918
+G1614,Poproč (okres Rimavská Sobota),council,obec,G0010,,pending,,,,,,515337
+G1615,Potok (okres Rimavská Sobota),council,obec,G0010,,pending,,,,,,515345
+G1616,Povrazník,council,obec,G0010,,pending,,,,,,508926
+G1617,Počúvadlo,council,obec,G0010,,pending,,,,,,517160
+G1618,Praha,council,obec,G0010,,pending,,,,,,511773
+G1619,Pravica,council,obec,G0010,,pending,,,,,,516309
+G1620,Predajná,council,obec,G0010,,pending,,,,,,508934
+G1621,Prenčov,council,obec,G0010,,pending,,,,,,517178
+G1622,Prestavlky,council,obec,G0010,,pending,,,,,,517186
+G1623,Priechod,council,obec,G0010,,pending,,,,,,508942
+G1624,Prihradzany,council,obec,G0010,,pending,,,,,,526100
+G1625,Prochot,council,obec,G0010,,pending,,,,,,517194
+G1626,Príbelce,council,obec,G0010,,pending,,,,,,516317
+G1627,Prša,council,obec,G0010,,pending,,,,,,511781
+G1628,Píla (okres Lučenec),council,obec,G0010,,pending,,,,,,511706
+G1629,Píla (okres Žarnovica),council,obec,G0010,,pending,,,,,,517127
+G1630,Pôtor,council,obec,G0010,,pending,,,,,,516295
+G1631,Radnovce,council,obec,G0010,,pending,,,,,,515353
+G1632,Radzovce,council,obec,G0010,,pending,,,,,,511790
+G1633,Rakytník,council,obec,G0010,,pending,,,,,,557854
+G1634,Rapovce,council,obec,G0010,,pending,,,,,,511803
+G1635,Ratka,council,obec,G0010,,pending,,,,,,511811
+G1636,Ratkovská Lehota,council,obec,G0010,,pending,,,,,,515388
+G1637,Ratkovská Suchá,council,obec,G0010,,pending,,,,,,515396
+G1638,Ratkovské Bystré,council,obec,G0010,,pending,,,,,,515400
+G1639,Ratková,council,obec,G0010,,pending,,,,,,515370
+G1640,Rašice,council,obec,G0010,,pending,,,,,,515361
+G1641,Repište,council,obec,G0010,,pending,,,,,,517216
+G1642,Revúca,council,obec,G0010,,pending,,,,,,526142
+G1643,Revúcka Lehota,council,obec,G0010,,pending,,,,,,526151
+G1644,Riečka (okres Banská Bystrica),council,obec,G0010,,pending,,,,,,508969
+G1645,Riečka (okres Rimavská Sobota),council,obec,G0010,,pending,,,,,,557765
+G1646,Rimavská Baňa,council,obec,G0010,,pending,,,,,,515426
+G1647,Rimavská Seč,council,obec,G0010,,pending,,,,,,515442
+G1648,Rimavská Sobota,council,obec,G0010,,pending,,,,,,514462
+G1649,Rimavské Brezovo,council,obec,G0010,,pending,,,,,,515451
+G1650,Rimavské Janovce,council,obec,G0010,,pending,,,,,,515469
+G1651,Rimavské Zalužany,council,obec,G0010,,pending,,,,,,557811
+G1652,Rovné (okres Rimavská Sobota),council,obec,G0010,,pending,,,,,,515485
+G1653,Rovňany,council,obec,G0010,,pending,,,,,,511820
+G1654,Rudno nad Hronom,council,obec,G0010,,pending,,,,,,517232
+G1655,Rumince,council,obec,G0010,,pending,,,,,,515493
+G1656,Ružiná,council,obec,G0010,,pending,,,,,,511838
+G1657,Rybník (okres Revúca),council,obec,G0010,,pending,,,,,,515507
+G1658,Rykynčice,council,obec,G0010,,pending,,,,,,518701
+G1659,Rákoš (okres Revúca),council,obec,G0010,,pending,,,,,,526118
+G1660,Ráztoka,council,obec,G0010,,pending,,,,,,508951
+G1661,Sebechleby,council,obec,G0010,,pending,,,,,,518735
+G1662,Sebedín-Bečov,council,obec,G0010,,pending,,,,,,508977
+G1663,Selce (okres Banská Bystrica),council,obec,G0010,,pending,,,,,,508985
+G1664,Selce (okres Krupina),council,obec,G0010,,pending,,,,,,518743
+G1665,Selce (okres Poltár),council,obec,G0010,,pending,,,,,,515515
+G1666,Senné (okres Veľký Krtíš),council,obec,G0010,,pending,,,,,,516368
+G1667,Senohrad,council,obec,G0010,,pending,,,,,,518751
+G1668,Sečianky,council,obec,G0010,,pending,,,,,,516333
+G1669,Seľany,council,obec,G0010,,pending,,,,,,516341
+G1670,Sielnica,council,obec,G0010,,pending,,,,,,518760
+G1671,Sihla,council,obec,G0010,,pending,,,,,,508993
+G1672,Sirk,council,obec,G0010,,pending,,,,,,526258
+G1673,Skerešovo,council,obec,G0010,,pending,,,,,,515523
+G1674,Sklabiná,council,obec,G0010,,pending,,,,,,516376
+G1675,Sklené Teplice,council,obec,G0010,,pending,,,,,,517241
+G1676,Slaská,council,obec,G0010,,pending,,,,,,517259
+G1677,Slatinské Lazy,council,obec,G0010,,pending,,,,,,518794
+G1678,Sliač,council,obec,G0010,,pending,,,,,,518808
+G1679,Slizké,council,obec,G0010,,pending,,,,,,515531
+G1680,Slovenská Ľupča,council,obec,G0010,,pending,,,,,,509001
+G1681,Slovenské Kľačany,council,obec,G0010,,pending,,,,,,516392
+G1682,Slovenské Ďarmoty,council,obec,G0010,,pending,,,,,,516384
+G1683,Stará Bašta,council,obec,G0010,,pending,,,,,,515540
+G1684,Stará Halič,council,obec,G0010,,pending,,,,,,511846
+G1685,Stará Huta,council,obec,G0010,,pending,,,,,,518816
+G1686,Stará Kremnička,council,obec,G0010,,pending,,,,,,517267
+G1687,Staré Hory,council,obec,G0010,,pending,,,,,,509019
+G1688,Stožok,council,obec,G0010,,pending,,,,,,518824
+G1689,Stredné Plachtince,council,obec,G0010,,pending,,,,,,516406
+G1690,Strelníky,council,obec,G0010,,pending,,,,,,509027
+G1691,Stránska,council,obec,G0010,,pending,,,,,,515566
+G1692,Studená,council,obec,G0010,,pending,,,,,,515582
+G1693,Sucháň,council,obec,G0010,,pending,,,,,,516414
+G1694,Suché Brezovo,council,obec,G0010,,pending,,,,,,516422
+G1695,Sudince,council,obec,G0010,,pending,,,,,,518832
+G1696,Sušany,council,obec,G0010,,pending,,,,,,515591
+G1697,Svätý Anton,council,obec,G0010,,pending,,,,,,516597
+G1698,Sása (okres Revúca),council,obec,G0010,,pending,,,,,,557820
+G1699,Sása (okres Zvolen),council,obec,G0010,,pending,,,,,,518727
+G1700,Súdovce,council,obec,G0010,,pending,,,,,,518841
+G1701,Sútor,council,obec,G0010,,pending,,,,,,515604
+G1702,Tachty,council,obec,G0010,,pending,,,,,,515663
+G1703,Tajov,council,obec,G0010,,pending,,,,,,509060
+G1704,Tekovská Breznica,council,obec,G0010,,pending,,,,,,517291
+G1705,Telgárt,council,obec,G0010,,pending,,,,,,509051
+G1706,Teplý Vrch,council,obec,G0010,,pending,,,,,,515671
+G1707,Terany,council,obec,G0010,,pending,,,,,,518867
+G1708,Tisovec,council,obec,G0010,,pending,,,,,,515680
+G1709,Tomášovce (okres Lučenec),council,obec,G0010,,pending,,,,,,511919
+G1710,Tomášovce (okres Rimavská Sobota),council,obec,G0010,,pending,,,,,,515698
+G1711,Tornaľa,council,obec,G0010,,pending,,,,,,515612
+G1712,Točnica,council,obec,G0010,,pending,,,,,,511901
+G1713,Trebeľovce,council,obec,G0010,,pending,,,,,,511927
+G1714,Trebušovce,council,obec,G0010,,pending,,,,,,516457
+G1715,Trenč,council,obec,G0010,,pending,,,,,,557340
+G1716,Trnavá Hora,council,obec,G0010,,pending,,,,,,517313
+G1717,Trpín,council,obec,G0010,,pending,,,,,,518883
+G1718,Tuhár,council,obec,G0010,,pending,,,,,,511943
+G1719,Turecká,council,obec,G0010,,pending,,,,,,557269
+G1720,Turová,council,obec,G0010,,pending,,,,,,518891
+G1721,Turčok,council,obec,G0010,,pending,,,,,,526321
+G1722,Tŕnie,council,obec,G0010,,pending,,,,,,518875
+G1723,Uhorské,council,obec,G0010,,pending,,,,,,511978
+G1724,Utekáč,council,obec,G0010,,pending,,,,,,580317
+G1725,Uzovská Panica,council,obec,G0010,,pending,,,,,,515701
+G1726,Uňatín,council,obec,G0010,,pending,,,,,,518905
+G1727,Valaská,council,obec,G0010,,pending,,,,,,509086
+G1728,Valice,council,obec,G0010,,pending,,,,,,515795
+G1729,Vaľkovňa,council,obec,G0010,,pending,,,,,,509094
+G1730,Večelkov,council,obec,G0010,,pending,,,,,,515728
+G1731,Veľká Lehota,council,obec,G0010,,pending,,,,,,517330
+G1732,Veľká Lúka,council,obec,G0010,,pending,,,,,,581585
+G1733,Veľká Ves,council,obec,G0010,,pending,,,,,,512001
+G1734,Veľká Ves nad Ipľom,council,obec,G0010,,pending,,,,,,516473
+G1735,Veľká nad Ipľom,council,obec,G0010,,pending,,,,,,511994
+G1736,Veľká Čalomija,council,obec,G0010,,pending,,,,,,516465
+G1737,Veľké Dravce,council,obec,G0010,,pending,,,,,,512010
+G1738,Veľké Pole,council,obec,G0010,,pending,,,,,,517348
+G1739,Veľké Straciny,council,obec,G0010,,pending,,,,,,558214
+G1740,Veľké Teriakovce,council,obec,G0010,,pending,,,,,,515736
+G1741,Veľké Zlievce,council,obec,G0010,,pending,,,,,,516490
+G1742,Veľký Blh,council,obec,G0010,,pending,,,,,,515744
+G1743,Veľký Krtíš,council,obec,G0010,,pending,,,,,,515850
+G1744,Veľký Lom,council,obec,G0010,,pending,,,,,,516503
+G1745,Vidiná,council,obec,G0010,,pending,,,,,,557307
+G1746,Vieska (okres Veľký Krtíš),council,obec,G0010,,pending,,,,,,516511
+G1747,Vieska nad Blhom,council,obec,G0010,,pending,,,,,,515752
+G1748,Vinica,council,obec,G0010,,pending,,,,,,516520
+G1749,Višňové (okres Revúca),council,obec,G0010,,pending,,,,,,515761
+G1750,Vlkanová,council,obec,G0010,,pending,,,,,,557293
+G1751,Vlkyňa,council,obec,G0010,,pending,,,,,,515779
+G1752,Voznica,council,obec,G0010,,pending,,,,,,517356
+G1753,Vrbovka,council,obec,G0010,,pending,,,,,,516538
+G1754,Vyhne,council,obec,G0010,,pending,,,,,,517364
+G1755,Vysoká (okres Banská Štiavnica),council,obec,G0010,,pending,,,,,,517372
+G1756,Vyšné Valice,council,obec,G0010,,pending,,,,,,557901
+G1757,Vyšný Skálnik,council,obec,G0010,,pending,,,,,,515809
+G1758,Vígľaš,council,obec,G0010,,pending,,,,,,518921
+G1759,Vígľašská Huta-Kalinka,council,obec,G0010,,pending,,,,,,518930
+G1760,Včelince,council,obec,G0010,,pending,,,,,,515710
+G1761,Zacharovce,council,obec,G0010,,pending,,,,,,557927
+G1762,Zemiansky Vrbovok,council,obec,G0010,,pending,,,,,,518956
+G1763,Zlatno (okres Poltár),council,obec,G0010,,pending,,,,,,582051
+G1764,Zombor,council,obec,G0010,,pending,,,,,,516562
+G1765,Zvolen,council,obec,G0010,,pending,,,,,,518158
+G1766,Zvolenská Slatina,council,obec,G0010,,pending,,,,,,518972
+G1767,Zádor,council,obec,G0010,,pending,,,,,,515817
+G1768,Záhorce,council,obec,G0010,,pending,,,,,,516546
+G1769,Závada (okres Veľký Krtíš),council,obec,G0010,,pending,,,,,,516554
+G1770,Závadka nad Hronom,council,obec,G0010,,pending,,,,,,509124
+G1771,Ábelová,council,obec,G0010,,pending,,,,,,511226
+G1772,Čabradský Vrbovok,council,obec,G0010,,pending,,,,,,518247
+G1773,Čakanovce (okres Lučenec),council,obec,G0010,,pending,,,,,,511323
+G1774,Čamovce,council,obec,G0010,,pending,,,,,,511331
+G1775,Čebovce,council,obec,G0010,,pending,,,,,,515906
+G1776,Čekovce,council,obec,G0010,,pending,,,,,,518255
+G1777,Čelovce (okres Veľký Krtíš),council,obec,G0010,,pending,,,,,,515922
+G1778,Čeláre,council,obec,G0010,,pending,,,,,,515914
+G1779,Čerenčany,council,obec,G0010,,pending,,,,,,514608
+G1780,Červeňany,council,obec,G0010,,pending,,,,,,515931
+G1781,Čerín,council,obec,G0010,,pending,,,,,,508519
+G1782,České Brezovo,council,obec,G0010,,pending,,,,,,511340
+G1783,Čierny Balog,council,obec,G0010,,pending,,,,,,508527
+G1784,Čierny Potok,council,obec,G0010,,pending,,,,,,514616
+G1785,Číž,council,obec,G0010,,pending,,,,,,514624
+G1786,Ďubákovo,council,obec,G0010,,pending,,,,,,557323
+G1787,Ďurkovce,council,obec,G0010,,pending,,,,,,515990
+G1788,Ľubietová,council,obec,G0010,,pending,,,,,,508748
+G1789,Ľuboreč,council,obec,G0010,,pending,,,,,,511561
+G1790,Ľuboriečka,council,obec,G0010,,pending,,,,,,516163
+G1791,Šiatorská Bukovinka,council,obec,G0010,,pending,,,,,,511862
+G1792,Šimonovce,council,obec,G0010,,pending,,,,,,515621
+G1793,Širkovce,council,obec,G0010,,pending,,,,,,515639
+G1794,Širákov,council,obec,G0010,,pending,,,,,,516431
+G1795,Šivetice,council,obec,G0010,,pending,,,,,,526304
+G1796,Šoltýska,council,obec,G0010,,pending,,,,,,511889
+G1797,Špania Dolina,council,obec,G0010,,pending,,,,,,509035
+G1798,Španie Pole,council,obec,G0010,,pending,,,,,,515647
+G1799,Štiavnické Bane,council,obec,G0010,,pending,,,,,,517283
+G1800,Štrkovec,council,obec,G0010,,pending,,,,,,515655
+G1801,Šumiac,council,obec,G0010,,pending,,,,,,509043
+G1802,Šurice,council,obec,G0010,,pending,,,,,,511897
+G1803,Šuľa,council,obec,G0010,,pending,,,,,,516449
+G1804,Šávoľ,council,obec,G0010,,pending,,,,,,511854
+G1805,Šíd,council,obec,G0010,,pending,,,,,,511871
+G1806,Žarnovica,council,obec,G0010,,pending,,,,,,517381
+G1807,Železná Breznica,council,obec,G0010,,pending,,,,,,518981
+G1808,Želovce,council,obec,G0010,,pending,,,,,,516571
+G1809,Žiar (okres Revúca),council,obec,G0010,,pending,,,,,,515833
+G1810,Žiar nad Hronom,council,obec,G0010,,pending,,,,,,516589
+G1811,Žibritov,council,obec,G0010,,pending,,,,,,518999
+G1812,Župkov,council,obec,G0010,,pending,,,,,,517399
+G1813,Žíp,council,obec,G0010,,pending,,,,,,515841
+G1814,Abrahámovce (okres Bardejov),council,obec,G0011,,pending,,,,,,519014
+G1815,Abrahámovce (okres Kežmarok),council,obec,G0011,,pending,,,,,,523399
+G1816,Abranovce,council,obec,G0011,,pending,,,,,,524158
+G1817,Adidovce,council,obec,G0011,,pending,,,,,,520012
+G1818,Andrejová,council,obec,G0011,,pending,,,,,,519022
+G1819,Babie,council,obec,G0011,,pending,,,,,,544060
+G1820,Bajerov,council,obec,G0011,,pending,,,,,,524174
+G1821,Bajerovce,council,obec,G0011,,pending,,,,,,524182
+G1822,Baldovce,council,obec,G0011,,pending,,,,,,526371
+G1823,Banské,council,obec,G0011,,pending,,,,,,544078
+G1824,Bardejov,council,obec,G0011,,pending,,,,,,519006
+G1825,Bartošovce,council,obec,G0011,,pending,,,,,,519049
+G1826,Batizovce,council,obec,G0011,,pending,,,,,,523402
+G1827,Baňa,council,obec,G0011,,pending,,,,,,527114
+G1828,Baškovce (okres Humenné),council,obec,G0011,,pending,,,,,,520021
+G1829,Becherov,council,obec,G0011,,pending,,,,,,519057
+G1830,Beharovce,council,obec,G0011,,pending,,,,,,526380
+G1831,Belejovce,council,obec,G0011,,pending,,,,,,527122
+G1832,Beloveža,council,obec,G0011,,pending,,,,,,519065
+G1833,Belá nad Cirochou,council,obec,G0011,,pending,,,,,,520039
+G1834,Benkovce,council,obec,G0011,,pending,,,,,,544086
+G1835,Bertotovce,council,obec,G0011,,pending,,,,,,524191
+G1836,Beňadikovce,council,obec,G0011,,pending,,,,,,527131
+G1837,Bijacovce,council,obec,G0011,,pending,,,,,,526401
+G1838,Bodovce,council,obec,G0011,,pending,,,,,,524204
+G1839,Bodružal,council,obec,G0011,,pending,,,,,,527149
+G1840,Bogliarka,council,obec,G0011,,pending,,,,,,519073
+G1841,Brekov,council,obec,G0011,,pending,,,,,,520055
+G1842,Brestov (okres Humenné),council,obec,G0011,,pending,,,,,,520063
+G1843,Brestov (okres Prešov),council,obec,G0011,,pending,,,,,,524212
+G1844,Brestov nad Laborcom,council,obec,G0011,,pending,,,,,,520071
+G1845,Bretejovce,council,obec,G0011,,pending,,,,,,524221
+G1846,Breznica,council,obec,G0011,,pending,,,,,,527157
+G1847,Breznička (okres Stropkov),council,obec,G0011,,pending,,,,,,527165
+G1848,Brezov,council,obec,G0011,,pending,,,,,,519081
+G1849,Brezovec,council,obec,G0011,,pending,,,,,,520080
+G1850,Brezovica (okres Sabinov),council,obec,G0011,,pending,,,,,,524239
+G1851,Brezovička,council,obec,G0011,,pending,,,,,,524247
+G1852,Brezovka,council,obec,G0011,,pending,,,,,,519090
+G1853,Brežany,council,obec,G0011,,pending,,,,,,524255
+G1854,Brusnica,council,obec,G0011,,pending,,,,,,527173
+G1855,Brutovce,council,obec,G0011,,pending,,,,,,526410
+G1856,Buclovany,council,obec,G0011,,pending,,,,,,519103
+G1857,Buglovce,council,obec,G0011,,pending,,,,,,526428
+G1858,Bukovce,council,obec,G0011,,pending,,,,,,527181
+G1859,Bušovce,council,obec,G0011,,pending,,,,,,523411
+G1860,Bystrá (okres Stropkov),council,obec,G0011,,pending,,,,,,527190
+G1861,Bystré,council,obec,G0011,,pending,,,,,,544094
+G1862,Bzenov,council,obec,G0011,,pending,,,,,,524263
+G1863,Bžany,council,obec,G0011,,pending,,,,,,527203
+G1864,Cabov,council,obec,G0011,,pending,,,,,,544108
+G1865,Cernina,council,obec,G0011,,pending,,,,,,527211
+G1866,Chlmec,council,obec,G0011,,pending,,,,,,520268
+G1867,Chmeľnica,council,obec,G0011,,pending,,,,,,526754
+G1868,Chmeľov,council,obec,G0011,,pending,,,,,,524506
+G1869,Chmeľovec,council,obec,G0011,,pending,,,,,,524514
+G1870,Chmeľová,council,obec,G0011,,pending,,,,,,519286
+G1871,Chminianska Nová Ves,council,obec,G0011,,pending,,,,,,524522
+G1872,Chminianske Jakubovany,council,obec,G0011,,pending,,,,,,524531
+G1873,Chmiňany,council,obec,G0011,,pending,,,,,,524549
+G1874,Chotča,council,obec,G0011,,pending,,,,,,527335
+G1875,Cigeľka,council,obec,G0011,,pending,,,,,,519111
+G1876,Cigla,council,obec,G0011,,pending,,,,,,527220
+G1877,Daletice,council,obec,G0011,,pending,,,,,,524328
+G1878,Davidov,council,obec,G0011,,pending,,,,,,544159
+G1879,Dedačov,council,obec,G0011,,pending,,,,,,520152
+G1880,Demjata,council,obec,G0011,,pending,,,,,,524336
+G1881,Detrík,council,obec,G0011,,pending,,,,,,544167
+G1882,Dlhoňa,council,obec,G0011,,pending,,,,,,527238
+G1883,Dlhé Klčovo,council,obec,G0011,,pending,,,,,,544175
+G1884,Dlhé Stráže,council,obec,G0011,,pending,,,,,,526452
+G1885,Dlhé nad Cirochou,council,obec,G0011,,pending,,,,,,520161
+G1886,Dobroslava,council,obec,G0011,,pending,,,,,,527246
+G1887,Domaňovce,council,obec,G0011,,pending,,,,,,526479
+G1888,Doľany (okres Levoča),council,obec,G0011,,pending,,,,,,526461
+G1889,Dravce,council,obec,G0011,,pending,,,,,,526487
+G1890,Drienica,council,obec,G0011,,pending,,,,,,524344
+G1891,Drienov,council,obec,G0011,,pending,,,,,,524352
+G1892,Drienovská Nová Ves,council,obec,G0011,,pending,,,,,,524361
+G1893,Dubinné,council,obec,G0011,,pending,,,,,,519138
+G1894,Dubovica,council,obec,G0011,,pending,,,,,,524379
+G1895,Dubová (okres Svidník),council,obec,G0011,,pending,,,,,,527254
+G1896,Dukovce,council,obec,G0011,,pending,,,,,,580601
+G1897,Dulova Ves,council,obec,G0011,,pending,,,,,,524387
+G1898,Duplín,council,obec,G0011,,pending,,,,,,527262
+G1899,Dúbrava (okres Levoča),council,obec,G0011,,pending,,,,,,526495
+G1900,Dúbrava (okres Snina),council,obec,G0011,,pending,,,,,,520179
+G1901,Fijaš,council,obec,G0011,,pending,,,,,,527271
+G1902,Fintice,council,obec,G0011,,pending,,,,,,524395
+G1903,Forbasy,council,obec,G0011,,pending,,,,,,526690
+G1904,Frička,council,obec,G0011,,pending,,,,,,519154
+G1905,Fričkovce,council,obec,G0011,,pending,,,,,,519162
+G1906,Fričovce,council,obec,G0011,,pending,,,,,,524409
+G1907,Fulianka,council,obec,G0011,,pending,,,,,,524417
+G1908,Gaboltov,council,obec,G0011,,pending,,,,,,519171
+G1909,Geraltov,council,obec,G0011,,pending,,,,,,524425
+G1910,Gerlachov (okres Bardejov),council,obec,G0011,,pending,,,,,,519189
+G1911,Gerlachov (okres Poprad),council,obec,G0011,,pending,,,,,,523445
+G1912,Giglovce,council,obec,G0011,,pending,,,,,,544191
+G1913,Giraltovce,council,obec,G0011,,pending,,,,,,519197
+G1914,Girovce,council,obec,G0011,,pending,,,,,,544205
+G1915,Granč-Petrovce,council,obec,G0011,,pending,,,,,,526517
+G1916,Gregorovce,council,obec,G0011,,pending,,,,,,524433
+G1917,Gribov,council,obec,G0011,,pending,,,,,,527289
+G1918,Gruzovce,council,obec,G0011,,pending,,,,,,559644
+G1919,Gánovce,council,obec,G0011,,pending,,,,,,523437
+G1920,Habura,council,obec,G0011,,pending,,,,,,520187
+G1921,Hajtovka,council,obec,G0011,,pending,,,,,,526703
+G1922,Haligovce,council,obec,G0011,,pending,,,,,,526711
+G1923,Hanigovce,council,obec,G0011,,pending,,,,,,524441
+G1924,Haniska (okres Prešov),council,obec,G0011,,pending,,,,,,518522
+G1925,Hankovce (okres Bardejov),council,obec,G0011,,pending,,,,,,519201
+G1926,Hankovce (okres Humenné),council,obec,G0011,,pending,,,,,,520195
+G1927,Hanušovce nad Topľou,council,obec,G0011,,pending,,,,,,544213
+G1928,Harakovce,council,obec,G0011,,pending,,,,,,526525
+G1929,Harhaj,council,obec,G0011,,pending,,,,,,519219
+G1930,Havaj,council,obec,G0011,,pending,,,,,,527297
+G1931,Havka,council,obec,G0011,,pending,,,,,,523461
+G1932,Havranec,council,obec,G0011,,pending,,,,,,527301
+G1933,Hažlín,council,obec,G0011,,pending,,,,,,519227
+G1934,Hažín nad Cirochou,council,obec,G0011,,pending,,,,,,559598
+G1935,Hencovce,council,obec,G0011,,pending,,,,,,581674
+G1936,Hendrichovce,council,obec,G0011,,pending,,,,,,524450
+G1937,Hermanovce,council,obec,G0011,,pending,,,,,,524468
+G1938,Hermanovce nad Topľou,council,obec,G0011,,pending,,,,,,544221
+G1939,Hertník,council,obec,G0011,,pending,,,,,,519235
+G1940,Hervartov,council,obec,G0011,,pending,,,,,,519243
+G1941,Hlinné,council,obec,G0011,,pending,,,,,,544230
+G1942,Hniezdne,council,obec,G0011,,pending,,,,,,526720
+G1943,Holumnica,council,obec,G0011,,pending,,,,,,523470
+G1944,Holčíkovce,council,obec,G0011,,pending,,,,,,528731
+G1945,Hostovice,council,obec,G0011,,pending,,,,,,520209
+G1946,Hozelec,council,obec,G0011,,pending,,,,,,523496
+G1947,Hrabkov,council,obec,G0011,,pending,,,,,,524476
+G1948,Hrabovec,council,obec,G0011,,pending,,,,,,519251
+G1949,Hrabovec nad Laborcom,council,obec,G0011,,pending,,,,,,520225
+G1950,Hrabová Roztoka,council,obec,G0011,,pending,,,,,,520217
+G1951,Hrabovčík,council,obec,G0011,,pending,,,,,,527319
+G1952,Hrabské,council,obec,G0011,,pending,,,,,,519260
+G1953,Hradisko,council,obec,G0011,,pending,,,,,,523500
+G1954,Hraničné,council,obec,G0011,,pending,,,,,,526738
+G1955,Hranovnica,council,obec,G0011,,pending,,,,,,523518
+G1956,Hromoš,council,obec,G0011,,pending,,,,,,526746
+G1957,Hrubov,council,obec,G0011,,pending,,,,,,520233
+G1958,Hubošovce,council,obec,G0011,,pending,,,,,,524492
+G1959,Hudcovce,council,obec,G0011,,pending,,,,,,520241
+G1960,Humenné,council,obec,G0011,,pending,,,,,,520004
+G1961,Huncovce,council,obec,G0011,,pending,,,,,,523526
+G1962,Hunkovce,council,obec,G0011,,pending,,,,,,527327
+G1963,Hutka,council,obec,G0011,,pending,,,,,,519278
+G1964,Hôrka,council,obec,G0011,,pending,,,,,,523488
+G1965,Ihľany,council,obec,G0011,,pending,,,,,,523534
+G1966,Jablonov,council,obec,G0011,,pending,,,,,,543179
+G1967,Jabloň,council,obec,G0011,,pending,,,,,,520276
+G1968,Jakovany,council,obec,G0011,,pending,,,,,,524557
+G1969,Jakubany,council,obec,G0011,,pending,,,,,,526762
+G1970,Jakubova Voľa,council,obec,G0011,,pending,,,,,,524565
+G1971,Jakubovany (okres Sabinov),council,obec,G0011,,pending,,,,,,524573
+G1972,Jakušovce,council,obec,G0011,,pending,,,,,,527343
+G1973,Jalová,council,obec,G0011,,pending,,,,,,520284
+G1974,Jankovce,council,obec,G0011,,pending,,,,,,520292
+G1975,Janov,council,obec,G0011,,pending,,,,,,524581
+G1976,Janovce,council,obec,G0011,,pending,,,,,,519294
+G1977,Janovík,council,obec,G0011,,pending,,,,,,524590
+G1978,Jarabina,council,obec,G0011,,pending,,,,,,526771
+G1979,Jarovnice,council,obec,G0011,,pending,,,,,,524603
+G1980,Jasenov (okres Humenné),council,obec,G0011,,pending,,,,,,559547
+G1981,Jasenovce,council,obec,G0011,,pending,,,,,,528749
+G1982,Jastrabie nad Topľou,council,obec,G0011,,pending,,,,,,528757
+G1983,Jedlinka,council,obec,G0011,,pending,,,,,,519308
+G1984,Jezersko,council,obec,G0011,,pending,,,,,,523569
+G1985,Jurkova Voľa,council,obec,G0011,,pending,,,,,,527351
+G1986,Jurské,council,obec,G0011,,pending,,,,,,523577
+G1987,Juskova Voľa,council,obec,G0011,,pending,,,,,,528765
+G1988,Jánovce (okres Poprad),council,obec,G0011,,pending,,,,,,523542
+G1989,Kalinov,council,obec,G0011,,pending,,,,,,520314
+G1990,Kalnište,council,obec,G0011,,pending,,,,,,519316
+G1991,Kalná Roztoka,council,obec,G0011,,pending,,,,,,520322
+G1992,Kamenica,council,obec,G0011,,pending,,,,,,524611
+G1993,Kamenica nad Cirochou,council,obec,G0011,,pending,,,,,,520331
+G1994,Kamenná Poruba (okres Vranov nad Topľou),council,obec,G0011,,pending,,,,,,528773
+G1995,Kamienka (okres Humenné),council,obec,G0011,,pending,,,,,,520349
+G1996,Kamienka (okres Stará Ľubovňa),council,obec,G0011,,pending,,,,,,526789
+G1997,Kapišová,council,obec,G0011,,pending,,,,,,527360
+G1998,Kapušany,council,obec,G0011,,pending,,,,,,524620
+G1999,Karná,council,obec,G0011,,pending,,,,,,520357
+G2000,Kendice,council,obec,G0011,,pending,,,,,,524638
+G2001,Kečkovce,council,obec,G0011,,pending,,,,,,527378
+G2002,Kežmarok,council,obec,G0011,,pending,,,,,,523585
+G2003,Kladzany,council,obec,G0011,,pending,,,,,,528781
+G2004,Klenov,council,obec,G0011,,pending,,,,,,524646
+G2005,Klenová,council,obec,G0011,,pending,,,,,,520365
+G2006,Klčov,council,obec,G0011,,pending,,,,,,543225
+G2007,Kobylnice,council,obec,G0011,,pending,,,,,,519332
+G2008,Kobyly,council,obec,G0011,,pending,,,,,,519341
+G2009,Kochanovce (okres Bardejov),council,obec,G0011,,pending,,,,,,519359
+G2010,Kochanovce (okres Humenné),council,obec,G0011,,pending,,,,,,520373
+G2011,Kojatice,council,obec,G0011,,pending,,,,,,524654
+G2012,Kokošovce,council,obec,G0011,,pending,,,,,,524662
+G2013,Kolačkov,council,obec,G0011,,pending,,,,,,526797
+G2014,Kolbasov,council,obec,G0011,,pending,,,,,,520381
+G2015,Kolbovce,council,obec,G0011,,pending,,,,,,527386
+G2016,Kolonica,council,obec,G0011,,pending,,,,,,520390
+G2017,Komárany,council,obec,G0011,,pending,,,,,,528790
+G2018,Komárov,council,obec,G0011,,pending,,,,,,519367
+G2019,Koprivnica,council,obec,G0011,,pending,,,,,,519375
+G2020,Korejovce,council,obec,G0011,,pending,,,,,,527394
+G2021,Korunková,council,obec,G0011,,pending,,,,,,527408
+G2022,Korytné,council,obec,G0011,,pending,,,,,,581640
+G2023,Košarovce,council,obec,G0011,,pending,,,,,,528803
+G2024,Koškovce,council,obec,G0011,,pending,,,,,,520403
+G2025,Kožany,council,obec,G0011,,pending,,,,,,519383
+G2026,Kožuchovce,council,obec,G0011,,pending,,,,,,527416
+G2027,Krajná Bystrá,council,obec,G0011,,pending,,,,,,527424
+G2028,Krajná Porúbka,council,obec,G0011,,pending,,,,,,527441
+G2029,Krajná Poľana,council,obec,G0011,,pending,,,,,,527432
+G2030,Krajné Čierno,council,obec,G0011,,pending,,,,,,527459
+G2031,Kravany (okres Poprad),council,obec,G0011,,pending,,,,,,523593
+G2032,Kračúnovce,council,obec,G0011,,pending,,,,,,519391
+G2033,Kremná,council,obec,G0011,,pending,,,,,,526801
+G2034,Krivany,council,obec,G0011,,pending,,,,,,524689
+G2035,Krivé,council,obec,G0011,,pending,,,,,,519405
+G2036,Krišľovce,council,obec,G0011,,pending,,,,,,527467
+G2037,Kručov,council,obec,G0011,,pending,,,,,,527793
+G2038,Krušinec,council,obec,G0011,,pending,,,,,,527475
+G2039,Kružlov,council,obec,G0011,,pending,,,,,,519421
+G2040,Kružlová,council,obec,G0011,,pending,,,,,,527483
+G2041,Krásna Lúka,council,obec,G0011,,pending,,,,,,524671
+G2042,Krásny Brod,council,obec,G0011,,pending,,,,,,520411
+G2043,Kríže,council,obec,G0011,,pending,,,,,,519413
+G2044,Krížovany,council,obec,G0011,,pending,,,,,,524697
+G2045,Krížová Ves,council,obec,G0011,,pending,,,,,,523607
+G2046,Kuková,council,obec,G0011,,pending,,,,,,519448
+G2047,Kurima,council,obec,G0011,,pending,,,,,,519456
+G2048,Kurimany,council,obec,G0011,,pending,,,,,,543276
+G2049,Kurimka,council,obec,G0011,,pending,,,,,,527491
+G2050,Kurov,council,obec,G0011,,pending,,,,,,519464
+G2051,Kučín (okres Bardejov),council,obec,G0011,,pending,,,,,,519430
+G2052,Kučín (okres Vranov nad Topľou),council,obec,G0011,,pending,,,,,,528811
+G2053,Kvakovce,council,obec,G0011,,pending,,,,,,528820
+G2054,Kvačany (okres Prešov),council,obec,G0011,,pending,,,,,,524701
+G2055,Kyjov,council,obec,G0011,,pending,,,,,,526819
+G2056,Kľušov,council,obec,G0011,,pending,,,,,,519324
+G2057,Lackovce,council,obec,G0011,,pending,,,,,,582140
+G2058,Lacková,council,obec,G0011,,pending,,,,,,526827
+G2059,Lada,council,obec,G0011,,pending,,,,,,524727
+G2060,Ladomirov,council,obec,G0011,,pending,,,,,,520438
+G2061,Ladomirová,council,obec,G0011,,pending,,,,,,527505
+G2062,Lascov,council,obec,G0011,,pending,,,,,,519472
+G2063,Lažany,council,obec,G0011,,pending,,,,,,524735
+G2064,Lechnica,council,obec,G0011,,pending,,,,,,523615
+G2065,Legnava,council,obec,G0011,,pending,,,,,,526835
+G2066,Lemešany,council,obec,G0011,,pending,,,,,,524743
+G2067,Lenartov,council,obec,G0011,,pending,,,,,,519481
+G2068,Lendak,council,obec,G0011,,pending,,,,,,523623
+G2069,Lesnica,council,obec,G0011,,pending,,,,,,526843
+G2070,Lesíček,council,obec,G0011,,pending,,,,,,524751
+G2071,Levoča,council,obec,G0011,,pending,,,,,,543292
+G2072,Lieskovec (okres Humenné),council,obec,G0011,,pending,,,,,,520446
+G2073,Lipany,council,obec,G0011,,pending,,,,,,524778
+G2074,Lipníky,council,obec,G0011,,pending,,,,,,559971
+G2075,Lipovce,council,obec,G0011,,pending,,,,,,524786
+G2076,Lipová (okres Bardejov),council,obec,G0011,,pending,,,,,,519499
+G2077,Liptovská Teplička,council,obec,G0011,,pending,,,,,,523631
+G2078,Litmanová,council,obec,G0011,,pending,,,,,,526851
+G2079,Livov,council,obec,G0011,,pending,,,,,,519502
+G2080,Livovská Huta,council,obec,G0011,,pending,,,,,,519511
+G2081,Ličartovce,council,obec,G0011,,pending,,,,,,524760
+G2082,Lomnička,council,obec,G0011,,pending,,,,,,526860
+G2083,Lomné,council,obec,G0011,,pending,,,,,,527513
+G2084,Lopúchov,council,obec,G0011,,pending,,,,,,519529
+G2085,Lukavica (okres Bardejov),council,obec,G0011,,pending,,,,,,519545
+G2086,Lukačovce,council,obec,G0011,,pending,,,,,,520462
+G2087,Lukov,council,obec,G0011,,pending,,,,,,519553
+G2088,Lučivná,council,obec,G0011,,pending,,,,,,523658
+G2089,Lužany pri Topli,council,obec,G0011,,pending,,,,,,519561
+G2090,Lúčina,council,obec,G0011,,pending,,,,,,524808
+G2091,Lúčka (okres Levoča),council,obec,G0011,,pending,,,,,,543314
+G2092,Lúčka (okres Sabinov),council,obec,G0011,,pending,,,,,,524816
+G2093,Lúčka (okres Svidník),council,obec,G0011,,pending,,,,,,519537
+G2094,Majere,council,obec,G0011,,pending,,,,,,523674
+G2095,Majerovce,council,obec,G0011,,pending,,,,,,528838
+G2096,Makovce,council,obec,G0011,,pending,,,,,,527521
+G2097,Malcov,council,obec,G0011,,pending,,,,,,519570
+G2098,Malá Domaša,council,obec,G0011,,pending,,,,,,528846
+G2099,Malá Franková,council,obec,G0011,,pending,,,,,,559938
+G2100,Malá Poľana,council,obec,G0011,,pending,,,,,,527530
+G2101,Malý Lipník,council,obec,G0011,,pending,,,,,,526886
+G2102,Malý Slavkov,council,obec,G0011,,pending,,,,,,581241
+G2103,Malý Slivník,council,obec,G0011,,pending,,,,,,524832
+G2104,Malý Šariš,council,obec,G0011,,pending,,,,,,524841
+G2105,Marhaň,council,obec,G0011,,pending,,,,,,519588
+G2106,Matiaška,council,obec,G0011,,pending,,,,,,528854
+G2107,Matiašovce,council,obec,G0011,,pending,,,,,,523712
+G2108,Matovce,council,obec,G0011,,pending,,,,,,527548
+G2109,Matysová,council,obec,G0011,,pending,,,,,,526894
+G2110,Maškovce,council,obec,G0011,,pending,,,,,,559652
+G2111,Medvedie,council,obec,G0011,,pending,,,,,,527556
+G2112,Medzany,council,obec,G0011,,pending,,,,,,556823
+G2113,Medzianky,council,obec,G0011,,pending,,,,,,528862
+G2114,Medzilaborce,council,obec,G0011,,pending,,,,,,520471
+G2115,Mengusovce,council,obec,G0011,,pending,,,,,,523721
+G2116,Merník,council,obec,G0011,,pending,,,,,,528871
+G2117,Mestisko,council,obec,G0011,,pending,,,,,,527564
+G2118,Michajlov,council,obec,G0011,,pending,,,,,,520489
+G2119,Michalok,council,obec,G0011,,pending,,,,,,528889
+G2120,Miklušovce,council,obec,G0011,,pending,,,,,,524867
+G2121,Miková,council,obec,G0011,,pending,,,,,,527572
+G2122,Mikulášová,council,obec,G0011,,pending,,,,,,519600
+G2123,Milpoš,council,obec,G0011,,pending,,,,,,524875
+G2124,Mirkovce,council,obec,G0011,,pending,,,,,,524883
+G2125,Miroľa,council,obec,G0011,,pending,,,,,,527599
+G2126,Mičakovce,council,obec,G0011,,pending,,,,,,519596
+G2127,Miňovce,council,obec,G0011,,pending,,,,,,527581
+G2128,Mlynica,council,obec,G0011,,pending,,,,,,523747
+G2129,Mlynárovce,council,obec,G0011,,pending,,,,,,527602
+G2130,Mlynčeky,council,obec,G0011,,pending,,,,,,523739
+G2131,Mníšek nad Popradom,council,obec,G0011,,pending,,,,,,526908
+G2132,Modra nad Cirochou,council,obec,G0011,,pending,,,,,,520497
+G2133,Mokroluh,council,obec,G0011,,pending,,,,,,519618
+G2134,Mošurov,council,obec,G0011,,pending,,,,,,524905
+G2135,Mrázovce,council,obec,G0011,,pending,,,,,,527611
+G2136,Myslina,council,obec,G0011,,pending,,,,,,520501
+G2137,Nechválova Polianka,council,obec,G0011,,pending,,,,,,520527
+G2138,Nemcovce (okres Bardejov),council,obec,G0011,,pending,,,,,,519626
+G2139,Nemcovce (okres Prešov),council,obec,G0011,,pending,,,,,,524913
+G2140,Nemešany,council,obec,G0011,,pending,,,,,,543381
+G2141,Nižná Jablonka,council,obec,G0011,,pending,,,,,,520535
+G2142,Nižná Jedľová,council,obec,G0011,,pending,,,,,,527629
+G2143,Nižná Olšava,council,obec,G0011,,pending,,,,,,527637
+G2144,Nižná Pisaná,council,obec,G0011,,pending,,,,,,527645
+G2145,Nižná Polianka,council,obec,G0011,,pending,,,,,,519634
+G2146,Nižná Sitnica,council,obec,G0011,,pending,,,,,,528897
+G2147,Nižná Voľa,council,obec,G0011,,pending,,,,,,519642
+G2148,Nižné Ladičkovce,council,obec,G0011,,pending,,,,,,520543
+G2149,Nižné Repaše,council,obec,G0011,,pending,,,,,,543390
+G2150,Nižné Ružbachy,council,obec,G0011,,pending,,,,,,526916
+G2151,Nižný Hrabovec,council,obec,G0011,,pending,,,,,,528901
+G2152,Nižný Hrušov,council,obec,G0011,,pending,,,,,,528919
+G2153,Nižný Komárnik,council,obec,G0011,,pending,,,,,,527653
+G2154,Nižný Kručov,council,obec,G0011,,pending,,,,,,528927
+G2155,Nižný Mirošov,council,obec,G0011,,pending,,,,,,527661
+G2156,Nižný Orlík,council,obec,G0011,,pending,,,,,,527670
+G2157,Nižný Slavkov,council,obec,G0011,,pending,,,,,,524921
+G2158,Nižný Tvarožec,council,obec,G0011,,pending,,,,,,519669
+G2159,Nová Kelča,council,obec,G0011,,pending,,,,,,528935
+G2160,Nová Lesná,council,obec,G0011,,pending,,,,,,523763
+G2161,Nová Polianka,council,obec,G0011,,pending,,,,,,527688
+G2162,Nová Sedlica,council,obec,G0011,,pending,,,,,,520551
+G2163,Nová Ľubovňa,council,obec,G0011,,pending,,,,,,526924
+G2164,Obručné,council,obec,G0011,,pending,,,,,,526932
+G2165,Ohradzany,council,obec,G0011,,pending,,,,,,520560
+G2166,Okružná,council,obec,G0011,,pending,,,,,,524930
+G2167,Okrúhle,council,obec,G0011,,pending,,,,,,527696
+G2168,Olejníkov,council,obec,G0011,,pending,,,,,,524948
+G2169,Ondavka,council,obec,G0011,,pending,,,,,,519685
+G2170,Ondavské Matiašovce,council,obec,G0011,,pending,,,,,,528943
+G2171,Ondrašovce,council,obec,G0011,,pending,,,,,,524964
+G2172,Ordzovany,council,obec,G0011,,pending,,,,,,543446
+G2173,Orlov,council,obec,G0011,,pending,,,,,,526941
+G2174,Ortuťová,council,obec,G0011,,pending,,,,,,519693
+G2175,Osadné,council,obec,G0011,,pending,,,,,,520594
+G2176,Osikov,council,obec,G0011,,pending,,,,,,519707
+G2177,Ostrovany,council,obec,G0011,,pending,,,,,,524981
+G2178,Osturňa,council,obec,G0011,,pending,,,,,,523771
+G2179,Ovčie,council,obec,G0011,,pending,,,,,,524999
+G2180,Oľka,council,obec,G0011,,pending,,,,,,520578
+G2181,Oľšavce,council,obec,G0011,,pending,,,,,,519677
+G2182,Oľšavica,council,obec,G0011,,pending,,,,,,543420
+G2183,Oľšavka (okres Stropkov),council,obec,G0011,,pending,,,,,,527700
+G2184,Oľšinkov,council,obec,G0011,,pending,,,,,,520586
+G2185,Oľšov,council,obec,G0011,,pending,,,,,,524956
+G2186,Pakostov,council,obec,G0011,,pending,,,,,,528951
+G2187,Palota,council,obec,G0011,,pending,,,,,,520616
+G2188,Papín,council,obec,G0011,,pending,,,,,,520624
+G2189,Parihuzovce,council,obec,G0011,,pending,,,,,,520632
+G2190,Pavlovce (okres Vranov nad Topľou),council,obec,G0011,,pending,,,,,,528960
+G2191,Pavľany,council,obec,G0011,,pending,,,,,,543454
+G2192,Petkovce,council,obec,G0011,,pending,,,,,,528978
+G2193,Petrovany,council,obec,G0011,,pending,,,,,,525014
+G2194,Petrovce (okres Vranov nad Topľou),council,obec,G0011,,pending,,,,,,528986
+G2195,Petrová,council,obec,G0011,,pending,,,,,,519715
+G2196,Pečovská Nová Ves,council,obec,G0011,,pending,,,,,,525006
+G2197,Pichne,council,obec,G0011,,pending,,,,,,520659
+G2198,Piskorovce,council,obec,G0011,,pending,,,,,,528994
+G2199,Plaveč,council,obec,G0011,,pending,,,,,,526959
+G2200,Plavnica,council,obec,G0011,,pending,,,,,,526967
+G2201,Podhorany (okres Kežmarok),council,obec,G0011,,pending,,,,,,523780
+G2202,Podhorany (okres Prešov),council,obec,G0011,,pending,,,,,,525022
+G2203,Podhradík,council,obec,G0011,,pending,,,,,,525031
+G2204,Podolínec,council,obec,G0011,,pending,,,,,,526975
+G2205,Poliakovce,council,obec,G0011,,pending,,,,,,519723
+G2206,Poloma,council,obec,G0011,,pending,,,,,,525049
+G2207,Pongrácovce,council,obec,G0011,,pending,,,,,,543471
+G2208,Poprad,council,obec,G0011,,pending,,,,,,523381
+G2209,Porúbka (okres Bardejov),council,obec,G0011,,pending,,,,,,519731
+G2210,Porúbka (okres Humenné),council,obec,G0011,,pending,,,,,,520667
+G2211,Potoky,council,obec,G0011,,pending,,,,,,527726
+G2212,Potôčky,council,obec,G0011,,pending,,,,,,527718
+G2213,Poľanovce,council,obec,G0011,,pending,,,,,,543462
+G2214,Poša,council,obec,G0011,,pending,,,,,,529001
+G2215,Prešov,council,obec,G0011,,pending,,,,,,524140
+G2216,Prituľany,council,obec,G0011,,pending,,,,,,529010
+G2217,Prosačov,council,obec,G0011,,pending,,,,,,529028
+G2218,Proč,council,obec,G0011,,pending,,,,,,525057
+G2219,Príkra,council,obec,G0011,,pending,,,,,,527734
+G2220,Príslop,council,obec,G0011,,pending,,,,,,520675
+G2221,Pstriná,council,obec,G0011,,pending,,,,,,527742
+G2222,Ptičie,council,obec,G0011,,pending,,,,,,520683
+G2223,Pusté Pole,council,obec,G0011,,pending,,,,,,526983
+G2224,Pušovce,council,obec,G0011,,pending,,,,,,525065
+G2225,Pčoliné,council,obec,G0011,,pending,,,,,,520641
+G2226,Radatice,council,obec,G0011,,pending,,,,,,525073
+G2227,Radoma,council,obec,G0011,,pending,,,,,,527751
+G2228,Radvanovce,council,obec,G0011,,pending,,,,,,529036
+G2229,Radvaň nad Laborcom,council,obec,G0011,,pending,,,,,,520691
+G2230,Rafajovce,council,obec,G0011,,pending,,,,,,529044
+G2231,Rakovčík,council,obec,G0011,,pending,,,,,,527769
+G2232,Rakúsy,council,obec,G0011,,pending,,,,,,523798
+G2233,Raslavice,council,obec,G0011,,pending,,,,,,519936
+G2234,Ratvaj,council,obec,G0011,,pending,,,,,,525081
+G2235,Ražňany,council,obec,G0011,,pending,,,,,,525090
+G2236,Regetovka,council,obec,G0011,,pending,,,,,,519740
+G2237,Remeniny,council,obec,G0011,,pending,,,,,,529052
+G2238,Renčišov,council,obec,G0011,,pending,,,,,,525103
+G2239,Repejov,council,obec,G0011,,pending,,,,,,520705
+G2240,Reľov,council,obec,G0011,,pending,,,,,,523801
+G2241,Rešov,council,obec,G0011,,pending,,,,,,519758
+G2242,Richvald,council,obec,G0011,,pending,,,,,,519766
+G2243,Rohožník (okres Humenné),council,obec,G0011,,pending,,,,,,529061
+G2244,Rokycany,council,obec,G0011,,pending,,,,,,525111
+G2245,Rokytov,council,obec,G0011,,pending,,,,,,519774
+G2246,Rokytov pri Humennom,council,obec,G0011,,pending,,,,,,520250
+G2247,Rokytovce,council,obec,G0011,,pending,,,,,,559610
+G2248,Rovné (okres Humenné),council,obec,G0011,,pending,,,,,,520721
+G2249,Rovné (okres Svidník),council,obec,G0011,,pending,,,,,,527777
+G2250,Roztoky,council,obec,G0011,,pending,,,,,,527785
+G2251,Roškovce,council,obec,G0011,,pending,,,,,,520713
+G2252,Rožkovany,council,obec,G0011,,pending,,,,,,525120
+G2253,Rudlov,council,obec,G0011,,pending,,,,,,529079
+G2254,Runina,council,obec,G0011,,pending,,,,,,520730
+G2255,Ruská Kajňa,council,obec,G0011,,pending,,,,,,529087
+G2256,Ruská Nová Ves,council,obec,G0011,,pending,,,,,,525138
+G2257,Ruská Poruba,council,obec,G0011,,pending,,,,,,529095
+G2258,Ruská Volová,council,obec,G0011,,pending,,,,,,520748
+G2259,Ruská Voľa,council,obec,G0011,,pending,,,,,,529109
+G2260,Ruská Voľa nad Popradom,council,obec,G0011,,pending,,,,,,526991
+G2261,Ruský Potok,council,obec,G0011,,pending,,,,,,520764
+G2262,Sabinov,council,obec,G0011,,pending,,,,,,525146
+G2263,Sačurov,council,obec,G0011,,pending,,,,,,529125
+G2264,Sedlice,council,obec,G0011,,pending,,,,,,525154
+G2265,Sedliská,council,obec,G0011,,pending,,,,,,529141
+G2266,Seniakovce,council,obec,G0011,,pending,,,,,,525162
+G2267,Sečovská Polianka,council,obec,G0011,,pending,,,,,,529133
+G2268,Skrabské,council,obec,G0011,,pending,,,,,,529150
+G2269,Slovenská Kajňa,council,obec,G0011,,pending,,,,,,529168
+G2270,Slovenská Ves,council,obec,G0011,,pending,,,,,,523810
+G2271,Slovenská Volová,council,obec,G0011,,pending,,,,,,520772
+G2272,Slovenské Krivé,council,obec,G0011,,pending,,,,,,520781
+G2273,Smilno,council,obec,G0011,,pending,,,,,,519782
+G2274,Snakov,council,obec,G0011,,pending,,,,,,519791
+G2275,Snina,council,obec,G0011,,pending,,,,,,520802
+G2276,Soboš,council,obec,G0011,,pending,,,,,,527807
+G2277,Sopkovce,council,obec,G0011,,pending,,,,,,559636
+G2278,Soľ,council,obec,G0011,,pending,,,,,,529176
+G2279,Soľník,council,obec,G0011,,pending,,,,,,527815
+G2280,Spišská Belá,council,obec,G0011,,pending,,,,,,523828
+G2281,Spišská Stará Ves,council,obec,G0011,,pending,,,,,,523836
+G2282,Spišská Teplica,council,obec,G0011,,pending,,,,,,523844
+G2283,Spišské Bystré,council,obec,G0011,,pending,,,,,,523852
+G2284,Spišské Hanušovce,council,obec,G0011,,pending,,,,,,523861
+G2285,Spišské Podhradie,council,obec,G0011,,pending,,,,,,543578
+G2286,Spišský Hrhov,council,obec,G0011,,pending,,,,,,543608
+G2287,Spišský Štiavnik,council,obec,G0011,,pending,,,,,,523879
+G2288,Spišský Štvrtok,council,obec,G0011,,pending,,,,,,543624
+G2289,Stakčín,council,obec,G0011,,pending,,,,,,520829
+G2290,Stakčínska Roztoka,council,obec,G0011,,pending,,,,,,520811
+G2291,Starina,council,obec,G0011,,pending,,,,,,527009
+G2292,Stará Lesná,council,obec,G0011,,pending,,,,,,523887
+G2293,Stará Ľubovňa,council,obec,G0011,,pending,,,,,,526665
+G2294,Staškovce,council,obec,G0011,,pending,,,,,,527823
+G2295,Stebnícka Huta,council,obec,G0011,,pending,,,,,,519804
+G2296,Stebník,council,obec,G0011,,pending,,,,,,519812
+G2297,Strihovce,council,obec,G0011,,pending,,,,,,520845
+G2298,Stropkov,council,obec,G0011,,pending,,,,,,527840
+G2299,Stročín,council,obec,G0011,,pending,,,,,,527831
+G2300,Stráne pod Tatrami,council,obec,G0011,,pending,,,,,,523909
+G2301,Stráňany,council,obec,G0011,,pending,,,,,,527017
+G2302,Studenec,council,obec,G0011,,pending,,,,,,543641
+G2303,Stuľany,council,obec,G0011,,pending,,,,,,519821
+G2304,Suchá Dolina,council,obec,G0011,,pending,,,,,,559989
+G2305,Sukov,council,obec,G0011,,pending,,,,,,520853
+G2306,Sulín,council,obec,G0011,,pending,,,,,,527025
+G2307,Sveržov,council,obec,G0011,,pending,,,,,,519839
+G2308,Svetlice,council,obec,G0011,,pending,,,,,,520861
+G2309,Svidnička,council,obec,G0011,,pending,,,,,,527858
+G2310,Svidník,council,obec,G0011,,pending,,,,,,527106
+G2311,Svinia,council,obec,G0011,,pending,,,,,,525171
+G2312,Svit,council,obec,G0011,,pending,,,,,,523925
+G2313,Tarnov,council,obec,G0011,,pending,,,,,,519871
+G2314,Tatranská Javorina,council,obec,G0011,,pending,,,,,,580368
+G2315,Teriakovce,council,obec,G0011,,pending,,,,,,525286
+G2316,Terňa,council,obec,G0011,,pending,,,,,,525294
+G2317,Tichý Potok,council,obec,G0011,,pending,,,,,,525308
+G2318,Tisinec,council,obec,G0011,,pending,,,,,,527912
+G2319,Tokajík,council,obec,G0011,,pending,,,,,,527921
+G2320,Toporec,council,obec,G0011,,pending,,,,,,523976
+G2321,Topoľa,council,obec,G0011,,pending,,,,,,520888
+G2322,Topoľovka,council,obec,G0011,,pending,,,,,,520896
+G2323,Torysa,council,obec,G0011,,pending,,,,,,525316
+G2324,Torysky,council,obec,G0011,,pending,,,,,,543675
+G2325,Tovarnianska Polianka,council,obec,G0011,,pending,,,,,,529206
+G2326,Tovarné,council,obec,G0011,,pending,,,,,,529192
+G2327,Trnkov,council,obec,G0011,,pending,,,,,,525324
+G2328,Tročany,council,obec,G0011,,pending,,,,,,519880
+G2329,Tuhrina,council,obec,G0011,,pending,,,,,,525332
+G2330,Tulčík,council,obec,G0011,,pending,,,,,,525341
+G2331,Turany nad Ondavou,council,obec,G0011,,pending,,,,,,527939
+G2332,Turcovce,council,obec,G0011,,pending,,,,,,520900
+G2333,Tvarožná,council,obec,G0011,,pending,,,,,,523984
+G2334,Ubľa,council,obec,G0011,,pending,,,,,,520918
+G2335,Udavské,council,obec,G0011,,pending,,,,,,520926
+G2336,Ulič,council,obec,G0011,,pending,,,,,,520934
+G2337,Uličské Krivé,council,obec,G0011,,pending,,,,,,520942
+G2338,Uloža,council,obec,G0011,,pending,,,,,,543691
+G2339,Uzovce,council,obec,G0011,,pending,,,,,,525359
+G2340,Uzovské Pekľany,council,obec,G0011,,pending,,,,,,525367
+G2341,Uzovský Šalgov,council,obec,G0011,,pending,,,,,,525375
+G2342,Vagrinec,council,obec,G0011,,pending,,,,,,527947
+G2343,Valaškovce (vojenský obvod),council,obec,G0011,,pending,,,,,,518638
+G2344,Valentovce,council,obec,G0011,,pending,,,,,,520951
+G2345,Valkovce,council,obec,G0011,,pending,,,,,,527955
+G2346,Vaniškovce,council,obec,G0011,,pending,,,,,,518964
+G2347,Varadka,council,obec,G0011,,pending,,,,,,519901
+G2348,Varechovce,council,obec,G0011,,pending,,,,,,527971
+G2349,Varhaňovce,council,obec,G0011,,pending,,,,,,525383
+G2350,Vavrinec,council,obec,G0011,,pending,,,,,,529214
+G2351,Vechec,council,obec,G0011,,pending,,,,,,529222
+G2352,Vernár,council,obec,G0011,,pending,,,,,,524026
+G2353,Veľkrop,council,obec,G0011,,pending,,,,,,527980
+G2354,Veľká Franková,council,obec,G0011,,pending,,,,,,523992
+G2355,Veľká Lesná,council,obec,G0011,,pending,,,,,,527068
+G2356,Veľká Lomnica,council,obec,G0011,,pending,,,,,,524000
+G2357,Veľký Lipník,council,obec,G0011,,pending,,,,,,527076
+G2358,Veľký Slavkov,council,obec,G0011,,pending,,,,,,524018
+G2359,Veľký Slivník,council,obec,G0011,,pending,,,,,,525391
+G2360,Veľký Šariš,council,obec,G0011,,pending,,,,,,525405
+G2361,Veľopolie,council,obec,G0011,,pending,,,,,,520977
+G2362,Vikartovce,council,obec,G0011,,pending,,,,,,524034
+G2363,Vislanka,council,obec,G0011,,pending,,,,,,527084
+G2364,Vislava,council,obec,G0011,,pending,,,,,,527998
+G2365,Vladiča,council,obec,G0011,,pending,,,,,,528005
+G2366,Vlača,council,obec,G0011,,pending,,,,,,529231
+G2367,Vlkovce,council,obec,G0011,,pending,,,,,,524051
+G2368,Vlková,council,obec,G0011,,pending,,,,,,524042
+G2369,Vojtovce,council,obec,G0011,,pending,,,,,,528013
+G2370,Vojňany,council,obec,G0011,,pending,,,,,,524069
+G2371,Volica,council,obec,G0011,,pending,,,,,,520993
+G2372,Vranov nad Topľou,council,obec,G0011,,pending,,,,,,544051
+G2373,Vrbov,council,obec,G0011,,pending,,,,,,524077
+G2374,Vydrník,council,obec,G0011,,pending,,,,,,524093
+G2375,Vysoká (okres Sabinov),council,obec,G0011,,pending,,,,,,525421
+G2376,Vysoké Tatry,council,obec,G0011,,pending,,,,,,560103
+G2377,Vyškovce,council,obec,G0011,,pending,,,,,,528021
+G2378,Vyšná Jablonka,council,obec,G0011,,pending,,,,,,521019
+G2379,Vyšná Jedľová,council,obec,G0011,,pending,,,,,,528030
+G2380,Vyšná Olšava,council,obec,G0011,,pending,,,,,,528048
+G2381,Vyšná Pisaná,council,obec,G0011,,pending,,,,,,528056
+G2382,Vyšná Polianka,council,obec,G0011,,pending,,,,,,519910
+G2383,Vyšná Sitnica,council,obec,G0011,,pending,,,,,,529249
+G2384,Vyšná Voľa,council,obec,G0011,,pending,,,,,,519928
+G2385,Vyšná Šebastová,council,obec,G0011,,pending,,,,,,525430
+G2386,Vyšné Ladičkovce,council,obec,G0011,,pending,,,,,,521027
+G2387,Vyšné Repaše,council,obec,G0011,,pending,,,,,,526606
+G2388,Vyšné Ružbachy,council,obec,G0011,,pending,,,,,,527092
+G2389,Vyšný Hrabovec,council,obec,G0011,,pending,,,,,,560073
+G2390,Vyšný Hrušov,council,obec,G0011,,pending,,,,,,521035
+G2391,Vyšný Kazimír,council,obec,G0011,,pending,,,,,,529117
+G2392,Vyšný Komárnik,council,obec,G0011,,pending,,,,,,528064
+G2393,Vyšný Kručov,council,obec,G0011,,pending,,,,,,519944
+G2394,Vyšný Mirošov,council,obec,G0011,,pending,,,,,,528072
+G2395,Vyšný Orlík,council,obec,G0011,,pending,,,,,,528081
+G2396,Vyšný Slavkov,council,obec,G0011,,pending,,,,,,526614
+G2397,Vyšný Tvarožec,council,obec,G0011,,pending,,,,,,519952
+G2398,Vyšný Žipov,council,obec,G0011,,pending,,,,,,529257
+G2399,Vápeník,council,obec,G0011,,pending,,,,,,527963
+G2400,Víťaz,council,obec,G0011,,pending,,,,,,525413
+G2401,Víťazovce,council,obec,G0011,,pending,,,,,,520985
+G2402,Výborná,council,obec,G0011,,pending,,,,,,524085
+G2403,Výrava,council,obec,G0011,,pending,,,,,,521001
+G2404,Zboj,council,obec,G0011,,pending,,,,,,521051
+G2405,Zbojné,council,obec,G0011,,pending,,,,,,521060
+G2406,Zborov,council,obec,G0011,,pending,,,,,,519961
+G2407,Zbudská Belá,council,obec,G0011,,pending,,,,,,521078
+G2408,Zbudské Dlhé,council,obec,G0011,,pending,,,,,,521086
+G2409,Zemplínske Hámre,council,obec,G0011,,pending,,,,,,521108
+G2410,Zlatník,council,obec,G0011,,pending,,,,,,529281
+G2411,Zlatá Baňa,council,obec,G0011,,pending,,,,,,525472
+G2412,Zlaté,council,obec,G0011,,pending,,,,,,519979
+G2413,Zubné,council,obec,G0011,,pending,,,,,,521116
+G2414,Záborské,council,obec,G0011,,pending,,,,,,525448
+G2415,Záhradné,council,obec,G0011,,pending,,,,,,525456
+G2416,Zálesie (okres Kežmarok),council,obec,G0011,,pending,,,,,,524115
+G2417,Zámutov,council,obec,G0011,,pending,,,,,,529265
+G2418,Závada (okres Humenné),council,obec,G0011,,pending,,,,,,529273
+G2419,Závadka (okres Humenné),council,obec,G0011,,pending,,,,,,521043
+G2420,Údol,council,obec,G0011,,pending,,,,,,527050
+G2421,Čabalovce,council,obec,G0011,,pending,,,,,,520098
+G2422,Čabiny,council,obec,G0011,,pending,,,,,,520101
+G2423,Čaklov,council,obec,G0011,,pending,,,,,,544116
+G2424,Čelovce (okres Prešov),council,obec,G0011,,pending,,,,,,524271
+G2425,Černina,council,obec,G0011,,pending,,,,,,520110
+G2426,Čertižné,council,obec,G0011,,pending,,,,,,520128
+G2427,Červenica,council,obec,G0011,,pending,,,,,,524301
+G2428,Červenica pri Sabinove,council,obec,G0011,,pending,,,,,,524298
+G2429,Červená Voda,council,obec,G0011,,pending,,,,,,524280
+G2430,Červený Kláštor,council,obec,G0011,,pending,,,,,,523429
+G2431,Čierne nad Topľou,council,obec,G0011,,pending,,,,,,544132
+G2432,Čirč,council,obec,G0011,,pending,,,,,,526673
+G2433,Čičava,council,obec,G0011,,pending,,,,,,544124
+G2434,Čukalovce,council,obec,G0011,,pending,,,,,,520136
+G2435,Ďapalovce,council,obec,G0011,,pending,,,,,,544141
+G2436,Ďačov,council,obec,G0011,,pending,,,,,,524310
+G2437,Ďurková,council,obec,G0011,,pending,,,,,,526681
+G2438,Ďurďoš,council,obec,G0011,,pending,,,,,,544183
+G2439,Ľubica,council,obec,G0011,,pending,,,,,,523682
+G2440,Ľubiša,council,obec,G0011,,pending,,,,,,520454
+G2441,Ľubotice,council,obec,G0011,,pending,,,,,,518590
+G2442,Ľubotín,council,obec,G0011,,pending,,,,,,526878
+G2443,Ľubovec,council,obec,G0011,,pending,,,,,,524794
+G2444,Ľutina,council,obec,G0011,,pending,,,,,,524824
+G2445,Ňagov,council,obec,G0011,,pending,,,,,,520519
+G2446,Šambron,council,obec,G0011,,pending,,,,,,527033
+G2447,Šandal,council,obec,G0011,,pending,,,,,,527866
+G2448,Šarbov,council,obec,G0011,,pending,,,,,,527874
+G2449,Šarišská Poruba,council,obec,G0011,,pending,,,,,,525189
+G2450,Šarišská Trstená,council,obec,G0011,,pending,,,,,,525197
+G2451,Šarišské Bohdanovce,council,obec,G0011,,pending,,,,,,525201
+G2452,Šarišské Dravce,council,obec,G0011,,pending,,,,,,525219
+G2453,Šarišské Jastrabie,council,obec,G0011,,pending,,,,,,527041
+G2454,Šarišské Michaľany,council,obec,G0011,,pending,,,,,,525235
+G2455,Šarišské Sokolovce,council,obec,G0011,,pending,,,,,,525243
+G2456,Šarišské Čierne,council,obec,G0011,,pending,,,,,,519847
+G2457,Šarišský Štiavnik,council,obec,G0011,,pending,,,,,,527882
+G2458,Šašová,council,obec,G0011,,pending,,,,,,519855
+G2459,Šemetkovce,council,obec,G0011,,pending,,,,,,527891
+G2460,Šiba,council,obec,G0011,,pending,,,,,,519863
+G2461,Šindliar,council,obec,G0011,,pending,,,,,,525251
+G2462,Široké,council,obec,G0011,,pending,,,,,,525260
+G2463,Šmigovec,council,obec,G0011,,pending,,,,,,520870
+G2464,Štefanovce (okres Prešov),council,obec,G0011,,pending,,,,,,525278
+G2465,Štefanovce (okres Vranov nad Topľou),council,obec,G0011,,pending,,,,,,529184
+G2466,Štefurov,council,obec,G0011,,pending,,,,,,527904
+G2467,Štrba,council,obec,G0011,,pending,,,,,,523933
+G2468,Štôla,council,obec,G0011,,pending,,,,,,559890
+G2469,Šuňava,council,obec,G0011,,pending,,,,,,524107
+G2470,Švábovce,council,obec,G0011,,pending,,,,,,523950
+G2471,Žakovce,council,obec,G0011,,pending,,,,,,524123
+G2472,Žalobín,council,obec,G0011,,pending,,,,,,529290
+G2473,Ždiar,council,obec,G0011,,pending,,,,,,524131
+G2474,Žehňa,council,obec,G0011,,pending,,,,,,525499
+G2475,Železník,council,obec,G0011,,pending,,,,,,519987
+G2476,Želmanovce,council,obec,G0011,,pending,,,,,,519995
+G2477,Žipov,council,obec,G0011,,pending,,,,,,525502
+G2478,Župčany,council,obec,G0011,,pending,,,,,,525511
+G2479,Ardovo,council,obec,G0012,,pending,,,,,,525537
+G2480,Arnutovce,council,obec,G0012,,pending,,,,,,526363
+G2481,Bajany,council,obec,G0012,,pending,,,,,,522287
+G2482,Bara,council,obec,G0012,,pending,,,,,,528129
+G2483,Bačka,council,obec,G0012,,pending,,,,,,528102
+G2484,Bačkov,council,obec,G0012,,pending,,,,,,528111
+G2485,Bačkovík,council,obec,G0012,,pending,,,,,,521141
+G2486,Baška,council,obec,G0012,,pending,,,,,,521159
+G2487,Baškovce (okres Sobrance),council,obec,G0012,,pending,,,,,,522309
+G2488,Belža,council,obec,G0012,,pending,,,,,,521167
+G2489,Beniakovce,council,obec,G0012,,pending,,,,,,521175
+G2490,Betlanovce,council,obec,G0012,,pending,,,,,,526398
+G2491,Betliar,council,obec,G0012,,pending,,,,,,525545
+G2492,Beňatina,council,obec,G0012,,pending,,,,,,522317
+G2493,Beša (okres Michalovce),council,obec,G0012,,pending,,,,,,528137
+G2494,Bežovce,council,obec,G0012,,pending,,,,,,522325
+G2495,Bidovce,council,obec,G0012,,pending,,,,,,521183
+G2496,Biel,council,obec,G0012,,pending,,,,,,528145
+G2497,Blatná Polianka,council,obec,G0012,,pending,,,,,,522333
+G2498,Blatné Remety,council,obec,G0012,,pending,,,,,,522341
+G2499,Blatné Revištia,council,obec,G0012,,pending,,,,,,522350
+G2500,Blažice,council,obec,G0012,,pending,,,,,,521191
+G2501,Bohdanovce,council,obec,G0012,,pending,,,,,,521205
+G2502,Bohúňovo,council,obec,G0012,,pending,,,,,,525553
+G2503,Boliarov,council,obec,G0012,,pending,,,,,,521213
+G2504,Borša,council,obec,G0012,,pending,,,,,,528170
+G2505,Bočiar,council,obec,G0012,,pending,,,,,,559831
+G2506,Boľ,council,obec,G0012,,pending,,,,,,528161
+G2507,Boťany,council,obec,G0012,,pending,,,,,,528188
+G2508,Bracovce,council,obec,G0012,,pending,,,,,,522368
+G2509,Brdárka,council,obec,G0012,,pending,,,,,,525570
+G2510,Brehov,council,obec,G0012,,pending,,,,,,528200
+G2511,Bretka,council,obec,G0012,,pending,,,,,,514578
+G2512,Brezina,council,obec,G0012,,pending,,,,,,528218
+G2513,Brzotín,council,obec,G0012,,pending,,,,,,560022
+G2514,Budimír,council,obec,G0012,,pending,,,,,,521221
+G2515,Budince,council,obec,G0012,,pending,,,,,,513857
+G2516,Budkovce,council,obec,G0012,,pending,,,,,,522376
+G2517,Bukovec (okres Košice - okolie),council,obec,G0012,,pending,,,,,,521248
+G2518,Bunetice,council,obec,G0012,,pending,,,,,,521256
+G2519,Bunkovce,council,obec,G0012,,pending,,,,,,522384
+G2520,Buzica,council,obec,G0012,,pending,,,,,,521264
+G2521,Bystrany,council,obec,G0012,,pending,,,,,,526436
+G2522,Byšta,council,obec,G0012,,pending,,,,,,528226
+G2523,Bánovce nad Ondavou,council,obec,G0012,,pending,,,,,,522295
+G2524,Bôrka,council,obec,G0012,,pending,,,,,,525561
+G2525,Cejkov,council,obec,G0012,,pending,,,,,,528234
+G2526,Cestice,council,obec,G0012,,pending,,,,,,521272
+G2527,Chorváty,council,obec,G0012,,pending,,,,,,599310
+G2528,Choňkovce,council,obec,G0012,,pending,,,,,,522503
+G2529,Chrastné,council,obec,G0012,,pending,,,,,,521477
+G2530,Chrasť nad Hornádom,council,obec,G0012,,pending,,,,,,543152
+G2531,Danišovce,council,obec,G0012,,pending,,,,,,526444
+G2532,Dargov,council,obec,G0012,,pending,,,,,,528315
+G2533,Debraď,council,obec,G0012,,pending,,,,,,521329
+G2534,Dedinky,council,obec,G0012,,pending,,,,,,525618
+G2535,Dlhá Ves,council,obec,G0012,,pending,,,,,,525626
+G2536,Dobrá,council,obec,G0012,,pending,,,,,,528323
+G2537,Dobšiná,council,obec,G0012,,pending,,,,,,525634
+G2538,Drahňov,council,obec,G0012,,pending,,,,,,528331
+G2539,Drienovec,council,obec,G0012,,pending,,,,,,521337
+G2540,Drnava,council,obec,G0012,,pending,,,,,,525642
+G2541,Družstevná pri Hornáde,council,obec,G0012,,pending,,,,,,521345
+G2542,Dvorianky,council,obec,G0012,,pending,,,,,,528340
+G2543,Dvorníky-Včeláre,council,obec,G0012,,pending,,,,,,559873
+G2544,Dúbravka,council,obec,G0012,,pending,,,,,,522406
+G2545,Egreš,council,obec,G0012,,pending,,,,,,528358
+G2546,Falkušovce,council,obec,G0012,,pending,,,,,,522414
+G2547,Fekišovce,council,obec,G0012,,pending,,,,,,522422
+G2548,Gelnica,council,obec,G0012,,pending,,,,,,526509
+G2549,Gemerská Hôrka,council,obec,G0012,,pending,,,,,,525651
+G2550,Gemerská Panica,council,obec,G0012,,pending,,,,,,514748
+G2551,Gemerská Poloma,council,obec,G0012,,pending,,,,,,525669
+G2552,Geča,council,obec,G0012,,pending,,,,,,521370
+G2553,Gočaltovo,council,obec,G0012,,pending,,,,,,525693
+G2554,Gočovo,council,obec,G0012,,pending,,,,,,525707
+G2555,Gyňov,council,obec,G0012,,pending,,,,,,521388
+G2556,Haniska (okres Košice - okolie),council,obec,G0012,,pending,,,,,,521400
+G2557,Hanková,council,obec,G0012,,pending,,,,,,525715
+G2558,Harichovce,council,obec,G0012,,pending,,,,,,526533
+G2559,Hatalov,council,obec,G0012,,pending,,,,,,522431
+G2560,Hačava,council,obec,G0012,,pending,,,,,,521396
+G2561,Hažín,council,obec,G0012,,pending,,,,,,522449
+G2562,Helcmanovce,council,obec,G0012,,pending,,,,,,526541
+G2563,Henckovce,council,obec,G0012,,pending,,,,,,525723
+G2564,Henclová,council,obec,G0012,,pending,,,,,,526550
+G2565,Herľany,council,obec,G0012,,pending,,,,,,521418
+G2566,Hincovce,council,obec,G0012,,pending,,,,,,526568
+G2567,Hlivištia,council,obec,G0012,,pending,,,,,,522457
+G2568,Hnilec,council,obec,G0012,,pending,,,,,,526584
+G2569,Hnilčík,council,obec,G0012,,pending,,,,,,526576
+G2570,Hnojné,council,obec,G0012,,pending,,,,,,522465
+G2571,Hodkovce,council,obec,G0012,,pending,,,,,,521426
+G2572,Honce,council,obec,G0012,,pending,,,,,,525731
+G2573,Horovce (okres Michalovce),council,obec,G0012,,pending,,,,,,522481
+G2574,Horňa,council,obec,G0012,,pending,,,,,,522473
+G2575,Hosťovce (okres Košice - okolie),council,obec,G0012,,pending,,,,,,518107
+G2576,Hrabušice,council,obec,G0012,,pending,,,,,,526592
+G2577,Hraň,council,obec,G0012,,pending,,,,,,528366
+G2578,Hrašovík,council,obec,G0012,,pending,,,,,,521442
+G2579,Hrhov,council,obec,G0012,,pending,,,,,,525740
+G2580,Hriadky,council,obec,G0012,,pending,,,,,,528382
+G2581,Hrišovce,council,obec,G0012,,pending,,,,,,543144
+G2582,Hrušov (okres Rožňava),council,obec,G0012,,pending,,,,,,525758
+G2583,Hrčeľ,council,obec,G0012,,pending,,,,,,528374
+G2584,Husák,council,obec,G0012,,pending,,,,,,522490
+G2585,Háj (okres Košice - okolie),council,obec,G0012,,pending,,,,,,518123
+G2586,Hýľov,council,obec,G0012,,pending,,,,,,521469
+G2587,Iliašovce,council,obec,G0012,,pending,,,,,,543161
+G2588,Inovce,council,obec,G0012,,pending,,,,,,522520
+G2589,Iňačovce,council,obec,G0012,,pending,,,,,,522511
+G2590,Ižkovce,council,obec,G0012,,pending,,,,,,528391
+G2591,Jablonov nad Turňou,council,obec,G0012,,pending,,,,,,525782
+G2592,Jaklovce,council,obec,G0012,,pending,,,,,,543187
+G2593,Jamník (okres Spišská Nová Ves),council,obec,G0012,,pending,,,,,,543195
+G2594,Janík,council,obec,G0012,,pending,,,,,,521485
+G2595,Jasenov (okres Sobrance),council,obec,G0012,,pending,,,,,,522538
+G2596,Jasov,council,obec,G0012,,pending,,,,,,521493
+G2597,Jastrabie pri Michalovciach,council,obec,G0012,,pending,,,,,,522546
+G2598,Jenkovce,council,obec,G0012,,pending,,,,,,522554
+G2599,Jovice,council,obec,G0012,,pending,,,,,,560049
+G2600,Jovsa,council,obec,G0012,,pending,,,,,,522562
+G2601,Kaluža,council,obec,G0012,,pending,,,,,,522589
+G2602,Kalša,council,obec,G0012,,pending,,,,,,521507
+G2603,Kapušianske Kľačany,council,obec,G0012,,pending,,,,,,528404
+G2604,Kazimír,council,obec,G0012,,pending,,,,,,528421
+G2605,Kačanov,council,obec,G0012,,pending,,,,,,522571
+G2606,Kaľava,council,obec,G0012,,pending,,,,,,543209
+G2607,Kašov,council,obec,G0012,,pending,,,,,,528412
+G2608,Kecerovce,council,obec,G0012,,pending,,,,,,521523
+G2609,Kecerovský Lipovec,council,obec,G0012,,pending,,,,,,521540
+G2610,Kechnec,council,obec,G0012,,pending,,,,,,559687
+G2611,Kečovo,council,obec,G0012,,pending,,,,,,525821
+G2612,Klin nad Bodrogom,council,obec,G0012,,pending,,,,,,513831
+G2613,Klokočov (okres Michalovce),council,obec,G0012,,pending,,,,,,522597
+G2614,Kluknava,council,obec,G0012,,pending,,,,,,543233
+G2615,Kobeliarovo,council,obec,G0012,,pending,,,,,,525839
+G2616,Koceľovce,council,obec,G0012,,pending,,,,,,525847
+G2617,Kojšov,council,obec,G0012,,pending,,,,,,543241
+G2618,Kokšov-Bakša,council,obec,G0012,,pending,,,,,,521558
+G2619,Kolibabovce,council,obec,G0012,,pending,,,,,,522601
+G2620,Kolinovce,council,obec,G0012,,pending,,,,,,543250
+G2621,Komárovce,council,obec,G0012,,pending,,,,,,521566
+G2622,Koromľa,council,obec,G0012,,pending,,,,,,522643
+G2623,Kostoľany nad Hornádom,council,obec,G0012,,pending,,,,,,582514
+G2624,Kováčová (okres Rožňava),council,obec,G0012,,pending,,,,,,525855
+G2625,Koňuš,council,obec,G0012,,pending,,,,,,522627
+G2626,Košice - mestská časť Barca,council,obec,G0012,,pending,,,,,,599093
+G2627,Košice - mestská časť Dargovských hrdinov,council,obec,G0012,,pending,,,,,,598682
+G2628,Košice - mestská časť Džungľa,council,obec,G0012,,pending,,,,,,599891
+G2629,Košice - mestská časť Juh,council,obec,G0012,,pending,,,,,,599824
+G2630,Košice - mestská časť Kavečany,council,obec,G0012,,pending,,,,,,598119
+G2631,Košice - mestská časť Košická Nová Ves,council,obec,G0012,,pending,,,,,,599018
+G2632,Košice - mestská časť Krásna,council,obec,G0012,,pending,,,,,,599794
+G2633,Košice - mestská časť Lorinčík,council,obec,G0012,,pending,,,,,,598194
+G2634,Košice - mestská časť Luník IX,council,obec,G0012,,pending,,,,,,599972
+G2635,Košice - mestská časť Myslava,council,obec,G0012,,pending,,,,,,598216
+G2636,Košice - mestská časť Nad jazerom,council,obec,G0012,,pending,,,,,,599816
+G2637,Košice - mestská časť Pereš,council,obec,G0012,,pending,,,,,,598208
+G2638,Košice - mestská časť Poľov,council,obec,G0012,,pending,,,,,,599859
+G2639,Košice - mestská časť Sever,council,obec,G0012,,pending,,,,,,598151
+G2640,Košice - mestská časť Staré Mesto,council,obec,G0012,,pending,,,,,,598186
+G2641,Košice - mestská časť Sídlisko KVP,council,obec,G0012,,pending,,,,,,599883
+G2642,Košice - mestská časť Sídlisko Ťahanovce,council,obec,G0012,,pending,,,,,,599875
+G2643,Košice - mestská časť Vyšné Opátske,council,obec,G0012,,pending,,,,,,599913
+G2644,Košice - mestská časť Západ,council,obec,G0012,,pending,,,,,,598224
+G2645,Košice - mestská časť Šaca,council,obec,G0012,,pending,,,,,,599841
+G2646,Košice - mestská časť Šebastovce,council,obec,G0012,,pending,,,,,,599786
+G2647,Košice - mestská časť Ťahanovce,council,obec,G0012,,pending,,,,,,598127
+G2648,Košická Belá,council,obec,G0012,,pending,,,,,,521574
+G2649,Košická Polianka,council,obec,G0012,,pending,,,,,,521582
+G2650,Košické Oľšany,council,obec,G0012,,pending,,,,,,521591
+G2651,Košický Klečenov,council,obec,G0012,,pending,,,,,,521604
+G2652,Kožuchov,council,obec,G0012,,pending,,,,,,528439
+G2653,Kravany (okres Trebišov),council,obec,G0012,,pending,,,,,,528455
+G2654,Kristy,council,obec,G0012,,pending,,,,,,522678
+G2655,Krišovská Liesková,council,obec,G0012,,pending,,,,,,528463
+G2656,Krompachy,council,obec,G0012,,pending,,,,,,543268
+G2657,Kružná,council,obec,G0012,,pending,,,,,,560065
+G2658,Krásnohorská Dlhá Lúka,council,obec,G0012,,pending,,,,,,525863
+G2659,Krásnohorské Podhradie,council,obec,G0012,,pending,,,,,,525871
+G2660,Krásnovce,council,obec,G0012,,pending,,,,,,522651
+G2661,Kráľovce,council,obec,G0012,,pending,,,,,,521612
+G2662,Kráľovský Chlmec,council,obec,G0012,,pending,,,,,,528447
+G2663,Krčava,council,obec,G0012,,pending,,,,,,522660
+G2664,Kunova Teplica,council,obec,G0012,,pending,,,,,,525898
+G2665,Kusín,council,obec,G0012,,pending,,,,,,522686
+G2666,Kuzmice (okres Trebišov),council,obec,G0012,,pending,,,,,,528471
+G2667,Kysak,council,obec,G0012,,pending,,,,,,521639
+G2668,Kysta,council,obec,G0012,,pending,,,,,,528480
+G2669,Ladmovce,council,obec,G0012,,pending,,,,,,528498
+G2670,Lastomír,council,obec,G0012,,pending,,,,,,522694
+G2671,Lastovce,council,obec,G0012,,pending,,,,,,528501
+G2672,Laškovce,council,obec,G0012,,pending,,,,,,522708
+G2673,Lekárovce,council,obec,G0012,,pending,,,,,,522716
+G2674,Leles,council,obec,G0012,,pending,,,,,,528510
+G2675,Lesné,council,obec,G0012,,pending,,,,,,522724
+G2676,Letanovce,council,obec,G0012,,pending,,,,,,543284
+G2677,Lieskovany,council,obec,G0012,,pending,,,,,,543306
+G2678,Lipovník (okres Rožňava),council,obec,G0012,,pending,,,,,,525910
+G2679,Ložín,council,obec,G0012,,pending,,,,,,522732
+G2680,Luhyňa,council,obec,G0012,,pending,,,,,,528528
+G2681,Lúčka (okres Rožňava),council,obec,G0012,,pending,,,,,,525936
+G2682,Lúčky (okres Michalovce),council,obec,G0012,,pending,,,,,,522741
+G2683,Malá Ida,council,obec,G0012,,pending,,,,,,521655
+G2684,Malá Lodina,council,obec,G0012,,pending,,,,,,521663
+G2685,Malá Tŕňa,council,obec,G0012,,pending,,,,,,513792
+G2686,Malé Ozorovce,council,obec,G0012,,pending,,,,,,528536
+G2687,Malé Raškovce,council,obec,G0012,,pending,,,,,,522767
+G2688,Malé Trakany,council,obec,G0012,,pending,,,,,,528544
+G2689,Malý Horeš,council,obec,G0012,,pending,,,,,,528552
+G2690,Malý Kamenec,council,obec,G0012,,pending,,,,,,528561
+G2691,Malčice,council,obec,G0012,,pending,,,,,,522759
+G2692,Margecany,council,obec,G0012,,pending,,,,,,543322
+G2693,Markovce,council,obec,G0012,,pending,,,,,,522783
+G2694,Markuška,council,obec,G0012,,pending,,,,,,525952
+G2695,Markušovce,council,obec,G0012,,pending,,,,,,543331
+G2696,Matejovce nad Hornádom,council,obec,G0012,,pending,,,,,,543349
+G2697,Maťovské Vojkovce,council,obec,G0012,,pending,,,,,,528579
+G2698,Medzev,council,obec,G0012,,pending,,,,,,521671
+G2699,Meliata,council,obec,G0012,,pending,,,,,,525961
+G2700,Michalovce,council,obec,G0012,,pending,,,,,,522279
+G2701,Michaľany,council,obec,G0012,,pending,,,,,,528587
+G2702,Milhosť,council,obec,G0012,,pending,,,,,,580252
+G2703,Mlynky,council,obec,G0012,,pending,,,,,,543357
+G2704,Mníšek nad Hnilcom,council,obec,G0012,,pending,,,,,,543365
+G2705,Mokrance,council,obec,G0012,,pending,,,,,,521680
+G2706,Moldava nad Bodvou,council,obec,G0012,,pending,,,,,,521698
+G2707,Moravany,council,obec,G0012,,pending,,,,,,522791
+G2708,Mudrovce,council,obec,G0012,,pending,,,,,,521701
+G2709,Nacina Ves,council,obec,G0012,,pending,,,,,,522805
+G2710,Nižná Hutka,council,obec,G0012,,pending,,,,,,518140
+G2711,Nižná Kamenica,council,obec,G0012,,pending,,,,,,521728
+G2712,Nižná Myšľa,council,obec,G0012,,pending,,,,,,521736
+G2713,Nižná Rybnica,council,obec,G0012,,pending,,,,,,522813
+G2714,Nižná Slaná,council,obec,G0012,,pending,,,,,,526045
+G2715,Nižné Nemecké,council,obec,G0012,,pending,,,,,,522821
+G2716,Nižný Klátov,council,obec,G0012,,pending,,,,,,521752
+G2717,Nižný Lánec,council,obec,G0012,,pending,,,,,,521761
+G2718,Nižný Čaj,council,obec,G0012,,pending,,,,,,521744
+G2719,Nižný Žipov,council,obec,G0012,,pending,,,,,,528609
+G2720,Novosad,council,obec,G0012,,pending,,,,,,528617
+G2721,Nová Polhora,council,obec,G0012,,pending,,,,,,521795
+G2722,Nováčany,council,obec,G0012,,pending,,,,,,521787
+G2723,Nový Ruskov,council,obec,G0012,,pending,,,,,,528625
+G2724,Nový Salaš,council,obec,G0012,,pending,,,,,,521809
+G2725,Nálepkovo,council,obec,G0012,,pending,,,,,,543373
+G2726,Obišovce,council,obec,G0012,,pending,,,,,,521817
+G2727,Oborín,council,obec,G0012,,pending,,,,,,528633
+G2728,Ochtiná,council,obec,G0012,,pending,,,,,,526053
+G2729,Odorín,council,obec,G0012,,pending,,,,,,543403
+G2730,Olcnava,council,obec,G0012,,pending,,,,,,543411
+G2731,Olšovany,council,obec,G0012,,pending,,,,,,521825
+G2732,Opiná,council,obec,G0012,,pending,,,,,,521841
+G2733,Opátka,council,obec,G0012,,pending,,,,,,521833
+G2734,Orechová,council,obec,G0012,,pending,,,,,,522830
+G2735,Oreské (okres Michalovce),council,obec,G0012,,pending,,,,,,522848
+G2736,Ostrov (okres Sobrance),council,obec,G0012,,pending,,,,,,522856
+G2737,Oľšavka (okres Spišská Nová Ves),council,obec,G0012,,pending,,,,,,543438
+G2738,Palín,council,obec,G0012,,pending,,,,,,522864
+G2739,Parchovany,council,obec,G0012,,pending,,,,,,528676
+G2740,Pavlovce nad Uhom,council,obec,G0012,,pending,,,,,,522872
+G2741,Pača,council,obec,G0012,,pending,,,,,,526061
+G2742,Paňovce,council,obec,G0012,,pending,,,,,,521850
+G2743,Pašková,council,obec,G0012,,pending,,,,,,526070
+G2744,Peder,council,obec,G0012,,pending,,,,,,521868
+G2745,Perín-Chym,council,obec,G0012,,pending,,,,,,521876
+G2746,Petrikovce,council,obec,G0012,,pending,,,,,,522881
+G2747,Petrovce (okres Sobrance),council,obec,G0012,,pending,,,,,,522899
+G2748,Petrovce nad Laborcom,council,obec,G0012,,pending,,,,,,522902
+G2749,Petrovo,council,obec,G0012,,pending,,,,,,526088
+G2750,Pinkovce,council,obec,G0012,,pending,,,,,,522911
+G2751,Plechotice,council,obec,G0012,,pending,,,,,,528641
+G2752,Plešivec,council,obec,G0012,,pending,,,,,,526096
+G2753,Ploské (okres Košice - okolie),council,obec,G0012,,pending,,,,,,521884
+G2754,Podhoroď,council,obec,G0012,,pending,,,,,,522929
+G2755,Poproč (okres Košice - okolie),council,obec,G0012,,pending,,,,,,521892
+G2756,Porostov,council,obec,G0012,,pending,,,,,,522937
+G2757,Poruba pod Vihorlatom,council,obec,G0012,,pending,,,,,,522945
+G2758,Poráč,council,obec,G0012,,pending,,,,,,543489
+G2759,Porúbka (okres Sobrance),council,obec,G0012,,pending,,,,,,522953
+G2760,Pozdišovce,council,obec,G0012,,pending,,,,,,522961
+G2761,Poľany,council,obec,G0012,,pending,,,,,,528668
+G2762,Prakovce,council,obec,G0012,,pending,,,,,,543497
+G2763,Pribeník,council,obec,G0012,,pending,,,,,,528684
+G2764,Priekopa,council,obec,G0012,,pending,,,,,,522970
+G2765,Ptrukša,council,obec,G0012,,pending,,,,,,528692
+G2766,Pusté Čemerné,council,obec,G0012,,pending,,,,,,522988
+G2767,Rad,council,obec,G0012,,pending,,,,,,528706
+G2768,Rakovec nad Ondavou,council,obec,G0012,,pending,,,,,,522996
+G2769,Rakovnica,council,obec,G0012,,pending,,,,,,526126
+G2770,Rankovce,council,obec,G0012,,pending,,,,,,521914
+G2771,Rejdová,council,obec,G0012,,pending,,,,,,526134
+G2772,Remetské Hámre,council,obec,G0012,,pending,,,,,,523003
+G2773,Rešica,council,obec,G0012,,pending,,,,,,521922
+G2774,Richnava,council,obec,G0012,,pending,,,,,,543501
+G2775,Rochovce,council,obec,G0012,,pending,,,,,,526177
+G2776,Rozhanovce,council,obec,G0012,,pending,,,,,,521931
+G2777,Rozložná,council,obec,G0012,,pending,,,,,,526193
+G2778,Roštár,council,obec,G0012,,pending,,,,,,526185
+G2779,Rožňava,council,obec,G0012,,pending,,,,,,525529
+G2780,Rožňavské Bystré,council,obec,G0012,,pending,,,,,,526207
+G2781,Rudná,council,obec,G0012,,pending,,,,,,526215
+G2782,Rudník (okres Košice - okolie),council,obec,G0012,,pending,,,,,,521949
+G2783,Rudňany,council,obec,G0012,,pending,,,,,,543519
+G2784,Ruskov,council,obec,G0012,,pending,,,,,,521957
+G2785,Ruskovce (okres Sobrance),council,obec,G0012,,pending,,,,,,523020
+G2786,Ruská,council,obec,G0012,,pending,,,,,,528714
+G2787,Ruská Bystrá,council,obec,G0012,,pending,,,,,,523011
+G2788,Ruský Hrabovec,council,obec,G0012,,pending,,,,,,523038
+G2789,Rákoš (okres Košice - okolie),council,obec,G0012,,pending,,,,,,521906
+G2790,Sady nad Torysou,council,obec,G0012,,pending,,,,,,521965
+G2791,Sejkov,council,obec,G0012,,pending,,,,,,523046
+G2792,Senné (okres Michalovce),council,obec,G0012,,pending,,,,,,523054
+G2793,Sečovce,council,obec,G0012,,pending,,,,,,528722
+G2794,Seňa,council,obec,G0012,,pending,,,,,,521973
+G2795,Silica,council,obec,G0012,,pending,,,,,,526223
+G2796,Silická Brezová,council,obec,G0012,,pending,,,,,,526231
+G2797,Silická Jablonica,council,obec,G0012,,pending,,,,,,526240
+G2798,Sirník,council,obec,G0012,,pending,,,,,,543730
+G2799,Skároš,council,obec,G0012,,pending,,,,,,521981
+G2800,Slanec,council,obec,G0012,,pending,,,,,,522007
+G2801,Slanská Huta,council,obec,G0012,,pending,,,,,,522015
+G2802,Slanské Nové Mesto,council,obec,G0012,,pending,,,,,,522023
+G2803,Slančík,council,obec,G0012,,pending,,,,,,518115
+G2804,Slatvina,council,obec,G0012,,pending,,,,,,543527
+G2805,Slavec,council,obec,G0012,,pending,,,,,,526266
+G2806,Slavkovce,council,obec,G0012,,pending,,,,,,523062
+G2807,Slavoška,council,obec,G0012,,pending,,,,,,526274
+G2808,Slavošovce,council,obec,G0012,,pending,,,,,,526282
+G2809,Sliepkovce,council,obec,G0012,,pending,,,,,,523071
+G2810,Slivník,council,obec,G0012,,pending,,,,,,543748
+G2811,Slovenské Nové Mesto,council,obec,G0012,,pending,,,,,,543756
+G2812,Slovinky,council,obec,G0012,,pending,,,,,,543535
+G2813,Smižany,council,obec,G0012,,pending,,,,,,560154
+G2814,Smolnícka Huta,council,obec,G0012,,pending,,,,,,543551
+G2815,Smolník,council,obec,G0012,,pending,,,,,,543560
+G2816,Sobrance,council,obec,G0012,,pending,,,,,,523089
+G2817,Sokoľ,council,obec,G0012,,pending,,,,,,522031
+G2818,Sokoľany,council,obec,G0012,,pending,,,,,,559865
+G2819,Somotor,council,obec,G0012,,pending,,,,,,543772
+G2820,Soľnička,council,obec,G0012,,pending,,,,,,543764
+G2821,Spišská Nová Ves,council,obec,G0012,,pending,,,,,,526355
+G2822,Spišské Tomášovce,council,obec,G0012,,pending,,,,,,543586
+G2823,Spišské Vlachy,council,obec,G0012,,pending,,,,,,543594
+G2824,Spišský Hrušov,council,obec,G0012,,pending,,,,,,543616
+G2825,Stankovce,council,obec,G0012,,pending,,,,,,543781
+G2826,Stanča,council,obec,G0012,,pending,,,,,,513849
+G2827,Stará Voda,council,obec,G0012,,pending,,,,,,543632
+G2828,Staré,council,obec,G0012,,pending,,,,,,523097
+G2829,Stratená,council,obec,G0012,,pending,,,,,,526291
+G2830,Streda nad Bodrogom,council,obec,G0012,,pending,,,,,,543802
+G2831,Stretava,council,obec,G0012,,pending,,,,,,523119
+G2832,Stretavka,council,obec,G0012,,pending,,,,,,523127
+G2833,Strážne,council,obec,G0012,,pending,,,,,,543799
+G2834,Strážske,council,obec,G0012,,pending,,,,,,523101
+G2835,Suché,council,obec,G0012,,pending,,,,,,523135
+G2836,Svinica,council,obec,G0012,,pending,,,,,,522040
+G2837,Svinice,council,obec,G0012,,pending,,,,,,543811
+G2838,Svätuš,council,obec,G0012,,pending,,,,,,523143
+G2839,Svätuše,council,obec,G0012,,pending,,,,,,528650
+G2840,Svätá Mária,council,obec,G0012,,pending,,,,,,528153
+G2841,Tašuľa,council,obec,G0012,,pending,,,,,,523160
+G2842,Teplička,council,obec,G0012,,pending,,,,,,543667
+G2843,Tibava,council,obec,G0012,,pending,,,,,,523178
+G2844,Trebejov,council,obec,G0012,,pending,,,,,,522082
+G2845,Trebišov,council,obec,G0012,,pending,,,,,,528099
+G2846,Trhovište,council,obec,G0012,,pending,,,,,,523186
+G2847,Trnava pri Laborci,council,obec,G0012,,pending,,,,,,523194
+G2848,Trnávka (okres Trebišov),council,obec,G0012,,pending,,,,,,543829
+G2849,Trstené pri Hornáde,council,obec,G0012,,pending,,,,,,522104
+G2850,Trsťany,council,obec,G0012,,pending,,,,,,522091
+G2851,Turnianska Nová Ves,council,obec,G0012,,pending,,,,,,521779
+G2852,Turňa nad Bodvou,council,obec,G0012,,pending,,,,,,559784
+G2853,Tušice,council,obec,G0012,,pending,,,,,,523208
+G2854,Tušická Nová Ves,council,obec,G0012,,pending,,,,,,523216
+G2855,Vajkovce,council,obec,G0012,,pending,,,,,,522121
+G2856,Valaliky,council,obec,G0012,,pending,,,,,,522139
+G2857,Veľaty,council,obec,G0012,,pending,,,,,,543845
+G2858,Veľká Ida,council,obec,G0012,,pending,,,,,,522147
+G2859,Veľká Lodina,council,obec,G0012,,pending,,,,,,522155
+G2860,Veľká Tŕňa,council,obec,G0012,,pending,,,,,,513806
+G2861,Veľké Kapušany,council,obec,G0012,,pending,,,,,,543853
+G2862,Veľké Ozorovce,council,obec,G0012,,pending,,,,,,543861
+G2863,Veľké Raškovce,council,obec,G0012,,pending,,,,,,543870
+G2864,Veľké Revištia,council,obec,G0012,,pending,,,,,,523232
+G2865,Veľké Slemence,council,obec,G0012,,pending,,,,,,543888
+G2866,Veľké Trakany,council,obec,G0012,,pending,,,,,,543896
+G2867,Veľký Folkmar,council,obec,G0012,,pending,,,,,,543705
+G2868,Veľký Horeš,council,obec,G0012,,pending,,,,,,543900
+G2869,Veľký Kamenec,council,obec,G0012,,pending,,,,,,543918
+G2870,Viničky,council,obec,G0012,,pending,,,,,,543926
+G2871,Vinné,council,obec,G0012,,pending,,,,,,523259
+G2872,Višňov,council,obec,G0012,,pending,,,,,,543934
+G2873,Vlachovo,council,obec,G0012,,pending,,,,,,526339
+G2874,Vojany,council,obec,G0012,,pending,,,,,,543942
+G2875,Vojka,council,obec,G0012,,pending,,,,,,543969
+G2876,Vojkovce,council,obec,G0012,,pending,,,,,,543721
+G2877,Vojnatina,council,obec,G0012,,pending,,,,,,523267
+G2878,Vojčice,council,obec,G0012,,pending,,,,,,543951
+G2879,Voľa,council,obec,G0012,,pending,,,,,,523275
+G2880,Vrbnica,council,obec,G0012,,pending,,,,,,523283
+G2881,Vtáčkovce,council,obec,G0012,,pending,,,,,,522163
+G2882,Vysoká nad Uhom,council,obec,G0012,,pending,,,,,,523291
+G2883,Vyšná Hutka,council,obec,G0012,,pending,,,,,,522171
+G2884,Vyšná Kamenica,council,obec,G0012,,pending,,,,,,522180
+G2885,Vyšná Myšľa,council,obec,G0012,,pending,,,,,,522198
+G2886,Vyšná Rybnica,council,obec,G0012,,pending,,,,,,523305
+G2887,Vyšná Slaná,council,obec,G0012,,pending,,,,,,526347
+G2888,Vyšné Nemecké,council,obec,G0012,,pending,,,,,,523313
+G2889,Vyšné Remety,council,obec,G0012,,pending,,,,,,523321
+G2890,Vyšný Klátov,council,obec,G0012,,pending,,,,,,522210
+G2891,Vyšný Medzev,council,obec,G0012,,pending,,,,,,582093
+G2892,Vyšný Čaj,council,obec,G0012,,pending,,,,,,522201
+G2893,Vítkovce,council,obec,G0012,,pending,,,,,,543713
+G2894,Zalužice,council,obec,G0012,,pending,,,,,,523241
+G2895,Zatín,council,obec,G0012,,pending,,,,,,543977
+G2896,Zbehňov,council,obec,G0012,,pending,,,,,,543985
+G2897,Zbudza,council,obec,G0012,,pending,,,,,,523356
+G2898,Zemplín,council,obec,G0012,,pending,,,,,,543993
+G2899,Zemplínska Nová Ves,council,obec,G0012,,pending,,,,,,544001
+G2900,Zemplínska Teplica,council,obec,G0012,,pending,,,,,,544019
+G2901,Zemplínska Široká,council,obec,G0012,,pending,,,,,,523364
+G2902,Zemplínske Hradište,council,obec,G0012,,pending,,,,,,544027
+G2903,Zemplínske Jastrabie,council,obec,G0012,,pending,,,,,,544035
+G2904,Zemplínske Kopčany,council,obec,G0012,,pending,,,,,,522635
+G2905,Zemplínsky Branč,council,obec,G0012,,pending,,,,,,544043
+G2906,Zlatá Idka,council,obec,G0012,,pending,,,,,,522244
+G2907,Zádiel,council,obec,G0012,,pending,,,,,,559881
+G2908,Záhor,council,obec,G0012,,pending,,,,,,523330
+G2909,Závadka (okres Gelnica),council,obec,G0012,,pending,,,,,,526631
+G2910,Závadka (okres Michalovce),council,obec,G0012,,pending,,,,,,523348
+G2911,Úbrež,council,obec,G0012,,pending,,,,,,523224
+G2912,Úhorná,council,obec,G0012,,pending,,,,,,543683
+G2913,Čakanovce (okres Košice - okolie),council,obec,G0012,,pending,,,,,,521281
+G2914,Čaňa,council,obec,G0012,,pending,,,,,,521299
+G2915,Čerhov,council,obec,G0012,,pending,,,,,,528251
+G2916,Černochov,council,obec,G0012,,pending,,,,,,528269
+G2917,Čečehov,council,obec,G0012,,pending,,,,,,522392
+G2918,Čečejovce,council,obec,G0012,,pending,,,,,,521302
+G2919,Čeľovce,council,obec,G0012,,pending,,,,,,528242
+G2920,Čierna,council,obec,G0012,,pending,,,,,,528285
+G2921,Čierna Lehota (okres Rožňava),council,obec,G0012,,pending,,,,,,525596
+G2922,Čierna nad Tisou,council,obec,G0012,,pending,,,,,,528293
+G2923,Čierne Pole,council,obec,G0012,,pending,,,,,,528307
+G2924,Čičarovce,council,obec,G0012,,pending,,,,,,528277
+G2925,Čižatice,council,obec,G0012,,pending,,,,,,521311
+G2926,Čoltovo,council,obec,G0012,,pending,,,,,,525600
+G2927,Čučma,council,obec,G0012,,pending,,,,,,560031
+G2928,Ďurkov,council,obec,G0012,,pending,,,,,,521361
+G2929,Ďurďošík,council,obec,G0012,,pending,,,,,,521353
+G2930,Šamudovce,council,obec,G0012,,pending,,,,,,523151
+G2931,Šemša,council,obec,G0012,,pending,,,,,,522066
+G2932,Štítnik,council,obec,G0012,,pending,,,,,,526312
+G2933,Štós,council,obec,G0012,,pending,,,,,,522074
+G2934,Švedlár,council,obec,G0012,,pending,,,,,,543659
+G2935,Žakarovce,council,obec,G0012,,pending,,,,,,526649
+G2936,Žarnov,council,obec,G0012,,pending,,,,,,522252
+G2937,Žbince,council,obec,G0012,,pending,,,,,,523372
+G2938,Ždaňa,council,obec,G0012,,pending,,,,,,522261
+G2939,Žehra,council,obec,G0012,,pending,,,,,,526657

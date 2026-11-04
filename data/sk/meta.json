@@ -1,0 +1,8 @@
+{
+  "name": "Slovakia",
+  "iso2": "SK",
+  "lead": "",
+  "status": "in progress",
+  "boundaries": "boundaries.json",
+  "notes": "Depth: seed (first pass R001, 2026-11-04). Scope: economist commentary, parties searched, EP roll calls; 8 kraje (NUTS 3) and 2,927 obce (LAU) in the register; local units not swept. Map: Eurostat GISCO LAU and NUTS 2024 (CC BY 4.0). No Seats tab: nrsr.sk answers scripts with a bot check (not bypassed). Yield is low: no Slovak bill or party programme for a wealth tax was found."
+}
