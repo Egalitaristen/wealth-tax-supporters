@@ -1,0 +1,579 @@
+geo_unit_id,name,level,unit_type,parent_id,website,sweep_status,swept_run,swept_date,queries_run,hits,notes,code
+G0001,Croatia,national,country,,,pending,,,,,,HR
+G0002,Bjelovarsko-bilogorska županija,region,county,G0001,,pending,,,,,,HR021
+G0003,Virovitičko-podravska županija,region,county,G0001,,pending,,,,,,HR022
+G0004,Požeško-slavonska županija,region,county,G0001,,pending,,,,,,HR023
+G0005,Brodsko-posavska županija,region,county,G0001,,pending,,,,,,HR024
+G0006,Osječko-baranjska županija,region,county,G0001,,pending,,,,,,HR025
+G0007,Vukovarsko-srijemska županija,region,county,G0001,,pending,,,,,,HR026
+G0008,Karlovačka županija,region,county,G0001,,pending,,,,,,HR027
+G0009,Sisačko-moslavačka županija,region,county,G0001,,pending,,,,,,HR028
+G0010,Primorsko-goranska županija,region,county,G0001,,pending,,,,,,HR031
+G0011,Ličko-senjska županija,region,county,G0001,,pending,,,,,,HR032
+G0012,Zadarska županija,region,county,G0001,,pending,,,,,,HR033
+G0013,Šibensko-kninska županija,region,county,G0001,,pending,,,,,,HR034
+G0014,Splitsko-dalmatinska županija,region,county,G0001,,pending,,,,,,HR035
+G0015,Istarska županija,region,county,G0001,,pending,,,,,,HR036
+G0016,Dubrovačko-neretvanska županija,region,county,G0001,,pending,,,,,,HR037
+G0017,Grad Zagreb,region,county,G0001,,pending,,,,,,HR050
+G0018,Međimurska županija,region,county,G0001,,pending,,,,,,HR061
+G0019,Varaždinska županija,region,county,G0001,,pending,,,,,,HR062
+G0020,Koprivničko-križevačka županija,region,county,G0001,,pending,,,,,,HR063
+G0021,Krapinsko-zagorska županija,region,county,G0001,,pending,,,,,,HR064
+G0022,Zagrebačka županija,region,county,G0001,,pending,,,,,,HR065
+G0023,Andrijaševci,council,municipality or town,G0007,,pending,,,,,,00019
+G0024,Antunovac,council,municipality or town,G0006,,pending,,,,,,00027
+G0025,Babina Greda,council,municipality or town,G0007,,pending,,,,,,00035
+G0026,Bakar,council,municipality or town,G0010,,pending,,,,,,00043
+G0027,Bale - Valle,council,municipality or town,G0015,,pending,,,,,,00051
+G0028,Barban,council,municipality or town,G0015,,pending,,,,,,00060
+G0029,Barilović,council,municipality or town,G0008,,pending,,,,,,00078
+G0030,Baška,council,municipality or town,G0010,,pending,,,,,,00086
+G0031,Baška Voda,council,municipality or town,G0014,,pending,,,,,,00094
+G0032,Bebrina,council,municipality or town,G0005,,pending,,,,,,00108
+G0033,Bedekovčina,council,municipality or town,G0021,,pending,,,,,,00116
+G0034,Bednja,council,municipality or town,G0019,,pending,,,,,,00124
+G0035,Beli Manastir,council,municipality or town,G0006,,pending,,,,,,00132
+G0036,Belica,council,municipality or town,G0018,,pending,,,,,,00159
+G0037,Belišće,council,municipality or town,G0006,,pending,,,,,,00167
+G0038,Benkovac,council,municipality or town,G0012,,pending,,,,,,00175
+G0039,Berek,council,municipality or town,G0002,,pending,,,,,,00183
+G0040,Beretinec,council,municipality or town,G0019,,pending,,,,,,00191
+G0041,Bibinje,council,municipality or town,G0012,,pending,,,,,,00205
+G0042,Bilje,council,municipality or town,G0006,,pending,,,,,,00213
+G0043,Biograd Na Moru,council,municipality or town,G0012,,pending,,,,,,00221
+G0044,Bizovac,council,municipality or town,G0006,,pending,,,,,,00230
+G0045,Bjelovar,council,municipality or town,G0002,,pending,,,,,,00248
+G0046,Blato,council,municipality or town,G0016,,pending,,,,,,00256
+G0047,Bogdanovci,council,municipality or town,G0007,,pending,,,,,,00264
+G0048,Bol,council,municipality or town,G0014,,pending,,,,,,00272
+G0049,Borovo,council,municipality or town,G0007,,pending,,,,,,00299
+G0050,Bosiljevo,council,municipality or town,G0008,,pending,,,,,,00302
+G0051,Bošnjaci,council,municipality or town,G0007,,pending,,,,,,00329
+G0052,Brckovljani,council,municipality or town,G0022,,pending,,,,,,00337
+G0053,Brdovec,council,municipality or town,G0022,,pending,,,,,,00345
+G0054,Brestovac,council,municipality or town,G0004,,pending,,,,,,00353
+G0055,Breznica,council,municipality or town,G0019,,pending,,,,,,00361
+G0056,Brinje,council,municipality or town,G0011,,pending,,,,,,00370
+G0057,Brod Moravice,council,municipality or town,G0010,,pending,,,,,,00388
+G0058,Brodski Stupnik,council,municipality or town,G0005,,pending,,,,,,00396
+G0059,Brtonigla - Verteneglio,council,municipality or town,G0015,,pending,,,,,,00400
+G0060,Budinščina,council,municipality or town,G0021,,pending,,,,,,00418
+G0061,Buje - Buie,council,municipality or town,G0015,,pending,,,,,,00426
+G0062,Buzet,council,municipality or town,G0015,,pending,,,,,,00434
+G0063,Cerna,council,municipality or town,G0007,,pending,,,,,,00442
+G0064,Cernik,council,municipality or town,G0005,,pending,,,,,,00469
+G0065,Cerovlje,council,municipality or town,G0015,,pending,,,,,,00477
+G0066,Cestica,council,municipality or town,G0019,,pending,,,,,,00485
+G0067,Cetingrad,council,municipality or town,G0008,,pending,,,,,,00493
+G0068,Cista Provo,council,municipality or town,G0014,,pending,,,,,,00507
+G0069,Civljane,council,municipality or town,G0013,,pending,,,,,,00515
+G0070,Cres,council,municipality or town,G0010,,pending,,,,,,00523
+G0071,Crikvenica,council,municipality or town,G0010,,pending,,,,,,00531
+G0072,Crnac,council,municipality or town,G0003,,pending,,,,,,00540
+G0073,Čabar,council,municipality or town,G0010,,pending,,,,,,00558
+G0074,Čačinci,council,municipality or town,G0003,,pending,,,,,,00566
+G0075,Čađavica,council,municipality or town,G0003,,pending,,,,,,00574
+G0076,Čaglin,council,municipality or town,G0004,,pending,,,,,,00582
+G0077,Čakovec,council,municipality or town,G0018,,pending,,,,,,00604
+G0078,Čavle,council,municipality or town,G0010,,pending,,,,,,00612
+G0079,Čazma,council,municipality or town,G0002,,pending,,,,,,00639
+G0080,Čeminac,council,municipality or town,G0006,,pending,,,,,,00647
+G0081,Čepin,council,municipality or town,G0006,,pending,,,,,,00655
+G0082,Darda,council,municipality or town,G0006,,pending,,,,,,00663
+G0083,Daruvar,council,municipality or town,G0002,,pending,,,,,,00671
+G0084,Davor,council,municipality or town,G0005,,pending,,,,,,00680
+G0085,Delnice,council,municipality or town,G0010,,pending,,,,,,00698
+G0086,Desinić,council,municipality or town,G0021,,pending,,,,,,00701
+G0087,Dežanovac,council,municipality or town,G0002,,pending,,,,,,00710
+G0088,Dicmo,council,municipality or town,G0014,,pending,,,,,,00728
+G0089,Dobrinj,council,municipality or town,G0010,,pending,,,,,,00744
+G0090,Domašinec,council,municipality or town,G0018,,pending,,,,,,00752
+G0091,Brela,council,municipality or town,G0014,,pending,,,,,,00779
+G0092,Donja Dubrava,council,municipality or town,G0018,,pending,,,,,,00787
+G0093,Donja Stubica,council,municipality or town,G0021,,pending,,,,,,00795
+G0094,Donja Voća,council,municipality or town,G0019,,pending,,,,,,00809
+G0095,Donji Andrijevci,council,municipality or town,G0005,,pending,,,,,,00817
+G0096,Donji Kraljevec,council,municipality or town,G0018,,pending,,,,,,00825
+G0097,Donji Kukuruzari,council,municipality or town,G0009,,pending,,,,,,00833
+G0098,Donji Lapac,council,municipality or town,G0011,,pending,,,,,,00841
+G0099,Martijanec,council,municipality or town,G0019,,pending,,,,,,00850
+G0100,Donji Miholjac,council,municipality or town,G0006,,pending,,,,,,00868
+G0101,Muć,council,municipality or town,G0014,,pending,,,,,,00876
+G0102,Proložac,council,municipality or town,G0014,,pending,,,,,,00884
+G0103,Donji Vidovec,council,municipality or town,G0018,,pending,,,,,,00892
+G0104,Draganić,council,municipality or town,G0008,,pending,,,,,,00906
+G0105,Draž,council,municipality or town,G0006,,pending,,,,,,00914
+G0106,Drenovci,council,municipality or town,G0007,,pending,,,,,,00922
+G0107,Drenje,council,municipality or town,G0006,,pending,,,,,,00949
+G0108,Drniš,council,municipality or town,G0013,,pending,,,,,,00957
+G0109,Drnje,council,municipality or town,G0020,,pending,,,,,,00965
+G0110,Dubrava,council,municipality or town,G0022,,pending,,,,,,00973
+G0111,Dubrovnik,council,municipality or town,G0016,,pending,,,,,,00981
+G0112,Duga Resa,council,municipality or town,G0008,,pending,,,,,,00990
+G0113,Dugi Rat,council,municipality or town,G0014,,pending,,,,,,01007
+G0114,Dugo Selo,council,municipality or town,G0022,,pending,,,,,,01015
+G0115,Dvor,council,municipality or town,G0009,,pending,,,,,,01023
+G0116,Đakovo,council,municipality or town,G0006,,pending,,,,,,01031
+G0117,Đelekovec,council,municipality or town,G0020,,pending,,,,,,01040
+G0118,Đulovac,council,municipality or town,G0002,,pending,,,,,,01058
+G0119,Đurđenovac,council,municipality or town,G0006,,pending,,,,,,01066
+G0120,Đurđevac,council,municipality or town,G0020,,pending,,,,,,01074
+G0121,Đurmanec,council,municipality or town,G0021,,pending,,,,,,01082
+G0122,Erdut,council,municipality or town,G0006,,pending,,,,,,01104
+G0123,Ernestinovo,council,municipality or town,G0006,,pending,,,,,,01112
+G0124,Ervenik,council,municipality or town,G0013,,pending,,,,,,01139
+G0125,Farkaševac,council,municipality or town,G0022,,pending,,,,,,01147
+G0126,Ferdinandovac,council,municipality or town,G0020,,pending,,,,,,01155
+G0127,Feričanci,council,municipality or town,G0006,,pending,,,,,,01163
+G0128,Fužine,council,municipality or town,G0010,,pending,,,,,,01171
+G0129,Garčin,council,municipality or town,G0005,,pending,,,,,,01180
+G0130,Garešnica,council,municipality or town,G0002,,pending,,,,,,01198
+G0131,Generalski Stol,council,municipality or town,G0008,,pending,,,,,,01201
+G0132,Glina,council,municipality or town,G0009,,pending,,,,,,01210
+G0133,Gola,council,municipality or town,G0020,,pending,,,,,,01228
+G0134,Goričan,council,municipality or town,G0018,,pending,,,,,,01236
+G0135,Gorjani,council,municipality or town,G0006,,pending,,,,,,01244
+G0136,Gornja Stubica,council,municipality or town,G0021,,pending,,,,,,01252
+G0137,Gornji Bogićevci,council,municipality or town,G0005,,pending,,,,,,01279
+G0138,Gornji Kneginec,council,municipality or town,G0019,,pending,,,,,,01295
+G0139,Gospić,council,municipality or town,G0011,,pending,,,,,,01309
+G0140,Gračac,council,municipality or town,G0012,,pending,,,,,,01317
+G0141,Gračišće,council,municipality or town,G0015,,pending,,,,,,01325
+G0142,Grad Zagreb,council,municipality or town,G0017,,pending,,,,,,01333
+G0143,Gradac,council,municipality or town,G0014,,pending,,,,,,01341
+G0144,Gradec,council,municipality or town,G0022,,pending,,,,,,01350
+G0145,Gradina,council,municipality or town,G0003,,pending,,,,,,01368
+G0146,Gradište,council,municipality or town,G0007,,pending,,,,,,01376
+G0147,Grožnjan - Grisignana,council,municipality or town,G0015,,pending,,,,,,01384
+G0148,Grubišno Polje,council,municipality or town,G0002,,pending,,,,,,01392
+G0149,Gundinci,council,municipality or town,G0005,,pending,,,,,,01406
+G0150,Gunja,council,municipality or town,G0007,,pending,,,,,,01414
+G0151,Hercegovac,council,municipality or town,G0002,,pending,,,,,,01449
+G0152,Hlebine,council,municipality or town,G0020,,pending,,,,,,01457
+G0153,Hrašćina,council,municipality or town,G0021,,pending,,,,,,01465
+G0154,Hrvace,council,municipality or town,G0014,,pending,,,,,,01481
+G0155,Hrvatska Dubica,council,municipality or town,G0009,,pending,,,,,,01490
+G0156,Hrvatska Kostajnica,council,municipality or town,G0009,,pending,,,,,,01503
+G0157,Breznički Hum,council,municipality or town,G0019,,pending,,,,,,01511
+G0158,Hum Na Sutli,council,municipality or town,G0021,,pending,,,,,,01520
+G0159,Hvar,council,municipality or town,G0014,,pending,,,,,,01538
+G0160,Ilok,council,municipality or town,G0007,,pending,,,,,,01546
+G0161,Imotski,council,municipality or town,G0014,,pending,,,,,,01554
+G0162,Ivanec,council,municipality or town,G0019,,pending,,,,,,01562
+G0163,Ivanić-Grad,council,municipality or town,G0022,,pending,,,,,,01589
+G0164,Ivankovo,council,municipality or town,G0007,,pending,,,,,,01597
+G0165,Ivanska,council,municipality or town,G0002,,pending,,,,,,01619
+G0166,Jakovlje,council,municipality or town,G0022,,pending,,,,,,01635
+G0167,Jakšić,council,municipality or town,G0004,,pending,,,,,,01643
+G0168,Jalžabet,council,municipality or town,G0019,,pending,,,,,,01651
+G0169,Jarmina,council,municipality or town,G0007,,pending,,,,,,01660
+G0170,Jasenice,council,municipality or town,G0012,,pending,,,,,,01678
+G0171,Jasenovac,council,municipality or town,G0009,,pending,,,,,,01686
+G0172,Jastrebarsko,council,municipality or town,G0022,,pending,,,,,,01694
+G0173,Jelenje,council,municipality or town,G0010,,pending,,,,,,01708
+G0174,Jelsa,council,municipality or town,G0014,,pending,,,,,,01716
+G0175,Josipdol,council,municipality or town,G0008,,pending,,,,,,01724
+G0176,Kali,council,municipality or town,G0012,,pending,,,,,,01732
+G0177,Kanfanar,council,municipality or town,G0015,,pending,,,,,,01759
+G0178,Kapela,council,municipality or town,G0002,,pending,,,,,,01767
+G0179,Kaptol,council,municipality or town,G0004,,pending,,,,,,01775
+G0180,Karlobag,council,municipality or town,G0011,,pending,,,,,,01783
+G0181,Karlovac,council,municipality or town,G0008,,pending,,,,,,01791
+G0182,Kastav,council,municipality or town,G0010,,pending,,,,,,01805
+G0183,Kaštela,council,municipality or town,G0014,,pending,,,,,,01813
+G0184,Kijevo,council,municipality or town,G0013,,pending,,,,,,01830
+G0185,Kistanje,council,municipality or town,G0013,,pending,,,,,,01848
+G0186,Klakar,council,municipality or town,G0005,,pending,,,,,,01856
+G0187,Klana,council,municipality or town,G0010,,pending,,,,,,01864
+G0188,Klanjec,council,municipality or town,G0021,,pending,,,,,,01872
+G0189,Klenovnik,council,municipality or town,G0019,,pending,,,,,,01899
+G0190,Klinča Sela,council,municipality or town,G0022,,pending,,,,,,01902
+G0191,Klis,council,municipality or town,G0014,,pending,,,,,,01929
+G0192,Kloštar Ivanić,council,municipality or town,G0022,,pending,,,,,,01937
+G0193,Kloštar Podravski,council,municipality or town,G0020,,pending,,,,,,01945
+G0194,Kneževi Vinogradi,council,municipality or town,G0006,,pending,,,,,,01953
+G0195,Knin,council,municipality or town,G0013,,pending,,,,,,01961
+G0196,Komiža,council,municipality or town,G0014,,pending,,,,,,01970
+G0197,Konavle,council,municipality or town,G0016,,pending,,,,,,01988
+G0198,Končanica,council,municipality or town,G0002,,pending,,,,,,01996
+G0199,Konjščina,council,municipality or town,G0021,,pending,,,,,,02003
+G0200,Koprivnica,council,municipality or town,G0020,,pending,,,,,,02011
+G0201,Koprivnički Bregi,council,municipality or town,G0020,,pending,,,,,,02020
+G0202,Koprivnički Ivanec,council,municipality or town,G0020,,pending,,,,,,02038
+G0203,Korčula,council,municipality or town,G0016,,pending,,,,,,02046
+G0204,Koška,council,municipality or town,G0006,,pending,,,,,,02054
+G0205,Kotoriba,council,municipality or town,G0018,,pending,,,,,,02062
+G0206,Kraljevec Na Sutli,council,municipality or town,G0021,,pending,,,,,,02089
+G0207,Kraljevica,council,municipality or town,G0010,,pending,,,,,,02097
+G0208,Krapina,council,municipality or town,G0021,,pending,,,,,,02119
+G0209,Krapinske Toplice,council,municipality or town,G0021,,pending,,,,,,02127
+G0210,Križ,council,municipality or town,G0022,,pending,,,,,,02135
+G0211,Križevci,council,municipality or town,G0020,,pending,,,,,,02143
+G0212,Krk,council,municipality or town,G0010,,pending,,,,,,02151
+G0213,Krnjak,council,municipality or town,G0008,,pending,,,,,,02160
+G0214,Kršan,council,municipality or town,G0015,,pending,,,,,,02178
+G0215,Kula Norinska,council,municipality or town,G0016,,pending,,,,,,02194
+G0216,Kutina,council,municipality or town,G0009,,pending,,,,,,02208
+G0217,Kutjevo,council,municipality or town,G0004,,pending,,,,,,02216
+G0218,Labin,council,municipality or town,G0015,,pending,,,,,,02224
+G0219,Lanišće,council,municipality or town,G0015,,pending,,,,,,02232
+G0220,Lasinja,council,municipality or town,G0008,,pending,,,,,,02259
+G0221,Lastovo,council,municipality or town,G0016,,pending,,,,,,02267
+G0222,Legrad,council,municipality or town,G0020,,pending,,,,,,02275
+G0223,Lekenik,council,municipality or town,G0009,,pending,,,,,,02283
+G0224,Lepoglava,council,municipality or town,G0019,,pending,,,,,,02291
+G0225,Levanjska Varoš,council,municipality or town,G0006,,pending,,,,,,02305
+G0226,Lipik,council,municipality or town,G0004,,pending,,,,,,02313
+G0227,Lipovljani,council,municipality or town,G0009,,pending,,,,,,02321
+G0228,Lišane Ostrovičke,council,municipality or town,G0012,,pending,,,,,,02348
+G0229,Ližnjan - Lisignano,council,municipality or town,G0015,,pending,,,,,,02356
+G0230,Lobor,council,municipality or town,G0021,,pending,,,,,,02364
+G0231,Lokve,council,municipality or town,G0010,,pending,,,,,,02372
+G0232,Lovas,council,municipality or town,G0007,,pending,,,,,,02399
+G0233,Lovinac,council,municipality or town,G0011,,pending,,,,,,02402
+G0234,Lovran,council,municipality or town,G0010,,pending,,,,,,02429
+G0235,Lovreć,council,municipality or town,G0014,,pending,,,,,,02437
+G0236,Ludbreg,council,municipality or town,G0019,,pending,,,,,,02445
+G0237,Lukač,council,municipality or town,G0003,,pending,,,,,,02453
+G0238,Lupoglav,council,municipality or town,G0015,,pending,,,,,,02461
+G0239,Ljubešćica,council,municipality or town,G0019,,pending,,,,,,02470
+G0240,Mače,council,municipality or town,G0021,,pending,,,,,,02488
+G0241,Makarska,council,municipality or town,G0014,,pending,,,,,,02496
+G0242,Mala Subotica,council,municipality or town,G0018,,pending,,,,,,02500
+G0243,Mali Bukovec,council,municipality or town,G0019,,pending,,,,,,02518
+G0244,Mali Lošinj,council,municipality or town,G0010,,pending,,,,,,02526
+G0245,Malinska-Dubašnica,council,municipality or town,G0010,,pending,,,,,,02534
+G0246,Marčana,council,municipality or town,G0015,,pending,,,,,,02542
+G0247,Marija Bistrica,council,municipality or town,G0021,,pending,,,,,,02569
+G0248,Marijanci,council,municipality or town,G0006,,pending,,,,,,02577
+G0249,Marina,council,municipality or town,G0014,,pending,,,,,,02585
+G0250,Martinska Ves,council,municipality or town,G0009,,pending,,,,,,02593
+G0251,Maruševec,council,municipality or town,G0019,,pending,,,,,,02607
+G0252,Matulji,council,municipality or town,G0010,,pending,,,,,,02615
+G0253,Medulin,council,municipality or town,G0015,,pending,,,,,,02631
+G0254,Metković,council,municipality or town,G0016,,pending,,,,,,02640
+G0255,Mihovljan,council,municipality or town,G0021,,pending,,,,,,02658
+G0256,Mikleuš,council,municipality or town,G0003,,pending,,,,,,02666
+G0257,Milna,council,municipality or town,G0014,,pending,,,,,,02674
+G0258,Mljet,council,municipality or town,G0016,,pending,,,,,,02682
+G0259,Molve,council,municipality or town,G0020,,pending,,,,,,02704
+G0260,Podravska Moslavina,council,municipality or town,G0006,,pending,,,,,,02712
+G0261,Mošćenička Draga,council,municipality or town,G0010,,pending,,,,,,02739
+G0262,Motovun - Montona,council,municipality or town,G0015,,pending,,,,,,02747
+G0263,Mrkopalj,council,municipality or town,G0010,,pending,,,,,,02755
+G0264,Mursko Središće,council,municipality or town,G0018,,pending,,,,,,02763
+G0265,Našice,council,municipality or town,G0006,,pending,,,,,,02780
+G0266,Nedelišće,council,municipality or town,G0018,,pending,,,,,,02798
+G0267,Nerežišća,council,municipality or town,G0014,,pending,,,,,,02801
+G0268,Netretić,council,municipality or town,G0008,,pending,,,,,,02810
+G0269,Nin,council,municipality or town,G0012,,pending,,,,,,02828
+G0270,Nova Bukovica,council,municipality or town,G0003,,pending,,,,,,02836
+G0271,Nova Gradiška,council,municipality or town,G0005,,pending,,,,,,02844
+G0272,Nova Kapela,council,municipality or town,G0005,,pending,,,,,,02852
+G0273,Nova Rača,council,municipality or town,G0002,,pending,,,,,,02879
+G0274,Novalja,council,municipality or town,G0011,,pending,,,,,,02887
+G0275,Novi Marof,council,municipality or town,G0019,,pending,,,,,,02895
+G0276,Novi Vinodolski,council,municipality or town,G0010,,pending,,,,,,02909
+G0277,Novigrad - Cittanova,council,municipality or town,G0015,,pending,,,,,,02917
+G0278,Novigrad Podravski,council,municipality or town,G0020,,pending,,,,,,02925
+G0279,Novska,council,municipality or town,G0009,,pending,,,,,,02933
+G0280,Nuštar,council,municipality or town,G0007,,pending,,,,,,02941
+G0281,Nijemci,council,municipality or town,G0007,,pending,,,,,,02950
+G0282,Obrovac,council,municipality or town,G0012,,pending,,,,,,02968
+G0283,Ogulin,council,municipality or town,G0008,,pending,,,,,,02976
+G0284,Promina,council,municipality or town,G0013,,pending,,,,,,02984
+G0285,Okučani,council,municipality or town,G0005,,pending,,,,,,02992
+G0286,Omiš,council,municipality or town,G0014,,pending,,,,,,03000
+G0287,Omišalj,council,municipality or town,G0010,,pending,,,,,,03018
+G0288,Opatija,council,municipality or town,G0010,,pending,,,,,,03026
+G0289,Oprisavci,council,municipality or town,G0005,,pending,,,,,,03034
+G0290,Oprtalj - Portole,council,municipality or town,G0015,,pending,,,,,,03042
+G0291,Opuzen,council,municipality or town,G0016,,pending,,,,,,03069
+G0292,Orahovica,council,municipality or town,G0003,,pending,,,,,,03077
+G0293,Orebić,council,municipality or town,G0016,,pending,,,,,,03085
+G0294,Oriovac,council,municipality or town,G0005,,pending,,,,,,03093
+G0295,Biskupija,council,municipality or town,G0013,,pending,,,,,,03107
+G0296,Oroslavje,council,municipality or town,G0021,,pending,,,,,,03115
+G0297,Osijek,council,municipality or town,G0006,,pending,,,,,,03123
+G0298,Otočac,council,municipality or town,G0011,,pending,,,,,,03131
+G0299,Otok,council,municipality or town,G0014,,pending,,,,,,03140
+G0300,Ozalj,council,municipality or town,G0008,,pending,,,,,,03158
+G0301,Pag,council,municipality or town,G0012,,pending,,,,,,03166
+G0302,Pakoštane,council,municipality or town,G0012,,pending,,,,,,03174
+G0303,Pakrac,council,municipality or town,G0004,,pending,,,,,,03182
+G0304,Pašman,council,municipality or town,G0012,,pending,,,,,,03204
+G0305,Pazin,council,municipality or town,G0015,,pending,,,,,,03212
+G0306,Perušić,council,municipality or town,G0011,,pending,,,,,,03239
+G0307,Peteranec,council,municipality or town,G0020,,pending,,,,,,03247
+G0308,Petlovac,council,municipality or town,G0006,,pending,,,,,,03255
+G0309,Petrijanec,council,municipality or town,G0019,,pending,,,,,,03263
+G0310,Petrijevci,council,municipality or town,G0006,,pending,,,,,,03271
+G0311,Petrinja,council,municipality or town,G0009,,pending,,,,,,03280
+G0312,Petrovsko,council,municipality or town,G0021,,pending,,,,,,03298
+G0313,Pićan,council,municipality or town,G0015,,pending,,,,,,03301
+G0314,Pisarovina,council,municipality or town,G0022,,pending,,,,,,03310
+G0315,Pitomača,council,municipality or town,G0003,,pending,,,,,,03328
+G0316,Plaški,council,municipality or town,G0008,,pending,,,,,,03336
+G0317,Pleternica,council,municipality or town,G0004,,pending,,,,,,03344
+G0318,Ploče,council,municipality or town,G0016,,pending,,,,,,03352
+G0319,Podbablje,council,municipality or town,G0014,,pending,,,,,,03379
+G0320,Podcrkavlje,council,municipality or town,G0005,,pending,,,,,,03387
+G0321,Podgora,council,municipality or town,G0014,,pending,,,,,,03395
+G0322,Podgorač,council,municipality or town,G0006,,pending,,,,,,03409
+G0323,Podstrana,council,municipality or town,G0014,,pending,,,,,,03417
+G0324,Podturen,council,municipality or town,G0018,,pending,,,,,,03425
+G0325,Pojezerje,council,municipality or town,G0016,,pending,,,,,,03433
+G0326,Polača,council,municipality or town,G0012,,pending,,,,,,03441
+G0327,Poličnik,council,municipality or town,G0012,,pending,,,,,,03450
+G0328,Popovac,council,municipality or town,G0006,,pending,,,,,,03468
+G0329,Popovača,council,municipality or town,G0009,,pending,,,,,,03476
+G0330,Poreč - Parenzo,council,municipality or town,G0015,,pending,,,,,,03484
+G0331,Posedarje,council,municipality or town,G0012,,pending,,,,,,03492
+G0332,Postira,council,municipality or town,G0014,,pending,,,,,,03506
+G0333,Požega,council,municipality or town,G0004,,pending,,,,,,03514
+G0334,Pregrada,council,municipality or town,G0021,,pending,,,,,,03522
+G0335,Preko,council,municipality or town,G0012,,pending,,,,,,03549
+G0336,Prelog,council,municipality or town,G0018,,pending,,,,,,03557
+G0337,Preseka,council,municipality or town,G0022,,pending,,,,,,03565
+G0338,Primošten,council,municipality or town,G0013,,pending,,,,,,03573
+G0339,Pučišća,council,municipality or town,G0014,,pending,,,,,,03581
+G0340,Pula - Pola,council,municipality or town,G0015,,pending,,,,,,03590
+G0341,Punat,council,municipality or town,G0010,,pending,,,,,,03603
+G0342,Punitovci,council,municipality or town,G0006,,pending,,,,,,03611
+G0343,Pušća,council,municipality or town,G0022,,pending,,,,,,03620
+G0344,Rab,council,municipality or town,G0010,,pending,,,,,,03638
+G0345,Radoboj,council,municipality or town,G0021,,pending,,,,,,03646
+G0346,Rakovica,council,municipality or town,G0008,,pending,,,,,,03654
+G0347,Rasinja,council,municipality or town,G0020,,pending,,,,,,03662
+G0348,Raša,council,municipality or town,G0015,,pending,,,,,,03689
+G0349,Ravna Gora,council,municipality or town,G0010,,pending,,,,,,03697
+G0350,Ražanac,council,municipality or town,G0012,,pending,,,,,,03719
+G0351,Rešetari,council,municipality or town,G0005,,pending,,,,,,03727
+G0352,Rijeka,council,municipality or town,G0010,,pending,,,,,,03735
+G0353,Rovinj - Rovigno,council,municipality or town,G0015,,pending,,,,,,03743
+G0354,Rovišće,council,municipality or town,G0002,,pending,,,,,,03751
+G0355,Rugvica,council,municipality or town,G0022,,pending,,,,,,03760
+G0356,Ružić,council,municipality or town,G0013,,pending,,,,,,03778
+G0357,Saborsko,council,municipality or town,G0008,,pending,,,,,,03786
+G0358,Sali,council,municipality or town,G0012,,pending,,,,,,03794
+G0359,Samobor,council,municipality or town,G0022,,pending,,,,,,03808
+G0360,Satnica Đakovačka,council,municipality or town,G0006,,pending,,,,,,03816
+G0361,Seget,council,municipality or town,G0014,,pending,,,,,,03824
+G0362,Selca,council,municipality or town,G0014,,pending,,,,,,03832
+G0363,Selnica,council,municipality or town,G0018,,pending,,,,,,03859
+G0364,Semeljci,council,municipality or town,G0006,,pending,,,,,,03867
+G0365,Senj,council,municipality or town,G0011,,pending,,,,,,03875
+G0366,Sibinj,council,municipality or town,G0005,,pending,,,,,,03883
+G0367,Sinj,council,municipality or town,G0014,,pending,,,,,,03891
+G0368,Sirač,council,municipality or town,G0002,,pending,,,,,,03905
+G0369,Sisak,council,municipality or town,G0009,,pending,,,,,,03913
+G0370,Skrad,council,municipality or town,G0010,,pending,,,,,,03930
+G0371,Skradin,council,municipality or town,G0013,,pending,,,,,,03948
+G0372,Slatina,council,municipality or town,G0003,,pending,,,,,,03956
+G0373,Slavonski Brod,council,municipality or town,G0005,,pending,,,,,,03964
+G0374,Slavonski Šamac,council,municipality or town,G0005,,pending,,,,,,03972
+G0375,Slivno,council,municipality or town,G0016,,pending,,,,,,03999
+G0376,Slunj,council,municipality or town,G0008,,pending,,,,,,04006
+G0377,Smokvica,council,municipality or town,G0016,,pending,,,,,,04022
+G0378,Sokolovac,council,municipality or town,G0020,,pending,,,,,,04057
+G0379,Solin,council,municipality or town,G0014,,pending,,,,,,04065
+G0380,Sopje,council,municipality or town,G0003,,pending,,,,,,04073
+G0381,Split,council,municipality or town,G0014,,pending,,,,,,04090
+G0382,Sračinec,council,municipality or town,G0019,,pending,,,,,,04103
+G0383,Stankovci,council,municipality or town,G0012,,pending,,,,,,04111
+G0384,Stara Gradiška,council,municipality or town,G0005,,pending,,,,,,04120
+G0385,Stari Grad,council,municipality or town,G0014,,pending,,,,,,04138
+G0386,Stari Jankovci,council,municipality or town,G0007,,pending,,,,,,04146
+G0387,Stari Mikanovci,council,municipality or town,G0007,,pending,,,,,,04154
+G0388,Starigrad,council,municipality or town,G0012,,pending,,,,,,04162
+G0389,Staro Petrovo Selo,council,municipality or town,G0005,,pending,,,,,,04189
+G0390,Ston,council,municipality or town,G0016,,pending,,,,,,04197
+G0391,Strizivojna,council,municipality or town,G0006,,pending,,,,,,04219
+G0392,Stubičke Toplice,council,municipality or town,G0021,,pending,,,,,,04227
+G0393,Sućuraj,council,municipality or town,G0014,,pending,,,,,,04235
+G0394,Suhopolje,council,municipality or town,G0003,,pending,,,,,,04243
+G0395,Sukošan,council,municipality or town,G0012,,pending,,,,,,04251
+G0396,Sunja,council,municipality or town,G0009,,pending,,,,,,04260
+G0397,Supetar,council,municipality or town,G0014,,pending,,,,,,04278
+G0398,Sveti Filip I Jakov,council,municipality or town,G0012,,pending,,,,,,04286
+G0399,Sveti Ivan Zelina,council,municipality or town,G0022,,pending,,,,,,04294
+G0400,Sveti Križ Začretje,council,municipality or town,G0021,,pending,,,,,,04308
+G0401,Sveti Lovreč,council,municipality or town,G0015,,pending,,,,,,04316
+G0402,Sveta Nedelja,council,municipality or town,G0015,,pending,,,,,,04324
+G0403,Sveti Petar U Šumi,council,municipality or town,G0015,,pending,,,,,,04332
+G0404,Svetvinčenat,council,municipality or town,G0015,,pending,,,,,,04359
+G0405,Sveta Nedelja,council,municipality or town,G0022,,pending,,,,,,04367
+G0406,Sveti Đurđ,council,municipality or town,G0019,,pending,,,,,,04375
+G0407,Sveti Ilija,council,municipality or town,G0019,,pending,,,,,,04383
+G0408,Sveti Ivan Žabno,council,municipality or town,G0020,,pending,,,,,,04391
+G0409,Sveti Juraj Na Bregu,council,municipality or town,G0018,,pending,,,,,,04405
+G0410,Sveti Martin Na Muri,council,municipality or town,G0018,,pending,,,,,,04413
+G0411,Sveti Petar Orehovec,council,municipality or town,G0020,,pending,,,,,,04421
+G0412,Šestanovac,council,municipality or town,G0014,,pending,,,,,,04430
+G0413,Šibenik,council,municipality or town,G0013,,pending,,,,,,04448
+G0414,Škabrnja,council,municipality or town,G0012,,pending,,,,,,04456
+G0415,Šolta,council,municipality or town,G0014,,pending,,,,,,04472
+G0416,Špišić Bukovica,council,municipality or town,G0003,,pending,,,,,,04499
+G0417,Štefanje,council,municipality or town,G0002,,pending,,,,,,04502
+G0418,Štrigova,council,municipality or town,G0018,,pending,,,,,,04529
+G0419,Tinjan,council,municipality or town,G0015,,pending,,,,,,04537
+G0420,Tisno,council,municipality or town,G0013,,pending,,,,,,04545
+G0421,Plitvička Jezera,council,municipality or town,G0011,,pending,,,,,,04553
+G0422,Tompojevci,council,municipality or town,G0007,,pending,,,,,,04561
+G0423,Topusko,council,municipality or town,G0009,,pending,,,,,,04570
+G0424,Tordinci,council,municipality or town,G0007,,pending,,,,,,04588
+G0425,Tovarnik,council,municipality or town,G0007,,pending,,,,,,04596
+G0426,Trilj,council,municipality or town,G0014,,pending,,,,,,04600
+G0427,Trnava,council,municipality or town,G0006,,pending,,,,,,04618
+G0428,Trnovec Bartolovečki,council,municipality or town,G0019,,pending,,,,,,04626
+G0429,Trogir,council,municipality or town,G0014,,pending,,,,,,04634
+G0430,Trpinja,council,municipality or town,G0007,,pending,,,,,,04642
+G0431,Tuhelj,council,municipality or town,G0021,,pending,,,,,,04669
+G0432,Udbina,council,municipality or town,G0011,,pending,,,,,,04677
+G0433,Umag - Umago,council,municipality or town,G0015,,pending,,,,,,04685
+G0434,Unešić,council,municipality or town,G0013,,pending,,,,,,04693
+G0435,Valpovo,council,municipality or town,G0006,,pending,,,,,,04715
+G0436,Varaždin,council,municipality or town,G0019,,pending,,,,,,04723
+G0437,Varaždinske Toplice,council,municipality or town,G0019,,pending,,,,,,04731
+G0438,Vela Luka,council,municipality or town,G0016,,pending,,,,,,04740
+G0439,Velika,council,municipality or town,G0004,,pending,,,,,,04758
+G0440,Velika Kopanica,council,municipality or town,G0005,,pending,,,,,,04766
+G0441,Velika Ludina,council,municipality or town,G0009,,pending,,,,,,04774
+G0442,Velika Pisanica,council,municipality or town,G0002,,pending,,,,,,04782
+G0443,Veliki Grđevac,council,municipality or town,G0002,,pending,,,,,,04804
+G0444,Veliko Trgovišće,council,municipality or town,G0021,,pending,,,,,,04812
+G0445,Veliko Trojstvo,council,municipality or town,G0002,,pending,,,,,,04839
+G0446,Vidovec,council,municipality or town,G0019,,pending,,,,,,04847
+G0447,Viljevo,council,municipality or town,G0006,,pending,,,,,,04855
+G0448,Vinica,council,municipality or town,G0019,,pending,,,,,,04863
+G0449,Vinkovci,council,municipality or town,G0007,,pending,,,,,,04871
+G0450,Vinodolska Općina,council,municipality or town,G0010,,pending,,,,,,04880
+G0451,Vir,council,municipality or town,G0012,,pending,,,,,,04898
+G0452,Virje,council,municipality or town,G0020,,pending,,,,,,04901
+G0453,Virovitica,council,municipality or town,G0003,,pending,,,,,,04910
+G0454,Vis,council,municipality or town,G0014,,pending,,,,,,04928
+G0455,Visoko,council,municipality or town,G0019,,pending,,,,,,04936
+G0456,Viškovci,council,municipality or town,G0006,,pending,,,,,,04944
+G0457,Viškovo,council,municipality or town,G0010,,pending,,,,,,04952
+G0458,Višnjan - Visignano,council,municipality or town,G0015,,pending,,,,,,04979
+G0459,Vižinada - Visinada,council,municipality or town,G0015,,pending,,,,,,04987
+G0460,Voćin,council,municipality or town,G0003,,pending,,,,,,04995
+G0461,Vodice,council,municipality or town,G0013,,pending,,,,,,05002
+G0462,Vodnjan - Dignano,council,municipality or town,G0015,,pending,,,,,,05029
+G0463,Vojnić,council,municipality or town,G0008,,pending,,,,,,05037
+G0464,Vratišinec,council,municipality or town,G0018,,pending,,,,,,05045
+G0465,Vrbanja,council,municipality or town,G0007,,pending,,,,,,05053
+G0466,Vrbje,council,municipality or town,G0005,,pending,,,,,,05061
+G0467,Vrbnik,council,municipality or town,G0010,,pending,,,,,,05070
+G0468,Vrbovec,council,municipality or town,G0022,,pending,,,,,,05088
+G0469,Vrbovsko,council,municipality or town,G0010,,pending,,,,,,05096
+G0470,Gvozd,council,municipality or town,G0009,,pending,,,,,,05100
+G0471,Vrgorac,council,municipality or town,G0014,,pending,,,,,,05118
+G0472,Vrhovine,council,municipality or town,G0011,,pending,,,,,,05126
+G0473,Vrlika,council,municipality or town,G0014,,pending,,,,,,05134
+G0474,Vrpolje,council,municipality or town,G0005,,pending,,,,,,05142
+G0475,Vrsar - Orsera,council,municipality or town,G0015,,pending,,,,,,05169
+G0476,Vuka,council,municipality or town,G0006,,pending,,,,,,05177
+G0477,Vukovar,council,municipality or town,G0007,,pending,,,,,,05185
+G0478,Zabok,council,municipality or town,G0021,,pending,,,,,,05193
+G0479,Zadar,council,municipality or town,G0012,,pending,,,,,,05207
+G0480,Zagorska Sela,council,municipality or town,G0021,,pending,,,,,,05215
+G0481,Zagvozd,council,municipality or town,G0014,,pending,,,,,,05223
+G0482,Zažablje,council,municipality or town,G0016,,pending,,,,,,05231
+G0483,Zdenci,council,municipality or town,G0003,,pending,,,,,,05240
+G0484,Zemunik Donji,council,municipality or town,G0012,,pending,,,,,,05258
+G0485,Zlatar,council,municipality or town,G0021,,pending,,,,,,05266
+G0486,Zlatar Bistrica,council,municipality or town,G0021,,pending,,,,,,05274
+G0487,Zmijavci,council,municipality or town,G0014,,pending,,,,,,05282
+G0488,Žakanje,council,municipality or town,G0008,,pending,,,,,,05304
+G0489,Žminj,council,municipality or town,G0015,,pending,,,,,,05312
+G0490,Krašić,council,municipality or town,G0022,,pending,,,,,,05339
+G0491,Županja,council,municipality or town,G0007,,pending,,,,,,05347
+G0492,Otok,council,municipality or town,G0007,,pending,,,,,,05355
+G0493,Rakovec,council,municipality or town,G0022,,pending,,,,,,05363
+G0494,Novigrad,council,municipality or town,G0012,,pending,,,,,,05371
+G0495,Kostrena,council,municipality or town,G0010,,pending,,,,,,05380
+G0496,Marija Gorica,council,municipality or town,G0022,,pending,,,,,,05398
+G0497,Žumberak,council,municipality or town,G0022,,pending,,,,,,05401
+G0498,Velika Gorica,council,municipality or town,G0022,,pending,,,,,,05410
+G0499,Orle,council,municipality or town,G0022,,pending,,,,,,05428
+G0500,Zaprešić,council,municipality or town,G0022,,pending,,,,,,05436
+G0501,Pokupsko,council,municipality or town,G0022,,pending,,,,,,05444
+G0502,Kravarsko,council,municipality or town,G0022,,pending,,,,,,05452
+G0503,Bistra,council,municipality or town,G0022,,pending,,,,,,05479
+G0504,Luka,council,municipality or town,G0022,,pending,,,,,,05487
+G0505,Dubravica,council,municipality or town,G0022,,pending,,,,,,05495
+G0506,Bedenica,council,municipality or town,G0022,,pending,,,,,,05509
+G0507,Stupnik,council,municipality or town,G0022,,pending,,,,,,05517
+G0508,Jesenje,council,municipality or town,G0021,,pending,,,,,,05525
+G0509,Kumrovec,council,municipality or town,G0021,,pending,,,,,,05533
+G0510,Novi Golubovec,council,municipality or town,G0021,,pending,,,,,,05541
+G0511,Majur,council,municipality or town,G0009,,pending,,,,,,05550
+G0512,Ribnik,council,municipality or town,G0008,,pending,,,,,,05568
+G0513,Tounj,council,municipality or town,G0008,,pending,,,,,,05576
+G0514,Veliki Bukovec,council,municipality or town,G0019,,pending,,,,,,05584
+G0515,Kalinovac,council,municipality or town,G0020,,pending,,,,,,05592
+G0516,Kalnik,council,municipality or town,G0020,,pending,,,,,,05606
+G0517,Novo Virje,council,municipality or town,G0020,,pending,,,,,,05614
+G0518,Severin,council,municipality or town,G0002,,pending,,,,,,05622
+G0519,Šandrovac,council,municipality or town,G0002,,pending,,,,,,05649
+G0520,Velika Trnovitica,council,municipality or town,G0002,,pending,,,,,,05657
+G0521,Zrinski Topolovac,council,municipality or town,G0002,,pending,,,,,,05665
+G0522,Bukovlje,council,municipality or town,G0005,,pending,,,,,,05673
+G0523,Dragalić,council,municipality or town,G0005,,pending,,,,,,05681
+G0524,Gornja Vrba,council,municipality or town,G0005,,pending,,,,,,05690
+G0525,Sikirevci,council,municipality or town,G0005,,pending,,,,,,05703
+G0526,Galovac,council,municipality or town,G0012,,pending,,,,,,05711
+G0527,Kukljica,council,municipality or town,G0012,,pending,,,,,,05720
+G0528,Povljana,council,municipality or town,G0012,,pending,,,,,,05738
+G0529,Privlaka,council,municipality or town,G0012,,pending,,,,,,05746
+G0530,Tkon,council,municipality or town,G0012,,pending,,,,,,05754
+G0531,Donja Motičina,council,municipality or town,G0006,,pending,,,,,,05762
+G0532,Magadenovac,council,municipality or town,G0006,,pending,,,,,,05789
+G0533,Vladislavci,council,municipality or town,G0006,,pending,,,,,,05797
+G0534,Pirovac,council,municipality or town,G0013,,pending,,,,,,05819
+G0535,Rogoznica,council,municipality or town,G0013,,pending,,,,,,05827
+G0536,Privlaka,council,municipality or town,G0007,,pending,,,,,,05835
+G0537,Vođinci,council,municipality or town,G0007,,pending,,,,,,05843
+G0538,Dugopolje,council,municipality or town,G0014,,pending,,,,,,05851
+G0539,Lećevica,council,municipality or town,G0014,,pending,,,,,,05860
+G0540,Lokvičići,council,municipality or town,G0014,,pending,,,,,,05878
+G0541,Okrug,council,municipality or town,G0014,,pending,,,,,,05886
+G0542,Prgomet,council,municipality or town,G0014,,pending,,,,,,05894
+G0543,Primorski Dolac,council,municipality or town,G0014,,pending,,,,,,05908
+G0544,Runovići,council,municipality or town,G0014,,pending,,,,,,05916
+G0545,Sutivan,council,municipality or town,G0014,,pending,,,,,,05924
+G0546,Tučepi,council,municipality or town,G0014,,pending,,,,,,05932
+G0547,Zadvarje,council,municipality or town,G0014,,pending,,,,,,05959
+G0548,Karojba,council,municipality or town,G0015,,pending,,,,,,05967
+G0549,Kaštelir-Labinci - Castelliere-S. Domenica,council,municipality or town,G0015,,pending,,,,,,05975
+G0550,Dubrovačko Primorje,council,municipality or town,G0016,,pending,,,,,,05983
+G0551,Janjina,council,municipality or town,G0016,,pending,,,,,,05991
+G0552,Lumbarda,council,municipality or town,G0016,,pending,,,,,,06009
+G0553,Trpanj,council,municipality or town,G0016,,pending,,,,,,06017
+G0554,Župa Dubrovačka,council,municipality or town,G0016,,pending,,,,,,06025
+G0555,Dekanovec,council,municipality or town,G0018,,pending,,,,,,06033
+G0556,Gornji Mihaljevec,council,municipality or town,G0018,,pending,,,,,,06041
+G0557,Orehovica,council,municipality or town,G0018,,pending,,,,,,06050
+G0558,Strahoninec,council,municipality or town,G0018,,pending,,,,,,06068
+G0559,Sveta Marija,council,municipality or town,G0018,,pending,,,,,,06076
+G0560,Šenkovec,council,municipality or town,G0018,,pending,,,,,,06084
+G0561,Jagodnjak,council,municipality or town,G0006,,pending,,,,,,06092
+G0562,Markušica,council,municipality or town,G0007,,pending,,,,,,06106
+G0563,Negoslavci,council,municipality or town,G0007,,pending,,,,,,06122
+G0564,Šodolovci,council,municipality or town,G0006,,pending,,,,,,06149
+G0565,Podravske Sesvete,council,municipality or town,G0020,,pending,,,,,,06165
+G0566,Murter - Kornati,council,municipality or town,G0013,,pending,,,,,,06173
+G0567,Gornja Rijeka,council,municipality or town,G0020,,pending,,,,,,06181
+G0568,Fažana - Fasana,council,municipality or town,G0015,,pending,,,,,,06190
+G0569,Pribislavec,council,municipality or town,G0018,,pending,,,,,,06203
+G0570,Bilice,council,municipality or town,G0013,,pending,,,,,,06211
+G0571,Kolan,council,municipality or town,G0012,,pending,,,,,,06220
+G0572,Kamanje,council,municipality or town,G0008,,pending,,,,,,06238
+G0573,Lopar,council,municipality or town,G0010,,pending,,,,,,06246
+G0574,Vrsi,council,municipality or town,G0012,,pending,,,,,,06254
+G0575,Tribunj,council,municipality or town,G0013,,pending,,,,,,06262
+G0576,Štitar,council,municipality or town,G0007,,pending,,,,,,06289
+G0577,Funtana - Fontane,council,municipality or town,G0015,,pending,,,,,,06297
+G0578,Tar-Vabriga - Torre-Abrega,council,municipality or town,G0015,,pending,,,,,,06319

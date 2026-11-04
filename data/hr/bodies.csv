@@ -1,0 +1,2 @@
+body_id,name,level,kind,seats,as_of,source_url,seat_view,notes
+B0001,Hrvatski sabor,national,chamber,,,https://www.sabor.hr/hr/zastupnici,,No Seats tab: no supporter in the register sits in the Sabor today and seats.py has no adapter.

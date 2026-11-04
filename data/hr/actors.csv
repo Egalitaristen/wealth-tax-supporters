@@ -1,0 +1,5 @@
+actor_id,name,kind,actor_type,other_types,role,affiliation,party,affiliation_actor_id,country,level,location,geo_unit_id,location_source,wikidata_qid,website,status,alive_checked,prominence,notes,added_run,updated,refined
+A0001,Radnička fronta,organisation,party,,,,,,HR,national,Croatia,G0001,,Q18608794,https://www.radnickafronta.hr/,active,na,national,,R001,2026-11-04,
+A0002,Katarina Peović,person,politician,,Radnička fronta coordinator; member of the Sabor 2020-2024,,Radnička fronta,,HR,national,Croatia,G0001,,Q56409787,,former_role,y,national,Not re-elected in 2024.,R001,2026-11-04,
+A0003,Hrvoje Štefan,person,economist,politician,Economist; Radnička fronta candidate in the 2024 election,,Radnička fronta,,HR,national,Croatia,G0001,,,,active,y,national,Role as given in the 6 April 2024 programme presentation and the 29 May 2023 RF press conference.,R001,2026-11-04,
+A0004,Socijaldemokratska partija Hrvatske (SDP),organisation,party,,,,,,HR,national,Croatia,G0001,,Q830323,https://www.sdp.hr/,active,na,national,,R001,2026-11-04,

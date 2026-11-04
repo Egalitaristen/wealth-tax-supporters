@@ -1,0 +1,8 @@
+{
+  "name": "Slovenia",
+  "iso2": "SI",
+  "lead": "",
+  "status": "in progress",
+  "boundaries": "boundaries.json",
+  "notes": "Seed pass, national level. Geography: 212 občine under 12 statistical regions (NUTS 3), Eurostat GISCO LAU/NUTS 2024, shapes (c) EuroGeographics, CC BY 4.0 as used for Czechia; local units not swept. Seats tab not built: Državni zbor list is a JavaScript portal with no adapter."
+}

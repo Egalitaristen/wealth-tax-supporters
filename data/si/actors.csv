@@ -1,0 +1,10 @@
+actor_id,name,kind,actor_type,other_types,role,affiliation,party,affiliation_actor_id,country,level,location,geo_unit_id,location_source,wikidata_qid,website,status,alive_checked,prominence,notes,added_run,updated,refined
+A0001,Zveza svobodnih sindikatov Slovenije (ZSSS),organisation,union,,,,,,SI,national,Slovenia,G0001,,Q2868050,https://www.zsss.si/,active,na,national,Confederation of free trade unions; position taken in its reply to the Ministry of Finance consultation.,R001,2026-11-04,
+A0002,Lidija Jerkič,person,union_official,,"President, ZSSS",ZSSS,,,SI,national,Slovenia,G0001,,Q12794856,,active,y,national,Signed the ZSSS letter as president.,R001,2026-11-04,
+A0003,Socialni demokrati (SD),organisation,party,,,,,,SI,national,Slovenia,G0001,,,https://socialnidemokrati.si/,active,na,national,,R001,2026-11-04,
+A0004,Matjaž Nemec,person,politician,,Member of the European Parliament; SD lead candidate in the 2024 European election,,Social Democrats,,SI,supranational,Slovenia,G0001,,Q27929326,,active,y,national,Role as stated in the 27 May 2024 article.,R001,2026-11-04,
+A0005,Vesna – Zelena stranka,organisation,party,,,,,,SI,national,Slovenia,G0001,,,https://www.vesna.si/,active,na,national,,R001,2026-11-04,
+A0006,Greenpeace Slovenija,organisation,ngo_campaign,,,,,,SI,national,Slovenia,G0001,,,https://www.greenpeace.org/slovenia/,active,na,national,,R001,2026-11-04,
+A0007,Piratska stranka Slovenije,organisation,party,,,,,,SI,national,Slovenia,G0001,,Q5314301,https://piratskastranka.si/,active,na,national,,R001,2026-11-04,
+A0008,Miha Kordiš,person,politician,,"Former member of the National Assembly (to 2026); leader of Mi, socialisti",,"Mi, socialisti",,SI,national,Slovenia,G0001,,Q23001530,,former_role,y,national,"Elected on the Levica list in 2022, left the party in 2025 and founded Mi, socialisti; not re-elected in 2026.",R001,2026-11-04,
+A0009,Robert Golob,person,politician,,Prime Minister of Slovenia 2022-2026; Freedom Movement leader,,Freedom Movement,,SI,national,Slovenia,G0001,,Q18645045,,active,y,national,In September 2024 he said a wealth tax would not be introduced in that term.,R001,2026-11-04,
