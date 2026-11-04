@@ -14,6 +14,9 @@ althingi.is answers scripts with 403, so bills, votes and speeches were read thr
 ## Seats
 Alþingi has an official member list, but no supporter sits in it today (the Socialist Party and the Left-Greens won no seats in 2024), so no body or Seats tab was added.
 
+## R002 (4 November 2026)
+Wayback copy of the Alþingi speech of 19 December 2013 gave Steingrímur J. Sigfússon (Left-Green), who moved to extend the tax: A. The 2013-14 vote record, Samfylkingin and Píratar programmes, Efling, BSRB, VR and the press (Heimildin, Vísir, mbl.is, RÚV) were searched: no further own-voice statement and no poll on a wealth tax was found. Indriði H. Þorláksson's Heimildin essays describe the tax but do not recommend it (excluded for now).
+
 ## Next runs
 1. Open the 2013-14 extension votes and speeches in a browser (harvest H0001).
 2. Samfylkingin, Píratar and BSRB programmes; Efling's 2019 report.

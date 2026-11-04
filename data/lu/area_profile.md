@@ -12,6 +12,9 @@ The deposit document of motion 4406 is a scanned image, read by OCR; the quote r
 ## Seats
 The Chamber (chd.lu) publishes its members, but `skill/scripts/seats.py` has no Luxembourg adapter and was out of scope for this pass, so `seat_view` is blank. Sam Tanson has a position row without `current`.
 
+## R002 (4 November 2026)
+The Chamber's own letter of 5 November 2024 (a text PDF, so checkable) shows Sam Tanson, as president of the déi gréng group, requesting a topical debate on the billionaire tax: A for her and for déi gréng. Tilly Metz, then a Green MEP, supports the Greens/EFA EU wealth tax with rates in a Paperjam interview of 18 December 2023. The nominal vote on motion 4406, OGBL/LCGB, the CSL, STATEC and University of Luxembourg economists and a Luxembourg poll were searched without a result; the CSL calls for taxing capital and wealth more but no explicit wealth tax was opened. Finance minister Gilles Roth said in October 2024 the government will not reintroduce it (reported by Les Frontaliers, which blocks scripts).
+
 ## Next runs
 1. Per-member votes on motion 4406 and the plenary debate (session 43).
 2. The three 2023 programmes at the parties; the LSAP programme and vote.
