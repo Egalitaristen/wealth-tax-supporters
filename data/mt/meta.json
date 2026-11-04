@@ -4,5 +4,18 @@
   "lead": "",
   "status": "in progress",
   "boundaries": "boundaries.json",
-  "notes": "R001 (2026-11-04): first pass, 3 actors (ADPD, Ralph Cassar, Sandra Gauci). Malta has no wealth tax and neither big party backs one; the Maltese yield is small. Geography: 68 local councils (ISO 3166-2:MT codes) under the country root; no region tier is loaded. Map: geoBoundaries gbOpen MLT ADM1 (d-maps.com, 2022, public domain), codes ISO 3166-2:MT; no region outlines because no open region shapes with official codes were found. Local councils not swept. No Seats tab: no supporter sits in the House of Representatives (ADPD holds no seat)."
+  "notes": "R001 (2026-11-04): first pass, 3 actors (ADPD, Ralph Cassar, Sandra Gauci). Malta has no wealth tax and neither big party backs one; the Maltese yield is small. Geography: 68 local councils (ISO 3166-2:MT codes) under the country root; no region tier is loaded. Map: geoBoundaries gbOpen MLT ADM1 (d-maps.com, 2022, public domain), codes ISO 3166-2:MT; no region outlines because no open region shapes with official codes were found. Local councils not swept. No Seats tab: no supporter sits in the House of Representatives (ADPD holds no seat).",
+  "polls": [
+    {
+      "support": 67,
+      "scope": "Malta, 500 residents, as reported by Newsbook",
+      "question": "Support for introducing a wealth tax targeting the richest members of society (Eurobarometer survey, April 2025)",
+      "pollster": "Eurobarometer (European Commission)",
+      "commissioned_by": "European Commission",
+      "fieldwork": "April 2025",
+      "sample": "500 residents",
+      "published": "2025-08-10",
+      "url": "https://newsbook.com.mt/en/majority-in-malta-say-wage-taxes-too-high-back-wealth-tax-on-richest/"
+    }
+  ]
 }
