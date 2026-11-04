@@ -1,1 +1,10 @@
 seat_id,body_id,party,seats,colour,order
+S0001,B0001,Democratic Progressive Party,78,1b6ec2,1
+S0002,B0001,Independent,73,8a8680,2
+S0003,B0001,Malawi Congress Party,52,c8102e,3
+S0004,B0001,UTM,8,1a7f3c,4
+S0005,B0001,United Democratic Front,4,f5a800,5
+S0006,B0001,AFORD,3,7a5ab3,6
+S0007,B0001,People's Party,3,e07b39,7
+S0008,B0001,"Other parties (FP, NDP, PDP, one each)",3,b0aca4,8
+S0009,B0001,Vacant,5,dddddd,9

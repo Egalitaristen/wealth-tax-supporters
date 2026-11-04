@@ -1,1 +1,4 @@
 seat_id,body_id,party,seats,colour,order
+S0001,B0001,NDC,185,1a7f3c,1
+S0002,B0001,Independent,4,8a8680,2
+S0003,B0001,NPP,87,2d6fb5,3

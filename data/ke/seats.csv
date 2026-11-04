@@ -1,1 +1,23 @@
 seat_id,body_id,party,seats,colour,order
+S0001,B0002,United Democratic Alliance,144,f5a800,1
+S0002,B0002,Orange Democratic Movement,85,f58220,2
+S0003,B0002,Jubilee Party,26,c8102e,3
+S0004,B0002,Wiper Democratic Movement,25,2d6fb5,4
+S0005,B0002,Independent,12,8a8680,5
+S0006,B0002,United Democratic Movement,7,1a7f3c,6
+S0007,B0002,FORD-Kenya,6,8a6d3b,7
+S0008,B0002,KANU,6,3a3a3a,8
+S0009,B0002,Democratic Action Party-Kenya,5,7a5ab3,9
+S0010,B0002,Amani National Congress,5,e07b39,10
+S0011,B0002,Pamoja African Alliance,3,2a9d8f,11
+S0012,B0002,Kenya Union Party,3,6b8e23,12
+S0013,B0002,Other parties (one or two seats each),12,b0aca4,13
+S0014,B0002,Not listed by the tracker,10,dddddd,14
+S0015,B0003,United Democratic Alliance,32,f5a800,1
+S0016,B0003,Orange Democratic Movement,20,f58220,2
+S0017,B0003,Jubilee Party,5,c8102e,3
+S0018,B0003,Wiper Democratic Movement,4,2d6fb5,4
+S0019,B0003,United Democratic Movement,3,1a7f3c,5
+S0020,B0003,FORD-Kenya,1,8a6d3b,6
+S0021,B0003,Democratic Party,1,888888,7
+S0022,B0003,National Reconstruction Alliance,1,b0aca4,8
