@@ -21,7 +21,7 @@ B0025,Warwick District Council,local,council,,,,,
 B0026,Mid Suffolk District Council,local,council,,,,,
 B0027,Maidstone Borough Council,local,council,,,,,
 B0028,Lewes District Council,local,council,,,,,
-B0001,House of Commons,national,chamber,650,2026-10-25,https://members.parliament.uk/members/commons,y,
-B0002,House of Lords,national,chamber,816,2026-10-25,https://members.parliament.uk/members/lords,y,
 B0029,Southwark Council,local,council,,2026-10-25,https://moderngov.southwark.gov.uk/mgUserInfo.aspx?UID=50003423,,
-B0003,Scottish Parliament,regional,chamber,129,2026-10-25,https://data.parliament.scot/api/members,y,"129 seats: 73 constituency and 56 regional members, elected on 7 May 2026. Who sits and each member's party are from the Parliament's open data."
+B0001,House of Commons,national,chamber,650,2026-11-04,https://members.parliament.uk/members/commons,y,
+B0002,House of Lords,national,chamber,815,2026-11-04,https://members.parliament.uk/members/lords,y,
+B0003,Scottish Parliament,regional,chamber,129,2026-11-04,https://data.parliament.scot/api/members,y,"129 seats: 73 constituency and 56 regional members, elected on 7 May 2026. Who sits and each member's party are from the Parliament's open data."
