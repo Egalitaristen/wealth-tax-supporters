@@ -1,1 +1,8 @@
 seat_id,body_id,party,seats,colour,order
+S0001,B0001,Social Democratic Alliance,15,e4002b,1
+S0002,B0001,Independence Party,14,0066b3,2
+S0003,B0001,Liberal Reform Party (Viðreisn),10,f58220,3
+S0004,B0001,People's Party,9,f2c200,4
+S0005,B0001,Centre Party,8,00a3a3,5
+S0006,B0001,Progressive Party,5,00a651,6
+S0007,B0001,Non-attached,2,8a8680,7

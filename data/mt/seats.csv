@@ -1,1 +1,3 @@
 seat_id,body_id,party,seats,colour,order
+S0001,B0001,Labour Party,42,e4002b,1
+S0002,B0001,Nationalist Party,37,1a3a8c,2

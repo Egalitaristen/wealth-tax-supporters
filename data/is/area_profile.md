@@ -12,7 +12,7 @@ Supporters found: the Socialist Party (2021 manifesto, 2% above ISK 200m), the L
 althingi.is answers scripts with 403, so bills, votes and speeches were read through Wayback copies or not at all; the 2013-14 votes on extending the tax, inside the 2010+ window, are queued as a harvest. The Heimildin article cited for the Socialist Party's rate fails `checkquotes` only because the page text contains soft hyphens (U+00AD); the quote was checked by eye. Search terms: auðlegðarskattur, eignarskattur, stóreignaskattur. Samfylkingin, Píratar, Flokkur fólksins, BSRB and the economists (Stefán Ólafsson, Indriði Þorláksson) were searched but no statement of their own was opened: that is not evidence of opposition.
 
 ## Seats
-Alþingi has an official member list, but no supporter sits in it today (the Socialist Party and the Left-Greens won no seats in 2024), so no body or Seats tab was added.
+Alþingi has an official member list, but no supporter sits in it today (the Socialist Party and the Left-Greens won no seats in 2024), so the Seats tab is unlit (63 seats by group from the Alþingi open XML, 4 Nov 2026).
 
 ## R002 (4 November 2026)
 Wayback copy of the Alþingi speech of 19 December 2013 gave Steingrímur J. Sigfússon (Left-Green), who moved to extend the tax: A. The 2013-14 vote record, Samfylkingin and Píratar programmes, Efling, BSRB, VR and the press (Heimildin, Vísir, mbl.is, RÚV) were searched: no further own-voice statement and no poll on a wealth tax was found. Indriði H. Þorláksson's Heimildin essays describe the tax but do not recommend it (excluded for now).

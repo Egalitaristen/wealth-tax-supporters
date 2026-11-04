@@ -1,1 +1,7 @@
 seat_id,body_id,party,seats,colour,order
+S0001,B0001,DISY,17,0057a8,1
+S0002,B0001,AKEL,15,e4002b,2
+S0003,B0001,ELAM,8,5a4a2f,3
+S0004,B0001,DIKO,8,f58220,4
+S0005,B0001,ALMA,4,00a3a3,5
+S0006,B0001,Direct Democracy,4,8a4fbf,6

@@ -10,7 +10,7 @@ Luxembourg abolished the personal impôt sur la fortune with effect from 2006; t
 The deposit document of motion 4406 is a scanned image, read by OCR; the quote recorded is the motion's title on the Chamber page. The motion page prints no per-member votes (harvest H0001). No union (OGBL, LCGB) or economist statement was found in a short search. The déi gréng and déi Lénk 2023 rows come from the Tageblatt comparison, not from the party programmes: read those next. Search terms: impôt sur la fortune, Vermögenssteuer, taxe sur les milliardaires.
 
 ## Seats
-The Chamber (chd.lu) publishes its members, but `skill/scripts/seats.py` has no Luxembourg adapter and was out of scope for this pass, so `seat_view` is blank. Sam Tanson has a position row without `current`.
+The Chamber (chd.lu) publishes its members; the Seats tab was filled by hand from chd.lu/en/deputies on 2026-11-04 (no `seats.py` adapter yet). Sam Tanson's position is checked and lit.
 
 ## R002 (4 November 2026)
 The Chamber's own letter of 5 November 2024 (a text PDF, so checkable) shows Sam Tanson, as president of the déi gréng group, requesting a topical debate on the billionaire tax: A for her and for déi gréng. Tilly Metz, then a Green MEP, supports the Greens/EFA EU wealth tax with rates in a Paperjam interview of 18 December 2023. The nominal vote on motion 4406, OGBL/LCGB, the CSL, STATEC and University of Luxembourg economists and a Luxembourg poll were searched without a result; the CSL calls for taxing capital and wealth more but no explicit wealth tax was opened. Finance minister Gilles Roth said in October 2024 the government will not reintroduce it (reported by Les Frontaliers, which blocks scripts).

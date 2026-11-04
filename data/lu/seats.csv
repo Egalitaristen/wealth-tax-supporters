@@ -1,1 +1,8 @@
 seat_id,body_id,party,seats,colour,order
+S0001,B0001,CSV,21,e8731c,1
+S0002,B0001,DP,14,0b6fb8,2
+S0003,B0001,LSAP,12,e10600,3
+S0004,B0001,ADR,5,1a4fa0,4
+S0005,B0001,déi gréng,4,7ab51d,5
+S0006,B0001,Piraten,2,4c2f7f,6
+S0007,B0001,déi Lénk,2,b5121b,7
