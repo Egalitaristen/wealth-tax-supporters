@@ -4,5 +4,5 @@
   "lead": "",
   "status": "in progress",
   "boundaries": "boundaries.json",
-  "notes": "Seed pass: national supporters; 8 regions (landsvæði) and 61 municipalities registered, none swept. Municipality list from Statistics Iceland (division of 1 Jan 2026, with the merger of Borgarbyggð and Skorradalshreppur as code 3609 from its 2026 quarterly table); map from the National Land Survey of Iceland IS 50V (24 Sep 2026), CC BY 4.0; regions are the first digit of the municipality number (ISO 3166-2:IS-1 to IS-8). Seats tab not built: no Alþingi member of a supporting party was found (the Socialist Party and the Left-Greens hold no seats since 2024)."
+  "notes": "Seed pass: national supporters; 8 regions (landsvæði) and 61 municipalities registered, none swept. Municipality list from Statistics Iceland (division of 1 Jan 2026, with the merger of Borgarbyggð and Skorradalshreppur as code 3609 from its 2026 quarterly table); map from the National Land Survey of Iceland IS 50V (24 Sep 2026), CC BY 4.0; regions are the first digit of the municipality number (ISO 3166-2:IS-1 to IS-8). Seats tab built from the Alþingi open XML (63 seats, 4 Nov 2026) and unlit: the Socialist Party and the Left-Greens hold no seats since 2024."
 }

@@ -4,5 +4,5 @@
   "lead": "",
   "status": "in progress",
   "boundaries": "boundaries.json",
-  "notes": "Seed pass: national supporters; 12 cantons and 100 communes registered, none swept. Map: ACT Limites administratives (communes, updated 2026-10-05), CC0, LAU2 commune codes; cantons are the regions (LAU1 codes with LU- prefix). Seats tab not built: the Chamber of Deputies publishes a member list but seats.py has no Luxembourg adapter and that file was out of scope. The corporate net wealth tax is excluded (companies only)."
+  "notes": "Seed pass: national supporters; 12 cantons and 100 communes registered, none swept. Map: ACT Limites administratives (communes, updated 2026-10-05), CC0, LAU2 commune codes; cantons are the regions (LAU1 codes with LU- prefix). Seats tab built by hand from the Chamber's member list at chd.lu (no seats.py adapter yet); Sam Tanson lit. The corporate net wealth tax is excluded (companies only)."
 }

@@ -1,2 +1,2 @@
 body_id,name,level,kind,seats,as_of,source_url,seat_view,notes
-B0001,Chambre des Députés,national,chamber,,,https://www.chd.lu/en/deputies,,"Seat chart not enabled: the Chamber publishes a member list, but no Luxembourg adapter exists in seats.py yet."
+B0001,Chambre des Députés,national,chamber,60,2026-11-04,https://www.chd.lu/en/deputies,y,"60 seats; group and sensibility counts from the Chamber's own list of deputies (chd.lu/en/deputies), read 2026-11-04: CSV 21, DP 14, LSAP 12, ADR 5, déi gréng 4, Piraten 2, déi Lénk 2. Election of 8 October 2023. Sam Tanson (déi gréng) is the only supporter in the register who sits."
