@@ -1,0 +1,11 @@
+query_id,run_id,date,language,query,channel,results_opened,leads_added,note
+Q0001,R001,2026-11-04,en,wealth tax Lithuania billionaires Seimas Social Democrats Nemuno aušra,web,,,"No net-wealth-tax proposal found; results are real-estate, inheritance and progressive-income-tax debates."
+Q0002,R001,2026-11-04,lt,turtingųjų mokestis Seimas socialdemokratai turto mokestis milijardieriai,web,,,"No net-wealth-tax proposal found; results are real-estate, inheritance and progressive-income-tax debates."
+Q0003,R001,2026-11-04,lt,"""turto mokestį"" milijonieriams OR turtuoliams siūlo partija",web,,,"No net-wealth-tax proposal found; results are real-estate, inheritance and progressive-income-tax debates."
+Q0004,R001,2026-11-04,lt,profsąjunga Solidarumas LPSK turto mokestis milijonierių mokestis,web,,,"No net-wealth-tax proposal found; results are real-estate, inheritance and progressive-income-tax debates."
+Q0005,R001,2026-11-04,lt,Romas Lazutka turto mokestis grynojo turto,web,,,"No net-wealth-tax proposal found; results are real-estate, inheritance and progressive-income-tax debates."
+Q0006,R001,2026-11-04,lt,apklausa pritaria turtingųjų apmokestinimui turto mokestis,web (poll),,,"No net-wealth-tax proposal found; results are real-estate, inheritance and progressive-income-tax debates."
+Q0007,R002,2026-11-04,lt,Blinkevičiūtė mokesčiai turtingiesiems milijardieriai Europos Parlamentas,web,,,"Round 2: no new supporter; results are income-tax, property-tax or student-thesis material."
+Q0008,R002,2026-11-04,lt,Lietuvos žaliųjų partija rinkimų programa 2024 mokesčiai turto prabangos,web,,,"Round 2: no new supporter; results are income-tax, property-tax or student-thesis material."
+Q0009,R002,2026-11-04,lt,ekonomistas siūlo turto mokestį grynojo turto Lietuvos bankas ISM VU,web,,,"Round 2: no new supporter; results are income-tax, property-tax or student-thesis material."
+Q0010,R002,2026-11-04,lt,LSDP mokesčių reforma 2024 Blinkevičiūtė prabangaus turto mokestis,web,,,"Round 2: no new supporter; results are income-tax, property-tax or student-thesis material."

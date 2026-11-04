@@ -1,0 +1,75 @@
+geo_unit_id,name,level,unit_type,parent_id,website,sweep_status,swept_run,swept_date,queries_run,hits,notes,code
+G0001,Lithuania,national,country,,,in_progress,,,,,Lietuva,LT
+G0002,Seimas,national,legislature,G0001,https://www.lrs.lt,pending,,,,,Seimas of the Republic of Lithuania (141 seats),
+G0003,Lietuvos Respublikos Vyriausybė,national,executive,G0001,https://lrv.lt,pending,,,,,Government,
+G0004,European Parliament (Lithuania),supranational,legislature,G0001,https://www.europarl.europa.eu,pending,,,,,Lithuanian MEPs (11 seats),
+G0005,Alytaus apskritis,region,apskritis,G0001,,pending,,,,,"County (apskritis), ISO 3166-2 LT-AL",LT-AL
+G0006,Klaipėdos apskritis,region,apskritis,G0001,,pending,,,,,"County (apskritis), ISO 3166-2 LT-KL",LT-KL
+G0007,Kauno apskritis,region,apskritis,G0001,,pending,,,,,"County (apskritis), ISO 3166-2 LT-KU",LT-KU
+G0008,Marijampolės apskritis,region,apskritis,G0001,,pending,,,,,"County (apskritis), ISO 3166-2 LT-MR",LT-MR
+G0009,Panevėžio apskritis,region,apskritis,G0001,,pending,,,,,"County (apskritis), ISO 3166-2 LT-PN",LT-PN
+G0010,Šiaulių apskritis,region,apskritis,G0001,,pending,,,,,"County (apskritis), ISO 3166-2 LT-SA",LT-SA
+G0011,Tauragės apskritis,region,apskritis,G0001,,pending,,,,,"County (apskritis), ISO 3166-2 LT-TA",LT-TA
+G0012,Telšių apskritis,region,apskritis,G0001,,pending,,,,,"County (apskritis), ISO 3166-2 LT-TE",LT-TE
+G0013,Utenos apskritis,region,apskritis,G0001,,pending,,,,,"County (apskritis), ISO 3166-2 LT-UT",LT-UT
+G0014,Vilniaus apskritis,region,apskritis,G0001,,pending,,,,,"County (apskritis), ISO 3166-2 LT-VL",LT-VL
+G0015,Alytaus miesto savivaldybė,council,savivaldybė,G0005,,pending,,,,,,11
+G0016,Alytaus rajono savivaldybė,council,savivaldybė,G0005,,pending,,,,,,33
+G0017,Druskininkų savivaldybė,council,savivaldybė,G0005,,pending,,,,,,15
+G0018,Lazdijų rajono savivaldybė,council,savivaldybė,G0005,,pending,,,,,,59
+G0019,Varėnos rajono savivaldybė,council,savivaldybė,G0005,,pending,,,,,,38
+G0020,Klaipėdos miesto savivaldybė,council,savivaldybė,G0006,,pending,,,,,,21
+G0021,Klaipėdos rajono savivaldybė,council,savivaldybė,G0006,,pending,,,,,,55
+G0022,Kretingos rajono savivaldybė,council,savivaldybė,G0006,,pending,,,,,,56
+G0023,Neringos savivaldybė,council,savivaldybė,G0006,,pending,,,,,,23
+G0024,Palangos miesto savivaldybė,council,savivaldybė,G0006,,pending,,,,,,25
+G0025,Skuodo rajono savivaldybė,council,savivaldybė,G0006,,pending,,,,,,75
+G0026,Šilutės rajono savivaldybė,council,savivaldybė,G0006,,pending,,,,,,88
+G0027,Birštono savivaldybė,council,savivaldybė,G0007,,pending,,,,,,12
+G0028,Jonavos rajono savivaldybė,council,savivaldybė,G0007,,pending,,,,,,46
+G0029,Kaišiadorių rajono savivaldybė,council,savivaldybė,G0007,,pending,,,,,,49
+G0030,Kauno miesto savivaldybė,council,savivaldybė,G0007,,pending,,,,,,19
+G0031,Kauno rajono savivaldybė,council,savivaldybė,G0007,,pending,,,,,,52
+G0032,Kėdainių rajono savivaldybė,council,savivaldybė,G0007,,pending,,,,,,53
+G0033,Prienų rajono savivaldybė,council,savivaldybė,G0007,,pending,,,,,,69
+G0034,Raseinių rajono savivaldybė,council,savivaldybė,G0007,,pending,,,,,,72
+G0035,Kalvarijos savivaldybė,council,savivaldybė,G0008,,pending,,,,,,48
+G0036,Kazlų Rūdos savivaldybė,council,savivaldybė,G0008,,pending,,,,,,58
+G0037,Marijampolės savivaldybė,council,savivaldybė,G0008,,pending,,,,,,18
+G0038,Vilkaviškio rajono savivaldybė,council,savivaldybė,G0008,,pending,,,,,,39
+G0039,Šakių rajono savivaldybė,council,savivaldybė,G0008,,pending,,,,,,84
+G0040,Biržų rajono savivaldybė,council,savivaldybė,G0009,,pending,,,,,,36
+G0041,Kupiškio rajono savivaldybė,council,savivaldybė,G0009,,pending,,,,,,57
+G0042,Panevėžio miesto savivaldybė,council,savivaldybė,G0009,,pending,,,,,,27
+G0043,Panevėžio rajono savivaldybė,council,savivaldybė,G0009,,pending,,,,,,66
+G0044,Pasvalio rajono savivaldybė,council,savivaldybė,G0009,,pending,,,,,,67
+G0045,Rokiškio rajono savivaldybė,council,savivaldybė,G0009,,pending,,,,,,73
+G0046,Akmenės rajono savivaldybė,council,savivaldybė,G0010,,pending,,,,,,32
+G0047,Joniškio rajono savivaldybė,council,savivaldybė,G0010,,pending,,,,,,47
+G0048,Kelmės rajono savivaldybė,council,savivaldybė,G0010,,pending,,,,,,54
+G0049,Pakruojo rajono savivaldybė,council,savivaldybė,G0010,,pending,,,,,,65
+G0050,Radviliškio rajono savivaldybė,council,savivaldybė,G0010,,pending,,,,,,71
+G0051,Šiaulių miesto savivaldybė,council,savivaldybė,G0010,,pending,,,,,,29
+G0052,Šiaulių rajono savivaldybė,council,savivaldybė,G0010,,pending,,,,,,91
+G0053,Jurbarko rajono savivaldybė,council,savivaldybė,G0011,,pending,,,,,,94
+G0054,Pagėgių savivaldybė,council,savivaldybė,G0011,,pending,,,,,,63
+G0055,Tauragės rajono savivaldybė,council,savivaldybė,G0011,,pending,,,,,,77
+G0056,Šilalės rajono savivaldybė,council,savivaldybė,G0011,,pending,,,,,,87
+G0057,Mažeikių rajono savivaldybė,council,savivaldybė,G0012,,pending,,,,,,61
+G0058,Plungės rajono savivaldybė,council,savivaldybė,G0012,,pending,,,,,,68
+G0059,Rietavo savivaldybė,council,savivaldybė,G0012,,pending,,,,,,74
+G0060,Telšių rajono savivaldybė,council,savivaldybė,G0012,,pending,,,,,,78
+G0061,Anykščių rajono savivaldybė,council,savivaldybė,G0013,,pending,,,,,,34
+G0062,Ignalinos rajono savivaldybė,council,savivaldybė,G0013,,pending,,,,,,45
+G0063,Molėtų rajono savivaldybė,council,savivaldybė,G0013,,pending,,,,,,62
+G0064,Utenos rajono savivaldybė,council,savivaldybė,G0013,,pending,,,,,,82
+G0065,Visagino savivaldybė,council,savivaldybė,G0013,,pending,,,,,,30
+G0066,Zarasų rajono savivaldybė,council,savivaldybė,G0013,,pending,,,,,,43
+G0067,Elektrėnų savivaldybė,council,savivaldybė,G0014,,pending,,,,,,42
+G0068,Trakų rajono savivaldybė,council,savivaldybė,G0014,,pending,,,,,,79
+G0069,Ukmergės rajono savivaldybė,council,savivaldybė,G0014,,pending,,,,,,81
+G0070,Vilniaus miesto savivaldybė,council,savivaldybė,G0014,,pending,,,,,,13
+G0071,Vilniaus rajono savivaldybė,council,savivaldybė,G0014,,pending,,,,,,41
+G0072,Šalčininkų rajono savivaldybė,council,savivaldybė,G0014,,pending,,,,,,85
+G0073,Širvintų rajono savivaldybė,council,savivaldybė,G0014,,pending,,,,,,89
+G0074,Švenčionių rajono savivaldybė,council,savivaldybė,G0014,,pending,,,,,,86

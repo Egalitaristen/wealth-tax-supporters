@@ -1,0 +1,89 @@
+geo_unit_id,name,level,unit_type,parent_id,website,sweep_status,swept_run,swept_date,queries_run,hits,notes,code
+G0001,Estonia,national,country,,,in_progress,,,,,Eesti,EE
+G0002,Riigikogu,national,legislature,G0001,https://www.riigikogu.ee,pending,,,,,"Riigikogu, parliament of Estonia (101 seats)",
+G0003,Vabariigi Valitsus,national,executive,G0001,https://valitsus.ee,pending,,,,,Government,
+G0004,European Parliament (Estonia),supranational,legislature,G0001,https://www.europarl.europa.eu,pending,,,,,Estonian MEPs (7 seats),
+G0005,Põhja-Eesti,region,NUTS 3 piirkond,G0001,,pending,,,,,NUTS 3 EE001,EE001
+G0006,Lääne-Eesti,region,NUTS 3 piirkond,G0001,,pending,,,,,NUTS 3 EE004,EE004
+G0007,Lõuna-Eesti,region,NUTS 3 piirkond,G0001,,pending,,,,,NUTS 3 EE008,EE008
+G0008,Kesk-Eesti,region,NUTS 3 piirkond,G0001,,pending,,,,,NUTS 3 EE009,EE009
+G0009,Kirde-Eesti,region,NUTS 3 piirkond,G0001,,pending,,,,,NUTS 3 EE00A,EE00A
+G0010,Anija vald,council,vald / linn,G0005,,pending,,,,,,0141
+G0011,Harku vald,council,vald / linn,G0005,,pending,,,,,,0198
+G0012,Jõelähtme vald,council,vald / linn,G0005,,pending,,,,,,0245
+G0013,Keila linn,council,vald / linn,G0005,,pending,,,,,,0296
+G0014,Kiili vald,council,vald / linn,G0005,,pending,,,,,,0305
+G0015,Kose vald,council,vald / linn,G0005,,pending,,,,,,0338
+G0016,Kuusalu vald,council,vald / linn,G0005,,pending,,,,,,0353
+G0017,Loksa linn,council,vald / linn,G0005,,pending,,,,,,0424
+G0018,Lääne-Harju vald,council,vald / linn,G0005,,pending,,,,,,0431
+G0019,Maardu linn,council,vald / linn,G0005,,pending,,,,,,0446
+G0020,Raasiku vald,council,vald / linn,G0005,,pending,,,,,,0651
+G0021,Rae vald,council,vald / linn,G0005,,pending,,,,,,0653
+G0022,Saku vald,council,vald / linn,G0005,,pending,,,,,,0719
+G0023,Saue vald,council,vald / linn,G0005,,pending,,,,,,0725
+G0024,Tallinn,council,vald / linn,G0005,,pending,,,,,,0784
+G0025,Viimsi vald,council,vald / linn,G0005,,pending,,,,,,0890
+G0026,Haapsalu linn,council,vald / linn,G0006,,pending,,,,,,0184
+G0027,Hiiumaa vald,council,vald / linn,G0006,,pending,,,,,,0205
+G0028,Häädemeeste vald,council,vald / linn,G0006,,pending,,,,,,0214
+G0029,Kihnu vald,council,vald / linn,G0006,,pending,,,,,,0303
+G0030,Lääne-Nigula vald,council,vald / linn,G0006,,pending,,,,,,0441
+G0031,Lääneranna vald,council,vald / linn,G0006,,pending,,,,,,0430
+G0032,Muhu vald,council,vald / linn,G0006,,pending,,,,,,0478
+G0033,Pärnu linn,council,vald / linn,G0006,,pending,,,,,,0624
+G0034,Põhja-Pärnumaa vald,council,vald / linn,G0006,,pending,,,,,,0638
+G0035,Ruhnu vald,council,vald / linn,G0006,,pending,,,,,,0689
+G0036,Saarde vald,council,vald / linn,G0006,,pending,,,,,,0712
+G0037,Saaremaa vald,council,vald / linn,G0006,,pending,,,,,,0714
+G0038,Tori vald,council,vald / linn,G0006,,pending,,,,,,0809
+G0039,Vormsi vald,council,vald / linn,G0006,,pending,,,,,,0907
+G0040,Antsla vald,council,vald / linn,G0007,,pending,,,,,,0145
+G0041,Elva vald,council,vald / linn,G0007,,pending,,,,,,0171
+G0042,Jõgeva vald,council,vald / linn,G0007,,pending,,,,,,0247
+G0043,Kambja vald,council,vald / linn,G0007,,pending,,,,,,0283
+G0044,Kanepi vald,council,vald / linn,G0007,,pending,,,,,,0284
+G0045,Kastre vald,council,vald / linn,G0007,,pending,,,,,,0291
+G0046,Luunja vald,council,vald / linn,G0007,,pending,,,,,,0432
+G0047,Mulgi vald,council,vald / linn,G0007,,pending,,,,,,0480
+G0048,Mustvee vald,council,vald / linn,G0007,,pending,,,,,,0486
+G0049,Nõo vald,council,vald / linn,G0007,,pending,,,,,,0528
+G0050,Otepää vald,council,vald / linn,G0007,,pending,,,,,,0557
+G0051,Peipsiääre vald,council,vald / linn,G0007,,pending,,,,,,0586
+G0052,Põhja-Sakala vald,council,vald / linn,G0007,,pending,,,,,,0615
+G0053,Põltsamaa vald,council,vald / linn,G0007,,pending,,,,,,0618
+G0054,Põlva vald,council,vald / linn,G0007,,pending,,,,,,0622
+G0055,Räpina vald,council,vald / linn,G0007,,pending,,,,,,0708
+G0056,Rõuge vald,council,vald / linn,G0007,,pending,,,,,,0698
+G0057,Setomaa vald,council,vald / linn,G0007,,pending,,,,,,0732
+G0058,Tartu linn,council,vald / linn,G0007,,pending,,,,,,0793
+G0059,Tartu vald,council,vald / linn,G0007,,pending,,,,,,0796
+G0060,Tõrva vald,council,vald / linn,G0007,,pending,,,,,,0824
+G0061,Valga vald,council,vald / linn,G0007,,pending,,,,,,0857
+G0062,Viljandi linn,council,vald / linn,G0007,,pending,,,,,,0897
+G0063,Viljandi vald,council,vald / linn,G0007,,pending,,,,,,0899
+G0064,Võru linn,council,vald / linn,G0007,,pending,,,,,,0919
+G0065,Võru vald,council,vald / linn,G0007,,pending,,,,,,0917
+G0066,Haljala vald,council,vald / linn,G0008,,pending,,,,,,0191
+G0067,Järva vald,council,vald / linn,G0008,,pending,,,,,,0255
+G0068,Kadrina vald,council,vald / linn,G0008,,pending,,,,,,0272
+G0069,Kehtna vald,council,vald / linn,G0008,,pending,,,,,,0293
+G0070,Kohila vald,council,vald / linn,G0008,,pending,,,,,,0317
+G0071,Märjamaa vald,council,vald / linn,G0008,,pending,,,,,,0502
+G0072,Paide linn,council,vald / linn,G0008,,pending,,,,,,0567
+G0073,Rakvere linn,council,vald / linn,G0008,,pending,,,,,,0663
+G0074,Rakvere vald,council,vald / linn,G0008,,pending,,,,,,0661
+G0075,Rapla vald,council,vald / linn,G0008,,pending,,,,,,0668
+G0076,Tapa vald,council,vald / linn,G0008,,pending,,,,,,0792
+G0077,Türi vald,council,vald / linn,G0008,,pending,,,,,,0834
+G0078,Vinni vald,council,vald / linn,G0008,,pending,,,,,,0901
+G0079,Viru-Nigula vald,council,vald / linn,G0008,,pending,,,,,,0903
+G0080,Väike-Maarja vald,council,vald / linn,G0008,,pending,,,,,,0928
+G0081,Alutaguse vald,council,vald / linn,G0009,,pending,,,,,,0130
+G0082,Jõhvi vald,council,vald / linn,G0009,,pending,,,,,,0251
+G0083,Kohtla-Järve linn,council,vald / linn,G0009,,pending,,,,,,0321
+G0084,Lüganuse vald,council,vald / linn,G0009,,pending,,,,,,0442
+G0085,Narva linn,council,vald / linn,G0009,,pending,,,,,,0511
+G0086,Narva-Jõesuu linn,council,vald / linn,G0009,,pending,,,,,,0515
+G0087,Sillamäe linn,council,vald / linn,G0009,,pending,,,,,,0736
+G0088,Toila vald,council,vald / linn,G0009,,pending,,,,,,0803

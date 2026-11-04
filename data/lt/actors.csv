@@ -1,0 +1,5 @@
+actor_id,name,kind,actor_type,other_types,role,affiliation,party,affiliation_actor_id,country,level,location,geo_unit_id,location_source,wikidata_qid,website,status,alive_checked,prominence,notes,added_run,updated,refined
+A0001,Vilija Blinkevičiūtė,person,politician,,Member of the European Parliament (S&D),,Social Democratic Party of Lithuania,,LT,supranational,Lithuania,G0001,,Q435394,,active,y,national,,R001,2026-11-04,
+A0002,Juozas Olekas,person,politician,,"Former Member of the European Parliament (S&D, 2019-2024)",,Social Democratic Party of Lithuania,,LT,supranational,Lithuania,G0001,,Q1376538,,former_role,y,national,,R001,2026-11-04,
+A0003,Stasys Jakeliūnas,person,politician,,"Former Member of the European Parliament (Greens/EFA, 2019-2024)",,Lithuanian Regions Party,,LT,supranational,Lithuania,G0001,,Q27671969,,former_role,y,national,,R001,2026-11-04,
+A0004,Bronis Ropė,person,politician,,"Former Member of the European Parliament (Greens/EFA, 2014-2024)",,Lithuanian Farmers and Greens Union,,LT,supranational,Lithuania,G0001,,Q501991,,former_role,y,national,,R001,2026-11-04,
