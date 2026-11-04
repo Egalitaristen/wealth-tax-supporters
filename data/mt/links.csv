@@ -1,0 +1,3 @@
+link_id,from_actor_id,to_actor_id,link_type,evidence_id,source_url,note
+L0001,A0002,A0001,member_of,,https://adpd.mt/,Role as stated in the evidence source.
+L0002,A0003,A0001,member_of,,https://adpd.mt/,Role as stated in the evidence source.

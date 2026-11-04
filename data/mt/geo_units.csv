@@ -1,0 +1,70 @@
+geo_unit_id,name,level,unit_type,parent_id,website,sweep_status,swept_run,swept_date,queries_run,hits,notes,code
+G0001,Malta,national,country,,https://www.gov.mt/,in_progress,R001,2026-11-04,,,R001: national research; local councils not swept.,MT
+G0002,Attard,council,local council,G0001,,pending,,,,,ISO 3166-2:MT code.,MT-01
+G0003,Balzan,council,local council,G0001,,pending,,,,,ISO 3166-2:MT code.,MT-02
+G0004,Birgu,council,local council,G0001,,pending,,,,,ISO 3166-2:MT code.,MT-03
+G0005,Birkirkara,council,local council,G0001,,pending,,,,,ISO 3166-2:MT code.,MT-04
+G0006,Birżebbuġa,council,local council,G0001,,pending,,,,,ISO 3166-2:MT code.,MT-05
+G0007,Bormla,council,local council,G0001,,pending,,,,,ISO 3166-2:MT code.,MT-06
+G0008,Dingli,council,local council,G0001,,pending,,,,,ISO 3166-2:MT code.,MT-07
+G0009,Fgura,council,local council,G0001,,pending,,,,,ISO 3166-2:MT code.,MT-08
+G0010,Floriana,council,local council,G0001,,pending,,,,,ISO 3166-2:MT code.,MT-09
+G0011,Fontana,council,local council,G0001,,pending,,,,,ISO 3166-2:MT code.,MT-10
+G0012,Gudja,council,local council,G0001,,pending,,,,,ISO 3166-2:MT code.,MT-11
+G0013,Gżira,council,local council,G0001,,pending,,,,,ISO 3166-2:MT code.,MT-12
+G0014,Għajnsielem,council,local council,G0001,,pending,,,,,ISO 3166-2:MT code.,MT-13
+G0015,Għarb,council,local council,G0001,,pending,,,,,ISO 3166-2:MT code.,MT-14
+G0016,Għargħur,council,local council,G0001,,pending,,,,,ISO 3166-2:MT code.,MT-15
+G0017,Għasri,council,local council,G0001,,pending,,,,,ISO 3166-2:MT code.,MT-16
+G0018,Għaxaq,council,local council,G0001,,pending,,,,,ISO 3166-2:MT code.,MT-17
+G0019,Ħamrun,council,local council,G0001,,pending,,,,,ISO 3166-2:MT code.,MT-18
+G0020,Iklin,council,local council,G0001,,pending,,,,,ISO 3166-2:MT code.,MT-19
+G0021,Isla,council,local council,G0001,,pending,,,,,ISO 3166-2:MT code.,MT-20
+G0022,Kalkara,council,local council,G0001,,pending,,,,,ISO 3166-2:MT code.,MT-21
+G0023,Kerċem,council,local council,G0001,,pending,,,,,ISO 3166-2:MT code.,MT-22
+G0024,Kirkop,council,local council,G0001,,pending,,,,,ISO 3166-2:MT code.,MT-23
+G0025,Lija,council,local council,G0001,,pending,,,,,ISO 3166-2:MT code.,MT-24
+G0026,Luqa,council,local council,G0001,,pending,,,,,ISO 3166-2:MT code.,MT-25
+G0027,Marsa,council,local council,G0001,,pending,,,,,ISO 3166-2:MT code.,MT-26
+G0028,Marsaskala,council,local council,G0001,,pending,,,,,ISO 3166-2:MT code.,MT-27
+G0029,Marsaxlokk,council,local council,G0001,,pending,,,,,ISO 3166-2:MT code.,MT-28
+G0030,Mdina,council,local council,G0001,,pending,,,,,ISO 3166-2:MT code.,MT-29
+G0031,Mellieħa,council,local council,G0001,,pending,,,,,ISO 3166-2:MT code.,MT-30
+G0032,Mġarr,council,local council,G0001,,pending,,,,,ISO 3166-2:MT code.,MT-31
+G0033,Mosta,council,local council,G0001,,pending,,,,,ISO 3166-2:MT code.,MT-32
+G0034,Mqabba,council,local council,G0001,,pending,,,,,ISO 3166-2:MT code.,MT-33
+G0035,Msida,council,local council,G0001,,pending,,,,,ISO 3166-2:MT code.,MT-34
+G0036,Mtarfa,council,local council,G0001,,pending,,,,,ISO 3166-2:MT code.,MT-35
+G0037,Munxar,council,local council,G0001,,pending,,,,,ISO 3166-2:MT code.,MT-36
+G0038,Nadur,council,local council,G0001,,pending,,,,,ISO 3166-2:MT code.,MT-37
+G0039,Naxxar,council,local council,G0001,,pending,,,,,ISO 3166-2:MT code.,MT-38
+G0040,Paola,council,local council,G0001,,pending,,,,,ISO 3166-2:MT code.,MT-39
+G0041,Pembroke,council,local council,G0001,,pending,,,,,ISO 3166-2:MT code.,MT-40
+G0042,Pietà,council,local council,G0001,,pending,,,,,ISO 3166-2:MT code.,MT-41
+G0043,Qala,council,local council,G0001,,pending,,,,,ISO 3166-2:MT code.,MT-42
+G0044,Qormi,council,local council,G0001,,pending,,,,,ISO 3166-2:MT code.,MT-43
+G0045,Qrendi,council,local council,G0001,,pending,,,,,ISO 3166-2:MT code.,MT-44
+G0046,Rabat (Gozo),council,local council,G0001,,pending,,,,,ISO 3166-2:MT code.,MT-45
+G0047,Rabat (Malta),council,local council,G0001,,pending,,,,,ISO 3166-2:MT code.,MT-46
+G0048,Safi,council,local council,G0001,,pending,,,,,ISO 3166-2:MT code.,MT-47
+G0049,Saint Julian's,council,local council,G0001,,pending,,,,,ISO 3166-2:MT code.,MT-48
+G0050,Saint John,council,local council,G0001,,pending,,,,,ISO 3166-2:MT code.,MT-49
+G0051,Saint Lawrence,council,local council,G0001,,pending,,,,,ISO 3166-2:MT code.,MT-50
+G0052,Saint Paul's Bay,council,local council,G0001,,pending,,,,,ISO 3166-2:MT code.,MT-51
+G0053,Sannat,council,local council,G0001,,pending,,,,,ISO 3166-2:MT code.,MT-52
+G0054,Saint Lucia's,council,local council,G0001,,pending,,,,,ISO 3166-2:MT code.,MT-53
+G0055,Santa Venera,council,local council,G0001,,pending,,,,,ISO 3166-2:MT code.,MT-54
+G0056,Siġġiewi,council,local council,G0001,,pending,,,,,ISO 3166-2:MT code.,MT-55
+G0057,Sliema,council,local council,G0001,,pending,,,,,ISO 3166-2:MT code.,MT-56
+G0058,Swieqi,council,local council,G0001,,pending,,,,,ISO 3166-2:MT code.,MT-57
+G0059,Ta' Xbiex,council,local council,G0001,,pending,,,,,ISO 3166-2:MT code.,MT-58
+G0060,Tarxien,council,local council,G0001,,pending,,,,,ISO 3166-2:MT code.,MT-59
+G0061,Valletta,council,local council,G0001,,pending,,,,,ISO 3166-2:MT code.,MT-60
+G0062,Xagħra,council,local council,G0001,,pending,,,,,ISO 3166-2:MT code.,MT-61
+G0063,Xewkija,council,local council,G0001,,pending,,,,,ISO 3166-2:MT code.,MT-62
+G0064,Xgħajra,council,local council,G0001,,pending,,,,,ISO 3166-2:MT code.,MT-63
+G0065,Żabbar,council,local council,G0001,,pending,,,,,ISO 3166-2:MT code.,MT-64
+G0066,Żebbuġ (Gozo),council,local council,G0001,,pending,,,,,ISO 3166-2:MT code.,MT-65
+G0067,Żebbuġ (Malta),council,local council,G0001,,pending,,,,,ISO 3166-2:MT code.,MT-66
+G0068,Żejtun,council,local council,G0001,,pending,,,,,ISO 3166-2:MT code.,MT-67
+G0069,Żurrieq,council,local council,G0001,,pending,,,,,ISO 3166-2:MT code.,MT-68

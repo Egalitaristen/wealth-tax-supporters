@@ -1,0 +1,9 @@
+query_id,run_id,date,language,query,channel,results_opened,leads_added,note
+Q0001,R001,2026-11-04,en,Malta wealth tax Labour OR ADPD OR Alternattiva Demokratika,web,2,0,no party text
+Q0002,R001,2026-11-04,mt,ADPD taxxa fuq il-ġid sinjuri Malta,web,0,0,inheritance-tax pages only
+Q0003,R001,2026-11-04,en,Malta wealth tax Volt OR Cassar OR Gauci,web,3,2,found Cassar via Newsbook
+Q0004,R001,2026-11-04,en,Malta wealth tax economist union professor,web,4,1,"UM dissertations, THINK"
+Q0005,R001,2026-11-04,en,Moviment Graffitti wealth tax budget,web,0,1,nothing found
+Q0006,R001,2026-11-04,en,Momentum Malta wealth tax,web,1,1,no wealth tax in platform
+Q0007,R002,2026-11-04,en,Moviment Graffitti taxxa fuq il-gid OR wealth tax OR tax the rich budget,web,3,0,nothing from Graffitti itself
+Q0008,R002,2026-11-04,en,Malta poll tax the rich OR wealth tax survey,web,3,1,Newsbook on Eurobarometer 2025

@@ -1,0 +1,4 @@
+actor_id,name,kind,actor_type,other_types,role,affiliation,party,affiliation_actor_id,country,level,location,geo_unit_id,location_source,wikidata_qid,website,status,alive_checked,prominence,notes,added_run,updated,refined
+A0001,AKEL (Progressive Party of Working People),organisation,party,,Political party,,,,Cyprus,national,Cyprus,G0001,,Q212158,https://akel.org.cy/,active,na,national,,R001,2026-11-04,
+A0002,Pancyprian Federation of Labour (PEO),organisation,union,,Trade union confederation,,,,Cyprus,national,Cyprus,G0001,,Q3741030,https://peo.org.cy/,active,na,national,,R001,2026-11-04,
+A0003,Aristos Damianou,person,politician,,"Member of the House of Representatives (AKEL, Nicosia)",AKEL,AKEL,A0001,Cyprus,national,Cyprus > Nicosia,G0002,,Q12872352,,active,y,national,"Elected for Nicosia in the May 2026 parliamentary election (declared 25 May 2026, CNN Greece list); not checked against parliament.cy, which blocks scripts.",R001,2026-11-04,
