@@ -1,2 +1,3 @@
 run_id,date,assistant,focus,targets,queries_run,sources_opened,candidates_seen,new_actors,new_evidence,grade_upgrades,saturation,notes_next
 R001,2026-11-04,Claude,First pass,,14,,,3,3,,low yield; thin web index,"Search parliament registries directly (FBiH, RS, PSBiH; Skupština), party programmes, union congress documents, FES/Rosa Luxemburg Sarajevo outputs."
+R002,2026-11-04,Claude,"Round 2: SDP initiative, other parties, unions, economists, maps",,12,,,1,3,,low yield,No signatories found online. Read FBiH parliament registry and party programmes by hand; resolve Abrahamsdotter; maps need national agency data.

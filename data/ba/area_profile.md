@@ -29,3 +29,6 @@ FES Sarajevo, SDP BiH. Unions (SSSBiH, SSRS) not found for a wealth tax; SSSBiH 
 
 ## 10. Plan for the next runs
 Search the parliament registries directly; read party programmes (SDP Plan 10, Naša stranka, NiP, Levica); union congress texts; economists (Ekonomski institut, CEA); Rosa Luxemburg Stiftung Southeast Europe; municipalities' codes and an open map.
+
+## Round 2 (2026-11-04)
+Added the Klix reports of the SDP BiH statements (11 Feb and 3 Apr 2018) and Damir Nikšić's 2023 remark (C). Still no named signatories for the SDP initiative, nothing from Naša stranka, Narod i pravda, Lijevi savez, Dosta, Levica, unions (only Bajramović 2016, ungraded) or economists' institutes (Ekonomski institut Sarajevo, Fiskalno vijeće found nothing). Republika Srpska: only the excluded assets-of-unproven-origin law. Eurostat GISCO LAU has no BA/ME units.

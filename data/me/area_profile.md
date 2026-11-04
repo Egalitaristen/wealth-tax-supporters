@@ -29,3 +29,6 @@ None.
 
 ## 10. Plan for the next runs
 Search zakoni.skupstina.me; read party programmes; unions (USSCG, SSCG); Institut alternativa, CGO, ISSP; open map and codes.
+
+## Round 2 (2026-11-04)
+Montenegro still has one grade-C row (Kostić, 2012), and RFE shows he listed yachts, houses, boats, meadows and vineyards, so it may mean property taxation. Searches for Levica, Evropa sad, URA, Demokrate, SDP, unions and think tanks found nothing; the only Skupština bill seen is a Demokratska Crna Gora bill taxing officials' state housing benefits at 100% (not a wealth tax). The Skupština registry itself is still unsearched.
