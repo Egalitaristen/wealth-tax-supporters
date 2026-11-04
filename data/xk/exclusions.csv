@@ -1,0 +1,4 @@
+exclusion_id,name,reason,detail,source_url,run_id
+X0001,Vetëvendosje short programme: progressive tax system,insufficient_evidence,"Point 70 commits to a progressive tax system that differentiates between levels of income and wealth, so that those who earn more pay more; no wealth tax named",https://upload.wikimedia.org/wikipedia/commons/5/53/KosovoVet%C3%ABvendosje!Programi_i_shkurte.pdf,R001
+X0002,Vetëvendosje bill on verification of unjustified wealth,out_of_definition,"Illicit-enrichment confiscation, not a tax",https://telegrafi.com/vertetimi-pasurise-se-pajustifikueshme-refuzohet-projektligji-vv-se/,R001
+X0003,Kosovo property tax law (progressive rates by value),out_of_definition,"Property-only tax (Law 06/L-005, 2024 amendment); not net wealth",https://telegrafi.com/opozita-kunder-faljes-se-100-eurove-ne-faturat-e-tatimit-ne-prone/,R001

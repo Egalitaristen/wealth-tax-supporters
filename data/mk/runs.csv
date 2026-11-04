@@ -1,0 +1,2 @@
+run_id,date,assistant,focus,targets,queries_run,sources_opened,candidates_seen,new_actors,new_evidence,grade_upgrades,saturation,notes_next
+R001,2026-11-04,Claude Sonnet 5.5,North Macedonia first pass,"National parties (Levica, SDSM), unions, economists; geography",9,,,3,3,,"thin: few finds, searches mostly return other taxes","Obtain the Levica and SDSM 2024 programmes (Wayback), find Levica MPs' own statements and parliamentary motions, read ССМ and КСС congress documents and economists; load the Sobranie member list for a Seats tab."

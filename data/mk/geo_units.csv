@@ -1,0 +1,90 @@
+geo_unit_id,name,level,unit_type,parent_id,website,sweep_status,swept_run,swept_date,queries_run,hits,notes,code
+G0001,North Macedonia,national,country,,,in_progress,,,,,,MK
+G0002,Vardar statistical region,region,statistical region,G0001,,pending,,,,,,MK001
+G0003,East statistical region,region,statistical region,G0001,,pending,,,,,,MK002
+G0004,Southwest statistical region,region,statistical region,G0001,,pending,,,,,,MK003
+G0005,Southeast statistical region,region,statistical region,G0001,,pending,,,,,,MK004
+G0006,Pelagonia statistical region,region,statistical region,G0001,,pending,,,,,,MK005
+G0007,Polog statistical region,region,statistical region,G0001,,pending,,,,,,MK006
+G0008,Northeast statistical region,region,statistical region,G0001,,pending,,,,,,MK007
+G0009,Skopje statistical region,region,statistical region,G0001,,pending,,,,,,MK008
+G0010,Veles,council,opština (municipality),G0002,,pending,,,,,,MK0010100
+G0011,Gradsko,council,opština (municipality),G0002,,pending,,,,,,MK0010200
+G0012,Demir Kapija,council,opština (municipality),G0002,,pending,,,,,,MK0010300
+G0013,Kavadartsi,council,opština (municipality),G0002,,pending,,,,,,MK0010400
+G0014,Lozovo,council,opština (municipality),G0002,,pending,,,,,,MK0010500
+G0015,Negotino,council,opština (municipality),G0002,,pending,,,,,,MK0010600
+G0016,Rosoman,council,opština (municipality),G0002,,pending,,,,,,MK0010700
+G0017,Sveti Nikole,council,opština (municipality),G0002,,pending,,,,,,MK0010800
+G0018,Chashka,council,opština (municipality),G0002,,pending,,,,,,MK0010900
+G0019,Berovo,council,opština (municipality),G0003,,pending,,,,,,MK0020100
+G0020,Vinitsa,council,opština (municipality),G0003,,pending,,,,,,MK0020200
+G0021,Delchevo,council,opština (municipality),G0003,,pending,,,,,,MK0020300
+G0022,Zrnovtsi,council,opština (municipality),G0003,,pending,,,,,,MK0020400
+G0023,Karbintsi,council,opština (municipality),G0003,,pending,,,,,,MK0020500
+G0024,Kochani,council,opština (municipality),G0003,,pending,,,,,,MK0020600
+G0025,Makedonska Kamenitsa,council,opština (municipality),G0003,,pending,,,,,,MK0020700
+G0026,Pehchevo,council,opština (municipality),G0003,,pending,,,,,,MK0020800
+G0027,Probishtip,council,opština (municipality),G0003,,pending,,,,,,MK0020900
+G0028,Cheshinovo - Obleshevo,council,opština (municipality),G0003,,pending,,,,,,MK0021000
+G0029,Shtip,council,opština (municipality),G0003,,pending,,,,,,MK0021100
+G0030,Vevchani,council,opština (municipality),G0004,,pending,,,,,,MK0030100
+G0031,Debar,council,opština (municipality),G0004,,pending,,,,,,MK0030300
+G0032,Debartsa,council,opština (municipality),G0004,,pending,,,,,,MK0030400
+G0033,Kichevo,council,opština (municipality),G0004,,pending,,,,,,MK0030700
+G0034,Makedonski Brod,council,opština (municipality),G0004,,pending,,,,,,MK0030800
+G0035,Ohrid,council,opština (municipality),G0004,,pending,,,,,,MK0031000
+G0036,Plasnitsa,council,opština (municipality),G0004,,pending,,,,,,MK0031100
+G0037,Struga,council,opština (municipality),G0004,,pending,,,,,,MK0031200
+G0038,Centar Zhupa,council,opština (municipality),G0004,,pending,,,,,,MK0031300
+G0039,Bogdantsi,council,opština (municipality),G0005,,pending,,,,,,MK0040100
+G0040,Bosilovo,council,opština (municipality),G0005,,pending,,,,,,MK0040200
+G0041,Valandovo,council,opština (municipality),G0005,,pending,,,,,,MK0040300
+G0042,Vasilevo,council,opština (municipality),G0005,,pending,,,,,,MK0040400
+G0043,Gevgelija,council,opština (municipality),G0005,,pending,,,,,,MK0040500
+G0044,Dojran,council,opština (municipality),G0005,,pending,,,,,,MK0040600
+G0045,Konche,council,opština (municipality),G0005,,pending,,,,,,MK0040700
+G0046,Novo Selo,council,opština (municipality),G0005,,pending,,,,,,MK0040800
+G0047,Radovish,council,opština (municipality),G0005,,pending,,,,,,MK0040900
+G0048,Strumitsa,council,opština (municipality),G0005,,pending,,,,,,MK0041000
+G0049,Bitola,council,opština (municipality),G0006,,pending,,,,,,MK0050100
+G0050,Demir Hisar,council,opština (municipality),G0006,,pending,,,,,,MK0050200
+G0051,Dolneni,council,opština (municipality),G0006,,pending,,,,,,MK0050300
+G0052,Krivogashtani,council,opština (municipality),G0006,,pending,,,,,,MK0050400
+G0053,Krushevo,council,opština (municipality),G0006,,pending,,,,,,MK0050500
+G0054,Mogila,council,opština (municipality),G0006,,pending,,,,,,MK0050600
+G0055,Novatsi,council,opština (municipality),G0006,,pending,,,,,,MK0050700
+G0056,Prilep,council,opština (municipality),G0006,,pending,,,,,,MK0050800
+G0057,Resen,council,opština (municipality),G0006,,pending,,,,,,MK0050900
+G0058,Bogovinje,council,opština (municipality),G0007,,pending,,,,,,MK0060100
+G0059,Brvenitsa,council,opština (municipality),G0007,,pending,,,,,,MK0060200
+G0060,Vrapchishte,council,opština (municipality),G0007,,pending,,,,,,MK0060300
+G0061,Gostivar,council,opština (municipality),G0007,,pending,,,,,,MK0060400
+G0062,Zhelino,council,opština (municipality),G0007,,pending,,,,,,MK0060500
+G0063,Jegunovtse,council,opština (municipality),G0007,,pending,,,,,,MK0060600
+G0064,Mavrovo and Rostusha,council,opština (municipality),G0007,,pending,,,,,,MK0060700
+G0065,Teartse,council,opština (municipality),G0007,,pending,,,,,,MK0060800
+G0066,Tetovo,council,opština (municipality),G0007,,pending,,,,,,MK0060900
+G0067,Kratovo,council,opština (municipality),G0008,,pending,,,,,,MK0070100
+G0068,Kriva Palanka,council,opština (municipality),G0008,,pending,,,,,,MK0070200
+G0069,Kumanovo,council,opština (municipality),G0008,,pending,,,,,,MK0070300
+G0070,Lipkovo,council,opština (municipality),G0008,,pending,,,,,,MK0070400
+G0071,Rankovtse,council,opština (municipality),G0008,,pending,,,,,,MK0070500
+G0072,Staro Nagorichane,council,opština (municipality),G0008,,pending,,,,,,MK0070600
+G0073,Aerodrom,council,opština (municipality),G0009,,pending,,,,,,MK0080901
+G0074,Arachinovo,council,opština (municipality),G0009,,pending,,,,,,MK0080200
+G0075,Butel,council,opština (municipality),G0009,,pending,,,,,,MK0080902
+G0076,Gazi Baba,council,opština (municipality),G0009,,pending,,,,,,MK0080905
+G0077,Gjorche Petrov,council,opština (municipality),G0009,,pending,,,,,,MK0080906
+G0078,Zelenikovo,council,opština (municipality),G0009,,pending,,,,,,MK0080600
+G0079,Ilinden,council,opština (municipality),G0009,,pending,,,,,,MK0080700
+G0080,Karposh,council,opština (municipality),G0009,,pending,,,,,,MK0080907
+G0081,Kisela Voda,council,opština (municipality),G0009,,pending,,,,,,MK0080908
+G0082,Petrovets,council,opština (municipality),G0009,,pending,,,,,,MK0081000
+G0083,Saraj,council,opština (municipality),G0009,,pending,,,,,,MK0080909
+G0084,Sopishte,council,opština (municipality),G0009,,pending,,,,,,MK0081200
+G0085,Studenichani,council,opština (municipality),G0009,,pending,,,,,,MK0081300
+G0086,Centar,council,opština (municipality),G0009,,pending,,,,,,MK0080903
+G0087,Chair,council,opština (municipality),G0009,,pending,,,,,,MK0080904
+G0088,Chucher - Sandevo,council,opština (municipality),G0009,,pending,,,,,,MK0081600
+G0089,Shuto Orizari,council,opština (municipality),G0009,,pending,,,,,,MK0080910

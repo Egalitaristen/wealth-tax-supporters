@@ -1,0 +1,2 @@
+run_id,date,assistant,focus,targets,queries_run,sources_opened,candidates_seen,new_actors,new_evidence,grade_upgrades,saturation,notes_next
+R001,2026-11-04,Claude Sonnet 5.5,Albania first pass,"National parties, unions, economists, media; geography",9,,,1,0,,"thin: few finds, searches mostly return other taxes","Read the Lëvizja Bashkë 2025 programme PDF and Qori's Kuvendi speeches; search PS, PD and union statements via local outlets (Reporter.al, Monitor, Euronews Albania); check the Kuvendi bill register."

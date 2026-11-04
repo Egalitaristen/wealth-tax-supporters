@@ -1,0 +1,8 @@
+{
+  "name": "Kosovo",
+  "iso2": "XK",
+  "lead": "",
+  "status": "in progress",
+  "boundaries": "",
+  "notes": "Seed pass, national level only; no supporter qualified under the definition, so the register has no actors yet. Folder and iso2 use the user-assigned code XK, which is not in ISO 3166-1 (pycountry has no entry), so the site shows no map shape and no flag for it. Geography: 38 municipalities (names from geoBoundaries gbOpen XKX ADM2); no official code list was found, so codes are blank, and no map is shipped because geoBoundaries lists the shapes as CC BY-SA 2.0 (OpenStreetMap-derived), not one of the licences the register accepts. The seven districts are not loaded. No local sweeps."
+}
