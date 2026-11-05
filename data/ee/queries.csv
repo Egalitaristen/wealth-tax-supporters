@@ -19,3 +19,10 @@ Q0017,R003,2026-11-05,et,"Müürileht Rainer Kattel varamaks konkurents",web,2,1
 Q0018,R003,2026-11-05,et,"Indrek Neivelt 10 miljonit varamaks Riigikogu",web,4,1,"Found Indrek Neivelt's 2019 speech proposing a 1% or 0.5% wealth tax on assets over 10m euros, published in Postimees"
 Q0019,R003,2026-11-05,et,"Toomas Peterson rikkusemaks ERR",web,2,1,"Found Toomas Peterson's 2019 ERR op-ed arguing for introducing a capital or wealth tax (rikkusemaks)"
 Q0020,R003,2026-11-05,et,"Arenguseire Keskus Magnus Piirits varamaksud stsenaariumid",web,3,0,"Checked lead D0004: scenario modeling focused on property/real estate tax, excluded as out_of_definition"
+Q0021,R004,2026-11-05,et,site:rohelised.ee 'ELi ühtse varamaksu',web,2,0,Found Erakond Eestimaa Rohelised 2024 European election priorities adopting an EU unified wealth tax
+Q0022,R004,2026-11-05,et,site:sirp.ee 'varamaks' OR 'rikkusemaks' OR 'varandusmaks',web,5,0,Examined Sirp debate; led to Peet Kask's articles on wealth taxes and taxation of the rich
+Q0023,R004,2026-11-05,et,Peet Kask maksusüsteemi saaks parandada edukate riikide eeskujul ERR,web,2,0,Found Peet Kask's July 2024 ERR op-ed proposing a progressive pure wealth tax (puhtakujuline varandusmaks) on top 1%
+Q0024,R004,2026-11-05,et,Noored Sotsiaaldemokraadid 'varamaks' OR 'rikkusemaks' OR 'maks',web,3,0,Checked youth wings; Ako Monticelli article focuses on wealth inequality but proposes progressive income tax (excluded X0015)
+Q0025,R004,2026-11-05,en,Proud to pay more Estonia,web,2,0,Checked Patriotic Millionaires / Proud to Pay More signatory roster; confirmed 0 Estonian signatories
+Q0026,R004,2026-11-05,et,Eesti Roheline Liikumine OR Eestimaa Looduse Fond 'varamaks',web,2,0,Civil society sweep: environmental NGOs focus on conservation/energy without domestic wealth tax policy
+Q0027,R004,2026-11-05,et,Mondo 'varamaks' OR 'rikkusemaks' 'Eesti',web,2,0,Checked development and inequality NGO Mondo; focuses on development cooperation/aid without domestic wealth tax stance; closed lead D0006
