@@ -2,10 +2,10 @@ name: Validate data
 
 on:
   pull_request:
-    paths: ["data/**", "skill/**", "site/**", "scripts/**"]
+    paths: ["data/**", "skill/**", "site/**", "scripts/**", "content/**"]
   push:
     branches: [main]
-    paths: ["data/**", "skill/**", "site/**", "scripts/**"]
+    paths: ["data/**", "skill/**", "site/**", "scripts/**", "content/**"]
 
 jobs:
   validate:
