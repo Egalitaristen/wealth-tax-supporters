@@ -52,7 +52,7 @@ Stable URLs: `/<folder>#<anchor>` and `/<folder>/story#<anchor>`.
 
 ## Writing
 
-Read `STYLE.md` before writing or editing a story.
+Read `STYLE.md` before writing or editing a story; it points to the Humanizer skill and lists the house rules.
 
 ## Layouts
 

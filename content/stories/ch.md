@@ -124,9 +124,9 @@ sources:
     title: SRF, wealth concentration, a left-wing star economist demands a minimum tax for the super-rich (2026)
     url: https://www.srf.ch/news/wirtschaft/vermoegenskonzentration-linker-staroekonom-fordert-mindeststeuer-fuer-superreiche
 ---
-Switzerland has taxed net wealth for generations. All 26 cantons levy the tax today, on every household above an exemption of CHF 25,000 to 200,000, and in 2023 it raised 4.3% of all Swiss tax revenue.[4][7] The Swiss record answers the three arguments most often made against a wealth tax: that assets cannot be valued, that the rich leave, and that it raises little.
+Switzerland has taxed net wealth for generations. All 26 cantons levy the tax today, on every household above an exemption of CHF 25,000 to 200,000, and in 2023 it raised 4.3% of all Swiss tax revenue.[4][7] The Swiss record bears on the usual objections to a wealth tax: that assets cannot be valued, that the rich leave, and that it raises little.
 
-## A tax older than the country {#history}
+## A long history {#history}
 
 Swiss towns taxed wealth in the late Middle Ages, and in Schaffhausen and St. Gallen the occasional levy became a yearly one.[3] The Helvetic Republic made it the heaviest of its direct taxes, and when the federal state took the customs revenue in 1848, the cantons leaned harder on it.[3] Until the First World War it was the main source of income for most cantons.[3] The Confederation joined in 1915 with its first direct taxes, on income and wealth alike, and levied extraordinary wealth taxes again in 1940 and 1942.[3]
 
@@ -139,13 +139,13 @@ The federal harmonisation law is short on this tax. The whole net wealth is taxa
 > The wealth tax applies to the whole net wealth.
 > — Federal harmonisation law, Art. 13 (our translation)[2]
 
-The cantons set tariffs, rates and exemptions.[2] Geneva shows the result. After a deduction of CHF 82,200 for a single person and CHF 164,400 for a couple, the base scale climbs from 1.49 per mille on the first bracket to 3.83 per mille above CHF 1.67 million, and a second scale adds up to 1.15 per mille above CHF 3.3 million.[5] In 2015 the combined top rate across cantons ran from 0.13% to 1.00%, and exemption thresholds from CHF 25,000 to 200,000. Between a third and two fifths of filers in the two cantons studied owed the tax, and the wealth under the exemption was only 2.5% of the total in Lucerne and 5.4% in Bern.[4] Most declared wealth is taxed.
+The cantons set tariffs, rates and exemptions.[2] Geneva is one example. After a deduction of CHF 82,200 for a single person and CHF 164,400 for a couple, the base scale climbs from 1.49 per mille on the first bracket to 3.83 per mille above CHF 1.67 million, and a second scale adds up to 1.15 per mille above CHF 3.3 million.[5] In 2015 the combined top rate across cantons ran from 0.13% to 1.00%, and exemption thresholds from CHF 25,000 to 200,000. Between a third and two fifths of filers in the two cantons studied owed the tax, and the wealth under the exemption was only 2.5% of the total in Lucerne and 5.4% in Bern, so most declared wealth is taxed.[4]
 
 ## What it raises, and who pays {#revenue}
 
 In 2023 the wealth tax brought in 4.3% of all Swiss tax revenue, about 1.2% of GDP.[7] In 2018 it was 3.9% of revenue, against 1.1% in Norway and 0.5% in Spain and France, and 9% of what cantons and municipalities collected.[4]
 
-The people who pay are the people who hold the wealth. In 2022 the top 1% of taxpayers held 45.8% of taxable net wealth, and the Gini coefficient stood at 0.823.[1] In Zurich the wealthiest quarter of the population pays 99% of the wealth tax, and retirees hold about half of the taxable wealth.[6] The figures understate the concentration, because pension assets, household goods and the wealth of lump-sum taxpayers are outside the statistics.[1]
+In 2022 the top 1% of taxpayers held 45.8% of taxable net wealth, and the Gini coefficient stood at 0.823.[1] In Zurich the wealthiest quarter of the population pays 99% of the wealth tax, and retirees hold about half of the taxable wealth.[6] The figures understate the concentration, because pension assets, household goods and the wealth of lump-sum taxpayers are outside the statistics.[1]
 
 ## Cantons undercut each other {#competition}
 
@@ -157,7 +157,9 @@ That is the weak spot of a purely cantonal tax, and the reason a federal wealth 
 
 Foreigners who have lived abroad for at least ten years and do not work in Switzerland can be taxed on their living costs instead of their income and wealth.[8] In 2012 that covered 5,634 people.[8] In 2014 about 5,400 of them paid CHF 740 million, 1.2% of income and wealth tax revenue.[4]
 
-Voters in several cantons judged that a privilege. Zurich abolished it by popular vote in 2009.[8] A federal initiative to end it everywhere lost on 30 November 2014 with 40.8% yes and carried only Schaffhausen, with 50.8%.[8] Five of the six cantons with the highest yes shares (Schaffhausen, Zurich, Appenzell Ausserrhoden, Basel-Landschaft and Basel-Stadt) no longer had the regime themselves. Valais, home to many lump-sum taxpayers, voted no with 79.3%.[8] The Federal Council recommended a no, citing the tension between tax fairness and the country's appeal as a place to live and invest. Backers of the initiative argued that abolition had cost the cantons that ended it no revenue, and that the regime was an unjustified privilege.[8] Opponents ran about twenty times as many newspaper advertisements as backers.[8]
+Voters in several cantons judged that a privilege. Zurich abolished it by popular vote in 2009.[8] A federal initiative to end it everywhere lost on 30 November 2014 with 40.8% yes and carried only Schaffhausen, with 50.8%.[8] Five of the six cantons with the highest yes shares (Schaffhausen, Zurich, Appenzell Ausserrhoden, Basel-Landschaft and Basel-Stadt) no longer had the regime themselves. Valais, home to many lump-sum taxpayers, voted no with 79.3%.[8]
+
+The Federal Council recommended a no, citing the tension between tax fairness and the country's appeal as a place to live and invest. Backers of the initiative argued that abolition had cost the cantons that ended it no revenue.[8] Opponents ran about twenty times as many newspaper advertisements as backers.[8]
 
 ## What voters have said {#votes}
 
@@ -169,7 +171,7 @@ None of these was a vote on the yearly wealth tax that every canton already levi
 
 The Social Democratic Party took a levy on wealth above CHF 1 billion to the National Council in 2020 and lost 66 to 126 in 2022.[12] Another motion, to give the Confederation a constitutional basis for a direct wealth tax, lost 60 to 132 in March 2024.[13] The yeses came from the Social Democrats and the Greens, with a few allies on the left.[12][13]
 
-The movement is wider now. In February 2026 the Green Liberals proposed a federal wealth tax of 0.33% above CHF 5 million, worth about CHF 2.7 billion a year.[14] The economist [Marius Brülhart](/ch/A0085) argues for a federal wealth tax in place of a higher VAT. The billionaire [Alfred Gantner](/ch/A0084) and the heir [Jan Colruyt](/ch/A0108) have called for higher taxes on the very rich, and [Alliance Sud](/ch/A0181) has costed one. A Tamedia survey in spring 2026 found 68% in favour of a federal tax to pay for the AHV pension and the army, and 25% against.[15] Try the Green Liberal scale in the [calculator](/calculator?w=20m&b=5000000:0.33&c=CHF).
+In February 2026 the Green Liberals proposed a federal wealth tax of 0.33% above CHF 5 million, worth about CHF 2.7 billion a year.[14] The economist [Marius Brülhart](/ch/A0085) argues for a federal wealth tax in place of a higher VAT. The billionaire [Alfred Gantner](/ch/A0084) and the heir [Jan Colruyt](/ch/A0108) have called for higher taxes on the very rich, and [Alliance Sud](/ch/A0181) has costed one. A Tamedia survey in spring 2026 found 68% in favour of a federal tax to pay for the AHV pension and the army, and 25% against.[15] Try the Green Liberal scale in the [calculator](/calculator?w=20m&b=5000000:0.33&c=CHF).
 
 {{supporters}}
 
@@ -177,7 +179,7 @@ The movement is wider now. In February 2026 the Green Liberals proposed a federa
 
 ### Valuation {#valuation}
 
-Switzerland values private assets every year, for nearly everyone. Market value is the rule.[2] The Federal Tax Administration reports that tax values of property and unlisted shares generally lie below market value and differ from canton to canton.[1] That argues for better valuation rules, and not for dropping the tax.
+Switzerland values private assets every year, for nearly everyone. Market value is the rule.[2] The Federal Tax Administration reports that tax values of property and unlisted shares lie below market value and differ from canton to canton.[1] That calls for better valuation rules.
 
 ### Flight {#flight}
 
@@ -185,4 +187,4 @@ A study of cantonal tax cuts by Brülhart, Gruber, Krapf and Schmidheiny found t
 
 ### Revenue {#revenue-lesson}
 
-Cuts do not pay for themselves: revenue falls by roughly 3% for every 10% cut in the top rate.[4] A tax that brings in 4.3% of all revenue carries real weight in the budget.[7]
+Cuts do not pay for themselves: revenue falls by 2.7% to 3.6% for every 10% cut in the top rate.[4] At 4.3% of all revenue, the tax is a large item in the budget.[7]
