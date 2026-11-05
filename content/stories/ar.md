@@ -50,16 +50,16 @@ timeline:
     source: 3
   - year: 2024
     text: In May the federal appeals court in Bahía Blanca upholds the 2020 contribution.
-    source: 14
+    source: 13
   - year: 2025
     text: In March ARCA reports US$31 billion declared under the asset regularization regime.
     source: 11
   - year: 2025
     text: In July the Salta federal appeals court sends the Douthat case on the 2020 contribution to the Supreme Court.
-    source: 13
+    source: 12
   - year: 2026
     text: On 3 September Sala I of the federal administrative appeals court strikes the contribution down, two votes to one.
-    source: 16
+    source: 15
 sources:
   - id: 1
     title: Ley 27.605, Aporte Solidario y Extraordinario (articles 1 to 7 and 9), ARCA legal library
@@ -95,27 +95,24 @@ sources:
     title: ARCA, La Regularización de activos ya superó los 31.000 millones de dólares (14 March 2025)
     url: https://servicioscf.afip.gob.ar/publico/sitio/contenido/novedad/ver.aspx?id=4670
   - id: 12
-    title: INDEC, Balanza de pagos, posición de inversión internacional y deuda externa, cuarto trimestre de 2025 (provisional), cuadro II.1
-    url: https://www.indec.gob.ar/uploads/informesdeprensa/bal_03_262210251315.pdf
-  - id: 13
     title: Diario Judicial, El aporte solidario llega a la Corte (10 July 2025), report on Douthat c. AFIP-DGI
     url: https://www.diariojudicial.com/news-101037-el-aporte-solidario-llega-a-la-corte
-  - id: 14
+  - id: 13
     title: Diario Judicial, Un aporte solidario a la jurisprudencia tributaria (14 May 2024), report on the Cámara Federal de Bahía Blanca ruling
     url: https://www.diariojudicial.com/news-97774-un-aporte-solidario-a-la-jurisprudencia-tributaria
-  - id: 15
+  - id: 14
     title: iProfesional, ¿Golpe a los planes de Massa?: por qué la Justicia rechazó el aporte solidario para las grandes fortunas (9 August 2022), report on the Corrientes federal court ruling
     url: https://www.iprofesional.com/impuestos/367389-la-justicia-rechazo-el-aporte-solidario-para-las-grandes-fortunas
-  - id: 16
+  - id: 15
     title: Ámbito, report of 8 September 2026 on the ruling of Sala I of the Cámara Contencioso Administrativo Federal of 3 September 2026
     url: https://www.ambito.com/informacion-general/aporte-solidario-una-sentencia-lo-declara-inconstitucional-considerarlo-confiscatorio-n6319766
-  - id: 17
+  - id: 16
     title: Revista Quórum, Fallo clave: la Justicia confirmó que el impuesto a las grandes fortunas es constitucional (17 July 2026), report on Sala V of the Cámara Contencioso Administrativo Federal
     url: https://revistaquorum.com.ar/2026/07/17/fallo-clave-la-justicia-confirmo-que-el-impuesto-a-las-grandes-fortunas-es-constitucional/
-  - id: 18
+  - id: 17
     title: IPyPP, Por un paquete fiscal que termine con la violencia del hambre en la Argentina (June 2024), figures are IPyPP's own estimates
     url: https://ipypp.org.ar/descargas/2024/Por%20un%20paquete%20fiscal%20que%20termine%20con%20el%20hambre.pdf
-  - id: 19
+  - id: 18
     title: Tiempo Argentino, interview with Claudio Lozano, Hay que construir mayorías para terminar con este gobierno (12 October 2025)
     url: https://www.tiempoar.com.ar/ta_article/claudio-lozano-hay-que-construir-mayorias-para-terminar-con-este-gobierno
 ---
@@ -123,19 +120,15 @@ Argentina has taxed personal wealth since 1991. In December 2020 it added a one-
 
 ## The tax in force {#bienes-personales}
 
-Ley 23.966 created the Impuesto sobre los Bienes Personales in 1991 as an emergency tax for nine fiscal periods. It charges assets held on 31 December, and Congress has extended it ever since.[2] Residents pay on everything they own, at home and abroad. Non-residents pay on what they own in Argentina.[2] Rural land owned by individuals, public bonds and bank deposits are exempt.[2] In 2023 the first AR$100 million of assets was untaxed, and a main home worth up to AR$350 million was left out.[2] Both amounts are indexed to inflation each year. The 2024 minimum was AR$293 million, about US$280,000 at the official rate of AR$1,032 on 31 December 2024.[2][7][9]
-
-Companies pay the tax on shares for their owners. The company settles 0.5% of the value of its shares, and that payment is final.[2] In 2025 this channel brought in AR$1.2 trillion, 62% of the AR$2.0 trillion collected under the tax.[7]
+Ley 23.966 created the Impuesto sobre los Bienes Personales in 1991 as an emergency tax for nine fiscal periods, and Congress has extended it ever since.[2] It charges assets held on 31 December: residents pay on everything they own, at home and abroad, and non-residents on what they own in Argentina.[2] Rural land owned by individuals, public bonds and bank deposits are exempt.[2] In 2023 the first AR$100 million was untaxed, and a main home worth up to AR$350 million was left out.[2] The 2024 minimum was AR$293 million, about US$280,000 at AR$1,032 on 31 December 2024.[7][9] Companies pay the tax on shares for their owners, 0.5% of the share value, and that payment is final.[2] In 2025 that channel brought in AR$1.2 trillion, 62% of the AR$2.0 trillion collected.[7]
 
 ## What the 2024 law did {#reform-2024}
 
-Ley 27.743, promulgated on 5 July 2024 and published on 8 July, set the scale for the years 2023 to 2027.[3] The rates run from 0.5% to 1.5% in 2023 and to 1.25% in 2024. In 2025 the maximum is 1%, in 2026 it is 0.75%, and in 2027 one flat 0.25% applies above the minimum.[2]
+Ley 27.743, published on 8 July 2024, set the scale for 2023 to 2027. The top rate is 1.5% in 2023, 1.25% in 2024, 1% in 2025 and 0.75% in 2026, and in 2027 one flat 0.25% applies above the minimum.[3][2] The law also created the REIBP, an option to pay in one go: 0.45% on five times the assets held on 31 December 2023, after exempt assets, the minimum and the main home. That is 2.25% of the net base for the years 2023 to 2027, with fiscal stability on wealth taxes until 2038.[3]
 
-The same law created the Régimen Especial de Ingreso, the REIBP. A taxpayer values the assets held on 31 December 2023, subtracts exempt assets, the minimum and the main home, multiplies the result by five and pays 0.45% of it. That is 2.25% of the net base, once, for the years 2023 to 2027. At least 75% falls due as an initial payment, and the taxpayer gets fiscal stability on wealth taxes until 2038.[3]
+Take AR$1 billion of taxable assets in 2023, all in Argentina, about US$1.2 million at AR$808 on 29 December 2023.[10] The 2023 scale charges AR$12 million, 1.2%. The REIBP charges AR$20 million for five years.[2][3]
 
-Take AR$1 billion of taxable assets in 2023, all in Argentina, about US$1.2 million at the official rate of AR$808 on 29 December 2023.[10] The 2023 scale charges AR$12 million, 1.2%. The REIBP charges AR$20 million, and it covers five years.[2][3]
-
-In 2024 the REIBP brought in AR$1.1 trillion, half of the AR$2.3 trillion collected under the tax. In 2025 the line for returns, advance payments and tax collected at source brought in about AR$390 billion, down from AR$480 billion in 2024, a fall of 19% in current pesos.[7]
+In 2024 the REIBP brought in AR$1.1 trillion, half of the AR$2.3 trillion collected under the tax. In 2025 the line for returns, advances and tax collected at source fell 19% in current pesos, to about AR$390 billion.[7]
 
 ## The 2020 contribution {#aporte}
 
@@ -153,17 +146,17 @@ Deputy Laspina argued that the contribution breaks the constitutional ban on con
 
 ## What it raised {#revenue}
 
-By 17 December 2021 the Ministry of Economy counted AR$248 billion collected from about 10,000 payers, all in the top income decile.[6] That fell short of the AR$300 billion Heller expected.[4][6] Two payment plans allowed instalments. The first asked for 20% up front and up to five monthly payments, the second for 30% up front and two payments.[6] The law assigned the money: 20% each to medical supplies, small-business subsidies and Progresar scholarships, 15% to the fund for integrating informal neighbourhoods and 25% to natural-gas projects.[1]
+By 17 December 2021 the Ministry of Economy counted AR$248 billion collected from about 10,000 payers, all in the top income decile.[6] That fell short of the AR$300 billion Heller expected.[4][6]
 
 ## The courts {#courts}
 
-Argentine courts have not settled whether the contribution is constitutional. In August 2022 a federal court in Corrientes struck it down for one taxpayer, finding it confiscatory because the taxpayer's property income did not cover the bill.[15] In May 2024 the federal appeals court in Bahía Blanca upheld the law. The contribution came to 2.19% of that taxpayer's assets, and the precedents on confiscation concerned recurring taxes, not a one-off levy.[14] The federal administrative appeals chambers have since split. By 17 July 2026 Sala V had upheld the law because the taxpayer had not proved confiscation. On 3 September 2026 Sala I struck it down by two votes to one, and ARCA can appeal.[17][16]
+Argentine courts have not settled whether the contribution is constitutional. In August 2022 a federal court in Corrientes struck it down for one taxpayer, finding it confiscatory because the taxpayer's property income did not cover the bill.[14] In May 2024 the federal appeals court in Bahía Blanca upheld the law. The contribution came to 2.19% of that taxpayer's assets, and the precedents on confiscation concerned recurring taxes, not a one-off levy.[13] The federal administrative appeals chambers have since split. By 17 July 2026 Sala V had upheld the law because the taxpayer had not proved confiscation. On 3 September 2026 Sala I struck it down by two votes to one, and ARCA can appeal.[16][15]
 
-The Supreme Court is the last stop. In July 2025 the Salta appeals court sent it the case Douthat c. AFIP-DGI.[13] No Supreme Court ruling on Ley 27.605 has been published.
+The Supreme Court is the last stop. In July 2025 the Salta appeals court sent it the case Douthat c. AFIP-DGI.[12] No Supreme Court ruling on Ley 27.605 has been published.
 
 ## Who supports it {#who-supports}
 
-[Carlos Heller](/ar/A0001) was one of the bill's authors and presented it to the Chamber.[4] President [Alberto Fernández](/ar/A0207) promulgated the law by Decreto 1024/2020, which Economy Minister [Martín Guzmán](/ar/A0005) countersigned.[1] The economist [Claudio Lozano](/ar/A0031) proposes a tax on everyone with wealth above US$1 million, at differential rates.[19] The [Instituto de Pensamiento y Políticas Públicas](/ar/A0004) published a 2024 report with Lozano among its authors. It proposes a surcharge on Bienes Personales for the 50 largest fortunes and puts the yield at US$2 billion.[18]
+[Carlos Heller](/ar/A0001) was one of the bill's authors and presented it to the Chamber.[4] President [Alberto Fernández](/ar/A0207) promulgated the law by Decreto 1024/2020, which Economy Minister [Martín Guzmán](/ar/A0005) countersigned.[1] The economist [Claudio Lozano](/ar/A0031) proposes a tax on everyone with wealth above US$1 million, at differential rates.[18] The [Instituto de Pensamiento y Políticas Públicas](/ar/A0004) published a 2024 report with Lozano among its authors. It proposes a surcharge on Bienes Personales for the 50 largest fortunes and puts the yield at US$2 billion.[17]
 
 The register lists the 133 deputies who voted for the law and 41 of the 42 senators.[4][5]
 
@@ -173,24 +166,24 @@ The register lists the 133 deputies who voted for the law and 41 of the 42 senat
 
 ### Valuation {#valuation}
 
-The tax rests on declared values. The Bienes Personales returns for 2024 list AR$95 trillion of assets, and ARCA assesses the tax on them.[7] Exemptions narrow that base: rural land, bonds and deposits stay outside the standing tax, and the 2020 contribution counted them.[1][2]
+The tax rests on declared values: the returns for 2024 list AR$95 trillion of assets.[7] Rural land, bonds and deposits stay outside the standing tax, and the 2020 contribution counted them.[1][2]
 
 ### Capital abroad {#abroad}
 
-For fiscal year 2024, 25% of declared assets, AR$24 trillion, were held outside Argentina, about US$23 billion at AR$1,032.[7][9] Among the 515 returns with taxable assets above AR$5 billion, about US$4.8 million, the share is 82%. Those returns carry 32% of all tax determined, AR$109 billion of AR$343 billion.[7][9]
+For fiscal year 2024, 25% of declared assets, AR$24 trillion or about US$23 billion at AR$1,032, were held outside Argentina.[7][9] Among the 515 returns with taxable assets above AR$5 billion, the share is 82%, and those returns carry 32% of all tax determined, AR$109 billion of AR$343 billion.[7]
 
-The 2024 amnesty brought assets into view. After two of its three stages ARCA counted US$31 billion declared by about 278,000 taxpayers, of which 16,000 of 267,000 accounts were abroad. The first US$100,000 cost nothing, and the rate above it was 10% in stage 2 and 15% in stage 3.[11] INDEC puts the external financial assets of companies, funds and households at US$431 billion at the end of 2025, a wider scope than the returns cover.[12]
+The 2024 amnesty brought assets into view. After two of its three stages ARCA counted US$31 billion declared by about 278,000 taxpayers. The first US$100,000 cost nothing, and the rate above it was 10% in stage 2 and 15% in stage 3.[11]
 
-The 2020 law taxed foreign assets at up to 5.25% unless 30% came home. The 2023 to 2027 scale taxes assets at home and abroad alike.[1][2] We argue for taxing assets abroad at the same rate as assets at home, as the 2023 to 2027 scale does, and against an amnesty after a levy.
+The 2020 law taxed foreign assets at up to 5.25% unless 30% came home. The 2023 to 2027 scale taxes assets at home and abroad alike.[1][2] We argue for taxing assets abroad at the same rate as assets at home, and against an amnesty after a levy.
 
 ### Flight {#flight}
 
-The ARCA tables used here count returns and assets. They do not count departures. The 2020 law shut the exits in its own text: residence was fixed at 31 December 2019, and the 180-day look-back applied.[1] The 2024 REIBP went the other way for emigrants. People who had been resident and left before the end of 2023 could join and were treated as resident again.[3]
+The ARCA tables used here do not count departures. The 2020 law closed the exits in its own text, with residence fixed in 2019 and a 180-day look-back.[1] The 2024 REIBP let people who had been resident and left before the end of 2023 rejoin as residents.[3]
 
 ### Revenue {#revenue-lesson}
 
-A one-off levy raised AR$248 billion in a year.[6] The standing tax raised AR$2.0 trillion in 2025, and the shares channel, paid by companies, rose from AR$455 billion in 2024 to AR$1.2 trillion in 2025, while the personal line fell 19%.[7]
+A one-off levy raised AR$248 billion in a year.[6] The standing tax raised AR$2.0 trillion in 2025, and the shares channel, paid by companies, rose from AR$455 billion in 2024 to AR$1.2 trillion while the personal line fell 19%.[7]
 
 ## Where to look next {#next}
 
-The [map](/ar/map) shows where support sits and the [seats](/ar/seats) page shows how the blocs divide Congress. The [directory](/ar/directory) lists everyone on the record, [time](/ar/time) shows support by year and [method](/ar/method) lists the sources. [Bills and reports](/resources?country=ar) for Argentina are on the Resources page. The calculator has Argentine scales ready: the [2020 contribution](/calculator?w=1bn&b=0:2,300000000:2.25,400000000:2.5,600000000:2.75,800000000:3,1500000000:3.25,3000000000:3.5&c=AR$) of 2% to 3.5%, and the [2023 Bienes Personales scale](/calculator?w=1bn&b=100000000:0.5,113688704.13:0.75,129658858.97:1,182132224.82:1.25,556290137.84:1.5&c=AR$) above the AR$100 million minimum. The 2020 link applies the scale from the first peso, so read it only above AR$200 million; below that line nothing was owed. The 2023 link has no such trap: its first rate starts at the AR$100 million minimum, and it applies no main-home deduction. [Switzerland](/ch), [Norway](/no) and [Spain](/es) also tax wealth.
+The [map](/ar/map) shows where support sits and the [seats](/ar/seats) page shows how the blocs divide Congress. The [directory](/ar/directory) lists everyone on the record, [time](/ar/time) shows support by year and [method](/ar/method) lists the sources. [Bills and reports](/resources?country=ar) for Argentina are on the Resources page. The calculator has Argentine scales ready: the [2020 contribution](/calculator?w=1bn&b=0:2,300000000:2.25,400000000:2.5,600000000:2.75,800000000:3,1500000000:3.25,3000000000:3.5&c=AR$) of 2% to 3.5%, and the [2023 Bienes Personales scale](/calculator?w=1bn&b=100000000:0.5,113688704.13:0.75,129658858.97:1,182132224.82:1.25,556290137.84:1.5&c=AR$) above the AR$100 million minimum. The 2020 link applies the scale from the first peso, so read it only above AR$200 million; below that nothing was owed. The 2023 link starts at the AR$100 million minimum and applies no main-home deduction. [Switzerland](/ch), [Norway](/no) and [Spain](/es) also tax wealth.
