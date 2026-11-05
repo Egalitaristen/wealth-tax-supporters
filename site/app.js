@@ -748,7 +748,7 @@ function worldMap(box, W, {seats = false} = {}) {
 
 // ---------- country ----------
 // A country has four pages: /gb (overview and map), /gb/directory, /gb/time and /gb/method.
-const SECTIONS = {map: 'Map', seats: 'Seats', directory: 'Directory', time: 'Over time', method: 'Method'};
+const SECTIONS = {story: 'Story', map: 'Map', seats: 'Seats', directory: 'Directory', time: 'Over time', method: 'Method'};
 function countryStats(D) {
   const perYear = {};
   D.E.forEach(e => { const y = +year(e[E_.date]); if (y) perYear[y] = (perYear[y] || 0) + 1; });
@@ -756,20 +756,24 @@ function countryStats(D) {
   const tally = f => { const o = {}; D.P.forEach(p => f(p).forEach(k => { if (k) o[k] = (o[k] || 0) + 1; })); return Object.entries(o).sort((a, b) => b[1] - a[1]); };
   return {perYear, years, tally, types: tally(p => [p[P_.type], ...p[P_.other]]), designs: tally(p => p[P_.des])};
 }
-async function countryPage(slug, params, section = 'map') {
+async function countryPage(slug, params, section) {
   main.innerHTML = '<div class="loading">Loading</div>';
   const D = await loadCountry(slug), m = D.meta, S = countryStats(D);
+  // A country with a story opens on it (/xx and /xx/story); its map is then /xx/map. Without a story the map is the landing page.
+  const home = m.story ? 'story' : 'map';
+  if (!section || (section === 'story' && !m.story)) section = home;
+  const ST = section === 'story' ? await getJSON(`/data/story-${slug}.json`) : null;
   if (section === 'seats' && !(D.legis || []).length) section = 'map';
   if (m.supranational && !['seats', 'directory'].includes(section)) section = 'seats';
   if (section === 'map' && !D.C.length) section = 'directory';
-  setTitle(section === 'map' ? m.name : `${SECTIONS[section]} · ${m.name}`);
+  setTitle(ST ? ST.title : section === 'map' && home === 'map' ? m.name : `${SECTIONS[section]} · ${m.name}`);
   const base = `/${slug}`;
   const {perYear, years} = S;
   const tab = (key, href, sub) => `<a href="${href}"${key === section ? ' class="on" aria-current="page"' : ''}><b>${SECTIONS[key]}</b><span>${sub}</span></a>`;
   main.innerHTML = `
   <div class="wrap fade">
-    <nav class="crumbs" aria-label="Breadcrumb">${m.supranational ? '<a href="/parliaments">All parliaments</a>' : '<a href="/countries">All countries</a>'}<span>/</span>${section === 'map' ? `<span>${esc(m.name)}</span>` : `<a href="${base}">${esc(m.name)}</a><span>/</span><span>${SECTIONS[section]}</span>`}</nav>
-    <div class="c-top">
+    <nav class="crumbs" aria-label="Breadcrumb">${m.supranational ? '<a href="/parliaments">All parliaments</a>' : '<a href="/countries">All countries</a>'}<span>/</span>${section === home ? `<span>${esc(m.name)}</span>` : `<a href="${base}">${esc(m.name)}</a><span>/</span><span>${SECTIONS[section]}</span>`}</nav>
+    ${ST ? '' : `<div class="c-top">
       <div class="c-title">
         <h1>${esc(m.name)}</h1>
         <p>${m.supranational && m.member_label === 'government' ? `${fmt(m.supporters)} member state${m.supporters === 1 ? '' : 's'} whose government has a public position for a wealth tax on the record, found so far, in ${fmt(m.evidence)} sourced statements and laws. A seat is a government, lit while it is in office. A register of what governments have said and done in public, not a vote and not a poll.`
@@ -780,13 +784,14 @@ async function countryPage(slug, params, section = 'map') {
       <div class="c-stats">
         <a href="${base}/directory"><b>${fmt(m.supporters)}</b><span>public figures and organisations found so far</span></a>
         ${(m.chambers || []).slice(0, 2).map(([name, seats, lit]) => `<a href="${base}/seats"><b>${fmt(lit)}</b><span>of ${fmt(seats)} seats in ${esc(name)}</span></a>`).join('')}
-        ${m.supranational ? '' : `<a href="${base}"><b>${fmt(m.units_with_supporters)}</b><span>local areas with a public supporter found</span></a>`}
+        ${m.supranational ? '' : `<a href="${m.story ? base + '/map' : base}"><b>${fmt(m.units_with_supporters)}</b><span>local areas with a public supporter found</span></a>`}
       </div>
-    </div>
+    </div>`}
     ${section === 'map' ? overviewHtml(D, S, base) : ''}
   </div>
   <nav class="c-tabs" aria-label="${esc(m.name)} pages"><div class="wrap">
-    ${D.C.length ? tab('map', base, `${fmt(m.units_with_supporters)} areas with supporters`) : ''}
+    ${m.story ? tab('story', base, 'the case in one read') : ''}
+    ${D.C.length ? tab('map', m.story ? `${base}/map` : base, `${fmt(m.units_with_supporters)} areas with supporters`) : ''}
     ${(D.legis || []).length ? tab('seats', `${base}/seats`, seatsTabSub(D)) : ''}
     ${tab('directory', `${base}/directory`, `${fmt(m.supporters)} entries`)}
     ${m.supranational ? '' : tab('time', `${base}/time`, years.length ? years[0] + '–' + years[years.length - 1] : 'by year')}
@@ -794,11 +799,59 @@ async function countryPage(slug, params, section = 'map') {
   </div></nav>
   <div class="wrap" id="csec"></div>`;
   const box = $('#csec');
-  if (section === 'map') mapSection(box, D, slug, params);
+  if (section === 'story') storySection(box, ST, D, slug);
+  else if (section === 'map') mapSection(box, D, slug, params);
   else if (section === 'seats') seatsSection(box, D, slug);
   else if (section === 'directory') directorySection(box, D, slug, params);
   else if (section === 'time') timeSection(box, D, slug, S);
   else methodSection(box, D, slug);
+}
+
+// ---------- country stories: data/story-<slug>.json, built from content/stories/<slug>.md ----------
+// One content schema, several layouts (front matter `layout:`). The pieces below are shared by every layout; a layout only decides how they sit on the page.
+// Story text (intro, sections[].html, sources) comes from the build, which has already escaped it and allowed only a small set of tags.
+const storyDate = d => new Date(d + 'T00:00:00').toLocaleDateString('en', {day: 'numeric', month: 'long', year: 'numeric'});
+const storyRef = id => id ? `<sup class="ref"><a href="#src-${esc(id)}">[${esc(id)}]</a></sup>` : '';
+const storyLink = (href, text) => /^https?:/.test(href) ? ext(href, esc(text) + ' ↗') : `<a href="${esc(href)}">${esc(text)}</a>`;
+const storyFacts = S => S.facts.length ? `<dl class="facts">${S.facts.map(f => `<div><dt>${esc(f.label)}</dt><dd>${esc(f.value)}${storyRef(f.source)}</dd></div>`).join('')}</dl>` : '';
+const storyToc = S => `<nav class="toc" aria-label="On this page"><ol>${S.sections.map(x => `<li><a href="#${esc(x.id)}">${esc(x.title)}</a></li>`).join('')}${S.timeline.length ? '<li><a href="#timeline">Timeline</a></li>' : ''}${S.related.length ? '<li><a href="#keep-exploring">Keep exploring</a></li>' : ''}<li><a href="#sources">Sources</a></li></ol></nav>`;
+const storyBody = S => S.sections.map(x => `<section class="story-sec" id="${esc(x.id)}"><h2><a class="anchor" href="#${esc(x.id)}" aria-label="Link to this section">#</a>${esc(x.title)}</h2>${x.html}</section>`).join('');
+const storyTimeline = S => S.timeline.length ? `<section class="story-sec" id="timeline"><h2><a class="anchor" href="#timeline" aria-label="Link to this section">#</a>Timeline</h2>
+  <ol class="timeline">${S.timeline.map(t => `<li><b>${esc(t.year)}</b><span>${esc(t.text)}${storyRef(t.source)}</span></li>`).join('')}</ol></section>` : '';
+const storyRelated = S => S.related.length ? `<section class="story-sec keep" id="keep-exploring"><h2><a class="anchor" href="#keep-exploring" aria-label="Link to this section">#</a>Keep exploring</h2>
+  <ul class="related">${S.related.map(r => `<li>${storyLink(r.href, r.label)}</li>`).join('')}</ul></section>` : '';
+const storySources = S => `<section class="story-sec" id="sources"><h2><a class="anchor" href="#sources" aria-label="Link to this section">#</a>Sources</h2>
+  <ol class="sources">${S.sources.map(r => `<li id="src-${esc(r.id)}"><span class="sn">[${esc(r.id)}]</span> ${ext(r.url, esc(r.title) + ' ↗')}</li>`).join('')}</ol></section>`;
+const storyByline = S => `<p class="byline">By <b>${esc(S.author)}</b> · Updated ${esc(storyDate(S.updated))} · ${Math.max(1, Math.round(S.words / 220))} min read</p>`;
+
+// Layout A, "article": a calm long-form column, a Key facts box beside it (under the headline on phones), the timeline as a compact list.
+function renderStoryArticle(S, ctx) {
+  return `<article class="story story-article fade">
+    <header class="story-head">
+      <div class="kicker">${flag(ctx.slug)}${esc(ctx.name)} · Story</div>
+      <h1>${esc(S.title)}</h1>
+      <p class="standfirst">${esc(S.standfirst)}</p>
+      ${storyByline(S)}
+    </header>
+    <div class="story-grid">
+      <aside class="story-side">
+        <details class="keyfacts"${matchMedia('(min-width: 900px)').matches ? ' open' : ''}><summary>Key facts</summary>${storyFacts(S)}${storyToc(S)}</details>
+      </aside>
+      <div class="story-main">
+        <div class="story-intro">${S.intro}</div>
+        ${storyBody(S)}${storyTimeline(S)}${storyRelated(S)}${storySources(S)}
+      </div>
+    </div>
+  </article>`;
+}
+// Layout B, "profile": filled in by the Norway session. Until then it falls back to the article layout, so a story with `layout: profile` still renders.
+function renderStoryProfile(S, ctx) {
+  return renderStoryArticle(S, ctx);
+}
+const STORY_LAYOUTS = {article: renderStoryArticle, profile: renderStoryProfile};
+function storySection(box, S, D, slug) {
+  box.innerHTML = (STORY_LAYOUTS[S.layout] || renderStoryArticle)(S, {slug, name: D.meta.name, D});
+  box.classList.add('story-box');
 }
 // ---------- seats: each chamber as a hemicycle, one dot per seat, lit where a supporter sits today ----------
 const litIn = body => body.parties.reduce((n, q) => n + q[3].length, 0);

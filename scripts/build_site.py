@@ -535,6 +535,180 @@ def featured(P, ev, iso2=""):
     return out
 
 
+# ---------- country stories: content/stories/<folder>.md -> data/story-<folder>.json ----------
+# Front matter (a small YAML subset: `key: value`, and lists of `- key: value` items), then a markdown body. See content/stories/README.md.
+STORIES = ROOT / "content" / "stories"
+STORY_LAYOUTS = ("article", "profile")
+STORY_LISTS = {"facts": ("label", "value"), "timeline": ("year", "text"), "related": ("label", "href"), "sources": ("id", "title", "url")}
+
+
+def _unquote(v):
+    v = v.strip()
+    if len(v) >= 2 and v[0] == v[-1] and v[0] in "\"'":
+        v = v[1:-1]
+    return v
+
+
+def parse_front_matter(text, name):
+    """(dict, body). Tolerant: unknown keys are kept, blank lines and # comments are skipped, quotes around values are optional."""
+    m = re.match(r"﻿?---[ \t]*\r?\n(.*?)\r?\n---[ \t]*\r?\n?(.*)\Z", text, re.S)
+    if not m:
+        raise SystemExit(f"{name}: a story starts with a --- front matter block")
+    fm, cur_list, item = {}, None, None
+    for raw in m.group(1).splitlines():
+        if not raw.strip() or raw.lstrip().startswith("#"):
+            continue
+        line = raw.strip()
+        if raw[:1] not in " \t":
+            k, _, v = line.partition(":")
+            k, v = k.strip(), v.strip()
+            if v == "" and k in STORY_LISTS:
+                cur_list, item = fm.setdefault(k, []), None
+            else:
+                fm[k], cur_list, item = _unquote(v), None, None
+            continue
+        if cur_list is None:
+            raise SystemExit(f"{name}: unexpected indented line {raw!r}")
+        if line.startswith("-"):
+            item = {}
+            cur_list.append(item)
+            line = line[1:].strip()
+        if line:
+            if item is None:
+                raise SystemExit(f"{name}: list item must start with '-': {raw!r}")
+            k, _, v = line.partition(":")
+            item[k.strip()] = _unquote(v)
+    return fm, m.group(2)
+
+
+def _safe_href(u):
+    """Only http(s) links and site-relative paths; anything else (javascript:, data:, protocol-relative) is dropped."""
+    u = u.strip()
+    return u if (re.match(r"https?://[^\s\"'<>]+\Z", u) or re.match(r"/(?!/)[^\s\"'<>]*\Z", u)) else ""
+
+
+def story_slug(text):
+    import unicodedata
+    t = unicodedata.normalize("NFKD", text).encode("ascii", "ignore").decode().lower()
+    return re.sub(r"[^a-z0-9]+", "-", t).strip("-")
+
+
+def story_inline(text, refs):
+    """Escape everything, then allow only **bold**, *italic*, [text](https://... or /path) and [n] source references."""
+    import html
+    stash = []
+
+    def keep(h):
+        stash.append(h)
+        return f"\x00{len(stash) - 1}\x00"
+
+    t = html.escape(text, quote=True)
+
+    def link(m):
+        href = _safe_href(html.unescape(m.group(2)))
+        if not href:
+            return m.group(1)
+        ext = href.startswith("http")
+        return keep(f'<a href="{html.escape(href, quote=True)}"' + (' target="_blank" rel="noopener noreferrer nofollow"' if ext else "") + f">{m.group(1)}</a>")
+
+    t = re.sub(r"\[([^\]\[]+)\]\(([^)\s]+)\)", link, t)
+
+    def ref(m):
+        if m.group(1) not in refs:
+            raise SystemExit(f"story: source reference [{m.group(1)}] has no entry in sources")
+        refs[m.group(1)] += 1
+        return keep(f'<sup class="ref"><a href="#src-{m.group(1)}">[{m.group(1)}]</a></sup>')
+
+    t = re.sub(r"\[(\d{1,3})\]", ref, t)
+    t = re.sub(r"\*\*(\S(?:.*?\S)?)\*\*", r"<strong>\1</strong>", t)
+    t = re.sub(r"(?<![*\w])\*(\S(?:[^*]*?\S)?)\*(?![*\w])", r"<em>\1</em>", t)
+    return re.sub(r"\x00(\d+)\x00", lambda m: stash[int(m.group(1))], t)
+
+
+def story_markdown(body, refs):
+    """Body -> (intro html, [{id, title, html}]). Blocks: ## and ### headings, paragraphs, - lists, 1. lists, > quotes (an optional last
+    line '— Name, source' is the attribution). Nothing else is passed through. `## Heading {#anchor}` fixes the anchor."""
+    sections, cur, seen = [], {"id": "", "title": "", "html": []}, set()
+    blocks = [b for b in re.split(r"\n\s*\n", body.replace("\r\n", "\n").strip()) if b.strip()]
+    for b in blocks:
+        lines = [l.rstrip() for l in b.split("\n")]
+        first = lines[0]
+        h = re.match(r"(#{2,3})\s+(.*?)(?:\s*\{#([a-z0-9-]+)\})?\s*\Z", first) if len(lines) == 1 else None
+        if h:
+            if len(h.group(1)) == 2:
+                sections.append(cur)
+                ident = h.group(3) or story_slug(h.group(2))
+                if not ident or ident in seen or ident in ("timeline", "keep-exploring", "sources") or ident.startswith("src-"):
+                    raise SystemExit(f"story: heading {h.group(2)!r} makes a duplicate or empty anchor")
+                seen.add(ident)
+                cur = {"id": ident, "title": h.group(2), "html": []}
+            else:
+                cur["html"].append(f"<h3>{story_inline(h.group(2), refs)}</h3>")
+            continue
+        if all(re.match(r"[-*]\s+", l) for l in lines):
+            cur["html"].append("<ul>" + "".join("<li>" + story_inline(re.sub(r"^[-*]\s+", "", l), refs) + "</li>" for l in lines) + "</ul>")
+        elif all(re.match(r"\d+[.)]\s+", l) for l in lines):
+            cur["html"].append("<ol>" + "".join("<li>" + story_inline(re.sub(r"^\d+[.)]\s+", "", l), refs) + "</li>" for l in lines) + "</ol>")
+        elif first.startswith(">"):
+            qs = [re.sub(r"^>\s?", "", l) for l in lines]
+            cite = ""
+            if len(qs) > 1 and re.match(r"(—|--)\s*\S", qs[-1]):
+                cite = re.sub(r"^(—|--)\s*", "", qs.pop())
+            cur["html"].append("<blockquote><p>" + story_inline(" ".join(qs), refs) + "</p>" + (f"<footer>{story_inline(cite, refs)}</footer>" if cite else "") + "</blockquote>")
+        else:
+            if re.match(r"\s*<|#", first):
+                raise SystemExit(f"story: unsupported block {first[:40]!r} (no raw HTML; headings are ## or ###)")
+            cur["html"].append("<p>" + story_inline(" ".join(l.strip() for l in lines), refs) + "</p>")
+    sections.append(cur)
+    return "".join(sections[0]["html"]), [dict(id=s["id"], title=s["title"], html="".join(s["html"])) for s in sections[1:]]
+
+
+def load_story(slug):
+    """The story for a country folder as the JSON the site loads, or None. Facts, timeline and related links are plain text the site escapes."""
+    f = STORIES / f"{slug}.md"
+    if not f.exists():
+        return None
+    fm, body = parse_front_matter(f.read_text(encoding="utf-8"), f.name)
+    for k in ("title", "standfirst", "updated"):
+        if not fm.get(k):
+            raise SystemExit(f"{f.name}: front matter needs {k}")
+    if not re.match(r"\d{4}-\d\d-\d\d\Z", fm["updated"]):
+        raise SystemExit(f"{f.name}: updated must be YYYY-MM-DD")
+    layout = fm.get("layout", "article")
+    if layout not in STORY_LAYOUTS:
+        raise SystemExit(f"{f.name}: layout must be one of {STORY_LAYOUTS}")
+    for key, fields in STORY_LISTS.items():
+        for it in fm.get(key, []):
+            for need in fields:
+                if not it.get(need):
+                    raise SystemExit(f"{f.name}: {key} item {it} needs {need}")
+    srcs = fm.get("sources", [])
+    ids = [s["id"] for s in srcs]
+    if len(set(ids)) != len(ids) or not all(re.match(r"\d{1,3}\Z", i) for i in ids):
+        raise SystemExit(f"{f.name}: source ids are unique numbers")
+    for s in srcs:
+        if not s["url"].startswith("https://"):
+            raise SystemExit(f"{f.name}: source {s['id']} needs an https url")
+    for it in fm.get("facts", []) + fm.get("timeline", []):
+        if it.get("source") and it["source"] not in ids:
+            raise SystemExit(f"{f.name}: source {it['source']} is not in sources")
+    for it in fm.get("related", []):
+        if not _safe_href(it["href"]):
+            raise SystemExit(f"{f.name}: related link {it['href']!r} must be http(s) or site-relative")
+    refs = {i: 0 for i in ids}
+    intro, sections = story_markdown(body, refs)
+    for it in fm.get("facts", []) + fm.get("timeline", []):
+        if it.get("source"):
+            refs[it["source"]] += 1
+    unused = [i for i, n in refs.items() if not n]
+    if unused:
+        print(f"  WARNING {f.name}: sources never cited: {', '.join(unused)}")
+    words = len(re.sub(r"<[^>]+>", " ", intro + " ".join(s["html"] for s in sections)).split())
+    print(f"  story {slug}: {words} words, {len(sections)} sections, layout {layout}")
+    return dict(title=fm["title"], standfirst=fm["standfirst"], updated=fm["updated"], author=fm.get("author", "Egalitaristen"), layout=layout,
+                facts=fm.get("facts", []), timeline=fm.get("timeline", []), related=fm.get("related", []), sources=srcs, intro=intro, sections=sections, words=words)
+
+
 # ---------- share pages: one small HTML file per page with its own title, description and image ----------
 SITE_URL = "https://wealthtaxsupporters.com"
 TYPE = {"politician": "Politician", "party": "Party", "government_body": "Council or public body", "academic": "Academic",
@@ -590,7 +764,8 @@ def poll_line(c):
     return f" Poll: {p.get('support_text') or str(p['support']) + '%'} in support. Asked: “{q}” ({p['pollster']}, {str(p.get('published', ''))[:4]})."
 
 
-def share_pages(out, base, countries, full, unique=None, bodies=(), resources=()):
+def share_pages(out, base, countries, full, unique=None, bodies=(), resources=(), stories=None):
+    stories = stories or {}
     PRELOAD_SLUGS.update(c["slug"] for c in countries)
     """Writes per-page HTML (and share images when Pillow is installed). Returns the number of pages."""
     try:
@@ -721,6 +896,11 @@ def share_pages(out, base, countries, full, unique=None, bodies=(), resources=()
             "method": (f"How it was built · {name}", "Method · polls, bills, sources and downloads", found,
                        f"How the {name} register was built, what polls say about a wealth tax, and the data as CSV.{poll_line(c)}"),
         }
+        st = stories.get(slug)
+        if st:  # a country with a story opens on it: /xx and /xx/story are the story, and the map moves to /xx/map
+            map_page = sections.pop("")
+            sections = {"story": (st["title"], "Story", st["standfirst"], st["standfirst"]),
+                        "map": (f"Map · {name}", "Map · where supporters are", found, map_page[3]), **sections}
         if D.get("legis"):
             sections["seats"] = (f"Seats · {name}", "Seats · who sits in the legislature", found,
                                  f"Which seats in {the(name)}'s legislature are held by supporters of a wealth tax, found so far, by party.")
@@ -750,6 +930,11 @@ def share_pages(out, base, countries, full, unique=None, bodies=(), resources=()
                 extra = " · ".join(f"{n_res[k]} {lab if n_res[k] != 1 else lab[:-1]}" for k, lab in (("poll", "polls"), ("bill", "bills"), ("paper", "papers"), ("report", "reports")) if n_res[k])
                 write(f"/{slug}/method", f"{title} · Wealth Tax Supporters", desc, slug + "-method", f"{title}: {c['supporters']:,} found so far",
                       lambda o, cc=cc, extra=extra: cards.country_method_card(o, cc, [cc[g] for g in "ABC"], extra))
+                continue
+            if sec == "story":
+                for path in (f"/{slug}", f"/{slug}/story"):
+                    write(path, f"{title} · Wealth Tax Supporters", desc, slug + "-story", f"{title}: a story by Egalitaristen",
+                          lambda o, cc=cc, st=st, units=units: cards.story_card(o, cc, units, st["title"], st["standfirst"]))
                 continue
             write(f"/{slug}" + (f"/{sec}" if sec else ""), f"{title} · Wealth Tax Supporters", desc, slug + (f"-{sec}" if sec else ""),
                   f"{title}: {c['supporters']:,} found so far",
@@ -803,7 +988,7 @@ def main():
         if f.suffix in (".js", ".css", ".svg"):
             h = hashlib.md5(f.read_bytes()).hexdigest()[:8]
             html = html.replace(f'"/{f.name}"', f'"/{f.name}?v={h}"')
-    countries, index, places, full = [], [], [], {}
+    countries, index, places, full, stories = [], [], [], {}, {}
     supras = []
     for folder in sorted(DATA.iterdir()):
         if folder.is_dir() and (folder / "meta.json").exists():
@@ -812,6 +997,11 @@ def main():
                 continue
             summary, country, idx, pl = build_country(folder)
             summary["numeric"] = numeric_for(summary["iso2"].split("-")[0])
+            story = load_story(folder.name)
+            if story:  # the story itself is a separate file, loaded only by the Story tab; the summary says that one exists
+                summary["story"] = dict(layout=story["layout"], title=story["title"])
+                json.dump(story, open(out / "data" / f"story-{folder.name}.json", "w", encoding="utf-8"), separators=(",", ":"), ensure_ascii=False)
+                stories[folder.name] = story
             countries.append(summary)
             full[folder.name] = country
             index += idx
@@ -858,7 +1048,7 @@ def main():
     html = html.replace('name="data-version" content=""', f'name="data-version" content="{dv}"')
     html = html.replace('href="/data/world.json" as="fetch"', f'href="/data/world.json?v={dv}" as="fetch"')
     (out / "index.html").write_text(html, encoding="utf-8")
-    n = share_pages(out, html, countries, full, unique, bodies, world_resources)
+    n = share_pages(out, html, countries, full, unique, bodies, world_resources, stories)
     print(f"Built {len(countries)} countr{'y' if len(countries) == 1 else 'ies'} and {n} share pages into {out}")
 
 
