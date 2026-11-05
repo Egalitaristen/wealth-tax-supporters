@@ -97,7 +97,7 @@ sources:
     title: Canton of Zurich, press release on the wealth tax, 4 Nov 2021
     url: https://www.zh.ch/de/news-uebersicht/medienmitteilungen/2021/11/eine-anpassung-der-vermoegenssteuer-haette-nicht-die-erwuenschte-wirkung.html
   - id: 7
-    title: Euronews, Wealth taxes in Europe, 29 Sep 2025 (OECD figures for 2023)
+    title: OECD figures for 2023, as reported by Euronews, Wealth taxes in Europe (29 Sep 2025)
     url: https://www.euronews.com/business/2025/09/29/wealth-taxes-in-europe-who-collects-them-and-how-much-do-they-raise
   - id: 8
     title: Swissvotes (University of Bern), vote of 30 Nov 2014 on abolishing lump-sum taxation
@@ -123,6 +123,15 @@ sources:
   - id: 15
     title: SRF, wealth concentration, a left-wing star economist demands a minimum tax for the super-rich (2026)
     url: https://www.srf.ch/news/wirtschaft/vermoegenskonzentration-linker-staroekonom-fordert-mindeststeuer-fuer-superreiche
+  - id: 16
+    title: vol.at, Swiss billionaire calls for higher taxes on the super-rich (1 Dec 2025, Tamedia report)
+    url: https://www.vol.at/schweizer-milliardaer-fordert-hoehere-steuern-fuer-superreiche/9840986
+  - id: 17
+    title: blue News, Toggenburg heir calls for higher taxes on the super-rich (2026)
+    url: https://www.bluewin.ch/de/news/schweiz/toggenburger-millionenerbe-fordert-hoehere-steuern-fuer-superreiche-3119571.html
+  - id: 18
+    title: Infosperber, "Tax the rich" in Switzerland too (Dominik Gross, Alliance Sud, 2026)
+    url: https://www.infosperber.ch/politik/tax-the-rich-auch-in-der-schweiz/
 ---
 Switzerland has taxed net wealth for generations. All 26 cantons levy the tax today, on every household above an exemption of CHF 25,000 to 200,000, and in 2023 it raised 4.3% of all Swiss tax revenue.[4][7] The Swiss record bears on the usual objections to a wealth tax: that assets cannot be valued, that the rich leave, and that it raises little.
 
@@ -171,7 +180,7 @@ None of these was a vote on the yearly wealth tax that every canton already levi
 
 The Social Democratic Party took a levy on wealth above CHF 1 billion to the National Council in 2020 and lost 66 to 126 in 2022.[12] Another motion, to give the Confederation a constitutional basis for a direct wealth tax, lost 60 to 132 in March 2024.[13] The yeses came from the Social Democrats and the Greens, with a few allies on the left.[12][13]
 
-In February 2026 the Green Liberals proposed a federal wealth tax of 0.33% above CHF 5 million, worth about CHF 2.7 billion a year.[14] The economist [Marius Brülhart](/ch/A0085) argues for a federal wealth tax in place of a higher VAT. The billionaire [Alfred Gantner](/ch/A0084) and the heir [Jan Colruyt](/ch/A0108) have called for higher taxes on the very rich, and [Alliance Sud](/ch/A0181) has costed one. A Tamedia survey in spring 2026 found 68% in favour of a federal tax to pay for the AHV pension and the army, and 25% against.[15] Try the Green Liberal scale in the [calculator](/calculator?w=20m&b=5000000:0.33&c=CHF).
+In February 2026 the Green Liberals proposed a federal wealth tax of 0.33% above CHF 5 million, worth about CHF 2.7 billion a year.[14] The economist [Marius Brülhart](/ch/A0085) argues for a federal wealth tax in place of a higher VAT. In remarks reported by Tamedia newspapers in December 2025, [Alfred Gantner](/ch/A0084), co-founder of Partners Group, gave as an example a progressive wealth tax of 1% above CHF 200 million, 1.2% at CHF 500 million and 1.5% at CHF 1 billion.[16] [Jan Colruyt](/ch/A0108), heir to a Belgian supermarket family who has lived in the Toggenburg for 25 years, called the Green Liberal scale a possible solution and said the rate could be somewhat higher.[17] [Alliance Sud](/ch/A0181) calculates that a federal rate of 2.7% on the richest 0.1% of taxpayers would bring in more than CHF 10 billion a year.[18] A Tamedia survey in spring 2026 found 68% in favour of a federal tax to pay for the AHV pension and the army, and 25% against.[15] Try the Green Liberal scale in the [calculator](/calculator?w=20m&b=5000000:0.33&c=CHF).
 
 {{supporters}}
 
@@ -183,7 +192,7 @@ Switzerland values private assets every year, for nearly everyone. Market value 
 
 ### Flight {#flight}
 
-A study of cantonal tax cuts by Brülhart, Gruber, Krapf and Schmidheiny found that rates move declared wealth: a one point cut raised it by at least 43% within six years.[4] Less than 30% of that came from people moving, and Lucerne's cut left its revenue below the starting level in 2015.[4] The rest is wealth that was hidden before and declared afterwards, which makes the case for bank reporting and a common federal floor.[4] Rates are highest in the French-speaking west,[4] and Geneva's top 1% still hold 67.3% of its wealth.[1]
+A study of cantonal tax cuts by Brülhart, Gruber, Krapf and Schmidheiny found that rates move declared wealth: a one point cut raised it by at least 43% within six years.[4] Less than 30% of that came from people moving, and Lucerne's cut left its revenue below the starting level in 2015.[4] The rest is wealth that was hidden before and declared afterwards, which makes the case for bank reporting and a common federal floor.[4] Geneva is in the French-speaking west, where rates are highest, and its top 1% still hold 67.3% of its wealth: high rates have not emptied it of large fortunes.[1][4]
 
 ### Revenue {#revenue-lesson}
 
