@@ -113,8 +113,8 @@ sources:
     title: Ley Foral 36/2022, de 28 de diciembre (Navarre), as republished in the BOE of 9 February 2023
     url: https://www.boe.es/boe/dias/2023/02/09/pdfs/BOE-A-2023-3349.pdf
   - id: 18
-    title: Garrigues, Vizcaya, Guipúzcoa y Álava publican normas forales del Impuesto Temporal de Solidaridad de las Grandes Fortunas (law firm note, for the Bizkaia norm)
-    url: https://www.garrigues.com/es_ES/noticia/vizcaya-guipuzcoa-alava-publican-normas-forales-impuesto-temporal-solidaridad-grandes.md
+    title: Juntas Generales de Bizkaia, Norma Foral 9/2023, de 15 de diciembre, Boletín Oficial de Bizkaia no. 245 of 26 December 2023
+    url: https://www.bizkaia.eus/lehendakaritza/Bao_bob/2023/12/26/I-1535_cas.pdf
   - id: 19
     title: Congreso de los Diputados, roll call of 7 June 2022 on the Unidas Podemos bill (open data, XML)
     url: https://www.congreso.es/webpublica/opendata/votaciones/Leg14/Sesion184/20220607/Votacion001/VOT_20230302184833.xml
@@ -160,6 +160,12 @@ sources:
   - id: 33
     title: AEAT, Estadística Patrimonio 2024, infographic (scope, territorio de régimen común)
     url: https://sede.agenciatributaria.gob.es/static_files/Sede/Tema/Estadisticas/Estadisticas_impuesto/Irpf_patrimonio/Patrimonio/Documentacion/Infografia.pdf
+  - id: 34
+    title: Ley 9/2023, de 3 de abril, modifying the Concierto Económico with the Basque Country (disposición adicional quinta), on the BOE
+    url: https://www.boe.es/boe/dias/2023/04/04/pdfs/BOE-A-2023-8455.pdf
+  - id: 35
+    title: Decreto Legislativo 1/2024, de 12 de marzo, libro sexto del Código tributario de Catalunya (articles 621-1 and 621-2), on the BOE
+    url: https://www.boe.es/boe/dias/2024/04/09/pdfs/BOE-A-2024-6951.pdf
 ---
 Spain taxes wealth twice. The Impuesto sobre el Patrimonio is a ceded tax: each autonomous community can set its own minimum and scale, or rebate the tax.[1][10] The Impuesto Temporal de Solidaridad de las Grandes Fortunas, created in 2022, is a state tax on net wealth above EUR 3 million, and it sets a floor under the first.[2] In 2024 the two raised EUR 2,177.6 million from 185,031 payers outside the Basque Country and Navarre, which collect their own.[8][33]
 
@@ -175,29 +181,29 @@ Ley 38/2022 of 27 December 2022 created the solidarity tax.[2] It covers individ
 
 Real Decreto-ley 8/2023 extended the tax past its first two years until wealth taxation is reviewed within the reform of regional financing.[5] Madrid, Andalusia and La Rioja had a general 100% rebate of the wealth tax. They now rebate only the amount by which the wealth-tax bill exceeds the solidarity bill, and Cantabria and Murcia follow the same rule.[10]
 
-Take EUR 20 million of net wealth with no exempt assets and the income-tax limit out of play. The base is EUR 19.3 million and the solidarity bill is EUR 453,364.07: EUR 152,223.93 from the scale's table plus 3.5% of the EUR 8,604,003.94 above EUR 10,695,996.06. A Madrid resident pays that sum in all. A Catalan resident owes EUR 434,963.93 of wealth tax on the Catalan scale and EUR 18,400.14 more on the solidarity return, which also totals EUR 453,364.07.[2][10] At EUR 5 million the Madrid resident pays EUR 22,100 and the Catalan resident EUR 59,793.69.[2][10]
+Take EUR 20 million of net wealth with no exempt assets and the income-tax limit out of play. The base is EUR 19.3 million and the solidarity bill is EUR 453,364.07: EUR 152,223.93 from the scale's table plus 3.5% of the EUR 8,604,003.94 above EUR 10,695,996.06. A Madrid resident pays that sum in all. A Catalan resident owes EUR 434,963.93 of wealth tax on the Catalan scale and EUR 18,400.14 more on the solidarity return, which also totals EUR 453,364.07.[2][10][35] At EUR 5 million the Madrid resident pays EUR 22,100 and the Catalan resident EUR 59,793.69.[2][10][35]
 
 ## What it raised {#revenue}
 
-On 20 September 2023 Hacienda reported that the first solidarity returns came from 12,010 payers, who paid EUR 623 million. Madrid supplied 10,302 payers and EUR 555 million, and Madrid, Andalusia and Galicia together supplied more than 95% of payers and of revenue.[6] For 2024 the AEAT counts 227,424 wealth-tax returns and EUR 2,177.6 million payable under the two taxes, up 11.0% from EUR 1,961.4 million in 2023.[8][9] The rebates now collect through the wealth-tax return what the solidarity return collected in 2023: the AEAT's wealth-tax summary shows EUR 2,153.7 million for 2024, which leaves EUR 23.9 million of the combined figure for the solidarity returns.[7][8]
+On 20 September 2023 Hacienda reported that the first solidarity returns came from 12,010 payers, who paid EUR 623 million. Madrid supplied 10,302 payers and EUR 555 million.[6] For 2024 the AEAT counts 227,424 wealth-tax returns and EUR 2,177.6 million payable under the two taxes, up 11.0% from EUR 1,961.4 million in 2023.[8][9] The rebates now collect through the wealth-tax return what the solidarity return collected in 2023: the AEAT's wealth-tax summary shows EUR 2,153.7 million for 2024, which leaves EUR 23.9 million of the combined figure for the solidarity returns.[7][8]
 
 ## The regions undercut each other {#competition}
 
 Where a community rebates the tax as Madrid does, only people above the solidarity threshold pay anything. Catalonia holds 94,875 of the 227,424 returns (41.7%), and 92,487 of its filers pay (97.5%). It raised EUR 768.3 million. Madrid holds 25,524 returns (11.2%), and 11,448 of its filers pay (44.9%), an average of EUR 56,808 each, for EUR 650.3 million.[8]
 
-Agrawal, Foremny and Martínez-Toledano study the return of the tax in 2011, when every region but Madrid levied it. They find that the moves of wealthy people cost the regions that lost them about six times as much income-tax revenue as the direct wealth-tax loss, and that Madrid would raise more by agreeing to a harmonised positive rate.[27] A 2026 World Inequality Lab paper finds that in 2023 Madrid had a net outflow of wealthy taxpayers for the first time since 2016. Its authors propose extending the minimum tax to net wealth between EUR 700,000 and EUR 3.7 million.[28] We argue for a state floor that starts lower.
+Agrawal, Foremny and Martínez-Toledano study the return of the tax in 2011, when every region but Madrid levied it. They find that the moves of wealthy people cost the regions that lost them six times as much income-tax revenue as the direct wealth-tax loss, and that Madrid could raise more by agreeing to a harmonised positive rate.[27] A 2026 World Inequality Lab paper finds that in 2023 Madrid had a net outflow of wealthy taxpayers for the first time since 2016. The authors say more years of data are needed to confirm that trend, and they propose extending the minimum tax to taxable wealth between EUR 700,000 and EUR 3.7 million.[28] We argue for a state floor that starts lower.
 
 ## The courts {#courts}
 
-Madrid's government, Andalusia's, Galicia's and the Madrid Assembly each asked the Constitutional Court to strike the tax down, and each lost. On 7 November 2023 the Pleno dismissed Madrid's appeal in full (STC 149/2023). It rejected each claim, from the amendment procedure to ability to pay and legal certainty, and held that the tax does not interfere with the communities' powers over the wealth tax. Four of eleven judges dissented.[11] The other three appeals fell on 22 November and 12 December, each time citing the first ruling.[12][13][14]
+Madrid's government, Andalusia's, Galicia's and the Madrid Assembly each asked the Constitutional Court to strike the tax down, and each lost. On 7 November 2023 the Pleno dismissed Madrid's appeal in full (STC 149/2023). It rejected each claim, from the amendment procedure to ability to pay and legal certainty, and held that the tax does not interfere with the communities' powers over the wealth tax. Four of the eleven judges signed a dissent.[11] The other three appeals fell on 22 November and 12 December, each time citing the first ruling.[12][13][14]
 
 ## The Basque Country and Navarre {#foral}
 
-The Basque territories and Navarre collect their own taxes. Ley 9/2023 of 3 April amended the Concierto Económico so that the Basque territories legislate the solidarity tax themselves.[16] Álava passed Norma Foral 23/2023 on 15 December 2023, Gipuzkoa Norma Foral 3/2023 on 28 December, and Bizkaia published its Norma Foral 9/2023 on 26 December.[15][16][18] Álava and Gipuzkoa share one scale: 0% on the first EUR 3.2 million of base, 1.7% from there, 2.1% from EUR 6.4 million, 2.5% from EUR 12.8 million and 3.5% above EUR 14.5 million.[15][16] Navarre added a 3.5% bracket to its wealth-tax scale above EUR 11,003,784.50 for 2022 and 2023.[17]
+Ley 9/2023 of 3 April added the solidarity tax to the Concierto Económico as a tax "concertado de normativa autónoma", so each Basque territory sets its own rules.[34] Álava passed Norma Foral 23/2023 on 15 December 2023, Gipuzkoa Norma Foral 3/2023 on 28 December, and Bizkaia published its Norma Foral 9/2023 on 26 December.[15][16][18] Álava and Gipuzkoa share one scale: 0% on the first EUR 3.2 million of base, 1.7% from there, 2.1% from EUR 6.4 million, 2.5% from EUR 12.8 million and 3.5% above EUR 14.5 million.[15][16] Bizkaia's scale is lower below that last band, at 1.5% from EUR 3.2 million, 1.75% from EUR 6.4 million and 2% from EUR 12.8 million, with an EUR 800,000 minimum.[18] Navarre added a 3.5% bracket to its wealth-tax scale above EUR 11,003,784.50 for 2022 and 2023.[17]
 
 ## The political fight {#politics}
 
-On 7 June 2022 the Congreso refused to consider the Unidas Podemos bill for a tax on fortunes above EUR 10 million, 58 votes to 277 with 4 abstentions. Every Socialist deputy who voted said no.[19] The Socialist and Unidas Podemos groups then put the solidarity tax through as an amendment, and it passed that December.[2][11] The People's Party's 2023 programme says: "Eliminaremos el impuesto a las grandes fortunas."[20] On 25 May 2026 its Finance Committee spokesperson [Pedro Puy](/es/A0112) told an Oxfam Intermón conference, elDiario.es reports, that the PP would back a Zucman-style tax on very large fortunes, while calling the wealth tax complex.[21]
+On 7 June 2022 the Congreso refused to consider the Unidas Podemos bill for a tax on fortunes above EUR 10 million, 58 votes to 277 with 4 abstentions. Every Socialist deputy who voted said no.[19] The Socialist and Unidas Podemos groups then put the solidarity tax through as an amendment, and it passed that December.[2][11] The People's Party's 2023 programme says: "Eliminaremos el impuesto a las grandes fortunas."[20] elDiario.es reported on 26 May 2026 that at an Oxfam Intermón conference the Finance Committee spokespeople of the PP, PSOE and Sumar all saw a scheme like the Zucman tax as necessary in Spain, and wrote that the PP would favour a tax on the very large fortunes created by technological change and giant companies. For the PP, [Pedro Puy](/es/A0112) called the wealth tax complex and said other mechanisms could be more effective.[21]
 
 On 30 June 2025, at a special event in Seville, Pedro Sánchez asked for international taxation that guarantees fair taxation of large fortunes.[24] On 6 February 2026 Minister Pablo Bustinduy met Gabriel Zucman in Paris to study a 2% tax on wealth above EUR 100 million.[25] On 16 September 2026 Sumar's group filed bill 122/000303 for a 3% levy on net wealth above EUR 50 million, and the Mesa admitted it on 22 September.[22] The Cortes were dissolved on 5 October and Spain votes on 29 November 2026.[23]
 
@@ -215,7 +221,7 @@ The largest gap in Spain's tax is exemption. In 2024 EUR 435.2 billion of the EU
 
 ### Flight {#flight}
 
-The Spanish evidence concerns moves between regions, and the studies cited do not measure departures from Spain. Madrid had a net outflow of wealthy taxpayers in 2023, the second year of the solidarity tax and the first outflow in the data since 2016.[28] With no exempt assets, a resident of Madrid and a resident of Catalonia owe the same from about EUR 17.6 million of net wealth. Below that the Catalan pays more, as the EUR 5 million case shows.[2][10] The floor ends the gain from moving for the largest fortunes, and a floor that started at EUR 700,000 would end it for the rest.
+The Spanish evidence concerns moves between regions, and the studies cited do not measure departures from Spain. Madrid had a net outflow of wealthy taxpayers in 2023, the second year of the solidarity tax and the first outflow in the data since 2016, and the authors say more years are needed to confirm the trend.[28] With no exempt assets, a resident of Madrid and a resident of Catalonia owe the same from about EUR 17.5 million of net wealth. Below that the Catalan pays more, as the EUR 5 million case shows.[2][10][35] The floor ends the gain from moving for the largest fortunes, and a floor that started at EUR 700,000 would end it for the rest.
 
 ### Revenue {#revenue-lesson}
 
