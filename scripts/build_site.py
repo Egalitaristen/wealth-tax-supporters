@@ -538,7 +538,7 @@ def featured(P, ev, iso2=""):
 # ---------- country stories: content/stories/<folder>.md -> data/story-<folder>.json ----------
 # Front matter (a small YAML subset: `key: value`, and lists of `- key: value` items), then a markdown body. See content/stories/README.md.
 STORIES = ROOT / "content" / "stories"
-STORY_LAYOUTS = ("article", "profile")
+STORY_LAYOUTS = ("article",)
 STORY_LISTS = {"facts": ("label", "value"), "timeline": ("year", "text"), "related": ("label", "href"), "sources": ("id", "title", "url")}
 
 

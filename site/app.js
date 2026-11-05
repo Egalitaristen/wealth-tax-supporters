@@ -860,13 +860,8 @@ function storySupporters(D, slug) {
       <ul>${rows.slice(0, 6).map(p => `<li><a href="/${slug}/${enc(p[P_.id])}">${glyph(p[P_.grade])}<span><b>${esc(p[P_.name])}</b><small>${esc([p[P_.party] && t !== 'party' ? p[P_.party] : '', p[P_.role]].filter(Boolean).join(' · ').slice(0, 70))}</small></span></a></li>`).join('')}</ul>
       ${rows.length > 6 ? `<a class="sup-more" href="/${slug}/directory?type=${enc(t)}">All ${fmt(rows.length)} →</a>` : ''}</div>`).join('')}</div>`;
 }
-// Layout B, "profile": filled in by the Norway session. Until then it falls back to the article layout, so a story with `layout: profile` still renders.
-function renderStoryProfile(S, ctx) {
-  return renderStoryArticle(S, ctx);
-}
-const STORY_LAYOUTS = {article: renderStoryArticle, profile: renderStoryProfile};
 function storySection(box, S, D, slug) {
-  box.innerHTML = (STORY_LAYOUTS[S.layout] || renderStoryArticle)(S, {slug, name: D.meta.name, D});
+  box.innerHTML = renderStoryArticle(S, {slug, name: D.meta.name, D});
   box.classList.add('story-box');
   $$('[data-block="supporters"]', box).forEach(el => { el.className = 'story-supporters'; el.innerHTML = storySupporters(D, slug); });
   // On a wide screen the section list and Key facts are always open; on a phone they start closed.

@@ -13,7 +13,7 @@ title: Switzerland has taxed wealth for 150 years
 standfirst: One or two sentences, shown under the headline and on the share card.
 updated: 2026-11-05
 author: Egalitaristen
-layout: article          # article (A) or profile (B)
+layout: article          # the only template
 facts:
   - label: Wealth tax since
     value: 1840s
@@ -56,5 +56,4 @@ Read `STYLE.md` before writing or editing a story; it points to the Humanizer sk
 
 ## Layouts
 
-`layout: article` is the story template: the section list on the left (a "Jump to" control on phones), the text in the middle, Key facts on the right (under the standfirst on phones). `layout: profile` is implemented by `renderStoryProfile` in `site/app.js`
-(until it is built it falls back to the article layout). Both read the same schema.
+`layout: article` is the story template: the section list on the left (a "Jump to" control on phones), the text in the middle, Key facts on the right (under the standfirst on phones).
