@@ -702,3 +702,21 @@ def parliaments_card(out, n_chambers, lit, seats, line):
         _footer(dr)
         _save(img, path)
     return cached(out, ["parliaments", n_chambers, lit, seats, line], draw)
+
+
+def story_card(out, c, units, title, standfirst):
+    """A country's story: the flag and 'Story' kicker, the headline, the standfirst, and the country's map when there is one."""
+    def draw(path):
+        img, dr = _canvas()
+        _kicker(img, dr, f"Story · {c['name']}", c.get("slug"))
+        lines, size = _title(dr, title, 640 if units else 1000, 3, 76, 48)
+        y = _put_title(dr, lines, size, 56, 92) + 28
+        for ln in _wrap(dr, standfirst, SANS(24), 640 if units else 1000, 4):
+            dr.text((60 * S, y * S), ln, font=SANS(24), fill=INK2); y += 33
+        dr.text((60 * S, 504 * S), "BY EGALITARISTEN", font=SANS(17, 500), fill=INK3)
+        if units:
+            _panel(dr)
+            _area_map(dr, (760, 60, 380, 436), units)
+        _footer(dr)
+        _save(img, path)
+    return cached(out, ["story", c["name"], c.get("slug"), title, standfirst, len(units)], draw)
