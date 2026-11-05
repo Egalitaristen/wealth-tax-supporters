@@ -652,6 +652,11 @@ def share_pages(out, base, countries, full, unique=None, bodies=(), resources=()
           "feedback", "Feedback and bug reports", lambda o: cards.page_card(o, "Feedback", "Tell us what to fix or improve", "Feedback, ideas and bug reports. No account needed.",
                                     [("1", "Report a bug"), ("2", "Suggest an improvement"), ("3", "Flag a mistake")]))
 
+    write("/calculator", "Wealth tax bracket calculator · Wealth Tax Supporters",
+          "Set the brackets and see what a wealth tax with a high threshold really costs: only the part above the line is taxed, so a fortune just over it pays almost nothing.",
+          "calculator", "Wealth tax bracket calculator", lambda o: cards.page_card(o, "Calculator", "Only the part above the line is taxed", "A 2% bracket over 10M: a 15M fortune pays 100,000 a year, a 9M fortune pays nothing.",
+                                    [("2%", "on the part above 10M"), ("100,000", "a year on 15M (0.67%)"), ("0", "a year on 9M")]))
+
     write("/report", "Report a mistake · Wealth Tax Supporters",
           "Something wrong in an entry, or want one about you removed or corrected? Tell us here. No account needed.",
           "report", "Report a mistake", lambda o: cards.page_card(o, "Report", "Spotted a mistake?", "Wrong, broken or out of date? Tell us, with a source if you can.",
