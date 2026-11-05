@@ -1087,7 +1087,9 @@ body:not(.ready) .foot { visibility: hidden; }
 .story-main p, .story-main li { color: var(--ink); }
 .story-main p { margin: 0 0 1.1em; }
 .story-intro { margin-bottom: 8px; }
-.story-sec { margin-top: 44px; scroll-margin-top: 150px; }
+/* html { scroll-padding-top: 150px } already clears the sticky header and tab bar, so a story anchor adds only a little air on top of it. */
+.story-sec { margin-top: 44px; scroll-margin-top: 6px; }
+.story-main h3[id] { scroll-margin-top: 6px; }
 .story-sec h2 { font: 400 clamp(26px, 3vw, 34px)/1.12 var(--serif); letter-spacing: -.012em; margin: 0 0 14px; position: relative; }
 .story-sec h2 .anchor { position: absolute; left: -.9em; color: var(--ink-3); text-decoration: none; opacity: 0; font: 400 .7em var(--mono); top: .25em; }
 .story-sec h2:hover .anchor, .story-sec h2 .anchor:focus { opacity: 1; }
@@ -1137,12 +1139,8 @@ body:not(.ready) .foot { visibility: hidden; }
 .timeline { list-style: none; padding: 0 !important; border-top: 1px solid var(--rule); }
 .timeline li { display: grid; grid-template-columns: 64px minmax(0, 1fr); gap: 14px; margin: 0 !important; padding: 10px 0; border-bottom: 1px solid var(--rule); font-size: 16.5px; line-height: 1.5; }
 .timeline b { font: 500 14px/1.7 var(--mono); color: var(--signal-2); }
-.related { list-style: none; padding: 0 !important; display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 10px; }
-.related li { margin: 0 !important; }
-.related a { display: block; padding: 12px 14px; border: 1px solid var(--rule-2); background: var(--card); text-decoration: none !important; font-size: 15.5px; line-height: 1.35; color: var(--ink); }
-.related a:hover { border-color: var(--ink); color: var(--signal); }
 .sources { list-style: none; padding: 0 !important; font-size: 15px; line-height: 1.45; }
-.sources li { display: grid; grid-template-columns: 42px minmax(0, 1fr); padding: 6px 0; margin: 0 !important; overflow-wrap: anywhere; scroll-margin-top: 150px; }
+.sources li { display: grid; grid-template-columns: 42px minmax(0, 1fr); padding: 6px 0; margin: 0 !important; overflow-wrap: anywhere; scroll-margin-top: 6px; }
 .sources li:target { background: var(--signal-soft); }
 .sources .sn { font-family: var(--mono); color: var(--ink-3); }
 @media (max-width: 899px) {
@@ -1158,8 +1156,6 @@ body:not(.ready) .foot { visibility: hidden; }
   .jump[open] summary::after { content: "−"; }
   .toc { padding: 4px 16px 10px; max-height: 50vh; overflow-y: auto; }
   .keyfacts[open] .facts { max-height: 55vh; overflow-y: auto; }
-  .story-sec { scroll-margin-top: 130px; }
-  .related { grid-template-columns: minmax(0, 1fr); }
-  .story-sec h2 .anchor { display: none; }
+    .story-sec h2 .anchor { display: none; }
   .timeline li { grid-template-columns: 52px minmax(0, 1fr); }
 }

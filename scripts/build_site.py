@@ -539,7 +539,7 @@ def featured(P, ev, iso2=""):
 # Front matter (a small YAML subset: `key: value`, and lists of `- key: value` items), then a markdown body. See content/stories/README.md.
 STORIES = ROOT / "content" / "stories"
 STORY_LAYOUTS = ("article",)
-STORY_LISTS = {"facts": ("label", "value"), "timeline": ("year", "text"), "related": ("label", "href"), "sources": ("id", "title", "url")}
+STORY_LISTS = {"facts": ("label", "value"), "timeline": ("year", "text"), "sources": ("id", "title", "url")}
 
 
 def _unquote(v):
@@ -638,12 +638,16 @@ def story_markdown(body, refs):
             if len(h.group(1)) == 2:
                 sections.append(cur)
                 ident = h.group(3) or story_slug(h.group(2))
-                if not ident or ident in seen or ident in ("timeline", "keep-exploring", "sources") or ident.startswith("src-"):
+                if not ident or ident in seen or ident in ("timeline", "sources") or ident.startswith("src-"):
                     raise SystemExit(f"story: heading {h.group(2)!r} makes a duplicate or empty anchor")
                 seen.add(ident)
                 cur = {"id": ident, "title": h.group(2), "html": []}
             else:
-                cur["html"].append(f"<h3>{story_inline(h.group(2), refs)}</h3>")
+                ident = h.group(3) or story_slug(h.group(2))
+                if not ident or ident in seen or ident in ("timeline", "sources") or ident.startswith("src-"):
+                    raise SystemExit(f"story: heading {h.group(2)!r} makes a duplicate or empty anchor")
+                seen.add(ident)
+                cur["html"].append(f'<h3 id="{ident}">{story_inline(h.group(2), refs)}</h3>')
             continue
         if b.strip() == "{{supporters}}":  # the live "who supports it" block; the site fills it from the country's register data
             cur["html"].append('<div data-block="supporters"></div>')
@@ -667,7 +671,7 @@ def story_markdown(body, refs):
 
 
 def load_story(slug):
-    """The story for a country folder as the JSON the site loads, or None. Facts, timeline and related links are plain text the site escapes."""
+    """The story for a country folder as the JSON the site loads, or None. Facts and timeline rows are plain text the site escapes."""
     f = STORIES / f"{slug}.md"
     if not f.exists():
         return None
@@ -695,9 +699,6 @@ def load_story(slug):
     for it in fm.get("facts", []) + fm.get("timeline", []):
         if it.get("source") and it["source"] not in ids:
             raise SystemExit(f"{f.name}: source {it['source']} is not in sources")
-    for it in fm.get("related", []):
-        if not _safe_href(it["href"]):
-            raise SystemExit(f"{f.name}: related link {it['href']!r} must be http(s) or site-relative")
     refs = {i: 0 for i in ids}
     intro, sections = story_markdown(body, refs)
     for it in fm.get("facts", []) + fm.get("timeline", []):
@@ -709,7 +710,7 @@ def load_story(slug):
     words = len(re.sub(r"<[^>]+>", " ", intro + " ".join(s["html"] for s in sections)).split())
     print(f"  story {slug}: {words} words, {len(sections)} sections, layout {layout}")
     return dict(title=fm["title"], standfirst=fm["standfirst"], updated=fm["updated"], author=fm.get("author", "Egalitaristen"), layout=layout,
-                facts=fm.get("facts", []), timeline=fm.get("timeline", []), related=fm.get("related", []), sources=srcs, intro=intro, sections=sections, words=words)
+                facts=fm.get("facts", []), timeline=fm.get("timeline", []), sources=srcs, intro=intro, sections=sections, words=words)
 
 
 # ---------- share pages: one small HTML file per page with its own title, description and image ----------

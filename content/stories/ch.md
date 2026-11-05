@@ -54,29 +54,6 @@ timeline:
   - year: 2026
     text: The Green Liberals propose a federal wealth tax of 0.33% above CHF 5 million.
     source: 14
-related:
-  - label: Everyone in Switzerland on the record
-    href: /ch/directory
-  - label: Where supporters are, canton by canton
-    href: /ch/map
-  - label: Seats in the Federal Assembly
-    href: /ch/seats
-  - label: When they said it
-    href: /ch/time
-  - label: How this register was built
-    href: /ch/method
-  - label: Bills, papers and polls for Switzerland
-    href: /resources?country=ch
-  - label: Swiss polls on a wealth tax
-    href: /resources?country=ch&kind=poll
-  - label: Calculator, the Green Liberal scale (0.33% above CHF 5m)
-    href: /calculator?w=20m&b=5000000:0.33&c=CHF
-  - label: Calculator, Geneva's IN 185 (0.25% above CHF 3m)
-    href: /calculator?w=20m&b=3000000:0.25&c=CHF
-  - label: Norway, the other country with a wealth tax
-    href: /no
-  - label: All countries
-    href: /countries
 sources:
   - id: 1
     title: Federal Tax Administration (ESTV), The distribution of taxable wealth in Switzerland in 2022 (29 Oct 2025)
@@ -148,7 +125,11 @@ The federal harmonisation law is short on this tax. The whole net wealth is taxa
 > The wealth tax applies to the whole net wealth.
 > — Federal harmonisation law, Art. 13 (our translation)[2]
 
-The cantons set tariffs, rates and exemptions.[2] Geneva is one example. After a deduction of CHF 82,200 for a single person and CHF 164,400 for a couple, the base scale climbs from 1.49 per mille on the first bracket to 3.83 per mille above CHF 1.67 million, and a second scale adds up to 1.15 per mille above CHF 3.3 million.[5] In 2015 the combined top rate across cantons ran from 0.13% to 1.00%, and exemption thresholds from CHF 25,000 to 200,000. Between a third and two fifths of filers in the two cantons studied owed the tax, and the wealth under the exemption was only 2.5% of the total in Lucerne and 5.4% in Bern, so most declared wealth is taxed.[4]
+The cantons set tariffs, rates and exemptions.[2] Geneva is one example. It taxes net wealth in brackets, and each rate applies only to the slice of wealth inside its bracket. The law writes rates in per mille, thousandths: 3.83 per mille is 0.383%. The base scale rises from 0.149% on the first CHF 111,059 to 0.383% on everything above CHF 1,665,879. A second scale is added on top of it. It starts at 0% and rises to 0.11475%, about 0.115%, on everything above CHF 3,331,758. Before either scale applies, a single person deducts CHF 82,200 from net wealth and a couple deducts CHF 164,400.[5]
+
+Take a single person with CHF 5,000,000 of net wealth, none of it in a business. After the deduction, CHF 4,917,800 is taxed. The base scale gives CHF 4,862 on the first CHF 1,665,879, plus 0.383% of the remaining CHF 3,251,921, which is CHF 12,455: CHF 17,317 in all. The second scale gives CHF 2,303 on the first CHF 3,331,758, plus 0.11475% of the remaining CHF 1,586,042, which is CHF 1,820: CHF 4,123 in all. Together the cantonal tax comes to about CHF 21,440 a year, 0.43% of the CHF 5 million.[5] Geneva's multiplier, the additional centimes, applies to the base scale only; the second scale carries none.[5]
+
+Across all cantons in 2015, the highest combined rate, cantonal and municipal together, ran from 0.13% to 1.00%, and exemption thresholds ran from CHF 25,000 to 200,000. In the two cantons studied, between a third and two fifths of filers had wealth above the threshold, and the wealth under it made up only 2.5% of the total in Lucerne and 5.4% in Bern, so most declared wealth is taxed.[4]
 
 ## What it raises, and who pays {#revenue}
 
@@ -197,3 +178,7 @@ A study of cantonal tax cuts by Brülhart, Gruber, Krapf and Schmidheiny found t
 ### Revenue {#revenue-lesson}
 
 Cuts do not pay for themselves: revenue falls by 2.7% to 3.6% for every 10% cut in the top rate.[4] At 4.3% of all revenue, the tax is a large item in the budget.[7]
+
+## Where to look next {#next}
+
+The [map](/ch/map) shows where support sits by canton and the [seats](/ch/seats) page shows how the parties divide the Federal Assembly. The [directory](/ch/directory) lists everyone on the record. [Bills, reports and papers](/resources?country=ch) and [polls](/resources?country=ch&kind=poll) for Switzerland are on the Resources page. The calculator has two Swiss scales ready: the [Green Liberal proposal](/calculator?w=20m&b=5000000:0.33&c=CHF) of 0.33% above CHF 5 million and [Geneva's initiative 185](/calculator?w=20m&b=3000000:0.25&c=CHF) of 0.25% above CHF 3 million. [Norway](/no) also taxes wealth.

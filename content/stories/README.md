@@ -22,9 +22,6 @@ timeline:
   - year: 1840
     text: What happened.
     source: 2
-related:
-  - label: Switzerland's supporters
-    href: /ch/directory  # site-relative or http(s)
 sources:
   - id: 1
     title: Federal Tax Administration, Steuerbelastung in der Schweiz 2024
@@ -39,7 +36,7 @@ One value per line, quotes optional. `source` ids are numbers; every id used in 
 Markdown, restricted on purpose (the build escapes everything and allows only this):
 
 - `## Heading` starts a section. Its anchor is the slugified heading (`## How it works` is `#how-it-works`); write
-  `## How it works {#how}` to fix the anchor so later wording changes never break links. `timeline`, `keep-exploring`, `sources` and `src-*` are reserved.
+  `## How it works {#how}` to fix the anchor so later wording changes never break links. `timeline`, `sources` and `src-*` are reserved.
   Text before the first `##` is the introduction.
 - `### Subheading`, paragraphs, `- ` lists, `1. ` lists, `**bold**`, `*italic*`.
 - `[text](https://...)` or `[text](/ch/directory)`: only http(s) and site-relative links survive.
