@@ -45,11 +45,16 @@ Markdown, restricted on purpose (the build escapes everything and allows only th
 - `[text](https://...)` or `[text](/ch/directory)`: only http(s) and site-relative links survive.
 - `[3]` is a numbered source reference, linked to the entry with `id: 3` in `sources`.
 - `> text` is a pull quote. A last line `> — Name, source` is its attribution.
+- `{{supporters}}` on a line of its own draws the live "Who supports it" block: parties, politicians, economists and unions from the country's register, with counts, one line of role per entry, links to each entry and to the directory. Use it once, in the section on who backs the tax, below an editorial paragraph.
 - No raw HTML, images or tables.
 
 Stable URLs: `/<folder>#<anchor>` and `/<folder>/story#<anchor>`.
 
+## Writing
+
+Read `STYLE.md` before writing or editing a story.
+
 ## Layouts
 
-`layout: article` is a calm long-form column with a Key facts box. `layout: profile` is implemented by `renderStoryProfile` in `site/app.js`
+`layout: article` is the story template: the section list on the left (a "Jump to" control on phones), the text in the middle, Key facts on the right (under the standfirst on phones). `layout: profile` is implemented by `renderStoryProfile` in `site/app.js`
 (until it is built it falls back to the article layout). Both read the same schema.

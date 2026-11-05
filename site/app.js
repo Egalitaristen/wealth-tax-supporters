@@ -814,7 +814,7 @@ const storyDate = d => new Date(d + 'T00:00:00').toLocaleDateString('en', {day: 
 const storyRef = id => id ? `<sup class="ref"><a href="#src-${esc(id)}">[${esc(id)}]</a></sup>` : '';
 const storyLink = (href, text) => /^https?:/.test(href) ? ext(href, esc(text) + ' ↗') : `<a href="${esc(href)}">${esc(text)}</a>`;
 const storyFacts = S => S.facts.length ? `<dl class="facts">${S.facts.map(f => `<div><dt>${esc(f.label)}</dt><dd>${esc(f.value)}${storyRef(f.source)}</dd></div>`).join('')}</dl>` : '';
-const storyToc = S => `<nav class="toc" aria-label="On this page"><ol>${S.sections.map(x => `<li><a href="#${esc(x.id)}">${esc(x.title)}</a></li>`).join('')}${S.timeline.length ? '<li><a href="#timeline">Timeline</a></li>' : ''}${S.related.length ? '<li><a href="#keep-exploring">Keep exploring</a></li>' : ''}<li><a href="#sources">Sources</a></li></ol></nav>`;
+const storyToc = S => `<ol class="toc">${S.sections.map(x => `<li><a href="#${esc(x.id)}">${esc(x.title)}</a></li>`).join('')}${S.timeline.length ? '<li><a href="#timeline">Timeline</a></li>' : ''}${S.related.length ? '<li><a href="#keep-exploring">Keep exploring</a></li>' : ''}<li><a href="#sources">Sources</a></li></ol>`;
 const storyBody = S => S.sections.map(x => `<section class="story-sec" id="${esc(x.id)}"><h2><a class="anchor" href="#${esc(x.id)}" aria-label="Link to this section">#</a>${esc(x.title)}</h2>${x.html}</section>`).join('');
 const storyTimeline = S => S.timeline.length ? `<section class="story-sec" id="timeline"><h2><a class="anchor" href="#timeline" aria-label="Link to this section">#</a>Timeline</h2>
   <ol class="timeline">${S.timeline.map(t => `<li><b>${esc(t.year)}</b><span>${esc(t.text)}${storyRef(t.source)}</span></li>`).join('')}</ol></section>` : '';
@@ -824,7 +824,8 @@ const storySources = S => `<section class="story-sec" id="sources"><h2><a class=
   <ol class="sources">${S.sources.map(r => `<li id="src-${esc(r.id)}"><span class="sn">[${esc(r.id)}]</span> ${ext(r.url, esc(r.title) + ' ↗')}</li>`).join('')}</ol></section>`;
 const storyByline = S => `<p class="byline">By <b>${esc(S.author)}</b> · Updated ${esc(storyDate(S.updated))} · ${Math.max(1, Math.round(S.words / 220))} min read</p>`;
 
-// Layout A, "article": a calm long-form column, a Key facts box beside it (under the headline on phones), the timeline as a compact list.
+// Layout A, "article": the story template. Three columns on a wide screen (sections on the left, the text, Key facts on the right); on a phone,
+// a "Jump to" control comes first, then Key facts under the standfirst, then the text.
 function renderStoryArticle(S, ctx) {
   return `<article class="story story-article fade">
     <header class="story-head">
@@ -834,8 +835,9 @@ function renderStoryArticle(S, ctx) {
       ${storyByline(S)}
     </header>
     <div class="story-grid">
+      <nav class="story-nav" aria-label="On this page"><details class="jump"><summary>Jump to</summary>${storyToc(S)}</details></nav>
       <aside class="story-side">
-        <details class="keyfacts"${matchMedia('(min-width: 900px)').matches ? ' open' : ''}><summary>Key facts</summary>${storyFacts(S)}${storyToc(S)}</details>
+        <details class="keyfacts"><summary>Key facts</summary>${storyFacts(S)}</details>
       </aside>
       <div class="story-main">
         <div class="story-intro">${S.intro}</div>
@@ -843,6 +845,20 @@ function renderStoryArticle(S, ctx) {
       </div>
     </div>
   </article>`;
+}
+// The "Who supports it" block, drawn from the country's register data. A story asks for it with a line `{{supporters}}` in its markdown;
+// the build leaves an empty <div data-block="supporters"> there and storySection fills it in. Groups: parties, politicians, economists, unions.
+const STORY_GROUPS = [['party', 'Parties'], ['politician', 'Politicians'], ['economist', 'Economists'], ['union', 'Unions']];
+function storySupporters(D, slug) {
+  const P = D.P || [];
+  if (!P.length) return '';
+  const has = (p, t) => p[P_.type] === t || p[P_.other].includes(t);
+  const groups = STORY_GROUPS.map(([t, title]) => [t, title, P.filter(p => has(p, t)).sort(byStrength)]).filter(g => g[2].length);
+  const explicit = P.filter(p => p[P_.grade] === 'A').length;
+  return `<p class="sup-live"><b>${fmt(P.length)}</b> entries in the ${esc(D.meta.name)} register, <b>${fmt(explicit)}</b> with an explicit statement, vote or law behind them. <a href="/${slug}/directory">Open the directory →</a></p>
+    <div class="sup-cols">${groups.map(([t, title, rows]) => `<div class="sup-col"><h3>${esc(title)} <span>${fmt(rows.length)}</span></h3>
+      <ul>${rows.slice(0, 6).map(p => `<li><a href="/${slug}/${enc(p[P_.id])}">${glyph(p[P_.grade])}<span><b>${esc(p[P_.name])}</b><small>${esc([p[P_.party] && t !== 'party' ? p[P_.party] : '', p[P_.role]].filter(Boolean).join(' · ').slice(0, 70))}</small></span></a></li>`).join('')}</ul>
+      ${rows.length > 6 ? `<a class="sup-more" href="/${slug}/directory?type=${enc(t)}">All ${fmt(rows.length)} →</a>` : ''}</div>`).join('')}</div>`;
 }
 // Layout B, "profile": filled in by the Norway session. Until then it falls back to the article layout, so a story with `layout: profile` still renders.
 function renderStoryProfile(S, ctx) {
@@ -852,6 +868,22 @@ const STORY_LAYOUTS = {article: renderStoryArticle, profile: renderStoryProfile}
 function storySection(box, S, D, slug) {
   box.innerHTML = (STORY_LAYOUTS[S.layout] || renderStoryArticle)(S, {slug, name: D.meta.name, D});
   box.classList.add('story-box');
+  $$('[data-block="supporters"]', box).forEach(el => { el.className = 'story-supporters'; el.innerHTML = storySupporters(D, slug); });
+  // On a wide screen the section list and Key facts are always open; on a phone they start closed.
+  const wide = matchMedia('(min-width: 900px)'), panels = $$('.story-nav details, .keyfacts', box);
+  const sync = () => panels.forEach(d => { d.open = wide.matches; });
+  sync(); wide.addEventListener('change', sync);
+  // The section list marks where the reader is.
+  const links = new Map($$('.story-nav .toc a', box).map(a => [a.getAttribute('href').slice(1), a]));
+  const secs = [...links.keys()].map(id => document.getElementById(id)).filter(Boolean);
+  const prev = leaving;
+  let io = null;
+  if (secs.length && 'IntersectionObserver' in window) {
+    io = new IntersectionObserver(es => es.forEach(e => { const a = links.get(e.target.id); if (a && e.isIntersecting) { links.forEach(x => x.removeAttribute('aria-current')); a.setAttribute('aria-current', 'location'); } }),
+      {rootMargin: '-150px 0px -65% 0px'});
+    secs.forEach(x => io.observe(x));
+  }
+  leaving = () => { if (io) io.disconnect(); wide.removeEventListener('change', sync); prev(); };
 }
 // ---------- seats: each chamber as a hemicycle, one dot per seat, lit where a supporter sits today ----------
 const litIn = body => body.parties.reduce((n, q) => n + q[3].length, 0);

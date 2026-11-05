@@ -645,6 +645,9 @@ def story_markdown(body, refs):
             else:
                 cur["html"].append(f"<h3>{story_inline(h.group(2), refs)}</h3>")
             continue
+        if b.strip() == "{{supporters}}":  # the live "who supports it" block; the site fills it from the country's register data
+            cur["html"].append('<div data-block="supporters"></div>')
+            continue
         if all(re.match(r"[-*]\s+", l) for l in lines):
             cur["html"].append("<ul>" + "".join("<li>" + story_inline(re.sub(r"^[-*]\s+", "", l), refs) + "</li>" for l in lines) + "</ul>")
         elif all(re.match(r"\d+[.)]\s+", l) for l in lines):
