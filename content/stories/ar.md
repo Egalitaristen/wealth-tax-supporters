@@ -119,7 +119,7 @@ sources:
     title: Tiempo Argentino, interview with Claudio Lozano, Hay que construir mayorías para terminar con este gobierno (12 October 2025)
     url: https://www.tiempoar.com.ar/ta_article/claudio-lozano-hay-que-construir-mayorias-para-terminar-con-este-gobierno
 ---
-Argentina has taxed personal wealth since 1991. In December 2020 it added a one-off contribution of 2% to 3.5% on fortunes above AR$200 million, which raised AR$248 billion from about 10,000 payers.[2][1][6] A 2024 law then cut the standing tax, and its rate falls to a flat 0.25% in 2027.[3] In the returns for 2024, 82% of the assets of the largest filers are held abroad.[7]
+Argentina has taxed personal wealth since 1991. In December 2020 it added a one-off contribution of 2% to 3.5% on fortunes above AR$200 million, which raised AR$248 billion from about 10,000 payers.[2][1][6] A 2024 law then cut the standing tax, and its rate falls to a flat 0.25% in 2027.[3] Among the 515 returns for 2024 with taxable assets above AR$5 billion, about US$4.8 million, 82% of declared assets are held abroad.[7][9]
 
 ## The tax in force {#bienes-personales}
 
@@ -163,7 +163,9 @@ The Supreme Court is the last stop. In July 2025 the Salta appeals court sent it
 
 ## Who supports it {#who-supports}
 
-[Carlos Heller](/ar/A0001) was one of the bill's authors and presented it to the Chamber.[4] President [Alberto Fernández](/ar/A0207) promulgated the law by Decreto 1024/2020, which Economy Minister [Martín Guzmán](/ar/A0005) countersigned.[1] The economist [Claudio Lozano](/ar/A0031) proposes a tax on everyone with more than US$1 million, aimed at the largest fortunes.[19] The [Instituto de Pensamiento y Políticas Públicas](/ar/A0004) published a 2024 report with Lozano among its authors. It proposes a surcharge on Bienes Personales for the 50 largest fortunes and puts the yield at US$2 billion.[18]
+[Carlos Heller](/ar/A0001) was one of the bill's authors and presented it to the Chamber.[4] President [Alberto Fernández](/ar/A0207) promulgated the law by Decreto 1024/2020, which Economy Minister [Martín Guzmán](/ar/A0005) countersigned.[1] The economist [Claudio Lozano](/ar/A0031) proposes a tax on everyone with wealth above US$1 million, at differential rates.[19] The [Instituto de Pensamiento y Políticas Públicas](/ar/A0004) published a 2024 report with Lozano among its authors. It proposes a surcharge on Bienes Personales for the 50 largest fortunes and puts the yield at US$2 billion.[18]
+
+The register lists the 133 deputies who voted for the law and 41 of the 42 senators.[4][5]
 
 {{supporters}}
 
@@ -179,7 +181,7 @@ For fiscal year 2024, 25% of declared assets, AR$24 trillion, were held outside 
 
 The 2024 amnesty brought assets into view. After two of its three stages ARCA counted US$31 billion declared by about 278,000 taxpayers, of which 16,000 of 267,000 accounts were abroad. The first US$100,000 cost nothing, and the rate above it was 10% in stage 2 and 15% in stage 3.[11] INDEC puts the external financial assets of companies, funds and households at US$431 billion at the end of 2025, a wider scope than the returns cover.[12]
 
-The 2020 law taxed foreign assets at up to 5.25% unless 30% came home. The 2023 to 2027 scale taxes assets at home and abroad alike.[1][2] We argue for the 2024 rule on assets abroad, and against an amnesty after a levy.
+The 2020 law taxed foreign assets at up to 5.25% unless 30% came home. The 2023 to 2027 scale taxes assets at home and abroad alike.[1][2] We argue for taxing assets abroad at the same rate as assets at home, as the 2023 to 2027 scale does, and against an amnesty after a levy.
 
 ### Flight {#flight}
 
@@ -191,4 +193,4 @@ A one-off levy raised AR$248 billion in a year.[6] The standing tax raised AR$2.
 
 ## Where to look next {#next}
 
-The [map](/ar/map) shows where support sits and the [seats](/ar/seats) page shows how the blocs divide Congress. The [directory](/ar/directory) lists everyone on the record, [time](/ar/time) shows support by year and [method](/ar/method) lists the sources. [Bills and reports](/resources?country=ar) for Argentina are on the Resources page. The calculator has Argentine scales ready: the [2020 contribution](/calculator?w=1bn&b=0:2,300000000:2.25,400000000:2.5,600000000:2.75,800000000:3,1500000000:3.25,3000000000:3.5&c=AR$) of 2% to 3.5%, and the [2023 Bienes Personales scale](/calculator?w=1bn&b=100000000:0.5,113688704.13:0.75,129658858.97:1,182132224.82:1.25,556290137.84:1.5&c=AR$) above the AR$100 million minimum. [Switzerland](/ch), [Norway](/no) and [Spain](/es) also tax wealth.
+The [map](/ar/map) shows where support sits and the [seats](/ar/seats) page shows how the blocs divide Congress. The [directory](/ar/directory) lists everyone on the record, [time](/ar/time) shows support by year and [method](/ar/method) lists the sources. [Bills and reports](/resources?country=ar) for Argentina are on the Resources page. The calculator has Argentine scales ready: the [2020 contribution](/calculator?w=1bn&b=0:2,300000000:2.25,400000000:2.5,600000000:2.75,800000000:3,1500000000:3.25,3000000000:3.5&c=AR$) of 2% to 3.5%, and the [2023 Bienes Personales scale](/calculator?w=1bn&b=100000000:0.5,113688704.13:0.75,129658858.97:1,182132224.82:1.25,556290137.84:1.5&c=AR$) above the AR$100 million minimum. The 2020 link applies the scale from the first peso, so read it only above AR$200 million; below that line nothing was owed. The 2023 link has no such trap: its first rate starts at the AR$100 million minimum, and it applies no main-home deduction. [Switzerland](/ch), [Norway](/no) and [Spain](/es) also tax wealth.
