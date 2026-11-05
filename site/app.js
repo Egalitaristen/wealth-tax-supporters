@@ -144,6 +144,7 @@ async function render(fresh) {
     else if (parts[0] === 'about' && parts.length === 1) aboutPage(W);
     else if (parts[0] === 'directory' && parts.length === 1) await globalDirectory(W, params);
     else if ((parts[0] === 'contribute' || parts[0] === 'suggest') && parts.length === 1) contributePage(W, params);
+    else if (parts[0] === 'calculator' && parts.length === 1) calcPage(params);
     else if (parts[0] === 'feedback' && parts.length === 1) feedbackPage(params);
     else if (parts[0] === 'report' && parts.length === 1) reportPage(params);
     else if (country && parts.length === 1) await countryPage(country.slug, params);
@@ -1494,6 +1495,8 @@ function methodPage(W) {
     </div>
     <aside class="aside-card"><h3>Spotted a mistake?</h3><p>Say which entry is wrong and, if you can, link a source. No account needed.</p>
       <p><a class="btn sm" href="${reportUrl()}">Report a mistake →</a></p>
+      <div class="kicker" style="margin-top:22px">Try it</div>
+      <ul class="alinks"><li><a href="/calculator">Wealth tax bracket calculator</a></li></ul>
       <div class="kicker" style="margin-top:22px">Help build it</div>
       <ul class="alinks">
         <li><a href="/contribute#suggest">Suggest a supporter we missed</a></li>
@@ -1626,6 +1629,235 @@ async function globalDirectory(W, params) {
   sg.addEventListener('change', () => { ST.grade = sg.value; changed(); });
   ss.addEventListener('change', () => { ST.sort = ss.value; changed(); });
   draw();
+}
+
+// ---------- the bracket calculator ----------
+// Every preset is a scheme the register documents with a source (data/resources.json); `src` is the page the scale was read from.
+const CALC_PRESETS = [
+  {id: 'es', label: 'Spain: solidarity tax on large fortunes', cur: 'EUR', mode: 'm', rows: [[3700000, 1.7], [6047998.03, 2.1], [11395996.06, 3.5]],
+    note: 'In force since 2022. The law taxes the base after a €700,000 exemption, in bands from €3,000,000 at 1.7%, 2.1% and 3.5%; the thresholds here add the €700,000 back, so they apply to net wealth. The regional wealth tax paid can be deducted, which this ignores.',
+    src: ['https://www.boe.es/eli/es/l/2022/12/27/38', 'Ley 38/2022, art. 3 and the scale']},
+  {id: 'us', label: 'US: Ultra-Millionaire Tax Act (Warren)', cur: 'USD', mode: 'm', rows: [[50000000, 2], [1000000000, 3]],
+    note: 'A bill of 2021 that lapsed: 2% on net worth between $50 million and $1 billion, 3% above $1 billion (6% in a year when a Medicare for All law is in effect, not shown).',
+    src: ['https://www.govinfo.gov/content/pkg/BILLS-117hr1459ih/html/BILLS-117hr1459ih.htm', 'H.R. 1459, section 2901']},
+  {id: 'zu', label: 'Zucman: 2% minimum on billionaires', cur: 'USD', mode: 'w', rows: [[1000000000, 2]],
+    note: 'Proposed to the G20: billionaires pay at least 2% of their whole wealth a year, counting the income tax they already pay. Shown here as 2% of all wealth with no income tax paid, so it is the top of the range. The report itself notes the jump at $1 billion and considers a lower starting point.',
+    src: ['https://gabriel-zucman.eu/files/report-g20.pdf', 'A blueprint for a coordinated minimum effective taxation standard, section 2.1']},
+  {id: 'ca', label: 'California Proposition 40 (one-off)', cur: 'USD', mode: 'w', rows: [[1000000000, 5]],
+    note: 'A one-time tax on the net worth of California residents on 1 January 2026 with more than $1 billion; real estate and most pensions are excluded. The ballot summary says “up to 5%”; the analysis describes 5% of net worth. A single payment, not a yearly tax.',
+    src: ['https://vig.cdn.sos.ca.gov/2026/general/pdf/prop40-title-summ-analysis.pdf', 'Title and summary, Legislative Analyst']},
+  {id: 'no', label: 'Norway: state wealth tax 2026', cur: 'NOK', mode: 'm', rows: [[1900000, 0.65], [21500000, 0.75]],
+    note: 'In force. The state rates for a single taxpayer; couples taxed together have twice the thresholds. A municipal rate of up to 0.35% comes on top and is not included.',
+    src: ['https://stortinget.no/no/Saker-og-publikasjoner/Vedtak/Vedtak/Sak/?p=104915', 'Storting tax decision for 2026, § 2-1']},
+];
+const CALC_CUR = {EUR: '€', USD: '$', GBP: '£', CHF: 'CHF '};
+const CALC_MIN = 1e6, CALC_MAX = 1e11;
+
+// "15m", "1bn", "10,000,000" -> a number; NaN for anything else.
+function parseAmount(s) {
+  const m = /^(\d*\.?\d+)(k|m|mn|b|bn)?$/.exec(String(s ?? '').trim().toLowerCase().replace(/[\s,_']/g, ''));
+  return m ? Number(m[1]) * ({k: 1e3, m: 1e6, mn: 1e6, b: 1e9, bn: 1e9}[m[2]] || 1) : NaN;
+}
+// Tax on wealth w. Marginal: each rate applies to the slice of wealth in its band. Whole: once wealth passes a threshold, its rate applies to all of it.
+function calcTax(rows, mode, w) {
+  if (mode === 'w') { let r = 0; for (const [t, p] of rows) if (w > t) r = p; return w * r / 100; }
+  let tax = 0;
+  rows.forEach(([t, p], i) => { const hi = i + 1 < rows.length ? rows[i + 1][0] : Infinity; tax += Math.max(0, Math.min(w, hi) - t) * p / 100; });
+  return tax;
+}
+const calcMarginal = (rows, w) => rows.reduce((r, [t, p]) => w > t ? p : r, 0);
+const calcShort = n => { const f = (v, u) => +(v).toPrecision(3) + u; return n >= 1e9 ? f(n / 1e9, 'bn') : n >= 1e6 ? f(n / 1e6, 'M') : n >= 1e3 ? f(n / 1e3, 'k') : String(+n.toPrecision(3)); };
+const calcPct = (x, d = 2) => x.toFixed(d);
+
+function calcPage(params) {
+  setTitle('Wealth tax bracket calculator');
+  // State, restored from the query string: w (wealth), b (t:rate,t:rate), c (currency), m=w (rate on the whole of wealth).
+  let wealth = parseAmount(params.get('w'));
+  if (!(wealth >= 0 && wealth <= 1e15)) wealth = 15e6;
+  let rows = (params.get('b') || '').split(',').map(x => x.split(':').map(Number));
+  if (!rows.length || rows.some(r => r.length !== 2 || !(r[0] >= 0) || !(r[1] >= 0 && r[1] <= 100) || !isFinite(r[0])) || rows.some((r, i) => i && r[0] <= rows[i - 1][0]) || !params.get('b')) rows = [[10e6, 2]];
+  let mode = params.get('m') === 'w' ? 'w' : 'm';
+  let cur = (params.get('c') || 'EUR').replace(/[^\p{L}\p{N}$€£¥]/gu, '').slice(0, 5) || 'EUR';
+  main.innerHTML = `
+  <div class="wrap page-head fade"><div class="kicker">Arguments · Calculator</div><h1>A high threshold means <em>nobody near it pays much.</em></h1>
+    <p class="lede" style="margin-top:18px">A wealth tax with a high threshold works like income-tax brackets: only the part of a fortune above the line is taxed. A fortune just over it pays almost nothing, and one just under it pays nothing at all. Set the brackets and see.</p></div>
+  <div class="wrap two" style="margin-top:36px">
+    <div class="calc">
+      <div class="calc-box">
+        <div class="calc-top">
+          <label class="calc-w"><span>Net wealth</span><input class="field num" id="cw" inputmode="decimal" autocomplete="off" aria-describedby="cw-help"></label>
+          <label class="calc-c"><span>Currency</span><select class="field" id="cc" aria-describedby="cc-help">
+            ${Object.entries(CALC_CUR).map(([k, v]) => `<option value="${k}">${k} ${v.trim()}</option>`).join('')}<option value="OTHER">Other symbol…</option></select></label>
+          <label class="calc-c" id="co-wrap" hidden><span>Symbol</span><input class="field" id="co" maxlength="5" autocomplete="off" placeholder="kr"></label>
+        </div>
+        <label class="calc-s"><span class="sr">Net wealth slider, from 1 million to 100 billion, on a log scale</span>
+          <input type="range" id="cs" min="0" max="1000" step="1"><span class="calc-sl"><span>1M</span><span>10M</span><span>100M</span><span>1bn</span><span>10bn</span><span>100bn</span></span></label>
+        <p class="fine" id="cw-help">Type a number, or something like 15m or 2bn. The currency symbol is only for display; nothing is converted. <span id="cc-help"></span></p>
+
+        <h2 class="calc-h">Brackets</h2>
+        <div class="calc-modes kinds" role="radiogroup" aria-label="How the rate applies">
+          <label><input type="radio" name="mode" value="m"> Only the part above each threshold</label>
+          <label><input type="radio" name="mode" value="w"> The whole fortune once past it</label>
+        </div>
+        <div class="calc-rows" id="cb"></div>
+        <div class="calc-actions"><button type="button" class="btn sm ghost" id="c-add">Add a bracket</button></div>
+        <p class="calc-err" id="c-err" role="alert"></p>
+
+        <h2 class="calc-h">Start from a real scheme</h2>
+        <div class="calc-presets" id="cp">${CALC_PRESETS.map(p => `<button type="button" class="btn sm ghost" data-p="${p.id}" aria-pressed="false">${esc(p.label)}</button>`).join('')}</div>
+        <p class="fine" id="cp-note" aria-live="polite"></p>
+      </div>
+
+      <div class="calc-box" id="c-res" aria-live="polite"></div>
+      <div class="calc-box"><h2 class="calc-h" style="margin-top:0">Share of total wealth paid, by size of fortune</h2>
+        <div id="c-chart"></div>
+        <p class="fine">Both axes are as you set them: wealth on a log scale from 1 million to 100 billion, tax as a share of everything owned.</p></div>
+      <div class="calc-box"><h2 class="calc-h" style="margin-top:0">Worked examples</h2><div class="calc-tw" id="c-ex"></div></div>
+      <p class="fine" style="margin-top:14px"><a id="c-share" href="/calculator">Link to this result</a> · the link holds your wealth, brackets and currency.</p>
+    </div>
+    <aside class="aside-card"><h3>The arithmetic</h3>
+      <p>A 2% bracket starting at 10 million taxes a 15 million fortune on the 5 million above the line: <b>100,000 a year</b>, or 0.67% of everything it owns. A 9 million fortune pays <b>nothing</b>.</p>
+      <p><button type="button" class="btn sm" id="c-demo">Show this example</button></p>
+      <p class="fine" style="margin-top:18px">Illustration of the arithmetic, not tax advice. Real schemes also differ in what counts as taxable net wealth: debts deducted, exemptions, how assets are valued.</p>
+      <div class="kicker" style="margin-top:22px">More</div>
+      <ul class="alinks"><li><a href="/method">How the register is built</a></li><li><a href="/resources?kind=bill">Bills and laws in the register</a></li></ul></aside>
+  </div>
+  <div class="wrap"><div class="prose" style="padding-bottom:90px">
+    <h2>It works like income tax</h2>
+    <p>Nobody pays their top income-tax rate on every euro they earn. The first slice is taxed lightly or not at all, and each higher rate bites only on the slice above its line. A wealth tax with brackets is built the same way. With 2% above 10 million, the first 10 million of any fortune is never touched. Only what lies above is taxed.</p>
+    <p>That is why the share of total wealth starts at zero and climbs slowly. A fortune of 10.1 million pays 2,000 a year, about 0.02% of what it owns. At 15 million the share is 0.67%, at 50 million it is 1.60%, and at a billion it is 1.98%. It approaches the headline rate and never reaches it. Nobody is ruined by crossing the line, because the line is not a cliff.</p>
+    <h2>Why the design matters</h2>
+    <p>The alternative is a rate on the whole fortune once it passes a line. Two of the presets work that way, and the chart shows the cost: a jump at the threshold, where a little more wealth means a lot more tax. A bracket scale removes the jump, and with it most of the reason to hide a few million to stay under the line.</p>
+    <h2>What this does not show</h2>
+    <p>This is an illustration of the arithmetic, not tax advice. Real schemes also differ in what counts as taxable net wealth: debts are deducted, homes and pensions are often exempt, assets are valued by different rules. The presets give the headline scale only, each read from the law, bill or proposal linked under it. Where the register has no source for a scale, there is no preset.</p>
+  </div></div>`;
+
+  const cw = $('#cw'), cs = $('#cs'), cc = $('#cc'), co = $('#co'), cb = $('#cb'), err = $('#c-err');
+  const money = n => {
+    const s = cc.value in CALC_CUR ? CALC_CUR[cc.value] : (co.value.trim() ? co.value.trim() + ' ' : '');
+    return s + Math.round(n).toLocaleString('en');
+  };
+  const moneyShort = n => money(0).replace(/0$/, '') + calcShort(n);
+  const toSlider = w => Math.round(1000 * (Math.log10(Math.min(CALC_MAX, Math.max(CALC_MIN, w))) - 6) / 5);
+  const fromSlider = v => { const x = Math.pow(10, 6 + v * 5 / 1000); const p = Math.pow(10, Math.floor(Math.log10(x)) - 2); return Math.round(x / p) * p; };
+  const setCur = c => {
+    if (c in CALC_CUR) cc.value = c; else { cc.value = 'OTHER'; co.value = c; }
+    $('#co-wrap').hidden = cc.value !== 'OTHER';
+  };
+  const urlCur = () => cc.value === 'OTHER' ? (co.value.trim().replace(/[^\p{L}\p{N}$€£¥]/gu, '').slice(0, 5) || 'OTHER') : cc.value;
+
+  // Bracket rows: built once per change in the number of rows; typing only recalculates.
+  const drawRows = () => {
+    cb.innerHTML = `<div class="calc-row calc-head" aria-hidden="true"><span>Over</span><span>Rate %</span><span></span></div>` + rows.map((r, i) => `
+      <div class="calc-row"><input class="field num" data-k="t" inputmode="decimal" autocomplete="off" aria-label="Bracket ${i + 1}: wealth over" value="${esc(r[0].toLocaleString('en', {maximumFractionDigits: 2}))}">
+        <input class="field num" data-k="r" inputmode="decimal" autocomplete="off" aria-label="Bracket ${i + 1}: rate in percent" value="${esc(r[1])}">
+        <button type="button" class="btn sm ghost" data-del="${i}" aria-label="Remove bracket ${i + 1}"${rows.length < 2 ? ' disabled' : ''}>Remove</button></div>`).join('');
+    $$('input[name=mode]').forEach(i => i.checked = i.value === mode);
+  };
+  // Reads the table, returns {rows, error}; marks bad fields.
+  const readRows = () => {
+    const out = []; let bad = '';
+    $$('.calc-row:not(.calc-head)', cb).forEach((tr, i) => {
+      const t = tr.querySelector('[data-k=t]'), r = tr.querySelector('[data-k=r]');
+      const tv = parseAmount(t.value), rv = /^\d*\.?\d+$/.test(r.value.trim().replace(',', '.')) ? Number(r.value.trim().replace(',', '.')) : NaN;
+      const prev = out.length ? out[out.length - 1][0] : -1;
+      const tb = !(tv >= 0) ? 'Bracket ' + (i + 1) + ': the threshold must be a number (15m, 2bn or 10,000,000).' : tv <= prev ? 'Bracket ' + (i + 1) + ': thresholds must go up, each above the one before.' : '';
+      const rb = !(rv >= 0 && rv <= 100) ? 'Bracket ' + (i + 1) + ': the rate must be a number from 0 to 100.' : '';
+      t.setAttribute('aria-invalid', tb ? 'true' : 'false'); r.setAttribute('aria-invalid', rb ? 'true' : 'false');
+      bad = bad || tb || rb;
+      out.push([tv, rv]);
+    });
+    return {rows: out, error: bad};
+  };
+
+  const sample = (rs, md) => {
+    const pts = [];
+    for (let i = 0; i <= 200; i++) { const w = Math.pow(10, 6 + 5 * i / 200); pts.push([w, calcTax(rs, md, w) / w * 100]); }
+    for (const [t] of rs) if (t > CALC_MIN && t < CALC_MAX) { pts.push([t, calcTax(rs, md, t) / t * 100], [t * 1.00001, calcTax(rs, md, t * 1.00001) / (t * 1.00001) * 100]); }
+    return pts.sort((a, b) => a[0] - b[0]);
+  };
+  const chart = (rs, md, w, eff) => {
+    const W = 420, H = 290, L = 46, R = 14, T = 18, B = 40, pw = W - L - R, ph = H - T - B;
+    const pts = sample(rs, md), mx = Math.max(...pts.map(p => p[1]));
+    const ymax = [1, 2, 4, 8, 12, 20, 40, 100].find(v => v >= mx * 1.1) || 100;
+    const X = v => L + pw * (Math.log10(Math.min(CALC_MAX, Math.max(CALC_MIN, v))) - 6) / 5, Y = v => T + ph * (1 - v / ymax);
+    const d = pts.map((p, i) => (i ? 'L' : 'M') + X(p[0]).toFixed(1) + ' ' + Y(p[1]).toFixed(1)).join('');
+    const xs = [[1e6, '1M'], [1e7, '10M'], [1e8, '100M'], [1e9, '1bn'], [1e10, '10bn'], [1e11, '100bn']];
+    const yt = [0, 1, 2, 3, 4].map(i => ymax * i / 4), yl = v => (+v.toFixed(v >= 1 ? 1 : 2)) + '%';
+    const mxp = X(w), myp = Y(eff), right = mxp > W * 0.6, below = myp < T + 26;
+    return `<svg class="calc-svg" viewBox="0 0 ${W} ${H}" role="img" aria-label="Chart: share of total wealth paid as tax, from 0% at 1 million to ${calcPct(pts[pts.length - 1][1])}% at 100 billion. Your fortune of ${esc(money(w))} pays ${calcPct(eff)}%.">
+      ${yt.map(v => `<line class="cg" x1="${L}" x2="${W - R}" y1="${Y(v).toFixed(1)}" y2="${Y(v).toFixed(1)}"/><text class="ct" x="${L - 6}" y="${(Y(v) + 4).toFixed(1)}" text-anchor="end">${yl(v)}</text>`).join('')}
+      ${xs.map(([v, l]) => `<line class="cg" x1="${X(v).toFixed(1)}" x2="${X(v).toFixed(1)}" y1="${T}" y2="${T + ph}"/><text class="ct" x="${X(v).toFixed(1)}" y="${H - B + 18}" text-anchor="${v === 1e11 ? 'end' : 'middle'}">${l}</text>`).join('')}
+      <text class="ct" x="${L + pw / 2}" y="${H - 4}" text-anchor="middle">Net wealth (log scale)</text>
+      <path class="cl" d="${d}"/>
+      <line class="cm" x1="${mxp.toFixed(1)}" x2="${mxp.toFixed(1)}" y1="${T}" y2="${T + ph}"/>
+      <circle class="cd" cx="${mxp.toFixed(1)}" cy="${myp.toFixed(1)}" r="5"/>
+      <text class="ct cy" x="${(mxp + (right ? -9 : 9)).toFixed(1)}" y="${(below ? myp + 20 : myp - 10).toFixed(1)}" text-anchor="${right ? 'end' : 'start'}">You: ${calcPct(eff)}%</text></svg>`;
+  };
+
+  let okRows = rows, lastWealth = wealth;
+  const update = (src) => {
+    const {rows: rs, error} = readRows();
+    const wv = parseAmount(cw.value);
+    const wBad = !(wv >= 0 && wv <= 1e15) ? 'Net wealth must be a number, for example 15m or 2,000,000,000.' : '';
+    err.textContent = wBad || error;
+    cw.setAttribute('aria-invalid', wBad ? 'true' : 'false');
+    const res = $('#c-res'), ex = $('#c-ex'), ch = $('#c-chart');
+    if (wBad || error) { res.innerHTML = `<p class="fine">Fix the highlighted field to see the result.</p>`; ex.innerHTML = ch.innerHTML = ''; return; }
+    okRows = rs; wealth = wv;
+    if (src !== 'slider') cs.value = toSlider(wealth);
+    cs.setAttribute('aria-valuetext', money(wealth));
+    const tax = calcTax(rs, mode, wealth), eff = wealth ? tax / wealth * 100 : 0, marg = calcMarginal(rs, wealth);
+    const first = rs[0][0];
+    const line = tax === 0 ? (wealth > first || mode === 'w' && wealth > first ? 'This bracket has a 0% rate here, so nothing is due.' : `A fortune of ${money(wealth)} is below the first threshold of ${money(first)} and pays nothing.`)
+      : `A fortune of ${money(wealth)} pays ${money(tax)} a year, ${calcPct(eff)}% of everything it owns.`;
+    res.innerHTML = `<div class="calc-stats"><div><span class="kicker">Tax per year</span><b>${esc(money(tax))}</b></div>
+      <div><span class="kicker">Share of total wealth</span><b>${calcPct(eff)}%</b></div>
+      <div><span class="kicker">Marginal rate</span><b>${+marg.toFixed(2)}%</b></div></div><p style="margin:12px 0 0">${esc(line)}</p>`;
+    const base = [0.9, 1.01, 1.5, 5, 100].map(f => +(first * f).toPrecision(3));
+    const exs = [['Your wealth', wealth]].concat(base.map(v => [calcShort(v), v]));
+    ex.innerHTML = `<table class="calc-t"><thead><tr><th scope="col">Net wealth</th><th scope="col">Tax per year</th><th scope="col">Share of wealth</th></tr></thead><tbody>${exs.map(([l, v], i) => {
+      const t = calcTax(rs, mode, v); return `<tr${i ? '' : ' class="you"'}><th scope="row">${i ? '' : 'Yours '}${esc(moneyShort(v))}</th><td>${esc(money(t))}</td><td>${v ? calcPct(t / v * 100) : '0'}%</td></tr>`; }).join('')}</tbody></table>`;
+    ch.innerHTML = chart(rs, mode, wealth, eff);
+    // The address holds the state, so the result can be shared.
+    const q = new URLSearchParams({w: String(Math.round(wealth * 100) / 100), b: rs.map(r => r[0] + ':' + r[1]).join(','), c: urlCur()});
+    if (mode === 'w') q.set('m', 'w');
+    history.replaceState(null, '', '/calculator?' + q.toString().replace(/%3A/g, ':').replace(/%2C/g, ','));
+    $('#c-share').href = location.pathname + location.search;
+    $$('#cp button').forEach(b => { const p = CALC_PRESETS.find(x => x.id === b.dataset.p); b.setAttribute('aria-pressed', String(p.mode === mode && JSON.stringify(p.rows) === JSON.stringify(rs))); });
+  };
+
+  const load = (r, m) => { rows = r.map(x => x.slice()); mode = m; drawRows(); update(); };
+  cw.value = wealth.toLocaleString('en', {maximumFractionDigits: 2});
+  cs.value = toSlider(wealth);
+  setCur(cur);
+  drawRows(); update();
+
+  cw.addEventListener('input', () => update());
+  cw.addEventListener('change', () => { const v = parseAmount(cw.value); if (v >= 0) cw.value = v.toLocaleString('en', {maximumFractionDigits: 2}); });
+  cs.addEventListener('input', () => { cw.value = fromSlider(+cs.value).toLocaleString('en'); update('slider'); });
+  cc.addEventListener('change', () => { $('#co-wrap').hidden = cc.value !== 'OTHER'; if (cc.value === 'OTHER') co.focus(); update(); });
+  co.addEventListener('input', () => update());
+  cb.addEventListener('input', () => update());
+  cb.addEventListener('change', e => { const v = parseAmount(e.target.value); if (e.target.dataset.k === 't' && v >= 0) e.target.value = v.toLocaleString('en', {maximumFractionDigits: 2}); });
+  cb.addEventListener('click', e => {
+    const b = e.target.closest('[data-del]'); if (!b || rows.length < 2) return;
+    const cur2 = readRows().rows.map(r => r.map(x => isNaN(x) ? 0 : x)); cur2.splice(+b.dataset.del, 1); rows = cur2; drawRows(); update();
+    ($('.calc-row [data-k=t]', cb) || cw).focus();
+  });
+  $('#c-add').addEventListener('click', () => {
+    const {rows: rs} = readRows(), last = rs[rs.length - 1] || [0, 0], t = isNaN(last[0]) ? 0 : last[0];
+    rows = rs.map(r => r.map(x => isNaN(x) ? 0 : x)); rows.push([t ? t * 5 : 1e6, isNaN(last[1]) ? 1 : last[1] + 1]); drawRows(); update();
+    const ins = $$('.calc-row [data-k=t]', cb); ins[ins.length - 1].focus();
+  });
+  $$('input[name=mode]').forEach(i => i.addEventListener('change', () => { mode = i.value; update(); }));
+  $('#cp').addEventListener('click', e => {
+    const b = e.target.closest('[data-p]'); if (!b) return;
+    const p = CALC_PRESETS.find(x => x.id === b.dataset.p);
+    setCur(p.cur); load(p.rows, p.mode);
+    $('#cp-note').innerHTML = `${esc(p.note)} Source: ${ext(p.src[0], esc(p.src[1]) + ' ↗')}`;
+  });
+  $('#c-demo').addEventListener('click', () => { setCur('EUR'); cw.value = '15,000,000'; load([[1e7, 2]], 'm'); $('#cp-note').textContent = ''; });
 }
 
 // ---------- feedback and bug reports ----------
