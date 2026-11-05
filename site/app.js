@@ -158,7 +158,13 @@ async function render(fresh) {
     main.innerHTML = `<div class="wrap page-head"><div class="kicker">Something went wrong</div><h1>Could not load the data.</h1>
       <p class="lede" style="margin-top:20px">Try reloading the page. If you opened the file directly, serve the built site instead: <code>python scripts/serve.py</code>.</p></div>`;
   }
-  if (location.hash) requestAnimationFrame(scrollToHash);
+  if (location.hash) {
+    // Scroll at once, again on the next frame, and again when the fonts arrive (they change line heights above the target). A hidden tab never runs frames.
+    const h = location.hash, t0 = Date.now();
+    scrollToHash();
+    requestAnimationFrame(scrollToHash);
+    if (document.fonts) document.fonts.ready.then(() => { if (location.hash === h && Date.now() - t0 < 2000) scrollToHash(); });
+  }
   else if (fresh) window.scrollTo({top: 0});
 }
 function setTitle(t) { document.title = t ? `${t} · Wealth Tax Supporters` : 'Wealth Tax Supporters: who backs a wealth tax near you?'; }
@@ -812,14 +818,11 @@ async function countryPage(slug, params, section) {
 // Story text (intro, sections[].html, sources) comes from the build, which has already escaped it and allowed only a small set of tags.
 const storyDate = d => new Date(d + 'T00:00:00').toLocaleDateString('en', {day: 'numeric', month: 'long', year: 'numeric'});
 const storyRef = id => id ? `<sup class="ref"><a href="#src-${esc(id)}">[${esc(id)}]</a></sup>` : '';
-const storyLink = (href, text) => /^https?:/.test(href) ? ext(href, esc(text) + ' ↗') : `<a href="${esc(href)}">${esc(text)}</a>`;
 const storyFacts = S => S.facts.length ? `<dl class="facts">${S.facts.map(f => `<div><dt>${esc(f.label)}</dt><dd>${esc(f.value)}${storyRef(f.source)}</dd></div>`).join('')}</dl>` : '';
-const storyToc = S => `<ol class="toc">${S.sections.map(x => `<li><a href="#${esc(x.id)}">${esc(x.title)}</a></li>`).join('')}${S.timeline.length ? '<li><a href="#timeline">Timeline</a></li>' : ''}${S.related.length ? '<li><a href="#keep-exploring">Keep exploring</a></li>' : ''}<li><a href="#sources">Sources</a></li></ol>`;
+const storyToc = S => `<ol class="toc">${S.sections.map(x => `<li><a href="#${esc(x.id)}">${esc(x.title)}</a></li>`).join('')}${S.timeline.length ? '<li><a href="#timeline">Timeline</a></li>' : ''}<li><a href="#sources">Sources</a></li></ol>`;
 const storyBody = S => S.sections.map(x => `<section class="story-sec" id="${esc(x.id)}"><h2><a class="anchor" href="#${esc(x.id)}" aria-label="Link to this section">#</a>${esc(x.title)}</h2>${x.html}</section>`).join('');
 const storyTimeline = S => S.timeline.length ? `<section class="story-sec" id="timeline"><h2><a class="anchor" href="#timeline" aria-label="Link to this section">#</a>Timeline</h2>
   <ol class="timeline">${S.timeline.map(t => `<li><b>${esc(t.year)}</b><span>${esc(t.text)}${storyRef(t.source)}</span></li>`).join('')}</ol></section>` : '';
-const storyRelated = S => S.related.length ? `<section class="story-sec keep" id="keep-exploring"><h2><a class="anchor" href="#keep-exploring" aria-label="Link to this section">#</a>Keep exploring</h2>
-  <ul class="related">${S.related.map(r => `<li>${storyLink(r.href, r.label)}</li>`).join('')}</ul></section>` : '';
 const storySources = S => `<section class="story-sec" id="sources"><h2><a class="anchor" href="#sources" aria-label="Link to this section">#</a>Sources</h2>
   <ol class="sources">${S.sources.map(r => `<li id="src-${esc(r.id)}"><span class="sn">[${esc(r.id)}]</span> ${ext(r.url, esc(r.title) + ' ↗')}</li>`).join('')}</ol></section>`;
 const storyByline = S => `<p class="byline">By <b>${esc(S.author)}</b> · Updated ${esc(storyDate(S.updated))} · ${Math.max(1, Math.round(S.words / 220))} min read</p>`;
@@ -841,7 +844,7 @@ function renderStoryArticle(S, ctx) {
       </aside>
       <div class="story-main">
         <div class="story-intro">${S.intro}</div>
-        ${storyBody(S)}${storyTimeline(S)}${storyRelated(S)}${storySources(S)}
+        ${storyBody(S)}${storyTimeline(S)}${storySources(S)}
       </div>
     </div>
   </article>`;

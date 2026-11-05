@@ -57,27 +57,6 @@ timeline:
   - year: 2026
     text: Høyre votes on 15 February to abolish the tax. On 24 June the tax commission proposes a single lower rate with no valuation discounts.
     source: 16
-related:
-  - label: Norway on the map
-    href: /no/map
-  - label: Seats in the Storting
-    href: /no/seats
-  - label: The Norwegian directory
-    href: /no/directory
-  - label: Over time
-    href: /no/time
-  - label: Bills, reports and papers on Norway
-    href: /resources?country=no
-  - label: Calculator with the Norwegian scale (1.0% and 1.1%)
-    href: /calculator?w=30000000&b=1900000:1.0,21500000:1.1&c=NOK
-  - label: Sweden, where it was repealed
-    href: /se
-  - label: Denmark, where it was repealed
-    href: /dk
-  - label: Switzerland
-    href: /ch
-  - label: Spain
-    href: /es
 sources:
   - id: 1
     title: Storting, tax decision for income year 2026 (Vedtak 212)
