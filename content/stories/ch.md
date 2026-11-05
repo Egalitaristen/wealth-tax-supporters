@@ -12,19 +12,19 @@ facts:
     value: 4.3% in 2023, about 1.2% of GDP
     source: 7
   - label: Top 1% share of taxable net wealth
-    value: 45.8% (2022)
+    value: 46% (2022)
     source: 1
   - label: Top rate, canton and municipality combined
-    value: 0.13% to 1.00% (2015)
+    value: 0.1% to 1% (2015)
     source: 4
   - label: Exemption thresholds
     value: CHF 25,000 to 200,000 (2015)
     source: 4
   - label: Taxed by lump sum instead
-    value: 5,634 foreign residents (2012)
+    value: About 5,600 foreign residents (2012)
     source: 8
   - label: Latest vote near the subject
-    value: Juso inheritance tax, 21.7% yes (Nov 2025)
+    value: Juso inheritance tax, 22% yes (Nov 2025)
     source: 10
 timeline:
   - year: 1840
@@ -43,13 +43,13 @@ timeline:
     text: Zurich voters abolish lump-sum taxation of rich foreigners in their canton.
     source: 8
   - year: 2014
-    text: The federal initiative to abolish it everywhere loses, 59.2% to 40.8%.
+    text: The federal initiative to abolish it everywhere loses, 59% to 41%.
     source: 8
   - year: 2023
-    text: Geneva voters reject a ten-year solidarity contribution on large fortunes, 55.1% to 44.9%.
+    text: Geneva voters reject a ten-year solidarity contribution on large fortunes, 55% to 45%.
     source: 11
   - year: 2025
-    text: The Juso inheritance tax initiative is rejected with 21.7% yes.
+    text: The Juso inheritance tax initiative is rejected with 22% yes.
     source: 10
   - year: 2026
     text: The Green Liberals propose a federal wealth tax of 0.33% above CHF 5 million.
@@ -125,37 +125,37 @@ The federal harmonisation law is short on this tax. The whole net wealth is taxa
 > The wealth tax applies to the whole net wealth.
 > — Federal harmonisation law, Art. 13 (our translation)[2]
 
-The cantons set tariffs, rates and exemptions.[2] Geneva is one example. It taxes net wealth in brackets, and each rate applies only to the slice of wealth inside its bracket. The law writes rates in per mille, thousandths: 3.83 per mille is 0.383%. The base scale rises from 0.149% on the first CHF 111,059 to 0.383% on everything above CHF 1,665,879. A second scale is added on top of it. It starts at 0% and rises to 0.11475%, about 0.115%, on everything above CHF 3,331,758. Before either scale applies, a single person deducts CHF 82,200 from net wealth and a couple deducts CHF 164,400.[5]
+The cantons set tariffs, rates and exemptions.[2] Geneva is one example. It taxes net wealth in brackets, and each rate applies only to the slice of wealth inside its bracket. The law writes rates in per mille, thousandths: 3.8 per mille is 0.38%. The base scale rises from 0.15% on the first CHF 111,000 to 0.38% on everything above CHF 1.67 million. A second scale is added on top of it. It starts at 0% and rises to 0.115% on everything above CHF 3.33 million. Before either scale applies, a single person deducts CHF 82,200 from net wealth and a couple deducts CHF 164,400.[5]
 
-Take a single person with CHF 5,000,000 of net wealth, none of it in a business. After the deduction, CHF 4,917,800 is taxed. The base scale gives CHF 4,862 on the first CHF 1,665,879, plus 0.383% of the remaining CHF 3,251,921, which is CHF 12,455: CHF 17,317 in all. The second scale gives CHF 2,303 on the first CHF 3,331,758, plus 0.11475% of the remaining CHF 1,586,042, which is CHF 1,820: CHF 4,123 in all. Together the cantonal tax comes to about CHF 21,440 a year, 0.43% of the CHF 5 million.[5] Geneva's multiplier, the additional centimes, applies to the base scale only; the second scale carries none.[5]
+Take a single person with CHF 5 million of net wealth, none of it in a business. After the deduction, about CHF 4.9 million is taxed. The base scale taxes each slice at its bracket rate, up to 0.38% above CHF 1.67 million, and comes to about CHF 17,300. The second scale does the same, up to 0.115% above CHF 3.33 million, and adds about CHF 4,100. Together the cantonal tax comes to about CHF 21,400 a year, 0.43% of the CHF 5 million.[5] Geneva's multiplier, the additional centimes, applies to the base scale only; the second scale carries none.[5]
 
-Across all cantons in 2015, the highest combined rate, cantonal and municipal together, ran from 0.13% to 1.00%, and exemption thresholds ran from CHF 25,000 to 200,000. In the two cantons studied, between a third and two fifths of filers had wealth above the threshold, and the wealth under it made up only 2.5% of the total in Lucerne and 5.4% in Bern, so most declared wealth is taxed.[4]
+Across all cantons in 2015, the highest combined rate, cantonal and municipal together, ran from 0.1% to 1%, and exemption thresholds ran from CHF 25,000 to 200,000. In the two cantons studied, between a third and two fifths of filers had wealth above the threshold, and the wealth under it made up only 2.5% of the total in Lucerne and 5% in Bern, so most declared wealth is taxed.[4]
 
 ## What it raises, and who pays {#revenue}
 
 In 2023 the wealth tax brought in 4.3% of all Swiss tax revenue, about 1.2% of GDP.[7] In 2018 it was 3.9% of revenue, against 1.1% in Norway and 0.5% in Spain and France, and 9% of what cantons and municipalities collected.[4]
 
-In 2022 the top 1% of taxpayers held 45.8% of taxable net wealth, and the Gini coefficient stood at 0.823.[1] In Zurich the wealthiest quarter of the population pays 99% of the wealth tax, and retirees hold about half of the taxable wealth.[6] The figures understate the concentration, because pension assets, household goods and the wealth of lump-sum taxpayers are outside the statistics.[1]
+In 2022 the top 1% of taxpayers held 46% of taxable net wealth, and the Gini coefficient stood at 0.82.[1] In Zurich the wealthiest quarter of the population pays 99% of the wealth tax, and retirees hold about half of the taxable wealth.[6] The figures understate the concentration, because pension assets, household goods and the wealth of lump-sum taxpayers are outside the statistics.[1]
 
 ## Cantons undercut each other {#competition}
 
-Every canton sets its own rates, so the cantons compete. Between 2001 and 2017 top rates fell, most sharply in central Switzerland, where competition was intense in the early 2000s. The high-tax cantons of the west left their rates largely alone.[4] The deepest cumulative cut to a top rate was 0.46 percentage points.[4] The rich could stay put and pay less, as long as their canton was willing to bid.
+Every canton sets its own rates, so the cantons compete. Between 2001 and 2017 top rates fell, most sharply in central Switzerland, where competition was intense in the early 2000s. The high-tax cantons of the west left their rates largely alone.[4] The deepest cumulative cut to a top rate was about half a percentage point.[4] The rich could stay put and pay less, as long as their canton was willing to bid.
 
 That is the weak spot of a purely cantonal tax, and the reason a federal wealth tax is back on the table. A federal scale with a sensible threshold ends the bidding and leaves the cantons free to add to it.
 
 ## Rich foreigners and the lump sum {#lump-sum}
 
-Foreigners who have lived abroad for at least ten years and do not work in Switzerland can be taxed on their living costs instead of their income and wealth.[8] In 2012 that covered 5,634 people.[8] In 2014 about 5,400 of them paid CHF 740 million, 1.2% of income and wealth tax revenue.[4]
+Foreigners who have lived abroad for at least ten years and do not work in Switzerland can be taxed on their living costs instead of their income and wealth.[8] In 2012 that covered about 5,600 people.[8] In 2014 about 5,400 of them paid CHF 740 million, 1.2% of income and wealth tax revenue.[4]
 
-Voters in several cantons judged that a privilege. Zurich abolished it by popular vote in 2009.[8] A federal initiative to end it everywhere lost on 30 November 2014 with 40.8% yes and carried only Schaffhausen, with 50.8%.[8] Five of the six cantons with the highest yes shares (Schaffhausen, Zurich, Appenzell Ausserrhoden, Basel-Landschaft and Basel-Stadt) no longer had the regime themselves. Valais, home to many lump-sum taxpayers, voted no with 79.3%.[8]
+Voters in several cantons judged that a privilege. Zurich abolished it by popular vote in 2009.[8] A federal initiative to end it everywhere lost on 30 November 2014 with 41% yes and carried only Schaffhausen, with 51%.[8] Five of the six cantons with the highest yes shares (Schaffhausen, Zurich, Appenzell Ausserrhoden, Basel-Landschaft and Basel-Stadt) no longer had the regime themselves. Valais, home to many lump-sum taxpayers, voted no with 79%.[8]
 
 The Federal Council recommended a no, citing the tension between tax fairness and the country's appeal as a place to live and invest. Backers of the initiative argued that abolition had cost the cantons that ended it no revenue.[8] Opponents ran about twenty times as many newspaper advertisements as backers.[8]
 
 ## What voters have said {#votes}
 
-The record is mixed. In 1922 a federal capital levy lost, and so did a "tax on riches" in 1977, though Basel-Landschaft adopted one in 1972.[3] A national 20% tax on inheritances above CHF 2 million lost in every canton in 2015, with about 71% against.[9] In June 2023 Geneva voters rejected a ten-year solidarity contribution of 2.5 per mille on fortunes above CHF 3 million by 58,170 votes to 47,369, or 55.1% no.[11] In November 2025 the Juso initiative on very large inheritances got 21.7% yes.[10]
+The record is mixed. In 1922 a federal capital levy lost, and so did a "tax on riches" in 1977, though Basel-Landschaft adopted one in 1972.[3] A national 20% tax on inheritances above CHF 2 million lost in every canton in 2015, with about 71% against.[9] In June 2023 Geneva voters rejected a ten-year solidarity contribution of 2.5 per mille on fortunes above CHF 3 million by about 58,000 votes to 47,000, or 55% no.[11] In November 2025 the Juso initiative on very large inheritances got 22% yes.[10]
 
-None of these was a vote on the yearly wealth tax that every canton already levies. Geneva came closest: 44.9% yes in a canton where the top 1% holds two thirds of the wealth.[1][11] The gfs.bern survey after the 2025 vote found that the arguments that worked were the threat to family firms and the departure of the wealthy, and that many voters, on the left too, found the proposal too extreme.[10] A moderate scale on a high threshold answers both.
+None of these was a vote on the yearly wealth tax that every canton already levies. Geneva came closest: 45% yes in a canton where the top 1% holds two thirds of the wealth.[1][11] The gfs.bern survey after the 2025 vote found that the arguments that worked were the threat to family firms and the departure of the wealthy, and that many voters, on the left too, found the proposal too extreme.[10] A moderate scale on a high threshold answers both.
 
 ## Who backs it now {#supporters}
 
@@ -173,11 +173,11 @@ Switzerland values private assets every year, for nearly everyone. Market value 
 
 ### Flight {#flight}
 
-A study of cantonal tax cuts by Brülhart, Gruber, Krapf and Schmidheiny found that rates move declared wealth: a one point cut raised it by at least 43% within six years.[4] Less than 30% of that came from people moving, and Lucerne's cut left its revenue below the starting level in 2015.[4] The rest is wealth that was hidden before and declared afterwards, which makes the case for bank reporting and a common federal floor.[4] Geneva is in the French-speaking west, where rates are highest, and its top 1% still hold 67.3% of its wealth: high rates have not emptied it of large fortunes.[1][4]
+A study of cantonal tax cuts by Brülhart, Gruber, Krapf and Schmidheiny found that rates move declared wealth: a one point cut raised it by at least 43% within six years.[4] Less than 30% of that came from people moving, and Lucerne's cut left its revenue below the starting level in 2015.[4] The rest is wealth that was hidden before and declared afterwards, which makes the case for bank reporting and a common federal floor.[4] Geneva is in the French-speaking west, where rates are highest, and its top 1% still hold 67% of its wealth: high rates have not emptied it of large fortunes.[1][4]
 
 ### Revenue {#revenue-lesson}
 
-Cuts do not pay for themselves: revenue falls by 2.7% to 3.6% for every 10% cut in the top rate.[4] At 4.3% of all revenue, the tax is a large item in the budget.[7]
+Cuts do not pay for themselves: revenue falls by roughly 3% to 4% for every 10% cut in the top rate.[4] At 4.3% of all revenue, the tax is a large item in the budget.[7]
 
 ## Where to look next {#next}
 

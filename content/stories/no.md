@@ -1,21 +1,21 @@
 ---
 title: Norway taxes wealth every year, and the country is deciding whether to keep it
-standfirst: Norway has had a direct state tax on wealth since 1892. In 2024 it raised NOK 31.8 billion from 719,007 people, and in February 2026 Høyre voted to abolish it.
+standfirst: Norway has had a direct state tax on wealth since 1892. In 2024 it raised kr 32 billion from about 720,000 people, and in February 2026 Høyre voted to abolish it.
 updated: 2026-11-05
 author: Egalitaristen
 layout: article
 facts:
   - label: Tax-free threshold, 2026
-    value: NOK 1.9 million (NOK 3.8 million for a couple)
+    value: kr 1.9 million (kr 3.8 million for a couple)
     source: 1
   - label: Rates, 2026
-    value: 1.0%, rising to 1.1% above NOK 21.5 million
+    value: 1.0%, rising to 1.1% above kr 21.5 million
     source: 1
   - label: Raised from persons, 2024
-    value: NOK 31.8 billion
+    value: kr 32 billion
     source: 4
   - label: People who paid, 2024
-    value: 719,007
+    value: About 720,000
     source: 4
   - label: A primary home counts at
     value: 25% of market value
@@ -37,13 +37,13 @@ timeline:
     text: A new system sets the primary-home discount at 75%, so a home counts at 25% of market value.
     source: 3
   - year: 2015
-    text: After the Solberg government's cuts the rate is 0.85%; the threshold rises to NOK 1.2 million.
+    text: After the Solberg government's cuts the rate is 0.85%; the threshold rises to kr 1.2 million.
     source: 3
   - year: 2021
     text: Discounts on shares and business assets reach 45%, up from none in 2016.
     source: 3
   - year: 2022
-    text: The Støre government adds a 1.1% bracket above NOK 20 million and cuts the share discount to 25%. Revenue from persons rises 42.6%.
+    text: The Støre government adds a 1.1% bracket above kr 20 million and cuts the share discount to 25%. Revenue from persons rises 43%.
     source: 5
   - year: 2022
     text: The five-year rule, which wiped out tax on past gains for people who spent five years abroad, ends with the year.
@@ -52,7 +52,7 @@ timeline:
     text: Election on 8 September. The five parties that back the tax hold 88 of 169 seats.
     source: 15
   - year: 2026
-    text: The tax decision for 2026 keeps 1.0% and 1.1% and sets the threshold at NOK 1.9 million.
+    text: The tax decision for 2026 keeps 1.0% and 1.1% and sets the threshold at kr 1.9 million.
     source: 1
   - year: 2026
     text: Høyre votes on 15 February to abolish the tax. On 24 June the tax commission proposes a single lower rate with no valuation discounts.
@@ -134,7 +134,7 @@ sources:
     title: Skatteetaten, Er du i rute med skattemeldingen? (25 April 2018)
     url: https://www.skatteetaten.no/en/press/nyhetsrommet/er-du-i-rute-med-skattemeldingen/
 ---
-Norway taxes wealth every year. Assets are valued as of 1 January, debts come off, and the tax return arrives pre-filled for you to check.[6][25] A single person pays 1.0% on net wealth above NOK 1.9 million and 1.1% on the part above NOK 21.5 million.[1][2] In 2024, 719,007 people paid NOK 31.8 billion.[4] [Sweden](/se) ended its wealth tax in 2007 and [Denmark](/dk) in 1997.[21][22] Norway kept its own.
+Norway taxes wealth every year. Assets are valued as of 1 January, debts come off, and the tax return arrives pre-filled for you to check.[6][25] A single person pays 1.0% on net wealth above kr 1.9 million and 1.1% on the part above kr 21.5 million.[1][2] In 2024, about 720,000 people paid kr 32 billion.[4] [Sweden](/se) ended its wealth tax in 2007 and [Denmark](/dk) in 1997.[21][22] Norway kept its own.
 
 ## What the tax is {#what-it-is}
 
@@ -148,11 +148,11 @@ Taxable wealth is the market value of your assets on 1 January of the assessment
 
 ### Valuation discounts {#discounts}
 
-For 2026 a primary home counts at 25% of market value. The part of its value above NOK 14 million gets a 30% discount instead of 75%. A second home gets no discount. Shares and business property get 20%, other operating assets 30%.[2] Debts tied to a discounted asset are cut by the same share, so a discount cannot turn into a net debt deduction.[3] Discounts apply only to assets you own directly.[2] The share discount changed in 2005, 2006, 2007 and 2008, and in every year from 2017 to 2023.[3]
+For 2026 a primary home counts at 25% of market value. The part of its value above kr 14 million gets a 30% discount instead of 75%. A second home gets no discount. Shares and business property get 20%, other operating assets 30%.[2] Debts tied to a discounted asset are cut by the same share, so a discount cannot turn into a net debt deduction.[3] Discounts apply only to assets you own directly.[2] The share discount changed in 2005, 2006, 2007 and 2008, and in every year from 2017 to 2023.[3]
 
 ### Municipal and state parts {#municipal-and-state}
 
-For 2026 the state charges 0.65%, rising to 0.75% above NOK 21.5 million, and a municipality charges up to 0.35%. Together that is 1.0% and 1.1%.[1] The split between the two parts has moved. In 2024 a municipality charged up to 0.7% and the state 0.3%, or 0.4% above NOK 20 million, on a threshold of NOK 1.7 million.[24] That year Statistics Norway counted NOK 21.5 billion paid to municipalities and NOK 10.3 billion to the state.[4]
+For 2026 the state charges 0.65%, rising to 0.75% above kr 21.5 million, and a municipality charges up to 0.35%. Together that is 1.0% and 1.1%.[1] The split between the two parts has moved. In 2024 a municipality charged up to 0.7% and the state 0.3%, or 0.4% above kr 20 million, on a threshold of kr 1.7 million.[24] That year Statistics Norway counted kr 21.5 billion paid to municipalities and kr 10.3 billion to the state.[4]
 
 ### Filing and the public tax list {#filing}
 
@@ -160,35 +160,35 @@ Wealth goes on the tax return, which arrives pre-filled and which you check and 
 
 ## What it raises {#revenue}
 
-In 2024, 719,007 people paid NOK 31.8 billion, an average of NOK 44,200 each.[4] In 2021 it was 667,022 people and NOK 18.5 billion.[4] The 2022 changes (higher state rates, a new 1.1% bracket, smaller discounts) lifted revenue from persons by 42.6% in one year, to about NOK 26 billion. The number of payers fell 3%.[5]
+In 2024, about 720,000 people paid kr 32 billion, an average of about kr 44,000 each.[4] In 2021 it was about 670,000 people and kr 19 billion.[4] The 2022 changes (higher state rates, a new 1.1% bracket, smaller discounts) lifted revenue from persons by 43% in one year, to about kr 26 billion. The number of payers fell 3%.[5]
 
-Over the long run the number of payers fell from 1,355,927 in 2001 to 513,532 in 2016.[4] The threshold rose from NOK 120,000 in 2000 to NOK 1.5 million in 2019.[3] In 2022 the number of people paying more than NOK 50,000 grew from 57,197 to 79,199.[5]
+Over the long run the number of payers fell from about 1.4 million in 2001 to about 510,000 in 2016.[4] The threshold rose from kr 120,000 in 2000 to kr 1.5 million in 2019.[3] In 2022 the number of people paying more than kr 50,000 grew from about 57,000 to about 79,000.[5]
 
 ## How it grew and shrank {#history}
 
-The tax has moved in both directions. Under the red-green government of 2006 to 2013, property values for tax went up, the share discount fell in steps from 35% to nothing in 2008, and a new system set the primary-home discount at 75% in 2010.[3] Under the Solberg government the rate fell to 1.0% in 2014 and 0.85% in 2015, the threshold rose from NOK 0.87 million in 2013 to NOK 1.5 million in 2019, and the share discount went from zero to 45% by 2021.[3]
+The tax has moved in both directions. Under the red-green government of 2006 to 2013, property values for tax went up, the share discount fell in steps from 35% to nothing in 2008, and a new system set the primary-home discount at 75% in 2010.[3] Under the Solberg government the rate fell to 1.0% in 2014 and 0.85% in 2015, the threshold rose from kr 0.87 million in 2013 to kr 1.5 million in 2019, and the share discount went from zero to 45% by 2021.[3]
 
-The Støre government set a 0.95% rate with a new 1.1% bracket above NOK 20 million in 2022. It cut the share discount to 25% that year and 20% in 2023, and raised the rate to 1.0% in 2023. The Storting's research service puts the two packages at NOK 6.7 billion and NOK 3.1 billion of extra tax.[3]
+The Støre government set a 0.95% rate with a new 1.1% bracket above kr 20 million in 2022. It cut the share discount to 25% that year and 20% in 2023, and raised the rate to 1.0% in 2023. The Storting's research service puts the two packages at kr 6.7 billion and kr 3.1 billion of extra tax.[3]
 
 ## The 2022 rise and the people who left {#departures}
 
 When the tax went up in 2022, some of Norway's richest moved abroad, many to Switzerland.
 
-The Finance Ministry examined 2,864 people who held more than NOK 100 million in at least one year from 2011 to 2021, or who were on *Kapital*'s list of the 400 richest. 130 of them emigrated between 2011 and mid-November 2022, 23 in 2022. The wealth tax they had paid in the year before leaving came to about NOK 300 million. Over 2012 to 2021, 102 people with similar wealth moved in and paid about NOK 335 million.[8]
+The Finance Ministry examined about 2,900 people who held more than kr 100 million in at least one year from 2011 to 2021, or who were on *Kapital*'s list of the 400 richest. 130 of them emigrated between 2011 and mid-November 2022, 23 in 2022. The wealth tax they had paid in the year before leaving came to about kr 300 million. Over 2012 to 2021, 102 people with similar wealth moved in and paid about kr 340 million.[8]
 
-The five-year rule cost more. Until the end of 2022 a person could spend five years abroad and return with the tax on earlier unrealised gains wiped out. NHH researcher Ole-Andreas Elvik Næss reports that the Finance Ministry counted NOK 142 billion of deferred income taken abroad in 2022 and 2023, NOK 134 billion of it in 2022, the year the loophole closed. He puts the wealth tax those emigrants no longer pay at about NOK 0.77 billion a year.[11] He found that those who left had an average wealth-tax discount of about 70%, larger than the wealthy who stayed, and argues that the untaxed gains drew them.[10]
+The five-year rule cost more. Until the end of 2022 a person could spend five years abroad and return with the tax on earlier unrealised gains wiped out. NHH researcher Ole-Andreas Elvik Næss reports that the Finance Ministry counted kr 142 billion of deferred income taken abroad in 2022 and 2023, kr 134 billion of it in 2022, the year the loophole closed. He puts the wealth tax those emigrants no longer pay at about kr 770 million a year.[11] He found that those who left had an average wealth-tax discount of about 70%, larger than the wealthy who stayed, and argues that the untaxed gains drew them.[10]
 
 Residence rules decide who is still taxed in Norway. Under Norwegian law someone who has lived in Norway for at least ten years normally stays tax-resident until after the third income year abroad. Switzerland's rules are more lenient: under the treaty between Norway and Switzerland, which covers wealth tax, a mover can become resident there as soon as they have a permanent home there and none in Norway.[9]
 
-A study of Scandinavian tax records finds that each extra percentage point on the top wealth tax rate cuts the number of wealthy taxpayers by about 2%, employment by 0.02% and value added by 0.10%.[12] Marius Ring, using Norwegian data, finds that households respond to wealth tax by saving more, about 3.76 kroner for each krone of tax, mostly by earning more.[13] We argue for closing the exits and keeping the rate steady.
+A study of Scandinavian tax records finds that each extra percentage point on the top wealth tax rate cuts the number of wealthy taxpayers by about 2%, employment by 0.02% and value added by 0.10%.[12] Marius Ring, using Norwegian data, finds that households respond to wealth tax by saving more, about 3.8 kroner for each krone of tax, mostly by earning more.[13] We argue for closing the exits and keeping the rate steady.
 
 ## The political fight {#politics}
 
 On 8 September 2025 Labour won 53 seats, the Progress Party 47 and Høyre 24. SV, Sp and Rødt took 9 each and MDG 8. The five parties that back the tax hold 88 of 169 seats.[15] Before the vote Høyre wanted to remove the tax on shares and business assets, and the Progress Party wanted the whole tax gone. SV, Rødt and MDG wanted a higher threshold with more from the biggest fortunes. Sp wanted a higher threshold and bigger discounts for small business owners.[17]
 
-The decision for 2026 kept the rates.[1] On 15 February 2026 Høyre's national assembly voted 158 to 131 to abolish the tax entirely. LO's chief economist said that would make Norway a tax haven.[16] On 24 June the tax commission proposed one rate between 0.25% and 0.75%, no valuation discounts and a higher general threshold. It put the fall in revenue between NOK 6.3 billion and NOK 25.2 billion, depending on the rate.[18][19][20] The Rødt member resigned from the commission, saying the proposal gives massive cuts to the richest. Nordea calculates that a NOK 15 million home would be taxed more than today at any rate above about 0.53%.[18][19]
+The decision for 2026 kept the rates.[1] On 15 February 2026 Høyre's national assembly voted 158 to 131 to abolish the tax entirely. LO's chief economist said that would make Norway a tax haven.[16] On 24 June the tax commission proposed one rate between 0.25% and 0.75%, no valuation discounts and a higher general threshold. It put the fall in revenue between kr 6 billion and kr 25 billion, depending on the rate.[18][19][20] The Rødt member resigned from the commission, saying the proposal gives massive cuts to the richest. Nordea calculates that a kr 15 million home would be taxed more than today at any rate above about 0.5%.[18][19]
 
-The 2022 expert committee, Skatteutvalget, proposed cutting the tax's revenue by NOK 8.4 billion and still kept a net wealth tax.[23]
+The 2022 expert committee, Skatteutvalget, proposed cutting the tax's revenue by about kr 8 billion and still kept a net wealth tax.[23]
 
 ## Who supports it {#who-supports}
 
