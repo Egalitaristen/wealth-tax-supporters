@@ -119,7 +119,7 @@ def run(d, adapter, dry=False, fix=False, actors_in=None):
     today = dt.date.today().isoformat()
     db = wtdb.load_all(d)
     chambers = adapter()
-    actors = actors_in if actors_in is not None else [x for x in db["actors"] if x["kind"] == "person" and x["actor_type"] == "politician"]
+    actors = actors_in if actors_in is not None else [x for x in db["actors"] if x["kind"] == "person" and (x["actor_type"] == "politician" or "politician" in (x.get("other_types") or "").split(";"))]
     names = {c["name"] for c in chambers}
     bodies = [b for b in db["bodies"] if b["name"] not in names]
     seats = [s for s in db["seats"] if s["body_id"] not in {b["body_id"] for b in db["bodies"] if b["name"] in names}]
@@ -188,10 +188,16 @@ def run(d, adapter, dry=False, fix=False, actors_in=None):
                                       source_url=f.get("url") or c["source_url"]))
                 report.append(f"{x['actor_id']} {x['name']}: holds a seat in the {c['name']} but is on leave (a substitute serves): left as is")
                 continue
-            positions.append(dict(position_id="", actor_id=x["actor_id"], body_id=bid, role=c["role"], party=(f or {}).get("party", ""),
-                                  geo_unit_id=x["geo_unit_id"], start=(f or {}).get("start", ""), end=(f or {}).get("end", ""),
-                                  current="n", member_ref=str((f or {}).get("ref", "")), checked=today,
-                                  source_url=(f or {}).get("url") or c["source_url"]))
+            existing_pos = next((prev for prev in db["positions"] if prev["actor_id"] == x["actor_id"] and prev["body_id"] == bid), None)
+            party_val = (f or {}).get("party") or (existing_pos.get("party") if existing_pos else "")
+            start_val = (f or {}).get("start") or (existing_pos.get("start") if existing_pos else "")
+            end_val = (f or {}).get("end") or (existing_pos.get("end") if existing_pos else "")
+            ref_val = str((f or {}).get("ref") or (existing_pos.get("member_ref") if existing_pos else ""))
+            url_val = (f or {}).get("url") or (existing_pos.get("source_url") if existing_pos else "") or c["source_url"]
+            positions.append(dict(position_id="", actor_id=x["actor_id"], body_id=bid, role=c["role"], party=party_val,
+                                  geo_unit_id=x["geo_unit_id"], start=start_val, end=end_val,
+                                  current="n", member_ref=ref_val, checked=today,
+                                  source_url=url_val))
             if x["status"] == "active":  # someone already marked as a former member needs no attention
                 report.append(f"{x['actor_id']} {x['name']}: role {x['role'][:60]!r} but not on today's {c['name']} list"
                               f" ({'former member found, left ' + (f.get('end') or '?') if f else 'not found at all: check the spelling'})"
@@ -559,10 +565,10 @@ def poland():
     former = [dict(name=x["firstLastName"], party=x.get("club") or "niez.", ref=str(x["id"]), end="", start="") for x in mps if not x.get("active")]
     return [dict(name="Sejm", seats=460, source_url=f"https://www.sejm.gov.pl/sejm{term}.nsf/poslowie.xsp?type=A",
                  note=f"460 seats; members of the {term}th term who are active. Clubs as the Sejm names them.",
-                 role="Member of the Sejm", role_re=r"(?i)sejm|member of the polish parliament|poseł", role_start=r"(?i)member of the (polish )?(sejm|parliament)",
+                 role="Member of the Sejm", role_re=r"(?i)sejm|member of the polish parliament|poseł|\bmp\b", role_start=r"(?i)member of the (polish )?(sejm|parliament)",
                  members=cur, former=former,
-                 party_order=["Lewica", "KO", "Demokracja", "Polska2050", "PSL-TD", "Centrum", "RozwojPlus", "niez.", "Konfederacja", "PiS"],
-                 colours={"KO": "f68f2f", "PiS": "263778", "Lewica": "d4005a", "PSL-TD": "3ba935", "Polska2050": "ffd500", "Konfederacja": "5b6aa3",
+                 party_order=["Razem", "Lewica", "KO", "Demokracja", "Polska2050", "PSL-TD", "Centrum", "RozwojPlus", "niez.", "Konfederacja", "PiS"],
+                 colours={"Razem": "80184b", "KO": "f68f2f", "PiS": "263778", "Lewica": "d4005a", "PSL-TD": "3ba935", "Polska2050": "ffd500", "Konfederacja": "5b6aa3",
                           "Centrum": "7a7a7a", "RozwojPlus": "8a6fc7", "Demokracja": "d26d9f", "niez.": "8a8680"})]
 
 

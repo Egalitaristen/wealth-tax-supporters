@@ -1,0 +1,27 @@
+query_id,run_id,date,language,query,channel,results_opened,leads_added,note
+Q0001,R007,2026-11-06,pl,Adrian Zandberg podatek majątkowy,seat_sweep,5,1,Found Interpelacja nr 2117 co-signatory
+Q0002,R007,2026-11-06,pl,Maciej Konieczny podatek majątkowy,seat_sweep,4,1,Found Interpelacja nr 2117 co-signatory
+Q0003,R007,2026-11-06,pl,Marcelina Zawisza podatek majątkowy,seat_sweep,4,1,Found Interpelacja nr 2117 co-signatory
+Q0004,R007,2026-11-06,pl,Paulina Matysiak podatek majątkowy,seat_sweep,4,1,Found Interpelacja nr 2117 co-signatory
+Q0005,R007,2026-11-06,pl,Daria Gosek-Popiołek podatek majątkowy,seat_sweep,4,1,Found Interpelacja nr 2117 co-signatory
+Q0006,R007,2026-11-06,pl,Dorota Olko podatek majątkowy,seat_sweep,4,1,Found Interpelacja nr 2117 co-signatory
+Q0007,R007,2026-11-06,pl,Joanna Wicha podatek majątkowy,seat_sweep,3,1,Found Interpelacja nr 2117 co-signatory
+Q0008,R007,2026-11-06,pl,Marta Stożek podatek majątkowy,seat_sweep,4,0,Opposes loan subsidies; inheritance/capital focus; no personal net-wealth statement found
+Q0009,R007,2026-11-06,pl,Magdalena Biejat podatek majątkowy,seat_sweep,5,0,Cadastral/property-value taxation on 3rd+ apartment; out of definition
+Q0010,R007,2026-11-06,pl,Anna Górska podatek majątkowy,seat_sweep,4,0,Income/local tax and prison labor PIT; no wealth-stock statement found
+Q0011,R007,2026-11-06,pl,Waldemar Witkowski podatek majątkowy,seat_sweep,4,0,Capital flow / transaction tax advocacy; out of definition
+Q0012,R007,2026-11-06,pl,Wojciech Konieczny podatek majątkowy,seat_sweep,3,0,PPS resolution on health contribution and housing fund; out of definition
+Q0013,R007,2026-11-06,pl,Maciej Kopiec podatek majątkowy,seat_sweep,3,0,Senat budget committee; no personal wealth-stock statement found
+Q0014,R007,2026-11-06,pl,Klaudia Jachira podatek majątkowy,seat_sweep,4,0,Opposes wealth and property taxation; economically liberal
+Q0015,R007,2026-11-06,pl,Urszula Zielińska podatek majątkowy,seat_sweep,4,0,Windfall profit tax on energy companies; out of definition
+Q0016,R007,2026-11-06,pl,Franciszek Sterczewski podatek majątkowy,seat_sweep,3,0,Asset declaration coverage and income tax debate; no wealth-stock statement found
+Q0017,R007,2026-11-06,pl,Barbara Nowacka podatek majątkowy,seat_sweep,3,0,Progressive income tax (PIT) 40% top bracket; out of definition
+Q0018,R007,2026-11-06,pl,Agnieszka Dziemianowicz-Bąk podatek majątkowy,seat_sweep,4,0,Health contribution and welfare debate; no personal net-wealth statement found
+Q0019,R007,2026-11-06,pl,Anna Maria Żukowska podatek majątkowy,seat_sweep,4,0,Property value tax on 3rd+ apartment; out of definition
+Q0020,R007,2026-11-06,pl,Wanda Nowicka podatek majątkowy,seat_sweep,3,0,No personal wealth-stock statement found
+Q0021,R007,2026-11-06,pl,Tomasz Trela podatek majątkowy,seat_sweep,3,0,No personal wealth-stock statement found
+Q0022,R007,2026-11-06,pl,Włodzimierz Czarzasty podatek majątkowy,seat_sweep,3,0,No personal wealth-stock statement found
+Q0023,R007,2026-11-06,pl,Krzysztof Gawkowski podatek majątkowy,seat_sweep,3,0,No personal wealth-stock statement found
+Q0024,R007,2026-11-06,pl,Katarzyna Kotula podatek majątkowy,seat_sweep,3,0,No personal wealth-stock statement found
+Q0025,R007,2026-11-06,pl,Katarzyna Ueberhan podatek majątkowy,seat_sweep,3,0,No personal wealth-stock statement found
+Q0026,R007,2026-11-06,pl,site:api.sejm.gov.pl/sejm/term10/interpellations "posiadanego majątku",parliament_search,5,7,Retrieved Interpelacja nr 2117 signed by 7 sitting Sejm MPs
