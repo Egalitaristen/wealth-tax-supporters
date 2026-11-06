@@ -1,2 +1,7 @@
 actor_id,name,kind,actor_type,other_types,role,affiliation,party,affiliation_actor_id,country,level,location,geo_unit_id,location_source,wikidata_qid,website,status,alive_checked,prominence,notes,added_run,updated,refined
 A0001,Vasilije Kostić,person,economist,,"Economic analyst; professor, Faculty of Management; later president of the Montenegrin Employers Association",,,,Montenegro,national,Montenegro,G0001,,,,active,y,national,Identified by the role RFE gave him in 2012 (ekonomski analitičar); identity with the later employers-association president rests on name and field.,R001,2026-11-04,
+A0003,Savez sindikata Crne Gore,organisation,union,,Confederation of Trade Unions of Montenegro,,,,Montenegro,national,Montenegro,G0001,,,,active,na,,,R005,2026-11-06,
+A0004,Dušan Pajović,person,campaigner,,Writer and activist,,,,Montenegro,national,Montenegro,G0001,,,,active,y,,,R005,2026-11-06,
+A0005,Andrej Nikolaidis,person,cultural_figure,,Writer and commentator,,,,Montenegro,national,Montenegro,G0001,,,,active,y,,,R005,2026-11-06,
+A0006,Sandra Obradović,person,union_official,,"Trade union representative, Union of Free Trade Unions of Montenegro",,,,Montenegro,national,Montenegro,G0001,,,,active,y,,,R007,2026-11-06,
+A0007,Ljiljana Krivokapić,person,union_official,,Health workers’ union leader,,,,Montenegro,national,Montenegro,G0001,,,,active,y,,,R007,2026-11-06,
