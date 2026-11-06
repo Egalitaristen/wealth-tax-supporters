@@ -25,3 +25,9 @@ Q0023,R007,2026-11-06,pl,Krzysztof Gawkowski podatek majątkowy,seat_sweep,3,0,N
 Q0024,R007,2026-11-06,pl,Katarzyna Kotula podatek majątkowy,seat_sweep,3,0,No personal wealth-stock statement found
 Q0025,R007,2026-11-06,pl,Katarzyna Ueberhan podatek majątkowy,seat_sweep,3,0,No personal wealth-stock statement found
 Q0026,R007,2026-11-06,pl,site:api.sejm.gov.pl/sejm/term10/interpellations "posiadanego majątku",parliament_search,5,7,Retrieved Interpelacja nr 2117 signed by 7 sitting Sejm MPs
+Q0027,R007,2026-11-06,pl,site:rp.pl "Ludwik Kotecki" "podatek majątkowy",web_search,4,0,Confirmed proposal focuses on cadastral / real property tax (podatek od nieruchomości); confirmed X0002 exclusion
+Q0028,R007,2026-11-06,pl,"Marta Stożek" "podatek" OR "majątkowy" OR "bogactwa",seat_sweep,5,0,Scanned all 50 term-10 interpellations and campaign site; no personal net-wealth-tax endorsement
+Q0029,R007,2026-11-06,pl,"Aleksandra Owca" "podatek" OR "majątkowy" OR "Razem",seat_sweep,4,0,Kraków city councillor and Razem co-chair; initiated local tax on vacant properties (pustostany); no personal net wealth tax statement
+Q0030,R007,2026-11-06,pl,"Krzysztof Kukucki" "podatek majątkowy",seat_sweep,3,0,Former Senator and Mayor of Włocławek; advocated cadastral tax on 2nd/3rd+ apartments; out of definition
+Q0031,R007,2026-11-06,pl,"Marcin Karpiński" OR "Piotr Woźniak" OR "Stanisław Pawlak" senator "podatek majątkowy",seat_sweep,6,0,Screened sitting Lewica senators; no personal wealth-stock statements found
+Q0032,R007,2026-11-06,pl,site:api.sejm.gov.pl/sejm/term10/interpellations "posiadanego majątku" OR "podatku majątkowego",parliament_search,5,0,Confirmed Interpelacja 2117 is the sole term-10 parliamentary interpellation advocating taxation of held wealth
