@@ -1,3 +1,9 @@
 body_id,name,level,kind,seats,as_of,source_url,seat_view,notes
 B0001,House of Representatives (Shūgiin),national,chamber,465,2026-10-31,https://www.shugiin.go.jp/internet/itdb_annai.nsf/html/statics/syu/1giin.htm,y,"465 seats; party blocks are the Diet groups (会派) named on the House's list, abbreviated in English where the abbreviation is well known."
 B0002,House of Councillors (Sangiin),national,chamber,248,2026-10-31,https://www.sangiin.go.jp/japanese/joho1/kousei/giin/222/giin.htm,y,248 seats; the member list of the 222th Diet session. Groups as named on the House's list.
+B0003,Daisen Town Council (大山町議会),local,council,,,https://www.daisen.jp/gikai/2/3/,,Tottori Prefecture town council.
+B0004,Ichikawa City Council (市川市議会),local,council,,,https://www.city.ichikawa.lg.jp/site/gikai/3797.html,,Chiba Prefecture.
+B0005,Sakura City Council (佐倉市議会),local,council,,,https://sakurashigikai.gijiroku.com/g07_Kaiha.asp,,Chiba Prefecture.
+B0006,Oita Prefectural Assembly (大分県議会),regional,council,,,https://www.pref.oita.jp/site/gikai/giin-gisekijun.html,,Prefectural assembly.
+B0007,Funabashi City Council (船橋市議会),local,council,,,https://www.city.funabashi.lg.jp/assembly/004/001/p138768.html,,Chiba Prefecture.
+B0008,Niihama City Council (新居浜市議会),local,council,,,https://www.city.niihama.lg.jp/site/gikai/meibo50.html,,Ehime Prefecture.
