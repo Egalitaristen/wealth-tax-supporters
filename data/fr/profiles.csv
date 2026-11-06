@@ -840,12 +840,12 @@ P00849,A0229,bluesky,https://bsky.app/profile/gabrielzucman.bsky.social,Wikidata
 P00850,A0229,wikipedia,https://en.wikipedia.org/wiki/Gabriel_Zucman,Wikidata Q15811211,2026-10-22
 P00851,A0230,x,https://x.com/DAcemogluMIT,Wikidata Q718581,2026-10-22
 P00852,A0230,wikipedia,https://en.wikipedia.org/wiki/Daron_Acemoglu,Wikidata Q718581,2026-10-22
-P00853,A0231,wikipedia,https://en.wikipedia.org/wiki/Arado_Ar_196,Wikidata Q163170,2026-10-22
+P00853,A0231,wikipedia,https://en.wikipedia.org/wiki/George_Akerlof,Wikidata Q222541,2026-11-06
 P00854,A0232,website,https://economics.mit.edu/faculty/banerjee/,Wikidata Q320578,2026-10-22
 P00855,A0232,wikipedia,https://en.wikipedia.org/wiki/Abhijit_Banerjee,Wikidata Q320578,2026-10-22
 P00856,A0233,website,https://economics.mit.edu/people/faculty/esther-duflo,Wikidata Q434509,2026-10-22
 P00857,A0233,wikipedia,https://en.wikipedia.org/wiki/Esther_Duflo,Wikidata Q434509,2026-10-22
-P00858,A0234,wikipedia,https://en.wikipedia.org/wiki/Vladimir_Oravsky,Wikidata Q510965,2026-10-22
+P00858,A0234,wikipedia,https://en.wikipedia.org/wiki/Simon_Johnson_(economist),Wikidata Q1461050,2026-11-06
 P00859,A0235,website,https://web.mit.edu/krugman/www/,Wikidata Q131112,2026-10-22
 P00860,A0235,x,https://x.com/paulkrugman,Wikidata Q131112,2026-10-22
 P00861,A0235,bluesky,https://bsky.app/profile/pkrugman.bluesky.social,Wikidata Q131112,2026-10-22
@@ -1398,3 +1398,5 @@ P01407,A0383,official_page,https://www.senat.fr/senateur/senee_ghislaine21079p.h
 P01408,A0384,official_page,https://www.senat.fr/senateur/souyris_anne21094n.html,Wikidata Q71175355 P1808,2026-11-06
 P01409,A0385,official_page,https://www.senat.fr/senateur/vogel_melanie20266l.html,Wikidata Q108702159 P1808,2026-11-06
 P01410,A0386,official_page,https://www.senat.fr/senateur/melenchon_jean_luc86039k.html,Wikidata Q5829 P1808,2026-11-06
+P01411,A0231,wikipedia,https://fr.wikipedia.org/wiki/George_Akerlof,Wikidata Q222541,2026-11-06
+P01412,A0234,wikipedia,https://fr.wikipedia.org/wiki/Simon_Johnson,Wikidata Q1461050,2026-11-06
