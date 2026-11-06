@@ -1,3 +1,4 @@
 run_id,date,assistant,focus,targets,queries_run,sources_opened,candidates_seen,new_actors,new_evidence,grade_upgrades,saturation,notes_next
 R001,2026-10-20,Claude,"Seed first pass: register, map, Assemblée and Sénat roll calls, bills, appeal, NGOs, unions, parties",H0001-H0014,about 30 web searches,about 80 pages,,,,0,Not measured,See area_profile.md section 10
 R002,2026-11-01,Claude,Cosponsor harvest: author lists of the Assemblée nationale bills read against the register,6 bill rows in resources.json,,,,4,37,0,not assessed,
+R003,2026-11-06,Antigravity,"refine: 90 supporters (links, places, seats, and EU Tax Observatory grade upgrade)","Batch 1: 60 queue supporters + 30 prominent leaders, organisations, and wealthy individuals",,about 35 pages,,0,1,1,not assessed,"Work the next batch of sitting senators and deputies (239 remaining with single statement); investigate local municipal motions (Joeuf, Meurthe-et-Moselle); sweep remaining parties on the seats tab."
