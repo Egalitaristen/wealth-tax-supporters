@@ -54,3 +54,7 @@
 - A 2023 e-Seimas explanatory text and 2024 Klaipėda document concern real-estate taxation: https://e-seimas.lrs.lt/rs/legalact/TAK/b3df47d0104011ee9ac6bb8cb9c06455/ and https://www.klaipeda.lt/data/public/uploads/2024/09/r1-9045.pdf . Local work was a small sample, not a council sweep.
 
 Pre-PR quote review: six added evidence rows E00005–E00010 checked manually against opened source text or official roll-call pages; the automated checker skipped them because sources were blocked or unreadable. The union bulletin and Lazutka report are qualified as editorial and reported speech, respectively.
+
+## Review corrections (2026-11-07)
+
+- Removed the Lithuanian Trade Union Confederation (LPSK) as a supporter (evidence E00005, grade C): the source is an international trade-union news digest summarising outside commentary, not an LPSK statement; recorded as exclusion X0004 (insufficient_evidence). Blinkevičiūtė and Mažylis carry stance=retracted rows for their votes against the 3% proposal of 2 April 2025 (project rule: a later vote against retracts), so they leave the site.
