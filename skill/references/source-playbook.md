@@ -97,6 +97,19 @@ International lists worth checking for every area (for actors from that area): t
 
 ---
 
+## Official gazettes and plenary records (PDF)
+
+Bill-tracker pages, press snippets and search results under-report what a legislature has on record. Colombia's Ley 2277 (2022) first read as "block votes only, no individual statements". Reading all 24 gazettes linked from the Congreso Visible bill page showed a named roll call in the Senate plenary on deleting the wealth-tax article (18 for deleting, 68 against, 66 names printed) and speeches defending the tax. Do this whenever a country's bill has a page that links its gazettes, minutes or committee reports:
+
+1. **Download every document the bill page lists** (ponencias, committee and plenary minutes, conciliation reports, the final text). Do not stop at the summary or the timeline.
+2. **Extract text once, keep the line breaks** (`scripts/gazette_scan.py DIR`). A roll call is one name per line in the raw text; collapsing whitespace destroys it.
+3. **Find the wealth-tax article number in each text version.** Numbering shifts between the government bill, the ponencias and the final law. The presiding officer or the ponente usually says it aloud ("Artículo 31, impuesto al patrimonio"). Then search the vote headings for that number: `gazette_scan.py DIR --term "impuesto al patrimonio" --article 31`.
+4. **Proposals to delete or amend the wealth-tax article are article-specific votes**, even when the final vote is a block of many articles. A "No" on deleting it is a vote to keep the tax (grade A, `evidence_type=vote`, quote the member's own printed entry). A "Sí" from someone already in the register is a retraction (SKILL.md 4).
+5. **Block votes, whole-package votes and ponencia signatures stay out** unless the wealth tax is the only thing in the block.
+6. **Speeches**: minutes mark speakers ("Palabras del honorable Senador X", "Intervención del Representante X"). Read the passages that mention the tax, quote the member's own words, skip speakers who only describe the rates or who oppose it.
+7. **Record what you read.** `area_profile.md` lists the documents read (gazette numbers and dates). Never write "only block votes found" or "no individual statements" unless every minute of the relevant sittings was read; say which ones were not.
+8. If the PDFs cannot be read as text (scans), say so in the profile and open them with the browser or computer use before concluding.
+
 ## Local sweep pack (for sampled units, and for every unit only at Exhaustive depth)
 
 1. `"{TERM}" "{UNIT}" council motion`

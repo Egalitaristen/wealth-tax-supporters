@@ -20,6 +20,7 @@ Files in this skill (use them if present; the rules in this file are sufficient 
 - `scripts/topo_to_boundaries.py` — turns a TopoJSON or shapefile of local areas (and their region outlines) into `boundaries.json`, so the country gets a local map on the site
 - `scripts/fetch_page.py` — optional headless-browser reader for JavaScript pages and sites that answer 403 to plain clients, including their PDFs (needs `pip install playwright trafilatura`, a Chromium build, and optionally `npm install defuddle jsdom` in `scripts/`). `wtdb.py checkquotes` uses it automatically when a page cannot be read otherwise
 - `scripts/adapters/se_meetingplus_scan.py` — optional Sweden adapter: full-text search of MeetingPlus council portals (Stockholm, Huddinge, Danderyd, Region Gotland)
+- `scripts/gazette_scan.py` — reads legislative records published as PDFs (gazettes, plenary minutes): lists named votes by article, prints the printed name lists, and shows the passages that mention the tax with their speaker
 - `scripts/adapters/se_riksdag_scan.py` — optional Sweden adapter: Riksdag scanner: motions, questions, committee reports, plenary debates, votes, member register
 - `scripts/adapters/` — per-country source adapters (for example `gb_ocn_scan.py`, a UK council meeting scanner). Adapters are optional and always secondary to the first pass (6.5)
 
