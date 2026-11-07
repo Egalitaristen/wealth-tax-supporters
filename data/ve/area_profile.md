@@ -31,7 +31,14 @@ Seed pass of 2026-11-03 (run R001). Lines marked `[verify]` come from a search s
 - El Español / EFE, Diario Las Américas, NTN24, La Patilla and Aporrea (both answered a bot check and were not read), finanzasdigital.com, law-firm bulletins (PwC, Forvis Mazars, Crowe, Travieso Evans).
 
 ## 9. Known networks
-- Chavista institutions only: the ANC board (Cabello, Díaz), the Seniat and one health-workers union leader (Fenasirtrasalud). The law went through the ANC en bloque. No statement by a party as such, a confederation (CTV, UNETE, CBST, ASI), an NGO or an economist turned up; opposition voices and Fedecámaras oppose the tax.
+- Broad political, legislative, and intellectual constellation across the Bolivarian movement, university academia, state media, and opposition legislative initiatives:
+  - **Executive & Legislative Enactment:** Nicolás Maduro (President, introduced the wealth tax in 2017), Diosdado Cabello (ANC President), Tania Díaz (First Vice-President), Gladys Requena (Second Vice-President), Eduardo Piñate (ANC Economic Commission Chair 2017), Andrés Eloy Méndez (ANC Economic Commission Chair 2019), Orlando Camacho (Fedeindustria / ANC floor mover).
+  - **Opposition Legislative Proposals:** Luis Eduardo Martínez (Acción Democrática deputy, 2023 proposal for a net wealth tax on assets held abroad).
+  - **Economists & Tax Specialists:** Pasqualina Curcio (USB professor), Tony Boza (economist/deputy), Luis Salas Rodríguez (former Vice President for the Economy / UBV), Juan Carlos Valdez (tax lawyer and analyst).
+  - **Public Intellectuals & Broadcasters:** Luis Britto García (essayist/columnist), Mario Silva (*La Hojilla* host / deputy), María Alejandra Díaz (constitutional lawyer / ANC constituent).
+  - **Trade Unions:** Octavio Solórzano (Fenasirtrasalud / FENTRASEP).
+  - **Institutional Administration:** SENIAT (national tax authority administering the IGP).
+  - **Opposition & Business Stance:** Strongly opposed. Fedecámaras, Consecomercio, Conindustria, CEDICE Libertad, and independent economists (José Guerra, Asdrúbal Oliveros) uniformly reject the IGP as unconstitutional, distortive, and confiscatory under Venezuelan inflation.
 
 ## 10. Plan for the next runs
 1. Follow the upcoming 2026 tax reform bill in the National Assembly (deliberations in the Comisión de Economía) for changes or proposals affecting the IGP.
