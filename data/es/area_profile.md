@@ -133,3 +133,8 @@ R026 (2026-11-07): Sampled published tax scholarship, an economics debate and a 
 
 
 R027 (2026-11-07): Sampled recent economics interviews and a historical regional president’s national tax proposal. Menéndez favoured retention with exemption changes; Monago’s support was for a nationally allocated tax and he opposed the later regional design. An official Senate profile shows permanent-committee membership during the dissolution. This was a targeted search.
+
+
+## Review corrections
+
+E00214 (journalist narration), E00244 (describes Zucman proposal), E00232/E00233 (name-only signature on a question) regraded A to B; E00263 (two-word narrated assessment) A to C.
