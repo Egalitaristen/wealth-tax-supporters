@@ -267,3 +267,8 @@ Algeria has a bicameral Parliament (*Parlement algérien* / البرلمان ا�
 - **Think-tank & investigative assessments of ISF collection**:
   - Transaction d'Algérie, « Impôt sur la fortune : Une niche fiscale négligée selon le FINABI Conseil », 5 January 2023 (`E00054`, `E00055`).
   - Maghreb Émergent, « Impôt sur la fortune : seulement 67 contribuables… pour 2 700 millionnaires », 30 August 2025 (`E00056`, `E00057`).
+
+
+## Review corrections
+
+Removed Tarek Tridi, Lynda Nacer, Maghreb Émergent, Nabil Djemaa, Amel Abdellatif and the Direction Générale des Impôts (rows were narration, statistics complaints, data-sharing or audit powers rather than wealth-tax statements); listed as exclusions X0014-X0019. Regraded E00001, E00002, E00007, E00008, E00009, E00017, E00022, E00027, E00028, E00035, E00036, E00049 from A to B (journalist narration or ambiguous quote) and E00042, E00054 from B to C.
