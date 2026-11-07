@@ -60,3 +60,8 @@ Leads not yet listed:
 **Not added, on purpose:** members who only voted for or reported Ley 2277 de 2022 as a package (the roll calls on articles 35 to 37 were not found); members whose quoted words in the 2026 debate do not mention the wealth tax (Alejandro Ocampo, Bolívar, Mondragón, Erazo, a Bogotá councillor); the universities that intervened in C-395/24 (narrated by the Court only). See `exclusions.csv` and `leads.csv` for the reasons and for the open leads.
 
 **Checks:** `checkquotes` found all 53 quotes on their pages (no row skipped; the six renta básica rows quote the author list on the Legibus record, and the wealth-tax pledge in Gaceta 257 was read in its PDF). Wikidata IDs came from `match_wikidata.py`; three of its 17 new matches were removed after reading the Wikidata entries (one was a minister who died in 1984, two had no usable description).
+
+
+## Review corrections
+
+E00121-E00126 (signed a basic-income bill whose motives, not its text, pledge a wealth tax) regraded A to B; E00103 (position implied) B to C; E00109 (tax on undeclared offshore wealth only) A to C; Ariel Avila removed (journalist paraphrase only, position implied), now an exclusion.
