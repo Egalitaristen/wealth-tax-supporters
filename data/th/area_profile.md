@@ -152,3 +152,10 @@ The Thailand Consumers Council reported a joint pension proposal that cites net 
 The Thailand Consumers Council original policy proposal explicitly includes collecting net wealth tax among cited academic financing options for a universal pension: https://www.tcc.or.th/proposal/cash-allowance-elderly/. Added as A0019 at grade B and closed lead D0001. The page displays an April 2026 update; the underlying proposal relates to 2023.
 
 A 2018 report of Pasuk Phongpaichit’s lecture attributes to her a proposal for a new wealth tax including land, at a low unspecified rate: https://www.matichon.co.th/weekly/deep/article_111290. This supersedes exclusion X0007, which overlooked that source; she is added as A0018 at grade B.
+
+
+## Research follow-up - R011 (7 November 2026)
+
+The consumer council published a transcript of the October 2023 welfare forum in which Nitirat directly names a proposed wealth tax and says We Fair intends to pursue the issue: https://www.tcc.or.th/tcc_media/180866_socialwelfare/. The transcript’s numerical wording is unclear, so no rate is inferred. Seminar notes from economist Theepakorn Jithitikulchai record Decharut proposing a net wealth tax above 300 million baht on 23 March 2023: https://theepakornblog.wordpress.com/2023/03/24/national_pension_seminar/. Added two statements to existing supporters.
+
+The separate We Fair wealth-tax draft text and any official filing remain unlocated. The World Bank’s February 2025 Thailand Economic Monitor recommends expanding “wealth tax” collection, but does not establish that this means an included net-wealth tax: https://documents1.worldbank.org/curated/en/099021125051038392/pdf/P5080791f9e0bc03b1ab8019753dc6998d3.pdf. Do not infer endorsement from that phrase alone. A ThaiPublica column described foreign wealth taxes without clearly endorsing a Thai tax, so its author was not added.
