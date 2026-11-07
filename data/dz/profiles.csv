@@ -1,0 +1,17 @@
+profile_id,actor_id,platform,url,source,checked
+P00001,A0005,website,https://www.ffs.dz,actors.csv website column,2026-11-07
+P00002,A0007,website,https://hmsalgeria.net,actors.csv website column,2026-11-07
+P00003,A0014,website,https://www.el-mouradia.dz,actors.csv website column,2026-11-07
+P00004,A0018,website,https://www.mf.gov.dz,actors.csv website column,2026-11-07
+P00005,A0019,website,https://www.apn.dz,actors.csv website column,2026-11-07
+P00006,A0002,wikipedia,https://en.wikipedia.org/wiki/Louisa_Hanoune,Wikidata Q269903,2026-11-07
+P00007,A0006,website,https://aouchicheyoucef.com/,Wikidata Q97502027,2026-11-07
+P00008,A0014,x,https://x.com/TebbouneAmadjid,Wikidata Q2821166,2026-11-07
+P00009,A0014,wikipedia,https://en.wikipedia.org/wiki/Abdelmadjid_Tebboune,Wikidata Q2821166,2026-11-07
+P00010,A0015,wikipedia,https://en.wikipedia.org/wiki/Ahmed_Ouyahia,Wikidata Q57613,2026-11-07
+P00011,A0017,wikipedia,https://en.wikipedia.org/wiki/Laaziz_Fayed,Wikidata Q117193459,2026-11-07
+P00012,A0022,website,https://elbinaa.com,actors.csv website column,2026-11-07
+P00013,A0031,website,https://www.mf.gov.dz,actors.csv website column,2026-11-07
+P00015,A0023,wikipedia,https://en.wikipedia.org/wiki/Abdelkader_Bengrina,Wikidata Q26036633,2026-11-07
+P00016,A0030,wikipedia,https://en.wikipedia.org/wiki/Brahim_Djamel_Kassali,Wikidata Q112913805,2026-11-07
+P00017,A0040,website,https://www.mf.gov.dz,actors.csv website column,2026-11-07
