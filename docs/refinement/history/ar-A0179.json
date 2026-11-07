@@ -1,0 +1,97 @@
+{
+  "reason": "deceased",
+  "reviewed": "2026-11-07",
+  "run_id": "R012",
+  "source_url": "https://www.clarin.com/politica/murio-carlos-menem-expresidente-argentino_0_qW4U1rI3-.html",
+  "death_date": "2021-02-14",
+  "actor": {
+    "actor_id": "A0179",
+    "name": "Carlos Saúl Menem",
+    "kind": "person",
+    "actor_type": "politician",
+    "other_types": "",
+    "role": "Former national senator (voted for the levy in 2020)",
+    "affiliation": "",
+    "party": "Frente de Todos",
+    "affiliation_actor_id": "",
+    "country": "Argentina",
+    "level": "national",
+    "location": "Argentina > La Rioja",
+    "geo_unit_id": "G0013",
+    "location_source": "",
+    "wikidata_qid": "Q185107",
+    "website": "",
+    "status": "former_role",
+    "alive_checked": "y",
+    "prominence": "regional",
+    "notes": "",
+    "added_run": "R010",
+    "updated": "2026-11-02",
+    "refined": ""
+  },
+  "evidence": [
+    {
+      "evidence_id": "E00179",
+      "actor_id": "A0179",
+      "date": "2020-12-04",
+      "stance": "support",
+      "grade": "A",
+      "evidence_type": "vote",
+      "wt_design": "one_off_levy",
+      "design_detail": "Voted for the Aporte Solidario y Extraordinario (CD-49/20-PL, O.D. 622/2020), a one-off levy on declared wealth above ARS 200 million, in general and in particular; Senate vote of 42 for and 26 against.",
+      "quote_original": "MENEM, CARLOS SAÚL",
+      "quote_lang": "es",
+      "quote_en": "Carlos Saúl Menem: voted in favour (AFIRMATIVO)",
+      "source_url": "https://www.senado.gob.ar/votaciones/detalleActa/1257",
+      "source_title": "Senado de la Nación, votación nominal, acta 5 of 4 December 2020: Aporte Solidario y Extraordinario",
+      "publisher": "Honorable Senado de la Nación",
+      "archive_url": "https://web.archive.org/web/20201210202155/https://www.senado.gob.ar/votaciones/detalleActa/1257",
+      "accessed": "2026-11-02",
+      "harvest_id": "",
+      "grading_note": "The member's own entry in the Senate's official roll call (bloc Frente de Todos, province La Rioja): a formal vote for the named one-off wealth levy.",
+      "run_id": "R010"
+    }
+  ],
+  "profiles": [
+    {
+      "profile_id": "P00211",
+      "actor_id": "A0179",
+      "platform": "x",
+      "url": "https://x.com/CarlosMenem_LR",
+      "source": "Wikidata Q185107",
+      "checked": "2026-11-07"
+    },
+    {
+      "profile_id": "P00212",
+      "actor_id": "A0179",
+      "platform": "facebook",
+      "url": "https://www.facebook.com/menem.conduccion",
+      "source": "Wikidata Q185107",
+      "checked": "2026-11-07"
+    },
+    {
+      "profile_id": "P00213",
+      "actor_id": "A0179",
+      "platform": "wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Carlos_Menem",
+      "source": "Wikidata Q185107",
+      "checked": "2026-11-07"
+    }
+  ],
+  "positions": [
+    {
+      "position_id": "O00173",
+      "actor_id": "A0179",
+      "body_id": "B0002",
+      "role": "National senator",
+      "party": "",
+      "geo_unit_id": "G0013",
+      "start": "",
+      "end": "",
+      "current": "n",
+      "member_ref": "",
+      "checked": "2026-11-07",
+      "source_url": "https://www.senado.gob.ar/senadores/listados/listaSenadoRes"
+    }
+  ]
+}

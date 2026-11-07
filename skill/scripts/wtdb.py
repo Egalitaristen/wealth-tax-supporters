@@ -1048,6 +1048,7 @@ def _plain(s, tags=True):
     s = unicodedata.normalize("NFKC", s).lower()
     for a_, b_ in (("‘", "'"), ("’", "'"), ("“", '"'), ("”", '"'), ("–", "-"), ("—", "-")):
         s = s.replace(a_, b_)
+    s = s.replace("\xad", "")
     return re.sub(r"\s+", " ", s).strip()
 
 

@@ -1,1 +1,4 @@
 link_id,from_actor_id,to_actor_id,link_type,evidence_id,source_url,note
+L0001,A0005,A0006,works_for,E00006,https://www.pracujucachudoba.sk/autori,KOZ analyst and author of its 2025 poverty report.
+L0002,A0018,A0019,works_for,E00021,https://eeb.org/wp-content/uploads/2025/06/Own-Resources-Letter-June-25_final-2.pdf,Named coordinator and signatory on behalf of the coalition.
+L0003,A0017,A0019,works_for,E00020,https://zurnal.pravda.sk/rozhovory/clanok/757846-koho-este-viac-zdanit-pracujucich-alebo-superbohacov/,Interview identifies her as working for the coalition.

@@ -79,3 +79,62 @@ Leads not yet listed:
 - AIReF's revenue estimates for the solidarity tax (2022) and the Economistas Frente a la Crisis manifestos: known from press summaries only.
 
 Cosponsor check (1 November 2026): bills 122/000213 and 122/000045 were read in full from the BOCG (Wayback copies); their signatories are all linked. The signatories of Sumar's bill 122/000303 (BOCG 361-1) could not be read: congreso.es refuses scripts, the PDF opens as a download in the browser and the Wayback Machine holds no copy. The three people linked came from the earlier pass.
+
+## R012 update (7 November 2026)
+
+Frente Amplio published a proposal for an annual tax on net wealth on 5 November 2026: 2% above EUR 1 million and 3% from EUR 50 million, with credit for existing wealth taxes ([coalition proposal](https://frenteamplio.info/noticias/frente-amplio-propone-subir-impuestos-grandes-fortunas-empresas-mejorar-servicios/)). Its candidate Ada Colau presented it. The Catalan Parliament’s [11 December 2024 debate](https://www.parlament.cat/document/trancripcio/425833420.pdf) identifies named speakers who defended the existing tax; the [parliament’s report](https://www.parlament.cat/web/actualitat/noticies/index.html?p_format=D&p_id=272034512) gives group totals, not individual votes. Searches in Spanish and Catalan; no local sweep. H0002–H0005 remain queued: the full 2022 law is an omnibus and cannot establish individual support for the wealth-tax amendment. Next: targeted amendment vote records and additional regional debate speakers, then primary union positions.
+
+## R013 update (7 November 2026)
+
+A Basque-language search found [ELA’s 2025 budget analysis](https://www.ela.eus/eu/albisteak/elak-aurkeztutako-aurrekontuen-azterketak-egiaztatu-du-pradalesen-politika-urkullurena-bezalakoa-dela/aurrekontuak-2025-1.pdf), which proposes doubling wealth-tax rates, and EH Bildu sources identifying specific supporters in Gipuzkoa and Navarre. A Madrid report identifies the deputy defending a 2023 wealth-tax motion. The [Constitutional Court judgment](https://www.boe.es/buscar/doc.php?id=BOE-A-2023-25631) identifies amendment 99 as introduced in the committee report before the plenary; [session 218 vote 24](https://www.congreso.es/webpublica/opendata/votaciones/Leg14/Sesion218/20221124/Votacion024/VOT_20230302163222.pdf) concerns amendments 69, 70, 79 and 83, not amendment 99. No voters were inferred from the omnibus final vote. Searches used Basque, Spanish and Catalan; regional coverage remains partial and no local sweep was performed.
+
+## R014 update (7 November 2026)
+
+The [Catalan Parliament’s 24 January 2013 transcript](https://www.parlament.cat/document/dspcp/57793.pdf) records individual positions on validation of Decree-law 7/2012, which lowered the wealth-tax exemption and increased rates. Four speakers were added individually, including a supporter who described the measure as reluctant and reversible. Primary union reports were added for [UGT](https://www.ugt.es/sites/default/files/220930_comentarios_medidas_fiscales_gobierno_29-09-22.pdf) and [CCOO](https://docpublicos.ccoo.es/cendoc/070271ValoracionRDLey8_2023yRDL7_2023.pdf). A LAB union page timed out and remains an open lead, not evidence. Searches used Spanish and Catalan. Local areas remain unswept.
+
+## R015 update (7 November 2026)
+
+Galician-language research identified the four signers of a [27 September 2022 BNG parliamentary motion](https://www.parlamentodegalicia.es/sitios/web/BibliotecaBoletinsOficiais/B110390_1.pdf) calling for a wealth-tax increase with a EUR 300,000 exemption (excluding the primary home). The motion also contains other fiscal measures; no vote on a broader package was used as evidence. The [2023 parliamentary debate](https://www.parlamentodegalicia.es/sitios/web/BibliotecaDiarioSesions/D110153.pdf) identifies a further speaker, and the [2024 BNG programme](https://www.bng.gal/media/bnggaliza/files/2024/01/24/24_bng_galegas_programa_goberno.pdf) supplies primary party evidence. One Catalan signed op-ed was also added. LAB’s source timed out again and remains open. Searches used Galician, Catalan and Spanish; local areas remain unswept.
+
+## R016 update (7 November 2026)
+
+A [December 2023 Ipar Hegoa report](https://www.iparhegoa.eus/wp-content/uploads/2023/12/Ikusmiran15_2023_12_CAS.pdf) reproduces LAB’s proposal for a more effective wealth tax; an independently opened 2015 report also quotes its opposition to weakening the Gipuzkoa tax. The original LAB lead remained blocked but was resolved from these alternative sources. A Catalan tax-justice campaigner’s [signed 2020 proposal](https://directa.cat/propostes-per-la-nova-normalitat-fiscal/) specifies a lower wealth-tax exemption and the removal of rebates. A [Galician parliamentary question](https://www.parlamentodegalicia.es/sitios/web/BibliotecaBoletinsOficiais/B110478_2.pdf) identifies two Socialist authors criticising wealth-tax rebates. Searches used Spanish, Galician, Catalan and Basque sources; local areas remain unswept.
+
+## R017 update (7 November 2026)
+
+The [21 July 2010 Senate debate](https://www.congreso.es/public_oficiales/L9/SEN/DS/PL/PS0089.PDF) on bill 622/000017 identifies two speakers supporting the restoration of wealth taxation. The bill was rejected 7–243 with two abstentions; no individual votes were inferred from this aggregate. Its proponent Pere Sampol died in 2025 and is recorded in exclusions. A [La Rinconada council debate](https://www.larinconada.es/es/ayuntamiento/actividad-de-plenos/pleno/349/punto/4) identifies a councillor opposing the Andalusian abolition; it is one opportunistic sample, not a completed local sweep. A Galician parliamentary statement was also added.
+
+
+R018 (2026-11-07): Examined Galician parliamentary debates and the 2019 motion 58119. Two individually signed sponsors sought restoration of the 2018 wealth-tax rates; two further speakers expressly supported increasing rates or a bill to do so. The 2018 motion calling for a review was not treated as sufficient evidence of a tax increase. This is a targeted sample, not a completed regional or municipal sweep.
+
+
+R019 (2026-11-07): Sampled Spanish economists, fiscal justice organisations and journalists. Added signed commentary defending the wealth tax and a Spanish journalist’s affirmative argument for a specific minimum tax; added a primary Oxfam report by a named author already in the register. Comparative tax simulations were not treated as endorsements without a separate recommendation. International authors were not attributed to Spain solely because their European commentary was translated there.
+
+
+R020 (2026-11-07): Examined signed Basque and national fiscal-justice commentary and the Gipuzkoa fiscal reform inquiry. Added two named advocates with direct wealth-tax proposals. A member’s byline was not treated as a formal policy of the organisations to which he belongs. The inquiry remains a lead, not a completed sweep.
+
+
+R021 (2026-11-07): Sampled Bizkaia General Assemblies records and a Basque party policy. Recorded the assembly’s 2013 adoption of a wealth-tax law and an individually attributed 2022 call to remove a wealth-tax shield. A separate 2025 regional party proposal provides explicit rates and thresholds. Opponents of the 2013 law advocated a stronger tax; no individual votes were inferred from party membership. The Gipuzkoa inquiry remains to be examined; neither province has been swept.
+
+
+R022 (2026-11-07): Sampled Gipuzkoa’s 2012 wealth-tax adoption and later commentary. The assembly adopted a tax on net wealth that replaced the prior wealth tax; it was replaced in 2018. Two directly attributed supporters and a retired tax inspector were also added. This was a targeted search, not a completed local or provincial sweep.
+
+
+R023 (2026-11-07): Examined the Gipuzkoa fiscal inquiry and an Álava large-fortunes tax debate. Added three individually attributed statements and one additional signed commentary. The Gipuzkoa inquiry was not treated as evidence merely because an expert appeared. This was a sample, not a provincial sweep.
+
+
+R024 (2026-11-07): Examined 2023 Bizkaia wealth-tax amendment texts and Gipuzkoa and Bizkaia debates. Added two named amendment sponsors and three directly attributed speakers. Sources were sampled; no comprehensive provincial sweep or inference from group membership was made.
+
+
+R025 (2026-11-07): Sampled tax-law scholarship and public commentary. Two scholars’ original publications recommend wealth taxation, a journalist opposed its abolition in 2022, and a former minister advocated restoration in 2011. The former dean’s current role was checked separately against a 2026 university announcement. This is a targeted sample, not exhaustive coverage.
+
+
+R026 (2026-11-07): Sampled published tax scholarship, an economics debate and a congressional hearing. Added a state tax inspector and an economist/former MP, plus direct testimony for an existing supporter. The economist’s stance is reported by the broadcaster. The search was targeted, not exhaustive.
+
+
+R027 (2026-11-07): Sampled recent economics interviews and a historical regional president’s national tax proposal. Menéndez favoured retention with exemption changes; Monago’s support was for a nationally allocated tax and he opposed the later regional design. An official Senate profile shows permanent-committee membership during the dissolution. This was a targeted search.
+
+
+## Review corrections
+
+E00214 (journalist narration), E00244 (describes Zucman proposal), E00232/E00233 (name-only signature on a question) regraded A to B; E00263 (two-word narrated assessment) A to C.

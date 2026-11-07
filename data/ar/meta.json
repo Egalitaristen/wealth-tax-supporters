@@ -4,5 +4,19 @@
   "lead": "Egalitaristen",
   "status": "in progress",
   "boundaries": "boundaries.json",
-  "notes": "Seed research: national, provincial and sampled municipal sources. The map covers all 2,280 Georef local governments: 2,064 with IGN polygons and 216 with Georef location markers where boundaries are unavailable. Local research remains incomplete."
+  "notes": "Seed research: national, provincial and sampled municipal sources. The map covers all 2,280 Georef local governments: 2,064 with IGN polygons and 216 with Georef location markers where boundaries are unavailable. Local research remains incomplete.",
+  "polls": [
+    {
+      "support": 64,
+      "oppose": 28,
+      "scope": "Argentina, national representative sample of 2,854 cases across 24 provinces",
+      "question": "Support for the extraordinary contribution on wealth above ARS 200 million (Aporte Solidario)",
+      "question_original": "¿Está de acuerdo con el proyecto de Aporte Solidario y Extraordinario a las grandes fortunas?",
+      "pollster": "Consultora Analogías",
+      "fieldwork": "2020-09-03 - 2020-09-05",
+      "sample": "2,854 cases, nationwide representative",
+      "published": "2020-09-08",
+      "url": "https://www.infocielo.com/politica-y-economia/la-aprobacion-del-gobierno-es-la-misma-que-antes-del-covid-n500252"
+    }
+  ]
 }
