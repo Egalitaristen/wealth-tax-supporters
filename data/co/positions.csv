@@ -1,81 +1,123 @@
 position_id,actor_id,body_id,role,party,geo_unit_id,start,end,current,member_ref,checked,source_url
-O00001,A0006,B001,Senator,Pacto Histórico,G0001,,,y,gómez-paz-cristian-kevin,2026-11-07,https://www.senado.gov.co/index.php/el-senado/senadores
-O00002,A0007,B001,Senator,,G0001,,,n,,2026-11-07,https://www.senado.gov.co/index.php/el-senado/senadores
-O00003,A0008,B001,Senator,Pacto Histórico,G0001,,,y,cepeda-castro-iván,2026-11-07,https://www.senado.gov.co/index.php/el-senado/senadores
-O00004,A0009,B001,Senator,,G0001,,,n,,2026-11-07,https://www.senado.gov.co/index.php/el-senado/senadores
-O00005,A0010,B001,Senator,,G0001,,,n,,2026-11-07,https://www.senado.gov.co/index.php/el-senado/senadores
-O00006,A0011,B001,Senator,,G0001,,,n,,2026-11-07,https://www.senado.gov.co/index.php/el-senado/senadores
-O00007,A0012,B001,Senator,,G0001,,,n,,2026-11-07,https://www.senado.gov.co/index.php/el-senado/senadores
-O00008,A0013,B001,Senator,Pacto Histórico,G0001,,,y,arias-castillo-wilson-neber,2026-11-07,https://www.senado.gov.co/index.php/el-senado/senadores
-O00009,A0014,B001,Senator,,G0001,,,n,,2026-11-07,https://www.senado.gov.co/index.php/el-senado/senadores
-O00010,A0015,B001,Senator,,G0001,,,n,,2026-11-07,https://www.senado.gov.co/index.php/el-senado/senadores
-O00011,A0016,B001,Senator,,G0001,,,n,,2026-11-07,https://www.senado.gov.co/index.php/el-senado/senadores
-O00012,A0018,B001,Senator,,G0001,,,n,,2026-11-07,https://www.senado.gov.co/index.php/el-senado/senadores
-O00013,A0019,B001,Senator,,G0001,,,n,,2026-11-07,https://www.senado.gov.co/index.php/el-senado/senadores
-O00014,A0020,B001,Senator,,G0001,,,n,,2026-11-07,https://www.senado.gov.co/index.php/el-senado/senadores
-O00015,A0021,B001,Senator,,G0001,,,n,,2026-11-07,https://www.senado.gov.co/index.php/el-senado/senadores
-O00016,A0022,B001,Senator,,G0001,,,n,,2026-11-07,https://www.senado.gov.co/index.php/el-senado/senadores
-O00017,A0023,B001,Senator,,G0001,,,n,,2026-11-07,https://www.senado.gov.co/index.php/el-senado/senadores
-O00018,A0024,B001,Senator,Unión Patriótica,G0001,,,y,avella-esquivel-aída-yolanda,2026-11-07,https://www.senado.gov.co/index.php/el-senado/senadores
-O00019,A0025,B001,Senator,,G0001,,,n,,2026-11-07,https://www.senado.gov.co/index.php/el-senado/senadores
-O00020,A0026,B001,Senator,,G0001,,,n,,2026-11-07,https://www.senado.gov.co/index.php/el-senado/senadores
-O00021,A0027,B001,Senator,,G0001,,,n,,2026-11-07,https://www.senado.gov.co/index.php/el-senado/senadores
-O00022,A0028,B001,Senator,,G0001,,,n,,2026-11-07,https://www.senado.gov.co/index.php/el-senado/senadores
-O00023,A0029,B001,Senator,,G0001,,,n,,2026-11-07,https://www.senado.gov.co/index.php/el-senado/senadores
-O00024,A0030,B001,Senator,,G0001,,,n,,2026-11-07,https://www.senado.gov.co/index.php/el-senado/senadores
-O00025,A0034,B001,Senator,,G0001,,,n,,2026-11-07,https://www.senado.gov.co/index.php/el-senado/senadores
-O00026,A0035,B001,Senator,,G0001,,,n,,2026-11-07,https://www.senado.gov.co/index.php/el-senado/senadores
-O00027,A0037,B001,Senator,,G0001,,,n,,2026-11-07,https://www.senado.gov.co/index.php/el-senado/senadores
-O00028,A0041,B001,Senator,,G0001,,,n,,2026-11-07,https://www.senado.gov.co/index.php/el-senado/senadores
-O00029,A0043,B001,Senator,,G0001,,,n,,2026-11-07,https://www.senado.gov.co/index.php/el-senado/senadores
-O00030,A0044,B001,Senator,,G0001,,,n,,2026-11-07,https://www.senado.gov.co/index.php/el-senado/senadores
-O00031,A0045,B001,Senator,,G0001,,,n,,2026-11-07,https://www.senado.gov.co/index.php/el-senado/senadores
-O00032,A0046,B001,Senator,,G0001,,,n,,2026-11-07,https://www.senado.gov.co/index.php/el-senado/senadores
-O00033,A0047,B001,Senator,,G0001,,,n,,2026-11-07,https://www.senado.gov.co/index.php/el-senado/senadores
-O00034,A0050,B001,Senator,,G0001,,,n,,2026-11-07,https://www.senado.gov.co/index.php/el-senado/senadores
-O00035,A0052,B001,Senator,,G0001,,,n,,2026-11-07,https://www.senado.gov.co/index.php/el-senado/senadores
-O00036,A0054,B001,Senator,,G0001,,,n,,2026-11-07,https://www.senado.gov.co/index.php/el-senado/senadores
-O00037,A0058,B001,Senator,Pacto Histórico,G0004,,,y,racero-mayorca-david-ricardo,2026-11-07,https://www.senado.gov.co/index.php/el-senado/senadores
-O00038,A0067,B001,Senator,,G0001,,,n,,2026-11-07,https://www.senado.gov.co/index.php/el-senado/senadores
-O00039,A0068,B001,Senator,,G0001,,,n,,2026-11-07,https://www.senado.gov.co/index.php/el-senado/senadores
-O00040,A0069,B001,Senator,,G0001,,,n,,2026-11-07,https://www.senado.gov.co/index.php/el-senado/senadores
-O00041,A0070,B001,Senator,,G0001,,,n,,2026-11-07,https://www.senado.gov.co/index.php/el-senado/senadores
-O00042,A0071,B001,Senator,Partido Liberal,G0001,,,y,fortich-sánchez-laura-ester,2026-11-07,https://www.senado.gov.co/index.php/el-senado/senadores
-O00043,A0072,B001,Senator,,G0001,,,n,,2026-11-07,https://www.senado.gov.co/index.php/el-senado/senadores
-O00044,A0073,B001,Senator,,G0001,,,n,,2026-11-07,https://www.senado.gov.co/index.php/el-senado/senadores
-O00045,A0074,B001,Senator,,G0001,,,n,,2026-11-07,https://www.senado.gov.co/index.php/el-senado/senadores
-O00046,A0075,B001,Senator,,G0001,,,n,,2026-11-07,https://www.senado.gov.co/index.php/el-senado/senadores
-O00047,A0076,B001,Senator,,G0001,,,n,,2026-11-07,https://www.senado.gov.co/index.php/el-senado/senadores
-O00048,A0077,B001,Senator,,G0001,,,n,,2026-11-07,https://www.senado.gov.co/index.php/el-senado/senadores
-O00049,A0078,B001,Senator,Partido de la Unión por la Gente,G0001,,,y,besaile-fayad-john-moisés,2026-11-07,https://www.senado.gov.co/index.php/el-senado/senadores
-O00050,A0079,B001,Senator,,G0001,,,n,,2026-11-07,https://www.senado.gov.co/index.php/el-senado/senadores
-O00051,A0080,B001,Senator,,G0001,,,n,,2026-11-07,https://www.senado.gov.co/index.php/el-senado/senadores
-O00052,A0081,B001,Senator,,G0001,,,n,,2026-11-07,https://www.senado.gov.co/index.php/el-senado/senadores
-O00053,A0083,B001,Senator,Pacto Histórico,G0001,,,y,omaña-ortiz-deyci-alejandra,2026-11-07,https://www.senado.gov.co/index.php/el-senado/senadores
-O00054,A0084,B001,Senator,Pacto Histórico,G0001,,,y,ahumada-garcía-laura-cristina,2026-11-07,https://www.senado.gov.co/index.php/el-senado/senadores
-O00055,A0085,B001,Senator,Pacto Histórico,G0001,,,y,osorio-marquéz-deisy-johana,2026-11-07,https://www.senado.gov.co/index.php/el-senado/senadores
-O00056,A0091,B001,Senator,Pacto Histórico,G0001,,,y,flórez-hernández-alex-xavier,2026-11-07,https://www.senado.gov.co/index.php/el-senado/senadores
-O00057,A0093,B001,Senator,,G0001,,,n,,2026-11-07,https://www.senado.gov.co/index.php/el-senado/senadores
-O00058,A0094,B001,Senator,Partido Liberal,G0001,,,y,garcía-turbay-lidio-arturo,2026-11-07,https://www.senado.gov.co/index.php/el-senado/senadores
-O00059,A0095,B001,Senator,,G0001,,,n,,2026-11-07,https://www.senado.gov.co/index.php/el-senado/senadores
-O00060,A0096,B001,Senator,,G0001,,,n,,2026-11-07,https://www.senado.gov.co/index.php/el-senado/senadores
-O00061,A0097,B001,Senator,Partido Liberal,G0001,,,y,amín-saleme-fabio-raúl,2026-11-07,https://www.senado.gov.co/index.php/el-senado/senadores
-O00062,A0098,B001,Senator,,G0001,,,n,,2026-11-07,https://www.senado.gov.co/index.php/el-senado/senadores
-O00063,A0031,B002,Representative,,G0002,,,n,,2026-11-07,https://www.camara.gov.co/representantes
-O00064,A0032,B002,Representative,,G0022,,,n,,2026-11-07,https://www.camara.gov.co/representantes
-O00065,A0033,B002,Representative,,G0004,,,n,,2026-11-07,https://www.camara.gov.co/representantes
-O00066,A0036,B002,Representative,,G0001,,,n,,2026-11-07,https://www.camara.gov.co/representantes
-O00067,A0038,B002,Representative,,G0001,,,n,,2026-11-07,https://www.camara.gov.co/representantes
-O00068,A0039,B002,Representative,,G0004,,,n,,2026-11-07,https://www.camara.gov.co/representantes
-O00069,A0040,B002,Representative,,G0027,,,n,,2026-11-07,https://www.camara.gov.co/representantes
-O00070,A0042,B002,Representative,Alianza Verde,G0004,,,y,mauricio-andrés-toro-orjuela,2026-11-07,https://www.camara.gov.co/representantes/mauricio-andres-toro-orjuela
-O00071,A0048,B002,Representative,,G0022,,,n,,2026-11-07,https://www.camara.gov.co/representantes
-O00072,A0049,B002,Representative,,G0002,,,n,,2026-11-07,https://www.camara.gov.co/representantes
-O00073,A0051,B002,Representative,,G0004,,,n,,2026-11-07,https://www.camara.gov.co/representantes
-O00074,A0053,B002,Representative,,G0006,,,n,,2026-11-07,https://www.camara.gov.co/representantes
-O00075,A0055,B002,Representative,,G0002,,,n,,2026-11-07,https://www.camara.gov.co/representantes
-O00076,A0063,B002,Representative,,G0006,,,n,,2026-11-07,https://www.camara.gov.co/representantes
-O00077,A0064,B002,Representative,,G0004,,,n,,2026-11-07,https://www.camara.gov.co/representantes
-O00078,A0065,B002,Representative,,G0006,,,n,,2026-11-07,https://www.camara.gov.co/representantes
-O00079,A0066,B002,Representative,,G0004,,,n,,2026-11-07,https://www.camara.gov.co/representantes
-O00080,A0082,B002,Representative,Pacto Histórico,G0004,,,y,maría-fernanda-carrascal-rojas,2026-11-07,https://www.camara.gov.co/representantes/maria-fernanda-carrascal-rojas
+O00001,A0006,B001,Senator,Pacto Histórico,G0001,,,y,gómez-paz-cristian-kevin,2026-11-08,https://www.senado.gov.co/index.php/el-senado/senadores
+O00002,A0007,B001,Senator,,G0001,,,n,,2026-11-08,https://www.senado.gov.co/index.php/el-senado/senadores
+O00003,A0008,B001,Senator,Pacto Histórico,G0001,,,y,cepeda-castro-iván,2026-11-08,https://www.senado.gov.co/index.php/el-senado/senadores
+O00004,A0009,B001,Senator,,G0001,,,n,,2026-11-08,https://www.senado.gov.co/index.php/el-senado/senadores
+O00005,A0010,B001,Senator,,G0001,,,n,,2026-11-08,https://www.senado.gov.co/index.php/el-senado/senadores
+O00006,A0011,B001,Senator,,G0001,,,n,,2026-11-08,https://www.senado.gov.co/index.php/el-senado/senadores
+O00007,A0012,B001,Senator,,G0001,,,n,,2026-11-08,https://www.senado.gov.co/index.php/el-senado/senadores
+O00008,A0013,B001,Senator,Pacto Histórico,G0001,,,y,arias-castillo-wilson-neber,2026-11-08,https://www.senado.gov.co/index.php/el-senado/senadores
+O00009,A0014,B001,Senator,,G0001,,,n,,2026-11-08,https://www.senado.gov.co/index.php/el-senado/senadores
+O00010,A0015,B001,Senator,,G0001,,,n,,2026-11-08,https://www.senado.gov.co/index.php/el-senado/senadores
+O00011,A0016,B001,Senator,,G0001,,,n,,2026-11-08,https://www.senado.gov.co/index.php/el-senado/senadores
+O00012,A0018,B001,Senator,,G0001,,,n,,2026-11-08,https://www.senado.gov.co/index.php/el-senado/senadores
+O00013,A0019,B001,Senator,,G0001,,,n,,2026-11-08,https://www.senado.gov.co/index.php/el-senado/senadores
+O00014,A0020,B001,Senator,,G0001,,,n,,2026-11-08,https://www.senado.gov.co/index.php/el-senado/senadores
+O00015,A0021,B001,Senator,,G0001,,,n,,2026-11-08,https://www.senado.gov.co/index.php/el-senado/senadores
+O00016,A0022,B001,Senator,,G0001,,,n,,2026-11-08,https://www.senado.gov.co/index.php/el-senado/senadores
+O00017,A0023,B001,Senator,,G0001,,,n,,2026-11-08,https://www.senado.gov.co/index.php/el-senado/senadores
+O00018,A0024,B001,Senator,Unión Patriótica,G0001,,,y,avella-esquivel-aída-yolanda,2026-11-08,https://www.senado.gov.co/index.php/el-senado/senadores
+O00019,A0025,B001,Senator,,G0001,,,n,,2026-11-08,https://www.senado.gov.co/index.php/el-senado/senadores
+O00020,A0026,B001,Senator,,G0001,,,n,,2026-11-08,https://www.senado.gov.co/index.php/el-senado/senadores
+O00021,A0027,B001,Senator,,G0001,,,n,,2026-11-08,https://www.senado.gov.co/index.php/el-senado/senadores
+O00022,A0028,B001,Senator,,G0001,,,n,,2026-11-08,https://www.senado.gov.co/index.php/el-senado/senadores
+O00023,A0029,B001,Senator,,G0001,,,n,,2026-11-08,https://www.senado.gov.co/index.php/el-senado/senadores
+O00024,A0030,B001,Senator,,G0001,,,n,,2026-11-08,https://www.senado.gov.co/index.php/el-senado/senadores
+O00025,A0034,B001,Senator,,G0001,,,n,,2026-11-08,https://www.senado.gov.co/index.php/el-senado/senadores
+O00026,A0035,B001,Senator,,G0001,,,n,,2026-11-08,https://www.senado.gov.co/index.php/el-senado/senadores
+O00027,A0037,B001,Senator,,G0001,,,n,,2026-11-08,https://www.senado.gov.co/index.php/el-senado/senadores
+O00028,A0041,B001,Senator,,G0001,,,n,,2026-11-08,https://www.senado.gov.co/index.php/el-senado/senadores
+O00029,A0043,B001,Senator,,G0001,,,n,,2026-11-08,https://www.senado.gov.co/index.php/el-senado/senadores
+O00030,A0044,B001,Senator,,G0001,,,n,,2026-11-08,https://www.senado.gov.co/index.php/el-senado/senadores
+O00031,A0045,B001,Senator,,G0001,,,n,,2026-11-08,https://www.senado.gov.co/index.php/el-senado/senadores
+O00032,A0046,B001,Senator,,G0001,,,n,,2026-11-08,https://www.senado.gov.co/index.php/el-senado/senadores
+O00033,A0047,B001,Senator,,G0001,,,n,,2026-11-08,https://www.senado.gov.co/index.php/el-senado/senadores
+O00034,A0050,B001,Senator,,G0001,,,n,,2026-11-08,https://www.senado.gov.co/index.php/el-senado/senadores
+O00035,A0052,B001,Senator,,G0001,,,n,,2026-11-08,https://www.senado.gov.co/index.php/el-senado/senadores
+O00036,A0054,B001,Senator,,G0001,,,n,,2026-11-08,https://www.senado.gov.co/index.php/el-senado/senadores
+O00037,A0058,B001,Senator,Pacto Histórico,G0004,,,y,racero-mayorca-david-ricardo,2026-11-08,https://www.senado.gov.co/index.php/el-senado/senadores
+O00038,A0067,B001,Senator,,G0001,,,n,,2026-11-08,https://www.senado.gov.co/index.php/el-senado/senadores
+O00039,A0068,B001,Senator,,G0001,,,n,,2026-11-08,https://www.senado.gov.co/index.php/el-senado/senadores
+O00040,A0069,B001,Senator,,G0001,,,n,,2026-11-08,https://www.senado.gov.co/index.php/el-senado/senadores
+O00041,A0070,B001,Senator,,G0001,,,n,,2026-11-08,https://www.senado.gov.co/index.php/el-senado/senadores
+O00042,A0071,B001,Senator,Partido Liberal,G0001,,,y,fortich-sánchez-laura-ester,2026-11-08,https://www.senado.gov.co/index.php/el-senado/senadores
+O00043,A0072,B001,Senator,,G0001,,,n,,2026-11-08,https://www.senado.gov.co/index.php/el-senado/senadores
+O00044,A0073,B001,Senator,,G0001,,,n,,2026-11-08,https://www.senado.gov.co/index.php/el-senado/senadores
+O00045,A0074,B001,Senator,,G0001,,,n,,2026-11-08,https://www.senado.gov.co/index.php/el-senado/senadores
+O00046,A0075,B001,Senator,,G0001,,,n,,2026-11-08,https://www.senado.gov.co/index.php/el-senado/senadores
+O00047,A0076,B001,Senator,,G0001,,,n,,2026-11-08,https://www.senado.gov.co/index.php/el-senado/senadores
+O00048,A0077,B001,Senator,,G0001,,,n,,2026-11-08,https://www.senado.gov.co/index.php/el-senado/senadores
+O00049,A0078,B001,Senator,Partido de la Unión por la Gente,G0001,,,y,besaile-fayad-john-moisés,2026-11-08,https://www.senado.gov.co/index.php/el-senado/senadores
+O00050,A0079,B001,Senator,,G0001,,,n,,2026-11-08,https://www.senado.gov.co/index.php/el-senado/senadores
+O00051,A0080,B001,Senator,,G0001,,,n,,2026-11-08,https://www.senado.gov.co/index.php/el-senado/senadores
+O00052,A0081,B001,Senator,,G0001,,,n,,2026-11-08,https://www.senado.gov.co/index.php/el-senado/senadores
+O00053,A0083,B001,Senator,Pacto Histórico,G0001,,,y,omaña-ortiz-deyci-alejandra,2026-11-08,https://www.senado.gov.co/index.php/el-senado/senadores
+O00054,A0084,B001,Senator,Pacto Histórico,G0001,,,y,ahumada-garcía-laura-cristina,2026-11-08,https://www.senado.gov.co/index.php/el-senado/senadores
+O00055,A0085,B001,Senator,Pacto Histórico,G0001,,,y,osorio-marquéz-deisy-johana,2026-11-08,https://www.senado.gov.co/index.php/el-senado/senadores
+O00056,A0091,B001,Senator,Pacto Histórico,G0001,,,y,flórez-hernández-alex-xavier,2026-11-08,https://www.senado.gov.co/index.php/el-senado/senadores
+O00057,A0093,B001,Senator,,G0001,,,n,,2026-11-08,https://www.senado.gov.co/index.php/el-senado/senadores
+O00058,A0094,B001,Senator,Partido Liberal,G0001,,,y,garcía-turbay-lidio-arturo,2026-11-08,https://www.senado.gov.co/index.php/el-senado/senadores
+O00059,A0095,B001,Senator,,G0001,,,n,,2026-11-08,https://www.senado.gov.co/index.php/el-senado/senadores
+O00060,A0096,B001,Senator,,G0001,,,n,,2026-11-08,https://www.senado.gov.co/index.php/el-senado/senadores
+O00061,A0097,B001,Senator,Partido Liberal,G0001,,,y,amín-saleme-fabio-raúl,2026-11-08,https://www.senado.gov.co/index.php/el-senado/senadores
+O00062,A0098,B001,Senator,,G0001,,,n,,2026-11-08,https://www.senado.gov.co/index.php/el-senado/senadores
+O00063,A0100,B001,Senator,MIRA,G0001,,,y,agudelo-garcía-ana-paola,2026-11-08,https://www.senado.gov.co/index.php/el-senado/senadores
+O00064,A0101,B001,Senator,Alianza Verde,G0001,,,y,ávila-martínez-ariel-fernando,2026-11-08,https://www.senado.gov.co/index.php/el-senado/senadores
+O00065,A0102,B001,Senator,Partido Conservador,G0001,,,y,barreto-castillo-miguel-ángel,2026-11-08,https://www.senado.gov.co/index.php/el-senado/senadores
+O00066,A0103,B001,Senator,,G0001,,,n,,2026-11-08,https://www.senado.gov.co/index.php/el-senado/senadores
+O00067,A0104,B001,Senator,,G0001,,,n,,2026-11-08,https://www.senado.gov.co/index.php/el-senado/senadores
+O00068,A0105,B001,Senator,Partido Conservador,G0001,,,y,benavides-solarte-diela-liliana,2026-11-08,https://www.senado.gov.co/index.php/el-senado/senadores
+O00069,A0106,B001,Senator,,G0001,,,n,,2026-11-08,https://www.senado.gov.co/index.php/el-senado/senadores
+O00070,A0107,B001,Senator,,G0001,,,n,,2026-11-08,https://www.senado.gov.co/index.php/el-senado/senadores
+O00071,A0108,B001,Senator,,G0001,,,n,,2026-11-08,https://www.senado.gov.co/index.php/el-senado/senadores
+O00072,A0109,B001,Senator,,G0001,,,n,,2026-11-08,https://www.senado.gov.co/index.php/el-senado/senadores
+O00073,A0110,B001,Senator,,G0001,,,n,,2026-11-08,https://www.senado.gov.co/index.php/el-senado/senadores
+O00074,A0111,B001,Senator,,G0001,,,n,,2026-11-08,https://www.senado.gov.co/index.php/el-senado/senadores
+O00075,A0112,B001,Senator,,G0001,,,n,,2026-11-08,https://www.senado.gov.co/index.php/el-senado/senadores
+O00076,A0113,B001,Senator,Partido de la Unión por la Gente,G0001,,,y,correa-jiménez-antonio-josé,2026-11-08,https://www.senado.gov.co/index.php/el-senado/senadores
+O00077,A0114,B001,Senator,,G0001,,,n,,2026-11-08,https://www.senado.gov.co/index.php/el-senado/senadores
+O00078,A0115,B001,Senator,,G0001,,,n,,2026-11-08,https://www.senado.gov.co/index.php/el-senado/senadores
+O00079,A0116,B001,Senator,,G0001,,,n,,2026-11-08,https://www.senado.gov.co/index.php/el-senado/senadores
+O00080,A0117,B001,Senator,Partido de la U,G0001,,,y,deluque-zuleta-alfredo-rafael,2026-11-08,https://www.senado.gov.co/index.php/el-senado/senadores
+O00081,A0118,B001,Senator,,G0001,,,n,,2026-11-08,https://www.senado.gov.co/index.php/el-senado/senadores
+O00082,A0119,B001,Senator,,G0001,,,n,,2026-11-08,https://www.senado.gov.co/index.php/el-senado/senadores
+O00083,A0120,B001,Senator,,G0001,,,n,,2026-11-08,https://www.senado.gov.co/index.php/el-senado/senadores
+O00084,A0121,B001,Senator,,G0001,,,n,,2026-11-08,https://www.senado.gov.co/index.php/el-senado/senadores
+O00085,A0122,B001,Senator,Pacto Histórico,G0001,,,y,flórez-porras-pedro-hernando,2026-11-08,https://www.senado.gov.co/index.php/el-senado/senadores
+O00086,A0123,B001,Senator,Partido de la Unión por la Gente,G0001,,,y,garcés-rojas-juan-carlos,2026-11-08,https://www.senado.gov.co/index.php/el-senado/senadores
+O00087,A0124,B001,Senator,MIRA,G0001,,,y,guevara-villabon-carlos-eduardo,2026-11-08,https://www.senado.gov.co/index.php/el-senado/senadores
+O00088,A0125,B001,Senator,Pacto Histórico,G0001,,,y,hernández-silva-yuly-esmeralda,2026-11-08,https://www.senado.gov.co/index.php/el-senado/senadores
+O00089,A0126,B001,Senator,,G0001,,,n,,2026-11-08,https://www.senado.gov.co/index.php/el-senado/senadores
+O00090,A0127,B001,Senator,,G0001,,,n,,2026-11-08,https://www.senado.gov.co/index.php/el-senado/senadores
+O00091,A0128,B001,Senator,ASI,G0001,,,y,moreno-hurtado-gustavo-adolfo,2026-11-08,https://www.senado.gov.co/index.php/el-senado/senadores
+O00092,A0129,B001,Senator,MAIS,G0001,,,y,peralta-epieyú-martha-isabel,2026-11-08,https://www.senado.gov.co/index.php/el-senado/senadores
+O00093,A0130,B001,Senator,,G0001,,,n,,2026-11-08,https://www.senado.gov.co/index.php/el-senado/senadores
+O00094,A0131,B001,Senator,Partido Conservador,G0001,,,y,pineda-garcía-marcos-daniel,2026-11-08,https://www.senado.gov.co/index.php/el-senado/senadores
+O00095,A0132,B001,Senator,Alianza Verde,G0001,,,y,pulido-hernández-jonathan-ferney,2026-11-08,https://www.senado.gov.co/index.php/el-senado/senadores
+O00096,A0133,B001,Senator,,G0001,,,n,,2026-11-08,https://www.senado.gov.co/index.php/el-senado/senadores
+O00097,A0135,B001,Senator,,G0001,,,n,,2026-11-08,https://www.senado.gov.co/index.php/el-senado/senadores
+O00098,A0136,B001,Senator,,G0001,,,n,,2026-11-08,https://www.senado.gov.co/index.php/el-senado/senadores
+O00099,A0137,B001,Senator,,G0001,,,n,,2026-11-08,https://www.senado.gov.co/index.php/el-senado/senadores
+O00100,A0138,B001,Senator,,G0001,,,n,,2026-11-08,https://www.senado.gov.co/index.php/el-senado/senadores
+O00101,A0139,B001,Senator,,G0001,,,n,,2026-11-08,https://www.senado.gov.co/index.php/el-senado/senadores
+O00102,A0140,B001,Senator,,G0001,,,n,,2026-11-08,https://www.senado.gov.co/index.php/el-senado/senadores
+O00103,A0141,B001,Senator,MIRA,G0001,,,y,virgüez-piraquive-manuel-antonio,2026-11-08,https://www.senado.gov.co/index.php/el-senado/senadores
+O00104,A0142,B001,Senator,Pacto Histórico,G0001,,,y,zuleta-lópez-isabel-cristina,2026-11-08,https://www.senado.gov.co/index.php/el-senado/senadores
+O00105,A0031,B002,Representative,,G0002,,,n,,2026-11-08,https://www.camara.gov.co/representantes
+O00106,A0032,B002,Representative,,G0022,,,n,,2026-11-08,https://www.camara.gov.co/representantes
+O00107,A0033,B002,Representative,,G0004,,,n,,2026-11-08,https://www.camara.gov.co/representantes
+O00108,A0036,B002,Representative,,G0001,,,n,,2026-11-08,https://www.camara.gov.co/representantes
+O00109,A0038,B002,Representative,,G0001,,,n,,2026-11-08,https://www.camara.gov.co/representantes
+O00110,A0039,B002,Representative,,G0004,,,n,,2026-11-08,https://www.camara.gov.co/representantes
+O00111,A0040,B002,Representative,,G0027,,,n,,2026-11-08,https://www.camara.gov.co/representantes
+O00112,A0042,B002,Representative,Alianza Verde,G0004,,,y,mauricio-andrés-toro-orjuela,2026-11-08,https://www.camara.gov.co/representantes/mauricio-andres-toro-orjuela
+O00113,A0048,B002,Representative,,G0022,,,n,,2026-11-08,https://www.camara.gov.co/representantes
+O00114,A0049,B002,Representative,,G0002,,,n,,2026-11-08,https://www.camara.gov.co/representantes
+O00115,A0051,B002,Representative,,G0004,,,n,,2026-11-08,https://www.camara.gov.co/representantes
+O00116,A0053,B002,Representative,,G0006,,,n,,2026-11-08,https://www.camara.gov.co/representantes
+O00117,A0055,B002,Representative,,G0002,,,n,,2026-11-08,https://www.camara.gov.co/representantes
+O00118,A0063,B002,Representative,,G0006,,,n,,2026-11-08,https://www.camara.gov.co/representantes
+O00119,A0064,B002,Representative,,G0004,,,n,,2026-11-08,https://www.camara.gov.co/representantes
+O00120,A0065,B002,Representative,,G0006,,,n,,2026-11-08,https://www.camara.gov.co/representantes
+O00121,A0066,B002,Representative,,G0004,,,n,,2026-11-08,https://www.camara.gov.co/representantes
+O00122,A0082,B002,Representative,Pacto Histórico,G0004,,,y,maría-fernanda-carrascal-rojas,2026-11-08,https://www.camara.gov.co/representantes/maria-fernanda-carrascal-rojas
