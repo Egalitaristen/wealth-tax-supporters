@@ -47,3 +47,7 @@ Leads not yet listed:
 - Municipal motions of 2020 (Berazategui, Mar del Plata, Bariloche and others) are evidence rows, not listed as bills.
 
 Second pass (1 November 2026, polls): searched again for the pollsters' own pages for the 2020 Aporte Solidario polls and found none. Analogías: Letra P (15 September 2020) gives fieldwork 4 and 5 September, 2,962 telephone interviews and results by political group; iProfesional (21 September 2020) gives 64.1% for, 28.3% against, 7.6% no opinion, but it is not clear the two come from the same sample, and neither links the report. The Observatorio de Economía Política of the University of Buenos Aires is cited for a May 2020 survey with 54.4% agreeing (its site now redirects and the Wayback Machine has no copy of `/wp-content/uploads/sites/251/2020/05/INFORME.pdf`). Nothing listed.
+
+## Review corrections (2026-11-07)
+
+- Regraded E00229 (Strada), E00232 (García), E00235 (Noguera) and E00242 (CIFRA) from A to B: the quoted sentences are authorship, narration or a description of others' initiatives, not the person's or body's own position. Regraded E00236-E00238 (CELAG report and its authors) from A to C: the report models revenue from a 2.5% tax, and modelling a tax is not endorsing it.
