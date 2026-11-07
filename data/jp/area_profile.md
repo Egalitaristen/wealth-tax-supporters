@@ -89,3 +89,7 @@ Leads not yet listed:
 - 富裕税入門 (Akashi Shoten, August 2025), a book whose authors the organiser's page does not name.
 - The 1946 one-off property tax (財産税法, Law No. 52 of 1946), known only from the Kikuya paper.
 - Keidanren's December 2024 policy proposal on taxing the wealthy (reported by Akahata): not read, and probably about minimum taxation rather than a net wealth tax.
+
+## Review corrections (2026-11-07)
+
+- Regraded E00102 and E00103 (Sato, Kobayashi; Tokyo Foundation proposal) from A to C: the proposal names a one-time levy on financial assets as 'also an option', not a recommendation. Regraded E00101 (Citizens' Liaison Committee) from A to B: it says a wealth tax should be considered.
