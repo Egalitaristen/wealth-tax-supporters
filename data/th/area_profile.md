@@ -80,11 +80,11 @@ First written 2026-10-30 (run R001). Updated 2026-10-30 (run R002) with deep res
 ## 10. Documented Exclusions
 1. **Dr. Pan Ananapibut** (`X0001`, `out_of_definition`): 2012 presentation titled "ภาษีความมั่งคั่ง" actually proposed a Korean-style property/land and building tax on housing above 5 million THB rather than a net wealth tax on total assets minus debt.
 2. **Sommai Phasee** (`X0002`, `out_of_definition`): Finance Minister (2014–2015) who enacted the 2015 Inheritance Tax Act and Land and Building Tax Act; while frequently referred to in media as taxing the wealthy, these are inheritance and real property taxes excluded under Section 2.
-3. **Nitirat Sapsomboon** (`X0003`, `out_of_definition`): Coordinator of We Fair Network. In his widely cited 2020 iLaw interview outlining tax funding mechanisms for universal welfare, he proposed capital gains tax (30%), progressive land and building tax, progressive inheritance tax, and cutting BOI privileges, but omitted an annual net wealth tax.
+3. **Nitirat Sapsomboon**: the earlier exclusion based on a 2020 interview was superseded by his separately reported 2023 wealth-tax proposal; now A0014 (R008).
 4. **Dr. Somchai Jitsuchon** (`X0004`, `out_of_definition`): Research Director for Inclusive Development at TDRI. While a leading academic voice on inequality and tax reform to finance pensions and child grants, his concrete proposals focus on land and building taxes, windfall taxes, capital gains taxes, and phased VAT increases, rather than an annual net wealth tax.
 5. **Lavaron Sangsnit** (`X0005`, `insufficient_evidence`): Permanent Secretary of the Ministry of Finance. Frequently cited in economic media discussing the structural flaws of the inheritance tax and noting that a net wealth tax (Wealth Tax) could be a future policy alternative; his comments represent administrative feasibility review and technical study rather than personal or institutional advocacy.
 6. **Pita Limjaroenrat** (`X0006`, `insufficient_evidence`): Former Move Forward Party leader. While campaigning on the party's 2023 Progressive Welfare platform, his public statements focused broadly on welfare spending and economic revitalization; specific legislative drafting and direct defense of the net wealth tax was spearheaded by Sirikanya Tansakun and Think Forward Center, with no distinct standalone net wealth tax quote in his personal capacity.
-7. **Prof. Dr. Pasuk Phongpaichit** (`X0007`, `out_of_definition`): Emeritus Professor of Economics at Chulalongkorn University and Thailand's foremost scholar on inequality and wealth concentration. While her empirical studies are seminal to national inequality debates, her concrete policy recommendations focus on personal income tax restructuring (taxing capital/property income equivalently to wage income), inheritance tax enforcement, and progressive land taxes, rather than an annual broad-based net wealth tax.
+7. **Pasuk Phongpaichit**: the earlier exclusion is superseded by a 2018 report of her proposal for a tax on wealth including land; now A0018 (R010).
 8. **P-Move (People's Movement for a Just Society)** (`X0008`, `out_of_definition`): Leading grassroots coalition representing peasant, indigenous, and urban poor networks. While campaigning for radical redistribution, its concrete legislative platform centers on the Progressive Land Tax Act (พ.ร.บ. ภาษีที่ดินอัตราก้าวหน้า) and the Land Bank Act (พ.ร.บ. ธนาคารที่ดิน), which are single-asset property taxes excluded from the net wealth tax definition.
 9. **Dr. Pornchai Thiraveja** (`X0009`, `insufficient_evidence`): Director-General of the Fiscal Policy Office (FPO / สศค.), Ministry of Finance. In May 2025, he outlined that the FPO is actively studying the design and feasibility of a Net Wealth Tax (ภาษีความมั่งคั่ง) to expand direct tax revenue; however, as a civil service agency head directing technical exploratory research without personal or political advocacy, this does not constitute policy advocacy under project standards.
 10. **Dr. Praipol Koomsup** (`X0010`, `insufficient_evidence`): Emeritus Professor of Economics and former Dean of Economics at Thammasat University. In his May 2023 public policy analysis 'เก็บภาษีจากคนรวย เพื่อช่วยคนจน' (Taxing the Rich to Help the Poor), he evaluated international precedents for wealth taxes (France, Spain, Switzerland) and raised cautionary considerations regarding administrative complexity and the narrow wealth tax base in developing countries, without advocating implementation.
@@ -116,3 +116,84 @@ Leads not listed:
 - The We Fair network's parallel civil-society bill (1% on assets over 30 million THB for a 3,000 THB pension): no text or filing page was found.
 - The Fiscal Policy Office's study of a net wealth tax (reported May 2025): no published document found.
 - The Section 77 summary report of the hearing (the "รายงานสรุปความคิดเห็น" file on the same page) was not opened.
+
+## Research follow-up - R007 (7 November 2026)
+
+The official House HRIS directory now lists Sirikanya Tansakun as a People's Party party-list MP in the 27th House: https://hris.parliament.go.th/ss_th.php/ss_detail.php?lang=th&sapa_id=&ssp_id=34265. Her position record is checked against that directory. The IPU's final election record reports the 500-seat House with Bhumjaithai 192, People's Party 120, Pheu Thai 74, Kla Tham 58, Democrat 21, Thai Ruam Palang 6, Palang Pracharath 5, Prachachat 5 and others 19: https://data.ipu.org/parliament/TH/TH-LC01/election/TH-LC01-E20260208/. This resolves the provisional 191/192 discrepancy: the 499-member interim count reported on 4 March gave Bhumjaithai 191 before the last constituency was filled.
+
+Added economist and researcher Supalak Bamrungkit (A0013), a co-author of a January 2022 report whose executive summary explicitly says a wealth tax is necessary to reduce inequality. His official 2026 candidate profile also says his research became Move Forward's wealth-tax policy. The report lists her as an author and gives the date, so the publication is grade A.
+
+The People's Party's published 2026 election tax platform covers personal income tax, VAT and land/building tax but does not mention a net wealth tax: https://election69.peoplesparty.or.th/policy/3/A-3-2/. This is a current-platform omission only; no explicit retraction was found, so the existing party evidence remains unchanged.
+
+## Next runs
+
+1. Find and read the We Fair parallel bill or a current filing record; add named public sponsors only where the text and source qualify.
+2. Check the public campaigners and researchers associated with the 2022 worker-welfare wealth-tax study for other explicit proposals, while avoiding duplicate co-authors already registered.
+3. Monitor for a reintroduced bill or a direct current position from People's Party leaders; do not treat the 2026 platform omission as a retraction.
+4. Resume a name-by-name 27th House sweep only if individual evidence or a bill/roll-call list gives it a high-yield basis.
+
+
+## Research follow-up - R008 (7 November 2026)
+
+A 12 October 2023 Isranews report attributes a proposal for wealth taxation of the very wealthy to We Fair director Nitirat Sapsomboon: https://www.isranews.org/article/isranews-scoop/122867-TCC-welfare-state-gov-PM-Srettha-criticize-report.html. This supersedes his prior exclusion, which only considered a 2020 interview. The wording about 1% is ambiguous, so the evidence is grade B and the design is unspecified.
+
+We Fair published a joint 9 August 2023 proposal with the Four Regions Slum Network and the People’s Network for Welfare State explicitly naming a wealth tax: https://wefair.org/the-civil-society-sector-submits-a-letter-of-opposition-to-the-budget-cut-for-the-elderly-pension-scheme/. Both organisations are added at grade B on the coalition’s report of their joint proposal. The parallel bill text and any filing remain to be located.
+
+
+## Research follow-up - R009 (7 November 2026)
+
+Thai PBS interviewed Thammasat social policy researcher Kritsada Theerakosonphong on 29 December 2025; he named a wealth tax as a tax reform option to fund welfare: https://policywatch.thaipbs.or.th/article/government-252. He is added at grade B.
+
+The Thailand Consumers Council reported a joint pension proposal that cites net wealth taxation among academic financing ideas; the source does not clearly establish that the council itself endorsed the tax. It is recorded as open lead D0001. The citizen pension bill mentions a wealth tax as a funding source, but is a pension bill, not the separate We Fair wealth-tax bill: https://policywatch.thaipbs.or.th/article/life-12. Locate the underlying proposal and bill before drawing a stronger conclusion.
+
+
+## Research follow-up - R010 (7 November 2026)
+
+The Thailand Consumers Council original policy proposal explicitly includes collecting net wealth tax among cited academic financing options for a universal pension: https://www.tcc.or.th/proposal/cash-allowance-elderly/. Added as A0019 at grade B and closed lead D0001. The page displays an April 2026 update; the underlying proposal relates to 2023.
+
+A 2018 report of Pasuk Phongpaichit’s lecture attributes to her a proposal for a new wealth tax including land, at a low unspecified rate: https://www.matichon.co.th/weekly/deep/article_111290. This supersedes exclusion X0007, which overlooked that source; she is added as A0018 at grade B.
+
+
+## Research follow-up - R011 (7 November 2026)
+
+The consumer council published a transcript of the October 2023 welfare forum in which Nitirat directly names a proposed wealth tax and says We Fair intends to pursue the issue: https://www.tcc.or.th/tcc_media/180866_socialwelfare/. The transcript’s numerical wording is unclear, so no rate is inferred. Seminar notes from economist Theepakorn Jithitikulchai record Decharut proposing a net wealth tax above 300 million baht on 23 March 2023: https://theepakornblog.wordpress.com/2023/03/24/national_pension_seminar/. Added two statements to existing supporters.
+
+The separate We Fair wealth-tax draft text and any official filing remain unlocated. The World Bank’s February 2025 Thailand Economic Monitor recommends expanding “wealth tax” collection, but does not establish that this means an included net-wealth tax: https://documents1.worldbank.org/curated/en/099021125051038392/pdf/P5080791f9e0bc03b1ab8019753dc6998d3.pdf. Do not infer endorsement from that phrase alone. A ThaiPublica column described foreign wealth taxes without clearly endorsing a Thai tax, so its author was not added.
+
+## Research follow-up - R012 (7 November 2026)
+
+Wiwatchai Atthakor recommends a wealth tax on Thai billionaires in his 2024 journal article: https://so03.tci-thaijo.org/index.php/ppmjournal/article/view/275011. His paper illustrates a 3% calculation using estimates of billionaire wealth but does not specify a complete tax base, so the design is recorded as unspecified.
+
+A 2025 report attributes to Fiscal Policy Office director Pornchai Thiraveja a proposal to study the feasibility of a net wealth tax: https://www.thansettakij.com/economy/627454. This is a lead, not yet an endorsement of adoption. A 2018 thesis quotes Variya Namsiripongphan on progressive taxation of accumulated wealth within an inheritance-tax discussion; the original and its tax base remain to be checked. The separate We Fair wealth-tax bill and sponsors remain unverified. A Thanasak Jenmana interview discusses French proposals without clearly endorsing a Thai wealth tax.
+
+## Research follow-up - R013 (7 November 2026)
+
+A 2021 We Fair statement explicitly proposes a wealth tax to reduce inequality: https://www.matichon.co.th/weekly/hot-news/article_445769. Its 3.5% example is an illustrative academic estimate rather than a fully specified tax design. Added E00024 as independently accessible supporting evidence.
+
+Thai PBS reports that a civil-society coalition filed an elderly and basic pensions bill with 43,826 names in December 2023 and discussed wealth-tax revenue: https://theactive.thaipbs.or.th/news/social-movement-20231221. This filing is for the pension bill, not evidence that a separate wealth-tax bill was filed. The separate draft text, any filing and sponsors remain unverified. The older E00010 source currently renders a rewritten summary without the quoted body, so its original Thai quotation could not be rechecked; verify the original before relying on that evidence. E00024 provides separately checked support for the coalition. Pornchai Thiraveja remains a lead because studying feasibility is not the same as supporting adoption. Parliamentary remarks by Viriya concern real estate, and the thesis quotation still needs its original context.
+
+## Research follow-up - R014 (7 November 2026)
+
+Revisited exclusion X0008: P-Move's 2024 platform called for a wealth tax on the richest 1% alongside separate land, capital-gains and inheritance taxes, and its 2026 platform repeats the distinct wealth-tax call. Sources: https://theactive.thaipbs.or.th/news/socialmovement-20240906 and https://theactive.thaipbs.or.th/news/social-movement-20260130. Added P-Move as A0021, with two evidence rows, and removed the superseded exclusion. The sources do not specify a complete net-wealth base, so the design remains unspecified.
+
+Prachachat leader Tawee Sodsong reportedly supported all ten broad policy areas at the 2026 forum; the source does not confirm that he or the party endorsed every individual tax provision. Saved the party as lead D0003 for a direct statement rather than adding it as a supporter. The separate We Fair bill text and filing remain unverified.
+
+## Research follow-up - R015 (7 November 2026)
+
+Added economist Theepakorn Jithitikulchai based on the Puey Institute's report of his 2021 health-finance research presentation and his 2023 Thammasat article discussing wealth-tax benefits and political obstacles: https://www.pier.or.th/exchanges/2021/05/ and https://setthasarn.econ.tu.ac.th/blog/detail/645. The 2021 wording is a summary of research based on expert interviews; the article considers both benefits and objections. Neither provides a full tax design. Checked E00020's Thai quotation against the council's accessible proposal; a prior encoding display made the text appear corrupted, but the stored UTF-8 was intact.
+
+Sarinee Achavanuntakul's article recommends considering a carbon-adjusted wealth tax on high-emission portfolios: https://climatefinancethai.com/how-climate-fund-can-give-justice-for-all/. Its illustration taxes emissions per tonne, and the underlying Climate Inequality Report treats it as a tax on carbon content that could complement a general wealth tax, so this alone does not establish support for an asset-value tax under this register's definition. No actor added on that basis. P-Move forum party and government official leads remain unresolved. A regional tax-justice workshop met in Bangkok in October 2026, but attendance alone does not establish a Thai organisation's position: https://saape.org/news-room/slug/regional-workshop-on-wealth-tax-wealth-tax-for-economic-justice-in-asia/.
+
+## Research follow-up - R016 (7 November 2026)
+
+Added Labour Network for People's Rights, a coalition of organised labour groups, after locating its 26 January 2021 open letter calling for a wealth tax on the richest 1% to support universal welfare: https://theactive.thaipbs.or.th/news/20210126. The 1% refers to the targeted population, not a proposed tax rate; the taxable base is unspecified. Prachatai identifies the network and its labour-coalition members in a separate 2020 statement: https://prachataienglish.com/node/8740. That membership list does not show individual members endorsing the later wealth-tax call, so they were not added on that basis.
+
+No separately attributable Thai signatory of the regional wealth-tax petition was confirmed in this pass. Prachachat, Pornchai and the separate We Fair bill remain follow-up leads.
+
+## Research follow-up - R017 (7 November 2026)
+
+Added former Move Forward leader Pita Limjaroenrat: a 13 March 2023 report attributes to him a campaign call for a wealth tax to help fund universal pensions: https://www.matichon.co.th/politics/news_3870423. Removed superseded exclusion X0006, which had asserted that no individual statement had been found. The report does not specify a rate or base.
+
+Found an explicit 2023 statement by Theepakorn supporting a wealth tax on substantial net assets, alongside other tax reforms: https://www.isranews.org/article/isranews-scoop/115254-forecast-budget-national-pension-3000-BAHT-policy-report.html. No frequency or numerical threshold is specified. Added a 2026 We Fair joint-statement source: https://theactive.thaipbs.or.th/news/welfare-20260316.
+
+Saved housing association president Suntorn Sathaporn as D0004: https://reic.or.th/News/RealEstate/469278 names a wealth tax next to a windfall tax, while https://www.prachachat.net/hilight-prachachat/news-1717097 describes higher taxation of income from wealth. The sources do not establish a tax on the stock of wealth, so do not add him without clarification. Labour representatives were not attributed We Fair's forum proposal merely by appearing at the same event.
