@@ -1,2 +1,6 @@
 position_id,actor_id,body_id,role,party,geo_unit_id,start,end,current,member_ref,checked,source_url
 O00001,A0004,B0001,Member of Alþingi,Left-Green Movement,,1983-04-23,2021-09-24,n,557,2026-11-04,https://www.althingi.is/altext/xml/thingmenn/thingmadur/thingseta/?nr=557
+O00002,A0006,B0001,Member of Alþingi,Social Democratic Alliance,G0010,2021-09-25,,y,1417,2026-11-05,https://www.althingi.is/altext/xml/thingmenn/thingmadur/thingseta/?nr=1417
+O00003,A0007,B0001,Member of Alþingi,Social Democratic Alliance,G0010,2021-09-25,,y,1416,2026-11-05,https://www.althingi.is/altext/xml/thingmenn/thingmadur/thingseta/?nr=1416
+O00004,A0008,B0001,Member of Alþingi,Social Democratic Alliance,,2009-04-25,2024-11-29,n,719,2026-11-05,https://www.althingi.is/altext/xml/thingmenn/thingmadur/thingseta/?nr=719
+O00005,A0015,B0001,Member of Alþingi,Left-Green Movement,,2007-05-12,2024-04-08,n,690,2026-11-05,https://www.althingi.is/altext/xml/thingmenn/thingmadur/thingseta/?nr=690
