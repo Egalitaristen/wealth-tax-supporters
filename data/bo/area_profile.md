@@ -88,3 +88,8 @@ Seed pass of 2026-11-01 (run R001). Lines marked `[verify]` come from a search s
 
 ## Pre-PR review (2026-11-07)
 - Regraded six Pacto Ecosocial signatory entries from A to B because the quotations are roster entries; the declaration itself contains the wealth-tax demand. Added historical office records for Arce, Morales and Montenegro.
+
+
+## Review corrections
+
+E00017 and E00019 (reported rather than verbatim) regraded A to B; E00021 (reported wording by a regional Oxfam coordinator) B to C.
