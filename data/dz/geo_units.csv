@@ -1,6 +1,6 @@
 geo_unit_id,name,level,unit_type,parent_id,website,sweep_status,swept_run,swept_date,queries_run,hits,notes,code
-G0001,Algeria,national,country,,https://www.el-mouradia.dz,done,R002,2026-11-07,20,39,National seed and continuation passes completed across Arabic and French sources.,DZ
-G0002,Assemblée Populaire Nationale,national,legislature,G0001,https://www.apn.dz,done,R002,2026-11-07,8,14,"Swept APN Finance Bill debates (PLF 2014, PLF 2018, LFC 2018, PLF 2019, LFC 2020, PLF 2021, PLF 2023, PLF 2026/2027).",
+G0001,Algeria,national,country,,https://www.el-mouradia.dz,done,R003,2026-11-07,30,49,National seed and two continuation passes (R001–R003) completed across Arabic and French sources.,DZ
+G0002,Assemblée Populaire Nationale,national,legislature,G0001,https://www.apn.dz,done,R003,2026-11-07,11,16,"Swept APN Finance Bill debates (PLF 2014, PLF 2018, LFC 2018, PLF 2019, PLF 2020, LFC 2020, PLF 2021, PLF 2023, PLF 2026, PLF 2027).",
 G0003,Conseil de la Nation,national,legislature,G0001,https://www.majliselouma.dz,done,R001,2026-11-07,2,2,Swept Conseil de la Nation members and Finance Bill reviews.,
 G0004,Adrar,region,wilaya,G0001,,pending,,,,,Wilaya 01 (أدرا),DZ-01
 G0005,Ain-Defla,region,wilaya,G0001,,pending,,,,,Wilaya 02 (عين الدفلى),DZ-02
@@ -144,14 +144,14 @@ G0142,Tamzougha,council,commune,G0006,,pending,,,,,Commune in Ain-Temouchent Wil
 G0143,Terga,council,commune,G0006,,pending,,,,,Commune in Ain-Temouchent Wilaya,003028
 G0144,Ain Benian,council,commune,G0007,,pending,,,,,Commune in Alger Wilaya,004001
 G0145,Ain Taya,council,commune,G0007,,pending,,,,,Commune in Alger Wilaya,004002
-G0146,Alger,council,commune,G0007,,done,R002,2026-11-07,4,13,"Sampled Alger (Alger-Centre); national parties, government bodies, and economists headquartered here; no APC municipal wealth tax motions.",004003
+G0146,Alger,council,commune,G0007,,done,R003,2026-11-07,6,15,"Sampled Alger (Alger-Centre); national parties, unions, and economists headquartered here; no APC municipal wealth tax motions.",004003
 G0147,Bab El Oued,council,commune,G0007,,pending,,,,,Commune in Alger Wilaya,004004
 G0148,Baba Hassen,council,commune,G0007,,pending,,,,,Commune in Alger Wilaya,004005
 G0149,Bach Djerrah,council,commune,G0007,,pending,,,,,Commune in Alger Wilaya,004006
 G0150,Bains Romains,council,commune,G0007,,pending,,,,,Commune in Alger Wilaya,004007
 G0151,Baraki,council,commune,G0007,,pending,,,,,Commune in Alger Wilaya,004008
 G0152,Bab Ezzouar,council,commune,G0007,,done,R002,2026-11-07,1,1,Bab Ezzouar commune (Algiers); headquarters of Conseil des Lycées d'Algérie (A0025).,004009
-G0153,Ben Aknoun,council,commune,G0007,,done,R002,2026-11-07,3,9,"Ben Aknoun commune (Algiers); headquarters of Ministry of Finance (A0018), DGI (A0033), and Mouvement El Bina (A0022).",004010
+G0153,Ben Aknoun,council,commune,G0007,,done,R003,2026-11-07,4,11,"Ben Aknoun commune (Algiers); headquarters of Ministry of Finance (A0018), DGI (A0033), and Mouvement El Bina (A0022).",004010
 G0154,Beni Messous,council,commune,G0007,,pending,,,,,Commune in Alger Wilaya,004011
 G0155,Bir Khadem,council,commune,G0007,,pending,,,,,Commune in Alger Wilaya,004012
 G0156,Bir Mourad Rais,council,commune,G0007,,pending,,,,,Commune in Alger Wilaya,004013
@@ -162,7 +162,7 @@ G0160,Bordj El Kiffan,council,commune,G0007,,pending,,,,,Commune in Alger Wilaya
 G0161,Bourouba,council,commune,G0007,,pending,,,,,Commune in Alger Wilaya,004018
 G0162,Bouzareah,council,commune,G0007,,pending,,,,,Commune in Alger Wilaya,004019
 G0163,Casbah,council,commune,G0007,,pending,,,,,Commune in Alger Wilaya,004020
-G0164,Cheraga,council,commune,G0007,,pending,,,,,Commune in Alger Wilaya,004021
+G0164,Cheraga,council,commune,G0007,,done,R003,2026-11-07,1,2,Chéraga commune (Algiers); headquarters of Finabi Conseil (A0045) and founder Chabane Assad (A0046).,004021
 G0165,Dar El Beida,council,commune,G0007,,pending,,,,,Commune in Alger Wilaya,004022
 G0166,Dely Brahim,council,commune,G0007,,pending,,,,,Commune in Alger Wilaya,004023
 G0167,Djisr Ksentina,council,commune,G0007,,pending,,,,,Commune in Alger Wilaya,004024
@@ -180,7 +180,7 @@ G0178,Haraoua,council,commune,G0007,,pending,,,,,Commune in Alger Wilaya,004035
 G0179,Hussein Dey,council,commune,G0007,,pending,,,,,Commune in Alger Wilaya,004036
 G0180,Hydra,council,commune,G0007,,done,R002,2026-11-07,1,1,Hydra commune (Algiers); home of École Nationale d'Administration professor Mohamed Chérif Belmihoub (A0037).,004037
 G0181,Khraissia,council,commune,G0007,,pending,,,,,Commune in Alger Wilaya,004038
-G0182,Kouba,council,commune,G0007,,pending,,,,,Commune in Alger Wilaya,004039
+G0182,Kouba,council,commune,G0007,,done,R003,2026-11-07,1,2,Kouba commune (Algiers); headquarters of Maghreb Émergent (A0048) and economic journalist Lynda Nacer (A0047).,004039
 G0183,Les Eucalyptus,council,commune,G0007,,pending,,,,,Commune in Alger Wilaya,004040
 G0184,Mahelma,council,commune,G0007,,pending,,,,,Commune in Alger Wilaya,004041
 G0185,Mohammadia,council,commune,G0007,,pending,,,,,Commune in Alger Wilaya,004042
@@ -1333,7 +1333,7 @@ G1331,Raggouba,council,commune,G0043,,pending,,,,,Commune in Souk-Ahras Wilaya,0
 G1332,Safel El Ouiden,council,commune,G0043,,pending,,,,,Commune in Souk-Ahras Wilaya,040018
 G1333,Sedrata,council,commune,G0043,,pending,,,,,Commune in Souk-Ahras Wilaya,040019
 G1334,Sidi Fredj,council,commune,G0043,,pending,,,,,Commune in Souk-Ahras Wilaya,040020
-G1335,Souk-Ahras,council,commune,G0043,,pending,,,,,Commune in Souk-Ahras Wilaya,040021
+G1335,Souk-Ahras,council,commune,G0043,,done,R003,2026-11-07,1,1,Souk-Ahras commune; home university of economist Dr. Ahmed Sahlia (A0049).,040021
 G1336,Taoura,council,commune,G0043,,pending,,,,,Commune in Souk-Ahras Wilaya,040022
 G1337,Terraguelt,council,commune,G0043,,pending,,,,,Commune in Souk-Ahras Wilaya,040023
 G1338,Tiffech,council,commune,G0043,,pending,,,,,Commune in Souk-Ahras Wilaya,040024
@@ -1375,7 +1375,7 @@ G1373,Negrine,council,commune,G0045,,pending,,,,,Commune in Tebessa Wilaya,04202
 G1374,Oum Ali,council,commune,G0045,,pending,,,,,Commune in Tebessa Wilaya,042024
 G1375,Safsaf El Ouesra,council,commune,G0045,,pending,,,,,Commune in Tebessa Wilaya,042025
 G1376,Stah Guentis,council,commune,G0045,,pending,,,,,Commune in Tebessa Wilaya,042026
-G1377,Tebessa,council,commune,G0045,,pending,,,,,Commune in Tebessa Wilaya,042027
+G1377,Tebessa,council,commune,G0045,,done,R003,2026-11-07,1,1,Tébessa commune; home constituency of former APN Finance Committee Chairman Tarek Tridi (A0042).,042027
 G1378,Thlidjene,council,commune,G0045,,pending,,,,,Commune in Tebessa Wilaya,042028
 G1379,Ain Bouchekif,council,commune,G0046,,pending,,,,,Commune in Tiaret Wilaya,043001
 G1380,Ain Deheb,council,commune,G0046,,pending,,,,,Commune in Tiaret Wilaya,043002

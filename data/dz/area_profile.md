@@ -65,23 +65,23 @@ Because self-declarations under the 2020 ISF remained low (yielding only ~41M DZ
 - **Presidential and ministerial enforcement directives**: President **Abdelmadjid Tebboune** (`A0014`) issued formal Council of Ministers instructions in October 2021 and October 2022 ordering the digitization of the tax administration and property registries to census individual fortunes rather than taxing only salaried workers. In May 2023, Finance Minister **Laaziz Faid** (`A0017`) instructed the DGI to make 2023 "the year of the wealth tax" (*l'année de l'impôt sur la fortune*) and on **2 August 2023** presided over the signing of the **DGDN–DGI inter-agency data-sharing protocol (*CAD-Fisc*)** linking cadastral land records directly to tax assessment for the ISF.
 - **2024 Presidential Election (*Vision pour demain*)**: During the September 2024 presidential election campaign, **Front des Forces Socialistes (`FFS`)** (`A0005`) candidate and First Secretary **Youcef Aouchiche** (`A0006`) made the effective enforcement and **municipal decentralization** of the *Impôt sur la fortune* to local *Assemblées populaires communales* (APCs) a signature plank of his economic programme (*Vision pour demain*).
 
-### 6. The 2026 Finance Law Reform: Lowering the Threshold to 80M DZD (2025–2026)
+### 6. The 2026 & 2027 Finance Bills (*PLF 2026* & *PLF 2027*): Lowering the Threshold to 80M DZD (2025–2026)
 
-To broaden the tax base and improve revenue yield, the **Ministry of Finance** (`A0018`) introduced **Article 25 of the 2026 Finance Bill (*Projet de loi de finances pour 2026*)** in October 2025, endorsed and strengthened by the **APN Finance and Budget Committee** (`A0019`):
+To broaden the tax base and improve revenue yield after annual ISF receipts between 2022 and 2025 stagnated at 10–25 million DZD across roughly 67 voluntary filers (highlighted by the 2023 **Finabi Conseil** (`A0045`) study by **Chabane Assad** (`A0046`) and investigative reporting by **Lynda Nacer** (`A0047`) in **Maghreb Émergent** (`A0048`)), the **Ministry of Finance** (`A0018`) under **Abdelkrim Bouzred** (`A0031`) and subsequently **Mohammed Lamine Lebbou** (`A0040`, appointed September 2026) introduced **Article 25 of the 2026/2027 Finance Bills**, endorsed and strengthened by the **APN Finance and Budget Committee** (`A0019`):
 
 - **Threshold lowered**: From **100,000,000 DZD** (10 billion centimes) to **80,000,000 DZD** (8 billion centimes).
-- **Revised progressive rate schedule**:
+- **Revised progressive rate schedule (Article 281 nonies / 281 bis 8 CIDTA)**:
   - **Below 80,000,000 DZD**: **0%**
   - **80,000,000 to 120,000,000 DZD**: **0.20%**
   - **120,000,001 to 200,000,000 DZD**: **0.30%**
   - **200,000,001 to 300,000,000 DZD**: **0.40%**
   - **300,000,001 to 400,000,000 DZD**: **0.50%**
   - **Above 400,000,000 DZD**: **1.00%**
-- **Reporting & penalties**: Moved from a quadrennial declaration to an **annual declaration requirement by 31 March**, backed by a **10% late-filing surcharge** (rising to **25%** after formal notice) and expanded *contrôle fiscal* (tax audit) powers over undeclared net wealth.
+- **Reporting, penalties & *taxation d'office***: Modifies Articles 281 quindecies and 281 sexdecies CIDTA to enforce late-filing surcharges of **10%** (delay up to one month), **20%** (one to two months), and **25%** (beyond two months), alongside **automatic assessment (*taxation d'office*)** with a 25% surcharge if a taxpayer fails to regularize within 30 days of a formal notice (*mise en demeure*).
 
 ## Identified supporters
 
-The register records **39 verified supporters** (`A0001`–`A0039`) across **45 Grade A and Grade B evidence records** (`E00001`–`E00045`):
+The register records **49 verified supporters** (`A0001`–`A0049`) across **61 Grade A and Grade B evidence records** (`E00001`–`E00061`):
 
 | ID | Name | Type | Role / Affiliation | Best Grade | Design / Stance Summary |
 |---|---|---|---|---|---|
@@ -124,6 +124,16 @@ The register records **39 verified supporters** (`A0001`–`A0039`) across **45 
 | `A0037` | **Mohamed Chérif Belmihoub** | `academic` | Professor of Economics at ENA Algiers & former Minister Delegate | **B** | Argued for improving the yield and enforcement of the net wealth tax (*impôt sur le patrimoine*) on personal assets of entrepreneurs. |
 | `A0038` | **Nabil Djemaa** | `economist` | Algerian economist and financial expert | **B** | Called for creating a comprehensive national database and full digitization to enforce the *Impôt sur la fortune*. |
 | `A0039` | **Hamza Boughadi** | `economist` | Economic consultant and financial analyst | **B** | Endorsed enforcing the *Impôt sur la fortune* in parallel with targeted subsidy reform and economic data modernization. |
+| `A0040` | **Mohammed Lamine Lebbou** | `politician` | Minister of Finance (since Sept 2026); former Governor of the Bank of Algeria | **A** | Presented Article 25 of PLF 2027 lowering the *Impôt sur la fortune* threshold from 100M DZD to 80M DZD (0.20%–1%) and introducing 10%–25% late-filing penalties. |
+| `A0041` | **Kamel Aissani** | `legal_tax_professional` | Former Director General of Taxes (DGI, 2019–2020) | **A** | Defended the restructuring of the property/wealth tax (Article 26 of PLF 2020) before the APN Finance Committee as the start of a gradual tax reform. |
+| `A0042` | **Tarek Tridi** | `politician` | Former Chairman of the APN Finance and Budget Committee (2019–2020) & Deputy for Tébessa | **B** | Chaired the October 2019 APN Finance Committee hearings welcoming the wealth tax as a catalyst for social justice and calling for higher percentage rates. |
+| `A0043` | **Mourad Goumiri** | `economist` | Professor of Economics (University of Algiers 3) and financial expert | **B** | Advocated on Radio M (Oct 2017) for instituting an *Impôt sur la fortune* alongside property and revaluation taxes so the wealthy contribute to public revenue. |
+| `A0044` | **Noureddine Bouderba** | `union_official` | Trade unionist, social protection expert, and former UGTA social affairs adviser | **B** | Condemned parliamentary lobbying against the *Impôt sur la fortune* and called in 2019 and 2020 to institute the wealth tax and make the patrimony tax effective. |
+| `A0045` | **Finabi Conseil** | `think_tank` | Algiers-based financial and tax policy research cabinet | **B** | Published the January 2023 tax study *Impôt sur la fortune : Une niche fiscale négligée* showing only 67 filers paid the ISF in 2022 and calling for structural enforcement. |
+| `A0046` | **Chabane Assad** | `legal_tax_professional` | Founder & Director of Finabi Conseil; CNESE tax reform expert | **B** | Authored the 2023 Finabi Conseil policy study characterizing the Algerian *Impôt sur la fortune* as a neglected tax niche with exponential revenue potential. |
+| `A0047` | **Lynda Nacer** | `journalist` | Economic journalist at *Maghreb Émergent* | **B** | Authored the August 2025 analytical report contrasting Algeria's 2,700 dollar-millionaires with 67 ISF filers and demanding transparency and redistributive effectiveness. |
+| `A0048` | **Maghreb Émergent** | `media_outlet` | Independent Algerian economic digital daily | **B** | Published investigative reporting critiquing the symbolic 10M DZD yield of the Algerian wealth tax and calling for stronger control mechanisms. |
+| `A0049` | **Ahmed Sahlia** | `economist` | Professor of Economics (University of Souk Ahras) and financial expert | **B** | Criticized the historical non-application of taxes to wealthy businessmen and endorsed the 2020 activation and digitized enforcement of the wealth tax. |
 
 ## Legislatures
 
@@ -205,11 +215,12 @@ Algeria has a bicameral Parliament (*Parlement algérien* / البرلمان ا�
 
 ## Exclusions
 
-11 candidates were evaluated and recorded in `exclusions.csv` (`X0001`–`X0011`):
+13 candidates were evaluated and recorded in `exclusions.csv` (`X0001`–`X0013`):
 
 - **Opponents (`opposes`)**:
   - `X0001` **Toufik Torche** (FLN Deputy and 2017 APN Finance Committee President) — led the committee vote deleting the *Impôt sur la fortune* from PLF 2018.
   - `X0002` **Forum des Chefs d'Entreprises (FCE) / Ali Haddad** — Algeria's main employers' organization (now *CREA*), which lobbied against the 2017 ISF proposal as a "bad signal to investors".
+  - `X0012` **Mahfoud Kaoubi** — economist who argued in *El Mostathmir* (December 2022) that the wealth tax is a "double-edged sword" (*سلاح ذو حدين*) with marginal revenue yield globally and claimed that its application in France caused companies and capital to flee to Luxembourg and Belgium.
 - **Deceased (`deceased`)**:
   - `X0003` **Chafaâ Bouaiche** (died 28 July 2021) — former FFS Parliamentary Group Leader who publicly opposed the deletion of the ISF in November 2017.
   - `X0004` **Abderrahmane Benkhalfa** (died 23 April 2021) — former Minister of Finance (2015–2016).
@@ -221,6 +232,7 @@ Algeria has a bicameral Parliament (*Parlement algérien* / البرلمان ا�
   - `X0009` **Rassemblement pour la Culture et la Démocratie (`RCD`)** — secular opposition party whose May 2020 statement on LFC 2020 dismissed the *Impôt sur la fortune* as "populist in nature insofar as no serious registry exists to tax the rich".
   - `X0010` **Fares Mesdour** — economist who argued that a statutory wealth tax would trigger tax evasion in the absence of a property-declaration culture and advocated voluntary Islamic *zakat* funds instead.
   - `X0011` **Abdelkader Berriche** — economic analyst and former APN deputy who commented on the administrative hurdles and lack of a national property database facing the 2020 wealth tax without expressing normative support.
+  - `X0013` **Abdelhamid Bouallag / Syndicat Autonome des Fonctionnaires des Impôts (`SAFI`)** — tax officials' union leader who campaigned for a radical overhaul of the tax code and "fiscal equity" to end Algeria's status as a "tax haven", without explicitly proposing or naming a net wealth tax.
 
 ## References
 
@@ -245,8 +257,13 @@ Algeria has a bicameral Parliament (*Parlement algérien* / البرلمان ا�
   - Algérie Eco, « Laziz Faid : la fiscalité ordinaire doit couvrir les dépenses salariales à court terme », 3 May 2023 (`E00021`).
   - Radio Algérienne, « Finances : signature d'un protocole d'accord entre la DGDN et la DGI », 2 August 2023 (`E00022`).
 - **2024 Presidential Campaign (*FFS*)**: La Nouvelle République, « Le candidat du FFS affiche ses ambitions hier à Alger : "J'instaurerais et j'appliquerais l'impôt sur la fortune" », 29 August 2024 (`E00008`, `E00009`).
-- **2026 Finance Bill (*PLF 2026*) threshold reduction to 80M DZD**:
+- **2026 & 2027 Finance Bills (*PLF 2026* & *PLF 2027*) threshold reduction to 80M DZD**:
   - El Khabar, « مراجعة نظام الضريبة على الثروة », 10 October 2025 (`E00023`).
-  - El Massa, « 14 تعديلا على مشروع قانون المالية ولا زيادة في أسعار الوقود », 31 October 2025 (`E00024`).
+  - El Massa, « 14 تعديلا على مشروع قانون المالية ولا زيادة في أسعار الوقود », 31 October 2025 / 2 November 2026 (`E00024`, `E00048`).
   - El Khabar, « APN : Examen d'amendements du projet de loi de finances », 1 November 2025 (`E00036`).
-  - Algérie Maintenant, « خبير اقتصادي يعلق على التعديلات المقترحة على ضريبة الثروة في قانون المالية الجديد », 11 October 2026 (`E00041`).
+  - Algérie Eco, « Impôt sur la fortune : ce que prévoit le PLF 2027 », 9 October 2026 (`E00046`).
+  - TSA, « PLF 2027 : l'Algérie envisage de taxer les fortunes de plus de 80 milliards de centimes », 9 October 2026 (`E00047`).
+  - Algérie Maintenant / El Mostathmir, « الضريبة على الثروة في قانون المالية 2027.. عدالة جبائية أوسع ومساهمة أكبر لأصحاب الثروات », 11 October 2026 (`E00041`, `E00060`).
+- **Think-tank & investigative assessments of ISF collection**:
+  - Transaction d'Algérie, « Impôt sur la fortune : Une niche fiscale négligée selon le FINABI Conseil », 5 January 2023 (`E00054`, `E00055`).
+  - Maghreb Émergent, « Impôt sur la fortune : seulement 67 contribuables… pour 2 700 millionnaires », 30 August 2025 (`E00056`, `E00057`).
