@@ -61,3 +61,11 @@ Q0059,R009,2026-11-07,pl,"""Krzysztof Śmiszek"" ""podatek majątkowy""",seat_sw
 Q0060,R009,2026-11-07,pl,"""Joanna Scheuring-Wielgus"" ""podatek majątkowy""",seat_sweep,4,0,Sitting Polish MEP (Lewica / S&D); asset declaration coverage and neutral economic commentary; no wealth-stock stance
 Q0061,R009,2026-11-07,pl,"""Piotr Arak"" ""podatek majątkowy""",expert_search,5,1,Former PIE director; substantive editor and public sponsor of Global Taxes report; added A0305 (Grade A)
 Q0062,R009,2026-11-07,pl,"""Global taxes in the post-COVID-19 era"" site:pie.net.pl",policy_search,4,2,Official policy report of the Polish Economic Institute proposing global net wealth tax of 0.5% and 1.5%; added A0303 (PIE) and A0304 (Łukasz Błoński)
+Q0063,R010,2026-11-07,pl,"""Wojciech Konieczny"" ""podatek majątkowy"" OR ""podatku majątkowego""",web,8,0,PPS leader/Senator: universal health tax and corporate taxes only; exclusion logged
+Q0064,R010,2026-11-07,pl,"""Filip Konopczyński"" ""podatek majątkowy"" OR ""podatku majątkowego"" OR ""podatek od bogactwa""",web,8,0,Fundacja Kaleckiego: progressive PIT and AI taxation; exclusion logged
+Q0065,R010,2026-11-07,pl,"site:krytykapolityczna.pl ""podatek majątkowy"" OR ""podatku majątkowego""",web,10,2,"Identified Artur Troost, Piotr Wójcik, Jakub Majmurek articles"
+Q0066,R010,2026-11-07,pl,"""Piotr Wójcik"" ""podatek majątkowy"" OR ""podatki majątkowe"" site:krytykapolityczna.pl",web,9,0,Piotr Wójcik advocates luxury cadastral and PIT progression only; exclusion logged
+Q0067,R010,2026-11-07,pl,"site:klubjagiellonski.pl ""podatek majątkowy"" OR ""podatku majątkowego""",web,8,1,Led to Spięcie debate and Hubert Walczyński's article
+Q0068,R010,2026-11-07,pl,"site:magazynkontakt.pl ""Hubert Walczyński"" ""podatek majątkowy"" OR ""podatku majątkowego""",web,5,1,Hubert Walczyński Grade B endorsement citing Wroński IBS paper
+Q0069,R010,2026-11-07,pl,"""Ludwik Kotecki"" ""podatek majątkowy"" OR ""podatku majątkowego"" ""Rzeczpospolita""",web,6,0,RPP member: specified real estate property tax reform; exclusion logged
+Q0070,R010,2026-11-07,pl,"""Jakub Majmurek"" ""podatek majątkowy"" OR ""podatku majątkowego""",web,6,0,Krytyka Polityczna commentator: observer commentary; exclusion logged
