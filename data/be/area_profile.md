@@ -36,6 +36,9 @@ First written 2026-10-23 (runs R001 to R005). Lines marked *[verify]* come from 
   - **Chamber DOC 56 1298/001** (*Wetsvoorstel met het oog op het invoeren van een vermogensbelasting*, 15 Jan 2026):
     - Annual wealth tax on net fortunes exceeding €2.5 million.
     - Cosponsors: Dieter Vanbesien, Sarah Schlitz, Staf Aerts, Meyrem Almaci, Rajae Maouane, Matti Vandemaele, Stefaan Van Hecke, Jeroen Van Lysebettens, Claire Hugon.
+  - **Chamber DOC 56 1838/001** (*Proposition de loi visant à introduire un impôt sur les grands patrimoines*, 20 Oct 2026):
+    - Proposed rates: 1% on net wealth between €5m and €100m, 2% on net wealth over €100m.
+    - Re-filing by 10 PS MPs (Ahmed Laaouej, Ludivine Dedonder, Ridouane Chahid, Caroline Désir, Daniel Senesael, Khalil Aouasti, etc.) following committee rejection of DOC 56 0901/001.
 - Party Platforms & Proponents:
   - **PTB-PVDA:** Flagship campaign since 2009 for the *miljonairstaks*, championed by federal, regional (Flemish, Walloon, Brussels), and municipal representatives across all major cities (Antwerp, Ghent, Charleroi, Liège, Brussels, Aalst, Sint-Niklaas, Leuven, Seraing, La Louvière).
   - **PS (Parti Socialiste):** Co-initiator (led by Paul Magnette) of the European Citizens' Initiative (ECI) "Tax the Rich" (registered under ECI(2023)000006) and legislative proponent of the 1%–2% wealth tax on >€5m and >€1.25m (DOC 55 0036/001, DOC 54 0770/001).
@@ -104,7 +107,15 @@ First written 2026-10-23 (runs R001 to R005). Lines marked *[verify]* come from 
 - **R003 (Ecolo-Groen bill & PTB-PVDA MPs):** 23 actors (total 60) completing DOC 56 1298/001 cosponsors, PTB federal/Brussels MPs, and union leaders.
 - **R004 (Regional parliaments & PS bill DOC 55 0036/001):** 20 actors (total 80) covering Walloon, Flemish, and Brussels parliaments, FAN, Financité, Tout Autre Chose, RJF, and PS leadership.
 - **R005 (Nationwide multi-level sweep across municipalities and union sectors):** 25 actors (total 105) covering municipal leaders across Antwerp, Ghent, Brussels, Charleroi, Aalst, Seraing, La Louvière, Saint-Gilles, and sectoral trade union leaders.
-- **Database Status:** 105 supporters, 105 evidence rows, 93 links, 15 exclusions, 6 harvests, 5 runs. 100% verified quotes on live source pages (0 missing, 0 skipped). 0 validation errors, 0 warnings.
+- **R006 (Review pass):** Reviewed all 105 supporters; pruned 41 rows (105 -> 64) that quoted generic party campaign blurbs, slogans or platforms without specific personal endorsements, ensuring rigorous evidentiary adherence.
+- **R007 (Cosponsor harvest):** Signer lists of the Chamber bills read against the register (+10 evidence rows).
+- **R008 (Targeted expansion on thin actor types & re-filed Chamber bill):** Added 6 high-confidence supporters (+6 actors, +6 evidence, +4 links, +5 profiles, +1 harvest, +1 exclusion):
+  - Academic economists: Arthur Apostel (UGent / HIVA KU Leuven, A0100, Grade A) and Martial Toniotti (UCLouvain / LIDAM CORE, A0101, Grade A).
+  - Union tax policy leadership: François Sana (ACV-CSC, A0105, Grade A on Zucman 2% minimum wealth tax).
+  - Sitting legislators: Julien Ribaudo (Chamber of Representatives, A0102, Grade A, Amendment 10 to Ways & Means Budget DOC 56 0853/008), Natalie Eggermont (Chamber of Representatives, A0103, Grade B), Alice Bernard (Senate & Walloon Parliament, A0104, Grade B).
+  - Re-filed bill: Chamber DOC 56 1838/001 (*Proposition de loi visant à introduire un impôt sur les grands patrimoines*, 20 October 2026; 10 PS cosponsors re-filing after committee rejection of DOC 56 0901; Harvest H0007).
+  - Exclusion: Christian Valenduc (Economist, SPF Finances / UCLouvain; advocates Nordic dual income tax on capital gains/income, out_of_definition X0016).
+- **Database Status:** 70 supporters, 80 evidence rows, 55 links, 16 exclusions, 7 harvests, 8 runs. 100% verified quotes on live source pages (0 missing, 0 skipped). 0 validation errors, 0 warnings.
 
 
 ## Resources pass (1 November 2026)
