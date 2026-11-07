@@ -354,8 +354,8 @@ def load_resources(countries, people):
         row = {k: r[k] for k in ("kind", "country", "title", "by", "published", "url", "summary", "status", "state", "level") if r.get(k)}
         for ref in r.get("people", []):
             key = tuple(str(ref).split(":", 1))
-            if ONLY and key not in people:
-                continue
+            if ONLY and key not in people and key[0] not in ONLY:
+                continue  # preview build: people of countries that were not built; a built country's references are still checked
             if key not in people:
                 raise SystemExit(f"resources.json: unknown person {ref!r} in {r.get('title')!r} (use 'folder:actor_id')")
             row.setdefault("people", []).append([key[0], key[1], people[key]])

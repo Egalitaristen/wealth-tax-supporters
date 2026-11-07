@@ -76,6 +76,7 @@ Read what `review_scan.py` lists and fix or remove the rows. Besides the evidenc
 - **One name per party**, branches under the national party's name; run `dedupe` after every large import (rosters produce near-duplicates such as "Coalition for Human Needs" and "Coalition on Human Needs"), then `merge`.
 - **`notes` are shown to readers**: identity caveats and sources only. Never "alive", "no Wikidata match" or "checked X, nothing found" (that is `alive_checked` and the run log).
 - **A roll call is quoted from the member's own entry** on the official per-member list, never from the shared result line.
+- **"No roll call found" needs a list of the minutes read.** For any bill with published gazettes or minutes, the profile names each document read; deleting-the-article and amendment votes count as article-specific (source-playbook.md, "Official gazettes").
 - **Write to disk as you go**, log every run in `runs.csv`, and report counts from the files (`wtdb.py status`), not from memory. Measure progress in supporters found and checked, not in units marked done.
 - **Maps**: an open licence and the official codes, or no map. The register goes down to the local tier either way (6.7).
 - **Sample before you scale**: no crawler for local units before the layers are touched and a sample shows it pays (6.5).

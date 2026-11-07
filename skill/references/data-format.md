@@ -143,6 +143,18 @@ A personal GitHub repository or blog with no licence file, a "free to use" note,
 <!-- /schema:queries -->
 - IDs are `Q0001`. `language` is an ISO code; `channel` is free text (web, news, archive, a site or database).
 
+**documents.csv** — the official documents about wealth taxation in this area and whether, when and how they were read
+<!-- schema:documents -->
+`document_id, kind, title, ref, date, body, url, tax_relevance, read_status, read_run, read_date, read_method, found, gaps`
+- IDs look like `M0001`. Required: `kind`, `title`, `read_status`.
+- `kind` is one of: amendment · audit_or_statistics_report · bill · committee_minutes · committee_report · consultation · court_ruling · government_proposal · motion · other · petition · plenary_minutes · question · roll_call.
+- `tax_relevance` is one of: core · none · related (or blank).
+- `read_status` is one of: partial · read · skimmed · unread.
+- `read_method` is one of: browser · computer_use · ocr · scanner · text · translated (or blank).
+<!-- /schema:documents -->
+- `kind`: bill · amendment · motion · petition · question · government_proposal · consultation · committee_report · committee_minutes · plenary_minutes · roll_call · court_ruling · audit_or_statistics_report · other. `tax_relevance`: core (about the wealth tax) · related · none. `read_status`: unread · skimmed · partial · read (read = every page of the part that matters). `read_method`: text · scanner (`gazette_scan.py`) · browser · computer_use · translated · ocr.
+- `ref` is the bill or gazette number, `body` the chamber or committee, `found` what the reading produced (evidence IDs or counts, e.g. "66 roll-call rows E00128-E00193; 3 speeches"), `gaps` what was not read (pages, sittings, scanned annexes). A skimmed or partial document must say what is missing. List the area's bills, their debates, votes and committee reports here as they are found, and set `read_status` when each is read; `python skill/scripts/records_status.py` shows the state across countries.
+
 **exclusions.csv** — candidates checked and rejected, so they are not checked again
 <!-- schema:exclusions -->
 `exclusion_id, name, reason, detail, source_url, run_id`

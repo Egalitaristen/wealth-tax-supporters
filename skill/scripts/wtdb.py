@@ -18,6 +18,7 @@ Commands
   export   DIR [--out FILE]         write the xlsx report
 """
 import argparse, csv, datetime as dt, difflib, json, os, re, sys, unicodedata
+from pathlib import Path
 from collections import Counter, defaultdict
 
 SCHEMA = {
@@ -46,10 +47,14 @@ SCHEMA = {
     # register. Leads about other areas go in data/leads.csv (leads.py). The query log shows how broadly an area was searched.
     "leads": ["lead_id", "kind", "name", "source_url", "why", "found_run", "status", "closed_run", "note"],
     "queries": ["query_id", "run_id", "date", "language", "query", "channel", "results_opened", "leads_added", "note"],
+    # Official documents about wealth taxation (bills, amendments, minutes, roll calls, reports, rulings) and whether, when and how
+    # they were read. Lets a reviewer see what is covered and a run see what is still unread (references/records/_template.md).
+    "documents": ["document_id", "kind", "title", "ref", "date", "body", "url", "tax_relevance", "read_status", "read_run",
+                  "read_date", "read_method", "found", "gaps"],
 }
 PREFIX = {"actors": ("A", 4), "evidence": ("E", 5), "geo_units": ("G", 4), "links": ("L", 4),
           "harvest": ("H", 4), "exclusions": ("X", 4), "runs": ("R", 3), "profiles": ("P", 5),
-          "bodies": ("B", 4), "seats": ("S", 4), "positions": ("O", 5), "leads": ("D", 4), "queries": ("Q", 4)}
+          "bodies": ("B", 4), "seats": ("S", 4), "positions": ("O", 5), "leads": ("D", 4), "queries": ("Q", 4), "documents": ("M", 4)}
 REQUIRED = {
     "actors": ["name", "kind", "actor_type", "country", "level", "status", "alive_checked"],
     "evidence": ["actor_id", "date", "stance", "grade", "evidence_type", "wt_design", "quote_original",
@@ -65,8 +70,15 @@ REQUIRED = {
     "positions": ["actor_id", "body_id"],
     "leads": ["kind", "name", "source_url", "status"],
     "queries": ["query"],
+    "documents": ["kind", "title", "read_status"],
 }
 ENUMS = {
+    ("documents", "kind"): {"bill", "amendment", "motion", "petition", "question", "government_proposal", "consultation",
+                            "committee_report", "committee_minutes", "plenary_minutes", "roll_call", "court_ruling",
+                            "audit_or_statistics_report", "other"},
+    ("documents", "tax_relevance"): {"", "core", "related", "none"},
+    ("documents", "read_status"): {"unread", "skimmed", "partial", "read"},
+    ("documents", "read_method"): {"", "text", "scanner", "browser", "computer_use", "translated", "ocr"},
     ("leads", "kind"): {"person", "organisation", "document", "event", "list"},
     ("leads", "status"): {"open", "used", "rejected", "duplicate"},
     ("actors", "kind"): {"person", "organisation", "institution"},
@@ -297,6 +309,16 @@ def validate(db):
     for i, q in enumerate(db["queries"], start=2):
         if q.get("run_id") and q["run_id"] not in ids["runs"]:
             warns.append(f"queries.csv line {i} ({q.get('query_id')}): run_id {q['run_id']} is not in runs.csv")
+    for i, m in enumerate(db["documents"], start=2):
+        where = f"documents.csv line {i} ({m.get('document_id')})"
+        if m.get("url") and not m["url"].startswith(("http://", "https://")):
+            errs.append(f"{where}: url must start with http(s)://")
+        if m.get("read_status") in ("skimmed", "partial", "read") and not (m.get("read_run") and m.get("read_date")):
+            warns.append(f"{where}: read_status {m['read_status']} needs read_run and read_date")
+        if m.get("read_status") in ("skimmed", "partial") and not m.get("gaps"):
+            warns.append(f"{where}: {m['read_status']} but gaps is empty (say what was not read)")
+        if m.get("read_run") and m["read_run"] not in ids["runs"]:
+            warns.append(f"{where}: read_run {m['read_run']} is not in runs.csv")
     actors = {r["actor_id"]: r for r in db["actors"]}
     ev_by_actor = defaultdict(list)
     for i, e in enumerate(db["evidence"], start=2):
@@ -827,6 +849,10 @@ def cmd_status(a):
     lq = Counter(l["status"] for l in db["leads"])
     print(f"\nLeads in this area: open {lq['open']}, used {lq['used']}, rejected {lq['rejected']}, duplicate {lq['duplicate']} | "
           f"queries logged: {len(db['queries'])} in {len({q['language'] for q in db['queries'] if q.get('language')})} language(s)")
+    dq = Counter(m["read_status"] for m in db["documents"])
+    print(f"Official documents tracked: {len(db['documents'])} (read {dq['read']}, partial {dq['partial']}, skimmed {dq['skimmed']}, "
+          f"unread {dq['unread']}) | records guide: "
+          f"{'yes' if (Path(__file__).resolve().parent.parent / 'references' / 'records' / (Path(a.dir).resolve().name + '.md')).exists() else 'MISSING'}")
     hq = Counter(h["status"] for h in db["harvest"])
     print(f"\nHarvest lists: queued {hq['queued']}, in_progress {hq['in_progress']}, done {hq['done']}, "
           f"failed {hq['failed']}")

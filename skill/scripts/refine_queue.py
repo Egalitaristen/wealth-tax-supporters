@@ -36,6 +36,15 @@ def main():
             print(f"{len(open_leads)} open lead(s) for {iso} from other runs: python skill/scripts/leads.py list --country {iso}\n")
     except Exception:
         pass
+    folder = Path(a.dir).resolve().name
+    guide = Path(__file__).resolve().parent.parent / "references" / "records" / f"{folder}.md"
+    docs = db["documents"]
+    unread = [d for d in docs if d["read_status"] in ("unread", "skimmed", "partial") and d.get("tax_relevance") in ("core", "")]
+    if not guide.exists() or unread or not docs:
+        print("RECORDS: " + ("no records guide (references/records/_template.md); " if not guide.exists() else "")
+              + ("no documents.csv rows yet; list the country's bills and their debates first; " if not docs else "")
+              + (f"{len(unread)} core document(s) unread, skimmed or partial; " if unread else "")
+              + "read the official record before refining actors (source-playbook.md, 'Official gazettes'). `python skill/scripts/records_status.py --country " + folder + "`\n")
     own = [l for l in db["leads"] if l["status"] == "open"]
     if own:
         print(f"{len(own)} open lead(s) in this area's own leads.csv (SKILL.md 6.3a): " + "; ".join(f"{l['lead_id']} {l['name']}" for l in own[:5]) + "\n")
