@@ -326,6 +326,9 @@ RESOURCE_KINDS = ("poll", "paper", "report", "bill")
 BILL_STATES = {"in_force": "In force", "pending": "Pending", "rejected": "Rejected", "lapsed": "Lapsed", "adopted": "Adopted"}
 
 
+ONLY = set()  # country folders of a --only preview build; empty for a full build
+
+
 def load_resources(countries, people):
     """Polls (from each country's meta.json) and the papers, reports and bills in data/resources.json, as one list for the Resources page.
     `people` maps (country folder, actor id) to a name, so a resource can link its authors and sponsors to their profiles."""
@@ -342,6 +345,8 @@ def load_resources(countries, people):
             raise SystemExit(f"resources.json: bad kind {r.get('kind')!r} in {r.get('title')!r}")
         if not str(r.get("url", "")).startswith("https://") or not r.get("title") or not r.get("by") or not r.get("published"):
             raise SystemExit(f"resources.json: needs title, by, published and an https url: {r.get('title')!r}")
+        if ONLY and r.get("country") != "global" and r.get("country") not in names:
+            continue  # preview build: resources of countries that were not built
         if r.get("country") != "global" and r.get("country") not in names:
             raise SystemExit(f"resources.json: unknown country {r.get('country')!r} in {r.get('title')!r}")
         if r["kind"] == "bill" and r.get("state") not in BILL_STATES:
@@ -349,6 +354,8 @@ def load_resources(countries, people):
         row = {k: r[k] for k in ("kind", "country", "title", "by", "published", "url", "summary", "status", "state", "level") if r.get(k)}
         for ref in r.get("people", []):
             key = tuple(str(ref).split(":", 1))
+            if ONLY and key not in people:
+                continue
             if key not in people:
                 raise SystemExit(f"resources.json: unknown person {ref!r} in {r.get('title')!r} (use 'folder:actor_id')")
             row.setdefault("people", []).append([key[0], key[1], people[key]])
@@ -973,8 +980,19 @@ def share_pages(out, base, countries, full, unique=None, bodies=(), resources=()
 
 def main():
     ap = argparse.ArgumentParser()
-    ap.add_argument("--out", default=str(ROOT / "_site"))
-    out = Path(ap.parse_args().out)
+    ap.add_argument("--out", default=None)
+    ap.add_argument("--only", metavar="FOLDER", nargs="+",
+                    help="preview build: only these country folders (for example --only co). Fast; skips supranational registers, "
+                         "so world totals are partial. Writes to _site_only by default and is never what you deploy.")
+    args = ap.parse_args()
+    only = set(args.only or [])
+    ONLY.update(only)
+    if only:
+        missing = sorted(f for f in only if not (DATA / f / "meta.json").exists())
+        if missing:
+            sys.exit(f"--only: no such country folder under data/: {', '.join(missing)}")
+        print(f"PREVIEW BUILD of {', '.join(sorted(only))} only: totals are partial, do not deploy this output.")
+    out = Path(args.out or ROOT / ("_site_only" if only else "_site"))
     if out.exists():
         shutil.rmtree(out)
     (out / "data").mkdir(parents=True)
@@ -996,6 +1014,8 @@ def main():
     supras = []
     for folder in sorted(DATA.iterdir()):
         if folder.is_dir() and (folder / "meta.json").exists():
+            if only and folder.name not in only:
+                continue
             if json.load(open(folder / "meta.json", encoding="utf-8")).get("supranational"):
                 supras.append(folder)  # built after the countries: its people live in their registers
                 continue

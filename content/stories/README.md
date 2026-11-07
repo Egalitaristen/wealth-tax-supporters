@@ -54,3 +54,7 @@ Read `STYLE.md` before writing or editing a story; it points to the Humanizer sk
 ## Layouts
 
 `layout: article` is the story template: the section list on the left (a "Jump to" control on phones), the text in the middle, Key facts on the right (under the standfirst on phones).
+
+## Checking a story quickly
+
+`python scripts/build_site.py --only co` builds just that country into `_site_only/` in a few seconds, with the story, its sources and the `/co` and `/co/story` pages. Totals on the home page are partial in that build, so never deploy it. A full build (no flag) is what CI and deploy use.
