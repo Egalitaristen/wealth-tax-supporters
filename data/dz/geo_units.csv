@@ -1,6 +1,6 @@
 geo_unit_id,name,level,unit_type,parent_id,website,sweep_status,swept_run,swept_date,queries_run,hits,notes,code
-G0001,Algeria,national,country,,https://www.el-mouradia.dz,done,R001,2026-11-07,10,21,National seed pass completed across Arabic and French sources.,DZ
-G0002,Assemblée Populaire Nationale,national,legislature,G0001,https://www.apn.dz,done,R001,2026-11-07,4,10,"Swept APN Finance Bill debates (PLF 2014, PLF 2018, PLF 2019, LFC 2020, PLF 2026/2027).",
+G0001,Algeria,national,country,,https://www.el-mouradia.dz,done,R002,2026-11-07,20,39,National seed and continuation passes completed across Arabic and French sources.,DZ
+G0002,Assemblée Populaire Nationale,national,legislature,G0001,https://www.apn.dz,done,R002,2026-11-07,8,14,"Swept APN Finance Bill debates (PLF 2014, PLF 2018, LFC 2018, PLF 2019, LFC 2020, PLF 2021, PLF 2023, PLF 2026/2027).",
 G0003,Conseil de la Nation,national,legislature,G0001,https://www.majliselouma.dz,done,R001,2026-11-07,2,2,Swept Conseil de la Nation members and Finance Bill reviews.,
 G0004,Adrar,region,wilaya,G0001,,pending,,,,,Wilaya 01 (أدرا),DZ-01
 G0005,Ain-Defla,region,wilaya,G0001,,pending,,,,,Wilaya 02 (عين الدفلى),DZ-02
@@ -144,14 +144,14 @@ G0142,Tamzougha,council,commune,G0006,,pending,,,,,Commune in Ain-Temouchent Wil
 G0143,Terga,council,commune,G0006,,pending,,,,,Commune in Ain-Temouchent Wilaya,003028
 G0144,Ain Benian,council,commune,G0007,,pending,,,,,Commune in Alger Wilaya,004001
 G0145,Ain Taya,council,commune,G0007,,pending,,,,,Commune in Alger Wilaya,004002
-G0146,Alger,council,commune,G0007,,done,R001,2026-11-07,1,6,"Sampled Alger (Alger-Centre); national actors headquartered here, no APC municipal wealth tax motions (ISF is exclusively national under CIDTA).",004003
+G0146,Alger,council,commune,G0007,,done,R002,2026-11-07,4,13,"Sampled Alger (Alger-Centre); national parties, government bodies, and economists headquartered here; no APC municipal wealth tax motions.",004003
 G0147,Bab El Oued,council,commune,G0007,,pending,,,,,Commune in Alger Wilaya,004004
 G0148,Baba Hassen,council,commune,G0007,,pending,,,,,Commune in Alger Wilaya,004005
 G0149,Bach Djerrah,council,commune,G0007,,pending,,,,,Commune in Alger Wilaya,004006
 G0150,Bains Romains,council,commune,G0007,,pending,,,,,Commune in Alger Wilaya,004007
 G0151,Baraki,council,commune,G0007,,pending,,,,,Commune in Alger Wilaya,004008
-G0152,Bab Ezzouar,council,commune,G0007,,pending,,,,,Commune in Alger Wilaya,004009
-G0153,Ben Aknoun,council,commune,G0007,,pending,,,,,Commune in Alger Wilaya,004010
+G0152,Bab Ezzouar,council,commune,G0007,,done,R002,2026-11-07,1,1,Bab Ezzouar commune (Algiers); headquarters of Conseil des Lycées d'Algérie (A0025).,004009
+G0153,Ben Aknoun,council,commune,G0007,,done,R002,2026-11-07,3,9,"Ben Aknoun commune (Algiers); headquarters of Ministry of Finance (A0018), DGI (A0033), and Mouvement El Bina (A0022).",004010
 G0154,Beni Messous,council,commune,G0007,,pending,,,,,Commune in Alger Wilaya,004011
 G0155,Bir Khadem,council,commune,G0007,,pending,,,,,Commune in Alger Wilaya,004012
 G0156,Bir Mourad Rais,council,commune,G0007,,pending,,,,,Commune in Alger Wilaya,004013
@@ -170,7 +170,7 @@ G0168,Douera,council,commune,G0007,,pending,,,,,Commune in Alger Wilaya,004025
 G0169,Draria,council,commune,G0007,,pending,,,,,Commune in Alger Wilaya,004026
 G0170,El Achour,council,commune,G0007,,pending,,,,,Commune in Alger Wilaya,004027
 G0171,El Biar,council,commune,G0007,,pending,,,,,Commune in Alger Wilaya,004028
-G0172,El Harrach,council,commune,G0007,,pending,,,,,Commune in Alger Wilaya,004029
+G0172,El Harrach,council,commune,G0007,,done,R002,2026-11-07,2,6,El Harrach commune (Algiers); headquarters of Parti des Travailleurs (A0001) and its parliamentary leadership.,004029
 G0173,El Madania,council,commune,G0007,,pending,,,,,Commune in Alger Wilaya,004030
 G0174,El Magharia,council,commune,G0007,,pending,,,,,Commune in Alger Wilaya,004031
 G0175,El Marsa,council,commune,G0007,,pending,,,,,Commune in Alger Wilaya,004032
@@ -178,7 +178,7 @@ G0176,El Mouradia,council,commune,G0007,,pending,,,,,Commune in Alger Wilaya,004
 G0177,Hamma Anassers,council,commune,G0007,,pending,,,,,Commune in Alger Wilaya,004034
 G0178,Haraoua,council,commune,G0007,,pending,,,,,Commune in Alger Wilaya,004035
 G0179,Hussein Dey,council,commune,G0007,,pending,,,,,Commune in Alger Wilaya,004036
-G0180,Hydra,council,commune,G0007,,pending,,,,,Commune in Alger Wilaya,004037
+G0180,Hydra,council,commune,G0007,,done,R002,2026-11-07,1,1,Hydra commune (Algiers); home of École Nationale d'Administration professor Mohamed Chérif Belmihoub (A0037).,004037
 G0181,Khraissia,council,commune,G0007,,pending,,,,,Commune in Alger Wilaya,004038
 G0182,Kouba,council,commune,G0007,,pending,,,,,Commune in Alger Wilaya,004039
 G0183,Les Eucalyptus,council,commune,G0007,,pending,,,,,Commune in Alger Wilaya,004040
@@ -216,7 +216,7 @@ G0214,Ain Touta,council,commune,G0009,,pending,,,,,Commune in Batna Wilaya,00600
 G0215,Ain Yagout,council,commune,G0009,,pending,,,,,Commune in Batna Wilaya,006003
 G0216,Arris,council,commune,G0009,,pending,,,,,Commune in Batna Wilaya,006004
 G0217,Barika,council,commune,G0009,,pending,,,,,Commune in Batna Wilaya,006005
-G0218,Batna,council,commune,G0009,,pending,,,,,Commune in Batna Wilaya,006006
+G0218,Batna,council,commune,G0009,,done,R002,2026-11-07,1,1,Batna commune; home constituency of RND MP Hakim Berri (A0028).,006006
 G0219,Beni Foudhala El Hakania,council,commune,G0009,,pending,,,,,Commune in Batna Wilaya,006007
 G0220,Bitam,council,commune,G0009,,pending,,,,,Commune in Batna Wilaya,006008
 G0221,Boulehilet,council,commune,G0009,,pending,,,,,Commune in Batna Wilaya,006009
@@ -382,7 +382,7 @@ G0380,Ain Romana,council,commune,G0013,,pending,,,,,Commune in Blida Wilaya,0100
 G0381,Ben Khelil,council,commune,G0013,,pending,,,,,Commune in Blida Wilaya,010002
 G0382,Beni Mered,council,commune,G0013,,pending,,,,,Commune in Blida Wilaya,010003
 G0383,Beni Tamou,council,commune,G0013,,pending,,,,,Commune in Blida Wilaya,010004
-G0384,Blida,council,commune,G0013,,pending,,,,,Commune in Blida Wilaya,010005
+G0384,Blida,council,commune,G0013,,done,R002,2026-11-07,1,1,Blida commune; home of University of Blida economics professor and Minister Kamel Rezig (A0034).,010005
 G0385,Bouarfa,council,commune,G0013,,pending,,,,,Commune in Blida Wilaya,010006
 G0386,Boufarik,council,commune,G0013,,pending,,,,,Commune in Blida Wilaya,010007
 G0387,Bougara,council,commune,G0013,,pending,,,,,Commune in Blida Wilaya,010008

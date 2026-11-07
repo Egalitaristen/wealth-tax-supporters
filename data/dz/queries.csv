@@ -9,3 +9,13 @@ Q0007,R001,2026-11-07,fr,"""FFS"" OR ""RCD"" OR ""MSP"" OR ""Youcef Aouchiche"" 
 Q0008,R001,2026-11-07,fr,"""UGTA"" OR ""Labatcha"" ""impôt sur la fortune"" OR ""taxe sur la fortune"" Algérie",web,3,2,Trade union confederation (UGTA) and autonomous union stances
 Q0009,R001,2026-11-07,ar,"""الضريبة على الثروة"" الجزائر خبير اقتصادي OR ""مبتول"" OR ""كاوبي"" OR ""مسدور"" OR ""سلامي"" OR ""مهماه""",web,6,3,Algerian economists and public finance academics
 Q0010,R001,2026-11-07,fr,"""APC"" ""impôt sur la fortune"" Alger OR Oran OR Constantine OR Annaba OR Tizi Ouzou OR Béjaïa",web,3,0,Local sample across 6 major communes verifying that APCs do not pass municipal wealth tax motions
+Q0011,R002,2026-11-07,fr,"""RCD"" OR ""Belabbas"" OR ""Mazouz"" ""impôt sur la fortune"" Algérie",web,5,1,Follow up open lead D0007 on RCD stance toward PLF 2018 and LFC 2020 ISF
+Q0012,R002,2026-11-07,fr,"""Intersyndicale"" OR ""CLA"" OR ""Achour Idir"" ""impôt sur la fortune"" Algérie",web,5,2,Follow up open lead D0008 on Autonomous Unions' Intersyndicale and CLA
+Q0013,R002,2026-11-07,ar,"""عبد القادر بن قرينة"" OR ""حركة البناء"" ""الضريبة على الثروة"" الجزائر",web,5,2,Mouvement El Bina and Abdelkader Bengrina 2019 presidential platform on the wealth tax
+Q0014,R002,2026-11-07,fr,"""Parti socialiste des travailleurs"" OR ""PST"" ""impôt sur la fortune"" Algérie",web,4,1,Socialist Workers' Party (PST) declaration on the suppression of the ISF
+Q0015,R002,2026-11-07,fr,"""Djelloul Djoudi"" OR ""Nadia Chouitem"" OR ""Hakim Berri"" ""impôt sur la fortune"" Algérie",web,6,3,APN parliamentarians across PT and RND defending the Impôt sur la fortune
+Q0016,R002,2026-11-07,ar,"""أيمن بن عبد الرحمان"" OR ""إبراهيم جمال كسالي"" ""الضريبة على الثروة"" الجزائر",web,6,2,Finance Ministers Benabderrahmane (2020–2022) and Kassali (2022–2023) ISF enforcement measures
+Q0017,R002,2026-11-07,fr,"""Abdelkrim Bouzred"" OR ""Amel Abdellatif"" ""impôt sur la fortune"" Algérie",web,6,3,Finance Minister Bouzred (2025–2026) and DGI Director General Amel Abdellatif / DGI
+Q0018,R002,2026-11-07,ar,"""كمال رزيق"" OR ""هواري تيغرسي"" ""الضريبة على الثروة"" OR ""ضريبة الثروة"" الجزائر",web,6,2,Economists Kamel Rezig (2017) and Houari Tigharsi (2026) interviews endorsing the wealth tax
+Q0019,R002,2026-11-07,fr,"""Abdelatif Rebah"" OR ""Mohamed Chérif Belmihoub"" OR ""Nabil Djemaa"" ""impôt sur la fortune"" OR ""impôt sur le patrimoine"" Algérie",web,6,3,Algerian economists and ENA academics on wealth and patrimony taxation
+Q0020,R002,2026-11-07,ar,"""حمزة بوغادي"" OR ""فارس مسدور"" OR ""عبد القادر بريش"" ""الضريبة على الثروة"" الجزائر",web,5,1,"Economic commentators Hamza Boughadi, Fares Mesdour, and Abdelkader Berriche"
