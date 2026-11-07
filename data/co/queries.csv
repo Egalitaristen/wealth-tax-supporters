@@ -1,0 +1,27 @@
+query_id,run_id,date,language,query,channel,results_opened,leads_added,note
+Q0001,R011,2026-11-07,es,proyecto de ley 477 de 2026 Cámara impuesto al patrimonio congresistas Pacto Histórico rechazan debate,web search,3,0,Bill 477 text and trámite found; statements below came from named news pieces
+Q0002,R011,2026-11-07,es,Ley de Rescate Económico eliminar impuesto al patrimonio senador representante noviembre 2026,web search,2,0,Bill described; no member statements in snippets
+Q0003,R011,2026-11-07,es,De la Espriella eliminar impuesto al patrimonio congresista responde Cepeda Juvinao Pizarro Zuleta Ocampo,web search,4,0,"Led to Cambio, Infobae and Caracol pieces with Carrascal, Cepeda, Ahumada"
+Q0004,R011,2026-11-07,es,ponentes reforma tributaria 2022 Cámara Comisiones Económicas impuesto al patrimonio ponencia,web search,0,0,"Ponentes named (Bastidas, Monedero, Carreño, Cuenca, Daza, Char, Uribe); not added: package-wide ponencias"
+Q0005,R011,2026-11-07,es,representante senador impuesto al patrimonio defender mantener no eliminar 2026,web search,0,0,Nothing new
+Q0006,R011,2026-11-07,es,Rodrigo Uprimny columna impuesto al patrimonio Dejusticia,web search,1,0,Led to Uprimny and Ceballos column of 27 Aug 2024
+Q0007,R011,2026-11-07,es,Luis Jorge Garay Jorge Iván González Salomón Kalmanovitz impuesto al patrimonio propone aumentar,web search,3,0,Led to Garay and Espitia papers at Sur
+Q0008,R011,2026-11-07,es,CUT Fabio Arias confederación impuesto al patrimonio eliminar rechaza De la Espriella,web search,0,0,No union statement specific to the wealth tax
+Q0009,R011,2026-11-07,es,Oxfam Colombia impuesto al patrimonio eliminación De la Espriella,web search,1,0,Oxfam Econonuestra (Jan 2025) via Forbes
+Q0010,R011,2026-11-07,es,economista defiende mantener impuesto al patrimonio Colombia no debe eliminarse 2026,web search,2,0,Ocampo column (Aug 2026) via Infobae
+Q0011,R011,2026-11-07,es,Bloomberg Línea eliminar impuesto al patrimonio Colombia necesidad o beneficio para los ricos,web search,2,0,"Johana Osorio quote, Petro quote"
+Q0012,R011,2026-11-07,es,Gabriel Becerra representante Pacto Histórico impuesto al patrimonio,web search,0,0,Nothing on the tax
+Q0013,R011,2026-11-07,es,Catherine Juvinao Duvalier Sánchez Jonathan Pulido Andrea Padilla impuesto al patrimonio,web search,0,0,Nothing on the tax
+Q0014,R011,2026-11-07,es,impuesto al patrimonio senadora Isabel Zuleta Agmeth Escaf Heráclito Landínez Martha Peralta Pedro Flórez Alex Flórez,web search,0,0,"Nothing on the tax (Flórez found later, in La Nación)"
+Q0015,R011,2026-11-07,es,reacciones eliminación impuesto al patrimonio senadores Pacto Histórico Alianza Verde regalo Petro agosto 2026,web search,4,0,"La Nación 10 Aug 2026: Palma, Flórez; Infobae 15 Sep: Petro"
+Q0016,R011,2026-11-07,es,proyecto de ley renta básica Colombia congresistas autores financiación impuesto al patrimonio,web search,3,0,Bill S310/2020 (53 senators)
+Q0017,R011,2026-11-07,es,candidatos presidenciales 2026 Colombia propuestas impuesto al patrimonio Cepeda,web search,1,0,Only Valencia's repeal proposal found; no Cepeda statement
+Q0018,R011,2026-11-07,es,Corte Constitucional demanda impuesto al patrimonio 2024 intervenciones defendieron exequibilidad,web search,2,0,C-395/24 lists interveners
+Q0019,R012,2026-11-07,es,Gaceta acta plenaria Cámara noviembre 2022 proposición eliminar impuesto al patrimonio votación nominal,web search,3,0,Only aggregate tallies and the Cámara bill page
+Q0020,R012,2026-11-07,es,impuesto al patrimonio CUT CTC CGT comunicado rechazan eliminación 2026,web search,3,0,CUT strike call of 19 Nov 2026; El Tiempo report
+Q0021,R012,2026-11-07,es,profesor Universidad Nacional Cede Cepal impuesto al patrimonio eliminar economista 2026,web search,0,0,No new names beyond Ocampo
+Q0022,R012,2026-11-07,es,proyecto de ley 310 de 2020 Senado renta básica archivado estado,web search,2,0,Blu Radio 20 Jun 2020 reports archive
+Q0023,R012,2026-11-07,es,proyecto de ley 004 de 2026 Cámara estado trámite archivado,web search,1,0,Bill PDF on camara.gov.co; status only from press
+Q0024,R013,2026-11-08,es,Gaceta 121 de 2023 acta plenaria Senado 2 noviembre 2022 votación nominal eliminación artículo 31,Gaceta PDF (Congreso Visible),1,0,"Named vote found: Si 18, No 68"
+Q0025,R013,2026-11-08,es,Julio Alberto Elías Vidal senador 2022-2026 partido,web search,1,0,"Partido de la U (Infobae, 27 Oct 2022)"
+Q0026,R013,2026-11-08,es,Senadores de Colombia 2022-2026 lista partidos,Wikipedia (en/es),2,0,English list gives the 2022 elected list for each senator

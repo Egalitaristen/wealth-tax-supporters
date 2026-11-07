@@ -48,3 +48,39 @@ Leads not yet listed:
 - Oxfam's *La ley del más rico* (January 2023): its Colombia proposal (2% / 3% above USD 50 million / 5%, USD 2.8 billion) is in a Latin America supplement that could not be opened; the global report page does not mention Colombia.
 - The Senate proposition of 13 May 2020 (more than 50 senators) is a motion calling for the wealth tax to be raised, with no bill number or rates: left out.
 - Proposals of 2026 to abolish the wealth tax (President De la Espriella) and the Constitutional Court ruling on articles 36 and 37 (Comunicado 42 of 2024): not read.
+
+## Widening pass (R011, 7 November 2026)
+
+**What was added:** 33 supporters and 53 evidence rows (46 grade A, 6 B, 1 C). The bulk are the 2020 Senate signers: the Senate's page lists 50 senators under "Firman" in two paragraphs, and the register had the first 23, so the remaining 27 were completed (15 new people and a signature row for the 12 already present as authors of Bill 070/2020). A second official list, the authors of Proyecto de Ley 310 de 2020 Senado (renta básica de emergencia, 53 senators, filed 27 May 2020), gave six more senators; its motives, written in the signatories' name, pledge a structural reform with a progressive wealth tax on net wealth from COP 2,000 million (Gaceta 257 of 2020). The authors of Bills 070/2020 (41) and 066/2021 were already all present.
+
+**2026 debate:** Statements from August to November 2026 against abolishing the wealth tax or against Bill 477 de 2026 (softening it and ending it in 2030): Osorio, Palma, Petro and Ocampo (grade A, explicit), Carrascal (A), and Cepeda, Omaña, Ahumada and Flórez (B, they criticise the easing in their own quoted words but do not say "keep the tax"), and Ariel Ávila (C, a journalist's paraphrase). Germán Ávila is entered at B for filing the Petro government's last reform bill (Proyecto 004/2026 Cámara), whose text was not opened. Economists and legal scholars added: Luis Jorge Garay and Jorge Enrique Espitia (Sur, 2018 to 2021), Rodrigo Uprimny and Juan Sebastián Ceballos (La Silla Vacía column of 27 August 2024). Oxfam Colombia's January 2025 recommendation of a tax on undeclared offshore wealth is entered as a partial wealth tax; Dejusticia's intervention in sentence C-395 of 2024 is entered at B.
+
+**Seats:** `skill/scripts/seats.py data/co` was run on 7 November 2026. The chambers come from the Senate's own list of senators (senado.gov.co, 102 named, one seat shown as Vacant) and the Cámara's own page (camara.gov.co/representantes, 181 named, two Vacant), so the party structure in `seats.csv` is the official one of that date. 16 supporters now sit and light a seat: 14 of 103 in the Senate and 2 of 183 in the Cámara. Matches are by name only (the registers use short names); every sitting match was read for plausibility. Other sitting members had no evidence of their own and are not lit; unlit seats mean nothing found, never opposition.
+
+**Not added, on purpose:** members who only voted for or reported Ley 2277 de 2022 as a package (the roll calls on articles 35 to 37 were not found); members whose quoted words in the 2026 debate do not mention the wealth tax (Alejandro Ocampo, Bolívar, Mondragón, Erazo, a Bogotá councillor); the universities that intervened in C-395/24 (narrated by the Court only). See `exclusions.csv` and `leads.csv` for the reasons and for the open leads.
+
+**Checks:** `checkquotes` found all 53 quotes on their pages (no row skipped; the six renta básica rows quote the author list on the Legibus record, and the wealth-tax pledge in Gaceta 257 was read in its PDF). Wikidata IDs came from `match_wikidata.py`; three of its 17 new matches were removed after reading the Wikidata entries (one was a minister who died in 1984, two had no usable description).
+
+
+## Review corrections
+
+E00121-E00126 (signed a basic-income bill whose motives, not its text, pledge a wealth tax) regraded A to B; E00103 (position implied) B to C; E00109 (tax on undeclared offshore wealth only) A to C; Ariel Avila removed (journalist paraphrase only, position implied), now an exclusion.
+
+## Follow-up pass (R012, 7 November 2026)
+
+- **Ley 2277 votes and ponentes:** the first note here (block votes only) was wrong; see the next section for the named vote that was then found in Gaceta 121 of 2023.
+- **Unions:** El Tiempo (report of 2 November 2026 on the CUT strike call of 19 November) says the CUT questions the phase-out of the wealth tax; added for the CUT at grade B (the paper's report, not the union's words). Fabio Arias's own quoted words do not mention the tax. No CGT, CTC, CEDE, Universidad Nacional or Cepal statement was found.
+- **Parties:** Édgar Díaz Contreras, Cambio Radical (Universidad del Rosario's 2018-2022 directory); Édgar Palacio Mizrahi, Colombia Justa Libres (Las2orillas, 21 April 2022); Edwin Palma, Partido del Trabajo de Colombia (La Silla Vacía, 18 March 2025). No page stating a party for Germán Ávila Plazas was found, so it stays blank.
+- **Bills:** Proyecto 310 de 2020 Senado (renta básica): Blu Radio reported on 20 June 2020 that the last day of sessions ended with its archive, so it is listed as lapsed in `resources.json`; the Senate's tracking page was not read. Proyecto 004 de 2026 Cámara is on the Cámara's site (signed by Minister Germán Ávila Plazas, wealth-tax threshold cut to 40,000 UVT); press describes it as still in trámite, so it is listed as pending without a committee record. Ávila's row was upgraded to A on the signed bill.
+
+## Ley 2277: the named vote on the wealth-tax article (R013, 8 November 2026)
+
+**Record:** Gaceta del Congreso 121 of 7 March 2023 (https://apicongresovisible.uniandes.edu.co/uploads/proyecto-ley/12558/1380/22%2C%201387/22%2C%20121/23.pdf), the Senate plenary acta of 2 November 2022, pp. 107-108. The plenary took a named electronic vote on the proposal of Senator Miguel Uribe Turbay and Paloma Valencia to delete article 31 of the bill (the permanent wealth tax on individuals, arts. 35-37 of Ley 2277). The Secretariat reported Sí 18, No 68 (the Gaceta prints 18 and 66 names). The proposal failed. The presiding Senator (Roy Barreras) and the ponente (Clara López Obregón) asked for No. Each of the 66 senators printed under "Por el No" has a grade A `vote` row quoting their own entry on the list (never the result line); Piedad Córdoba, one of the 66, died in 2024 and is in `exclusions.csv`, so 65 are in the register (23 already there, 42 new). Parties of the new ones are the lists they were elected on in 2022 (Wikipedia's list of the 2022-2026 Senate, from the CNE results), not checked against the Senate roster; those who still sit take their party from the 2026 Senate list through the Seats tab.
+
+**Retraction:** Juan Felipe Lemos (signer of the 2020 proposal) is printed under "Por el Sí", so he has a `retracted` row dated 2 November 2022 and leaves the site. The other 17 "Sí" names (Centro Democrático, Cambio Radical, Liberal, Conservador, U and one Nos Une Colombia senator) are opponents and are not in the register.
+
+**Speeches in the same acta (own words):** Clara López Obregón (p. 107, A), Wilson Arias (pp. 70-71, A), Ana Carolina Espitia Jerez (pp. 38-39, B, the passage speaks of "el patrimonio" only by context).
+
+**Not used:** the Cámara plenary (Gaceta 175/2023) voted articles 5, 6, 31, 69 and 70 as one block (136 Sí, 35 No), so no member's vote is article-specific; its speeches that mention the tax are against it (Uscátegui, Manzur). The committee record (Gaceta 1616/2022) has no article-specific vote on it. Nobody in the register is added from them.
+
+**Checks:** the 65 vote rows and 3 speeches were checked with `checkquotes` against the PDF (69 of 69 found). Death check by Wikidata where the person has an entry; people without one were not found to have died, but no obituary search was made for each. Sandra Ramírez Lobo Silva on the list is the register's Criselda Lobo (same person, merged).
