@@ -138,3 +138,10 @@ The People's Party's published 2026 election tax platform covers personal income
 A 12 October 2023 Isranews report attributes a proposal for wealth taxation of the very wealthy to We Fair director Nitirat Sapsomboon: https://www.isranews.org/article/isranews-scoop/122867-TCC-welfare-state-gov-PM-Srettha-criticize-report.html. This supersedes his prior exclusion, which only considered a 2020 interview. The wording about 1% is ambiguous, so the evidence is grade B and the design is unspecified.
 
 We Fair published a joint 9 August 2023 proposal with the Four Regions Slum Network and the People’s Network for Welfare State explicitly naming a wealth tax: https://wefair.org/the-civil-society-sector-submits-a-letter-of-opposition-to-the-budget-cut-for-the-elderly-pension-scheme/. Both organisations are added at grade B on the coalition’s report of their joint proposal. The parallel bill text and any filing remain to be located.
+
+
+## Research follow-up - R009 (7 November 2026)
+
+Thai PBS interviewed Thammasat social policy researcher Kritsada Theerakosonphong on 29 December 2025; he named a wealth tax as a tax reform option to fund welfare: https://policywatch.thaipbs.or.th/article/government-252. He is added at grade B.
+
+The Thailand Consumers Council reported a joint pension proposal that cites net wealth taxation among academic financing ideas; the source does not clearly establish that the council itself endorsed the tax. It is recorded as open lead D0001. The citizen pension bill mentions a wealth tax as a funding source, but is a pension bill, not the separate We Fair wealth-tax bill: https://policywatch.thaipbs.or.th/article/life-12. Locate the underlying proposal and bill before drawing a stronger conclusion.
