@@ -65,3 +65,10 @@ Leads not yet listed:
 ## Review corrections
 
 E00121-E00126 (signed a basic-income bill whose motives, not its text, pledge a wealth tax) regraded A to B; E00103 (position implied) B to C; E00109 (tax on undeclared offshore wealth only) A to C; Ariel Avila removed (journalist paraphrase only, position implied), now an exclusion.
+
+## Follow-up pass (R012, 7 November 2026)
+
+- **Ley 2277 votes and ponentes:** the Cámara's bill page lists the ponentes (coordinators Monedero, Clara López Obregón, Bastidas, Garcés, Echavarría, Miranda) and the Gacetas, but the votes on the plenary text were taken on the articulado as blocks (Senate plenary of 2 November 2022: 63 yes, 13 no, 29 abstentions per Congreso Visible, with no names on the page). No vote on the wealth-tax articles by name and no individual statement of a ponente on them were found, so nothing was added. The Gaceta 1385/2022 and Actas 027-028 of the Cámara plenary remain unread.
+- **Unions:** El Tiempo (report of 2 November 2026 on the CUT strike call of 19 November) says the CUT questions the phase-out of the wealth tax; added for the CUT at grade B (the paper's report, not the union's words). Fabio Arias's own quoted words do not mention the tax. No CGT, CTC, CEDE, Universidad Nacional or Cepal statement was found.
+- **Parties:** Édgar Díaz Contreras, Cambio Radical (Universidad del Rosario's 2018-2022 directory); Édgar Palacio Mizrahi, Colombia Justa Libres (Las2orillas, 21 April 2022); Edwin Palma, Partido del Trabajo de Colombia (La Silla Vacía, 18 March 2025). No page stating a party for Germán Ávila Plazas was found, so it stays blank.
+- **Bills:** Proyecto 310 de 2020 Senado (renta básica): Blu Radio reported on 20 June 2020 that the last day of sessions ended with its archive, so it is listed as lapsed in `resources.json`; the Senate's tracking page was not read. Proyecto 004 de 2026 Cámara is on the Cámara's site (signed by Minister Germán Ávila Plazas, wealth-tax threshold cut to 40,000 UVT); press describes it as still in trámite, so it is listed as pending without a committee record. Ávila's row was upgraded to A on the signed bill.
