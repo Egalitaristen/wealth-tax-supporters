@@ -1,2 +1,3 @@
 body_id,name,level,kind,seats,as_of,source_url,seat_view,notes
 B0001,Seimas,national,chamber,141,2026-11-04,https://apps.lrs.lt/sip/p2b.ad_seimo_nariai,y,"141 seats, 2024-2028 term. Members and factions counted from the Seimas open data (apps.lrs.lt, Seimo nariai, CC BY 4.0, generated 2026-11-04): 140 members with no end date, by current faction membership (LSDP 52, TS-LKD 28, Nemuno aušra 17, Vardan Lietuvos 13, Liberal Movement 11, LVŽS 9, mixed group 9, one member in no faction); one seat shown as vacant."
+B0002,European Parliament,supranational,chamber,,,https://www.europarl.europa.eu/,,Lithuanian delegation; EU-wide seat chart maintained separately.

@@ -1,0 +1,14 @@
+# Netherlands research follow-up — 6 November 2026
+
+## Sources checked
+
+- The Eerste Kamer dossier for bill 36.173 identifies the original sponsors Nijboer, Alkaya, Van Raan and Gündoğan, Maatoug as a later defender, and Stultiens, Dijk, Teunissen and Dassen as subsequent defenders. It describes the proposal as a progressive levy on specified box 3 assets and says it remains before the Tweede Kamer. Check each original document and the register before drawing conclusions about individual support: defending a proposed box 3 levy is not automatically an endorsement of a broad net wealth tax. https://api.eerstekamer.nl/9370000/1/j9vvkfvj6b325az/vlumeqp70hya?df2=kst
+- The ChristenUnie’s final 2025 programme proposes a 1% wealth tax above €1 million, with exceptions for unsuitable assets. The party and this primary source are already recorded under A0025 / E00227. https://www.christenunie.nl/wp-content/uploads/2025/10/Verkiezingsprogramma_2025_CU.pdf
+- The Haage–Stultiens motion 32 140, no. 241 asks the government to study the feasibility of a 2% minimum tax above €100 million. Both sponsors and the study-only limitation are already recorded under A0008 / E00018 and A0007 / E00019. The official vote was by show of hands and does not identify individual votes. https://www.tweedekamer.nl/kamerstukken/moties/detail?did=2025D18347&id=2025Z08054
+- David Hollanders’s October 2015 article advocates a millionaire tax and discusses a 1%–2% annual design. Hollanders is already A0127; compare existing evidence before adding another statement. https://cdn.sp.nl/2025/01/span092015web.pdf (pages 8–9)
+- CE Delft’s June 2025 study, commissioned by Oxfam Novib and Milieudefensie, proposes a wealth tax differentiated by carbon emissions. Its page lists Martijn Blom, Sjoerd Boerdijk, Ward van Santen and Mona Khalif as authors. The report is exploratory and commissioned: authorship and commissioning alone do not establish personal or organisational endorsement. Seek express advocacy before adding actors. https://ce.nl/publicaties/green-and-progressive-tax-proposals-for-the-netherlands/
+- Bastiaan van Apeldoorn explicitly advocated a 5% levy on wealth above €5 million in the Senate debate of 9 December 2024. He is already A0040; compare existing evidence before adding another statement. https://www.eerstekamer.nl/verslag/20241209/verslag
+
+## Next steps
+
+Continue the open H0010 and H0011 source lists: locate dated FNV policy and the original Boot and Van Wijnbergen audio, and search parliamentary statements for independently attributable advocates. The 4 April 2024 debate remains a useful primary-source lead: https://www.tweedekamer.nl/kamerstukken/detail?did=2024D28771&id=2024D28771. Do not treat party votes, study requests or commissioned research as individual endorsements without examining the underlying evidence. No new supporters were established in this limited pass; no saturation is claimed.

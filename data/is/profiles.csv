@@ -1,1 +1,22 @@
 profile_id,actor_id,platform,url,source,checked
+P00001,A0001,website,https://sosialistaflokkurinn.is,actors.csv website column,2026-11-05
+P00002,A0002,website,https://vg.is,actors.csv website column,2026-11-05
+P00003,A0003,website,https://asi.is,actors.csv website column,2026-11-05
+P00004,A0005,website,https://xs.is,actors.csv website column,2026-11-05
+P00005,A0009,website,https://www.bsrb.is,actors.csv website column,2026-11-05
+P00006,A0010,website,https://efling.is,actors.csv website column,2026-11-05
+P00007,A0012,website,https://indridih.com,actors.csv website column,2026-11-05
+P00008,A0004,wikipedia,https://en.wikipedia.org/wiki/Steingr%C3%ADmur_J._Sigf%C3%BAsson,Wikidata Q511882,2026-11-05
+P00009,A0005,instagram,https://www.instagram.com/samfylkingin/,Wikidata Q1141127,2026-11-05
+P00010,A0005,wikipedia,https://en.wikipedia.org/wiki/Social_Democratic_Alliance,Wikidata Q1141127,2026-11-05
+P00011,A0006,x,https://x.com/KristrunFrosta,Wikidata Q108856371,2026-11-05
+P00012,A0006,instagram,https://www.instagram.com/kristrunfrosta/,Wikidata Q108856371,2026-11-05
+P00013,A0006,wikipedia,https://en.wikipedia.org/wiki/Kristr%C3%BAn_Frostad%C3%B3ttir,Wikidata Q108856371,2026-11-05
+P00014,A0007,wikipedia,https://en.wikipedia.org/wiki/J%C3%B3hann_P%C3%A1ll_J%C3%B3hannsson,Wikidata Q108881945,2026-11-05
+P00015,A0008,wikipedia,https://en.wikipedia.org/wiki/Oddn%C3%BD_G._Har%C3%B0ard%C3%B3ttir,Wikidata Q437989,2026-11-05
+P00016,A0013,wikipedia,https://en.wikipedia.org/wiki/Gunnar_Sm%C3%A1ri,Wikidata Q16425813,2026-11-05
+P00017,A0014,wikipedia,https://en.wikipedia.org/wiki/Sanna_Magdalena_M%C3%B6rtud%C3%B3ttir,Wikidata Q61081598,2026-11-05
+P00018,A0015,x,https://x.com/katrinjak,Wikidata Q467464,2026-11-05
+P00019,A0015,facebook,https://www.facebook.com/241503652726,Wikidata Q467464,2026-11-05
+P00020,A0015,wikipedia,https://en.wikipedia.org/wiki/Katr%C3%ADn_Jakobsd%C3%B3ttir,Wikidata Q467464,2026-11-05
+P00021,A0018,wikipedia,https://en.wikipedia.org/wiki/Dr%C3%ADfa_Sn%C3%A6dal,Wikidata Q65335346,2026-11-05

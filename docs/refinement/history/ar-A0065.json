@@ -1,0 +1,72 @@
+{
+  "reason": "deceased",
+  "reviewed": "2026-11-07",
+  "run_id": "R012",
+  "source_url": "https://www.clarin.com/politica/murio-senador-mendocino-alejandro-bermejo_0_v1eZgDqjR4.html",
+  "death_date": "2023-05-17",
+  "actor": {
+    "actor_id": "A0065",
+    "name": "Alejandro Daniel Bermejo",
+    "kind": "person",
+    "actor_type": "politician",
+    "other_types": "",
+    "role": "Former national deputy (voted for the levy in 2020)",
+    "affiliation": "",
+    "party": "Frente de Todos",
+    "affiliation_actor_id": "",
+    "country": "Argentina",
+    "level": "national",
+    "location": "Argentina > Mendoza",
+    "geo_unit_id": "G0014",
+    "location_source": "",
+    "wikidata_qid": "",
+    "website": "",
+    "status": "former_role",
+    "alive_checked": "y",
+    "prominence": "regional",
+    "notes": "",
+    "added_run": "R010",
+    "updated": "2026-11-02",
+    "refined": ""
+  },
+  "evidence": [
+    {
+      "evidence_id": "E00065",
+      "actor_id": "A0065",
+      "date": "2020-11-18",
+      "stance": "support",
+      "grade": "A",
+      "evidence_type": "vote",
+      "wt_design": "one_off_levy",
+      "design_detail": "Voted for the Aporte Solidario y Extraordinario (bill 4534-D-2020, O.D. 123), a one-off levy on declared wealth above ARS 200 million; Chamber of Deputies vote of 133 for, 115 against, 2 abstentions.",
+      "quote_original": "BERMEJO, Alejandro Daniel",
+      "quote_lang": "es",
+      "quote_en": "Alejandro Daniel Bermejo: voted in favour (AFIRMATIVO)",
+      "source_url": "https://www4.hcdn.gob.ar/dependencias/dtaquigrafos/diarios/periodo-138/diario_2020111714.pdf",
+      "source_title": "Cámara de Diputados, sesión especial del 17-18 de noviembre de 2020 (14ª reunión), versión taquigráfica: votación nominal, acta 4, 4534-D-2020 Aporte Solidario",
+      "publisher": "Honorable Cámara de Diputados de la Nación",
+      "archive_url": "https://web.archive.org/web/20230921213116/https://www4.hcdn.gob.ar/dependencias/dtaquigrafos/diarios/periodo-138/diario_2020111714.pdf",
+      "accessed": "2026-11-02",
+      "harvest_id": "",
+      "grading_note": "The member's own entry in the Chamber's official roll call (bloc Frente de Todos, district Mendoza): a formal vote for the named one-off wealth levy.",
+      "run_id": "R010"
+    }
+  ],
+  "profiles": [],
+  "positions": [
+    {
+      "position_id": "O00048",
+      "actor_id": "A0065",
+      "body_id": "B0001",
+      "role": "National deputy",
+      "party": "",
+      "geo_unit_id": "G0014",
+      "start": "",
+      "end": "",
+      "current": "n",
+      "member_ref": "",
+      "checked": "2026-11-07",
+      "source_url": "https://www.diputados.gob.ar/diputados/"
+    }
+  ]
+}
