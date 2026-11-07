@@ -189,3 +189,11 @@ Sarinee Achavanuntakul's article recommends considering a carbon-adjusted wealth
 Added Labour Network for People's Rights, a coalition of organised labour groups, after locating its 26 January 2021 open letter calling for a wealth tax on the richest 1% to support universal welfare: https://theactive.thaipbs.or.th/news/20210126. The 1% refers to the targeted population, not a proposed tax rate; the taxable base is unspecified. Prachatai identifies the network and its labour-coalition members in a separate 2020 statement: https://prachataienglish.com/node/8740. That membership list does not show individual members endorsing the later wealth-tax call, so they were not added on that basis.
 
 No separately attributable Thai signatory of the regional wealth-tax petition was confirmed in this pass. Prachachat, Pornchai and the separate We Fair bill remain follow-up leads.
+
+## Research follow-up - R017 (7 November 2026)
+
+Added former Move Forward leader Pita Limjaroenrat: a 13 March 2023 report attributes to him a campaign call for a wealth tax to help fund universal pensions: https://www.matichon.co.th/politics/news_3870423. Removed superseded exclusion X0006, which had asserted that no individual statement had been found. The report does not specify a rate or base.
+
+Found an explicit 2023 statement by Theepakorn supporting a wealth tax on substantial net assets, alongside other tax reforms: https://www.isranews.org/article/isranews-scoop/115254-forecast-budget-national-pension-3000-BAHT-policy-report.html. No frequency or numerical threshold is specified. Added a 2026 We Fair joint-statement source: https://theactive.thaipbs.or.th/news/welfare-20260316.
+
+Saved housing association president Suntorn Sathaporn as D0004: https://reic.or.th/News/RealEstate/469278 names a wealth tax next to a windfall tax, while https://www.prachachat.net/hilight-prachachat/news-1717097 describes higher taxation of income from wealth. The sources do not establish a tax on the stock of wealth, so do not add him without clarification. Labour representatives were not attributed We Fair's forum proposal merely by appearing at the same event.
