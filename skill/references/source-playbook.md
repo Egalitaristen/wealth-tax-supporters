@@ -110,6 +110,8 @@ Bill-tracker pages, press snippets and search results under-report what a legisl
 7. **Record what you read.** `area_profile.md` lists the documents read (gazette numbers and dates). Never write "only block votes found" or "no individual statements" unless every minute of the relevant sittings was read; say which ones were not.
 8. If the PDFs cannot be read as text (scans), say so in the profile and open them with the browser or computer use before concluding.
 
+**Per-country records guide.** Each country gets `references/records/<folder>.md` (template: `records/_template.md`): where its bills, debates, roll calls and member lists are, how to get all of them, what was read when, and what is still open. Read it before researching a country; if it is missing, write it as the first step of the run.
+
 ## Local sweep pack (for sampled units, and for every unit only at Exhaustive depth)
 
 1. `"{TERM}" "{UNIT}" council motion`
