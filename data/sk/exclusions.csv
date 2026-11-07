@@ -1,2 +1,3 @@
 exclusion_id,name,reason,detail,source_url,run_id
 X0002,Robert Fico / Smer-SD 2023 tax on banks and the rich,out_of_definition,"Bank levy and higher income tax, not a tax on net wealth.",https://sita.sk/den-po-volbach-hovori-robert-fico-o-zdaneni-bank-a-bohatych/,R001
+X0003,Foundation for European Progressive Studies (FEPS),duplicate,"Brussels-based European political foundation; it is a partner of the Slovak Tax the Rich event but belongs in the EU register, not Slovakia's. Proforum and FES Slovakia stay as the Slovak organisers.",https://feps-europe.eu/event/social-and-environmental-justice-in-the-eu/,R004

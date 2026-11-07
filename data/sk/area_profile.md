@@ -31,3 +31,8 @@ The National Council seat chart uses archived official club totals; nrsr.sk bloc
 
 ## 5. Plan
 A broad web search naming Bratislava, Košice, Prešov, Žilina and Banská Bystrica found no qualifying motion; local primary records have not been swept. See R004 in `runs.csv` and `leads.csv`: clarify Profant’s tax base and the Beyond Growth carbon-wealth design; continue parliamentary, union and think-tank leads. Local and regional sources have not yet been sampled; do that before any sweep.
+
+## Review corrections (2026-11-07)
+
+- Regraded the Confederation of Trade Unions' poverty report (E00006, E00007) from B to C: it lists a net wealth tax among options that 'could include', which describes an option and does not recommend it.
+- Removed the Foundation for European Progressive Studies (FEPS): a Brussels-based European foundation, out of scope for the Slovak register (exclusion X0003). Proforum and FES Slovakia stay as the Slovak organisers of the Tax the Rich signature drive.
