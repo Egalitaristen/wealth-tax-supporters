@@ -4,5 +4,5 @@
   "lead": "",
   "status": "in progress",
   "boundaries": "boundaries.json",
-  "notes": "Depth: seed (first pass R001, 2026-11-04). Scope: economist commentary, parties searched, EP roll calls; 8 kraje (NUTS 3) and 2,927 obce (LAU) in the register; local units not swept. Map: Eurostat GISCO LAU and NUTS 2024 (CC BY 4.0). Seats tab (unlit: no supporter sits in the National Council): club sizes from nrsr.sk read via Internet Archive captures, because nrsr.sk answers scripts with a bot check (not bypassed). Yield is low: no Slovak bill or party programme for a wealth tax was found."
+  "notes": "Depth: seed (first pass R001, 2026-11-04). Scope: economist commentary, parties searched, EP roll calls; 8 kraje (NUTS 3) and 2,927 obce (LAU) in the register; local units not swept. Map: Eurostat GISCO LAU and NUTS 2024 (CC BY 4.0). Seats tab (unlit: no supporter sits in the National Council): club sizes from nrsr.sk read via Internet Archive captures, because nrsr.sk answers scripts with a bot check (not bypassed). Yield is low: no Slovak wealth-tax bill was found; Dobrá voľba’s 2020 programme has an ambiguous wealth-taxation statement, and a 2025 union report suggests considering a net-wealth tax."
 }

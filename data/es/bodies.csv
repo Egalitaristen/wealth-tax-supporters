@@ -1,3 +1,12 @@
 body_id,name,level,kind,seats,as_of,source_url,seat_view,notes
 B0001,Congreso de los Diputados,national,chamber,350,2026-11-02,https://www.congreso.es/es/opendata/diputados,y,"350 seats. The Cortes were dissolved on 2026-10-06 and a deputy's mandate ends on the day of dissolution, so only the deputies who stay on hold a seat until the new Cortes meet."
 B0002,Senado,national,chamber,266,2026-11-02,https://es.wikipedia.org/wiki/Anexo:Senadores_de_la_XV_legislatura_de_España,y,"266 seats (208 elected by province and 58 designated by the autonomous communities), XV legislature elected 23 July 2023. The Cortes were dissolved on 6 October 2026 for the election of 29 November 2026, so the members shown are the senators of the legislature at its end, from the Spanish Wikipedia list (senado.es refuses scripts), a secondary source; replace it with the new Senate's list once it meets. Unlit seats mean nothing found, never opposition."
+B0003,Parlament de Catalunya,regional,chamber,,,https://www.parlament.cat/web/composicio/ple-parlament/index.html,,
+B0004,Parlamento de Navarra,regional,chamber,,,https://parlamentodenavarra.es/es/,,
+B0005,Asamblea de Madrid,regional,chamber,,,https://www.asambleamadrid.es/,,
+B0006,Parlamento de Galicia,regional,chamber,,,https://www.parlamentodegalicia.es/,,
+B0007,Concello de Carballo,local,council,,,https://carballo.gal/corporacion-municipal/,,
+B0008,Ayuntamiento de La Rinconada,local,council,,,https://www.larinconada.es/,,
+B0009,Juntas Generales de Bizkaia,regional,chamber,,,https://jjggbizkaia.eus/es/composicion,,
+B0010,Juntas Generales de Gipuzkoa,regional,chamber,,,https://www.bngipuzkoa.eus/,,
+B0011,Juntas Generales de Álava,regional,chamber,,,https://www.jjggalava.eus/,,
