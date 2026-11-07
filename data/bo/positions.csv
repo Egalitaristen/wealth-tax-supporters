@@ -1,1 +1,7 @@
 position_id,actor_id,body_id,role,party,geo_unit_id,start,end,current,member_ref,checked,source_url
+O00001,A0012,B0001,Deputy,Movement for Socialism,G0003,,,,,,https://diputados.gob.bo/noticias/yujra-gobierno-de-anez-dejo-un-deficit-fiscal-del-122-el-mas-alto-en-varias-decadas/
+O00002,A0024,B0003,Vice President,Movement for Socialism,G0001,2006,2019,n,,2026-11-07,https://www.eldiario.es/internacional/alvaro-garcia-linera-exvicepresidente-bolivia-si-progresismo-detiene-brios-igualitarios-convertira-jugador-segunda_128_8747590.html
+O00003,A0035,B0001,Deputy,LIBRE,G0006,2025,,y,lissa-amanda-claros-lora,2026-11-07,https://diputados.gob.bo/diputados-home/
+O00004,A0003,B0004,President,Movement for Socialism,G0001,2020,2025,n,,2026-11-07,https://www.cidob.org/ca/lider-politico/luis-arce-catacora
+O00005,A0004,B0004,President,Movement for Socialism,G0001,2006,2019,n,,2026-11-07,https://www.cidob.org/lider-politico/evo-morales-ayma
+O00006,A0007,B0005,Minister of Economy and Public Finance,Movement for Socialism,G0001,2020,2025,n,,2026-11-07,https://www.lexivox.org/norms/BO-DP-N4389.html
