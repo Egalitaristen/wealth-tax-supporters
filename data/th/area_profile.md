@@ -116,3 +116,18 @@ Leads not listed:
 - The We Fair network's parallel civil-society bill (1% on assets over 30 million THB for a 3,000 THB pension): no text or filing page was found.
 - The Fiscal Policy Office's study of a net wealth tax (reported May 2025): no published document found.
 - The Section 77 summary report of the hearing (the "รายงานสรุปความคิดเห็น" file on the same page) was not opened.
+
+## Research follow-up - R007 (7 November 2026)
+
+The official House HRIS directory now lists Sirikanya Tansakun as a People's Party party-list MP in the 27th House: https://hris.parliament.go.th/ss_th.php/ss_detail.php?lang=th&sapa_id=&ssp_id=34265. Her position record is checked against that directory. The IPU's final election record reports the 500-seat House with Bhumjaithai 192, People's Party 120, Pheu Thai 74, Kla Tham 58, Democrat 21, Thai Ruam Palang 6, Palang Pracharath 5, Prachachat 5 and others 19: https://data.ipu.org/parliament/TH/TH-LC01/election/TH-LC01-E20260208/. This resolves the provisional 191/192 discrepancy: the 499-member interim count reported on 4 March gave Bhumjaithai 191 before the last constituency was filled.
+
+Added economist and researcher Supalak Bamrungkit (A0013), a co-author of a January 2022 report whose executive summary explicitly says a wealth tax is necessary to reduce inequality. Her official 2026 candidate profile also says her research became Move Forward's wealth-tax policy. The report lists her as an author and gives the date, so the publication is grade A.
+
+The People's Party's published 2026 election tax platform covers personal income tax, VAT and land/building tax but does not mention a net wealth tax: https://election69.peoplesparty.or.th/policy/3/A-3-2/. This is a current-platform omission only; no explicit retraction was found, so the existing party evidence remains unchanged.
+
+## Next runs
+
+1. Find and read the We Fair parallel bill or a current filing record; add named public sponsors only where the text and source qualify.
+2. Check the public campaigners and researchers associated with the 2022 worker-welfare wealth-tax study for other explicit proposals, while avoiding duplicate co-authors already registered.
+3. Monitor for a reintroduced bill or a direct current position from People's Party leaders; do not treat the 2026 platform omission as a retraction.
+4. Resume a name-by-name 27th House sweep only if individual evidence or a bill/roll-call list gives it a high-yield basis.
