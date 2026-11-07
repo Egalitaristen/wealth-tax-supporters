@@ -121,7 +121,12 @@ First written 2026-10-23 (runs R001 to R005). Lines marked *[verify]* come from 
   - NGO Leadership: Eva Smets (General Director of Oxfam België, A0108, Grade A on Zucman 2% minimum wealth tax in MO*).
   - Harvest: Chamber DOC 56 0853/008 Amendment 10 (Ways & Means 2025 Budget amendment proposing 2%–3% wealth tax; Harvest H0008).
   - Exclusions: Mark Delanote (author of the Van Peteghem tax reform blueprint, advocates dual income tax, out_of_definition X0017) and Michel Maus (tax law professor VUB / partner Bloom Law, prominent commentator opposing wealth tax, opposes X0018).
-- **Database Status:** 74 supporters, 84 evidence rows, 59 links, 18 exclusions, 8 harvests, 9 runs. 100% verified quotes on live source pages (0 missing, 0 skipped). 0 validation errors, 0 warnings.
+- **R010 (Green socio-ecological think tanks, veteran union leadership & civil society coalitions):** Added 5 high-confidence supporters (+5 actors, +5 evidence, +4 links, +5 profiles, +2 exclusions):
+  - Green think tanks: Denktank Oikos (A0110, Grade A institutional policy paper on degrowth and wealth taxation) and Dirk Holemans (Director of Oikos, former Flemish MP, A0111, Grade A op-ed on net wealth tax).
+  - Veteran union leadership: Rudy De Leeuw (former Federal President of ABVV-FGTB and former ETUC President, A0112, Grade B signatory in MO*).
+  - Tax justice movement leadership: Eric Goeman (spokesperson of Attac Vlaanderen and coordinator of Financieel Actienetwerk, A0113, Grade B) and Robrecht Vanderbeeken (ACOD Cultuur / ABVV officer, philosopher, A0114, Grade B).
+  - Exclusions: Philippe Defeyt (director of IDD, former Ecolo president; skeptical of wealth tax without cadastre, warning of capital flight and yield illusion, out_of_definition X0019) and Benoît Bayenet (professor of public finance at ULB, CSF Fiscalité president; co-author of 2023 DULBEA study highlighting modest 0.2% GDP yield and legal hurdles, out_of_definition X0020).
+- **Database Status:** 79 supporters, 89 evidence rows, 63 links, 20 exclusions, 8 harvests, 10 runs. 100% verified quotes on live source pages (0 missing, 0 skipped). 0 validation errors, 0 warnings.
 
 
 ## Resources pass (1 November 2026)
