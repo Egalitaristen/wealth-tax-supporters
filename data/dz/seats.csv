@@ -1,0 +1,16 @@
+seat_id,body_id,party,seats,colour,order
+S0001,B0001,Front de Libération Nationale,98,006233,1
+S0002,B0001,Indépendants,84,7f8c8d,2
+S0003,B0001,Mouvement de la Société pour la Paix,65,2e8b57,3
+S0004,B0001,Rassemblement National Démocratique,58,1b6ec2,4
+S0005,B0001,Front El Moustakbal,48,f58220,5
+S0006,B0001,Mouvement El Bina,39,27ae60,6
+S0007,B0001,Parti Voix du Peuple,3,8e6bbf,7
+S0008,B0001,Parti de la Liberté et de la Justice,2,c8102e,8
+S0009,B0001,Front de la Justice et du Développement,2,d35400,9
+S0010,B0001,Parti El Fadjr El Djadid,2,16a085,10
+S0011,B0001,Front de la Bonne Gouvernance,2,2980b9,11
+S0012,B0001,Front de l'Algérie Nouvelle,1,95a5a6,12
+S0013,B0001,Parti El Karama,1,f39c12,13
+S0014,B0001,Jil Jadid,1,34495e,14
+S0015,B0001,Front National Algérien,1,b22222,15

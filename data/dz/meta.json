@@ -1,0 +1,8 @@
+{
+  "name": "Algeria",
+  "iso2": "DZ",
+  "lead": "",
+  "status": "in progress",
+  "boundaries": "boundaries.json",
+  "notes": "Algeria register: seed pass. National level, 48 wilayas and 1,541 communes loaded from INCT via OCHA HDX COD-AB (CC-BY-IGO-3.0)."
+}

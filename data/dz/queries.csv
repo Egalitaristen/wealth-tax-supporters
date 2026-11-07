@@ -1,0 +1,31 @@
+query_id,run_id,date,language,query,channel,results_opened,leads_added,note
+Q0001,R001,2026-11-07,ar,"""الضريبة على الثروة"" OR ""ضريبة الثروة"" الجزائر",web,8,6,Broad Arabic sweep of Algeria wealth tax debates (2013–2026)
+Q0002,R001,2026-11-07,fr,"""impôt sur la fortune"" Algérie",web,8,6,"Broad French sweep of Algerian Impôt sur la fortune (PLF 2018, LFC 2020, PLF 2026/2027)"
+Q0003,R001,2026-11-07,fr,"""impôt sur le patrimoine"" Algérie ""loi de finances""",web,4,2,Historical 1993 Impôt sur le patrimoine and 2020 replacement by ISF
+Q0004,R001,2026-11-07,ar,"""الضريبة على الثروة"" ""المجلس الشعبي الوطني"" OR ""حزب العمال"" OR ""حنون""",web,6,5,APN parliamentary debates and Workers' Party (PT) amendments
+Q0005,R001,2026-11-07,fr,"""Parti des travailleurs"" OR ""Louisa Hanoune"" OR ""Ramdane Taazibt"" ""impôt sur la fortune"" Algérie",web,5,3,PT deputies and leadership statements on the ISF
+Q0006,R001,2026-11-07,ar,"""الضريبة على الثروة"" ""تبون"" OR ""راوية"" OR ""بوزرد"" OR ""فايد"" الجزائر",web,6,4,"Executive and Ministry of Finance reforms (Tebboune, Raouya, Faid, Bouzred)"
+Q0007,R001,2026-11-07,fr,"""FFS"" OR ""RCD"" OR ""MSP"" OR ""Youcef Aouchiche"" ""impôt sur la fortune"" Algérie",web,5,4,"Opposition parties (FFS, MSP, RCD) and 2024 presidential platform"
+Q0008,R001,2026-11-07,fr,"""UGTA"" OR ""Labatcha"" ""impôt sur la fortune"" OR ""taxe sur la fortune"" Algérie",web,3,2,Trade union confederation (UGTA) and autonomous union stances
+Q0009,R001,2026-11-07,ar,"""الضريبة على الثروة"" الجزائر خبير اقتصادي OR ""مبتول"" OR ""كاوبي"" OR ""مسدور"" OR ""سلامي"" OR ""مهماه""",web,6,3,Algerian economists and public finance academics
+Q0010,R001,2026-11-07,fr,"""APC"" ""impôt sur la fortune"" Alger OR Oran OR Constantine OR Annaba OR Tizi Ouzou OR Béjaïa",web,3,0,Local sample across 6 major communes verifying that APCs do not pass municipal wealth tax motions
+Q0011,R002,2026-11-07,fr,"""RCD"" OR ""Belabbas"" OR ""Mazouz"" ""impôt sur la fortune"" Algérie",web,5,1,Follow up open lead D0007 on RCD stance toward PLF 2018 and LFC 2020 ISF
+Q0012,R002,2026-11-07,fr,"""Intersyndicale"" OR ""CLA"" OR ""Achour Idir"" ""impôt sur la fortune"" Algérie",web,5,2,Follow up open lead D0008 on Autonomous Unions' Intersyndicale and CLA
+Q0013,R002,2026-11-07,ar,"""عبد القادر بن قرينة"" OR ""حركة البناء"" ""الضريبة على الثروة"" الجزائر",web,5,2,Mouvement El Bina and Abdelkader Bengrina 2019 presidential platform on the wealth tax
+Q0014,R002,2026-11-07,fr,"""Parti socialiste des travailleurs"" OR ""PST"" ""impôt sur la fortune"" Algérie",web,4,1,Socialist Workers' Party (PST) declaration on the suppression of the ISF
+Q0015,R002,2026-11-07,fr,"""Djelloul Djoudi"" OR ""Nadia Chouitem"" OR ""Hakim Berri"" ""impôt sur la fortune"" Algérie",web,6,3,APN parliamentarians across PT and RND defending the Impôt sur la fortune
+Q0016,R002,2026-11-07,ar,"""أيمن بن عبد الرحمان"" OR ""إبراهيم جمال كسالي"" ""الضريبة على الثروة"" الجزائر",web,6,2,Finance Ministers Benabderrahmane (2020–2022) and Kassali (2022–2023) ISF enforcement measures
+Q0017,R002,2026-11-07,fr,"""Abdelkrim Bouzred"" OR ""Amel Abdellatif"" ""impôt sur la fortune"" Algérie",web,6,3,Finance Minister Bouzred (2025–2026) and DGI Director General Amel Abdellatif / DGI
+Q0018,R002,2026-11-07,ar,"""كمال رزيق"" OR ""هواري تيغرسي"" ""الضريبة على الثروة"" OR ""ضريبة الثروة"" الجزائر",web,6,2,Economists Kamel Rezig (2017) and Houari Tigharsi (2026) interviews endorsing the wealth tax
+Q0019,R002,2026-11-07,fr,"""Abdelatif Rebah"" OR ""Mohamed Chérif Belmihoub"" OR ""Nabil Djemaa"" ""impôt sur la fortune"" OR ""impôt sur le patrimoine"" Algérie",web,6,3,Algerian economists and ENA academics on wealth and patrimony taxation
+Q0020,R002,2026-11-07,ar,"""حمزة بوغادي"" OR ""فارس مسدور"" OR ""عبد القادر بريش"" ""الضريبة على الثروة"" الجزائر",web,5,1,"Economic commentators Hamza Boughadi, Fares Mesdour, and Abdelkader Berriche"
+Q0021,R003,2026-11-07,fr,"""PLF 2027"" ""impôt sur la fortune"" OR ""article 25"" ""80.000.000 DA"" Algérie",web,6,1,October–November 2026 PLF 2027 Article 25 wealth tax reform (Finance Minister Mohammed Lamine Lebbou)
+Q0022,R003,2026-11-07,ar,"""مشروع قانون المالية لسنة 2027"" ""الضريبة على الثروة"" ""8 ملايير"" لجنة المالية",web,6,1,APN Finance and Budget Committee preliminary report on PLF 2027 endorsing Article 281 bis 8
+Q0023,R003,2026-11-07,ar,"""طارق تريدي"" OR ""كمال عيساني"" ""الضريبة على الثروة"" OR ""الضريبة على الأملاك"" 2019",web,4,2,October 2019 APN Finance Committee hearing on PLF 2020 Article 26
+Q0024,R003,2026-11-07,fr,"""Mourad Goumiri"" ""impôt sur la fortune"" Algérie Radio M",web,4,1,Prof. Mourad Goumiri broadcast interview advocating for the Impôt sur la fortune
+Q0025,R003,2026-11-07,fr,"""Noureddine Bouderba"" ""impôt sur la fortune"" OR ""impôt sur le patrimoine"" Algérie",web,5,1,Trade unionist Noureddine Bouderba op-ed (2019) and El Watan interview (2020) calling for an Impôt sur la fortune
+Q0026,R003,2026-11-07,fr,"""Finabi Conseil"" OR ""Chabane Assad"" ""impôt sur la fortune"" ""67"" Algérie",web,5,2,Finabi Conseil and Chabane Assad 2023 tax policy study 'Impôt sur la fortune : Une niche fiscale négligée'
+Q0027,R003,2026-11-07,fr,"""Lynda Nacer"" ""Maghreb Émergent"" ""impôt sur la fortune"" ""2 700 millionnaires""",web,4,2,Economic journalist Lynda Nacer and Maghreb Émergent analytical report on the Algerian ISF
+Q0028,R003,2026-11-07,ar,"""أحمد سواهلية"" ""تفعيل الضريبة على الثروة"" الحوار الجزائر",web,4,1,Economist Dr. Ahmed Sahlia interview in El Hiwar endorsing wealth tax activation
+Q0029,R003,2026-11-07,fr,"""Abdelhamid Bouallag"" ""syndicat autonome des fonctionnaires des impôts"" ""équité fiscale""",web,4,0,SAFI Secretary General Abdelhamid Bouallag (logged in exclusions as X0013 for general fiscal equity advocacy without naming a wealth tax)
+Q0030,R003,2026-11-07,ar,"""بوبكر سلامي"" OR ""محفوظ كاوبي"" ""الضريبة على الثروة"" المستثمر 2023",web,4,1,Tax expert Aboubakr Sellami (A0021) and economist Mahfoud Kaoubi (excluded as X0012)

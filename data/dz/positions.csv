@@ -1,0 +1,27 @@
+position_id,actor_id,body_id,role,party,geo_unit_id,start,end,current,member_ref,checked,source_url
+O00001,A0002,B0001,Députée à l'Assemblée Populaire Nationale for Alger,Parti des Travailleurs,G0007,1997,2017,n,,2026-11-07,https://www.apn.dz
+O00002,A0003,B0001,Député à l'Assemblée Populaire Nationale for Alger,Parti des Travailleurs,G0007,2007,2021-03,n,,2026-11-07,https://www.apn.dz
+O00003,A0004,B0001,Député à l'Assemblée Populaire Nationale for Annaba,Parti des Travailleurs,G0008,2012,2017,n,,2026-11-07,https://www.apn.dz
+O00004,A0006,B0002,Membre du Conseil de la Nation for Tizi Ouzou,Front des Forces Socialistes,G0050,2022-02-05,,y,,2026-11-07,https://www.majliselouma.dz
+O00005,A0008,B0001,Député à l'Assemblée Populaire Nationale,Mouvement de la Société pour la Paix,G0007,2007,2017,n,,2026-11-07,https://www.apn.dz
+O00006,A0009,B0001,Député à l'Assemblée Populaire Nationale for Jijel,Mouvement de la Société pour la Paix,G0026,2012,2021-06,n,,2026-11-07,https://www.apn.dz
+O00007,A0010,B0001,Député à l'Assemblée Populaire Nationale for Constantine,Front de la Justice et du Développement,G0018,2012,2021-06,n,,2026-11-07,https://www.apn.dz
+O00008,A0011,B0001,Député à l'Assemblée Populaire Nationale for Alger,Mouvement Ennahda,G0007,2012,2017,n,,2026-11-07,https://www.apn.dz
+O00009,A0013,B0001,Député à l'Assemblée Populaire Nationale for Alger,Parti des Travailleurs,G0007,2012,2017,n,,2026-11-07,https://www.apn.dz
+O00010,A0014,B0003,Président de la République Algérienne Démocratique et Populaire,Front de Libération Nationale,G0001,2019-12-19,,y,,2026-11-07,https://www.el-mouradia.dz
+O00011,A0015,B0003,Premier ministre d'Algérie,Rassemblement National Démocratique,G0001,2017-08-16,2019-03-11,n,,2026-11-07,https://www.premier-ministre.gov.dz
+O00012,A0016,B0003,Ministre des Finances d'Algérie,Indépendant,G0001,2017-05-25,2022-06-14,n,,2026-11-07,https://www.mf.gov.dz
+O00013,A0017,B0003,Ministre des Finances d'Algérie,Indépendant,G0001,2023-03-16,2025-02-02,n,,2026-11-07,https://www.mf.gov.dz
+O00014,A0023,B0003,Ministre du Tourisme et de l'Artisanat,Mouvement El Bina,G0001,1997-06-25,1999-12-23,n,,2026-11-07,https://www.premier-ministre.gov.dz
+O00015,A0026,B0001,Député à l'Assemblée Populaire Nationale (Président du groupe parlementaire du PT),Parti des Travailleurs,G0007,2012,2017,n,,2026-11-07,https://www.apn.dz
+O00016,A0027,B0001,Députée à l'Assemblée Populaire Nationale for Alger,Parti des Travailleurs,G0007,2012,2021-06,n,,2026-11-07,https://www.apn.dz
+O00017,A0028,B0001,Député à l'Assemblée Populaire Nationale for Batna,Rassemblement National Démocratique,G0009,2017-05,2021-06,n,,2026-11-07,https://www.apn.dz
+O00018,A0029,B0003,Premier ministre et Ministre des Finances d'Algérie,Indépendant,G0001,2020-06-23,2023-11-11,n,,2026-11-07,https://www.premier-ministre.gov.dz
+O00019,A0030,B0003,Ministre des Finances d'Algérie,Indépendant,G0001,2022-07-14,2023-03-16,n,,2026-11-07,https://www.mf.gov.dz
+O00020,A0031,B0003,Ministre des Finances d'Algérie,Indépendant,G0001,2025-02-02,2026-09-02,n,,2026-11-07,https://www.mf.gov.dz
+O00021,A0032,B0003,Ministre du Commerce intérieur et de la Régulation du marché national,Indépendant,G0001,2025-09,,y,,2026-11-07,https://www.premier-ministre.gov.dz
+O00022,A0034,B0003,Ministre du Commerce et de la Promotion des Exportations,Indépendant,G0001,2020-01-04,2023-03-16,n,,2026-11-07,https://www.premier-ministre.gov.dz
+O00023,A0035,B0001,Député à l'Assemblée Populaire Nationale,Front de Libération Nationale,G0007,2017-05,2021-06,n,,2026-11-07,https://www.apn.dz
+O00024,A0037,B0003,Ministre délégué auprès du Premier ministre chargé de la Prospective,Indépendant,G0001,2020-06-23,2021-07-07,n,,2026-11-07,https://www.premier-ministre.gov.dz
+O00025,A0040,B0003,Ministre des Finances d'Algérie,Indépendant,G0001,2026-09-02,,y,,2026-11-07,https://www.mf.gov.dz
+O00026,A0042,B0001,Député à l'Assemblée Populaire Nationale for Tébessa (Président de la Commission des Finances et du Budget 2019–2020),Front de Libération Nationale,G0045,2017-05,2021-06,n,,2026-11-07,https://www.apn.dz
