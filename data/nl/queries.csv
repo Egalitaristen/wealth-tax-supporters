@@ -1,0 +1,14 @@
+query_id,run_id,date,language,query,channel,results_opened,leads_added,note
+Q0001,R012,2026-11-06,nl,vermogensbelasting miljonairsbelasting coalitie FNV Oxfam 2026 petitie,web,3,1,Quote 500 petition does not specify a wealth-stock tax; separate DeGoedeZaak campaign does but is undated.
+Q0002,R012,2026-11-06,nl,Sweder van Wijnbergen vermogensbelasting invoeren box 3,web,1,0,Broadcaster social excerpt points to original audio; exact audio wording and context still need checking.
+Q0003,R013,2026-11-06,nl,DeGoedeZaak progressieve vermogensbelasting campagne 2025,web,3,0,Campaign page explicitly supports a wealth stock tax but its date remains unverified; dated 2026 press release does not clearly establish the same design.
+Q0004,R013,2026-11-06,nl,vermogensbelasting ik ben voorstander columnist Nederland,web,2,0,Recovered Michiel Spanjers 2025 original publication: already recorded as A0140/E00175.
+Q0005,R025,2026-11-07,nl,Erno Hannink vermogensbelasting voorstander wealth cap economie iedereen werkt,web,2,0,Found independent signed 2024 article backing a one-billion wealth cap; used D0002 without relying on its garbled podcast transcript.
+Q0006,R025,2026-11-07,nl,Tom van der Lubbe vermogensbelasting Piketty Zucman,web,2,1,Podcast discusses wealth tax and criticizes failure of the French proposal; precise personal endorsement remains unclear. D0003 requires follow-up.
+Q0007,R026,2026-11-07,nl,Marnix van Rij vermogensbelasting vijf miljoen beleggingen,web,4,0,Nextens describes his separate wealth-tax proposal; added A0218. Other interview reproduced online reports EUR 5m but original page blocked.
+Q0008,R026,2026-11-07,nl,Collectief Kapitaal DeGoedeZaak eerlijk delen progressieve vermogensbelasting petitie,web,1,1,Search index shows apparent organisational endorsement reposted by individual but page failed to open and date is uncertain; D0004.
+Q0009,R027,2026-11-07,nl,Sociaal & Groen vermogensbelasting herinvoering voorstel,web,2,1,"Own detailed net-wealth schedule, but no source publication date. D0005 retained as open."
+Q0010,R027,2026-11-07,nl,vermogensbelasting box 3 Grinwis Stultiens 19 januari 2026,web,1,0,Official parliamentary debate gives two direct statements for existing actors; added two evidence records.
+Q0011,R028,2026-11-07,nl,Sociaal & Groen vermogensbelasting voorstel datum welvaartsverdeling,web,2,0,Proposal directly opened but undated; indexed 2025 comment page timed out and does not establish current policy wording.
+Q0012,R028,2026-11-07,nl,SP lokale afdeling miljonairsbelasting actie mei 2026,web,1,0,Indexed Horst aan de Maas and Eindhoven campaign listings require underlying accessible and independently attributable articles.
+Q0013,R029,2026-11-07,nl,Peter Leest Eduard de Jong miljonair Davos vermogensbelasting signatories,web,6,0,Found dated RTL corroboration of Peter Leest as Dutch wealthy public letter signatory; Eduard de Jong already recorded.
