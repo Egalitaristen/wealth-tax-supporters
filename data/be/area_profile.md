@@ -143,3 +143,8 @@ Leads not yet listed:
 
 ## Taxes in force that are outside the definition
 - **Taxe sur les comptes-titres (securities-account tax):** a yearly levy on securities accounts above a threshold. It covers financial accounts, not net wealth, so it is outside the definition. `[verify: stated from general knowledge, not read from the law for this note]`
+
+
+## Review corrections
+
+E00116 (Denktank Minerva, evaluates models without endorsing) regraded A to B.
