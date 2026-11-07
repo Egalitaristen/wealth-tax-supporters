@@ -1,0 +1,4 @@
+body_id,name,level,kind,seats,as_of,source_url,seat_view,notes
+B0001,Assemblée Populaire Nationale,national,chamber,407,2021-06-24,https://radioalgerie.dz/news/fr/article/20210624/213748.html,y,Lower house of the Algerian Parliament (9th legislature elected 12 June 2021; final results proclaimed by the Constitutional Council on 23 June 2021).
+B0002,Conseil de la Nation,national,chamber,174,2025-03-09,https://www.majliselouma.dz,,Upper house of the Algerian Parliament (116 indirectly elected members across 58 wilayas and 58 presidentially appointed members).
+B0003,Gouvernement de la République Algérienne Démocratique et Populaire,national,other,,2026-11-07,https://www.premier-ministre.gov.dz,,"National executive of Algeria (Presidency of the Republic, Prime Minister's Office, and Ministry of Finance)."

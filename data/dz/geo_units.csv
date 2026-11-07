@@ -1,0 +1,1593 @@
+geo_unit_id,name,level,unit_type,parent_id,website,sweep_status,swept_run,swept_date,queries_run,hits,notes,code
+G0001,Algeria,national,country,,https://www.el-mouradia.dz,done,R001,2026-11-07,10,21,National seed pass completed across Arabic and French sources.,DZ
+G0002,Assemblée Populaire Nationale,national,legislature,G0001,https://www.apn.dz,done,R001,2026-11-07,4,10,"Swept APN Finance Bill debates (PLF 2014, PLF 2018, PLF 2019, LFC 2020, PLF 2026/2027).",
+G0003,Conseil de la Nation,national,legislature,G0001,https://www.majliselouma.dz,done,R001,2026-11-07,2,2,Swept Conseil de la Nation members and Finance Bill reviews.,
+G0004,Adrar,region,wilaya,G0001,,pending,,,,,Wilaya 01 (أدرا),DZ-01
+G0005,Ain-Defla,region,wilaya,G0001,,pending,,,,,Wilaya 02 (عين الدفلى),DZ-02
+G0006,Ain-Temouchent,region,wilaya,G0001,,pending,,,,,Wilaya 03 (عين تموشنت),DZ-03
+G0007,Alger,region,wilaya,G0001,,pending,,,,,Wilaya 04 (الجزائر),DZ-04
+G0008,Annaba,region,wilaya,G0001,,pending,,,,,Wilaya 05 (عنابة),DZ-05
+G0009,Batna,region,wilaya,G0001,,pending,,,,,Wilaya 06 (باتنة),DZ-06
+G0010,Bechar,region,wilaya,G0001,,pending,,,,,Wilaya 07 (بشار),DZ-07
+G0011,Bejaia,region,wilaya,G0001,,pending,,,,,Wilaya 08 (بجاية),DZ-08
+G0012,Biskra,region,wilaya,G0001,,pending,,,,,Wilaya 09 (بسكرة),DZ-09
+G0013,Blida,region,wilaya,G0001,,pending,,,,,Wilaya 10 (البليدة),DZ-10
+G0014,Bordj Bou Arrer,region,wilaya,G0001,,pending,,,,,Wilaya 11 (برج بوعريريج),DZ-11
+G0015,Bouira,region,wilaya,G0001,,pending,,,,,Wilaya 12 (البويرة),DZ-12
+G0016,Boumerdes,region,wilaya,G0001,,pending,,,,,Wilaya 13 (بومرداس),DZ-13
+G0017,Chlef,region,wilaya,G0001,,pending,,,,,Wilaya 14 (الشلف),DZ-14
+G0018,Constantine,region,wilaya,G0001,,pending,,,,,Wilaya 15 (قسنطينة),DZ-15
+G0019,Djelfa,region,wilaya,G0001,,pending,,,,,Wilaya 16 (الجلفة),DZ-16
+G0020,El Bayadh,region,wilaya,G0001,,pending,,,,,Wilaya 17 (البيض),DZ-17
+G0021,El Oued,region,wilaya,G0001,,pending,,,,,Wilaya 18 (الوادي),DZ-18
+G0022,El-Tarf,region,wilaya,G0001,,pending,,,,,Wilaya 19 (الطارف),DZ-19
+G0023,Ghardaia,region,wilaya,G0001,,pending,,,,,Wilaya 20 (غرداية),DZ-20
+G0024,Guelma,region,wilaya,G0001,,pending,,,,,Wilaya 21 (قالمة),DZ-21
+G0025,Illizi,region,wilaya,G0001,,pending,,,,,Wilaya 22 (اليزي),DZ-22
+G0026,Jijel,region,wilaya,G0001,,pending,,,,,Wilaya 23 (جيجل),DZ-23
+G0027,Khenchela,region,wilaya,G0001,,pending,,,,,Wilaya 24 (خنشلة),DZ-24
+G0028,Laghouat,region,wilaya,G0001,,pending,,,,,Wilaya 25 (الأغواط),DZ-25
+G0029,Mascara,region,wilaya,G0001,,pending,,,,,Wilaya 26 (معسكر),DZ-26
+G0030,Medea,region,wilaya,G0001,,pending,,,,,Wilaya 27 (المدية),DZ-27
+G0031,Mila,region,wilaya,G0001,,pending,,,,,Wilaya 28 (ميلة),DZ-28
+G0032,Mostaganem,region,wilaya,G0001,,pending,,,,,Wilaya 29 (مستغانم),DZ-29
+G0033,M'Sila,region,wilaya,G0001,,pending,,,,,Wilaya 30 (المسيلة),DZ-30
+G0034,Naama,region,wilaya,G0001,,pending,,,,,Wilaya 31 (النعامة),DZ-31
+G0035,Oran,region,wilaya,G0001,,pending,,,,,Wilaya 32 (وهران),DZ-32
+G0036,Ouargla,region,wilaya,G0001,,pending,,,,,Wilaya 33 (ورقلة),DZ-33
+G0037,Oum El Bouaghi,region,wilaya,G0001,,pending,,,,,Wilaya 34 (أم البواقي),DZ-34
+G0038,Relizane,region,wilaya,G0001,,pending,,,,,Wilaya 35 (غليزان),DZ-35
+G0039,Saida,region,wilaya,G0001,,pending,,,,,Wilaya 36 (سعيدة),DZ-36
+G0040,Setif,region,wilaya,G0001,,pending,,,,,Wilaya 37 (سطيف),DZ-37
+G0041,Sidi Bel Abbes,region,wilaya,G0001,,pending,,,,,Wilaya 38 (سيدي بلعباس),DZ-38
+G0042,Skikda,region,wilaya,G0001,,pending,,,,,Wilaya 39 (سكيكدة),DZ-39
+G0043,Souk-Ahras,region,wilaya,G0001,,pending,,,,,Wilaya 40 (سوق أهراس),DZ-40
+G0044,Tamanrasset,region,wilaya,G0001,,pending,,,,,Wilaya 41 (تمنراست),DZ-41
+G0045,Tebessa,region,wilaya,G0001,,pending,,,,,Wilaya 42 (تبسة),DZ-42
+G0046,Tiaret,region,wilaya,G0001,,pending,,,,,Wilaya 43 (تيارت),DZ-43
+G0047,Tindouf,region,wilaya,G0001,,pending,,,,,Wilaya 44 (تندوف),DZ-44
+G0048,Tipaza,region,wilaya,G0001,,pending,,,,,Wilaya 45 (تيبازة),DZ-45
+G0049,Tissemsilt,region,wilaya,G0001,,pending,,,,,Wilaya 46 (تسمسيلت),DZ-46
+G0050,Tizi Ouzou,region,wilaya,G0001,,pending,,,,,Wilaya 47 (تيزي وزو),DZ-47
+G0051,Tlemcen,region,wilaya,G0001,,pending,,,,,Wilaya 48 (تلمسان),DZ-48
+G0052,Adrar,council,commune,G0004,,pending,,,,,Commune in Adrar Wilaya,001001
+G0053,Akabili,council,commune,G0004,,pending,,,,,Commune in Adrar Wilaya,001002
+G0054,Aougrout,council,commune,G0004,,pending,,,,,Commune in Adrar Wilaya,001003
+G0055,Aoulef,council,commune,G0004,,pending,,,,,Commune in Adrar Wilaya,001004
+G0056,Bordj Badji Mokhtar,council,commune,G0004,,pending,,,,,Commune in Adrar Wilaya,001005
+G0057,Bouda,council,commune,G0004,,pending,,,,,Commune in Adrar Wilaya,001006
+G0058,Deldoul,council,commune,G0004,,pending,,,,,Commune in Adrar Wilaya,001007
+G0059,Fenoughil,council,commune,G0004,,pending,,,,,Commune in Adrar Wilaya,001008
+G0060,Gharouine,council,commune,G0004,,pending,,,,,Commune in Adrar Wilaya,001009
+G0061,Inzegmir,council,commune,G0004,,pending,,,,,Commune in Adrar Wilaya,001010
+G0062,Ksar Kaddour,council,commune,G0004,,pending,,,,,Commune in Adrar Wilaya,001011
+G0063,Metarfa,council,commune,G0004,,pending,,,,,Commune in Adrar Wilaya,001012
+G0064,Ouled Ahmed Timi,council,commune,G0004,,pending,,,,,Commune in Adrar Wilaya,001013
+G0065,Ouled Aissa,council,commune,G0004,,pending,,,,,Commune in Adrar Wilaya,001014
+G0066,Ouled Said,council,commune,G0004,,pending,,,,,Commune in Adrar Wilaya,001015
+G0067,Reggane,council,commune,G0004,,pending,,,,,Commune in Adrar Wilaya,001016
+G0068,Sali,council,commune,G0004,,pending,,,,,Commune in Adrar Wilaya,001017
+G0069,Sebaa,council,commune,G0004,,pending,,,,,Commune in Adrar Wilaya,001018
+G0070,Talmine,council,commune,G0004,,pending,,,,,Commune in Adrar Wilaya,001019
+G0071,Tamentit,council,commune,G0004,,pending,,,,,Commune in Adrar Wilaya,001020
+G0072,Tamest,council,commune,G0004,,pending,,,,,Commune in Adrar Wilaya,001021
+G0073,Timiaouine,council,commune,G0004,,pending,,,,,Commune in Adrar Wilaya,001022
+G0074,Timimoun,council,commune,G0004,,pending,,,,,Commune in Adrar Wilaya,001023
+G0075,Timokten,council,commune,G0004,,pending,,,,,Commune in Adrar Wilaya,001024
+G0076,Tinerkouk,council,commune,G0004,,pending,,,,,Commune in Adrar Wilaya,001025
+G0077,Tit,council,commune,G0004,,pending,,,,,Commune in Adrar Wilaya,001026
+G0078,Tsabit,council,commune,G0004,,pending,,,,,Commune in Adrar Wilaya,001027
+G0079,Zaouiet Kounta,council,commune,G0004,,pending,,,,,Commune in Adrar Wilaya,001028
+G0080,Ain Benian,council,commune,G0005,,pending,,,,,Commune in Ain-Defla Wilaya,002001
+G0081,Ain Bouyahia,council,commune,G0005,,pending,,,,,Commune in Ain-Defla Wilaya,002002
+G0082,Ain Lechiakh,council,commune,G0005,,pending,,,,,Commune in Ain-Defla Wilaya,002003
+G0083,Ain Soltane,council,commune,G0005,,pending,,,,,Commune in Ain-Defla Wilaya,002004
+G0084,Ain Torki,council,commune,G0005,,pending,,,,,Commune in Ain-Defla Wilaya,002005
+G0085,Ain-Defla,council,commune,G0005,,pending,,,,,Commune in Ain-Defla Wilaya,002006
+G0086,Arib,council,commune,G0005,,pending,,,,,Commune in Ain-Defla Wilaya,002007
+G0087,Barbouche,council,commune,G0005,,pending,,,,,Commune in Ain-Defla Wilaya,002008
+G0088,Bathia,council,commune,G0005,,pending,,,,,Commune in Ain-Defla Wilaya,002009
+G0089,Belaas,council,commune,G0005,,pending,,,,,Commune in Ain-Defla Wilaya,002010
+G0090,Ben Allal,council,commune,G0005,,pending,,,,,Commune in Ain-Defla Wilaya,002011
+G0091,Bir Ouled Khelifa,council,commune,G0005,,pending,,,,,Commune in Ain-Defla Wilaya,002012
+G0092,Bordj Emir Khaled,council,commune,G0005,,pending,,,,,Commune in Ain-Defla Wilaya,002013
+G0093,Boumedfaa,council,commune,G0005,,pending,,,,,Commune in Ain-Defla Wilaya,002014
+G0094,Bourached,council,commune,G0005,,pending,,,,,Commune in Ain-Defla Wilaya,002015
+G0095,Djelida,council,commune,G0005,,pending,,,,,Commune in Ain-Defla Wilaya,002016
+G0096,Djemaa Ouled Cheikh,council,commune,G0005,,pending,,,,,Commune in Ain-Defla Wilaya,002017
+G0097,Djendel,council,commune,G0005,,pending,,,,,Commune in Ain-Defla Wilaya,002018
+G0098,El Abbadia,council,commune,G0005,,pending,,,,,Commune in Ain-Defla Wilaya,002019
+G0099,El Amra,council,commune,G0005,,pending,,,,,Commune in Ain-Defla Wilaya,002020
+G0100,El Attaf,council,commune,G0005,,pending,,,,,Commune in Ain-Defla Wilaya,002021
+G0101,El Hassania,council,commune,G0005,,pending,,,,,Commune in Ain-Defla Wilaya,002022
+G0102,El Hoceinia,council,commune,G0005,,pending,,,,,Commune in Ain-Defla Wilaya,002023
+G0103,El Mayene,council,commune,G0005,,pending,,,,,Commune in Ain-Defla Wilaya,002024
+G0104,Hammam Righa,council,commune,G0005,,pending,,,,,Commune in Ain-Defla Wilaya,002025
+G0105,Khemis Miliana,council,commune,G0005,,pending,,,,,Commune in Ain-Defla Wilaya,002026
+G0106,Mekhatria,council,commune,G0005,,pending,,,,,Commune in Ain-Defla Wilaya,002027
+G0107,Miliana,council,commune,G0005,,pending,,,,,Commune in Ain-Defla Wilaya,002028
+G0108,Oued Chorfa,council,commune,G0005,,pending,,,,,Commune in Ain-Defla Wilaya,002029
+G0109,Oued Djemaa,council,commune,G0005,,pending,,,,,Commune in Ain-Defla Wilaya,002030
+G0110,Rouina,council,commune,G0005,,pending,,,,,Commune in Ain-Defla Wilaya,002031
+G0111,Sidi Lakhdar,council,commune,G0005,,pending,,,,,Commune in Ain-Defla Wilaya,002032
+G0112,Tachta Zegarra,council,commune,G0005,,pending,,,,,Commune in Ain-Defla Wilaya,002033
+G0113,Tarik Ibn Ziad,council,commune,G0005,,pending,,,,,Commune in Ain-Defla Wilaya,002034
+G0114,Tiberkanine,council,commune,G0005,,pending,,,,,Commune in Ain-Defla Wilaya,002035
+G0115,Zeddine,council,commune,G0005,,pending,,,,,Commune in Ain-Defla Wilaya,002036
+G0116,Aghlal,council,commune,G0006,,pending,,,,,Commune in Ain-Temouchent Wilaya,003001
+G0117,Ain El Arbaa,council,commune,G0006,,pending,,,,,Commune in Ain-Temouchent Wilaya,003002
+G0118,Ain Kihel,council,commune,G0006,,pending,,,,,Commune in Ain-Temouchent Wilaya,003003
+G0119,Ain Tolba,council,commune,G0006,,pending,,,,,Commune in Ain-Temouchent Wilaya,003004
+G0120,Ain-Temouchent,council,commune,G0006,,pending,,,,,Commune in Ain-Temouchent Wilaya,003005
+G0121,Beni Saf,council,commune,G0006,,pending,,,,,Commune in Ain-Temouchent Wilaya,003006
+G0122,Bouzedjar,council,commune,G0006,,pending,,,,,Commune in Ain-Temouchent Wilaya,003007
+G0123,Chaabet El Ham,council,commune,G0006,,pending,,,,,Commune in Ain-Temouchent Wilaya,003008
+G0124,Chentouf,council,commune,G0006,,pending,,,,,Commune in Ain-Temouchent Wilaya,003009
+G0125,El Amria,council,commune,G0006,,pending,,,,,Commune in Ain-Temouchent Wilaya,003010
+G0126,El Emir Abdelkader,council,commune,G0006,,pending,,,,,Commune in Ain-Temouchent Wilaya,003011
+G0127,El Malah,council,commune,G0006,,pending,,,,,Commune in Ain-Temouchent Wilaya,003012
+G0128,El M'Said,council,commune,G0006,,pending,,,,,Commune in Ain-Temouchent Wilaya,003013
+G0129,Hammam Bouhadjar,council,commune,G0006,,pending,,,,,Commune in Ain-Temouchent Wilaya,003014
+G0130,Hassasna,council,commune,G0006,,pending,,,,,Commune in Ain-Temouchent Wilaya,003015
+G0131,Hassi El Ghella,council,commune,G0006,,pending,,,,,Commune in Ain-Temouchent Wilaya,003016
+G0132,Oued Berkeche,council,commune,G0006,,pending,,,,,Commune in Ain-Temouchent Wilaya,003017
+G0133,Oued Sebbah,council,commune,G0006,,pending,,,,,Commune in Ain-Temouchent Wilaya,003018
+G0134,Ougbellil,council,commune,G0006,,pending,,,,,Commune in Ain-Temouchent Wilaya,003019
+G0135,Ouled Boudjemaa,council,commune,G0006,,pending,,,,,Commune in Ain-Temouchent Wilaya,003020
+G0136,Ouled Kihal,council,commune,G0006,,pending,,,,,Commune in Ain-Temouchent Wilaya,003021
+G0137,Oulhaca Gherraba,council,commune,G0006,,pending,,,,,Commune in Ain-Temouchent Wilaya,003022
+G0138,Sidi Ben Adda,council,commune,G0006,,pending,,,,,Commune in Ain-Temouchent Wilaya,003023
+G0139,Sidi Boumediene,council,commune,G0006,,pending,,,,,Commune in Ain-Temouchent Wilaya,003024
+G0140,Sidi Safi,council,commune,G0006,,pending,,,,,Commune in Ain-Temouchent Wilaya,003025
+G0141,Tadmaya,council,commune,G0006,,pending,,,,,Commune in Ain-Temouchent Wilaya,003026
+G0142,Tamzougha,council,commune,G0006,,pending,,,,,Commune in Ain-Temouchent Wilaya,003027
+G0143,Terga,council,commune,G0006,,pending,,,,,Commune in Ain-Temouchent Wilaya,003028
+G0144,Ain Benian,council,commune,G0007,,pending,,,,,Commune in Alger Wilaya,004001
+G0145,Ain Taya,council,commune,G0007,,pending,,,,,Commune in Alger Wilaya,004002
+G0146,Alger,council,commune,G0007,,done,R001,2026-11-07,1,6,"Sampled Alger (Alger-Centre); national actors headquartered here, no APC municipal wealth tax motions (ISF is exclusively national under CIDTA).",004003
+G0147,Bab El Oued,council,commune,G0007,,pending,,,,,Commune in Alger Wilaya,004004
+G0148,Baba Hassen,council,commune,G0007,,pending,,,,,Commune in Alger Wilaya,004005
+G0149,Bach Djerrah,council,commune,G0007,,pending,,,,,Commune in Alger Wilaya,004006
+G0150,Bains Romains,council,commune,G0007,,pending,,,,,Commune in Alger Wilaya,004007
+G0151,Baraki,council,commune,G0007,,pending,,,,,Commune in Alger Wilaya,004008
+G0152,Bab Ezzouar,council,commune,G0007,,pending,,,,,Commune in Alger Wilaya,004009
+G0153,Ben Aknoun,council,commune,G0007,,pending,,,,,Commune in Alger Wilaya,004010
+G0154,Beni Messous,council,commune,G0007,,pending,,,,,Commune in Alger Wilaya,004011
+G0155,Bir Khadem,council,commune,G0007,,pending,,,,,Commune in Alger Wilaya,004012
+G0156,Bir Mourad Rais,council,commune,G0007,,pending,,,,,Commune in Alger Wilaya,004013
+G0157,Birtouta,council,commune,G0007,,pending,,,,,Commune in Alger Wilaya,004014
+G0158,Bologhine Ibn Ziri,council,commune,G0007,,pending,,,,,Commune in Alger Wilaya,004015
+G0159,Bordj El Bahri,council,commune,G0007,,pending,,,,,Commune in Alger Wilaya,004016
+G0160,Bordj El Kiffan,council,commune,G0007,,pending,,,,,Commune in Alger Wilaya,004017
+G0161,Bourouba,council,commune,G0007,,pending,,,,,Commune in Alger Wilaya,004018
+G0162,Bouzareah,council,commune,G0007,,pending,,,,,Commune in Alger Wilaya,004019
+G0163,Casbah,council,commune,G0007,,pending,,,,,Commune in Alger Wilaya,004020
+G0164,Cheraga,council,commune,G0007,,pending,,,,,Commune in Alger Wilaya,004021
+G0165,Dar El Beida,council,commune,G0007,,pending,,,,,Commune in Alger Wilaya,004022
+G0166,Dely Brahim,council,commune,G0007,,pending,,,,,Commune in Alger Wilaya,004023
+G0167,Djisr Ksentina,council,commune,G0007,,pending,,,,,Commune in Alger Wilaya,004024
+G0168,Douera,council,commune,G0007,,pending,,,,,Commune in Alger Wilaya,004025
+G0169,Draria,council,commune,G0007,,pending,,,,,Commune in Alger Wilaya,004026
+G0170,El Achour,council,commune,G0007,,pending,,,,,Commune in Alger Wilaya,004027
+G0171,El Biar,council,commune,G0007,,pending,,,,,Commune in Alger Wilaya,004028
+G0172,El Harrach,council,commune,G0007,,pending,,,,,Commune in Alger Wilaya,004029
+G0173,El Madania,council,commune,G0007,,pending,,,,,Commune in Alger Wilaya,004030
+G0174,El Magharia,council,commune,G0007,,pending,,,,,Commune in Alger Wilaya,004031
+G0175,El Marsa,council,commune,G0007,,pending,,,,,Commune in Alger Wilaya,004032
+G0176,El Mouradia,council,commune,G0007,,pending,,,,,Commune in Alger Wilaya,004033
+G0177,Hamma Anassers,council,commune,G0007,,pending,,,,,Commune in Alger Wilaya,004034
+G0178,Haraoua,council,commune,G0007,,pending,,,,,Commune in Alger Wilaya,004035
+G0179,Hussein Dey,council,commune,G0007,,pending,,,,,Commune in Alger Wilaya,004036
+G0180,Hydra,council,commune,G0007,,pending,,,,,Commune in Alger Wilaya,004037
+G0181,Khraissia,council,commune,G0007,,pending,,,,,Commune in Alger Wilaya,004038
+G0182,Kouba,council,commune,G0007,,pending,,,,,Commune in Alger Wilaya,004039
+G0183,Les Eucalyptus,council,commune,G0007,,pending,,,,,Commune in Alger Wilaya,004040
+G0184,Mahelma,council,commune,G0007,,pending,,,,,Commune in Alger Wilaya,004041
+G0185,Mohammadia,council,commune,G0007,,pending,,,,,Commune in Alger Wilaya,004042
+G0186,Oued Koriche,council,commune,G0007,,pending,,,,,Commune in Alger Wilaya,004043
+G0187,Oued Smar,council,commune,G0007,,pending,,,,,Commune in Alger Wilaya,004044
+G0188,Ouled Chebel,council,commune,G0007,,pending,,,,,Commune in Alger Wilaya,004045
+G0189,Ouled Fayet,council,commune,G0007,,pending,,,,,Commune in Alger Wilaya,004046
+G0190,Rahmania,council,commune,G0007,,pending,,,,,Commune in Alger Wilaya,004047
+G0191,Rais Hamidou,council,commune,G0007,,pending,,,,,Commune in Alger Wilaya,004048
+G0192,Reghaia,council,commune,G0007,,pending,,,,,Commune in Alger Wilaya,004049
+G0193,Rouiba,council,commune,G0007,,pending,,,,,Commune in Alger Wilaya,004050
+G0194,Saoula,council,commune,G0007,,pending,,,,,Commune in Alger Wilaya,004051
+G0195,Sidi M'Hamed,council,commune,G0007,,pending,,,,,Commune in Alger Wilaya,004052
+G0196,Sidi Moussa,council,commune,G0007,,pending,,,,,Commune in Alger Wilaya,004053
+G0197,Souidania,council,commune,G0007,,pending,,,,,Commune in Alger Wilaya,004054
+G0198,Staoueli,council,commune,G0007,,pending,,,,,Commune in Alger Wilaya,004055
+G0199,Tassala El Merdja,council,commune,G0007,,pending,,,,,Commune in Alger Wilaya,004056
+G0200,Zeralda,council,commune,G0007,,pending,,,,,Commune in Alger Wilaya,004057
+G0201,Ain Berda,council,commune,G0008,,pending,,,,,Commune in Annaba Wilaya,005001
+G0202,Annaba,council,commune,G0008,,done,R001,2026-11-07,1,1,Sampled Annaba commune; home constituency of MP Smaïl Kouadria (A0004); no APC municipal wealth tax motions.,005002
+G0203,Berrahel,council,commune,G0008,,pending,,,,,Commune in Annaba Wilaya,005003
+G0204,Chetaibi,council,commune,G0008,,pending,,,,,Commune in Annaba Wilaya,005004
+G0205,Cheurfa,council,commune,G0008,,pending,,,,,Commune in Annaba Wilaya,005005
+G0206,El Bouni,council,commune,G0008,,pending,,,,,Commune in Annaba Wilaya,005006
+G0207,El Hadjar,council,commune,G0008,,pending,,,,,Commune in Annaba Wilaya,005007
+G0208,Eulma,council,commune,G0008,,pending,,,,,Commune in Annaba Wilaya,005008
+G0209,Oued El Aneb,council,commune,G0008,,pending,,,,,Commune in Annaba Wilaya,005009
+G0210,Seraidi,council,commune,G0008,,pending,,,,,Commune in Annaba Wilaya,005010
+G0211,Sidi Amer,council,commune,G0008,,pending,,,,,Commune in Annaba Wilaya,005011
+G0212,Treat,council,commune,G0008,,pending,,,,,Commune in Annaba Wilaya,005012
+G0213,Ain Djasser,council,commune,G0009,,pending,,,,,Commune in Batna Wilaya,006001
+G0214,Ain Touta,council,commune,G0009,,pending,,,,,Commune in Batna Wilaya,006002
+G0215,Ain Yagout,council,commune,G0009,,pending,,,,,Commune in Batna Wilaya,006003
+G0216,Arris,council,commune,G0009,,pending,,,,,Commune in Batna Wilaya,006004
+G0217,Barika,council,commune,G0009,,pending,,,,,Commune in Batna Wilaya,006005
+G0218,Batna,council,commune,G0009,,pending,,,,,Commune in Batna Wilaya,006006
+G0219,Beni Foudhala El Hakania,council,commune,G0009,,pending,,,,,Commune in Batna Wilaya,006007
+G0220,Bitam,council,commune,G0009,,pending,,,,,Commune in Batna Wilaya,006008
+G0221,Boulehilet,council,commune,G0009,,pending,,,,,Commune in Batna Wilaya,006009
+G0222,Boumaguer,council,commune,G0009,,pending,,,,,Commune in Batna Wilaya,006010
+G0223,Boumia,council,commune,G0009,,pending,,,,,Commune in Batna Wilaya,006011
+G0224,Bouzina,council,commune,G0009,,pending,,,,,Commune in Batna Wilaya,006012
+G0225,Chemora,council,commune,G0009,,pending,,,,,Commune in Batna Wilaya,006013
+G0226,Chir,council,commune,G0009,,pending,,,,,Commune in Batna Wilaya,006014
+G0227,Djerma,council,commune,G0009,,pending,,,,,Commune in Batna Wilaya,006015
+G0228,Djezzar,council,commune,G0009,,pending,,,,,Commune in Batna Wilaya,006016
+G0229,El Hassi,council,commune,G0009,,pending,,,,,Commune in Batna Wilaya,006017
+G0230,El Madher,council,commune,G0009,,pending,,,,,Commune in Batna Wilaya,006018
+G0231,Fesdis,council,commune,G0009,,pending,,,,,Commune in Batna Wilaya,006019
+G0232,Foum Toub,council,commune,G0009,,pending,,,,,Commune in Batna Wilaya,006020
+G0233,Ghassira,council,commune,G0009,,pending,,,,,Commune in Batna Wilaya,006021
+G0234,Gosbat,council,commune,G0009,,pending,,,,,Commune in Batna Wilaya,006022
+G0235,Guigba,council,commune,G0009,,pending,,,,,Commune in Batna Wilaya,006023
+G0236,Hidoussa,council,commune,G0009,,pending,,,,,Commune in Batna Wilaya,006024
+G0237,Ichemoul,council,commune,G0009,,pending,,,,,Commune in Batna Wilaya,006025
+G0238,Inoughissene,council,commune,G0009,,pending,,,,,Commune in Batna Wilaya,006026
+G0239,Kimmel,council,commune,G0009,,pending,,,,,Commune in Batna Wilaya,006027
+G0240,Ksar Belezma,council,commune,G0009,,pending,,,,,Commune in Batna Wilaya,006028
+G0241,Larbaa,council,commune,G0009,,pending,,,,,Commune in Batna Wilaya,006029
+G0242,Lazrou,council,commune,G0009,,pending,,,,,Commune in Batna Wilaya,006030
+G0243,Lemcen,council,commune,G0009,,pending,,,,,Commune in Batna Wilaya,006031
+G0244,Maafa,council,commune,G0009,,pending,,,,,Commune in Batna Wilaya,006032
+G0245,M'Doukal,council,commune,G0009,,pending,,,,,Commune in Batna Wilaya,006033
+G0246,Menaa,council,commune,G0009,,pending,,,,,Commune in Batna Wilaya,006034
+G0247,Merouana,council,commune,G0009,,pending,,,,,Commune in Batna Wilaya,006035
+G0248,Metkaouak,council,commune,G0009,,pending,,,,,Commune in Batna Wilaya,006036
+G0249,N'Gaous,council,commune,G0009,,pending,,,,,Commune in Batna Wilaya,006037
+G0250,Oued Chaaba,council,commune,G0009,,pending,,,,,Commune in Batna Wilaya,006038
+G0251,Oued El Ma,council,commune,G0009,,pending,,,,,Commune in Batna Wilaya,006039
+G0252,Oued Taga,council,commune,G0009,,pending,,,,,Commune in Batna Wilaya,006040
+G0253,Ouled Ammar,council,commune,G0009,,pending,,,,,Commune in Batna Wilaya,006041
+G0254,Ouled Aouf,council,commune,G0009,,pending,,,,,Commune in Batna Wilaya,006042
+G0255,Ouled Fadel,council,commune,G0009,,pending,,,,,Commune in Batna Wilaya,006043
+G0256,Ouled Sellam,council,commune,G0009,,pending,,,,,Commune in Batna Wilaya,006044
+G0257,Ouled Si Slimane,council,commune,G0009,,pending,,,,,Commune in Batna Wilaya,006045
+G0258,Ouyoun El Assafir,council,commune,G0009,,pending,,,,,Commune in Batna Wilaya,006046
+G0259,Rahbat,council,commune,G0009,,pending,,,,,Commune in Batna Wilaya,006047
+G0260,Ras El Aioun,council,commune,G0009,,pending,,,,,Commune in Batna Wilaya,006048
+G0261,Sefiane,council,commune,G0009,,pending,,,,,Commune in Batna Wilaya,006049
+G0262,Seggana,council,commune,G0009,,pending,,,,,Commune in Batna Wilaya,006050
+G0263,Seriana,council,commune,G0009,,pending,,,,,Commune in Batna Wilaya,006051
+G0264,Talkhemt,council,commune,G0009,,pending,,,,,Commune in Batna Wilaya,006052
+G0265,Taxlent,council,commune,G0009,,pending,,,,,Commune in Batna Wilaya,006053
+G0266,Tazoult,council,commune,G0009,,pending,,,,,Commune in Batna Wilaya,006054
+G0267,Theniet El Abed,council,commune,G0009,,pending,,,,,Commune in Batna Wilaya,006055
+G0268,Tighanimine,council,commune,G0009,,pending,,,,,Commune in Batna Wilaya,006056
+G0269,Tigharghar,council,commune,G0009,,pending,,,,,Commune in Batna Wilaya,006057
+G0270,Tilatou,council,commune,G0009,,pending,,,,,Commune in Batna Wilaya,006058
+G0271,Timgad,council,commune,G0009,,pending,,,,,Commune in Batna Wilaya,006059
+G0272,T'Kout,council,commune,G0009,,pending,,,,,Commune in Batna Wilaya,006060
+G0273,Zana El Beida,council,commune,G0009,,pending,,,,,Commune in Batna Wilaya,006061
+G0274,Abadla,council,commune,G0010,,pending,,,,,Commune in Bechar Wilaya,007001
+G0275,Bechar,council,commune,G0010,,pending,,,,,Commune in Bechar Wilaya,007002
+G0276,Beni Abbes,council,commune,G0010,,pending,,,,,Commune in Bechar Wilaya,007003
+G0277,Beni Ikhlef,council,commune,G0010,,pending,,,,,Commune in Bechar Wilaya,007004
+G0278,Beni Ounif,council,commune,G0010,,pending,,,,,Commune in Bechar Wilaya,007005
+G0279,Boukais,council,commune,G0010,,pending,,,,,Commune in Bechar Wilaya,007006
+G0280,El Ouata,council,commune,G0010,,pending,,,,,Commune in Bechar Wilaya,007007
+G0281,Erg Ferradj,council,commune,G0010,,pending,,,,,Commune in Bechar Wilaya,007008
+G0282,Igli,council,commune,G0010,,pending,,,,,Commune in Bechar Wilaya,007009
+G0283,Kenadsa,council,commune,G0010,,pending,,,,,Commune in Bechar Wilaya,007010
+G0284,Kerzaz,council,commune,G0010,,pending,,,,,Commune in Bechar Wilaya,007011
+G0285,Ksabi,council,commune,G0010,,pending,,,,,Commune in Bechar Wilaya,007012
+G0286,Lahmar,council,commune,G0010,,pending,,,,,Commune in Bechar Wilaya,007013
+G0287,Mechraa Houari Boumediene,council,commune,G0010,,pending,,,,,Commune in Bechar Wilaya,007014
+G0288,Meridja,council,commune,G0010,,pending,,,,,Commune in Bechar Wilaya,007015
+G0289,Mougheul,council,commune,G0010,,pending,,,,,Commune in Bechar Wilaya,007016
+G0290,Ouled Khoudir,council,commune,G0010,,pending,,,,,Commune in Bechar Wilaya,007017
+G0291,Tabelbala,council,commune,G0010,,pending,,,,,Commune in Bechar Wilaya,007018
+G0292,Taghit,council,commune,G0010,,pending,,,,,Commune in Bechar Wilaya,007019
+G0293,Tamert,council,commune,G0010,,pending,,,,,Commune in Bechar Wilaya,007020
+G0294,Timmoudi,council,commune,G0010,,pending,,,,,Commune in Bechar Wilaya,007021
+G0295,Adekar,council,commune,G0011,,pending,,,,,Commune in Bejaia Wilaya,008001
+G0296,Ait R'Zine,council,commune,G0011,,pending,,,,,Commune in Bejaia Wilaya,008002
+G0297,Ait Smail,council,commune,G0011,,pending,,,,,Commune in Bejaia Wilaya,008003
+G0298,Akbou,council,commune,G0011,,pending,,,,,Commune in Bejaia Wilaya,008004
+G0299,Akfadou,council,commune,G0011,,pending,,,,,Commune in Bejaia Wilaya,008005
+G0300,Amalou,council,commune,G0011,,pending,,,,,Commune in Bejaia Wilaya,008006
+G0301,Amizour,council,commune,G0011,,pending,,,,,Commune in Bejaia Wilaya,008007
+G0302,Aokas,council,commune,G0011,,pending,,,,,Commune in Bejaia Wilaya,008008
+G0303,Barbacha,council,commune,G0011,,pending,,,,,Commune in Bejaia Wilaya,008009
+G0304,Bejaia,council,commune,G0011,,done,R001,2026-11-07,1,0,Sampled Bejaia commune; no APC municipal wealth tax motions.,008010
+G0305,Beni Djellil,council,commune,G0011,,pending,,,,,Commune in Bejaia Wilaya,008011
+G0306,Beni Ksila,council,commune,G0011,,pending,,,,,Commune in Bejaia Wilaya,008012
+G0307,Beni Maouche,council,commune,G0011,,pending,,,,,Commune in Bejaia Wilaya,008013
+G0308,Beni Melikech,council,commune,G0011,,pending,,,,,Commune in Bejaia Wilaya,008014
+G0309,Boudjellil,council,commune,G0011,,pending,,,,,Commune in Bejaia Wilaya,008015
+G0310,Bouhamza,council,commune,G0011,,pending,,,,,Commune in Bejaia Wilaya,008016
+G0311,Boukhelifa,council,commune,G0011,,pending,,,,,Commune in Bejaia Wilaya,008017
+G0312,Chelata,council,commune,G0011,,pending,,,,,Commune in Bejaia Wilaya,008018
+G0313,Chemini,council,commune,G0011,,pending,,,,,Commune in Bejaia Wilaya,008019
+G0314,Darguina,council,commune,G0011,,pending,,,,,Commune in Bejaia Wilaya,008020
+G0315,Draa El Kaid,council,commune,G0011,,pending,,,,,Commune in Bejaia Wilaya,008021
+G0316,El Kseur,council,commune,G0011,,pending,,,,,Commune in Bejaia Wilaya,008022
+G0317,Ferraoun,council,commune,G0011,,pending,,,,,Commune in Bejaia Wilaya,008023
+G0318,Ifelain Ilmathen,council,commune,G0011,,pending,,,,,Commune in Bejaia Wilaya,008024
+G0319,Ighil Ali,council,commune,G0011,,pending,,,,,Commune in Bejaia Wilaya,008025
+G0320,Ighram,council,commune,G0011,,pending,,,,,Commune in Bejaia Wilaya,008026
+G0321,Kendira,council,commune,G0011,,pending,,,,,Commune in Bejaia Wilaya,008027
+G0322,Kherrata,council,commune,G0011,,pending,,,,,Commune in Bejaia Wilaya,008028
+G0323,Leflaye,council,commune,G0011,,pending,,,,,Commune in Bejaia Wilaya,008029
+G0324,Melbou,council,commune,G0011,,pending,,,,,Commune in Bejaia Wilaya,008030
+G0325,Oued Ghir,council,commune,G0011,,pending,,,,,Commune in Bejaia Wilaya,008031
+G0326,Ouzellaguen,council,commune,G0011,,pending,,,,,Commune in Bejaia Wilaya,008032
+G0327,Seddouk,council,commune,G0011,,pending,,,,,Commune in Bejaia Wilaya,008033
+G0328,Semaoune,council,commune,G0011,,pending,,,,,Commune in Bejaia Wilaya,008034
+G0329,Sidi Aich,council,commune,G0011,,pending,,,,,Commune in Bejaia Wilaya,008035
+G0330,Sidi Ayad,council,commune,G0011,,pending,,,,,Commune in Bejaia Wilaya,008036
+G0331,Sidi Said,council,commune,G0011,,pending,,,,,Commune in Bejaia Wilaya,008037
+G0332,Souk El Thenine,council,commune,G0011,,pending,,,,,Commune in Bejaia Wilaya,008038
+G0333,Souk Oufella,council,commune,G0011,,pending,,,,,Commune in Bejaia Wilaya,008039
+G0334,Tala Hamza,council,commune,G0011,,pending,,,,,Commune in Bejaia Wilaya,008040
+G0335,Tamokra,council,commune,G0011,,pending,,,,,Commune in Bejaia Wilaya,008041
+G0336,Tamridjet,council,commune,G0011,,pending,,,,,Commune in Bejaia Wilaya,008042
+G0337,Taourirt Ighil,council,commune,G0011,,pending,,,,,Commune in Bejaia Wilaya,008043
+G0338,Taskriout,council,commune,G0011,,pending,,,,,Commune in Bejaia Wilaya,008044
+G0339,Tazmalt,council,commune,G0011,,pending,,,,,Commune in Bejaia Wilaya,008045
+G0340,Tibane,council,commune,G0011,,pending,,,,,Commune in Bejaia Wilaya,008046
+G0341,Tichi,council,commune,G0011,,pending,,,,,Commune in Bejaia Wilaya,008047
+G0342,Tifra,council,commune,G0011,,pending,,,,,Commune in Bejaia Wilaya,008048
+G0343,Timzrit,council,commune,G0011,,pending,,,,,Commune in Bejaia Wilaya,008049
+G0344,Tinebdar,council,commune,G0011,,pending,,,,,Commune in Bejaia Wilaya,008050
+G0345,Tizi N'Berber,council,commune,G0011,,pending,,,,,Commune in Bejaia Wilaya,008051
+G0346,Toudja,council,commune,G0011,,pending,,,,,Commune in Bejaia Wilaya,008052
+G0347,Ain Naga,council,commune,G0012,,pending,,,,,Commune in Biskra Wilaya,009001
+G0348,Ain Zaatout,council,commune,G0012,,pending,,,,,Commune in Biskra Wilaya,009002
+G0349,Besbes,council,commune,G0012,,pending,,,,,Commune in Biskra Wilaya,009003
+G0350,Biskra,council,commune,G0012,,pending,,,,,Commune in Biskra Wilaya,009004
+G0351,Bordj Ben Azzouz,council,commune,G0012,,pending,,,,,Commune in Biskra Wilaya,009005
+G0352,Bouchagroun,council,commune,G0012,,pending,,,,,Commune in Biskra Wilaya,009006
+G0353,Branis,council,commune,G0012,,pending,,,,,Commune in Biskra Wilaya,009007
+G0354,Chetma,council,commune,G0012,,pending,,,,,Commune in Biskra Wilaya,009008
+G0355,Djemorah,council,commune,G0012,,pending,,,,,Commune in Biskra Wilaya,009009
+G0356,Doucen,council,commune,G0012,,pending,,,,,Commune in Biskra Wilaya,009010
+G0357,Ech Chaiba,council,commune,G0012,,pending,,,,,Commune in Biskra Wilaya,009011
+G0358,El Feidh,council,commune,G0012,,pending,,,,,Commune in Biskra Wilaya,009012
+G0359,El Ghrous,council,commune,G0012,,pending,,,,,Commune in Biskra Wilaya,009013
+G0360,El Hadjeb,council,commune,G0012,,pending,,,,,Commune in Biskra Wilaya,009014
+G0361,El Haouch,council,commune,G0012,,pending,,,,,Commune in Biskra Wilaya,009015
+G0362,El Kantara,council,commune,G0012,,pending,,,,,Commune in Biskra Wilaya,009016
+G0363,El Outaya,council,commune,G0012,,pending,,,,,Commune in Biskra Wilaya,009017
+G0364,Foughala,council,commune,G0012,,pending,,,,,Commune in Biskra Wilaya,009018
+G0365,Khangat Sidi Nadji,council,commune,G0012,,pending,,,,,Commune in Biskra Wilaya,009019
+G0366,Lichana,council,commune,G0012,,pending,,,,,Commune in Biskra Wilaya,009020
+G0367,Lioua,council,commune,G0012,,pending,,,,,Commune in Biskra Wilaya,009021
+G0368,M'Chouneche,council,commune,G0012,,pending,,,,,Commune in Biskra Wilaya,009022
+G0369,M'Ziraa,council,commune,G0012,,pending,,,,,Commune in Biskra Wilaya,009023
+G0370,Mekhadma,council,commune,G0012,,pending,,,,,Commune in Biskra Wilaya,009024
+G0371,Mlili,council,commune,G0012,,pending,,,,,Commune in Biskra Wilaya,009025
+G0372,Oughlal,council,commune,G0012,,pending,,,,,Commune in Biskra Wilaya,009026
+G0373,Ouled Djellal,council,commune,G0012,,pending,,,,,Commune in Biskra Wilaya,009027
+G0374,Oumache,council,commune,G0012,,pending,,,,,Commune in Biskra Wilaya,009028
+G0375,Ras El Miaad,council,commune,G0012,,pending,,,,,Commune in Biskra Wilaya,009029
+G0376,Sidi Khaled,council,commune,G0012,,pending,,,,,Commune in Biskra Wilaya,009030
+G0377,Sidi Okba,council,commune,G0012,,pending,,,,,Commune in Biskra Wilaya,009031
+G0378,Tolga,council,commune,G0012,,pending,,,,,Commune in Biskra Wilaya,009032
+G0379,Zeribet El Oued,council,commune,G0012,,pending,,,,,Commune in Biskra Wilaya,009033
+G0380,Ain Romana,council,commune,G0013,,pending,,,,,Commune in Blida Wilaya,010001
+G0381,Ben Khelil,council,commune,G0013,,pending,,,,,Commune in Blida Wilaya,010002
+G0382,Beni Mered,council,commune,G0013,,pending,,,,,Commune in Blida Wilaya,010003
+G0383,Beni Tamou,council,commune,G0013,,pending,,,,,Commune in Blida Wilaya,010004
+G0384,Blida,council,commune,G0013,,pending,,,,,Commune in Blida Wilaya,010005
+G0385,Bouarfa,council,commune,G0013,,pending,,,,,Commune in Blida Wilaya,010006
+G0386,Boufarik,council,commune,G0013,,pending,,,,,Commune in Blida Wilaya,010007
+G0387,Bougara,council,commune,G0013,,pending,,,,,Commune in Blida Wilaya,010008
+G0388,Bouinan,council,commune,G0013,,pending,,,,,Commune in Blida Wilaya,010009
+G0389,Chebli,council,commune,G0013,,pending,,,,,Commune in Blida Wilaya,010010
+G0390,Chiffa,council,commune,G0013,,pending,,,,,Commune in Blida Wilaya,010011
+G0391,Chrea,council,commune,G0013,,pending,,,,,Commune in Blida Wilaya,010012
+G0392,Djebabra,council,commune,G0013,,pending,,,,,Commune in Blida Wilaya,010013
+G0393,El Affroun,council,commune,G0013,,pending,,,,,Commune in Blida Wilaya,010014
+G0394,Guerrouaou,council,commune,G0013,,pending,,,,,Commune in Blida Wilaya,010015
+G0395,Hammam Melouane,council,commune,G0013,,pending,,,,,Commune in Blida Wilaya,010016
+G0396,Larbaa,council,commune,G0013,,pending,,,,,Commune in Blida Wilaya,010017
+G0397,Meftah,council,commune,G0013,,pending,,,,,Commune in Blida Wilaya,010018
+G0398,Mouzaia,council,commune,G0013,,pending,,,,,Commune in Blida Wilaya,010019
+G0399,Oued Djer,council,commune,G0013,,pending,,,,,Commune in Blida Wilaya,010020
+G0400,Oued El Alleug,council,commune,G0013,,pending,,,,,Commune in Blida Wilaya,010021
+G0401,Ouled Slama,council,commune,G0013,,pending,,,,,Commune in Blida Wilaya,010022
+G0402,Ouled Yaich,council,commune,G0013,,pending,,,,,Commune in Blida Wilaya,010023
+G0403,Souhane,council,commune,G0013,,pending,,,,,Commune in Blida Wilaya,010024
+G0404,Soumaa,council,commune,G0013,,pending,,,,,Commune in Blida Wilaya,010025
+G0405,Ain Taghrout,council,commune,G0014,,pending,,,,,Commune in Bordj Bou Arrer Wilaya,011001
+G0406,Ain Tassera,council,commune,G0014,,pending,,,,,Commune in Bordj Bou Arrer Wilaya,011002
+G0407,Belimour,council,commune,G0014,,pending,,,,,Commune in Bordj Bou Arrer Wilaya,011003
+G0408,Bendaoud,council,commune,G0014,,pending,,,,,Commune in Bordj Bou Arrer Wilaya,011004
+G0409,Bir Kasdali,council,commune,G0014,,pending,,,,,Commune in Bordj Bou Arrer Wilaya,011005
+G0410,Bordj Bou Arreridj,council,commune,G0014,,pending,,,,,Commune in Bordj Bou Arrer Wilaya,011006
+G0411,Bordj Ghdir,council,commune,G0014,,pending,,,,,Commune in Bordj Bou Arrer Wilaya,011007
+G0412,Bordj Zemoura,council,commune,G0014,,pending,,,,,Commune in Bordj Bou Arrer Wilaya,011008
+G0413,Colla,council,commune,G0014,,pending,,,,,Commune in Bordj Bou Arrer Wilaya,011009
+G0414,Djaafra,council,commune,G0014,,pending,,,,,Commune in Bordj Bou Arrer Wilaya,011010
+G0415,El Achir,council,commune,G0014,,pending,,,,,Commune in Bordj Bou Arrer Wilaya,011011
+G0416,El Anseur,council,commune,G0014,,pending,,,,,Commune in Bordj Bou Arrer Wilaya,011012
+G0417,El Euch,council,commune,G0014,,pending,,,,,Commune in Bordj Bou Arrer Wilaya,011013
+G0418,El Hammadia,council,commune,G0014,,pending,,,,,Commune in Bordj Bou Arrer Wilaya,011014
+G0419,El Main,council,commune,G0014,,pending,,,,,Commune in Bordj Bou Arrer Wilaya,011015
+G0420,El M'Hir,council,commune,G0014,,pending,,,,,Commune in Bordj Bou Arrer Wilaya,011016
+G0421,Ghilassa,council,commune,G0014,,pending,,,,,Commune in Bordj Bou Arrer Wilaya,011017
+G0422,Haraza,council,commune,G0014,,pending,,,,,Commune in Bordj Bou Arrer Wilaya,011018
+G0423,Hasnaoua,council,commune,G0014,,pending,,,,,Commune in Bordj Bou Arrer Wilaya,011019
+G0424,Khelil,council,commune,G0014,,pending,,,,,Commune in Bordj Bou Arrer Wilaya,011020
+G0425,Ksour,council,commune,G0014,,pending,,,,,Commune in Bordj Bou Arrer Wilaya,011021
+G0426,Mansoura,council,commune,G0014,,pending,,,,,Commune in Bordj Bou Arrer Wilaya,011022
+G0427,Medjana,council,commune,G0014,,pending,,,,,Commune in Bordj Bou Arrer Wilaya,011023
+G0428,Ouled Brahem,council,commune,G0014,,pending,,,,,Commune in Bordj Bou Arrer Wilaya,011024
+G0429,Ouled Dahmane,council,commune,G0014,,pending,,,,,Commune in Bordj Bou Arrer Wilaya,011025
+G0430,Ouled Sidi Brahim,council,commune,G0014,,pending,,,,,Commune in Bordj Bou Arrer Wilaya,011026
+G0431,Rabta,council,commune,G0014,,pending,,,,,Commune in Bordj Bou Arrer Wilaya,011027
+G0432,Ras El Oued,council,commune,G0014,,pending,,,,,Commune in Bordj Bou Arrer Wilaya,011028
+G0433,Sidi Embarek,council,commune,G0014,,pending,,,,,Commune in Bordj Bou Arrer Wilaya,011029
+G0434,Tafreg,council,commune,G0014,,pending,,,,,Commune in Bordj Bou Arrer Wilaya,011030
+G0435,Taglait,council,commune,G0014,,pending,,,,,Commune in Bordj Bou Arrer Wilaya,011031
+G0436,Tesmart,council,commune,G0014,,pending,,,,,Commune in Bordj Bou Arrer Wilaya,011032
+G0437,Theniet El Anseur,council,commune,G0014,,pending,,,,,Commune in Bordj Bou Arrer Wilaya,011033
+G0438,Tixter,council,commune,G0014,,pending,,,,,Commune in Bordj Bou Arrer Wilaya,011034
+G0439,Aghbalou,council,commune,G0015,,pending,,,,,Commune in Bouira Wilaya,012001
+G0440,Ahl El Ksar,council,commune,G0015,,pending,,,,,Commune in Bouira Wilaya,012002
+G0441,Ain Bessam,council,commune,G0015,,pending,,,,,Commune in Bouira Wilaya,012003
+G0442,Ain El Hadjar,council,commune,G0015,,pending,,,,,Commune in Bouira Wilaya,012004
+G0443,Ain Laloui,council,commune,G0015,,pending,,,,,Commune in Bouira Wilaya,012005
+G0444,Ain Turk,council,commune,G0015,,pending,,,,,Commune in Bouira Wilaya,012006
+G0445,Ait Laaziz,council,commune,G0015,,pending,,,,,Commune in Bouira Wilaya,012007
+G0446,Aomar,council,commune,G0015,,pending,,,,,Commune in Bouira Wilaya,012008
+G0447,Ath Mansour,council,commune,G0015,,pending,,,,,Commune in Bouira Wilaya,012009
+G0448,Bechloul,council,commune,G0015,,pending,,,,,Commune in Bouira Wilaya,012010
+G0449,Bir Ghbalou,council,commune,G0015,,pending,,,,,Commune in Bouira Wilaya,012011
+G0450,Bordj Oukhriss,council,commune,G0015,,pending,,,,,Commune in Bouira Wilaya,012012
+G0451,Bouderbala,council,commune,G0015,,pending,,,,,Commune in Bouira Wilaya,012013
+G0452,Bouira,council,commune,G0015,,pending,,,,,Commune in Bouira Wilaya,012014
+G0453,Boukram,council,commune,G0015,,pending,,,,,Commune in Bouira Wilaya,012015
+G0454,Chorfa,council,commune,G0015,,pending,,,,,Commune in Bouira Wilaya,012016
+G0455,Dechmia,council,commune,G0015,,pending,,,,,Commune in Bouira Wilaya,012017
+G0456,Dirah,council,commune,G0015,,pending,,,,,Commune in Bouira Wilaya,012018
+G0457,Djebahia,council,commune,G0015,,pending,,,,,Commune in Bouira Wilaya,012019
+G0458,El Adjiba,council,commune,G0015,,pending,,,,,Commune in Bouira Wilaya,012020
+G0459,El Asnam,council,commune,G0015,,pending,,,,,Commune in Bouira Wilaya,012021
+G0460,El Hachimia,council,commune,G0015,,pending,,,,,Commune in Bouira Wilaya,012022
+G0461,El Hakimia,council,commune,G0015,,pending,,,,,Commune in Bouira Wilaya,012023
+G0462,El Khabouzia,council,commune,G0015,,pending,,,,,Commune in Bouira Wilaya,012024
+G0463,El Mokrani,council,commune,G0015,,pending,,,,,Commune in Bouira Wilaya,012025
+G0464,Guerrouma,council,commune,G0015,,pending,,,,,Commune in Bouira Wilaya,012026
+G0465,Hadjera Zerga,council,commune,G0015,,pending,,,,,Commune in Bouira Wilaya,012027
+G0466,Haizer,council,commune,G0015,,pending,,,,,Commune in Bouira Wilaya,012028
+G0467,Hanif,council,commune,G0015,,pending,,,,,Commune in Bouira Wilaya,012029
+G0468,Kadiria,council,commune,G0015,,pending,,,,,Commune in Bouira Wilaya,012030
+G0469,Lakhdaria,council,commune,G0015,,pending,,,,,Commune in Bouira Wilaya,012031
+G0470,Maala,council,commune,G0015,,pending,,,,,Commune in Bouira Wilaya,012032
+G0471,Maamora,council,commune,G0015,,pending,,,,,Commune in Bouira Wilaya,012033
+G0472,M'Chedallah,council,commune,G0015,,pending,,,,,Commune in Bouira Wilaya,012034
+G0473,Mezdour,council,commune,G0015,,pending,,,,,Commune in Bouira Wilaya,012035
+G0474,Oued El Berdi,council,commune,G0015,,pending,,,,,Commune in Bouira Wilaya,012036
+G0475,Ouled Rached,council,commune,G0015,,pending,,,,,Commune in Bouira Wilaya,012037
+G0476,Raouraoua,council,commune,G0015,,pending,,,,,Commune in Bouira Wilaya,012038
+G0477,Ridane,council,commune,G0015,,pending,,,,,Commune in Bouira Wilaya,012039
+G0478,Saharidj,council,commune,G0015,,pending,,,,,Commune in Bouira Wilaya,012040
+G0479,Souk El Khemis,council,commune,G0015,,pending,,,,,Commune in Bouira Wilaya,012041
+G0480,Sour El Ghozlane,council,commune,G0015,,pending,,,,,Commune in Bouira Wilaya,012042
+G0481,Taghzout,council,commune,G0015,,pending,,,,,Commune in Bouira Wilaya,012043
+G0482,Taguedit,council,commune,G0015,,pending,,,,,Commune in Bouira Wilaya,012044
+G0483,Zbarbar,council,commune,G0015,,pending,,,,,Commune in Bouira Wilaya,012045
+G0484,Afir,council,commune,G0016,,pending,,,,,Commune in Boumerdes Wilaya,013001
+G0485,Ammal,council,commune,G0016,,pending,,,,,Commune in Boumerdes Wilaya,013002
+G0486,Baghlia,council,commune,G0016,,pending,,,,,Commune in Boumerdes Wilaya,013003
+G0487,Ben Choud,council,commune,G0016,,pending,,,,,Commune in Boumerdes Wilaya,013004
+G0488,Beni Amrane,council,commune,G0016,,pending,,,,,Commune in Boumerdes Wilaya,013005
+G0489,Bordj Menaiel,council,commune,G0016,,pending,,,,,Commune in Boumerdes Wilaya,013006
+G0490,Boudouaou,council,commune,G0016,,pending,,,,,Commune in Boumerdes Wilaya,013007
+G0491,Boudouaou El Bahri,council,commune,G0016,,pending,,,,,Commune in Boumerdes Wilaya,013008
+G0492,Boumerdes,council,commune,G0016,,pending,,,,,Commune in Boumerdes Wilaya,013009
+G0493,Bouzegza Keddara,council,commune,G0016,,pending,,,,,Commune in Boumerdes Wilaya,013010
+G0494,Chabet El Ameur,council,commune,G0016,,pending,,,,,Commune in Boumerdes Wilaya,013011
+G0495,Corso,council,commune,G0016,,pending,,,,,Commune in Boumerdes Wilaya,013012
+G0496,Dellys,council,commune,G0016,,pending,,,,,Commune in Boumerdes Wilaya,013013
+G0497,Djinet,council,commune,G0016,,pending,,,,,Commune in Boumerdes Wilaya,013014
+G0498,El Kharrouba,council,commune,G0016,,pending,,,,,Commune in Boumerdes Wilaya,013015
+G0499,Hammedi,council,commune,G0016,,pending,,,,,Commune in Boumerdes Wilaya,013016
+G0500,Isser,council,commune,G0016,,pending,,,,,Commune in Boumerdes Wilaya,013017
+G0501,Khemis El Khechna,council,commune,G0016,,pending,,,,,Commune in Boumerdes Wilaya,013018
+G0502,Laghata,council,commune,G0016,,pending,,,,,Commune in Boumerdes Wilaya,013019
+G0503,Larbatache,council,commune,G0016,,pending,,,,,Commune in Boumerdes Wilaya,013020
+G0504,Naciria,council,commune,G0016,,pending,,,,,Commune in Boumerdes Wilaya,013021
+G0505,Ouled Aissa,council,commune,G0016,,pending,,,,,Commune in Boumerdes Wilaya,013022
+G0506,Ouled Hadjadj,council,commune,G0016,,pending,,,,,Commune in Boumerdes Wilaya,013023
+G0507,Ouled Moussa,council,commune,G0016,,pending,,,,,Commune in Boumerdes Wilaya,013024
+G0508,Si Mustapha,council,commune,G0016,,pending,,,,,Commune in Boumerdes Wilaya,013025
+G0509,Sidi Daoud,council,commune,G0016,,pending,,,,,Commune in Boumerdes Wilaya,013026
+G0510,Souk El Had,council,commune,G0016,,pending,,,,,Commune in Boumerdes Wilaya,013027
+G0511,Taourga,council,commune,G0016,,pending,,,,,Commune in Boumerdes Wilaya,013028
+G0512,Thenia,council,commune,G0016,,pending,,,,,Commune in Boumerdes Wilaya,013029
+G0513,Tidjelabine,council,commune,G0016,,pending,,,,,Commune in Boumerdes Wilaya,013030
+G0514,Timezrit,council,commune,G0016,,pending,,,,,Commune in Boumerdes Wilaya,013031
+G0515,Zemmouri,council,commune,G0016,,pending,,,,,Commune in Boumerdes Wilaya,013032
+G0516,Abou El Hassen,council,commune,G0017,,pending,,,,,Commune in Chlef Wilaya,014001
+G0517,Ain Merane,council,commune,G0017,,pending,,,,,Commune in Chlef Wilaya,014002
+G0518,Benairia,council,commune,G0017,,pending,,,,,Commune in Chlef Wilaya,014003
+G0519,Beni Bouattab,council,commune,G0017,,pending,,,,,Commune in Chlef Wilaya,014004
+G0520,Beni Haoua,council,commune,G0017,,pending,,,,,Commune in Chlef Wilaya,014005
+G0521,Beni Rached,council,commune,G0017,,pending,,,,,Commune in Chlef Wilaya,014006
+G0522,Boukadir,council,commune,G0017,,pending,,,,,Commune in Chlef Wilaya,014007
+G0523,Bouzeghaia,council,commune,G0017,,pending,,,,,Commune in Chlef Wilaya,014008
+G0524,Breira,council,commune,G0017,,pending,,,,,Commune in Chlef Wilaya,014009
+G0525,Chettia,council,commune,G0017,,pending,,,,,Commune in Chlef Wilaya,014010
+G0526,Chlef,council,commune,G0017,,pending,,,,,Commune in Chlef Wilaya,014011
+G0527,Dahra,council,commune,G0017,,pending,,,,,Commune in Chlef Wilaya,014012
+G0528,El Hadjadj,council,commune,G0017,,pending,,,,,Commune in Chlef Wilaya,014013
+G0529,El Karimia,council,commune,G0017,,pending,,,,,Commune in Chlef Wilaya,014014
+G0530,El Marsa,council,commune,G0017,,pending,,,,,Commune in Chlef Wilaya,014015
+G0531,Harchoun,council,commune,G0017,,pending,,,,,Commune in Chlef Wilaya,014016
+G0532,Herenfa,council,commune,G0017,,pending,,,,,Commune in Chlef Wilaya,014017
+G0533,Labiodh Medjadja,council,commune,G0017,,pending,,,,,Commune in Chlef Wilaya,014018
+G0534,Moussadek,council,commune,G0017,,pending,,,,,Commune in Chlef Wilaya,014019
+G0535,Oued Fodda,council,commune,G0017,,pending,,,,,Commune in Chlef Wilaya,014020
+G0536,Oued Ghoussine,council,commune,G0017,,pending,,,,,Commune in Chlef Wilaya,014021
+G0537,Oued Sly,council,commune,G0017,,pending,,,,,Commune in Chlef Wilaya,014022
+G0538,Ouled Abbes,council,commune,G0017,,pending,,,,,Commune in Chlef Wilaya,014023
+G0539,Ouled Ben Abdelkader,council,commune,G0017,,pending,,,,,Commune in Chlef Wilaya,014024
+G0540,Ouled Fares,council,commune,G0017,,pending,,,,,Commune in Chlef Wilaya,014025
+G0541,Oum Drou,council,commune,G0017,,pending,,,,,Commune in Chlef Wilaya,014026
+G0542,Sendjas,council,commune,G0017,,pending,,,,,Commune in Chlef Wilaya,014027
+G0543,Sidi Abderrahmane,council,commune,G0017,,pending,,,,,Commune in Chlef Wilaya,014028
+G0544,Sidi Akkacha,council,commune,G0017,,pending,,,,,Commune in Chlef Wilaya,014029
+G0545,Sobha,council,commune,G0017,,pending,,,,,Commune in Chlef Wilaya,014030
+G0546,Tadjena,council,commune,G0017,,pending,,,,,Commune in Chlef Wilaya,014031
+G0547,Talassa,council,commune,G0017,,pending,,,,,Commune in Chlef Wilaya,014032
+G0548,Taougrite,council,commune,G0017,,pending,,,,,Commune in Chlef Wilaya,014033
+G0549,Tenes,council,commune,G0017,,pending,,,,,Commune in Chlef Wilaya,014034
+G0550,Zeboudja,council,commune,G0017,,pending,,,,,Commune in Chlef Wilaya,014035
+G0551,Ain Abid,council,commune,G0018,,pending,,,,,Commune in Constantine Wilaya,015001
+G0552,Ain Smara,council,commune,G0018,,pending,,,,,Commune in Constantine Wilaya,015002
+G0553,Ben Badis,council,commune,G0018,,pending,,,,,Commune in Constantine Wilaya,015003
+G0554,Beni Hamidene,council,commune,G0018,,pending,,,,,Commune in Constantine Wilaya,015004
+G0555,Constantine,council,commune,G0018,,done,R001,2026-11-07,1,1,Sampled Constantine commune; home constituency of MP Lakhdar Benkhellaf (A0010); no APC municipal wealth tax motions.,015005
+G0556,Didouche Mourad,council,commune,G0018,,pending,,,,,Commune in Constantine Wilaya,015006
+G0557,El Khroub,council,commune,G0018,,pending,,,,,Commune in Constantine Wilaya,015007
+G0558,Hamma Bouziane,council,commune,G0018,,pending,,,,,Commune in Constantine Wilaya,015008
+G0559,Ibn Ziad,council,commune,G0018,,pending,,,,,Commune in Constantine Wilaya,015009
+G0560,Mesaoud Boudjeriou,council,commune,G0018,,pending,,,,,Commune in Constantine Wilaya,015010
+G0561,Ouled Rahmoun,council,commune,G0018,,pending,,,,,Commune in Constantine Wilaya,015011
+G0562,Zighoud Youcef,council,commune,G0018,,pending,,,,,Commune in Constantine Wilaya,015012
+G0563,Ain Chouhada,council,commune,G0019,,pending,,,,,Commune in Djelfa Wilaya,016001
+G0564,Ain El Ibel,council,commune,G0019,,pending,,,,,Commune in Djelfa Wilaya,016002
+G0565,Ain Fekka,council,commune,G0019,,pending,,,,,Commune in Djelfa Wilaya,016003
+G0566,Ain Maabed,council,commune,G0019,,pending,,,,,Commune in Djelfa Wilaya,016004
+G0567,Ain Ouessara,council,commune,G0019,,pending,,,,,Commune in Djelfa Wilaya,016005
+G0568,Amoura,council,commune,G0019,,pending,,,,,Commune in Djelfa Wilaya,016006
+G0569,Benhar,council,commune,G0019,,pending,,,,,Commune in Djelfa Wilaya,016007
+G0570,Beni Yagoub,council,commune,G0019,,pending,,,,,Commune in Djelfa Wilaya,016008
+G0571,Birine,council,commune,G0019,,pending,,,,,Commune in Djelfa Wilaya,016009
+G0572,Bouira Lahdab,council,commune,G0019,,pending,,,,,Commune in Djelfa Wilaya,016010
+G0573,Charef,council,commune,G0019,,pending,,,,,Commune in Djelfa Wilaya,016011
+G0574,Dar Chioukh,council,commune,G0019,,pending,,,,,Commune in Djelfa Wilaya,016012
+G0575,Deldoul,council,commune,G0019,,pending,,,,,Commune in Djelfa Wilaya,016013
+G0576,Djelfa,council,commune,G0019,,pending,,,,,Commune in Djelfa Wilaya,016014
+G0577,Douis,council,commune,G0019,,pending,,,,,Commune in Djelfa Wilaya,016015
+G0578,El Gueddid,council,commune,G0019,,pending,,,,,Commune in Djelfa Wilaya,016016
+G0579,El Idrissia,council,commune,G0019,,pending,,,,,Commune in Djelfa Wilaya,016017
+G0580,El Khemis,council,commune,G0019,,pending,,,,,Commune in Djelfa Wilaya,016018
+G0581,Feidh El Botma,council,commune,G0019,,pending,,,,,Commune in Djelfa Wilaya,016019
+G0582,Guernini,council,commune,G0019,,pending,,,,,Commune in Djelfa Wilaya,016020
+G0583,Guettara,council,commune,G0019,,pending,,,,,Commune in Djelfa Wilaya,016021
+G0584,Had Sahary,council,commune,G0019,,pending,,,,,Commune in Djelfa Wilaya,016022
+G0585,Hassi Bahbah,council,commune,G0019,,pending,,,,,Commune in Djelfa Wilaya,016023
+G0586,Hassi El Euch,council,commune,G0019,,pending,,,,,Commune in Djelfa Wilaya,016024
+G0587,Hassi Fdoul,council,commune,G0019,,pending,,,,,Commune in Djelfa Wilaya,016025
+G0588,Messaad,council,commune,G0019,,pending,,,,,Commune in Djelfa Wilaya,016026
+G0589,Mliliha,council,commune,G0019,,pending,,,,,Commune in Djelfa Wilaya,016027
+G0590,Mouadjebar,council,commune,G0019,,pending,,,,,Commune in Djelfa Wilaya,016028
+G0591,Oum Laadham,council,commune,G0019,,pending,,,,,Commune in Djelfa Wilaya,016029
+G0592,Sed Rahal,council,commune,G0019,,pending,,,,,Commune in Djelfa Wilaya,016030
+G0593,Selmana,council,commune,G0019,,pending,,,,,Commune in Djelfa Wilaya,016031
+G0594,Sidi Baizid,council,commune,G0019,,pending,,,,,Commune in Djelfa Wilaya,016032
+G0595,Sidi Laadjel,council,commune,G0019,,pending,,,,,Commune in Djelfa Wilaya,016033
+G0596,Tadmit,council,commune,G0019,,pending,,,,,Commune in Djelfa Wilaya,016034
+G0597,Zaafrane,council,commune,G0019,,pending,,,,,Commune in Djelfa Wilaya,016035
+G0598,Zakkar,council,commune,G0019,,pending,,,,,Commune in Djelfa Wilaya,016036
+G0599,Ain El Orak,council,commune,G0020,,pending,,,,,Commune in El Bayadh Wilaya,017001
+G0600,Arbaouat,council,commune,G0020,,pending,,,,,Commune in El Bayadh Wilaya,017002
+G0601,Bougtoub,council,commune,G0020,,pending,,,,,Commune in El Bayadh Wilaya,017003
+G0602,Boussemghoun,council,commune,G0020,,pending,,,,,Commune in El Bayadh Wilaya,017004
+G0603,Brezina,council,commune,G0020,,pending,,,,,Commune in El Bayadh Wilaya,017005
+G0604,Cheguig,council,commune,G0020,,pending,,,,,Commune in El Bayadh Wilaya,017006
+G0605,Chellala,council,commune,G0020,,pending,,,,,Commune in El Bayadh Wilaya,017007
+G0606,El Abiodh Sidi Cheikh,council,commune,G0020,,pending,,,,,Commune in El Bayadh Wilaya,017008
+G0607,El Bayadh,council,commune,G0020,,pending,,,,,Commune in El Bayadh Wilaya,017009
+G0608,El Bnoud,council,commune,G0020,,pending,,,,,Commune in El Bayadh Wilaya,017010
+G0609,El Kheither,council,commune,G0020,,pending,,,,,Commune in El Bayadh Wilaya,017011
+G0610,El Mehara,council,commune,G0020,,pending,,,,,Commune in El Bayadh Wilaya,017012
+G0611,Ghassoul,council,commune,G0020,,pending,,,,,Commune in El Bayadh Wilaya,017013
+G0612,Hadj Mechri Boualem,council,commune,G0020,,pending,,,,,Commune in El Bayadh Wilaya,017014
+G0613,Kef El Ahmar,council,commune,G0020,,pending,,,,,Commune in El Bayadh Wilaya,017015
+G0614,Krakda,council,commune,G0020,,pending,,,,,Commune in El Bayadh Wilaya,017016
+G0615,Rogassa,council,commune,G0020,,pending,,,,,Commune in El Bayadh Wilaya,017017
+G0616,Sidi Ameur,council,commune,G0020,,pending,,,,,Commune in El Bayadh Wilaya,017018
+G0617,Sidi Slimane,council,commune,G0020,,pending,,,,,Commune in El Bayadh Wilaya,017019
+G0618,Sidi Tifour,council,commune,G0020,,pending,,,,,Commune in El Bayadh Wilaya,017020
+G0619,Stitten,council,commune,G0020,,pending,,,,,Commune in El Bayadh Wilaya,017021
+G0620,Tousmouline,council,commune,G0020,,pending,,,,,Commune in El Bayadh Wilaya,017022
+G0621,Bayadha,council,commune,G0021,,pending,,,,,Commune in El Oued Wilaya,018001
+G0622,Beni Guecha,council,commune,G0021,,pending,,,,,Commune in El Oued Wilaya,018002
+G0623,Djamaa,council,commune,G0021,,pending,,,,,Commune in El Oued Wilaya,018003
+G0624,Djebila,council,commune,G0021,,pending,,,,,Commune in El Oued Wilaya,018004
+G0625,Douar El Ma,council,commune,G0021,,pending,,,,,Commune in El Oued Wilaya,018005
+G0626,El M'Ghair,council,commune,G0021,,pending,,,,,Commune in El Oued Wilaya,018006
+G0627,El Ogla,council,commune,G0021,,pending,,,,,Commune in El Oued Wilaya,018007
+G0628,El Oued,council,commune,G0021,,pending,,,,,Commune in El Oued Wilaya,018008
+G0629,Guemar,council,commune,G0021,,pending,,,,,Commune in El Oued Wilaya,018009
+G0630,Hamraia,council,commune,G0021,,pending,,,,,Commune in El Oued Wilaya,018010
+G0631,Hassani Abdelkrim,council,commune,G0021,,pending,,,,,Commune in El Oued Wilaya,018011
+G0632,Hassi Khelifa,council,commune,G0021,,pending,,,,,Commune in El Oued Wilaya,018012
+G0633,Kouinine,council,commune,G0021,,pending,,,,,Commune in El Oued Wilaya,018013
+G0634,Magrane,council,commune,G0021,,pending,,,,,Commune in El Oued Wilaya,018014
+G0635,Mih Ouensa,council,commune,G0021,,pending,,,,,Commune in El Oued Wilaya,018015
+G0636,M'Rara,council,commune,G0021,,pending,,,,,Commune in El Oued Wilaya,018016
+G0637,Nakhla,council,commune,G0021,,pending,,,,,Commune in El Oued Wilaya,018017
+G0638,Oued El Alenda,council,commune,G0021,,pending,,,,,Commune in El Oued Wilaya,018018
+G0639,Oum Tiour,council,commune,G0021,,pending,,,,,Commune in El Oued Wilaya,018019
+G0640,Ourmes,council,commune,G0021,,pending,,,,,Commune in El Oued Wilaya,018020
+G0641,Reguiba,council,commune,G0021,,pending,,,,,Commune in El Oued Wilaya,018021
+G0642,Robbah,council,commune,G0021,,pending,,,,,Commune in El Oued Wilaya,018022
+G0643,Sidi Amrane,council,commune,G0021,,pending,,,,,Commune in El Oued Wilaya,018023
+G0644,Sidi Aoun,council,commune,G0021,,pending,,,,,Commune in El Oued Wilaya,018024
+G0645,Sidi Khellil,council,commune,G0021,,pending,,,,,Commune in El Oued Wilaya,018025
+G0646,Still,council,commune,G0021,,pending,,,,,Commune in El Oued Wilaya,018026
+G0647,Taghzout,council,commune,G0021,,pending,,,,,Commune in El Oued Wilaya,018027
+G0648,Taleb Larbi,council,commune,G0021,,pending,,,,,Commune in El Oued Wilaya,018028
+G0649,Tendla,council,commune,G0021,,pending,,,,,Commune in El Oued Wilaya,018029
+G0650,Trifaou,council,commune,G0021,,pending,,,,,Commune in El Oued Wilaya,018030
+G0651,Ain El Assel,council,commune,G0022,,pending,,,,,Commune in El-Tarf Wilaya,019001
+G0652,Ain Kerma,council,commune,G0022,,pending,,,,,Commune in El-Tarf Wilaya,019002
+G0653,Asfour,council,commune,G0022,,pending,,,,,Commune in El-Tarf Wilaya,019003
+G0654,Ben M'Hidi,council,commune,G0022,,pending,,,,,Commune in El-Tarf Wilaya,019004
+G0655,Berrihane,council,commune,G0022,,pending,,,,,Commune in El-Tarf Wilaya,019005
+G0656,Besbes,council,commune,G0022,,pending,,,,,Commune in El-Tarf Wilaya,019006
+G0657,Bougous,council,commune,G0022,,pending,,,,,Commune in El-Tarf Wilaya,019007
+G0658,Bouhadjar,council,commune,G0022,,pending,,,,,Commune in El-Tarf Wilaya,019008
+G0659,Bouteldja,council,commune,G0022,,pending,,,,,Commune in El-Tarf Wilaya,019009
+G0660,Chbaita Mokhtar,council,commune,G0022,,pending,,,,,Commune in El-Tarf Wilaya,019010
+G0661,Chefia,council,commune,G0022,,pending,,,,,Commune in El-Tarf Wilaya,019011
+G0662,Chihani,council,commune,G0022,,pending,,,,,Commune in El-Tarf Wilaya,019012
+G0663,Drean,council,commune,G0022,,pending,,,,,Commune in El-Tarf Wilaya,019013
+G0664,Echatt,council,commune,G0022,,pending,,,,,Commune in El-Tarf Wilaya,019014
+G0665,El Aioun,council,commune,G0022,,pending,,,,,Commune in El-Tarf Wilaya,019015
+G0666,El Kala,council,commune,G0022,,pending,,,,,Commune in El-Tarf Wilaya,019016
+G0667,El-Tarf,council,commune,G0022,,pending,,,,,Commune in El-Tarf Wilaya,019017
+G0668,Hammam Beni Salah,council,commune,G0022,,pending,,,,,Commune in El-Tarf Wilaya,019018
+G0669,Lac Des Oiseaux,council,commune,G0022,,pending,,,,,Commune in El-Tarf Wilaya,019019
+G0670,Oued Zitoun,council,commune,G0022,,pending,,,,,Commune in El-Tarf Wilaya,019020
+G0671,Raml Souk,council,commune,G0022,,pending,,,,,Commune in El-Tarf Wilaya,019021
+G0672,Souarekh,council,commune,G0022,,pending,,,,,Commune in El-Tarf Wilaya,019022
+G0673,Zerizer,council,commune,G0022,,pending,,,,,Commune in El-Tarf Wilaya,019023
+G0674,Zitouna,council,commune,G0022,,pending,,,,,Commune in El-Tarf Wilaya,019024
+G0675,Berriane,council,commune,G0023,,pending,,,,,Commune in Ghardaia Wilaya,020001
+G0676,Bounoura,council,commune,G0023,,pending,,,,,Commune in Ghardaia Wilaya,020002
+G0677,Dhayet Bendahoua,council,commune,G0023,,pending,,,,,Commune in Ghardaia Wilaya,020003
+G0678,El Atteuf,council,commune,G0023,,pending,,,,,Commune in Ghardaia Wilaya,020004
+G0679,El Guerrara,council,commune,G0023,,pending,,,,,Commune in Ghardaia Wilaya,020005
+G0680,El Mansoura,council,commune,G0023,,pending,,,,,Commune in Ghardaia Wilaya,020006
+G0681,Ghardaia,council,commune,G0023,,pending,,,,,Commune in Ghardaia Wilaya,020007
+G0682,Golea,council,commune,G0023,,pending,,,,,Commune in Ghardaia Wilaya,020008
+G0683,Hassi El Garaa,council,commune,G0023,,pending,,,,,Commune in Ghardaia Wilaya,020009
+G0684,Hassi Lefhal,council,commune,G0023,,pending,,,,,Commune in Ghardaia Wilaya,020010
+G0685,Metlili,council,commune,G0023,,pending,,,,,Commune in Ghardaia Wilaya,020011
+G0686,Sebseb,council,commune,G0023,,pending,,,,,Commune in Ghardaia Wilaya,020012
+G0687,Zelfana,council,commune,G0023,,pending,,,,,Commune in Ghardaia Wilaya,020013
+G0688,Ain Ben Beida,council,commune,G0024,,pending,,,,,Commune in Guelma Wilaya,021001
+G0689,Ain Larbi,council,commune,G0024,,pending,,,,,Commune in Guelma Wilaya,021002
+G0690,Ain Makhlouf,council,commune,G0024,,pending,,,,,Commune in Guelma Wilaya,021003
+G0691,Ain Reggada,council,commune,G0024,,pending,,,,,Commune in Guelma Wilaya,021004
+G0692,Ain Sandel,council,commune,G0024,,pending,,,,,Commune in Guelma Wilaya,021005
+G0693,Belkheir,council,commune,G0024,,pending,,,,,Commune in Guelma Wilaya,021006
+G0694,Bendjerrah,council,commune,G0024,,pending,,,,,Commune in Guelma Wilaya,021007
+G0695,Beni Mezline,council,commune,G0024,,pending,,,,,Commune in Guelma Wilaya,021008
+G0696,Bordj Sabath,council,commune,G0024,,pending,,,,,Commune in Guelma Wilaya,021009
+G0697,Bouati Mahmoud,council,commune,G0024,,pending,,,,,Commune in Guelma Wilaya,021010
+G0698,Bouchegouf,council,commune,G0024,,pending,,,,,Commune in Guelma Wilaya,021011
+G0699,Bouhachana,council,commune,G0024,,pending,,,,,Commune in Guelma Wilaya,021012
+G0700,Bouhamdane,council,commune,G0024,,pending,,,,,Commune in Guelma Wilaya,021013
+G0701,Boumahra Ahmed,council,commune,G0024,,pending,,,,,Commune in Guelma Wilaya,021014
+G0702,Dahouara,council,commune,G0024,,pending,,,,,Commune in Guelma Wilaya,021015
+G0703,Djeballah Khemissi,council,commune,G0024,,pending,,,,,Commune in Guelma Wilaya,021016
+G0704,El Fedjoudj,council,commune,G0024,,pending,,,,,Commune in Guelma Wilaya,021017
+G0705,Guelaat Bousbaa,council,commune,G0024,,pending,,,,,Commune in Guelma Wilaya,021018
+G0706,Guelma,council,commune,G0024,,pending,,,,,Commune in Guelma Wilaya,021019
+G0707,Hammam Debagh,council,commune,G0024,,pending,,,,,Commune in Guelma Wilaya,021020
+G0708,Hammam N'Bail,council,commune,G0024,,pending,,,,,Commune in Guelma Wilaya,021021
+G0709,Heliopolis,council,commune,G0024,,pending,,,,,Commune in Guelma Wilaya,021022
+G0710,Houari Boumediene,council,commune,G0024,,pending,,,,,Commune in Guelma Wilaya,021023
+G0711,Khezara,council,commune,G0024,,pending,,,,,Commune in Guelma Wilaya,021024
+G0712,Medjez Amar,council,commune,G0024,,pending,,,,,Commune in Guelma Wilaya,021025
+G0713,Medjez Sfa,council,commune,G0024,,pending,,,,,Commune in Guelma Wilaya,021026
+G0714,Nechmaya,council,commune,G0024,,pending,,,,,Commune in Guelma Wilaya,021027
+G0715,Oued Cheham,council,commune,G0024,,pending,,,,,Commune in Guelma Wilaya,021028
+G0716,Oued Fragha,council,commune,G0024,,pending,,,,,Commune in Guelma Wilaya,021029
+G0717,Oued Zenati,council,commune,G0024,,pending,,,,,Commune in Guelma Wilaya,021030
+G0718,Ras El Agba,council,commune,G0024,,pending,,,,,Commune in Guelma Wilaya,021031
+G0719,Roknia,council,commune,G0024,,pending,,,,,Commune in Guelma Wilaya,021032
+G0720,Seliaoua Announa,council,commune,G0024,,pending,,,,,Commune in Guelma Wilaya,021033
+G0721,Tamlouka,council,commune,G0024,,pending,,,,,Commune in Guelma Wilaya,021034
+G0722,Bordj El Haoues,council,commune,G0025,,pending,,,,,Commune in Illizi Wilaya,022001
+G0723,Bordj Omar Driss,council,commune,G0025,,pending,,,,,Commune in Illizi Wilaya,022002
+G0724,Debdeb,council,commune,G0025,,pending,,,,,Commune in Illizi Wilaya,022003
+G0725,Djanet,council,commune,G0025,,pending,,,,,Commune in Illizi Wilaya,022004
+G0726,Illizi,council,commune,G0025,,pending,,,,,Commune in Illizi Wilaya,022005
+G0727,In Amenas,council,commune,G0025,,pending,,,,,Commune in Illizi Wilaya,022006
+G0728,Bordj Taher,council,commune,G0026,,pending,,,,,Commune in Jijel Wilaya,023001
+G0729,Boudria Beni Yadjis,council,commune,G0026,,pending,,,,,Commune in Jijel Wilaya,023002
+G0730,Bouraoui Belhadef,council,commune,G0026,,pending,,,,,Commune in Jijel Wilaya,023003
+G0731,Boussif Ouled Akseur,council,commune,G0026,,pending,,,,,Commune in Jijel Wilaya,023004
+G0732,Chahna,council,commune,G0026,,pending,,,,,Commune in Jijel Wilaya,023005
+G0733,Chebbala Milat,council,commune,G0026,,pending,,,,,Commune in Jijel Wilaya,023006
+G0734,Chekfa,council,commune,G0026,,pending,,,,,Commune in Jijel Wilaya,023007
+G0735,Djemaa Beni Habibi,council,commune,G0026,,pending,,,,,Commune in Jijel Wilaya,023008
+G0736,Djmila,council,commune,G0026,,pending,,,,,Commune in Jijel Wilaya,023009
+G0737,El Ancer,council,commune,G0026,,pending,,,,,Commune in Jijel Wilaya,023010
+G0738,El Aouana,council,commune,G0026,,pending,,,,,Commune in Jijel Wilaya,023011
+G0739,El Kennar Nouchfi,council,commune,G0026,,pending,,,,,Commune in Jijel Wilaya,023012
+G0740,El Milia,council,commune,G0026,,pending,,,,,Commune in Jijel Wilaya,023013
+G0741,Emir Abdelkader,council,commune,G0026,,pending,,,,,Commune in Jijel Wilaya,023014
+G0742,Erraguene,council,commune,G0026,,pending,,,,,Commune in Jijel Wilaya,023015
+G0743,Jijel,council,commune,G0026,,pending,,,,,Commune in Jijel Wilaya,023016
+G0744,Kaous,council,commune,G0026,,pending,,,,,Commune in Jijel Wilaya,023017
+G0745,Kimir Oued Adjoul,council,commune,G0026,,pending,,,,,Commune in Jijel Wilaya,023018
+G0746,Oudjana,council,commune,G0026,,pending,,,,,Commune in Jijel Wilaya,023019
+G0747,Ouled Rabah,council,commune,G0026,,pending,,,,,Commune in Jijel Wilaya,023020
+G0748,Ouled Yahia Khadrouche,council,commune,G0026,,pending,,,,,Commune in Jijel Wilaya,023021
+G0749,Selma Ben Ziada,council,commune,G0026,,pending,,,,,Commune in Jijel Wilaya,023022
+G0750,Settara,council,commune,G0026,,pending,,,,,Commune in Jijel Wilaya,023023
+G0751,Sidi Abdelaziz,council,commune,G0026,,pending,,,,,Commune in Jijel Wilaya,023024
+G0752,Sidi Maarouf,council,commune,G0026,,pending,,,,,Commune in Jijel Wilaya,023025
+G0753,Taher,council,commune,G0026,,pending,,,,,Commune in Jijel Wilaya,023026
+G0754,Texenna,council,commune,G0026,,pending,,,,,Commune in Jijel Wilaya,023027
+G0755,Ziama Mansouria,council,commune,G0026,,pending,,,,,Commune in Jijel Wilaya,023028
+G0756,Ain Touila,council,commune,G0027,,pending,,,,,Commune in Khenchela Wilaya,024001
+G0757,Babar,council,commune,G0027,,pending,,,,,Commune in Khenchela Wilaya,024002
+G0758,Baghai,council,commune,G0027,,pending,,,,,Commune in Khenchela Wilaya,024003
+G0759,Bouhmama,council,commune,G0027,,pending,,,,,Commune in Khenchela Wilaya,024004
+G0760,Chelia,council,commune,G0027,,pending,,,,,Commune in Khenchela Wilaya,024005
+G0761,Cherchar,council,commune,G0027,,pending,,,,,Commune in Khenchela Wilaya,024006
+G0762,Djellal,council,commune,G0027,,pending,,,,,Commune in Khenchela Wilaya,024007
+G0763,El Hamma,council,commune,G0027,,pending,,,,,Commune in Khenchela Wilaya,024008
+G0764,El Mahmal,council,commune,G0027,,pending,,,,,Commune in Khenchela Wilaya,024009
+G0765,El Oueldja,council,commune,G0027,,pending,,,,,Commune in Khenchela Wilaya,024010
+G0766,Ensigha,council,commune,G0027,,pending,,,,,Commune in Khenchela Wilaya,024011
+G0767,Kais,council,commune,G0027,,pending,,,,,Commune in Khenchela Wilaya,024012
+G0768,Khenchela,council,commune,G0027,,pending,,,,,Commune in Khenchela Wilaya,024013
+G0769,Khirane,council,commune,G0027,,pending,,,,,Commune in Khenchela Wilaya,024014
+G0770,M'Sara,council,commune,G0027,,pending,,,,,Commune in Khenchela Wilaya,024015
+G0771,M'Toussa,council,commune,G0027,,pending,,,,,Commune in Khenchela Wilaya,024016
+G0772,Ouled Rechache,council,commune,G0027,,pending,,,,,Commune in Khenchela Wilaya,024017
+G0773,Remila,council,commune,G0027,,pending,,,,,Commune in Khenchela Wilaya,024018
+G0774,Tamza,council,commune,G0027,,pending,,,,,Commune in Khenchela Wilaya,024019
+G0775,Taouzianat,council,commune,G0027,,pending,,,,,Commune in Khenchela Wilaya,024020
+G0776,Yabous,council,commune,G0027,,pending,,,,,Commune in Khenchela Wilaya,024021
+G0777,Aflou,council,commune,G0028,,pending,,,,,Commune in Laghouat Wilaya,025001
+G0778,Ain Madhi,council,commune,G0028,,pending,,,,,Commune in Laghouat Wilaya,025002
+G0779,Ain Sidi Ali,council,commune,G0028,,pending,,,,,Commune in Laghouat Wilaya,025003
+G0780,Beidha,council,commune,G0028,,pending,,,,,Commune in Laghouat Wilaya,025004
+G0781,Brida,council,commune,G0028,,pending,,,,,Commune in Laghouat Wilaya,025005
+G0782,El Assafia,council,commune,G0028,,pending,,,,,Commune in Laghouat Wilaya,025006
+G0783,El Ghicha,council,commune,G0028,,pending,,,,,Commune in Laghouat Wilaya,025007
+G0784,El Haouaita,council,commune,G0028,,pending,,,,,Commune in Laghouat Wilaya,025008
+G0785,Gueltat Sidi Saad,council,commune,G0028,,pending,,,,,Commune in Laghouat Wilaya,025009
+G0786,Hadj Mechri,council,commune,G0028,,pending,,,,,Commune in Laghouat Wilaya,025010
+G0787,Hassi Dhelaa,council,commune,G0028,,pending,,,,,Commune in Laghouat Wilaya,025011
+G0788,Hassi R'Mel,council,commune,G0028,,pending,,,,,Commune in Laghouat Wilaya,025012
+G0789,Kheneg,council,commune,G0028,,pending,,,,,Commune in Laghouat Wilaya,025013
+G0790,Ksar El Hirane,council,commune,G0028,,pending,,,,,Commune in Laghouat Wilaya,025014
+G0791,Laghouat,council,commune,G0028,,pending,,,,,Commune in Laghouat Wilaya,025015
+G0792,Mekhareg,council,commune,G0028,,pending,,,,,Commune in Laghouat Wilaya,025016
+G0793,Oued Morra,council,commune,G0028,,pending,,,,,Commune in Laghouat Wilaya,025017
+G0794,Oued M'Zi,council,commune,G0028,,pending,,,,,Commune in Laghouat Wilaya,025018
+G0795,Sebgag,council,commune,G0028,,pending,,,,,Commune in Laghouat Wilaya,025019
+G0796,Sidi Bouzid,council,commune,G0028,,pending,,,,,Commune in Laghouat Wilaya,025020
+G0797,Sidi Makhlouf,council,commune,G0028,,pending,,,,,Commune in Laghouat Wilaya,025021
+G0798,Tadjemout,council,commune,G0028,,pending,,,,,Commune in Laghouat Wilaya,025022
+G0799,Tadjrouna,council,commune,G0028,,pending,,,,,Commune in Laghouat Wilaya,025023
+G0800,Taouila,council,commune,G0028,,pending,,,,,Commune in Laghouat Wilaya,025024
+G0801,Ain Fares,council,commune,G0029,,pending,,,,,Commune in Mascara Wilaya,026001
+G0802,Ain Fekan,council,commune,G0029,,pending,,,,,Commune in Mascara Wilaya,026002
+G0803,Ain Ferah,council,commune,G0029,,pending,,,,,Commune in Mascara Wilaya,026003
+G0804,Ain Frass,council,commune,G0029,,pending,,,,,Commune in Mascara Wilaya,026004
+G0805,Alaimia,council,commune,G0029,,pending,,,,,Commune in Mascara Wilaya,026005
+G0806,Aouf,council,commune,G0029,,pending,,,,,Commune in Mascara Wilaya,026006
+G0807,Benian,council,commune,G0029,,pending,,,,,Commune in Mascara Wilaya,026007
+G0808,Bouhanifia,council,commune,G0029,,pending,,,,,Commune in Mascara Wilaya,026008
+G0809,Bouhenni,council,commune,G0029,,pending,,,,,Commune in Mascara Wilaya,026009
+G0810,Chorfa,council,commune,G0029,,pending,,,,,Commune in Mascara Wilaya,026010
+G0811,El Bordj,council,commune,G0029,,pending,,,,,Commune in Mascara Wilaya,026011
+G0812,El Gaada,council,commune,G0029,,pending,,,,,Commune in Mascara Wilaya,026012
+G0813,El Ghomri,council,commune,G0029,,pending,,,,,Commune in Mascara Wilaya,026013
+G0814,El Gueitna,council,commune,G0029,,pending,,,,,Commune in Mascara Wilaya,026014
+G0815,El Hachem,council,commune,G0029,,pending,,,,,Commune in Mascara Wilaya,026015
+G0816,El Keurt,council,commune,G0029,,pending,,,,,Commune in Mascara Wilaya,026016
+G0817,El Mamounia,council,commune,G0029,,pending,,,,,Commune in Mascara Wilaya,026017
+G0818,El Menaouer,council,commune,G0029,,pending,,,,,Commune in Mascara Wilaya,026018
+G0819,Ferraguig,council,commune,G0029,,pending,,,,,Commune in Mascara Wilaya,026019
+G0820,Froha,council,commune,G0029,,pending,,,,,Commune in Mascara Wilaya,026020
+G0821,Gharrous,council,commune,G0029,,pending,,,,,Commune in Mascara Wilaya,026021
+G0822,Ghriss,council,commune,G0029,,pending,,,,,Commune in Mascara Wilaya,026022
+G0823,Guerdjoum,council,commune,G0029,,pending,,,,,Commune in Mascara Wilaya,026023
+G0824,Hacine,council,commune,G0029,,pending,,,,,Commune in Mascara Wilaya,026024
+G0825,Khalouia,council,commune,G0029,,pending,,,,,Commune in Mascara Wilaya,026025
+G0826,Makda,council,commune,G0029,,pending,,,,,Commune in Mascara Wilaya,026026
+G0827,Maoussa,council,commune,G0029,,pending,,,,,Commune in Mascara Wilaya,026027
+G0828,Mascara,council,commune,G0029,,pending,,,,,Commune in Mascara Wilaya,026028
+G0829,Matmore,council,commune,G0029,,pending,,,,,Commune in Mascara Wilaya,026029
+G0830,Moctadouz,council,commune,G0029,,pending,,,,,Commune in Mascara Wilaya,026030
+G0831,Mohammadia,council,commune,G0029,,pending,,,,,Commune in Mascara Wilaya,026031
+G0832,Nesmoth,council,commune,G0029,,pending,,,,,Commune in Mascara Wilaya,026032
+G0833,Oggaz,council,commune,G0029,,pending,,,,,Commune in Mascara Wilaya,026033
+G0834,Oued El Abtal,council,commune,G0029,,pending,,,,,Commune in Mascara Wilaya,026034
+G0835,Oued Taghia,council,commune,G0029,,pending,,,,,Commune in Mascara Wilaya,026035
+G0836,Ras El Ain Amirouche,council,commune,G0029,,pending,,,,,Commune in Mascara Wilaya,026036
+G0837,Sedjerara,council,commune,G0029,,pending,,,,,Commune in Mascara Wilaya,026037
+G0838,Sehailia,council,commune,G0029,,pending,,,,,Commune in Mascara Wilaya,026038
+G0839,Sidi Abdeldjabar,council,commune,G0029,,pending,,,,,Commune in Mascara Wilaya,026039
+G0840,Sidi Abdelmoumene,council,commune,G0029,,pending,,,,,Commune in Mascara Wilaya,026040
+G0841,Sidi Boussaid,council,commune,G0029,,pending,,,,,Commune in Mascara Wilaya,026041
+G0842,Sidi Kada,council,commune,G0029,,pending,,,,,Commune in Mascara Wilaya,026042
+G0843,Sig,council,commune,G0029,,pending,,,,,Commune in Mascara Wilaya,026043
+G0844,Tighennif,council,commune,G0029,,pending,,,,,Commune in Mascara Wilaya,026044
+G0845,Tizi,council,commune,G0029,,pending,,,,,Commune in Mascara Wilaya,026045
+G0846,Zahana,council,commune,G0029,,pending,,,,,Commune in Mascara Wilaya,026046
+G0847,Zelmata,council,commune,G0029,,pending,,,,,Commune in Mascara Wilaya,026047
+G0848,Ain Boucif,council,commune,G0030,,pending,,,,,Commune in Medea Wilaya,027001
+G0849,Ain Ouksir,council,commune,G0030,,pending,,,,,Commune in Medea Wilaya,027002
+G0850,Aissaouia,council,commune,G0030,,pending,,,,,Commune in Medea Wilaya,027003
+G0851,Aziz,council,commune,G0030,,pending,,,,,Commune in Medea Wilaya,027004
+G0852,Baata,council,commune,G0030,,pending,,,,,Commune in Medea Wilaya,027005
+G0853,Ben Chicao,council,commune,G0030,,pending,,,,,Commune in Medea Wilaya,027006
+G0854,Beni Slimane,council,commune,G0030,,pending,,,,,Commune in Medea Wilaya,027007
+G0855,Berrouaghia,council,commune,G0030,,pending,,,,,Commune in Medea Wilaya,027008
+G0856,Bir Ben Abed,council,commune,G0030,,pending,,,,,Commune in Medea Wilaya,027009
+G0857,Boghar,council,commune,G0030,,pending,,,,,Commune in Medea Wilaya,027010
+G0858,Bouaiche,council,commune,G0030,,pending,,,,,Commune in Medea Wilaya,027011
+G0859,Bouaichoune,council,commune,G0030,,pending,,,,,Commune in Medea Wilaya,027012
+G0860,Bouchrahil,council,commune,G0030,,pending,,,,,Commune in Medea Wilaya,027013
+G0861,Boughzoul,council,commune,G0030,,pending,,,,,Commune in Medea Wilaya,027014
+G0862,Bouskene,council,commune,G0030,,pending,,,,,Commune in Medea Wilaya,027015
+G0863,Chahbounia,council,commune,G0030,,pending,,,,,Commune in Medea Wilaya,027016
+G0864,Chellalat El Adhaoura,council,commune,G0030,,pending,,,,,Commune in Medea Wilaya,027017
+G0865,Cheniguel,council,commune,G0030,,pending,,,,,Commune in Medea Wilaya,027018
+G0866,Derrag,council,commune,G0030,,pending,,,,,Commune in Medea Wilaya,027019
+G0867,Deux Bassins,council,commune,G0030,,pending,,,,,Commune in Medea Wilaya,027020
+G0868,Djouab,council,commune,G0030,,pending,,,,,Commune in Medea Wilaya,027021
+G0869,Draa Essmar,council,commune,G0030,,pending,,,,,Commune in Medea Wilaya,027022
+G0870,El Aouinet,council,commune,G0030,,pending,,,,,Commune in Medea Wilaya,027023
+G0871,El Azizia,council,commune,G0030,,pending,,,,,Commune in Medea Wilaya,027024
+G0872,El Guelbelkebir,council,commune,G0030,,pending,,,,,Commune in Medea Wilaya,027025
+G0873,El Hamdania,council,commune,G0030,,pending,,,,,Commune in Medea Wilaya,027026
+G0874,El Omaria,council,commune,G0030,,pending,,,,,Commune in Medea Wilaya,027027
+G0875,Hannacha,council,commune,G0030,,pending,,,,,Commune in Medea Wilaya,027028
+G0876,Kef Lakhdar,council,commune,G0030,,pending,,,,,Commune in Medea Wilaya,027029
+G0877,Khams Djouamaa,council,commune,G0030,,pending,,,,,Commune in Medea Wilaya,027030
+G0878,Ksar El Boukhari,council,commune,G0030,,pending,,,,,Commune in Medea Wilaya,027031
+G0879,Maghraoua,council,commune,G0030,,pending,,,,,Commune in Medea Wilaya,027032
+G0880,Medea,council,commune,G0030,,pending,,,,,Commune in Medea Wilaya,027033
+G0881,Mezrenna,council,commune,G0030,,pending,,,,,Commune in Medea Wilaya,027034
+G0882,M'Fatha,council,commune,G0030,,pending,,,,,Commune in Medea Wilaya,027035
+G0883,Mihoub,council,commune,G0030,,pending,,,,,Commune in Medea Wilaya,027036
+G0884,Moudjebeur,council,commune,G0030,,pending,,,,,Commune in Medea Wilaya,027037
+G0885,Ouamri,council,commune,G0030,,pending,,,,,Commune in Medea Wilaya,027038
+G0886,Oued Harbil,council,commune,G0030,,pending,,,,,Commune in Medea Wilaya,027039
+G0887,Ouled Antar,council,commune,G0030,,pending,,,,,Commune in Medea Wilaya,027040
+G0888,Ouled Bouachra,council,commune,G0030,,pending,,,,,Commune in Medea Wilaya,027041
+G0889,Ouled Brahim,council,commune,G0030,,pending,,,,,Commune in Medea Wilaya,027042
+G0890,Ouled Deide,council,commune,G0030,,pending,,,,,Commune in Medea Wilaya,027043
+G0891,Ouled Hellal,council,commune,G0030,,pending,,,,,Commune in Medea Wilaya,027044
+G0892,Ouled Maaref,council,commune,G0030,,pending,,,,,Commune in Medea Wilaya,027045
+G0893,Oum El Djalil,council,commune,G0030,,pending,,,,,Commune in Medea Wilaya,027046
+G0894,Ouzera,council,commune,G0030,,pending,,,,,Commune in Medea Wilaya,027047
+G0895,Rebaia,council,commune,G0030,,pending,,,,,Commune in Medea Wilaya,027048
+G0896,Saneg,council,commune,G0030,,pending,,,,,Commune in Medea Wilaya,027049
+G0897,Sedraia,council,commune,G0030,,pending,,,,,Commune in Medea Wilaya,027050
+G0898,Seghouane,council,commune,G0030,,pending,,,,,Commune in Medea Wilaya,027051
+G0899,Si Mahdjoub,council,commune,G0030,,pending,,,,,Commune in Medea Wilaya,027052
+G0900,Sidi Damed,council,commune,G0030,,pending,,,,,Commune in Medea Wilaya,027053
+G0901,Sidi Errabia,council,commune,G0030,,pending,,,,,Commune in Medea Wilaya,027054
+G0902,Sidi Naamane,council,commune,G0030,,pending,,,,,Commune in Medea Wilaya,027055
+G0903,Sidi Zahar,council,commune,G0030,,pending,,,,,Commune in Medea Wilaya,027056
+G0904,Sidi Ziane,council,commune,G0030,,pending,,,,,Commune in Medea Wilaya,027057
+G0905,Souagui,council,commune,G0030,,pending,,,,,Commune in Medea Wilaya,027058
+G0906,Tablat,council,commune,G0030,,pending,,,,,Commune in Medea Wilaya,027059
+G0907,Tafraout,council,commune,G0030,,pending,,,,,Commune in Medea Wilaya,027060
+G0908,Tamesguida,council,commune,G0030,,pending,,,,,Commune in Medea Wilaya,027061
+G0909,Tizi Mahdi,council,commune,G0030,,pending,,,,,Commune in Medea Wilaya,027062
+G0910,Tlatet Ed Douair,council,commune,G0030,,pending,,,,,Commune in Medea Wilaya,027063
+G0911,Zoubiria,council,commune,G0030,,pending,,,,,Commune in Medea Wilaya,027064
+G0912,Ahmed Rachdi,council,commune,G0031,,pending,,,,,Commune in Mila Wilaya,028001
+G0913,Ain Beida Harriche,council,commune,G0031,,pending,,,,,Commune in Mila Wilaya,028002
+G0914,Ain Mellouk,council,commune,G0031,,pending,,,,,Commune in Mila Wilaya,028003
+G0915,Ain Tine,council,commune,G0031,,pending,,,,,Commune in Mila Wilaya,028004
+G0916,Amira Arres,council,commune,G0031,,pending,,,,,Commune in Mila Wilaya,028005
+G0917,Benyahia Abderrahmane,council,commune,G0031,,pending,,,,,Commune in Mila Wilaya,028006
+G0918,Bouhatem,council,commune,G0031,,pending,,,,,Commune in Mila Wilaya,028007
+G0919,Chelghoum Laid,council,commune,G0031,,pending,,,,,Commune in Mila Wilaya,028008
+G0920,Cheraga,council,commune,G0031,,pending,,,,,Commune in Mila Wilaya,028009
+G0921,Derradji Bousselah,council,commune,G0031,,pending,,,,,Commune in Mila Wilaya,028010
+G0922,El Ayadi Barbes,council,commune,G0031,,pending,,,,,Commune in Mila Wilaya,028011
+G0923,El M'Chira,council,commune,G0031,,pending,,,,,Commune in Mila Wilaya,028012
+G0924,Ferdjioua,council,commune,G0031,,pending,,,,,Commune in Mila Wilaya,028013
+G0925,Grarem Gouga,council,commune,G0031,,pending,,,,,Commune in Mila Wilaya,028014
+G0926,Hamala,council,commune,G0031,,pending,,,,,Commune in Mila Wilaya,028015
+G0927,Mila,council,commune,G0031,,pending,,,,,Commune in Mila Wilaya,028016
+G0928,Minar Zarza,council,commune,G0031,,pending,,,,,Commune in Mila Wilaya,028017
+G0929,Oued Athmania,council,commune,G0031,,pending,,,,,Commune in Mila Wilaya,028018
+G0930,Oued Endja,council,commune,G0031,,pending,,,,,Commune in Mila Wilaya,028019
+G0931,Oued Seguen,council,commune,G0031,,pending,,,,,Commune in Mila Wilaya,028020
+G0932,Ouled Khellouf,council,commune,G0031,,pending,,,,,Commune in Mila Wilaya,028021
+G0933,Rouached,council,commune,G0031,,pending,,,,,Commune in Mila Wilaya,028022
+G0934,Sidi Khelifa,council,commune,G0031,,pending,,,,,Commune in Mila Wilaya,028023
+G0935,Sidi Merouane,council,commune,G0031,,pending,,,,,Commune in Mila Wilaya,028024
+G0936,Tadjenanet,council,commune,G0031,,pending,,,,,Commune in Mila Wilaya,028025
+G0937,Tassadane Haddada,council,commune,G0031,,pending,,,,,Commune in Mila Wilaya,028026
+G0938,Tassala Lemtai,council,commune,G0031,,pending,,,,,Commune in Mila Wilaya,028027
+G0939,Telaghma,council,commune,G0031,,pending,,,,,Commune in Mila Wilaya,028028
+G0940,Terrai Bainem,council,commune,G0031,,pending,,,,,Commune in Mila Wilaya,028029
+G0941,Tiberguent,council,commune,G0031,,pending,,,,,Commune in Mila Wilaya,028030
+G0942,Yahia Beni Guecha,council,commune,G0031,,pending,,,,,Commune in Mila Wilaya,028031
+G0943,Zeghaia,council,commune,G0031,,pending,,,,,Commune in Mila Wilaya,028032
+G0944,Abdelmalek Ramdane,council,commune,G0032,,pending,,,,,Commune in Mostaganem Wilaya,029001
+G0945,Achaacha,council,commune,G0032,,pending,,,,,Commune in Mostaganem Wilaya,029002
+G0946,Ain Boudinar,council,commune,G0032,,pending,,,,,Commune in Mostaganem Wilaya,029003
+G0947,Ain Nouissi,council,commune,G0032,,pending,,,,,Commune in Mostaganem Wilaya,029004
+G0948,Ain Sidi Cherif,council,commune,G0032,,pending,,,,,Commune in Mostaganem Wilaya,029005
+G0949,Ain Tedles,council,commune,G0032,,pending,,,,,Commune in Mostaganem Wilaya,029006
+G0950,Bouguirat,council,commune,G0032,,pending,,,,,Commune in Mostaganem Wilaya,029007
+G0951,El Hessiane,council,commune,G0032,,pending,,,,,Commune in Mostaganem Wilaya,029008
+G0952,Fornaka,council,commune,G0032,,pending,,,,,Commune in Mostaganem Wilaya,029009
+G0953,Hadjadj,council,commune,G0032,,pending,,,,,Commune in Mostaganem Wilaya,029010
+G0954,Hassi Maameche,council,commune,G0032,,pending,,,,,Commune in Mostaganem Wilaya,029011
+G0955,Khadra,council,commune,G0032,,pending,,,,,Commune in Mostaganem Wilaya,029012
+G0956,Kheir Eddine,council,commune,G0032,,pending,,,,,Commune in Mostaganem Wilaya,029013
+G0957,Mansourah,council,commune,G0032,,pending,,,,,Commune in Mostaganem Wilaya,029014
+G0958,Mesra,council,commune,G0032,,pending,,,,,Commune in Mostaganem Wilaya,029015
+G0959,Mezaghrane,council,commune,G0032,,pending,,,,,Commune in Mostaganem Wilaya,029016
+G0960,Mostaganem,council,commune,G0032,,pending,,,,,Commune in Mostaganem Wilaya,029017
+G0961,Nekmaria,council,commune,G0032,,pending,,,,,Commune in Mostaganem Wilaya,029018
+G0962,Oued El Kheir,council,commune,G0032,,pending,,,,,Commune in Mostaganem Wilaya,029019
+G0963,Ouled Boughalem,council,commune,G0032,,pending,,,,,Commune in Mostaganem Wilaya,029020
+G0964,Ouled Maalah,council,commune,G0032,,pending,,,,,Commune in Mostaganem Wilaya,029021
+G0965,Safsaf,council,commune,G0032,,pending,,,,,Commune in Mostaganem Wilaya,029022
+G0966,Sayada,council,commune,G0032,,pending,,,,,Commune in Mostaganem Wilaya,029023
+G0967,Sidi Ali,council,commune,G0032,,pending,,,,,Commune in Mostaganem Wilaya,029024
+G0968,Sidi Belattar,council,commune,G0032,,pending,,,,,Commune in Mostaganem Wilaya,029025
+G0969,Sidi Lakhdar,council,commune,G0032,,pending,,,,,Commune in Mostaganem Wilaya,029026
+G0970,Sirat,council,commune,G0032,,pending,,,,,Commune in Mostaganem Wilaya,029027
+G0971,Souaflia,council,commune,G0032,,pending,,,,,Commune in Mostaganem Wilaya,029028
+G0972,Sour,council,commune,G0032,,pending,,,,,Commune in Mostaganem Wilaya,029029
+G0973,Stidia,council,commune,G0032,,pending,,,,,Commune in Mostaganem Wilaya,029030
+G0974,Tazgait,council,commune,G0032,,pending,,,,,Commune in Mostaganem Wilaya,029031
+G0975,Touahria,council,commune,G0032,,pending,,,,,Commune in Mostaganem Wilaya,029032
+G0976,Ain El Hadjel,council,commune,G0033,,pending,,,,,Commune in M'Sila Wilaya,030001
+G0977,Ain El Melh,council,commune,G0033,,pending,,,,,Commune in M'Sila Wilaya,030002
+G0978,Ain Errich,council,commune,G0033,,pending,,,,,Commune in M'Sila Wilaya,030003
+G0979,Ain Fares,council,commune,G0033,,pending,,,,,Commune in M'Sila Wilaya,030004
+G0980,Ain Khadra,council,commune,G0033,,pending,,,,,Commune in M'Sila Wilaya,030005
+G0981,Belaiba,council,commune,G0033,,pending,,,,,Commune in M'Sila Wilaya,030006
+G0982,Ben Srour,council,commune,G0033,,pending,,,,,Commune in M'Sila Wilaya,030007
+G0983,Beni Ilmene,council,commune,G0033,,pending,,,,,Commune in M'Sila Wilaya,030008
+G0984,Benzouh,council,commune,G0033,,pending,,,,,Commune in M'Sila Wilaya,030009
+G0985,Berhoum,council,commune,G0033,,pending,,,,,Commune in M'Sila Wilaya,030010
+G0986,Bir Fodda,council,commune,G0033,,pending,,,,,Commune in M'Sila Wilaya,030011
+G0987,Bousaada,council,commune,G0033,,pending,,,,,Commune in M'Sila Wilaya,030012
+G0988,Bouti Sayeh,council,commune,G0033,,pending,,,,,Commune in M'Sila Wilaya,030013
+G0989,Chellal,council,commune,G0033,,pending,,,,,Commune in M'Sila Wilaya,030014
+G0990,Dehahna,council,commune,G0033,,pending,,,,,Commune in M'Sila Wilaya,030015
+G0991,Djebel Messaad,council,commune,G0033,,pending,,,,,Commune in M'Sila Wilaya,030016
+G0992,El Hamel,council,commune,G0033,,pending,,,,,Commune in M'Sila Wilaya,030017
+G0993,El Houamed,council,commune,G0033,,pending,,,,,Commune in M'Sila Wilaya,030018
+G0994,Hammam Dhalaa,council,commune,G0033,,pending,,,,,Commune in M'Sila Wilaya,030019
+G0995,Khettouti Sed El Djir,council,commune,G0033,,pending,,,,,Commune in M'Sila Wilaya,030020
+G0996,Khoubana,council,commune,G0033,,pending,,,,,Commune in M'Sila Wilaya,030021
+G0997,Maadid,council,commune,G0033,,pending,,,,,Commune in M'Sila Wilaya,030022
+G0998,Maarif,council,commune,G0033,,pending,,,,,Commune in M'Sila Wilaya,030023
+G0999,Magra,council,commune,G0033,,pending,,,,,Commune in M'Sila Wilaya,030024
+G1000,M'Cif,council,commune,G0033,,pending,,,,,Commune in M'Sila Wilaya,030025
+G1001,Medjedel,council,commune,G0033,,pending,,,,,Commune in M'Sila Wilaya,030026
+G1002,Menaa,council,commune,G0033,,pending,,,,,Commune in M'Sila Wilaya,030027
+G1003,Mohamed Boudiaf,council,commune,G0033,,pending,,,,,Commune in M'Sila Wilaya,030028
+G1004,M'Sila,council,commune,G0033,,pending,,,,,Commune in M'Sila Wilaya,030029
+G1005,M'Tarfa,council,commune,G0033,,pending,,,,,Commune in M'Sila Wilaya,030030
+G1006,Ouenougha,council,commune,G0033,,pending,,,,,Commune in M'Sila Wilaya,030031
+G1007,Ouled Addi Guebala,council,commune,G0033,,pending,,,,,Commune in M'Sila Wilaya,030032
+G1008,Ouled Derradj,council,commune,G0033,,pending,,,,,Commune in M'Sila Wilaya,030033
+G1009,Ouled Madhi,council,commune,G0033,,pending,,,,,Commune in M'Sila Wilaya,030034
+G1010,Ouled Mansour,council,commune,G0033,,pending,,,,,Commune in M'Sila Wilaya,030035
+G1011,Ouled Sidi Brahim,council,commune,G0033,,pending,,,,,Commune in M'Sila Wilaya,030036
+G1012,Ouled Slimane,council,commune,G0033,,pending,,,,,Commune in M'Sila Wilaya,030037
+G1013,Oultene,council,commune,G0033,,pending,,,,,Commune in M'Sila Wilaya,030038
+G1014,Sidi Aissa,council,commune,G0033,,pending,,,,,Commune in M'Sila Wilaya,030039
+G1015,Sidi Ameur,council,commune,G0033,,pending,,,,,Commune in M'Sila Wilaya,030040
+G1016,Sidi Hadjeres,council,commune,G0033,,pending,,,,,Commune in M'Sila Wilaya,030041
+G1017,Sidi M'Hamed,council,commune,G0033,,pending,,,,,Commune in M'Sila Wilaya,030042
+G1018,Slim,council,commune,G0033,,pending,,,,,Commune in M'Sila Wilaya,030043
+G1019,Soumaa,council,commune,G0033,,pending,,,,,Commune in M'Sila Wilaya,030044
+G1020,Tamsa,council,commune,G0033,,pending,,,,,Commune in M'Sila Wilaya,030045
+G1021,Tarmount,council,commune,G0033,,pending,,,,,Commune in M'Sila Wilaya,030046
+G1022,Zerzour,council,commune,G0033,,pending,,,,,Commune in M'Sila Wilaya,030047
+G1023,Ain Ben Khelil,council,commune,G0034,,pending,,,,,Commune in Naama Wilaya,031001
+G1024,Ain Sefra,council,commune,G0034,,pending,,,,,Commune in Naama Wilaya,031002
+G1025,Asla,council,commune,G0034,,pending,,,,,Commune in Naama Wilaya,031003
+G1026,Djenien Bourezg,council,commune,G0034,,pending,,,,,Commune in Naama Wilaya,031004
+G1027,El Biod,council,commune,G0034,,pending,,,,,Commune in Naama Wilaya,031005
+G1028,Kasdir,council,commune,G0034,,pending,,,,,Commune in Naama Wilaya,031006
+G1029,Mechria,council,commune,G0034,,pending,,,,,Commune in Naama Wilaya,031007
+G1030,Mekmen Ben Amar,council,commune,G0034,,pending,,,,,Commune in Naama Wilaya,031008
+G1031,Moghrar,council,commune,G0034,,pending,,,,,Commune in Naama Wilaya,031009
+G1032,Naama,council,commune,G0034,,pending,,,,,Commune in Naama Wilaya,031010
+G1033,Sfissifa,council,commune,G0034,,pending,,,,,Commune in Naama Wilaya,031011
+G1034,Tiout,council,commune,G0034,,pending,,,,,Commune in Naama Wilaya,031012
+G1035,Ain Biya,council,commune,G0035,,pending,,,,,Commune in Oran Wilaya,032001
+G1036,Ain Kerma,council,commune,G0035,,pending,,,,,Commune in Oran Wilaya,032002
+G1037,Ain Turk,council,commune,G0035,,pending,,,,,Commune in Oran Wilaya,032003
+G1038,Arzew,council,commune,G0035,,pending,,,,,Commune in Oran Wilaya,032004
+G1039,Ben Freha,council,commune,G0035,,pending,,,,,Commune in Oran Wilaya,032005
+G1040,Bethioua,council,commune,G0035,,pending,,,,,Commune in Oran Wilaya,032006
+G1041,Bir El Djir,council,commune,G0035,,pending,,,,,Commune in Oran Wilaya,032007
+G1042,Boufatis,council,commune,G0035,,pending,,,,,Commune in Oran Wilaya,032008
+G1043,Bousfer,council,commune,G0035,,pending,,,,,Commune in Oran Wilaya,032009
+G1044,Boutlelis,council,commune,G0035,,pending,,,,,Commune in Oran Wilaya,032010
+G1045,El Ancor,council,commune,G0035,,pending,,,,,Commune in Oran Wilaya,032011
+G1046,El Braya,council,commune,G0035,,pending,,,,,Commune in Oran Wilaya,032012
+G1047,El Karma,council,commune,G0035,,pending,,,,,Commune in Oran Wilaya,032013
+G1048,Es Senia,council,commune,G0035,,pending,,,,,Commune in Oran Wilaya,032014
+G1049,Gdyel,council,commune,G0035,,pending,,,,,Commune in Oran Wilaya,032015
+G1050,Hassi Ben Okba,council,commune,G0035,,pending,,,,,Commune in Oran Wilaya,032016
+G1051,Hassi Bounif,council,commune,G0035,,pending,,,,,Commune in Oran Wilaya,032017
+G1052,Hassi Mefsoukh,council,commune,G0035,,pending,,,,,Commune in Oran Wilaya,032018
+G1053,Marsat El Hadjadj,council,commune,G0035,,pending,,,,,Commune in Oran Wilaya,032019
+G1054,Mers El Kebir,council,commune,G0035,,pending,,,,,Commune in Oran Wilaya,032020
+G1055,Misserghin,council,commune,G0035,,pending,,,,,Commune in Oran Wilaya,032021
+G1056,Oran,council,commune,G0035,,done,R001,2026-11-07,1,0,Sampled Oran commune; no APC municipal wealth tax motions found.,032022
+G1057,Oued Tlelat,council,commune,G0035,,pending,,,,,Commune in Oran Wilaya,032023
+G1058,Sidi Ben Yabka,council,commune,G0035,,pending,,,,,Commune in Oran Wilaya,032024
+G1059,Sidi Chami,council,commune,G0035,,pending,,,,,Commune in Oran Wilaya,032025
+G1060,Tafraoui,council,commune,G0035,,pending,,,,,Commune in Oran Wilaya,032026
+G1061,Ain Beida,council,commune,G0036,,pending,,,,,Commune in Ouargla Wilaya,033001
+G1062,Balidat Ameur,council,commune,G0036,,pending,,,,,Commune in Ouargla Wilaya,033002
+G1063,Benaceur,council,commune,G0036,,pending,,,,,Commune in Ouargla Wilaya,033003
+G1064,El Allia,council,commune,G0036,,pending,,,,,Commune in Ouargla Wilaya,033004
+G1065,El Borma,council,commune,G0036,,pending,,,,,Commune in Ouargla Wilaya,033005
+G1066,El Hadjira,council,commune,G0036,,pending,,,,,Commune in Ouargla Wilaya,033006
+G1067,Hassi Ben Abdellah,council,commune,G0036,,pending,,,,,Commune in Ouargla Wilaya,033007
+G1068,Hassi Messaoud,council,commune,G0036,,pending,,,,,Commune in Ouargla Wilaya,033008
+G1069,Megarine,council,commune,G0036,,pending,,,,,Commune in Ouargla Wilaya,033009
+G1070,M'Naguer,council,commune,G0036,,pending,,,,,Commune in Ouargla Wilaya,033010
+G1071,Nezla,council,commune,G0036,,pending,,,,,Commune in Ouargla Wilaya,033011
+G1072,N'Goussa,council,commune,G0036,,pending,,,,,Commune in Ouargla Wilaya,033012
+G1073,Ouargla,council,commune,G0036,,pending,,,,,Commune in Ouargla Wilaya,033013
+G1074,Rouissat,council,commune,G0036,,pending,,,,,Commune in Ouargla Wilaya,033014
+G1075,Sidi Khouiled,council,commune,G0036,,pending,,,,,Commune in Ouargla Wilaya,033015
+G1076,Sidi Slimane,council,commune,G0036,,pending,,,,,Commune in Ouargla Wilaya,033016
+G1077,Taibet,council,commune,G0036,,pending,,,,,Commune in Ouargla Wilaya,033017
+G1078,Tamacine,council,commune,G0036,,pending,,,,,Commune in Ouargla Wilaya,033018
+G1079,Tebesbest,council,commune,G0036,,pending,,,,,Commune in Ouargla Wilaya,033019
+G1080,Touggourt,council,commune,G0036,,pending,,,,,Commune in Ouargla Wilaya,033020
+G1081,Zaouia El Abidia,council,commune,G0036,,pending,,,,,Commune in Ouargla Wilaya,033021
+G1082,Ain Babouche,council,commune,G0037,,pending,,,,,Commune in Oum El Bouaghi Wilaya,034001
+G1083,Ain Beida,council,commune,G0037,,pending,,,,,Commune in Oum El Bouaghi Wilaya,034002
+G1084,Ain Diss,council,commune,G0037,,pending,,,,,Commune in Oum El Bouaghi Wilaya,034003
+G1085,Ain Fakroun,council,commune,G0037,,pending,,,,,Commune in Oum El Bouaghi Wilaya,034004
+G1086,Ain Kercha,council,commune,G0037,,pending,,,,,Commune in Oum El Bouaghi Wilaya,034005
+G1087,Ain M'Lila,council,commune,G0037,,pending,,,,,Commune in Oum El Bouaghi Wilaya,034006
+G1088,Ain Zitoun,council,commune,G0037,,pending,,,,,Commune in Oum El Bouaghi Wilaya,034007
+G1089,Behir Chergui,council,commune,G0037,,pending,,,,,Commune in Oum El Bouaghi Wilaya,034008
+G1090,Berriche,council,commune,G0037,,pending,,,,,Commune in Oum El Bouaghi Wilaya,034009
+G1091,Bir Chouhada,council,commune,G0037,,pending,,,,,Commune in Oum El Bouaghi Wilaya,034010
+G1092,Dhalaa,council,commune,G0037,,pending,,,,,Commune in Oum El Bouaghi Wilaya,034011
+G1093,El Amiria,council,commune,G0037,,pending,,,,,Commune in Oum El Bouaghi Wilaya,034012
+G1094,El Belala,council,commune,G0037,,pending,,,,,Commune in Oum El Bouaghi Wilaya,034013
+G1095,El Djezia,council,commune,G0037,,pending,,,,,Commune in Oum El Bouaghi Wilaya,034014
+G1096,El Fedjoudj Boughrara Sao,council,commune,G0037,,pending,,,,,Commune in Oum El Bouaghi Wilaya,034015
+G1097,El Harmilia,council,commune,G0037,,pending,,,,,Commune in Oum El Bouaghi Wilaya,034016
+G1098,El Zorg,council,commune,G0037,,pending,,,,,Commune in Oum El Bouaghi Wilaya,034017
+G1099,Fkirina,council,commune,G0037,,pending,,,,,Commune in Oum El Bouaghi Wilaya,034018
+G1100,Hanchir Toumghani,council,commune,G0037,,pending,,,,,Commune in Oum El Bouaghi Wilaya,034019
+G1101,Ksar Sbahi,council,commune,G0037,,pending,,,,,Commune in Oum El Bouaghi Wilaya,034020
+G1102,Meskiana,council,commune,G0037,,pending,,,,,Commune in Oum El Bouaghi Wilaya,034021
+G1103,Oued Nini,council,commune,G0037,,pending,,,,,Commune in Oum El Bouaghi Wilaya,034022
+G1104,Ouled Gacem,council,commune,G0037,,pending,,,,,Commune in Oum El Bouaghi Wilaya,034023
+G1105,Ouled Hamla,council,commune,G0037,,pending,,,,,Commune in Oum El Bouaghi Wilaya,034024
+G1106,Ouled Zouai,council,commune,G0037,,pending,,,,,Commune in Oum El Bouaghi Wilaya,034025
+G1107,Oum El Bouaghi,council,commune,G0037,,pending,,,,,Commune in Oum El Bouaghi Wilaya,034026
+G1108,Rehia,council,commune,G0037,,pending,,,,,Commune in Oum El Bouaghi Wilaya,034027
+G1109,Sigus,council,commune,G0037,,pending,,,,,Commune in Oum El Bouaghi Wilaya,034028
+G1110,Souk Naamane,council,commune,G0037,,pending,,,,,Commune in Oum El Bouaghi Wilaya,034029
+G1111,Ain Rahma,council,commune,G0038,,pending,,,,,Commune in Relizane Wilaya,035001
+G1112,Ain Tarek,council,commune,G0038,,pending,,,,,Commune in Relizane Wilaya,035002
+G1113,Ammi Moussa,council,commune,G0038,,pending,,,,,Commune in Relizane Wilaya,035003
+G1114,Belaassel Bouzegza,council,commune,G0038,,pending,,,,,Commune in Relizane Wilaya,035004
+G1115,Ben Daoud,council,commune,G0038,,pending,,,,,Commune in Relizane Wilaya,035005
+G1116,Beni Dergoun,council,commune,G0038,,pending,,,,,Commune in Relizane Wilaya,035006
+G1117,Beni Zentis,council,commune,G0038,,pending,,,,,Commune in Relizane Wilaya,035007
+G1118,Dar Ben Abdellah,council,commune,G0038,,pending,,,,,Commune in Relizane Wilaya,035008
+G1119,Djidiouia,council,commune,G0038,,pending,,,,,Commune in Relizane Wilaya,035009
+G1120,El Guettar,council,commune,G0038,,pending,,,,,Commune in Relizane Wilaya,035010
+G1121,El Hamri,council,commune,G0038,,pending,,,,,Commune in Relizane Wilaya,035011
+G1122,El Hassi,council,commune,G0038,,pending,,,,,Commune in Relizane Wilaya,035012
+G1123,El H'Madna,council,commune,G0038,,pending,,,,,Commune in Relizane Wilaya,035013
+G1124,El Matmar,council,commune,G0038,,pending,,,,,Commune in Relizane Wilaya,035014
+G1125,El Oueldja,council,commune,G0038,,pending,,,,,Commune in Relizane Wilaya,035015
+G1126,Had Chekkala,council,commune,G0038,,pending,,,,,Commune in Relizane Wilaya,035016
+G1127,Kalaa,council,commune,G0038,,pending,,,,,Commune in Relizane Wilaya,035017
+G1128,Lahlef,council,commune,G0038,,pending,,,,,Commune in Relizane Wilaya,035018
+G1129,Mazouna,council,commune,G0038,,pending,,,,,Commune in Relizane Wilaya,035019
+G1130,Mediouna,council,commune,G0038,,pending,,,,,Commune in Relizane Wilaya,035020
+G1131,Mendes,council,commune,G0038,,pending,,,,,Commune in Relizane Wilaya,035021
+G1132,Merdjet Sidi Abed,council,commune,G0038,,pending,,,,,Commune in Relizane Wilaya,035022
+G1133,Ouarizane,council,commune,G0038,,pending,,,,,Commune in Relizane Wilaya,035023
+G1134,Oued El Djemaa,council,commune,G0038,,pending,,,,,Commune in Relizane Wilaya,035024
+G1135,Oued Essalem,council,commune,G0038,,pending,,,,,Commune in Relizane Wilaya,035025
+G1136,Oued Rhiou,council,commune,G0038,,pending,,,,,Commune in Relizane Wilaya,035026
+G1137,Ouled Sidi Mihoub,council,commune,G0038,,pending,,,,,Commune in Relizane Wilaya,035027
+G1138,Ouled Yaich,council,commune,G0038,,pending,,,,,Commune in Relizane Wilaya,035028
+G1139,Ramka,council,commune,G0038,,pending,,,,,Commune in Relizane Wilaya,035029
+G1140,Relizane,council,commune,G0038,,pending,,,,,Commune in Relizane Wilaya,035030
+G1141,Sidi Khettab,council,commune,G0038,,pending,,,,,Commune in Relizane Wilaya,035031
+G1142,Sidi Lazreg,council,commune,G0038,,pending,,,,,Commune in Relizane Wilaya,035032
+G1143,Sidi M'Hamed Ben Ali,council,commune,G0038,,pending,,,,,Commune in Relizane Wilaya,035033
+G1144,Sidi M'Hamed Benaouda,council,commune,G0038,,pending,,,,,Commune in Relizane Wilaya,035034
+G1145,Sidi Saada,council,commune,G0038,,pending,,,,,Commune in Relizane Wilaya,035035
+G1146,Souk El Had,council,commune,G0038,,pending,,,,,Commune in Relizane Wilaya,035036
+G1147,Yellel,council,commune,G0038,,pending,,,,,Commune in Relizane Wilaya,035037
+G1148,Zemmoura,council,commune,G0038,,pending,,,,,Commune in Relizane Wilaya,035038
+G1149,Ain El Hadjar,council,commune,G0039,,pending,,,,,Commune in Saida Wilaya,036001
+G1150,Ain Skhouna,council,commune,G0039,,pending,,,,,Commune in Saida Wilaya,036002
+G1151,Ain Soltane,council,commune,G0039,,pending,,,,,Commune in Saida Wilaya,036003
+G1152,Doui Thabet,council,commune,G0039,,pending,,,,,Commune in Saida Wilaya,036004
+G1153,El Hassasna,council,commune,G0039,,pending,,,,,Commune in Saida Wilaya,036005
+G1154,Hounet,council,commune,G0039,,pending,,,,,Commune in Saida Wilaya,036006
+G1155,Maamora,council,commune,G0039,,pending,,,,,Commune in Saida Wilaya,036007
+G1156,Moulay Larbi,council,commune,G0039,,pending,,,,,Commune in Saida Wilaya,036008
+G1157,Ouled Brahim,council,commune,G0039,,pending,,,,,Commune in Saida Wilaya,036009
+G1158,Ouled Khaled,council,commune,G0039,,pending,,,,,Commune in Saida Wilaya,036010
+G1159,Saida,council,commune,G0039,,pending,,,,,Commune in Saida Wilaya,036011
+G1160,Sidi Ahmed,council,commune,G0039,,pending,,,,,Commune in Saida Wilaya,036012
+G1161,Sidi Amar,council,commune,G0039,,pending,,,,,Commune in Saida Wilaya,036013
+G1162,Sidi Boubekeur,council,commune,G0039,,pending,,,,,Commune in Saida Wilaya,036014
+G1163,Tircine,council,commune,G0039,,pending,,,,,Commune in Saida Wilaya,036015
+G1164,Youb,council,commune,G0039,,pending,,,,,Commune in Saida Wilaya,036016
+G1165,Ain Abessa,council,commune,G0040,,pending,,,,,Commune in Setif Wilaya,037001
+G1166,Ain Arnat,council,commune,G0040,,pending,,,,,Commune in Setif Wilaya,037002
+G1167,Ain Azal,council,commune,G0040,,pending,,,,,Commune in Setif Wilaya,037003
+G1168,Ain El Kebira,council,commune,G0040,,pending,,,,,Commune in Setif Wilaya,037004
+G1169,Ain Lagradj,council,commune,G0040,,pending,,,,,Commune in Setif Wilaya,037005
+G1170,Ain Lahdjar,council,commune,G0040,,pending,,,,,Commune in Setif Wilaya,037006
+G1171,Ain Oulmane,council,commune,G0040,,pending,,,,,Commune in Setif Wilaya,037007
+G1172,Ain Roua,council,commune,G0040,,pending,,,,,Commune in Setif Wilaya,037008
+G1173,Ain Sebt,council,commune,G0040,,pending,,,,,Commune in Setif Wilaya,037009
+G1174,Ait Tizi,council,commune,G0040,,pending,,,,,Commune in Setif Wilaya,037010
+G1175,Amoucha,council,commune,G0040,,pending,,,,,Commune in Setif Wilaya,037011
+G1176,Babor,council,commune,G0040,,pending,,,,,Commune in Setif Wilaya,037012
+G1177,Bazer Sakra,council,commune,G0040,,pending,,,,,Commune in Setif Wilaya,037013
+G1178,Beidha Bordj,council,commune,G0040,,pending,,,,,Commune in Setif Wilaya,037014
+G1179,Bellaa,council,commune,G0040,,pending,,,,,Commune in Setif Wilaya,037015
+G1180,Beni Aziz,council,commune,G0040,,pending,,,,,Commune in Setif Wilaya,037016
+G1181,Beni Chebana,council,commune,G0040,,pending,,,,,Commune in Setif Wilaya,037017
+G1182,Beni Fouda,council,commune,G0040,,pending,,,,,Commune in Setif Wilaya,037018
+G1183,Beni Hocine,council,commune,G0040,,pending,,,,,Commune in Setif Wilaya,037019
+G1184,Beni Mouhli,council,commune,G0040,,pending,,,,,Commune in Setif Wilaya,037020
+G1185,Beni Ouartilane,council,commune,G0040,,pending,,,,,Commune in Setif Wilaya,037021
+G1186,Bir El Arch,council,commune,G0040,,pending,,,,,Commune in Setif Wilaya,037022
+G1187,Bir Haddada,council,commune,G0040,,pending,,,,,Commune in Setif Wilaya,037023
+G1188,Bouandas,council,commune,G0040,,pending,,,,,Commune in Setif Wilaya,037024
+G1189,Bougaa,council,commune,G0040,,pending,,,,,Commune in Setif Wilaya,037025
+G1190,Bousselam,council,commune,G0040,,pending,,,,,Commune in Setif Wilaya,037026
+G1191,Boutaleb,council,commune,G0040,,pending,,,,,Commune in Setif Wilaya,037027
+G1192,Dehamcha,council,commune,G0040,,pending,,,,,Commune in Setif Wilaya,037028
+G1193,Djemila,council,commune,G0040,,pending,,,,,Commune in Setif Wilaya,037029
+G1194,Draa Kebila,council,commune,G0040,,pending,,,,,Commune in Setif Wilaya,037030
+G1195,El Eulma,council,commune,G0040,,pending,,,,,Commune in Setif Wilaya,037031
+G1196,El Oueldja,council,commune,G0040,,pending,,,,,Commune in Setif Wilaya,037032
+G1197,El Ouricia,council,commune,G0040,,pending,,,,,Commune in Setif Wilaya,037033
+G1198,Guellal,council,commune,G0040,,pending,,,,,Commune in Setif Wilaya,037034
+G1199,Guelta Zerga,council,commune,G0040,,pending,,,,,Commune in Setif Wilaya,037035
+G1200,Guenzet Tassameurt,council,commune,G0040,,pending,,,,,Commune in Setif Wilaya,037036
+G1201,Guidjel,council,commune,G0040,,pending,,,,,Commune in Setif Wilaya,037037
+G1202,Hamma,council,commune,G0040,,pending,,,,,Commune in Setif Wilaya,037038
+G1203,Hammam Guergour,council,commune,G0040,,pending,,,,,Commune in Setif Wilaya,037039
+G1204,Hammam Skhouna,council,commune,G0040,,pending,,,,,Commune in Setif Wilaya,037040
+G1205,Harbil,council,commune,G0040,,pending,,,,,Commune in Setif Wilaya,037041
+G1206,Ksar El Abtal,council,commune,G0040,,pending,,,,,Commune in Setif Wilaya,037042
+G1207,Maaouia,council,commune,G0040,,pending,,,,,Commune in Setif Wilaya,037043
+G1208,Maouklane,council,commune,G0040,,pending,,,,,Commune in Setif Wilaya,037044
+G1209,Mezloug,council,commune,G0040,,pending,,,,,Commune in Setif Wilaya,037045
+G1210,M'Zada,council,commune,G0040,,pending,,,,,Commune in Setif Wilaya,037046
+G1211,Oued El Bared,council,commune,G0040,,pending,,,,,Commune in Setif Wilaya,037047
+G1212,Ouled Addouane,council,commune,G0040,,pending,,,,,Commune in Setif Wilaya,037048
+G1213,Ouled Sabor,council,commune,G0040,,pending,,,,,Commune in Setif Wilaya,037049
+G1214,Ouled Sidi Ahmed,council,commune,G0040,,pending,,,,,Commune in Setif Wilaya,037050
+G1215,Ouled Tebben,council,commune,G0040,,pending,,,,,Commune in Setif Wilaya,037051
+G1216,Rosfa,council,commune,G0040,,pending,,,,,Commune in Setif Wilaya,037052
+G1217,Salah Bey,council,commune,G0040,,pending,,,,,Commune in Setif Wilaya,037053
+G1218,Serdj El Ghoul,council,commune,G0040,,pending,,,,,Commune in Setif Wilaya,037054
+G1219,Setif,council,commune,G0040,,pending,,,,,Commune in Setif Wilaya,037055
+G1220,Tachouda,council,commune,G0040,,pending,,,,,Commune in Setif Wilaya,037056
+G1221,Tala Ifacene,council,commune,G0040,,pending,,,,,Commune in Setif Wilaya,037057
+G1222,Taya,council,commune,G0040,,pending,,,,,Commune in Setif Wilaya,037058
+G1223,Tella,council,commune,G0040,,pending,,,,,Commune in Setif Wilaya,037059
+G1224,Tizi N'Bechar,council,commune,G0040,,pending,,,,,Commune in Setif Wilaya,037060
+G1225,Ain Adden,council,commune,G0041,,pending,,,,,Commune in Sidi Bel Abbes Wilaya,038001
+G1226,Ain El Berd,council,commune,G0041,,pending,,,,,Commune in Sidi Bel Abbes Wilaya,038002
+G1227,Ain Kada,council,commune,G0041,,pending,,,,,Commune in Sidi Bel Abbes Wilaya,038003
+G1228,Ain Thrid,council,commune,G0041,,pending,,,,,Commune in Sidi Bel Abbes Wilaya,038004
+G1229,Ain Tindamine,council,commune,G0041,,pending,,,,,Commune in Sidi Bel Abbes Wilaya,038005
+G1230,Amarnas,council,commune,G0041,,pending,,,,,Commune in Sidi Bel Abbes Wilaya,038006
+G1231,Bedrabine El Mokrani,council,commune,G0041,,pending,,,,,Commune in Sidi Bel Abbes Wilaya,038007
+G1232,Belarbi,council,commune,G0041,,pending,,,,,Commune in Sidi Bel Abbes Wilaya,038008
+G1233,Ben Badis,council,commune,G0041,,pending,,,,,Commune in Sidi Bel Abbes Wilaya,038009
+G1234,Benachiba Chelia,council,commune,G0041,,pending,,,,,Commune in Sidi Bel Abbes Wilaya,038010
+G1235,Bir El H'Mam,council,commune,G0041,,pending,,,,,Commune in Sidi Bel Abbes Wilaya,038011
+G1236,Boudjebaa El Bordj,council,commune,G0041,,pending,,,,,Commune in Sidi Bel Abbes Wilaya,038012
+G1237,Boukanefis,council,commune,G0041,,pending,,,,,Commune in Sidi Bel Abbes Wilaya,038013
+G1238,Chetouane Belaila,council,commune,G0041,,pending,,,,,Commune in Sidi Bel Abbes Wilaya,038014
+G1239,Dhaya,council,commune,G0041,,pending,,,,,Commune in Sidi Bel Abbes Wilaya,038015
+G1240,El Hacaiba,council,commune,G0041,,pending,,,,,Commune in Sidi Bel Abbes Wilaya,038016
+G1241,Hassi Daho,council,commune,G0041,,pending,,,,,Commune in Sidi Bel Abbes Wilaya,038017
+G1242,Hassi Zahana,council,commune,G0041,,pending,,,,,Commune in Sidi Bel Abbes Wilaya,038018
+G1243,Lamtar,council,commune,G0041,,pending,,,,,Commune in Sidi Bel Abbes Wilaya,038019
+G1244,Makedra,council,commune,G0041,,pending,,,,,Commune in Sidi Bel Abbes Wilaya,038020
+G1245,Marhoum,council,commune,G0041,,pending,,,,,Commune in Sidi Bel Abbes Wilaya,038021
+G1246,M'Cid,council,commune,G0041,,pending,,,,,Commune in Sidi Bel Abbes Wilaya,038022
+G1247,Merine,council,commune,G0041,,pending,,,,,Commune in Sidi Bel Abbes Wilaya,038023
+G1248,Mezaourou,council,commune,G0041,,pending,,,,,Commune in Sidi Bel Abbes Wilaya,038024
+G1249,Mostefa Ben Brahim,council,commune,G0041,,pending,,,,,Commune in Sidi Bel Abbes Wilaya,038025
+G1250,Moulay Slissen,council,commune,G0041,,pending,,,,,Commune in Sidi Bel Abbes Wilaya,038026
+G1251,Oued Sbaa,council,commune,G0041,,pending,,,,,Commune in Sidi Bel Abbes Wilaya,038027
+G1252,Oued Sefioun,council,commune,G0041,,pending,,,,,Commune in Sidi Bel Abbes Wilaya,038028
+G1253,Oued Taourira,council,commune,G0041,,pending,,,,,Commune in Sidi Bel Abbes Wilaya,038029
+G1254,Ras El Ma,council,commune,G0041,,pending,,,,,Commune in Sidi Bel Abbes Wilaya,038030
+G1255,Redjem Demmouche,council,commune,G0041,,pending,,,,,Commune in Sidi Bel Abbes Wilaya,038031
+G1256,Sehala Thaoura,council,commune,G0041,,pending,,,,,Commune in Sidi Bel Abbes Wilaya,038032
+G1257,Sfisef,council,commune,G0041,,pending,,,,,Commune in Sidi Bel Abbes Wilaya,038033
+G1258,Sidi Ali Benyoub,council,commune,G0041,,pending,,,,,Commune in Sidi Bel Abbes Wilaya,038034
+G1259,Sidi Ali Boussidi,council,commune,G0041,,pending,,,,,Commune in Sidi Bel Abbes Wilaya,038035
+G1260,Sidi Bel Abbes,council,commune,G0041,,pending,,,,,Commune in Sidi Bel Abbes Wilaya,038036
+G1261,Sidi Brahim,council,commune,G0041,,pending,,,,,Commune in Sidi Bel Abbes Wilaya,038037
+G1262,Sidi Chaib,council,commune,G0041,,pending,,,,,Commune in Sidi Bel Abbes Wilaya,038038
+G1263,Sidi Daho,council,commune,G0041,,pending,,,,,Commune in Sidi Bel Abbes Wilaya,038039
+G1264,Sidi Hamadouche,council,commune,G0041,,pending,,,,,Commune in Sidi Bel Abbes Wilaya,038040
+G1265,Sidi Khaled,council,commune,G0041,,pending,,,,,Commune in Sidi Bel Abbes Wilaya,038041
+G1266,Sidi Lahcene,council,commune,G0041,,pending,,,,,Commune in Sidi Bel Abbes Wilaya,038042
+G1267,Sidi Yacoub,council,commune,G0041,,pending,,,,,Commune in Sidi Bel Abbes Wilaya,038043
+G1268,Tabia,council,commune,G0041,,pending,,,,,Commune in Sidi Bel Abbes Wilaya,038044
+G1269,Tafissour,council,commune,G0041,,pending,,,,,Commune in Sidi Bel Abbes Wilaya,038045
+G1270,Taoudmout,council,commune,G0041,,pending,,,,,Commune in Sidi Bel Abbes Wilaya,038046
+G1271,Teghalimet,council,commune,G0041,,pending,,,,,Commune in Sidi Bel Abbes Wilaya,038047
+G1272,Telagh,council,commune,G0041,,pending,,,,,Commune in Sidi Bel Abbes Wilaya,038048
+G1273,Tenira,council,commune,G0041,,pending,,,,,Commune in Sidi Bel Abbes Wilaya,038049
+G1274,Tessala,council,commune,G0041,,pending,,,,,Commune in Sidi Bel Abbes Wilaya,038050
+G1275,Tilmouni,council,commune,G0041,,pending,,,,,Commune in Sidi Bel Abbes Wilaya,038051
+G1276,Zerouala,council,commune,G0041,,pending,,,,,Commune in Sidi Bel Abbes Wilaya,038052
+G1277,Ain Bouziane,council,commune,G0042,,pending,,,,,Commune in Skikda Wilaya,039001
+G1278,Ain Cherchar,council,commune,G0042,,pending,,,,,Commune in Skikda Wilaya,039002
+G1279,Ain Kechra,council,commune,G0042,,pending,,,,,Commune in Skikda Wilaya,039003
+G1280,Ain Zouit,council,commune,G0042,,pending,,,,,Commune in Skikda Wilaya,039004
+G1281,Azzaba,council,commune,G0042,,pending,,,,,Commune in Skikda Wilaya,039005
+G1282,Bekkouche Lakhdar,council,commune,G0042,,pending,,,,,Commune in Skikda Wilaya,039006
+G1283,Ben Azzouz,council,commune,G0042,,pending,,,,,Commune in Skikda Wilaya,039007
+G1284,Beni Bachir,council,commune,G0042,,pending,,,,,Commune in Skikda Wilaya,039008
+G1285,Beni Oulbane,council,commune,G0042,,pending,,,,,Commune in Skikda Wilaya,039009
+G1286,Beni Zid,council,commune,G0042,,pending,,,,,Commune in Skikda Wilaya,039010
+G1287,Bir El Ouiden,council,commune,G0042,,pending,,,,,Commune in Skikda Wilaya,039011
+G1288,Bouchtata,council,commune,G0042,,pending,,,,,Commune in Skikda Wilaya,039012
+G1289,Cheraia,council,commune,G0042,,pending,,,,,Commune in Skikda Wilaya,039013
+G1290,Collo,council,commune,G0042,,pending,,,,,Commune in Skikda Wilaya,039014
+G1291,Djendel Saadi Mohamed,council,commune,G0042,,pending,,,,,Commune in Skikda Wilaya,039015
+G1292,El Ghedir,council,commune,G0042,,pending,,,,,Commune in Skikda Wilaya,039016
+G1293,El Hadaiek,council,commune,G0042,,pending,,,,,Commune in Skikda Wilaya,039017
+G1294,El Harrouch,council,commune,G0042,,pending,,,,,Commune in Skikda Wilaya,039018
+G1295,El Marsa,council,commune,G0042,,pending,,,,,Commune in Skikda Wilaya,039019
+G1296,Emdjez Edchich,council,commune,G0042,,pending,,,,,Commune in Skikda Wilaya,039020
+G1297,Es Sebt,council,commune,G0042,,pending,,,,,Commune in Skikda Wilaya,039021
+G1298,Fil Fila,council,commune,G0042,,pending,,,,,Commune in Skikda Wilaya,039022
+G1299,Hamadi Krouma,council,commune,G0042,,pending,,,,,Commune in Skikda Wilaya,039023
+G1300,Kanoua,council,commune,G0042,,pending,,,,,Commune in Skikda Wilaya,039024
+G1301,Kerkera,council,commune,G0042,,pending,,,,,Commune in Skikda Wilaya,039025
+G1302,Kheng Mayoum,council,commune,G0042,,pending,,,,,Commune in Skikda Wilaya,039026
+G1303,Oued Zhour,council,commune,G0042,,pending,,,,,Commune in Skikda Wilaya,039027
+G1304,Ouldja Boulbellout,council,commune,G0042,,pending,,,,,Commune in Skikda Wilaya,039028
+G1305,Ouled Attia,council,commune,G0042,,pending,,,,,Commune in Skikda Wilaya,039029
+G1306,Ouled Hebaba,council,commune,G0042,,pending,,,,,Commune in Skikda Wilaya,039030
+G1307,Oum Toub,council,commune,G0042,,pending,,,,,Commune in Skikda Wilaya,039031
+G1308,Ramdane Djamel,council,commune,G0042,,pending,,,,,Commune in Skikda Wilaya,039032
+G1309,Salah Bouchaour,council,commune,G0042,,pending,,,,,Commune in Skikda Wilaya,039033
+G1310,Sidi Mezghiche,council,commune,G0042,,pending,,,,,Commune in Skikda Wilaya,039034
+G1311,Skikda,council,commune,G0042,,pending,,,,,Commune in Skikda Wilaya,039035
+G1312,Tamalous,council,commune,G0042,,pending,,,,,Commune in Skikda Wilaya,039036
+G1313,Zerdezas,council,commune,G0042,,pending,,,,,Commune in Skikda Wilaya,039037
+G1314,Zitouna,council,commune,G0042,,pending,,,,,Commune in Skikda Wilaya,039038
+G1315,Ain Soltane,council,commune,G0043,,pending,,,,,Commune in Souk-Ahras Wilaya,040001
+G1316,Ain Zana,council,commune,G0043,,pending,,,,,Commune in Souk-Ahras Wilaya,040002
+G1317,Bir Bou Haouch,council,commune,G0043,,pending,,,,,Commune in Souk-Ahras Wilaya,040003
+G1318,Drea,council,commune,G0043,,pending,,,,,Commune in Souk-Ahras Wilaya,040004
+G1319,Haddada,council,commune,G0043,,pending,,,,,Commune in Souk-Ahras Wilaya,040005
+G1320,Hanancha,council,commune,G0043,,pending,,,,,Commune in Souk-Ahras Wilaya,040006
+G1321,Khedara,council,commune,G0043,,pending,,,,,Commune in Souk-Ahras Wilaya,040007
+G1322,Khemissa,council,commune,G0043,,pending,,,,,Commune in Souk-Ahras Wilaya,040008
+G1323,M'Daourouche,council,commune,G0043,,pending,,,,,Commune in Souk-Ahras Wilaya,040009
+G1324,Mechroha,council,commune,G0043,,pending,,,,,Commune in Souk-Ahras Wilaya,040010
+G1325,Merahna,council,commune,G0043,,pending,,,,,Commune in Souk-Ahras Wilaya,040011
+G1326,Oued Keberit,council,commune,G0043,,pending,,,,,Commune in Souk-Ahras Wilaya,040012
+G1327,Ouled Driss,council,commune,G0043,,pending,,,,,Commune in Souk-Ahras Wilaya,040013
+G1328,Ouled Moumen,council,commune,G0043,,pending,,,,,Commune in Souk-Ahras Wilaya,040014
+G1329,Oum El Adhaim,council,commune,G0043,,pending,,,,,Commune in Souk-Ahras Wilaya,040015
+G1330,Quillen,council,commune,G0043,,pending,,,,,Commune in Souk-Ahras Wilaya,040016
+G1331,Raggouba,council,commune,G0043,,pending,,,,,Commune in Souk-Ahras Wilaya,040017
+G1332,Safel El Ouiden,council,commune,G0043,,pending,,,,,Commune in Souk-Ahras Wilaya,040018
+G1333,Sedrata,council,commune,G0043,,pending,,,,,Commune in Souk-Ahras Wilaya,040019
+G1334,Sidi Fredj,council,commune,G0043,,pending,,,,,Commune in Souk-Ahras Wilaya,040020
+G1335,Souk-Ahras,council,commune,G0043,,pending,,,,,Commune in Souk-Ahras Wilaya,040021
+G1336,Taoura,council,commune,G0043,,pending,,,,,Commune in Souk-Ahras Wilaya,040022
+G1337,Terraguelt,council,commune,G0043,,pending,,,,,Commune in Souk-Ahras Wilaya,040023
+G1338,Tiffech,council,commune,G0043,,pending,,,,,Commune in Souk-Ahras Wilaya,040024
+G1339,Zaarouria,council,commune,G0043,,pending,,,,,Commune in Souk-Ahras Wilaya,040025
+G1340,Zouabi,council,commune,G0043,,pending,,,,,Commune in Souk-Ahras Wilaya,040026
+G1341,Abalessa,council,commune,G0044,,pending,,,,,Commune in Tamanrasset Wilaya,041001
+G1342,Fouggarat Ez Zouaia,council,commune,G0044,,pending,,,,,Commune in Tamanrasset Wilaya,041002
+G1343,Idles,council,commune,G0044,,pending,,,,,Commune in Tamanrasset Wilaya,041003
+G1344,In Amguel,council,commune,G0044,,pending,,,,,Commune in Tamanrasset Wilaya,041004
+G1345,In Ghar,council,commune,G0044,,pending,,,,,Commune in Tamanrasset Wilaya,041005
+G1346,In Guezzam,council,commune,G0044,,pending,,,,,Commune in Tamanrasset Wilaya,041006
+G1347,In Salah,council,commune,G0044,,pending,,,,,Commune in Tamanrasset Wilaya,041007
+G1348,Tamanrasset,council,commune,G0044,,pending,,,,,Commune in Tamanrasset Wilaya,041008
+G1349,Tazrouk,council,commune,G0044,,pending,,,,,Commune in Tamanrasset Wilaya,041009
+G1350,Tin Zaouatine,council,commune,G0044,,pending,,,,,Commune in Tamanrasset Wilaya,041010
+G1351,Ain Zerga,council,commune,G0045,,pending,,,,,Commune in Tebessa Wilaya,042001
+G1352,Bedjene,council,commune,G0045,,pending,,,,,Commune in Tebessa Wilaya,042002
+G1353,Bekkaria,council,commune,G0045,,pending,,,,,Commune in Tebessa Wilaya,042003
+G1354,Bir Dheheb,council,commune,G0045,,pending,,,,,Commune in Tebessa Wilaya,042004
+G1355,Bir El Ater,council,commune,G0045,,pending,,,,,Commune in Tebessa Wilaya,042005
+G1356,Bir Mokadem,council,commune,G0045,,pending,,,,,Commune in Tebessa Wilaya,042006
+G1357,Boukhadra,council,commune,G0045,,pending,,,,,Commune in Tebessa Wilaya,042007
+G1358,Boulhaf Dyr,council,commune,G0045,,pending,,,,,Commune in Tebessa Wilaya,042008
+G1359,Cheria,council,commune,G0045,,pending,,,,,Commune in Tebessa Wilaya,042009
+G1360,El Aouinet,council,commune,G0045,,pending,,,,,Commune in Tebessa Wilaya,042010
+G1361,El Houidjbet,council,commune,G0045,,pending,,,,,Commune in Tebessa Wilaya,042011
+G1362,El Kouif,council,commune,G0045,,pending,,,,,Commune in Tebessa Wilaya,042012
+G1363,El Ma Labiod,council,commune,G0045,,pending,,,,,Commune in Tebessa Wilaya,042013
+G1364,El Mazeraa,council,commune,G0045,,pending,,,,,Commune in Tebessa Wilaya,042014
+G1365,El Meridj,council,commune,G0045,,pending,,,,,Commune in Tebessa Wilaya,042015
+G1366,El Ogla,council,commune,G0045,,pending,,,,,Commune in Tebessa Wilaya,042016
+G1367,El Ogla El Malha,council,commune,G0045,,pending,,,,,Commune in Tebessa Wilaya,042017
+G1368,El Ouenza,council,commune,G0045,,pending,,,,,Commune in Tebessa Wilaya,042018
+G1369,Ferkane,council,commune,G0045,,pending,,,,,Commune in Tebessa Wilaya,042019
+G1370,Gourigueur,council,commune,G0045,,pending,,,,,Commune in Tebessa Wilaya,042020
+G1371,Hammamet,council,commune,G0045,,pending,,,,,Commune in Tebessa Wilaya,042021
+G1372,Morsot,council,commune,G0045,,pending,,,,,Commune in Tebessa Wilaya,042022
+G1373,Negrine,council,commune,G0045,,pending,,,,,Commune in Tebessa Wilaya,042023
+G1374,Oum Ali,council,commune,G0045,,pending,,,,,Commune in Tebessa Wilaya,042024
+G1375,Safsaf El Ouesra,council,commune,G0045,,pending,,,,,Commune in Tebessa Wilaya,042025
+G1376,Stah Guentis,council,commune,G0045,,pending,,,,,Commune in Tebessa Wilaya,042026
+G1377,Tebessa,council,commune,G0045,,pending,,,,,Commune in Tebessa Wilaya,042027
+G1378,Thlidjene,council,commune,G0045,,pending,,,,,Commune in Tebessa Wilaya,042028
+G1379,Ain Bouchekif,council,commune,G0046,,pending,,,,,Commune in Tiaret Wilaya,043001
+G1380,Ain Deheb,council,commune,G0046,,pending,,,,,Commune in Tiaret Wilaya,043002
+G1381,Ain El Hadid,council,commune,G0046,,pending,,,,,Commune in Tiaret Wilaya,043003
+G1382,Ain Kermes,council,commune,G0046,,pending,,,,,Commune in Tiaret Wilaya,043004
+G1383,Ain Zarit,council,commune,G0046,,pending,,,,,Commune in Tiaret Wilaya,043005
+G1384,Bougara,council,commune,G0046,,pending,,,,,Commune in Tiaret Wilaya,043006
+G1385,Chehaima,council,commune,G0046,,pending,,,,,Commune in Tiaret Wilaya,043007
+G1386,Dahmouni,council,commune,G0046,,pending,,,,,Commune in Tiaret Wilaya,043008
+G1387,Djebilet Rosfa,council,commune,G0046,,pending,,,,,Commune in Tiaret Wilaya,043009
+G1388,Djillali Ben Amar,council,commune,G0046,,pending,,,,,Commune in Tiaret Wilaya,043010
+G1389,Faidja,council,commune,G0046,,pending,,,,,Commune in Tiaret Wilaya,043011
+G1390,Frenda,council,commune,G0046,,pending,,,,,Commune in Tiaret Wilaya,043012
+G1391,Guertoufa,council,commune,G0046,,pending,,,,,Commune in Tiaret Wilaya,043013
+G1392,Hamadia,council,commune,G0046,,pending,,,,,Commune in Tiaret Wilaya,043014
+G1393,Ksar Chellala,council,commune,G0046,,pending,,,,,Commune in Tiaret Wilaya,043015
+G1394,Machraa Sfa,council,commune,G0046,,pending,,,,,Commune in Tiaret Wilaya,043016
+G1395,Madna,council,commune,G0046,,pending,,,,,Commune in Tiaret Wilaya,043017
+G1396,Mahdia,council,commune,G0046,,pending,,,,,Commune in Tiaret Wilaya,043018
+G1397,Medrissa,council,commune,G0046,,pending,,,,,Commune in Tiaret Wilaya,043019
+G1398,Medroussa,council,commune,G0046,,pending,,,,,Commune in Tiaret Wilaya,043020
+G1399,Meghila,council,commune,G0046,,pending,,,,,Commune in Tiaret Wilaya,043021
+G1400,Mellakou,council,commune,G0046,,pending,,,,,Commune in Tiaret Wilaya,043022
+G1401,Nadorah,council,commune,G0046,,pending,,,,,Commune in Tiaret Wilaya,043023
+G1402,Naima,council,commune,G0046,,pending,,,,,Commune in Tiaret Wilaya,043024
+G1403,Oued Lilli,council,commune,G0046,,pending,,,,,Commune in Tiaret Wilaya,043025
+G1404,Rahouia,council,commune,G0046,,pending,,,,,Commune in Tiaret Wilaya,043026
+G1405,Rechaiga,council,commune,G0046,,pending,,,,,Commune in Tiaret Wilaya,043027
+G1406,Sebaine,council,commune,G0046,,pending,,,,,Commune in Tiaret Wilaya,043028
+G1407,Sebt,council,commune,G0046,,pending,,,,,Commune in Tiaret Wilaya,043029
+G1408,Serghine,council,commune,G0046,,pending,,,,,Commune in Tiaret Wilaya,043030
+G1409,Sidi Abdelghani,council,commune,G0046,,pending,,,,,Commune in Tiaret Wilaya,043031
+G1410,Sidi Abderrahmane,council,commune,G0046,,pending,,,,,Commune in Tiaret Wilaya,043032
+G1411,Sidi Ali Mellal,council,commune,G0046,,pending,,,,,Commune in Tiaret Wilaya,043033
+G1412,Sidi Bakhti,council,commune,G0046,,pending,,,,,Commune in Tiaret Wilaya,043034
+G1413,Sidi Hosni,council,commune,G0046,,pending,,,,,Commune in Tiaret Wilaya,043035
+G1414,Sougueur,council,commune,G0046,,pending,,,,,Commune in Tiaret Wilaya,043036
+G1415,Tagdemt,council,commune,G0046,,pending,,,,,Commune in Tiaret Wilaya,043037
+G1416,Takhmaret,council,commune,G0046,,pending,,,,,Commune in Tiaret Wilaya,043038
+G1417,Tiaret,council,commune,G0046,,pending,,,,,Commune in Tiaret Wilaya,043039
+G1418,Tidda,council,commune,G0046,,pending,,,,,Commune in Tiaret Wilaya,043040
+G1419,Tousnina,council,commune,G0046,,pending,,,,,Commune in Tiaret Wilaya,043041
+G1420,Zmalet Emir Abdelkader,council,commune,G0046,,pending,,,,,Commune in Tiaret Wilaya,043042
+G1421,Oum El Assel,council,commune,G0047,,pending,,,,,Commune in Tindouf Wilaya,044001
+G1422,Tindouf,council,commune,G0047,,pending,,,,,Commune in Tindouf Wilaya,044002
+G1423,Aghbal,council,commune,G0048,,pending,,,,,Commune in Tipaza Wilaya,045001
+G1424,Ahmer El Ain,council,commune,G0048,,pending,,,,,Commune in Tipaza Wilaya,045002
+G1425,Ain Tagourait,council,commune,G0048,,pending,,,,,Commune in Tipaza Wilaya,045003
+G1426,Beni Milleuk,council,commune,G0048,,pending,,,,,Commune in Tipaza Wilaya,045004
+G1427,Bou Ismail,council,commune,G0048,,pending,,,,,Commune in Tipaza Wilaya,045005
+G1428,Bouharoun,council,commune,G0048,,pending,,,,,Commune in Tipaza Wilaya,045006
+G1429,Bourkika,council,commune,G0048,,pending,,,,,Commune in Tipaza Wilaya,045007
+G1430,Chaiba,council,commune,G0048,,pending,,,,,Commune in Tipaza Wilaya,045008
+G1431,Cherchel,council,commune,G0048,,pending,,,,,Commune in Tipaza Wilaya,045009
+G1432,Damous,council,commune,G0048,,pending,,,,,Commune in Tipaza Wilaya,045010
+G1433,Douaouda,council,commune,G0048,,pending,,,,,Commune in Tipaza Wilaya,045011
+G1434,Fouka,council,commune,G0048,,pending,,,,,Commune in Tipaza Wilaya,045012
+G1435,Gouraya,council,commune,G0048,,pending,,,,,Commune in Tipaza Wilaya,045013
+G1436,Hadjeret Ennous,council,commune,G0048,,pending,,,,,Commune in Tipaza Wilaya,045014
+G1437,Hadjout,council,commune,G0048,,pending,,,,,Commune in Tipaza Wilaya,045015
+G1438,Hattatba,council,commune,G0048,,pending,,,,,Commune in Tipaza Wilaya,045016
+G1439,Khemisti,council,commune,G0048,,pending,,,,,Commune in Tipaza Wilaya,045017
+G1440,Kolea,council,commune,G0048,,pending,,,,,Commune in Tipaza Wilaya,045018
+G1441,Larhat,council,commune,G0048,,pending,,,,,Commune in Tipaza Wilaya,045019
+G1442,Menaceur,council,commune,G0048,,pending,,,,,Commune in Tipaza Wilaya,045020
+G1443,Messelmoun,council,commune,G0048,,pending,,,,,Commune in Tipaza Wilaya,045021
+G1444,Meurad,council,commune,G0048,,pending,,,,,Commune in Tipaza Wilaya,045022
+G1445,Nador,council,commune,G0048,,pending,,,,,Commune in Tipaza Wilaya,045023
+G1446,Sidi Amar,council,commune,G0048,,pending,,,,,Commune in Tipaza Wilaya,045024
+G1447,Sidi Ghiles,council,commune,G0048,,pending,,,,,Commune in Tipaza Wilaya,045025
+G1448,Sidi Rached,council,commune,G0048,,pending,,,,,Commune in Tipaza Wilaya,045026
+G1449,Sidi Semiane,council,commune,G0048,,pending,,,,,Commune in Tipaza Wilaya,045027
+G1450,Tipaza,council,commune,G0048,,pending,,,,,Commune in Tipaza Wilaya,045028
+G1451,Ammari,council,commune,G0049,,pending,,,,,Commune in Tissemsilt Wilaya,046001
+G1452,Beni Chaib,council,commune,G0049,,pending,,,,,Commune in Tissemsilt Wilaya,046002
+G1453,Beni Lahcene,council,commune,G0049,,pending,,,,,Commune in Tissemsilt Wilaya,046003
+G1454,Bordj Bounaama,council,commune,G0049,,pending,,,,,Commune in Tissemsilt Wilaya,046004
+G1455,Bordj El Emir Abdelkader,council,commune,G0049,,pending,,,,,Commune in Tissemsilt Wilaya,046005
+G1456,Boucaid,council,commune,G0049,,pending,,,,,Commune in Tissemsilt Wilaya,046006
+G1457,Khemisti,council,commune,G0049,,pending,,,,,Commune in Tissemsilt Wilaya,046007
+G1458,Larbaa,council,commune,G0049,,pending,,,,,Commune in Tissemsilt Wilaya,046008
+G1459,Lardjem,council,commune,G0049,,pending,,,,,Commune in Tissemsilt Wilaya,046009
+G1460,Layoune,council,commune,G0049,,pending,,,,,Commune in Tissemsilt Wilaya,046010
+G1461,Lazharia,council,commune,G0049,,pending,,,,,Commune in Tissemsilt Wilaya,046011
+G1462,Maacem,council,commune,G0049,,pending,,,,,Commune in Tissemsilt Wilaya,046012
+G1463,Melaab,council,commune,G0049,,pending,,,,,Commune in Tissemsilt Wilaya,046013
+G1464,Ouled Bessem,council,commune,G0049,,pending,,,,,Commune in Tissemsilt Wilaya,046014
+G1465,Sidi Abed,council,commune,G0049,,pending,,,,,Commune in Tissemsilt Wilaya,046015
+G1466,Sidi Boutouchent,council,commune,G0049,,pending,,,,,Commune in Tissemsilt Wilaya,046016
+G1467,Sidi Lantri,council,commune,G0049,,pending,,,,,Commune in Tissemsilt Wilaya,046017
+G1468,Sidi Slimane,council,commune,G0049,,pending,,,,,Commune in Tissemsilt Wilaya,046018
+G1469,Tamalaht,council,commune,G0049,,pending,,,,,Commune in Tissemsilt Wilaya,046019
+G1470,Theniet El Had,council,commune,G0049,,pending,,,,,Commune in Tissemsilt Wilaya,046020
+G1471,Tissemsilt,council,commune,G0049,,pending,,,,,Commune in Tissemsilt Wilaya,046021
+G1472,Youssoufia,council,commune,G0049,,pending,,,,,Commune in Tissemsilt Wilaya,046022
+G1473,Abi Youcef,council,commune,G0050,,pending,,,,,Commune in Tizi Ouzou Wilaya,047001
+G1474,Aghni Goughran,council,commune,G0050,,pending,,,,,Commune in Tizi Ouzou Wilaya,047002
+G1475,Aghrib,council,commune,G0050,,pending,,,,,Commune in Tizi Ouzou Wilaya,047003
+G1476,Ain El Hammam,council,commune,G0050,,pending,,,,,Commune in Tizi Ouzou Wilaya,047004
+G1477,Ain Zaouia,council,commune,G0050,,pending,,,,,Commune in Tizi Ouzou Wilaya,047005
+G1478,Ait Aggouacha,council,commune,G0050,,pending,,,,,Commune in Tizi Ouzou Wilaya,047006
+G1479,Ait Aissa Mimoun,council,commune,G0050,,pending,,,,,Commune in Tizi Ouzou Wilaya,047007
+G1480,Ait Bouadou,council,commune,G0050,,pending,,,,,Commune in Tizi Ouzou Wilaya,047008
+G1481,Ait Boumahdi,council,commune,G0050,,pending,,,,,Commune in Tizi Ouzou Wilaya,047009
+G1482,Ait Chaffaa,council,commune,G0050,,pending,,,,,Commune in Tizi Ouzou Wilaya,047010
+G1483,Ait Khelili,council,commune,G0050,,pending,,,,,Commune in Tizi Ouzou Wilaya,047011
+G1484,Ait Mahmoud,council,commune,G0050,,pending,,,,,Commune in Tizi Ouzou Wilaya,047012
+G1485,Ait Oumalou,council,commune,G0050,,pending,,,,,Commune in Tizi Ouzou Wilaya,047013
+G1486,Ait Toudert,council,commune,G0050,,pending,,,,,Commune in Tizi Ouzou Wilaya,047014
+G1487,Ait Yahia,council,commune,G0050,,pending,,,,,Commune in Tizi Ouzou Wilaya,047015
+G1488,Ait Yahia Moussa,council,commune,G0050,,pending,,,,,Commune in Tizi Ouzou Wilaya,047016
+G1489,Akbil,council,commune,G0050,,pending,,,,,Commune in Tizi Ouzou Wilaya,047017
+G1490,Akerrou,council,commune,G0050,,pending,,,,,Commune in Tizi Ouzou Wilaya,047018
+G1491,Assi Youcef,council,commune,G0050,,pending,,,,,Commune in Tizi Ouzou Wilaya,047019
+G1492,Azazga,council,commune,G0050,,pending,,,,,Commune in Tizi Ouzou Wilaya,047020
+G1493,Azeffoun,council,commune,G0050,,pending,,,,,Commune in Tizi Ouzou Wilaya,047021
+G1494,Beni Aissi,council,commune,G0050,,pending,,,,,Commune in Tizi Ouzou Wilaya,047022
+G1495,Beni Douala,council,commune,G0050,,pending,,,,,Commune in Tizi Ouzou Wilaya,047023
+G1496,Beni Yenni,council,commune,G0050,,pending,,,,,Commune in Tizi Ouzou Wilaya,047024
+G1497,Beni Ziki,council,commune,G0050,,pending,,,,,Commune in Tizi Ouzou Wilaya,047025
+G1498,Beni Zmenzer,council,commune,G0050,,pending,,,,,Commune in Tizi Ouzou Wilaya,047026
+G1499,Boghni,council,commune,G0050,,pending,,,,,Commune in Tizi Ouzou Wilaya,047027
+G1500,Boudjima,council,commune,G0050,,pending,,,,,Commune in Tizi Ouzou Wilaya,047028
+G1501,Bounouh,council,commune,G0050,,pending,,,,,Commune in Tizi Ouzou Wilaya,047029
+G1502,Bouzguen,council,commune,G0050,,pending,,,,,Commune in Tizi Ouzou Wilaya,047030
+G1503,Draa Ben Khedda,council,commune,G0050,,pending,,,,,Commune in Tizi Ouzou Wilaya,047031
+G1504,Draa El Mizan,council,commune,G0050,,pending,,,,,Commune in Tizi Ouzou Wilaya,047032
+G1505,Freha,council,commune,G0050,,pending,,,,,Commune in Tizi Ouzou Wilaya,047033
+G1506,Frikat,council,commune,G0050,,pending,,,,,Commune in Tizi Ouzou Wilaya,047034
+G1507,Iboudraren,council,commune,G0050,,pending,,,,,Commune in Tizi Ouzou Wilaya,047035
+G1508,Idjeur,council,commune,G0050,,pending,,,,,Commune in Tizi Ouzou Wilaya,047036
+G1509,Iferhounene,council,commune,G0050,,pending,,,,,Commune in Tizi Ouzou Wilaya,047037
+G1510,Ifigha,council,commune,G0050,,pending,,,,,Commune in Tizi Ouzou Wilaya,047038
+G1511,Iflissen,council,commune,G0050,,pending,,,,,Commune in Tizi Ouzou Wilaya,047039
+G1512,Illilten,council,commune,G0050,,pending,,,,,Commune in Tizi Ouzou Wilaya,047040
+G1513,Iloula Oumalou,council,commune,G0050,,pending,,,,,Commune in Tizi Ouzou Wilaya,047041
+G1514,Imsouhal,council,commune,G0050,,pending,,,,,Commune in Tizi Ouzou Wilaya,047042
+G1515,Irdjen,council,commune,G0050,,pending,,,,,Commune in Tizi Ouzou Wilaya,047043
+G1516,Larba Nait Irathen,council,commune,G0050,,pending,,,,,Commune in Tizi Ouzou Wilaya,047044
+G1517,Maatka,council,commune,G0050,,pending,,,,,Commune in Tizi Ouzou Wilaya,047045
+G1518,Makouda,council,commune,G0050,,pending,,,,,Commune in Tizi Ouzou Wilaya,047046
+G1519,Mechtrass,council,commune,G0050,,pending,,,,,Commune in Tizi Ouzou Wilaya,047047
+G1520,Mekla,council,commune,G0050,,pending,,,,,Commune in Tizi Ouzou Wilaya,047048
+G1521,Mizrana,council,commune,G0050,,pending,,,,,Commune in Tizi Ouzou Wilaya,047049
+G1522,M'Kira,council,commune,G0050,,pending,,,,,Commune in Tizi Ouzou Wilaya,047050
+G1523,Ouacif,council,commune,G0050,,pending,,,,,Commune in Tizi Ouzou Wilaya,047051
+G1524,Ouadhia,council,commune,G0050,,pending,,,,,Commune in Tizi Ouzou Wilaya,047052
+G1525,Ouaguenoun,council,commune,G0050,,pending,,,,,Commune in Tizi Ouzou Wilaya,047053
+G1526,Sidi Naamane,council,commune,G0050,,pending,,,,,Commune in Tizi Ouzou Wilaya,047054
+G1527,Souamaa,council,commune,G0050,,pending,,,,,Commune in Tizi Ouzou Wilaya,047055
+G1528,Souk El Tenine,council,commune,G0050,,pending,,,,,Commune in Tizi Ouzou Wilaya,047056
+G1529,Tadmait,council,commune,G0050,,pending,,,,,Commune in Tizi Ouzou Wilaya,047057
+G1530,Tigzirt,council,commune,G0050,,pending,,,,,Commune in Tizi Ouzou Wilaya,047058
+G1531,Timizart,council,commune,G0050,,pending,,,,,Commune in Tizi Ouzou Wilaya,047059
+G1532,Tirmitine,council,commune,G0050,,pending,,,,,Commune in Tizi Ouzou Wilaya,047060
+G1533,Tizi Ghenif,council,commune,G0050,,pending,,,,,Commune in Tizi Ouzou Wilaya,047061
+G1534,Tizi N'Thleta,council,commune,G0050,,pending,,,,,Commune in Tizi Ouzou Wilaya,047062
+G1535,Tizi Ouzou,council,commune,G0050,,done,R001,2026-11-07,1,1,Sampled Tizi Ouzou commune; home constituency of Senator and FFS leader Youcef Aouchiche (A0006); no APC municipal wealth tax motions.,047063
+G1536,Tizi Rached,council,commune,G0050,,pending,,,,,Commune in Tizi Ouzou Wilaya,047064
+G1537,Yakouren,council,commune,G0050,,pending,,,,,Commune in Tizi Ouzou Wilaya,047065
+G1538,Yatafen,council,commune,G0050,,pending,,,,,Commune in Tizi Ouzou Wilaya,047066
+G1539,Zekri,council,commune,G0050,,pending,,,,,Commune in Tizi Ouzou Wilaya,047067
+G1540,Ain Fetah,council,commune,G0051,,pending,,,,,Commune in Tlemcen Wilaya,048001
+G1541,Ain Fezza,council,commune,G0051,,pending,,,,,Commune in Tlemcen Wilaya,048002
+G1542,Ain Ghoraba,council,commune,G0051,,pending,,,,,Commune in Tlemcen Wilaya,048003
+G1543,Ain Kebira,council,commune,G0051,,pending,,,,,Commune in Tlemcen Wilaya,048004
+G1544,Ain Nehala,council,commune,G0051,,pending,,,,,Commune in Tlemcen Wilaya,048005
+G1545,Ain Tallout,council,commune,G0051,,pending,,,,,Commune in Tlemcen Wilaya,048006
+G1546,Ain Youcef,council,commune,G0051,,pending,,,,,Commune in Tlemcen Wilaya,048007
+G1547,Amieur,council,commune,G0051,,pending,,,,,Commune in Tlemcen Wilaya,048008
+G1548,Azails,council,commune,G0051,,pending,,,,,Commune in Tlemcen Wilaya,048009
+G1549,Bab El Assa,council,commune,G0051,,pending,,,,,Commune in Tlemcen Wilaya,048010
+G1550,Beni Bahdel,council,commune,G0051,,pending,,,,,Commune in Tlemcen Wilaya,048011
+G1551,Beni Boussaid,council,commune,G0051,,pending,,,,,Commune in Tlemcen Wilaya,048012
+G1552,Beni Khellad,council,commune,G0051,,pending,,,,,Commune in Tlemcen Wilaya,048013
+G1553,Beni Mester,council,commune,G0051,,pending,,,,,Commune in Tlemcen Wilaya,048014
+G1554,Beni Ouarsous,council,commune,G0051,,pending,,,,,Commune in Tlemcen Wilaya,048015
+G1555,Beni Semiel,council,commune,G0051,,pending,,,,,Commune in Tlemcen Wilaya,048016
+G1556,Beni Snous,council,commune,G0051,,pending,,,,,Commune in Tlemcen Wilaya,048017
+G1557,Bensekrane,council,commune,G0051,,pending,,,,,Commune in Tlemcen Wilaya,048018
+G1558,Bouhlou,council,commune,G0051,,pending,,,,,Commune in Tlemcen Wilaya,048019
+G1559,Chetouane,council,commune,G0051,,pending,,,,,Commune in Tlemcen Wilaya,048020
+G1560,Dar Yaghmourassene,council,commune,G0051,,pending,,,,,Commune in Tlemcen Wilaya,048021
+G1561,Djebala,council,commune,G0051,,pending,,,,,Commune in Tlemcen Wilaya,048022
+G1562,El Aricha,council,commune,G0051,,pending,,,,,Commune in Tlemcen Wilaya,048023
+G1563,El Bouihi,council,commune,G0051,,pending,,,,,Commune in Tlemcen Wilaya,048024
+G1564,El Fehoul,council,commune,G0051,,pending,,,,,Commune in Tlemcen Wilaya,048025
+G1565,El Gor,council,commune,G0051,,pending,,,,,Commune in Tlemcen Wilaya,048026
+G1566,Fellaoucene,council,commune,G0051,,pending,,,,,Commune in Tlemcen Wilaya,048027
+G1567,Ghazaouet,council,commune,G0051,,pending,,,,,Commune in Tlemcen Wilaya,048028
+G1568,Hammam Boughrara,council,commune,G0051,,pending,,,,,Commune in Tlemcen Wilaya,048029
+G1569,Henaya,council,commune,G0051,,pending,,,,,Commune in Tlemcen Wilaya,048030
+G1570,Honaine,council,commune,G0051,,pending,,,,,Commune in Tlemcen Wilaya,048031
+G1571,Maghnia,council,commune,G0051,,pending,,,,,Commune in Tlemcen Wilaya,048032
+G1572,Mansourah,council,commune,G0051,,pending,,,,,Commune in Tlemcen Wilaya,048033
+G1573,Mersa Ben M'Hidi,council,commune,G0051,,pending,,,,,Commune in Tlemcen Wilaya,048034
+G1574,M'Sirda Fouaga,council,commune,G0051,,pending,,,,,Commune in Tlemcen Wilaya,048035
+G1575,Nedroma,council,commune,G0051,,pending,,,,,Commune in Tlemcen Wilaya,048036
+G1576,Oued Chouly,council,commune,G0051,,pending,,,,,Commune in Tlemcen Wilaya,048037
+G1577,Ouled Mimoun,council,commune,G0051,,pending,,,,,Commune in Tlemcen Wilaya,048038
+G1578,Ouled Riah,council,commune,G0051,,pending,,,,,Commune in Tlemcen Wilaya,048039
+G1579,Remchi,council,commune,G0051,,pending,,,,,Commune in Tlemcen Wilaya,048040
+G1580,Sabra,council,commune,G0051,,pending,,,,,Commune in Tlemcen Wilaya,048041
+G1581,Sebaa Chioukh,council,commune,G0051,,pending,,,,,Commune in Tlemcen Wilaya,048042
+G1582,Sebdou,council,commune,G0051,,pending,,,,,Commune in Tlemcen Wilaya,048043
+G1583,Sidi Abdelli,council,commune,G0051,,pending,,,,,Commune in Tlemcen Wilaya,048044
+G1584,Sidi Djillali,council,commune,G0051,,pending,,,,,Commune in Tlemcen Wilaya,048045
+G1585,Sidi Medjahed,council,commune,G0051,,pending,,,,,Commune in Tlemcen Wilaya,048046
+G1586,Souahlia,council,commune,G0051,,pending,,,,,Commune in Tlemcen Wilaya,048047
+G1587,Souani,council,commune,G0051,,pending,,,,,Commune in Tlemcen Wilaya,048048
+G1588,Souk Thlata,council,commune,G0051,,pending,,,,,Commune in Tlemcen Wilaya,048049
+G1589,Terni Beni Hediel,council,commune,G0051,,pending,,,,,Commune in Tlemcen Wilaya,048050
+G1590,Tienet,council,commune,G0051,,pending,,,,,Commune in Tlemcen Wilaya,048051
+G1591,Tlemcen,council,commune,G0051,,pending,,,,,Commune in Tlemcen Wilaya,048052
+G1592,Zenata,council,commune,G0051,,pending,,,,,Commune in Tlemcen Wilaya,048053

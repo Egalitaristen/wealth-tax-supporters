@@ -1,0 +1,10 @@
+link_id,from_actor_id,to_actor_id,link_type,evidence_id,source_url,note
+L0001,A0002,A0001,leads,E00003,https://elhiwar.dz/locale/99848/,Secrétaire générale du Parti des Travailleurs
+L0002,A0003,A0001,member_of,E00001,https://www.tsa-algerie.com/instauration-de-limpot-sur-la-fortune-le-pt-se-rejouit/,Député and national leadership member of the Parti des Travailleurs
+L0003,A0004,A0001,member_of,E00007,https://www.echoroukonline.com/%D8%A7%D9%84%D8%A8%D8%B1%D9%84%D9%85%D8%A7%D9%86%E2%80%AE-%E2%80%AC%D9%8A%D9%8F%D9%81%D8%B1%D9%85%D9%84%E2%80%AE-%E2%80%AC%D8%A7%D9%84%D9%82%D8%B1%D9%88%D8%B6%E2%80%AE-%E2%80%AC%D8%A7%D9%84%D8%A7,Député du Parti des Travailleurs
+L0004,A0006,A0005,leads,E00008,https://www.lnr-dz.com/2024/08/29/jinstaurerais-et-jappliquerais-limpot-sur-la-fortune/,Premier secrétaire national du Front des Forces Socialistes
+L0005,A0008,A0007,leads,E00011,https://www.tsa-algerie.com/limpot-sur-la-fortune-projet-improvise-et-fiasco-politique/,Former Président du Mouvement de la Société pour la Paix
+L0006,A0009,A0007,member_of,E00012,https://www.hespress.com/%D9%82%D8%B1%D8%A7%D8%A1%D8%A9-%D9%81%D9%8A-%D9%85%D8%B6%D8%A7%D9%85%D9%8A%D9%86-%D8%A8%D8%B9%D8%B6-%D8%A7%D9%84%D8%B5%D8%AD%D9%81-%D8%A7%D9%84%D9%85%D8%BA%D8%A7%D8%B1%D8%A8%D9%8A%D8%A9-%D9%84-400-394990.html,Former Président du groupe parlementaire du MSP
+L0007,A0013,A0012,leads,E00016,https://www.jeune-independant.net/ugta-labatcha-reclame-une-baisse-de-limpot-sur-les-salaires/,Secrétaire général de l'UGTA (2019–2023)
+L0008,A0016,A0018,leads,E00020,https://algerie-eco.com/2020/05/18/impot-sur-la-fortune-ce-que-propose-le-plfc-2020/,Ministre des Finances piloting the 2018 and 2020 ISF bills
+L0009,A0017,A0018,leads,E00021,https://algerie-eco.com/2023/05/03/laziz-faid-la-fiscalite-ordinaire-doit-couvrir-les-depenses-salariales-a-court-terme/,Ministre des Finances (2023–2025)
