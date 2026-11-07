@@ -24,23 +24,33 @@ Q0022,R007,2026-11-06,pl,Włodzimierz Czarzasty podatek majątkowy,seat_sweep,3,
 Q0023,R007,2026-11-06,pl,Krzysztof Gawkowski podatek majątkowy,seat_sweep,3,0,No personal wealth-stock statement found
 Q0024,R007,2026-11-06,pl,Katarzyna Kotula podatek majątkowy,seat_sweep,3,0,No personal wealth-stock statement found
 Q0025,R007,2026-11-06,pl,Katarzyna Ueberhan podatek majątkowy,seat_sweep,3,0,No personal wealth-stock statement found
-Q0026,R007,2026-11-06,pl,site:api.sejm.gov.pl/sejm/term10/interpellations "posiadanego majątku",parliament_search,5,7,Retrieved Interpelacja nr 2117 signed by 7 sitting Sejm MPs
-Q0027,R007,2026-11-06,pl,site:rp.pl "Ludwik Kotecki" "podatek majątkowy",web_search,4,0,Confirmed proposal focuses on cadastral / real property tax (podatek od nieruchomości); confirmed X0002 exclusion
-Q0028,R007,2026-11-06,pl,"Marta Stożek" "podatek" OR "majątkowy" OR "bogactwa",seat_sweep,5,0,Scanned all 50 term-10 interpellations and campaign site; no personal net-wealth-tax endorsement
-Q0029,R007,2026-11-06,pl,"Aleksandra Owca" "podatek" OR "majątkowy" OR "Razem",seat_sweep,4,0,Kraków city councillor and Razem co-chair; initiated local tax on vacant properties (pustostany); no personal net wealth tax statement
-Q0030,R007,2026-11-06,pl,"Krzysztof Kukucki" "podatek majątkowy",seat_sweep,3,0,Former Senator and Mayor of Włocławek; advocated cadastral tax on 2nd/3rd+ apartments; out of definition
-Q0031,R007,2026-11-06,pl,"Marcin Karpiński" OR "Piotr Woźniak" OR "Stanisław Pawlak" senator "podatek majątkowy",seat_sweep,6,0,Screened sitting Lewica senators; no personal wealth-stock statements found
-Q0032,R007,2026-11-06,pl,site:api.sejm.gov.pl/sejm/term10/interpellations "posiadanego majątku" OR "podatku majątkowego",parliament_search,5,0,Confirmed Interpelacja 2117 is the sole term-10 parliamentary interpellation advocating taxation of held wealth
-Q0033,R007,2026-11-06,pl,"Grzegorz Napieralski" "podatek majątkowy" OR "podatku majątkowego",seat_sweep,4,0,Prominent KO left-wing MP; statements limited to VAT/bank/PIT, no wealth-stock proposal
-Q0034,R007,2026-11-06,pl,"Agnieszka Dziemianowicz-Bąk" "podatek majątkowy",seat_sweep,4,0,Minister of Family/Labour; statements limited to salary PIT and property, no net-wealth-tax proposal
-Q0035,R007,2026-11-06,pl,"Jakub Sawulski" "podatek majątkowy",expert_search,4,0,SGH/Instrat economist; sceptical of wealth-tax revenue potential, recommends progressive PIT and capital gains reform
-Q0036,R007,2026-11-06,pl,"Marcin Wroński" "podatek majątkowy",expert_search,5,0,IBS policy paper author; analysed wealth taxation in Poland, concluded low yield/high cost and favoured progressive PIT and inheritance tax
-Q0037,R007,2026-11-06,fr,"OJ C/2025/1589 page 59 A9-0053/2024 amendment 10",parliament_search,3,1,Retrieved official roll-call for 2024-02-27 EP vote; verified A0045 Sylwia Spurek voted Pour, yielding E00321
-Q0038,R007,2026-11-06,pl,"Maciej Gdula" "podatek majątkowy",seat_sweep,4,0,Former Lewica MP / Undersecretary of State; debate on income/health contribution and rental properties, no net-wealth proposal
-Q0039,R007,2026-11-06,pl,"Adam Bodnar" "podatek majątkowy",seat_sweep,3,0,Senator / Minister of Justice; asset declaration coverage and RPO tax casework, no wealth-stock stance
-Q0040,R007,2026-11-06,pl,"Sławomir Sierakowski" "podatek majątkowy",expert_search,4,0,Krytyka Polityczna editor; editorial coverage of Piketty and global tax debates, no personal attributable proposal
-Q0041,R007,2026-11-06,pl,"Przemysław Sadura" "podatek majątkowy",expert_search,4,0,UW sociologist; research and commentary on social inequality and welfare state, no personal wealth-stock endorsement
-Q0042,R007,2026-11-07,pl,site:api.sejm.gov.pl/sejm/term9/prints "podatek",parliament_search,5,0,Scanned all 4142 term-9 prints (190 tax-related); confirmed 0 net-wealth-tax bills introduced
-Q0043,R007,2026-11-07,pl,site:api.sejm.gov.pl/sejm/term10/prints "podatek",parliament_search,5,0,Scanned all 3571 term-10 prints (253 tax-related); confirmed 0 net-wealth-tax bills introduced
-Q0044,R007,2026-11-07,pl,site:api.sejm.gov.pl/sejm/term9/interpellations Razem MPs,parliament_search,6,0,Scanned interpellations from 15 Lewica/Razem MPs in term 9; digital tax and income relief only, no wealth-tax motion
-Q0045,R007,2026-11-07,pl,"Jakub Żynis" "podatek" OR "majątkowy" OR "Razem",seat_sweep,4,0,Gdynia city councillor (Partia Razem); local municipal finances and PIT share, no personal wealth-stock stance
+Q0026,R007,2026-11-06,pl,"site:api.sejm.gov.pl/sejm/term10/interpellations ""posiadanego majątku""",parliament_search,5,7,Retrieved Interpelacja nr 2117 signed by 7 sitting Sejm MPs
+Q0027,R007,2026-11-06,pl,"site:rp.pl ""Ludwik Kotecki"" ""podatek majątkowy""",web_search,4,0,Confirmed proposal focuses on cadastral / real property tax (podatek od nieruchomości); confirmed X0002 exclusion
+Q0028,R007,2026-11-06,pl,"""Marta Stożek"" ""podatek"" OR ""majątkowy"" OR ""bogactwa""",seat_sweep,5,0,Scanned all 50 term-10 interpellations and campaign site; no personal net-wealth-tax endorsement
+Q0029,R007,2026-11-06,pl,"""Aleksandra Owca"" ""podatek"" OR ""majątkowy"" OR ""Razem""",seat_sweep,4,0,Kraków city councillor and Razem co-chair; initiated local tax on vacant properties (pustostany); no personal net wealth tax statement
+Q0030,R007,2026-11-06,pl,"""Krzysztof Kukucki"" ""podatek majątkowy""",seat_sweep,3,0,Former Senator and Mayor of Włocławek; advocated cadastral tax on 2nd/3rd+ apartments; out of definition
+Q0031,R007,2026-11-06,pl,"""Marcin Karpiński"" OR ""Piotr Woźniak"" OR ""Stanisław Pawlak"" senator ""podatek majątkowy""",seat_sweep,6,0,Screened sitting Lewica senators; no personal wealth-stock statements found
+Q0032,R007,2026-11-06,pl,"site:api.sejm.gov.pl/sejm/term10/interpellations ""posiadanego majątku"" OR ""podatku majątkowego""",parliament_search,5,0,Confirmed Interpelacja 2117 is the sole term-10 parliamentary interpellation advocating taxation of held wealth
+Q0033,R007,2026-11-06,pl,"""Grzegorz Napieralski"" ""podatek majątkowy"" OR ""podatku majątkowego""",seat_sweep,4,0,"Prominent KO left-wing MP; statements limited to VAT/bank/PIT, no wealth-stock proposal"
+Q0034,R007,2026-11-06,pl,"""Agnieszka Dziemianowicz-Bąk"" ""podatek majątkowy""",seat_sweep,4,0,"Minister of Family/Labour; statements limited to salary PIT and property, no net-wealth-tax proposal"
+Q0035,R007,2026-11-06,pl,"""Jakub Sawulski"" ""podatek majątkowy""",expert_search,4,0,"SGH/Instrat economist; sceptical of wealth-tax revenue potential, recommends progressive PIT and capital gains reform"
+Q0036,R007,2026-11-06,pl,"""Marcin Wroński"" ""podatek majątkowy""",expert_search,5,0,"IBS policy paper author; analysed wealth taxation in Poland, concluded low yield/high cost and favoured progressive PIT and inheritance tax"
+Q0037,R007,2026-11-06,fr,"""OJ C/2025/1589 page 59 A9-0053/2024 amendment 10""",parliament_search,3,1,"Retrieved official roll-call for 2024-02-27 EP vote; verified A0045 Sylwia Spurek voted Pour, yielding E00321"
+Q0038,R007,2026-11-06,pl,"""Maciej Gdula"" ""podatek majątkowy""",seat_sweep,4,0,"Former Lewica MP / Undersecretary of State; debate on income/health contribution and rental properties, no net-wealth proposal"
+Q0039,R007,2026-11-06,pl,"""Adam Bodnar"" ""podatek majątkowy""",seat_sweep,3,0,"Senator / Minister of Justice; asset declaration coverage and RPO tax casework, no wealth-stock stance"
+Q0040,R007,2026-11-06,pl,"""Sławomir Sierakowski"" ""podatek majątkowy""",expert_search,4,0,"Krytyka Polityczna editor; editorial coverage of Piketty and global tax debates, no personal attributable proposal"
+Q0041,R007,2026-11-06,pl,"""Przemysław Sadura"" ""podatek majątkowy""",expert_search,4,0,"UW sociologist; research and commentary on social inequality and welfare state, no personal wealth-stock endorsement"
+Q0042,R007,2026-11-07,pl,"site:api.sejm.gov.pl/sejm/term9/prints ""podatek""",parliament_search,5,0,Scanned all 4142 term-9 prints (190 tax-related); confirmed 0 net-wealth-tax bills introduced
+Q0043,R007,2026-11-07,pl,"site:api.sejm.gov.pl/sejm/term10/prints ""podatek""",parliament_search,5,0,Scanned all 3571 term-10 prints (253 tax-related); confirmed 0 net-wealth-tax bills introduced
+Q0044,R007,2026-11-07,pl,site:api.sejm.gov.pl/sejm/term9/interpellations Razem MPs,parliament_search,6,0,"Scanned interpellations from 15 Lewica/Razem MPs in term 9; digital tax and income relief only, no wealth-tax motion"
+Q0045,R007,2026-11-07,pl,"""Jakub Żynis"" ""podatek"" OR ""majątkowy"" OR ""Razem""",seat_sweep,4,0,"Gdynia city councillor (Partia Razem); local municipal finances and PIT share, no personal wealth-stock stance"
+Q0046,R008,2026-11-07,pl,"""Ita Robakiewicz""",web_search,4,1,Neuroscientist (Nencki PAN / UEHS Warsaw); identified ResearchGate profile and placed in Warsaw (G1679)
+Q0047,R008,2026-11-07,pl,"""Jerzy Ząbkowicz""",web_search,4,1,Economist (C.H. Beck author / UTH Warsaw); identified author profile and placed in Warsaw (G1679)
+Q0048,R008,2026-11-07,pl,"""Helena Freino""",web_search,4,1,Architect/urbanist (ZUT Szczecin); identified official ZUT exhibition and department profile
+Q0049,R008,2026-11-07,pl,"""Krystyna Słodczyk""",web_search,4,1,Biologist/ecologist (Opole); identified Zielone Wiadomości author profile
+Q0050,R008,2026-11-07,pl,"""Tomasz Wojciechowski""",web_search,4,1,Environmental engineer (Piła / GWDA); identified Instytut Spraw Obywatelskich profile and placed in Piła (G2666)
+Q0051,R008,2026-11-07,pl,"""Zbigniew Augustyński""",web_search,5,1,Philosopher/sociologist (2015 Razem Częstochowa candidate); identified PKW 2015 candidate profile and placed in Częstochowa (G2304)
+Q0052,R008,2026-11-07,pl,"""Adam Dąbrowski""",web_search,4,1,Geographer (UAM Poznań); identified ResearchGate profile
+Q0053,R008,2026-11-07,pl,"""Jacek Szczerbak""",web_search,4,1,Linguist/translator (UAM Poznań); identified Ministry of Justice official sworn translator profile
+Q0054,R008,2026-11-07,pl,"""Aleksander Radomski""",web_search,3,1,Dziennik Trybuna opinion columnist; identified author profile page
+Q0055,R008,2026-11-07,pl,"""Piotr Ikonowicz"" ""podatek majątkowy"" Krytyka Polityczna",web_search,5,1,Identified 2021-06-22 authored op-ed Podatkowa walka klas questioning lack of wealth tax on fortunes; added E00322 (Grade A)
