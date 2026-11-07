@@ -42,8 +42,10 @@ Q0040,R005,2026-10-31,th,"""พรรคสามัญชน"" ""ภาษี�
 Q0041,R005,2026-10-31,th,"""ภาษีความมั่งคั่ง"" (""เครือข่ายแรงงาน"" OR ""สมัชชาคนจน"" OR ""สลัม 4 ภาค"")",web,5,0,"Investigated grassroots movements (Assembly of the Poor, Slum 4 Regions) tax demands"
 Q0042,R007,2026-11-07,en,Thailand 2026 election People's Party wealth tax 27th House,web,6,0,"Followed the R006 plan for current House membership, party seat totals, and ongoing wealth-tax advocacy."
 Q0043,R007,2026-11-07,en,site:parliament.go.th/section77 Draft Wealth Tax Act Thailand 2023 co-sponsor Sirikanya Tansakul,web,3,0,Opened the official bill text and public-hearing impact report; both identify Sirikanya Tansakul and colleagues as proposers.
-Q0044,R007,2026-11-07,th,"""ศุภลักษณ์ บำรุงกิจ"" ""ภาษีความมั่งคั่ง""",web,4,0,Found her official campaign bio and the co-authored research report; confirmed the report directly recommends a wealth tax.
+Q0044,R007,2026-11-07,th,"""ศุภลักษณ์ บำรุงกิจ"" ""ภาษีความมั่งคั่ง""",web,4,0,Found his official campaign bio and the co-authored research report; confirmed the report directly recommends a wealth tax.
 Q0045,R007,2026-11-07,en,Supalak Bamrungkit Net Wealth Tax research report,web,3,0,Confirmed authorship and recommendation in the full report and university research bibliography.
 Q0046,R007,2026-11-07,th,site:hris.parliament.go.th ศิริกัญญา ตันสกุล สมาชิกสภาผู้แทนราษฎร ชุดที่ 27,web,1,0,Found the official House member directory record for Sirikanya as a People's Party list MP in the 27th House.
 Q0047,R007,2026-11-07,en,Thailand 2026 election final seat count Bhumjaithai 191 192 House 500,web,2,0,Reconciled provisional 499-member reporting with the final 500-member parliamentary composition recorded by IPU.
 Q0048,R007,2026-11-07,th,พรรคประชาชน นโยบายภาษี 2569 ภาษีความมั่งคั่ง,web,2,0,"Checked the 2026 party fiscal-tax platform; it outlines income, VAT and property-tax measures but does not mention the wealth tax. No explicit withdrawal was found."
+Q0049,R008,2026-11-07,th,We Fair ภาษีความมั่งคั่ง ร่าง บำนาญ ผู้เสนอ,web,3,0,Found a joint wealth-tax proposal by three networks and a later proposal attributed to Nitirat.
+Q0050,R008,2026-11-07,th,นิติรัตน์ ทรัพย์สมบูรณ์ 2569 We Fair,web,1,0,Found 2026 reporting confirming Nitirat was active.

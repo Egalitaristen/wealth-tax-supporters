@@ -80,7 +80,7 @@ First written 2026-10-30 (run R001). Updated 2026-10-30 (run R002) with deep res
 ## 10. Documented Exclusions
 1. **Dr. Pan Ananapibut** (`X0001`, `out_of_definition`): 2012 presentation titled "ภาษีความมั่งคั่ง" actually proposed a Korean-style property/land and building tax on housing above 5 million THB rather than a net wealth tax on total assets minus debt.
 2. **Sommai Phasee** (`X0002`, `out_of_definition`): Finance Minister (2014–2015) who enacted the 2015 Inheritance Tax Act and Land and Building Tax Act; while frequently referred to in media as taxing the wealthy, these are inheritance and real property taxes excluded under Section 2.
-3. **Nitirat Sapsomboon** (`X0003`, `out_of_definition`): Coordinator of We Fair Network. In his widely cited 2020 iLaw interview outlining tax funding mechanisms for universal welfare, he proposed capital gains tax (30%), progressive land and building tax, progressive inheritance tax, and cutting BOI privileges, but omitted an annual net wealth tax.
+3. **Nitirat Sapsomboon**: the earlier exclusion based on a 2020 interview was superseded by his separately reported 2023 wealth-tax proposal; now A0014 (R008).
 4. **Dr. Somchai Jitsuchon** (`X0004`, `out_of_definition`): Research Director for Inclusive Development at TDRI. While a leading academic voice on inequality and tax reform to finance pensions and child grants, his concrete proposals focus on land and building taxes, windfall taxes, capital gains taxes, and phased VAT increases, rather than an annual net wealth tax.
 5. **Lavaron Sangsnit** (`X0005`, `insufficient_evidence`): Permanent Secretary of the Ministry of Finance. Frequently cited in economic media discussing the structural flaws of the inheritance tax and noting that a net wealth tax (Wealth Tax) could be a future policy alternative; his comments represent administrative feasibility review and technical study rather than personal or institutional advocacy.
 6. **Pita Limjaroenrat** (`X0006`, `insufficient_evidence`): Former Move Forward Party leader. While campaigning on the party's 2023 Progressive Welfare platform, his public statements focused broadly on welfare spending and economic revitalization; specific legislative drafting and direct defense of the net wealth tax was spearheaded by Sirikanya Tansakun and Think Forward Center, with no distinct standalone net wealth tax quote in his personal capacity.
@@ -121,7 +121,7 @@ Leads not listed:
 
 The official House HRIS directory now lists Sirikanya Tansakun as a People's Party party-list MP in the 27th House: https://hris.parliament.go.th/ss_th.php/ss_detail.php?lang=th&sapa_id=&ssp_id=34265. Her position record is checked against that directory. The IPU's final election record reports the 500-seat House with Bhumjaithai 192, People's Party 120, Pheu Thai 74, Kla Tham 58, Democrat 21, Thai Ruam Palang 6, Palang Pracharath 5, Prachachat 5 and others 19: https://data.ipu.org/parliament/TH/TH-LC01/election/TH-LC01-E20260208/. This resolves the provisional 191/192 discrepancy: the 499-member interim count reported on 4 March gave Bhumjaithai 191 before the last constituency was filled.
 
-Added economist and researcher Supalak Bamrungkit (A0013), a co-author of a January 2022 report whose executive summary explicitly says a wealth tax is necessary to reduce inequality. Her official 2026 candidate profile also says her research became Move Forward's wealth-tax policy. The report lists her as an author and gives the date, so the publication is grade A.
+Added economist and researcher Supalak Bamrungkit (A0013), a co-author of a January 2022 report whose executive summary explicitly says a wealth tax is necessary to reduce inequality. His official 2026 candidate profile also says his research became Move Forward's wealth-tax policy. The report lists her as an author and gives the date, so the publication is grade A.
 
 The People's Party's published 2026 election tax platform covers personal income tax, VAT and land/building tax but does not mention a net wealth tax: https://election69.peoplesparty.or.th/policy/3/A-3-2/. This is a current-platform omission only; no explicit retraction was found, so the existing party evidence remains unchanged.
 
@@ -131,3 +131,10 @@ The People's Party's published 2026 election tax platform covers personal income
 2. Check the public campaigners and researchers associated with the 2022 worker-welfare wealth-tax study for other explicit proposals, while avoiding duplicate co-authors already registered.
 3. Monitor for a reintroduced bill or a direct current position from People's Party leaders; do not treat the 2026 platform omission as a retraction.
 4. Resume a name-by-name 27th House sweep only if individual evidence or a bill/roll-call list gives it a high-yield basis.
+
+
+## Research follow-up - R008 (7 November 2026)
+
+A 12 October 2023 Isranews report attributes a proposal for wealth taxation of the very wealthy to We Fair director Nitirat Sapsomboon: https://www.isranews.org/article/isranews-scoop/122867-TCC-welfare-state-gov-PM-Srettha-criticize-report.html. This supersedes his prior exclusion, which only considered a 2020 interview. The wording about 1% is ambiguous, so the evidence is grade B and the design is unspecified.
+
+We Fair published a joint 9 August 2023 proposal with the Four Regions Slum Network and the People’s Network for Welfare State explicitly naming a wealth tax: https://wefair.org/the-civil-society-sector-submits-a-letter-of-opposition-to-the-budget-cut-for-the-elderly-pension-scheme/. Both organisations are added at grade B on the coalition’s report of their joint proposal. The parallel bill text and any filing remain to be located.
