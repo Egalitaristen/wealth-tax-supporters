@@ -115,7 +115,13 @@ First written 2026-10-23 (runs R001 to R005). Lines marked *[verify]* come from 
   - Sitting legislators: Julien Ribaudo (Chamber of Representatives, A0102, Grade A, Amendment 10 to Ways & Means Budget DOC 56 0853/008), Natalie Eggermont (Chamber of Representatives, A0103, Grade B), Alice Bernard (Senate & Walloon Parliament, A0104, Grade B).
   - Re-filed bill: Chamber DOC 56 1838/001 (*Proposition de loi visant à introduire un impôt sur les grands patrimoines*, 20 October 2026; 10 PS cosponsors re-filing after committee rejection of DOC 56 0901; Harvest H0007).
   - Exclusion: Christian Valenduc (Economist, SPF Finances / UCLouvain; advocates Nordic dual income tax on capital gains/income, out_of_definition X0016).
-- **Database Status:** 70 supporters, 80 evidence rows, 55 links, 16 exclusions, 7 harvests, 8 runs. 100% verified quotes on live source pages (0 missing, 0 skipped). 0 validation errors, 0 warnings.
+- **R009 (Think tanks, prominent policy economists, NGO directors & legislative budget amendment harvest):** Added 4 high-confidence supporters (+4 actors, +4 evidence, +4 links, +6 profiles, +1 harvest, +2 exclusions):
+  - Think tanks: Denktank Minerva (A0106, Grade A) and Institut Emile Vandervelde / IEV (A0109, Grade A).
+  - Economists & Union Advisors: Sacha Dierckx (ABVV studiedienst / Denktank Minerva, A0107, Grade A in Lava Media).
+  - NGO Leadership: Eva Smets (General Director of Oxfam België, A0108, Grade A on Zucman 2% minimum wealth tax in MO*).
+  - Harvest: Chamber DOC 56 0853/008 Amendment 10 (Ways & Means 2025 Budget amendment proposing 2%–3% wealth tax; Harvest H0008).
+  - Exclusions: Mark Delanote (author of the Van Peteghem tax reform blueprint, advocates dual income tax, out_of_definition X0017) and Michel Maus (tax law professor VUB / partner Bloom Law, prominent commentator opposing wealth tax, opposes X0018).
+- **Database Status:** 74 supporters, 84 evidence rows, 59 links, 18 exclusions, 8 harvests, 9 runs. 100% verified quotes on live source pages (0 missing, 0 skipped). 0 validation errors, 0 warnings.
 
 
 ## Resources pass (1 November 2026)
