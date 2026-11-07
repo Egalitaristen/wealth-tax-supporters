@@ -43,3 +43,4 @@ Q0041,R007,2026-11-06,pl,"Przemysław Sadura" "podatek majątkowy",expert_search
 Q0042,R007,2026-11-07,pl,site:api.sejm.gov.pl/sejm/term9/prints "podatek",parliament_search,5,0,Scanned all 4142 term-9 prints (190 tax-related); confirmed 0 net-wealth-tax bills introduced
 Q0043,R007,2026-11-07,pl,site:api.sejm.gov.pl/sejm/term10/prints "podatek",parliament_search,5,0,Scanned all 3571 term-10 prints (253 tax-related); confirmed 0 net-wealth-tax bills introduced
 Q0044,R007,2026-11-07,pl,site:api.sejm.gov.pl/sejm/term9/interpellations Razem MPs,parliament_search,6,0,Scanned interpellations from 15 Lewica/Razem MPs in term 9; digital tax and income relief only, no wealth-tax motion
+Q0045,R007,2026-11-07,pl,"Jakub Żynis" "podatek" OR "majątkowy" OR "Razem",seat_sweep,4,0,Gdynia city councillor (Partia Razem); local municipal finances and PIT share, no personal wealth-stock stance
