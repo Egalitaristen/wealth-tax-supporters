@@ -34,10 +34,9 @@ Seed pass of 2026-11-03 (run R001). Lines marked `[verify]` come from a search s
 - Chavista institutions only: the ANC board (Cabello, Díaz), the Seniat and one health-workers union leader (Fenasirtrasalud). The law went through the ANC en bloque. No statement by a party as such, a confederation (CTV, UNETE, CBST, ASI), an NGO or an economist turned up; opposition voices and Fedecámaras oppose the tax.
 
 ## 10. Plan for the next runs
-1. The ANC site and the TSJ Gaceta archive for the other board signatures and the session of 2 July 2019.
-2. Aporrea, PCV, CTV, CBST and UNETE statements, with a browser.
-3. Venezuelan names in international letters (Patriotic Millionaires, G20 economists, Oxfam).
-4. Read the 2026 Seniat calendar in the Gaceta; CENDES and Observatorio Venezolano de Finanzas by name.
+1. Follow the upcoming 2026 tax reform bill in the National Assembly (deliberations in the Comisión de Economía) for changes or proposals affecting the IGP.
+2. Read the official 2026 Seniat calendar / Providencia Administrativa for the 2026 fiscal year IGP declaration when available in Gaceta.
+3. Monitor regional and international tax justice platforms (TJN LAC, Latindadd) for Venezuelan signatures or country reports.
 
 ## 11. Directions tried and their yield
 | Direction | Searches | Yield |
@@ -59,6 +58,7 @@ Seed pass of 2026-11-03 (run R001). Lines marked `[verify]` come from a search s
 | Diaspora and academic economists (Hausmann, Rodríguez, Santos, Palma, Sutherland, Álvarez, Faría, Machado) (R005) | 2 | Nothing; none argues for a wealth tax in the results |
 | Left writers (R005) | 2 | Luis Britto García, 2014 column: "Crear impuestos patrimoniales para las altas concentraciones de propiedad" (grade B) |
 | Regional networks and letters (Latindadd, Tax Justice LAC, CELAG, CLACSO, Alba) (R005) | 3 | Nothing signed by a Venezuelan; the Latindadd 2021 report lists Venezuela only in a table and as one of four countries with a net-wealth tax, so it is not proposed as a country resource |
+| Lead queue follow-up (R006): ULA paper, Pasqualina Curcio, ANC session, Faría, PCV / Tribuna Popular, CELAG/CLACSO | 5 | Pasqualina Curcio (A0010, economist, USB) added from 2020 columns in Ciudad Valencia and Vocesenlucha; ULA paper by Morales et al. read and excluded (descriptive/theoretical); Jesús Faría excluded (IGTF/harmonization); PCV confirmed as focusing on corporate tax breaks and capital gains; closed 6 open leads |
 Dropped after two or three empty searches: the G20 and UN direction, the church, the left groups, polls, opposition programmes, officials' statements. Not yet tried: the ANC Diario de Debates (TSJ server down), Telesur and Correo del Orinoco directly, Aporrea with a browser.
 
 ## 12. Searched, nothing found
