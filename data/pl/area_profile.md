@@ -76,3 +76,8 @@ Leads not yet listed:
 Searched in Polish; no Polish poll asking about a wealth tax was read.
 
 Second pass (1 November 2026): no wealth-tax bill (druk) found in the Sejm database results; Razem's and Lewica's real-estate and cadastral tax proposals are property taxes. CBOS 2018 asked about extra tax on the top 5% of earners (income), not wealth. The IBS paper of Wroski is already listed. Nothing new listed.
+
+## Review corrections (2026-11-07)
+
+- Removed the seven Razem MPs (Zandberg, Konieczny, Zawisza, Matysiak, Gosek-Popiołek, Olko, Wicha): their only evidence was co-signing Sejm interpellation no. 2117 of 18 March 2024, which is about the VAT rate on food and mentions taxes on capital, property and high incomes in one general sentence; that is not a wealth-tax statement (exclusions X0023-X0029; their seat positions and profile rows went with them). The PR text described wealth-tax bills and brackets for these MPs that are not in the data; look for the Razem bill or their own statements.
+- Regraded E00322 (Ikonowicz op-ed) from A to B: a rhetorical question, not a proposal.

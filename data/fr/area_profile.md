@@ -35,3 +35,7 @@ Leads not yet listed:
 
 ## Taxes in force that are outside the definition
 - **Impôt sur la fortune immobilière (IFI):** in force since 2018, it taxes real estate only (net property above EUR 1.3 million), so it is a property tax outside the definition. A call to bring back a tax on all net wealth (the old ISF) is inside it. `[verify: stated from general knowledge, not read from the law for this note]`
+
+## Review corrections (2026-11-07)
+
+- Regraded E00762 (Dossus), E00763 (Kanner) and E00764 (Gontard) from A to B: the cited sentences show a group initiative, the Prime Minister's stance and a general tax-justice line, not their own tax design; the articles around them show they back the Zucman tax.

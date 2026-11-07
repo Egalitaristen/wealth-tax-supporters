@@ -840,12 +840,12 @@ P00849,A0229,bluesky,https://bsky.app/profile/gabrielzucman.bsky.social,Wikidata
 P00850,A0229,wikipedia,https://en.wikipedia.org/wiki/Gabriel_Zucman,Wikidata Q15811211,2026-10-22
 P00851,A0230,x,https://x.com/DAcemogluMIT,Wikidata Q718581,2026-10-22
 P00852,A0230,wikipedia,https://en.wikipedia.org/wiki/Daron_Acemoglu,Wikidata Q718581,2026-10-22
-P00853,A0231,wikipedia,https://en.wikipedia.org/wiki/Arado_Ar_196,Wikidata Q163170,2026-10-22
+P00853,A0231,wikipedia,https://en.wikipedia.org/wiki/George_Akerlof,Wikidata Q222541,2026-11-06
 P00854,A0232,website,https://economics.mit.edu/faculty/banerjee/,Wikidata Q320578,2026-10-22
 P00855,A0232,wikipedia,https://en.wikipedia.org/wiki/Abhijit_Banerjee,Wikidata Q320578,2026-10-22
 P00856,A0233,website,https://economics.mit.edu/people/faculty/esther-duflo,Wikidata Q434509,2026-10-22
 P00857,A0233,wikipedia,https://en.wikipedia.org/wiki/Esther_Duflo,Wikidata Q434509,2026-10-22
-P00858,A0234,wikipedia,https://en.wikipedia.org/wiki/Vladimir_Oravsky,Wikidata Q510965,2026-10-22
+P00858,A0234,wikipedia,https://en.wikipedia.org/wiki/Simon_Johnson_(economist),Wikidata Q1461050,2026-11-06
 P00859,A0235,website,https://web.mit.edu/krugman/www/,Wikidata Q131112,2026-10-22
 P00860,A0235,x,https://x.com/paulkrugman,Wikidata Q131112,2026-10-22
 P00861,A0235,bluesky,https://bsky.app/profile/pkrugman.bluesky.social,Wikidata Q131112,2026-10-22
@@ -1122,3 +1122,281 @@ P01131,A0387,x,https://x.com/chancellucas,Wikidata Q45656365,2026-10-22
 P01132,A0387,linkedin,https://www.linkedin.com/in/lucas-chancel-69991028/,Wikidata Q45656365,2026-10-22
 P01133,A0387,wikipedia,https://en.wikipedia.org/wiki/Lucas_Chancel,Wikidata Q45656365,2026-10-22
 P01134,A0388,wikipedia,https://en.wikipedia.org/wiki/EU_Tax_Observatory,Wikidata Q108790663,2026-10-22
+P01135,A0227,website,https://glucks2027.fr/,Wikidata Q556149,2026-11-06
+P01136,A0389,website,https://valerierabault.com,Wikidata Q3554304,2026-11-06
+P01137,A0389,x,https://x.com/Valerie_Rabault,Wikidata Q3554304,2026-11-06
+P01138,A0389,facebook,https://www.facebook.com/valerie.rabault,Wikidata Q3554304,2026-11-06
+P01139,A0389,wikipedia,https://en.wikipedia.org/wiki/Val%C3%A9rie_Rabault,Wikidata Q3554304,2026-11-06
+P01140,A0390,website,https://www.cecileuntermaier.fr,Wikidata Q3009791,2026-11-06
+P01141,A0390,x,https://x.com/ceciluntermaier,Wikidata Q3009791,2026-11-06
+P01142,A0390,wikipedia,https://en.wikipedia.org/wiki/C%C3%A9cile_Untermaier,Wikidata Q3009791,2026-11-06
+P01143,A0391,x,https://x.com/ElieCalifer2022,Wikidata Q63766059,2026-11-06
+P01144,A0391,wikipedia,https://en.wikipedia.org/wiki/%C3%89lie_Califer,Wikidata Q63766059,2026-11-06
+P01145,A0392,x,https://x.com/JohnnyHajjarMQ,Wikidata Q112632770,2026-11-06
+P01146,A0392,wikipedia,https://en.wikipedia.org/wiki/Johnny_Hajjar,Wikidata Q112632770,2026-11-06
+P01147,A0225,website,https://cecileduflot.eu/,Wikidata Q268634,2026-11-06
+P01148,A0225,x,https://x.com/CecileDuflot,Wikidata Q268634,2026-11-06
+P01149,A0225,bluesky,https://bsky.app/profile/cecileduflot.bsky.social,Wikidata Q268634,2026-11-06
+P01150,A0225,instagram,https://www.instagram.com/cecile_duflot/,Wikidata Q268634,2026-11-06
+P01151,A0225,facebook,https://www.facebook.com/cecile.duflot,Wikidata Q268634,2026-11-06
+P01152,A0225,mastodon,https://piaille.fr/@cecileduflot,Wikidata Q268634,2026-11-06
+P01153,A0225,wikipedia,https://en.wikipedia.org/wiki/C%C3%A9cile_Duflot,Wikidata Q268634,2026-11-06
+P01154,A0226,linkedin,https://www.linkedin.com/in/camille-etienne-8779a5150/,Wikidata Q103477865,2026-11-06
+P01155,A0226,wikipedia,https://en.wikipedia.org/wiki/Camille_%C3%89tienne,Wikidata Q103477865,2026-11-06
+P01156,A0240,bluesky,https://bsky.app/profile/attac.org,Wikidata Q116695183,2026-11-06
+P01157,A0240,instagram,https://www.instagram.com/attac_fr/,Wikidata Q116695183,2026-11-06
+P01158,A0240,mastodon,https://mamot.fr/@Attac,Wikidata Q116695183,2026-11-06
+P01159,A0241,x,https://x.com/350,Wikidata Q2091619,2026-11-06
+P01160,A0241,instagram,https://www.instagram.com/350org/,Wikidata Q2091619,2026-11-06
+P01161,A0241,facebook,https://www.facebook.com/350.org,Wikidata Q2091619,2026-11-06
+P01162,A0241,youtube,https://www.youtube.com/channel/UC2Qoew0Eikf_xoXRC_qCvwA,Wikidata Q2091619,2026-11-06
+P01163,A0241,wikipedia,https://en.wikipedia.org/wiki/350.org,Wikidata Q2091619,2026-11-06
+P01164,A0245,x,https://x.com/lacgtcommunique,Wikidata Q1125638,2026-11-06
+P01165,A0245,bluesky,https://bsky.app/profile/cgt.fr,Wikidata Q1125638,2026-11-06
+P01166,A0245,instagram,https://www.instagram.com/cgt_confederation/,Wikidata Q1125638,2026-11-06
+P01167,A0245,facebook,https://www.facebook.com/ConfederationGeneraleDuTravail,Wikidata Q1125638,2026-11-06
+P01168,A0245,youtube,https://www.youtube.com/channel/UCXbA6-9E-w1m5SwUVuC9VQw,Wikidata Q1125638,2026-11-06
+P01169,A0245,mastodon,https://framapiaf.org/@La_CGT,Wikidata Q1125638,2026-11-06
+P01170,A0245,wikipedia,https://en.wikipedia.org/wiki/General_Confederation_of_Labour_%28France%29,Wikidata Q1125638,2026-11-06
+P01171,A0247,x,https://x.com/CFDT,Wikidata Q1125605,2026-11-06
+P01172,A0247,bluesky,https://bsky.app/profile/cfdt.bsky.social,Wikidata Q1125605,2026-11-06
+P01173,A0247,instagram,https://www.instagram.com/cfdt_officiel/,Wikidata Q1125605,2026-11-06
+P01174,A0247,facebook,https://www.facebook.com/la.CFDT,Wikidata Q1125605,2026-11-06
+P01175,A0247,youtube,https://www.youtube.com/channel/UCAxO-jVPBThh6eFg289Uhaw,Wikidata Q1125605,2026-11-06
+P01176,A0247,wikipedia,https://en.wikipedia.org/wiki/French_Democratic_Confederation_of_Labour,Wikidata Q1125605,2026-11-06
+P01177,A0249,x,https://x.com/partisocialiste,Wikidata Q170972,2026-11-06
+P01178,A0249,bluesky,https://bsky.app/profile/partisocialiste.bsky.social,Wikidata Q170972,2026-11-06
+P01179,A0249,instagram,https://www.instagram.com/partisocialiste/,Wikidata Q170972,2026-11-06
+P01180,A0249,facebook,https://www.facebook.com/partisocialiste,Wikidata Q170972,2026-11-06
+P01181,A0249,youtube,https://www.youtube.com/channel/UCo7xGEOV-RfxOAxRfhlR3Ww,Wikidata Q170972,2026-11-06
+P01182,A0249,wikipedia,https://en.wikipedia.org/wiki/Socialist_Party_%28France%29,Wikidata Q170972,2026-11-06
+P01183,A0250,x,https://x.com/FranceInsoumise,Wikidata Q27978402,2026-11-06
+P01184,A0250,bluesky,https://bsky.app/profile/lfi.bsky.social,Wikidata Q27978402,2026-11-06
+P01185,A0250,instagram,https://www.instagram.com/franceinsoumise/,Wikidata Q27978402,2026-11-06
+P01186,A0250,facebook,https://www.facebook.com/lafranceinsoumise,Wikidata Q27978402,2026-11-06
+P01187,A0250,youtube,https://www.youtube.com/channel/UCKHKSD-yanY2ZwwU_4Tgf0w,Wikidata Q27978402,2026-11-06
+P01188,A0250,wikipedia,https://en.wikipedia.org/wiki/La_France_Insoumise,Wikidata Q27978402,2026-11-06
+P01189,A0251,x,https://x.com/EELV,Wikidata Q613786,2026-11-06
+P01190,A0251,bluesky,https://bsky.app/profile/lesecologistes.fr,Wikidata Q613786,2026-11-06
+P01191,A0251,instagram,https://www.instagram.com/eelvfr/,Wikidata Q613786,2026-11-06
+P01192,A0251,facebook,https://www.facebook.com/Europe-Écologie-Les-Verts-51603470763,Wikidata Q613786,2026-11-06
+P01193,A0251,youtube,https://www.youtube.com/channel/UCB8Q3N-nvX1YlMUL7Zl_16w,Wikidata Q613786,2026-11-06
+P01194,A0251,mastodon,https://mamot.fr/@eelv,Wikidata Q613786,2026-11-06
+P01195,A0251,wikipedia,https://en.wikipedia.org/wiki/The_Ecologists,Wikidata Q613786,2026-11-06
+P01196,A0252,x,https://x.com/PCF,Wikidata Q192821,2026-11-06
+P01197,A0252,bluesky,https://bsky.app/profile/pcf.bsky.social,Wikidata Q192821,2026-11-06
+P01198,A0252,instagram,https://www.instagram.com/pcfparticommunistefrancais/,Wikidata Q192821,2026-11-06
+P01199,A0252,facebook,https://www.facebook.com/Particommuniste,Wikidata Q192821,2026-11-06
+P01200,A0252,wikipedia,https://en.wikipedia.org/wiki/French_Communist_Party,Wikidata Q192821,2026-11-06
+P01201,A0386,website,https://melenchon.fr/,Wikidata Q5829,2026-11-06
+P01202,A0386,x,https://x.com/JLMelenchon,Wikidata Q5829,2026-11-06
+P01203,A0386,bluesky,https://bsky.app/profile/jeanlucmelenchon.bsky.social,Wikidata Q5829,2026-11-06
+P01204,A0386,instagram,https://www.instagram.com/jlmelenchon/,Wikidata Q5829,2026-11-06
+P01205,A0386,facebook,https://www.facebook.com/JLMelenchon,Wikidata Q5829,2026-11-06
+P01206,A0386,youtube,https://www.youtube.com/channel/UCk-_PEY3iC6DIGJKuoEe9bw,Wikidata Q5829,2026-11-06
+P01207,A0386,tiktok,https://www.tiktok.com/@melenchonjl,Wikidata Q5829,2026-11-06
+P01208,A0386,linkedin,https://www.linkedin.com/in/jlmelenchon/,Wikidata Q5829,2026-11-06
+P01209,A0386,wikipedia,https://en.wikipedia.org/wiki/Jean-Luc_M%C3%A9lenchon,Wikidata Q5829,2026-11-06
+P01210,A0256,website,https://rambourg-foundation.com,Rambourg Foundation website,2026-11-06
+P01211,A0256,wikipedia,https://fr.wikipedia.org/wiki/Guillaume_Rambourg,Wikidata Q43677771,2026-11-06
+P01212,A0254,website,https://chateaudethouare.com,Château de Thouaré website,2026-11-06
+P01213,A0253,website,https://pfc-familyoffice.it,PFC Family Office,2026-11-06
+P01214,A0242,official_page,https://france.attac.org,Attac France,2026-11-06
+P01215,A0243,official_page,https://www.oxfamfrance.org,Oxfam France,2026-11-06
+P01216,A0244,official_page,https://350.org,350.org France,2026-11-06
+P01217,A0042,official_page,https://www.senat.fr/senateur/amard_gabriel20684b.html,Wikidata Q3093583 P1808,2026-11-06
+P01218,A0046,wikipedia,https://fr.wikipedia.org/wiki/Rodrigo_Arenas_%28homme_politique%29,Wikidata Q109043455,2026-11-06
+P01219,A0071,wikipedia,https://fr.wikipedia.org/wiki/Julien_Brugerolles,Wikidata Q131956247,2026-11-06
+P01220,A0113,wikipedia,https://fr.wikipedia.org/wiki/Damien_Girard_%28homme_politique%29,Wikidata Q126811366,2026-11-06
+P01221,A0186,wikipedia,https://fr.wikipedia.org/wiki/Val%C3%A9rie_Rossi_%28femme_politique_fran%C3%A7aise%29,Wikidata Q63766451,2026-11-06
+P01222,A0209,official_page,https://www.senat.fr/senateur/taille_polian_sophie19689q.html,Wikidata Q41075996 P1808,2026-11-06
+P01223,A0221,official_page,https://www.senat.fr/senateur/voynet_dominique04082l.html,Wikidata Q268669 P1808,2026-11-06
+P01224,A0224,wikipedia,https://fr.wikipedia.org/wiki/Marylise_L%C3%A9on,Wikidata Q55258276,2026-11-06
+P01225,A0239,wikipedia,https://fr.wikipedia.org/wiki/Oxfam_France,Wikidata Q3359040,2026-11-06
+P01226,A0240,wikipedia,https://fr.wikipedia.org/wiki/Attac_France,Wikidata Q116695183,2026-11-06
+P01227,A0257,official_page,https://www.senat.fr/senateur/artigalas_viviane19631v.html,Wikidata Q41055306 P1808,2026-11-06
+P01228,A0258,official_page,https://www.senat.fr/senateur/belim_audrey21035b.html,Wikidata Q122802297 P1808,2026-11-06
+P01229,A0259,official_page,https://www.senat.fr/senateur/blatrix_contat_florence20094j.html,Wikidata Q62887741 P1808,2026-11-06
+P01230,A0260,official_page,https://www.senat.fr/senateur/bonnefoy_nicole08060w.html,Wikidata Q962910 P1808,2026-11-06
+P01231,A0261,wikipedia,https://fr.wikipedia.org/wiki/Denis_Bouad,Wikidata Q19951894,2026-11-06
+P01232,A0261,official_page,https://www.senat.fr/senateur/bouad_denis20088l.html,Wikidata Q19951894 P1808,2026-11-06
+P01233,A0262,official_page,https://www.senat.fr/senateur/bourgi_hussein20114u.html,Wikidata Q63411837 P1808,2026-11-06
+P01234,A0263,wikipedia,https://fr.wikipedia.org/wiki/Isabelle_Briquet,Wikidata Q63766690,2026-11-06
+P01235,A0263,official_page,https://www.senat.fr/senateur/briquet_isabelle20080c.html,Wikidata Q63766690 P1808,2026-11-06
+P01236,A0264,official_page,https://www.senat.fr/senateur/brossel_colombe21089r.html,Wikidata Q71173855 P1808,2026-11-06
+P01237,A0265,official_page,https://www.senat.fr/senateur/canales_marion21045d.html,Wikidata Q122803020 P1808,2026-11-06
+P01238,A0266,official_page,https://www.senat.fr/senateur/cardon_remi20060x.html,Wikidata Q99674386 P1808,2026-11-06
+P01239,A0267,official_page,https://www.senat.fr/senateur/carlotti_marie_arlette12028b.html,Wikidata Q467949 P1808,2026-11-06
+P01240,A0268,wikipedia,https://fr.wikipedia.org/wiki/Christophe_Chaillou,Wikidata Q63765254,2026-11-06
+P01241,A0268,official_page,https://www.senat.fr/senateur/chaillou_christophe21057h.html,Wikidata Q63765254 P1808,2026-11-06
+P01242,A0269,official_page,https://www.senat.fr/senateur/chantrel_yan20264j.html,Wikidata Q108701472 P1808,2026-11-06
+P01243,A0270,official_page,https://www.senat.fr/senateur/conconne_catherine19295a.html,Wikidata Q41009093 P1808,2026-11-06
+P01244,A0271,official_page,https://www.senat.fr/senateur/conway_mouret_helene11027h.html,Wikidata Q3144735 P1808,2026-11-06
+P01245,A0272,wikipedia,https://fr.wikipedia.org/wiki/Thierry_Cozic,Wikidata Q65575530,2026-11-06
+P01246,A0272,official_page,https://www.senat.fr/senateur/cozic_thierry20070a.html,Wikidata Q65575530 P1808,2026-11-06
+P01247,A0273,official_page,https://www.senat.fr/senateur/daniel_karine18395y.html,Wikidata Q23907483 P1808,2026-11-06
+P01248,A0274,wikipedia,https://fr.wikipedia.org/wiki/J%C3%A9r%C3%B4me_Darras,Wikidata Q122803183,2026-11-06
+P01249,A0274,official_page,https://www.senat.fr/senateur/darras_jerome21067k.html,Wikidata Q122803183 P1808,2026-11-06
+P01250,A0275,official_page,https://www.senat.fr/senateur/devinaz_gilbert_luc19251m.html,Wikidata Q29962975 P1808,2026-11-06
+P01251,A0276,official_page,https://www.senat.fr/senateur/durain_jerome14151m.html,Wikidata Q18202533 P1808,2026-11-06
+P01252,A0277,wikipedia,https://fr.wikipedia.org/wiki/Vincent_%C3%89bl%C3%A9,Wikidata Q3559608,2026-11-06
+P01253,A0277,official_page,https://www.senat.fr/senateur/eble_vincent11074q.html,Wikidata Q3559608 P1808,2026-11-06
+P01254,A0278,official_page,https://www.senat.fr/senateur/espagnac_frederique11110b.html,Wikidata Q3090373 P1808,2026-11-06
+P01255,A0279,official_page,https://www.senat.fr/senateur/fagnen_sebastien21062e.html,Wikidata Q63764382 P1808,2026-11-06
+P01256,A0280,official_page,https://www.senat.fr/senateur/feraud_remi19647e.html,Wikidata Q3456022 P1808,2026-11-06
+P01257,A0281,official_page,https://www.senat.fr/senateur/feret_corinne14281w.html,Wikidata Q20082373 P1808,2026-11-06
+P01258,A0282,official_page,https://www.senat.fr/senateur/fichet_jean_luc08045x.html,Wikidata Q3167146 P1808,2026-11-06
+P01259,A0283,wikipedia,https://fr.wikipedia.org/wiki/Herv%C3%A9_Gill%C3%A9,Wikidata Q63764469,2026-11-06
+P01260,A0283,official_page,https://www.senat.fr/senateur/gille_herve19820y.html,Wikidata Q63764469 P1808,2026-11-06
+P01261,A0284,wikipedia,https://fr.wikipedia.org/wiki/Laurence_Harribey,Wikidata Q41499067,2026-11-06
+P01262,A0284,official_page,https://www.senat.fr/senateur/harribey_laurence19725b.html,Wikidata Q41499067 P1808,2026-11-06
+P01263,A0285,wikipedia,https://fr.wikipedia.org/wiki/Olivier_Jacquin,Wikidata Q41250063,2026-11-06
+P01264,A0285,official_page,https://www.senat.fr/senateur/jacquin_olivier19551w.html,Wikidata Q41250063 P1808,2026-11-06
+P01265,A0286,official_page,https://www.senat.fr/senateur/jeansannetas_eric14121f.html,Wikidata Q18202548 P1808,2026-11-06
+P01266,A0287,wikipedia,https://fr.wikipedia.org/wiki/Patrice_Joly,Wikidata Q3368960,2026-11-06
+P01267,A0287,official_page,https://www.senat.fr/senateur/joly_patrice19531s.html,Wikidata Q3368960 P1808,2026-11-06
+P01268,A0288,official_page,https://www.senat.fr/senateur/jomier_bernard19683j.html,Wikidata Q41369983 P1808,2026-11-06
+P01269,A0289,official_page,https://www.senat.fr/senateur/jourda_gisele14097y.html,Wikidata Q18202624 P1808,2026-11-06
+P01270,A0290,official_page,https://www.senat.fr/senateur/kanner_patrick14021p.html,Wikidata Q3369559 P1808,2026-11-06
+P01271,A0291,wikipedia,https://fr.wikipedia.org/wiki/%C3%89ric_Kerrouche,Wikidata Q40895328,2026-11-06
+P01272,A0291,official_page,https://www.senat.fr/senateur/kerrouche_eric19489j.html,Wikidata Q40895328 P1808,2026-11-06
+P01273,A0292,official_page,https://www.senat.fr/senateur/de_la_gontrie_marie_pierre19649g.html,Wikidata Q3292221 P1808,2026-11-06
+P01274,A0293,wikipedia,https://fr.wikipedia.org/wiki/Annie_Le_Hou%C3%A9rou,Wikidata Q2689081,2026-11-06
+P01275,A0293,official_page,https://www.senat.fr/senateur/le_houerou_annie18193q.html,Wikidata Q2689081 P1808,2026-11-06
+P01276,A0294,official_page,https://www.senat.fr/senateur/linkenheld_audrey18207d.html,Wikidata Q2870852 P1808,2026-11-06
+P01277,A0295,official_page,https://www.senat.fr/senateur/lozach_jean_jacques08012n.html,Wikidata Q3166338 P1808,2026-11-06
+P01278,A0296,official_page,https://www.senat.fr/senateur/lubin_monique17779h.html,Wikidata Q28977139 P1808,2026-11-06
+P01279,A0297,official_page,https://www.senat.fr/senateur/lurel_victorin12016w.html,Wikidata Q983563 P1808,2026-11-06
+P01280,A0298,wikipedia,https://fr.wikipedia.org/wiki/Didier_Marie,Wikidata Q3027102,2026-11-06
+P01281,A0298,official_page,https://www.senat.fr/senateur/marie_didier14001x.html,Wikidata Q3027102 P1808,2026-11-06
+P01282,A0299,wikipedia,https://fr.wikipedia.org/wiki/Serge_M%C3%A9rillou,Wikidata Q63764683,2026-11-06
+P01283,A0299,official_page,https://www.senat.fr/senateur/merillou_serge20028x.html,Wikidata Q63764683 P1808,2026-11-06
+P01284,A0300,wikipedia,https://fr.wikipedia.org/wiki/Jean-Jacques_Michau,Wikidata Q65593093,2026-11-06
+P01285,A0300,official_page,https://www.senat.fr/senateur/michau_jean_jacques20018v.html,Wikidata Q65593093 P1808,2026-11-06
+P01286,A0301,wikipedia,https://fr.wikipedia.org/wiki/Marie-Pierre_Monier,Wikidata Q18202547,2026-11-06
+P01287,A0301,official_page,https://www.senat.fr/senateur/monier_marie_pierre14109k.html,Wikidata Q18202547 P1808,2026-11-06
+P01288,A0302,wikipedia,https://fr.wikipedia.org/wiki/Franck_Montaug%C3%A9,Wikidata Q16027060,2026-11-06
+P01289,A0302,official_page,https://www.senat.fr/senateur/montauge_franck14257w.html,Wikidata Q16027060 P1808,2026-11-06
+P01290,A0303,official_page,https://www.senat.fr/senateur/narassiguin_corinne18231d.html,Wikidata Q2997360 P1808,2026-11-06
+P01291,A0304,official_page,https://www.senat.fr/senateur/omar_oili_said19331l.html,Wikidata Q3474823 P1808,2026-11-06
+P01292,A0305,official_page,https://www.senat.fr/senateur/ouizille_alexandre21060c.html,Wikidata Q122804139 P1808,2026-11-06
+P01293,A0306,official_page,https://www.senat.fr/senateur/pla_sebastien20030r.html,Wikidata Q63411843 P1808,2026-11-06
+P01294,A0307,wikipedia,https://fr.wikipedia.org/wiki/%C3%89milienne_Poumirol,Wikidata Q2809967,2026-11-06
+P01295,A0307,official_page,https://www.senat.fr/senateur/poumirol_emilienne17965h.html,Wikidata Q2809967 P1808,2026-11-06
+P01296,A0308,wikipedia,https://fr.wikipedia.org/wiki/Claude_Raynal,Wikidata Q18202525,2026-11-06
+P01297,A0308,official_page,https://www.senat.fr/senateur/raynal_claude14225n.html,Wikidata Q18202525 P1808,2026-11-06
+P01298,A0309,wikipedia,https://fr.wikipedia.org/wiki/Christian_Redon-Sarrazy,Wikidata Q65597729,2026-11-06
+P01299,A0309,official_page,https://www.senat.fr/senateur/redon_sarrazy_christian20082e.html,Wikidata Q65597729 P1808,2026-11-06
+P01300,A0310,official_page,https://www.senat.fr/senateur/robert_sylvie14229s.html,Wikidata Q16945390 P1808,2026-11-06
+P01301,A0311,wikipedia,https://fr.wikipedia.org/wiki/Pierre-Alain_Roiron,Wikidata Q63488166,2026-11-06
+P01302,A0311,official_page,https://www.senat.fr/senateur/roiron_pierre_alain21056g.html,Wikidata Q63488166 P1808,2026-11-06
+P01303,A0312,wikipedia,https://fr.wikipedia.org/wiki/David_Ros,Wikidata Q62078034,2026-11-06
+P01304,A0312,official_page,https://www.senat.fr/senateur/ros_david21059k.html,Wikidata Q62078034 P1808,2026-11-06
+P01305,A0313,official_page,https://www.senat.fr/senateur/rossignol_laurence11045k.html,Wikidata Q3218932 P1808,2026-11-06
+P01306,A0314,official_page,https://www.senat.fr/senateur/stanzione_lucien20084g.html,Wikidata Q99674406 P1808,2026-11-06
+P01307,A0315,official_page,https://www.senat.fr/senateur/temal_rachid19669l.html,Wikidata Q41018122 P1808,2026-11-06
+P01308,A0316,wikipedia,https://fr.wikipedia.org/wiki/Jean-Claude_Tissot,Wikidata Q41246319,2026-11-06
+P01309,A0316,official_page,https://www.senat.fr/senateur/tissot_jean_claude19413m.html,Wikidata Q41246319 P1808,2026-11-06
+P01310,A0317,official_page,https://www.senat.fr/senateur/uzenat_simon21051b.html,Wikidata Q122802830 P1808,2026-11-06
+P01311,A0318,official_page,https://www.senat.fr/senateur/vallet_mickael20064c.html,Wikidata Q63766589 P1808,2026-11-06
+P01312,A0319,wikipedia,https://fr.wikipedia.org/wiki/Jean-Marc_Vayssouze-Faure,Wikidata Q65605022,2026-11-06
+P01313,A0319,official_page,https://www.senat.fr/senateur/vayssouze_faure_jean_marc21031w.html,Wikidata Q65605022 P1808,2026-11-06
+P01314,A0320,official_page,https://www.senat.fr/senateur/weber_michael21082j.html,Wikidata Q65606509 P1808,2026-11-06
+P01315,A0321,official_page,https://www.senat.fr/senateur/ziane_adel21077m.html,Wikidata Q122804535 P1808,2026-11-06
+P01316,A0322,wikipedia,https://fr.wikipedia.org/wiki/Jocelyne_Antoine,Wikidata Q62664001,2026-11-06
+P01317,A0322,official_page,https://www.senat.fr/senateur/antoine_jocelyne21042a.html,Wikidata Q62664001 P1808,2026-11-06
+P01318,A0323,official_page,https://www.senat.fr/senateur/arnaud_jean_michel14189c.html,Wikidata Q65563856 P1808,2026-11-06
+P01319,A0324,official_page,https://www.senat.fr/senateur/bitz_olivier21043b.html,Wikidata Q64776863 P1808,2026-11-06
+P01320,A0325,wikipedia,https://fr.wikipedia.org/wiki/Olivier_Cigolotti,Wikidata Q19607318,2026-11-06
+P01321,A0325,official_page,https://www.senat.fr/senateur/cigolotti_olivier14267y.html,Wikidata Q19607318 P1808,2026-11-06
+P01322,A0326,wikipedia,https://fr.wikipedia.org/wiki/Bernard_Delcros,Wikidata Q20962459,2026-11-06
+P01323,A0326,official_page,https://www.senat.fr/senateur/delcros_bernard14327t.html,Wikidata Q20962459 P1808,2026-11-06
+P01324,A0327,wikipedia,https://fr.wikipedia.org/wiki/Franck_Dhersin,Wikidata Q3082124,2026-11-06
+P01325,A0327,official_page,https://www.senat.fr/senateur/dhersin_franck15197g.html,Wikidata Q3082124 P1808,2026-11-06
+P01326,A0329,official_page,https://www.senat.fr/senateur/goulet_nathalie07004j.html,Wikidata Q3336598 P1808,2026-11-06
+P01327,A0330,official_page,https://www.senat.fr/senateur/haye_ludovic20128b.html,Wikidata Q65584998 P1808,2026-11-06
+P01328,A0331,wikipedia,https://fr.wikipedia.org/wiki/Annick_Jacquemet,Wikidata Q63766536,2026-11-06
+P01329,A0331,official_page,https://www.senat.fr/senateur/jacquemet_annick20066e.html,Wikidata Q63766536 P1808,2026-11-06
+P01330,A0332,wikipedia,https://fr.wikipedia.org/wiki/Jean-Fran%C3%A7ois_Longeot,Wikidata Q18202532,2026-11-06
+P01331,A0332,official_page,https://www.senat.fr/senateur/longeot_jean_francois14219q.html,Wikidata Q18202532 P1808,2026-11-06
+P01332,A0333,wikipedia,https://fr.wikipedia.org/wiki/Paul-Toussaint_Parigi,Wikidata Q62616094,2026-11-06
+P01333,A0333,official_page,https://www.senat.fr/senateur/parigi_paul_toussaint20036x.html,Wikidata Q62616094 P1808,2026-11-06
+P01334,A0334,official_page,https://www.senat.fr/senateur/perrot_evelyne19745f.html,Wikidata Q45956007 P1808,2026-11-06
+P01335,A0335,wikipedia,https://fr.wikipedia.org/wiki/Bernard_Pillefer,Wikidata Q63763763,2026-11-06
+P01336,A0335,official_page,https://www.senat.fr/senateur/pillefer_bernard21053d.html,Wikidata Q63763763 P1808,2026-11-06
+P01337,A0336,official_page,https://www.senat.fr/senateur/verzelen_pierre_jean20122u.html,Wikidata Q63766731 P1808,2026-11-06
+P01338,A0337,official_page,https://www.senat.fr/senateur/patient_georges08073c.html,Wikidata Q3103298 P1808,2026-11-06
+P01339,A0338,official_page,https://www.senat.fr/senateur/apourceau_poly_cathy19760e.html,Wikidata Q55343699 P1808,2026-11-06
+P01340,A0339,official_page,https://www.senat.fr/senateur/bacchi_jeremy20112s.html,Wikidata Q65146252 P1808,2026-11-06
+P01341,A0340,wikipedia,https://fr.wikipedia.org/wiki/Pierre_Barros,Wikidata Q62078216,2026-11-06
+P01342,A0340,official_page,https://www.senat.fr/senateur/barros_pierre21084l.html,Wikidata Q62078216 P1808,2026-11-06
+P01343,A0341,official_page,https://www.senat.fr/senateur/basquin_alexandre21460q.html,Wikidata Q65565323 P1808,2026-11-06
+P01344,A0342,official_page,https://www.senat.fr/senateur/brossat_ian21088q.html,Wikidata Q3147241 P1808,2026-11-06
+P01345,A0343,wikipedia,https://fr.wikipedia.org/wiki/C%C3%A9line_Brulin,Wikidata Q54578290,2026-11-06
+P01346,A0343,official_page,https://www.senat.fr/senateur/brulin_celine19758l.html,Wikidata Q54578290 P1808,2026-11-06
+P01347,A0344,wikipedia,https://fr.wikipedia.org/wiki/%C3%89velyne_Corbi%C3%A8re_Naminzo,Wikidata Q122802328,2026-11-06
+P01348,A0344,official_page,https://www.senat.fr/senateur/corbiere_naminzo_evelyne21034a.html,Wikidata Q122802328 P1808,2026-11-06
+P01349,A0345,wikipedia,https://fr.wikipedia.org/wiki/Jean-Pierre_Corbisez,Wikidata Q41069984,2026-11-06
+P01350,A0345,official_page,https://www.senat.fr/senateur/corbisez_jean_pierre19681g.html,Wikidata Q41069984 P1808,2026-11-06
+P01351,A0346,official_page,https://www.senat.fr/senateur/cukierman_cecile11056n.html,Wikidata Q3009722 P1808,2026-11-06
+P01352,A0347,official_page,https://www.senat.fr/senateur/gay_fabien19695n.html,Wikidata Q41099326 P1808,2026-11-06
+P01353,A0348,wikipedia,https://fr.wikipedia.org/wiki/Michelle_Gr%C3%A9aume,Wikidata Q41099340,2026-11-06
+P01354,A0348,official_page,https://www.senat.fr/senateur/greaume_michelle19565d.html,Wikidata Q41099340 P1808,2026-11-06
+P01355,A0349,wikipedia,https://fr.wikipedia.org/wiki/G%C3%A9rard_Lahellec,Wikidata Q63248665,2026-11-06
+P01356,A0349,official_page,https://www.senat.fr/senateur/lahellec_gerard20102q.html,Wikidata Q63248665 P1808,2026-11-06
+P01357,A0350,wikipedia,https://fr.wikipedia.org/wiki/Marianne_Margat%C3%A9,Wikidata Q63764651,2026-11-06
+P01358,A0350,official_page,https://www.senat.fr/senateur/margate_marianne21075k.html,Wikidata Q63764651 P1808,2026-11-06
+P01359,A0351,wikipedia,https://fr.wikipedia.org/wiki/Pascal_Savoldelli,Wikidata Q41106290,2026-11-06
+P01360,A0351,official_page,https://www.senat.fr/senateur/savoldelli_pascal19687n.html,Wikidata Q41106290 P1808,2026-11-06
+P01361,A0352,wikipedia,https://fr.wikipedia.org/wiki/Silvana_Silvani,Wikidata Q122802843,2026-11-06
+P01362,A0352,official_page,https://www.senat.fr/senateur/silvani_silvana21049h.html,Wikidata Q122802843 P1808,2026-11-06
+P01363,A0353,wikipedia,https://fr.wikipedia.org/wiki/Marie-Claude_Varaillas,Wikidata Q63764303,2026-11-06
+P01364,A0353,official_page,https://www.senat.fr/senateur/varaillas_marie_claude20046a.html,Wikidata Q63764303 P1808,2026-11-06
+P01365,A0354,official_page,https://www.senat.fr/senateur/xowie_robert_wienie21030v.html,Wikidata Q3436591 P1808,2026-11-06
+P01366,A0355,wikipedia,https://fr.wikipedia.org/wiki/Christian_Bilhac,Wikidata Q65567271,2026-11-06
+P01367,A0355,official_page,https://www.senat.fr/senateur/bilhac_christian20116w.html,Wikidata Q65567271 P1808,2026-11-06
+P01368,A0356,official_page,https://www.senat.fr/senateur/briante_guillemont_sophie21404g.html,Wikidata Q129193465 P1808,2026-11-06
+P01369,A0357,official_page,https://www.senat.fr/senateur/cabanel_henri14207l.html,Wikidata Q18202530 P1808,2026-11-06
+P01370,A0358,official_page,https://www.senat.fr/senateur/carrere_maryse19629c.html,Wikidata Q40871238 P1808,2026-11-06
+P01371,A0359,official_page,https://www.senat.fr/senateur/daubet_raphael21041y.html,Wikidata Q63411773 P1808,2026-11-06
+P01372,A0360,wikipedia,https://fr.wikipedia.org/wiki/Bernard_Fialaire,Wikidata Q63766165,2026-11-06
+P01373,A0360,official_page,https://www.senat.fr/senateur/fialaire_bernard20132w.html,Wikidata Q63766165 P1808,2026-11-06
+P01374,A0361,official_page,https://www.senat.fr/senateur/gold_eric19387d.html,Wikidata Q41104119 P1808,2026-11-06
+P01375,A0362,wikipedia,https://fr.wikipedia.org/wiki/Philippe_Grosvalet,Wikidata Q3379963,2026-11-06
+P01376,A0362,official_page,https://www.senat.fr/senateur/grosvalet_philippe21066j.html,Wikidata Q3379963 P1808,2026-11-06
+P01377,A0363,official_page,https://www.senat.fr/senateur/guiol_andre20072c.html,Wikidata Q65584671 P1808,2026-11-06
+P01378,A0364,official_page,https://www.senat.fr/senateur/jouve_mireille14241n.html,Wikidata Q18202555 P1808,2026-11-06
+P01379,A0365,wikipedia,https://fr.wikipedia.org/wiki/Ahmed_Laouedj,Wikidata Q122804420,2026-11-06
+P01380,A0365,official_page,https://www.senat.fr/senateur/laouedj_ahmed21078n.html,Wikidata Q122804420 P1808,2026-11-06
+P01381,A0366,wikipedia,https://fr.wikipedia.org/wiki/Michel_Masset,Wikidata Q63765515,2026-11-06
+P01382,A0366,official_page,https://www.senat.fr/senateur/masset_michel21040x.html,Wikidata Q63765515 P1808,2026-11-06
+P01383,A0367,official_page,https://www.senat.fr/senateur/pantel_guylene19866p.html,Wikidata Q63766490 P1808,2026-11-06
+P01384,A0368,official_page,https://www.senat.fr/senateur/roux_jean_yves14107h.html,Wikidata Q18202576 P1808,2026-11-06
+P01385,A0369,wikipedia,https://fr.wikipedia.org/wiki/Jean-Marc_Ruel,Wikidata Q131421384,2026-11-06
+P01386,A0369,official_page,https://www.senat.fr/senateur/ruel_jean_marc21461r.html,Wikidata Q131421384 P1808,2026-11-06
+P01387,A0370,wikipedia,https://fr.wikipedia.org/wiki/Guy_Benarroche,Wikidata Q99674300,2026-11-06
+P01388,A0370,official_page,https://www.senat.fr/senateur/benarroche_guy20110q.html,Wikidata Q99674300 P1808,2026-11-06
+P01389,A0371,official_page,https://www.senat.fr/senateur/blanc_gregory21048g.html,Wikidata Q63763974 P1808,2026-11-06
+P01390,A0372,wikipedia,https://fr.wikipedia.org/wiki/Ronan_Dantec,Wikidata Q3441589,2026-11-06
+P01391,A0372,official_page,https://www.senat.fr/senateur/dantec_ronan11065p.html,Wikidata Q3441589 P1808,2026-11-06
+P01392,A0373,official_page,https://www.senat.fr/senateur/dossus_thomas20134y.html,Wikidata Q98843199 P1808,2026-11-06
+P01393,A0374,official_page,https://www.senat.fr/senateur/fernique_jacques20100n.html,Wikidata Q6120603 P1808,2026-11-06
+P01394,A0375,official_page,https://www.senat.fr/senateur/gontard_guillaume19347u.html,Wikidata Q40914766 P1808,2026-11-06
+P01395,A0376,official_page,https://www.senat.fr/senateur/guhl_antoinette21092l.html,Wikidata Q71173996 P1808,2026-11-06
+P01396,A0377,official_page,https://www.senat.fr/senateur/jadot_yannick21093m.html,Wikidata Q441791 P1808,2026-11-06
+P01397,A0378,wikipedia,https://fr.wikipedia.org/wiki/Monique_de_Marco,Wikidata Q99673856,2026-11-06
+P01398,A0378,official_page,https://www.senat.fr/senateur/de_marco_monique20142y.html,Wikidata Q99673856 P1808,2026-11-06
+P01399,A0379,wikipedia,https://fr.wikipedia.org/wiki/Akli_Mellouli,Wikidata Q122804361,2026-11-06
+P01400,A0379,official_page,https://www.senat.fr/senateur/mellouli_akli21073h.html,Wikidata Q122804361 P1808,2026-11-06
+P01401,A0380,official_page,https://www.senat.fr/senateur/ollivier_mathilde21037d.html,Wikidata Q122499900 P1808,2026-11-06
+P01402,A0381,wikipedia,https://fr.wikipedia.org/wiki/Raymonde_Poncet-Monge,Wikidata Q98843204,2026-11-06
+P01403,A0381,official_page,https://www.senat.fr/senateur/poncet_raymonde20130u.html,Wikidata Q98843204 P1808,2026-11-06
+P01404,A0382,wikipedia,https://fr.wikipedia.org/wiki/Daniel_Salmon_%28homme_politique%29,Wikidata Q99672266,2026-11-06
+P01405,A0382,official_page,https://www.senat.fr/senateur/salmon_daniel20092g.html,Wikidata Q99672266 P1808,2026-11-06
+P01406,A0383,wikipedia,https://fr.wikipedia.org/wiki/Ghislaine_Sen%C3%A9e,Wikidata Q62077758,2026-11-06
+P01407,A0383,official_page,https://www.senat.fr/senateur/senee_ghislaine21079p.html,Wikidata Q62077758 P1808,2026-11-06
+P01408,A0384,official_page,https://www.senat.fr/senateur/souyris_anne21094n.html,Wikidata Q71175355 P1808,2026-11-06
+P01409,A0385,official_page,https://www.senat.fr/senateur/vogel_melanie20266l.html,Wikidata Q108702159 P1808,2026-11-06
+P01410,A0386,official_page,https://www.senat.fr/senateur/melenchon_jean_luc86039k.html,Wikidata Q5829 P1808,2026-11-06
+P01411,A0231,wikipedia,https://fr.wikipedia.org/wiki/George_Akerlof,Wikidata Q222541,2026-11-06
+P01412,A0234,wikipedia,https://fr.wikipedia.org/wiki/Simon_Johnson,Wikidata Q1461050,2026-11-06

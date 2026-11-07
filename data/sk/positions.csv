@@ -1,1 +1,4 @@
 position_id,actor_id,body_id,role,party,geo_unit_id,start,end,current,member_ref,checked,source_url
+O00001,A0014,B0002,Member of the European Parliament,Smer-SD,G0001,2024,,,257005,,https://howtheyvote.eu/members/257005
+O00002,A0015,B0002,Member of the European Parliament,Smer-SD,G0001,2024,,,257007,,https://howtheyvote.eu/members/257007
+O00003,A0016,B0002,Member of the European Parliament,Smer-SD,G0001,2024,,,198373,,https://howtheyvote.eu/members/198373
