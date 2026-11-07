@@ -102,3 +102,7 @@ Leads not yet listed:
 ### Research runs R012–R025 (2026-11-06)
 
 New entries draw on Swedish Social Democratic congress motions, local official records, climate advocacy, Oxfam authors and party programmes. The quote checker could not access these sources from this environment; the underlying article and motion texts were inspected through browser-readable pages, including the congress PDF. Local motions were attributed to adopting associations or named authors, not automatically to forwarding or national party organisations. The 2021 motion book remains in progress (H0007); several signers need identity and public-role checks. IF Metall's 2025 motion on a wealth register does not itself endorse a wealth tax.
+
+## Review corrections (2026-11-07)
+
+- Removed three motion authors who hold no public office (Lennart Hallengren, Håkan Andersson, Jennie Östlund; exclusions X0019-X0021, private_individual): party organiser, district officer and delegate, and unelected candidate. The other motion authors hold or held municipal or council offices and stay.
