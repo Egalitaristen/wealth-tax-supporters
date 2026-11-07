@@ -90,3 +90,10 @@ Not listed, and why:
 - The 2012 Länder initiative in the Bundesrat and the 2011 to 2014 ten-Länder draft: no Bundesrat document was opened.
 - Polls known from press or secondary pages only: Infratest dimap (ARD-DeutschlandTrend April 2025, 69% "right direction"; "Deine Meinung zählt!" April 2026, 64% to 29%), Forsa April 2012 (77%, cited in Drucksache 17/10778), the Ipsos G20 poll (not Germany-specific).
 - DIW Politikberatung kompakt 108 (2016), 68 (2012) and 59 (2010), and the WSI short opinion by Kommer and Kosters: the DIW and WSI pages were not read beyond their titles.
+
+## Review corrections (2026-11-07)
+
+- Reverted 22 Wikidata ids that this refinement had set to other entities (for example Die Linke to Landshut, Marcel Fratzscher to a cyclist, the tax officials' union to a swimming championship, Jusos to China-North Korea relations) or to items with no label in any language; the actor rows keep their earlier ids (or none) and the one profile row built from a wrong id was removed. The remaining 80 id changes were checked against Wikidata labels and descriptions.
+- Habeck's Bundestag seat ended on 2025-08-31 (current=n); Trittin's ended on 2024-01-05 (abgeordnetenwatch).
+- Regraded E00601 (Mützenich) and E00602 (Esken) from A to B: the quoted sentences are the outlets' own narration of what they demand.
+- Resolved a merge conflict in data/leads.csv with main (kept this PR's L0024 and main's L0025-L0026).
