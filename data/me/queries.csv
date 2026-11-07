@@ -1,1 +1,26 @@
 query_id,run_id,date,language,query,channel,results_opened,leads_added,note
+Q0001,R003,2026-11-06,cnr,"Crna Gora ""porez na bogatstvo"" oporezivanje bogatih",web,,,Indexed search; parliamentary registry not directly searched.
+Q0002,R003,2026-11-06,en,Montenegro wealth tax Kostić millionaires porez imovinu,web,,,Indexed search; parliamentary registry not directly searched.
+Q0003,R003,2026-11-06,cnr,"Crna Gora ""porez na bogatstvo"" partija sindikat",web,,,Indexed search; parliamentary registry not directly searched.
+Q0004,R003,2026-11-06,cnr,"site:zakoni.skupstina.me ""porez na bogatstvo"" Crna Gora",web,,,Indexed search; parliamentary registry not directly searched.
+Q0005,R004,2026-11-06,cnr,"""Alejna Pepić"" ""oporezivanje bogatstva"" master rad",web,,,Search index; some target articles failed to open.
+Q0006,R004,2026-11-06,cnr,"Crna Gora ""porez na bogatstvo"" sindikat",web,,,Search index; some target articles failed to open.
+Q0007,R004,2026-11-06,cnr,"""Đukanović"" ""oporezivanje bogatstva"" 2013 sindikat",web,,,Search index; some target articles failed to open.
+Q0008,R004,2026-11-06,cnr,"""SSCG"" ""oporezivanja enormnog bogatstva""",web,,,Search index; some target articles failed to open.
+Q0009,R004,2026-11-06,cnr,"""Nikolaidis"" ""Pajović"" ""abnormalne količine"" imovine",web,,,Search index; some target articles failed to open.
+Q0010,R006,2026-11-06,cnr,"""Crna Gora"" ""porez na bogatstvo"" ""sindikat""",web,,,Search across media and political leads.
+Q0011,R006,2026-11-06,cnr,"""Crna Gora"" ""oporezivanje bogatstva"" ""sindikat""",web,,,Search across media and political leads.
+Q0012,R006,2026-11-06,cnr,"""Crnoj Gori"" ""porez na bogatstvo"" političari",web,,,Search across media and political leads.
+Q0013,R006,2026-11-06,cnr,"""Vesko Pejak"" ""porez na bogatstvo""",web,,,Search across media and political leads.
+Q0014,R007,2026-11-06,cnr,"""Crna Gora"" ""oporezivanje bogatstva"" nevladine organizacije sindikat",web,,,Geographic and civil society sample; no exhaustive municipal record review.
+Q0015,R007,2026-11-06,cnr,"""porez na bogatstvo"" Podgorica sindikat",web,,,Geographic and civil society sample; no exhaustive municipal record review.
+Q0016,R007,2026-11-06,cnr,"""porez na bogatstvo"" Nikšić građani",web,,,Geographic and civil society sample; no exhaustive municipal record review.
+Q0017,R007,2026-11-06,cnr,"""oporezivanje bogatstva"" ""Bar"" Crna Gora",web,,,Geographic and civil society sample; no exhaustive municipal record review.
+Q0018,R007,2026-11-06,cnr,"""porez na bogatstvo"" Budva Cetinje Crna Gora",web,,,Geographic and civil society sample; no exhaustive municipal record review.
+Q0019,R007,2026-11-06,cnr,"""porez na bogatstvo"" Pljevlja Crna Gora",web,,,Geographic and civil society sample; no exhaustive municipal record review.
+Q0020,R007,2026-11-06,cnr,"""porez na bogatstvo"" Bijelo Polje Crna Gora",web,,,Geographic and civil society sample; no exhaustive municipal record review.
+Q0021,R007,2026-11-06,cnr,"""porez na bogatstvo"" Herceg Novi",web,,,Geographic and civil society sample; no exhaustive municipal record review.
+Q0022,R007,2026-11-06,cnr,"""oporezivanje bogatstva"" Ulcinj Crna Gora",web,,,Geographic and civil society sample; no exhaustive municipal record review.
+Q0023,R007,2026-11-06,sq,"""tatim mbi pasurinë"" ""Mali i Zi"" sindikata",web,,,Geographic and civil society sample; no exhaustive municipal record review.
+Q0024,R007,2026-11-06,cnr,"""unija slobodnih sindikata"" ""bogatstvo"" ""oporezivanje""",web,,,Geographic and civil society sample; no exhaustive municipal record review.
+Q0025,R007,2026-11-06,cnr,"""oporezivanje bogatstva"" site:mans.co.me OR site:cgo-cce.org OR site:institut-alternativa.org",web,,,Geographic and civil society sample; no exhaustive municipal record review.

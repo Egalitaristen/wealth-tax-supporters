@@ -1,2 +1,2 @@
 harvest_id,title,list_type,url,date,est_size,status,actors_added,notes
-H0001,"Alþingi extension of the auðlegðarskattur, 2013-2014 votes",roll_call,https://www.althingi.is/altext/raeda/143/rad20131219T113534.html,,,queued,,Blocked to scripts (403).
+H0001,"Alþingi extension of the auðlegðarskattur, 2013-2014 votes",roll_call,https://www.althingi.is/altext/raeda/143/rad20131219T113534.html,,,done,"A0004, A0015","Resolved via XML API: Roll call vote 49497 on 2013-12-19 was specifically on Item 2 of þingskjal 395 (143rd session) extending auðlegðarskattur. Seven MPs voted JÁ (Steingrímur J. Sigfússon, Katrín Jakobsdóttir, Árni Þór Sigurðsson, Bjarkey Gunnarsdóttir, Lilja Rafney Magnúsdóttir, Ólafur Þór Gunnarsson, Sigríður Ingibjörg Ingadóttir)."

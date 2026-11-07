@@ -327,12 +327,206 @@ P00325,A0082,official_page,https://millionairesforhumanity.org/the-millionaires/
 P00326,A0085,official_page,https://www.lymphoma.ca/meet-sabina-vohra-miller/,https://www.lymphoma.ca/meet-sabina-vohra-miller/,2026-10-28
 P00327,A0233,official_page,https://millionairesforhumanity.org/?p=15403,https://millionairesforhumanity.org/?p=15403,2026-10-28
 P00328,A0077,official_page,https://penguinrandomhouse.com/authors/2184187/andreas-souvaliotis,https://penguinrandomhouse.com/authors/2184187/andreas-souvaliotis,2026-10-28
-P00330,A0050,website,https://avibryant.com/,https://avibryant.com/,2026-10-28
-P00331,A0057,website,https://www.so-dy.org/,https://www.so-dy.org/,2026-10-28
-P00332,A0063,official_page,https://www.commonwealth.ca/floyd-marinescu,https://www.commonwealth.ca/floyd-marinescu,2026-10-28
-P00333,A0088,official_page,https://antimonopoly.ca/rachel-wasserman/,https://antimonopoly.ca/rachel-wasserman/,2026-10-28
-P00334,A0088,substack,https://substack.com/@rwasserman,https://substack.com/@rwasserman,2026-10-28
-P00335,A0230,official_page,https://millionairesforhumanity.org/the-millionaires/erica-pinsky/,https://millionairesforhumanity.org/the-millionaires/erica-pinsky/,2026-10-28
-P00336,A0230,website,https://www.ericajpinskyinc.ca/,https://www.ericajpinskyinc.ca/,2026-10-28
-P00337,A0092,bluesky,https://bsky.app/profile/lindamcquaig.bsky.social,Bluesky profile bio names her book Cancelling Billionaires Before They Cancel Us,2026-10-29
-P00338,A0144,bluesky,https://bsky.app/profile/mikeschreiner.bsky.social,Bluesky profile: leader of the Ontario Green Party,2026-10-29
+P00329,A0050,website,https://avibryant.com/,https://avibryant.com/,2026-10-28
+P00330,A0057,website,https://www.so-dy.org/,https://www.so-dy.org/,2026-10-28
+P00331,A0063,official_page,https://www.commonwealth.ca/floyd-marinescu,https://www.commonwealth.ca/floyd-marinescu,2026-10-28
+P00332,A0088,official_page,https://antimonopoly.ca/rachel-wasserman/,https://antimonopoly.ca/rachel-wasserman/,2026-10-28
+P00333,A0088,substack,https://substack.com/@rwasserman,https://substack.com/@rwasserman,2026-10-28
+P00334,A0230,official_page,https://millionairesforhumanity.org/the-millionaires/erica-pinsky/,https://millionairesforhumanity.org/the-millionaires/erica-pinsky/,2026-10-28
+P00335,A0230,website,https://www.ericajpinskyinc.ca/,https://www.ericajpinskyinc.ca/,2026-10-28
+P00336,A0092,bluesky,https://bsky.app/profile/lindamcquaig.bsky.social,Bluesky profile bio names her book Cancelling Billionaires Before They Cancel Us,2026-10-29
+P00337,A0144,bluesky,https://bsky.app/profile/mikeschreiner.bsky.social,Bluesky profile: leader of the Ontario Green Party,2026-10-29
+P00338,A0236,website,https://rosagalvez.ca/,official personal website,2026-11-06
+P00339,A0228,website,https://www.taxfairness.ca/sites/default/files/pdf/dennis_howlett_short_bio.pdf,Canadians for Tax Fairness author bio,2026-11-06
+P00340,A0229,website,https://www.readthemaple.com/author/alex/,The Maple author profile,2026-11-06
+P00341,A0229,x,https://x.com/AlexCosh_,The Maple author profile,2026-11-06
+P00342,A0042,website,https://www.taxfairness.ca/en/about/people/john-anderson,Canadians for Tax Fairness author profile,2026-11-06
+P00343,A0100,website,https://www.taxfairness.ca/en/about/people/toby-sanger,Canadians for Tax Fairness author profile,2026-11-06
+P00344,A0100,x,https://x.com/toby_sanger,The Tyee / Ricochet Media profile,2026-11-06
+P00345,A0101,website,https://www.taxfairness.ca/en/about/people/erika-beauchesne,Canadians for Tax Fairness team profile,2026-11-06
+P00346,A0223,x,https://x.com/christoaivalis,Canadian Dimension author bio / personal verified profile,2026-11-06
+P00347,A0224,x,https://x.com/maxfawcett,National Observer columnist profile,2026-11-06
+P00348,A0224,bluesky,https://bsky.app/profile/maxfawcett.bsky.social,Bluesky profile: 'Lead columnist for Canada's National Observer',2026-11-06
+P00349,A0145,website,https://www.voteclancy.ca/,Official constituency and campaign website,2026-11-06
+P00350,A0145,x,https://x.com/AislinnClancyKC,voteclancy.ca website link,2026-11-06
+P00351,A0145,instagram,https://www.instagram.com/aislinnclancykc/,voteclancy.ca website link,2026-11-06
+P00352,A0145,facebook,https://www.facebook.com/AislinnClancyKC/,voteclancy.ca website link,2026-11-06
+P00353,A0152,website,https://naomihunter.ca/,Official leader website,2026-11-06
+P00354,A0152,x,https://x.com/GpcHunter,naomihunter.ca website link,2026-11-06
+P00355,A0152,facebook,https://www.facebook.com/NaomiHunterGPC/,naomihunter.ca website link,2026-11-06
+P00356,A0152,instagram,https://www.instagram.com/naomi.ness6/,naomihunter.ca website link,2026-11-06
+P00357,A0225,website,https://davidmoscrop.substack.com/,Personal publication website,2026-11-06
+P00358,A0225,x,https://x.com/David_Moscrop,TVO / Maclean’s author profile,2026-11-06
+P00359,A0225,bluesky,https://bsky.app/profile/davidmoscrop.com,Verified Bluesky profile,2026-11-06
+P00360,A0238,website,https://policyalternatives.ca/authors/trish-hennessy,CCPA author page,2026-11-06
+P00361,A0238,x,https://x.com/trishhennessy,CCPA staff profile,2026-11-06
+P00362,A0238,bluesky,https://bsky.app/profile/trishhennessy.ca,Bluesky profile bio,2026-11-06
+P00363,A0239,website,https://farnellmorisset.substack.com/,Personal publication website,2026-11-06
+P00364,A0239,youtube,https://www.youtube.com/@farnellmorisset,Official YouTube channel,2026-11-06
+P00365,A0239,wikipedia,https://fr.wikipedia.org/wiki/Farnell_Morisset,Wikidata Q131004986,2026-11-06
+P00366,A0332,wikipedia,https://fr.wikipedia.org/wiki/Aur%C3%A9a_Cormier,Wikidata Q2871969,2026-11-06
+P00367,A0333,website,https://climatewest.ca/members/elizabeth-shearer/,ClimateWest staff profile,2026-11-06
+P00368,A0226,website,https://centreforfuturework.ca/,Centre for Future Work director page,2026-11-06
+P00369,A0110,x,https://x.com/FredHahnCUPE,CUPE Ontario leadership link,2026-11-06
+P00370,A0098,website,https://policyalternatives.ca/authors/andrew-jackson,CCPA author page,2026-11-06
+P00371,A0106,website,https://lorimer.ca/adults/product/share-the-wealth/,Lorimer publisher author page,2026-11-06
+P00372,A0137,website,https://www.frapru.qc.ca/le-frapru/,FRAPRU team page: porte-parole,2026-11-06
+P00373,A0139,website,https://aptsq.com/en/news/2023-convention-robert-comeau-reelected-as-apts-president/,APTS official leadership announcement,2026-11-06
+P00374,A0104,website,https://www.resourcemovement.org/,Official organisation website,2026-11-06
+P00375,A0104,x,https://x.com/resourcemove,resourcemovement.org header link,2026-11-06
+P00376,A0104,instagram,https://www.instagram.com/resourcemovement/,resourcemovement.org header link,2026-11-06
+P00377,A0104,facebook,https://www.facebook.com/resourcemovement/,resourcemovement.org header link,2026-11-06
+P00378,A0104,linkedin,https://www.linkedin.com/company/resource-movement,resourcemovement.org header link,2026-11-06
+P00379,A0126,website,https://www.fiqsante.qc.ca/,Official organisation website,2026-11-06
+P00380,A0126,facebook,https://www.facebook.com/FIQSante/,fiqsante.qc.ca footer link,2026-11-06
+P00381,A0126,instagram,https://www.instagram.com/fiqsante/,fiqsante.qc.ca footer link,2026-11-06
+P00382,A0126,youtube,https://www.youtube.com/fiqsante,fiqsante.qc.ca footer link,2026-11-06
+P00383,A0126,linkedin,https://www.linkedin.com/company/fiqsante/,fiqsante.qc.ca footer link,2026-11-06
+P00384,A0221,wikipedia,https://en.wikipedia.org/wiki/Canada%27s_Young_New_Democrats,Wikidata Q18287007,2026-11-06
+P00385,A0221,instagram,https://www.instagram.com/ynd_jnd/,Wikidata Q18287007,2026-11-06
+P00386,A0221,facebook,https://www.facebook.com/YND.JND/,Wikidata Q18287007,2026-11-06
+P00387,A0218,facebook,https://www.facebook.com/JNDQc/,Official organization Facebook page,2026-11-06
+P00388,A0218,instagram,https://www.instagram.com/jndquebec/,Official organization Instagram page,2026-11-06
+P00389,A0221,website,https://youth.ndp.ca,Wikidata Q18287007,2026-11-06
+P00390,A0239,instagram,https://www.instagram.com/farnellmorisset/,Wikidata Q131004986,2026-11-06
+P00391,A0239,tiktok,https://www.tiktok.com/@farnellmorisset,Wikidata Q131004986,2026-11-06
+P00392,A0030,facebook,https://www.facebook.com/quebecsolidaire/,Official party Facebook page,2026-11-06
+P00393,A0031,x,https://x.com/RubaGhazalQS,Official politician X account,2026-11-06
+P00394,A0031,wikipedia,https://fr.wikipedia.org/wiki/Ruba_Ghazal,Wikipedia biography,2026-11-06
+P00395,A0031,official_page,https://www.assnat.qc.ca/fr/deputes/ghazal-ruba-17865/biographie.html,National Assembly of Quebec member biography,2026-11-06
+P00396,A0032,x,https://x.com/AleZagaMendez,Official politician X account,2026-11-06
+P00397,A0032,wikipedia,https://fr.wikipedia.org/wiki/Alejandra_Zaga_Mendez,Wikipedia biography,2026-11-06
+P00398,A0032,official_page,https://www.assnat.qc.ca/fr/deputes/zaga-mendez-alejandra-19263/biographie.html,National Assembly of Quebec member biography,2026-11-06
+P00399,A0033,x,https://x.com/BCGreens,Official party X account,2026-11-06
+P00400,A0033,wikipedia,https://en.wikipedia.org/wiki/Green_Party_of_British_Columbia,Wikipedia article,2026-11-06
+P00401,A0114,website,https://durhamlabour.ca/,Official labour council website,2026-11-06
+P00402,A0115,website,https://greybrucelabour.ca/,Official labour council website,2026-11-06
+P00403,A0117,website,https://reginalabour.ca/,Official labour council website,2026-11-06
+P00404,A0124,official_page,https://iris-recherche.qc.ca/a-propos/chercheurs/guillaume-hebert/,IRIS researcher profile,2026-11-06
+P00405,A0124,wikipedia,https://fr.wikipedia.org/wiki/Guillaume_H%C3%A9bert,Wikipedia biography,2026-11-06
+P00406,A0130,facebook,https://www.facebook.com/FSSScsn/,Official union Facebook page,2026-11-06
+P00407,A0130,x,https://x.com/FSSSCSN,Official union X account,2026-11-06
+P00408,A0130,wikipedia,https://fr.wikipedia.org/wiki/F%C3%A9d%C3%A9ration_de_la_sant%C3%A9_et_des_services_sociaux,Wikipedia article,2026-11-06
+P00409,A0133,official_page,https://iris-recherche.qc.ca/a-propos/chercheurs/julia-posca/,IRIS researcher profile,2026-11-06
+P00410,A0133,wikipedia,https://fr.wikipedia.org/wiki/Julia_Posca,Wikipedia biography,2026-11-06
+P00411,A0134,official_page,https://uniondesconsommateurs.ca/,Union des consommateurs organization website,2026-11-06
+P00412,A0135,official_page,https://consommateur.qc.ca/acefest/,ACEF de l’Est de Montréal official website,2026-11-06
+P00413,A0136,official_page,https://ftq.qc.ca/,FTQ official organization website,2026-11-06
+P00414,A0142,official_page,https://cdec-cdce.org/equipe/,Coalition pour la diversité des expressions culturelles team profile,2026-11-06
+P00415,A0146,facebook,https://www.facebook.com/OntarioGreens/,Official party Facebook page,2026-11-06
+P00416,A0146,instagram,https://www.instagram.com/ontariogreens/,Official party Instagram account,2026-11-06
+P00417,A0234,x,https://x.com/j_pedneault,Official politician X account,2026-11-06
+P00418,A0237,x,https://x.com/SethDklein,Official X account,2026-11-06
+P00419,A0237,wikipedia,https://en.wikipedia.org/wiki/Seth_Klein,Wikipedia biography,2026-11-06
+P00420,A0241,website,https://allianceprofsgsm.ca/,Official union website,2026-11-06
+P00421,A0241,wikipedia,https://fr.wikipedia.org/wiki/Alliance_des_professeures_et_professeurs_de_Montr%C3%A9al,Wikipedia article,2026-11-06
+P00422,A0244,website,https://www.centraide-quebec.com/,Official charity organization website,2026-11-06
+P00423,A0246,website,https://cirquehorspiste.com/,Official organization website,2026-11-06
+P00424,A0250,website,https://www.coalitionfeministe.org/,Official coalition website,2026-11-06
+P00425,A0251,website,https://interjeunes.org/,Official coalition website,2026-11-06
+P00426,A0253,website,https://cmtdq.org/,Official coalition website,2026-11-06
+P00427,A0255,website,https://cssante.com/,Official coalition website,2026-11-06
+P00428,A0258,website,https://www.smelaval.org/,Official organization website,2026-11-06
+P00429,A0260,website,https://cophan.org/,Official confederation website,2026-11-06
+P00430,A0272,website,https://espacektheatre.com/,Official theatre company website,2026-11-06
+P00431,A0281,website,https://fsac.lacsq.org/,Official federation website,2026-11-06
+P00432,A0286,website,https://fillesdejesus.org/,Official congregation website,2026-11-06
+P00433,A0293,website,https://lautreparole.org/,Official collective website,2026-11-06
+P00434,A0295,website,https://ssvpq.org/,Official society website,2026-11-06
+P00435,A0296,website,https://langageplus.com/,Official art centre website,2026-11-06
+P00436,A0297,website,https://missioninclusion.ca/,Official foundation website,2026-11-06
+P00437,A0298,website,https://diocesejoliette.org/,Official diocese website,2026-11-06
+P00438,A0305,facebook,https://www.facebook.com/rodcd,Official Facebook page,2026-11-06
+P00439,A0307,website,https://evechechicoutimi.qc.ca/,Official diocese website,2026-11-06
+P00440,A0308,website,https://ssvp.ca/,Official SSVP Canada council directory,2026-11-06
+P00441,A0309,website,https://ssvp.ca/,Official SSVP Canada council directory,2026-11-06
+P00442,A0310,website,https://ssvp-mtl.org/,Official society website,2026-11-06
+P00443,A0311,website,https://ssvp.ca/,Official SSVP Canada council directory,2026-11-06
+P00444,A0313,website,https://sqees.ca/,Official union website,2026-11-06
+P00445,A0315,website,https://dioceserimouski.com/,Official diocese website,2026-11-06
+P00446,A0320,website,https://upsb.info/,Official parish website,2026-11-06
+P00447,A0325,website,https://geog.ubc.ca/profile/avi-lewis/,UBC faculty profile,2026-11-06
+P00448,A0326,x,https://x.com/desjarlaisblake,Official politician X account,2026-11-06
+P00449,A0326,official_page,https://www.ourcommons.ca/members/en/110889,Parliament of Canada member profile,2026-11-06
+P00450,A0327,x,https://x.com/dimitrilascaris,Official public X account,2026-11-06
+P00451,A0328,official_page,https://www.ola.org/en/members/former/gurratan-singh,Legislative Assembly of Ontario former member profile,2026-11-06
+P00452,A0336,official_page,https://management.ok.ubc.ca/about/contact/adam-saifer/,UBC Okanagan faculty profile,2026-11-06
+P00453,A0107,website,https://teamsters.ca/,actors.csv website column,2026-11-06
+P00454,A0142,website,https://cdec-cdce.org/,actors.csv website column,2026-11-06
+P00455,A0299,website,https://quebecsolidaire.net/,actors.csv website column,2026-11-06
+P00456,A0300,website,https://quebecsolidaire.net/,actors.csv website column,2026-11-06
+P00457,A0301,website,https://quebecsolidaire.net/,actors.csv website column,2026-11-06
+P00458,A0033,facebook,https://www.facebook.com/BCGreens,Wikidata Q3366818,2026-11-06
+P00459,A0133,instagram,https://www.instagram.com/julia.posca/,Wikidata Q130297384,2026-11-06
+P00460,A0133,linkedin,https://www.linkedin.com/in/julia-posca-0236a2244/,Wikidata Q130297384,2026-11-06
+P00461,A0241,instagram,https://www.instagram.com/alliancedesprofs/,Wikidata Q16147631,2026-11-06
+P00462,A0296,instagram,https://www.instagram.com/centrelangageplus/,Wikidata Q107106160,2026-11-06
+P00463,A0296,facebook,https://www.facebook.com/LangagePlus,Wikidata Q107106160,2026-11-06
+P00464,A0297,bluesky,https://bsky.app/profile/missioninclusion.bsky.social,Wikidata Q137365963,2026-11-06
+P00465,A0297,instagram,https://www.instagram.com/missioninclusion/,Wikidata Q137365963,2026-11-06
+P00466,A0297,facebook,https://www.facebook.com/missioninclusion,Wikidata Q137365963,2026-11-06
+P00467,A0297,youtube,https://www.youtube.com/channel/UC5VF2KEOlehAp3dopTX_39Q,Wikidata Q137365963,2026-11-06
+P00468,A0202,x,https://x.com/harounbouazzi,Official politician X account,2026-11-06
+P00469,A0202,wikipedia,https://fr.wikipedia.org/wiki/Haroun_Bouazzi,Wikipedia biography,2026-11-06
+P00470,A0202,official_page,https://www.assnat.qc.ca/en/deputes/bouazzi-haroun-19305/biographie.html,National Assembly of Quebec member biography,2026-11-06
+P00471,A0037,official_page,https://policyalternatives.ca/authors/alex-hemingway,CCPA author profile,2026-11-06
+P00472,A0037,x,https://x.com/alexhemingway,Official X account,2026-11-06
+P00473,A0334,official_page,https://policyalternatives.ca/authors/marc-lee,CCPA author profile,2026-11-06
+P00474,A0334,x,https://x.com/MarcLeeCCPA,Official X account,2026-11-06
+P00475,A0118,website,https://sudburylabour.ca/,Official labour council website,2026-11-06
+P00476,A0122,wikipedia,https://fr.wikipedia.org/wiki/Centrale_des_syndicats_du_Qu%C3%A9bec,Wikipedia article,2026-11-06
+P00477,A0125,wikipedia,https://fr.wikipedia.org/wiki/F%C3%A9d%C3%A9ration_interprofessionnelle_de_la_sant%C3%A9_du_Qu%C3%A9bec,Wikipedia article,2026-11-06
+P00478,A0129,website,https://nonauxhausses.org/,Official coalition website,2026-11-06
+P00479,A0138,website,https://aptsq.com/,Official union alliance website,2026-11-06
+P00480,A0138,wikipedia,https://fr.wikipedia.org/wiki/Alliance_du_personnel_professionnel_et_technique_de_la_sant%C3%A9_et_des_services_sociaux,Wikipedia article,2026-11-06
+P00481,A0150,website,https://betterwayalberta.ca/,Official campaign website,2026-11-06
+P00482,A0240,wikipedia,https://fr.wikipedia.org/wiki/Alain_Deneault,Wikipedia biography,2026-11-06
+P00483,A0240,official_page,https://www.umoncton.ca/umcs/deneault_alain,Université de Moncton faculty profile,2026-11-06
+P00484,A0245,wikipedia,https://fr.wikipedia.org/wiki/Centrale_des_syndicats_d%C3%A9mocratiques,Wikipedia article,2026-11-06
+P00485,A0247,website,https://familleslgbt.org/,Official coalition website,2026-11-06
+P00486,A0252,facebook,https://www.facebook.com/coalitionjeunesplus/,Official Facebook page,2026-11-06
+P00487,A0254,website,https://traitedespersonnes.ca/,Official coalition website,2026-11-06
+P00488,A0261,website,https://cofaq.qc.ca/,Official confederation website,2026-11-06
+P00489,A0262,website,https://www.csn.qc.ca/conseils-centraux/abitibi-temiscamingue-nord-du-quebec/,CSN regional central council directory,2026-11-06
+P00490,A0263,website,https://www.csn.qc.ca/conseils-centraux/gaspesie-iles-de-la-madeleine/,CSN regional central council directory,2026-11-06
+P00491,A0264,website,https://www.csn.qc.ca/conseils-centraux/monteregie/,CSN regional central council directory,2026-11-06
+P00492,A0265,website,https://www.csn.qc.ca/conseils-centraux/lanaudiere/,CSN regional central council directory,2026-11-06
+P00493,A0266,website,https://www.csn.qc.ca/conseils-centraux/quebec-chaudiere-appalaches/,CSN regional central council directory,2026-11-06
+P00494,A0267,website,https://www.csn.qc.ca/conseils-centraux/outaouais/,CSN regional central council directory,2026-11-06
+P00495,A0268,website,https://www.csn.qc.ca/conseils-centraux/saguenay-lac-saint-jean/,CSN regional central council directory,2026-11-06
+P00496,A0269,website,https://www.csn.qc.ca/conseils-centraux/bas-saint-laurent/,CSN regional central council directory,2026-11-06
+P00497,A0270,website,https://www.csn.qc.ca/conseils-centraux/coeur-du-quebec/,CSN regional central council directory,2026-11-06
+P00498,A0273,wikipedia,https://fr.wikipedia.org/wiki/F%C3%A9d%C3%A9ration_autonome_de_l%27enseignement,Wikipedia article,2026-11-06
+P00499,A0277,website,https://feesp.csn.qc.ca/,Official federation website,2026-11-06
+P00500,A0278,website,https://ffq.qc.ca/,Official federation website,2026-11-06
+P00501,A0278,wikipedia,https://fr.wikipedia.org/wiki/F%C3%A9d%C3%A9ration_des_femmes_du_Qu%C3%A9bec,Wikipedia article,2026-11-06
+P00502,A0279,website,https://flhlmq.com/,Official federation website,2026-11-06
+P00503,A0282,wikipedia,https://fr.wikipedia.org/wiki/F%C3%A9d%C3%A9ration_des_travailleurs_et_travailleuses_du_Qu%C3%A9bec,Wikipedia article,2026-11-06
+P00504,A0284,website,https://fecq.org/,Official federation website,2026-11-06
+P00505,A0284,wikipedia,https://fr.wikipedia.org/wiki/F%C3%A9d%C3%A9ration_%C3%A9tudiante_coll%C3%A9giale_du_Qu%C3%A9bec,Wikipedia article,2026-11-06
+P00506,A0285,website,https://fneeq.qc.ca/,Official federation website,2026-11-06
+P00507,A0285,wikipedia,https://fr.wikipedia.org/wiki/F%C3%A9d%C3%A9ration_nationale_des_enseignantes_et_des_enseignants_du_Qu%C3%A9bec,Wikipedia article,2026-11-06
+P00508,A0287,website,https://beati.qc.ca/,Official foundation website,2026-11-06
+P00509,A0288,wikipedia,https://fr.wikipedia.org/wiki/Fondation_Lucie_et_Andr%C3%A9_Chagnon,Wikipedia article,2026-11-06
+P00510,A0289,wikipedia,https://fr.wikipedia.org/wiki/Fondation_Rivi%C3%A8res,Wikipedia article,2026-11-06
+P00511,A0290,website,https://fcpasq.qc.ca/,Official coalition website,2026-11-06
+P00512,A0291,website,https://transitionenergetique.org/,Official coalition website,2026-11-06
+P00513,A0302,website,https://rccq.org/,Official regroupement website,2026-11-06
+P00514,A0304,website,https://rocajq.org/,Official regroupement website,2026-11-06
+P00515,A0317,website,https://tncdc.qc.ca/,Official table website,2026-11-06
+P00516,A0318,website,https://tvclamatapedia.com/,Official community television website,2026-11-06
+P00517,A0319,wikipedia,https://fr.wikipedia.org/wiki/Union_%C3%A9tudiante_du_Qu%C3%A9bec,Wikipedia article,2026-11-06
+P00518,A0330,website,https://onecowichan.ca/,Official campaign website,2026-11-06
+P00519,A0331,website,https://ndppei.ca/,Official party website,2026-11-06
+P00520,A0331,wikipedia,https://en.wikipedia.org/wiki/Prince_Edward_Island_New_Democratic_Party,Wikipedia article,2026-11-06
+P00521,A0039,website,https://policyalternatives.ca/bc,Official project website,2026-11-06
+P00522,A0046,website,https://www.policyalternatives.ca/,Official think tank website,2026-11-06
+P00523,A0112,website,https://www.cupw.ca/,Official union website,2026-11-06
+P00524,A0116,website,https://northbaylabour.ca/,Official labour council website,2026-11-06
+P00525,A0119,website,https://tbdlc.ca/,Official labour council website,2026-11-06
+P00526,A0120,website,https://labourcouncil.ca/,Official labour council website,2026-11-06
+P00527,A0132,wikipedia,https://fr.wikipedia.org/wiki/Front_d%27action_populaire_en_r%C3%A9am%C3%A9nagement_urbain,Wikipedia article,2026-11-06
+P00528,A0271,website,https://ccmm-csn.qc.ca/,Official CSN regional council website,2026-11-06
+P00529,A0276,website,https://faecum.qc.ca/,Official student federation website,2026-11-06
+P00530,A0276,wikipedia,https://fr.wikipedia.org/wiki/F%C3%A9d%C3%A9ration_des_associations_%C3%A9tudiantes_du_campus_de_l%27Universit%C3%A9_de_Montr%C3%A9al,Wikipedia article,2026-11-06
+P00531,A0321,website,https://pauvrete.qc.ca/,Official collective website,2026-11-06

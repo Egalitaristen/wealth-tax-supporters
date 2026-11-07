@@ -1,0 +1,11 @@
+query_id,run_id,date,language,query,channel,results_opened,leads_added,note
+Q0001,R012,2026-11-06,ja,富裕税 意見書 提出者 市議会,web,2,1,Found Funabashi motion and official session schedule.
+Q0002,R014,2026-11-06,ja,富裕税 市議会 議員 発言 創設,web,3,1,Niihama official minutes and roster checked; Sagae policy undated.
+Q0003,R015,2026-11-06,ja,富裕税 導入 求める 市民団体 2019,web,3,0,Located 2019 coalition proposal; coalition already registered. Chiryu search result not found in opened minutes.
+Q0004,R016,2026-11-06,ja,佐藤主光 小林慶一郎 資産税 コロナ 共同論文,web,4,0,Found co-authored 2020 proposal and checked current university roles; records conditional one-time financial-asset levy.
+Q0005,R017,2026-11-06,ja,富裕税 創設 市議会 議員 提案; 富裕税 導入 経済学者,web,5,2,Found Omura opinion; queued Sakai research report and rejected Kasukabe motion for attribution checks.
+Q0006,R018,2026-11-06,ja,富裕税 創設 急げ 岡部陽二; 春日部 議第17号 富裕税 提案者,web,5,0,Located signed 2022 essay and 2026 authored update; reviewed 2021 Daigo article and open motion/academic leads.
+Q0007,R019,2026-11-06,ja,富裕税 導入 著者 武田知弘 2012,web,4,0,Publisher book record supplies date and wealth-tax subtitle; recent publisher profile confirms author identity.
+Q0008,R020,2026-11-06,ja,春日部 平成29年12月 議第17号 意見書; 酒井翔子 科研費 18K12980; 渡辺けんいち 富裕税,web,5,0,Located official 2018 Kasukabe bulletin group vote and KAKEN project/final report link; individual votes and reliable visual report date remain unverified.
+Q0009,R021,2026-11-06,ja,酒井翔子 菊谷正人 富裕税 研究,web,5,0,Located 2020 co-authored paper with explicit proposal and verified researchers’ institutional profiles.
+Q0010,R022,2026-11-06,ja,渡辺けんいち 富裕税 policy; 春日部市議会 平成29年12月15日 意見書第17号 今尾安徳,web,4,0,Opened policy page and linked WordPress record with dated content; opened council motion and original meeting transcript in browser.
