@@ -1,3 +1,6 @@
 body_id,name,level,kind,seats,as_of,source_url,seat_view,notes
 B0001,Cámara de Diputados,national,chamber,130,2026-11-04,https://diputados.gob.bo/diputados/,y,"Official Cámara list (diputados.gob.bo/diputados/): 255 entries, titulares and suplentes with party. The page does not flag which are titulares; they were told from the photo file codes (TI/SU), then reconciled to 130. Counts by party: PDC 49, LIBRE 39, Unidad 26, AP 8, APB Súmate 5, MAS-IPSP 2, Bia-Yuqui 1. Four PDC, two Unidad and one AP entries have no code and were assigned to make the totals match."
 B0002,Cámara de Senadores,national,chamber,36,2026-11-04,https://www.senado.gob.bo,y,"Senate site API (apisi.senado.gob.bo/page/senadores/pleno): 72 entries, 36 titulares and 36 suplentes; party seats counted among titulares."
+B0003,Vicepresidencia del Estado Plurinacional,national,other,,,https://www.vicepresidencia.gob.bo/,,"National vice-presidency; historical office, no seat chart."
+B0004,Presidencia del Estado Plurinacional,national,other,,,https://presidencia.gob.bo/index.php/presidente-de-bolivia/,,National presidency; historical offices.
+B0005,Ministerio de Economía y Finanzas Públicas,national,other,,,https://www.economiayfinanzas.gob.bo/,,National ministry; historical office.
