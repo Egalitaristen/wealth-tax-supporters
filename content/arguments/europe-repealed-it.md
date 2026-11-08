@@ -114,7 +114,7 @@ The states had received the revenue, and they asked the federal government to co
 
 France has the best-documented case. Its ISF had a ceiling tied to income. The evaluation committee found that the cap cost about €2 billion a year, twice the tax administration's estimate, and that the richest 0.001% paid 0.1% of their wealth in 2017.[15] The ISF raised €4.2 billion that year.[15]
 
-From 2018 the IFI replaced it, taxing real estate above €1.3 million. Two thirds of former ISF payers owed nothing in 2018, and their average bill fell from €8,000 to €1,600.[15] The IFI raised €1.29 billion in 2018 and €1.83 billion in 2022.[16] The committee put the cost of the replacement at "vraisemblablement supérieur à 4 milliards d'euros" a year by 2022.[15]
+From 2018 the IFI replaced it, taxing real estate above €1.3 million. Two thirds of former ISF payers owed nothing in 2018, and across all former payers the average bill fell from €8,000 to €1,600.[15] The IFI raised €1.29 billion in 2018 and €1.83 billion in 2022.[16] The committee put the cost of the replacement at "vraisemblablement supérieur à 4 milliards d'euros" a year by 2022.[15]
 
 The repeal did not fix the departures. Before it, 760 payers left in 2017, 0.2% of about 360,000. After it, departures fell by two thirds to about 270 a year against about 130,000 payers, again 0.2%.[15][16] The committee found no lasting shift out of property and no evidence that the ISF had cut dividends or investment.[15] France paid more than €4 billion a year to leave the exit rate where it was and the ceiling problem unsolved for everything outside real estate.
 
