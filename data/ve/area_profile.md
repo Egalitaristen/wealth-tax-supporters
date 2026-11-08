@@ -31,13 +31,19 @@ Seed pass of 2026-11-03 (run R001). Lines marked `[verify]` come from a search s
 - El Español / EFE, Diario Las Américas, NTN24, La Patilla and Aporrea (both answered a bot check and were not read), finanzasdigital.com, law-firm bulletins (PwC, Forvis Mazars, Crowe, Travieso Evans).
 
 ## 9. Known networks
-- Chavista institutions only: the ANC board (Cabello, Díaz), the Seniat and one health-workers union leader (Fenasirtrasalud). The law went through the ANC en bloque. No statement by a party as such, a confederation (CTV, UNETE, CBST, ASI), an NGO or an economist turned up; opposition voices and Fedecámaras oppose the tax.
+- Broad political, legislative, and intellectual constellation across the Bolivarian movement, university academia, state media, and opposition legislative initiatives:
+  - **Executive & Legislative Enactment:** Nicolás Maduro (President, introduced the wealth tax in 2017), Diosdado Cabello (ANC President), Tania Díaz (First Vice-President), Gladys Requena (Second Vice-President), Eduardo Piñate (ANC Economic Commission Chair 2017), Andrés Eloy Méndez (ANC Economic Commission Chair 2019), Orlando Camacho (Fedeindustria / ANC floor mover).
+  - **Opposition Legislative Proposals:** Luis Eduardo Martínez (Acción Democrática deputy, 2023 proposal for a net wealth tax on assets held abroad).
+  - **Economists & Tax Specialists:** Pasqualina Curcio (USB professor), Tony Boza (economist/deputy), Luis Salas Rodríguez (former Vice President for the Economy / UBV), Juan Carlos Valdez (tax lawyer and analyst).
+  - **Public Intellectuals & Broadcasters:** Luis Britto García (essayist/columnist), Mario Silva (*La Hojilla* host / deputy), María Alejandra Díaz (constitutional lawyer / ANC constituent).
+  - **Trade Unions:** Octavio Solórzano (Fenasirtrasalud / FENTRASEP).
+  - **Institutional Administration:** SENIAT (national tax authority administering the IGP).
+  - **Opposition & Business Stance:** Strongly opposed. Fedecámaras, Consecomercio, Conindustria, CEDICE Libertad, and independent economists (José Guerra, Asdrúbal Oliveros) uniformly reject the IGP as unconstitutional, distortive, and confiscatory under Venezuelan inflation.
 
 ## 10. Plan for the next runs
-1. The ANC site and the TSJ Gaceta archive for the other board signatures and the session of 2 July 2019.
-2. Aporrea, PCV, CTV, CBST and UNETE statements, with a browser.
-3. Venezuelan names in international letters (Patriotic Millionaires, G20 economists, Oxfam).
-4. Read the 2026 Seniat calendar in the Gaceta; CENDES and Observatorio Venezolano de Finanzas by name.
+1. Follow the upcoming 2026 tax reform bill in the National Assembly (deliberations in the Comisión de Economía) for changes or proposals affecting the IGP.
+2. Read the official 2026 Seniat calendar / Providencia Administrativa for the 2026 fiscal year IGP declaration when available in Gaceta.
+3. Monitor regional and international tax justice platforms (TJN LAC, Latindadd) for Venezuelan signatures or country reports.
 
 ## 11. Directions tried and their yield
 | Direction | Searches | Yield |
@@ -59,8 +65,12 @@ Seed pass of 2026-11-03 (run R001). Lines marked `[verify]` come from a search s
 | Diaspora and academic economists (Hausmann, Rodríguez, Santos, Palma, Sutherland, Álvarez, Faría, Machado) (R005) | 2 | Nothing; none argues for a wealth tax in the results |
 | Left writers (R005) | 2 | Luis Britto García, 2014 column: "Crear impuestos patrimoniales para las altas concentraciones de propiedad" (grade B) |
 | Regional networks and letters (Latindadd, Tax Justice LAC, CELAG, CLACSO, Alba) (R005) | 3 | Nothing signed by a Venezuelan; the Latindadd 2021 report lists Venezuela only in a table and as one of four countries with a net-wealth tax, so it is not proposed as a country resource |
-Dropped after two or three empty searches: the G20 and UN direction, the church, the left groups, polls, opposition programmes, officials' statements. Not yet tried: the ANC Diario de Debates (TSJ server down), Telesur and Correo del Orinoco directly, Aporrea with a browser.
+| Lead queue follow-up (R006): ULA paper, Pasqualina Curcio, ANC session, Faría, PCV / Tribuna Popular, CELAG/CLACSO | 5 | Pasqualina Curcio (A0010, economist, USB) added from 2020 columns in Ciudad Valencia and Vocesenlucha; ULA paper by Morales et al. read and excluded (descriptive/theoretical); Jesús Faría excluded (IGTF/harmonization); PCV confirmed as focusing on corporate tax breaks and capital gains; closed 6 open leads |
+| Executive proposals and opposition economists (R007): Boza, Lobo, Maduro, Guerra, Oliveros | 5 | Nicolás Maduro (A0011, President) moved from exclusions to actors: 7 Sep 2017 ANC speech explicitly announcing the creation of the taxes on grandes patrimonios; José Guerra (opposition economist/former deputy) and Asdrúbal Oliveros (Ecoanalítica) recorded in exclusions as opponents |
+| Documented figures for grandes patrimonios and ANC leadership (R008): Piñate, Requena, Boza, Lobo, Gerson Hernández, Delcy Rodríguez | 5 | Eduardo Piñate (A0012, politician, ANC Economic Commission President in 2017) added for committee presentation of the Ley de impuesto a grandes patrimonios; Gladys Requena (A0013, Segunda Vicepresidenta of ANC) added from official enactment in Gaceta 41.696; Tony Boza (X0008) and Ramón Lobo (X0009) excluded (focused on IGTF, salary indexation and price fixing, not wealth tax) |
+| 2018 Joint expert economic proposal on grandes patrimonios (R009): Boza, Valdez, Salas, Díaz, Silva | 4 | Primary 2018 policy paper on Question Digital recovered; 5 prominent co-authors added as Grade B supporters: Tony Boza (A0014, economist/deputy), Juan Carlos Valdez (A0015, tax lawyer), Luis Salas Rodríguez (A0016, former Vice President of the Economy), María Alejandra Díaz (A0017, ANC constituent/lawyer), Mario Silva (A0018, La Hojilla host/ANC constituent); Boza removed from exclusions |
+Dropped after two or three empty searches: the G20 and UN direction, the church, the left groups, polls, opposition programmes. Not yet tried: the ANC Diario de Debates (TSJ server down), Telesur and Correo del Orinoco directly, Aporrea with a browser.
 
 ## 12. Searched, nothing found
 - Searched, nothing found: a deputy's wealth-tax bill in the Asamblea Nacional apart from the 2023 announcement; PCV, union, church, UCV/UCAB/CENDES or Oxfam statements; the Venezuelan government's position on the G20 billionaire tax; any poll.
-- Left out on purpose: Seniat head José David Cabello (the 2018 reform is not a wealth tax; the 2024 notice quotes no one); the other ANC board members (Requena, Vásquez, Pérez), who sign only the 2019 correction notice; the 2022 IGTF reform (a transaction tax).
+- Left out on purpose: Seniat head José David Cabello (the 2018 reform is not a wealth tax; the 2024 notice quotes no one); the ANC secretarial attestors (Vásquez, Pérez), who are administrative non-legislators (Requena added as A0013 in R008); the 2022 IGTF reform (a transaction tax); economists José Guerra and Asdrúbal Oliveros (opponents).
