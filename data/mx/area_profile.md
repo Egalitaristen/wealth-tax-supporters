@@ -50,3 +50,39 @@ Leads not yet listed, because the document was not read or is not about a net we
 Searched in Spanish (initiative, Senate, poll, report and paper terms); no other bill or published poll found.
 
 Second pass (1 November 2026, polls): the Indesig study of June 2022 (a wealth tax on the richest 10%, rates 0.9% to 1.9%, about 373,083 million pesos or 1.51% of GDP, reported by IDC and El CEO) and its '8 in 10' support figure are known only from press; the study and its survey sheet were not found. An academic survey of 3,179 people in El Trimestre Económico (average support 47.6% for new taxes on high incomes; a temporary wealth tax the most popular) asks about taxes in general. Nothing listed.
+
+## R011: grassroots platforms and campaign commentary (7 November 2026)
+
+The Convención Nacional Morenista’s 2024 grassroots platform calls for a tax on large fortunes, separately from inheritance taxes. It is attributed to the convention, not the official Morena party. A 2020 signed article by Pablo Oprinari explicitly proposes an extraordinary levy on Mexican fortunes and attributes the perspective to the Movimiento de los Trabajadores Socialistas. A Monapred declaration mentions taxing fortunes but its operative demand is a tax on telecommunications companies; its signatories were not counted without independent evidence. Regional coverage and Indigenous-language searches remain open.
+
+## R012: labour and party platforms (7 November 2026)
+
+The national Partido del Trabajo’s 2021 programme calls for a patrimonial tax on accumulated wealth; it is recorded separately from its parliamentary group. The Sindicato Mexicano de Electricistas’ official 2025 report records its joint May Day demand for a progressive tax on large fortunes. Five organisations named as signatories in a published reproduction of the manifesto were added with grade B attribution; attendance alone was not treated as endorsement. The Promotora Nacional por la Suspensión del Pago de la Deuda Pública explicitly called for a wealth tax in its dated 2021 paper. Indigenous-language and regional searches remain gaps.
+
+## R013: debt campaign signatories (7 November 2026)
+
+A published reproduction of the Promotora’s 11 November 2024 letter explicitly calls for a tax on large fortunes and names twelve public campaign signatories. Ten are recorded at grade B for third-party attribution; Mónica Soto Elízaga and Pablo Moctezuma Barragán have directly attributed later statements and grade A evidence. The 2026 campaign letter and reports of public appearances were used to check identities and living status; a 2025 report and a university union record cover the remaining signatories. Further work should find direct wealth-tax statements for the other ten.
+
+## R014: labour commentary and ecosocial pact (7 November 2026)
+
+Eleven Mexican organisations are named as initial signatories to the Pacto Ecosocial del Sur, whose declaration calls for national taxes on large fortunes. Their attribution is grade B; the campaign’s own roster dates the declaration July 2020. A signed teachers’ article proposes doubling Oxfam’s specified wealth-tax rates and attributes the position to Agrupación Nuestra Clase. A separately signed 2022 analysis strengthens Héctor Torres González’s record. The pact’s Mexican individual signatories still need identity and living checks. The organisations remain nationally placed pending reliable finer geographic sourcing; regional and Indigenous-language searching remains incomplete.
+
+## R015: individual ecosocial pact signatories (7 November 2026)
+
+The pact’s own roster lists fourteen Mexican individual signatories to its July 2020 declaration, and its tax-reform page calls for national taxes on large fortunes. Thirteen living public figures were added at grade B on the roster attribution. Gustavo Esteva died in March 2022 and is recorded in exclusions. The roster uses the shorter name Jaime Luna for the Oaxaca Indigenous thinker; the person is identified as Jaime Martínez Luna from his public work. Direct individual statements and finer locations remain follow-up work.
+
+## R016: economic research and direct attribution (7 November 2026)
+
+Andrea Larios Campos explicitly supports a broad tax on large fortunes in her own 2024 article. Her previous exclusion rested solely on an unreadable report and was superseded by this direct evidence. Fundar’s 2021 release names CIEP as a co-presenter of research proposing a net-wealth tax; CIEP is recorded at grade B from this attribution. An OECD-published Mexico chapter proposes an annual 2% net-wealth tax above MXN 20 million and names Luis Monroy-Gómez-Franco as background author and Alberto González Pandiella as revising author. Both are recorded at grade B with that distinction; the chapter does not establish a position of every OECD member government.
+
+## R017: recovered feminist tax report (7 November 2026)
+
+The March 2024 Fundar–ACIJ report is now readable: its Mexico chapter advocates a progressive wealth tax on a broad range of assets. Noelia Méndez Santolaria is named as a coauthor of the whole report, so her former exclusion X0015 was superseded; the section is not individually attributed and her evidence is conservatively graded B. ACIJ is a named organisational author and joint publisher; both are based in Argentina and included for work explicitly addressing Mexico. A 2025 El Economista article attributes concern about the absence of a wealth tax to El Colegio de México researcher Alice Krozer, but paraphrases the position and misspells her surname; seek clearer directly attributed wording before adding her. The academic tax-reform article reviewed did not supply a clear stock-of-wealth recommendation. Regional and Indigenous-language searches remain open.
+
+## R018: student organising and Oaxaca (7 November 2026)
+
+Juventud Revolucionaria, the youth section of Grupo de Acción Revolucionaria, explicitly proposed a tax on large fortunes in a 2020 article about nationally coordinated student action; the record does not infer a position by the other participating groups. Oaxaca deputy Horacio Sosa Villavicencio submitted a motion in January 2023 calling for a federal tax on large fortunes of taxpayers with annual incomes above MXN 500 million. The official debate records it as referred to committee, and the available description does not establish whether the tax base is wealth stock or income, so he is recorded as an exclusion pending the complete text. Alice Krozer search results did not supply a clearer directly attributed endorsement.
+
+## R019: pre-PR attribution review (8 November 2026)
+
+The R016 and R017 entries above record the decisions made during those runs, not the final inclusion decisions. Subsequent review removed Noelia Méndez Santolaria as an Argentina-based individual and removed the two OECD chapter contributors because modelling a tax in a chapter does not establish their personal support. The Argentina-based co-publisher ACIJ remains because its joint report specifically advocates a wealth tax for Mexico. Automated quote checking could not access the sources in this environment; quotations opened during the research runs were reviewed manually, but a complete independent recheck remains outstanding.
