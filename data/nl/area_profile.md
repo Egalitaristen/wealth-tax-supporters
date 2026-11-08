@@ -116,3 +116,14 @@ Guide: `skill/references/records/nl.md`. List of documents and how each was read
 - Rejected as outside the definition or too generic: Plasterk's solidarity levy on incomes (2011), Amhaouch's corporate windfall levy, Stoffer and Ephraim box 3 motions, Alkaya's accrual-tax motion, Beckerman's 2026 effective-rate motion, generic "profit and wealth" motions (X0014-X0018).
 
 **Not read.** See the coverage log in the guide: committee reports and Handelingen that use only box 3 words; debates after about September 2026; Eerste Kamer committee records; provinces and municipalities (no raadsinformatie search was run; two web searches found nothing); documents before 2006. Existing rows E00009, E00011, E00012, E00018 to E00021 are study-request or exit-tax-adjacent signatures at grade B; under the current rule that a study request does not count they deserve review.
+
+## R030b: fraction votes applied to the fraction's members (8 November 2026)
+
+On the project's instruction, the show-of-hands votes on motions and amendments that are specifically about an actual wealth tax now give a grade A `vote` row to every member of each fraction that voted *voor*, seated on the vote date and on the attendance list of the sitting. The quote is the fraction line printed in Handelingen ("de leden van de fracties van de SP, ... voor deze motie hebben gestemd"); `grading_note` says "Fraction vote applied to the fraction's members". These rows are not individual roll calls and a reader should not take them as such.
+
+- **Votes applied (7):** amendment-Bashir 13 Nov 2014; motion-Roemer 17 Sep 2015; motion-Leijten 29 May 2018; motion-Alkaya c.s. 8 Oct 2019; motion-Dijk 14 Feb 2024; motion-Dijk/Maatoug 9 Apr 2024; motion-Dijk 19 Sep 2024. Result: 268 rows, 117 members (85 new actors, 32 existing). Seated counts matched the fraction sizes in the open data for every fraction.
+- **Absent members excluded:** 1 (2014), 0 (2015), 1 (2018), 7 (2019), 1 (2024-02), 0, 0, read from the opening attendance list of the sitting. Members who left before the vote cannot be seen. Whoever voted differently inside a fraction is not recorded on a show of hands.
+- **Deceased:** Léonie Sazias (50PLUS) died on 3 October 2022: exclusion X0019, no row.
+- **Not applied (decision needed):** Van den Hul/Asscher 6 Mar 2019 ("progressievere vermogensbelasting"); the Alkaya and Van der Lee global billionaire-tax motions of 25 Oct 2023 and the Dijk/Maatoug follow-up of 4 Apr 2024 (international lobbying requests adopted with 13 fractions). Their `documents.csv` rows say so.
+- **Eerste Kamer:** 80 Handelingen with a strong term (2010 to June 2026) hold no wealth-tax motion put to a vote; nothing applied.
+- **Review note:** PVV (2019) and 50PLUS rows come from a single motion each; they say nothing about the party's later positions.
