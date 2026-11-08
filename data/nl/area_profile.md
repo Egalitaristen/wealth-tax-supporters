@@ -102,3 +102,28 @@ Leads not yet listed:
 
 ## Taxes in force that are outside the definition
 - **Box 3 (inkomstenbelasting):** the Dutch tax on savings and investments is an income tax on a deemed return on net assets, not a levy on the wealth itself, so it is outside the definition. Positions on box 3 reform are not counted unless they call for a wealth tax. `[verify: stated from general knowledge, not read from the law for this note]`
+
+## R030 records pilot: the official record read (8 November 2026)
+
+Guide: `skill/references/records/nl.md`. List of documents and how each was read: `documents.csv` (244 rows: 31 read in full, 130 partial, 83 skimmed).
+
+**What was read.** Full text and signatories (open data `DocumentActor`) of every motion and amendment found with a wealth-tax subject from 2011 to October 2026 (about 30: Bashir 2014 amendment 34002-24, Roemer 34300-9, Leijten 34950-9, Van den Hul/Asscher 31288-706, Alkaya c.s. 35300-53, De Jong 36202-102, Alkaya 36418-74, Van der Lee 36418-76, Dijk 2024 motions 36471-26, 25087-332, 36600-17 and others, Haage/Stultiens 32140-241, Grinwis/Vijlbrief 32140-248) and the three motions on the Resources page. Full-text search (SRU) over all official publications for miljonairsbelasting, miljardairsbelasting, vermogensplafond, vermogenstaks, "extreem rijken", Zucman and related terms returned 460 documents, all downloaded; the passages with these terms were read with their speaker label in 97 Handelingen (Tweede and Eerste Kamer), the committee reports and letters among them, and the 38 written questions with hits.
+
+**What the record shows.**
+- Every wealth-tax motion and amendment found was voted **by show of hands**: the open data gives fractie votes only. No member can be added from those votes (X0006 stands). The only named vote found is 23 April 2024 on an exit-tax development motion, which is outside the definition (rows removed in R006).
+- All signatories of the core motions (Bashir, Roemer, Leijten, Van den Hul, Asscher, Alkaya, Nijboer, Snels, Dijk, Maatoug, Van der Lee, Haage, Stultiens and the others above) were already in the register. No Senate motion on a net wealth tax exists; the Senate motion of December 2024 (Van Rooijen) is about capital gains.
+- New evidence (12 rows, 5 new actors): Karabulut's 2014 speech for a 1% levy on the wealth of the rich (grade A), Senator R.O. Martens's proposal of a simple wealth levy above EUR 200,000 as plan B for box 3 (A), Nijboer, Dobbe, Siderius, White and Teunissen naming a millionaire tax (B), Merkies, Klaver, Leijten, Van Raan and Ploumen at grade C.
+- Rejected as outside the definition or too generic: Plasterk's solidarity levy on incomes (2011), Amhaouch's corporate windfall levy, Stoffer and Ephraim box 3 motions, Alkaya's accrual-tax motion, Beckerman's 2026 effective-rate motion, generic "profit and wealth" motions (X0014-X0018).
+
+**Not read.** See the coverage log in the guide: committee reports and Handelingen that use only box 3 words; debates after about September 2026; Eerste Kamer committee records; provinces and municipalities (no raadsinformatie search was run; two web searches found nothing); documents before 2006. Existing rows E00009, E00011, E00012, E00018 to E00021 are study-request or exit-tax-adjacent signatures at grade B; under the current rule that a study request does not count they deserve review.
+
+## R030b: fraction votes applied to the fraction's members (8 November 2026)
+
+On the project's instruction, the show-of-hands votes on motions and amendments that are specifically about an actual wealth tax now give a grade A `vote` row to every member of each fraction that voted *voor*, seated on the vote date and on the attendance list of the sitting. The quote is the fraction line printed in Handelingen ("de leden van de fracties van de SP, ... voor deze motie hebben gestemd"); `grading_note` says "Fraction vote applied to the fraction's members". These rows are not individual roll calls and a reader should not take them as such.
+
+- **Votes applied (7):** amendment-Bashir 13 Nov 2014; motion-Roemer 17 Sep 2015; motion-Leijten 29 May 2018; motion-Alkaya c.s. 8 Oct 2019; motion-Dijk 14 Feb 2024; motion-Dijk/Maatoug 9 Apr 2024; motion-Dijk 19 Sep 2024. Result: 268 rows, 117 members (85 new actors, 32 existing). Seated counts matched the fraction sizes in the open data for every fraction.
+- **Absent members excluded:** 1 (2014), 0 (2015), 1 (2018), 7 (2019), 1 (2024-02), 0, 0, read from the opening attendance list of the sitting. Members who left before the vote cannot be seen. Whoever voted differently inside a fraction is not recorded on a show of hands.
+- **Deceased:** Léonie Sazias (50PLUS) died on 3 October 2022: exclusion X0019, no row.
+- **Not applied (decision needed):** Van den Hul/Asscher 6 Mar 2019 ("progressievere vermogensbelasting"); the Alkaya and Van der Lee global billionaire-tax motions of 25 Oct 2023 and the Dijk/Maatoug follow-up of 4 Apr 2024 (international lobbying requests adopted with 13 fractions). Their `documents.csv` rows say so.
+- **Eerste Kamer:** 80 Handelingen with a strong term (2010 to June 2026) hold no wealth-tax motion put to a vote; nothing applied.
+- **Review note:** PVV (2019) and 50PLUS rows come from a single motion each; they say nothing about the party's later positions.

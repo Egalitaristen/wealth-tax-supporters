@@ -12,3 +12,7 @@ Q0010,R027,2026-11-07,nl,vermogensbelasting box 3 Grinwis Stultiens 19 januari 2
 Q0011,R028,2026-11-07,nl,Sociaal & Groen vermogensbelasting voorstel datum welvaartsverdeling,web,2,0,Proposal directly opened but undated; indexed 2025 comment page timed out and does not establish current policy wording.
 Q0012,R028,2026-11-07,nl,SP lokale afdeling miljonairsbelasting actie mei 2026,web,1,0,Indexed Horst aan de Maas and Eindhoven campaign listings require underlying accessible and independently attributable articles.
 Q0013,R029,2026-11-07,nl,Peter Leest Eduard de Jong miljonair Davos vermogensbelasting signatories,web,6,0,Found dated RTL corroboration of Peter Leest as Dutch wealthy public letter signatory; Eduard de Jong already recorded.
+Q0014,R030,,nl,"SRU full text miljonairsbelasting, miljardairsbelasting, vermogensplafond, vermogenstaks, miljonairstaks, ""extreem rijken"", Zucman (repository.overheid.nl, officielepublicaties)",SRU,460,0,460 unique documents downloaded and scored; 268 contain a strong term.
+Q0015,R030,,nl,"OData Document Onderwerp contains miljonairsbelasting / vermogensbelasting / solidariteitsheffing / vermogensaanwas (Motie, Amendement)",gegevensmagazijn.tweedekamer.nl,33,0,All motion signatories fetched with DocumentActor and Stemming.
+Q0016,R030,,nl,gemeenteraad motie miljonairsbelasting aangenomen,web,0,1,Only Tweede Kamer hits; no municipal motion found.
+Q0017,R030,,nl,Provinciale Staten motie vermogensbelasting miljonairs,web,0,0,Nothing from provinces.
