@@ -26,7 +26,7 @@ Fact sheet for the Arguments pages "It's unconstitutional" and "Europe repealed 
 | Argentina | No Supreme Court merits ruling found | Lower courts split on the one-off 2020 levy | Mixed |
 | Uruguay | SCJ on a land-concentration tax, reported 2013 | Press report only | Unfavourable, narrow, not wealth tax proper |
 | USA | Pollock 1895; Moore 2024 | Pollock: income from property is a direct tax; superseded by the 16th Amendment. Moore: expressly did not decide wealth taxes | Unfavourable (1895), open (2024) |
-| California | Prop 40, 3 Nov 2026 | Trailing in unofficial counts; Prop 42 (a ban) leading | Voters, not courts |
+| California | Prop 40, 3 Nov 2026 | Result pending as of 8 Nov 2026; do not state a result or count until the Secretary of State certifies | Voters, not courts |
 
 ## 1. Germany
 
@@ -235,13 +235,10 @@ Verified from the article's own page or text unless marked.
 - Per press accounts (CalMatters, Ballotpedia news in search results; the Secretary of State certification page not opened): signatures were submitted in late April 2026; on 17 June 2026 the Secretary of State reported at least 980,438 valid signatures, enough to qualify; the withdrawal deadline of 25 June 2026 passed and the measure stayed on the ballot as Proposition 40. Dates and the count are from press and need the Secretary of State's certificate before use in print.
 
 ### 9.4 Result (checked 8 November 2026)
-
-- **Not official.** The Secretary of State's results page (electionresults.sos.ca.gov) returned no figures to me (the page needs a browser). The figures below are from news reports on 3 to 5 November and are **not final or certified**:
-  - Election night (reported 11:13 p.m. PT): about 43.6% yes, 56.4% no with more than 6.6m votes counted (KTVU/Fox report).
-  - Wednesday morning: about 44% yes and 55% no (CalMatters-sourced).
-  - Prop 42 (a constitutional amendment barring new taxes on personal property/wealth, and retroactive taxes except in a budget emergency) was ahead at about 54% yes with nearly 60% of expected votes counted (CalMatters, 5 Nov).
-- **Effect of competing measures:** the Legislative Analyst says that if Prop 41 or 42 gets more yes votes than Prop 40, Prop 40 "could be stopped from becoming law even if it gets yes votes from a majority of voters" (voter guide analysis).
-- **Say in copy:** "As of 8 November 2026 the measure was trailing in unofficial counts." Do not say it "failed" until the Secretary of State's Statement of Vote certifies it.
+- **Status:** On the 3 November 2026 ballot; the result is pending as of 8 November. Do not state a result or a count in any page until the Secretary of State certifies it. The Secretary of State results page returned no figures to me (it needs a browser), and I record no news-report counts here on purpose.
+- **What Props 41 and 42 are (voter guide / news, no counts):** Prop 42 would bar new taxes on personal property and wealth and retroactive taxes except in a budget emergency (CalMatters description).
+- **Effect of competing measures:** the Legislative Analyst says that if Prop 41 or 42 gets more yes votes than Prop 40, Prop 40 "could be stopped from becoming law even if it gets yes votes from a majority of voters" (voter guide analysis, voterguide.sos.ca.gov/propositions/40/analysis.htm).
+- **Say in copy:** "On the 3 November 2026 ballot; result pending until certified by the Secretary of State."
 
 ## 10. How legislatures got around a constitutional obstacle
 
@@ -273,7 +270,7 @@ Each example says what I verified.
 7. Switzerland has no federal wealth tax because the federal constitution lets the Confederation tax only income and profit; cantons levy it, and in 1980 the Federal Supreme Court said it becomes confiscatory only if it hollows out substance over time, not at a fixed rate.
 8. In Moore v. United States (2024) the Supreme Court majority said in a footnote that it does not address "taxes on holdings, wealth, or net worth". No justice decided the question.
 9. The US Constitution applies only to federal taxes. The apportionment rule has no bearing on a state tax (state taxes face other constitutional limits).
-10. Prop 40's text calls the tax an "excise tax", sets 5%, a $1bn threshold, residency on 1 Jan 2026 and valuation on 31 Dec 2026; it was trailing in unofficial counts on 8 Nov 2026.
+10. Prop 40's text calls the tax an "excise tax", sets 5%, a $1bn threshold, residency on 1 Jan 2026 and valuation on 31 Dec 2026; it was on the 3 November 2026 ballot and the result is pending as of 8 November; do not state a result or a count until the Secretary of State certifies it.
 
 ## 12. Do not use
 
@@ -289,7 +286,7 @@ Each example says what I verified.
 - The Uruguayan "land concentration" ruling as a wealth-tax ruling.
 - "The Supreme Court said a wealth tax is unconstitutional" (Pollock was about income; Moore refused to decide).
 - The vote count in Pollock ("5 to 4") without checking it (I did not verify it).
-- Final results for Prop 40, until certified; also the statement that the measure "was designed to avoid the federal clause".
+- Early-count news figures (any percentage or vote total, or words like "trailing" or "leading") for Props 40, 41 or 42; they must not be used. Also final results for Prop 40, until certified; also the statement that the measure "was designed to avoid the federal clause".
 - Wikipedia or any AI summary for any figure.
 
 ## 13. Could not verify (to settle before publication)
