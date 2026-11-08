@@ -1,6 +1,6 @@
 ---
 title: The United States has never taxed wealth federally, and the Constitution leaves the door open
-standfirst: The Constitution requires "direct" taxes to be divided among the states by population, and the Supreme Court has never ruled on a tax on net worth. Since 2021 Senator Elizabeth Warren's Ultra-Millionaire Tax Act has proposed 2% above US$50 million and 3% above US$1 billion. California voters rejected a one-time 5% billionaire tax on 3 November 2026.
+standfirst: The Constitution requires "direct" taxes to be divided among the states by population, and the Supreme Court has never ruled on a tax on net worth. Since 2021 Senator Elizabeth Warren's Ultra-Millionaire Tax Act has proposed 2% above US$50 million and 3% above US$1 billion. California voters decided a one-time 5% billionaire tax, Proposition 40, on the 3 November 2026 ballot; the count is not final.
 updated: 2026-11-08
 author: Egalitaristen
 layout: article
@@ -23,8 +23,8 @@ facts:
   - label: Revenue, Penn Wharton (2021)
     value: US$2.1 trillion over 2022 to 2031, conventional score
     source: 15
-  - label: California Proposition 40, result
-    value: Rejected, 46.6% yes to 53.4% no (unofficial, 7 November 2026)
+  - label: California Proposition 40
+    value: On the 3 November 2026 ballot; result pending as of 8 November
     source: 20
   - label: Support for 2% and 3% tax, nationally (2026)
     value: About 8 in 10
@@ -49,7 +49,7 @@ timeline:
     text: Warren, Jayapal and Sanders reintroduce federal wealth taxes; the Minnesota and Washington bills are filed.
     source: 7
   - year: 2026
-    text: California voters reject Proposition 40 on 3 November.
+    text: Proposition 40, a one-time 5% tax on billionaires, is on the California ballot on 3 November; the count is not final on 8 November.
     source: 20
 sources:
   - id: 1
@@ -110,11 +110,14 @@ sources:
     title: California Secretary of State, news release announcing the measure eligible for the 3 November 2026 ballot
     url: https://www.sos.ca.gov/administration/news-releases-and-advisories/2026-news-releases-and-advisories/california-secretary-state-shirley-n-weber-phd-announces-new-measure-eligible-november-2026-general-election-ballot-imposes-one
   - id: 20
-    title: California Secretary of State, State Ballot Measures, unofficial results as of 7 November 2026, 5:48 p.m. (read on 8 November 2026)
-    url: https://electionresults.sos.ca.gov/returns/ballot-measures
+    title: California Secretary of State, Qualified Statewide Ballot Measures (3 November 2026 general election)
+    url: https://www.sos.ca.gov/elections/ballot-measures/qualified-ballot-measures
   - id: 21
     title: California Official Voter Information Guide, November 2026, Proposition 42, title, summary and Legislative Analyst's analysis
     url: https://vig.cdn.sos.ca.gov/2026/general/pdf/prop42-title-summ-analysis.pdf
+  - id: 28
+    title: California Official Voter Information Guide, November 2026, Proposition 41, title, summary and Legislative Analyst's analysis
+    url: https://vig.cdn.sos.ca.gov/2026/general/pdf/prop41-title-summ-analysis.pdf
   - id: 22
     title: Public Policy Institute of California, press release on the Statewide Survey (27 October 2026)
     url: https://www.ppic.org/press-release/californians-head-to-polls-in-historically-sour-mood-billionaire-wealth-tax-slips-below-majority-support/
@@ -134,7 +137,7 @@ sources:
     title: Minnesota HF 4616 (2026), bill status and authors
     url: https://www.revisor.mn.gov/bills/bill.php?b=House&f=HF4616&ssn=0&y=2026
 ---
-The United States has never had a federal tax on net worth. The obstacle is one clause: Article I says "direct taxes" must be shared among the states by population.[1] The Supreme Court has never decided whether a tax on wealth is direct, and in 2024 it wrote that wealth and net worth taxes raise questions it was not answering.[3] Congress has bills on the table, and California held the first statewide vote on a wealth tax on 3 November 2026.[20]
+The United States has never had a federal tax on net worth. The obstacle is one clause: Article I says "direct taxes" must be shared among the states by population.[1] The Supreme Court has never decided whether a tax on wealth is direct, and in 2024 it wrote that wealth and net worth taxes raise questions it was not answering.[3] Congress has bills on the table, and California put the first statewide wealth tax on its 3 November 2026 ballot.[20]
 
 ## What the Constitution says {#constitution}
 
@@ -162,11 +165,13 @@ Senator Ron Wyden's 2021 Billionaires Income Tax, which taxes gains in publicly 
 
 ## California's Proposition 40 {#california}
 
-Proposition 40 was a one-time tax of 5% on the net worth of people with more than US$1 billion who lived in California on 1 January 2026, due in 2027. Real estate, pensions and retirement accounts were excluded, and 90% of the money was for health care.[17] Its text taxes net worth in full at US$1.1 billion and phases the rate down by 0.1 point for every US$2 million below that. Payers could spread it over five years at a 7.5% yearly charge.[18] The Legislative Analyst expected "tens of billions of dollars" over several years.[17]
+Proposition 40 is a one-time tax of 5% on the net worth of people with more than US$1 billion who lived in California on 1 January 2026, due in 2027. Real estate, pensions and retirement accounts are excluded, and 90% of the money goes to health care.[17] Its text taxes net worth in full at US$1.1 billion and phases the rate down by 0.1 point for every US$2 million below that. Payers can spread it over five years at a 7.5% yearly charge.[18] The Legislative Analyst expected "tens of billions of dollars" over several years.[17]
 
 Suzanne Jimenez filed it as Initiative 25-0024 and amended it on 24 November 2025.[18] It needed 874,641 valid signatures. On 17 June 2026 the Secretary of State declared it eligible, after a sample projected more than the 962,106 needed.[19] The healthcare workers' union [SEIU-UHW](/us/A0023) funded the campaign, and the economist [Joseph Stiglitz](/us/A0525) signed the Nobel laureates' letter for it.
 
-Voters rejected it on 3 November 2026: 4,768,464 yes (46.6%) to 5,456,978 no (53.4%) in the Secretary of State's count of 7 November, which stays unofficial until certification by 11 December.[20] Polls had it ahead in August (Berkeley IGS, 48% to 41%) and at 52% in September, then at 46% in the Public Policy Institute of California's survey of 16 to 22 October.[22][24] Proposition 42 bars new state taxes on personal property, financial assets included, that take effect from 1 January 2026. It passed 52.2% to 47.8% in the same count.[20][21] California's route is closed unless voters reopen it.
+It was on the 3 November 2026 ballot as Proposition 40.[20] The count is not final and the result is pending as of 8 November. Polls before the vote: 48% yes to 41% no among likely voters in August (Berkeley IGS), 52% yes in September, and 46% yes in the Public Policy Institute of California's survey of 16 to 22 October.[22][24]
+
+Two competing initiatives sat on the same ballot. Proposition 42 "prohibits new state taxes on personal property, including business interests, intellectual property, and financial assets" and applies to new taxes that take effect on or after 1 January 2026.[21] Proposition 41 bars new state taxes that exclude their revenue from the spending limit.[28] The guide says of each: "States that other voter-approved measures appearing on the same ballot are void if they conflict with this measure and this measure receives more affirmative votes."[21][28] The Legislative Analyst adds that Proposition 40 "could be stopped from becoming law even if it gets yes votes from a majority of voters."[21]
 
 ## Other states {#states}
 
@@ -200,7 +205,7 @@ Congress and the states answered *Pollock* with the Sixteenth Amendment, ratifie
 
 ### Start in the states {#states-route}
 
-Proposition 40 lost, but 10.2 million Californians cast a vote on a wealth tax, and the Washington and Minnesota bills are in committee.[20][25][27] The next ballot measure has to survive the rule that Propositions 41 and 42 wrote: a conflicting measure is void if it gets more yes votes.[21]
+Proposition 40 shows the state route in use, and the Washington and Minnesota bills are in committee.[17][25][27] Proposition 41 and Proposition 42 show what a state campaign has to plan for: a conflicting measure is void if it gets more yes votes.[21][28]
 
 ## Where to look next {#next}
 
