@@ -93,3 +93,7 @@ Seed pass of 2026-11-01 (run R001). Lines marked `[verify]` come from a search s
 ## Review corrections
 
 E00017 and E00019 (reported rather than verbatim) regraded A to B; E00021 (reported wording by a regional Oxfam coordinator) B to C.
+
+## Run R014 (2026-11-08)
+- Read the law (Ley 1357, Gaceta 1347NEC, on Lexivox), DS 4436, the Executive's bill PL-033/2020-2021 (a scan; Arce's note of 25 Nov 2020 and the statement of reasons, estimate Bs 105.35 million), the tax authority's Memoria January to October 2025 (collections by year: Bs 241m 2021, 205m 2022, 180m 2023, 169m 2024, 162m to 31 Oct 2025; 263 registered payers), RND 102600000009 and the Chamber's release of 11 Feb 2026. **Status 8 Nov 2026: in force.** The SIN list of laws carries Ley 1357 and no abrogating law; the newest entries are Ley 1717 (abrogates the ITF), 1718 and 1733 (tax relief, no mention of the IGF).
+- The bill was sent by the President, so there is no sponsor list. No per-member vote for 9 to 23 December 2020 was found; the Senate release (web.senado.gob.bo) did not load. The official exchange rate floated from 27 June 2026 (Bs 9.73) to Bs 11.81 on 8 Nov 2026 (BCB table), which matters for the dollar value of the Bs 30 million threshold. No new supporters were added.
