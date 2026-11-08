@@ -1,6 +1,6 @@
 ---
 title: The United States has never taxed wealth federally, and the Constitution leaves the door open
-standfirst: The Constitution requires "direct" taxes to be divided among the states by population, and the Supreme Court has never ruled on a tax on net worth. Since 2021 Senator Elizabeth Warren's Ultra-Millionaire Tax Act has proposed 2% above US$50 million and 3% above US$1 billion. California voters decided a one-time 5% billionaire tax, Proposition 40, on the 3 November 2026 ballot; the count is not final.
+standfirst: The Constitution requires "direct" taxes to be divided among the states by population, and the Supreme Court has never ruled on a tax on net worth. Since 2021 Senator Elizabeth Warren's Ultra-Millionaire Tax Act has proposed 2% above US$50 million and 3% above US$1 billion. California voters voted on a one-time 5% billionaire tax, Proposition 40, on 3 November 2026; the count is not final and the result is pending as of 8 November.
 updated: 2026-11-08
 author: Egalitaristen
 layout: article
