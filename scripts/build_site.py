@@ -845,7 +845,18 @@ DOC_KIND = {"bill": "Bill", "amendment": "Amendment", "motion": "Motion", "petit
             "court_ruling": "Court ruling", "audit_or_statistics_report": "Audit or statistics report", "other": "Other document"}
 READ_STATUS = {"read": "Read in full", "partial": "Partly read", "skimmed": "Skimmed", "unread": "Not read yet"}
 EVIDENCE_KIND = {"vote": "Vote", "bill_sponsorship": "Sponsorship", "motion_signature": "Motion signature", "open_letter": "Open letter",
-                 "op_ed": "Op-ed", "policy_adoption": "Policy adopted", "coalition_membership": "Coalition", "social_post": "Social post"}
+                 "op_ed": "Op-ed", "policy_adoption": "Policy adopted", "coalition_membership": "Coalition", "social_post": "Social post",
+                 "statement": "Statement", "campaign": "Campaign", "manifesto": "Manifesto", "speech": "Speech", "interview": "Interview",
+                 "report": "Report", "publication": "Publication", "motion": "Motion", "testimony": "Testimony", "editorial": "Editorial",
+                 "funding": "Funding", "other": "Other"}
+# (singular, plural) for the "On the record" sentence, one per evidence_type
+EVIDENCE_COUNT = {"vote": ("vote", "votes"), "bill_sponsorship": ("sponsorship", "sponsorships"), "motion_signature": ("motion signature", "motion signatures"),
+                  "open_letter": ("open letter", "open letters"), "op_ed": ("op-ed", "op-eds"), "policy_adoption": ("policy adoption", "policy adoptions"),
+                  "coalition_membership": ("coalition membership", "coalition memberships"), "social_post": ("social post", "social posts"),
+                  "statement": ("statement", "statements"), "campaign": ("campaign record", "campaign records"), "manifesto": ("manifesto", "manifestos"),
+                  "speech": ("speech", "speeches"), "interview": ("interview", "interviews"), "report": ("report", "reports"),
+                  "publication": ("publication", "publications"), "motion": ("motion", "motions"), "testimony": ("testimony", "testimonies"),
+                  "editorial": ("editorial", "editorials"), "funding": ("funding record", "funding records"), "other": ("other record", "other records")}
 LEVEL_LABEL = {"national": "National", "subnational": "Regional or local", "supranational": "International", "local": "Local", "regional": "Regional"}
 RES_KIND_ONE = {"bill": "Bill or law", "report": "Report", "paper": "Paper"}
 RES_KIND_MANY = {"bill": "Bills and laws", "report": "Reports and proposals", "paper": "Papers"}
@@ -936,8 +947,8 @@ def resource_body(r, raw_r, people, docs, ev):
                     + (f'<p class="bp-q">“{h(quote)}”</p>' if quote else "")
                     + f'<a class="bp-src" href="{h(e["url"])}" target="_blank" rel="noopener noreferrer nofollow">{h(e["title"] or e["pub"] or "Source")} ↗</a></li>')
         first, rest = ev[:40], ev[40:]
-        counts = collections.Counter(EVIDENCE_KIND.get(e["type"], e["type"].replace("_", " ")).lower() for e in ev)
-        summ = ", ".join(f"{n:,} {k}{'' if n == 1 else 's'}" for k, n in counts.most_common())
+        counts = collections.Counter(e["type"] for e in ev)
+        summ = ", ".join(f"{n:,} {EVIDENCE_COUNT.get(t, (t.replace('_', ' '),) * 2)[n != 1]}" for t, n in counts.most_common())
         evh = (f'<section class="bp-sec" id="evidence"><h2>On the record <span class="bp-n">{len(ev):,}</span></h2>'
                f'<p class="bp-note">Statements, votes and sponsorships in the register whose source is this bill or one of its documents: {h(summ)}.</p>'
                f'<ul class="bp-list">{"".join(item(e) for e in first)}</ul>'
