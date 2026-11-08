@@ -1,0 +1,7 @@
+query_id,run_id,date,language,query,channel,results_opened,leads_added,note
+Q0001,R038,2026-11-08,en,"collection:(CREC) AND (""wealth tax"") 2010-2026",GovInfo search API,16,0,"16 granules, all opened"
+Q0002,R038,2026-11-08,en,"collection:(CREC) AND (""net worth tax"" OR ""ultra-millionaire"" OR ""billionaire tax"" OR ""tax on wealth"" OR ""wealth levy"" OR ""billionaires income tax"")",GovInfo search API,126,1,126 hits (noisy: billionaire tax cuts); 138 granules in all downloaded
+Q0003,R038,2026-11-08,en,"collection:(CHRG OR CRPT OR CPRT) AND (""wealth tax"" OR ""net worth tax"" OR ""ultra-millionaire tax"" OR ""billionaires income tax"" OR ""wealth taxes"")",GovInfo search API,75,1,"75 hearings and reports, all downloaded; 38 mention the terms"
+Q0004,R038,2026-11-08,en,collection:(BILLS) title: wealth tax / ultra-millionaire / billionaire / net worth / extreme wealth / wealth,GovInfo search API,82,0,"82 bill versions; 11 checked in full (H.R. 2912, 8316, 2143, S. 4490, H.R. 8020, H.Res. 1028, S. 4662, S. 4196, S. 1950, H.R. 7502)"
+Q0005,R038,2026-11-08,en,Voteview roll-call descriptions 112th-119th: wealth|billionaire|net worth|millionaire|ultra,voteview.com CSV,16,1,No vote specific to a wealth tax
+Q0006,R038,2026-11-08,en,state wealth tax bills introduced 2025 2026,web search,3,1,Found Hawaii HB 1235 and California AB 259/ACA 3 already in the register; NCSL page returned 403

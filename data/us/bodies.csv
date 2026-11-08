@@ -98,8 +98,6 @@ B0101,Illinois House of Representatives,regional,chamber,,,,,
 B0102,Hawaii House of Representatives,regional,chamber,,,,,
 B0103,Iowa State Senate,regional,chamber,,,,,
 B0104,Florida House of Representatives,regional,chamber,,,,,
-B0001,U.S. Senate,national,chamber,100,2026-10-25,https://www.senate.gov/senators/index.htm,y,The 100 senators.
-B0002,U.S. House of Representatives,national,chamber,441,2026-10-25,https://www.house.gov/representatives,y,"435 voting seats plus 5 delegates and the Resident Commissioner of Puerto Rico, who do not vote on the floor."
 B0105,San Leandro Unified School District,local,other,,,https://www.slusd.us/board-of-education/,,
 B0106,Emery Unified School District,local,other,,,https://emeryusd.k12.ca.us/board-members.html,,
 B0107,Santa Clara County Board of Education,local,other,,,https://www.sccoe.org/countyboard/Pages/Sreekrishnan.aspx,,
@@ -116,3 +114,5 @@ B0117,Alameda County Transportation Commission,local,other,,,https://www.elcerri
 B0118,California Coastal Commission,regional,other,,2026-10-25,https://coastal.ca.gov/roster.html,,
 B0119,San Diego Metropolitan Transit System Board of Directors,regional,other,,2026-10-25,https://www.sdmts.com/meeting-type/executive-committee,,
 B0120,Ava Community Energy Board of Directors,regional,other,,2026-10-25,https://avaenergy.org/community/who-we-serve/union-city/,,
+B0001,U.S. Senate,national,chamber,100,2026-11-08,https://www.senate.gov/senators/index.htm,y,The 100 senators.
+B0002,U.S. House of Representatives,national,chamber,441,2026-11-08,https://www.house.gov/representatives,y,"435 voting seats plus 5 delegates and the Resident Commissioner of Puerto Rico, who do not vote on the floor."

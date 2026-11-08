@@ -103,3 +103,20 @@ Leads not yet listed:
 - Hawaii SB 313 and HB 1235 (2025), Rhode Island S 2361 (2026), Illinois SB 3376, HB 5215 and SB 3884, Minnesota HF 4616, Vermont H.827, Washington SB 5797, and the 2023 bills in California, New York (S 1570, S 165 are mark-to-market income taxes, left out), Hawaii, Washington: legislature pages refused scripts or were not read for this pass.
 - Penn Wharton Budget Model 2019 analyses of the Warren and Sanders campaign plans (known from press), Tax Policy Center and ITEP analyses, and the Institute for Policy Studies reports in the evidence rows.
 - Congress.gov pages for the bills refuse scripts (403); statuses above come from the govinfo bill status files.
+
+## Official record read (R038, 2026-11-08, records pilot)
+Guide: `skill/references/records/us.md`. Documents and their read status: `data/us/documents.csv` (46 rows). Read this before writing "no vote" or "no statement" for the US.
+
+**Read:** the official bill data and text of the federal wealth-tax bills (Ultra-Millionaire Tax Act 2021, 2024, 2026; Make Billionaires Pay Their Fair Share Act 2026; Oligarch Act 2023 and 2025; Make Billionaires Pay Act 2020; H.Res. 1028 of 2026) and five near-misses; the Senate Finance subcommittee hearing of 27 April 2021 (S. Hrg. 117-373) and the Senate Budget hearings of 17 and 25 March 2021 (statements by speaker); 75 hearings and reports found by GovInfo search (those with three or more mentions of the tax read by speaker); 138 Congressional Record granules from the GovInfo search; roll-call descriptions of the 112th to 119th Congress (Voteview); the Prop 40 title, summary and analysis; Minnesota HF 4616.
+
+**What the record shows:**
+- Sponsors and cosponsors: 52 rows added, mostly cosponsors missing from earlier runs (H.R. 4919, H.R. 8085, H.R. 1459, S. 510) and two bills not in the register before (H.R. 2912 Oligarch Act 2025, the 2020 Make Billionaires Pay Act). H.Res. 1028 (grade B, names "a wealth tax" without specifics).
+- Testimony and speeches: 9 rows. Hearing testimony for a wealth tax by Warren (chair), Abigail Disney, David Gamage and the restaurant owner Cheryl Straughter (27 April 2021), by Robert Reich (Senate Budget, 17 March 2021), and by Abigail Disney and Gabriel Zucman (Senate Budget, 25 March 2021); floor speeches by Sanders (19 March 2026) and Jayapal (20 November 2024).
+- Votes: none. No roll call in the 112th to 119th Congress is specific to a wealth tax by its description. The Senate roll-call pages were not readable (403) and the texts of vote-a-rama amendments were not read, so this is "none found in the descriptions", not "none exist".
+- Opposition in the record (not recorded as actors): Senators Cassidy, Crapo, Kennedy and Lee, and the Tax Foundation, AEI and UNC witnesses.
+
+**Not counted although the bill name suggests it (exclusions):** the Donald J. Trump Wealth Tax Act (protest bills by Rep. Vargas that reuse Trump's 1999 proposal), the ROBINHOOD Act (capital-gains realisation rule), Strengthen Social Security by Taxing Dynastic Wealth Act (estate tax), Babies over Billionaires (mark-to-market income tax), the Stiglitz 2024 remark on a minimum tax (list item, income-tax framing).
+
+**Decision needed (not changed in this run):** earlier runs recorded the Billionaires Income Tax and Billionaire Minimum Income Tax bills (H.R. 8558, 6498, 5427, S. 3367, 2845) and the New York, Illinois and Vermont mark-to-market bills as `unrealised_gains`. The pilot brief says mark-to-market and minimum income taxes do not count. They remain in the files; the PR lists the sources.
+
+**Not read:** Congress.gov full-text Congressional Record search (blocked to scripts) so floor speeches of 2019-2021 are missing; vote-a-rama amendment texts; House committee hearings; state committee hearings and floor debate (video); Massachusetts, Connecticut, Illinois and Colorado bill lists; JCT and CBO (403). Open leads D0001 to D0007.
