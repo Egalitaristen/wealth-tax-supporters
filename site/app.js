@@ -139,6 +139,7 @@ async function render(fresh) {
     if (!parts.length) await home(W);
     else if (parts[0] === 'countries' && parts.length === 1) await countriesPage(W);
     else if (parts[0] === 'resources' && parts.length === 1) await resourcesPage(W);
+    else if (parts[0] === 'resources' && parts.length === 2) await resourcePage(W, parts[1]);
     else if (parts[0] === 'parliaments' && parts.length === 1) await parliamentsPage(W);
     else if (parts[0] === 'method' && parts.length === 1) methodPage(W);
     else if (parts[0] === 'about' && parts.length === 1) aboutPage(W);
@@ -409,12 +410,28 @@ const resPeople = people => {
 const resCard = (r, place = true) => `<article class="res">
       <div class="res-k"><span class="rk rk-${r.kind}">${esc(RES_KIND[r.kind][1])}</span>${place ? `<span>${r.country === 'global' ? esc(r.cname) : `<a href="/${esc(r.country)}">${flag(r.country)}${esc(r.cname)}</a>`}</span>` : ''}${r.level ? `<span>${esc(label(LEVEL, r.level))}</span>` : ''}<span>${esc(pollDate(r.published))}</span></div>
       ${r.fig ? `<div class="res-fig">${esc(r.fig)}</div>` : ''}
-      <h3>${ext(r.url, esc(r.title) + ' ↗')}</h3>
+      <h3>${r.slug ? `<a href="/resources/${esc(r.slug)}">${esc(r.title)}</a>` : ext(r.url, esc(r.title) + ' ↗')}</h3>
       <div class="res-by">${esc(r.by)}</div>
       ${r.summary ? `<p>${esc(r.summary)}</p>` : ''}
+      ${r.slug ? `<div class="res-st"><a href="/resources/${esc(r.slug)}">Read the page</a> · ${ext(r.url, 'Official text ↗')}</div>` : ''}
       ${r.status ? `<div class="res-st"><b>${esc(RES_STATE[r.state] || 'Status')}</b> ${esc(r.status)}</div>` : ''}
       ${(r.people || []).length ? `<div class="res-st"><b>In the register</b> ${resPeople(r.people)}</div>` : ''}
     </article>`;
+// A bill's own page (/resources/<slug>) is built as HTML by the site build. Opened directly it is already in the page; reached from another page of
+// the app, the app fetches that HTML and shows its <main>.
+async function resourcePage(W, slug) {
+  const r = (W.resources || []).find(x => x.slug === slug);
+  if (!r) return notFound();
+  setTitle(r.title);
+  if (main.querySelector('[data-res-page]')?.dataset.resPage === slug) return;
+  main.innerHTML = '<div class="loading">Loading</div>';
+  const res = await fetch(location.pathname, {headers: {accept: 'text/html'}});
+  const doc = new DOMParser().parseFromString(await res.text(), 'text/html');
+  const page = doc.querySelector('#main [data-res-page]');
+  if (!page) return notFound();
+  main.innerHTML = doc.getElementById('main').innerHTML;
+  window.scrollTo({top: 0});
+}
 async function resourcesPage(W) {
   setTitle('Resources');
   const all = W.resources || [], q0 = new URLSearchParams(location.search);

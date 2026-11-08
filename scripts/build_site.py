@@ -323,10 +323,51 @@ def build_supranational(folder, full):
 
 
 RESOURCE_KINDS = ("poll", "paper", "report", "bill")
+PAGE_KINDS = ("bill",)  # kinds that get their own page at /resources/<slug>; add "report" and "paper" here to extend it
+RESOURCE_RAW = {}  # slug -> the resource's full entry from resources.json, for its page
 BILL_STATES = {"in_force": "In force", "pending": "Pending", "rejected": "Rejected", "lapsed": "Lapsed", "adopted": "Adopted"}
 
 
 ONLY = set()  # country folders of a --only preview build; empty for a full build
+
+
+def slugify(text):
+    import unicodedata
+    t = unicodedata.normalize("NFKD", text.replace("ß", "ss").replace("ø", "o").replace("Ø", "O").replace("æ", "ae").replace("ł", "l").replace("Ł", "L").replace("đ", "d"))
+    return re.sub(r"[^a-z0-9]+", "-", "".join(c for c in t if not unicodedata.combining(c)).lower()).strip("-")
+
+
+def default_slug(r):
+    """A readable URL name from the country and the title: the part before the first colon, without brackets, cut at a word."""
+    head = re.sub(r"\s*\([^)]*\)", "", re.split(r":\s", r["title"], 1)[0])
+    s = slugify(head)
+    if len(s) < 6:  # a title in another script: take the English words in brackets
+        s = slugify(r["title"])
+    if len(s) > 48:
+        s = s[:48].rsplit("-", 1)[0]
+    return slugify(r["country"] + "-" + s)
+
+
+def assign_slugs(items):
+    """Gives each page resource its slug: the one in resources.json, else the default (with the year, then a number, if two collide)."""
+    used = {}
+    for r in items:
+        if r.get("slug"):
+            if not re.fullmatch(r"[a-z0-9]+(-[a-z0-9]+)*", r["slug"]):
+                raise SystemExit(f"resources.json: bad slug {r['slug']!r} (lower-case letters, digits and hyphens)")
+            if r["slug"] in used:
+                raise SystemExit(f"resources.json: slug {r['slug']!r} is used twice")
+            used[r["slug"]] = r
+    for r in items:
+        if r.get("slug"):
+            continue
+        base = default_slug(r)
+        for cand in (base, f"{base}-{str(r['published'])[:4]}", *(f"{base}-{str(r['published'])[:4]}-{n}" for n in range(2, 50))):
+            if cand not in used:
+                r["slug"] = cand
+                used[cand] = r
+                break
+    return used
 
 
 def load_resources(countries, people):
@@ -340,6 +381,7 @@ def load_resources(countries, people):
                             published=str(p.get("published", "")), url=p["url"], fig=p.get("support_text") or (f"{p['support']}%" if p.get("support") is not None else ""),
                             summary=" · ".join(str(x) for x in (p.get("scope"), p.get("sample")) if x)))
     path = DATA / "resources.json"
+    raw = []
     for r in json.load(open(path, encoding="utf-8")) if path.exists() else []:
         if r.get("kind") not in RESOURCE_KINDS or r["kind"] == "poll":
             raise SystemExit(f"resources.json: bad kind {r.get('kind')!r} in {r.get('title')!r}")
@@ -352,6 +394,17 @@ def load_resources(countries, people):
         if r["kind"] == "bill" and r.get("state") not in BILL_STATES:
             raise SystemExit(f"resources.json: a bill needs state {sorted(BILL_STATES)}: {r.get('title')!r}")
         row = {k: r[k] for k in ("kind", "country", "title", "by", "published", "url", "summary", "status", "state", "level") if r.get(k)}
+        if r["kind"] in PAGE_KINDS:
+            for l in r.get("links", []):
+                if not isinstance(l, dict) or not str(l.get("url", "")).startswith("https://"):
+                    raise SystemExit(f"resources.json: links need {{label, https url}}: {r.get('title')!r}")
+            for d in r.get("documents", []):
+                if not re.fullmatch(r"[a-z-]+:M\d{4}", str(d)):
+                    raise SystemExit(f"resources.json: documents use 'folder:M0001': {d!r} in {r.get('title')!r}")
+            if "overview" in r and not str(r["overview"]).strip():
+                raise SystemExit(f"resources.json: empty overview in {r.get('title')!r} (leave the field out)")
+            raw.append(r)
+            row["_raw"] = r
         for ref in r.get("people", []):
             key = tuple(str(ref).split(":", 1))
             if ONLY and key not in people and key[0] not in ONLY:
@@ -360,8 +413,14 @@ def load_resources(countries, people):
                 raise SystemExit(f"resources.json: unknown person {ref!r} in {r.get('title')!r} (use 'folder:actor_id')")
             row.setdefault("people", []).append([key[0], key[1], people[key]])
         out.append(row)
+    assign_slugs(raw)  # slugs are assigned over every page resource, so a preview build gets the same URLs as a full one
+    RESOURCE_RAW.clear()
     for r in out:
         r["cname"] = names.get(r["country"], "Global")
+        if "_raw" in r:
+            raw_r = r.pop("_raw")
+            r["slug"] = raw_r["slug"]
+            RESOURCE_RAW[r["slug"]] = raw_r
     out.sort(key=lambda r: (r["published"], r["title"]), reverse=True)
     return out
 
@@ -743,9 +802,11 @@ def _attr(s):
 PRELOAD_SLUGS = set()
 
 
-def page_html(base, title, desc, path, image, alt):
+def page_html(base, title, desc, path, image, alt, body=None):
     """The site page with this page's meta tags, so link previews show the right title and image."""
     h = base
+    if body:  # a page with its own content (a bill) is rendered here; the app keeps it instead of building it again
+        h = h.replace('<main id="main" tabindex="-1"></main>', '<main id="main" tabindex="-1">' + body + '</main>', 1)
     m = re.match(r"/([a-z][a-z0-9-]*)(?:/|$)", path)
     if m and m.group(1) in PRELOAD_SLUGS:  # a country page needs its own data file at once
         v = re.search(r'name="data-version" content="(\w+)"', h)
@@ -775,6 +836,206 @@ def poll_line(c):
     return f" Poll: {p.get('support_text') or str(p['support']) + '%'} in support. Asked: “{q}” ({p['pollster']}, {str(p.get('published', ''))[:4]})."
 
 
+# ---------- resource pages: one page per bill (and, later, report and paper) at /resources/<slug> ----------
+import html as _html
+
+DOC_KIND = {"bill": "Bill", "amendment": "Amendment", "motion": "Motion", "petition": "Petition", "question": "Written question",
+            "government_proposal": "Government proposal", "consultation": "Consultation", "committee_report": "Committee report",
+            "committee_minutes": "Committee minutes", "plenary_minutes": "Plenary minutes", "roll_call": "Roll call",
+            "court_ruling": "Court ruling", "audit_or_statistics_report": "Audit or statistics report", "other": "Other document"}
+READ_STATUS = {"read": "Read in full", "partial": "Partly read", "skimmed": "Skimmed", "unread": "Not read yet"}
+EVIDENCE_KIND = {"vote": "Vote", "bill_sponsorship": "Sponsorship", "motion_signature": "Motion signature", "open_letter": "Open letter",
+                 "op_ed": "Op-ed", "policy_adoption": "Policy adopted", "coalition_membership": "Coalition", "social_post": "Social post",
+                 "statement": "Statement", "campaign": "Campaign", "manifesto": "Manifesto", "speech": "Speech", "interview": "Interview",
+                 "report": "Report", "publication": "Publication", "motion": "Motion", "testimony": "Testimony", "editorial": "Editorial",
+                 "funding": "Funding", "other": "Other"}
+# (singular, plural) for the "On the record" sentence, one per evidence_type
+EVIDENCE_COUNT = {"vote": ("vote", "votes"), "bill_sponsorship": ("sponsorship", "sponsorships"), "motion_signature": ("motion signature", "motion signatures"),
+                  "open_letter": ("open letter", "open letters"), "op_ed": ("op-ed", "op-eds"), "policy_adoption": ("policy adoption", "policy adoptions"),
+                  "coalition_membership": ("coalition membership", "coalition memberships"), "social_post": ("social post", "social posts"),
+                  "statement": ("statement", "statements"), "campaign": ("campaign record", "campaign records"), "manifesto": ("manifesto", "manifestos"),
+                  "speech": ("speech", "speeches"), "interview": ("interview", "interviews"), "report": ("report", "reports"),
+                  "publication": ("publication", "publications"), "motion": ("motion", "motions"), "testimony": ("testimony", "testimonies"),
+                  "editorial": ("editorial", "editorials"), "funding": ("funding record", "funding records"), "other": ("other record", "other records")}
+LEVEL_LABEL = {"national": "National", "subnational": "Regional or local", "supranational": "International", "local": "Local", "regional": "Regional"}
+RES_KIND_ONE = {"bill": "Bill or law", "report": "Report", "paper": "Paper"}
+RES_KIND_MANY = {"bill": "Bills and laws", "report": "Reports and proposals", "paper": "Papers"}
+SITE_PATHS = []  # every page path the build wrote, for sitemap.xml
+
+
+def h(s):
+    return _html.escape(str(s), quote=True)
+
+
+def norm_url(u):
+    return re.sub(r"^https?://(www\.)?", "", (u or "").strip().lower()).split("#")[0].rstrip("/")
+
+
+def alnum(s):
+    return re.sub(r"[^a-z0-9]", "", (s or "").lower())
+
+
+def ref_tokens(title):
+    """Document numbers inside a bill's title and status that other records quote: a Riksdag motion (2013/14:Sk403) or a Dutch Kamerstuk (36 418, nr. 74)."""
+    out = {alnum(m.group(0)) for m in re.finditer(r"\b\d{4}/\d{2}:[A-Za-z]*\d+", title)}
+    out |= {alnum(m.group(1) + m.group(2)) for m in re.finditer(r"\b(\d{2}\s?\d{3}),\s*nr\.\s*(\d+)", title)}
+    return {t for t in out if len(t) >= 6}
+
+
+def ensure_stop(s):
+    s = (s or "").strip()
+    return s if not s or s[-1] in ".!?" else s + "."
+
+
+def doc_links(raw_r, row, docs_by_country):
+    """The documents.csv rows that belong to this bill: listed by id in the entry's `documents`, with the same URL as the bill or one of its
+    `links`, or carrying the bill's own document number (a motion's committee report quotes it)."""
+    urls = {norm_url(row["url"])} | {norm_url(l["url"]) for l in raw_r.get("links", [])}
+    toks = ref_tokens(row["title"] + " " + row.get("status", ""))
+    found, seen = [], set()
+
+    def add(country, d):
+        if (country, d["document_id"]) not in seen:
+            seen.add((country, d["document_id"]))
+            found.append((country, d))
+    for ref in raw_r.get("documents", []):
+        c, _, i = str(ref).partition(":")
+        d = next((x for x in docs_by_country.get(c, []) if x["document_id"] == i), None)
+        if d:
+            add(c, d)
+    for d in docs_by_country.get(row["country"], []):
+        hay = alnum(" ".join((d["ref"], d["title"], d["found"], d["gaps"])))
+        if norm_url(d["url"]) in urls or any(t in hay for t in toks):
+            add(row["country"], d)
+    return found
+
+
+def resource_body(r, raw_r, people, docs, ev):
+    """The page's <main> content for one resource: pre-rendered, so it reads without scripts and search engines see it."""
+    country, state = r["country"], r.get("state")
+    crumb = (f'<nav class="crumbs" aria-label="Breadcrumb"><a href="/resources">Resources</a><span>/</span>'
+             f'<a href="/resources?kind={r["kind"]}">{h(RES_KIND_MANY.get(r["kind"], "Resources"))}</a>'
+             + (f'<span>/</span><a href="/resources?country={h(country)}">{h(r["cname"])}</a>' if country != "global" else "") + "</nav>")
+    facts = [("Country", r["cname"]), ("Introduced" if r["kind"] == "bill" else "Published", r["published"]),
+             ("Level", LEVEL_LABEL.get(r.get("level"), (r.get("level") or "").capitalize())), ("Status", BILL_STATES.get(state, "")),
+             ("Sponsors" if r["kind"] == "bill" else "By", r["by"])]
+    dl = "".join(f"<div><dt>{h(k)}</dt><dd>{h(v)}</dd></div>" for k, v in facts if v)
+    if r.get("status"):
+        dl += f'<div><dt>Where it stands</dt><dd>{h(r["status"])}</dd></div>'
+    official = [("Official text", r["url"])] + [(l.get("label") or "Official document", l["url"]) for l in raw_r.get("links", [])]
+    links = "".join(f'<li><a href="{h(u)}" target="_blank" rel="noopener noreferrer nofollow">{h(lab)} ↗</a></li>' for lab, u in official)
+    paras = [p.strip() for p in (raw_r.get("overview") or "").split("\n\n") if p.strip()]
+    if paras:
+        over = '<section class="bp-sec" id="overview"><h2>Overview</h2>' + "".join(f"<p>{h(p)}</p>" for p in paras) +             '<p class="bp-note">Written from the records and links on this page.</p></section>'
+    else:
+        over = ('<section class="bp-sec" id="overview"><h2>Overview</h2><p class="bp-todo"><b>Detailed overview not yet written.</b> '
+                'Until it is, the summary above and the sourced records below are what the register holds about this bill.</p></section>')
+    ppl = ""
+    if people:
+        ppl = (f'<section class="bp-sec" id="people"><h2>People in the register <span class="bp-n">{len(people):,}</span></h2>'
+               f'<p class="bp-note">Sponsors and signatories who are on a register, each with the statement they rest on.</p><ul class="bp-people">'
+               + "".join(f'<li><a href="/{h(c)}/{h(i)}">{h(n)}</a></li>' for c, i, n in people) + "</ul></section>")
+    evh = ""
+    if ev:
+        def item(e):
+            quote = re.sub(r"\s+", " ", e["quote"]).strip()
+            quote = quote if len(quote) <= 260 else quote[:260].rsplit(" ", 1)[0] + "…"
+            kind = EVIDENCE_KIND.get(e["type"], e["type"].replace("_", " ").capitalize())
+            return (f'<li class="bp-ev"><div class="bp-evh"><a href="/{h(e["c"])}/{h(e["actor"])}">{h(e["name"])}</a>'
+                    f'<span class="tag{" signal" if e["grade"] == "A" else ""}">Grade {h(e["grade"])}</span>'
+                    f'<span class="bp-m">{h(kind)}{" · " + h(e["date"]) if e["date"] else ""}</span></div>'
+                    + (f'<p class="bp-q">“{h(quote)}”</p>' if quote else "")
+                    + f'<a class="bp-src" href="{h(e["url"])}" target="_blank" rel="noopener noreferrer nofollow">{h(e["title"] or e["pub"] or "Source")} ↗</a></li>')
+        first, rest = ev[:40], ev[40:]
+        counts = collections.Counter(e["type"] for e in ev)
+        summ = ", ".join(f"{n:,} {EVIDENCE_COUNT.get(t, (t.replace('_', ' '),) * 2)[n != 1]}" for t, n in counts.most_common())
+        evh = (f'<section class="bp-sec" id="evidence"><h2>On the record <span class="bp-n">{len(ev):,}</span></h2>'
+               f'<p class="bp-note">Statements, votes and sponsorships in the register whose source is this bill or one of its documents: {h(summ)}.</p>'
+               f'<ul class="bp-list">{"".join(item(e) for e in first)}</ul>'
+               + (f'<details class="bp-more"><summary>Show the other {len(rest):,}</summary><ul class="bp-list">{"".join(item(e) for e in rest)}</ul></details>' if rest else "") + "</section>")
+    dch = ""
+    if docs:
+        def ditem(d):
+            meta = " · ".join(x for x in (DOC_KIND.get(d["kind"], d["kind"]), d["ref"], d["date"], d["body"]) if x)
+            extra = "".join(f"<p><b>{lab}</b> {h(d[k])}</p>" for k, lab in (("found", "Found:"), ("gaps", "Not read:")) if d.get(k))
+            ttl = f'<a href="{h(d["url"])}" target="_blank" rel="noopener noreferrer nofollow">{h(d["title"])} ↗</a>' if d["url"].startswith("https://") else h(d["title"])
+            return (f'<li class="bp-doc"><div class="bp-evh">{ttl}<span class="tag{" signal" if d["read_status"] == "read" else ""}">{h(READ_STATUS.get(d["read_status"], d["read_status"]))}</span></div>'
+                    f'<div class="bp-m">{h(meta)}</div>' + (f'<details class="bp-det"><summary>What the reading found</summary>{extra}</details>' if extra else "") + "</li>")
+        dch = (f'<section class="bp-sec" id="documents"><h2>Official documents <span class="bp-n">{len(docs):,}</span></h2>'
+               f'<p class="bp-note">From the records tracker for {h(r["cname"])}: the bill, its debates, votes and committee reports, and whether each has been read in full.</p>'
+               f'<ul class="bp-list">{"".join(ditem(d) for _, d in docs)}</ul></section>')
+    head = (f'<div class="wrap page-head fade bp-head">{crumb}'
+            f'<div class="kicker" style="margin-top:22px">{h(RES_KIND_ONE.get(r["kind"], r["kind"]))} · {h(r["cname"])}</div>'
+            f'<h1>{h(r["title"])}</h1>'
+            + (f'<span class="bp-state bp-{h(state)}">{h(BILL_STATES.get(state, state))}</span>' if state else "")
+            + (f'<p class="lede">{h(ensure_stop(r.get("summary")))}</p>' if r.get("summary") else "") + "</div>")
+    return (f'<article data-res-page="{h(r["slug"])}">{head}<div class="wrap bp-body"><div class="bp-main">{over}{evh}{dch}{ppl}</div>'
+            f'<aside class="bp-side"><dl class="bp-facts">{dl}</dl><div class="kicker">Official links</div><ul class="alinks">{links}</ul>'
+            f'<p class="bp-note" style="margin-top:22px">Something wrong or missing? <a href="/report">Report a mistake</a>.</p></aside></div></article>')
+
+
+def short_title(title):
+    """A title for a share card: the whole title if it fits, else the part before the colon; the English words in brackets for another script."""
+    t = re.sub(r"\s+", " ", title).strip()
+    if any(ord(c) > 0x24F for c in t):
+        m = re.search(r"\(([^()]*)\)\s*$", t)
+        t = m.group(1) if m else t
+    if len(t) > 90:
+        t = re.split(r":\s", t, 1)[0]
+    return t if len(t) <= 110 else t[:107].rsplit(" ", 1)[0] + "…"
+
+
+def resource_pages(write, resources, full, cards, countries):
+    """One page per resource whose kind is in PAGE_KINDS. Returns how many."""
+    docs_by_country = {c["slug"]: rd(DATA / c["slug"] / "documents.csv") for c in countries}
+    names, ev_by_url = {}, collections.defaultdict(list)
+    for c in countries:
+        names.update({(c["slug"], p[0]): p[1] for p in full[c["slug"]]["P"]})
+        for e in full[c["slug"]]["E"]:
+            ev_by_url[(c["slug"], norm_url(e[7]))].append(e)
+    n = 0
+    for r in resources:
+        if r["kind"] not in PAGE_KINDS or "slug" not in r:
+            continue
+        raw_r = RESOURCE_RAW[r["slug"]]
+        docs = doc_links(raw_r, r, docs_by_country)
+        urls = {norm_url(r["url"])} | {norm_url(l["url"]) for l in raw_r.get("links", [])} | {norm_url(d["url"]) for _, d in docs if d["url"]}
+        seen, ev = set(), []
+        for u in sorted(urls):
+            for e in ev_by_url.get((r["country"], u), []):
+                if e[11] not in seen:
+                    seen.add(e[11])
+                    ev.append(dict(actor=e[0], date=e[1], grade=e[2], type=e[3], quote=e[6], url=e[7], title=e[8], pub=e[9], c=r["country"],
+                                   name=names.get((r["country"], e[0]), e[0])))
+        # evidence the tracker names in a document's `found` text (E00022, E00043-E00044)
+        ids = set()
+        for _, d in docs:
+            for a, b2 in re.findall(r"E(\d{5})(?:\s*-\s*E?(\d{5}))?", d.get("found", "")):
+                ids |= {f"E{i:05d}" for i in range(int(a), int(b2 or a) + 1)}
+        for e in full[r["country"]]["E"] if r["country"] in full else []:
+            if e[11] in ids and e[11] not in seen:
+                seen.add(e[11])
+                ev.append(dict(actor=e[0], date=e[1], grade=e[2], type=e[3], quote=e[6], url=e[7], title=e[8], pub=e[9], c=r["country"],
+                               name=names.get((r["country"], e[0]), e[0])))
+        ev.sort(key=lambda e: (e["grade"], e["type"] != "vote", e["date"] or "", e["name"]))
+        people = r.get("people", [])
+        year = str(r["published"])[:4]
+        desc = " ".join(x for x in (ensure_stop(r.get("summary")), f"{BILL_STATES.get(r.get('state'), 'Listed')} · {r['cname']}, {year}.") if x)
+        desc = desc if len(desc) <= 300 else desc[:297].rsplit(" ", 1)[0] + "…"
+        pts = [(BILL_STATES.get(r.get("state"), "") or "Listed", "status"), (year, "introduced")]
+        if people:
+            pts.append((f"{len(people):,}", "people in the register"))
+        if ev:
+            pts.append((f"{len(ev):,}", "sourced records"))
+        kind1, st = RES_KIND_ONE.get(r["kind"], "Resource"), short_title(r["title"])
+        write(f"/resources/{r['slug']}", f"{st} · {r['cname']} · Wealth Tax Supporters", desc, "resources/" + r["slug"],
+              f"{st}: {kind1}, {r['cname']}",
+              lambda o, r=r, pts=pts, kind1=kind1, st=st: cards.page_card(o, f"{kind1} · {r['cname']}", st, r.get("summary", ""), pts),
+              body=resource_body(r, raw_r, people, docs, ev))
+        n += 1
+    return n
+
+
 def share_pages(out, base, countries, full, unique=None, bodies=(), resources=(), stories=None):
     stories = stories or {}
     PRELOAD_SLUGS.update(c["slug"] for c in countries)
@@ -785,9 +1046,11 @@ def share_pages(out, base, countries, full, unique=None, bodies=(), resources=()
         cards = None
         print("  Pillow not installed: pages get text previews and the default image (pip install pillow)")
     pages = 0
+    SITE_PATHS.clear()
 
-    def write(path, title, desc, image_key, alt, draw):
+    def write(path, title, desc, image_key, alt, draw, body=None):
         nonlocal pages
+        SITE_PATHS.append(path)
         img = f"/og/{image_key}.png"
         if cards:
             draw(out / img.lstrip("/"))
@@ -798,7 +1061,7 @@ def share_pages(out, base, countries, full, unique=None, bodies=(), resources=()
             img = "/og.png"
         dest = out / ("index.html" if path == "/" else path.lstrip("/") + ".html")
         dest.parent.mkdir(parents=True, exist_ok=True)
-        dest.write_text(page_html(base, title, desc, path, img, alt), encoding="utf-8")
+        dest.write_text(page_html(base, title, desc, path, img, alt, body), encoding="utf-8")
         pages += 1
 
     # One person on several countries' registers counts once in the world totals (same Wikidata id); each country keeps its own count.
@@ -975,7 +1238,24 @@ def share_pages(out, base, countries, full, unique=None, bodies=(), resources=()
                   lambda o, p=p, quote=quote, gradeline=gradeline, hl=hl: cards.person_card(
                       o, {"name": p[1], "role": role if (role := " · ".join(x for x in (p[4], p[5]) if x)) else ""}, name, quote,
                       units if hl else [], hl, TYPE.get(p[3], p[3]), gradeline, slug, (p[8], GRADE.get(p[8], ""), p[9], span if y0 else "")))
+    resource_pages(write, resources, full, cards, countries)
     return pages
+
+
+def write_sitemap(out, built, preview):
+    """sitemap.xml (every page the build wrote, split at 45,000 URLs) and robots.txt pointing to it. A preview build writes neither."""
+    if preview:
+        return
+    nl, head = chr(10), '<?xml version="1.0" encoding="UTF-8"?>' + chr(10)
+    chunks = [SITE_PATHS[i:i + 45000] for i in range(0, len(SITE_PATHS), 45000)] or [[]]
+    names = ["sitemap.xml"] if len(chunks) == 1 else [f"sitemap-{i + 1}.xml" for i in range(len(chunks))]
+    for name, chunk in zip(names, chunks):
+        rows = "".join(f"<url><loc>{SITE_URL}{p}</loc><lastmod>{built}</lastmod></url>" for p in chunk)
+        (out / name).write_text(head + '<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">' + rows + "</urlset>" + nl, encoding="utf-8")
+    if len(names) > 1:
+        idx = "".join(f"<sitemap><loc>{SITE_URL}/{n}</loc><lastmod>{built}</lastmod></sitemap>" for n in names)
+        (out / "sitemap.xml").write_text(head + '<sitemapindex xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">' + idx + "</sitemapindex>" + nl, encoding="utf-8")
+    (out / "robots.txt").write_text(f"User-agent: *{nl}Allow: /{nl}{nl}Sitemap: {SITE_URL}/sitemap.xml{nl}", encoding="utf-8")
 
 
 def main():
@@ -1073,6 +1353,7 @@ def main():
     html = html.replace('href="/data/world.json" as="fetch"', f'href="/data/world.json?v={dv}" as="fetch"')
     (out / "index.html").write_text(html, encoding="utf-8")
     n = share_pages(out, html, countries, full, unique, bodies, world_resources, stories)
+    write_sitemap(out, world["built"], only)
     print(f"Built {len(countries)} countr{'y' if len(countries) == 1 else 'ies'} and {n} share pages into {out}")
 
 
