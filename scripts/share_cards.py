@@ -395,6 +395,24 @@ def page_card(out, kicker, title, line, points=()):
     return cached(out, ["page", kicker, title, line, [list(q) for q in points]], draw)
 
 
+def argument_card(out, objection, answer, number=0):
+    """An argument page: the objection in quotes as the headline, the one-line answer under it, and a small 'answered with sources' foot."""
+    def draw(path):
+        img, dr = _canvas()
+        _kicker(img, dr, "Argument · the objection")
+        lines, size = _title(dr, "“" + objection.strip().strip("“”\"") + "”", 1060, 3, 84, 50)
+        y = _put_title(dr, lines, size, 56, 92) + 26
+        dr.line((60 * S, y * S, 160 * S, y * S), fill=SIGNAL, width=4 * S)
+        y += 24
+        dr.text((60 * S, y * S), "THE ANSWER", font=SANS(17, 500), fill=SIGNAL)
+        y += 32
+        for ln in _wrap(dr, answer, SANS(27), 1060, 4):
+            dr.text((60 * S, y * S), ln, font=SANS(27), fill=INK2); y += 37
+        _footer(dr)
+        _save(img, path)
+    return cached(out, ["argument", objection, answer], draw)
+
+
 GRADES = (("A", "Explicit support", "A formal act or specific proposal"),
           ("B", "Named support", "Said to back a wealth tax, by name"),
           ("C", "Implied support", "Read from context"))

@@ -38,7 +38,7 @@ sources:
     url: https://restud.com/wp-content/uploads/2024/10/MS31276Manuscript.pdf
   - id: 4
     title: Durán-Cabré, Esteller-Moré and Mas-Montserrat, Behavioural responses to the (re)introduction of wealth taxes, Evidence from Spain, IEB Working Paper 2019/04
-    url: http://ieb.ub.edu/wp-content/uploads/2019/05/2019-IEB-WorkingPaper-04.pdf
+    url: https://ieb.ub.edu/wp-content/uploads/2019/05/2019-IEB-WorkingPaper-04.pdf
   - id: 5
     title: IMF, World Economic Outlook, October 2014, chapter 3, Is It Time for an Infrastructure Push? The Macroeconomic Effects of Public Investment
     url: https://web.archive.org/web/2020/https://www.imf.org/external/pubs/ft/weo/2014/02/pdf/c3.pdf

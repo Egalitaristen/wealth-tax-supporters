@@ -47,7 +47,7 @@ sources:
     url: https://www.nber.org/system/files/working_papers/w32153/w32153.pdf
   - id: 7
     title: Durán-Cabré, Esteller-Moré and Mas-Montserrat, Behavioural responses to the (re)introduction of wealth taxes, Evidence from Spain, IEB Working Paper 2019/04
-    url: http://ieb.ub.edu/wp-content/uploads/2019/05/2019-IEB-WorkingPaper-04.pdf
+    url: https://ieb.ub.edu/wp-content/uploads/2019/05/2019-IEB-WorkingPaper-04.pdf
   - id: 8
     title: Mirrlees et al., Tax by Design, Institute for Fiscal Studies (2011), chapter 15
     url: https://ifs.org.uk/sites/default/files/output_url_files/taxbydesign.pdf

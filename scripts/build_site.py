@@ -779,6 +779,247 @@ def load_story(slug):
                 facts=fm.get("facts", []), timeline=fm.get("timeline", []), sources=srcs, intro=intro, sections=sections, words=words)
 
 
+# ---------- arguments: content/arguments/<slug>.md -> /arguments and /arguments/<slug> ----------
+# Same markdown dialect and front matter as the stories, without a timeline, plus `kind: argument`, `objection` and `answer`.
+# See content/arguments/README.md. The order of the hub, and each page's short title (breadcrumb, previous/next), is this list.
+ARGUMENTS_DIR = ROOT / "content" / "arguments"
+ARGUMENT_ORDER = [
+    ("why-tax-wealth", "Why tax wealth"),
+    ("europe-repealed-it", "Europe repealed it"),
+    ("they-will-leave", "They will leave"),
+    ("you-cannot-value-it", "You cannot value it"),
+    ("no-cash", "No cash"),
+    ("double-taxation", "Double taxation"),
+    ("we-already-tax-property", "We already tax property"),
+    ("family-firms", "Family firms"),
+    ("it-will-spread", "It will spread"),
+    ("not-enough", "Not enough"),
+    ("hurts-growth", "Hurts growth"),
+    ("unconstitutional", "Unconstitutional"),
+]
+ARGUMENT_FIELDS = {"title", "standfirst", "updated", "author", "layout", "facts", "sources", "kind", "objection", "answer"}
+ARGUMENTS_ONLY = False  # --only arguments: a preview build of the section, with the countries its pages link to
+ARGUMENT_HUB_INTRO = ("Every wealth tax meets the same objections. Each one is put here the way people raise it, then answered on a page of its own, "
+                      "with the figures, the laws and the court rulings behind the answer. Every number carries a source you can open.")
+
+
+def _front_keys(text):
+    """Top-level keys of a front matter block, in order, so unknown ones can be reported (parse_front_matter keeps them but does not list them)."""
+    m = re.match(r"﻿?---[ \t]*\r?\n(.*?)\r?\n---", text, re.S)
+    return [l.split(":", 1)[0].strip() for l in (m.group(1).splitlines() if m else []) if l[:1] not in " \t#" and ":" in l]
+
+
+def plain_quote(s):
+    """An objection without its own surrounding quotation marks, for display between curly quotes."""
+    return s.strip().strip('"“”').strip()
+
+
+def load_arguments():
+    """Every page in content/arguments/ as a dict, in hub order. Errors in any page are collected and then fail the build."""
+    files = sorted(ARGUMENTS_DIR.glob("*.md")) if ARGUMENTS_DIR.is_dir() else []
+    files = [f for f in files if f.name.lower() not in ("readme.md", "style.md")]
+    errors, pages, order = [], {}, {s: i for i, (s, _) in enumerate(ARGUMENT_ORDER)}
+    short = dict(ARGUMENT_ORDER)
+    for f in files:
+        slug = f.stem
+
+        def err(msg, f=f):
+            errors.append(f"{f.name}: {msg}")
+        if not re.fullmatch(r"[a-z0-9]+(-[a-z0-9]+)*", slug):
+            err("the file name must be lower-case letters, digits and hyphens")
+        if slug not in order:
+            err("not in ARGUMENT_ORDER in scripts/build_site.py (add it there to place it in the hub)")
+        try:
+            text = f.read_text(encoding="utf-8")
+            fm, body = parse_front_matter(text, f.name)
+        except SystemExit as e:
+            errors.append(str(e))
+            continue
+        keys = _front_keys(text)
+        for k in sorted(set(keys) - ARGUMENT_FIELDS):
+            err("unknown front matter field " + repr(k) + (" (arguments have no timeline)" if k == "timeline" else ""))
+        for k in sorted({k for k in keys if keys.count(k) > 1}):
+            err(f"front matter field {k!r} appears twice")
+        for k in ("title", "standfirst", "updated", "objection", "answer", "kind"):
+            if not fm.get(k):
+                err(f"front matter needs {k}")
+        if fm.get("kind") and fm["kind"] != "argument":
+            err("kind must be 'argument'")
+        if fm.get("updated") and not re.match(r"\d{4}-\d\d-\d\d\Z", fm["updated"]):
+            err("updated must be YYYY-MM-DD")
+        if fm.get("layout", "article") not in STORY_LAYOUTS:
+            err(f"layout must be one of {STORY_LAYOUTS}")
+        srcs = fm.get("sources", [])
+        if not srcs:
+            err("sources is empty")
+        for key in ("facts", "sources"):
+            for it in fm.get(key, []):
+                for need in STORY_LISTS[key]:
+                    if not it.get(need):
+                        err(f"{key} item {it} needs {need}")
+        ids = [s.get("id", "") for s in srcs]
+        if len(set(ids)) != len(ids) or not all(re.match(r"\d{1,3}\Z", i) for i in ids):
+            err("source ids are unique numbers")
+        for s in srcs:
+            if not s.get("url", "").startswith("https://"):
+                err(f"source {s.get('id')} needs an https url")
+        for it in fm.get("facts", []):
+            if it.get("source") and it["source"] not in ids:
+                err(f"fact {it.get('label')!r} cites source {it['source']}, which is not in sources")
+        if "{{" in body:
+            err("the body has a {{...}} block; arguments have none")
+        cited = set(re.findall(r"\[(\d{1,3})\](?!\()", body))
+        for n in sorted(cited - set(ids), key=int):
+            err(f"the body cites [{n}], which is not in sources")
+        try:
+            intro, sections = story_markdown(body, {i: 0 for i in set(ids) | cited})
+        except SystemExit as e:
+            err(str(e).replace("story: ", ""))
+            continue
+        used = cited | {it["source"] for it in fm.get("facts", []) if it.get("source")}
+        unused = [i for i in ids if i not in used]
+        if unused:
+            print(f"  WARNING {f.name}: sources never cited: {', '.join(unused)}")
+        words = len(re.sub(r"<[^>]+>", " ", intro + " ".join(s["html"] for s in sections)).split())
+        pages[slug] = dict(slug=slug, short=short.get(slug, slug), title=fm.get("title", ""), standfirst=fm.get("standfirst", ""), updated=fm.get("updated", ""),
+                           author=fm.get("author", "Egalitaristen"), layout=fm.get("layout", "article"), objection=fm.get("objection", ""), answer=fm.get("answer", ""),
+                           facts=fm.get("facts", []), sources=srcs, intro=intro, sections=sections, words=words)
+        print(f"  argument {slug}: {words} words, {len(sections)} sections")
+    for s in order:
+        if s not in pages and files and not any(e.startswith(s + ".md") for e in errors):
+            errors.append(f"ARGUMENT_ORDER lists {s!r} but content/arguments/{s}.md does not exist")
+    if errors:
+        raise SystemExit(f"content/arguments: {len(errors)} error(s)\n  " + "\n  ".join(errors))
+    return [pages[s] for s, _ in ARGUMENT_ORDER if s in pages]
+
+
+def _ref(id_):
+    return f'<sup class="ref"><a href="#src-{h(id_)}">[{h(id_)}]</a></sup>' if id_ else ""
+
+
+def _long_date(d):
+    y, m, dd = d.split("-")
+    return f"{datetime.date(int(y), int(m), int(dd)).strftime('%B')} {int(dd)}, {y}"  # as the stories show it (en-US)
+
+
+def argument_body(a, prev, nxt):
+    """The article page's <main> content: the story article layout without the country header and tabs, a breadcrumb, and previous/next links."""
+    toc = "".join(f'<li><a href="#{h(s["id"])}">{h(s["title"])}</a></li>' for s in a["sections"]) + '<li><a href="#sources">Sources</a></li>'
+    facts = ('<dl class="facts">' + "".join(f'<div><dt>{h(f["label"])}</dt><dd>{h(f["value"])}{_ref(f.get("source"))}</dd></div>' for f in a["facts"]) + "</dl>") if a["facts"] else ""
+    secs = "".join(f'<section class="story-sec" id="{h(s["id"])}"><h2><a class="anchor" href="#{h(s["id"])}" aria-label="Link to this section">#</a>{h(s["title"])}</h2>{s["html"]}</section>' for s in a["sections"])
+    srcs = ('<section class="story-sec" id="sources"><h2><a class="anchor" href="#sources" aria-label="Link to this section">#</a>Sources</h2><ol class="sources">'
+            + "".join(f'<li id="src-{h(r["id"])}"><span class="sn">[{h(r["id"])}]</span> <a href="{h(r["url"])}" target="_blank" rel="noopener noreferrer nofollow">{h(r["title"])} ↗</a></li>' for r in a["sources"])
+            + "</ol></section>")
+
+    def pager(x, cls, lab):
+        return f'<a class="{cls}" href="/arguments/{h(x["slug"])}"><span>{lab}</span><b>{h(x["short"])}</b></a>' if x else f'<span class="{cls} none"></span>'
+    return (f'<div class="wrap fade" data-arg-page="{h(a["slug"])}"><article class="story story-article arg-page"><header class="story-head">'
+            f'<nav class="crumbs" aria-label="Breadcrumb"><a href="/arguments">Arguments</a><span>/</span><span>{h(a["short"])}</span></nav>'
+            f'<p class="arg-objection">“{h(plain_quote(a["objection"]))}”</p>'
+            f'<h1>{h(a["title"])}</h1><p class="standfirst">{h(a["standfirst"])}</p>'
+            f'<p class="byline">By <b>{h(a["author"])}</b> · Updated {h(_long_date(a["updated"]))} · {max(1, round(a["words"] / 220))} min read</p></header>'
+            f'<div class="story-grid"><nav class="story-nav" aria-label="On this page"><details class="jump" open><summary>Jump to</summary><ol class="toc">{toc}</ol></details></nav>'
+            f'<aside class="story-side"><details class="keyfacts" open><summary>Key facts</summary>{facts}</details></aside>'
+            f'<div class="story-main"><div class="story-intro">{a["intro"]}</div>{secs}{srcs}'
+            f'<nav class="arg-pager" aria-label="More arguments">{pager(prev, "arg-prev", "← Previous")}{pager(nxt, "arg-next", "Next →")}</nav></div></div></article></div>')
+
+
+def arguments_hub_body(args):
+    cards = "".join(
+        f'<article class="arg-card{" lead" if i == 0 else ""}"><p class="arg-n">{i + 1:02d} · {h(a["short"])}</p>'
+        f'<h2 class="arg-q">“{h(plain_quote(a["objection"]))}”</h2><p class="arg-a">{h(a["answer"])}</p>'
+        f'<a class="arg-go" href="/arguments/{h(a["slug"])}">{"Start here: read the answer" if i == 0 else "Read the answer"} →</a></article>' for i, a in enumerate(args))
+    return (f'<div class="wrap page-head fade" data-arg-page="hub"><nav class="crumbs" aria-label="Breadcrumb"><span>Arguments</span></nav>'
+            f'<div class="kicker" style="margin-top:22px">Arguments</div><h1>The objections, <em>answered.</em></h1><p class="lede">{h(ARGUMENT_HUB_INTRO)}</p>'
+            f'<div class="arg-grid">{cards}</div></div>')
+
+
+def arguments_index(args):
+    """data/arguments.json: the hub's list and the search rows. `key` is what a search matches: titles, the objection and answer, section headings, fact labels."""
+    return [dict(slug=a["slug"], short=a["short"], title=a["title"], objection=plain_quote(a["objection"]), answer=a["answer"],
+                 key=" ".join([a["short"], a["title"], a["objection"], a["answer"], a["standfirst"]] + [s["title"] for s in a["sections"]] + [f["label"] for f in a["facts"]]))
+            for a in args]
+
+
+def referenced_countries():
+    """Country folders the argument pages link to as /xx or /xx/..., for --only arguments."""
+    out = set()
+    for f in ARGUMENTS_DIR.glob("*.md") if ARGUMENTS_DIR.is_dir() else []:
+        for m in re.finditer(r"\]\(/([a-z][a-z0-9-]*)(?:[/?#][^)]*)?\)", f.read_text(encoding="utf-8")):
+            if (DATA / m.group(1) / "meta.json").exists():
+                out.add(m.group(1))
+    return out
+
+
+PAGE_ROUTES = {"/", "/countries", "/parliaments", "/directory", "/resources", "/method", "/about", "/contribute", "/calculator", "/feedback", "/report", "/arguments"}
+
+
+def check_argument_links(args, full, stories, preview):
+    """Every internal link in the argument pages against what the build wrote. Returns (checked, problems, unchecked)."""
+    from urllib.parse import urlsplit
+    page_ids = {a["slug"]: set(re.findall(r'id="([^"]+)"', a["intro"] + "".join(s["html"] for s in a["sections"]))) | {s["id"] for s in a["sections"]} | {"sources"} for a in args}
+    checked, problems, unchecked = 0, [], []
+    for a in args:
+        body = a["intro"] + "".join(s["html"] for s in a["sections"])
+        for href in sorted(set(re.findall(r'href="(/[^"]*)"', body))):
+            u = urlsplit(_html.unescape(href))
+            path, frag = u.path.rstrip("/") or "/", u.fragment
+            parts = path.strip("/").split("/")
+            where = f"{a['slug']}: {_html.unescape(href)}"
+            checked += 1
+            if path in PAGE_ROUTES:
+                continue
+            if parts[0] == "arguments" and len(parts) == 2:
+                if parts[1] not in page_ids:
+                    problems.append(f"{where} (no such argument page)")
+                elif frag and frag not in page_ids[parts[1]]:
+                    problems.append(f"{where} (no section #{frag} on that page)")
+                continue
+            if parts[0] == "resources" and len(parts) == 2:
+                if parts[1] not in RESOURCE_RAW:
+                    (unchecked if preview else problems).append(where if preview else f"{where} (no bill page with that slug)")
+                continue
+            if not (DATA / parts[0] / "meta.json").exists():
+                problems.append(f"{where} (no such route or country folder)")
+                continue
+            if parts[0] not in full:
+                unchecked.append(where)  # a country the preview build skipped
+                continue
+            D = full[parts[0]]
+            if len(parts) == 1:
+                if frag and parts[0] in stories and frag not in {s["id"] for s in stories[parts[0]]["sections"]} | {"sources", "timeline"}:
+                    problems.append(f"{where} (the story has no section #{frag})")
+            elif len(parts) == 2 and parts[1] in ("story", "map", "directory", "time", "method", "seats"):
+                if parts[1] == "story" and parts[0] not in stories:
+                    problems.append(f"{where} (that country has no story)")
+                elif parts[1] == "seats" and not D.get("legis"):
+                    problems.append(f"{where} (that country has no seats page)")
+            elif len(parts) == 2:
+                if not any(p[0] == parts[1] for p in D["P"]):
+                    problems.append(f"{where} (no such register entry)")
+            else:
+                problems.append(f"{where} (no such route)")
+    return checked, problems, unchecked
+
+
+def argument_pages(write, cards, args):
+    """The hub and one page per argument, with share cards. Returns how many."""
+    write("/arguments", "Arguments: the objections to a wealth tax, answered · Wealth Tax Supporters",
+          "The objections people raise against a wealth tax, each answered on a page of its own with the figures, laws and court rulings behind it and a source for every number.",
+          "arguments", "Arguments: the objections to a wealth tax, answered",
+          lambda o: cards.page_card(o, "Arguments", "The objections, answered", "The objections to a wealth tax, each answered with sources.",
+                                    [(f"{len(args)}", "objections answered"), (f"{sum(len(a['sources']) for a in args)}", "sources cited")]),
+          body=arguments_hub_body(args))
+    for i, a in enumerate(args):
+        desc = ensure_stop(a["answer"])
+        desc = desc if len(desc) <= 300 else desc[:297].rsplit(" ", 1)[0] + "…"
+        write(f"/arguments/{a['slug']}", f"{plain_quote(a['objection'])} · Arguments · Wealth Tax Supporters", desc, "arguments/" + a["slug"],
+              f"“{plain_quote(a['objection'])}” answered: {a['short']}",
+              lambda o, a=a: cards.argument_card(o, a["objection"], a["answer"]),
+              body=argument_body(a, args[i - 1] if i else None, args[i + 1] if i + 1 < len(args) else None))
+    return len(args) + 1
+
+
 # ---------- share pages: one small HTML file per page with its own title, description and image ----------
 SITE_URL = "https://wealthtaxsupporters.com"
 TYPE = {"politician": "Politician", "party": "Party", "government_body": "Council or public body", "academic": "Academic",
@@ -1036,7 +1277,7 @@ def resource_pages(write, resources, full, cards, countries):
     return n
 
 
-def share_pages(out, base, countries, full, unique=None, bodies=(), resources=(), stories=None):
+def share_pages(out, base, countries, full, unique=None, bodies=(), resources=(), stories=None, arguments=()):
     stories = stories or {}
     PRELOAD_SLUGS.update(c["slug"] for c in countries)
     """Writes per-page HTML (and share images when Pillow is installed). Returns the number of pages."""
@@ -1239,6 +1480,8 @@ def share_pages(out, base, countries, full, unique=None, bodies=(), resources=()
                       o, {"name": p[1], "role": role if (role := " · ".join(x for x in (p[4], p[5]) if x)) else ""}, name, quote,
                       units if hl else [], hl, TYPE.get(p[3], p[3]), gradeline, slug, (p[8], GRADE.get(p[8], ""), p[9], span if y0 else "")))
     resource_pages(write, resources, full, cards, countries)
+    if arguments:
+        argument_pages(write, cards, arguments)
     return pages
 
 
@@ -1261,17 +1504,23 @@ def write_sitemap(out, built, preview):
 def main():
     ap = argparse.ArgumentParser()
     ap.add_argument("--out", default=None)
+    ap.add_argument("--strict-links", action="store_true", help="fail the build when an internal link in an argument page does not resolve (the default only prints them)")
     ap.add_argument("--only", metavar="FOLDER", nargs="+",
-                    help="preview build: only these country folders (for example --only co). Fast; skips supranational registers, "
+                    help="preview build: only these country folders (for example --only co), or 'arguments' for the Arguments section with the countries its pages link to. Fast; skips supranational registers, "
                          "so world totals are partial. Writes to _site_only by default and is never what you deploy.")
     args = ap.parse_args()
     only = set(args.only or [])
+    global ARGUMENTS_ONLY
+    if "arguments" in only:  # --only arguments: the arguments section with the countries its pages link to (plus any folders named beside it)
+        only.discard("arguments")
+        ARGUMENTS_ONLY = True
+        only |= referenced_countries()
     ONLY.update(only)
     if only:
         missing = sorted(f for f in only if not (DATA / f / "meta.json").exists())
         if missing:
             sys.exit(f"--only: no such country folder under data/: {', '.join(missing)}")
-        print(f"PREVIEW BUILD of {', '.join(sorted(only))} only: totals are partial, do not deploy this output.")
+        print(f"PREVIEW BUILD of {', '.join(sorted(only))}{' and the arguments' if ARGUMENTS_ONLY else ''} only: totals are partial, do not deploy this output.")
     out = Path(args.out or ROOT / ("_site_only" if only else "_site"))
     if out.exists():
         shutil.rmtree(out)
@@ -1290,6 +1539,7 @@ def main():
         if f.suffix in (".js", ".css", ".svg"):
             h = hashlib.md5(f.read_bytes()).hexdigest()[:8]
             html = html.replace(f'"/{f.name}"', f'"/{f.name}?v={h}"')
+    arguments = load_arguments()  # validates every page first: a bad page fails the build before the slow part
     countries, index, places, full, stories = [], [], [], {}, {}
     supras = []
     for folder in sorted(DATA.iterdir()):
@@ -1340,6 +1590,7 @@ def main():
     world_resources = load_resources(countries, {(r[0], r[1]): r[2] for r in index})
     world = dict(unique_supporters=unique, home={q: next((c["slug"] for c in countries if c["iso2"].upper() == h), "") for q, h in people_home()[0].items()}, countries=countries, bodies=bodies, planned=planned, resources=world_resources, all_countries=sorted(every), built=datetime.date.today().isoformat())
     json.dump(world, open(out / "data" / "world.json", "w", encoding="utf-8"), separators=(",", ":"), ensure_ascii=False)
+    json.dump(arguments_index(arguments), open(out / "data" / "arguments.json", "w", encoding="utf-8"), separators=(",", ":"), ensure_ascii=False)
     # The outlines are two thirds of the world file; only the map pages need them, so they load separately.
     json.dump(dict(paths=paths), open(out / "data" / "map.json", "w", encoding="utf-8"), separators=(",", ":"), ensure_ascii=False)
     json.dump(dict(people=index, places=places), open(out / "data" / "index.json", "w", encoding="utf-8"),
@@ -1352,7 +1603,14 @@ def main():
     html = html.replace('name="data-version" content=""', f'name="data-version" content="{dv}"')
     html = html.replace('href="/data/world.json" as="fetch"', f'href="/data/world.json?v={dv}" as="fetch"')
     (out / "index.html").write_text(html, encoding="utf-8")
-    n = share_pages(out, html, countries, full, unique, bodies, world_resources, stories)
+    n = share_pages(out, html, countries, full, unique, bodies, world_resources, stories, arguments)
+    if arguments:
+        checked, bad, skipped = check_argument_links(arguments, full, stories, bool(only))
+        print(f"Argument links: {checked} internal links checked, {len(bad)} problem{'' if len(bad) == 1 else 's'}" + (f", {len(skipped)} not checked (country not in this preview build)" if skipped else ""))
+        for b in bad:
+            print(f"  BROKEN LINK {b}")
+        if bad and args.strict_links:
+            sys.exit("argument links: " + str(len(bad)) + " broken")
     write_sitemap(out, world["built"], only)
     print(f"Built {len(countries)} countr{'y' if len(countries) == 1 else 'ies'} and {n} share pages into {out}")
 
