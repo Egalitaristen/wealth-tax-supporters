@@ -63,6 +63,9 @@ sources:
   - id: 12
     title: Bundestag Drucksache 21/8267, Antrag der Fraktion Bündnis 90/Die Grünen, 500-Millionen-Steuer (29 September 2026)
     url: https://dserver.bundestag.de/btd/21/082/2108267.pdf
+  - id: 13
+    title: Initiative 25-0024, Amendment 1, The 2026 Billionaire Tax Act, filed with the California Attorney General (24 November 2025)
+    url: https://oag.ca.gov/system/files/initiatives/pdfs/25-0024A1%20(Billionaire%20Tax%20).pdf
 ---
 The objection says that a tax on wealth needs a price tag on every painting, farm and private company, and that nobody can set one. In 2024 Norway collected NOK 31.8 billion from 719,007 taxpayers.[1] Here is how the valuing is done.
 
@@ -85,6 +88,10 @@ The Swiss experience shows what happens without third-party reporting. In canton
 Some wealth is hard to price: shares in private companies, and foreign holdings. The Equality Commission in Sweden names the valuation of unlisted companies as one of two practical obstacles, together with cross-border moves.[9] The same report records that Sweden's tax exempted unlisted shares, so the valuation problem was solved by leaving the largest fortunes out.[9]
 
 Germany shows the obstacle can be removed. The Constitutional Court's 1995 order found the same rate charged on land at 1964 values and on other assets at current values.[10] Since 2009 German inheritance tax values land and companies close to market prices under the Bewertungsgesetz, and the DIW proposes the same rules for a wealth tax.[7] The valuation tool exists and has been used for inheritance for years.
+
+## A default rule instead of an appraisal {#default}
+
+A law can supply the value when none exists. California's Proposition 40 presumes that an interest in a privately held business is worth the business's book value plus 7.5 times its annual book profits, averaged over the current and two preceding tax years, multiplied by the owner's share. A taxpayer who cannot get the figures must submit a certified appraisal.[13] The rule is written into the text of the measure.
 
 ## Few payers, individual audits {#audits}
 
