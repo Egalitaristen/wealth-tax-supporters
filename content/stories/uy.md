@@ -107,7 +107,7 @@ Uruguay already taxes the net wealth of its richest residents, and the tax has b
 
 Título 14 of the Texto Ordenado creates an annual tax on the net wealth of individuals, family units and undivided estates, and of companies.[1] Individuals pay on the part above a non-taxable minimum that the executive resets every year with the cost-of-living index. For 2024 it was UYU 6,381,000, about US$145,000, and a family unit gets twice that.[1][2][9] Companies pay 1.5% and banks 2.8%. Farm assets pay a separate surcharge of 0.70% to 1.50%, by size.[1]
 
-For individuals the law's scale runs from 0.70% on the first band to 2.75% on the last. The same article cuts every step each year, from 2008 on, with a floor of 0.10%, and the floor has been reached.[1][3] A resident with UYU 40 million of taxable wealth, about US$910,000, owes 0.1% of what exceeds the minimum: UYU 34,000, or US$760.[1][2][9] The whole Impuesto al Patrimonio, companies included, raised UYU 32.4 billion in 2024, about US$740 million.[6]
+For individuals the law's scale runs from 0.70% on the first band to 2.75% on the last. The same article cuts every step each year, from 2008 on, with a floor of 0.10%, and the floor has been reached.[1][3] A resident with UYU 40 million of taxable wealth, about US$910,000, owes 0.1% of what exceeds the minimum: UYU 34,000, or US$760.[1][2][9] The Impuesto al Patrimonio as a whole, which also taxes companies, raised UYU 32.4 billion in 2024, about US$740 million.[1][6]
 
 The PIT-CNT's commission points out that the tax falls mostly on real estate at cadastral values, which sit well below market prices.[3] That is the tax a surcharge would stand on.
 
@@ -166,7 +166,7 @@ The case for the surcharge is made by university economists, a union confederati
 
 ### The neighbours {#neighbours}
 
-Argentina has taxed personal assets since 1991 and is cutting its tax; the [Argentine story](/ar) follows that case. [Colombia](/co) made its wealth tax permanent in 2022.
+The [Argentine](/ar) and [Colombian](/co) stories follow two neighbours that also tax wealth.
 
 ## Where to look next {#next}
 
