@@ -107,8 +107,8 @@ sources:
     title: Banco Central de Bolivia, Cotizaciones oficiales del boliviano con relación al dólar, año 2026 (Bs 6.96 to 26 June, Bs 11.81 on 8 November)
     url: https://www.bcb.gob.bo/tiposDeCambioHistorico/pdf.php?anio=2026
   - id: 17
-    title: Wikipedia, Impuesto a las Grandes Fortunas de Bolivia, used for the dates of 10 and 23 December 2020 only
-    url: https://es.wikipedia.org/wiki/Impuesto_a_las_Grandes_Fortunas_de_Bolivia
+    title: BAE Negocios, Avanza en Bolivia impuesto anual y permanente a grandes fortunas (10 December 2020)
+    url: https://www.baenegocios.com/amp/Avanza-en-Bolivia-impuesto-anual-y-permanente-a-grandes-fortunas-20201210-0060/
 ---
 Bolivia has taxed individual fortunes since 2020. Ley 1357 of 28 December 2020 created the Impuesto a las Grandes Fortunas (IGF), a yearly tax of 1.4% to 2.4% on net wealth above Bs 30 million, about US$4.3 million at the official rate of that year.[1][14] The tax authority had 263 registered payers on 31 October 2025.[4] President Rodrigo Paz announced a repeal on 25 November 2025, and the Chamber of Deputies' planning committee did not approve it in February 2026.[8][10] We checked the status on 8 November 2026: the tax is in force, and the authority's list of laws carries Ley 1357 with no law that repeals or amends it.[6] Dollar figures use the official rate of Bs 6.96, which held in 2020 and 2025.[14][15]
 
@@ -140,7 +140,7 @@ The authority had 263 registered payers on 31 October 2025. Oxfam counts about 2
 
 President Luis Arce sent the bill to the Assembly on 25 November 2020 as Proyecto de Ley 033/2020-2021, in the pandemic. Its statement of reasons says that the person with the larger fortune pays more, which sets the tax apart from every other tax in force in Bolivia.[3]
 
-The Chamber of Deputies took the bill up on 9 December. [Omar Yujra](/bo/A0012) of MAS said he saw no technical reason to oppose it. The Creemos bench announced its rejection, and Senator Centa Rek called the bill demagogic.[12] The Chamber passed it on 10 December.[17] The Deputies' text ran for 2020 and 2021 only. On 17 December the Senate changed it to apply from 2020 on, with no end date, and sent it back.[13] [Marcelo Montenegro](/bo/A0007), the economy minister, presented the bill there.[13] The Deputies accepted the changes on 23 December and Arce promulgated the law on 28 December.[1][17]
+The Chamber of Deputies took the bill up on 9 December. [Omar Yujra](/bo/A0012) of MAS said he saw no technical reason to oppose it. The Creemos bench announced its rejection, and Senator Centa Rek called the bill demagogic.[12] The Chamber passed it on 10 December.[17] The Deputies' text ran for 2020 and 2021 only. On 17 December the Senate changed it to apply from 2020 on, with no end date, and sent it back.[13] [Marcelo Montenegro](/bo/A0007), the economy minister, presented the bill there.[13] Arce promulgated the law on 28 December.[1]
 
 The Assembly records we could open print no per-member tally. The register lists [Luis Arce](/bo/A0003) and Montenegro as signatories of the law, and the [Asamblea Legislativa Plurinacional](/bo/A0006) as the body that passed it.
 
@@ -180,7 +180,7 @@ The government announced repeal in November 2025. A bill had to pass the Assembl
 
 ### The neighbours {#neighbours}
 
-[Colombia](/co) made its wealth tax permanent in 2022 and now faces a repeal bill. [Argentina](/ar) taxes personal assets and is cutting the rate.
+[Colombia](/co) made its wealth tax permanent in 2022, and a government bill of October 2026 would keep it for 2027 to 2030 above a higher threshold. [Argentina](/ar) taxes personal assets and is cutting the rate.
 
 ## Where to look next {#next}
 
