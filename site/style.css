@@ -1226,3 +1226,19 @@ body:not(.ready) .foot { visibility: hidden; }
   .arg-pager { flex-direction: column; }
   .arg-pager a { max-width: none; }
 }
+
+/* Header fit: the Arguments item made the row wider than the screen between the menu breakpoint and about 1450px, so spacing tightens in steps. */
+@media (max-width: 1500px) {
+  .top-in { gap: 16px; }
+  .nav { gap: clamp(11px, 1.3vw, 18px); font-size: 14px; }
+  .search-btn { min-width: 140px; }
+  .tools { gap: 6px; }
+}
+@media (max-width: 1300px) {
+  .search-btn span, .search-btn kbd { display: none; }
+  .search-btn { min-width: 0; padding: 0 10px; }
+}
+@media (max-width: 1200px) {
+  .tools .social { display: none; }
+}
+.top .top-in { max-width: 1480px; }
