@@ -1,0 +1,7 @@
+query_id,run_id,date,language,query,channel,results_opened,leads_added,note
+Q0001,R026,2026-11-08,sv,"dokumentlista sok=förmögenhetsskatt (+ -en, -er, förmögenhetsbeskattning, miljardärsskatt, miljardärskatt, solidaritetsskatt) doktyp=mot,ip,fr,frs,bet,prop,sou,dir,ds,yttr,rskr,prot from=2006-07-01",data.riksdagen.se,1150,0,"Counts per type in records/se.md section 6; first run lost the motion list (1 of 175), re-run with retries"
+Q0002,R026,2026-11-08,sv,"dokumentlista sok=miljardärer / superrika / miljardär, doktyp ip,fr,frs,mot from 2025-01-01",data.riksdagen.se,15,0,Interpellations of May-June 2026 by V and S mention billionaires but not a tax proposal
+Q0003,R026,2026-11-08,sv,voteringlista rm=2013/14 bet=SkU17; rm=2016/17 bet=SkU23 punkt=8; rm=2017/18 bet=SkU9 punkt=10,data.riksdagen.se,3,0,"Bundled punkt (14 motions) / acclamation, acclamation: no article-specific named vote"
+Q0004,R026,2026-11-08,sv,motion kommunfullmäktige Vänsterpartiet förmögenhetsskatt Göteborg OR Malmö OR Uppsala,web,0,0,No municipal motion found; a negative web result is not proof of absence
+Q0005,R026,2026-11-08,sv,regionfullmäktige motion miljardärsskatt Region Skåne OR Västra Götaland OR Region Stockholm,web,0,0,Only national debate hits
+Q0006,R026,2026-11-08,sv,"MeetingPlus search förmögenhetsskatt*, miljardärsskatt* in Stockholm, Huddinge, Danderyd, Gotland",meetingspublic.stockholm.se etc.,4,0,"Stockholm 21 hits (SOU attachments, one KF protocol 2025-11-18); Huddinge 0; Danderyd 0; Gotland 2 attachments"
