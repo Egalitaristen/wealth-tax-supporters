@@ -55,11 +55,14 @@ sources:
     title: France Stratégie, Comité d'évaluation des réformes de la fiscalité du capital, Rapport final (October 2023), annex 9, note by the DGFiP on departures
     url: https://www.strategie-plan.gouv.fr/files/files/Publications/Rapport/fs-2023-rapport-isf-quatrieme_rapport_complet_17octobre_2.pdf
   - id: 10
-    title: Jakobsen, Kleven, Kolsrud, Landais and Muñoz, Taxing Top Wealth, NBER Working Paper 32153 (revised January 2026)
-    url: https://www.nber.org/system/files/working_papers/w32153/w32153.pdf
+    title: Jakobsen, Kleven, Kolsrud, Landais and Muñoz, Taxing Top Wealth: Migration Responses and Their Aggregate Economic Implications, American Economic Review 116(10), 3674-3720 (2026), accepted version
+    url: https://researchonline.lse.ac.uk/id/eprint/130959
   - id: 11
     title: Skatteetaten, Satser for formuesskatt, valuation discounts (verdsettingsrabatt) for 2025 and 2026
     url: https://www.skatteetaten.no/satser/formuesskatt/
+  - id: 12
+    title: Christine Blandhol, Curbing Tax Flight? Aggregate Effects of Taxing Entrepreneur Migration, Princeton University job market paper (7 December 2025)
+    url: https://cblandhol.github.io/JMP/blandhol_JMP.pdf
 ---
 Norway raised its wealth tax in 2022 and the foreign press ran stories about billionaires fleeing to Switzerland. The official numbers are available, and they say something else. The Finance Ministry counted 48 people with net wealth above NOK 100 million who moved in 2022 and 34 in 2023, with taxable wealth of about NOK 45 billion between them.[3] Norway's total taxable net wealth in 2022 was NOK 3,223 billion, so they held 1.4% of it.[1] Over the same years wealth tax revenue went from NOK 18.5 billion in 2021 to NOK 31.8 billion in 2024, a rise of 72% against 8% more payers.[1]
 
@@ -83,6 +86,8 @@ Civita counts something narrower than total emigration: people with large wealth
 
 The numbers have an unfavourable side and we state it. Ring finds excess emigration of 2.19% among the top 1% of business owners, and he notes that closing the five-year loophole in the exit tax may have accelerated wealth-tax-motivated moves.[5] People for whom exit tax was assessed after leaving in 2022 held NOK 36 billion of taxable net wealth the year before and had latent gains of NOK 134 billion assessed.[4] Civita's count of 77 a year above NOK 50 million is a rise from 17.[7] Moving does remove some wealth from the ordinary tax base.
 
+A second study finds larger effects than Ring does. Christine Blandhol of Princeton, in a job market paper of December 2025, finds that the out-migration rate of households affected by the 2022 increase rose from 0.2% to more than 2% in the reform year. Forty percent of the out-migrating households are firm owners, and their firms' revenues are 12.6% lower than those of firms whose owners stay.[12] Her model puts the long-run effect of the reform on output at a loss of 1.3% and on long-run wealth tax revenue at a fall of more than 80%, mostly through tax flight.[12] These are model results from a paper that has not been peer reviewed, and they do not agree with Ring's count of at most 100 leavers and a revenue loss of about 2%. The same paper finds that a 1% tax on the market value of the firm at the moment of leaving reduces out-migration and increases aggregate output.[12]
+
 ## Why a fortune that leaves is not a loss {#stay}
 
 The claim treats the presence of a billionaire as the prize. A rich person who stays and pays nothing adds no revenue. What a country gets from its large fortunes is tax, work and investment, and the evidence on the last two is better than the headlines suggest. Ring finds no evidence of more dividends, less investment or more bankruptcies in firms owned by wealth tax payers, and no extra emigration of startup founders or inventors.[5] In France the share of payers who left was 0.2% before the 2018 repeal and 0.2% after it, and the cost of keeping them was more than €4 billion a year.[9]
@@ -95,7 +100,7 @@ Jakobsen, Kleven, Kolsrud, Landais and Muñoz study Sweden's repeal in 2007 and 
 
 ## What a tax that keeps people has {#design}
 
-The evidence points to four rules. Charge the tax on residents and set the exit tax to follow leavers for a decade. Value assets at market value. Norway discounts shares by 20% and primary homes by 75% for wealth tax purposes.[11] Keep the threshold high so that few households carry the tax. Report departures properly: the ministry's own count is unaudited, which is a data failing that a government can fix.
+The evidence points to four rules. Charge the tax on residents and set the exit tax to follow leavers for a decade, with a charge on the market value of the firm when its owner leaves, which Blandhol's model finds reduces tax flight.[12] Value assets at market value. Norway discounts shares by 20% and primary homes by 75% for wealth tax purposes.[11] Keep the threshold high so that few households carry the tax. Report departures properly: the ministry's own count is unaudited, which is a data failing that a government can fix.
 
 ## Who says so {#who}
 

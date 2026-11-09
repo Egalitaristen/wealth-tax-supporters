@@ -28,8 +28,8 @@ facts:
     source: 8
 sources:
   - id: 1
-    title: Jakobsen, Kleven, Kolsrud, Landais and Muñoz, Taxing Top Wealth, NBER Working Paper 32153 (revised January 2026)
-    url: https://www.nber.org/system/files/working_papers/w32153/w32153.pdf
+    title: Jakobsen, Kleven, Kolsrud, Landais and Muñoz, Taxing Top Wealth: Migration Responses and Their Aggregate Economic Implications, American Economic Review 116(10), 3674-3720 (2026), accepted version
+    url: https://researchonline.lse.ac.uk/id/eprint/130959
   - id: 2
     title: Marius Ring, Taxing Entrepreneurial Wealth, Evidence from Norway, 2021 to 2025, NBER Working Paper 35854 (October 2026, not peer reviewed)
     url: https://www.nber.org/system/files/working_papers/w35854/w35854.pdf
@@ -66,12 +66,15 @@ sources:
   - id: 13
     title: TV 2, Socialdemokratiet vil beskatte de 22.000 rigeste danskere (26 February 2026)
     url: https://nyheder.tv2.dk/live/politik/2026-02-26-folketingsvalg-2026/socialdemokratiet-vil-beskatte-de-22000-rigeste-danskere?entry=544d3442-1ba1-447d-91b2-2b0909fb7841
+  - id: 14
+    title: Barry, J., A Genealogy of Economic Growth as Ideology and Cold War Core State Imperative, New Political Economy (2018), quoting Kuznets, S., How to Judge Quality, The New Republic 147:16 (20 October 1962), p. 29
+    url: https://doi.org/10.1080/13563467.2018.1526268
 ---
 The objection claims that taxing wealth slows an economy. Two questions hide in it: what the tax does to investment, and what the money does once it is spent. The evidence on both has been studied, and it points away from the objection.
 
 ## What the studies of wealth taxes find {#studies}
 
-The best-identified study of the aggregate effect is by Jakobsen, Kleven, Kolsrud, Landais and Muñoz, using Swedish and Danish administrative data. A one percentage point rise in the top wealth tax rate lowers the stock of wealthy taxpayers by about 2%, aggregate employment by 0.02%, investment by 0.07% and value added by 0.10%. They call the aggregate effects "modest".[1] The study is a working paper and the aggregate figures are modelled.
+The best-identified study of the aggregate effect is by Jakobsen, Kleven, Kolsrud, Landais and Muñoz, using Swedish and Danish administrative data. A one percentage point rise in the top wealth tax rate lowers the stock of wealthy taxpayers by about 2%, aggregate employment by 0.02%, investment by 0.07% and value added by 0.10%. They call the aggregate effects "modest".[1] The study was published in the American Economic Review in 2026, and the aggregate figures are modelled.
 
 For Norway, Marius Ring finds in a study of households that wealth taxation causes households to save more, mainly through higher labour earnings.[3] In a later working paper on the 2021 to 2024 reforms he finds "no evidence that Norwegian-owned firms pay out more dividends or invest less after the reforms, nor is there any evidence that the reform induced more bankruptcies".[2] In Spain, Durán-Cabré, Esteller-Moré and Mas-Montserrat find that higher wealth taxes in Catalonia "did not have a negative effect on taxpayers' savings".[4]
 
@@ -93,7 +96,7 @@ On individual programmes, Hendren and Sprung-Keyser find that child-focused spen
 
 ## Growth of what, and for what {#kind}
 
-Gross domestic product measures output and says nothing of its use. The Stiglitz, Sen and Fitoussi commission wrote in 2009 that GDP "has often been treated as if it were a measure of economic well-being", and that conflating the two "can lead to misleading indications about how well-off people are and entail the wrong policy decisions". The same report notes that most people can be worse off even though average income is rising if inequality grows enough.[9]
+Gross domestic product measures output and says nothing of its use. Simon Kuznets, the economist whose work built the national accounts, wrote in 1962: "Distinctions must be kept in mind between quantity and quality of growth, between its costs and return, and between the short and long term...Objectives should be explicit: goals for more growth should specify more growth of what and for what."[14] We quote it as Barry (2018) gives it, from page 29 of Kuznets's article in The New Republic. The Stiglitz, Sen and Fitoussi commission wrote in 2009 that GDP "has often been treated as if it were a measure of economic well-being", and that conflating the two "can lead to misleading indications about how well-off people are and entail the wrong policy decisions". The same report notes that most people can be worse off even though average income is rising if inequality grows enough.[9]
 
 Some investment is also not what a society wants. The OECD notes that the distinction between productive and unproductive assets is hard to draw and does not endorse treating housing as unproductive.[11] We make the point more narrowly. A claim that a tax lowers investment has to say what kind of investment and for whom, and it must set it against what the same revenue buys.
 

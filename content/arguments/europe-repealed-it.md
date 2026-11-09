@@ -40,8 +40,8 @@ sources:
     title: Riksdagens protokoll 2007/08:45, Måndagen den 17 december 2007
     url: https://data.riksdagen.se/dokument/GV0945.html
   - id: 5
-    title: Jakobsen, Kleven, Kolsrud, Landais and Muñoz, Taxing Top Wealth, NBER Working Paper 32153 (revised January 2026)
-    url: https://www.nber.org/system/files/working_papers/w32153/w32153.pdf
+    title: Jakobsen, Kleven, Kolsrud, Landais and Muñoz, Taxing Top Wealth: Migration Responses and Their Aggregate Economic Implications, American Economic Review 116(10), 3674-3720 (2026), accepted version
+    url: https://researchonline.lse.ac.uk/id/eprint/130959
   - id: 6
     title: Jämlikhetskommissionen, En gemensam angelägenhet, SOU 2020:46, part 2, chapter 28
     url: https://www.regeringen.se/contentassets/a60a4b64403e466fb7af8ab30a2399e2/sou-2020_46_vol-2_webb.pdf

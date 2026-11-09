@@ -66,6 +66,12 @@ sources:
   - id: 13
     title: Initiative 25-0024, Amendment 1, The 2026 Billionaire Tax Act, filed with the California Attorney General (24 November 2025)
     url: https://oag.ca.gov/system/files/initiatives/pdfs/25-0024A1%20(Billionaire%20Tax%20).pdf
+  - id: 14
+    title: Skatteetaten, press release of 30 April 2025, Dette skjer om du ikke leverer skattemeldingen
+    url: https://www.skatteetaten.no/en/press/nyhetsrommet/i-dag-gar-leveringsfristen-ut-dette-skjer-om-du-ikke-leverer-skattemeldingen/
+  - id: 15
+    title: Kanton Zürich, Verrechnungssteuer & ausländische Quellensteuer, on the eSteuerauszug in ZHprivateTax
+    url: https://www.zh.ch/de/steuern-finanzen/steuern/steuern-natuerliche-personen/wertschriften-verrechnungssteuer.html
 ---
 The objection says that a tax on wealth needs a price tag on every painting, farm and private company, and that nobody can set one. In 2024 Norway collected NOK 31.8 billion from 719,007 taxpayers.[1] Here is how the valuing is done.
 
@@ -75,13 +81,15 @@ Banks and other institutions report balances and holdings to the tax authority. 
 
 For a company that is not listed, the company does the valuing. The tax appeals board put it this way in December 2024: "Formuesverdien av aksjer i ikke-børsnoterte selskaper skal fastsettes av selskapet når selskapets skattegrunnlag fastsettes." The company must calculate the value of its shares and attach the calculation to its tax return, and the shareholder uses that figure in the personal return.[2] The owner does not hire an appraiser for each share.
 
+An employee or pensioner who does not submit a return is treated as having submitted it with the pre-filled information: "regnes skattemeldingen som levert med de opplysningene som var forhåndsutfylt", in the tax authority's words. The same release estimated in April 2025 that between 400,000 and 500,000 people do not check their return, and it reminds filers that they remain responsible for its accuracy.[14]
+
 The law then writes in discounts. For 2025 primary homes get a 75% discount, shares including commercial property 20%, operating assets 30% and secondary homes none.[3] A discount is a political decision about the rate and has nothing to do with whether a value can be found.
 
 ## Where the system leaks {#leaks}
 
 The leak the Norwegian authorities document is foreign assets. The Auditor General found that a large number of taxpayers fail to report foreign wealth and income, and the Tax Administration estimates the loss at about NOK 7 billion a year across all taxes, with controls that had been too few.[4][5] That sum is hidden foreign income and wealth in total, and the wealth tax is a part of it. The tax authority received over one million foreign reports for income year 2021.[4] Norway's answer has been to add control staff.[5]
 
-The Swiss experience shows what happens without third-party reporting. In cantons where financial wealth is self-reported, Brülhart, Gruber, Krapf and Schmidheiny find that a one percentage point cut in a canton's wealth tax rate raised reported taxable wealth by at least 43%. They read part of that as evasion, "in this setting with no third-party reporting of financial wealth".[6] The remedy the evidence points to is reporting by the institutions that hold the assets.
+The Swiss experience shows what happens without third-party reporting. In cantons where financial wealth is self-reported, Brülhart, Gruber, Krapf and Schmidheiny find that a one percentage point cut in a canton's wealth tax rate raised reported taxable wealth by at least 43%. They read part of that as evasion, "in this setting with no third-party reporting of financial wealth".[6] The remedy the evidence points to is reporting by the institutions that hold the assets. Swiss cantons already take bank data a long way: the canton of Zurich's online return accepts the bank's electronic tax statement, "nur der eSteuerauszug als PDF-Datei zu importieren", and its page says the bank data go into the return with a few clicks.[15] The data pass through the taxpayer, which is the gap that third-party reporting closes.
 
 ## The hard cases {#hard}
 
