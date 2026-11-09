@@ -146,17 +146,9 @@ The tax also closed a loophole. Owners of companies can hold shares in the books
 
 ## What it raised {#raised}
 
-Each assessment year, with the number of payers where the record gives it:
+The tax raised ISK 3.6 billion in 2010 and ISK 10.3 billion in 2014, about ISK 37 billion over the five assessments.[4][5][8] In the first year 3,678 people paid. By 2013 there were 5,980 payers, about 3,100 families, and in 2014 the taxable base was ISK 2.2 trillion.[4][6][8] The state tightened the tax twice while it ran. In 2011 the thresholds were cut to ISK 75 million and ISK 100 million and the rate went to 1.5%. In 2012 a 2% band was added above ISK 150 million and ISK 200 million.[5]
 
-- 2010: ISK 3.6 billion from 3,678 people.[4]
-- 2011: ISK 6.2 billion from 5,342 people.[4]
-- 2012: just over ISK 8 billion from 5,212 people.[5]
-- 2013: ISK 8.8 billion, of which ISK 5.7 billion was the main tax and ISK 3.1 billion the additional tax. The main tax had 5,980 payers, about 3,100 families.[6][8]
-- 2014: ISK 10.3 billion, ISK 5.9 billion main and ISK 4.4 billion additional, on a taxable base of ISK 2.2 trillion.[8]
-
-The five assessments together came to about ISK 37 billion. The state tightened the tax twice while it ran. In 2011 the thresholds were cut to ISK 75 million and ISK 100 million, and the rate went to 1.5%. In 2012 a 2% band was added above ISK 150 million and ISK 200 million.[5]
-
-Take a single person with ISK 250 million in net wealth under the last scale. Nothing is due on the first ISK 75 million. The next ISK 75 million pays 1.5%, which is ISK 1.125 million. The remaining ISK 100 million pays 2%, which is ISK 2 million. The bill is ISK 3.125 million, 1.25% of the fortune.[8] A couple with ISK 250 million of joint wealth pays nothing on the first ISK 100 million, 1.5% on the next ISK 100 million, and 2% on the last ISK 50 million, which is ISK 2.5 million.[8]
+Take a single person with ISK 250 million in net wealth under the last scale. Nothing is due on the first ISK 75 million. The next ISK 75 million pays 1.5%, which is ISK 1.125 million. The remaining ISK 100 million pays 2%, which is ISK 2 million. The bill is ISK 3.125 million, 1.25% of the fortune.[8]
 
 ## What it did to inequality {#effects}
 
@@ -182,7 +174,7 @@ The register holds no Pirate Party position on a wealth tax, and no poll.
 
 {{supporters}}
 
-On 9 November 2026 the list of items before Parliament, which opened its 158th session on 8 September 2026, holds 398 items, and none has a wealth tax in its title.[20] The last items with the old tax in the title were questions put to the finance minister, in the 145th session (2015 to 2016) and the 154th (2023 to 2024), asking what it would have raised.[8][9][20] The proposals above are party and union policy. None has become a bill.
+As of 9 November 2026 no item before Parliament has a wealth tax in its title. The last items with the old tax in the title were questions put to the finance minister in 2015 to 2016 and 2023 to 2024, asking what it would have raised.[8][9][20] The proposals above are party and union policy. None has become a bill.
 
 ## What Iceland shows {#lessons}
 
@@ -201,5 +193,3 @@ The 2004 repeal gave up ISK 3.7 billion a year.[1] Five years later the state ne
 ## Where to look next {#next}
 
 The [map](/is/map) shows where support sits, the [directory](/is/directory) lists everyone on the record, and [method](/is/method) lists the sources. The [Resources page](/resources?country=is) holds the bills and answers read for this story. [Sweden](/se) and [Denmark](/dk) repealed their wealth taxes too, and [France](/fr) replaced its tax with a narrow one. [Norway](/no), [Switzerland](/ch) and [Spain](/es) still tax wealth.
-
-Egalitaristen
