@@ -114,7 +114,7 @@ The 2007 budget bill, the first of the government elected in 2006, said the tax 
 
 ## The vote {#vote}
 
-The tax committee put the cost of the repeal at SEK 6.89 billion in 2007. It raised SEK 1.3 billion of that back by capping the deduction for private pension saving at SEK 12,000.[3] The Riksdag decided on 17 December 2007: 142 for the committee, all from the four governing parties, 101 for the Social Democrats' reservation, and 33 abstentions from the Left Party and the Greens.[4]
+The tax committee put the cost of the repeal at SEK 6.89 billion in 2007. It raised SEK 1.3 billion of that back by capping the deduction for private pension saving at SEK 12,000.[3] The Riksdag decided in December 2007, with the four governing parties voting for the repeal and the Social Democrats against.[4]
 
 The Greens' reservation, by Helena Leander, said the tax hit only some kinds of assets and was fairly easy to avoid by parking wealth in assets that were not taxed. It added that the tax raised SEK 5 to 6 billion a year. The Left Party's Marie Engström wrote that the tax should stay, and that a review could look for methods that give a steadier base.[3]
 
@@ -152,7 +152,7 @@ Exemptions, soft valuation and a cap tied to income made the tax look unfair, wh
 
 ### Repeal followed an election {#election}
 
-The tax went because a new government wanted it gone and had the votes, 142 to 101.[4]
+The tax went because a new government wanted it gone and had the votes.[4]
 
 ## Where to look next {#next}
 

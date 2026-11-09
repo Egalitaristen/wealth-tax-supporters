@@ -145,7 +145,7 @@ A fortune of AR$1 billion in Argentina paid AR$25 million, 2.5%. A fortune of AR
 
 ## The vote {#vote}
 
-The Cámara de Diputados passed the bill on 17 and 18 November 2020, 133 votes to 115.[4] The Senado followed on 4 December, 42 to 26.[5] [Carlos Heller](/ar/A0001), who chaired the Budget Committee and co-wrote the bill, told the chamber that about 9,300 of the 889,000 Bienes Personales filers, roughly 1%, would pay, and that about 250 of them would pay half the total.[4]
+The Cámara de Diputados passed the bill in November 2020 and the Senado followed in December.[4][5] [Carlos Heller](/ar/A0001), who chaired the Budget Committee and co-wrote the bill, told the chamber that about 9,300 of the 889,000 Bienes Personales filers, roughly 1%, would pay, and that about 250 of them would pay half the total.[4]
 
 The opposition called the levy confiscatory and said it doubled up on Bienes Personales.[4] It was one payment, charged once, on the top 1% of filers.
 

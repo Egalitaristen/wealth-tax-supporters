@@ -168,7 +168,7 @@ Estimates differ because they rest on different guesses about avoidance. Kyle Po
 
 Proposition 40 is a one-time tax of 5% on the net worth of people with more than US$1 billion who lived in California on 1 January 2026, due in 2027. Real estate, pensions and retirement accounts are excluded, and 90% of the money goes to health care.[17] Its text taxes net worth in full at US$1.1 billion and phases the rate down by 0.1 point for every US$2 million below that. Payers can spread it over five years at a 7.5% yearly charge.[18] The Legislative Analyst expected "tens of billions of dollars" over several years.[17]
 
-Suzanne Jimenez filed it as Initiative 25-0024 and amended it on 24 November 2025.[18] It needed 874,641 valid signatures. On 17 June 2026 the Secretary of State declared it eligible, after a sample projected more than the 962,106 needed.[19] The healthcare workers' union [SEIU-UHW](/us/A0023) funded the campaign, and the economist [Joseph Stiglitz](/us/A0525) signed the Nobel laureates' letter for it.
+Suzanne Jimenez filed it in 2025, and in June 2026 the Secretary of State declared it eligible after enough signatures were collected.[18][19] The healthcare workers' union [SEIU-UHW](/us/A0023) funded the campaign, and the economist [Joseph Stiglitz](/us/A0525) signed the Nobel laureates' letter for it.
 
 Proposition 40 was on the 3 November 2026 ballot, and the result is pending. Before the vote, a Berkeley IGS poll in August had 48% yes to 41% no among likely voters, and the Public Policy Institute of California's survey of 16 to 22 October had 46% yes.[22][24]
 

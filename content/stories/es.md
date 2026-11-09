@@ -204,7 +204,7 @@ The Basque territories collect their own taxes, and a law of 3 April 2023 let ea
 
 ## The political fight {#politics}
 
-On 7 June 2022 Congress refused to consider the Unidas Podemos bill for a tax on fortunes above €10 million, 58 votes to 277 with 4 abstentions. Every Socialist deputy who voted said no.[19] The Socialist and Unidas Podemos groups then put the solidarity tax through as an amendment, and it passed that December.[2][11] The People's Party's 2023 programme promises to abolish it.[20]
+In June 2022 Congress refused to consider the Unidas Podemos bill for a tax on fortunes above €10 million, with the Socialists voting no.[19] The Socialist and Unidas Podemos groups then put the solidarity tax through as an amendment, and it passed that December.[2][11] The People's Party's 2023 programme promises to abolish it.[20]
 
 The PP's own position has shifted since. On 25 May 2026 the Finance Committee spokespeople of the PP, PSOE and Sumar all said, at an Oxfam Intermón conference, that something like the Zucman tax is needed in Spain. The report added that the PP would favour a tax on the very large fortunes created by technology and giant companies. For the PP, [Pedro Puy](/es/A0112) called the wealth tax complex and said other mechanisms could be more effective.[21]
 
