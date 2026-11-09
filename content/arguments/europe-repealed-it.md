@@ -1,10 +1,10 @@
 ---
-title: Four European countries dropped their wealth taxes by choice, and the faults they blamed stayed
+title: Four countries scrapped their wealth taxes instead of fixing them, and the problems they named are still there
 kind: argument
 objection: "Europe tried a wealth tax and gave up on it."
-answer: Governments repealed taxes with loopholes instead of closing the loopholes. The repeals cost revenue and left the faults in place.
-standfirst: Sweden, Denmark, Germany and France each ended or replaced their wealth tax after naming a fault: exemptions, valuation, a cap, flight. Each time the fault was a rule that could have been changed. France's own evaluation committee puts the cost of its 2018 replacement above €4 billion a year, and the share of payers who leave was 0.2% before and after.
-updated: 2026-11-08
+answer: Governments found loopholes in their wealth taxes and scrapped the taxes instead of closing the loopholes. The repeals cost billions and left the loopholes in place.
+standfirst: Twelve rich countries had a wealth tax in 1990 and four did in 2017. In Sweden, Denmark, Germany and France the faults governments blamed were rules they could have changed: exemptions, bad valuation, an income cap. Sweden's repeal cost SEK 6.89 billion a year. France's swap for a real estate tax cost over €4 billion a year, and the share of payers who left stayed at 0.2%.
+updated: 2026-11-09
 author: Egalitaristen
 layout: article
 status: draft
@@ -83,56 +83,56 @@ sources:
     title: Ley 1357 de 2020, Impuesto a las Grandes Fortunas, Bolivia (28 December 2020), Gaceta Oficial 1347NEC
     url: https://www.lexivox.org/norms/BO-L-N1357.xhtml
 ---
-The OECD counted 12 member countries with an annual tax on net wealth in 1990 and four in 2017: France, Norway, Spain and Switzerland.[1] Austria, Denmark, Germany, the Netherlands, Finland, Iceland, Luxembourg and Sweden dropped theirs, and the OECD lists why: efficiency costs, the risk of capital flight, narrow bases with avoidance and evasion, and the cost of administration.[1] Every item on that list is a fault in rules. A repeal cures a fault only if the fault was the tax itself. Sweden, Denmark, Germany and France show what happened when the faults were in the rules and the government repealed the tax.
+Twelve rich countries had an annual wealth tax in 1990. By 2017 only four did.[1] That is the fact people reach for when they say wealth taxes have been tried and don't work. Look at how the other eight got rid of theirs and a different story comes out. Governments found loopholes in the tax, and instead of closing the loopholes they scrapped the tax. The loopholes were still there afterwards, and so was the bill.
 
-## The choice was political {#political}
+## Nobody was forced {#political}
 
-Nobody was forced. In Sweden the centre-right government elected in 2006 proposed abolition.[2] On 17 December 2007 the Riksdag voted 142 for, from the four governing parties, 101 for the Social Democrats' reservation, and 33 abstained, the Left Party and the Greens.[4] In Denmark the Social Democrat who negotiated the repeal, Mogens Lykketoft, wrote in 2021: "Det var bestemt ikke mit ønske, men en pris til de Konservative for et i øvrigt solidt S-præget finanslovforlig." It was not his wish, but a price paid to the Conservatives for a budget deal.[7]
+Sweden's tax went because a new centre-right government wanted it gone. In December 2007 the parliament voted 142 to 101 to scrap it. The Left Party and the Greens abstained.[4] In Denmark the Social Democrat who negotiated the repeal, Mogens Lykketoft, later wrote that it was never his wish. It was the price of getting the Conservatives to back a budget.[7] In Germany a coalition majority drafted a repeal bill in 1996, and its own budget committee struck the repeal out.[12] In France the 2018 finance law swapped the tax for one on real estate.[15] Every one of these was a vote that could have gone the other way.
 
-In Germany a CDU/CSU and FDP majority filed a repeal bill in 1996, and the budget committee struck the repeal article.[12] In France the finance law of 2018 replaced the tax with one on real estate.[15] Each was a vote that could have gone another way.
+## Sweden: scrapped the tax, kept the loophole's winners {#sweden}
 
-## Sweden {#sweden}
+The Swedish government gave two reasons. The valuation rules were uneven and full of exemptions, which created loopholes. And money could leave the country.[2] Both are problems with the rules. LO, Sweden's trade union confederation, said exactly that: it would be better to remove the exemptions than to remove the tax.[2]
 
-The government's 2007 bill named two faults. Uneven valuation rules and many exemptions "skapar kryphål och uppmuntrar till skatteplanering", it said: create loopholes and invite tax planning. And capital was mobile.[2] The trade union confederation LO answered that the problems were overstated and that it was better to remove the exemptions than to remove the tax.[2]
+The government did the opposite. Scrapping the tax cost the state SEK 6.89 billion in 2007 alone.[3] The owners of unlisted companies, the people the exemption had protected, paid nothing before and nothing after. The people who stopped paying were the ones with bank accounts, funds and houses.[6]
 
-The repeal removed the tax and left the exemptions alone, because there was nothing left to exempt from. The government's committee put the lost revenue at SEK 6.89 billion for 2007.[3] The owners of unlisted companies, whom the exemption protected, paid nothing before and nothing after. Bank accounts, funds and houses stopped paying.[6]
+What about the money leaving? A study of Swedish tax records found that the repeal made wealthy residents about 30% less likely to leave. That is the entire flight argument in one number, and Sweden paid billions every year to buy it. The same study finds that a one point higher top rate costs the economy about 0.10% of output.[5] A tax that follows people out the door would have kept the money and the people: Norway's exit tax now runs for 12 years after a person leaves.
 
-The flight argument had something to it. Jakobsen, Kleven, Kolsrud, Landais and Muñoz find that the repeal cut the propensity of wealthy residents to leave Sweden by 30%. They also find the aggregate effect modest: one percentage point on the top rate lowers value added by 0.10%.[5] Thirteen years after the repeal the Equality Commission found that private wealth in Sweden had doubled in 20 years and that 0.001% of the population owned 6% of it. It called a return of the tax desirable on distribution grounds and recommended a study.[6]
+Thirteen years after the repeal, Sweden's own equality commission looked at what had happened to wealth. Private wealth had doubled in 20 years, and 0.001% of the population owned 6% of it. The commission's advice was to study bringing the tax back.[6]
 
-## Denmark {#denmark}
+## Denmark: worn down, then dropped {#denmark}
 
-Denmark's tax was worn down before it was repealed. Reliefs for business assets, a ceiling on the combined income and wealth tax and a discount for major shareholders took away much of the base. Lykketoft wrote that the tax had been "udhulet af vidtgående rabatregler" until only a few "meget samfundsbevidste rigmænd" paid much.[7] In 2022 Tax Minister Jeppe Bruus told the Folketing that in most cases the real value of unlisted shares was higher than the value the tax had used.[9]
+Denmark's tax was hollowed out before anyone repealed it. Reliefs for business assets, a ceiling on the combined income and wealth tax and a discount for major shareholders ate the base. Lykketoft described a tax that in the end only a few conscientious rich people with bad tax advisers paid.[7] As late as 2022 Denmark's tax minister admitted that in most cases the true value of an unlisted share was higher than the value the tax had used.[9]
 
-The government's bill gave the new tax treatment of capital gains as its reason, and it counted the loss at about DKK 760 million from about 35,000 families.[8] The valuation faults were never fixed. The repeal also cost the country its data: after 1997 Statistics Denmark stopped recording purely self-reported wealth, and the break in the series makes the abolition itself hard to study.[10]
+So the fault was valuation, and it was never fixed. The government dropped the tax instead, giving up about DKK 760 million a year from about 35,000 families.[8] Repeal also cost Denmark something it didn't plan for: after 1997 Statistics Denmark stopped recording the wealth that people reported themselves, which broke the data series and made the repeal itself hard to study.[10]
 
-## Germany {#germany}
+## Germany: the court asked for a fix, the government shrugged {#germany}
 
-The Federal Constitutional Court did not strike the German tax down. On 22 June 1995 it found that one rate was charged on land valued at 1964 prices and on other assets at current values, and it gave the legislature until the end of 1996 to fix that.[11] The coalition drafted a repeal. The budget committee struck the repeal article and recorded the result: the law stays on the books, but the tax cannot be levied.[12]
+Germany's tax is the clearest case. Many people think the Constitutional Court killed it in 1995. It didn't. The court found that land was valued at 1964 prices and everything else at current prices, which isn't equal treatment, and told parliament to fix it by the end of 1996.[11] The coalition drafted a repeal. The budget committee removed the repeal clause, and the committee's report spells out the result: the law stays on the books, and nobody can collect the tax.[12]
 
-The states had received the revenue, and they asked the federal government to compensate them in full. They got higher taxes on property transfers and inheritance.[13][14] The valuation fault has since been fixed in another tax: since 2009 inheritance tax values land and companies close to market prices, and the DIW proposes the same rules for a wealth tax.[14] No wealth tax has been billed since 1997.
+The German states, who had received the money, asked to be paid back in full. They were paid back with higher taxes on property transfers and inheritance, not with a tax on the fortunes.[13][14] The valuation problem that started it has since been solved: since 2009 inheritance tax values land and companies close to market prices, and the research institute DIW proposes the same rules for a wealth tax.[14] No wealth tax bill has gone out in Germany since 1997.
 
-## France {#france}
+## France: the best-documented failure of a repeal {#france}
 
-France has the best-documented case. Its ISF had a ceiling tied to income. The evaluation committee found that the cap cost about €2 billion a year, twice the tax administration's estimate, and that the richest 0.001% paid 0.1% of their wealth in 2017.[15] The ISF raised €4.2 billion that year.[15]
+France's old wealth tax, the ISF, had a ceiling tied to income. The state's own evaluation committee found that the ceiling cost about €2 billion a year, twice what the tax administration had estimated, and that the richest 0.001% paid 0.1% of their wealth in 2017. The tax raised €4.2 billion that year.[15]
 
-From 2018 the IFI replaced it, taxing real estate above €1.3 million. Two thirds of former ISF payers owed nothing in 2018, and across all former payers the average bill fell from €8,000 to €1,600.[15] The IFI raised €1.29 billion in 2018 and €1.83 billion in 2022.[16] The committee put the cost of the replacement at "vraisemblablement supérieur à 4 milliards d'euros" a year by 2022.[15]
+In 2018 the government replaced it with a tax on real estate above €1.3 million. Two thirds of former payers owed nothing the next year, and across all of them the average bill fell from €8,000 to €1,600. The new tax raised €1.29 billion in 2018 and €1.83 billion in 2022. The committee puts the cost of the swap at more than €4 billion a year by 2022.[15][16]
 
-The repeal did not fix the departures. Before it, 760 payers left in 2017, 0.2% of about 360,000. After it, departures fell by two thirds to about 270 a year against about 130,000 payers, again 0.2%.[15][16] The committee found no lasting shift out of property and no evidence that the ISF had cut dividends or investment.[15] France paid more than €4 billion a year to leave the exit rate where it was and the ceiling problem unsolved for everything outside real estate.
+Did it stop people leaving? Before the repeal, 760 payers left in 2017, which is 0.2% of about 360,000. After it, about 270 a year left, out of roughly 130,000 payers: 0.2% again.[15][16] The committee also found no lasting move out of property, and no sign that the old tax had cut dividends or investment.[15] France paid more than €4 billion a year and the problem it was solving did not change.
 
-## Where the tax came back or stayed {#stayed}
+## They came back, and new ones started {#stayed}
 
-Spain gave a 100% credit in 2008 and reinstated the tax in 2011, and Iceland reinstated its tax for the years 2010 to 2014.[1] Norway, Switzerland and Spain still levy theirs.[1] Colombia made its wealth tax permanent in 2022 and Bolivia created its tax in 2020.[17][18]
+Spain gave its tax a 100% credit in 2008 and brought it back in 2011. Iceland reinstated its tax for 2010 to 2014.[1] Norway, Switzerland and Spain never stopped. Colombia made its wealth tax permanent in 2022 and Bolivia created one in 2020.[17][18]
 
-## What fixing the faults looks like {#fix}
+## What fixing it looks like {#fix}
 
-The faults the four governments named have known repairs. Value every asset at market value, which is what German inheritance tax has done since 2009.[14] Leave no exemption for the largest holdings, the fault the Equality Commission names in Sweden.[6] Drop any cap tied to income, the fault the French committee measures.[15] Set the threshold at the top, so the base is narrow and a few households carry the whole tax.
+Every problem these governments named has a known repair. Value everything at market value, which is how German inheritance tax has worked since 2009.[14] Give the largest holdings no exemption, which is the Swedish flaw.[6] Take away any cap tied to income, which is the French flaw.[15] Set the threshold at the top, so a few thousand households carry the tax.
 
-We argue that a tax with a loophole is fixed by closing the loophole. A repeal removes the tax from everyone, including from the owners of bank accounts and houses who had no loophole, and it leaves the owners of the largest fortunes with the same advantage as before. The four countries here chose that. They lost revenue and kept the faults.
+A tax with a loophole is fixed by closing the loophole. A repeal takes the tax away from everyone, including the people who never had a loophole, and leaves the biggest fortunes with the same advantage they had before. Four countries chose that. They lost revenue and kept the faults.
 
 ## Who says so {#who}
 
-The [Swedish](/se), [Danish](/dk), [German](/de) and [French](/fr) stories carry the sources for each case and the people on the register who argue for a new tax. LO, Sweden's trade union confederation, said in 2007 that it was better to remove the exemptions than the tax.[2]
+The [Swedish](/se), [Danish](/dk), [German](/de) and [French](/fr) stories have the full sources for each case and the people who argue for a new tax. Sweden's own trade union confederation said in 2007 that the exemptions should go, not the tax.[2]
 
 ## Where to look next {#next}
 
-The next page takes up the claim that the rich will leave. The [Swedish](/se), [Danish](/dk), [German](/de) and [French](/fr) stories hold the full record, and the [calculator](/calculator) holds scales for Spain, Switzerland and Norway.
+The next page takes up the claim that the rich will leave. The [Swedish](/se), [Danish](/dk), [German](/de) and [French](/fr) stories hold the full record, and the [calculator](/calculator) shows scales from Spain, Switzerland and Norway.

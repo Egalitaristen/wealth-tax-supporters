@@ -1,5 +1,5 @@
 ---
-title: Enough for what? A wealth tax is not meant to fund a government, it is meant to stop the largest fortunes from compounding past the economy
+title: Enough for what? A wealth tax isn't meant to fund a government, it's meant to stop the largest fortunes from outgrowing the economy
 kind: argument
 objection: "A wealth tax doesn't raise enough to matter."
 answer: Enough for what? Projected yields run from 0.4% to about 1% of GDP, and the taxes in force raise 0.2% to 1.0%. The other job is to slow the compounding of the largest fortunes, and that takes a rate near the gap between how fast they grow and how fast the economy does.
@@ -71,35 +71,35 @@ sources:
     title: PIT-CNT consultative commission, Propuesta de creación de una sobretasa del IPPF (24 November 2025)
     url: https://www.pitcnt.uy/sites/default/files/2025-11/IPPF.pdf
 ---
-The objection measures a wealth tax against a government budget and finds it short. Nobody proposes to fund a government by taxing the richest 2%. A wealth tax has two jobs, and the objection counts only one of them.
+The objection measures a wealth tax against a government budget and finds it short. Nobody proposes to run a government on a tax on the richest 2%. A wealth tax has two jobs, and the objection counts one of them.
 
-## Enough to fund what {#revenue}
+## Enough to pay for what {#revenue}
 
-The taxes that exist raise between 0.2% of GDP in Spain and 1.0% in Switzerland, as the OECD counted for 2016. Switzerland collected the most because its thresholds are comparatively low and its tax base broader.[1] Norway's wealth tax was 0.59% of GDP in 2024, a ratio we calculate from Statistics Norway's tables, with oil included in GDP.[2] Colombia collected COP 1.22 trillion from 34,229 filers in 2025, and Bolivia about Bs 960 million between 2021 and October 2025.[6][9]
+The taxes that exist raise between 0.2% of GDP in Spain and 1.0% in Switzerland, in the OECD's count for 2016. Switzerland collects the most because its thresholds are comparatively low and its base broader.[1] Norway's wealth tax came to 0.59% of GDP in 2024, a figure we worked out from Statistics Norway's tables, with oil counted in GDP.[2] Colombia collected COP 1.22 trillion from 34,229 filers in 2025, and Bolivia about Bs 960 million between 2021 and October 2025.[6][9]
 
-The projections for new taxes are similar in size. In Uruguay, De Rosa and Vilá estimate that a 1% tax on the top 1% would raise 0.75% to 1% of GDP, US$600 to 800 million a year, with the 17% they expect to be lost to evasion already counted.[3] A minimum tax of 2% on fortunes above US$100 million would raise about US$260 million, 0.4% of GDP.[4] A French bill of January 2025 puts its minimum tax of 2% on fortunes above €100 million at €15 to 25 billion a year.[5] In Germany the Greens' motion expects more than €20 billion a year from a few hundred payers, and DIW puts the Left's higher scale at €147 billion a year before behavioural responses.[10] For the United States, Saez and Zucman estimate that Warren's tax would raise about US$3.0 trillion over 2023 to 2032, about 1% of GDP a year, after assuming that taxpayers cut their bill by 15% through avoidance and evasion.[11]
+New taxes on the table are the same size or larger. In Uruguay, two economists estimate that a 1% tax on the top 1% would raise 0.75% to 1% of GDP, US$600 to 800 million a year, after allowing for 17% lost to evasion.[3] A minimum tax of 2% on fortunes above US$100 million would raise about US$260 million, 0.4% of GDP.[4] A French bill from January 2025 puts its minimum tax of 2% on fortunes above €100 million at €15 to 25 billion a year.[5] In Germany the Greens' motion expects more than €20 billion a year from a few hundred payers, and the research institute DIW puts the Left's higher scale at €147 billion a year before anyone changes behaviour.[10] For the United States, two economists estimate that Warren's tax would raise about US$3.0 trillion over 2023 to 2032, about 1% of GDP a year, after assuming a 15% cut in what taxpayers pay through avoidance and evasion.[11]
 
-The money has uses. The Danish Social Democrats' 2026 proposal was tied to smaller school classes, and the Uruguayan union commission's to a fund against child poverty.[13][14]
+The money has uses. Denmark's Social Democrats tied their 2026 proposal to smaller school classes, and Uruguay's union commission tied its proposal to a fund against child poverty.[13][14]
 
-## The unfavourable side {#unfavourable}
+## Why some taxes raised little {#low}
 
-Some existing taxes raised little. Sweden's wealth tax came to 0.16% of GDP in 2006, its last full year, and never exceeded 0.4% in the postwar period.[8] Bolivia's yield fell from Bs 241 million in 2021 to Bs 169 million in 2024.[9] The projections vary with the design: DIW's €147 billion for the Left's scale is before behavioural responses, and the Left's own motion says about €100 billion after them.[10] A tax that raises 0.2% of GDP is not enough for most programmes, and the size depends on the base.
+Some existing taxes raised little, and the reason is the holes in them. Sweden's wealth tax came to 0.16% of GDP in 2006, its last full year, and never exceeded 0.4% of GDP in the postwar years.[8] It exempted unlisted shares and the biggest fortunes were held in them. Bolivia's yield fell from Bs 241 million in 2021 to Bs 169 million in 2024 under the same scale, a scale that has no indexing.[9] And the big projections vary with design: DIW's €147 billion for the Left's scale is before behavioural responses, and the Left's own motion says about €100 billion after them.[10] A tax with a broad base and low thresholds raises more. Switzerland shows it.
 
 ## The second job: the compounding {#compounding}
 
-The second job is to keep the largest fortunes from outgrowing the economy. The top 1% share of net personal wealth rose between 1990 and 2024 from 24.1% to 31.5% in Switzerland, from 17.7% to 27.7% in France, from 24.0% to 27.5% in Sweden, from 21.9% to 27.9% in Germany and from 29.0% to 34.8% in the United States. In Norway it stayed at 23.5%.[7] The series come from a modelled database, and Germany's 1990 value straddles reunification.
+The second job is to keep the largest fortunes from outgrowing the economy. The top 1% share of net personal wealth rose between 1990 and 2024 from 24.1% to 31.5% in Switzerland, from 17.7% to 27.7% in France, from 24.0% to 27.5% in Sweden, from 21.9% to 27.9% in Germany and from 29.0% to 34.8% in the United States. In Norway it stayed at 23.5%.[7]
 
-The arithmetic of holding a share is simple. If a group's wealth grows at a rate g and the economy at a rate y, a tax of about g minus y a year on that wealth holds the group's share steady, before consumption, gifts and behaviour. The United States gives one measured case. The wealth of the top 0.1% of households grew from US$6.8 trillion in 2006 to US$27.9 trillion in 2026, a factor of 4.1, while nominal GDP grew by a factor of 2.4. That is 7.3% a year against 4.4%, a gap of about 3 points, calculated from the Federal Reserve and FRED figures.[12] A tax of about 3% of the group's wealth a year would close it. Warren's top rate is 3%.
+The arithmetic is simple. If a group's wealth grows at a rate g and the economy at a rate y, a tax of about g minus y a year on that wealth holds the group's share steady. The United States gives one measured case. The wealth of the top 0.1% of households grew from US$6.8 trillion in 2006 to US$27.9 trillion in 2026, a factor of 4.1, while nominal GDP grew by a factor of 2.4. That is 7.3% a year against 4.4%, a gap of about 3 points.[12] A tax of about 3% of that group's wealth a year would close the gap. Warren's top rate is 3%.
 
-This is why the revenue measure is incomplete. A tax that raises 1% of GDP and holds the top fortunes to the pace of the economy has done something that no amount of revenue buys back later.
+This is why counting revenue misses the point. A tax that raises 1% of GDP and keeps the top fortunes from outrunning the economy has done something no amount of spending can undo later.
 
-## What reversing it takes {#reverse}
+## What it takes to turn it around {#reverse}
 
-The same arithmetic runs further. A tax above the growth gap would shrink the group's share of wealth. Reversing the rise takes a rate above the gap and an enforcement system that finds the assets. A tax set at 1% does not do it where the gap is 3 points, and a tax set at 3% to 4% on the largest fortunes would, as a calculation that ignores behaviour.
+The same arithmetic runs further. A tax above the growth gap would shrink the group's share of wealth. Reversing the trend takes a rate above the gap, and an enforcement system that finds the assets. A 1% tax doesn't do it where the gap is 3 points. A tax of 3% to 4% on the largest fortunes would.
 
 ## Who says so {#who}
 
-[Emmanuel Saez](/us/A0675) and [Gabriel Zucman](/fr/A0229) wrote several of the revenue estimates. The [Uruguayan story](/uy) covers De Rosa and Vilá, the [French story](/fr) the 2025 bill, and the [German story](/de) the motions.
+[Emmanuel Saez](/us/A0675) and [Gabriel Zucman](/fr/A0229) wrote several of the revenue estimates. The [Uruguayan story](/uy) covers the two Uruguayan economists, the [French story](/fr) the 2025 bill, and the [German story](/de) the motions.
 
 ## Where to look next {#next}
 

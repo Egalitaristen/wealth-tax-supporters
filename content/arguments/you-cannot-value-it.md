@@ -1,10 +1,10 @@
 ---
-title: Norway collects its wealth tax from 700,000 people, and banks and companies supply the values
+title: Norway collects its wealth tax from 700,000 people, and banks and companies supply the numbers
 kind: argument
 objection: "You can't value private companies, art and land, so a wealth tax can't work."
-answer: Banks report deposits and holdings, a company can value its own shares for the owner, and a tax on a few hundred or a few thousand households can be audited one by one.
-standfirst: In 2024 719,007 taxpayers paid Norwegian wealth tax, NOK 31.8 billion in all. Banks report balances to the tax authority, an unlisted company calculates the value of its shares and attaches it to its own return, and the owner files the result. The faults that remain are the discounts the law writes in and the foreign assets nobody checked.
-updated: 2026-11-08
+answer: Banks report deposits and holdings, a company can value its own shares for its owner, and a tax on a few hundred or a few thousand households can be audited one by one. Nobody prices the socks.
+standfirst: In 2024 719,007 taxpayers paid Norwegian wealth tax, NOK 31.8 billion in all. Banks report balances to the tax authority, an unlisted company works out the value of its own shares and hands that to its owner, and the owner files the result. The rest of the country, 85% of adults, files the same return with no wealth tax on it.
+updated: 2026-11-09
 author: Egalitaristen
 layout: article
 status: draft
@@ -86,45 +86,43 @@ sources:
     title: Lag (1997:323) om statlig förmögenhetsskatt, as in force until repeal (Riksdag, Svensk författningssamling), the list of taxable assets
     url: https://www.riksdagen.se/sv/dokument-och-lagar/dokument/svensk-forfattningssamling/lag-1997323-om-statlig-formogenhetsskatt_sfs-1997-323/
 ---
-The objection says that a tax on wealth needs a price tag on every painting, farm and private company, and that nobody can set one. In 2024 Norway collected NOK 31.8 billion from 719,007 taxpayers.[1] Here is how the valuing is done.
+The objection says a wealth tax needs a price tag on every painting, farm and private company, and that nobody can set one. Norway collected NOK 31.8 billion from 719,007 taxpayers in 2024.[1] Here is how it does the valuing.
 
 ## Nobody appraises the socks {#most}
 
-The objection pictures every household pricing every possession. Real wealth taxes never asked for that. In Norway 701,482 residents paid wealth tax in 2024, 15.4% of adults, and the other 85% filed the same pre-filled return with no wealth tax on it.[18] Sweden's wealth tax law taxed movable property but excluded personal furnishings, excluded personal items worth less than SEK 10,000 each, and counted cash only above SEK 25,000.[19] A tax is written around what is worth appraising.
+Real wealth taxes never asked households to price their belongings. In Norway 701,482 residents paid wealth tax in 2024, 15.4% of adults, and the other 85% filed the same pre-filled return with no wealth tax on it.[18] Sweden's old wealth tax counted movable property but left out personal furnishings, left out personal items worth under SEK 10,000 each, and counted cash only above SEK 25,000.[19] A tax is written around what is worth valuing.
 
 ## How Norway does it {#norway}
 
-Banks and other institutions report balances and holdings to the tax authority. Statistics Norway's wealth tax table breaks net wealth into bank deposits, mutual funds, shares and securities at the level of the individual taxpayer, which is only possible because the data sit in the tax register.[1]
+Banks and other institutions report balances and holdings to the tax authority. Statistics Norway's wealth tax tables break net wealth into bank deposits, mutual funds, shares and securities for each taxpayer, which is only possible because the data sit in the tax register.[1]
 
-For a company that is not listed, the company does the valuing. The tax appeals board put it this way in December 2024: "Formuesverdien av aksjer i ikke-børsnoterte selskaper skal fastsettes av selskapet når selskapets skattegrunnlag fastsettes." The company must calculate the value of its shares and attach the calculation to its tax return, and the shareholder uses that figure in the personal return.[2] The owner does not hire an appraiser for each share.
+An unlisted company values its own shares. Norway's tax appeals board put it plainly in December 2024: the company works out the wealth value of its shares when it files its own tax return, attaches the calculation, and the shareholder uses that figure in the personal return.[2] The owner doesn't hire an appraiser for each share.
 
-An employee or pensioner who does not submit a return is treated as having submitted it with the pre-filled information: "regnes skattemeldingen som levert med de opplysningene som var forhåndsutfylt", in the tax authority's words. The same release estimated in April 2025 that between 400,000 and 500,000 people do not check their return, and it reminds filers that they remain responsible for its accuracy.[14] News in English reported in April 2020 that under this system "the vast majority of employees can just glance over all the numbers already filled out in advance by the tax authorities".[16]
+If an employee or pensioner doesn't submit a return, it counts as submitted with the pre-filled information. The tax authority estimated in April 2025 that 400,000 to 500,000 people don't even check theirs, and reminds everyone they remain responsible for it being right.[14] A Norwegian news site wrote in 2020 that the vast majority of employees can just glance over all the numbers the tax authorities have already filled in.[16]
 
-The law then writes in discounts. For 2025 primary homes get a 75% discount, shares including commercial property 20%, operating assets 30% and secondary homes none.[3] A discount is a political decision about the rate and has nothing to do with whether a value can be found.
+Then there are the discounts the law writes in. For 2025 a primary home gets a 75% discount, shares 20%, operating assets 30%, and secondary homes none.[3] A discount is a political choice about the rate. It has nothing to do with whether a value can be found.
 
-## Where the system leaks {#leaks}
+## Where the system leaks, and why the fix is easy {#leaks}
 
-The leak the Norwegian authorities document is foreign assets. The Auditor General found that a large number of taxpayers fail to report foreign wealth and income, and the Tax Administration estimates the loss at about NOK 7 billion a year across all taxes, with controls that had been too few.[4][5] That sum is hidden foreign income and wealth in total, and the wealth tax is a part of it. The tax authority received over one million foreign reports for income year 2021.[4] Norway's answer has been to add control staff.[5]
+The leak Norwegian authorities describe is foreign assets. The Auditor General found that many taxpayers don't report wealth and income held abroad, and the tax authority estimates the loss at about NOK 7 billion a year across all taxes, with too few controls.[4][5] That is hidden foreign money in total, and the wealth tax is only part of it. Norway received over a million foreign reports for 2021.[4] The answer was more control staff, which is the answer to every kind of tax evasion.[5]
 
-The Swiss experience shows what happens without third-party reporting. In cantons where financial wealth is self-reported, Brülhart, Gruber, Krapf and Schmidheiny find that a one percentage point cut in a canton's wealth tax rate raised reported taxable wealth by at least 43%. They read part of that as evasion, "in this setting with no third-party reporting of financial wealth".[6] The remedy the evidence points to is reporting by the institutions that hold the assets. Swiss cantons already take bank data a long way: the canton of Zurich's online return accepts the bank's electronic tax statement, "nur der eSteuerauszug als PDF-Datei zu importieren", and its page says the bank data go into the return with a few clicks.[15] About 500,000 people used the canton's online return in 2026, roughly half of all its taxpayers.[17] The data pass through the taxpayer, which is the gap that third-party reporting closes.
+The Swiss experience shows what reporting buys. In cantons where financial wealth is self-reported, a one point cut in a canton's wealth tax rate raised reported taxable wealth by at least 43%. The researchers read much of that as concealment, in a setting with no third-party reporting of financial wealth.[6] In other words, a lot of wealth was staying off the page, and bank reporting is what brings it onto it. Zurich's online tax return already takes a bank's electronic tax statement as a PDF, and the canton says the bank data go into the return with a few clicks.[15] About 500,000 people used the canton's online return in 2026, roughly half of its taxpayers.[17] The data still pass through the taxpayer, which is the gap automatic bank reporting closes.
 
-## The hard cases {#hard}
+## The hard cases are few, and they have been solved {#hard}
 
-Some wealth is hard to price: shares in private companies, and foreign holdings. The Equality Commission in Sweden names the valuation of unlisted companies as one of two practical obstacles, together with cross-border moves.[9] The same report records that Sweden's tax exempted unlisted shares, so the valuation problem was solved by leaving the largest fortunes out.[9]
+Some wealth is hard to price: shares in private companies, and foreign holdings. Sweden's equality commission calls valuing unlisted companies one of two practical obstacles for a wealth tax. The same report records how Sweden dealt with it: its tax exempted unlisted shares, so the largest fortunes were left out.[9] That was a choice, and it can be made the other way.
 
-Germany shows the obstacle can be removed. The Constitutional Court's 1995 order found the same rate charged on land at 1964 values and on other assets at current values.[10] Since 2009 German inheritance tax values land and companies close to market prices under the Bewertungsgesetz, and the DIW proposes the same rules for a wealth tax.[7] The valuation tool exists and has been used for inheritance for years.
+Germany has made it the other way. The Constitutional Court's 1995 order found land taxed at 1964 values and everything else at current values.[10] Since 2009 German inheritance tax values land and companies close to market prices, and the DIW research institute proposes the same rules for a wealth tax.[7] The valuation tool has been used on inheritances for years.
 
-## A default rule instead of an appraisal {#default}
+A law can also supply the number when none exists. California's Proposition 40 says an interest in a privately held business is worth its book value plus 7.5 times its average annual book profit over three years, multiplied by the owner's share. An owner who can't get the figures submits a certified appraisal.[13]
 
-A law can supply the value when none exists. California's Proposition 40 presumes that an interest in a privately held business is worth the business's book value plus 7.5 times its annual book profits, averaged over the current and two preceding tax years, multiplied by the owner's share. A taxpayer who cannot get the figures must submit a certified appraisal.[13] The rule is written into the text of the measure.
+## Few payers, so audit them one by one {#audits}
 
-## Few payers, individual audits {#audits}
+How hard valuation is depends on how many households pay. A Socialist amendment in France in October 2026 names about 1,800 households for a minimum tax on fortunes above €100 million.[8] The Greens' German motion expects a few hundred payers above €500 million.[12] A tax authority can audit a few hundred or a few thousand households one at a time, with specialist teams, and the cost per household is small against the tax each one owes. Shares in private businesses enter Norway's base at only a tenth of their market value, a gap a tax with a high threshold would close.[11]
 
-How hard valuation is depends on how many households pay. The French Socialist amendment of October 2026 names about 1,800 households for a minimum tax on fortunes above €100 million.[8] The Greens' German motion expects a few hundred payers above €500 million.[12] A tax authority can audit a few hundred or a few thousand households one at a time, with specialist teams, and the cost per household is small against the tax each owes. Ring, Seim and Zucman note that shares in private businesses enter Norway's wealth tax base for only a tenth of their market value, a design choice a high-threshold tax would not repeat.[11]
+## What a working system has {#design}
 
-## What a workable system has {#design}
-
-The Norwegian and Swiss records give a short list. Institutions that hold assets report them to the tax authority. A company states the value of its own shares and the owner uses that figure. A specialist unit audits the largest fortunes. The law carries few discounts, and none for the largest holdings. Foreign assets are checked against the international reporting standard, and a country that does not check them loses money across every tax.
+Institutions that hold assets report them to the tax authority. A company states the value of its own shares and the owner uses that figure. A specialist unit audits the largest fortunes. The law carries few discounts, and none for the largest holdings. Foreign assets are checked against the international reporting standard, which is worth doing for every tax whether or not there is a wealth tax.
 
 ## Who says so {#who}
 

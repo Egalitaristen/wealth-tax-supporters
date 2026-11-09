@@ -1,10 +1,10 @@
 ---
-title: Courts in France, Spain, Switzerland and Colombia have reviewed wealth taxes, and constitutions can be amended or worked around
+title: Courts in France, Spain, Switzerland and Colombia have looked at wealth taxes, and none struck one down for being a wealth tax
 kind: argument
 objection: "A wealth tax is unconstitutional."
-answer: No court has struck down a wealth tax as such. Germany's court demanded equal valuation, France's and Spain's upheld theirs, and Colombia's declined to rule. Where a constitution does block a design, countries amend it, change the design or move the tax to another level.
-standfirst: Spain's Constitutional Court dismissed Madrid's challenge to the solidarity tax on great fortunes by seven votes to four, and France's Constitutional Council ruled the ISF conforms to the Constitution. Germany's court asked for equal valuation and did not forbid the tax. The US Supreme Court said in 2024 that it was not deciding wealth taxes.
-updated: 2026-11-08
+answer: No court has struck down a wealth tax as such. Germany's court demanded equal valuation, France's and Spain's courts upheld theirs, and Colombia's declined to rule. Where a constitution blocks a design, countries amend it, change the design or move the tax to another level.
+standfirst: Spain's Constitutional Court dismissed Madrid's challenge to the solidarity tax on great fortunes by seven votes to four, and France's Constitutional Council ruled the ISF conforms to the Constitution. Germany's court asked for equal valuation and did not forbid the tax. The US Supreme Court said in 2024 that it wasn't deciding wealth taxes.
+updated: 2026-11-09
 author: Egalitaristen
 layout: article
 status: draft
@@ -68,44 +68,44 @@ sources:
     title: California Official Voter Information Guide, November 2026, Proposition 40, title, summary and Legislative Analyst's analysis
     url: https://vig.cdn.sos.ca.gov/2026/general/pdf/prop40-title-summ-analysis.pdf
 ---
-The objection is usually made in one country, the United States, and as if it applied everywhere. Courts in several countries have looked at wealth taxes. The pattern in what they decided is plain: none struck a wealth tax down for being a wealth tax, and where they objected, they objected to a design.
+People raise this objection in one country, the United States, and talk as if it applied everywhere. Courts in several countries have looked at wealth taxes, and the pattern in what they decided is clear. None struck a wealth tax down for being a wealth tax. Where they objected, they objected to a design.
 
 ## What the courts decided {#courts}
 
-France. In 2010 the Conseil constitutionnel found the articles of the ISF conform to the Constitution. It wrote that the legislator had meant to tax "la capacité contributive que confère la détention d'un ensemble de biens et de droits", the ability to pay that holding a set of assets and rights confers, and that equality before public burdens "n'implique pas que seuls les biens productifs de revenus entrent dans l'assiette" of the tax.[3] In 2017 it upheld the IFI, the real estate tax that replaced the ISF, striking one rule on usufruct.[4]
+France. In 2010 the Conseil constitutionnel found the articles of the ISF conform to the Constitution. It said the lawmakers meant to tax the ability to pay that comes from holding a set of assets, and that equality before public burdens does not require that only income-producing assets be taxed.[3] In 2017 it upheld the real estate tax that replaced the ISF, striking one rule on usufruct.[4]
 
-Spain. In November 2023 the Tribunal Constitucional dismissed in full the challenge by the Community of Madrid to the solidarity tax on great fortunes, by seven votes to four. It held that the tax "tendría efecto confiscatorio solo en caso de agotar el valor del mismo", that it would be confiscatory only if it exhausted the value of the wealth, and not the income the assets yield. It added that regions may rebate their own wealth tax to zero, but that this does not stop the national parliament from creating a tax like it.[6]
+Spain. In November 2023 the Constitutional Court threw out in full Madrid's challenge to the solidarity tax on great fortunes, by seven votes to four. It held that a wealth tax would be confiscatory only if it ate up the wealth itself, not the income from it. And it said that regions can reduce their own wealth tax to zero, but that doesn't stop the national parliament from creating a tax like it.[6]
 
-Colombia. In 2024 and 2025 the Corte Constitucional received challenges to the permanent wealth tax of Ley 2277 and decided neither on the merits. Both times it found the complaint substantively inept and declined to rule.[5] The tax stays in force, and we do not claim the Court upheld it. In the 2025 ruling it observed that the mitigating features of the law, the threshold of 72,000 UVT, the exclusion of part of the home and the progressive rates, soften the effect of the tax.[5]
+Colombia. In 2024 and 2025 the Constitutional Court received challenges to the permanent wealth tax of Law 2277 and ruled on neither on the merits. Both times it found the complaint badly argued and declined to decide.[5] The tax stays in force. In the 2025 ruling it also noted that the law's built-in softeners, the 72,000 UVT threshold, the exclusion of part of the home and the progressive rates, cushion the tax.[5]
 
-Switzerland. The Federal Supreme Court held in 1980 that the guarantee of property bars a public body from hollowing out wealth by excessive taxation, and that the limit cannot depend on a single rate. What matters is the rate, the base and the duration: a heavy burden for one or a few tax years is not confiscatory, and the court wrote that a high burden that became permanent would be.[7]
+Switzerland. In 1980 the Federal Supreme Court held that the property guarantee bars the state from hollowing out someone's wealth through excessive taxation, and that no single rate marks the limit. What counts is the rate, the base and how long it lasts: a heavy burden for one or a few years is fine, and a high burden that became permanent would not be.[7]
 
-## What courts did constrain {#constrained}
+## What courts did restrict {#constrained}
 
-Germany is the case people cite. In 1995 the Bundesverfassungsgericht found that one rate was charged on land valued at 1964 prices and on other assets at current values, which breached equality, and it gave the legislature until the end of 1996 to fix it.[1] The order did not forbid the tax. In 2006 the Court wrote that the half-split ceiling often read into the 1995 order follows "weder aus dem Tenor noch aus den ihn tragenden Gründen" from neither the operative part nor the reasons.[2] The remedy asked of the legislature was equal valuation, a task of design.
+Germany is the case people cite. In 1995 the Constitutional Court found that land was taxed at 1964 values and everything else at current values, which breaches equal treatment, and gave parliament until the end of 1996 to fix it.[1] It did not forbid the tax. In 2006 the court added that the "half-split" ceiling people read into the 1995 order is in neither the operative part nor the reasoning.[2] The remedy asked of the lawmakers was equal valuation, a job of design.
 
-In the United States the Supreme Court held in 1895 that taxes on the income of property are direct taxes that must be apportioned among the states.[9] The country answered with the Sixteenth Amendment in 1913.
+In the United States the Supreme Court held in 1895 that taxes on income from property are direct taxes that must be divided among the states by population.[9] The country answered with the Sixteenth Amendment in 1913.
 
-## The United States, one case among others {#us}
+## The United States, one case among several {#us}
 
-In *Moore v. United States* in 2024 the Court upheld the tax on foreign companies' undistributed income and wrote that its analysis "does not address" taxes on "holdings, wealth, or net worth".[8] It added that the question was one for another day. Four justices wrote that unrealised gains cannot be taxed without apportionment, which is a statement about realisation. None decided whether a net wealth tax is constitutional.[8]
+In *Moore v. United States* in 2024 the Supreme Court upheld a tax on foreign companies' undistributed income and wrote that its analysis does not address taxes on holdings, wealth or net worth. It called those questions for another day.[8] Four justices wrote that unrealised gains can't be taxed without dividing the tax among the states, which is about realisation. None decided whether a net wealth tax is constitutional.[8]
 
-The scholars are divided. Johnsen and Dellinger conclude that the belief that the Constitution makes a national wealth tax impossible is "wrong".[10] Brooks and Gamage argue that courts should uphold wealth taxes structured as indirect taxes, and that Congress can add a fallback that apportions the tax and a programme to rebate the states.[11] Other authors argue the opposite and we do not claim the question is settled.
+The law professors disagree. Two argue that the belief the Constitution makes a national wealth tax impossible is wrong.[10] Two others argue that courts should uphold wealth taxes built as indirect taxes, and that Congress can add a fallback that divides the tax among the states, plus a rebate programme for them.[11] The question is open, and what's open can be won.
 
-## What countries do when a constitution blocks the design {#routes}
+## What countries do when a constitution blocks a design {#routes}
 
-- Amend the constitution. The United States did it in 1913 after Pollock. California's Proposition 40 is a state constitutional amendment and statute that adds an article to the California constitution; it was on the ballot on 3 November 2026 and the result is pending as of 8 November.[12][13]
-- Change the design. Germany's court asked for equal valuation and allowed several remedies. France narrowed the ISF to real estate in 2018 and the Conseil constitutionnel upheld the narrower tax.[1][4]
-- Create a separate tax in another space. Spain's national solidarity tax stands beside the regional wealth tax that regions had rebated to zero, and the Tribunal Constitucional upheld it.[6]
-- Move the tax to a lower level. Switzerland's cantons levy the wealth tax and the Federal Supreme Court polices confiscation case by case.[7] California's measure is a state tax, and the federal direct-tax clauses restrict Congress.[12]
+- Amend the constitution. The United States did it in 1913 after the 1895 ruling. California's Proposition 40 is a state constitutional amendment and statute that adds an article to California's constitution; it was on the 3 November 2026 ballot and the result is pending.[12][13]
+- Change the design. Germany's court asked for equal valuation and allowed several remedies. France narrowed the ISF to real estate in 2018, and the Constitutional Council upheld the narrower tax.[1][4]
+- Create a separate tax in a space of its own. Spain's national solidarity tax stands beside the regional wealth tax that regions had cut to zero, and the Constitutional Court upheld it.[6]
+- Move the tax to a lower level. Switzerland's cantons levy the wealth tax, and the Federal Supreme Court checks for confiscation case by case.[7] California's measure is a state tax, and the federal rule on direct taxes limits Congress, not the states.[12]
 
 ## What it comes to {#case}
 
-A constitution is a text that people can amend and courts read narrowly. The record shows courts upholding wealth taxes, declining to decide them, or asking for better valuation. The United States has an open question, a clear amendment route and several workarounds, and its own country page covers them.
+A constitution is a text people can amend and courts read narrowly. The record shows courts upholding wealth taxes, declining to decide them, or asking for better valuation. The United States has an open question, a clear amendment route and several workarounds, and its own country story sets them out.
 
 ## Who says so {#who}
 
-The [German story](/de) covers the 1995 order, the [French story](/fr) the Conseil constitutionnel, the [Colombian story](/co) the two sentences, and the [United States story](/us) the federal clause and Proposition 40.
+The [German story](/de) covers the 1995 order, the [French story](/fr) the Conseil constitutionnel, the [Colombian story](/co) the two rulings, and the [United States story](/us) the federal clause and Proposition 40.
 
 ## Where to look next {#next}
 
