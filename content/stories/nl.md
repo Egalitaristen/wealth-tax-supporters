@@ -117,7 +117,11 @@ sources:
     title: Tweede Kamer, motion Dijk, Kamerstuk 36600 nr. 17, and its vote of 19 September 2024 (document 2024D34091)
     url: https://zoek.officielebekendmakingen.nl/kst-36600-17.html
 ---
-The Netherlands taxed net wealth until the end of 2000. Then it threw that tax out and charged savers something stranger: a tax on a return they were assumed to earn, whether or not they earned it.[2][3] In December 2021 the Supreme Court ruled that this breaks the right to property when the real return is lower.[1] The system is still not fixed. On 9 November 2026 the Tweede Kamer (the lower house) has passed a reform, the Eerste Kamer (the Senate) has not voted, and the government wants to push the start back to 2029.[5][6][4] The largest fortunes sit in companies, and box 3 does not reach them.[3][9]
+The Netherlands taxed net wealth until the end of 2000. Then it threw that tax out and charged savers something stranger: a tax on a return they were assumed to earn, whether or not they earned it.[2][3] In December 2021 the Supreme Court ruled that this breaks the right to property when the real return is lower.[1] The system is still not fixed. As of 9 November 2026 the Tweede Kamer (the lower house) has passed a reform, the Eerste Kamer (the Senate) has not voted, and the government wants to push the start back to 2029.[5][6][4] The largest fortunes sit in companies, and box 3 does not reach them.[3][9]
+
+## How Dutch income tax is sorted into boxes {#boxes}
+
+The Dutch income tax sorts income into three boxes. Box 1 is wages, profit from your own business and the home you live in. Box 2 is income from a company you own a stake of 5% or more in, taxed when the company pays out to you. Box 3 is everything else you own: savings, shares, a second home. Remember the difference between box 2 and box 3. A saver in box 3 is taxed every year on an assumed return. An owner in box 2 is taxed when they choose to take money out.
 
 ## What the old tax charged {#old}
 
@@ -141,7 +145,7 @@ That is where the largest fortunes sit. The Dutch planning bureau followed incom
 
 ## The Supreme Court says no {#court}
 
-On 24 December 2021 the Hoge Raad ruled on a couple whose assets earned €6,612 in 2017 and €3,528 in 2018.[1] The system taxed them on a higher assumed return. The court held that the system in force since 2017 failed the proportionality test of the right to property. It put a heavy charge on the choice not to take risks with your money, and it hurt people who invested and lost.[1] The court ordered that only the real return be taxed, which cut their taxable income to €5,260 and €2,697.[1]
+On 24 December 2021 the Supreme Court (the Hoge Raad) ruled on a couple whose assets earned €6,612 in 2017 and €3,528 in 2018.[1] The system taxed them on a higher assumed return. The court held that the system in force since 2017 failed the proportionality test of the right to property. It put a heavy charge on the choice not to take risks with your money, and it hurt people who invested and lost.[1] The court ordered that only the real return be taxed, which cut their taxable income to €5,260 and €2,697.[1]
 
 Parliament passed a repair law for 2017 to 2022 and a bridging law after that. In June 2024 the court ruled that the bridging system still breached the same rights, and it set a rule that anyone can prove a lower real return.[3] That rule costs the state about €2.4 billion a year, and about half of the refund money goes to people earning more than twice the modal (typical) income.[3] A tax on an assumed return is wrong in both directions, and each repair is a new loophole for people with the means to claim it.
 
@@ -149,23 +153,19 @@ Parliament passed a repair law for 2017 to 2022 and a bridging law after that. I
 
 The 2026 rules charge 36% on an assumed return of 1.28% on bank balances, 6.00% on investments and 2.70% on debts, with €59,357 free per person.[8] A person with €150,000 in savings and no partner pays €417.[8] A share portfolio is taxed at 6.00% times 36%, which is 2.16% of wealth a year above the allowance.
 
-The government submitted the Wet werkelijk rendement box 3 on 16 May 2025. It taxes the actual return.[6] The Tweede Kamer passed it on 12 February 2026 by 93 votes to 57. SP, GroenLinks-PvdA, D66, PvdD, Volt, VVD and CDA voted for. PVV, JA21, FVD, BBB, ChristenUnie, SGP, DENK, 50PLUS and Groep Markuszower voted against.[5]
+The government's bill to tax the actual return, the Wet werkelijk rendement box 3, passed the Tweede Kamer on 12 February 2026 by 93 votes to 57. Left and centre parties voted for it, the PVV and most of the right against.[5][6]
 
-In the Eerste Kamer, on 30 June 2026, a majority agreed to GroenLinks-PvdA's request to hold the vote back. Senator [Ferd Crone](/nl/A0162) made it. Eight groups wanted to vote at once.[7] On 3 November the government filed a novelle, an amending bill. It would tax gains on all financial instruments only when they are sold, start on 1 January 2029, and keep the present assumed-return system with the right to prove a lower return in 2028. The tax authority and the Council of State found 2028 not workable.[4] The Eerste Kamer's committee has said it will wait for the Tweede Kamer to handle the novelle.[6]
+In the Eerste Kamer a majority agreed on 30 June 2026 to hold the vote back, on a request from Senator [Ferd Crone](/nl/A0162).[7] On 3 November the government filed an amending bill. It would tax gains on all financial instruments only when they are sold, start on 1 January 2029, and keep the present assumed-return system, with the right to prove a lower return, for 2028.[4]
 
-The government pays for the novelle by cutting the box 2 rates that company owners pay, from 24.5% to 23.5% and from 31% to 29% for 2027 to 2030. That costs €575 million a year.[4] Small savers are spared. The people who gain are those who own a company. A tax on realised gains collects nothing from a fortune that is never sold.
+The government pays for it by cutting the box 2 rates company owners pay, from 24.5% to 23.5% and from 31% to 29% for 2027 to 2030. That costs €575 million a year.[4] Small savers are spared. The people who gain are those who own a company. A tax on realised gains collects nothing from a fortune that is never sold.
 
 ## What the votes show {#votes}
 
 The Tweede Kamer has voted on a wealth tax seven times since 2014. Each vote was by show of hands, so the record lists parties and not members.
 
-- November 2014, [Farshad Bashir's](/nl/A0005) amendment for a millionaire tax: SP and GroenLinks, 19 votes to 131.[14]
-- September 2015, [Emile Roemer's](/nl/A0004) motion: SP, GroenLinks and a two-member group, 21 to 129.[15]
-- May 2018, [Renske Leijten's](/nl/A0003) motion, which cites that the richest 10% hold more than two thirds of Dutch wealth: SP, GroenLinks, PvdA and DENK, 40 to 110.[13]
-- October 2019, a motion by [Mahir Alkaya](/nl/A0002), [Henk Nijboer](/nl/A0011) and [Bart Snels](/nl/A0010) for an extra tax on wealth above €1 million, to raise the minimum wage: 69 for and 81 against. PVV, with 20 seats, voted for it alongside SP, GroenLinks, PvdA, PvdD, DENK, 50PLUS and a one-member group.[12]
-- February 2024, [Jimmy Dijk's](/nl/A0001) motion for a millionaire tax in the next coalition agreement: GroenLinks-PvdA, D66, SP, PvdD, DENK and Volt, 47 to 103.[16]
-- April 2024, the Dijk and [Senna Maatoug](/nl/A0006) motion for a concrete, costed national tax: the same six parties, 47 to 103.[17]
-- September 2024, Dijk's motion to pay for dropping a VAT rise with a tax on those with more than €5 million: 36 to 114.[18]
+- 2014 to 2018: three proposals by [Farshad Bashir](/nl/A0005), [Emile Roemer](/nl/A0004) and [Renske Leijten](/nl/A0003) from SP and GroenLinks, backed by 19 to 40 votes of 150.[13][14][15]
+- October 2019: a motion by [Mahir Alkaya](/nl/A0002), [Henk Nijboer](/nl/A0011) and [Bart Snels](/nl/A0010) for an extra tax on wealth above €1 million, to raise the minimum wage. It won 69 votes against 81. The PVV, with 20 seats, voted for it alongside SP, GroenLinks, PvdA, PvdD, DENK and 50PLUS.[12]
+- 2024: three motions by [Jimmy Dijk](/nl/A0001) and [Senna Maatoug](/nl/A0006), one for a millionaire tax in the next coalition agreement, one for a concrete costed national tax, one to pay for dropping a VAT rise with a tax on those with more than €5 million. They won 36 to 47 votes of 150.[16][17][18]
 
 The votes fall short of a majority, and the 2019 vote came close: 69 votes, with a party from the right on the list.[12] In July 2022 [Luc Stultiens](/nl/A0007), Dijk, [Christine Teunissen](/nl/A0038) and [Laurens Dassen](/nl/A0039) filed a private member's bill, the Wet vermogensbelasting 2024.[11] It exempts €100,000 per person, then charges 1% rising to 5% above €5 million, and it is written to spare ordinary savers and the family home.[10] A fortune of €10 million would owe €414,000 a year. The [calculator](/calculator?w=10000000&b=100000:1,500000:2,1000000:3,2000000:4,5000000:5&c=%E2%82%AC) holds the scale. The Tweede Kamer's record shows no vote on it.[11]
 
