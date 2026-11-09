@@ -131,5 +131,3 @@ The old tax relied on paper returns and valuers. India now has Aadhaar for an es
 ## Where to look next {#next}
 
 See the [directory](/in/directory), [map](/in/map) and [method](/in/method) for India, and [papers and reports](/resources?country=in). Other countries that dropped or kept the tax: [Sweden](/se), [France](/fr), [Denmark](/dk), [Norway](/no).
-
-Egalitaristen
