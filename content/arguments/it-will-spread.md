@@ -28,8 +28,8 @@ facts:
     source: 5
 sources:
   - id: 1
-    title: Jakobsen, Kleven, Kolsrud, Landais and Muñoz, Taxing Top Wealth, NBER Working Paper 32153 (revised January 2026)
-    url: https://www.nber.org/system/files/working_papers/w32153/w32153.pdf
+    title: Jakobsen, Kleven, Kolsrud, Landais and Muñoz, Taxing Top Wealth: Migration Responses and Their Aggregate Economic Implications, American Economic Review 116(10), 3674-3720 (2026), accepted version
+    url: https://researchonline.lse.ac.uk/id/eprint/130959
   - id: 2
     title: OECD, The Role and Design of Net Wealth Taxes in the OECD, OECD Tax Policy Studies (2018), chapters 1 and 3
     url: https://www.oecd.org/content/dam/oecd/en/publications/reports/2018/04/the-role-and-design-of-net-wealth-taxes-in-the-oecd_g1g89919/9789264290303-en.pdf

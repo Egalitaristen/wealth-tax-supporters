@@ -43,8 +43,8 @@ sources:
     title: Marius Ring, Taxing Entrepreneurial Wealth, Evidence from Norway, 2021 to 2025, NBER Working Paper 35854 (October 2026, not peer reviewed)
     url: https://www.nber.org/papers/w35854
   - id: 6
-    title: Jakobsen, Kleven, Kolsrud, Landais and Muñoz, Taxing Top Wealth, NBER Working Paper 32153 (revised January 2026)
-    url: https://www.nber.org/system/files/working_papers/w32153/w32153.pdf
+    title: Jakobsen, Kleven, Kolsrud, Landais and Muñoz, Taxing Top Wealth: Migration Responses and Their Aggregate Economic Implications, American Economic Review 116(10), 3674-3720 (2026), accepted version
+    url: https://researchonline.lse.ac.uk/id/eprint/130959
   - id: 7
     title: Durán-Cabré, Esteller-Moré and Mas-Montserrat, Behavioural responses to the (re)introduction of wealth taxes, Evidence from Spain, IEB Working Paper 2019/04
     url: https://ieb.ub.edu/wp-content/uploads/2019/05/2019-IEB-WorkingPaper-04.pdf
@@ -54,6 +54,9 @@ sources:
   - id: 9
     title: Skatteetaten, Utsett betaling av formuesskatt beregnet på virksomhetsformue
     url: https://www.skatteetaten.no/person/skatt/skattekort/utsett-virksomhetsformue/
+  - id: 10
+    title: Christine Blandhol, Curbing Tax Flight? Aggregate Effects of Taxing Entrepreneur Migration, Princeton University job market paper (7 December 2025)
+    url: https://cblandhol.github.io/JMP/blandhol_JMP.pdf
 ---
 A family firm in this objection is a bakery, a farm or a workshop that has been in a family for three generations. The size of the threshold decides who pays.
 
@@ -71,7 +74,7 @@ Norway raised its wealth tax in 2022 and 2023 and shifted the valuation of share
 
 Two findings go against the tax and we state them.
 
-The first is about owners who leave. Jakobsen, Kleven, Kolsrud, Landais and Muñoz find that when a wealthy owner emigrates from Sweden or Denmark, employment in the owner's firm falls 33%, investment 22% and value added 34%, mostly through closure.[6] The harm follows from the owner leaving, and the page on departures covers how many leave and what keeps them from leaving.
+The first is about owners who leave. Jakobsen, Kleven, Kolsrud, Landais and Muñoz find that when a wealthy owner emigrates from Sweden or Denmark, employment in the owner's firm falls 33%, investment 22% and value added 34%, mostly through closure.[6] Blandhol finds in Norway that the firms of owners who out-migrate have revenues 12.6% lower than firms whose owners stay.[10] The harm follows from the owner leaving, and the page on departures covers how many leave and what keeps them from leaving.
 
 The second is about exemptions. In Spain, a higher wealth tax pushed owners to hold more of their wealth in business assets that the law exempts.[7] An exemption for business assets protects firms and costs revenue. The Swedish and Danish records show where an exemption leads: the base wears away until the tax is repealed.
 
