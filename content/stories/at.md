@@ -10,13 +10,13 @@ facts:
     value: With effect from 1 January 1994, by the Steuerreformgesetz 1993 (BGBl. 818/1993)
     source: 2
   - label: Rate
-    value: 1% a year on taxable net wealth, after an allowance of S 150,000 per person
+    value: 1% a year on taxable net wealth, after an allowance of about €10,900 per person
     source: 1
   - label: Revenue given up
-    value: S 8.3 billion a year, about €600 million
+    value: About €600 million a year
     source: 3
   - label: Whole tax package
-    value: About S 17 billion a year, with a payroll tax raised to S 8.3 billion
+    value: About €1.2 billion a year, with a payroll tax raised by about €600 million
     source: 3
   - label: Inheritance tax
     value: Ended on 31 July 2008 after a Constitutional Court ruling on valuation
@@ -109,11 +109,11 @@ Austria taxed net wealth at 1% a year until the end of 1993. Parliament then rep
 
 ## What the tax was {#tax}
 
-The Vermögensteuergesetz of 1954 charged a flat 1% a year on taxable net wealth.[1] Each taxpayer had an allowance of S 150,000 (Austrian schillings), the same for a spouse and for every minor child in the household. Spouses and children were assessed together. Companies seated in Austria paid too, with a minimum base of S 1 million for a stock company and S 500,000 for a limited company.[1]
+The Vermögensteuergesetz of 1954 charged a flat 1% a year on taxable net wealth.[1] Each taxpayer had an allowance of about €10,900 (150,000 Austrian schillings), the same for a spouse and for every minor child in the household. Spouses and children were assessed together. Companies seated in Austria paid too, with a minimum base of about €73,000 for a stock company and €36,000 for a limited company.[1]
 
-A couple with two minor children had S 600,000 free. Take such a family with taxable wealth of S 5 million. It paid 1% of S 4.4 million, which is S 44,000, or about €3,200 at the fixed rate of ATS 13.7603 to the euro.[1][6]
+A couple with two minor children had about €43,600 free. Take such a family with taxable wealth of about €363,000. It paid 1% of about €320,000, which is about €3,200 a year (at the fixed rate of 13.7603 schillings to the euro).[1][6]
 
-In its last years the government counted the tax at S 8.3 billion a year, about €600 million.[3][6] A smaller related levy, the Erbschaftssteueräquivalent, brought S 2.1 billion on top.[3]
+In its last years the government counted the tax at about €600 million a year.[3][6] A smaller related levy, the Erbschaftssteueräquivalent, brought about €150 million on top.[3]
 
 ## How it was abolished {#repeal}
 
@@ -125,7 +125,7 @@ The reason given in the bill was company equity. Flight of rich residents does n
 
 ## What the repeal cost {#cost}
 
-The package cost the state about S 17 billion a year.[3] The government paid for part of it with labour. The payroll tax went from 2% to 3% and became a municipal tax worth an extra S 8.3 billion.[3][5] The Greens' dissent in the committee report, written by Andreas Wabl, counted the new burden on work at about S 8.3 billion and noted that private households were relieved of about S 2 billion of the wealth tax and its companion levy.[4] Work paid more, and the owners of large fortunes paid less.
+The package cost the state about €1.2 billion a year.[3] The government paid for part of it with labour. The payroll tax went from 2% to 3% and became a municipal tax worth an extra €600 million.[3][5] The Greens' dissent in the committee report, written by Andreas Wabl, counted the new burden on work at about €600 million and noted that private households were relieved of about €145 million of the wealth tax and its companion levy.[4] Work paid more, and the owners of large fortunes paid less.
 
 The Greens named a second damage. Austria already raised only 1.1% of GDP from taxes on wealth, against 1.9% in the European Community and 2.1% across the OECD. With the tax gone, they wrote, private wealth would in effect no longer be taxed. They added that the last general revaluation of land was from 1 January 1973, so assessed values stood at a fifth to a tenth of real value.[4] Here lay the real flaw of the old tax, and a new valuation would have fixed it.
 
@@ -135,7 +135,7 @@ A study from 1996 found that company taxes fell sharply from 1994. Even after co
 
 ## What happened after {#after}
 
-By 2022 the slide had gone far. In property taxes made up 1% of Austria's tax revenue, €2.6 billion, which put Austria 34th of 38 OECD countries, while total taxes stood at 42.7% of GDP against an OECD average of 33.9% in 2023.[9]
+By 2022 the slide had gone far. In 2022 property taxes made up 1% of Austria's tax revenue, €2.6 billion, which put Austria 34th of 38 OECD countries, while total taxes stood at 42.7% of GDP against an OECD average of 33.9% in 2023.[9]
 
 Wealth meanwhile stays concentrated. In 2021 the median household had net wealth of about €128,000 and the mean was about €293,000. Net wealth above €1 million occurs only in the top 5% of households.[8] The Nationalbank says its survey misses the very top. The report cites the European Central Bank, which puts the share of the richest 1% at 40% in 2022, against about 28% in the euro area.[8]
 
@@ -147,7 +147,7 @@ The SPÖ model taxes the net wealth of households and private foundations. It ch
 
 Take a household with €12 million of net wealth outside its home. Under the bands printed by the SPÖ it pays 0.5% on €9 million, which is €45,000, plus 1% on €2 million, which is €20,000. That is €65,000 a year, or 0.54% of its wealth.[10] The Momentum Institut puts the yield of a net wealth tax from €1 million at up to €5 billion a year.[11] Only the top 5% of households have more than €1 million, so the tax stays on the top.[8]
 
-A study ordered by a business foundation and a bank starts from the same €5 billion. It then reports a net long-run effect of €2 billion after investment falls, and claims that 40,000 jobs would be lost.[12] That is a model, and it takes the €5 billion as given. It is also more than three times the S 8.3 billion the old tax raised, in euro terms.[3][6][12] The old tax ran for nearly forty years, and the Armutskonferenz paper points out that most large wealth is real estate, which cannot leave.[13]
+A study ordered by a business foundation and a bank starts from the same €5 billion. It then reports a net long-run effect of €2 billion after investment falls, and claims that 40,000 jobs would be lost.[12] That is a model, and it takes the €5 billion as given. It is also more than eight times the €600 million the old tax raised.[3][6][12] The old tax ran for nearly forty years, and the Armutskonferenz paper points out that most large wealth is real estate, which cannot leave.[13]
 
 A new tax should avoid the old holes: value land and company shares at market value, include private foundations, keep the allowance at the household level and tax wealth held abroad. The SPÖ model already names foundations.[10] An exit tax on those who leave with a fortune completes it.
 
@@ -169,7 +169,9 @@ The SPÖ has the most developed model. Party leader [Andreas Babler](/at/A0002) 
 
 ### Repeal moved the burden {#burden}
 
-The state gave up S 8.3 billion a year from wealth and raised the payroll tax by about the same amount.[3] 
+The state gave up about €600 million a year from wealth and raised the payroll tax by about the same amount.[3]
+
+
 ### The flaws were fixable {#fixable}
 
 Old land values and soft rules hurt the 1954 tax in 1993, and old land values ended the inheritance tax in 2008.[4][7] A new tax starts from market values.
