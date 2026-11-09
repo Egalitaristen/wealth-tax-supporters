@@ -149,7 +149,7 @@ The other standard worry is that wealth taxes make people save less. Economist M
 
 On 8 September 2025 Labour won 53 seats, the Progress Party 47 and Høyre 24. SV, Sp and Rødt took 9 each and MDG 8. The five parties that back the tax hold 88 of 169 seats.[15] The decision for 2026 kept the rates.[1]
 
-On 15 February 2026 Høyre's national assembly voted 158 to 131 to abolish the tax entirely. LO's chief economist, Roger Bjørnstad, said that would make Norway a tax haven.[16] On 24 June the tax commission proposed one rate between 0.25% and 0.75%, no valuation discounts and a higher general threshold. Its package would cut the wealth tax by up to kr 25.2 billion. The Rødt member resigned from the commission in protest.[18] Even the commission kept a tax on wealth.
+In February 2026 Høyre's national assembly voted to abolish the tax entirely. LO's chief economist, Roger Bjørnstad, said that would make Norway a tax haven.[16] On 24 June the tax commission proposed one rate between 0.25% and 0.75%, no valuation discounts and a higher general threshold. Its package would cut the wealth tax by up to kr 25.2 billion. The Rødt member resigned from the commission in protest.[18] Even the commission kept a tax on wealth.
 
 ## Who supports it {#who-supports}
 

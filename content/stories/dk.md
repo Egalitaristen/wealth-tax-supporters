@@ -120,7 +120,7 @@ sources:
     title: TjekDet, Nyt studie om formueskat: Nogle velhavende flytter, men de samlede effekter vil være begrænsede (4 March 2026)
     url: https://www.tjekdet.dk/faktatjek/nyt-studie-om-formueskat-nogle-velhavende-flytter-men-de-samlede-effekter-vil-vaere
 ---
-Denmark taxed wealth for 94 years, and then gave the tax away in a budget negotiation.[5] On 15 December 1995 the Folketing voted 113 to 16 to cut the rate to 0.7% for 1996 and to zero from 1997.[1][4] The man who negotiated the deal for the government, Mogens Lykketoft, says the repeal was the price of Conservative votes on the budget.[10] The bill makes no finding that the tax had failed. About 35,000 families still paid it in its last year, and it raised about 760 million kr.[1] In 2026 three parties proposed a new one. On 8 November 2026 no bill or motion for it sits in the Folketing.[16]
+Denmark taxed wealth for 94 years, and then gave the tax away in a budget negotiation.[5] In December 1995 the Folketing voted to cut the rate to 0.7% for 1996 and to zero from 1997.[1][4] The man who negotiated the deal for the government, Mogens Lykketoft, says the repeal was the price of Conservative votes on the budget.[10] The bill makes no finding that the tax had failed. About 35,000 families still paid it in its last year, and it raised about 760 million kr.[1] In 2026 three parties proposed a new one. As of 8 November 2026 no bill or motion for it sits in the Folketing.[16]
 
 ## What it charged and who paid {#tax}
 
@@ -142,7 +142,7 @@ The government parties, Socialdemokratiet, Det Radikale Venstre and Centrum-Demo
 
 The Social Democrats did not want it. Their spokesperson, Jacob Buksti, called the repeal a flower that never grew in the party's own garden and said the party could live with it as part of the package.[3] Lykketoft, writing in 2021, says it was not his wish but a price paid to the Conservatives for an otherwise solid Social Democratic budget.[10]
 
-The right cheered. Peter Brixtofte of Venstre called the repeal a first step toward removing other taxes he said were driven by envy, and the Conservatives' Flemming Hansen said he had argued for repeal many times and now saw it succeed.[3] The Radikale spokesperson, Elisabeth Arnold, said her party would have kept the tax.[3] The bill passed 113 to 16. SF, Enhedslisten and one Social Democrat voted against, and Kristen Touborg of SF called the bill antisocial.[3][4]
+The right cheered. Peter Brixtofte of Venstre called the repeal a first step toward removing other taxes he said were driven by envy, and the Conservatives' Flemming Hansen said he had argued for repeal many times and now saw it succeed.[3] The Radikale spokesperson, Elisabeth Arnold, said her party would have kept the tax.[3] SF and Enhedslisten voted against, and Kristen Touborg of SF called the bill antisocial.[3][4]
 
 ## The tax comes back as a proposal {#proposals}
 
@@ -150,11 +150,11 @@ In January 2022 three members from Frie Grønne put forward B 70: a scale from 1
 
 On 26 February 2026 Mette Frederiksen proposed 0.5% of wealth above 25 million kr. per person, with a deduction for home equity up to 10 million kr. It would hit 22,000 people and raise 6 to 7 billion kr. a year for smaller school classes.[11] She said wealth had become so concentrated that it distorts Denmark.[11] SF proposed 0.5% above 10 million kr. and Enhedslisten 1% above 35 million.[12]
 
-## Where the Folketing stands on 8 November 2026 {#status}
+## Where the Folketing stands {#status}
 
 The March 2026 election cost the parties that backed a wealth tax six seats, from 80 to 74.[13] The new government of Socialdemokratiet, SF, Moderaterne and Radikale Venstre published its platform on 2 June 2026. It leaves out the wealth tax, and Moderaterne and Radikale Venstre had opposed the Social Democratic proposal.[14] Finance Minister Peter Hummelgaard said on 9 July that the idea lives on in the government's plans to look at inheritance and housing sales.[15]
 
-On 8 November 2026 I read every title on the Folketingstidende lists of motions and bills for the sessions of 2025-26 and 2026-27. None mentions a wealth tax.[16]
+As of 8 November 2026 no motion or bill in the Folketing's lists for 2025-26 and 2026-27 mentions a wealth tax.[16]
 
 ## What Danish tax records show {#economists}
 

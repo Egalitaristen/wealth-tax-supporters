@@ -145,7 +145,7 @@ President Luis Arce sent the bill to the Assembly on 25 November 2020, in the pa
 
 The Chamber of Deputies took the bill up on 9 December. [Omar Yujra](/bo/A0012) of MAS said he saw no technical reason to oppose it. The Creemos bench announced its rejection, and Senator Centa Rek called the bill demagogic.[12] The Chamber passed it on 10 December.[17] The Deputies' text ran for 2020 and 2021 only. On 17 December the Senate changed it to apply from 2020 on with no end date, and sent it back.[13] [Marcelo Montenegro](/bo/A0007), the economy minister, presented the bill there.[13] Arce promulgated the law on 28 December.[1]
 
-The Assembly records we could open print no tally per member. The register lists [Luis Arce](/bo/A0003) and Montenegro as signatories of the law, and the [Asamblea Legislativa Plurinacional](/bo/A0006) as the body that passed it.
+The register lists [Luis Arce](/bo/A0003) and Montenegro as signatories of the law, and the [Asamblea Legislativa Plurinacional](/bo/A0006) as the body that passed it.
 
 ## The repeal that stalled {#repeal}
 
@@ -153,9 +153,9 @@ On 25 November 2025 Paz and Economy Minister José Gabriel Espinoza announced a 
 
 [Oxfam en Bolivia](/bo/A0001) answered the next day. It said the tax falls on about 200 people and that repeal would benefit the richest 0.001% of the country.[7]
 
-The repeal bill was number 115/2025-2026.[9] On 11 February 2026 the Chamber reported that its planning committee, chaired by Raúl Párraga, had approved the repeal of the financial transactions tax and had not reached consensus on the IGF. The Executive would have to bring a new proposal with technical support.[10] Minister of the Presidency José Luis Lupo answered that the government would insist.[9] The plenary approved the other repeal that day.[9]
+In February 2026 the Chamber reported that its planning committee, chaired by Raúl Párraga, had approved the repeal of the financial transactions tax and had not reached consensus on the IGF. The Executive would have to bring a new proposal with technical support.[10] Minister of the Presidency José Luis Lupo answered that the government would insist.[9] The plenary approved the other repeal that day.[9]
 
-The tax authority moved the 2025 filing deadline to 30 April for residents and 29 May for non-residents, so the IGF was still being collected that spring.[5] On 8 November 2026 its list of laws still carries Ley 1357. The newest tax laws on it are Ley 1717, Ley 1718 and Ley 1733, and none repeals or amends the IGF.[6]
+The tax authority moved the 2025 filing deadline to 30 April for residents and 29 May for non-residents, so the IGF was still being collected that spring.[5] As of 8 November 2026 its list of laws still carries Ley 1357. The newest tax laws on it are Ley 1717, Ley 1718 and Ley 1733, and none repeals or amends the IGF.[6]
 
 ## Who supports it {#who-supports}
 

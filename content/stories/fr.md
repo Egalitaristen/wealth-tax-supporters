@@ -165,19 +165,18 @@ Bill no. 768 of 7 January 2025, by [Eva Sas](/fr/A0200), [Clémentine Autain](/f
 
 The tax charges only the difference. It takes 2% of net wealth and subtracts the income tax, social contributions, IFI and property taxes already paid.[12] A fortune of €500 million that pays €5 million in those taxes owes €10 million at the floor, minus €5 million: €5 million. Households that already pay 2% owe nothing.
 
-The votes, in order:
+What happened to it:
 
-- Assemblée, 20 February 2025: adopted, 116 for, 39 against, 31 abstentions.[6]
-- Sénat, 12 June 2025: rejected, 129 for, 188 against.[7]
-- Assemblée, 31 October 2025, amendment 2359 of Boris Vallaud to the 2026 budget: rejected, 172 to 228.[8]
-- Sénat, 28 November 2025: the right and centre voted the amendments down.[18]
-- Assemblée, 16 October 2026, three amendments to the 2027 budget: rejected 70 to 35, 68 to 35 and 70 to 35.[9][10][11]
+- February 2025: the Assemblée adopted the bill.[6]
+- June 2025: the Sénat rejected it.[7]
+- Autumn 2025: the Assemblée and then the Sénat rejected the same tax as an amendment to the 2026 budget.[8][18]
+- October 2026: the Assemblée rejected three versions of it as amendments to the 2027 budget.[9][10][11]
 
 The Conseil constitutionnel has not ruled on the tax, because no text has been adopted. Its decision of 19 February 2026 on the 2026 finance law never mentions a floor tax or a wealth tax.[15] Minister Amélie de Montchalin read out a Conseil d'État opinion that finds the tax contrary to equality before public charges, and the constitutionalist Jean-Pierre Camby said he did not see the Conseil constitutionnel departing from it.[19] That is a prediction about a text the Conseil has not seen.
 
 ## Where it stands on 8 November 2026 {#now}
 
-The 2027 budget bill, no. 3210, was filed on 1 October 2026. The Socialist, Insoumis and Écologiste groups each filed a floor-tax amendment, and each was voted down on 16 October.[9][10][11][12] On 4 November the Assemblée rejected the first part of the bill, and under article 119 of its rules that rejects the whole text at first reading.[13] The Sénat's page shows no Senate stage yet as of 6 November.[14] The tax is not in the bill.
+The 2027 budget bill was filed on 1 October 2026. The Socialist, Insoumis and Écologiste groups each filed a floor-tax amendment, and each was voted down on 16 October.[9][10][11][12] On 4 November the Assemblée rejected the first part of the bill, and under article 119 of its rules that rejects the whole text at first reading.[13] The Sénat's page shows no Senate stage yet as of 6 November.[14] The tax is not in the bill.
 
 The public is ahead of the chamber. Ifop found 86% in favour for the Parti socialiste in September 2025, 58% completely.[16] Elabe asked for BFMTV on 4 and 5 November 2025 whether the deputies were right to reject it, with the question stating that professional assets are included. 59% said they were wrong and 40% that they were right.[17]
 
