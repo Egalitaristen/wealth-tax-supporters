@@ -3,7 +3,7 @@ title: A homeowner with no cash still pays the property tax, and a fortune can p
 kind: argument
 objection: "They are asset-rich and cash-poor. A wealth tax would force them to sell."
 answer: We accept that a pensioner with a house and a small income pays property tax by borrowing, selling or deferring. No other tax excuses its payers because their wealth is not in cash, and the schemes that spread a wealth tax over time already exist.
-standfirst: Norway lets owners defer wealth tax on business wealth for up to three years from income year 2026, and California's Proposition 40 allowed payment in five instalments. A 1% annual tax on a fortune equals a 20% tax on a 5% return. The one place where cash does bite is dividends, and the best Norwegian evidence finds no extra dividends, less investment or more bankruptcies in firms whose owners pay.
+standfirst: Norway lets owners defer wealth tax on business wealth for up to three years from income year 2026, and Norway's exit tax can be paid over 12 years. A 1% annual tax on a fortune equals a 20% tax on a 5% return. The one place where cash does bite is dividends, and the best Norwegian evidence finds no extra dividends, less investment or more bankruptcies in firms whose owners pay.
 updated: 2026-11-08
 author: Egalitaristen
 layout: article
@@ -11,9 +11,9 @@ facts:
   - label: Norway, deferral of wealth tax on business wealth
     value: Up to three years, policy rate plus 5 percentage points, from income year 2026
     source: 1
-  - label: California Proposition 40, payment
-    value: Five equal annual instalments with a 7.5% yearly charge on the unpaid balance
-    source: 2
+  - label: Holding companies in Norway and Sweden
+    value: Shield about half of dividend distributions from personal income tax
+    source: 7
   - label: A 1% tax on the stock, in terms of a 5% return
     value: Equal to a 20% tax on the return
     source: 3
@@ -43,11 +43,14 @@ sources:
     title: Civita, notat 26/2025, Store formuer flytter ut av Norge
     url: https://civita.no/content/uploads/2025/07/Notat_26_2025_Store-formuer-flytter-ut-av-Norge.pdf
   - id: 7
-    title: Balkir, Saez, Yagan and Zucman, How Much Tax Do US Billionaires Pay? Evidence from Administrative Data, NBER Working Paper 34170 (August 2025)
-    url: https://gabriel-zucman.eu/files/BSYZ2025NBER.pdf
+    title: Ring, Seim and Zucman, Personal Holding Companies, Tax Progressivity, and Inequality, NBER Working Paper 35534 (July 2026, not peer reviewed)
+    url: https://gabriel-zucman.eu/files/RSZ2026.pdf
   - id: 8
     title: Saez, Yagan and Zucman, Capital Gains Withholding (January 2021)
     url: https://gabriel-zucman.eu/files/SYZ2021.pdf
+  - id: 9
+    title: Balkir, Saez, Yagan and Zucman, How Much Tax Do US Billionaires Pay? Evidence from Administrative Data, NBER Working Paper 34170 (August 2025, not peer reviewed)
+    url: https://gabriel-zucman.eu/files/BSYZ2025NBER.pdf
 ---
 Everyone who owns a house has met this problem. The property tax bill comes once a year, and a retired owner with a small income and a paid-off house owes it in full. She pays it from savings, by borrowing against the house, by selling it or by asking for a deferral. Nobody proposes to abolish the property tax because some owners are house-rich and cash-poor. We accept that for every other tax, and the objection asks us to drop it for the largest fortunes alone.
 
@@ -59,7 +62,7 @@ The claim is that a wealth tax forces owners of companies and land to sell, beca
 
 The first answer is the size of the bill. The Mirrlees Review, which argued against an annual wealth tax in Britain, states the arithmetic: a 20% tax on a 5% return is the same as a 1% tax on the stock.[3] An owner whose wealth earns 5% a year and pays a 1% wealth tax pays out one fifth of the return. A fortune that earns 5% pays the tax from the return and keeps four fifths.
 
-In the US the private companies owned by the 400 richest people distribute less than 10% of their profits as dividends.[7] The money exists in the company, and the owner decides how much of it to pay out.
+In Norway and Sweden, personal holding companies shield about half of dividend distributions from individual income tax, so owners hold large sums inside companies they control.[7] The money exists in the company, and the owner decides how much of it to pay out. In the United States the private companies of the 400 richest people distribute less than 10% of their profits as dividends.[9]
 
 ## Four ways to pay {#ways}
 
@@ -70,7 +73,7 @@ An owner who has the wealth and not the cash has four ways to pay.
 - Take a dividend or a distribution from the company.
 - Defer. Norway lets private individuals defer wealth tax attributed to business wealth for up to three years, if the amount is NOK 30,000 or more, at the central bank's policy rate plus 5 percentage points. The earliest income year is 2026.[1]
 
-California's Proposition 40 wrote an instalment plan into the text: payers could spread the tax over five equal annual instalments, each carrying a nondeductible charge of 7.5% of the unpaid balance.[2] Norway's exit tax has a similar structure. Since March 2024 the tax on unrealised gains of people who leave must be paid within 12 years, in instalments or deferred with interest.[5] The schemes exist, and the question is only how long to wait and at what interest rate.
+Norway's exit tax has the same structure. Since March 2024 the tax on unrealised gains of people who leave must be paid within 12 years, in instalments or deferred with interest.[5] The proposals for new taxes carry such schemes too: California's Proposition 40 would have let payers spread the tax over five equal annual instalments, each carrying a nondeductible charge of 7.5% of the unpaid balance.[2] The schemes exist, and the question is only how long to wait and at what interest rate.
 
 ## What the evidence on dividends says {#evidence}
 
@@ -80,7 +83,7 @@ The unfavourable evidence is on the other side. Norway raised the dividend tax f
 
 ## The unrealised gain is the reason {#gains}
 
-Why is there so little cash? One reason is that a large part of top wealth has never been sold. For households with more than US$50 million, Saez, Yagan and Zucman estimate that capital gains are 50% of wealth, and that about 90% of those gains are in business shares.[8] The wealth has grown without producing a taxable event, so the owner has paid no tax on it and has no sale proceeds to pay one. A tax on the stock gives that wealth a first tax bill.
+Why is there so little cash? One reason is that a large part of top wealth has never been sold. In the countries where it has been measured, top wealth is mostly shares in private companies.[7] Such wealth grows as retained profit and unrealised gain, without a taxable event, so the owner has paid no tax on the growth and has no sale proceeds to pay one. In the United States, to give one estimate, capital gains are 50% of wealth for households with more than US$50 million, and about 90% of those gains are in business shares.[8] A tax on the stock gives that wealth a first tax bill.
 
 ## What a design for owners looks like {#design}
 
@@ -88,7 +91,7 @@ A design keeps the owner's choice open. Allow payment in instalments or deferral
 
 ## Who says so {#who}
 
-The [Norwegian story](/no) covers the deferral scheme and the Ring study, and the [United States story](/us) covers Proposition 40 and the federal scale.
+The [Norwegian story](/no) covers the deferral scheme and the Ring study, the [Swedish story](/se) the holding companies, and the [United States story](/us) covers Proposition 40.
 
 ## Where to look next {#next}
 
