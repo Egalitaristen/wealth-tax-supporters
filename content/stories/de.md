@@ -4,6 +4,7 @@ standfirst: In 1995 the Federal Constitutional Court told the legislature to val
 updated: 2026-11-08
 author: Egalitaristen
 layout: article
+status: draft
 facts:
   - label: Law
     value: Vermögensteuergesetz, still in force, not applied since 1 January 1997

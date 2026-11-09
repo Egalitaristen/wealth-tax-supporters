@@ -7,6 +7,7 @@ standfirst: In 2024 719,007 taxpayers paid Norwegian wealth tax, NOK 31.8 billio
 updated: 2026-11-08
 author: Egalitaristen
 layout: article
+status: draft
 facts:
   - label: Norwegian wealth tax payers, 2024
     value: 719,007, paying NOK 31.8 billion

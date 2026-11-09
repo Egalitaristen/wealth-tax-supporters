@@ -4,6 +4,7 @@ standfirst: Sweden taxed net wealth from 1911 until the Alliance government abol
 updated: 2026-11-08
 author: Egalitaristen
 layout: article
+status: draft
 facts:
   - label: Tax abolished
     value: With effect from 2007; Lag (1997:323) last applied for 2006

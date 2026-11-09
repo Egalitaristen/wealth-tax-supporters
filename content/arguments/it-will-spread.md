@@ -7,6 +7,7 @@ standfirst: Sweden's threshold rose from SEK 800,000 in 1991 to SEK 3 million in
 updated: 2026-11-08
 author: Egalitaristen
 layout: article
+status: draft
 facts:
   - label: Sweden, threshold for couples
     value: SEK 800,000 in 1991, SEK 3 million in 2006

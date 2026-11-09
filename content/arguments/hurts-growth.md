@@ -7,6 +7,7 @@ standfirst: Jakobsen, Kleven, Kolsrud, Landais and Muñoz find that a 1 percenta
 updated: 2026-11-08
 author: Egalitaristen
 layout: article
+status: draft
 facts:
   - label: Effect of 1 point on the top wealth tax rate (Sweden and Denmark)
     value: Investment down 0.07%, value added down 0.10%, employment down 0.02%

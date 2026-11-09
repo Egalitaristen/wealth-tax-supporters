@@ -7,6 +7,7 @@ standfirst: Net wealth taxes raised between 0.2% of GDP in Spain and 1.0% in Swi
 updated: 2026-11-09
 author: Egalitaristen
 layout: article
+status: draft
 facts:
   - label: Net wealth tax revenue, 2016
     value: 0.2% of GDP in Spain to 1.0% in Switzerland

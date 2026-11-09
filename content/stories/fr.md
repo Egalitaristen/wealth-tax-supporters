@@ -4,6 +4,7 @@ standfirst: The ISF raised €4.2 billion from 358,000 households in 2017. The 2
 updated: 2026-11-08
 author: Egalitaristen
 layout: article
+status: draft
 facts:
   - label: ISF, 2017
     value: 358,000 households, €4.2 billion net, threshold €1.3 million

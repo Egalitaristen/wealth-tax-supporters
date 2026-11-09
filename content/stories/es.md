@@ -4,6 +4,7 @@ standfirst: Spain levies a wealth tax that each region can rebate and, since 202
 updated: 2026-11-05
 author: Egalitaristen
 layout: article
+status: draft
 facts:
   - label: Wealth tax since
     value: 1977, restored in 2011 after a 100% rebate

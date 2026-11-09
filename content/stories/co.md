@@ -4,6 +4,7 @@ standfirst: Colombia has taxed net wealth in one form or another since 2006. Ley
 updated: 2026-11-07
 author: Egalitaristen
 layout: article
+status: draft
 facts:
   - label: Law
     value: Ley 2277 of 13 December 2022, permanent

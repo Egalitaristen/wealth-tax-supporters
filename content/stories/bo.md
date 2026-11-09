@@ -4,6 +4,7 @@ standfirst: Ley 1357 of December 2020 charges 1.4% to 2.4% on net fortunes above
 updated: 2026-11-08
 author: Egalitaristen
 layout: article
+status: draft
 facts:
   - label: Law
     value: Ley 1357 of 28 December 2020, no end date

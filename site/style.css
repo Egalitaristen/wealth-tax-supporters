@@ -1242,3 +1242,9 @@ body:not(.ready) .foot { visibility: hidden; }
   .tools .social { display: none; }
 }
 .top .top-in { max-width: 1480px; }
+
+/* Draft marker on stories and argument pages (status: draft in the front matter). */
+.draft-note { display: flex; align-items: baseline; flex-wrap: wrap; gap: 10px; margin: 12px 0 0; font-size: 14px; line-height: 1.45; color: var(--ink-2); }
+.draft-pill { display: inline-block; font: 600 11px/1 var(--mono); letter-spacing: .1em; text-transform: uppercase; color: var(--on-signal); background: var(--signal); padding: 4px 8px 3px; border-radius: 3px; }
+.arg-n .draft-pill { margin-left: 8px; vertical-align: 1px; }
+.arg-page .draft-note { margin: 4px 0 16px; }

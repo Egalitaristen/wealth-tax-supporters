@@ -871,6 +871,7 @@ function renderStoryArticle(S, ctx) {
   return `<article class="story story-article fade">
     <header class="story-head">
       <div class="kicker">${flag(ctx.slug)}${esc(ctx.name)} · Story</div>
+      ${S.status === 'final' ? '' : '<p class="draft-note"><span class="draft-pill">Draft</span> <span>The wording, numbers and structure of this page are still being revised and will change.</span></p>'}
       <h1>${esc(S.title)}</h1>
       <p class="standfirst">${esc(S.standfirst)}</p>
       ${storyByline(S)}

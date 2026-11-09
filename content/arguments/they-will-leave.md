@@ -7,6 +7,7 @@ standfirst: Norway raised its wealth tax in 2022 and the press reported an exodu
 updated: 2026-11-08
 author: Egalitaristen
 layout: article
+status: draft
 facts:
   - label: Finance Ministry count of people with over NOK 100 million who moved
     value: 48 in 2022 and 34 in 2023

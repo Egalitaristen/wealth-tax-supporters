@@ -7,6 +7,7 @@ standfirst: Under Warren's design less than 0.1% of US families would pay. Colom
 updated: 2026-11-08
 author: Egalitaristen
 layout: article
+status: draft
 facts:
   - label: US families liable under Warren's design
     value: Less than 0.1%

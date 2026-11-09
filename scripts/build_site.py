@@ -747,6 +747,9 @@ def load_story(slug):
             raise SystemExit(f"{f.name}: front matter needs {k}")
     if not re.match(r"\d{4}-\d\d-\d\d\Z", fm["updated"]):
         raise SystemExit(f"{f.name}: updated must be YYYY-MM-DD")
+    status = fm.get("status", "draft")
+    if status not in PAGE_STATUS:
+        raise SystemExit(f"{f.name}: status must be one of {PAGE_STATUS}")
     layout = fm.get("layout", "article")
     if layout not in STORY_LAYOUTS:
         raise SystemExit(f"{f.name}: layout must be one of {STORY_LAYOUTS}")
@@ -775,8 +778,17 @@ def load_story(slug):
         print(f"  WARNING {f.name}: sources never cited: {', '.join(unused)}")
     words = len(re.sub(r"<[^>]+>", " ", intro + " ".join(s["html"] for s in sections)).split())
     print(f"  story {slug}: {words} words, {len(sections)} sections, layout {layout}")
-    return dict(title=fm["title"], standfirst=fm["standfirst"], updated=fm["updated"], author=fm.get("author", "Egalitaristen"), layout=layout,
+    return dict(title=fm["title"], standfirst=fm["standfirst"], updated=fm["updated"], author=fm.get("author", "Egalitaristen"), layout=layout, status=status,
                 facts=fm.get("facts", []), timeline=fm.get("timeline", []), sources=srcs, intro=intro, sections=sections, words=words)
+
+
+# Stories and argument pages carry `status: draft` (the default) until the author marks them final. A draft shows a badge so readers know the page will change.
+PAGE_STATUS = ("draft", "final")
+DRAFT_NOTE = "Draft. The wording, numbers and structure of this page are still being revised and will change."
+
+
+def draft_badge(status):
+    return f'<p class="draft-note"><span class="draft-pill">Draft</span> <span>{h(DRAFT_NOTE[len("Draft. "):])}</span></p>' if status != "final" else ""
 
 
 # ---------- arguments: content/arguments/<slug>.md -> /arguments and /arguments/<slug> ----------
@@ -797,7 +809,7 @@ ARGUMENT_ORDER = [
     ("hurts-growth", "Hurts growth"),
     ("unconstitutional", "Unconstitutional"),
 ]
-ARGUMENT_FIELDS = {"title", "standfirst", "updated", "author", "layout", "facts", "sources", "kind", "objection", "answer"}
+ARGUMENT_FIELDS = {"title", "standfirst", "updated", "author", "layout", "facts", "sources", "kind", "objection", "answer", "status"}
 ARGUMENTS_ONLY = False  # --only arguments: a preview build of the section, with the countries its pages link to
 ARGUMENT_HUB_INTRO = ("Every wealth tax meets the same objections. Each one is put here the way people raise it, then answered on a page of its own, "
                       "with the figures, the laws and the court rulings behind the answer. Every number carries a source you can open.")
@@ -845,6 +857,8 @@ def load_arguments():
                 err(f"front matter needs {k}")
         if fm.get("kind") and fm["kind"] != "argument":
             err("kind must be 'argument'")
+        if fm.get("status", "draft") not in PAGE_STATUS:
+            err(f"status must be one of {PAGE_STATUS}")
         if fm.get("updated") and not re.match(r"\d{4}-\d\d-\d\d\Z", fm["updated"]):
             err("updated must be YYYY-MM-DD")
         if fm.get("layout", "article") not in STORY_LAYOUTS:
@@ -882,7 +896,7 @@ def load_arguments():
             print(f"  WARNING {f.name}: sources never cited: {', '.join(unused)}")
         words = len(re.sub(r"<[^>]+>", " ", intro + " ".join(s["html"] for s in sections)).split())
         pages[slug] = dict(slug=slug, short=short.get(slug, slug), title=fm.get("title", ""), standfirst=fm.get("standfirst", ""), updated=fm.get("updated", ""),
-                           author=fm.get("author", "Egalitaristen"), layout=fm.get("layout", "article"), objection=fm.get("objection", ""), answer=fm.get("answer", ""),
+                           author=fm.get("author", "Egalitaristen"), layout=fm.get("layout", "article"), status=fm.get("status", "draft"), objection=fm.get("objection", ""), answer=fm.get("answer", ""),
                            facts=fm.get("facts", []), sources=srcs, intro=intro, sections=sections, words=words)
         print(f"  argument {slug}: {words} words, {len(sections)} sections")
     for s in order:
@@ -915,7 +929,7 @@ def argument_body(a, prev, nxt):
         return f'<a class="{cls}" href="/arguments/{h(x["slug"])}"><span>{lab}</span><b>{h(x["short"])}</b></a>' if x else f'<span class="{cls} none"></span>'
     return (f'<div class="wrap fade" data-arg-page="{h(a["slug"])}"><article class="story story-article arg-page"><header class="story-head">'
             f'<nav class="crumbs" aria-label="Breadcrumb"><a href="/arguments">Arguments</a><span>/</span><span>{h(a["short"])}</span></nav>'
-            f'<p class="arg-objection">“{h(plain_quote(a["objection"]))}”</p>'
+            f'{draft_badge(a["status"])}<p class="arg-objection">“{h(plain_quote(a["objection"]))}”</p>'
             f'<h1>{h(a["title"])}</h1><p class="standfirst">{h(a["standfirst"])}</p>'
             f'<p class="byline">By <b>{h(a["author"])}</b> · Updated {h(_long_date(a["updated"]))} · {max(1, round(a["words"] / 220))} min read</p></header>'
             f'<div class="story-grid"><nav class="story-nav" aria-label="On this page"><details class="jump" open><summary>Jump to</summary><ol class="toc">{toc}</ol></details></nav>'
@@ -926,7 +940,7 @@ def argument_body(a, prev, nxt):
 
 def arguments_hub_body(args):
     cards = "".join(
-        f'<article class="arg-card{" lead" if i == 0 else ""}"><p class="arg-n">{i + 1:02d} · {h(a["short"])}</p>'
+        f'<article class="arg-card{" lead" if i == 0 else ""}"><p class="arg-n">{i + 1:02d} · {h(a["short"])}{" <span class=\"draft-pill\">Draft</span>" if a["status"] != "final" else ""}</p>'
         f'<h2 class="arg-q">“{h(plain_quote(a["objection"]))}”</h2><p class="arg-a">{h(a["answer"])}</p>'
         f'<a class="arg-go" href="/arguments/{h(a["slug"])}">{"Start here: read the answer" if i == 0 else "Read the answer"} →</a></article>' for i, a in enumerate(args))
     return (f'<div class="wrap page-head fade" data-arg-page="hub"><nav class="crumbs" aria-label="Breadcrumb"><span>Arguments</span></nav>'

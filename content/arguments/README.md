@@ -18,6 +18,7 @@ standfirst: One or two sentences under the headline.
 updated: 2026-11-08
 author: Egalitaristen
 layout: article                     # the only template
+status: draft                       # draft (default) shows a Draft badge; final removes it
 facts:
   - label: Wealth tax since
     value: 1840s
