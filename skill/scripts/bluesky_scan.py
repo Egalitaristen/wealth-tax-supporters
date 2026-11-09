@@ -14,6 +14,8 @@ Usage:
   known  searches the same phrases restricted to the Bluesky accounts already in the register's profiles.csv (more evidence for
          people we have). Lower priority than open.
   show   prints a collected file compactly, best candidates first.
+  enrich adds each author's pinned post and the post each reply answers (run once on a collected file).
+  full   prints authors START..START+COUNT in full (whole bio, pinned post, every post): what a reviewer reads. Keywords and score only set the order, they never exclude anyone.
 
 Rules built in:
   - The public AppView endpoint (api.bsky.app) needs no login. Be gentle: a pause between calls, retry on 429.
@@ -121,11 +123,31 @@ def search(q, lang, since, pages, author=None):
     return posts
 
 
+def media_text(embed):
+    """What a post carries besides its text: the alt text of images (often the whole message of a party's graphic), a linked
+    article's title and description, and a quoted post. A reviewer must read these, or an image-only post looks empty."""
+    out = []
+    e = embed or {}
+    if e.get("$type", "").startswith("app.bsky.embed.recordWithMedia"):
+        out += media_text(e.get("media"))
+        e = e.get("record") or {}
+    for im in e.get("images", []) or []:
+        if im.get("alt"):
+            out.append("IMAGE: " + im["alt"])
+    ext = e.get("external")
+    if ext:
+        out.append(f"LINK: {ext.get('title', '')} - {ext.get('description', '')} ({ext.get('uri', '')})")
+    q = e.get("record") if e.get("$type", "").startswith("app.bsky.embed.record#view") else None
+    if q and q.get("value"):
+        out.append(f"QUOTING @{(q.get('author') or {}).get('handle', '')}: {q['value'].get('text', '')}")
+    return out
+
+
 def post_row(p, query):
     rec, a = p.get("record", {}), p["author"]
     rkey = p["uri"].rsplit("/", 1)[-1]
-    return dict(url=f"https://bsky.app/profile/{a['handle']}/post/{rkey}", uri=p["uri"], date=rec.get("createdAt", "")[:10],
-                text=rec.get("text", ""), langs=rec.get("langs", []), reply=bool(rec.get("reply")), query=query,
+    return dict(url=f"https://bsky.app/profile/{a['handle']}/post/{rkey}", uri=p["uri"], parent_uri=(rec.get("reply") or {}).get("parent", {}).get("uri", ""), date=rec.get("createdAt", "")[:10],
+                text=rec.get("text", ""), media=media_text(p.get("embed")), langs=rec.get("langs", []), reply=bool(rec.get("reply")), query=query,
                 likes=p.get("likeCount", 0), reposts=p.get("repostCount", 0), replies=p.get("replyCount", 0),
                 quotes=p.get("quoteCount", 0))
 
@@ -183,12 +205,46 @@ def collect(queries, since, pages, known, authors=None, names=None):
         out.append(dict(did=did, handle=handle, name=pr.get("displayName", ""), bio=pr.get("description", ""),
                         followers=pr.get("followersCount", 0), posts_total=pr.get("postsCount", 0),
                         verified=pr.get("verification", {}).get("verifiedStatus") == "valid",
+                        pinned_uri=(pr.get("pinnedPost") or {}).get("uri", ""), created=pr.get("createdAt", "")[:10],
                         in_register=known.get(handle.lower()) or (names or {}).get(norm(pr.get("displayName", "")) if pr.get("displayName") else None),
                         hints=hints(pr.get("description", ""), pr.get("displayName", "")), score=score(pr, handle, len(posts)),
                         posts=sorted(posts, key=lambda x: x["date"], reverse=True)))
     out.sort(key=lambda r: (r["in_register"] is not None, -r["score"], -len(r["posts"])))
     print(f"{len(out)} authors, {sum(len(r['posts']) for r in out)} posts, {skipped} skipped (opted out of logged-out viewing)", file=sys.stderr)
     return out
+
+
+def enrich(path):
+    """Add the text of each author's pinned post and of the post each reply answers, so a reviewer reads the whole picture."""
+    rows = [json.loads(l) for l in open(path, encoding="utf-8")]
+    uris = {r["pinned_uri"] for r in rows if r.get("pinned_uri")} | {p["parent_uri"] for r in rows for p in r["posts"] if p.get("parent_uri")}
+    text, uris = {}, list(uris)
+    for i in range(0, len(uris), 25):
+        for p in get("app.bsky.feed.getPosts", uris=uris[i:i + 25]).get("posts", []):
+            text[p["uri"]] = f"@{p['author']['handle']}: {p.get('record', {}).get('text', '')}"
+    for r in rows:
+        r["pinned"] = text.get(r.get("pinned_uri", ""), "")
+        for p in r["posts"]:
+            p["parent"] = text.get(p.get("parent_uri", ""), "")
+    write(rows, path)
+
+
+def full(path, start, count):
+    """Print authors start..start+count in file order, in full: bio, pinned post, every matching post (with what it answers)."""
+    rows = [json.loads(l) for l in open(path, encoding="utf-8")][start:start + count]
+    for i, r in enumerate(rows, start):
+        tag = f" [IN REGISTER {r['in_register'][0]}/{r['in_register'][1]}]" if r["in_register"] else ""
+        print(f"\n#{i} {r['name'] or '(no name)'} @{r['handle']} | {r['followers']} followers, {r['posts_total']} posts, since {r.get('created', '?')}{' | VERIFIED' if r['verified'] else ''}{tag}")
+        print(f"BIO: {r['bio']!r}")
+        if r.get("pinned"):
+            print(f"PINNED: {r['pinned'][:500]!r}")
+        for p in r["posts"][:3]:
+            print(f"- {p['date']} {p['url']} ({','.join(p['langs'])}; {p['likes']} likes)")
+            if p.get("parent"):
+                print(f"    in reply to {p['parent'][:300]!r}")
+            print(f"    {p['text'][:900]!r}")
+            for m in p.get("media", []):
+                print(f"    [{m[:450]}]")
 
 
 def load_queries(langs):
@@ -223,7 +279,7 @@ def show(path, min_score, new_only):
 
 def main():
     ap = argparse.ArgumentParser(description=__doc__, formatter_class=argparse.RawDescriptionHelpFormatter)
-    ap.add_argument("mode", choices=["open", "known", "show"])
+    ap.add_argument("mode", choices=["open", "known", "show", "enrich", "full"])
     ap.add_argument("file", nargs="?")
     ap.add_argument("--lang", default="")
     ap.add_argument("--since", default=(dt.date.today() - dt.timedelta(days=30)).isoformat())
@@ -231,10 +287,16 @@ def main():
     ap.add_argument("--country", default=None)
     ap.add_argument("--out", default=None)
     ap.add_argument("--min-score", type=int, default=0)
+    ap.add_argument("--start", type=int, default=0)
+    ap.add_argument("--count", type=int, default=10)
     ap.add_argument("--new-only", action="store_true")
     a = ap.parse_args()
     if a.mode == "show":
         return show(a.file, a.min_score, a.new_only)
+    if a.mode == "enrich":
+        return enrich(a.file)
+    if a.mode == "full":
+        return full(a.file, a.start, a.count)
     langs = {x for x in a.lang.split(",") if x}
     since = a.since + "T00:00:00Z"
     known, names = register_handles(), register_names()
