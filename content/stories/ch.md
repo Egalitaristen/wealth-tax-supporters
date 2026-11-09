@@ -10,7 +10,7 @@ facts:
     value: All 26 cantons and their municipalities; no federal wealth tax
     source: 4
   - label: Share of all tax revenue
-    value: 4.3% in 2023, about 1.2% of GDP
+    value: 4.3% in 2023
     source: 7
   - label: Top 1% share of taxable net wealth
     value: 46% (2022)
@@ -109,7 +109,7 @@ The tax reaches well past the very rich. In the two cantons researchers studied,
 
 ## What it raises, and who pays {#revenue}
 
-The tax raises 4.3% of Swiss tax revenue, about 1.2% of GDP.[7] For the cantons and municipalities, which carry most public spending, it averaged 9% of what they collected between 2003 and 2015.[4]
+The tax raises 4.3% of Swiss tax revenue.[7] For the cantons and municipalities, which carry most public spending, it averaged 9% of what they collected between 2003 and 2015.[4]
 
 Swiss wealth is very concentrated. In 2022 the richest 1% of taxpayers held 46% of all taxable net wealth, and the Gini coefficient, the standard measure of inequality, stood at 0.82, where 1 would mean one person owns everything.[1] Even that understates it. Pension assets, household goods and the wealth of rich foreigners taxed by lump sum sit outside the statistics.[1] In Geneva the top 1% hold 67%.[1]
 
