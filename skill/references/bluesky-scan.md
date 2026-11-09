@@ -16,11 +16,29 @@ The script only collects. It never writes to the register. It skips authors who 
 
 ## Reviewing what it collects
 
-One review per author, and the order is: **who, then what, then how strong.**
+Read every author in full. Keywords, scores and follower counts only set the reading order; they never exclude anyone. For each author read the whole bio, the pinned post, every matching post (with the post it answers), the alt text of images and the title of any linked article. An image-only post carries its message in the alt text.
 
-1. **Who.** Read the profile (name, handle, bio). The register includes politicians, parties, organisations, unions, economists, journalists and other public figures (`definition-and-grades.md` section 4). It does not include private people. If the bio does not make clear that they are a public figure or an organisation of an included kind, stop: they are not a lead. A verified account or a handle on a domain they control (`name.parliament.uk`) is strong evidence of who they are; a bio alone is not. Confirm an office or role from a second source (a party or parliament page, Wikidata) before adding anyone as a supporter. The script's `hints` and `score` only set the reading order.
-2. **What.** Read the post itself. The post must support an actual tax on the stock of wealth (section 2). Do not count: news posts that only report or link a story, posts that argue against, sarcasm, a mansion, inheritance or income tax, a generic "tax the rich" or "billionaires should pay their fair share", and posts from media accounts reporting a ballot or a bill without saying what they think.
-3. **How strong.** Grade it (section 3): A is a formal act or specifics (a rate, a threshold, a named bill), B is "a wealth tax" by name, C is weaker or ambiguous. Most single posts are B. A journalist who posts a wealth-tax story is not a supporter; one who repeatedly argues for it is.
+Then decide in this order: **who, what, how strong.**
+
+### Who counts
+
+An author goes on the list only if all four hold:
+
+1. **A real identity.** A real name, or an organisation or established brand whose public work is the account. Anonymous and throwaway handles never count, however large their audience. A first name with a slogan ("Malena-PRO-CHOICE") is not a name. A name with no way of confirming it is a lead at most.
+2. **A stated role or body of public work.** The bio or pinned post says what they are: a politician, party, union, think tank or campaign group; an economist or academic; a journalist or commentator who publishes; a writer, artist or creator with published work; an activist or campaigner with a public cause. A political opinion is not a role. A big audience is not a role, and neither is a small one a reason to leave someone out. Influencers and creators who publish commentary count as journalists (opinion, video, podcast) or cultural figures or campaigners; credentials are not required.
+3. **A second source for the role.** Academics, economists, officials, party and organisation staff and journalists must be confirmed on their institution's or publication's own page, in Wikidata or in the register. A writer, artist or activist can be confirmed by their published work (a book, comic, site, campaign). If the role cannot be confirmed, record a lead with the note "role unconfirmed" and do not add a supporter. A self-declared role in a bio is a reason to look, not a confirmation. If the only evidence a person exists is the account itself, they are not identified.
+4. **Their own statement** (next section).
+
+Not on the list: private people, however clearly they support a wealth tax; news outlets, aggregators and bots; reporters who report; accounts that reply with a one-line joke or only repost; accounts of people who oppose it.
+
+### Their own statement
+
+- It must be in their own words. A repost, a headline, a quoted post or a link with no comment is not a statement.
+- It must refer to a tax on the stock of wealth (section 2): "wealth tax", "billionaire tax" on net worth, "taxe Zucman", "Vermögenssteuer", "impuesto a las grandes fortunas" and equivalents. Not "tax the rich", "fair share", mansion, inheritance, income or capital-gains taxes, or closing a loophole.
+- A cap on wealth counts: a 100% tax above a threshold is a rate and a threshold.
+- Grade it (section 3). **A**: a rate or a threshold, a named bill or proposal. **B**: a wealth tax or billionaire tax by name, supported. **C**: support only implied, for example regret that a wealth-tax measure failed. A single post caps at C or B; several posts over time, in their own words, support B or A.
+- Check the whole account before deciding: search the author's posts back to 2024 for the same phrases (`searchPosts` with `author=`), because one reply can understate a long record.
+- A post that reports a ballot result or a vote count is not evidence of that result. A partial count is not a result either. Check the official source before repeating one.
 
 ## What to do with a hit
 
