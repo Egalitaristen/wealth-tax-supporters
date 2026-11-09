@@ -78,8 +78,18 @@ sources:
   - id: 17
     title: Kanton Zürich, Medienmitteilung of 6 January 2026, Digitale Steuererklärung, Kanton Zürich setzt auf den Online-Kanal ZHprivateTax
     url: https://www.zh.ch/de/news-uebersicht/medienmitteilungen/2026/01/digitale-steuererklaerung-kanton-zuerich-setzt-auf-den-online-kanal-zhprivatetax.html
+  - id: 18
+    title: Statistics Norway, StatBank table 08231, residents aged 17 and over by wealth tax paid, 2024
+    url: https://www.ssb.no/statbank/table/08231
+  - id: 19
+    title: Lag (1997:323) om statlig förmögenhetsskatt, as in force until repeal (Riksdag, Svensk författningssamling), the list of taxable assets
+    url: https://www.riksdagen.se/sv/dokument-och-lagar/dokument/svensk-forfattningssamling/lag-1997323-om-statlig-formogenhetsskatt_sfs-1997-323/
 ---
 The objection says that a tax on wealth needs a price tag on every painting, farm and private company, and that nobody can set one. In 2024 Norway collected NOK 31.8 billion from 719,007 taxpayers.[1] Here is how the valuing is done.
+
+## Nobody appraises the socks {#most}
+
+The objection pictures every household pricing every possession. Real wealth taxes never asked for that. In Norway 701,482 residents paid wealth tax in 2024, 15.4% of adults, and the other 85% filed the same pre-filled return with no wealth tax on it.[18] Sweden's wealth tax law taxed movable property but excluded personal furnishings, excluded personal items worth less than SEK 10,000 each, and counted cash only above SEK 25,000.[19] A tax is written around what is worth appraising.
 
 ## How Norway does it {#norway}
 
