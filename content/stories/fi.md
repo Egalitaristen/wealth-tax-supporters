@@ -93,7 +93,9 @@ The Left Alliance members of the committee, Iivo Polvi and Kari Uotila, moved to
 
 The state gave up the tax. The bill's own figure for the lost revenue is EUR 70 million a year.[1] The promised payoff, that growth would replace the money, was a hope: the committee wrote that the loss "may" be made up elsewhere.[2]
 
-Meanwhile the dividend cut the tax on income from shares. A listed-company dividend is still only 85% taxable, and capital income pays 30% up to EUR 30,000 and 34% above.[8] Wealth that grows without being paid out is taxed by nobody. That is the gap a wealth tax fills.
+The same reform that raised the tax on shares also cut the capital income tax rate for everything outside the wealth tax's reach, as the committee itself noted.[2] So the government answered a problem in one corner of the base by dropping the tax on the whole base. Today capital income pays 30% up to EUR 30,000 and 34% above, and a listed-company dividend is only 85% taxable.[8] Wealth that grows without being paid out is taxed by nobody. That is the gap a wealth tax fills.
+
+The government also said the tax was rare abroad.[1] A rare tax is not a bad one. Austria, Denmark and the Netherlands had dropped theirs, Germany lost its in court for unequal treatment of asset types.[1] Each case was about holes in the base. A wealth tax with one rule for all assets answers all of them, and a rich resident who stays and pays nothing helps no one.
 
 ## Wealth since 2005 {#after}
 
