@@ -144,6 +144,7 @@ async function render(fresh) {
     else if (parts[0] === 'parliaments' && parts.length === 1) await parliamentsPage(W);
     else if (parts[0] === 'method' && parts.length === 1) methodPage(W);
     else if (parts[0] === 'about' && parts.length === 1) aboutPage(W);
+    else if (parts[0] === 'changelog' && parts.length === 1) await changelogPage(W);
     else if (parts[0] === 'directory' && parts.length === 1) await globalDirectory(W, params);
     else if ((parts[0] === 'contribute' || parts[0] === 'suggest') && parts.length === 1) contributePage(W, params);
     else if (parts[0] === 'calculator' && parts.length === 1) calcPage(params);
@@ -153,7 +154,7 @@ async function render(fresh) {
     else if (country && parts.length === 2 && SECTIONS[parts[1]]) await countryPage(country.slug, params, parts[1]);
     else if (country && parts.length === 2) await personPage(country.slug, parts[1]);
     else notFound();
-    const navKey = {countries: '/countries', parliaments: '/parliaments', directory: '/directory', arguments: '/arguments', resources: '/resources', method: '/method', about: '/about', contribute: '/contribute', suggest: '/contribute', feedback: '/feedback', report: '/feedback'}[parts[0]] || null;
+    const navKey = {countries: '/countries', parliaments: '/parliaments', directory: '/directory', arguments: '/arguments', resources: '/resources', method: '/method', about: '/about', changelog: '/changelog', contribute: '/contribute', suggest: '/contribute', feedback: '/feedback', report: '/feedback'}[parts[0]] || null;
     if (navKey) $$('.nav a, .fb-link').forEach(a => { if (a.getAttribute('href') === navKey) a.setAttribute('aria-current', 'page'); });
   } catch (err) {
     console.error(err);
@@ -1509,6 +1510,29 @@ function evCard(e, m, slug) {
 
 // ---------- static pages ----------
 // ---------- about ----------
+// What changed each day. The numbers are counted from git by scripts/changelog.py; the words are written by hand in data/changelog_notes.json.
+const KIND_LABEL = {added: 'Added', improved: 'Improved', corrected: 'Corrected'};
+async function changelogPage(W) {
+  setTitle('Changelog');
+  main.innerHTML = '<div class="loading">Loading</div>';
+  const days = await getJSON('/data/changelog.json');
+  const iso = {}; W.countries.forEach(c => { iso[c.slug] = c; });
+  const dayFmt = d => new Date(d + 'T12:00:00').toLocaleDateString('en-GB', {weekday: 'long', day: 'numeric', month: 'long', year: 'numeric'});
+  const sum = (rows, i) => rows.reduce((n, r) => n + r[i], 0);
+  const entry = e => {
+    const rows = e.countries, s = sum(rows, 2), ev = sum(rows, 4), removed = sum(rows, 3) + sum(rows, 5);
+    const nums = [s ? `<b>${fmt(s)}</b> supporters added` : '', ev ? `<b>${fmt(ev)}</b> statements added` : '', e.new_countries.length ? `<b>${e.new_countries.length}</b> new ${e.new_countries.length === 1 ? 'country' : 'countries'}` : '', (e.stories || []).length ? `<b>${e.stories.length}</b> ${e.stories.length === 1 ? 'story' : 'stories'}` : '', (e.arguments || []).length ? `<b>${e.arguments.length}</b> argument ${e.arguments.length === 1 ? 'page' : 'pages'}` : ''].filter(Boolean);
+    const table = rows.length ? `<details class="cl-by"><summary>By country (${rows.length})</summary><table><thead><tr><th>Country</th><th>Supporters</th><th>Statements</th></tr></thead><tbody>${rows.map(r => `<tr><td>${iso[r[0]] ? `<a href="/${r[0]}">${esc(r[1])}</a>` : esc(r[1])}</td><td>${r[2] ? '+' + fmt(r[2]) : ''}${r[3] ? ` <span class="muted">−${fmt(r[3])}</span>` : ''}</td><td>${r[4] ? '+' + fmt(r[4]) : ''}${r[5] ? ` <span class="muted">−${fmt(r[5])}</span>` : ''}</td></tr>`).join('')}</tbody></table>${removed ? '<p class="muted">Minus figures are entries merged or removed that day.</p>' : ''}</details>` : '';
+    return `<article class="cl-day" id="d${e.date}"><h2>${dayFmt(e.date)}</h2>
+      ${e.summary ? `<p class="cl-sum">${esc(e.summary)}</p>` : ''}
+      ${nums.length ? `<p class="cl-nums">${nums.join(' · ')}</p>` : ''}
+      ${(e.items || []).length ? `<ul class="cl-items">${e.items.map(i => `<li><span class="cl-kind cl-${i.kind}">${KIND_LABEL[i.kind] || ''}</span> ${esc(i.text)}</li>`).join('')}</ul>` : ''}
+      ${table}</article>`;
+  };
+  main.innerHTML = `<div class="wrap page-head fade"><div class="kicker">Changelog</div><h1>What changed, <em>day by day</em></h1>
+    <p class="lede" style="margin-top:18px">Every day the register or the site changed, newest first. Numbers are counted from the record of changes, so they are exact. Each change is counted once, on the day it was added.</p></div>
+    <div class="wrap changelog" style="margin-top:28px">${days.map(entry).join('')}</div>`;
+}
 function aboutPage(W) {
   setTitle('About');
   const cs = W.countries, tot = k => k === 'supporters' && W.unique_supporters != null ? W.unique_supporters : cs.reduce((n, c) => n + (c[k] || 0), 0);

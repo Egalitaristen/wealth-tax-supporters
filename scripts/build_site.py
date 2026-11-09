@@ -965,7 +965,7 @@ def referenced_countries():
     return out
 
 
-PAGE_ROUTES = {"/", "/countries", "/parliaments", "/directory", "/resources", "/method", "/about", "/contribute", "/calculator", "/feedback", "/report", "/arguments"}
+PAGE_ROUTES = {"/", "/countries", "/parliaments", "/directory", "/resources", "/method", "/about", "/contribute", "/calculator", "/feedback", "/report", "/arguments", "/changelog"}
 
 
 def check_argument_links(args, full, stories, preview):
@@ -1341,6 +1341,10 @@ def share_pages(out, base, countries, full, unique=None, bodies=(), resources=()
           "An open, sourced register of the public figures and organisations that back a wealth tax on the record: why it exists, how it is made and how to take part.",
           "about", "About Wealth Tax Supporters", lambda o: cards.page_card(o, "About", "A register of who says so", "Open, sourced and made in public.",
                                     [(f"{tot['supporters']:,}", "supporters on the record"), (f"{tot['countries']}", "countries so far"), (f"{tot['evidence']:,}", "sourced statements")]))
+    write("/changelog", "Changelog · Wealth Tax Supporters",
+          "What changed in the register each day: supporters and statements added by country, new countries, stories and corrections.",
+          "changelog", "Changelog", lambda o: cards.page_card(o, "Changelog", "What changed, day by day", "Supporters, statements and stories added, by country.",
+                                    [(f"{tot['supporters']:,}", "supporters on the record"), (f"{tot['countries']}", "countries so far"), (f"{tot['evidence']:,}", "sourced statements")]))
     write("/contribute", "Contribute and suggest a supporter · Wealth Tax Supporters",
           "Suggest a public figure or organisation who has backed a wealth tax, help check the entries already here, or start a register for your country.",
           "contribute", "Help build the register", lambda o: cards.page_card(o, "Contribute", "Help build the register", "Suggest a supporter, help check entries, or start a country.",
@@ -1610,6 +1614,8 @@ def main():
                 wt_status[n] = r["status"]
     world = dict(unique_supporters=unique, home={q: next((c["slug"] for c in countries if c["iso2"].upper() == h), "") for q, h in people_home()[0].items()}, countries=countries, wt_status=wt_status, bodies=bodies, planned=planned, resources=world_resources, all_countries=sorted(every), built=datetime.date.today().isoformat())
     json.dump(world, open(out / "data" / "world.json", "w", encoding="utf-8"), separators=(",", ":"), ensure_ascii=False)
+    if (DATA / "changelog.json").exists():
+        shutil.copy(DATA / "changelog.json", out / "data" / "changelog.json")
     json.dump(arguments_index(arguments), open(out / "data" / "arguments.json", "w", encoding="utf-8"), separators=(",", ":"), ensure_ascii=False)
     # The outlines are two thirds of the world file; only the map pages need them, so they load separately.
     json.dump(dict(paths=paths), open(out / "data" / "map.json", "w", encoding="utf-8"), separators=(",", ":"), ensure_ascii=False)
