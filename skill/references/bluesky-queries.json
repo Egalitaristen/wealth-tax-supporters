@@ -1,0 +1,42 @@
+{
+  "en": {
+    "phrases": ["\"wealth tax\"", "\"wealth taxes\"", "\"billionaire tax\"", "\"net worth tax\"", "\"tax on wealth\"", "\"wealth levy\"", "\"ultra-millionaire tax\""],
+    "hashtags": ["#WealthTax", "#BillionaireTax", "#WealthTaxNow"]
+  },
+  "de": {
+    "phrases": ["Vermögenssteuer", "Vermögensteuer", "Milliardärssteuer", "Vermögensabgabe"],
+    "hashtags": ["#Vermögenssteuer", "#Vermögensteuer"]
+  },
+  "fr": {
+    "phrases": ["\"impôt sur la fortune\"", "\"taxe Zucman\"", "\"taxe sur les milliardaires\"", "\"impôt sur le patrimoine\""],
+    "hashtags": ["#TaxeZucman", "#ISF"]
+  },
+  "es": {
+    "phrases": ["\"impuesto a la riqueza\"", "\"impuesto sobre el patrimonio\"", "\"impuesto a las grandes fortunas\"", "\"impuesto a los milmillonarios\""],
+    "hashtags": ["#ImpuestoALasGrandesFortunas", "#ImpuestoALaRiqueza"]
+  },
+  "pt": {
+    "phrases": ["\"imposto sobre grandes fortunas\"", "\"taxação das grandes fortunas\"", "\"imposto sobre a riqueza\""],
+    "hashtags": ["#TaxaçãoDasGrandesFortunas"]
+  },
+  "nl": {
+    "phrases": ["vermogensbelasting", "vermogensheffing", "miljonairsbelasting"],
+    "hashtags": ["#vermogensbelasting"]
+  },
+  "sv": {
+    "phrases": ["förmögenhetsskatt", "förmögenhetsskatten"],
+    "hashtags": ["#förmögenhetsskatt"]
+  },
+  "no": {
+    "phrases": ["formuesskatt", "formuesskatten"],
+    "hashtags": ["#formuesskatt"]
+  },
+  "da": {
+    "phrases": ["formueskat", "millionærskat"],
+    "hashtags": ["#formueskat"]
+  },
+  "it": {
+    "phrases": ["\"tassa sui miliardari\"", "\"imposta patrimoniale\"", "\"tassa sui super ricchi\""],
+    "hashtags": []
+  }
+}
