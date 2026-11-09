@@ -69,7 +69,7 @@ sources:
     title: Finnish Tax Administration, dividends from a listed company
     url: https://www.vero.fi/en/individuals/property/investments/dividends/dividends-from-a-listed-company/
 ---
-Finland did not drop its wealth tax because it failed. The government that deleted it wrote down why: the base had holes, and rich owners planned around them.[1][2] A tax that is easy to dodge needs closing, not burying. In 2005 Finland buried it, and the richest tenth now owns more than half of the country's net wealth.[7]
+Finland did not drop its wealth tax because it failed. The government that deleted it wrote down why: the base had holes, and rich owners planned around them.[1][2] A tax that is easy to dodge needs closing, not burying. In 2003 just under 40,000 people paid it, and half of the money came from only 2,700 of them.[1] In 2005 Finland buried it, and the richest tenth now owns more than half of the country's net wealth.[7]
 
 ## What the tax was {#tax}
 
@@ -91,15 +91,15 @@ The Left Alliance members of the committee, Iivo Polvi and Kari Uotila, moved to
 
 ## What repeal cost {#cost}
 
-The state gave up the tax. The bill's own figure for the lost revenue is EUR 70 million a year.[1] The promised payoff, that growth would replace the money, was a hope: the committee wrote that the loss "may" be made up elsewhere.[2]
+The state gave up the tax. The bill's own figure for the lost revenue is EUR 70 million a year.[1] The promised payoff was a hope: growth and jobs would make up the money.[2]
 
 The same reform that raised the tax on shares also cut the capital income tax rate for everything outside the wealth tax's reach, as the committee itself noted.[2] So the government answered a problem in one corner of the base by dropping the tax on the whole base. Today capital income pays 30% up to EUR 30,000 and 34% above, and a listed-company dividend is only 85% taxable.[8] Wealth that grows without being paid out is taxed by nobody. That is the gap a wealth tax fills.
 
-The government also said the tax was rare abroad.[1] A rare tax is not a bad one. Austria, Denmark and the Netherlands had dropped theirs, Germany lost its in court for unequal treatment of asset types.[1] Each case was about holes in the base. A wealth tax with one rule for all assets answers all of them, and a rich resident who stays and pays nothing helps no one.
+The government also said the tax was rare abroad.[1] A rare tax is not a bad one. Austria, Denmark and the Netherlands had dropped theirs, and Germany's court had ordered unequal treatment of asset types fixed.[1] Each case was about holes in the base. A wealth tax with one rule for all assets answers all of them, and a rich resident who stays and pays nothing helps no one.
 
 ## Wealth since 2005 {#after}
 
-Statistics Finland's survey of 2023 found the richest tenth of households owning 52% of net wealth, 9.3 points more than in 2004. The richest 5% own 37%. The poorest half owns 4%, and the poorest tenth is in debt.[7] The typical household has EUR 96,000, 21% less in real terms than in 2019.[7] A repealed tax did not cause all of that. It also did nothing to stop it.
+Statistics Finland's survey of 2023 found the richest tenth of households owning 52% of net wealth, 9.3 points more than in 2004. The richest 5% own 37%. The poorest half owns 4%, and the poorest tenth is in debt.[7] The typical household has EUR 96,000, 21% less in real terms than in 2019.[7] Finland scrapped the one tax aimed at the top end, and the top end has pulled further ahead since.
 
 ## Proposals since {#proposals}
 
@@ -115,7 +115,7 @@ The [Left Alliance](/fi/A0055) leads. The [Green League](/fi/A0064) adopted a pe
 
 ## Where parliament stands {#today}
 
-On 9 November 2026 I searched every bill, motion and budget motion filed in Parliament's open data for 2026. None proposes a wealth tax. The most recent is the 2022 motion.[6] The case is open for a new filing.
+As of 9 November 2026 no bill, motion or budget motion filed in Parliament in 2026 proposes a wealth tax. The most recent is the 2022 motion.[6] The case is open for a new filing.
 
 ## What a Finnish wealth tax would look like {#design}
 
@@ -124,5 +124,3 @@ Tax all assets at market value: deposits, bonds, savings insurance and shares. S
 ## Where to look next {#next}
 
 The [directory](/fi/directory) lists everyone on the record, and [Parliament's bills and motions](/resources?country=fi) are on the Resources page, including the [2012 bill](/resources/fi-laki-varallisuusverosta) and the [2022 motion](/resources/fi-toimenpidealoite-miljonaariveron-kayttoonoton). Other countries that dropped the tax: [Sweden](/se), [France](/fr) and [Denmark](/dk).
-
-Egalitaristen
