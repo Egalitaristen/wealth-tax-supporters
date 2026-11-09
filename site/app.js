@@ -739,8 +739,12 @@ function worldMap(box, W, {seats = false} = {}) {
   const mx = Math.max(1, ...W.countries.map(measure));
   const svg = document.createElementNS('http://www.w3.org/2000/svg', 'svg');
   svg.setAttribute('role', 'img'); svg.setAttribute('aria-label', 'World map. Countries with a register are shaded.');
-  svg.innerHTML = `<g>${Object.entries(W.paths).map(([id, p]) => { const c = byNum[id], tt = c ? (.35 + .65 * Math.log(measure(c) + 1) / Math.log(mx + 1)).toFixed(3) : 0;
-    return `<path data-id="${id}" class="${c ? 'u-sup' : 'u-none'}"${c ? ` style="--t:${tt}"` : ''} d="${p.path}"/>`; }).join('')}</g>`;
+  // Countries that tax wealth (gold border) or used to (silver) are drawn last so a neighbour's outline does not cover theirs.
+  const WT = W.wt_status || {};
+  const drawn = Object.entries(W.paths).map(([id, p]) => { const c = byNum[id], tt = c ? (.35 + .65 * Math.log(measure(c) + 1) / Math.log(mx + 1)).toFixed(3) : 0;
+    return [WT[id] ? 1 : 0, `<path data-id="${id}" class="${c ? 'u-sup' : 'u-none'}${WT[id] ? ' wt-' + WT[id] : ''}"${c ? ` style="--t:${tt}"` : ''} d="${p.path}"/>`]; });
+  svg.innerHTML = `<g>${[...drawn.filter(d => !d[0]), ...drawn.filter(d => d[0]).sort((a, b) => (/wt-has/.test(a[1]) ? 1 : 0) - (/wt-has/.test(b[1]) ? 1 : 0))].map(d => d[1]).join('')}</g>`;
+  box.insertAdjacentHTML('beforeend', '<div class="wt-key"><span><i class="has"></i>Has a wealth tax</span><span><i class="had"></i>Used to have one</span></div>');
   box.prepend(svg);
   // A country too small to see (Singapore, Malta) gets a dot a few pixels wide while its shape is under 6 px; zoom in and the shape takes over.
   const dots = Object.keys(byNum).filter(id => mains[id]).map(id => {
@@ -761,7 +765,7 @@ function worldMap(box, W, {seats = false} = {}) {
     onHover: e => {
       const id = countryAt(e);
       if (!id) return hideTip();
-      const c = byNum[id];
+      const c = byNum[id], wts = WT[id] === 'has' ? '<span>Has a wealth tax</span>' : WT[id] === 'had' ? '<span>Used to have a wealth tax</span>' : '';
       showTip(c ? `<b>${esc(c.name)}</b><span>${seats ? `${fmt(litTotal(c))} sitting supporters found, ${fmt((c.chambers || []).reduce((n, x) => n + x[1], 0))} seats →` : `${fmt(c.supporters)} on record so far →`}</span>` : `<b>${esc(W.paths[id].name)}</b><span>${seats ? 'no seat chart yet' : 'no register yet'}</span>`, e.clientX, e.clientY);
     },
     onTap: e => {

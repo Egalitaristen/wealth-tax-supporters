@@ -289,7 +289,7 @@
   --ink-3: #7c766a;
   --rule: #d6cfbf;
   --rule-2: #c3bba9;
-  --signal: #d9431e; --gold: #d9a21b;
+  --signal: #d9431e; --gold: #d9a21b; --silver: #8d939b;
   --signal-2: #b5341a;
   --signal-soft: #f6dccf;
   --on-signal: #fff;
@@ -307,14 +307,14 @@
   :root:not([data-theme="light"]) {
     --paper: #12110e; --paper-2: #1c1b17; --card: #191814; --ink: #f1ece1; --ink-2: #bab3a4; --ink-3: #857e71;
     --rule: #2d2a24; --rule-2: #3d3a32; --signal: #ff6a3d; --signal-2: #ff8a63; --signal-soft: #3a1d13; --on-signal: #12110e;
-    --land: #2f2c26; --shadow: 0 1px 0 rgba(0, 0, 0, .3), 0 16px 40px -12px rgba(0, 0, 0, .6);
+    --land: #2f2c26; --silver: #c3c8cf; --shadow: 0 1px 0 rgba(0, 0, 0, .3), 0 16px 40px -12px rgba(0, 0, 0, .6);
     color-scheme: dark;
   }
 }
 :root[data-theme="dark"] {
   --paper: #12110e; --paper-2: #1c1b17; --card: #191814; --ink: #f1ece1; --ink-2: #bab3a4; --ink-3: #857e71;
   --rule: #2d2a24; --rule-2: #3d3a32; --signal: #ff6a3d; --signal-2: #ff8a63; --signal-soft: #3a1d13; --on-signal: #12110e;
-  --land: #2f2c26; --shadow: 0 1px 0 rgba(0, 0, 0, .3), 0 16px 40px -12px rgba(0, 0, 0, .6);
+  --land: #2f2c26; --silver: #c3c8cf; --shadow: 0 1px 0 rgba(0, 0, 0, .3), 0 16px 40px -12px rgba(0, 0, 0, .6);
   color-scheme: dark;
 }
 
@@ -438,7 +438,14 @@ a.wr:hover span { text-decoration: underline; }
 .worldmap path.u-none { fill: var(--land); }
 .worldmap path.u-sup { fill: color-mix(in oklab, var(--signal) calc(var(--t) * 100%), var(--land)); cursor: pointer; }
 .worldmap circle.mk { fill: color-mix(in oklab, var(--signal) calc(var(--t) * 100%), var(--land)); stroke: var(--paper); stroke-width: .6; cursor: pointer; vector-effect: non-scaling-stroke; }
+.worldmap path.wt-has { stroke: var(--gold); stroke-width: 1.6px; }
+.worldmap path.wt-had { stroke: var(--silver); stroke-width: 1.2px; }
 .worldmap path:hover { stroke: var(--ink); stroke-width: 1.4px; }
+.wt-key { position: absolute; left: 0; bottom: 0; z-index: 2; display: flex; gap: 14px; padding: 4px 10px 4px 0; font-size: 12.5px; color: var(--ink-2); background: color-mix(in srgb, var(--paper) 80%, transparent); pointer-events: none; }
+.wt-key span { display: inline-flex; align-items: center; gap: 6px; }
+.wt-key i { width: 14px; height: 9px; border: 2px solid; border-radius: 2px; display: inline-block; }
+.wt-key i.has { border-color: var(--gold); }
+.wt-key i.had { border-color: var(--silver); border-width: 1.5px; }
 .crumb { position: absolute; left: 0; top: 0; z-index: 2; background: color-mix(in srgb, var(--paper) 80%, transparent); padding-right: 10px !important; display: flex; gap: 10px; align-items: baseline; flex-wrap: wrap; font-size: 13.5px; color: var(--ink-3); pointer-events: none; padding: 4px 0; }
 .crumb > * { pointer-events: auto; }
 .crumb b { color: var(--ink); font-weight: 600; }
