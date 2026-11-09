@@ -1602,7 +1602,13 @@ def main():
     # Anyone with a Wikidata id on more than one register is one person; rows without an id each count once.
     unique = len({r[8] or f"{r[0]}/{r[1]}" for r in index})
     world_resources = load_resources(countries, {(r[0], r[1]): r[2] for r in index})
-    world = dict(unique_supporters=unique, home={q: next((c["slug"] for c in countries if c["iso2"].upper() == h), "") for q, h in people_home()[0].items()}, countries=countries, bodies=bodies, planned=planned, resources=world_resources, all_countries=sorted(every), built=datetime.date.today().isoformat())
+    wt_status = {}
+    if (DATA / "wealth_tax_status.csv").exists():
+        for r in csv.DictReader(open(DATA / "wealth_tax_status.csv", encoding="utf-8")):
+            n = numeric_for(r["iso2"])
+            if n:
+                wt_status[n] = r["status"]
+    world = dict(unique_supporters=unique, home={q: next((c["slug"] for c in countries if c["iso2"].upper() == h), "") for q, h in people_home()[0].items()}, countries=countries, wt_status=wt_status, bodies=bodies, planned=planned, resources=world_resources, all_countries=sorted(every), built=datetime.date.today().isoformat())
     json.dump(world, open(out / "data" / "world.json", "w", encoding="utf-8"), separators=(",", ":"), ensure_ascii=False)
     json.dump(arguments_index(arguments), open(out / "data" / "arguments.json", "w", encoding="utf-8"), separators=(",", ":"), ensure_ascii=False)
     # The outlines are two thirds of the world file; only the map pages need them, so they load separately.
