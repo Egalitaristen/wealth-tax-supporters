@@ -4,6 +4,7 @@ standfirst: Uruguay has an annual tax on net wealth, but its rate was cut every 
 updated: 2026-11-08
 author: Egalitaristen
 layout: article
+status: draft
 facts:
   - label: Tax in force
     value: Impuesto al Patrimonio, Título 14 of the Texto Ordenado

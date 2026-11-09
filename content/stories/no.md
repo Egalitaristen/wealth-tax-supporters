@@ -4,6 +4,7 @@ standfirst: Norway has had a direct state tax on wealth since 1892. In 2024 it r
 updated: 2026-11-05
 author: Egalitaristen
 layout: article
+status: draft
 facts:
   - label: Tax-free threshold, 2026
     value: kr 1.9 million (kr 3.8 million for a couple)

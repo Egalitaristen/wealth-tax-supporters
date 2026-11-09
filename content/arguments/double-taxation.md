@@ -7,6 +7,7 @@ standfirst: Wages carry income tax, social contributions and VAT, and the home b
 updated: 2026-11-09
 author: Egalitaristen
 layout: article
+status: draft
 facts:
   - label: Norway and Sweden, dividends shielded by holding companies
     value: About half

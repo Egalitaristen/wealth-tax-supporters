@@ -7,6 +7,7 @@ standfirst: When France replaced its wealth tax with a tax on real estate alone,
 updated: 2026-11-09
 author: Egalitaristen
 layout: article
+status: draft
 facts:
   - label: France, loss from replacing the ISF with a real estate tax, 2018
     value: €3.1 billion

@@ -7,6 +7,7 @@ standfirst: Spain's Constitutional Court dismissed Madrid's challenge to the sol
 updated: 2026-11-08
 author: Egalitaristen
 layout: article
+status: draft
 facts:
   - label: France, Conseil constitutionnel 2010-44 QPC
     value: ISF articles conform to the Constitution

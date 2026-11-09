@@ -7,6 +7,7 @@ standfirst: Sweden, Denmark, Germany and France each ended or replaced their wea
 updated: 2026-11-08
 author: Egalitaristen
 layout: article
+status: draft
 facts:
   - label: OECD countries with a net wealth tax
     value: 12 in 1990, 4 in 2017

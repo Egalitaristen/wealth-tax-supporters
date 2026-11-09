@@ -4,6 +4,7 @@ standfirst: Argentina has taxed personal assets since 1991. In 2020 a one-off le
 updated: 2026-11-05
 author: Egalitaristen
 layout: article
+status: draft
 facts:
   - label: Personal assets tax since
     value: 1991, as an emergency tax

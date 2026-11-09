@@ -4,6 +4,7 @@ standfirst: All 26 Swiss cantons levy a wealth tax. It raised 4.3% of the countr
 updated: 2026-11-05
 author: Egalitaristen
 layout: article
+status: draft
 facts:
   - label: Who levies it
     value: All 26 cantons and their municipalities; no federal wealth tax

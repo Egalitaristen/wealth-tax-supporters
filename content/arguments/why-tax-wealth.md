@@ -7,6 +7,7 @@ standfirst: In France in 2016 the effective direct tax rate was 46% for the top 
 updated: 2026-11-09
 author: Egalitaristen
 layout: article
+status: draft
 facts:
   - label: France, effective direct tax rate, 2016
     value: 46% for the top 0.1%, 26% for the top 0.0002%

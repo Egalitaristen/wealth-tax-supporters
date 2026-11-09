@@ -14,6 +14,7 @@ standfirst: One or two sentences, shown under the headline and on the share card
 updated: 2026-11-05
 author: Egalitaristen
 layout: article          # the only template
+status: draft            # draft (default) shows a Draft badge; final removes it
 facts:
   - label: Wealth tax since
     value: 1840s

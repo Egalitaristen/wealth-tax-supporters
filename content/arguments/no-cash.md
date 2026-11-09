@@ -7,6 +7,7 @@ standfirst: Norway lets owners defer wealth tax on business wealth for up to thr
 updated: 2026-11-08
 author: Egalitaristen
 layout: article
+status: draft
 facts:
   - label: Norway, deferral of wealth tax on business wealth
     value: Up to three years, policy rate plus 5 percentage points, from income year 2026

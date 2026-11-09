@@ -4,6 +4,7 @@ standfirst: The Constitution requires "direct" taxes to be divided among the sta
 updated: 2026-11-08
 author: Egalitaristen
 layout: article
+status: draft
 facts:
   - label: Federal wealth tax
     value: None has ever been enacted

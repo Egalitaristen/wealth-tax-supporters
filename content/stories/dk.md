@@ -4,6 +4,7 @@ standfirst: Denmark taxed net wealth from 1903 and abolished the tax from 1997, 
 updated: 2026-11-08
 author: Egalitaristen
 layout: article
+status: draft
 facts:
   - label: Tax repealed
     value: Formueskat, zero from income year 1997, after 94 years
