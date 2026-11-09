@@ -1,6 +1,6 @@
 ---
-title: Bolivia has taxed its largest fortunes since 2020 and the government's repeal has not passed
-standfirst: Ley 1357 of December 2020 charges 1.4% to 2.4% on net fortunes above Bs 30 million, about US$4.3 million when it passed. It collected Bs 241 million in 2021 and Bs 169 million in 2024. The government announced repeal in November 2025, and on 8 November 2026 the tax is still in force.
+title: Bolivia taxed its biggest fortunes in 2020, raised twice what it hoped, and the repeal has stalled
+standfirst: Since December 2020 Bolivia charges 1.4% to 2.4% a year on fortunes above about US$4.3 million. The first year brought in 2.3 times the forecast. A new president promised to scrap it in November 2025, and it is still the law.
 updated: 2026-11-08
 author: Egalitaristen
 layout: article
@@ -111,55 +111,57 @@ sources:
     title: BAE Negocios, Avanza en Bolivia impuesto anual y permanente a grandes fortunas (10 December 2020)
     url: https://www.baenegocios.com/amp/Avanza-en-Bolivia-impuesto-anual-y-permanente-a-grandes-fortunas-20201210-0060/
 ---
-Bolivia has taxed individual fortunes since 2020. Ley 1357 of 28 December 2020 created the Impuesto a las Grandes Fortunas (IGF), a yearly tax of 1.4% to 2.4% on net wealth above Bs 30 million, about US$4.3 million at the official rate of that year.[1][14] The tax authority had 263 registered payers on 31 October 2025.[4] President Rodrigo Paz announced a repeal on 25 November 2025, and the Chamber of Deputies' planning committee did not approve it in February 2026.[8][10] We checked the status on 8 November 2026: the tax is in force, and the authority's list of laws carries Ley 1357 with no law that repeals or amends it.[6] Dollar figures use the official rate of Bs 6.96, which held in 2020 and 2025.[14][15]
+Bolivia passed a wealth tax in the middle of the pandemic, and in its first year it raised more than twice what the government had counted on. Ley 1357 of 28 December 2020 created the Impuesto a las Grandes Fortunas (IGF), a yearly tax of 1.4% to 2.4% on net wealth above Bs 30 million, about US$4.3 million at that year's official rate.[1][14] On 31 October 2025 the tax authority had 263 registered payers.[4] President Rodrigo Paz announced a repeal on 25 November 2025. The Chamber of Deputies' planning committee would not approve it in February 2026, and on 8 November 2026 the tax is still the law.[8][10][6] Dollar figures here use the official rate of Bs 6.96, which held in 2020 and 2025.[14][15]
 
 ## What the law charges {#law}
 
-Ley 1357 taxes the net fortune of individuals on 31 December each year. A fortune is everything a person owns or holds: property, vehicles, financial assets, rights, cash and any other asset with economic value.[1] The tax starts when net fortune passes Bs 30 million. Article 9 then sets three rates on the whole base, each with a fixed discount:[1]
+The tax looks at what a person owns on 31 December: property, vehicles, financial assets, cash and any other asset with economic value, minus debts.[1] Nothing is due until net fortune passes Bs 30 million. Then one of three rates applies to the whole base, each with a fixed discount:[1]
 
 - Bs 30,000,001 to 40,000,000: 1.4%, less Bs 150,000.
 - Bs 40,000,001 to 50,000,000: 1.9%, less Bs 350,000.
 - Above Bs 50,000,000: 2.4%, less Bs 600,000.
 
-The discounts join the bands. At Bs 40 million the first two lines both give Bs 410,000, and at Bs 50 million the last two both give Bs 600,000.[1] A fortune of Bs 35 million, US$5.0 million, owes Bs 340,000, about US$49,000 or 0.97%. Bs 60 million, US$8.6 million, owes Bs 840,000, about US$120,000 or 1.4%. Bs 100 million, US$14 million, owes Bs 1.8 million, about US$260,000 or 1.8%.[1][14]
+The discounts make the bands join up. At Bs 40 million the first two lines both give Bs 410,000, and at Bs 50 million the last two both give Bs 600,000.[1] A fortune of Bs 35 million (US$5.0 million) owes Bs 340,000, about US$49,000 or 0.97%. Bs 60 million (US$8.6 million) owes Bs 840,000, about US$120,000 or 1.4%. Bs 100 million (US$14 million) owes Bs 1.8 million, about US$260,000 or 1.8%.[1][14]
 
 The entrance has a step. A fortune of exactly Bs 30 million owes nothing, and one boliviano more owes Bs 270,000, about US$39,000.[1]
 
 ## Who pays and what counts {#base}
 
-Residents pay on assets at home and abroad, and non-residents pay on what they hold in Bolivia. Residence means more than 183 days in twelve months.[1] Companies, cooperatives and other legal entities are excluded.[1] Decreto Supremo 4436 of 30 December 2020 lists the assets: property, vehicles, aircraft and boats, shares, deposits, cash, insurance payouts, jewellery, art, intellectual property and the rest.[2] Property counts at the highest of its market value, its purchase price updated by the housing index, or the value used for last year's property tax.[2]
+Residents pay on assets at home and abroad, and non-residents pay on what they hold in Bolivia. Residence means more than 183 days in twelve months.[1] Only individuals pay. Companies and other legal entities are excluded.[1] The implementing decree lists what counts: property, vehicles, aircraft and boats, shares, deposits, cash, insurance payouts, jewellery, art, intellectual property and more.[2] Property counts at the highest of its market value, its purchase price updated by the housing index, or the value used for last year's property tax. That rule shuts the easy trick of declaring a low value.[2]
 
-Household furnishings, pension-fund contributions and the equity of a sole proprietorship stay out, and loans from regulated lenders come off.[1][2] Property and vehicle taxes already paid are credited against the IGF.[2] Residents file and pay by the last working day of March.[2] An unpaid tax draws a fine of 200% of the amount omitted, and the authority can publish the debt.[1]
+Household furnishings, pension-fund contributions and the equity of a sole proprietorship stay out, and loans from regulated lenders come off. Property and vehicle taxes already paid are credited against the IGF.[1][2] Residents file and pay by the last working day of March. Leaving the tax unpaid draws a fine of 200% of the amount omitted, and the authority can publish the debt.[1][2]
 
-## What it raised {#revenue}
+## It beat the forecast {#revenue}
 
-The government's bill estimated Bs 105 million a year, about US$15 million.[3] The tax authority's table shows what came in: Bs 241 million in 2021, 205 million in 2022, 180 million in 2023, 169 million in 2024 and 162 million in 2025 up to 31 October. That is Bs 958 million in all, about US$140 million.[4] The first year paid 2.3 times the estimate. From 2021 to 2024 collection fell 30%.[4]
+The government's bill estimated Bs 105 million a year, about US$15 million.[3] The tax authority's own table shows what came in: Bs 241 million in 2021, 205 million in 2022, 180 million in 2023, 169 million in 2024 and 162 million in 2025 up to 31 October. That is Bs 958 million in all, nearly US$140 million.[4] The first year paid 2.3 times the estimate.
 
-The authority had 263 registered payers on 31 October 2025. Oxfam counts about 200 people who pay.[4][7]
+Collection then slid 30% between 2021 and 2024 under an unchanged scale.[4] The law has no indexation, so the fix is a clause that adjusts the scale. Repeal would throw away the money that still arrives, more than Bs 160 million in 2024.[4]
 
-## Passing the law {#passage}
+The authority counts 263 registered payers.[4] Oxfam counts about 200 people who actually pay.[7] A few hundred people, in a country where most households live on far less, supply a sum the state can count on every year.
 
-President Luis Arce sent the bill to the Assembly on 25 November 2020 as Proyecto de Ley 033/2020-2021, in the pandemic. Its statement of reasons says that the person with the larger fortune pays more, which sets the tax apart from every other tax in force in Bolivia.[3]
+## How it passed {#passage}
 
-The Chamber of Deputies took the bill up on 9 December. [Omar Yujra](/bo/A0012) of MAS said he saw no technical reason to oppose it. The Creemos bench announced its rejection, and Senator Centa Rek called the bill demagogic.[12] The Chamber passed it on 10 December.[17] The Deputies' text ran for 2020 and 2021 only. On 17 December the Senate changed it to apply from 2020 on, with no end date, and sent it back.[13] [Marcelo Montenegro](/bo/A0007), the economy minister, presented the bill there.[13] Arce promulgated the law on 28 December.[1]
+President Luis Arce sent the bill to the Assembly on 25 November 2020, in the pandemic. Its statement of reasons said that the person with the larger fortune pays more, which sets this tax apart from every other tax in force in Bolivia.[3]
 
-The Assembly records we could open print no per-member tally. The register lists [Luis Arce](/bo/A0003) and Montenegro as signatories of the law, and the [Asamblea Legislativa Plurinacional](/bo/A0006) as the body that passed it.
+The Chamber of Deputies took the bill up on 9 December. [Omar Yujra](/bo/A0012) of MAS said he saw no technical reason to oppose it. The Creemos bench announced its rejection, and Senator Centa Rek called the bill demagogic.[12] The Chamber passed it on 10 December.[17] The Deputies' text ran for 2020 and 2021 only. On 17 December the Senate changed it to apply from 2020 on with no end date, and sent it back.[13] [Marcelo Montenegro](/bo/A0007), the economy minister, presented the bill there.[13] Arce promulgated the law on 28 December.[1]
 
-## The 2025 repeal attempt {#repeal}
+The Assembly records we could open print no tally per member. The register lists [Luis Arce](/bo/A0003) and Montenegro as signatories of the law, and the [Asamblea Legislativa Plurinacional](/bo/A0006) as the body that passed it.
 
-On 25 November 2025 Paz and Economy Minister José Gabriel Espinoza announced a bill to repeal four taxes, the IGF among them.[9][11] Paz said the tax had driven about US$2,500 million out of Bolivia and that he wanted the dollars back.[8] The report gives no source for the figure. Espinoza said the tax discouraged investment and that its revenue did not cover its costs.[11]
+## The repeal that stalled {#repeal}
 
-[Oxfam en Bolivia](/bo/A0001) answered the next day. It said the tax falls on about 200 people and that repeal would benefit the richest 0.001% of the country. It put the yield at Bs 240 million a year, against the authority's Bs 241 million in 2021 and Bs 169 million in 2024.[7][4]
+On 25 November 2025 Paz and Economy Minister José Gabriel Espinoza announced a bill to repeal four taxes, the IGF among them.[9][11] Paz said the tax had driven about US$2,500 million out of Bolivia and that he wanted the dollars back.[8] The report gives no source for that figure, and the tax itself has collected nearly US$140 million. Money that wants to leave can be met with an exit charge and reporting rules. A fortune that stays and pays nothing helps nobody. Espinoza said the tax discouraged investment and that its revenue did not cover its costs.[11]
 
-The repeal bill was number 115/2025-2026.[9] On 11 February 2026 the Chamber reported that its planning committee, chaired by Raúl Párraga, had approved the repeal of the financial transactions tax and had not reached consensus on the IGF. The Executive would have to bring a new proposal with technical support.[10] Minister of the Presidency José Luis Lupo answered that the government would insist and that the IGF sends signals unfriendly to investment.[9] The plenary approved the other repeal that day, and the tax authority's list now shows it as Ley 1717.[9][6]
+[Oxfam en Bolivia](/bo/A0001) answered the next day. It said the tax falls on about 200 people and that repeal would benefit the richest 0.001% of the country.[7]
 
-The authority's resolution of 24 March 2026 moved the 2025 filing deadline to 30 April for residents and 29 May for non-residents, so the IGF was still being collected that spring.[5] On 8 November 2026 its list of laws still carries Ley 1357. The newest tax laws on it are Ley 1717, Ley 1718 and Ley 1733, and none repeals or amends the IGF.[6] That list is the latest official source we could open.
+The repeal bill was number 115/2025-2026.[9] On 11 February 2026 the Chamber reported that its planning committee, chaired by Raúl Párraga, had approved the repeal of the financial transactions tax and had not reached consensus on the IGF. The Executive would have to bring a new proposal with technical support.[10] Minister of the Presidency José Luis Lupo answered that the government would insist.[9] The plenary approved the other repeal that day.[9]
+
+The tax authority moved the 2025 filing deadline to 30 April for residents and 29 May for non-residents, so the IGF was still being collected that spring.[5] On 8 November 2026 its list of laws still carries Ley 1357. The newest tax laws on it are Ley 1717, Ley 1718 and Ley 1733, and none repeals or amends the IGF.[6]
 
 ## Who supports it {#who-supports}
 
 The tax passed under a MAS government. [Evo Morales](/bo/A0004) backed the campaign proposal in September 2020, and the [Movimiento al Socialismo](/bo/A0005) proposed a tax on fortunes above US$10 million. [Álvaro García Linera](/bo/A0024) called the tax a first step that must be widened.
 
-The economists on the register defend it. [Verónica Paz Arauco](/bo/A0025) said in December 2020 that the threshold should come down. [Catalina Apaza Aduviri](/bo/A0036), a tax specialist at the Ministry of Economy, wrote in April 2021 that the IGF proved successful despite the predictions against it. [José Fernando Siñani](/bo/A0014), [Martín Moreira](/bo/A0015), [Lilian Loayza](/bo/A0017) and [Víctor Vacaflores](/bo/A0033) wrote for it in 2021 and 2025. Oxfam's director, [Lourdes Montero](/bo/A0016), called the repeal a signal that deepens inequality.
+The economists on the register defend it. [Verónica Paz Arauco](/bo/A0025) said in December 2020 that the threshold should come down. [Catalina Apaza Aduviri](/bo/A0036), a tax specialist at the Ministry of Economy, wrote in April 2021 that the IGF had proved successful despite the predictions against it. [José Fernando Siñani](/bo/A0014), [Martín Moreira](/bo/A0015), [Lilian Loayza](/bo/A0017) and [Víctor Vacaflores](/bo/A0033) wrote for it in 2021 and 2025. Oxfam's director, [Lourdes Montero](/bo/A0016), called the repeal a signal that deepens inequality.
 
 Opposition to repeal came from outside the Assembly too. The [Central Obrera Boliviana](/bo/A0008) with [Mario Argollo](/bo/A0009), the miners' federation [FSTMB](/bo/A0010) with [Andrés Paye](/bo/A0011), and the small-business confederation [Conamype](/bo/A0021) with [Helen Riveros](/bo/A0022) spoke against it in November and December 2025. In the Chamber, [Lissa Claros](/bo/A0035) of LIBRE rejected the repeal in February 2026.
 
@@ -167,17 +169,17 @@ Opposition to repeal came from outside the Assembly too. The [Central Obrera Bol
 
 ## What Bolivia shows {#lessons}
 
-### A threshold in a falling currency {#threshold}
+### A falling currency pulls more people in {#threshold}
 
-The law fixes its line in bolivianos. The official rate was Bs 6.96 per dollar until 26 June 2026 and Bs 11.81 on 8 November 2026.[15][16] At that rate Bs 30 million is US$2.5 million, against US$4.3 million in 2020.[14][16] A fortune of US$4.3 million, which sat on the line in 2020, is Bs 51 million today and owes Bs 620,000, about US$53,000.[1][16] Dollar deposits count at the sale rate on the day of payment, so the fall in the boliviano moves them up the scale without a new law.[2] We argue for keeping the line where it is. Paz Arauco and Vacaflores argued for lowering it.
+The law fixes its line in bolivianos. The official rate was Bs 6.96 per dollar until 26 June 2026 and Bs 11.81 on 8 November 2026.[15][16] At that rate Bs 30 million is US$2.5 million, against US$4.3 million in 2020.[14][16] So the tax now reaches further down the wealth ladder without a new law. A fortune of US$4.3 million, which sat on the line in 2020, is Bs 51 million today and owes Bs 620,000, about US$53,000.[1][16] Dollar deposits count at the sale rate on the day of payment, so a weaker boliviano also lifts them up the scale.[2] Parliament can keep the line where it is or follow Paz Arauco and Vacaflores and lower it.
 
 ### Revenue sits on the largest fortunes {#top}
 
-Collection fell from Bs 241 million in 2021 to Bs 169 million in 2024 under the same scale.[4] The scale carries no indexation, and the 2020 estimate of Bs 105 million was beaten in the first year.[3][4] We argue that the largest fortunes should keep paying.
+Collection fell from Bs 241 million in 2021 to Bs 169 million in 2024 under the same scale.[4] The 2020 estimate of Bs 105 million was beaten in the first year.[3][4] Indexing the scale would stop the slide. Repeal would end the revenue.
 
 ### Repeal needs a vote {#vote}
 
-The government announced repeal in November 2025. A bill had to pass the Assembly, and on 8 November 2026 none has.[9][10][6] We argue against repeal.
+The government announced repeal in November 2025. A bill has to pass the Assembly, and on 8 November 2026 none has.[9][10][6]
 
 ### The neighbours {#neighbours}
 

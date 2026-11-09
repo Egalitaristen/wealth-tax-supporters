@@ -1,5 +1,5 @@
 ---
-title: France replaced its wealth tax with a real estate tax in 2018 and lost over €4 billion a year, and has voted down a 2% floor on fortunes above €100 million four times
+title: France cut its wealth tax in 2018, lost over €4 billion a year, and keeps voting down a 2% floor on fortunes above €100 million
 standfirst: The ISF raised €4.2 billion from 358,000 households in 2017. The 2018 reform cut it to a tax on real estate and the state's own evaluators put the loss at more than €4 billion a year by 2022. The taxe Zucman, a 2% minimum on fortunes above €100 million, passed the Assemblée once and has been rejected four times since.
 updated: 2026-11-08
 author: Egalitaristen
@@ -126,7 +126,7 @@ sources:
     title: Public Sénat, Rejet de la « taxe Zucman » à l'Assemblée nationale : est-elle inconstitutionnelle ?
     url: https://www.publicsenat.fr/actualites/parlementaire/rejet-de-la-taxe-zucman-a-lassemblee-nationale-est-elle-inconstitutionnelle
 ---
-France taxed net wealth with the ISF until 2017 and then cut the tax down to real estate. In its last year the ISF raised €4.2 billion from 358,000 households.[3] The state's own evaluation committee puts the cost of the replacement at more than €4 billion a year by 2022.[2] The debate since 2025 is about a 2% minimum tax on fortunes above €100 million, the taxe Zucman. The Assemblée adopted it once, on 20 February 2025, and has voted it down since.[6][8][9] We checked the Assemblée, Sénat and Conseil constitutionnel pages on 8 November 2026, and no such tax is in force.
+France gave its richest households a tax cut worth more than €4 billion a year, and the state's own evaluators have counted it. Until 2017 the country taxed net wealth through the ISF, which raised €4.2 billion from 358,000 households in its last year.[3] The 2018 reform cut it down to real estate, and the official evaluation committee puts the cost of that change at more than €4 billion a year by 2022.[2] Since 2025 the debate is about a 2% minimum tax on fortunes above €100 million, the taxe Zucman. The Assemblée adopted it once, on 20 February 2025, and has voted it down since.[6][8][9] We checked the Assemblée, Sénat and Conseil constitutionnel pages on 8 November 2026, and no such tax is in force.
 
 ## What the ISF was {#isf}
 
@@ -143,29 +143,27 @@ Households owed the tax once they passed €1.3 million, and a discount smoothed
 
 In 2017, 358,198 households paid a net €4.2 billion on €1.03 trillion of taxable wealth.[3] The committee gives the same €4.2 billion.[2]
 
-The rate on paper was 1.5%. The effective rate fell with fortune. A cap kept ISF, income tax and social charges under 75% of the previous year's declared income, and the committee found that the 0.001% richest paid 0.1% of their wealth in 2017. The cap applied to fewer than 12,000 households, and 84% of those with €100 to 200 million of taxable wealth used it. Its real cost was about €2 billion a year, twice the static estimate of the tax administration, because capped households declared less income.[2] The ISF failed at the top, and a floor tax closes that gap.
+The rate on paper was 1.5%. The richest paid far less. A cap kept ISF, income tax and social charges under 75% of the previous year's declared income, and the committee found that the richest 0.001% paid 0.1% of their wealth in 2017. The cap applied to fewer than 12,000 households, and 84% of those with €100 to 200 million of taxable wealth used it. Its real cost was about €2 billion a year, twice the tax administration's own estimate, because capped households declared less income.[2] The tax failed at the top, which is exactly what a floor tax is built to fix.
 
 ## What the 2018 reform did {#ifi}
 
-From 1 January 2018 the impôt sur la fortune immobilière replaced the ISF. It taxes net real estate above €1.3 million.[1][2] Two thirds of the households that paid the ISF in 2017 owed nothing in 2018, and their average bill fell from €8,000 to €1,600.[2] The biggest cut in rate went to households around the 99th percentile, 0.5% of their wealth.[2]
+From 1 January 2018 the impôt sur la fortune immobilière (IFI) replaced the ISF. It taxes net real estate above €1.3 million.[1][2] Two thirds of the households that paid the ISF in 2017 owed nothing in 2018, and their average bill fell from €8,000 to €1,600.[2] The biggest cut in rate went to households around the 99th percentile, 0.5% of their wealth.[2]
 
-The IFI raised €1.29 billion in 2018 against a state forecast of €850 million, and €1.83 billion from 164,000 households in 2022.[1][2] The committee estimated the loss against the ISF at €3.1 billion in 2018. In 2022 it called the cost "vraisemblablement supérieur à 4 milliards d'euros", and €4.5 billion if the ISF had grown as the IFI did.[2] The cost grows with the fortunes left out of the base.
+The IFI raised €1.29 billion in 2018 against a state forecast of €850 million, and €1.83 billion from 164,000 households in 2022.[1][2] The committee estimated the loss against the ISF at €3.1 billion in 2018. By 2022 it put the cost at probably more than €4 billion, and at €4.5 billion if the ISF had grown as the IFI did.[2] The gap widens every year as the fortunes left out of the base grow.
 
-The evaluation finds no lasting shift out of property. The share of former ISF households cutting real estate by more than €1 million jumped to 14% in 2018 from 6% to 7%, then fell back in 2019 to 2021, always below the share raising it.[2] On firms, "il semble difficile de mettre en évidence" any effect of the ISF on dividends or investment when it compared companies whose owners gained most from repeal with those whose owners gained little.[2]
+Did the cut send money into the economy? The evaluation finds no lasting shift out of property. The share of former ISF households selling more than €1 million of real estate jumped to 14% in 2018 from 6% to 7%, then fell back in 2019 to 2021, always below the share buying.[2] On firms, the committee had trouble finding any effect of the ISF on dividends or investment when it compared companies whose owners gained most from repeal with those whose owners gained little.[2]
 
 ## The exit argument {#exit}
 
-Under the ISF about 1,150 payers left France in 2014 and 760 in 2017.[1] Against 358,000 payers, 760 is 0.2%.[1][3] The IFI period looks smaller in absolute terms: 260 departures a year from 2018 to 2021, against 380 returns, where the ISF years from 2011 to 2016 averaged 950 departures against 370 returns.[2] But the payer pool also shrank, to 133,000 in 2018, and 270 departures that year is again 0.2%.[1][2] The exit rate stayed where it was.
+Opponents say the rich leave. Under the ISF about 1,150 payers left France in 2014 and 760 in 2017.[1] Against 358,000 payers, 760 is 0.2%.[1][3] After the reform the number looks smaller: 260 departures a year from 2018 to 2021, against 380 returns, where the ISF years from 2011 to 2016 averaged 950 departures against 370 returns.[2] But the payer pool also shrank, to 133,000 in 2018, and 270 departures that year is again 0.2%.[1][2] The rate of leaving stayed where it was.
 
-The sums are small. Households that came back in 2021 paid about €5.5 million of IFI in 2022, 0.3% of the total, and the committee calls the budget stake "vraisemblablement de second ordre".[2] The same report cites a study for the Institut des politiques publiques that suggests firms whose reference shareholder leaves France do worse afterwards.[2] The departures behind that finding are a few hundred households a year.
-
-The newest floor-tax text also deals with departures head on. The Socialist amendment of October 2026 charges anyone who lived in France six of the previous ten years, at the moment of leaving, ten times the annual floor rate, payable over up to ten years.[12]
+The sums are small too. Households that came back in 2021 paid about €5.5 million of IFI in 2022, 0.3% of the total, and the committee calls the budget stake probably secondary.[2] The same report cites a study suggesting that firms whose reference shareholder leaves France do worse afterwards.[2] Behind that finding are a few hundred households a year, and the answer to a few hundred households is a rule that applies to them on the way out. The newest floor-tax text has one. The Socialist amendment of October 2026 charges anyone who lived in France six of the previous ten years, at the moment of leaving, ten times the annual floor rate, payable over up to ten years.[12]
 
 ## The taxe Zucman {#zucman}
 
-Bill no. 768 of 7 January 2025, by [Eva Sas](/fr/A0200), [Clémentine Autain](/fr/A0049) and the Écologiste et social group, creates an "impôt plancher" for households with net wealth above €100 million. The exposé des motifs cites the economist [Gabriel Zucman](/fr/A0229) for a yield of €15 to 25 billion a year.[5] The amendment version names about 1,800 households.[12]
+Bill no. 768 of 7 January 2025, by [Eva Sas](/fr/A0200), [Clémentine Autain](/fr/A0049) and the Écologiste et social group, creates a minimum tax for households with net wealth above €100 million. Its statement of reasons cites the economist [Gabriel Zucman](/fr/A0229) for a yield of €15 to 25 billion a year.[5] The amendment version names about 1,800 households.[12]
 
-The tax is a difference. It charges 2% of net wealth minus the income tax, social contributions, IFI and property taxes already paid.[12] A fortune of €500 million that pays €5 million in those taxes owes €10 million at the floor, minus €5 million: €5 million. Households that already pay 2% owe nothing.
+The tax charges only the difference. It takes 2% of net wealth and subtracts the income tax, social contributions, IFI and property taxes already paid.[12] A fortune of €500 million that pays €5 million in those taxes owes €10 million at the floor, minus €5 million: €5 million. Households that already pay 2% owe nothing.
 
 The votes, in order:
 
@@ -193,7 +191,7 @@ The tax began as an Ecologist bill and has the whole parliamentary left behind i
 
 ### Shrinking the base costs more every year {#base}
 
-The ISF was undone by changing what it taxed. The committee measures the result at €4.5 billion of lost revenue in 2022.[2] We argue that a tax confined to real estate leaves out the wealth that grows fastest, and that the fix is to widen the base again.
+The ISF was undone by changing what it taxed. The committee measures the result at €4.5 billion of lost revenue in 2022.[2] A tax confined to real estate leaves out the wealth that grows fastest, and the fix is to widen the base again.
 
 ### Departures stay at 0.2% {#departures}
 
@@ -201,7 +199,7 @@ The tax administration's data show 0.2% of payers leaving before the reform and 
 
 ### The top pays least {#top}
 
-The cap on the old ISF cut the effective rate to 0.1% for the richest 0.001%.[2] A floor of 2% on net wealth above €100 million is the correction, and the October 2026 amendment writes it in the law's own terms.[12]
+The cap on the old ISF cut the effective rate to 0.1% for the richest 0.001%.[2] A floor of 2% on net wealth above €100 million corrects it, and the October 2026 amendment writes it in the law's own terms.[12]
 
 ## Where to look next {#next}
 
