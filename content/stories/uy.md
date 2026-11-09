@@ -102,48 +102,46 @@ sources:
     title: Ámbito, El Partido Socialista presiona al Gobierno e insiste en implementar el impuesto al 1% más rico (17 August 2025)
     url: https://www.ambito.com/uruguay/el-partido-socialista-presiona-al-gobierno-e-insiste-implementar-el-impuesto-al-1-mas-rico-n6179466
 ---
-Uruguay already taxes the net wealth of its richest residents, and the tax has been cut almost to nothing. Each step of the rate scale falls every year to a floor of 0.10%, and the personal tax raises about 0.01% of GDP, against 0.6% in the 1990s.[1][3] The debate of 2025 and 2026 is about putting real rates back on the top 1%. The PIT-CNT proposes a surcharge of up to 1.5% on wealth above US$1 million, and an April 2026 brief proposes a minimum tax of 2% on fortunes above US$100 million.[3][5] The government says this is not a discussion for its term.[8] Dollar figures in this story use UYU 44.07 per dollar, the rate at the end of 2024.[9]
+Uruguay has a wealth tax, and it has been cut almost to nothing. Every step of the rate scale falls each year until it hits a floor of 0.10%. The tax on individuals now raises about 0.01% of GDP, against 0.6% in the 1990s.[1][3] Meanwhile the richest 1% hold close to four dollars in every ten of the country's wealth.[3][4] In 2025 the PIT-CNT, the national union confederation, proposed a surcharge of up to 1.5% on wealth above US$1 million. An April 2026 brief goes further and proposes a minimum tax of 2% on fortunes above US$100 million.[3][5] The government says not in this term.[8] Dollar figures in this story use UYU 44.07 per dollar, the rate at the end of 2024.[9]
 
 ## A tax on its floor {#tax}
 
-Título 14 of the Texto Ordenado creates an annual tax on the net wealth of individuals, family units and undivided estates, and of companies.[1] Individuals pay on the part above a non-taxable minimum that the executive resets every year with the cost-of-living index. For 2024 it was UYU 6,381,000, about US$145,000, and a family unit gets twice that.[1][2][9] Companies pay 1.5% and banks 2.8%. Farm assets pay a separate surcharge of 0.70% to 1.50%, by size.[1]
+Título 14 of the tax code creates an annual tax on the net wealth of individuals, family units and estates, and of companies.[1] Individuals pay only on the part above a minimum that the government resets every year with the cost of living. For 2024 it was UYU 6,381,000, about US$145,000, and a family unit gets twice that.[1][2][9] Companies pay 1.5% and banks 2.8%. Farm assets pay a separate surcharge of 0.70% to 1.50%, by size.[1]
 
-For individuals the law's scale runs from 0.70% on the first band to 2.75% on the last. The same article cuts every step each year, from 2008 on, with a floor of 0.10%, and the floor has been reached.[1][3] A resident with UYU 40 million of taxable wealth, about US$910,000, owes 0.1% of what exceeds the minimum: UYU 34,000, or US$760.[1][2][9] The Impuesto al Patrimonio as a whole, which also taxes companies, raised UYU 32.4 billion in 2024, about US$740 million.[1][6]
+For individuals the law's scale runs from 0.70% on the first band to 2.75% on the last. The same article cuts every step each year from 2008 on, with a floor of 0.10%, and the floor has been reached.[1][3] Someone with UYU 40 million of taxable wealth, about US$910,000, owes 0.1% of what exceeds the minimum: UYU 34,000, or US$760.[1][2][9] The wealth tax as a whole, which also covers companies, raised UYU 32.4 billion in 2024, about US$740 million.[1][6]
 
-The PIT-CNT's commission points out that the tax falls mostly on real estate at cadastral values, which sit well below market prices.[3] That is the tax a surcharge would stand on.
+The tax falls mostly on real estate at cadastral values, which sit well below market prices.[3] That is the tax a surcharge would build on.
 
 ## Who sits at the top {#top}
 
-About 25,000 adults, the richest 1%, hold between US$1 million and a little over US$1 billion each.[3][4] Estimates of their share of all wealth cluster between 35% and 40%: 37% to 39% from tax records for 2009 to 2016, and 37% in a 2026 brief that sets the poorest half at 14.5%.[3][4][5] Mauricio De Rosa and Joan Vilá of the Universidad de la República put Uruguay's concentration with the United States, Colombia and Brazil, and far above the United Kingdom or France.[4] The top 1% also takes 15% of income.[3]
+About 25,000 adults, the richest 1%, hold between US$1 million and a little over US$1 billion each.[3][4] Their share of all wealth is 37% to 39% in tax records for 2009 to 2016, and 37% in a 2026 brief that puts the poorest half at 14.5%.[3][4][5] Economists Mauricio De Rosa and Joan Vilá of the Universidad de la República put Uruguay's concentration with the United States, Colombia and Brazil, and far above the United Kingdom or France.[4] The top 1% also takes 15% of income.[3]
 
-Taxes do not correct this. The 2026 brief reports that all taxes together take 31% from the poorest half, 28% from the middle 40%, 27% from the top 10% and 23% from the top 1%.[5] The country has three billionaires with US$6.5 billion between them, and 40 people above US$100 million with US$14.9 billion.[5]
+Taxes do not correct this. All taxes together take 31% from the poorest half, 28% from the middle 40%, 27% from the top 10% and 23% from the top 1%.[5] The country has three billionaires with US$6.5 billion between them, and 40 people above US$100 million with US$14.9 billion.[5]
 
-## The surcharge on the table {#surcharge}
+## The union plan {#surcharge}
 
-On 24 November 2025 a commission convened by the PIT-CNT published its proposal: an annual surcharge on the existing personal wealth tax, on net wealth above US$1 million, the approximate threshold of the top 1%.[3] Its members are Andrés Blanco, Juan Geymonat, Mauricio De Rosa, Gabriel Oyhantçabal, Andrea Vigorito, Joan Vilá, Alejandra Picco, Carlos Grau Pérez and Gustavo Viñales Guillama.[3] Business assets that already pay income or equity tax are left out, so the charge falls on passive wealth. The home keeps a deduction of 50% of its value, capped at a quarter of the minimum. A specialized DGI unit would audit the payers, and the proceeds would go to a fund against child poverty.[3] That poverty reaches 17.3% of people and 32.2% of children under six.[3]
+On 24 November 2025 a commission convened by the PIT-CNT published its proposal: an annual surcharge on the existing personal wealth tax, on net wealth above US$1 million, the approximate threshold of the top 1%.[3] Business assets that already pay income or equity tax are left out, so the charge falls on passive wealth. The home keeps a deduction of 50% of its value, capped at a quarter of the minimum. A specialized unit of the tax office would audit the payers, and the proceeds would go to a fund against child poverty.[3] Child poverty is real: 17.3% of people and 32.2% of children under six live below the poverty line.[3]
 
-The commission gives three example scales, each marginal like the law's own, with bands from US$1 million to US$11 million:[3]
+The commission gives three example scales, each applied band by band like the law's own, with bands from US$1 million to US$11 million:[3]
 
 - First scale: 0.1% from US$1 to 2 million, 0.5% to 3 million, 1.0% to 6 million, 1.2% to 11 million, 1.5% above.
 - Third scale: 0.5% from US$1 to 2 million, 1.0% to 3 million, 1.5% above.
 
-Take a fortune of US$5 million. The first scale yields US$26,000, 0.52% of the fortune. The third yields US$45,000, 0.9%. At US$20 million the third scale yields US$270,000, 1.35%.[3] The [calculator](/calculator?w=5000000&b=1000000:0.5,2000000:1,3000000:1.5&c=US$) holds the third scale and gives the US$45,000 for a fortune of US$5 million. The commission says an effective 1% arrives between US$6 and 14 million, inside the top 1%, and that fortunes just above the line pay far less than those at the top.[3]
+A fortune of US$5 million would pay US$26,000 under the first scale, 0.52% of the fortune. Under the third it would pay US$45,000, 0.9%. At US$20 million the third scale yields US$270,000, 1.35%.[3] The [calculator](/calculator?w=5000000&b=1000000:0.5,2000000:1,3000000:1.5&c=US$) holds the third scale and gives the US$45,000 for US$5 million. An effective 1% arrives between US$6 and 14 million, inside the top 1%, and fortunes just above the line pay far less than those at the top.[3]
 
 ## What it would raise {#revenue}
 
-De Rosa and Vilá wrote to the PIT-CNT president on 2 July 2025. They estimate that a 1% tax on the top 1% would raise 0.75% to 1% of GDP, US$600 to 800 million, with 17% of the yield lost to evasion already counted.[4] They add that the wealth of the top 1% runs at 120% to 140% of GDP on conservative figures.[4] Their reading of the evidence is that behaviour changes more in what people declare than in what they do, and that the effects on saving, investment and migration are moderate. Nothing in the literature they reviewed shows the proposal to be unviable. They close by saying the decision is political.[4]
+De Rosa and Vilá wrote to the PIT-CNT president on 2 July 2025. They estimate that a 1% tax on the top 1% would raise 0.75% to 1% of GDP, US$600 to 800 million, with 17% of the yield lost to evasion already counted.[4] The wealth of the top 1% runs at 120% to 140% of GDP.[4] People change what they declare more than what they do, and the effects on saving, investment and migration are moderate. Nothing in the literature they reviewed shows the proposal to be unviable.[4] Evasion is a reason to audit, and the proposal sets up the unit to do it.[3]
 
 ## A floor for the ultra-rich {#minimum}
 
-An April 2026 brief by Vicente Silva of the International Tax Observatory, with the Friedrich Ebert Stiftung, adds a second instrument.[5] A minimum effective tax charges the difference when the income and wealth taxes a fortune already pays fall below a floor. A rate of 2% on fortunes above US$100 million would raise about US$260 million, 0.4% of GDP. A rate of 3% would raise US$409 million, 0.65%.[5] Silva presents it as a complement to the surcharge, which widens the base, while the minimum covers the top.[5]
+An April 2026 brief by Vicente Silva of the International Tax Observatory, with the Friedrich Ebert Stiftung, adds a second tool.[5] A minimum tax charges the difference when the income and wealth taxes a fortune already pays fall below a floor. A rate of 2% on fortunes above US$100 million would raise about US$260 million, 0.4% of GDP. A rate of 3% would raise US$409 million, 0.65%.[5] Silva presents it as a partner to the surcharge: the surcharge widens the base, and the minimum covers the very top.[5]
 
 ## Where the government and the party stand {#politics}
 
-The idea has been in the Frente Amplio for years. In March 2025 six senators, among them [Óscar Andrade](/uy/A0010) and [Alejandro Sánchez](/uy/A0011), now Secretary of the Presidency, reintroduced a bill from 2022 for a 25% surcharge on the Impuesto al Patrimonio, to feed the Fondo Nacional de Vivienda. In November 2023 Housing Minister Raúl Lozano had rejected it, citing the coalition's pledge of no new taxes.[6] The Frente Amplio programme, as Montevideo Portal quoted it in 2024, says the party will strengthen taxation of income, big capital and wealth.[10]
+The idea has been in the Frente Amplio for years. In March 2025 six senators, among them [Óscar Andrade](/uy/A0010) and [Alejandro Sánchez](/uy/A0011), now Secretary of the Presidency, reintroduced a bill from 2022 for a 25% surcharge on the wealth tax, to feed the national housing fund. In November 2023 Housing Minister Raúl Lozano had rejected it, citing the coalition's pledge of no new taxes.[6] The Frente Amplio programme, as Montevideo Portal quoted it in 2024, says the party will strengthen taxation of income, big capital and wealth.[10]
 
-The executive has said no. On 10 June 2026 Economy Minister Gabriel Oddone repeated that the tax is not for this term.[8] President Yamandú Orsi said in August 2025 that programmes are guides.[11] The executive has not moved.
-
-The party itself has moved. On 18 October 2026 the Frente Amplio congress approved a motion, negotiated among all its sectors, that values the PIT-CNT proposal as a contribution to tax justice and says the tax debate cannot be taboo for the left. It asks for study and dialogue so that the party brings concrete proposals to the government in 2027.[7]
+The executive has said no. On 10 June 2026 Economy Minister Gabriel Oddone repeated that the tax is not for this term.[8] President Yamandú Orsi said in August 2025 that programmes are guides.[11] The party has moved. On 18 October 2026 the Frente Amplio congress approved a motion, negotiated among all its sectors, that values the PIT-CNT proposal as a contribution to tax justice and says the tax debate cannot be taboo for the left. It asks the party to bring concrete proposals to the government in 2027.[7]
 
 ## Who supports it {#who-supports}
 
@@ -155,7 +153,7 @@ Support comes from the labour movement, the left of the Frente Amplio and the ec
 
 ### The machinery exists {#machinery}
 
-Uruguay does not need a new tax. It has an annual wealth tax, a minimum with a family rule, a farm surcharge and a DGI that collects it.[1] De Rosa and Vilá say any new design should be built on the existing tax.[4] A surcharge above US$1 million does that and leaves the rate for everyone below it at 0.1%.[3]
+Uruguay does not need a new tax. It has an annual wealth tax, a minimum with a family rule, a farm surcharge and a tax office that collects it.[1] De Rosa and Vilá say any new design should be built on the existing tax.[4] A surcharge above US$1 million does that and leaves the rate for everyone below it at 0.1%.[3]
 
 ### The rates fell by design {#floor}
 
@@ -163,7 +161,7 @@ Nobody repealed the tax. The law cut it year after year until it reached 0.10% a
 
 ### The government is the obstacle {#obstacle}
 
-The case for the surcharge is made by university economists, a union confederation and the congress of the governing party. Oddone's answer is that the country has constraints.[8] The party's own 2027 timetable is the next date to push.[7]
+University economists, a union confederation and the congress of the governing party all back the surcharge. Oddone's answer is that the country has constraints.[8] The party's own 2027 timetable is the next date to push.[7]
 
 ### The neighbours {#neighbours}
 

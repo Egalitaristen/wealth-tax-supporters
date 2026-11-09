@@ -123,52 +123,52 @@ sources:
     title: Publimetro, De la Espriella mete presión al Congreso por su reforma tributaria (3 November 2026), on Proyecto de Ley 477 de 2026 Cámara
     url: https://www.publimetro.co/noticias/2026/11/03/de-la-espriella-mete-presion-al-congreso-por-su-reforma-tributaria-tomo-una-decision-para-acelerar-aprobacion/
 ---
-Colombia has taxed net wealth, with breaks, since at least 2006. Ley 2277 of 13 December 2022 made the tax permanent for individuals worth 72,000 UVT or more, about COP 3.77 billion or US$1.0 million in 2026.[1][2][3] It raised about COP 1.2 trillion, US$320 million, in 2025.[5] In August 2026 the new president announced that it will be eliminated, and his government's bill of 29 October would limit it to 2027 to 2030 above 95,500 UVT.[6][16] Dollar figures in this story use the rate of COP 3,757 per dollar on 31 December 2025.[3]
+In 2025, 34,229 Colombians paid a wealth tax and handed the state about COP 1.2 trillion, US$320 million.[5] Nearly three quarters of it came from the richest few: fortunes above 239,000 UVT paid 72%.[5] The tax has existed in one form or another since 2006, and a 2022 law made it permanent for anyone worth 72,000 UVT or more, about COP 3.77 billion or US$1.0 million in 2026.[1][2][3] The new president promised in August 2026 to eliminate it. His government's bill of 29 October would keep it only for 2027 to 2030 and lift the threshold to 95,500 UVT.[6][16] Dollar figures in this story use COP 3,757 per dollar, the rate on 31 December 2025.[3]
 
 ## Twenty years of wealth taxes {#history}
 
-DIAN's series of wealth-tax collections starts in 2006, when the government of Álvaro Uribe set a rate of 0.3% on net equity above COP 3 billion, about US$800,000.[4] Over the 20 years since, the successive taxes have collected a little over COP 49 trillion, about US$13 billion.[4] The record year was 2015, with COP 5.5 trillion or US$1.5 billion, under the wealth tax of Ley 1739 of 2014. The weakest was 2022, with COP 73 billion, about US$20 million, the year before the new tax took effect.[4]
+The official series starts in 2006, when the government of Álvaro Uribe set a rate of 0.3% on net equity above COP 3 billion, about US$800,000.[4] Over the 20 years since, successive wealth taxes have collected a little over COP 49 trillion, about US$13 billion.[4] The record year was 2015, with COP 5.5 trillion or US$1.5 billion. The weakest was 2022, with COP 73 billion, about US$20 million, the year before the new tax took effect.[4]
 
-The 2022 reform made the tax permanent. The reform bill that Finance Minister [José Antonio Ocampo](/co/A0001) filed on 8 August 2022 proposed a permanent tax from COP 3 billion, US$800,000, with a rate of 0.5% up to COP 5 billion and 1% above it.[9][10] He defended it as a way to spread wealth better.[9] Congress changed the design, adding a third rate, and the law of 13 December 2022 was signed by President [Gustavo Petro](/co/A0014).[1]
+The 2022 reform made the tax permanent. Finance Minister [José Antonio Ocampo](/co/A0001) filed it on 8 August 2022, with a start at COP 3 billion, a rate of 0.5% up to COP 5 billion and 1% above it.[9][10] He called it a way to spread wealth better.[9] Congress added a third rate, and President [Gustavo Petro](/co/A0014) signed the law on 13 December 2022.[1]
 
-## The tax in force {#design}
+## How the tax works {#design}
 
-Ley 2277 charges individuals and undivided estates that file income tax. Non-residents pay on what they hold in Colombia, and so do foreign entities that own property here such as real estate, yachts, aircraft or mining rights. Shares, receivables and portfolio investments of foreign entities are left out.[1] The tax accrues on 1 January each year on net wealth, assets minus debts, once it reaches 72,000 UVT.[1] The UVT is the unit in which Colombian tax law is written. DIAN set it at COP 52,374 for 2026.[2]
+The tax hits individuals and undivided estates that file income tax. Non-residents pay on what they hold in Colombia, and so do foreign entities that own property here such as real estate, yachts, aircraft or mining rights. Their shares and portfolio investments are left out.[1] It counts net wealth, assets minus debts, on 1 January each year, once it reaches 72,000 UVT.[1] The UVT is the unit in which Colombian tax law is written. For 2026 it is COP 52,374.[2]
 
-The first 12,000 UVT of the value of the home where the taxpayer lives are excluded, about COP 630 million or US$170,000. Second homes and holiday homes get no exclusion.[1][2] The tax is marginal, as the law's scale shows:[1]
+The first 12,000 UVT of the home where you live are excluded, about COP 630 million or US$170,000. Second homes and holiday homes get nothing.[1][2] The rates apply band by band:[1]
 
 - Up to 72,000 UVT: nothing.
 - From 72,000 to 122,000 UVT (about US$1.7 million): 0.5%.
 - From 122,000 to 239,000 UVT (about US$3.3 million): 1%, on top of 250 UVT.
 - Above 239,000 UVT: 1.5%, on top of 1,420 UVT.
 
-A taxable base of 300,000 UVT, COP 15.7 billion or US$4.2 million, owes 2,335 UVT. That is COP 122 million, about US$33,000, or 0.78% of the base.[1][2][3] The [calculator](/calculator?w=15712200000&b=3770928000:0.5,6389628000:1,12517386000:1.5&c=COP$) has the 2026 scale in pesos, and it gives the same result. It applies the scale to the base, so subtract debts and the home exclusion first.
+Someone with a taxable base of 300,000 UVT, COP 15.7 billion or US$4.2 million, owes 2,335 UVT. That is COP 122 million, about US$33,000, or 0.78% of the base.[1][2][3] The [calculator](/calculator?w=15712200000&b=3770928000:0.5,6389628000:1,12517386000:1.5&c=COP$) has the 2026 scale in pesos and gives the same result. Subtract debts and the home exclusion before using it.
 
-The 1.5% band is temporary. The law applies it in 2023, 2024, 2025 and 2026 only, and from 2027 the table ends at 1% above 122,000 UVT.[1] The same 300,000 UVT base would then owe 2,030 UVT, about US$28,000.[1][2][3]
+The 1.5% band is temporary. The law applies it in 2023 to 2026 only, and from 2027 the table ends at 1% above 122,000 UVT.[1] The same 300,000 UVT base would then owe 2,030 UVT, about US$28,000.[1][2][3]
 
 ## What it raises and who pays {#revenue}
 
-DIAN reports that 34,229 filers paid about COP 1.22 trillion in 2025, US$320 million.[5] El Tiempo, citing DIAN, puts the totals at COP 1.47 trillion for 2024, US$390 million, and COP 1.24 trillion for 2025, US$330 million, which is 0.55% and 0.40% of DIAN's gross collection.[6] The money is concentrated. Fortunes above 239,000 UVT paid COP 878 billion, US$230 million, 72% of the total.[5]
+In 2025 DIAN, the tax authority, counted 34,229 payers and about COP 1.22 trillion.[5] In 2024 it raised COP 1.47 trillion, US$390 million. That was 0.55% of everything DIAN collected in 2024 and 0.40% in 2025.[6] Look at who pays: fortunes above 239,000 UVT paid COP 878 billion, US$230 million, 72% of the total.[5] Most of the money comes from the top band.
 
-In 2022 the economists Leopoldo Fergusson and Marc Hofstetter proposed a start at COP 1 billion, about US$270,000, with no extra deductions and rates of 0.5%, 1% and 2%. They put the yield near 1% of GDP, based on World Bank calculations.[13] The reform bill estimated COP 2.6 trillion a year, US$690 million.[9]
+Economists Leopoldo Fergusson and Marc Hofstetter proposed in 2022 to start lower, at COP 1 billion, about US$270,000, with no extra deductions and rates of 0.5%, 1% and 2%. They put the yield near 1% of GDP.[13] The reform bill had estimated COP 2.6 trillion a year, US$690 million.[9]
 
 ## The courts {#courts}
 
-Challenges reached the Constitutional Court twice. In sentences C-395 of 2024 and C-031 of 2025 the Court declined to rule on the merits of the challenges to articles 292-3, 294-3, 296-3 and 297-3. The tax remains in force.[1]
+Colombia's Constitutional Court has looked at the tax twice. In 2024 and again in 2025 it declined to rule on the challenges to its articles, so the tax stays in force.[1]
 
 ## 2026: an emergency levy and a repeal {#now}
 
-On 24 February 2026 the government issued Decreto Legislativo 173 under the economic emergency declared for the winter floods. It created an extraordinary wealth tax on companies and de facto partnerships that pay income tax, with a threshold of 200,000 UVT, about COP 10.5 billion or US$2.8 million, on 1 March 2026.[11][2][3] Payment came in two installments, on 1 April and 4 May. The Constitutional Court suspended the second for non-profit organizations and companies in liquidation.[11] DIAN counted COP 5.1 trillion, US$1.4 billion, against a target of COP 8.3 trillion. The decree set a differential rate of 1.6% for financial institutions, insurers, and coal and oil extraction, against a general rate of 0.5%.[15][12] César Cermeño of the Universidad de los Andes cites that rate as the explanation for the shortfall.[12]
+On 24 February 2026 the government used an economic emergency, declared after the winter floods, to impose an extraordinary wealth tax on companies. It covers companies and de facto partnerships that pay income tax, with a threshold of 200,000 UVT, about COP 10.5 billion or US$2.8 million.[11][2][3] DIAN counted COP 5.1 trillion, US$1.4 billion, against a target of COP 8.3 trillion. The decree set a general rate of 0.5% and 1.6% for banks, insurers, and coal and oil extraction. César Cermeño of the Universidad de los Andes points to that rate as the reason for the shortfall.[15][12][11] The lesson is about drafting. Missed targets come from rates and exemptions, which Congress can fix.
 
-In his inauguration speech in August 2026, President Abelardo de la Espriella said that the wealth tax will be eliminated.[6] The bill that followed does not repeal it. Proyecto de Ley 477 de 2026 Cámara, the Ley de Rescate Económico, was filed by the Ministry of Finance on 29 October with 106 articles.[16][18] For individuals it keeps the tax only for 2027 to 2030. It lifts the threshold from 72,000 UVT to 95,500 UVT, about US$1.3 million at the 2026 UVT, and sets 0.5% on the band from 95,500 to 145,500 UVT and 1% above it.[16][17][2][3] On 3 November the president sent Congress a message of urgency. It gives the bill priority, and Congress can still change or reject it.[18]
+In his August 2026 inauguration speech, President Abelardo de la Espriella said the wealth tax will be eliminated.[6] The bill that followed does not quite do that. Proyecto de Ley 477 de 2026 Cámara, the Ley de Rescate Económico, was filed by the Ministry of Finance on 29 October.[16][18] For individuals it keeps the tax for 2027 to 2030. It lifts the threshold from 72,000 UVT to 95,500 UVT, about US$1.3 million at the 2026 UVT, and sets 0.5% on the band from 95,500 to 145,500 UVT and 1% above it.[16][17][2][3] On 3 November the president sent Congress a message of urgency, which gives the bill priority.[18]
 
-ANDI president Bruce Mac Master backs repeal. He told Blu Radio that the tax hurt investment and that some Colombian capital has not returned.[8] Senator [Kevin Gómez Paz](/co/A0006) answered that repeal does not stimulate investment and gives relief to those who need it least. He put the hole at about COP 1.4 trillion a year, US$370 million, which he said is DIAN's collection target for 2026.[7]
+Bruce Mac Master, head of the business association ANDI, backs repeal and says the tax hurt investment.[8] Every payer is worth more than US$1.0 million, and together they hand over COP 1.2 trillion a year.[5] Senator [Kevin Gómez Paz](/co/A0006) says repeal does not stimulate investment and gives relief to those who need it least. He puts the hole at about COP 1.4 trillion a year, US$370 million, which he says is DIAN's collection target for 2026.[7]
 
 ## Who supports it {#who-supports}
 
-The register records support from across the spectrum. On 13 May 2020, 50 senators from nine parties, from Alianza Verde to Partido de la U, the Liberals and Cambio Radical, asked in the Senate to expand the wealth tax.[14] The register lists the 23 signatories on the Senate's first list, among them [Gustavo Petro](/co/A0014) and [Iván Cepeda](/co/A0008). Bill 070 of 2020 in the Cámara, a permanent tax on net assets, carries the names of many more authors from Alianza Verde, Comunes, the Liberals, Partido de la U and MAIS. Bill 066 of 2021, the Ley de Equidad Fiscal, proposed a tax for 2022 to 2025. [Alianza Verde](/co/A0057) and [Partido Comunes](/co/A0056) have each published proposals for progressive rates.
+Support comes from across the spectrum. On 13 May 2020, 50 senators from nine parties, among them Alianza Verde, Partido de la U, the Liberals and Cambio Radical, asked to expand the wealth tax.[14] The register lists the 23 signatories on the Senate's first list, among them [Gustavo Petro](/co/A0014) and [Iván Cepeda](/co/A0008). Bill 070 of 2020, a permanent tax on net assets, carries the names of many more authors from Alianza Verde, Comunes, the Liberals, Partido de la U and MAIS. Bill 066 of 2021, the Ley de Equidad Fiscal, proposed a tax for 2022 to 2025. [Alianza Verde](/co/A0057) and [Partido Comunes](/co/A0056) have each published proposals for progressive rates.
 
-Among economists, [José Antonio Ocampo](/co/A0001) wrote the 2022 reform. [Leopoldo Fergusson](/co/A0059) called its design good and even generous, because it only starts charging people with wealth from COP 3 billion, US$800,000.[9] [Ricardo Bonilla](/co/A0062) proposed lowering the threshold in a 2024 financing bill. [Oxfam Colombia](/co/A0002) and [Dejusticia](/co/A0003) recommend, in a joint report of December 2025, strengthening the tax and making it more progressive. Mariana Matamoros of Dejusticia defended it in a September 2026 column.
+Among economists, [José Antonio Ocampo](/co/A0001) wrote the 2022 reform. [Leopoldo Fergusson](/co/A0059) called its design good and even generous, because it only charges people worth COP 3 billion or more.[9] [Ricardo Bonilla](/co/A0062) proposed lowering the threshold in a 2024 financing bill. [Oxfam Colombia](/co/A0002) and [Dejusticia](/co/A0003) recommended in December 2025 that the tax be strengthened and made more progressive. Mariana Matamoros of Dejusticia defended it in a September 2026 column.
 
 {{supporters}}
 
@@ -176,15 +176,15 @@ Among economists, [José Antonio Ocampo](/co/A0001) wrote the 2022 reform. [Leop
 
 ### A threshold in UVT {#threshold}
 
-The bill began at COP 3 billion with two rates. The law begins at 72,000 UVT, COP 3.77 billion or US$1.0 million in 2026, and has three.[1][2][3][9] Because the scale is written in UVT, the pesos move each year with DIAN's value for the unit.[2] We argue for a lower start. Fergusson and Hofstetter proposed COP 1 billion, about US$270,000.[13]
+The bill began at COP 3 billion with two rates. The law begins at 72,000 UVT, COP 3.77 billion or US$1.0 million in 2026, and has three.[1][2][3][9] Because the scale is written in UVT, the pesos move each year with DIAN's value for the unit.[2] We argue for a lower start, as Fergusson and Hofstetter proposed: COP 1 billion, about US$270,000.[13]
 
 ### Revenue sits at the top {#top}
 
-Fortunes above 239,000 UVT paid 72% of the 2025 revenue.[5] The 1.5% band that applies to them expires after 2026, and we argue for keeping it.[1]
+Fortunes above 239,000 UVT paid 72% of the 2025 revenue.[5] The 1.5% band that applies to them expires after 2026. We argue for keeping it.[1]
 
 ### Repeal needs a vote {#repeal}
 
-The 2022 law ended the cycle of temporary versions. Changing it takes an act of Congress. Bill 477 of 2026 would end the tax after 2030 and raise its threshold to 95,500 UVT, and it has to pass Congress first.[16][17][18] We argue against both changes.
+The 2022 law ended the cycle of temporary versions. Changing it takes an act of Congress. Bill 477 of 2026 would end the tax after 2030 and raise its threshold to 95,500 UVT, and it still has to pass.[16][17][18] We argue against both changes.
 
 ### The neighbours {#neighbours}
 
