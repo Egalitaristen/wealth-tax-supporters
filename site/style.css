@@ -1195,3 +1195,50 @@ body:not(.ready) .foot { visibility: hidden; }
   .bp-body { grid-template-columns: minmax(0, 1fr); gap: 28px; }
   .bp-side { position: static; order: -1; }
 }
+
+/* ---------- arguments (/arguments hub and /arguments/<slug>) ---------- */
+.arg-page .story-nav, .arg-page .story-side { top: 90px; max-height: calc(100vh - 110px); }
+.arg-page .story-head .crumbs { padding-top: 0; margin-bottom: 18px; }
+.arg-objection { font: italic 400 clamp(20px, 2.2vw, 26px)/1.3 var(--serif); color: var(--signal-2); margin: 0 0 6px; max-width: 40ch; }
+.arg-page .story-head h1 { font-size: clamp(30px, 4.2vw, 48px); line-height: 1.08; margin-top: 8px; }
+.arg-pager { display: flex; justify-content: space-between; gap: 16px; margin-top: 64px; padding-top: 22px; border-top: 1px solid var(--rule-2); }
+.arg-pager a { display: flex; flex-direction: column; gap: 4px; text-decoration: none; max-width: 48%; padding: 12px 16px; border: 1px solid var(--rule-2); background: var(--card); }
+.arg-pager a:hover { border-color: var(--signal); }
+.arg-pager a span { font: 500 11.5px/1.3 var(--mono); letter-spacing: .08em; text-transform: uppercase; color: var(--ink-3); }
+.arg-pager a b { font: 400 21px/1.2 var(--serif); }
+.arg-next { margin-left: auto; text-align: right; align-items: flex-end; }
+.arg-pager .none { display: none; }
+.arg-grid { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 16px; margin: 36px 0 90px; }
+.arg-card { position: relative; border: 1px solid var(--rule-2); background: var(--card); padding: 22px 24px 20px; display: flex; flex-direction: column; }
+.arg-card:hover { border-color: var(--signal); }
+.arg-card.lead { grid-column: 1 / -1; background: var(--paper-2); border: 1.5px solid var(--ink); padding: 30px 32px 26px; }
+.arg-card.lead .arg-q { font-size: clamp(30px, 4vw, 46px); max-width: 28ch; }
+.arg-card.lead .arg-a { font-size: 17.5px; max-width: 64ch; }
+.arg-n { font: 500 11.5px/1.3 var(--mono); letter-spacing: .08em; text-transform: uppercase; color: var(--ink-3); margin: 0 0 12px; }
+.arg-q { font: 400 clamp(22px, 2.3vw, 28px)/1.2 var(--serif); letter-spacing: -.01em; margin: 0 0 12px; text-wrap: balance; }
+.arg-a { margin: 0 0 18px; font-size: 15.5px; line-height: 1.5; color: var(--ink-2); }
+.arg-go { margin-top: auto; font-weight: 500; font-size: 14.5px; color: var(--signal-2); text-decoration: none; }
+.arg-go::after { content: ""; position: absolute; inset: 0; }
+.arg-card:hover .arg-go { text-decoration: underline; }
+@media (max-width: 899px) {
+  .arg-grid { grid-template-columns: minmax(0, 1fr); margin-bottom: 60px; }
+  .arg-card, .arg-card.lead { padding: 20px 20px 18px; }
+  .arg-pager { flex-direction: column; }
+  .arg-pager a { max-width: none; }
+}
+
+/* Header fit: the Arguments item made the row wider than the screen between the menu breakpoint and about 1450px, so spacing tightens in steps. */
+@media (max-width: 1500px) {
+  .top-in { gap: 16px; }
+  .nav { gap: clamp(11px, 1.3vw, 18px); font-size: 14px; }
+  .search-btn { min-width: 140px; }
+  .tools { gap: 6px; }
+}
+@media (max-width: 1300px) {
+  .search-btn span, .search-btn kbd { display: none; }
+  .search-btn { min-width: 0; padding: 0 10px; }
+}
+@media (max-width: 1200px) {
+  .tools .social { display: none; }
+}
+.top .top-in { max-width: 1480px; }

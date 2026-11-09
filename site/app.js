@@ -140,6 +140,7 @@ async function render(fresh) {
     else if (parts[0] === 'countries' && parts.length === 1) await countriesPage(W);
     else if (parts[0] === 'resources' && parts.length === 1) await resourcesPage(W);
     else if (parts[0] === 'resources' && parts.length === 2) await resourcePage(W, parts[1]);
+    else if (parts[0] === 'arguments' && parts.length <= 2) await argumentsPage(parts[1] || 'hub');
     else if (parts[0] === 'parliaments' && parts.length === 1) await parliamentsPage(W);
     else if (parts[0] === 'method' && parts.length === 1) methodPage(W);
     else if (parts[0] === 'about' && parts.length === 1) aboutPage(W);
@@ -152,7 +153,7 @@ async function render(fresh) {
     else if (country && parts.length === 2 && SECTIONS[parts[1]]) await countryPage(country.slug, params, parts[1]);
     else if (country && parts.length === 2) await personPage(country.slug, parts[1]);
     else notFound();
-    const navKey = {countries: '/countries', parliaments: '/parliaments', directory: '/directory', resources: '/resources', method: '/method', about: '/about', contribute: '/contribute', suggest: '/contribute', feedback: '/feedback', report: '/feedback'}[parts[0]] || null;
+    const navKey = {countries: '/countries', parliaments: '/parliaments', directory: '/directory', arguments: '/arguments', resources: '/resources', method: '/method', about: '/about', contribute: '/contribute', suggest: '/contribute', feedback: '/feedback', report: '/feedback'}[parts[0]] || null;
     if (navKey) $$('.nav a, .fb-link').forEach(a => { if (a.getAttribute('href') === navKey) a.setAttribute('aria-current', 'page'); });
   } catch (err) {
     console.error(err);
@@ -180,13 +181,14 @@ function notFound() {
 let SEARCH = null;
 async function searchData() {
   if (SEARCH) return SEARCH;
-  const [I, W] = await Promise.all([INDEX(), WORLD()]);
+  const [I, W, ARGS] = await Promise.all([INDEX(), WORLD(), getJSON('/data/arguments.json').catch(() => [])]);
   const cname = Object.fromEntries(W.countries.map(c => [c.slug, c.name])), ciso = Object.fromEntries(W.countries.map(c => [c.slug, c.iso2]));
   SEARCH = {
     people: I.people.map(r => ({slug: r[0], id: r[1], name: r[2], type: r[3], role: r[4], place: r[5], grade: r[6], n: r[7], qid: r[8] || '',
       nkey: norm(r[2]), key: norm([r[2], r[4], r[5], TYPE[r[3]] || '', TYPES_PL[r[3]] || '', cname[r[0]]].join(' '))})),
     places: I.places.map(r => ({slug: r[0], path: r[1], n: r[2], name: r[1].split(' > ').pop(), key: norm(r[1])})),
     countries: W.countries.map(c => ({slug: c.slug, name: c.name, n: c.supporters, key: norm(c.name + ' ' + c.iso2)})),
+    arguments: ARGS.map(a => ({slug: a.slug, short: a.short, objection: a.objection, key: norm(a.key)})),
     cname, ciso};
   // One entry per person: the same Wikidata id on several countries' registers is one person. The entry shown is the one with the
   // strongest evidence; `also` lists the other countries, and `key` holds every country name so a search for any of them still finds it.
@@ -213,6 +215,7 @@ function runSearch(S, q, f = {}) {
   if (!toks.length && !active) return null;
   const hit = k => toks.every(t => k.includes(t));
   const countries = active ? [] : S.countries.filter(c => hit(c.key));
+  const args = (active || !toks.length) ? [] : S.arguments.filter(a => hit(a.key)).slice(0, 4);
   const places = S.places.filter(p => (!f.type && !f.grade) && (!f.country || p.slug === f.country) && toks.length && (hit(norm(p.name)) || (toks.length > 1 && hit(p.key))))
     .sort((a, b) => (norm(b.name).startsWith(toks[0]) - norm(a.name).startsWith(toks[0])) || b.n - a.n).slice(0, 6);
   const people = (f.country ? S.people : S.uniq).filter(p => hit(p.key) && (!f.country || p.slug === f.country) && (!f.type || p.type === f.type) && (!f.grade || p.grade === f.grade)).map(p => {
@@ -221,7 +224,7 @@ function runSearch(S, q, f = {}) {
     s += {A: .6, B: .3, C: 0}[p.grade] || 0;
     return [s + Math.min(p.n, 10) / 40, p];
   }).sort((a, b) => b[0] - a[0]).map(x => x[1]);
-  return {countries, places, people: people.slice(0, 14), total: people.length};
+  return {countries, args, places, people: people.slice(0, 14), total: people.length};
 }
 function mark(text, q) {
   const toks = norm(q).trim().split(/\s+/).filter(t => t.length > 1);
@@ -239,6 +242,8 @@ function resultsHtml(S, res, q) {
   const groups = [];
   if (res.countries.length) groups.push(`<div class="rgroup">Countries</div>` + res.countries.map(c =>
     `<a class="ritem" href="/${c.slug}"><span class="rm"><span class="rn">${flag(c.slug)}${mark(c.name, q)}</span><span class="rs">${fmt(c.n)} on record so far</span></span><span class="rc">Country</span></a>`).join(''));
+  if (res.args.length) groups.push(`<div class="rgroup">Arguments</div>` + res.args.map(a =>
+    `<a class="ritem" href="/arguments/${a.slug}"><span class="rm"><span class="rn">${mark(a.short, q)}</span><span class="rs">“${esc(a.objection)}”</span></span><span class="rc">Argument</span></a>`).join(''));
   if (res.places.length) groups.push(`<div class="rgroup">Places</div>` + res.places.map(p =>
     `<a class="ritem" href="/${p.slug}?place=${enc(p.path)}"><span class="rm"><span class="rn">${mark(p.name, q)}</span><span class="rs">${esc(p.path)}</span></span><span class="rc">${fmt(p.n)}</span></a>`).join(''));
   if (res.people.length) groups.push(`<div class="rgroup">People and organisations${res.total > res.people.length ? ` · top ${res.people.length} of ${fmt(res.total)}` : ''}</div>` + res.people.map(p =>
@@ -431,6 +436,22 @@ async function resourcePage(W, slug) {
   if (!page) return notFound();
   main.innerHTML = doc.getElementById('main').innerHTML;
   window.scrollTo({top: 0});
+}
+// ---------- arguments: /arguments and /arguments/<slug> are built as HTML by the site build (content/arguments/*.md) ----------
+// Opened directly, the page is already in <main>; reached from another page of the app, the app fetches that HTML and shows its <main>.
+async function argumentsPage(key) {
+  const list = await getJSON('/data/arguments.json'), a = key === 'hub' ? null : list.find(x => x.slug === key);
+  if (key !== 'hub' && !a) return notFound();
+  setTitle(a ? `${a.objection} · Arguments` : 'Arguments: the objections to a wealth tax, answered');
+  if (main.querySelector('[data-arg-page]')?.dataset.argPage !== key) {
+    main.innerHTML = '<div class="loading">Loading</div>';
+    const res = await fetch(location.pathname, {headers: {accept: 'text/html'}});
+    const page = new DOMParser().parseFromString(await res.text(), 'text/html').querySelector('#main [data-arg-page]');
+    if (!page) return notFound();
+    main.replaceChildren(page);
+    window.scrollTo({top: 0});
+  }
+  if (a) storyBehaviour(main);
 }
 async function resourcesPage(W) {
   setTitle('Resources');
@@ -884,11 +905,13 @@ function storySection(box, S, D, slug) {
   box.innerHTML = renderStoryArticle(S, {slug, name: D.meta.name, D});
   box.classList.add('story-box');
   $$('[data-block="supporters"]', box).forEach(el => { el.className = 'story-supporters'; el.innerHTML = storySupporters(D, slug); });
-  // On a wide screen the section list and Key facts are always open; on a phone they start closed.
+  storyBehaviour(box);
+}
+// On a wide screen the section list and Key facts are always open; on a phone they start closed. The section list marks where the reader is.
+function storyBehaviour(box) {
   const wide = matchMedia('(min-width: 900px)'), panels = $$('.story-nav details, .keyfacts', box);
   const sync = () => panels.forEach(d => { d.open = wide.matches; });
   sync(); wide.addEventListener('change', sync);
-  // The section list marks where the reader is.
   const links = new Map($$('.story-nav .toc a', box).map(a => [a.getAttribute('href').slice(1), a]));
   const secs = [...links.keys()].map(id => document.getElementById(id)).filter(Boolean);
   const prev = leaving;
