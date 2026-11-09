@@ -2,9 +2,9 @@
 title: A wealth tax with a high threshold reaches a few thousand owners, and the Norwegian firms studied did not close
 kind: argument
 objection: "A wealth tax will kill family firms and farms."
-answer: The threshold decides who pays, and a firm that owes 1% of its value a year is paying a fifth of a normal return. The Norwegian evidence shows no rise in bankruptcies. The risk to firms is exemptions, which erode the tax.
-standfirst: Under Warren's design less than 0.1% of US families would pay. Colombia had 34,229 filers in 2025 and Bolivia 263 registered payers. In Norway, Marius Ring finds no evidence that firms owned by wealth tax payers paid out more, invested less or went bankrupt more often after the 2021 to 2024 increases.
-updated: 2026-11-08
+answer: The threshold decides who pays, and a firm that owes 1% of its value a year is paying a fifth of a normal return. Firms in Norway didn't go bust more often. What threatens a tax's base is exemptions, so don't write them in.
+standfirst: Under Warren's design in the US less than 0.1% of families would pay. Colombia had 34,229 filers in 2025 and Bolivia 263 registered payers. In Norway an economist who studied the 2021 to 2024 increases finds no sign that firms owned by wealth tax payers paid out more, invested less or went bankrupt more often.
+updated: 2026-11-09
 author: Egalitaristen
 layout: article
 status: draft
@@ -59,39 +59,37 @@ sources:
     title: Christine Blandhol, Curbing Tax Flight? Aggregate Effects of Taxing Entrepreneur Migration, Princeton University job market paper (7 December 2025)
     url: https://cblandhol.github.io/JMP/blandhol_JMP.pdf
 ---
-A family firm in this objection is a bakery, a farm or a workshop that has been in a family for three generations. The size of the threshold decides who pays.
+Picture a bakery, a farm or a workshop that has been in one family for three generations. Whether a wealth tax touches it depends on one number: the threshold.
 
-## Who pays {#who-pays}
+## Who actually pays {#who-pays}
 
-Saez and Zucman estimate that less than 0.1% of US families would be liable for the Warren wealth tax, which starts at US$50 million.[1] In France in 2016 the ISF reached 351,152 tax households, slightly less than 1% of the total.[2] Colombia's tax, which starts at about US$1 million, was paid by 34,229 filers in 2025.[3] Bolivia's started at Bs 30 million and had 263 registered payers at the end of October 2025.[4]
+Under the Warren wealth tax in the United States, which starts at US$50 million, less than 0.1% of families would owe anything.[1] In France in 2016 the old wealth tax reached 351,152 tax households, slightly less than 1% of the total.[2] Colombia's tax starts at about US$1 million and was paid by 34,229 filers in 2025.[3] Bolivia's started at Bs 30 million and had 263 registered payers at the end of October 2025.[4]
 
-A threshold can also go wrong. Spain's taxpayers fell from 981,498 in 2007 to 188,680 in 2015 as thresholds were raised, and in the Swiss canton of Bern, with low thresholds, 30% of all taxpayers had a non-zero liability in 2001 to 2011.[2] A threshold set at a middle-class level reaches the bakery and the farm. A threshold at the top does not.
+Thresholds can also be set low, and that is a decision. Spain's taxpayers fell from 981,498 in 2007 to 188,680 in 2015 as thresholds rose, and in the Swiss canton of Bern, with low thresholds, 30% of all taxpayers owed wealth tax in 2001 to 2011.[2] A middle-class threshold reaches the bakery and the farm. A threshold at the top does not, and the proposals we back are at the top.
 
-## What happened to firms in Norway {#norway}
+## What happened to Norwegian firms {#norway}
 
-Norway raised its wealth tax in 2022 and 2023 and shifted the valuation of shares. Marius Ring studied the firms. He writes: "Across settings, I find no evidence that Norwegian-owned firms pay out more dividends or invest less after the reforms, nor is there any evidence that the reform induced more bankruptcies."[5] The paper is a working paper that has not been peer reviewed, and its author limits the result to the short run.[5]
+Norway raised its wealth tax in 2022 and 2023 and changed how shares are valued. An economist who studied the firms writes that there was no evidence that Norwegian-owned firms paid out more dividends or invested less, and no evidence that the reform led to more bankruptcies.[5] The study covers four years, and it is the best we have.
 
-## What cuts the other way {#unfavourable}
+## The owner leaving is a separate question {#leaving}
 
-Two findings go against the tax and we state them.
+When a wealthy owner emigrates from Sweden or Denmark, the firm's employment falls 33%, investment 22% and value added 34%, mostly through closure.[6] A Princeton study of Norway finds the firms of owners who leave have revenues 12.6% lower than firms whose owners stay.[10] Those are findings about owners leaving. They don't show that the tax closes firms. Whether owners leave, and how to keep them from leaving, is its own question, and the page on departures answers it: an exit tax that follows the owner and charges the value of the company.
 
-The first is about owners who leave. Jakobsen, Kleven, Kolsrud, Landais and Muñoz find that when a wealthy owner emigrates from Sweden or Denmark, employment in the owner's firm falls 33%, investment 22% and value added 34%, mostly through closure.[6] Blandhol finds in Norway that the firms of owners who out-migrate have revenues 12.6% lower than firms whose owners stay.[10] The harm follows from the owner leaving, and the page on departures covers how many leave and what keeps them from leaving.
+Exemptions are the real danger to firms, because they invite rearranging. In Spain, a higher wealth tax pushed owners to hold more of their wealth in business assets that the law exempts.[7] That protects some firms and costs the state revenue. Sweden and Denmark show where exemptions lead: the base wears away until the tax is repealed. Don't write the exemption in.
 
-The second is about exemptions. In Spain, a higher wealth tax pushed owners to hold more of their wealth in business assets that the law exempts.[7] An exemption for business assets protects firms and costs revenue. The Swedish and Danish records show where an exemption leads: the base wears away until the tax is repealed.
+## Not every company has to survive {#market}
 
-## The market economics of it {#market}
+A 1% tax on the stock is the same as a 20% tax on a 5% return.[8] A firm worth US$100 million to its owner, earning a normal 5% a year, pays US$1 million of wealth tax out of US$5 million of earnings: one fifth. A firm that can't support that, through a dividend, selling a small stake or a loan, isn't earning the return its owner thinks it is.
 
-The Mirrlees Review gives the arithmetic: a 20% tax on a 5% return is the same as a 1% tax on the stock.[8] A firm worth US$100 million to its owner that earns the owner a normal return of 5% a year pays a wealth tax of US$1 million out of US$5 million, one fifth of the return. A firm that cannot support that, through a dividend, the sale of a small stake or a loan, is not earning the return its owner assumes it earns.
-
-We argue that a market economy does not guarantee every firm its owner. A share in a company is worth a price, and when the share changes hands the company goes on under a new owner. An owner who has to sell part of a firm to pay a tax of 1% or 2% of its value has sold a small part of it. The employees and customers stay.
+In a market economy, ownership changes hands. A share in a company has a price, and when the share is sold the company carries on under a new owner. An owner who has to sell part of a firm to pay 1% or 2% of its value has sold a small part of it. The employees and the customers stay.
 
 ## A design for owners {#design}
 
-The design that follows keeps the burden on the top. Set the threshold at the top, as Colombia, Bolivia and the Warren design do. Allow deferral, as Norway has from income year 2026: up to three years, at the policy rate plus 5 percentage points.[9] Leave no exemption for business assets, because the exemption is what erodes the base. Value private companies from their own accounts. The page on liquidity sets out the options.
+Put the threshold at the top, as Colombia, Bolivia and the Warren design do. Allow deferral, as Norway does from income year 2026: up to three years, at the policy rate plus 5 percentage points.[9] Leave out exemptions for business assets, because they are what erodes the base. Value private companies from their own accounts. The page on liquidity sets out the options.
 
 ## Who says so {#says}
 
-The [Norwegian story](/no) covers the Ring study, the [Colombian story](/co) and the [Bolivian story](/bo) cover the thresholds, and the [United States story](/us) covers the federal design.
+The [Norwegian story](/no) covers the Norwegian study, the [Colombian story](/co) and the [Bolivian story](/bo) cover the thresholds, and the [United States story](/us) covers the federal design.
 
 ## Where to look next {#next}
 

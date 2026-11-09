@@ -1,10 +1,10 @@
 ---
-title: The studies of wealth taxes find small effects on investment, and the evidence on public spending runs the other way
+title: The studies of wealth taxes find small effects on investment, and the evidence on what public money does points the other way
 kind: argument
 objection: "A wealth tax hurts growth and investment."
-answer: In the studies, a one point higher top rate cuts investment by 0.07% and value added by 0.10%. The tax reduces how fast the largest fortunes pile up, which is its aim, and what it pays for returns more than it costs. Growth is not one thing, and the question is growth of what, for whom.
-standfirst: Jakobsen, Kleven, Kolsrud, Landais and Muñoz find that a 1 percentage point higher top wealth tax rate lowers investment by 0.07% and value added by 0.10%. Marius Ring finds Norwegian households save more, and firms pay no more dividends and invest no less. The IMF finds public investment of 1% of GDP raises output 1.5% after four years, and that redistribution is generally benign for growth.
-updated: 2026-11-08
+answer: In the studies, a one point higher top rate cuts investment by 0.07% and output by 0.10%. The tax slows how fast the largest fortunes pile up, which is its point, and what the money buys returns more than it costs. Growth of what, and for whom, is the real question.
+standfirst: A study of Swedish and Danish data finds a one point higher top wealth tax rate lowers investment by 0.07% and output by 0.10%. In Norway households save more under wealth taxation, and firms pay out no more and invest no less. The IMF finds public investment of 1% of GDP lifts output 1.5% after four years, and that redistribution is generally benign for growth.
+updated: 2026-11-09
 author: Egalitaristen
 layout: article
 status: draft
@@ -71,43 +71,45 @@ sources:
     title: Barry, J., A Genealogy of Economic Growth as Ideology and Cold War Core State Imperative, New Political Economy (2018), quoting Kuznets, S., How to Judge Quality, The New Republic 147:16 (20 October 1962), p. 29
     url: https://doi.org/10.1080/13563467.2018.1526268
 ---
-The objection claims that taxing wealth slows an economy. Two questions hide in it: what the tax does to investment, and what the money does once it is spent. The evidence on both has been studied, and it points away from the objection.
+The objection says taxing wealth slows an economy. It hides two questions: what the tax does to investment, and what the money does once it's spent. Both have been studied.
 
 ## What the studies of wealth taxes find {#studies}
 
-The best-identified study of the aggregate effect is by Jakobsen, Kleven, Kolsrud, Landais and Muñoz, using Swedish and Danish administrative data. A one percentage point rise in the top wealth tax rate lowers the stock of wealthy taxpayers by about 2%, aggregate employment by 0.02%, investment by 0.07% and value added by 0.10%. They call the aggregate effects "modest".[1] The study was published in the American Economic Review in 2026, and the aggregate figures are modelled.
+The best study of the combined effect uses Swedish and Danish tax records. A one percentage point rise in the top wealth tax rate lowers the number of wealthy taxpayers by about 2%, total employment by 0.02%, investment by 0.07% and output by 0.10%. The authors call the effects modest, and they were published in the American Economic Review in 2026.[1] For a tax that raises 0.2% to 1% of GDP, that is a very small price.
 
-For Norway, Marius Ring finds in a study of households that wealth taxation causes households to save more, mainly through higher labour earnings.[3] In a later working paper on the 2021 to 2024 reforms he finds "no evidence that Norwegian-owned firms pay out more dividends or invest less after the reforms, nor is there any evidence that the reform induced more bankruptcies".[2] In Spain, Durán-Cabré, Esteller-Moré and Mas-Montserrat find that higher wealth taxes in Catalonia "did not have a negative effect on taxpayers' savings".[4]
+In Norway, the households studied saved more under wealth taxation, mainly because they earned more from work.[3] After the 2021 to 2024 increases, firms owned by wealth tax payers paid out no more dividends, invested no less and didn't go bankrupt more often.[2] In Catalonia, higher wealth taxes did not reduce what people saved.[4]
 
-## What cuts the other way {#unfavourable}
+## The owner who leaves {#leaving}
 
-When an owner of a firm leaves Sweden or Denmark, the firm's employment falls 33%, its investment 22% and its value added 34%, mostly by closure.[1] The same authors estimate that migration responses raise the marginal cost of public funds from about 2.2 to 4.2 in their model, a high cost for each extra unit of revenue under the Danish and Swedish designs.[1] The Danish evidence finds clear effects of the tax on wealth accumulation, larger for the very wealthy.[10] And the OECD wrote in 2018 that there are "limited arguments" for a net wealth tax where broad capital income taxes and inheritance taxes already exist.[11]
+When an owner leaves Sweden or Denmark, the firm's employment falls 33%, investment 22% and output 34%, mostly through closure.[1] The same study estimates that migration raises what it costs the state to raise another krona from about 2.2 to 4.2.[1] The Danish evidence also finds that the tax slows how fast the very wealthy accumulate.[10] And the OECD wrote in 2018 that there are limited arguments for a net wealth tax where broad taxes on capital income and on inheritance already exist.[11]
 
-We take the first two together. They describe a tax with a high rate, with exemptions and reliefs, in two countries with open borders. The effect on wealth accumulation is the aim of the tax. The page on departures covers the owners who leave, and a design with a high threshold, an exit tax and no exemptions for business assets reduces the problem.
+Look at what these findings are about. They describe taxes with high rates, with exemptions and reliefs, in small open countries where owners can cross a border. Slowing the accumulation of the largest fortunes is the aim of the tax. The page on departures covers the owners who leave, and a design with a high threshold, an exit tax and no exemptions for business assets cuts that problem down.
 
 ## What the money does {#spending}
 
-The second half of the question is what happens to the revenue.
+The other half of the question is what the revenue buys.
 
-The IMF finds that an unanticipated increase in public investment of 1% of GDP raises the level of output by about 0.4% in the same year and by 1.5% four years after, in advanced economies. The effect is larger where there is slack and where projects are efficient. The estimate is for a debt-financed increase and not for a tax-financed one.[5] IMF staff conclude that "redistribution appears generally benign in terms of its impact on growth", and that lower net inequality is correlated with faster and more durable growth for a given level of redistribution. The authors say their results come from cross-country panels with inherent limits.[6]
+The IMF finds that an unexpected rise in public investment of 1% of GDP lifts output by about 0.4% the same year and by 1.5% four years later, in advanced economies. The effect is larger where there is slack and where projects are well chosen.[5] IMF staff conclude that redistribution is generally benign for growth, and that lower inequality goes with faster and more lasting growth.[6]
 
-The OECD finds that rising inequality drags on growth. A rise of 3 Gini points would lower growth by 0.35 percentage points a year for 25 years, a cumulated loss of 8.5% of GDP, and the effect comes from the bottom 40% of income earners, not the top decile. The OECD calls the estimates illustrative.[7]
+The OECD finds that rising inequality drags down growth. A rise of 3 Gini points would cost 0.35 percentage points of growth a year for 25 years, a cumulative loss of 8.5% of GDP, and the effect comes from the bottom 40% of earners, not the top tenth.[7]
 
-On individual programmes, Hendren and Sprung-Keyser find that child-focused spending gives the highest return per dollar. Four expansions of child health insurance in the United States repaid on average US$1.78 to the government per US$1 spent.[8] Wealth tax proposals earmark the money for this kind of spending: Uruguay's union commission proposes a fund against child poverty, and Denmark's 2026 proposal was for smaller school classes.[12][13]
+On individual programmes, the economists Hendren and Sprung-Keyser find that spending on children gives the highest return per dollar. Four expansions of child health insurance in the United States repaid on average US$1.78 to the government for each US$1 spent.[8] Wealth tax proposals aim at exactly this kind of spending: Uruguay's union commission wants a fund against child poverty, and Denmark's 2026 proposal was for smaller school classes.[12][13]
 
 ## Growth of what, and for what {#kind}
 
-Gross domestic product measures output and says nothing of its use. Simon Kuznets, the economist whose work built the national accounts, wrote in 1962: "Distinctions must be kept in mind between quantity and quality of growth, between its costs and return, and between the short and long term...Objectives should be explicit: goals for more growth should specify more growth of what and for what."[14] We quote it as Barry (2018) gives it, from page 29 of Kuznets's article in The New Republic. The Stiglitz, Sen and Fitoussi commission wrote in 2009 that GDP "has often been treated as if it were a measure of economic well-being", and that conflating the two "can lead to misleading indications about how well-off people are and entail the wrong policy decisions". The same report notes that most people can be worse off even though average income is rising if inequality grows enough.[9]
+GDP counts output and says nothing about what it's for. Simon Kuznets, the economist whose work built the national accounts, wrote in 1962: "Distinctions must be kept in mind between quantity and quality of growth, between its costs and return, and between the short and long term...Objectives should be explicit: goals for more growth should specify more growth of what and for what."[14]
 
-Some investment is also not what a society wants. The OECD notes that the distinction between productive and unproductive assets is hard to draw and does not endorse treating housing as unproductive.[11] We make the point more narrowly. A claim that a tax lowers investment has to say what kind of investment and for whom, and it must set it against what the same revenue buys.
+A commission led by the economists Stiglitz, Sen and Fitoussi wrote in 2009 that GDP "has often been treated as if it were a measure of economic well-being", and that mixing the two up leads to the wrong policy decisions. Their report notes that most people can be worse off even though average income is rising, if inequality grows enough.[9]
+
+So ask what growth. If a wealth tax slows the growth of fortunes that no one spends or invests usefully, and pays for schools, health care and children's futures, it has made the economy better, whatever it does to GDP.
 
 ## What follows {#design}
 
-Measure a wealth tax by what the studies measure: its effect on investment and firms, which is small in the best evidence, and the use of the money, which has strong evidence behind it for investment in children and infrastructure. Set the design to avoid the unfavourable results: a high threshold, a broad base, an exit tax, and no exemptions that push owners to reshuffle assets.
+Judge a wealth tax by what the studies measure: its effect on investment and firms, which is small in the best evidence, and the use of the money, which has strong evidence behind it for children and infrastructure. Design it to avoid the problems: a high threshold, a broad base, an exit tax and no exemptions that push owners to reshuffle assets.
 
 ## Who says so {#who}
 
-The [Norwegian story](/no) covers the Ring studies, the [Swedish story](/se) and the [Danish story](/dk) cover the repeal evidence, and the [Uruguayan story](/uy) covers the earmark.
+The [Norwegian story](/no) covers the Norwegian studies, the [Swedish story](/se) and the [Danish story](/dk) cover the repeal evidence, and the [Uruguayan story](/uy) covers the earmark.
 
 ## Where to look next {#next}
 

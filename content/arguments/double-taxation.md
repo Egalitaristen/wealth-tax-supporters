@@ -1,9 +1,9 @@
 ---
-title: Every tax is paid from money that was taxed before, and much of the largest fortunes was never taxed at all
+title: Every tax is paid from money that was taxed before, and much of the biggest fortunes was never taxed at all
 kind: argument
 objection: "A wealth tax is double taxation: the money was already taxed when it was earned."
-answer: A wage is taxed when it is earned, again when it is spent and again as the home it buys is taxed every year. The largest fortunes grow as company profit that is kept and as gains that are not realised, so much of it has never been taxed once.
-standfirst: Wages carry income tax, social contributions and VAT, and the home bought with what is left carries a property tax each year. A fortune held in companies grows as retained profit and unrealised gain. In Norway and Sweden holding companies shield about half of dividend distributions from personal income tax, and the OECD notes that gains are typically taxed only when the asset is sold.
+answer: A wage is taxed when it's earned, again when it's spent, and the home it buys is taxed every year. The largest fortunes grow as company profit that is kept and gains that aren't sold, so much of it has never been taxed once.
+standfirst: Wages carry income tax, social contributions and VAT, and the flat bought with what's left carries property tax every year. A fortune held in companies grows as retained profit and unrealised gain. In Norway and Sweden holding companies shield about half of dividends from personal income tax, and gains are normally taxed only when an asset is sold.
 updated: 2026-11-09
 author: Egalitaristen
 layout: article
@@ -44,37 +44,35 @@ sources:
     title: Saez, Yagan and Zucman, Capital Gains Withholding (January 2021)
     url: https://gabriel-zucman.eu/files/SYZ2021.pdf
 ---
-A cleaner on the minimum wage pays income tax and social contributions on her wage, and VAT or sales tax when she spends what is left. If she owns a flat she pays property tax on it every year, with money that was taxed before. Nobody calls the property tax unfair because the flat was bought with taxed income. The objection to a wealth tax says that the richest, uniquely, should not pay a tax on money that was taxed before.
+A cleaner on the minimum wage pays income tax and social contributions on her wages, and VAT or sales tax when she spends what's left. If she owns a flat, she pays property tax on it every year, out of money that was taxed before. Nobody calls the property tax unfair because the flat was bought with taxed income. The objection to a wealth tax asks us to believe the richest, and only the richest, should be spared a tax on money that was taxed before.
 
 ## What "double" would have to mean {#meaning}
 
-If double taxation were a reason to refuse a tax, no tax in the system would survive. Income tax takes a share of the wage, VAT takes a share of what the wage buys, and property tax takes a share of the house bought with it. Each tax falls on money that an earlier tax already reached. A tax system is a stack of them, and the question is whether the stack falls on the people who can carry it.
+If double taxation were a reason to refuse a tax, no tax would survive. Income tax takes a share of the wage, VAT takes a share of what the wage buys, and property tax takes a share of the house bought with it. Every tax falls on money that an earlier tax already reached. A tax system is a stack of them, and the real question is who the stack falls on.
 
-In the countries where the effective rates at the top have been measured, it does not fall on them as hard. In France in 2016 the effective direct tax rate was 46% for the top 0.1% of households and 26% for the top 0.0002%.[2] In Norway and Sweden it falls from about 50% for the upper middle class to 15% to 20% at the top.[1]
+Where researchers have measured it, the stack falls lightest on the top. In France in 2016 the effective direct tax rate was 46% for the top 0.1% of households and 26% for the top 0.0002%.[2] In Norway and Sweden it drops from about 50% for the upper middle class to 15% to 20% at the very top.[1]
 
-## The money was not all taxed {#untaxed}
+## Much of it was never taxed {#untaxed}
 
-The premise of the objection is that wealth is saved after-tax income. For the largest fortunes it is mostly something else: the growing value of companies the owner controls.
+The objection assumes wealth is saved-up after-tax income. For the largest fortunes it is mostly something else: the growing value of companies the owner controls.
 
-A company can keep its profit and the owner pays no personal income tax on it until it is paid out. Ring, Seim and Zucman find that personal holding companies in Norway and Sweden shield about half of dividend distributions from individual income tax.[1] In France the profits a household's companies retain are taxed only at the corporate rate, and the IPP note finds that income tax and the old wealth tax were a negligible part of billionaires' incomes.[2] The same pattern shows in the United States, where Balkir, Saez, Yagan and Zucman find that the 400 richest report taxable income of about 40% of their economic income against about 70% for the whole population.[5]
+A company can keep its profit, and the owner pays no personal income tax on it until it's paid out. In Norway and Sweden, personal holding companies shield about half of dividend payments from income tax.[1] In France the profits retained in a household's companies are taxed only at the corporate rate, and income tax and the old wealth tax were a negligible part of billionaires' incomes.[2] The same shows up in the United States, where the 400 richest report taxable income of about 40% of their economic income, against about 70% for the whole population.[5]
 
-The gain in an asset that is not sold is untaxed too. The OECD notes that income taxes are typically levied upon realisation, so an asset that is held is not charged, and that taxing gains on accrual "prevents the deferral of realised capital gains and lock-in effects".[3] An unrealised gain has not been taxed once, let alone twice. In the United States, Saez, Yagan and Zucman estimate that for households with more than US$50 million capital gains are 50% of wealth.[6]
+A gain on an asset that isn't sold is untaxed too. Income taxes are normally charged when the asset is sold, so an asset that is held is not charged.[3] An unrealised gain hasn't been taxed once, let alone twice. In the United States, for households with more than US$50 million, capital gains are an estimated 50% of wealth.[6]
 
-## An annual levy on holding {#holding}
+## A yearly charge for holding {#holding}
 
-A wealth tax is a recurrent tax on net wealth, charged whatever the assets earned that year.[3] The OECD describes it as equivalent to a proportional tax on a presumed return, and notes that income taxes are typically levied on realisation while a wealth tax is levied on an accrual basis.[3] The Mirrlees Review gives the arithmetic: a 20% tax on a 5% return is the same as a 1% tax on the stock.[4]
+A wealth tax is a yearly tax on net wealth, charged whatever the assets earned that year.[3] It works like a tax on an assumed return, and a 1% tax on the stock equals a 20% tax on a 5% return.[4] The OECD points out that income taxes are charged when gains are realised, while a wealth tax is charged as the value accrues.[3]
 
-The tax hits the return as it accrues. For the largest fortunes the return accrues as retained profit and unrealised gain, which no other tax touches until a payout or a sale. A wealth tax charges the owner each year for what the owner holds, the way a property tax charges the owner of a flat.
+For the largest fortunes, the return accrues as retained profit and unrealised gain, and no other tax touches it until a payout or a sale. A wealth tax charges the owner each year for what the owner holds, the way a property tax charges the owner of a flat.
 
-## The fair part of the objection {#fair}
+## And in a bad year? {#bad-year}
 
-One part of the complaint is true. A wealth tax is charged irrespective of the actual return, so an owner whose assets fell in value still owes it.[3] The same holds for property tax, which is due in a year when the house lost value. The rate is the answer: at 1% to 2% of the stock, set against a normal return of 5%, the bill is a fifth to two fifths of a typical year's return.[4] A year of loss is the exception that a deferral rule can absorb.
-
-The OECD adds a view that a fair page has to report: that there are "limited arguments for having a net wealth tax in addition to broad-based personal capital income taxes and well-designed inheritance and gift taxes". It adds that there are "stronger arguments" for one where those taxes are absent.[3] The figures above show that at the top the personal income tax base is narrow and gains go untaxed. The OECD's second case applies.
+A wealth tax is charged whatever the return, so an owner whose assets fell still owes it.[3] So does a homeowner whose house lost value: the property tax doesn't fall with the market. At 1% to 2% of the stock against a normal return of 5%, the bill is a fifth to two fifths of a typical year's return.[4] A year of losses is what a deferral rule is for.
 
 ## What follows {#design}
 
-The taxes we already have fail the test the objection sets: wages, purchases and homes are taxed on money that was taxed before. A wealth tax reaches the part of a fortune that no other tax has reached. The design follows: value assets at market value, do not exempt the largest holdings, and let owners defer when cash is short.
+The taxes we already have fail the test the objection sets: wages, purchases and homes are all taxed on money that was taxed before. A wealth tax reaches the part of a fortune that no other tax has reached. The design follows: value assets at market value, give the largest holdings no exemption, and let owners defer when cash is short.
 
 ## Who says so {#who}
 

@@ -1,9 +1,9 @@
 ---
-title: Property, capital gains and inheritance taxes are different taxes, and France lost €3 billion finding out
+title: Property, gains and inheritance taxes are different taxes from a wealth tax, and France lost €3 billion finding out
 kind: argument
 objection: "We already tax property, capital gains and inheritance. We don't need a wealth tax too."
-answer: Each of those taxes has a different base and timing. A property tax reaches homes, a gains tax reaches sales, an inheritance tax reaches death. None reaches the shares and private companies where the largest fortunes sit.
-standfirst: When France replaced its wealth tax with a tax on real estate alone, the evaluation committee put the loss at €3.1 billion in 2018, and two thirds of former payers owed nothing. In Norway and Germany the top of the wealth distribution holds private business shares, not homes, and Sweden's tax fell on bank accounts, funds and houses while the largest company owners sat outside it.
+answer: Each of those taxes has a different base and timing. A property tax reaches homes, a gains tax reaches sales, an inheritance tax reaches death. None reaches the private company shares where the largest fortunes sit.
+standfirst: When France replaced its wealth tax with a tax on real estate alone, the state's own evaluators put the loss at €3.1 billion in 2018, and two thirds of former payers owed nothing. In Norway and Germany the top of the wealth distribution holds private business shares, not homes, and Sweden's tax fell on bank accounts, funds and houses while the biggest company owners sat outside it.
 updated: 2026-11-09
 author: Egalitaristen
 layout: article
@@ -53,35 +53,35 @@ sources:
     title: Balkir, Saez, Yagan and Zucman, How Much Tax Do US Billionaires Pay? Evidence from Administrative Data, NBER Working Paper 34170 (August 2025, not peer reviewed)
     url: https://gabriel-zucman.eu/files/BSYZ2025NBER.pdf
 ---
-The four taxes in this objection have different names for a reason. Each is charged on something else, at a different moment, and none of them is a tax on what a person owns.
+These four taxes have different names for a reason. Each is charged on something else, at a different moment, and none of them is a tax on what a person owns.
 
 ## What each one reaches {#bases}
 
-A property tax is a recurrent tax on immovable property.[5] It reaches the home, the land and the office. The largest fortunes are not held there. In Norway most of the wealth at the top of the distribution corresponds to shares in private businesses.[2] In Germany real estate, businesses and corporate shares dominate the top wealth strata.[6] A property tax reaches the homes among those assets and none of the shares.
+A property tax is a yearly tax on land and buildings.[5] The largest fortunes aren't held there. In Norway most of the wealth at the top is shares in private businesses.[2] In Germany, real estate, businesses and corporate shares dominate the top wealth strata, and only the first of those is something a property tax can see.[6] A property tax reaches the homes in that mix and none of the shares.
 
-A capital gains tax is charged when an asset is sold, which is the OECD's description of income taxes in general: typically levied on realisation.[5] A gain on an asset that is never sold is never charged. A tax on gains waits for a sale, and the largest holdings are not sold.
+A capital gains tax is charged when an asset is sold, like income taxes in general, which are normally charged when income is realised.[5] A gain on an asset that is never sold is never charged. The largest holdings aren't sold, so a tax on gains waits for a sale that doesn't come.
 
-An inheritance tax is charged once per death, on what is in the estate. The OECD writes that there is "a strong case for an accompanying inheritance tax on efficiency, equity and administrative grounds."[5] It is a different instrument, aimed at transfers. In the United States, to give one measured case, the 400 richest decedents in the Balkir, Saez, Yagan and Zucman study paid 0.8% of their wealth in estate tax when married and 7% when single.[9]
+An inheritance tax is charged once, at death, on what is in the estate. The OECD says there is a strong case for having one alongside a wealth tax.[5] It's a different tool, aimed at transfers. In the United States, to take one measured case, the 400 richest people who died in one study paid 0.8% of their wealth in estate tax if married and 7% if single.[9]
 
-A net wealth tax is charged on the whole stock, net of debts, every year. The OECD separates it from taxes on capital income and taxes on wealth transfers, and notes that, compared with recurrent property taxes, it covers a broad range of property with debts deductible.[5]
+A net wealth tax is charged on the whole stock, net of debts, every year. The OECD sets it apart from taxes on capital income and taxes on wealth transfers, and notes that, unlike a property tax, it covers a broad range of property with debts deductible.[5]
 
-## Why a property tax cannot stand in {#substitute}
+## What happens when a property tax stands in {#substitute}
 
-France ran the experiment. Until 2017 it levied the ISF, a net wealth tax. In 2018 it replaced it with the IFI, a tax on real estate above €1.3 million. The ISF raised €4.2 billion in 2017. The IFI raised €1.29 billion in 2018, and the evaluation committee put the loss against the ISF at €3.1 billion that year.[1][7] Two thirds of the households that paid the ISF owed nothing under the new tax, and across all former ISF payers the average bill fell from €8,000 in 2017 to €1,600 in 2018.[1]
+France ran the experiment. Until 2017 it had the ISF, a wealth tax. In 2018 it replaced it with a tax on real estate above €1.3 million. The ISF raised €4.2 billion in 2017. The new tax raised €1.29 billion in 2018, and the state's evaluators put the loss at €3.1 billion that year.[1][7] Two thirds of the households that paid the ISF owed nothing under the new tax, and across all former payers the average bill fell from €8,000 in 2017 to €1,600 in 2018.[1]
 
-A real estate tax reaches real estate. The households that had paid the ISF held their wealth elsewhere, and the replacement did not reach it.
+A real estate tax reaches real estate. The households that paid the ISF held their wealth elsewhere, and the replacement didn't reach it.
 
-Norway's own tax shows the other side. It discounts a primary home to 25% of its assessed value for wealth tax, a 75% discount, while shares carry a 20% discount.[3] And Sweden's repealed tax fell on bank accounts, funds and houses, while the exemption for unlisted shares, which the Equality Commission calls strongly regressive in effect because the largest fortunes consist largely of unlisted shares, left the owners of the largest private companies outside it.[4] In both countries the reach depended on what the law counted, and a property tax counts none of the shares.
+Norway and Sweden show the same thing from the other side. Norway's tax values a primary home at only a quarter of its assessed value, a 75% discount, while shares get a 20% discount.[3] Sweden's repealed tax fell on bank accounts, funds and houses, while the exemption for unlisted shares left the owners of the largest private companies outside it, and the equality commission calls that strongly regressive because the largest fortunes consist so largely of unlisted shares.[4] In both countries what a tax reached depended on what the law counted, and a property tax counts no shares.
 
-## Why they work together {#together}
+## They work together {#together}
 
-The OECD does not say the taxes compete. It writes that there is "a strong case for an accompanying inheritance tax", and that the case for a net wealth tax is strongest where broad personal capital income taxes and inheritance taxes are absent.[5] The Mirrlees Review reaches a different conclusion on the annual tax: it argued against it in Britain.[8] Both agree on what the taxes are: separate instruments aimed at separate bases.
+The OECD doesn't see the taxes as rivals. It says there is a strong case for an inheritance tax alongside a wealth tax, and that the case for a wealth tax is strongest where broad taxes on personal capital income and on inheritances are missing.[5] The Mirrlees Review in Britain argued against the annual tax.[8] On what the taxes are, everyone agrees: separate tools, aimed at separate bases.
 
-The OECD's view on the combination is that there are "limited arguments for having a net wealth tax in addition to broad-based personal capital income taxes and well-designed inheritance and gift taxes", and "stronger arguments" where those are not in place.[5] A gains tax charged only on sale is not a broad-based personal capital income tax at the top, in the countries where the effective rates there have been measured.[2][9]
+A gains tax charged only on sale is not a broad tax on capital income at the top, in the countries where the effective rates there have been measured.[2][9] The OECD's condition for a wealth tax is met.
 
 ## What follows {#design}
 
-A wealth tax fills the gap the others leave. It is charged on the shares and private companies where the largest holdings sit, every year, whether or not anything is sold or inherited. It sits alongside a property tax on homes, a gains tax on sales and an inheritance tax at death. A country that has all four loses nothing by adding the fourth.
+A wealth tax fills the gap the others leave. It's charged every year on the shares and private companies where the largest holdings sit, whether or not anything is sold or inherited. It sits beside a property tax on homes, a gains tax on sales and an inheritance tax at death. A country that has the other three loses nothing by adding the fourth.
 
 ## Who says so {#who}
 
