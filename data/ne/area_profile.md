@@ -1,19 +1,21 @@
 # Area profile — Niger
 
-Save as `data/ne/area_profile.md`. Seed pass and follow-up discovery passes completed 2026-11-10 (`R001`, `R002`, `R003`, `R004`).
+Save as `data/ne/area_profile.md`. Seed pass and follow-up discovery passes completed 2026-11-10 (`R001`, `R002`, `R003`, `R004`, `R005`).
 
 ## 1. Scope
 - Area: Niger; type: country (ISO 3166-1 alpha-2: `NE`)
-- Depth: Seed pass (`R001`), wider discovery pass (`R002`), international/local sweep (`R003`), and civil society / economic debate deep dive (`R004`).
+- Depth: Seed pass (`R001`), wider discovery pass (`R002`), international/local sweep (`R003`), civil society deep dive (`R004`), and executive/finance leadership sweep (`R005`).
 - Levels of government in scope: National (transitional authorities, Conseil National pour la Sauvegarde de la Patrie - CNSP, dissolved Assemblée Nationale), regional (8 regions: Agadez, Diffa, Dosso, Maradi, Niamey, Tahoua, Tillabéri, Zinder), departmental (67 départements), and local (266 communes loaded from official mapping data into `geo_units.csv`).
 - Languages searched: French (`fr`), Hausa (`ha`), English (`en`)
-- Dates of runs: 2026-11-10 (`R001`, `R002`, `R003`, `R004`)
+- Dates of runs: 2026-11-10 (`R001`, `R002`, `R003`, `R004`, `R005`)
 
 ## 2. Wealth tax history and live proposals (2010 onwards)
 - **Absence of statutory net wealth tax:** Niger has never had an annual statutory tax on the stock of net wealth (*impôt sur la fortune* or *impôt de solidarité sur la fortune*). The tax system administered by the Direction Générale des Impôts (DGI) is governed by the General Tax Code (*Code Général des Impôts*) and relies primarily on indirect consumption taxes (TVA at 19%), corporate profit taxes (ISB / BIC at 30%), and personal income taxes on salaries (Impôt Unique sur les Traitements et Salaires - IUTS).
 - **Civil society and the 2018 anti-Finance Law mobilization:** In late 2017 and 2018, the adoption of the 2018 Finance Law (Loi n° 2017-82) triggered massive public protests organized by civil society coalitions led by Ali Idrissa (ROTAB), Moussa Tchangari (Alternative Espaces Citoyens - AEC), Nouhou Arzika (MPCR), and Maïkoul Zodi (Tournons la Page Niger). The protests focused on abolishing regressive consumer and household levies (housing tax / *taxe d'habitation*, utility surcharges, and expanded informal sector taxes) while denouncing corporate tax exemptions granted to foreign telecoms and uranium miners (Areva/Orano). The coalition demanded fiscal fairness and state budget reductions, but did not propose a net wealth tax.
 - **Academic and economic proposal on family net wealth:** During the broader national debate on tax reform in October 2017, prominent Nigerien development economist and former diplomat **Mamadou Kiari Liman-Tinguiri** published an op-ed in *Niger Inter* ("Débat/Niger : Faut-il réformer le système fiscal ?"). Explicitly citing Thomas Piketty (*Le Capital au XXIe siècle*), he proposed an *impôt direct universel* levied progressively on family net wealth (*patrimoine familial*), specifically targeting assets above the median with higher brackets on the top decile (the wealthiest 10%). This represents an explicit Grade A proposal for an annual net wealth tax in Niger.
+- **Ministers of Finance policy positions:** Successive Ministers of Finance—Hassoumi Massoudou (2016–2019), Dr. Ahmat Jidoud (2021–2023), and transitional Prime Minister and Finance Minister Ali Mahaman Lamine Zeine (2023–present)—have consistently steered away from wealth taxation. Massoudou publicly ruled out new taxes on wealth, choosing to optimize existing customs and consumption duties; Jidoud focused on administrative digitalisation (e-SISIC) and broadening the base to gold and real estate; and Lamine Zeine focused on internal revenue mobilization to overcome post-coup sanctions while cutting taxes on basic consumer necessities (cement, fuel).
 - **Post-coup transitional fiscal policy and the FSSP (2023–present):** Following the July 2023 coup d'état that deposed President Mohamed Bazoum, the military administration led by General Abdourahamane Tiani (CNSP) created the *Fonds de Solidarité pour la Sauvegarde de la Patrie* (FSSP) via Ordonnance n° 2023-13. The fund is financed through a 1% mandatory monthly levy on net salaries, 1–2% corporate turnover levies on strategic enterprises, and luxury import duties. Under Section 2 of the skill rules, turnover taxes and payroll deductions are excluded from the wealth tax definition.
+- **Anti-corruption recovery (CoLDEFF):** Established in September 2023, the Commission de Lutte contre la Délinquance Économique, Financière et Fiscale (CoLDEFF) has recovered over 74 billion FCFA through criminal restitution, settlements, and asset seizures from public contract corruption and tax fraud, rather than administering a statutory wealth tax.
 - **Bilateral tax treaty termination:** On 5 December 2023, the transitional governments of Niger and Mali jointly denounced their 1965/1972 bilateral double-taxation conventions with France, which terminated in 2024 to restore domestic taxing rights over technical assistance fees and royalties.
 - **International and UN processes:** On 22 December 2023, Niger voted in favor of UN General Assembly Resolution 78/230 on international tax cooperation. Former Prime Minister Ibrahim Assane Mayaki co-chaired the UN FACTI Panel (2020–2021) on illicit financial flows and financial integrity, but the panel's final report advocated beneficial ownership registries and corporate tax minimums rather than an annual net wealth tax.
 - **Regional AES dynamics:** While neighbouring Alliance des États du Sahel (AES) partner Burkina Faso engaged the African Tax Administration Forum (ATAF) to study wealth tax options (logged as external lead `L0042` in `data/leads.csv`), Niger's transitional administration and DGI have focused on extractive audits, state property inventory (DGPE), and confederal customs levies (0.5% import levy).
@@ -29,7 +31,7 @@ Save as `data/ne/area_profile.md`. Seed pass and follow-up discovery passes comp
 - **PNDS-Tarayya (Parti Nigérien pour la Démocratie et le Socialisme):** Ruling party under Presidents Mahamadou Issoufou (2011–2021) and Mohamed Bazoum (2021–2023). Programs focused on rural infrastructure, the "Renaissance" program, and broadening the tax base via cadastral modernization, but without wealth tax proposals.
 - **MODEN/FA Lumana Africa:** Main historical opposition party led by former Prime Minister Hama Amadou (deceased October 2024).
 - **MNSD-Nassara:** Former ruling party led by Seini Oumarou.
-- **MPR-Jamhuriya / CPR-Inganci / RDR-Tchanji:** Other notable national political formations. All legislative activities are currently suspended.
+- **MPR-Jamhuriya / CPR-Inganci / RDR-Tchanji / MPN-Kiishin Kassa:** Other notable national political formations. All legislative activities are currently suspended.
 
 ## 6. Administrative divisions
 - **National (`national`):** Country root (`G0001`), Assembly (`G0002`), Government (`G0003`).
@@ -44,7 +46,7 @@ Save as `data/ne/area_profile.md`. Seed pass and follow-up discovery passes comp
 - *Impôt Unique sur les Traitements et Salaires (IUTS / ITS):* Progressive income tax on employment earnings.
 - *Impôt sur les Bénéfices Industriels et Commerciaux (BIC / ISB):* Corporate profit tax (standard rate 30%).
 - *FSSP (Fonds de Solidarité pour la Sauvegarde de la Patrie):* Transitional solidarity levy (1% payroll deduction, turnover contributions). Excluded under Section 2.
-- *Zakat:* Islamic religious duty (2.5% on qualifying wealth above Nisab). Often colloquially described as "l'impôt sur la fortune" in religious commentary, but is religious charity rather than statutory tax legislation.
+- *Zakat / Waqf:* Islamic religious duty and charitable endowments. Waqfs are regulated under Loi n° 2020-008 by the Haute Autorité du Waqf (HAW) and receive tax exemptions. Zakat is religious charity rather than statutory tax legislation.
 
 ## 8. Media
 - National public and independent media:
@@ -63,7 +65,7 @@ Save as `data/ne/area_profile.md`. Seed pass and follow-up discovery passes comp
 - Présidence de la République du Niger: `https://www.presidence.ne`
 
 ## 10. Key organizations and excluded actors
-- 16 documented exclusions in `exclusions.csv`:
+- 20 documented exclusions in `exclusions.csv`:
   - **Délégation du Niger à l'ONU:** Voted Yes on UN General Assembly Resolution 78/230 on international tax cooperation without wealth tax endorsement (`X0001`).
   - **Ali Idrissa (ROTAB / PCQVP):** Anti-Finance Law 2018 mobilization and extractive transparency without net wealth tax (`X0002`).
   - **Moussa Tchangari (AEC):** Civil society critiques of fiscal austerity and indirect consumer taxes (`X0003`).
@@ -80,9 +82,13 @@ Save as `data/ne/area_profile.md`. Seed pass and follow-up discovery passes comp
   - **Maïkoul Zodi (Tournons la Page Niger / ROTAB):** Mobilized against the 2018 budget regressive taxes; focused on multinational tax exemptions and basic social services (`X0014`).
   - **Moustapha Kadi Oumani (CODDAE):** Civil society consumer rights advocate; focused on civic tax duty and mining/energy revenues (`X0015`).
   - **Adamou Louché Ibrahim (Analyste Économique):** Economic analyst writing for Niger Inter; published analyses on the budget, public spending quality, and universal basic income; no wealth tax proposal (`X0016`).
+  - **Hassoumi Massoudou (Ministre des Finances 2016–2019):** Minister of Finance who defended the 2018 budget; explicitly ruled out new taxes on wealth, focusing on customs and existing taxes (`X0017`).
+  - **Dr. Ahmat Jidoud (Ministre des Finances 2021–2023):** Minister of Finance under President Bazoum; championed administrative digitalisation (e-SISIC) and broadening the base to gold and property (`X0018`).
+  - **Ali Mahaman Lamine Zeine (Premier Ministre / Ministre des Finances):** Head of government under CNSP; focused on domestic revenue mobilization and targeted consumer tax cuts (`X0019`).
+  - **Haute Autorité du Waqf (HAW):** Administrative authority regulating Islamic charitable endowments under Loi n° 2020-008; administers tax exemptions for public-utility waqfs (`X0020`).
 
 ## 11. Plan for the next runs
-- **Run 5:**
+- **Run 6:**
   1. Periodic monitoring of transitional political consultations (*Assises Nationales*) and any newly convened transitional consultative or legislative bodies for fiscal proposals.
   2. Track AES (Alliance des États du Sahel) fiscal harmonization committees and communiqués.
   3. Review future Finance Ordinances and potential tax reforms promulgated by the CNSP administration.
@@ -104,3 +110,5 @@ Save as `data/ne/area_profile.md`. Seed pass and follow-up discovery passes comp
 12. UN FACTI Panel, *Financial Integrity for Sustainable Development*, February 2021, `https://factipanel.org`.
 13. Anadolu Agency, "Niger: arrestation d'un acteur de la société civile opposé à la loi de finances", `https://www.aa.com.tr`.
 14. Secours Catholique, "Niger : la loi de finances 2018 alourdit la pression fiscale sur les plus pauvres", `https://www.secours-catholique.org`.
+15. ActuNiger, "Hassoumi Massoudou : 'D'abord, nous n'entendons pas augmenter les impôts'", `https://actuniger.com`.
+16. ANP, "La Haute Autorité du Waqf sensibilise les acteurs sur la fiscalité des waqfs", `https://www.anp.ne`.
