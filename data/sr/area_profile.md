@@ -33,6 +33,7 @@
 - **NDP (Nationale Democratische Partij):** Former ruling party, major opposition party (16 seats). MP Amzaad Abdoel championed wealth tax collection in DNA plenary in 2017.
 - **NPS (Nationale Partij Suriname):** Historical parliamentary party (3 seats in 2020–2025 term). Prominent MP Patricia Etnel strongly challenged government undercollection of the wealth tax during the 2023 budget plenary debate.
 - **VHP (Vooruitstrevende Hervormings Partij):** Largest governing party (20 seats), led by President Chan Santokhi. Finance Minister Stanley Raghoebarsing publicly opposed implementing or expanding wealth taxes in 2024. Faction leader Asiskumar Gajadien mentioned wealth tax in budget debates but prioritized tax exemptions for holding companies (excluded as X0003).
+- **DA'91 (Democratisch Alternatief '91):** Reformist extra-parliamentary party led by Angelic del Castilho. In its 2025–2030 platform (*Uw paspoort op weg naar de nieuwe Republiek*), DA'91 proposes abolishing the traditional statutory wealth tax (Wet Vermogensbelasting 1944) due to high administrative costs and replacing it with an anti-corruption *Belasting Onverklaarde Weelde* (Unexplained Wealth Tax) targeting concealed assets (excluded as X0004).
 
 ## 5. Government below national level
 - **Districts (Districten):** 10 districts (Paramaribo, Wanica, Nickerie, Coronie, Saramacca, Commewijne, Marowijne, Para, Brokopondo, Sipaliwini). Each governed by an appointed District Commissioner (*Districtscommissaris*) and an elected District Council (*Districtsraad*).
