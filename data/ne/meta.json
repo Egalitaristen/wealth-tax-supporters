@@ -1,0 +1,8 @@
+{
+  "name": "Niger",
+  "iso2": "NE",
+  "lead": "",
+  "status": "in progress",
+  "boundaries": "boundaries.json",
+  "notes": "Niger register: seed pass. National level, 8 regions (Admin 1), 67 départements (Admin 2), and 266 communes (Admin 3) loaded from official Direction des Statistiques Démographiques et Sociales data via OCHA COD-AB (CC BY-IGO 3.0)."
+}

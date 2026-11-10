@@ -1,0 +1,345 @@
+geo_unit_id,name,level,unit_type,parent_id,website,sweep_status,swept_run,swept_date,queries_run,hits,notes,code
+G0001,Niger,national,country,,https://www.presidence.ne,pending,,,,,ISO 3166-1 alpha-2: NE,NE
+G0002,Assemblée Nationale du Niger,national,legislature,G0001,https://www.assemblee.ne,pending,,,,,Dissolved following July 2023 coup,
+G0003,Gouvernement de la République du Niger,national,executive,G0001,https://www.presidence.ne,pending,,,,,,
+G0004,Agadez,region,region,G0001,,pending,,,,,Admin 1 region. P-Code: NE001,NE001
+G0005,Diffa,region,region,G0001,,pending,,,,,Admin 1 region. P-Code: NE002,NE002
+G0006,Dosso,region,region,G0001,,pending,,,,,Admin 1 region. P-Code: NE003,NE003
+G0007,Maradi,region,region,G0001,,pending,,,,,Admin 1 region. P-Code: NE004,NE004
+G0008,Tahoua,region,region,G0001,,pending,,,,,Admin 1 region. P-Code: NE005,NE005
+G0009,Tillabéri,region,region,G0001,,pending,,,,,Admin 1 region. P-Code: NE006,NE006
+G0010,Zinder,region,region,G0001,,pending,,,,,Admin 1 region. P-Code: NE007,NE007
+G0011,Niamey,region,region,G0001,,pending,,,,,Admin 1 region. P-Code: NE008,NE008
+G0012,Aderbissinat,county,département,G0004,,pending,,,,,Admin 2 département. P-Code: NE001001,NE001001
+G0013,Arlit,county,département,G0004,,pending,,,,,Admin 2 département. P-Code: NE001002,NE001002
+G0014,Bilma,county,département,G0004,,pending,,,,,Admin 2 département. P-Code: NE001003,NE001003
+G0015,Iferouane,county,département,G0004,,pending,,,,,Admin 2 département. P-Code: NE001004,NE001004
+G0016,Ingall,county,département,G0004,,pending,,,,,Admin 2 département. P-Code: NE001005,NE001005
+G0017,Tchirozerine,county,département,G0004,,pending,,,,,Admin 2 département. P-Code: NE001006,NE001006
+G0018,Bosso,county,département,G0005,,pending,,,,,Admin 2 département. P-Code: NE002001,NE002001
+G0019,Diffa,county,département,G0005,,pending,,,,,Admin 2 département. P-Code: NE002002,NE002002
+G0020,Goudoumaria,county,département,G0005,,pending,,,,,Admin 2 département. P-Code: NE002003,NE002003
+G0021,Maïné Soroa,county,département,G0005,,pending,,,,,Admin 2 département. P-Code: NE002004,NE002004
+G0022,N'Gourti,county,département,G0005,,pending,,,,,Admin 2 département. P-Code: NE002005,NE002005
+G0023,N'Guigmi,county,département,G0005,,pending,,,,,Admin 2 département. P-Code: NE002006,NE002006
+G0024,Boboye,county,département,G0006,,pending,,,,,Admin 2 département. P-Code: NE003001,NE003001
+G0025,Dioundiou,county,département,G0006,,pending,,,,,Admin 2 département. P-Code: NE003002,NE003002
+G0026,Dogondoutchi,county,département,G0006,,pending,,,,,Admin 2 département. P-Code: NE003003,NE003003
+G0027,Dosso,county,département,G0006,,pending,,,,,Admin 2 département. P-Code: NE003004,NE003004
+G0028,Falmey,county,département,G0006,,pending,,,,,Admin 2 département. P-Code: NE003005,NE003005
+G0029,Gaya,county,département,G0006,,pending,,,,,Admin 2 département. P-Code: NE003006,NE003006
+G0030,Loga,county,département,G0006,,pending,,,,,Admin 2 département. P-Code: NE003007,NE003007
+G0031,Tibiri,county,département,G0006,,pending,,,,,Admin 2 département. P-Code: NE003008,NE003008
+G0032,Aguié,county,département,G0007,,pending,,,,,Admin 2 département. P-Code: NE004001,NE004001
+G0033,Bermo,county,département,G0007,,pending,,,,,Admin 2 département. P-Code: NE004002,NE004002
+G0034,Dakoro,county,département,G0007,,pending,,,,,Admin 2 département. P-Code: NE004003,NE004003
+G0035,Gazaoua,county,département,G0007,,pending,,,,,Admin 2 département. P-Code: NE004004,NE004004
+G0036,Guidan Roumdji,county,département,G0007,,pending,,,,,Admin 2 département. P-Code: NE004005,NE004005
+G0037,Madarounfa,county,département,G0007,,pending,,,,,Admin 2 département. P-Code: NE004006,NE004006
+G0038,Ville de Maradi,county,département,G0007,,pending,,,,,Admin 2 département. P-Code: NE004007,NE004007
+G0039,Mayahi,county,département,G0007,,pending,,,,,Admin 2 département. P-Code: NE004008,NE004008
+G0040,Tessaoua,county,département,G0007,,pending,,,,,Admin 2 département. P-Code: NE004009,NE004009
+G0041,Abalak,county,département,G0008,,pending,,,,,Admin 2 département. P-Code: NE005001,NE005001
+G0042,Bagaroua,county,département,G0008,,pending,,,,,Admin 2 département. P-Code: NE005002,NE005002
+G0043,Birni N'Konni,county,département,G0008,,pending,,,,,Admin 2 département. P-Code: NE005003,NE005003
+G0044,Bouza,county,département,G0008,,pending,,,,,Admin 2 département. P-Code: NE005004,NE005004
+G0045,Illéla,county,département,G0008,,pending,,,,,Admin 2 département. P-Code: NE005005,NE005005
+G0046,Keita,county,département,G0008,,pending,,,,,Admin 2 département. P-Code: NE005006,NE005006
+G0047,Madaoua,county,département,G0008,,pending,,,,,Admin 2 département. P-Code: NE005007,NE005007
+G0048,Malbaza,county,département,G0008,,pending,,,,,Admin 2 département. P-Code: NE005008,NE005008
+G0049,Tahoua,county,département,G0008,,pending,,,,,Admin 2 département. P-Code: NE005009,NE005009
+G0050,Tassara,county,département,G0008,,pending,,,,,Admin 2 département. P-Code: NE005010,NE005010
+G0051,Tchintabaraden,county,département,G0008,,pending,,,,,Admin 2 département. P-Code: NE005011,NE005011
+G0052,Tillia,county,département,G0008,,pending,,,,,Admin 2 département. P-Code: NE005012,NE005012
+G0053,Ville de Tahoua,county,département,G0008,,pending,,,,,Admin 2 département. P-Code: NE005013,NE005013
+G0054,Abala,county,département,G0009,,pending,,,,,Admin 2 département. P-Code: NE006001,NE006001
+G0055,Ayerou,county,département,G0009,,pending,,,,,Admin 2 département. P-Code: NE006002,NE006002
+G0056,Balleyara,county,département,G0009,,pending,,,,,Admin 2 département. P-Code: NE006003,NE006003
+G0057,Banibangou,county,département,G0009,,pending,,,,,Admin 2 département. P-Code: NE006004,NE006004
+G0058,Bankilaré,county,département,G0009,,pending,,,,,Admin 2 département. P-Code: NE006005,NE006005
+G0059,Filingué,county,département,G0009,,pending,,,,,Admin 2 département. P-Code: NE006006,NE006006
+G0060,Gothèye,county,département,G0009,,pending,,,,,Admin 2 département. P-Code: NE006007,NE006007
+G0061,Kollo,county,département,G0009,,pending,,,,,Admin 2 département. P-Code: NE006008,NE006008
+G0062,Ouallam,county,département,G0009,,pending,,,,,Admin 2 département. P-Code: NE006009,NE006009
+G0063,Say,county,département,G0009,,pending,,,,,Admin 2 département. P-Code: NE006010,NE006010
+G0064,Téra,county,département,G0009,,pending,,,,,Admin 2 département. P-Code: NE006011,NE006011
+G0065,Tillabéri,county,département,G0009,,pending,,,,,Admin 2 département. P-Code: NE006012,NE006012
+G0066,Torodi,county,département,G0009,,pending,,,,,Admin 2 département. P-Code: NE006013,NE006013
+G0067,Belbedji,county,département,G0010,,pending,,,,,Admin 2 département. P-Code: NE007001,NE007001
+G0068,Damagaram Takaya,county,département,G0010,,pending,,,,,Admin 2 département. P-Code: NE007002,NE007002
+G0069,Dungass,county,département,G0010,,pending,,,,,Admin 2 département. P-Code: NE007003,NE007003
+G0070,Gouré,county,département,G0010,,pending,,,,,Admin 2 département. P-Code: NE007004,NE007004
+G0071,Kantché,county,département,G0010,,pending,,,,,Admin 2 département. P-Code: NE007005,NE007005
+G0072,Magaria,county,département,G0010,,pending,,,,,Admin 2 département. P-Code: NE007006,NE007006
+G0073,Mirriah,county,département,G0010,,pending,,,,,Admin 2 département. P-Code: NE007007,NE007007
+G0074,Takeita,county,département,G0010,,pending,,,,,Admin 2 département. P-Code: NE007008,NE007008
+G0075,Tanout,county,département,G0010,,pending,,,,,Admin 2 département. P-Code: NE007009,NE007009
+G0076,Tesker,county,département,G0010,,pending,,,,,Admin 2 département. P-Code: NE007010,NE007010
+G0077,Ville de Zinder,county,département,G0010,,pending,,,,,Admin 2 département. P-Code: NE007011,NE007011
+G0078,Ville de Niamey,county,département,G0011,,pending,,,,,Admin 2 département. P-Code: NE008001,NE008001
+G0079,Aderbissinat,council,commune,G0012,,pending,,,,,Admin 3 commune. P-Code: NE001001001,NE001001001
+G0080,Arlit,council,commune,G0013,,pending,,,,,Admin 3 commune. P-Code: NE001002001,NE001002001
+G0081,Dannet,council,commune,G0013,,pending,,,,,Admin 3 commune. P-Code: NE001002002,NE001002002
+G0082,Gougaram,council,commune,G0013,,pending,,,,,Admin 3 commune. P-Code: NE001002003,NE001002003
+G0083,Bilma,council,commune,G0014,,pending,,,,,Admin 3 commune. P-Code: NE001003001,NE001003001
+G0084,Dirkou,council,commune,G0014,,pending,,,,,Admin 3 commune. P-Code: NE001003002,NE001003002
+G0085,Djado,council,commune,G0014,,pending,,,,,Admin 3 commune. P-Code: NE001003003,NE001003003
+G0086,Fachi,council,commune,G0014,,pending,,,,,Admin 3 commune. P-Code: NE001003004,NE001003004
+G0087,Iferouane,council,commune,G0015,,pending,,,,,Admin 3 commune. P-Code: NE001004001,NE001004001
+G0088,Timia,council,commune,G0015,,pending,,,,,Admin 3 commune. P-Code: NE001004002,NE001004002
+G0089,Ingall,council,commune,G0016,,pending,,,,,Admin 3 commune. P-Code: NE001005001,NE001005001
+G0090,Agadez,council,commune,G0017,,pending,,,,,Admin 3 commune. P-Code: NE001006001,NE001006001
+G0091,Dabaga,council,commune,G0017,,pending,,,,,Admin 3 commune. P-Code: NE001006002,NE001006002
+G0092,Tabelot,council,commune,G0017,,pending,,,,,Admin 3 commune. P-Code: NE001006003,NE001006003
+G0093,Tchirozerine,council,commune,G0017,,pending,,,,,Admin 3 commune. P-Code: NE001006004,NE001006004
+G0094,Bosso,council,commune,G0018,,pending,,,,,Admin 3 commune. P-Code: NE002001001,NE002001001
+G0095,Toumour,council,commune,G0018,,pending,,,,,Admin 3 commune. P-Code: NE002001002,NE002001002
+G0096,Chetimari,council,commune,G0019,,pending,,,,,Admin 3 commune. P-Code: NE002002001,NE002002001
+G0097,Diffa,council,commune,G0019,,pending,,,,,Admin 3 commune. P-Code: NE002002002,NE002002002
+G0098,Gueskérou,council,commune,G0019,,pending,,,,,Admin 3 commune. P-Code: NE002002003,NE002002003
+G0099,Goudoumaria,council,commune,G0020,,pending,,,,,Admin 3 commune. P-Code: NE002003001,NE002003001
+G0100,Foulatari,council,commune,G0021,,pending,,,,,Admin 3 commune. P-Code: NE002004001,NE002004001
+G0101,Maïné Soroa,council,commune,G0021,,pending,,,,,Admin 3 commune. P-Code: NE002004002,NE002004002
+G0102,N'Guelbely,council,commune,G0021,,pending,,,,,Admin 3 commune. P-Code: NE002004003,NE002004003
+G0103,N'Gourti,council,commune,G0022,,pending,,,,,Admin 3 commune. P-Code: NE002005001,NE002005001
+G0104,Kablewa,council,commune,G0023,,pending,,,,,Admin 3 commune. P-Code: NE002006001,NE002006001
+G0105,N'Guigmi,council,commune,G0023,,pending,,,,,Admin 3 commune. P-Code: NE002006002,NE002006002
+G0106,Birni N'Gaouré,council,commune,G0024,,pending,,,,,Admin 3 commune. P-Code: NE003001001,NE003001001
+G0107,Fabidji,council,commune,G0024,,pending,,,,,Admin 3 commune. P-Code: NE003001002,NE003001002
+G0108,Fakara,council,commune,G0024,,pending,,,,,Admin 3 commune. P-Code: NE003001003,NE003001003
+G0109,Harikanassou,council,commune,G0024,,pending,,,,,Admin 3 commune. P-Code: NE003001004,NE003001004
+G0110,Kankandi,council,commune,G0024,,pending,,,,,Admin 3 commune. P-Code: NE003001005,NE003001005
+G0111,Kiota,council,commune,G0024,,pending,,,,,Admin 3 commune. P-Code: NE003001006,NE003001006
+G0112,Koygolo,council,commune,G0024,,pending,,,,,Admin 3 commune. P-Code: NE003001007,NE003001007
+G0113,N'Gonga,council,commune,G0024,,pending,,,,,Admin 3 commune. P-Code: NE003001008,NE003001008
+G0114,Dioundiou,council,commune,G0025,,pending,,,,,Admin 3 commune. P-Code: NE003002001,NE003002001
+G0115,Karakara,council,commune,G0025,,pending,,,,,Admin 3 commune. P-Code: NE003002002,NE003002002
+G0116,Zabori,council,commune,G0025,,pending,,,,,Admin 3 commune. P-Code: NE003002003,NE003002003
+G0117,Dan-Kassari,council,commune,G0026,,pending,,,,,Admin 3 commune. P-Code: NE003003001,NE003003001
+G0118,Dogondoutchi,council,commune,G0026,,pending,,,,,Admin 3 commune. P-Code: NE003003002,NE003003002
+G0119,Dogonkiria,council,commune,G0026,,pending,,,,,Admin 3 commune. P-Code: NE003003003,NE003003003
+G0120,Kiéché,council,commune,G0026,,pending,,,,,Admin 3 commune. P-Code: NE003003004,NE003003004
+G0121,Matankari,council,commune,G0026,,pending,,,,,Admin 3 commune. P-Code: NE003003005,NE003003005
+G0122,Soucoucoutane,council,commune,G0026,,pending,,,,,Admin 3 commune. P-Code: NE003003006,NE003003006
+G0123,Dosso,council,commune,G0027,,pending,,,,,Admin 3 commune. P-Code: NE003004001,NE003004001
+G0124,Farey,council,commune,G0027,,pending,,,,,Admin 3 commune. P-Code: NE003004002,NE003004002
+G0125,Garankédey,council,commune,G0027,,pending,,,,,Admin 3 commune. P-Code: NE003004003,NE003004003
+G0126,Gollé,council,commune,G0027,,pending,,,,,Admin 3 commune. P-Code: NE003004004,NE003004004
+G0127,Goroubankassam,council,commune,G0027,,pending,,,,,Admin 3 commune. P-Code: NE003004005,NE003004005
+G0128,Karguibangou,council,commune,G0027,,pending,,,,,Admin 3 commune. P-Code: NE003004006,NE003004006
+G0129,Mokko,council,commune,G0027,,pending,,,,,Admin 3 commune. P-Code: NE003004007,NE003004007
+G0130,Sambéra,council,commune,G0027,,pending,,,,,Admin 3 commune. P-Code: NE003004008,NE003004008
+G0131,Tessa,council,commune,G0027,,pending,,,,,Admin 3 commune. P-Code: NE003004009,NE003004009
+G0132,Tombokoirey I,council,commune,G0027,,pending,,,,,Admin 3 commune. P-Code: NE003004010,NE003004010
+G0133,Tombokoirey II,council,commune,G0027,,pending,,,,,Admin 3 commune. P-Code: NE003004011,NE003004011
+G0134,Falmey,council,commune,G0028,,pending,,,,,Admin 3 commune. P-Code: NE003005001,NE003005001
+G0135,Guilladjé,council,commune,G0028,,pending,,,,,Admin 3 commune. P-Code: NE003005002,NE003005002
+G0136,Bana,council,commune,G0029,,pending,,,,,Admin 3 commune. P-Code: NE003006001,NE003006001
+G0137,Bengou,council,commune,G0029,,pending,,,,,Admin 3 commune. P-Code: NE003006002,NE003006002
+G0138,Gaya,council,commune,G0029,,pending,,,,,Admin 3 commune. P-Code: NE003006003,NE003006003
+G0139,Tanda,council,commune,G0029,,pending,,,,,Admin 3 commune. P-Code: NE003006004,NE003006004
+G0140,Tounouga,council,commune,G0029,,pending,,,,,Admin 3 commune. P-Code: NE003006005,NE003006005
+G0141,Yélou,council,commune,G0029,,pending,,,,,Admin 3 commune. P-Code: NE003006006,NE003006006
+G0142,Falwel,council,commune,G0030,,pending,,,,,Admin 3 commune. P-Code: NE003007001,NE003007001
+G0143,Loga,council,commune,G0030,,pending,,,,,Admin 3 commune. P-Code: NE003007002,NE003007002
+G0144,Sokorbé,council,commune,G0030,,pending,,,,,Admin 3 commune. P-Code: NE003007003,NE003007003
+G0145,Doumega,council,commune,G0031,,pending,,,,,Admin 3 commune. P-Code: NE003008001,NE003008001
+G0146,Guéchémé,council,commune,G0031,,pending,,,,,Admin 3 commune. P-Code: NE003008002,NE003008002
+G0147,Koré Maïroua,council,commune,G0031,,pending,,,,,Admin 3 commune. P-Code: NE003008003,NE003008003
+G0148,Tibiri,council,commune,G0031,,pending,,,,,Admin 3 commune. P-Code: NE003008004,NE003008004
+G0149,Aguié,council,commune,G0032,,pending,,,,,Admin 3 commune. P-Code: NE004001001,NE004001001
+G0150,Tchadoua,council,commune,G0032,,pending,,,,,Admin 3 commune. P-Code: NE004001002,NE004001002
+G0151,Bermo,council,commune,G0033,,pending,,,,,Admin 3 commune. P-Code: NE004002001,NE004002001
+G0152,Gadabedji,council,commune,G0033,,pending,,,,,Admin 3 commune. P-Code: NE004002002,NE004002002
+G0153,Adjekoria,council,commune,G0034,,pending,,,,,Admin 3 commune. P-Code: NE004003001,NE004003001
+G0154,Azagor,council,commune,G0034,,pending,,,,,Admin 3 commune. P-Code: NE004003002,NE004003002
+G0155,Bader Goula,council,commune,G0034,,pending,,,,,Admin 3 commune. P-Code: NE004003003,NE004003003
+G0156,Birni Lallé,council,commune,G0034,,pending,,,,,Admin 3 commune. P-Code: NE004003004,NE004003004
+G0157,Dakoro,council,commune,G0034,,pending,,,,,Admin 3 commune. P-Code: NE004003005,NE004003005
+G0158,Dan-Goulbi,council,commune,G0034,,pending,,,,,Admin 3 commune. P-Code: NE004003006,NE004003006
+G0159,Korahane,council,commune,G0034,,pending,,,,,Admin 3 commune. P-Code: NE004003007,NE004003007
+G0160,Kornaka,council,commune,G0034,,pending,,,,,Admin 3 commune. P-Code: NE004003008,NE004003008
+G0161,Maïyara,council,commune,G0034,,pending,,,,,Admin 3 commune. P-Code: NE004003009,NE004003009
+G0162,Roumbou I,council,commune,G0034,,pending,,,,,Admin 3 commune. P-Code: NE004003010,NE004003010
+G0163,Sabon Machi,council,commune,G0034,,pending,,,,,Admin 3 commune. P-Code: NE004003011,NE004003011
+G0164,Tagriss,council,commune,G0034,,pending,,,,,Admin 3 commune. P-Code: NE004003012,NE004003012
+G0165,Gangara,council,commune,G0035,,pending,,,,,Admin 3 commune. P-Code: NE004004001,NE004004001
+G0166,Gazaoua,council,commune,G0035,,pending,,,,,Admin 3 commune. P-Code: NE004004002,NE004004002
+G0167,Chadakori,council,commune,G0036,,pending,,,,,Admin 3 commune. P-Code: NE004005001,NE004005001
+G0168,Guidan Roumdji,council,commune,G0036,,pending,,,,,Admin 3 commune. P-Code: NE004005002,NE004005002
+G0169,Guidan Sori,council,commune,G0036,,pending,,,,,Admin 3 commune. P-Code: NE004005003,NE004005003
+G0170,Saé Saboua,council,commune,G0036,,pending,,,,,Admin 3 commune. P-Code: NE004005004,NE004005004
+G0171,Tibiri,council,commune,G0036,,pending,,,,,Admin 3 commune. P-Code: NE004005005,NE004005005
+G0172,Dan-Issa,council,commune,G0037,,pending,,,,,Admin 3 commune. P-Code: NE004006001,NE004006001
+G0173,Djiratawa,council,commune,G0037,,pending,,,,,Admin 3 commune. P-Code: NE004006002,NE004006002
+G0174,Gabi,council,commune,G0037,,pending,,,,,Admin 3 commune. P-Code: NE004006003,NE004006003
+G0175,Madarounfa,council,commune,G0037,,pending,,,,,Admin 3 commune. P-Code: NE004006004,NE004006004
+G0176,Safo,council,commune,G0037,,pending,,,,,Admin 3 commune. P-Code: NE004006005,NE004006005
+G0177,Sarkin Yamma,council,commune,G0037,,pending,,,,,Admin 3 commune. P-Code: NE004006006,NE004006006
+G0178,Maradi I,council,commune,G0038,,pending,,,,,Admin 3 commune. P-Code: NE004007001,NE004007001
+G0179,Maradi II,council,commune,G0038,,pending,,,,,Admin 3 commune. P-Code: NE004007002,NE004007002
+G0180,Maradi III,council,commune,G0038,,pending,,,,,Admin 3 commune. P-Code: NE004007003,NE004007003
+G0181,Attantane,council,commune,G0039,,pending,,,,,Admin 3 commune. P-Code: NE004008001,NE004008001
+G0182,El Allassane Maïreyrey,council,commune,G0039,,pending,,,,,Admin 3 commune. P-Code: NE004008002,NE004008002
+G0183,Guidan Amoumoune,council,commune,G0039,,pending,,,,,Admin 3 commune. P-Code: NE004008003,NE004008003
+G0184,Issawane,council,commune,G0039,,pending,,,,,Admin 3 commune. P-Code: NE004008004,NE004008004
+G0185,Kanan-Bakaché,council,commune,G0039,,pending,,,,,Admin 3 commune. P-Code: NE004008005,NE004008005
+G0186,Mayahi,council,commune,G0039,,pending,,,,,Admin 3 commune. P-Code: NE004008006,NE004008006
+G0187,Sarkin Haoussa,council,commune,G0039,,pending,,,,,Admin 3 commune. P-Code: NE004008007,NE004008007
+G0188,Tchaké,council,commune,G0039,,pending,,,,,Admin 3 commune. P-Code: NE004008008,NE004008008
+G0189,Baoudetta,council,commune,G0040,,pending,,,,,Admin 3 commune. P-Code: NE004009001,NE004009001
+G0190,Hawandawaki,council,commune,G0040,,pending,,,,,Admin 3 commune. P-Code: NE004009002,NE004009002
+G0191,Koona,council,commune,G0040,,pending,,,,,Admin 3 commune. P-Code: NE004009003,NE004009003
+G0192,Korgom,council,commune,G0040,,pending,,,,,Admin 3 commune. P-Code: NE004009004,NE004009004
+G0193,Maïjirgui,council,commune,G0040,,pending,,,,,Admin 3 commune. P-Code: NE004009005,NE004009005
+G0194,Ourafane,council,commune,G0040,,pending,,,,,Admin 3 commune. P-Code: NE004009006,NE004009006
+G0195,Tessaoua,council,commune,G0040,,pending,,,,,Admin 3 commune. P-Code: NE004009007,NE004009007
+G0196,Abalak,council,commune,G0041,,pending,,,,,Admin 3 commune. P-Code: NE005001001,NE005001001
+G0197,Akoubounou,council,commune,G0041,,pending,,,,,Admin 3 commune. P-Code: NE005001002,NE005001002
+G0198,Azeye,council,commune,G0041,,pending,,,,,Admin 3 commune. P-Code: NE005001003,NE005001003
+G0199,Tabalak,council,commune,G0041,,pending,,,,,Admin 3 commune. P-Code: NE005001004,NE005001004
+G0200,Tamaya,council,commune,G0041,,pending,,,,,Admin 3 commune. P-Code: NE005001005,NE005001005
+G0201,Bagaroua,council,commune,G0042,,pending,,,,,Admin 3 commune. P-Code: NE005002001,NE005002001
+G0202,Alléla,council,commune,G0043,,pending,,,,,Admin 3 commune. P-Code: NE005003001,NE005003001
+G0203,Bazaga,council,commune,G0043,,pending,,,,,Admin 3 commune. P-Code: NE005003002,NE005003002
+G0204,Birni N'Konni,council,commune,G0043,,pending,,,,,Admin 3 commune. P-Code: NE005003003,NE005003003
+G0205,Tsernaoua,council,commune,G0043,,pending,,,,,Admin 3 commune. P-Code: NE005003004,NE005003004
+G0206,Allakaye,council,commune,G0044,,pending,,,,,Admin 3 commune. P-Code: NE005004001,NE005004001
+G0207,Babankatami,council,commune,G0044,,pending,,,,,Admin 3 commune. P-Code: NE005004002,NE005004002
+G0208,Bouza,council,commune,G0044,,pending,,,,,Admin 3 commune. P-Code: NE005004003,NE005004003
+G0209,Déoulé,council,commune,G0044,,pending,,,,,Admin 3 commune. P-Code: NE005004004,NE005004004
+G0210,Karofane,council,commune,G0044,,pending,,,,,Admin 3 commune. P-Code: NE005004005,NE005004005
+G0211,Tabotaki,council,commune,G0044,,pending,,,,,Admin 3 commune. P-Code: NE005004006,NE005004006
+G0212,Tama,council,commune,G0044,,pending,,,,,Admin 3 commune. P-Code: NE005004007,NE005004007
+G0213,Badaguichiri,council,commune,G0045,,pending,,,,,Admin 3 commune. P-Code: NE005005001,NE005005001
+G0214,Illéla,council,commune,G0045,,pending,,,,,Admin 3 commune. P-Code: NE005005002,NE005005002
+G0215,Tajaé,council,commune,G0045,,pending,,,,,Admin 3 commune. P-Code: NE005005003,NE005005003
+G0216,Garhanga,council,commune,G0046,,pending,,,,,Admin 3 commune. P-Code: NE005006001,NE005006001
+G0217,Ibohamane,council,commune,G0046,,pending,,,,,Admin 3 commune. P-Code: NE005006002,NE005006002
+G0218,Keita,council,commune,G0046,,pending,,,,,Admin 3 commune. P-Code: NE005006003,NE005006003
+G0219,Tamaské,council,commune,G0046,,pending,,,,,Admin 3 commune. P-Code: NE005006004,NE005006004
+G0220,Azarori,council,commune,G0047,,pending,,,,,Admin 3 commune. P-Code: NE005007001,NE005007001
+G0221,Bangui,council,commune,G0047,,pending,,,,,Admin 3 commune. P-Code: NE005007002,NE005007002
+G0222,Galma Koudawatché,council,commune,G0047,,pending,,,,,Admin 3 commune. P-Code: NE005007003,NE005007003
+G0223,Madaoua,council,commune,G0047,,pending,,,,,Admin 3 commune. P-Code: NE005007004,NE005007004
+G0224,Ourno,council,commune,G0047,,pending,,,,,Admin 3 commune. P-Code: NE005007005,NE005007005
+G0225,Sabon Guida,council,commune,G0047,,pending,,,,,Admin 3 commune. P-Code: NE005007006,NE005007006
+G0226,Doguerawa,council,commune,G0048,,pending,,,,,Admin 3 commune. P-Code: NE005008001,NE005008001
+G0227,Malbaza,council,commune,G0048,,pending,,,,,Admin 3 commune. P-Code: NE005008002,NE005008002
+G0228,Affala,council,commune,G0049,,pending,,,,,Admin 3 commune. P-Code: NE005009001,NE005009001
+G0229,Bambeye,council,commune,G0049,,pending,,,,,Admin 3 commune. P-Code: NE005009002,NE005009002
+G0230,Barmou,council,commune,G0049,,pending,,,,,Admin 3 commune. P-Code: NE005009003,NE005009003
+G0231,Kalfou,council,commune,G0049,,pending,,,,,Admin 3 commune. P-Code: NE005009004,NE005009004
+G0232,Takanamat,council,commune,G0049,,pending,,,,,Admin 3 commune. P-Code: NE005009005,NE005009005
+G0233,Tebaram,council,commune,G0049,,pending,,,,,Admin 3 commune. P-Code: NE005009006,NE005009006
+G0234,Tassara,council,commune,G0050,,pending,,,,,Admin 3 commune. P-Code: NE005010001,NE005010001
+G0235,Kao,council,commune,G0051,,pending,,,,,Admin 3 commune. P-Code: NE005011001,NE005011001
+G0236,Tchintabaraden,council,commune,G0051,,pending,,,,,Admin 3 commune. P-Code: NE005011002,NE005011002
+G0237,Tillia,council,commune,G0052,,pending,,,,,Admin 3 commune. P-Code: NE005012001,NE005012001
+G0238,Tahoua I,council,commune,G0053,,pending,,,,,Admin 3 commune. P-Code: NE005013001,NE005013001
+G0239,Tahoua II,council,commune,G0053,,pending,,,,,Admin 3 commune. P-Code: NE005013002,NE005013002
+G0240,Abala,council,commune,G0054,,pending,,,,,Admin 3 commune. P-Code: NE006001001,NE006001001
+G0241,Sanam,council,commune,G0054,,pending,,,,,Admin 3 commune. P-Code: NE006001002,NE006001002
+G0242,Ayerou,council,commune,G0055,,pending,,,,,Admin 3 commune. P-Code: NE006002001,NE006002001
+G0243,Inatès,council,commune,G0055,,pending,,,,,Admin 3 commune. P-Code: NE006002002,NE006002002
+G0244,Tagazar,council,commune,G0056,,pending,,,,,Admin 3 commune. P-Code: NE006003001,NE006003001
+G0245,Banibangou,council,commune,G0057,,pending,,,,,Admin 3 commune. P-Code: NE006004001,NE006004001
+G0246,Bankilaré,council,commune,G0058,,pending,,,,,Admin 3 commune. P-Code: NE006005001,NE006005001
+G0247,Filingué,council,commune,G0059,,pending,,,,,Admin 3 commune. P-Code: NE006006001,NE006006001
+G0248,Imanan,council,commune,G0059,,pending,,,,,Admin 3 commune. P-Code: NE006006002,NE006006002
+G0249,Kourfeye Centre,council,commune,G0059,,pending,,,,,Admin 3 commune. P-Code: NE006006003,NE006006003
+G0250,Tondikandia,council,commune,G0059,,pending,,,,,Admin 3 commune. P-Code: NE006006004,NE006006004
+G0251,Dargol,council,commune,G0060,,pending,,,,,Admin 3 commune. P-Code: NE006007001,NE006007001
+G0252,Gothèye,council,commune,G0060,,pending,,,,,Admin 3 commune. P-Code: NE006007002,NE006007002
+G0253,Bitinkodji,council,commune,G0061,,pending,,,,,Admin 3 commune. P-Code: NE006008001,NE006008001
+G0254,Diantchandou,council,commune,G0061,,pending,,,,,Admin 3 commune. P-Code: NE006008002,NE006008002
+G0255,Hamdallaye,council,commune,G0061,,pending,,,,,Admin 3 commune. P-Code: NE006008003,NE006008003
+G0256,Karma,council,commune,G0061,,pending,,,,,Admin 3 commune. P-Code: NE006008004,NE006008004
+G0257,Kirtachi,council,commune,G0061,,pending,,,,,Admin 3 commune. P-Code: NE006008005,NE006008005
+G0258,Kollo,council,commune,G0061,,pending,,,,,Admin 3 commune. P-Code: NE006008006,NE006008006
+G0259,Kouré,council,commune,G0061,,pending,,,,,Admin 3 commune. P-Code: NE006008007,NE006008007
+G0260,Liboré,council,commune,G0061,,pending,,,,,Admin 3 commune. P-Code: NE006008008,NE006008008
+G0261,N'Dounga,council,commune,G0061,,pending,,,,,Admin 3 commune. P-Code: NE006008009,NE006008009
+G0262,Namaro,council,commune,G0061,,pending,,,,,Admin 3 commune. P-Code: NE006008010,NE006008010
+G0263,Youri,council,commune,G0061,,pending,,,,,Admin 3 commune. P-Code: NE006008011,NE006008011
+G0264,Dingazi,council,commune,G0062,,pending,,,,,Admin 3 commune. P-Code: NE006009001,NE006009001
+G0265,Ouallam,council,commune,G0062,,pending,,,,,Admin 3 commune. P-Code: NE006009002,NE006009002
+G0266,Simiri,council,commune,G0062,,pending,,,,,Admin 3 commune. P-Code: NE006009003,NE006009003
+G0267,Tondikiwindi,council,commune,G0062,,pending,,,,,Admin 3 commune. P-Code: NE006009004,NE006009004
+G0268,Ouro Guéladjo,council,commune,G0063,,pending,,,,,Admin 3 commune. P-Code: NE006010001,NE006010001
+G0269,Say,council,commune,G0063,,pending,,,,,Admin 3 commune. P-Code: NE006010002,NE006010002
+G0270,Tamou,council,commune,G0063,,pending,,,,,Admin 3 commune. P-Code: NE006010003,NE006010003
+G0271,Diagourou,council,commune,G0064,,pending,,,,,Admin 3 commune. P-Code: NE006011001,NE006011001
+G0272,Gorouol,council,commune,G0064,,pending,,,,,Admin 3 commune. P-Code: NE006011002,NE006011002
+G0273,Kokorou,council,commune,G0064,,pending,,,,,Admin 3 commune. P-Code: NE006011003,NE006011003
+G0274,Méhana,council,commune,G0064,,pending,,,,,Admin 3 commune. P-Code: NE006011004,NE006011004
+G0275,Téra,council,commune,G0064,,pending,,,,,Admin 3 commune. P-Code: NE006011005,NE006011005
+G0276,Anzourou,council,commune,G0065,,pending,,,,,Admin 3 commune. P-Code: NE006012001,NE006012001
+G0277,Bibiyergou,council,commune,G0065,,pending,,,,,Admin 3 commune. P-Code: NE006012002,NE006012002
+G0278,Dessa,council,commune,G0065,,pending,,,,,Admin 3 commune. P-Code: NE006012003,NE006012003
+G0279,Kourteye,council,commune,G0065,,pending,,,,,Admin 3 commune. P-Code: NE006012004,NE006012004
+G0280,Sakoïra,council,commune,G0065,,pending,,,,,Admin 3 commune. P-Code: NE006012005,NE006012005
+G0281,Sinder,council,commune,G0065,,pending,,,,,Admin 3 commune. P-Code: NE006012006,NE006012006
+G0282,Tillabéri,council,commune,G0065,,pending,,,,,Admin 3 commune. P-Code: NE006012007,NE006012007
+G0283,Makalondi,council,commune,G0066,,pending,,,,,Admin 3 commune. P-Code: NE006013001,NE006013001
+G0284,Torodi,council,commune,G0066,,pending,,,,,Admin 3 commune. P-Code: NE006013002,NE006013002
+G0285,Tarka,council,commune,G0067,,pending,,,,,Admin 3 commune. P-Code: NE007001001,NE007001001
+G0286,Albarkaram,council,commune,G0068,,pending,,,,,Admin 3 commune. P-Code: NE007002001,NE007002001
+G0287,Damagaram Takaya,council,commune,G0068,,pending,,,,,Admin 3 commune. P-Code: NE007002002,NE007002002
+G0288,Guidimouni,council,commune,G0068,,pending,,,,,Admin 3 commune. P-Code: NE007002003,NE007002003
+G0289,Mazamni,council,commune,G0068,,pending,,,,,Admin 3 commune. P-Code: NE007002004,NE007002004
+G0290,Moa,council,commune,G0068,,pending,,,,,Admin 3 commune. P-Code: NE007002005,NE007002005
+G0291,Wamé,council,commune,G0068,,pending,,,,,Admin 3 commune. P-Code: NE007002006,NE007002006
+G0292,Dogo-Dogo,council,commune,G0069,,pending,,,,,Admin 3 commune. P-Code: NE007003001,NE007003001
+G0293,Dungass,council,commune,G0069,,pending,,,,,Admin 3 commune. P-Code: NE007003002,NE007003002
+G0294,Gouchi,council,commune,G0069,,pending,,,,,Admin 3 commune. P-Code: NE007003003,NE007003003
+G0295,Malawa,council,commune,G0069,,pending,,,,,Admin 3 commune. P-Code: NE007003004,NE007003004
+G0296,Alakoss,council,commune,G0070,,pending,,,,,Admin 3 commune. P-Code: NE007004001,NE007004001
+G0297,Bouné,council,commune,G0070,,pending,,,,,Admin 3 commune. P-Code: NE007004002,NE007004002
+G0298,Gamou,council,commune,G0070,,pending,,,,,Admin 3 commune. P-Code: NE007004003,NE007004003
+G0299,Gouré,council,commune,G0070,,pending,,,,,Admin 3 commune. P-Code: NE007004004,NE007004004
+G0300,Guidiguir,council,commune,G0070,,pending,,,,,Admin 3 commune. P-Code: NE007004005,NE007004005
+G0301,Kellé,council,commune,G0070,,pending,,,,,Admin 3 commune. P-Code: NE007004006,NE007004006
+G0302,Dan Barto,council,commune,G0071,,pending,,,,,Admin 3 commune. P-Code: NE007005001,NE007005001
+G0303,Daouché,council,commune,G0071,,pending,,,,,Admin 3 commune. P-Code: NE007005002,NE007005002
+G0304,Doungou,council,commune,G0071,,pending,,,,,Admin 3 commune. P-Code: NE007005003,NE007005003
+G0305,Ichirnawa,council,commune,G0071,,pending,,,,,Admin 3 commune. P-Code: NE007005004,NE007005004
+G0306,Kantché,council,commune,G0071,,pending,,,,,Admin 3 commune. P-Code: NE007005005,NE007005005
+G0307,Kourni,council,commune,G0071,,pending,,,,,Admin 3 commune. P-Code: NE007005006,NE007005006
+G0308,Matamey,council,commune,G0071,,pending,,,,,Admin 3 commune. P-Code: NE007005007,NE007005007
+G0309,Tsaouni,council,commune,G0071,,pending,,,,,Admin 3 commune. P-Code: NE007005008,NE007005008
+G0310,Yaouri,council,commune,G0071,,pending,,,,,Admin 3 commune. P-Code: NE007005009,NE007005009
+G0311,Bandé,council,commune,G0072,,pending,,,,,Admin 3 commune. P-Code: NE007006001,NE007006001
+G0312,Dantchiao,council,commune,G0072,,pending,,,,,Admin 3 commune. P-Code: NE007006002,NE007006002
+G0313,Kwaya,council,commune,G0072,,pending,,,,,Admin 3 commune. P-Code: NE007006003,NE007006003
+G0314,Magaria,council,commune,G0072,,pending,,,,,Admin 3 commune. P-Code: NE007006004,NE007006004
+G0315,Sassoumbroum,council,commune,G0072,,pending,,,,,Admin 3 commune. P-Code: NE007006005,NE007006005
+G0316,Wacha,council,commune,G0072,,pending,,,,,Admin 3 commune. P-Code: NE007006006,NE007006006
+G0317,Yékoua,council,commune,G0072,,pending,,,,,Admin 3 commune. P-Code: NE007006007,NE007006007
+G0318,Dogo,council,commune,G0073,,pending,,,,,Admin 3 commune. P-Code: NE007007001,NE007007001
+G0319,Droum,council,commune,G0073,,pending,,,,,Admin 3 commune. P-Code: NE007007002,NE007007002
+G0320,Gaffati,council,commune,G0073,,pending,,,,,Admin 3 commune. P-Code: NE007007003,NE007007003
+G0321,Gouna,council,commune,G0073,,pending,,,,,Admin 3 commune. P-Code: NE007007004,NE007007004
+G0322,Hamdara,council,commune,G0073,,pending,,,,,Admin 3 commune. P-Code: NE007007005,NE007007005
+G0323,Kolleram,council,commune,G0073,,pending,,,,,Admin 3 commune. P-Code: NE007007006,NE007007006
+G0324,Mirriah,council,commune,G0073,,pending,,,,,Admin 3 commune. P-Code: NE007007007,NE007007007
+G0325,Zermou,council,commune,G0073,,pending,,,,,Admin 3 commune. P-Code: NE007007008,NE007007008
+G0326,Dakoussa,council,commune,G0074,,pending,,,,,Admin 3 commune. P-Code: NE007008001,NE007008001
+G0327,Garagoumsa,council,commune,G0074,,pending,,,,,Admin 3 commune. P-Code: NE007008002,NE007008002
+G0328,Tirmini,council,commune,G0074,,pending,,,,,Admin 3 commune. P-Code: NE007008003,NE007008003
+G0329,Falenko,council,commune,G0075,,pending,,,,,Admin 3 commune. P-Code: NE007009001,NE007009001
+G0330,Gangara,council,commune,G0075,,pending,,,,,Admin 3 commune. P-Code: NE007009002,NE007009002
+G0331,Olléléwa,council,commune,G0075,,pending,,,,,Admin 3 commune. P-Code: NE007009003,NE007009003
+G0332,Tanout,council,commune,G0075,,pending,,,,,Admin 3 commune. P-Code: NE007009004,NE007009004
+G0333,Tenhya,council,commune,G0075,,pending,,,,,Admin 3 commune. P-Code: NE007009005,NE007009005
+G0334,Tesker,council,commune,G0076,,pending,,,,,Admin 3 commune. P-Code: NE007010001,NE007010001
+G0335,Zinder I,council,commune,G0077,,pending,,,,,Admin 3 commune. P-Code: NE007011001,NE007011001
+G0336,Zinder II,council,commune,G0077,,pending,,,,,Admin 3 commune. P-Code: NE007011002,NE007011002
+G0337,Zinder III,council,commune,G0077,,pending,,,,,Admin 3 commune. P-Code: NE007011003,NE007011003
+G0338,Zinder IV,council,commune,G0077,,pending,,,,,Admin 3 commune. P-Code: NE007011004,NE007011004
+G0339,Zinder V,council,commune,G0077,,pending,,,,,Admin 3 commune. P-Code: NE007011005,NE007011005
+G0340,Niamey I,council,commune,G0078,,pending,,,,,Admin 3 commune. P-Code: NE008001001,NE008001001
+G0341,Niamey II,council,commune,G0078,,pending,,,,,Admin 3 commune. P-Code: NE008001002,NE008001002
+G0342,Niamey III,council,commune,G0078,,pending,,,,,Admin 3 commune. P-Code: NE008001003,NE008001003
+G0343,Niamey IV,council,commune,G0078,,pending,,,,,Admin 3 commune. P-Code: NE008001004,NE008001004
+G0344,Niamey V,council,commune,G0078,,pending,,,,,Admin 3 commune. P-Code: NE008001005,NE008001005
