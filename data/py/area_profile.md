@@ -65,3 +65,7 @@
 - **Maintenance / Next:**
   - Periodically monitor the 2023–2028 Congreso Nacional for newly introduced wealth tax or fiscal justice bills in the SILpy portal.
   - Track upcoming publications and tax justice campaigns by Latindadd, Decidamos, and CODEHUPY in Asunción.
+
+## Review corrections (10 Nov 2026)
+- E00014 (OTEP-SN) and E00015 (Decidamos) downgraded to grade B.
+- data/resources.json restored to the one-entry-per-line format used on main, with only the two new Paraguayan bills added (the PR had rewritten the whole file pretty-printed, 5,900 changed lines).
