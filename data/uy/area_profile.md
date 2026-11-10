@@ -62,3 +62,7 @@ Updated through legislative records and debate expansion pass of 2026-11-09 (run
 1. Track committee report (dictamen / informe de comisión) and plenary floor votes on Carpeta 804/2022 in the Senate.
 2. Locate the primary poll release / tables from Usina de Percepción Ciudadana (August 2025).
 3. Follow the Frente Amplio 2027 tax reform working groups on high-net-worth and offshore asset taxation.
+
+## Review corrections (10 Nov 2026)
+- Dropped E00032 (Andrés Cabrera) and E00041 (Alberto Couriel): the first says strengthening the housing fund is necessary and treats the surcharge only as "some other instrument"; the second says nothing about a wealth tax.
+- Downgraded E00037 (Rafael Michelini) and E00038 (Enrique Rubio) to grade B: both explain the 2013 agricultural bill and its thresholds, with no roll call, so support is inferred.
