@@ -90,6 +90,7 @@ The rest of the skill is split into files under `references/`. The section numbe
 | 6.11 | Without code | [references/research-run.md](references/research-run.md) |
 | 6.12 | Leads from outside the area | [references/research-run.md](references/research-run.md) |
 | — | Before you open the pull request (checklist) | [references/pre-pr-checklist.md](references/pre-pr-checklist.md) |
+| — | Scanning Bluesky for supporters the other scans miss | [references/bluesky-scan.md](references/bluesky-scan.md) |
 | — | Refreshing seats after an election | [references/election-refresh.md](references/election-refresh.md) |
 | 7 | Export | [references/export-and-pitfalls.md](references/export-and-pitfalls.md) |
 | 8 | Things that went wrong before (avoid them) | [references/export-and-pitfalls.md](references/export-and-pitfalls.md) |
