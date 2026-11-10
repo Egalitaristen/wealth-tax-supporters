@@ -81,3 +81,14 @@ Second pass (1 November 2026): no wealth-tax bill (druk) found in the Sejm datab
 
 - Removed the seven Razem MPs (Zandberg, Konieczny, Zawisza, Matysiak, Gosek-Popiołek, Olko, Wicha): their only evidence was co-signing Sejm interpellation no. 2117 of 18 March 2024, which is about the VAT rate on food and mentions taxes on capital, property and high incomes in one general sentence; that is not a wealth-tax statement (exclusions X0023-X0029; their seat positions and profile rows went with them). The PR text described wealth-tax bills and brackets for these MPs that are not in the data; look for the Razem bill or their own statements.
 - Regraded E00322 (Ikonowicz op-ed) from A to B: a rhetorical question, not a proposal.
+
+## Razem members with seats (R011, 2026-11-10)
+
+Searched in Polish for own statements by Razem MPs, Wspólne Jutro MPs and Lewica leaders (queries Q0071-Q0081).
+
+- Added Adrian Zandberg (A0307, grade B): RMF FM interview of 18 June 2025, calls Poland's lack of taxes on 'wielkich majątków, gigantycznych majątków' a gap against European countries. X0023 removed.
+- Konieczny, Zawisza, Matysiak, Gosek-Popiołek, Olko, Wicha, Stożek, Owca stay excluded: their public tax statements concern the third-flat anti-speculation tax, cadastral and vacant-dwelling taxes, which are property taxes. Zandberg's own 2019 Oxfam comment and his 2025 presidential programme (third-flat tax, donation cap) do not add wealth-tax evidence.
+- Lewica leaders Gawkowski, Trela, Biejat added as exclusions (X0030-X0032): digital and housing taxes only.
+- No Razem city or regional councillor, MEP or senator with a quotable wealth-tax statement was found; Razem city initiatives (Warsaw, Wrocław, Gdańsk, Poznań) are about property tax rates on speculative flats.
+- Not done: the Sejm API (api.sejm.gov.pl) refused connections throughout this run, so stenograms for terms 9 and 10 were not searched for the exact phrases. This is the main open gap.
+- The rp.pl page could not be archived (archive lookup was blocked); the quote is in the free text of the page.
