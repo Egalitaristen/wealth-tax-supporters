@@ -57,5 +57,6 @@
 
 ## 10. Plan for the next runs
 - **R003 completed:** Closed lead L0002 (Tax Reform Committee 2016 Report) as rejected; verified labor union leadership (GTUC, FITUG, GAWU, GPSU) and academic economists (Odle, T. Singh, Constantine, Khemraj), adding exclusions X0007 and X0008.
-- **Future monitoring:** Monitor ongoing implementation of the individual property tax exemption in Year of Assessment 2026 and any legislative reactions in the Thirteenth Parliament.
+- **R004 completed:** Created legislative records guide (`skill/references/records/gy.md`); catalogued 4 official legislative documents in `documents.csv`; screened civil society transparency watchdog TIGI and excluded former Finance Minister Winston Jordan (X0009).
+- **Future monitoring:** Monitor upcoming 2025/2026 general election manifestos and any evaluation by GRA on Section 6(y) revenue impacts.
 - **R005:** Track civil society reactions to oil-driven wealth inequality.
