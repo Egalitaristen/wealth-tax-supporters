@@ -494,6 +494,9 @@ a.hb:hover .hb-bar i { background: var(--signal); }
 .principles > div { padding: 24px 28px 8px 0; }
 .principles > div + div { padding-left: 28px; border-left: 1px solid var(--rule); }
 .principles h3 { font: 400 30px/1.05 var(--serif); margin: 10px 0 12px; }
+.principles.six > div:nth-child(3n+1) { padding-left: 0; border-left: 0; }
+.principles.six > div:nth-child(n+4) { border-top: 1px solid var(--rule); margin-top: 16px; padding-top: 24px; }
+.principles.six h3 { font-size: 26px; }
 .principles p { color: var(--ink-2); font-size: 15px; }
 .grades { display: grid; gap: 10px; margin: 6px 0 14px; font-size: 14.5px; }
 .grades div { display: flex; gap: 10px; align-items: baseline; }

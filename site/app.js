@@ -273,23 +273,33 @@ function filterBar(root, onChange) {
   panel.addEventListener('click', e => { if (e.target.closest('[data-clear]')) { $$('select', panel).forEach(s => { s.value = ''; }); sync(); onChange(); } });
   return get;
 }
-function attachSearch(input, box, {onOpen = () => {}, onClose = () => {}, filters = () => ({})} = {}) {
-  let act = -1;
+// Enter opens the directory filtered by what was typed. Only when the reader has moved to a result with the arrow keys does Enter open that result instead.
+function goDirectory(q, f = {}) {
+  const u = new URLSearchParams({q: q.trim()});
+  ['country', 'type', 'grade'].forEach(k => { if (f[k]) u.set(k, f[k]); });
+  go('/directory?' + u);
+}
+function attachSearch(input, box, {onOpen = () => {}, onClose = () => {}, onGo = () => {}, filters = () => ({})} = {}) {
+  let act = -1, moved = false;
   const items = () => $$('.ritem', box);
   const setAct = i => { const it = items(); act = Math.max(-1, Math.min(it.length - 1, i)); it.forEach((el, j) => el.classList.toggle('act', j === act)); if (it[act]) it[act].scrollIntoView({block: 'nearest'}); };
   const update = async () => {
     const S = await searchData(), q = input.value;
     const res = runSearch(S, q, filters());
     box.innerHTML = resultsHtml(S, res, q);
-    box.hidden = !res; act = -1;
+    box.hidden = !res; act = -1; moved = false;
     if (res) { setAct(0); onOpen(); } else onClose();
   };
   input.addEventListener('input', update);
   input.addEventListener('focus', () => { searchData(); if (input.value.trim()) update(); });
   input.addEventListener('keydown', e => {
-    if (e.key === 'ArrowDown') { e.preventDefault(); setAct(act + 1); }
-    else if (e.key === 'ArrowUp') { e.preventDefault(); setAct(act - 1); }
-    else if (e.key === 'Enter') { const it = items()[act] || items()[0]; if (it) { e.preventDefault(); it.click(); } }
+    if (e.key === 'ArrowDown') { e.preventDefault(); moved = true; setAct(act + 1); }
+    else if (e.key === 'ArrowUp') { e.preventDefault(); moved = true; setAct(act - 1); }
+    else if (e.key === 'Enter') {
+      const it = items()[act];
+      if (moved && it) { e.preventDefault(); it.click(); }
+      else if (input.value.trim()) { e.preventDefault(); onGo(); goDirectory(input.value, filters()); }
+    }
   });
   return update;
 }
@@ -302,7 +312,7 @@ function openPalette(q = '') {
 }
 function closePalette() { if (!pal.hidden) pal.hidden = true; }
 let palFilters = () => ({});
-const palUpdate = attachSearch(palQ, palRes, {onClose: () => { palRes.hidden = false; palRes.innerHTML = ''; }, filters: () => palFilters()});
+const palUpdate = attachSearch(palQ, palRes, {onClose: () => { palRes.hidden = false; palRes.innerHTML = ''; }, onGo: () => closePalette(), filters: () => palFilters()});
 palFilters = filterBar($('#pal-f'), () => { palRes.hidden = false; palUpdate(); });
 $('#open-search').addEventListener('click', () => openPalette());
 ['pointerenter', 'touchstart', 'focus'].forEach(ev => $('#open-search').addEventListener(ev, () => searchData(), {once: true, passive: true}));
@@ -521,14 +531,20 @@ async function home(W) {
   const whoRows = typeRows.slice(0, 5).map(([k, v]) => [k, label(TYPES_PL, k), v]);
   if (typeRows.length > 5) whoRows.push(['', 'Other types', typeRows.slice(5).reduce((n, [, v]) => n + v, 0)]);
   const whoMax = Math.max(1, ...whoRows.map(r => r[2]));
-  const tries = ['Leeds', 'California', 'Stockholm', 'economists', 'unions'];
+  // A different set of suggestions on every visit, from words that all return people: places, roles, organisations and a few famous names.
+  // The search reads roles and descriptions too, so these show that it is not only names and categories.
+  const pick = (a, n) => { const b = a.slice(); for (let i = b.length - 1; i > 0; i--) { const j = Math.floor(Math.random() * (i + 1)); [b[i], b[j]] = [b[j], b[i]]; } return b.slice(0, n); };
+  const tries = [...pick(['Leeds', 'California', 'Stockholm', 'Catalonia', 'Bavaria', 'Quebec'], 1),
+    ...pick(['CEO', 'mayor', 'councillor', 'senator', 'professor', 'journalist', 'founder', 'author', 'lawyer', 'historian', 'student', 'governor', 'philanthropist', 'entrepreneur', 'MEP', 'musician'], 2),
+    ...pick(['Oxfam', 'Greenpeace', 'Attac', 'Greens', 'Podemos', 'Labour', 'think tank', 'trade union', 'foundation', 'charity', 'youth wing'], 2),
+    ...pick(['Nobel', 'millionaire', 'Zucman', 'Piketty', 'economists'], 1)];
   main.innerHTML = `
   <section class="wrap hero fade">
     <div class="kicker">An open, sourced register · <b>${cs.length} ${cs.length === 1 ? 'country' : 'countries'} so far</b> · updated ${esc(latest)}</div>
     <div class="hero-grid">
       <div>
         <h1>Who backs a wealth tax <em>near you?</em></h1>
-        <p class="lede">${fmt(tot('supporters'))} public figures and organisations on the record, found so far: politicians, economists, unions, campaigners and millionaires. A register of who has said it in public, not a poll. Every name links to the source.</p>
+        <p class="lede">${fmt(tot('supporters'))} public figures and organisations in ${cs.length} countries who back a wealth tax on the record, from heads of government to local councillors, economists to union leaders, campaigners to billionaires. Not a poll: every name comes with the statement, vote or letter it rests on.</p>
         <div class="big-search">
           <div class="box">
             <svg viewBox="0 0 20 20" aria-hidden="true"><circle cx="8.5" cy="8.5" r="5.5"/><path d="M13 13l4.5 4.5"/></svg>
@@ -556,7 +572,7 @@ async function home(W) {
   ${cs.some(c => (c.polls || []).length) ? `<section class="sec opinion"><div class="wrap">
     <div class="sec-head"><div><div class="kicker">Public opinion</div><h2>Most people <em>already agree</em></h2></div>
       <p>The register counts who has said it in public. Polls show how many more agree. Each figure is for the design the poll asked about.</p></div>
-    <div class="polls home">${cs.filter(c => (c.polls || []).length).slice(0, 3).map(c => { const p = c.polls[0]; return `<div class="poll">
+    <div class="polls home">${pick(cs.filter(c => (c.polls || []).length), 3).map(c => { const p = c.polls[Math.floor(Math.random() * c.polls.length)]; return `<div class="poll">
       <div class="poll-fig"><b>${esc(pollFig(p))}</b><span>${flag(c.slug)}${esc(c.name)}</span></div>
       <div class="poll-body"><p>back ${esc(p.question.replace(/^./, x => x.toLowerCase()))}.</p>
         <div class="poll-meta">${ext(p.url, esc(pollSource(p)) + ' ↗')} · <a href="/${c.slug}/method#polls">all polls</a></div></div>
@@ -591,27 +607,25 @@ async function home(W) {
   </div></section>
 
   <section class="sec"><div class="wrap">
-    <div class="sec-head"><div><div class="kicker">How it works</div><h2>Sourced, graded, <em>open</em></h2></div></div>
-    <div class="principles">
-      <div><div class="kicker">01</div><h3>Sourced</h3><p>Nobody is listed on opinion or rumour. Each entry rests on a public statement, vote, motion or letter, quoted word for word and linked to where it was said.</p></div>
-      <div><div class="kicker">02</div><h3>Graded</h3>
+    <div class="sec-head"><div><div class="kicker">How it works</div><h2>No source, <em>no entry</em></h2></div>
+      <p>The same rules bind the researchers and the automatic checks. <a href="/method">Read the full method →</a></p></div>
+    <div class="principles six">
+      <div><div class="kicker">01</div><h3>An actual wealth tax</h3><p>A tax on what people own, not on what they earn or sell. Higher income tax, capital gains and inheritance taxes, mansion taxes and "tax the rich" slogans do not count on their own.</p></div>
+      <div><div class="kicker">02</div><h3>Their own words</h3><p>Each person is listed for something they said or did themselves: a vote, a bill, a speech, a signed letter. A party's manifesto lists the party, not every member.</p></div>
+      <div><div class="kicker">03</div><h3>Quoted and linked</h3><p>Every statement is quoted word for word, dated and linked to where it was said, with an archived copy if the page disappears. Quotes are checked against the page automatically.</p></div>
+      <div><div class="kicker">04</div><h3>Graded by strength</h3>
         <div class="grades">${['A', 'B', 'C'].map(g => `<div>${glyph(g)}<span><b>${GRADE[g]}</b> · ${esc(GRADE_LONG[g].split(': ').pop().replace(/^./, c => c.toLowerCase()))}</span></div>`).join('')}</div>
-        <p>Only an actual tax on wealth counts. Higher income or capital gains taxes alone do not.</p></div>
-      <div><div class="kicker">03</div><h3>Open</h3><p>The data is free to reuse under CC BY 4.0, with CSV downloads for every country. Anyone can report an error, on the site or in public on GitHub, and it is fixed in the open.</p><p><a href="/method">Read the method →</a></p></div>
+        <p>One vote or signed letter makes someone Explicit, however many weaker statements they have.</p></div>
+      <div><div class="kicker">05</div><h3>AI searches, people check</h3><p>An AI workflow does the searching, in each language, to written rules. Every change is reviewed in a public pull request before it goes live, and the checks are public too.</p></div>
+      <div><div class="kicker">06</div><h3>Open and corrected in public</h3><p>Free to reuse under CC BY 4.0, with CSV downloads for every country. Anyone listed can ask to be removed or corrected. An empty place on the map means nobody recorded yet, never that nobody supports it.</p></div>
     </div>
-  </div></section>
-
-  <section class="wrap" style="padding:8px var(--gut) 40px"><div class="cta">
-    <div><div class="kicker" style="color:inherit;opacity:.6">Contribute</div><h2 style="margin-top:12px">Your country isn't <em>on the map</em> yet?</h2>
-      <p>Registers are built country by country with an open research workflow. Start one for your country, or help check the entries that are already here.</p></div>
-    <div class="acts"><a class="btn" href="/contribute">Start a country</a><a class="btn ghost" href="/method">How it's built</a></div>
   </div></section>`;
 
   const hq = $('#hq'), hres = $('#hres');
   let hfilters = () => ({});
   const hupdate = attachSearch(hq, hres, {filters: () => hfilters()});
   hfilters = filterBar($('#hf'), () => { hres.hidden = false; hupdate(); });
-  $('#hgo').addEventListener('click', () => { if (hq.value.trim()) { const first = $('.ritem', hres); if (first) first.click(); else hq.focus(); } else hq.focus(); });
+  $('#hgo').addEventListener('click', () => { if (hq.value.trim()) goDirectory(hq.value, hfilters()); else hq.focus(); });
   $$('[data-try]').forEach(b => b.addEventListener('click', () => { hq.value = b.dataset.try; hq.dispatchEvent(new Event('input')); hq.focus(); }));
   const outside = e => { if (!e.target.closest('.big-search, .try')) hres.hidden = true; };
   document.addEventListener('click', outside);
