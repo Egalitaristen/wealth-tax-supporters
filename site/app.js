@@ -1800,21 +1800,39 @@ async function globalDirectory(W, params) {
 // ---------- the bracket calculator ----------
 // Every preset is a scheme the register documents with a source (data/resources.json); `src` is the page the scale was read from.
 const CALC_PRESETS = [
-  {id: 'es', label: 'Spain: solidarity tax on large fortunes', cur: 'EUR', mode: 'm', rows: [[3700000, 1.7], [6047998.03, 2.1], [11395996.06, 3.5]],
+  {id: 'es', label: 'Spain: solidarity tax (in force)', cur: 'EUR', rows: [[3700000, 1.7], [6047998.03, 2.1], [11395996.06, 3.5]],
     note: 'In force since 2022. The law taxes the base after a €700,000 exemption, in bands from €3,000,000 at 1.7%, 2.1% and 3.5%; the thresholds here add the €700,000 back, so they apply to net wealth. The regional wealth tax paid can be deducted, which this ignores.',
     src: ['https://www.boe.es/eli/es/l/2022/12/27/38', 'Ley 38/2022, art. 3 and the scale']},
-  {id: 'us', label: 'US: Ultra-Millionaire Tax Act (Warren)', cur: 'USD', mode: 'm', rows: [[50000000, 2], [1000000000, 3]],
-    note: 'A bill of 2021 that lapsed: 2% on net worth between $50 million and $1 billion, 3% above $1 billion (6% in a year when a Medicare for All law is in effect, not shown).',
-    src: ['https://www.govinfo.gov/content/pkg/BILLS-117hr1459ih/html/BILLS-117hr1459ih.htm', 'H.R. 1459, section 2901']},
-  {id: 'zu', label: 'Zucman: 2% minimum on billionaires', cur: 'USD', mode: 'w', rows: [[1000000000, 2]],
-    note: 'Proposed to the G20: billionaires pay at least 2% of their whole wealth a year, counting the income tax they already pay. Shown here as 2% of all wealth with no income tax paid, so it is the top of the range. The report itself notes the jump at $1 billion and considers a lower starting point.',
-    src: ['https://gabriel-zucman.eu/files/report-g20.pdf', 'A blueprint for a coordinated minimum effective taxation standard, section 2.1']},
-  {id: 'ca', label: 'California Proposition 40 (one-off)', cur: 'USD', mode: 'w', rows: [[1000000000, 5]],
-    note: 'A one-time tax on the net worth of California residents on 1 January 2026 with more than $1 billion; real estate and most pensions are excluded. The ballot summary says “up to 5%”; the analysis describes 5% of net worth. A single payment, not a yearly tax.',
-    src: ['https://vig.cdn.sos.ca.gov/2026/general/pdf/prop40-title-summ-analysis.pdf', 'Title and summary, Legislative Analyst']},
-  {id: 'no', label: 'Norway: state wealth tax 2026', cur: 'NOK', mode: 'm', rows: [[1900000, 0.65], [21500000, 0.75]],
+  {id: 'no', label: 'Norway: state wealth tax 2026 (in force)', cur: 'NOK', rows: [[1900000, 0.65], [21500000, 0.75]],
     note: 'In force. The state rates for a single taxpayer; couples taxed together have twice the thresholds. A municipal rate of up to 0.35% comes on top and is not included.',
     src: ['https://stortinget.no/no/Saker-og-publikasjoner/Vedtak/Vedtak/Sak/?p=104915', 'Storting tax decision for 2026, § 2-1']},
+  {id: 'co', label: 'Colombia: impuesto al patrimonio (in force)', cur: 'COP', rows: [[3771000000, 0.5], [6389628000, 1], [12517386000, 1.5]],
+    note: 'In force. The law sets the bands in UVT: 72,000, 122,000 and 239,000 at 0.5%, 1% and 1.5%. Converted at the 2026 UVT of COP 52,374 and rounded. The 1.5% band lapses after 2026.',
+    src: ['https://normograma.dian.gov.co/dian/compilacion/docs/ley_2277_2022.htm', 'Ley 2277 de 2022, articles 35 to 39']},
+  {id: 'fr', label: 'France: ISF 2013 to 2017 (repealed)', cur: 'EUR', rows: [[800000, 0.5], [1300000, 0.7], [2570000, 1], [5000000, 1.25], [10000000, 1.5]],
+    note: 'The last scale of the impôt de solidarité sur la fortune, repealed in 2017. Households owed the tax once they passed €1.3 million, with a discount smoothing the step; this shows the bands without the discount.',
+    src: ['https://www.strategie-plan.gouv.fr/files/files/Publications/Rapport/fs-2023-rapport-isf-quatrieme_rapport_complet_17octobre_2.pdf', 'France Stratégie, final report on the ISF (2023)']},
+  {id: 'is', label: 'Iceland: auðlegðarskattur 2012 to 2015 (expired)', cur: 'ISK', rows: [[75000000, 1.5], [150000000, 2]],
+    note: 'The last scale for a single person; couples had double the thresholds. The tax expired after the 2014 assessment.',
+    src: ['https://www.althingi.is/altext/145/s/1830.html', 'Alþingi, finance minister’s written answer']},
+  {id: 'se', label: 'Sweden: förmögenhetsskatt 2006 (repealed)', cur: 'SEK', rows: [[1500000, 1.5]],
+    note: 'A flat 1.5% above a threshold of SEK 1.5 million for a single person (SEK 3 million for couples taxed jointly). Repealed in 2007.',
+    src: ['https://www.riksdagen.se/sv/dokument-och-lagar/dokument/svensk-forfattningssamling/lag-1997323-om-statlig-formogenhetsskatt_sfs-1997-323/', 'Lag (1997:323) om statlig förmögenhetsskatt']},
+  {id: 'in', label: 'India: Wealth-tax Act (repealed 2015)', cur: 'INR', rows: [[3000000, 1]],
+    note: '1% a year on net wealth above ₹30 lakh, but only on a short list of assets: houses, cars, jewellery, yachts, aircraft, urban land and cash above ₹50,000. Shares and deposits were outside it. Abolished in the 2015 Budget.',
+    src: ['https://www.thc.nic.in/Central%20Governmental%20Acts/Wealth-tax%20Act,%201957.pdf', 'The Wealth-tax Act, 1957, sections 2(ea), 3 and 5']},
+  {id: 'us', label: 'US: Ultra-Millionaire Tax Act (Warren)', cur: 'USD', rows: [[50000000, 2], [1000000000, 3]],
+    note: 'A bill of 2021 that lapsed and has been reintroduced since: 2% on net worth between $50 million and $1 billion, 3% above $1 billion (6% in a year when a Medicare for All law is in effect, not shown).',
+    src: ['https://www.govinfo.gov/content/pkg/BILLS-117hr1459ih/html/BILLS-117hr1459ih.htm', 'H.R. 1459, section 2901']},
+  {id: 'at', label: 'Austria: SPÖ millionaire tax (proposal)', cur: 'EUR', rows: [[1000000, 0.5], [10000000, 1], [50000000, 2]],
+    note: 'The SPÖ model for households and private foundations: 0.5% from €1 million, 1% from €10 million and 2% above €50 million. The owner-occupied home is free up to €1.5 million, which this does not model.',
+    src: ['https://www.spoe.at/millionaerssteuer-fragen-antworten/', 'SPÖ, Millionärssteuer: questions and answers']},
+  {id: 'ch', label: 'Switzerland: Green Liberal federal tax (proposal)', cur: 'CHF', rows: [[5000000, 0.33]],
+    note: 'Proposed in February 2026: 0.33% a year on net wealth above CHF 5 million, on top of the cantonal taxes every canton already levies.',
+    src: ['https://www.nau.ch/news/schweiz/glp-fordert-millionare-sollen-mehrkosten-fur-ahv-und-armee-bezahlen-67098212', 'Nau.ch, 24 February 2026']},
+  {id: 'fi', label: 'Finland: Left Alliance millionaire tax (proposal)', cur: 'EUR', rows: [[1000000, 0.5]],
+    note: 'Proposed in 2022: 0.5% a year above €1 million, with the home excluded.',
+    src: ['https://www.eduskunta.fi/pdf/TPA+25/2022', 'Motion TPA 25/2022 vp']},
 ];
 const CALC_CUR = {EUR: '€', USD: '$', GBP: '£', CHF: 'CHF '};
 const CALC_MIN = 1e6, CALC_MAX = 1e11;
@@ -1824,9 +1842,8 @@ function parseAmount(s) {
   const m = /^(\d*\.?\d+)(k|m|mn|b|bn)?$/.exec(String(s ?? '').trim().toLowerCase().replace(/[\s,_']/g, ''));
   return m ? Number(m[1]) * ({k: 1e3, m: 1e6, mn: 1e6, b: 1e9, bn: 1e9}[m[2]] || 1) : NaN;
 }
-// Tax on wealth w. Marginal: each rate applies to the slice of wealth in its band. Whole: once wealth passes a threshold, its rate applies to all of it.
+// Tax on wealth w: each rate applies to the slice of wealth in its band.
 function calcTax(rows, mode, w) {
-  if (mode === 'w') { let r = 0; for (const [t, p] of rows) if (w > t) r = p; return w * r / 100; }
   let tax = 0;
   rows.forEach(([t, p], i) => { const hi = i + 1 < rows.length ? rows[i + 1][0] : Infinity; tax += Math.max(0, Math.min(w, hi) - t) * p / 100; });
   return tax;
@@ -1837,12 +1854,12 @@ const calcPct = (x, d = 2) => x.toFixed(d);
 
 function calcPage(params) {
   setTitle('Wealth tax bracket calculator');
-  // State, restored from the query string: w (wealth), b (t:rate,t:rate), c (currency), m=w (rate on the whole of wealth).
+  // State, restored from the query string: w (wealth), b (t:rate,t:rate), c (currency).
   let wealth = parseAmount(params.get('w'));
   if (!(wealth >= 0 && wealth <= 1e15)) wealth = 15e6;
   let rows = (params.get('b') || '').split(',').map(x => x.split(':').map(Number));
   if (!rows.length || rows.some(r => r.length !== 2 || !(r[0] >= 0) || !(r[1] >= 0 && r[1] <= 100) || !isFinite(r[0])) || rows.some((r, i) => i && r[0] <= rows[i - 1][0]) || !params.get('b')) rows = [[10e6, 2]];
-  let mode = params.get('m') === 'w' ? 'w' : 'm';
+  const mode = 'm';
   let cur = (params.get('c') || 'EUR').replace(/[^\p{L}\p{N}$€£¥]/gu, '').slice(0, 5) || 'EUR';
   main.innerHTML = `
   <div class="wrap page-head calc-ph fade"><div class="kicker">Arguments · Calculator</div><h1>A high threshold means <em>nobody near it pays much.</em></h1></div>
@@ -1860,16 +1877,12 @@ function calcPage(params) {
         <span class="sr" id="cw-help">Type a number, or something like 15m or 2bn. The currency symbol is only for display; nothing is converted.</span><span class="sr" id="cc-help"></span>
 
         <h2 class="calc-h">Brackets</h2>
-        <div class="calc-modes kinds" role="radiogroup" aria-label="How the rate applies">
-          <label><input type="radio" name="mode" value="m"> Only the part above each threshold</label>
-          <label><input type="radio" name="mode" value="w"> The whole fortune once past it</label>
-        </div>
         <div class="calc-rows" id="cb"></div>
         <div class="calc-actions"><button type="button" class="btn sm ghost" id="c-add">Add a bracket</button></div>
         <p class="calc-err" id="c-err" role="alert"></p>
 
         <h2 class="calc-h">Start from a real scheme</h2>
-        <div class="calc-presets" id="cp">${CALC_PRESETS.map(p => `<button type="button" class="btn sm ghost" data-p="${p.id}" aria-pressed="false">${esc(p.label)}</button>`).join('')}</div>
+        <select class="field" id="cp" aria-label="Start from a real scheme"><option value="">Choose a scheme…</option>${CALC_PRESETS.map(p => `<option value="${p.id}">${esc(p.label)}</option>`).join('')}</select>
         <p class="fine" id="cp-note" aria-live="polite"></p>
       </div>
       <div class="calc-out">
@@ -1902,7 +1915,6 @@ function calcPage(params) {
       <div class="calc-row"><input class="field num" data-k="t" inputmode="decimal" autocomplete="off" aria-label="Bracket ${i + 1}: wealth over" value="${esc(r[0].toLocaleString('en', {maximumFractionDigits: 2}))}">
         <input class="field num" data-k="r" inputmode="decimal" autocomplete="off" aria-label="Bracket ${i + 1}: rate in percent" value="${esc(r[1])}">
         <button type="button" class="btn sm ghost" data-del="${i}" aria-label="Remove bracket ${i + 1}"${rows.length < 2 ? ' disabled' : ''}>Remove</button></div>`).join('');
-    $$('input[name=mode]').forEach(i => i.checked = i.value === mode);
   };
   // Reads the table, returns {rows, error}; marks bad fields.
   const readRows = () => {
@@ -1959,7 +1971,7 @@ function calcPage(params) {
     cs.setAttribute('aria-valuetext', money(wealth));
     const tax = calcTax(rs, mode, wealth), eff = wealth ? tax / wealth * 100 : 0, marg = calcMarginal(rs, wealth);
     const first = rs[0][0];
-    const line = tax === 0 ? (wealth > first || mode === 'w' && wealth > first ? 'This bracket has a 0% rate here, so nothing is due.' : `A fortune of ${money(wealth)} is below the first threshold of ${money(first)} and pays nothing.`)
+    const line = tax === 0 ? (wealth > first ? 'This bracket has a 0% rate here, so nothing is due.' : `A fortune of ${money(wealth)} is below the first threshold of ${money(first)} and pays nothing.`)
       : `A fortune of ${money(wealth)} pays ${money(tax)} a year, ${calcPct(eff)}% of everything it owns.`;
     res.innerHTML = `<div class="calc-stats"><div><span class="kicker">Tax per year</span><b>${esc(money(tax))}</b></div>
       <div><span class="kicker">Share of total wealth</span><b>${calcPct(eff)}%</b></div>
@@ -1971,13 +1983,13 @@ function calcPage(params) {
     ch.innerHTML = chart(rs, mode, wealth, eff);
     // The address holds the state, so the result can be shared.
     const q = new URLSearchParams({w: String(Math.round(wealth * 100) / 100), b: rs.map(r => r[0] + ':' + r[1]).join(','), c: urlCur()});
-    if (mode === 'w') q.set('m', 'w');
     history.replaceState(null, '', '/calculator?' + q.toString().replace(/%3A/g, ':').replace(/%2C/g, ','));
     $('#c-share').href = location.pathname + location.search;
-    $$('#cp button').forEach(b => { const p = CALC_PRESETS.find(x => x.id === b.dataset.p); b.setAttribute('aria-pressed', String(p.mode === mode && JSON.stringify(p.rows) === JSON.stringify(rs))); });
+    const hit = CALC_PRESETS.find(x => JSON.stringify(x.rows) === JSON.stringify(rs)); $('#cp').value = hit ? hit.id : '';
+    if (!hit) $('#cp-note').textContent = '';
   };
 
-  const load = (r, m) => { rows = r.map(x => x.slice()); mode = m; drawRows(); update(); };
+  const load = r => { rows = r.map(x => x.slice()); drawRows(); update(); };
   cw.value = wealth.toLocaleString('en', {maximumFractionDigits: 2});
   cs.value = toSlider(wealth);
   setCur(cur);
@@ -2000,11 +2012,9 @@ function calcPage(params) {
     rows = rs.map(r => r.map(x => isNaN(x) ? 0 : x)); rows.push([t ? t * 5 : 1e6, isNaN(last[1]) ? 1 : last[1] + 1]); drawRows(); update();
     const ins = $$('.calc-row [data-k=t]', cb); ins[ins.length - 1].focus();
   });
-  $$('input[name=mode]').forEach(i => i.addEventListener('change', () => { mode = i.value; update(); }));
-  $('#cp').addEventListener('click', e => {
-    const b = e.target.closest('[data-p]'); if (!b) return;
-    const p = CALC_PRESETS.find(x => x.id === b.dataset.p);
-    setCur(p.cur); load(p.rows, p.mode);
+  $('#cp').addEventListener('change', e => {
+    const p = CALC_PRESETS.find(x => x.id === e.target.value); if (!p) return;
+    setCur(p.cur); load(p.rows);
     $('#cp-note').innerHTML = `${esc(p.note)} Source: ${ext(p.src[0], esc(p.src[1]) + ' ↗')}`;
   });
 }
