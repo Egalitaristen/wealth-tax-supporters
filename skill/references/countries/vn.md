@@ -50,3 +50,11 @@ Vietnam has experienced rapid economic expansion and wealth creation over the la
 - **Legislative records:** The National Assembly portal (`quochoi.vn`) and its digital library (`thuvienso.quochoi.vn`) provide legislative texts and session agendas. Roll-call votes on wealth tax bills do not exist in Vietnam.
 - **Sub-national taxing constraints:** Local People's Councils (*Hội đồng nhân dân*) at provincial and district levels cannot enact local taxes. Sweeping local councils individually is unproductive; advocacy is strictly focused at the national level.
 - **Official GSO administrative units:** General Statistics Office of Vietnam (GSO) maintains standard codes for 63 provinces (2-digit, `01` to `96`) and 705 district-level units (3-digit, `001` to `973`). Sibling name collisions (e.g. Huyện Kỳ Anh vs. Thị xã Kỳ Anh in Hà Tĩnh) are disambiguated using official administrative prefixes (`name_with_type`).
+
+## Second pass (R004, November 2026)
+
+- Domestic Vietnamese debate uses `thuế tài sản` for property, second-home and land taxes, and `thuế thừa kế` for inheritance; searching these returns only excluded taxes. Pieces headed "đánh thuế người siêu giàu" in state media (for example *Đại biểu Nhân dân*, 2024) are rewrites of foreign articles.
+- Oxfam in Vietnam publishes Davos releases in English and Vietnamese on `vietnam.oxfam.org/latest/press-release/` and `/latest/publications/`; plain HTTP works and gives the date as "Published: ...". That site is the only domestic source of a net wealth tax position so far.
+- `oecd.org` returned 403 to a plain client. `daibieunhandan.vn`, `vneconomy.vn`, `vnexpress.net`, `vtv.vn` and `vnbusiness.vn` load fine.
+- The 16th National Assembly (elected 2026) is sitting; the register's chamber still shows the 15th.
+

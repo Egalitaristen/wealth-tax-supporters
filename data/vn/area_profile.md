@@ -67,7 +67,17 @@
 - **Liên minh Công bằng Thuế Việt Nam (VATJ):** Coalition of research institutes and CSOs advocating tax transparency and corporate tax expenditure reforms.
 - **Viện Nghiên cứu Kinh tế và Chính sách (VEPR):** Independent economic think tank under VNU University of Economics and Business; leading academic commentator on tax proposals.
 
-## 10. Plan for the next runs
-1. **Monitor legislative drafting:** Track the Ministry of Finance's forthcoming Real Estate Tax draft (*Dự thảo Luật Thuế bất động sản*) to verify if any net wealth or high-net-worth provisions are introduced.
-2. **Academic op-ed scan:** Search for individual signed commentaries and working papers by Vietnamese economists in academic journals (*Tạp chí Kinh tế & Phát triển*, *Tạp chí Tài chính*, *Tạp chí Cộng sản*).
-3. **Follow-up with VATJ / VEPR:** Review forthcoming tax justice publications and conference proceedings for explicit net wealth tax recommendations.
+## 10. Coverage after the second-pass gap search (R004, 2026-11-10)
+- **Searched (R004):** Vietnamese terms `thuế tài sản ròng`, `thuế tỷ phú`, `thuế người siêu giàu`, `đánh thuế người giàu`; deputies' remarks (query on "đại biểu Quốc hội" with these terms) and the 2025-2026 Personal Income Tax draft debates; economists and state media (VnEconomy, VnExpress, VietnamNet, Báo Đại biểu Nhân dân, VTV, Tuổi Trẻ, 24hMoney); international institutions (World Bank 2022 poverty assessment, OECD 2025 survey); Oxfam in Vietnam's back catalogue 2017-2021; regional think tanks (Prakarsa).
+- **Found:** four more Oxfam in Vietnam evidence rows (2017 B, 2018 A, 2019 A, 2020 B) and one Resources entry (Prakarsa 2023 report on a wealth tax in Indonesia, the Philippines and Vietnam). No new actor.
+- **Why no new actor:** every domestic voice found (NEU, Academy of Finance, Fulbright, VEPR, a lawyer, deputies) argues for a property, second-home, land or inheritance tax, which section 2 excludes. State media pieces on taxing the super-rich are rewrites of foreign material and are not the outlet's own editorial. Five more near-misses are in `exclusions.csv` (X0016-X0020).
+- **Not covered / blocked:** the OECD Economic Survey 2025 page answered 403 to a plain client and the World Bank assessment text was not opened, so neither is read; deputy speeches are not searchable by full text on `quochoi.vn` and were found only through press coverage; the 16th National Assembly (elected 2026, second session from 17 October 2026) is not yet loaded in `bodies.csv` and `seats.csv`, which still show the 15th (2021-2026); provincial People's Councils and Fatherland Front consultation records were not searched; Oxfam in Vietnam releases for 2022-2026 were not opened; diaspora and Vietnamese signers of international letters were only checked in R001.
+- **Checks by hand:** all four new quotes were copied from the page text downloaded in the run; `checkquotes` was run on R004.
+
+## 11. Plan for the next runs
+1. **Oxfam in Vietnam 2022-2026:** open the Davos releases and the Oxfam-VEPR tax studies for further dated rows (cheapest yield).
+2. **OECD Economic Survey of Viet Nam 2025 and World Bank reports:** read with a browser; add an `international_body` actor only if a wealth tax is recommended.
+3. **16th National Assembly:** load the 2026 chamber and seats from the official list; search the PIT, Real Estate Tax and Land debates for any deputy using `thuế tài sản ròng` or `thuế người siêu giàu`.
+4. **Monitor legislative drafting:** the Ministry of Finance's Real Estate Tax draft (*Dự thảo Luật Thuế bất động sản*), for any net wealth element.
+5. **Academic and journal scan:** signed pieces in *Tạp chí Cộng sản*, *Tạp chí Tài chính*, *Kinh tế & Phát triển*, and VJOL articles.
+6. **Provincial and Front layer:** sample two or three city People's Councils (Hà Nội, TP. Hồ Chí Minh) and Fatherland Front consultation pages; expected yield is low because they cannot levy taxes.

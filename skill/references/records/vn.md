@@ -41,7 +41,9 @@ Records guide for the National Assembly of Vietnam (*Quốc hội Việt Nam*) a
 |---|---|---|---|---|
 | 2026-11-10 | R001 | Ministry of Finance Draft Law on Property Tax dossier (April 2018) | 0 supporters; 1 institution exclusion (Bộ Tài chính) | NA plenary records (no wealth tax bill ever introduced) |
 | 2026-11-10 | R001 | CPV Resolution 18-NQ/TW on land taxation (June 2022) | 0 supporters; real estate / land holding tax reform (excluded under section 2) | Future Land Law and Property Tax implementary decrees |
+| 2026-11-10 | R004 | Press coverage of the 2025-2026 Personal Income Tax draft debates (daibieunhandan.vn, press) | 0 supporters; deputies discuss thresholds and rates only | Full plenary and committee transcripts of the 15th and 16th Assembly; Real Estate Tax draft |
 
 ## 7. Known gaps and next steps
 
 - Monitor the drafting and committee hearings of the forthcoming Real Estate Tax law (*Luật Thuế bất động sản*) scheduled to replace the Non-Agricultural Land Use Tax Law.
+- The 16th National Assembly (2026-2031) has replaced the 15th; reload the chamber and seats from the official member list.
