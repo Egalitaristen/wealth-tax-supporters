@@ -1,0 +1,4 @@
+seat_id,body_id,party,seats,colour,order
+S0001,B0001,PPP/C,33,cc0000,1
+S0002,B0001,Joinder List,1,888888,2
+S0003,B0001,APNU+AFC,31,008000,3
