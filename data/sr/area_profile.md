@@ -15,7 +15,9 @@
   - *Bracket Creep & Inflation:* Rapid currency depreciation and inflation severely eroded the real value of the statutory threshold (SRD 100,000), technically pulling ordinary homeowners into the tax net while the ultra-rich shelter their assets.
   - *2017 Parliamentary & Tax Debate:* NDP MP Amzaad Abdoel and tax consultant Roy Shyamnarain publicly criticized the Bouterse government for neglecting wealth tax collection (collecting under 5M SRD while over $1B sat in private bank accounts) while resorting to regressive fuel surcharges (*government take*).
   - *2021 Legal Analysis:* Jurist Carlo Jadnanansing published a prominent analysis reminding the public that Suriname has had a wealth tax since 1944, demonstrating that the state forfeits substantial revenue by failing to enforce it and urging the closing of the real estate foundation loophole.
-  - *2024–2025 VAT vs. Wealth Tax Clash:* During parliamentary debates on the Tax Identification Number and VAT (*BTW*), BEP leader Ronny Asabina criticized the Santokhi administration for relying heavily on consumption taxes and wage taxes instead of wealth taxation. Finance Minister Stanley Raghoebarsing opposed wealth taxation, questioning whether the solidarity principle should compel hard-working individuals to share their wealth with the less industrious.
+  - *2023 National Budget Scrutiny:* During the plenary debate on the 2023 national budget, NPS MP Patricia Etnel attacked the government for projecting a token SRD 8.1M in annual wealth tax revenue while imposing austerity and subsidy cuts on ordinary citizens. She highlighted that at least 8,000 wealthy families and commercial companies in Suriname pay virtually zero wealth tax due to non-enforcement.
+  - *2024 Economic Association Analysis (VES):* In formal state consultations with a Dutch parliamentary delegation in Paramaribo (documented in Kamerstuk 36 572, nr. 1), VES Chairman Steven Debipersad identified the poor functioning of the tax office and the reality that "virtually no wealth tax is paid" as major structural impediments holding back Suriname's economic growth.
+  - *2024–2025 VAT vs. Wealth Tax Clash:* During parliamentary debates on the Tax Identification Number and VAT (*BTW*), BEP leader Ronny Asabina criticized the Santokhi administration for relying heavily on consumption taxes and wage taxes instead of wealth taxation. Finance Minister Stanley Raghoebarsing opposed wealth taxation, questioning whether the solidarity principle should compel hard-working individuals to share their wealth with the less industrious. Earlier in 2022 APB debates, Asabina had highlighted that the existing 1944 statute was toothless and yielded less than $400,000, calling for either radical enforcement on the rich or shifting to easier-to-collect vehicle taxes; by 2024–2025, BEP formally integrated equitable wealth taxation into its core platform.
   - *2025 Union Proposals (Ravaksur):* Union confederation Ravaksur formally demanded in collective bargaining (April 2025) raising the wealth tax exemption threshold from SRD 100,000 to SRD 1,600,000 to protect ordinary working families. In June 2025, Ravaksur spokesperson and economist Armand Zunder proposed amending the law to encompass legal entities (foundations and holding companies), estimating an annual revenue potential of at least 500 million SRD.
 
 ## 3. Legislatures and where their records are
@@ -29,7 +31,8 @@
 - **BEP (Broederschap en Eenheid in de Politiek):** Parliamentary opposition party (2 seats). Led by Ronny Asabina. Its 2025 economic platform calls for progressive wealth taxation alongside consumption tax reform to achieve wealth redistribution.
 - **PRO (Partij voor Recht en Ontwikkeling):** Reformist party founded in 2018. In its 2024 Labour Day declaration, PRO called for a "thorough wealth tax" (*gedegen vermogensbelasting*) alongside mining revenue enforcement to tackle rising inequality.
 - **NDP (Nationale Democratische Partij):** Former ruling party, major opposition party (16 seats). MP Amzaad Abdoel championed wealth tax collection in DNA plenary in 2017.
-- **VHP (Vooruitstrevende Hervormings Partij):** Largest governing party (20 seats), led by President Chan Santokhi. Finance Minister Stanley Raghoebarsing publicly opposed implementing or expanding wealth taxes in 2024.
+- **NPS (Nationale Partij Suriname):** Historical parliamentary party (3 seats in 2020–2025 term). Prominent MP Patricia Etnel strongly challenged government undercollection of the wealth tax during the 2023 budget plenary debate.
+- **VHP (Vooruitstrevende Hervormings Partij):** Largest governing party (20 seats), led by President Chan Santokhi. Finance Minister Stanley Raghoebarsing publicly opposed implementing or expanding wealth taxes in 2024. Faction leader Asiskumar Gajadien mentioned wealth tax in budget debates but prioritized tax exemptions for holding companies (excluded as X0003).
 
 ## 5. Government below national level
 - **Districts (Districten):** 10 districts (Paramaribo, Wanica, Nickerie, Coronie, Saramacca, Commewijne, Marowijne, Para, Brokopondo, Sipaliwini). Each governed by an appointed District Commissioner (*Districtscommissaris*) and an elected District Council (*Districtsraad*).
@@ -57,11 +60,12 @@
 
 ## 9. Known networks
 - **Ravaksur (Raad van Vakcentrales in Suriname):** National trade union umbrella confederation comprising C-47, De Moederbond, CLO, PWO, BvL/FOLS, and OSAV. Actively campaigning for wealth tax threshold adjustments and closing corporate loopholes.
-- **VES (Vereniging van Economisten in Suriname):** Leading economic professional association frequently critiquing fiscal policy, regressive consumption taxation, and the underperformance of wealth taxation.
+- **VES (Vereniging van Economisten in Suriname):** Leading economic professional association frequently critiquing fiscal policy, regressive consumption taxation, and the underperformance of wealth taxation. Led by Steven Debipersad.
 
 ## 10. Plan for the next runs
+- **R002 Accomplishments:** Added 3 actors (Patricia Etnel / NPS, Steven Debipersad, and the Vereniging van Economisten in Suriname - VES) and 3 Grade A evidence rows from national parliamentary budget debates and official state consultations (Kamerstuk 36 572, nr. 1). Excluded Asiskumar Gajadien (X0003). Documented the debate around the SRD 8.1M budget allocation for wealth tax.
 - **Next priorities (ordered by expected yield per turn):**
-  1. *Parliamentary budget reviews & tax reform bills:* Follow DNA debates on the annual national budget and the Algemene Wet Belastingen package for additional MP statements.
-  2. *Ravaksur collective bargaining outcomes:* Track formal union tripartite negotiations regarding the proposed increase of the wealth tax threshold to SRD 1.6M and expansion to corporate entities.
-  3. *Party manifestos:* Examine published 2025/2026 election manifestos of all DNA parties (NDP, NPS, PALU, DA'91, ABOP) for wealth tax clauses.
-  4. *VES research papers:* Review future issues of *VES Inzicht* for articles and proposals on capital and wealth taxation in the context of post-IMF structural reforms.
+  1. *Tripartite bargaining outcomes:* Track ongoing negotiations between Ravaksur and the Santokhi/future administration on the proposed SRD 1.6M exemption threshold and legal entity wealth taxation.
+  2. *Upcoming 2026 election manifestos:* Systematically examine published programs of DNA parties (NDP, NPS, BEP, PRO, PALU, VHP, ABOP) for wealth tax clauses.
+  3. *De Nationale Assemblée legislative records:* Review verbatim minutes of the Algemene Wet Belastingen (AWB) committee once fully enacted.
+  4. *VES research:* Track upcoming issues of *VES Inzicht* for technical wealth tax reform designs.
