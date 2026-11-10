@@ -23,7 +23,7 @@ const ext = (href, text, cls = '') => `<a class="${cls}" href="${esc(href)}" tar
 
 const TYPE = {politician: 'Politician', party: 'Party', government_body: 'Council or public body', academic: 'Academic', economist: 'Economist', think_tank: 'Think tank', ngo_campaign: 'Campaign group', union: 'Union', union_official: 'Union official', journalist: 'Commentator', media_outlet: 'Media outlet', legal_tax_professional: 'Legal or tax expert', wealthy_individual: 'Wealthy individual', business_leader: 'Business leader', faith: 'Faith leader or body', cultural_figure: 'Cultural figure', campaigner: 'Campaigner', international_body: 'International body', funder: 'Funder'};
 const TYPES_PL = {politician: 'Politicians', party: 'Parties', government_body: 'Councils and bodies', academic: 'Academics', economist: 'Economists', think_tank: 'Think tanks', ngo_campaign: 'Campaign groups', union: 'Unions', union_official: 'Union officials', journalist: 'Commentators', media_outlet: 'Media outlets', legal_tax_professional: 'Legal and tax experts', wealthy_individual: 'Wealthy individuals', business_leader: 'Business leaders', faith: 'Faith', cultural_figure: 'Cultural figures', campaigner: 'Campaigners', international_body: 'International bodies', funder: 'Funders'};
-const DES = {annual_net_wealth: 'Annual net wealth tax', one_off_levy: 'One-off wealth levy', billionaire_minimum: 'Billionaire minimum tax', unrealised_gains: 'Tax on unrealised gains', exit_tax: 'Exit tax', partial_wealth: 'Partial wealth tax', defend_existing: 'Keep an existing wealth tax', wealth_tax_unspecified: 'A wealth tax, design open'};
+const DES = {annual_net_wealth: 'Annual net wealth tax', one_off_levy: 'One-off wealth levy', billionaire_minimum: 'Billionaire minimum tax', unrealised_gains: 'Tax on unrealised gains', partial_wealth: 'Partial wealth tax', defend_existing: 'Keep an existing wealth tax', wealth_tax_unspecified: 'A wealth tax, design open'};
 const EVT = {open_letter: 'Open letter', motion_signature: 'Signed a motion', motion: 'Motion', vote: 'Vote', campaign: 'Campaign', op_ed: 'Op-ed', editorial: 'Editorial', speech: 'Speech', statement: 'Statement', policy_adoption: 'Adopted policy', publication: 'Publication', report: 'Report', funding: 'Funding', coalition_membership: 'Coalition member', interview: 'Interview', manifesto: 'Manifesto', bill_sponsorship: 'Bill sponsor', testimony: 'Testimony', social_post: 'Social post', petition: 'Petition', other: 'Other'};
 const PLAT = {official_page: 'Official page', website: 'Website', x: 'X', bluesky: 'Bluesky', mastodon: 'Mastodon', instagram: 'Instagram', facebook: 'Facebook', youtube: 'YouTube', tiktok: 'TikTok', linkedin: 'LinkedIn', substack: 'Substack', wikipedia: 'Wikipedia'};
 const GRADE = {A: 'Explicit', B: 'Named', C: 'Implied'};
@@ -1587,7 +1587,6 @@ const DES_NOTE = {
   one_off_levy: 'a single charge on net wealth',
   billionaire_minimum: 'a minimum tax, as a share of wealth, for the very rich',
   unrealised_gains: 'a yearly tax on gains that have not been sold yet',
-  exit_tax: 'a charge on wealth or gains when the wealthy emigrate',
   partial_wealth: 'a recurring tax on a broad class of assets, such as financial assets',
   defend_existing: 'opposing the repeal of a wealth tax, or backing a higher rate',
   wealth_tax_unspecified: '"we need a wealth tax", with no design given',
