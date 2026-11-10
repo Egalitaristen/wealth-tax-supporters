@@ -1,0 +1,25 @@
+profile_id,actor_id,platform,url,source,checked
+P00001,A0005,website,https://ictd.ac/people/max-gallien/,actors.csv website column,2026-11-10
+P00002,A0006,website,https://ictd.ac/people/vanessa-van-den-boogaard/,actors.csv website column,2026-11-10
+P00003,A0007,website,https://ictd.ac,actors.csv website column,2026-11-10
+P00004,A0009,website,https://www.iba.edu.pk,actors.csv website column,2026-11-10
+P00005,A0012,website,https://finance.gov.pk,actors.csv website column,2026-11-10
+P00006,A0001,x,https://x.com/MIshaqDar50,Wikidata Q3155254,2026-11-10
+P00007,A0001,wikipedia,https://en.wikipedia.org/wiki/Ishaq_Dar,Wikidata Q3155254,2026-11-10
+P00008,A0002,x,https://x.com/asad_umar,Wikidata Q4803224,2026-11-10
+P00009,A0002,facebook,https://www.facebook.com/AsadUmarOfficial,Wikidata Q4803224,2026-11-10
+P00010,A0002,wikipedia,https://en.wikipedia.org/wiki/Asad_Umar,Wikidata Q4803224,2026-11-10
+P00011,A0007,wikipedia,https://en.wikipedia.org/wiki/International_Centre_for_Tax_and_Development,Wikidata Q21716350,2026-11-10
+P00012,A0009,wikipedia,https://en.wikipedia.org/wiki/S._Akbar_Zaidi,Wikidata Q86097899,2026-11-10
+P00013,A0016,website,https://mqmpakistan.org,actors.csv website column,2026-11-10
+P00014,A0018,website,https://pakistan.oxfam.org,actors.csv website column,2026-11-10
+P00015,A0015,wikipedia,https://en.wikipedia.org/wiki/Farooq_Sattar,Wikidata Q5436154,2026-11-10
+P00016,A0019,website,https://jamaat.org,actors.csv website column,2026-11-10
+P00017,A0020,website,https://jamaat.org,actors.csv website column,2026-11-10
+P00018,A0021,website,https://senate.gov.pk,actors.csv website column,2026-11-10
+P00019,A0022,website,https://saape.org,actors.csv website column,2026-11-10
+P00020,A0019,x,https://x.com/jipofficial,Wikidata Q1475103,2026-11-10
+P00021,A0019,facebook,https://www.facebook.com/JIPOfficial,Wikidata Q1475103,2026-11-10
+P00022,A0019,wikipedia,https://en.wikipedia.org/wiki/Jamaat-e-Islami_Pakistan,Wikidata Q1475103,2026-11-10
+P00023,A0020,wikipedia,https://en.wikipedia.org/wiki/Hafiz_Naeem_ur_Rehman,Wikidata Q98105883,2026-11-10
+P00024,A0021,wikipedia,https://en.wikipedia.org/wiki/Sughra_Imam,Wikidata Q7660472,2026-11-10

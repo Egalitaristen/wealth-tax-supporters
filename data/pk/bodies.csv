@@ -1,0 +1,3 @@
+body_id,name,level,kind,seats,as_of,source_url,seat_view,notes
+B0001,National Assembly,national,chamber,336,2024,https://na.gov.pk,,"Lower house of the Parliament of Pakistan (Majlis-e-Shoora), composed of 336 seats (266 general, 60 reserved for women, 10 reserved for non-Muslims)."
+B0002,Senate,national,chamber,96,2024,https://senate.gov.pk,,"Upper house of the Parliament of Pakistan, composed of 96 seats representing provinces and the federal capital."

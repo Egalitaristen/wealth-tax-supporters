@@ -1,0 +1,23 @@
+{
+  "name": "Pakistan",
+  "iso2": "PK",
+  "lead": "",
+  "status": "in progress",
+  "boundaries": "boundaries.json",
+  "notes": "Depth: seed pass R001 (2026-11-10). Scope: federal legislature (Majlis-e-Shoora: National Assembly B0001 with 336 seats, Senate B0002 with 96 seats), major political parties (PML-N, PTI, HKP, JI, PPP, AWP), academic and independent economists (LUMS, IBA Karachi, PIDE, ICTD), tax bar and legal jurists (Huzaima & Ikram), think tanks (ICTD), and federal advisory bodies (Economic Advisory Council). The geography register covers Pakistan root G0001, both parliamentary chambers G0002 and G0003, all 7 provinces/regions G0004-G0010, and all 160 administrative districts G0011-G0170 based on OCHA / HDX COD-AB Pakistan (CC BY-IGO 3.0). Verified supporters include Senator and former Finance Minister Ishaq Dar (who enacted the 0.5% wealth levy under the Income Support Levy Act 2013), former Finance Minister Asad Umar (who announced wealth tax revival plans in 2018 and 2019), economist Dr. Kaiser Bengali (who proposed an emergency wealth tax on 700,000 affluent households), LUMS/ICTD researchers Dr. Umair Javed, Dr. Max Gallien, and Dr. Vanessa van den Boogaard (authors of the 2024 nationwide survey and June 2025 Dawn op-ed), IBA Karachi Executive Director Dr. S. Akbar Zaidi, HKP leader Farooq Tariq, and Supreme Court tax jurists Huzaima Bukhari and Dr. Ikramul Haq. Notable exclusions: Dr. Nadeem ul Haque and Shahid Kardar (oppose, co-authors of 'Wealth tax is a bad idea'), IMF (opposed FBR's 2024/2025 wealth tax proposal on movable assets), Dr. Hafiz A. Pasha and Dr. Atif Mian (out of definition, advocating CVT, inheritance tax, or land value taxation), Awami Workers Party manifesto (out of definition, focuses on agricultural income tax), and deceased figures Karamat Ali, Prof. Khurshid Ahmad, and Senator Mushahid Ullah Khan.",
+  "polls": [
+    {
+      "support": 42,
+      "oppose": null,
+      "scope": "Pakistan, nationwide representative sample of adults aged 18+",
+      "sample": "7,500 adults across Pakistan",
+      "url": "https://ictd.ac/publication/public-support-for-wealth-and-progressive-taxes-in-pakistan/",
+      "question": "Support for the introduction of a new general wealth tax on wealthy individuals",
+      "question_original": "",
+      "pollster": "International Centre for Tax and Development (ICTD) and Lahore University of Management Sciences (LUMS)",
+      "commissioned_by": "International Centre for Tax and Development (ICTD)",
+      "fieldwork": "2024",
+      "published": "2025-06"
+    }
+  ]
+}
