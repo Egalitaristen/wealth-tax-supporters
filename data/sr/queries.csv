@@ -1,0 +1,13 @@
+query_id,run_id,date,language,query,channel,results_opened,leads_added,note
+Q0001,R001,2026-11-10,nl,vermogensbelasting Suriname,web,4,2,Found Wet Vermogensbelasting 1944 in force and general debate
+Q0002,R001,2026-11-10,nl,vermogensbelasting site:dna.sr,web,3,1,Confirmed statutory basis and amendments in DNA archive
+Q0003,R001,2026-11-10,nl,vermogensbelasting site:waterkant.net,web,5,3,"Found Amzaad Abdoel (NDP), Roy Shyamnarain, PRO statement"
+Q0004,R001,2026-11-10,nl,vermogensbelasting site:dbsuriname.com,web,6,4,"Found Ronny Asabina (BEP), Ravaksur, Armand Zunder, Carlo Jadnanansing, Stanley Raghoebarsing (opposes)"
+Q0005,R001,2026-11-10,nl,Asabina vermogensbelasting site:sun.sr,web,3,1,Found Asabina statements on VIV and wealth tax reform
+Q0006,R002,2026-11-10,nl,Steven Debipersad vermogensbelasting OR belasting op vermogen,web,4,2,Found Dutch Tweede Kamer report on VES consultations regarding wealth tax failure
+Q0007,R002,2026-11-10,nl,site:zoek.officielebekendmakingen.nl kst-36572-1 Debipersad,web,2,1,Located official Kamerstuk 36 572 nr. 1 record for Debipersad and VES
+Q0008,R002,2026-11-10,nl,Patricia Etnel vermogensbelasting site:dbsuriname.com,web,3,1,Found 2023 budget speech by Patricia Etnel condemning token SRD 8M wealth tax collection
+Q0009,R002,2026-11-10,nl,Gajadien vermogensbelasting site:keynews.sr,web,2,1,Analyzed Gajadien budget remarks; excluded as X0003 due to pro-holding legislation
+Q0010,R002,2026-11-10,nl,Errol Snijders Moederbond vermogensbelasting,web,3,1,Investigated union proposal to replace wage tax with wealth tax
+Q0011,R003,2026-11-10,nl,DA91 vermogensbelasting Uw paspoort op weg naar de nieuwe Republiek,web,3,1,Identified DA91 platform proposal to abolish traditional wealth tax and introduce Belasting Onverklaarde Weelde (X0004)
+Q0012,R004,2026-11-10,nl,site:unitednews.sr Achaibersing vermogensbelasting,web,2,1,Found 2020 policy declaration by Finance Minister Armand Achaibersing to enforce wealth tax

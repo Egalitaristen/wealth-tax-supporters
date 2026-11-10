@@ -1,0 +1,4 @@
+position_id,actor_id,body_id,role,party,geo_unit_id,start,end,current,member_ref,checked,source_url
+O00001,A0001,B0001,Member of De Nationale Assemblée,NDP,G0011,2010,2020,n,Q17269702,2026-11-10,https://dna.sr/het-politiek-college/gewezen-leden/
+O00002,A0002,B0001,Member of De Nationale Assemblée,BEP,G0002,2020,,y,Q17269685,2026-11-10,https://dna.sr/het-politiek-college/leden/ronny-asabina/
+O00003,A0009,B0001,Member of De Nationale Assemblée,NPS,G0008,2015,2025,n,Q74245997,2026-11-10,https://dna.sr/het-politiek-college/leden/patricia-etnel/
