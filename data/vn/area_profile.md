@@ -74,7 +74,12 @@
 - **Not covered / blocked:** the OECD Economic Survey 2025 page answered 403 to a plain client and the World Bank assessment text was not opened, so neither is read; deputy speeches are not searchable by full text on `quochoi.vn` and were found only through press coverage; the 16th National Assembly (elected 2026, second session from 17 October 2026) is not yet loaded in `bodies.csv` and `seats.csv`, which still show the 15th (2021-2026); provincial People's Councils and Fatherland Front consultation records were not searched; Oxfam in Vietnam releases for 2022-2026 were not opened; diaspora and Vietnamese signers of international letters were only checked in R001.
 - **Checks by hand:** all four new quotes were copied from the page text downloaded in the run; `checkquotes` was run on R004.
 
-## 11. Plan for the next runs
+## 11. Regional-link supporters (R005, 2026-11-10)
+- **The PRAKARSA (A0002, grade A):** Indonesian think tank whose October 2023 Policy Brief 42 recommends a wealth tax policy for Indonesia, the Philippines and Vietnam and estimates Vietnam's yield at US$3.09 billion. Registered here as a supranational actor because the brief addresses the Vietnamese government; it is also A0018 in the Indonesia register.
+- **ActionAid Việt Nam (A0003, grade B):** named as endorser of the Tax and Fiscal Justice Asia open letter of 1 August 2026, which calls for targeted wealth taxation of high-net-worth individuals. Roster endorsement, so B; it moves out of `exclusions.csv` (the old X0009 row was removed). Upgrade needs ActionAid Vietnam's own statement.
+- Still no Vietnamese person or office-holder with a net wealth tax statement. The Party Central Economic Commission (2021) proposed studying higher *income* tax on the rich (X0021).
+
+## 12. Plan for the next runs
 1. **Oxfam in Vietnam 2022-2026:** open the Davos releases and the Oxfam-VEPR tax studies for further dated rows (cheapest yield).
 2. **OECD Economic Survey of Viet Nam 2025 and World Bank reports:** read with a browser; add an `international_body` actor only if a wealth tax is recommended.
 3. **16th National Assembly:** load the 2026 chamber and seats from the official list; search the PIT, Real Estate Tax and Land debates for any deputy using `thuế tài sản ròng` or `thuế người siêu giàu`.
