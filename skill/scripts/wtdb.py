@@ -17,9 +17,17 @@ Commands
   status   DIR                      counts, coverage grid, sweep progress, next targets
   export   DIR [--out FILE]         write the xlsx report
 """
-import argparse, csv, datetime as dt, difflib, json, os, re, sys, unicodedata
+import argparse, csv, datetime as dt, difflib, json, os, re, socket, sys, unicodedata
 from pathlib import Path
 from collections import Counter, defaultdict
+
+# Prefer IPv4 to avoid broken IPv6 routes to government hosts (e.g. data.riksdagen.se)
+_orig_getaddrinfo = socket.getaddrinfo
+def _ipv4_first_getaddrinfo(*args, **kwargs):
+    res = _orig_getaddrinfo(*args, **kwargs)
+    v4 = [r for r in res if r[0] == socket.AF_INET]
+    return v4 if v4 else res
+socket.getaddrinfo = _ipv4_first_getaddrinfo
 
 SCHEMA = {
     "actors": ["actor_id", "name", "kind", "actor_type", "other_types", "role", "affiliation", "party", "affiliation_actor_id", "country",
@@ -1070,11 +1078,15 @@ def cmd_merge(a):
 
 def _plain(s, tags=True):
     import html as _html
-    s = _html.unescape(re.sub(r"<[^>]+>", " ", s) if tags else s)
+    if tags:
+        s = re.sub(r"</(?:span|font)>\s*<(?:span|font)[^>]*>(?:&#xad;|&shy;|\xad|¬)?</(?:span|font)>\s*<(?:span|font)[^>]*>", "", s, flags=re.I)
+        s = re.sub(r"(?:&#xad;|&shy;|\xad|¬)", "", s)
+        s = re.sub(r"<[^>]+>", " ", s)
+    s = _html.unescape(s)
     s = unicodedata.normalize("NFKC", s).lower()
     for a_, b_ in (("‘", "'"), ("’", "'"), ("“", '"'), ("”", '"'), ("–", "-"), ("—", "-")):
         s = s.replace(a_, b_)
-    s = s.replace("\xad", "")
+    s = s.replace("\xad", "").replace("¬", "")
     return re.sub(r"\s+", " ", s).strip()
 
 

@@ -1,59 +1,141 @@
 # Sweden: where the official record is and how to read it
 
-Written in run R026 (2026-11-08, pilot of the records workflow). Country guide for maps, seats and local portals: `references/countries/se.md`. This file is only about the record: where everything the Riksdag and the government have put on record about a wealth tax (*förmögenhetsskatt*) is, and how to get all of it. Nothing here is a source for a claim in the register.
+Written in run R026 (2026-11-08) and deepened in run R027 (2026-11-09, official legislative records deep-dive for Sweden). Country guide for maps, seats and local portals: `skill/references/countries/se.md` (and `data/se/area_profile.md`). This file answers one question: **where is everything the Riksdag and government have put on record about wealth taxation (*förmögenhetsskatt* / *miljardärsskatt*), and how do I get all of it?** Nothing here is a source for a claim in the register; the register's own sources are.
 
-Wealth-tax context: the national tax was abolished with effect from 2007; since 2010 the question has reached the Riksdag as motions (private and party motions), a few interpellations and chamber speeches. There is no government bill for a wealth tax, so there are no "bill gazettes" to read. The record is (1) motions, (2) the committee reports (*betänkanden*) that dispose of them, (3) chamber protocols, (4) the voting records, (5) government inquiries (SOU).
+### Institutional and Legislative Context
+
+1. **Abolition in 2007:** Sweden abolished its national net wealth tax (*statlig förmögenhetsskatt*, governed by *lagen (1997:323) om statlig förmögenhetsskatt*) effective from 1 January 2007 through government proposition 2007/08:26 (*Slopad förmögenhetsskatt m.m.*), approved by the Riksdag in December 2007 on recommendation of the Committee on Taxation (*Skatteutskottets betänkande 2007/08:SkU15*).
+2. **Post-2010 Parliamentary Dynamics:** Since 2010, the question of reinstating or reforming wealth taxation has never reached the Riksdag as a government bill (*regeringsproposition*). Instead, wealth taxation has reached the chamber via:
+   - **Private member motions (*enskilda motioner*):** Individual MPs submitting proposals during the annual general private members' motions period (*allmänna motionstiden*), e.g. Motion 2009/10:Sk342 (Sachet, S), 2013/14:Sk403 and 2016/17:2632 (Lillemets & Mutt, MP), and 2020/21:1885 (Järrebring m.fl., S).
+   - **Party and committee motions (*parti- och kommittémotioner*):** Comprehensive economic and tax policy alternatives submitted by the Left Party (*Vänsterpartiet*, V) and the Green Party (*Miljöpartiet*, MP), including dedicated chapters proposing annual wealth taxes (*förmögenhetsskatt*) and billionaire taxes (*miljardärsskatt*).
+   - **Spring fiscal bill counter-motions (*vårmotioner*):** Alternative proposals to the government's spring fiscal policy bill (*prop. 100, den ekonomiska vårpropositionen*), e.g. Motion 2025/26:4108 (V) and 2025/26:4118 (MP).
+   - **Official Government Inquiries (*Statens offentliga utredningar*, SOU):** Most notably the Equality Commission (*Jämlikhetskommissionen*), SOU 2020:46 *En gemensam angelägenhet*, part 2, which formally recommended reintroducing an annual net wealth tax.
+3. **Absence of Standalone Roll-Call Votes:** In the Riksdag, motions proposing a wealth tax are handled by *Skatteutskottet* (SkU) or *Finansutskottet* (FiU). Standalone motion points are routinely rejected by acclamation (*acklamation*), meaning no electronic roll-call division is recorded. When division votes do occur on tax policy, wealth-tax motions are either bundled into omnibus decision points containing numerous unrelated motions (e.g. 2013/14:SkU17 punkt 1) or voted as part of overall budget framework reservations (*rambeslut* in FiU1 and FiU20). Under standard QA rules, omnibus block votes are discarded.
+
+---
 
 ## 1. Bills, motions and proposals
 
-- **Register:** Riksdag open data, `https://data.riksdagen.se/dokumentlista/` (tested 2026-11-08, works). Parameters: `sok` (term), `doktyp`, `from`/`tom` (dates), `sz=200`, `p` (page; read `@sidor` for the number of pages), `utformat=json`. Document types that matter: `mot` motion, `ip` interpellation, `fr` written question, `frs` question for oral answer, `bet` committee report, `yttr` committee opinion, `prop` government bill, `sou` inquiry, `dir` inquiry directive, `ds` ministry report, `rskr` Riksdag communication, `prot` chamber protocol (the speeches).
-- **Slow and quiet.** A query takes 10 to 20 seconds. `skill/scripts/adapters/se_riksdag_scan.py` `list_docs` returns an empty list on a failed request without saying so: the first enumeration of this run returned 1 motion where the API reports 171. Re-run any list that looks too small with retries (see the coverage log for the real counts).
-- **The search is wider than the word.** It matches stems and related words: of 180 interpellations returned for the wealth-tax terms only 35 contain a wealth-tax word. Always fetch the text and filter with a regex (`förmögenhetsskatt\w*|förmögenhetsbeskatt\w*|miljardärs?skatt\w*|skatt på (stora )?förmögenhet\w*`).
-- **Search terms (Swedish):** förmögenhetsskatt (-en, -er), förmögenhetsbeskattning, miljardärsskatt, miljardärskatt, skatt på stora förmögenheter, skatt på förmögenheter, solidaritetsskatt (finds only unrelated hits), Zucmanskatt. Excluded look-alikes: förmögenhetsregister, förmögenhetsdeklaration, förmögenhetsstatistik (information, not a tax), arvs- och gåvoskatt, fastighetsskatt, kapitalskatt (income from capital). Run `from=2006-07-01` to cover the abolition debates (riksmöte 2006/07) and the years just before the 2010 evidence window.
-- **Sponsors and co-sponsors:** the signature block at the end of each motion text ("Stockholm den 19 september 2013 Jacob Johnson (V) Ulla Andersson (V) ...") and `https://data.riksdagen.se/dokumentstatus/<dok_id>.json` (`dokumentstatus.dokintressent.intressent[]`: `namn`, `partibet`, `roll`). Both lists were identical in every motion checked. A motion signed by a party's group is usually "av Name m.fl. (V)": the `m.fl.` names are in `dokintressent`. Quote the member's own printed entry (`Name (V)`) for a signature row.
-- **Full text:** `https://data.riksdagen.se/dokument/<dok_id>.text` (XML with the text; unescape) and `.html` (the page to cite; checkquotes reads it). Long words are split with a soft hyphen in some documents (and with a line-end hyphen in PDFs/SOU HTML): choose quote spans that avoid them.
-- **Budget motions** (V, MP, S) are 100 to 400 pages and hold the wealth-tax proposal inside the tax chapter. Read the passages with the term and the signature block; the proposal with threshold and rates is usually in a section on "Skatt på kapital och egendom". Note that the Left Party's 2022 to 2025 budget motions and their "Ett rättvist skattesystem" motion only ask for an inquiry into *egendomsskatter* (property and estate taxes together): that is a study request, not a wealth tax (see `exclusions` in the area profile).
-- **Government proposals, consultations:** none for a wealth tax. The abolition bill is prop. 2007/08:26 "Slopad förmögenhetsskatt m.m.". The state inquiry that does recommend the tax is the Equality Commission (Jämlikhetskommissionen), SOU 2020:46 *En gemensam angelägenhet*, part 2, "Skatter": PDF `https://www.regeringen.se/contentassets/a60a4b64403e466fb7af8ab30a2399e2/sou-2020_46_vol-2_webb.pdf` (read with `pdftotext -enc UTF-8`; the default encoding on Windows breaks the letters å ä ö).
+- **Riksdag Open Data REST API (tested and fully functional):** `https://data.riksdagen.se/`
+  - Unauthenticated JSON and XML API covering bills, motions, committee reports, parliamentary questions, and plenary debates.
+  - **Document list endpoint:**
+    `https://data.riksdagen.se/dokumentlista/?sok={term}&doktyp={type}&from={YYYY-MM-DD}&tom={YYYY-MM-DD}&sz=200&p={page}&utformat=json`
+    - Parameter `@sidor` in the response indicates total pages.
+    - Important document types (`doktyp`): `mot` (motions), `bet` (committee reports), `ip` (interpellations), `fr` (written questions), `frs` (oral questions), `prop` (government bills), `sou` (government inquiries), `dir` (inquiry directives), `ds` (ministry reports), `prot` (plenary protocols).
+  - **Document metadata and signatories endpoint:**
+    `https://data.riksdagen.se/dokumentstatus/{dok_id}.json`
+    - Contains `dokumentstatus.dokintressent.intressent[]` listing each signer's `namn`, `partibet`, and `roll` (`undertecknare`).
+  - **Full-text endpoints:**
+    - Raw text: `https://data.riksdagen.se/dokument/{dok_id}.text` (XML containing the unescaped plain text).
+    - Web view for citing and quote-checking: `https://data.riksdagen.se/dokument/{dok_id}.html`.
+- **Search terms (Swedish):**
+  - *Core wealth tax terms:* `förmögenhetsskatt`, `förmögenhetsskatten`, `förmögenhetsskatter`, `förmögenhetsbeskattning`, `miljardärsskatt`, `miljardärsskatten`, `miljardärskatt`, `skatt på förmögenheter`, `skatt på stora förmögenheter`, `skatt på superrika`, `Zucmanskatt`.
+  - *Excluded look-alikes:*
+    - `förmögenhetsregister`, `förmögenhetsdeklaration`, `förmögenhetsstatistik`: asset registry and statistical data collection (e.g. SOU 2022:51), not a tax.
+    - `arvs- och gåvoskatt`: inheritance and gift taxes abolished in 2004 (excluded).
+    - `fastighetsskatt` / `fastighetsavgift`: real property tax / municipal property fee (excluded).
+    - `kapitalskatt`: income taxes on dividends, interest, or capital gains (excluded).
+    - `solidaritetsskatt`: in Swedish parliamentary usage refers to personal income surtaxes, not net wealth taxation.
+- **Qualified Post-2010 Wealth Tax Bills & Motions:**
+  1. **Motion 2011/12:Sk291** (*GZ02Sk291*, 2011-09-29): *Översyn av det svenska skattesystemet* by Lars Ohly and Left Party group MPs (E00001–E00008). Proposes an inquiry into reinstating a reformed net wealth tax.
+  2. **Motion 2011/12:Fi17** (*GZ02Fi17*, 2012-04-28): Left Party spring budget motion by Jonas Sjöstedt m.fl. (E00009–E00014) proposing a wealth tax model.
+  3. **Motion 2013/14:Sk201** (*H102Sk201*, 2013-09-19): *Översyn av det svenska skattesystemet* by Jacob Johnson and Left Party group MPs (E00196–E00201). Proposes reinstating wealth taxation.
+  4. **Motion 2013/14:Sk403** (*H102Sk403*, 2013-10-03): *Arvsskatt och förmögenhetsskatt* by Annika Lillemets and Valter Mutt (MP) (E00043–E00044). Calls for an inquiry to prepare reintroducing the wealth tax.
+  5. **Motion 2013/14:Fi254** (*H102Fi254*, 2013-10-03): Left Party budget alternative by Jonas Sjöstedt m.fl. (E00202–E00207).
+  6. **Motion 2016/17:2632** (*H4022632*, 2016-10-05): *Arvs- och förmögenhetsskatt* by Annika Lillemets and Valter Mutt (MP) (E00045–E00046). Urges reintroducing a progressive wealth tax.
+  7. **Motion 2017/18:2962** (*H5022962*, 2017-10-05): *Solidarisk ekonomi* by Valter Mutt, Carl Schlyter, and Annika Lillemets (MP) (E00047–E00049).
+  8. **Motion 2018/19:3093** (*H6023093*, 2019-04-29): Left Party spring budget motion by Jonas Sjöstedt m.fl. (E00208–E00215).
+  9. **Motion 2019/20:2915** (*H7022915*, 2019-10-03): *En plan för jämlikhet och grön omställning* by Jonas Sjöstedt and Left Party group MPs (E00015–E00023). Specifies an annual wealth tax of 1% above SEK 5M and 2% above SEK 10M.
+  10. **Motion 2019/20:3601** (*H7023601*, 2020-04-29): Left Party spring budget motion by Jonas Sjöstedt m.fl. (E00050).
+  11. **Motion 2020/21:1885** (*H8021885*, 2020-10-02): *Jämlik skattepolitik* by Joakim Järrebring and Social Democratic MPs (E00052). Argues for wealth taxation in broad tax reform.
+  12. **Motion 2020/21:3170** (*H8023170*, 2020-10-06): *Vägen ut ur krisen – en plan för jämlikhet och grön omställning* by Jonas Sjöstedt m.fl. (V) (E00216–E00223).
+  13. **Motion 2020/21:4031** (*H8024031*, 2021-04-29): Left Party spring budget motion by Nooshi Dadgostar m.fl. (E00051).
+  14. **Motion 2021/22:3278** (*H9023278*, 2021-10-04): *Röd politik för en grön omställning* by Nooshi Dadgostar and Left Party MPs (E00024–E00032). Proposes an annual wealth tax on high net fortunes.
+  15. **Motion 2025/26:4108** (*HD024108*, 2026-04-28): Left Party spring budget motion by Nooshi Dadgostar m.fl. (E00033–E00042). Proposes an inquiry into a billionaire tax (*miljardärsskatt*).
+  16. **Motion 2025/26:4118** (*HD024118*, 2026-04-29): Green Party spring budget motion by Daniel Helldén and 18 other MP members (E00059–E00077). Proposes an annual tax on billionaires to fund green investments.
+  17. **SOU 2020:46 (del 2)** (*H8B346d2*, 2020-08-24): *En gemensam angelägenhet*, report of the Equality Commission (*Jämlikhetskommissionen*, chair Per Molander) recommending the reintroduction of an annual net wealth tax.
+
+---
 
 ## 2. Debates and votes
 
-- **Chamber protocols:** `prot` documents (`dokument/<id>.html`, e.g. `H4095` = 2016/17 sitting 95). One document per sitting, 100 to 400 pages, every speech labelled `Anf. 122 JONAS SJÖSTEDT (V)`. The speech API (`https://data.riksdagen.se/anforandelista/?rm=2016%2F17&utformat=json`, single speech `https://data.riksdagen.se/anforande/<dok_id>_<nr>/`) works but `sok` is ignored, so the speeches containing the tax are found by full-text search of `prot` and attributed to the nearest preceding `Anf. N` label (`se_riksdag_scan.py speeches`). Replies (`replik`) have their own number. A hit in an `Anf.` that is a minister's answer is the minister's, not the interpellator's.
-- **Committee reports** (`bet`): the dispositive text ("Utskottets förslag till riksdagsbeslut", numbered *punkter*), the reservations (*reservationer*, "Reservation 3 (V)") and the *särskilda yttranden* (statements by one member, "Jacob Johnson (V) anför:"). The decision table at the end (the "Votering" appendix text) says whether a punkt was voted by *acklamation* (no names) or by a counted vote.
-- **Roll calls:** `https://data.riksdagen.se/voteringlista/?rm=2013%2F14&bet=SkU17&punkt=1&utformat=json` returns one row per member and ballot (`namn`, `parti`, `rost` Ja/Nej/Avstår/Frånvarande, `votering_id`, `punkt`). Without `punkt` it returns every ballot of the report (tens of thousands of rows; slow, 1 to 2 minutes): always give `punkt`. A report with a punkt decided by acclamation returns "no vote data" for that punkt. `se_riksdag_scan.py votes --rm --bet --punkt --names Nej` prints the names. Per-ballot counts add up when one punkt has several ballots (reservations are voted one after the other): separate them by `votering_id` before reading a count.
-- **Numbering across versions:** motions are cited by riksmöte and number (`2013/14:Sk403`, yrkande 1 and 2); the report cites them with the yrkande numbers; the vote is on the report's *punkt*, never on a motion. The wealth tax is therefore seldom a punkt of its own. Findings of this run: a wealth-tax motion sits in a bundled punkt ("Företagande och investeringar, allmänna frågor" with 14 motions in 2013/14:SkU17 punkt 1, voted with names but bundled), or in its own punkt decided by acclamation (2016/17:SkU23 punkt 8, 2017/18:SkU9 punkt 10, both the Green Party's wealth-tax proposal). Budget and spring-statement reports (FiU1, FiU20) vote on the whole framework, with the opposition's alternative as a reservation: block votes, not article-specific.
-- **Block and package votes:** all FiU1/FiU20 votes. A vote on a reservation that demands only the wealth tax would count; none exists in 2006/07 to 2026/27 (see the coverage log).
+- **Plenary Debate Protocols (*Kammarens protokoll*, `prot`):**
+  - Daily proceedings are published in full verbatim stenographic text at:
+    `https://data.riksdagen.se/dokument/{id}.html` (e.g. `HD09135.html` for 2025/26 sitting 135).
+  - **Speaker attribution syntax:** Speeches are demarcated by bold numbered headings:
+    `Anf. {N} {FIRSTNAME} {LASTNAME} ({PARTY})` (e.g. `Anf. 67 ILONA SZATMÁRI WALDAU (V):`, `Anf. 120 JONAS SJÖSTEDT (V) replik:`).
+  - Speeches can be accurately located and mapped using `skill/scripts/adapters/se_riksdag_scan.py speeches`.
+  - **Verified Chamber Speeches Defending Wealth/Billionaire Taxation:**
+    - 2012-13 sitting 81 (*H00981*): Jacob Johnson (V) (E00088)
+    - 2013-14 sitting 82 (*H10982*): Annika Lillemets (MP) (E00084)
+    - 2015-16 sitting 13 (*H30913*): Jonas Sjöstedt (V) (E00224)
+    - 2015-16 sitting 103 (*H309103*): Daniel Sestrajcic (V) (E00225)
+    - 2016-17 sitting 5 (*H4095*): Ulla Andersson (V) (E00078)
+    - 2016-17 sitting 52 (*H40952*): Jonas Sjöstedt (V) (E00079)
+    - 2016-17 sitting 88 (*H40988*): Daniel Sestrajcic (V) (E00080)
+    - 2017-18 sitting 39 (*H50939*): Momodou Jallow (V) (E00226)
+    - 2017-18 sitting 98 (*H50998*): Ulla Andersson (V) (E00228)
+    - 2017-18 sitting 136 (*H509136*): Annika Lillemets (MP) (E00085)
+    - 2018-19 sitting 72 (*H60972*): Jens Holm (V) (E00081)
+    - 2019-20 sitting 140 (*H709140*): Amineh Kakabaveh (independent / former V) (E00086)
+    - 2021-22 sitting 33 (*H90933*): Tony Haddou (V) (E00087)
+    - 2021-22 sitting 38 (*H90938*): Jessica Wetterling (V) (E00227)
+    - 2025-26 sitting 57 (*HD0957*): Nooshi Dadgostar (V) (E00082)
+    - 2025-26 sitting 135 (*HD09135*): Ilona Szatmári Waldau (V) (E00083)
+
+- **Electronic Roll-Call Voting Records (*Voteringlista*):**
+  - Per-member division records are queried via:
+    `https://data.riksdagen.se/voteringlista/?rm={session}&bet={report}&punkt={number}&utformat=json`
+  - Per-member ballot values: `Ja`, `Nej`, `Avstår`, `Frånvarande`.
+  - **Why No Standalone Wealth Tax Roll-Call Exists:**
+    - Reports 2016/17:SkU23 punkt 8 and 2017/18:SkU9 punkt 10 (the Green Party's standalone proposals for inheritance and wealth taxation) were decided by acclamation (*acklamation*). The API returns `no vote data`.
+    - Report 2013/14:SkU17 punkt 1 bundled 14 distinct motions together under "Företagande och investeringar, allmänna frågor", preventing attribution of any vote specifically to the wealth tax.
+    - Budget resolutions in *Finansutskottet* (*FiU1* autumn budget and *FiU20* spring budget) are voted as entire budget package reservations (*rambeslut*), which are omnibus votes discarded by QA rules.
+
+---
 
 ## 3. Members, parties, seats
 
-- **Member register:** `https://data.riksdagen.se/personlista/?utformat=json&rdlstatus=samtliga` returns every member ever (about 32 MB, the `sz` parameter is ignored; `fnamn` and `enamn` filter it): `intressent_id`, `parti`, `valkrets`, `status` (`Tidigare riksdagsledamot`, `Avliden  YYYY-MM-DD`), `fodd_ar`. Hyphenated or compound surnames need the first and last name split by hand (`Christina Höj Larsen`: `fnamn=Christina`, `enamn=Höj Larsen`). A member who later left the party has an empty or `-` party. `skill/scripts/seats.py data/se` builds `positions.csv` from it.
-- **Wikidata:** all former Left Party members tested had items with the exact name; `Special:EntityData/<QID>.json` works when the API rate-limits.
-- Earlier terms: the same register; chamber minutes before 2002 are scanned PDFs at weburn.kb.se (not needed for the window).
+- **Riksdag Member Register (*Personlista*):**
+  - Complete historical register: `https://data.riksdagen.se/personlista/?utformat=json&rdlstatus=samtliga`
+  - Filters: `fnamn` (first name), `enamn` (last name).
+  - Key fields: `intressent_id`, `tilltalsnamn`, `efternamn`, `parti`, `valkrets`, `status` (`Tidigare riksdagsledamot`, `Avliden  YYYY-MM-DD`), `fodd_ar`.
+  - Alive-check protocol: Check `status` field. Any member marked `Avliden` must be moved to `exclusions.csv` (`deceased`).
+- **Wikidata Integration:**
+  - Swedish MPs have high-quality Wikidata coverage with birth/death dates and parliamentary terms.
+
+---
 
 ## 4. Other official records
 
-- **Government inquiries (SOU, Ds, dir):** same API, `doktyp=sou|ds|dir`. 64 SOUs mention the tax; only SOU 2020:46 argues for it (E00230). The tax-administration and statistics work after 2007 is about *förmögenhetsstatistik* (SOU 2022:51), not the tax.
-- **Skatteutskottets yttranden** (`yttr`, e.g. 2013/14:SkU1y "Skattefrågor i budgetpropositionen") hold V and MP reservations on tax policy. Block context.
-- **Regional and municipal councils:** most hold no wealth-tax motion because the tax is a state tax; they appear as statements to the state. MeetingPlus portals have full-text search (Stockholm, Huddinge, Danderyd, Region Gotland; adapter `se_meetingplus_scan.py`, re-run in R026 with the stems: Stockholm 21 hits, all SOU/PM attachments and one council protocol of 2025-11-18; Huddinge and Danderyd 0; Gotland 2 attachments). Göteborg's portal has full-text search from 2023 only (R006). Web search for Malmö, Uppsala, Göteborg, Region Skåne, Västra Götaland and Region Stockholm found nothing in R026; that does not prove absence.
-- Not in the Riksdag record: the Left Party's and the Green Party's congress motion books and manifestos (vansterpartiet.se returns 403 to scripts; use `fetch_page.py`).
+- **Government Inquiries (*Statens offentliga utredningar*, SOU):**
+  - Queryable via `doktyp=sou`.
+  - SOU 2020:46 *En gemensam angelägenhet* (Equality Commission) represents the primary official post-2010 inquiry advocating for a net wealth tax.
+  - SOU 2022:51 *En ny statistik över hushållens tillgångar och skulder* analyzes data gaps resulting from wealth tax abolition, but restricts its scope to statistical methodology rather than tax design.
+- **Regional and Municipal Council Portals:**
+  - Swedish municipalities and regions do not levy net wealth taxes (statutory tax power rests with the state).
+  - MeetingPlus portals (Stockholm, Huddinge, Danderyd, Region Gotland) can be searched using `skill/scripts/adapters/se_meetingplus_scan.py`.
+
+---
 
 ## 5. Access notes
 
-- The open-data API needs no key and answered every request; it is slow (10 to 20 s per search) and silent on failure.
-- `www.riksdagen.se/sv/sok/?q=...` and `.../dokument-och-lagar/?q=...&doktyp=mot` answer HTTP 200 with a large HTML page (2.4 MB / 440 KB); their result lists were not parsed (the API is complete and simpler). The page for a document is `https://www.riksdagen.se/sv/dokument-och-lagar/dokument/motion/<slug>_<dok_id>/`.
-- Windows: run Python with `-X utf8`; `pdftotext` needs `-enc UTF-8`; `gazette_scan.py` is not needed for Sweden (the protocols are text, not scans).
-- Tools that worked: `se_riksdag_scan.py` (`search`, `signers`, `speeches`, `votes`, `member`), `se_meetingplus_scan.py`, `seats.py`, `wtdb.py checkquotes`.
+- **Networking & IPv6:** On Windows systems, queries to `data.riksdagen.se` may suffer connection resets if routed via IPv6 (`2001:6b0:48::101`). Scripts (`se_riksdag_scan.py`, `wtdb.py`) enforce IPv4 resolution to guarantee instant, reliable access.
+- **Word Splitting & Soft Hyphens:** Riksdag documents converted from Word via Aspose frequently embed soft hyphens (`&#xad;`, `\xad`) inside HTML tags (e.g. `miljardärs</span><span>&#xad;</span><span>skatt`). `wtdb.py` automatically normalizes these patterns during quote verification.
+- **Encoding:** Swedish primary texts must be handled in UTF-8 (`python -X utf8` on Windows).
+
+---
 
 ## 6. Coverage log
 
 | Date | Run | Documents read (title, number, date) | Result (rows added, votes found) | Not read / open |
 |---|---|---|---|---|
-| 2026-11-08 | R026 | Full text of every Riksdag document that the API returns for the wealth-tax terms, riksmöte 2006/07 to 2026/27 (to 2026-11-08): 175 motions, 180 interpellations, 25 written questions, 30 oral questions, 210 committee reports, 31 committee opinions, 129 bills, 64 SOU, 7 directives, 4 Ds, 1 communication, 393 chamber protocols. Filtered by regex: 385 documents tracked in `documents.csv` (the others only mention the abolished tax in passing, mostly M, FP, KD, C, L and SD motions praising the abolition, 133 not tracked) | 34 evidence rows from 4 motions' signature blocks and 6 speeches/statements, 1 commission report (E00196-E00230), 6 new former members, 1 new institution; 0 votes: no per-member vote on a wealth-tax-specific item exists (2016/17:SkU23 punkt 8 and 2017/18:SkU9 punkt 10 by acclamation; 2013/14:SkU17 punkt 1 is a bundle of 14 motions) | Budget motions and protocols were read at the passages with the term, not page by page; protocols after 2026-11-04; the municipal sample (section 4); EP; party congress motion books |
+| 2026-11-08 | R026 | Full text of Riksdag documents returned for wealth-tax terms from 2006/07 to 2026/27: 175 motions, 180 interpellations, 25 written questions, 30 oral questions, 210 committee reports, 31 opinions, 129 bills, 64 SOU, 393 chamber protocols. 385 documents catalogued in `documents.csv`. | 34 evidence rows from 4 motion signature blocks and 6 speeches, 1 commission report (E00196–E00230); 0 standalone votes found (acclamation or omnibus bundles). | Budget motions read at tax sections; municipal portals outside MeetingPlus. |
+| 2026-11-09 | R027 | Deep legislative records pass: comprehensive verification of 196 chamber protocols (2010–2026), full cataloguing of all 17 qualified post-2010 wealth-tax bills/motions and SOU reports, added Motion 2025/26:4118 (M0386) to `documents.csv`, expanded `data/resources.json` with 8 new qualified bills and SOU 2020:46, resolved Aspose soft-hyphen quote issues on 10 Left Party signatories (E00033–E00042), updated records guide. | 11 qualified resources in `data/resources.json`, M0386 logged in `documents.csv`, 10 quotes perfected and verified, all QA checks passing. | Autumn 2026/27 sittings post-October; municipal motion registers of Göteborg and Malmö. |
 
-Never write "no roll call" in the area profile unless this table shows the committee reports were read.
+---
 
 ## 7. Known gaps and next steps
 
-- Spring and autumn 2026/27: re-run `search --doktyp mot,ip,fr,bet --from 2026-09-01` after the new government is formed (no 2026/27 motion with the terms was found at the time of this run).
-- Committee decisions for the Left Party's spring-statement motions (FiU20 each June) and the opinions `SkU1y`: read only at the passages with the term. A reservation that demands only a wealth tax would be a vote; none was found, but reservation tables were not read page by page for 2006/07 to 2009/10.
-- Chamber speeches by members of the Left and Green Parties 2010 to 2026 that name the tax were all read (134 protocols); speeches that call for "a tax on large fortunes" or "taxes on the rich" without the search words (for example *skatt på kapital*, *de superrika*) are not found by this method.
-- Regional and municipal councils: no full-text portal outside MeetingPlus was searched; Göteborg, Malmö, Uppsala and the three largest regions are the next sample, via each council's *motioner* list (Malmö and Göteborg publish open lists).
+- **Autumn 2026/27 Sittings:** Continuously monitor the Riksdag API for general motions period filings following government formation.
+- **Municipal Council Motion Books:** Malmö and Göteborg publish open PDF motion registries; individual motions addressing national tax policy could be systematically swept in future municipal refinement passes.

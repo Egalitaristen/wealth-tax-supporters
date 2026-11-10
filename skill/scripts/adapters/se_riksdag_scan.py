@@ -33,7 +33,15 @@ Notes
     run wtdb.py checkquotes on them.
   * Be polite: one request at a time, cached under SE_CACHE (default /tmp/riksdag_cache).
 """
-import argparse, datetime as dt, html, json, os, re, sys, time, urllib.parse, urllib.request
+import argparse, datetime as dt, html, json, os, re, socket, sys, time, urllib.parse, urllib.request
+
+# Prefer IPv4 to avoid broken IPv6 routes to data.riksdagen.se
+_orig_getaddrinfo = socket.getaddrinfo
+def _ipv4_first_getaddrinfo(*args, **kwargs):
+    res = _orig_getaddrinfo(*args, **kwargs)
+    v4 = [r for r in res if r[0] == socket.AF_INET]
+    return v4 if v4 else res
+socket.getaddrinfo = _ipv4_first_getaddrinfo
 
 BASE = "https://data.riksdagen.se"
 CACHE = os.environ.get("SE_CACHE", "/tmp/riksdag_cache")

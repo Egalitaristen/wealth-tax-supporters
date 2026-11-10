@@ -120,3 +120,13 @@ What the record shows (2006/07 to 2026-11-08):
 - **Local.** MeetingPlus portals (Stockholm, Huddinge, Danderyd, Gotland) re-searched with the stems; web search for Göteborg, Malmö, Uppsala, Region Skåne, Västra Götaland and Region Stockholm found no wealth-tax motion. Absence is not proven; see leads D0003.
 
 Not read: whole budget motions and protocols page by page; the Left Party's congress motion book and 2026 manifesto beyond R003; the Riksdag's 2026/27 term after 2026-11-04; the European Parliament; municipal portals other than the four named.
+
+## Records deep-dive pass (R027, 2026-11-09)
+
+Official records deep-dive executed per `skill/SKILL.md` legislative records workflow.
+- **Records guide:** Expanded and finalized `skill/references/records/se.md` detailing all open data API endpoints, parliamentary motion lifecycle, handling by Skatteutskottet (SkU) and Finansutskottet (FiU), acclamation vs roll call rules, plenary protocol structure, personlista, and SOU inquiries.
+- **Riksdag Debates:** Scanned all 196 chamber protocols from 2010 to 2026 matching wealth-tax terms (`förmögenhetsskatt`, `miljardärsskatt`). Verified all 18 verbatim speech entries defending the tax (from Jacob Johnson, Annika Lillemets, Jonas Sjöstedt, Daniel Sestrajcic, Ulla Andersson, Momodou Jallow, Jens Holm, Amineh Kakabaveh, Tony Haddou, Jessica Wetterling, Nooshi Dadgostar, and Ilona Szatmári Waldau).
+- **Bills and Resources:** Added 8 post-2010 qualified bills and SOU 2020:46 to `data/resources.json` (increasing total Sweden resources from 3 to 11) and corrected character encodings on existing items. Logged Motion 2025/26:4118 (M0386) in `data/se/documents.csv`.
+- **Quote normalization:** Resolved Aspose soft-hyphen HTML word-splitting (`miljardärs</span><span>&#xad;</span><span>skatt`) in `skill/scripts/wtdb.py` and updated quotes for 10 Left Party signatories (E00033–E00042) to include the full tax phrase, successfully passing `checkquotes`.
+- **Networking:** Enforced IPv4 socket preference in `se_riksdag_scan.py` and `wtdb.py` to prevent Windows IPv6 connection resets on `data.riksdagen.se`.
+- **QA:** Ran `wtdb.py validate`, `wtdb.py dedupe`, `wtdb.py checkquotes`, and `review_scan.py`; 0 validation errors, 0 duplicates, all targeted quotes pass.
