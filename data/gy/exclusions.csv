@@ -1,4 +1,7 @@
-exclusion_id,name,kind,reason,notes,source_url
-X0001,Ashni Singh,person,out_of_definition,Senior Minister in the Office of the President with Responsibility for Finance; introduced Fiscal Enactments (Amendment) Act 2024 which added Section 6(y) exempting individuals from Property Tax,https://www.parliament.gov.gy
-X0002,Irfaan Ali,person,out_of_definition,President of Guyana; policy initiative to axe property tax on individuals to encourage private savings and lower compliance burdens,https://www.chrisram.net/?p=2943
-X0003,Clive Thomas,person,out_of_definition,"Economist and WPA leader; proposed the Buxton Proposal (direct universal cash transfers to households from oil revenues), but has not proposed or endorsed a net wealth tax",https://kaieteurnewsonline.com
+exclusion_id,name,reason,detail,source_url,run_id
+X0001,Ashni Singh,out_of_definition,Senior Minister in the Office of the President with Responsibility for Finance; introduced Fiscal Enactments (Amendment) Act 2024 which added Section 6(y) exempting individuals from Property Tax,https://www.parliament.gov.gy,R001
+X0002,Irfaan Ali,out_of_definition,President of Guyana; policy initiative to axe property tax on individuals to encourage private savings and lower compliance burdens,https://www.chrisram.net/?p=2943,R001
+X0003,Clive Thomas,out_of_definition,"Economist and WPA leader; proposed the Buxton Proposal (direct universal cash transfers to households from oil revenues), but has not proposed or endorsed a net wealth tax",https://kaieteurnewsonline.com,R001
+X0004,Hemdutt Kumar,private_individual,Author of letter to Stabroek News 'Removal of property tax is a victory for the wealthy and a betrayal of the poor' (2025-12-20); frequent public letter writer and property owner without institutional or public role,https://www.chrisram.net/?p=2943,R002
+X0005,Nigel Hinds,opposes,"Chartered Accountant and 2020 prime ministerial candidate for Change Guyana; campaigned to abolish the property tax, describing it as oppressive",https://guyanastandard.com,R002
+X0006,Ramon Gaskin,deceased,"Outspoken economist and activist; died December 2023. Criticised tax holidays and exemptions granted to oil multinationals under the Stabroek PSA, without proposing an annual personal wealth tax",https://demerarawaves.com,R002

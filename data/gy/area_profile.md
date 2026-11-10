@@ -26,6 +26,8 @@
 - **PPP/C (People's Progressive Party/Civic):** Governing party (33 seats). Historically introduced the Property Tax in 1962 under Cheddi Jagan; returned to office in 2020 under Irfaan Ali and enacted the individual exemption via Act No. 2 of 2024.
 - **APNU+AFC Coalition (A Partnership for National Unity / Alliance for Change):** Main parliamentary opposition (31 seats: 22 APNU, 9 AFC). Lowered rates in Budget 2019. Focused on cost of living, public sector wages, and NRF oil revenue governance.
 - **Joinder List (LJP / ANUG / TNM):** 1 seat shared between Liberty and Justice Party, A New and United Guyana, and The New Movement.
+- **Working People's Alliance (WPA):** Historic socialist party; leaders (Clive Thomas, David Hinds) advocate direct cash transfers from oil revenues (Buxton Proposal) rather than wealth taxes.
+- **Change Guyana:** 2020 party led by accountant Nigel Hinds; explicitly campaigned to repeal the property tax as "oppressive".
 
 ## 5. Government below national level
 - **Structure:** 10 Administrative Regions (Region 1 to 10), each with a Regional Democratic Council (RDC). Below the regions are 27 sub-districts comprising 10 Municipalities / Town Councils (Georgetown, Linden, New Amsterdam, Corriverton, Rose Hall, Anna Regina, Bartica, Lethem, Mabaruma, Mahdia) and about 70 Neighbourhood Democratic Councils (NDCs).
@@ -54,6 +56,6 @@
 - **Civil Society & Advocacy:** Red Thread (grassroots women's organisation focused on unwaged care work, cost of living, and oil wealth accountability).
 
 ## 10. Plan for the next runs
-- **R002:** Follow up on lead L0001 (Hemdutt Kumar, letter writer in *Stabroek News*, 2025-12-20) to check whether he holds a qualifying public capacity or belongs in exclusions.
-- **R003:** Trace the 2016 Tax Reform Committee Report (L0002) recommendations on property and wealth taxation.
-- **R004:** Hansard deep dive on parliamentary debates for Act No. 2 of 2024 and Bill No. 17 of 2018 for any MP statements defending the individual wealth tax.
+- **R003:** Keep L0002 open in case the 2016 Tax Reform Committee full report becomes publicly available.
+- **R004:** Monitor ongoing implementation of the individual property tax exemption in Year of Assessment 2026 and any legislative reactions in the Thirteenth Parliament.
+- **R005:** Track civil society reactions to oil-driven wealth inequality.
