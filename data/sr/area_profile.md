@@ -65,9 +65,18 @@
 - **VES (Vereniging van Economisten in Suriname):** Leading economic professional association frequently critiquing fiscal policy, regressive consumption taxation, and the underperformance of wealth taxation. Led by Steven Debipersad.
 
 ## 10. Plan for the next runs
-- **R002 Accomplishments:** Added 3 actors (Patricia Etnel / NPS, Steven Debipersad, and the Vereniging van Economisten in Suriname - VES) and 3 Grade A evidence rows from national parliamentary budget debates and official state consultations (Kamerstuk 36 572, nr. 1). Excluded Asiskumar Gajadien (X0003). Documented the debate around the SRD 8.1M budget allocation for wealth tax.
+- **R001–R004 Accomplishments:**
+  - Foundational seed and follow-up passes documented Suriname's statutory wealth tax (*Wet Vermogensbelasting 1944*) across all 5 key national layers.
+  - Added 12 actors and 13 verified evidence rows:
+    - Executive / Former Ministers: Armand Achaibersing (A0012, Minister of Finance and Planning 2020–2022).
+    - Parliamentarians (DNA): Amzaad Abdoel (A0001, NDP), Ronny Asabina (A0002, BEP), Patricia Etnel (A0009, NPS).
+    - Political Parties: BEP (A0005), PRO (A0006).
+    - Trade Unions: Ravaksur (A0004), Armand Zunder (A0003, spokesperson and economist).
+    - Economists & Think Tanks: Steven Debipersad (A0010), Vereniging van Economisten in Suriname - VES (A0011).
+    - Legal & Tax Scholars: Roy Shyamnarain (A0007), Carlo Jadnanansing (A0008).
+  - Recorded 4 clear exclusions: Stanley Raghoebarsing (X0001, Finance Minister, opposes wealth tax), Stanley A. Esajas (X0002, tax scholar, neutral technical analysis), Asiskumar Gajadien (X0003, VHP MP, champion of corporate dividend exemptions), DA'91 (X0004, political party, advocates abolishing 1944 wealth tax in favor of an unexplained wealth tax).
 - **Next priorities (ordered by expected yield per turn):**
-  1. *Tripartite bargaining outcomes:* Track ongoing negotiations between Ravaksur and the Santokhi/future administration on the proposed SRD 1.6M exemption threshold and legal entity wealth taxation.
+  1. *Tripartite bargaining outcomes:* Track ongoing negotiations between Ravaksur and the government on the proposed SRD 1.6M exemption threshold and legal entity wealth taxation.
   2. *Upcoming 2026 election manifestos:* Systematically examine published programs of DNA parties (NDP, NPS, BEP, PRO, PALU, VHP, ABOP) for wealth tax clauses.
   3. *De Nationale Assemblée legislative records:* Review verbatim minutes of the Algemene Wet Belastingen (AWB) committee once fully enacted.
   4. *VES research:* Track upcoming issues of *VES Inzicht* for technical wealth tax reform designs.
