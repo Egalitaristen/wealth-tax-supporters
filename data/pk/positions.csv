@@ -2,3 +2,4 @@ position_id,actor_id,body_id,role,party,geo_unit_id,start,end,current,member_ref
 O00001,A0001,B0002,Senator,PML-N,G0009,2018,,y,,2026-11-10,https://senate.gov.pk
 O00002,A0002,B0001,Member of the National Assembly,PTI,G0007,2013,2023,n,,2026-11-10,https://na.gov.pk
 O00003,A0015,B0001,Member of the National Assembly,MQM-P,G0143,2008,,y,,2026-11-10,https://na.gov.pk
+O00004,A0021,B0002,Senator,PPP,G0009,2009,2015,n,,2026-11-10,https://senate.gov.pk
