@@ -56,6 +56,6 @@
 - **Civil Society & Advocacy:** Red Thread (grassroots women's organisation focused on unwaged care work, cost of living, and oil wealth accountability).
 
 ## 10. Plan for the next runs
-- **R003:** Keep L0002 open in case the 2016 Tax Reform Committee full report becomes publicly available.
-- **R004:** Monitor ongoing implementation of the individual property tax exemption in Year of Assessment 2026 and any legislative reactions in the Thirteenth Parliament.
+- **R003 completed:** Closed lead L0002 (Tax Reform Committee 2016 Report) as rejected; verified labor union leadership (GTUC, FITUG, GAWU, GPSU) and academic economists (Odle, T. Singh, Constantine, Khemraj), adding exclusions X0007 and X0008.
+- **Future monitoring:** Monitor ongoing implementation of the individual property tax exemption in Year of Assessment 2026 and any legislative reactions in the Thirteenth Parliament.
 - **R005:** Track civil society reactions to oil-driven wealth inequality.
