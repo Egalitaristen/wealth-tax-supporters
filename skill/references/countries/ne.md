@@ -47,3 +47,7 @@ Worked notes from the Niger seed pass and follow-up passes (`R001`, `R002`, `R00
 ## R006 gap pass (2026-11-10)
 
 No new supporters. Checked unions, pre-2023 deputies, CCR and the new tax-policy advisory council, Oxfam/ActionAid, ROTAB/PWYP, Tournons La Page's tax-justice project, universities, journalists, the G20 open letter to Ramaphosa (no Niger signatory) and Hausa terms; 5 exclusions (`X0021`-`X0025`) and 3 open leads (`D0001`-`D0003`). Watch for: Oxfam Nigeria and Nigeria press dominate every English wealth-tax query on "Niger"; the 2026 budget rectification is by ordonnance; Nigerien outlets are poorly indexed, so use the headless browser on their own archives. Full plan in `data/ne/area_profile.md` section 11.
+
+## R007 (2026-11-10)
+
+Second-supporter search found none after 10 queries. Dead ends: the 2017 Niger Inter op-ed has no comments or replies; Tournons la Page's 2017 report, the INS/UNDP study and the CDTN 2026 statement contain no wealth-tax call; Oxfam/TJNA wealth-tax work covers Nigeria only (ROTAB is the only Niger TJNA member). Next: browser archive search of Nigerien outlets, ROTAB exemption study, Ary-Tanimoune (lead `D0004`).
