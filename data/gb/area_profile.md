@@ -142,3 +142,10 @@ Leads not yet listed:
 - Green Party policy paper and manifesto: policy.greenparty.org.uk redirects to a login; the 19 November 2025 letter is already in the evidence rows. Liberal Democrat policy: no wealth tax found in the policy papers searched.
 - Wealth Tax Commission evidence papers and academic papers by Advani, Chamberlain and Summers: only the final report is listed.
 - Ipsos poll of October 2025 (64% for the Green Party proposal) and the YouGov/Oxfam 2% poll: known from press only, no release with wording and fieldwork read. The Tax Institute survey (members, not the public) was not used.
+
+
+## Official records pilot — R033 (2026-11-09)
+
+The 2021 Health and Social Care Levy Bill committee amendment paper contains NC9, a proposed assessment of a wealth tax on assets above £5 million; it does not itself impose a wealth tax. NC8 concerns income from wealth and is outside the definition. Hansard committee debate contains Nadia Whittome’s supportive speech; Richard Burgon separately defended a one-off wealth tax in the 11 October 2022 repeal debate. The documents and exact reading limits are in documents.csv and the records guide. The 2024 and 2025 wealth-tax early day motions are non-binding proposals, not enacted bills. This is a partial pilot, not a comprehensive review of UK bills, amendments or divisions since 2010. Full PDF downloads and scanner analysis were blocked by network restrictions; selection papers, proceedings and devolved records remain open.
+
+R033 quote QA: both new speech excerpts were checked by hand against the speaker-labelled official Hansard text after the automated checker skipped both sources.
