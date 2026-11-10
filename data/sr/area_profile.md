@@ -80,3 +80,6 @@
   2. *Upcoming 2026 election manifestos:* Systematically examine published programs of DNA parties (NDP, NPS, BEP, PRO, PALU, VHP, ABOP) for wealth tax clauses.
   3. *De Nationale Assemblée legislative records:* Review verbatim minutes of the Algemene Wet Belastingen (AWB) committee once fully enacted.
   4. *VES research:* Track upcoming issues of *VES Inzicht* for technical wealth tax reform designs.
+
+## Review corrections (10 Nov 2026)
+- E00011 and E00012 (same quote, VES chairman and the association) and E00013 (minister, narrated by a journalist) downgraded to grade B.
