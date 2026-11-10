@@ -1,0 +1,39 @@
+geo_unit_id,name,level,unit_type,parent_id,website,sweep_status,swept_run,swept_date,queries_run,hits,notes,code
+G0001,Guyana,national,country,,,pending,,,,,,GY
+G0002,Barima-Waini,region,region,G0001,,pending,,,,,,GY01
+G0003,Pomeroon-Supenaam,region,region,G0001,,pending,,,,,,GY02
+G0004,Essequibo Islands-West Demerara,region,region,G0001,,pending,,,,,,GY03
+G0005,Demerara-Mahaica,region,region,G0001,,pending,,,,,,GY04
+G0006,Mahaica Berbice,region,region,G0001,,pending,,,,,,GY05
+G0007,East Berbice-Corentyne,region,region,G0001,,pending,,,,,,GY06
+G0008,Cuyuni-Mazaruni,region,region,G0001,,pending,,,,,,GY07
+G0009,Potaro-Siparuni,region,region,G0001,,pending,,,,,,GY08
+G0010,Upper Takutu-Upper Essequibo,region,region,G0001,,pending,,,,,,GY09
+G0011,Upper Demerara-Berbice,region,region,G0001,,pending,,,,,,GY10
+G0012,I-1  Barima,council,sub-district,G0002,,pending,,,,,,GY0101
+G0013,I-2  Waini,council,sub-district,G0002,,pending,,,,,,GY0102
+G0014,II-1 Moruka/Pomeroon,council,sub-district,G0003,,pending,,,,,,GY0201
+G0015,II-2 Somerset And Berks,council,sub-district,G0003,,pending,,,,,,GY0202
+G0016,Essequibo I./L.B.E.River,council,sub-district,G0004,,pending,,,,,,GY0301
+G0017,III-1 Essequibo Islands,council,sub-district,G0004,,pending,,,,,,GY0302
+G0018,III-2 Bonasika/Boerasirie,council,sub-district,G0004,,pending,,,,,,GY0303
+G0019,III-3 Lower West Demerara,council,sub-district,G0004,,pending,,,,,,GY0304
+G0020,IV-1 Moblissa/La Reconnai,council,sub-district,G0005,,pending,,,,,,GY0401
+G0021,IV-2 Buxton/Mahaica,council,sub-district,G0005,,pending,,,,,,GY0402
+G0022,V-1  Mahaica/Mahaicony,council,sub-district,G0006,,pending,,,,,,GY0501
+G0023,V-2 Mahaicony/Berbice,council,sub-district,G0006,,pending,,,,,,GY0502
+G0024,VI-1 East Berbice/W.Canje,council,sub-district,G0007,,pending,,,,,,GY0601
+G0025,VI-2  East Canje/E.C.Berb,council,sub-district,G0007,,pending,,,,,,GY0602
+G0026,VI-3 Black Bush Polder,council,sub-district,G0007,,pending,,,,,,GY0603
+G0027,VI-4 Lower Corentyne Rive,council,sub-district,G0007,,pending,,,,,,GY0604
+G0028,VI-5 Left Bank Upper Canj,council,sub-district,G0007,,pending,,,,,,GY0605
+G0029,VI-6 Upper Canje/Corentyn,council,sub-district,G0007,,pending,,,,,,GY0606
+G0030,VI-7 Upper Corentyne,council,sub-district,G0007,,pending,,,,,,GY0607
+G0031,VII-1  Cuyuni,council,sub-district,G0008,,pending,,,,,,GY0701
+G0032,VII-2 Mazaruni/L.B.E.Rive,council,sub-district,G0008,,pending,,,,,,GY0702
+G0033,VIII-1 Ireng/Upper Potaro,council,sub-district,G0009,,pending,,,,,,GY0801
+G0034,VIII-2 Lower Potaro/Ladsm,council,sub-district,G0009,,pending,,,,,,GY0802
+G0035,IX-1 Rupununi West,council,sub-district,G0010,,pending,,,,,,GY0901
+G0036,IX-2 Rewa(Illiwa)/U.E,council,sub-district,G0010,,pending,,,,,,GY0902
+G0037,X-1 Right Bank Essequibo,council,sub-district,G0011,,pending,,,,,,GY1001
+G0038,X-2 Torani/Bulletwood,council,sub-district,G0011,,pending,,,,,,GY1002
