@@ -1,6 +1,6 @@
-# Niger: 0 supporters identified; 8 documented exclusions
+# Niger: 0 supporters identified; 10 documented exclusions
 
-Worked notes from the Niger seed pass (`R001`, 2026-11-10; 8 documented exclusions, 15 broad queries logged across French, Hausa, and English).
+Worked notes from the Niger seed pass and wider discovery pass (`R001`, `R002`, 2026-11-10; 10 documented exclusions, 21 broad queries logged across French, Hausa, and English).
 
 ## Levels and the geography register
 
@@ -20,4 +20,5 @@ Worked notes from the Niger seed pass (`R001`, 2026-11-10; 8 documented exclusio
 - **Resource sovereignty:** Fiscal debates in Niger center on uranium and oil exploitation concessions (Areva/Orano negotiations, Agadem basin pipeline).
 - **Fonds de Solidarité pour la Sauvegarde de la Patrie (FSSP):** Established following the July 2023 coup d'état; funded by a 1% compulsory deduction on monthly net salaries, corporate turnover levies on strategic enterprises, and luxury import duties. Turnover and payroll taxes are excluded from the wealth tax definition.
 - **Bilateral tax treaty:** In December 2023, Niger and Mali denounced their bilateral double-taxation conventions with France to restore domestic taxing rights over corporate service fees and royalties.
-- **Documented exclusions (8 actors in `exclusions.csv`):** UN General Assembly Delegation (UN tax convention vote; `X0001`), Ali Idrissa / ROTAB & PCQVP (extractive transparency and anti-Finance Law 2018; `X0002`), Moussa Tchangari / AEC (anti-austerity and public services; `X0003`), CNSP / FSSP (salary deductions and turnover levies; `X0004`), Government of Niger (bilateral tax treaty denunciation; `X0005`), CDTN / Idrissa Djibrilla (salary tax ITS reduction; `X0006`), PNDS-Tarayya / Bazoum & Issoufou (land tax reforms; `X0007`), and Hama Amadou (deceased former Prime Minister; `X0008`).
+- **Regional AES leads:** Neighboring Burkina Faso engaged ATAF to study wealth tax feasibility; logged as external lead `L0042` in `data/leads.csv`.
+- **Documented exclusions (10 actors in `exclusions.csv`):** UN General Assembly Delegation (UN tax convention vote; `X0001`), Ali Idrissa / ROTAB & PCQVP (extractive transparency and anti-Finance Law 2018; `X0002`), Moussa Tchangari / AEC (anti-austerity and public services; `X0003`), CNSP / FSSP (salary deductions and turnover levies; `X0004`), Government of Niger (bilateral tax treaty denunciation; `X0005`), CDTN / Idrissa Djibrilla (salary tax ITS reduction; `X0006`), PNDS-Tarayya / Bazoum & Issoufou (land tax reforms; `X0007`), Hama Amadou (deceased former Prime Minister; `X0008`), Association Islamique du Niger / Conseil Islamique (religious zakat vs secular taxes; `X0009`), and CESOC (tax compliance and certified invoicing; `X0010`).

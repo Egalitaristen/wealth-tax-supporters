@@ -14,3 +14,9 @@ Q0012,R001,2026-11-10,en,"site:taxextremewealth.com ""Niger"" OR ""NE""",web,1,0
 Q0013,R001,2026-11-10,en,"""Tax Justice Network Africa"" OR ""TJNA"" Niger (""wealth tax"" OR ""impôt sur la fortune"")",web,5,0,TJNA / ROTAB partnership; no domestic wealth tax campaign
 Q0014,R001,2026-11-10,en,"Afrobarometer Niger ""taxes"" OR ""taxation"" OR ""impôt""",web,7,0,Afrobarometer survey data on tax compliance and state legitimacy
 Q0015,R001,2026-11-10,en,"""A/RES/78/230"" ""Niger"" vote OR voting",web,4,0,Voted Yes on UN General Assembly resolution 78/230
+Q0016,R002,2026-11-10,fr,"""Alliance des États du Sahel"" OR ""AES"" (""impôt sur la fortune"" OR ""taxe sur la fortune"" OR ""justice fiscale"")",web,4,1,Identified Burkina Faso ATAF wealth tax study (logged lead L0042)
+Q0017,R002,2026-11-10,en,"site:ataftax.org ""Niger"" (""wealth tax"" OR ""fortune"" OR ""high net worth"")",web,3,0,ATAF tracking HNWI across Africa; no Niger wealth tax mission
+Q0018,R002,2026-11-10,fr,"""Direction Générale des Impôts"" Niger ""ATAF"" OR ""UEMOA"" ""fortune"" OR ""patrimoine""",web,5,0,Patrimoine refers to State public assets (DGPE) or cadastral land tax
+Q0019,R002,2026-11-10,fr,"site:lasdel.net ""fiscalité"" OR ""impôt"" OR ""taxe""",web,10,0,Socio-anthropology of local rural and market taxes
+Q0020,R002,2026-11-10,fr,"""Association Islamique du Niger"" OR ""Conseil Islamique du Niger"" (""impôt"" OR ""taxe"" OR ""zakat"" OR ""fortune"")",web,6,0,Zakat religious almsgiving (2.5% above Nisab) vs secular taxes
+Q0021,R002,2026-11-10,fr,"""Conseil Économique, Social et Culturel"" CESOC Niger (""fiscalité"" OR ""impôt"" OR ""fortune"")",web,7,0,Consultative body on tax compliance and electronic invoicing
