@@ -1,0 +1,4 @@
+body_id,name,level,kind,seats,as_of,source_url,seat_view,notes
+B0001,Cámara de Senadores,national,chamber,45,2023-06-30,https://www.senado.gov.py,,"Senate of Paraguay (45 seats, single nationwide constituency)."
+B0002,Cámara de Diputados,national,chamber,80,2023-06-30,https://www.diputados.gov.py,,Chamber of Deputies of Paraguay (80 seats elected by department).
+B0003,Corte Suprema de Justicia,national,other,,,https://www.pj.gov.py,,Supreme Court of Justice of Paraguay.

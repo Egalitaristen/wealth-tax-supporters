@@ -1,0 +1,283 @@
+geo_unit_id,name,level,unit_type,parent_id,website,sweep_status,swept_run,swept_date,queries_run,hits,notes,code
+G0001,Paraguay,national,country,,,pending,,,,,,
+G0002,Asunción,region,distrito_capital,G0001,,pending,,,,,,PY00
+G0003,Concepción,region,departamento,G0001,,pending,,,,,,PY01
+G0004,San Pedro,region,departamento,G0001,,pending,,,,,,PY02
+G0005,Cordillera,region,departamento,G0001,,pending,,,,,,PY03
+G0006,Guairá,region,departamento,G0001,,pending,,,,,,PY04
+G0007,Caaguazú,region,departamento,G0001,,pending,,,,,,PY05
+G0008,Caazapá,region,departamento,G0001,,pending,,,,,,PY06
+G0009,Itapúa,region,departamento,G0001,,pending,,,,,,PY07
+G0010,Misiones,region,departamento,G0001,,pending,,,,,,PY08
+G0011,Paraguarí,region,departamento,G0001,,pending,,,,,,PY09
+G0012,Alto Paraná,region,departamento,G0001,,pending,,,,,,PY10
+G0013,Central,region,departamento,G0001,,pending,,,,,,PY11
+G0014,Ñeembucú,region,departamento,G0001,,pending,,,,,,PY12
+G0015,Amambay,region,departamento,G0001,,pending,,,,,,PY13
+G0016,Canindeyú,region,departamento,G0001,,pending,,,,,,PY14
+G0017,Presidente Hayes,region,departamento,G0001,,pending,,,,,,PY15
+G0018,Boquerón,region,departamento,G0001,,pending,,,,,,PY16
+G0019,Alto Paraguay,region,departamento,G0001,,pending,,,,,,PY17
+G0020,Asunción,council,municipio,G0002,,pending,,,,,,PY0000
+G0021,Concepción,council,municipio,G0003,,pending,,,,,,PY0101
+G0022,Belén,council,municipio,G0003,,pending,,,,,,PY0102
+G0023,Horqueta,council,municipio,G0003,,pending,,,,,,PY0103
+G0024,Loreto,council,municipio,G0003,,pending,,,,,,PY0104
+G0025,San Carlos del Apa,council,municipio,G0003,,pending,,,,,,PY0105
+G0026,San Lázaro,council,municipio,G0003,,pending,,,,,,PY0106
+G0027,Yby Yaú,council,municipio,G0003,,pending,,,,,,PY0107
+G0028,Azote'y,council,municipio,G0003,,pending,,,,,,PY0108
+G0029,Sargento José Félix López,council,municipio,G0003,,pending,,,,,,PY0109
+G0030,San Alfredo,council,municipio,G0003,,pending,,,,,,PY0110
+G0031,Paso Barreto,council,municipio,G0003,,pending,,,,,,PY0111
+G0032,Arroyito,council,municipio,G0003,,pending,,,,,,PY0112
+G0033,Paso Horqueta,council,municipio,G0003,,pending,,,,,,PY0113
+G0034,Itacuá,council,municipio,G0003,,pending,,,,,,PY0114
+G0035,San Pedro del Ycuamandyyú,council,municipio,G0004,,pending,,,,,,PY0201
+G0036,Antequera,council,municipio,G0004,,pending,,,,,,PY0202
+G0037,Choré,council,municipio,G0004,,pending,,,,,,PY0203
+G0038,General Elizardo Aquino,council,municipio,G0004,,pending,,,,,,PY0204
+G0039,Itacurubí del Rosario,council,municipio,G0004,,pending,,,,,,PY0205
+G0040,Lima,council,municipio,G0004,,pending,,,,,,PY0206
+G0041,Nueva Germania,council,municipio,G0004,,pending,,,,,,PY0207
+G0042,San Estanislao,council,municipio,G0004,,pending,,,,,,PY0208
+G0043,San Pablo,council,municipio,G0004,,pending,,,,,,PY0209
+G0044,Tacuatí,council,municipio,G0004,,pending,,,,,,PY0210
+G0045,Unión,council,municipio,G0004,,pending,,,,,,PY0211
+G0046,25 de Diciembre,council,municipio,G0004,,pending,,,,,,PY0212
+G0047,Villa del Rosario,council,municipio,G0004,,pending,,,,,,PY0213
+G0048,General Francisco Isidoro Resquín,council,municipio,G0004,,pending,,,,,,PY0214
+G0049,Yataity del Norte,council,municipio,G0004,,pending,,,,,,PY0215
+G0050,Guajayvi,council,municipio,G0004,,pending,,,,,,PY0216
+G0051,Capiibary,council,municipio,G0004,,pending,,,,,,PY0217
+G0052,Santa Rosa del Aguaray,council,municipio,G0004,,pending,,,,,,PY0218
+G0053,Yrybucua,council,municipio,G0004,,pending,,,,,,PY0219
+G0054,Liberación,council,municipio,G0004,,pending,,,,,,PY0220
+G0055,San Vicente Pancholo,council,municipio,G0004,,pending,,,,,,PY0221
+G0056,San José del Rosario,council,municipio,G0004,,pending,,,,,,PY0222
+G0057,Caacupé,council,municipio,G0005,,pending,,,,,,PY0301
+G0058,Altos,council,municipio,G0005,,pending,,,,,,PY0302
+G0059,Arroyos y Esteros,council,municipio,G0005,,pending,,,,,,PY0303
+G0060,Atyrá,council,municipio,G0005,,pending,,,,,,PY0304
+G0061,Caraguatay,council,municipio,G0005,,pending,,,,,,PY0305
+G0062,Emboscada,council,municipio,G0005,,pending,,,,,,PY0306
+G0063,Eusebio Ayala,council,municipio,G0005,,pending,,,,,,PY0307
+G0064,Isla Pucú,council,municipio,G0005,,pending,,,,,,PY0308
+G0065,Itacurubí de la Cordillera,council,municipio,G0005,,pending,,,,,,PY0309
+G0066,Juan de Mena,council,municipio,G0005,,pending,,,,,,PY0310
+G0067,Loma Grande,council,municipio,G0005,,pending,,,,,,PY0311
+G0068,Mbocayaty del Yhaguy,council,municipio,G0005,,pending,,,,,,PY0312
+G0069,Nueva Colombia,council,municipio,G0005,,pending,,,,,,PY0313
+G0070,Piribebuy,council,municipio,G0005,,pending,,,,,,PY0314
+G0071,Primero de Marzo,council,municipio,G0005,,pending,,,,,,PY0315
+G0072,San Bernardino,council,municipio,G0005,,pending,,,,,,PY0316
+G0073,Santa Elena,council,municipio,G0005,,pending,,,,,,PY0317
+G0074,Tobatí,council,municipio,G0005,,pending,,,,,,PY0318
+G0075,Valenzuela,council,municipio,G0005,,pending,,,,,,PY0319
+G0076,San José Obrero,council,municipio,G0005,,pending,,,,,,PY0320
+G0077,Villarrica,council,municipio,G0006,,pending,,,,,,PY0401
+G0078,Borja,council,municipio,G0006,,pending,,,,,,PY0402
+G0079,Capitán Mauricio José Troche,council,municipio,G0006,,pending,,,,,,PY0403
+G0080,Coronel Martínez,council,municipio,G0006,,pending,,,,,,PY0404
+G0081,Félix Pérez Cardozo,council,municipio,G0006,,pending,,,,,,PY0405
+G0082,Gral. Eugenio A. Garay,council,municipio,G0006,,pending,,,,,,PY0406
+G0083,Independencia,council,municipio,G0006,,pending,,,,,,PY0407
+G0084,Itapé,council,municipio,G0006,,pending,,,,,,PY0408
+G0085,Iturbe,council,municipio,G0006,,pending,,,,,,PY0409
+G0086,José Fassardi,council,municipio,G0006,,pending,,,,,,PY0410
+G0087,Mbocayaty,council,municipio,G0006,,pending,,,,,,PY0411
+G0088,Natalicio Talavera,council,municipio,G0006,,pending,,,,,,PY0412
+G0089,Ñumí,council,municipio,G0006,,pending,,,,,,PY0413
+G0090,San Salvador,council,municipio,G0006,,pending,,,,,,PY0414
+G0091,Yataity,council,municipio,G0006,,pending,,,,,,PY0415
+G0092,Doctor Bottrell,council,municipio,G0006,,pending,,,,,,PY0416
+G0093,Paso Yobai,council,municipio,G0006,,pending,,,,,,PY0417
+G0094,Tebicuary,council,municipio,G0006,,pending,,,,,,PY0418
+G0095,Coronel Oviedo,council,municipio,G0007,,pending,,,,,,PY0501
+G0096,Caaguazú,council,municipio,G0007,,pending,,,,,,PY0502
+G0097,Carayaó,council,municipio,G0007,,pending,,,,,,PY0503
+G0098,Dr. Cecilio Báez,council,municipio,G0007,,pending,,,,,,PY0504
+G0099,Santa Rosa del Mbutuy,council,municipio,G0007,,pending,,,,,,PY0505
+G0100,Dr. Juan Manuel Frutos,council,municipio,G0007,,pending,,,,,,PY0506
+G0101,Repatriación,council,municipio,G0007,,pending,,,,,,PY0507
+G0102,Nueva Londres,council,municipio,G0007,,pending,,,,,,PY0508
+G0103,San Joaquín,council,municipio,G0007,,pending,,,,,,PY0509
+G0104,San José de los Arroyos,council,municipio,G0007,,pending,,,,,,PY0510
+G0105,Yhú,council,municipio,G0007,,pending,,,,,,PY0511
+G0106,Dr. J. Eulogio Estigarribia,council,municipio,G0007,,pending,,,,,,PY0512
+G0107,R.i. 3 Corrales,council,municipio,G0007,,pending,,,,,,PY0513
+G0108,Raúl Arsenio Oviedo,council,municipio,G0007,,pending,,,,,,PY0514
+G0109,José Domingo Ocampos,council,municipio,G0007,,pending,,,,,,PY0515
+G0110,Mariscal Francisco Solano López,council,municipio,G0007,,pending,,,,,,PY0516
+G0111,La Pastora,council,municipio,G0007,,pending,,,,,,PY0517
+G0112,3 de Febrero,council,municipio,G0007,,pending,,,,,,PY0518
+G0113,Simón Bolivar,council,municipio,G0007,,pending,,,,,,PY0519
+G0114,Vaquería,council,municipio,G0007,,pending,,,,,,PY0520
+G0115,Tembiaporá,council,municipio,G0007,,pending,,,,,,PY0521
+G0116,Nueva Toledo,council,municipio,G0007,,pending,,,,,,PY0522
+G0117,Caazapá,council,municipio,G0008,,pending,,,,,,PY0601
+G0118,Abaí,council,municipio,G0008,,pending,,,,,,PY0602
+G0119,Buena Vista,council,municipio,G0008,,pending,,,,,,PY0603
+G0120,Dr. Moisés S. Bertoni,council,municipio,G0008,,pending,,,,,,PY0604
+G0121,Gral. Higinio Morinigo,council,municipio,G0008,,pending,,,,,,PY0605
+G0122,Maciel,council,municipio,G0008,,pending,,,,,,PY0606
+G0123,San Juan Nepomuceno,council,municipio,G0008,,pending,,,,,,PY0607
+G0124,Tavaí,council,municipio,G0008,,pending,,,,,,PY0608
+G0125,Yegros,council,municipio,G0008,,pending,,,,,,PY0609
+G0126,Yuty,council,municipio,G0008,,pending,,,,,,PY0610
+G0127,3 de Mayo,council,municipio,G0008,,pending,,,,,,PY0611
+G0128,Encarnación,council,municipio,G0009,,pending,,,,,,PY0701
+G0129,Bella Vista,council,municipio,G0009,,pending,,,,,,PY0702
+G0130,Cambyretá,council,municipio,G0009,,pending,,,,,,PY0703
+G0131,Capitán Meza,council,municipio,G0009,,pending,,,,,,PY0704
+G0132,Capitán Miranda,council,municipio,G0009,,pending,,,,,,PY0705
+G0133,Nueva Alborada,council,municipio,G0009,,pending,,,,,,PY0706
+G0134,Carmen del Paraná,council,municipio,G0009,,pending,,,,,,PY0707
+G0135,Coronel Bogado,council,municipio,G0009,,pending,,,,,,PY0708
+G0136,Carlos Antonio López,council,municipio,G0009,,pending,,,,,,PY0709
+G0137,Natalio,council,municipio,G0009,,pending,,,,,,PY0710
+G0138,Fram,council,municipio,G0009,,pending,,,,,,PY0711
+G0139,General Artigas,council,municipio,G0009,,pending,,,,,,PY0712
+G0140,General Delgado,council,municipio,G0009,,pending,,,,,,PY0713
+G0141,Hohenau,council,municipio,G0009,,pending,,,,,,PY0714
+G0142,Jesús,council,municipio,G0009,,pending,,,,,,PY0715
+G0143,José Leandro Oviedo,council,municipio,G0009,,pending,,,,,,PY0716
+G0144,Obligado,council,municipio,G0009,,pending,,,,,,PY0717
+G0145,Mayor Julio Dionisio Otaño,council,municipio,G0009,,pending,,,,,,PY0718
+G0146,San Cosme y Damián,council,municipio,G0009,,pending,,,,,,PY0719
+G0147,San Pedro del Paraná,council,municipio,G0009,,pending,,,,,,PY0720
+G0148,San Rafael del Paraná,council,municipio,G0009,,pending,,,,,,PY0721
+G0149,Trinidad,council,municipio,G0009,,pending,,,,,,PY0722
+G0150,Edelira,council,municipio,G0009,,pending,,,,,,PY0723
+G0151,Tomás Romero Pereira,council,municipio,G0009,,pending,,,,,,PY0724
+G0152,Alto Verá,council,municipio,G0009,,pending,,,,,,PY0725
+G0153,La Paz,council,municipio,G0009,,pending,,,,,,PY0726
+G0154,Yatytay,council,municipio,G0009,,pending,,,,,,PY0727
+G0155,San Juan del Paraná,council,municipio,G0009,,pending,,,,,,PY0728
+G0156,Pirapó,council,municipio,G0009,,pending,,,,,,PY0729
+G0157,Itapúa Poty,council,municipio,G0009,,pending,,,,,,PY0730
+G0158,San Juan Bautista de las Misiones,council,municipio,G0010,,pending,,,,,,PY0801
+G0159,Ayolas,council,municipio,G0010,,pending,,,,,,PY0802
+G0160,San Ignacio,council,municipio,G0010,,pending,,,,,,PY0803
+G0161,San Miguel,council,municipio,G0010,,pending,,,,,,PY0804
+G0162,San Patricio,council,municipio,G0010,,pending,,,,,,PY0805
+G0163,Santa María,council,municipio,G0010,,pending,,,,,,PY0806
+G0164,Santa Rosa,council,municipio,G0010,,pending,,,,,,PY0807
+G0165,Santiago,council,municipio,G0010,,pending,,,,,,PY0808
+G0166,Villa Florida,council,municipio,G0010,,pending,,,,,,PY0809
+G0167,Yabebyry,council,municipio,G0010,,pending,,,,,,PY0810
+G0168,Paraguarí,council,municipio,G0011,,pending,,,,,,PY0901
+G0169,Acahay,council,municipio,G0011,,pending,,,,,,PY0902
+G0170,Caapucú,council,municipio,G0011,,pending,,,,,,PY0903
+G0171,Caballero,council,municipio,G0011,,pending,,,,,,PY0904
+G0172,Carapeguá,council,municipio,G0011,,pending,,,,,,PY0905
+G0173,Escobar,council,municipio,G0011,,pending,,,,,,PY0906
+G0174,La Colmena,council,municipio,G0011,,pending,,,,,,PY0907
+G0175,Mbuyapey,council,municipio,G0011,,pending,,,,,,PY0908
+G0176,Pirayú,council,municipio,G0011,,pending,,,,,,PY0909
+G0177,Quiindy,council,municipio,G0011,,pending,,,,,,PY0910
+G0178,Quyquyhó,council,municipio,G0011,,pending,,,,,,PY0911
+G0179,Roque Gonzalez de Santa Cruz,council,municipio,G0011,,pending,,,,,,PY0912
+G0180,Sapucái,council,municipio,G0011,,pending,,,,,,PY0913
+G0181,Tebicuary-mí,council,municipio,G0011,,pending,,,,,,PY0914
+G0182,Yaguarón,council,municipio,G0011,,pending,,,,,,PY0915
+G0183,Ybycuí,council,municipio,G0011,,pending,,,,,,PY0916
+G0184,Ybytymí,council,municipio,G0011,,pending,,,,,,PY0917
+G0185,María Antonia,council,municipio,G0011,,pending,,,,,,PY0918
+G0186,Ciudad del Este,council,municipio,G0012,,pending,,,,,,PY1001
+G0187,Presidente Franco,council,municipio,G0012,,pending,,,,,,PY1002
+G0188,Domingo Martínez de Irala,council,municipio,G0012,,pending,,,,,,PY1003
+G0189,Dr. Juan León Mallorquín,council,municipio,G0012,,pending,,,,,,PY1004
+G0190,Hernandarias,council,municipio,G0012,,pending,,,,,,PY1005
+G0191,Itakyry,council,municipio,G0012,,pending,,,,,,PY1006
+G0192,Juan E. O'leary,council,municipio,G0012,,pending,,,,,,PY1007
+G0193,Ñacunday,council,municipio,G0012,,pending,,,,,,PY1008
+G0194,Yguazú,council,municipio,G0012,,pending,,,,,,PY1009
+G0195,Los Cedrales,council,municipio,G0012,,pending,,,,,,PY1010
+G0196,Minga Guazú,council,municipio,G0012,,pending,,,,,,PY1011
+G0197,San Cristóbal,council,municipio,G0012,,pending,,,,,,PY1012
+G0198,Santa Rita,council,municipio,G0012,,pending,,,,,,PY1013
+G0199,Naranjal,council,municipio,G0012,,pending,,,,,,PY1014
+G0200,Santa Rosa del Monday,council,municipio,G0012,,pending,,,,,,PY1015
+G0201,Minga Porá,council,municipio,G0012,,pending,,,,,,PY1016
+G0202,Mbaracayú,council,municipio,G0012,,pending,,,,,,PY1017
+G0203,San Alberto,council,municipio,G0012,,pending,,,,,,PY1018
+G0204,Iruña,council,municipio,G0012,,pending,,,,,,PY1019
+G0205,Santa Fe del Paraná,council,municipio,G0012,,pending,,,,,,PY1020
+G0206,Tavapy,council,municipio,G0012,,pending,,,,,,PY1021
+G0207,Dr. Raúl Peña,council,municipio,G0012,,pending,,,,,,PY1022
+G0208,Areguá,council,municipio,G0013,,pending,,,,,,PY1101
+G0209,Capiatá,council,municipio,G0013,,pending,,,,,,PY1102
+G0210,Fernando de la Mora,council,municipio,G0013,,pending,,,,,,PY1103
+G0211,Guarambaré,council,municipio,G0013,,pending,,,,,,PY1104
+G0212,Itá,council,municipio,G0013,,pending,,,,,,PY1105
+G0213,Itauguá,council,municipio,G0013,,pending,,,,,,PY1106
+G0214,Lambaré,council,municipio,G0013,,pending,,,,,,PY1107
+G0215,Limpio,council,municipio,G0013,,pending,,,,,,PY1108
+G0216,Luque,council,municipio,G0013,,pending,,,,,,PY1109
+G0217,Mariano Roque Alonso,council,municipio,G0013,,pending,,,,,,PY1110
+G0218,Nueva Italia,council,municipio,G0013,,pending,,,,,,PY1111
+G0219,Ñemby,council,municipio,G0013,,pending,,,,,,PY1112
+G0220,San Antonio,council,municipio,G0013,,pending,,,,,,PY1113
+G0221,San Lorenzo,council,municipio,G0013,,pending,,,,,,PY1114
+G0222,Villa Elisa,council,municipio,G0013,,pending,,,,,,PY1115
+G0223,Villeta,council,municipio,G0013,,pending,,,,,,PY1116
+G0224,Ypacaraí,council,municipio,G0013,,pending,,,,,,PY1117
+G0225,Ypané,council,municipio,G0013,,pending,,,,,,PY1118
+G0226,J. Augusto Saldívar,council,municipio,G0013,,pending,,,,,,PY1119
+G0227,Pilar,council,municipio,G0014,,pending,,,,,,PY1201
+G0228,Alberdi,council,municipio,G0014,,pending,,,,,,PY1202
+G0229,Cerrito,council,municipio,G0014,,pending,,,,,,PY1203
+G0230,Desmochados,council,municipio,G0014,,pending,,,,,,PY1204
+G0231,Gral. José Eduvigis Díaz,council,municipio,G0014,,pending,,,,,,PY1205
+G0232,Guazú-cuá,council,municipio,G0014,,pending,,,,,,PY1206
+G0233,Humaitá,council,municipio,G0014,,pending,,,,,,PY1207
+G0234,Isla Umbú,council,municipio,G0014,,pending,,,,,,PY1208
+G0235,Laureles,council,municipio,G0014,,pending,,,,,,PY1209
+G0236,Mayor José Dejesús Martínez,council,municipio,G0014,,pending,,,,,,PY1210
+G0237,Paso de Patria,council,municipio,G0014,,pending,,,,,,PY1211
+G0238,San Juan Bautista de Ñeembucú,council,municipio,G0014,,pending,,,,,,PY1212
+G0239,Tacuaras,council,municipio,G0014,,pending,,,,,,PY1213
+G0240,Villa Franca,council,municipio,G0014,,pending,,,,,,PY1214
+G0241,Villa Oliva,council,municipio,G0014,,pending,,,,,,PY1215
+G0242,Villalbín,council,municipio,G0014,,pending,,,,,,PY1216
+G0243,Pedro Juan Caballero,council,municipio,G0015,,pending,,,,,,PY1301
+G0244,Bella Vista,council,municipio,G0015,,pending,,,,,,PY1302
+G0245,Capitán Bado,council,municipio,G0015,,pending,,,,,,PY1303
+G0246,Zanja Pyta,council,municipio,G0015,,pending,,,,,,PY1304
+G0247,Karapaí,council,municipio,G0015,,pending,,,,,,PY1305
+G0248,Cerro Corá,council,municipio,G0015,,pending,,,,,,PY1306
+G0249,Salto del Guairá,council,municipio,G0016,,pending,,,,,,PY1401
+G0250,Corpus Christi,council,municipio,G0016,,pending,,,,,,PY1402
+G0251,Villa Curuguaty,council,municipio,G0016,,pending,,,,,,PY1403
+G0252,Villa Ygatimí,council,municipio,G0016,,pending,,,,,,PY1404
+G0253,Itanará,council,municipio,G0016,,pending,,,,,,PY1405
+G0254,Ypejhú,council,municipio,G0016,,pending,,,,,,PY1406
+G0255,Francisco Caballero Alvarez,council,municipio,G0016,,pending,,,,,,PY1407
+G0256,Katueté,council,municipio,G0016,,pending,,,,,,PY1408
+G0257,La Paloma del Espíritu Santo,council,municipio,G0016,,pending,,,,,,PY1409
+G0258,Nueva Esperanza,council,municipio,G0016,,pending,,,,,,PY1410
+G0259,Yasy Cañy,council,municipio,G0016,,pending,,,,,,PY1411
+G0260,Ybyrarobaná,council,municipio,G0016,,pending,,,,,,PY1412
+G0261,Yby Pytá,council,municipio,G0016,,pending,,,,,,PY1413
+G0262,Maracaná,council,municipio,G0016,,pending,,,,,,PY1414
+G0263,Puerto Adela,council,municipio,G0016,,pending,,,,,,PY1415
+G0264,Laurel,council,municipio,G0016,,pending,,,,,,PY1416
+G0265,Benjamín Aceval,council,municipio,G0017,,pending,,,,,,PY1502
+G0266,Puerto Pinasco,council,municipio,G0017,,pending,,,,,,PY1503
+G0267,Villa Hayes,council,municipio,G0017,,pending,,,,,,PY1504
+G0268,Nanawa,council,municipio,G0017,,pending,,,,,,PY1505
+G0269,José Falcón,council,municipio,G0017,,pending,,,,,,PY1506
+G0270,Tte. 1° Manuel Irala Fernández,council,municipio,G0017,,pending,,,,,,PY1507
+G0271,Teniente Esteban Martínez,council,municipio,G0017,,pending,,,,,,PY1508
+G0272,General José María Bruguez,council,municipio,G0017,,pending,,,,,,PY1509
+G0273,Campo Aceval,council,municipio,G0017,,pending,,,,,,PY1510
+G0274,Nueva Asunción,council,municipio,G0017,,pending,,,,,,PY1511
+G0275,Mariscal José Félix Estigarribia,council,municipio,G0018,,pending,,,,,,PY1602
+G0276,Filadelfia,council,municipio,G0018,,pending,,,,,,PY1604
+G0277,Loma Plata,council,municipio,G0018,,pending,,,,,,PY1605
+G0278,Boquerón,council,municipio,G0018,,pending,,,,,,PY1606
+G0279,Fuerte Olimpo,council,municipio,G0019,,pending,,,,,,PY1701
+G0280,Puerto Casado,council,municipio,G0019,,pending,,,,,,PY1702
+G0281,Bahía Negra,council,municipio,G0019,,pending,,,,,,PY1704
+G0282,Carmelo Peralta,council,municipio,G0019,,pending,,,,,,PY1705

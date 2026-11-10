@@ -1,0 +1,20 @@
+position_id,actor_id,body_id,role,party,geo_unit_id,start,end,current,member_ref,checked,source_url
+O00001,A0001,B0001,Senador de la Nación,Frente Guasu,G0001,2013,2023,n,,2026-11-10,https://es.wikipedia.org/wiki/Hugo_Richer
+O00002,A0002,B0001,Senador de la Nación,Democratic Progressive Party,G0001,2013,2023,n,,2026-11-10,https://es.wikipedia.org/wiki/Pedro_Santa_Cruz_(pol%C3%ADtico)
+O00003,A0003,B0001,Senador de la Nación,PLRA,G0001,2018,2021,n,,2026-11-10,https://es.wikipedia.org/wiki/V%C3%ADctor_R%C3%ADos_Ojeda
+O00004,A0003,B0003,Ministro de la Corte Suprema de Justicia,,G0001,2021-11-04,,y,,2026-11-10,https://es.wikipedia.org/wiki/V%C3%ADctor_R%C3%ADos_Ojeda
+O00005,A0004,B0001,Senadora de la Nación,Frente Guasu,G0001,2013,,y,,2026-11-10,https://es.wikipedia.org/wiki/Esperanza_Mart%C3%ADnez_(pol%C3%ADtica)
+O00006,A0005,B0001,Senador de la Nación,Frente Guasu,G0001,2003,2023,n,,2026-11-10,https://es.wikipedia.org/wiki/Carlos_Filizzola
+O00007,A0006,B0001,Senador de la Nación,Frente Guasu,G0001,2018,2023,n,,2026-11-10,https://es.wikipedia.org/wiki/Jorge_Querey
+O00008,A0007,B0001,Senador de la Nación,Frente Guasu,G0001,2008,2023,n,,2026-11-10,https://es.wikipedia.org/wiki/Sixto_Pereira
+O00009,A0008,B0002,Diputada Nacional,National Encounter Party,G0187,2018,2023,n,,2026-11-10,https://es.wikipedia.org/wiki/Kattya_Gonz%C3%A1lez
+O00010,A0008,B0001,Senadora de la Nación,National Encounter Party,G0001,2023,2024-02-15,n,,2026-11-10,https://es.wikipedia.org/wiki/Kattya_Gonz%C3%A1lez
+O00011,A0009,B0001,Senadora de la Nación,Democratic Progressive Party,G0001,2013,2023,n,,2026-11-10,https://es.wikipedia.org/wiki/Desir%C3%A9e_Masi
+P0012,A0016,B0001,Senador de la Nación,Frente Guasu,G0001,2018-06-30,2023-06-30,n,,2026-11-10,https://silpy.congreso.gov.py/web/legislador/100649
+P0013,A0017,B0001,Senador de la Nación,Frente Guasu,G0001,2019-06-06,2023-06-30,n,,2026-11-10,https://silpy.congreso.gov.py/web/legislador/101105
+P0014,A0020,B0001,Senador de la Nación,Partido Hagamos,G0001,2018-06-30,2023-06-30,n,,2026-11-10,https://silpy.congreso.gov.py/web/legislador/100660
+P0015,A0021,B0001,Senador de la Nación,PLRA,G0001,2018-06-30,,y,,2026-11-10,https://silpy.congreso.gov.py/web/legislador/100648
+P0016,A0022,B0001,Senador de la Nación,PLRA,G0001,2018-06-30,2023-06-30,n,,2026-11-10,https://silpy.congreso.gov.py/web/legislador/100666
+P0017,A0023,B0001,Senador de la Nación,PLRA,G0001,2018-06-30,,y,,2026-11-10,https://silpy.congreso.gov.py/web/legislador/100688
+P0018,A0024,B0001,Senador de la Nación,Colorado Party (ANR),G0001,2013-06-30,,y,,2026-11-10,https://silpy.congreso.gov.py/web/legislador/100665
+P0019,A0025,B0001,Senador de la Nación,PLRA,G0001,2019-06-06,2023-06-30,n,,2026-11-10,https://silpy.congreso.gov.py/web/legislador/101145
