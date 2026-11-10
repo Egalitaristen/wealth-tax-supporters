@@ -1363,9 +1363,15 @@ def share_pages(out, base, countries, full, unique=None, bodies=(), resources=()
                                     [("1", "Report a bug"), ("2", "Suggest an improvement"), ("3", "Flag a mistake")]))
 
     write("/calculator", "Wealth tax bracket calculator · Wealth Tax Supporters",
-          "Set the brackets and see what a wealth tax with a high threshold really costs: only the part above the line is taxed, so a fortune just over it pays almost nothing.",
-          "calculator", "Wealth tax bracket calculator", lambda o: cards.page_card(o, "Calculator", "Only the part above the line is taxed", "A 2% bracket over 10M: a 15M fortune pays 100,000 a year, a 9M fortune pays nothing.",
-                                    [("2%", "on the part above 10M"), ("100,000", "a year on 15M (0.67%)"), ("0", "a year on 9M")]))
+          "Try real wealth taxes, in force, ended and proposed, from Spain and Norway to the US and Germany, or set your own brackets. Only the part above each line is taxed.",
+          "calculator", "Wealth tax bracket calculator", lambda o: cards.calculator_card(o, [
+              # the same bracket tables as CALC_PRESETS in site/app.js, all in euro
+              ("Spain, in force", [(3700000, 1.7), (6047998.03, 2.1), (11395996.06, 3.5)], cards.SIGNAL),
+              ("Austria, SPÖ", [(1000000, 0.5), (10000000, 1), (50000000, 2)], cards.INK),
+              ("France, ISF", [(800000, 0.5), (1300000, 0.7), (2570000, 1), (5000000, 1.25), (10000000, 1.5)], (40, 90, 170)),
+              ("Finland, Left", [(1000000, 0.5)], cards.INK3)],
+              "Try a real wealth tax on your own numbers",
+              "Scales from Spain to the US, in force, ended and proposed. Only the part above each line is taxed. Change the rates and share the result."))
 
     write("/report", "Report a mistake · Wealth Tax Supporters",
           "Something wrong in an entry, or want one about you removed or corrected? Tell us here. No account needed.",
