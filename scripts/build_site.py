@@ -323,7 +323,7 @@ def build_supranational(folder, full):
 
 
 RESOURCE_KINDS = ("poll", "paper", "report", "bill")
-PAGE_KINDS = ("bill",)  # kinds that get their own page at /resources/<slug>; add "report" and "paper" here to extend it
+PAGE_KINDS = ("bill", "report", "paper")  # kinds that get their own page at /resources/<slug>
 RESOURCE_RAW = {}  # slug -> the resource's full entry from resources.json, for its page
 BILL_STATES = {"in_force": "In force", "pending": "Pending", "rejected": "Rejected", "lapsed": "Lapsed", "adopted": "Adopted"}
 
@@ -1182,13 +1182,15 @@ def resource_body(r, raw_r, people, docs, ev):
     paras = [p.strip() for p in (raw_r.get("overview") or "").split("\n\n") if p.strip()]
     if paras:
         over = '<section class="bp-sec" id="overview"><h2>Overview</h2>' + "".join(f"<p>{h(p)}</p>" for p in paras) +             '<p class="bp-note">Written from the records and links on this page.</p></section>'
+    elif r["kind"] != "bill":  # a paper or report: the summary under the title is its overview
+        over = ""
     else:
         over = ('<section class="bp-sec" id="overview"><h2>Overview</h2><p class="bp-todo"><b>Detailed overview not yet written.</b> '
                 'Until it is, the summary above and the sourced records below are what the register holds about this bill.</p></section>')
     ppl = ""
     if people:
         ppl = (f'<section class="bp-sec" id="people"><h2>People in the register <span class="bp-n">{len(people):,}</span></h2>'
-               f'<p class="bp-note">Sponsors and signatories who are on a register, each with the statement they rest on.</p><ul class="bp-people">'
+               f'<p class="bp-note">{"Sponsors and signatories" if r["kind"] == "bill" else "Authors and others"} who are on a register, each with the statement they rest on.</p><ul class="bp-people">'
                + "".join(f'<li><a href="/{h(c)}/{h(i)}">{h(n)}</a></li>' for c, i, n in people) + "</ul></section>")
     evh = ""
     if ev:
@@ -1205,7 +1207,7 @@ def resource_body(r, raw_r, people, docs, ev):
         counts = collections.Counter(e["type"] for e in ev)
         summ = ", ".join(f"{n:,} {EVIDENCE_COUNT.get(t, (t.replace('_', ' '),) * 2)[n != 1]}" for t, n in counts.most_common())
         evh = (f'<section class="bp-sec" id="evidence"><h2>On the record <span class="bp-n">{len(ev):,}</span></h2>'
-               f'<p class="bp-note">Statements, votes and sponsorships in the register whose source is this bill or one of its documents: {h(summ)}.</p>'
+               f'<p class="bp-note">Statements, votes and sponsorships in the register whose source is this {"bill" if r["kind"] == "bill" else r["kind"]} or one of its documents: {h(summ)}.</p>'
                f'<ul class="bp-list">{"".join(item(e) for e in first)}</ul>'
                + (f'<details class="bp-more"><summary>Show the other {len(rest):,}</summary><ul class="bp-list">{"".join(item(e) for e in rest)}</ul></details>' if rest else "") + "</section>")
     dch = ""
@@ -1217,7 +1219,7 @@ def resource_body(r, raw_r, people, docs, ev):
             return (f'<li class="bp-doc"><div class="bp-evh">{ttl}<span class="tag{" signal" if d["read_status"] == "read" else ""}">{h(READ_STATUS.get(d["read_status"], d["read_status"]))}</span></div>'
                     f'<div class="bp-m">{h(meta)}</div>' + (f'<details class="bp-det"><summary>What the reading found</summary>{extra}</details>' if extra else "") + "</li>")
         dch = (f'<section class="bp-sec" id="documents"><h2>Official documents <span class="bp-n">{len(docs):,}</span></h2>'
-               f'<p class="bp-note">From the records tracker for {h(r["cname"])}: the bill, its debates, votes and committee reports, and whether each has been read in full.</p>'
+               f'<p class="bp-note">From the records tracker for {h(r["cname"])}: {"the bill" if r["kind"] == "bill" else "this " + r["kind"]}, its debates, votes and committee reports, and whether each has been read in full.</p>'
                f'<ul class="bp-list">{"".join(ditem(d) for _, d in docs)}</ul></section>')
     head = (f'<div class="wrap page-head fade bp-head">{crumb}'
             f'<div class="kicker" style="margin-top:22px">{h(RES_KIND_ONE.get(r["kind"], r["kind"]))} · {h(r["cname"])}</div>'
@@ -1275,9 +1277,9 @@ def resource_pages(write, resources, full, cards, countries):
         ev.sort(key=lambda e: (e["grade"], e["type"] != "vote", e["date"] or "", e["name"]))
         people = r.get("people", [])
         year = str(r["published"])[:4]
-        desc = " ".join(x for x in (ensure_stop(r.get("summary")), f"{BILL_STATES.get(r.get('state'), 'Listed')} · {r['cname']}, {year}.") if x)
+        desc = " ".join(x for x in (ensure_stop(r.get("summary")), f"{BILL_STATES.get(r.get('state')) or RES_KIND_ONE.get(r['kind'], 'Listed')} · {r['cname']}, {year}.") if x)
         desc = desc if len(desc) <= 300 else desc[:297].rsplit(" ", 1)[0] + "…"
-        pts = [(BILL_STATES.get(r.get("state"), "") or "Listed", "status"), (year, "introduced")]
+        pts = [(BILL_STATES.get(r.get("state"), "") or "Listed", "status"), (year, "introduced")] if r["kind"] == "bill" else [(RES_KIND_ONE.get(r["kind"], "Listed"), "type"), (year, "published")]
         if people:
             pts.append((f"{len(people):,}", "people in the register"))
         if ev:

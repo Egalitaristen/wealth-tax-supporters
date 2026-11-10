@@ -61,6 +61,7 @@ Files in this skill (use them if present; the rules in this file are sufficient 
 7. **Controlled vocabularies only** (section 5). If nothing fits, use the closest value and say so in `notes`; propose a vocabulary change in the run log rather than inventing a value.
 8. **Report counts from the files**, not from memory (`wtdb.py status`, or count the CSV rows).
 9. **Search in every official language of the area** (local-language terms are in the source playbook). English-only searching misses most of the local layer.
+10. **The Resources page does not list opposition either.** Do not add to `data/resources.json` a paper, report or bill whose purpose is to argue against a wealth tax or to abolish, cut or delay one: a think-tank or employers' analysis of why it would fail, a bill to repeal it. Neutral and mixed work stays (an official estimate, an evaluation of a repeal, a study of what happened after a tax was cut, a committee that keeps the tax but reshapes it). When you find opposition, record it in `data/resources_excluded.json` (country, kind, title, by, url, `reason: opposes`, a one-line note) so nobody adds it again, and leave it out of `resources.json`.
 
 ---
 
