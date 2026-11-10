@@ -738,3 +738,52 @@ def story_card(out, c, units, title, standfirst):
         _footer(dr)
         _save(img, path)
     return cached(out, ["story", c["name"], c.get("slug"), title, standfirst, len(units)], draw)
+
+
+# ---------- calculator card ----------
+def _bracket_tax(rows, w):
+    """Marginal brackets: rows are (threshold, rate in percent); the same sum as calcTax() in site/app.js."""
+    t = 0.0
+    for i, (lo, rate) in enumerate(rows):
+        hi = rows[i + 1][0] if i + 1 < len(rows) else float("inf")
+        if w > lo:
+            t += (min(w, hi) - lo) * rate / 100
+    return t
+
+
+def calculator_card(out, curves, title, line, unit="€"):
+    """The calculator page: real schemes drawn as the share of wealth they take, by wealth on a log scale.
+    curves: (label, rows, colour) with rows as (threshold, percent), all in one currency."""
+    import math
+    def draw(path):
+        img, dr = _canvas()
+        _blurb(dr, "Calculator", title, line)
+        _panel(dr)
+        dr.text((772 * S, 62 * S), f"SHARE OF WEALTH TAKEN EACH YEAR, {unit}1M TO {unit}10BN", font=SANS(15, 500), fill=INK3)
+        x0, x1, y0, y1 = 800, 1030, 130, 456  # chart box; the labels sit to the right of x1
+        top = 4.0
+        sx = lambda w: x0 + (x1 - x0) * (math.log10(w) - 6) / 4
+        sy = lambda r: y1 - (y1 - y0) * r / top
+        for r in range(0, 5):
+            dr.line((x0 * S, sy(r) * S, x1 * S, sy(r) * S), fill=RULE, width=S)
+            dr.text(((x0 - 10) * S, sy(r) * S), f"{r}%", font=SANS(15), fill=INK3, anchor="rm")
+        for e, lab in ((6, "1M"), (7, "10M"), (8, "100M"), (9, "1bn"), (10, "10bn")):
+            gx = sx(10 ** e)
+            dr.line((gx * S, y1 * S, gx * S, (y1 + 6) * S), fill=INK3, width=S)
+            dr.text((gx * S, (y1 + 10) * S), lab, font=SANS(15), fill=INK3, anchor="ma")
+        ends = []
+        for lab, rows, col in curves:
+            pts = []
+            for k in range(0, 161):
+                w = 10 ** (6 + 4 * k / 160)
+                pts.append((sx(w) * S, sy(min(top, 100 * _bracket_tax(rows, w) / w)) * S))
+            dr.line(pts, fill=col, width=4 * S, joint="curve")
+            ends.append([lab, col, pts[-1][1] / S])
+        ends.sort(key=lambda e: e[2])
+        for i in range(1, len(ends)):  # keep the end labels apart
+            ends[i][2] = max(ends[i][2], ends[i - 1][2] + 24)
+        for lab, col, y in ends:
+            dr.text(((x1 + 12) * S, y * S), lab, font=SANS(17, 500), fill=col, anchor="lm")
+        _footer(dr)
+        _save(img, path)
+    return cached(out, ["calc", title, line, unit, [[l, [list(r) for r in rows], list(c)] for l, rows, c in curves]], draw)
