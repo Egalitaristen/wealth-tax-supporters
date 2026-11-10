@@ -2,7 +2,7 @@
 
 ## 1. Scope
 - Area: Vietnam (Cộng hòa Xã hội chủ nghĩa Việt Nam); type: country
-- Depth: Seed (R001, November 2026)
+- Depth: Seed (R001) & Civil Society Deep Dive (R002, November 2026)
 - Levels of government in scope: National (Quốc hội Việt Nam / National Assembly), Regional (63 provinces and centrally-governed cities), Local (705 district-level units: *quận*, *huyện*, *thị xã*, *thành phố thuộc tỉnh*). Sub-councils (communes/wards/towns) excluded from local tier per SKILL.md 6.7.
 - Languages to search in: Vietnamese (vi), English (en)
 - Date of first run: 2026-11-10
@@ -11,7 +11,7 @@
 - **Current status:** Vietnam has no statutory net wealth tax (*thuế tài sản ròng*) or billionaire minimum tax (*thuế tỷ phú*). The tax system is predominantly based on indirect taxes (VAT, Special Consumption Tax) and direct taxes on income and corporate profits.
 - **The 2018 Draft Law on Property Tax (*Dự án Luật Thuế tài sản*):** In April 2018, the Ministry of Finance (*Bộ Tài chính*) published a draft property tax law proposing annual levies on housing exceeding 700 million or 1 billion VND (0.3%–0.4%), non-agricultural land, luxury cars valued over 1.5 billion VND, aircraft, and yachts. The draft triggered widespread national debate and severe public pushback over double taxation and low thresholds. It was shelved in 2018 and never introduced to the National Assembly plenary. (Excluded under section 2 as a gross physical property / single-asset tax).
 - **Ongoing real estate and second-home tax debate:** The Communist Party of Vietnam's Central Committee adopted Resolution 18-NQ/TW in June 2022 on reforming land policy, directing higher tax rates on individuals holding multiple properties or leaving land vacant (*thuế bất động sản thứ hai, thuế đất bỏ hoang*). Economists and National Assembly deputies actively debate these real estate measures, but they remain single-asset property taxes rather than broad net wealth taxes.
-- **International and Civil Society advocacy:** Oxfam in Vietnam (*Oxfam tại Việt Nam*) actively champions progressive wealth taxation on multi-millionaires and billionaires through national releases of global reports (*Survival of the Richest*, *Inequality Inc.*, *Takers Not Makers*) calling for up to 5% net wealth taxes to tackle extreme wealth concentration and fund social protection.
+- **International and Civil Society advocacy:** Oxfam in Vietnam (*Oxfam tại Việt Nam*) actively champions progressive wealth taxation on multi-millionaires and billionaires through national releases of global reports (*Survival of the Richest*, *Inequality Inc.*, *Takers Not Makers*) calling for up to 5% net wealth taxes (*thuế tài sản ròng*) to tackle extreme wealth concentration and fund social protection. Research into other civil society networks (VATJ, ActionAid Vietnam, CEPEW) confirms that their advocacy is directed toward corporate tax incentives, illicit financial flows, and reducing regressive VAT burdens rather than net wealth taxation.
 
 ## 3. Legislatures and where their records are
 - **National Assembly of Vietnam (*Quốc hội Việt Nam*):**
