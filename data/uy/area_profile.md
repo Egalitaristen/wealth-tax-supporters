@@ -66,3 +66,4 @@ Updated through legislative records and debate expansion pass of 2026-11-09 (run
 ## Review corrections (10 Nov 2026)
 - Dropped E00032 (Andrés Cabrera) and E00041 (Alberto Couriel): the first says strengthening the housing fund is necessary and treats the surcharge only as "some other instrument"; the second says nothing about a wealth tax.
 - Downgraded E00037 (Rafael Michelini) and E00038 (Enrique Rubio) to grade B: both explain the 2013 agricultural bill and its thresholds, with no roll call, so support is inferred.
+- Removed the actors Andrés Cabrera (A0031) and Alberto Couriel (A0036), who had no other evidence.
