@@ -5,7 +5,7 @@
 - Depth: Seed and legislative deep dive (prominent supporters in every layer at national level; comprehensive roll-call and bill-sponsorship extraction; geography loaded down to local tier; plan for next runs)
 - Levels of government in scope: National (Congreso Nacional: Cámara de Senadores and Cámara de Diputados; Corte Suprema de Justicia; Executive); regional (17 departamentos and Capital District Asunción) and local (263 distritos / municipios in `geo_units.csv` and `boundaries.json`). Regional and local levels were sampled and not individually swept as subnational units lack tax powers.
 - Languages to search in: Spanish (`es`), Guaraní (`gn`)
-- Runs completed: R001 (2026-11-10, seed pass), R002 (2026-11-10, legislative roll-call and sponsor deep dive)
+- Runs completed: R001 (2026-11-10, seed pass), R002 (2026-11-10, legislative roll-call and sponsor deep dive), R003 (2026-11-10, civil society coalitions, CODEHUPY, think tanks, and local tier competence audit)
 
 ## 2. Wealth tax history and live proposals (2010 onwards)
 - **Existing tax background:** Paraguay has never enacted a recurrent general net wealth tax or inheritance tax. The tax system relies predominantly on consumption taxes (IVA ~50% of tax revenue) and flat 10% rates (the "10-10-10" model: IRE, IRP, IVA). Real estate is subject to municipal property tax (*impuesto inmobiliario*), which is low and distinct from net wealth.
@@ -32,9 +32,9 @@
 
 ## 5. Government below national level
 - **Structure:** 17 departamentos + 1 Distrito Capital (Asunción) at the regional level. Below departments: 263 distritos (municipios) governed by *intendencias* and *juntas municipales*.
-- **Taxation powers:** Subnational levels cannot introduce income or net wealth taxes. Municipalities levy local real estate property taxes (*impuesto inmobiliario*) and municipal fees. All calls for net wealth taxation are addressed to the national Congreso.
+- **Taxation powers:** Subnational levels cannot introduce income or net wealth taxes (Art. 170 and 179 of the National Constitution). Municipalities levy local real estate property taxes (*impuesto inmobiliario*) and municipal fees (*patentes* and *tasas*) strictly delimited by Ley Orgánica Municipal N° 3966/2010. All calls for net wealth taxation are addressed exclusively to the national Congreso.
 - **Official geography sources:** DGEEC / Instituto Nacional de Estadística (INE) via OCHA HDX COD-AB Paraguay (CC BY-IGO). The register covers all 18 regions and 263 distritos.
-- **Local decision:** National actions sampled; local units were not swept one by one as subnational councils lack tax competency and no local wealth tax motions have been identified to date.
+- **Local decision:** National actions sampled; local municipal records in Asunción and Central departments were sampled during 2020–2021. Municipal responses were strictly restricted to fee waivers (*exoneración de recargos*), patent extensions, and emergency soup kitchens (*ollas populares*). Local units were not swept individually as subnational councils lack tax competency and no local wealth tax motions have been identified to date (SKILL.md 6.5).
 
 ## 6. Search terms
 - Spanish: `"impuesto a la riqueza"`, `"impuesto a las grandes fortunas"`, `"impuesto al patrimonio"`, `"tasa extraordinaria a las grandes fortunas"`, `"tasa covid"`, `"aporte solidario"`, `"emergencia educativa"`, `"justicia fiscal"`
@@ -54,13 +54,13 @@
 - Contraloría General de la República (asset declarations of public officials): [contraloria.gov.py](https://www.contraloria.gov.py)
 
 ## 9. Known networks
+- **CODEHUPY (Coordinadora de Derechos Humanos del Paraguay):** Leading national human rights coalition of 35 civil society and popular organisations; publishes annual national human rights reports and officially advocates progressive wealth taxation to fund basic social rights. Led by Executive Secretary Óscar Ayala Amarilla (2018–2022).
 - **OTEP-SN (Organización de Trabajadores de la Educación del Paraguay - Sindicato Nacional):** Core union proponent of the 2021 wealth tax bill.
 - **Decidamos (Campaña por la Expresión Ciudadana):** Prominent Paraguayan tax justice NGO, national affiliate of Latindadd.
 - **Latindadd (Red Latinoamericana por Justicia Económica y Social):** Regional network active in Paraguay.
-- **CADEP (Centro de Análisis y Difusión de la Economía Paraguaya):** Economic research center where progressive tax economists publish.
+- **CADEP (Centro de Análisis y Difusión de la Economía Paraguaya):** Economic research center where progressive tax economists (e.g. Verónica Serafini) publish.
 
 ## 10. Plan for the next runs
-- **R003 (Municipalities and Regions):**
-  - Sample municipal records in Asunción and Central municipalities to check whether local councils passed supportive declarations during the 2020–2021 pandemic crisis.
-- **R004 (Seat Sweep & Refinement):**
-  - Once sitting member lists are systematically verified, trace individual statements by current congress members from 2023–2028 term.
+- **R004 (2023–2028 Congress Monitoring & Legislative Roll Call Refinement):**
+  - Monitor sitting legislators in the current 2023–2028 Congreso Nacional for emerging tax reform bills or motions.
+  - Track upcoming fiscal justice declarations from civil society coalitions (Decidamos, CODEHUPY, Latindadd).
