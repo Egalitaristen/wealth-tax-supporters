@@ -5,7 +5,7 @@
 - Depth: Seed and legislative deep dive (prominent supporters in every layer at national level; comprehensive roll-call and bill-sponsorship extraction; geography loaded down to local tier; plan for next runs)
 - Levels of government in scope: National (Congreso Nacional: Cámara de Senadores and Cámara de Diputados; Corte Suprema de Justicia; Executive); regional (17 departamentos and Capital District Asunción) and local (263 distritos / municipios in `geo_units.csv` and `boundaries.json`). Regional and local levels were sampled and not individually swept as subnational units lack tax powers.
 - Languages to search in: Spanish (`es`), Guaraní (`gn`)
-- Runs completed: R001 (2026-11-10, seed pass), R002 (2026-11-10, legislative roll-call and sponsor deep dive), R003 (2026-11-10, civil society coalitions, CODEHUPY, think tanks, and local tier competence audit)
+- Runs completed: R001 (2026-11-10, seed pass), R002 (2026-11-10, legislative roll-call and sponsor deep dive), R003 (2026-11-10, civil society coalitions, CODEHUPY, think tanks, and local tier competence audit), R004 (2026-11-10, complete roll-call extraction for Senate Tasa Covid bill with all 16 affirmative votes, business federation exclusions, and faith sector review)
 
 ## 2. Wealth tax history and live proposals (2010 onwards)
 - **Existing tax background:** Paraguay has never enacted a recurrent general net wealth tax or inheritance tax. The tax system relies predominantly on consumption taxes (IVA ~50% of tax revenue) and flat 10% rates (the "10-10-10" model: IRE, IRP, IVA). Real estate is subject to municipal property tax (*impuesto inmobiliario*), which is low and distinct from net wealth.
@@ -60,7 +60,8 @@
 - **Latindadd (Red Latinoamericana por Justicia Económica y Social):** Regional network active in Paraguay.
 - **CADEP (Centro de Análisis y Difusión de la Economía Paraguaya):** Economic research center where progressive tax economists (e.g. Verónica Serafini) publish.
 
-## 10. Plan for the next runs
-- **R004 (2023–2028 Congress Monitoring & Legislative Roll Call Refinement):**
-  - Monitor sitting legislators in the current 2023–2028 Congreso Nacional for emerging tax reform bills or motions.
-  - Track upcoming fiscal justice declarations from civil society coalitions (Decidamos, CODEHUPY, Latindadd).
+## 10. Saturation and maintenance
+- **Status:** Full saturation achieved at the national level. All 16 affirmative votes on the 2020 Tasa Covid wealth tax roll call (Votación 102482) are verified and registered in the database, along with all 2021 Emergencia Educativa bill sponsors, union leaders, tax justice NGOs (Decidamos, CODEHUPY), and prominent progressive economists.
+- **Maintenance / Next:**
+  - Periodically monitor the 2023–2028 Congreso Nacional for newly introduced wealth tax or fiscal justice bills in the SILpy portal.
+  - Track upcoming publications and tax justice campaigns by Latindadd, Decidamos, and CODEHUPY in Asunción.
