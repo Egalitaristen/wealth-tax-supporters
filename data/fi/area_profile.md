@@ -77,7 +77,30 @@ Checked on review: all other quotes were found on their source pages by script, 
 Signers of all six initiatives are linked on the Resources page where they are in the register (the register starts in 2010, so the signers of LA 81/2006 and LA 84/2009 who are not already in it are not added from those acts). Listed on the Resources page after reading each document: the six wealth-tax initiatives in the Eduskunta's own documents (LA 81/2006, LA 84/2009, LA 63/2010, LA 55/2012, LA 62/2014 and TPA 25/2022) and Finnwatch's October 2024 article on Zucman's minimum tax. Read from each matter's processing page (Asian käsittelytiedot): LA 81/2006 and LA 55/2012 were rejected ("Hylätty" at second reading); LA 84/2009, LA 63/2010, LA 62/2014 and TPA 25/2022 lapsed ("Rauennut"). No Finnish poll asking about a wealth tax, with the pollster's own release, question wording and fieldwork, was found; searches in Finnish and Swedish (kysely varallisuusvero, opinionsundersökning förmögenhetsskatt) returned only inheritance-tax and general tax-attitude surveys. No Finnish official report or academic paper on restoring the tax was found either (VATT, PTT, Bank of Finland and Kalevi Sorsa Foundation searched by name).
 
 Leads not yet listed, because the document or the pollster's page was not read:
-- A 2026 Left Alliance proposal for a 1% millionaire tax above EUR 1 million (chair Minja Koskela), known from press coverage only.
 - The Yle tax-policy survey of July 2009, which asked whether the wealth tax abolished in 2006 should return; only the dataset description was seen, not the result.
-- Older initiatives that surfaced in a search of the Eduskunta archive (LA 91/2004, LA 40/2004 and budget motions TAA 166/2010, TAA 210/2009, TAA 362/2007, TPA 1/2007) were not read.
+- Older pre-2010 initiatives (LA 91/2004, LA 40/2004, TAA 210/2009, TAA 362/2007, TPA 1/2007) predate the register's 2010 cutoff.
 - The SAK blog of 2019 and Jarkko Eloranta's 2025 defence-tax proposal (already cited in section 2) are positions of an organisation, not reports.
+
+## Official legislative records deep-dive (Run R004, 9 November 2026)
+
+Full primary legislative records scan conducted across the Finnish Parliament's open data REST API (`avoindata.eduskunta.fi`), direct PDF repositories (`eduskunta.fi/pdf/`), and S3 storage.
+
+1. **Budget motions gap solved:**
+   - Primary PDF of `TAA 422/2010 vp` was obtained directly from `https://www.eduskunta.fi/pdf/TAA+422/2010`. The motion, filed 20 September 2010, proposed restoring the wealth tax from 2011 to yield EUR 80 million. The complete printed signature block was verified: lead sponsor Esa Lahtela (SDP MP for North Karelia, A0079) and co-sponsor Marjaana Koskinen (SDP MP for Varsinais-Suomi, A0080). Both are living and were added to the register.
+   - Primary PDF of `TAA 166/2010 vp` was obtained from `https://www.eduskunta.fi/pdf/TAA+166/2010`. The motion, filed 20 September 2010, proposed a EUR 50,000 appropriation for drafting the restoration of the wealth tax on the 2004 scale. Signed by Matti Kangas (Left Alliance MP for Central Finland, A0081). Added to the register.
+   - Primary PDF of `TAA 107/2010 vp` was obtained from `https://www.eduskunta.fi/pdf/TAA+107/2010`. The motion proposed restoring the wealth tax to yield EUR 150 million, signed by Pietari Jääskeläinen /ps (A0010), Raimo Vistbacka /ps (A0064), Pirkko Ruohonen-Lerner /ps (A0030), Pentti Oinonen /ps (A0021), and Pertti Virtanen /ps (A0036). Evidence rows linked.
+
+2. **Plenary debate speeches:**
+   - In `PTK 116/2025 vp` (sitting 116, 26 November 2025, pp. 12–13 and 18), Left Alliance chair Minja Koskela (A0057) delivered a major group presentation and response speech defending the millionaire tax (*miljonäärivero*), explicitly contrasting it with the 2006 repeal of the wealth tax. Verbatim quote verified in primary PDF.
+   - In `PTK 69/2026 vp` (sitting 69, 17 June 2026, p. 34), Left Alliance MP Jessi Jokelainen (A0082, Oulu constituency) defended the millionaire tax in plenary debate. Added to the register.
+
+3. **Roll call analysis:**
+   - All plenary votes from 2010 to 2026 in table `SaliDBAanestys` were scanned. No separate roll call division was ever held specifically on adopting or amending a wealth-tax article.
+   - `LA 55/2012 vp` was combined with government income-tax bill `HE 87/2012 vp` in the Finance Committee; the committee recommended rejecting LA 55/2012, which the plenary adopted without division (PTK 113/2012 vp).
+   - `LA 63/2010 vp`, `LA 62/2014 vp`, and `TPA 25/2022 vp` lapsed (*rauennut*) at electoral term dissolutions without reaching a plenary roll call vote.
+
+4. **Tracking, resources, and country records guide:**
+   - Created `skill/references/records/fi.md` following the template, detailing API routes, document URL patterns, search terms, and legislative workflow.
+   - Updated `data/fi/documents.csv` with 12 new tracked records (M0007–M0018).
+   - Added 4 qualifying Finnish wealth-tax bills (`LA 55/2012 vp`, `LA 62/2014 vp`, `LA 63/2010 vp`, `TPA 25/2022 vp`) to `data/resources.json`.
+

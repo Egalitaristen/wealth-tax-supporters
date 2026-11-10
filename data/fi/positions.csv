@@ -55,3 +55,7 @@ O00053,A0072,B0001,Member of Parliament,,G0338,,,n,,2026-10-28,https://avoindata
 O00054,A0073,B0001,Member of Parliament,,G0341,,,n,,2026-10-28,https://avoindata.eduskunta.fi/api/v1/tables/SeatingOfParliament/rows
 O00055,A0074,B0001,Member of Parliament,,G0341,,,n,,2026-10-28,https://avoindata.eduskunta.fi/api/v1/tables/SeatingOfParliament/rows
 O00056,A0075,B0001,Member of Parliament,,G0334,,,n,,2026-10-28,https://avoindata.eduskunta.fi/api/v1/tables/SeatingOfParliament/rows
+O00057,A0079,B0001,Member of Parliament,Social Democratic Party,G0340,1995-03-24,2011-04-19,n,,2026-11-09,https://www.eduskunta.fi/pdf/TAA+422/2010
+O00058,A0080,B0001,Member of Parliament,Social Democratic Party,G0331,1995-03-24,2011-04-19,n,,2026-11-09,https://www.eduskunta.fi/pdf/TAA+422/2010
+O00059,A0081,B0001,Member of Parliament,Left Alliance,G0332,1999-03-24,2011-04-19,n,,2026-11-09,https://www.eduskunta.fi/pdf/TAA+166/2010
+O00060,A0082,B0001,Member of Parliament,Left Alliance,G0336,2023-04-12,,y,,2026-11-09,https://s3-eu-west-1.amazonaws.com/eduskunta-avoindata-documents-prod/vaski%2FPTK-69%2B2026-vp.pdf

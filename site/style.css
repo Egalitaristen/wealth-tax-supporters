@@ -1255,3 +1255,21 @@ body:not(.ready) .foot { visibility: hidden; }
 .draft-pill { display: inline-block; font: 600 11px/1 var(--mono); letter-spacing: .1em; text-transform: uppercase; color: var(--on-signal); background: var(--signal); padding: 4px 8px 3px; border-radius: 3px; }
 .arg-n .draft-pill { margin-left: 8px; vertical-align: 1px; }
 .arg-page .draft-note { margin: 4px 0 16px; }
+
+/* ---------- changelog ---------- */
+.changelog { max-width: 760px; }
+.cl-day { padding: 26px 0; border-top: 1px solid var(--rule); }
+.cl-day:first-child { border-top: 1.5px solid var(--ink); }
+.cl-day h2 { font: 400 26px/1.15 var(--serif); letter-spacing: -.01em; margin: 0 0 8px; }
+.cl-sum { margin: 0 0 8px; font-size: 17px; line-height: 1.5; }
+.cl-nums { margin: 0 0 12px; color: var(--ink-2); font-size: 14px; }
+.cl-nums b { color: var(--ink); font-variant-numeric: tabular-nums; }
+.cl-items { list-style: none; padding: 0; margin: 0 0 10px; }
+.cl-items li { padding: 4px 0; line-height: 1.5; font-size: 15px; }
+.cl-kind { display: inline-block; min-width: 72px; margin-right: 8px; font: 500 11px/1 var(--mono); text-transform: uppercase; letter-spacing: .06em; color: var(--ink-3); }
+.cl-kind.cl-corrected { color: var(--signal); }
+.cl-by summary { cursor: pointer; font-size: 13.5px; color: var(--ink-2); }
+.cl-by table { width: 100%; border-collapse: collapse; margin-top: 8px; font-size: 14px; }
+.cl-by th { text-align: left; font: 500 11px/1 var(--mono); text-transform: uppercase; letter-spacing: .06em; color: var(--ink-3); padding: 6px 0; }
+.cl-by td { padding: 5px 0; border-top: 1px solid var(--rule); font-variant-numeric: tabular-nums; }
+.cl-by td:nth-child(n+2), .cl-by th:nth-child(n+2) { text-align: right; width: 22%; }

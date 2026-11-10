@@ -1,0 +1,176 @@
+{
+  "2026-11-09": {
+    "summary": "The Arguments section opened with twelve pages, six more country stories arrived, and the world map now shows which countries tax wealth.",
+    "items": [
+      {"kind": "added", "text": "Arguments: twelve pages that answer the common objections to a wealth tax, drawing on every country in the register, not on one."},
+      {"kind": "added", "text": "Stories for Finland, the Netherlands, India, Luxembourg, Austria and Iceland: what each country taxed, why it stopped, and what a new tax would have to do differently."},
+      {"kind": "added", "text": "World map: a gold border for countries that have a wealth tax and a silver one for countries that used to."},
+      {"kind": "added", "text": "A \"Draft\" badge on every country story and argument page, so readers know these pages will change."},
+      {"kind": "improved", "text": "All stories and arguments rewritten to argue for the tax in plain language, without hedging, vote tallies or bill numbers."},
+      {"kind": "corrected", "text": "Argument pages no longer lean on United States numbers, and claims about how simple tax returns are in Switzerland and Norway now rest on named sources or were removed."}
+    ]
+  },
+  "2026-11-08": {
+    "summary": "Each resource got its own page, the README was redone, and the first country stories after the pilot were published.",
+    "items": [
+      {"kind": "added", "text": "Resources: a dedicated page for each of the 126 bills, with a summary, the vote record where there is one, and links to the sources."},
+      {"kind": "added", "text": "Stories for Uruguay, Bolivia, Sweden, France, Denmark, Germany and the United States."},
+      {"kind": "added", "text": "Records guides for the Netherlands, the United States and Sweden, and Venezuela and Mexico research expanded."},
+      {"kind": "improved", "text": "A new README for the public, with screenshots."},
+      {"kind": "corrected", "text": "Results of California's Proposition 40, 41 and 42 were removed from the US story and from the research behind it: the vote has not been counted."}
+    ]
+  },
+  "2026-11-07": {
+    "summary": "A big research day: eighteen countries were expanded or refined and Algeria joined.",
+    "items": [
+      {"kind": "added", "text": "Algeria: first register."},
+      {"kind": "added", "text": "Colombia story."},
+      {"kind": "improved", "text": "Full refinement of Canada, France, Germany, Poland and Argentina, with more supporters, seats, links and sources."},
+      {"kind": "improved", "text": "Expanded research for Iceland, Estonia, Lithuania, Slovakia, Montenegro, Japan, Sweden, the Netherlands, Spain, Thailand, Belgium, Bolivia and Colombia."}
+    ]
+  },
+  "2026-11-05": {
+    "summary": "The country stories began, and the calculator arrived.",
+    "items": [
+      {"kind": "added", "text": "Wealth tax calculator: enter a fortune and a set of brackets and see what the tax would be."},
+      {"kind": "added", "text": "Country stories: a Story tab for each country, starting with Switzerland, Norway, Spain and Argentina."}
+    ]
+  },
+  "2026-11-04": {
+    "summary": "Seventeen countries joined in one day, most of them in Europe, and seat charts followed for nearly all of them.",
+    "items": [
+      {"kind": "added", "text": "First registers for Panama, Albania, North Macedonia, Malta, Cyprus, Lithuania, Latvia, Estonia, Bosnia and Herzegovina, Montenegro, Bulgaria, Iceland, Luxembourg, Slovenia, Croatia, Hungary and Slovakia."},
+      {"kind": "added", "text": "Seat charts for Ghana, Kenya, Mali, Malawi, Tanzania, Romania, Ukraine, the Philippines, Iran, Saudi Arabia, Bolivia, Costa Rica, Ecuador, Uruguay, Venezuela, Iceland, Luxembourg, Malta, Cyprus, Hungary, Slovakia, Slovenia, Croatia, the Balkan states and Panama."},
+      {"kind": "added", "text": "Flags and resources for the new countries, and maps for Bosnia and Herzegovina and Montenegro."},
+      {"kind": "improved", "text": "120 more United Kingdom supporters refined, and a refinement pass on Poland."}
+    ]
+  },
+  "2026-11-03": {
+    "summary": "Five countries in Africa and Latin America started.",
+    "items": [
+      {"kind": "added", "text": "First registers for Ghana, Kenya, Venezuela, Ecuador and Costa Rica, with the resources found along the way."}
+    ]
+  },
+  "2026-11-02": {
+    "summary": "Flags came to the front page, share cards got better, and anyone can now report a mistake.",
+    "items": [
+      {"kind": "added", "text": "A Report a mistake page, with a form and GitHub as the alternative."},
+      {"kind": "added", "text": "Flags beside country names on the front page, and better link-preview cards for every page."},
+      {"kind": "added", "text": "The people behind the wealth tax laws now in force, and the signatories of a Spanish bill."},
+      {"kind": "improved", "text": "Brazil's 15 pending bills on large fortunes were re-read in full."},
+      {"kind": "corrected", "text": "Two polls that did not ask about a wealth tax (one in Denmark, one in New Zealand) were removed."}
+    ]
+  },
+  "2026-11-01": {
+    "summary": "A resources sweep covered almost every country in the register, and the laws now in force were added.",
+    "items": [
+      {"kind": "added", "text": "Saudi Arabia: first register."},
+      {"kind": "added", "text": "Resources: polls, papers, reports and bills added for more than forty countries, with filters by status and level, and each bill linked to its sponsors and places."},
+      {"kind": "added", "text": "The wealth tax laws in force in Switzerland, Spain, Argentina and Norway, and new folders for Uruguay, Bolivia and Liechtenstein."},
+      {"kind": "added", "text": "Co-sponsors of wealth tax bills in Germany, Belgium, France, Switzerland, the Netherlands, Spain, Italy, Brazil, Argentina, Colombia, Chile, Peru, Mexico, the United States, Canada, the United Kingdom, Ireland, Australia and Finland."},
+      {"kind": "improved", "text": "A link checker for the resources page."}
+    ]
+  },
+  "2026-10-31": {
+    "summary": "Six countries joined, the site got faster, and Switzerland came in with a full set of cantons and municipalities.",
+    "items": [
+      {"kind": "added", "text": "First registers for Thailand, Romania, Malawi, Switzerland, Austria and Czechia."},
+      {"kind": "improved", "text": "Faster pages: self-hosted fonts, a lighter map file, preloaded data."},
+      {"kind": "improved", "text": "Wikidata ids and profile links for 22 more countries."},
+      {"kind": "corrected", "text": "A supporter was removed from the register at their own request."}
+    ]
+  },
+  "2026-10-30": {
+    "summary": "Four more countries: Morocco, Portugal, Iran and Chile.",
+    "items": [
+      {"kind": "added", "text": "First registers for Portugal, Iran and Chile, and a fuller one for Morocco."},
+      {"kind": "improved", "text": "People are now listed under their home country, not under the country they were found in."}
+    ]
+  },
+  "2026-10-29": {
+    "summary": "Seven countries added, and the world totals now count each person once.",
+    "items": [
+      {"kind": "added", "text": "First registers for Tanzania, Greece, Turkey, Russia, Mali and Denmark."},
+      {"kind": "improved", "text": "People who appear in more than one country are counted once in the world totals and in the global directory."},
+      {"kind": "improved", "text": "The world map draws dependencies with their country: Greenland is Denmark."},
+      {"kind": "improved", "text": "Country pages show seats per chamber in the header, and a cross-check against the live Yes on 40 endorsement list in the US."}
+    ]
+  },
+  "2026-10-28": {
+    "summary": "Argentina, Colombia, Peru, the Philippines and South Korea joined, and seat charts spread to most of the parliaments.",
+    "items": [
+      {"kind": "added", "text": "First registers for Argentina, Colombia, Peru, the Philippines and South Korea."},
+      {"kind": "added", "text": "Seat charts for Finland, Colombia, South Korea, the Netherlands' Senate, the South African and Canadian upper houses, Australia, Egypt, Malaysia and Nigeria."},
+      {"kind": "added", "text": "The Senate vote on Argentina's Aporte Solidario recorded for each sitting senator."},
+      {"kind": "improved", "text": "A Method page that says what counts as a wealth tax and what does not, and explains the grades."}
+    ]
+  },
+  "2026-10-27": {
+    "summary": "Finland, Egypt and Australia joined, and the site works better on phones.",
+    "items": [
+      {"kind": "added", "text": "First registers for Finland, Egypt and Australia."},
+      {"kind": "improved", "text": "A bigger map on phones, pinch to zoom, and a mobile menu."},
+      {"kind": "corrected", "text": "Exclusion rows for five people who are in the register were removed."}
+    ]
+  },
+  "2026-10-26": {
+    "summary": "Mexico, Ireland, Italy, South Africa and Ukraine joined, along with the first bodies above the country level.",
+    "items": [
+      {"kind": "added", "text": "First registers for Mexico, Ireland, Italy and Ukraine."},
+      {"kind": "added", "text": "The United Nations General Assembly and the African Union as bodies of their own, and South Africa."},
+      {"kind": "added", "text": "A global Directory page, and seat charts for Italy, Ireland and Mexico."},
+      {"kind": "improved", "text": "A world map with finer shapes and dots for the very small countries."}
+    ]
+  },
+  "2026-10-25": {
+    "summary": "Seats arrived: every parliament got a chart showing which of its members are on the record.",
+    "items": [
+      {"kind": "added", "text": "Seats tab: a chart of each chamber with the supporters lit up, for the United Kingdom, the US, Sweden, Germany, the Netherlands, Norway, France, Brazil, Canada, Spain, Poland, Belgium, India, Japan, Malaysia, Singapore, Indonesia, Nigeria, China, Scotland and New Zealand."},
+      {"kind": "added", "text": "New Zealand: first register."},
+      {"kind": "added", "text": "Resources page for polls, papers, reports and bills, a Parliaments page with the European Parliament, and a Method and About page."},
+      {"kind": "improved", "text": "A refinement of over 600 United Kingdom and United States supporters, with profile links and stronger evidence."}
+    ]
+  },
+  "2026-10-24": {
+    "summary": "Eleven countries joined in a single day.",
+    "items": [
+      {"kind": "added", "text": "First registers for Norway, Nigeria, Indonesia, Malaysia, Belgium, China, Singapore, Canada, the Netherlands, Poland and Japan."},
+      {"kind": "added", "text": "Municipal maps for most of them, and a page for feedback and bug reports."}
+    ]
+  },
+  "2026-10-22": {
+    "summary": "A refinement process for existing supporters, with 3,378 links from Wikidata.",
+    "items": [
+      {"kind": "improved", "text": "Supporters already in the register can now be refined country by country: profile links, places and more statements."}
+    ]
+  },
+  "2026-10-21": {
+    "summary": "Spain and Brazil joined, and anyone can suggest a supporter.",
+    "items": [
+      {"kind": "added", "text": "First registers for Spain and Brazil, with maps down to municipalities for Spain."},
+      {"kind": "added", "text": "A page to suggest a supporter, with a form that needs no account and covers every country."},
+      {"kind": "improved", "text": "Municipal maps for France and Spain, and a wider-area panel on each map."}
+    ]
+  },
+  "2026-10-20": {
+    "summary": "The site was rebuilt from scratch, and Sweden, Germany, India and France joined.",
+    "items": [
+      {"kind": "added", "text": "First registers for Germany, India and France."},
+      {"kind": "added", "text": "A rebuilt website, a new logo, link previews for every page, public opinion polls, and a map of every country down to local government."},
+      {"kind": "improved", "text": "The project was renamed Wealth Tax Supporters, and the pages now say that the register lists who is on record, not how many people agree."}
+    ]
+  },
+  "2026-10-19": {
+    "summary": "The United States and Sweden joined the United Kingdom.",
+    "items": [
+      {"kind": "added", "text": "First registers for the United States and Sweden."},
+      {"kind": "improved", "text": "Places are now a hierarchy, from country down to town, and the workflow was rewritten around the goal of finding the most prominent supporters first."}
+    ]
+  },
+  "2026-10-18": {
+    "summary": "The first version: a register for the United Kingdom, a website and the research workflow.",
+    "items": [
+      {"kind": "added", "text": "United Kingdom: the first register, with a map, a directory and a chart of supporters by party."}
+    ]
+  }
+}
