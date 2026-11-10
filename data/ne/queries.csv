@@ -23,5 +23,12 @@ Q0021,R002,2026-11-10,fr,"""Conseil Économique, Social et Culturel"" CESOC Nige
 Q0022,R003,2026-11-10,en,"""Ibrahim Assane Mayaki"" (""wealth tax"" OR ""impôt sur la fortune"" OR ""taxer les riches"" OR ""taxing the rich"")",web,7,0,UN FACTI Panel co-chair on illicit financial flows; no net wealth tax
 Q0023,R003,2026-11-10,en,"""FACTI Panel"" ""Financial Integrity for Sustainable Development"" ""wealth"" tax OR taxation",web,9,0,FACTI final report analysis on offshore wealth vs wealth taxation
 Q0024,R003,2026-11-10,en,"site:wid.world ""Niger"" ""working paper"" OR ""paper"" OR ""author""",web,6,0,World Inequality Database distributional national accounts for Niger
-Q0025,R003,2026-11-10,fr,"""Oumarou Dogari"" (""impôt"" OR ""taxe"" OR ""fiscalité"" OR ""recettes"")",web,5,0,Niamey city council municipal taxes (taxes de voirie, market fees)
+Q0025,R003,2026-11-10,fr,"""Oumarou Dogari"" (""impôt"" OR ""taxe"" OR ""fiscalité"" OR ""recettes"")",web,5,0,"Niamey city council municipal taxes (taxes de voirie,  market fees)"
 Q0026,R003,2026-11-10,fr,"site:actuniger.com ""impôt sur la fortune"" OR ""ISF"" OR ""taxe sur la fortune""",web,2,0,National news portal check: ISF mentions only appear in French international news
+Q0027,R004,2026-11-10,fr,"""Nouhou Arzika"" fiscalite OR impot OR ""loi de finances"" ""riches"" OR ""fortune"" OR ""patrimoine""",web,6,0,Civil society MPCR mobilization against regressive 2018 budget taxes
+Q0028,R004,2026-11-10,fr,"""Maikoul Zodi"" ""impôt"" OR ""fiscalité"" OR ""patrimoine"" OR ""fortune""",web,5,0,Tournons la Page Niger protests on fiscal justice and multinational exemptions
+Q0029,R004,2026-11-10,fr,"site:nigerinter.com ""impôt"" OR ""fiscalité"" OR ""patrimoine"" OR ""fortune""",web,4,1,Discovered Kiari Liman-Tinguiri progressive wealth tax proposal on patrimoine familial
+Q0030,R004,2026-11-10,fr,"""Liman-Tinguiri"" ""impôt"" OR ""fiscalité"" OR ""patrimoine"" OR ""Piketty""",web,4,1,"Verified Kiari Liman-Tinguiri background, UN career, and citation of Piketty"
+Q0031,R004,2026-11-10,fr,"site:nigerinter.com ""Faut-il réformer le système fiscal""",web,2,0,Context of the 2017 tax reform debate series in Niger Inter
+Q0032,R004,2026-11-10,fr,"""Moustapha Kadi"" Niger ""impôt"" OR ""fiscalité"" OR ""loi de finances""",web,5,0,CODDAE and consumer advocacy civil society stances
+Q0033,R004,2026-11-10,fr,"""Mahamane Ousmane"" ""impôt"" OR ""fiscalité"" OR ""patrimoine"" OR ""fortune""",web,6,0,Opposition leaders and DGI directorship checks
