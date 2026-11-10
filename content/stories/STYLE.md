@@ -6,7 +6,7 @@ The skill's patterns most likely to appear in a story, strongest first: not-X-bu
 
 ## House rules on top of the skill
 
-- Signed Egalitaristen. Front matter `author: Egalitaristen`. The voice is the site's own: plain and confident.
+- No byline. Leave `author` out of the front matter. The voice is the site's own: plain and confident.
 - No hedging. State what the sources show, then what the site argues from it. No "perhaps", "arguably", "may", "might", "seems to", "tends to", "it could be said", "some would say". Where a source itself gives a range or an estimate, give it with its year, in the source's own terms. No hedging boxes and no "the strongest objection that remains": answer a common objection with evidence.
 - Source ids on every number. Each figure carries `[n]` pointing to an entry in `sources`, with its year in the text. Use only sources that were opened. Name people and parties and link them to their register entry. Attribute by name, never "experts say".
 - Report losses plainly. A vote that went against us is stated once, with its result.

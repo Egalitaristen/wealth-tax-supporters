@@ -5,7 +5,6 @@ objection: "The rich will just leave."
 answer: Some people move, and the count is small. A tax that follows leavers out the door and keeps collecting makes the threat empty, and a rich person who stays and pays nothing was never an asset.
 standfirst: Norway raised its wealth tax in 2022 and the headlines said the rich were fleeing. The Finance Ministry counted 82 people with more than NOK 100 million who moved in two years. A study of the whole reform puts the total at about 100 and the lost revenue at about 2%. Meanwhile wealth tax receipts grew 72% in three years.
 updated: 2026-11-09
-author: Egalitaristen
 layout: article
 status: draft
 facts:

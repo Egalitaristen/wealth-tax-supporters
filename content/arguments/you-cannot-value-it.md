@@ -5,7 +5,6 @@ objection: "You can't value private companies, art and land, so a wealth tax can
 answer: Banks report deposits and holdings, a company can value its own shares for its owner, and a tax on a few hundred or a few thousand households can be audited one by one. Nobody prices the socks.
 standfirst: In 2024 719,007 taxpayers paid Norwegian wealth tax, NOK 31.8 billion in all. Banks report balances to the tax authority, an unlisted company works out the value of its own shares and hands that to its owner, and the owner files the result. The rest of the country, 85% of adults, files the same return with no wealth tax on it.
 updated: 2026-11-09
-author: Egalitaristen
 layout: article
 status: draft
 facts:

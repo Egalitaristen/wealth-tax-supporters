@@ -5,7 +5,6 @@ objection: "A wealth tax is unconstitutional."
 answer: No court has struck down a wealth tax as such. Germany's court demanded equal valuation, France's and Spain's courts upheld theirs, and Colombia's declined to rule. Where a constitution blocks a design, countries amend it, change the design or move the tax to another level.
 standfirst: Spain's Constitutional Court dismissed Madrid's challenge to the solidarity tax on great fortunes by seven votes to four, and France's Constitutional Council ruled the ISF conforms to the Constitution. Germany's court asked for equal valuation and did not forbid the tax. The US Supreme Court said in 2024 that it wasn't deciding wealth taxes.
 updated: 2026-11-09
-author: Egalitaristen
 layout: article
 status: draft
 facts:

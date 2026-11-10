@@ -5,7 +5,6 @@ objection: "It will start with billionaires and then spread to everyone."
 answer: Thresholds are written into the law, and the record shows them rising. Where a tax does reach many people, as in Norway, most pay small sums. And a household with millions can afford a tax, so reaching it is the point.
 standfirst: Sweden's threshold rose from SEK 800,000 in 1991 to SEK 3 million in 2006, until only the top 2% of couples paid. Spain's taxpayers fell from 981,498 to 188,680 as thresholds rose. Colombia's government bill of October 2026 would lift its threshold from 72,000 to 95,500 UVT.
 updated: 2026-11-09
-author: Egalitaristen
 layout: article
 status: draft
 facts:

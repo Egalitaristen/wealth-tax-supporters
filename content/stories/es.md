@@ -2,7 +2,6 @@
 title: Spain taxes wealth twice, and the second tax sets a floor under the first
 standfirst: Spain levies a wealth tax that each region can rebate and, since 2022, a state solidarity tax on net wealth above €3 million. In 2024 the two raised €2.2 billion from about 185,000 payers.
 updated: 2026-11-05
-author: Egalitaristen
 layout: article
 status: draft
 facts:

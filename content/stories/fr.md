@@ -2,7 +2,6 @@
 title: France cut its wealth tax in 2018, lost over €4 billion a year, and keeps voting down a 2% floor on fortunes above €100 million
 standfirst: The ISF raised €4.2 billion from 358,000 households in 2017. The 2018 reform cut it to a tax on real estate and the state's own evaluators put the loss at more than €4 billion a year by 2022. The taxe Zucman, a 2% minimum on fortunes above €100 million, passed the Assemblée once and has been rejected four times since.
 updated: 2026-11-08
-author: Egalitaristen
 layout: article
 status: draft
 facts:

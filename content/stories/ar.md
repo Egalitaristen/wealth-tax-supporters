@@ -2,7 +2,6 @@
 title: Argentina taxed its largest fortunes in 2020 and is now cutting the wealth tax it has levied since 1991
 standfirst: Argentina has taxed personal assets since 1991. In 2020 a one-off levy of 2% to 3.5% on fortunes above AR$200 million raised AR$248 billion from about 10,000 payers, and a 2024 law cuts the standing tax to a flat 0.25% by 2027.
 updated: 2026-11-05
-author: Egalitaristen
 layout: article
 status: draft
 facts:

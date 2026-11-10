@@ -5,7 +5,6 @@ objection: "Why tax wealth at all? We already tax income, spending and property.
 answer: Each tax we have reaches one slice of a fortune, and the largest fortunes are held in companies that sit outside most of them. A wealth tax is the one tax charged on the holding itself, every year.
 standfirst: In France in 2016 the effective direct tax rate was 46% for the top 0.1% of households and 26% for the top 0.0002%. In Norway and Sweden it falls from about 50% for the upper middle class to 15% to 20% at the very top. Studies in the Netherlands and the US find the same drop. Different countries, different tax systems, same shape.
 updated: 2026-11-09
-author: Egalitaristen
 layout: article
 status: draft
 facts:

@@ -778,7 +778,7 @@ def load_story(slug):
         print(f"  WARNING {f.name}: sources never cited: {', '.join(unused)}")
     words = len(re.sub(r"<[^>]+>", " ", intro + " ".join(s["html"] for s in sections)).split())
     print(f"  story {slug}: {words} words, {len(sections)} sections, layout {layout}")
-    return dict(title=fm["title"], standfirst=fm["standfirst"], updated=fm["updated"], author=fm.get("author", "Egalitaristen"), layout=layout, status=status,
+    return dict(title=fm["title"], standfirst=fm["standfirst"], updated=fm["updated"], author=fm.get("author", ""), layout=layout, status=status,
                 facts=fm.get("facts", []), timeline=fm.get("timeline", []), sources=srcs, intro=intro, sections=sections, words=words)
 
 
@@ -896,7 +896,7 @@ def load_arguments():
             print(f"  WARNING {f.name}: sources never cited: {', '.join(unused)}")
         words = len(re.sub(r"<[^>]+>", " ", intro + " ".join(s["html"] for s in sections)).split())
         pages[slug] = dict(slug=slug, short=short.get(slug, slug), title=fm.get("title", ""), standfirst=fm.get("standfirst", ""), updated=fm.get("updated", ""),
-                           author=fm.get("author", "Egalitaristen"), layout=fm.get("layout", "article"), status=fm.get("status", "draft"), objection=fm.get("objection", ""), answer=fm.get("answer", ""),
+                           author=fm.get("author", ""), layout=fm.get("layout", "article"), status=fm.get("status", "draft"), objection=fm.get("objection", ""), answer=fm.get("answer", ""),
                            facts=fm.get("facts", []), sources=srcs, intro=intro, sections=sections, words=words)
         print(f"  argument {slug}: {words} words, {len(sections)} sections")
     for s in order:
@@ -931,7 +931,7 @@ def argument_body(a, prev, nxt):
             f'<nav class="crumbs" aria-label="Breadcrumb"><a href="/arguments">Arguments</a><span>/</span><span>{h(a["short"])}</span></nav>'
             f'{draft_badge(a["status"])}<p class="arg-objection">“{h(plain_quote(a["objection"]))}”</p>'
             f'<h1>{h(a["title"])}</h1><p class="standfirst">{h(a["standfirst"])}</p>'
-            f'<p class="byline">By <b>{h(a["author"])}</b> · Updated {h(_long_date(a["updated"]))} · {max(1, round(a["words"] / 220))} min read</p></header>'
+            f'<p class="byline">{("By <b>" + h(a["author"]) + "</b> · ") if a["author"] else ""}Updated {h(_long_date(a["updated"]))} · {max(1, round(a["words"] / 220))} min read</p></header>'
             f'<div class="story-grid"><nav class="story-nav" aria-label="On this page"><details class="jump" open><summary>Jump to</summary><ol class="toc">{toc}</ol></details></nav>'
             f'<aside class="story-side"><details class="keyfacts" open><summary>Key facts</summary>{facts}</details></aside>'
             f'<div class="story-main"><div class="story-intro">{a["intro"]}</div>{secs}{srcs}'
@@ -1466,7 +1466,7 @@ def share_pages(out, base, countries, full, unique=None, bodies=(), resources=()
                 continue
             if sec == "story":
                 for path in (f"/{slug}", f"/{slug}/story"):
-                    write(path, f"{title} · Wealth Tax Supporters", desc, slug + "-story", f"{title}: a story by Egalitaristen",
+                    write(path, f"{title} · Wealth Tax Supporters", desc, slug + "-story", f"{title}: a country story",
                           lambda o, cc=cc, st=st, units=units: cards.story_card(o, cc, units, st["title"], st["standfirst"]))
                 continue
             write(f"/{slug}" + (f"/{sec}" if sec else ""), f"{title} · Wealth Tax Supporters", desc, slug + (f"-{sec}" if sec else ""),

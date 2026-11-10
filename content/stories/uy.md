@@ -2,7 +2,6 @@
 title: Uruguay still taxes personal wealth, at a rate of 0.1%, and a union proposal would charge the top 1% up to 1.5%
 standfirst: Uruguay has an annual tax on net wealth, but its rate was cut every year to a floor of 0.10%. In 2025 the PIT-CNT proposed a surcharge of up to 1.5% on wealth above US$1 million, and an April 2026 brief added a minimum tax of 2% above US$100 million. The government says not in this term.
 updated: 2026-11-08
-author: Egalitaristen
 layout: article
 status: draft
 facts:

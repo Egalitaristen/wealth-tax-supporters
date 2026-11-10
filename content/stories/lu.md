@@ -2,7 +2,6 @@
 title: Luxembourg freed its rich from the wealth tax and kept it for companies
 standfirst: Luxembourg stopped taxing the net wealth of individuals from 2006, in a package built to attract big fortunes. The tax on companies stayed and now raises over EUR 1 billion a year, mostly from banks and funds that never left. Households have paid nothing on their wealth since.
 updated: 2026-11-09
-author: Egalitaristen
 layout: article
 status: draft
 facts:

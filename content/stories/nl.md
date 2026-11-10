@@ -2,7 +2,6 @@
 title: The Netherlands swapped its wealth tax for a tax on a return nobody earned
 standfirst: Until 2000 the Dutch taxed net wealth above €200,000. In 2001 they replaced it with box 3, a flat 30% tax on an assumed 4% return, and the Supreme Court has since found that it breaches the property rights of people who earned less. The burden moved down. The top 0.01% pays out only 14% of its company profit.
 updated: 2026-11-09
-author: Egalitaristen
 layout: article
 status: draft
 facts:

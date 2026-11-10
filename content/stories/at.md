@@ -2,7 +2,6 @@
 title: Austria dropped its wealth tax in 1994 and put the bill on wages
 standfirst: Austria charged 1% a year on net wealth until the end of 1993, then scrapped the tax in a package that raised the payroll tax instead. Thirty years on, wealth is among the most concentrated in the euro area and property taxes are among the lowest in the OECD. The SPÖ, the unions and the Arbeiterkammer want the tax back.
 updated: 2026-11-09
-author: Egalitaristen
 layout: article
 status: draft
 facts:

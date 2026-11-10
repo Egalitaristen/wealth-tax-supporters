@@ -2,7 +2,6 @@
 title: Every Swiss canton taxes wealth, and has for generations
 standfirst: All 26 Swiss cantons tax wealth every year. It raised 4.3% of the country's tax revenue in 2023, and the open question is how to close the holes and bring it to the federal level.
 updated: 2026-11-05
-author: Egalitaristen
 layout: article
 status: draft
 facts:
