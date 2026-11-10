@@ -20,3 +20,8 @@ Q0018,R002,2026-11-10,fr,"""Direction Générale des Impôts"" Niger ""ATAF"" OR
 Q0019,R002,2026-11-10,fr,"site:lasdel.net ""fiscalité"" OR ""impôt"" OR ""taxe""",web,10,0,Socio-anthropology of local rural and market taxes
 Q0020,R002,2026-11-10,fr,"""Association Islamique du Niger"" OR ""Conseil Islamique du Niger"" (""impôt"" OR ""taxe"" OR ""zakat"" OR ""fortune"")",web,6,0,Zakat religious almsgiving (2.5% above Nisab) vs secular taxes
 Q0021,R002,2026-11-10,fr,"""Conseil Économique, Social et Culturel"" CESOC Niger (""fiscalité"" OR ""impôt"" OR ""fortune"")",web,7,0,Consultative body on tax compliance and electronic invoicing
+Q0022,R003,2026-11-10,en,"""Ibrahim Assane Mayaki"" (""wealth tax"" OR ""impôt sur la fortune"" OR ""taxer les riches"" OR ""taxing the rich"")",web,7,0,UN FACTI Panel co-chair on illicit financial flows; no net wealth tax
+Q0023,R003,2026-11-10,en,"""FACTI Panel"" ""Financial Integrity for Sustainable Development"" ""wealth"" tax OR taxation",web,9,0,FACTI final report analysis on offshore wealth vs wealth taxation
+Q0024,R003,2026-11-10,en,"site:wid.world ""Niger"" ""working paper"" OR ""paper"" OR ""author""",web,6,0,World Inequality Database distributional national accounts for Niger
+Q0025,R003,2026-11-10,fr,"""Oumarou Dogari"" (""impôt"" OR ""taxe"" OR ""fiscalité"" OR ""recettes"")",web,5,0,Niamey city council municipal taxes (taxes de voirie, market fees)
+Q0026,R003,2026-11-10,fr,"site:actuniger.com ""impôt sur la fortune"" OR ""ISF"" OR ""taxe sur la fortune""",web,2,0,National news portal check: ISF mentions only appear in French international news
