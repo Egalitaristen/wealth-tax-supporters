@@ -1161,7 +1161,14 @@ def _fetch_for_check(u, timeout):
         text = _kokkai_text(u, timeout) if "kokkai.ndl.go.jp/txt/" in u else None
         if text:
             return _plain(text, tags=False)
-        req = urllib.request.Request(u, headers={"User-Agent": "Mozilla/5.0 (wtdb quote check)"})
+        req = urllib.request.Request(
+            u,
+            headers={
+                "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36",
+                "Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8",
+                "Accept-Language": "es-ES,es;q=0.9,en;q=0.8",
+            },
+        )
         with urllib.request.urlopen(req, timeout=timeout) as resp:
             raw = resp.read()
             ctype = resp.headers.get("Content-Type", "").lower()
@@ -1172,6 +1179,17 @@ def _fetch_for_check(u, timeout):
         if raw[:4] == b"%PDF" or "pdf" in ctype:
             text = _pdf_to_text(raw)
             return _plain(text, tags=False) if text else None  # a "<" in PDF text must not swallow what follows
+        if b"iframe" in raw.lower() and (b"infolegislativa" in raw or b".pdf" in raw.lower()):
+            m_pdf = re.search(r'iframe\s+[^>]*src=[\'"]([^\'"]+\.pdf[^\'"]*)[\'"]', raw.decode("utf-8", errors="ignore"), re.I)
+            if m_pdf:
+                try:
+                    req_pdf = urllib.request.Request(m_pdf.group(1), headers=req.headers)
+                    with urllib.request.urlopen(req_pdf, timeout=timeout) as resp_pdf:
+                        pdf_text = _pdf_to_text(resp_pdf.read())
+                        if pdf_text:
+                            return _plain(pdf_text, tags=False)
+                except Exception:
+                    pass
         return _plain(_decode_page(raw, charset))
     except Exception:
         text = _browser_text(u)
@@ -1180,7 +1198,7 @@ def _fetch_for_check(u, timeout):
 
 def _dehyphenate(page):
     """Line-end hyphens in PDFs split words ("miljardärs- skatt"); join them for a second comparison."""
-    return re.sub(r"(?<=\w)- (?=[a-zåäö])", "", page)
+    return re.sub(r"(?<=\w)\s*-\s*(?=[a-zåäöñáéíóúü])", "", page, flags=re.I)
 
 
 CJK = re.compile(r"[\u3040-\u30ff\u3400-\u9fff\uac00-\ud7af]")
