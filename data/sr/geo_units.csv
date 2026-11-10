@@ -1,0 +1,74 @@
+geo_unit_id,name,level,unit_type,parent_id,website,sweep_status,swept_run,swept_date,queries_run,hits,notes,code
+G0001,Suriname,national,country,,,pending,,,,,,SR
+G0002,Brokopondo,region,district,G0001,,pending,,,,,,SR01
+G0003,Commewijne,region,district,G0001,,pending,,,,,,SR02
+G0004,Coronie,region,district,G0001,,pending,,,,,,SR03
+G0005,Marowijne,region,district,G0001,,pending,,,,,,SR04
+G0006,Nickerie,region,district,G0001,,pending,,,,,,SR05
+G0007,Para,region,district,G0001,,pending,,,,,,SR06
+G0008,Paramaribo,region,district,G0001,,pending,,,,,,SR07
+G0009,Saramacca,region,district,G0001,,pending,,,,,,SR08
+G0010,Sipaliwini,region,district,G0001,,pending,,,,,,SR09
+G0011,Wanica,region,district,G0001,,pending,,,,,,SR10
+G0012,Brownsweg,council,ressort,G0002,,pending,,,,,,SR0101
+G0013,Centrum,council,ressort,G0002,,pending,,,,,,SR0102
+G0014,Klaaskreek,council,ressort,G0002,,pending,,,,,,SR0103
+G0015,Kwakoegron,council,ressort,G0002,,pending,,,,,,SR0104
+G0016,Marechalskreek,council,ressort,G0002,,pending,,,,,,SR0105
+G0017,Sarakreek,council,ressort,G0002,,pending,,,,,,SR0106
+G0018,Alkmaar,council,ressort,G0003,,pending,,,,,,SR0201
+G0019,Bakki,council,ressort,G0003,,pending,,,,,,SR0202
+G0020,Margaretha,council,ressort,G0003,,pending,,,,,,SR0203
+G0021,Meerzorg,council,ressort,G0003,,pending,,,,,,SR0204
+G0022,Nw. Amsterdam,council,ressort,G0003,,pending,,,,,,SR0205
+G0023,Tamanredjo,council,ressort,G0003,,pending,,,,,,SR0206
+G0024,Johanna Maria,council,ressort,G0004,,pending,,,,,,SR0301
+G0025,Totness,council,ressort,G0004,,pending,,,,,,SR0302
+G0026,Welgelegen,council,ressort,G0004,,pending,,,,,,SR0303
+G0027,Albina,council,ressort,G0005,,pending,,,,,,SR0401
+G0028,Galibi,council,ressort,G0005,,pending,,,,,,SR0402
+G0029,Moengo,council,ressort,G0005,,pending,,,,,,SR0403
+G0030,Moengotapoe,council,ressort,G0005,,pending,,,,,,SR0404
+G0031,Patamacca,council,ressort,G0005,,pending,,,,,,SR0405
+G0032,Wanhatti,council,ressort,G0005,,pending,,,,,,SR0406
+G0033,Groot Henar,council,ressort,G0006,,pending,,,,,,SR0501
+G0034,Nw . Nickerie,council,ressort,G0006,,pending,,,,,,SR0502
+G0035,Oostelijke Polders,council,ressort,G0006,,pending,,,,,,SR0503
+G0036,Wageningen,council,ressort,G0006,,pending,,,,,,SR0504
+G0037,Westelijke Polders,council,ressort,G0006,,pending,,,,,,SR0505
+G0038,Bigi Poika,council,ressort,G0007,,pending,,,,,,SR0601
+G0039,Carolina,council,ressort,G0007,,pending,,,,,,SR0602
+G0040,Noord,council,ressort,G0007,,pending,,,,,,SR0603
+G0041,Oost,council,ressort,G0007,,pending,,,,,,SR0604
+G0042,Zuid,council,ressort,G0007,,pending,,,,,,SR0605
+G0043,Beekhuizen,council,ressort,G0008,,pending,,,,,,SR0701
+G0044,Blauwgrond,council,ressort,G0008,,pending,,,,,,SR0702
+G0045,Centrum,council,ressort,G0008,,pending,,,,,,SR0703
+G0046,Flora,council,ressort,G0008,,pending,,,,,,SR0704
+G0047,Latour,council,ressort,G0008,,pending,,,,,,SR0705
+G0048,Livorno,council,ressort,G0008,,pending,,,,,,SR0706
+G0049,Munder,council,ressort,G0008,,pending,,,,,,SR0707
+G0050,Pontbuiten,council,ressort,G0008,,pending,,,,,,SR0708
+G0051,Rainville,council,ressort,G0008,,pending,,,,,,SR0709
+G0052,Tammenga,council,ressort,G0008,,pending,,,,,,SR0710
+G0053,Weg Naar Zee,council,ressort,G0008,,pending,,,,,,SR0711
+G0054,Welgelegen,council,ressort,G0008,,pending,,,,,,SR0712
+G0055,Calcutta,council,ressort,G0009,,pending,,,,,,SR0801
+G0056,Groningen,council,ressort,G0009,,pending,,,,,,SR0802
+G0057,Jarikaba,council,ressort,G0009,,pending,,,,,,SR0803
+G0058,Kampong Baroe,council,ressort,G0009,,pending,,,,,,SR0804
+G0059,Tijgerkreek,council,ressort,G0009,,pending,,,,,,SR0805
+G0060,Wayambo Weg,council,ressort,G0009,,pending,,,,,,SR0806
+G0061,Coppename,council,ressort,G0010,,pending,,,,,,SR0901
+G0062,Bven Saramacca,council,ressort,G0010,,pending,,,,,,SR0902
+G0063,Boven Suriname,council,ressort,G0010,,pending,,,,,,SR0903
+G0064,Coeroeni,council,ressort,G0010,,pending,,,,,,SR0904
+G0065,Kabalebo,council,ressort,G0010,,pending,,,,,,SR0905
+G0066,Tapanahony,council,ressort,G0010,,pending,,,,,,SR0906
+G0067,De Nieuwe Grond,council,ressort,G0011,,pending,,,,,,SR1001
+G0068,Domburg,council,ressort,G0011,,pending,,,,,,SR1002
+G0069,Houttuin,council,ressort,G0011,,pending,,,,,,SR1003
+G0070,Koewarasan,council,ressort,G0011,,pending,,,,,,SR1004
+G0071,Kwatta,council,ressort,G0011,,pending,,,,,,SR1005
+G0072,Lelydorp,council,ressort,G0011,,pending,,,,,,SR1006
+G0073,Saramaccapolder,council,ressort,G0011,,pending,,,,,,SR1007

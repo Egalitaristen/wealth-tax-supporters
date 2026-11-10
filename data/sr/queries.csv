@@ -1,0 +1,6 @@
+query_id,run_id,date,language,query,channel,results_opened,leads_added,note
+Q0001,R001,2026-11-10,nl,vermogensbelasting Suriname,web,4,2,Found Wet Vermogensbelasting 1944 in force and general debate
+Q0002,R001,2026-11-10,nl,vermogensbelasting site:dna.sr,web,3,1,Confirmed statutory basis and amendments in DNA archive
+Q0003,R001,2026-11-10,nl,vermogensbelasting site:waterkant.net,web,5,3,"Found Amzaad Abdoel (NDP), Roy Shyamnarain, PRO statement"
+Q0004,R001,2026-11-10,nl,vermogensbelasting site:dbsuriname.com,web,6,4,"Found Ronny Asabina (BEP), Ravaksur, Armand Zunder, Carlo Jadnanansing, Stanley Raghoebarsing (opposes)"
+Q0005,R001,2026-11-10,nl,Asabina vermogensbelasting site:sun.sr,web,3,1,Found Asabina statements on VIV and wealth tax reform

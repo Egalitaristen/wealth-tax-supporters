@@ -1,0 +1,8 @@
+{
+  "name": "Suriname",
+  "iso2": "SR",
+  "lead": "",
+  "status": "in progress",
+  "boundaries": "boundaries.json",
+  "notes": "Seed pass (national level, no regional or local sweep). Register: 10 districten as regions and 62 ressorten as the local tier. Map and codes: OCHA / HDX COD-AB Suriname (valid 2019-10-24), CC BY-IGO."
+}
