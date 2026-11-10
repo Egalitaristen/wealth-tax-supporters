@@ -1,0 +1,6 @@
+query_id,run_id,date,language,query,channel,results_opened,leads_added,note
+Q0001,R001,2026-11-10,vi,thuế tài sản OR thuế người giàu OR thuế người siêu giàu,web,10,2,Broad search across official portals and news outlets
+Q0002,R001,2026-11-10,vi,site:vietnam.oxfam.org thuế siêu giàu OR tài sản,web,8,2,Search for Oxfam Vietnam tax justice and wealth inequality publications
+Q0003,R001,2026-11-10,vi,Dự thảo Luật Thuế tài sản Bộ Tài chính 2018,web,10,3,Investigation of the 2018 property tax draft law and legislative response
+Q0004,R001,2026-11-10,vi,thuế tài sản ròng OR net wealth tax Việt Nam,web,6,1,Search for net wealth tax academic and policy debates in Vietnam
+Q0005,R001,2026-11-10,en,Vietnam OR Viet Nam Proud to pay more OR Millionaires for Humanity,web,5,0,International wealth tax letters and signatory roster check

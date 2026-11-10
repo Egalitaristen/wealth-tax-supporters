@@ -1,0 +1,2 @@
+actor_id,name,kind,actor_type,other_types,role,affiliation,party,affiliation_actor_id,country,level,location,geo_unit_id,location_source,wikidata_qid,website,status,alive_checked,prominence,notes,added_run,updated,refined
+A0001,Oxfam tại Việt Nam,organisation,ngo_campaign,think_tank,National organisation,Oxfam International,,,Vietnam,national,Vietnam > Hà Nội,G0004,https://vietnam.oxfam.org,Q1162780,https://vietnam.oxfam.org,active,na,national,National affiliate and country office of Oxfam International based in Hanoi.,R001,2026-11-10,

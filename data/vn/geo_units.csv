@@ -1,0 +1,772 @@
+geo_unit_id,name,level,unit_type,parent_id,website,sweep_status,swept_run,swept_date,queries_run,hits,notes,code
+G0001,Vietnam,national,country,,https://chinhphu.vn,pending,,,,,Sovereign state in Southeast Asia,VN
+G0002,Quốc hội Việt Nam,national,legislature,G0001,https://quochoi.vn,pending,,,,,"Unicameral national legislature (15th National Assembly, 500 seats)",
+G0003,Chính phủ Việt Nam,national,executive,G0001,https://chinhphu.vn,pending,,,,,Government of the Socialist Republic of Vietnam,
+G0004,Hà Nội,region,special_administrative_area,G0001,,pending,,,,,Thành phố Hà Nội,01
+G0005,Hà Giang,region,province,G0001,,pending,,,,,Tỉnh Hà Giang,02
+G0006,Cao Bằng,region,province,G0001,,pending,,,,,Tỉnh Cao Bằng,04
+G0007,Bắc Kạn,region,province,G0001,,pending,,,,,Tỉnh Bắc Kạn,06
+G0008,Tuyên Quang,region,province,G0001,,pending,,,,,Tỉnh Tuyên Quang,08
+G0009,Lào Cai,region,province,G0001,,pending,,,,,Tỉnh Lào Cai,10
+G0010,Điện Biên,region,province,G0001,,pending,,,,,Tỉnh Điện Biên,11
+G0011,Lai Châu,region,province,G0001,,pending,,,,,Tỉnh Lai Châu,12
+G0012,Sơn La,region,province,G0001,,pending,,,,,Tỉnh Sơn La,14
+G0013,Yên Bái,region,province,G0001,,pending,,,,,Tỉnh Yên Bái,15
+G0014,Hoà Bình,region,province,G0001,,pending,,,,,Tỉnh Hoà Bình,17
+G0015,Thái Nguyên,region,province,G0001,,pending,,,,,Tỉnh Thái Nguyên,19
+G0016,Lạng Sơn,region,province,G0001,,pending,,,,,Tỉnh Lạng Sơn,20
+G0017,Quảng Ninh,region,province,G0001,,pending,,,,,Tỉnh Quảng Ninh,22
+G0018,Bắc Giang,region,province,G0001,,pending,,,,,Tỉnh Bắc Giang,24
+G0019,Phú Thọ,region,province,G0001,,pending,,,,,Tỉnh Phú Thọ,25
+G0020,Vĩnh Phúc,region,province,G0001,,pending,,,,,Tỉnh Vĩnh Phúc,26
+G0021,Bắc Ninh,region,province,G0001,,pending,,,,,Tỉnh Bắc Ninh,27
+G0022,Hải Dương,region,province,G0001,,pending,,,,,Tỉnh Hải Dương,30
+G0023,Hải Phòng,region,special_administrative_area,G0001,,pending,,,,,Thành phố Hải Phòng,31
+G0024,Hưng Yên,region,province,G0001,,pending,,,,,Tỉnh Hưng Yên,33
+G0025,Thái Bình,region,province,G0001,,pending,,,,,Tỉnh Thái Bình,34
+G0026,Hà Nam,region,province,G0001,,pending,,,,,Tỉnh Hà Nam,35
+G0027,Nam Định,region,province,G0001,,pending,,,,,Tỉnh Nam Định,36
+G0028,Ninh Bình,region,province,G0001,,pending,,,,,Tỉnh Ninh Bình,37
+G0029,Thanh Hóa,region,province,G0001,,pending,,,,,Tỉnh Thanh Hóa,38
+G0030,Nghệ An,region,province,G0001,,pending,,,,,Tỉnh Nghệ An,40
+G0031,Hà Tĩnh,region,province,G0001,,pending,,,,,Tỉnh Hà Tĩnh,42
+G0032,Quảng Bình,region,province,G0001,,pending,,,,,Tỉnh Quảng Bình,44
+G0033,Quảng Trị,region,province,G0001,,pending,,,,,Tỉnh Quảng Trị,45
+G0034,Thừa Thiên Huế,region,province,G0001,,pending,,,,,Tỉnh Thừa Thiên Huế,46
+G0035,Đà Nẵng,region,special_administrative_area,G0001,,pending,,,,,Thành phố Đà Nẵng,48
+G0036,Quảng Nam,region,province,G0001,,pending,,,,,Tỉnh Quảng Nam,49
+G0037,Quảng Ngãi,region,province,G0001,,pending,,,,,Tỉnh Quảng Ngãi,51
+G0038,Bình Định,region,province,G0001,,pending,,,,,Tỉnh Bình Định,52
+G0039,Phú Yên,region,province,G0001,,pending,,,,,Tỉnh Phú Yên,54
+G0040,Khánh Hòa,region,province,G0001,,pending,,,,,Tỉnh Khánh Hòa,56
+G0041,Ninh Thuận,region,province,G0001,,pending,,,,,Tỉnh Ninh Thuận,58
+G0042,Bình Thuận,region,province,G0001,,pending,,,,,Tỉnh Bình Thuận,60
+G0043,Kon Tum,region,province,G0001,,pending,,,,,Tỉnh Kon Tum,62
+G0044,Gia Lai,region,province,G0001,,pending,,,,,Tỉnh Gia Lai,64
+G0045,Đắk Lắk,region,province,G0001,,pending,,,,,Tỉnh Đắk Lắk,66
+G0046,Đắk Nông,region,province,G0001,,pending,,,,,Tỉnh Đắk Nông,67
+G0047,Lâm Đồng,region,province,G0001,,pending,,,,,Tỉnh Lâm Đồng,68
+G0048,Bình Phước,region,province,G0001,,pending,,,,,Tỉnh Bình Phước,70
+G0049,Tây Ninh,region,province,G0001,,pending,,,,,Tỉnh Tây Ninh,72
+G0050,Bình Dương,region,province,G0001,,pending,,,,,Tỉnh Bình Dương,74
+G0051,Đồng Nai,region,province,G0001,,pending,,,,,Tỉnh Đồng Nai,75
+G0052,Bà Rịa - Vũng Tàu,region,province,G0001,,pending,,,,,Tỉnh Bà Rịa - Vũng Tàu,77
+G0053,Hồ Chí Minh,region,special_administrative_area,G0001,,pending,,,,,Thành phố Hồ Chí Minh,79
+G0054,Long An,region,province,G0001,,pending,,,,,Tỉnh Long An,80
+G0055,Tiền Giang,region,province,G0001,,pending,,,,,Tỉnh Tiền Giang,82
+G0056,Bến Tre,region,province,G0001,,pending,,,,,Tỉnh Bến Tre,83
+G0057,Trà Vinh,region,province,G0001,,pending,,,,,Tỉnh Trà Vinh,84
+G0058,Vĩnh Long,region,province,G0001,,pending,,,,,Tỉnh Vĩnh Long,86
+G0059,Đồng Tháp,region,province,G0001,,pending,,,,,Tỉnh Đồng Tháp,87
+G0060,An Giang,region,province,G0001,,pending,,,,,Tỉnh An Giang,89
+G0061,Kiên Giang,region,province,G0001,,pending,,,,,Tỉnh Kiên Giang,91
+G0062,Cần Thơ,region,special_administrative_area,G0001,,pending,,,,,Thành phố Cần Thơ,92
+G0063,Hậu Giang,region,province,G0001,,pending,,,,,Tỉnh Hậu Giang,93
+G0064,Sóc Trăng,region,province,G0001,,pending,,,,,Tỉnh Sóc Trăng,94
+G0065,Bạc Liêu,region,province,G0001,,pending,,,,,Tỉnh Bạc Liêu,95
+G0066,Cà Mau,region,province,G0001,,pending,,,,,Tỉnh Cà Mau,96
+G0067,Ba Đình,council,urban_district,G0004,,pending,,,,,Quận Ba Đình,001
+G0068,Hoàn Kiếm,council,urban_district,G0004,,pending,,,,,Quận Hoàn Kiếm,002
+G0069,Tây Hồ,council,urban_district,G0004,,pending,,,,,Quận Tây Hồ,003
+G0070,Long Biên,council,urban_district,G0004,,pending,,,,,Quận Long Biên,004
+G0071,Cầu Giấy,council,urban_district,G0004,,pending,,,,,Quận Cầu Giấy,005
+G0072,Đống Đa,council,urban_district,G0004,,pending,,,,,Quận Đống Đa,006
+G0073,Hai Bà Trưng,council,urban_district,G0004,,pending,,,,,Quận Hai Bà Trưng,007
+G0074,Hoàng Mai,council,urban_district,G0004,,pending,,,,,Quận Hoàng Mai,008
+G0075,Thanh Xuân,council,urban_district,G0004,,pending,,,,,Quận Thanh Xuân,009
+G0076,Sóc Sơn,council,district,G0004,,pending,,,,,Huyện Sóc Sơn,016
+G0077,Đông Anh,council,district,G0004,,pending,,,,,Huyện Đông Anh,017
+G0078,Gia Lâm,council,district,G0004,,pending,,,,,Huyện Gia Lâm,018
+G0079,Nam Từ Liêm,council,urban_district,G0004,,pending,,,,,Quận Nam Từ Liêm,019
+G0080,Thanh Trì,council,district,G0004,,pending,,,,,Huyện Thanh Trì,020
+G0081,Bắc Từ Liêm,council,urban_district,G0004,,pending,,,,,Quận Bắc Từ Liêm,021
+G0082,Mê Linh,council,district,G0004,,pending,,,,,Huyện Mê Linh,250
+G0083,Hà Đông,council,urban_district,G0004,,pending,,,,,Quận Hà Đông,268
+G0084,Sơn Tây,council,town,G0004,,pending,,,,,Thị xã Sơn Tây,269
+G0085,Ba Vì,council,district,G0004,,pending,,,,,Huyện Ba Vì,271
+G0086,Phúc Thọ,council,district,G0004,,pending,,,,,Huyện Phúc Thọ,272
+G0087,Đan Phượng,council,district,G0004,,pending,,,,,Huyện Đan Phượng,273
+G0088,Hoài Đức,council,district,G0004,,pending,,,,,Huyện Hoài Đức,274
+G0089,Quốc Oai,council,district,G0004,,pending,,,,,Huyện Quốc Oai,275
+G0090,Thạch Thất,council,district,G0004,,pending,,,,,Huyện Thạch Thất,276
+G0091,Chương Mỹ,council,district,G0004,,pending,,,,,Huyện Chương Mỹ,277
+G0092,Thanh Oai,council,district,G0004,,pending,,,,,Huyện Thanh Oai,278
+G0093,Thường Tín,council,district,G0004,,pending,,,,,Huyện Thường Tín,279
+G0094,Phú Xuyên,council,district,G0004,,pending,,,,,Huyện Phú Xuyên,280
+G0095,Ứng Hòa,council,district,G0004,,pending,,,,,Huyện Ứng Hòa,281
+G0096,Mỹ Đức,council,district,G0004,,pending,,,,,Huyện Mỹ Đức,282
+G0097,Hà Giang,council,city,G0005,,pending,,,,,Thành phố Hà Giang,024
+G0098,Đồng Văn,council,district,G0005,,pending,,,,,Huyện Đồng Văn,026
+G0099,Mèo Vạc,council,district,G0005,,pending,,,,,Huyện Mèo Vạc,027
+G0100,Yên Minh,council,district,G0005,,pending,,,,,Huyện Yên Minh,028
+G0101,Quản Bạ,council,district,G0005,,pending,,,,,Huyện Quản Bạ,029
+G0102,Vị Xuyên,council,district,G0005,,pending,,,,,Huyện Vị Xuyên,030
+G0103,Bắc Mê,council,district,G0005,,pending,,,,,Huyện Bắc Mê,031
+G0104,Hoàng Su Phì,council,district,G0005,,pending,,,,,Huyện Hoàng Su Phì,032
+G0105,Xín Mần,council,district,G0005,,pending,,,,,Huyện Xín Mần,033
+G0106,Bắc Quang,council,district,G0005,,pending,,,,,Huyện Bắc Quang,034
+G0107,Quang Bình,council,district,G0005,,pending,,,,,Huyện Quang Bình,035
+G0108,Cao Bằng,council,city,G0006,,pending,,,,,Thành phố Cao Bằng,040
+G0109,Bảo Lâm,council,district,G0006,,pending,,,,,Huyện Bảo Lâm,042
+G0110,Bảo Lạc,council,district,G0006,,pending,,,,,Huyện Bảo Lạc,043
+G0111,Hà Quảng,council,district,G0006,,pending,,,,,Huyện Hà Quảng,045
+G0112,Trùng Khánh,council,district,G0006,,pending,,,,,Huyện Trùng Khánh,047
+G0113,Hạ Lang,council,district,G0006,,pending,,,,,Huyện Hạ Lang,048
+G0114,Quảng Hòa,council,district,G0006,,pending,,,,,Huyện Quảng Hòa,049
+G0115,Hoà An,council,district,G0006,,pending,,,,,Huyện Hoà An,051
+G0116,Nguyên Bình,council,district,G0006,,pending,,,,,Huyện Nguyên Bình,052
+G0117,Thạch An,council,district,G0006,,pending,,,,,Huyện Thạch An,053
+G0118,Bắc Kạn,council,city,G0007,,pending,,,,,Thành Phố Bắc Kạn,058
+G0119,Pác Nặm,council,district,G0007,,pending,,,,,Huyện Pác Nặm,060
+G0120,Ba Bể,council,district,G0007,,pending,,,,,Huyện Ba Bể,061
+G0121,Ngân Sơn,council,district,G0007,,pending,,,,,Huyện Ngân Sơn,062
+G0122,Bạch Thông,council,district,G0007,,pending,,,,,Huyện Bạch Thông,063
+G0123,Chợ Đồn,council,district,G0007,,pending,,,,,Huyện Chợ Đồn,064
+G0124,Chợ Mới,council,district,G0007,,pending,,,,,Huyện Chợ Mới,065
+G0125,Na Rì,council,district,G0007,,pending,,,,,Huyện Na Rì,066
+G0126,Tuyên Quang,council,city,G0008,,pending,,,,,Thành phố Tuyên Quang,070
+G0127,Lâm Bình,council,district,G0008,,pending,,,,,Huyện Lâm Bình,071
+G0128,Na Hang,council,district,G0008,,pending,,,,,Huyện Na Hang,072
+G0129,Chiêm Hóa,council,district,G0008,,pending,,,,,Huyện Chiêm Hóa,073
+G0130,Hàm Yên,council,district,G0008,,pending,,,,,Huyện Hàm Yên,074
+G0131,Yên Sơn,council,district,G0008,,pending,,,,,Huyện Yên Sơn,075
+G0132,Sơn Dương,council,district,G0008,,pending,,,,,Huyện Sơn Dương,076
+G0133,Lào Cai,council,city,G0009,,pending,,,,,Thành phố Lào Cai,080
+G0134,Bát Xát,council,district,G0009,,pending,,,,,Huyện Bát Xát,082
+G0135,Mường Khương,council,district,G0009,,pending,,,,,Huyện Mường Khương,083
+G0136,Si Ma Cai,council,district,G0009,,pending,,,,,Huyện Si Ma Cai,084
+G0137,Bắc Hà,council,district,G0009,,pending,,,,,Huyện Bắc Hà,085
+G0138,Bảo Thắng,council,district,G0009,,pending,,,,,Huyện Bảo Thắng,086
+G0139,Bảo Yên,council,district,G0009,,pending,,,,,Huyện Bảo Yên,087
+G0140,Sa Pa,council,town,G0009,,pending,,,,,Thị xã Sa Pa,088
+G0141,Văn Bàn,council,district,G0009,,pending,,,,,Huyện Văn Bàn,089
+G0142,Điện Biên Phủ,council,city,G0010,,pending,,,,,Thành phố Điện Biên Phủ,094
+G0143,Mường Lay,council,town,G0010,,pending,,,,,Thị xã Mường Lay,095
+G0144,Mường Nhé,council,district,G0010,,pending,,,,,Huyện Mường Nhé,096
+G0145,Mường Chà,council,district,G0010,,pending,,,,,Huyện Mường Chà,097
+G0146,Tủa Chùa,council,district,G0010,,pending,,,,,Huyện Tủa Chùa,098
+G0147,Tuần Giáo,council,district,G0010,,pending,,,,,Huyện Tuần Giáo,099
+G0148,Điện Biên,council,district,G0010,,pending,,,,,Huyện Điện Biên,100
+G0149,Điện Biên Đông,council,district,G0010,,pending,,,,,Huyện Điện Biên Đông,101
+G0150,Mường Ảng,council,district,G0010,,pending,,,,,Huyện Mường Ảng,102
+G0151,Nậm Pồ,council,district,G0010,,pending,,,,,Huyện Nậm Pồ,103
+G0152,Lai Châu,council,city,G0011,,pending,,,,,Thành phố Lai Châu,105
+G0153,Tam Đường,council,district,G0011,,pending,,,,,Huyện Tam Đường,106
+G0154,Mường Tè,council,district,G0011,,pending,,,,,Huyện Mường Tè,107
+G0155,Sìn Hồ,council,district,G0011,,pending,,,,,Huyện Sìn Hồ,108
+G0156,Phong Thổ,council,district,G0011,,pending,,,,,Huyện Phong Thổ,109
+G0157,Than Uyên,council,district,G0011,,pending,,,,,Huyện Than Uyên,110
+G0158,Tân Uyên,council,district,G0011,,pending,,,,,Huyện Tân Uyên,111
+G0159,Nậm Nhùn,council,district,G0011,,pending,,,,,Huyện Nậm Nhùn,112
+G0160,Sơn La,council,city,G0012,,pending,,,,,Thành phố Sơn La,116
+G0161,Quỳnh Nhai,council,district,G0012,,pending,,,,,Huyện Quỳnh Nhai,118
+G0162,Thuận Châu,council,district,G0012,,pending,,,,,Huyện Thuận Châu,119
+G0163,Mường La,council,district,G0012,,pending,,,,,Huyện Mường La,120
+G0164,Bắc Yên,council,district,G0012,,pending,,,,,Huyện Bắc Yên,121
+G0165,Phù Yên,council,district,G0012,,pending,,,,,Huyện Phù Yên,122
+G0166,Mộc Châu,council,district,G0012,,pending,,,,,Huyện Mộc Châu,123
+G0167,Yên Châu,council,district,G0012,,pending,,,,,Huyện Yên Châu,124
+G0168,Mai Sơn,council,district,G0012,,pending,,,,,Huyện Mai Sơn,125
+G0169,Sông Mã,council,district,G0012,,pending,,,,,Huyện Sông Mã,126
+G0170,Sốp Cộp,council,district,G0012,,pending,,,,,Huyện Sốp Cộp,127
+G0171,Vân Hồ,council,district,G0012,,pending,,,,,Huyện Vân Hồ,128
+G0172,Yên Bái,council,city,G0013,,pending,,,,,Thành phố Yên Bái,132
+G0173,Nghĩa Lộ,council,town,G0013,,pending,,,,,Thị xã Nghĩa Lộ,133
+G0174,Lục Yên,council,district,G0013,,pending,,,,,Huyện Lục Yên,135
+G0175,Văn Yên,council,district,G0013,,pending,,,,,Huyện Văn Yên,136
+G0176,Mù Căng Chải,council,district,G0013,,pending,,,,,Huyện Mù Căng Chải,137
+G0177,Trấn Yên,council,district,G0013,,pending,,,,,Huyện Trấn Yên,138
+G0178,Trạm Tấu,council,district,G0013,,pending,,,,,Huyện Trạm Tấu,139
+G0179,Văn Chấn,council,district,G0013,,pending,,,,,Huyện Văn Chấn,140
+G0180,Yên Bình,council,district,G0013,,pending,,,,,Huyện Yên Bình,141
+G0181,Hòa Bình,council,city,G0014,,pending,,,,,Thành phố Hòa Bình,148
+G0182,Đà Bắc,council,district,G0014,,pending,,,,,Huyện Đà Bắc,150
+G0183,Lương Sơn,council,district,G0014,,pending,,,,,Huyện Lương Sơn,152
+G0184,Kim Bôi,council,district,G0014,,pending,,,,,Huyện Kim Bôi,153
+G0185,Cao Phong,council,district,G0014,,pending,,,,,Huyện Cao Phong,154
+G0186,Tân Lạc,council,district,G0014,,pending,,,,,Huyện Tân Lạc,155
+G0187,Mai Châu,council,district,G0014,,pending,,,,,Huyện Mai Châu,156
+G0188,Lạc Sơn,council,district,G0014,,pending,,,,,Huyện Lạc Sơn,157
+G0189,Yên Thủy,council,district,G0014,,pending,,,,,Huyện Yên Thủy,158
+G0190,Lạc Thủy,council,district,G0014,,pending,,,,,Huyện Lạc Thủy,159
+G0191,Thái Nguyên,council,city,G0015,,pending,,,,,Thành phố Thái Nguyên,164
+G0192,Sông Công,council,city,G0015,,pending,,,,,Thành phố Sông Công,165
+G0193,Định Hóa,council,district,G0015,,pending,,,,,Huyện Định Hóa,167
+G0194,Phú Lương,council,district,G0015,,pending,,,,,Huyện Phú Lương,168
+G0195,Đồng Hỷ,council,district,G0015,,pending,,,,,Huyện Đồng Hỷ,169
+G0196,Võ Nhai,council,district,G0015,,pending,,,,,Huyện Võ Nhai,170
+G0197,Đại Từ,council,district,G0015,,pending,,,,,Huyện Đại Từ,171
+G0198,Phổ Yên,council,city,G0015,,pending,,,,,Thành phố Phổ Yên,172
+G0199,Phú Bình,council,district,G0015,,pending,,,,,Huyện Phú Bình,173
+G0200,Lạng Sơn,council,city,G0016,,pending,,,,,Thành phố Lạng Sơn,178
+G0201,Tràng Định,council,district,G0016,,pending,,,,,Huyện Tràng Định,180
+G0202,Bình Gia,council,district,G0016,,pending,,,,,Huyện Bình Gia,181
+G0203,Văn Lãng,council,district,G0016,,pending,,,,,Huyện Văn Lãng,182
+G0204,Cao Lộc,council,district,G0016,,pending,,,,,Huyện Cao Lộc,183
+G0205,Văn Quan,council,district,G0016,,pending,,,,,Huyện Văn Quan,184
+G0206,Bắc Sơn,council,district,G0016,,pending,,,,,Huyện Bắc Sơn,185
+G0207,Hữu Lũng,council,district,G0016,,pending,,,,,Huyện Hữu Lũng,186
+G0208,Chi Lăng,council,district,G0016,,pending,,,,,Huyện Chi Lăng,187
+G0209,Lộc Bình,council,district,G0016,,pending,,,,,Huyện Lộc Bình,188
+G0210,Đình Lập,council,district,G0016,,pending,,,,,Huyện Đình Lập,189
+G0211,Hạ Long,council,city,G0017,,pending,,,,,Thành phố Hạ Long,193
+G0212,Móng Cái,council,city,G0017,,pending,,,,,Thành phố Móng Cái,194
+G0213,Cẩm Phả,council,city,G0017,,pending,,,,,Thành phố Cẩm Phả,195
+G0214,Uông Bí,council,city,G0017,,pending,,,,,Thành phố Uông Bí,196
+G0215,Bình Liêu,council,district,G0017,,pending,,,,,Huyện Bình Liêu,198
+G0216,Tiên Yên,council,district,G0017,,pending,,,,,Huyện Tiên Yên,199
+G0217,Đầm Hà,council,district,G0017,,pending,,,,,Huyện Đầm Hà,200
+G0218,Hải Hà,council,district,G0017,,pending,,,,,Huyện Hải Hà,201
+G0219,Ba Chẽ,council,district,G0017,,pending,,,,,Huyện Ba Chẽ,202
+G0220,Vân Đồn,council,district,G0017,,pending,,,,,Huyện Vân Đồn,203
+G0221,Đông Triều,council,town,G0017,,pending,,,,,Thị xã Đông Triều,205
+G0222,Quảng Yên,council,town,G0017,,pending,,,,,Thị xã Quảng Yên,206
+G0223,Cô Tô,council,district,G0017,,pending,,,,,Huyện Cô Tô,207
+G0224,Bắc Giang,council,city,G0018,,pending,,,,,Thành phố Bắc Giang,213
+G0225,Yên Thế,council,district,G0018,,pending,,,,,Huyện Yên Thế,215
+G0226,Tân Yên,council,district,G0018,,pending,,,,,Huyện Tân Yên,216
+G0227,Lạng Giang,council,district,G0018,,pending,,,,,Huyện Lạng Giang,217
+G0228,Lục Nam,council,district,G0018,,pending,,,,,Huyện Lục Nam,218
+G0229,Lục Ngạn,council,district,G0018,,pending,,,,,Huyện Lục Ngạn,219
+G0230,Sơn Động,council,district,G0018,,pending,,,,,Huyện Sơn Động,220
+G0231,Yên Dũng,council,district,G0018,,pending,,,,,Huyện Yên Dũng,221
+G0232,Việt Yên,council,district,G0018,,pending,,,,,Huyện Việt Yên,222
+G0233,Hiệp Hòa,council,district,G0018,,pending,,,,,Huyện Hiệp Hòa,223
+G0234,Việt Trì,council,city,G0019,,pending,,,,,Thành phố Việt Trì,227
+G0235,Phú Thọ,council,town,G0019,,pending,,,,,Thị xã Phú Thọ,228
+G0236,Đoan Hùng,council,district,G0019,,pending,,,,,Huyện Đoan Hùng,230
+G0237,Hạ Hoà,council,district,G0019,,pending,,,,,Huyện Hạ Hoà,231
+G0238,Thanh Ba,council,district,G0019,,pending,,,,,Huyện Thanh Ba,232
+G0239,Phù Ninh,council,district,G0019,,pending,,,,,Huyện Phù Ninh,233
+G0240,Yên Lập,council,district,G0019,,pending,,,,,Huyện Yên Lập,234
+G0241,Cẩm Khê,council,district,G0019,,pending,,,,,Huyện Cẩm Khê,235
+G0242,Tam Nông,council,district,G0019,,pending,,,,,Huyện Tam Nông,236
+G0243,Lâm Thao,council,district,G0019,,pending,,,,,Huyện Lâm Thao,237
+G0244,Thanh Sơn,council,district,G0019,,pending,,,,,Huyện Thanh Sơn,238
+G0245,Thanh Thuỷ,council,district,G0019,,pending,,,,,Huyện Thanh Thuỷ,239
+G0246,Tân Sơn,council,district,G0019,,pending,,,,,Huyện Tân Sơn,240
+G0247,Vĩnh Yên,council,city,G0020,,pending,,,,,Thành phố Vĩnh Yên,243
+G0248,Phúc Yên,council,city,G0020,,pending,,,,,Thành phố Phúc Yên,244
+G0249,Lập Thạch,council,district,G0020,,pending,,,,,Huyện Lập Thạch,246
+G0250,Tam Dương,council,district,G0020,,pending,,,,,Huyện Tam Dương,247
+G0251,Tam Đảo,council,district,G0020,,pending,,,,,Huyện Tam Đảo,248
+G0252,Bình Xuyên,council,district,G0020,,pending,,,,,Huyện Bình Xuyên,249
+G0253,Yên Lạc,council,district,G0020,,pending,,,,,Huyện Yên Lạc,251
+G0254,Vĩnh Tường,council,district,G0020,,pending,,,,,Huyện Vĩnh Tường,252
+G0255,Sông Lô,council,district,G0020,,pending,,,,,Huyện Sông Lô,253
+G0256,Bắc Ninh,council,city,G0021,,pending,,,,,Thành phố Bắc Ninh,256
+G0257,Yên Phong,council,district,G0021,,pending,,,,,Huyện Yên Phong,258
+G0258,Quế Võ,council,town,G0021,,pending,,,,,Thị xã Quế Võ,259
+G0259,Tiên Du,council,district,G0021,,pending,,,,,Huyện Tiên Du,260
+G0260,Từ Sơn,council,city,G0021,,pending,,,,,Thành phố Từ Sơn,261
+G0261,Thuận Thành,council,town,G0021,,pending,,,,,Thị xã Thuận Thành,262
+G0262,Gia Bình,council,district,G0021,,pending,,,,,Huyện Gia Bình,263
+G0263,Lương Tài,council,district,G0021,,pending,,,,,Huyện Lương Tài,264
+G0264,Hải Dương,council,city,G0022,,pending,,,,,Thành phố Hải Dương,288
+G0265,Chí Linh,council,city,G0022,,pending,,,,,Thành phố Chí Linh,290
+G0266,Nam Sách,council,district,G0022,,pending,,,,,Huyện Nam Sách,291
+G0267,Kinh Môn,council,town,G0022,,pending,,,,,Thị xã Kinh Môn,292
+G0268,Kim Thành,council,district,G0022,,pending,,,,,Huyện Kim Thành,293
+G0269,Thanh Hà,council,district,G0022,,pending,,,,,Huyện Thanh Hà,294
+G0270,Cẩm Giàng,council,district,G0022,,pending,,,,,Huyện Cẩm Giàng,295
+G0271,Bình Giang,council,district,G0022,,pending,,,,,Huyện Bình Giang,296
+G0272,Gia Lộc,council,district,G0022,,pending,,,,,Huyện Gia Lộc,297
+G0273,Tứ Kỳ,council,district,G0022,,pending,,,,,Huyện Tứ Kỳ,298
+G0274,Ninh Giang,council,district,G0022,,pending,,,,,Huyện Ninh Giang,299
+G0275,Thanh Miện,council,district,G0022,,pending,,,,,Huyện Thanh Miện,300
+G0276,Hồng Bàng,council,urban_district,G0023,,pending,,,,,Quận Hồng Bàng,303
+G0277,Ngô Quyền,council,urban_district,G0023,,pending,,,,,Quận Ngô Quyền,304
+G0278,Lê Chân,council,urban_district,G0023,,pending,,,,,Quận Lê Chân,305
+G0279,Hải An,council,urban_district,G0023,,pending,,,,,Quận Hải An,306
+G0280,Kiến An,council,urban_district,G0023,,pending,,,,,Quận Kiến An,307
+G0281,Đồ Sơn,council,urban_district,G0023,,pending,,,,,Quận Đồ Sơn,308
+G0282,Dương Kinh,council,urban_district,G0023,,pending,,,,,Quận Dương Kinh,309
+G0283,Thuỷ Nguyên,council,district,G0023,,pending,,,,,Huyện Thuỷ Nguyên,311
+G0284,An Dương,council,district,G0023,,pending,,,,,Huyện An Dương,312
+G0285,An Lão,council,district,G0023,,pending,,,,,Huyện An Lão,313
+G0286,Kiến Thuỵ,council,district,G0023,,pending,,,,,Huyện Kiến Thuỵ,314
+G0287,Tiên Lãng,council,district,G0023,,pending,,,,,Huyện Tiên Lãng,315
+G0288,Vĩnh Bảo,council,district,G0023,,pending,,,,,Huyện Vĩnh Bảo,316
+G0289,Cát Hải,council,district,G0023,,pending,,,,,Huyện Cát Hải,317
+G0290,Bạch Long Vĩ,council,district,G0023,,pending,,,,,Huyện Bạch Long Vĩ,318
+G0291,Hưng Yên,council,city,G0024,,pending,,,,,Thành phố Hưng Yên,323
+G0292,Văn Lâm,council,district,G0024,,pending,,,,,Huyện Văn Lâm,325
+G0293,Văn Giang,council,district,G0024,,pending,,,,,Huyện Văn Giang,326
+G0294,Yên Mỹ,council,district,G0024,,pending,,,,,Huyện Yên Mỹ,327
+G0295,Mỹ Hào,council,town,G0024,,pending,,,,,Thị xã Mỹ Hào,328
+G0296,Ân Thi,council,district,G0024,,pending,,,,,Huyện Ân Thi,329
+G0297,Khoái Châu,council,district,G0024,,pending,,,,,Huyện Khoái Châu,330
+G0298,Kim Động,council,district,G0024,,pending,,,,,Huyện Kim Động,331
+G0299,Tiên Lữ,council,district,G0024,,pending,,,,,Huyện Tiên Lữ,332
+G0300,Phù Cừ,council,district,G0024,,pending,,,,,Huyện Phù Cừ,333
+G0301,Thái Bình,council,city,G0025,,pending,,,,,Thành phố Thái Bình,336
+G0302,Quỳnh Phụ,council,district,G0025,,pending,,,,,Huyện Quỳnh Phụ,338
+G0303,Hưng Hà,council,district,G0025,,pending,,,,,Huyện Hưng Hà,339
+G0304,Đông Hưng,council,district,G0025,,pending,,,,,Huyện Đông Hưng,340
+G0305,Thái Thụy,council,district,G0025,,pending,,,,,Huyện Thái Thụy,341
+G0306,Tiền Hải,council,district,G0025,,pending,,,,,Huyện Tiền Hải,342
+G0307,Kiến Xương,council,district,G0025,,pending,,,,,Huyện Kiến Xương,343
+G0308,Vũ Thư,council,district,G0025,,pending,,,,,Huyện Vũ Thư,344
+G0309,Phủ Lý,council,city,G0026,,pending,,,,,Thành phố Phủ Lý,347
+G0310,Duy Tiên,council,town,G0026,,pending,,,,,Thị xã Duy Tiên,349
+G0311,Kim Bảng,council,district,G0026,,pending,,,,,Huyện Kim Bảng,350
+G0312,Thanh Liêm,council,district,G0026,,pending,,,,,Huyện Thanh Liêm,351
+G0313,Bình Lục,council,district,G0026,,pending,,,,,Huyện Bình Lục,352
+G0314,Lý Nhân,council,district,G0026,,pending,,,,,Huyện Lý Nhân,353
+G0315,Nam Định,council,city,G0027,,pending,,,,,Thành phố Nam Định,356
+G0316,Mỹ Lộc,council,district,G0027,,pending,,,,,Huyện Mỹ Lộc,358
+G0317,Vụ Bản,council,district,G0027,,pending,,,,,Huyện Vụ Bản,359
+G0318,Ý Yên,council,district,G0027,,pending,,,,,Huyện Ý Yên,360
+G0319,Nghĩa Hưng,council,district,G0027,,pending,,,,,Huyện Nghĩa Hưng,361
+G0320,Nam Trực,council,district,G0027,,pending,,,,,Huyện Nam Trực,362
+G0321,Trực Ninh,council,district,G0027,,pending,,,,,Huyện Trực Ninh,363
+G0322,Xuân Trường,council,district,G0027,,pending,,,,,Huyện Xuân Trường,364
+G0323,Giao Thủy,council,district,G0027,,pending,,,,,Huyện Giao Thủy,365
+G0324,Hải Hậu,council,district,G0027,,pending,,,,,Huyện Hải Hậu,366
+G0325,Ninh Bình,council,city,G0028,,pending,,,,,Thành phố Ninh Bình,369
+G0326,Tam Điệp,council,city,G0028,,pending,,,,,Thành phố Tam Điệp,370
+G0327,Nho Quan,council,district,G0028,,pending,,,,,Huyện Nho Quan,372
+G0328,Gia Viễn,council,district,G0028,,pending,,,,,Huyện Gia Viễn,373
+G0329,Hoa Lư,council,district,G0028,,pending,,,,,Huyện Hoa Lư,374
+G0330,Yên Khánh,council,district,G0028,,pending,,,,,Huyện Yên Khánh,375
+G0331,Kim Sơn,council,district,G0028,,pending,,,,,Huyện Kim Sơn,376
+G0332,Yên Mô,council,district,G0028,,pending,,,,,Huyện Yên Mô,377
+G0333,Thanh Hóa,council,city,G0029,,pending,,,,,Thành phố Thanh Hóa,380
+G0334,Bỉm Sơn,council,town,G0029,,pending,,,,,Thị xã Bỉm Sơn,381
+G0335,Sầm Sơn,council,city,G0029,,pending,,,,,Thành phố Sầm Sơn,382
+G0336,Mường Lát,council,district,G0029,,pending,,,,,Huyện Mường Lát,384
+G0337,Quan Hóa,council,district,G0029,,pending,,,,,Huyện Quan Hóa,385
+G0338,Bá Thước,council,district,G0029,,pending,,,,,Huyện Bá Thước,386
+G0339,Quan Sơn,council,district,G0029,,pending,,,,,Huyện Quan Sơn,387
+G0340,Lang Chánh,council,district,G0029,,pending,,,,,Huyện Lang Chánh,388
+G0341,Ngọc Lặc,council,district,G0029,,pending,,,,,Huyện Ngọc Lặc,389
+G0342,Cẩm Thủy,council,district,G0029,,pending,,,,,Huyện Cẩm Thủy,390
+G0343,Thạch Thành,council,district,G0029,,pending,,,,,Huyện Thạch Thành,391
+G0344,Hà Trung,council,district,G0029,,pending,,,,,Huyện Hà Trung,392
+G0345,Vĩnh Lộc,council,district,G0029,,pending,,,,,Huyện Vĩnh Lộc,393
+G0346,Yên Định,council,district,G0029,,pending,,,,,Huyện Yên Định,394
+G0347,Thọ Xuân,council,district,G0029,,pending,,,,,Huyện Thọ Xuân,395
+G0348,Thường Xuân,council,district,G0029,,pending,,,,,Huyện Thường Xuân,396
+G0349,Triệu Sơn,council,district,G0029,,pending,,,,,Huyện Triệu Sơn,397
+G0350,Thiệu Hóa,council,district,G0029,,pending,,,,,Huyện Thiệu Hóa,398
+G0351,Hoằng Hóa,council,district,G0029,,pending,,,,,Huyện Hoằng Hóa,399
+G0352,Hậu Lộc,council,district,G0029,,pending,,,,,Huyện Hậu Lộc,400
+G0353,Nga Sơn,council,district,G0029,,pending,,,,,Huyện Nga Sơn,401
+G0354,Như Xuân,council,district,G0029,,pending,,,,,Huyện Như Xuân,402
+G0355,Như Thanh,council,district,G0029,,pending,,,,,Huyện Như Thanh,403
+G0356,Nông Cống,council,district,G0029,,pending,,,,,Huyện Nông Cống,404
+G0357,Đông Sơn,council,district,G0029,,pending,,,,,Huyện Đông Sơn,405
+G0358,Quảng Xương,council,district,G0029,,pending,,,,,Huyện Quảng Xương,406
+G0359,Nghi Sơn,council,town,G0029,,pending,,,,,Thị xã Nghi Sơn,407
+G0360,Vinh,council,city,G0030,,pending,,,,,Thành phố Vinh,412
+G0361,Cửa Lò,council,town,G0030,,pending,,,,,Thị xã Cửa Lò,413
+G0362,Thái Hoà,council,town,G0030,,pending,,,,,Thị xã Thái Hoà,414
+G0363,Quế Phong,council,district,G0030,,pending,,,,,Huyện Quế Phong,415
+G0364,Quỳ Châu,council,district,G0030,,pending,,,,,Huyện Quỳ Châu,416
+G0365,Kỳ Sơn,council,district,G0030,,pending,,,,,Huyện Kỳ Sơn,417
+G0366,Tương Dương,council,district,G0030,,pending,,,,,Huyện Tương Dương,418
+G0367,Nghĩa Đàn,council,district,G0030,,pending,,,,,Huyện Nghĩa Đàn,419
+G0368,Quỳ Hợp,council,district,G0030,,pending,,,,,Huyện Quỳ Hợp,420
+G0369,Quỳnh Lưu,council,district,G0030,,pending,,,,,Huyện Quỳnh Lưu,421
+G0370,Con Cuông,council,district,G0030,,pending,,,,,Huyện Con Cuông,422
+G0371,Tân Kỳ,council,district,G0030,,pending,,,,,Huyện Tân Kỳ,423
+G0372,Anh Sơn,council,district,G0030,,pending,,,,,Huyện Anh Sơn,424
+G0373,Diễn Châu,council,district,G0030,,pending,,,,,Huyện Diễn Châu,425
+G0374,Yên Thành,council,district,G0030,,pending,,,,,Huyện Yên Thành,426
+G0375,Đô Lương,council,district,G0030,,pending,,,,,Huyện Đô Lương,427
+G0376,Thanh Chương,council,district,G0030,,pending,,,,,Huyện Thanh Chương,428
+G0377,Nghi Lộc,council,district,G0030,,pending,,,,,Huyện Nghi Lộc,429
+G0378,Nam Đàn,council,district,G0030,,pending,,,,,Huyện Nam Đàn,430
+G0379,Hưng Nguyên,council,district,G0030,,pending,,,,,Huyện Hưng Nguyên,431
+G0380,Hoàng Mai,council,town,G0030,,pending,,,,,Thị xã Hoàng Mai,432
+G0381,Hà Tĩnh,council,city,G0031,,pending,,,,,Thành phố Hà Tĩnh,436
+G0382,Hồng Lĩnh,council,town,G0031,,pending,,,,,Thị xã Hồng Lĩnh,437
+G0383,Hương Sơn,council,district,G0031,,pending,,,,,Huyện Hương Sơn,439
+G0384,Đức Thọ,council,district,G0031,,pending,,,,,Huyện Đức Thọ,440
+G0385,Vũ Quang,council,district,G0031,,pending,,,,,Huyện Vũ Quang,441
+G0386,Nghi Xuân,council,district,G0031,,pending,,,,,Huyện Nghi Xuân,442
+G0387,Can Lộc,council,district,G0031,,pending,,,,,Huyện Can Lộc,443
+G0388,Hương Khê,council,district,G0031,,pending,,,,,Huyện Hương Khê,444
+G0389,Thạch Hà,council,district,G0031,,pending,,,,,Huyện Thạch Hà,445
+G0390,Cẩm Xuyên,council,district,G0031,,pending,,,,,Huyện Cẩm Xuyên,446
+G0391,Huyện Kỳ Anh,council,district,G0031,,pending,,,,,Huyện Kỳ Anh,447
+G0392,Lộc Hà,council,district,G0031,,pending,,,,,Huyện Lộc Hà,448
+G0393,Thị xã Kỳ Anh,council,town,G0031,,pending,,,,,Thị xã Kỳ Anh,449
+G0394,Đồng Hới,council,city,G0032,,pending,,,,,Thành Phố Đồng Hới,450
+G0395,Minh Hóa,council,district,G0032,,pending,,,,,Huyện Minh Hóa,452
+G0396,Tuyên Hóa,council,district,G0032,,pending,,,,,Huyện Tuyên Hóa,453
+G0397,Quảng Trạch,council,district,G0032,,pending,,,,,Huyện Quảng Trạch,454
+G0398,Bố Trạch,council,district,G0032,,pending,,,,,Huyện Bố Trạch,455
+G0399,Quảng Ninh,council,district,G0032,,pending,,,,,Huyện Quảng Ninh,456
+G0400,Lệ Thủy,council,district,G0032,,pending,,,,,Huyện Lệ Thủy,457
+G0401,Ba Đồn,council,town,G0032,,pending,,,,,Thị xã Ba Đồn,458
+G0402,Đông Hà,council,city,G0033,,pending,,,,,Thành phố Đông Hà,461
+G0403,Quảng Trị,council,town,G0033,,pending,,,,,Thị xã Quảng Trị,462
+G0404,Vĩnh Linh,council,district,G0033,,pending,,,,,Huyện Vĩnh Linh,464
+G0405,Hướng Hóa,council,district,G0033,,pending,,,,,Huyện Hướng Hóa,465
+G0406,Gio Linh,council,district,G0033,,pending,,,,,Huyện Gio Linh,466
+G0407,Đa Krông,council,district,G0033,,pending,,,,,Huyện Đa Krông,467
+G0408,Cam Lộ,council,district,G0033,,pending,,,,,Huyện Cam Lộ,468
+G0409,Triệu Phong,council,district,G0033,,pending,,,,,Huyện Triệu Phong,469
+G0410,Hải Lăng,council,district,G0033,,pending,,,,,Huyện Hải Lăng,470
+G0411,Cồn Cỏ,council,district,G0033,,pending,,,,,Huyện Cồn Cỏ,471
+G0412,Huế,council,city,G0034,,pending,,,,,Thành phố Huế,474
+G0413,Phong Điền,council,district,G0034,,pending,,,,,Huyện Phong Điền,476
+G0414,Quảng Điền,council,district,G0034,,pending,,,,,Huyện Quảng Điền,477
+G0415,Phú Vang,council,district,G0034,,pending,,,,,Huyện Phú Vang,478
+G0416,Hương Thủy,council,town,G0034,,pending,,,,,Thị xã Hương Thủy,479
+G0417,Hương Trà,council,town,G0034,,pending,,,,,Thị xã Hương Trà,480
+G0418,A Lưới,council,district,G0034,,pending,,,,,Huyện A Lưới,481
+G0419,Phú Lộc,council,district,G0034,,pending,,,,,Huyện Phú Lộc,482
+G0420,Nam Đông,council,district,G0034,,pending,,,,,Huyện Nam Đông,483
+G0421,Liên Chiểu,council,urban_district,G0035,,pending,,,,,Quận Liên Chiểu,490
+G0422,Thanh Khê,council,urban_district,G0035,,pending,,,,,Quận Thanh Khê,491
+G0423,Hải Châu,council,urban_district,G0035,,pending,,,,,Quận Hải Châu,492
+G0424,Sơn Trà,council,urban_district,G0035,,pending,,,,,Quận Sơn Trà,493
+G0425,Ngũ Hành Sơn,council,urban_district,G0035,,pending,,,,,Quận Ngũ Hành Sơn,494
+G0426,Cẩm Lệ,council,urban_district,G0035,,pending,,,,,Quận Cẩm Lệ,495
+G0427,Hòa Vang,council,district,G0035,,pending,,,,,Huyện Hòa Vang,497
+G0428,Hoàng Sa,council,district,G0035,,pending,,,,,Huyện Hoàng Sa,498
+G0429,Tam Kỳ,council,city,G0036,,pending,,,,,Thành phố Tam Kỳ,502
+G0430,Hội An,council,city,G0036,,pending,,,,,Thành phố Hội An,503
+G0431,Tây Giang,council,district,G0036,,pending,,,,,Huyện Tây Giang,504
+G0432,Đông Giang,council,district,G0036,,pending,,,,,Huyện Đông Giang,505
+G0433,Đại Lộc,council,district,G0036,,pending,,,,,Huyện Đại Lộc,506
+G0434,Điện Bàn,council,town,G0036,,pending,,,,,Thị xã Điện Bàn,507
+G0435,Duy Xuyên,council,district,G0036,,pending,,,,,Huyện Duy Xuyên,508
+G0436,Quế Sơn,council,district,G0036,,pending,,,,,Huyện Quế Sơn,509
+G0437,Nam Giang,council,district,G0036,,pending,,,,,Huyện Nam Giang,510
+G0438,Phước Sơn,council,district,G0036,,pending,,,,,Huyện Phước Sơn,511
+G0439,Hiệp Đức,council,district,G0036,,pending,,,,,Huyện Hiệp Đức,512
+G0440,Thăng Bình,council,district,G0036,,pending,,,,,Huyện Thăng Bình,513
+G0441,Tiên Phước,council,district,G0036,,pending,,,,,Huyện Tiên Phước,514
+G0442,Bắc Trà My,council,district,G0036,,pending,,,,,Huyện Bắc Trà My,515
+G0443,Nam Trà My,council,district,G0036,,pending,,,,,Huyện Nam Trà My,516
+G0444,Núi Thành,council,district,G0036,,pending,,,,,Huyện Núi Thành,517
+G0445,Phú Ninh,council,district,G0036,,pending,,,,,Huyện Phú Ninh,518
+G0446,Nông Sơn,council,district,G0036,,pending,,,,,Huyện Nông Sơn,519
+G0447,Quảng Ngãi,council,city,G0037,,pending,,,,,Thành phố Quảng Ngãi,522
+G0448,Bình Sơn,council,district,G0037,,pending,,,,,Huyện Bình Sơn,524
+G0449,Trà Bồng,council,district,G0037,,pending,,,,,Huyện Trà Bồng,525
+G0450,Sơn Tịnh,council,district,G0037,,pending,,,,,Huyện Sơn Tịnh,527
+G0451,Tư Nghĩa,council,district,G0037,,pending,,,,,Huyện Tư Nghĩa,528
+G0452,Sơn Hà,council,district,G0037,,pending,,,,,Huyện Sơn Hà,529
+G0453,Sơn Tây,council,district,G0037,,pending,,,,,Huyện Sơn Tây,530
+G0454,Minh Long,council,district,G0037,,pending,,,,,Huyện Minh Long,531
+G0455,Nghĩa Hành,council,district,G0037,,pending,,,,,Huyện Nghĩa Hành,532
+G0456,Mộ Đức,council,district,G0037,,pending,,,,,Huyện Mộ Đức,533
+G0457,Đức Phổ,council,town,G0037,,pending,,,,,Thị xã Đức Phổ,534
+G0458,Ba Tơ,council,district,G0037,,pending,,,,,Huyện Ba Tơ,535
+G0459,Lý Sơn,council,district,G0037,,pending,,,,,Huyện Lý Sơn,536
+G0460,Quy Nhơn,council,city,G0038,,pending,,,,,Thành phố Quy Nhơn,540
+G0461,An Lão,council,district,G0038,,pending,,,,,Huyện An Lão,542
+G0462,Hoài Nhơn,council,town,G0038,,pending,,,,,Thị xã Hoài Nhơn,543
+G0463,Hoài Ân,council,district,G0038,,pending,,,,,Huyện Hoài Ân,544
+G0464,Phù Mỹ,council,district,G0038,,pending,,,,,Huyện Phù Mỹ,545
+G0465,Vĩnh Thạnh,council,district,G0038,,pending,,,,,Huyện Vĩnh Thạnh,546
+G0466,Tây Sơn,council,district,G0038,,pending,,,,,Huyện Tây Sơn,547
+G0467,Phù Cát,council,district,G0038,,pending,,,,,Huyện Phù Cát,548
+G0468,An Nhơn,council,town,G0038,,pending,,,,,Thị xã An Nhơn,549
+G0469,Tuy Phước,council,district,G0038,,pending,,,,,Huyện Tuy Phước,550
+G0470,Vân Canh,council,district,G0038,,pending,,,,,Huyện Vân Canh,551
+G0471,Tuy Hoà,council,city,G0039,,pending,,,,,Thành phố Tuy Hoà,555
+G0472,Sông Cầu,council,town,G0039,,pending,,,,,Thị xã Sông Cầu,557
+G0473,Đồng Xuân,council,district,G0039,,pending,,,,,Huyện Đồng Xuân,558
+G0474,Tuy An,council,district,G0039,,pending,,,,,Huyện Tuy An,559
+G0475,Sơn Hòa,council,district,G0039,,pending,,,,,Huyện Sơn Hòa,560
+G0476,Sông Hinh,council,district,G0039,,pending,,,,,Huyện Sông Hinh,561
+G0477,Tây Hoà,council,district,G0039,,pending,,,,,Huyện Tây Hoà,562
+G0478,Phú Hoà,council,district,G0039,,pending,,,,,Huyện Phú Hoà,563
+G0479,Đông Hòa,council,town,G0039,,pending,,,,,Thị xã Đông Hòa,564
+G0480,Nha Trang,council,city,G0040,,pending,,,,,Thành phố Nha Trang,568
+G0481,Cam Ranh,council,city,G0040,,pending,,,,,Thành phố Cam Ranh,569
+G0482,Cam Lâm,council,district,G0040,,pending,,,,,Huyện Cam Lâm,570
+G0483,Vạn Ninh,council,district,G0040,,pending,,,,,Huyện Vạn Ninh,571
+G0484,Ninh Hòa,council,town,G0040,,pending,,,,,Thị xã Ninh Hòa,572
+G0485,Khánh Vĩnh,council,district,G0040,,pending,,,,,Huyện Khánh Vĩnh,573
+G0486,Diên Khánh,council,district,G0040,,pending,,,,,Huyện Diên Khánh,574
+G0487,Khánh Sơn,council,district,G0040,,pending,,,,,Huyện Khánh Sơn,575
+G0488,Trường Sa,council,district,G0040,,pending,,,,,Huyện Trường Sa,576
+G0489,Phan Rang-Tháp Chàm,council,city,G0041,,pending,,,,,Thành phố Phan Rang-Tháp Chàm,582
+G0490,Bác Ái,council,district,G0041,,pending,,,,,Huyện Bác Ái,584
+G0491,Ninh Sơn,council,district,G0041,,pending,,,,,Huyện Ninh Sơn,585
+G0492,Ninh Hải,council,district,G0041,,pending,,,,,Huyện Ninh Hải,586
+G0493,Ninh Phước,council,district,G0041,,pending,,,,,Huyện Ninh Phước,587
+G0494,Thuận Bắc,council,district,G0041,,pending,,,,,Huyện Thuận Bắc,588
+G0495,Thuận Nam,council,district,G0041,,pending,,,,,Huyện Thuận Nam,589
+G0496,Phan Thiết,council,city,G0042,,pending,,,,,Thành phố Phan Thiết,593
+G0497,La Gi,council,town,G0042,,pending,,,,,Thị xã La Gi,594
+G0498,Tuy Phong,council,district,G0042,,pending,,,,,Huyện Tuy Phong,595
+G0499,Bắc Bình,council,district,G0042,,pending,,,,,Huyện Bắc Bình,596
+G0500,Hàm Thuận Bắc,council,district,G0042,,pending,,,,,Huyện Hàm Thuận Bắc,597
+G0501,Hàm Thuận Nam,council,district,G0042,,pending,,,,,Huyện Hàm Thuận Nam,598
+G0502,Tánh Linh,council,district,G0042,,pending,,,,,Huyện Tánh Linh,599
+G0503,Đức Linh,council,district,G0042,,pending,,,,,Huyện Đức Linh,600
+G0504,Hàm Tân,council,district,G0042,,pending,,,,,Huyện Hàm Tân,601
+G0505,Phú Quí,council,district,G0042,,pending,,,,,Huyện Phú Quí,602
+G0506,Kon Tum,council,city,G0043,,pending,,,,,Thành phố Kon Tum,608
+G0507,Đắk Glei,council,district,G0043,,pending,,,,,Huyện Đắk Glei,610
+G0508,Ngọc Hồi,council,district,G0043,,pending,,,,,Huyện Ngọc Hồi,611
+G0509,Đắk Tô,council,district,G0043,,pending,,,,,Huyện Đắk Tô,612
+G0510,Kon Plông,council,district,G0043,,pending,,,,,Huyện Kon Plông,613
+G0511,Kon Rẫy,council,district,G0043,,pending,,,,,Huyện Kon Rẫy,614
+G0512,Đắk Hà,council,district,G0043,,pending,,,,,Huyện Đắk Hà,615
+G0513,Sa Thầy,council,district,G0043,,pending,,,,,Huyện Sa Thầy,616
+G0514,Tu Mơ Rông,council,district,G0043,,pending,,,,,Huyện Tu Mơ Rông,617
+G0515,Ia H' Drai,council,district,G0043,,pending,,,,,Huyện Ia H' Drai,618
+G0516,Pleiku,council,city,G0044,,pending,,,,,Thành phố Pleiku,622
+G0517,An Khê,council,town,G0044,,pending,,,,,Thị xã An Khê,623
+G0518,Ayun Pa,council,town,G0044,,pending,,,,,Thị xã Ayun Pa,624
+G0519,KBang,council,district,G0044,,pending,,,,,Huyện KBang,625
+G0520,Đăk Đoa,council,district,G0044,,pending,,,,,Huyện Đăk Đoa,626
+G0521,Chư Păh,council,district,G0044,,pending,,,,,Huyện Chư Păh,627
+G0522,Ia Grai,council,district,G0044,,pending,,,,,Huyện Ia Grai,628
+G0523,Mang Yang,council,district,G0044,,pending,,,,,Huyện Mang Yang,629
+G0524,Kông Chro,council,district,G0044,,pending,,,,,Huyện Kông Chro,630
+G0525,Đức Cơ,council,district,G0044,,pending,,,,,Huyện Đức Cơ,631
+G0526,Chư Prông,council,district,G0044,,pending,,,,,Huyện Chư Prông,632
+G0527,Chư Sê,council,district,G0044,,pending,,,,,Huyện Chư Sê,633
+G0528,Đăk Pơ,council,district,G0044,,pending,,,,,Huyện Đăk Pơ,634
+G0529,Ia Pa,council,district,G0044,,pending,,,,,Huyện Ia Pa,635
+G0530,Krông Pa,council,district,G0044,,pending,,,,,Huyện Krông Pa,637
+G0531,Phú Thiện,council,district,G0044,,pending,,,,,Huyện Phú Thiện,638
+G0532,Chư Pưh,council,district,G0044,,pending,,,,,Huyện Chư Pưh,639
+G0533,Buôn Ma Thuột,council,city,G0045,,pending,,,,,Thành phố Buôn Ma Thuột,643
+G0534,Buôn Hồ,council,town,G0045,,pending,,,,,Thị xã Buôn Hồ,644
+G0535,Ea H'leo,council,district,G0045,,pending,,,,,Huyện Ea H'leo,645
+G0536,Ea Súp,council,district,G0045,,pending,,,,,Huyện Ea Súp,646
+G0537,Buôn Đôn,council,district,G0045,,pending,,,,,Huyện Buôn Đôn,647
+G0538,Cư M'gar,council,district,G0045,,pending,,,,,Huyện Cư M'gar,648
+G0539,Krông Búk,council,district,G0045,,pending,,,,,Huyện Krông Búk,649
+G0540,Krông Năng,council,district,G0045,,pending,,,,,Huyện Krông Năng,650
+G0541,Ea Kar,council,district,G0045,,pending,,,,,Huyện Ea Kar,651
+G0542,M'Đrắk,council,district,G0045,,pending,,,,,Huyện M'Đrắk,652
+G0543,Krông Bông,council,district,G0045,,pending,,,,,Huyện Krông Bông,653
+G0544,Krông Pắc,council,district,G0045,,pending,,,,,Huyện Krông Pắc,654
+G0545,Krông A Na,council,district,G0045,,pending,,,,,Huyện Krông A Na,655
+G0546,Lắk,council,district,G0045,,pending,,,,,Huyện Lắk,656
+G0547,Cư Kuin,council,district,G0045,,pending,,,,,Huyện Cư Kuin,657
+G0548,Gia Nghĩa,council,city,G0046,,pending,,,,,Thành phố Gia Nghĩa,660
+G0549,Đăk Glong,council,district,G0046,,pending,,,,,Huyện Đăk Glong,661
+G0550,Cư Jút,council,district,G0046,,pending,,,,,Huyện Cư Jút,662
+G0551,Đắk Mil,council,district,G0046,,pending,,,,,Huyện Đắk Mil,663
+G0552,Krông Nô,council,district,G0046,,pending,,,,,Huyện Krông Nô,664
+G0553,Đắk Song,council,district,G0046,,pending,,,,,Huyện Đắk Song,665
+G0554,Đắk R'Lấp,council,district,G0046,,pending,,,,,Huyện Đắk R'Lấp,666
+G0555,Tuy Đức,council,district,G0046,,pending,,,,,Huyện Tuy Đức,667
+G0556,Đà Lạt,council,city,G0047,,pending,,,,,Thành phố Đà Lạt,672
+G0557,Bảo Lộc,council,city,G0047,,pending,,,,,Thành phố Bảo Lộc,673
+G0558,Đam Rông,council,district,G0047,,pending,,,,,Huyện Đam Rông,674
+G0559,Lạc Dương,council,district,G0047,,pending,,,,,Huyện Lạc Dương,675
+G0560,Lâm Hà,council,district,G0047,,pending,,,,,Huyện Lâm Hà,676
+G0561,Đơn Dương,council,district,G0047,,pending,,,,,Huyện Đơn Dương,677
+G0562,Đức Trọng,council,district,G0047,,pending,,,,,Huyện Đức Trọng,678
+G0563,Di Linh,council,district,G0047,,pending,,,,,Huyện Di Linh,679
+G0564,Bảo Lâm,council,district,G0047,,pending,,,,,Huyện Bảo Lâm,680
+G0565,Đạ Huoai,council,district,G0047,,pending,,,,,Huyện Đạ Huoai,681
+G0566,Đạ Tẻh,council,district,G0047,,pending,,,,,Huyện Đạ Tẻh,682
+G0567,Cát Tiên,council,district,G0047,,pending,,,,,Huyện Cát Tiên,683
+G0568,Phước Long,council,town,G0048,,pending,,,,,Thị xã Phước Long,688
+G0569,Đồng Xoài,council,city,G0048,,pending,,,,,Thành phố Đồng Xoài,689
+G0570,Bình Long,council,town,G0048,,pending,,,,,Thị xã Bình Long,690
+G0571,Bù Gia Mập,council,district,G0048,,pending,,,,,Huyện Bù Gia Mập,691
+G0572,Lộc Ninh,council,district,G0048,,pending,,,,,Huyện Lộc Ninh,692
+G0573,Bù Đốp,council,district,G0048,,pending,,,,,Huyện Bù Đốp,693
+G0574,Hớn Quản,council,district,G0048,,pending,,,,,Huyện Hớn Quản,694
+G0575,Đồng Phú,council,district,G0048,,pending,,,,,Huyện Đồng Phú,695
+G0576,Bù Đăng,council,district,G0048,,pending,,,,,Huyện Bù Đăng,696
+G0577,Chơn Thành,council,town,G0048,,pending,,,,,Thị xã Chơn Thành,697
+G0578,Phú Riềng,council,district,G0048,,pending,,,,,Huyện Phú Riềng,698
+G0579,Tây Ninh,council,city,G0049,,pending,,,,,Thành phố Tây Ninh,703
+G0580,Tân Biên,council,district,G0049,,pending,,,,,Huyện Tân Biên,705
+G0581,Tân Châu,council,district,G0049,,pending,,,,,Huyện Tân Châu,706
+G0582,Dương Minh Châu,council,district,G0049,,pending,,,,,Huyện Dương Minh Châu,707
+G0583,Châu Thành,council,district,G0049,,pending,,,,,Huyện Châu Thành,708
+G0584,Hòa Thành,council,town,G0049,,pending,,,,,Thị xã Hòa Thành,709
+G0585,Gò Dầu,council,district,G0049,,pending,,,,,Huyện Gò Dầu,710
+G0586,Bến Cầu,council,district,G0049,,pending,,,,,Huyện Bến Cầu,711
+G0587,Trảng Bàng,council,town,G0049,,pending,,,,,Thị xã Trảng Bàng,712
+G0588,Thủ Dầu Một,council,city,G0050,,pending,,,,,Thành phố Thủ Dầu Một,718
+G0589,Bàu Bàng,council,district,G0050,,pending,,,,,Huyện Bàu Bàng,719
+G0590,Dầu Tiếng,council,district,G0050,,pending,,,,,Huyện Dầu Tiếng,720
+G0591,Bến Cát,council,town,G0050,,pending,,,,,Thị xã Bến Cát,721
+G0592,Phú Giáo,council,district,G0050,,pending,,,,,Huyện Phú Giáo,722
+G0593,Tân Uyên,council,city,G0050,,pending,,,,,Thành phố Tân Uyên,723
+G0594,Dĩ An,council,city,G0050,,pending,,,,,Thành phố Dĩ An,724
+G0595,Thuận An,council,city,G0050,,pending,,,,,Thành phố Thuận An,725
+G0596,Bắc Tân Uyên,council,district,G0050,,pending,,,,,Huyện Bắc Tân Uyên,726
+G0597,Biên Hòa,council,city,G0051,,pending,,,,,Thành phố Biên Hòa,731
+G0598,Long Khánh,council,city,G0051,,pending,,,,,Thành phố Long Khánh,732
+G0599,Tân Phú,council,district,G0051,,pending,,,,,Huyện Tân Phú,734
+G0600,Vĩnh Cửu,council,district,G0051,,pending,,,,,Huyện Vĩnh Cửu,735
+G0601,Định Quán,council,district,G0051,,pending,,,,,Huyện Định Quán,736
+G0602,Trảng Bom,council,district,G0051,,pending,,,,,Huyện Trảng Bom,737
+G0603,Thống Nhất,council,district,G0051,,pending,,,,,Huyện Thống Nhất,738
+G0604,Cẩm Mỹ,council,district,G0051,,pending,,,,,Huyện Cẩm Mỹ,739
+G0605,Long Thành,council,district,G0051,,pending,,,,,Huyện Long Thành,740
+G0606,Xuân Lộc,council,district,G0051,,pending,,,,,Huyện Xuân Lộc,741
+G0607,Nhơn Trạch,council,district,G0051,,pending,,,,,Huyện Nhơn Trạch,742
+G0608,Vũng Tàu,council,city,G0052,,pending,,,,,Thành phố Vũng Tàu,747
+G0609,Bà Rịa,council,city,G0052,,pending,,,,,Thành phố Bà Rịa,748
+G0610,Châu Đức,council,district,G0052,,pending,,,,,Huyện Châu Đức,750
+G0611,Xuyên Mộc,council,district,G0052,,pending,,,,,Huyện Xuyên Mộc,751
+G0612,Long Điền,council,district,G0052,,pending,,,,,Huyện Long Điền,752
+G0613,Đất Đỏ,council,district,G0052,,pending,,,,,Huyện Đất Đỏ,753
+G0614,Phú Mỹ,council,town,G0052,,pending,,,,,Thị xã Phú Mỹ,754
+G0615,Côn Đảo,council,district,G0052,,pending,,,,,Huyện Côn Đảo,755
+G0616,1,council,urban_district,G0053,,pending,,,,,Quận 1,760
+G0617,12,council,urban_district,G0053,,pending,,,,,Quận 12,761
+G0618,Gò Vấp,council,urban_district,G0053,,pending,,,,,Quận Gò Vấp,764
+G0619,Bình Thạnh,council,urban_district,G0053,,pending,,,,,Quận Bình Thạnh,765
+G0620,Tân Bình,council,urban_district,G0053,,pending,,,,,Quận Tân Bình,766
+G0621,Tân Phú,council,urban_district,G0053,,pending,,,,,Quận Tân Phú,767
+G0622,Phú Nhuận,council,urban_district,G0053,,pending,,,,,Quận Phú Nhuận,768
+G0623,Thủ Đức,council,city,G0053,,pending,,,,,Thành phố Thủ Đức,769
+G0624,3,council,urban_district,G0053,,pending,,,,,Quận 3,770
+G0625,10,council,urban_district,G0053,,pending,,,,,Quận 10,771
+G0626,11,council,urban_district,G0053,,pending,,,,,Quận 11,772
+G0627,4,council,urban_district,G0053,,pending,,,,,Quận 4,773
+G0628,5,council,urban_district,G0053,,pending,,,,,Quận 5,774
+G0629,6,council,urban_district,G0053,,pending,,,,,Quận 6,775
+G0630,8,council,urban_district,G0053,,pending,,,,,Quận 8,776
+G0631,Bình Tân,council,urban_district,G0053,,pending,,,,,Quận Bình Tân,777
+G0632,7,council,urban_district,G0053,,pending,,,,,Quận 7,778
+G0633,Củ Chi,council,district,G0053,,pending,,,,,Huyện Củ Chi,783
+G0634,Hóc Môn,council,district,G0053,,pending,,,,,Huyện Hóc Môn,784
+G0635,Bình Chánh,council,district,G0053,,pending,,,,,Huyện Bình Chánh,785
+G0636,Nhà Bè,council,district,G0053,,pending,,,,,Huyện Nhà Bè,786
+G0637,Cần Giờ,council,district,G0053,,pending,,,,,Huyện Cần Giờ,787
+G0638,Tân An,council,city,G0054,,pending,,,,,Thành phố Tân An,794
+G0639,Kiến Tường,council,town,G0054,,pending,,,,,Thị xã Kiến Tường,795
+G0640,Tân Hưng,council,district,G0054,,pending,,,,,Huyện Tân Hưng,796
+G0641,Vĩnh Hưng,council,district,G0054,,pending,,,,,Huyện Vĩnh Hưng,797
+G0642,Mộc Hóa,council,district,G0054,,pending,,,,,Huyện Mộc Hóa,798
+G0643,Tân Thạnh,council,district,G0054,,pending,,,,,Huyện Tân Thạnh,799
+G0644,Thạnh Hóa,council,district,G0054,,pending,,,,,Huyện Thạnh Hóa,800
+G0645,Đức Huệ,council,district,G0054,,pending,,,,,Huyện Đức Huệ,801
+G0646,Đức Hòa,council,district,G0054,,pending,,,,,Huyện Đức Hòa,802
+G0647,Bến Lức,council,district,G0054,,pending,,,,,Huyện Bến Lức,803
+G0648,Thủ Thừa,council,district,G0054,,pending,,,,,Huyện Thủ Thừa,804
+G0649,Tân Trụ,council,district,G0054,,pending,,,,,Huyện Tân Trụ,805
+G0650,Cần Đước,council,district,G0054,,pending,,,,,Huyện Cần Đước,806
+G0651,Cần Giuộc,council,district,G0054,,pending,,,,,Huyện Cần Giuộc,807
+G0652,Châu Thành,council,district,G0054,,pending,,,,,Huyện Châu Thành,808
+G0653,Mỹ Tho,council,city,G0055,,pending,,,,,Thành phố Mỹ Tho,815
+G0654,Gò Công,council,town,G0055,,pending,,,,,Thị xã Gò Công,816
+G0655,Thị xã Cai Lậy,council,town,G0055,,pending,,,,,Thị xã Cai Lậy,817
+G0656,Tân Phước,council,district,G0055,,pending,,,,,Huyện Tân Phước,818
+G0657,Cái Bè,council,district,G0055,,pending,,,,,Huyện Cái Bè,819
+G0658,Huyện Cai Lậy,council,district,G0055,,pending,,,,,Huyện Cai Lậy,820
+G0659,Châu Thành,council,district,G0055,,pending,,,,,Huyện Châu Thành,821
+G0660,Chợ Gạo,council,district,G0055,,pending,,,,,Huyện Chợ Gạo,822
+G0661,Gò Công Tây,council,district,G0055,,pending,,,,,Huyện Gò Công Tây,823
+G0662,Gò Công Đông,council,district,G0055,,pending,,,,,Huyện Gò Công Đông,824
+G0663,Tân Phú Đông,council,district,G0055,,pending,,,,,Huyện Tân Phú Đông,825
+G0664,Bến Tre,council,city,G0056,,pending,,,,,Thành phố Bến Tre,829
+G0665,Châu Thành,council,district,G0056,,pending,,,,,Huyện Châu Thành,831
+G0666,Chợ Lách,council,district,G0056,,pending,,,,,Huyện Chợ Lách,832
+G0667,Mỏ Cày Nam,council,district,G0056,,pending,,,,,Huyện Mỏ Cày Nam,833
+G0668,Giồng Trôm,council,district,G0056,,pending,,,,,Huyện Giồng Trôm,834
+G0669,Bình Đại,council,district,G0056,,pending,,,,,Huyện Bình Đại,835
+G0670,Ba Tri,council,district,G0056,,pending,,,,,Huyện Ba Tri,836
+G0671,Thạnh Phú,council,district,G0056,,pending,,,,,Huyện Thạnh Phú,837
+G0672,Mỏ Cày Bắc,council,district,G0056,,pending,,,,,Huyện Mỏ Cày Bắc,838
+G0673,Trà Vinh,council,city,G0057,,pending,,,,,Thành phố Trà Vinh,842
+G0674,Càng Long,council,district,G0057,,pending,,,,,Huyện Càng Long,844
+G0675,Cầu Kè,council,district,G0057,,pending,,,,,Huyện Cầu Kè,845
+G0676,Tiểu Cần,council,district,G0057,,pending,,,,,Huyện Tiểu Cần,846
+G0677,Châu Thành,council,district,G0057,,pending,,,,,Huyện Châu Thành,847
+G0678,Cầu Ngang,council,district,G0057,,pending,,,,,Huyện Cầu Ngang,848
+G0679,Trà Cú,council,district,G0057,,pending,,,,,Huyện Trà Cú,849
+G0680,Huyện Duyên Hải,council,district,G0057,,pending,,,,,Huyện Duyên Hải,850
+G0681,Thị xã Duyên Hải,council,town,G0057,,pending,,,,,Thị xã Duyên Hải,851
+G0682,Vĩnh Long,council,city,G0058,,pending,,,,,Thành phố Vĩnh Long,855
+G0683,Long Hồ,council,district,G0058,,pending,,,,,Huyện Long Hồ,857
+G0684,Mang Thít,council,district,G0058,,pending,,,,,Huyện Mang Thít,858
+G0685,Vũng Liêm,council,district,G0058,,pending,,,,,Huyện  Vũng Liêm,859
+G0686,Tam Bình,council,district,G0058,,pending,,,,,Huyện Tam Bình,860
+G0687,Bình Minh,council,town,G0058,,pending,,,,,Thị xã Bình Minh,861
+G0688,Trà Ôn,council,district,G0058,,pending,,,,,Huyện Trà Ôn,862
+G0689,Bình Tân,council,district,G0058,,pending,,,,,Huyện Bình Tân,863
+G0690,Thành phố Cao Lãnh,council,city,G0059,,pending,,,,,Thành phố Cao Lãnh,866
+G0691,Sa Đéc,council,city,G0059,,pending,,,,,Thành phố Sa Đéc,867
+G0692,Thành phố Hồng Ngự,council,city,G0059,,pending,,,,,Thành phố Hồng Ngự,868
+G0693,Tân Hồng,council,district,G0059,,pending,,,,,Huyện Tân Hồng,869
+G0694,Huyện Hồng Ngự,council,district,G0059,,pending,,,,,Huyện Hồng Ngự,870
+G0695,Tam Nông,council,district,G0059,,pending,,,,,Huyện Tam Nông,871
+G0696,Tháp Mười,council,district,G0059,,pending,,,,,Huyện Tháp Mười,872
+G0697,Huyện Cao Lãnh,council,district,G0059,,pending,,,,,Huyện Cao Lãnh,873
+G0698,Thanh Bình,council,district,G0059,,pending,,,,,Huyện Thanh Bình,874
+G0699,Lấp Vò,council,district,G0059,,pending,,,,,Huyện Lấp Vò,875
+G0700,Lai Vung,council,district,G0059,,pending,,,,,Huyện Lai Vung,876
+G0701,Châu Thành,council,district,G0059,,pending,,,,,Huyện Châu Thành,877
+G0702,Long Xuyên,council,city,G0060,,pending,,,,,Thành phố Long Xuyên,883
+G0703,Châu Đốc,council,city,G0060,,pending,,,,,Thành phố Châu Đốc,884
+G0704,An Phú,council,district,G0060,,pending,,,,,Huyện An Phú,886
+G0705,Tân Châu,council,town,G0060,,pending,,,,,Thị xã Tân Châu,887
+G0706,Phú Tân,council,district,G0060,,pending,,,,,Huyện Phú Tân,888
+G0707,Châu Phú,council,district,G0060,,pending,,,,,Huyện Châu Phú,889
+G0708,Tịnh Biên,council,town,G0060,,pending,,,,,Thị xã Tịnh Biên,890
+G0709,Tri Tôn,council,district,G0060,,pending,,,,,Huyện Tri Tôn,891
+G0710,Châu Thành,council,district,G0060,,pending,,,,,Huyện Châu Thành,892
+G0711,Chợ Mới,council,district,G0060,,pending,,,,,Huyện Chợ Mới,893
+G0712,Thoại Sơn,council,district,G0060,,pending,,,,,Huyện Thoại Sơn,894
+G0713,Rạch Giá,council,city,G0061,,pending,,,,,Thành phố Rạch Giá,899
+G0714,Hà Tiên,council,city,G0061,,pending,,,,,Thành phố Hà Tiên,900
+G0715,Kiên Lương,council,district,G0061,,pending,,,,,Huyện Kiên Lương,902
+G0716,Hòn Đất,council,district,G0061,,pending,,,,,Huyện Hòn Đất,903
+G0717,Tân Hiệp,council,district,G0061,,pending,,,,,Huyện Tân Hiệp,904
+G0718,Châu Thành,council,district,G0061,,pending,,,,,Huyện Châu Thành,905
+G0719,Giồng Riềng,council,district,G0061,,pending,,,,,Huyện Giồng Riềng,906
+G0720,Gò Quao,council,district,G0061,,pending,,,,,Huyện Gò Quao,907
+G0721,An Biên,council,district,G0061,,pending,,,,,Huyện An Biên,908
+G0722,An Minh,council,district,G0061,,pending,,,,,Huyện An Minh,909
+G0723,Vĩnh Thuận,council,district,G0061,,pending,,,,,Huyện Vĩnh Thuận,910
+G0724,Phú Quốc,council,city,G0061,,pending,,,,,Thành phố Phú Quốc,911
+G0725,Kiên Hải,council,district,G0061,,pending,,,,,Huyện Kiên Hải,912
+G0726,U Minh Thượng,council,district,G0061,,pending,,,,,Huyện U Minh Thượng,913
+G0727,Giang Thành,council,district,G0061,,pending,,,,,Huyện Giang Thành,914
+G0728,Ninh Kiều,council,urban_district,G0062,,pending,,,,,Quận Ninh Kiều,916
+G0729,Ô Môn,council,urban_district,G0062,,pending,,,,,Quận Ô Môn,917
+G0730,Bình Thuỷ,council,urban_district,G0062,,pending,,,,,Quận Bình Thuỷ,918
+G0731,Cái Răng,council,urban_district,G0062,,pending,,,,,Quận Cái Răng,919
+G0732,Thốt Nốt,council,urban_district,G0062,,pending,,,,,Quận Thốt Nốt,923
+G0733,Vĩnh Thạnh,council,district,G0062,,pending,,,,,Huyện Vĩnh Thạnh,924
+G0734,Cờ Đỏ,council,district,G0062,,pending,,,,,Huyện Cờ Đỏ,925
+G0735,Phong Điền,council,district,G0062,,pending,,,,,Huyện Phong Điền,926
+G0736,Thới Lai,council,district,G0062,,pending,,,,,Huyện Thới Lai,927
+G0737,Vị Thanh,council,city,G0063,,pending,,,,,Thành phố Vị Thanh,930
+G0738,Ngã Bảy,council,city,G0063,,pending,,,,,Thành phố Ngã Bảy,931
+G0739,Châu Thành A,council,district,G0063,,pending,,,,,Huyện Châu Thành A,932
+G0740,Châu Thành,council,district,G0063,,pending,,,,,Huyện Châu Thành,933
+G0741,Phụng Hiệp,council,district,G0063,,pending,,,,,Huyện Phụng Hiệp,934
+G0742,Vị Thuỷ,council,district,G0063,,pending,,,,,Huyện Vị Thuỷ,935
+G0743,Huyện Long Mỹ,council,district,G0063,,pending,,,,,Huyện Long Mỹ,936
+G0744,Thị xã Long Mỹ,council,town,G0063,,pending,,,,,Thị xã Long Mỹ,937
+G0745,Sóc Trăng,council,city,G0064,,pending,,,,,Thành phố Sóc Trăng,941
+G0746,Châu Thành,council,district,G0064,,pending,,,,,Huyện Châu Thành,942
+G0747,Kế Sách,council,district,G0064,,pending,,,,,Huyện Kế Sách,943
+G0748,Mỹ Tú,council,district,G0064,,pending,,,,,Huyện Mỹ Tú,944
+G0749,Cù Lao Dung,council,district,G0064,,pending,,,,,Huyện Cù Lao Dung,945
+G0750,Long Phú,council,district,G0064,,pending,,,,,Huyện Long Phú,946
+G0751,Mỹ Xuyên,council,district,G0064,,pending,,,,,Huyện Mỹ Xuyên,947
+G0752,Ngã Năm,council,town,G0064,,pending,,,,,Thị xã Ngã Năm,948
+G0753,Thạnh Trị,council,district,G0064,,pending,,,,,Huyện Thạnh Trị,949
+G0754,Vĩnh Châu,council,town,G0064,,pending,,,,,Thị xã Vĩnh Châu,950
+G0755,Trần Đề,council,district,G0064,,pending,,,,,Huyện Trần Đề,951
+G0756,Bạc Liêu,council,city,G0065,,pending,,,,,Thành phố Bạc Liêu,954
+G0757,Hồng Dân,council,district,G0065,,pending,,,,,Huyện Hồng Dân,956
+G0758,Phước Long,council,district,G0065,,pending,,,,,Huyện Phước Long,957
+G0759,Vĩnh Lợi,council,district,G0065,,pending,,,,,Huyện Vĩnh Lợi,958
+G0760,Giá Rai,council,town,G0065,,pending,,,,,Thị xã Giá Rai,959
+G0761,Đông Hải,council,district,G0065,,pending,,,,,Huyện Đông Hải,960
+G0762,Hoà Bình,council,district,G0065,,pending,,,,,Huyện Hoà Bình,961
+G0763,Cà Mau,council,city,G0066,,pending,,,,,Thành phố Cà Mau,964
+G0764,U Minh,council,district,G0066,,pending,,,,,Huyện U Minh,966
+G0765,Thới Bình,council,district,G0066,,pending,,,,,Huyện Thới Bình,967
+G0766,Trần Văn Thời,council,district,G0066,,pending,,,,,Huyện Trần Văn Thời,968
+G0767,Cái Nước,council,district,G0066,,pending,,,,,Huyện Cái Nước,969
+G0768,Đầm Dơi,council,district,G0066,,pending,,,,,Huyện Đầm Dơi,970
+G0769,Năm Căn,council,district,G0066,,pending,,,,,Huyện Năm Căn,971
+G0770,Phú Tân,council,district,G0066,,pending,,,,,Huyện Phú Tân,972
+G0771,Ngọc Hiển,council,district,G0066,,pending,,,,,Huyện Ngọc Hiển,973
