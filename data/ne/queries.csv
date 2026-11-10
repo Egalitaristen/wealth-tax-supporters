@@ -41,3 +41,20 @@ Q0039,R005,2026-11-10,fr,"""FSEG"" Niamey ""enseignant-chercheur"" OR ""professe
 Q0040,R005,2026-11-10,fr,"""ATAF"" ""Niger"" ""wealth tax"" OR ""HNWI"" OR ""impôt sur la fortune"" OR ""patrimoine""",web,4,0,ATAF HNWI technical guidance and Niger domestic revenue mobilization
 Q0041,R005,2026-11-10,fr,"""Haute Autorité du Waqf"" Niger ""impôt"" OR ""fiscalité"" OR ""fortune"" OR ""zakat""",web,4,0,Islamic endowment legislation and tax exemptions under Loi 2020-008
 Q0042,R005,2026-11-10,fr,"""Hassoumi Massoudou"" ""loi de finances"" ""impôt"" OR ""riches"" OR ""fortune""",web,4,0,Minister of Finance positions during 2017/2018 budget debates
+Q0043,R006,2026-11-10,fr,Oxfam Niger justice fiscale Niamey inégalités grandes fortunes,web,5,0,"Oxfam Africa 2025 inequality report is continent-wide, not Niger; no Oxfam Niger campaign found"
+Q0044,R006,2026-11-10,fr,Niger Conseil consultatif de la refondation OR Assises nationales fiscalité impôt sur la fortune,web,8,1,"CCR (189 members, created 18 April 2025) and new national tax policy advisory council found; no wealth-tax recommendation found"
+Q0045,R006,2026-11-10,fr,Niger signataire appel taxer super-riches économistes africains,web,8,0,G20 open letter to Ramaphosa signatory list read via PDF: no Niger organisation
+Q0046,R006,2026-11-10,fr,Niger Inter Faut-il réformer le système fiscal débat réponse,web,0,0,Debate series not indexed beyond A0001 op-ed
+Q0047,R006,2026-11-10,fr,ROTAB OR Publiez ce que vous payez Niger fiscalité grandes fortunes exonérations,web,8,1,"ROTAB/Yero Audit study of extractive exemptions: tax justice, no wealth tax"
+Q0048,R006,2026-11-10,ha,haraji kan attajirai Nijar masu arziki dukiya kungiyar,web,0,0,Hausa search returned only security and mining news; no Hausa outlet coverage of a wealth tax
+Q0049,R006,2026-11-10,fr,Niger fiscalité les nantis contribuer davantage tribune économiste universitaire,web,10,0,No academic column found; UNECA 2026 technical support targets transfer pricing
+Q0050,R006,2026-11-10,fr,Kiari Liman-Tinguiri impôt patrimoine Piketty WASDI tribune,web,0,0,No second op-ed found; search engine returned only French/Tunisian results
+Q0051,R006,2026-11-10,fr,Niger ISF mémoire thèse Université Abdou Moumouni fiscalité équité verticale,web,10,0,Student memoires note ISF absent from Niger tax code; no advocacy
+Q0052,R006,2026-11-10,fr,Niger Tournons la page OR AEC OR MPCR taxer milliardaires riches fortunes,web,10,1,Together for Tax Justice (TLP Niger 2019-2020) project page read: no wealth-tax measure named
+Q0053,R006,2026-11-10,en,Niger wealth tax Nigerien Niamey advocate economist union coalition 2025 2026,web,10,0,No wealth-tax coverage in English; UNECA tax reform support launched Niamey
+Q0054,R006,2026-11-10,fr,Niger taxe Zucman OR impôt sur les milliardaires OR super-riches syndicats ONG,web,10,0,No Nigerien signatory of Zucman or billionaire-tax appeals found
+Q0055,R006,2026-11-10,fr,"""impôt sur la fortune"" OR ""taxer les riches"" OR ""impôt sur les grandes fortunes"" Niger syndicat OR économiste OR société civile",web,10,0,Only general tax-system and 2018 finance-law results; no Nigerien wealth-tax position
+Q0056,R006,2026-11-10,en,"Niger Oxfam OR ActionAid ""wealth tax"" Niamey",web,0,0,"All hits are Nigeria (Oxfam Nigeria), not Niger; no Oxfam or ActionAid Niger campaign found"
+Q0057,R006,2026-11-10,fr,"Niger USTN OR CDTN ""justice fiscale"" ""impôt sur le patrimoine"" OR ""impôt sur la fortune""",web,10,0,"No union statement on a wealth tax; only IMF, DGI and UNECA documents"
+Q0058,R006,2026-11-10,fr,"Niger député ""impôt sur la fortune"" Assemblée nationale loi de finances",web,5,0,"No pre-2023 deputy motion found; the 2026 budget rectification passed by ordonnance, with no assembly"
+Q0059,R006,2026-11-10,fr,"Niger ""taxer les plus riches"" OR ""impôt sur les riches"" nigérien",web,8,0,"Oxfam Nigeria results only; FSSP levies are general, not on wealth"

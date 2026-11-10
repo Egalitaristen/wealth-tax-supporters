@@ -1,4 +1,4 @@
-# Niger: 1 supporter identified; 20 documented exclusions
+# Niger: 1 supporter identified; 25 documented exclusions
 
 Worked notes from the Niger seed pass and follow-up passes (`R001`, `R002`, `R003`, `R004`, `R005`, 2026-11-10; 1 supporter, 20 documented exclusions, 42 broad queries logged across French, Hausa, and English).
 
@@ -43,3 +43,7 @@ Worked notes from the Niger seed pass and follow-up passes (`R001`, `R002`, `R00
   18. Dr. Ahmat Jidoud / Former Minister of Finance (digitalisation and property tax reforms; `X0018`)
   19. Ali Mahaman Lamine Zeine / Transitional Prime Minister & Finance Minister (sanctions resilience and basic goods tax relief; `X0019`)
   20. Haute Autorité du Waqf / HAW (Islamic charitable endowments and tax exemptions; `X0020`).
+
+## R006 gap pass (2026-11-10)
+
+No new supporters. Checked unions, pre-2023 deputies, CCR and the new tax-policy advisory council, Oxfam/ActionAid, ROTAB/PWYP, Tournons La Page's tax-justice project, universities, journalists, the G20 open letter to Ramaphosa (no Niger signatory) and Hausa terms; 5 exclusions (`X0021`-`X0025`) and 3 open leads (`D0001`-`D0003`). Watch for: Oxfam Nigeria and Nigeria press dominate every English wealth-tax query on "Niger"; the 2026 budget rectification is by ordonnance; Nigerien outlets are poorly indexed, so use the headless browser on their own archives. Full plan in `data/ne/area_profile.md` section 11.

@@ -1,6 +1,6 @@
 # Area profile — Niger
 
-Save as `data/ne/area_profile.md`. Seed pass and follow-up discovery passes completed 2026-11-10 (`R001`, `R002`, `R003`, `R004`, `R005`).
+Save as `data/ne/area_profile.md`. Seed pass and follow-up discovery passes completed 2026-11-10 (`R001` to `R006`).
 
 ## 1. Scope
 - Area: Niger; type: country (ISO 3166-1 alpha-2: `NE`)
@@ -65,7 +65,7 @@ Save as `data/ne/area_profile.md`. Seed pass and follow-up discovery passes comp
 - Présidence de la République du Niger: `https://www.presidence.ne`
 
 ## 10. Key organizations and excluded actors
-- 20 documented exclusions in `exclusions.csv`:
+- 25 documented exclusions in `exclusions.csv` (`X0021` to `X0025` added in `R006`: Tournons La Page tax-justice project, UNECA tax-reform support, CCR, ROTAB exemption study, Oxfam Africa/Nigeria). The first 20:
   - **Délégation du Niger à l'ONU:** Voted Yes on UN General Assembly Resolution 78/230 on international tax cooperation without wealth tax endorsement (`X0001`).
   - **Ali Idrissa (ROTAB / PCQVP):** Anti-Finance Law 2018 mobilization and extractive transparency without net wealth tax (`X0002`).
   - **Moussa Tchangari (AEC):** Civil society critiques of fiscal austerity and indirect consumer taxes (`X0003`).
@@ -87,11 +87,18 @@ Save as `data/ne/area_profile.md`. Seed pass and follow-up discovery passes comp
   - **Ali Mahaman Lamine Zeine (Premier Ministre / Ministre des Finances):** Head of government under CNSP; focused on domestic revenue mobilization and targeted consumer tax cuts (`X0019`).
   - **Haute Autorité du Waqf (HAW):** Administrative authority regulating Islamic charitable endowments under Loi n° 2020-008; administers tax exemptions for public-utility waqfs (`X0020`).
 
-## 11. Plan for the next runs
-- **Run 6:**
-  1. Periodic monitoring of transitional political consultations (*Assises Nationales*) and any newly convened transitional consultative or legislative bodies for fiscal proposals.
-  2. Track AES (Alliance des États du Sahel) fiscal harmonization committees and communiqués.
-  3. Review future Finance Ordinances and potential tax reforms promulgated by the CNSP administration.
+## 11. Coverage after R006 and plan for the next runs
+**R006 (gap pass) result: no new supporter, 0 new evidence rows.** Register stays at 1 supporter (`A0001`). Searched this pass, all with no Nigerien wealth-tax statement: unions (USTN, CDTN, Syndicat national), pre-2023 deputies and the 2026 budget rectification (adopted by ordonnance), the Conseil consultatif de la refondation (CCR, created 18 April 2025) and the new national tax-policy advisory council, Oxfam/ActionAid (all hits were Nigeria), ROTAB/PWYP extractive-exemption work, the Tournons La Page "Together for Tax Justice" project (2019-2020), universities and student memoires, journalists, the G20 open letter to Ramaphosa (signatory list read: no Niger organisation), Zucman and billionaire-tax appeals, and Hausa terms. Terms in French: impôt sur la fortune, impôt sur le patrimoine, impôt sur les grandes fortunes, taxer les riches, justice fiscale.
+
+**What this does not prove.** The search tool returned snippets and ranked Nigeria, France and Tunisia pages ahead of Nigerien ones. Nigerien outlets (ANP, Le Sahel, Niger Inter, ActuNiger) were not searched directly, Hausa and Zarma outlets were not indexed, and union and civil-society documents are often PDFs or Facebook posts. A blank here means not found, not no support. The earlier "saturated" notes in `runs.csv` should be read with this caveat. No Resources page entry was added: no paper, bill or report on an actual wealth tax in Niger was found (the Niger Inter op-ed is a register row, not a paper).
+
+**Plan, by expected yield:**
+1. Read the ROTAB exemption study and Together for Tax Justice outputs (leads `D0002`, `D0003`) for any high-income or wealth tax recommendation.
+2. Find the text and membership of the tax-policy advisory council and the CCR's fiscal opinions (`D0001`).
+3. Browser-based archive search (`fetch_page.py`) of lesahel.org, anp.ne, nigerinter.com, actuniger.com, and the Niger Inter October 2017 debate series for replies to `A0001`.
+4. Hausa/Zarma outlets (Radio Anfani, Tchadaiba, BBC Hausa, VOA Hausa) with haraji, dukiya, attajirai.
+5. Union congress texts (USTN, CDTN, CNT) and Oxfam / Tax Justice Network Africa member lists for Niger.
+6. Re-check Niger signatories of future international appeals (G20 billionaire tax, UN tax convention sessions). Monitor Assises/CCR outputs, AES fiscal harmonisation and future Finance Ordinances.
 
 ---
 
