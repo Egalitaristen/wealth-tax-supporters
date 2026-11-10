@@ -69,3 +69,14 @@ Q0067,R010,2026-11-07,pl,"site:klubjagiellonski.pl ""podatek majątkowy"" OR ""p
 Q0068,R010,2026-11-07,pl,"site:magazynkontakt.pl ""Hubert Walczyński"" ""podatek majątkowy"" OR ""podatku majątkowego""",web,5,1,Hubert Walczyński Grade B endorsement citing Wroński IBS paper
 Q0069,R010,2026-11-07,pl,"""Ludwik Kotecki"" ""podatek majątkowy"" OR ""podatku majątkowego"" ""Rzeczpospolita""",web,6,0,RPP member: specified real estate property tax reform; exclusion logged
 Q0070,R010,2026-11-07,pl,"""Jakub Majmurek"" ""podatek majątkowy"" OR ""podatku majątkowego""",web,6,0,Krytyka Polityczna commentator: observer commentary; exclusion logged
+Q0071,R011,2026-11-10,pl,Zandberg podatek majątkowy od najbogatszych wywiad,web_search,8,1,rp.pl/RMF 2025-06-18: 'podatków od wielkich majątków' -> A0307 grade B
+Q0072,R011,2026-11-10,pl,posłanka Razem podatek majątkowy Sejm wystąpienie miliarderzy,web_search,6,0,"only anti-speculation tax on 3rd flat (property tax), no wealth-stock statement"
+Q0073,R011,2026-11-10,pl,Razem podatek od wielkich majątków poseł OR radny OR europoseł,web_search,6,0,nothing beyond the 2020 party text
+Q0074,R011,2026-11-10,pl,Zandberg podatek od najbogatszych OR majątkowy OR od miliarderów kandydat prezydent program,web_search,6,0,"2025 presidential programme: tax on 3rd+ flat, 5000 PLN donation cap; no wealth tax"
+Q0075,R011,2026-11-10,pl,Konieczny OR Matysiak OR Zawisza OR Wicha OR Olko podatek majątkowy OR od miliarderów,web_search,6,0,only Konieczny on cadastral tax for 3rd/4th flat (Wprost); others nothing
+Q0076,R011,2026-11-10,pl,partiarazem.pl podatek od wielkich majątków,web_search,8,0,"party texts only (2020 position, Nov 2025 declaration); no member bylines"
+Q0077,R011,2026-11-10,pl,Zandberg Oxfam 2019 opodatkowanie wielkich fortun,web_search,8,0,"rp.pl 2019: calls for fair taxation of the richest and progression, not a wealth stock tax; out of definition"
+Q0078,R011,2026-11-10,pl,Gosek-Popiołek OR Matysiak OR Wicha OR Zawisza OR Olko podatek od miliarderów Wspólne Jutro,web_search,6,0,"Wspólne Jutro (Gosek-Popiołek, Wicha, Olko, Biejat) formed Oct 2024; no wealth-tax statements found"
+Q0079,R011,2026-11-10,pl,radny Razem Warszawa OR Poznań OR Wrocław OR Gdańsk podatek majątkowy,web_search,8,0,"city initiatives are vacant/rental-flat property tax rates, not wealth tax"
+Q0080,R011,2026-11-10,pl,Biejat OR Czarzasty OR Gawkowski OR Trela podatek majątkowy OR od miliarderów,web_search,8,0,"Lewica: third-flat/housing-business tax, digital tax; no net-wealth statement"
+Q0081,R011,2026-11-10,pl,Maciej Konieczny podatek od wielkich majątków miliarderzy wywiad,web_search,6,0,"cadastral tax only; Sejm API (api.sejm.gov.pl) unreachable this run, so term 9/10 stenograms could not be searched"
