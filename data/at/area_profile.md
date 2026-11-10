@@ -1,17 +1,17 @@
 # Area profile — Austria (AT)
 
-*Last updated: 2026-10-31 (Economics & Civil Society Pass R004 completed)*
+*Last updated: 2026-11-09 (Legislative Records Deep-Dive & Lead Resolution Pass R007 completed)*
 
 ## 1. Scope
 - **Area:** Austria (Republic of Austria / *Republik Österreich*); ISO 3166-1 alpha-2: `AT`.
-- **Depth:** Deep pass (National tier + Supranational MEP tier + 9 Federal States / *Bundesländer* + municipal anchors Vienna, Graz, Linz + academic economists & civil society).
+- **Depth:** Deep pass (National tier + Supranational MEP tier + 9 Federal States / *Bundesländer* + municipal anchors Vienna, Graz, Linz + academic economists & civil society + primary legislative records post-2010).
 - **Levels of government in scope:**
   - National: Nationalrat (183 seats), Bundesrat (61 seats), Federal Government (*Bundesregierung*).
   - Supranational: European Parliament (Austrian delegation).
   - Regional: 9 Federal States (*Bundesländer*: Burgenland, Kärnten, Niederösterreich, Oberösterreich, Salzburg, Steiermark, Tirol, Vorarlberg, Wien).
   - Local: 2,093 Municipalities (*Gemeinden*, with official 5-digit *Gemeindekennziffer* / GKZ codes).
 - **Languages:** German (*Deutsch*).
-- **Current register status:** 37 actors (24 individuals, 13 organisations), 37 evidence rows (29 Grade A, 8 Grade B), 28 relational links, 6 sitting Nationalrat MPs linked to B0001.
+- **Current register status:** 42 actors (28 individuals, 14 organisations), 42 evidence rows (32 Grade A, 10 Grade B), 31 relational links, 8 sitting Nationalrat MPs linked to B0001, 24 primary documents logged in `documents.csv`.
 
 ---
 
@@ -39,7 +39,7 @@
   - Sitting MPs & Filters: Open JSON POST API `https://www.parlament.gv.at/Filter/api/json/post?jsMode=EVAL&FBEZ=WFW_002&...`
   - Item Details: Append `?json=TRUE` to any bill, motion, or person URL (e.g. `https://www.parlament.gv.at/gegenstand/XXVII/UEA/1077?json=TRUE`).
   - Plenary debates (*Stenographische Protokolle*): Full text and downloadable PDFs at `https://www.parlament.gv.at/dokument/...`.
-- **Sitting supporters:** 6 sitting MPs matched directly via `seats.py` (Julia Herr, Kai Jan Krainer, Barbara Teiber, Christoph Matznetter, Josef Muchitsch, Reinhold Binder). Note: SPÖ Chairman Andreas Babler's Nationalrat mandate rests while serving in the federal government per B-VG Art. 56.
+- **Sitting supporters:** 8 sitting MPs matched directly via `seats.py` (Julia Herr, Kai Jan Krainer, Barbara Teiber, Christoph Matznetter, Josef Muchitsch, Reinhold Binder, Selma Yildirim, Sabine Schatz). Note: SPÖ Chairman Andreas Babler's Nationalrat mandate rests while serving in the federal government per B-VG Art. 56.
 - **European Parliament:** Evelyn Regner (Vice-President of the European Parliament, MEP) tracked under supranational level for Austria.
 
 ---
@@ -97,10 +97,18 @@ Listed on the Resources page after reading each source: the Heck, Kapeller and W
 
 Searched and not listed: the Nationalrat's XXVII. GP motions on a wealth tax. Motion [1077/UEA](https://www.parlament.gv.at/gegenstand/XXVII/UEA/1077) (Julia Herr, "Einführung einer Millionärssteuer") was rejected on 14 June 2023 (SPÖ for; ÖVP, FPÖ, Greens, NEOS against), but its text argues about "Millionenerben" and asks only for "eine Millionärssteuer für die Reichsten", so it is not clearly an annual net wealth tax; 24/UEA concerns the 55% income-tax top rate and 99/UEA (NEOS, 2020) asks the government to start neither an inheritance nor a wealth tax. No Nationalrat bill for a stand-alone net wealth tax was found.
 
-Leads not yet listed:
-- Evidence row E00003 gives 20 November 2020 for 1077/UEA, but the parliament page dates it 14 June 2023 (introduced and rejected at the 219th session); correct the row and decide whether the motion counts.
+## Legislative Records Pass — R007 (9 November 2026)
+- **Primary records & gazette scans:** Downloaded and scanned 23 primary documents from `parlament.gv.at` (motions, plenary transcripts, committee reports, and reform bills) to `data/at/primary_docs/`. Logged 17 new documents in `documents.csv` (M0008–M0024).
+- **Resolution of 1077/UEA & E00003:** Corrected E00003 date from 2020-11-20 to 14 June 2023. The scanned original motion and 219. Sitzung transcript confirm Julia Herr and SPÖ colleagues formally tabled 1077/UEA urging the government to draft a net wealth tax on the richest (*Millionärssteuer für die Reichsten*) by 31.12.2023. Added to `data/resources.json` as `at-uea-1077-xxvii-gp-millionaerssteuer`.
+- **Nationalrat voting mechanism:** National Council resolutions are decided by show of hands (*Handzeichen* / *Aufstehen*), recording only party totals (`Dafür: SPÖ, dagegen: ÖVP, FPÖ, GRÜNE, NEOS`). Roll-call votes (*Namentliche Abstimmung*) require a formal petition of 20+ MPs (§ 66 GOG-NR). A comprehensive scan of all tax-reform plenary sessions post-2010 (notably the *Steuerreformgesetz 2015/2016*, 83. Sitzung XXV. GP) confirmed that roll calls were requested only on income-tax brackets and family bonuses. Under Ground Rule 2, party totals cannot be quoted as individual votes; therefore, **0 roll call votes exist on wealth taxation post-2010 in Austria**.
+- **Speeches and parliamentary oral questions:** Added Grade A parliamentary evidence for key champions:
+  - Mag. Selma Yildirim (A0039, E00039): Plenary speech formally introducing 1077/UEA on 14 June 2023.
+  - Sabine Schatz (A0040, E00040): Plenary speech on 7 July 2021 demanding Millionärssteuern to fund Covid-19 recovery.
+  - Nurten Yılmaz (A0041, E00041): Plenary oral question 114/M on 8 July 2021 demanding a wealth tax on multi-millionaires and billionaires.
+- **Leads resolution:** Closed lead L0018 (Ernest Fuhrmann, mapped to A0032) and L0019 (Peter Windischhofer, co-founder of Refurbed, added as A0042 with verified quote E00042 from Millionaires for Humanity; D0002 closed in `leads.csv`).
+- **Country records guide:** Created comprehensive legislative records guide at `skill/references/records/at.md`.
+
+## Open items and future maintenance:
 - The Momentum analysis "Vermögensteuer: So viel bringt sie" (cited in the evidence) returned 404 on its old address; find the current address and read it.
 - The AK study behind the A&W post ("Vermögenskonzentration in Österreich – Ein Update auf Basis des HFCS 2017", Heck, Kapeller, Wildauer) and the 2024 AK study by Heck, Hornykewycz, Kapeller and Wildauer, whose models the press reports at EUR 6 to 12 billion: read the studies themselves.
 - Polls known only from press or blog summaries, without the pollster's release or wording: the A&W Blog compilation of 2018 (Format, Österreich, Kurier, profil polls), the GPA poll (76%, inheritance and wealth tax from EUR 1 million together), the profil/Unique research poll (54%, inheritance and wealth together) and the SORA poll for Volkshilfe of August 2022 (78%, inheritance and wealth tax together).
-
-Second pass (1 November 2026): the motions found in the Nationalrat on wealth or inheritance taxes are the Greens' urgent motion on an inheritance tax (rejected) and a NEOS motion (Schellhorn) against both; no motion for a wealth tax itself was found on parlament.gv.at. Nothing listed.
