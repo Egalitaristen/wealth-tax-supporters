@@ -1,0 +1,8 @@
+{
+  "name": "Vietnam",
+  "iso2": "VN",
+  "lead": "Vietnam has no wealth tax, but growing inequality and real-estate concentration have driven heated policy debates over property taxation and civil-society campaigns for taxing extreme wealth.",
+  "status": "seed pass",
+  "boundaries": "",
+  "notes": "Seed pass (R001, November 2026). Complete geography register to the local tier (63 provinces and centrally-governed cities, 705 district-level units with official GSO codes). Unicameral legislature (Quốc hội Việt Nam, 499 seats). Taxation is constitutionally reserved to the national legislature; local people's councils have no tax-raising powers. No open-licence local boundary file with official GSO codes exists (geoBoundaries ADM2 lacks official GSO codes and has unmatched unaccented IDs); follow-up issue opened for boundaries.json."
+}

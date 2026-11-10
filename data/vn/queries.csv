@@ -1,0 +1,26 @@
+query_id,run_id,date,language,query,channel,results_opened,leads_added,note
+Q0001,R001,2026-11-10,vi,thuế tài sản OR thuế người giàu OR thuế người siêu giàu,web,10,2,Broad search across official portals and news outlets
+Q0002,R001,2026-11-10,vi,site:vietnam.oxfam.org thuế siêu giàu OR tài sản,web,8,2,Search for Oxfam Vietnam tax justice and wealth inequality publications
+Q0003,R001,2026-11-10,vi,Dự thảo Luật Thuế tài sản Bộ Tài chính 2018,web,10,3,Investigation of the 2018 property tax draft law and legislative response
+Q0004,R001,2026-11-10,vi,thuế tài sản ròng OR net wealth tax Việt Nam,web,6,1,Search for net wealth tax academic and policy debates in Vietnam
+Q0005,R001,2026-11-10,en,Vietnam OR Viet Nam Proud to pay more OR Millionaires for Humanity,web,5,0,International wealth tax letters and signatory roster check
+Q0006,R002,2026-11-10,vi,"""Vũ Thị Quỳnh Hoa"" ""thuế"" ""tài sản"" OR ""siêu giàu""",web,6,0,Targeted search for individual op-eds or public speeches by Oxfam Vietnam director
+Q0007,R002,2026-11-10,vi,"site:vietnam.oxfam.org """"thuế"""" """"bất bình đẳng"""" OR """"siêu giàu""""",web,8,1,Systematic review of Oxfam Vietnam Davos inequality and wealth tax releases (2023-2025)
+Q0008,R002,2026-11-10,vi,"""ActionAid"" ""Việt Nam"" ""thuế"" ""siêu giàu"" OR ""tài sản""",web,6,1,Investigation of ActionAid Vietnam tax justice campaigning and coalition activities
+Q0009,R002,2026-11-10,vi,"""Liên minh Công bằng Thuế Việt Nam"" thành viên OR tổ chức",web,5,1,Network analysis of Vietnam Alliance for Tax Justice (VATJ) member organisations
+Q0010,R002,2026-11-10,vi,"""VCCI"" ""thuế tài sản""",web,6,1,Review of Vietnam Chamber of Commerce and Industry feedback on property taxation
+Q0011,R003,2026-11-10,vi,"""Trần Hoàng Ngân"" ""thuế"" ""người giàu"" OR ""tài sản"" OR ""bất bình đẳng""",web,4,0,National Assembly economist and delegate scan on property and wealth debates
+Q0012,R003,2026-11-10,vi,"""Hoàng Văn Cường"" ""thuế tài sản"" OR ""đánh thuế""",web,5,1,National Assembly Finance and Budget Committee debate on VAT vs property tax
+Q0013,R003,2026-11-10,vi,"""Trương Trọng Nghĩa"" ""thuế tài sản"" OR ""đánh thuế""",web,4,0,National Assembly debate on anti-corruption and luxury consumption taxes
+Q0014,R003,2026-11-10,vi,"""Vũ Thành Tự Anh"" ""thuế tài sản"" OR ""đánh thuế""",web,5,1,Fulbright School economic research and public finance analysis
+Q0015,R003,2026-11-10,vi,"site:vess.org.vn """"thuế""""",web,4,1,VESS fiscal policy and corporate tax competition research outputs
+Q0016,R003,2026-11-10,vi,"""Tổng Liên đoàn Lao động"" ""thuế"" ""người giàu"" OR ""tài sản""",web,5,1,VGCL trade union fiscal positions and personal income tax threshold advocacy
+Q0017,R003,2026-11-10,vi,"""Tô Lâm"" ""thuế"" ""tài sản"" OR ""đất đai""",web,7,0,CPV General Secretary land policy and anti-speculation directives
+Q0018,R004,2026-11-10,vi,"""thuế tài sản ròng"" đánh thuế người siêu giàu đại biểu Quốc hội đề xuất",web,4,0,"No deputy proposal for a net wealth tax; results are inheritance, PIT and property tax"
+Q0019,R004,2026-11-10,vi,"""đại biểu Quốc hội"" ""thuế người giàu"" OR ""thuế tài sản ròng"" OR ""thuế người siêu giàu""",web,3,0,Deputy debates on PIT law 2025-2026 cover thresholds and rates only
+Q0020,R004,2026-11-10,vi,"""thuế tỷ phú"" OR ""thuế tỉ phú"" Việt Nam Zucman chuyên gia",web,3,0,"Only reporting on foreign proposals, no local advocate"
+Q0021,R004,2026-11-10,vi,tiến sĩ kinh tế đề xuất đánh thuế tài sản người siêu giàu tài sản ròng lũy tiến,web,4,1,Inheritance tax proposals (15-20%) by NEU academics; out of definition
+Q0022,R004,2026-11-10,vi,Tạp chí Cộng sản OR Tạp chí Tài chính thuế tài sản ròng người giàu,web,3,0,Journals did not surface; leads logged for site-level search
+Q0023,R004,2026-11-10,en,Vietnam wealth tax economist argues billionaire tax Vietnam opinion,web,4,1,Found Prakarsa 2023 regional report (Resources page)
+Q0024,R004,2026-11-10,en,World Bank OR UNDP OR IMF Vietnam recommends wealth tax,web,1,1,OECD Economic Survey 2025 and WB PEA 2022 blocked or no wealth tax text
+Q0025,R004,2026-11-10,en,site:vietnam.oxfam.org wealth tax Davos reports 2017-2021,site,8,0,4 new Oxfam in Vietnam evidence rows
