@@ -1,0 +1,171 @@
+geo_unit_id,name,level,unit_type,parent_id,website,sweep_status,swept_run,swept_date,queries_run,hits,notes,code
+G0001,Pakistan,national,country,,https://pakistan.gov.pk,in_progress,R001,2026-11-10,,,"Seed pass across national legislature, political parties, think tanks, economists, business groups, and civil society.",PK
+G0002,National Assembly,national,legislature,G0001,https://na.gov.pk,in_progress,R001,2026-11-10,,,National Assembly of Pakistan (Majlis-e-Shoora lower house). 336 seats.,
+G0003,Senate,national,legislature,G0001,https://senate.gov.pk,in_progress,R001,2026-11-10,,,Senate of Pakistan (Majlis-e-Shoora upper house). 96 seats.,
+G0004,Azad Kashmir,region,autonomous_territory,G0001,,pending,,,,,Azad Jammu and Kashmir (AJK). OCHA P-code PK1.,PK1
+G0005,Balochistan,region,province,G0001,,pending,,,,,Province of Balochistan. OCHA P-code PK2.,PK2
+G0006,Gilgit Baltistan,region,autonomous_territory,G0001,,pending,,,,,Gilgit-Baltistan. OCHA P-code PK3.,PK3
+G0007,Islamabad,region,federal_territory,G0001,,pending,,,,,Islamabad Capital Territory. OCHA P-code PK4.,PK4
+G0008,Khyber Pakhtunkhwa,region,province,G0001,,pending,,,,,Province of Khyber Pakhtunkhwa. OCHA P-code PK5.,PK5
+G0009,Punjab,region,province,G0001,,pending,,,,,Province of Punjab. OCHA P-code PK6.,PK6
+G0010,Sindh,region,province,G0001,,pending,,,,,Province of Sindh. OCHA P-code PK7.,PK7
+G0011,Bagh,council,district,G0004,,pending,,,,,District of Azad Kashmir. OCHA P-code PK101.,PK101
+G0012,Bhimber,council,district,G0004,,pending,,,,,District of Azad Kashmir. OCHA P-code PK102.,PK102
+G0013,Jhelum Valley,council,district,G0004,,pending,,,,,District of Azad Kashmir. OCHA P-code PK103.,PK103
+G0014,Haveli,council,district,G0004,,pending,,,,,District of Azad Kashmir. OCHA P-code PK104.,PK104
+G0015,Kotli,council,district,G0004,,pending,,,,,District of Azad Kashmir. OCHA P-code PK105.,PK105
+G0016,Mirpur,council,district,G0004,,pending,,,,,District of Azad Kashmir. OCHA P-code PK106.,PK106
+G0017,Muzaffarabad,council,district,G0004,,pending,,,,,District of Azad Kashmir. OCHA P-code PK107.,PK107
+G0018,Neelum,council,district,G0004,,pending,,,,,District of Azad Kashmir. OCHA P-code PK108.,PK108
+G0019,Poonch,council,district,G0004,,pending,,,,,District of Azad Kashmir. OCHA P-code PK109.,PK109
+G0020,Sudhnoti,council,district,G0004,,pending,,,,,District of Azad Kashmir. OCHA P-code PK110.,PK110
+G0021,Awaran,council,district,G0005,,pending,,,,,District of Balochistan. OCHA P-code PK201.,PK201
+G0022,Barkhan,council,district,G0005,,pending,,,,,District of Balochistan. OCHA P-code PK202.,PK202
+G0023,Chagai,council,district,G0005,,pending,,,,,District of Balochistan. OCHA P-code PK203.,PK203
+G0024,Dera Bugti,council,district,G0005,,pending,,,,,District of Balochistan. OCHA P-code PK204.,PK204
+G0025,Gwadar,council,district,G0005,,pending,,,,,District of Balochistan. OCHA P-code PK205.,PK205
+G0026,Harnai,council,district,G0005,,pending,,,,,District of Balochistan. OCHA P-code PK206.,PK206
+G0027,Jaffarabad,council,district,G0005,,pending,,,,,District of Balochistan. OCHA P-code PK207.,PK207
+G0028,Jhal Magsi,council,district,G0005,,pending,,,,,District of Balochistan. OCHA P-code PK208.,PK208
+G0029,Kachhi,council,district,G0005,,pending,,,,,District of Balochistan. OCHA P-code PK209.,PK209
+G0030,Kalat,council,district,G0005,,pending,,,,,District of Balochistan. OCHA P-code PK210.,PK210
+G0031,Kech,council,district,G0005,,pending,,,,,District of Balochistan. OCHA P-code PK211.,PK211
+G0032,Kharan,council,district,G0005,,pending,,,,,District of Balochistan. OCHA P-code PK212.,PK212
+G0033,Khuzdar,council,district,G0005,,pending,,,,,District of Balochistan. OCHA P-code PK213.,PK213
+G0034,Killa Abdullah,council,district,G0005,,pending,,,,,District of Balochistan. OCHA P-code PK214.,PK214
+G0035,Killa Saifullah,council,district,G0005,,pending,,,,,District of Balochistan. OCHA P-code PK215.,PK215
+G0036,Kohlu,council,district,G0005,,pending,,,,,District of Balochistan. OCHA P-code PK216.,PK216
+G0037,Lasbela,council,district,G0005,,pending,,,,,District of Balochistan. OCHA P-code PK217.,PK217
+G0038,Lehri,council,district,G0005,,pending,,,,,District of Balochistan. OCHA P-code PK218.,PK218
+G0039,Loralai,council,district,G0005,,pending,,,,,District of Balochistan. OCHA P-code PK219.,PK219
+G0040,Mastung,council,district,G0005,,pending,,,,,District of Balochistan. OCHA P-code PK220.,PK220
+G0041,Musakhel,council,district,G0005,,pending,,,,,District of Balochistan. OCHA P-code PK221.,PK221
+G0042,Nasirabad,council,district,G0005,,pending,,,,,District of Balochistan. OCHA P-code PK222.,PK222
+G0043,Nushki,council,district,G0005,,pending,,,,,District of Balochistan. OCHA P-code PK223.,PK223
+G0044,Panjgur,council,district,G0005,,pending,,,,,District of Balochistan. OCHA P-code PK224.,PK224
+G0045,Pishin,council,district,G0005,,pending,,,,,District of Balochistan. OCHA P-code PK225.,PK225
+G0046,Quetta,council,district,G0005,,pending,,,,,District of Balochistan. OCHA P-code PK226.,PK226
+G0047,Sherani,council,district,G0005,,pending,,,,,District of Balochistan. OCHA P-code PK227.,PK227
+G0048,Sibi,council,district,G0005,,pending,,,,,District of Balochistan. OCHA P-code PK228.,PK228
+G0049,Sohbatpur,council,district,G0005,,pending,,,,,District of Balochistan. OCHA P-code PK229.,PK229
+G0050,Washuk,council,district,G0005,,pending,,,,,District of Balochistan. OCHA P-code PK230.,PK230
+G0051,Zhob,council,district,G0005,,pending,,,,,District of Balochistan. OCHA P-code PK231.,PK231
+G0052,Ziarat,council,district,G0005,,pending,,,,,District of Balochistan. OCHA P-code PK232.,PK232
+G0053,Shaheed Sikandarabad,council,district,G0005,,pending,,,,,District of Balochistan. OCHA P-code PK233.,PK233
+G0054,Duki,council,district,G0005,,pending,,,,,District of Balochistan. OCHA P-code PK234.,PK234
+G0055,Chaman,council,district,G0005,,pending,,,,,District of Balochistan. OCHA P-code PK235.,PK235
+G0056,Astore,council,district,G0006,,pending,,,,,District of Gilgit Baltistan. OCHA P-code PK301.,PK301
+G0057,Diamir,council,district,G0006,,pending,,,,,District of Gilgit Baltistan. OCHA P-code PK302.,PK302
+G0058,Ghanche,council,district,G0006,,pending,,,,,District of Gilgit Baltistan. OCHA P-code PK303.,PK303
+G0059,Ghizer,council,district,G0006,,pending,,,,,District of Gilgit Baltistan. OCHA P-code PK304.,PK304
+G0060,Gilgit,council,district,G0006,,pending,,,,,District of Gilgit Baltistan. OCHA P-code PK305.,PK305
+G0061,Hunza,council,district,G0006,,pending,,,,,District of Gilgit Baltistan. OCHA P-code PK306.,PK306
+G0062,Skardu,council,district,G0006,,pending,,,,,District of Gilgit Baltistan. OCHA P-code PK307.,PK307
+G0063,Nagar,council,district,G0006,,pending,,,,,District of Gilgit Baltistan. OCHA P-code PK308.,PK308
+G0064,Kharmang,council,district,G0006,,pending,,,,,District of Gilgit Baltistan. OCHA P-code PK309.,PK309
+G0065,Shigar,council,district,G0006,,pending,,,,,District of Gilgit Baltistan. OCHA P-code PK310.,PK310
+G0066,Darel,council,district,G0006,,pending,,,,,District of Gilgit Baltistan. OCHA P-code PK311.,PK311
+G0067,Tangir,council,district,G0006,,pending,,,,,District of Gilgit Baltistan. OCHA P-code PK312.,PK312
+G0068,Gupis-Yasin,council,district,G0006,,pending,,,,,District of Gilgit Baltistan. OCHA P-code PK313.,PK313
+G0069,Rondu,council,district,G0006,,pending,,,,,District of Gilgit Baltistan. OCHA P-code PK314.,PK314
+G0070,Islamabad,council,district,G0007,,pending,,,,,District of Islamabad. OCHA P-code PK401.,PK401
+G0071,Abbottabad,council,district,G0008,,pending,,,,,District of Khyber Pakhtunkhwa. OCHA P-code PK501.,PK501
+G0072,Bajaur,council,district,G0008,,pending,,,,,District of Khyber Pakhtunkhwa. OCHA P-code PK502.,PK502
+G0073,Bannu,council,district,G0008,,pending,,,,,District of Khyber Pakhtunkhwa. OCHA P-code PK503.,PK503
+G0074,Batagram,council,district,G0008,,pending,,,,,District of Khyber Pakhtunkhwa. OCHA P-code PK504.,PK504
+G0075,Buner,council,district,G0008,,pending,,,,,District of Khyber Pakhtunkhwa. OCHA P-code PK505.,PK505
+G0076,Charsadda,council,district,G0008,,pending,,,,,District of Khyber Pakhtunkhwa. OCHA P-code PK506.,PK506
+G0077,Chitral Lower,council,district,G0008,,pending,,,,,District of Khyber Pakhtunkhwa. OCHA P-code PK507.,PK507
+G0078,Chitral Upper,council,district,G0008,,pending,,,,,District of Khyber Pakhtunkhwa. OCHA P-code PK508.,PK508
+G0079,D. I. Khan,council,district,G0008,,pending,,,,,District of Khyber Pakhtunkhwa. OCHA P-code PK509.,PK509
+G0080,Hangu,council,district,G0008,,pending,,,,,District of Khyber Pakhtunkhwa. OCHA P-code PK510.,PK510
+G0081,Haripur,council,district,G0008,,pending,,,,,District of Khyber Pakhtunkhwa. OCHA P-code PK511.,PK511
+G0082,Karak,council,district,G0008,,pending,,,,,District of Khyber Pakhtunkhwa. OCHA P-code PK512.,PK512
+G0083,Khyber,council,district,G0008,,pending,,,,,District of Khyber Pakhtunkhwa. OCHA P-code PK513.,PK513
+G0084,Kohat,council,district,G0008,,pending,,,,,District of Khyber Pakhtunkhwa. OCHA P-code PK514.,PK514
+G0085,Kohistan Lower,council,district,G0008,,pending,,,,,District of Khyber Pakhtunkhwa. OCHA P-code PK515.,PK515
+G0086,Kohistan Upper,council,district,G0008,,pending,,,,,District of Khyber Pakhtunkhwa. OCHA P-code PK516.,PK516
+G0087,Kolai Palas Kohistan,council,district,G0008,,pending,,,,,District of Khyber Pakhtunkhwa. OCHA P-code PK517.,PK517
+G0088,Kurram,council,district,G0008,,pending,,,,,District of Khyber Pakhtunkhwa. OCHA P-code PK518.,PK518
+G0089,Lakki Marwat,council,district,G0008,,pending,,,,,District of Khyber Pakhtunkhwa. OCHA P-code PK519.,PK519
+G0090,Lower Dir,council,district,G0008,,pending,,,,,District of Khyber Pakhtunkhwa. OCHA P-code PK520.,PK520
+G0091,Malakand,council,district,G0008,,pending,,,,,District of Khyber Pakhtunkhwa. OCHA P-code PK521.,PK521
+G0092,Mansehra,council,district,G0008,,pending,,,,,District of Khyber Pakhtunkhwa. OCHA P-code PK522.,PK522
+G0093,Mardan,council,district,G0008,,pending,,,,,District of Khyber Pakhtunkhwa. OCHA P-code PK523.,PK523
+G0094,Mohmand,council,district,G0008,,pending,,,,,District of Khyber Pakhtunkhwa. OCHA P-code PK524.,PK524
+G0095,North Waziristan,council,district,G0008,,pending,,,,,District of Khyber Pakhtunkhwa. OCHA P-code PK525.,PK525
+G0096,Nowshera,council,district,G0008,,pending,,,,,District of Khyber Pakhtunkhwa. OCHA P-code PK526.,PK526
+G0097,Orakzai,council,district,G0008,,pending,,,,,District of Khyber Pakhtunkhwa. OCHA P-code PK527.,PK527
+G0098,Peshawar,council,district,G0008,,pending,,,,,District of Khyber Pakhtunkhwa. OCHA P-code PK528.,PK528
+G0099,Shangla,council,district,G0008,,pending,,,,,District of Khyber Pakhtunkhwa. OCHA P-code PK529.,PK529
+G0100,South Waziristan,council,district,G0008,,pending,,,,,District of Khyber Pakhtunkhwa. OCHA P-code PK530.,PK530
+G0101,Swabi,council,district,G0008,,pending,,,,,District of Khyber Pakhtunkhwa. OCHA P-code PK531.,PK531
+G0102,Swat,council,district,G0008,,pending,,,,,District of Khyber Pakhtunkhwa. OCHA P-code PK532.,PK532
+G0103,Tank,council,district,G0008,,pending,,,,,District of Khyber Pakhtunkhwa. OCHA P-code PK533.,PK533
+G0104,Tor Ghar,council,district,G0008,,pending,,,,,District of Khyber Pakhtunkhwa. OCHA P-code PK534.,PK534
+G0105,Upper Dir,council,district,G0008,,pending,,,,,District of Khyber Pakhtunkhwa. OCHA P-code PK535.,PK535
+G0106,Attock,council,district,G0009,,pending,,,,,District of Punjab. OCHA P-code PK601.,PK601
+G0107,Bahawalnagar,council,district,G0009,,pending,,,,,District of Punjab. OCHA P-code PK602.,PK602
+G0108,Bahawalpur,council,district,G0009,,pending,,,,,District of Punjab. OCHA P-code PK603.,PK603
+G0109,Bhakkar,council,district,G0009,,pending,,,,,District of Punjab. OCHA P-code PK604.,PK604
+G0110,Chakwal,council,district,G0009,,pending,,,,,District of Punjab. OCHA P-code PK605.,PK605
+G0111,Chiniot,council,district,G0009,,pending,,,,,District of Punjab. OCHA P-code PK606.,PK606
+G0112,Dera Ghazi Khan,council,district,G0009,,pending,,,,,District of Punjab. OCHA P-code PK607.,PK607
+G0113,Faisalabad,council,district,G0009,,pending,,,,,District of Punjab. OCHA P-code PK608.,PK608
+G0114,Gujranwala,council,district,G0009,,pending,,,,,District of Punjab. OCHA P-code PK609.,PK609
+G0115,Gujrat,council,district,G0009,,pending,,,,,District of Punjab. OCHA P-code PK610.,PK610
+G0116,Hafizabad,council,district,G0009,,pending,,,,,District of Punjab. OCHA P-code PK611.,PK611
+G0117,Jhang,council,district,G0009,,pending,,,,,District of Punjab. OCHA P-code PK612.,PK612
+G0118,Jhelum,council,district,G0009,,pending,,,,,District of Punjab. OCHA P-code PK613.,PK613
+G0119,Kasur,council,district,G0009,,pending,,,,,District of Punjab. OCHA P-code PK614.,PK614
+G0120,Khanewal,council,district,G0009,,pending,,,,,District of Punjab. OCHA P-code PK615.,PK615
+G0121,Khushab,council,district,G0009,,pending,,,,,District of Punjab. OCHA P-code PK616.,PK616
+G0122,Lahore,council,district,G0009,,pending,,,,,District of Punjab. OCHA P-code PK617.,PK617
+G0123,Leiah,council,district,G0009,,pending,,,,,District of Punjab. OCHA P-code PK618.,PK618
+G0124,Lodhran,council,district,G0009,,pending,,,,,District of Punjab. OCHA P-code PK619.,PK619
+G0125,Mandi Bahauddin,council,district,G0009,,pending,,,,,District of Punjab. OCHA P-code PK620.,PK620
+G0126,Mianwali,council,district,G0009,,pending,,,,,District of Punjab. OCHA P-code PK621.,PK621
+G0127,Multan,council,district,G0009,,pending,,,,,District of Punjab. OCHA P-code PK622.,PK622
+G0128,Muzaffargarh,council,district,G0009,,pending,,,,,District of Punjab. OCHA P-code PK623.,PK623
+G0129,Nankana Sahib,council,district,G0009,,pending,,,,,District of Punjab. OCHA P-code PK624.,PK624
+G0130,Narowal,council,district,G0009,,pending,,,,,District of Punjab. OCHA P-code PK625.,PK625
+G0131,Okara,council,district,G0009,,pending,,,,,District of Punjab. OCHA P-code PK626.,PK626
+G0132,Pakpattan,council,district,G0009,,pending,,,,,District of Punjab. OCHA P-code PK627.,PK627
+G0133,Rahim Yar Khan,council,district,G0009,,pending,,,,,District of Punjab. OCHA P-code PK628.,PK628
+G0134,Rajanpur,council,district,G0009,,pending,,,,,District of Punjab. OCHA P-code PK629.,PK629
+G0135,Rawalpindi,council,district,G0009,,pending,,,,,District of Punjab. OCHA P-code PK630.,PK630
+G0136,Sahiwal,council,district,G0009,,pending,,,,,District of Punjab. OCHA P-code PK631.,PK631
+G0137,Sargodha,council,district,G0009,,pending,,,,,District of Punjab. OCHA P-code PK632.,PK632
+G0138,Sheikhupura,council,district,G0009,,pending,,,,,District of Punjab. OCHA P-code PK633.,PK633
+G0139,Sialkot,council,district,G0009,,pending,,,,,District of Punjab. OCHA P-code PK634.,PK634
+G0140,Toba Tek Singh,council,district,G0009,,pending,,,,,District of Punjab. OCHA P-code PK635.,PK635
+G0141,Vehari,council,district,G0009,,pending,,,,,District of Punjab. OCHA P-code PK636.,PK636
+G0142,Badin,council,district,G0010,,pending,,,,,District of Sindh. OCHA P-code PK701.,PK701
+G0143,Central Karachi,council,district,G0010,,pending,,,,,District of Sindh. OCHA P-code PK702.,PK702
+G0144,Dadu,council,district,G0010,,pending,,,,,District of Sindh. OCHA P-code PK703.,PK703
+G0145,East Karachi,council,district,G0010,,pending,,,,,District of Sindh. OCHA P-code PK704.,PK704
+G0146,Ghotki,council,district,G0010,,pending,,,,,District of Sindh. OCHA P-code PK705.,PK705
+G0147,Hyderabad,council,district,G0010,,pending,,,,,District of Sindh. OCHA P-code PK706.,PK706
+G0148,Jacobabad,council,district,G0010,,pending,,,,,District of Sindh. OCHA P-code PK707.,PK707
+G0149,Jamshoro,council,district,G0010,,pending,,,,,District of Sindh. OCHA P-code PK708.,PK708
+G0150,Kambar Shahdad Kot,council,district,G0010,,pending,,,,,District of Sindh. OCHA P-code PK709.,PK709
+G0151,Kashmore,council,district,G0010,,pending,,,,,District of Sindh. OCHA P-code PK710.,PK710
+G0152,Khairpur,council,district,G0010,,pending,,,,,District of Sindh. OCHA P-code PK711.,PK711
+G0153,Korangi Karachi,council,district,G0010,,pending,,,,,District of Sindh. OCHA P-code PK712.,PK712
+G0154,Larkana,council,district,G0010,,pending,,,,,District of Sindh. OCHA P-code PK713.,PK713
+G0155,Malir Karachi,council,district,G0010,,pending,,,,,District of Sindh. OCHA P-code PK714.,PK714
+G0156,Matiari,council,district,G0010,,pending,,,,,District of Sindh. OCHA P-code PK715.,PK715
+G0157,Mirpur Khas,council,district,G0010,,pending,,,,,District of Sindh. OCHA P-code PK716.,PK716
+G0158,Naushahro Feroze,council,district,G0010,,pending,,,,,District of Sindh. OCHA P-code PK717.,PK717
+G0159,Sanghar,council,district,G0010,,pending,,,,,District of Sindh. OCHA P-code PK718.,PK718
+G0160,Shaheed Benazir Abad,council,district,G0010,,pending,,,,,District of Sindh. OCHA P-code PK719.,PK719
+G0161,Shikarpur,council,district,G0010,,pending,,,,,District of Sindh. OCHA P-code PK720.,PK720
+G0162,South Karachi,council,district,G0010,,pending,,,,,District of Sindh. OCHA P-code PK721.,PK721
+G0163,Sujawal,council,district,G0010,,pending,,,,,District of Sindh. OCHA P-code PK722.,PK722
+G0164,Sukkur,council,district,G0010,,pending,,,,,District of Sindh. OCHA P-code PK723.,PK723
+G0165,Tando Allahyar,council,district,G0010,,pending,,,,,District of Sindh. OCHA P-code PK724.,PK724
+G0166,Tando Muhammad Khan,council,district,G0010,,pending,,,,,District of Sindh. OCHA P-code PK725.,PK725
+G0167,Tharparkar,council,district,G0010,,pending,,,,,District of Sindh. OCHA P-code PK726.,PK726
+G0168,Thatta,council,district,G0010,,pending,,,,,District of Sindh. OCHA P-code PK727.,PK727
+G0169,Umer Kot,council,district,G0010,,pending,,,,,District of Sindh. OCHA P-code PK728.,PK728
+G0170,West Karachi,council,district,G0010,,pending,,,,,District of Sindh. OCHA P-code PK729.,PK729

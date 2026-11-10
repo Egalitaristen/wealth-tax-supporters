@@ -1,0 +1,15 @@
+query_id,run_id,date,language,query,channel,results_opened,leads_added,note
+Q0001,R001,2026-11-10,en,site:dawn.com wealth tax,search,6,3,Dawn wealth tax reporting
+Q0002,R001,2026-11-10,en,site:tribune.com.pk wealth tax,search,5,2,Tribune wealth tax archives
+Q0003,R001,2026-11-10,en,site:thenews.com.pk wealth tax,search,4,2,The News articles
+Q0004,R001,2026-11-10,en,Pakistan wealth tax Ishaq Dar Income Support Levy,search,3,1,Income Support Levy Act 2013
+Q0005,R001,2026-11-10,en,Asad Umar wealth tax PTI,search,3,1,Asad Umar statements
+Q0006,R001,2026-11-10,en,Kaiser Bengali wealth tax,search,2,1,Kaiser Bengali alternative budget
+Q0007,R001,2026-11-10,en,Umair Javed Max Gallien wealth tax Dawn,search,2,1,ICTD survey op-ed
+Q0008,R001,2026-11-10,en,Farooq Tariq wealth tax,search,2,1,Farooq Tariq HKP speech
+Q0009,R001,2026-11-10,en,Akbar Zaidi wealth tax,search,2,1,Akbar Zaidi IBA speech
+Q0010,R001,2026-11-10,en,Huzaima Ikram wealth tax,search,2,1,Huzaima and Ikram tax articles
+Q0011,R001,2026-11-10,en,Pakistan wealth tax FBR 2024 2025,search,3,1,FBR budget negotiations with IMF
+Q0012,R001,2026-11-10,ur,ویلتھ ٹیکس پاکستان,search,3,0,Urdu news queries for wealth tax
+Q0013,R001,2026-11-10,ur,امیروں پر ٹیکس دولت ٹیکس,search,2,0,Urdu queries for tax on wealthy
+Q0014,R001,2026-11-10,ur,جماعت اسلامی ویلتھ ٹیکس بجٹ,search,2,0,JI budget tax positions

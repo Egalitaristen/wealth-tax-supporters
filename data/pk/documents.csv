@@ -1,0 +1,3 @@
+document_id,kind,title,ref,date,body,url,tax_relevance,read_status,read_run,read_date,read_method,found,gaps
+M0001,bill,"Income Support Levy Act, 2013 (Act No. XXII of 2013)",Act XXII of 2013,2013-06-30,Majlis-e-Shoora (Parliament of Pakistan),https://na.gov.pk,core,read,R001,2026-11-10,text,Enacted 0.5% wealth levy on net movable wealth over Rs 1 million; repealed by Finance Act 2014.,
+M0002,audit_or_statistics_report,Public Support for Wealth and Progressive Taxes in Pakistan,ICTD Policy Brief 17,2025-06-01,International Centre for Tax and Development,https://ictd.ac/publication/public-support-for-wealth-and-progressive-taxes-in-pakistan/,core,read,R001,2026-11-10,text,"Nationwide survey of 7,500 Pakistani adults finding 42% support for a general wealth tax.",

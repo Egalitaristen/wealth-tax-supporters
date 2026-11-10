@@ -1,0 +1,3 @@
+position_id,actor_id,body_id,role,party,geo_unit_id,start,end,current,member_ref,checked,source_url
+O00001,A0001,B0002,Senator,PML-N,G0009,2018,,y,,2026-11-10,https://senate.gov.pk
+O00002,A0002,B0001,Member of the National Assembly,PTI,G0007,2013,2023,n,,2026-11-10,https://na.gov.pk
