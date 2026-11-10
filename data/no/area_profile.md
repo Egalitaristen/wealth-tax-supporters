@@ -77,7 +77,27 @@ First written 2026-10-22 (run R001).
   3. Regional and local sweep of key municipalities (Oslo, Bergen, Trondheim, Tromsø council groups).
   4. Business/wealthy voices (patriotic millionaires letters, business op-eds).
 
-## Resources pass (1 November 2026)
+## Legislative records deep-dive (Run R016, 9 November 2026)
+
+Conducted a comprehensive scan of Storting official parliamentary records from 2010 to 2026 using the official open-data API `data.stortinget.no` and primary PDFs from `stortinget.no`.
+
+### Key Findings & Roll Calls:
+1. **Annual budget votes are omnibus block votes:** The annual tax decisions (*Innst. 3 S* and *Innst. 4 L*) bundle wealth tax rates into broad revenue chapters (*rammeområde 21*). These package votes bundle corporate, income, and indirect tax measures together and are discarded under the register QA rules.
+2. **Standalone Roll-Call Votes Identified:**
+   - **Vote 2354 (29 May 2012)** on *Dokument 8:77 S* / *Innst. 281 S (2011–2012)*: Direct vote on Fremskrittspartiet's motion to abolish the wealth tax on working capital (*arbeidende kapital*). The committee recommendation that the repeal proposal *vedtas ikke* (shall not be adopted) passed 53 to 48. The 53 voting YES (39 Arbeiderpartiet, 7 Senterpartiet, 7 Sosialistisk Venstreparti) defended the wealth tax against repeal. One member, Bendiks H. Arnesen (Ap, Troms), died in November 2024 and was placed in `exclusions.csv` (`reason: deceased`). The remaining 52 members were verified living (`alive_checked=y`) and added with Grade A vote evidence.
+   - **Vote 2352 (29 May 2012)**: FrP's direct repeal proposal rejected 79 Mot to 22 For.
+   - **Vote 18557 & 18559 (26 April 2022)** on *Dokument 8:110 S* / *Innst. 237 S (2021–2022)*: Proposal to delay and exempt pre-1998 aquaculture concessions (*oppdrettstillatelser*) from the wealth tax base. The Storting rejected postponement 87–14 (Vote 18557) and adopted the committee recommendation rejecting the proposal 86–13 (Vote 18559).
+3. **Plenary Speeches Defending the Tax:**
+   - **Knut Storberget (A, Hedmark)**: Finance Committee rapporteur on Innst. 280 S and Innst. 281 S, defending the wealth tax as an established redistributive instrument.
+   - **Geir-Ketil Hansen (SV, Nordland)**: SV parliamentary spokesperson on Innst. 281 S, defending the red-green tax policy ensuring the wealthiest contribute.
+   - **Sigbjørn Johnsen (A, Hedmark)**: Minister of Finance in Stoltenberg II, defending the increasing progressivity and distributional impact of the wealth tax.
+   - **Mona Nilsen (A, Nordland)**: Plenary debate speaker on Innst. 237 S (21 April 2022), defending progressive wealth taxation of large fortunes.
+   - **Geir Jørgensen (R, Nordland)**: Plenary debate speaker on Innst. 237 S, arguing that multi-million commercial concessions must be taxed under the wealth tax.
+4. **Documentation and Resources:**
+   - Created country records guide `skill/references/records/no.md`.
+   - Logged 13 primary documents in `data/no/documents.csv`.
+   - Added 2 qualified bills to `data/resources.json` (*Dokument 8:77 S* and *Dokument 8:110 S*).
+
 
 Listed on the Resources page after reading each source: the Storting's 2026 tax decision (Vedtak 212), which sets the wealth tax now in force (formuesskatt, an annual net wealth tax; the date of the vote is not on the page), the Skatteutvalget's NOU 2022: 20 (read through the Wayback copy of the ministry's news item of 19 December 2022, because regjeringen.no refuses scripts), and Marius Ring's paper in the Review of Economic Studies. No Norwegian poll on the wealth tax was listed: the only ones found were a 2013 InFact poll for VG known from press coverage and a December 2024 Respons Analyse survey of 400 businesses (on a host with a bad certificate), neither read from the pollster's release.
 
