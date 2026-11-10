@@ -7,7 +7,6 @@ It never changes a file. Each check prints a count and examples; judge them by r
   1. platform  many people sharing one source and quote (a party manifesto or questionnaire answer, a roster page)
   2. nowords   quotes with no wealth or tax wording at all (a name, a biography, a slogan, a citation)
   3. citation  quotes that are a bibliography entry or paper title
-  4. exit_only supporters whose only design is an exit tax (SKILL.md counts it only when tied to a wealth tax)
   5. partial   rows typed partial_wealth whose text is about land, property, luxury goods, VAT or inheritance
   6. dates     statement dates that are the access date, in the future, or shared by ten or more recent rows (a roster's update date)
   7. personal  quotes that carry a birth date or other personal data
@@ -75,11 +74,6 @@ def main():
 
     show("nowords", [e for e in E if e["evidence_type"] != "vote" and not WORDS.search(e["quote_original"])], A, a.max, nm)
     show("citation", [e for e in E if CITE.search(e["quote_original"]) and e["evidence_type"] != "vote"], A, a.max, nm)
-    designs = collections.defaultdict(set)
-    for e in E:
-        designs[e["actor_id"]].add(e["wt_design"])
-    only = [i for i, d in designs.items() if d == {"exit_tax"}]
-    show("exit_only", only, A, a.max, lambda i: f"{i} {A[i]['name']}")
     show("partial", [e for e in E if e["wt_design"] == "partial_wealth" and PARTIAL_OUT.search(e["quote_original"] + " " + e["design_detail"])], A, a.max, nm)
     today = dt.date.today()
     recent = collections.Counter(e["date"] for e in E if e["date"][:10] >= (today - dt.timedelta(days=30)).isoformat())

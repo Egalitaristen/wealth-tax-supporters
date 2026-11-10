@@ -109,7 +109,7 @@ ENUMS = {
                                     "interview", "social_post", "manifesto", "policy_adoption", "campaign",
                                     "coalition_membership", "testimony", "funding", "other"},
     ("evidence", "wt_design"): {"annual_net_wealth", "one_off_levy", "billionaire_minimum", "unrealised_gains",
-                                "exit_tax", "partial_wealth", "defend_existing", "wealth_tax_unspecified"},
+                                "partial_wealth", "defend_existing", "wealth_tax_unspecified"},
     ("geo_units", "level"): {"supranational", "national", "devolved", "region", "county", "combined_authority",
                              "council", "sub_council"},
     ("geo_units", "sweep_status"): {"pending", "in_progress", "done", "skipped"},

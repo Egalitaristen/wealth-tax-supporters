@@ -36,7 +36,7 @@ In this repository, `<area-slug>` is the lowercase ISO 3166-1 alpha-2 code (`gb`
 - `stance` is one of: retracted · support.
 - `grade` is one of: A · B · C.
 - `evidence_type` is one of: bill_sponsorship · campaign · coalition_membership · editorial · funding · interview · manifesto · motion · motion_signature · op_ed · open_letter · other · policy_adoption · publication · report · social_post · speech · statement · testimony · vote.
-- `wt_design` is one of: annual_net_wealth · billionaire_minimum · defend_existing · exit_tax · one_off_levy · partial_wealth · unrealised_gains · wealth_tax_unspecified.
+- `wt_design` is one of: annual_net_wealth · billionaire_minimum · defend_existing · one_off_levy · partial_wealth · unrealised_gains · wealth_tax_unspecified.
 <!-- /schema:evidence -->
 - `date`: YYYY-MM-DD (or YYYY-MM / YYYY if that is all that is known); the date of the act or statement, not of a later article about it
 - `stance`: support · retracted

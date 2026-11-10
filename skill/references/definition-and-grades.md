@@ -14,12 +14,11 @@ A tax on the **stock of wealth** (net assets) of the wealthy, rather than on inc
 | `one_off_levy` | One-time levy on net wealth | California's one-time 5% billionaire tax ballot measure; post-crisis wealth levies |
 | `billionaire_minimum` | Minimum tax set as a % of wealth for the ultra-rich | Zucman's 2% minimum tax on billionaires; the G20 2024 billionaire-tax discussion; France's "taxe Zucman" |
 | `unrealised_gains` | Annual taxation of unrealised gains for the very wealthy (mark-to-market) | US billionaire minimum income tax on unrealised gains |
-| `exit_tax` | Tax on wealth or unrealised gains when the wealthy emigrate | Exit-tax proposals tied to a wealth tax |
 | `partial_wealth` | Recurring tax on net holdings of a broad asset class (e.g. financial assets), not a single property | — |
 | `defend_existing` | Opposing abolition, or supporting keeping or raising an existing wealth tax | Defending a national wealth tax against repeal |
 | `wealth_tax_unspecified` | Calls for "a wealth tax" without saying which design | "We need a wealth tax" |
 
-**Excluded** (never qualifies on its own): mansion or high-value property taxes; council tax or property tax reform; land value tax; capital gains tax changes on realisation; inheritance, estate or gift taxes; income or dividend tax rises; windfall taxes; corporate taxes; financial transaction taxes; closing loopholes or tax-avoidance measures; generic "tax the rich" or "fair share" with no reference to the stock of wealth.
+**Excluded** (never qualifies on its own): exit taxes (a charge on leaving the country is not tracked as a design; if it is part of a wider wealth-tax plan, record the wealth tax itself); mansion or high-value property taxes; council tax or property tax reform; land value tax; capital gains tax changes on realisation; inheritance, estate or gift taxes; income or dividend tax rises; windfall taxes; corporate taxes; financial transaction taxes; closing loopholes or tax-avoidance measures; generic "tax the rich" or "fair share" with no reference to the stock of wealth.
 
 **Ambiguous phrases.** "Tax wealth like work" or "tax wealth not work" often means aligning capital gains with income tax (common UK usage). Treat it as grade C at most, and only when nothing in the speaker's own platform shows they mean capital gains. If it clearly means capital gains or dividends, it does not qualify. Watch local terms that also cover excluded taxes (e.g. Italian *patrimoniale* can mean property taxes; Dutch *vermogensbelasting* often refers to the savings box) and read the context.
 
