@@ -2,37 +2,39 @@
 
 ## 1. Scope
 - Area: Paraguay; type: country (ISO 3166-1 alpha-2: PY, alpha-3: PRY)
-- Depth: Seed (prominent supporters in every layer at national level; geography loaded down to local tier; plan for next runs)
-- Levels of government in scope: National (Congreso Nacional: Cámara de Senadores and Cámara de Diputados; Corte Suprema de Justicia; Executive); regional (17 departamentos and Capital District Asunción) and local (263 distritos / municipios in `geo_units.csv` and `boundaries.json`). Regional and local levels were not individually swept in this seed pass.
+- Depth: Seed and legislative deep dive (prominent supporters in every layer at national level; comprehensive roll-call and bill-sponsorship extraction; geography loaded down to local tier; plan for next runs)
+- Levels of government in scope: National (Congreso Nacional: Cámara de Senadores and Cámara de Diputados; Corte Suprema de Justicia; Executive); regional (17 departamentos and Capital District Asunción) and local (263 distritos / municipios in `geo_units.csv` and `boundaries.json`). Regional and local levels were sampled and not individually swept as subnational units lack tax powers.
 - Languages to search in: Spanish (`es`), Guaraní (`gn`)
-- Date of first run: 2026-11-10 (R001)
+- Runs completed: R001 (2026-11-10, seed pass), R002 (2026-11-10, legislative roll-call and sponsor deep dive)
 
 ## 2. Wealth tax history and live proposals (2010 onwards)
 - **Existing tax background:** Paraguay has never enacted a recurrent general net wealth tax or inheritance tax. The tax system relies predominantly on consumption taxes (IVA ~50% of tax revenue) and flat 10% rates (the "10-10-10" model: IRE, IRP, IVA). Real estate is subject to municipal property tax (*impuesto inmobiliario*), which is low and distinct from net wealth.
-- **2020 — "Tasa Covid" on large fortunes:** In April/May 2020, during the COVID-19 emergency, the left-wing coalition Frente Guasu (senators Esperanza Martínez, Carlos Filizzola, Hugo Richer, Sixto Pereira, Jorge Querey) presented a bill creating a temporary 1% levy on net wealth above USD 10 million (affecting approx. 90 economic groups or families) to fund healthcare and emergency assistance ([Última Hora](https://www.ultimahora.com/fg-pide-impuesto-ricos-tabaco-y-soja-n2880671), [Revista Plus](https://revistaplus.com.py/2020/04/21/izquierda-plantea-gravar-grandes-fortunas-en-lucha-contra-covid-19/)). The bill was opposed by business groups (FEPRINCO) and blocked by conservative and llanista majorities.
-- **2021 — "Tasa extraordinaria a las grandes fortunas" (Emergencia Educativa):** In May 2021, teachers union OTEP-SN alongside senators Hugo Richer (FG), Pedro Santa Cruz (PDP), and Víctor Ríos (PLRA) presented a bill declaring an educational emergency for 3 years, funded by an extraordinary wealth tax of 1% to 5% on net assets exceeding 30,000 minimum wages (approx. USD 10 million) to raise USD 400 million for public schools ([ABC Color](https://www.abc.com.py/nacionales/2021/05/12/presentan-proyecto-de-ley-que-declara-emergencia-educativa-y-crea-tasa-extraordinaria-a-las-grandes-fortunas/), [Última Hora](https://www.ultimahora.com/presentan-ley-emergencia-educativa-n2940644)). On 30 June 2021, the Cámara de Diputados voted to reject and archive the initiative ([Última Hora](https://www.ultimahora.com/impuesto-las-grandes-fortunas-fue-rechazado-diputados-n2948629), [La Nación](https://www.lanacion.com.py/politica/2021/06/30/diputados-mandan-al-archivo-propuesta-de-crear-impuesto-a-la-riqueza/)), with deputy Kattya González (PEN) vigorously defending the proposal.
+- **2020 — "Tasa Covid" on large fortunes (Expediente S-209389 / 120551):** On 23 April 2020, during the COVID-19 emergency, the left-wing coalition Frente Guasu (senators Carlos Filizzola, Esperanza Martínez, Fernando Lugo, Hugo Richer, Jorge Querey, Miguel Fulgencio Rodríguez, and Sixto Pereira) presented a bill creating a temporary annual 1% to 2% levy on net fortunes exceeding 30,000 minimum wages (approx. USD 10 million, affecting roughly 90 economic groups or families) to fund emergency healthcare and social support without increasing public debt ([SILPy Expediente 120551](https://silpy.congreso.gov.py/expediente/120551), [Última Hora](https://www.ultimahora.com/frente-guasu-critica-que-haya-consenso-senado-no-tratar-nuevos-impuestos-n2881651)). On 5 May 2020, the Cámara de Senadores voted on the bill in a nominal roll call ([Votación 102482](https://silpy.congreso.gov.py/web/votacion/102482)), which was rejected and archived (16 votes in favour, 20 against, 3 abstentions, 6 absent).
+- **2021 — "Tasa extraordinaria a las grandes fortunas" (Emergencia Educativa, Expediente 123524):** In May 2021, teachers union OTEP-SN alongside senators Hugo Richer (FG), Pedro Santa Cruz (PDP), and Víctor Ríos (PLRA) presented a bill declaring an educational emergency for 3 years, funded by an extraordinary wealth tax of 1% to 5% on net assets exceeding 30,000 minimum wages (approx. USD 10 million) to raise USD 400 million for public schools ([ABC Color](https://www.abc.com.py/nacionales/2021/05/12/presentan-proyecto-de-ley-que-declara-emergencia-educativa-y-crea-tasa-extraordinaria-a-las-grandes-fortunas/), [Última Hora](https://www.ultimahora.com/presentan-ley-emergencia-educativa-n2940644)). On 30 June 2021, the Cámara de Diputados voted to reject and archive the initiative ([Última Hora](https://www.ultimahora.com/impuesto-las-grandes-fortunas-fue-rechazado-diputados-n2948629), [La Nación](https://www.lanacion.com.py/politica/2021/06/30/diputados-mandan-al-archivo-propuesta-de-crear-impuesto-a-la-riqueza/)), with deputy Kattya González (PEN) vigorously defending the proposal.
 - **2024–2025 — Regional and Mercosur debate:** Parlasur adopted Declaración 10/2025 supporting international tax cooperation towards a global minimum tax on large fortunes ([Parlasur](https://sapl.parlamentomercosur.org/media/sapl/public/normajuridica/2025/769/declaracion_102025.pdf)).
 
 ## 3. Legislatures and where their records are
 - **Congreso Nacional de Paraguay:** Bicameral legislature.
   - **Cámara de Senadores:** 45 senators elected in a single nationwide constituency. Records at [senado.gov.py](https://www.senado.gov.py).
   - **Cámara de Diputados:** 80 deputies elected by department. Records at [diputados.gov.py](https://www.diputados.gov.py).
-  - **Sistema de Información Legislativa (SILpy):** [silpy.congreso.gov.py](https://silpy.congreso.gov.py) / [ods.congreso.gov.py](https://ods.congreso.gov.py). Expediente 123524 tracks the 2021 educational emergency and wealth tax bill.
+  - **Sistema de Información Legislativa (SILpy):** [silpy.congreso.gov.py](https://silpy.congreso.gov.py) / [ods.congreso.gov.py](https://ods.congreso.gov.py). Both core wealth tax bills have complete technical files and vote registries:
+    - 2020 Tasa Covid: [Expediente 120551](https://silpy.congreso.gov.py/expediente/120551), [Votación 102482](https://silpy.congreso.gov.py/web/votacion/102482).
+    - 2021 Emergencia Educativa: [Expediente 123524](https://ods.congreso.gov.py/expedientes/123524).
   - Plenary minutes and debates are published in daily session records (*Diario de Sesiones*).
 
 ## 4. Parties
-- **Frente Guasu (FG):** Coalition of left-wing parties (Tekojoja, País Solidario, Convergencia Popular Socialista, Participación Ciudadana). Primary champion of wealth taxation in Paraguay since 2010.
-- **Partido Democrático Progresista (PDP):** Centre-left opposition party. Supported the 2021 wealth tax bill (Pedro Santa Cruz co-sponsored, Desirée Masi defended the wealth threshold).
+- **Frente Guasu (FG):** Coalition of left-wing parties (Tekojoja, País Solidario, Convergencia Popular Socialista, Participación Ciudadana). Primary champion of wealth taxation in Paraguay since 2010; all 7 senators co-sponsored the 2020 Tasa Covid bill.
+- **Partido Democrático Progresista (PDP):** Centre-left opposition party. Supported wealth taxation (Pedro Santa Cruz co-sponsored the 2021 bill; Desirée Masi advocated wealth taxes in Senate debate).
 - **Partido Encuentro Nacional (PEN):** Centre-left / social-democratic party. Represented by Kattya González who defended the wealth tax in the 2021 plenary debate.
 - **Partido Liberal Radical Auténtico (PLRA):** Main opposition party; factionally divided. Progressive wing (Víctor Ríos) co-sponsored the wealth tax; conservative llanista faction (Blas Llano, Hermelinda Alvarenga) opposed it.
-- **Asociación Nacional Republicana (ANR / Partido Colorado):** Ruling conservative party; officially and firmly opposes wealth taxation.
-- **Partido Patria Querida (PPQ):** Conservative/liberal party; opposes wealth taxation.
+- **Asociación Nacional Republicana (ANR / Partido Colorado):** Ruling conservative party; officially and firmly opposes wealth taxation (party leadership, President Mario Abdo, and key senators Silvio Ovelar, Enrique Bacchetta, and Juan Carlos Galaverna actively opposed).
+- **Partido Patria Querida (PPQ):** Conservative/liberal party; opposes wealth taxation (Stephan Rasmussen and Fidel Zavala voted against and spoke against in plenary).
 
 ## 5. Government below national level
 - **Structure:** 17 departamentos + 1 Distrito Capital (Asunción) at the regional level. Below departments: 263 distritos (municipios) governed by *intendencias* and *juntas municipales*.
 - **Taxation powers:** Subnational levels cannot introduce income or net wealth taxes. Municipalities levy local real estate property taxes (*impuesto inmobiliario*) and municipal fees. All calls for net wealth taxation are addressed to the national Congreso.
 - **Official geography sources:** DGEEC / Instituto Nacional de Estadística (INE) via OCHA HDX COD-AB Paraguay (CC BY-IGO). The register covers all 18 regions and 263 distritos.
-- **Local decision:** Seed pass sampled national actions; local units were not swept one by one as subnational councils lack tax competency and no local wealth tax motions have been identified to date.
+- **Local decision:** National actions sampled; local units were not swept one by one as subnational councils lack tax competency and no local wealth tax motions have been identified to date.
 
 ## 6. Search terms
 - Spanish: `"impuesto a la riqueza"`, `"impuesto a las grandes fortunas"`, `"impuesto al patrimonio"`, `"tasa extraordinaria a las grandes fortunas"`, `"tasa covid"`, `"aporte solidario"`, `"emergencia educativa"`, `"justicia fiscal"`
@@ -42,7 +44,7 @@
 ## 7. Media
 - National dailies with active editorial and opinion sections:
   - **Última Hora** ([ultimahora.com](https://www.ultimahora.com)): extensive objective reporting on wealth tax bills and full op-eds.
-  - **ABC Color** ([abc.com.py](https://www.abc.com.py)): leading national daily; detailed legislative coverage and business reaction.
+  - **ABC Color** ([abc.com.py](https://www.abc.com.py)): leading national daily; detailed legislative coverage, bill sponsorships, and business reaction.
   - **La Nación** ([lanacion.com.py](https://www.lanacion.com.py)): conservative daily, tracks congressional voting and business statements.
   - **Revista PLUS** ([revistaplus.com.py](https://www.revistaplus.com.py)): financial and economic news.
   - **LatFem** ([latfem.org](https://latfem.org)): published op-ed by Paraguayan economist Verónica Serafini on wealth tax and gender equity.
@@ -55,12 +57,9 @@
 - **OTEP-SN (Organización de Trabajadores de la Educación del Paraguay - Sindicato Nacional):** Core union proponent of the 2021 wealth tax bill.
 - **Decidamos (Campaña por la Expresión Ciudadana):** Prominent Paraguayan tax justice NGO, national affiliate of Latindadd.
 - **Latindadd (Red Latinoamericana por Justicia Económica y Social):** Regional network active in Paraguay.
-- **CADEP (Centro de Análisis y Difusión de la Economía Paraguaya):** Economic research center where several progressive tax economists publish.
+- **CADEP (Centro de Análisis y Difusión de la Economía Paraguaya):** Economic research center where progressive tax economists publish.
 
 ## 10. Plan for the next runs
-- **R002 (Unions and Civil Society):**
-  - Check statements and resolutions by other teachers' unions (UNE-SN, FEP) and union confederations (CUT, CNT, CCT) regarding education emergency funding and wealth tax.
-  - Check reports and seminar presentations by CADEP and BASE-IS on agrarian structure and progressive wealth/land taxation.
 - **R003 (Municipalities and Regions):**
   - Sample municipal records in Asunción and Central municipalities to check whether local councils passed supportive declarations during the 2020–2021 pandemic crisis.
 - **R004 (Seat Sweep & Refinement):**
