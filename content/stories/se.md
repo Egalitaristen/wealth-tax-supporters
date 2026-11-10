@@ -2,7 +2,6 @@
 title: Sweden scrapped its wealth tax in 2007 instead of closing its loopholes
 standfirst: Sweden taxed wealth from 1911 until a new government scrapped the tax in 2007, giving up SEK 6.9 billion in one year. The exemptions and soft valuations did the damage, and they could have been closed. The Left Party and the Greens now propose a tax without them.
 updated: 2026-11-08
-author: Egalitaristen
 layout: article
 status: draft
 facts:

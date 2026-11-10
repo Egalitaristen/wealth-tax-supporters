@@ -5,7 +5,6 @@ objection: "Europe tried a wealth tax and gave up on it."
 answer: Governments found loopholes in their wealth taxes and scrapped the taxes instead of closing the loopholes. The repeals cost billions and left the loopholes in place.
 standfirst: Twelve rich countries had a wealth tax in 1990 and four did in 2017. In Sweden, Denmark, Germany and France the faults governments blamed were rules they could have changed: exemptions, bad valuation, an income cap. Sweden's repeal cost SEK 6.89 billion a year. France's swap for a real estate tax cost over €4 billion a year, and the share of payers who left stayed at 0.2%.
 updated: 2026-11-09
-author: Egalitaristen
 layout: article
 status: draft
 facts:

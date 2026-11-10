@@ -2,7 +2,6 @@
 title: Denmark traded its wealth tax away for budget votes, and three parties now want it back
 standfirst: Denmark taxed wealth for 94 years and dropped the tax in 1995 as the price of Conservative votes on the budget, after loopholes had already hollowed it out. In 2026 the Social Democrats, SF and Enhedslisten proposed a new one, and on 8 November 2026 no bill or motion for it sits in the Folketing.
 updated: 2026-11-08
-author: Egalitaristen
 layout: article
 status: draft
 facts:

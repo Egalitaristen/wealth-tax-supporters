@@ -5,7 +5,6 @@ objection: "A wealth tax will kill family firms and farms."
 answer: The threshold decides who pays, and a firm that owes 1% of its value a year is paying a fifth of a normal return. Firms in Norway didn't go bust more often. What threatens a tax's base is exemptions, so don't write them in.
 standfirst: Under Warren's design in the US less than 0.1% of families would pay. Colombia had 34,229 filers in 2025 and Bolivia 263 registered payers. In Norway an economist who studied the 2021 to 2024 increases finds no sign that firms owned by wealth tax payers paid out more, invested less or went bankrupt more often.
 updated: 2026-11-09
-author: Egalitaristen
 layout: article
 status: draft
 facts:

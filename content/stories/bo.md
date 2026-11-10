@@ -2,7 +2,6 @@
 title: Bolivia taxed its biggest fortunes in 2020, raised twice what it hoped, and the repeal has stalled
 standfirst: Since December 2020 Bolivia charges 1.4% to 2.4% a year on fortunes above about US$4.3 million. The first year brought in 2.3 times the forecast. A new president promised to scrap it in November 2025, and it is still the law.
 updated: 2026-11-08
-author: Egalitaristen
 layout: article
 status: draft
 facts:

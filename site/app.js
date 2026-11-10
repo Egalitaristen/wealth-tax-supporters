@@ -882,7 +882,7 @@ const storyTimeline = S => S.timeline.length ? `<section class="story-sec" id="t
   <ol class="timeline">${S.timeline.map(t => `<li><b>${esc(t.year)}</b><span>${esc(t.text)}${storyRef(t.source)}</span></li>`).join('')}</ol></section>` : '';
 const storySources = S => `<section class="story-sec" id="sources"><h2><a class="anchor" href="#sources" aria-label="Link to this section">#</a>Sources</h2>
   <ol class="sources">${S.sources.map(r => `<li id="src-${esc(r.id)}"><span class="sn">[${esc(r.id)}]</span> ${ext(r.url, esc(r.title) + ' ↗')}</li>`).join('')}</ol></section>`;
-const storyByline = S => `<p class="byline">By <b>${esc(S.author)}</b> · Updated ${esc(storyDate(S.updated))} · ${Math.max(1, Math.round(S.words / 220))} min read</p>`;
+const storyByline = S => `<p class="byline">${S.author ? `By <b>${esc(S.author)}</b> · ` : ''}Updated ${esc(storyDate(S.updated))} · ${Math.max(1, Math.round(S.words / 220))} min read</p>`;
 
 // Layout A, "article": the story template. Three columns on a wide screen (sections on the left, the text, Key facts on the right); on a phone,
 // a "Jump to" control comes first, then Key facts under the standfirst, then the text.

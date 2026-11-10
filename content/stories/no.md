@@ -2,7 +2,6 @@
 title: Norway publishes everyone's tax bill, and the country is deciding whether to keep the tax
 standfirst: Norway has had a direct state tax on wealth since 1892. In 2024 it raised kr 32 billion from about 720,000 people, and in February 2026 Høyre voted to abolish it.
 updated: 2026-11-05
-author: Egalitaristen
 layout: article
 status: draft
 facts:

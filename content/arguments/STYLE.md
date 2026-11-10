@@ -1,6 +1,6 @@
 # Style for arguments
 
-Arguments follow `content/stories/STYLE.md` without change: the Humanizer skill pass, the Egalitaristen voice, no hedging, a `[n]` source
+Arguments follow `content/stories/STYLE.md` without change: the Humanizer skill pass, the site's own voice, no hedging, a `[n]` source
 on every number, losses reported plainly, stable `{#anchors}`. Two things differ:
 
 - Length. An argument is one objection, answered in about 700 to 1,200 words of body, not 1,500.

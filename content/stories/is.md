@@ -2,7 +2,6 @@
 title: Iceland scrapped its wealth tax, revived it after the crash, and let it lapse again
 standfirst: Iceland repealed its wealth tax, revived it after the 2008 crash and let it expire, all within ten years. The revived tax raised ISK 10.3 billion in its last year from a few thousand households, and then an end date written into the law finished it. A temporary wealth tax is the weakest design.
 updated: 2026-11-09
-author: Egalitaristen
 layout: article
 status: draft
 facts:

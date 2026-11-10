@@ -2,7 +2,6 @@
 title: India scrapped a wealth tax that skipped shares and bank deposits, instead of fixing it
 standfirst: India's Wealth-tax Act of 1957 ended with the 2015 Budget. By then it taxed only houses, cars, gold and a few other things, and raised ₹1,008 crore a year. Since then the top 1% has reached 40% of the nation's wealth. India now has the data systems to tax it properly.
 updated: 2026-11-09
-author: Egalitaristen
 layout: article
 status: draft
 facts:

@@ -5,7 +5,6 @@ objection: "They are asset-rich and cash-poor. A wealth tax would force them to 
 answer: Every other tax gets paid by people whose wealth isn't in cash. A pensioner borrows, sells or defers. The largest fortunes can do the same, and Norway already lets owners spread the bill over years.
 standfirst: Norway lets owners defer wealth tax on business wealth for up to three years from income year 2026, and its exit tax can be paid over 12 years. A 1% annual tax on a fortune equals a 20% tax on a 5% return. Where cash really matters, in dividends, the best Norwegian evidence finds firms whose owners pay the tax paid out no more, invested no less and went bust no more often.
 updated: 2026-11-09
-author: Egalitaristen
 layout: article
 status: draft
 facts:

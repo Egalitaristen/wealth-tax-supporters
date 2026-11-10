@@ -5,7 +5,6 @@ objection: "A wealth tax hurts growth and investment."
 answer: In the studies, a one point higher top rate cuts investment by 0.07% and output by 0.10%. The tax slows how fast the largest fortunes pile up, which is its point, and what the money buys returns more than it costs. Growth of what, and for whom, is the real question.
 standfirst: A study of Swedish and Danish data finds a one point higher top wealth tax rate lowers investment by 0.07% and output by 0.10%. In Norway households save more under wealth taxation, and firms pay out no more and invest no less. The IMF finds public investment of 1% of GDP lifts output 1.5% after four years, and that redistribution is generally benign for growth.
 updated: 2026-11-09
-author: Egalitaristen
 layout: article
 status: draft
 facts:

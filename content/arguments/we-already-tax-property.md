@@ -5,7 +5,6 @@ objection: "We already tax property, capital gains and inheritance. We don't nee
 answer: Each of those taxes has a different base and timing. A property tax reaches homes, a gains tax reaches sales, an inheritance tax reaches death. None reaches the private company shares where the largest fortunes sit.
 standfirst: When France replaced its wealth tax with a tax on real estate alone, the state's own evaluators put the loss at €3.1 billion in 2018, and two thirds of former payers owed nothing. In Norway and Germany the top of the wealth distribution holds private business shares, not homes, and Sweden's tax fell on bank accounts, funds and houses while the biggest company owners sat outside it.
 updated: 2026-11-09
-author: Egalitaristen
 layout: article
 status: draft
 facts:

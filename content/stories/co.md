@@ -2,7 +2,6 @@
 title: Colombia made its wealth tax permanent in 2022 and its new president wants it gone
 standfirst: Colombia has taxed net wealth in one form or another since 2006. Ley 2277 of 2022 made the tax permanent above 72,000 UVT, about US$1.0 million, and it raised about COP 1.2 trillion in 2025. A bill filed on 29 October 2026 would limit it to 2027 to 2030 and lift the threshold to 95,500 UVT.
 updated: 2026-11-07
-author: Egalitaristen
 layout: article
 status: draft
 facts:

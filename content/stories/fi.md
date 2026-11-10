@@ -2,7 +2,6 @@
 title: Finland dropped its wealth tax in 2005 because the rich had found the holes
 standfirst: Finland taxed net wealth for decades and collected it for the last time for 2005. The reason given was a base full of holes, and the answer was to delete the tax. The Left Alliance, the Greens and the big unions now want it back, built without the holes.
 updated: 2026-11-09
-author: Egalitaristen
 layout: article
 status: draft
 facts:

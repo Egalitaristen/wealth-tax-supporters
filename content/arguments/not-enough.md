@@ -5,7 +5,6 @@ objection: "A wealth tax doesn't raise enough to matter."
 answer: Enough for what? Projected yields run from 0.4% to about 1% of GDP, and the taxes in force raise 0.2% to 1.0%. The other job is to slow the compounding of the largest fortunes, and that takes a rate near the gap between how fast they grow and how fast the economy does.
 standfirst: Net wealth taxes raised between 0.2% of GDP in Spain and 1.0% in Switzerland in 2016, and Norway's raised 0.59% in 2024. Uruguay's economists put a 1% tax on the top 1% at 0.75% to 1% of GDP, and a French bill put its minimum tax on fortunes above €100 million at €15 to 25 billion a year. The top 1% share of wealth rose between 1990 and 2024 in five of the six countries with a continuous record.
 updated: 2026-11-09
-author: Egalitaristen
 layout: article
 status: draft
 facts:

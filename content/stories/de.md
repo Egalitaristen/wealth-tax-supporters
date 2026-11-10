@@ -2,7 +2,6 @@
 title: Germany's wealth tax is still on the books, and the Constitutional Court never struck it down
 standfirst: In 1995 the Federal Constitutional Court told parliament to value land and other assets on the same footing. Parliament never did, and the Vermögensteuer has not been collected since 1997. On 8 November 2026 the Left and the Greens each have a proposal before the Bundestag, and the Finance Committee has recommended rejecting the Left's.
 updated: 2026-11-08
-author: Egalitaristen
 layout: article
 status: draft
 facts:

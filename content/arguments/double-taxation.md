@@ -5,7 +5,6 @@ objection: "A wealth tax is double taxation: the money was already taxed when it
 answer: A wage is taxed when it's earned, again when it's spent, and the home it buys is taxed every year. The largest fortunes grow as company profit that is kept and gains that aren't sold, so much of it has never been taxed once.
 standfirst: Wages carry income tax, social contributions and VAT, and the flat bought with what's left carries property tax every year. A fortune held in companies grows as retained profit and unrealised gain. In Norway and Sweden holding companies shield about half of dividends from personal income tax, and gains are normally taxed only when an asset is sold.
 updated: 2026-11-09
-author: Egalitaristen
 layout: article
 status: draft
 facts:

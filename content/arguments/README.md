@@ -16,7 +16,6 @@ objection: "The rich will just leave."   # the objection as people say it, shown
 answer: One or two sentences. Shown under the objection on the hub and on the share card.
 standfirst: One or two sentences under the headline.
 updated: 2026-11-08
-author: Egalitaristen
 layout: article                     # the only template
 status: draft                       # draft (default) shows a Draft badge; final removes it
 facts:
@@ -31,7 +30,7 @@ sources:
 ```
 
 Required: `title`, `kind`, `objection`, `answer`, `standfirst`, `updated`, at least one source with an `https` url. Optional: `author`
-(default Egalitaristen), `layout`, `facts`.
+(left out: pages carry no byline), `layout`, `facts`.
 
 ## Body
 
