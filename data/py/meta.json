@@ -1,0 +1,9 @@
+{
+  "name": "Paraguay",
+  "iso2": "PY",
+  "lead": "",
+  "status": "in progress",
+  "boundaries": "boundaries.json",
+  "national_seat_roles": "^Senador",
+  "notes": "Seed pass (national level, no regional or local sweep). Register: 18 departamentos (including Capital District Asunción) and 263 distritos (municipios) from OCHA / HDX COD-AB Paraguay (DGEEC / INE, CC BY-IGO, P-codes PY00..PY17 and PY0000..PY1704); map from the same shapes. No seats adapter: positions are recorded but not checked against an official machine-readable member list API."
+}

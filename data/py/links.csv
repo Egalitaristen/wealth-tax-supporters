@@ -1,0 +1,9 @@
+link_id,from_actor_id,to_actor_id,link_type,evidence_id,source_url,note
+L0001,A0010,A0014,leads,E00010,https://www.ultimahora.com/presentan-ley-emergencia-educativa-n2940644,Leader of OTEP-SN
+L0003,A0001,A0013,member_of,E00001,https://www.ultimahora.com/presentan-ley-emergencia-educativa-n2940644,Senator for Frente Guasu
+L0004,A0004,A0013,leads,E00004,https://www.ultimahora.com/el-fg-plantea-debate-profundidad-del-paquete-tributario-n2883568,Senate bloc leader of Frente Guasu
+L0005,A0005,A0013,member_of,E00005,https://www.ultimahora.com/tasa-covid-sera-analizada-proxima-sesion-del-senado-pedido-del-fg-n2883115,Senator for Frente Guasu
+L0006,A0006,A0013,member_of,E00006,https://www.ultimahora.com/niegan-que-la-tasa-covid-apunte-al-sector-mas-golpeado-n2883378,Senator for Frente Guasu
+L0007,A0007,A0013,member_of,E00007,https://www.abc.com.py/edicion-impresa/politica/2020/04/24/intenso-debate-sobre-la-suba-de-los-impuestos/,Senator for Frente Guasu
+L0008,A0012,A0015,works_for,E00015,https://decidamos.org.py/2020/noticia/latindadd-reclama-un-impuesto-permanente-a-las-grandes-fortunas-de-america-latina/,Economist and researcher with Decidamos and Latindadd
+L0009,A0014,A0013,coalition_partner,E00001,https://www.ultimahora.com/presentan-ley-emergencia-educativa-n2940644,Union partnered with Frente Guasu to sponsor emergency education wealth tax bill

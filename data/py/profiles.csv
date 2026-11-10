@@ -1,0 +1,10 @@
+profile_id,actor_id,platform,url,source,checked
+P00001,A0015,website,https://decidamos.org.py,actors.csv website column,2026-11-10
+P00002,A0004,x,https://x.com/esperanza_py,Wikidata Q5398905,2026-11-10
+P00003,A0004,wikipedia,https://en.wikipedia.org/wiki/Esperanza_Mart%C3%ADnez_%28politician%29,Wikidata Q5398905,2026-11-10
+P00004,A0005,wikipedia,https://en.wikipedia.org/wiki/Carlos_Filizzola,Wikidata Q5042080,2026-11-10
+P00005,A0008,x,https://x.com/KattyaGonzalez9,Wikidata Q111352748,2026-11-10
+P00006,A0008,facebook,https://www.facebook.com/KattyaGonzalezOficial,Wikidata Q111352748,2026-11-10
+P00007,A0008,wikipedia,https://en.wikipedia.org/wiki/Kattya_Gonz%C3%A1lez,Wikidata Q111352748,2026-11-10
+P00008,A0009,facebook,https://www.facebook.com/desiree.masi,Wikidata Q51885475,2026-11-10
+P00009,A0013,wikipedia,https://en.wikipedia.org/wiki/Struggle_Front_for_the_National_Independence_of_Guinea,Wikidata Q1455523,2026-11-10
