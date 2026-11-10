@@ -1845,11 +1845,10 @@ function calcPage(params) {
   let mode = params.get('m') === 'w' ? 'w' : 'm';
   let cur = (params.get('c') || 'EUR').replace(/[^\p{L}\p{N}$€£¥]/gu, '').slice(0, 5) || 'EUR';
   main.innerHTML = `
-  <div class="wrap page-head fade"><div class="kicker">Arguments · Calculator</div><h1>A high threshold means <em>nobody near it pays much.</em></h1>
-    <p class="lede" style="margin-top:18px">A wealth tax with a high threshold works like income-tax brackets: only the part of a fortune above the line is taxed. A fortune just over it pays almost nothing, and one just under it pays nothing at all. Set the brackets and see.</p></div>
-  <div class="wrap two" style="margin-top:36px">
+  <div class="wrap page-head calc-ph fade"><div class="kicker">Arguments · Calculator</div><h1>A high threshold means <em>nobody near it pays much.</em></h1></div>
+  <div class="wrap calc-wrap">
     <div class="calc">
-      <div class="calc-box">
+      <div class="calc-box calc-in">
         <div class="calc-top">
           <label class="calc-w"><span>Net wealth</span><input class="field num" id="cw" inputmode="decimal" autocomplete="off" aria-describedby="cw-help"></label>
           <label class="calc-c"><span>Currency</span><select class="field" id="cc" aria-describedby="cc-help">
@@ -1858,7 +1857,7 @@ function calcPage(params) {
         </div>
         <label class="calc-s"><span class="sr">Net wealth slider, from 1 million to 100 billion, on a log scale</span>
           <input type="range" id="cs" min="0" max="1000" step="1"><span class="calc-sl"><span>1M</span><span>10M</span><span>100M</span><span>1bn</span><span>10bn</span><span>100bn</span></span></label>
-        <p class="fine" id="cw-help">Type a number, or something like 15m or 2bn. The currency symbol is only for display; nothing is converted. <span id="cc-help"></span></p>
+        <span class="sr" id="cw-help">Type a number, or something like 15m or 2bn. The currency symbol is only for display; nothing is converted.</span><span class="sr" id="cc-help"></span>
 
         <h2 class="calc-h">Brackets</h2>
         <div class="calc-modes kinds" role="radiogroup" aria-label="How the rate applies">
@@ -1873,30 +1872,15 @@ function calcPage(params) {
         <div class="calc-presets" id="cp">${CALC_PRESETS.map(p => `<button type="button" class="btn sm ghost" data-p="${p.id}" aria-pressed="false">${esc(p.label)}</button>`).join('')}</div>
         <p class="fine" id="cp-note" aria-live="polite"></p>
       </div>
-
-      <div class="calc-box" id="c-res" aria-live="polite"></div>
-      <div class="calc-box"><h2 class="calc-h" style="margin-top:0">Share of total wealth paid, by size of fortune</h2>
-        <div id="c-chart"></div>
-        <p class="fine">Both axes are as you set them: wealth on a log scale from 1 million to 100 billion, tax as a share of everything owned.</p></div>
-      <div class="calc-box"><h2 class="calc-h" style="margin-top:0">Worked examples</h2><div class="calc-tw" id="c-ex"></div></div>
-      <p class="fine" style="margin-top:14px"><a id="c-share" href="/calculator">Link to this result</a> · the link holds your wealth, brackets and currency.</p>
+      <div class="calc-out">
+        <div class="calc-box" id="c-res" aria-live="polite"></div>
+        <div class="calc-box"><h2 class="calc-h" style="margin-top:0">Share of total wealth paid, by size of fortune</h2>
+          <div id="c-chart"></div></div>
+        <div class="calc-box"><div class="calc-tw" id="c-ex"></div>
+          <p class="fine" style="margin-top:10px"><a id="c-share" href="/calculator">Link to this result</a> · the link holds your wealth, brackets and currency.</p></div>
+      </div>
     </div>
-    <aside class="aside-card"><h3>The arithmetic</h3>
-      <p>A 2% bracket starting at 10 million taxes a 15 million fortune on the 5 million above the line: <b>100,000 a year</b>, or 0.67% of everything it owns. A 9 million fortune pays <b>nothing</b>.</p>
-      <p><button type="button" class="btn sm" id="c-demo">Show this example</button></p>
-      <p class="fine" style="margin-top:18px">Illustration of the arithmetic, not tax advice. Real schemes also differ in what counts as taxable net wealth: debts deducted, exemptions, how assets are valued.</p>
-      <div class="kicker" style="margin-top:22px">More</div>
-      <ul class="alinks"><li><a href="/method">How the register is built</a></li><li><a href="/resources?kind=bill">Bills and laws in the register</a></li></ul></aside>
-  </div>
-  <div class="wrap"><div class="prose" style="padding-bottom:90px">
-    <h2>It works like income tax</h2>
-    <p>Nobody pays their top income-tax rate on every euro they earn. The first slice is taxed lightly or not at all, and each higher rate bites only on the slice above its line. A wealth tax with brackets is built the same way. With 2% above 10 million, the first 10 million of any fortune is never touched. Only what lies above is taxed.</p>
-    <p>That is why the share of total wealth starts at zero and climbs slowly. A fortune of 10.1 million pays 2,000 a year, about 0.02% of what it owns. At 15 million the share is 0.67%, at 50 million it is 1.60%, and at a billion it is 1.98%. It approaches the headline rate and never reaches it. Nobody is ruined by crossing the line, because the line is not a cliff.</p>
-    <h2>Why the design matters</h2>
-    <p>The alternative is a rate on the whole fortune once it passes a line. Two of the presets work that way, and the chart shows the cost: a jump at the threshold, where a little more wealth means a lot more tax. A bracket scale removes the jump, and with it most of the reason to hide a few million to stay under the line.</p>
-    <h2>What this does not show</h2>
-    <p>This is an illustration of the arithmetic, not tax advice. Real schemes also differ in what counts as taxable net wealth: debts are deducted, homes and pensions are often exempt, assets are valued by different rules. The presets give the headline scale only, each read from the law, bill or proposal linked under it. Where the register has no source for a scale, there is no preset.</p>
-  </div></div>`;
+  </div>`;
 
   const cw = $('#cw'), cs = $('#cs'), cc = $('#cc'), co = $('#co'), cb = $('#cb'), err = $('#c-err');
   const money = n => {
@@ -2023,7 +2007,6 @@ function calcPage(params) {
     setCur(p.cur); load(p.rows, p.mode);
     $('#cp-note').innerHTML = `${esc(p.note)} Source: ${ext(p.src[0], esc(p.src[1]) + ' ↗')}`;
   });
-  $('#c-demo').addEventListener('click', () => { setCur('EUR'); cw.value = '15,000,000'; load([[1e7, 2]], 'm'); $('#cp-note').textContent = ''; });
 }
 
 // ---------- feedback and bug reports ----------
