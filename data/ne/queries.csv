@@ -1,0 +1,16 @@
+query_id,run_id,date,language,query,channel,results_opened,leads_added,note
+Q0001,R001,2026-11-10,fr,"""impôt sur la fortune"" OR ""taxe sur la fortune"" Niger",web,6,0,No statutory net wealth tax exists in Niger
+Q0002,R001,2026-11-10,fr,"site:lesahel.org ""impôt sur la fortune"" OR ""ISF"" OR ""taxe sur la fortune""",web,4,0,ISF refers to Internationale Socialiste des Femmes or synthetic fertility index
+Q0003,R001,2026-11-10,fr,"site:anp.ne ""impôt sur la fortune"" OR ""taxe sur la fortune""",web,2,0,No hits on national press agency
+Q0004,R001,2026-11-10,fr,"""Fonds de Solidarité pour la Sauvegarde de la Patrie"" FSSP Niger ""impôt""",web,9,0,FSSP funded by 1% salary deduction and turnover levies
+Q0005,R001,2026-11-10,fr,"Niger France ""convention fiscale"" 1972 dénonciation",web,5,0,December 2023 denunciation of bilateral tax treaty with France
+Q0006,R001,2026-11-10,fr,"""Ali Idrissa"" (""impôt"" OR ""fiscalité"" OR ""fortune"" OR ""patrimoine"") Niger",web,14,0,2018 protests against regressive taxes; uranium royalties
+Q0007,R001,2026-11-10,fr,"""Moussa Tchangari"" (""impôt"" OR ""fiscalité"" OR ""fortune"" OR ""patrimoine"")",web,5,0,AEC critiques of 2018 finance law and austerity
+Q0008,R001,2026-11-10,fr,"(""USTN"" OR ""CDTN"") (""impôt"" OR ""taxe"" OR ""fortune"" OR ""fiscalité"")",web,4,0,CDTN advocacy on ITS salary tax and mobile money fees
+Q0009,R001,2026-11-10,fr,"""Code Général des Impôts"" Niger ""fortune"" OR ""patrimoine net""",web,5,0,Tax code covers business net assets and property tax (TFU)
+Q0010,R001,2026-11-10,ha,"""Niger"" ""harajin dukiya"" OR ""haraji a kan masu kudi"" OR ""haraji kan masu arziki""",web,6,0,Hausa language search; contrasts Niger French model with Nigeria debate
+Q0011,R001,2026-11-10,en,"""Proud to pay more"" ""Niger"" OR ""Millionaires for Humanity"" ""Niger""",web,7,0,No Nigerien signatories found
+Q0012,R001,2026-11-10,en,"site:taxextremewealth.com ""Niger"" OR ""NE""",web,1,0,Raw signature list check: no Nigerien signatories
+Q0013,R001,2026-11-10,en,"""Tax Justice Network Africa"" OR ""TJNA"" Niger (""wealth tax"" OR ""impôt sur la fortune"")",web,5,0,TJNA / ROTAB partnership; no domestic wealth tax campaign
+Q0014,R001,2026-11-10,en,"Afrobarometer Niger ""taxes"" OR ""taxation"" OR ""impôt""",web,7,0,Afrobarometer survey data on tax compliance and state legitimacy
+Q0015,R001,2026-11-10,en,"""A/RES/78/230"" ""Niger"" vote OR voting",web,4,0,Voted Yes on UN General Assembly resolution 78/230
