@@ -1,0 +1,6 @@
+query_id,run_id,date,language,query,channel,results_opened,leads_added,note
+Q0001,R001,2026-11-10,en,"wealth tax Guyana OR ""Property Tax Act"" net worth",web,10,1,Found that Guyana Property Tax Act (Cap. 81:21) historically taxed net property (wealth) of individuals and companies.
+Q0002,R001,2026-11-10,en,Nicholas Kaldor British Guiana property tax 1962,web,6,0,"Historical origin: Kaldor proposed annual net wealth tax for British Guiana in 1962, enacted as Property Tax Act 1962."
+Q0003,R001,2026-11-10,en,Fiscal Enactments (Amendment) Act 2024 Section 6(y) property tax Guyana,web,8,1,Act No. 2 of 2024 added Section 6(y) exempting individuals from Property Tax starting from income year 2025.
+Q0004,R001,2026-11-10,en,"site:chrisram.net ""property tax"" OR ""wealth tax""",web,5,1,Found Christopher Ram op-ed of 2025-12-31 defending the net wealth tax against abolition and calling for reform.
+Q0005,R001,2026-11-10,en,"FITUG GAWU ""property tax"" OR ""wealth tax"" Guyana",web,7,0,Unions focused on income tax threshold increases and VAT relief; no specific net wealth tax campaign.

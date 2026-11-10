@@ -1,0 +1,8 @@
+{
+  "name": "Guyana",
+  "iso2": "GY",
+  "lead": "Seed pass",
+  "status": "in progress",
+  "boundaries": "boundaries.json",
+  "notes": "Seed pass (national level, no regional or local sweep). Register: 10 administrative regions and 27 sub-districts from OCHA / HDX COD-AB Guyana (valid 2021-12-16, CC BY-IGO, P-codes GY01 to GY10 and GY0101 to GY1002). Map from the same shapes."
+}
