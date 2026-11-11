@@ -1,6 +1,6 @@
 ---
-title: Tunisia began taxing wealth in 2026, after parliament voted the idea down once
-standfirst: The 2026 finance law created an annual tax on net wealth, 0.5% from 3 million dinars and 1% above 5 million. Parliament rejected it in committee and in a first plenary vote, then passed it on 4 December 2025 when the Finance Minister brought it back.
+title: Tunisia began taxing wealth in 2026, after parliament first rejected the idea
+standfirst: The 2026 finance law created an annual tax on net wealth, 0.5% from 3 million dinars and 1% above 5 million. Parliament rejected it first in committee and then in a plenary vote, and passed it on 4 December 2025 when the Finance Minister brought it back.
 updated: 2026-11-11
 layout: article
 status: draft
