@@ -1,10 +1,32 @@
 {
+  "2026-11-11": {
+    "summary": "The calculator joined the main navigation.",
+    "items": [
+      {"kind": "added", "text": "Calculator: a link in the top bar, next to Resources."}
+    ]
+  },
+  "2026-11-10": {
+    "summary": "Six countries joined, the calculator became a one-screen tool with real schemes to start from, and papers and reports got their own pages.",
+    "items": [
+      {"kind": "added", "text": "New countries: Guyana, Suriname, Paraguay, Pakistan, Niger and Vietnam."},
+      {"kind": "added", "text": "Calculator: inputs on the left and results on the right on one screen, with seventeen real schemes to start from, in force, repealed and proposed, from Spain and Norway to the UK, Germany and the United States. Each scheme links to its own source page."},
+      {"kind": "added", "text": "Resources: every paper and report now has its own page, as bills already did."},
+      {"kind": "added", "text": "More supporters from legislative records in Norway, Paraguay, Uruguay, Finland and Austria, and new guides to the official records of Denmark, Finland, Austria, Uruguay, Norway, Sweden and the United Kingdom."},
+      {"kind": "added", "text": "Poland: Adrian Zandberg, co-chair of Razem, joins the register. In Vietnam, The PRAKARSA and ActionAid Việt Nam do too."},
+      {"kind": "added", "text": "Front page: a broader opening line, more varied search suggestions, random polls and a fuller How it works. Pressing Enter in search opens the directory."},
+      {"kind": "improved", "text": "The calculator's share card now draws real schemes on one chart."},
+      {"kind": "improved", "text": "Author bylines are gone from the stories and arguments."},
+      {"kind": "corrected", "text": "The Resources page no longer lists opposition: seven reports and bills arguing against a wealth tax were removed."},
+      {"kind": "corrected", "text": "Exit taxes are no longer counted as a kind of wealth tax. Two entries that were not support for a wealth tax were removed."}
+    ]
+  },
   "2026-11-09": {
     "summary": "The Arguments section opened with twelve pages, six more country stories arrived, and the world map now shows which countries tax wealth.",
     "items": [
       {"kind": "added", "text": "Arguments: twelve pages that answer the common objections to a wealth tax, drawing on every country in the register, not on one."},
       {"kind": "added", "text": "Stories for Finland, the Netherlands, India, Luxembourg, Austria and Iceland: what each country taxed, why it stopped, and what a new tax would have to do differently."},
       {"kind": "added", "text": "World map: a gold border for countries that have a wealth tax and a silver one for countries that used to."},
+      {"kind": "added", "text": "Changelog: a page with a daily summary of what was added, and the supporters and statements gained in each country."},
       {"kind": "added", "text": "A \"Draft\" badge on every country story and argument page, so readers know these pages will change."},
       {"kind": "improved", "text": "All stories and arguments rewritten to argue for the tax in plain language, without hedging, vote tallies or bill numbers."},
       {"kind": "corrected", "text": "Argument pages no longer lean on United States numbers, and claims about how simple tax returns are in Switzerland and Norway now rest on named sources or were removed."}
