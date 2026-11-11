@@ -1,0 +1,298 @@
+geo_unit_id,name,level,unit_type,parent_id,website,sweep_status,swept_run,swept_date,queries_run,hits,notes,code
+G0001,Tunisia,national,country,,,in_progress,R001,2026-11-11,,,"Seed pass R001: national legislature, government, civil society.",TN
+G0002,Assemblée des représentants du peuple,national,legislature,G0001,,in_progress,R001,2026-11-11,,,"Lower house (member list on arp.tn).",
+G0003,Conseil national des régions et des districts,national,legislature,G0001,,in_progress,R001,2026-11-11,,,Second chamber (consultative opinion on finance bills).,
+G0004,North East,region,region,G0001,,pending,,,,,Economic development region (OCHA COD-AB admin level 1).,TN1
+G0005,North West,region,region,G0001,,pending,,,,,Economic development region (OCHA COD-AB admin level 1).,TN2
+G0006,Centre East,region,region,G0001,,pending,,,,,Economic development region (OCHA COD-AB admin level 1).,TN3
+G0007,Centre West,region,region,G0001,,pending,,,,,Economic development region (OCHA COD-AB admin level 1).,TN4
+G0008,South East,region,region,G0001,,pending,,,,,Economic development region (OCHA COD-AB admin level 1).,TN5
+G0009,South West,region,region,G0001,,pending,,,,,Economic development region (OCHA COD-AB admin level 1).,TN6
+G0010,Tunis,county,governorate,G0004,,pending,,,,,Governorate (wilaya).,TN11
+G0011,Ariana,county,governorate,G0004,,pending,,,,,Governorate (wilaya).,TN12
+G0012,Ben Arous,county,governorate,G0004,,pending,,,,,Governorate (wilaya).,TN13
+G0013,Manubah,county,governorate,G0004,,pending,,,,,Governorate (wilaya).,TN14
+G0014,Nabeul,county,governorate,G0004,,pending,,,,,Governorate (wilaya).,TN15
+G0015,Zaghouan,county,governorate,G0004,,pending,,,,,Governorate (wilaya).,TN16
+G0016,Bizerte,county,governorate,G0004,,pending,,,,,Governorate (wilaya).,TN17
+G0017,Béja,county,governorate,G0005,,pending,,,,,Governorate (wilaya).,TN21
+G0018,Jendouba,county,governorate,G0005,,pending,,,,,Governorate (wilaya).,TN22
+G0019,Le Kef,county,governorate,G0005,,pending,,,,,Governorate (wilaya).,TN23
+G0020,Siliana,county,governorate,G0005,,pending,,,,,Governorate (wilaya).,TN24
+G0021,Sousse,county,governorate,G0006,,pending,,,,,Governorate (wilaya).,TN31
+G0022,Monastir,county,governorate,G0006,,pending,,,,,Governorate (wilaya).,TN32
+G0023,Mahdia,county,governorate,G0006,,pending,,,,,Governorate (wilaya).,TN33
+G0024,Sfax,county,governorate,G0006,,pending,,,,,Governorate (wilaya).,TN34
+G0025,Kairouan,county,governorate,G0007,,pending,,,,,Governorate (wilaya).,TN41
+G0026,Kassérine,county,governorate,G0007,,pending,,,,,Governorate (wilaya).,TN42
+G0027,Sidi Bou Zid,county,governorate,G0007,,pending,,,,,Governorate (wilaya).,TN43
+G0028,Gabès,county,governorate,G0008,,pending,,,,,Governorate (wilaya).,TN51
+G0029,Médenine,county,governorate,G0008,,pending,,,,,Governorate (wilaya).,TN52
+G0030,Tataouine,county,governorate,G0008,,pending,,,,,Governorate (wilaya).,TN53
+G0031,Gafsa,county,governorate,G0009,,pending,,,,,Governorate (wilaya).,TN61
+G0032,Tozeur,county,governorate,G0009,,pending,,,,,Governorate (wilaya).,TN62
+G0033,Kebili,county,governorate,G0009,,pending,,,,,Governorate (wilaya).,TN63
+G0034,Carthage,council,delegation,G0010,,pending,,,,,,TN1151
+G0035,Médina,council,delegation,G0010,,pending,,,,,,TN1152
+G0036,Bab Bhar,council,delegation,G0010,,pending,,,,,,TN1153
+G0037,Bab Souika,council,delegation,G0010,,pending,,,,,,TN1154
+G0038,Omrane,council,delegation,G0010,,pending,,,,,,TN1155
+G0039,Omrane Supérieur,council,delegation,G0010,,pending,,,,,,TN1156
+G0040,El Tahrir,council,delegation,G0010,,pending,,,,,,TN1157
+G0041,El Menzah,council,delegation,G0010,,pending,,,,,,TN1158
+G0042,Cité El Khadra,council,delegation,G0010,,pending,,,,,,TN1159
+G0043,Bardo,council,delegation,G0010,,pending,,,,,,TN1160
+G0044,Sijoumi,council,delegation,G0010,,pending,,,,,,TN1161
+G0045,Ezzouhour,council,delegation,G0010,,pending,,,,,,TN1162
+G0046,Hrairia,council,delegation,G0010,,pending,,,,,,TN1163
+G0047,Sidi Hassine,council,delegation,G0010,,pending,,,,,,TN1164
+G0048,El Ouardia,council,delegation,G0010,,pending,,,,,,TN1165
+G0049,Kabaria,council,delegation,G0010,,pending,,,,,,TN1166
+G0050,Sidi El Béchir,council,delegation,G0010,,pending,,,,,,TN1167
+G0051,Jebel Jelloud,council,delegation,G0010,,pending,,,,,,TN1168
+G0052,La Goulette,council,delegation,G0010,,pending,,,,,,TN1169
+G0053,Le Kram,council,delegation,G0010,,pending,,,,,,TN1170
+G0054,La Marsa,council,delegation,G0010,,pending,,,,,,TN1171
+G0055,Ariana Médina,council,delegation,G0011,,pending,,,,,,TN1251
+G0056,Soukra,council,delegation,G0011,,pending,,,,,,TN1252
+G0057,Raoued,council,delegation,G0011,,pending,,,,,,TN1253
+G0058,Kalaat El Andalous,council,delegation,G0011,,pending,,,,,,TN1254
+G0059,Sidi Thabet,council,delegation,G0011,,pending,,,,,,TN1255
+G0060,Ettadhamen,council,delegation,G0011,,pending,,,,,,TN1256
+G0061,Mnihla,council,delegation,G0011,,pending,,,,,,TN1257
+G0062,Ben Arous,council,delegation,G0012,,pending,,,,,,TN1351
+G0063,Nouvelle Médina,council,delegation,G0012,,pending,,,,,,TN1352
+G0064,El Mourouj,council,delegation,G0012,,pending,,,,,,TN1353
+G0065,Hammam Lif,council,delegation,G0012,,pending,,,,,,TN1354
+G0066,Hammam Chott,council,delegation,G0012,,pending,,,,,,TN1355
+G0067,Boumhel,council,delegation,G0012,,pending,,,,,,TN1356
+G0068,Ezzahra,council,delegation,G0012,,pending,,,,,,TN1357
+G0069,Radès,council,delegation,G0012,,pending,,,,,,TN1358
+G0070,Mégrine,council,delegation,G0012,,pending,,,,,,TN1359
+G0071,M'Hamdia,council,delegation,G0012,,pending,,,,,,TN1360
+G0072,Fouchana,council,delegation,G0012,,pending,,,,,,TN1361
+G0073,Mornag,council,delegation,G0012,,pending,,,,,,TN1362
+G0074,Manouba,council,delegation,G0013,,pending,,,,,,TN1451
+G0075,Douar Hicher,council,delegation,G0013,,pending,,,,,,TN1452
+G0076,Oued Ellil,council,delegation,G0013,,pending,,,,,,TN1453
+G0077,Mornaguia,council,delegation,G0013,,pending,,,,,,TN1454
+G0078,Borj El Amri,council,delegation,G0013,,pending,,,,,,TN1455
+G0079,Jedaida,council,delegation,G0013,,pending,,,,,,TN1456
+G0080,Tebourba,council,delegation,G0013,,pending,,,,,,TN1457
+G0081,El Battan,council,delegation,G0013,,pending,,,,,,TN1458
+G0082,Nabeul,council,delegation,G0014,,pending,,,,,,TN1551
+G0083,Dar Chaabane El Fehri,council,delegation,G0014,,pending,,,,,,TN1552
+G0084,Beni Khiar,council,delegation,G0014,,pending,,,,,,TN1553
+G0085,Korba,council,delegation,G0014,,pending,,,,,,TN1554
+G0086,Menzel Temime,council,delegation,G0014,,pending,,,,,,TN1555
+G0087,El Mida,council,delegation,G0014,,pending,,,,,,TN1556
+G0088,Kelibia,council,delegation,G0014,,pending,,,,,,TN1557
+G0089,Hammam Ghezaz,council,delegation,G0014,,pending,,,,,,TN1558
+G0090,Haouaria,council,delegation,G0014,,pending,,,,,,TN1559
+G0091,Takelsa,council,delegation,G0014,,pending,,,,,,TN1560
+G0092,Soliman,council,delegation,G0014,,pending,,,,,,TN1561
+G0093,Menzel Bouzelfa,council,delegation,G0014,,pending,,,,,,TN1562
+G0094,Beni Khalled,council,delegation,G0014,,pending,,,,,,TN1563
+G0095,Grombalia,council,delegation,G0014,,pending,,,,,,TN1564
+G0096,Bou Argoub,council,delegation,G0014,,pending,,,,,,TN1565
+G0097,Hammamet,council,delegation,G0014,,pending,,,,,,TN1566
+G0098,Zaghouan,council,delegation,G0015,,pending,,,,,,TN1651
+G0099,Zriba,council,delegation,G0015,,pending,,,,,,TN1652
+G0100,Bir Mchergua,council,delegation,G0015,,pending,,,,,,TN1653
+G0101,Fahs,council,delegation,G0015,,pending,,,,,,TN1654
+G0102,Nadhour,council,delegation,G0015,,pending,,,,,,TN1655
+G0103,Saouaf,council,delegation,G0015,,pending,,,,,,TN1656
+G0104,Bizerte Nord,council,delegation,G0016,,pending,,,,,,TN1751
+G0105,Jarzouna,council,delegation,G0016,,pending,,,,,,TN1752
+G0106,Bizerte Sud,council,delegation,G0016,,pending,,,,,,TN1753
+G0107,Sejnane,council,delegation,G0016,,pending,,,,,,TN1754
+G0108,Joumine,council,delegation,G0016,,pending,,,,,,TN1755
+G0109,Mateur,council,delegation,G0016,,pending,,,,,,TN1756
+G0110,Ghazala,council,delegation,G0016,,pending,,,,,,TN1757
+G0111,Menzel Bourguiba,council,delegation,G0016,,pending,,,,,,TN1758
+G0112,Tinja,council,delegation,G0016,,pending,,,,,,TN1759
+G0113,Utique,council,delegation,G0016,,pending,,,,,,TN1760
+G0114,Ghar El Melh,council,delegation,G0016,,pending,,,,,,TN1761
+G0115,Menzel Jemil,council,delegation,G0016,,pending,,,,,,TN1762
+G0116,El Alia,council,delegation,G0016,,pending,,,,,,TN1763
+G0117,Ras Jebel,council,delegation,G0016,,pending,,,,,,TN1764
+G0118,Béja Nord,council,delegation,G0017,,pending,,,,,,TN2151
+G0119,Béja Sud,council,delegation,G0017,,pending,,,,,,TN2152
+G0120,Amdoun,council,delegation,G0017,,pending,,,,,,TN2153
+G0121,Nefza,council,delegation,G0017,,pending,,,,,,TN2154
+G0122,Téboursouk,council,delegation,G0017,,pending,,,,,,TN2155
+G0123,Thibar,council,delegation,G0017,,pending,,,,,,TN2156
+G0124,Testour,council,delegation,G0017,,pending,,,,,,TN2157
+G0125,Goubellat,council,delegation,G0017,,pending,,,,,,TN2158
+G0126,Mejez El Bab,council,delegation,G0017,,pending,,,,,,TN2159
+G0127,Jendouba Sud,council,delegation,G0018,,pending,,,,,,TN2251
+G0128,Jendouba Nord,council,delegation,G0018,,pending,,,,,,TN2252
+G0129,Bousalem,council,delegation,G0018,,pending,,,,,,TN2253
+G0130,Tabarka,council,delegation,G0018,,pending,,,,,,TN2254
+G0131,Aïn Draham,council,delegation,G0018,,pending,,,,,,TN2255
+G0132,Fernana,council,delegation,G0018,,pending,,,,,,TN2256
+G0133,Ghardimaou,council,delegation,G0018,,pending,,,,,,TN2257
+G0134,Oued Mliz,council,delegation,G0018,,pending,,,,,,TN2258
+G0135,Balta Bou Aouane,council,delegation,G0018,,pending,,,,,,TN2259
+G0136,Kef Ouest,council,delegation,G0019,,pending,,,,,,TN2351
+G0137,Kef Est,council,delegation,G0019,,pending,,,,,,TN2352
+G0138,Nebeur,council,delegation,G0019,,pending,,,,,,TN2353
+G0139,Sakiet Sidi Youssef,council,delegation,G0019,,pending,,,,,,TN2354
+G0140,Tajerouine,council,delegation,G0019,,pending,,,,,,TN2355
+G0141,Kalaat Senan,council,delegation,G0019,,pending,,,,,,TN2356
+G0142,Kalaa Khesba,council,delegation,G0019,,pending,,,,,,TN2357
+G0143,Jerissa,council,delegation,G0019,,pending,,,,,,TN2358
+G0144,Ksour,council,delegation,G0019,,pending,,,,,,TN2359
+G0145,Dahmani,council,delegation,G0019,,pending,,,,,,TN2360
+G0146,Es Sers,council,delegation,G0019,,pending,,,,,,TN2361
+G0147,Siliana Nord,council,delegation,G0020,,pending,,,,,,TN2451
+G0148,Siliana Sud,council,delegation,G0020,,pending,,,,,,TN2452
+G0149,Bouarada,council,delegation,G0020,,pending,,,,,,TN2453
+G0150,Gaafour,council,delegation,G0020,,pending,,,,,,TN2454
+G0151,El Krib,council,delegation,G0020,,pending,,,,,,TN2455
+G0152,Bourouis,council,delegation,G0020,,pending,,,,,,TN2456
+G0153,Makthar,council,delegation,G0020,,pending,,,,,,TN2457
+G0154,Rouhia,council,delegation,G0020,,pending,,,,,,TN2458
+G0155,Kesra,council,delegation,G0020,,pending,,,,,,TN2459
+G0156,Bargou,council,delegation,G0020,,pending,,,,,,TN2460
+G0157,Laroussa,council,delegation,G0020,,pending,,,,,,TN2461
+G0158,Sousse Médina,council,delegation,G0021,,pending,,,,,,TN3151
+G0159,Sousse Riadh,council,delegation,G0021,,pending,,,,,,TN3152
+G0160,Sousse Jaouhara,council,delegation,G0021,,pending,,,,,,TN3153
+G0161,Sousse Sidi Abdelhamid,council,delegation,G0021,,pending,,,,,,TN3154
+G0162,Hammam Sousse,council,delegation,G0021,,pending,,,,,,TN3155
+G0163,Akouda,council,delegation,G0021,,pending,,,,,,TN3156
+G0164,Kalaa Kebira,council,delegation,G0021,,pending,,,,,,TN3157
+G0165,Sidi Bou Ali,council,delegation,G0021,,pending,,,,,,TN3158
+G0166,Hergla,council,delegation,G0021,,pending,,,,,,TN3159
+G0167,Enfidha,council,delegation,G0021,,pending,,,,,,TN3160
+G0168,Bouficha,council,delegation,G0021,,pending,,,,,,TN3161
+G0169,Kondar,council,delegation,G0021,,pending,,,,,,TN3162
+G0170,Sidi El Heni,council,delegation,G0021,,pending,,,,,,TN3163
+G0171,M'Saken,council,delegation,G0021,,pending,,,,,,TN3164
+G0172,Kalaa Sghira,council,delegation,G0021,,pending,,,,,,TN3165
+G0173,Zaouia Ksiba Thraya,council,delegation,G0021,,pending,,,,,,TN3166
+G0174,Monastir,council,delegation,G0022,,pending,,,,,,TN3251
+G0175,Ouerdanine,council,delegation,G0022,,pending,,,,,,TN3252
+G0176,Sahline,council,delegation,G0022,,pending,,,,,,TN3253
+G0177,Zeramdine,council,delegation,G0022,,pending,,,,,,TN3254
+G0178,Beni Hassen,council,delegation,G0022,,pending,,,,,,TN3255
+G0179,Jammel,council,delegation,G0022,,pending,,,,,,TN3256
+G0180,Bembla,council,delegation,G0022,,pending,,,,,,TN3257
+G0181,Moknine,council,delegation,G0022,,pending,,,,,,TN3258
+G0182,Bekalta,council,delegation,G0022,,pending,,,,,,TN3259
+G0183,Teboulba,council,delegation,G0022,,pending,,,,,,TN3260
+G0184,Ksar Hellal,council,delegation,G0022,,pending,,,,,,TN3261
+G0185,Ksibet El Mediouni,council,delegation,G0022,,pending,,,,,,TN3262
+G0186,Sayada-Lamta-Bou Hjar,council,delegation,G0022,,pending,,,,,,TN3263
+G0187,Mahdia,council,delegation,G0023,,pending,,,,,,TN3351
+G0188,Boumerdès,council,delegation,G0023,,pending,,,,,,TN3352
+G0189,Ouled Chamekh,council,delegation,G0023,,pending,,,,,,TN3353
+G0190,Chorbane,council,delegation,G0023,,pending,,,,,,TN3354
+G0191,Hbira,council,delegation,G0023,,pending,,,,,,TN3355
+G0192,Souassi,council,delegation,G0023,,pending,,,,,,TN3356
+G0193,El Jem,council,delegation,G0023,,pending,,,,,,TN3357
+G0194,Chebba,council,delegation,G0023,,pending,,,,,,TN3358
+G0195,Melloulech,council,delegation,G0023,,pending,,,,,,TN3359
+G0196,Sidi Alouane,council,delegation,G0023,,pending,,,,,,TN3360
+G0197,Ksour Essef,council,delegation,G0023,,pending,,,,,,TN3361
+G0198,Sfax Médina,council,delegation,G0024,,pending,,,,,,TN3451
+G0199,Sfax Ouest,council,delegation,G0024,,pending,,,,,,TN3452
+G0200,Sakiet Ezzit,council,delegation,G0024,,pending,,,,,,TN3453
+G0201,Sakiet Eddaier,council,delegation,G0024,,pending,,,,,,TN3454
+G0202,Sfax Sud,council,delegation,G0024,,pending,,,,,,TN3455
+G0203,Thyna,council,delegation,G0024,,pending,,,,,,TN3456
+G0204,Agareb,council,delegation,G0024,,pending,,,,,,TN3457
+G0205,Jebeniana,council,delegation,G0024,,pending,,,,,,TN3458
+G0206,El Amra,council,delegation,G0024,,pending,,,,,,TN3459
+G0207,Hencha,council,delegation,G0024,,pending,,,,,,TN3460
+G0208,Menzel Chaker,council,delegation,G0024,,pending,,,,,,TN3461
+G0209,El Ghraiba,council,delegation,G0024,,pending,,,,,,TN3462
+G0210,Bir Ali Ben Khélifa,council,delegation,G0024,,pending,,,,,,TN3463
+G0211,Skhira,council,delegation,G0024,,pending,,,,,,TN3464
+G0212,Mahres,council,delegation,G0024,,pending,,,,,,TN3465
+G0213,Kerkennah,council,delegation,G0024,,pending,,,,,,TN3466
+G0214,Kairouan Nord,council,delegation,G0025,,pending,,,,,,TN4151
+G0215,Kairouan Sud,council,delegation,G0025,,pending,,,,,,TN4152
+G0216,Chebika,council,delegation,G0025,,pending,,,,,,TN4153
+G0217,Sbikha,council,delegation,G0025,,pending,,,,,,TN4154
+G0218,Oueslatia,council,delegation,G0025,,pending,,,,,,TN4155
+G0219,Haffouz,council,delegation,G0025,,pending,,,,,,TN4156
+G0220,Alaa,council,delegation,G0025,,pending,,,,,,TN4157
+G0221,Hajeb El Ayoun,council,delegation,G0025,,pending,,,,,,TN4158
+G0222,Nasrallah,council,delegation,G0025,,pending,,,,,,TN4159
+G0223,Chrarda,council,delegation,G0025,,pending,,,,,,TN4160
+G0224,Bouhajla,council,delegation,G0025,,pending,,,,,,TN4161
+G0225,Kasserine Nord,council,delegation,G0026,,pending,,,,,,TN4251
+G0226,Kasserine Sud,council,delegation,G0026,,pending,,,,,,TN4252
+G0227,Ezzouhour,council,delegation,G0026,,pending,,,,,,TN4253
+G0228,Hassi El Ferid,council,delegation,G0026,,pending,,,,,,TN4254
+G0229,Sbeitla,council,delegation,G0026,,pending,,,,,,TN4255
+G0230,Sbiba,council,delegation,G0026,,pending,,,,,,TN4256
+G0231,Jedeliane,council,delegation,G0026,,pending,,,,,,TN4257
+G0232,Ayoun,council,delegation,G0026,,pending,,,,,,TN4258
+G0233,Thala,council,delegation,G0026,,pending,,,,,,TN4259
+G0234,Hidra,council,delegation,G0026,,pending,,,,,,TN4260
+G0235,Foussana,council,delegation,G0026,,pending,,,,,,TN4261
+G0236,Feriana,council,delegation,G0026,,pending,,,,,,TN4262
+G0237,Majel Belabbes,council,delegation,G0026,,pending,,,,,,TN4263
+G0238,Sidi Bouzid Ouest,council,delegation,G0027,,pending,,,,,,TN4351
+G0239,Sidi Bouzid Est,council,delegation,G0027,,pending,,,,,,TN4352
+G0240,Jelma,council,delegation,G0027,,pending,,,,,,TN4353
+G0241,Sabalat Ouled Asker,council,delegation,G0027,,pending,,,,,,TN4354
+G0242,Bir El Hfay,council,delegation,G0027,,pending,,,,,,TN4355
+G0243,Sidi Ali Ben Aoun,council,delegation,G0027,,pending,,,,,,TN4356
+G0244,Menzel Bouzaiene,council,delegation,G0027,,pending,,,,,,TN4357
+G0245,Meknassi,council,delegation,G0027,,pending,,,,,,TN4358
+G0246,Souk Jedid,council,delegation,G0027,,pending,,,,,,TN4359
+G0247,Mazzouna,council,delegation,G0027,,pending,,,,,,TN4360
+G0248,Regueb,council,delegation,G0027,,pending,,,,,,TN4361
+G0249,Ouled Haffouz,council,delegation,G0027,,pending,,,,,,TN4362
+G0250,Gabès Médina,council,delegation,G0028,,pending,,,,,,TN5151
+G0251,Gabès Ouest,council,delegation,G0028,,pending,,,,,,TN5152
+G0252,Gabès Sud,council,delegation,G0028,,pending,,,,,,TN5153
+G0253,Ghannouch,council,delegation,G0028,,pending,,,,,,TN5154
+G0254,Metouia,council,delegation,G0028,,pending,,,,,,TN5155
+G0255,Menzel Habib,council,delegation,G0028,,pending,,,,,,TN5156
+G0256,Hamma,council,delegation,G0028,,pending,,,,,,TN5157
+G0257,Matmata,council,delegation,G0028,,pending,,,,,,TN5158
+G0258,Matmata Nouvelle,council,delegation,G0028,,pending,,,,,,TN5159
+G0259,Mareth,council,delegation,G0028,,pending,,,,,,TN5160
+G0260,Médenine Nord,council,delegation,G0029,,pending,,,,,,TN5251
+G0261,Médenine Sud,council,delegation,G0029,,pending,,,,,,TN5252
+G0262,Beni Khedache,council,delegation,G0029,,pending,,,,,,TN5253
+G0263,Ben Guerdane,council,delegation,G0029,,pending,,,,,,TN5254
+G0264,Zarzis,council,delegation,G0029,,pending,,,,,,TN5255
+G0265,Houmt Souk,council,delegation,G0029,,pending,,,,,,TN5256
+G0266,Djerba Midoun,council,delegation,G0029,,pending,,,,,,TN5257
+G0267,Djerba Ajim,council,delegation,G0029,,pending,,,,,,TN5258
+G0268,Sidi Makhlouf,council,delegation,G0029,,pending,,,,,,TN5259
+G0269,Tataouine Nord,council,delegation,G0030,,pending,,,,,,TN5351
+G0270,Tataouine Sud,council,delegation,G0030,,pending,,,,,,TN5352
+G0271,Samar,council,delegation,G0030,,pending,,,,,,TN5353
+G0272,Bir Lahmar,council,delegation,G0030,,pending,,,,,,TN5354
+G0273,Ghomrassen,council,delegation,G0030,,pending,,,,,,TN5355
+G0274,Dhiba,council,delegation,G0030,,pending,,,,,,TN5356
+G0275,Remada,council,delegation,G0030,,pending,,,,,,TN5357
+G0276,Gafsa Nord,council,delegation,G0031,,pending,,,,,,TN6151
+G0277,Sidi Aich,council,delegation,G0031,,pending,,,,,,TN6152
+G0278,Ksar,council,delegation,G0031,,pending,,,,,,TN6153
+G0279,Gafsa Sud,council,delegation,G0031,,pending,,,,,,TN6154
+G0280,Oum Larais,council,delegation,G0031,,pending,,,,,,TN6155
+G0281,Redeyef,council,delegation,G0031,,pending,,,,,,TN6156
+G0282,Metlaoui,council,delegation,G0031,,pending,,,,,,TN6157
+G0283,Mdhilla,council,delegation,G0031,,pending,,,,,,TN6158
+G0284,Guetar,council,delegation,G0031,,pending,,,,,,TN6159
+G0285,Belkhir,council,delegation,G0031,,pending,,,,,,TN6160
+G0286,Sened,council,delegation,G0031,,pending,,,,,,TN6161
+G0287,Tozeur,council,delegation,G0032,,pending,,,,,,TN6251
+G0288,Degueche,council,delegation,G0032,,pending,,,,,,TN6252
+G0289,Tamaghza,council,delegation,G0032,,pending,,,,,,TN6253
+G0290,Nefta,council,delegation,G0032,,pending,,,,,,TN6254
+G0291,Hazoua,council,delegation,G0032,,pending,,,,,,TN6255
+G0292,Kebili Sud,council,delegation,G0033,,pending,,,,,,TN6351
+G0293,Kebili Nord,council,delegation,G0033,,pending,,,,,,TN6352
+G0294,Souk El Ahed,council,delegation,G0033,,pending,,,,,,TN6353
+G0295,Douz Nord,council,delegation,G0033,,pending,,,,,,TN6354
+G0296,Douz Sud,council,delegation,G0033,,pending,,,,,,TN6355
+G0297,Faouar,council,delegation,G0033,,pending,,,,,,TN6356
