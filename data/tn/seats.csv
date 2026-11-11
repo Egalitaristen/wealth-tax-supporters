@@ -1,2 +1,10 @@
 seat_id,body_id,party,seats,colour,order
 S0001,B0002,Member (no party on list),77,9AA0A6,1
+S0002,B0001,Non-affiliated (no bloc),28,9aa0a6,1
+S0003,B0001,Bloc Honnêteté et travail,26,2e8b57,2
+S0004,B0001,Bloc La voix de la République,25,1b6ec2,3
+S0005,B0001,Bloc Les Libres,23,f58220,4
+S0006,B0001,Bloc Pour que le peuple triomphe,18,c8102e,5
+S0007,B0001,Bloc Nationale indépendante,18,8e6bbf,6
+S0008,B0001,Bloc La ligne nationale souveraine,15,16a085,7
+S0009,B0001,Vacant,8,,8
