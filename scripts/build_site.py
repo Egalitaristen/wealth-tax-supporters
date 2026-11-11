@@ -1072,6 +1072,9 @@ def page_html(base, title, desc, path, image, alt, body=None):
                       ("property=\"og:url\"", SITE_URL + path), ("property=\"og:image\"", SITE_URL + image),
                       ("property=\"og:image:alt\"", alt)):
         h = re.sub(r'(<meta %s content=")[^"]*(")' % prop, lambda m: m.group(1) + _attr(val) + m.group(2), h, count=1)
+    # the one address search engines should list for this page: no query string, so shareable calculator and filter links do not count as copies
+    h = re.sub(r'<link rel="canonical"[^>]*>\s*', "", h)
+    h = h.replace("</head>", '<link rel="canonical" href="%s">' % _attr(SITE_URL + path) + chr(10) + "</head>", 1)
     return h
 
 

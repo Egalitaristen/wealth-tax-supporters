@@ -130,6 +130,7 @@ async function render(fresh) {
   if (location.pathname === '/' && location.hash === '#countries') history.replaceState(null, '', '/countries');  // old links to the section
   const parts = location.pathname.split('/').filter(Boolean).map(decodeURIComponent);
   const params = new URLSearchParams(location.search);
+  setCanonical();
   $('.top').classList.remove('menu-open'); $('#menu').setAttribute('aria-expanded', 'false');
   $$('.nav a, .fb-link').forEach(a => a.removeAttribute('aria-current'));
   try {
@@ -169,6 +170,14 @@ async function render(fresh) {
     if (document.fonts) document.fonts.ready.then(() => { if (location.hash === h && Date.now() - t0 < 2000) scrollToHash(); });
   }
   else if (fresh) window.scrollTo({top: 0});
+}
+// A page the server has no HTML of its own for (a person, a tab) is the shell, so the app points the canonical link at the address it is showing,
+// without the query string, so that a shared calculator link or a filtered list is not counted as another copy. It always names the real
+// domain, so the workers.dev address is not listed as a second site.
+function setCanonical() {
+  let l = document.querySelector('link[rel="canonical"]');
+  if (!l) { l = document.createElement('link'); l.rel = 'canonical'; document.head.appendChild(l); }
+  l.href = 'https://wealthtaxsupporters.com' + (location.pathname.replace(/\/+$/, '') || '/');
 }
 function setTitle(t) { document.title = t ? `${t} · Wealth Tax Supporters` : 'Wealth Tax Supporters: who backs a wealth tax near you?'; }
 function notFound() {
