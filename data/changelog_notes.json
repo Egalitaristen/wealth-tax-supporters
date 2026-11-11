@@ -1,8 +1,15 @@
 {
   "2026-11-11": {
-    "summary": "The calculator joined the main navigation.",
+    "summary": "Tunisia and Bangladesh joined, seat charts reached a dozen more countries with National, Regional and Local tabs, and every page now carries its content in plain HTML for search and AI tools.",
     "items": [
-      {"kind": "added", "text": "Calculator: a link in the top bar, next to Resources."}
+      {"kind": "added", "text": "New countries: Tunisia, whose 2026 finance law created a wealth tax that parliament passed 72 to 14, and Bangladesh."},
+      {"kind": "added", "text": "Seat charts with a party breakdown for Tunisia, Bangladesh, Pakistan, Tanzania, Algeria, Paraguay, Quebec, Ontario, Geneva, Vaud, the Senedd, the London Assembly and Wealden. Vietnam moved to its 16th National Assembly."},
+      {"kind": "added", "text": "Seats tab: National, Regional and Local tabs, and a list of the chambers on the left that stays in view as you scroll."},
+      {"kind": "added", "text": "Directory: a page and share card for each kind of supporter, such as economists and politicians, and a new global directory card that shows where the names are."},
+      {"kind": "added", "text": "Flags for Bangladesh, Guyana, Pakistan, Paraguay, Suriname, Tunisia and Vietnam, and a Calculator link in the main navigation."},
+      {"kind": "improved", "text": "Every page now carries its main content in plain HTML, with a canonical link, so search engines and AI tools that do not run JavaScript can read it."},
+      {"kind": "corrected", "text": "The front page counted a person once for every country they appear in, so economists read 622 against 598 in the directory. Each person now counts once."},
+      {"kind": "corrected", "text": "34 Bluesky profile links that led nowhere were fixed or removed."}
     ]
   },
   "2026-11-10": {
