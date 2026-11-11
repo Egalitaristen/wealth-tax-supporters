@@ -154,7 +154,7 @@ async function render(fresh) {
     else if (country && parts.length === 2 && SECTIONS[parts[1]]) await countryPage(country.slug, params, parts[1]);
     else if (country && parts.length === 2) await personPage(country.slug, parts[1]);
     else notFound();
-    const navKey = {countries: '/countries', parliaments: '/parliaments', directory: '/directory', arguments: '/arguments', resources: '/resources', method: '/method', about: '/about', changelog: '/changelog', contribute: '/contribute', suggest: '/contribute', feedback: '/feedback', report: '/feedback'}[parts[0]] || null;
+    const navKey = {countries: '/countries', parliaments: '/parliaments', directory: '/directory', arguments: '/arguments', resources: '/resources', calculator: '/calculator', method: '/method', about: '/about', changelog: '/changelog', contribute: '/contribute', suggest: '/contribute', feedback: '/feedback', report: '/feedback'}[parts[0]] || null;
     if (navKey) $$('.nav a, .fb-link').forEach(a => { if (a.getAttribute('href') === navKey) a.setAttribute('aria-current', 'page'); });
   } catch (err) {
     console.error(err);
