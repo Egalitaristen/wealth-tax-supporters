@@ -12,6 +12,7 @@ from pathlib import Path
 
 ROOT = Path(__file__).resolve().parent.parent
 sys.path.insert(0, str(Path(__file__).resolve().parent))
+import static_pages as sp  # plain-HTML page bodies for crawlers that do not run the app
 DATA = ROOT / "data"
 
 
@@ -1057,6 +1058,14 @@ def _attr(s):
 PRELOAD_SLUGS = set()
 
 
+def calc_presets():
+    """(label, resource slug) for each scheme in the calculator, from CALC_PRESETS in site/app.js."""
+    js = (SITE / "app.js").read_text(encoding="utf-8")
+    block = js[js.index("const CALC_PRESETS"):]
+    block = block[:block.index("\n];")]
+    return re.findall(r"label: '([^']+)'.*?src: \['([^']+)'", block, re.S)
+
+
 def page_html(base, title, desc, path, image, alt, body=None):
     """The site page with this page's meta tags, so link previews show the right title and image."""
     h = base
@@ -1329,37 +1338,45 @@ def share_pages(out, base, countries, full, unique=None, bodies=(), resources=()
     write("/", "Wealth Tax Supporters: who backs a wealth tax near you?",
           f"{tot['supporters']:,} public figures and organisations across {tot['countries']} countries who have backed a wealth tax on the record. Every name links to its source.",
           "home", "Who backs a wealth tax near you?",
-          lambda o: cards.home_card(o, tot, type_rows(sum((collections.Counter(c.get("types") or {}) for c in countries), collections.Counter()))))
+          lambda o: cards.home_card(o, tot, type_rows(sum((collections.Counter(c.get("types") or {}) for c in countries), collections.Counter()))),
+          body=sp.home_body(tot, countries))
     write("/method", "How the register is built · Wealth Tax Supporters",
           "What counts as support for a wealth tax, how statements are sourced and graded, and how to report a mistake.",
-          "method", "How the register is built", lambda o: cards.method_card(o, [sum(c[g] for c in countries) for g in "ABC"], "Sourced, graded and open: every name links to where they said it."))
+          "method", "How the register is built", lambda o: cards.method_card(o, [sum(c[g] for c in countries) for g in "ABC"], "Sourced, graded and open: every name links to where they said it."),
+          body=sp.method_body([sum(c[g] for c in countries) for g in "ABC"]))
     write("/countries", "Countries · Wealth Tax Supporters",
           f"The {tot['countries']} countries researched so far, with supporters found and seats in the national chambers.",
-          "countries", "Country by country", lambda o: cards.countries_card(o, [(c["slug"], c["name"]) for c in sorted(countries, key=lambda c: -c["supporters"])], "Each one researched separately, with its own map, polls and seats."))
+          "countries", "Country by country", lambda o: cards.countries_card(o, [(c["slug"], c["name"]) for c in sorted(countries, key=lambda c: -c["supporters"])], "Each one researched separately, with its own map, polls and seats."),
+          body=sp.countries_body(countries))
     write("/resources", "Resources: polls, papers, reports and bills · Wealth Tax Supporters",
           "Polls, research papers, reports and bills on a wealth tax, from every country in the register and beyond, filterable by place and type.",
           "resources", "Resources on a wealth tax", lambda o: cards.resources_card(
               o, [(lab, sum(1 for r in resources if r["kind"] == k)) for k, lab in (("poll", "Polls"), ("paper", "Papers"), ("report", "Reports"), ("bill", "Bills"))],
               [(lab, n) for k, lab in BILL_STATES.items() if (n := sum(1 for r in resources if r["kind"] == "bill" and r.get("state") == k))],
-              "The evidence and the law on a wealth tax."))
+              "The evidence and the law on a wealth tax."),
+          body=sp.resources_body(resources))
     write("/about", "About · Wealth Tax Supporters",
           "An open, sourced register of the public figures and organisations that back a wealth tax on the record: why it exists, how it is made and how to take part.",
           "about", "About Wealth Tax Supporters", lambda o: cards.page_card(o, "About", "A register of who says so", "Open, sourced and made in public.",
-                                    [(f"{tot['supporters']:,}", "supporters on the record"), (f"{tot['countries']}", "countries so far"), (f"{tot['evidence']:,}", "sourced statements")]))
+                                    [(f"{tot['supporters']:,}", "supporters on the record"), (f"{tot['countries']}", "countries so far"), (f"{tot['evidence']:,}", "sourced statements")]),
+          body=sp.about_body(tot, sum(x[1] for c in list(countries) + list(bodies) for x in (c.get("chambers") or []))))
     write("/changelog", "Changelog · Wealth Tax Supporters",
           "What changed in the register each day: supporters and statements added by country, new countries, stories and corrections.",
           "changelog", "Changelog", lambda o: cards.page_card(o, "Changelog", "What changed, day by day", "Supporters, statements and stories added, by country.",
-                                    [(f"{tot['supporters']:,}", "supporters on the record"), (f"{tot['countries']}", "countries so far"), (f"{tot['evidence']:,}", "sourced statements")]))
+                                    [(f"{tot['supporters']:,}", "supporters on the record"), (f"{tot['countries']}", "countries so far"), (f"{tot['evidence']:,}", "sourced statements")]),
+          body=sp.changelog_body(json.loads((DATA / "changelog.json").read_text(encoding="utf-8")) if (DATA / "changelog.json").exists() else []))
     write("/contribute", "Contribute and suggest a supporter · Wealth Tax Supporters",
           "Suggest a public figure or organisation who has backed a wealth tax, help check the entries already here, or start a register for your country.",
           "contribute", "Help build the register", lambda o: cards.page_card(o, "Contribute", "Help build the register", "Suggest a supporter, help check entries, or start a country.",
-                                    [("1", "Suggest a supporter"), ("2", "Check an entry's source"), ("3", "Start a country")]))
+                                    [("1", "Suggest a supporter"), ("2", "Check an entry's source"), ("3", "Start a country")]),
+          body=sp.contribute_body())
     write("/directory", "The global directory · Wealth Tax Supporters",
           f"{tot['supporters']:,} public figures and organisations in {tot['countries']} countries who have backed a wealth tax, filterable by country, type and strength of evidence.",
           "directory", "The global directory", lambda o: cards.directory_card(
               o, "Everyone on the record", tot["supporters"], f"public figures and organisations in {tot['countries']} countries, each with the statement they rest on",
               type_rows(sum((collections.Counter(c.get("types") or {}) for c in countries), collections.Counter())),
-              [(GRADE[g], sum(c[g] for c in countries)) for g in "ABC"]))
+              [(GRADE[g], sum(c[g] for c in countries)) for g in "ABC"]),
+          body=sp.directory_global_body(countries))
     write("/feedback", "Feedback and bug reports · Wealth Tax Supporters",
           "Something broken, confusing or missing? Send feedback or report a bug. No account needed.",
           "feedback", "Feedback and bug reports", lambda o: cards.page_card(o, "Feedback", "Tell us what to fix or improve", "Feedback, ideas and bug reports. No account needed.",
@@ -1374,7 +1391,8 @@ def share_pages(out, base, countries, full, unique=None, bodies=(), resources=()
               ("France, ISF", [(800000, 0.5), (1300000, 0.7), (2570000, 1), (5000000, 1.25), (10000000, 1.5)], (40, 90, 170)),
               ("Finland, Left", [(1000000, 0.5)], cards.INK3)],
               "Try a real wealth tax on your own numbers",
-              "Scales from Spain to the US, in force, ended and proposed. Only the part above each line is taxed. Change the rates and share the result."))
+              "Scales from Spain to the US, in force, ended and proposed. Only the part above each line is taxed. Change the rates and share the result."),
+              body=sp.calculator_body(calc_presets()))
 
     write("/report", "Report a mistake · Wealth Tax Supporters",
           "Something wrong in an entry, or want one about you removed or corrected? Tell us here. No account needed.",
@@ -1389,7 +1407,8 @@ def share_pages(out, base, countries, full, unique=None, bodies=(), resources=()
     write("/parliaments", "Parliaments · Wealth Tax Supporters",
           f"Which seats in the legislatures of {tot['countries']} countries, and in the European Parliament and the UN General Assembly, are held by a sitting supporter of a wealth tax, found so far.",
           "parliaments", "Seats in every parliament",
-          lambda o: cards.parliaments_card(o, *chambers, "Who sits today and has backed a wealth tax. Unlit seats mean nothing found, never opposition."))
+          lambda o: cards.parliaments_card(o, *chambers, "Who sits today and has backed a wealth tax. Unlit seats mean nothing found, never opposition."),
+          body=sp.parliaments_body(countries, bodies))
     for b in bodies:
         D, slug, name = full[b["slug"]], b["slug"], b["name"]
         legis = [dict(name=x["name"], seats=x["seats"], parties=[[q[0], q[1], q[2], len(q[3])] for q in x["parties"]]) for x in D.get("legis", [])]
@@ -1401,7 +1420,8 @@ def share_pages(out, base, countries, full, unique=None, bodies=(), resources=()
                       f"{lit:,} of {seats:,} seats in the {legis[0]['name']} and its sister chambers are held by a sitting supporter of a wealth tax, found so far, shown by group." if len(legis) > 1 else
                       f"{lit:,} of {seats:,} seats in the {legis[0]['name']} are held by a sitting supporter of a wealth tax, found so far, shown by group.",
                       slug + ("-seats" if path.endswith("/seats") else ""), f"{name}: {lit:,} seats held by supporters found so far",
-                      lambda o, b=b, legis=legis: cards.seats_card(o, b, legis, "held by a sitting supporter of a wealth tax, found so far. Unlit seats mean nothing found, never opposition.", slug))
+                      lambda o, b=b, legis=legis: cards.seats_card(o, b, legis, "held by a sitting supporter of a wealth tax, found so far. Unlit seats mean nothing found, never opposition.", slug),
+                      body=sp.seats_body(b, D, name))
         ev_by = collections.defaultdict(list)
         for e in D["E"]:
             ev_by[e[0]].append(e)
@@ -1418,7 +1438,8 @@ def share_pages(out, base, countries, full, unique=None, bodies=(), resources=()
             write(f"/{slug}/{p[0]}", f"{p[1]} backs a wealth tax · Wealth Tax Supporters", desc, f"{slug}/{p[0]}",
                   f"{p[1]}, {TYPE.get(p[3], p[3])}, {name}",
                   lambda o, p=p, quote=quote, gradeline=gradeline, role=role: cards.person_card(
-                      o, {"name": p[1], "role": role}, name, quote, [], set(), TYPE.get(p[3], p[3]), gradeline, slug, (p[8], GRADE.get(p[8], ""), p[9], span if y0 else "")))
+                      o, {"name": p[1], "role": role}, name, quote, [], set(), TYPE.get(p[3], p[3]), gradeline, slug, (p[8], GRADE.get(p[8], ""), p[9], span if y0 else "")),
+                  body=sp.person_body(slug, name, p, es, TYPE.get(p[3], p[3]), GRADE.get(p[8], "")))
 
     for c in countries:
         D, slug, name = full[c["slug"]], c["slug"], c["name"]
@@ -1457,32 +1478,38 @@ def share_pages(out, base, countries, full, unique=None, bodies=(), resources=()
                 write(f"/{slug}/seats", f"{title} · Wealth Tax Supporters",
                       f"{lit:,} of {sum(b['seats'] for b in bodies):,} seats in {the(name)}'s legislature are held by a sitting supporter of a wealth tax, found so far, shown by party.",
                       slug + "-seats", f"{title}: {lit:,} seats held by supporters found so far",
-                      lambda o, cc=cc, bodies=bodies: cards.seats_card(o, cc, bodies, "held by a sitting supporter of a wealth tax, found so far. Unlit seats mean nothing found, never opposition.", slug))
+                      lambda o, cc=cc, bodies=bodies: cards.seats_card(o, cc, bodies, "held by a sitting supporter of a wealth tax, found so far. Unlit seats mean nothing found, never opposition.", slug),
+                      body=sp.seats_body(c, D, the(name)))
                 continue
             if sec == "directory":
                 write(f"/{slug}/directory", f"{title} · Wealth Tax Supporters", desc, slug + "-directory", f"{title}: {c['supporters']:,} found so far",
                       lambda o, cc=cc: cards.directory_card(o, cc["name"], cc["supporters"], "public figures and organisations on the record so far",
-                                                            type_rows(collections.Counter(cc.get("types") or {})), [(GRADE[g], cc[g]) for g in "ABC"], slug))
+                                                            type_rows(collections.Counter(cc.get("types") or {})), [(GRADE[g], cc[g]) for g in "ABC"], slug),
+                      body=sp.directory_body(c, D, the(name)))
                 continue
             if sec == "time":
                 per_year = collections.Counter(e[1][:4] for e in D["E"] if e[1])
                 write(f"/{slug}/time", f"{title} · Wealth Tax Supporters", desc, slug + "-time", f"{title}: {c['evidence']:,} statements",
-                      lambda o, cc=cc, per_year=per_year, sub=sub: cards.time_card(o, cc, per_year, sub))
+                      lambda o, cc=cc, per_year=per_year, sub=sub: cards.time_card(o, cc, per_year, sub),
+                      body=sp.time_body(c, per_year, the(name)))
                 continue
             if sec == "method":
                 n_res = collections.Counter(r["kind"] for r in resources if r["country"] == slug)
                 extra = " · ".join(f"{n_res[k]} {lab if n_res[k] != 1 else lab[:-1]}" for k, lab in (("poll", "polls"), ("bill", "bills"), ("paper", "papers"), ("report", "reports")) if n_res[k])
                 write(f"/{slug}/method", f"{title} · Wealth Tax Supporters", desc, slug + "-method", f"{title}: {c['supporters']:,} found so far",
-                      lambda o, cc=cc, extra=extra: cards.country_method_card(o, cc, [cc[g] for g in "ABC"], extra))
+                      lambda o, cc=cc, extra=extra: cards.country_method_card(o, cc, [cc[g] for g in "ABC"], extra),
+                      body=sp.method_country_body(c, extra, the(name)))
                 continue
             if sec == "story":
                 for path in (f"/{slug}", f"/{slug}/story"):
                     write(path, f"{title} · Wealth Tax Supporters", desc, slug + "-story", f"{title}: a country story",
-                          lambda o, cc=cc, st=st, units=units: cards.story_card(o, cc, units, st["title"], st["standfirst"]))
+                          lambda o, cc=cc, st=st, units=units: cards.story_card(o, cc, units, st["title"], st["standfirst"]),
+                          body=sp.story_body(c, st, the(name)))
                 continue
             write(f"/{slug}" + (f"/{sec}" if sec else ""), f"{title} · Wealth Tax Supporters", desc, slug + (f"-{sec}" if sec else ""),
                   f"{title}: {c['supporters']:,} found so far",
-                  lambda o, cc=cc, kicker=kicker, sub=sub: cards.country_card(o, cc, units, kicker, sub))
+                  lambda o, cc=cc, kicker=kicker, sub=sub: cards.country_card(o, cc, units, kicker, sub),
+                  body=sp.country_body(c, D, the(name)) if sec in ("", "map") else None)
         # one page per supporter
         ev_by = collections.defaultdict(list)
         for e in D["E"]:
@@ -1507,7 +1534,8 @@ def share_pages(out, base, countries, full, unique=None, bodies=(), resources=()
                   f"{p[1]}, {TYPE.get(p[3], p[3])}, {name}",
                   lambda o, p=p, quote=quote, gradeline=gradeline, hl=hl: cards.person_card(
                       o, {"name": p[1], "role": role if (role := " · ".join(x for x in (p[4], p[5]) if x)) else ""}, name, quote,
-                      units if hl else [], hl, TYPE.get(p[3], p[3]), gradeline, slug, (p[8], GRADE.get(p[8], ""), p[9], span if y0 else "")))
+                      units if hl else [], hl, TYPE.get(p[3], p[3]), gradeline, slug, (p[8], GRADE.get(p[8], ""), p[9], span if y0 else "")),
+                  body=sp.person_body(slug, name, p, es, TYPE.get(p[3], p[3]), GRADE.get(p[8], "")))
     resource_pages(write, resources, full, cards, countries)
     if arguments:
         argument_pages(write, cards, arguments)
