@@ -1,6 +1,6 @@
 position_id,actor_id,body_id,role,party,geo_unit_id,start,end,current,member_ref,checked,source_url
 O00001,A0001,B0003,Minister of Finance,Independent,G0001,,,,,,https://www.lapresse.tn/2025/12/02/ministre-des-finances-letat-a-besoin-de-ressources-fiscales/
-O00002,A0004,B0002,Chair of the finance committee,Independent,G0001,,,,,,https://businessnews.com.tn/2025/11/24/bras-de-fer-autour-de-limpot-sur-la-fortune-larp-dit-non-le-conseil-national-dit-oui/1374553/
-O00003,A0005,B0002,Vice-chair of the finance committee,Independent,G0001,,,,,,https://businessnews.com.tn/2025/11/24/bras-de-fer-autour-de-limpot-sur-la-fortune-larp-dit-non-le-conseil-national-dit-oui/1374553/
+O00002,A0004,B0002,Chair of the finance committee,Member (no party on list),G0023,,,y,,2026-11-11,https://www.cnrd.tn/%d9%82%d8%a7%d8%a6%d9%85%d8%a9-%d8%a7%d9%84%d9%86%d9%88%d8%a7%d8%a8/
+O00003,A0005,B0002,Vice-chair of the finance committee,Member (no party on list),G0019,,,y,,2026-11-11,https://www.cnrd.tn/%d9%82%d8%a7%d8%a6%d9%85%d8%a9-%d8%a7%d9%84%d9%86%d9%88%d8%a7%d8%a8/
 O00004,A0006,B0001,Member; rapporteur of the finance and budget committee,Independent,G0001,,,y,,2026-11-11,https://arp.tn/deputies
 O00005,A0007,B0001,Member,Independent,G0001,,,y,,2026-11-11,https://arp.tn/deputies
