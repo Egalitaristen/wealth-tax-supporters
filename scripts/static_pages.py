@@ -258,3 +258,9 @@ def contribute_body():
     return _page("contribute", _head("Contribute", "Suggest a supporter, start a register",
         "The register grows with the help of readers. Suggest a supporter we have missed, with a link to where they said it, start a register for your country, "
         "or help check the entries already here.") + _list([_link("/report", "Report a mistake in an entry"), _link("/feedback", "Send feedback or report a bug"), _link("/method", "Read the method")]))
+
+
+def directory_type_body(plural, people, cname):
+    rows = [f'{_link(f"/{p["slug"]}/{p["id"]}", p["name"])}{": " + h(p["role"][:140]) if p.get("role") else ""} ({h(cname.get(p["slug"], p["slug"]))}, grade {p["grade"]})' for p in people]
+    return _page("directory-type", _head("Directory", f"{plural} who back a wealth tax",
+                 f"The strongest evidence first. Each name opens its dated, quoted sources.") + _list(rows))

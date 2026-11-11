@@ -1044,6 +1044,35 @@ TYPE = {"politician": "Politician", "party": "Party", "government_body": "Counci
         "business_leader": "Business leader", "faith": "Faith leader or body", "cultural_figure": "Cultural figure",
         "campaigner": "Campaigner", "international_body": "International body", "funder": "Funder"}
 GRADE = {"A": "Explicit support", "B": "Named support", "C": "Implied support"}
+# The same plural labels as TYPES_PL in site/app.js; a page per kind of supporter lives at /directory/<slug>.
+TYPE_PLURAL = {"politician": "Politicians", "party": "Parties", "government_body": "Councils and bodies", "academic": "Academics", "economist": "Economists",
+               "think_tank": "Think tanks", "ngo_campaign": "Campaign groups", "union": "Unions", "union_official": "Union officials", "journalist": "Commentators",
+               "media_outlet": "Media outlets", "legal_tax_professional": "Legal and tax experts", "wealthy_individual": "Wealthy individuals",
+               "business_leader": "Business leaders", "faith": "Faith", "cultural_figure": "Cultural figures", "campaigner": "Campaigners",
+               "international_body": "International bodies", "funder": "Funders"}
+
+
+def type_slug(code):
+    return re.sub(r"[^a-z]+", "-", TYPE_PLURAL.get(code, code).lower()).strip("-")
+
+
+def directory_stats(index, full, countries, home_slug):
+    """One entry per person: the same Wikidata id on several registers is one person (the directory does the same in the app).
+    The entry kept is the one in the person's home country, else the strongest; `designs` is every design they back anywhere."""
+    designs = {(c["slug"], p[0]): p[12] for c in countries for p in full[c["slug"]]["P"]}
+    by = {}
+    for r in index:  # [slug, id, name, type, role, place, grade, statements, qid]
+        by.setdefault(r[8] or f"{r[0]}/{r[1]}", []).append(r)
+    people = []
+    for key, grp in by.items():
+        hs = home_slug.get(key, "") if grp[0][8] else ""
+        grp.sort(key=lambda r: (r[0] != hs, "ABC".find(r[6]) if r[6] in "ABC" else 3, -int(r[7] or 0)))
+        b = grp[0]
+        people.append(dict(slug=b[0], id=b[1], name=b[2], type=b[3], role=b[4], place=b[5], grade=b[6], n=sum(int(g[7] or 0) for g in grp),
+                           slugs=sorted({g[0] for g in grp}), designs=sorted({d for g in grp for d in designs.get((g[0], g[1]), [])})))
+    return dict(people=people, types=dict(collections.Counter(p["type"] for p in people).most_common()),
+                designs=dict(collections.Counter(d for p in people for d in p["designs"]).most_common()),
+                grades=dict(collections.Counter(p["grade"] for p in people)))
 SPOKEN = {"speech", "op_ed", "statement", "interview", "social_post", "testimony", "publication", "editorial", "campaign"}
 
 
@@ -1305,7 +1334,7 @@ def resource_pages(write, resources, full, cards, countries):
     return n
 
 
-def share_pages(out, base, countries, full, unique=None, bodies=(), resources=(), stories=None, arguments=()):
+def share_pages(out, base, countries, full, unique=None, bodies=(), resources=(), stories=None, arguments=(), dirstats=None):
     stories = stories or {}
     PRELOAD_SLUGS.update(c["slug"] for c in countries)
     """Writes per-page HTML (and share images when Pillow is installed). Returns the number of pages."""
@@ -1338,12 +1367,12 @@ def share_pages(out, base, countries, full, unique=None, bodies=(), resources=()
     write("/", "Wealth Tax Supporters: who backs a wealth tax near you?",
           f"{tot['supporters']:,} public figures and organisations across {tot['countries']} countries who have backed a wealth tax on the record. Every name links to its source.",
           "home", "Who backs a wealth tax near you?",
-          lambda o: cards.home_card(o, tot, type_rows(sum((collections.Counter(c.get("types") or {}) for c in countries), collections.Counter()))),
+          lambda o: cards.home_card(o, tot, type_rows(collections.Counter(dirstats["types"]))),
           body=sp.home_body(tot, countries))
     write("/method", "How the register is built · Wealth Tax Supporters",
           "What counts as support for a wealth tax, how statements are sourced and graded, and how to report a mistake.",
-          "method", "How the register is built", lambda o: cards.method_card(o, [sum(c[g] for c in countries) for g in "ABC"], "Sourced, graded and open: every name links to where they said it."),
-          body=sp.method_body([sum(c[g] for c in countries) for g in "ABC"]))
+          "method", "How the register is built", lambda o: cards.method_card(o, [dirstats["grades"].get(g, 0) for g in "ABC"], "Sourced, graded and open: every name links to where they said it."),
+          body=sp.method_body([dirstats["grades"].get(g, 0) for g in "ABC"]))
     write("/countries", "Countries · Wealth Tax Supporters",
           f"The {tot['countries']} countries researched so far, with supporters found and seats in the national chambers.",
           "countries", "Country by country", lambda o: cards.countries_card(o, [(c["slug"], c["name"]) for c in sorted(countries, key=lambda c: -c["supporters"])], "Each one researched separately, with its own map, polls and seats."),
@@ -1370,13 +1399,27 @@ def share_pages(out, base, countries, full, unique=None, bodies=(), resources=()
           "contribute", "Help build the register", lambda o: cards.page_card(o, "Contribute", "Help build the register", "Suggest a supporter, help check entries, or start a country.",
                                     [("1", "Suggest a supporter"), ("2", "Check an entry's source"), ("3", "Start a country")]),
           body=sp.contribute_body())
+    def top_countries(people, n=6):
+        c = collections.Counter(p["slug"] for p in people)
+        nm = {x["slug"]: x["name"] for x in countries}
+        return [(slug, nm.get(slug, slug), k) for slug, k in c.most_common(n)]
     write("/directory", "The global directory · Wealth Tax Supporters",
           f"{tot['supporters']:,} public figures and organisations in {tot['countries']} countries who have backed a wealth tax, filterable by country, type and strength of evidence.",
-          "directory", "The global directory", lambda o: cards.directory_card(
-              o, "Everyone on the record", tot["supporters"], f"public figures and organisations in {tot['countries']} countries, each with the statement they rest on",
-              type_rows(sum((collections.Counter(c.get("types") or {}) for c in countries), collections.Counter())),
-              [(GRADE[g], sum(c[g] for c in countries)) for g in "ABC"]),
+          "directory", "The global directory",
+          lambda o: cards.directory_all_card(o, tot["supporters"], tot["countries"], top_countries(dirstats["people"])),
           body=sp.directory_global_body(countries))
+    for code, n_type in dirstats["types"].items():
+        if n_type < 25:
+            continue
+        plural, slug_t = TYPE_PLURAL.get(code, code), type_slug(code)
+        ppl = sorted((p for p in dirstats["people"] if p["type"] == code), key=lambda p: ("ABC".find(p["grade"]), -p["n"], p["name"]))
+        spread = len({s for p in ppl for s in p["slugs"]})
+        write(f"/directory/{slug_t}", f"{plural} who back a wealth tax · Directory · Wealth Tax Supporters",
+              f"{n_type:,} {plural.lower()} in {spread} countries who have backed a wealth tax on the record, each with the statement they rest on.",
+              f"directory-{slug_t}", f"{plural} who back a wealth tax: {n_type:,} found so far",
+              lambda o, plural=plural, n_type=n_type, ppl=ppl, spread=spread: cards.directory_type_card(
+                  o, plural, n_type, spread, top_countries(ppl, 5), [p["name"] for p in ppl[:6]]),
+              body=sp.directory_type_body(plural, ppl[:300], {x["slug"]: x["name"] for x in countries}))
     write("/feedback", "Feedback and bug reports · Wealth Tax Supporters",
           "Something broken, confusing or missing? Send feedback or report a bug. No account needed.",
           "feedback", "Feedback and bug reports", lambda o: cards.page_card(o, "Feedback", "Tell us what to fix or improve", "Feedback, ideas and bug reports. No account needed.",
@@ -1651,7 +1694,9 @@ def main():
             n = numeric_for(r["iso2"])
             if n:
                 wt_status[n] = r["status"]
-    world = dict(unique_supporters=unique, home={q: next((c["slug"] for c in countries if c["iso2"].upper() == h), "") for q, h in people_home()[0].items()}, countries=countries, wt_status=wt_status, bodies=bodies, planned=planned, resources=world_resources, all_countries=sorted(every), built=datetime.date.today().isoformat())
+    home_slug = {q: next((c["slug"] for c in countries if c["iso2"].upper() == h), "") for q, h in people_home()[0].items()}
+    dirstats = directory_stats(index, full, countries, home_slug)
+    world = dict(unique_supporters=unique, types=dirstats["types"], designs=dirstats["designs"], grades=dirstats["grades"], home=home_slug, countries=countries, wt_status=wt_status, bodies=bodies, planned=planned, resources=world_resources, all_countries=sorted(every), built=datetime.date.today().isoformat())
     json.dump(world, open(out / "data" / "world.json", "w", encoding="utf-8"), separators=(",", ":"), ensure_ascii=False)
     if (DATA / "changelog.json").exists():
         shutil.copy(DATA / "changelog.json", out / "data" / "changelog.json")
@@ -1668,7 +1713,7 @@ def main():
     html = html.replace('name="data-version" content=""', f'name="data-version" content="{dv}"')
     html = html.replace('href="/data/world.json" as="fetch"', f'href="/data/world.json?v={dv}" as="fetch"')
     (out / "index.html").write_text(html, encoding="utf-8")
-    n = share_pages(out, html, countries, full, unique, bodies, world_resources, stories, arguments)
+    n = share_pages(out, html, countries, full, unique, bodies, world_resources, stories, arguments, dirstats=dirstats)
     if arguments:
         checked, bad, skipped = check_argument_links(arguments, full, stories, bool(only))
         print(f"Argument links: {checked} internal links checked, {len(bad)} problem{'' if len(bad) == 1 else 's'}" + (f", {len(skipped)} not checked (country not in this preview build)" if skipped else ""))
