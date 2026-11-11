@@ -18,7 +18,7 @@ Seed pass record notes (R001, 11 November 2026). Nothing here is a source for a 
 
 ## 3. Members, parties, seats
 
-- **Member list.** No machine-readable list reached; no Seats tab. The parliament's own member pages are the place to look; Wikipedia and Wikidata list constituencies (named `Comilla-10` style).
+- **Member list.** `parliament.gov.bd` (and `/members/current-mp`) gave no response to `curl` in R002, so there is no Seats tab and Salafi's `positions.csv` row is not checked against an official list (`current` blank). Try it in a browser. The parliament's own member pages are the place to look; Wikipedia and Wikidata list constituencies (named `Comilla-10` style).
 - Kamal's constituency, Comilla-10, is placed in the Cumilla district unit (G0021); constituencies do not match districts one to one.
 
 ## 4. Other official records
@@ -37,4 +37,5 @@ Seed pass record notes (R001, 11 November 2026). Nothing here is a source for a 
 
 | Date | Run | Documents read (title, number, date) | Result (rows added, votes found) | Not read / open |
 |---|---|---|---|---|
+| 2026-11-11 | R002 | Task Force final report (gedkp.gov.bd PDF, keyword search); CPD presentation of 24 May 2023 (PDF); BNP manifesto 2026 (PDF, keyword search); budget-debate reports of 14 June 2026 (TBS, English and Bengali) and 23 June 2026 (Ajker Patrika); NBR statements 31 March 2026 (Daily Star, Arthosuchak) and 14 May 2026 (Daily Star) | 14 evidence rows, 7 actors; Task Force row regraded from A to B | Hansard and member list (parliament.gov.bd did not answer); budget speech FY2026-27 (customs.gov.bd 403); the other debate days; Finance Act 2026 |
 | 2026-11-11 | R001 | NBR wealth tax plan, Daily Star 2026-06-04 and CPD/TBS 2026-05-13; CPD property-tax dialogue, TBS 2023-05-24; Task Force report, Prothom Alo 2025-02; budget speech FY2019-20, bdnews24 2019-06-13 | 17 evidence rows; no votes | Official texts of all four; Hansard of the June 2026 budget debate; Finance Act 2026; Dhaka Tribune and Bangla Tribune pages (403) |

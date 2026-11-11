@@ -18,10 +18,13 @@ Seed pass R001, 11 November 2026. Facts come from the sources linked in the evid
 - 4 June 2026: the government was set to drop the plan after Prime Minister Tarique Rahman's directive ([Daily Star](https://www.thedailystar.net/business/economy/news/govt-may-drop-planned-wealth-tax-bike-and-rickshaw-ait-4190076)). Budget FY2026-27 was presented on 11 June 2026; whether the Finance Act contains any wealth tax was not confirmed (open).
 
 ## 3. Legislature and records
-Jatiya Sangsad. No online Hansard or roll-call list was found. See `skill/references/records/bd.md`.
+Jatiya Sangsad (13th Parliament elected 12 February 2026). parliament.gov.bd did not answer from the sandbox, so no Hansard, roll call or member list was read and there is no Seats tab. Speeches come from press reports of the 14 June 2026 budget debate (The Business Standard, English and Bengali) and Ajker Patrika (23 June). The budget passed at the end of June 2026 (press); whether the Finance Act contains any wealth tax was not confirmed, and the budget speech itself (customs.gov.bd) answers 403. See `skill/references/records/bd.md`.
 
 ## 4. Parties
-BNP (government since February 2026), Jamaat-e-Islami, NCP: their 2026 manifestos were reported as tax-cut or tax-net pledges, with no wealth tax found. Awami League: only the 2019 budget speech.
+- **BNP** (government since February 2026): its manifesto of 6 February 2026 lists "Property and Wealth Tax" in the revenue chart (C). The BNP government dropped the NBR plan in June 2026.
+- **Jamaat-e-Islami** (opposition): MP Obaidullah Salafi proposed a wealth tax on the rich in the budget debate (14 June 2026). Its shadow budget names high-income groups and underreported assets, not a wealth tax; MP Md Ruhul Amin spoke on inequality without naming a tax (both in exclusions).
+- **NCP, Gono Odhikar, left parties** (CPB, Workers Party, JSD, BASAD and a left alliance): criticised the FY27 budget as favouring the wealthy; the pages read name no wealth tax (left alliance in exclusions). CPB and JSD calls for special taxes on the wealthy in 2020 and 2022 and Nahid Islam's remarks are leads (D0015, D0014), read only as search summaries.
+- **Awami League:** the 2019 budget speech of Finance Minister Kamal (B).
 
 ## 5. Government below national level
 Divisions (8) and districts (64) are administrative units; the elected local tier is the union, upazila and zila parishads and the city corporations. Local bodies cannot levy a wealth tax. The tier loaded is the district. **Local decision:** skip. No sample was taken; the debate is national (NBR, budget, think tanks).
@@ -39,6 +42,12 @@ None used.
 CPD, BIDS, PRI, SANEM, Citizen's Platform for SDGs, Unnayan Shamannay, TIB, Oxfam in Bangladesh, ActionAid Bangladesh.
 
 ## 10. Plan for the next runs
-See `runs.csv` `notes_next`. In short: open the blocked Bengali pages and bylines; Bengali press by economist name; Hansard and press for the June 2026 budget debate; left parties and unions; civil-society budget statements; confirm the Finance Act 2026 outcome.
+See `runs.csv` `notes_next` (R002). In short: a browser pass on pages that answer 403 (Dhaka Tribune, Bangla Tribune, Observer, risingbd, dhakapost, jamuna, the budget speech) and the Hansard; the rest of the June 2026 budget debate day by day; NCP and left-party statements; TIB, SANEM, Unnayan Shamannay and Oxfam budget statements; month-by-month Bengali press for সম্পদ কর from March to June 2026; the Finance Act 2026; the member list for a Seats tab.
 
-**What was checked by hand:** all 17 quotes are on their pages (`checkquotes`: 17 of 17 found). Each source was read as raw page text, not as a summary.
+## 11. Second pass (R002) findings
+- Bengali press is where the 2026 reaction is: it gave the NBR chairman's own statement, a former NBR member, the chairman of Policy Exchange Bangladesh and a Jamaat MP, none of whom appear in English reports.
+- Re-checked rows: the Task Force's own report says "progressive taxation on wealth and inheritance must be prioritised" and never uses "wealth tax", so its best grade is B (the A from Prothom Alo's paraphrase was removed). Kamal's 2019 proposal stays at B: the higher-of floor is 0.1% of net wealth, but the tool is a surcharge and enactment was not checked. NBR stays at B on two press accounts; Altaf Parvez stays at C ("wealth tax system" is the existing surcharge).
+- Searched, nothing found: trade unions and garment-worker federations (wage campaigns only), Oxfam in Bangladesh, ActionAid Bangladesh, Unnayan Shamannay, BIDS and SANEM statements, university economists' columns (other than those recorded), editorials (the Financial Express and Daily Star editorials read caution against a narrow focus on rates or criticise the budget without proposing a wealth tax).
+- Resources page: the Task Force report and the CPD presentation are added. The NBR draft and the FY2026-27 budget speech could not be opened, so they are not listed.
+
+**What was checked by hand:** all 31 quotes are on their pages (`checkquotes`: 31 of 31 found), including Bengali rows (the quote is copied from the page text, which uses decomposed letters such as ় ). Each source was read as raw page text, not as a summary.
