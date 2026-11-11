@@ -864,7 +864,7 @@ async function countryPage(slug, params, section) {
   const box = $('#csec');
   if (section === 'story') storySection(box, ST, D, slug);
   else if (section === 'map') mapSection(box, D, slug, params);
-  else if (section === 'seats') seatsSection(box, D, slug);
+  else if (section === 'seats') seatsSection(box, D, slug, params);
   else if (section === 'directory') directorySection(box, D, slug, params);
   else if (section === 'time') timeSection(box, D, slug, S);
   else methodSection(box, D, slug);
@@ -971,12 +971,24 @@ function seatColour(hex) {
   const l = (parseInt(h.slice(0, 2), 16) * 0.299 + parseInt(h.slice(2, 4), 16) * 0.587 + parseInt(h.slice(4, 6), 16) * 0.114) / 255;
   return l > 0.88 ? '#8a8680' : '#' + h;
 }
-function seatsSection(box, D, slug) {
+function seatsSection(box, D, slug, params) {
   const person = new Map(D.P.map(p => [p[P_.id], p]));
+  const levels = ['national', 'regional', 'local', 'supranational'].filter(l => D.legis.some(b => (b.level || 'national') === l));
   box.innerHTML = `<section class="c-sec">
     <div class="sec-head"><div><div class="kicker">Seats</div><h2>Who sits in the chamber</h2></div>
       <p>${D.meta.member_label === 'government' ? 'One dot per member state, grouped by the UN regional group. A lit dot is a government in office whose public support for a wealth tax is on the record here. An unlit seat means nothing found yet, not that the government is against it.' : 'One dot per seat, grouped by party. A lit dot is a sitting member whose public support for a wealth tax is on the record here. An unlit seat means nothing found yet, not that the member is against it.'} Hover a dot to see who it is; click a lit dot or a name for a short profile, and open the full profile from there.</p></div>
-    ${D.legis.map(b => bodyHtml(b, person, slug)).join('')}</section>`;
+    ${levels.length > 1 ? `<div class="seg seat-levels" role="group" aria-label="Level">${levels.map(l => `<button type="button" data-v="${esc(l)}">${esc(label(LEVEL, l))} <span>${D.legis.filter(b => (b.level || 'national') === l).length}</span></button>`).join('')}</div>` : ''}
+    <div id="seat-bodies"></div></section>`;
+  const showLevel = l => {
+    $('#seat-bodies', box).innerHTML = D.legis.filter(b => levels.length < 2 || (b.level || 'national') === l).map(b => bodyHtml(b, person, slug)).join('');
+    $$('.seat-levels button', box).forEach(x => x.classList.toggle('on', x.dataset.v === l));
+    const q = new URLSearchParams(location.search);
+    if (levels.length > 1 && l !== levels[0]) q.set('level', l); else q.delete('level');
+    const u = q.toString();
+    history.replaceState(null, '', location.pathname + (u ? '?' + u : ''));
+  };
+  $$('.seat-levels button', box).forEach(x => x.addEventListener('click', () => { close(); showLevel(x.dataset.v); }));
+  showLevel(params && levels.includes(params.get('level')) ? params.get('level') : levels[0]);
   // An instant label on hover (the browser's own tooltip waits too long), and a floating profile preview on click.
   const tip = document.createElement('div'), pv = document.createElement('aside');
   tip.className = 'seat-tip'; tip.hidden = true; tip.setAttribute('role', 'tooltip');

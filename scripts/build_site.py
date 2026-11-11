@@ -310,7 +310,7 @@ def build_supranational(folder, full):
             continue
         parties = [[x["party"], int(x["seats"]), x["colour"], sitting[b["body_id"]].get(x["party"], [])]
                    for x in sorted(seats_by[b["body_id"]], key=lambda x: int(x["order"] or 0))]
-        legis.append(dict(id=b["body_id"], name=b["name"], seats=int(b["seats"]), as_of=b["as_of"], src=b["source_url"], note=b.get("notes", ""), parties=parties))
+        legis.append(dict(id=b["body_id"], name=b["name"], level=b.get("level", ""), seats=int(b["seats"]), as_of=b["as_of"], src=b["source_url"], note=b.get("notes", ""), parties=parties))
     grades = collections.Counter(p[8] for p in P)
     summary = dict(slug=slug, iso2=meta.get("iso2", slug.upper()), name=meta["name"], status=meta.get("status", ""), lead=meta.get("lead", ""),
                    notes=meta.get("notes", ""), supporters=len(P), evidence=len(E), A=grades["A"], B=grades["B"], C=grades["C"],
@@ -547,7 +547,7 @@ def build_country(folder):
             continue
         parties = [[s["party"], int(s["seats"]), s["colour"], sitting[b["body_id"]].get(s["party"], [])]
                    for s in sorted(seats_by[b["body_id"]], key=lambda s: int(s["order"] or 0))]
-        legis.append(dict(id=b["body_id"], name=b["name"], seats=int(b["seats"]), as_of=b["as_of"], src=b["source_url"], note=b.get("notes", ""), parties=parties))
+        legis.append(dict(id=b["body_id"], name=b["name"], level=b.get("level", ""), seats=int(b["seats"]), as_of=b["as_of"], src=b["source_url"], note=b.get("notes", ""), parties=parties))
     # the one or two national chambers, for the countries list
     summary["chambers"] = [[b["name"], int(b["seats"]), sum(len(v) for v in sitting[b["body_id"]].values())] for b in rd(folder / "bodies.csv")
                            if b["level"] == "national" and b.get("seat_view") == "y" and b["body_id"] in seats_by][:2]
