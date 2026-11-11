@@ -1,0 +1,8 @@
+{
+  "name": "Bangladesh",
+  "iso2": "BD",
+  "lead": "",
+  "status": "in progress",
+  "boundaries": "boundaries.json",
+  "notes": "Depth: seed pass R001 (2026-11-11). Scope: national debate only, in English; Bengali searches were run but most Bengali outlets answer 403 to scripts. Geography: Bangladesh G0001, Jatiya Sangsad G0002, 8 divisions and 64 districts from the OCHA COD-AB Bangladesh dataset (CC BY-IGO 3.0, BBS boundaries, P-codes BD10 to BD60 and BD1004 to BD6094). The local tier is the district (zila); the 495 upazilas (OCHA admin 3) are not loaded. No standalone wealth tax exists: the Wealth Tax Act of 1963 was repealed in 1999 and replaced from FY2011-12 by a surcharge of 10% to 35% on income tax payable for net wealth above Tk 4 crore. In May 2026 the NBR drafted a direct tax of 0.25% to 1% on declared net wealth above Tk 4 crore to replace the surcharge; the Prime Minister dropped it before the 11 June 2026 budget. Supporters found are economists, think tanks, one government task force, one former finance minister and the tax authority. No party, MP, union or civil-society group meeting the definition was found. Opponents (Masud Khan, Muhith, Mirza Azizul Islam, Sajjad Zohir, Mamun Rashid) are in exclusions.csv. No Seats tab: no machine-readable Jatiya Sangsad member list was reachable."
+}
