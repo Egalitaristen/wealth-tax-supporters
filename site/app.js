@@ -983,26 +983,26 @@ function seatColour(hex) {
 function seatsSection(box, D, slug, params) {
   const person = new Map(D.P.map(p => [p[P_.id], p]));
   const levels = ['national', 'regional', 'local', 'supranational'].filter(l => D.legis.some(b => (b.level || 'national') === l));
+  const levelsHtml = levels.length > 1 ? `<div class="seg seat-levels" role="group" aria-label="Level">${levels.map(l => `<button type="button" data-v="${esc(l)}">${esc(label(LEVEL, l))} <span>${D.legis.filter(b => (b.level || 'national') === l).length}</span></button>`).join('')}</div>` : '';
   box.innerHTML = `<section class="c-sec">
     <div class="sec-head"><div><div class="kicker">Seats</div><h2>Who sits in the chamber</h2></div>
       <p>${D.meta.member_label === 'government' ? 'One dot per member state, grouped by the UN regional group. A lit dot is a government in office whose public support for a wealth tax is on the record here. An unlit seat means nothing found yet, not that the government is against it.' : 'One dot per seat, grouped by party. A lit dot is a sitting member whose public support for a wealth tax is on the record here. An unlit seat means nothing found yet, not that the member is against it.'} Hover a dot to see who it is; click a lit dot or a name for a short profile, and open the full profile from there.</p></div>
-    ${levels.length > 1 ? `<div class="seg seat-levels" role="group" aria-label="Level">${levels.map(l => `<button type="button" data-v="${esc(l)}">${esc(label(LEVEL, l))} <span>${D.legis.filter(b => (b.level || 'national') === l).length}</span></button>`).join('')}</div>` : ''}
-    <div class="seat-grid" id="seat-grid"><nav class="seat-nav" id="seat-nav" aria-label="Chambers on this page"></nav><div id="seat-bodies"></div></div></section>`;
+    <div class="seat-grid" id="seat-grid"><nav class="seat-nav" id="seat-nav" aria-label="Levels and chambers on this page">${levelsHtml}<div id="seat-list"></div></nav><div id="seat-bodies"></div></div></section>`;
   const wide = matchMedia('(min-width: 900px)');
   let io = null;
-  const syncJump = () => { const d = $('#seat-nav details', box); if (d) d.open = wide.matches; };
+  const syncJump = () => { const d = $('#seat-list details', box); if (d) d.open = wide.matches; };
   wide.addEventListener('change', syncJump);
   const showLevel = l => {
     const bs = D.legis.filter(b => levels.length < 2 || (b.level || 'national') === l);
     $('#seat-bodies', box).innerHTML = bs.map(b => bodyHtml(b, person, slug)).join('');
     // a list of the chambers to jump between, once there is more than one; the one in view is marked
-    $('#seat-nav', box).innerHTML = bs.length > 1 ? `<details class="jump"><summary>Chambers</summary><ol class="toc">${bs.map(b => `<li><a href="#seat-${esc(b.id)}">${esc(b.name)}<small>${fmt(litIn(b))} of ${fmt(b.seats)} seats</small></a></li>`).join('')}</ol></details>` : '';
-    $('#seat-grid', box).classList.toggle('no-rail', bs.length < 2);
+    $('#seat-list', box).innerHTML = bs.length > 1 ? `<details class="jump"><summary>Chambers</summary><ol class="toc">${bs.map(b => `<li><a href="#seat-${esc(b.id)}">${esc(b.name)}<small>${fmt(litIn(b))} of ${fmt(b.seats)} seats</small></a></li>`).join('')}</ol></details>` : '';
+    $('#seat-grid', box).classList.toggle('no-rail', bs.length < 2 && levels.length < 2);
     syncJump();
     if (io) io.disconnect();
     io = null;
     if (bs.length > 1 && 'IntersectionObserver' in window) {
-      const links = new Map($$('#seat-nav .toc a', box).map(a => [a.getAttribute('href').slice(1), a]));
+      const links = new Map($$('#seat-list .toc a', box).map(a => [a.getAttribute('href').slice(1), a]));
       io = new IntersectionObserver(es => es.forEach(e => { const a = links.get(e.target.id); if (a && e.isIntersecting) { links.forEach(x => x.removeAttribute('aria-current')); a.setAttribute('aria-current', 'location'); } }),
         {rootMargin: '-150px 0px -65% 0px'});
       $$('.legis', box).forEach(x => io.observe(x));
