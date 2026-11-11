@@ -1285,3 +1285,14 @@ body:not(.ready) .foot { visibility: hidden; }
 .seat-levels { margin: 22px 0 0; }
 .seat-levels button span { margin-left: 4px; font-size: 12px; opacity: .6; }
 .seat-levels button.on span { opacity: .75; }
+
+/* seats: a list of the chambers on the left (like the story page's sections), sticky while the charts scroll */
+.seat-grid { display: grid; grid-template-columns: 210px minmax(0, 1fr); gap: 0 40px; align-items: start; }
+.seat-grid.no-rail { grid-template-columns: minmax(0, 1fr); }
+.seat-nav { position: sticky; top: 150px; max-height: calc(100vh - 170px); overflow-y: auto; margin-top: 34px; }
+.seat-nav:empty { display: none; }
+.seat-nav .toc small { display: block; margin-top: 1px; font-size: 12px; color: var(--ink-3); }
+@media (max-width: 899px) {
+  .seat-grid { grid-template-columns: minmax(0, 1fr); gap: 0; }
+  .seat-nav { position: static; max-height: none; overflow: visible; margin: 22px 0 0; border: 1px solid var(--rule-2); background: var(--card); }
+}

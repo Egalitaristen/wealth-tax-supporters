@@ -978,9 +978,26 @@ function seatsSection(box, D, slug, params) {
     <div class="sec-head"><div><div class="kicker">Seats</div><h2>Who sits in the chamber</h2></div>
       <p>${D.meta.member_label === 'government' ? 'One dot per member state, grouped by the UN regional group. A lit dot is a government in office whose public support for a wealth tax is on the record here. An unlit seat means nothing found yet, not that the government is against it.' : 'One dot per seat, grouped by party. A lit dot is a sitting member whose public support for a wealth tax is on the record here. An unlit seat means nothing found yet, not that the member is against it.'} Hover a dot to see who it is; click a lit dot or a name for a short profile, and open the full profile from there.</p></div>
     ${levels.length > 1 ? `<div class="seg seat-levels" role="group" aria-label="Level">${levels.map(l => `<button type="button" data-v="${esc(l)}">${esc(label(LEVEL, l))} <span>${D.legis.filter(b => (b.level || 'national') === l).length}</span></button>`).join('')}</div>` : ''}
-    <div id="seat-bodies"></div></section>`;
+    <div class="seat-grid" id="seat-grid"><nav class="seat-nav" id="seat-nav" aria-label="Chambers on this page"></nav><div id="seat-bodies"></div></div></section>`;
+  const wide = matchMedia('(min-width: 900px)');
+  let io = null;
+  const syncJump = () => { const d = $('#seat-nav details', box); if (d) d.open = wide.matches; };
+  wide.addEventListener('change', syncJump);
   const showLevel = l => {
-    $('#seat-bodies', box).innerHTML = D.legis.filter(b => levels.length < 2 || (b.level || 'national') === l).map(b => bodyHtml(b, person, slug)).join('');
+    const bs = D.legis.filter(b => levels.length < 2 || (b.level || 'national') === l);
+    $('#seat-bodies', box).innerHTML = bs.map(b => bodyHtml(b, person, slug)).join('');
+    // a list of the chambers to jump between, once there is more than one; the one in view is marked
+    $('#seat-nav', box).innerHTML = bs.length > 1 ? `<details class="jump"><summary>Chambers</summary><ol class="toc">${bs.map(b => `<li><a href="#seat-${esc(b.id)}">${esc(b.name)}<small>${fmt(litIn(b))} of ${fmt(b.seats)} seats</small></a></li>`).join('')}</ol></details>` : '';
+    $('#seat-grid', box).classList.toggle('no-rail', bs.length < 2);
+    syncJump();
+    if (io) io.disconnect();
+    io = null;
+    if (bs.length > 1 && 'IntersectionObserver' in window) {
+      const links = new Map($$('#seat-nav .toc a', box).map(a => [a.getAttribute('href').slice(1), a]));
+      io = new IntersectionObserver(es => es.forEach(e => { const a = links.get(e.target.id); if (a && e.isIntersecting) { links.forEach(x => x.removeAttribute('aria-current')); a.setAttribute('aria-current', 'location'); } }),
+        {rootMargin: '-150px 0px -65% 0px'});
+      $$('.legis', box).forEach(x => io.observe(x));
+    }
     $$('.seat-levels button', box).forEach(x => x.classList.toggle('on', x.dataset.v === l));
     const q = new URLSearchParams(location.search);
     if (levels.length > 1 && l !== levels[0]) q.set('level', l); else q.delete('level');
@@ -1024,7 +1041,7 @@ function seatsSection(box, D, slug, params) {
   });
   const keys = e => { if (e.key === 'Escape' && !pv.hidden) close(); };
   document.addEventListener('keydown', keys);
-  leaving = () => { document.removeEventListener('keydown', keys); tip.remove(); pv.remove(); };
+  leaving = () => { document.removeEventListener('keydown', keys); wide.removeEventListener('change', syncJump); if (io) io.disconnect(); tip.remove(); pv.remove(); };
 }
 function bodyHtml(b, person, slug) {
   const {pts, dot} = hemicycle(b.seats), W = 220, H = 118, cx = 110, cy = 112, S = 100;
@@ -1045,7 +1062,7 @@ function bodyHtml(b, person, slug) {
     return `<div class="sp"><div class="sp-h"><i style="background:${seatColour(colour)}"></i><b>${esc(party)}</b><span>${fmt(ids.length)} of ${fmt(n)}${pct}</span></div>
       ${names.length ? `<p>${names.map(p => `<a href="/${slug}/${esc(p[P_.id])}" data-pid="${esc(p[P_.id])}">${esc(p[P_.name])}</a>`).join(', ')}</p>` : ''}</div>`;
   }).join('');
-  return `<div class="legis">
+  return `<div class="legis" id="seat-${esc(b.id)}">
     <div class="legis-head"><h3>${esc(b.name)}</h3><p><b>${fmt(lit)}</b> of ${fmt(b.seats)} seats held by a supporter found so far · seats as of ${esc(b.as_of)}${b.src ? ` · ${ext(b.src, 'source')}` : ''}</p>${b.note ? `<p class="legis-note">${esc(b.note)}</p>` : ''}</div>
     <svg class="hemi" viewBox="0 0 ${W} ${H}" role="img" aria-label="${esc(b.name)}: ${lit} of ${b.seats} seats held by a supporter found so far">${dots}</svg>
     <div class="sps">${rows}</div></div>`;
