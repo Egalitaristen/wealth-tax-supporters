@@ -787,3 +787,59 @@ def calculator_card(out, curves, title, line, unit="€"):
         _footer(dr)
         _save(img, path)
     return cached(out, ["calc", title, line, unit, [[l, [list(r) for r in rows], list(c)] for l, rows, c in curves]], draw)
+
+
+# ---------- directory cards: where the names are, by country ----------
+def _country_rows(img, dr, rows, x, y0, pitch, w):
+    """Rows of flag, country name, count and a bar. rows: (slug, name, count)."""
+    mx = max([n for _, _, n in rows] or [1])
+    for i, (slug, name, n) in enumerate(rows):
+        y = y0 + i * pitch
+        fw = _flag(img, slug, x, y + 2, 34, 24)
+        tx = x + (46 if fw else 0)
+        nf, _ = _fit(dr, name, lambda z: SANS(z, 500), w - 46 - 90, 23, 16)
+        dr.text((tx * S, y * S), name, font=nf, fill=INK)
+        cnt = f"{n:,}"
+        cf = SANS(23, 500)
+        dr.text(((x + w) * S - dr.textlength(cnt, font=cf), y * S), cnt, font=cf, fill=INK)
+        dr.rectangle((tx * S, (y + 34) * S, (tx + max(6, int((w - 46) * n / mx))) * S, (y + 39) * S), fill=SIGNAL)
+
+
+def directory_all_card(out, total, n_countries, top):
+    """The global directory: the number, and the countries with the most names. top: (slug, name, count), biggest first."""
+    top = top[:6]
+    def draw(path):
+        img, dr = _canvas()
+        dr.text((60 * S, 54 * S), "DIRECTORY · EVERYONE ON THE RECORD", font=SANS(20, 500), fill=INK3)
+        lines, size = _title(dr, "Every name, with its source", 620, 2, 104, 64)
+        y = _put_title(dr, lines, size, 56, 92) + 22
+        dr.text((60 * S, y * S), f"{total:,}", font=SERIF(104), fill=SIGNAL)
+        for i, ln in enumerate(_wrap(dr, f"public figures and organisations in {n_countries} countries who back a wealth tax, each with a dated quote", SANS(26), 620, 3)):
+            dr.text((60 * S, (y + 118 + i * 34) * S), ln, font=SANS(26), fill=INK2)
+        _panel(dr)
+        dr.text((772 * S, 66 * S), "WHERE THEY ARE", font=SANS(16, 500), fill=INK3)
+        _country_rows(img, dr, top, 772, 112, 66, 356)
+        _footer(dr)
+        _save(img, path)
+    return cached(out, ["dir-all", total, n_countries, [list(t) for t in top]], draw)
+
+
+def directory_type_card(out, label, total, n_countries, top, names):
+    """A directory filtered to one kind of supporter: how many, where, and a few of the strongest names. top: (slug, name, count)."""
+    top = top[:5]
+    def draw(path):
+        img, dr = _canvas()
+        dr.text((60 * S, 54 * S), "DIRECTORY · " + label.upper(), font=SANS(20, 500), fill=INK3)
+        lines, size = _title(dr, f"{label} who back a wealth tax", 620, 3, 104, 62)
+        y = _put_title(dr, lines, size, 56, 92) + 20
+        dr.text((60 * S, y * S), f"{total:,}", font=SERIF(84), fill=SIGNAL)
+        dr.text(((60 + 28) * S + dr.textlength(f"{total:,}", font=SERIF(84)), (y + 44) * S), f"in {n_countries} countries" if n_countries != 1 else "in 1 country", font=SANS(26), fill=INK2)
+        if names:
+            for i, ln in enumerate(_wrap(dr, "Including " + ", ".join(names[:4]) + ".", SANS(24), 620, 3)):
+                dr.text((60 * S, (y + 112 + i * 32) * S), ln, font=SANS(24), fill=INK2)
+        _panel(dr)
+        dr.text((772 * S, 66 * S), "MOST IN", font=SANS(16, 500), fill=INK3)
+        _country_rows(img, dr, top, 772, 112, 78, 356)
+        _footer(dr)
+        _save(img, path)
+    return cached(out, ["dir-type", label, total, n_countries, [list(t) for t in top], names[:4]], draw)

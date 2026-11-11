@@ -23,6 +23,8 @@ const ext = (href, text, cls = '') => `<a class="${cls}" href="${esc(href)}" tar
 
 const TYPE = {politician: 'Politician', party: 'Party', government_body: 'Council or public body', academic: 'Academic', economist: 'Economist', think_tank: 'Think tank', ngo_campaign: 'Campaign group', union: 'Union', union_official: 'Union official', journalist: 'Commentator', media_outlet: 'Media outlet', legal_tax_professional: 'Legal or tax expert', wealthy_individual: 'Wealthy individual', business_leader: 'Business leader', faith: 'Faith leader or body', cultural_figure: 'Cultural figure', campaigner: 'Campaigner', international_body: 'International body', funder: 'Funder'};
 const TYPES_PL = {politician: 'Politicians', party: 'Parties', government_body: 'Councils and bodies', academic: 'Academics', economist: 'Economists', think_tank: 'Think tanks', ngo_campaign: 'Campaign groups', union: 'Unions', union_official: 'Union officials', journalist: 'Commentators', media_outlet: 'Media outlets', legal_tax_professional: 'Legal and tax experts', wealthy_individual: 'Wealthy individuals', business_leader: 'Business leaders', faith: 'Faith', cultural_figure: 'Cultural figures', campaigner: 'Campaigners', international_body: 'International bodies', funder: 'Funders'};
+const typeSlug = c => (TYPES_PL[c] || c).toLowerCase().replace(/[^a-z]+/g, '-').replace(/^-|-$/g, '');
+const typeFromSlug = sl => Object.keys(TYPES_PL).find(c => typeSlug(c) === sl) || '';
 const DES = {annual_net_wealth: 'Annual net wealth tax', one_off_levy: 'One-off wealth levy', billionaire_minimum: 'Billionaire minimum tax', unrealised_gains: 'Tax on unrealised gains', partial_wealth: 'Partial wealth tax', defend_existing: 'Keep an existing wealth tax', wealth_tax_unspecified: 'A wealth tax, design open'};
 const EVT = {open_letter: 'Open letter', motion_signature: 'Signed a motion', motion: 'Motion', vote: 'Vote', campaign: 'Campaign', op_ed: 'Op-ed', editorial: 'Editorial', speech: 'Speech', statement: 'Statement', policy_adoption: 'Adopted policy', publication: 'Publication', report: 'Report', funding: 'Funding', coalition_membership: 'Coalition member', interview: 'Interview', manifesto: 'Manifesto', bill_sponsorship: 'Bill sponsor', testimony: 'Testimony', social_post: 'Social post', petition: 'Petition', other: 'Other'};
 const PLAT = {official_page: 'Official page', website: 'Website', x: 'X', bluesky: 'Bluesky', mastodon: 'Mastodon', instagram: 'Instagram', facebook: 'Facebook', youtube: 'YouTube', tiktok: 'TikTok', linkedin: 'LinkedIn', substack: 'Substack', wikipedia: 'Wikipedia'};
@@ -147,6 +149,7 @@ async function render(fresh) {
     else if (parts[0] === 'about' && parts.length === 1) aboutPage(W);
     else if (parts[0] === 'changelog' && parts.length === 1) await changelogPage(W);
     else if (parts[0] === 'directory' && parts.length === 1) await globalDirectory(W, params);
+    else if (parts[0] === 'directory' && parts.length === 2 && typeFromSlug(parts[1])) { params.set('type', typeFromSlug(parts[1])); await globalDirectory(W, params); }
     else if ((parts[0] === 'contribute' || parts[0] === 'suggest') && parts.length === 1) contributePage(W, params);
     else if (parts[0] === 'calculator' && parts.length === 1) calcPage(params);
     else if (parts[0] === 'feedback' && parts.length === 1) feedbackPage(params);
@@ -525,7 +528,9 @@ async function home(W) {
   const tot = k => k === 'supporters' && W.unique_supporters != null ? W.unique_supporters : cs.reduce((n, c) => n + (c[k] || 0), 0);
   const latest = cs.map(c => c.updated).sort().pop() || W.built;
   const types = {}, designs = {};
-  cs.forEach(c => { Object.entries(c.types || {}).forEach(([k, v]) => types[k] = (types[k] || 0) + v); Object.entries(c.designs || {}).forEach(([k, v]) => designs[k] = (designs[k] || 0) + v); });
+  // One count per person: the same Wikidata id on several registers is one person, as in the directory.
+  if (W.types) { Object.assign(types, W.types); Object.assign(designs, W.designs || {}); }
+  else cs.forEach(c => { Object.entries(c.types || {}).forEach(([k, v]) => types[k] = (types[k] || 0) + v); Object.entries(c.designs || {}).forEach(([k, v]) => designs[k] = (designs[k] || 0) + v); });
   // Interleave featured quotes across countries, one per person.
   const feats = [], used = new Set(), lists = cs.map(c => (c.featured || []).map(f => [c, f]));
   for (let i = 0; feats.length < 6 && lists.some(l => l[i]); i++) lists.forEach(l => {
@@ -1783,7 +1788,7 @@ function contributePage(W, params) {
 
 // ---------- the global directory: everyone, every country ----------
 async function globalDirectory(W, params) {
-  setTitle('Directory');
+  setTitle(TYPES_PL[params.get('type')] && !params.get('country') && !params.get('q') ? `${TYPES_PL[params.get('type')]} who back a wealth tax · Directory` : 'Directory');
   const S = await searchData();
   const ST = {q: params.get('q') || '', country: params.get('country') || '', type: params.get('type') || '', grade: params.get('grade') || '', sort: params.get('sort') || 'strength', limit: 100};
   const rank = {A: 0, B: 1, C: 2};
@@ -1823,7 +1828,8 @@ async function globalDirectory(W, params) {
     const mb = $('#g-more-btn'); if (mb) mb.onclick = () => { ST.limit += 100; draw(); };
     const cl = $('#g-clear'); if (cl) cl.onclick = e => { e.preventDefault(); Object.assign(ST, {q: '', country: '', type: '', grade: ''}); q.value = sc.value = st.value = sg.value = ''; changed(); };
     const u = new URLSearchParams(Object.entries(ST).filter(([k, v]) => v && k !== 'limit' && !(k === 'sort' && v === 'strength'))).toString();
-    history.replaceState(null, '', '/directory' + (u ? '?' + u : ''));
+    const onlyType = new URLSearchParams(u).size === 1 && ST.type ? '/' + typeSlug(ST.type) : '';
+    history.replaceState(null, '', '/directory' + (onlyType || (u ? '?' + u : '')));
   };
   const changed = () => { ST.limit = 100; draw(); };
   q.addEventListener('input', () => { ST.q = q.value; changed(); });
