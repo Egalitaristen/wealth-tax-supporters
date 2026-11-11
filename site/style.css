@@ -1299,3 +1299,11 @@ body:not(.ready) .foot { visibility: hidden; }
   .seat-grid { grid-template-columns: minmax(0, 1fr); gap: 0; }
   .seat-nav { position: static; max-height: none; overflow: visible; margin: 22px 0 0; border: 1px solid var(--rule-2); background: var(--card); }
 }
+
+/* the plain-HTML copy of a page that the build writes into <main>; the app replaces it once it has drawn the page */
+.static-page { padding-top: 34px; padding-bottom: 60px; }
+.static-page h2 { margin: 34px 0 10px; font: 400 clamp(22px, 2.6vw, 28px)/1.15 var(--serif); }
+.static-page .sp-list { margin: 0; padding: 0; list-style: none; columns: 2 320px; column-gap: 40px; }
+.static-page .sp-list li { padding: 5px 0; break-inside: avoid; color: var(--ink-2); font-size: 15px; }
+.static-page blockquote { margin: 14px 0; padding: 0 0 0 16px; border-left: 2px solid var(--rule-2); }
+.static-page blockquote footer { font-size: 13px; color: var(--ink-3); }
