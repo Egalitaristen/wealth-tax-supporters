@@ -49,7 +49,7 @@ P00047,A0001,tiktok,https://www.tiktok.com/@die.linke,Wikidata Q49764,2026-10-22
 P00048,A0001,mastodon,https://mastodon.social/@dielinke,Wikidata Q49764,2026-10-22
 P00049,A0001,wikipedia,https://en.wikipedia.org/wiki/Die_Linke,Wikidata Q49764,2026-10-22
 P00050,A0002,x,https://x.com/die_gruenen,Wikidata Q49766,2026-10-22
-P00051,A0002,bluesky,https://bsky.app/profile/gruene.de,Wikidata Q49766,2026-10-22
+P00051,A0002,bluesky,https://bsky.app/profile/did:plc:5xyjxbl72m4d3je4pj4uvwes,Wikidata Q49766,2026-10-22
 P00052,A0002,instagram,https://www.instagram.com/die_gruenen/,Wikidata Q49766,2026-10-22
 P00053,A0002,facebook,https://www.facebook.com/B90DieGruenen,Wikidata Q49766,2026-10-22
 P00054,A0002,wikipedia,https://en.wikipedia.org/wiki/Alliance_90/The_Greens,Wikidata Q49766,2026-10-22
@@ -148,7 +148,7 @@ P00146,A0021,website,https://anne-zerr.de/,Wikidata Q132733617,2026-10-22
 P00147,A0021,wikipedia,https://en.wikipedia.org/wiki/Anne_Zerr_%28German_politician%29,Wikidata Q132733617,2026-10-22
 P00148,A0022,website,https://heidi-reichinnek.de/,Wikidata Q61965546,2026-10-22
 P00149,A0022,x,https://x.com/HeidiReichinnek,Wikidata Q61965546,2026-10-22
-P00150,A0022,bluesky,https://bsky.app/profile/heidireichinnek.de,Wikidata Q61965546,2026-10-22
+P00150,A0022,bluesky,https://bsky.app/profile/heidireichinnek.dielinkebt.de,Wikidata Q61965546,2026-10-22
 P00151,A0022,instagram,https://www.instagram.com/heidireichinnek/,Wikidata Q61965546,2026-10-22
 P00152,A0022,facebook,https://www.facebook.com/HeidiReichinnek,Wikidata Q61965546,2026-10-22
 P00153,A0022,tiktok,https://www.tiktok.com/@heidireichinnek,Wikidata Q61965546,2026-10-22
@@ -156,7 +156,7 @@ P00154,A0022,mastodon,https://social.linksfraktion.de/@heidi_reichinnek,Wikidata
 P00155,A0022,wikipedia,https://en.wikipedia.org/wiki/Heidi_Reichinnek,Wikidata Q61965546,2026-10-22
 P00156,A0023,website,https://www.soeren-pellmann.de/,Wikidata Q40999339,2026-10-22
 P00157,A0023,x,https://x.com/LINKEPELLI,Wikidata Q40999339,2026-10-22
-P00158,A0023,bluesky,https://bsky.app/profile/pellmann.bsky.social,Wikidata Q40999339,2026-10-22
+P00158,A0023,bluesky,https://bsky.app/profile/pellmann.dielinkebt.de,Wikidata Q40999339,2026-10-22
 P00159,A0023,instagram,https://www.instagram.com/soerenpellmann/,Wikidata Q40999339,2026-10-22
 P00160,A0023,facebook,https://www.facebook.com/soeren.pellmann,Wikidata Q40999339,2026-10-22
 P00161,A0023,youtube,https://www.youtube.com/channel/UCxPVlepR1FaogvElPBEfkuw,Wikidata Q40999339,2026-10-22
@@ -187,7 +187,6 @@ P00185,A0027,mastodon,https://social.linksfraktion.de/@susanne_hennig_wellsow,Wi
 P00186,A0027,wikipedia,https://en.wikipedia.org/wiki/Susanne_Hennig-Wellsow,Wikidata Q2369250,2026-10-22
 P00187,A0028,website,https://jankorte.de,Wikidata Q1599545,2026-10-22
 P00188,A0028,x,https://x.com/jankortemdb,Wikidata Q1599545,2026-10-22
-P00189,A0028,bluesky,https://bsky.app/profile/jankorte.bsky.social,Wikidata Q1599545,2026-10-22
 P00190,A0028,instagram,https://www.instagram.com/jankorte77/,Wikidata Q1599545,2026-10-22
 P00191,A0028,facebook,https://www.facebook.com/jankortemdb,Wikidata Q1599545,2026-10-22
 P00192,A0028,youtube,https://www.youtube.com/channel/UC6Bx6T1hc44AMweXgFSCvLw,Wikidata Q1599545,2026-10-22
@@ -262,7 +261,6 @@ P00260,A0038,facebook,https://www.facebook.com/fabio.d.masi,Wikidata Q16999689,2
 P00261,A0038,wikipedia,https://en.wikipedia.org/wiki/Fabio_De_Masi,Wikidata Q16999689,2026-10-22
 P00262,A0039,website,https://www.stefan-liebich.de/,Wikidata Q2336956,2026-10-22
 P00263,A0039,x,https://x.com/berlinliebich,Wikidata Q2336956,2026-10-22
-P00264,A0039,bluesky,https://bsky.app/profile/brooklynliebich.bsky.social,Wikidata Q2336956,2026-10-22
 P00265,A0039,instagram,https://www.instagram.com/berlinliebich/,Wikidata Q2336956,2026-10-22
 P00266,A0039,facebook,https://www.facebook.com/berlinliebich,Wikidata Q2336956,2026-10-22
 P00267,A0039,youtube,https://www.youtube.com/channel/UCBJ8jHXgcx2iLWfJG3VSj_A,Wikidata Q2336956,2026-10-22
@@ -346,7 +344,7 @@ P00344,A0056,youtube,https://www.youtube.com/channel/UCMKtNO4GZ0JINRZLVZqZDtw,Wi
 P00345,A0056,wikipedia,https://en.wikipedia.org/wiki/Annette_Groth,Wikidata Q78330,2026-10-22
 P00346,A0057,website,https://www.dielinkebt.de/abgeordnete/profil/dr-gregor-gysi/,Wikidata Q65126,2026-10-22
 P00347,A0057,x,https://x.com/gregorgysi,Wikidata Q65126,2026-10-22
-P00348,A0057,bluesky,https://bsky.app/profile/offiziell-g-gysi.bsky.social,Wikidata Q65126,2026-10-22
+P00348,A0057,bluesky,https://bsky.app/profile/gregorgysi.dielinkebt.de,Wikidata Q65126,2026-10-22
 P00349,A0057,instagram,https://www.instagram.com/gregorgysi/,Wikidata Q65126,2026-10-22
 P00350,A0057,facebook,https://www.facebook.com/gregor.gysi,Wikidata Q65126,2026-10-22
 P00351,A0057,tiktok,https://www.tiktok.com/@gregorgysi48,Wikidata Q65126,2026-10-22
@@ -417,7 +415,7 @@ P00415,A0078,tiktok,https://www.tiktok.com/@cansinkoeki,Wikidata Q132733544,2026
 P00416,A0078,wikipedia,https://en.wikipedia.org/wiki/Cans%C4%B1n_K%C3%B6kt%C3%BCrk,Wikidata Q132733544,2026-10-22
 P00417,A0079,website,https://jan-van-aken.com,Wikidata Q107176,2026-10-22
 P00418,A0079,x,https://x.com/jan_vanaken,Wikidata Q107176,2026-10-22
-P00419,A0079,bluesky,https://bsky.app/profile/vanaken.bsky.social,Wikidata Q107176,2026-10-22
+P00419,A0079,bluesky,https://bsky.app/profile/janvanaken.dielinkebt.de,Wikidata Q107176,2026-10-22
 P00420,A0079,instagram,https://www.instagram.com/j.van.aken/,Wikidata Q107176,2026-10-22
 P00421,A0079,facebook,https://www.facebook.com/jan.vanaken.96,Wikidata Q107176,2026-10-22
 P00422,A0079,tiktok,https://www.tiktok.com/@jan.van.aken7,Wikidata Q107176,2026-10-22
@@ -494,7 +492,6 @@ P00492,A0090,mastodon,https://gruene.social/@HaraldEbner,Wikidata Q1524836,2026-
 P00493,A0090,wikipedia,https://en.wikipedia.org/wiki/Harald_Ebner,Wikidata Q1524836,2026-10-22
 P00494,A0091,website,https://www.kai-gehring.de/,Wikidata Q109560,2026-10-22
 P00495,A0091,x,https://x.com/KaiGehring,Wikidata Q109560,2026-10-22
-P00496,A0091,bluesky,https://bsky.app/profile/kgehring.bsky.social,Wikidata Q109560,2026-10-22
 P00497,A0091,instagram,https://www.instagram.com/kai.gehring/,Wikidata Q109560,2026-10-22
 P00498,A0091,facebook,https://www.facebook.com/kai.gehring,Wikidata Q109560,2026-10-22
 P00499,A0091,youtube,https://www.youtube.com/channel/UC8d9JhBmSQzVvqH7fpah1Qw,Wikidata Q109560,2026-10-22
@@ -744,7 +741,7 @@ P00742,A0179,mastodon,https://social.linksfraktion.de/@andrehahn,Wikidata Q17647
 P00743,A0179,wikipedia,https://en.wikipedia.org/wiki/Andr%C3%A9_Hahn_%28politician%29,Wikidata Q1764708,2026-10-22
 P00744,A0180,website,https://www.ates-guerpinar.de/,Wikidata Q54821874,2026-10-22
 P00745,A0180,x,https://x.com/AtesGuerpinar,Wikidata Q54821874,2026-10-22
-P00746,A0180,bluesky,https://bsky.app/profile/atesguerpinar.bsky.social,Wikidata Q54821874,2026-10-22
+P00746,A0180,bluesky,https://bsky.app/profile/atesguerpinar.dielinkebt.de,Wikidata Q54821874,2026-10-22
 P00747,A0180,instagram,https://www.instagram.com/atesgurpinar/,Wikidata Q54821874,2026-10-22
 P00748,A0180,facebook,https://www.facebook.com/ates.guerpinar,Wikidata Q54821874,2026-10-22
 P00749,A0180,tiktok,https://www.tiktok.com/@atesguerpinar,Wikidata Q54821874,2026-10-22
@@ -978,7 +975,7 @@ P00976,A0289,wikipedia,https://en.wikipedia.org/wiki/Arne_Semsrott,Wikidata Q332
 P00977,A0290,wikipedia,https://en.wikipedia.org/wiki/Meron_Mendel,Wikidata Q54932101,2026-10-22
 P00978,A0300,website,https://www.feratkocak.de/,Wikidata Q109908415,2026-10-22
 P00979,A0300,x,https://x.com/der_neukoellner,Wikidata Q109908415,2026-10-22
-P00980,A0300,bluesky,https://bsky.app/profile/der-neukoellner.bsky.social,Wikidata Q109908415,2026-10-22
+P00980,A0300,bluesky,https://bsky.app/profile/feratkocak.dielinkebt.de,Wikidata Q109908415,2026-10-22
 P00981,A0300,instagram,https://www.instagram.com/der_neukoellner/,Wikidata Q109908415,2026-10-22
 P00982,A0300,facebook,https://www.facebook.com/neukoellner,Wikidata Q109908415,2026-10-22
 P00983,A0300,tiktok,https://www.tiktok.com/@der_neukoellner,Wikidata Q109908415,2026-10-22
