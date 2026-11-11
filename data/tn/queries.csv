@@ -1,0 +1,17 @@
+query_id,run_id,date,language,query,channel,results_opened,leads_added,note
+Q0001,R001,2026-11-11,fr,impôt sur la fortune PLF 2026 Tunisie ARP adopte 72 voix article 50,web,8,2,Plenary vote counts; no per-member list
+Q0002,R001,2026-11-11,ar,الضريبة على الثروة قانون المالية 2026 مجلس نواب الشعب مصادقة,web,4,1,Mosaïque FM vote report; ARP committee minutes
+Q0003,R001,2026-11-11,fr,Observatoire tunisien de l'économie impôt sur la fortune justice fiscale,web,5,2,OTE communiqué; Centre Ali Ben Ghedhahem
+Q0004,R001,2026-11-11,fr,UGTT impôt sur la fortune Tunisie Taboubi réclame taxer les grandes fortunes,web,4,1,No UGTT statement on a wealth tax found
+Q0005,R001,2026-11-11,fr,FTDES impôt sur la fortune justice fiscale loi de finances Tunisie,web,3,1,No FTDES statement found
+Q0006,R001,2026-11-11,ar,ضريبة على الثروة تونس نائب يدعو الاتحاد العام التونسي للشغل العدالة الجبائية الثروة,web,3,1,"UGTT economist on tax justice, income tax only"
+Q0007,R001,2026-11-11,fr,Tunisie impôt sur la fortune économiste favorable tribune 2025 2026 Nawaat Alert,web,6,1,Mostly critics; no Nawaat or Alert piece
+Q0008,R001,2026-11-11,ar,مركز علي بن غذاهم للعدالة الجبائية الضريبة على الثروة,web,4,1,Al Bawsala 2022 report by Amine Bouzaïene
+Q0009,R001,2026-11-11,fr,Centre Ali Ben Ghedhahem justice fiscale impôt sur la fortune progressivité,web,3,0,
+Q0010,R001,2026-11-11,fr,Kaïs Saïed impôt sur la fortune loi de finances 2026 justice fiscale riches paient,web,4,0,Social justice only; excluded
+Q0011,R001,2026-11-11,fr,Tunisie impôt sur la fortune Front populaire OR Ettakatol OR UGTT proposition 2012 OR 2014 OR 2018 OR 2019,web,3,1,History 2011 to 2021 not found in this search; open lead
+Q0012,R001,2026-11-11,fr,député ARP défend impôt sur la fortune article 50 plénière,web,6,2,Webdo: bloc Pour que le peuple triomphe
+Q0013,R001,2026-11-11,ar,نائب لينتصر الشعب الضريبة على الثروة الفصل 50 علي زغدود,web,3,0,
+Q0014,R001,2026-11-11,ar,نتائج التصويت الاسمي الفصل 50 مشروع قانون المالية 2026 الجلسة العامة مضبطة,web,4,1,No named plenary vote found on arp.tn
+Q0015,R001,2026-11-11,en,Oxfam ActionAid Tax Justice Network Africa Tunisia wealth tax recommends,web,4,1,Oxfam MENA briefing 2023 covers Tunisia
+Q0016,R001,2026-11-11,fr,Tunisie 2026 impôt sur la fortune bilan première déclaration 30 juin 2026,web,4,1,DGELF note 13/2026; no revenue figures yet

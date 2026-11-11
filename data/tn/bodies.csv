@@ -1,0 +1,4 @@
+body_id,name,level,kind,seats,as_of,source_url,seat_view,notes
+B0001,Assemblée des représentants du peuple,national,chamber,,,https://arp.tn/deputies,,"Lower house of the Tunisian parliament, seated in Bardo. The member list on arp.tn gives names only (no bloc or constituency), so no seat chart yet."
+B0002,Conseil national des régions et des districts,national,chamber,,,https://www.cnrd.tn,,Second chamber; its opinion on finance bills is consultative. No member list read yet.
+B0003,Government of Tunisia,national,other,,,https://www.pm.gov.tn,,The executive; Minister of Finance Michket Salama Khaldi tabled the 2026 wealth tax.

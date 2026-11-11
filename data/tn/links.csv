@@ -1,0 +1,8 @@
+link_id,from_actor_id,to_actor_id,link_type,evidence_id,source_url,note
+L0001,A0007,A0008,member_of,E00009,https://www.webdo.tn/fr/actualite/national/impot-sur-la-fortune-le-bloc-pour-que-le-peuple-triomphe-veut-retablir-larticle-50/388386/,Spokesman of the bloc on the wealth tax
+L0002,A0004,A0003,leads,E00006,https://businessnews.com.tn/2025/11/24/bras-de-fer-autour-de-limpot-sur-la-fortune-larp-dit-non-le-conseil-national-dit-oui/1374553/,Chairs the finance committee
+L0003,A0005,A0003,member_of,E00007,https://businessnews.com.tn/2025/11/24/bras-de-fer-autour-de-limpot-sur-la-fortune-larp-dit-non-le-conseil-national-dit-oui/1374553/,Vice-chair of the finance committee
+L0004,A0006,A0002,member_of,E00008,https://arp.tn/deputies,Finance committee rapporteur
+L0005,A0011,A0010,works_for,E00013,https://fr.allafrica.com/stories/202509300497.html,Public policy researcher at the Centre
+L0006,A0011,A0012,coalition_partner,E00013,https://www.albawsala.com/files/2022/06/Rapport-La-justice-fiscale-.pdf,Author of the Al Bawsala 2022 report
+L0007,A0009,A0010,coalition_partner,E00012,https://kapitalis.com/tunisie/?p=18018889,Joint calls to strengthen the progressivity of the wealth tax
