@@ -1282,9 +1282,12 @@ body:not(.ready) .foot { visibility: hidden; }
 .cl-by th { text-align: left; font: 500 11px/1 var(--mono); text-transform: uppercase; letter-spacing: .06em; color: var(--ink-3); padding: 6px 0; }
 .cl-by td { padding: 5px 0; border-top: 1px solid var(--rule); font-variant-numeric: tabular-nums; }
 .cl-by td:nth-child(n+2), .cl-by th:nth-child(n+2) { text-align: right; width: 22%; }
-.seat-levels { margin: 22px 0 0; }
-.seat-levels button span { margin-left: 4px; font-size: 12px; opacity: .6; }
+.seat-levels { display: flex; flex-direction: column; margin: 0 0 22px; }
+.seat-levels button { height: auto; padding: 9px 12px; display: flex; justify-content: space-between; align-items: baseline; text-align: left; }
+.seat-levels button + button { border-left: 0; border-top: 1px solid var(--rule-2); }
+.seat-levels button span { margin-left: 8px; font-size: 12px; opacity: .6; }
 .seat-levels button.on span { opacity: .75; }
+.seat-grid.no-rail .seat-nav { display: none; }
 
 /* seats: a list of the chambers on the left (like the story page's sections), sticky while the charts scroll */
 .seat-grid { display: grid; grid-template-columns: 210px minmax(0, 1fr); gap: 0 40px; align-items: start; }
