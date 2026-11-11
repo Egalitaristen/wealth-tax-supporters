@@ -1,1 +1,18 @@
 seat_id,body_id,party,seats,colour,order
+S0001,B0001,Colorado Party (ANR),25,d62828,1
+S0002,B0001,PLRA,10,1f5fa8,2
+S0003,B0001,Partido Cruzada Nacional,4,f28c28,3
+S0004,B0001,Conciencia Democrática Nacional,2,7a7a7a,4
+S0005,B0001,Democratic Progressive Party,1,f2c500,5
+S0006,B0001,National Encounter Party,1,2a9d8f,6
+S0007,B0001,Independent,1,8a8680,7
+S0008,B0001,Partido Participación Ciudadana,1,8a6fc7,8
+S0009,B0002,Colorado Party (ANR),47,d62828,1
+S0010,B0002,Concertación departmental alliances,16,3d7fc4,2
+S0011,B0002,Alianza Patria (Alliance for the Fatherland),6,5aa9e6,3
+S0012,B0002,Partido Cruzada Nacional,4,f28c28,4
+S0013,B0002,Alianza Encuentro Nacional,2,2a9d8f,5
+S0014,B0002,CDN,2,7a7a7a,6
+S0015,B0002,Patria Querida,1,f2c500,7
+S0016,B0002,PLRA,1,1f5fa8,8
+S0017,B0002,No party shown,1,8a8680,9

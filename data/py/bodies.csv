@@ -1,4 +1,4 @@
 body_id,name,level,kind,seats,as_of,source_url,seat_view,notes
-B0001,Cámara de Senadores,national,chamber,45,2023-06-30,https://www.senado.gov.py,,"Senate of Paraguay (45 seats, single nationwide constituency)."
-B0002,Cámara de Diputados,national,chamber,80,2023-06-30,https://www.diputados.gov.py,,Chamber of Deputies of Paraguay (80 seats elected by department).
+B0001,Cámara de Senadores,national,chamber,45,2026-11-11,https://www.senado.gov.py/index.php/menu-senadores/sub-menu-nomina-por-partido-movimiento.html,y,"45 seats, one nationwide constituency. Party counts are from the Senate's own list of senators by party and movement. Unlit seats mean nothing found, never opposition."
+B0002,Cámara de Diputados,national,chamber,80,2026-11-11,https://diputados.gov.py/diputados/nomina-alfabetica,y,"80 seats elected by department. Counts are from the Chamber's own alphabetical list, which gives each deputy a party or alliance code without expanding it; codes are grouped as in the 2023 election (CN2023, APUNP, APUNG, ATJPÑ, AC and APAD are Concertación departmental alliances; APLP is the Alianza Patria; PCN Cruzada Nacional; AEN Encuentro Nacional; PPQ Patria Querida). One deputy shows no party. Unlit seats mean nothing found, never opposition."
 B0003,Corte Suprema de Justicia,national,other,,,https://www.pj.gov.py,,Supreme Court of Justice of Paraguay.

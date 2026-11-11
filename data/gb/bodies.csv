@@ -1,6 +1,6 @@
 body_id,name,level,kind,seats,as_of,source_url,seat_view,notes
-B0004,Senedd Cymru,regional,chamber,,,,,
-B0005,London Assembly,regional,chamber,,,,,
+B0004,Senedd Cymru,regional,chamber,96,2026-05-08,https://en.wikipedia.org/wiki/2026_Senedd_election,y,"96 seats, elected 7 May 2026 (16 six-member constituencies, closed lists). Seats by party are the election result as on the English Wikipedia page for the election; the Senedd's own results analysis publishes them only as a chart image. A secondary source: check against the Senedd member list for later changes. Unlit seats mean nothing found, never opposition."
+B0005,London Assembly,regional,chamber,25,2026-11-11,https://www.london.gov.uk/who-we-are/what-london-assembly-does/london-assembly-members,y,"25 seats. Seats by party group are from the Assembly's own list of members (Conservative 6 and Reform UK 2 after changes since the 2024 election; one member sits as an independent). Unlit seats mean nothing found, never opposition."
 B0006,Hackney Council,local,council,,,,,
 B0007,Lambeth Council,local,council,,,,,
 B0008,Newham Council,local,council,,,,,
@@ -25,4 +25,4 @@ B0029,Southwark Council,local,council,,2026-10-25,https://moderngov.southwark.go
 B0001,House of Commons,national,chamber,650,2026-11-04,https://members.parliament.uk/members/commons,y,
 B0002,House of Lords,national,chamber,815,2026-11-04,https://members.parliament.uk/members/lords,y,
 B0003,Scottish Parliament,regional,chamber,129,2026-11-04,https://data.parliament.scot/api/members,y,"129 seats: 73 constituency and 56 regional members, elected on 7 May 2026. Who sits and each member's party are from the Parliament's open data."
-B0030,Wealden District Council,local,council,45,2026-11-04,https://council.wealden.gov.uk/,,East Sussex non-metropolitan district council
+B0030,Wealden District Council,local,council,45,2026-11-11,https://council.wealden.gov.uk/mgMemberIndex.aspx?bcr=1,y,"45 councillors. Seats by party are from the council's own list of councillors (Labour and Labour and Co-operative are shown together). Unlit seats mean nothing found, never opposition."
