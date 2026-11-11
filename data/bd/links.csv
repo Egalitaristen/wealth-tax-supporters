@@ -1,0 +1,4 @@
+link_id,from_actor_id,to_actor_id,link_type,evidence_id,source_url,note
+L0001,A0001,A0003,works_for,,https://cpd.org.bd/direct-wealth-tax-needed-for-fairer-distribution-of-wealth/,Distinguished Fellow
+L0002,A0002,A0003,works_for,,https://www.tbsnews.net/node/637438,Distinguished Fellow
+L0003,A0013,A0011,leads,,https://www.thedailystar.net/business/news/fy27-nbr-mulls-wealth-inheritance-taxes-tighter-exemptions-4140221,Chairman
