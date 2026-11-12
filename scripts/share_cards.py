@@ -502,7 +502,7 @@ def _chamber_label(dr, cx, y, body, width, start, smallest):
     dr.text((cx * S - dr.textlength(lab, font=lf) / 2, y * S), lab, font=lf, fill=INK2)
 
 
-def seats_card(out, c, bodies, sub, slug=None):
+def seats_card(out, c, bodies, sub, slug=None, kicker="Seats · who sits in the legislature"):
     """bodies: [{name, seats, parties: [[party, seats, colour, number lit]]}]; the first two are drawn."""
     shown = bodies[:2]
     lit_all = sum(q[3] for b in bodies for q in b["parties"])
@@ -510,7 +510,7 @@ def seats_card(out, c, bodies, sub, slug=None):
 
     def draw(path):
         img, dr = _canvas()
-        _kicker(img, dr, "Seats · who sits in the legislature", slug)
+        _kicker(img, dr, kicker, slug)
         nf, size = _fit(dr, c["name"], SERIF, 640, 112, 64)
         dr.text((56 * S, 86 * S), c["name"], font=nf, fill=INK)
         y = 86 + size + 18
@@ -529,7 +529,7 @@ def seats_card(out, c, bodies, sub, slug=None):
                 _hemi(dr, 950, oy + 196, 160, b)
         _footer(dr)
         _save(img, path)
-    return cached(out, ["seats", c["name"], slug, sub, [[b["name"], b["seats"], [[q[0], q[1], q[2], q[3]] for q in b["parties"]]] for b in shown], lit_all, seats_all], draw)
+    return cached(out, ["seats", c["name"], slug, kicker, sub, [[b["name"], b["seats"], [[q[0], q[1], q[2], q[3]] for q in b["parties"]]] for b in shown], lit_all, seats_all], draw)
 
 
 def directory_card(out, name, total, line, types, grades, slug=None):

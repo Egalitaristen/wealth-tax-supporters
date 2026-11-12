@@ -156,6 +156,7 @@ async function render(fresh) {
     else if (parts[0] === 'report' && parts.length === 1) reportPage(params);
     else if (country && parts.length === 1) await countryPage(country.slug, params);
     else if (country && parts.length === 2 && SECTIONS[parts[1]]) await countryPage(country.slug, params, parts[1]);
+    else if (country && parts.length === 3 && parts[1] === 'seats') { params.set('level', parts[2]); await countryPage(country.slug, params, 'seats'); }
     else if (country && parts.length === 2) await personPage(country.slug, parts[1]);
     else notFound();
     const navKey = {countries: '/countries', parliaments: '/parliaments', directory: '/directory', arguments: '/arguments', resources: '/resources', calculator: '/calculator', method: '/method', about: '/about', changelog: '/changelog', contribute: '/contribute', suggest: '/contribute', feedback: '/feedback', report: '/feedback'}[parts[0]] || null;
@@ -1013,10 +1014,9 @@ function seatsSection(box, D, slug, params) {
       $$('.legis', box).forEach(x => io.observe(x));
     }
     $$('.seat-levels button', box).forEach(x => x.classList.toggle('on', x.dataset.v === l));
-    const q = new URLSearchParams(location.search);
-    if (levels.length > 1 && l !== levels[0]) q.set('level', l); else q.delete('level');
-    const u = q.toString();
-    history.replaceState(null, '', location.pathname + (u ? '?' + u : ''));
+    const sub = levels.length > 1 && l !== levels[0];
+    setTitle(sub ? `${label(LEVEL, l)} seats · ${D.meta.name}` : `Seats · ${D.meta.name}`);
+    history.replaceState(null, '', `/${slug}/seats` + (sub ? '/' + l : ''));
   };
   $$('.seat-levels button', box).forEach(x => x.addEventListener('click', () => { close(); showLevel(x.dataset.v); }));
   showLevel(params && levels.includes(params.get('level')) ? params.get('level') : levels[0]);
