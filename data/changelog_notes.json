@@ -1,4 +1,15 @@
 {
+  "2026-11-12": {
+    "summary": "Every poll now has its own page, polls show as clear whole percentages, and 71 polls from 43 countries are on the register.",
+    "items": [
+      {"kind": "added", "text": "A page for each poll with the question as asked, who was asked, the pollster and the sample, and a share card for each."},
+      {"kind": "added", "text": "A share card for the polls list: a flag and the highest poll for each country."},
+      {"kind": "added", "text": "34 more polls, including Belgium, Denmark, Finland, Luxembourg, Portugal, Japan, South Korea, Kenya, Mexico, Uruguay and the six EU countries covered by Flash Eurobarometer 562."},
+      {"kind": "added", "text": "New argument: eight winners of the economics Nobel have signed their names to a tax on the largest fortunes (draft)."},
+      {"kind": "improved", "text": "Polls show a whole percentage everywhere; the detail, such as how a result split, moved onto the poll's own page."},
+      {"kind": "corrected", "text": "Two Nobel laureates had the wrong Wikidata record in the US register. The Norway poll that asked about cutting the tax was removed, and two weak Norway entries and the Uruguay seat places were fixed."}
+    ]
+  },
   "2026-11-11": {
     "summary": "Tunisia and Bangladesh joined, seat charts reached a dozen more countries with National, Regional and Local tabs, and every page now carries its content in plain HTML for search and AI tools.",
     "items": [
