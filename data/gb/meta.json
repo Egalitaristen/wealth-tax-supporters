@@ -7,6 +7,17 @@
   "notes": "Built with Claude in 20 runs; many rows are not yet verified.",
   "polls": [
     {
+      "support": 76,
+      "scope": "Great Britain, adults aged 18+ (2,167 respondents)",
+      "question": "A 2% wealth tax on net assets worth more than £10 million",
+      "pollster": "YouGov",
+      "commissioned_by": "Oxfam",
+      "fieldwork": "2026-05-05 to 2026-05-06",
+      "sample": "2,167 adults",
+      "published": "2026-06-11",
+      "url": "https://scotland.oxfam.org.uk/latest-news/no-one-should-be-a-trillionaire-its-time-to-better-tax-wealth/"
+    },
+    {
       "support": 75,
       "oppose": 12,
       "scope": "Britain, adults",

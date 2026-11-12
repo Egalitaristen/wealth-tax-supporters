@@ -18,6 +18,16 @@
     },
     {
       "support": 70,
+      "scope": "Adults in Italy (Flash Eurobarometer 562, 27 EU countries, n=25,793 in total)",
+      "question": "Support for a minimum tax based on wealth for the wealthiest individuals (top 0.001%)",
+      "pollster": "Ipsos European Public Affairs",
+      "commissioned_by": "European Commission, DG Taxation and Customs Union",
+      "fieldwork": "2025-04-09 to 2025-04-17",
+      "published": "2025-08",
+      "url": "https://doi.org/10.2778/6066713"
+    },
+    {
+      "support": 70,
       "scope": "Italy, adults",
       "question": "A European tax on large fortunes, which in Italy would apply to the richest 0.1% (about 50,000 people with net wealth above EUR 5.4m)",
       "pollster": "Istituto Demopolis",
