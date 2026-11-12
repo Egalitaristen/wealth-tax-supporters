@@ -4,5 +4,34 @@
   "lead": "",
   "status": "in progress",
   "boundaries": "boundaries.json",
-  "notes": "Seed pass: national, regional and municipal scope; 5 regions and 98 municipalities. Geographic register loaded, local research limited. Municipal and regional map based on DAGI data from Vejdirektoratet, CC BY 4.0, retrieved 2026-10-29."
+  "notes": "Seed pass: national, regional and municipal scope; 5 regions and 98 municipalities. Geographic register loaded, local research limited. Municipal and regional map based on DAGI data from Vejdirektoratet, CC BY 4.0, retrieved 2026-10-29.",
+  "polls": [
+    {
+      "support": 50,
+      "oppose": 31,
+      "scope": "Denmark, nationally representative sample of adults 18+",
+      "question": "Agreement with the statement 'It is a good idea to introduce a wealth tax targeted at the richest Danes (top 1%)'",
+      "question_original": "Det er en god idé at indføre en formueskat målrettet til de rigeste danskere (top 1%)",
+      "pollster": "It's A Fact (YouGov panel)",
+      "commissioned_by": "Oxfam Danmark",
+      "fieldwork": "2026-05-24 - 2026-05-29",
+      "sample": "1,022 interviews, online, weighted",
+      "published": "2026-06",
+      "url": "https://oxfam.dk/wp-content/uploads/2026/06/Oxfam-meningsmaaling-Maj-2026.pdf",
+      "support_text": "34 per cent fully agreed and 16 per cent partly agreed; 10 per cent partly disagreed and 21 per cent fully disagreed"
+    },
+    {
+      "support": 50,
+      "oppose": 27,
+      "scope": "Denmark, population survey",
+      "question": "Agreement that it would be reasonable to introduce a tax on wealth aimed at Danes with the very highest fortunes",
+      "question_original": "Det vil være rimeligt at indføre en skat på formue, målrettet danskere med de allerhøjeste formuer",
+      "pollster": "Epinion",
+      "commissioned_by": "Fagbevægelsens Hovedorganisation (FH)",
+      "fieldwork": "2026-01-15 - 2026-01-18",
+      "published": "2026-02-24",
+      "url": "https://fho.dk/blog/2026/02/24/en-stor-del-af-befolkningen-bakker-op-om-en-formueskat/",
+      "support_text": "Fully or partly agreed"
+    }
+  ]
 }

@@ -4,5 +4,18 @@
   "lead": "",
   "status": "in progress",
   "boundaries": "boundaries.json",
-  "notes": "Seed research in progress: national supporters, regional and local samples planned. Geography: 308 municipalities under 18 mainland districts and 11 island units (CAOP 2025); municipality and district/island boundaries © DGT via Esri Portugal, CC BY 4.0. Local units have not yet been swept."
+  "notes": "Seed research in progress: national supporters, regional and local samples planned. Geography: 308 municipalities under 18 mainland districts and 11 island units (CAOP 2025); municipality and district/island boundaries © DGT via Esri Portugal, CC BY 4.0. Local units have not yet been swept.",
+  "polls": [
+    {
+      "support": 79,
+      "oppose": 15,
+      "scope": "Portugal, national sample",
+      "question": "Support for a special tax on very large fortunes (discussed in the G20 context, on fortunes above one billion dollars)",
+      "pollster": "Intercampus",
+      "commissioned_by": "Jornal de Negócios, Correio da Manhã and CMTV",
+      "fieldwork": "2024-09",
+      "published": "2024-09-10",
+      "url": "https://executivedigest.sapo.pt/noticias/maioria-dos-portugueses-mostram-se-a-favor-de-imposto-especial-sobre-grandes-fortunas/"
+    }
+  ]
 }
