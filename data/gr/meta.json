@@ -4,5 +4,18 @@
   "lead": "",
   "status": "in progress",
   "boundaries": "boundaries.json",
-  "notes": "Research in progress. Administrative register: ELSTAT 2026 (31 December 2025): 332 municipalities, 74 regional units and 13 regions; local research remains unswept. Municipality map: Ioannis Andreadis / Aristotle University of Thessaloniki, Cleisthenes boundaries under CC BY 4.0, derived from geodata.gov.gr CC BY 3.0; 332 features matched by name to ELSTAT register; regional boundaries dissolved from them. Mount Athos excluded as autonomous. Parliamentary seats: official current group counts; three vacant seats."
+  "notes": "Research in progress. Administrative register: ELSTAT 2026 (31 December 2025): 332 municipalities, 74 regional units and 13 regions; local research remains unswept. Municipality map: Ioannis Andreadis / Aristotle University of Thessaloniki, Cleisthenes boundaries under CC BY 4.0, derived from geodata.gov.gr CC BY 3.0; 332 features matched by name to ELSTAT register; regional boundaries dissolved from them. Mount Athos excluded as autonomous. Parliamentary seats: official current group counts; three vacant seats.",
+  "polls": [
+    {
+      "support": 70,
+      "oppose": 25,
+      "scope": "Adults in Greece (Flash Eurobarometer 562, 27 EU countries, n=25,793 in total)",
+      "question": "Support for a minimum tax based on wealth for the wealthiest individuals (top 0.001%)",
+      "pollster": "Ipsos European Public Affairs",
+      "commissioned_by": "European Commission, DG Taxation and Customs Union",
+      "fieldwork": "2025-04-09 to 2025-04-17",
+      "published": "2025-08",
+      "url": "https://doi.org/10.2778/6066713"
+    }
+  ]
 }
