@@ -4,5 +4,20 @@
   "lead": "Egalitaristen",
   "status": "in progress",
   "boundaries": "boundaries.json",
-  "notes": "Depth: partial seed. Scope: national; regional and local supporters have not been systematically researched. Geography and map use SGIS-derived 2026-10-01 boundaries (CC BY 4.0; Statistics Korea KOGL Type 1), with non-autonomous districts merged into their city. Codes await independent comparison with an official current list. Historical statements do not establish current support."
+  "notes": "Depth: partial seed. Scope: national; regional and local supporters have not been systematically researched. Geography and map use SGIS-derived 2026-10-01 boundaries (CC BY 4.0; Statistics Korea KOGL Type 1), with non-autonomous districts merged into their city. Codes await independent comparison with an official current list. Historical statements do not establish current support.",
+  "polls": [
+    {
+      "support": 71,
+      "oppose": 10,
+      "scope": "South Korea, adults, online",
+      "sample": "1,000 online respondents in South Korea",
+      "url": "https://res.cloudinary.com/dfyeeawiq/images/v1718720762/Earth-for-All-Survey-2024-South-Korea-Deck/Earth-for-All-Survey-2024-South-Korea-Deck.pdf",
+      "question": "Wealthy people paying a higher tax on their wealth, as a means of funding major changes to our economy and lifestyles",
+      "question_original": "",
+      "pollster": "Ipsos",
+      "commissioned_by": "Earth4All and the Global Commons Alliance",
+      "fieldwork": "2024-03-05 to 2024-04-08",
+      "published": "2024-06"
+    }
+  ]
 }
