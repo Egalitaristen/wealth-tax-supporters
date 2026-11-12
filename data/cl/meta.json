@@ -8,9 +8,10 @@
   "polls": [
     {
       "support": 82.9,
+      "support_text": "82.9 per cent strongly agreed or agreed",
       "oppose": null,
       "scope": "Chile, adults 18 and over in 166 comunas, online panel",
-      "question": "Agreement with Congress approving a tax of 2.5% on the net wealth of people with US$ 22 million or more, to fund the response to the covid-19 crisis (the 'súper ricos' bill); 82.9% strongly agreed or agreed",
+      "question": "Agreement with Congress approving a tax of 2.5% on the net wealth of people with US$ 22 million or more, to fund the response to the covid-19 crisis (the 'súper ricos' bill)",
       "question_original": "¿Qué tan de acuerdo o en desacuerdo estás con que se apruebe en el congreso un impuesto a los super ricos?",
       "pollster": "Activa Research (Pulso Ciudadano)",
       "commissioned_by": "Activa (its own fortnightly Pulso Ciudadano tracker)",

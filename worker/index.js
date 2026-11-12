@@ -110,6 +110,11 @@ export default {
     if (url.pathname === '/api/report') {
       try { return await report(req, env); } catch (e) { return json({error: 'Something went wrong on our side. Please try again later, or report it on GitHub.'}, 500); }
     }
+    // The polls list has its own share card: /resources?kind=poll gets the page built at /resources/polls (the address bar keeps the query).
+    if (url.pathname === '/resources' && url.searchParams.get('kind') === 'poll' && [...url.searchParams.keys()].every(k => k === 'kind')) {
+      const page = await env.ASSETS.fetch(new Request(new URL('/resources/polls', url), {headers: req.headers}));
+      if (page.ok) return page;
+    }
     return env.ASSETS.fetch(req);
   },
 };

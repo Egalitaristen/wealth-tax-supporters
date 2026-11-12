@@ -32,7 +32,7 @@ const GRADE = {A: 'Explicit', B: 'Named', C: 'Implied'};
 const GRADE_LONG = {A: 'Explicit support: a formal act or a specific proposal', B: 'Named support for a wealth tax', C: 'Implied support, read from context'};
 const LEVEL = {national: 'National', regional: 'Regional', local: 'Local', supranational: 'International'};
 // Public opinion polls from meta.json: [{support, support_text, oppose, scope, question, pollster, commissioned_by, published, url, ...}]
-const pollFig = p => p.support_text || `${p.support}%`;
+const pollFig = p => `${Math.round(p.support)}%`;  // a clear whole percentage; the nuance is on the poll's own page
 const pollDate = d => { const [y, m] = String(d || '').split('-'); return m ? new Date(+y, +m - 1, 1).toLocaleString('en', {month: 'short', year: 'numeric'}) : (y || ''); };
 const pollSource = p => [p.pollster, p.commissioned_by ? `for ${p.commissioned_by}` : '', pollDate(p.published)].filter(Boolean).join(', ');
 const glyph = g => `<i class="g ${esc(g)}" title="${esc(GRADE_LONG[g] || '')}"></i>`;
@@ -142,6 +142,7 @@ async function render(fresh) {
     if (!parts.length) await home(W);
     else if (parts[0] === 'countries' && parts.length === 1) await countriesPage(W);
     else if (parts[0] === 'resources' && parts.length === 1) await resourcesPage(W);
+    else if (parts[0] === 'resources' && parts.length === 2 && parts[1] === 'polls') { history.replaceState(null, '', '/resources?kind=poll'); await resourcesPage(W); }
     else if (parts[0] === 'resources' && parts.length === 2) await resourcePage(W, parts[1]);
     else if (parts[0] === 'arguments' && parts.length <= 2) await argumentsPage(parts[1] || 'hub');
     else if (parts[0] === 'parliaments' && parts.length === 1) await parliamentsPage(W);
@@ -181,7 +182,8 @@ async function render(fresh) {
 function setCanonical() {
   let l = document.querySelector('link[rel="canonical"]');
   if (!l) { l = document.createElement('link'); l.rel = 'canonical'; document.head.appendChild(l); }
-  l.href = 'https://wealthtaxsupporters.com' + (location.pathname.replace(/\/+$/, '') || '/');
+  const polls = location.pathname === '/resources' && location.search === '?kind=poll';  // the polls list has its own share card and canonical address
+  l.href = 'https://wealthtaxsupporters.com' + (location.pathname.replace(/\/+$/, '') || '/') + (polls ? '?kind=poll' : '');
 }
 function setTitle(t) { document.title = t ? `${t} · Wealth Tax Supporters` : 'Wealth Tax Supporters: who backs a wealth tax near you?'; }
 function notFound() {
@@ -451,7 +453,7 @@ const resCard = (r, place = true) => `<article class="res">
 async function resourcePage(W, slug) {
   const r = (W.resources || []).find(x => x.slug === slug);
   if (!r) return notFound();
-  setTitle(r.title);
+  setTitle(r.kind === 'poll' && r.fig ? `${r.fig} in support of a wealth tax · ${r.cname}` : r.title);
   if (main.querySelector('[data-res-page]')?.dataset.resPage === slug) return;
   main.innerHTML = '<div class="loading">Loading</div>';
   const res = await fetch(location.pathname, {headers: {accept: 'text/html'}});

@@ -8,7 +8,7 @@
   "polls": [
     {
       "support": 85,
-      "support_text": "About 85 per cent (59 per cent fully agree, 26 per cent rather agree)",
+      "support_text": "59 per cent fully agreed and 26 per cent rather agreed, 85 per cent in all",
       "oppose": null,
       "scope": "Hungarian adult population, representative sample",
       "question": "The government should impose a wealth tax on wealth above HUF 1 billion",

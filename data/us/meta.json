@@ -8,7 +8,7 @@
   "polls": [
     {
       "support": 80,
-      "support_text": "About 8 in 10",
+      "support_text": "The study reported it as about 8 in 10",
       "oppose": null,
       "scope": "United States, adults (national survey)",
       "question": "An annual federal tax of 2% on wealth over $50 million and 3% on wealth over $1 billion, shown with its estimated revenue",

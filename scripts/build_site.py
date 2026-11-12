@@ -326,6 +326,12 @@ def build_supranational(folder, full):
 RESOURCE_KINDS = ("poll", "paper", "report", "bill")
 PAGE_KINDS = ("bill", "report", "paper")  # kinds that get their own page at /resources/<slug>
 RESOURCE_RAW = {}  # slug -> the resource's full entry from resources.json, for its page
+POLL_RAW = {}  # slug -> the poll's entry from its country's meta.json, for its page
+
+
+def whole_pct(v):
+    """A poll's support as a clear whole percentage: 82.9 -> '83%'."""
+    return f"{int(float(v) + 0.5)}%"
 BILL_STATES = {"in_force": "In force", "pending": "Pending", "rejected": "Rejected", "lapsed": "Lapsed", "adopted": "Adopted"}
 
 
@@ -379,8 +385,8 @@ def load_resources(countries, people):
     for c in countries:
         for p in c.get("polls", []):
             out.append(dict(kind="poll", country=c["slug"], title=p["question"], by=" for ".join(x for x in (p.get("pollster"), p.get("commissioned_by")) if x),
-                            published=str(p.get("published", "")), url=p["url"], fig=p.get("support_text") or (f"{p['support']}%" if p.get("support") is not None else ""),
-                            summary=" · ".join(str(x) for x in (p.get("scope"), p.get("sample")) if x)))
+                            published=str(p.get("published", "")), url=p["url"], fig=whole_pct(p["support"]) if p.get("support") is not None else "",
+                            summary=" · ".join(str(x) for x in (p.get("scope"), p.get("sample")) if x), _poll=p))
     path = DATA / "resources.json"
     raw = []
     for r in json.load(open(path, encoding="utf-8")) if path.exists() else []:
@@ -414,9 +420,20 @@ def load_resources(countries, people):
                 raise SystemExit(f"resources.json: unknown person {ref!r} in {r.get('title')!r} (use 'folder:actor_id')")
             row.setdefault("people", []).append([key[0], key[1], people[key]])
         out.append(row)
-    assign_slugs(raw)  # slugs are assigned over every page resource, so a preview build gets the same URLs as a full one
+    used = assign_slugs(raw)  # slugs are assigned over every page resource, so a preview build gets the same URLs as a full one
     RESOURCE_RAW.clear()
+    POLL_RAW.clear()
     for r in out:
+        if "_poll" in r:  # a poll's page: <country>-poll-<pollster>-<year>, numbered if two share all three
+            p = r.pop("_poll")
+            who = re.sub(r"\s*\([^)]*\)", "", p.get("pollster") or "").split(",")[0]
+            base = slugify(f"{r['country']}-poll-{' '.join(who.split()[:3])}-{str(p.get('published', ''))[:4]}")[:60].strip("-")
+            slug, n = base, 2
+            while slug in used:
+                slug, n = f"{base}-{n}", n + 1
+            used[slug] = r
+            r["slug"] = slug
+            POLL_RAW[slug] = p
         r["cname"] = names.get(r["country"], "Global")
         if "_raw" in r:
             raw_r = r.pop("_raw")
@@ -1095,7 +1112,7 @@ def calc_presets():
     return re.findall(r"label: '([^']+)'.*?src: \['([^']+)'", block, re.S)
 
 
-def page_html(base, title, desc, path, image, alt, body=None):
+def page_html(base, title, desc, path, image, alt, body=None, url_path=None):
     """The site page with this page's meta tags, so link previews show the right title and image."""
     h = base
     if body:  # a page with its own content (a bill) is rendered here; the app keeps it instead of building it again
@@ -1107,12 +1124,12 @@ def page_html(base, title, desc, path, image, alt, body=None):
         h = h.replace("</head>", tag + chr(10) + "</head>", 1)
     h = re.sub(r"<title>.*?</title>", f"<title>{_attr(title)}</title>", h, count=1)
     for prop, val in (("name=\"description\"", desc), ("property=\"og:title\"", title), ("property=\"og:description\"", desc),
-                      ("property=\"og:url\"", SITE_URL + path), ("property=\"og:image\"", SITE_URL + image),
+                      ("property=\"og:url\"", SITE_URL + (url_path or path)), ("property=\"og:image\"", SITE_URL + image),
                       ("property=\"og:image:alt\"", alt)):
         h = re.sub(r'(<meta %s content=")[^"]*(")' % prop, lambda m: m.group(1) + _attr(val) + m.group(2), h, count=1)
     # the one address search engines should list for this page: no query string, so shareable calculator and filter links do not count as copies
     h = re.sub(r'<link rel="canonical"[^>]*>\s*', "", h)
-    h = h.replace("</head>", '<link rel="canonical" href="%s">' % _attr(SITE_URL + path) + chr(10) + "</head>", 1)
+    h = h.replace("</head>", '<link rel="canonical" href="%s">' % _attr(SITE_URL + (url_path or path)) + chr(10) + "</head>", 1)
     return h
 
 
@@ -1129,7 +1146,7 @@ def poll_line(c):
     q = re.sub(r"\s*\(.*?\)", "", p["question"]).strip().rstrip("?.:;")
     if len(q) > 150:
         q = q[:150].rsplit(" ", 1)[0].rstrip(",;: ") + "…"
-    return f" Poll: {p.get('support_text') or str(p['support']) + '%'} in support. Asked: “{q}” ({p['pollster']}, {str(p.get('published', ''))[:4]})."
+    return f" Poll: {whole_pct(p['support'])} in support. Asked: “{q}” ({p['pollster']}, {str(p.get('published', ''))[:4]})."
 
 
 # ---------- resource pages: one page per bill (and, later, report and paper) at /resources/<slug> ----------
@@ -1154,8 +1171,8 @@ EVIDENCE_COUNT = {"vote": ("vote", "votes"), "bill_sponsorship": ("sponsorship",
                   "publication": ("publication", "publications"), "motion": ("motion", "motions"), "testimony": ("testimony", "testimonies"),
                   "editorial": ("editorial", "editorials"), "funding": ("funding record", "funding records"), "other": ("other record", "other records")}
 LEVEL_LABEL = {"national": "National", "subnational": "Regional or local", "supranational": "International", "local": "Local", "regional": "Regional"}
-RES_KIND_ONE = {"bill": "Bill or law", "report": "Report", "paper": "Paper"}
-RES_KIND_MANY = {"bill": "Bills and laws", "report": "Reports and proposals", "paper": "Papers"}
+RES_KIND_ONE = {"bill": "Bill or law", "report": "Report", "paper": "Paper", "poll": "Poll"}
+RES_KIND_MANY = {"bill": "Bills and laws", "report": "Reports and proposals", "paper": "Papers", "poll": "Polls"}
 SITE_PATHS = []  # every page path the build wrote, for sitemap.xml
 
 
@@ -1334,6 +1351,83 @@ def resource_pages(write, resources, full, cards, countries):
     return n
 
 
+def poll_date(s):
+    """2026-02-11 to 2026-02-26 -> 11 to 26 February 2026; a lone YYYY-MM-DD or YYYY-MM -> the date or month."""
+    import datetime
+    def one(t):
+        try:
+            d = datetime.date.fromisoformat(t)
+            return f"{d.day} {d.strftime('%B %Y')}"
+        except ValueError:
+            try:
+                d = datetime.datetime.strptime(t, "%Y-%m")
+                return d.strftime("%B %Y")
+            except ValueError:
+                return t
+    parts = [x.strip() for x in str(s or "").split(" to ")]
+    if len(parts) == 2 and re.fullmatch(r"\d{4}-\d{2}-\d{2}", parts[0]) and re.fullmatch(r"\d{4}-\d{2}-\d{2}", parts[1]) and parts[0][:7] == parts[1][:7]:
+        return f"{int(parts[0][8:])} to {one(parts[1])}"  # 11 to 26 February 2026
+    return " to ".join(one(x) for x in parts) if parts != [""] else ""
+
+
+def poll_body(r, p, siblings):
+    """The page for one poll: the figure, the question as asked, how it was done, and the other polls of the country."""
+    fig = whole_pct(p["support"]) if p.get("support") is not None else ""
+    crumb = ('<nav class="crumbs" aria-label="Breadcrumb"><a href="/resources">Resources</a><span>/</span><a href="/resources?kind=poll">Polls</a>'
+             f'<span>/</span><a href="/resources?country={h(r["country"])}">{h(r["cname"])}</a></nav>')
+    facts = [("Country", r["cname"]), ("Who was asked", p.get("scope")), ("Pollster", p.get("pollster")), ("Commissioned by", p.get("commissioned_by")),
+             ("Fieldwork", poll_date(p.get("fieldwork"))), ("Sample", p.get("sample")), ("Published", poll_date(p.get("published")))]
+    dl = "".join(f"<div><dt>{h(k)}</dt><dd>{h(v)}</dd></div>" for k, v in facts if v)
+    asked = f'<p class="pp-q">{h(p["question"])}</p>'
+    if p.get("question_original"):
+        asked += f'<p class="bp-note">In the original: <i>{h(p["question_original"])}</i></p>'
+    note = (f'<section class="bp-sec" id="detail"><h2>In more detail</h2><p>{h(ensure_stop(p["support_text"]))}</p></section>') if p.get("support_text") else ""
+    others = ""
+    if siblings:
+        others = ('<section class="bp-sec" id="others"><h2>Other polls in ' + h(r["cname"]) + '</h2><ul class="bp-list">' + "".join(
+            f'<li><a href="/resources/{h(s["slug"])}"><b>{h(s["fig"])}</b> · {h(s["by"].split(" for ")[0])}, {h(str(s["published"])[:4])}</a></li>' for s in siblings) + "</ul></section>")
+    head = (f'<div class="wrap page-head fade bp-head">{crumb}<div class="kicker" style="margin-top:22px">Poll · {h(r["cname"])}</div>'
+            f'<div class="pp-fig">{h(fig)}<span>in support</span></div>'
+            f'<h1>{h(r["title"])}</h1>'
+            f'<p class="lede">{h(ensure_stop(r.get("summary")))}</p></div>')
+    return (f'<article data-res-page="{h(r["slug"])}">{head}<div class="wrap bp-body"><div class="bp-main">'
+            f'<section class="bp-sec" id="asked"><h2>What was asked</h2>{asked}</section>{note}{others}</div>'
+            f'<aside class="bp-side"><dl class="bp-facts">{dl}</dl><div class="kicker">The poll</div>'
+            f'<ul class="alinks"><li><a href="{h(r["url"])}" target="_blank" rel="noopener noreferrer nofollow">Source of the figure ↗</a></li>'
+            f'<li><a href="/{h(r["country"])}">{h(r["cname"])} on the register</a></li></ul>'
+            f'<p class="bp-note" style="margin-top:22px">Something wrong or missing? <a href="/report">Report a mistake</a>.</p></aside></div></article>')
+
+
+def poll_pages(write, resources, cards):
+    """One page per poll at /resources/<slug>, and the polls list at /resources/polls (served for /resources?kind=poll by the Worker)."""
+    polls = [r for r in resources if r["kind"] == "poll" and r.get("slug") in POLL_RAW]
+    by_country = collections.defaultdict(list)
+    for r in polls:
+        by_country[r["country"]].append(r)
+    for r in polls:
+        p = POLL_RAW[r["slug"]]
+        fig = whole_pct(p["support"]) if p.get("support") is not None else ""
+        src = ", ".join(x for x in (p.get("pollster"), str(p.get("published", ""))[:4]) if x)
+        q = short_title(r["title"])
+        desc = f"{fig} in support of a wealth tax: “{q}” {src}. {r['cname']}." if fig else f"“{q}” {src}. {r['cname']}."
+        desc = desc if len(desc) <= 300 else desc[:297].rsplit(" ", 1)[0] + "…"
+        write(f"/resources/{r['slug']}", f"{fig} in support of a wealth tax" + f" · {r['cname']} · Wealth Tax Supporters" if fig else f"Poll · {r['cname']} · Wealth Tax Supporters", desc, "resources/" + r["slug"],
+              f"{fig} in support, {r['cname']}: {src}",
+              lambda o, r=r, p=p, fig=fig, src=src: cards.poll_card(o, r["country"], r["cname"], fig, p["question"], src, p.get("scope") or ""),
+              body=poll_body(r, p, [s for s in by_country[r["country"]] if s["slug"] != r["slug"]]))
+    best = {}
+    for r in polls:
+        v = POLL_RAW[r["slug"]].get("support")
+        if v is not None and (r["country"] not in best or v > best[r["country"]][2]):
+            best[r["country"]] = (r["country"], r["cname"], v)
+    rows = sorted(((c, n, int(float(v) + 0.5)) for c, n, v in best.values()), key=lambda t: (-t[2], t[1]))
+    write("/resources/polls", f"Polls on a wealth tax: {len(rows)} countries · Wealth Tax Supporters",
+          f"{len(polls)} published polls from {len(by_country)} countries on a wealth tax, with the highest result in each country: " + ", ".join(f"{n} {v}%" for _, n, v in rows[:5]) + " and more.",
+          "resources/polls", "Polls on a wealth tax: a flag and a percentage for each country",
+          lambda o: cards.polls_card(o, rows, "The highest published poll in each country."),
+          body=sp.polls_body(polls, POLL_RAW), url_path="/resources?kind=poll")
+
+
 def share_pages(out, base, countries, full, unique=None, bodies=(), resources=(), stories=None, arguments=(), dirstats=None):
     stories = stories or {}
     PRELOAD_SLUGS.update(c["slug"] for c in countries)
@@ -1346,9 +1440,9 @@ def share_pages(out, base, countries, full, unique=None, bodies=(), resources=()
     pages = 0
     SITE_PATHS.clear()
 
-    def write(path, title, desc, image_key, alt, draw, body=None):
+    def write(path, title, desc, image_key, alt, draw, body=None, url_path=None):
         nonlocal pages
-        SITE_PATHS.append(path)
+        SITE_PATHS.append(url_path or path)
         img = f"/og/{image_key}.png"
         if cards:
             draw(out / img.lstrip("/"))
@@ -1359,7 +1453,7 @@ def share_pages(out, base, countries, full, unique=None, bodies=(), resources=()
             img = "/og.png"
         dest = out / ("index.html" if path == "/" else path.lstrip("/") + ".html")
         dest.parent.mkdir(parents=True, exist_ok=True)
-        dest.write_text(page_html(base, title, desc, path, img, alt, body), encoding="utf-8")
+        dest.write_text(page_html(base, title, desc, path, img, alt, body, url_path), encoding="utf-8")
         pages += 1
 
     # One person on several countries' registers counts once in the world totals (same Wikidata id); each country keeps its own count.
@@ -1594,6 +1688,7 @@ def share_pages(out, base, countries, full, unique=None, bodies=(), resources=()
                       units if hl else [], hl, TYPE.get(p[3], p[3]), gradeline, slug, (p[8], GRADE.get(p[8], ""), p[9], span if y0 else "")),
                   body=sp.person_body(slug, name, p, es, TYPE.get(p[3], p[3]), GRADE.get(p[8], "")))
     resource_pages(write, resources, full, cards, countries)
+    poll_pages(write, resources, cards)
     if arguments:
         argument_pages(write, cards, arguments)
     return pages
