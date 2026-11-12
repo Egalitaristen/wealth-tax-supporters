@@ -826,6 +826,7 @@ ARGUMENT_ORDER = [
     ("not-enough", "Not enough"),
     ("hurts-growth", "Hurts growth"),
     ("unconstitutional", "Unconstitutional"),
+    ("nobel-laureates", "Nobel laureates"),
 ]
 ARGUMENT_FIELDS = {"title", "standfirst", "updated", "author", "layout", "facts", "sources", "kind", "objection", "answer", "status"}
 ARGUMENTS_ONLY = False  # --only arguments: a preview build of the section, with the countries its pages link to
