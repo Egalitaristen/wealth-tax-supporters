@@ -16,6 +16,7 @@ No net wealth tax exists. Párbeszéd tabled bills in 2023 and 2025; the Tisza p
 ## Sources
 
 - Works: 444.hu, telex.hu, index.hu, vg.hu, penzcentrum.hu, property-forum.eu; Wayback `id_` copies of parlament.hu PDFs (`web.archive.org/web/2025id_/https://www.parlament.hu/irom42/12722/12722.pdf`; the plain `/web/2025/` form returns a wrapper page that `checkquotes` cannot read); howtheyvote.eu for EP votes.
+- Official bill PDFs: read them from a copy a person saved in an ordinary browser (parlament.hu shows an image CAPTCHA to scripts and to the app's browser pane; T/930 was read this way on 12 Nov 2026). Wayback has only the CAPTCHA page for `irom43/00930`. Full route table in `skill/references/records/hu.md`.
 - Blocked (not bypassed): parlament.hu (CAPTCHA), eur-lex, europarl.europa.eu; adozona.hu returned a bot page.
 - Bill cover pages print "Benyújtó" (submitter): quote the member's own entry.
 - `match_wikidata.py` has no Hungary entry; QIDs were looked up by hand.
