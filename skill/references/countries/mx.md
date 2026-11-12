@@ -35,3 +35,7 @@ QA on the initial map: all 2,478 local paths and 32 region paths nonempty; exact
 ## Seats
 
 `python skill/scripts/seats.py data/mx` charts the Cámara de Diputados (500) and the Senado (128) for the LXVI Legislatura. The official lists (`sitl.diputados.gob.mx`, `diputados.gob.mx`, `senado.gob.mx`) time out or answer 403 to scripts, and some of them to a browser on the same network, so the adapter reads the English Wikipedia article "LXVI Legislature of the Mexican Congress", whose lists show each seat's current holder and mark substitutions ("A (until date) B (since date)"). That is a secondary source and the chamber notes say so. When the official lists can be read (or saved from a browser and passed with `--local URL=FILE`), replace the adapter's source and keep the party names. Wikipedia's article titles can be shorter than the name the register uses: add an alias in the adapter (Amalia García is one) and confirm a name-only match.
+
+## Reading the official record
+
+The Gaceta Parlamentaria (`gaceta.diputados.gob.mx`), SIL and the Senate's sites cannot be opened directly from outside Mexico by scripts: read the Gaceta through the Wayback Machine's raw copies (`https://web.archive.org/web/2026id_/https://gaceta.diputados.gob.mx/...`, `curl --compressed`, one request per 10 seconds). The routes, quirks and a coverage log are in `references/records/mx.md`.

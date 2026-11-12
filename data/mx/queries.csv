@@ -1,0 +1,4 @@
+query_id,run_id,date,language,query,channel,results_opened,leads_added,note
+Q0001,R020,2026-11-12,es,impuesto a las grandes riquezas Gaceta Parlamentaria Cámara de Diputados,web search; Gaceta indices via Wayback,10,0,See skill/references/records/mx.md
+Q0002,R020,2026-11-12,es,"initiative index titles (riqueza, fortuna, patrimonio, multimillonari) LXI-LXVI legislatures",web search; Gaceta indices via Wayback,10,0,See skill/references/records/mx.md
+Q0003,R020,2026-11-12,es,Senado iniciativa grandes fortunas García Medina Título VIII ISR,web search; Gaceta indices via Wayback,10,1,See skill/references/records/mx.md
