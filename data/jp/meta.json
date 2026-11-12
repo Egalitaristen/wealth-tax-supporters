@@ -4,5 +4,19 @@
   "lead": "Egalitaristen",
   "status": "in progress",
   "boundaries": "boundaries.json",
-  "notes": "Scope: national (Diet, parties, unions, economists, commentators), 47 prefectures and 1,749 municipalities (JIS X 0401/0402). Seed pass R001. Review 2026-10-24 (R004): party-platform and roster rows removed; 31 supporters remain. Map vintage: GSI Global Map Japan 2016 (1,749 units); municipal mergers since then are not reflected."
+  "notes": "Scope: national (Diet, parties, unions, economists, commentators), 47 prefectures and 1,749 municipalities (JIS X 0401/0402). Seed pass R001. Review 2026-10-24 (R004): party-platform and roster rows removed; 31 supporters remain. Map vintage: GSI Global Map Japan 2016 (1,749 units); municipal mergers since then are not reflected.",
+  "polls": [
+    {
+      "support": 58,
+      "scope": "Japan, adults aged 18-65, online",
+      "sample": "1,000 online respondents in Japan",
+      "url": "https://res.cloudinary.com/dfyeeawiq/images/v1718739580/Earth-for-All-Survey-2024-Japan-Country-Deck/Earth-for-All-Survey-2024-Japan-Country-Deck.pdf",
+      "question": "Wealthy people paying a higher tax on their wealth, as a means of funding major changes to our economy and lifestyles",
+      "question_original": "",
+      "pollster": "Ipsos",
+      "commissioned_by": "Earth4All and the Global Commons Alliance",
+      "fieldwork": "2024-03-05 to 2024-04-08",
+      "published": "2024-06"
+    }
+  ]
 }
