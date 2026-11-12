@@ -4,5 +4,17 @@
   "lead": "",
   "status": "in progress",
   "boundaries": "boundaries.json",
-  "notes": "Seed pass: national supporters; 12 cantons and 100 communes registered, none swept. Map: ACT Limites administratives (communes, updated 2026-10-05), CC0, LAU2 commune codes; cantons are the regions (LAU1 codes with LU- prefix). Seats tab built by hand from the Chamber's member list at chd.lu (no seats.py adapter yet); Sam Tanson lit. The corporate net wealth tax is excluded (companies only)."
+  "notes": "Seed pass: national supporters; 12 cantons and 100 communes registered, none swept. Map: ACT Limites administratives (communes, updated 2026-10-05), CC0, LAU2 commune codes; cantons are the regions (LAU1 codes with LU- prefix). Seats tab built by hand from the Chamber's member list at chd.lu (no seats.py adapter yet); Sam Tanson lit. The corporate net wealth tax is excluded (companies only).",
+  "polls": [
+    {
+      "support": 58,
+      "scope": "Luxembourg residents, survey for a LISER study",
+      "question": "Agreement with a one-time tax on net worth to pay for COVID-19 costs (rates and exemption amounts varied at random between respondents)",
+      "pollster": "LISER (Luxembourg Institute of Socio-Economic Research), Olivera and Van Kerm",
+      "fieldwork": "2020",
+      "published": "2021-11",
+      "url": "https://econpapers.repec.org/paper/irscepswp/2021-10.htm",
+      "support_text": "58 per cent agreed or strongly agreed; the survey tested a one-off tax, not a recurring one"
+    }
+  ]
 }
