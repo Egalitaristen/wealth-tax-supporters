@@ -1516,13 +1516,27 @@ def share_pages(out, base, countries, full, unique=None, bodies=(), resources=()
             n_sub = c["evidence"] if sec == "time" else c["supporters"]
             cc = dict(c, supporters=n_sub)
             if sec == "seats":
-                bodies = [dict(name=b["name"], seats=b["seats"], parties=[[q[0], q[1], q[2], len(q[3])] for q in b["parties"]]) for b in D["legis"]]
-                lit = sum(q[3] for b in bodies for q in b["parties"])
-                write(f"/{slug}/seats", f"{title} · Wealth Tax Supporters",
-                      f"{lit:,} of {sum(b['seats'] for b in bodies):,} seats in {the(name)}'s legislature are held by a sitting supporter of a wealth tax, found so far, shown by party.",
-                      slug + "-seats", f"{title}: {lit:,} seats held by supporters found so far",
-                      lambda o, cc=cc, bodies=bodies: cards.seats_card(o, cc, bodies, "held by a sitting supporter of a wealth tax, found so far. Unlit seats mean nothing found, never opposition.", slug),
-                      body=sp.seats_body(c, D, the(name)))
+                # A country with chambers at more than one level gets a page and a card for each: /xx/seats is the national one, /xx/seats/regional the next.
+                lvl = lambda b: b.get("level") or "national"
+                present = [l for l in ("national", "regional", "local", "supranational") if any(lvl(b) == l for b in D["legis"])]
+                multi = len(present) > 1
+                for lv in (present if multi else [None]):
+                    chosen = [b for b in D["legis"] if not multi or lvl(b) == lv]
+                    bodies = [dict(name=b["name"], seats=b["seats"], parties=[[q[0], q[1], q[2], len(q[3])] for q in b["parties"]]) for b in chosen]
+                    lit = sum(q[3] for b in bodies for q in b["parties"])
+                    nseats = sum(b["seats"] for b in bodies)
+                    first = lv is None or lv == present[0]
+                    label = LEVEL_LABEL.get(lv, "") if multi else ""
+                    what = {"national": "national legislature", "regional": "regional parliaments and assemblies", "local": "local councils", "supranational": "international bodies"}.get(lv, "legislature")
+                    more = (" Also counted: " + ", ".join(b["name"] for b in bodies[2:4]) + (f" and {len(bodies) - 4} more" if len(bodies) > 4 else "") + ".") if len(bodies) > 2 else ""
+                    write(f"/{slug}/seats" + ("" if first else f"/{lv}"),
+                          f"{title} · Wealth Tax Supporters" if first else f"{label} seats · {name} · Wealth Tax Supporters",
+                          f"{lit:,} of {nseats:,} seats in {the(name)}'s {what if multi else 'legislature'} are held by a sitting supporter of a wealth tax, found so far, shown by party.",
+                          slug + ("-seats" if first else f"-seats-{lv}"), f"{label + ' ' if multi else ''}{title}: {lit:,} seats held by supporters found so far".replace("  ", " "),
+                          lambda o, cc=cc, bodies=bodies, more=more, label=label, multi=multi: cards.seats_card(
+                              o, cc, bodies, "held by a sitting supporter of a wealth tax, found so far. Unlit seats mean nothing found, never opposition." + more, slug,
+                              kicker=f"Seats · {label} chambers" if multi else "Seats · who sits in the legislature"),
+                          body=sp.seats_body(c, D, the(name), lv))
                 continue
             if sec == "directory":
                 write(f"/{slug}/directory", f"{title} · Wealth Tax Supporters", desc, slug + "-directory", f"{title}: {c['supporters']:,} found so far",

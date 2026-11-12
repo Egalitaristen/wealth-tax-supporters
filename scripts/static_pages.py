@@ -93,10 +93,10 @@ def directory_body(c, D, name_the):
                  f'All {c["supporters"]:,} public figures and organisations found so far, strongest evidence first. Each name opens its sourced statements.') + _list(rows))
 
 
-def seats_body(c, D, name_the):
+def seats_body(c, D, name_the, level=None):
     people = {p[0]: p for p in D["P"]}
     parts = []
-    for b in D.get("legis", []):
+    for b in [x for x in D.get("legis", []) if level is None or (x.get("level") or "national") == level]:
         lit = sum(len(q[3]) for q in b["parties"])
         rows = []
         for party, n, _colour, ids in b["parties"]:
