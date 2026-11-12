@@ -1307,3 +1307,9 @@ body:not(.ready) .foot { visibility: hidden; }
 .static-page .sp-list li { padding: 5px 0; break-inside: avoid; color: var(--ink-2); font-size: 15px; }
 .static-page blockquote { margin: 14px 0; padding: 0 0 0 16px; border-left: 2px solid var(--rule-2); }
 .static-page blockquote footer { font-size: 13px; color: var(--ink-3); }
+
+/* ---------- a poll's own page ---------- */
+.pp-fig { font: 400 clamp(84px, 14vw, 160px)/.9 var(--serif); letter-spacing: -.03em; color: var(--signal); margin-top: 14px; }
+.pp-fig span { font: 500 13px/1 var(--mono); letter-spacing: .1em; text-transform: uppercase; color: var(--ink-3); margin-left: 16px; }
+.pp-q { font: 400 clamp(20px, 2.4vw, 26px)/1.35 var(--serif); max-width: 52ch; }
+.bp-head .pp-fig + h1 { margin-top: 18px; font-size: clamp(24px, 3.4vw, 40px); }

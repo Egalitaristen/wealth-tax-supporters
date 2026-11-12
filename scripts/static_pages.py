@@ -160,6 +160,17 @@ def resources_body(resources):
                  f"{len(resources)} polls, papers, reports and bills from the countries in the register and beyond.") + "".join(out))
 
 
+def polls_body(polls, raw):
+    """The polls list at /resources/polls (shown for /resources?kind=poll): every poll with its whole percentage, newest first."""
+    rows = []
+    for r in sorted(polls, key=lambda r: str(r["published"]), reverse=True):
+        p = raw[r["slug"]]
+        rows.append(f'{h(r.get("fig", ""))} in support, {h(r["cname"])}: ' + _link(f'/resources/{r["slug"]}', r["title"][:200]) +
+                    f' ({h(p.get("pollster", ""))}, {h(str(r["published"])[:4])})')
+    return _page("polls", _head("Polls", "What the polls say about a wealth tax",
+                 f"{len(polls)} published polls from {len(set(r['country'] for r in polls))} countries, each with its result as a whole percentage and a page for the question, the pollster and the sample.") + _list(rows))
+
+
 def calculator_body(presets):
     rows = [f'{_link("/resources/" + slug, label)}' for label, slug in presets]
     return _page("calculator", _head("Calculator", "Try a real wealth tax on your own numbers",
@@ -179,7 +190,7 @@ def poll_lines(c, n=4):
     out = []
     for p in (c.get("polls") or [])[:n]:
         yr = str(p.get("published") or "")[:4]
-        bit = f'{p.get("support")}% in support' if p.get("support") is not None else (p.get("support_text") or "")
+        bit = f'{int(float(p["support"]) + 0.5)}% in support' if p.get("support") is not None else ""
         out.append(f'{h(bit)}: “{h(p.get("question", ""))}” ({h(p.get("pollster", ""))}{", " + h(yr) if yr else ""}{", " + h(p["scope"]) if p.get("scope") else ""})')
     return out
 

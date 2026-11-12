@@ -278,7 +278,7 @@ def home_card(out, totals, types):
 def _poll(dr, poll, x, y, width):
     """The poll figure, who asked and the question as asked, in a block about 130 high."""
     dr.rectangle((x * S, y * S, (x + 6) * S, (y + 128) * S), fill=SIGNAL)
-    fig = poll.get("support_text") or f"{poll['support']}%"
+    fig = f"{int(poll['support'] + 0.5)}%"
     ff, _ = _fit(dr, fig, SERIF, min(330, width - 250), 76, 40)
     dr.text(((x + 26) * S, (y - 6) * S), fig, font=ff, fill=SIGNAL)
     fx = x + 26 + dr.textlength(fig, font=ff) / S + 20
@@ -843,3 +843,53 @@ def directory_type_card(out, label, total, n_countries, top, names):
         _footer(dr)
         _save(img, path)
     return cached(out, ["dir-type", label, total, n_countries, [list(t) for t in top], names[:4]], draw)
+
+
+def polls_card(out, rows, line):
+    """The polls list: one flag and one whole percentage per country, the highest poll of each, biggest first. rows: (slug, name, percent)."""
+    n = len(rows)
+    cols = 5 if n <= 30 else 6
+    nrows = -(-n // cols)
+    majority = sum(1 for _, _, v in rows if v > 50)
+
+    def draw(path):
+        img, dr = _canvas()
+        dr.text((60 * S, 40 * S), "POLLS · SUPPORT FOR A WEALTH TAX", font=SANS(20, 500), fill=INK3)
+        title = f"Majorities in {majority} countries back a wealth tax" if majority == n else f"Polls in {n} countries"
+        lines, size = _title(dr, title, 1080, 1, 60, 44)
+        y = _put_title(dr, lines, size, 56, 74) + 12
+        dr.text((60 * S, y * S), line, font=SANS(20), fill=INK2)
+        top, bottom = y + 44, H - FOOT - 14
+        cw, ch = 1080 / cols, (bottom - top) / nrows
+        for i, (slug, name, v) in enumerate(rows):
+            r, k = divmod(i, cols)
+            x, yy = 60 + k * cw, top + r * ch
+            dr.rectangle((x * S, (yy + 4) * S, (x + cw - 14) * S, (yy + ch - 6) * S), fill=PAPER2)
+            _flag(img, slug, x + 12, yy + ch / 2 - 18, 52, 36)
+            f, t = SERIF(46), f"{v}%"
+            dr.text(((x + cw - 28) * S - dr.textlength(t, font=f), (yy + ch / 2 - 30) * S), t, font=f, fill=SIGNAL)
+        _footer(dr)
+        _save(img, path)
+    return cached(out, ["polls", 2, [list(r) for r in rows], line], draw)
+
+
+def poll_card(out, slug, cname, fig, question, source, scope):
+    """One poll: the whole percentage large, who was asked, the question as asked and the pollster."""
+    def draw(path):
+        img, dr = _canvas()
+        _kicker(img, dr, f"Poll · {cname}", slug)
+        ff, _ = _fit(dr, fig, SERIF, 440, 230, 120)
+        dr.text((56 * S, 96 * S), fig, font=ff, fill=SIGNAL)
+        w = dr.textlength(fig, font=ff) / S
+        dr.text(((56 + w + 22) * S, 200 * S), "IN SUPPORT", font=SANS(20, 500), fill=INK3)
+        for i, ln in enumerate(_wrap(dr, scope, SANS(22), 1080 - w - 40, 2)):
+            dr.text(((56 + w + 22) * S, (232 + i * 30) * S), ln, font=SANS(22), fill=INK2)
+        y = 372
+        dr.rectangle((60 * S, y * S, 66 * S, (y + 112) * S), fill=SIGNAL)
+        q = re.sub(r"\s*\(.*?\)", "", question).strip().rstrip("?.:;")
+        for i, ln in enumerate(_wrap(dr, "Asked: “" + q, SANS(27), 1040, 3, tail="”")):
+            dr.text((88 * S, (y + i * 36) * S), ln, font=SANS(27), fill=INK)
+        dr.text((60 * S, (y + 128) * S), _wrap(dr, source, SANS(21, 500), 1080, 1)[0], font=SANS(21, 500), fill=INK3)
+        _footer(dr)
+        _save(img, path)
+    return cached(out, ["poll", slug, fig, question, source, scope], draw)
