@@ -40,13 +40,13 @@ Written 2026-11-12 (run: records-tr access pass). Country guide: `skill/referenc
 |---|---|---|---|---|
 | 2026-11-12 | records-tr | Detail page of bill 2/2613 (28/3, 16.10.2024); bill text PDF (4 pages, OCR plus page image) | Sole signer: Perihan Koca Doğan (DEM Parti, Mersin), first signer. Referred 17.10.2024: Plan and Budget Committee (lead), Health, Family, Labour and Social Affairs Committee (secondary). Status "KOMİSYONDA". Rates 2 / 3.5 / 5 / 7.5 / 10 % from TL 40m / 100m / 250m / 500m / 750m; Basic Income Guarantee Fund | Committee agenda/minutes |
 | 2026-11-12 | records-tr | Title/summary search for `servet`, `varlık`, `zengin`, `servet vergisi` etc. in current and past terms 20 to 28 | In the wealth-tax sense only 2/2613 matches in the summaries | Bills whose summary lacks these words |
-| 2026-11-12 | records-tr | PDF text of the 1,355 MP bills (terms 23 to 28) with `vergi` in the summary: text-layer grep; OCR of the 874 image-only ones was running (490 done) | Text hits: 2/2613; 2/2708 (28/3, Öznur Bartın, labour-law omnibus: says wealth taxation "remains at very low levels", not a wealth-tax proposal as read from garbled text); 2/4717 (1942 levy apology) | OCR results of the remaining image-only PDFs; not yet read |
+| 2026-11-12 | records-tr | PDF text of the 1,355 MP bills (terms 23 to 28) with `vergi` in the summary: text-layer grep; OCR of the 874 image-only ones (all done) | Text hits: 2/2613; 2/2708 (28/3, Öznur Bartın, labour-law omnibus: says wealth taxation "remains at very low levels", not a wealth-tax proposal as read from garbled text); 2/4717 (1942 levy apology); OCR hits only in treaty 2/2935 and income-tax bill 2/1556 (passing mentions); 2/2708 read in full by OCR: no wealth-tax article | Bills whose summary lacks `vergi` |
 | 2026-11-12 | records-tr | Research and general-debate motion search, current and past terms | No motion proposes a wealth tax; 10/419 (28/2, Yeşiller ve Sol Gelecek Partisi) asks for an inquiry into income and wealth inequality | Texts of 10/4923, 10/5019 (tax-burden inquiries, 28/5) |
 | 2026-11-12 | records-tr | Plenary search `servet vergisi`: 39 hits 28th term, 24 27th, 9 26th, 4 24th; `varlık vergisi` 5/10/10/13/6 | Snippets show many MPs calling for a wealth tax (2023 to 2026) | Speakers not identified, no minutes opened, no evidence rows written |
 
 ## 7. Known gaps and next steps
 
-1. Finish the OCR grep of the image-only bill PDFs (keywords `servet vergisi`, `net servet`, `zenginlik vergisi`) and add any qualifying bill as a `bill` entry with signers from its detail page.
-2. Rebuild the 2/2613 entry in `data/resources.json` from the facts in the coverage log (summary, status, `state: pending`, links to the detail page and text, overview with the rate table, fund and justification) and add its `documents.csv` row.
+1. Done: OCR grep found no other wealth-tax bill (2/2613 only). Extend to bills whose summary lacks `vergi`.
+2. Done: 2/2613 entry rebuilt (PR commit 6c78a54).
 3. Open the plenary pages found by the search, name the speakers, and add evidence rows (speech) for MPs who call for the tax.
 4. Read committee agendas for Plan and Budget on 2/2613.
