@@ -5,5 +5,20 @@
   "status": "in progress",
   "boundaries": "boundaries.json",
   "notes": "Seed pass, national level only; no county sweep. Register: the 47 counties (the lowest tier of general-purpose local government, each with an elected governor and assembly), numbered 001 to 047 as in the First Schedule of the Constitution. Sub-county wards are not loaded. Map: RCMRD county boundaries via geoBoundaries gbOpen (public domain); the OCHA/HDX COD-AB Kenya download (IEBC, CC BY-IGO) is behind a bot challenge and was not bypassed. No seats adapter: positions are not checked against an official member list. Kenya has no net-wealth tax in force; no legislator bill or motion for one was found.",
-  "national_seat_roles": "^Senator"
+  "national_seat_roles": "^Senator",
+  "polls": [
+    {
+      "support": 70,
+      "oppose": 18,
+      "support_text": "Strongly or tend to support; 12% neither support nor oppose",
+      "scope": "Kenya, online sample of adults aged 18-75 (Kenya's results from a 21-country survey)",
+      "question": "Support or oppose, as a means of funding major changes to the economy and lifestyles: wealthy people pay a higher tax on their wealth",
+      "pollster": "Ipsos",
+      "commissioned_by": "Earth4All and the Global Commons Alliance",
+      "fieldwork": "2024-03-05 - 2024-04-08",
+      "sample": "1,000 online interviews in Kenya",
+      "published": "2024-06",
+      "url": "https://earth4all.life/wp-content/uploads/2024/06/Earth-for-All-Survey-2024-Kenya-Country-Deck.pdf"
+    }
+  ]
 }
