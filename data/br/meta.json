@@ -20,6 +20,18 @@
       "url": "https://www.poder360.com.br/economia/69-dos-brasileiros-apoiam-taxar-super-ricos-diz-pesquisa/"
     },
     {
+      "support": 85,
+      "scope": "Brazil, adults, nationwide in 130 municipalities",
+      "question": "Agreement with taxing large fortunes to fund social policies",
+      "question_original": "Taxação de grandes fortunas para financiar políticas sociais",
+      "pollster": "Datafolha",
+      "commissioned_by": "Oxfam Brasil (\"Nós e as Desigualdades\")",
+      "fieldwork": "2022-03-08 to 2022-03-15",
+      "sample": "2,564 people, margin of error 2 points",
+      "published": "2022-09-15",
+      "url": "https://vermelho.org.br/?p=640631"
+    },
+    {
       "support": 80,
       "oppose": 20,
       "scope": "Brazil, residents aged 16 and over, telephone (automated voice) survey",

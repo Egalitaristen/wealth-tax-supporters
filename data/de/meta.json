@@ -7,6 +7,28 @@
   "notes": "Depth: seed. Scope: national level in every layer (Bundestag, parties, alliances, unions, economists, commentators, wealthy supporters), the 16 Länder as a register, and one sampled Landtag (Berlin). First pass R001 and gap passes R002 and R003 (2026-10-20): Bundestag motions and bills 2010-2026 with their named sponsors (harvest H0001-H0008), party programmes, the alliance 'Vermögen besteuern jetzt' (22 signatories plus 12 joiners), union and NGO statements, DIW and taz commentary, taxmenow and earlier millionaires' appeals. R002 added the 2022 roll call, debate speakers, the 2021 hearing, three Landtage, the 2021 open letter and 2011 appeals. R003 added the 2013 roll call, the BSW and Left programmes (read from Internet Archive copies), the full first-signatory list of the 2021 open letter, taxmenow's own pages and petition, the DGB, IG Metall, GEW and Paritätischer statements, the 2011–2014 Länder working group and the 2012 Länder initiative, Landtag debates in Saxony-Anhalt, Jusos, Grüne Jugend and one MEP. R003 also added the Left motion 20/11630 (2024), the Greens' 500-million-euro motion 21/8267 (2026-09-29), Saxony Landtag motions, SPD left figures (2011, 2018), Bofinger, Dullien and the Caritas. Not done: the 2011 appeal's full list, other Landtage, most MEPs, most media, municipalities (the Länder register is the lowest level loaded). The Left's own site (die-linke.de) answers 403 even to a browser, so its programme was read from an easy-read edition. 2026-10-21: register extended to the 10,939 Gemeinden (BKG VG250, 1 Jan 2026) under 401 Kreise (Hanau kreisfrei since 2026); map at Gemeinde level; Bundestag members placed in the Land of their seat (MdB-Stammdaten).",
   "polls": [
     {
+      "support": 64,
+      "oppose": 29,
+      "scope": "Germany, adults (2,084 respondents)",
+      "question": "Support for introducing a wealth tax (Vermögensteuer), which has not been levied since 1997",
+      "pollster": "infratest dimap",
+      "commissioned_by": "ARD (\"Deine Meinung zählt!\")",
+      "fieldwork": "2026-04-07 to 2026-04-14",
+      "sample": "2,084 respondents (1,241 by telephone, 843 online)",
+      "published": "2026-04",
+      "url": "https://www.infratest-dimap.de/umfragen-analysen/bundesweit/ard-deutschlandtrend/2026/april-deine-meinung-zaehlt/"
+    },
+    {
+      "support": 69,
+      "scope": "Adults in Germany (Flash Eurobarometer 562, 27 EU countries, n=25,793 in total)",
+      "question": "Support for a minimum tax based on wealth for the wealthiest individuals (top 0.001%)",
+      "pollster": "Ipsos European Public Affairs",
+      "commissioned_by": "European Commission, DG Taxation and Customs Union",
+      "fieldwork": "2025-04-09 to 2025-04-17",
+      "published": "2025-08",
+      "url": "https://doi.org/10.2778/6066713"
+    },
+    {
       "support": 62,
       "oppose": 34,
       "scope": "Germany, adults (1,008 respondents)",

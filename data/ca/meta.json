@@ -7,6 +7,17 @@
   "notes": "R001 seed plus R002 and R003 broad English/French sweeps. Federal and regional politics, unions, NGOs, economists, public wealthy signers, faith and media organisations. Partial coverage:80 selected organisations from a1443-signatory Quebec manifesto; no exhaustive province or municipal sweep. Statistics Canada official2025 register:5054 census subdivisions and13 provinces/territories; local map2025/province outlines2021, Open Government Licence–Canada. See research logs and QA for source/date limitations and next priorities. Review 2026-10-24 (R004): 49 rows removed, 81 dates corrected; 287 supporters remain.",
   "polls": [
     {
+      "support": 73,
+      "scope": "Canada, adults",
+      "question": "A wealth tax of 1% on assets over $10 million (strongly support 48%, support 26%)",
+      "pollster": "Angus Reid Institute",
+      "commissioned_by": "",
+      "fieldwork": "2023-07-26 to 2023-07-31",
+      "sample": "3,016 adults (Angus Reid Forum), margin of error +/- 1.5 points",
+      "published": "2023-10-11",
+      "url": "https://angusreid.org/canada-culture-wars-climate-change-environmentalism-capitalism-rich-poor/"
+    },
+    {
       "support": 79,
       "oppose": null,
       "scope": "Canada, adults",

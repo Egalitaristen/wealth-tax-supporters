@@ -7,6 +7,16 @@
   "notes": "Seed R001 (2026-10-26): national parties, three TDs and Oxfam Ireland added from opened primary sources. Geography register: 31 statutory local authorities, using Tailte Éireann 2026 boundary IDs. The map is the 31 local authorities from Tailte Éireann (CC BY 4.0, 2026), generalised. The three TDs are temporarily at the country root until their constituencies and current offices are verified from the Oireachtas register. Regional and local research has not begun.",
   "polls": [
     {
+      "support": 67,
+      "scope": "Adults in Ireland (Flash Eurobarometer 562, 27 EU countries, n=25,793 in total)",
+      "question": "Support for a minimum tax based on wealth for the wealthiest individuals (top 0.001%)",
+      "pollster": "Ipsos European Public Affairs",
+      "commissioned_by": "European Commission, DG Taxation and Customs Union",
+      "fieldwork": "2025-04-09 to 2025-04-17",
+      "published": "2025-08",
+      "url": "https://doi.org/10.2778/6066713"
+    },
+    {
       "support": 82,
       "oppose": 14,
       "scope": "Ireland, 1,016 people questioned",
