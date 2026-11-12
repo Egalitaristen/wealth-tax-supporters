@@ -4,5 +4,19 @@
   "lead": "Egalitaristen",
   "status": "in progress",
   "boundaries": "boundaries.json",
-  "notes": "Seed pass begun 2026-10-25 and completed 2026-10-26. National layers searched, with a sample of regional and local sources. Spanish and English searched; indigenous-language sources remain a coverage gap. Official INEGI municipality/alcaldía map and register; most local units remain unswept. Further legislative and report-author harvesting is planned."
+  "notes": "Seed pass begun 2026-10-25 and completed 2026-10-26. National layers searched, with a sample of regional and local sources. Spanish and English searched; indigenous-language sources remain a coverage gap. Official INEGI municipality/alcaldía map and register; most local units remain unswept. Further legislative and report-author harvesting is planned.",
+  "polls": [
+    {
+      "support": 63,
+      "scope": "Mexico, adults aged 18-55, online (Mexico's results from a 22-country survey)",
+      "sample": "1,000 online interviews in Mexico",
+      "url": "https://earth4all.life/wp-content/uploads/2024/06/Earth-for-All-Survey-2024-Mexico-Country-Deck.pdf",
+      "question": "Support or oppose, as a means of funding major changes to the economy and lifestyles: wealthy people pay a higher tax on their wealth",
+      "question_original": "",
+      "pollster": "Ipsos",
+      "commissioned_by": "Earth4All and the Global Commons Alliance",
+      "fieldwork": "2024-03-05 to 2024-04-08",
+      "published": "2024-06"
+    }
+  ]
 }
