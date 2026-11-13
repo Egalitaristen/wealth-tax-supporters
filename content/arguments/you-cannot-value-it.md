@@ -1,132 +1,147 @@
 ---
-title: Norway collects its wealth tax from 700,000 people, and banks and companies supply the numbers
+title: Half of a billionaire's wealth has a price on the screen, and the rest is valued by rules countries already use
 kind: argument
 objection: "You can't value private companies, art and land, so a wealth tax can't work."
-answer: Banks report deposits and holdings, a company can value its own shares for its owner, and a tax on a few hundred or a few thousand households can be audited one by one. Nobody prices the socks.
-standfirst: In 2024 719,007 taxpayers paid Norwegian wealth tax, NOK 31.8 billion in all. Banks report balances to the tax authority, an unlisted company works out the value of its own shares and hands that to its owner, and the owner files the result. The rest of the country, 85% of adults, files the same return with no wealth tax on it.
-updated: 2026-11-09
+answer: Half of billionaire wealth is shares with a daily price. The rest is valued by rules countries already use, and Norway values the assets of 4.8 million people every year.
+standfirst: About half of what the world's billionaires own is shares of listed companies, priced every trading day. Most of the other half is large private firms, which can be valued against listed ones in the same industry. Norway assesses the wealth of 4.8 million people a year, and the places where valuation was weak were places that chose low values.
+updated: 2026-11-13
 layout: article
 status: draft
+card_figure: Half
+card_label: Of billionaire wealth is shares of listed companies, with a market price every day.
 facts:
-  - label: Norwegian wealth tax payers, 2024
-    value: 719,007, paying NOK 31.8 billion
+  - label: Billionaire wealth held as listed shares
+    value: About half, the rest mostly private companies
     source: 1
-  - label: Who values unlisted shares
-    value: The company, in its own tax return; the owner uses the figure
-    source: 2
-  - label: Valuation discounts in Norway, 2025
-    value: Shares 20%, primary home 75%, secondary home 0%
-    source: 3
-  - label: Hidden foreign income and wealth, all taxes
-    value: About NOK 7 billion a year
+  - label: People with a wealth figure in Norway's tax register, 2024
+    value: 4,805,655, of whom 719,007 paid NOK 31.8 billion
     source: 4
-  - label: Swiss cantons, reported wealth after a 1 point rate cut
-    value: Up at least 43%, with no third-party reporting
-    source: 6
-  - label: Households a French floor tax would reach
-    value: About 1,800
-    source: 8
+  - label: Norway's value of private business shares in the tax base
+    value: About a tenth of market value
+    source: 2
+  - label: Billionaires a 2% minimum tax would reach
+    value: About 3,000, raising $200 billion to $250 billion a year
+    source: 1
 sources:
   - id: 1
-    title: Statistics Norway, StatBank table 08815, wealth tax, taxpayers, amounts and components of net wealth
-    url: https://www.ssb.no/statbank/table/08815
+    title: Gabriel Zucman, A blueprint for a coordinated minimum effective taxation standard for ultra-high-net-worth individuals, report for the Brazilian G20 presidency (EU Tax Observatory, June 2024), sections 4.1 and 4.2
+    url: https://taxobservatory.world//www-site/uploads/2024/06/report-g20.pdf
   - id: 2
+    title: Ring, Seim and Zucman, Personal Holding Companies, Tax Progressivity, and Inequality, NBER Working Paper 35534 (July 2026, not peer reviewed)
+    url: https://gabriel-zucman.eu/files/RSZ2026.pdf
+  - id: 3
+    title: Balkir, Saez, Yagan and Zucman, How Much Tax Do US Billionaires Pay? Evidence from Administrative Data, NBER Working Paper 34170 (August 2025, not peer reviewed)
+    url: https://gabriel-zucman.eu/files/BSYZ2025NBER.pdf
+  - id: 4
+    title: Statistics Norway, StatBank table 08815 (taxable wealth, debt and wealth tax for taxable persons with an amount, 2024), read through the StatBank API on 13 November 2026
+    url: https://www.ssb.no/statbank/table/08815
+  - id: 5
     title: Skatteklagenemnda, decision SKNS1-2024-117 (11 December 2024), skattemessig formuesverdi på aksjer, published by Skatteetaten
     url: https://www.skatteetaten.no/en/rettskilder/type/vedtak/skatteklagenemnda/skattemessig-formuesverdi-pa-aksjer/
-  - id: 3
-    title: Skatteetaten, Satser for formuesskatt, valuation discounts (verdsettingsrabatt) for 2025 and 2026
-    url: https://www.skatteetaten.no/satser/formuesskatt/
-  - id: 4
-    title: Stortinget, Innst. 172 S (2023-2024) on Document 3:3 (2023-2024), Riksrevisjonen on foreign wealth and income
-    url: https://stortinget.no/no/Saker-og-publikasjoner/Publikasjoner/Innstillinger/Stortinget/2023-2024/inns-202324-172s/?all=true
-  - id: 5
-    title: Skatteetaten, press release of 19 October 2023, Skatteetaten har økt kontrollen av verdier i utlandet
-    url: https://www.skatteetaten.no/en/press/nyhetsrommet/skatteetaten-har-okt-kontrollen-av-verdier-i-utlandet/
   - id: 6
-    title: Brülhart, Gruber, Krapf and Schmidheiny, Behavioral Responses to Wealth Taxes, Evidence from Switzerland, American Economic Journal, Economic Policy 14(4), 2022
-    url: https://www.aeaweb.org/articles?id=10.1257/pol.20200258
+    title: Skatteetaten, Satser for formuesskatt, 2026 (valuation discounts, rates and thresholds)
+    url: https://www.skatteetaten.no/satser/formuesskatt/
   - id: 7
-    title: Bach, Wichers and Mudrack, Vermögensteuer Die Linke, Aufkommens- und Verteilungswirkungen, DIW Politikberatung kompakt 211 (23 January 2026)
-    url: https://www.diw.de/documents/publikationen/73/diw_01.c.998454.de/diwkompakt_2026-211.pdf
+    title: Ley 19/1991, del Impuesto sobre el Patrimonio, consolidated text, articles 4, 10, 15 and 16 (Boletín Oficial del Estado)
+    url: https://www.boe.es/buscar/act.php?id=BOE-A-1991-14392
   - id: 8
-    title: Assemblée nationale, amendment I-471 (Bouloux and the Socialist group) to the finance bill for 2027 (8 October 2026)
-    url: https://www.assemblee-nationale.fr/dyn/17/amendements/3210A/AN/471.pdf
+    title: Swiss Federal Tax Administration and Swiss Tax Conference, Vermögenssteuer natürlicher Personen, Dossier Steuerinformationen (legislation as of 1 January 2026), chapter 4
+    url: https://www.estv2.admin.ch/stp/ds/d-vermoegenssteuer-np-de.pdf
   - id: 9
-    title: Jämlikhetskommissionen, En gemensam angelägenhet, SOU 2020:46, part 2, chapter 28
-    url: https://www.regeringen.se/contentassets/a60a4b64403e466fb7af8ab30a2399e2/sou-2020_46_vol-2_webb.pdf
+    title: Swiss Federal Tax Administration, Kurslisten (ICTax), the Kursliste of securities
+    url: https://www.estv.admin.ch/de/kurslisten-ictax
   - id: 10
-    title: Bundesverfassungsgericht, Beschluss vom 22. Juni 1995, 2 BvL 37/91 (BVerfGE 93, 121)
-    url: https://www.servat.unibe.ch/dfr/bv093121.html
+    title: Bach, Wichers and Mudrack, Vermögensteuer Die Linke, DIW Politikberatung kompakt 211 (23 January 2026)
+    url: https://www.diw.de/documents/publikationen/73/diw_01.c.998454.de/diwkompakt_2026-211.pdf
   - id: 11
-    title: Ring, Seim and Zucman, Personal Holding Companies, Tax Progressivity, and Inequality, NBER Working Paper 35534 (July 2026)
-    url: https://gabriel-zucman.eu/files/RSZ2026.pdf
+    title: Bundesverfassungsgericht, order of 22 June 1995, 2 BvL 37/91 (BVerfGE 93, 121)
+    url: https://www.servat.unibe.ch/dfr/bv093121.html
   - id: 12
-    title: Bundestag Drucksache 21/8267, Antrag der Fraktion Bündnis 90/Die Grünen, 500-Millionen-Steuer (29 September 2026)
-    url: https://dserver.bundestag.de/btd/21/082/2108267.pdf
+    title: Skatteetaten, Utsett betaling av formuesskatt beregnet på virksomhetsformue (deferral of the wealth tax on business assets)
+    url: https://www.skatteetaten.no/person/skatt/skattekort/utsett-virksomhetsformue/
   - id: 13
-    title: Initiative 25-0024, Amendment 1, The 2026 Billionaire Tax Act, filed with the California Attorney General (24 November 2025)
-    url: https://oag.ca.gov/system/files/initiatives/pdfs/25-0024A1%20(Billionaire%20Tax%20).pdf
-  - id: 14
-    title: Skatteetaten, press release of 30 April 2025, Dette skjer om du ikke leverer skattemeldingen
-    url: https://www.skatteetaten.no/en/press/nyhetsrommet/i-dag-gar-leveringsfristen-ut-dette-skjer-om-du-ikke-leverer-skattemeldingen/
-  - id: 15
-    title: Kanton Zürich, Verrechnungssteuer & ausländische Quellensteuer, on the eSteuerauszug in ZHprivateTax
-    url: https://www.zh.ch/de/steuern-finanzen/steuern/steuern-natuerliche-personen/wertschriften-verrechnungssteuer.html
-  - id: 16
-    title: News in English, Tax filing deadline nears (8 April 2020)
-    url: https://www.newsinenglish.no/?p=142635
-  - id: 17
-    title: Kanton Zürich, Medienmitteilung of 6 January 2026, Digitale Steuererklärung, Kanton Zürich setzt auf den Online-Kanal ZHprivateTax
-    url: https://www.zh.ch/de/news-uebersicht/medienmitteilungen/2026/01/digitale-steuererklaerung-kanton-zuerich-setzt-auf-den-online-kanal-zhprivatetax.html
-  - id: 18
-    title: Statistics Norway, StatBank table 08231, residents aged 17 and over by wealth tax paid, 2024
-    url: https://www.ssb.no/statbank/table/08231
-  - id: 19
-    title: Lag (1997:323) om statlig förmögenhetsskatt, as in force until repeal (Riksdag, Svensk författningssamling), the list of taxable assets
-    url: https://www.riksdagen.se/sv/dokument-och-lagar/dokument/svensk-forfattningssamling/lag-1997323-om-statlig-formogenhetsskatt_sfs-1997-323/
+    title: Internal Revenue Service, Estate tax
+    url: https://www.irs.gov/businesses/small-businesses-self-employed/estate-tax
+charts:
+  - id: billionaire-wealth
+    type: bars
+    title: What billionaire wealth is made of
+    desc: About half of the wealth of the world's billionaires is shares of publicly listed companies, which have a market price. The other half is mostly shares in private companies, with a small share in other assets such as art.
+    caption: The Zucman report for the G20 gives the split as "about half" and "the other half".[1]
+    unit: "%"
+    max: 100
+    data: Shares of listed companies, with a market price|50|signal|about half; Everything else, mostly large private companies|50|muted|the other half
+  - id: norway-assets
+    type: bars
+    title: What Norway's tax register holds on 4.8 million people, 2024
+    desc: Of all taxable gross wealth reported in Norway in 2024, 21.2% was bank deposits, 22.9% shares and securities, 38.1% residential property and 17.8% everything else.
+    caption: Share of taxable gross wealth of all taxable persons, 2024, after the discounts in Norwegian law. Calculated from NOK 8,291,803 million in all, NOK 1,756,640 million in bank deposits, NOK 1,899,787 million in shares and securities and NOK 3,160,309 million in residential property.[4]
+    unit: "%"
+    max: 50
+    data: Bank deposits|21.2|signal; Shares and securities|22.9|signal; Residential property|38.1|signal; Everything else|17.8|muted
+  - id: norway-people
+    type: bars
+    title: People with a wealth figure in Norway's tax register, and people who paid
+    desc: In 2024 4.81 million people in Norway had a taxable net wealth figure assessed. 0.72 million of them paid wealth tax.
+    caption: Taxable persons with an amount of net wealth, and taxpayers who paid wealth tax, Norway 2024.[4]
+    unit: "m"
+    max: 5
+    data: Net wealth assessed|4.81|ink; Paid wealth tax|0.72|signal
 ---
-The objection says a wealth tax needs a price tag on every painting, farm and private company, and that nobody can set one. Norway collected NOK 31.8 billion from 719,007 taxpayers in 2024.[1] Here is how it does the valuing.
+A wealth tax needs a number for what you own. For most of what the very rich own, the number already exists, because someone prices it every year for another reason.
 
-## Nobody appraises the socks {#most}
+About half of the wealth of the world's billionaires is shares of listed companies, which a stock exchange values every trading day. The other half is mostly shares in private companies, and those are typically large, so their value can be worked out from listed companies in the same line of business.[1] Countries that tax wealth already do both. Norway puts a figure on the wealth of 4.8 million people a year, and 719,007 of them paid the tax in 2024.[4] Where valuation was weak, in Norway's old discounts and in Sweden's old exemption, the law set low values or left shares out. That was a decision that can be reversed, and it is not a limit of what can be known.
 
-Real wealth taxes never asked households to price their belongings. In Norway 701,482 residents paid wealth tax in 2024, 15.4% of adults, and the other 85% filed the same pre-filled return with no wealth tax on it.[18] Sweden's old wealth tax counted movable property but left out personal furnishings, left out personal items worth under SEK 10,000 each, and counted cash only above SEK 25,000.[19] A tax is written around what is worth valuing.
+## Half of it has a price on the screen {#priced}
 
-## How Norway does it {#norway}
+{{chart: billionaire-wealth}}
 
-Banks and other institutions report balances and holdings to the tax authority. Statistics Norway's wealth tax tables break net wealth into bank deposits, mutual funds, shares and securities for each taxpayer, which is only possible because the data sit in the tax register.[1]
+A listed share is the easy case. In the United States insiders of listed companies must disclose their stakes to the Securities and Exchange Commission, and Forbes keeps a database of the public shares each of the 400 richest Americans owns.[3] Switzerland's federal tax administration publishes a price list every year, mostly the closing prices on the last trading day of December, and every canton taxes listed shares from it.[8][9] Spain values listed shares at their average price in the fourth quarter, and the Finance Ministry publishes the list.[7]
 
-An unlisted company values its own shares. Norway's tax appeals board put it plainly in December 2024: the company works out the wealth value of its shares when it files its own tax return, attaches the calculation, and the shareholder uses that figure in the personal return.[2] The owner doesn't hire an appraiser for each share.
+That already settles the largest single block. A tax on billionaires can read half of the base from a price list.
 
-If an employee or pensioner doesn't submit a return, it counts as submitted with the pre-filled information. The tax authority estimated in April 2025 that 400,000 to 500,000 people don't even check theirs, and reminds everyone they remain responsible for it being right.[14] A Norwegian news site wrote in 2020 that the vast majority of employees can just glance over all the numbers the tax authorities have already filled in.[16]
+## The other half is valued against firms that have a price {#private}
 
-Then there are the discounts the law writes in. For 2025 a primary home gets a 75% discount, shares 20%, operating assets 30%, and secondary homes none.[3] A discount is a political choice about the rate. It has nothing to do with whether a value can be found.
+The private half is mostly large companies. The Zucman report for the G20 names the method: apply the multiples observed for similar listed businesses in the same industry, market value to profits, to assets and to sales. Tax authorities can also use the price in any sale of private shares, which is a market value by definition.[1]
 
-## Where the system leaks, and why the fix is easy {#leaks}
+This has been done, at scale. In a study of Norway and Sweden, economists valued the private businesses in the national records, company by company, by applying the three multiples of listed companies in Norway, Sweden, Denmark and Finland, and averaging the three results.[2] Nobody had to appraise each firm by hand. The study found that a wealth tax on those full values would take more than 8% of the incomes at the top of the distribution, where Norway's actual tax takes less than 1%.[2] The records exist, the method exists, and the gap between the two numbers is what was left out of the base.
 
-The leak Norwegian authorities describe is foreign assets. The Auditor General found that many taxpayers don't report wealth and income held abroad, and the tax authority estimates the loss at about NOK 7 billion a year across all taxes, with too few controls.[4][5] That is hidden foreign money in total, and the wealth tax is only part of it. Norway received over a million foreign reports for 2021.[4] The answer was more control staff, which is the answer to every kind of tax evasion.[5]
+Swiss tax authorities do the same thing in plain rules. When shares in a private company have traded between independent parties, the purchase price counts as the market value for as long as the company's circumstances stay the same. Where there has been no sale, all the cantons use a joint guideline that values the company from its earnings and its net assets.[8] Spain values unlisted shares from the company's last approved balance sheet when it has been audited. Where it has not, the tax office takes the highest of the nominal value, the balance-sheet value and three years' average profit capitalised at 20%.[7]
 
-The Swiss experience shows what reporting buys. In cantons where financial wealth is self-reported, a one point cut in a canton's wealth tax rate raised reported taxable wealth by at least 43%. The researchers read much of that as concealment, in a setting with no third-party reporting of financial wealth.[6] In other words, a lot of wealth was staying off the page, and bank reporting is what brings it onto it. Zurich's online tax return already takes a bank's electronic tax statement as a PDF, and the canton says the bank data go into the return with a few clicks.[15] About 500,000 people used the canton's online return in 2026, roughly half of its taxpayers.[17] The data still pass through the taxpayer, which is the gap automatic bank reporting closes.
+Anyone who has borrowed against shares knows the other proof. A bank that lends against a holding has to put a value on it. The richest do this all the time: they pledge shares in their companies as security and spend the proceeds, tax free.[1] The valuation exists when it is useful to the owner. The tax asks for it too.
 
-## The hard cases are few, and they have been solved {#hard}
+## Norway: a wealth figure on 4.8 million people {#norway}
 
-Some wealth is hard to price: shares in private companies, and foreign holdings. Sweden's equality commission calls valuing unlisted companies one of two practical obstacles for a wealth tax. The same report records how Sweden dealt with it: its tax exempted unlisted shares, so the largest fortunes were left out.[9] That was a choice, and it can be made the other way.
+The objection pictures an inspector in every home. Norway's tax register tells another story. In 2024 4,805,655 people had a taxable net wealth figure assessed, and 719,007 of them paid NOK 31.8 billion in wealth tax.[4] That is more than six times as many people valued as paid.
 
-Germany has made it the other way. The Constitutional Court's 1995 order found land taxed at 1964 values and everything else at current values.[10] Since 2009 German inheritance tax values land and companies close to market prices, and the DIW research institute proposes the same rules for a wealth tax.[7] The valuation tool has been used on inheritances for years.
+{{chart: norway-people}}
 
-A law can also supply the number when none exists. California's Proposition 40 says an interest in a privately held business is worth its book value plus 7.5 times its average annual book profit over three years, multiplied by the owner's share. An owner who can't get the figures submits a certified appraisal.[13]
+Most of it is read from records. Bank deposits, held by 4.7 million people, were NOK 1,757 billion in 2024. Shares and securities were NOK 1,900 billion and residential property NOK 3,160 billion. Together these three made up 82% of all taxable gross wealth.[4]
 
-## Few payers, so audit them one by one {#audits}
+{{chart: norway-assets}}
 
-How hard valuation is depends on how many households pay. A Socialist amendment in France in October 2026 names about 1,800 households for a minimum tax on fortunes above €100 million.[8] The Greens' German motion expects a few hundred payers above €500 million.[12] A tax authority can audit a few hundred or a few thousand households one at a time, with specialist teams, and the cost per household is small against the tax each one owes. Shares in private businesses enter Norway's base at only a tenth of their market value, a gap a tax with a high threshold would close.[11]
+For a company that is not listed, the company does the valuing. It calculates the wealth value of its shares in its own tax return, attaches the calculation, and each shareholder uses the figure in their return.[5] When a company and the tax office disagree, a tax appeals board decides. In December 2024 it rejected one company's attempt to deduct a disputed debt from its share value, and the value stood.[5] Disputes happen with every tax. The ones in the wealth tax are settled by the same appeal route.
 
-## What a working system has {#design}
+## Germany, Switzerland and Spain {#abroad}
 
-Institutions that hold assets report them to the tax authority. A company states the value of its own shares and the owner uses that figure. A specialist unit audits the largest fortunes. The law carries few discounts, and none for the largest holdings. Foreign assets are checked against the international reporting standard, which is worth doing for every tax whether or not there is a wealth tax.
+Germany's constitutional court struck down the old wealth tax in 1995 because land was still assessed at 1964 values while other assets were at current values.[11] The court objected to out-of-date values and to unequal treatment. It did not say that value cannot be found. A German research institute's 2026 proposal for a wealth tax values property and companies close to market value, by the same rules as German inheritance tax.[10]
 
-## Who says so {#who}
+That is the general pattern. In its report to the G20, Zucman notes that most countries already have methods to value top-end wealth, because they have inheritance or estate taxes. The wealth tax can start from them.[1] In the United States the estate tax values what a person owned at fair market value.[13] Every large fortune meets a valuation at some point. The open question is whether that happens once, at death, or every year.
 
-The [Norwegian story](/no) describes the tax in detail, the [Swiss story](/ch) covers the cantonal systems, and the [German story](/de) covers the valuation order.
+## The weak spots were design choices {#hard}
+
+Norway's private business shares enter the wealth tax base at about a tenth of their market value.[2] Norwegian law gives a 20% discount on shares, 75% on a primary home and 30% on operating assets, and none on a second home.[6] Sweden's old wealth tax exempted private business shares, so a fortune could avoid it by moving its assets into a holding company.[2] Spain exempts shares in a family company when the owner holds at least 5% and works in it.[7]
+
+Each of these is a line in a statute. A discount is a rate cut in another form. The fix is to count each asset at its market value and write no exemptions in. It costs nothing in technology, because the valuation methods above are already in the tax codes.
+
+## A few thousand taxpayers, one by one {#audits}
+
+The hardest cases are few. The minimum tax described on the [pillar page](/arguments/why-tax-wealth#minimum) reaches about 3,000 billionaires worldwide, who would pay $200 billion to $250 billion a year.[1] About half of their wealth is listed shares with a price, and the private firms are large enough to be compared with listed ones. A tax office can give a few thousand returns a specialist team and spend on each of them a sum that is small next to the tax at stake. Norway's 719,007 payers are a harder job than that.[4]
+
+## What if the owner has no cash {#pay}
+
+Valuation and payment are separate questions. Norway lets owners defer the part of their wealth tax that falls on business assets for up to three years, for an amount of NOK 30,000 or more, and charges interest at the central bank's policy rate plus five points.[12] The US design in the Zucman report lets billionaires pay the minimum tax in five equal annual instalments, so a year of low returns does not force a sale.[1] More in [no cash](/arguments/no-cash).
 
 ## Where to look next {#next}
 
-The next page takes up the claim that the rich have no cash to pay. The [Norwegian](/no), [Swiss](/ch), [German](/de) and [Swedish](/se) stories carry the underlying sources.
+The [Norwegian](/no), [Swiss](/ch), [German](/de) and [Spanish](/es) stories carry the details of each system, and the pillar page shows [how loans against shares](/arguments/why-tax-wealth#bank) turn a fortune into spending without a taxable event.
