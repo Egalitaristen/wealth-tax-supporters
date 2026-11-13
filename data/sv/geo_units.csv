@@ -1,0 +1,60 @@
+geo_unit_id,name,level,unit_type,parent_id,website,sweep_status,swept_run,swept_date,queries_run,hits,notes,code
+G0001,El Salvador,national,country,,,pending,,,,,,
+G0002,Ahuachapán,region,departamento,G0001,,pending,,,,,,SV01
+G0003,Cabañas,region,departamento,G0001,,pending,,,,,,SV02
+G0004,Chalatenango,region,departamento,G0001,,pending,,,,,,SV03
+G0005,Cuscatlán,region,departamento,G0001,,pending,,,,,,SV04
+G0006,La Libertad,region,departamento,G0001,,pending,,,,,,SV05
+G0007,La Paz,region,departamento,G0001,,pending,,,,,,SV06
+G0008,La Unión,region,departamento,G0001,,pending,,,,,,SV07
+G0009,Morazán,region,departamento,G0001,,pending,,,,,,SV08
+G0010,San Miguel,region,departamento,G0001,,pending,,,,,,SV09
+G0011,San Salvador,region,departamento,G0001,,pending,,,,,,SV10
+G0012,San Vicente,region,departamento,G0001,,pending,,,,,,SV11
+G0013,Santa Ana,region,departamento,G0001,,pending,,,,,,SV12
+G0014,Sonsonate,region,departamento,G0001,,pending,,,,,,SV13
+G0015,Usulután,region,departamento,G0001,,pending,,,,,,SV14
+G0016,Ahuachapán Centro,council,municipio,G0002,,pending,,,,,,SV01001
+G0017,Ahuachapán Norte,council,municipio,G0002,,pending,,,,,,SV01002
+G0018,Ahuachapán Sur,council,municipio,G0002,,pending,,,,,,SV01003
+G0019,Cabañas Este,council,municipio,G0003,,pending,,,,,,SV02001
+G0020,Cabañas Oeste,council,municipio,G0003,,pending,,,,,,SV02002
+G0021,Chalatenango Centro,council,municipio,G0004,,pending,,,,,,SV03001
+G0022,Chalatenango Norte,council,municipio,G0004,,pending,,,,,,SV03002
+G0023,Chalatenango Sur,council,municipio,G0004,,pending,,,,,,SV03003
+G0024,Cuscatlán Norte,council,municipio,G0005,,pending,,,,,,SV04001
+G0025,Cuscatlán Sur,council,municipio,G0005,,pending,,,,,,SV04002
+G0026,La Libertad Centro,council,municipio,G0006,,pending,,,,,,SV05001
+G0027,La Libertad Costa,council,municipio,G0006,,pending,,,,,,SV05002
+G0028,La Libertad Este,council,municipio,G0006,,pending,,,,,,SV05003
+G0029,La Libertad Norte,council,municipio,G0006,,pending,,,,,,SV05004
+G0030,La Libertad Oeste,council,municipio,G0006,,pending,,,,,,SV05005
+G0031,La Libertad Sur,council,municipio,G0006,,pending,,,,,,SV05006
+G0032,La Paz Centro,council,municipio,G0007,,pending,,,,,,SV06001
+G0033,La Paz Este,council,municipio,G0007,,pending,,,,,,SV06002
+G0034,La Paz Oeste,council,municipio,G0007,,pending,,,,,,SV06003
+G0035,La Unión Norte,council,municipio,G0008,,pending,,,,,,SV07001
+G0036,La Unión Sur,council,municipio,G0008,,pending,,,,,,SV07002
+G0037,Morazán Norte,council,municipio,G0009,,pending,,,,,,SV08001
+G0038,Morazán Sur,council,municipio,G0009,,pending,,,,,,SV08002
+G0039,San Miguel Centro,council,municipio,G0010,,pending,,,,,,SV09001
+G0040,San Miguel Norte,council,municipio,G0010,,pending,,,,,,SV09002
+G0041,San Miguel Oeste,council,municipio,G0010,,pending,,,,,,SV09003
+G0042,San Salvador Centro,council,municipio,G0011,,pending,,,,,,SV10001
+G0043,San Salvador Este,council,municipio,G0011,,pending,,,,,,SV10002
+G0044,San Salvador Norte,council,municipio,G0011,,pending,,,,,,SV10003
+G0045,San Salvador Oeste,council,municipio,G0011,,pending,,,,,,SV10004
+G0046,San Salvador Sur,council,municipio,G0011,,pending,,,,,,SV10005
+G0047,San Vicente Norte,council,municipio,G0012,,pending,,,,,,SV11001
+G0048,San Vicente Sur,council,municipio,G0012,,pending,,,,,,SV11002
+G0049,Santa Ana Centro,council,municipio,G0013,,pending,,,,,,SV12001
+G0050,Santa Ana Este,council,municipio,G0013,,pending,,,,,,SV12002
+G0051,Santa Ana Norte,council,municipio,G0013,,pending,,,,,,SV12003
+G0052,Santa Ana Oeste,council,municipio,G0013,,pending,,,,,,SV12004
+G0053,Sonsonate Centro,council,municipio,G0014,,pending,,,,,,SV13001
+G0054,Sonsonate Este,council,municipio,G0014,,pending,,,,,,SV13002
+G0055,Sonsonate Norte,council,municipio,G0014,,pending,,,,,,SV13003
+G0056,Sonsonate Oeste,council,municipio,G0014,,pending,,,,,,SV13004
+G0057,Usulután Este,council,municipio,G0015,,pending,,,,,,SV14001
+G0058,Usulután Norte,council,municipio,G0015,,pending,,,,,,SV14002
+G0059,Usulután Oeste,council,municipio,G0015,,pending,,,,,,SV14003

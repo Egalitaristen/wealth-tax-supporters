@@ -1,0 +1,3 @@
+body_id,name,level,kind,seats,as_of,source_url,seat_view,notes
+B0001,Congreso de la República,national,chamber,160,2026-11-13,https://en.wikipedia.org/wiki/Congress_of_the_Republic_of_Guatemala,y,"Unicameral, 160 deputies (2024-2028, the Tenth Legislature). Seats are the 2023 election result by party as the TSE certified it, taken from Wikipedia's results table because congreso.gob.gt answers scripts with an Incapsula block. Since January 2024 many deputies have left their parties' blocs (Vamos lost at least 11, Semilla split off Raíces, UNE lost and regained some), so the floor blocs differ from this split; no current supporter sits in it."
+B0002,Organismo Ejecutivo,national,other,,,,,President and ministers.

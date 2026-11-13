@@ -1,0 +1,8 @@
+{
+  "name": "El Salvador",
+  "iso2": "SV",
+  "lead": "Egalitaristen",
+  "status": "in progress",
+  "boundaries": "boundaries.json",
+  "notes": "Seed pass (national level, no departmental or municipal sweep). Register: 14 departamentos as regions and the 44 municipios created by the 2024 territorial reform (which elect an alcalde and a concejo) as the local tier, with OCHA P-codes; the 4 lake polygons in the source (Cerrón Grande, Ilopango, Güija, Coatepeque) were dropped and the 262 distritos below the municipios are not loaded. Map and codes: OCHA / HDX COD-AB El Salvador (CNR, valid 2024-08-19), CC BY-IGO. Seats: Asamblea Legislativa (60) by party from the February 2024 result, from Wikipedia's table. Result: El Salvador has had no wealth tax since 1994; the register holds six rows: FUDECEN's 2026 proposal (president Óscar Cabrera, co-author Diana Navarro), Archbishop Escobar Alas, ICEFI (2018) and Oxfam's Central America proposal."
+}
