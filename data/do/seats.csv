@@ -1,0 +1,10 @@
+seat_id,body_id,party,seats,colour,order
+S0001,B0001,PRM,141,1e88e5,1
+S0002,B0001,PLD,12,6a1b9a,2
+S0003,B0001,Fuerza del Pueblo,28,2e7d32,3
+S0004,B0001,PRSC,2,d32f2f,4
+S0005,B0001,Other parties,7,9a9a9a,5
+S0006,B0002,PRM,27,1e88e5,1
+S0007,B0002,Fuerza del Pueblo,3,2e7d32,2
+S0008,B0002,PRSC,1,d32f2f,3
+S0009,B0002,Other parties,1,9a9a9a,4
