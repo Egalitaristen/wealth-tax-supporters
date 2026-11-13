@@ -109,7 +109,7 @@ The return is the part no other tax reaches. A billionaire's wealth has earned a
 
 ## The minimum tax credits what is already paid {#minimum}
 
-The simplest version of the tax answers this objection in its design. Every billionaire pays at least 2% of their wealth a year in income tax. Someone who already pays that owes nothing extra, and someone who pays less is topped up to 2%.[6] The tax is a floor under what is already paid. By construction it cannot take the same dollar twice.
+The simplest version of the tax answers this objection in its design. Under it every billionaire would pay at least 2% of their wealth a year in tax. Someone who already pays that owes nothing extra, and someone who pays less is topped up to 2%.[6] The tax is a floor under what is already paid. By construction it cannot take the same dollar twice.
 
 What it changes is the return. A billionaire's 7.5% a year falls to 7.2% after the 0.3% they pay today, and to 5.5% with the minimum tax. They still get richer.[6]
 

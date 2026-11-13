@@ -84,7 +84,7 @@ charts:
 ---
 "Enough" depends on what the tax is measured against. A wealth tax is not meant to pay for the whole of government. It is meant to collect from the people who now pay almost nothing, and the amount there is large.
 
-Billionaires pay about 0.3% of their wealth a year in individual taxes. A minimum tax of 2% would take that up to a floor, and it would raise $200 billion to $250 billion a year worldwide from about 3,000 people.[1] That is 0.2% of the world's GDP, about what France's whole wealth tax raised in 2016.[2][4] And the money is not a new burden on the rich. It is the gap between what they pay now and what everyone else already does.[1]
+Billionaires pay about 0.3% of their wealth a year in individual taxes. A minimum tax of 2% would take that up to a floor, and it would raise $200 billion to $250 billion a year worldwide from about 3,000 people.[1] Against the world's $111.7 trillion of GDP in 2024, that is about 0.2%.[4] And the money is not a new burden on the rich. It is the gap between what they pay now and what everyone else already does.[1]
 
 The tax also does a second job that no sum of money can do afterwards. It slows the speed at which the largest fortunes compound, from 7.1% a year to about 5.4%, so that a few thousand people do not take a larger and larger share of the economy each decade.[1] The rest of this page shows the numbers, what they pay for, and why the tax is judged by what it does and not by whether it alone covers a budget.
 
@@ -92,7 +92,7 @@ The tax also does a second job that no sum of money can do afterwards. It slows 
 
 Where wealth taxes exist, they have raised between 0.2% of GDP in Spain and 1.0% in Switzerland, in the OECD's count for 2016.[2] Norway's raised NOK 31.8 billion in 2024 from 719,007 payers. That is 0.59% of GDP, and 2.9% of the current taxes on income and wealth that Norway's public sector received, oil included. Its receipts rose 72% in three years, from NOK 18.5 billion in 2021.[3]
 
-A minimum tax at $1 billion lands in the same range, from far fewer people. The report that designed it counts about 2,800 billionaires in 2024, worth $14.2 trillion together. They pay about 0.3% of that wealth in individual taxes today, which is about $43 billion a year. A floor of 2% lifts it to about $284 billion, a net gain of $242 billion if it is well enforced and $193 billion if a fifth is lost to avoidance and evasion.[1]
+A minimum tax at $1 billion lands in the same range, from far fewer people. The report that designed it counts about 2,800 billionaires in 2024, worth $14.2 trillion together. They pay about 0.3% of that wealth in individual taxes today, which is about $43 billion a year. A floor of 2% lifts it to about $284 billion, a net gain of $242 billion if it is well enforced and $193 billion if a fifth is lost to avoidance and evasion.[1] The report rounds these two cases to its headline of $200 billion to $250 billion.
 
 {{chart: yield-gdp}}
 
@@ -138,6 +138,6 @@ The test of a tax is what it fixes, and what it costs per euro to collect. This 
 
 ## What follows {#follows}
 
-A minimum tax on about 3,000 people raises 0.2% of world GDP, as much as France's wealth tax did, and more than two of the world's largest unfunded bills combined. It does so by closing a gap in the tax system and not by taxing anything new. Its second effect, slowing fortunes that now grow five times faster than incomes, is one money cannot buy back.
+A minimum tax on about 3,000 people raises about 0.2% of world GDP, and more than two of the world's largest unfunded bills combined. It does so by closing a gap in the tax system and not by taxing anything new. Its second effect, slowing fortunes that now grow five times faster than incomes, is one money cannot buy back.
 
 The pillar page shows [what it would raise](/arguments/why-tax-wealth#revenue) and [how the minimum tax works](/arguments/why-tax-wealth#minimum). The next page to read is on whether the tax would [hurt growth](/arguments/hurts-growth).

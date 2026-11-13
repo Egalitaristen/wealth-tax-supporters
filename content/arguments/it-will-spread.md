@@ -138,7 +138,7 @@ The pressure on wealth taxes has run the other way. Twelve OECD countries levied
 
 {{chart: norway-share}}
 
-In 2001, 37.7% of Norwegian adults paid the tax. By 2016, as the line rose, 11.6% did.[1] Then the share rose again to 15.4% in 2024, and that is the part the objection points at. Look at what happened. Parliament raised the line in 2019 and 2022 and froze it in nominal terms in 2018, 2023 and 2024. The research service of the Storting itself calls a freeze a tightening.[2] So every step was a vote, in the open, with a revenue estimate attached. The people it brought in pay little: of the 701,482 who paid in 2024, 313,434 paid under NOK 10,000 and 491,457, 70%, paid under NOK 25,000.[1] Norway's line has always been low compared with other countries.[4] No one proposes that design for a billionaire minimum tax, and the next section shows how to stop a line from drifting.
+In 2001, 37.7% of Norwegian adults paid the tax. By 2016, as the line rose, 11.6% did.[1] Then the share rose again to 15.4% in 2024, and that is the part the objection points at. Look at what happened. Parliament raised the line in 2019 and 2022 and froze it in nominal terms in 2018, 2023 and 2024. The research service of the Storting itself calls a freeze a tightening.[2] So every step was a vote, in the open, with a revenue estimate attached. The people it brought in pay little: of the 701,482 who paid in 2024, 70% paid under NOK 25,000.[1] Norway's line has always been low compared with other countries.[4] No one proposes that design for a billionaire minimum tax, and the next section shows how to stop a line from drifting.
 
 ## A line drifts down only when nobody indexes it {#erosion}
 
