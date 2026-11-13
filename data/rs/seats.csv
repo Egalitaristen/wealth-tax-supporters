@@ -1,0 +1,8 @@
+seat_id,body_id,party,seats,colour,order
+S0001,B0001,Student List (Studentska lista),140,1b6ec2,1
+S0002,B0001,Aleksandar Vučić – United Serbia (SNS-led),103,c8102e,2
+S0003,B0001,Alliance of Vojvodina Hungarians,2,2e8b57,3
+S0004,B0001,Albanian Coalition of the Preševo Valley,2,8e6bbf,4
+S0005,B0001,Rasim Ljajić – Ljudski,1,f58220,5
+S0006,B0001,SDA of Sandžak – Guardians of Sandžak,1,16a085,6
+S0007,B0001,Usame Zukorlić – Movement for Unification,1,9aa0a6,7
