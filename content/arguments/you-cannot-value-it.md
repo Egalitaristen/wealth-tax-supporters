@@ -110,6 +110,12 @@ Swiss tax authorities do the same thing in plain rules. When shares in a private
 
 Anyone who has borrowed against shares knows the other proof. A bank that lends against a holding has to put a value on it. The richest do this all the time: they pledge shares in their companies as security and spend the proceeds, tax free.[1] The valuation exists when it is useful to the owner. The tax asks for it too.
 
+## Land, buildings and art {#land-art}
+
+Land and buildings are the easy part of the rest. In Norway's tax data residential property is the largest block, 38.1% of all taxable gross wealth.[4] Property sits in a land register and changes hands for a price. In Switzerland property bought for money is valued at its market value, which as a rule is the purchase price. For an inherited or much-changed property the tax office estimates it from the average price of similar land in the region, or from the value of the land, the building and the rent.[8] Spain takes the highest of the cadastral value, the value set for other taxes and the purchase price.[7]
+
+Art is a small part of what the very rich own, and the Zucman report counts it among the other forms of wealth that make up a small fraction of billionaire wealth. Valuable artwork is typically insured, and the insurance values could be made reportable to tax authorities.[1] Swiss law already lists collections of every kind, works of art and jewellery as taxable assets, while ordinary household contents and personal items are taxed in no canton.[8] A tax that names a threshold and an asset list does not need to price a spare room's furniture.
+
 ## Norway: a wealth figure on 4.8 million people {#norway}
 
 The objection pictures an inspector in every home. Norway's tax register tells another story. In 2024 4,805,655 people had a taxable net wealth figure assessed, and 719,007 of them paid NOK 31.8 billion in wealth tax.[4] That is more than six times as many people valued as paid.
