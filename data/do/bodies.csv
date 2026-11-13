@@ -1,0 +1,3 @@
+body_id,name,level,kind,seats,as_of,source_url,seat_view,notes
+B0001,Cámara de Diputados,national,chamber,190,2026-11-13,https://www.diputadosrd.gob.do/sil/legislador,y,"190 deputies (178 by province, 5 national, 7 for the diaspora), counted from the chamber's SIL Ciudadano per-member list by party. Falls to 170 from 2028."
+B0002,Senado,national,chamber,32,2026-11-13,https://www.diputadosrd.gob.do/sil/legislador,y,"32 senators, one per province and the Distrito Nacional, counted from the Congress SIL Ciudadano per-member list by party."

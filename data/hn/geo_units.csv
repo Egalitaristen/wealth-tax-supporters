@@ -1,0 +1,318 @@
+geo_unit_id,name,level,unit_type,parent_id,website,sweep_status,swept_run,swept_date,queries_run,hits,notes,code
+G0001,Honduras,national,country,,,pending,,,,,,
+G0002,Atlántida,region,departamento,G0001,,pending,,,,,,HN01
+G0003,Colón,region,departamento,G0001,,pending,,,,,,HN02
+G0004,Comayagua,region,departamento,G0001,,pending,,,,,,HN03
+G0005,Copán,region,departamento,G0001,,pending,,,,,,HN04
+G0006,Cortés,region,departamento,G0001,,pending,,,,,,HN05
+G0007,Choluteca,region,departamento,G0001,,pending,,,,,,HN06
+G0008,El Paraíso,region,departamento,G0001,,pending,,,,,,HN07
+G0009,Francisco Morazán,region,departamento,G0001,,pending,,,,,,HN08
+G0010,Gracias a Dios,region,departamento,G0001,,pending,,,,,,HN09
+G0011,Intibucá,region,departamento,G0001,,pending,,,,,,HN10
+G0012,Islas de la Bahía,region,departamento,G0001,,pending,,,,,,HN11
+G0013,La Paz,region,departamento,G0001,,pending,,,,,,HN12
+G0014,Lempira,region,departamento,G0001,,pending,,,,,,HN13
+G0015,Ocotepeque,region,departamento,G0001,,pending,,,,,,HN14
+G0016,Olancho,region,departamento,G0001,,pending,,,,,,HN15
+G0017,Santa Bárbara,region,departamento,G0001,,pending,,,,,,HN16
+G0018,Valle,region,departamento,G0001,,pending,,,,,,HN17
+G0019,Yoro,region,departamento,G0001,,pending,,,,,,HN18
+G0020,La Ceiba,council,municipio,G0002,,pending,,,,,,HN0101
+G0021,El Porvenir,council,municipio,G0002,,pending,,,,,,HN0102
+G0022,Esparta,council,municipio,G0002,,pending,,,,,,HN0103
+G0023,Jutiapa,council,municipio,G0002,,pending,,,,,,HN0104
+G0024,La Masica,council,municipio,G0002,,pending,,,,,,HN0105
+G0025,San Francisco,council,municipio,G0002,,pending,,,,,,HN0106
+G0026,Tela,council,municipio,G0002,,pending,,,,,,HN0107
+G0027,Arizona,council,municipio,G0002,,pending,,,,,,HN0108
+G0028,Trujillo,council,municipio,G0003,,pending,,,,,,HN0201
+G0029,Balfate,council,municipio,G0003,,pending,,,,,,HN0202
+G0030,Iriona,council,municipio,G0003,,pending,,,,,,HN0203
+G0031,Limon,council,municipio,G0003,,pending,,,,,,HN0204
+G0032,Saba,council,municipio,G0003,,pending,,,,,,HN0205
+G0033,Santa Fe,council,municipio,G0003,,pending,,,,,,HN0206
+G0034,Santa Rosa de Aguan,council,municipio,G0003,,pending,,,,,,HN0207
+G0035,Sonaguera,council,municipio,G0003,,pending,,,,,,HN0208
+G0036,Tocoa,council,municipio,G0003,,pending,,,,,,HN0209
+G0037,Bonito Oriental,council,municipio,G0003,,pending,,,,,,HN0210
+G0038,Comayagua,council,municipio,G0004,,pending,,,,,,HN0301
+G0039,Ajuterique,council,municipio,G0004,,pending,,,,,,HN0302
+G0040,El Rosario,council,municipio,G0004,,pending,,,,,,HN0303
+G0041,Esquias,council,municipio,G0004,,pending,,,,,,HN0304
+G0042,Humuya,council,municipio,G0004,,pending,,,,,,HN0305
+G0043,La Libertad,council,municipio,G0004,,pending,,,,,,HN0306
+G0044,Lamani,council,municipio,G0004,,pending,,,,,,HN0307
+G0045,La Trinidad,council,municipio,G0004,,pending,,,,,,HN0308
+G0046,Lejamani,council,municipio,G0004,,pending,,,,,,HN0309
+G0047,Meambar,council,municipio,G0004,,pending,,,,,,HN0310
+G0048,Minas de Oro,council,municipio,G0004,,pending,,,,,,HN0311
+G0049,Ojos de Agua,council,municipio,G0004,,pending,,,,,,HN0312
+G0050,San Jerónimo,council,municipio,G0004,,pending,,,,,,HN0313
+G0051,San Jose de Comayagua,council,municipio,G0004,,pending,,,,,,HN0314
+G0052,San Jose del Potrero,council,municipio,G0004,,pending,,,,,,HN0315
+G0053,San Luis,council,municipio,G0004,,pending,,,,,,HN0316
+G0054,San Sebastian,council,municipio,G0004,,pending,,,,,,HN0317
+G0055,Siguatepeque,council,municipio,G0004,,pending,,,,,,HN0318
+G0056,Villa de San Antonio,council,municipio,G0004,,pending,,,,,,HN0319
+G0057,Las Lajas,council,municipio,G0004,,pending,,,,,,HN0320
+G0058,Taulabe,council,municipio,G0004,,pending,,,,,,HN0321
+G0059,Santa Rosa de Copan,council,municipio,G0005,,pending,,,,,,HN0401
+G0060,Cabana,council,municipio,G0005,,pending,,,,,,HN0402
+G0061,Concepción,council,municipio,G0005,,pending,,,,,,HN0403
+G0062,Copan Ruinas,council,municipio,G0005,,pending,,,,,,HN0404
+G0063,Corquin,council,municipio,G0005,,pending,,,,,,HN0405
+G0064,Cucuyagua,council,municipio,G0005,,pending,,,,,,HN0406
+G0065,Dolores,council,municipio,G0005,,pending,,,,,,HN0407
+G0066,Dulce Nombre,council,municipio,G0005,,pending,,,,,,HN0408
+G0067,El Paraíso,council,municipio,G0005,,pending,,,,,,HN0409
+G0068,Florida,council,municipio,G0005,,pending,,,,,,HN0410
+G0069,La Jigua,council,municipio,G0005,,pending,,,,,,HN0411
+G0070,La Union,council,municipio,G0005,,pending,,,,,,HN0412
+G0071,Nueva Arcadia,council,municipio,G0005,,pending,,,,,,HN0413
+G0072,San Agustin,council,municipio,G0005,,pending,,,,,,HN0414
+G0073,San Antonio,council,municipio,G0005,,pending,,,,,,HN0415
+G0074,San Jeronimo,council,municipio,G0005,,pending,,,,,,HN0416
+G0075,San Jose,council,municipio,G0005,,pending,,,,,,HN0417
+G0076,San Juan de Opoa,council,municipio,G0005,,pending,,,,,,HN0418
+G0077,San Nicolas,council,municipio,G0005,,pending,,,,,,HN0419
+G0078,San Pedro,council,municipio,G0005,,pending,,,,,,HN0420
+G0079,Santa Rita,council,municipio,G0005,,pending,,,,,,HN0421
+G0080,Trinidad de Copan,council,municipio,G0005,,pending,,,,,,HN0422
+G0081,Veracruz,council,municipio,G0005,,pending,,,,,,HN0423
+G0082,San Pedro Sula,council,municipio,G0006,,pending,,,,,,HN0501
+G0083,Choloma,council,municipio,G0006,,pending,,,,,,HN0502
+G0084,Omoa,council,municipio,G0006,,pending,,,,,,HN0503
+G0085,Pimienta,council,municipio,G0006,,pending,,,,,,HN0504
+G0086,Potrerillos,council,municipio,G0006,,pending,,,,,,HN0505
+G0087,Puerto Cortes,council,municipio,G0006,,pending,,,,,,HN0506
+G0088,San Antonio de Cortes,council,municipio,G0006,,pending,,,,,,HN0507
+G0089,San Francisco de Yojoa,council,municipio,G0006,,pending,,,,,,HN0508
+G0090,San Manuel,council,municipio,G0006,,pending,,,,,,HN0509
+G0091,Santa Cruz de Yojoa,council,municipio,G0006,,pending,,,,,,HN0510
+G0092,Villanueva,council,municipio,G0006,,pending,,,,,,HN0511
+G0093,La Lima,council,municipio,G0006,,pending,,,,,,HN0512
+G0094,Choluteca,council,municipio,G0007,,pending,,,,,,HN0601
+G0095,Apacilagua,council,municipio,G0007,,pending,,,,,,HN0602
+G0096,Concepcion de Maria,council,municipio,G0007,,pending,,,,,,HN0603
+G0097,Duyure,council,municipio,G0007,,pending,,,,,,HN0604
+G0098,El Corpus,council,municipio,G0007,,pending,,,,,,HN0605
+G0099,El Triunfo,council,municipio,G0007,,pending,,,,,,HN0606
+G0100,Marcovia,council,municipio,G0007,,pending,,,,,,HN0607
+G0101,Morolica,council,municipio,G0007,,pending,,,,,,HN0608
+G0102,Namasigue,council,municipio,G0007,,pending,,,,,,HN0609
+G0103,Orocuina,council,municipio,G0007,,pending,,,,,,HN0610
+G0104,Pespire,council,municipio,G0007,,pending,,,,,,HN0611
+G0105,San Antonio de Flores,council,municipio,G0007,,pending,,,,,,HN0612
+G0106,San Isidro,council,municipio,G0007,,pending,,,,,,HN0613
+G0107,San Jose,council,municipio,G0007,,pending,,,,,,HN0614
+G0108,San Marcos de Colon,council,municipio,G0007,,pending,,,,,,HN0615
+G0109,Santa Ana de Yusguare,council,municipio,G0007,,pending,,,,,,HN0616
+G0110,Yuscaran,council,municipio,G0008,,pending,,,,,,HN0701
+G0111,Alauca,council,municipio,G0008,,pending,,,,,,HN0702
+G0112,Danli,council,municipio,G0008,,pending,,,,,,HN0703
+G0113,El Paraíso,council,municipio,G0008,,pending,,,,,,HN0704
+G0114,Guinope,council,municipio,G0008,,pending,,,,,,HN0705
+G0115,Jacaleapa,council,municipio,G0008,,pending,,,,,,HN0706
+G0116,Liure,council,municipio,G0008,,pending,,,,,,HN0707
+G0117,Moroceli,council,municipio,G0008,,pending,,,,,,HN0708
+G0118,Oropoli,council,municipio,G0008,,pending,,,,,,HN0709
+G0119,Potrerillos,council,municipio,G0008,,pending,,,,,,HN0710
+G0120,San Antonio de Flores,council,municipio,G0008,,pending,,,,,,HN0711
+G0121,San Lucas,council,municipio,G0008,,pending,,,,,,HN0712
+G0122,San Matias,council,municipio,G0008,,pending,,,,,,HN0713
+G0123,Soledad,council,municipio,G0008,,pending,,,,,,HN0714
+G0124,Teupasenti,council,municipio,G0008,,pending,,,,,,HN0715
+G0125,Texiguat,council,municipio,G0008,,pending,,,,,,HN0716
+G0126,Vado Ancho,council,municipio,G0008,,pending,,,,,,HN0717
+G0127,Yauyupe,council,municipio,G0008,,pending,,,,,,HN0718
+G0128,Trojes,council,municipio,G0008,,pending,,,,,,HN0719
+G0129,Distrito Central,council,municipio,G0009,,pending,,,,,,HN0801
+G0130,Alubaren,council,municipio,G0009,,pending,,,,,,HN0802
+G0131,Cedros,council,municipio,G0009,,pending,,,,,,HN0803
+G0132,Curaren,council,municipio,G0009,,pending,,,,,,HN0804
+G0133,El Porvenir,council,municipio,G0009,,pending,,,,,,HN0805
+G0134,Guaimaca,council,municipio,G0009,,pending,,,,,,HN0806
+G0135,La Libertad,council,municipio,G0009,,pending,,,,,,HN0807
+G0136,La Venta,council,municipio,G0009,,pending,,,,,,HN0808
+G0137,Lepaterique,council,municipio,G0009,,pending,,,,,,HN0809
+G0138,Maraita,council,municipio,G0009,,pending,,,,,,HN0810
+G0139,Marale,council,municipio,G0009,,pending,,,,,,HN0811
+G0140,Nueva Armenia,council,municipio,G0009,,pending,,,,,,HN0812
+G0141,Ojojona,council,municipio,G0009,,pending,,,,,,HN0813
+G0142,Orica,council,municipio,G0009,,pending,,,,,,HN0814
+G0143,Reitoca,council,municipio,G0009,,pending,,,,,,HN0815
+G0144,Sabanagrande,council,municipio,G0009,,pending,,,,,,HN0816
+G0145,San Antonio de Oriente,council,municipio,G0009,,pending,,,,,,HN0817
+G0146,San Buenaventura,council,municipio,G0009,,pending,,,,,,HN0818
+G0147,San Ignacio,council,municipio,G0009,,pending,,,,,,HN0819
+G0148,San Juan de Flores,council,municipio,G0009,,pending,,,,,,HN0820
+G0149,San Miguelito,council,municipio,G0009,,pending,,,,,,HN0821
+G0150,Santa Ana,council,municipio,G0009,,pending,,,,,,HN0822
+G0151,Santa Lucia,council,municipio,G0009,,pending,,,,,,HN0823
+G0152,Talanga,council,municipio,G0009,,pending,,,,,,HN0824
+G0153,Tatumbla,council,municipio,G0009,,pending,,,,,,HN0825
+G0154,Valle de Angeles,council,municipio,G0009,,pending,,,,,,HN0826
+G0155,Villa de San Francisco,council,municipio,G0009,,pending,,,,,,HN0827
+G0156,Vallecillo,council,municipio,G0009,,pending,,,,,,HN0828
+G0157,Puerto Lempira,council,municipio,G0010,,pending,,,,,,HN0901
+G0158,Brus Laguna,council,municipio,G0010,,pending,,,,,,HN0902
+G0159,Ahuas,council,municipio,G0010,,pending,,,,,,HN0903
+G0160,Juan Francisco Bulnes,council,municipio,G0010,,pending,,,,,,HN0904
+G0161,Ramón Villeda Morales,council,municipio,G0010,,pending,,,,,,HN0905
+G0162,Wampusirpi,council,municipio,G0010,,pending,,,,,,HN0906
+G0163,La Esperanza,council,municipio,G0011,,pending,,,,,,HN1001
+G0164,Camasca,council,municipio,G0011,,pending,,,,,,HN1002
+G0165,Colomoncagua,council,municipio,G0011,,pending,,,,,,HN1003
+G0166,Concepcion,council,municipio,G0011,,pending,,,,,,HN1004
+G0167,Dolores,council,municipio,G0011,,pending,,,,,,HN1005
+G0168,Intibucá,council,municipio,G0011,,pending,,,,,,HN1006
+G0169,Jesus de Otoro,council,municipio,G0011,,pending,,,,,,HN1007
+G0170,Magdalena,council,municipio,G0011,,pending,,,,,,HN1008
+G0171,Masaguara,council,municipio,G0011,,pending,,,,,,HN1009
+G0172,San Antonio,council,municipio,G0011,,pending,,,,,,HN1010
+G0173,San Isidro,council,municipio,G0011,,pending,,,,,,HN1011
+G0174,San Juan,council,municipio,G0011,,pending,,,,,,HN1012
+G0175,San Marcos de Sierra,council,municipio,G0011,,pending,,,,,,HN1013
+G0176,San Miguelito,council,municipio,G0011,,pending,,,,,,HN1014
+G0177,Santa Lucia,council,municipio,G0011,,pending,,,,,,HN1015
+G0178,Yamaranguila,council,municipio,G0011,,pending,,,,,,HN1016
+G0179,San Francisco de Opalaca,council,municipio,G0011,,pending,,,,,,HN1017
+G0180,Roatan,council,municipio,G0012,,pending,,,,,,HN1101
+G0181,Guanaja,council,municipio,G0012,,pending,,,,,,HN1102
+G0182,Jose Santos Guardiola,council,municipio,G0012,,pending,,,,,,HN1103
+G0183,Utila,council,municipio,G0012,,pending,,,,,,HN1104
+G0184,La Paz,council,municipio,G0013,,pending,,,,,,HN1201
+G0185,Aguanqueterique,council,municipio,G0013,,pending,,,,,,HN1202
+G0186,Cabanas,council,municipio,G0013,,pending,,,,,,HN1203
+G0187,Cane,council,municipio,G0013,,pending,,,,,,HN1204
+G0188,Chinacla,council,municipio,G0013,,pending,,,,,,HN1205
+G0189,Guajiquiro,council,municipio,G0013,,pending,,,,,,HN1206
+G0190,Lauterique,council,municipio,G0013,,pending,,,,,,HN1207
+G0191,Marcala,council,municipio,G0013,,pending,,,,,,HN1208
+G0192,Mercedes de Oriente,council,municipio,G0013,,pending,,,,,,HN1209
+G0193,Opatoro,council,municipio,G0013,,pending,,,,,,HN1210
+G0194,San Antonio del Norte,council,municipio,G0013,,pending,,,,,,HN1211
+G0195,San Jose,council,municipio,G0013,,pending,,,,,,HN1212
+G0196,San Juan,council,municipio,G0013,,pending,,,,,,HN1213
+G0197,San Pedro de Tutule,council,municipio,G0013,,pending,,,,,,HN1214
+G0198,Santa Ana,council,municipio,G0013,,pending,,,,,,HN1215
+G0199,Santa Elena,council,municipio,G0013,,pending,,,,,,HN1216
+G0200,Santa Maria,council,municipio,G0013,,pending,,,,,,HN1217
+G0201,Santiago de Puringla,council,municipio,G0013,,pending,,,,,,HN1218
+G0202,Yarula,council,municipio,G0013,,pending,,,,,,HN1219
+G0203,Gracias,council,municipio,G0014,,pending,,,,,,HN1301
+G0204,Belen,council,municipio,G0014,,pending,,,,,,HN1302
+G0205,Candelaria,council,municipio,G0014,,pending,,,,,,HN1303
+G0206,Cololaca,council,municipio,G0014,,pending,,,,,,HN1304
+G0207,Erandique,council,municipio,G0014,,pending,,,,,,HN1305
+G0208,Gualcince,council,municipio,G0014,,pending,,,,,,HN1306
+G0209,Guarita,council,municipio,G0014,,pending,,,,,,HN1307
+G0210,La Campa,council,municipio,G0014,,pending,,,,,,HN1308
+G0211,La Iguala,council,municipio,G0014,,pending,,,,,,HN1309
+G0212,Las Flores,council,municipio,G0014,,pending,,,,,,HN1310
+G0213,La Union,council,municipio,G0014,,pending,,,,,,HN1311
+G0214,La Virtud,council,municipio,G0014,,pending,,,,,,HN1312
+G0215,Lepaera,council,municipio,G0014,,pending,,,,,,HN1313
+G0216,Mapulaca,council,municipio,G0014,,pending,,,,,,HN1314
+G0217,Piraera,council,municipio,G0014,,pending,,,,,,HN1315
+G0218,San Andres,council,municipio,G0014,,pending,,,,,,HN1316
+G0219,San Francisco,council,municipio,G0014,,pending,,,,,,HN1317
+G0220,San Juan Guarita,council,municipio,G0014,,pending,,,,,,HN1318
+G0221,San Manuel Colohete,council,municipio,G0014,,pending,,,,,,HN1319
+G0222,San Rafael,council,municipio,G0014,,pending,,,,,,HN1320
+G0223,San Sebastian,council,municipio,G0014,,pending,,,,,,HN1321
+G0224,Santa Cruz,council,municipio,G0014,,pending,,,,,,HN1322
+G0225,Talgua,council,municipio,G0014,,pending,,,,,,HN1323
+G0226,Tambla,council,municipio,G0014,,pending,,,,,,HN1324
+G0227,Tomala,council,municipio,G0014,,pending,,,,,,HN1325
+G0228,Valladolid,council,municipio,G0014,,pending,,,,,,HN1326
+G0229,Virginia,council,municipio,G0014,,pending,,,,,,HN1327
+G0230,San Marcos de Caiquin,council,municipio,G0014,,pending,,,,,,HN1328
+G0231,Ocotepeque,council,municipio,G0015,,pending,,,,,,HN1401
+G0232,Belen Gualcho,council,municipio,G0015,,pending,,,,,,HN1402
+G0233,Concepcion,council,municipio,G0015,,pending,,,,,,HN1403
+G0234,Dolores Merendon,council,municipio,G0015,,pending,,,,,,HN1404
+G0235,Fraternidad,council,municipio,G0015,,pending,,,,,,HN1405
+G0236,La Encarnacion,council,municipio,G0015,,pending,,,,,,HN1406
+G0237,La Labor,council,municipio,G0015,,pending,,,,,,HN1407
+G0238,Lucerna,council,municipio,G0015,,pending,,,,,,HN1408
+G0239,Mercedes,council,municipio,G0015,,pending,,,,,,HN1409
+G0240,San Fernando,council,municipio,G0015,,pending,,,,,,HN1410
+G0241,San Francisco del Valle,council,municipio,G0015,,pending,,,,,,HN1411
+G0242,San Jorge,council,municipio,G0015,,pending,,,,,,HN1412
+G0243,San Marcos,council,municipio,G0015,,pending,,,,,,HN1413
+G0244,Santa Fe,council,municipio,G0015,,pending,,,,,,HN1414
+G0245,Sensenti,council,municipio,G0015,,pending,,,,,,HN1415
+G0246,Sinuapa,council,municipio,G0015,,pending,,,,,,HN1416
+G0247,Juticalpa,council,municipio,G0016,,pending,,,,,,HN1501
+G0248,Campamento,council,municipio,G0016,,pending,,,,,,HN1502
+G0249,Catacamas,council,municipio,G0016,,pending,,,,,,HN1503
+G0250,Concordia,council,municipio,G0016,,pending,,,,,,HN1504
+G0251,Dulce Nombre de Culmi,council,municipio,G0016,,pending,,,,,,HN1505
+G0252,El Rosario,council,municipio,G0016,,pending,,,,,,HN1506
+G0253,Esquipulas del Norte,council,municipio,G0016,,pending,,,,,,HN1507
+G0254,Gualaco,council,municipio,G0016,,pending,,,,,,HN1508
+G0255,Guarizama,council,municipio,G0016,,pending,,,,,,HN1509
+G0256,Guata,council,municipio,G0016,,pending,,,,,,HN1510
+G0257,Guayape,council,municipio,G0016,,pending,,,,,,HN1511
+G0258,Jano,council,municipio,G0016,,pending,,,,,,HN1512
+G0259,La Union,council,municipio,G0016,,pending,,,,,,HN1513
+G0260,Mangulile,council,municipio,G0016,,pending,,,,,,HN1514
+G0261,Manto,council,municipio,G0016,,pending,,,,,,HN1515
+G0262,Salama,council,municipio,G0016,,pending,,,,,,HN1516
+G0263,San Esteban,council,municipio,G0016,,pending,,,,,,HN1517
+G0264,San Francisco de Becerra,council,municipio,G0016,,pending,,,,,,HN1518
+G0265,San Francisco de La Paz,council,municipio,G0016,,pending,,,,,,HN1519
+G0266,Santa Maria del Real,council,municipio,G0016,,pending,,,,,,HN1520
+G0267,Silca,council,municipio,G0016,,pending,,,,,,HN1521
+G0268,Yocon,council,municipio,G0016,,pending,,,,,,HN1522
+G0269,Patuca,council,municipio,G0016,,pending,,,,,,HN1523
+G0270,Santa Bárbara,council,municipio,G0017,,pending,,,,,,HN1601
+G0271,Arada,council,municipio,G0017,,pending,,,,,,HN1602
+G0272,Atima,council,municipio,G0017,,pending,,,,,,HN1603
+G0273,Azacualpa,council,municipio,G0017,,pending,,,,,,HN1604
+G0274,Ceguaca,council,municipio,G0017,,pending,,,,,,HN1605
+G0275,Concepcion del Norte,council,municipio,G0017,,pending,,,,,,HN1606
+G0276,Concepcion del Sur,council,municipio,G0017,,pending,,,,,,HN1607
+G0277,Chinda,council,municipio,G0017,,pending,,,,,,HN1608
+G0278,El Nispero,council,municipio,G0017,,pending,,,,,,HN1609
+G0279,Gualala,council,municipio,G0017,,pending,,,,,,HN1610
+G0280,Ilama,council,municipio,G0017,,pending,,,,,,HN1611
+G0281,Macuelizo,council,municipio,G0017,,pending,,,,,,HN1612
+G0282,Naranjito,council,municipio,G0017,,pending,,,,,,HN1613
+G0283,Nuevo Celilac,council,municipio,G0017,,pending,,,,,,HN1614
+G0284,Petoa,council,municipio,G0017,,pending,,,,,,HN1615
+G0285,Proteccion,council,municipio,G0017,,pending,,,,,,HN1616
+G0286,Quimistan,council,municipio,G0017,,pending,,,,,,HN1617
+G0287,San Francisco de Ojuera,council,municipio,G0017,,pending,,,,,,HN1618
+G0288,San Jose de Colinas,council,municipio,G0017,,pending,,,,,,HN1619
+G0289,San Luis,council,municipio,G0017,,pending,,,,,,HN1620
+G0290,San Marcos,council,municipio,G0017,,pending,,,,,,HN1621
+G0291,San Nicolas,council,municipio,G0017,,pending,,,,,,HN1622
+G0292,San Pedro Zacapa,council,municipio,G0017,,pending,,,,,,HN1623
+G0293,San Vicente Centenario,council,municipio,G0017,,pending,,,,,,HN1624
+G0294,Santa Rita,council,municipio,G0017,,pending,,,,,,HN1625
+G0295,Trinidad,council,municipio,G0017,,pending,,,,,,HN1626
+G0296,Las Vegas,council,municipio,G0017,,pending,,,,,,HN1627
+G0297,Nueva Frontera,council,municipio,G0017,,pending,,,,,,HN1628
+G0298,Nacaome,council,municipio,G0018,,pending,,,,,,HN1701
+G0299,Alianza,council,municipio,G0018,,pending,,,,,,HN1702
+G0300,Amapala,council,municipio,G0018,,pending,,,,,,HN1703
+G0301,Aramecina,council,municipio,G0018,,pending,,,,,,HN1704
+G0302,Caridad,council,municipio,G0018,,pending,,,,,,HN1705
+G0303,Goascoran,council,municipio,G0018,,pending,,,,,,HN1706
+G0304,Langue,council,municipio,G0018,,pending,,,,,,HN1707
+G0305,San Francisco de Coray,council,municipio,G0018,,pending,,,,,,HN1708
+G0306,San Lorenzo,council,municipio,G0018,,pending,,,,,,HN1709
+G0307,Yoro,council,municipio,G0019,,pending,,,,,,HN1801
+G0308,Arenal,council,municipio,G0019,,pending,,,,,,HN1802
+G0309,El Negrito,council,municipio,G0019,,pending,,,,,,HN1803
+G0310,El Progreso,council,municipio,G0019,,pending,,,,,,HN1804
+G0311,Jocon,council,municipio,G0019,,pending,,,,,,HN1805
+G0312,Morazan,council,municipio,G0019,,pending,,,,,,HN1806
+G0313,Olanchito,council,municipio,G0019,,pending,,,,,,HN1807
+G0314,Santa Rita,council,municipio,G0019,,pending,,,,,,HN1808
+G0315,Sulaco,council,municipio,G0019,,pending,,,,,,HN1809
+G0316,Victoria,council,municipio,G0019,,pending,,,,,,HN1810
+G0317,Yorito,council,municipio,G0019,,pending,,,,,,HN1811

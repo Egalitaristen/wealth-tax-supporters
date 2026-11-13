@@ -1,0 +1,11 @@
+query_id,run_id,date,language,query,channel,results_opened,leads_added,note
+Q0001,R001,2026-11-13,es,impuesto al patrimonio neto República Dominicana propuesta impuesto a la riqueza,web,6,0,
+Q0002,R001,2026-11-13,es,impuesto a las grandes fortunas República Dominicana diputado proyecto de ley,web,6,0,
+Q0003,R001,2026-11-13,es,Oxfam República Dominicana impuesto a la riqueza súper ricos,web,5,1,
+Q0004,R001,2026-11-13,es,impuesto a la riqueza dominicanos economista Fuerza del Pueblo Frente Amplio Opción Democrática Alianza País,web,5,0,
+Q0005,R001,2026-11-13,es,"Un pacto por la justicia fiscal, el bien común y la vida digna",web,8,2,
+Q0006,R001,2026-11-13,es,Rosa Cañete Un presupuesto sin pacto impuesto patrimonio,web,5,0,
+Q0007,R001,2026-11-13,es,impuesto al patrimonio neto OR gravar el patrimonio dominicana economista propone,web,6,1,
+Q0008,R001,2026-11-13,en,Dominican Republic wealth tax proposal billionaires economist,web,4,0,
+Q0009,R001,2026-11-13,es,Alianza País Frente Amplio Partido Comunista dominicana impuesto a la riqueza,web,4,0,
+Q0010,R001,2026-11-13,es,CNUS CNTD Episcopado Participación Ciudadana impuestos a la riqueza pacto fiscal,web,6,1,
