@@ -1,0 +1,199 @@
+geo_unit_id,name,level,unit_type,parent_id,website,sweep_status,swept_run,swept_date,queries_run,hits,notes,code
+G0001,Serbia,national,country,,https://www.srbija.gov.rs,in_progress,R001,2026-11-13,,,Excludes Kosovo. National seed pass and second pass only; no regional or local sweep.,RS
+G0002,Belgrade Region,region,statistical region,G0001,,pending,,,,,Eurostat GISCO NUTS 2024 level 2,RS11
+G0003,Vojvodina,region,statistical region,G0001,,pending,,,,,Eurostat GISCO NUTS 2024 level 2,RS12
+G0004,Šumadija and Western Serbia,region,statistical region,G0001,,pending,,,,,Eurostat GISCO NUTS 2024 level 2,RS21
+G0005,Southern and Eastern Serbia,region,statistical region,G0001,,pending,,,,,Eurostat GISCO NUTS 2024 level 2,RS22
+G0006,Belgrade,county,district (okrug),G0002,,pending,,,,,Eurostat GISCO NUTS 2024 level 3; Cyrillic: Београдска област,RS110
+G0007,West Bačka,county,district (okrug),G0003,,pending,,,,,Eurostat GISCO NUTS 2024 level 3; Cyrillic: Западнобачка област,RS121
+G0008,South Banat,county,district (okrug),G0003,,pending,,,,,Eurostat GISCO NUTS 2024 level 3; Cyrillic: Јужнобанатска област,RS122
+G0009,South Bačka,county,district (okrug),G0003,,pending,,,,,Eurostat GISCO NUTS 2024 level 3; Cyrillic: Јужнобачка област,RS123
+G0010,North Banat,county,district (okrug),G0003,,pending,,,,,Eurostat GISCO NUTS 2024 level 3; Cyrillic: Севернобанатска област,RS124
+G0011,North Bačka,county,district (okrug),G0003,,pending,,,,,Eurostat GISCO NUTS 2024 level 3; Cyrillic: Севернобачка област,RS125
+G0012,Central Banat,county,district (okrug),G0003,,pending,,,,,Eurostat GISCO NUTS 2024 level 3; Cyrillic: Средњобанатска област,RS126
+G0013,Srem,county,district (okrug),G0003,,pending,,,,,Eurostat GISCO NUTS 2024 level 3; Cyrillic: Сремска област,RS127
+G0014,Zlatibor,county,district (okrug),G0004,,pending,,,,,Eurostat GISCO NUTS 2024 level 3; Cyrillic: Златиборска област,RS211
+G0015,Kolubara,county,district (okrug),G0004,,pending,,,,,Eurostat GISCO NUTS 2024 level 3; Cyrillic: Колубарска област,RS212
+G0016,Mačva,county,district (okrug),G0004,,pending,,,,,Eurostat GISCO NUTS 2024 level 3; Cyrillic: Мачванска област,RS213
+G0017,Moravica,county,district (okrug),G0004,,pending,,,,,Eurostat GISCO NUTS 2024 level 3; Cyrillic: Моравичка област,RS214
+G0018,Pomoravlje,county,district (okrug),G0004,,pending,,,,,Eurostat GISCO NUTS 2024 level 3; Cyrillic: Поморавска област,RS215
+G0019,Rasina,county,district (okrug),G0004,,pending,,,,,Eurostat GISCO NUTS 2024 level 3; Cyrillic: Расинска област,RS216
+G0020,Raška,county,district (okrug),G0004,,pending,,,,,Eurostat GISCO NUTS 2024 level 3; Cyrillic: Рашка област,RS217
+G0021,Šumadija,county,district (okrug),G0004,,pending,,,,,Eurostat GISCO NUTS 2024 level 3; Cyrillic: Шумадијска област,RS218
+G0022,Bor,county,district (okrug),G0005,,pending,,,,,Eurostat GISCO NUTS 2024 level 3; Cyrillic: Борска област,RS221
+G0023,Braničevo,county,district (okrug),G0005,,pending,,,,,Eurostat GISCO NUTS 2024 level 3; Cyrillic: Браничевска област,RS222
+G0024,Zaječar,county,district (okrug),G0005,,pending,,,,,Eurostat GISCO NUTS 2024 level 3; Cyrillic: Зајечарска област,RS223
+G0025,Jablanica,county,district (okrug),G0005,,pending,,,,,Eurostat GISCO NUTS 2024 level 3; Cyrillic: Јабланичка област,RS224
+G0026,Nišava,county,district (okrug),G0005,,pending,,,,,Eurostat GISCO NUTS 2024 level 3; Cyrillic: Нишавска област,RS225
+G0027,Pirot,county,district (okrug),G0005,,pending,,,,,Eurostat GISCO NUTS 2024 level 3; Cyrillic: Пиротска област,RS226
+G0028,Podunavlje,county,district (okrug),G0005,,pending,,,,,Eurostat GISCO NUTS 2024 level 3; Cyrillic: Подунавска област,RS227
+G0029,Pčinja,county,district (okrug),G0005,,pending,,,,,Eurostat GISCO NUTS 2024 level 3; Cyrillic: Пчињска област,RS228
+G0030,Toplica,county,district (okrug),G0005,,pending,,,,,Eurostat GISCO NUTS 2024 level 3; Cyrillic: Топличка област,RS229
+G0031,Ada,council,municipality or city,G0010,,pending,,,,,Eurostat GISCO LAU 2024; code is the Statistical Office municipality number,RS_80012
+G0032,Aleksandrovac,council,municipality or city,G0019,,pending,,,,,Eurostat GISCO LAU 2024; code is the Statistical Office municipality number,RS_70017
+G0033,Aleksinac,council,municipality or city,G0026,,pending,,,,,Eurostat GISCO LAU 2024; code is the Statistical Office municipality number,RS_70025
+G0034,Alibunar,council,municipality or city,G0008,,pending,,,,,Eurostat GISCO LAU 2024; code is the Statistical Office municipality number,RS_80039
+G0035,Apatin,council,municipality or city,G0007,,pending,,,,,Eurostat GISCO LAU 2024; code is the Statistical Office municipality number,RS_80047
+G0036,Arandjelovac,council,municipality or city,G0021,,pending,,,,,Eurostat GISCO LAU 2024; code is the Statistical Office municipality number,RS_70033
+G0037,Arilje,council,municipality or city,G0014,,pending,,,,,Eurostat GISCO LAU 2024; code is the Statistical Office municipality number,RS_70041
+G0038,Babušnica,council,municipality or city,G0027,,pending,,,,,Eurostat GISCO LAU 2024; code is the Statistical Office municipality number,RS_70050
+G0039,Bajina Bašta,council,municipality or city,G0014,,pending,,,,,Eurostat GISCO LAU 2024; code is the Statistical Office municipality number,RS_70068
+G0040,Batočina,council,municipality or city,G0021,,pending,,,,,Eurostat GISCO LAU 2024; code is the Statistical Office municipality number,RS_70076
+G0041,Bač,council,municipality or city,G0009,,pending,,,,,Eurostat GISCO LAU 2024; code is the Statistical Office municipality number,RS_80055
+G0042,Bačka Palanka,council,municipality or city,G0009,,pending,,,,,Eurostat GISCO LAU 2024; code is the Statistical Office municipality number,RS_80063
+G0043,Bačka Topola,council,municipality or city,G0011,,pending,,,,,Eurostat GISCO LAU 2024; code is the Statistical Office municipality number,RS_80071
+G0044,Bački Petrovac,council,municipality or city,G0009,,pending,,,,,Eurostat GISCO LAU 2024; code is the Statistical Office municipality number,RS_80080
+G0045,Bela Crkva,council,municipality or city,G0008,,pending,,,,,Eurostat GISCO LAU 2024; code is the Statistical Office municipality number,RS_80098
+G0046,Bela Palanka,council,municipality or city,G0027,,pending,,,,,Eurostat GISCO LAU 2024; code is the Statistical Office municipality number,RS_70084
+G0047,Belgrade - Barajevo,council,municipality or city,G0006,,pending,,,,,Eurostat GISCO LAU 2024; code is the Statistical Office municipality number,RS_70092
+G0048,Belgrade - Grocka,council,municipality or city,G0006,,pending,,,,,Eurostat GISCO LAU 2024; code is the Statistical Office municipality number,RS_70122
+G0049,Belgrade - Lazarevac,council,municipality or city,G0006,,pending,,,,,Eurostat GISCO LAU 2024; code is the Statistical Office municipality number,RS_70165
+G0050,Belgrade - Mladenovac,council,municipality or city,G0006,,pending,,,,,Eurostat GISCO LAU 2024; code is the Statistical Office municipality number,RS_70173
+G0051,Belgrade - Novi Beograd,council,municipality or city,G0006,,pending,,,,,Eurostat GISCO LAU 2024; code is the Statistical Office municipality number,RS_70181
+G0052,Belgrade - Obrenovac,council,municipality or city,G0006,,pending,,,,,Eurostat GISCO LAU 2024; code is the Statistical Office municipality number,RS_70190
+G0053,Belgrade - Palilula,council,municipality or city,G0006,,pending,,,,,Eurostat GISCO LAU 2024; code is the Statistical Office municipality number,RS_70203
+G0054,Belgrade - Rakovica,council,municipality or city,G0006,,pending,,,,,Eurostat GISCO LAU 2024; code is the Statistical Office municipality number,RS_70211
+G0055,Belgrade - Savski venac,council,municipality or city,G0006,,pending,,,,,Eurostat GISCO LAU 2024; code is the Statistical Office municipality number,RS_70220
+G0056,Belgrade - Sopot,council,municipality or city,G0006,,pending,,,,,Eurostat GISCO LAU 2024; code is the Statistical Office municipality number,RS_70238
+G0057,Belgrade - Stari grad,council,municipality or city,G0006,,pending,,,,,Eurostat GISCO LAU 2024; code is the Statistical Office municipality number,RS_70246
+G0058,Belgrade - Surčin,council,municipality or city,G0006,,pending,,,,,Eurostat GISCO LAU 2024; code is the Statistical Office municipality number,RS_71293
+G0059,Belgrade - Voždovac,council,municipality or city,G0006,,pending,,,,,Eurostat GISCO LAU 2024; code is the Statistical Office municipality number,RS_70106
+G0060,Belgrade - Vračar,council,municipality or city,G0006,,pending,,,,,Eurostat GISCO LAU 2024; code is the Statistical Office municipality number,RS_70114
+G0061,Belgrade - Zemun,council,municipality or city,G0006,,pending,,,,,Eurostat GISCO LAU 2024; code is the Statistical Office municipality number,RS_70157
+G0062,Belgrade - Zvezdara,council,municipality or city,G0006,,pending,,,,,Eurostat GISCO LAU 2024; code is the Statistical Office municipality number,RS_70149
+G0063,Belgrade - Čukarica,council,municipality or city,G0006,,pending,,,,,Eurostat GISCO LAU 2024; code is the Statistical Office municipality number,RS_70254
+G0064,Beočin,council,municipality or city,G0009,,pending,,,,,Eurostat GISCO LAU 2024; code is the Statistical Office municipality number,RS_80101
+G0065,Bečej,council,municipality or city,G0009,,pending,,,,,Eurostat GISCO LAU 2024; code is the Statistical Office municipality number,RS_80110
+G0066,Blace,council,municipality or city,G0030,,pending,,,,,Eurostat GISCO LAU 2024; code is the Statistical Office municipality number,RS_70262
+G0067,Bogatić,council,municipality or city,G0016,,pending,,,,,Eurostat GISCO LAU 2024; code is the Statistical Office municipality number,RS_70289
+G0068,Bojnik,council,municipality or city,G0025,,pending,,,,,Eurostat GISCO LAU 2024; code is the Statistical Office municipality number,RS_70297
+G0069,Boljevac,council,municipality or city,G0024,,pending,,,,,Eurostat GISCO LAU 2024; code is the Statistical Office municipality number,RS_70319
+G0070,Bor,council,municipality or city,G0022,,pending,,,,,Eurostat GISCO LAU 2024; code is the Statistical Office municipality number,RS_70327
+G0071,Bosilegrad,council,municipality or city,G0029,,pending,,,,,Eurostat GISCO LAU 2024; code is the Statistical Office municipality number,RS_70335
+G0072,Brus,council,municipality or city,G0019,,pending,,,,,Eurostat GISCO LAU 2024; code is the Statistical Office municipality number,RS_70343
+G0073,Bujanovac,council,municipality or city,G0029,,pending,,,,,Eurostat GISCO LAU 2024; code is the Statistical Office municipality number,RS_70351
+G0074,Crna Trava,council,municipality or city,G0025,,pending,,,,,Eurostat GISCO LAU 2024; code is the Statistical Office municipality number,RS_71226
+G0075,Despotovac,council,municipality or city,G0018,,pending,,,,,Eurostat GISCO LAU 2024; code is the Statistical Office municipality number,RS_70491
+G0076,Dimitrovgrad,council,municipality or city,G0027,,pending,,,,,Eurostat GISCO LAU 2024; code is the Statistical Office municipality number,RS_70505
+G0077,Doljevac,council,municipality or city,G0026,,pending,,,,,Eurostat GISCO LAU 2024; code is the Statistical Office municipality number,RS_70513
+G0078,Gadžin Han,council,municipality or city,G0026,,pending,,,,,Eurostat GISCO LAU 2024; code is the Statistical Office municipality number,RS_70467
+G0079,Golubac,council,municipality or city,G0023,,pending,,,,,Eurostat GISCO LAU 2024; code is the Statistical Office municipality number,RS_70475
+G0080,Gornji Milanovac,council,municipality or city,G0017,,pending,,,,,Eurostat GISCO LAU 2024; code is the Statistical Office municipality number,RS_70483
+G0081,Inđija,council,municipality or city,G0013,,pending,,,,,Eurostat GISCO LAU 2024; code is the Statistical Office municipality number,RS_80179
+G0082,Irig,council,municipality or city,G0013,,pending,,,,,Eurostat GISCO LAU 2024; code is the Statistical Office municipality number,RS_80187
+G0083,Ivanjica,council,municipality or city,G0017,,pending,,,,,Eurostat GISCO LAU 2024; code is the Statistical Office municipality number,RS_70564
+G0084,Jagodina,council,municipality or city,G0018,,pending,,,,,Eurostat GISCO LAU 2024; code is the Statistical Office municipality number,RS_71048
+G0085,Kanjiža,council,municipality or city,G0010,,pending,,,,,Eurostat GISCO LAU 2024; code is the Statistical Office municipality number,RS_80195
+G0086,Kikinda,council,municipality or city,G0010,,pending,,,,,Eurostat GISCO LAU 2024; code is the Statistical Office municipality number,RS_80209
+G0087,Kladovo,council,municipality or city,G0022,,pending,,,,,Eurostat GISCO LAU 2024; code is the Statistical Office municipality number,RS_70572
+G0088,Knić,council,municipality or city,G0021,,pending,,,,,Eurostat GISCO LAU 2024; code is the Statistical Office municipality number,RS_70599
+G0089,Knjaževac,council,municipality or city,G0024,,pending,,,,,Eurostat GISCO LAU 2024; code is the Statistical Office municipality number,RS_70602
+G0090,Koceljeva,council,municipality or city,G0016,,pending,,,,,Eurostat GISCO LAU 2024; code is the Statistical Office municipality number,RS_70637
+G0091,Kosjerić,council,municipality or city,G0014,,pending,,,,,Eurostat GISCO LAU 2024; code is the Statistical Office municipality number,RS_70629
+G0092,Kostolac,council,municipality or city,G0023,,pending,,,,,Eurostat GISCO LAU 2024; code is the Statistical Office municipality number,RS_71340
+G0093,Kovačica,council,municipality or city,G0008,,pending,,,,,Eurostat GISCO LAU 2024; code is the Statistical Office municipality number,RS_80217
+G0094,Kovin,council,municipality or city,G0008,,pending,,,,,Eurostat GISCO LAU 2024; code is the Statistical Office municipality number,RS_80225
+G0095,Kragujevac,council,municipality or city,G0021,,pending,,,,,Eurostat GISCO LAU 2024; code is the Statistical Office municipality number,RS_70645
+G0096,Kraljevo,council,municipality or city,G0020,,pending,,,,,Eurostat GISCO LAU 2024; code is the Statistical Office municipality number,RS_70653
+G0097,Krupanj,council,municipality or city,G0016,,pending,,,,,Eurostat GISCO LAU 2024; code is the Statistical Office municipality number,RS_70661
+G0098,Kruševac,council,municipality or city,G0019,,pending,,,,,Eurostat GISCO LAU 2024; code is the Statistical Office municipality number,RS_70670
+G0099,Kula,council,municipality or city,G0007,,pending,,,,,Eurostat GISCO LAU 2024; code is the Statistical Office municipality number,RS_80233
+G0100,Kuršumlija,council,municipality or city,G0030,,pending,,,,,Eurostat GISCO LAU 2024; code is the Statistical Office municipality number,RS_70688
+G0101,Kučevo,council,municipality or city,G0023,,pending,,,,,Eurostat GISCO LAU 2024; code is the Statistical Office municipality number,RS_70696
+G0102,Lajkovac,council,municipality or city,G0015,,pending,,,,,Eurostat GISCO LAU 2024; code is the Statistical Office municipality number,RS_70700
+G0103,Lapovo,council,municipality or city,G0021,,pending,,,,,Eurostat GISCO LAU 2024; code is the Statistical Office municipality number,RS_71277
+G0104,Lebane,council,municipality or city,G0025,,pending,,,,,Eurostat GISCO LAU 2024; code is the Statistical Office municipality number,RS_70718
+G0105,Leskovac,council,municipality or city,G0025,,pending,,,,,Eurostat GISCO LAU 2024; code is the Statistical Office municipality number,RS_70726
+G0106,Ljig,council,municipality or city,G0015,,pending,,,,,Eurostat GISCO LAU 2024; code is the Statistical Office municipality number,RS_70769
+G0107,Ljubovija,council,municipality or city,G0016,,pending,,,,,Eurostat GISCO LAU 2024; code is the Statistical Office municipality number,RS_70777
+G0108,Loznica,council,municipality or city,G0016,,pending,,,,,Eurostat GISCO LAU 2024; code is the Statistical Office municipality number,RS_70734
+G0109,Lučani,council,municipality or city,G0017,,pending,,,,,Eurostat GISCO LAU 2024; code is the Statistical Office municipality number,RS_70742
+G0110,Majdanpek,council,municipality or city,G0022,,pending,,,,,Eurostat GISCO LAU 2024; code is the Statistical Office municipality number,RS_70785
+G0111,Mali Iđoš,council,municipality or city,G0011,,pending,,,,,Eurostat GISCO LAU 2024; code is the Statistical Office municipality number,RS_80241
+G0112,Mali Zvornik,council,municipality or city,G0016,,pending,,,,,Eurostat GISCO LAU 2024; code is the Statistical Office municipality number,RS_70793
+G0113,Malo Crniće,council,municipality or city,G0023,,pending,,,,,Eurostat GISCO LAU 2024; code is the Statistical Office municipality number,RS_70807
+G0114,Medveđa,council,municipality or city,G0025,,pending,,,,,Eurostat GISCO LAU 2024; code is the Statistical Office municipality number,RS_70815
+G0115,Merošina,council,municipality or city,G0026,,pending,,,,,Eurostat GISCO LAU 2024; code is the Statistical Office municipality number,RS_70823
+G0116,Mionica,council,municipality or city,G0015,,pending,,,,,Eurostat GISCO LAU 2024; code is the Statistical Office municipality number,RS_70831
+G0117,Negotin,council,municipality or city,G0022,,pending,,,,,Eurostat GISCO LAU 2024; code is the Statistical Office municipality number,RS_70840
+G0118,Niš - Crveni Krst,council,municipality or city,G0026,,pending,,,,,Eurostat GISCO LAU 2024; code is the Statistical Office municipality number,RS_71315
+G0119,Niš - Medijana,council,municipality or city,G0026,,pending,,,,,Eurostat GISCO LAU 2024; code is the Statistical Office municipality number,RS_71331
+G0120,Niš - Niška Banja,council,municipality or city,G0026,,pending,,,,,Eurostat GISCO LAU 2024; code is the Statistical Office municipality number,RS_71285
+G0121,Niš - Palilula,council,municipality or city,G0026,,pending,,,,,Eurostat GISCO LAU 2024; code is the Statistical Office municipality number,RS_71323
+G0122,Niš - Pantelej,council,municipality or city,G0026,,pending,,,,,Eurostat GISCO LAU 2024; code is the Statistical Office municipality number,RS_71307
+G0123,Nova Crnja,council,municipality or city,G0012,,pending,,,,,Eurostat GISCO LAU 2024; code is the Statistical Office municipality number,RS_80250
+G0124,Nova Varoš,council,municipality or city,G0014,,pending,,,,,Eurostat GISCO LAU 2024; code is the Statistical Office municipality number,RS_70866
+G0125,Novi Bečej,council,municipality or city,G0012,,pending,,,,,Eurostat GISCO LAU 2024; code is the Statistical Office municipality number,RS_80268
+G0126,Novi Kneževac,council,municipality or city,G0010,,pending,,,,,Eurostat GISCO LAU 2024; code is the Statistical Office municipality number,RS_80276
+G0127,Novi Pazar,council,municipality or city,G0020,,pending,,,,,Eurostat GISCO LAU 2024; code is the Statistical Office municipality number,RS_70874
+G0128,Novi Sad,council,municipality or city,G0009,,pending,,,,,Eurostat GISCO LAU 2024; code is the Statistical Office municipality number,RS_80284
+G0129,Odžaci,council,municipality or city,G0007,,pending,,,,,Eurostat GISCO LAU 2024; code is the Statistical Office municipality number,RS_80306
+G0130,Opovo,council,municipality or city,G0008,,pending,,,,,Eurostat GISCO LAU 2024; code is the Statistical Office municipality number,RS_80292
+G0131,Osečina,council,municipality or city,G0015,,pending,,,,,Eurostat GISCO LAU 2024; code is the Statistical Office municipality number,RS_70882
+G0132,Pančevo,council,municipality or city,G0008,,pending,,,,,Eurostat GISCO LAU 2024; code is the Statistical Office municipality number,RS_80314
+G0133,Paraćin,council,municipality or city,G0018,,pending,,,,,Eurostat GISCO LAU 2024; code is the Statistical Office municipality number,RS_70904
+G0134,Petrovac na Mlavi,council,municipality or city,G0023,,pending,,,,,Eurostat GISCO LAU 2024; code is the Statistical Office municipality number,RS_70912
+G0135,Pećinci,council,municipality or city,G0013,,pending,,,,,Eurostat GISCO LAU 2024; code is the Statistical Office municipality number,RS_80322
+G0136,Pirot,council,municipality or city,G0027,,pending,,,,,Eurostat GISCO LAU 2024; code is the Statistical Office municipality number,RS_70939
+G0137,Plandište,council,municipality or city,G0008,,pending,,,,,Eurostat GISCO LAU 2024; code is the Statistical Office municipality number,RS_80349
+G0138,Požarevac,council,municipality or city,G0023,,pending,,,,,Eurostat GISCO LAU 2024; code is the Statistical Office municipality number,RS_70947
+G0139,Požega,council,municipality or city,G0014,,pending,,,,,Eurostat GISCO LAU 2024; code is the Statistical Office municipality number,RS_70955
+G0140,Preševo,council,municipality or city,G0029,,pending,,,,,Eurostat GISCO LAU 2024; code is the Statistical Office municipality number,RS_70963
+G0141,Priboj,council,municipality or city,G0014,,pending,,,,,Eurostat GISCO LAU 2024; code is the Statistical Office municipality number,RS_70971
+G0142,Prijepolje,council,municipality or city,G0014,,pending,,,,,Eurostat GISCO LAU 2024; code is the Statistical Office municipality number,RS_70980
+G0143,Prokuplje,council,municipality or city,G0030,,pending,,,,,Eurostat GISCO LAU 2024; code is the Statistical Office municipality number,RS_70998
+G0144,Rača,council,municipality or city,G0021,,pending,,,,,Eurostat GISCO LAU 2024; code is the Statistical Office municipality number,RS_71013
+G0145,Raška,council,municipality or city,G0020,,pending,,,,,Eurostat GISCO LAU 2024; code is the Statistical Office municipality number,RS_71021
+G0146,Ražanj,council,municipality or city,G0026,,pending,,,,,Eurostat GISCO LAU 2024; code is the Statistical Office municipality number,RS_71005
+G0147,Rekovac,council,municipality or city,G0018,,pending,,,,,Eurostat GISCO LAU 2024; code is the Statistical Office municipality number,RS_71030
+G0148,Ruma,council,municipality or city,G0013,,pending,,,,,Eurostat GISCO LAU 2024; code is the Statistical Office municipality number,RS_80357
+G0149,Senta,council,municipality or city,G0010,,pending,,,,,Eurostat GISCO LAU 2024; code is the Statistical Office municipality number,RS_80365
+G0150,Sevojno,council,municipality or city,G0014,,pending,,,,,Eurostat GISCO LAU 2024; code is the Statistical Office municipality number,RS_71366
+G0151,Sečanj,council,municipality or city,G0012,,pending,,,,,Eurostat GISCO LAU 2024; code is the Statistical Office municipality number,RS_80373
+G0152,Sjenica,council,municipality or city,G0014,,pending,,,,,Eurostat GISCO LAU 2024; code is the Statistical Office municipality number,RS_71072
+G0153,Smederevo,council,municipality or city,G0028,,pending,,,,,Eurostat GISCO LAU 2024; code is the Statistical Office municipality number,RS_71099
+G0154,Smederevska Palanka,council,municipality or city,G0028,,pending,,,,,Eurostat GISCO LAU 2024; code is the Statistical Office municipality number,RS_71102
+G0155,Sokobanja,council,municipality or city,G0024,,pending,,,,,Eurostat GISCO LAU 2024; code is the Statistical Office municipality number,RS_71129
+G0156,Sombor,council,municipality or city,G0007,,pending,,,,,Eurostat GISCO LAU 2024; code is the Statistical Office municipality number,RS_80381
+G0157,Srbobran,council,municipality or city,G0009,,pending,,,,,Eurostat GISCO LAU 2024; code is the Statistical Office municipality number,RS_80390
+G0158,Sremska Mitrovica,council,municipality or city,G0013,,pending,,,,,Eurostat GISCO LAU 2024; code is the Statistical Office municipality number,RS_80403
+G0159,Sremski Karlovci,council,municipality or city,G0009,,pending,,,,,Eurostat GISCO LAU 2024; code is the Statistical Office municipality number,RS_80411
+G0160,Stara Pazova,council,municipality or city,G0013,,pending,,,,,Eurostat GISCO LAU 2024; code is the Statistical Office municipality number,RS_80420
+G0161,Subotica,council,municipality or city,G0011,,pending,,,,,Eurostat GISCO LAU 2024; code is the Statistical Office municipality number,RS_80438
+G0162,Surdulica,council,municipality or city,G0029,,pending,,,,,Eurostat GISCO LAU 2024; code is the Statistical Office municipality number,RS_71137
+G0163,Svilajnac,council,municipality or city,G0018,,pending,,,,,Eurostat GISCO LAU 2024; code is the Statistical Office municipality number,RS_71056
+G0164,Svrljig,council,municipality or city,G0026,,pending,,,,,Eurostat GISCO LAU 2024; code is the Statistical Office municipality number,RS_71064
+G0165,Temerin,council,municipality or city,G0009,,pending,,,,,Eurostat GISCO LAU 2024; code is the Statistical Office municipality number,RS_80446
+G0166,Titel,council,municipality or city,G0009,,pending,,,,,Eurostat GISCO LAU 2024; code is the Statistical Office municipality number,RS_80454
+G0167,Topola,council,municipality or city,G0021,,pending,,,,,Eurostat GISCO LAU 2024; code is the Statistical Office municipality number,RS_71153
+G0168,Trgovište,council,municipality or city,G0029,,pending,,,,,Eurostat GISCO LAU 2024; code is the Statistical Office municipality number,RS_71161
+G0169,Trstenik,council,municipality or city,G0019,,pending,,,,,Eurostat GISCO LAU 2024; code is the Statistical Office municipality number,RS_71170
+G0170,Tutin,council,municipality or city,G0020,,pending,,,,,Eurostat GISCO LAU 2024; code is the Statistical Office municipality number,RS_71188
+G0171,Ub,council,municipality or city,G0015,,pending,,,,,Eurostat GISCO LAU 2024; code is the Statistical Office municipality number,RS_71218
+G0172,Užice,council,municipality or city,G0014,,pending,,,,,Eurostat GISCO LAU 2024; code is the Statistical Office municipality number,RS_71145
+G0173,Valjevo,council,municipality or city,G0015,,pending,,,,,Eurostat GISCO LAU 2024; code is the Statistical Office municipality number,RS_70360
+G0174,Varvarin,council,municipality or city,G0019,,pending,,,,,Eurostat GISCO LAU 2024; code is the Statistical Office municipality number,RS_70378
+G0175,Velika Plana,council,municipality or city,G0028,,pending,,,,,Eurostat GISCO LAU 2024; code is the Statistical Office municipality number,RS_70386
+G0176,Veliko Gradište,council,municipality or city,G0023,,pending,,,,,Eurostat GISCO LAU 2024; code is the Statistical Office municipality number,RS_70394
+G0177,Vladimirci,council,municipality or city,G0016,,pending,,,,,Eurostat GISCO LAU 2024; code is the Statistical Office municipality number,RS_70408
+G0178,Vladičin Han,council,municipality or city,G0029,,pending,,,,,Eurostat GISCO LAU 2024; code is the Statistical Office municipality number,RS_70416
+G0179,Vlasotince,council,municipality or city,G0025,,pending,,,,,Eurostat GISCO LAU 2024; code is the Statistical Office municipality number,RS_70424
+G0180,Vranje,council,municipality or city,G0029,,pending,,,,,Eurostat GISCO LAU 2024; code is the Statistical Office municipality number,RS_70432
+G0181,Vranjska Banja,council,municipality or city,G0029,,pending,,,,,Eurostat GISCO LAU 2024; code is the Statistical Office municipality number,RS_71358
+G0182,Vrbas,council,municipality or city,G0009,,pending,,,,,Eurostat GISCO LAU 2024; code is the Statistical Office municipality number,RS_80462
+G0183,Vrnjačka Banja,council,municipality or city,G0020,,pending,,,,,Eurostat GISCO LAU 2024; code is the Statistical Office municipality number,RS_70459
+G0184,Vršac,council,municipality or city,G0008,,pending,,,,,Eurostat GISCO LAU 2024; code is the Statistical Office municipality number,RS_80128
+G0185,Zaječar,council,municipality or city,G0024,,pending,,,,,Eurostat GISCO LAU 2024; code is the Statistical Office municipality number,RS_70556
+G0186,Zrenjanin,council,municipality or city,G0012,,pending,,,,,Eurostat GISCO LAU 2024; code is the Statistical Office municipality number,RS_80152
+G0187,Ćićevac,council,municipality or city,G0019,,pending,,,,,Eurostat GISCO LAU 2024; code is the Statistical Office municipality number,RS_71196
+G0188,Ćuprija,council,municipality or city,G0018,,pending,,,,,Eurostat GISCO LAU 2024; code is the Statistical Office municipality number,RS_71200
+G0189,Čajetina,council,municipality or city,G0014,,pending,,,,,Eurostat GISCO LAU 2024; code is the Statistical Office municipality number,RS_71234
+G0190,Čačak,council,municipality or city,G0017,,pending,,,,,Eurostat GISCO LAU 2024; code is the Statistical Office municipality number,RS_71242
+G0191,Čoka,council,municipality or city,G0010,,pending,,,,,Eurostat GISCO LAU 2024; code is the Statistical Office municipality number,RS_80489
+G0192,Šabac,council,municipality or city,G0016,,pending,,,,,Eurostat GISCO LAU 2024; code is the Statistical Office municipality number,RS_71269
+G0193,Šid,council,municipality or city,G0013,,pending,,,,,Eurostat GISCO LAU 2024; code is the Statistical Office municipality number,RS_80497
+G0194,Žabalj,council,municipality or city,G0009,,pending,,,,,Eurostat GISCO LAU 2024; code is the Statistical Office municipality number,RS_80136
+G0195,Žabari,council,municipality or city,G0023,,pending,,,,,Eurostat GISCO LAU 2024; code is the Statistical Office municipality number,RS_70521
+G0196,Žagubica,council,municipality or city,G0023,,pending,,,,,Eurostat GISCO LAU 2024; code is the Statistical Office municipality number,RS_70530
+G0197,Žitište,council,municipality or city,G0012,,pending,,,,,Eurostat GISCO LAU 2024; code is the Statistical Office municipality number,RS_80144
+G0198,Žitorađa,council,municipality or city,G0030,,pending,,,,,Eurostat GISCO LAU 2024; code is the Statistical Office municipality number,RS_70548

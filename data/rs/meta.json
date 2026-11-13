@@ -1,0 +1,9 @@
+{
+  "name": "Serbia",
+  "iso2": "RS",
+  "lead": "",
+  "status": "in progress",
+  "boundaries": "boundaries.json",
+  "notes": "Depth: seed pass R001 (2026-11-13), in English and Serbian (Latin and Cyrillic). Serbia has no tax on net wealth and no party has tabled one; the debate is about the annual income tax on high earners (called porez na bogate), property tax and inheritance tax, which are out of definition. Five supporters: the Ne davimo Beograd initiative (2021 statement naming a tax on total wealth), the Green-Left Front (programme mentions the net worldwide wealth tax), sociologist Vladimir Simović of the Centre for Emancipatory Politics (2026), professor Dušan Pavlović (2024 column on the Berlin Declaration's progressive wealth tax) and ex-Dveri vice-president Tamara Milenković Kerković (2023). Geography: country root, 4 statistical regions (NUTS 2), 25 districts (NUTS 3) and 168 municipalities and city municipalities (GISCO LAU 2024, the Statistical Office's municipality numbers; Kosovo excluded; Belgrade and Niš appear as their city municipalities). Map: Eurostat GISCO, CC BY 4.0. Seats tab: the National Assembly's 250 seats by list from the final results of the 25 October 2026 election (Student List 140, Vučić list 103, five minority lists 7); no member is listed because the new convocation has not yet confirmed mandates. No poll on a wealth tax was found.",
+  "polls": []
+}
