@@ -6,21 +6,21 @@ Read `data/ru/area_profile.md` and the most recent run log first. Russian `на�
 
 State Duma bill tracking and plenary transcripts are published on the State Duma legislative portal (СОЗД):
 - Portal: `https://sozd.duma.gov.ru`
-- Deputies directory (8th convocation): `http://duma.gov.ru/duma/deputies/8/`
+- Deputies directory (9th convocation, elected 18–20 September 2026): `http://duma.gov.ru/duma/deputies/9/` (the 8th is `.../deputies/8/`)
 
 Plenary transcripts record individual statements and faction positions on tax bills. Russian news agencies (TASS, RIA Novosti, Interfax) and official party websites (kprf.ru, spravedlivo.ru) frequently publish verbatim transcripts of legislative bill submissions and press conferences. Some Russian government and party portals implement anti-bot filtering against plain HTTP clients; when direct fetching fails, verify quotes using browser sessions or regional subdomains (e.g. `56.kprf.ru` or `moskva.spravedlivo.ru`).
 
 ## Parliamentary seats and parties
 
-The State Duma has 450 seats elected every five years. The 8th convocation (elected September 2021) consists of:
-- **United Russia** (`United Russia`, colour `#0054A5`): 324 seats
-- **Communist Party of the Russian Federation** (`Communist Party of the Russian Federation`, colour `#D71A21`): 57 seats — sponsors a 1%–4% luxury-asset tax (not counted: it taxes listed luxury goods, not net wealth)
-- **A Just Russia – For Truth** (`A Just Russia - For Truth`, colour `#F5B803`): 27 seats — advocates annual solidarity wealth tax modelled on the French ISF
-- **Liberal Democratic Party of Russia** (`Liberal Democratic Party of Russia`, colour `#003399`): 21 seats
-- **New People** (`New People`, colour `#00A896`): 13 seats
-- **Other / Independent** (`Other`, colour `#888888`): 8 seats
+The State Duma has 450 seats elected every five years. The 9th convocation (elected 18–20 September 2026; Central Election Commission final result of 25 September 2026, first sitting 30 September) consists of:
+- **United Russia** (`United Russia`, colour `#0054A5`): 349 seats
+- **Communist Party of the Russian Federation** (`Communist Party of the Russian Federation`, colour `#D71A21`): 37 seats — sponsors a 1%–4% luxury-asset tax (not counted: it taxes listed luxury goods, not net wealth)
+- **A Just Russia – For Truth** (`A Just Russia - For Truth`, colour `#F5B803`): 17 seats — advocates annual solidarity wealth tax modelled on the French ISF
+- **Liberal Democratic Party of Russia** (`Liberal Democratic Party of Russia`, colour `#003399`): 23 seats
+- **New People** (`New People`, colour `#00A896`): 19 seats
+- **Other / Independent (Rodina 1, four independents)** (`Other`, colour `#888888`): 5 seats
 
-`bodies.csv` registers the State Duma (`B0001`, national chamber, 450 seats). Sitting deputies supporting wealth taxation are linked via `positions.csv` with their official State Duma deputy ID (`member_ref`).
+`bodies.csv` registers the State Duma (`B0001`, national chamber, 450 seats). Sergey Mironov (A Just Russia) and Gennady Zyuganov (CPRF) are both on the 9th convocation list, each elected on their party's federal list (checked 12 November 2026). Sitting deputies supporting wealth taxation are linked via `positions.csv` with their official State Duma deputy ID (`member_ref`).
 
 ## Geography and map recipe
 
