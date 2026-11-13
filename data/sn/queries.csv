@@ -1,0 +1,15 @@
+query_id,run_id,date,language,query,channel,results_opened,leads_added,note
+Q0001,R001,2026-11-13,fr,Sénégal impôt sur la fortune PASTEF grandes fortunes,web,4,0,No wealth tax debate
+Q0002,R001,2026-11-13,en,Senegal wealth tax Sonko Assemblée nationale,web,4,0,2025 reforms are income and consumption taxes
+Q0003,R001,2026-11-13,fr,Sénégal impôt sur la fortune syndicat économiste Oxfam,web,3,0,Fair Tax Guide and Oxfam/Forum Civil barometer: general
+Q0004,R001,2026-11-13,fr,Pastef programme Le Projet impôt sur la fortune,web,2,1,Nothing found
+Q0005,R001,2026-11-13,fr,Guy Marius Sagna impôt sur la fortune taxer les riches,web,1,0,Nothing
+Q0006,R001,2026-11-13,fr,Sonko impôt sur la fortune patrimoine,web,5,0,Nothing; no wealth tax in force
+Q0007,R001,2026-11-13,fr,Oxfam Sénégal taxer ultra-riches,web,3,1,Regional Oxfam material only
+Q0008,R001,2026-11-13,fr,amendement impôt sur la fortune loi de finances Sénégal,web,3,0,Only the LFR 2026 rejection of 3 Nov 2026
+Q0009,R001,2026-11-13,en,Senegal civil society tax justice wealth tax billionaire tax,web,4,0,"Tobacco tax win, mobile money critique"
+Q0010,R001,2026-11-13,en,Aminata Touré Vatican February 2025 tax super-rich,web,6,1,ICRICT release quotes her on taxes on wealth
+Q0011,R001,2026-11-13,fr,taxe Zucman Sénégal,web,2,0,Nothing
+Q0012,R001,2026-11-13,fr,centrales syndicales Sénégal taxer grandes fortunes,web,3,0,Nothing
+Q0013,R001,2026-11-13,fr,Taxawu Khalifa Sall Thierno Alassane Sall impôt fortune,web,3,0,Nothing
+Q0014,R001,2026-11-13,en,Africa's Time to Lead letter Ramaphosa signatories Senegal,web,4,1,No Senegalese signer found
