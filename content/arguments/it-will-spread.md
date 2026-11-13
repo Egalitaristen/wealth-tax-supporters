@@ -3,15 +3,15 @@ title: Governments keep raising the line on wealth taxes, and a $1 billion minim
 kind: argument
 objection: "It will start with billionaires and then spread to everyone."
 answer: Who pays is set by a number in the law, and parliaments raised it. A $1 billion minimum tax sits 5,184 times above the typical family, and indexing keeps it there.
-standfirst: A wealth tax is charged above a line written into a statute. In Sweden the line rose until only the top 2% of couples owed it, where in 1999 it had been the top 8% of households. Spain's payers fell from 981,498 to 188,680. Income tax did spread, from 357,598 returns in 1913 to 4,425,114 in 1918, and the page shows why a wealth tax is built to be different.
+standfirst: A wealth tax is charged above a line written into a statute. A $1 billion minimum tax reaches about 3,000 households, 5,184 times the net worth of the typical American family. Sweden, Denmark, Spain, France and Norway raised their lines, and Spain's payers fell from 981,498 to 188,680. Spain's payers fell from 981,498 to 188,680. Income tax did spread, from 357,598 returns in 1913 to 4,425,114 in 1918, and the page shows why a wealth tax is built to be different.
 updated: 2026-11-13
 layout: article
 status: draft
-card_figure: 8% to 2%
-card_label: Sweden raised its wealth tax line until only the top 2% of couples owed it in 2006, against the top 8% of households in 1999.
+card_figure: 5,184×
+card_label: How many times the net worth of the typical American family the $1 billion line of a minimum tax is.
 facts:
   - label: Sweden, couples liable for the wealth tax
-    value: Top 8% of households in 1999, top 2% in 2006
+    value: Every household above the 92nd percentile in 1999; couples only in the top 2% in 2006
     source: 5
   - label: Spain, taxpayers
     value: 981,498 in 2007, 188,680 in 2015, after the exemption was raised to EUR 700,000
@@ -118,7 +118,7 @@ charts:
     max: 4500
     data: 1913|358|muted|357,598; 1916|437|ink|437,036; 1917|3473|signal|3,472,890; 1918|4425|signal|4,425,114
 ---
-A wealth tax is charged above a line, and the line is a number in a statute. Who pays is decided by that number and by nothing else. So the claim that the tax will spread to the middle class is a claim about what happens to the number. The record answers it. Where parliaments have moved the line, they have raised it: Sweden, Denmark, Spain, France and Norway all did, and in Sweden the line moved from the top 8% of households in 1999 to the top 2% of couples in 2006.[5] Where the line sank in real terms, it was because it stood still while prices rose, and the fix is a clause.
+A wealth tax is charged above a line, and the line is a number in a statute. Who pays is decided by that number and by nothing else. So the claim that the tax will spread to the middle class is a claim about what happens to the number. The record answers it. Sweden, Denmark, Spain, France and Norway each raised their line, and Norway also froze its line in some years, which tightened it. Where the line sank in real terms, it was because it stood still while prices rose, and the fix is a clause.
 
 The tax on the table now is aimed far above anything a family owns. A minimum tax on billionaires starts at $1 billion and reaches about 3,000 households in the world.[15] That line is 5,184 times the net worth of the typical American family.[13] No gradual slide closes a gap that size. Reaching the middle class would take a different law, a new vote and a rewritten standard, and the middle class would see every step.
 
@@ -126,9 +126,9 @@ The pressure on wealth taxes has run the other way. Twelve OECD countries levied
 
 ## What parliaments did with the line {#thresholds}
 
-**Sweden.** The threshold started at SEK 800,000 in 1991 and reached SEK 3 million in 2006. In 1999 every household above the 92nd percentile of wealth owed the tax. By 2006 a couple had to be in the top 2%.[5]
+**Sweden.** The threshold started at SEK 800,000 in 1991 and reached SEK 3 million in 2006. In 1999 every household above the 92nd percentile of wealth owed the tax. In 2006 singles still owed it above the 92nd percentile, but a couple had to be in the top 2%.[5]
 
-**Denmark.** The law set a base allowance of DKK 1,278,700 and said allowances were adjusted by a separate rule. By 1996 the allowance stood at DKK 1,635,500. The government's bill that year raised it to DKK 2.4 million, cut the rate from 1% to 0.7% and ended the tax from 1997. The tax then reached an estimated 35,000 families.[6]
+**Denmark.** The law set a base allowance of DKK 1,278,700 and said allowances were adjusted by a separate rule. By 1996 the allowance stood at DKK 1,635,500. The government's bill that year proposed raising it to DKK 2.4 million, cutting the rate from 1% to 0.7% and ending the tax from 1997. The tax reached an estimated 35,000 families.[6]
 
 **Spain.** Before 2008 the exemption was between EUR 108,182 and EUR 150,000, depending on the region. When Spain brought the tax back in 2011 it set the national exemption at EUR 700,000. The number of taxpayers fell from 981,498 in 2007 to 188,680 in 2015.[4]
 
