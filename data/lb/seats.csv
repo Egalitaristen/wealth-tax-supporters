@@ -1,0 +1,9 @@
+seat_id,body_id,party,seats,colour,order
+S0001,B0001,"Hezbollah, Amal and allies",41,1b8a3a,1
+S0002,B0001,Lebanese Forces and allies,20,c8102e,2
+S0003,B0001,Free Patriotic Movement and allies,20,f58220,3
+S0004,B0001,Ex-Future Movement and allies,7,4aa3df,4
+S0005,B0001,Kataeb Party and allies,6,8e6bbf,5
+S0006,B0001,October 17 (change) MPs,12,e0b000,6
+S0007,B0001,Progressive Socialist Party,8,d4a017,7
+S0008,B0001,Other and independents,14,9aa0a6,8

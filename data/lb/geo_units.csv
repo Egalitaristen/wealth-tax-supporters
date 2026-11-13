@@ -1,0 +1,36 @@
+geo_unit_id,name,level,unit_type,parent_id,website,sweep_status,swept_run,swept_date,queries_run,hits,notes,code
+G0001,Lebanon,national,country,,https://www.pcm.gov.lb,in_progress,R001,2026-11-13,,,National seed pass and second pass only; no regional or local sweep.,LB
+G0002,Beirut,region,governorate,G0001,,pending,,,,,OCHA COD-AB admin level 1,LB1
+G0003,Bekaa,region,governorate,G0001,,pending,,,,,OCHA COD-AB admin level 1,LB2
+G0004,Mount Lebanon,region,governorate,G0001,,pending,,,,,OCHA COD-AB admin level 1,LB3
+G0005,El Nabatieh,region,governorate,G0001,,pending,,,,,OCHA COD-AB admin level 1,LB4
+G0006,North,region,governorate,G0001,,pending,,,,,OCHA COD-AB admin level 1,LB5
+G0007,South,region,governorate,G0001,,pending,,,,,OCHA COD-AB admin level 1,LB6
+G0008,Akkar,region,governorate,G0001,,pending,,,,,OCHA COD-AB admin level 1,LB7
+G0009,Baalbek-El Hermel,region,governorate,G0001,,pending,,,,,OCHA COD-AB admin level 1,LB8
+G0010,Beirut,council,district (qada),G0002,,pending,,,,,OCHA COD-AB admin level 2,LB11
+G0011,Baalbek,council,district (qada),G0009,,pending,,,,,OCHA COD-AB admin level 2,LB21
+G0012,El Hermel,council,district (qada),G0009,,pending,,,,,OCHA COD-AB admin level 2,LB22
+G0013,Rachaya,council,district (qada),G0003,,pending,,,,,OCHA COD-AB admin level 2,LB23
+G0014,West Bekaa,council,district (qada),G0003,,pending,,,,,OCHA COD-AB admin level 2,LB24
+G0015,Zahle,council,district (qada),G0003,,pending,,,,,OCHA COD-AB admin level 2,LB25
+G0016,Aley,council,district (qada),G0004,,pending,,,,,OCHA COD-AB admin level 2,LB31
+G0017,Baabda,council,district (qada),G0004,,pending,,,,,OCHA COD-AB admin level 2,LB32
+G0018,Chouf,council,district (qada),G0004,,pending,,,,,OCHA COD-AB admin level 2,LB33
+G0019,Jbeil,council,district (qada),G0004,,pending,,,,,OCHA COD-AB admin level 2,LB34
+G0020,Kesrwane,council,district (qada),G0004,,pending,,,,,OCHA COD-AB admin level 2,LB35
+G0021,El Meten,council,district (qada),G0004,,pending,,,,,OCHA COD-AB admin level 2,LB36
+G0022,Bent Jbeil,council,district (qada),G0005,,pending,,,,,OCHA COD-AB admin level 2,LB41
+G0023,Hasbaya,council,district (qada),G0005,,pending,,,,,OCHA COD-AB admin level 2,LB42
+G0024,Marjaayoun,council,district (qada),G0005,,pending,,,,,OCHA COD-AB admin level 2,LB43
+G0025,El Nabatieh,council,district (qada),G0005,,pending,,,,,OCHA COD-AB admin level 2,LB44
+G0026,Akkar,council,district (qada),G0008,,pending,,,,,OCHA COD-AB admin level 2,LB51
+G0027,El Batroun,council,district (qada),G0006,,pending,,,,,OCHA COD-AB admin level 2,LB52
+G0028,Bcharre,council,district (qada),G0006,,pending,,,,,OCHA COD-AB admin level 2,LB53
+G0029,El Koura,council,district (qada),G0006,,pending,,,,,OCHA COD-AB admin level 2,LB54
+G0030,El Minieh-Dennie,council,district (qada),G0006,,pending,,,,,OCHA COD-AB admin level 2,LB55
+G0031,Tripoli,council,district (qada),G0006,,pending,,,,,OCHA COD-AB admin level 2,LB56
+G0032,Zgharta,council,district (qada),G0006,,pending,,,,,OCHA COD-AB admin level 2,LB57
+G0033,Saida,council,district (qada),G0007,,pending,,,,,OCHA COD-AB admin level 2,LB61
+G0034,Jezzine,council,district (qada),G0007,,pending,,,,,OCHA COD-AB admin level 2,LB62
+G0035,Sour,council,district (qada),G0007,,pending,,,,,OCHA COD-AB admin level 2,LB63

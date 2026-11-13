@@ -1,0 +1,85 @@
+geo_unit_id,name,level,unit_type,parent_id,website,sweep_status,swept_run,swept_date,queries_run,hits,notes,code
+G0001,Georgia,national,country,,https://www.gov.ge,in_progress,R001,2026-11-13,,,National seed pass and second pass only; no regional or local sweep.,GE
+G0002,Autonomous Republic of Adjara,region,autonomous republic,G0001,,pending,,,,,OCHA COD-AB admin level 1,GE15
+G0003,Guria,region,region,G0001,,pending,,,,,OCHA COD-AB admin level 1,GE23
+G0004,Imereti,region,region,G0001,,pending,,,,,OCHA COD-AB admin level 1,GE26
+G0005,Kakheti,region,region,G0001,,pending,,,,,OCHA COD-AB admin level 1,GE29
+G0006,Kvemo Kartli,region,region,G0001,,pending,,,,,OCHA COD-AB admin level 1,GE44
+G0007,Mtskheta-Mtianeti,region,region,G0001,,pending,,,,,OCHA COD-AB admin level 1,GE32
+G0008,Racha-Lechkhumi and Kvemo Svaneti,region,region,G0001,,pending,,,,,OCHA COD-AB admin level 1,GE35
+G0009,Samegrelo-Zemo Svaneti,region,region,G0001,,pending,,,,,OCHA COD-AB admin level 1,GE38
+G0010,Samtskhe-Javakheti,region,region,G0001,,pending,,,,,OCHA COD-AB admin level 1,GE41
+G0011,Shida Kartli,region,region,G0001,,pending,,,,,OCHA COD-AB admin level 1,GE47
+G0012,Tbilisi,council,capital city,G0001,,pending,,,,,OCHA COD-AB admin level 1 (no level 2 below it),GE11
+G0013,Autonomous Republic of Abkhazia,council,autonomous republic,G0001,,pending,,,,,OCHA COD-AB admin level 1; outside Georgian government control,GE12
+G0014,Provisional Administration (South Ossetia / Tskhinvali region),council,provisional administrative entity,G0001,,pending,,,,,"OCHA COD-AB admin level 1 ""Provisional Administration""; outside Georgian government control",GE48
+G0015,Batumi,council,city,G0002,,pending,,,,,OCHA COD-AB admin level 2,GE1511
+G0016,Keda,council,municipality,G0002,,pending,,,,,OCHA COD-AB admin level 2,GE1523
+G0017,Kobuleti,council,municipality,G0002,,pending,,,,,OCHA COD-AB admin level 2,GE1525
+G0018,Shuakhevi,council,municipality,G0002,,pending,,,,,OCHA COD-AB admin level 2,GE1529
+G0019,Khelvachauri,council,municipality,G0002,,pending,,,,,OCHA COD-AB admin level 2,GE1532
+G0020,Khulo,council,municipality,G0002,,pending,,,,,OCHA COD-AB admin level 2,GE1535
+G0021,Ozurgeti City,council,city,G0003,,pending,,,,,OCHA COD-AB admin level 2,GE2311
+G0022,Lanchkhuti,council,municipality,G0003,,pending,,,,,OCHA COD-AB admin level 2,GE2323
+G0023,Ozurgeti,council,municipality,G0003,,pending,,,,,OCHA COD-AB admin level 2,GE2325
+G0024,Chokhatauri,council,municipality,G0003,,pending,,,,,OCHA COD-AB admin level 2,GE2327
+G0025,Kutaisi,council,city,G0004,,pending,,,,,OCHA COD-AB admin level 2,GE2611
+G0026,Baghdati,council,municipality,G0004,,pending,,,,,OCHA COD-AB admin level 2,GE2623
+G0027,Vani,council,municipality,G0004,,pending,,,,,OCHA COD-AB admin level 2,GE2627
+G0028,Zestaponi,council,municipality,G0004,,pending,,,,,OCHA COD-AB admin level 2,GE2629
+G0029,Terjola,council,municipality,G0004,,pending,,,,,OCHA COD-AB admin level 2,GE2631
+G0030,Samtredia,council,municipality,G0004,,pending,,,,,OCHA COD-AB admin level 2,GE2633
+G0031,Sachkhere,council,municipality,G0004,,pending,,,,,OCHA COD-AB admin level 2,GE2635
+G0032,Tkibuli,council,municipality,G0004,,pending,,,,,OCHA COD-AB admin level 2,GE2636
+G0033,Tskaltubo,council,municipality,G0004,,pending,,,,,OCHA COD-AB admin level 2,GE2638
+G0034,Chiatura,council,municipality,G0004,,pending,,,,,OCHA COD-AB admin level 2,GE2640
+G0035,Kharagauli,council,municipality,G0004,,pending,,,,,OCHA COD-AB admin level 2,GE2642
+G0036,Khoni,council,municipality,G0004,,pending,,,,,OCHA COD-AB admin level 2,GE2644
+G0037,Telavi City,council,city,G0005,,pending,,,,,OCHA COD-AB admin level 2,GE2911
+G0038,Akhmeta,council,municipality,G0005,,pending,,,,,OCHA COD-AB admin level 2,GE2924
+G0039,Gurjaani,council,municipality,G0005,,pending,,,,,OCHA COD-AB admin level 2,GE2926
+G0040,Dedoplistskaro,council,municipality,G0005,,pending,,,,,OCHA COD-AB admin level 2,GE2928
+G0041,Telavi,council,municipality,G0005,,pending,,,,,OCHA COD-AB admin level 2,GE2930
+G0042,Lagodekhi,council,municipality,G0005,,pending,,,,,OCHA COD-AB admin level 2,GE2932
+G0043,Sagarejo,council,municipality,G0005,,pending,,,,,OCHA COD-AB admin level 2,GE2934
+G0044,Sighnaghi,council,municipality,G0005,,pending,,,,,OCHA COD-AB admin level 2,GE2936
+G0045,Kvareli,council,municipality,G0005,,pending,,,,,OCHA COD-AB admin level 2,GE2938
+G0046,Mtskheta City,council,city,G0007,,pending,,,,,OCHA COD-AB admin level 2,GE3211
+G0047,Dusheti,council,municipality,G0007,,pending,,,,,OCHA COD-AB admin level 2,GE3225
+G0048,Tianeti,council,municipality,G0007,,pending,,,,,OCHA COD-AB admin level 2,GE3227
+G0049,Mtskheta,council,municipality,G0007,,pending,,,,,OCHA COD-AB admin level 2,GE3229
+G0050,Kazbegi,council,municipality,G0007,,pending,,,,,OCHA COD-AB admin level 2,GE3231
+G0051,Ambrolauri City,council,city,G0008,,pending,,,,,OCHA COD-AB admin level 2,GE3511
+G0052,Ambrolauri,council,municipality,G0008,,pending,,,,,OCHA COD-AB admin level 2,GE3523
+G0053,Lentekhi,council,municipality,G0008,,pending,,,,,OCHA COD-AB admin level 2,GE3526
+G0054,Oni,council,municipality,G0008,,pending,,,,,OCHA COD-AB admin level 2,GE3529
+G0055,Tsageri,council,municipality,G0008,,pending,,,,,OCHA COD-AB admin level 2,GE3531
+G0056,Zugdidi City,council,city,G0009,,pending,,,,,OCHA COD-AB admin level 2,GE3811
+G0057,Poti,council,city,G0009,,pending,,,,,OCHA COD-AB admin level 2,GE3814
+G0058,Abasha,council,municipality,G0009,,pending,,,,,OCHA COD-AB admin level 2,GE3823
+G0059,Zugdidi,council,municipality,G0009,,pending,,,,,OCHA COD-AB admin level 2,GE3825
+G0060,Martvili,council,municipality,G0009,,pending,,,,,OCHA COD-AB admin level 2,GE3828
+G0061,Mestia,council,municipality,G0009,,pending,,,,,OCHA COD-AB admin level 2,GE3830
+G0062,Senaki,council,municipality,G0009,,pending,,,,,OCHA COD-AB admin level 2,GE3832
+G0063,Chkhorotsku,council,municipality,G0009,,pending,,,,,OCHA COD-AB admin level 2,GE3834
+G0064,Tsalenjikha,council,municipality,G0009,,pending,,,,,OCHA COD-AB admin level 2,GE3836
+G0065,Khobi,council,municipality,G0009,,pending,,,,,OCHA COD-AB admin level 2,GE3838
+G0066,Akhaltsikhe City,council,city,G0010,,pending,,,,,OCHA COD-AB admin level 2,GE4111
+G0067,Adigeni,council,municipality,G0010,,pending,,,,,OCHA COD-AB admin level 2,GE4123
+G0068,Aspindza,council,municipality,G0010,,pending,,,,,OCHA COD-AB admin level 2,GE4125
+G0069,Akhalkalaki,council,municipality,G0010,,pending,,,,,OCHA COD-AB admin level 2,GE4127
+G0070,Akhaltsikhe,council,municipality,G0010,,pending,,,,,OCHA COD-AB admin level 2,GE4129
+G0071,Borjomi,council,municipality,G0010,,pending,,,,,OCHA COD-AB admin level 2,GE4131
+G0072,Ninotsminda,council,municipality,G0010,,pending,,,,,OCHA COD-AB admin level 2,GE4133
+G0073,Rustavi,council,city,G0006,,pending,,,,,OCHA COD-AB admin level 2,GE4411
+G0074,Bolnisi,council,municipality,G0006,,pending,,,,,OCHA COD-AB admin level 2,GE4424
+G0075,Gardabani,council,municipality,G0006,,pending,,,,,OCHA COD-AB admin level 2,GE4426
+G0076,Dmanisi,council,municipality,G0006,,pending,,,,,OCHA COD-AB admin level 2,GE4428
+G0077,Tetritskaro,council,municipality,G0006,,pending,,,,,OCHA COD-AB admin level 2,GE4430
+G0078,Marneuli,council,municipality,G0006,,pending,,,,,OCHA COD-AB admin level 2,GE4432
+G0079,Tsalka,council,municipality,G0006,,pending,,,,,OCHA COD-AB admin level 2,GE4434
+G0080,Gori City,council,city,G0011,,pending,,,,,OCHA COD-AB admin level 2,GE4711
+G0081,Gori,council,municipality,G0011,,pending,,,,,OCHA COD-AB admin level 2,GE4724
+G0082,Kaspi,council,municipality,G0011,,pending,,,,,OCHA COD-AB admin level 2,GE4726
+G0083,Kareli,council,municipality,G0011,,pending,,,,,OCHA COD-AB admin level 2,GE4728
+G0084,Khashuri,council,municipality,G0011,,pending,,,,,OCHA COD-AB admin level 2,GE4731
