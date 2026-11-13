@@ -1,0 +1,6 @@
+actor_id,name,kind,actor_type,other_types,role,affiliation,party,affiliation_actor_id,country,level,location,geo_unit_id,location_source,wikidata_qid,website,status,alive_checked,prominence,notes,added_run,updated,refined
+A0001,John Musinguzi Rujoki,person,legal_tax_professional,,"Commissioner General, Uganda Revenue Authority",,,,Uganda,national,Uganda,G0001,,,,active,y,national,,R001,2026-11-13,
+A0002,Oxfam in Uganda,organisation,ngo_campaign,,,,,,Uganda,national,Uganda,G0001,,,https://uganda.oxfam.org,active,na,national,,R001,2026-11-13,
+A0003,Jane Nalunga,person,campaigner,,"Executive Director, SEATINI Uganda",,,,Uganda,national,Uganda,G0001,,,,active,y,national,,R001,2026-11-13,
+A0004,SEATINI Uganda,organisation,ngo_campaign,,,,,,Uganda,national,Uganda,G0001,,,https://seatiniuganda.org,active,na,national,,R001,2026-11-13,
+A0005,Akina Mama wa Afrika,organisation,ngo_campaign,,,,,,Uganda,national,Uganda,G0001,,Q19893869,https://www.akinamamawaafrika.org,active,na,national,Pan-African feminist organisation based in Kampala.,R001,2026-11-13,

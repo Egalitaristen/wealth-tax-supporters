@@ -1,0 +1,5 @@
+profile_id,actor_id,platform,url,source,checked
+P00001,A0002,website,https://uganda.oxfam.org,actors.csv website column,2026-11-13
+P00002,A0004,website,https://seatiniuganda.org,actors.csv website column,2026-11-13
+P00003,A0005,website,https://www.akinamamawaafrika.org,actors.csv website column,2026-11-13
+P00004,A0005,wikipedia,https://en.wikipedia.org/wiki/Akina_Mama_wa_Afrika,Wikidata Q19893869,2026-11-13

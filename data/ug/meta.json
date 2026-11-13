@@ -1,0 +1,9 @@
+{
+  "name": "Uganda",
+  "iso2": "UG",
+  "lead": "",
+  "status": "in progress",
+  "boundaries": "boundaries.json",
+  "notes": "Seed pass R001 (2026-11-13), national level, English only. Register: the 4 regions and 135 districts (the OCHA layer of 2020; Uganda has more districts and cities today). Supporters: URA Commissioner General John Musinguzi's June 2020 testimony proposing a wealth tax, Oxfam in Uganda, SEATINI Uganda and its executive director Jane Nalunga (February 2022), Akina Mama wa Afrika (2023 pan-African primer). No bill or motion on a wealth tax, no poll. Seats tab: the 12th Parliament, 529 members, from a secondary report of the Electoral Commission figures. Map: OCHA / HDX COD-AB (CC BY-IGO 3.0), official P-codes.",
+  "polls": []
+}
