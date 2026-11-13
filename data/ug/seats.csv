@@ -1,0 +1,9 @@
+seat_id,body_id,party,seats,colour,order
+S0001,B0001,NRM,372,e0b000,1
+S0002,B0001,Independent,68,7f8c8d,2
+S0003,B0001,NUP,49,c0392b,3
+S0004,B0001,UPC,12,2e8b57,4
+S0005,B0001,FDC,9,2e5aac,5
+S0006,B0001,DP,6,1a7a3c,6
+S0007,B0001,Other parties,3,8e44ad,7
+S0008,B0001,UPDF (army),10,34495e,8

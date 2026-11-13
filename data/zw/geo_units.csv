@@ -1,0 +1,103 @@
+geo_unit_id,name,level,unit_type,parent_id,website,sweep_status,swept_run,swept_date,queries_run,hits,notes,code
+G0001,Zimbabwe,national,country,,,pending,,,,,,
+G0002,Bulawayo,region,province,G0001,,pending,,,,,,ZW10
+G0003,Harare,region,province,G0001,,pending,,,,,,ZW19
+G0004,Manicaland,region,province,G0001,,pending,,,,,,ZW11
+G0005,Mashonaland Central,region,province,G0001,,pending,,,,,,ZW12
+G0006,Mashonaland East,region,province,G0001,,pending,,,,,,ZW13
+G0007,Mashonaland West,region,province,G0001,,pending,,,,,,ZW14
+G0008,Masvingo,region,province,G0001,,pending,,,,,,ZW18
+G0009,Matabeleland North,region,province,G0001,,pending,,,,,,ZW15
+G0010,Matabeleland South,region,province,G0001,,pending,,,,,,ZW16
+G0011,Midlands,region,province,G0001,,pending,,,,,,ZW17
+G0012,Bulawayo,council,district,G0002,,pending,,,,,,ZW1021
+G0013,Chitungwiza,council,district,G0003,,pending,,,,,,ZW1922
+G0014,Epworth,council,district,G0003,,pending,,,,,,ZW1923
+G0015,Harare,council,district,G0003,,pending,,,,,,ZW1921
+G0016,Harare Rural,council,district,G0003,,pending,,,,,,ZW1924
+G0017,Buhera,council,district,G0004,,pending,,,,,,ZW1101
+G0018,Chimanimani,council,district,G0004,,pending,,,,,,ZW1102
+G0019,Chipinge,council,district,G0004,,pending,,,,,,ZW1103
+G0020,Chipinge Urban,council,district,G0004,,pending,,,,,,ZW1123
+G0021,Makoni,council,district,G0004,,pending,,,,,,ZW1104
+G0022,Mutare,council,district,G0004,,pending,,,,,,ZW1105
+G0023,Mutare Urban,council,district,G0004,,pending,,,,,,ZW1121
+G0024,Mutasa,council,district,G0004,,pending,,,,,,ZW1106
+G0025,Nyanga,council,district,G0004,,pending,,,,,,ZW1107
+G0026,Rusape,council,district,G0004,,pending,,,,,,ZW1122
+G0027,Bindura,council,district,G0005,,pending,,,,,,ZW1201
+G0028,Bindura Urban,council,district,G0005,,pending,,,,,,ZW1221
+G0029,Centenary/ Muzarabani,council,district,G0005,,pending,,,,,,ZW1202
+G0030,Guruve,council,district,G0005,,pending,,,,,,ZW1203
+G0031,Mazowe,council,district,G0005,,pending,,,,,,ZW1204
+G0032,Mbire,council,district,G0005,,pending,,,,,,ZW1208
+G0033,Mount Darwin,council,district,G0005,,pending,,,,,,ZW1205
+G0034,Mvurwi,council,district,G0005,,pending,,,,,,ZW1209
+G0035,Rushinga,council,district,G0005,,pending,,,,,,ZW1206
+G0036,Shamva,council,district,G0005,,pending,,,,,,ZW1207
+G0037,Chikomba,council,district,G0006,,pending,,,,,,ZW1301
+G0038,Goromonzi,council,district,G0006,,pending,,,,,,ZW1302
+G0039,Hwedza,council,district,G0006,,pending,,,,,,ZW1303
+G0040,Marondera,council,district,G0006,,pending,,,,,,ZW1304
+G0041,Marondera Urban,council,district,G0006,,pending,,,,,,ZW1321
+G0042,Mudzi,council,district,G0006,,pending,,,,,,ZW1305
+G0043,Murehwa,council,district,G0006,,pending,,,,,,ZW1306
+G0044,Mutoko,council,district,G0006,,pending,,,,,,ZW1307
+G0045,Ruwa,council,district,G0006,,pending,,,,,,ZW1326
+G0046,Seke,council,district,G0006,,pending,,,,,,ZW1308
+G0047,Uzumba Maramba Pfungwe,council,district,G0006,,pending,,,,,,ZW1309
+G0048,Chegutu,council,district,G0007,,pending,,,,,,ZW1401
+G0049,Chegutu Urban,council,district,G0007,,pending,,,,,,ZW1423
+G0050,Chinhoyi,council,district,G0007,,pending,,,,,,ZW1421
+G0051,Hurungwe,council,district,G0007,,pending,,,,,,ZW1402
+G0052,Kadoma Urban,council,district,G0007,,pending,,,,,,ZW1403
+G0053,Kariba,council,district,G0007,,pending,,,,,,ZW1404
+G0054,Kariba Urban,council,district,G0007,,pending,,,,,,ZW1424
+G0055,Karoi,council,district,G0007,,pending,,,,,,ZW1426
+G0056,Makonde,council,district,G0007,,pending,,,,,,ZW1405
+G0057,Mhondoro-Ngezi,council,district,G0007,,pending,,,,,,ZW1427
+G0058,Norton,council,district,G0007,,pending,,,,,,ZW1425
+G0059,Sanyati,council,district,G0007,,pending,,,,,,ZW1428
+G0060,Zvimba,council,district,G0007,,pending,,,,,,ZW1406
+G0061,Bikita,council,district,G0008,,pending,,,,,,ZW1801
+G0062,Chiredzi,council,district,G0008,,pending,,,,,,ZW1802
+G0063,Chiredzi Urban,council,district,G0008,,pending,,,,,,ZW1822
+G0064,Chivi,council,district,G0008,,pending,,,,,,ZW1803
+G0065,Gutu,council,district,G0008,,pending,,,,,,ZW1804
+G0066,Masvingo,council,district,G0008,,pending,,,,,,ZW1805
+G0067,Masvingo Urban,council,district,G0008,,pending,,,,,,ZW1821
+G0068,Mwenezi,council,district,G0008,,pending,,,,,,ZW1806
+G0069,Zaka,council,district,G0008,,pending,,,,,,ZW1807
+G0070,Binga,council,district,G0009,,pending,,,,,,ZW1501
+G0071,Bubi,council,district,G0009,,pending,,,,,,ZW1502
+G0072,Hwange,council,district,G0009,,pending,,,,,,ZW1503
+G0073,Hwange Urban,council,district,G0009,,pending,,,,,,ZW1521
+G0074,Lupane,council,district,G0009,,pending,,,,,,ZW1504
+G0075,Nkayi,council,district,G0009,,pending,,,,,,ZW1505
+G0076,Tsholotsho,council,district,G0009,,pending,,,,,,ZW1506
+G0077,Umguza,council,district,G0009,,pending,,,,,,ZW1507
+G0078,Victoria Falls,council,district,G0009,,pending,,,,,,ZW1522
+G0079,Beitbridge,council,district,G0010,,pending,,,,,,ZW1601
+G0080,Beitbridge Urban,council,district,G0010,,pending,,,,,,ZW1622
+G0081,Bulilima,council,district,G0010,,pending,,,,,,ZW1602
+G0082,Gwanda,council,district,G0010,,pending,,,,,,ZW1604
+G0083,Gwanda Urban,council,district,G0010,,pending,,,,,,ZW1621
+G0084,Insiza,council,district,G0010,,pending,,,,,,ZW1605
+G0085,Mangwe,council,district,G0010,,pending,,,,,,ZW1603
+G0086,Matobo,council,district,G0010,,pending,,,,,,ZW1606
+G0087,Plumtree,council,district,G0010,,pending,,,,,,ZW1623
+G0088,Umzingwane,council,district,G0010,,pending,,,,,,ZW1607
+G0089,Chirumhanzu,council,district,G0011,,pending,,,,,,ZW1701
+G0090,Gokwe North,council,district,G0011,,pending,,,,,,ZW1702
+G0091,Gokwe South,council,district,G0011,,pending,,,,,,ZW1703
+G0092,Gokwe South Urban,council,district,G0011,,pending,,,,,,ZW1729
+G0093,Gweru,council,district,G0011,,pending,,,,,,ZW1704
+G0094,Gweru Urban,council,district,G0011,,pending,,,,,,ZW1721
+G0095,Kwekwe,council,district,G0011,,pending,,,,,,ZW1705
+G0096,Kwekwe Urban,council,district,G0011,,pending,,,,,,ZW1722
+G0097,Mberengwa,council,district,G0011,,pending,,,,,,ZW1706
+G0098,Redcliff,council,district,G0011,,pending,,,,,,ZW1723
+G0099,Shurugwi,council,district,G0011,,pending,,,,,,ZW1707
+G0100,Shurugwi Town,council,district,G0011,,pending,,,,,,ZW1728
+G0101,Zvishavane,council,district,G0011,,pending,,,,,,ZW1708
+G0102,Zvishavane Urban,council,district,G0011,,pending,,,,,,ZW1725
