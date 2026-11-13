@@ -1,0 +1,188 @@
+geo_unit_id,name,level,unit_type,parent_id,website,sweep_status,swept_run,swept_date,queries_run,hits,notes,code
+G0001,Senegal,national,country,,,in_progress,R001,2026-11-13,,,"Seed pass R001: national legislature, government, civil society.",SN
+G0002,Assemblée nationale,national,legislature,G0001,,in_progress,R001,2026-11-13,,,Single chamber (165 deputies); the Senate was abolished in 2021.,
+G0003,Dakar,region,region,G0001,,pending,,,,,Région (OCHA COD-AB admin level 1).,SN01
+G0004,Diourbel,region,region,G0001,,pending,,,,,Région (OCHA COD-AB admin level 1).,SN02
+G0005,Fatick,region,region,G0001,,pending,,,,,Région (OCHA COD-AB admin level 1).,SN03
+G0006,Kaffrine,region,region,G0001,,pending,,,,,Région (OCHA COD-AB admin level 1).,SN04
+G0007,Kaolack,region,region,G0001,,pending,,,,,Région (OCHA COD-AB admin level 1).,SN05
+G0008,Kédougou,region,region,G0001,,pending,,,,,Région (OCHA COD-AB admin level 1).,SN06
+G0009,Kolda,region,region,G0001,,pending,,,,,Région (OCHA COD-AB admin level 1).,SN07
+G0010,Louga,region,region,G0001,,pending,,,,,Région (OCHA COD-AB admin level 1).,SN08
+G0011,Matam,region,region,G0001,,pending,,,,,Région (OCHA COD-AB admin level 1).,SN09
+G0012,Saint-Louis,region,region,G0001,,pending,,,,,Région (OCHA COD-AB admin level 1).,SN10
+G0013,Sédhiou,region,region,G0001,,pending,,,,,Région (OCHA COD-AB admin level 1).,SN11
+G0014,Tambacounda,region,region,G0001,,pending,,,,,Région (OCHA COD-AB admin level 1).,SN12
+G0015,Thiès,region,region,G0001,,pending,,,,,Région (OCHA COD-AB admin level 1).,SN13
+G0016,Ziguinchor,region,region,G0001,,pending,,,,,Région (OCHA COD-AB admin level 1).,SN14
+G0017,Dakar,county,department,G0003,,pending,,,,,Département (OCHA COD-AB admin level 2).,SN0101
+G0018,Guédiawaye,county,department,G0003,,pending,,,,,Département (OCHA COD-AB admin level 2).,SN0102
+G0019,Pikine,county,department,G0003,,pending,,,,,Département (OCHA COD-AB admin level 2).,SN0103
+G0020,Rufisque,county,department,G0003,,pending,,,,,Département (OCHA COD-AB admin level 2).,SN0104
+G0021,Keur Massar,county,department,G0003,,pending,,,,,Département (OCHA COD-AB admin level 2).,SN0105
+G0022,Bambey,county,department,G0004,,pending,,,,,Département (OCHA COD-AB admin level 2).,SN0201
+G0023,Diourbel,county,department,G0004,,pending,,,,,Département (OCHA COD-AB admin level 2).,SN0202
+G0024,Mbacké,county,department,G0004,,pending,,,,,Département (OCHA COD-AB admin level 2).,SN0203
+G0025,Fatick,county,department,G0005,,pending,,,,,Département (OCHA COD-AB admin level 2).,SN0301
+G0026,Foundiougne,county,department,G0005,,pending,,,,,Département (OCHA COD-AB admin level 2).,SN0302
+G0027,Gossas,county,department,G0005,,pending,,,,,Département (OCHA COD-AB admin level 2).,SN0303
+G0028,Birkelane,county,department,G0006,,pending,,,,,Département (OCHA COD-AB admin level 2).,SN0401
+G0029,Kaffrine,county,department,G0006,,pending,,,,,Département (OCHA COD-AB admin level 2).,SN0402
+G0030,Koungheul,county,department,G0006,,pending,,,,,Département (OCHA COD-AB admin level 2).,SN0403
+G0031,Malem-Hodar,county,department,G0006,,pending,,,,,Département (OCHA COD-AB admin level 2).,SN0404
+G0032,Guinguinéo,county,department,G0007,,pending,,,,,Département (OCHA COD-AB admin level 2).,SN0501
+G0033,Kaolack,county,department,G0007,,pending,,,,,Département (OCHA COD-AB admin level 2).,SN0502
+G0034,Nioro du Rip,county,department,G0007,,pending,,,,,Département (OCHA COD-AB admin level 2).,SN0503
+G0035,Kédougou,county,department,G0008,,pending,,,,,Département (OCHA COD-AB admin level 2).,SN0601
+G0036,Salémata,county,department,G0008,,pending,,,,,Département (OCHA COD-AB admin level 2).,SN0602
+G0037,Saraya,county,department,G0008,,pending,,,,,Département (OCHA COD-AB admin level 2).,SN0603
+G0038,Kolda,county,department,G0009,,pending,,,,,Département (OCHA COD-AB admin level 2).,SN0701
+G0039,Médina-Yorofoula,county,department,G0009,,pending,,,,,Département (OCHA COD-AB admin level 2).,SN0702
+G0040,Vélingara,county,department,G0009,,pending,,,,,Département (OCHA COD-AB admin level 2).,SN0703
+G0041,Kébémer,county,department,G0010,,pending,,,,,Département (OCHA COD-AB admin level 2).,SN0801
+G0042,Linguère,county,department,G0010,,pending,,,,,Département (OCHA COD-AB admin level 2).,SN0802
+G0043,Louga,county,department,G0010,,pending,,,,,Département (OCHA COD-AB admin level 2).,SN0803
+G0044,Kanel,county,department,G0011,,pending,,,,,Département (OCHA COD-AB admin level 2).,SN0901
+G0045,Matam,county,department,G0011,,pending,,,,,Département (OCHA COD-AB admin level 2).,SN0902
+G0046,Ranérou,county,department,G0011,,pending,,,,,Département (OCHA COD-AB admin level 2).,SN0903
+G0047,Dagana,county,department,G0012,,pending,,,,,Département (OCHA COD-AB admin level 2).,SN1001
+G0048,Podor,county,department,G0012,,pending,,,,,Département (OCHA COD-AB admin level 2).,SN1002
+G0049,Saint Louis,county,department,G0012,,pending,,,,,Département (OCHA COD-AB admin level 2).,SN1003
+G0050,Bounkiling,county,department,G0013,,pending,,,,,Département (OCHA COD-AB admin level 2).,SN1101
+G0051,Goudomp,county,department,G0013,,pending,,,,,Département (OCHA COD-AB admin level 2).,SN1102
+G0052,Sédhiou,county,department,G0013,,pending,,,,,Département (OCHA COD-AB admin level 2).,SN1103
+G0053,Bakel,county,department,G0014,,pending,,,,,Département (OCHA COD-AB admin level 2).,SN1201
+G0054,Goudiry,county,department,G0014,,pending,,,,,Département (OCHA COD-AB admin level 2).,SN1202
+G0055,Koumpentoum,county,department,G0014,,pending,,,,,Département (OCHA COD-AB admin level 2).,SN1203
+G0056,Tambacounda,county,department,G0014,,pending,,,,,Département (OCHA COD-AB admin level 2).,SN1204
+G0057,Mbour,county,department,G0015,,pending,,,,,Département (OCHA COD-AB admin level 2).,SN1301
+G0058,Thiès,county,department,G0015,,pending,,,,,Département (OCHA COD-AB admin level 2).,SN1302
+G0059,Tivaouane,county,department,G0015,,pending,,,,,Département (OCHA COD-AB admin level 2).,SN1303
+G0060,Bignona,county,department,G0016,,pending,,,,,Département (OCHA COD-AB admin level 2).,SN1401
+G0061,Oussouye,county,department,G0016,,pending,,,,,Département (OCHA COD-AB admin level 2).,SN1402
+G0062,Ziguinchor,county,department,G0016,,pending,,,,,Département (OCHA COD-AB admin level 2).,SN1403
+G0063,Almadies,council,arrondissement,G0017,,pending,,,,,Arrondissement (OCHA COD-AB admin level 3).,SN010101
+G0064,Grand Dakar,council,arrondissement,G0017,,pending,,,,,Arrondissement (OCHA COD-AB admin level 3).,SN010102
+G0065,Parcelles Assainies,council,arrondissement,G0017,,pending,,,,,Arrondissement (OCHA COD-AB admin level 3).,SN010103
+G0066,Dakar Plateau,council,arrondissement,G0017,,pending,,,,,Arrondissement (OCHA COD-AB admin level 3).,SN010104
+G0067,Guédiawaye,council,arrondissement,G0018,,pending,,,,,Arrondissement (OCHA COD-AB admin level 3).,SN010201
+G0068,Thiaroye,council,arrondissement,G0019,,pending,,,,,Arrondissement (OCHA COD-AB admin level 3).,SN010302
+G0069,Pikine Dagoudane,council,arrondissement,G0019,,pending,,,,,Arrondissement (OCHA COD-AB admin level 3).,SN010303
+G0070,Sangalkam,council,arrondissement,G0020,,pending,,,,,Arrondissement (OCHA COD-AB admin level 3).,SN010401
+G0071,Rufisque-Est,council,arrondissement,G0020,,pending,,,,,Arrondissement (OCHA COD-AB admin level 3).,SN010402
+G0072,Diamniadio,council,arrondissement,G0020,,pending,,,,,Arrondissement (OCHA COD-AB admin level 3).,SN010403
+G0073,N/A,council,arrondissement,G0020,,pending,,,,,Arrondissement (OCHA COD-AB admin level 3).,SN010404
+G0074,Jaxaay,council,arrondissement,G0021,,pending,,,,,Arrondissement (OCHA COD-AB admin level 3).,SN010501
+G0075,Malika,council,arrondissement,G0021,,pending,,,,,Arrondissement (OCHA COD-AB admin level 3).,SN010502
+G0076,Yeumbeul,council,arrondissement,G0021,,pending,,,,,Arrondissement (OCHA COD-AB admin level 3).,SN010503
+G0077,Lambaye,council,arrondissement,G0022,,pending,,,,,Arrondissement (OCHA COD-AB admin level 3).,SN020101
+G0078,Ngoye,council,arrondissement,G0022,,pending,,,,,Arrondissement (OCHA COD-AB admin level 3).,SN020102
+G0079,Baba Garage,council,arrondissement,G0022,,pending,,,,,Arrondissement (OCHA COD-AB admin level 3).,SN020103
+G0080,Ndoulo,council,arrondissement,G0023,,pending,,,,,Arrondissement (OCHA COD-AB admin level 3).,SN020201
+G0081,Ndindy,council,arrondissement,G0023,,pending,,,,,Arrondissement (OCHA COD-AB admin level 3).,SN020202
+G0082,Ndame,council,arrondissement,G0024,,pending,,,,,Arrondissement (OCHA COD-AB admin level 3).,SN020301
+G0083,Taïf,council,arrondissement,G0024,,pending,,,,,Arrondissement (OCHA COD-AB admin level 3).,SN020302
+G0084,Kaèl,council,arrondissement,G0024,,pending,,,,,Arrondissement (OCHA COD-AB admin level 3).,SN020303
+G0085,Ndiob,council,arrondissement,G0025,,pending,,,,,Arrondissement (OCHA COD-AB admin level 3).,SN030101
+G0086,Fimla,council,arrondissement,G0025,,pending,,,,,Arrondissement (OCHA COD-AB admin level 3).,SN030102
+G0087,Tataguine,council,arrondissement,G0025,,pending,,,,,Arrondissement (OCHA COD-AB admin level 3).,SN030103
+G0088,Niakhar,council,arrondissement,G0025,,pending,,,,,Arrondissement (OCHA COD-AB admin level 3).,SN030104
+G0089,Djilor,council,arrondissement,G0026,,pending,,,,,Arrondissement (OCHA COD-AB admin level 3).,SN030201
+G0090,Toubakouta,council,arrondissement,G0026,,pending,,,,,Arrondissement (OCHA COD-AB admin level 3).,SN030202
+G0091,Niodior,council,arrondissement,G0026,,pending,,,,,Arrondissement (OCHA COD-AB admin level 3).,SN030203
+G0092,Colobane,council,arrondissement,G0027,,pending,,,,,Arrondissement (OCHA COD-AB admin level 3).,SN030301
+G0093,Ouadiour,council,arrondissement,G0027,,pending,,,,,Arrondissement (OCHA COD-AB admin level 3).,SN030302
+G0094,Mabo,council,arrondissement,G0028,,pending,,,,,Arrondissement (OCHA COD-AB admin level 3).,SN040101
+G0095,Keur Mboucki,council,arrondissement,G0028,,pending,,,,,Arrondissement (OCHA COD-AB admin level 3).,SN040102
+G0096,Gnibi,council,arrondissement,G0029,,pending,,,,,Arrondissement (OCHA COD-AB admin level 3).,SN040201
+G0097,Katakel,council,arrondissement,G0029,,pending,,,,,Arrondissement (OCHA COD-AB admin level 3).,SN040202
+G0098,Missira Wadène,council,arrondissement,G0030,,pending,,,,,Arrondissement (OCHA COD-AB admin level 3).,SN040301
+G0099,Ida Mouride,council,arrondissement,G0030,,pending,,,,,Arrondissement (OCHA COD-AB admin level 3).,SN040302
+G0100,Lour Escale,council,arrondissement,G0030,,pending,,,,,Arrondissement (OCHA COD-AB admin level 3).,SN040303
+G0101,Darou Minam 2,council,arrondissement,G0031,,pending,,,,,Arrondissement (OCHA COD-AB admin level 3).,SN040401
+G0102,Sagna,council,arrondissement,G0031,,pending,,,,,Arrondissement (OCHA COD-AB admin level 3).,SN040402
+G0103,Mbadakhoune,council,arrondissement,G0032,,pending,,,,,Arrondissement (OCHA COD-AB admin level 3).,SN050101
+G0104,Nguélou,council,arrondissement,G0032,,pending,,,,,Arrondissement (OCHA COD-AB admin level 3).,SN050102
+G0105,Ngothie,council,arrondissement,G0033,,pending,,,,,Arrondissement (OCHA COD-AB admin level 3).,SN050201
+G0106,Koumbal,council,arrondissement,G0033,,pending,,,,,Arrondissement (OCHA COD-AB admin level 3).,SN050202
+G0107,Ndiédiéng,council,arrondissement,G0033,,pending,,,,,Arrondissement (OCHA COD-AB admin level 3).,SN050203
+G0108,Paoscoto,council,arrondissement,G0034,,pending,,,,,Arrondissement (OCHA COD-AB admin level 3).,SN050301
+G0109,Wak Ngouna,council,arrondissement,G0034,,pending,,,,,Arrondissement (OCHA COD-AB admin level 3).,SN050302
+G0110,Médina Sabakh,council,arrondissement,G0034,,pending,,,,,Arrondissement (OCHA COD-AB admin level 3).,SN050303
+G0111,Bandafassi,council,arrondissement,G0035,,pending,,,,,Arrondissement (OCHA COD-AB admin level 3).,SN060101
+G0112,Fongolembi,council,arrondissement,G0035,,pending,,,,,Arrondissement (OCHA COD-AB admin level 3).,SN060102
+G0113,Dar Salam,council,arrondissement,G0036,,pending,,,,,Arrondissement (OCHA COD-AB admin level 3).,SN060201
+G0114,Dakatéli,council,arrondissement,G0036,,pending,,,,,Arrondissement (OCHA COD-AB admin level 3).,SN060202
+G0115,Sabodala,council,arrondissement,G0037,,pending,,,,,Arrondissement (OCHA COD-AB admin level 3).,SN060301
+G0116,Bembou,council,arrondissement,G0037,,pending,,,,,Arrondissement (OCHA COD-AB admin level 3).,SN060302
+G0117,Mampatim,council,arrondissement,G0038,,pending,,,,,Arrondissement (OCHA COD-AB admin level 3).,SN070101
+G0118,Saré Bidji,council,arrondissement,G0038,,pending,,,,,Arrondissement (OCHA COD-AB admin level 3).,SN070102
+G0119,Dioulacolon,council,arrondissement,G0038,,pending,,,,,Arrondissement (OCHA COD-AB admin level 3).,SN070103
+G0120,Ndorna,council,arrondissement,G0039,,pending,,,,,Arrondissement (OCHA COD-AB admin level 3).,SN070201
+G0121,Niaming,council,arrondissement,G0039,,pending,,,,,Arrondissement (OCHA COD-AB admin level 3).,SN070202
+G0122,Fafacourou,council,arrondissement,G0039,,pending,,,,,Arrondissement (OCHA COD-AB admin level 3).,SN070203
+G0123,Bonconto,council,arrondissement,G0040,,pending,,,,,Arrondissement (OCHA COD-AB admin level 3).,SN070301
+G0124,Pakour,council,arrondissement,G0040,,pending,,,,,Arrondissement (OCHA COD-AB admin level 3).,SN070302
+G0125,Saré Coly Sallé,council,arrondissement,G0040,,pending,,,,,Arrondissement (OCHA COD-AB admin level 3).,SN070303
+G0126,Ndande,council,arrondissement,G0041,,pending,,,,,Arrondissement (OCHA COD-AB admin level 3).,SN080101
+G0127,Darou Mousty,council,arrondissement,G0041,,pending,,,,,Arrondissement (OCHA COD-AB admin level 3).,SN080102
+G0128,Sagata Geth,council,arrondissement,G0041,,pending,,,,,Arrondissement (OCHA COD-AB admin level 3).,SN080103
+G0129,Yang-Yang,council,arrondissement,G0042,,pending,,,,,Arrondissement (OCHA COD-AB admin level 3).,SN080201
+G0130,Sagata Diolof,council,arrondissement,G0042,,pending,,,,,Arrondissement (OCHA COD-AB admin level 3).,SN080202
+G0131,Barkédji,council,arrondissement,G0042,,pending,,,,,Arrondissement (OCHA COD-AB admin level 3).,SN080203
+G0132,Dodji,council,arrondissement,G0042,,pending,,,,,Arrondissement (OCHA COD-AB admin level 3).,SN080204
+G0133,Keur Momar Sarr,council,arrondissement,G0043,,pending,,,,,Arrondissement (OCHA COD-AB admin level 3).,SN080301
+G0134,Koki,council,arrondissement,G0043,,pending,,,,,Arrondissement (OCHA COD-AB admin level 3).,SN080302
+G0135,Mbédiène,council,arrondissement,G0043,,pending,,,,,Arrondissement (OCHA COD-AB admin level 3).,SN080303
+G0136,Sakal,council,arrondissement,G0043,,pending,,,,,Arrondissement (OCHA COD-AB admin level 3).,SN080304
+G0137,Ouro Sidi,council,arrondissement,G0044,,pending,,,,,Arrondissement (OCHA COD-AB admin level 3).,SN090101
+G0138,Orkadiéré,council,arrondissement,G0044,,pending,,,,,Arrondissement (OCHA COD-AB admin level 3).,SN090102
+G0139,Ogo,council,arrondissement,G0045,,pending,,,,,Arrondissement (OCHA COD-AB admin level 3).,SN090201
+G0140,Agnam Civol,council,arrondissement,G0045,,pending,,,,,Arrondissement (OCHA COD-AB admin level 3).,SN090202
+G0141,Vélingara,council,arrondissement,G0046,,pending,,,,,Arrondissement (OCHA COD-AB admin level 3).,SN090301
+G0142,Ndiaye Ngènt,council,arrondissement,G0047,,pending,,,,,Arrondissement (OCHA COD-AB admin level 3).,SN100101
+G0143,Mbane,council,arrondissement,G0047,,pending,,,,,Arrondissement (OCHA COD-AB admin level 3).,SN100102
+G0144,Gamadji Sarré,council,arrondissement,G0048,,pending,,,,,Arrondissement (OCHA COD-AB admin level 3).,SN100201
+G0145,Thillé Boubakar,council,arrondissement,G0048,,pending,,,,,Arrondissement (OCHA COD-AB admin level 3).,SN100202
+G0146,Saldé,council,arrondissement,G0048,,pending,,,,,Arrondissement (OCHA COD-AB admin level 3).,SN100203
+G0147,Cas Cas,council,arrondissement,G0048,,pending,,,,,Arrondissement (OCHA COD-AB admin level 3).,SN100204
+G0148,Rao,council,arrondissement,G0049,,pending,,,,,Arrondissement (OCHA COD-AB admin level 3).,SN100301
+G0149,Bona,council,arrondissement,G0050,,pending,,,,,Arrondissement (OCHA COD-AB admin level 3).,SN110101
+G0150,Bogal,council,arrondissement,G0050,,pending,,,,,Arrondissement (OCHA COD-AB admin level 3).,SN110102
+G0151,Diaroumé,council,arrondissement,G0050,,pending,,,,,Arrondissement (OCHA COD-AB admin level 3).,SN110103
+G0152,Simbandi Brassou,council,arrondissement,G0051,,pending,,,,,Arrondissement (OCHA COD-AB admin level 3).,SN110201
+G0153,Djibanar,council,arrondissement,G0051,,pending,,,,,Arrondissement (OCHA COD-AB admin level 3).,SN110202
+G0154,Karantaba,council,arrondissement,G0051,,pending,,,,,Arrondissement (OCHA COD-AB admin level 3).,SN110203
+G0155,Diendé,council,arrondissement,G0052,,pending,,,,,Arrondissement (OCHA COD-AB admin level 3).,SN110301
+G0156,Djibabouya,council,arrondissement,G0052,,pending,,,,,Arrondissement (OCHA COD-AB admin level 3).,SN110302
+G0157,Djirédji,council,arrondissement,G0052,,pending,,,,,Arrondissement (OCHA COD-AB admin level 3).,SN110303
+G0158,Kéniéba,council,arrondissement,G0053,,pending,,,,,Arrondissement (OCHA COD-AB admin level 3).,SN120101
+G0159,Moudéri,council,arrondissement,G0053,,pending,,,,,Arrondissement (OCHA COD-AB admin level 3).,SN120102
+G0160,Bellé,council,arrondissement,G0053,,pending,,,,,Arrondissement (OCHA COD-AB admin level 3).,SN120103
+G0161,Dianké Makan,council,arrondissement,G0054,,pending,,,,,Arrondissement (OCHA COD-AB admin level 3).,SN120201
+G0162,Koular,council,arrondissement,G0054,,pending,,,,,Arrondissement (OCHA COD-AB admin level 3).,SN120202
+G0163,Bala,council,arrondissement,G0054,,pending,,,,,Arrondissement (OCHA COD-AB admin level 3).,SN120203
+G0164,Bouinguel Bamba,council,arrondissement,G0054,,pending,,,,,Arrondissement (OCHA COD-AB admin level 3).,SN120204
+G0165,Koutiaba Wolof,council,arrondissement,G0055,,pending,,,,,Arrondissement (OCHA COD-AB admin level 3).,SN120301
+G0166,Bamba Tialène,council,arrondissement,G0055,,pending,,,,,Arrondissement (OCHA COD-AB admin level 3).,SN120302
+G0167,Missira,council,arrondissement,G0056,,pending,,,,,Arrondissement (OCHA COD-AB admin level 3).,SN120401
+G0168,Makacoutibantang,council,arrondissement,G0056,,pending,,,,,Arrondissement (OCHA COD-AB admin level 3).,SN120402
+G0169,Koussanar,council,arrondissement,G0056,,pending,,,,,Arrondissement (OCHA COD-AB admin level 3).,SN120403
+G0170,Séssène,council,arrondissement,G0057,,pending,,,,,Arrondissement (OCHA COD-AB admin level 3).,SN130101
+G0171,Sindia,council,arrondissement,G0057,,pending,,,,,Arrondissement (OCHA COD-AB admin level 3).,SN130102
+G0172,Fissel,council,arrondissement,G0057,,pending,,,,,Arrondissement (OCHA COD-AB admin level 3).,SN130103
+G0173,Keur Moussa,council,arrondissement,G0058,,pending,,,,,Arrondissement (OCHA COD-AB admin level 3).,SN130201
+G0174,Thiénaba,council,arrondissement,G0058,,pending,,,,,Arrondissement (OCHA COD-AB admin level 3).,SN130202
+G0175,Noto,council,arrondissement,G0058,,pending,,,,,Arrondissement (OCHA COD-AB admin level 3).,SN130203
+G0176,Niakhène,council,arrondissement,G0059,,pending,,,,,Arrondissement (OCHA COD-AB admin level 3).,SN130301
+G0177,Pambal,council,arrondissement,G0059,,pending,,,,,Arrondissement (OCHA COD-AB admin level 3).,SN130302
+G0178,Méouane,council,arrondissement,G0059,,pending,,,,,Arrondissement (OCHA COD-AB admin level 3).,SN130303
+G0179,Mérina Dakhar,council,arrondissement,G0059,,pending,,,,,Arrondissement (OCHA COD-AB admin level 3).,SN130304
+G0180,Kataba 1,council,arrondissement,G0060,,pending,,,,,Arrondissement (OCHA COD-AB admin level 3).,SN140101
+G0181,Tanghori,council,arrondissement,G0060,,pending,,,,,Arrondissement (OCHA COD-AB admin level 3).,SN140102
+G0182,Tendouck,council,arrondissement,G0060,,pending,,,,,Arrondissement (OCHA COD-AB admin level 3).,SN140103
+G0183,Sindian,council,arrondissement,G0060,,pending,,,,,Arrondissement (OCHA COD-AB admin level 3).,SN140104
+G0184,Loudia Wolof,council,arrondissement,G0061,,pending,,,,,Arrondissement (OCHA COD-AB admin level 3).,SN140201
+G0185,Cabrousse,council,arrondissement,G0061,,pending,,,,,Arrondissement (OCHA COD-AB admin level 3).,SN140202
+G0186,Niaguis,council,arrondissement,G0062,,pending,,,,,Arrondissement (OCHA COD-AB admin level 3).,SN140301
+G0187,Niassia,council,arrondissement,G0062,,pending,,,,,Arrondissement (OCHA COD-AB admin level 3).,SN140302

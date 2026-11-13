@@ -1,0 +1,9 @@
+{
+  "name": "Senegal",
+  "iso2": "SN",
+  "lead": "",
+  "status": "in progress",
+  "boundaries": "boundaries.json",
+  "notes": "Depth: seed pass R001 (2026-11-13). Senegal has no tax on net wealth and no wealth-tax bill or party proposal was found; the 2025 reforms (tax code law 2025-17, 2026 finance law) tax transfers, gambling, tobacco, influencers and income. The one supporter is former prime minister Aminata Touré, who called for higher taxes on wealth and a minimum tax on the super-rich at the Vatican/ICRICT event of 13 February 2025. Geography: root, the Assemblée nationale, 14 regions, 46 departments and 125 arrondissements (OCHA COD-AB, CC BY-IGO, P-codes); the elected communes (about 550) are not loaded because no open map with official codes was found. Seats tab: the Assemblée nationale (165) by list from assemblee.sn. No poll on a wealth tax found (Afrobarometer 2021 asks about higher rates for the rich and is not used). Unions, the Pastef programme text and Wolof-language press are not searched.",
+  "polls": []
+}
