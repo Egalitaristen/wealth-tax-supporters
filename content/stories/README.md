@@ -49,7 +49,17 @@ Stable URLs: `/<folder>#<anchor>` and `/<folder>/story#<anchor>`.
 
 ## Writing
 
-Read `STYLE.md` before writing or editing a story; it points to the Humanizer skill and lists the house rules.
+Read `STYLE.md` before writing or editing a story; it points to the Humanizer skill, lists the house rules and sets out what we learned from the first stories (start from the register's data and primary sources, a law that has not passed is not a law, polls as whole percentages, dates go stale).
+
+### Before you write a story
+
+1. Read the country's files: `data/<cc>/meta.json` (polls, notes), `actors.csv` and `evidence.csv` (who backs it, with sources), `documents.csv`, `bodies.csv` and `seats.csv`, the records guide `skill/references/records/<cc>.md` if there is one, and the country's row in `data/wealth_tax_status.csv`.
+2. Read its bills and reports in `data/resources.json`; link a bill as `/resources/<slug>` and a poll as `/resources/<country>-poll-<pollster>-<year>`.
+3. Open the primary sources and check every number against them. Put each in `sources` with its `https` url.
+4. Decide what the country's status is, as the law stands today: has a tax in force (gold), had one (silver), or neither. A bill that has not passed is a bill. Do not change `data/wealth_tax_status.csv` in a story pull request unless the law is enacted and published, and then say so in the description.
+5. Write, run the Humanizer pass, build with `python scripts/build_site.py --strict-links`, look at the page in the preview, and open the pull request as a draft with the list of anything you could not verify.
+
+A new country's story may follow a thin register; write what is verified, and open an issue "<Country>: grow the register" with the leads left.
 
 ## Layouts
 

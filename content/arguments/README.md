@@ -83,7 +83,9 @@ what the build wrote. `--strict-links` turns the link report into a failure.
 
 ## Writing
 
-`STYLE.md` points to the house rules in `content/stories/STYLE.md`; they apply to arguments unchanged.
+`STYLE.md` points to the house rules in `content/stories/STYLE.md`; they apply to arguments unchanged, and it adds what we learned writing the arguments: answer an objection with the mechanism and not a symptom, one concrete case beats three general claims, derived numbers are computed from sourced ones, the pillar page's anchors are stable, and the share card's `answer` has to fit four lines (about 170 characters).
+
+An objection page should answer one objection with evidence from at least two countries or two kinds of source where it can, link back to the pillar page (`/arguments/why-tax-wealth#<anchor>`), and use charts only for numbers that are in its own `sources`. The pillar page is the model: read `why-tax-wealth.md` before writing a new argument.
 
 ## Checking a page quickly
 
