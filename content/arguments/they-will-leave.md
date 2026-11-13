@@ -1,5 +1,5 @@
 ---
-title: A fortune is shares in companies that stay put, and Norway lost about 2% of its wealth tax to everyone who left while the tax raised 72% more
+title: Norway lost about 2% of its wealth tax revenue to everyone who left, and the tax raised 72% more
 kind: argument
 objection: "The rich will just leave."
 answer: Very few move, and what they take is small: about 2% of Norway's wealth tax. Exit taxes follow leavers for years, and a rich person who pays nothing was never worth keeping.
@@ -91,11 +91,11 @@ charts:
   - id: france-leavers
     type: bars
     title: France, what leaving cost and what repeal cost, million euros
-    desc: The households that left France in 2021 had paid 3.8 million euros of the wealth tax on real estate in 2020, 0.2% of the tax. Replacing the wealth tax with a tax on real estate alone cost the state about 4,500 million euros in 2022.
-    caption: Tax paid in 2020 by the households that left in 2021 (the tax on real estate that replaced the wealth tax), and the committee's estimate of the revenue lost in 2022 by replacing the wealth tax with it.[8]
+    desc: The households that left France in 2021 had paid 3.8 million euros of the wealth tax on real estate in 2020, 0.2% of the tax. Replacing the wealth tax with a tax on real estate alone cost the state about 3,100 million euros in 2018 and about 4,500 million in 2022.
+    caption: Tax paid in 2020 by the households that left in 2021 (the tax on real estate that replaced the wealth tax), and the committee's estimates of the revenue lost in 2018 and 2022 by replacing the wealth tax with it (the wealth tax raised €4.2 billion in 2017).[8]
     unit: " million"
     max: 4500
-    data: Paid by the households that left in 2021|3.8|ink|€3.8m; Lost in 2022 by repealing the wealth tax|4500|signal|€4,500m
+    data: Paid by the households that left in 2021|3.8|ink|€3.8m; Lost in 2018 by replacing the wealth tax|3100|signal|€3,100m; Lost in 2022 by replacing the wealth tax|4500|signal|€4,500m
 ---
 A billionaire's fortune is not a pile of money that fits in a suitcase. It is shares in companies: factories, shops, software, jobs. In Sweden, 37% of the top 0.1% of the wealth ladder own a company, and the firms owned by the top 2% employ 9.2% of everyone in the country.[9] A person can move to Switzerland. The company cannot. Its workers, its customers and the law it lives under stay where they are, and so does the profit the company makes.
 
@@ -131,7 +131,7 @@ Take Norway. Had no one left, the receipts would have risen 75% between 2021 and
 
 {{chart: what-left}}
 
-France shows the same thing from the other side. The households that left in 2021 had paid €3.8 million of the real estate tax in 2020, 0.2% of what it raised. The average bill of a household that left was €14,000.[8] Replacing the wealth tax with that tax cost the state about €4.5 billion in 2022, by the state's own committee.[8] France gave up billions to stop a leak of millions.
+France shows the same thing from the other side. The households that left in 2021 had paid €3.8 million of the real estate tax in 2020, 0.2% of what it raised. The average bill of a household that left was €14,000.[8] Replacing the wealth tax with that tax cost the state about €3.1 billion in 2018, the first year, when the wealth tax had raised €4.2 billion in 2017. By 2022 the state's own evaluation committee put the loss at €4.5 billion: it estimates the old tax would have raised €6.3 billion that year, against the €1.83 billion the real estate tax raised.[8] France gave up billions to stop a leak of millions.
 
 {{chart: france-leavers}}
 
