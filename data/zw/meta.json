@@ -1,0 +1,9 @@
+{
+  "name": "Zimbabwe",
+  "iso2": "ZW",
+  "lead": "",
+  "status": "in progress",
+  "boundaries": "boundaries.json",
+  "notes": "Seed pass R001 (2026-11-13), national level, English only. Register: the 10 provinces and 91 districts (the OCHA layer of 2018; it includes urban districts). Supporters: Fight Inequality Alliance Zimbabwe and three of its spokespeople (2021 to 2025), Oxfam in Southern Africa (January 2022 estimate), and MP Mathew Nyashanu (Finance Bill debate, December 2022). The government's own 'wealth tax' (Finance Act 2023, from 1 January 2024) is a tax on high-value homes and is excluded; its collection has not begun. No poll. Seats tab: National Assembly 194 ZANU-PF and 86 CCC, from a news report of June 2026 (the Parliament's own list could not be read). Map: OCHA / HDX COD-AB (CC BY-IGO 3.0), official P-codes.",
+  "polls": []
+}
