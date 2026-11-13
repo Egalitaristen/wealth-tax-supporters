@@ -1,20 +1,20 @@
 ---
-title: The Constitution tells Congress how to draft a wealth tax, and courts abroad have upheld them
+title: The Constitution tells Congress how to draft a wealth tax, and no court abroad has ruled one forbidden
 kind: argument
 objection: "A wealth tax is unconstitutional."
-answer: The US Constitution does not ban a wealth tax; it sets a sharing rule Congress can draft around. Courts abroad upheld wealth taxes and asked only for fixes.
+answer: The US Constitution sets a sharing rule for direct taxes that Congress can draft around. No court abroad has held taxing wealth forbidden; flaws found were of design.
 standfirst: Article I says a direct tax must be divided among the states by population, and every other tax only has to be the same everywhere. Congress has used both roads. The Supreme Court has never ruled on a tax on net wealth, and in 2024 it said so. Courts in Germany, France, Spain, Switzerland and Colombia faced wealth taxes, and none of them ruled the idea out.
 updated: 2026-11-13
 layout: article
 status: draft
 card_figure: "5"
-card_label: Property taxes Congress passed under the Constitution's sharing rule. None was ever challenged as unconstitutional.
+card_label: Apportioned property taxes Congress passed under the Constitution's sharing rule. A study of the cases finds none was ever challenged as unconstitutional.
 facts:
   - label: What Article I says about direct taxes
     value: They must be divided among the states by population
     source: 1
   - label: Apportioned property taxes Congress passed
-    value: Five, from 1798, none ever challenged
+    value: Five, from 1798, none challenged as unconstitutional, per two law professors' study
     source: 5
   - label: Moore v. United States, 20 June 2024
     value: The Court said it was not deciding taxes on wealth or net worth
@@ -88,7 +88,7 @@ Outside the United States the question has been put to courts in Germany, France
 
 The rule sits in two places. Article I, section 2 says "Representatives and direct Taxes shall be apportioned among the several States." Section 9 repeats it: no "other direct, Tax shall be laid, unless in Proportion to the Census."[1] Section 8, which gives Congress its power to tax, adds that "all Duties, Imposts and Excises shall be uniform throughout the United States."[1]
 
-So there are two roads. On the first, a tax is shared among the states by population. On the second, it is an excise or duty and carries one rate everywhere. The Supreme Court wrote in 2024 that direct taxes are, in general, those laid on persons or property, and that Congress has rarely used them because of the formula.[2] The formula is awkward, since a poorer state would need a higher rate to raise its share. It is a formula and not a ban. Congress passed five apportioned taxes on property from 1798, and none was ever challenged as unconstitutional.[5]
+So there are two roads. On the first, a tax is shared among the states by population. On the second, it is an excise or duty and carries one rate everywhere. The Supreme Court wrote in 2024 that direct taxes are, in general, those laid on persons or property, and that Congress has rarely used them because of the formula.[2] The formula is awkward, since a poorer state would need a higher rate to raise its share. It is a formula and not a ban. Brooks and Gamage count five apportioned taxes on real property and enslaved persons that Congress passed from 1798, and find that none was ever challenged as unconstitutional.[5]
 
 The founders did not read "direct" widely. In 1796 the Court upheld a tax on carriages, and the justices who gave reasons suggested that direct taxes meant head taxes and taxes on land.[2]
 
