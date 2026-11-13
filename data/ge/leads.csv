@@ -1,0 +1,6 @@
+lead_id,kind,name,source_url,why,found_run,status,closed_run,note
+D0001,organisation,Social-Democrats for the Development of Georgia / Constitution for Equality movement,https://civil.ge/?p=126348,Left movement that pushed for lifting the article 94 tax ban; look for a statement that names a tax on wealth or capital,R001,open,,Read the civil.ge appeal report; no mention of wealth. Their own texts not found.
+D0002,organisation,Georgian Labour Party (Shalva Natelashvili),https://www.labour.ge/en/about/history,Left-populist party; programmes may name a tax on large property,R001,open,,Searched in English and Georgian; no proposal found. Programme PDF not opened.
+D0003,organisation,Social Justice Center (Tbilisi),https://socialjustice.org.ge,Left think tank; publications on tax justice may recommend a wealth tax,R001,open,,Site not searched in depth.
+D0004,document,Forbes Georgia: How to tax progressively? (როგორ დავბეგროთ პროგრესულად?),https://forbes.ge/rogor-davbegroth-progresu/,Georgian-language piece on progressive taxation; check whether it recommends a tax on wealth,R001,open,,Not opened.
+D0005,organisation,Oxfam and Tax Justice Network work on Georgia,https://www.oxfam.org,International NGOs sometimes publish Georgia-specific tax justice papers,R001,open,,Not searched.

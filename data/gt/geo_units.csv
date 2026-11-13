@@ -1,0 +1,364 @@
+geo_unit_id,name,level,unit_type,parent_id,website,sweep_status,swept_run,swept_date,queries_run,hits,notes,code
+G0001,Guatemala,national,country,,,pending,,,,,,
+G0002,Guatemala,region,departamento,G0001,,pending,,,,,,GT01
+G0003,El Progreso,region,departamento,G0001,,pending,,,,,,GT02
+G0004,Sacatepéquez,region,departamento,G0001,,pending,,,,,,GT03
+G0005,Chimaltenango,region,departamento,G0001,,pending,,,,,,GT04
+G0006,Escuintla,region,departamento,G0001,,pending,,,,,,GT05
+G0007,Santa Rosa,region,departamento,G0001,,pending,,,,,,GT06
+G0008,Sololá,region,departamento,G0001,,pending,,,,,,GT07
+G0009,Totonicapán,region,departamento,G0001,,pending,,,,,,GT08
+G0010,Quetzaltenango,region,departamento,G0001,,pending,,,,,,GT09
+G0011,Suchitepéquez,region,departamento,G0001,,pending,,,,,,GT10
+G0012,Retalhuleu,region,departamento,G0001,,pending,,,,,,GT11
+G0013,San Marcos,region,departamento,G0001,,pending,,,,,,GT12
+G0014,Huehuetenango,region,departamento,G0001,,pending,,,,,,GT13
+G0015,Quiché,region,departamento,G0001,,pending,,,,,,GT14
+G0016,Baja Verapaz,region,departamento,G0001,,pending,,,,,,GT15
+G0017,Alta Verapaz,region,departamento,G0001,,pending,,,,,,GT16
+G0018,Petén,region,departamento,G0001,,pending,,,,,,GT17
+G0019,Izabal,region,departamento,G0001,,pending,,,,,,GT18
+G0020,Zacapa,region,departamento,G0001,,pending,,,,,,GT19
+G0021,Chiquimula,region,departamento,G0001,,pending,,,,,,GT20
+G0022,Jalapa,region,departamento,G0001,,pending,,,,,,GT21
+G0023,Jutiapa,region,departamento,G0001,,pending,,,,,,GT22
+G0024,Guatemala,council,municipio,G0002,,pending,,,,,,GT0101
+G0025,Santa Catarina Pinula,council,municipio,G0002,,pending,,,,,,GT0102
+G0026,San José Pinula,council,municipio,G0002,,pending,,,,,,GT0103
+G0027,San José del Golfo,council,municipio,G0002,,pending,,,,,,GT0104
+G0028,Palencia,council,municipio,G0002,,pending,,,,,,GT0105
+G0029,Chinautla,council,municipio,G0002,,pending,,,,,,GT0106
+G0030,San Pedro Ayampuc,council,municipio,G0002,,pending,,,,,,GT0107
+G0031,Mixco,council,municipio,G0002,,pending,,,,,,GT0108
+G0032,San Pedro Sacatepéquez,council,municipio,G0002,,pending,,,,,,GT0109
+G0033,San Juan Sacatepéquez,council,municipio,G0002,,pending,,,,,,GT0110
+G0034,San Raimundo,council,municipio,G0002,,pending,,,,,,GT0111
+G0035,Chuarrancho,council,municipio,G0002,,pending,,,,,,GT0112
+G0036,Fraijanes,council,municipio,G0002,,pending,,,,,,GT0113
+G0037,Amatitlán,council,municipio,G0002,,pending,,,,,,GT0114
+G0038,Villa Nueva,council,municipio,G0002,,pending,,,,,,GT0115
+G0039,Villa Canales,council,municipio,G0002,,pending,,,,,,GT0116
+G0040,Petapa,council,municipio,G0002,,pending,,,,,,GT0117
+G0041,Guastatoya,council,municipio,G0003,,pending,,,,,,GT0201
+G0042,Morazán,council,municipio,G0003,,pending,,,,,,GT0202
+G0043,San Agustín Acasaguastlán,council,municipio,G0003,,pending,,,,,,GT0203
+G0044,San Cristóbal Acasaguastlán,council,municipio,G0003,,pending,,,,,,GT0204
+G0045,El Jícaro,council,municipio,G0003,,pending,,,,,,GT0205
+G0046,Sanarate,council,municipio,G0003,,pending,,,,,,GT0206
+G0047,Sansare,council,municipio,G0003,,pending,,,,,,GT0207
+G0048,San Antonio la Paz,council,municipio,G0003,,pending,,,,,,GT0208
+G0049,Antigua Guatemala,council,municipio,G0004,,pending,,,,,,GT0301
+G0050,Jocotenango,council,municipio,G0004,,pending,,,,,,GT0302
+G0051,Pastores,council,municipio,G0004,,pending,,,,,,GT0303
+G0052,Sumpango,council,municipio,G0004,,pending,,,,,,GT0304
+G0053,Santo Domingo Xenacoj,council,municipio,G0004,,pending,,,,,,GT0305
+G0054,Santiago Sacatepéquez,council,municipio,G0004,,pending,,,,,,GT0306
+G0055,San Bartolomé Milpas Altas,council,municipio,G0004,,pending,,,,,,GT0307
+G0056,San Lucas Sacatepéquez,council,municipio,G0004,,pending,,,,,,GT0308
+G0057,Santa Lucía Milpas Altas,council,municipio,G0004,,pending,,,,,,GT0309
+G0058,Magdalena Milpas Altas,council,municipio,G0004,,pending,,,,,,GT0310
+G0059,Santa María de Jesús,council,municipio,G0004,,pending,,,,,,GT0311
+G0060,Ciudad Vieja,council,municipio,G0004,,pending,,,,,,GT0312
+G0061,San Miguel Dueñas,council,municipio,G0004,,pending,,,,,,GT0313
+G0062,Alotenango,council,municipio,G0004,,pending,,,,,,GT0314
+G0063,San Antonio Aguas Calientes,council,municipio,G0004,,pending,,,,,,GT0315
+G0064,Santa Catarina Barahona,council,municipio,G0004,,pending,,,,,,GT0316
+G0065,Chimaltenango,council,municipio,G0005,,pending,,,,,,GT0401
+G0066,San José Poaquil,council,municipio,G0005,,pending,,,,,,GT0402
+G0067,San Martín Jilotepeque,council,municipio,G0005,,pending,,,,,,GT0403
+G0068,Comalapa,council,municipio,G0005,,pending,,,,,,GT0404
+G0069,Santa Apolonia,council,municipio,G0005,,pending,,,,,,GT0405
+G0070,Tecpán Guatemala,council,municipio,G0005,,pending,,,,,,GT0406
+G0071,Patzún,council,municipio,G0005,,pending,,,,,,GT0407
+G0072,Pochuta,council,municipio,G0005,,pending,,,,,,GT0408
+G0073,Patzicía,council,municipio,G0005,,pending,,,,,,GT0409
+G0074,Santa Cruz Balanyá,council,municipio,G0005,,pending,,,,,,GT0410
+G0075,Acatenango,council,municipio,G0005,,pending,,,,,,GT0411
+G0076,Yepocapa,council,municipio,G0005,,pending,,,,,,GT0412
+G0077,San Andrés Itzapa,council,municipio,G0005,,pending,,,,,,GT0413
+G0078,Parramos,council,municipio,G0005,,pending,,,,,,GT0414
+G0079,Zaragoza,council,municipio,G0005,,pending,,,,,,GT0415
+G0080,El Tejar,council,municipio,G0005,,pending,,,,,,GT0416
+G0081,Escuintla,council,municipio,G0006,,pending,,,,,,GT0501
+G0082,Santa Lucía Cotzumalguapa,council,municipio,G0006,,pending,,,,,,GT0502
+G0083,La Democracia,council,municipio,G0006,,pending,,,,,,GT0503
+G0084,Siquinalá,council,municipio,G0006,,pending,,,,,,GT0504
+G0085,Masagua,council,municipio,G0006,,pending,,,,,,GT0505
+G0086,Tiquisate,council,municipio,G0006,,pending,,,,,,GT0506
+G0087,La Gomera,council,municipio,G0006,,pending,,,,,,GT0507
+G0088,Guanagazapa,council,municipio,G0006,,pending,,,,,,GT0508
+G0089,San José,council,municipio,G0006,,pending,,,,,,GT0509
+G0090,Iztapa,council,municipio,G0006,,pending,,,,,,GT0510
+G0091,Palín,council,municipio,G0006,,pending,,,,,,GT0511
+G0092,San Vicente Pacaya,council,municipio,G0006,,pending,,,,,,GT0512
+G0093,Nueva Concepción,council,municipio,G0006,,pending,,,,,,GT0513
+G0094,Sipacate,council,municipio,G0006,,pending,,,,,,GT0514
+G0095,Cuilapa,council,municipio,G0007,,pending,,,,,,GT0601
+G0096,Barberena,council,municipio,G0007,,pending,,,,,,GT0602
+G0097,Santa Rosa de Lima,council,municipio,G0007,,pending,,,,,,GT0603
+G0098,Casillas,council,municipio,G0007,,pending,,,,,,GT0604
+G0099,San Rafael las Flores,council,municipio,G0007,,pending,,,,,,GT0605
+G0100,Oratorio,council,municipio,G0007,,pending,,,,,,GT0606
+G0101,San Juan Tecuaco,council,municipio,G0007,,pending,,,,,,GT0607
+G0102,Chiquimulilla,council,municipio,G0007,,pending,,,,,,GT0608
+G0103,Taxisco,council,municipio,G0007,,pending,,,,,,GT0609
+G0104,Santa María Ixhuatán,council,municipio,G0007,,pending,,,,,,GT0610
+G0105,Guazacapán,council,municipio,G0007,,pending,,,,,,GT0611
+G0106,Santa Cruz Naranjo,council,municipio,G0007,,pending,,,,,,GT0612
+G0107,Pueblo Nuevo Viñas,council,municipio,G0007,,pending,,,,,,GT0613
+G0108,Nueva Santa Rosa,council,municipio,G0007,,pending,,,,,,GT0614
+G0109,Sololá,council,municipio,G0008,,pending,,,,,,GT0701
+G0110,San José Chacayá,council,municipio,G0008,,pending,,,,,,GT0702
+G0111,Santa María Visitación,council,municipio,G0008,,pending,,,,,,GT0703
+G0112,Santa Lucía Utatlán,council,municipio,G0008,,pending,,,,,,GT0704
+G0113,Nahualá,council,municipio,G0008,,pending,,,,,,GT0705
+G0114,Santa Catarina Ixtahuacán,council,municipio,G0008,,pending,,,,,,GT0706
+G0115,Santa Clara la Laguna,council,municipio,G0008,,pending,,,,,,GT0707
+G0116,Concepción,council,municipio,G0008,,pending,,,,,,GT0708
+G0117,San Andrés Semetabaj,council,municipio,G0008,,pending,,,,,,GT0709
+G0118,Panajachel,council,municipio,G0008,,pending,,,,,,GT0710
+G0119,Santa Catarina Palopó,council,municipio,G0008,,pending,,,,,,GT0711
+G0120,San Antonio Palopó,council,municipio,G0008,,pending,,,,,,GT0712
+G0121,San Lucas Tolimán,council,municipio,G0008,,pending,,,,,,GT0713
+G0122,Santa Cruz la Laguna,council,municipio,G0008,,pending,,,,,,GT0714
+G0123,San Pablo la Laguna,council,municipio,G0008,,pending,,,,,,GT0715
+G0124,San Marcos la Laguna,council,municipio,G0008,,pending,,,,,,GT0716
+G0125,San Juan la Laguna,council,municipio,G0008,,pending,,,,,,GT0717
+G0126,San Pedro la Laguna,council,municipio,G0008,,pending,,,,,,GT0718
+G0127,Santiago Atitlán,council,municipio,G0008,,pending,,,,,,GT0719
+G0128,Totonicapán,council,municipio,G0009,,pending,,,,,,GT0801
+G0129,San Cristóbal Totonicapán,council,municipio,G0009,,pending,,,,,,GT0802
+G0130,San Francisco el Alto,council,municipio,G0009,,pending,,,,,,GT0803
+G0131,San Andrés Xecul,council,municipio,G0009,,pending,,,,,,GT0804
+G0132,Momostenango,council,municipio,G0009,,pending,,,,,,GT0805
+G0133,Santa María Chiquimula,council,municipio,G0009,,pending,,,,,,GT0806
+G0134,Santa Lucía la Reforma,council,municipio,G0009,,pending,,,,,,GT0807
+G0135,San Bartolo,council,municipio,G0009,,pending,,,,,,GT0808
+G0136,Quetzaltenango,council,municipio,G0010,,pending,,,,,,GT0901
+G0137,Salcajá,council,municipio,G0010,,pending,,,,,,GT0902
+G0138,Olintepeque,council,municipio,G0010,,pending,,,,,,GT0903
+G0139,San Carlos Sija,council,municipio,G0010,,pending,,,,,,GT0904
+G0140,Sibilia,council,municipio,G0010,,pending,,,,,,GT0905
+G0141,Cabricán,council,municipio,G0010,,pending,,,,,,GT0906
+G0142,Cajolá,council,municipio,G0010,,pending,,,,,,GT0907
+G0143,San Miguel Sigüila,council,municipio,G0010,,pending,,,,,,GT0908
+G0144,Ostuncalco,council,municipio,G0010,,pending,,,,,,GT0909
+G0145,San Mateo,council,municipio,G0010,,pending,,,,,,GT0910
+G0146,Concepción Chiquirichapa,council,municipio,G0010,,pending,,,,,,GT0911
+G0147,San Martín Sacatepéquez,council,municipio,G0010,,pending,,,,,,GT0912
+G0148,Almolonga,council,municipio,G0010,,pending,,,,,,GT0913
+G0149,Cantel,council,municipio,G0010,,pending,,,,,,GT0914
+G0150,Huitán,council,municipio,G0010,,pending,,,,,,GT0915
+G0151,Zunil,council,municipio,G0010,,pending,,,,,,GT0916
+G0152,Colomba,council,municipio,G0010,,pending,,,,,,GT0917
+G0153,San Francisco la Unión,council,municipio,G0010,,pending,,,,,,GT0918
+G0154,El Palmar,council,municipio,G0010,,pending,,,,,,GT0919
+G0155,Coatepeque,council,municipio,G0010,,pending,,,,,,GT0920
+G0156,Génova,council,municipio,G0010,,pending,,,,,,GT0921
+G0157,Flores Costa Cuca,council,municipio,G0010,,pending,,,,,,GT0922
+G0158,La Esperanza,council,municipio,G0010,,pending,,,,,,GT0923
+G0159,Palestina de los Altos,council,municipio,G0010,,pending,,,,,,GT0924
+G0160,Mazatenango,council,municipio,G0011,,pending,,,,,,GT1001
+G0161,Cuyotenango,council,municipio,G0011,,pending,,,,,,GT1002
+G0162,San Francisco Zapotitlán,council,municipio,G0011,,pending,,,,,,GT1003
+G0163,San Bernardino,council,municipio,G0011,,pending,,,,,,GT1004
+G0164,San José el Ídolo,council,municipio,G0011,,pending,,,,,,GT1005
+G0165,Santo Domingo Suchitepéquez,council,municipio,G0011,,pending,,,,,,GT1006
+G0166,San Lorenzo,council,municipio,G0011,,pending,,,,,,GT1007
+G0167,Samayac,council,municipio,G0011,,pending,,,,,,GT1008
+G0168,San Pablo Jocopilas,council,municipio,G0011,,pending,,,,,,GT1009
+G0169,San Antonio Suchitepéquez,council,municipio,G0011,,pending,,,,,,GT1010
+G0170,San Miguel Panán,council,municipio,G0011,,pending,,,,,,GT1011
+G0171,San Gabriel,council,municipio,G0011,,pending,,,,,,GT1012
+G0172,Chicacao,council,municipio,G0011,,pending,,,,,,GT1013
+G0173,Patulul,council,municipio,G0011,,pending,,,,,,GT1014
+G0174,Santa Bárbara,council,municipio,G0011,,pending,,,,,,GT1015
+G0175,San Juan Bautista,council,municipio,G0011,,pending,,,,,,GT1016
+G0176,Santo Tomás la Unión,council,municipio,G0011,,pending,,,,,,GT1017
+G0177,Zunilito,council,municipio,G0011,,pending,,,,,,GT1018
+G0178,Pueblo Nuevo,council,municipio,G0011,,pending,,,,,,GT1019
+G0179,Río Bravo,council,municipio,G0011,,pending,,,,,,GT1020
+G0180,San José la Máquina,council,municipio,G0011,,pending,,,,,,GT1021
+G0181,Retalhuleu,council,municipio,G0012,,pending,,,,,,GT1101
+G0182,San Sebastián,council,municipio,G0012,,pending,,,,,,GT1102
+G0183,Santa Cruz Muluá,council,municipio,G0012,,pending,,,,,,GT1103
+G0184,San Martín Zapotitlán,council,municipio,G0012,,pending,,,,,,GT1104
+G0185,San Felipe,council,municipio,G0012,,pending,,,,,,GT1105
+G0186,San Andrés Villa Seca,council,municipio,G0012,,pending,,,,,,GT1106
+G0187,Champerico,council,municipio,G0012,,pending,,,,,,GT1107
+G0188,Nuevo San Carlos,council,municipio,G0012,,pending,,,,,,GT1108
+G0189,El Asintal,council,municipio,G0012,,pending,,,,,,GT1109
+G0190,San Marcos,council,municipio,G0013,,pending,,,,,,GT1201
+G0191,San Pedro Sacatepéquez,council,municipio,G0013,,pending,,,,,,GT1202
+G0192,San Antonio Sacatepéquez,council,municipio,G0013,,pending,,,,,,GT1203
+G0193,Comitancillo,council,municipio,G0013,,pending,,,,,,GT1204
+G0194,San Miguel Ixtahuacán,council,municipio,G0013,,pending,,,,,,GT1205
+G0195,Concepción Tutuapa,council,municipio,G0013,,pending,,,,,,GT1206
+G0196,Tacaná,council,municipio,G0013,,pending,,,,,,GT1207
+G0197,Sibinal,council,municipio,G0013,,pending,,,,,,GT1208
+G0198,Tajumulco,council,municipio,G0013,,pending,,,,,,GT1209
+G0199,Tejutla,council,municipio,G0013,,pending,,,,,,GT1210
+G0200,San Rafael Pie de la Cuesta,council,municipio,G0013,,pending,,,,,,GT1211
+G0201,Nuevo Progreso,council,municipio,G0013,,pending,,,,,,GT1212
+G0202,El Tumbador,council,municipio,G0013,,pending,,,,,,GT1213
+G0203,El Rodeo,council,municipio,G0013,,pending,,,,,,GT1214
+G0204,Malacatán,council,municipio,G0013,,pending,,,,,,GT1215
+G0205,Catarina,council,municipio,G0013,,pending,,,,,,GT1216
+G0206,Ayutla,council,municipio,G0013,,pending,,,,,,GT1217
+G0207,Ocós,council,municipio,G0013,,pending,,,,,,GT1218
+G0208,San Pablo,council,municipio,G0013,,pending,,,,,,GT1219
+G0209,El Quetzal,council,municipio,G0013,,pending,,,,,,GT1220
+G0210,La Reforma,council,municipio,G0013,,pending,,,,,,GT1221
+G0211,Pajapita,council,municipio,G0013,,pending,,,,,,GT1222
+G0212,Ixchiguán,council,municipio,G0013,,pending,,,,,,GT1223
+G0213,San José Ojetenam,council,municipio,G0013,,pending,,,,,,GT1224
+G0214,San Cristóbal Cucho,council,municipio,G0013,,pending,,,,,,GT1225
+G0215,Sipacapa,council,municipio,G0013,,pending,,,,,,GT1226
+G0216,Esquipulas Palo Gordo,council,municipio,G0013,,pending,,,,,,GT1227
+G0217,Río Blanco,council,municipio,G0013,,pending,,,,,,GT1228
+G0218,San Lorenzo,council,municipio,G0013,,pending,,,,,,GT1229
+G0219,La Blanca,council,municipio,G0013,,pending,,,,,,GT1230
+G0220,Huehuetenango,council,municipio,G0014,,pending,,,,,,GT1301
+G0221,Chiantla,council,municipio,G0014,,pending,,,,,,GT1302
+G0222,Malacatancito,council,municipio,G0014,,pending,,,,,,GT1303
+G0223,Cuilco,council,municipio,G0014,,pending,,,,,,GT1304
+G0224,Nentón,council,municipio,G0014,,pending,,,,,,GT1305
+G0225,San Pedro Necta,council,municipio,G0014,,pending,,,,,,GT1306
+G0226,Jacaltenango,council,municipio,G0014,,pending,,,,,,GT1307
+G0227,Soloma,council,municipio,G0014,,pending,,,,,,GT1308
+G0228,Ixtahuacán,council,municipio,G0014,,pending,,,,,,GT1309
+G0229,Santa Bárbara,council,municipio,G0014,,pending,,,,,,GT1310
+G0230,La Libertad,council,municipio,G0014,,pending,,,,,,GT1311
+G0231,La Democracia,council,municipio,G0014,,pending,,,,,,GT1312
+G0232,San Miguel Acatán,council,municipio,G0014,,pending,,,,,,GT1313
+G0233,San Rafael la Independencia,council,municipio,G0014,,pending,,,,,,GT1314
+G0234,Todos Santos Cuchumatán,council,municipio,G0014,,pending,,,,,,GT1315
+G0235,San Juan Atitán,council,municipio,G0014,,pending,,,,,,GT1316
+G0236,Santa Eulalia,council,municipio,G0014,,pending,,,,,,GT1317
+G0237,San Mateo Ixtatán,council,municipio,G0014,,pending,,,,,,GT1318
+G0238,Colotenango,council,municipio,G0014,,pending,,,,,,GT1319
+G0239,San Sebastián Huehuetenango,council,municipio,G0014,,pending,,,,,,GT1320
+G0240,Tectitán,council,municipio,G0014,,pending,,,,,,GT1321
+G0241,Concepción Huista,council,municipio,G0014,,pending,,,,,,GT1322
+G0242,San Juan Ixcoy,council,municipio,G0014,,pending,,,,,,GT1323
+G0243,San Antonio Huista,council,municipio,G0014,,pending,,,,,,GT1324
+G0244,San Sebastián Coatán,council,municipio,G0014,,pending,,,,,,GT1325
+G0245,Barillas,council,municipio,G0014,,pending,,,,,,GT1326
+G0246,Aguacatán,council,municipio,G0014,,pending,,,,,,GT1327
+G0247,San Rafael Petzal,council,municipio,G0014,,pending,,,,,,GT1328
+G0248,San Gaspar Ixchil,council,municipio,G0014,,pending,,,,,,GT1329
+G0249,Santiago Chimaltenango,council,municipio,G0014,,pending,,,,,,GT1330
+G0250,Santa Ana Huista,council,municipio,G0014,,pending,,,,,,GT1331
+G0251,Unión Cantinil,council,municipio,G0014,,pending,,,,,,GT1332
+G0252,Petatán,council,municipio,G0014,,pending,,,,,,GT1333
+G0253,Santa Cruz del Quiché,council,municipio,G0015,,pending,,,,,,GT1401
+G0254,Chiché,council,municipio,G0015,,pending,,,,,,GT1402
+G0255,Chinique,council,municipio,G0015,,pending,,,,,,GT1403
+G0256,Zacualpa,council,municipio,G0015,,pending,,,,,,GT1404
+G0257,Chajul,council,municipio,G0015,,pending,,,,,,GT1405
+G0258,Chichicastenango,council,municipio,G0015,,pending,,,,,,GT1406
+G0259,Patzité,council,municipio,G0015,,pending,,,,,,GT1407
+G0260,San Antonio Ilotenango,council,municipio,G0015,,pending,,,,,,GT1408
+G0261,San Pedro Jocopilas,council,municipio,G0015,,pending,,,,,,GT1409
+G0262,Cunén,council,municipio,G0015,,pending,,,,,,GT1410
+G0263,San Juan Cotzal,council,municipio,G0015,,pending,,,,,,GT1411
+G0264,Joyabaj,council,municipio,G0015,,pending,,,,,,GT1412
+G0265,Nebaj,council,municipio,G0015,,pending,,,,,,GT1413
+G0266,San Andrés Sajcabajá,council,municipio,G0015,,pending,,,,,,GT1414
+G0267,Uspantán,council,municipio,G0015,,pending,,,,,,GT1415
+G0268,Sacapulas,council,municipio,G0015,,pending,,,,,,GT1416
+G0269,San Bartolomé Jocotenango,council,municipio,G0015,,pending,,,,,,GT1417
+G0270,Canillá,council,municipio,G0015,,pending,,,,,,GT1418
+G0271,Chicamán,council,municipio,G0015,,pending,,,,,,GT1419
+G0272,Ixcán,council,municipio,G0015,,pending,,,,,,GT1420
+G0273,Pachalum,council,municipio,G0015,,pending,,,,,,GT1421
+G0274,Salamá,council,municipio,G0016,,pending,,,,,,GT1501
+G0275,San Miguel Chicaj,council,municipio,G0016,,pending,,,,,,GT1502
+G0276,Rabinal,council,municipio,G0016,,pending,,,,,,GT1503
+G0277,Cubulco,council,municipio,G0016,,pending,,,,,,GT1504
+G0278,Granados,council,municipio,G0016,,pending,,,,,,GT1505
+G0279,El Chol,council,municipio,G0016,,pending,,,,,,GT1506
+G0280,San Jerónimo,council,municipio,G0016,,pending,,,,,,GT1507
+G0281,Purulhá,council,municipio,G0016,,pending,,,,,,GT1508
+G0282,Cobán,council,municipio,G0017,,pending,,,,,,GT1601
+G0283,Santa Cruz Verapaz,council,municipio,G0017,,pending,,,,,,GT1602
+G0284,San Cristóbal Verapaz,council,municipio,G0017,,pending,,,,,,GT1603
+G0285,Tactic,council,municipio,G0017,,pending,,,,,,GT1604
+G0286,Tamahú,council,municipio,G0017,,pending,,,,,,GT1605
+G0287,Tucurú,council,municipio,G0017,,pending,,,,,,GT1606
+G0288,Panzós,council,municipio,G0017,,pending,,,,,,GT1607
+G0289,Senahú,council,municipio,G0017,,pending,,,,,,GT1608
+G0290,San Pedro Carchá,council,municipio,G0017,,pending,,,,,,GT1609
+G0291,San Juan Chamelco,council,municipio,G0017,,pending,,,,,,GT1610
+G0292,Lanquín,council,municipio,G0017,,pending,,,,,,GT1611
+G0293,Cahabón,council,municipio,G0017,,pending,,,,,,GT1612
+G0294,Chisec,council,municipio,G0017,,pending,,,,,,GT1613
+G0295,Chahal,council,municipio,G0017,,pending,,,,,,GT1614
+G0296,Fray Bartolomé de las Casas,council,municipio,G0017,,pending,,,,,,GT1615
+G0297,Santa Catalina la Tinta,council,municipio,G0017,,pending,,,,,,GT1616
+G0298,Raxruhá,council,municipio,G0017,,pending,,,,,,GT1617
+G0299,Flores,council,municipio,G0018,,pending,,,,,,GT1701
+G0300,San José,council,municipio,G0018,,pending,,,,,,GT1702
+G0301,San Benito,council,municipio,G0018,,pending,,,,,,GT1703
+G0302,San Andrés,council,municipio,G0018,,pending,,,,,,GT1704
+G0303,La Libertad,council,municipio,G0018,,pending,,,,,,GT1705
+G0304,San Francisco,council,municipio,G0018,,pending,,,,,,GT1706
+G0305,Santa Ana,council,municipio,G0018,,pending,,,,,,GT1707
+G0306,Dolores,council,municipio,G0018,,pending,,,,,,GT1708
+G0307,San Luis,council,municipio,G0018,,pending,,,,,,GT1709
+G0308,Sayaxché,council,municipio,G0018,,pending,,,,,,GT1710
+G0309,Melchor de Mencos,council,municipio,G0018,,pending,,,,,,GT1711
+G0310,Poptún,council,municipio,G0018,,pending,,,,,,GT1712
+G0311,Las Cruces,council,municipio,G0018,,pending,,,,,,GT1713
+G0312,El Chal,council,municipio,G0018,,pending,,,,,,GT1714
+G0313,Puerto Barrios,council,municipio,G0019,,pending,,,,,,GT1801
+G0314,Lívingston,council,municipio,G0019,,pending,,,,,,GT1802
+G0315,El Estor,council,municipio,G0019,,pending,,,,,,GT1803
+G0316,Morales,council,municipio,G0019,,pending,,,,,,GT1804
+G0317,Los Amates,council,municipio,G0019,,pending,,,,,,GT1805
+G0318,Zacapa,council,municipio,G0020,,pending,,,,,,GT1901
+G0319,Estanzuela,council,municipio,G0020,,pending,,,,,,GT1902
+G0320,Río Hondo,council,municipio,G0020,,pending,,,,,,GT1903
+G0321,Gualán,council,municipio,G0020,,pending,,,,,,GT1904
+G0322,Teculután,council,municipio,G0020,,pending,,,,,,GT1905
+G0323,Usumatlán,council,municipio,G0020,,pending,,,,,,GT1906
+G0324,Cabañas,council,municipio,G0020,,pending,,,,,,GT1907
+G0325,San Diego,council,municipio,G0020,,pending,,,,,,GT1908
+G0326,La Unión,council,municipio,G0020,,pending,,,,,,GT1909
+G0327,Huité,council,municipio,G0020,,pending,,,,,,GT1910
+G0328,San Jorge,council,municipio,G0020,,pending,,,,,,GT1911
+G0329,Chiquimula,council,municipio,G0021,,pending,,,,,,GT2001
+G0330,San José la Arada,council,municipio,G0021,,pending,,,,,,GT2002
+G0331,San Juan Ermita,council,municipio,G0021,,pending,,,,,,GT2003
+G0332,Jocotán,council,municipio,G0021,,pending,,,,,,GT2004
+G0333,Camotán,council,municipio,G0021,,pending,,,,,,GT2005
+G0334,Olopa,council,municipio,G0021,,pending,,,,,,GT2006
+G0335,Esquipulas,council,municipio,G0021,,pending,,,,,,GT2007
+G0336,Concepción las Minas,council,municipio,G0021,,pending,,,,,,GT2008
+G0337,Quezaltepeque,council,municipio,G0021,,pending,,,,,,GT2009
+G0338,San Jacinto,council,municipio,G0021,,pending,,,,,,GT2010
+G0339,Ipala,council,municipio,G0021,,pending,,,,,,GT2011
+G0340,Jalapa,council,municipio,G0022,,pending,,,,,,GT2101
+G0341,San Pedro Pinula,council,municipio,G0022,,pending,,,,,,GT2102
+G0342,San Luis Jilotepeque,council,municipio,G0022,,pending,,,,,,GT2103
+G0343,San Manuel Chaparrón,council,municipio,G0022,,pending,,,,,,GT2104
+G0344,San Carlos Alzatate,council,municipio,G0022,,pending,,,,,,GT2105
+G0345,Monjas,council,municipio,G0022,,pending,,,,,,GT2106
+G0346,Mataquescuintla,council,municipio,G0022,,pending,,,,,,GT2107
+G0347,Jutiapa,council,municipio,G0023,,pending,,,,,,GT2201
+G0348,El Progreso,council,municipio,G0023,,pending,,,,,,GT2202
+G0349,Santa Catarina Mita,council,municipio,G0023,,pending,,,,,,GT2203
+G0350,Agua Blanca,council,municipio,G0023,,pending,,,,,,GT2204
+G0351,Asunción Mita,council,municipio,G0023,,pending,,,,,,GT2205
+G0352,Yupiltepeque,council,municipio,G0023,,pending,,,,,,GT2206
+G0353,Atescatempa,council,municipio,G0023,,pending,,,,,,GT2207
+G0354,Jerez,council,municipio,G0023,,pending,,,,,,GT2208
+G0355,El Adelanto,council,municipio,G0023,,pending,,,,,,GT2209
+G0356,Zapotitlán,council,municipio,G0023,,pending,,,,,,GT2210
+G0357,Comapa,council,municipio,G0023,,pending,,,,,,GT2211
+G0358,Jalpatagua,council,municipio,G0023,,pending,,,,,,GT2212
+G0359,Conguaco,council,municipio,G0023,,pending,,,,,,GT2213
+G0360,Moyuta,council,municipio,G0023,,pending,,,,,,GT2214
+G0361,Pasaco,council,municipio,G0023,,pending,,,,,,GT2215
+G0362,San José Acatempa,council,municipio,G0023,,pending,,,,,,GT2216
+G0363,Quesada,council,municipio,G0023,,pending,,,,,,GT2217

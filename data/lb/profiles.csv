@@ -1,0 +1,12 @@
+profile_id,actor_id,platform,url,source,checked
+P00001,A0003,website,https://www.lebcp.org,actors.csv website column,2026-11-13
+P00002,A0009,website,https://www.unescwa.org,actors.csv website column,2026-11-13
+P00003,A0001,wikipedia,https://en.wikipedia.org/wiki/Taymur_Jumblatt,Wikidata Q67846940,2026-11-13
+P00004,A0002,wikipedia,https://en.wikipedia.org/wiki/Walid_Jumblatt,Wikidata Q380437,2026-11-13
+P00005,A0003,wikipedia,https://en.wikipedia.org/wiki/Lebanese_Communist_Party,Wikidata Q1349604,2026-11-13
+P00006,A0008,wikipedia,https://en.wikipedia.org/wiki/Ishac_Diwan,Wikidata Q112654775,2026-11-13
+P00007,A0009,x,https://x.com/unescwa,Wikidata Q1355485,2026-11-13
+P00008,A0009,instagram,https://www.instagram.com/unescwa/,Wikidata Q1355485,2026-11-13
+P00009,A0009,facebook,https://www.facebook.com/unescwa,Wikidata Q1355485,2026-11-13
+P00010,A0009,youtube,https://www.youtube.com/channel/UCg3YzeZNWkiGR76ro3F0I6Q,Wikidata Q1355485,2026-11-13
+P00011,A0009,wikipedia,https://en.wikipedia.org/wiki/United_Nations_Economic_and_Social_Commission_for_Western_Asia,Wikidata Q1355485,2026-11-13

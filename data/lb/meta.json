@@ -1,0 +1,9 @@
+{
+  "name": "Lebanon",
+  "iso2": "LB",
+  "lead": "",
+  "status": "in progress",
+  "boundaries": "boundaries.json",
+  "notes": "Depth: seed pass R001 (2026-11-13), in English, Arabic and French. Lebanon has no tax on net wealth. Nine supporters with ten evidence rows: Taymour Joumblatt's April 2021 bill (0.5% to 7% on wealth from USD 1 million), Walid Joumblatt (2017), the Lebanese Communist Party's 2022 programme (2% above USD 1 million), economists Lydia Assouad, Ghassan Dibeh and Ishac Diwan, ex-finance director general Alain Bifani and Karim Daher (Arab Reform Initiative paper, grade C), and UN ESCWA. Taxes on banks, windfall gains and transfers abroad, and bail-in of bank shareholders, are out of definition. Geography: country root, 8 governorates and 26 districts (qada), OCHA COD-AB P-codes, CC BY-IGO; the 1,600 cadastral localities were not loaded. Seats tab: the 128 seats by alliance from the 15 May 2022 election (Parliament extended its own term in March 2026); no member is marked sitting. No poll on a wealth tax was found.",
+  "polls": []
+}
