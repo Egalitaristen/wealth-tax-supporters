@@ -117,7 +117,7 @@ Where the tax was raised on business owners, their firms carried on. Norway near
 
 ## Who actually pays {#who-pays}
 
-The threshold decides. In Norway it is NOK 1.9 million for a single person, and 719,007 of the 4,805,655 people with a wealth figure paid in 2024, 15.0% of them.[9][11] In the Swiss canton of Bern, where thresholds are low, 30% of all taxpayers owed wealth tax between 2001 and 2011.[6] In France it was slightly less than 1% of tax households in 2016.[6] In Spain the number of payers fell from 981,498 in 2007 to 188,680 in 2015 as the thresholds were raised.[6] Colombia's tax had 34,229 filers in 2025, and Bolivia had 263 registered payers at the end of October 2025.[12][13]
+The threshold decides. In Norway it is NOK 1.9 million for a single person, and 719,007 of the 4,805,655 people with a wealth figure paid in 2024, 15.0% of them. (The page on [spreading](/arguments/it-will-spread) counts residents aged 17 and over, and gets 15.4%.)[9][11] In the Swiss canton of Bern, where thresholds are low, 30% of all taxpayers owed wealth tax between 2001 and 2011.[6] In France it was slightly less than 1% of tax households in 2016.[6] Bolivia had 263 registered payers at the end of October 2025.[13]
 
 {{chart: who-pays}}
 

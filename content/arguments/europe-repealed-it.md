@@ -217,7 +217,7 @@ The Dutch government's 2025 memo says the problem of the system before 2001 was 
 
 ## Did growth follow the repeals? {#growth}
 
-The promise behind repeal was that economies freed from the tax would race ahead. The six repeals that are ten years old or more are a test of it. Measure each country's growth in GDP per person against the OECD average, which also takes the 2008 crisis out of the comparison, for the ten years before and the ten after.[25]
+The promise behind repeal was that economies freed from the tax would race ahead. The six repeals that are ten years old or more are a test of it. Measure each country's growth in GDP per person against the OECD average, which strips out most of the effect of the 2008 crisis, because it hit every country, for the ten years before and the ten after.[25]
 
 {{chart: repeal-growth}}
 

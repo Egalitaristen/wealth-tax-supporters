@@ -16,7 +16,7 @@ facts:
   - label: One point higher top wealth tax rate (Sweden and Denmark)
     value: Investment down 0.07%, value added down 0.10%, employment down 0.02%
     source: 1
-  - label: Norway, 2021 to 2024, top rate on business wealth nearly doubled
+  - label: Norway, 2021 to 2023, top rate on business wealth nearly doubled
     value: Firms of wealth tax payers paid out no more and invested no less
     source: 2
   - label: Six countries that repealed, ten years before and after
@@ -98,7 +98,7 @@ Billionaires have earned 7.5% a year on their wealth after inflation over the pa
 
 {{chart: return-kept}}
 
-Now look at where the tax has been tried. In Sweden and Denmark, a one point higher top rate lowers investment across the whole economy by 0.07%.[1] Norway nearly doubled the tax on business wealth between 2021 and 2024, and the firms of the people who pay it paid out no more and invested no less.[2] In six countries that scrapped their wealth tax, growth per person did not pick up in the ten years after.[9][10] The rest of this page shows each step.
+Now look at where the tax has been tried. In Sweden and Denmark, a one point higher top rate lowers investment across the whole economy by 0.07%.[1] Norway nearly doubled the tax on business wealth between 2021 and 2023, and the firms of the people who pay it paid out no more and invested no less.[2] In six countries that scrapped their wealth tax, growth per person did not pick up in the ten years after.[9][10] The rest of this page shows each step.
 
 ## The arithmetic of a 1% tax {#return}
 
@@ -120,7 +120,7 @@ One more thing works in the other direction. Because the tax is charged on the s
 
 When an owner does leave, their firm usually closes: employment drops by 33%, investment by 22% and output by 34%. Almost half of the closed firms, 45%, were taken over by other firms in Sweden, and the workers lost little.[1] The answer to leaving is not to drop the tax. It is an exit tax and a base with no exemptions. The page on the question: [they will leave](/arguments/they-will-leave).
 
-**Norway.** Between 2021 and 2024 the top tax on business wealth went from 0.47% to 0.88% a year, and the dividend tax rose from 32% to almost 38%. Wealthy owners left: at most 100 people, mostly in 2022 and 2023, after which the rate of leaving fell back to what it was before. Startup founders and inventors did not leave. Firms owned by people who pay the tax paid out no more in dividends, invested no less and went bankrupt no more often than firms owned by foreigners and others outside the tax.[2] Wealth tax revenue from 2021 to 2024 rose by 71.5%, in spite of the departures.[2]
+**Norway.** Between 2021 and 2023 the top tax on business wealth went from 0.47% to 0.88% a year, and over the reforms to 2024 the dividend tax rose from 32% to almost 38%. Wealthy owners left: at most 100 people, mostly in 2022 and 2023, after which the rate of leaving fell back to what it was before. Startup founders and inventors did not leave. Firms owned by people who pay the tax paid out no more in dividends, invested no less and went bankrupt no more often than firms owned by foreigners and others outside the tax.[2] Wealth tax revenue from 2021 to 2024 rose by 71.5%, in spite of the departures.[2]
 
 **How owners pay.** In Norway, each additional krone of wealth tax made a household save 3.76 kroner more a year, paid for by working and earning more.[3] The tax came out of consumption and extra work, not out of investment. In Catalonia, taxpayers who faced a higher wealth tax saved no less. They moved wealth into the business assets the tax exempted, which is the loophole to close and not a reason to scrap the tax.[6]
 
@@ -134,7 +134,7 @@ The register counts 10 countries with a wealth tax and 13 that used to have one.
 
 {{chart: repeal-growth}}
 
-The chart measures each country against the OECD average, so the 2008 crisis, which hit everyone, drops out. In none of the six did growth per person speed up relative to the OECD after repeal. Sweden went from 1.01 points a year ahead to 0.23 behind, Finland from 1.54 ahead to 0.86 behind, the Netherlands from 0.62 ahead to 0.07 behind and Germany from 0.05 ahead to 0.34 behind. Denmark stayed 0.25 to 0.27 points behind and Austria 0.03 to 0.05 ahead.[9] What this shows: no country that scrapped its wealth tax pulled ahead of its peers afterwards. What it does not show: that repeal caused the slowdown.
+The chart measures each country against the OECD average, so most of the effect of the 2008 crisis, which hit everyone, drops out. In none of the six did growth per person speed up relative to the OECD after repeal. Sweden went from 1.01 points a year ahead to 0.23 behind, Finland from 1.54 ahead to 0.86 behind, the Netherlands from 0.62 ahead to 0.07 behind and Germany from 0.05 ahead to 0.34 behind. Denmark stayed 0.25 to 0.27 points behind and Austria 0.03 to 0.05 ahead.[9] What this shows: no country that scrapped its wealth tax pulled ahead of its peers afterwards. What it does not show: that repeal caused the slowdown.
 
 The share of output that went to investment points the same way: it rose in Denmark, Finland and Sweden and fell in Austria, Germany and the Netherlands. There is no pattern.[9] The promise behind repeal, that an economy freed from the tax would race ahead, did not come true in any of the six. More on what repeal cost: [Europe repealed it](/arguments/europe-repealed-it).
 
