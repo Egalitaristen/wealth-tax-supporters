@@ -1,0 +1,6 @@
+# Honduras (data/hn)
+
+- **Geography:** 18 departamentos as regions and 298 municipios as the local tier, from the [OCHA / HDX COD-AB Honduras](https://data.humdata.org/dataset/cod-ab-hnd) GeoJSON (valid 2016-10-05, CC BY-IGO; `hnd_admin1.geojson`, `hnd_admin2.geojson`), P-codes as codes. Run `topo_to_boundaries.py` for admin 2 (units) and admin 1 (regions) with `--project lonlat --scale 100 --simplify 0.2 --name-prop <name> --code-prop adm2_pcode / adm1_pcode`, merge with `merge_boundaries.py`. The source names lack accents (Atlantida, Cortes); the department names were restored by hand.
+- **Seats:** no adapter. congresonacional.hn gave a TLS certificate error and cne.hn answered 403 to scripts (13 Nov 2026), so the chamber's split (49 / 41 / 35 / 2 / 1) is El Heraldo's report of the installation.
+- **Sources that work:** hondudiario.com, contracorriente.red, sar.gob.hn (the tax authority's news and bill texts), lac.oxfam.org, cespad.org.hn, elheraldo.hn. proceso.hn uses a Sucuri JavaScript check.
+- **Quirks:** the Ley de Justicia Tributaria (LJT) is an exemptions and evasion reform with no tax on wealth, although headlines call it a reform that "grava a las fortunas". Only statements that name a tax on fortunes count. The Impuesto al Activo Neto taxes company assets.

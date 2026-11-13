@@ -1,0 +1,8 @@
+{
+  "name": "Dominican Republic",
+  "iso2": "DO",
+  "lead": "Egalitaristen",
+  "status": "in progress",
+  "boundaries": "boundaries.json",
+  "notes": "Seed pass (national level, no provincial or municipal sweep). Register: 32 provincias (including the Distrito Nacional) as regions and 155 municipios (which elect an alcalde and regidores) as the local tier, with OCHA P-codes; distritos municipales are not loaded. Map and codes: OCHA / HDX COD-AB Dominican Republic (ONE, valid 2021-06-29), CC BY-IGO. Seats: the Cámara de Diputados (190) and the Senado (32) by party, counted from the Congress's SIL Ciudadano per-member list; no supporter is a legislator, so there are no positions. Result: no Dominican party, union, church body or legislator was found backing a net-wealth tax; the register holds two weakly graded individuals. The country has a real-estate property tax (IPI) and no net-wealth tax."
+}

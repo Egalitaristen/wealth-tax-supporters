@@ -1,0 +1,3 @@
+actor_id,name,kind,actor_type,other_types,role,affiliation,party,affiliation_actor_id,country,level,location,geo_unit_id,location_source,wikidata_qid,website,status,alive_checked,prominence,notes,added_run,updated,refined
+A0001,Ramón Barrios,person,politician,,"Deputy, Congreso Nacional (2022-2026)",,Libre,,Honduras,national,Honduras > Cortés,G0006,,,,former_role,y,national,,R001,2026-11-13,
+A0002,Oxfam,organisation,ngo_campaign,,Oxfam in Honduras and Central America,,,,Honduras,national,Honduras,G0001,,Q267941,https://lac.oxfam.org/,active,na,national,Acts in Honduras through its country office; its Central America report was presented in Tegucigalpa in May 2025.,R001,2026-11-13,

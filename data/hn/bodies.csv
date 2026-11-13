@@ -1,0 +1,3 @@
+body_id,name,level,kind,seats,as_of,source_url,seat_view,notes
+B0001,Congreso Nacional,national,chamber,128,2026-11-13,https://www.elheraldo.hn/elheraldoplus/interactivos/quienes-son-diputados-congreso-nacional-periodo-legislativo-2026-2030-CO29055340,y,"Unicameral, 128 deputies for 2026-2030, by party as El Heraldo reports them at the installation of 25 January 2026. The Congress's own site (congresonacional.hn) did not load from here (certificate error) and cne.hn refused scripts, so the split is the press account of the official result, not the Congress's list."
+B0002,Poder Ejecutivo,national,other,,,,,President and ministers.

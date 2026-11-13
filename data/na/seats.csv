@@ -1,0 +1,14 @@
+seat_id,body_id,party,seats,colour,order
+S0001,B0001,SWAPO,51,2e5aac,1
+S0002,B0001,IPC,20,e0a000,2
+S0003,B0001,AR,6,c0392b,3
+S0004,B0001,LPM,5,2e8b57,4
+S0005,B0001,PDM,5,7f8c8d,5
+S0006,B0001,UDF,2,8e44ad,6
+S0007,B0001,Namibia Economic Freedom Fighters,1,d35400,7
+S0008,B0001,National Democratic Party of Namibia,1,16a085,8
+S0009,B0001,NUDO,1,34495e,9
+S0010,B0001,Republican Party of Namibia,1,a04000,10
+S0011,B0001,SWANU,1,b03a6e,11
+S0012,B0001,All People's Party,1,5d6d7e,12
+S0013,B0001,Body of Christ Party,1,1abc9c,13

@@ -1,0 +1,8 @@
+{
+  "name": "Honduras",
+  "iso2": "HN",
+  "lead": "Egalitaristen",
+  "status": "in progress",
+  "boundaries": "boundaries.json",
+  "notes": "Seed pass (national level, no departmental or municipal sweep). Register: 18 departamentos as regions and 298 municipios (which elect an alcalde and a corporación municipal) as the local tier, with OCHA P-codes. Map and codes: OCHA / HDX COD-AB Honduras (INE, valid 2016-10-05), CC BY-IGO; the source names have no accents, so only the 18 department names were restored by hand. Seats: Congreso Nacional (128) by party from El Heraldo's report of the 2026-2030 installation, because congresonacional.hn did not load (certificate error) and cne.hn refused scripts; no current supporter sits in it. Result: Honduras has no net-wealth tax and the Ley de Justicia Tributaria is not one; the register holds one former Libre deputy and Oxfam's Central America proposal (2.5% to 5% above US$5m)."
+}

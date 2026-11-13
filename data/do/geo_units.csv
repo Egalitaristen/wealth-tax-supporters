@@ -1,0 +1,189 @@
+geo_unit_id,name,level,unit_type,parent_id,website,sweep_status,swept_run,swept_date,queries_run,hits,notes,code
+G0001,Dominican Republic,national,country,,,pending,,,,,,
+G0002,Duarte,region,provincia,G0001,,pending,,,,,,DO0101
+G0003,Hermanas Mirabal,region,provincia,G0001,,pending,,,,,,DO0102
+G0004,María Trinidad Sánchez,region,provincia,G0001,,pending,,,,,,DO0103
+G0005,Samaná,region,provincia,G0001,,pending,,,,,,DO0104
+G0006,Dajabón,region,provincia,G0001,,pending,,,,,,DO0201
+G0007,Monte Cristi,region,provincia,G0001,,pending,,,,,,DO0202
+G0008,Santiago Rodríguez,region,provincia,G0001,,pending,,,,,,DO0203
+G0009,Valverde,region,provincia,G0001,,pending,,,,,,DO0204
+G0010,Espaillat,region,provincia,G0001,,pending,,,,,,DO0301
+G0011,Puerto Plata,region,provincia,G0001,,pending,,,,,,DO0302
+G0012,Santiago,region,provincia,G0001,,pending,,,,,,DO0303
+G0013,La Vega,region,provincia,G0001,,pending,,,,,,DO0401
+G0014,Monseñor Nouel,region,provincia,G0001,,pending,,,,,,DO0402
+G0015,Sánchez Ramírez,region,provincia,G0001,,pending,,,,,,DO0403
+G0016,Elías Piña,region,provincia,G0001,,pending,,,,,,DO0501
+G0017,San Juan,region,provincia,G0001,,pending,,,,,,DO0502
+G0018,Baoruco,region,provincia,G0001,,pending,,,,,,DO0601
+G0019,Barahona,region,provincia,G0001,,pending,,,,,,DO0602
+G0020,Independencia,region,provincia,G0001,,pending,,,,,,DO0603
+G0021,Pedernales,region,provincia,G0001,,pending,,,,,,DO0604
+G0022,Hato Mayor,region,provincia,G0001,,pending,,,,,,DO0701
+G0023,Monte Plata,region,provincia,G0001,,pending,,,,,,DO0702
+G0024,San Pedro de Macorís,region,provincia,G0001,,pending,,,,,,DO0703
+G0025,Distrito Nacional,region,provincia,G0001,,pending,,,,,,DO0801
+G0026,Santo Domingo,region,provincia,G0001,,pending,,,,,,DO0802
+G0027,Azua,region,provincia,G0001,,pending,,,,,,DO0901
+G0028,Peravia,region,provincia,G0001,,pending,,,,,,DO0902
+G0029,San Cristóbal,region,provincia,G0001,,pending,,,,,,DO0903
+G0030,San José de Ocoa,region,provincia,G0001,,pending,,,,,,DO0904
+G0031,El Seibo,region,provincia,G0001,,pending,,,,,,DO1001
+G0032,La Altagracia,region,provincia,G0001,,pending,,,,,,DO1002
+G0033,La Romana,region,provincia,G0001,,pending,,,,,,DO1003
+G0034,San Francisco de Macorís,council,municipio,G0002,,pending,,,,,,DO010101
+G0035,Arenoso,council,municipio,G0002,,pending,,,,,,DO010102
+G0036,Castillo,council,municipio,G0002,,pending,,,,,,DO010103
+G0037,Pimentel,council,municipio,G0002,,pending,,,,,,DO010104
+G0038,Villa Riva,council,municipio,G0002,,pending,,,,,,DO010105
+G0039,Las Guáranas,council,municipio,G0002,,pending,,,,,,DO010106
+G0040,Eugenio María de Hostos,council,municipio,G0002,,pending,,,,,,DO010107
+G0041,Salcedo,council,municipio,G0003,,pending,,,,,,DO010201
+G0042,Tenares,council,municipio,G0003,,pending,,,,,,DO010202
+G0043,Villa Tapia,council,municipio,G0003,,pending,,,,,,DO010203
+G0044,Nagua,council,municipio,G0004,,pending,,,,,,DO010301
+G0045,Cabrera,council,municipio,G0004,,pending,,,,,,DO010302
+G0046,El Factor,council,municipio,G0004,,pending,,,,,,DO010303
+G0047,Río San Juan,council,municipio,G0004,,pending,,,,,,DO010304
+G0048,Samaná,council,municipio,G0005,,pending,,,,,,DO010401
+G0049,Sánchez,council,municipio,G0005,,pending,,,,,,DO010402
+G0050,Las Terrenas,council,municipio,G0005,,pending,,,,,,DO010403
+G0051,Dajabón,council,municipio,G0006,,pending,,,,,,DO020101
+G0052,Loma de Cabrera,council,municipio,G0006,,pending,,,,,,DO020102
+G0053,Partido,council,municipio,G0006,,pending,,,,,,DO020103
+G0054,Restauración,council,municipio,G0006,,pending,,,,,,DO020104
+G0055,El Pino,council,municipio,G0006,,pending,,,,,,DO020105
+G0056,Monte Cristi,council,municipio,G0007,,pending,,,,,,DO020201
+G0057,Castañuelas,council,municipio,G0007,,pending,,,,,,DO020202
+G0058,Guayubín,council,municipio,G0007,,pending,,,,,,DO020203
+G0059,Las Matas de Santa Cruz,council,municipio,G0007,,pending,,,,,,DO020204
+G0060,Pepillo Salcedo,council,municipio,G0007,,pending,,,,,,DO020205
+G0061,Villa Vásquez,council,municipio,G0007,,pending,,,,,,DO020206
+G0062,San Ignacio de Sabaneta,council,municipio,G0008,,pending,,,,,,DO020301
+G0063,Villa Los Almácigos,council,municipio,G0008,,pending,,,,,,DO020302
+G0064,Monción,council,municipio,G0008,,pending,,,,,,DO020303
+G0065,Mao,council,municipio,G0009,,pending,,,,,,DO020401
+G0066,Esperanza,council,municipio,G0009,,pending,,,,,,DO020402
+G0067,Laguna Salada,council,municipio,G0009,,pending,,,,,,DO020403
+G0068,Moca,council,municipio,G0010,,pending,,,,,,DO030101
+G0069,Cayetano Germosén,council,municipio,G0010,,pending,,,,,,DO030102
+G0070,Gaspar Hernández,council,municipio,G0010,,pending,,,,,,DO030103
+G0071,Jamao al Norte,council,municipio,G0010,,pending,,,,,,DO030104
+G0072,Puerto Plata,council,municipio,G0011,,pending,,,,,,DO030201
+G0073,Altamira,council,municipio,G0011,,pending,,,,,,DO030202
+G0074,Guananico,council,municipio,G0011,,pending,,,,,,DO030203
+G0075,Imbert,council,municipio,G0011,,pending,,,,,,DO030204
+G0076,Los Hidalgos,council,municipio,G0011,,pending,,,,,,DO030205
+G0077,Luperón,council,municipio,G0011,,pending,,,,,,DO030206
+G0078,Sosúa,council,municipio,G0011,,pending,,,,,,DO030207
+G0079,Villa Isabela,council,municipio,G0011,,pending,,,,,,DO030208
+G0080,Villa Montellano,council,municipio,G0011,,pending,,,,,,DO030209
+G0081,Santiago,council,municipio,G0012,,pending,,,,,,DO030301
+G0082,Bisonó,council,municipio,G0012,,pending,,,,,,DO030302
+G0083,Jánico,council,municipio,G0012,,pending,,,,,,DO030303
+G0084,Licey al Medio,council,municipio,G0012,,pending,,,,,,DO030304
+G0085,San José de las Matas,council,municipio,G0012,,pending,,,,,,DO030305
+G0086,Tamboril,council,municipio,G0012,,pending,,,,,,DO030306
+G0087,Villa González,council,municipio,G0012,,pending,,,,,,DO030307
+G0088,Puñal,council,municipio,G0012,,pending,,,,,,DO030308
+G0089,Sabana Iglesia,council,municipio,G0012,,pending,,,,,,DO030309
+G0090,La Vega,council,municipio,G0013,,pending,,,,,,DO040101
+G0091,Constanza,council,municipio,G0013,,pending,,,,,,DO040102
+G0092,Jarabacoa,council,municipio,G0013,,pending,,,,,,DO040103
+G0093,Jima Abajo,council,municipio,G0013,,pending,,,,,,DO040104
+G0094,Bonao,council,municipio,G0014,,pending,,,,,,DO040201
+G0095,Maimón,council,municipio,G0014,,pending,,,,,,DO040202
+G0096,Piedra Blanca,council,municipio,G0014,,pending,,,,,,DO040203
+G0097,Cotuí,council,municipio,G0015,,pending,,,,,,DO040301
+G0098,Cevicos,council,municipio,G0015,,pending,,,,,,DO040302
+G0099,Fantino,council,municipio,G0015,,pending,,,,,,DO040303
+G0100,La Mata,council,municipio,G0015,,pending,,,,,,DO040304
+G0101,Comendador,council,municipio,G0016,,pending,,,,,,DO050101
+G0102,Bánica,council,municipio,G0016,,pending,,,,,,DO050102
+G0103,El Llano,council,municipio,G0016,,pending,,,,,,DO050103
+G0104,Hondo Valle,council,municipio,G0016,,pending,,,,,,DO050104
+G0105,Pedro Santana,council,municipio,G0016,,pending,,,,,,DO050105
+G0106,Juan Santiago,council,municipio,G0016,,pending,,,,,,DO050106
+G0107,San Juan,council,municipio,G0017,,pending,,,,,,DO050201
+G0108,Bohechío,council,municipio,G0017,,pending,,,,,,DO050202
+G0109,El Cercado,council,municipio,G0017,,pending,,,,,,DO050203
+G0110,Juan de Herrera,council,municipio,G0017,,pending,,,,,,DO050204
+G0111,Las Matas de Farfán,council,municipio,G0017,,pending,,,,,,DO050205
+G0112,Vallejuelo,council,municipio,G0017,,pending,,,,,,DO050206
+G0113,Neiba,council,municipio,G0018,,pending,,,,,,DO060101
+G0114,Galván,council,municipio,G0018,,pending,,,,,,DO060102
+G0115,Tamayo,council,municipio,G0018,,pending,,,,,,DO060103
+G0116,Villa Jaragua,council,municipio,G0018,,pending,,,,,,DO060104
+G0117,Los Ríos,council,municipio,G0018,,pending,,,,,,DO060105
+G0118,Barahona,council,municipio,G0019,,pending,,,,,,DO060201
+G0119,Cabral,council,municipio,G0019,,pending,,,,,,DO060202
+G0120,Enriquillo,council,municipio,G0019,,pending,,,,,,DO060203
+G0121,Paraíso,council,municipio,G0019,,pending,,,,,,DO060204
+G0122,Vicente Noble,council,municipio,G0019,,pending,,,,,,DO060205
+G0123,El Peñón,council,municipio,G0019,,pending,,,,,,DO060206
+G0124,La Ciénaga,council,municipio,G0019,,pending,,,,,,DO060207
+G0125,Fundación,council,municipio,G0019,,pending,,,,,,DO060208
+G0126,Las Salinas,council,municipio,G0019,,pending,,,,,,DO060209
+G0127,Polo,council,municipio,G0019,,pending,,,,,,DO060210
+G0128,Jaquimeyes,council,municipio,G0019,,pending,,,,,,DO060211
+G0129,Jimaní,council,municipio,G0020,,pending,,,,,,DO060301
+G0130,Duvergé,council,municipio,G0020,,pending,,,,,,DO060302
+G0131,La Descubierta,council,municipio,G0020,,pending,,,,,,DO060303
+G0132,Postrer Río,council,municipio,G0020,,pending,,,,,,DO060304
+G0133,Cristóbal,council,municipio,G0020,,pending,,,,,,DO060305
+G0134,Mella,council,municipio,G0020,,pending,,,,,,DO060306
+G0135,Pedernales,council,municipio,G0021,,pending,,,,,,DO060401
+G0136,Oviedo,council,municipio,G0021,,pending,,,,,,DO060402
+G0137,Hato Mayor,council,municipio,G0022,,pending,,,,,,DO070101
+G0138,Sabana de la Mar,council,municipio,G0022,,pending,,,,,,DO070102
+G0139,El Valle,council,municipio,G0022,,pending,,,,,,DO070103
+G0140,Monte Plata,council,municipio,G0023,,pending,,,,,,DO070201
+G0141,Bayaguana,council,municipio,G0023,,pending,,,,,,DO070202
+G0142,Sabana Grande de Boyá,council,municipio,G0023,,pending,,,,,,DO070203
+G0143,Yamasá,council,municipio,G0023,,pending,,,,,,DO070204
+G0144,Peralvillo,council,municipio,G0023,,pending,,,,,,DO070205
+G0145,San Pedro de Macorís,council,municipio,G0024,,pending,,,,,,DO070301
+G0146,Los Llanos,council,municipio,G0024,,pending,,,,,,DO070302
+G0147,Ramón Santana,council,municipio,G0024,,pending,,,,,,DO070303
+G0148,Consuelo,council,municipio,G0024,,pending,,,,,,DO070304
+G0149,Quisqueya,council,municipio,G0024,,pending,,,,,,DO070305
+G0150,Guayacanes,council,municipio,G0024,,pending,,,,,,DO070306
+G0151,Santo Domingo de Guzmán,council,municipio,G0025,,pending,,,,,,DO080101
+G0152,Santo Domingo Este,council,municipio,G0026,,pending,,,,,,DO080201
+G0153,Santo Domingo Oeste,council,municipio,G0026,,pending,,,,,,DO080202
+G0154,Santo Domingo Norte,council,municipio,G0026,,pending,,,,,,DO080203
+G0155,Boca Chica,council,municipio,G0026,,pending,,,,,,DO080204
+G0156,San Antonio de Guerra,council,municipio,G0026,,pending,,,,,,DO080205
+G0157,Los Alcarrizos,council,municipio,G0026,,pending,,,,,,DO080206
+G0158,Pedro Brand,council,municipio,G0026,,pending,,,,,,DO080207
+G0159,Azua,council,municipio,G0027,,pending,,,,,,DO090101
+G0160,Las Charcas,council,municipio,G0027,,pending,,,,,,DO090102
+G0161,Las Yayas de Viajama,council,municipio,G0027,,pending,,,,,,DO090103
+G0162,Padre Las Casas,council,municipio,G0027,,pending,,,,,,DO090104
+G0163,Peralta,council,municipio,G0027,,pending,,,,,,DO090105
+G0164,Sabana Yegua,council,municipio,G0027,,pending,,,,,,DO090106
+G0165,Pueblo Viejo,council,municipio,G0027,,pending,,,,,,DO090107
+G0166,Tábara Arriba,council,municipio,G0027,,pending,,,,,,DO090108
+G0167,Guayabal,council,municipio,G0027,,pending,,,,,,DO090109
+G0168,Estebanía,council,municipio,G0027,,pending,,,,,,DO090110
+G0169,Baní,council,municipio,G0028,,pending,,,,,,DO090201
+G0170,Nizao,council,municipio,G0028,,pending,,,,,,DO090202
+G0171,San Cristóbal,council,municipio,G0029,,pending,,,,,,DO090301
+G0172,Sabana Grande de Palenque,council,municipio,G0029,,pending,,,,,,DO090302
+G0173,Bajos de Haina,council,municipio,G0029,,pending,,,,,,DO090303
+G0174,Cambita Garabitos,council,municipio,G0029,,pending,,,,,,DO090304
+G0175,Villa Altagracia,council,municipio,G0029,,pending,,,,,,DO090305
+G0176,Yaguate,council,municipio,G0029,,pending,,,,,,DO090306
+G0177,San Gregorio de Nigua,council,municipio,G0029,,pending,,,,,,DO090307
+G0178,Los Cacaos,council,municipio,G0029,,pending,,,,,,DO090308
+G0179,San José de Ocoa,council,municipio,G0030,,pending,,,,,,DO090401
+G0180,Sabana Larga,council,municipio,G0030,,pending,,,,,,DO090402
+G0181,Rancho Arriba,council,municipio,G0030,,pending,,,,,,DO090403
+G0182,El Seibo,council,municipio,G0031,,pending,,,,,,DO100101
+G0183,Miches,council,municipio,G0031,,pending,,,,,,DO100102
+G0184,Higüey,council,municipio,G0032,,pending,,,,,,DO100201
+G0185,San Rafael del Yuma,council,municipio,G0032,,pending,,,,,,DO100202
+G0186,La Romana,council,municipio,G0033,,pending,,,,,,DO100301
+G0187,Guaymate,council,municipio,G0033,,pending,,,,,,DO100302
+G0188,Villa Hermosa,council,municipio,G0033,,pending,,,,,,DO100303

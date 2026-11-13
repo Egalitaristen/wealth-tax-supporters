@@ -1,0 +1,6 @@
+# Dominican Republic (data/do)
+
+- **Geography:** 32 provincias (incl. Distrito Nacional) as regions and 155 municipios as the local tier, from the [OCHA / HDX COD-AB Dominican Republic](https://data.humdata.org/dataset/cod-ab-dom) GeoJSON (valid 2021-06-29, CC BY-IGO; `dom_admin2.geojson`, `dom_admin3.geojson`), P-codes as codes. Strip the "Provincia " and "Municipio " prefixes from the names first, then run `topo_to_boundaries.py` on admin 3 (units) and admin 2 (regions) with `--project lonlat --scale 100 --simplify 0.2 --name-prop <cleaned name> --code-prop adm3_pcode / adm2_pcode`, and merge with `merge_boundaries.py`.
+- **Seats:** no adapter. The Congress's SIL Ciudadano (`diputadosrd.gob.do/sil/legislador`) is a JavaScript app; its list pages (Provincial, Nacional, En el Exterior) call `legislador/legisladores?page=N&nivel=<id>` and the provinces come from `legislador/Provincias/1`. Read it in a browser and count by party (13 Nov 2026: Cámara 190, Senado 32).
+- **Sources that work:** acento.com.do, eldia.com.do, eldinero.com.do, diariolibre.com (snippets), caribe.fes.de, lac.oxfam.org. Plain `curl` with a browser user agent reads Acento and El Día; set `PYTHONIOENCODING=utf-8` on Windows.
+- **Quirks:** *patrimonio* means real estate (IPI) in nearly every Dominican text. The 2024 and 2026 fiscal reforms are income and property measures.
