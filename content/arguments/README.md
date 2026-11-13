@@ -18,6 +18,11 @@ standfirst: One or two sentences under the headline.
 updated: 2026-11-08
 layout: article                     # the only template
 status: draft                       # draft (default) shows a Draft badge; final removes it
+card_figure: 26%                    # optional: a big number for the share card, with card_label under it (both or neither)
+card_label: What the label says.
+charts:                             # optional: charts the body places with {{chart: id}} (see Charts below)
+  - id: effective-rates
+    type: bars
 facts:
   - label: Wealth tax since
     value: 1840s
@@ -30,15 +35,38 @@ sources:
 ```
 
 Required: `title`, `kind`, `objection`, `answer`, `standfirst`, `updated`, at least one source with an `https` url. Optional: `author`
-(left out: pages carry no byline), `layout`, `facts`.
+(left out: pages carry no byline), `layout`, `facts`, `charts`, `card_figure` and `card_label`.
 
 ## Body
 
 The story dialect (`content/stories/README.md`): `## Heading {#anchor}` sections, `### `, paragraphs, lists, `**bold**`, `*italic*`,
-`[text](url)`, `[3]` source references, `> quote`. Arguments do not use `{{supporters}}`.
+`[text](url)`, `[3]` source references, `> quote`. Arguments do not use `{{supporters}}`; their one block is `{{chart: id}}` (below).
 
 Links between pages: `/arguments/<slug>` (add `#anchor` to point at a section), `/us` and `/us/story#anchor` for countries,
 `/us/A0675` for a register entry, `/resources/<slug>` for a bill, `/calculator?w=...` for the calculator.
+
+## Charts
+
+A chart is drawn by the build as inline markup: no scripts, no external images, no files to fetch. It uses the site's colour tokens, so it works in
+light and dark, and it is plain text underneath (a screen reader, a crawler and a phone all get the labels and values). Declare it under `charts:`
+in the front matter and put `{{chart: id}}` on a line of its own where it belongs in the body. Every declared chart must be placed once, and the
+build fails on an unknown id, an unknown field, or a `[n]` in a caption with no matching source. A caption names its source with the `[n]` reference.
+
+Fields: `id` (letters, digits, hyphens), `type`, `title` (shown above the chart), `desc` (read out by screen readers, not shown), `caption` (shown
+below, with `[n]` references), and for some types `data`, `unit`, `max`, `limit`, `tone`. In `title`, `desc` and `caption`, `{polls}`, `{poll_countries}`
+and `{above_half}` are filled in at build time with the register's poll counts.
+
+- `type: bars`: a labelled bar for each row of `data`. Rows are joined by `;`, and each is `label|value`, `label|value|tone` or `label|value|tone|shown`.
+  A row with only a label is a heading for the rows under it. `tone` is `signal` (the site's red-orange, the default), `ink`, `gold` or `muted`; `shown`
+  is the text printed at the bar's end when it differs from the number (a range such as `15% to 20%` is drawn at its middle). `unit` (default `%`) is added
+  to a value, and `max` sets what a full bar means (default: the largest value).
+- `type: poll-ranking`: the highest poll in each country that has one, from `data/<country>/meta.json`, with the flag, ranked. `limit: 12` shows the
+  first 12 and folds the rest under "Show the other n countries".
+- `type: status-map`: the world map, coloured from `data/wealth_tax_status.csv` (red-orange: has a wealth tax, gold: used to have one), with the countries
+  listed as text under it. It is drawn from the same outlines as the site's map, simplified.
+
+The code is `scripts/charts.py`, the placeholder swap is `argument_body` in `scripts/build_site.py`, and the styles are the `.chart` block in `site/style.css`.
+Use only numbers that are in the page's `sources`; a chart is a way to show those numbers, not a place to add new ones.
 
 ## Order and short titles
 

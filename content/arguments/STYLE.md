@@ -3,7 +3,7 @@
 Arguments follow `content/stories/STYLE.md` without change: the Humanizer skill pass, the site's own voice, no hedging, a `[n]` source
 on every number, losses reported plainly, stable `{#anchors}`. Two things differ:
 
-- Length. An argument is one objection, answered in about 700 to 1,200 words of body, not 1,500.
+- Length. An argument is one objection, answered in about 700 to 1,200 words of body, not 1,500. The pillar page, `why-tax-wealth`, has no length target: it is as long as the case needs, with anchored sections, a short opening that gives the whole case, and the surprising fact first in each section.
 - The `objection` is written the way a person would say it, in their words, and the `answer` is a claim the page then proves with sources.
 
 ## Voice rules (9 November 2026, from the author's review of the first drafts)
