@@ -12,6 +12,7 @@ from pathlib import Path
 
 ROOT = Path(__file__).resolve().parent.parent
 sys.path.insert(0, str(Path(__file__).resolve().parent))
+import charts as chartlib  # inline charts for the argument pages
 import static_pages as sp  # plain-HTML page bodies for crawlers that do not run the app
 DATA = ROOT / "data"
 
@@ -623,7 +624,7 @@ def featured(P, ev, iso2=""):
 # Front matter (a small YAML subset: `key: value`, and lists of `- key: value` items), then a markdown body. See content/stories/README.md.
 STORIES = ROOT / "content" / "stories"
 STORY_LAYOUTS = ("article",)
-STORY_LISTS = {"facts": ("label", "value"), "timeline": ("year", "text"), "sources": ("id", "title", "url")}
+STORY_LISTS = {"facts": ("label", "value"), "timeline": ("year", "text"), "sources": ("id", "title", "url"), "charts": ("id", "type", "title", "desc", "caption")}  # charts: argument pages only
 
 
 def _unquote(v):
@@ -709,9 +710,10 @@ def story_inline(text, refs):
     return re.sub(r"\x00(\d+)\x00", lambda m: stash[int(m.group(1))], t)
 
 
-def story_markdown(body, refs):
+def story_markdown(body, refs, chart_ids=None):
     """Body -> (intro html, [{id, title, html}]). Blocks: ## and ### headings, paragraphs, - lists, 1. lists, > quotes (an optional last
-    line '— Name, source' is the attribution). Nothing else is passed through. `## Heading {#anchor}` fixes the anchor."""
+    line '— Name, source' is the attribution). Nothing else is passed through. `## Heading {#anchor}` fixes the anchor.
+    With `chart_ids` (argument pages), `{{chart: id}}` on a line of its own places that chart; the build swaps in the figure."""
     sections, cur, seen = [], {"id": "", "title": "", "html": []}, set()
     blocks = [b for b in re.split(r"\n\s*\n", body.replace("\r\n", "\n").strip()) if b.strip()]
     for b in blocks:
@@ -732,6 +734,12 @@ def story_markdown(body, refs):
                     raise SystemExit(f"story: heading {h.group(2)!r} makes a duplicate or empty anchor")
                 seen.add(ident)
                 cur["html"].append(f'<h3 id="{ident}">{story_inline(h.group(2), refs)}</h3>')
+            continue
+        cm = re.fullmatch(r"\{\{chart:\s*([a-z0-9-]+)\s*\}\}", b.strip())
+        if cm and chart_ids is not None:
+            if cm.group(1) not in chart_ids:
+                raise SystemExit(f"story: {{{{chart: {cm.group(1)}}}}} has no entry in charts")
+            cur["html"].append(f'<div data-chart="{cm.group(1)}"></div>')
             continue
         if b.strip() == "{{supporters}}":  # the live "who supports it" block; the site fills it from the country's register data
             cur["html"].append('<div data-block="supporters"></div>')
@@ -828,7 +836,8 @@ ARGUMENT_ORDER = [
     ("unconstitutional", "Unconstitutional"),
     ("nobel-laureates", "Nobel laureates"),
 ]
-ARGUMENT_FIELDS = {"title", "standfirst", "updated", "author", "layout", "facts", "sources", "kind", "objection", "answer", "status"}
+ARGUMENT_FIELDS = {"title", "standfirst", "updated", "author", "layout", "facts", "sources", "kind", "objection", "answer", "status", "charts", "card_figure", "card_label"}
+CHART_CTX = {}  # what the charts draw from, set in main(): the polls, the world outlines and the wealth tax status
 ARGUMENTS_ONLY = False  # --only arguments: a preview build of the section, with the countries its pages link to
 ARGUMENT_HUB_INTRO = ("Every wealth tax meets the same objections. Each one is put here the way people raise it, then answered on a page of its own, "
                       "with the figures, the laws and the court rulings behind the answer. Every number carries a source you can open.")
@@ -899,13 +908,31 @@ def load_arguments():
         for it in fm.get("facts", []):
             if it.get("source") and it["source"] not in ids:
                 err(f"fact {it.get('label')!r} cites source {it['source']}, which is not in sources")
-        if "{{" in body:
-            err("the body has a {{...}} block; arguments have none")
-        cited = set(re.findall(r"\[(\d{1,3})\](?!\()", body))
+        charts = fm.get("charts", [])
+        for ch in charts:
+            for need in STORY_LISTS["charts"]:
+                if not ch.get(need):
+                    err(f"charts item {ch.get('id', ch)} needs {need}")
+            for msg in chartlib.check(ch):
+                err(msg)
+        cids = [ch.get("id") for ch in charts]
+        for dup in sorted({i for i in cids if cids.count(i) > 1}):
+            err(f"chart id {dup!r} appears twice")
+        if "{{" in re.sub(r"(?m)^\{\{chart:\s*[a-z0-9-]+\s*\}\}\s*$", "", body):
+            err("the body has a {{...}} block; arguments have only {{chart: id}}")
+        placed = re.findall(r"(?m)^\{\{chart:\s*([a-z0-9-]+)\s*\}\}\s*$", body)
+        for i in sorted(set(cids) - set(placed)):
+            err(f"chart {i!r} is declared but never placed with {{{{chart: {i}}}}}")
+        for i in sorted({i for i in placed if placed.count(i) > 1}):
+            err(f"chart {i!r} is placed twice")
+        cited = set(re.findall(r"\[(\d{1,3})\](?!\()", body)) | {n for ch in charts for n in re.findall(r"\[(\d{1,3})\](?!\()", ch.get("caption", ""))}
         for n in sorted(cited - set(ids), key=int):
             err(f"the body cites [{n}], which is not in sources")
         try:
-            intro, sections = story_markdown(body, {i: 0 for i in set(ids) | cited})
+            refs = {i: 0 for i in set(ids) | cited}
+            intro, sections = story_markdown(body, refs, set(cids))
+            for ch in charts:
+                ch["caption_html"] = story_inline(ch["caption"], refs)
         except SystemExit as e:
             err(str(e).replace("story: ", ""))
             continue
@@ -916,7 +943,8 @@ def load_arguments():
         words = len(re.sub(r"<[^>]+>", " ", intro + " ".join(s["html"] for s in sections)).split())
         pages[slug] = dict(slug=slug, short=short.get(slug, slug), title=fm.get("title", ""), standfirst=fm.get("standfirst", ""), updated=fm.get("updated", ""),
                            author=fm.get("author", ""), layout=fm.get("layout", "article"), status=fm.get("status", "draft"), objection=fm.get("objection", ""), answer=fm.get("answer", ""),
-                           facts=fm.get("facts", []), sources=srcs, intro=intro, sections=sections, words=words)
+                           facts=fm.get("facts", []), sources=srcs, intro=intro, sections=sections, words=words,
+                           charts={ch["id"]: ch for ch in charts}, card_figure=fm.get("card_figure", ""), card_label=fm.get("card_label", ""))
         print(f"  argument {slug}: {words} words, {len(sections)} sections")
     for s in order:
         if s not in pages and files and not any(e.startswith(s + ".md") for e in errors):
@@ -939,7 +967,9 @@ def argument_body(a, prev, nxt):
     """The article page's <main> content: the story article layout without the country header and tabs, a breadcrumb, and previous/next links."""
     toc = "".join(f'<li><a href="#{h(s["id"])}">{h(s["title"])}</a></li>' for s in a["sections"]) + '<li><a href="#sources">Sources</a></li>'
     facts = ('<dl class="facts">' + "".join(f'<div><dt>{h(f["label"])}</dt><dd>{h(f["value"])}{_ref(f.get("source"))}</dd></div>' for f in a["facts"]) + "</dl>") if a["facts"] else ""
-    secs = "".join(f'<section class="story-sec" id="{h(s["id"])}"><h2><a class="anchor" href="#{h(s["id"])}" aria-label="Link to this section">#</a>{h(s["title"])}</h2>{s["html"]}</section>' for s in a["sections"])
+    def charted(t):  # the build swaps each {{chart: id}} placeholder for its figure
+        return re.sub(r'<div data-chart="([a-z0-9-]+)"></div>', lambda m: chartlib.render(a["charts"][m.group(1)], CHART_CTX), t)
+    secs = "".join(f'<section class="story-sec" id="{h(s["id"])}"><h2><a class="anchor" href="#{h(s["id"])}" aria-label="Link to this section">#</a>{h(s["title"])}</h2>{charted(s["html"])}</section>' for s in a["sections"])
     srcs = ('<section class="story-sec" id="sources"><h2><a class="anchor" href="#sources" aria-label="Link to this section">#</a>Sources</h2><ol class="sources">'
             + "".join(f'<li id="src-{h(r["id"])}"><span class="sn">[{h(r["id"])}]</span> <a href="{h(r["url"])}" target="_blank" rel="noopener noreferrer nofollow">{h(r["title"])} ↗</a></li>' for r in a["sources"])
             + "</ol></section>")
@@ -953,7 +983,7 @@ def argument_body(a, prev, nxt):
             f'<p class="byline">{("By <b>" + h(a["author"]) + "</b> · ") if a["author"] else ""}Updated {h(_long_date(a["updated"]))} · {max(1, round(a["words"] / 220))} min read</p></header>'
             f'<div class="story-grid"><nav class="story-nav" aria-label="On this page"><details class="jump" open><summary>Jump to</summary><ol class="toc">{toc}</ol></details></nav>'
             f'<aside class="story-side"><details class="keyfacts" open><summary>Key facts</summary>{facts}</details></aside>'
-            f'<div class="story-main"><div class="story-intro">{a["intro"]}</div>{secs}{srcs}'
+            f'<div class="story-main"><div class="story-intro">{charted(a["intro"])}</div>{secs}{srcs}'
             f'<nav class="arg-pager" aria-label="More arguments">{pager(prev, "arg-prev", "← Previous")}{pager(nxt, "arg-next", "Next →")}</nav></div></div></article></div>')
 
 
@@ -1048,7 +1078,7 @@ def argument_pages(write, cards, args):
         desc = desc if len(desc) <= 300 else desc[:297].rsplit(" ", 1)[0] + "…"
         write(f"/arguments/{a['slug']}", f"{plain_quote(a['objection'])} · Arguments · Wealth Tax Supporters", desc, "arguments/" + a["slug"],
               f"“{plain_quote(a['objection'])}” answered: {a['short']}",
-              lambda o, a=a: cards.argument_card(o, a["objection"], a["answer"]),
+              lambda o, a=a: cards.argument_card(o, a["objection"], a["answer"], figure=(a["card_figure"], a["card_label"]) if a["card_figure"] and a["card_label"] else None),
               body=argument_body(a, args[i - 1] if i else None, args[i + 1] if i + 1 < len(args) else None))
     return len(args) + 1
 
@@ -1823,6 +1853,9 @@ def main():
     html = html.replace('name="data-version" content=""', f'name="data-version" content="{dv}"')
     html = html.replace('href="/data/world.json" as="fetch"', f'href="/data/world.json?v={dv}" as="fetch"')
     (out / "index.html").write_text(html, encoding="utf-8")
+    polls_best, poll_stats = chartlib.poll_stats(countries)
+    status_rows = list(csv.DictReader(open(DATA / "wealth_tax_status.csv", encoding="utf-8"))) if (DATA / "wealth_tax_status.csv").exists() else []
+    CHART_CTX.update(polls_best=polls_best, stats=poll_stats, paths=paths, status_map=chartlib.status_by_numeric(status_rows, numeric_for) if status_rows else {})
     n = share_pages(out, html, countries, full, unique, bodies, world_resources, stories, arguments, dirstats=dirstats)
     if arguments:
         checked, bad, skipped = check_argument_links(arguments, full, stories, bool(only))

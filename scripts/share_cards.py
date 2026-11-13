@@ -395,22 +395,33 @@ def page_card(out, kicker, title, line, points=()):
     return cached(out, ["page", kicker, title, line, [list(q) for q in points]], draw)
 
 
-def argument_card(out, objection, answer, number=0):
-    """An argument page: the objection in quotes as the headline, the one-line answer under it, and a small 'answered with sources' foot."""
+def argument_card(out, objection, answer, number=0, figure=None):
+    """An argument page: the objection in quotes as the headline, the one-line answer under it, and a small 'answered with sources' foot.
+    With figure=(number, label) the text moves left and the number stands big in a panel at the right (the pillar page uses it)."""
     def draw(path):
         img, dr = _canvas()
         _kicker(img, dr, "Argument · the objection")
-        lines, size = _title(dr, "“" + objection.strip().strip("“”\"") + "”", 1060, 3, 84, 50)
+        width, lines_n, tsz = (600, 3, 60) if figure else (1060, 3, 84)
+        lines, size = _title(dr, "“" + objection.strip().strip("“”\"") + "”", width, lines_n, tsz, 40 if figure else 50)
         y = _put_title(dr, lines, size, 56, 92) + 26
         dr.line((60 * S, y * S, 160 * S, y * S), fill=SIGNAL, width=4 * S)
         y += 24
         dr.text((60 * S, y * S), "THE ANSWER", font=SANS(17, 500), fill=SIGNAL)
         y += 32
-        for ln in _wrap(dr, answer, SANS(27), 1060, 4):
-            dr.text((60 * S, y * S), ln, font=SANS(27), fill=INK2); y += 37
+        room = max(1, (H - FOOT - 24 - y) // (34 if figure else 37)) if figure else 4  # lines that fit above the footer
+        for ln in _wrap(dr, answer, SANS(25 if figure else 27), width, min(4, room)):
+            dr.text((60 * S, y * S), ln, font=SANS(25 if figure else 27), fill=INK2); y += 34 if figure else 37
+        if figure:
+            big, label = figure
+            _panel(dr)
+            nf, _ = _fit(dr, big, SERIF, 380, 200, 90)
+            dr.text((950 * S, 96 * S), big, font=nf, fill=SIGNAL, anchor="mt")
+            ly = 330
+            for ln in _wrap(dr, label, SANS(24, 500), 360, 6):
+                dr.text((950 * S, ly * S), ln, font=SANS(24, 500), fill=INK, anchor="mt"); ly += 31
         _footer(dr)
         _save(img, path)
-    return cached(out, ["argument", objection, answer], draw)
+    return cached(out, ["argument", objection, answer, list(figure) if figure else None, "fit2"], draw)
 
 
 GRADES = (("A", "Explicit support", "A formal act or specific proposal"),

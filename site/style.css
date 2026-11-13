@@ -1265,6 +1265,47 @@ body:not(.ready) .foot { visibility: hidden; }
 .arg-n .draft-pill { margin-left: 8px; vertical-align: 1px; }
 .arg-page .draft-note { margin: 4px 0 16px; }
 
+/* ---------- charts in argument pages (built by scripts/charts.py; no scripts, theme tokens only) ---------- */
+.chart { margin: 30px 0 34px; padding: 18px 20px 14px; background: var(--card); border: 1px solid var(--rule-2); border-radius: 4px; }
+.chart-title { font: 400 clamp(20px, 2.2vw, 24px)/1.2 var(--serif); letter-spacing: -.005em; margin: 0 0 14px !important; color: var(--ink); }
+.chart figcaption { margin-top: 14px; font-size: 13.5px; line-height: 1.5; color: var(--ink-2); }
+.chart figcaption a { color: inherit; }
+.cbars { list-style: none; margin: 0; padding: 0; counter-reset: cb; }
+.cbars .cb { display: grid; grid-template-columns: minmax(120px, 38%) minmax(0, 1fr) 5.4em; align-items: center; gap: 0 12px; padding: 5px 0; font-size: 15px; line-height: 1.3; }
+.cbars .cb-l { color: var(--ink); overflow-wrap: anywhere; }
+.cbars .cb-l a { color: inherit; text-decoration: none; }
+.cbars .cb-l a:hover { text-decoration: underline; }
+.cbars .cb-t { display: block; height: 14px; background: var(--paper-2); border-radius: 2px; overflow: hidden; }
+.cbars .cb-t i { display: block; height: 100%; background: var(--signal); }
+.cbars .cb-ink .cb-t i { background: var(--ink); }
+.cbars .cb-gold .cb-t i { background: var(--gold); }
+.cbars .cb-muted .cb-t i { background: var(--ink-3); }
+.cbars .cb-v { font: 600 14px/1 var(--mono); text-align: right; font-variant-numeric: tabular-nums; color: var(--ink); }
+.cbars .cb-g { margin: 12px 0 2px; font: 500 12px/1.3 var(--mono); letter-spacing: .08em; text-transform: uppercase; color: var(--ink-3); }
+.cbars .cb-g:first-child { margin-top: 0; }
+.cb-rank .cb { padding: 3px 0; font-size: 14.5px; grid-template-columns: minmax(130px, 34%) minmax(0, 1fr) 3em; }
+.cb-rank .flag { width: 20px; height: 14px; margin-right: 8px; vertical-align: -2px; }
+.cb-more { margin-top: 10px; }
+.cb-more summary { cursor: pointer; font-weight: 600; font-size: 14px; }
+.cb-more p { margin: 8px 0 0 !important; font-size: 14px; line-height: 1.5; color: var(--ink-2); }
+.cmap { display: block; width: 100%; height: auto; }
+.cmap .m-land { fill: var(--land); }
+.cmap .m-has { fill: var(--gold); stroke: var(--gold); stroke-width: 2.5; stroke-linejoin: round; }
+.cmap .m-had { fill: var(--silver); stroke: var(--silver); stroke-width: 1.2; stroke-linejoin: round; }
+.cmap-key { display: flex; flex-wrap: wrap; gap: 6px 18px; margin: 10px 0 0 !important; font-size: 14px; color: var(--ink-2); }
+.cmap-key span { display: inline-flex; align-items: center; gap: 7px; }
+.cmap-key i { width: 14px; height: 10px; border-radius: 2px; display: inline-block; }
+.cmap-key i.m-has { background: var(--gold); }
+.cmap-key i.m-had { background: var(--silver); }
+@media (max-width: 560px) {
+  .chart { padding: 14px 14px 12px; margin-left: -4px; margin-right: -4px; }
+  .cbars .cb, .cb-rank .cb { grid-template-columns: minmax(0, 1fr) 3.4em; grid-template-areas: "l v" "t t"; gap: 3px 10px; padding: 7px 0; }
+  .cbars .cb-l { grid-area: l; }
+  .cbars .cb-v { grid-area: v; }
+  .cbars .cb-t { grid-area: t; height: 10px; }
+  .cb-rank .cb { padding: 5px 0; }
+}
+
 /* ---------- changelog ---------- */
 .changelog { max-width: 760px; }
 .cl-day { padding: 26px 0; border-top: 1px solid var(--rule); }
