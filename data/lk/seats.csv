@@ -1,0 +1,14 @@
+seat_id,body_id,party,seats,colour,order
+S0001,B0001,National People's Power,159,C8102E,1
+S0002,B0001,Samagi Jana Balawegaya,40,0B7A3B,2
+S0003,B0001,Ilankai Tamil Arasu Kachchi,8,F2B705,3
+S0004,B0001,New Democratic Front,5,1B7F3A,4
+S0005,B0001,Sri Lanka Podujana Peramuna,3,8B1A1A,5
+S0006,B0001,Sri Lanka Muslim Congress,3,2E8B57,6
+S0007,B0001,United National Party,1,2E7D32,7
+S0008,B0001,Democratic Tamil National Alliance,1,D4A017,8
+S0009,B0001,Sarvajana Balaya,1,6A5ACD,9
+S0010,B0001,All Ceylon Tamil Congress,1,E4572E,10
+S0011,B0001,All Ceylon Makkal Congress,1,7B2D26,11
+S0012,B0001,Sri Lanka Labour Party,1,B22222,12
+S0013,B0001,Independent Group 17 (Jaffna),1,808080,13

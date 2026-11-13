@@ -1,0 +1,8 @@
+{
+  "name": "Sri Lanka",
+  "iso2": "LK",
+  "lead": "",
+  "status": "in progress",
+  "boundaries": "boundaries.json",
+  "notes": "Depth: seed pass R001 (2026-11-13). Scope: national debate in English; Sinhala and Tamil not searched. Geography: Sri Lanka G0001, Parliament G0002, 9 provinces and 25 districts from the OCHA COD-AB Sri Lanka dataset (CC BY-IGO 3.0, Survey Department boundaries, P-codes LK1 to LK9 and LK11 to LK92). The map tier is the district; 331 divisional secretariats are not loaded. No wealth tax is in force: it was abolished from 1992/93. The 2022 IMF programme listed one; the June 2024 'wealth tax' was an imputed rental income tax on property and was not enacted. Supporters found are the IMF, World Bank, Human Rights Watch, Crisis Group, IPS, Arutha, one economist (Devarajan) and former president Wickremesinghe; no sitting MP, party or union statement was found. Opponents and out-of-definition items are in exclusions.csv. Seats tab: Parliament, 225 members by party from parliament.lk, 13 Nov 2026. No polls found."
+}

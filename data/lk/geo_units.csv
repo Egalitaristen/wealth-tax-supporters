@@ -1,0 +1,37 @@
+geo_unit_id,name,level,unit_type,parent_id,website,sweep_status,swept_run,swept_date,queries_run,hits,notes,code
+G0001,Sri Lanka,national,country,,,in_progress,,,,,"Seed pass: national debate, parties, unions, economists, civil society.",LK
+G0002,Parliament of Sri Lanka,national,legislature,G0001,,in_progress,,,,,225 members; unicameral.,
+G0003,Central Province,region,province,G0001,,pending,,,,,,LK2
+G0004,Eastern Province,region,province,G0001,,pending,,,,,,LK5
+G0005,North Central Province,region,province,G0001,,pending,,,,,,LK7
+G0006,North Western Province,region,province,G0001,,pending,,,,,,LK6
+G0007,Northern Province,region,province,G0001,,pending,,,,,,LK4
+G0008,Sabaragamuwa Province,region,province,G0001,,pending,,,,,,LK9
+G0009,Southern Province,region,province,G0001,,pending,,,,,,LK3
+G0010,Uva Province,region,province,G0001,,pending,,,,,,LK8
+G0011,Western Province,region,province,G0001,,pending,,,,,,LK1
+G0012,Colombo,council,district,G0011,,pending,,,,,,LK11
+G0013,Gampaha,council,district,G0011,,pending,,,,,,LK12
+G0014,Kalutara,council,district,G0011,,pending,,,,,,LK13
+G0015,Kandy,council,district,G0003,,pending,,,,,,LK21
+G0016,Matale,council,district,G0003,,pending,,,,,,LK22
+G0017,Nuwara Eliya,council,district,G0003,,pending,,,,,,LK23
+G0018,Galle,council,district,G0009,,pending,,,,,,LK31
+G0019,Matara,council,district,G0009,,pending,,,,,,LK32
+G0020,Hambantota,council,district,G0009,,pending,,,,,,LK33
+G0021,Jaffna,council,district,G0007,,pending,,,,,,LK41
+G0022,Mannar,council,district,G0007,,pending,,,,,,LK42
+G0023,Vavuniya,council,district,G0007,,pending,,,,,,LK43
+G0024,Mullaitivu,council,district,G0007,,pending,,,,,,LK44
+G0025,Kilinochchi,council,district,G0007,,pending,,,,,,LK45
+G0026,Batticaloa,council,district,G0004,,pending,,,,,,LK51
+G0027,Ampara,council,district,G0004,,pending,,,,,,LK52
+G0028,Trincomalee,council,district,G0004,,pending,,,,,,LK53
+G0029,Kurunegala,council,district,G0006,,pending,,,,,,LK61
+G0030,Puttalam,council,district,G0006,,pending,,,,,,LK62
+G0031,Anuradhapura,council,district,G0005,,pending,,,,,,LK71
+G0032,Polonnaruwa,council,district,G0005,,pending,,,,,,LK72
+G0033,Badulla,council,district,G0010,,pending,,,,,,LK81
+G0034,Monaragala,council,district,G0010,,pending,,,,,,LK82
+G0035,Ratnapura,council,district,G0008,,pending,,,,,,LK91
+G0036,Kegalle,council,district,G0008,,pending,,,,,,LK92
