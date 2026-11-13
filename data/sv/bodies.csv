@@ -1,0 +1,3 @@
+body_id,name,level,kind,seats,as_of,source_url,seat_view,notes
+B0001,Asamblea Legislativa,national,chamber,60,2026-11-13,https://en.wikipedia.org/wiki/Legislative_Assembly_of_El_Salvador,y,"Unicameral, 60 deputies elected 4 February 2024 (term to 2027). Split from Wikipedia's results table of the TSE figures, because asamblea.gob.sv was not read from here; the FMLN, GANA and Nuestro Tiempo hold no seats. No known supporter sits in it."
+B0002,Órgano Ejecutivo,national,other,,,,,President and ministers.

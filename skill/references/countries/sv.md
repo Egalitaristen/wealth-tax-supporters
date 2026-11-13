@@ -1,0 +1,6 @@
+# El Salvador (data/sv)
+
+- **Geography:** 14 departamentos as regions and 44 municipios as the local tier (the 2024 territorial reform; the 262 former municipios are now distritos and are not loaded), from the [OCHA / HDX COD-AB El Salvador](https://data.humdata.org/dataset/cod-ab-slv) GeoJSON (valid 2024-08-19, CC BY-IGO; `slv_admin1.geojson`, `slv_admin2.geojson`), P-codes as codes. Drop the four lake polygons from admin 2 (Embalse Cerrón Grande, Lago de Ilopango, Lago de Güija, Lago de Coatepeque), then run `topo_to_boundaries.py` with `--project lonlat --scale 100 --simplify 0.2 --name-prop adm2_name / adm1_name --code-prop adm2_pcode / adm1_pcode` and merge with `merge_boundaries.py`. The files are UTF-8 with accents (a Windows console shows them as �).
+- **Seats:** no adapter; the 60 seats are the February 2024 result from Wikipedia's table of the TSE figures. Replace with the Asamblea's own list.
+- **Sources that work:** diario.elmundo.sv, eldiariodehoy.com, diariocolatino.com, elsalvadornow.org, revistas.uca.edu.sv (journal PDFs), icefi.org. elfaro.net sits behind Cloudflare; Wayback copies rate-limit scripts.
+- **Quirks:** the Impuesto al Patrimonio was abolished in 1994; the 2014 FMLN package taxed unproductive property and company net assets, not personal wealth. One Salvadoran article misprints Oxfam's threshold as "$5,000 millones".
