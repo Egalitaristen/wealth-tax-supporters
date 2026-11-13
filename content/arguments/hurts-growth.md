@@ -1,5 +1,5 @@
 ---
-title: A wealth tax comes out of the owner's untaxed return, not out of the company, and investment held where it was tried
+title: A wealth tax takes a point or two off an owner's untaxed return and leaves the company's investment alone
 kind: argument
 objection: "A wealth tax hurts investment and growth."
 answer: It is charged on the owner's holding, not the company, and still leaves a billionaire 5.5% a year. Investment held where it was tried, and growth did not take off where it was repealed.
@@ -54,7 +54,7 @@ sources:
     title: Balkir, Saez, Yagan and Zucman, How Much Tax Do US Billionaires Pay? Evidence from Administrative Data, NBER Working Paper 34170 (August 2025, not peer reviewed)
     url: https://gabriel-zucman.eu/files/BSYZ2025NBER.pdf
   - id: 9
-    title: World Bank, World Development Indicators, GDP per capita (constant 2015 US$, NY.GDP.PCAP.KD) and gross fixed capital formation (% of GDP, NE.GDI.FTOT.ZS), series read on 13 November 2026; the growth rates and averages are calculated here
+    title: World Bank, World Development Indicators, GDP per capita (constant 2015 US$, NY.GDP.PCAP.KD), gross fixed capital formation (% of GDP, NE.GDI.FTOT.ZS) and the OECD members aggregate, series downloaded on 13 November 2026. Method (our calculation): for each country, average yearly growth of GDP per person over the ten years up to the repeal year and over the ten years after it, with the repeal year from the register; the gap is the country's growth minus the OECD members' growth over the same ten years; investment share is the average over the ten years before and after
     url: https://data.worldbank.org/indicator/NY.GDP.PCAP.KD
   - id: 10
     title: Wealth Tax Supporters, wealth tax status by country (data/wealth_tax_status.csv, 13 November 2026), with the repeal years in its notes
@@ -85,12 +85,12 @@ charts:
     data: Billionaires today; After the tax they pay now|7.2|ink; With a 2% minimum tax|5.5|signal; The average person in the world; After tax|5.5|muted|5% to 6%
   - id: repeal-growth
     type: bars
-    title: Growth per person each year, ten years before and ten years after a country repealed its wealth tax
-    desc: Average yearly growth of GDP per person. Sweden, repealed 2007, 2.99% before and 0.52% after. Finland, 2006, 3.62% before and minus 0.12% after. The Netherlands, 2001, 2.64% before and 0.92% after. Germany, 1997, 2.05% before and 1.64% after. Denmark, 1997, 1.72% before and 1.74% after. Austria, 1994, 2.11% before and 2.10% after.
-    caption: Average yearly growth of GDP per person at constant prices over the ten years up to and the ten years after the repeal year in the register. The OECD as a whole grew 1.98% and 0.75% over the Swedish windows.[9][10]
-    unit: "%"
-    max: 4
-    data: Sweden, repealed 2007; Ten years before|2.99|muted; Ten years after|0.52|signal; Finland, repealed 2006; Ten years before|3.62|muted; Ten years after|0|signal|-0.12%; The Netherlands, repealed 2001; Ten years before|2.64|muted; Ten years after|0.92|signal; Germany, not levied since 1997; Ten years before|2.05|muted; Ten years after|1.64|signal; Denmark, repealed 1997; Ten years before|1.72|muted; Ten years after|1.74|signal; Austria, repealed 1994; Ten years before|2.11|muted; Ten years after|2.10|signal
+    title: Growth per person against the OECD average, ten years before and ten years after a repeal
+    desc: Points a year ahead of or behind the OECD average in growth of GDP per person. Sweden, repealed 2007, 1.01 ahead before and 0.23 behind after. Finland, 2006, 1.54 ahead and 0.86 behind. The Netherlands, 2001, 0.62 ahead and 0.07 behind. Germany, 1997, 0.05 ahead and 0.34 behind. Denmark, 1997, 0.27 behind and 0.25 behind. Austria, 1994, 0.05 ahead and 0.03 ahead.
+    caption: Average yearly growth of GDP per person at constant prices, the country minus the OECD members over the same ten years, in percentage points. Grey is ahead of the OECD, red is behind. Calculated from World Bank series; the repeal years are the register's.[9][10]
+    unit: " points"
+    max: 1.6
+    data: Sweden, repealed 2007; Ten years before|1.01|muted|1.01 ahead; Ten years after|0.23|signal|0.23 behind; Finland, repealed 2006; Ten years before|1.54|muted|1.54 ahead; Ten years after|0.86|signal|0.86 behind; The Netherlands, repealed 2001; Ten years before|0.62|muted|0.62 ahead; Ten years after|0.07|signal|0.07 behind; Germany, not levied since 1997; Ten years before|0.05|muted|0.05 ahead; Ten years after|0.34|signal|0.34 behind; Denmark, repealed 1997; Ten years before|0.27|signal|0.27 behind; Ten years after|0.25|signal|0.25 behind; Austria, repealed 1994; Ten years before|0.05|muted|0.05 ahead; Ten years after|0.03|muted|0.03 ahead
 ---
 A wealth tax is charged on the owner's shares. It is not charged on the company. The factory, the payroll and the new plant sit inside the company, and the company pays the same corporate tax with or without a wealth tax on its owner. The owner pays out of a fortune that, for billionaires, now grows almost untaxed.
 
@@ -134,9 +134,9 @@ The register counts 10 countries with a wealth tax and 13 that used to have one.
 
 {{chart: repeal-growth}}
 
-In none of the six did growth per person speed up relative to the OECD. Measured against the OECD average over the same ten years, Sweden went from 1.01 points a year ahead to 0.23 points behind, Finland from 1.54 ahead to 0.86 behind, the Netherlands from 0.62 ahead to 0.07 behind and Germany from 0.05 ahead to 0.34 behind. Denmark stayed 0.25 to 0.27 points behind, and Austria 0.03 to 0.05 points ahead.[9]
+The chart measures each country against the OECD average, so the 2008 crisis, which hit everyone, drops out. In none of the six did growth per person speed up relative to the OECD after repeal. Sweden went from 1.01 points a year ahead to 0.23 behind, Finland from 1.54 ahead to 0.86 behind, the Netherlands from 0.62 ahead to 0.07 behind and Germany from 0.05 ahead to 0.34 behind. Denmark stayed 0.25 to 0.27 points behind and Austria 0.03 to 0.05 ahead.[9] What this shows: no country that scrapped its wealth tax pulled ahead of its peers afterwards. What it does not show: that repeal caused the slowdown.
 
-The share of output that went to investment points the same way: it rose in Denmark, Finland and Sweden and fell in Austria, Germany and the Netherlands. There is no pattern.[9] That does not prove that repeal slowed growth, because other things happened in those years, among them German unification and the 2008 crisis. It does show that the promise behind repeal, that an economy freed from the tax would race ahead, did not come true in any of the six. More on what repeal cost: [Europe repealed it](/arguments/europe-repealed-it).
+The share of output that went to investment points the same way: it rose in Denmark, Finland and Sweden and fell in Austria, Germany and the Netherlands. There is no pattern.[9] The promise behind repeal, that an economy freed from the tax would race ahead, did not come true in any of the six. More on what repeal cost: [Europe repealed it](/arguments/europe-repealed-it).
 
 ## The head start slows growth {#head-start}
 
