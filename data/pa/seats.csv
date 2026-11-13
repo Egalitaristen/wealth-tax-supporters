@@ -1,11 +1,10 @@
 seat_id,body_id,party,seats,colour,order
-S0001,B0001,Realizando Metas,15,5579c6,1
+S0001,B0001,Realizando Metas,14,5579c6,1
 S0002,B0001,Partido Alianza,2,fe0103,2
 S0003,B0001,PRD,12,d62828,3
-S0004,B0001,Cambio Democratico,8,3a9d23,4
+S0004,B0001,Cambio Democratico,9,3a9d23,4
 S0005,B0001,Molirena,1,1e5aa8,5
-S0006,B0001,Partido Popular,1,7bc141,6
-S0007,B0001,Independent,5,8a8680,7
-S0008,B0001,Partido Panamenista,8,800080,8
-S0009,B0001,Movimiento Otro Camino (MOCA),3,ff7600,9
-S0010,B0001,Vamos,16,f7ab00,10
+S0006,B0001,Partido Popular,2,7bc141,6
+S0007,B0001,Partido Panamenista,8,800080,7
+S0008,B0001,Movimiento Otro Camino (MOCA),3,ff7600,8
+S0009,B0001,Libre Postulacion,20,f7ab00,9
