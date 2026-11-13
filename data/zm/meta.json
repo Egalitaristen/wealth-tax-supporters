@@ -1,0 +1,9 @@
+{
+  "name": "Zambia",
+  "iso2": "ZM",
+  "lead": "",
+  "status": "in progress",
+  "boundaries": "boundaries.json",
+  "notes": "Seed pass R001 (2026-11-13), national level, English only. Register: the 10 provinces and 116 districts. Supporters: ActionAid Zambia and its tax advisor (2020), CUTS Lusaka's 2020 Fair Tax Monitor, Climate Action Network Zambia (2025 open letter) and Socialist Party president Fred M'membe (2026 policy manifesto, as reported by the Lusaka Times). No bill or motion, no poll on a wealth tax. No Seats tab: the 2026 National Assembly was not settled when this was written. Map: OCHA / HDX COD-AB (CC BY-IGO 3.0), official P-codes; the files are the unmodified COD-AB layers.",
+  "polls": []
+}

@@ -1,0 +1,123 @@
+geo_unit_id,name,level,unit_type,parent_id,website,sweep_status,swept_run,swept_date,queries_run,hits,notes,code
+G0001,Namibia,national,country,,,pending,,,,,,
+G0002,Zambezi,region,region,G0001,,pending,,,,,,NA01
+G0003,Erongo,region,region,G0001,,pending,,,,,,NA02
+G0004,Hardap,region,region,G0001,,pending,,,,,,NA03
+G0005,Karas,region,region,G0001,,pending,,,,,,NA04
+G0006,Kavango East,region,region,G0001,,pending,,,,,,NA05
+G0007,Khomas,region,region,G0001,,pending,,,,,,NA06
+G0008,Kunene,region,region,G0001,,pending,,,,,,NA07
+G0009,Ohangwena,region,region,G0001,,pending,,,,,,NA08
+G0010,Omaheke,region,region,G0001,,pending,,,,,,NA09
+G0011,Omusati,region,region,G0001,,pending,,,,,,NA10
+G0012,Oshana,region,region,G0001,,pending,,,,,,NA11
+G0013,Oshikoto,region,region,G0001,,pending,,,,,,NA12
+G0014,Otjozondjupa,region,region,G0001,,pending,,,,,,NA13
+G0015,Kavango West,region,region,G0001,,pending,,,,,,NA14
+G0016,Kabbe,council,constituency,G0002,,pending,,,,,,NA0101
+G0017,Katima Mulilo Rural,council,constituency,G0002,,pending,,,,,,NA0102
+G0018,Katima Mulilo Urban,council,constituency,G0002,,pending,,,,,,NA0103
+G0019,Kongola,council,constituency,G0002,,pending,,,,,,NA0104
+G0020,Linyanti,council,constituency,G0002,,pending,,,,,,NA0105
+G0021,Sibbinda,council,constituency,G0002,,pending,,,,,,NA0106
+G0022,Arandis,council,constituency,G0003,,pending,,,,,,NA0201
+G0023,Daures,council,constituency,G0003,,pending,,,,,,NA0202
+G0024,Karibib,council,constituency,G0003,,pending,,,,,,NA0203
+G0025,Omaruru,council,constituency,G0003,,pending,,,,,,NA0204
+G0026,Swakopmund,council,constituency,G0003,,pending,,,,,,NA0205
+G0027,Walvis Bay Rural,council,constituency,G0003,,pending,,,,,,NA0206
+G0028,Walvis Bay Urban,council,constituency,G0003,,pending,,,,,,NA0207
+G0029,Gibeon,council,constituency,G0004,,pending,,,,,,NA0301
+G0030,Mariental Rural,council,constituency,G0004,,pending,,,,,,NA0302
+G0031,Mariental Urban,council,constituency,G0004,,pending,,,,,,NA0303
+G0032,Rehoboth Rural,council,constituency,G0004,,pending,,,,,,NA0304
+G0033,Rehoboth Urban East,council,constituency,G0004,,pending,,,,,,NA0305
+G0034,Rehoboth Urban West,council,constituency,G0004,,pending,,,,,,NA0306
+G0035,Berseba,council,constituency,G0005,,pending,,,,,,NA0401
+G0036,Karasburg,council,constituency,G0005,,pending,,,,,,NA0402
+G0037,Keetmanshoop Rural,council,constituency,G0005,,pending,,,,,,NA0403
+G0038,Keetmanshoop Urban,council,constituency,G0005,,pending,,,,,,NA0404
+G0039,Naminus (Luderitz),council,constituency,G0005,,pending,,,,,,NA0405
+G0040,Oranjemund,council,constituency,G0005,,pending,,,,,,NA0406
+G0041,Mashare,council,constituency,G0006,,pending,,,,,,NA0503
+G0042,Mukwe,council,constituency,G0006,,pending,,,,,,NA0505
+G0043,Ndiyona,council,constituency,G0006,,pending,,,,,,NA0506
+G0044,Rundu Rural West,council,constituency,G0006,,pending,,,,,,NA0507
+G0045,Rundu Urban,council,constituency,G0006,,pending,,,,,,NA0508
+G0046,Rundu Rural East,council,constituency,G0006,,pending,,,,,,NA0509
+G0047,Tobias Hainyeko,council,constituency,G0007,,pending,,,,,,NA0601
+G0048,Katutura Central,council,constituency,G0007,,pending,,,,,,NA0602
+G0049,Katutura East,council,constituency,G0007,,pending,,,,,,NA0603
+G0050,Khomasdal North,council,constituency,G0007,,pending,,,,,,NA0604
+G0051,John Pandeni (Soweto),council,constituency,G0007,,pending,,,,,,NA0605
+G0052,Samora Machel (Wanaheda),council,constituency,G0007,,pending,,,,,,NA0606
+G0053,Windhoek East,council,constituency,G0007,,pending,,,,,,NA0607
+G0054,Windhoek Rural,council,constituency,G0007,,pending,,,,,,NA0608
+G0055,Windhoek West,council,constituency,G0007,,pending,,,,,,NA0609
+G0056,Moses Garoeb,council,constituency,G0007,,pending,,,,,,NA0610
+G0057,Epupa,council,constituency,G0008,,pending,,,,,,NA0701
+G0058,Kamanjab,council,constituency,G0008,,pending,,,,,,NA0702
+G0059,Khorixas,council,constituency,G0008,,pending,,,,,,NA0703
+G0060,Opuwo,council,constituency,G0008,,pending,,,,,,NA0704
+G0061,Outjo,council,constituency,G0008,,pending,,,,,,NA0705
+G0062,Sesfontein,council,constituency,G0008,,pending,,,,,,NA0706
+G0063,Eenhana,council,constituency,G0009,,pending,,,,,,NA0801
+G0064,Endola,council,constituency,G0009,,pending,,,,,,NA0802
+G0065,Engela,council,constituency,G0009,,pending,,,,,,NA0803
+G0066,Epembe,council,constituency,G0009,,pending,,,,,,NA0804
+G0067,Ohangwena,council,constituency,G0009,,pending,,,,,,NA0805
+G0068,Okongo,council,constituency,G0009,,pending,,,,,,NA0806
+G0069,Omundaungilo,council,constituency,G0009,,pending,,,,,,NA0807
+G0070,Ondobe,council,constituency,G0009,,pending,,,,,,NA0808
+G0071,Ongenga,council,constituency,G0009,,pending,,,,,,NA0809
+G0072,Oshikango,council,constituency,G0009,,pending,,,,,,NA0810
+G0073,Omulonga,council,constituency,G0009,,pending,,,,,,NA0811
+G0074,Aminius,council,constituency,G0010,,pending,,,,,,NA0901
+G0075,Gobabis,council,constituency,G0010,,pending,,,,,,NA0902
+G0076,Kalahari,council,constituency,G0010,,pending,,,,,,NA0903
+G0077,Otjinene,council,constituency,G0010,,pending,,,,,,NA0904
+G0078,Otjombinde,council,constituency,G0010,,pending,,,,,,NA0905
+G0079,Okarukambe (Steinhausen),council,constituency,G0010,,pending,,,,,,NA0906
+G0080,Epukiro,council,constituency,G0010,,pending,,,,,,NA0907
+G0081,Anamulenge,council,constituency,G0011,,pending,,,,,,NA1001
+G0082,Elim,council,constituency,G0011,,pending,,,,,,NA1002
+G0083,Etayi,council,constituency,G0011,,pending,,,,,,NA1003
+G0084,Ogongo,council,constituency,G0011,,pending,,,,,,NA1004
+G0085,Okahao,council,constituency,G0011,,pending,,,,,,NA1005
+G0086,Okalongo,council,constituency,G0011,,pending,,,,,,NA1006
+G0087,Onesi,council,constituency,G0011,,pending,,,,,,NA1007
+G0088,Oshikuku,council,constituency,G0011,,pending,,,,,,NA1008
+G0089,Outapi,council,constituency,G0011,,pending,,,,,,NA1009
+G0090,Ruacana,council,constituency,G0011,,pending,,,,,,NA1010
+G0091,Tsandi,council,constituency,G0011,,pending,,,,,,NA1011
+G0092,Otamanzi,council,constituency,G0011,,pending,,,,,,NA1012
+G0093,Okaku,council,constituency,G0012,,pending,,,,,,NA1101
+G0094,Okatana,council,constituency,G0012,,pending,,,,,,NA1102
+G0095,Okatyali,council,constituency,G0012,,pending,,,,,,NA1103
+G0096,Ompundja,council,constituency,G0012,,pending,,,,,,NA1104
+G0097,Ondangwa,council,constituency,G0012,,pending,,,,,,NA1105
+G0098,Ongwediva,council,constituency,G0012,,pending,,,,,,NA1106
+G0099,Oshakati East,council,constituency,G0012,,pending,,,,,,NA1107
+G0100,Oshakati West,council,constituency,G0012,,pending,,,,,,NA1108
+G0101,Uukwiyu,council,constituency,G0012,,pending,,,,,,NA1109
+G0102,Uuvudhiya,council,constituency,G0012,,pending,,,,,,NA1110
+G0103,Eengodi,council,constituency,G0013,,pending,,,,,,NA1201
+G0104,Guinas,council,constituency,G0013,,pending,,,,,,NA1202
+G0105,Okankolo,council,constituency,G0013,,pending,,,,,,NA1203
+G0106,Olukonda,council,constituency,G0013,,pending,,,,,,NA1204
+G0107,Omuntele,council,constituency,G0013,,pending,,,,,,NA1205
+G0108,Omuthiyagwiipundi,council,constituency,G0013,,pending,,,,,,NA1206
+G0109,Onayena,council,constituency,G0013,,pending,,,,,,NA1207
+G0110,Oniipa,council,constituency,G0013,,pending,,,,,,NA1208
+G0111,Onyaanya,council,constituency,G0013,,pending,,,,,,NA1209
+G0112,Tsumeb,council,constituency,G0013,,pending,,,,,,NA1210
+G0113,Grootfontein,council,constituency,G0014,,pending,,,,,,NA1301
+G0114,Okahandja,council,constituency,G0014,,pending,,,,,,NA1302
+G0115,Okakarara,council,constituency,G0014,,pending,,,,,,NA1303
+G0116,Omatako,council,constituency,G0014,,pending,,,,,,NA1304
+G0117,Otavi,council,constituency,G0014,,pending,,,,,,NA1305
+G0118,Otjiwarongo,council,constituency,G0014,,pending,,,,,,NA1306
+G0119,Tsumkwe,council,constituency,G0014,,pending,,,,,,NA1307
+G0120,Kahenge,council,constituency,G0015,,pending,,,,,,NA1401
+G0121,Kapako,council,constituency,G0015,,pending,,,,,,NA1402
+G0122,Mpungu,council,constituency,G0015,,pending,,,,,,NA1404

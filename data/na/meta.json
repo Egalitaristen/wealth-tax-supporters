@@ -1,0 +1,9 @@
+{
+  "name": "Namibia",
+  "iso2": "NA",
+  "lead": "",
+  "status": "in progress",
+  "boundaries": "boundaries.json",
+  "notes": "Seed pass R001 (2026-11-13), national level, English only. Register: the 14 regions and 107 constituencies (the OCHA layer predates the 2023 delimitation to 121 constituencies); local authorities not loaded. A real search found no readable statement for a tax on net wealth beyond two grade C opinion-piece rows; the one likely source (the BIG Coalition's 2024 submission, reported by Namibian Sun) is paywalled and is an open lead. The 2015-2016 'Solidarity Wealth Tax' was an income-bracket surcharge and is excluded. Seats tab: the 96 elected National Assembly seats by party from the Electoral Commission's declaration of 3 December 2024; no member is named, so no seat is lit. Map: OCHA / HDX COD-AB (CC BY-IGO 3.0), official P-codes; the files are the unmodified COD-AB layers.",
+  "polls": []
+}

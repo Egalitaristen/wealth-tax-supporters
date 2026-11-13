@@ -1,0 +1,6 @@
+actor_id,name,kind,actor_type,other_types,role,affiliation,party,affiliation_actor_id,country,level,location,geo_unit_id,location_source,wikidata_qid,website,status,alive_checked,prominence,notes,added_run,updated,refined
+A0001,ActionAid Zambia,organisation,ngo_campaign,,Zambia country programme of ActionAid; tax-justice advocacy,,,,Zambia,national,Zambia,G0001,,,,active,na,national,,R001,2026-11-13,
+A0002,Mtwalo Msoni,person,campaigner,,"Global tax advisor, ActionAid",ActionAid,,,Zambia,national,Zambia,G0001,,,,active,y,national,,R001,2026-11-13,
+A0003,"CUTS International, Lusaka",organisation,think_tank,,Lusaka office of CUTS International; authors of the 2020 Zambia Fair Tax Monitor report,,,,Zambia,national,Zambia,G0001,,,,active,na,national,,R001,2026-11-13,
+A0004,Climate Action Network (CAN) Zambia,organisation,ngo_campaign,,Zambian climate-justice network; signatory of the November 2025 open letter on taxing Africa's super-rich,,,,Zambia,national,Zambia,G0001,,,,active,na,local,,R001,2026-11-13,
+A0005,Fred M'membe,person,politician,,President of the Socialist Party (Zambia); former presidential candidate,,Socialist Party,,Zambia,national,Zambia,G0001,,,,active,y,national,Role from the Lusaka Times report; the Socialist Party itself is not recorded as an actor (the 2026 wealth tax proposal is reported as his own policy manifesto).,R001,2026-11-13,
