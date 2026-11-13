@@ -62,7 +62,7 @@ and `{above_half}` are filled in at build time with the register's poll counts.
   to a value, and `max` sets what a full bar means (default: the largest value).
 - `type: poll-ranking`: the highest poll in each country that has one, from `data/<country>/meta.json`, with the flag, ranked. `limit: 12` shows the
   first 12 and folds the rest under "Show the other n countries".
-- `type: status-map`: the world map, coloured from `data/wealth_tax_status.csv` (red-orange: has a wealth tax, gold: used to have one), with the countries
+- `type: status-map`: the world map, coloured from `data/wealth_tax_status.csv` (gold: has a wealth tax, silver: used to have one, as on the site's own map), with the countries
   listed as text under it. It is drawn from the same outlines as the site's map, simplified.
 
 The code is `scripts/charts.py`, the placeholder swap is `argument_body` in `scripts/build_site.py`, and the styles are the `.chart` block in `site/style.css`.

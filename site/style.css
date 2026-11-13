@@ -1290,13 +1290,13 @@ body:not(.ready) .foot { visibility: hidden; }
 .cb-more p { margin: 8px 0 0 !important; font-size: 14px; line-height: 1.5; color: var(--ink-2); }
 .cmap { display: block; width: 100%; height: auto; }
 .cmap .m-land { fill: var(--land); }
-.cmap .m-has { fill: var(--signal); stroke: var(--signal); stroke-width: 2.5; stroke-linejoin: round; }
-.cmap .m-had { fill: var(--gold); stroke: var(--gold); stroke-width: 1.2; stroke-linejoin: round; }
+.cmap .m-has { fill: var(--gold); stroke: var(--gold); stroke-width: 2.5; stroke-linejoin: round; }
+.cmap .m-had { fill: var(--silver); stroke: var(--silver); stroke-width: 1.2; stroke-linejoin: round; }
 .cmap-key { display: flex; flex-wrap: wrap; gap: 6px 18px; margin: 10px 0 0 !important; font-size: 14px; color: var(--ink-2); }
 .cmap-key span { display: inline-flex; align-items: center; gap: 7px; }
 .cmap-key i { width: 14px; height: 10px; border-radius: 2px; display: inline-block; }
-.cmap-key i.m-has { background: var(--signal); }
-.cmap-key i.m-had { background: var(--gold); }
+.cmap-key i.m-has { background: var(--gold); }
+.cmap-key i.m-had { background: var(--silver); }
 @media (max-width: 560px) {
   .chart { padding: 14px 14px 12px; margin-left: -4px; margin-right: -4px; }
   .cbars .cb, .cb-rank .cb { grid-template-columns: minmax(0, 1fr) 3.4em; grid-template-areas: "l v" "t t"; gap: 3px 10px; padding: 7px 0; }

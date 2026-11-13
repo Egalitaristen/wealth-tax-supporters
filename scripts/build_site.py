@@ -1854,7 +1854,8 @@ def main():
     html = html.replace('href="/data/world.json" as="fetch"', f'href="/data/world.json?v={dv}" as="fetch"')
     (out / "index.html").write_text(html, encoding="utf-8")
     polls_best, poll_stats = chartlib.poll_stats(countries)
-    CHART_CTX.update(polls_best=polls_best, stats=poll_stats, paths=paths, wt_status=wt_status)
+    status_rows = list(csv.DictReader(open(DATA / "wealth_tax_status.csv", encoding="utf-8"))) if (DATA / "wealth_tax_status.csv").exists() else []
+    CHART_CTX.update(polls_best=polls_best, stats=poll_stats, paths=paths, status_map=chartlib.status_by_numeric(status_rows, numeric_for) if status_rows else {})
     n = share_pages(out, html, countries, full, unique, bodies, world_resources, stories, arguments, dirstats=dirstats)
     if arguments:
         checked, bad, skipped = check_argument_links(arguments, full, stories, bool(only))

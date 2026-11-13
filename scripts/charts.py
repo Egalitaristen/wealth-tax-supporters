@@ -155,7 +155,7 @@ def _coarse(d, tol=0.45, min_size=1.4):
 
 
 def _status_map(c, ctx):
-    paths, status = ctx.get("paths") or {}, ctx.get("wt_status") or {}
+    paths, status = ctx.get("paths") or {}, ctx.get("status_map") or {}
     land, has, had = [], [], []
     xs, ys = [], []
     for cid, p in paths.items():
@@ -206,3 +206,22 @@ def poll_stats(countries):
             best.append(dict(name=c["name"], slug=c["slug"], iso2=c.get("iso2", ""), pct=int(float(top["support"]) + 0.5)))
     best.sort(key=lambda r: (-r["pct"], r["name"]))
     return best, dict(polls=total, poll_countries=len(best), above_half=sum(1 for r in best if r["pct"] > 50))
+
+
+# ISO 3166 numeric codes (the map's ids) for the countries in data/wealth_tax_status.csv, so the status map does not depend on pycountry being installed.
+ISO_NUMERIC = {"NO": "578", "CH": "756", "ES": "724", "CO": "170", "AR": "032", "BO": "068", "UY": "858", "FR": "250", "SE": "752", "DK": "208", "DE": "276",
+               "NL": "528", "AT": "040", "FI": "246", "LU": "442", "IS": "352", "IN": "356", "SR": "740", "GY": "328", "TN": "788", "VE": "862", "PK": "586", "BD": "050"}
+
+
+def status_by_numeric(rows, numeric_for):
+    """{map id: 'has'|'had'} from the rows of data/wealth_tax_status.csv. Fails loudly when a country cannot be placed on the map."""
+    out, missing = {}, []
+    for r in rows:
+        n = numeric_for(r["iso2"]) or ISO_NUMERIC.get(r["iso2"].upper(), "")
+        if n:
+            out[n] = r["status"]
+        else:
+            missing.append(r["iso2"])
+    if missing or not out:
+        raise SystemExit("status map: no map id for " + (", ".join(missing) or "any country") + " (pip install pycountry, or add the code to ISO_NUMERIC in scripts/charts.py)")
+    return out
