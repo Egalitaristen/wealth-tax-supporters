@@ -1,0 +1,8 @@
+{
+  "name": "Guatemala",
+  "iso2": "GT",
+  "lead": "Egalitaristen",
+  "status": "in progress",
+  "boundaries": "boundaries.json",
+  "notes": "Seed pass (national level, no departmental or municipal sweep). Register: 22 departamentos as regions and 340 municipios (which elect an alcalde and a concejo municipal) as the local tier, with OCHA P-codes; the two lake polygons in the source (Lago de Amatitlán, Lago de Atitlán) were dropped. Map and codes: OCHA / HDX COD-AB Guatemala (SEGEPLAN, valid 2019-02-07), CC BY-IGO. Seats: Congreso de la República (160) by party as elected in 2023, from Wikipedia's results table, because congreso.gob.gt blocks scripts. Result: Guatemala has no net-wealth tax; the register holds three rows, the CICIG commissioner's 2015 proposal of a temporary tax on large patrimonies, a columnist who defended it, and Oxfam's Central America proposal (2.5% to 5% above US$5m). Searches for ICEFI, Semilla, unions and church positions on a wealth tax found none."
+}

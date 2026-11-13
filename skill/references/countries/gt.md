@@ -1,0 +1,6 @@
+# Guatemala (data/gt)
+
+- **Geography:** 22 departamentos as regions and 340 municipios as the local tier, from the [OCHA / HDX COD-AB Guatemala](https://data.humdata.org/dataset/cod-ab-gtm) GeoJSON (valid 2019-02-07, CC BY-IGO; `gtm_admin1.geojson`, `gtm_admin2.geojson`), P-codes as codes. Drop the two lake polygons (`GT0100` Lago de Amatitlán, `GT0700` Lago de Atitlán) from admin 2, then run `topo_to_boundaries.py` with `--project lonlat --scale 100 --simplify 0.2 --name-prop adm2_name / adm1_name --code-prop adm2_pcode / adm1_pcode` and merge with `merge_boundaries.py`. The GeoJSON is UTF-8 with accents.
+- **Seats:** no adapter. congreso.gob.gt answers scripts with an Incapsula block (13 Nov 2026), so the chamber's split is the 2023 election result by party (Wikipedia's results table of the TSE figures). Deputies have left their blocs since 2024; read the Congress's own list in a browser to replace it.
+- **Sources that work:** lahora.gt, prensalibre.com (`?p=<id>` URLs resolve), emisorasunidas.com, icefi.org PDFs, lac.oxfam.org. agn.gt (Cloudflare) and proceso.hn (bot check) did not load.
+- **Quirks:** "patrimonio" often means real estate (IUSI). The 2020 Semilla "súper ricos" bill is an income-tax surcharge. The 2015 CICIG proposal came from a foreign (Colombian) UN-backed commissioner acting in Guatemala; it is filed here.
