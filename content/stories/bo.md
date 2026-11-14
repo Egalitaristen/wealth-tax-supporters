@@ -195,7 +195,7 @@ As of 14 November 2026 the authority's list still carries Ley 1357. The newest t
 
 ## What the opponents say {#objections}
 
-Capital flight, discouraged investment and a cost that exceeds the yield are the three claims the government made. The first is Paz's US$2,500 million, which the report gives without a source.[8] The pages on [they will leave](/arguments/they-will-leave) and [hurts growth](/arguments/hurts-growth) set out what the studies of Norway and other countries find. The second and third are answered by the tax authority's own table, which counts Bs 958 million collected and no cost figure from the ministers.[4][11]
+Capital flight, discouraged investment and a cost that exceeds the yield are the three claims the government made. The first is Paz's US$2,500 million, a figure the press report of his speech gives without a source.[8] The page on [they will leave](/arguments/they-will-leave) answers it with Norway's record, and [hurts growth](/arguments/hurts-growth) answers the claim about investment. The second and third are answered by the tax authority's own table, which counts Bs 958 million collected and no cost figure from the ministers.[4][11]
 
 [Europe repealed it](/arguments/europe-repealed-it) shows what repeal cost in the countries that tried it.
 
