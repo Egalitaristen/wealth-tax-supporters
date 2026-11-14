@@ -1,16 +1,18 @@
 ---
-title: Tunisia began taxing wealth in 2026, after parliament first rejected the idea
-standfirst: The 2026 finance law created an annual tax on net wealth, 0.5% from 3 million dinars and 1% above 5 million. Parliament rejected it first in committee and then in a plenary vote, and passed it on 4 December 2025 when the Finance Minister brought it back.
-updated: 2026-11-11
+title: Tunisia's parliament threw out a wealth tax 69 votes to 30, then passed it 72 to 14 three days later
+standfirst: Since 1 January 2026 Tunisia charges 0.5% a year on fortunes of 3 to 5 million dinars and 1% above. The richest 10% hold 58% of the country's wealth and the poorer half hold 4.9%. The first returns were due on 30 June 2026.
+updated: 2026-11-14
 layout: article
 status: draft
+card_figure: 58%
+card_label: The share of Tunisia's wealth held by the richest 10%, against 4.9% for the poorer half. In 2026 the country began taxing it every year.
 facts:
   - label: Law
-    value: Article 88 of the 2026 finance law, published 12 December 2025
+    value: Article 88 of the 2026 finance law, published 12 December 2025, in force from 1 January 2026
     source: 1
   - label: Rates
-    value: 0.5% on holdings worth 3 to 5 million dinars, 1% above 5 million dinars
-    source: 1
+    value: 0.5% on holdings worth 3 to 5 million dinars, 1% above 5 million dinars, on the whole taxable value
+    source: 2
   - label: Who pays
     value: Individuals, with the assets of minor children in their care; residents on worldwide assets, non-residents on assets in Tunisia
     source: 1
@@ -20,12 +22,18 @@ facts:
   - label: Counted on
     value: 1 January each year
     source: 1
-  - label: First returns due
-    value: 30 June 2026
-    source: 14
+  - label: Returns due
+    value: End of June each year; the first on 30 June 2026
+    source: 15
   - label: Replaced
-    value: A 2023 tax on real estate worth 3 million dinars or more
+    value: A 2023 tax of 0.5% on real estate worth 3 million dinars or more
     source: 2
+  - label: Plenary vote, 1 December 2025
+    value: Rejected, 30 for, 69 against, 14 abstentions
+    source: 14
+  - label: Plenary vote, 4 December 2025
+    value: Adopted, 72 for, 14 against, 16 abstentions
+    source: 7
   - label: Share of wealth held by the richest 10%
     value: 58% (the richest 1% hold 24.1%, the poorer half 4.9%)
     source: 9
@@ -34,35 +42,38 @@ timeline:
     text: The economist Elyès Jouini calls for a progressive wealth tax in a signed column, starting at 1 million dinars.
     source: 11
   - year: 2022
-    text: In June Al Bawsala publishes a fiscal-justice report by Amine Bouzaïene that calls for a tax on large fortunes covering the richest 10%.
+    text: In June Al Bawsala publishes a fiscal-justice report that calls for a tax on large fortunes covering the richest 10%.
     source: 10
   - year: 2023
     text: The 2023 finance law taxes real estate worth 3 million dinars or more at 0.5%.
     source: 2
   - year: 2025
-    text: In October the government's 2026 finance bill proposes an annual wealth tax on movable and immovable property.
+    text: In October the 2026 finance bill proposes an annual wealth tax on movable and immovable property, as article 50.
     source: 3
   - year: 2025
-    text: On 21 November the two finance committees examine the article. The second chamber's committee accepts it, the lower chamber's committee does not.
+    text: On 21 November the two finance committees examine the article. The second chamber's committee accepts it and the lower chamber's committee does not.
     source: 4
   - year: 2025
-    text: On 1 December the plenary of the Assemblée des représentants du peuple rejects the article, and the Finance Minister announces a revised text.
-    source: 6
+    text: On 1 December the plenary of the Assemblée des représentants du peuple rejects the article, 69 votes to 30, and the Finance Minister announces a revised text.
+    source: 14
   - year: 2025
-    text: On 4 December the Assemblée adopts the wealth tax article.
+    text: On 4 December the Assemblée adopts the wealth tax article, 72 votes to 14.
     source: 7
   - year: 2025
     text: On 12 December the finance law is published with the tax as article 88.
     source: 1
   - year: 2026
-    text: In June the tax administration issues its explanatory note and the first returns fall due on 30 June.
-    source: 14
+    text: On 1 January the tax takes effect and the 2023 real estate tax ends.
+    source: 1
+  - year: 2026
+    text: The first returns fall due on 30 June.
+    source: 15
 sources:
   - id: 1
-    title: Loi n. 2025-17 du 12 décembre 2025 portant loi de finances pour 2026, article 88, Journal officiel (JORT n. 148), pp. 4254-4255
+    title: Loi n. 2025-17 du 12 décembre 2025 portant loi de finances pour 2026, articles 88 and 110, Journal officiel (JORT n. 148), pp. 4254 and 4258, as posted by the Assemblée
     url: https://arp.tn/document/download/115725
   - id: 2
-    title: Direction générale des études et de la législation fiscales, Note générale n. 13 de 2026 on article 88 of the 2026 finance law (June 2026)
+    title: Direction générale des études et de la législation fiscales, Note générale n. 13 de 2026 on article 88 of the 2026 finance law
     url: https://jibaya.tn/wp-content/uploads/2026/06/مذكرة-عامة-عدد-13-لسنة-2026.pdf
   - id: 3
     title: La Presse de Tunisie, Impôt sur la fortune - qui sera réellement concerné par le PLF 2026 (16 October 2025)
@@ -98,13 +109,13 @@ sources:
     title: Le Courrier de l'Atlas, Le patronat tunisien demande le retrait du nouvel impôt sur la fortune (18 November 2025)
     url: https://www.lecourrierdelatlas.com/le-patronat-tunisien-demande-le-retrait-du-nouvel-impot-sur-la-fortune/
   - id: 14
-    title: Kapitalis, Tunisie - Les modalités d'application de l'impôt sur la fortune (14 June 2026)
-    url: https://kapitalis.com/tunisie/2026/06/14/tunisie-les-modalites-dapplication-de-limpot-sur-la-fortune/
+    title: La Presse de Tunisie, Parlement - l'article 50 sur l'impôt sur la fortune supprimé (1 December 2025)
+    url: https://www.lapresse.tn/2025/12/01/parlement-larticle-50-sur-limpot-sur-la-fortune-supprime/
   - id: 15
     title: La Presse de Tunisie, Du changement pour les déclarations sur l'impôt global sur la fortune - le dernier rappel (29 June 2026)
     url: https://www.lapresse.tn/2026/06/29/du-changement-pour-les-declarations-sur-impot-global-sur-la-fortune-le-dernier-rappel/
   - id: 16
-    title: La Presse de Tunisie, Impôt sur la fortune - un levier fiscal sous contraintes structurelles (7 August 2026)
+    title: La Presse de Tunisie, Impôt sur la fortune - un levier fiscal sous contraintes structurelles (7 August 2026), on remarks by the tax adviser Skander Sallemi
     url: https://www.lapresse.tn/2026/08/07/impot-sur-la-fortune-un-levier-fiscal-sous-contraintes-structurelles/
   - id: 17
     title: allAfrica, Tunisie - 47,8 milliards de dinars viennent des impôts mais 70 milliards échappent au fisc (23 April 2026), on remarks by the tax adviser Mohamed Salah Ayari
@@ -112,57 +123,103 @@ sources:
   - id: 18
     title: Business News, La fausse bonne idée de l'impôt sur la fortune en Tunisie (24 November 2025)
     url: https://businessnews.com.tn/2025/11/24/la-fausse-bonne-idee-de-limpot-sur-la-fortune-en-tunisie/1374477/
+  - id: 19
+    title: La Presse de Tunisie, Fiscalité - Amine Bouzaiene juge le projet de loi de finances 2027 inéquitable et appelle à taxer les revenus du capital (5 November 2026)
+    url: https://www.lapresse.tn/2026/11/05/fiscalite-amine-bouzaiene-juge-le-projet-de-loi-de-finances-2027-inequitable-et-appelle-a-taxer-les-revenus-du-capital
+charts:
+  - id: votes
+    type: bars
+    title: The same wealth tax article in the plenary, 1 and 4 December 2025, votes
+    desc: On 1 December 2025 the article got 30 votes for and 69 against. On 4 December it got 72 for and 14 against.
+    caption: The plenary counts reported by La Presse.[14][7] There were 14 abstentions on 1 December and 16 on 4 December.
+    unit: " votes"
+    max: 80
+    data: 1 Dec, for|30|muted|30 votes for; 1 Dec, against|69|ink|69 votes against; 4 Dec, for|72|signal|72 votes for; 4 Dec, against|14|ink|14 votes against
+  - id: shares
+    type: bars
+    title: Who holds Tunisia's wealth, share of the total
+    desc: The richest 10% of Tunisians hold 58% of all wealth, the richest 1% hold 24.1% and the poorer half hold 4.9%.
+    caption: Figures of the Observatoire tunisien de l'économie and the Centre Ali Ben Ghedhahem, December 2025.[9]
+    unit: "%"
+    max: 60
+    data: Richest 10%|58|signal|58% of wealth; Richest 1%|24.1|signal|24.1% of wealth; Poorer half|4.9|muted|4.9% of wealth
+  - id: owed
+    type: bars
+    title: What the tax owes on a taxable holding, thousand dinars a year
+    desc: A holding of 3 million dinars owes 15 thousand dinars, 5 million owes 25 thousand, 5.01 million owes 50.1 thousand and 10 million owes 100 thousand.
+    caption: Computed from the rates in article 88, which the tax administration applies to the whole taxable value.[1][2] Taxable value is after debts and exemptions.
+    unit: " thousand"
+    max: 110
+    data: 3 million dinars|15|muted|15 thousand dinars; 5 million dinars|25|muted|25 thousand dinars; 5.01 million dinars|50.1|signal|50.1 thousand dinars; 10 million dinars|100|muted|100 thousand dinars
 ---
-Since 1 January 2026, Tunisia taxes its largest fortunes every year. Anyone whose net wealth reaches 3 million dinars pays 0.5%, and anyone above 5 million dinars pays 1%.[1] Parliament rejected the article twice before it passed. The Finance Minister did not drop it, and on 4 December 2025 the Assemblée des représentants du peuple adopted it.[6][7]
+On 1 December 2025 Tunisia's parliament threw out a wealth tax, 69 votes to 30. Three days later the Finance Minister brought the article back and the same parliament passed it, 72 votes to 14.[14][7] The law was published on 12 December and the tax took effect on 1 January 2026: 0.5% a year on holdings worth 3 to 5 million dinars and 1% on holdings above 5 million, counted after debts.[1][2]
+
+{{chart: votes}}
+
+Why tax wealth in Tunisia? Because the richest 10% hold 58% of all wealth, the richest 1% hold 24.1%, and the poorer half hold 4.9%.[9] The richest 1% hold almost five times what half the country holds. Their fortunes grow as property and shares, and that growth is not income until it is sold. The [pillar page](/arguments/why-tax-wealth#unrealised) follows the money step by step. The tax on work and the tax on capital are far apart: the Observatoire cites a 2024 World Bank finding that, among developing countries, Tunisia has the widest gap between the two.[9]
 
 ## Why Tunisia needed it {#why}
 
-The state has little to spend. The 2026 budget counts on about 47.8 billion dinars of tax revenue, close to 60% of the state's resources.[17] Much of the economy sits outside the net: the national statistics institute and a Tunisian strategic-studies institute put the informal sector at 35% to 40% of activity.[17] In 2022 Al Bawsala, the parliamentary watchdog, described the public finances as in an unprecedented crisis.[10] Its report found that VAT and consumption duty brought in about 40% of tax revenue in the 2022 finance law, taxes that fall on everyone who buys bread or fuel.[10]
+The state has little to spend. The 2026 budget counts on about 47.8 billion dinars of tax revenue, close to 60% of the state's resources.[17] Much of the economy sits outside the net: the national statistics institute and a Tunisian strategic-studies institute put the informal sector at 35% to 40% of activity.[17] So the burden falls on those who are easy to find. Value-added tax and consumption duty brought in about 40% of tax revenue in the 2022 finance law.[10] In November 2026 [Amine Bouzaïene](/tn/A0011) said that 70% of income tax revenue comes from withholding on salaried employees.[19]
 
-At the top, the wealth is concentrated. The Observatoire tunisien de l'économie says the richest 10% of Tunisians hold 58% of all wealth, the richest 1% hold 24.1%, and the poorer half share 4.9%.[9] Incomes tell the same story. The top 1% take 10.9% of national income and the top 10% take 41.4%, against 16.6% for the poorer half, according to the World Inequality Database figures Al Bawsala used for 2021.[10] The same observatory points to a 2024 World Bank finding that, among developing countries, Tunisia has the widest gap between the tax rate on work and the tax rate on capital.[9]
+{{chart: shares}}
 
-The Finance Ministry gave its own reason to the parliamentary committees in November 2025: the tax would add to the solidarity effort that pays for the state budget, and it would make taxation fairer between individuals.[4]
+Income is just as unequal. The top 1% take 10.9% of national income and the top 10% take 41.4%, against 16.6% for the poorer half, according to the World Inequality Database figures Al Bawsala used for 2021.[10] The Finance Ministry gave its own reason to the parliamentary committees in November 2025: the tax would add to the solidarity effort that pays for the state budget, and it would make taxation fairer between individuals.[4]
 
 ## How the tax works {#design}
 
-Article 88 of the 2026 finance law replaces a 2023 tax that applied only to real estate worth 3 million dinars or more.[1][2] The new tax reaches movable property as well.[1] Each year, on 1 January, the state counts what individuals own, including the assets of their minor children.[1] It taxes holdings worth 3 to 5 million dinars at 0.5% and holdings above 5 million dinars at 1%.[1]
+Article 88 of the 2026 finance law replaces a 2023 tax that applied only to real estate worth 3 million dinars or more.[1][2] The new tax reaches movable property as well, shares and other assets included.[1][2] Each year, on 1 January, the state counts what individuals own, including the assets of their minor children.[1] A holding of 3 to 5 million dinars pays 0.5% and a holding above 5 million dinars pays 1%.[1] The tax administration applies the rate to the whole taxable value.[2]
 
-Residents are taxed on everything they own, in Tunisia or abroad. Non-residents are taxed only on what they own in Tunisia.[1] Debts tied to the assets are deducted before the value is set.[1] Four things are exempt: the main residence and its furniture, property and businesses used professionally, cars up to 12 CV, and money held in banks, financial institutions and the post office.[1] The administration's guidance adds that shares in a company are exempt when the owner and minor children hold at least half of its capital.[14]
+{{chart: owed}}
 
-Listed securities are valued at market price. Real estate is valued on the owner's sworn declaration or on the administration's assessment.[14] Returns are due by the end of June each year and can be filed and paid online.[14] Control, penalties and appeals follow the general tax procedure code.[1]
+Residents are taxed on everything they own, in Tunisia or abroad. Non-residents are taxed only on what they own in Tunisia.[1] Debts secured on the assets are deducted before the value is set.[1][2] Four things are exempt: the main residence and its furniture, property and businesses used professionally, cars up to 12 CV, and money held in banks, financial institutions and the post office.[1] The administration's note adds that shares in a company count as professional when the owner and minor children hold at least half of its capital.[2]
+
+Listed securities are valued at their price on 31 December of the year before. Real estate is valued on the owner's declaration, and the administration can adjust it through audits, expert valuation or comparison with similar assets.[2][15] Returns are due by the end of June each year and can be filed and paid online. Control, penalties and appeals follow the general tax procedure code.[1][2]
+
+## Where the tax leaks, and the fix {#leaks}
+
+The design has four gaps, each with a plain fix.
+
+The first is the cliff at 5 million dinars. Because the rate applies to the whole value, a holding of 5 million owes 25,000 dinars and a holding of 5.01 million owes 50,100, twice as much for ten thousand dinars more.[1][2] Charge each rate band by band, as [Colombia](/co) and [Uruguay](/uy) do, and the cliff is gone.
+
+The second is bank money. The original bill had no exemption for deposits, and the law exempts all money in banks, financial institutions and the post office.[3][4][1] A fortune held as savings accounts pays nothing on them. A cap on the exemption would close it. The [pillar page](/arguments/why-tax-wealth#bank) shows how the richest spend a fortune without selling it.
+
+The third is the professional exemption. An owner who holds half of a company pays nothing on those shares.[2] The page on [family firms](/arguments/family-firms) shows how such exemptions ended up shielding the richest elsewhere. A cap on the value exempted, or a lower share threshold, answers it.
+
+The fourth is valuation. Taxpayers declare what they own, and a tax adviser, Skander Sallemi, said in August 2026 that the administration's property records are scattered and sometimes incomplete, with no official reference values for what taxpayers hold.[16] That is a case for finishing the property register and publishing valuation guides. The page on [valuation](/arguments/you-cannot-value-it) shows how other countries do it.
 
 ## How it passed {#passage}
 
-The government put the tax in its 2026 finance bill in October 2025, as article 50.[3] In the lower chamber's finance committee, deputies raised objections. The ministry answered that the tax rests on assets that can be valued, such as income-producing real estate, leaves out many movables, and comes with measures against tax evasion and for bringing the informal sector into the system.[4]
+The government put the tax in its 2026 finance bill in October 2025, as article 50.[3] In the lower chamber's finance committee, deputies objected. The ministry answered that the tax rests on assets that can be valued, leaves out many movables, and comes with measures against tax evasion and for bringing the informal sector into the system.[4]
 
-The second chamber, the Conseil national des régions et des districts, gave a favourable opinion, and its finance committee backed the article with two changes: bank and post-office deposits excluded, and a lower entry point.[4][5][6] The lower chamber's finance committee voted the article down. On 1 December the plenary also rejected it.[5][6] That was the setback. The Finance Minister, [Michket Salama Khaldi](/tn/A0001), announced a revised text.[6] Three days later, on 4 December, the Assemblée adopted the article, and the law was published on 12 December with bank and post-office deposits exempt.[1][7]
+The second chamber, the Conseil national des régions et des districts, gave a favourable opinion, and its finance committee backed the article with two changes: bank and post-office deposits excluded, and a lower entry point.[4][5] The lower chamber's finance committee voted the article down, 10 to 3 according to one of its members.[5] On 1 December the plenary rejected it, 69 votes to 30.[14] That was the setback. The Finance Minister, [Michket Salama Khaldi](/tn/A0001), announced a revised text.[6] Three days later, on 4 December, the Assemblée adopted the article, 72 votes to 14 with 16 abstentions, and the law was published on 12 December with bank and post-office deposits exempt.[1][7]
 
 ## Who backs it {#who-supports}
 
-The tax had defenders in both chambers. [Slim Salem](/tn/A0004), chair of the second chamber's finance committee, said his committee would keep the article at the plenary, and its vice-chair [Osama Sahnoun](/tn/A0005) defended it as well.[5] [Mohamed Ben Hussein](/tn/A0006), the lower chamber's finance committee rapporteur, said a wealth tax is "not a Tunisian innovation" and is in force in several countries.[5] [Ali Zaghdoud](/tn/A0007) of the bloc [Pour que le peuple triomphe](/tn/A0008) went further. He said the bloc never wanted the article deleted, that large fortunes should contribute more, and that it would table higher rates: 0.5% to 1% on 3 to 5 million dinars and 1% to 3% above 5 million.[8]
+The tax had defenders in both chambers. [Slim Salem](/tn/A0004), chair of the second chamber's finance committee, said his committee would keep the article at the plenary, and its vice-chair [Osama Sahnoun](/tn/A0005) defended it as well.[5] [Mohamed Ben Hussein](/tn/A0006), the lower chamber's finance committee rapporteur, said a wealth tax is "not a Tunisian innovation" and is in force in several countries.[5] [Ali Zaghdoud](/tn/A0007) of the bloc [Pour que le peuple triomphe](/tn/A0008) went further. He said the bloc never wanted the article deleted, that large fortunes should contribute more, and that it would table higher rates: 0.5% to 1% on 3 to 5 million dinars and 1% to 3% above.[8]
 
-Outside parliament, the [Observatoire tunisien de l'économie](/tn/A0009) and the [Centre Ali Ben Ghedhahem pour la justice fiscale](/tn/A0010) called for the tax to be reinstated and strengthened after the committee vote.[9] The idea has a longer record. [Elyès Jouini](/tn/A0014) argued for a progressive wealth tax in 2014, starting at 1 million dinars.[11] In 2022 [Amine Bouzaïene](/tn/A0011) wrote the [Al Bawsala](/tn/A0012) report that called for a tax on large fortunes covering the richest 10%.[10]
+Outside parliament, the [Observatoire tunisien de l'économie](/tn/A0009) and the [Centre Ali Ben Ghedhahem pour la justice fiscale](/tn/A0010) called for the tax to be reinstated and strengthened after the committee vote.[9] The idea has a longer record. [Elyès Jouini](/tn/A0014) argued for a progressive wealth tax in 2014, starting at 1 million dinars.[11] In 2022 [Amine Bouzaïene](/tn/A0011) wrote the [Al Bawsala](/tn/A0012) report that called for a tax on large fortunes covering the richest 10%.[10] In November 2026 he called the 2027 finance bill unfair and urged that income from capital be taxed like wages.[19]
 
 {{supporters}}
 
 ## What the opponents said, and the answers {#objections}
 
-Business groups went first. The employers' confederation UTICA called the tax a real danger to investment and asked for article 50 to be withdrawn. It added that real estate serves as bank collateral for companies.[13] The law exempts property used professionally and businesses in operation, so the assets that carry a company are outside the tax.[1] Debts tied to the taxed assets are deducted.[1]
+Business groups went first. The employers' confederation UTICA, through its president Samir Majoul, called the tax a real danger to investment and asked for article 50 to be withdrawn. It added that real estate serves as bank collateral for companies.[13] The law exempts property used professionally and businesses in operation, so the assets that carry a company are outside the tax.[1] Debts secured on the taxed assets are deducted.[1] The page on [growth](/arguments/hurts-growth) sets out what the studies find.
 
-On capital flight, deputies and UTICA warned the tax would push capital out.[4][13] The law counts a resident's assets abroad as well as at home, so a resident who moves money overseas still declares and pays.[1] Jouini answered the same objection in 2014: Tunisia's non-convertible dinar makes capital hard to move.[11] A rich resident who stays and pays nothing helps no one.
+On capital flight, deputies and UTICA warned the tax would push capital out.[4][13] The law counts a resident's assets abroad as well as at home, so a resident who moves money overseas still declares and pays.[1] Jouini answered the same objection in 2014: Tunisia's non-convertible dinar makes capital hard to move.[11] A rich resident who stays and pays nothing helps no one, and the page on [whether the rich will leave](/arguments/they-will-leave) follows the evidence from Norway.
 
 On savings, deputies said the tax would weaken the incentive to save.[4] The law exempts money in banks and at the post office, as the second chamber's committee had asked.[1][4]
 
-On valuation, deputies said the administration cannot value private property and that no feasibility study existed.[4] The ministry answered that the tax rests on assets that can be valued.[4] Real estate is valued on declaration or assessment, listed shares at market price, and the administration can adjust values through audits, expert valuation or comparison with similar assets.[14][15]
+On valuation, deputies said the administration cannot value private property and that no feasibility study existed.[4] The ministry answered that the tax rests on assets that can be valued.[4] Real estate is valued on declaration or assessment, listed shares at market price, and the administration can adjust values through audits, expert valuation or comparison with similar assets.[2][15]
 
-On splitting assets, the economist Ridha Chkoundali predicted the tax would encourage owners to fragment their property.[12] The law counts the assets of minor children with their parents, and co-owners must state their exact shares on the return.[1][14]
+On splitting assets, the economist Ridha Chkoundali predicted the tax would encourage owners to fragment their property.[12] The law counts the assets of minor children with their parents, and co-owners must state their exact shares on the return.[1][2] Charging the rates band by band, as set out above, removes the cliff that rewards splitting.
 
-On other countries, Chkoundali said several countries tried the tax and dropped it.[12] The ministry told the committees the model is used in many other countries.[4] Ben Hussein said the same.[5]
+On other countries, Chkoundali said several countries tried the tax and dropped it.[12] The ministry told the committees the model is used in many other countries.[4] The page on [Europe repealing the tax](/arguments/europe-repealed-it) shows what the repeals cost.
 
-On whether Tunisia has fortunes to tax, a Business News editorial argued that wealth in Tunisia is too fragile to tax.[18] The data say otherwise. The richest 1% hold close to a quarter of all wealth.[9] In 2014 Jouini estimated about 13,800 households with more than 1 million dinars and about 59 billion dinars between them.[11] The tax of 2026 starts at three times that line.[1]
+On whether Tunisia has fortunes to tax, a Business News editorial argued that wealth in Tunisia is a mirage, with no private jets or yachts to point to.[18] The data say otherwise. The richest 1% hold close to a quarter of all wealth.[9] In 2014 Jouini estimated 13,789 households with more than 1 million dinars, holding 59 billion dinars between them: 4.3 million dinars each.[11] The tax of 2026 starts at three times Jouini's line of 1 million dinars.[1]
 
 ## What comes next {#next}
 
-The first returns fell due on 30 June 2026.[14][15] The tax administration issued its guidance in June, and the Direction générale des impôts reminded taxpayers of the deadline.[2][15] The first yield figures are what to watch for.
+The first returns fell due on 30 June 2026, and the Direction générale des impôts issued a last reminder the day before.[2][15] What those returns raised is the number to watch.
 
-The work now is the data. A tax adviser quoted in La Presse in August 2026 noted that the administration's property records are scattered, sometimes incomplete and not always centralised, and that taxpayers get no official reference values for what they own.[16] That is a case for finishing the property register and publishing valuation guides, not for giving up the tax. The administration can already audit and adjust declared values.[15] The tax has a legal base, the tax procedure code behind it, and a first year of returns. A register that shows the tax office every large estate is the next thing to build.
+This site argues for four changes: rates charged band by band, a cap on the bank exemption, a limit on the professional exemption, and a property register with published valuation guides. The tax has a legal base, the tax procedure code behind it and a first year of returns. The [map](/tn/map) shows where support sits and the [directory](/tn/directory) lists everyone on the record. [Bills, reports and papers](/resources?country=tn) for Tunisia are on the Resources page, including the text of article 88. The [Colombian](/co) and [Uruguayan](/uy) stories follow two countries that charge wealth tax band by band.
