@@ -10,7 +10,7 @@ The skill's patterns most likely to appear in a story, strongest first: not-X-bu
 - No hedging. State what the sources show, then what the site argues from it. No "perhaps", "arguably", "may", "might", "seems to", "tends to", "it could be said", "some would say". Where a source itself gives a range or an estimate, give it with its year, in the source's own terms. No hedging boxes and no "the strongest objection that remains": answer a common objection with evidence.
 - Source ids on every number. Each figure carries `[n]` pointing to an entry in `sources`, with its year in the text. Use only sources that were opened. Name people and parties and link them to their register entry. Attribute by name, never "experts say".
 - Report losses plainly. A vote that went against us is stated once, with its result.
-- About 1,500 words of body. Facts, timeline and sources come on top.
+- No length target: the story is as long as the case needs, and a longer page earns its length with anchored sections, a short opening and the surprising fact first in each section. Facts, timeline and sources come on top.
 - Anchors are stable URLs. Sections are `##` with a fixed anchor, such as `## Cantons undercut each other {#competition}`. Never change an anchor once a link to it exists.
 - Live register block. Put `{{supporters}}` on its own line in the section on who backs the tax, below an editorial paragraph. Do not repeat its lists by hand.
 - Prose only in the pull-quote attribution. The line starting with a dash after a quote is markup, not prose.
@@ -43,3 +43,16 @@ These come from the stories for 30-odd countries and from the rewrite of the pil
 **People.** Name a person only when a public, sourced fact about them matters and the name helps the reader. Give the figure and the year, link the register entry, and do not characterise them. No invented quotes, studies or endorsements. A thin register is fine: write what is verified and list the leads you did not finish in an issue titled "<Country>: grow the register".
 
 **Delivery.** A page stays `status: draft` until the author says it is final. The pull request lists what changed, every source added, and anything you could not verify and left out. Pages are written in English; quotes from other languages are translated or paraphrased. A session never merges; the maintainer reviews and merges.
+
+## Refined rules for stories (14 November 2026)
+
+What we learned writing the argument pages, applied to every country story. A story is revised against these, one country at a time, after its records work (issue labels `stories` and `records`).
+
+1. **Open on why the tax matters or what it did, with one concrete figure.** The first three paragraphs let a reader who stops there say what happened in this country and why it matters. Start from the surprising fact, not a ratio or a rank.
+2. **One concrete case beats three general claims.** Use the figure and the year for a real case from a source you opened. Derived numbers (a ratio, a share, a sum) are computed from sourced ones, in the units you print, and say which period they cover.
+3. **Dates, counts and status are current and exact.** Check the parliament's record, the gazette and the register on the day you write. A bill is a bill. A vote or an election result is stated once, with its date and whether it is certified.
+4. **Argue for the tax, plainly.** No hedging, no points handed to the other side, English only, a public voice. Names of researchers and phrases such as "working paper" stay in the source list.
+5. **Link to the arguments.** Where the story answers an objection, link the argument page (`/arguments/<slug>`) and, for the mechanism, the pillar anchors (`/arguments/why-tax-wealth#unrealised`, `#bank`, `#minimum`, `#revenue`). The link check fails on an anchor that does not exist.
+6. **Two section shapes**, by kind of country. A country with a tax in force: the surprising fact, what the tax is and how it works, what it raises, the leaks and their fix, the objections with the figure, the politics now, who backs it. A country that dropped it: what the tax was, why it went, what the repeal cost, what has been tried since, who backs a return, what a new tax would need. Keep every existing anchor.
+7. **A share card figure and one or more charts.** `card_figure` is the single number that carries the story's lead; the label says what it is in one sentence. Charts (bars only) show the story's own sourced numbers: revenue by year, the threshold, a poll, the cost of a repeal. A chart never adds a new number. Look at the card (`_site/og/<folder>-story.png`) and the chart in light, dark and at phone width before opening the pull request.
+8. **Trim.** A run of country-by-country or year-by-year figures becomes a chart or is cut to the two that matter. Read it aloud once. The page stays `status: draft`, and the Humanizer pass is not optional.

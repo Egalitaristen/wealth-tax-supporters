@@ -1792,54 +1792,113 @@ function contributePage(W, params) {
 async function globalDirectory(W, params) {
   setTitle(TYPES_PL[params.get('type')] && !params.get('country') && !params.get('q') ? `${TYPES_PL[params.get('type')]} who back a wealth tax · Directory` : 'Directory');
   const S = await searchData();
-  const ST = {q: params.get('q') || '', country: params.get('country') || '', type: params.get('type') || '', grade: params.get('grade') || '', sort: params.get('sort') || 'strength', limit: 100};
+  const csv = k => (params.get(k) || '').split(',').map(s => s.trim()).filter(Boolean);
   const rank = {A: 0, B: 1, C: 2};
   const countries = S.countries.slice().sort((a, b) => a.name.localeCompare(b.name));
   const types = [...new Set(S.people.map(p => p.type))].sort((a, b) => label(TYPES_PL, a).localeCompare(label(TYPES_PL, b)));
+  const ST = {q: params.get('q') || '', countries: csv('country').filter(s => S.cname[s]), types: csv('type').filter(t => types.includes(t)),
+    grade: params.get('grade') || '', sort: params.get('sort') || 'strength', limit: 100};
   main.innerHTML = `<div class="wrap page-head fade"><div class="kicker">Everyone on the record</div><h1>The global <em>directory</em></h1>
-    <p class="lede" style="margin-top:18px">${fmt(S.uniq.length)} public figures and organisations in ${S.countries.length} countries, each with the statement they rest on. Filter by country, type or strength of evidence.</p></div>
+    <p class="lede" style="margin-top:18px">${fmt(S.uniq.length)} public figures and organisations in ${S.countries.length} countries, each with the statement they rest on. Pick one or more countries and types, and the numbers beside each choice show how many people match everything else you have chosen.</p></div>
     <div class="wrap" style="margin-top:28px;padding-bottom:72px"><section class="c-sec"><div class="dir-main">
-      <div class="filters">
-        <input class="field q" id="g-q" type="search" placeholder="Filter by name, role, place or country" value="${esc(ST.q)}" aria-label="Filter the directory" autocomplete="off">
-        <select class="field" id="g-country" aria-label="Country"><option value="">All countries</option>${countries.map(c => `<option value="${esc(c.slug)}">${esc(c.name)} (${fmt(c.n)})</option>`).join('')}</select>
-        <select class="field" id="g-type" aria-label="Type"><option value="">All types</option>${types.map(t => `<option value="${esc(t)}">${esc(label(TYPES_PL, t))}</option>`).join('')}</select>
-        <select class="field" id="g-grade" aria-label="Evidence"><option value="">Any evidence</option><option value="A">Explicit only</option><option value="AB">Explicit or named</option></select>
-        <select class="field" id="g-sort" aria-label="Sort"><option value="strength">Strongest evidence</option><option value="count">Most statements</option><option value="az">A to Z</option></select>
+      <div class="filters g-filters">
+        <div class="fl fl-q"><label for="g-q">Search</label><input class="field q" id="g-q" type="search" placeholder="Name, role, place or country" value="${esc(ST.q)}" autocomplete="off"></div>
+        <div class="fl"><span class="fl-l" id="g-country-l">Countries</span>${msHtml('g-country', 'countries', 'Search countries')}</div>
+        <div class="fl"><span class="fl-l" id="g-type-l">Types</span>${msHtml('g-type', 'types', '')}</div>
+        <div class="fl"><label for="g-grade">Evidence</label><select class="field" id="g-grade"><option value="">Any evidence</option><option value="A">Explicit only</option><option value="AB">Explicit or named</option></select></div>
+        <div class="fl"><label for="g-sort">Sort by</label><select class="field" id="g-sort"><option value="strength">Strongest evidence</option><option value="count">Most statements</option><option value="az">A to Z</option></select></div>
       </div>
       <div class="count-line" id="g-count"></div>
       <ul class="dir" id="g-dir"></ul>
       <div class="more" id="g-more"></div>
     </div></section></div>`;
-  const q = $('#g-q'), sc = $('#g-country'), st = $('#g-type'), sg = $('#g-grade'), ss = $('#g-sort');
-  sc.value = ST.country; st.value = ST.type; sg.value = ST.grade; ss.value = ST.sort;
+  const q = $('#g-q'), sg = $('#g-grade'), ss = $('#g-sort');
+  sg.value = ST.grade; ss.value = ST.sort;
+  // The two multi-select menus: built once, counts and ticks updated on every change.
+  const menus = {
+    countries: {el: $('#g-country'), items: countries.map(c => ({v: c.slug, name: c.name})), all: 'All countries', many: n => `${n} countries`},
+    types: {el: $('#g-type'), items: types.map(t => ({v: t, name: label(TYPES_PL, t)})), all: 'All types', many: n => `${n} types`}};
+  for (const [k, m] of Object.entries(menus)) {
+    const box = $('.ms-opts', m.el);
+    box.innerHTML = m.items.map(it => `<label class="ms-opt"><input type="checkbox" value="${esc(it.v)}"><span class="ms-n">${esc(it.name)}</span><span class="ms-c"></span></label>`).join('');
+    m.rows = $$('.ms-opt', box);
+    box.addEventListener('change', e => {
+      const v = e.target.value; ST[k] = e.target.checked ? [...ST[k], v] : ST[k].filter(x => x !== v); changed();
+    });
+    $('.ms-clear', m.el).onclick = () => { ST[k] = []; changed(); };
+    const s = $('.ms-s', m.el);
+    if (s) s.addEventListener('input', () => { const t = norm(s.value).trim(); m.rows.forEach((r, i) => { r.hidden = !!t && !norm(m.items[i].name).includes(t); }); });
+  }
+  const closeMenus = except => $$('.ms[open]').forEach(d => { if (d !== except) d.removeAttribute('open'); });
+  $$('.ms').forEach(d => d.addEventListener('toggle', () => { if (d.open) closeMenus(d); }));
+  document.addEventListener('click', onDoc);
+  function onDoc(e) { if (!e.target.closest('.ms')) closeMenus(); }
+  document.addEventListener('keydown', onKey);
+  function onKey(e) { if (e.key === 'Escape') { const o = $('.ms[open]'); if (o) { o.removeAttribute('open'); $('summary', o).focus(); } } }
+  const prevLeave = leaving;
+  leaving = () => { prevLeave(); document.removeEventListener('click', onDoc); document.removeEventListener('keydown', onKey); };
   const row = p => `<li><a class="drow" href="/${esc(p.slug)}/${enc(p.id)}">${glyph(p.grade)}
       <span class="dm"><span class="dn">${esc(p.name)}</span><span class="dr">${esc(p.role.slice(0, 140))}</span>
         <span class="dt"><span class="tag">${esc(label(TYPE, p.type))}</span></span></span>
       <span class="dp" ${p.also ? `title="${esc([p.slug, ...p.also].map(s => S.cname[s] || s).join(', '))}"` : ''}>${flag(p.disp || p.slug)}${esc(S.cname[p.disp || p.slug] || p.slug)}${p.also ? ` +${p.also.length} more` : ''}${!p.also && p.place && p.place !== S.cname[p.slug] ? ' · ' + esc(p.place) : ''}</span>
       <span class="dd"><b>${p.n}</b>statement${p.n === 1 ? '' : 's'}</span></a></li>`;
+  // The people the other filters leave, for one menu's counts: `skip` names the filter that menu is itself.
+  const toks = () => norm(ST.q).trim().split(/\s+/).filter(Boolean);
+  const matching = skip => {
+    const t = toks(), cs = skip === 'countries' ? [] : ST.countries, ts = skip === 'types' ? [] : ST.types;
+    let pool = cs.length ? S.people.filter(p => cs.includes(p.slug)) : S.uniq;
+    if (cs.length > 1) { const seen = new Set(); pool = pool.filter(p => { if (!p.qid) return true; if (seen.has(p.qid)) return false; seen.add(p.qid); return true; }); }
+    return pool.filter(p => (!ts.length || ts.includes(p.type)) && (!ST.grade || ST.grade.includes(p.grade)) && t.every(x => p.key.includes(x)));
+  };
+  const paintMenu = (k, counts) => {
+    const m = menus[k];
+    m.rows.forEach((r, i) => {
+      const v = m.items[i].v, n = counts.get(v) || 0, on = ST[k].includes(v);
+      $('input', r).checked = on; $('.ms-c', r).textContent = fmt(n);
+      r.classList.toggle('zero', !n && !on);
+    });
+    const names = ST[k].map(v => m.items.find(it => it.v === v).name);
+    $('.ms-v', m.el).textContent = !names.length ? m.all : names.length === 1 ? names[0] : names.length === 2 ? names.join(', ') : m.many(names.length);
+    $('.ms-clear', m.el).hidden = !names.length;
+  };
   const draw = () => {
-    const toks = norm(ST.q).trim().split(/\s+/).filter(Boolean);
     const sorts = {strength: (a, b) => rank[a.grade] - rank[b.grade] || b.n - a.n, count: (a, b) => b.n - a.n || rank[a.grade] - rank[b.grade], az: (a, b) => a.name.localeCompare(b.name)};
-    const list = (ST.country ? S.people : S.uniq).filter(p => (!ST.country || p.slug === ST.country) && (!ST.type || p.type === ST.type) && (!ST.grade || ST.grade.includes(p.grade)) &&
-      toks.every(t => p.key.includes(t))).sort(sorts[ST.sort] || sorts.strength);
-    const shown = list.slice(0, ST.limit), active = ST.q || ST.country || ST.type || ST.grade;
+    const list = matching('').sort(sorts[ST.sort] || sorts.strength);
+    const shown = list.slice(0, ST.limit), active = ST.q || ST.countries.length || ST.types.length || ST.grade;
+    // Counts: for countries, everyone in that country who matches the search, types and evidence; for types, the people left by the search, countries and evidence.
+    const cc = new Map(), tc = new Map(), ts = ST.types, t = toks();
+    S.people.forEach(p => { if ((!ts.length || ts.includes(p.type)) && (!ST.grade || ST.grade.includes(p.grade)) && t.every(x => p.key.includes(x))) cc.set(p.slug, (cc.get(p.slug) || 0) + 1); });
+    matching('types').forEach(p => tc.set(p.type, (tc.get(p.type) || 0) + 1));
+    paintMenu('countries', cc); paintMenu('types', tc);
     $('#g-count').innerHTML = `<span>Showing <b>${fmt(shown.length)}</b> of <b>${fmt(list.length)}</b>${list.length !== S.uniq.length ? ` (${fmt(S.uniq.length)} in total)` : ''}</span>
       <span style="display:flex;gap:16px">${active ? '<a href="#" id="g-clear">Clear filters</a>' : ''}<span class="grade-key">${glyph('A')} explicit ${glyph('B')} named ${glyph('C')} implied</span></span>`;
     $('#g-dir').innerHTML = shown.map(row).join('') || '<li class="empty">Nobody matches these filters yet. The register is never complete, so that does not mean nobody there supports a wealth tax.</li>';
     $('#g-more').innerHTML = list.length > shown.length ? `<button class="btn ghost" type="button" id="g-more-btn">Show ${Math.min(100, list.length - shown.length)} more</button>` : '';
     const mb = $('#g-more-btn'); if (mb) mb.onclick = () => { ST.limit += 100; draw(); };
-    const cl = $('#g-clear'); if (cl) cl.onclick = e => { e.preventDefault(); Object.assign(ST, {q: '', country: '', type: '', grade: ''}); q.value = sc.value = st.value = sg.value = ''; changed(); };
-    const u = new URLSearchParams(Object.entries(ST).filter(([k, v]) => v && k !== 'limit' && !(k === 'sort' && v === 'strength'))).toString();
-    const onlyType = new URLSearchParams(u).size === 1 && ST.type ? '/' + typeSlug(ST.type) : '';
-    history.replaceState(null, '', '/directory' + (onlyType || (u ? '?' + u : '')));
+    const cl = $('#g-clear'); if (cl) cl.onclick = e => { e.preventDefault(); Object.assign(ST, {q: '', countries: [], types: [], grade: ''}); q.value = sg.value = ''; changed(); };
+    const u = new URLSearchParams();
+    if (ST.q) u.set('q', ST.q);
+    if (ST.countries.length) u.set('country', ST.countries.join(','));
+    if (ST.types.length) u.set('type', ST.types.join(','));
+    if (ST.grade) u.set('grade', ST.grade);
+    if (ST.sort !== 'strength') u.set('sort', ST.sort);
+    const onlyType = ST.types.length === 1 && [...u.keys()].length === 1 ? '/' + typeSlug(ST.types[0]) : '';
+    const us = u.toString().replace(/%2C/g, ',');
+    history.replaceState(null, '', '/directory' + (onlyType || (us ? '?' + us : '')));
   };
   const changed = () => { ST.limit = 100; draw(); };
   q.addEventListener('input', () => { ST.q = q.value; changed(); });
-  sc.addEventListener('change', () => { ST.country = sc.value; changed(); });
-  st.addEventListener('change', () => { ST.type = st.value; changed(); });
   sg.addEventListener('change', () => { ST.grade = sg.value; changed(); });
   ss.addEventListener('change', () => { ST.sort = ss.value; changed(); });
   draw();
+}
+
+// A multi-select menu: a button that opens a list of ticked options, each with its count. Filled in by globalDirectory.
+function msHtml(id, what, searchPh) {
+  return `<details class="ms" id="${id}"><summary class="field ms-sum" aria-labelledby="${id}-l"><span class="ms-v"></span></summary>
+    <div class="ms-panel">${searchPh ? `<input class="field ms-s" type="search" placeholder="${searchPh}" aria-label="${searchPh}" autocomplete="off">` : ''}
+      <div class="ms-opts" role="group" aria-labelledby="${id}-l"></div>
+      <button type="button" class="ms-clear" hidden>Clear ${what}</button></div></details>`;
 }
 
 // ---------- the bracket calculator ----------

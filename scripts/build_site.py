@@ -306,6 +306,13 @@ def build_supranational(folder, full):
             P.append([nid] + row[1:7] + [""] + row[8:])
             E += [[nid] + e[1:] for e in D["E"] if e[0] == aid]
         sitting[o["body_id"]][o["party"]].append(nid)
+    if own:
+        for row in own["P"]:
+            nid = f"{slug}-{row[0]}"
+            if nid not in seen:
+                seen.add(nid)
+                P.append([nid] + row[1:])
+                E += [[nid] + e[1:] for e in own["E"] if e[0] == row[0]]
     legis = []
     for b in rd(folder / "bodies.csv"):
         if b.get("seat_view") != "y" or b["body_id"] not in seats_by:
@@ -794,8 +801,30 @@ def load_story(slug):
     for it in fm.get("facts", []) + fm.get("timeline", []):
         if it.get("source") and it["source"] not in ids:
             raise SystemExit(f"{f.name}: source {it['source']} is not in sources")
+    # Charts (bars only: the others draw from the argument pages' data) and a share card figure, as on the argument pages.
+    charts = fm.get("charts", [])
+    cids = [ch.get("id") for ch in charts]
+    for ch in charts:
+        for msg in chartlib.check(ch):
+            raise SystemExit(f"{f.name}: {msg}")
+        if ch.get("type") != "bars":
+            raise SystemExit(f"{f.name}: chart {ch.get('id')}: stories use bars charts only")
+    for dup in sorted({i for i in cids if cids.count(i) > 1}):
+        raise SystemExit(f"{f.name}: chart id {dup!r} appears twice")
+    placed = re.findall(r"(?m)^\{\{chart:\s*([a-z0-9-]+)\s*\}\}\s*$", body)
+    for i in sorted(set(cids) - set(placed)):
+        raise SystemExit(f"{f.name}: chart {i!r} is declared but never placed with {{{{chart: {i}}}}}")
+    for i in sorted({i for i in placed if placed.count(i) > 1}):
+        raise SystemExit(f"{f.name}: chart {i!r} is placed twice")
+    if bool(fm.get("card_figure")) != bool(fm.get("card_label")):
+        raise SystemExit(f"{f.name}: card_figure and card_label come together")
     refs = {i: 0 for i in ids}
-    intro, sections = story_markdown(body, refs)
+    intro, sections = story_markdown(body, refs, set(cids))
+    for ch in charts:
+        ch["caption_html"] = story_inline(ch["caption"], refs)
+    draw = lambda t: re.sub(r'<div data-chart="([a-z0-9-]+)"></div>', lambda m: chartlib.render(next(c for c in charts if c["id"] == m.group(1)), {}), t)
+    intro = draw(intro)
+    sections = [dict(s, html=draw(s["html"])) for s in sections]
     for it in fm.get("facts", []) + fm.get("timeline", []):
         if it.get("source"):
             refs[it["source"]] += 1
@@ -805,7 +834,8 @@ def load_story(slug):
     words = len(re.sub(r"<[^>]+>", " ", intro + " ".join(s["html"] for s in sections)).split())
     print(f"  story {slug}: {words} words, {len(sections)} sections, layout {layout}")
     return dict(title=fm["title"], standfirst=fm["standfirst"], updated=fm["updated"], author=fm.get("author", ""), layout=layout, status=status,
-                facts=fm.get("facts", []), timeline=fm.get("timeline", []), sources=srcs, intro=intro, sections=sections, words=words)
+                facts=fm.get("facts", []), timeline=fm.get("timeline", []), sources=srcs, intro=intro, sections=sections, words=words,
+                card_figure=fm.get("card_figure", ""), card_label=fm.get("card_label", ""))
 
 
 # Stories and argument pages carry `status: draft` (the default) until the author marks them final. A draft shows a badge so readers know the page will change.
@@ -1685,7 +1715,7 @@ def share_pages(out, base, countries, full, unique=None, bodies=(), resources=()
             if sec == "story":
                 for path in (f"/{slug}", f"/{slug}/story"):
                     write(path, f"{title} · Wealth Tax Supporters", desc, slug + "-story", f"{title}: a country story",
-                          lambda o, cc=cc, st=st, units=units: cards.story_card(o, cc, units, st["title"], st["standfirst"]),
+                          lambda o, cc=cc, st=st, units=units: cards.story_card(o, cc, units, st["title"], st["standfirst"], figure=(st["card_figure"], st["card_label"]) if st.get("card_figure") and st.get("card_label") else None),
                           body=sp.story_body(c, st, the(name)))
                 continue
             write(f"/{slug}" + (f"/{sec}" if sec else ""), f"{title} · Wealth Tax Supporters", desc, slug + (f"-{sec}" if sec else ""),

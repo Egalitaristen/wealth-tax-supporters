@@ -1,6 +1,6 @@
 ---
 title: Suriname already has a wealth tax. It just doesn't collect it
-standfirst: A law from 1944 taxes net wealth at 0.8% a year. The 2023 budget counted on SRD 8 million from it. The unions, the economists' association and two parties want it collected, and the fix is already in the statute book.
+standfirst: A law from 1944 taxes net wealth, though official sources disagree on the rate. The 2023 budget counted on SRD 8 million from it. The unions, the economists' association and two parties want it collected, and the fix is already in the statute book.
 updated: 2026-11-12
 layout: article
 status: draft
@@ -9,10 +9,10 @@ facts:
     value: 1944, Wet Vermogensbelasting (G.B. 1944 no. 185)
     source: 1
   - label: Rate
-    value: 0.8% a year on net wealth above the tax-free amount
+    value: Official published sources conflict; the current rate needs verification
     source: 1
   - label: Tax-free amount
-    value: SRD 100,000 for a single person, SRD 120,000 for a married one
+    value: SRD 100,000 for a single person, SRD 120,000 for a married one (union account; current thresholds unverified)
     source: 3
   - label: Booked revenue, 2023 budget
     value: About SRD 8 million a year
@@ -27,15 +27,15 @@ facts:
     value: Raise it to SRD 1.6 million
     source: 3
   - label: Supporters on the register
-    value: 12, among them a union federation, an economists' association, two parties and four members of parliament or former ministers
+    value: The register includes unions, an economists' association, parties and public officials
     source: 8
 timeline:
   - year: 1944
     text: The Wet Vermogensbelasting is passed on 14 December. It taxes people living in Suriname on what they own, minus debts.
     source: 1
   - year: 2004
-    text: The latest of the amendments (1951, 1965, 1980, 1984, 2002, 2004) listed in the consolidated text. The 0.8% rate and the filing duty are unchanged.
-    source: 1
+    text: The latest amendment listed in the Assembly consolidation. A 2024 law later amends an Article 6 reference.
+    source: 20
   - year: 2017
     text: Member of parliament Mohamed Amzad Abdoel says the state collects on average less than SRD 5 million a year while Surinamers hold over a billion dollars in banks.
     source: 6
@@ -49,7 +49,7 @@ timeline:
     text: In the budget debate Patricia Etnel calls the booked SRD 8 million shameful.
     source: 5
   - year: 2025
-    text: Ravaksur asks in April for a tax-free amount of SRD 1.6 million and in June for the tax to cover foundations and holding companies. In November Ronny Asabina links the tax to the asset declaration of public officials.
+    text: Ravaksur asks in April for a tax-free amount of SRD 1.6 million and in June for the tax to cover foundations and holding companies. In November Ronny Asabina calls for abolishing the wealth tax and restoring a vehicle tax.
     source: 3
 sources:
   - id: 1
@@ -80,8 +80,8 @@ sources:
     title: United News, Aanpassing belastingschijven en heffingskorting voor lagere inkomensgroepen (4 August 2020)
     url: https://unitednews.sr/aanpassing-belastingschijven-en-heffingskorting-voor-lagere-inkomensgroepen/
   - id: 10
-    title: SUN, Asabina Verplicht vermogen opgeven en vermogensbelasting gaan hand in hand (28 November 2025)
-    url: https://sun.sr/nieuws/lokaal/asabina-verplicht-vermogen-opgeven-en-vermogensbelasting-gaan-hand-in-hand?id=40395
+    title: SUN, Asabina proposes abolishing wealth tax and restoring vehicle tax (11 November 2025)
+    url: https://sun.sr/nieuws/lokaal/asabina-vermogensbelasting-afschaffen-rij-en-voertuigenbelasting-heractiveren?id=40148
   - id: 11
     title: Dagblad Suriname, Minister Raghoebarsing stelt invoering vermogensbelasting ter discussie (14 June 2024)
     url: https://web.archive.org/web/20240614071616/https://www.dbsuriname.com/2024/06/14/minister-raghoebarsing-stelt-invoering-vermogensbelasting-ter-discussie/
@@ -100,6 +100,15 @@ sources:
   - id: 16
     title: Brülhart, Gruber, Krapf and Schmidheiny, Behavioral Responses to Wealth Taxes - Evidence from Switzerland, American Economic Journal Economic Policy 2022
     url: https://www.aeaweb.org/content/file?id=15737
+  - id: 18
+    title: Tax administration, Wet Vermogensbelasting 1944, published copy
+    url: https://belastingdienst.sr/wp-content/uploads/2024/10/Wet-Vermogensbelasting.pdf
+  - id: 19
+    title: Government of Suriname, Herstelplan 2020-2022 (2021)
+    url: https://gov.sr/wp-content/uploads/2023/02/Herstelplan-2020-2022-versie-10-mei-2021.pdf
+  - id: 20
+    title: S.B. 2024 no. 168, Article V(T), De Nationale Assemblee
+    url: https://www.dna.sr/media/jblpbo4t/s-b-_2024_no-_168__wet_van_5_december_2024___aanpassing_bestaande_wetgeving_in_verband_met_de_invoering_van_het_nieuwe_burgerlijk_wetboek.pdf
   - id: 17
     title: Texto Ordenado 2023 (DGI), Título 14 Impuesto al Patrimonio (Decreto 101/024), IMPO
     url: https://impo.com.uy/bases/todgi2023/101-2024/4_T14
@@ -108,7 +117,7 @@ Most countries argue about whether to introduce a wealth tax. Suriname has had o
 
 ## What the law says {#law}
 
-Anyone living in Suriname owes the tax on their net wealth: everything of value they own, minus their debts, counted at the start of the year.[1] The rate is 8 for every 1,000, which is 0.8% a year.[1][2] The owner gets a tax-free amount first. Ravaksur, the trade union federation, puts it at SRD 100,000 for a single person and SRD 120,000 for a married one.[3] People who live abroad pay on Surinamese real estate, mortgages and business assets.[1]
+Anyone living in Suriname owes the tax on their net wealth: everything of value they own, minus their debts, counted at the start of the year.[1] The Assembly consolidation gives 8 per 1,000 (0.8%), but the tax administration copy states 3% and the 2021 government recovery plan says 3 per thousand (0.3%). The current rate needs verification against the original amendments.[1][18][19] The owner gets a tax-free amount first. Ravaksur, the trade union federation, puts it at SRD 100,000 for a single person and SRD 120,000 for a married one.[3] People who live abroad pay on Surinamese real estate, mortgages and business assets.[1]
 
 Everyone who receives a form has to return it. The penalty for not filing, in the text on the Assembly's site, is a fine of at most 1,000 guilders, an amount in the old currency that the Assembly's text still carries.[1] A law with a penalty that small is a law nobody is afraid of.
 
@@ -118,7 +127,7 @@ In 2017 the member of parliament [Mohamed Amzad Abdoel](/sr/A0001) said in the N
 
 Six years later nothing had changed. The 2023 budget counted on SRD 8 million a year. [Patricia Etnel](/sr/A0009) of the NPS called it a shameful amount and did the sum out loud. Suriname has about 40,000 businesses. If one in ten holds real wealth, that is 4,000. The government says 150,000 households live in the country, 60,000 of them in need of help. If one in twenty of the other 90,000 is wealthy, that is 4,500 families. Together roughly 8,000 payers, she said, for an average bill of SRD 1,000 a year.[5] These are her estimates, and they make the point: a tax this size cannot be a tax on the wealthy.
 
-In 2024 a Dutch parliamentary delegation visited Paramaribo. [Steven Debipersad](/sr/A0010), chair of the economists' association [VES](/sr/A0011), told it that the tax office works badly and that virtually no wealth tax is paid, and named both among the points holding back growth.[7] In November 2025 [Ronny Asabina](/sr/A0002) of the BEP, who is a tax expert as well as a member of parliament, called the amount collected ridiculously low and said it is no secret that the law is widely ignored.[10]
+In 2024 a Dutch parliamentary delegation visited Paramaribo. [Steven Debipersad](/sr/A0010), chair of the economists' association [VES](/sr/A0011), told it that the tax office works badly and that virtually no wealth tax is paid, and named both among the points holding back growth.[7] In November 2025 Ronny Asabina of the BEP criticised the tax and called for its abolition in favour of a vehicle tax.[10]
 
 ## The loophole is a legal form {#foundations}
 
@@ -126,7 +135,7 @@ The law taxes people. It does not tax foundations, called stichtingen, or holdin
 
 The value is large. Jadnanansing gives an illustration: taxable wealth of one billion US dollars would yield eight million dollars at 0.8%, and the real estate in Suriname is worth a multiple of that billion.[2] The revenue stays limited, he writes, until the real estate foundations fall under the tax.[2]
 
-Asabina says the same in plain terms. The gaps let people move their wealth into legal entities, foundations and cooperatives, and avoid the tax legally. The ones who lose are small owners, who cannot pay a notary the large sums needed to turn a small plot into a foundation.[10]
+Asabina argued that wealthy people shelter assets in legal entities while poorer people pay the tax; his proposed response was to replace it with a vehicle tax.[10]
 
 The union federation Ravaksur has a number. Its spokesperson and economist [Armand Zunder](/sr/A0003) said in June 2025 that the law should cover legal entities as well as persons, because people park their wealth in foundations and holding companies. The state would then have at least half a billion new SRD a year.[4] That is more than sixty times what the 2023 budget booked.[4][5]
 
@@ -136,7 +145,7 @@ None of this needs a new tax. It needs four edits to the old one.
 
 1. **Cover the entities.** Make foundations and holding companies liable, or let the tax office treat their owners as the owners. This is Zunder's and Jadnanansing's demand.[2][4]
 2. **Raise the threshold so it hits the rich.** Ravaksur wants the tax-free amount raised from SRD 100,000 to SRD 1.6 million.[3] The reason: until about 2012 SRD 60,000 was enough for an average worker to build a house, so most never met the law. Now the inspector can value an old family home at millions while the tax-free amount stays at the old figure, and retirees with an old house get a bill.[3] A threshold that reflects today's prices keeps the tax off a retiree and leaves the fortunes and the foundations on the hook.
-3. **Make the declaration real.** Asabina wants the tax changed together with the declaration of income and assets that every public official must file, and says the treasury would be laughing.[10] Officials who must disclose what they own are the first people the tax office can check.
+3. **Improve declarations and enforcement.** The government's 2021 recovery plan called for better wealth-tax assessment and changes to the law.[19]
 4. **Raise the fine.** A maximum of 1,000 guilders does not frighten anyone with a house.[1]
 
 [Armand Achaibersing](/sr/A0012), then Finance Minister, said the same in 2020: a wealth tax law already exists, and only the implementation has to be better.[9]
@@ -150,7 +159,7 @@ Uruguay does what Suriname does not. Its wealth tax covers companies as well as 
 
 ## Who backs it {#who-supports}
 
-The register holds twelve supporters in Suriname. They come from the union movement, the economists, the legislature and several parties. The [BEP](/sr/A0005) wants lower wage, income and profit taxes and more weight on consumption and wealth taxes, and Asabina says tax evasion has become child's play.[13] The party [PRO](/sr/A0006) named the lack of a thorough wealth tax, with the tax on small-scale gold mining, as part of the unfairness behind a 40% jump in power tariffs.[12]
+The register records supporters in Suriname. They come from the union movement, the economists, the legislature and several parties. The [BEP](/sr/A0005) wants lower wage, income and profit taxes and more weight on consumption and wealth taxes, and Asabina says tax evasion has become child's play.[13] The party [PRO](/sr/A0006) named the lack of a thorough wealth tax, with the tax on small-scale gold mining, as part of the unfairness behind a 40% jump in power tariffs.[12]
 
 {{supporters}}
 
