@@ -306,6 +306,13 @@ def build_supranational(folder, full):
             P.append([nid] + row[1:7] + [""] + row[8:])
             E += [[nid] + e[1:] for e in D["E"] if e[0] == aid]
         sitting[o["body_id"]][o["party"]].append(nid)
+    if own:
+        for row in own["P"]:
+            nid = f"{slug}-{row[0]}"
+            if nid not in seen:
+                seen.add(nid)
+                P.append([nid] + row[1:])
+                E += [[nid] + e[1:] for e in own["E"] if e[0] == row[0]]
     legis = []
     for b in rd(folder / "bodies.csv"):
         if b.get("seat_view") != "y" or b["body_id"] not in seats_by:
