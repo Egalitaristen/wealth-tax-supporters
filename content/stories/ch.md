@@ -5,7 +5,7 @@ updated: 2026-11-14
 layout: article
 status: draft
 card_figure: 10.2%
-card_label: Of the tax Swiss cantons and municipalities collected in 2024 came from the yearly wealth tax.
+card_label: The share of the tax Swiss cantons and municipalities collected in 2024 that came from the yearly wealth tax.
 charts:
   - id: thresholds
     type: bars
@@ -133,6 +133,12 @@ sources:
   - id: 16
     title: SRF, wealth concentration, an economist demands a minimum tax for the super-rich (23 October 2026)
     url: https://www.srf.ch/news/wirtschaft/vermoegenskonzentration-linker-staroekonom-fordert-mindeststeuer-fuer-superreiche
+  - id: 17
+    title: France Stratégie, Comité d'évaluation des réformes de la fiscalité du capital, Rapport final (October 2023), annex on departures of wealth tax payers
+    url: https://www.strategie-plan.gouv.fr/files/files/Publications/Rapport/fs-2023-rapport-isf-quatrieme_rapport_complet_17octobre_2.pdf
+  - id: 18
+    title: NRK, Skatteflyktningane, så mange har flytta til Sveits og dette betalte dei i formuesskatt (16 May 2026)
+    url: https://www.nrk.no/norge/skatteflyktningane_-sa-mange-har-flytta-til-sveits-og-dette-betalte-dei-i-formuesskatt-1.17853968
 ---
 Income tax sees only what is paid out to you. A company that keeps its profit and grows makes its owner richer without paying them a franc, and the gain is not income until the shares are sold. Switzerland has an old answer: every canton also taxes what you own, once a year. In 2024 that wealth tax raised CHF 9,458 million for the cantons and municipalities, 10.2% of all the tax they collected.[2]
 
@@ -152,7 +158,7 @@ Every adult resident declares everything they own, subtracts their debts, and pa
 
 {{chart: thresholds}}
 
-The bar is low. The OECD puts Zurich's threshold for a single person was €67,550 in 2017, against €1,300,000 in France.[3] The tax therefore reaches people with ordinary savings, and it reaches nearly all declared wealth. In Lucerne 42% of filers and in Bern 34% had wealth above the exemption, and the wealth under it was only 2.5% of the total in Lucerne and 5.4% in Bern.[4]
+The bar is low. The OECD puts Zurich's threshold for a single person at €67,550 in 2017, against €1,300,000 in France.[3] The tax therefore reaches people with ordinary savings, and it reaches nearly all declared wealth. In Lucerne 42% of filers and in Bern 34% had wealth above the exemption, and the wealth under it was only 2.5% of the total in Lucerne and 5.4% in Bern.[4]
 
 Assets are valued at market value. Listed shares go by the price list the Federal Tax Administration publishes each year, and unlisted shares by the price of a recent sale between independent parties or by a formula the cantonal tax offices agreed on.[2] How that works is on the page [you cannot value it](/arguments/you-cannot-value-it).
 
@@ -168,7 +174,7 @@ The OECD ties Switzerland's much larger take to its low thresholds, its wide bas
 
 The Geneva couple's case is the Swiss answer to the cry that owners "have no cash". The court did not say a tax above one year's income is fine because the owners are rich. It said a tax on the holding is a different kind of tax from an income tax and cannot be measured against one year's return. Only when the tax, wealth tax included, exceeds the owner's income and returns for years on end is the fortune being eaten away, and that is the point where taxation turns into confiscation.[5] Where a company keeps its profits, the shares' value rises faster than the tax, and the question is settled.[5]
 
-Switzerland adds a safety valve of its own. Seven of the 26 cantons cap the total burden, as a share of income or of wealth.[3] The page on [owners with no cash](/arguments/no-cash) covers deferral and loans, and the page on [family firms](/arguments/family-firms) covers who a threshold leaves out.
+Switzerland adds a safety valve of its own. In the OECD's 2018 survey, seven of the 26 cantons cap the total burden, as a share of income or of wealth.[3] The page on [owners with no cash](/arguments/no-cash) covers deferral and loans, and the page on [family firms](/arguments/family-firms) covers who a threshold leaves out.
 
 ## Cantons undercut each other {#competition}
 
@@ -204,11 +210,13 @@ In the spring of 2026 a Tamedia survey found 68% in favour of a federal tax to f
 
 ### Valuation {#valuation}
 
-Switzerland values assets every year for nearly everyone. The Federal Tax Administration reports that the tax values of homes and unlisted company shares tend to sit below market value and differ from canton to canton.[1] The dossier shows where. Aargau cuts the value of unlisted shares by 50%, Neuchâtel by 60%, and Valais sets qualifying holdings at 50%. Nidwalden lowers the rate on stakes of 10% or more.[2] A discount is a rate cut in another form, and the answer is the one the Swiss already use for listed shares: count the asset at its market value and write no exemption in. [You cannot value it](/arguments/you-cannot-value-it) takes the objection in full.
+Switzerland values assets every year for nearly everyone. The Federal Tax Administration reports that the tax values of homes and unlisted company shares usually sit below market value and differ from canton to canton.[1] The dossier shows where. Aargau cuts the value of unlisted shares by 50%, Neuchâtel by 60%, and Valais sets qualifying holdings at 50%. Nidwalden lowers the rate on stakes of 10% or more.[2] A discount is a rate cut in another form, and the answer is the one the Swiss already use for listed shares: count the asset at its market value and write no exemption in. [You cannot value it](/arguments/you-cannot-value-it) takes the objection in full.
 
 ### Flight {#flight}
 
 When Lucerne cut its rate, the wealth its residents declared jumped. A study of where the extra wealth came from found that about a quarter came from people moving in from other cantons, a fifth from a rise in house prices, and about half from residents who stayed and declared more financial assets.[4] The tax office gets no bank data about residents except in criminal cases, so financial wealth is whatever people write on the form.[4] The wealth was there before, and a lower rate made it easier to admit.
+
+Switzerland is also where leavers go. It was the top destination of the French real estate tax payers who left in 2021, with 19% of them, and a count by the Norwegian broadcaster NRK found 163 Norwegian business owners who had moved there since 2020.[17][18] They moved to a country that levies a wealth tax in every canton. The page on [leavers](/arguments/they-will-leave) has the full count.
 
 So the fixes are a floor that no canton can undercut and bank reporting that leaves little to hide. Neither is a reason to give up the tax: a rich resident who hides assets pays nothing, and the money they hide does not go away. The answer to leavers is on [the leavers page](/arguments/they-will-leave), and the pillar page shows why [a minimum](/arguments/why-tax-wealth#minimum) is built the way it is.
 
