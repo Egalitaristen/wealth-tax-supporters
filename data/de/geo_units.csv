@@ -7,7 +7,7 @@ G0005,European Parliament (German MEPs),supranational,legislature,G0001,https://
 G0006,Baden-Württemberg,region,state (Land),G0001,https://www.baden-wuerttemberg.de,in_progress,R003,2026-10-20,2,1,"2012 Länder initiative (NRW, RLP, BW, Hamburg) and NRW's draft read via the NRW press release and campaign reports; no Landtag motions read.",
 G0007,Bavaria,region,state (Land),G0001,https://www.bayern.de,pending,,,,,,
 G0008,Berlin,region,state (Land),G0001,https://www.berlin.de,in_progress,R001,2026-10-20,2,1,"Sample: Abgeordnetenhaus motion 19/1952 (Left group, 2024-10-08) read. Other Berlin parties and the Senate not searched.",
-G0009,Brandenburg,region,state (Land),G0001,https://www.brandenburg.de,pending,,,,,,
+G0009,Brandenburg,region,state (Land),G0001,https://www.brandenburg.de,in_progress,R046,2026-11-14,4,2,"R046: Landtag motions 7/3405 (Die Linke, 2021) and 8/3319 (BSW, 2026) read; 2021 motion rejected. 2026 debate and outcome not yet checked. Other state records not swept.",
 G0010,Bremen,region,state (Land),G0001,https://www.bremen.de,pending,,,,,,
 G0011,Hamburg,region,state (Land),G0001,https://www.hamburg.de,in_progress,R003,2026-10-20,2,1,"2012 Länder initiative (NRW, RLP, BW, Hamburg) and NRW's draft read via the NRW press release and campaign reports; no Landtag motions read.",
 G0012,Hesse,region,state (Land),G0001,https://www.hessen.de,in_progress,R002,2026-10-20,2,1,Left motion 19/4497 (2017) read; the 2009 motions are known only from a search summary; other parties not searched.,
@@ -19,7 +19,7 @@ G0017,Saarland,region,state (Land),G0001,https://www.saarland.de,pending,,,,,,
 G0018,Saxony,region,state (Land),G0001,https://www.sachsen.de,pending,,,,,,
 G0019,Saxony-Anhalt,region,state (Land),G0001,https://www.sachsen-anhalt.de,in_progress,R002,2026-10-20,2,1,Left motion 7/845 (2017) and the Landtag debate of 2017-02-02 read (the coalition tabled an alternative motion; the Finance Minister called the tax unconstitutional). Other parties' groups not searched.,
 G0020,Schleswig-Holstein,region,state (Land),G0001,https://www.schleswig-holstein.de,pending,,,,,,
-G0021,Thuringia,region,state (Land),G0001,https://www.thueringen.de,pending,,,,,,
+G0021,Thuringia,region,state (Land),G0001,https://www.thueringen.de,in_progress,R047,2026-11-14,8,3,R047: group statement on 8/3730 and independent public statements by Schaft and Hande read. Original motion and 8/4476 committee compromise not fetched; no region-wide sweep.,
 G0022,Flensburg,county,city,G0020,,pending,,,,,,01001
 G0023,Kiel,county,city,G0020,,pending,,,,,,01002
 G0024,Lübeck,county,city,G0020,,pending,,,,,,01003
