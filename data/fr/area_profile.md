@@ -17,10 +17,10 @@ Assemblée open data (Scrutins.json, AMO30 actors, Dossiers législatifs), assem
 Département outlines from OpenStreetMap France (ODbL, via data.gouv.fr), INSEE codes; Rhône parts 69D/69M merged. Overseas not drawn.
 
 ## 10. Plan for the next runs (by expected yield)
-1. Senate votes on Zucman amendments (28-29 Nov 2025) and Assemblée votes of Dec 2024 and Oct 2026 (find scrutin numbers; titles do not name the topic).
-2. Full signatory list of the 16 Feb 2025 appeal; MEP petition list (callforfairtaxation.com needs a browser).
-3. Leaders without a primary quote yet: Tondelier, Roussel, Piketty, Saez, Landais, Cagé, Artus; FSU, Solidaires, UNSA; tech entrepreneurs (Thiberge, Rudelle, Batty).
-4. Local: Joeuf motion (30 Oct 2025) and Meurthe-et-Moselle department motion (June 2025, site blocked) are leads; sample large cities.
+1. Remaining thin actor types: `funder`, `media_outlet`, `business_leader`, and `wealthy_individual`. (R009: 31 *premiers signataires* of `H0011` + Bruno Palier, Emmanuel Saez, Marine Tondelier. R010: 6 economists. R011: 12 Sep 2024 Sherpa / Libération open letter. R012: UNSA, FSU, Institut Rousseau, Institut La Boétie. R013: AES coalition unions/NGOs. R014: Pascal Demurger [MAIF / Impact France] + 6 NGOs/faith orgs from the 13 Jun 2026 G7 Evian appeal. R015: 14 `union_official`s, `Jeunesse Ouvrière Chrétienne (JOC)`, `GreenFaith`, 8 NGOs/unions from the 16 Sep 2024 open letter, and 48 mayors from the 10 Jun 2025 *Le Nouvel Observateur* open letter. R016: 6 `academic`s, `journalist` David Dufresne, `business_leader` Bertrand Faivre, 3 `cultural_figure`s, 4 `campaigner`s, Noël Mamère, and Grand Est regional councillor Lou Noirclère.)
+2. `H0013` MEP petition list (March 2023; `callforfairtaxation.com` no longer resolves and CDX timed out — `gabriel-zucman.eu/taxation-mondiale/` lists the 10 *premiers signataires*, including Aurore Lalucq and Lucas Chancel already in `data/fr`).
+3. PLF 2027 amendments `I-471`, `I-38`, `I-2566` harvested in R009 (4 new deputies, 138 fresh 2026 `motion_signature` rows); check Sénat `I-1640 rectifié bis` co-signers if published on `senat.fr`.
+4. Regional & local: Jœuf (30 Oct 2025), Strasbourg (29 Sep 2025), Conseil départemental de Loire-Atlantique (13 Oct 2025), Bourgogne-Franche-Comté regional council (16 Oct 2025), Vénissieux (8 Dec 2025), plus local councillors in Villeurbanne and Saint-Pierre-des-Corps, and 48 mayors (Lyon, Strasbourg, Nantes, Lille, Bordeaux, Grenoble, Rouen, Besançon, Tours, Poitiers, Clermont-Ferrand, Villeurbanne, etc., 10 Jun 2025); no official council `vœu` found on `paris.fr`, `lyon.fr`, `marseille.fr`, or `montreuil.fr`.
 5. Opinion columns and editorials.
 
 ## Resources pass (1 November 2026)
