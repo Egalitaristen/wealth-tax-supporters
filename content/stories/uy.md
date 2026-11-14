@@ -215,7 +215,7 @@ Nobody repealed the tax. The law cut it year after year until individuals paid 0
 
 ### The government is the obstacle {#obstacle}
 
-University economists, a union confederation and the congress of the governing party all back the surcharge. Oddone's answer is that the country has constraints.[8] The party's own 2027 timetable is the next date to push.[7]
+University economists, a union confederation and the congress of the governing party all back the surcharge. Oddone's answer on 10 June 2026 was that the tax is not contemplated for this term.[8] The party's own 2027 timetable is the next date to push.[7]
 
 ### The neighbours {#neighbours}
 
