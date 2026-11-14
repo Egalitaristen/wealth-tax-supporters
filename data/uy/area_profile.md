@@ -49,7 +49,7 @@ Updated through legislative records and debate expansion pass of 2026-11-09 (run
 - M0010: Senado Diario de Sesiones No. 5 (11 Mar 2025, plenary desarchivo vote 27/29).
 - M0011: Carpeta 804/2022, Distribuido 79/2025 (50th Legislature re-distributed text).
 - M0012: Comisión de Vivienda Versión Taquigráfica 444/2025 (9 Sep 2025, FADU-UdelaR hearing).
-- M0013: Ley 19.088 (11 Jun 2013, agricultural wealth reform and surcharges).
+- M0013: Ley 19.088 (14 Jun 2013, agricultural wealth reform and surcharges).
 - M0014: Frente Amplio Bases Programáticas 2025-2030 (p. 29 wealth tax commitment).
 - M0015: Senado Diario de Sesiones No. 213 (8 May 2013, plenary debate and passage of Ley 19.088).
 - M0016: Cámara de Representantes Diario de Sesiones No. 3862 (11 Jun 2013, plenary debate on Ley 19.088).

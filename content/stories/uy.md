@@ -199,7 +199,7 @@ The executive has said no. On 10 June 2026 Economy Minister Gabriel Oddone repea
 
 ## Who supports it {#who-supports}
 
-In August 2025 the Usina de Percepción Ciudadana found that 51% of Uruguayans would support an extraordinary tax on the sectors with the greatest wealth, and 77% of Frente Amplio voters.[14] Support also comes from the labour movement, the left of the Frente Amplio and the economists who built the numbers. The [PIT-CNT](/uy/A0001) and its president [Marcelo Abdala](/uy/A0002) lead the campaign. The [Partido Socialista](/uy/A0004) insisted at its 51st congress, and Senator [Gustavo González](/uy/A0005) promotes a bill for a tax on the richest 1%. He told the press that without money the programme cannot be carried out.[12] Communist deputy [Bruno Giometti](/uy/A0029) said in August 2025 that the programme does not allow doing nothing on taxes.[11] The [Frente Amplio](/uy/A0016) congress endorsed the debate.[7] On the evidence side, [Mauricio De Rosa](/uy/A0019) and [Joan Vilá](/uy/A0022) sit on the commission, and [Vicente Silva](/uy/A0026) wrote the brief on the minimum tax.[3][5]
+In August 2025 the Usina de Percepción Ciudadana ([poll page](/resources/uy-poll-usina-de-percepcion-2025)) found that 51% of Uruguayans would support an extraordinary tax on the sectors with the greatest wealth, and 77% of Frente Amplio voters.[14] Support also comes from the labour movement, the left of the Frente Amplio and the economists who built the numbers. The [PIT-CNT](/uy/A0001) and its president [Marcelo Abdala](/uy/A0002) lead the campaign. The [Partido Socialista](/uy/A0004) insisted at its 51st congress, and Senator [Gustavo González](/uy/A0005) promotes a bill for a tax on the richest 1%. He told the press that without money the programme cannot be carried out.[12] Communist deputy [Bruno Giometti](/uy/A0029) said in August 2025 that the programme does not allow doing nothing on taxes.[11] The [Frente Amplio](/uy/A0016) congress endorsed the debate.[7] On the evidence side, [Mauricio De Rosa](/uy/A0019) and [Joan Vilá](/uy/A0022) sit on the commission, and [Vicente Silva](/uy/A0026) wrote the brief on the minimum tax.[3][5]
 
 {{supporters}}
 
@@ -207,7 +207,7 @@ In August 2025 the Usina de Percepción Ciudadana found that 51% of Uruguayans w
 
 ### The machinery exists {#machinery}
 
-Uruguay does not need a new tax. It has an annual wealth tax, a minimum with a family rule, a farm surcharge and a tax office that collects UYU 30.9 billion a year from it.[1][13] The economists say any new design should be built on the existing tax.[4] A surcharge above US$1 million does that and leaves the rate for everyone below it at 0.1%.[3]
+Uruguay does not need a new tax. It has an annual wealth tax, a minimum with a family rule, a farm surcharge and a tax office that collects UYU 30.9 billion a year from it.[1][13] The tax office's [2024 statistics](/resources/uy-boletin-estadistico-2024) are on the Resources page. The economists say any new design should be built on the existing tax.[4] A surcharge above US$1 million does that and leaves the rate for everyone below it at 0.1%.[3]
 
 ### The rates fell by design {#floor}
 
