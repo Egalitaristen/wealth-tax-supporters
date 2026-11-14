@@ -176,7 +176,7 @@ France replaced its wealth tax with a tax on real estate in 2018, and the state'
 
 {{chart: collected}}
 
-Why does it matter that the new tax only reaches real estate? The largest fortunes are shares in companies, not buildings. A share that doubles, a company that keeps its profit: none of it counts as income until the owner sells, and the owner can borrow against it meanwhile. The [pillar page](/arguments/why-tax-wealth#unrealised) follows the money step by step. A tax on real estate alone leaves exactly that wealth out. No tax in France sets a minimum on the largest fortunes. We checked the Assemblée nationale, Sénat and Conseil constitutionnel pages on 14 November 2026, and no tax on net wealth and no floor tax on fortunes is in force.
+Why does it matter that the new tax only reaches real estate? The largest fortunes are shares in companies, not buildings. A share that doubles, a company that keeps its profit: none of it counts as income until the owner sells, and the owner can borrow against it meanwhile. The [pillar page](/arguments/why-tax-wealth#unrealised) follows the money step by step. A tax on real estate alone leaves exactly that wealth out. No tax in France sets a minimum on the largest fortunes. As of 14 November 2026 no tax on net wealth and no floor tax on fortunes is in force.
 
 ## What the ISF was {#isf}
 
