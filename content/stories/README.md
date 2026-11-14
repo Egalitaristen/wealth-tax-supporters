@@ -14,6 +14,8 @@ standfirst: One or two sentences, shown under the headline and on the share card
 updated: 2026-11-05
 layout: article          # the only template
 status: draft            # draft (default) shows a Draft badge; final removes it
+card_figure: 72%        # optional: a big number for the share card, with card_label under it (both or neither)
+card_label: What the number is, in one sentence.
 facts:
   - label: Wealth tax since
     value: 1840s
@@ -43,9 +45,12 @@ Markdown, restricted on purpose (the build escapes everything and allows only th
 - `[3]` is a numbered source reference, linked to the entry with `id: 3` in `sources`.
 - `> text` is a pull quote. A last line `> — Name, source` is its attribution.
 - `{{supporters}}` on a line of its own draws the live "Who supports it" block: parties, politicians, economists and unions from the country's register, with counts, one line of role per entry, links to each entry and to the directory. Use it once, in the section on who backs the tax, below an editorial paragraph.
+- `{{chart: id}}` on a line of its own places a bars chart declared under `charts:` in the front matter. A story may use `bars` charts only (the poll and map charts belong to the argument pages). The fields and rules are in `content/arguments/README.md`, section Charts; a chart uses only numbers that are in the story's `sources`, and its caption names its source with `[n]`.
 - No raw HTML, images or tables.
 
 Stable URLs: `/<folder>#<anchor>` and `/<folder>/story#<anchor>`.
+
+The share card (`/og/<folder>-story.png`) shows the country's map by default. With `card_figure` and `card_label` it shows that number big in place of the map, as on an argument card.
 
 ## Writing
 

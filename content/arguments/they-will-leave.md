@@ -1,20 +1,20 @@
 ---
-title: Norway lost about 2% of its wealth tax revenue to everyone who left, and the tax raised 72% more
+title: Norway's wealth tax raised 72% more in three years, and everyone who left cost it only 2% of that
 kind: argument
 objection: "The rich will just leave."
-answer: Very few move, and what they take is small: about 2% of Norway's wealth tax. Exit taxes follow leavers for years, and a rich person who pays nothing was never worth keeping.
-standfirst: A billionaire's fortune is mostly shares in companies with workers, customers and a home in the law. A person can move; the company stays. Norway raised its wealth tax in 2022 and the papers said the rich were fleeing. A study of the whole reform counts at most 100 people who left because of it. They cost the tax about 2% of its revenue, and its receipts still rose 72% in three years.
+answer: Very few move. Norway's wealth tax revenue grew 72% in three years, and the people who left took only 2% off it. Exit taxes follow leavers for years, and a rich person who pays nothing was never worth keeping.
+standfirst: A billionaire's fortune is mostly shares in companies with workers, customers and a home in the law. A person can move; the company stays. Norway raised its wealth tax in 2022 and the papers said the rich were fleeing. A study of the whole reform counts at most 100 people who left because of it. Its receipts rose 72% in three years; without those departures they would have risen 75%.
 updated: 2026-11-13
 layout: article
 status: draft
-card_figure: 2%
-card_label: The share of Norway's wealth tax revenue lost to everyone who left because it was raised. The receipts still grew 72%.
+card_figure: 72%
+card_label: How much more Norway's wealth tax raised in three years, after it was raised. Everyone who left cost it 2% of the revenue.
 facts:
   - label: People who left Norway because of the 2021 to 2024 reforms
     value: At most 100, almost all in 2022 and 2023
     source: 4
   - label: Revenue lost to that emigration
-    value: About 2% (the rise in receipts from 75% to 71.5%)
+    value: About 2% of revenue (receipts rose 71.5% instead of 75%)
     source: 4
   - label: Norway's wealth tax receipts, 2021 and 2024
     value: NOK 18.5 billion and NOK 31.8 billion, up 72%
@@ -99,7 +99,7 @@ charts:
 ---
 A billionaire's fortune is not a pile of money that fits in a suitcase. It is shares in companies: factories, shops, software, jobs. In Sweden, 37% of the top 0.1% of the wealth ladder own a company, and the firms owned by the top 2% employ 9.2% of everyone in the country.[9] A person can move to Switzerland. The company cannot. Its workers, its customers and the law it lives under stay where they are, and so does the profit the company makes.
 
-That is why the numbers are small. Norway raised its wealth tax in 2022 and the headlines said the rich were fleeing. A study of the full reform counts at most 100 people who left because of it, almost all in 2022 and 2023, and finds that their leaving cost the tax about 2% of its revenue.[4] Over the same three years the receipts of the tax rose from NOK 18.5 billion to NOK 31.8 billion, an increase of 72%.[1] The few who move take little with them, and the law can make them take less still: a tax that follows the person abroad for years leaves nothing to gain from the trip. A rich person who stays and pays nothing was never an asset, so the one who leaves with nothing owed is no loss.
+That is why the numbers are small. Norway raised its wealth tax in 2022 and the headlines said the rich were fleeing. A study of the full reform counts at most 100 people who left because of it, almost all in 2022 and 2023, and finds that their leaving cost the tax about 2% of its revenue.[4] Over the same three years the receipts of the tax rose from NOK 18.5 billion to NOK 31.8 billion, an increase of 72%.[1] Without the leavers the rise would have been 75%. The tax grew by nearly the same amount either way. The few who move take little with them, and the law can make them take less still: a tax that follows the person abroad for years leaves nothing to gain from the trip. A rich person who stays and pays nothing was never an asset, so the one who leaves with nothing owed is no loss.
 
 ## A fortune is tied to a place {#fortune}
 
