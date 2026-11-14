@@ -1,11 +1,11 @@
 ---
 title: Colombia's wealth tax raised COP 1.22 trillion in 2025, and the richest paid 72% of it
-standfirst: In 2025, 34,229 Colombians paid the wealth tax and fortunes above 239,000 tax units, about US$3.3 million, paid 72% of it. The law already ends its top rate after 2026, and a government bill filed on 29 October 2026 would shrink the tax further. It has not passed.
+standfirst: In 2025, 34,229 Colombians paid the wealth tax and fortunes above 239,000 tax units, about COP 11.9 billion or US$3.2 million in 2025, paid 72% of it. The law already ends its top rate after 2026, and a government bill filed on 29 October 2026 would shrink the tax further. It has not passed.
 updated: 2026-11-14
 layout: article
 status: draft
 card_figure: 72%
-card_label: The share of Colombia's 2025 wealth tax that came from fortunes above 239,000 tax units, about US$3.3 million.
+card_label: The share of Colombia's 2025 wealth tax that came from fortunes above 239,000 tax units, about COP 11.9 billion or US$3.2 million in 2025.
 facts:
   - label: Law
     value: Ley 2277 of 13 December 2022, permanent
@@ -170,7 +170,7 @@ charts:
     max: 2500
     data: Law, 2026|2335|ink|2,335 UVT; Law, from 2027|2030|ink|2,030 UVT; Bill 477, 2027 to 2030|1795|signal|1,795 UVT
 ---
-In 2025, 34,229 Colombians paid a wealth tax and it raised COP 1.22 trillion, about US$325 million.[5][3] The richest paid most of it: fortunes above 239,000 tax units, about US$3.3 million, paid COP 878 billion, 72% of the total.[5] Below 72,000 units, COP 3.77 billion or about US$1.0 million in 2026, nobody pays anything.[1][2] Dollar figures here use COP 3,757 per dollar, the rate on 31 December 2025.[3]
+In 2025, 34,229 Colombians paid a wealth tax and it raised COP 1.22 trillion, about US$325 million.[5][3] The richest paid most of it: fortunes above 239,000 tax units, COP 11.9 billion or about US$3.2 million in 2025, paid COP 878 billion, 72% of the total.[5] Below 72,000 units, COP 3.77 billion or about US$1.0 million in 2026, nobody pays anything.[1][2] Dollar figures here use COP 3,757 per dollar, the rate on 31 December 2025.[3]
 
 Why tax wealth when Colombia already taxes income? Because the biggest fortunes grow without ever showing up as income. A share that doubles, a company that keeps its profit, a building that gains value: none of it is taxed until it is sold, and the owner can borrow against it in the meantime. The [pillar page](/arguments/why-tax-wealth#unrealised) follows the money step by step. José Antonio Ocampo, the finance minister who wrote the 2022 reform, said that the worst-distributed thing in Colombia is wealth.[9]
 
@@ -199,7 +199,7 @@ Spread over the people who paid, the tax is small: COP 1.22 trillion from 34,229
 
 In 2024 the tax raised COP 1.47 trillion, 0.55% of everything DIAN collected, and in 2025 COP 1.22 trillion, 0.40%.[6][5] Earlier wealth taxes raised much more. The record year was 2015, with COP 5.51 trillion, and 2016 followed with 5.06 trillion, while 2022 was the weakest of the 20 years, with COP 73 billion.[4]
 
-Companies show what the base can bear. In 2026 the government used an economic emergency to charge an extraordinary wealth tax on companies with equity of 200,000 units or more, COP 10.5 billion. The general rate was 0.5%, and 1.6% for banks, insurers and the coal and oil industries.[11] It raised COP 5.1 trillion in two instalments, April and May 2026, more than four times what the tax on individuals raised in all of 2025.[10][5] The government had aimed at COP 8.3 trillion. César Cermeño of the Universidad de los Andes puts the shortfall on the 1.6% rate for the financial and extraction sectors.[10] A target missed because of rates and exemptions is fixed in the next law.
+Companies show what the base can bear. In 2026 the government used an economic emergency to charge an extraordinary wealth tax on companies with equity of 200,000 units or more, COP 10.5 billion. The general rate was 0.5%, and 1.6% for banks, insurers and the coal and oil industries.[11] It raised COP 5.1 trillion in two instalments, April and May 2026, more than four times what the tax on individuals raised in all of 2025.[10][5] The government had aimed at COP 8.3 trillion. César Cermeño of the Universidad de los Andes attributes the shortfall to the separate 1.6% rate for the financial and extraction sectors, which he says reduced the base collected from them.[10] A rate set by decree is a rate the next decree can change.
 
 ## How the tax came back {#history}
 
@@ -251,15 +251,15 @@ The tax has a base across parties. The 2020 request to expand it came from senat
 
 ### A line that follows prices {#threshold}
 
-The scale is in tax units, so the pesos move with DIAN's unit each year.[2] We argue for the lower start that Fergusson and Hofstetter proposed: COP 1 billion, about US$270,000.[9][3]
+The scale is in tax units, so the pesos move with DIAN's unit each year.[2] This site argues for the lower start that Fergusson and Hofstetter proposed: COP 1 billion, about US$270,000.[9][3]
 
 ### Revenue sits at the top {#top}
 
-Wealth above 239,000 units paid 72% of the 2025 revenue.[5] We argue for removing the end date of the 1.5% band, so that the tax on the largest fortunes stays where Congress put it.
+Wealth above 239,000 units paid 72% of the 2025 revenue.[5] This site argues for removing the end date of the 1.5% band, so that the tax on the largest fortunes stays where Congress put it.
 
 ### Repeal needs a vote {#repeal}
 
-The 2022 law ended the cycle of temporary versions. Changing it takes an act of Congress, and bill 477 has not passed.[12][15] We argue against both changes in it: the end date of 2030 and the line at 95,500 units.
+The 2022 law ended the cycle of temporary versions. Changing it takes an act of Congress, and bill 477 has not passed.[12][15] This site argues against both changes in it: the end date of 2030 and the line at 95,500 units.
 
 ### The neighbours {#neighbours}
 
