@@ -11,3 +11,34 @@ Q0009,R002,2026-11-04,hu,Bojár Gábor interjú vagyonadó,web,1,0,
 Q0010,R003,2026-11-12,hu,T/930 vagyonadóról törvényjavaslat parlament.hu irom43 indokolás,web,1,0,official PDF only behind CAPTCHA; found adozona reprint (403)
 Q0011,R003,2026-11-12,hu,vagyonadó törvényjavaslat benyújtotta képviselő LMP OR MSZP OR DK OR Jobbik OR Párbeszéd T/ luxusadó gazdagok adója,web,2,0,no further bill 2010 onward found by search
 Q0012,R003,2026-11-12,hu,Országgyűlés vagyonadó törvényjavaslat általános vita november 2026,web,2,0,"debate reports found, no speaker list or vote"
+Q0013,R004,2026-11-14,hu,vagyonadó támogatom befektető milliárdos Wáberer Tóth,web,4,0,Found direct Tóth interview and Wáberer interview.
+Q0014,R004,2026-11-14,hu,Kapitány István vagyonadó örömmel fizetem,web,3,0,Found Telex minister interview.
+Q0015,R004,2026-11-14,hu,vagyonadó Párbeszéd Újbuda Barabás Richárd,web,4,0,Party and 24.hu reports of press conference; checked local office history.
+Q0016,R004,2026-11-14,hu,vagyonadó szakszervezet Egyenlő.hu,web,2,0,Mixed conditional response; exclusion rather than supporter.
+Q0017,R004,2026-11-14,hu,vagyonadó DK MSZP Gyurcsány Botka 2017,web,3,0,Conflicting DK claims require primary source and time sequence; MSZP proposal needs design check.
+Q0018,R004,2026-11-14,hu,Kövesdy Attila vagyonadó 2026 államtitkár,web,2,0,"Announcement of preparation, insufficient evidence of personal advocacy."
+Q0019,R005,2026-11-14,hu,Botka vagyonadó százmillió program 2017 interjú,web,4,0,Original interview states threshold but leaves rate and recurrence unsettled.
+Q0020,R005,2026-11-14,hu,Karácsony Mindenki számít vagyonadó program 2017,web,3,0,Read candidate’s own endorsement and programme PDF.
+Q0021,R005,2026-11-14,hu,Büttl Ferenc vagyonadó 2017 nettó vagyon,web,3,0,Read author’s explicit endorsement and explanation of net wealth.
+Q0022,R005,2026-11-14,hu,Mi Hazánk Virradat program vagyonadó 2026,web,4,0,Read party programme and later parliamentary criticism of T/930.
+Q0023,R005,2026-11-14,hu,DK Gyurcsány vagyonadó 2011 2017 T/11920/5,web,5,1,"Read 2011 policy, 2017 criticism and cached 2025 committee report; original amendment access blocked."
+Q0024,R010,2026-11-14,hu,T/11920/5 vagyonadó amendment,web,,,Official amendment PDF still requires CAPTCHA; search indexing is insufficient for attribution.
+Q0025,R010,2026-11-14,hu,T/930 vagyonadó 2026 november parlament felszólalás,web,,,Read individual parliamentary speeches reproduced by Reakció; the original parliamentary links return CAPTCHA.
+Q0026,R010,2026-11-14,hu,A/868 Hogyan válik igazságossá a közteherviselés vagyonadó,web,,,"Found Borsós question and Boda response, both containing their own advocacy."
+Q0027,R010,2026-11-14,hu,vagyonadó támogatjuk szakszervezet civil szervezet,web,,,Responses seeking amendments alone were not treated as support.
+Q0028,R010,2026-11-14,hu,vagyonadó önkormányzat támogatjuk polgármester,web,,,Found a mayor requesting a share of receipts but no clear endorsement; logged as a lead.
+Q0029,R011,2026-11-14,hu,site:reakcio.hu/parlament vagyonadó TISZA támogatjuk,web,,,Found Bujdosó’s direct statement in the 4 November tax-package debate.
+Q0030,R011,2026-11-14,hu,Cser-Palkovics András vagyonadó támogatja,web,,,"Found a second report of his local-revenue request, but not a clear endorsement of imposing the tax."
+Q0031,R011,2026-11-14,hu,T/11920/5 vagyonadó DK Sebián-Petrovszki,web,,,"Cached indexed text identifies 16 names; the live PDF and page screenshot return CAPTCHA, so no individual attribution."
+Q0032,R011,2026-11-14,hu,"14 szakmai szervezet vagyonadó 0,3 0,5 állásfoglalás",web,,,Read a signatory organisation’s reproduction of the joint position; design requests alone do not establish endorsement.
+Q0033,R011,2026-11-14,hu,Terták Elemér vagyonadó Martin Sandbu,web,,,Found a signed commentary that introduces another analyst’s work; ownership of recommendations remains ambiguous.
+Q0034,R012,2026-11-14,hu,vagyonadó támogatás vállalkozó alapító Tisza,web,,,Opened Forbes interview reproduced by KÉSZ Group: founder supports plan with design caveats.
+Q0035,R012,2026-11-14,hu,vagyonadó Párbeszéd Mellár Tordai 2017,web,,,Read signed party statement outlining the 2017 broad-asset proposal.
+Q0036,R012,2026-11-14,hu,Botka luxusadó vagyonelemek részvény ingatlan 2017,web,,,Own interviews give wealth threshold but not a complete asset base; logged follow-up.
+Q0037,R012,2026-11-14,hu,vagyonadó szakszervezet civil szervezet támogatja,web,,,Organisation comments identified but did not establish unambiguous support.
+Q0038,R012,2026-11-14,hu,oligarchaadót vagyonadót szorgalmazzuk Toroczkai 2025,web,,,A parliamentary mirror was indexed but could not be opened; no evidence added from a search snippet.
+Q0039,R013,2026-11-14,hu,"""vagyonadót"" ""támogatom"" vállalkozó milliárdos 2026",web,,,Tóth and other business supporters were already recorded; checked original Pénzcentrum interview.
+Q0040,R013,2026-11-14,hu,Botka vagyonadó Nemzeti Szolidaritási Program 2020 tőkevagyon,web,,,"Found a verbatim reproduction of Botka’s signed 2020 proposal, distinct from the 2017 programme."
+Q0041,R013,2026-11-14,hu,Simor András vagyonadó támogatja 2019 2026,web,,,Original 2019 interview expressly states neither for nor against; 2026 reporting describes opposition.
+Q0042,R013,2026-11-14,hu,T/930 vagyonadó bizottság november szavazás,web,,,A 12 November report scheduled parliamentary votes for the week of 23 November; do not treat the bill as passed.
+Q0043,R013,2026-11-14,hu,vagyonadó széles adóalap Nyári Zsolt 2026,web,,,Consultant describes possible justification and design but not unequivocal support; follow-up lead added.
