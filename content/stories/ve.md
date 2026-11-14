@@ -175,7 +175,7 @@ The tax follows the Seniat's list of special taxpayers. On 21 October 2026 actin
 
 {{chart: list}}
 
-Only a name on the list can owe the tax.[4] A shorter list aimed at the largest firms and fortunes suits a threshold of about US$40 million. It also means the list is now the tool: every large owner who belongs on it must be on it. The announcement did not mention the wealth tax.[9]
+Only a name on the list can owe the tax.[4] A shorter list aimed at the largest firms and fortunes fits a high threshold. It also means the list is now the tool: every large owner who belongs on it must be on it. The announcement did not mention the wealth tax.[9]
 
 ## Who backs it {#who-supports}
 
@@ -195,7 +195,7 @@ In 2017 the economist José Guerra said that taxes other than VAT and income tax
 
 ### "Seniat decides who is a target" {#selective}
 
-Acceso a la Justicia argued in July 2019 that because the Seniat names the special taxpayers one by one, the tax could be aimed at political enemies, and that valuing assets in a hyperinflation would be arbitrary.[8] A rule written so that the name does not matter removes the first: every owner above 150 million units files, listed or not.[1] The October 2026 clean-up shows the list can be tightened to the very large.[9] On valuation the law takes the highest of the cadastral, market or updated purchase value,[5] and the Seniat has to publish the rule for updating purchase prices, which Mazars noted in October 2023 it had not yet done.[5] The page on [valuing wealth](/arguments/you-cannot-value-it) shows how other countries manage.
+Acceso a la Justicia argued in July 2019 that because the Seniat names the special taxpayers one by one, the tax could be aimed at political enemies, and that valuing assets in a hyperinflation would be arbitrary.[8] The fix is a rule under which the name does not matter: every owner above 150 million units files, listed or not. Today the law reaches only listed special taxpayers.[1][4] The October 2026 clean-up shows the list can be tightened to the very large.[9] On valuation the law takes the highest of the cadastral, market or updated purchase value,[5] and the Seniat has to publish the rule for updating purchase prices, which Mazars noted in October 2023 it had not yet done.[5] The page on [valuing wealth](/arguments/you-cannot-value-it) shows how other countries manage.
 
 ### "It came from the wrong assembly" {#assembly}
 
@@ -209,10 +209,10 @@ The same 2019 criticism said the tax would be passed on to consumers and discour
 
 1. **Publish the take.** Say each year how many filed, how many paid and how much was raised.[6]
 2. **Use the rate band.** The law allows up to 1.5% and the rate has been 0.25% since 2019. The Executive can raise it without a new law.[1][4]
-3. **Keep the line fixed in units.** Everyone above 150 million units files, whether or not the Seniat has listed them.[1]
+3. **Let the line decide, not the list.** Keep the line fixed in tax units, and have every owner above 150 million units file, whether or not the Seniat has listed them. Today the law reaches only special taxpayers.[1][4]
 4. **Publish the valuation rule.** The updated purchase price needs a rule.[5]
 5. **Fund the swap.** Méndez named the goal himself: cut the value added tax as wealth taxes grow.[2] The [minimum tax](/arguments/why-tax-wealth#minimum) argument is the reason.
 
 ## Where to look next {#next}
 
-The [map](/ve/map) shows Venezuela, the [directory](/ve/directory) lists everyone on the record and [method](/ve/method) lists the sources. [Bills, reports and papers](/resources?country=ve) for Venezuela are on the Resources page. A country with a different history is [Guyana](/gy), which dropped its property tax for individuals in 2026.
+The [map](/ve/map) shows Venezuela, the [directory](/ve/directory) lists everyone on the record and [method](/ve/method) lists the sources. [Bills, reports and papers](/resources?country=ve) for Venezuela are on the Resources page.
