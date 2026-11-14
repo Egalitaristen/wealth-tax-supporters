@@ -1354,3 +1354,27 @@ body:not(.ready) .foot { visibility: hidden; }
 .pp-fig span { font: 500 13px/1 var(--mono); letter-spacing: .1em; text-transform: uppercase; color: var(--ink-3); margin-left: 16px; }
 .pp-q { font: 400 clamp(20px, 2.4vw, 26px)/1.35 var(--serif); max-width: 52ch; }
 .bp-head .pp-fig + h1 { margin-top: 18px; font-size: clamp(24px, 3.4vw, 40px); }
+
+/* directory filter labels and multi-select menus */
+.g-filters { grid-template-columns: repeat(4, minmax(0, 1fr)); align-items: end; }
+.g-filters .fl-q { grid-column: 1 / -1; }
+.fl { display: flex; flex-direction: column; gap: 5px; min-width: 0; }
+.fl > label, .fl > .fl-l { font-size: 12.5px; font-weight: 600; color: var(--ink-2); }
+.ms { position: relative; min-width: 0; }
+.ms-sum { display: flex; align-items: center; list-style: none; cursor: pointer; padding-right: 30px; width: 100%;
+  background-image: linear-gradient(45deg, transparent 50%, var(--ink-3) 50%), linear-gradient(135deg, var(--ink-3) 50%, transparent 50%);
+  background-position: calc(100% - 16px) 17px, calc(100% - 11px) 17px; background-size: 5px 5px; background-repeat: no-repeat; }
+.ms-sum::-webkit-details-marker { display: none; }
+.ms[open] .ms-sum { border-color: var(--ink); }
+.ms-v { overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+.ms-panel { position: absolute; z-index: 40; top: calc(100% + 4px); left: 0; width: max(100%, 280px); max-height: 380px; overflow: auto; background: var(--card); border: 1px solid var(--ink); box-shadow: 0 10px 28px rgba(0, 0, 0, .25); padding: 8px; }
+.ms-s { width: 100%; margin-bottom: 6px; }
+.ms-opt { display: flex; align-items: center; gap: 9px; padding: 6px 6px; font-size: 14.5px; cursor: pointer; }
+.ms-opt:hover { background: var(--paper-2); }
+.ms-opt[hidden] { display: none; }
+.ms-opt input { accent-color: var(--signal); flex: none; }
+.ms-n { flex: 1; min-width: 0; }
+.ms-c { color: var(--ink-3); font-variant-numeric: tabular-nums; }
+.ms-opt.zero { color: var(--ink-3); }
+.ms-clear { margin-top: 6px; border: 0; background: none; color: var(--signal); cursor: pointer; font-size: 13.5px; padding: 6px; }
+@media (max-width: 1020px) { .g-filters { grid-template-columns: repeat(2, minmax(0, 1fr)); } }
