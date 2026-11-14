@@ -65,9 +65,6 @@ timeline:
   - year: 2026
     text: On 24 June the Tax Commission proposes a single lower rate and no valuation discounts.
     source: 16
-  - year: 2026
-    text: In October the government's budget proposal for 2027 keeps the rates and raises the threshold to NOK 1.99 million.
-    source: 17
 sources:
   - id: 1
     title: Storting, tax decision for income year 2026 (Vedtak 212)
@@ -118,9 +115,6 @@ sources:
     title: NRK, Største skatteendringer på tiår (24 June 2026)
     url: https://www.nrk.no/norge/storste-skatteendringer-pa-tiar_-slik-kan-skatten-din-bli-1.17932849
   - id: 17
-    title: Høgskolen i Molde, Forslag til statsbudsjett 2027, endringer i inntekts- og formuesskatt (16 October 2026)
-    url: https://panorama.himolde.no/2026/10/16/forslag-til-statsbudsjett-2027-endringer-i-inntekts-og-formuesskatt/
-  - id: 18
     title: Skatteetaten, Utsett betaling av formuesskatt beregnet på virksomhetsformue (deferral of the wealth tax on business assets)
     url: https://www.skatteetaten.no/person/skatt/skattekort/utsett-virksomhetsformue/
 charts:
@@ -181,7 +175,7 @@ These discounts are where the tax leaks, and they are a political choice. The sh
 
 ### Filing and paying {#filing}
 
-Owners of businesses do not need cash on hand. A private person can defer the part of the tax that falls on business assets for up to three years when it comes to NOK 30,000 or more, at an interest rate of the central bank's policy rate plus 5 percentage points.[18] The page on [owners with no cash](/arguments/no-cash) takes the objection in full.
+Owners of businesses do not need cash on hand. A private person can defer the part of the tax that falls on business assets for up to three years when it comes to NOK 30,000 or more, at an interest rate of the central bank's policy rate plus 5 percentage points.[17] The page on [owners with no cash](/arguments/no-cash) takes the objection in full.
 
 ## What it raises {#revenue}
 
@@ -197,7 +191,7 @@ The threshold has done most of the work of shrinking the group. It rose from NOK
 
 ## How it grew and shrank {#history}
 
-The tax moves with the government. A new system in 2010 set the primary-home discount at 75%. Under the Solberg government the rate fell to 0.85% in 2015 and the threshold rose to NOK 1.2 million that year. The discount on shares grew to 45% by 2021.[3] Then the Støre government reversed the direction: in 2022 it raised the rates and cut the discount to 25%, and in 2023 it cut the discount to 20% and abolished the discount on second homes.[3] That reversal is behind the 72% rise above.
+The tax moves with the government. A new system in 2010 set the primary-home discount at 75%. Under the Solberg government the rate fell to 0.85% in 2015 and the threshold rose to NOK 1.2 million that year. The discount on shares grew to 45% by 2021.[3] Then the Støre government reversed the direction: in 2022 it raised the rates and cut the discount to 25%, and in 2023 it cut the discount to 20% and abolished the discount on second homes.[3] That reversal came with the 72% rise above.
 
 ## The 2022 rise and the people who left {#departures}
 
@@ -219,7 +213,7 @@ On 8 September 2025 Labour won 53 seats, the Progress Party 47 and Høyre 24. Th
 
 On 15 February 2026 Høyre's national congress voted 158 to 131 to abolish the tax entirely, on a proposal from its Buskerud branch, with the party's new leader Ine Eriksen Søreide voting for it. LO's chief economist Roger Bjørnstad said it would make Norway a tax haven.[15]
 
-On 24 June 2026 the government's Tax Commission proposed one wealth tax rate between 0.25% and 0.75% in place of today's two, and no valuation discounts. Its package would cut the revenue by up to NOK 25.2 billion, depending on the rate. Rødt's member left the commission in protest.[16] The commission's own report keeps a tax on wealth. Ending the discounts is the right half of it, since a tax on the full value of what an owner has is the design this site argues for. The rate cut gives the money away: the tax raised NOK 31.8 billion in 2024.[4] A report is not a law. In October 2026 the government's budget proposal for 2027 kept the rates and raised the threshold from NOK 1.9 million to NOK 1.99 million. It is a proposal until the Storting votes.[17]
+On 24 June 2026 the government's Tax Commission proposed one wealth tax rate between 0.25% and 0.75% in place of today's two, and no valuation discounts. Its package would cut the revenue by up to NOK 25.2 billion, depending on the rate. Rødt's member left the commission in protest.[16] The commission's own report keeps a tax on wealth. Ending the discounts is the right half of it, since a tax on the full value of what an owner has is the design this site argues for. The rate cut gives the money away: the tax raised NOK 31.8 billion in 2024.[4]
 
 ## Who supports it {#who-supports}
 
