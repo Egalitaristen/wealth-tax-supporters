@@ -146,9 +146,9 @@ charts:
     data: €3 to 5 million|0.43|muted|0.43%; €5 to 10 million|0.37|muted|0.37%; €10 to 30 million|0.35|muted|0.35%; More than €30 million|0.21|signal|0.21%
   - id: scale-to-payable
     type: bars
-    title: Spain's wealth tax in 2024, € billion
+    title: Spain's wealth-tax returns in 2024, € billion
     desc: The wealth tax scale added up to 6.23 billion euros in the 2024 returns. After the cap with income tax it was 3.11 billion, and 2.15 billion was payable after regional rebates.
-    caption: The wealth tax returns for 2024, Spain outside the Basque Country and Navarre. The scale's total is before the cap that limits wealth tax and income tax together; the last bar is after the regional rebates.[7][11]
+    caption: The wealth tax returns for 2024, Spain outside the Basque Country and Navarre. The scale's total is before the cap that limits wealth tax and income tax together; the last bar is what the wealth-tax returns show as payable after regional rebates. The solidarity returns add about €24 million to reach the €2.18 billion total.[7][8][11]
     unit: " billion"
     max: 7
     data: What the scale adds up to|6.23|ink|€6.23 billion; After the cap with income tax|3.11|muted|€3.11 billion; Payable after regional rebates|2.15|signal|€2.15 billion
@@ -191,7 +191,7 @@ The first solidarity returns, for 2022, came from 12,010 payers, who paid €623
 
 {{chart: revenue}}
 
-In 2024 the tax agency counts 227,424 wealth-tax returns, of which 185,031 owed something. The wealth-tax summary shows €2.15 billion payable that year.[7][8] The tax agency's figures cover Spain outside the Basque Country and Navarre, which collect their own.[11]
+In 2024 the tax agency counts 227,424 wealth-tax returns, of which 185,031 owed something. The €2.18 billion is the total on the wealth-tax returns and the separate solidarity returns together.[8] The wealth-tax returns alone show €2.15 billion payable, and the difference of about €24 million is what the separate solidarity returns add.[7][8] That split moved when the rebate rules changed: in Madrid, Andalusia, La Rioja and Murcia the wealth-tax bill is now cut only to the solidarity amount, so most of the solidarity tax is paid through the wealth-tax return.[12] It is why the €623 million of solidarity tax in 2022 cannot be set beside the 2024 split. The tax agency's figures cover Spain outside the Basque Country and Navarre, which collect their own.[11]
 
 ## The regions undercut each other {#competition}
 
@@ -213,7 +213,7 @@ The fix is in the design. Sumar's 2026 bill drops the general exemption for busi
 
 ### Flight {#flight}
 
-The Spanish evidence on moving is about moving between regions, and it points to the fix. With no exempt assets, a resident of Madrid and a resident of Catalonia owe the same from about €17.5 million of net wealth, and below that the Catalan pays more, as the €5 million case shows.[2][12] A floor that started lower would end the gain from moving for the rest. A rich resident who moves to Madrid and pays nothing gives the country nothing, and in 2024 Madrid's 11,448 payers gave €650 million.[8]
+The Spanish evidence on moving is about moving between regions, and it points to the fix. With no exempt assets, a resident of Madrid and a resident of Catalonia owe the same from about €17.5 million of net wealth, and below that the Catalan pays more, as the €5 million case shows.[2][12] A floor that started lower would end the gain from moving for the rest. Before the solidarity tax, Madrid's rebate meant a resident above the threshold could pay nothing at all. In 2024 Madrid's 11,448 payers gave €650 million.[2][8]
 
 ### Revenue {#revenue-lesson}
 
