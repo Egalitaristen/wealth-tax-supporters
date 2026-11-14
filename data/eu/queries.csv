@@ -1,0 +1,25 @@
+query_id,run_id,date,language,query,channel,results_opened,leads_added,note
+Q0001,R001,2026-11-14,en,"""wealth tax"" ""European Union"" OR ""EU"" OR ""European Parliament"" support OR proposal OR motion 2020..2026",web,9,6,"FISC hearings, DG TAXUD study, ECI, EEB"
+Q0002,R001,2026-11-14,en,"""Tax the rich"" ""European Citizens' Initiative"" organizers OR supporters OR coalition OR MEPs",web,8,5,"FEPS, Oxfam, ECI organizers, Tax the Rich site"
+Q0003,R001,2026-11-14,en,"""ETUC"" OR ""Oxfam EU"" OR ""Tax Justice Europe"" OR ""Greens/EFA"" OR ""The Left"" ""wealth tax"" OR ""billionaire tax""",web,8,5,"ETUC, Greens/EFA, EU Tax Observatory"
+Q0004,R001,2026-11-14,en,"""European Green Party"" OR ""Party of European Socialists"" OR ""European Left"" OR ""Volt Europa"" ""wealth tax"" OR ""billionaire tax""",web,8,4,"EGP manifesto, PES Congress resolution, Volt Europa"
+Q0005,R001,2026-11-14,en,"""MEPs"" ""open letter"" ""wealth tax"" OR ""Tax the rich"" OR ""billionaires"" 2023 OR 2024 OR 2025",web,6,7,Global Redistribution Advocates open letter with 6 sitting MEPs
+Q0006,R002,2026-11-14,en,"""Greenpeace"" ""European"" OR ""EU"" ""wealth tax"" OR ""Tax the rich"" 2023..2026",web,5,1,Greenpeace European Unit Oct 2026 climate debt report
+Q0007,R002,2026-11-14,en,"site:socialeurope.eu ""EU wealth tax"" OR ""European wealth tax"" OR ""billionaire tax""",web,6,4,"Putaturo, Heimberger, Schütz, Mang, Balata"
+Q0008,R002,2026-11-14,en,"""László Andor"" ""wealth tax"" OR ""Tax the rich"" ""FEPS""",web,4,1,ECI Forum blog post
+Q0009,R002,2026-11-14,en,"""FISC"" ""ultra-high-net-worth"" ""report"" OR ""hearing"" ""europarl.europa.eu"" 2025 OR 2026",parliament,6,0,FISC Dec 2025 hearing and Oct 2026 ICM PDFs inspected
+Q0010,R003,2026-11-14,en,"""The Left in the European Parliament"" ""wealth tax"" OR ""Zucman"" OR ""tax on wealth""",web,3,1,Worked D0003; Agence Europe 2023-07-12 debate
+Q0011,R003,2026-11-14,en,"""Party of the European Left"" ""wealth tax"" OR ""tax on wealth"" OR ""taxation of wealth""",web,4,0,Checked PEL 2024 manifesto & 2026 congress doc; D0004 rejected
+Q0012,R003,2026-11-14,en,"""DiEM25"" ""wealth tax"" 2023 OR 2024 OR 2025 OR 2026",web,3,0,Worked D0008; rejected
+Q0013,R003,2026-11-14,en,"""Millionaires for Humanity"" ""wealth tax"" ""open letter"" 2024 OR 2025 OR 2026",web,4,0,Worked D0007; rejected as global
+Q0014,R003,2026-11-14,de,"""europäische Vermögensteuer"" OR ""EU-Vermögenssteuer"" Ökonom OR Gewerkschaft OR Jurist",web,3,2,Found ifsoblog.de and Thomas Waitz MEP
+Q0015,R003,2026-11-14,es,"""impuesto europeo a las grandes fortunas"" OR ""imposta patrimoniale europea"" OR ""tassa sui super-ricchi"" UE",web,2,0,Multilingual pass (ES/IT)
+Q0016,R003,2026-11-14,en,"""UNI Europa"" OR ""Jan Willem Goudriaan"" OR ""Oliver Roethig"" ""wealth tax"" OR ""extreme wealth""",web,2,0,Union officials search
+Q0017,R003,2026-11-14,en,"""Oliver Roethig"" OR ""Judith Kirton-Darling"" OR ""Isabelle Schömann"" OR ""Ludovic Voet"" ""wealth tax""",web,4,4,"Found Judith Kirton-Darling, industriAll Europe, Ludovic Voet, Rosa Pavanelli"
+Q0018,R003,2026-11-14,en,"""European wealth tax"" OR ""EU wealth tax"" professor OR economist OR ""tax law"" 2020..2025",web,4,3,"Found FES Brussels 2025 study (FES EU Office, Parrinello, Varaschin)"
+Q0019,R003,2026-11-14,en,"""European Parliament"" ""wealth tax"" OR ""minimum tax on billionaires"" MEP 2024..2026",parliament,2,0,Checked FISC hearings and MEP positions
+Q0020,R004,2026-11-14,en,"""EPSU"" ""wealth tax"" OR ""tax extreme wealth"" -site:epsu.org",web,3,6,"Found Oxfam 2025-03-17 joint letter with EPSU, Goudriaan, CONCORD, CAN Europe, EAPN, European Youth Forum"
+Q0021,R004,2026-11-14,en,"""Patrizio Lainà"" ""wealth tax"" OR ""varallisuusvero"" OR ""Tax the Rich""",web,1,0,Found STTK 2024-04-08 blog on varallisuusvero (national FI actor)
+Q0022,R004,2026-11-14,en,"""CIDSE"" OR ""Eurodad"" OR ""Finance Watch"" ""wealth tax"" Europe OR EU",web,1,1,Found bne IntelliNews 2026-10-07 report on wiiw EU wealth tax study
+Q0023,R004,2026-11-14,en,"""Economy for the Common Good"" OR ""Christian Felber"" ""wealth tax"" OR ""Vermögensteuer""",web,1,0,Checked giz2023 PDF; no direct wealth tax match
+Q0024,R004,2026-11-14,en,"""Henning Meyer"" OR ""Social Europe"" ""wealth tax"" ""editorial"" OR ""opinion"" 2020..2024",web,0,0,Verified Social Europe pieces already covered in R002/R003
