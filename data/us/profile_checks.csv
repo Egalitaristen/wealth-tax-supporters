@@ -43,7 +43,7 @@ K00041,A0026,own_site,https://utla.net,2026-11-15,none,,"not added: youtube http
 K00042,A0618,own_site,https://www.goiam.org/staff/brian-bryant/,2026-11-15,none,,"not added: youtube https://www.youtube.com/user/FranticHarbor (chrome,social-block); instagram https://www.instagram.com/MachinistsUnion/ (chrome,social-block); facebook https://www.facebook.com/MachinistsUnion (chrome,social-block); x https://x.com/iam_union (chrome,social-block)"
 K00043,A0930,own_site,https://www.afscme33.org/,2026-11-15,none,,"already listed: facebook,instagram,x,youtube"
 K00044,A0067,own_site,https://sacdsa.org/,2026-11-15,none,,"not added: x https://x.com/dsachapter (meta); x https://x.com/DSA (meta); already listed: facebook,bluesky,instagram,youtube"
-K00045,A0468,own_site,https://oregoned.org/,2026-11-15,found,facebook;bluesky;instagram;x,
+K00045,A0468,own_site,https://oregoned.org/,2026-11-15,found,facebook;bluesky;instagram,"removed on review: x https://x.com/NEAToday is the national association's account"
 K00046,A0761,own_site,https://populardemocracy.org/,2026-11-15,none,,not added: substack https://populardemocracy.substack.com (); x https://x.com/PennPolicy (social-block); x https://x.com/EdKrassen (social-block); already listed: instagram
 K00047,A0162,own_site,https://www.richmondca.gov/29/City-Council,2026-11-15,none,,"not added: x https://x.com/cityofrichmond (chrome,social-block)"
 K00048,A0270,own_site,https://norton.house.gov/,2026-11-15,none,,"already listed: facebook,x,instagram"
