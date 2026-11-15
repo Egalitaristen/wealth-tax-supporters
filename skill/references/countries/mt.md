@@ -13,7 +13,7 @@ taxxa fuq il-ġid, taxxa fuq ir-rikkezza, wealth tax, billionaire tax. "Ġid" al
 - Blocks scripts: independent.com.mt (403). Not tried: timesofmalta.com, parliament.mt Hansard.
 
 ## Seats
-No adapter. No supporter sits in the House today (ADPD has no seat), so there is no Seats tab. If a supporter is elected, write a `malta` adapter in `seats.py` from the parliament.mt member list.
+`seats.py` has a `malta` adapter (House of Representatives, 79 seats, Labour 42 and Nationalist Party 37) reading the Parliament's own "Parliamentary Groups" page. parlament.mt answers scripts with 403, so read it once in a browser and pass the saved file: open `https://parlament.mt/en/15th-leg/political-groups/` (the legislature number in the path changes after an election; the page title says which), save the page (or its `<h3>` party headings and the member links `a[href*="/political-groups/<party>/<member>/"]`, text "Surname, First"), then run `python skill/scripts/seats.py data/mt --fix-status --local https://parlament.mt/en/15th-leg/political-groups/=FILE`. No supporter sits in the House today (ADPD has no seat).
 
 ## What counted and what did not
 - Counted: ADPD's own budget and tax statements (C), Ralph Cassar's named support for the Greens/EFA wealth tax study (B).

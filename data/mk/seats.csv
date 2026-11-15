@@ -1,8 +1,16 @@
 seat_id,body_id,party,seats,colour,order
-S0001,B0001,Your Macedonia (VMRO-DPMNE coalition),58,9b1c1c,1
-S0002,B0001,VLEN,10,1f6fb4,2
-S0003,B0001,ZNAM,5,c9a227,3
-S0004,B0001,For European Future (SDSM coalition),18,e4002b,4
-S0005,B0001,European Front (DUI coalition),11,2e8b57,5
-S0006,B0001,Levica,6,8b1a2b,6
-S0007,B0001,MPs outside parliamentary groups,12,bdbdbd,7
+S0001,B0001,Levica,6,8b1a2b,1
+S0002,B0001,SDSM,13,e4002b,2
+S0003,B0001,DUI,10,2e8b57,3
+S0004,B0001,Independent,5,bdbdbd,4
+S0005,B0001,VMRO-DPMNE,57,9b1c1c,5
+S0006,B0001,BESA Movement,10,1f6fb4,6
+S0007,B0001,Alliance of the Albanians,6,,7
+S0008,B0001,Movement ZNAM,5,c9a227,8
+S0009,B0001,Socialists Party of Macedonia,2,,9
+S0010,B0001,Alternativa,1,,10
+S0011,B0001,Democratic Party of Serbs,1,,11
+S0012,B0001,Democratic Party of the Albanians,1,,12
+S0013,B0001,Liberal Democratic Party,1,,13
+S0014,B0001,Movement of Turks of Macedonia for Justice and Democracy,1,,14
+S0015,B0001,Movement “Populi”,1,,15

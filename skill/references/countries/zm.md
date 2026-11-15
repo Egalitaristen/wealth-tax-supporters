@@ -8,3 +8,7 @@ Seed pass R001 (2026-11-13). Check that URLs still resolve before relying on the
 - **What exists:** ActionAid Zambia (2020 statement, tax advisor interview), CUTS Lusaka's 2020 Fair Tax Monitor (funded by Oxfam Zambia), CAN Zambia (2025 pan-African letter), Socialist Party president Fred M'membe (September 2026 policy manifesto, as reported). The June 2022 ActionAid/CTPD report designs a net wealth tax but recommends enforcing existing asset taxes instead (excluded).
 - **Sources that work:** lusakatimes.com, diggers.news, zambiamonitor.com, zambia.actionaid.org PDFs, maketaxfair.net PDFs, afrobarometer.org. **Blocked:** fightinequality.org and core.ac.uk (403 to scripts).
 - **Watch out:** the Afrobarometer item on taxing the rich at higher rates is not a wealth tax poll; land holdings tax and property transfer tax are excluded.
+
+## Seats (15 November 2026)
+
+No adapter yet. `www.parliament.gov.zm` fails TLS from curl and showed a certificate error page in Chrome; the warning was not bypassed. Fred M'membe is not a sitting member, so no seat would be lit.

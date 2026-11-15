@@ -5,3 +5,4 @@
 - **Provincial and local bodies**: the Córdoba legislature and the Bariloche council have a body row and positions but no seat chart (no machine-readable member list was found).
 
 - **Records access (12 Nov 2026)**: the Cámara de Diputados hosts (hcdn.gob.ar, diputados.gob.ar, datos.hcdn.gob.ar) time out from outside Argentina; read old Chamber PDFs through web.archive.org and use the Senate search (curl only). Details: `references/records/ar.md`.
+- **Deputies site unreachable (15 November 2026):** `www.diputados.gob.ar` did not answer from this network in a script or in Chrome (connection failed, no HTTP status), while the Senate's list answered. Retried while building the Latin American adapters; the `argentina` adapter is unchanged and needs a network that reaches the site.

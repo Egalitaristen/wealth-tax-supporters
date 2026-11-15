@@ -1,4 +1,35 @@
 {
+  "2026-11-15": {
+    "summary": "Algeria joined the countries with a wealth tax in force, seat charts reached 32 more countries, and the Resources page grew to 342 pages.",
+    "items": [
+      {"kind": "added", "text": "Algeria is now counted among the countries with a wealth tax in force: article 13 of the 2020 supplementary finance law set a scale from 0.15% to 1% above 100 million dinars. Eleven countries have a tax and thirteen used to have one."},
+      {"kind": "added", "text": "Seat charts read the official member lists of 32 more countries, from Portugal, Greece and Hungary to Chile, the Philippines, Turkey and Russia, so supporters who sit today show as sitting."},
+      {"kind": "added", "text": "Resources: dozens of new bill, report and paper pages for the United States, Sweden, the Netherlands, Finland, Germany, Algeria, Morocco, Malaysia, Greece, Portugal, Poland, Mexico, India, Canada, Italy and more, and new polls for several of them. The page now holds 342."},
+      {"kind": "added", "text": "More supporters from the official records of Germany, Hungary, Italy, France, Australia and Georgia."},
+      {"kind": "improved", "text": "The seat refresh now matches names written in Arabic, Greek or Cyrillic, and keeps each member's start date."},
+      {"kind": "corrected", "text": "Thirteen sitting supporters in five countries who were missing from the seat charts are lit, and the House of Lords seat of Pauline Bryan, who retired in July 2025, is closed."},
+      {"kind": "corrected", "text": "The 59 signatories of the Sherpa and INDECOSA letters in France are grade B, since the letters call for a tax without naming a design. In Australia, 28 rows were regraded: lists that only say 'tax billionaires' are grade C and candidates listed on a party page are grade B."}
+    ]
+  },
+  "2026-11-14": {
+    "summary": "Eleven country stories were rewritten, stories gained charts, and the directory got labelled, multi-select filters.",
+    "items": [
+      {"kind": "added", "text": "Rewritten stories for Norway, Switzerland, Spain, Colombia, Uruguay, Bolivia, Argentina, Tunisia, Venezuela, Sweden and France."},
+      {"kind": "added", "text": "Stories can carry bar charts and a figure on their share card."},
+      {"kind": "added", "text": "More supporters in the United States (75 added, 22 refined), Venezuela, the European Parliament, Suriname, Spain's economists and the United Kingdom."},
+      {"kind": "improved", "text": "Directory: filters have labels, several countries and types can be chosen at once, and the counts on each filter follow the others."},
+      {"kind": "improved", "text": "The argument 'they will leave' opens with the 72% rise and says what leavers cost."}
+    ]
+  },
+  "2026-11-13": {
+    "summary": "Twelve countries joined, the pillar page and eleven arguments were rewritten, and a status audit confirmed the map.",
+    "items": [
+      {"kind": "added", "text": "New countries: Sri Lanka, Senegal, Serbia, the Dominican Republic, Honduras, Namibia, Zambia, Lebanon, Guatemala, El Salvador, Uganda and Zimbabwe."},
+      {"kind": "added", "text": "Seat charts for Saudi Arabia and Panama from their official lists, and refreshed seats for Brazil, Russia, Morocco, Peru and Sweden."},
+      {"kind": "improved", "text": "'Why tax wealth' was rewritten, leading with how concentrated wealth is, how little of its growth is taxed and how the rich borrow against it; eleven arguments were rewritten as well, from 'you cannot value it' and 'hurts growth' to 'Europe repealed it'."},
+      {"kind": "corrected", "text": "An audit of every country's wealth tax status found no change on the map. Hungary's bill is recorded as not passed."}
+    ]
+  },
   "2026-11-12": {
     "summary": "Every poll now has its own page, polls show as clear whole percentages, and 71 polls from 43 countries are on the register.",
     "items": [

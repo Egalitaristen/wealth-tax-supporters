@@ -22,3 +22,7 @@ python skill/scripts/merge_boundaries.py units.json --regions regs.json --out da
 **Sources that work:** legal-agenda.com, lebanon24.com, carnegieendowment.org (use the `?lang=en` URL for the 2019 piece), arab-reform.net, lebanon.fes.de, digitallibrary.un.org. Al-Akhbar and unescwa.org returned bot checks to plain clients; al-nidaa.com refused connections and was read from the Wayback copy; old.lcps-lebanon.org has an expired certificate.
 
 **Quirks:** the family name appears as Joumblatt, Jumblatt and Jumblat; Taymour and Walid are father and son. The LCP is *al-Hizb al-Shuyu'i al-Lubnani*. "Solidarity tax" (*dariba al-tadamun*) in the 2021 budget debate is a lead, not read.
+
+## Seats (15 November 2026)
+
+The Parliament's own page `https://www.lp.gov.lb/Members.aspx` lists the 128 sitting members (Arabic name, region, confession; members without a region are earlier members, kept as `former`). It answers a script; the refresh needs no browser: `python skill/scripts/seats.py data/lb --fix-status`. The list gives no party, so seats are grouped by the confession each is reserved for (27 Sunni, 27 Shia, 34 Maronite, 14 Greek Orthodox, 8 Druze, 8 Greek Catholic, 5 Armenian Orthodox, 2 Alawite, 1 each Armenian Catholic, Evangelical, Minorities). The register's party for a member (e.g. Taymour Joumblatt, PSP) is not in the official list. Write the Arabic name in full in brackets after the Latin one (`Taymour Joumblatt (تيمور وليد جنبلاط)`): two words alone also fit his father.
