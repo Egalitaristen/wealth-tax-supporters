@@ -102,7 +102,7 @@ sources:
     title: Ley Constitucional que crea el Impuesto a los Grandes Patrimonios, Gaceta Oficial 41.696 (16 August 2019)
     url: https://www.venamcham.org/wp-content/uploads/2021/11/Gaceta-Oficial-41696-Ley-Impuesto-Patrimonio-Reimpresion.pdf
   - id: 23
-    title: Wealth Tax Supporters, wealth tax status by country (data/wealth_tax_status.csv, 13 November 2026)
+    title: Wealth Tax Supporters, wealth tax status by country (data/wealth_tax_status.csv, 15 November 2026)
     url: https://github.com/Egalitaristen/wealth-tax-supporters/blob/main/data/wealth_tax_status.csv
   - id: 24
     title: Assemblée nationale, Proposition de loi n° 768 instaurant un impôt plancher de 2 % sur le patrimoine des ultra-riches (text as introduced), and Wealth Tax Supporters, its status on the Resources page (read 12 November 2026)
@@ -154,7 +154,7 @@ charts:
   - id: status-map
     type: status-map
     title: Where a wealth tax is in force, and where there used to be one
-    desc: A world map. Ten countries are coloured as having a wealth tax in force and thirteen as having had one.
+    desc: A world map. Eleven countries are coloured as having a wealth tax in force and thirteen as having had one.
     caption: The register's count of countries with an annual tax on net wealth in force and countries that had one.[23]
 ---
 Twelve OECD countries had a yearly tax on net wealth in 1990. In 2017 four did.[1]
@@ -237,7 +237,7 @@ Some countries went back. Spain gave every taxpayer a 100% credit in 2008 and re
 
 ## What is new {#new}
 
-Tunisia's parliament passed an annual wealth tax in its finance law for 2026, law no. 17 of 12 December 2025, published in the Official Gazette: 0.5% on net wealth of 3 million dinars and 1% above 5 million.[21] Venezuela's law of 2019 charges 0.25% to 1.5% on the net wealth of the largest taxpayers, those above 150 million tax units.[22] The register counts 10 countries with a wealth tax in force and 13 that used to have one, as of 13 November 2026.[23]
+Tunisia's parliament passed an annual wealth tax in its finance law for 2026, law no. 17 of 12 December 2025, published in the Official Gazette: 0.5% on net wealth of 3 million dinars and 1% above 5 million.[21] Venezuela's law of 2019 charges 0.25% to 1.5% on the net wealth of the largest taxpayers, those above 150 million tax units.[22] The register counts 11 countries with a wealth tax in force and 13 that used to have one, as of 15 November 2026.[23]
 
 The design that answers every hole at once is the minimum tax. The 2024 report for the G20 proposes that billionaires pay at least 2% of their wealth in tax each year. It would raise $200 billion to $250 billion a year worldwide from about 3,000 taxpayers.[17] It has no exemptions for owners of companies, no cap tied to income, and it starts at a threshold no middle-class household will ever reach.
 
