@@ -1,0 +1,5 @@
+check_id,actor_id,method,url,checked,result,found,note
+K00001,A0014,own_site,https://www.bettertaxes.nz/,2026-11-15,found,facebook;instagram;tiktok,
+K00002,A0001,own_site,https://www.greens.org.nz,2026-11-15,found,bluesky;tiktok,"not added: facebook https://www.facebook.com/nzgreenparty (chrome,social-block); already listed: instagram"
+K00003,A0009,own_site,https://www.maoriparty.org.nz/rawiri_waititi,2026-11-15,found,instagram,"not added: facebook https://www.facebook.com/MaoriParty (chrome,social-block); instagram https://www.instagram.com/Cz2mABbLPML/ (social-block); instagram https://www.instagram.com/maori_party/ (chrome,social-block); x https://x.com/Maori_Party (chrome,social-block); facebook https://www.facebook.com/RawiriWait"
+K00004,A0006,own_site,https://allianceparty.nz,2026-11-15,found,facebook;instagram;youtube,

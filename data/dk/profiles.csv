@@ -1,3 +1,6 @@
 profile_id,actor_id,platform,url,source,checked
 P00001,A0006,wikipedia,https://en.wikipedia.org/wiki/Uffe_Elb%C3%A6k,Wikidata Q984181,2026-11-04
 P00002,A0006,x,https://x.com/uffeelbaek,Wikidata Q984181,2026-11-04
+P00003,A0003,facebook,https://www.facebook.com/sfparti,linked from https://sf.dk,2026-11-15
+P00004,A0003,instagram,https://www.instagram.com/sf_socialistisk_folkeparti/,linked from https://sf.dk,2026-11-15
+P00005,A0003,x,https://x.com/sfpolitik,linked from https://sf.dk,2026-11-15

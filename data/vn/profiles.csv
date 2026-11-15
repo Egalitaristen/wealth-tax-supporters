@@ -1,3 +1,7 @@
 profile_id,actor_id,platform,url,source,checked
 P00001,A0001,website,https://vietnam.oxfam.org,https://vietnam.oxfam.org,2026-11-10
 P00002,A0001,facebook,https://www.facebook.com/oxfaminvietnam,https://vietnam.oxfam.org,2026-11-10
+P00003,A0002,instagram,https://www.instagram.com/theprakarsa/,linked from https://theprakarsa.org,2026-11-15
+P00004,A0002,facebook,https://www.facebook.com/theprakarsa,linked from https://theprakarsa.org,2026-11-15
+P00005,A0002,x,https://x.com/theprakarsa,linked from https://theprakarsa.org,2026-11-15
+P00006,A0002,youtube,https://www.youtube.com/c/theprakarsa,linked from https://theprakarsa.org,2026-11-15

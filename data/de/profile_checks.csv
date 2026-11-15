@@ -1,0 +1,43 @@
+check_id,actor_id,method,url,checked,result,found,note
+K00001,A0284,own_site,https://www.moshtari.de/,2026-11-15,none,,
+K00002,A0026,own_site,https://www.susanne-ferschl.de/,2026-11-15,none,,
+K00003,A0417,own_site,https://bsw-fraktion-brandenburg.de/,2026-11-15,found,facebook;instagram;youtube;tiktok,
+K00004,A0113,own_site,https://strengmann-kuhn.de/,2026-11-15,none,,"not added: youtube https://www.youtube.com/channel/UCB8bm4l-4JUUAc6ACX2wrwA (); youtube https://www.youtube.com/channel/UC7TAA2WYlPfb6eDJCeX4u0w (chrome,social-block); already listed: bluesky,x"
+K00005,A0345,own_site,https://taz.de/Dilan-Karacadag/!k5757989/,2026-11-15,error,,404 at https://taz.de/Dilan-Karacadag/!k5757989/
+K00006,A0401,own_site,https://sebastian-es.de/,2026-11-15,none,,"not added: linkedin https://www.linkedin.com/in/dr-sebastian-schaefer (chrome,social-block); already listed: facebook,instagram,x"
+K00007,A0444,own_site,https://www.gruene-fraktion-rhein-sieg.de/fraktion,2026-11-15,none,,not added: facebook https://www.facebook.com/Grüne-Fraktion-Rhein-Sieg-171082742905436 ()
+K00008,A0253,own_site,https://www.regierung-mv.de,2026-11-15,none,,
+K00009,A0183,own_site,https://goekay-akbulut.de/,2026-11-15,none,,"not added: facebook https://www.facebook.com/goekay.akbulut (chrome,social-block); already listed: instagram,tiktok,x"
+K00010,A0050,own_site,https://www.wolfgang-gehrcke.de/,2026-11-15,error,,URLError: <urlopen error ('A required certificate is not within its validity period when v
+K00011,A0170,own_site,https://www.svenja-schulze.de/,2026-11-15,blocked,,403 at https://www.svenja-schulze.de/
+K00012,A0281,own_site,https://www.wiso.uni-hamburg.de,2026-11-15,none,,"not added: instagram https://www.instagram.com/unihamburg/ (chrome,social-block); facebook https://www.facebook.com/unihamburg (chrome,social-block); bluesky https://bsky.app/profile/uni-hamburg.de (chrome,social-block); youtube https://www.youtube.com/c/unihamburg (chrome,social-block); linkedin https://www.l"
+K00013,A0148,own_site,https://konzeptwerk-neue-oekonomie.org,2026-11-15,found,youtube;linkedin,"already listed: instagram,facebook,bluesky"
+K00014,A0029,own_site,https://www.caren-lay.de/,2026-11-15,none,,"already listed: tiktok,instagram,bluesky,youtube,facebook,x"
+K00015,A0234,own_site,https://www.f-ostendorff.de,2026-11-15,none,,
+K00016,A0418,own_site,https://www.christian-schaft.de/,2026-11-15,found,facebook;x;instagram,"not added: facebook https://www.facebook.com/thueringer.landtag (chrome,social-block); x https://x.com/ThuerLandtag (chrome,social-block); instagram https://www.instagram.com/thueringerlandtag/ (chrome,social-block); mastodon https://social.bund.de/@thueringerlandtag (chrome,rel-me,social-block); youtube https; removed on review (employer's or unrelated account): bluesky https://bsky.app/profile/d"
+K00017,A0005,own_site,https://www.doris-achelwilm.de/,2026-11-15,none,,"already listed: facebook,instagram,youtube"
+K00018,A0359,own_site,https://www.fb03.uni-frankfurt.de/48624128/Katharina_Hoppe,2026-11-15,error,,404 at https://www.fb03.uni-frankfurt.de/48624128/Katharina_Hoppe
+K00019,A0457,own_site,https://www.steffen-zillich.de/,2026-11-15,none,,removed on review (employer's or unrelated account): bluesky https://bsky.app/profile/die-linke.de
+K00020,A0071,own_site,https://www.katrinwerner.de/,2026-11-15,error,,404 at https://www.katrinwerner.de/
+K00021,A0263,own_site,https://www.soziologie.uni-jena.de,2026-11-15,none,,
+K00022,A0456,own_site,https://parsa-marvi.de/,2026-11-15,found,facebook;x;instagram,removed on review (employer's or unrelated account): youtube https://www.youtube.com/channel/UCxS9n8XXsZkq4iEi_BpO1gQ
+K00023,A0091,own_site,https://www.kai-gehring.de/,2026-11-15,error,,URLError: <urlopen error ('A required certificate is not within its validity period when v
+K00024,A0035,own_site,https://alexander-ulrich-mdb.de/,2026-11-15,found,x;youtube,"already listed: instagram,facebook,tiktok"
+K00025,A0266,own_site,https://www.ifs.uni-frankfurt.de,2026-11-15,none,,"not added: facebook https://www.facebook.com/pages/category/College---University (chrome,social-block); instagram https://www.instagram.com/ifs.frankfurt/ (chrome,social-block); bluesky https://bsky.app/profile/ifsfrankfurt.bsky.social (chrome,social-block); youtube https://www.youtube.com/channel/UC8syZ2PeMqK"
+K00026,A0412,own_site,https://johannes-wagner.org/,2026-11-15,found,youtube,"already listed: tiktok,instagram,bluesky,facebook,x"
+K00027,A0352,own_site,https://www.tu.berlin,2026-11-15,none,,"not added: instagram https://www.instagram.com/tu_berlin/ (chrome,social-block); youtube https://www.youtube.com/user/TUBerlinTV (chrome,social-block); linkedin https://www.linkedin.com/school/tuberlin (chrome,social-block); mastodon https://wisskomm.social/@tuberlin (chrome,rel-me,social-block); tiktok https:"
+K00028,A0406,own_site,https://www.schmidt-oberpfalz.de/,2026-11-15,none,,"already listed: instagram,facebook"
+K00029,A0142,own_site,https://www.arbeitnehmerkammer.de,2026-11-15,found,instagram;bluesky;youtube,already listed: facebook
+K00030,A0037,own_site,https://www.amira-mohamed-ali.de/,2026-11-15,none,,
+K00031,A0300,own_site,https://www.feratkocak.de/,2026-11-15,error,,404 at https://www.feratkocak.de/
+K00032,A0408,own_site,https://franziska-brantner.de/,2026-11-15,none,,"not added: instagram https://www.instagram.com/florianreichelt/ (social-block); already listed: facebook,instagram,linkedin,tiktok"
+K00033,A0365,own_site,https://www.gew-berlin.de,2026-11-15,none,,"not added: bluesky https://bsky.app/profile/gewberlin.bsky.social (chrome,social-block); facebook https://www.facebook.com/GEW.BERLIN (chrome,social-block); youtube https://www.youtube.com/channel/UCI5y23rhizHWfqd6hKftYDg (chrome,social-block); instagram https://www.instagram.com/gewberlin/ (chrome,social-bloc"
+K00034,A0159,own_site,https://www.vdk.de,2026-11-15,found,linkedin;x,"not added: facebook https://www.facebook.com/VdK.Deutschland (chrome,social-block); bluesky https://bsky.app/profile/vdk-deutschland.bsky.social (chrome,social-block); instagram https://www.instagram.com/vdk_deutschland/ (chrome,social-block); youtube https://www.youtube.com/user/VdKTV (chrome,social-block); l"
+K00035,A0294,own_site,https://www.wiso.uni-hamburg.de,2026-11-15,none,,"not added: instagram https://www.instagram.com/unihamburg/ (chrome,social-block); facebook https://www.facebook.com/unihamburg (chrome,social-block); bluesky https://bsky.app/profile/uni-hamburg.de (chrome,social-block); youtube https://www.youtube.com/c/unihamburg (chrome,social-block); linkedin https://www.l"
+K00036,A0044,own_site,https://www.kirstentackmann.de,2026-11-15,error,,"URLError: <urlopen error (""The certificate's CN name does not match the passed value."",)>"
+K00037,A0003,own_site,https://www.christian-goerke.de/,2026-11-15,found,tiktok,"already listed: instagram,x,facebook"
+K00038,A0040,own_site,https://www.lorenz-goesta-beutin.de/,2026-11-15,found,tiktok;youtube,"already listed: facebook,instagram"
+K00039,A0360,own_site,https://hessen-thueringen.dgb.de,2026-11-15,none,,"not added: facebook https://www.facebook.com/DGBHessenThueringen (chrome,social-block); instagram https://www.instagram.com/dgbhessenthueringen/ (chrome,social-block); youtube https://www.youtube.com/channel/UCwQS3JdFyrApbdc8juBI9ig (chrome,social-block); x https://x.com/DGBHeTh (chrome,social-block)"
+K00040,A0455,own_site,https://andre-schulze.berlin/,2026-11-15,found,instagram;bluesky;tiktok,removed on review (employer's or unrelated account): youtube https://www.youtube.com/channel/UCpQGOkw1hLWtLClN2tcxZfw
+K00041,A0367,own_site,https://www.soziologie.uni-jena.de/institut/arbeitsbereiche/arbeits-industrie-und-wirtschaftssoziologie/personen/stefanie-graefe,2026-11-15,none,,"not added: instagram https://www.instagram.com/unijena/ (chrome,social-block); tiktok https://www.tiktok.com/@unijena (chrome,social-block); youtube https://www.youtube.com/user/UniJena (chrome,social-block); linkedin https://www.linkedin.com/school/friedrich-schiller-universität-jena (chrome,social-block); fa"
+K00042,A0321,own_site,https://gruene-jugend.de,2026-11-15,found,tiktok,"already listed: x,instagram"

@@ -1,0 +1,5 @@
+check_id,actor_id,method,url,checked,result,found,note
+K00001,A0002,own_site,https://www.mp.se,2026-11-15,found,facebook;instagram,
+K00002,A0056,own_site,https://ssu.se,2026-11-15,found,instagram;tiktok;facebook;x,
+K00003,A0095,own_site,https://piketty.pse.ens.fr/,2026-11-15,error,,URLError: <urlopen error [WinError 10061] No connection could be made because the target m
+K00004,A0096,own_site,https://partietvandpunkt.se,2026-11-15,error,,466 at https://partietvandpunkt.se
