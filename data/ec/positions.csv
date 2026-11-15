@@ -2,5 +2,5 @@ position_id,actor_id,body_id,role,party,geo_unit_id,start,end,current,member_ref
 O00001,A0001,B0002,President of Ecuador,Alianza PAIS,,2007-01-15,2017-05-24,,,,
 O00002,A0002,B0002,Coordinating Minister of Economic Policy,Alianza PAIS,,,,,,,
 O00003,A0005,B0002,President of Ecuador,CREO,,2021-05-24,2023-11-23,,,,
-O00004,A0010,B0001,Asambleísta,Revolución Ciudadana,G0004,,,y,blascoluna,2026-11-15,https://www.asambleanacional.gob.ec/es/blogs/blascoluna
-O00005,A0012,B0001,Asambleísta,ADN,G0004,,,y,fabiolasanmartin,2026-11-15,https://www.asambleanacional.gob.ec/es/blogs/fabiolasanmartin
+O00004,A0010,B0001,Asambleísta,Revolución Ciudadana,G0004,2025,,y,blascoluna,2026-11-15,https://www.asambleanacional.gob.ec/es/blogs/blascoluna
+O00005,A0012,B0001,Asambleísta,ADN,G0004,2025,,y,fabiolasanmartin,2026-11-15,https://www.asambleanacional.gob.ec/es/blogs/fabiolasanmartin

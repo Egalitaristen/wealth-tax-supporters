@@ -188,6 +188,8 @@ def run(d, adapter, dry=False, fix=False, actors_in=None):
                     report.append(f"{x['actor_id']} {x['name']}: matched to {m['name']} ({m['party']}) by name only: confirm it is the same person")
                 old = [prev for prev in db["positions"] if prev["actor_id"] == x["actor_id"] and prev["body_id"] == bid]
                 old = next((prev for prev in old if prev["current"] == "y"), old[0] if old else {})  # what the register already holds for this seat
+                if not old.get("start"):  # the body may have been renamed or re-created: keep the start the register had for this person's current seat
+                    old = dict(old, start=next((prev["start"] for prev in db["positions"] if prev["actor_id"] == x["actor_id"] and prev["current"] == "y" and prev["start"]), ""))
                 positions.append(dict(position_id="", actor_id=x["actor_id"], body_id=bid, role=c["role"],
                                       party=(old.get("party") if c.get("keep_party") and old.get("party") else m["party"]),  # a list with no party column keeps the register's
                                       geo_unit_id=x["geo_unit_id"], start=m.get("start") or old.get("start", ""), end="", current="y",
