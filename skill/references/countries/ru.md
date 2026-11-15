@@ -13,12 +13,12 @@ Plenary transcripts record individual statements and faction positions on tax bi
 ## Parliamentary seats and parties
 
 The State Duma has 450 seats elected every five years. The 9th convocation (elected 18–20 September 2026; Central Election Commission final result of 25 September 2026, first sitting 30 September) consists of:
-- **United Russia** (`United Russia`, colour `#0054A5`): 349 seats
+- **United Russia** (`United Russia`, colour `#0054A5`): 350 seats on the Duma's faction page, 15 November 2026
 - **Communist Party of the Russian Federation** (`Communist Party of the Russian Federation`, colour `#D71A21`): 37 seats — sponsors a 1%–4% luxury-asset tax (not counted: it taxes listed luxury goods, not net wealth)
 - **A Just Russia – For Truth** (`A Just Russia - For Truth`, colour `#F5B803`): 17 seats — advocates annual solidarity wealth tax modelled on the French ISF
-- **Liberal Democratic Party of Russia** (`Liberal Democratic Party of Russia`, colour `#003399`): 23 seats
-- **New People** (`New People`, colour `#00A896`): 19 seats
-- **Other / Independent (Rodina 1, four independents)** (`Other`, colour `#888888`): 5 seats
+- **Liberal Democratic Party of Russia** (`Liberal Democratic Party of Russia`, colour `#003399`): 24 seats
+- **New People** (`New People`, colour `#00A896`): 20 seats
+- **Non-attached** (`Non-attached`, colour `#888888`): 2 deputies in no faction
 
 `bodies.csv` registers the State Duma (`B0001`, national chamber, 450 seats). Sergey Mironov (A Just Russia) and Gennady Zyuganov (CPRF) are both on the 9th convocation list, each elected on their party's federal list (checked 12 November 2026). Sitting deputies supporting wealth taxation are linked via `positions.csv` with their official State Duma deputy ID (`member_ref`).
 
@@ -48,3 +48,7 @@ python skill/scripts/topo_to_boundaries.py \
   --out data/ru/boundaries.json
 ```
 The resulting `data/ru/boundaries.json` (576 KB, 2,304 simplified paths) aligns cleanly with the 2,414 units in `data/ru/geo_units.csv` with 0 missing-map errors or warnings.
+
+## Seats
+
+Both chambers are charted by `seats.py` (`ru`): the State Duma (450) from the members page of each faction on duma.gov.ru (`/duma/factions/<id>/members/`: 72100024 United Russia, 72100004 CPRF, 72100027 A Just Russia, 72100005 LDPR, 72100035 New People, 72100011 deputies in no faction) and the Federation Council from council.gov.ru/structure/members/ (177 senators named, no parties). The faction pages list one deputy (Tkachev, New People) under two ids; he is counted once. The page counts (UR 350, CPRF 37, LDPR 24, NP 20, SR 17, 2 non-attached) differ from the Central Election Commission figures kept above. Names are Cyrillic: the register carries the Russian name in brackets after the Latin one (`Sergey Mironov (Сергей Миронов)`).
