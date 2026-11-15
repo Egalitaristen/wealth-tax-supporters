@@ -17,3 +17,7 @@ Seed pass R001 (2026-11-13). 1 supporter, 1 evidence row. Check that URLs still 
 
 ## Debate
 No wealth tax exists or is proposed. Aminata Touré (Vatican/ICRICT, 13 February 2025) is the only statement found. The ICRICT release (`icrict.com/non-classe/its-time-to-tax-power-icricts-message-at-the-vatican/`) quotes her; `checkquotes` could not read it, so the quote was checked by hand. Search tools return mostly French (taxe Zucman) pages for Senegalese queries; use site searches of Senegalese outlets instead.
+
+## Seats (15 November 2026)
+
+No adapter yet. `assemblee-nationale.sn` fails TLS from curl; not retried in Chrome after the certificate errors on sibling sites. The 165-seat 15th legislature list is on the Assemblée's own site. Aminata Touré is not a deputy, so no seat would be lit.

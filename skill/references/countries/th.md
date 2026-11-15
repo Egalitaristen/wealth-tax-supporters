@@ -55,3 +55,7 @@ Thailand has one of the highest levels of wealth concentration in Southeast Asia
 - **Cloudflare blocks:** `prachatai.com` and `pridi.or.th` enforce Cloudflare Managed Challenges and block standard automated HTTP requests; desktop user agents or headless browser needed if querying them directly.
 - **High-yield media:** `matichon.co.th`, `isranews.org`, `the101.world`, `thematter.co`, `plus.thairath.co.th`, `thaipublica.org`, and `ngthai.com` resolve cleanly with standard headers.
 - **Think tanks:** Think Forward Center (ศูนย์นโยบายเพื่ออนาคต), Puey Ungphakorn Institute for Economic Research (PIER), and Thailand Development Research Institute (TDRI).
+
+## Seats
+
+No adapter yet (15 November 2026). The House member list (hris.parliament.go.th/ss_th.php, linked from parliament.go.th/view/1/representatives/TH-TH) did not load from this machine or from Chrome (error page, no certificate-bypass attempted), and the House site house.go.th did not answer. The Senate's page (senate.go.th/view/1/senator_v2/TH-TH) gives only the three presiding officers; the full senator list is on other pages of that site and no register politician sits in the Senate. Retry the House list from another network.
