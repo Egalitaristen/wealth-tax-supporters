@@ -1,0 +1,140 @@
+query_id,run_id,date,language,query,channel,results_opened,leads_added,note
+Q0001,R005,2026-11-15,fi,Hanna Sarkkinen varallisuusvero OR miljonäärivero,seat_sweep,3,1,Added Hanna Sarkkinen (2026-02-20 STT Info)
+Q0002,R005,2026-11-15,fi,Laura Meriluoto varallisuusvero OR miljonäärivero,seat_sweep,2,1,Added Laura Meriluoto (2025-03-14 Vasemmistoliitto)
+Q0003,R005,2026-11-15,fi,Timo Furuholm varallisuusvero OR miljonäärivero,seat_sweep,3,0,Criticizes tax cuts for millionaires; no personal wealth-tax endorsement found
+Q0004,R006,2026-11-15,fi,Alviina Alametsä varallisuusvero OR miljonäärivero,seat_sweep,1,0,No individual wealth-tax statement found
+Q0005,R006,2026-11-15,fi,Atte Harjanne varallisuusvero OR miljonäärivero,seat_sweep,1,0,No individual wealth-tax statement found
+Q0006,R006,2026-11-15,fi,Bella Forsgrén varallisuusvero OR miljonäärivero,seat_sweep,1,0,No individual wealth-tax statement found
+Q0007,R006,2026-11-15,fi,Fatim Diarra varallisuusvero OR miljonäärivero,seat_sweep,1,0,No individual wealth-tax statement found
+Q0008,R006,2026-11-15,fi,Hanna Holopainen varallisuusvero OR miljonäärivero,seat_sweep,1,0,No individual wealth-tax statement found
+Q0009,R006,2026-11-15,fi,Inka Hopsu varallisuusvero OR miljonäärivero,seat_sweep,1,0,No individual wealth-tax statement found
+Q0010,R006,2026-11-15,fi,Jenni Pitko varallisuusvero OR miljonäärivero,seat_sweep,1,0,No individual wealth-tax statement found
+Q0011,R006,2026-11-15,fi,Krista Mikkonen varallisuusvero OR miljonäärivero,seat_sweep,1,0,No individual wealth-tax statement found
+Q0012,R006,2026-11-15,fi,Mari Holopainen varallisuusvero OR miljonäärivero,seat_sweep,1,0,No individual wealth-tax statement found
+Q0013,R006,2026-11-15,fi,Oras Tynkkynen varallisuusvero OR miljonäärivero,seat_sweep,1,0,No individual wealth-tax statement found
+Q0014,R006,2026-11-15,fi,Saara Hyrkkö varallisuusvero OR miljonäärivero,seat_sweep,1,0,No individual wealth-tax statement found
+Q0015,R006,2026-11-15,fi,Sofia Virta varallisuusvero OR miljonäärivero,seat_sweep,1,0,No individual wealth-tax statement found
+Q0016,R006,2026-11-15,fi,Tiina Elo varallisuusvero OR miljonäärivero,seat_sweep,1,0,No individual wealth-tax statement found
+Q0017,R007,2026-11-15,fi,Aki Lindén varallisuusvero OR miljonäärivero,seat_sweep,1,0,No personal wealth-tax endorsement found; Eduskunta plenary hits belonged to Left Alliance speakers.
+Q0018,R007,2026-11-15,fi,Anette Karlsson varallisuusvero OR miljonäärivero,seat_sweep,1,0,No personal wealth-tax endorsement found; Eduskunta plenary hits belonged to Left Alliance speakers.
+Q0019,R007,2026-11-15,fi,Anna-Kristiina Mikkonen varallisuusvero OR miljonäärivero,seat_sweep,1,0,No personal wealth-tax endorsement found; Eduskunta plenary hits belonged to Left Alliance speakers.
+Q0020,R007,2026-11-15,fi,Antti Lindtman varallisuusvero OR miljonäärivero,seat_sweep,1,0,No personal wealth-tax endorsement found; Eduskunta plenary hits belonged to Left Alliance speakers.
+Q0021,R007,2026-11-15,fi,Antti Rinne varallisuusvero OR miljonäärivero,seat_sweep,1,0,No personal wealth-tax endorsement found; Eduskunta plenary hits belonged to Left Alliance speakers.
+Q0022,R007,2026-11-15,fi,Eeva-Johanna Eloranta varallisuusvero OR miljonäärivero,seat_sweep,1,0,No personal wealth-tax endorsement found; Eduskunta plenary hits belonged to Left Alliance speakers.
+Q0023,R007,2026-11-15,fi,Elisa Gebhard varallisuusvero OR miljonäärivero,seat_sweep,1,0,No personal wealth-tax endorsement found; Eduskunta plenary hits belonged to Left Alliance speakers.
+Q0024,R007,2026-11-15,fi,Eveliina Heinäluoma varallisuusvero OR miljonäärivero,seat_sweep,1,0,No personal wealth-tax endorsement found; Eduskunta plenary hits belonged to Left Alliance speakers.
+Q0025,R007,2026-11-15,fi,Hanna Laine-Nousimaa varallisuusvero OR miljonäärivero,seat_sweep,1,0,No personal wealth-tax endorsement found; Eduskunta plenary hits belonged to Left Alliance speakers.
+Q0026,R007,2026-11-15,fi,Helena Marttila varallisuusvero OR miljonäärivero,seat_sweep,1,0,No personal wealth-tax endorsement found; Eduskunta plenary hits belonged to Left Alliance speakers.
+Q0027,R007,2026-11-15,fi,Jani Kokko varallisuusvero OR miljonäärivero,seat_sweep,1,0,No personal wealth-tax endorsement found; Eduskunta plenary hits belonged to Left Alliance speakers.
+Q0028,R007,2026-11-15,fi,Johan Kvarnström varallisuusvero OR miljonäärivero,seat_sweep,1,0,No personal wealth-tax endorsement found; Eduskunta plenary hits belonged to Left Alliance speakers.
+Q0029,R007,2026-11-15,fi,Johanna Ojala-Niemelä varallisuusvero OR miljonäärivero,seat_sweep,1,0,No personal wealth-tax endorsement found; Eduskunta plenary hits belonged to Left Alliance speakers.
+Q0030,R007,2026-11-15,fi,Johannes Koskinen varallisuusvero OR miljonäärivero,seat_sweep,1,0,No personal wealth-tax endorsement found; Eduskunta plenary hits belonged to Left Alliance speakers.
+Q0031,R007,2026-11-15,fi,Joona Räsänen varallisuusvero OR miljonäärivero,seat_sweep,1,0,Commented on SAK 2025 defence-tax proposal as non-committal pending SDP election programme; no personal wealth-tax endorsement.
+Q0032,R007,2026-11-15,fi,Juha Viitala varallisuusvero OR miljonäärivero,seat_sweep,1,0,No personal wealth-tax endorsement found; Eduskunta plenary hits belonged to Left Alliance speakers.
+Q0033,R007,2026-11-15,fi,Kim Berg varallisuusvero OR miljonäärivero,seat_sweep,1,0,No personal wealth-tax endorsement found; Eduskunta plenary hits belonged to Left Alliance speakers.
+Q0034,R007,2026-11-15,fi,Kimmo Kiljunen varallisuusvero OR miljonäärivero,seat_sweep,1,0,No personal wealth-tax endorsement found; Eduskunta plenary hits belonged to Left Alliance speakers.
+Q0035,R007,2026-11-15,fi,Krista Kiuru varallisuusvero OR miljonäärivero,seat_sweep,1,0,No personal wealth-tax endorsement found; Eduskunta plenary hits belonged to Left Alliance speakers.
+Q0036,R007,2026-11-15,fi,Lauri Lyly varallisuusvero OR miljonäärivero,seat_sweep,1,0,No personal wealth-tax endorsement found; Eduskunta plenary hits belonged to Left Alliance speakers.
+Q0037,R007,2026-11-15,fi,Lotta Hamari varallisuusvero OR miljonäärivero,seat_sweep,1,0,No personal wealth-tax endorsement found; Eduskunta plenary hits belonged to Left Alliance speakers.
+Q0038,R007,2026-11-15,fi,Marko Asell varallisuusvero OR miljonäärivero,seat_sweep,1,0,No personal wealth-tax endorsement found; Eduskunta plenary hits belonged to Left Alliance speakers.
+Q0039,R007,2026-11-15,fi,Matias Mäkynen varallisuusvero OR miljonäärivero,seat_sweep,1,0,No personal wealth-tax endorsement found; Eduskunta plenary hits belonged to Left Alliance speakers.
+Q0040,R007,2026-11-15,fi,Mika Kari varallisuusvero OR miljonäärivero,seat_sweep,1,0,No personal wealth-tax endorsement found; Eduskunta plenary hits belonged to Left Alliance speakers.
+Q0041,R007,2026-11-15,fi,Nasima Razmyar varallisuusvero OR miljonäärivero,seat_sweep,1,0,No personal wealth-tax endorsement found; Eduskunta plenary hits belonged to Left Alliance speakers.
+Q0042,R007,2026-11-15,fi,Niina Malm varallisuusvero OR miljonäärivero,seat_sweep,1,0,No personal wealth-tax endorsement found; Eduskunta plenary hits belonged to Left Alliance speakers.
+Q0043,R007,2026-11-15,fi,Paula Werning varallisuusvero OR miljonäärivero,seat_sweep,1,0,No personal wealth-tax endorsement found; Eduskunta plenary hits belonged to Left Alliance speakers.
+Q0044,R007,2026-11-15,fi,Pia Hiltunen varallisuusvero OR miljonäärivero,seat_sweep,1,0,No personal wealth-tax endorsement found; Eduskunta plenary hits belonged to Left Alliance speakers.
+Q0045,R007,2026-11-15,fi,Pia Viitanen varallisuusvero OR miljonäärivero,seat_sweep,1,0,No personal wealth-tax endorsement found; Eduskunta plenary hits belonged to Left Alliance speakers.
+Q0046,R007,2026-11-15,fi,Pinja Perholehto varallisuusvero OR miljonäärivero,seat_sweep,1,0,No personal wealth-tax endorsement found; Eduskunta plenary hits belonged to Left Alliance speakers.
+Q0047,R007,2026-11-15,fi,Piritta Rantanen varallisuusvero OR miljonäärivero,seat_sweep,1,0,No personal wealth-tax endorsement found; Eduskunta plenary hits belonged to Left Alliance speakers.
+Q0048,R007,2026-11-15,fi,Riitta Kaarisalo varallisuusvero OR miljonäärivero,seat_sweep,1,0,No personal wealth-tax endorsement found; Eduskunta plenary hits belonged to Left Alliance speakers.
+Q0049,R007,2026-11-15,fi,Saku Nikkanen varallisuusvero OR miljonäärivero,seat_sweep,1,0,No personal wealth-tax endorsement found; Eduskunta plenary hits belonged to Left Alliance speakers.
+Q0050,R007,2026-11-15,fi,Seppo Eskelinen varallisuusvero OR miljonäärivero,seat_sweep,1,0,No personal wealth-tax endorsement found; Eduskunta plenary hits belonged to Left Alliance speakers.
+Q0051,R007,2026-11-15,fi,Suna Kymäläinen varallisuusvero OR miljonäärivero,seat_sweep,1,0,No personal wealth-tax endorsement found; Eduskunta plenary hits belonged to Left Alliance speakers.
+Q0052,R007,2026-11-15,fi,Tarja Filatov varallisuusvero OR miljonäärivero,seat_sweep,1,0,No personal wealth-tax endorsement found; Eduskunta plenary hits belonged to Left Alliance speakers.
+Q0053,R007,2026-11-15,fi,Timo Harakka varallisuusvero OR miljonäärivero,seat_sweep,1,0,No personal wealth-tax endorsement found; Eduskunta plenary hits belonged to Left Alliance speakers.
+Q0054,R007,2026-11-15,fi,Timo Suhonen varallisuusvero OR miljonäärivero,seat_sweep,1,0,No personal wealth-tax endorsement found; Eduskunta plenary hits belonged to Left Alliance speakers.
+Q0055,R007,2026-11-15,fi,Tuula Haatainen varallisuusvero OR miljonäärivero,seat_sweep,1,0,No personal wealth-tax endorsement found; Eduskunta plenary hits belonged to Left Alliance speakers.
+Q0056,R007,2026-11-15,fi,Tuula Väätäinen varallisuusvero OR miljonäärivero,seat_sweep,1,0,No personal wealth-tax endorsement found; Eduskunta plenary hits belonged to Left Alliance speakers.
+Q0057,R007,2026-11-15,fi,Tytti Tuppurainen varallisuusvero OR miljonäärivero,seat_sweep,1,0,No personal wealth-tax endorsement found; Eduskunta plenary hits belonged to Left Alliance speakers.
+Q0058,R007,2026-11-15,fi,Ville Merinen varallisuusvero OR miljonäärivero,seat_sweep,1,0,No personal wealth-tax endorsement found; Eduskunta plenary hits belonged to Left Alliance speakers.
+Q0059,R007,2026-11-15,fi,Ville Skinnari varallisuusvero OR miljonäärivero,seat_sweep,1,0,No personal wealth-tax endorsement found; Eduskunta plenary hits belonged to Left Alliance speakers.
+Q0060,R008,2026-11-15,fi,Anne Rintamäki varallisuusvero OR miljonäärivero,seat_sweep,0,0,No wealth-tax endorsement found for sitting Finns Party MP.
+Q0061,R008,2026-11-15,fi,Antti Kangas varallisuusvero OR miljonäärivero,seat_sweep,0,0,No wealth-tax endorsement found for sitting Finns Party MP.
+Q0062,R008,2026-11-15,fi,Ari Koponen varallisuusvero OR miljonäärivero,seat_sweep,0,0,No wealth-tax endorsement found for sitting Finns Party MP.
+Q0063,R008,2026-11-15,fi,Jaana Strandman varallisuusvero OR miljonäärivero,seat_sweep,0,0,No wealth-tax endorsement found for sitting Finns Party MP.
+Q0064,R008,2026-11-15,fi,Jani Mäkelä varallisuusvero OR miljonäärivero,seat_sweep,0,0,No wealth-tax endorsement found for sitting Finns Party MP.
+Q0065,R008,2026-11-15,fi,Jari Koskela varallisuusvero OR miljonäärivero,seat_sweep,0,0,No wealth-tax endorsement found for sitting Finns Party MP.
+Q0066,R008,2026-11-15,fi,Jari Ronkainen varallisuusvero OR miljonäärivero,seat_sweep,0,0,No wealth-tax endorsement found for sitting Finns Party MP.
+Q0067,R008,2026-11-15,fi,Jenna Simula varallisuusvero OR miljonäärivero,seat_sweep,0,0,No wealth-tax endorsement found for sitting Finns Party MP.
+Q0068,R008,2026-11-15,fi,Joakim Vigelius varallisuusvero OR miljonäärivero,seat_sweep,0,0,No wealth-tax endorsement found for sitting Finns Party MP.
+Q0069,R008,2026-11-15,fi,Jorma Piisinen varallisuusvero OR miljonäärivero,seat_sweep,0,0,No wealth-tax endorsement found for sitting Finns Party MP.
+Q0070,R008,2026-11-15,fi,Juha Mäenpää varallisuusvero OR miljonäärivero,seat_sweep,0,0,No wealth-tax endorsement found for sitting Finns Party MP.
+Q0071,R008,2026-11-15,fi,Kaisa Garedew varallisuusvero OR miljonäärivero,seat_sweep,0,0,No wealth-tax endorsement found for sitting Finns Party MP.
+Q0072,R008,2026-11-15,fi,Kaisa Juuso varallisuusvero OR miljonäärivero,seat_sweep,0,0,No wealth-tax endorsement found for sitting Finns Party MP.
+Q0073,R008,2026-11-15,fi,Laura Huhtasaari varallisuusvero OR miljonäärivero,seat_sweep,0,0,No wealth-tax endorsement found for sitting Finns Party MP.
+Q0074,R008,2026-11-15,fi,Leena Meri varallisuusvero OR miljonäärivero,seat_sweep,0,0,No wealth-tax endorsement found for sitting Finns Party MP.
+Q0075,R008,2026-11-15,fi,Lulu Ranne varallisuusvero OR miljonäärivero,seat_sweep,0,0,No wealth-tax endorsement found for sitting Finns Party MP.
+Q0076,R008,2026-11-15,fi,Mari Rantanen varallisuusvero OR miljonäärivero,seat_sweep,0,0,No wealth-tax endorsement found for sitting Finns Party MP.
+Q0077,R008,2026-11-15,fi,Mauri Peltokangas varallisuusvero OR miljonäärivero,seat_sweep,0,0,No wealth-tax endorsement found for sitting Finns Party MP.
+Q0078,R008,2026-11-15,fi,Merja Rasinkangas varallisuusvero OR miljonäärivero,seat_sweep,0,0,No wealth-tax endorsement found for sitting Finns Party MP.
+Q0079,R008,2026-11-15,fi,Mikko Lundén varallisuusvero OR miljonäärivero,seat_sweep,0,0,No wealth-tax endorsement found for sitting Finns Party MP.
+Q0080,R008,2026-11-15,fi,Miko Bergbom varallisuusvero OR miljonäärivero,seat_sweep,0,0,No wealth-tax endorsement found for sitting Finns Party MP.
+Q0081,R008,2026-11-15,fi,Minna Reijonen varallisuusvero OR miljonäärivero,seat_sweep,0,0,No wealth-tax endorsement found for sitting Finns Party MP.
+Q0082,R008,2026-11-15,fi,Mira Nieminen varallisuusvero OR miljonäärivero,seat_sweep,0,0,No wealth-tax endorsement found for sitting Finns Party MP.
+Q0083,R008,2026-11-15,fi,Onni Rostila varallisuusvero OR miljonäärivero,seat_sweep,0,0,No wealth-tax endorsement found for sitting Finns Party MP.
+Q0084,R008,2026-11-15,fi,Pekka Aittakumpu varallisuusvero OR miljonäärivero,seat_sweep,0,0,No wealth-tax endorsement found for sitting Finns Party MP.
+Q0085,R008,2026-11-15,fi,Petri Huru varallisuusvero OR miljonäärivero,seat_sweep,0,0,No wealth-tax endorsement found for sitting Finns Party MP.
+Q0086,R008,2026-11-15,fi,Pia Sillanpää varallisuusvero OR miljonäärivero,seat_sweep,0,0,No wealth-tax endorsement found for sitting Finns Party MP.
+Q0087,R008,2026-11-15,fi,Rami Lehtinen varallisuusvero OR miljonäärivero,seat_sweep,0,0,No wealth-tax endorsement found for sitting Finns Party MP.
+Q0088,R008,2026-11-15,fi,Riikka Purra varallisuusvero OR miljonäärivero,seat_sweep,0,0,No wealth-tax endorsement found for sitting Finns Party MP.
+Q0089,R008,2026-11-15,fi,Sakari Puisto varallisuusvero OR miljonäärivero,seat_sweep,0,0,No wealth-tax endorsement found for sitting Finns Party MP.
+Q0090,R009,2026-11-15,fi,Anne Kalmari varallisuusvero OR miljonäärivero,seat_sweep,1,0,No personal wealth-tax endorsement found for sitting Centre Party MP.
+Q0091,R009,2026-11-15,fi,Antti Kaikkonen varallisuusvero OR miljonäärivero,seat_sweep,1,0,No personal wealth-tax endorsement found for sitting Centre Party MP.
+Q0092,R009,2026-11-15,fi,Antti Kurvinen varallisuusvero OR miljonäärivero,seat_sweep,1,0,No personal wealth-tax endorsement found for sitting Centre Party MP.
+Q0093,R009,2026-11-15,fi,Eerikki Viljanen varallisuusvero OR miljonäärivero,seat_sweep,1,0,No personal wealth-tax endorsement found for sitting Centre Party MP.
+Q0094,R009,2026-11-15,fi,Eeva Kalli varallisuusvero OR miljonäärivero,seat_sweep,1,0,No personal wealth-tax endorsement found for sitting Centre Party MP.
+Q0095,R009,2026-11-15,fi,Hanna Kosonen varallisuusvero OR miljonäärivero,seat_sweep,1,0,No personal wealth-tax endorsement found for sitting Centre Party MP.
+Q0096,R009,2026-11-15,fi,Hanna Räsänen varallisuusvero OR miljonäärivero,seat_sweep,1,0,No personal wealth-tax endorsement found for sitting Centre Party MP.
+Q0097,R009,2026-11-15,fi,Hanna-Leena Mattila varallisuusvero OR miljonäärivero,seat_sweep,1,0,No personal wealth-tax endorsement found for sitting Centre Party MP.
+Q0098,R009,2026-11-15,fi,Hannu Hoskonen varallisuusvero OR miljonäärivero,seat_sweep,1,0,No personal wealth-tax endorsement found for sitting Centre Party MP.
+Q0099,R009,2026-11-15,fi,Hilkka Kemppi varallisuusvero OR miljonäärivero,seat_sweep,1,0,No personal wealth-tax endorsement found for sitting Centre Party MP.
+Q0100,R009,2026-11-15,fi,Jouni Ovaska varallisuusvero OR miljonäärivero,seat_sweep,1,0,No personal wealth-tax endorsement found for sitting Centre Party MP.
+Q0101,R009,2026-11-15,fi,Markku Siponen varallisuusvero OR miljonäärivero,seat_sweep,1,0,No personal wealth-tax endorsement found for sitting Centre Party MP.
+Q0102,R009,2026-11-15,fi,Markus Lohi varallisuusvero OR miljonäärivero,seat_sweep,1,0,No personal wealth-tax endorsement found for sitting Centre Party MP.
+Q0103,R009,2026-11-15,fi,Mauri Kontu varallisuusvero OR miljonäärivero,seat_sweep,1,0,No personal wealth-tax endorsement found for sitting Centre Party MP.
+Q0104,R009,2026-11-15,fi,Mika Lintilä varallisuusvero OR miljonäärivero,seat_sweep,1,0,No personal wealth-tax endorsement found for sitting Centre Party MP.
+Q0105,R009,2026-11-15,fi,Mika Riipi varallisuusvero OR miljonäärivero,seat_sweep,1,0,No personal wealth-tax endorsement found for sitting Centre Party MP.
+Q0106,R009,2026-11-15,fi,Mikko Polvinen varallisuusvero OR miljonäärivero,seat_sweep,1,0,No personal wealth-tax endorsement found for sitting Centre Party MP.
+Q0107,R009,2026-11-15,fi,Mikko Savola varallisuusvero OR miljonäärivero,seat_sweep,1,0,No personal wealth-tax endorsement found for sitting Centre Party MP.
+Q0108,R009,2026-11-15,fi,Olga Oinas-Panuma varallisuusvero OR miljonäärivero,seat_sweep,1,0,No personal wealth-tax endorsement found for sitting Centre Party MP.
+Q0109,R009,2026-11-15,fi,Petri Honkonen varallisuusvero OR miljonäärivero,seat_sweep,1,0,No personal wealth-tax endorsement found for sitting Centre Party MP.
+Q0110,R009,2026-11-15,fi,Timo Mehtälä varallisuusvero OR miljonäärivero,seat_sweep,1,0,No personal wealth-tax endorsement found for sitting Centre Party MP.
+Q0111,R009,2026-11-15,fi,Tuomas Kettunen varallisuusvero OR miljonäärivero,seat_sweep,1,0,No personal wealth-tax endorsement found for sitting Centre Party MP.
+Q0112,R009,2026-11-15,fi,Vesa Kallio varallisuusvero OR miljonäärivero,seat_sweep,1,0,No personal wealth-tax endorsement found for sitting Centre Party MP.
+Q0113,R009,2026-11-15,fi,Anders Adlercreutz varallisuusvero OR miljonäärivero,seat_sweep,1,0,No personal wealth-tax endorsement found for sitting Swedish People's Party MP.
+Q0114,R009,2026-11-15,fi,Anders Norrback varallisuusvero OR miljonäärivero,seat_sweep,1,0,No personal wealth-tax endorsement found for sitting Swedish People's Party MP.
+Q0115,R009,2026-11-15,fi,Christoffer Ingo varallisuusvero OR miljonäärivero,seat_sweep,1,0,No personal wealth-tax endorsement found for sitting Swedish People's Party MP.
+Q0116,R009,2026-11-15,fi,Eva Biaudet varallisuusvero OR miljonäärivero,seat_sweep,1,0,No personal wealth-tax endorsement found for sitting Swedish People's Party MP.
+Q0117,R009,2026-11-15,fi,Henrik Wickström varallisuusvero OR miljonäärivero,seat_sweep,1,0,No personal wealth-tax endorsement found for sitting Swedish People's Party MP.
+Q0118,R009,2026-11-15,fi,Joakim Strand varallisuusvero OR miljonäärivero,seat_sweep,1,0,No personal wealth-tax endorsement found for sitting Swedish People's Party MP.
+Q0119,R009,2026-11-15,fi,Mats Löfström varallisuusvero OR miljonäärivero,seat_sweep,1,0,No personal wealth-tax endorsement found for sitting Swedish People's Party MP.
+Q0120,R009,2026-11-15,fi,Mikko Ollikainen varallisuusvero OR miljonäärivero,seat_sweep,1,0,No personal wealth-tax endorsement found for sitting Swedish People's Party MP.
+Q0121,R009,2026-11-15,fi,Otto Andersson varallisuusvero OR miljonäärivero,seat_sweep,1,0,No personal wealth-tax endorsement found for sitting Swedish People's Party MP.
+Q0122,R009,2026-11-15,fi,Sandra Bergqvist varallisuusvero OR miljonäärivero,seat_sweep,1,0,No personal wealth-tax endorsement found for sitting Swedish People's Party MP.
+Q0123,R009,2026-11-15,fi,Mika Poutala varallisuusvero OR miljonäärivero,seat_sweep,1,0,No personal wealth-tax endorsement found for sitting Christian Democrats MP.
+Q0124,R009,2026-11-15,fi,Peter Östman varallisuusvero OR miljonäärivero,seat_sweep,1,0,No personal wealth-tax endorsement found for sitting Christian Democrats MP.
+Q0125,R009,2026-11-15,fi,Päivi Räsänen varallisuusvero OR miljonäärivero,seat_sweep,1,0,No personal wealth-tax endorsement found for sitting Christian Democrats MP.
+Q0126,R009,2026-11-15,fi,Sari Essayah varallisuusvero OR miljonäärivero,seat_sweep,1,0,No personal wealth-tax endorsement found for sitting Christian Democrats MP.
+Q0127,R009,2026-11-15,fi,Sari Tanus varallisuusvero OR miljonäärivero,seat_sweep,1,0,No personal wealth-tax endorsement found for sitting Christian Democrats MP.
+Q0128,R009,2026-11-15,fi,Harry Harkimo varallisuusvero OR miljonäärivero,seat_sweep,1,0,No personal wealth-tax endorsement found for sitting Movement Now MP.
+Q0129,R009,2026-11-15,fi,Timo Vornanen varallisuusvero OR miljonäärivero,seat_sweep,1,0,No personal wealth-tax endorsement found for sitting Vornanen (own group) MP.
+Q0130,R010,2026-11-15,fi,Aleksi Jäntti varallisuusvero OR miljonäärivero,seat_sweep,0,0,No wealth-tax endorsement found for sitting National Coalition Party MP (sample).
+Q0131,R010,2026-11-15,fi,Anna-Kaisa Ikonen varallisuusvero OR miljonäärivero,seat_sweep,0,0,No wealth-tax endorsement found for sitting National Coalition Party MP (sample).
+Q0132,R010,2026-11-15,fi,Antti Häkkänen varallisuusvero OR miljonäärivero,seat_sweep,0,0,No wealth-tax endorsement found for sitting National Coalition Party MP (sample).
+Q0133,R010,2026-11-15,fi,Arto Satonen varallisuusvero OR miljonäärivero,seat_sweep,0,0,No wealth-tax endorsement found for sitting National Coalition Party MP (sample).
+Q0134,R010,2026-11-15,fi,Atte Kaleva varallisuusvero OR miljonäärivero,seat_sweep,0,0,No wealth-tax endorsement found for sitting National Coalition Party MP (sample).
+Q0135,R010,2026-11-15,fi,Ben Zyskowicz varallisuusvero OR miljonäärivero,seat_sweep,0,0,No wealth-tax endorsement found for sitting National Coalition Party MP (sample).
+Q0136,R010,2026-11-15,fi,Elina Valtonen varallisuusvero OR miljonäärivero,seat_sweep,0,0,No wealth-tax endorsement found for sitting National Coalition Party MP (sample).
+Q0137,R010,2026-11-15,fi,Heikki Autto varallisuusvero OR miljonäärivero,seat_sweep,0,0,No wealth-tax endorsement found for sitting National Coalition Party MP (sample).
+Q0138,R010,2026-11-15,fi,Heikki Vestman varallisuusvero OR miljonäärivero,seat_sweep,0,0,No wealth-tax endorsement found for sitting National Coalition Party MP (sample).
+Q0139,R010,2026-11-15,fi,Henrik Vuornos varallisuusvero OR miljonäärivero,seat_sweep,0,0,No wealth-tax endorsement found for sitting National Coalition Party MP (sample).

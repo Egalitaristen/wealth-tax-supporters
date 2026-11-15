@@ -1,61 +1,63 @@
 position_id,actor_id,body_id,role,party,geo_unit_id,start,end,current,member_ref,checked,source_url
-O00001,A0001,B0001,Member of Parliament,,G0329,,,n,,2026-10-28,https://avoindata.eduskunta.fi/api/v1/tables/SeatingOfParliament/rows
-O00002,A0002,B0001,Member of Parliament,Finns Party,G0330,,,y,1093,2026-10-28,https://www.eduskunta.fi/FI/kansanedustajat/Sivut/1093.aspx
-O00003,A0003,B0001,Member of Parliament,Finns Party,G0331,,,y,1096,2026-10-28,https://www.eduskunta.fi/FI/kansanedustajat/Sivut/1096.aspx
-O00004,A0004,B0001,Member of Parliament,,G0332,,,n,,2026-10-28,https://avoindata.eduskunta.fi/api/v1/tables/SeatingOfParliament/rows
-O00005,A0005,B0001,Member of Parliament,Finns Party,G0333,,,y,1109,2026-10-28,https://www.eduskunta.fi/FI/kansanedustajat/Sivut/1109.aspx
-O00006,A0006,B0001,Member of Parliament,,G0334,,,n,,2026-10-28,https://avoindata.eduskunta.fi/api/v1/tables/SeatingOfParliament/rows
-O00007,A0007,B0001,Member of Parliament,,G0335,,,n,,2026-10-28,https://avoindata.eduskunta.fi/api/v1/tables/SeatingOfParliament/rows
-O00008,A0008,B0001,Member of Parliament,,G0336,,,n,,2026-10-28,https://avoindata.eduskunta.fi/api/v1/tables/SeatingOfParliament/rows
-O00009,A0009,B0001,Member of Parliament,,G0337,,,n,,2026-10-28,https://avoindata.eduskunta.fi/api/v1/tables/SeatingOfParliament/rows
-O00010,A0010,B0001,Member of Parliament,,G0337,,,n,,2026-10-28,https://avoindata.eduskunta.fi/api/v1/tables/SeatingOfParliament/rows
-O00011,A0011,B0001,Member of Parliament,,G0338,,,n,,2026-10-28,https://avoindata.eduskunta.fi/api/v1/tables/SeatingOfParliament/rows
-O00012,A0012,B0001,Member of Parliament,Finns Party,G0338,,,y,1129,2026-10-28,https://www.eduskunta.fi/FI/kansanedustajat/Sivut/1129.aspx
-O00013,A0013,B0001,Member of Parliament,,G0338,,,n,,2026-10-28,https://avoindata.eduskunta.fi/api/v1/tables/SeatingOfParliament/rows
-O00014,A0014,B0001,Member of Parliament,,G0336,,,n,,2026-10-28,https://avoindata.eduskunta.fi/api/v1/tables/SeatingOfParliament/rows
-O00015,A0015,B0001,Member of Parliament,,G0339,,,n,,2026-10-28,https://avoindata.eduskunta.fi/api/v1/tables/SeatingOfParliament/rows
-O00016,A0016,B0001,Member of Parliament,,G0340,,,n,,2026-10-28,https://avoindata.eduskunta.fi/api/v1/tables/SeatingOfParliament/rows
-O00017,A0017,B0001,Member of Parliament,,G0341,,,n,,2026-10-28,https://avoindata.eduskunta.fi/api/v1/tables/SeatingOfParliament/rows
-O00018,A0018,B0001,Member of Parliament,,G0330,,,n,,2026-10-28,https://avoindata.eduskunta.fi/api/v1/tables/SeatingOfParliament/rows
-O00019,A0019,B0001,Member of Parliament,,G0331,,,n,,2026-10-28,https://avoindata.eduskunta.fi/api/v1/tables/SeatingOfParliament/rows
-O00020,A0020,B0001,Member of Parliament,,G0334,,,n,,2026-10-28,https://avoindata.eduskunta.fi/api/v1/tables/SeatingOfParliament/rows
-O00021,A0021,B0001,Member of Parliament,,G0336,,,n,,2026-10-28,https://avoindata.eduskunta.fi/api/v1/tables/SeatingOfParliament/rows
-O00022,A0022,B0001,Member of Parliament,,G0341,,,n,,2026-10-28,https://avoindata.eduskunta.fi/api/v1/tables/SeatingOfParliament/rows
-O00023,A0023,B0001,Member of Parliament,,G0342,,,n,,2026-10-28,https://avoindata.eduskunta.fi/api/v1/tables/SeatingOfParliament/rows
-O00024,A0024,B0001,Member of Parliament,,G0341,,,n,,2026-10-28,https://avoindata.eduskunta.fi/api/v1/tables/SeatingOfParliament/rows
-O00025,A0025,B0001,Member of Parliament,,G0338,,,n,,2026-10-28,https://avoindata.eduskunta.fi/api/v1/tables/SeatingOfParliament/rows
-O00026,A0026,B0001,Member of Parliament,,G0338,,,n,,2026-10-28,https://avoindata.eduskunta.fi/api/v1/tables/SeatingOfParliament/rows
-O00027,A0027,B0001,Member of Parliament,,G0339,,,n,,2026-10-28,https://avoindata.eduskunta.fi/api/v1/tables/SeatingOfParliament/rows
-O00028,A0028,B0001,Member of Parliament,,G0333,,,n,,2026-10-28,https://avoindata.eduskunta.fi/api/v1/tables/SeatingOfParliament/rows
-O00029,A0029,B0001,Member of Parliament,,G0338,,,n,,2026-10-28,https://avoindata.eduskunta.fi/api/v1/tables/SeatingOfParliament/rows
-O00030,A0030,B0001,Member of Parliament,,G0335,,,n,,2026-10-28,https://avoindata.eduskunta.fi/api/v1/tables/SeatingOfParliament/rows
-O00031,A0031,B0001,Member of Parliament,,G0338,,,n,,2026-10-28,https://avoindata.eduskunta.fi/api/v1/tables/SeatingOfParliament/rows
-O00032,A0032,B0001,Member of Parliament,,G0334,,,n,,2026-10-28,https://avoindata.eduskunta.fi/api/v1/tables/SeatingOfParliament/rows
-O00033,A0033,B0001,Member of Parliament,,G0335,,,n,,2026-10-28,https://avoindata.eduskunta.fi/api/v1/tables/SeatingOfParliament/rows
-O00034,A0034,B0001,Member of Parliament,,G0330,,,n,,2026-10-28,https://avoindata.eduskunta.fi/api/v1/tables/SeatingOfParliament/rows
-O00035,A0035,B0001,Member of Parliament,,G0332,,,n,,2026-10-28,https://avoindata.eduskunta.fi/api/v1/tables/SeatingOfParliament/rows
-O00036,A0036,B0001,Member of Parliament,,G0341,,,n,,2026-10-28,https://avoindata.eduskunta.fi/api/v1/tables/SeatingOfParliament/rows
-O00037,A0037,B0001,Member of Parliament,Finns Party,G0336,,,y,1136,2026-10-28,https://www.eduskunta.fi/FI/kansanedustajat/Sivut/1136.aspx
-O00038,A0038,B0001,Member of Parliament,,G0333,,,n,,2026-10-28,https://avoindata.eduskunta.fi/api/v1/tables/SeatingOfParliament/rows
-O00039,A0039,B0001,Member of Parliament,Left Alliance,G0338,,,y,1399,2026-10-28,https://www.eduskunta.fi/FI/kansanedustajat/Sivut/1399.aspx
-O00040,A0040,B0001,Member of Parliament,Left Alliance,G0333,,,y,1383,2026-10-28,https://www.eduskunta.fi/FI/kansanedustajat/Sivut/1383.aspx
-O00041,A0041,B0001,Member of Parliament,Left Alliance,G0331,,,y,1407,2026-10-28,https://www.eduskunta.fi/FI/kansanedustajat/Sivut/1407.aspx
-O00042,A0042,B0001,Member of Parliament,,G0343,,,n,,2026-10-28,https://avoindata.eduskunta.fi/api/v1/tables/SeatingOfParliament/rows
-O00043,A0043,B0001,Member of Parliament,,G0333,,,n,,2026-10-28,https://avoindata.eduskunta.fi/api/v1/tables/SeatingOfParliament/rows
-O00044,A0044,B0001,Member of Parliament,,G0336,,,n,,2026-10-28,https://avoindata.eduskunta.fi/api/v1/tables/SeatingOfParliament/rows
-O00045,A0045,B0001,Member of Parliament,Left Alliance,G0334,,,y,1097,2026-10-28,https://www.eduskunta.fi/FI/kansanedustajat/Sivut/1097.aspx
-O00046,A0046,B0001,Member of Parliament,,G0337,,,n,,2026-10-28,https://avoindata.eduskunta.fi/api/v1/tables/SeatingOfParliament/rows
-O00047,A0047,B0001,Member of Parliament,,G0332,,,n,,2026-10-28,https://avoindata.eduskunta.fi/api/v1/tables/SeatingOfParliament/rows
-O00048,A0048,B0001,Member of Parliament,Left Alliance,G0333,,,y,1384,2026-10-28,https://www.eduskunta.fi/FI/kansanedustajat/Sivut/1384.aspx
-O00049,A0049,B0001,Member of Parliament,,G0338,,,n,,2026-10-28,https://avoindata.eduskunta.fi/api/v1/tables/SeatingOfParliament/rows
-O00050,A0050,B0001,Member of Parliament,Left Alliance,G0341,,,y,1155,2026-10-28,https://www.eduskunta.fi/FI/kansanedustajat/Sivut/1155.aspx
-O00051,A0056,B0001,Member of Parliament,,G0331,,,n,,2026-10-28,https://avoindata.eduskunta.fi/api/v1/tables/SeatingOfParliament/rows
-O00052,A0057,B0001,Member of Parliament,Left Alliance,G0333,,,y,1485,2026-10-28,https://www.eduskunta.fi/FI/kansanedustajat/Sivut/1485.aspx
-O00053,A0072,B0001,Member of Parliament,,G0338,,,n,,2026-10-28,https://avoindata.eduskunta.fi/api/v1/tables/SeatingOfParliament/rows
-O00054,A0073,B0001,Member of Parliament,,G0341,,,n,,2026-10-28,https://avoindata.eduskunta.fi/api/v1/tables/SeatingOfParliament/rows
-O00055,A0074,B0001,Member of Parliament,,G0341,,,n,,2026-10-28,https://avoindata.eduskunta.fi/api/v1/tables/SeatingOfParliament/rows
-O00056,A0075,B0001,Member of Parliament,,G0334,,,n,,2026-10-28,https://avoindata.eduskunta.fi/api/v1/tables/SeatingOfParliament/rows
-O00057,A0079,B0001,Member of Parliament,Social Democratic Party,G0340,1995-03-24,2011-04-19,n,,2026-11-09,https://www.eduskunta.fi/pdf/TAA+422/2010
-O00058,A0080,B0001,Member of Parliament,Social Democratic Party,G0331,1995-03-24,2011-04-19,n,,2026-11-09,https://www.eduskunta.fi/pdf/TAA+422/2010
-O00059,A0081,B0001,Member of Parliament,Left Alliance,G0332,1999-03-24,2011-04-19,n,,2026-11-09,https://www.eduskunta.fi/pdf/TAA+166/2010
-O00060,A0082,B0001,Member of Parliament,Left Alliance,G0336,2023-04-12,,y,,2026-11-09,https://s3-eu-west-1.amazonaws.com/eduskunta-avoindata-documents-prod/vaski%2FPTK-69%2B2026-vp.pdf
+O00001,A0001,B0001,Member of Parliament,,G0329,,,n,,2026-11-15,https://avoindata.eduskunta.fi/api/v1/tables/SeatingOfParliament/rows
+O00002,A0002,B0001,Member of Parliament,Finns Party,G0330,,,y,1093,2026-11-15,https://www.eduskunta.fi/FI/kansanedustajat/Sivut/1093.aspx
+O00003,A0003,B0001,Member of Parliament,Finns Party,G0331,,,y,1096,2026-11-15,https://www.eduskunta.fi/FI/kansanedustajat/Sivut/1096.aspx
+O00004,A0004,B0001,Member of Parliament,,G0332,,,n,,2026-11-15,https://avoindata.eduskunta.fi/api/v1/tables/SeatingOfParliament/rows
+O00005,A0005,B0001,Member of Parliament,Finns Party,G0333,,,y,1109,2026-11-15,https://www.eduskunta.fi/FI/kansanedustajat/Sivut/1109.aspx
+O00006,A0006,B0001,Member of Parliament,,G0334,,,n,,2026-11-15,https://avoindata.eduskunta.fi/api/v1/tables/SeatingOfParliament/rows
+O00007,A0007,B0001,Member of Parliament,,G0335,,,n,,2026-11-15,https://avoindata.eduskunta.fi/api/v1/tables/SeatingOfParliament/rows
+O00008,A0008,B0001,Member of Parliament,,G0336,,,n,,2026-11-15,https://avoindata.eduskunta.fi/api/v1/tables/SeatingOfParliament/rows
+O00009,A0009,B0001,Member of Parliament,,G0337,,,n,,2026-11-15,https://avoindata.eduskunta.fi/api/v1/tables/SeatingOfParliament/rows
+O00010,A0010,B0001,Member of Parliament,,G0337,,,n,,2026-11-15,https://avoindata.eduskunta.fi/api/v1/tables/SeatingOfParliament/rows
+O00011,A0011,B0001,Member of Parliament,,G0338,,,n,,2026-11-15,https://avoindata.eduskunta.fi/api/v1/tables/SeatingOfParliament/rows
+O00012,A0012,B0001,Member of Parliament,Finns Party,G0338,,,y,1129,2026-11-15,https://www.eduskunta.fi/FI/kansanedustajat/Sivut/1129.aspx
+O00013,A0013,B0001,Member of Parliament,,G0338,,,n,,2026-11-15,https://avoindata.eduskunta.fi/api/v1/tables/SeatingOfParliament/rows
+O00014,A0014,B0001,Member of Parliament,,G0336,,,n,,2026-11-15,https://avoindata.eduskunta.fi/api/v1/tables/SeatingOfParliament/rows
+O00015,A0015,B0001,Member of Parliament,,G0339,,,n,,2026-11-15,https://avoindata.eduskunta.fi/api/v1/tables/SeatingOfParliament/rows
+O00016,A0016,B0001,Member of Parliament,,G0340,,,n,,2026-11-15,https://avoindata.eduskunta.fi/api/v1/tables/SeatingOfParliament/rows
+O00017,A0017,B0001,Member of Parliament,,G0341,,,n,,2026-11-15,https://avoindata.eduskunta.fi/api/v1/tables/SeatingOfParliament/rows
+O00018,A0018,B0001,Member of Parliament,,G0330,,,n,,2026-11-15,https://avoindata.eduskunta.fi/api/v1/tables/SeatingOfParliament/rows
+O00019,A0019,B0001,Member of Parliament,,G0331,,,n,,2026-11-15,https://avoindata.eduskunta.fi/api/v1/tables/SeatingOfParliament/rows
+O00020,A0020,B0001,Member of Parliament,,G0334,,,n,,2026-11-15,https://avoindata.eduskunta.fi/api/v1/tables/SeatingOfParliament/rows
+O00021,A0021,B0001,Member of Parliament,,G0336,,,n,,2026-11-15,https://avoindata.eduskunta.fi/api/v1/tables/SeatingOfParliament/rows
+O00022,A0022,B0001,Member of Parliament,,G0341,,,n,,2026-11-15,https://avoindata.eduskunta.fi/api/v1/tables/SeatingOfParliament/rows
+O00023,A0023,B0001,Member of Parliament,,G0342,,,n,,2026-11-15,https://avoindata.eduskunta.fi/api/v1/tables/SeatingOfParliament/rows
+O00024,A0024,B0001,Member of Parliament,,G0341,,,n,,2026-11-15,https://avoindata.eduskunta.fi/api/v1/tables/SeatingOfParliament/rows
+O00025,A0025,B0001,Member of Parliament,,G0338,,,n,,2026-11-15,https://avoindata.eduskunta.fi/api/v1/tables/SeatingOfParliament/rows
+O00026,A0026,B0001,Member of Parliament,,G0338,,,n,,2026-11-15,https://avoindata.eduskunta.fi/api/v1/tables/SeatingOfParliament/rows
+O00027,A0027,B0001,Member of Parliament,,G0339,,,n,,2026-11-15,https://avoindata.eduskunta.fi/api/v1/tables/SeatingOfParliament/rows
+O00028,A0028,B0001,Member of Parliament,,G0333,,,n,,2026-11-15,https://avoindata.eduskunta.fi/api/v1/tables/SeatingOfParliament/rows
+O00029,A0029,B0001,Member of Parliament,,G0338,,,n,,2026-11-15,https://avoindata.eduskunta.fi/api/v1/tables/SeatingOfParliament/rows
+O00030,A0030,B0001,Member of Parliament,,G0335,,,n,,2026-11-15,https://avoindata.eduskunta.fi/api/v1/tables/SeatingOfParliament/rows
+O00031,A0031,B0001,Member of Parliament,,G0338,,,n,,2026-11-15,https://avoindata.eduskunta.fi/api/v1/tables/SeatingOfParliament/rows
+O00032,A0032,B0001,Member of Parliament,,G0334,,,n,,2026-11-15,https://avoindata.eduskunta.fi/api/v1/tables/SeatingOfParliament/rows
+O00033,A0033,B0001,Member of Parliament,,G0335,,,n,,2026-11-15,https://avoindata.eduskunta.fi/api/v1/tables/SeatingOfParliament/rows
+O00034,A0034,B0001,Member of Parliament,,G0330,,,n,,2026-11-15,https://avoindata.eduskunta.fi/api/v1/tables/SeatingOfParliament/rows
+O00035,A0035,B0001,Member of Parliament,,G0332,,,n,,2026-11-15,https://avoindata.eduskunta.fi/api/v1/tables/SeatingOfParliament/rows
+O00036,A0036,B0001,Member of Parliament,,G0341,,,n,,2026-11-15,https://avoindata.eduskunta.fi/api/v1/tables/SeatingOfParliament/rows
+O00037,A0037,B0001,Member of Parliament,Finns Party,G0336,,,y,1136,2026-11-15,https://www.eduskunta.fi/FI/kansanedustajat/Sivut/1136.aspx
+O00038,A0038,B0001,Member of Parliament,,G0333,,,n,,2026-11-15,https://avoindata.eduskunta.fi/api/v1/tables/SeatingOfParliament/rows
+O00039,A0039,B0001,Member of Parliament,Left Alliance,G0338,,,y,1399,2026-11-15,https://www.eduskunta.fi/FI/kansanedustajat/Sivut/1399.aspx
+O00040,A0040,B0001,Member of Parliament,Left Alliance,G0333,,,y,1383,2026-11-15,https://www.eduskunta.fi/FI/kansanedustajat/Sivut/1383.aspx
+O00041,A0041,B0001,Member of Parliament,Left Alliance,G0331,,,y,1407,2026-11-15,https://www.eduskunta.fi/FI/kansanedustajat/Sivut/1407.aspx
+O00042,A0042,B0001,Member of Parliament,,G0343,,,n,,2026-11-15,https://avoindata.eduskunta.fi/api/v1/tables/SeatingOfParliament/rows
+O00043,A0043,B0001,Member of Parliament,,G0333,,,n,,2026-11-15,https://avoindata.eduskunta.fi/api/v1/tables/SeatingOfParliament/rows
+O00044,A0044,B0001,Member of Parliament,,G0336,,,n,,2026-11-15,https://avoindata.eduskunta.fi/api/v1/tables/SeatingOfParliament/rows
+O00045,A0045,B0001,Member of Parliament,Left Alliance,G0334,,,y,1097,2026-11-15,https://www.eduskunta.fi/FI/kansanedustajat/Sivut/1097.aspx
+O00046,A0046,B0001,Member of Parliament,,G0337,,,n,,2026-11-15,https://avoindata.eduskunta.fi/api/v1/tables/SeatingOfParliament/rows
+O00047,A0047,B0001,Member of Parliament,,G0332,,,n,,2026-11-15,https://avoindata.eduskunta.fi/api/v1/tables/SeatingOfParliament/rows
+O00048,A0048,B0001,Member of Parliament,Left Alliance,G0333,,,y,1384,2026-11-15,https://www.eduskunta.fi/FI/kansanedustajat/Sivut/1384.aspx
+O00049,A0050,B0001,Member of Parliament,Left Alliance,G0341,,,y,1155,2026-11-15,https://www.eduskunta.fi/FI/kansanedustajat/Sivut/1155.aspx
+O00050,A0057,B0001,Member of Parliament,Left Alliance,G0333,,,y,1485,2026-11-15,https://www.eduskunta.fi/FI/kansanedustajat/Sivut/1485.aspx
+O00051,A0072,B0001,Member of Parliament,,G0338,,,n,,2026-11-15,https://avoindata.eduskunta.fi/api/v1/tables/SeatingOfParliament/rows
+O00052,A0073,B0001,Member of Parliament,,G0341,,,n,,2026-11-15,https://avoindata.eduskunta.fi/api/v1/tables/SeatingOfParliament/rows
+O00053,A0074,B0001,Member of Parliament,,G0341,,,n,,2026-11-15,https://avoindata.eduskunta.fi/api/v1/tables/SeatingOfParliament/rows
+O00054,A0075,B0001,Member of Parliament,,G0334,,,n,,2026-11-15,https://avoindata.eduskunta.fi/api/v1/tables/SeatingOfParliament/rows
+O00055,A0076,B0001,Member of Parliament,,G0335,,,n,,2026-11-15,https://avoindata.eduskunta.fi/api/v1/tables/SeatingOfParliament/rows
+O00056,A0078,B0001,Member of Parliament,,G0333,,,n,,2026-11-15,https://avoindata.eduskunta.fi/api/v1/tables/SeatingOfParliament/rows
+O00057,A0079,B0001,Member of Parliament,Social Democratic Party,G0340,1995-03-24,2011-04-19,n,,2026-11-15,https://www.eduskunta.fi/pdf/TAA+422/2010
+O00058,A0080,B0001,Member of Parliament,Social Democratic Party,G0331,1995-03-24,2011-04-19,n,,2026-11-15,https://www.eduskunta.fi/pdf/TAA+422/2010
+O00059,A0081,B0001,Member of Parliament,Left Alliance,G0332,1999-03-24,2011-04-19,n,,2026-11-15,https://www.eduskunta.fi/pdf/TAA+166/2010
+O00060,A0082,B0001,Member of Parliament,Left Alliance,G0336,,,y,911824,2026-11-15,https://www.eduskunta.fi/FI/kansanedustajat/Sivut/911824.aspx
+O00061,A0083,B0001,Member of Parliament,Left Alliance,G0336,,,y,1312,2026-11-15,https://www.eduskunta.fi/FI/kansanedustajat/Sivut/1312.aspx
+O00062,A0084,B0001,Member of Parliament,Left Alliance,G0343,,,y,1523,2026-11-15,https://www.eduskunta.fi/FI/kansanedustajat/Sivut/1523.aspx
