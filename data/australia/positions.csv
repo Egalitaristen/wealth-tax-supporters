@@ -1,16 +1,19 @@
 position_id,actor_id,body_id,role,party,geo_unit_id,start,end,current,member_ref,checked,source_url
-O00008,A0027,B0003,Member of the Legislative Council,Australian Greens,G0002,,,y,2257,2026-10-27,https://www.parliament.nsw.gov.au/members-and-electorates/members-and-ministers/members-details?memberId=2257
-O00009,A0008,B0002,Member of the House of Representatives,,G0003,,,n,,2026-10-28,https://www.aph.gov.au/Senators_and_Members/Members
-O00010,A0017,B0002,Member of the House of Representatives,Greens,G0004,,,y,300127,2026-10-28,https://www.aph.gov.au/Senators_and_Members/Parliamentarian?MPID=300127
-O00011,A0004,B0001,Senator,Greens,G0007,,,y,JKM,2026-10-28,https://www.aph.gov.au/Senators_and_Members/Parliamentarian?MPID=JKM
-O00012,A0007,B0001,Senator,Greens,G0005,,,y,BFQ,2026-10-28,https://www.aph.gov.au/Senators_and_Members/Parliamentarian?MPID=BFQ
-O00013,A0014,B0001,Senator,Greens,G0002,,,y,169119,2026-10-28,https://www.aph.gov.au/Senators_and_Members/Parliamentarian?MPID=169119
-O00014,A0015,B0001,Senator,Greens,G0003,,,y,310860,2026-10-28,https://www.aph.gov.au/Senators_and_Members/Parliamentarian?MPID=310860
-O00015,A0016,B0001,Senator,Greens,G0006,,,y,250156,2026-10-28,https://www.aph.gov.au/Senators_and_Members/Parliamentarian?MPID=250156
-O00016,A0029,B0001,Senator,Greens,G0004,,,y,192970,2026-10-28,https://www.aph.gov.au/Senators_and_Members/Parliamentarian?MPID=192970
-O00017,A0046,B0001,Senator,Greens,G0004,,,,,,https://www.aph.gov.au/Senators_and_Members/Senators
-O00018,A0047,B0001,Senator,Greens,G0006,,,,,,https://www.aph.gov.au/Senators_and_Members/Senators
-O00019,A0048,B0001,Senator,Greens,G0002,,,,,,https://www.aph.gov.au/Senators_and_Members/Senators
-O00020,A0049,B0001,Senator,Greens,G0005,,,,,,https://www.aph.gov.au/Senators_and_Members/Senators
-O00022,A0051,B0001,Senator,Greens,G0007,,,,,,https://www.aph.gov.au/Senators_and_Members/Senators
-O00023,A0052,B0001,Senator,Independent,G0003,,,,,,https://www.aph.gov.au/Senators_and_Members/Senators
+O00008,A0027,B0003,Member of the Legislative Council,Australian Greens,G0002,2019-03-23,,y,2257,2026-11-15,https://www.parliament.nsw.gov.au/members-and-electorates/members-and-ministers/members-details?memberId=2257
+O00009,A0008,B0002,Member of the House of Representatives,Australian Greens,G0003,2010-08-21,2025-05-03,n,M3C,2026-11-15,https://data.openaustralia.org.au/members/representatives.xml
+O00010,A0017,B0002,Member of the House of Representatives,Greens,G0227,2022-05-21,,y,300127,2026-11-15,https://www.aph.gov.au/Senators_and_Members/Parliamentarian?MPID=300127
+O00011,A0053,B0002,Member of the House of Representatives,Australian Greens,G0227,2022-05-21,2025-05-03,n,,2026-11-15,https://data.openaustralia.org.au/members/representatives.xml
+O00012,A0055,B0002,Member of the House of Representatives,Australian Greens,G0227,2022-05-21,2025-05-03,n,uk.org.publicwhip/member/782,2026-11-15,https://data.openaustralia.org.au/members/representatives.xml
+O00013,A0004,B0001,Senator,Greens,G0007,2015-08-19,,y,JKM,2026-11-15,https://www.aph.gov.au/Senators_and_Members/Parliamentarian?MPID=JKM
+O00014,A0007,B0001,Senator,Greens,G0005,2022-05-21,,y,BFQ,2026-11-15,https://www.aph.gov.au/Senators_and_Members/Parliamentarian?MPID=BFQ
+O00015,A0014,B0001,Senator,Greens,G0002,2022-05-21,,y,169119,2026-11-15,https://www.aph.gov.au/Senators_and_Members/Parliamentarian?MPID=169119
+O00016,A0015,B0001,Senator,Greens,G0003,2024-05-01,,y,310860,2026-11-15,https://www.aph.gov.au/Senators_and_Members/Parliamentarian?MPID=310860
+O00017,A0016,B0001,Senator,Greens,G0006,2017-11-10,,y,250156,2026-11-15,https://www.aph.gov.au/Senators_and_Members/Parliamentarian?MPID=250156
+O00018,A0029,B0001,Senator,Greens,G0004,2018-09-06,,y,192970,2026-11-15,https://www.aph.gov.au/Senators_and_Members/Parliamentarian?MPID=192970
+O00019,A0046,B0001,Senator,Greens,G0004,2022-05-21,,y,298839,2026-11-15,https://www.aph.gov.au/Senators_and_Members/Parliamentarian?MPID=298839
+O00020,A0047,B0001,Senator,Labor,G0006,2025-06-02,,y,296215,2026-11-15,https://www.aph.gov.au/Senators_and_Members/Parliamentarian?MPID=296215
+O00021,A0048,B0001,Senator,Greens,G0002,2018-08-18,,y,250362,2026-11-15,https://www.aph.gov.au/Senators_and_Members/Parliamentarian?MPID=250362
+O00022,A0049,B0001,Senator,Greens,G0005,2008-07-01,,y,I0U,2026-11-15,https://www.aph.gov.au/Senators_and_Members/Parliamentarian?MPID=I0U
+O00023,A0051,B0001,Senator,Australian Greens,G0007,2012-06-20,2026-08-20,n,195565,2026-11-15,https://data.openaustralia.org.au/members/senators.xml
+O00024,A0052,B0001,Senator,Independent,G0003,2023-02-06,,y,280304,2026-11-15,https://www.aph.gov.au/Senators_and_Members/Parliamentarian?MPID=280304
+O00025,A0054,B0001,Senator,Australian Greens,G0003,2014-07-01,2024-04-19,n,uk.org.publicwhip/lord/100836,2026-11-15,https://data.openaustralia.org.au/members/senators.xml
