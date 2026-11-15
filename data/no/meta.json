@@ -4,5 +4,20 @@
   "lead": "",
   "status": "in progress",
   "boundaries": "boundaries.json",
-  "notes": "Scope: national (Stortinget, regjeringen), regional (15 fylker) and local (357 kommuner) level. First pass R001 covers prominent supporters across all key layers. Review 2026-10-24: removed 154 rows that were not evidence of support (see R013); 145 supporters remain."
+  "notes": "Scope: national (Stortinget, regjeringen), regional (15 fylker) and local (357 kommuner) level. First pass R001 covers prominent supporters across all key layers. Review 2026-10-24: removed 154 rows that were not evidence of support (see R013); 145 supporters remain.",
+  "polls": [
+    {
+      "support": 45,
+      "oppose": 45,
+      "support_text": "45% wanted to keep the wealth tax and 45% wanted to get rid of it; the split followed party lines.",
+      "scope": "Norwegian voters (Dagbladet's politikkbarometer)",
+      "question": "Keep or remove the wealth tax",
+      "pollster": "Dagbladet politikkbarometer",
+      "commissioned_by": "Dagbladet",
+      "fieldwork": "not stated",
+      "sample": "not stated",
+      "published": "2013-02-25",
+      "url": "https://www.dagbladet.no/nyheter/formuesskatten-deler-norge/64023597"
+    }
+  ]
 }
