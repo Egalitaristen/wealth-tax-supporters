@@ -605,13 +605,24 @@ def india():
                 colours={"BJP": "ff9933", "INC": "19aaed", "SP": "e03a3e", "AITC": "20c646", "DMK": "e5262a", "TDP": "ffd400", "JD(U)": "1c7c3c",
                          "CPI(M)": "c8102e", "CPI": "e03a3e", "AAP": "0066a1", "SS(UBT)": "f26a1b", "NCP(SP)": "1f6fbf"})]
     try:
-        rs = get("https://sansad.in/api_rs/member/sitting-members")
+        # Since November 2026 the endpoint answers scripts when the page's own query is sent: every sitting member in one page
+        rs = get("https://sansad.in/api_rs/member/sitting-members?state=&party=&gender=&page=1&size=300&mpFlag=1&locale=en")
     except SystemExit:
         print("  (Rajya Sabha skipped: sansad.in refuses scripts for it; pass its summary with --local, see the India guide)", file=sys.stderr)
         return out
-    named = [dict(name=x["n"], party=x["p"], ref=x["id"], place=x["s"], start="") for x in rs["named"] if "n" in x]
-    filler = [dict(name=f"(another member, {p} #{i})", party=p, ref="", start="") for p, n in rs["counts"].items()
-              for i in range(n - sum(1 for x in named if x["party"] == p))]
+    if "records" in rs:  # names read "Sen, Shri Santanu" or "Wilson, Shri P.": surname, title, given names
+        def rs_name(n):
+            sur, _, rest = n.partition(",")
+            given = [w for w in rest.split() if w.rstrip(".").lower() not in ("shri", "smt", "dr", "ms", "mr", "prof", "kumari", "sushri", "justice", "adv")]
+            return " ".join(given + [sur.strip()]).strip()
+        named = [dict(name=rs_name(x["name"]), party=x.get("partyCode") or x.get("party") or "IND", ref=str(x["mpsno"]),
+                      place=(x.get("state") or "").strip(), start="", url=f"https://sansad.in/rs/members/biography/{x['mpsno']}")
+                 for x in rs["records"]]
+        filler = []
+    else:  # the older summary file passed with --local: {total, counts, named}
+        named = [dict(name=x["n"], party=x["p"], ref=x["id"], place=x["s"], start="") for x in rs["named"] if "n" in x]
+        filler = [dict(name=f"(another member, {p} #{i})", party=p, ref="", start="") for p, n in rs["counts"].items()
+                  for i in range(n - sum(1 for x in named if x["party"] == p))]
     out.append(dict(name="Rajya Sabha", seats=245, source_url="https://sansad.in/rs/members", note="245 seats; sitting members as read from sansad.in.",
                     role="Member of the Rajya Sabha", role_re=r"(?i)rajya sabha", role_start=r"(?i)member of the rajya sabha", members=named + filler,
                     party_order=["CPI(M)", "CPI", "AITC", "SP", "DMK", "INC", "AAP", "BJD", "YSRCP", "IND.", "NOM.", "JD(U)", "BJP"],
@@ -1309,9 +1320,10 @@ def malaysia_senate():
 
 def nigeria_senate():
     """The Senate of Nigeria (109 seats): nass.gov.ng/mps/senators, the list its own page shows (74 senators on 28 October 2026; the page does
-    not name the others). The page is a JavaScript table, so it is read in a browser and passed with --local (see the Nigeria guide): rows of
-    [name, state, district, party, id]."""
-    rows = get("https://www.nass.gov.ng/mps/senators")
+    not name the others). The page is a JavaScript table, but the data request behind it
+    (/mps/get_legislators/?chamber=1) answers scripts with rows of [name, state, district, party, id]; a saved copy can still be passed with --local."""
+    rows = get("https://www.nass.gov.ng/mps/get_legislators/?chamber=1&draw=1&start=0&length=200")  # the table's own data request
+    rows = rows["data"] if isinstance(rows, dict) else rows  # or the list passed with --local
     members = [dict(name=re.sub(r"\s+", " ", re.sub(r"^Sen\.\s*", "", r[0])).strip(), party=r[3], ref=r[4], place=f"{r[2]}, {r[1]}", start="",
                     url="https://www.nass.gov.ng/mps/senators") for r in rows]
     if len(members) < 60:
