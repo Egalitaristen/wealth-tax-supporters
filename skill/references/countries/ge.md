@@ -1,6 +1,6 @@
-# Georgia: no wealth tax, no supporter found
+# Georgia: wealth-tax research
 
-Seed pass R001 (2026-11-13). 0 supporters, 6 exclusions. Folder `data/ge` (the US state would be `us-ga`). No wealth tax exists and none has been tabled; the debates are about a progressive income tax (article 94 of the constitution bars tax rises without a referendum), the property tax and tax relief for offshore assets. Check that URLs still resolve before relying on them.
+Seed pass R001 (2026-11-13), followed by R002 (2026-11-15). One politician is recorded: On.ge reported that presidential candidate Shalva Natelashvili advocated a French-model wealth tax in 2018. The original candidate questionnaire was unavailable and the report does not specify the tax base. Folder `data/ge` (the US state would be `us-ga`). No wealth tax was found in force; the parliamentary search is incomplete; the debates are about a progressive income tax (article 94 of the constitution bars tax rises without a referendum), the property tax and tax relief for offshore assets. Check that URLs still resolve before relying on them.
 
 | Level | Units | Notes |
 |---|---|---|

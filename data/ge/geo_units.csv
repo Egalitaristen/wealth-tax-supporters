@@ -10,10 +10,10 @@ G0008,Racha-Lechkhumi and Kvemo Svaneti,region,region,G0001,,pending,,,,,OCHA CO
 G0009,Samegrelo-Zemo Svaneti,region,region,G0001,,pending,,,,,OCHA COD-AB admin level 1,GE38
 G0010,Samtskhe-Javakheti,region,region,G0001,,pending,,,,,OCHA COD-AB admin level 1,GE41
 G0011,Shida Kartli,region,region,G0001,,pending,,,,,OCHA COD-AB admin level 1,GE47
-G0012,Tbilisi,council,capital city,G0001,,pending,,,,,OCHA COD-AB admin level 1 (no level 2 below it),GE11
+G0012,Tbilisi,council,capital city,G0001,,in_progress,R003,2026-11-15,1,0,R003: single exact-phrase web search combining local council and wealth tax yielded no verified supporter; local records not systematically searched.,GE11
 G0013,Autonomous Republic of Abkhazia,council,autonomous republic,G0001,,pending,,,,,OCHA COD-AB admin level 1; outside Georgian government control,GE12
 G0014,Provisional Administration (South Ossetia / Tskhinvali region),council,provisional administrative entity,G0001,,pending,,,,,"OCHA COD-AB admin level 1 ""Provisional Administration""; outside Georgian government control",GE48
-G0015,Batumi,council,city,G0002,,pending,,,,,OCHA COD-AB admin level 2,GE1511
+G0015,Batumi,council,city,G0002,,in_progress,R003,2026-11-15,1,0,R003: single exact-phrase web search combining local council and wealth tax yielded no verified supporter; local records not systematically searched.,GE1511
 G0016,Keda,council,municipality,G0002,,pending,,,,,OCHA COD-AB admin level 2,GE1523
 G0017,Kobuleti,council,municipality,G0002,,pending,,,,,OCHA COD-AB admin level 2,GE1525
 G0018,Shuakhevi,council,municipality,G0002,,pending,,,,,OCHA COD-AB admin level 2,GE1529
@@ -23,7 +23,7 @@ G0021,Ozurgeti City,council,city,G0003,,pending,,,,,OCHA COD-AB admin level 2,GE
 G0022,Lanchkhuti,council,municipality,G0003,,pending,,,,,OCHA COD-AB admin level 2,GE2323
 G0023,Ozurgeti,council,municipality,G0003,,pending,,,,,OCHA COD-AB admin level 2,GE2325
 G0024,Chokhatauri,council,municipality,G0003,,pending,,,,,OCHA COD-AB admin level 2,GE2327
-G0025,Kutaisi,council,city,G0004,,pending,,,,,OCHA COD-AB admin level 2,GE2611
+G0025,Kutaisi,council,city,G0004,,in_progress,R003,2026-11-15,1,0,R003: single exact-phrase web search combining local council and wealth tax yielded no verified supporter; local records not systematically searched.,GE2611
 G0026,Baghdati,council,municipality,G0004,,pending,,,,,OCHA COD-AB admin level 2,GE2623
 G0027,Vani,council,municipality,G0004,,pending,,,,,OCHA COD-AB admin level 2,GE2627
 G0028,Zestaponi,council,municipality,G0004,,pending,,,,,OCHA COD-AB admin level 2,GE2629
@@ -71,14 +71,14 @@ G0069,Akhalkalaki,council,municipality,G0010,,pending,,,,,OCHA COD-AB admin leve
 G0070,Akhaltsikhe,council,municipality,G0010,,pending,,,,,OCHA COD-AB admin level 2,GE4129
 G0071,Borjomi,council,municipality,G0010,,pending,,,,,OCHA COD-AB admin level 2,GE4131
 G0072,Ninotsminda,council,municipality,G0010,,pending,,,,,OCHA COD-AB admin level 2,GE4133
-G0073,Rustavi,council,city,G0006,,pending,,,,,OCHA COD-AB admin level 2,GE4411
+G0073,Rustavi,council,city,G0006,,in_progress,R003,2026-11-15,1,0,R003: single exact-phrase web search combining local council and wealth tax yielded no verified supporter; local records not systematically searched.,GE4411
 G0074,Bolnisi,council,municipality,G0006,,pending,,,,,OCHA COD-AB admin level 2,GE4424
 G0075,Gardabani,council,municipality,G0006,,pending,,,,,OCHA COD-AB admin level 2,GE4426
 G0076,Dmanisi,council,municipality,G0006,,pending,,,,,OCHA COD-AB admin level 2,GE4428
 G0077,Tetritskaro,council,municipality,G0006,,pending,,,,,OCHA COD-AB admin level 2,GE4430
 G0078,Marneuli,council,municipality,G0006,,pending,,,,,OCHA COD-AB admin level 2,GE4432
 G0079,Tsalka,council,municipality,G0006,,pending,,,,,OCHA COD-AB admin level 2,GE4434
-G0080,Gori City,council,city,G0011,,pending,,,,,OCHA COD-AB admin level 2,GE4711
+G0080,Gori City,council,city,G0011,,in_progress,R003,2026-11-15,1,0,R003: single exact-phrase web search combining local council and wealth tax yielded no verified supporter; local records not systematically searched.,GE4711
 G0081,Gori,council,municipality,G0011,,pending,,,,,OCHA COD-AB admin level 2,GE4724
 G0082,Kaspi,council,municipality,G0011,,pending,,,,,OCHA COD-AB admin level 2,GE4726
 G0083,Kareli,council,municipality,G0011,,pending,,,,,OCHA COD-AB admin level 2,GE4728
