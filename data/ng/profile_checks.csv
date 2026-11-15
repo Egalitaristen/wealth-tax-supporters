@@ -1,2 +1,3 @@
 check_id,actor_id,method,url,checked,result,found,note
 K00001,A0026,own_site,https://www.oxfamnovib.nl,2026-11-15,found,facebook;instagram;linkedin;tiktok;bluesky;youtube,
+K00002,A0028,own_site,https://ips-dc.org,2026-11-15,found,facebook;x,not added: bluesky https://bsky.app/profile/ips-dc.org (); instagram https://www.instagram.com/ips_dc/ ()

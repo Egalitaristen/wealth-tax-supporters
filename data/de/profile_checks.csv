@@ -45,3 +45,51 @@ K00043,A0050,own_site_browser,https://www.wolfgang-gehrcke.de/,2026-11-15,error,
 K00044,A0170,own_site_browser,https://www.svenja-schulze.de/,2026-11-15,found,youtube,"read in Chrome; already listed: mastodon,tiktok,instagram,facebook,linkedin"
 K00045,A0071,own_site_browser,https://www.katrinwerner.de/,2026-11-15,none,,"read in Chrome; not added: bluesky https://bsky.app/profile/die-linke.de (chrome,social-block); instagram https://www.instagram.com/dielinke/ (chrome,social-block); youtube https://www.youtube.com/user/KatrinWernerMdB (chrome,social-block); already listed: facebook,x"
 K00046,A0091,own_site_browser,https://www.kai-gehring.de/,2026-11-15,error,,read in Chrome
+K00047,A0080,own_site,https://lisa-paus.de/,2026-11-15,none,,"already listed: bluesky,facebook,instagram,x"
+K00048,A0128,own_site,https://www.gew.de,2026-11-15,found,bluesky;facebook;youtube;instagram,not added: x https://x.com/gew_bund ()
+K00049,A0267,own_site,https://www.maxuthoff.de/,2026-11-15,error,,URLError: <urlopen error [SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of
+K00050,A0369,own_site,https://www.iaq.uni-due.de/personal/detail.php?id=1,2026-11-15,none,,"not added: linkedin https://www.linkedin.com/company/institut-arbeit-und-qualifikation (chrome,social-block); bluesky https://bsky.app/profile/iaqdue.bsky.social (chrome,social-block); bluesky https://bsky.app/profile/unidue.bsky.social (chrome,social-block); youtube https://www.youtube.com/@InstitutArbeitundQ"
+K00051,A0238,own_site,https://www.markus-tressel.de/,2026-11-15,error,,URLError: <urlopen error ('A required certificate is not within its validity period when v
+K00052,A0203,own_site,https://www.dielinke-fraktion-lsa.de,2026-11-15,found,facebook;bluesky;instagram;tiktok;youtube,
+K00053,A0282,own_site,https://www.rosalux.de,2026-11-15,none,,"not added: facebook https://www.facebook.com/rosaluxstiftung (chrome,social-block); x https://x.com/rosaluxstiftung (chrome,meta,social-block); instagram https://www.instagram.com/rosaluxstiftung/ (chrome,social-block); youtube https://www.youtube.com/user/rosaluxstiftung (chrome,social-block); mastodon https:"
+K00054,A0023,own_site,https://www.soeren-pellmann.de/,2026-11-15,none,,"not added: x https://x.com/LINKEPELLI (chrome,social-block); facebook https://www.facebook.com/MdBSoerenPellmann (chrome,social-block); youtube https://www.youtube.com/@soeren_pellmann (chrome,social-block); already listed: bluesky,instagram,tiktok"
+K00055,A0116,own_site,https://www.agnieszka-brugger.de/,2026-11-15,none,,"already listed: facebook,x,instagram"
+K00056,A0067,own_site,https://www.pitterle.die-linke-bw.de/,2026-11-15,error,,URLError: <urlopen error [Errno 11001] getaddrinfo failed>
+K00057,A0405,own_site,https://mueller-sascha.de/,2026-11-15,none,,"already listed: x,facebook,bluesky,instagram"
+K00058,A0329,own_site,https://www.land.nrw,2026-11-15,found,instagram;tiktok;facebook;x;youtube,
+K00059,A0358,own_site,https://www.soziologie.uni-muenchen.de/personen/wiss_ma/cardenas_ana/index.html,2026-11-15,none,,not added: x https://x.com/LMU_Muenchen (meta)
+K00060,A0079,own_site,https://jan-van-aken.com,2026-11-15,none,,"not added: facebook https://www.facebook.com/profile.php?id=61570526455247 (); instagram https://www.instagram.com/jan.aken/ (); bluesky https://bsky.app/profile/vanaken.bsky.social (); already listed: mastodon,tiktok,x"
+K00061,A0139,own_site,https://www.verdi.de,2026-11-15,found,youtube;instagram;facebook;tiktok;bluesky;mastodon,
+K00062,A0157,own_site,https://www.greenpeace.de,2026-11-15,none,,"not added: mastodon https://greenpeace.social/@greenpeace_de (rel-me); youtube https://www.youtube.com/user/GreenpeaceDE (chrome,social-block); instagram https://www.instagram.com/greenpeace.de/ (chrome,social-block); bluesky https://bsky.app/profile/greenpeace.de (chrome,social-block)"
+K00063,A0425,own_site,https://www.landtag.ltsh.de/abgeordnete/abgeordnete-spd/,2026-11-15,none,,"not added: instagram https://www.instagram.com/landtag_sh/ (chrome,social-block)"
+K00064,A0027,own_site,https://www.susannehennig.de/,2026-11-15,error,,URLError: <urlopen error [Errno 11001] getaddrinfo failed>
+K00065,A0343,own_site,https://fbw.h-da.de/ueber-den-fachbereich/personen/professoren/prof-dr-ulrich-klueh/,2026-11-15,error,,404 at https://fbw.h-da.de/ueber-den-fachbereich/personen/professoren/prof-dr-ulrich-klueh/
+K00066,A0299,own_site,https://www.fu-berlin.de,2026-11-15,none,,"not added: instagram https://www.instagram.com/fu_berlin/ (chrome,social-block); bluesky https://bsky.app/profile/did:plc:aphfr7vrf2sjxzhgg6kjlsmc (chrome,social-block); youtube https://www.youtube.com/channel/UChGMnECSItBUYZH1YIXLj-w (chrome,social-block); facebook https://www.facebook.com/pages/Freie-Univers"
+K00067,A0249,own_site,https://www.naturfreunde.de,2026-11-15,none,,not added: x https://x.com/naturfreunde (); facebook https://www.facebook.com/naturfreunde.de (); instagram https://www.instagram.com/naturfreunde.de/ ()
+K00068,A0270,own_site,https://www.tu-dortmund.de,2026-11-15,none,,"not added: instagram https://www.instagram.com/tu_dortmund/ (chrome,social-block); facebook https://www.facebook.com/tudortmund (chrome,social-block); tiktok https://www.tiktok.com/@tu_dortmund (chrome,social-block); bluesky https://bsky.app/profile/tu-dortmund.de (chrome,social-block); youtube https://www.you"
+K00069,A0096,own_site,https://www.gruene-bundestag.de/abgeordnete/details/uwe-kekeritz,2026-11-15,error,,404 at https://www.gruene-bundestag.de/abgeordnete/details/uwe-kekeritz
+K00070,A0042,own_site,https://www.kerstin-kassner.de/,2026-11-15,blocked,,403 at https://www.kerstin-kassner.de/
+K00071,A0242,own_site,https://antonisschwarz.com,2026-11-15,error,,URLError: <urlopen error [Errno 11001] getaddrinfo failed>
+K00072,A0008,own_site,https://janinaboettger.waehlt-dielinke.de/,2026-11-15,none,,"not added: facebook https://www.facebook.com/DieLinkeSachsenAnhalt (chrome,social-block); instagram https://www.instagram.com/dielinke.sachsenanhalt/ (chrome,social-block); removed on review (employer's or unrelated account): bluesky https://bsky.app/profile/die-linke.de"
+K00073,A0413,own_site,https://awet-tesfaiesus.de,2026-11-15,none,,"already listed: mastodon,instagram,x"
+K00074,A0179,own_site,https://www.andre-hahn.eu/,2026-11-15,none,,
+K00075,A0410,own_site,https://www.paulapiechotta.de/,2026-11-15,none,,"not added: youtube https://www.youtube.com/channel/UCzLAKzna28f1CyMAm8GJQlw (chrome,social-block); facebook https://www.facebook.com/Paula.Piechotta (chrome,social-block); already listed: instagram,x,bluesky,tiktok"
+K00076,A0322,own_site,https://katrin-langensiepen.eu,2026-11-15,none,,"UnicodeEncodeError: 'ascii' codec can't encode character '\xfc' in position 17: ordinal not in range; not added: facebook https://www.facebook.com/KLangensiepen (chrome,social-block); already listed: x,instagram"
+K00077,A0018,own_site,https://isabelle-vandre.de/,2026-11-15,none,,"already listed: instagram,tiktok,bluesky"
+K00078,A0143,own_site,https://www.arbeitskammer.de,2026-11-15,found,instagram;linkedin,"already listed: youtube,facebook"
+K00079,A0182,own_site,https://www.cornelia-moehring.de/,2026-11-15,error,,URLError: <urlopen error [Errno 11001] getaddrinfo failed>
+K00080,A0125,own_site,https://foes.de,2026-11-15,found,bluesky,not added: linkedin https://www.linkedin.com/company/foes ()
+K00081,A0066,own_site,https://www.thomas-nord.de/,2026-11-15,none,,not added: facebook https://www.facebook.com/settings (); x https://x.com/personalization ()
+K00082,A0025,own_site,https://www.mdb-klaus-ernst.de/,2026-11-15,blocked,,403 at https://www.mdb-klaus-ernst.de/
+K00083,A0452,own_site,https://www.parlament-berlin.de/Abgeordnete/mathias-schulz,2026-11-15,found,instagram;facebook;tiktok;bluesky,"not added: x https://x.com/agh_berlin (chrome,social-block); instagram https://www.instagram.com/agh_berlin/ (chrome,social-block); facebook https://www.facebook.com/aghberlin (chrome,social-block); youtube https://www.youtube.com/channel/UCxQc6GwaiSanFM7v5DypbTA (chrome,social-block)"
+K00084,A0195,own_site,https://katharina-beck.de/,2026-11-15,none,,"not added: youtube https://www.youtube.com/channel/UCg7GUvIHaDg7RLVP8am19-g (social-block); already listed: facebook,instagram,linkedin,tiktok,x"
+K00085,A0333,own_site,https://www.boeckler.de,2026-11-15,none,,"not added: facebook https://www.facebook.com/hans.boeckler.stiftung (chrome,social-block); bluesky https://bsky.app/profile/boeckler-stiftung.bsky.social (chrome,social-block); linkedin https://www.linkedin.com/company/boeckler (chrome,social-block); instagram https://www.instagram.com/boeckler_stiftung/ (chro"
+K00086,A0268,own_site,https://annyhartmann.de/,2026-11-15,none,,already listed: mastodon
+K00087,A0115,own_site,https://www.arfst-wagner.de/,2026-11-15,none,,
+K00088,A0047,own_site,https://www.brigitte-freihold.de/startseite/aktuell,2026-11-15,error,,URLError: <urlopen error [Errno 11001] getaddrinfo failed>
+K00089,A0138,own_site,https://www.vdk.de,2026-11-15,found,linkedin,"not added: youtube https://www.youtube.com/user/VdKTV (chrome,social-block); already listed: facebook,bluesky,instagram,x"
+K00090,A0208,own_site,https://marinaweisband.de,2026-11-15,none,,"not added: x https://x.com/Afelia (meta,social-block); facebook https://www.facebook.com/marinaweisband (social-block); already listed: linkedin"
+K00091,A0014,own_site,https://www.pascal-meiser.de,2026-11-15,none,,"already listed: facebook,instagram,bluesky,tiktok,x"
+K00092,A0149,own_site,https://www.jesuitenweltweit.de,2026-11-15,found,facebook;instagram,
+K00093,A0287,own_site,https://www.uni-erfurt.de,2026-11-15,none,,not added: facebook https://www.facebook.com/UniErfurt (social-block); bluesky https://bsky.app/profile/unierfurt.bsky.social (social-block); instagram https://www.instagram.com/unierfurt/ (social-block); youtube https://www.youtube.com/user/UniErfurt (social-block); linkedin https://www.linkedin.com/school/un
+K00094,A0108,own_site,https://claudia-roth.de/,2026-11-15,found,linkedin,already listed: instagram

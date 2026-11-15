@@ -1,2 +1,4 @@
 check_id,actor_id,method,url,checked,result,found,note
 K00001,A0001,own_site,https://www.jamuslim.net,2026-11-15,error,,URLError: <urlopen error [Errno 11001] getaddrinfo failed>
+K00002,A0007,own_site,https://reddotunited.sg,2026-11-15,found,facebook;instagram,
+K00003,A0026,own_site,https://lkyspp.nus.edu.sg/our-people/faculty/ramkishen-s-rajan,2026-11-15,none,,

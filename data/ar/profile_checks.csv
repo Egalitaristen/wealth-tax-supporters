@@ -14,3 +14,10 @@ K00012,A0030,own_site,https://www.izquierdasocialista.org.ar/,2026-11-15,found,i
 K00013,A0211,own_site,https://www.diputados.gob.ar/diputados/mrmanrique/,2026-11-15,error,,URLError: <urlopen error _ssl.c:1015: The handshake operation timed out>
 K00014,A0081,own_site,https://www.diputados.gob.ar/diputados/scasas/,2026-11-15,error,,URLError: <urlopen error _ssl.c:1015: The handshake operation timed out>
 K00015,A0216,own_site,https://www.diputados.gob.ar/diputados/mnoguera/,2026-11-15,error,,URLError: <urlopen error _ssl.c:1015: The handshake operation timed out>
+K00016,A0049,own_site,https://www.cadtm.org/Eduardo-Lucita,2026-11-15,blocked,,429 at https://www.cadtm.org/Eduardo-Lucita
+K00017,A0055,own_site,https://www.senado.gob.ar/senadores/senador/510,2026-11-15,none,,
+K00018,A0058,own_site,https://www.diputados.gob.ar/diputados/haguirre/,2026-11-15,error,,URLError: <urlopen error _ssl.c:1015: The handshake operation timed out>
+K00019,A0213,own_site,https://www.diputados.gob.ar/diputados/mtgarcia/,2026-11-15,error,,URLError: <urlopen error _ssl.c:1015: The handshake operation timed out>
+K00020,A0018,own_site,https://www.cta.org.ar/,2026-11-15,none,,"already listed: facebook,x,instagram,youtube"
+K00021,A0096,own_site,https://fernandezeduardo.com,2026-11-15,error,,URLError: <urlopen error [Errno 11001] getaddrinfo failed>
+K00022,A0143,own_site,https://www.diputados.gob.ar/diputados/jrizzotti/,2026-11-15,error,,URLError: <urlopen error _ssl.c:1015: The handshake operation timed out>
