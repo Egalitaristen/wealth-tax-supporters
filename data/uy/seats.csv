@@ -1,10 +1,10 @@
 seat_id,body_id,party,seats,colour,order
-S0001,B0001,Frente Amplio,16,0b5db1,1
-S0002,B0001,National Party,9,6fb7e8,2
-S0003,B0001,Colorado Party,5,d6322f,3
-S0004,B0002,Frente Amplio,48,0b5db1,1
-S0005,B0002,National Party,29,6fb7e8,2
-S0006,B0002,Colorado Party,17,d6322f,3
-S0007,B0002,Cabildo Abierto,2,f2a900,4
-S0008,B0002,Identidad Soberana,2,5b6b3a,5
-S0009,B0002,Independent Party,1,7a3f98,6
+S0001,B0001,Frente Amplio,16,6aa4d8,1
+S0002,B0001,Partido Nacional,9,f2c230,2
+S0003,B0001,Partido Colorado,5,8b1a1a,3
+S0004,B0002,Frente Amplio,48,6aa4d8,1
+S0005,B0002,Partido Nacional,29,f2c230,2
+S0006,B0002,Partido Colorado,17,8b1a1a,3
+S0007,B0002,Cabildo Abierto,2,1f8f4e,4
+S0008,B0002,Identidad Soberana,2,e07a1f,5
+S0009,B0002,Partido Independiente,1,2aa5c9,6
