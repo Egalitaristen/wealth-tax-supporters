@@ -28,25 +28,8 @@ The script downloads/reads the TopoJSON, matches all 973 districts and 81 provin
 
 The Grand National Assembly of Turkey (*Türkiye Büyük Millet Meclisi* - TBMM) is the unicameral national legislature:
 - **Total seats:** 600.
-- **28th Term distribution (as of October 2026):**
-  - Adalet ve Kalkınma Partisi (AK Parti): 266
-  - Cumhuriyet Halk Partisi (CHP): 128
-  - Halkların Eşitlik ve Demokrasi Partisi (DEM Parti): 57
-  - Milliyetçi Hareket Partisi (MHP): 47
-  - İYİ Parti: 30
-  - Saadet Partisi: 20
-  - Bağımsız Milletvekili (Independents): 7
-  - Hür Dava Partisi (HÜDA PAR): 4
-  - Yeniden Refah Partisi (YRP): 4
-  - Demokrat Parti (DP): 3
-  - Türkiye İşçi Partisi (TİP): 3
-  - Emek Partisi (EMEP): 2
-  - Demokrasi ve Atılım Partisi (DEVA Partisi): 1
-  - Demokratik Bölgeler Partisi (DBP): 1
-  - Demokratik Sol Parti (DSP): 1
-  - Gelecek Partisi: 1
-  - Vacant seats: 8
-  - Total: 600
+- **Seats and who sits** come from the Assembly's own list of members, `https://www.tbmm.gov.tr/milletvekili/AllList` (name, party, province, member id; 592 names on 15 November 2026, so 8 seats show as Vacant). The seat refresh reads it by script, no browser needed:
+  `python skill/scripts/seats.py data/tr --fix-status`. Party labels are the Assembly's own (`Yeni Parti` 90, `Yeni Yol` group 20 and the others are charted as printed). The list gives surnames in capitals and sometimes a second surname (`Perihan KOCA DOĞAN`): the matcher accepts the register's shorter name when the province agrees; write the name as the Assembly prints it when it differs in spelling (`Keziban Konukcu Kok`).
 - Official records:
   - Seat distribution: [TBMM Sandalye Dağılımı](https://www.tbmm.gov.tr/sandalyedagilimi)
   - Plenary debates: [TBMM Tutanak Dergisi](https://www.tbmm.gov.tr/Tutanaklar/TutanakMetinleri)

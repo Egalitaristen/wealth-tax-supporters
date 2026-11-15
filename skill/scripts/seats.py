@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 """Refresh a country's legislature seats from the parliament's own open member list.
 
-Usage: python skill/scripts/seats.py data/<iso2> [--adapter NAME] [--dry-run] [--fix-status] [--local URL=FILE]      (iso2 = ar, co, fi, kr, se, de, nl, no, fr, br, ca, es, pl, be, in, jp, my, sg, id, ng, cn, nz, za; un for the UN General Assembly; au for the Pan-African Parliament)
+Usage: python skill/scripts/seats.py data/<iso2> [--adapter NAME] [--dry-run] [--fix-status] [--local URL=FILE]      (iso2 = ar, co, tr, dz, tn, ma, lb, fi, kr, se, de, nl, no, fr, br, ca, es, pl, be, in, jp, my, sg, id, ng, cn, nz, za; un for the UN General Assembly; au for the Pan-African Parliament)
 
 For the UK and the US use seats_uk.py and seats_us.py (richer sources). This script holds one small adapter per
 country (the ADAPTERS table at the end): each reads the parliament's open data and returns its chambers, the sitting
@@ -1778,6 +1778,195 @@ def czechia():
                  members=members, former=[], party_order=order, colours=colours)]
 
 
+# ---------------------------------------------------------------- Turkey, Algeria, Tunisia, Morocco, Lebanon
+def _tr_name(raw):
+    """TBMM prints 'Given SURNAME' with the surname in capitals: fold the capitals back (Turkish İ and I) so the register's spelling meets it."""
+    out = []
+    for w in raw.replace("ı", "i").split():
+        if w.isupper() and len(w) > 1:
+            w = w.replace("İ", "i").lower()
+            w = "İ" + w[1:] if w.startswith("i") else w[:1].upper() + w[1:]
+        out.append(w)
+    return " ".join(out)
+
+
+def turkey():
+    """The Grand National Assembly of Turkey (600 seats): tbmm.gov.tr/milletvekili/AllList, the Assembly's own list of sitting members by province
+    (name, party, member id). Vacant seats are the 600 minus the names listed."""
+    import html as _h
+    raw = get("https://www.tbmm.gov.tr/milletvekili/AllList", as_json=False).decode("utf-8")
+    PARTY = {"AK Parti": "Justice and Development Party (AK Parti)", "CHP": "Republican People's Party (CHP)", "DEM PARTİ": "Peoples' Equality and Democracy Party (DEM Parti)",
+             "MHP": "Nationalist Movement Party (MHP)", "İYİ Parti": "Good Party (İYİ Parti)", "TİP": "Workers' Party of Turkey (TİP)", "EMEP": "Labour Party (EMEP)",
+             "BAĞIMSIZ": "Independent", "YENİDEN REFAH": "New Welfare Party (YRP)", "SAADET Partisi": "Felicity Party (Saadet)", "DBP": "Democratic Regions Party (DBP)",
+             "DSP": "Democratic Left Party (DSP)", "DP": "Democrat Party (DP)", "HÜDA PAR": "HÜDA PAR", "YENİ YOL": "Yeni Yol group", "Yeni Parti": "Yeni Parti"}
+    prov, members = "", []
+    for m in re.finditer(r'tbmm-list-item-active"[^>]*>([^<]+)<|href="(/milletvekili/milletvekilidetay\?DonemId=[^"]+&(?:amp;)?Id=([^"&]+))"[^>]*>([^<]+)</a>\s*</div>\s*<div[^>]*>\s*([^<]+?)\s*</div>', raw):
+        if m.group(1):
+            prov = _h.unescape(m.group(1)).strip()
+            continue
+        party = _h.unescape(m.group(5)).strip()
+        members.append(dict(name=_tr_name(_h.unescape(m.group(4)).strip()), party=PARTY.get(party, party), ref=m.group(3), place=prov, start="",
+                            url="https://www.tbmm.gov.tr" + _h.unescape(m.group(2))))
+    if len(members) < 500:
+        sys.exit(f"Turkey: read {len(members)} members, expected about 590; the page layout may have changed")
+    order = ["Peoples' Equality and Democracy Party (DEM Parti)", "Workers' Party of Turkey (TİP)", "Labour Party (EMEP)", "Democratic Regions Party (DBP)", "Republican People's Party (CHP)", "Yeni Parti",
+             "Yeni Yol group", "Democratic Left Party (DSP)", "Good Party (İYİ Parti)", "Independent", "Democrat Party (DP)", "Justice and Development Party (AK Parti)",
+             "Nationalist Movement Party (MHP)", "New Welfare Party (YRP)", "HÜDA PAR"]
+    colours = {"Justice and Development Party (AK Parti)": "f5a000", "Republican People's Party (CHP)": "e30a17", "Peoples' Equality and Democracy Party (DEM Parti)": "7b2d8e",
+               "Nationalist Movement Party (MHP)": "b22222", "Good Party (İYİ Parti)": "00a3e0", "Workers' Party of Turkey (TİP)": "d4002a", "Labour Party (EMEP)": "c1121f",
+               "Independent": "8a8680", "New Welfare Party (YRP)": "1e7a3c", "Yeni Yol group": "2a9d8f", "Yeni Parti": "264653"}
+    return [dict(name="Grand National Assembly of Turkey", level="national", seats=600, source_url="https://www.tbmm.gov.tr/milletvekili/liste",
+                 note="600 seats. Sitting members, party and province from the Assembly's own list (tbmm.gov.tr/milletvekili/AllList); seats the list does not name show as Vacant.",
+                 role="Member of Parliament", role_re=r"(?i)member of (?:the )?(?:parliament|grand national assembly)|\bTBMM\b|milletvekili", role_start=r"(?i)member of (?:the )?(?:parliament|grand national assembly)",
+                 members=members, former=[], party_order=order, colours=colours)]
+
+
+def algeria_cn():
+    """The Conseil de la Nation (174 seats): the council's own list of current members (majliselouma.dz, name and party or 'presidential third'), read once in a
+    browser and passed with --local (see skill/references/countries/dz.md): rows of [name in Arabic, party or group, "", member id]."""
+    url = "https://www.majliselouma.dz/ara/الأعضاء/HILO1Dbq"
+    rows = get(url)
+    PARTY = {"حزب جبهة التحرير الوطني": "Front de Libération Nationale (FLN)", "الثلث الرئاسي": "Presidential third", "التجمع الوطني الديمقراطي": "Rassemblement National Démocratique (RND)",
+             "جبهة المستقبل": "Front El Moustakbal", "حركة البناء الوطني": "Mouvement El Bina", "جبهة القوى الاشتراكية": "Front des Forces Socialistes (FFS)",
+             "حركة مجتمع السلم": "Mouvement de la Société pour la Paix (MSP)", "مجموعة الأحرار": "Independents",
+             "تجمع أمل الجزائر": "Tajamou Amal El-Djazair (TAJ)", "حزب صوت الشعب": "Parti Voix du Peuple", "حزب الفجر الجديد": "Parti El Fadjr El Jadid"}
+    members = [dict(name=" ".join(r[0].split()), native=" ".join(r[0].split()), party=PARTY.get(" ".join(r[1].split()), " ".join(r[1].split())), ref=r[3], place="", start="",
+                    url=f"https://www.majliselouma.dz/ara/members/{r[3]}") for r in rows]
+    if len(members) < 100:
+        sys.exit(f"Conseil de la Nation: read {len(members)} members, expected about 150; save the list again (see the Algeria guide)")
+    return [dict(name="Conseil de la Nation", level="national", seats=174, source_url=url,
+                 note="174 seats: two thirds elected by local councillors, one third appointed by the President (the 'presidential third'). Who sits and their party are from the Council's own list of current members (majliselouma.dz), which names about 150; the rest show as Vacant. Unlit seats mean nothing found, never opposition.",
+                 role="Membre du Conseil de la Nation", role_re=r"(?i)conseil de la nation|council of the nation|مجلس الأمة", role_start=r"(?i)(membre du conseil de la nation|member of the council of the nation)",
+                 members=members, former=[], party_order=["Front des Forces Socialistes (FFS)", "Mouvement de la Société pour la Paix (MSP)", "Mouvement El Bina", "Independents",
+                                                           "Front El Moustakbal", "Rassemblement National Démocratique (RND)", "Presidential third", "Front de Libération Nationale (FLN)"],
+                 colours={"Front de Libération Nationale (FLN)": "d62718", "Rassemblement National Démocratique (RND)": "1d4e9e", "Presidential third": "8a8680", "Front El Moustakbal": "2a9d8f",
+                          "Mouvement El Bina": "1e7a3c", "Front des Forces Socialistes (FFS)": "e63946", "Mouvement de la Société pour la Paix (MSP)": "3b8d3b", "Independents": "b0a99f"})]
+
+
+def algeria_apn():
+    """The Assemblée Populaire Nationale (407 seats): apn.dz does not answer from outside Algeria (DZSecurity), so this draws on Wikidata: the members whose
+    position 'Member of the People's National Assembly of Algeria' (Q21290886) started in 2026 and has no end date. Partial; the rest show as 'Not named'."""
+    q = ('SELECT ?p ?pLabel ?partyLabel WHERE { ?p p:P39 ?s . ?s ps:P39 wd:Q21290886 . ?s pq:P580 ?start . FILTER(?start >= "2026-01-01T00:00:00Z"^^xsd:dateTime) '
+         'OPTIONAL { ?s pq:P582 ?end } FILTER(!BOUND(?end) || ?end > NOW()) OPTIONAL { ?p wdt:P102 ?party } '
+         'SERVICE wikibase:label { bd:serviceParam wikibase:language "en,fr,ar". } }')
+    d = get("https://query.wikidata.org/sparql?query=" + urllib.parse.quote(q) + "&format=json", headers=WIKI_UA)["results"]["bindings"]
+    by = {}
+    for x in d:
+        qid = x["p"]["value"].rsplit("/", 1)[-1]
+        by.setdefault(qid, dict(name=x["pLabel"]["value"], party=x.get("partyLabel", {}).get("value", "Party not given"), qid=qid, ref=qid, place="", start="",
+                                url="https://www.wikidata.org/wiki/" + qid))
+    members = [m for m in by.values() if not re.match(r"^Q\d+$", m["name"])]
+    if len(members) < 20:
+        sys.exit(f"APN: read {len(members)} members from Wikidata, expected about 75; check the query")
+    return [_upper("Assemblée Populaire Nationale", 407, "https://www.wikidata.org/wiki/Q633590",
+                   "407 seats. apn.dz does not answer from outside Algeria, so this chart shows only the members Wikidata records for the Assembly elected in 2026, a small part of the seats; the rest show as 'Not named', which is not the same as vacant. Unlit seats mean nothing found, never opposition.",
+                   "Député", r"(?i)assemblée populaire nationale|people's national assembly|\bAPN\b|المجلس الشعبي الوطني", members, {}, vacant="Not named")]
+
+
+def tunisia_arp():
+    """The Assemblée des représentants du peuple (161 seats): arp.tn/parlementaire/groupes lists each member with their bloc and constituency, read once in a
+    browser and passed with --local (see skill/references/countries/tn.md): rows of [name in Arabic, bloc, role in the bloc, constituency, member page]."""
+    url = "https://www.arp.tn/parlementaire/groupes"
+    rows = get(url)
+    BLOC = {"غير المنتمين إلى كتل": "Non-affiliated (no bloc)", "كتلة الأحرار": "Free Bloc (Al-Ahrar)", "كتلة الخط الوطني السيادي": "National Sovereign Line Bloc",
+            "كتلة الأمانة والعمل": "Al-Amana wal-Amal Bloc", "كتلة لينتصر الشعب": "Bloc Pour que le peuple triomphe", "كتلة الوطنية المستقلة": "Independent National Bloc",
+            "كتلة صوت الجمهورية": "Voice of the Republic Bloc", "": "Non-affiliated (no bloc)"}
+    members = [dict(name=" ".join(r[0].split()), native=" ".join(r[0].split()), party=BLOC.get(r[1].strip(), r[1].strip()), ref=r[4].rsplit("/", 1)[-1], place=r[3], start="",
+                    url="https://www.arp.tn" + r[4]) for r in rows]
+    if len(members) < 120:
+        sys.exit(f"ARP: read {len(members)} members, expected about 150; save the list again (see the Tunisia guide)")
+    order = ["Non-affiliated (no bloc)", "Bloc Pour que le peuple triomphe", "Independent National Bloc", "Free Bloc (Al-Ahrar)", "Voice of the Republic Bloc", "Al-Amana wal-Amal Bloc", "National Sovereign Line Bloc"]
+    return [dict(name="Assemblée des représentants du peuple", level="national", seats=161, source_url=url,
+                 note="161 seats. Who sits, their bloc and constituency are from the Assembly's own list of blocs (arp.tn), which names about 150 members; the rest show as Vacant. The Assembly publishes blocs, not parties. Unlit seats mean nothing found, never opposition.",
+                 role="Member of the Assembly of the Representatives of the People", role_re=r"(?i)assembl[ée]e des repr[ée]sentants|\bARP\b|representatives of the people|مجلس نواب الشعب", role_start=r"(?i)(member of the assembl|membre de l.assembl|member; )",
+                 members=members, former=[], party_order=order,
+                 colours={"Non-affiliated (no bloc)": "8a8680", "Bloc Pour que le peuple triomphe": "c1121f", "Independent National Bloc": "e07a1f", "Free Bloc (Al-Ahrar)": "2a9d8f",
+                          "Voice of the Republic Bloc": "9ccc65", "Al-Amana wal-Amal Bloc": "ef7a85", "National Sovereign Line Bloc": "6c757d"})]
+
+
+def tunisia_cnrd():
+    """The Conseil national des régions et des districts (77 seats): the chamber's own member list (cnrd.tn, name, governorate, development region). No party is given, so
+    seats are grouped by development region."""
+    import html as _h
+    url = "https://www.cnrd.tn/%d9%82%d8%a7%d8%a6%d9%85%d8%a9-%d8%a7%d9%84%d9%86%d9%88%d8%a7%d8%a8/"
+    raw = get(url, as_json=False).decode("utf-8")
+    REG = {"الأول": "Region 1", "الثاني": "Region 2", "الثالث": "Region 3", "الرابع": "Region 4", "الخامس": "Region 5"}
+    members = []
+    for tr in re.findall(r"<tr class=\"row-\d+\">(.*?)</tr>", raw, flags=re.S):
+        td = [_h.unescape(re.sub(r"<[^>]+>", "", c)).strip() for c in re.findall(r"<td[^>]*>(.*?)</td>", tr, flags=re.S)]
+        if len(td) < 3 or not td[0]:
+            continue
+        reg = REG.get(td[2].replace("الإقليم", "").strip(), td[2])
+        members.append(dict(name=" ".join(td[0].split()), native=" ".join(td[0].split()), party=reg, ref="", place=td[1], start="", url=url))
+    if len(members) < 60:
+        sys.exit(f"CNRD: read {len(members)} members, expected 77; the page layout may have changed")
+    return [dict(name="Conseil national des régions et des districts", level="national", seats=77, source_url=url,
+                 note="77 seats. Who sits and their governorate are from the chamber's own member list (cnrd.tn). The list gives no party, so seats are grouped by development region.",
+                 role="Member of the National Council of Regions and Districts", role_re=r"(?i)conseil national des r[ée]gions|national council of regions|\bCNRD\b|المجلس الوطني للجهات والأقاليم", role_start=r"(?i)(member of the national council|chair of the finance committee, conseil national|vice-chair of the finance committee, conseil national)",
+                 members=members, former=[], party_order=["Region 1", "Region 2", "Region 3", "Region 4", "Region 5"],
+                 colours={"Region 1": "2a9d8f", "Region 2": "e9c46a", "Region 3": "f4a261", "Region 4": "e76f51", "Region 5": "6a4c93"})]
+
+
+_MA_PARTY = {"حزب التجمع الوطني للأحرار": "Rassemblement National des Indépendants (RNI)", "حزب الاستقلال": "Parti de l'Istiqlal", "حزب الأصالة والمعاصرة": "Parti Authenticité et Modernité (PAM)",
+             "حزب الحركة الديمقراطية الاجتماعية": "Mouvement Démocratique et Social (MDS)", "حزب الإنصاف": "Parti de l'Équité (Al Insaf)", "حزب العدالة والتنمية": "Parti de la Justice et du Développement (PJD)",
+             "الاتحاد الاشتراكي للقوات الشعبية": "Union Socialiste des Forces Populaires (USFP)", "حزب الحركة الشعبية": "Mouvement Populaire (MP)", "حزب التقدم والاشتراكية": "Parti du Progrès et du Socialisme (PPS)",
+             "حزب الاتحاد الدستوري": "Union Constitutionnelle (UC)", "جبهة القوى الديمقراطية": "Front des Forces Démocratiques (FFD)", "حزب الوحدة والديمقراطية": "Parti de l'Unité et de la Démocratie",
+             "حزب فيدرالية اليسار الديمقراطي (تحالف اليسار)": "Fédération de la Gauche Démocratique (FGD)", "الحزب الاشتراكي الموحد": "Parti Socialiste Unifié (PSU)", "حزب الديمقراطيين الجدد": "Parti des Démocrates Nouveaux"}
+
+
+def morocco():
+    """The Chambre des Représentants (395 seats): the House's own directory of members for 2026-2031 (chambredesrepresentants.ma, name, party, member page), read once in a
+    browser (the site refuses scripts) and passed with --local (see skill/references/countries/ma.md): rows of [name in Arabic, party, member page]."""
+    url = "https://www.chambredesrepresentants.ma/ar/دليل-أعضاء-مجلس-النواب/2026-2031"
+    rows = get(url)
+    members = [dict(name=" ".join(r[0].split()), native=" ".join(r[0].split()), party=_MA_PARTY.get(r[1].strip(), r[1].strip()), ref=r[2].rsplit("/", 1)[-1], place="", start="2026",
+                    url="https://www.chambredesrepresentants.ma" + r[2]) for r in rows]
+    if len(members) < 300:
+        sys.exit(f"Chambre des Représentants: read {len(members)} members, expected about 383; save the list again (see the Morocco guide)")
+    left = ["Fédération de la Gauche Démocratique (FGD)", "Parti Socialiste Unifié (PSU)", "Parti du Progrès et du Socialisme (PPS)", "Union Socialiste des Forces Populaires (USFP)"]
+    order = left + ["Parti des Démocrates Nouveaux", "Front des Forces Démocratiques (FFD)", "Parti de l'Unité et de la Démocratie", "Parti de la Justice et du Développement (PJD)", "Mouvement Démocratique et Social (MDS)",
+                    "Parti de l'Équité (Al Insaf)", "Parti Authenticité et Modernité (PAM)", "Union Constitutionnelle (UC)", "Mouvement Populaire (MP)", "Parti de l'Istiqlal", "Rassemblement National des Indépendants (RNI)"]
+    return [dict(name="Chambre des Représentants", level="national", seats=395, source_url=url,
+                 note="395 seats, elected in September 2026. Who sits and their party are from the House's own directory of members for 2026-2031 (chambredesrepresentants.ma), which names 383 so far; the rest show as Vacant. Unlit seats mean nothing found, never opposition.",
+                 role="Député à la Chambre des Représentants", role_re=r"(?i)chambre des repr[ée]sentants|house of representatives|مجلس النواب", role_start=r"(?i)(d[ée]put[ée]e? à la chambre des repr|member of the house of repr)",
+                 members=members, former=[], party_order=order,
+                 colours={"Rassemblement National des Indépendants (RNI)": "2b8fd6", "Parti Authenticité et Modernité (PAM)": "7b4b9a", "Parti de l'Istiqlal": "c8102e", "Parti de la Justice et du Développement (PJD)": "f28c28",
+                          "Union Socialiste des Forces Populaires (USFP)": "e63946", "Mouvement Populaire (MP)": "3b8d3b", "Parti du Progrès et du Socialisme (PPS)": "b5121b", "Union Constitutionnelle (UC)": "e9c46a",
+                          "Fédération de la Gauche Démocratique (FGD)": "9d0208", "Parti Socialiste Unifié (PSU)": "d00000", "Mouvement Démocratique et Social (MDS)": "2a9d8f", "Parti de l'Équité (Al Insaf)": "6c757d"})]
+
+
+def lebanon():
+    """The Parliament of Lebanon (128 seats): lp.gov.lb/Members.aspx, the Parliament's own page of members (name, region, confession; no party). The members sitting carry a region
+    and a confession; earlier members are listed on the same page without them. Seats are grouped by the confession each is reserved for."""
+    import html as _h
+    raw = get("https://www.lp.gov.lb/Members.aspx", as_json=False).decode("utf-8", errors="ignore")
+    SECT = {"ماروني": "Maronite", "سني": "Sunni", "شيعي": "Shia", "روم أرثوذكس": "Greek Orthodox", "درزي": "Druze", "روم كاثوليك": "Greek Catholic", "أرمن أرثوذكس": "Armenian Orthodox",
+            "علوي": "Alawite", "إنجيلي": "Evangelical", "أرمن كاثوليك": "Armenian Catholic", "أقليات": "Minorities"}
+    members, former = [], []
+    for b in raw.split("isotope-item")[1:]:
+        n, i = re.search(r"<h3>(.*?)</h3>", b, re.S), re.search(r"MemberDetails\.aspx\?Id=(\d+)", b)
+        if not (n and i):
+            continue
+        name = " ".join(_h.unescape(n.group(1)).split())
+        reg, sect = re.search(r"<h4>(.*?)</h4>", b, re.S), re.search(r"المذهب:\s*</strong>\s*([^<]*)", b)
+        url = f"https://www.lp.gov.lb/MemberDetails.aspx?Id={i.group(1)}"
+        if reg and reg.group(1).strip() and sect:
+            s = " ".join(_h.unescape(sect.group(1)).split())
+            s = SECT.get(s, SECT.get(s.replace("  ", " "), s))
+            members.append(dict(name=name, native=name, party=s, ref=i.group(1), place=_h.unescape(reg.group(1)).strip(" ,"), start="", url=url))
+        else:
+            former.append(dict(name=name, native=name, party="", ref=i.group(1), end="", start="", url=url))
+    if len(members) < 100:
+        sys.exit(f"Lebanon: read {len(members)} members, expected 128; the page layout may have changed")
+    order = ["Shia", "Sunni", "Druze", "Alawite", "Maronite", "Greek Orthodox", "Greek Catholic", "Armenian Orthodox", "Armenian Catholic", "Evangelical", "Minorities"]
+    return [dict(name="Parliament of Lebanon (Majlis al-Nuwwab)", level="national", seats=128, source_url="https://www.lp.gov.lb/Members.aspx",
+                 note="128 seats, split equally between Christians and Muslims, each reserved for a confession. Who sits is from the Parliament's own page of members (lp.gov.lb); it gives each member's region and confession, not a party, so seats are grouped by confession. Unlit seats mean nothing found, never opposition.",
+                 role="Member of Parliament", role_re=r"(?i)member of parliament|parliament of lebanon|مجلس النواب", role_start=r"(?i)member of parliament",
+                 members=members, former=former, party_order=order,
+                 colours={"Maronite": "b5121b", "Sunni": "2a9d8f", "Shia": "e9c46a", "Greek Orthodox": "7b4b9a", "Druze": "f28c28", "Greek Catholic": "c9184a", "Armenian Orthodox": "6c757d",
+                          "Alawite": "3b8d3b", "Evangelical": "2b8fd6", "Armenian Catholic": "9d0208", "Minorities": "b0a99f"})]
+
+
 _ADAPTERS_LOWER = {"at": austria, "austria": austria, "cz": czechia, "czechia": czechia, "nz": new_zealand, "se": sweden, "de": germany, "nl": netherlands, "no": norway, "fr": france, "br": brazil, "ca": canada, "es": spain, "pl": poland, "be": belgium, "in": india, "jp": japan, "my": malaysia, "sg": singapore, "id": indonesia, "ng": nigeria, "cn": china, "scottish_parliament": scottish_parliament, "european_parliament": european_parliament, "eu": european_parliament, "un": united_nations, "au": pan_african_parliament, "za": south_africa, "ie": ireland, "it": italy, "mx": mexico, "ar": argentina, "co": colombia, "fi": finland, "kr": south_korea}
 # countries that chart two chambers chain their adapters; the others return one
 ADAPTERS = dict(_ADAPTERS_LOWER, nl=lambda: netherlands() + netherlands_senate(), za=lambda: south_africa() + south_africa_ncop(),
@@ -1785,6 +1974,9 @@ ADAPTERS = dict(_ADAPTERS_LOWER, nl=lambda: netherlands() + netherlands_senate()
                   ng=lambda: nigeria() + nigeria_senate(),
                   es=lambda: spain() + spain_senate(), pl=lambda: poland() + poland_senate(), belgium_senate=belgium_senate,  # the Chamber needs its own saved page: run the Senate with --adapter belgium_senate
                   id=lambda: indonesia() + indonesia_dpd(), egypt_senate=egypt_senate, malaysia_senate=malaysia_senate, ch=switzerland)  # the Dewan Rakyat needs its own saved page: run the Dewan Negara with --adapter malaysia_senate
+
+ADAPTERS.update(tr=turkey, dz=lambda: algeria_apn() + algeria_cn(), tn=lambda: tunisia_arp() + tunisia_cnrd(), ma=morocco, lb=lebanon,
+                algeria_apn=algeria_apn, algeria_cn=algeria_cn, tunisia_cnrd=tunisia_cnrd, tunisia_arp=tunisia_arp)
 
 
 def main():
