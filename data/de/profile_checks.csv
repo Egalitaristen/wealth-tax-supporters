@@ -138,3 +138,50 @@ K00136,A0291,own_site,https://www.matthias-quent.de/,2026-11-15,error,,URLError:
 K00137,A0043,own_site,https://www.sabine-leidig.de/,2026-11-15,none,,"not added: youtube https://www.youtube.com/user/linksfraktion (social-block); already listed: facebook,x"
 K00138,A0099,own_site,https://klein-schmeink.de/,2026-11-15,none,,
 K00139,A0185,own_site,https://jessica-tatti.de/,2026-11-15,none,,
+K00140,A0403,own_site,https://moritzheuberger.de/,2026-11-15,found,tiktok,already listed: instagram
+K00141,A0248,own_site,https://www.globalpolicy.org,2026-11-15,none,,not added: bluesky https://bsky.app/profile/globalpolicyforum.bsky.social (social-block); facebook https://www.facebook.com/Global-Policy-Forum-102251003163097 (social-block); instagram https://www.instagram.com/globalpolicyforum/ (social-block); x https://x.com/globalpolicy (meta)
+K00142,A0078,own_site,https://cansinkoektuerk.de/,2026-11-15,none,,"not added: x https://x.com/cansinkoek (chrome,meta,social-block); tiktok https://www.tiktok.com/@cansinkoeki (chrome,social-block); already listed: instagram"
+K00143,A0209,own_site,https://www.dstg.de,2026-11-15,found,facebook;instagram,
+K00144,A0424,own_site,https://finanzen.thueringen.de/ministerium/staatssekretaer,2026-11-15,none,,"not added: x https://x.com/thueringende (chrome,social-block); instagram https://www.instagram.com/thueringen.de/ (chrome,social-block)"
+K00145,A0057,own_site,https://www.dielinkebt.de/abgeordnete/profil/dr-gregor-gysi/,2026-11-15,none,,"not added: facebook https://www.facebook.com/dielinkebt (chrome,social-block); x https://x.com/dielinkebt (chrome,social-block); instagram https://www.instagram.com/dielinkebt/ (chrome,social-block); tiktok https://www.tiktok.com/@dielinkebt (chrome,social-block); youtube https://www.youtube.com/@dielinkebt (c; already listed: facebook,x,instagram,tiktok"
+K00146,A0097,own_site,https://katja-keul.de,2026-11-15,none,,
+K00147,A0265,own_site,https://danielloick.net/,2026-11-15,none,,
+K00148,A0180,own_site,https://www.ates-guerpinar.de/,2026-11-15,none,,"already listed: facebook,instagram,tiktok,x"
+K00149,A0130,own_site,https://www.klima-allianz.de,2026-11-15,found,linkedin,"not added: youtube https://www.youtube.com/@klima_allianz (chrome,social-block); already listed: instagram"
+K00150,A0246,own_site,https://jusos.de,2026-11-15,found,tiktok;instagram;x,
+K00151,A0160,own_site,https://www.gemeingut.org,2026-11-15,none,,not added: bluesky https://bsky.app/profile/gemeingut.bsky.social (social-block); bluesky https://bsky.app/profile/vermoegenbesteuern.bsky.social (social-block); youtube https://www.youtube.com/user/gemeingutorg (social-block); instagram https://www.instagram.com/klinikretter/ (social-block)
+K00152,A0305,own_site,https://www.fb03.uni-frankfurt.de/,2026-11-15,none,,"not added: facebook https://www.facebook.com/goetheuni (chrome,social-block); bluesky https://bsky.app/profile/goetheuni.bsky.social (chrome,social-block); instagram https://www.instagram.com/goetheunifrankfurt/ (chrome,social-block); youtube https://www.youtube.com/@GoetheUniversitaet (chrome)"
+K00153,A0161,own_site,https://foes.de,2026-11-15,none,,"not added: bluesky https://bsky.app/profile/foes.bsky.social (chrome,social-block); linkedin https://www.linkedin.com/company/foes ()"
+K00154,A0402,own_site,https://www.andreasaudretsch.de/,2026-11-15,none,,"not added: youtube https://www.youtube.com/channel/UCBxcYqlcLDZZPitE8UgXzlw (); already listed: x,instagram"
+K00155,A0004,own_site,https://www.janine-wissler.de/,2026-11-15,none,,"already listed: instagram,tiktok,x,facebook"
+K00156,A0158,own_site,https://www.gew.de,2026-11-15,none,,"not added: bluesky https://bsky.app/profile/gew.de (chrome,social-block); facebook https://www.facebook.com/GEW.DieBildungsgewerkschaft (chrome,social-block); youtube https://www.youtube.com/user/GEWHauptvorstand (chrome,social-block); instagram https://www.instagram.com/gew_bund/ (chrome,social-block); x http"
+K00157,A0230,own_site,https://www.jerzy-montag.de/,2026-11-15,none,,
+K00158,A0269,own_site,https://seydakurt.de/,2026-11-15,none,,already listed: instagram
+K00159,A0133,own_site,https://www.oxfam.de,2026-11-15,found,linkedin;instagram,"already listed: facebook,tiktok"
+K00160,A0169,own_site,https://www.robert-habeck.de/,2026-11-15,error,,URLError: <urlopen error [Errno 11001] getaddrinfo failed>
+K00161,A0053,own_site,https://www.sevimdagdelen.de/,2026-11-15,none,,"not added: youtube https://www.youtube.com/channel/UCSEPAJOnCm2qBSEc09Tg4Bw (chrome,social-block); facebook https://www.facebook.com/Sevim-Dagdelen-1753343008226103 (chrome,social-block); already listed: tiktok,x"
+K00162,A0006,own_site,https://www.dietmar-bartsch.de/,2026-11-15,none,,"already listed: facebook,x"
+K00163,A0192,own_site,https://sigmar-gabriel.de,2026-11-15,error,,URLError: <urlopen error ('A required certificate is not within its validity period when v
+K00164,A0436,own_site,https://www.landtag.ltsh.de/abgeordnete/abgeordnete-gruene/,2026-11-15,none,,"not added: instagram https://www.instagram.com/landtag_sh/ (chrome,social-block)"
+K00165,A0339,own_site,https://www.uni-frankfurt.de/118330101/Prof__Dr__Sebastian_Schipper,2026-11-15,error,,404 at https://www.uni-frankfurt.de/118330101/Prof__Dr__Sebastian_Schipper
+K00166,A0074,own_site,https://www.bulling-schroeter.de/,2026-11-15,found,instagram,not added: facebook https://www.facebook.com/LinkeEva (social-block); youtube https://www.youtube.com/user/linksfraktion (social-block)
+K00167,A0132,own_site,https://www.netzwerk-steuergerechtigkeit.de,2026-11-15,found,youtube,"already listed: bluesky,facebook,instagram,tiktok,x"
+K00168,A0134,own_site,https://www.der-paritaetische.de,2026-11-15,found,x;instagram;tiktok;facebook;youtube;mastodon;bluesky,
+K00169,A0020,own_site,https://wagner.dielinke-nrw.de/,2026-11-15,found,youtube,"already listed: facebook,x,bluesky,instagram,tiktok"
+K00170,A0174,own_site,https://www.campact.de,2026-11-15,found,linkedin;x,"already listed: instagram,facebook,tiktok,bluesky,youtube"
+K00171,A0306,own_site,https://www.raulzelik.net,2026-11-15,none,,
+K00172,A0124,own_site,https://www.dgb.de,2026-11-15,found,facebook;instagram;linkedin;tiktok;youtube;x,
+K00173,A0049,own_site,https://www.diether-dehm.de/,2026-11-15,none,,"not added: facebook https://www.facebook.com/settings (); facebook https://www.facebook.com/pages/Diether-Dehm/51091986850 (chrome); youtube https://www.youtube.com/user/DietherDehm (chrome); already listed: x,instagram"
+K00174,A0145,own_site,https://germany.econgood.org,2026-11-15,found,linkedin;facebook,"not added: instagram https://www.instagram.com/econgood_de/ (chrome,social-block); youtube https://www.youtube.com/user/gwoefilme (chrome,social-block)"
+K00175,A0419,own_site,https://www.ronald-hande.de/,2026-11-15,found,facebook,"not added: facebook https://www.facebook.com/thueringer.landtag (chrome,social-block); bluesky https://bsky.app/profile/die-linke.de (chrome,social-block); instagram https://www.instagram.com/r_h_aus_b/ (chrome,social-block); instagram https://www.instagram.com/thueringerlandtag/ (chrome,social-block); youtube"
+K00176,A0279,own_site,https://francisseeck.net,2026-11-15,found,instagram,
+K00177,A0061,own_site,https://andrej-hunko.de/,2026-11-15,none,,"not added: youtube https://www.youtube.com/channel/UC_q_FwseLVZ8LpS1lHQi7IA (chrome,social-block); already listed: x,facebook,instagram"
+K00178,A0196,own_site,https://www.uni-speyer.de/lehrstuehle/professuren/wieland,2026-11-15,error,,404 at https://www.uni-speyer.de/lehrstuehle/professuren/wieland
+K00179,A0357,own_site,https://www.slm.uni-hamburg.de/germanistik/personen/wichert.html,2026-11-15,error,,404 at https://www.slm.uni-hamburg.de/germanistik/personen/wichert.html
+K00180,A0193,own_site,https://cansel-kiziltepe.de/,2026-11-15,none,,
+K00181,A0448,own_site,https://www.evangelisch-in-westfalen.de/aktuelles/detailansicht/news/mitglied-der-kirchenleitung-in-haertefallkommission-berufen/,2026-11-15,none,,"not added: facebook https://www.facebook.com/evangelischekirchevonwestfalen (chrome,social-block); youtube https://www.youtube.com/user/EvKircheVonWestfalen (chrome,social-block); instagram https://www.instagram.com/ekvw_online/ (chrome,social-block)"
+K00182,A0188,own_site,https://www.petra-sitte.de/,2026-11-15,none,,"not added: facebook https://www.facebook.com/mostdat (chrome,social-block); x https://x.com/MostbetRU (chrome,social-block); instagram https://www.instagram.com/mostbetru/ (chrome,social-block)"
+K00183,A0373,own_site,https://www.haw-hamburg.de/hochschule/beschaeftigte/detail/person/person/show/sabine-stoevesand/,2026-11-15,none,,"not added: instagram https://www.instagram.com/HAWHamburg/ (chrome,social-block); facebook https://www.facebook.com/HAW.Hamburg (chrome,social-block); youtube https://www.youtube.com/user/HAWHamburg (chrome,social-block); linkedin https://www.linkedin.com/school/hawhamburg (chrome,social-block)"
+K00184,A0390,own_site,https://www.linksfraktionsachsen.de,2026-11-15,found,facebook;x;instagram;tiktok,
+K00185,A0280,own_site,https://juliaschramm.de,2026-11-15,none,,not added: facebook https://www.facebook.com/policy.php ()
+K00186,A0165,own_site,https://www.verdi.de,2026-11-15,none,,"not added: youtube https://www.youtube.com/@verdigewerkschaft (chrome,social-block); instagram https://www.instagram.com/wirsindverdi/ (chrome,social-block); facebook https://www.facebook.com/verdi (chrome,social-block); tiktok https://www.tiktok.com/@wirsindverdi (chrome,social-block); bluesky https://bsky.ap"

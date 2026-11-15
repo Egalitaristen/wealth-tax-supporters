@@ -14,3 +14,8 @@ K00012,A0011,own_site,https://miki-taxlaw.com/,2026-11-15,error,,URLError: <urlo
 K00013,A0006,own_site,https://kaiedabanri.jp/,2026-11-15,none,,"not added: facebook https://www.facebook.com/banri.kaieda (social-block); already listed: instagram,x"
 K00014,A0001,own_site,https://www.jcp.or.jp/,2026-11-15,none,,not added: youtube https://www.youtube.com/@jcpmovie (chrome); youtube https://www.youtube.com/@tamuratomoko (); youtube https://www.youtube.com/@YouTuberKoikeAkira (); youtube https://www.youtube.com/@yukkuriJCP (); youtube https://www.youtube.com/@JCPkokkaichannel (); youtube https://www.youtube.com/channel/
 K00015,A0016,own_site,https://reiwa-shinsengumi.com/,2026-11-15,found,youtube;tiktok;instagram,"not added: x https://x.com/inochi_kokkai (); facebook https://www.facebook.com/inochinoto (chrome,social-block); x https://x.com/inochinoto (chrome,social-block)"
+K00016,A0069,own_site,https://tax-justice.com/?page_id=27,2026-11-15,none,,
+K00017,A0002,own_site,https://www.koike-akira.jp/,2026-11-15,error,,URLError: <urlopen error [Errno 11001] getaddrinfo failed>
+K00018,A0103,own_site,https://www.mag2.com/p/news/561694/3,2026-11-15,none,,"not added: facebook https://www.facebook.com/MAG2NEWS (chrome,social-block); x https://x.com/mag2_news (chrome,meta,social-block)"
+K00019,A0003,own_site,https://daimon-mikishi.jp/,2026-11-15,error,,URLError: <urlopen error [Errno 11001] getaddrinfo failed>
+K00020,A0066,own_site,https://tax-justice.com/?page_id=27,2026-11-15,none,,

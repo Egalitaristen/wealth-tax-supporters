@@ -29,3 +29,12 @@ K00027,A0045,own_site,https://www.pompeyoaudivert.com/,2026-11-15,found,youtube,
 K00028,A0139,own_site,https://www.diputados.gob.ar/diputados/ppenacca/,2026-11-15,error,,URLError: <urlopen error _ssl.c:1015: The handshake operation timed out>
 K00029,A0051,own_site,https://www.senado.gob.ar/senadores/senador/461,2026-11-15,none,,
 K00030,A0214,own_site,https://www.diputados.gob.ar/diputados/epaulon/,2026-11-15,error,,URLError: <urlopen error _ssl.c:1015: The handshake operation timed out>
+K00031,A0200,own_site,https://silvinagarcialarraburu.com/site,2026-11-15,error,,500 at https://silvinagarcialarraburu.com/site
+K00032,A0089,own_site,https://www.diputados.gob.ar/diputados/rdaives/,2026-11-15,error,,URLError: <urlopen error _ssl.c:1015: The handshake operation timed out>
+K00033,A0125,own_site,https://www.diputados.gob.ar/diputados/gmedina/,2026-11-15,error,,URLError: <urlopen error _ssl.c:1015: The handshake operation timed out>
+K00034,A0212,own_site,https://www.diputados.gob.ar/diputados/nzaracho/,2026-11-15,error,,URLError: <urlopen error _ssl.c:1015: The handshake operation timed out>
+K00035,A0022,own_site,https://conarcoop.coop/,2026-11-15,found,youtube,"already listed: facebook,x,instagram"
+K00036,A0208,own_site,https://www.diputados.gob.ar/diputados/scafiero/,2026-11-15,error,,URLError: <urlopen error _ssl.c:1015: The handshake operation timed out>
+K00037,A0107,own_site,https://www.diputados.gob.ar/diputados/crgutierrez/,2026-11-15,error,,URLError: <urlopen error _ssl.c:1015: The handshake operation timed out>
+K00038,A0198,own_site,https://www.diputados.gob.ar/diputados/aianni/,2026-11-15,error,,URLError: <urlopen error _ssl.c:1015: The handshake operation timed out>
+K00039,A0120,own_site,https://www.diputados.gob.ar/diputados/gpmartinez/,2026-11-15,error,,URLError: <urlopen error _ssl.c:1015: The handshake operation timed out>

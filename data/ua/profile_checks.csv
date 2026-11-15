@@ -1,3 +1,4 @@
 check_id,actor_id,method,url,checked,result,found,note
 K00001,A0001,own_site,https://www.growford.org.ua/,2026-11-15,found,facebook;youtube;x,
 K00002,A0005,own_site,https://www.wunu.edu.ua/educational-subdivisions/faculty/ffo/department-f-ffo/7209-krysovatyi-andrii-igorovych.html,2026-11-15,none,,"not added: instagram https://www.instagram.com/zunu_kaf_finance/ (); instagram https://www.instagram.com/zunu_official/ (chrome,share,social-block); instagram https://www.instagram.com/tneu_official/ (); facebook https://www.facebook.com/ZUNUniversity (chrome,share,social-block); facebook https://www.facebook."
+K00003,A0006,own_site,https://orcid.org/0000-0003-1092-4218,2026-11-15,none,,
