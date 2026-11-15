@@ -11,7 +11,7 @@ The House of Representatives (596 seats) is drawn from the House's own member li
 python skill/scripts/seats.py data/eg --local "https://www.parliament.gov.eg/members.aspx=house.json"
 ```
 
-On 28 October 2026 the list had 595 members in office: 284 individual, 283 list, 28 appointed (the 596th seat shows as Vacant). The site gives names in Arabic and **no party**, so seats are grouped by how they were filled and the register's English names do not match them: until a supporter's Arabic name is in their register entry (put it in brackets after the English one, as for Korean names) nobody can be matched. Searching the Arabic names of the sitting members is the point of the chart (the seat sweep, `refine/SKILL.md` section 6).
+On 28 October 2026 the list had 595 members in office: 284 individual, 283 list, 28 appointed (the 596th seat shows as Vacant). The site gives names in Arabic and **no party**, so seats are grouped by how they were filled. The register's English names do not match Arabic ones: put the member's Arabic name in brackets after the English one (`Mostafa Ragheb (مصطفى راغب)`, as for Korean names) and the seat refresh matches it (`native_tokens` in `seats.py` folds alef, yeh and heh variants and drops diacritics; two or more words must agree, and a name that fits several members is left unmatched). A politician added without the Arabic name is never lit. Searching the Arabic names of the sitting members is the point of the chart (the seat sweep, `refine/SKILL.md` section 6).
 
 The Senate (300 seats) is not charted: no official list could be found (senate.gov.eg did not answer and the news lists are partial). Tracked in #195.
 
