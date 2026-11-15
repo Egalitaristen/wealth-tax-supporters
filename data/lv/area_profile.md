@@ -1,20 +1,32 @@
-# Area profile — Latvia
+# Area profile - Latvia
 
 ## 1. Scope
-- Area: Latvia (country). Depth: seed (first pass 2026-11-04). Levels: national and the European Parliament roll call; register loaded to 5 NUTS 3 regions and 43 pašvaldības (novadi and valstspilsētas). Local layer not swept.
-- Languages searched: Latvian, English (Russian not searched: a gap).
+- Area: Latvia. Seed pass and targeted follow-up, national and European Parliament; the geography register contains five NUTS 3 regions and 43 municipalities. Local authorities have not been systematically sampled or swept.
+- Search languages: Latvian, English and a limited Russian query. This is an incomplete search, not evidence that other layers lack supporters.
 
-## 2. Wealth tax history and live proposals (2010 onwards)
-- Latvia has no net-wealth tax. The "solidarity tax" (2018, on income above the social-contribution ceiling) was nicknamed the "bagātnieku nodoklis" but is an income levy [verify via an iFinanses 2019 summary]; a 2024 Dienas Bizness report of a 3% surcharge on income above EUR 200,000 is also an income tax [verify]. Excluded.
-- 2013: the Left-Wing Patriots launched a manabalss.lv petition for a progressive tax on households with accumulated wealth above LVL 1 million (Best of Riga, from LETA, 2013-01-25): recorded.
-- Progresīvie advocate a progressive income tax and (2018-21) an inheritance tax [verify]: excluded unless a net-wealth tax appears.
-- No poll or Saeima bill on a wealth tax found.
+## 2. Wealth tax history and proposals (2010 onwards)
+- The [2013 millionaires-tax petition](https://manabalss.lv/i/472) names Mārtiņš Krusts as representative. Its current text proposes 0.5–2% annual rates on household wealth above €1 million, including movable and immovable property, with some exemptions. The page says it was published on 12 January 2013, but the present euro amounts may reflect later revisions; date and terms of any changes are unverified. The contemporary [press item](http://www.bestriga.com/en/page/expanded/article/617/Left-wing-activists-push-for-%E2%80%9Cmillionaire-tax%E2%80%9D) described a threshold in lats.
+- On 3 May 2023, Nils Ušakovs [co-signed amendment 2](https://www.europarl.europa.eu/doceo/document/A-9-2023-0155-AM-001-005_EN.pdf) to A9-0155/2023, calling for an EU own resource based on a progressive wealth tax on individuals and households. The 10 May vote was separately recorded in R001.
+- On 12 December 2023, Andris Ameriks, Nils Ušakovs and Tatjana Ždanoka [voted for amendment 2](https://eur-lex.europa.eu/legal-content/SV/TXT/?uri=OJ%3AC_202500480), calling for levies on high wealth and international discussions about a progressive wealth tax. It failed by 232 to 331, with 49 abstentions. The [amendment text](https://www.europarl.europa.eu/doceo/document/A-9-2023-0336-AM-002-003_EN.pdf) was read separately.
+- On 2 April 2025, Mārtiņš Staķis voted for and Nils Ušakovs voted against [amendment 82](https://eur-lex.europa.eu/legal-content/EN/TXT/PDF/?qid=1788091653672&uri=OJ%3AC_202506429) to A10-0042/2025, proposing a 3% minimum tax on wealth above EUR 100 million; it failed 145 to 529, with 10 abstentions. The [amendment text](https://www.europarl.europa.eu/doceo/document/A-10-2025-0042-AM-079-085_EN.pdf) was checked. Ušakovs’s later vote against this particular design is recorded as retracted under the dataset convention; it does not explain his reasons or establish general opposition to all wealth taxes.
+- The [2026 election programme of Saskaņas Centrs](https://www.vestnesis.lv/op/2026/176A.3) proposes a wealth tax on residents whose total value exceeds €1 million, alongside an income threshold for officials. The programme does not define the asset base, rate or frequency; do not treat it as a fully specified net wealth tax.
+- The [progressive tax initiative](https://manabalss.lv/i/169) is about income, wages and luxury consumption, not a tax on the stock of wealth. The Progresīvie and Kossovičs proposal discussed in 2021 was an [inheritance tax](https://rebaltica.lv/2025/08/progresivie-nevirza-mantojuma-nodokli-49-apmera/), outside this register's definition. The claim that a 49% bill was submitted is unsupported according to the fact-check.
+- In 2012 sociologist [Tālis Tisenkopfs](https://www.la.lv/trauslais-fantoms-vidusslanis/) expressed partial agreement with a wealth tax while raising ethical reservations. In 2017 economist [Kārlis Ketners](https://sputniknewslv.com/20170201/bijusais-VID-generaldirektors-nodokli-bagatibu-3785126.html) proposed taxing net assets, including land, gold and art; a [2023 podcast summary](https://podtail.com/da/podcast/tax-stories/ep-44-k-rlis-ketners-pasap-ojot-par-nodok-iem/) attributes a 0.2–0.4% proposal over €1.5 million to him, without spelling out its full base.
+- [Andris Saulītis](https://www.lsm.lv/raksts/dzive--stils/sarunas/15.10.2023-mums-katram-japaaugstina-sava-nodoklu-morale-saruna-ar-sociologu-andri-sauliti.a526743/) advocates inheritance and gift taxes, which do not qualify on their own. The 2024 proposal presented by finance minister [Arvils Ašeradens](https://www.zemeunvalsts.lv/en/the-economy-latvia-will-introduce-a-wealth-tax-and-it-may-be-relevant-to-forest-owners-too), despite the headline, is a surcharge on income, not net wealth.
+- A broad search has not established a qualifying Saeima bill or poll; this is not an exhaustive records review. The 'solidarity tax' and the 2025 high-income surcharge must not be counted merely because commentators call them wealth taxes.
 
-## 3. Legislatures
-- Saeima: saeima.lv likumprojekti (search found nothing). European Parliament roll-call PDFs (Wayback).
+## 3. Legislatures and sources
+- Saeima publishes [transcripts](https://www.saeima.lv/lv/transcripts/view/388), though discussions of millionaires can refer to income tax. The [official gazette](https://www.vestnesis.lv/op/2026/176A.3) reproduces election programmes. European Parliament roll-call PDFs and an archived copy were used in R001.
+- [ManaBalss](https://manabalss.lv/i/472) is the primary campaign page. [Registry-derived data](https://vissviena.lv/uznemums/40008201951/kreisie-patrioti/) indicate that Kreisie patrioti entered liquidation in 2023; the available source still lists it as registered.
+- Automated quote checking could not fetch the R003 or R004 pages in the local environment; the passages and surrounding context were checked manually through the source pages. The 2017 Ketners source is a secondary report reproducing his interview, and the 2023 source is a podcast summary rather than a transcript. For R005–R006, the roll-call names and amendment were checked manually in the Official Journal and the amendment PDF because automated fetching skipped them. The R006 amendment signer quote is a name-only extract from the roster, producing an expected short-quote warning. The site-suggestions command did not return results in this environment, so incoming suggestions were not checked.
 
 ## 6. Search terms
-- bagātības nodoklis, bagātnieku nodoklis, miljonāru nodoklis, mantas nodoklis, kapitāla nodoklis (means capital-gains tax), progresīvais nodoklis (income).
+- Latvian: bagātības nodoklis, bagātības nodokli, miljonāru nodoklis, mantas nodoklis, progresīvais nodoklis. Russian: налог на богатство Латвия миллион партия. Generic capital and millionaire taxes frequently mean income, property or inheritance taxes; read the base.
 
 ## 10. Plan for the next runs
-- Find the 2013 petition text and sponsors; programmes of Progresīvie, LSDSP and Latvijas Zaļā partija; the Saeima bill register; LBAS and economists (RSEBAA, SSE Riga, Latvijas Banka); Russian-language sources. Expect low yield.
+1. Seek personal statements by Saskaņas Centrs figures; Ameriks and Ušakovs are recorded for their individual 2023 European Parliament votes, not for being on an alliance list.
+2. Inspect archived versions of the 2013 petition to determine when the currency, rates and threshold changed; check its supporting material and contemporary coverage.
+3. Search civil society, unions, economists and further Russian-language sources for explicit wealth-stock tax advocacy. A tax expert cited a UK study but did not clearly recommend a Latvian levy.
+4. Search actual local records and local sources before deciding whether a sweep is productive. R004 tried one web query each for Rīga, Daugavpils, Liepāja, Jelgava, Jūrmala and Rēzekne and found no qualifying local result; these searches did not systematically read council records and the units remain pending.
+
+5. Check individual Latvian votes on the separate October 2025 amendment 71 and later wealth-tax amendments; distinguish the tax-specific vote from votes on whole budget resolutions.
