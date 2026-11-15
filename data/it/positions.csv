@@ -1,11 +1,36 @@
 position_id,actor_id,body_id,role,party,geo_unit_id,start,end,current,member_ref,checked,source_url
-O00001,A0151,B0001,Member of Parliament,Alleanza Verdi e Sinistra,G3769,,,y,305880,2026-10-26,https://www.camera.it/deputati/elenco/19-305880
-O00002,A0152,B0001,Member of Parliament,Alleanza Verdi e Sinistra,G7319,,,y,302080,2026-10-26,https://www.camera.it/deputati/elenco/19-302080
-O00003,A0153,B0001,Member of Parliament,Alleanza Verdi e Sinistra,G7026,,,y,308810,2026-10-26,https://www.camera.it/deputati/elenco/19-308810
-O00004,A0155,B0001,Member of Parliament,Partito Democratico - Italia Democratica e Progressista,G7506,,,y,305815,2026-10-26,https://www.camera.it/deputati/elenco/19-305815
-O00005,A0156,B0001,Member of Parliament,,G5459,,,n,,2026-10-26,https://www.camera.it/deputati/elenco?leg=19
-O00006,A0157,B0001,Member of Parliament,,G4871,,,n,,2026-10-26,https://www.camera.it/deputati/elenco?leg=19
-O00007,A0158,B0001,Member of Parliament,MoVimento 5 Stelle,G7026,,,y,308824,2026-10-26,https://www.camera.it/deputati/elenco/19-308824
-O00008,A0159,B0001,Member of Parliament,Partito Democratico - Italia Democratica e Progressista,G7319,,,y,308930,2026-10-26,https://www.camera.it/deputati/elenco/19-308930
-O00009,A0169,B0001,Member of Parliament,,G6582,,,n,,2026-10-26,https://www.camera.it/deputati/elenco?leg=19
-O00010,A0154,B0002,Member of Parliament,Misto,G7209,,,y,36437,2026-10-26,http://dati.senato.it/senatore/36437
+O00001,A0151,B0001,Member of Parliament,Alleanza Verdi e Sinistra,G3769,,,y,305880,2026-11-14,https://www.camera.it/deputati/elenco/19-305880
+O00002,A0152,B0001,Member of Parliament,Alleanza Verdi e Sinistra,G7319,,,y,302080,2026-11-14,https://www.camera.it/deputati/elenco/19-302080
+O00003,A0153,B0001,Member of Parliament,Alleanza Verdi e Sinistra,G7026,,,y,308810,2026-11-14,https://www.camera.it/deputati/elenco/19-308810
+O00004,A0155,B0001,Member of Parliament,Partito Democratico - Italia Democratica e Progressista,G7506,,,y,305815,2026-11-14,https://www.camera.it/deputati/elenco/19-305815
+O00005,A0156,B0001,Member of Parliament,,G5459,,,n,,2026-11-14,https://www.camera.it/deputati/elenco?leg=19
+O00006,A0157,B0001,Member of Parliament,,G4871,,,n,,2026-11-14,https://www.camera.it/deputati/elenco?leg=19
+O00007,A0158,B0001,Member of Parliament,MoVimento 5 Stelle,G7026,,,y,308824,2026-11-14,https://www.camera.it/deputati/elenco/19-308824
+O00008,A0159,B0001,Member of Parliament,Partito Democratico - Italia Democratica e Progressista,G7319,,,y,308930,2026-11-14,https://www.camera.it/deputati/elenco/19-308930
+O00009,A0169,B0001,Member of Parliament,,G6582,,,n,,2026-11-14,https://www.camera.it/deputati/elenco?leg=19
+O00010,A0178,B0001,Member of Parliament,Partito Democratico - Italia Democratica e Progressista,G0322,,,y,306008,2026-11-14,https://www.camera.it/deputati/elenco/19-306008
+O00011,A0179,B0001,Member of Parliament,,G7506,,,n,,2026-11-14,https://www.camera.it/deputati/elenco?leg=19
+O00012,A0180,B0001,Member of Parliament,,G7814,,,n,,2026-11-14,https://www.camera.it/deputati/elenco?leg=19
+O00013,A0181,B0001,Member of Parliament,MISTO-+Europa - Stati Uniti d'Europa,G7073,,,y,305733,2026-11-14,https://www.camera.it/deputati/elenco/19-305733
+O00014,A0182,B0001,Member of Parliament,,G3360,,,n,,2026-11-14,https://www.camera.it/deputati/elenco?leg=19
+O00015,A0183,B0001,Member of Parliament,,G7965,,,n,,2026-11-14,https://www.camera.it/deputati/elenco?leg=19
+O00016,A0184,B0001,Member of Parliament,,G7319,,,n,,2026-11-14,https://www.camera.it/deputati/elenco?leg=19
+O00017,A0185,B0001,Member of Parliament,,G7506,,,n,,2026-11-14,https://www.camera.it/deputati/elenco?leg=19
+O00018,A0186,B0001,Member of Parliament,Partito Democratico - Italia Democratica e Progressista,G0713,,,y,306398,2026-11-14,https://www.camera.it/deputati/elenco/19-306398
+O00019,A0187,B0001,Member of Parliament,Partito Democratico - Italia Democratica e Progressista,G5459,,,y,306139,2026-11-14,https://www.camera.it/deputati/elenco/19-306139
+O00020,A0188,B0001,Member of Parliament,,G7506,,,n,,2026-11-14,https://www.camera.it/deputati/elenco?leg=19
+O00021,A0189,B0001,Member of Parliament,,G2965,,,n,,2026-11-14,https://www.camera.it/deputati/elenco?leg=19
+O00022,A0190,B0001,Member of Parliament,,G5716,,,n,,2026-11-14,https://www.camera.it/deputati/elenco?leg=19
+O00023,A0191,B0001,Member of Parliament,,G3505,,,n,,2026-11-14,https://www.camera.it/deputati/elenco?leg=19
+O00024,A0192,B0001,Member of Parliament,,G5656,,,n,,2026-11-14,https://www.camera.it/deputati/elenco?leg=19
+O00025,A0193,B0001,Member of Parliament,,G1277,,,n,,2026-11-14,https://www.camera.it/deputati/elenco?leg=19
+O00026,A0196,B0001,Member of Parliament,Alleanza Verdi e Sinistra,G3899,,,y,308816,2026-11-14,https://www.camera.it/deputati/elenco/19-308816
+O00027,A0233,B0001,Member of Parliament,,G0001,,,n,,2026-11-14,https://www.camera.it/deputati/elenco?leg=19
+O00028,A0248,B0001,Member of Parliament,,G0001,,,n,,2026-11-14,https://www.camera.it/deputati/elenco?leg=19
+O00029,A0269,B0001,Member of Parliament,Alleanza Verdi e Sinistra,G0001,,,y,306521,2026-11-14,https://www.camera.it/deputati/elenco/19-306521
+O00030,A0270,B0001,Member of Parliament,Partito Democratico - Italia Democratica e Progressista,G0001,,,y,302422,2026-11-14,https://www.camera.it/deputati/elenco/19-302422
+O00031,A0274,B0001,Member of Parliament,Partito Democratico - Italia Democratica e Progressista,G0001,,,y,306412,2026-11-14,https://www.camera.it/deputati/elenco/19-306412
+O00032,A0154,B0002,Member of Parliament,Misto,G7209,,,y,36437,2026-11-14,http://dati.senato.it/senatore/36437
+O00033,A0271,B0002,Member of Parliament,M5S,G5166,,,y,32726,2026-11-14,http://dati.senato.it/senatore/32726
+O00034,A0277,B0002,Member of Parliament,,G7581,,,n,,2026-11-14,https://dati.senato.it/sparql
+O00035,A0278,B0002,Member of Parliament,Misto,G7383,,,y,36390,2026-11-14,http://dati.senato.it/senatore/36390
