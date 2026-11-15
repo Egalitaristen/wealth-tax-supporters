@@ -1,5 +1,5 @@
 position_id,actor_id,body_id,role,party,geo_unit_id,start,end,current,member_ref,checked,source_url
 O00001,A0002,B0001,Member of the National Assembly,PTI,G0007,2013,2023,n,,2026-11-15,https://na.gov.pk
-O00002,A0015,B0001,Member of the National Assembly,MQM-P,G0143,,,y,1859,2026-11-15,https://www.na.gov.pk/en/profile.php?uid=1859
-O00003,A0001,B0002,Senator,PML-N,G0009,,,y,953,2026-11-15,https://www.senate.gov.pk/en/profile.php?uid=953&catid=0&subcatid=0&cattitle=0
+O00002,A0015,B0001,Member of the National Assembly,MQM-P,G0143,2008,,y,1859,2026-11-15,https://www.na.gov.pk/en/profile.php?uid=1859
+O00003,A0001,B0002,Senator,PML-N,G0009,2018,,y,953,2026-11-15,https://www.senate.gov.pk/en/profile.php?uid=953&catid=0&subcatid=0&cattitle=0
 O00004,A0021,B0002,Senator,PPP,G0009,2009,2015,n,,2026-11-15,https://senate.gov.pk

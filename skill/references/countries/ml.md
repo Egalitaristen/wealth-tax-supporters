@@ -32,3 +32,7 @@ Worked notes from the Mali research passes (`R001` seed pass, `R002` wider disco
 - **Double taxation treaty termination:** In December 2023, Mali terminated its 1972 bilateral tax convention with France (effective March 2024), citing unequal terms that drained domestic revenues.
 - **Ambiguous terms:** In UEMOA / Francophone West Africa, *impôt sur le patrimoine* almost always designates property tax (*impôt sur le patrimoine foncier* on built and unbuilt real estate), which is excluded under Section 2. *Zakat* in religious contexts is occasionally translated as "l'impôt sur la fortune" in Islamic jurisprudence, but is religious charity and not a statutory tax proposal.
 - **Documented exclusions (8 actors in `exclusions.csv`):** Oumar Mariko (SADI, anti-mining rhetoric without wealth stock tax), Transitional Government (mining audits and treaty denunciation), PCQVP Mali (mining transparency), CAD-Mali (anti-debt and VAT equity), UNTM & CSTM (salary income tax ITS and living costs), Étienne Fakaba Sissoko (macroeconomics and public finance), Aminata Dramane Traoré (anti-imperialism), and the UN General Assembly Delegation (UN tax convention vote).
+
+## Seats (15 November 2026)
+
+No adapter. Mali has no elected National Assembly; the Conseil National de Transition's site `assemblee-nationale.ml` answers HTTP 403 to scripts and `cnt.ml` does not resolve. Neither register politician sits in it.

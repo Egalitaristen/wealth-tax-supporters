@@ -186,9 +186,12 @@ def run(d, adapter, dry=False, fix=False, actors_in=None):
                     m = c["enrich"](m)
                 if how == "fuzzy":
                     report.append(f"{x['actor_id']} {x['name']}: matched to {m['name']} ({m['party']}) by name only: confirm it is the same person")
-                positions.append(dict(position_id="", actor_id=x["actor_id"], body_id=bid, role=c["role"], party=m["party"],
-                                      geo_unit_id=x["geo_unit_id"], start=m.get("start", ""), end="", current="y",
-                                      member_ref=str(m.get("ref", "")), checked=today, source_url=m.get("url") or c["source_url"]))
+                old = [prev for prev in db["positions"] if prev["actor_id"] == x["actor_id"] and prev["body_id"] == bid]
+                old = next((prev for prev in old if prev["current"] == "y"), old[0] if old else {})  # what the register already holds for this seat
+                positions.append(dict(position_id="", actor_id=x["actor_id"], body_id=bid, role=c["role"],
+                                      party=(old.get("party") if c.get("keep_party") and old.get("party") else m["party"]),  # a list with no party column keeps the register's
+                                      geo_unit_id=x["geo_unit_id"], start=m.get("start") or old.get("start", ""), end="", current="y",
+                                      member_ref=str(m.get("ref") or old.get("member_ref", "")), checked=today, source_url=m.get("url") or c["source_url"]))
                 sitting_total += 1
                 if x["status"] != "active":
                     report.append(f"{x['actor_id']} {x['name']}: sits in the {c['name']} but is status={x['status']}")
@@ -216,6 +219,13 @@ def run(d, adapter, dry=False, fix=False, actors_in=None):
                 report.append(f"{x['actor_id']} {x['name']}: role {x['role'][:60]!r} but not on today's {c['name']} list"
                               f" ({'former member found, left ' + (f.get('end') or '?') if f else 'not found at all: check the spelling'})"
                               f"{' [status=active]' if x['status'] == 'active' else ''}")
+    replaced = {b["body_id"] for b in db["bodies"] if b["name"] in names}
+    sitting_now = {(o["actor_id"], o["body_id"]) for o in positions if o["current"] == "y"}
+    have_any = {(o["actor_id"], o["body_id"]) for o in positions}
+    for o in db["positions"]:  # an earlier term of someone who sits now, or a former seat the list does not cover (a minister's seat): keep it
+        k = (o["actor_id"], o["body_id"])
+        if o["body_id"] in replaced and o["current"] != "y" and (k in sitting_now or k not in have_any):
+            positions.append(dict(o))
     for o in positions:
         if not o["position_id"]:
             o["position_id"] = wtdb.next_id(positions, "positions")
@@ -1828,19 +1838,9 @@ def philippines():
         sys.exit(f"Philippine House: read {len(members)} members, expected about 317; save the list again (see the Philippines guide)")
     return [dict(name="House of Representatives", level="national", seats=318, source_url=url,
                  note="318 seats: 253 district and 65 party-list (20th Congress, from 30 June 2025). Who sits is from the House's own list (congress.gov.ph); the site names the party-list group of a party-list member and no party for a district member, so seats are grouped as district and party-list. Members the site shows as inactive are left out and their seats show as Vacant. Unlit seats mean nothing found, never opposition.",
-                 role="Member of the House of Representatives", role_re=r"(?i)representative", role_start=r"(?i)(party-list )?representative",
-                 members=members, former=[], party_order=["Party-list", "District"], colours={"District": "1a5fb4", "Party-list": "e07a1f"})]
-
-
-def philippines_senate():
-    """The Senate (24 seats): senate.gov.ph/senators/20-congress-senators (behind a Cloudflare check: read in a browser and passed with --local):
-    rows of [name, title, profile URL]. The page gives no party, so all seats are one block."""
-    url = "https://senate.gov.ph/senators/20-congress-senators"
-    members = [dict(name=_plain(r[0]), party="Senator", ref=r[2].rsplit("/", 1)[-1], place="", start="", url=r[2]) for r in _saved(url)]
-    if len(members) < 20:
-        sys.exit(f"Philippine Senate: read {len(members)} senators, expected 24; save the list again (see the Philippines guide)")
-    return [_upper("Senate", 24, url, "24 seats: the 20th Congress, 2025-2028, from the Senate's own list of senators (senate.gov.ph). The page gives no party, so seats are one block. Unlit seats mean nothing found, never opposition.",
-                   "Senator", r"(?i)\bsenator\b|senate of the philippines", members, {"Senator": "1a5fb4"})]
+                 role="Representative", role_re=r"(?i)representative", role_start=r"(?i)(party-list )?representative",
+                 members=members, former=[], party_order=["Party-list", "District"], keep_party=True,  # the register records each supporter's own party
+                 colours={"District": "1a5fb4", "Party-list": "e07a1f"})]
 
 
 def pakistan():
@@ -1933,7 +1933,7 @@ def kenya():
         members.append(dict(name=_plain(name), party=party, ref=link.rsplit("/", 1)[-1], place=const or county or "Nominated", start="", url="https://www.parliament.go.ke" + link))
     if len(members) < 300:
         sys.exit(f"Kenya National Assembly: read {len(members)} members, expected about 349")
-    return [dict(name="National Assembly", level="national", seats=349, source_url="https://www.parliament.go.ke/the-national-assembly/mps",
+    return [dict(name="National Assembly of Kenya", level="national", seats=349, source_url="https://www.parliament.go.ke/the-national-assembly/mps",
                  note="349 seats: 290 constituencies, 47 county women representatives and 12 nominated. Who sits and their party are from the Assembly's own table of members (parliament.go.ke); a few rows leave the party blank and show as 'Party not listed'. Unlit seats mean nothing found, never opposition.",
                  role="Member of the National Assembly", role_re=r"(?i)national assembly|\bMP\b|member of parliament", role_start=r"(?i)(member of the national assembly|MP\b|member of parliament)",
                  members=members, former=[], party_order=["Party not listed", "IND", "UDA", "ODM"],
@@ -1950,11 +1950,41 @@ def kenya_senate():
         members.append(dict(name=_plain(cells[0]), party=re.sub(r"[()]", "", cells[2]).strip().replace("Ford K", "FORD-K") or "Party not listed", ref=link.rsplit("/", 1)[-1], place=cells[1], start="", url="https://www.parliament.go.ke" + link))
     if len(members) < 55:
         sys.exit(f"Kenya Senate: read {len(members)} senators, expected about 67")
-    return [_upper("Senate", 67, "https://www.parliament.go.ke/the-senate/senators", "67 seats: 47 elected by county, 16 women, 2 youth and 2 persons with disabilities, nominated by the parties. Who sits and their party are from the Senate's own table of senators (parliament.go.ke). Unlit seats mean nothing found, never opposition.",
+    return [_upper("Senate of Kenya", 67, "https://www.parliament.go.ke/the-senate/senators", "67 seats: 47 elected by county, 16 women, 2 youth and 2 persons with disabilities, nominated by the parties. Who sits and their party are from the Senate's own table of senators (parliament.go.ke). Unlit seats mean nothing found, never opposition.",
                    "Senator", r"(?i)\bsenator\b", members, {"UDA": "f4c20d", "ODM": "f28c1f", "JP": "d62828", "WDM": "2a9d8f", "IND": "8a8680", "UDM": "1b9c4a", "KANU": "c1121f"})]
 
 
-ADAPTERS.update(ph=lambda: philippines() + philippines_senate(), pk=lambda: pakistan() + pakistan_senate(), bd=bangladesh, ke=lambda: kenya() + kenya_senate())
+ADAPTERS.update(ph=philippines, pk=lambda: pakistan() + pakistan_senate(), bd=bangladesh, ke=lambda: kenya() + kenya_senate())
+
+
+def suriname():
+    """De Nationale Assemblée (51 seats): dna.sr/politiek-college/leden-2025-2030 lists every member with the fractie and party. Substitutes who serve
+    for a member are listed on the same page and count as members here."""
+    url = "https://www.dna.sr/politiek-college/leden-2025-2030/"
+    page = get(url, as_json=False).decode("utf-8", errors="replace")
+    body = re.sub(r"<script.*?</script>|<style.*?</style>", "", page, flags=re.S)
+    flat = re.sub(r"(\|\s*)+", "|", re.sub(r"\s+", " ", re.sub(r"<[^>]+>", "|", body)))
+    slugs = sorted(set(re.findall(r'href="/politiek-college/leden-2025-2030/([^"/]+)/"', page)))
+    SHORT = {"Nationale Democratische Partij": "NDP", "Algemene Bevrijdings- en Ontwikkelingspartij": "ABOP", "Vooruitstrevende Hervormingspartij": "VHP",
+             "Vooruitstrevende Hervormings Partij": "VHP", "Broederschap en Eenheid in de Politiek": "BEP", "Pertjajah Luhur": "PL", "Nationale Partij Suriname": "NPS", "Alternatief 2020": "A20"}
+    drop = _HONORIFICS | {"drs", "ir", "mba", "msc", "ing", "bsc", "ma", "llm", "mpa", "phd", "mr", "rn", "msc.", "ba", "mhm", "mmc", "dr", "h", "c", "llb", "bba", "med", "pt", "mph", "bioetics", "mha", "bed"}
+    members = []
+    import html as _html
+    for name, party, role in re.findall(r"\|([^|]+?) ?\|([^|]+?) ?\|\1 ?\|(?:([^|]+?) ?\|)?Fractie\|", flat):
+        n = _plain(_html.unescape(name), drop)
+        words = set(norm(n).split())
+        slug = next((s for s in slugs if set(s.split("-")) <= words), "")
+        members.append(dict(name=n, party=SHORT.get(party.strip(), party.strip()), ref=slug, place="", start="", url=f"{url}{slug}/" if slug else url))
+    if len(members) < 45:
+        sys.exit(f"Nationale Assemblée of Suriname: read {len(members)} members, expected 51")
+    return [dict(name="De Nationale Assemblée", level="national", seats=51, source_url=url,
+                 note="51 seats, elected 25 May 2025 for 2025-2030. Who sits and their party are from the Assembly's own list of members (dna.sr), which also carries the members who serve as substitutes. Unlit seats mean nothing found, never opposition.",
+                 role="Member of De Nationale Assemblée", role_re=r"(?i)nationale assembl", role_start=r"(?i)member of de nationale",
+                 members=members, former=[], party_order=["A20", "ABOP", "VHP", "BEP", "PL", "NPS", "NDP"],
+                 colours={"NDP": "1b9c4a", "VHP": "e07a1f", "ABOP": "1a5fb4", "BEP": "c1121f", "PL": "6a4c93", "NPS": "d62828", "A20": "2a9d8f"})]
+
+
+ADAPTERS.update(sr=suriname)
 
 
 def main():
