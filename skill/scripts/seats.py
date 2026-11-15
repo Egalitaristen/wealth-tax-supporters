@@ -1106,6 +1106,292 @@ def colombia():
             chamber("Cámara de Representantes", 183, deputies, "Representative", r"(?i)representative|representante",
                     "183 seats for 2026-2030. Who sits and their party are from the chamber's own page (camara.gov.co/representantes); seats the page does not name are shown as Vacant. Unlit seats mean nothing found, never opposition.",
                     "https://www.camara.gov.co/representantes")]
+# ---------------------------------------------------------------- Latin America (Chile, Uruguay, Ecuador, Paraguay, Peru, Bolivia, Costa Rica)
+_PALETTE = ["6aa4d8", "f2c230", "8b1a1a", "1f8f4e", "e07a1f", "2aa5c9", "c9a227", "9a6fb0", "62b04b", "d36b8f", "4a6fa5", "b5651d"]
+
+
+def _latam(name, seats, source_url, note, role, rre, members, colours=None, strict=True, vacant=None, fuzzy_deny=(), former=()):
+    """One chamber of a Latin American legislature: parties ordered by size, colours from a palette unless given."""
+    count = {}
+    for m in members:
+        count[m["party"]] = count.get(m["party"], 0) + 1
+    order = sorted(count, key=lambda p: (p in ("Independiente", "Other parties", "Sin partido"), -count[p]))
+    colours = dict(colours or {})
+    free = [c for c in _PALETTE if c not in colours.values()]
+    for p in order:
+        if p not in colours:
+            colours[p] = free.pop(0) if free else "8a8680"
+    d = _upper(name, seats, source_url, note, role, rre, members, colours, order=order, vacant=vacant, strict=strict)
+    if fuzzy_deny:
+        d["fuzzy_deny"] = fuzzy_deny
+    d["former"] = list(former)
+    return d
+
+
+def _flip(n):
+    """'Rodríguez González, Blanca' -> 'Blanca Rodríguez González'; a name without a comma is kept."""
+    a, sep, b = n.partition(",")
+    return re.sub(r"\s+", " ", f"{b} {a}" if sep else a).strip()
+
+
+def _cl_party(p):
+    """One spelling for a Chilean party across the Chamber's feed and the Wikipedia list."""
+    p = re.sub(r" de Chile$", "", p.strip()).replace("Partido Por la", "Partido por la")
+    return {"Partido Demócratas Chile": "Demócratas", "Partido Acción Humanista": "Acción Humanista"}.get(p, p)
+
+
+def chile():
+    """Cámara de Diputadas y Diputados (155 seats): the Chamber's own web service (opendata.camara.cl, retornarDiputadosPeriodoActual: the deputies of the
+    current period and their party memberships; the feed gives no district). Senado (50 seats): senado.cl sits behind a Cloudflare check that is not bypassed and
+    the Senate's web service (tramitacion.senado.cl/wspublico/senadores_vigentes.php) still lists only the 2022 cohort, so the Senate is read from the Spanish
+    Wikipedia list of current senators (Anexo:Senadores actuales de la República de Chile), a secondary source: the note says so."""
+    import xml.etree.ElementTree as ET
+    ns = {"n": "http://opendata.camara.cl/camaradiputados/v1"}
+    url = "https://opendata.camara.cl/camaradiputados/WServices/WSDiputado.asmx/retornarDiputadosPeriodoActual"
+    root = ET.fromstring(get(url, as_json=False))
+    today = dt.date.today().isoformat()
+    deputies = []
+    for dp in root.findall("n:DiputadoPeriodo", ns):
+        d = dp.find("n:Diputado", ns)
+
+        def t(tag):
+            return (d.findtext(f"n:{tag}", default="", namespaces=ns) or "").strip()
+        militancias = []
+        for m in d.findall("n:Militancias/n:Militancia", ns):
+            militancias.append(((m.findtext("n:FechaInicio", "", ns) or "")[:10], (m.findtext("n:FechaTermino", "", ns) or "9999")[:10], m.findtext("n:Partido/n:Nombre", "", ns).strip()))
+        cur = [m for m in militancias if m[0] <= today <= m[1]] or sorted(militancias)[-1:]
+        party = cur[0][2] if cur else "Independiente"
+        party = "Independiente" if party.startswith("Independiente") else _cl_party(party)
+        name = " ".join(x for x in (t("Nombre"), t("Nombre2"), t("ApellidoPaterno"), t("ApellidoMaterno")) if x)
+        # the feed's own FechaInicio is the end of the period (2030), so the start is not taken from it: the period began on 11 March 2026
+        deputies.append(dict(name=name, party=party, ref=t("Id"), place="", start="2026-03-11", url=f"https://www.camara.cl/diputados/detalle/biografia.aspx?prmId={t('Id')}"))
+    # deputies of the three previous periods who do not sit now (the feed gives no end date for a person, so the period's end is used)
+    sitting, former = {d["ref"] for d in deputies}, {}
+    for pid, (pstart, pend) in ((10, ("2022-03-11", "2026-03-10")), (9, ("2018-03-11", "2022-03-10")), (8, ("2014-03-11", "2018-03-10"))):
+        try:
+            prev = ET.fromstring(get(f"https://opendata.camara.cl/camaradiputados/WServices/WSDiputado.asmx/retornarDiputadosXPeriodo?prmPeriodoId={pid}", as_json=False))
+        except SystemExit:
+            continue
+        for dp in prev.findall("n:DiputadoPeriodo", ns):
+            d = dp.find("n:Diputado", ns)
+            if d is None:
+                continue
+            ref = (d.findtext("n:Id", "", ns) or "").strip()
+            if ref in sitting or ref in former:
+                continue
+            nm = " ".join(x for x in ((d.findtext(f"n:{t}", "", ns) or "").strip() for t in ("Nombre", "Nombre2", "ApellidoPaterno", "ApellidoMaterno")) if x)
+            ms = sorted(((m.findtext("n:FechaInicio", "", ns) or "")[:10], m.findtext("n:Partido/n:Nombre", "", ns).strip()) for m in d.findall("n:Militancias/n:Militancia", ns))
+            former[ref] = dict(name=nm, party=(ms[-1][1] if ms else ""), ref=ref, start=pstart, end=pend, url=f"https://www.camara.cl/diputados/detalle/biografia.aspx?prmId={ref}")
+    if len(deputies) < 140:
+        sys.exit(f"Chile: read {len(deputies)} deputies, expected 155; check the adapter")
+    wurl = "https://es.wikipedia.org/wiki/Anexo:Senadores_actuales_de_la_Rep%C3%BAblica_de_Chile"
+    tables = wiki_tables(wiki_page("es", "Anexo:Senadores actuales de la República de Chile"))
+    tbl = next(t for t in tables if t and "Senador" in t[0])
+    months = {"enero": 1, "febrero": 2, "marzo": 3, "abril": 4, "mayo": 5, "junio": 6, "julio": 7, "agosto": 8, "septiembre": 9, "octubre": 10, "noviembre": 11, "diciembre": 12}
+    senators, region = [], ""
+    for r in tbl[1:]:
+        i = next((k for k, c in enumerate(r) if re.search(r"\(n\.? ?\d{4}\)", c)), None)
+        if i is None:
+            continue
+        if i >= 2 and r[0]:
+            region = r[0]
+        nm = re.sub(r"\(n\.? ?\d{4}\)", "", r[i]).strip()
+        party = r[i + 1].split(",")[0].strip()
+        party = "Independiente" if party.startswith("Independiente") else _cl_party(party)
+        dates = [c for c in r[i + 2:] if re.search(r"\d{4}", c)]
+        end = dates[-1] if len(dates) > 1 else ""
+        if re.search(r"desafuer|renunci|falleci|destituc", end.lower()):
+            continue  # a seat left empty during the term
+        sm = re.match(r"(\d+) de (\w+) de (\d{4})", dates[0]) if dates else None
+        start = f"{sm[3]}-{months[sm[2]]:02d}-{int(sm[1]):02d}" if sm else ""
+        senators.append(dict(name=nm, party=party, ref=re.sub(r"\W+", "-", norm(nm)), place=region, start=start, url=wurl))
+    if len(senators) < 45:
+        sys.exit(f"Chile: read {len(senators)} senators from the Wikipedia list, expected 49 or 50; check the adapter")
+    tail = " Unlit seats mean nothing found, never opposition."
+    return [_latam("Cámara de Diputadas y Diputados", 155, url, "155 seats, 2026-2030. Who sits and their party are from the Chamber's own web service for the current period (opendata.camara.cl); independents are shown together." + tail,
+                   "Deputy", r"(?i)\bdeputy\b|diputad", deputies, fuzzy_deny=("Daniel Núñez",), former=former.values()),  # the feed's independent of that name is not the PC senator of Coquimbo, whom the Senate lists
+            _latam("Senado de la República", 50, wurl, "50 seats. The Senate's own site (senado.cl) is behind a Cloudflare check and its web service lists only the 2022 cohort, so who sits and their party are from the Spanish Wikipedia list of current senators, a secondary source kept by editors; a seat left empty (a senator removed from office) shows as Vacant." + tail,
+                   "Senator", r"(?i)\bsenator|senador", senators)]
+
+
+def uruguay():
+    """Senado (30 senators; the Vice President, who presides, is the 31st member and is not counted) and Cámara de Representantes (99): the Parlamento's own
+    "Integración" lists (Actuantes: the members who sit today, a substitute counting for the titular they replace). parlamento.gub.uy refuses scripts (CloudFront 403),
+    so each list is read once in a browser from .../plenario/integracion/json and passed with --local (see the Uruguay guide)."""
+    PARTY = {"PARTIDO FRENTE AMPLIO": "Frente Amplio", "PARTIDO NACIONAL": "Partido Nacional", "PARTIDO COLORADO": "Partido Colorado", "PARTIDO CABILDO ABIERTO": "Cabildo Abierto",
+             "PARTIDO IDENTIDAD SOBERANA": "Identidad Soberana", "PARTIDO INDEPENDIENTE": "Partido Independiente"}
+
+    def read(chamber, presiding_counts):
+        url = f"https://parlamento.gub.uy/camarasycomisiones/{chamber}/plenario/integracion/json"
+        out = []
+        for x in get(url):
+            if x.get("Cargo") and not presiding_counts:
+                continue  # the presiding Vice President (or the senator standing in for them) is not one of the 30 senators
+            lema = re.sub(r"\s+", " ", x["Lema"]).strip()
+            nm = _flip(x["Nombres"])
+            out.append(dict(name=nm, party=PARTY.get(lema, lema.title()), ref=re.sub(r"\W+", "-", norm(nm)), place="", start="", url=f"https://parlamento.gub.uy/camarasycomisiones/{chamber}/plenario/integracion"))
+        return out
+    senators, deputies = read("senadores", False), read("representantes", True)
+    if len(senators) != 30 or len(deputies) != 99:
+        sys.exit(f"Uruguay: read {len(senators)} senators and {len(deputies)} representatives, expected 30 and 99; save the lists again (see the Uruguay guide)")
+    tail = " Who sits and their party are from the Parlamento's own list of the members acting today (a substitute counts in their party). Unlit seats mean nothing found, never opposition."
+    return [_latam("Senado de la República", 30, "https://parlamento.gub.uy/camarasycomisiones/senadores/plenario/integracion", "30 senators elected nationwide; the Vice President presides and is not counted." + tail, "Senator", r"(?i)\bsenator|senador", senators),
+            _latam("Cámara de Representantes", 99, "https://parlamento.gub.uy/camarasycomisiones/representantes/plenario/integracion", "99 representatives elected by department." + tail, "Deputy", r"(?i)\bdeputy|representante|diputad", deputies)]
+
+
+def ecuador():
+    """Asamblea Nacional (151 seats): the plenary page of asambleanacional.gob.ec (one pin per asambleísta: name, province or national list, a blog link; the
+    party is the icon the page draws, ADN, Revolución Ciudadana, Pachakutik or PSC; other parties get a generic icon and are grouped)."""
+    import html
+    url = "https://www.asambleanacional.gob.ec/es/pleno-asambleistas"
+    x = get(url, as_json=False).decode("utf-8", "replace")
+    ICON = {"adn": "ADN", "revolucion-ciudadana": "Revolución Ciudadana", "pachakutik": "Pachakutik", "psc": "PSC"}
+    members = []
+    for p in re.split(r'<div\s+class="icon-asambleitas-partido"', x)[1:]:
+        ic = re.search(r"(?:public/)?([\w-]+)\.(?:png|jpg|gif)", p)
+        n = re.search(r"<strong>([^<]+)<br />\s*<em>([^<]+)</em>", p)
+        blog = re.search(r'href="(blogs/[^"]+)"', p)
+        if not n:
+            continue
+        party = next((v for k, v in ICON.items() if ic and k in ic[1]), "Other parties")
+        place = re.sub(r"(?i)^asamble[ií]sta\s+(por\s+(la\s+provincia\s+de(l)?\s+|el\s+)?)?", "", html.unescape(n[2])).strip()
+        nm = re.sub(r"\s+", " ", html.unescape(n[1])).strip()
+        members.append(dict(name=nm, party=party, ref=(blog[1].split("/")[-1] if blog else re.sub(r"\W+", "-", nm.lower())), place=place or "Nacional",
+                            start="", url=("https://www.asambleanacional.gob.ec/es/" + blog[1]) if blog else url))
+    if len(members) != 151:
+        sys.exit(f"Ecuador: read {len(members)} asambleístas, expected 151; check the adapter")
+    return [_latam("Asamblea Nacional", 151, url, "151 seats, 2025-2029. Who sits is the Assembly's own plenary page; the party is the icon the page shows next to each member (ADN, Revolución Ciudadana, Pachakutik, PSC; a generic icon for the other parties, which are grouped as Other parties). Unlit seats mean nothing found, never opposition.",
+                   "Asambleísta", r"(?i)asamble[ií]sta|assembly", members, colours={"ADN": "f2c230", "Revolución Ciudadana": "e11931", "Pachakutik": "7a1f5c", "PSC": "1a4a9c", "Other parties": "8a8680"})]
+
+
+def paraguay():
+    """Cámara de Senadores (45) from senado.gov.py (the list of senators by party and movement; each links to the Congress's SILpy record) and Cámara de
+    Diputados (80) from diputados.gov.py (the alphabetical list: name, party or alliance code)."""
+    import html
+    SP = {"Asociación Nacional Republicana ANR": "ANR", "Partido Liberal Radical Auténtico PLRA": "PLRA", "Partido Cruzada Nacional": "Cruzada Nacional",
+          "Movimiento Conciencia Democrática Nacional": "Conciencia Democrática Nacional", "Partido Democrático Progresista PDP": "Partido Democrático Progresista",
+          "Partido Encuentro Nacional PEN": "Encuentro Nacional", "Independiente A": "Independiente", "Partido Participación Ciudadana": "Participación Ciudadana"}
+    surl = "https://www.senado.gov.py/index.php/menu-senadores/sub-menu-nomina-por-partido-movimiento.html"
+    x = get(surl, as_json=False).decode("utf-8", "replace")
+    party, senators = None, []
+    for m in re.finditer(r'<div class="fs-2 fw-bold">\s*(.*?)\s*<i class|href="https://silpy\.congreso\.gov\.py/legislador/(\d+)"[^>]*>([^<]+)</a>', x, flags=re.S):
+        if m[1]:
+            party = html.unescape(m[1]).strip()
+        else:
+            senators.append(dict(name=_flip(html.unescape(m[3]).strip()), party=SP.get(party, party), ref=m[2], place="", start="", url=f"https://silpy.congreso.gov.py/legislador/{m[2]}"))
+    durl = "https://diputados.gov.py/diputados/nomina-alfabetica"
+    x = get(durl, as_json=False).decode("utf-8", "replace")
+    CODE = {"ANR": "ANR", "PLRA": "PLRA", "PCN": "Cruzada Nacional", "AEN": "Encuentro Nacional", "CDN": "Conciencia Democrática Nacional", "PPQ": "Patria Querida",
+            "APLP": "Alianza Patria", "CN2023": "Concertación", "ATJPÑ": "Concertación", "APUNP": "Concertación", "APUNG": "Concertación", "AC": "Concertación", "APAD": "Concertación"}
+
+    def tx(s):
+        return re.sub(r"\s+", " ", html.unescape(re.sub(r"<[^>]+>", "", s))).strip()
+    deputies = []
+    for r in re.findall(r"<tr[^>]*>(.*?)</tr>", x, flags=re.S)[1:]:
+        tds = re.findall(r"<td[^>]*>(.*?)</td>", r, flags=re.S)
+        if len(tds) < 3:
+            continue
+        a = re.search(r"parlamentario/(\d+)", r)
+        nm = tx(tds[1]).title()
+        code = tx(tds[2])
+        deputies.append(dict(name=nm, party=CODE.get(code, code or "Sin partido"), ref=a[1] if a else re.sub(r"\W+", "-", nm.lower()), place="", start="",
+                             url=f"https://silpy.congreso.gov.py/parlamentario/{a[1]}" if a else durl))
+    if len(senators) != 45 or len(deputies) != 80:
+        sys.exit(f"Paraguay: read {len(senators)} senators and {len(deputies)} deputies, expected 45 and 80; check the adapter")
+    return [_latam("Cámara de Senadores", 45, surl, "45 seats, one nationwide constituency. Who sits and their party or movement are from the Senate's own list of senators by party and movement. Unlit seats mean nothing found, never opposition.",
+                   "Senador de la Nación", r"(?i)senador|senator", senators),
+            _latam("Cámara de Diputados", 80, durl, "80 seats elected by department. Who sits is the Chamber's own alphabetical list, which gives each deputy a party or alliance code: codes of the departmental alliances of the 2023 election (CN2023, APUNP, APUNG, ATJPÑ, AC, APAD) are grouped as Concertación. Unlit seats mean nothing found, never opposition.",
+                   "Diputado Nacional", r"(?i)diputad|deputy", deputies)]
+
+
+def peru():
+    """Senado (60) and Cámara de Diputados (130), 2026-2031: each chamber's own roster page embeds a JSON array (the data-congresista-dataset attribute of a script
+    element): name (surname first), parliamentary group, district. Entries with no condition are kept, as the rosters list them."""
+    import html
+
+    def read(url):
+        x = get(url, as_json=False).decode("utf-8", "replace")
+        m = re.search(r"data-congresista-dataset[^>]*>(.*?)</script>", x, flags=re.S)
+        if not m:
+            sys.exit(f"Peru: no roster data in {url} any more, check the adapter")
+        return [dict(name=_flip(r["name"]), party=(r.get("group") or r.get("partido") or "Sin partido").strip(), ref=r["url"].rstrip("/").split("/")[-1],
+                     place=r.get("district", ""), start="2026", url=r["url"]) for r in json.loads(html.unescape(m[1]))]
+    surl, durl = "https://senado.congreso.gob.pe/senador/", "https://diputados.congreso.gob.pe/diputado/"
+    senators, deputies = read(surl), read(durl)
+    if len(senators) != 60 or len(deputies) != 130:
+        sys.exit(f"Peru: read {len(senators)} senators and {len(deputies)} deputies, expected 60 and 130; check the adapter")
+    tail = " Who sits and their parliamentary group are from the chamber's own roster page (a few entries carry no condition field). Unlit seats mean nothing found, never opposition."
+    return [_latam("Senado de la República", 60, surl, "60 seats, 2026-2031." + tail, "Senator", r"(?i)\bsenator|senador", senators),
+            _latam("Cámara de Diputados", 130, durl, "130 seats, 2026-2031." + tail, "Deputy", r"(?i)\bdeputy|diputad", deputies)]
+
+
+def _bo_party(p):
+    return {"UNIDAD": "Unidad", "APB-SÚMATE": "APB Súmate", "APB-SUMATE": "APB Súmate", "MAS-IPSP": "MAS-IPSP", "BIA-YUQUI": "Bia-Yuqui"}.get(p.strip().upper(), p.strip())
+
+
+def bolivia():
+    """Cámara de Senadores (36) from the Senate's own site API (apisi.senado.gob.bo/page/senadores/pleno: 72 entries, 36 titulares and 36 suplentes, the
+    party seats counted among the titulares) and Cámara de Diputados (130) from diputados.gob.bo: the site's WordPress API lists the 255 titulares and
+    suplentes; the page does not say which is which, but each photo file is named with a department and TI/SU (a few say TITU, SUPLE or nothing), so
+    whoever is not marked suplente is a titular (130, as the Chamber has), and the party (bancada) is read from each titular's own page."""
+    import html
+    from concurrent.futures import ThreadPoolExecutor
+    sen = []
+    for x in get("https://apisi.senado.gob.bo/page/senadores/pleno")["data"]:
+        if x.get("titular_id") is not None:
+            continue  # a suplente carries the id of their titular
+        nm = " ".join(f"{x['nombre']} {x['apellidos']}".title().split())
+        sen.append(dict(name=nm, party=_bo_party((x.get("bancada") or {}).get("sigla") or "Sin partido"), ref=str(x["id"]), place=(x.get("brigada_catalogo") or {}).get("name", ""), start="", url="https://www.senado.gob.bo/"))
+    base = "https://diputados.gob.bo/wp-json/wp/v2/"
+    recs = []
+    for pg in (1, 2, 3):
+        recs += get(f"{base}diputados?per_page=100&page={pg}&_fields=id,slug,title,link,acf")
+    media = {}
+    ids = [str(r["acf"]["foto"]) for r in recs if r["acf"].get("foto")]
+    for k in range(0, len(ids), 100):
+        for m in get(f"{base}media?per_page=100&_fields=id,source_url&include={','.join(ids[k:k + 100])}"):
+            media[m["id"]] = m["source_url"]
+    suple = re.compile(r"(?<![A-Z])(SU|SUP|SUPLE|SUPLENTE)(?![A-Z])")
+    tit = [r for r in recs if not suple.search(media.get(r["acf"].get("foto"), "").rsplit("/", 1)[-1].upper())]
+    PARTY = {"MAS IPSP": "MAS-IPSP", "APB SUMATE": "APB Súmate", "BIA-YUQUI": "Bia-Yuqui", "PDC": "PDC", "LIBRE": "LIBRE", "UNIDAD": "Unidad", "AP": "AP"}
+
+    def page(r):
+        t = get(r["link"], as_json=False, tries=3).decode("utf-8", "replace")
+        t = re.sub(r"<script.*?</script>|<style.*?</style>", "", t, flags=re.S)
+        t = re.sub(r"(\|\s*)+", "|", re.sub(r"<[^>]+>", "|", re.sub(r"\s+", " ", html.unescape(t))))
+        b = re.search(r"Bancada \|([^|]*)", t)
+        d = re.search(r"Brigada \|([^|]*)", t)
+        sig = re.sub(r"\s*\(.*$", "", b[1]).strip() if b else ""
+        return PARTY.get(sig, sig) or "Sin partido", (d[1].strip() if d else "")
+    with ThreadPoolExecutor(8) as ex:
+        info = list(ex.map(page, tit))
+    dep = [dict(name=" ".join(html.unescape(r["title"]["rendered"]).split()), party=p, ref=r["slug"], place=pl, start="", url=r["link"]) for r, (p, pl) in zip(tit, info)]
+    if len(sen) != 36 or len(dep) != 130:
+        sys.exit(f"Bolivia: read {len(sen)} senators and {len(dep)} deputies, expected 36 and 130; check the adapter")
+    return [_latam("Cámara de Diputados", 130, "https://diputados.gob.bo/diputados/", "130 seats, 2025-2030. The Chamber's own site lists 255 titulares and suplentes without saying which is which: the 130 titulares are those whose photo file is not marked suplente, and the party is the bancada on each titular's page. A suplente who has taken a titular's seat is not detected. Unlit seats mean nothing found, never opposition.",
+                   "Deputy", r"(?i)\bdeputy|diputad", dep),
+            _latam("Cámara de Senadores", 36, "https://www.senado.gob.bo/", "36 seats, 2025-2030. Who sits and their party are from the Senate's own site API: its 36 titulares by bancada (the 36 suplentes are not counted). Unlit seats mean nothing found, never opposition.",
+                   "Senator", r"(?i)\bsenator|senador", sen)]
+
+
+def costa_rica():
+    """Asamblea Legislativa (57 seats), 2026-2030: asamblea.go.cr did not answer from here, so the 57 deputies (province and number on the list, party) are
+    read from the Spanish Wikipedia list Anexo:Diputados del período legislativo 2026-2030 en Costa Rica, a secondary source; its party counts match the TSE declaratoria
+    of 23 March 2026 (31 / 17 / 7 / 1 / 1)."""
+    wurl = "https://es.wikipedia.org/wiki/Anexo:Diputados_del_per%C3%ADodo_legislativo_2026-2030_en_Costa_Rica"
+    t = wiki_tables(wiki_page("es", "Anexo:Diputados del período legislativo 2026-2030 en Costa Rica"))[0]
+    members = []
+    for r in t[1:]:
+        if len(r) < 4 or not re.search(r"\d", r[0]):
+            continue
+        party = re.sub(r"^Partido ", "", r[3]).strip()
+        members.append(dict(name=r[2], party=party, ref=re.sub(r"\W+", "-", norm(r[2])), place=re.sub(r"\s*\d+$", "", r[0]), start="2026", url=wurl))
+    if len(members) != 57:
+        sys.exit(f"Costa Rica: read {len(members)} deputies from the Wikipedia list, expected 57; check the adapter")
+    return [_latam("Asamblea Legislativa", 57, wurl, "57 seats elected by province, 2026-2030. The Assembly's own site (asamblea.go.cr) did not answer from the machine that built this, so who sits is read from the Spanish Wikipedia list of the 2026-2030 deputies, a secondary source kept by editors (its party counts match the TSE declaratoria of 23 March 2026: 31 / 17 / 7 / 1 / 1); replacements during the term may lag. Unlit seats mean nothing found, never opposition.",
+                   "Deputy", r"(?i)\bdeputy|diputad", members)]
+
+
 def finland():
     """The Eduskunta (200 seats): the seating plan of the plenary hall on avoindata.eduskunta.fi (SeatingOfParliament), one row per seat with the
     member's party group. It lists the sitting members only (ministers included, as in Finland they keep their seat; a substitute for a member on
@@ -1785,6 +2071,13 @@ ADAPTERS = dict(_ADAPTERS_LOWER, nl=lambda: netherlands() + netherlands_senate()
                   ng=lambda: nigeria() + nigeria_senate(),
                   es=lambda: spain() + spain_senate(), pl=lambda: poland() + poland_senate(), belgium_senate=belgium_senate,  # the Chamber needs its own saved page: run the Senate with --adapter belgium_senate
                   id=lambda: indonesia() + indonesia_dpd(), egypt_senate=egypt_senate, malaysia_senate=malaysia_senate, ch=switzerland)  # the Dewan Rakyat needs its own saved page: run the Dewan Negara with --adapter malaysia_senate
+ADAPTERS["cl"] = chile
+ADAPTERS["uy"] = uruguay
+ADAPTERS["ec"] = ecuador
+ADAPTERS["py"] = paraguay
+ADAPTERS["pe"] = peru
+ADAPTERS["bo"] = bolivia
+ADAPTERS["cr"] = costa_rica
 
 
 def main():
