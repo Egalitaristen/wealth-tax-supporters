@@ -155,6 +155,9 @@ def main():
         if not h:
             continue
         m = last_membership(x["name"], h)
+        if not m and h == 2:  # a retired peer is listed by title ("Baroness Bryan of Partick"), not by the name the register uses
+            t = re.search(r"((?:Baroness|Lord|Lady|Viscount|Earl|Baron) [A-Z][^();,]*)", x["role"])
+            m = last_membership(t.group(1).strip(), h) if t else None
         if m and m["latestHouseMembership"]["membershipEndDate"]:
             mem = m["latestHouseMembership"]
             new.append({"position_id": "", "actor_id": x["actor_id"], "body_id": bid[h],
