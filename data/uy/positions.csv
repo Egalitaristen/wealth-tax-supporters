@@ -1,12 +1,23 @@
 position_id,actor_id,body_id,role,party,geo_unit_id,start,end,current,member_ref,checked,source_url
-O00001,A0005,B0001,Senator,Frente Amplio,G0001,2025,,y,,2026-11-04,https://parlamento.gub.uy/camarasycomisiones/senadores/plenario/integracion
-O00002,A0006,B0001,Senator,Frente Amplio,G0001,2025,,y,,2026-11-04,https://parlamento.gub.uy/camarasycomisiones/senadores/plenario/integracion/titulares
-O00003,A0007,B0002,Deputy,Frente Amplio,G0011,2025,,y,7982,2026-11-04,https://parlamento.gub.uy/camarasycomisiones/representantes/plenario/integracion
 O00004,A0008,B0003,Minister of Labour and Social Security,Communist Party,,,,,,,https://www.montevideo.com.uy/Noticias/-Comparto-la-direccion-a-la-que-apunta--Castillo-dijo-estar-a-favor-del-impuesto-a-ricos-uc931881
 O00005,A0009,B0004,Intendente,Frente Amplio,G0011,,,,,,https://www.montevideo.com.uy/Noticias/Sobretasa-al-1--mas-rico--Bergara-considero-que-se-trata-de-un-formato-razonable--uc944418
-O00006,A0010,B0001,Senator,Frente Amplio,G0001,2025,,y,,2026-11-04,https://parlamento.gub.uy/camarasycomisiones/senadores/plenario/integracion
-O00007,A0011,B0001,Senator (2020 to 2025 term),Frente Amplio,,,2025,n,,2026-11-04,https://parlamento.gub.uy/camarasycomisiones/senadores/plenario/integracion
-O00008,A0012,B0001,Senator (2020 to 2025 term),Frente Amplio,,,2025,n,,2026-11-04,https://parlamento.gub.uy/camarasycomisiones/senadores/plenario/integracion
-O00009,A0013,B0001,Senator,Frente Amplio,G0001,2025,,y,,2026-11-04,https://parlamento.gub.uy/camarasycomisiones/senadores/plenario/integracion
-O00010,A0014,B0001,Senator (2020 to 2025 term),Frente Amplio,,,2025,n,,2026-11-04,https://parlamento.gub.uy/camarasycomisiones/senadores/plenario/integracion
-O00011,A0015,B0001,Senator (2020 to 2025 term),Frente Amplio,,,2025,n,,2026-11-04,https://parlamento.gub.uy/camarasycomisiones/senadores/plenario/integracion
+O00006,A0005,B0001,Senator,Frente Amplio,G0001,2025,,y,gustavo-gonzalez,2026-11-15,https://parlamento.gub.uy/camarasycomisiones/senadores/plenario/integracion
+O00007,A0006,B0001,Senator,Frente Amplio,G0001,2025,,y,felipe-carballo-costa,2026-11-15,https://parlamento.gub.uy/camarasycomisiones/senadores/plenario/integracion
+O00008,A0010,B0001,Senator,Frente Amplio,G0001,2025,,y,oscar-andrade,2026-11-15,https://parlamento.gub.uy/camarasycomisiones/senadores/plenario/integracion
+O00009,A0011,B0001,Senator,Frente Amplio,G0001,,2025,n,,2026-11-15,https://parlamento.gub.uy/camarasycomisiones/senadores/plenario/integracion
+O00010,A0012,B0001,Senator,Frente Amplio,G0001,,2025,n,,2026-11-15,https://parlamento.gub.uy/camarasycomisiones/senadores/plenario/integracion
+O00011,A0013,B0001,Senator,Frente Amplio,G0001,2025,,y,daniel-caggiani,2026-11-15,https://parlamento.gub.uy/camarasycomisiones/senadores/plenario/integracion
+O00012,A0014,B0001,Senator,Frente Amplio,G0001,,2025,n,,2026-11-15,https://parlamento.gub.uy/camarasycomisiones/senadores/plenario/integracion
+O00013,A0015,B0001,Senator,Frente Amplio,G0001,,2025,n,,2026-11-15,https://parlamento.gub.uy/camarasycomisiones/senadores/plenario/integracion
+O00014,A0028,B0001,Senator,Frente Amplio,G0001,,,y,constanza-moreira,2026-11-15,https://parlamento.gub.uy/camarasycomisiones/senadores/plenario/integracion
+O00015,A0032,B0001,Senator,,G0001,,,n,,2026-11-15,https://parlamento.gub.uy/camarasycomisiones/senadores/plenario/integracion
+O00016,A0033,B0001,Senator,,G0001,,,n,,2026-11-15,https://parlamento.gub.uy/camarasycomisiones/senadores/plenario/integracion
+O00017,A0034,B0001,Senator,,G0001,,,n,,2026-11-15,https://parlamento.gub.uy/camarasycomisiones/senadores/plenario/integracion
+O00018,A0035,B0001,Senator,,G0001,,,n,,2026-11-15,https://parlamento.gub.uy/camarasycomisiones/senadores/plenario/integracion
+O00019,A0007,B0002,Deputy,Frente Amplio,G0011,2025,,y,alejandro-zavala,2026-11-15,https://parlamento.gub.uy/camarasycomisiones/representantes/plenario/integracion
+O00020,A0029,B0002,Deputy,Frente Amplio,G0011,,,y,bruno-giometti-pineiro,2026-11-15,https://parlamento.gub.uy/camarasycomisiones/representantes/plenario/integracion
+O00021,A0037,B0002,Deputy,,G0011,,,n,,2026-11-15,https://parlamento.gub.uy/camarasycomisiones/representantes/plenario/integracion
+O00022,A0038,B0002,Deputy,,G0011,,,n,,2026-11-15,https://parlamento.gub.uy/camarasycomisiones/representantes/plenario/integracion
+O00023,A0039,B0002,Deputy,,G0004,,,n,,2026-11-15,https://parlamento.gub.uy/camarasycomisiones/representantes/plenario/integracion
+O00024,A0040,B0002,Deputy,,G0016,,,n,,2026-11-15,https://parlamento.gub.uy/camarasycomisiones/representantes/plenario/integracion
+O00025,A0041,B0002,Deputy,,G0003,,,n,,2026-11-15,https://parlamento.gub.uy/camarasycomisiones/representantes/plenario/integracion

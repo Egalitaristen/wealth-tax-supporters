@@ -24,7 +24,13 @@ No net wealth tax and, as far as the searches found, no national bill or qualify
 
 ## Seats
 
-No adapter; nrsr.sk blocks scripts. The National Council seat chart uses archived official club totals from different dates and needs a refresh when current records are accessible.
+The Národná rada (150 seats) is charted by `seats.py` (`sk`) from the National Council's own alphabetical list of deputies and the club pages, https://www.nrsr.sk/web/Default.aspx?sid=poslanci/zoznam_abc (Smer 41, PS 33, Hlas 24, KDH 12, Slovensko 12, SaS 11, non-attached 9, SNS 8 on 15 November 2026). nrsr.sk answers scripts with a bot check (not bypassed), so the lists are read once in a browser and passed with `--local`:
+
+1. Open the alphabetical list in Chrome: every deputy is a link with `PoslanecID=` ("Surname, Given").
+2. Fetch the seven club pages (`...sid=poslanci/kluby/klub&ID=55` and the others on `...kluby/zoznam`) and `...kluby/nezavisli`, and give each deputy the club whose page links them.
+3. Save rows `[name, id, club label]` as JSON and run: `python skill/scripts/seats.py data/sk --fix-status --local "https://www.nrsr.sk/web/Default.aspx?sid=poslanci/zoznam_abc=<saved file>"`.
+
+No politician in the Slovak register sits in the Council today (they are MEPs).
 
 ## What counts
 

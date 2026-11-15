@@ -9,4 +9,5 @@ Register: 2 entities, Brčko District, 10 FBiH cantons (ISO 3166-2:BA codes) and
 Index.hr, Klix, N1, RSE, paragraf.ba, FES library (library.fes.de redirects to collections.fes.de). The parliaments' registries were not searched.
 
 ## Seats
-No Seats tab. PSBiH and FBiH publish member lists (parlament.ba, parlamentfbih.gov.ba) but no adapter exists and no supporter was found sitting today.
+
+Three chambers are charted by `seats.py` (`ba`): the House of Representatives (42) and House of Peoples (15) of the Parliamentary Assembly from parlament.ba's own lists (`/representative/List?page=N`, `/delegate/List?page=N`; a name may carry "do 10.10.2024." or "član od ..." for changes), and the House of Representatives of the FBiH Parliament (98) from https://predstavnickidom-pfbih.gov.ba/zastupnici (members grouped by party; no district or date). The FBiH House of Peoples (80 delegates) has no current list (parlamentfbih.gov.ba shows the 2014-2018 term), so it has no chart. All are the 2022-2026 houses, outgoing until the October 2026 elections are constituted. Both register politicians sit in the FBiH House of Representatives: Aner Žuljević's 2018 "delegate" role is out of date.

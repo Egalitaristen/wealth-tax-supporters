@@ -6,3 +6,7 @@ L299/2025: official Senate register https://www.senat.ro/Legis/Lista.aspx?cod=26
 
 No matching polygon map has been prepared. Geo-spatial.org publishes administrative boundary polygons and lines at https://geo-spatial.org/descarcare/date/administrative-boundaries/ ; examine licence and whether a compatible polygon product can be derived before use.
  A mirror reports CC BY-SA 4.0; verify the original licence and compatibility with the repository data licence before importing.
+
+## Seats
+
+Both chambers are charted by `seats.py` (`ro`) from cdep.ro's alphabetical lists of the 2024 legislature (the Chamber of Deputies' site carries both): `structura2015.de?idl=1` for the 330 deputies and `...?idl=1&cam=1&leg=2024` for the 136 senators. Each page lists the sitting members (group, constituency, date joined, none for those who were there from the start) and, below, the members whose mandate ended before the term did, with the date; those give the end dates of former members. 15 November 2026: 330 deputies (PSD 92, AUR 62, PNL 55, USR 40, UDMR 21, minorities 17, UPR 15, SOS RO 13, unaffiliated 15) and 134 senators (2 seats Vacant). senat.ro publishes its list only as a postback grid.
