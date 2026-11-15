@@ -1,3 +1,4 @@
 check_id,actor_id,method,url,checked,result,found,note
 K00001,A0008,own_site,https://programy.euba.sk/en/author/tomas-profant-en/,2026-11-15,none,,
 K00002,A0012,own_site,https://www.teoforum.sk/,2026-11-15,none,,
+K00003,A0006,own_site,https://www.kozsr.sk/,2026-11-15,found,facebook;instagram;x;youtube,

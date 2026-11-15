@@ -4,3 +4,10 @@ K00002,A0080,own_site,https://www.shii.gr.jp/,2026-11-15,found,x,
 K00003,A0064,own_site,https://tax-justice.com/?page_id=27,2026-11-15,none,,
 K00004,A0032,own_site,https://kokkororen.com/,2026-11-15,found,facebook;x;youtube,not added: x https://x.com/zenhoumu (); x https://x.com/zenkousei_HQ (); x https://x.com/kana4103chan (); x https://x.com/zenkeizai (); x https://x.com/KokkoRoso (); x https://x.com/ZenshihoHombu (); x https://x.com/kokkoippan (); x https://x.com/zendaikyo01 (); x https://x.com/zenroren ()
 K00005,A0070,own_site,https://tax-justice.com/?page_id=27,2026-11-15,none,,
+K00006,A0015,own_site,https://sdp.or.jp/,2026-11-15,none,,not added: x https://x.com/SDPJapan (meta); facebook https://www.facebook.com/SDP.Japan (); youtube https://www.youtube.com/user/shaminparty (); instagram https://www.instagram.com/sdp.japan/ (); tiktok https://www.tiktok.com/@sdp_japan ()
+K00007,A0074,own_site,https://tax-justice.com/?page_id=27,2026-11-15,none,,
+K00008,A0101,own_site,https://www.tkfd.or.jp/experts/detail.php?id=36,2026-11-15,none,,"not added: x https://x.com/tokyofoundation (chrome,meta,social-block); youtube https://www.youtube.com/channel/UCM3w9uEsFiWB3HsRfnFC8Qw (chrome,social-block)"
+K00009,A0076,own_site,https://tax-justice.com/?page_id=27,2026-11-15,none,,
+K00010,A0005,own_site,https://miyamototooru.info/,2026-11-15,none,,"not added: youtube https://www.youtube.com/channel/UCYTvoZlKB1m7lGT-_jg1jlA (); instagram https://www.instagram.com/miyamototooru1972/ (); instagram https://www.instagram.com/miyamoto.offical/ (); already listed: x,tiktok"
+K00011,A0012,own_site,https://seikeiken.org/,2026-11-15,error,,URLError: <urlopen error [Errno 11001] getaddrinfo failed>
+K00012,A0011,own_site,https://miki-taxlaw.com/,2026-11-15,error,,URLError: <urlopen error [Errno 11001] getaddrinfo failed>

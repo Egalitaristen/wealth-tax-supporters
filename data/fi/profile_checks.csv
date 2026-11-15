@@ -11,3 +11,20 @@ K00009,A0010,own_site,https://www.eduskunta.fi/FI/kansanedustajat/Sivut/910615.a
 K00010,A0086,own_site,https://www.ku.fi/artikkeli/4763371-christer-lindholm-faktaa-ja-fiktiota-verotuksesta,2026-11-15,none,,not added: facebook https://www.facebook.com/kansanuutiset (social-block); instagram https://www.instagram.com/kansanuutiset/ (social-block)
 K00011,A0024,own_site,https://www.eduskunta.fi/FI/kansanedustajat/Sivut/1091.aspx,2026-11-15,error,,404 at https://www.eduskunta.fi/FI/kansanedustajat/Sivut/1091.aspx
 K00012,A0017,own_site,https://www.eduskunta.fi/FI/kansanedustajat/Sivut/1143.aspx,2026-11-15,error,,404 at https://www.eduskunta.fi/FI/kansanedustajat/Sivut/1143.aspx
+K00013,A0015,own_site,https://www.eduskunta.fi/FI/kansanedustajat/Sivut/1138.aspx,2026-11-15,error,,404 at https://www.eduskunta.fi/FI/kansanedustajat/Sivut/1138.aspx
+K00014,A0011,own_site,https://www.eduskunta.fi/FI/kansanedustajat/Sivut/1127.aspx,2026-11-15,error,,404 at https://www.eduskunta.fi/FI/kansanedustajat/Sivut/1127.aspx
+K00015,A0058,own_site,https://skp.fi/asiakirjat/skpn-perusturva-1500-aloite-paljonko-perusturva-maksaisi/,2026-11-15,none,,"not added: youtube https://www.youtube.com/channel/UC4mV4j8Di71ChZavguHMaKQ (chrome,social-block); facebook https://www.facebook.com/suomenkommunistinenpuolue (chrome,social-block); x https://x.com/kommunistit (chrome,social-block)"
+K00016,A0061,own_site,https://jhl.contenthub.fi/NiboWEB/jhl/getPublicFile.do?inline=false&ticket=9696ba90ad50a875bb04ee60b63fdeba&type=original&uuid=2395269,2026-11-15,none,,
+K00017,A0063,own_site,https://www.sttk.fi/eduskuntavaalit/tyollisyys-ja-tuottavuuskehitys-on-nostettava-talouspolitiikan-keskioon/,2026-11-15,found,facebook;x,"not added: youtube https://www.youtube.com/user/protoimihenkilot (chrome,social-block); already listed: instagram"
+K00018,A0036,own_site,https://www.eduskunta.fi/FI/kansanedustajat/Sivut/512.aspx,2026-11-15,error,,404 at https://www.eduskunta.fi/FI/kansanedustajat/Sivut/512.aspx
+K00019,A0027,own_site,https://www.eduskunta.fi/FI/kansanedustajat/Sivut/936.aspx,2026-11-15,error,,404 at https://www.eduskunta.fi/FI/kansanedustajat/Sivut/936.aspx
+K00020,A0009,own_site,https://www.eduskunta.fi/FI/kansanedustajat/Sivut/1124.aspx,2026-11-15,error,,404 at https://www.eduskunta.fi/FI/kansanedustajat/Sivut/1124.aspx
+K00021,A0069,own_site,https://www.ollisavela.fi/,2026-11-15,none,,
+K00022,A0022,own_site,https://www.eduskunta.fi/FI/kansanedustajat/Sivut/214.aspx,2026-11-15,error,,404 at https://www.eduskunta.fi/FI/kansanedustajat/Sivut/214.aspx
+K00023,A0038,own_site,https://www.eduskunta.fi/FI/kansanedustajat/Sivut/1139.aspx,2026-11-15,error,,404 at https://www.eduskunta.fi/FI/kansanedustajat/Sivut/1139.aspx
+K00024,A0073,own_site,https://www.eduskunta.fi/FI/kansanedustajat/Sivut/444.aspx,2026-11-15,error,,404 at https://www.eduskunta.fi/FI/kansanedustajat/Sivut/444.aspx
+K00025,A0054,own_site,https://finnwatch.org/fi/tutkimukset/kansainvaelinen-minimivero-varakkaimmille-yksityishenkiloeille,2026-11-15,found,facebook;x;bluesky,already listed: instagram
+K00026,A0046,own_site,https://www.eduskunta.fi/FI/kansanedustajat/Sivut/1154.aspx,2026-11-15,error,,404 at https://www.eduskunta.fi/FI/kansanedustajat/Sivut/1154.aspx
+K00027,A0014,own_site,https://www.eduskunta.fi/FI/kansanedustajat/Sivut/306.aspx,2026-11-15,error,,404 at https://www.eduskunta.fi/FI/kansanedustajat/Sivut/306.aspx
+K00028,A0013,own_site,https://www.eduskunta.fi/FI/kansanedustajat/Sivut/1052.aspx,2026-11-15,error,,404 at https://www.eduskunta.fi/FI/kansanedustajat/Sivut/1052.aspx
+K00029,A0050,own_site,https://www.eduskunta.fi/FI/kansanedustajat/Sivut/1155.aspx,2026-11-15,error,,"404 at https://www.eduskunta.fi/FI/kansanedustajat/Sivut/1155.aspx URLError: <urlopen error (""The certificate's CN name does not match the passed value."",)>"

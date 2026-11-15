@@ -33,7 +33,7 @@ def main():
         for p in profiles:
             actor = actors.get(p["actor_id"])
             if actor and p["source"].startswith("linked from") and p["checked"] == a.date:
-                handle = re.sub(r"[^a-z0-9]", "", p["url"].rstrip("/").split("/")[-1].lstrip("@").lower())
+                handle = re.sub(r"[^a-z0-9]", "", p["url"].split("//", 1)[-1].split("/", 1)[-1].lower())  # the whole path: facebook.com/pages/<Name>/<id> carries the name in the middle
                 vendor = handle.startswith(ps.VENDOR)
                 if actor["kind"] == "person":
                     toks = ps.name_tokens(actor["name"], True)

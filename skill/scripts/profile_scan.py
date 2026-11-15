@@ -294,8 +294,8 @@ VENDOR = ("wix", "squarespace", "wordpress", "godaddy", "shopify", "weebly", "el
 def judge(actor, sites, cands):
     """Split candidates into (accepted, review): one account per platform, and only an account that is the actor's own.
 
-    A person gets an account when its handle matches their name, or when their personal site (a domain made of their name) marks it rel="me".
-    Accounts in the header and footer of any site, including a personal one, may be a party's or employer's, so for a person they are logged, not added. An organisation gets the accounts in the header, footer or social
+    A person gets an account only when its handle matches their name. Accounts in the header and footer of any site, including a personal one, and
+    rel="me" links may be a party's or employer's, so for a person they are logged, not added. An organisation gets the accounts in the header, footer or social
     block of its own site, unless the page is only a section of a larger site (a local branch), where the handle has to match its name."""
     person = actor["kind"] == "person"
     toks = name_tokens(actor["name"], person)
@@ -326,7 +326,7 @@ def judge(actor, sites, cands):
             strong = bool(e["ctxs"] & {"rel-me", "chrome", "social-block", "meta"}) and not share
             pers = personal(e["page"])
             if person:
-                good = namecheck or ("rel-me" in e["ctxs"] and pers)  # an account that carries the person's name, or one a personal site marks rel="me"; the rest is logged
+                good = namecheck  # only an account that carries the person's name; a rel="me" link can be the party's or employer's own verification, so the rest is logged
             else:
                 good = strong and (namecheck or not section(e["page"]))
             e["namecheck"] = namecheck

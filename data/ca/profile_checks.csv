@@ -20,3 +20,39 @@ K00018,A0241,own_site,https://allianceprofsgsm.ca/,2026-11-15,error,,URLError: <
 K00019,A0309,own_site,https://ssvp.ca/,2026-11-15,none,,"removed on spot check (the site is the national SSVP's; this is the Shawinigan conference): facebook https://www.facebook.com/SSVPCanada, linkedin https://www.linkedin.com/company/ssvp-national-council, youtube https://www.youtube.com/@ssvpnational-canada5440"
 K00020,A0038,own_site,https://www.taxfairness.ca/en/resources/reports/new-robber-barons-quarter-century-wealth-concentration-canada,2026-11-15,found,facebook;instagram,"not added: x https://x.com/FairTaxCanada (chrome,meta,social-block)"
 K00021,A0288,own_site,https://fondationchagnon.org/,2026-11-15,found,linkedin;facebook;youtube;x,
+K00022,A0229,own_site,https://www.readthemaple.com/author/alex/,2026-11-15,none,,"not added: x https://x.com/readthemaple (chrome,social-block); bluesky https://bsky.app/profile/readthemaple.com (chrome,social-block); instagram https://www.instagram.com/readthemaple/ (chrome,social-block); already listed: x"
+K00023,A0143,own_site,https://observatoiredesinegalites.com/,2026-11-15,found,facebook;tiktok;youtube;linkedin;x,
+K00024,A0227,own_site,https://www.taxfairness.ca/en/about/team,2026-11-15,none,,"not added: x https://x.com/FairTaxCanada (chrome,meta,social-block); facebook https://www.facebook.com/pages/Canadians-for-Tax-Fairness/126696884068046 (chrome,social-block); instagram https://www.instagram.com/canadians4taxfairness/ (chrome,social-block)"
+K00025,A0279,own_site,https://flhlmq.com/,2026-11-15,found,facebook;youtube,
+K00026,A0272,own_site,https://espacektheatre.com/,2026-11-15,found,facebook;youtube,
+K00027,A0039,own_site,https://policyalternatives.ca/bc,2026-11-15,found,instagram;linkedin;youtube,"404 at https://policyalternatives.ca/bc; not added: facebook https://www.facebook.com/profile.php?id=61572703290618 (chrome,social-block); facebook https://www.facebook.com/bcpolicy ()"
+K00028,A0095,own_site,https://canadianlabour.ca/the-fall-economic-statement-fails-for-workers/,2026-11-15,none,,"not added: facebook https://www.facebook.com/clc.ctc (chrome,social-block); youtube https://www.youtube.com/user/canadianlabour (chrome,social-block); already listed: x,instagram"
+K00029,A0131,own_site,https://www.sfpq.qc.ca/,2026-11-15,found,facebook;bluesky;linkedin;youtube,
+K00030,A0028,own_site,https://www.ndp.ca/,2026-11-15,found,facebook;x;youtube;instagram,not added: x https://x.com/NDP_HQ (meta)
+K00031,A0316,own_site,https://trpocb.org/,2026-11-15,none,,
+K00032,A0123,own_site,https://iris-recherche.qc.ca/,2026-11-15,found,facebook;instagram;x;linkedin;bluesky;tiktok,
+K00033,A0261,own_site,https://cofaq.qc.ca/,2026-11-15,found,facebook,
+K00034,A0245,own_site,https://www.csd.qc.ca/,2026-11-15,found,facebook;x;youtube,
+K00035,A0036,own_site,https://www.taxfairness.ca/en/about/team,2026-11-15,none,,"not added: x https://x.com/FairTaxCanada (chrome,meta,social-block); facebook https://www.facebook.com/pages/Canadians-for-Tax-Fairness/126696884068046 (chrome,social-block); instagram https://www.instagram.com/canadians4taxfairness/ (chrome,social-block)"
+K00036,A0310,own_site,https://ssvp-mtl.org/,2026-11-15,found,facebook;youtube;linkedin;instagram,
+K00037,A0045,own_site,https://www.policyalternatives.ca/people/david-macdonald/,2026-11-15,found,x;bluesky,"not added: x https://x.com/ccpa (meta); bluesky https://bsky.app/profile/policyalternatives.ca (chrome,social-block); facebook https://www.facebook.com/policyalternatives (chrome,social-block); instagram https://www.instagram.com/policyalternatives/ (chrome,social-block)"
+K00038,A0297,own_site,https://missioninclusion.ca/,2026-11-15,found,x,"not added: linkedin https://www.linkedin.com/in/shirin-emadi-mahabadi-mba-973551156 (social-block); linkedin https://www.linkedin.com/in/vincent-dostie-92a92a3 (social-block); linkedin https://www.linkedin.com/in/pmgcamacho (social-block); linkedin https://www.linkedin.com/in/emiliellaguerre (social-block); li; already listed: facebook,instagram,bluesky"
+K00039,A0307,own_site,https://evechechicoutimi.qc.ca/,2026-11-15,error,,URLError: <urlopen error [Errno 11001] getaddrinfo failed>
+K00040,A0147,own_site,https://bcfed.ca/,2026-11-15,found,facebook;instagram;youtube;bluesky;linkedin,
+K00041,A0107,own_site,https://teamsters.ca/,2026-11-15,blocked,,403 at https://teamsters.ca/ 403 at https://teamsters.ca/blog/2022/09/07/francois-laporte-appoints-mariam-abou-dib-as-new-executive-director/
+K00042,A0033,own_site,https://bcgreens.ca/,2026-11-15,found,instagram;tiktok;youtube;bluesky,"already listed: facebook,x"
+K00043,A0025,own_site,https://www.heathermcpherson.ca,2026-11-15,none,,"URLError: <urlopen error [WinError 10060] A connection attempt failed because the connecte; not added: instagram https://www.instagram.com/ourcommonsca/ (chrome,social-block)"
+K00044,A0327,own_site,https://dimitrilascaris.org/,2026-11-15,found,facebook;instagram,not added: youtube https://www.youtube.com/channel/UCcLnmCiZ691HyvB6UvZq69A (social-block); already listed: x
+K00045,A0152,own_site,https://naomihunter.ca/,2026-11-15,found,tiktok,"already listed: facebook,instagram,x"
+K00046,A0289,own_site,https://fondationrivieres.org/,2026-11-15,found,facebook;x;instagram;tiktok;youtube;linkedin,
+K00047,A0270,own_site,https://www.csn.qc.ca/conseils-centraux/coeur-du-quebec/,2026-11-15,found,facebook,404 at https://www.csn.qc.ca/conseils-centraux/coeur-du-quebec/
+K00048,A0298,own_site,https://diocesejoliette.org/,2026-11-15,error,,URLError: <urlopen error [Errno 11001] getaddrinfo failed>
+K00049,A0277,own_site,https://feesp.csn.qc.ca/,2026-11-15,none,,"not added: facebook https://www.facebook.com/feespcsn (chrome,social-block)"
+K00050,A0140,own_site,https://aptsq.com/,2026-11-15,none,,"not added: facebook https://www.facebook.com/syndicatAPTS (chrome,social-block); instagram https://www.instagram.com/syndicat_apts/ (chrome,social-block); youtube https://www.youtube.com/channel/UC1srtPhluOjUv_ohjlMhM0g (chrome,social-block); linkedin https://www.linkedin.com/company/syndicatapts (chrome,socia"
+K00051,A0030,own_site,https://quebecsolidaire.net/,2026-11-15,none,,"not added: youtube https://www.youtube.com/user/QuebecSolidaire (chrome,social-block); already listed: instagram,facebook,tiktok,bluesky"
+K00052,A0311,own_site,https://ssvp.ca/,2026-11-15,none,,"removed on spot check (the site is the national SSVP's; this is the Trois-Rivières conference): facebook https://www.facebook.com/SSVPCanada, linkedin https://www.linkedin.com/company/ssvp-national-council, youtube https://www.youtube.com/@ssvpnational-canada5440"
+K00053,A0251,own_site,https://interjeunes.org/,2026-11-15,found,facebook;x;instagram,
+K00054,A0236,own_site,https://sencanada.ca/en/senators/galvez-rosa/,2026-11-15,none,,
+K00055,A0146,own_site,https://gpo.ca/,2026-11-15,blocked,,403 at https://gpo.ca/ 403 at https://gpo.ca
+K00056,A0240,own_site,https://www.umoncton.ca/umcs/deneault_alain,2026-11-15,none,,404 at https://www.umoncton.ca/umcs/deneault_alain; not added: youtube https://www.youtube.com/c/LeM%C3%A9diaOfficiel (); youtube https://www.youtube.com/channel/UCXw6Md8HlVhqTkrUL0MW9zw (social-block); facebook https://www.facebook.com/sanb.ca (); facebook https://www.facebook.com/cr2nb (); facebook https://www.facebook.com/lamaisondelacultureinc (); facebook
+K00057,A0120,own_site,https://labourcouncil.ca/,2026-11-15,found,facebook;x;instagram;youtube,

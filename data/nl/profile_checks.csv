@@ -3,3 +3,11 @@ K00001,A0175,own_site,https://zutphen.sp.nl/,2026-11-15,none,,not added: faceboo
 K00002,A0020,own_site,https://d66.nl,2026-11-15,found,bluesky;facebook;instagram;tiktok;x;youtube,
 K00003,A0217,own_site,https://decideforimpact.com/,2026-11-15,found,linkedin;mastodon,not added: youtube https://www.youtube.com/channel/UC_Zs0qVlVaeH2GMUQZRtJSA ()
 K00004,A0025,own_site,https://www.christenunie.nl,2026-11-15,found,facebook;linkedin;x,already listed: instagram
+K00005,A0156,own_site,https://www.europarl.europa.eu/meps/en/125023/ANJA_HAZEKAMP/history/9,2026-11-15,blocked,,403 at https://www.europarl.europa.eu/meps/en/125023/ANJA_HAZEKAMP/history/9
+K00006,A0160,own_site,https://www.europarl.europa.eu/meps/en/218347/THIJS_REUTEN/history/9,2026-11-15,blocked,,403 at https://www.europarl.europa.eu/meps/en/218347/THIJS_REUTEN/history/9
+K00007,A0026,own_site,https://www.oxfamnovib.nl,2026-11-15,found,linkedin,"not added: youtube https://www.youtube.com/user/oxfamnovib (chrome); already listed: facebook,instagram,tiktok,bluesky"
+K00008,A0123,own_site,https://dwars.org/,2026-11-15,found,instagram;bluesky,
+K00009,A0028,own_site,https://gabriel-zucman.eu/,2026-11-15,none,,
+K00010,A0195,own_site,https://www.clubofrome.org/member/van-goor-linda/,2026-11-15,none,,"not added: linkedin https://www.linkedin.com/company/clubofrome (chrome,social-block); bluesky https://bsky.app/profile/clubofrome.org (chrome,social-block); facebook https://www.facebook.com/clubofrome (chrome,social-block); youtube https://www.youtube.com/c/ClubofRome (chrome,social-block); x https://x.com/C"
+K00011,A0163,own_site,https://www.eerstekamer.nl/persoon/dr_m_l_vos_pro,2026-11-15,none,,"not added: x https://x.com/eerstekamer (chrome,meta,social-block); instagram https://www.instagram.com/eerstekamer/ (chrome,social-block); linkedin https://www.linkedin.com/company/eerste-kamer-der-staten-generaal ()"
+K00012,A0157,own_site,https://www.europarl.europa.eu/meps/en/197772/TINEKE_STRIK/history/9,2026-11-15,blocked,,403 at https://www.europarl.europa.eu/meps/en/197772/TINEKE_STRIK/history/9

@@ -3,3 +3,9 @@ K00001,A0067,own_site,https://solidaritasperempuan.org,2026-11-15,found,instagra
 K00002,A0066,own_site,https://walhi.or.id,2026-11-15,blocked,,403 at https://walhi.or.id
 K00003,A0007,own_site,https://celios.co.id,2026-11-15,none,,"not added: instagram https://www.instagram.com/celios_id/ (chrome,social-block)"
 K00004,A0055,own_site,https://botax.id,2026-11-15,none,,
+K00005,A0018,own_site,https://theprakarsa.org,2026-11-15,found,instagram;facebook;x;youtube,
+K00006,A0065,own_site,https://ylbhi.or.id,2026-11-15,found,instagram;youtube,"not added: instagram https://www.instagram.com/lbhsamarinda_/ (chrome,social-block); x https://x.com/ylbhi (chrome,meta,social-block); youtube https://www.youtube.com/user/YLBHI (chrome,social-block); facebook https://www.facebook.com/profile.php?id=100009907983457 (chrome,social-block)"
+K00007,A0020,own_site,https://pwypindonesia.org,2026-11-15,found,facebook;x;instagram;linkedin;youtube,
+K00008,A0069,own_site,https://kontras.org,2026-11-15,found,instagram;youtube;linkedin,already listed: x
+K00009,A0024,own_site,https://ti.or.id,2026-11-15,none,,not added: facebook https://www.facebook.com/TIIndonesia (social-block); x https://x.com/TIIndonesia (social-block); youtube https://www.youtube.com/@TIIndonesia17 (social-block); instagram https://www.instagram.com/tiindonesia/ (social-block)
+K00010,A0035,own_site,https://theprakarsa.org,2026-11-15,none,,"not added: instagram https://www.instagram.com/theprakarsa/ (chrome,social-block); facebook https://www.facebook.com/theprakarsa (chrome,social-block); x https://x.com/theprakarsa (chrome,social-block); youtube https://www.youtube.com/c/theprakarsa (chrome,social-block)"

@@ -1,3 +1,6 @@
 check_id,actor_id,method,url,checked,result,found,note
 K00001,A0039,own_site,https://alexwhite.org,2026-11-15,none,,"already listed: linkedin,bluesky"
 K00002,A0001,own_site,https://greens.org.au,2026-11-15,found,youtube,"already listed: facebook,x,instagram,bluesky"
+K00003,A0056,own_site,https://www.amwu.org.au,2026-11-15,none,,not added: x https://x.com/theamwu (social-block); facebook https://www.facebook.com/TheAMWU (social-block); youtube https://www.youtube.com/user/AMWUTV (social-block)
+K00004,A0009,own_site,https://www.greenleft.org.au/author/peter-boyle,2026-11-15,none,,not added: facebook https://www.facebook.com/profile.php?id=61563834293752 (social-block); tiktok https://www.tiktok.com/@greenleftonline (social-block); instagram https://www.instagram.com/greenleftonline/ (social-block); bluesky https://bsky.app/profile/greenleftonline.bsky.social (social-block); x https://x
+K00005,A0049,own_site,https://www.sarahhansonyoung.com,2026-11-15,none,,
