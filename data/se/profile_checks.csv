@@ -5,3 +5,9 @@ K00003,A0095,own_site,https://piketty.pse.ens.fr/,2026-11-15,error,,URLError: <u
 K00004,A0096,own_site,https://partietvandpunkt.se,2026-11-15,error,,466 at https://partietvandpunkt.se
 K00005,A0055,own_site,https://arenaide.se,2026-11-15,found,facebook;bluesky;instagram;x,not added: youtube https://www.youtube.com/user/DagensArena ()
 K00006,A0062,own_site,https://feministerna.se,2026-11-15,found,facebook,"not added: instagram https://www.instagram.com/feministerna/ (chrome,social-block); instagram https://www.instagram.com/enadrost/ (chrome,social-block); instagram https://www.instagram.com/figotland/ (); instagram https://www.instagram.com/finorrbotten/ (); instagram https://www.instagram.com/firegionstockholm"
+K00007,A0068,own_site,https://tankesmedjantiden.se,2026-11-15,found,facebook,
+K00008,A0034,own_site,https://gabriel-zucman.eu/,2026-11-15,none,,
+K00009,A0136,own_site,https://solidariteten.se/,2026-11-15,found,facebook;instagram,not added: instagram https://www.instagram.com/bjornalling1/ (); instagram https://www.instagram.com/gomezynthia/ ()
+K00010,A0016,own_site,https://storstockholm.vansterpartiet.se/personer/nooshi-dadgostar/,2026-11-15,error,,404 at https://storstockholm.vansterpartiet.se/personer/nooshi-dadgostar/
+K00011,A0001,own_site,https://www.vansterpartiet.se,2026-11-15,found,tiktok,"already listed: facebook,instagram,x"
+K00012,A0003,own_site,https://oxfam.se,2026-11-15,found,instagram;bluesky;facebook;tiktok,

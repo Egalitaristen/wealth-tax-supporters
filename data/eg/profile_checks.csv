@@ -1,0 +1,3 @@
+check_id,actor_id,method,url,checked,result,found,note
+K00001,A0002,own_site,https://www.oxfam.org,2026-11-15,none,,"not added: facebook https://www.facebook.com/Oxfam (chrome,social-block); x https://x.com/oxfam (chrome,social-block); youtube https://www.youtube.com/user/oxfaminternational (chrome,social-block); already listed: instagram"
+K00002,A0009,own_site,https://piketty.pse.ens.fr,2026-11-15,error,,URLError: <urlopen error [WinError 10061] No connection could be made because the target m

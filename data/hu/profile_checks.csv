@@ -2,3 +2,4 @@ check_id,actor_id,method,url,checked,result,found,note
 K00001,A0023,own_site,https://mihazank.hu/,2026-11-15,found,facebook;x;instagram;youtube;tiktok,not added: youtube https://www.youtube.com/channel/UCECE6HyBx-bRVWc6J1riw_Q (social-block)
 K00002,A0009,own_site,https://www.jamborandras.hu/,2026-11-15,found,instagram;tiktok;substack,not added: youtube https://www.youtube.com/@jambor.andras.kepviselo (chrome); already listed: facebook
 K00003,A0029,own_site,https://dkp.hu/,2026-11-15,found,youtube;facebook,
+K00004,A0006,own_site,https://www.tordaibence.hu/,2026-11-15,found,instagram;tiktok;youtube,already listed: facebook

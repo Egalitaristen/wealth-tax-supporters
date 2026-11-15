@@ -2,3 +2,5 @@ check_id,actor_id,method,url,checked,result,found,note
 K00001,A0012,own_site,https://finance.gov.pk,2026-11-15,none,,not added: x https://x.com/Financegovpk (); facebook https://www.facebook.com/FinanceMinistryPK ()
 K00002,A0018,own_site,https://pakistan.oxfam.org,2026-11-15,error,,URLError: <urlopen error [Errno 11001] getaddrinfo failed>
 K00003,A0005,own_site,https://ictd.ac/people/max-gallien/,2026-11-15,found,linkedin,"not added: facebook https://www.facebook.com/ICTDTax (chrome,social-block); linkedin https://www.linkedin.com/company/ictdtax (chrome,social-block); bluesky https://bsky.app/profile/ictdtax.bsky.social (chrome,social-block); youtube https://www.youtube.com/@ICTDTax (chrome,social-block)"
+K00004,A0019,own_site,https://jamaat.org,2026-11-15,found,instagram;tiktok;youtube,not added: facebook https://www.facebook.com/JIPOfficial1 (chrome); already listed: x
+K00005,A0016,own_site,https://mqmpakistan.org,2026-11-15,error,,URLError: <urlopen error [WinError 10061] No connection could be made because the target m

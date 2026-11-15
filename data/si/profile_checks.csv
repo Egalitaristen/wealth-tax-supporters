@@ -1,2 +1,4 @@
 check_id,actor_id,method,url,checked,result,found,note
 K00001,A0011,own_site,https://www.fiabci.si/,2026-11-15,found,facebook;x,
+K00002,A0007,own_site,https://piratskastranka.si/,2026-11-15,found,facebook;x;mastodon,
+K00003,A0010,own_site,https://www.levica.si/,2026-11-15,none,,

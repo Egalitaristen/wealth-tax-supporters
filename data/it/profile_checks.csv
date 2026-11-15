@@ -8,3 +8,9 @@ K00006,A0196,own_site,https://www.camera.it/deputati/elenco/19-308816,2026-11-15
 K00007,A0155,own_site,https://www.matteoorfini.it/,2026-11-15,found,x;instagram;facebook,"not added: x https://x.com/montecitorio (chrome,social-block); instagram https://www.instagram.com/montecitorio/ (chrome,social-block); facebook https://www.facebook.com/Cameradeideputati (chrome,social-block); youtube https://www.youtube.com/channel/UCAF-a8BM3XphZgUAahyHF7g (chrome,social-block); linkedin htt"
 K00008,A0186,own_site,https://www.camera.it/deputati/elenco/19-307381,2026-11-15,error,,404 at https://www.camera.it/deputati/elenco/19-307381
 K00009,A0172,own_site,https://www.cgil.it/,2026-11-15,none,,"not added: x https://x.com/Cgilnazionale (chrome,social-block); facebook https://www.facebook.com/CGILsindacato (chrome,social-block); instagram https://www.instagram.com/cgilnazionale/ (chrome,social-block); youtube https://www.youtube.com/user/RassegnaOnline (chrome,social-block)"
+K00010,A0002,own_site,https://www.sinistraitaliana.si/,2026-11-15,none,,
+K00011,A0157,own_site,https://andreacolletti.it,2026-11-15,found,linkedin,"not added: x https://x.com/AndCol81 (chrome,social-block)"
+K00012,A0275,own_site,https://www.pierluigibersani.it,2026-11-15,error,,"URLError: <urlopen error (""The certificate's CN name does not match the passed value."",)>"
+K00013,A0004,own_site,https://www.rifondazione.it/,2026-11-15,none,,
+K00014,A0284,own_site,https://altreconomia.it/,2026-11-15,found,facebook;instagram;linkedin;tiktok;x;youtube,
+K00015,A0298,own_site,https://www.possibile.com/,2026-11-15,none,,"not added: facebook https://www.facebook.com/FrancescaDruetti (social-block); instagram https://www.instagram.com/fra0283/ (social-block); x https://x.com/fra0283 (social-block); already listed: facebook,instagram,x,youtube"
