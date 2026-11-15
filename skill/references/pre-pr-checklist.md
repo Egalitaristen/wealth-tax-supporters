@@ -52,6 +52,9 @@ A party platform, coalition statement or roster is evidence about that body only
 - Every politician has a `positions.csv` row (body, party, seat, start).
 - `current=y` only for people found on the body's own official list, with the date in `checked`.
 - Seat counts come from the body's official list, never from memory.
+- **Run the seat refresh whenever your run added or changed a politician**, in any country that has an adapter (`ADAPTERS` in `skill/scripts/seats.py`; the UK and US use `seats_uk.py` and `seats_us.py`):
+  `python skill/scripts/seats.py data/<iso2> --fix-status`. It lights the seats of new supporters who sit today, ends the seats of those who left, and prints every role, party or status that disagrees with the official list. Read that list and fix each line, then say in the PR how many seats are newly lit. A run that adds politicians and skips the refresh leaves the Seats tab behind: in November 2026 this missed 13 lit seats in five countries. If the adapter cannot read its source, say so in the PR and link the seats issue; do not hand-write `current=y`.
+- A politician who retired is not a missed seat: record the position with `current=n` and an `end` date, set the role to the former office and the status to `former_role`. Peers are listed by title ("Baroness Bryan of Partick"), not by the name the register uses.
 
 ## 9. Leads, queries and near-misses (6.3a)
 
@@ -85,3 +88,13 @@ Read what `review_scan.py` lists and fix or remove the rows. Besides the evidenc
 ## 12. The pull request
 
 Describe, from the files and not from memory: new supporters and evidence by type and level and grade; what was left out and why; what was checked by script and what by hand; the open leads; the languages searched; the map licence if there is a map; and the plan for the next run.
+
+## 12. Resources: bills, reports, papers and polls
+
+Documents you read are not on the site until they have an entry in `data/resources.json`; in November 2026, 38 of 99 registers (373 supporters, among them Greece, Algeria, Portugal and Malaysia) had no resource page at all, and 32 of the 72 bills the runs had read had none either.
+
+- Run `python skill/scripts/resource_gaps.py data/<slug>` and read what it lists for your country.
+- Every bill, motion or law that a row of yours cites (a sponsor, a vote, a speech on it) gets a resource page, unless it is opposition to a wealth tax (SKILL.md, rule 10). Read the document itself first; state a bill's status only as far as you have seen it.
+- Add the one or two best reports or papers on the country's wealth tax (the official inquiry, a think-tank costing, an academic paper) with a one-sentence `summary`.
+- Add every poll you find to `meta.json` `polls`; note in the PR when a country has none.
+- In the PR description give the numbers: resource pages added, documents still unlisted, polls found.
