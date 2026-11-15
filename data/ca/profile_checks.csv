@@ -86,3 +86,27 @@ K00084,A0122,own_site,https://www.lacsq.org/,2026-11-15,found,facebook;x;tiktok,
 K00085,A0228,own_site,https://www.taxfairness.ca/sites/default/files/pdf/dennis_howlett_short_bio.pdf,2026-11-15,none,,
 K00086,A0132,own_site,https://www.frapru.qc.ca/,2026-11-15,found,facebook;instagram;x;youtube,
 K00087,A0312,own_site,https://scfp.qc.ca/,2026-11-15,found,facebook;instagram;bluesky;youtube,
+K00088,A0201,own_site,https://nathanielerskinesmith.liberal.ca/,2026-11-15,none,,"not added: facebook https://www.facebook.com/MarkJCarney2025 (chrome,social-block); facebook https://www.facebook.com/LiberalCA (chrome,social-block); x https://x.com/markjcarney (chrome,social-block); x https://x.com/liberal_party (chrome,meta,social-block); bluesky https://bsky.app/profile/mark-carney.bsky.s"
+K00089,A0145,own_site,https://www.voteclancy.ca/,2026-11-15,none,,"already listed: x,facebook,instagram"
+K00090,A0286,own_site,https://fillesdejesus.org/,2026-11-15,error,,406 at https://fillesdejesus.org/
+K00091,A0235,own_site,https://sencanada.ca/en/senators/pate-kim/,2026-11-15,none,,
+K00092,A0268,own_site,https://www.csn.qc.ca/conseils-centraux/saguenay-lac-saint-jean/,2026-11-15,none,,404 at https://www.csn.qc.ca/conseils-centraux/saguenay-lac-saint-jean/
+K00093,A0290,own_site,https://fcpasq.qc.ca/,2026-11-15,found,facebook,already listed: instagram
+K00094,A0114,own_site,https://durhamlabour.ca/,2026-11-15,found,facebook;x,
+K00095,A0291,own_site,https://transitionenergetique.org/,2026-11-15,found,instagram;facebook;linkedin;bluesky;youtube,
+K00096,A0258,own_site,https://www.smelaval.org/,2026-11-15,found,facebook;instagram,
+K00097,A0001,own_site,https://charlieangus.ca,2026-11-15,found,substack;tiktok,"not added: youtube https://www.youtube.com/@MeidasCanada (); youtube https://www.youtube.com/user/charlieangus (chrome,social-block); facebook https://www.facebook.com/charlieangus.the.resistance (chrome,social-block); instagram https://www.instagram.com/charlieangus.the.resistance/ (chrome,social-block); already listed: bluesky"
+K00098,A0260,own_site,https://cophan.org/,2026-11-15,blocked,,403 at https://cophan.org/
+K00099,A0106,own_site,https://lorimer.ca/adults/product/share-the-wealth/,2026-11-15,none,,
+K00100,A0256,own_site,https://www.cahiersdusocialisme.org/,2026-11-15,found,facebook;x;youtube,
+K00101,A0293,own_site,https://lautreparole.org/,2026-11-15,none,,
+K00102,A0043,own_site,https://www.oxfam.ca/story/rising-up-against-wealth-inequality-in-canada/,2026-11-15,found,instagram;facebook;bluesky,"not added: youtube https://www.youtube.com/channel/UC5haUXnhspdLhaBdhfI6VOg (chrome,social-block); x https://x.com/1 (meta)"
+K00103,A0032,own_site,https://www.assnat.qc.ca/fr/deputes/zaga-mendez-alejandra-19263/biographie.html,2026-11-15,none,,
+K00104,A0284,own_site,https://fecq.org/,2026-11-15,blocked,,robots.txt forbids https://www.fecq.org/
+K00105,A0102,own_site,https://canadians.org/,2026-11-15,found,bluesky,"not added: youtube https://www.youtube.com/user/CouncilofCanadians (chrome,rel-me,social-block); already listed: instagram,facebook,x"
+K00106,A0042,own_site,https://www.taxfairness.ca/en/about/people/john-anderson,2026-11-15,none,,"not added: x https://x.com/FairTaxCanada (chrome,meta,social-block); facebook https://www.facebook.com/pages/Canadians-for-Tax-Fairness/126696884068046 (chrome,social-block); instagram https://www.instagram.com/canadians4taxfairness/ (chrome,social-block)"
+K00107,A0242,own_site,https://areq.lacsq.org/,2026-11-15,none,,
+K00108,A0246,own_site,https://cirquehorspiste.com/,2026-11-15,found,facebook;bluesky;instagram;youtube;linkedin,
+K00109,A0116,own_site,https://northbaylabour.ca/,2026-11-15,found,facebook,
+K00110,A0283,own_site,https://fpses.lacsq.org/,2026-11-15,none,,"not added: facebook https://www.facebook.com/fpsescsq (chrome,social-block); x https://x.com/csq_centrale (chrome,social-block); youtube https://www.youtube.com/@fpses-csq7191 (chrome,social-block); instagram https://www.instagram.com/lacsq/ (chrome,social-block)"
+K00111,A0273,own_site,https://www.lafae.qc.ca/,2026-11-15,found,x,

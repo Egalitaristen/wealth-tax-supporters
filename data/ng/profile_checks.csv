@@ -2,3 +2,5 @@ check_id,actor_id,method,url,checked,result,found,note
 K00001,A0026,own_site,https://www.oxfamnovib.nl,2026-11-15,found,facebook;instagram;linkedin;tiktok;bluesky;youtube,
 K00002,A0028,own_site,https://ips-dc.org,2026-11-15,found,facebook;x,not added: bluesky https://bsky.app/profile/ips-dc.org (); instagram https://www.instagram.com/ips_dc/ ()
 K00003,A0001,own_site,https://nigeria.oxfam.org,2026-11-15,found,facebook;x;linkedin;instagram,"not added: youtube https://www.youtube.com/channel/UCyVU0bhOiUyC7P9PzwyEb2Q (chrome,social-block)"
+K00004,A0016,own_site,https://taxjusticeafrica.net,2026-11-15,found,facebook;x;youtube;linkedin,
+K00005,A0002,own_site,https://cislac.org,2026-11-15,error,,406 at https://cislac.org

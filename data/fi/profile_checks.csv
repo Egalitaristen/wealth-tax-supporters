@@ -49,3 +49,13 @@ K00047,A0007,own_site,https://www.eduskunta.fi/FI/kansanedustajat/Sivut/1119.asp
 K00048,A0018,own_site,https://www.eduskunta.fi/FI/kansanedustajat/Sivut/1146.aspx,2026-11-15,error,,404 at https://www.eduskunta.fi/FI/kansanedustajat/Sivut/1146.aspx
 K00049,A0087,own_site,https://patomaki.fi/,2026-11-15,found,facebook,
 K00050,A0042,own_site,https://www.eduskunta.fi/FI/kansanedustajat/Sivut/1315.aspx,2026-11-15,error,,404 at https://www.eduskunta.fi/FI/kansanedustajat/Sivut/1315.aspx
+K00051,A0080,own_site,https://www.eduskunta.fi/kansanedustajat-ja-toimielimet/kansanedustajat/471,2026-11-15,none,,
+K00052,A0039,own_site,https://www.eduskunta.fi/FI/kansanedustajat/Sivut/1399.aspx,2026-11-15,error,,404 at https://www.eduskunta.fi/FI/kansanedustajat/Sivut/1399.aspx
+K00053,A0045,own_site,https://www.eduskunta.fi/FI/kansanedustajat/Sivut/1097.aspx,2026-11-15,none,,"404 at https://www.eduskunta.fi/FI/kansanedustajat/Sivut/1097.aspx; not added: facebook https://www.facebook.com/18667207212 (); already listed: x,facebook,instagram"
+K00054,A0033,own_site,https://www.eduskunta.fi/FI/kansanedustajat/Sivut/1116.aspx,2026-11-15,error,,404 at https://www.eduskunta.fi/FI/kansanedustajat/Sivut/1116.aspx
+K00055,A0002,own_site,https://www.eduskunta.fi/FI/kansanedustajat/Sivut/1093.aspx,2026-11-15,error,,404 at https://www.eduskunta.fi/FI/kansanedustajat/Sivut/1093.aspx
+K00056,A0026,own_site,https://www.eduskunta.fi/FI/kansanedustajat/Sivut/856.aspx,2026-11-15,error,,"404 at https://www.eduskunta.fi/FI/kansanedustajat/Sivut/856.aspx URLError: <urlopen error (""The certificate's CN name does not match the passed value."",)>"
+K00057,A0064,own_site,https://www.vihreat.fi/vihreiden-puolueohjelma-2027-2031/,2026-11-15,none,,"not added: facebook https://www.facebook.com/vihreat (chrome,social-block); instagram https://www.instagram.com/vihreat/ (chrome,social-block)"
+K00058,A0051,own_site,https://www.sak.fi/blogit/varallisuuserojen-kimppuun-verolla-sak-esittaa-yleista-varallisuusveroa/,2026-11-15,none,,"not added: x https://x.com/duunarit (chrome,social-block); facebook https://www.facebook.com/SAKSuomenAmmattiliittojenKeskusjarjesto (chrome,social-block); instagram https://www.instagram.com/sakliitot/ (chrome,social-block); linkedin https://www.linkedin.com/company/sak (chrome,social-block); tiktok https://w"
+K00059,A0085,own_site,https://www.europarl.europa.eu/meps/en/124735,2026-11-15,blocked,,403 at https://www.europarl.europa.eu/meps/en/124735
+K00060,A0040,own_site,https://www.eduskunta.fi/FI/kansanedustajat/Sivut/1383.aspx,2026-11-15,found,facebook,"404 at https://www.eduskunta.fi/FI/kansanedustajat/Sivut/1383.aspx; already listed: instagram,x"

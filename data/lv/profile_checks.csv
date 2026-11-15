@@ -1,2 +1,3 @@
 check_id,actor_id,method,url,checked,result,found,note
 K00001,A0005,own_site,https://www.fm.gov.lv/lv/fm-budzeta-politikas-attistibas-departamenta-direktors-karlis-ketners,2026-11-15,none,,"not added: x https://x.com/Finmin (chrome,social-block); facebook https://www.facebook.com/pages/Finan%C5%A1u-ministrija/524714174238878 (chrome,social-block); youtube https://www.youtube.com/user/LRfinmin (chrome,social-block); instagram https://www.instagram.com/finansuministrija/ (chrome,social-block); link"
+K00002,A0006,own_site,https://research.lu.lv/en/persons/t%C4%81lis-tisenkopfs/,2026-11-15,none,,

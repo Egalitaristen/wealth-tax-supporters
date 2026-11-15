@@ -6,3 +6,6 @@ K00004,A0006,own_site,https://cpim.org,2026-11-15,found,youtube,"not added: inst
 K00005,A0037,own_site,https://aituc.net/,2026-11-15,none,,
 K00006,A0050,own_site,https://forwardbloc.org/,2026-11-15,none,,
 K00007,A0011,own_site,https://www.cenfa.org,2026-11-15,none,,
+K00008,A0001,own_site,https://wid.world,2026-11-15,found,facebook;bluesky;linkedin;youtube;x,not added: bluesky https://bsky.app/profile/marie-andreescu.bsky.social (social-block); bluesky https://bsky.app/profile/nitin-k-bharti.bsky.social (social-block); bluesky https://bsky.app/profile/pbothe.bsky.social (social-block); bluesky https://bsky.app/profile/lucaschancel.bsky.social (social-block); blues
+K00009,A0039,own_site,https://citucentre.org,2026-11-15,none,,
+K00010,A0038,own_site,https://www.hindmazdoorsabha.com/,2026-11-15,error,,URLError: <urlopen error [Errno 11001] getaddrinfo failed>

@@ -14,3 +14,13 @@ K00012,A0275,own_site,https://www.pierluigibersani.it,2026-11-15,error,,"URLErro
 K00013,A0004,own_site,https://www.rifondazione.it/,2026-11-15,none,,
 K00014,A0284,own_site,https://altreconomia.it/,2026-11-15,found,facebook;instagram;linkedin;tiktok;x;youtube,
 K00015,A0298,own_site,https://www.possibile.com/,2026-11-15,none,,"not added: facebook https://www.facebook.com/FrancescaDruetti (social-block); instagram https://www.instagram.com/fra0283/ (social-block); x https://x.com/fra0283 (social-block); already listed: facebook,instagram,x,youtube"
+K00016,A0290,own_site,https://www.gruppoabele.org/,2026-11-15,found,facebook;youtube;instagram;linkedin,
+K00017,A0051,own_site,https://web.uniroma1.it/trasparenza/sites/default/files/cv/CV_ita_Aprea.pdf,2026-11-15,none,,
+K00018,A0006,own_site,https://unpercentoequo.it/,2026-11-15,none,,
+K00019,A0198,own_site,https://www.emilianobrancaccio.it,2026-11-15,found,x,
+K00020,A0170,own_site,https://www.landtag-bz.org/it/deputati/repetto-sandro.asp,2026-11-15,none,,
+K00021,A0205,own_site,https://www.claramattei.com,2026-11-15,none,,not added: youtube https://www.youtube.com/@freefreeforum (); youtube https://www.youtube.com/c/IndiaGlobalLeft (); substack https://adamtooze.substack.com ()
+K00022,A0292,own_site,https://www.associazioneantigone.it,2026-11-15,found,facebook;x;youtube;instagram;tiktok;linkedin,
+K00023,A0151,own_site,https://www.sinistraitaliana.si/,2026-11-15,none,,"not added: linkedin https://www.linkedin.com/company/camera-dei-deputati (chrome,social-block); x https://x.com/montecitorio (chrome,social-block); facebook https://www.facebook.com/Cameradeideputati (chrome,social-block); instagram https://www.instagram.com/montecitorio/ (chrome,social-block)"
+K00024,A0289,own_site,https://www.manitese.it,2026-11-15,found,facebook;youtube;linkedin;instagram,
+K00025,A0163,own_site,https://www.ilfattoquotidiano.it/autori/ffornario/,2026-11-15,found,facebook,"not added: facebook https://www.facebook.com/ilFattoQuotidiano (chrome,social-block); instagram https://www.instagram.com/ilfattoquotidianoit/ (chrome,social-block); x https://x.com/fattoquotidiano (chrome,meta,social-block)"

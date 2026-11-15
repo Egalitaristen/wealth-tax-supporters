@@ -4,3 +4,5 @@ K00002,A0016,own_site,https://www.kosmos.gr/,2026-11-15,none,,
 K00003,A0014,own_site,https://www.papadimoulis.gr,2026-11-15,none,,"already listed: x,facebook"
 K00004,A0001,own_site,https://intsipras.gr,2026-11-15,found,tiktok,"not added: facebook https://www.facebook.com/profile.php?id=61560793959755 (chrome,social-block); instagram https://www.instagram.com/in_at.gr/ (chrome,social-block); x https://x.com/ATsiprasInst (chrome,social-block); x https://x.com/atsipras (chrome,social-block); youtube https://www.youtube.com/@AlexisTsipr; already listed: facebook,instagram"
 K00005,A0037,own_site,https://www.chrysogelos.gr/,2026-11-15,error,,URLError: <urlopen error [Errno 11002] getaddrinfo failed>
+K00006,A0030,own_site,https://www.yanisvaroufakis.eu,2026-11-15,none,,"already listed: x,facebook,instagram,tiktok"
+K00007,A0024,own_site,https://androulakisnikos.gr,2026-11-15,blocked,,403 at https://androulakisnikos.gr

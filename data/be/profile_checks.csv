@@ -14,3 +14,10 @@ K00012,A0082,own_site,https://gent.pvda.be,2026-11-15,none,,not added: facebook 
 K00013,A0069,own_site,https://lirias.kuleuven.be,2026-11-15,blocked,,403 at https://lirias.kuleuven.be
 K00014,A0066,own_site,https://www.financite.be,2026-11-15,found,facebook;instagram;bluesky,
 K00015,A0109,own_site,https://www.iev.be,2026-11-15,none,,
+K00016,A0005,own_site,https://www.ps.be,2026-11-15,found,facebook;instagram;x;youtube;tiktok,not added: youtube https://www.youtube.com/@psbelgique (social-block); bluesky https://bsky.app/profile/psbelgique.bsky.social (social-block)
+K00017,A0103,own_site,https://west-vlaanderen.pvda.be,2026-11-15,found,instagram;tiktok,not added: facebook https://www.facebook.com/pvdawvl (social-block)
+K00018,A0100,own_site,https://biblio.ugent.be/person/802003884399,2026-11-15,error,,404 at https://biblio.ugent.be/person/802003884399
+K00019,A0003,own_site,https://www.raoulhedebouw.be,2026-11-15,error,,URLError: <urlopen error [WinError 10061] No connection could be made because the target m
+K00020,A0071,own_site,https://www.ps.be,2026-11-15,none,,not added: facebook https://www.facebook.com/psofficiel (social-block); instagram https://www.instagram.com/psbelgique/ (social-block); x https://x.com/PSofficiel (social-block); youtube https://www.youtube.com/channel/UCXAqUQuiOz9ak1tVrCVJ9DQ (social-block); youtube https://www.youtube.com/@psbelgique (social
+K00021,A0062,own_site,https://sint-niklaas.pvda.be,2026-11-15,none,,not added: facebook https://www.facebook.com/pvda.sintniklaas (social-block)
+K00022,A0001,own_site,https://www.pvda.be,2026-11-15,found,tiktok;instagram;facebook;x,

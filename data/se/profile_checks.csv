@@ -11,3 +11,7 @@ K00009,A0136,own_site,https://solidariteten.se/,2026-11-15,found,facebook;instag
 K00010,A0016,own_site,https://storstockholm.vansterpartiet.se/personer/nooshi-dadgostar/,2026-11-15,error,,404 at https://storstockholm.vansterpartiet.se/personer/nooshi-dadgostar/
 K00011,A0001,own_site,https://www.vansterpartiet.se,2026-11-15,found,tiktok,"already listed: facebook,instagram,x"
 K00012,A0003,own_site,https://oxfam.se,2026-11-15,found,instagram;bluesky;facebook;tiktok,
+K00013,A0061,own_site,https://gronungdom.se,2026-11-15,blocked,,403 at https://gronungdom.se
+K00014,A0059,own_site,https://www.lo.se,2026-11-15,none,,
+K00015,A0013,own_site,https://www.vansterpartiet.se/kontakta/birger-lahti/,2026-11-15,error,,404 at https://www.vansterpartiet.se/kontakta/birger-lahti/
+K00016,A0009,own_site,https://www.vansterpartiet.se/kontakta/mia-sydow-molleby/,2026-11-15,none,,"not added: facebook https://www.facebook.com/vansterpartiet (chrome,social-block); instagram https://www.instagram.com/vansterpartiet/ (chrome,social-block); tiktok https://www.tiktok.com/@vansterpartiet (chrome,social-block); x https://x.com/vansterpartiet (chrome,meta,social-block)"

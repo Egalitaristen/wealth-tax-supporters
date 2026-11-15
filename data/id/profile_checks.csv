@@ -18,3 +18,10 @@ K00016,A0017,own_site,https://theprakarsa.org,2026-11-15,none,,"removed on spot 
 K00017,A0012,own_site,https://celios.co.id,2026-11-15,none,,"not added: instagram https://www.instagram.com/celios_id/ (chrome,social-block)"
 K00018,A0025,own_site,https://ti.or.id,2026-11-15,found,x;youtube,"already listed: facebook,instagram"
 K00019,A0070,own_site,https://hrwg.or.id,2026-11-15,error,,406 at https://hrwg.or.id
+K00020,A0050,own_site,https://ideas.or.id,2026-11-15,none,,
+K00021,A0052,own_site,https://pwypindonesia.org,2026-11-15,none,,"not added: facebook https://www.facebook.com/PublishWhatYouPayIndonesia (chrome,social-block); x https://x.com/PWYP_INDONESIA (chrome,meta,social-block); instagram https://www.instagram.com/pwypindonesia/ (chrome,social-block); linkedin https://www.linkedin.com/company/pwypindonesia (chrome,social-block); yout"
+K00022,A0027,own_site,https://lokataru.id,2026-11-15,none,,
+K00023,A0042,own_site,https://botax.id,2026-11-15,none,,
+K00024,A0068,own_site,https://imparsial.org,2026-11-15,found,x;instagram;youtube,
+K00025,A0031,own_site,https://theprakarsa.org,2026-11-15,none,,"not added: instagram https://www.instagram.com/theprakarsa/ (chrome,social-block); facebook https://www.facebook.com/theprakarsa (chrome,social-block); x https://x.com/theprakarsa (chrome,social-block); youtube https://www.youtube.com/c/theprakarsa (chrome,social-block)"
+K00026,A0048,own_site,https://berdikari.online,2026-11-15,none,,not added: facebook https://www.facebook.com/tagdiv (social-block); x https://x.com/tagdivofficial (social-block)

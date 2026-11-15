@@ -23,3 +23,13 @@ K00021,A0067,own_site,https://www.oxfamintermon.org,2026-11-15,found,linkedin;yo
 K00022,A0070,own_site,https://www.ccoo.es,2026-11-15,found,x;instagram;facebook;bluesky,UnicodeEncodeError: 'ascii' codec can't encode character '\xb7' in position 12: ordinal not in range UnicodeEncodeError: 'ascii' codec can't encode character '\xb7' in position 12: ordinal not in range
 K00023,A0162,own_site,https://carballo.gal/alcalde/,2026-11-15,found,instagram,
 K00024,A0123,own_site,https://catalunyaencomu.cat,2026-11-15,found,instagram;x;youtube;facebook;tiktok,
+K00025,A0068,own_site,https://www.gestha.es,2026-11-15,blocked,,200 at https://www.gestha.es
+K00026,A0204,own_site,https://www.pp.es/estructura/jose-antonio-monago-terraza/,2026-11-15,found,instagram,"not added: youtube https://www.youtube.com/user/partidopopular (chrome,social-block); x https://x.com/ppopular (chrome,social-block); facebook https://www.facebook.com/pp (chrome,social-block); instagram https://www.instagram.com/partidopopular/ (chrome,social-block); linkedin https://www.linkedin.com/company/"
+K00027,A0170,own_site,https://www.senado.es/web/composicionorganizacion/senadores/composicionsenado/fichasenador/index.html?id1=13665&id2=i&legis=9,2026-11-15,blocked,,403 at https://www.senado.es/web/composicionorganizacion/senadores/composicionsenado/fichasenador/index.html?id1=13665&id2=i&legis=9
+K00028,A0077,own_site,https://www.bng.gal,2026-11-15,found,facebook;tiktok;x;bluesky;youtube;instagram,
+K00029,A0090,own_site,https://economistasfrentealacrisis.com,2026-11-15,none,,
+K00030,A0173,own_site,https://www.senado.es/web/conocersenado/biblioteca/dossieresareastematicas/detalle/index.html?id=aut_composicionpar_03,2026-11-15,blocked,,403 at https://www.senado.es/web/conocersenado/biblioteca/dossieresareastematicas/detalle/index.html?id=aut_composicionpar_03
+K00031,A0093,own_site,https://masmadrid.org,2026-11-15,blocked,,403 at https://masmadrid.org
+K00032,A0124,own_site,https://junts.cat,2026-11-15,found,x;instagram;facebook;tiktok;youtube,
+K00033,A0150,own_site,https://parlament.cat/web/composicio/diputats-fitxa/index.html?p_codi=1078&p_legislatura=15,2026-11-15,error,,URLError: <urlopen error [WinError 10060] A connection attempt failed because the connecte
+K00034,A0105,own_site,https://coordinadoraongd.org,2026-11-15,found,x;facebook;instagram;youtube;linkedin;bluesky,not added: facebook https://www.facebook.com/coordinadoradeongd.espana (social-block)
