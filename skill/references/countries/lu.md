@@ -7,4 +7,4 @@
 - chd.lu has a register of motions (`/de/motion_resolution/<id>`), questions and dossiers; deposit documents are often scanned images (read with OCR). Motion pages print vote totals, not member votes.
 - The personal impôt sur la fortune ended with 2006; what remains (companies only) is out of the definition.
 - Party positions in 2023: the Tageblatt comparison (orbilu.uni.lu 10993/57950) and Paperjam's "How the parties feel about tax reform". The KPL programme is a text PDF on kommunisten.lu.
-- `seats.py` has no Luxembourg adapter yet.
+- Seats: `python skill/scripts/seats.py data/lu --fix-status` reads `https://www.chd.lu/en/deputies` (HTML, one section per political group, 60 deputies, with the constituency; a deputy who is a minister is replaced by a substitute who is listed). The adapter stops if it does not find 60.
