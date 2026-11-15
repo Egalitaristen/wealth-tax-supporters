@@ -13,3 +13,7 @@ Seed pass R001 (2026-11-04). The debate is about replacing the flat income tax w
 **Sources:** capital.bg answers 403 to scripts and is not read. europarl.europa.eu answers an empty 202 to scripts; the Wayback copies of the roll-call PDFs read fine and `checkquotes` skips them. Roll-call rows quote the surname as printed in the affirmative list.
 
 **Left out:** BSP progressive income tax bills; Podkrepa's 0.5% tax is graded C because it is aimed at owners of several properties (property-only risk).
+
+## Seats
+
+The Narodno sabranie (240 seats) is charted by `seats.py` (`bg`) from `https://www.parliament.bg/api/v1/coll-list-ns/bg`, which gives the 240 members in office with their parliamentary group, constituency and the date they joined the group (Progressive Bulgaria 131, GERB-SDS 39, DPS 21, Democratic Bulgaria 21, PP 16, Vazrazhdane 12 on 15 November 2026). Names are Cyrillic: the register carries the Bulgarian name in brackets after the Latin one (`Petar Vitanov (Петър Витанов)`).

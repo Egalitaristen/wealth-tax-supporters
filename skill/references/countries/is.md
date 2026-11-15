@@ -8,3 +8,6 @@
 - Heimildin and Kjarninn pages carry soft hyphens; `skill/scripts/wtdb.py` strips Unicode soft hyphens (`\xad`) in `_plain`, enabling automated quote checks without failure.
 - Search terms: auðlegðarskattur (the 2010-2014 tax), eignarskattur (the older one), stóreignaskattur.
 - Supporters on the record: Samfylkingin, Sósíalistaflokkurinn, Vinstrihreyfingin – grænt framboð, ASÍ, BSRB, Efling, Kristrún Frostadóttir, Katrín Jakobsdóttir, Jóhann Páll Jóhannsson, Oddný G. Harðardóttir, Steingrímur J. Sigfússon, Stefán Ólafsson, Indriði H. Þorláksson, Gunnar Smári Egilsson, Sanna Magdalena Mörtudóttir, Vilhjálmur Þorsteinsson, Sonja Ýr Þorbergsdóttir, Drífa Snædal. Social Democratic Alliance holds 15 seats in Alþingi with sitting MPs.
+
+## Seats
+`python skill/scripts/seats.py data/is --fix-status` reads the Althing's open XML (`https://www.althingi.is/altext/xml/thingmenn/?dagur=D.M.YYYY`): members in office on the day (`þingmaður`) and substitutes serving (`varaþingmaður`) hold the 63 seats; a `þingmaður með varamann` is on leave. Each member's party group, constituency and first seat come from `.../thingmadur/thingseta/?nr=ID` (one request each, cached six hours). althingi.is HTML pages refuse scripts, the XML does not.

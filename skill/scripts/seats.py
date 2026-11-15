@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 """Refresh a country's legislature seats from the parliament's own open member list.
 
-Usage: python skill/scripts/seats.py data/<iso2> [--adapter NAME] [--dry-run] [--fix-status] [--local URL=FILE]      (iso2 = ar, co, fi, kr, se, de, nl, no, fr, br, ca, es, pl, be, in, jp, my, sg, id, ng, cn, nz, za; un for the UN General Assembly; au for the Pan-African Parliament)
+Usage: python skill/scripts/seats.py data/<iso2> [--adapter NAME] [--dry-run] [--fix-status] [--local URL=FILE]      (iso2 = ar, at, au, ba, bd, be, bg, bo, br, ca, ch, cl, cn, co, cr, cz, de, dk, dz, ec, ee, eg, es, eu, fi, fr, gr, hr, hu, id, ie, in, is, it, jp, ke, kr, lb, lt, lu, ma, mk, mt, mx, my, ng, nl, no, nz, pe, ph, pk, pl, pt, py, ro, ru, se, sg, si, sk, sr, tn, tr, un, uy, za; un for the UN General Assembly; au for the Pan-African Parliament)
 
 For the UK and the US use seats_uk.py and seats_us.py (richer sources). This script holds one small adapter per
 country (the ADAPTERS table at the end): each reads the parliament's open data and returns its chambers, the sitting
@@ -186,9 +186,14 @@ def run(d, adapter, dry=False, fix=False, actors_in=None):
                     m = c["enrich"](m)
                 if how == "fuzzy":
                     report.append(f"{x['actor_id']} {x['name']}: matched to {m['name']} ({m['party']}) by name only: confirm it is the same person")
-                positions.append(dict(position_id="", actor_id=x["actor_id"], body_id=bid, role=c["role"], party=m["party"],
-                                      geo_unit_id=x["geo_unit_id"], start=m.get("start", ""), end="", current="y",
-                                      member_ref=str(m.get("ref", "")), checked=today, source_url=m.get("url") or c["source_url"]))
+                old = [prev for prev in db["positions"] if prev["actor_id"] == x["actor_id"] and prev["body_id"] == bid]
+                old = next((prev for prev in old if prev["current"] == "y"), old[0] if old else {})  # what the register already holds for this seat
+                if not old.get("start"):  # the body may have been renamed or re-created: keep the start the register had for this person's current seat
+                    old = dict(old, start=next((prev["start"] for prev in db["positions"] if prev["actor_id"] == x["actor_id"] and prev["current"] == "y" and prev["start"]), ""))
+                positions.append(dict(position_id="", actor_id=x["actor_id"], body_id=bid, role=c["role"],
+                                      party=(old.get("party") if c.get("keep_party") and old.get("party") else m["party"]),  # a list with no party column keeps the register's
+                                      geo_unit_id=x["geo_unit_id"], start=m.get("start") or old.get("start", ""), end="", current="y",
+                                      member_ref=str(m.get("ref") or old.get("member_ref", "")), checked=today, source_url=m.get("url") or c["source_url"]))
                 sitting_total += 1
                 if x["status"] != "active":
                     report.append(f"{x['actor_id']} {x['name']}: sits in the {c['name']} but is status={x['status']}")
@@ -216,6 +221,13 @@ def run(d, adapter, dry=False, fix=False, actors_in=None):
                 report.append(f"{x['actor_id']} {x['name']}: role {x['role'][:60]!r} but not on today's {c['name']} list"
                               f" ({'former member found, left ' + (f.get('end') or '?') if f else 'not found at all: check the spelling'})"
                               f"{' [status=active]' if x['status'] == 'active' else ''}")
+    replaced = {b["body_id"] for b in db["bodies"] if b["name"] in names}
+    sitting_now = {(o["actor_id"], o["body_id"]) for o in positions if o["current"] == "y"}
+    have_any = {(o["actor_id"], o["body_id"]) for o in positions}
+    for o in db["positions"]:  # an earlier term of someone who sits now, or a former seat the list does not cover (a minister's seat): keep it
+        k = (o["actor_id"], o["body_id"])
+        if o["body_id"] in replaced and o["current"] != "y" and (k in sitting_now or k not in have_any):
+            positions.append(dict(o))
     for o in positions:
         if not o["position_id"]:
             o["position_id"] = wtdb.next_id(positions, "positions")
@@ -1106,6 +1118,292 @@ def colombia():
             chamber("Cámara de Representantes", 183, deputies, "Representative", r"(?i)representative|representante",
                     "183 seats for 2026-2030. Who sits and their party are from the chamber's own page (camara.gov.co/representantes); seats the page does not name are shown as Vacant. Unlit seats mean nothing found, never opposition.",
                     "https://www.camara.gov.co/representantes")]
+# ---------------------------------------------------------------- Latin America (Chile, Uruguay, Ecuador, Paraguay, Peru, Bolivia, Costa Rica)
+_PALETTE = ["6aa4d8", "f2c230", "8b1a1a", "1f8f4e", "e07a1f", "2aa5c9", "c9a227", "9a6fb0", "62b04b", "d36b8f", "4a6fa5", "b5651d"]
+
+
+def _latam(name, seats, source_url, note, role, rre, members, colours=None, strict=True, vacant=None, fuzzy_deny=(), former=()):
+    """One chamber of a Latin American legislature: parties ordered by size, colours from a palette unless given."""
+    count = {}
+    for m in members:
+        count[m["party"]] = count.get(m["party"], 0) + 1
+    order = sorted(count, key=lambda p: (p in ("Independiente", "Other parties", "Sin partido"), -count[p]))
+    colours = dict(colours or {})
+    free = [c for c in _PALETTE if c not in colours.values()]
+    for p in order:
+        if p not in colours:
+            colours[p] = free.pop(0) if free else "8a8680"
+    d = _upper(name, seats, source_url, note, role, rre, members, colours, order=order, vacant=vacant, strict=strict)
+    if fuzzy_deny:
+        d["fuzzy_deny"] = fuzzy_deny
+    d["former"] = list(former)
+    return d
+
+
+def _flip(n):
+    """'Rodríguez González, Blanca' -> 'Blanca Rodríguez González'; a name without a comma is kept."""
+    a, sep, b = n.partition(",")
+    return re.sub(r"\s+", " ", f"{b} {a}" if sep else a).strip()
+
+
+def _cl_party(p):
+    """One spelling for a Chilean party across the Chamber's feed and the Wikipedia list."""
+    p = re.sub(r" de Chile$", "", p.strip()).replace("Partido Por la", "Partido por la")
+    return {"Partido Demócratas Chile": "Demócratas", "Partido Acción Humanista": "Acción Humanista"}.get(p, p)
+
+
+def chile():
+    """Cámara de Diputadas y Diputados (155 seats): the Chamber's own web service (opendata.camara.cl, retornarDiputadosPeriodoActual: the deputies of the
+    current period and their party memberships; the feed gives no district). Senado (50 seats): senado.cl sits behind a Cloudflare check that is not bypassed and
+    the Senate's web service (tramitacion.senado.cl/wspublico/senadores_vigentes.php) still lists only the 2022 cohort, so the Senate is read from the Spanish
+    Wikipedia list of current senators (Anexo:Senadores actuales de la República de Chile), a secondary source: the note says so."""
+    import xml.etree.ElementTree as ET
+    ns = {"n": "http://opendata.camara.cl/camaradiputados/v1"}
+    url = "https://opendata.camara.cl/camaradiputados/WServices/WSDiputado.asmx/retornarDiputadosPeriodoActual"
+    root = ET.fromstring(get(url, as_json=False))
+    today = dt.date.today().isoformat()
+    deputies = []
+    for dp in root.findall("n:DiputadoPeriodo", ns):
+        d = dp.find("n:Diputado", ns)
+
+        def t(tag):
+            return (d.findtext(f"n:{tag}", default="", namespaces=ns) or "").strip()
+        militancias = []
+        for m in d.findall("n:Militancias/n:Militancia", ns):
+            militancias.append(((m.findtext("n:FechaInicio", "", ns) or "")[:10], (m.findtext("n:FechaTermino", "", ns) or "9999")[:10], m.findtext("n:Partido/n:Nombre", "", ns).strip()))
+        cur = [m for m in militancias if m[0] <= today <= m[1]] or sorted(militancias)[-1:]
+        party = cur[0][2] if cur else "Independiente"
+        party = "Independiente" if party.startswith("Independiente") else _cl_party(party)
+        name = " ".join(x for x in (t("Nombre"), t("Nombre2"), t("ApellidoPaterno"), t("ApellidoMaterno")) if x)
+        # the feed's own FechaInicio is the end of the period (2030), so the start is not taken from it: the period began on 11 March 2026
+        deputies.append(dict(name=name, party=party, ref=t("Id"), place="", start="2026-03-11", url=f"https://www.camara.cl/diputados/detalle/biografia.aspx?prmId={t('Id')}"))
+    # deputies of the three previous periods who do not sit now (the feed gives no end date for a person, so the period's end is used)
+    sitting, former = {d["ref"] for d in deputies}, {}
+    for pid, (pstart, pend) in ((10, ("2022-03-11", "2026-03-10")), (9, ("2018-03-11", "2022-03-10")), (8, ("2014-03-11", "2018-03-10"))):
+        try:
+            prev = ET.fromstring(get(f"https://opendata.camara.cl/camaradiputados/WServices/WSDiputado.asmx/retornarDiputadosXPeriodo?prmPeriodoId={pid}", as_json=False))
+        except SystemExit:
+            continue
+        for dp in prev.findall("n:DiputadoPeriodo", ns):
+            d = dp.find("n:Diputado", ns)
+            if d is None:
+                continue
+            ref = (d.findtext("n:Id", "", ns) or "").strip()
+            if ref in sitting or ref in former:
+                continue
+            nm = " ".join(x for x in ((d.findtext(f"n:{t}", "", ns) or "").strip() for t in ("Nombre", "Nombre2", "ApellidoPaterno", "ApellidoMaterno")) if x)
+            ms = sorted(((m.findtext("n:FechaInicio", "", ns) or "")[:10], m.findtext("n:Partido/n:Nombre", "", ns).strip()) for m in d.findall("n:Militancias/n:Militancia", ns))
+            former[ref] = dict(name=nm, party=(ms[-1][1] if ms else ""), ref=ref, start=pstart, end=pend, url=f"https://www.camara.cl/diputados/detalle/biografia.aspx?prmId={ref}")
+    if len(deputies) < 140:
+        sys.exit(f"Chile: read {len(deputies)} deputies, expected 155; check the adapter")
+    wurl = "https://es.wikipedia.org/wiki/Anexo:Senadores_actuales_de_la_Rep%C3%BAblica_de_Chile"
+    tables = wiki_tables(wiki_page("es", "Anexo:Senadores actuales de la República de Chile"))
+    tbl = next(t for t in tables if t and "Senador" in t[0])
+    months = {"enero": 1, "febrero": 2, "marzo": 3, "abril": 4, "mayo": 5, "junio": 6, "julio": 7, "agosto": 8, "septiembre": 9, "octubre": 10, "noviembre": 11, "diciembre": 12}
+    senators, region = [], ""
+    for r in tbl[1:]:
+        i = next((k for k, c in enumerate(r) if re.search(r"\(n\.? ?\d{4}\)", c)), None)
+        if i is None:
+            continue
+        if i >= 2 and r[0]:
+            region = r[0]
+        nm = re.sub(r"\(n\.? ?\d{4}\)", "", r[i]).strip()
+        party = r[i + 1].split(",")[0].strip()
+        party = "Independiente" if party.startswith("Independiente") else _cl_party(party)
+        dates = [c for c in r[i + 2:] if re.search(r"\d{4}", c)]
+        end = dates[-1] if len(dates) > 1 else ""
+        if re.search(r"desafuer|renunci|falleci|destituc", end.lower()):
+            continue  # a seat left empty during the term
+        sm = re.match(r"(\d+) de (\w+) de (\d{4})", dates[0]) if dates else None
+        start = f"{sm[3]}-{months[sm[2]]:02d}-{int(sm[1]):02d}" if sm else ""
+        senators.append(dict(name=nm, party=party, ref=re.sub(r"\W+", "-", norm(nm)), place=region, start=start, url=wurl))
+    if len(senators) < 45:
+        sys.exit(f"Chile: read {len(senators)} senators from the Wikipedia list, expected 49 or 50; check the adapter")
+    tail = " Unlit seats mean nothing found, never opposition."
+    return [_latam("Cámara de Diputadas y Diputados", 155, url, "155 seats, 2026-2030. Who sits and their party are from the Chamber's own web service for the current period (opendata.camara.cl); independents are shown together." + tail,
+                   "Deputy", r"(?i)\bdeputy\b|diputad", deputies, fuzzy_deny=("Daniel Núñez",), former=former.values()),  # the feed's independent of that name is not the PC senator of Coquimbo, whom the Senate lists
+            _latam("Senado de la República", 50, wurl, "50 seats. The Senate's own site (senado.cl) is behind a Cloudflare check and its web service lists only the 2022 cohort, so who sits and their party are from the Spanish Wikipedia list of current senators, a secondary source kept by editors; a seat left empty (a senator removed from office) shows as Vacant." + tail,
+                   "Senator", r"(?i)\bsenator|senador", senators)]
+
+
+def uruguay():
+    """Senado (30 senators; the Vice President, who presides, is the 31st member and is not counted) and Cámara de Representantes (99): the Parlamento's own
+    "Integración" lists (Actuantes: the members who sit today, a substitute counting for the titular they replace). parlamento.gub.uy refuses scripts (CloudFront 403),
+    so each list is read once in a browser from .../plenario/integracion/json and passed with --local (see the Uruguay guide)."""
+    PARTY = {"PARTIDO FRENTE AMPLIO": "Frente Amplio", "PARTIDO NACIONAL": "Partido Nacional", "PARTIDO COLORADO": "Partido Colorado", "PARTIDO CABILDO ABIERTO": "Cabildo Abierto",
+             "PARTIDO IDENTIDAD SOBERANA": "Identidad Soberana", "PARTIDO INDEPENDIENTE": "Partido Independiente"}
+
+    def read(chamber, presiding_counts):
+        url = f"https://parlamento.gub.uy/camarasycomisiones/{chamber}/plenario/integracion/json"
+        out = []
+        for x in get(url):
+            if x.get("Cargo") and not presiding_counts:
+                continue  # the presiding Vice President (or the senator standing in for them) is not one of the 30 senators
+            lema = re.sub(r"\s+", " ", x["Lema"]).strip()
+            nm = _flip(x["Nombres"])
+            out.append(dict(name=nm, party=PARTY.get(lema, lema.title()), ref=re.sub(r"\W+", "-", norm(nm)), place="", start="", url=f"https://parlamento.gub.uy/camarasycomisiones/{chamber}/plenario/integracion"))
+        return out
+    senators, deputies = read("senadores", False), read("representantes", True)
+    if len(senators) != 30 or len(deputies) != 99:
+        sys.exit(f"Uruguay: read {len(senators)} senators and {len(deputies)} representatives, expected 30 and 99; save the lists again (see the Uruguay guide)")
+    tail = " Who sits and their party are from the Parlamento's own list of the members acting today (a substitute counts in their party). Unlit seats mean nothing found, never opposition."
+    return [_latam("Senado de la República", 30, "https://parlamento.gub.uy/camarasycomisiones/senadores/plenario/integracion", "30 senators elected nationwide; the Vice President presides and is not counted." + tail, "Senator", r"(?i)\bsenator|senador", senators),
+            _latam("Cámara de Representantes", 99, "https://parlamento.gub.uy/camarasycomisiones/representantes/plenario/integracion", "99 representatives elected by department." + tail, "Deputy", r"(?i)\bdeputy|representante|diputad", deputies)]
+
+
+def ecuador():
+    """Asamblea Nacional (151 seats): the plenary page of asambleanacional.gob.ec (one pin per asambleísta: name, province or national list, a blog link; the
+    party is the icon the page draws, ADN, Revolución Ciudadana, Pachakutik or PSC; other parties get a generic icon and are grouped)."""
+    import html
+    url = "https://www.asambleanacional.gob.ec/es/pleno-asambleistas"
+    x = get(url, as_json=False).decode("utf-8", "replace")
+    ICON = {"adn": "ADN", "revolucion-ciudadana": "Revolución Ciudadana", "pachakutik": "Pachakutik", "psc": "PSC"}
+    members = []
+    for p in re.split(r'<div\s+class="icon-asambleitas-partido"', x)[1:]:
+        ic = re.search(r"(?:public/)?([\w-]+)\.(?:png|jpg|gif)", p)
+        n = re.search(r"<strong>([^<]+)<br />\s*<em>([^<]+)</em>", p)
+        blog = re.search(r'href="(blogs/[^"]+)"', p)
+        if not n:
+            continue
+        party = next((v for k, v in ICON.items() if ic and k in ic[1]), "Other parties")
+        place = re.sub(r"(?i)^asamble[ií]sta\s+(por\s+(la\s+provincia\s+de(l)?\s+|el\s+)?)?", "", html.unescape(n[2])).strip()
+        nm = re.sub(r"\s+", " ", html.unescape(n[1])).strip()
+        members.append(dict(name=nm, party=party, ref=(blog[1].split("/")[-1] if blog else re.sub(r"\W+", "-", nm.lower())), place=place or "Nacional",
+                            start="", url=("https://www.asambleanacional.gob.ec/es/" + blog[1]) if blog else url))
+    if len(members) != 151:
+        sys.exit(f"Ecuador: read {len(members)} asambleístas, expected 151; check the adapter")
+    return [_latam("Asamblea Nacional", 151, url, "151 seats, 2025-2029. Who sits is the Assembly's own plenary page; the party is the icon the page shows next to each member (ADN, Revolución Ciudadana, Pachakutik, PSC; a generic icon for the other parties, which are grouped as Other parties). Unlit seats mean nothing found, never opposition.",
+                   "Asambleísta", r"(?i)asamble[ií]sta|assembly", members, colours={"ADN": "f2c230", "Revolución Ciudadana": "e11931", "Pachakutik": "7a1f5c", "PSC": "1a4a9c", "Other parties": "8a8680"})]
+
+
+def paraguay():
+    """Cámara de Senadores (45) from senado.gov.py (the list of senators by party and movement; each links to the Congress's SILpy record) and Cámara de
+    Diputados (80) from diputados.gov.py (the alphabetical list: name, party or alliance code)."""
+    import html
+    SP = {"Asociación Nacional Republicana ANR": "ANR", "Partido Liberal Radical Auténtico PLRA": "PLRA", "Partido Cruzada Nacional": "Cruzada Nacional",
+          "Movimiento Conciencia Democrática Nacional": "Conciencia Democrática Nacional", "Partido Democrático Progresista PDP": "Partido Democrático Progresista",
+          "Partido Encuentro Nacional PEN": "Encuentro Nacional", "Independiente A": "Independiente", "Partido Participación Ciudadana": "Participación Ciudadana"}
+    surl = "https://www.senado.gov.py/index.php/menu-senadores/sub-menu-nomina-por-partido-movimiento.html"
+    x = get(surl, as_json=False).decode("utf-8", "replace")
+    party, senators = None, []
+    for m in re.finditer(r'<div class="fs-2 fw-bold">\s*(.*?)\s*<i class|href="https://silpy\.congreso\.gov\.py/legislador/(\d+)"[^>]*>([^<]+)</a>', x, flags=re.S):
+        if m[1]:
+            party = html.unescape(m[1]).strip()
+        else:
+            senators.append(dict(name=_flip(html.unescape(m[3]).strip()), party=SP.get(party, party), ref=m[2], place="", start="", url=f"https://silpy.congreso.gov.py/legislador/{m[2]}"))
+    durl = "https://diputados.gov.py/diputados/nomina-alfabetica"
+    x = get(durl, as_json=False).decode("utf-8", "replace")
+    CODE = {"ANR": "ANR", "PLRA": "PLRA", "PCN": "Cruzada Nacional", "AEN": "Encuentro Nacional", "CDN": "Conciencia Democrática Nacional", "PPQ": "Patria Querida",
+            "APLP": "Alianza Patria", "CN2023": "Concertación", "ATJPÑ": "Concertación", "APUNP": "Concertación", "APUNG": "Concertación", "AC": "Concertación", "APAD": "Concertación"}
+
+    def tx(s):
+        return re.sub(r"\s+", " ", html.unescape(re.sub(r"<[^>]+>", "", s))).strip()
+    deputies = []
+    for r in re.findall(r"<tr[^>]*>(.*?)</tr>", x, flags=re.S)[1:]:
+        tds = re.findall(r"<td[^>]*>(.*?)</td>", r, flags=re.S)
+        if len(tds) < 3:
+            continue
+        a = re.search(r"parlamentario/(\d+)", r)
+        nm = tx(tds[1]).title()
+        code = tx(tds[2])
+        deputies.append(dict(name=nm, party=CODE.get(code, code or "Sin partido"), ref=a[1] if a else re.sub(r"\W+", "-", nm.lower()), place="", start="",
+                             url=f"https://silpy.congreso.gov.py/parlamentario/{a[1]}" if a else durl))
+    if len(senators) != 45 or len(deputies) != 80:
+        sys.exit(f"Paraguay: read {len(senators)} senators and {len(deputies)} deputies, expected 45 and 80; check the adapter")
+    return [_latam("Cámara de Senadores", 45, surl, "45 seats, one nationwide constituency. Who sits and their party or movement are from the Senate's own list of senators by party and movement. Unlit seats mean nothing found, never opposition.",
+                   "Senador de la Nación", r"(?i)senador|senator", senators),
+            _latam("Cámara de Diputados", 80, durl, "80 seats elected by department. Who sits is the Chamber's own alphabetical list, which gives each deputy a party or alliance code: codes of the departmental alliances of the 2023 election (CN2023, APUNP, APUNG, ATJPÑ, AC, APAD) are grouped as Concertación. Unlit seats mean nothing found, never opposition.",
+                   "Diputado Nacional", r"(?i)diputad|deputy", deputies)]
+
+
+def peru():
+    """Senado (60) and Cámara de Diputados (130), 2026-2031: each chamber's own roster page embeds a JSON array (the data-congresista-dataset attribute of a script
+    element): name (surname first), parliamentary group, district. Entries with no condition are kept, as the rosters list them."""
+    import html
+
+    def read(url):
+        x = get(url, as_json=False).decode("utf-8", "replace")
+        m = re.search(r"data-congresista-dataset[^>]*>(.*?)</script>", x, flags=re.S)
+        if not m:
+            sys.exit(f"Peru: no roster data in {url} any more, check the adapter")
+        return [dict(name=_flip(r["name"]), party=(r.get("group") or r.get("partido") or "Sin partido").strip(), ref=r["url"].rstrip("/").split("/")[-1],
+                     place=r.get("district", ""), start="2026", url=r["url"]) for r in json.loads(html.unescape(m[1]))]
+    surl, durl = "https://senado.congreso.gob.pe/senador/", "https://diputados.congreso.gob.pe/diputado/"
+    senators, deputies = read(surl), read(durl)
+    if len(senators) != 60 or len(deputies) != 130:
+        sys.exit(f"Peru: read {len(senators)} senators and {len(deputies)} deputies, expected 60 and 130; check the adapter")
+    tail = " Who sits and their parliamentary group are from the chamber's own roster page (a few entries carry no condition field). Unlit seats mean nothing found, never opposition."
+    return [_latam("Senado de la República", 60, surl, "60 seats, 2026-2031." + tail, "Senator", r"(?i)\bsenator|senador", senators),
+            _latam("Cámara de Diputados", 130, durl, "130 seats, 2026-2031." + tail, "Deputy", r"(?i)\bdeputy|diputad", deputies)]
+
+
+def _bo_party(p):
+    return {"UNIDAD": "Unidad", "APB-SÚMATE": "APB Súmate", "APB-SUMATE": "APB Súmate", "MAS-IPSP": "MAS-IPSP", "BIA-YUQUI": "Bia-Yuqui"}.get(p.strip().upper(), p.strip())
+
+
+def bolivia():
+    """Cámara de Senadores (36) from the Senate's own site API (apisi.senado.gob.bo/page/senadores/pleno: 72 entries, 36 titulares and 36 suplentes, the
+    party seats counted among the titulares) and Cámara de Diputados (130) from diputados.gob.bo: the site's WordPress API lists the 255 titulares and
+    suplentes; the page does not say which is which, but each photo file is named with a department and TI/SU (a few say TITU, SUPLE or nothing), so
+    whoever is not marked suplente is a titular (130, as the Chamber has), and the party (bancada) is read from each titular's own page."""
+    import html
+    from concurrent.futures import ThreadPoolExecutor
+    sen = []
+    for x in get("https://apisi.senado.gob.bo/page/senadores/pleno")["data"]:
+        if x.get("titular_id") is not None:
+            continue  # a suplente carries the id of their titular
+        nm = " ".join(f"{x['nombre']} {x['apellidos']}".title().split())
+        sen.append(dict(name=nm, party=_bo_party((x.get("bancada") or {}).get("sigla") or "Sin partido"), ref=str(x["id"]), place=(x.get("brigada_catalogo") or {}).get("name", ""), start="", url="https://www.senado.gob.bo/"))
+    base = "https://diputados.gob.bo/wp-json/wp/v2/"
+    recs = []
+    for pg in (1, 2, 3):
+        recs += get(f"{base}diputados?per_page=100&page={pg}&_fields=id,slug,title,link,acf")
+    media = {}
+    ids = [str(r["acf"]["foto"]) for r in recs if r["acf"].get("foto")]
+    for k in range(0, len(ids), 100):
+        for m in get(f"{base}media?per_page=100&_fields=id,source_url&include={','.join(ids[k:k + 100])}"):
+            media[m["id"]] = m["source_url"]
+    suple = re.compile(r"(?<![A-Z])(SU|SUP|SUPLE|SUPLENTE)(?![A-Z])")
+    tit = [r for r in recs if not suple.search(media.get(r["acf"].get("foto"), "").rsplit("/", 1)[-1].upper())]
+    PARTY = {"MAS IPSP": "MAS-IPSP", "APB SUMATE": "APB Súmate", "BIA-YUQUI": "Bia-Yuqui", "PDC": "PDC", "LIBRE": "LIBRE", "UNIDAD": "Unidad", "AP": "AP"}
+
+    def page(r):
+        t = get(r["link"], as_json=False, tries=3).decode("utf-8", "replace")
+        t = re.sub(r"<script.*?</script>|<style.*?</style>", "", t, flags=re.S)
+        t = re.sub(r"(\|\s*)+", "|", re.sub(r"<[^>]+>", "|", re.sub(r"\s+", " ", html.unescape(t))))
+        b = re.search(r"Bancada \|([^|]*)", t)
+        d = re.search(r"Brigada \|([^|]*)", t)
+        sig = re.sub(r"\s*\(.*$", "", b[1]).strip() if b else ""
+        return PARTY.get(sig, sig) or "Sin partido", (d[1].strip() if d else "")
+    with ThreadPoolExecutor(8) as ex:
+        info = list(ex.map(page, tit))
+    dep = [dict(name=" ".join(html.unescape(r["title"]["rendered"]).split()), party=p, ref=r["slug"], place=pl, start="", url=r["link"]) for r, (p, pl) in zip(tit, info)]
+    if len(sen) != 36 or len(dep) != 130:
+        sys.exit(f"Bolivia: read {len(sen)} senators and {len(dep)} deputies, expected 36 and 130; check the adapter")
+    return [_latam("Cámara de Diputados", 130, "https://diputados.gob.bo/diputados/", "130 seats, 2025-2030. The Chamber's own site lists 255 titulares and suplentes without saying which is which: the 130 titulares are those whose photo file is not marked suplente, and the party is the bancada on each titular's page. A suplente who has taken a titular's seat is not detected. Unlit seats mean nothing found, never opposition.",
+                   "Deputy", r"(?i)\bdeputy|diputad", dep),
+            _latam("Cámara de Senadores", 36, "https://www.senado.gob.bo/", "36 seats, 2025-2030. Who sits and their party are from the Senate's own site API: its 36 titulares by bancada (the 36 suplentes are not counted). Unlit seats mean nothing found, never opposition.",
+                   "Senator", r"(?i)\bsenator|senador", sen)]
+
+
+def costa_rica():
+    """Asamblea Legislativa (57 seats), 2026-2030: asamblea.go.cr did not answer from here, so the 57 deputies (province and number on the list, party) are
+    read from the Spanish Wikipedia list Anexo:Diputados del período legislativo 2026-2030 en Costa Rica, a secondary source; its party counts match the TSE declaratoria
+    of 23 March 2026 (31 / 17 / 7 / 1 / 1)."""
+    wurl = "https://es.wikipedia.org/wiki/Anexo:Diputados_del_per%C3%ADodo_legislativo_2026-2030_en_Costa_Rica"
+    t = wiki_tables(wiki_page("es", "Anexo:Diputados del período legislativo 2026-2030 en Costa Rica"))[0]
+    members = []
+    for r in t[1:]:
+        if len(r) < 4 or not re.search(r"\d", r[0]):
+            continue
+        party = re.sub(r"^Partido ", "", r[3]).strip()
+        members.append(dict(name=r[2], party=party, ref=re.sub(r"\W+", "-", norm(r[2])), place=re.sub(r"\s*\d+$", "", r[0]), start="2026", url=wurl))
+    if len(members) != 57:
+        sys.exit(f"Costa Rica: read {len(members)} deputies from the Wikipedia list, expected 57; check the adapter")
+    return [_latam("Asamblea Legislativa", 57, wurl, "57 seats elected by province, 2026-2030. The Assembly's own site (asamblea.go.cr) did not answer from the machine that built this, so who sits is read from the Spanish Wikipedia list of the 2026-2030 deputies, a secondary source kept by editors (its party counts match the TSE declaratoria of 23 March 2026: 31 / 17 / 7 / 1 / 1); replacements during the term may lag. Unlit seats mean nothing found, never opposition.",
+                   "Deputy", r"(?i)\bdeputy|diputad", members)]
+
+
 def finland():
     """The Eduskunta (200 seats): the seating plan of the plenary hall on avoindata.eduskunta.fi (SeatingOfParliament), one row per seat with the
     member's party group. It lists the sitting members only (ministers included, as in Finland they keep their seat; a substitute for a member on
@@ -1778,13 +2076,995 @@ def czechia():
                  members=members, former=[], party_order=order, colours=colours)]
 
 
+def portugal():
+    """The Assembleia da República (230 seats): the Parliament's own list of deputies in office (parlamento.pt, Deputadoslista), one row per sitting
+    deputy with the electoral circle and parliamentary group; a substitute who serves holds the seat of a deputy on leave, so the list is always 230."""
+    import html as _html
+    url = "https://www.parlamento.pt/DeputadoGP/Paginas/Deputadoslista.aspx"
+    page = get(url, as_json=False).decode("utf-8", "ignore")
+    date = re.search(r"Deputados em fun\S+ à data de\s*(\d{4}-\d{2}-\d{2})", page)
+    rows = {}
+    for i, field, val in re.findall(r'rptResultsByDate_ctl(\d+)_(hplNome|lblCE|lblGP)"[^>]*>([^<]*)<', page):
+        rows.setdefault(i, {})[field] = _html.unescape(val).strip()
+    for i, href in re.findall(r'rptResultsByDate_ctl(\d+)_hplNome"[^>]*href="([^"]+)"', page):
+        rows[i]["href"] = _html.unescape(href)
+    if not date or len(rows) != 230 or any(not {"hplNome", "lblCE", "lblGP"} <= set(r) for r in rows.values()):
+        sys.exit(f"Portugal: read {len(rows)} deputies, expected 230 with a date; the page has changed, check the adapter")
+    members = []
+    for r in rows.values():
+        bid = re.search(r"BID=(\d+)", r.get("href", ""))
+        members.append(dict(name=r["hplNome"], party=r["lblGP"], place=r["lblCE"], start="", ref=bid.group(1) if bid else "",
+                            url="https://www.parlamento.pt" + r["href"] if r.get("href") else ""))
+    order = ["L", "BE", "PCP", "PS", "PAN", "PSD", "CDS-PP", "IL", "JPP", "CH"]
+    colours = {"L": "008b4a", "BE": "cf252b", "PCP": "bd1725", "PS": "ef5a89", "PAN": "2c9e86", "PSD": "f28c28", "CDS-PP": "1768b3", "IL": "13b9ce", "JPP": "805bb0", "CH": "173e83"}
+    unknown = {m["party"] for m in members} - set(order)
+    if unknown:
+        sys.exit(f"Portugal: unknown parliamentary group(s) {unknown}; add them to the adapter")
+    return [dict(name="Assembleia da República", level="national", seats=230, as_of=date.group(1), source_url=url,
+                 note="230 seats, XVII legislature. Who sits and their group are from the Parliament's own list of deputies in office (a serving substitute holds the seat of a deputy on leave). Unlit seats mean nothing found, never opposition.",
+                 role="Deputy, Assembleia da República", role_re=r"(?i)deputy|deputado|assembleia da rep", role_start=r"(?i)deputy|deputado", members=members, former=[],
+                 party_order=order, colours=colours, strict=True)]
+
+
+def denmark():
+    """The Folketing (179 seats): the Folketing's open data (oda.ft.dk): the members of each party group of the current session, with their bio's
+    constituency and start date. Leave-takers (orlov) keep their seat but a substitute serves it, so they are not listed as sitting.
+    ft.dk itself answers scripts with a bot check."""
+    MONTH = {m: i for i, m in enumerate(["januar", "februar", "marts", "april", "maj", "juni", "juli", "august", "september", "oktober", "november", "december"], 1)}
+
+    def q(ent, **p):
+        return get("https://oda.ft.dk/api/" + urllib.parse.quote(ent) + "?" + urllib.parse.urlencode(p))["value"]
+
+    ses = q("Periode", **{"$filter": "type eq 'samling'", "$orderby": "startdato desc", "$top": 1})[0]
+    groups = q("Aktør", **{"$filter": f"typeid eq 4 and startdato eq datetime'{ses['startdato'][:10]}T00:00:00'"})
+    if not groups:
+        sys.exit('Denmark: no party groups for the current session yet; check the adapter')
+    PARTY = {"S": "Social Democrats", "SF": "Socialist People’s Party", "V": "Venstre", "DF": "Danish People’s Party", "LA": "Liberal Alliance", "M": "Moderates",
+             "KF": "Conservative People’s Party", "EL": "Red-Green Alliance", "DD": "Denmark Democrats", "RV": "Social Liberal Party", "ALT": "The Alternative",
+             "BP": "Borgernes Parti", "IA": "Inuit Ataqatigiit", "N": "Naleraq", "JF": "Javnaðarflokkurin", "SP": "Sambandsflokkurin", "UFG": "Independent"}
+    rows = {}
+    for g in groups:
+        if g["gruppenavnkort"] not in PARTY:
+            sys.exit(f"Denmark: unknown group {g['gruppenavnkort']}; add it to the adapter")
+        for r in q("AktørAktør", **{"$filter": f"tilaktørid eq {g['id']}", "$top": 300}):
+            if (r["slutdato"] or "9999")[:10] <= dt.date.today().isoformat() or r["startdato"][:10] > dt.date.today().isoformat():
+                continue  # an end date in the future (a planned leave or exit) still counts as a member today
+            rows[r["fraaktørid"]] = (PARTY[g["gruppenavnkort"]], r["rolleid"])  # 15 medlem; 6 and 12 are leave with and without pay
+    ids = sorted(rows)
+    people = {}
+    for k in range(0, len(ids), 12):
+        for a in q("Aktør", **{"$filter": " or ".join(f"id eq {i}" for i in ids[k:k + 12]), "$top": 50}):
+            people[a["id"]] = a
+    cur, leave = [], []
+    for i in ids:
+        a, (party, role) = people.get(i), rows[i]
+        if not a:
+            continue
+        bio = a.get("biografi") or ""
+        cons = re.findall(r"<constituency>(.*?)</constituency>", bio, re.S)
+        c = next((x for x in cons if re.search(r"\bfra\s+\d", x)), "")  # the open one: "... i Fyns Storkreds fra 15. september 2011."
+        place = (re.search(r" (?:i|på|for) ([^.]*?(?:Storkreds|Grønland|Færøerne))", c) or [None, ""])[1].strip()
+        d = re.search(r"<functionStartDate>(\d+)\. (\w+) (\d{4})</functionStartDate>", bio) or re.search(r"fra (\d+)\. (\w+) (\d{4})", c)
+        start = dt.date(int(d[3]), MONTH[d[2]], int(d[1])).isoformat() if d and d[2] in MONTH else ""
+        row = dict(name=a["navn"], party=party, ref=str(i), place=place, start=start, url="")
+        if role == 15:
+            cur.append(row)
+        else:
+            leave.append(dict(row, on_leave=True))
+    order = ["Red-Green Alliance", "The Alternative", "Socialist People’s Party", "Social Democrats", "Social Liberal Party", "Moderates", "Venstre", "Conservative People’s Party",
+             "Liberal Alliance", "Danish People’s Party", "Denmark Democrats", "Borgernes Parti", "Inuit Ataqatigiit", "Naleraq", "Javnaðarflokkurin", "Sambandsflokkurin", "Independent"]
+    colours = {"Red-Green Alliance": "e53935", "The Alternative": "00a651", "Socialist People’s Party": "e64043", "Social Democrats": "d20a11", "Social Liberal Party": "733280",
+               "Moderates": "993399", "Venstre": "0053a0", "Conservative People’s Party": "00513e", "Liberal Alliance": "3db5cc", "Danish People’s Party": "fbd52b",
+               "Denmark Democrats": "003c72", "Borgernes Parti": "416f85", "Inuit Ataqatigiit": "b8232c", "Naleraq": "ffbd00", "Javnaðarflokkurin": "b4222a",
+               "Sambandsflokkurin": "2173b9", "Independent": "888888"}
+    return [dict(name="Folketing", level="national", seats=179, source_url="https://oda.ft.dk/", former=leave, members=cur,
+                 note=f"179 seats (175 for Denmark proper, 2 for Greenland, 2 for the Faroe Islands). Who sits and their party are from the Folketing's open data (oda.ft.dk), the members of each party group in session {ses['titel']}: {len(cur)} named, the rest shown as Vacant (a substitute not yet entered, or a seat open). Members on leave are left out (a substitute serves). Unlit seats mean nothing found, never opposition.",
+                 role="Member of the Folketing", role_re=r"(?i)folketing|member of parliament", role_start=r"(?i)(former )?member of (the )?folketing|folketing member",
+                 party_order=order, colours=colours)]
+
+
+def iceland():
+    """The Althing (63 seats): althingi.is open XML. The list for today names who holds a seat (a member, or a substitute serving; a member with a
+    substitute is on leave), and each member's own record (thingseta) gives the party group, constituency and the date of their first seat."""
+    import html as _html
+    today = dt.date.today()
+    s = get(f"https://www.althingi.is/altext/xml/thingmenn/?dagur={today.day}.{today.month}.{today.year}", as_json=False).decode("utf-8")
+    PARTY = {"Samfylkingin": "Social Democratic Alliance", "Sjálfstæðisflokkur": "Independence Party", "Viðreisn": "Liberal Reform Party (Viðreisn)",
+             "Flokkur fólksins": "People's Party", "Miðflokkurinn": "Centre Party", "Framsóknarflokkur": "Progressive Party", "utan þingflokka": "Non-attached",
+             "Píratar": "Pirate Party", "Vinstrihreyfingin - grænt framboð": "Left-Green Movement", "Sósíalistaflokkur Íslands": "Socialist Party of Iceland"}
+    cur, leave = [], []
+    for pid, body in re.findall(r"<þingmaður id='(\d+)'>(.*?)</þingmaður>", s, re.S):
+        kind = re.search(r"<tegund>(.*?)</tegund>", body)[1]
+        if kind not in ("þingmaður", "varaþingmaður", "þingmaður með varamann"):
+            continue
+        name = _html.unescape(re.search(r"<nafn>(.*?)</nafn>", body)[1]).strip()
+        seatx = get(f"https://www.althingi.is/altext/xml/thingmenn/thingmadur/thingseta/?nr={pid}", as_json=False).decode("utf-8")
+        rec = re.findall(r"<þingseta>(.*?)</þingseta>", seatx, re.S)
+        last = rec[-1]
+        grp = re.search(r"<þingflokkur[^>]*>(.*?)</þingflokkur>", last)[1].strip()
+        party = PARTY.get(grp)
+        if not party:
+            sys.exit(f"Iceland: unknown party group {grp!r}; add it to the adapter")
+        place = re.search(r"<kjördæmi[^>]*><!\[CDATA\[(.*?)\]\]>", last)
+        place = place[1] if place else ""
+        first = [re.search(r"<inn>(.*?)</inn>", r)[1] for r in rec if re.search(r"<inn>(.*?)</inn>", r)]
+        start = min((dt.datetime.strptime(x, "%d.%m.%Y").date() for x in first if x), default=None)
+        row = dict(name=name, party=party, ref=pid, place=place, start=start.isoformat() if start else "", url=f"https://www.althingi.is/altext/cv/?nfaerslunr={pid}")
+        if kind == "þingmaður með varamann":
+            leave.append(dict(row, on_leave=True))
+        else:
+            cur.append(row)
+    if len(cur) != 63:
+        sys.exit(f"Iceland: read {len(cur)} seat holders, expected 63; check the adapter")
+    order = ["Social Democratic Alliance", "Independence Party", "Liberal Reform Party (Viðreisn)", "People's Party", "Centre Party", "Progressive Party", "Non-attached"]
+    colours = {"Social Democratic Alliance": "e4002b", "Independence Party": "0066b3", "Liberal Reform Party (Viðreisn)": "f58220", "People's Party": "f2c200",
+               "Centre Party": "00a3a3", "Progressive Party": "00a651", "Non-attached": "8a8680"}
+    return [dict(name="Alþingi", level="national", seats=63, source_url="https://www.althingi.is/altext/xml/thingmenn/", members=cur, former=leave,
+                 note="63 seats. Who sits and their party group are from the Althing's open XML (althingi.is/altext/xml/thingmenn): members in office today plus substitutes serving; a member who has a substitute is on leave and the substitute holds the seat. Unlit seats mean nothing found, never opposition.",
+                 role="Member of Alþingi", role_re=r"(?i)althingi|alþingi|member of parliament", role_start=r"(?i)(former )?member of althingi", party_order=order, colours=colours)]
+
+
+def luxembourg():
+    """The Chambre des Députés (60 seats): chd.lu/en/deputies, the sitting deputies grouped by political group (a substitute serves for a deputy who becomes a minister)."""
+    import html as _html
+    url = "https://www.chd.lu/en/deputies"
+    page = get(url, as_json=False).decode("utf-8", "ignore")
+    PARTY = {"CSV": "CSV", "DP": "DP", "LSAP": "LSAP", "ADR": "ADR", "déi gréng": "déi gréng", "Piraten": "Piraten", "déi Lénk": "déi Lénk"}
+    members = []
+    for sec_id, sec in re.findall(r'<section id="group-([^"]*)"(.*?)</section>', page, re.S):
+        party = PARTY.get(sec_id)
+        if not party:
+            sys.exit(f"Luxembourg: unknown group {sec_id!r}; add it to the adapter")
+        for ref, name in re.findall(r'href="/en/deputy/(\d+)".*?<div class="h5">(.*?)</div>', sec, re.S):
+            place = re.search(r"Circonscription (\w+)", sec[sec.find(f'/en/deputy/{ref}"'):])
+            members.append(dict(name=_html.unescape(name).strip(), party=party, ref=ref, place=place[1] if place else "", start="", url=f"https://www.chd.lu/en/deputy/{ref}"))
+    if len(members) != 60:
+        sys.exit(f"Luxembourg: read {len(members)} deputies, expected 60; check the adapter")
+    order = ["déi Lénk", "Piraten", "déi gréng", "LSAP", "DP", "CSV", "ADR"]
+    colours = {"CSV": "e8731c", "DP": "0b6fb8", "LSAP": "e10600", "ADR": "1a4fa0", "déi gréng": "7ab51d", "Piraten": "4c2f7f", "déi Lénk": "b5121b"}
+    return [dict(name="Chambre des Députés", level="national", seats=60, source_url=url,
+                 note="60 seats, elected 8 October 2023 in four constituencies. Who sits and their group are from the Chamber's own list of deputies (chd.lu), a substitute serving for a deputy who is a minister included. Unlit seats mean nothing found, never opposition.",
+                 role="Member of the Chamber of Deputies", role_re=r"(?i)chamber of deputies|chambre des d", role_start=r"(?i)(former )?member of the chamber of deputies", members=members, former=[],
+                 party_order=order, colours=colours)]
+
+
+def malta():
+    """The House of Representatives (79 seats): parlament.mt, Parliamentary Groups of the current legislature (one section per party, "Surname, First").
+    The site answers scripts with 403: read the page once in a browser and pass it with --local https://parlament.mt/en/15th-leg/political-groups/=FILE
+    (see skill/references/countries/mt.md)."""
+    import html as _html
+    url = "https://parlament.mt/en/15th-leg/political-groups/"
+    page = get(url, as_json=False).decode("utf-8", "ignore")
+    PARTY = {"Labour Party": "Labour Party", "Nationalist Party": "Nationalist Party"}
+    members = []
+    for title, sec in re.findall(r"<h3>(.*?)</h3>(.*?)(?=<h3>|$)", page, re.S):
+        title = _html.unescape(title).strip()
+        if title not in PARTY:
+            sys.exit(f"Malta: unknown group {title!r}; add it to the adapter")
+        for slug, label in re.findall(r'<a href="/en/\d+th-leg/political-groups/[^/]+/([^/"]+)/?">(.*?)</a>', sec, re.S):
+            label = _html.unescape(re.sub(r"\s+", " ", label)).strip().split(" - ")[0]
+            sur, _, first = label.partition(", ")
+            members.append(dict(name=f"{first} {sur}".strip(), party=PARTY[title], ref=slug, place="", start="", url=""))
+    if len(members) != 79:
+        sys.exit(f"Malta: read {len(members)} members, expected 79; the page has changed, check the adapter")
+    return [dict(name="House of Representatives", level="national", seats=79, source_url=url,
+                 note="79 seats after the general election of 30 May 2026 (Labour 42, Nationalist Party 37; no other party won a seat). Who sits and their party are from the Parliament of Malta's own list of the parliamentary groups, read in a browser because the site refuses scripts. Unlit seats mean nothing found, never opposition.",
+                 role="Member of the House of Representatives", role_re=r"(?i)house of representatives|member of parliament|\bMP\b", role_start=r"(?i)(former )?member of the house of representatives",
+                 members=members, former=[], party_order=["Labour Party", "Nationalist Party"], colours={"Labour Party": "e4002b", "Nationalist Party": "1a3a8c"})]
+
+
+def estonia():
+    """The Riigikogu (101 seats): api.riigikogu.ee plenary-members (open, no key): each member's current parliamentary faction, electoral district and start date.
+    Only the name, faction, district and dates are read: never the phone or e-mail the service also returns."""
+    FACTION = {"Eesti Reformierakonna fraktsioon": "Reform", "Eesti 200 fraktsioon": "Eesti 200", "Eesti Keskerakonna fraktsioon": "Centre Party", "Isamaa fraktsioon": "Isamaa",
+               "Eesti Konservatiivse Rahvaerakonna fraktsioon": "EKRE", "Sotsiaaldemokraatliku Erakonna fraktsioon": "Social Democratic Party",
+               "Fraktsiooni mittekuuluvad Riigikogu liikmed": "Non-attached"}
+    rows = [x for x in get("https://api.riigikogu.ee/api/plenary-members?lang=et") if x.get("active")]
+    members = []
+    for x in rows:
+        f = [g for g in x.get("factions", []) if g["type"]["code"] == "FRAKTSIOON" and not g["membership"].get("endDate")]
+        if len(f) != 1 or f[0]["name"] not in FACTION:
+            sys.exit(f"Estonia: {x['fullName']} has faction(s) {[g['name'] for g in f]}; add it to the adapter")
+        pm = x["plenaryMembership"]
+        dist = next((d["electoralDistrict"]["value"] for d in x.get("electoralDistrictHistory", []) if d["membership"] == pm["membershipNumber"]), "")
+        members.append(dict(name=x["fullName"], party=FACTION[f[0]["name"]], ref=x["uuid"], place=dist, start=(pm.get("startDate") or "")[:10],
+                            url="https://www.riigikogu.ee/tutvustus-ja-ajalugu/riigikogu-liikmed/"))
+    if len(members) != 101:
+        sys.exit(f"Estonia: read {len(members)} members, expected 101; check the adapter")
+    order = ["Social Democratic Party", "Centre Party", "Reform", "Eesti 200", "Isamaa", "EKRE", "Non-attached"]
+    colours = {"Reform": "fed600", "Eesti 200": "0ab4be", "Centre Party": "007f3f", "Isamaa": "009fe3", "EKRE": "8b4513", "Social Democratic Party": "e10600", "Non-attached": "8a8680"}
+    return [dict(name="Riigikogu", level="national", seats=101, source_url="https://api.riigikogu.ee/api/plenary-members?lang=et",
+                 note="101 seats. Who sits and their faction are from the Riigikogu's own open member list (api.riigikogu.ee, plenary-members); members who are not in a faction are shown as Non-attached. Unlit seats mean nothing found, never opposition.",
+                 role="Member of the Riigikogu", role_re=r"(?i)riigikogu", role_start=r"(?i)(former )?member of the riigikogu", members=members, former=[],
+                 party_order=order, colours=colours)]
+
+
+def lithuania():
+    """The Seimas (141 seats): the 'Seimo nariai' member list on lrs.lt (name and faction). The open-data XML (apps.lrs.lt, www.lrs.lt/sip/p2b.ad_seimo_nariai)
+    does not answer from every network, so the HTML list is read. A member in no faction is shown as Non-attached."""
+    import html as _html
+    url = "https://www.lrs.lt/sip/portal.show?p_r=35299&p_k=1"
+    page = get(url, as_json=False).decode("utf-8", "ignore")
+    FACTION = {"Lietuvos socialdemokratų partijos frakcija": "LSDP", "Tėvynės sąjungos-Lietuvos krikščionių demokratų frakcija": "TS-LKD", "„Nemuno aušros“ frakcija": "Nemuno aušra",
+               "Demokratų frakcija „Vardan Lietuvos“": "Vardan Lietuvos", "Liberalų sąjūdžio frakcija": "Liberal Movement",
+               "Lietuvos valstiečių, žaliųjų ir Krikščioniškų šeimų sąjungos frakcija": "LVŽS", "Mišri Seimo narių grupė": "Mixed group"}
+    members = []
+    for it in re.findall(r'<div class="list-member photo">(.*?)(?=<div class="list-member photo">|<hr class="container-hr|$)', page, re.S):
+        a = re.search(r'class="smn-name link"\s*href="[^"]*p_asm_id=(\d+)">(.*?)</a>', it, re.S)
+        f = re.search(r'class="smn-frakcija link"[^>]*>(.*?)</a>', it, re.S)
+        if not a:
+            continue
+        raw = re.sub(r"\s+", " ", _html.unescape(f[1])).strip() if f else ""
+        fac = "Non-attached" if not raw else FACTION.get(raw)
+        if not fac:
+            sys.exit(f"Lithuania: unknown faction {raw!r}; add it to the adapter")
+        name = _html.unescape(re.sub(r"<[^>]+>", "", re.sub(r"<br>", " ", re.sub(r"\s+", " ", a[2])))).strip()
+        members.append(dict(name=name, party=fac, ref=a[1], place="", start="", url=f"https://www.lrs.lt/sip/portal.show?p_r=35299&p_k=1&p_a=498&p_asm_id={a[1]}"))
+    if not 130 <= len(members) <= 141:
+        sys.exit(f"Lithuania: read {len(members)} members, expected about 140; check the adapter")
+    order = ["LSDP", "Liberal Movement", "LVŽS", "Vardan Lietuvos", "Mixed group", "Non-attached", "TS-LKD", "Nemuno aušra"]
+    colours = {"LSDP": "e11931", "TS-LKD": "1b6bb5", "Nemuno aušra": "1f3a93", "Vardan Lietuvos": "e07a1f", "Liberal Movement": "f5a623", "LVŽS": "3a9a3f", "Mixed group": "8a8680", "Non-attached": "8a8680"}
+    return [dict(name="Seimas", level="national", seats=141, source_url=url,
+                 note="141 seats, 2024-2028 term. Who sits and their faction are from the Seimas's own member list (lrs.lt, Seimo nariai); a seat with no member is shown as Vacant and a member in no faction as Non-attached. Unlit seats mean nothing found, never opposition.",
+                 role="Member of the Seimas", role_re=r"(?i)seimas", role_start=r"(?i)(former )?member of the seimas", members=members, former=[],
+                 party_order=order, colours=colours)]
+
+# ---------------------------------------------------------------- Turkey, Algeria, Tunisia, Morocco, Lebanon
+def _tr_name(raw):
+    """TBMM prints 'Given SURNAME' with the surname in capitals: fold the capitals back (Turkish İ and I) so the register's spelling meets it."""
+    out = []
+    for w in raw.replace("ı", "i").split():
+        if w.isupper() and len(w) > 1:
+            w = w.replace("İ", "i").lower()
+            w = "İ" + w[1:] if w.startswith("i") else w[:1].upper() + w[1:]
+        out.append(w)
+    return " ".join(out)
+
+
+def turkey():
+    """The Grand National Assembly of Turkey (600 seats): tbmm.gov.tr/milletvekili/AllList, the Assembly's own list of sitting members by province
+    (name, party, member id). Vacant seats are the 600 minus the names listed."""
+    import html as _h
+    raw = get("https://www.tbmm.gov.tr/milletvekili/AllList", as_json=False).decode("utf-8")
+    PARTY = {"AK Parti": "Justice and Development Party (AK Parti)", "CHP": "Republican People's Party (CHP)", "DEM PARTİ": "Peoples' Equality and Democracy Party (DEM Parti)",
+             "MHP": "Nationalist Movement Party (MHP)", "İYİ Parti": "Good Party (İYİ Parti)", "TİP": "Workers' Party of Turkey (TİP)", "EMEP": "Labour Party (EMEP)",
+             "BAĞIMSIZ": "Independent", "YENİDEN REFAH": "New Welfare Party (YRP)", "SAADET Partisi": "Felicity Party (Saadet)", "DBP": "Democratic Regions Party (DBP)",
+             "DSP": "Democratic Left Party (DSP)", "DP": "Democrat Party (DP)", "HÜDA PAR": "HÜDA PAR", "YENİ YOL": "Yeni Yol group", "Yeni Parti": "Yeni Parti"}
+    prov, members = "", []
+    for m in re.finditer(r'tbmm-list-item-active"[^>]*>([^<]+)<|href="(/milletvekili/milletvekilidetay\?DonemId=[^"]+&(?:amp;)?Id=([^"&]+))"[^>]*>([^<]+)</a>\s*</div>\s*<div[^>]*>\s*([^<]+?)\s*</div>', raw):
+        if m.group(1):
+            prov = _h.unescape(m.group(1)).strip()
+            continue
+        party = _h.unescape(m.group(5)).strip()
+        members.append(dict(name=_tr_name(_h.unescape(m.group(4)).strip()), party=PARTY.get(party, party), ref=m.group(3), place=prov, start="",
+                            url="https://www.tbmm.gov.tr" + _h.unescape(m.group(2))))
+    if len(members) < 500:
+        sys.exit(f"Turkey: read {len(members)} members, expected about 590; the page layout may have changed")
+    order = ["Peoples' Equality and Democracy Party (DEM Parti)", "Workers' Party of Turkey (TİP)", "Labour Party (EMEP)", "Democratic Regions Party (DBP)", "Republican People's Party (CHP)", "Yeni Parti",
+             "Yeni Yol group", "Democratic Left Party (DSP)", "Good Party (İYİ Parti)", "Independent", "Democrat Party (DP)", "Justice and Development Party (AK Parti)",
+             "Nationalist Movement Party (MHP)", "New Welfare Party (YRP)", "HÜDA PAR"]
+    colours = {"Justice and Development Party (AK Parti)": "f5a000", "Republican People's Party (CHP)": "e30a17", "Peoples' Equality and Democracy Party (DEM Parti)": "7b2d8e",
+               "Nationalist Movement Party (MHP)": "b22222", "Good Party (İYİ Parti)": "00a3e0", "Workers' Party of Turkey (TİP)": "d4002a", "Labour Party (EMEP)": "c1121f",
+               "Independent": "8a8680", "New Welfare Party (YRP)": "1e7a3c", "Yeni Yol group": "2a9d8f", "Yeni Parti": "264653"}
+    return [dict(name="Grand National Assembly of Turkey", level="national", seats=600, source_url="https://www.tbmm.gov.tr/milletvekili/liste",
+                 note="600 seats. Sitting members, party and province from the Assembly's own list (tbmm.gov.tr/milletvekili/AllList); seats the list does not name show as Vacant.",
+                 role="Member of Parliament", role_re=r"(?i)member of (?:the )?(?:parliament|grand national assembly)|\bTBMM\b|milletvekili", role_start=r"(?i)member of (?:the )?(?:parliament|grand national assembly)",
+                 members=members, former=[], party_order=order, colours=colours)]
+
+
+def algeria_cn():
+    """The Conseil de la Nation (174 seats): the council's own list of current members (majliselouma.dz, name and party or 'presidential third'), read once in a
+    browser and passed with --local (see skill/references/countries/dz.md): rows of [name in Arabic, party or group, "", member id]."""
+    url = "https://www.majliselouma.dz/ara/الأعضاء/HILO1Dbq"
+    rows = get(url)
+    PARTY = {"حزب جبهة التحرير الوطني": "Front de Libération Nationale (FLN)", "الثلث الرئاسي": "Presidential third", "التجمع الوطني الديمقراطي": "Rassemblement National Démocratique (RND)",
+             "جبهة المستقبل": "Front El Moustakbal", "حركة البناء الوطني": "Mouvement El Bina", "جبهة القوى الاشتراكية": "Front des Forces Socialistes (FFS)",
+             "حركة مجتمع السلم": "Mouvement de la Société pour la Paix (MSP)", "مجموعة الأحرار": "Independents",
+             "تجمع أمل الجزائر": "Tajamou Amal El-Djazair (TAJ)", "حزب صوت الشعب": "Parti Voix du Peuple", "حزب الفجر الجديد": "Parti El Fadjr El Jadid"}
+    members = [dict(name=" ".join(r[0].split()), native=" ".join(r[0].split()), party=PARTY.get(" ".join(r[1].split()), " ".join(r[1].split())), ref=r[3], place="", start="",
+                    url=f"https://www.majliselouma.dz/ara/members/{r[3]}") for r in rows]
+    if len(members) < 100:
+        sys.exit(f"Conseil de la Nation: read {len(members)} members, expected about 150; save the list again (see the Algeria guide)")
+    return [dict(name="Conseil de la Nation", level="national", seats=174, source_url=url,
+                 note="174 seats: two thirds elected by local councillors, one third appointed by the President (the 'presidential third'). Who sits and their party are from the Council's own list of current members (majliselouma.dz), which names about 150; the rest show as Vacant. Unlit seats mean nothing found, never opposition.",
+                 role="Membre du Conseil de la Nation", role_re=r"(?i)conseil de la nation|council of the nation|مجلس الأمة", role_start=r"(?i)(membre du conseil de la nation|member of the council of the nation)",
+                 members=members, former=[], party_order=["Front des Forces Socialistes (FFS)", "Mouvement de la Société pour la Paix (MSP)", "Mouvement El Bina", "Independents",
+                                                           "Front El Moustakbal", "Rassemblement National Démocratique (RND)", "Presidential third", "Front de Libération Nationale (FLN)"],
+                 colours={"Front de Libération Nationale (FLN)": "d62718", "Rassemblement National Démocratique (RND)": "1d4e9e", "Presidential third": "8a8680", "Front El Moustakbal": "2a9d8f",
+                          "Mouvement El Bina": "1e7a3c", "Front des Forces Socialistes (FFS)": "e63946", "Mouvement de la Société pour la Paix (MSP)": "3b8d3b", "Independents": "b0a99f"})]
+
+
+def algeria_apn():
+    """The Assemblée Populaire Nationale (407 seats): apn.dz does not answer from outside Algeria (DZSecurity), so this draws on Wikidata: the members whose
+    position 'Member of the People's National Assembly of Algeria' (Q21290886) started in 2026 and has no end date. Partial; the rest show as 'Not named'."""
+    q = ('SELECT ?p ?pLabel ?partyLabel WHERE { ?p p:P39 ?s . ?s ps:P39 wd:Q21290886 . ?s pq:P580 ?start . FILTER(?start >= "2026-01-01T00:00:00Z"^^xsd:dateTime) '
+         'OPTIONAL { ?s pq:P582 ?end } FILTER(!BOUND(?end) || ?end > NOW()) OPTIONAL { ?p wdt:P102 ?party } '
+         'SERVICE wikibase:label { bd:serviceParam wikibase:language "en,fr,ar". } }')
+    d = get("https://query.wikidata.org/sparql?query=" + urllib.parse.quote(q) + "&format=json", headers=WIKI_UA)["results"]["bindings"]
+    by = {}
+    for x in d:
+        qid = x["p"]["value"].rsplit("/", 1)[-1]
+        by.setdefault(qid, dict(name=x["pLabel"]["value"], party=x.get("partyLabel", {}).get("value", "Party not given"), qid=qid, ref=qid, place="", start="",
+                                url="https://www.wikidata.org/wiki/" + qid))
+    members = [m for m in by.values() if not re.match(r"^Q\d+$", m["name"])]
+    if len(members) < 20:
+        sys.exit(f"APN: read {len(members)} members from Wikidata, expected about 75; check the query")
+    return [_upper("Assemblée Populaire Nationale", 407, "https://www.wikidata.org/wiki/Q633590",
+                   "407 seats. apn.dz does not answer from outside Algeria, so this chart shows only the members Wikidata records for the Assembly elected in 2026, a small part of the seats; the rest show as 'Not named', which is not the same as vacant. Unlit seats mean nothing found, never opposition.",
+                   "Député", r"(?i)assemblée populaire nationale|people's national assembly|\bAPN\b|المجلس الشعبي الوطني", members, {}, vacant="Not named")]
+
+
+def tunisia_arp():
+    """The Assemblée des représentants du peuple (161 seats): arp.tn/parlementaire/groupes lists each member with their bloc and constituency, read once in a
+    browser and passed with --local (see skill/references/countries/tn.md): rows of [name in Arabic, bloc, role in the bloc, constituency, member page]."""
+    url = "https://www.arp.tn/parlementaire/groupes"
+    rows = get(url)
+    BLOC = {"غير المنتمين إلى كتل": "Non-affiliated (no bloc)", "كتلة الأحرار": "Free Bloc (Al-Ahrar)", "كتلة الخط الوطني السيادي": "National Sovereign Line Bloc",
+            "كتلة الأمانة والعمل": "Al-Amana wal-Amal Bloc", "كتلة لينتصر الشعب": "Bloc Pour que le peuple triomphe", "كتلة الوطنية المستقلة": "Independent National Bloc",
+            "كتلة صوت الجمهورية": "Voice of the Republic Bloc", "": "Non-affiliated (no bloc)"}
+    members = [dict(name=" ".join(r[0].split()), native=" ".join(r[0].split()), party=BLOC.get(r[1].strip(), r[1].strip()), ref=r[4].rsplit("/", 1)[-1], place=r[3], start="",
+                    url="https://www.arp.tn" + r[4]) for r in rows]
+    if len(members) < 120:
+        sys.exit(f"ARP: read {len(members)} members, expected about 150; save the list again (see the Tunisia guide)")
+    order = ["Non-affiliated (no bloc)", "Bloc Pour que le peuple triomphe", "Independent National Bloc", "Free Bloc (Al-Ahrar)", "Voice of the Republic Bloc", "Al-Amana wal-Amal Bloc", "National Sovereign Line Bloc"]
+    return [dict(name="Assemblée des représentants du peuple", level="national", seats=161, source_url=url,
+                 note="161 seats. Who sits, their bloc and constituency are from the Assembly's own list of blocs (arp.tn), which names about 150 members; the rest show as Vacant. The Assembly publishes blocs, not parties. Unlit seats mean nothing found, never opposition.",
+                 role="Member of the Assembly of the Representatives of the People", role_re=r"(?i)assembl[ée]e des repr[ée]sentants|\bARP\b|representatives of the people|مجلس نواب الشعب", role_start=r"(?i)(member of the assembl|membre de l.assembl|member; )",
+                 members=members, former=[], party_order=order,
+                 colours={"Non-affiliated (no bloc)": "8a8680", "Bloc Pour que le peuple triomphe": "c1121f", "Independent National Bloc": "e07a1f", "Free Bloc (Al-Ahrar)": "2a9d8f",
+                          "Voice of the Republic Bloc": "9ccc65", "Al-Amana wal-Amal Bloc": "ef7a85", "National Sovereign Line Bloc": "6c757d"})]
+
+
+def tunisia_cnrd():
+    """The Conseil national des régions et des districts (77 seats): the chamber's own member list (cnrd.tn, name, governorate, development region). No party is given, so
+    seats are grouped by development region."""
+    import html as _h
+    url = "https://www.cnrd.tn/%d9%82%d8%a7%d8%a6%d9%85%d8%a9-%d8%a7%d9%84%d9%86%d9%88%d8%a7%d8%a8/"
+    raw = get(url, as_json=False).decode("utf-8")
+    REG = {"الأول": "Region 1", "الثاني": "Region 2", "الثالث": "Region 3", "الرابع": "Region 4", "الخامس": "Region 5"}
+    members = []
+    for tr in re.findall(r"<tr class=\"row-\d+\">(.*?)</tr>", raw, flags=re.S):
+        td = [_h.unescape(re.sub(r"<[^>]+>", "", c)).strip() for c in re.findall(r"<td[^>]*>(.*?)</td>", tr, flags=re.S)]
+        if len(td) < 3 or not td[0]:
+            continue
+        reg = REG.get(td[2].replace("الإقليم", "").strip(), td[2])
+        members.append(dict(name=" ".join(td[0].split()), native=" ".join(td[0].split()), party=reg, ref="", place=td[1], start="", url=url))
+    if len(members) < 60:
+        sys.exit(f"CNRD: read {len(members)} members, expected 77; the page layout may have changed")
+    return [dict(name="Conseil national des régions et des districts", level="national", seats=77, source_url=url,
+                 note="77 seats. Who sits and their governorate are from the chamber's own member list (cnrd.tn). The list gives no party, so seats are grouped by development region.",
+                 role="Member of the National Council of Regions and Districts", role_re=r"(?i)conseil national des r[ée]gions|national council of regions|\bCNRD\b|المجلس الوطني للجهات والأقاليم", role_start=r"(?i)(member of the national council|chair of the finance committee, conseil national|vice-chair of the finance committee, conseil national)",
+                 members=members, former=[], party_order=["Region 1", "Region 2", "Region 3", "Region 4", "Region 5"],
+                 colours={"Region 1": "2a9d8f", "Region 2": "e9c46a", "Region 3": "f4a261", "Region 4": "e76f51", "Region 5": "6a4c93"})]
+
+
+_MA_PARTY = {"حزب التجمع الوطني للأحرار": "Rassemblement National des Indépendants (RNI)", "حزب الاستقلال": "Parti de l'Istiqlal", "حزب الأصالة والمعاصرة": "Parti Authenticité et Modernité (PAM)",
+             "حزب الحركة الديمقراطية الاجتماعية": "Mouvement Démocratique et Social (MDS)", "حزب الإنصاف": "Parti de l'Équité (Al Insaf)", "حزب العدالة والتنمية": "Parti de la Justice et du Développement (PJD)",
+             "الاتحاد الاشتراكي للقوات الشعبية": "Union Socialiste des Forces Populaires (USFP)", "حزب الحركة الشعبية": "Mouvement Populaire (MP)", "حزب التقدم والاشتراكية": "Parti du Progrès et du Socialisme (PPS)",
+             "حزب الاتحاد الدستوري": "Union Constitutionnelle (UC)", "جبهة القوى الديمقراطية": "Front des Forces Démocratiques (FFD)", "حزب الوحدة والديمقراطية": "Parti de l'Unité et de la Démocratie",
+             "حزب فيدرالية اليسار الديمقراطي (تحالف اليسار)": "Fédération de la Gauche Démocratique (FGD)", "الحزب الاشتراكي الموحد": "Parti Socialiste Unifié (PSU)", "حزب الديمقراطيين الجدد": "Parti des Démocrates Nouveaux"}
+
+
+def morocco():
+    """The Chambre des Représentants (395 seats): the House's own directory of members for 2026-2031 (chambredesrepresentants.ma, name, party, member page), read once in a
+    browser (the site refuses scripts) and passed with --local (see skill/references/countries/ma.md): rows of [name in Arabic, party, member page]."""
+    url = "https://www.chambredesrepresentants.ma/ar/دليل-أعضاء-مجلس-النواب/2026-2031"
+    rows = get(url)
+    members = [dict(name=" ".join(r[0].split()), native=" ".join(r[0].split()), party=_MA_PARTY.get(r[1].strip(), r[1].strip()), ref=r[2].rsplit("/", 1)[-1], place="", start="2026",
+                    url="https://www.chambredesrepresentants.ma" + r[2]) for r in rows]
+    if len(members) < 300:
+        sys.exit(f"Chambre des Représentants: read {len(members)} members, expected about 383; save the list again (see the Morocco guide)")
+    left = ["Fédération de la Gauche Démocratique (FGD)", "Parti Socialiste Unifié (PSU)", "Parti du Progrès et du Socialisme (PPS)", "Union Socialiste des Forces Populaires (USFP)"]
+    order = left + ["Parti des Démocrates Nouveaux", "Front des Forces Démocratiques (FFD)", "Parti de l'Unité et de la Démocratie", "Parti de la Justice et du Développement (PJD)", "Mouvement Démocratique et Social (MDS)",
+                    "Parti de l'Équité (Al Insaf)", "Parti Authenticité et Modernité (PAM)", "Union Constitutionnelle (UC)", "Mouvement Populaire (MP)", "Parti de l'Istiqlal", "Rassemblement National des Indépendants (RNI)"]
+    return [dict(name="Chambre des Représentants", level="national", seats=395, source_url=url,
+                 note="395 seats, elected in September 2026. Who sits and their party are from the House's own directory of members for 2026-2031 (chambredesrepresentants.ma), which names 383 so far; the rest show as Vacant. Unlit seats mean nothing found, never opposition.",
+                 role="Député à la Chambre des Représentants", role_re=r"(?i)chambre des repr[ée]sentants|house of representatives|مجلس النواب", role_start=r"(?i)(d[ée]put[ée]e? à la chambre des repr|member of the house of repr)",
+                 members=members, former=[], party_order=order,
+                 colours={"Rassemblement National des Indépendants (RNI)": "2b8fd6", "Parti Authenticité et Modernité (PAM)": "7b4b9a", "Parti de l'Istiqlal": "c8102e", "Parti de la Justice et du Développement (PJD)": "f28c28",
+                          "Union Socialiste des Forces Populaires (USFP)": "e63946", "Mouvement Populaire (MP)": "3b8d3b", "Parti du Progrès et du Socialisme (PPS)": "b5121b", "Union Constitutionnelle (UC)": "e9c46a",
+                          "Fédération de la Gauche Démocratique (FGD)": "9d0208", "Parti Socialiste Unifié (PSU)": "d00000", "Mouvement Démocratique et Social (MDS)": "2a9d8f", "Parti de l'Équité (Al Insaf)": "6c757d"})]
+
+
+def lebanon():
+    """The Parliament of Lebanon (128 seats): lp.gov.lb/Members.aspx, the Parliament's own page of members (name, region, confession; no party). The members sitting carry a region
+    and a confession; earlier members are listed on the same page without them. Seats are grouped by the confession each is reserved for."""
+    import html as _h
+    raw = get("https://www.lp.gov.lb/Members.aspx", as_json=False).decode("utf-8", errors="ignore")
+    SECT = {"ماروني": "Maronite", "سني": "Sunni", "شيعي": "Shia", "روم أرثوذكس": "Greek Orthodox", "درزي": "Druze", "روم كاثوليك": "Greek Catholic", "أرمن أرثوذكس": "Armenian Orthodox",
+            "علوي": "Alawite", "إنجيلي": "Evangelical", "أرمن كاثوليك": "Armenian Catholic", "أقليات": "Minorities"}
+    members, former = [], []
+    for b in raw.split("isotope-item")[1:]:
+        n, i = re.search(r"<h3>(.*?)</h3>", b, re.S), re.search(r"MemberDetails\.aspx\?Id=(\d+)", b)
+        if not (n and i):
+            continue
+        name = " ".join(_h.unescape(n.group(1)).split())
+        reg, sect = re.search(r"<h4>(.*?)</h4>", b, re.S), re.search(r"المذهب:\s*</strong>\s*([^<]*)", b)
+        url = f"https://www.lp.gov.lb/MemberDetails.aspx?Id={i.group(1)}"
+        if reg and reg.group(1).strip() and sect:
+            s = " ".join(_h.unescape(sect.group(1)).split())
+            s = SECT.get(s, SECT.get(s.replace("  ", " "), s))
+            members.append(dict(name=name, native=name, party=s, ref=i.group(1), place=_h.unescape(reg.group(1)).strip(" ,"), start="", url=url))
+        else:
+            former.append(dict(name=name, native=name, party="", ref=i.group(1), end="", start="", url=url))
+    if len(members) < 100:
+        sys.exit(f"Lebanon: read {len(members)} members, expected 128; the page layout may have changed")
+    order = ["Shia", "Sunni", "Druze", "Alawite", "Maronite", "Greek Orthodox", "Greek Catholic", "Armenian Orthodox", "Armenian Catholic", "Evangelical", "Minorities"]
+    return [dict(name="Parliament of Lebanon (Majlis al-Nuwwab)", level="national", seats=128, source_url="https://www.lp.gov.lb/Members.aspx",
+                 note="128 seats, split equally between Christians and Muslims, each reserved for a confession. Who sits is from the Parliament's own page of members (lp.gov.lb); it gives each member's region and confession, not a party, so seats are grouped by confession. Unlit seats mean nothing found, never opposition.",
+                 role="Member of Parliament", role_re=r"(?i)member of parliament|parliament of lebanon|مجلس النواب", role_start=r"(?i)member of parliament",
+                 members=members, former=former, party_order=order,
+                 colours={"Maronite": "b5121b", "Sunni": "2a9d8f", "Shia": "e9c46a", "Greek Orthodox": "7b4b9a", "Druze": "f28c28", "Greek Catholic": "c9184a", "Armenian Orthodox": "6c757d",
+                          "Alawite": "3b8d3b", "Evangelical": "2b8fd6", "Armenian Catholic": "9d0208", "Minorities": "b0a99f"})]
+
+def russia():
+    """The State Duma (450 seats; duma.gov.ru, the members page of each faction of the 9th convocation, plus the deputies who belong to none) and the
+    Federation Council (council.gov.ru, the senators' list: two for each region and up to thirty appointed by the President, no parties)."""
+    import html as _html
+    FACTION = {"72100024": "United Russia", "72100004": "Communist Party of the Russian Federation", "72100027": "A Just Russia - For Truth",
+               "72100005": "Liberal Democratic Party of Russia", "72100035": "New People", "72100011": "Non-attached"}
+    members, seen = [], set()
+    for fid, party in FACTION.items():
+        raw = get(f"http://duma.gov.ru/duma/factions/{fid}/members/", as_json=False).decode("utf-8", errors="replace")
+        for blk in raw.split('<li class="list-persons__item">')[1:]:
+            m = re.search(r'person__title__link[^>]*href="/duma/persons/(\d+)/".*?<strong>(.*?)</strong><br/><span\s+class="second-name">(.*?)</span>', blk, re.S)
+            if not m or m[1] in seen:
+                continue
+            seen.add(m[1])
+            post = re.search(r'class="person__post">(.*?)</div>', blk, re.S)
+            place = re.sub(r"^Депутат Государственной Думы\s*", "", _html.unescape(re.sub(r"\s+", " ", post[1])).strip()) if post else ""
+            full = _html.unescape(f"{m[2]} {m[3]}").strip()
+            if any(x["name"] == full and x["party"] == party and x["place"] == place for x in members):  # one person listed under two ids (Tkachev, New People)
+                continue
+            members.append(dict(name=full, native=full, party=party, ref=m[1], place=place, start="", url=f"http://duma.gov.ru/duma/persons/{m[1]}/"))
+    if len(members) < 400:
+        sys.exit(f"State Duma: read {len(members)} deputies, expected about 450; the site has changed, check the adapter")
+    raw = get("http://council.gov.ru/structure/members/", as_json=False).decode("utf-8", errors="replace")
+    senators = []
+    for m in re.finditer(r'href="/structure/persons/(\d+)/"\s+class="group__persons__item[^"]*"\s+data-title="([^"]+)"\s+data-region-id="[^"]*"\s+data-region-title="([^"]*)"', raw):
+        n = _html.unescape(m[2]).strip()
+        senators.append(dict(name=n, native=n, party="Regional representatives (no party)", ref=m[1], place=_html.unescape(m[3]), start="", url=f"http://council.gov.ru/structure/persons/{m[1]}/"))
+    if len(senators) < 150:
+        sys.exit(f"Federation Council: read {len(senators)} senators, expected about 170 to 178; the site has changed, check the adapter")
+    duma = dict(name="State Duma", level="national", seats=450, source_url="http://duma.gov.ru/duma/deputies/",
+                note="450 seats, 9th convocation (elected 18-20 September 2026): 225 by party list and 225 in single-member districts. Who sits and their faction are from the Duma's own pages (duma.gov.ru), one for each faction and one for the deputies in none. Unlit seats mean nothing found, never opposition.",
+                role="Member of the State Duma", role_re=r"(?i)state duma|duma deputy|депутат", role_start=r"(?i)member of the (russian )?state duma",
+                members=members, former=[], party_order=["Communist Party of the Russian Federation", "A Just Russia - For Truth", "New People", "Non-attached", "Liberal Democratic Party of Russia", "United Russia"],
+                colours={"United Russia": "0054a5", "Communist Party of the Russian Federation": "d71a21", "A Just Russia - For Truth": "f5b803", "Liberal Democratic Party of Russia": "003399",
+                         "New People": "00a896", "Non-attached": "888888"})
+    return [duma,
+            _upper("Federation Council", len(senators), "http://council.gov.ru/structure/members/",
+                   f"{len(senators)} senators named on the Council's own list (council.gov.ru): two for each region, one from the regional legislature and one from its executive, and up to thirty appointed by the President. Members have no party. Unlit seats mean nothing found, never opposition.",
+                   "Member of the Federation Council", r"(?i)federation council|senator|член совета федерации|сенатор", senators, {"Regional representatives (no party)": "7a8f5a"})]
+
+
+def bulgaria():
+    """The Narodno sabranie (240 seats, 52nd National Assembly): the Assembly's open-data endpoint (parliament.bg/api/v1/coll-list-ns/bg) with the 240 members in
+    office, their parliamentary group, constituency and the date they joined it. Names are in Cyrillic (upper case), kept as the native name."""
+    GROUP = {"3763": "Progressive Bulgaria", "3764": "GERB-SDS", "3766": "Movement for Rights and Freedoms (DPS)", "3767": "Democratic Bulgaria",
+             "3765": "We Continue the Change", "3768": "Vazrazhdane"}
+    d = get("https://www.parliament.bg/api/v1/coll-list-ns/bg")
+    members = []
+    for x in d["colListMP"]:
+        if x["A_ns_MSP_date_T"] < "9999":
+            continue
+        native = " ".join(x[f"A_ns_MPL_Name{i}"].strip().title() for i in (1, 2, 3) if x.get(f"A_ns_MPL_Name{i}"))
+        members.append(dict(name=native, native=native, party=GROUP.get(str(x["A_ns_C_id"]), re.sub(r'^Парламентарна група( на)?\s*', "", x["A_ns_CL_value"]).strip('"')),
+                            ref=str(x["A_ns_MP_id"]), place=x.get("A_ns_Va_name", ""), start=x["A_ns_MSP_date_F"],
+                            url=f"https://www.parliament.bg/bg/MP/{x['A_ns_MP_id']}"))
+    if len(members) < 200:
+        sys.exit(f"Narodno sabranie: read {len(members)} members, expected 240; the endpoint has changed, check the adapter")
+    return [dict(name="Narodno sabranie (National Assembly)", level="national", seats=240, source_url="https://www.parliament.bg/bg/MP",
+                 note="240 seats, 52nd National Assembly (opened 30 April 2026). Who sits, their parliamentary group and constituency are from the Assembly's own open-data endpoint (parliament.bg/api/v1/coll-list-ns/bg); the start date is the day the member joined the group they are in now. Groups, not parties: DB and PP formed separate groups. Unlit seats mean nothing found, never opposition.",
+                 role="Member of the National Assembly", role_re=r"(?i)national assembly|народно събрание|народен представител", role_start=r"(?i)member of the (bulgarian )?national assembly",
+                 members=members, former=[],
+                 party_order=["Democratic Bulgaria", "We Continue the Change", "Movement for Rights and Freedoms (DPS)", "GERB-SDS", "Vazrazhdane", "Progressive Bulgaria"],
+                 colours={"Progressive Bulgaria": "1d4e89", "GERB-SDS": "1f9bd1", "Movement for Rights and Freedoms (DPS)": "7a4cc2", "Democratic Bulgaria": "f2a71b",
+                          "We Continue the Change": "e2572e", "Vazrazhdane": "6b6b6b"})]
+
+
+def _cdep(cam):
+    """One chamber of the Romanian Parliament from cdep.ro's alphabetical list: (sitting members, members whose mandate ended, with their end date). Names are
+    'Surname Given'; the order of names does not matter to the matcher."""
+    import html as _html
+    url = "https://www.cdep.ro/ords/pls/parlam/structura2015.de?idl=1" if cam == 2 else "https://www.cdep.ro/ords/pls/parlam/structura2015.de?idl=1&cam=1&leg=2024"
+    raw = get(url, as_json=False).decode("utf-8", errors="replace")
+    cut = raw.find("ncetat mandatul")  # the second table: 'Deputati/Senatori care si-au incetat mandatul'
+    sitting, ended = (raw[:cut], raw[cut:]) if cut > 0 else (raw, "")
+    PARTY = {"Neafiliaţi": "Independent", "Neafiliați": "Independent", "Minoritati": "Minorities", "Minorități": "Minorities", "Minorităţi": "Minorities"}
+
+    def iso(d):
+        m = re.fullmatch(r"(\d+)\.(\d+)\.(\d{4})", d.strip())
+        return f"{m[3]}-{int(m[2]):02d}-{int(m[1]):02d}" if m else ""
+
+    def rows(part, with_end):
+        out = []
+        for r in re.findall(r'<tr[^>]*>\s*<td width="5%" nowrap>\d+\.</td>(.*?)</tr>', part, re.S):
+            m = re.search(r'structura2015\.mp\?idm=(\d+)[^>]*>(.*?)</a>', r, re.S)
+            g = re.search(r'structura2015\.gp[^>]*>(.*?)<br>', r, re.S)
+            if not m or not g:
+                continue
+            cells = [re.sub(r"<[^>]+>", "", c).strip() for c in re.findall(r'<td nowrap>(.*?)</td>', r, re.S)]
+            place = re.search(r'structura2015\.ce[^>]*>(.*?)</a>', r, re.S)
+            party = _html.unescape(g[1]).strip()
+            row = dict(name=_html.unescape(re.sub(r"\s+", " ", m[2])).strip(), party=PARTY.get(party, party), ref=m[1],
+                       place=_html.unescape(place[1]).strip() if place else "", url=f"https://www.cdep.ro/ords/pls/parlam/structura2015.mp?idm={m[1]}&cam={cam}&leg=2024")
+            d = iso(cells[-1]) if cells else ""
+            if with_end:
+                row["end"], row["start"] = d, ""
+            else:
+                row["start"] = d or "2024-12-21"
+            out.append(row)
+        return out
+    return rows(sitting, False), rows(ended, True), url
+
+
+def romania():
+    """The Camera Deputaților (330 seats) and the Senatul României (136), both from cdep.ro's alphabetical lists of the 2024 legislature: the sitting members
+    (group, constituency, date they joined) and, below them, the members whose mandate ended before the term did (with the end date). senat.ro
+    publishes its list only as a postback grid; cdep.ro carries both chambers."""
+    out = []
+    for cam, name, seats, role, rre in ((2, "Camera Deputaților", 330, "Deputy", r"(?i)\bdeputy\b|deputat|camera deputa|chamber of deputies"), (1, "Senatul României", 136, "Senator", r"(?i)\bsenator|senatul|senate of romania")):
+        cur, former, url = _cdep(cam)
+        if len(cur) < seats - 10:
+            sys.exit(f"{name}: read {len(cur)} members, expected {seats}; the page has changed, check the adapter")
+        out.append(dict(name=name, level="national", seats=seats, source_url=url,
+                        note=f"{seats} seats, 2024-2028 legislature (first sitting 21 December 2024). Who sits, their group and constituency are from the Chamber of Deputies' own alphabetical list (cdep.ro, which carries both chambers); affiliated members count with their group, and 'Independent' means unaffiliated. Unlit seats mean nothing found, never opposition.",
+                        role=role, role_re=rre, role_start=rre, members=cur, former=former,
+                        party_order=["Minorities", "USR", "UDMR", "PACE", "UPR", "SOS RO", "Independent", "PNL", "PSD", "AUR"],
+                        colours={"PSD": "e4202d", "Minorities": "9e9e9e", "USR": "00aeef", "UDMR": "2e8b57", "PNL": "1d6fb8", "UPR": "c2185b", "SOS RO": "6d4c41", "AUR": "f2a900",
+                                 "Independent": "8a8680", "PACE": "7a3e9d"}))
+    return out
+
+
+def slovenia():
+    """The Državni zbor (90 seats): the Assembly's open data file SIF.XML (fotogalerija.dz-rs.si/datoteke/opendata/SIF.XML): the persons who are deputies today
+    and the deputy group each belongs to. Only the Assembly's own people file is read (names, group, voting district), nothing personal."""
+    import xml.etree.ElementTree as ET
+    root = ET.fromstring(get("https://fotogalerija.dz-rs.si/datoteke/opendata/SIF.XML", as_json=False))
+    GROUP = {"PS030": "Freedom Movement", "PS013": "Social Democrats", "PS026": "Levica", "PS045": "Democrats (Logar)", "PS017": "NSi, SLS and Fokus",
+             "PS044": "Resni.ca", "PS012": "Slovenian Democratic Party (SDS)", "PS018": "Italian and Hungarian minorities"}
+    groups = {x.findtext("SUBJEKT_FUNKCIJA_SIFRA"): x for x in root.iter("SUBJEKT_FUNKCIJA") if x.findtext("SUBJEKT_FUNKCIJA_TIP") == "PS"}
+    of = {}
+    for x in root.iter("POVEZAVA"):
+        if x.findtext("SUBJEKTI_FUNKCIJA_SIFRA") in groups:
+            of[x.findtext("OSEBA_SIFRA")] = x.findtext("SUBJEKTI_FUNKCIJA_SIFRA")
+    members = []
+    for o in root.iter("OSEBA"):
+        sid = o.findtext("OSEBA_SIFRA")
+        if o.findtext("OSEBA_JE_POSLANEC") != "1" or sid not in of:
+            continue
+        g = groups[of[sid]]
+        party = GROUP.get(of[sid]) or re.sub(r"^Poslanska skupina\s*", "", g.findtext("SUBJEKT_FUNKCIJA_NAZIV").split("\n")[0]).strip()
+        members.append(dict(name=f"{o.findtext('OSEBA_IME').strip()} {o.findtext('OSEBA_PRIIMEK').strip()}", party=party, ref=sid, start="",
+                            place=(o.findtext("OSEBA_POSLANSKI_MANDAT/POSLANSKI_MANDAT_OKRAJ_NAZIV") or "").strip(), url="https://www.dz-rs.si/wps/portal/Home/ODDZ/PoslanskeSkupine"))
+    if len(members) < 80:
+        sys.exit(f"Državni zbor: read {len(members)} deputies, expected 90; the file has changed, check the adapter")
+    return [dict(name="Državni zbor (National Assembly)", level="national", seats=90, source_url="https://www.dz-rs.si/wps/portal/Home/ODDZ/PoslanskeSkupine",
+                 note="90 seats (88 general plus 2 minority), 10th term (from 10 April 2026). Who sits and their deputy group are from the Assembly's own open data file SIF.XML (dz-rs.si/wps/portal/Home/ostalo/OpenData). The file gives no start date for a deputy, so none is shown. Unlit seats mean nothing found, never opposition.",
+                 role="Member of the National Assembly", role_re=r"(?i)national assembly|državni zbor|poslan(ec|ka)", role_start=r"(?i)member of the (slovenian )?national assembly",
+                 members=members, former=[],
+                 party_order=["Levica", "Social Democrats", "Resni.ca", "Freedom Movement", "Democrats (Logar)", "NSi, SLS and Fokus", "Slovenian Democratic Party (SDS)", "Italian and Hungarian minorities"],
+                 colours={"Freedom Movement": "5fb946", "Social Democrats": "e4002b", "Levica": "8b1a2b", "Democrats (Logar)": "7a4cc2", "NSi, SLS and Fokus": "1f6fb4",
+                          "Resni.ca": "6b7280", "Slovenian Democratic Party (SDS)": "f5a800", "Italian and Hungarian minorities": "a3a3a3"})]
+
+
+def croatia():
+    """The Hrvatski sabor (151 seats, 11th Sabor): sabor.hr/hr/zastupnici, the Sabor's own list of representatives with their party, electoral district and mandate
+    status: active ones sit; those 'U mirovanju' keep their seat while a substitute serves (on leave, not former); 'Završen' ended."""
+    import html as _html
+    BASE = "https://www.sabor.hr/hr/zastupnici"
+    PARTY = {"NZ": "Independent", "DP": "Domovinski pokret", "stranka Nezavisni": "Nezavisni"}
+
+    def read(status):
+        out, page, total = [], 0, None
+        while total is None or len(out) < total:
+            raw = get(f"{BASE}?field_status_mandata_target_id={status}&page={page}", as_json=False).decode("utf-8", errors="replace")
+            total = int(re.search(r"Ukupno rezultata:\s*<strong>(\d+)", raw)[1])
+            rows = re.findall(r'<tr><td headers="view-field-prezime.*?</tr>', raw, re.S)
+            if not rows:
+                break
+            for r in rows:
+                m = re.search(r'href="(/hr/zastupnici/([a-z0-9-]+)-11-saziv)">([^<]+)</a>', r)
+                cells = [_html.unescape(re.sub(r"<[^>]+>", "", c)).strip() for c in re.findall(r'<td headers="view-view-sabor-data-[12][^>]*>(.*?)</td>', r, re.S)]
+                if not m or len(cells) < 2:
+                    continue
+                sur, _, given = _html.unescape(m[3]).partition(",")
+                out.append(dict(name=f"{given.strip()} {sur.strip()}", party=PARTY.get(cells[0], cells[0]), ref=m[2], place=cells[1], start="", url="https://www.sabor.hr" + m[1]))
+            page += 1
+        return out
+    members = read(104)
+    if len(members) < 130:
+        sys.exit(f"Sabor: read {len(members)} active representatives, expected about 150; the site has changed, check the adapter")
+    former = [dict(m, on_leave=True) for m in read(106)] + [dict(m, end="") for m in read(108)]
+    return [dict(name="Hrvatski sabor", level="national", seats=151, source_url="https://www.sabor.hr/hr/zastupnici",
+                 note="151 seats, 11th Sabor (from 16 May 2024). Who sits (mandate status 'Aktivan', a substitute counting for a member on leave) and their party are from the Sabor's own list of representatives (sabor.hr); the list gives no start date. A seat the list does not account for shows as Vacant. Unlit seats mean nothing found, never opposition.",
+                 role="Member of the Croatian Parliament", role_re=r"(?i)sabor|croatian parliament|zastupnik", role_start=r"(?i)member of the (croatian parliament|sabor)",
+                 members=members, former=former,
+                 party_order=["HDZ", "Domovinski pokret", "Most", "Independent", "SDSS", "SDP", "Možemo!"],
+                 colours={"HDZ": "1f4fa3", "SDP": "e4002b", "Domovinski pokret": "0d6b3d", "Most": "f08a00", "Možemo!": "6dc04b", "Independent": "8a8680"})]
+
+
+def _parlament_ba(kind):
+    """The Parliamentary Assembly of Bosnia and Herzegovina's own list (parlament.ba/<kind>/List, ten rows a page): (sitting members, ended ones with their end date).
+    A name may carry '* do 10.10.2024.' (until) or '* član od 10.10.2024.' (from); the party is the badge, or the club when none is shown."""
+    import html as _html
+
+    def iso(d):
+        m = re.fullmatch(r"(\d+)\.(\d+)\.(\d{4})\.?", d.strip())
+        return f"{m[3]}-{int(m[2]):02d}-{int(m[1]):02d}" if m else ""
+    PARTY = {"HDZ BiH, HSS, HSP BiH, HKDU, HSPAS, HDU, HSPHB, HRAST": "HDZ BiH coalition", "ŽELJKO KOMŠIĆ – ZA GRAĐANSKU DRŽAVU – DF/GS": "DF - Komšić",
+             "NES - Za nove generacije": "NES", "Bosanskohercegovačka inicijativa - Kasumović Fuad": "BH Initiative - Kasumović", "DF": "DF - Komšić", "Nezavisni delegat": "Independent",
+             "ZA PRAVDU I RED - Lista Nebojše Vukanovića": "Za pravdu i red (Vukanović)"}
+    cur, former, page = [], [], 1
+    while page < 12:
+        raw = get(f"https://www.parlament.ba/{kind}/List?page={page}", as_json=False).decode("utf-8", errors="replace")
+        rows = re.findall(r'<tr class="[^"]*"\s*>(.*?)</tr>', raw, re.S)
+        if not rows:
+            break
+        for r in rows:
+            m = re.search(rf'href="/{kind}/detail/(\d+)\s*"', r)
+            t = [_html.unescape(re.sub(r"\s+", " ", re.sub(r"<[^>]+>", "", c))).strip() for c in re.findall(r"<td[^>]*>(.*?)</td>", r, re.S)]
+            if not m or len(t) < 5:
+                continue
+            nm, club, badge, place = t[1], t[2], t[3], t[4]
+            end = start = ""
+            e = re.search(r"\*\s*do\s+([\d.]+)", nm)
+            f = re.search(r"\*\s*član od\s+([\d.]+)", nm)
+            if e:
+                end = iso(e[1])
+            if f:
+                start = iso(f[1])
+            nm = re.sub(r"\s*\*.*$", "", nm).strip()
+            sur, _, given = nm.partition(",")
+            party = PARTY.get(badge, badge) or (re.sub(r"^Klub poslanika\s*", "", club) if "Naša stranka" in club else "No party shown")
+            row = dict(name=f"{given.strip()} {sur.strip()}".strip(), party=party, ref=m[1], place=place, start=start, url=f"https://www.parlament.ba/{kind}/detail/{m[1]}")
+            if end:
+                row["end"] = end
+                former.append(row)
+            else:
+                cur.append(row)
+        page += 1
+    return cur, former
+
+
+def bosnia():
+    """Bosnia and Herzegovina: the House of Representatives (42) and the House of Peoples (15) of the Parliamentary Assembly (parlament.ba's own lists) and the House
+    of Representatives of the Federation (98; predstavnickidom-pfbih.gov.ba/zastupnici, members grouped by party). The Federation's House of Peoples
+    (80 delegates) publishes no current list (its site shows the 2014-2018 term), so it has no chart."""
+    import html as _html
+    hor, hor_former = _parlament_ba("representative")
+    hop, hop_former = _parlament_ba("delegate")
+    if len(hor) < 38 or len(hop) < 12:
+        sys.exit(f"Parlamentarna skupština: read {len(hor)} representatives and {len(hop)} delegates, expected 42 and 15; the site has changed, check the adapter")
+    FB = {"SDA - STRANKA DEMOKRATSKE AKCIJE": "SDA", "HDZ BIH,HSSSR,HSS,HSP BIH,HKDU,HSPAS,HDU,HSPHB,HRAST,HNL": "HDZ BiH coalition", "SDP - SOCIJALDEMOKRATSKA PARTIJA BOSNE I HERCEGOVINE": "SDP BiH",
+          "ŽELJKO KOMŠIĆ - ZA GRAĐANSKU DRŽAVU - DF/GS": "DF - Komšić", "POVJERENJE! (NAROD I PRAVDA, SPU BIH)": "Povjerenje! (Narod i pravda, SPU BiH)", "NAŠA STRANKA": "Naša stranka",
+          "NES - ZA EVROPSKU BIH": "NES", "STRANKA ZA BOSNU I HERCEGOVINU-SBIH": "SBiH", "HRVATSKA DEMOKRATSKA ZAJEDNICA 1990 - HDZ 1990": "HDZ 1990",
+          "BOSANSKOHERCEGOVAČKA INICIJATIVA - KASUMOVIĆ FUAD": "BH Initiative - Kasumović", "HNP - HRVATSKI NACIONALNI POMAK": "HNP", "HRVATSKA REPUBLIKANSKA STRANKA": "HRS",
+          "POKRET DEMOKRATSKE AKCIJE - PDA": "PDA", "NEZAVISNI POSLANICI/NEOVISNI ZASTUPNICI": "Independent"}
+    furl = "https://predstavnickidom-pfbih.gov.ba/zastupnici"
+    raw = get(furl, as_json=False).decode("utf-8", errors="replace")
+    fb = []
+    for blk in raw.split('<h6 class="toggle-title">')[1:]:
+        title = re.sub(r"\s+", " ", _html.unescape(blk.split("</h6>")[0])).strip()
+        for n in re.findall(r"<td>([^<]+)</td>\s*<td>\s*<a href=\"mailto", blk):
+            n = re.sub(r"\s+", " ", _html.unescape(n)).strip()
+            fb.append(dict(name=n, party=FB.get(title, title), ref=n, place="", start="", url=furl))
+    if len(fb) < 90:
+        sys.exit(f"Predstavnički dom PFBiH: read {len(fb)} members, expected 98; the page has changed, check the adapter")
+    cols = {"SDA": "1f8a4c", "SNSD": "1f4fa3", "SDP BiH": "e4002b", "HDZ BiH coalition": "2b3a8c", "DF - Komšić": "9b59b6", "SDS": "c0392b", "PDP": "6a7fb5", "Naša stranka": "f5a800",
+            "NES": "7f8c8d", "Narod i pravda": "e67e22", "BH Initiative - Kasumović": "16a085", "HDZ BiH": "2b3a8c", "Independent": "8a8680", "No party shown": "bdbdbd"}
+    tail = "Unlit seats mean nothing found, never opposition."
+    return [dict(name="Predstavnički dom Parlamentarne skupštine BiH (House of Representatives)", level="national", seats=42, source_url="https://www.parlament.ba/representative/list",
+                 note="42 seats (28 from the Federation, 14 from Republika Srpska), the 2022-2026 term. Members and parties from the Parliamentary Assembly's own list of representatives (parlament.ba/representative/list); the party is the badge on the list, and 'No party shown' where it has none. General elections were held in October 2026; this is the outgoing house until the new one is constituted. " + tail,
+                 role="Member of the House of Representatives of Bosnia and Herzegovina", role_re=r"(?i)house of representatives of (bosnia|the parliamentary)|predstavni.ki dom (parlamentarne|pskbih)|parliamentary assembly of bosnia",
+                 role_start=r"(?i)member of the house of representatives of bosnia", members=hor, former=hor_former, party_order=["Naša stranka", "SDP BiH", "DF - Komšić", "SDA", "SNSD", "HDZ BiH coalition"], colours=cols),
+            dict(name="Dom naroda Parlamentarne skupštine BiH (House of Peoples)", level="national", seats=15, source_url="https://www.parlament.ba/delegate/list",
+                 note="15 seats (5 delegates for each constituent people), the 2022-2026 term. Delegates and parties from the Parliamentary Assembly's own list (parlament.ba/delegate/list); a delegate who has left shows as former with the end date. General elections were held in October 2026; this is the outgoing house until the new one is constituted. " + tail,
+                 role="Delegate to the House of Peoples of Bosnia and Herzegovina", role_re=r"(?i)house of peoples of (bosnia|the parliamentary)|dom naroda (parlamentarne|pskbih)",
+                 role_start=r"(?i)delegate to the house of peoples of bosnia", members=hop, former=hop_former, colours=cols),
+            dict(name="Predstavnički dom Parlamenta Federacije BiH (FBiH House of Representatives)", level="regional", seats=98, source_url=furl,
+                 note="98 seats, the 2022-2026 term. Members and their party are from the House's own list of representatives (predstavnickidom-pfbih.gov.ba/zastupnici), which groups them by party; it gives no constituency or start date. Outgoing house until the result of the October 2026 elections is constituted. " + tail,
+                 role="Member of the House of Representatives of the FBiH Parliament", role_re=r"(?i)house of representatives of the (fbih|federation)|fbih house of representatives|predstavni.ki dom (parlamenta|pfbih)",
+                 role_start=r"(?i)member,? (of the )?house of representatives of the fbih", members=fb, former=[], colours=cols)]
+
+
+def greece():
+    """The Hellenic Parliament (300 seats): hellenicparliament.gr/Vouleftes/Ana-Koinovouleftiki-Omada lists the sitting members group by group, ten to a page. The site
+    refuses scripts, so it is read once in a browser and passed with --local (see skill/references/countries/gr.md): {groups, rows: [group, name in Greek, constituency, member id]}.
+    Names are 'Surname Father's-name Given', in Greek; the register carries the Greek name in brackets."""
+    url = "https://www.hellenicparliament.gr/Vouleftes/Ana-Koinovouleftiki-Omada"
+    d = get(url)
+    PARTY = {"ΝΕΑ ΔΗΜΟΚΡΑΤΙΑ": "New Democracy", "ΠΑΣΟΚ-ΚΙΝΗΜΑ ΑΛΛΑΓΗΣ": "PASOK", "ΚΟΜΜΟΥΝΙΣΤΙΚΟ ΚΟΜΜΑ ΕΛΛΑΔΑΣ": "Communist Party of Greece",
+             "ΣΥΝΑΣΠΙΣΜΟΣ ΡΙΖΟΣΠΑΣΤΙΚΗΣ ΑΡΙΣΤΕΡΑΣ - ΠΡΟΟΔΕΥΤΙΚΗ ΣΥΜΜΑΧΙΑ": "SYRIZA", "ΕΛΛΗΝΙΚΗ ΛΥΣΗ - ΚΥΡΙΑΚΟΣ ΒΕΛΟΠΟΥΛΟΣ": "Greek Solution",
+             'ΔΗΜΟΚΡΑΤΙΚΟ ΠΑΤΡΙΩΤΙΚΟ ΚΙΝΗΜΑ "ΝΙΚΗ"': "NIKI", "ΠΛΕΥΣΗ ΕΛΕΥΘΕΡΙΑΣ-ΖΩΗ ΚΩΝΣΤΑΝΤΟΠΟΥΛΟΥ": "Course of Freedom", "ΑΝΕΞΑΡΤΗΤΟΙ": "Independent"}
+    members = [dict(name=r[1], native=r[1], party=PARTY.get(r[0], r[0]), ref=r[3], place=r[2], start="",
+                    url=f"https://www.hellenicparliament.gr/Vouleftes/Ana-Koinovouleftiki-Omada?MPId={r[3]}") for r in d["rows"]]
+    if len(members) < 280:
+        sys.exit(f"Hellenic Parliament: read {len(members)} members, expected about 297; save the lists again (see the Greece guide)")
+    return [dict(name="Hellenic Parliament", level="national", seats=300, source_url=url,
+                 note="300 seats. Who sits and their parliamentary group are from the Parliament's own list of members by parliamentary group (hellenicparliament.gr), read in a browser because the site refuses scripts; 'Independent' means members outside any group. Seats the list does not name show as Vacant. Unlit seats mean nothing found, never opposition.",
+                 role="Member of the Hellenic Parliament", role_re=r"(?i)\bmp for\b|hellenic parliament|member of (the )?(greek )?parliament|βουλευτ", role_start=r"(?i)(member of (the )?(hellenic|greek) parliament|mp for)",
+                 members=members, former=[],
+                 party_order=["Communist Party of Greece", "SYRIZA", "PASOK", "Course of Freedom", "Independent", "New Democracy", "Greek Solution", "NIKI"],
+                 colours={"Communist Party of Greece": "d71920", "SYRIZA": "e6332a", "PASOK": "009b48", "Course of Freedom": "792c91", "Independent": "a8adb3",
+                          "New Democracy": "1b78c8", "Greek Solution": "073a84", "NIKI": "274c77"})]
+
+
+def hungary():
+    """The Országgyűlés (199 seats): parlament.hu/aktiv-kepviselok-listaja, the active representatives with their party. The site answers scripts with a CAPTCHA, so a
+    person solves it once in a browser and the list is read there and passed with --local (see skill/references/countries/hu.md): rows of [party, name].
+    The 13 nationality spokespersons have no vote and are not on the list."""
+    url = "https://www.parlament.hu/aktiv-kepviselok-listaja"
+    rows = get(url)
+    PARTY = {"TISZA": "Tisza", "Fidesz": "Fidesz", "KDNP": "KDNP", "Mi Hazánk": "Mi Hazánk"}
+    members = [dict(name=r[1], party=PARTY.get(r[0], r[0]), ref=r[1], place="", start="", url=url) for r in rows]
+    if len(members) < 190:
+        sys.exit(f"Országgyűlés: read {len(members)} representatives, expected 199; save the list again (see the Hungary guide)")
+    return [dict(name="Országgyűlés (National Assembly)", level="national", seats=199, source_url=url,
+                 note="199 seats, 2026-2030 term. Who sits and their party are from the Assembly's own list of active representatives (parlament.hu/aktiv-kepviselok-listaja), read in a browser after its CAPTCHA was solved by a person; the list gives no start date. Fidesz and KDNP sit as one group. The 13 nationality spokespersons have no vote and are not counted. Unlit seats mean nothing found, never opposition.",
+                 role="Member of the National Assembly", role_re=r"(?i)national assembly|országgyűlés|\bmp\b", role_start=r"(?i)member of the (hungarian )?national assembly",
+                 members=members, former=[], party_order=["Tisza", "Mi Hazánk", "KDNP", "Fidesz"],
+                 fuzzy_deny=["Tímea Szabó"],  # a former Párbeszéd member, not Tímea Barna-Szabó (Tisza)
+                 colours={"Tisza": "1db5e8", "Mi Hazánk": "6b8e23", "KDNP": "e3a900", "Fidesz": "fd8100"})]
+
+
+def slovakia():
+    """The Národná rada (150 seats): nrsr.sk's alphabetical list of deputies with each deputy's club. The site answers scripts with a bot check (not bypassed), so the
+    list is read once in a browser and passed with --local (see skill/references/countries/sk.md): rows of ["Surname, Given", deputy id, club]."""
+    url = "https://www.nrsr.sk/web/Default.aspx?sid=poslanci/zoznam_abc"
+    rows = get(url)
+    CLUB = {"Klub SMER - sociálna demokracia": "Smer – Social Democracy", "Klub Sloboda a Solidarita": "Freedom and Solidarity", "Klub Slovenská národná strana": "SNS", "Klub KDH": "KDH",
+            "Klub HLAS - sociálna demokracia": "Hlas – Social Democracy", "Klub Progresívne Slovensko": "Progressive Slovakia", "Klub SLOVENSKO - ZA ĽUDÍ": "Slovakia – For the People",
+            "Poslanci, ktorí nie sú členmi poslaneckých klubov": "Non-attached"}
+    members = []
+    for r in rows:
+        sur, _, given = r[0].partition(",")
+        members.append(dict(name=f"{given.strip()} {sur.strip()}", party=CLUB.get(r[2], r[2]), ref=r[1],
+                            place="", start="", url=f"https://www.nrsr.sk/web/Default.aspx?sid=poslanci/poslanec&PoslanecID={r[1]}"))
+    if len(members) < 140:
+        sys.exit(f"Národná rada: read {len(members)} deputies, expected 150; save the list again (see the Slovakia guide)")
+    return [dict(name="Národná rada (National Council)", level="national", seats=150, source_url=url,
+                 note="150 seats. Who sits is from the National Council's own alphabetical list of deputies (nrsr.sk) and each deputy's club from the club pages, read in a browser because the site answers scripts with a bot check. 'Non-attached' means deputies in no club. Unlit seats mean nothing found, never opposition.",
+                 role="Member of the National Council", role_re=r"(?i)national council|národná rada|\bmp\b", role_start=r"(?i)member of the (slovak )?national council",
+                 members=members, former=[],
+                 party_order=["Progressive Slovakia", "Freedom and Solidarity", "Slovakia – For the People", "KDH", "Non-attached", "Hlas – Social Democracy", "Smer – Social Democracy", "SNS"],
+                 colours={"Progressive Slovakia": "00a3dd", "Freedom and Solidarity": "66ccff", "Slovakia – For the People": "f08a00", "KDH": "ffd500", "Non-attached": "999999",
+                          "Hlas – Social Democracy": "c8102e", "Smer – Social Democracy": "e2231a", "SNS": "003a79"})]
+
+
+def north_macedonia():
+    """The Sobranie (120 seats): sobranie.mk/mps-en.nspx lists the 120 members with their party (an Angular page that loads its rows with a 'Show more' button), read once in a
+    browser and passed with --local (see skill/references/countries/mk.md): rows of [name, party, member id]. Names are in Latin."""
+    url = "https://www.sobranie.mk/mps-en.nspx"
+    rows = get(url)
+    PARTY = {"Movement BESA": "BESA Movement", "VMRO – DPMNE": "VMRO-DPMNE", "Democratic Union on Integration": "DUI", "Независни пратеници": "Independent", "": "Independent",
+             "Social Democratic Union of Macedonia": "SDSM", "Liberal – Democratic Party": "Liberal Democratic Party"}
+    members = [dict(name=r[0].replace("М", "M"), party=PARTY.get(r[1], r[1]), ref=r[2], place="", start="",  # a Cyrillic capital Em in "Mile Talevski"
+                    url=f"https://www.sobranie.mk/mps-details.nspx?param={r[2]}") for r in rows]
+    if len(members) < 110:
+        sys.exit(f"Sobranie: read {len(members)} members, expected 120; save the list again (see the North Macedonia guide)")
+    return [dict(name="Sobranie (Assembly of North Macedonia)", level="national", seats=120, source_url=url,
+                 note="120 seats. Who sits and their party are from the Assembly's own list of members (sobranie.mk), read in a browser because the list is built by script. 'Independent' means members the list shows with no party or as independents. Unlit seats mean nothing found, never opposition.",
+                 role="Member of the Assembly", role_re=r"(?i)member of the assembly|sobranie|\bmp\b|собрание", role_start=r"(?i)member of the (macedonian )?assembly",
+                 members=members, former=[],
+                 party_order=["Levica", "SDSM", "DUI", "Independent", "VMRO-DPMNE"],
+                 colours={"VMRO-DPMNE": "9b1c1c", "SDSM": "e4002b", "DUI": "2e8b57", "Levica": "8b1a2b", "Independent": "bdbdbd", "Movement ZNAM": "c9a227", "BESA Movement": "1f6fb4"})]
+
+
 _ADAPTERS_LOWER = {"at": austria, "austria": austria, "cz": czechia, "czechia": czechia, "nz": new_zealand, "se": sweden, "de": germany, "nl": netherlands, "no": norway, "fr": france, "br": brazil, "ca": canada, "es": spain, "pl": poland, "be": belgium, "in": india, "jp": japan, "my": malaysia, "sg": singapore, "id": indonesia, "ng": nigeria, "cn": china, "scottish_parliament": scottish_parliament, "european_parliament": european_parliament, "eu": european_parliament, "un": united_nations, "au": pan_african_parliament, "za": south_africa, "ie": ireland, "it": italy, "mx": mexico, "ar": argentina, "co": colombia, "fi": finland, "kr": south_korea}
 # countries that chart two chambers chain their adapters; the others return one
 ADAPTERS = dict(_ADAPTERS_LOWER, nl=lambda: netherlands() + netherlands_senate(), za=lambda: south_africa() + south_africa_ncop(),
                   ca=lambda: canada() + canada_senate(), australia=australia, eg=egypt,
                   ng=lambda: nigeria() + nigeria_senate(),
                   es=lambda: spain() + spain_senate(), pl=lambda: poland() + poland_senate(), belgium_senate=belgium_senate,  # the Chamber needs its own saved page: run the Senate with --adapter belgium_senate
-                  id=lambda: indonesia() + indonesia_dpd(), egypt_senate=egypt_senate, malaysia_senate=malaysia_senate, ch=switzerland)  # the Dewan Rakyat needs its own saved page: run the Dewan Negara with --adapter malaysia_senate
+                  id=lambda: indonesia() + indonesia_dpd(), egypt_senate=egypt_senate, malaysia_senate=malaysia_senate, ch=switzerland,
+                  pt=portugal, dk=denmark, **{"is": iceland}, lu=luxembourg, mt=malta, ee=estonia, lt=lithuania)  # the Dewan Rakyat needs its own saved page: run the Dewan Negara with --adapter malaysia_senate
+
+ADAPTERS.update(tr=turkey, dz=lambda: algeria_apn() + algeria_cn(), tn=lambda: tunisia_arp() + tunisia_cnrd(), ma=morocco, lb=lebanon,
+                algeria_apn=algeria_apn, algeria_cn=algeria_cn, tunisia_cnrd=tunisia_cnrd, tunisia_arp=tunisia_arp)
+
+
+# ---------------------------------------------------------------- adapters added in the November 2026 seat-gap pass
+def _saved(url):
+    """A list read once in a browser and passed with --local URL=FILE: the JSON, or the text/plain form post the browser sent to the receiver ("x=[...]")."""
+    raw = get(url, as_json=False).decode("utf-8-sig").strip()
+    return json.loads(raw[2:] if raw.startswith("x=") else raw)
+
+
+_HONORIFICS = {"hon", "rt", "sen", "dr", "prof", "eng", "engr", "amb", "capt", "col", "rtd", "mp", "cbs", "egh", "mgh", "ogw", "ebs", "mbs", "cgh", "hsc", "mr", "mrs", "ms", "mst",
+               "md", "barrister", "advocate", "alhaj", "haji", "atty", "dpa", "rn", "fpso", "hns", "cs", "lt", "gen", "maj", "brig"}
+
+
+def _plain(name, drop=_HONORIFICS):
+    """A name without titles, credentials or (bracketed) notes, and without single-letter initials."""
+    s = re.sub(r"\([^)]*\)", " ", name.replace("�", "").replace('"', " ").replace("“", " ").replace("”", " "))  # a nickname in quotes stays: the register often uses it
+    out = []
+    for w in re.sub(r"[,;]", " ", s).split():
+        k = w.replace(".", "").lower()
+        if k in drop or len(k) <= 1:
+            continue
+        out.append(w.strip())
+    return " ".join(out)
+
+
+def philippines():
+    """The House of Representatives (318 seats): congress.gov.ph/house-members, behind a Cloudflare check, so it is read in a browser and passed with --local
+    (see the Philippines guide): rows of [member id, "Surname, Given", type, place or party-list]. The members the page hides under 'Inactive' are left out.
+    The site gives no party for district members, so seats are grouped as district and party-list."""
+    url = "https://www.congress.gov.ph/house-members"
+    members = []
+    for r in _saved(url):
+        mid, name, rest = r[0], r[1], r[2:]
+        if rest[0].upper().startswith("SPEAKER"):
+            rest = rest[1:]
+        kind, place = rest[0], rest[1]
+        sur, _, given = name.partition(",")
+        members.append(dict(name=_plain(f"{given} {sur}"), party="Party-list" if kind.startswith("Party") else "District", ref=mid,
+                            place=place, start="", url=f"https://www.congress.gov.ph/house-members/view/{mid}"))
+    if len(members) < 280:
+        sys.exit(f"Philippine House: read {len(members)} members, expected about 317; save the list again (see the Philippines guide)")
+    return [dict(name="House of Representatives", level="national", seats=318, source_url=url,
+                 note="318 seats: 253 district and 65 party-list (20th Congress, from 30 June 2025). Who sits is from the House's own list (congress.gov.ph); the site names the party-list group of a party-list member and no party for a district member, so seats are grouped as district and party-list. Members the site shows as inactive are left out and their seats show as Vacant. Unlit seats mean nothing found, never opposition.",
+                 role="Representative", role_re=r"(?i)representative", role_start=r"(?i)(party-list )?representative",
+                 members=members, former=[], party_order=["Party-list", "District"], keep_party=True,  # the register records each supporter's own party
+                 colours={"District": "1a5fb4", "Party-list": "e07a1f"})]
+
+
+def pakistan():
+    """The National Assembly (336 seats): na.gov.pk/en/all_members.php lists every member under province and reserved-seat headings. The site does not answer
+    scripts from every network, so it is read in a browser and passed with --local: rows of [heading, constituency, name, party, profile link]."""
+    url = "https://www.na.gov.pk/en/all_members.php"
+    PARTY = {"PML (N)": "PML-N", "PPPP": "PPP", "JUI (P)": "JUI-F", "IND": "Independent", "MQM": "MQM-P", "PML": "PML-Q"}
+    members = []
+    for r in _saved(url):
+        if r[3] == "Party":  # a repeated header row
+            continue
+        place = r[1] if not r[1].isdigit() else re.sub(r"\s*\(\d+\)", "", r[0]).title()
+        members.append(dict(name=_plain(r[2]), party=PARTY.get(r[3], r[3]), ref=r[4].rsplit("=", 1)[-1], place=place, start="",
+                            url="https://www.na.gov.pk/en/" + r[4]))
+    if len(members) < 300:
+        sys.exit(f"National Assembly of Pakistan: read {len(members)} members, expected about 332; save the list again (see the Pakistan guide)")
+    return [dict(name="National Assembly", level="national", seats=336, source_url=url,
+                 note="336 seats: 266 general, 60 reserved for women and 10 for non-Muslims. Who sits and their party are from the Assembly's own list of members (na.gov.pk); seats the list does not fill show as Vacant. Independent is how the Assembly lists members elected as independents, among them many backed by the PTI. Unlit seats mean nothing found, never opposition.",
+                 role="Member of the National Assembly", role_re=r"(?i)\bMNA\b|national assembly", role_start=r"(?i)(MNA|member of the national assembly)",
+                 members=members, former=[], party_order=["MQM-P", "JUI-F", "IPP", "SIC", "Independent", "PPP", "PML-N"],
+                 colours={"PML-N": "1b9c4a", "PPP": "d62828", "Independent": "8a8680", "MQM-P": "2a9d8f", "JUI-F": "3a5a40", "IPP": "9a7b4f", "SIC": "6a4c93"})]
+
+
+def pakistan_senate():
+    """The Senate (96 seats): senate.gov.pk/en/current_members.php (read in a browser and passed with --local if it does not answer): rows of
+    [number, name, tenure, party, province, profile link]."""
+    url = "https://www.senate.gov.pk/en/current_members.php"
+    members = []
+    for r in _saved(url):
+        ab = re.search(r"\(([A-Z]+)\)\s*$", r[3])
+        party = {"PPPP": "PPP", "PMLN": "PML-N", "IND": "Independent", "JUIP": "JUI-F", "MQMP": "MQM-P", "PML": "PML-Q"}.get(ab.group(1), ab.group(1)) if ab else r[3]
+        members.append(dict(name=_plain(re.sub(r"\(.*", "", r[1])), party=party, ref=r[5].split("uid=")[-1].split("&")[0], place=r[4], start="",
+                            url="https://www.senate.gov.pk/en/" + r[5]))
+    if len(members) < 80:
+        sys.exit(f"Senate of Pakistan: read {len(members)} senators, expected about 95; save the list again (see the Pakistan guide)")
+    return [_upper("Senate", 96, url, "96 seats: 23 for each of the four provinces and 4 for the Islamabad Capital Territory. Who sits and their party are from the Senate's own list of members (senate.gov.pk); seats it does not list show as Vacant. Unlit seats mean nothing found, never opposition.",
+                   "Senator", r"(?i)\bsenator\b", members,
+                   {"PML-N": "1b9c4a", "PPP": "d62828", "Independent": "8a8680", "PTI": "e9c46a", "JUI-F": "3a5a40", "BAP": "9a7b4f", "ANP": "c1121f", "MQM-P": "2a9d8f"})]
+
+
+def bangladesh():
+    """The Jatiya Sangsad (350 seats): parliament.gov.bd/members/list-of-members, ten members to a page. The page is a script-driven table, so it is read once
+    in a browser (clicking through the pages) and passed with --local as {serial: [name, party, constituency]}."""
+    url = "https://www.parliament.gov.bd/members/list-of-members"
+    SHORT = {"Bangladesh Nationalist Party (BNP)": "BNP", "Bangladesh Jamaat-E-Islami (BJEI)": "Jamaat-e-Islami", "National Citizens Party-NCP": "NCP",
+             "Bangladesh Khilafat Majlis": "Khilafat Majlis", "Khilafat Majlis": "Khilafat Majlis", "Independent": "Independent"}
+    members = [dict(name=_plain(v[0]), party=SHORT.get(v[1], v[1]), ref=k, place=v[2], start="", url=url) for k, v in _saved(url).items()]
+    if len(members) < 300:
+        sys.exit(f"Jatiya Sangsad: read {len(members)} members, expected about 349; save the list again (see the Bangladesh guide)")
+    return [dict(name="Jatiya Sangsad", level="national", seats=350, source_url=url,
+                 note="350 seats: 300 elected by constituency and 50 reserved for women. Who sits and their party are from the Sangsad's own list of current members (parliament.gov.bd); seats the list does not fill show as Vacant. Unlit seats mean nothing found, never opposition.",
+                 role="Member of Parliament", role_re=r"(?i)member of parliament|jatiya sangsad", role_start=r"(?i)member of parliament",
+                 members=members, former=[], party_order=["NCP", "Independent", "Khilafat Majlis", "Jamaat-e-Islami", "BNP"],
+                 colours={"BNP": "1b9c4a", "Jamaat-e-Islami": "e07a1f", "NCP": "d62828", "Independent": "8a8680", "Khilafat Majlis": "3a5a40"})]
+
+
+def _kenya_rows(path, senate=False):
+    """Every row of the parliament's paged member table: (cells, member page path)."""
+    rows = []
+    for p in range(0, 60):
+        t = get(f"https://www.parliament.go.ke/{path}?field_name_value=%20&field_parliament_value=2022&field_employment_history_value=&page={p}", as_json=False).decode("utf-8", "replace")
+        if senate:
+            t = t.split('<table class="cols-6', 1)[-1]
+        got = re.findall(r"<tr[^>]*>(.*?)</tr>", t, re.S)
+        n = 0
+        for r in got:
+            link = re.search(r'href="(/the-(?:senate|national-assembly)/[^"]+)"', r)
+            c = [re.sub(r"\s+", " ", re.sub(r"<[^>]+>", "", x)).strip() for x in re.findall(r"<td[^>]*>(.*?)</td>", r, re.S)]
+            if link and c and ("class=\"mp" in r or "hreflang" in r) and (c[0] or senate) and "pdf" not in r:
+                rows.append((c, link.group(1)))
+                n += 1
+        if not re.search(rf"page={p + 1}\"", t):
+            break
+    return rows
+
+
+def kenya():
+    """The National Assembly (349 seats): parliament.go.ke/the-national-assembly/mps, the table of members of the 13th Parliament (10 a page)."""
+    members, seen = [], set()
+    for c, link in _kenya_rows("the-national-assembly/mps"):
+        name = c[0]
+        if not name or re.match(r"(?i)vacant", name):
+            continue
+        county, const, party = c[2], c[3], re.sub(r"\s*\|.*", "", c[4]).strip()
+        key = const if const and const != county else name.lower()  # the page lists some seats twice
+        if key in seen:
+            continue
+        seen.add(key)
+        party = {"IND.": "IND", "FORD - K": "FORD-K"}.get(party, party) or "Party not listed"
+        members.append(dict(name=_plain(name), party=party, ref=link.rsplit("/", 1)[-1], place=const or county or "Nominated", start="", url="https://www.parliament.go.ke" + link))
+    if len(members) < 300:
+        sys.exit(f"Kenya National Assembly: read {len(members)} members, expected about 349")
+    return [dict(name="National Assembly of Kenya", level="national", seats=349, source_url="https://www.parliament.go.ke/the-national-assembly/mps",
+                 note="349 seats: 290 constituencies, 47 county women representatives and 12 nominated. Who sits and their party are from the Assembly's own table of members (parliament.go.ke); a few rows leave the party blank and show as 'Party not listed'. Unlit seats mean nothing found, never opposition.",
+                 role="Member of the National Assembly", role_re=r"(?i)national assembly|\bMP\b|member of parliament", role_start=r"(?i)(member of the national assembly|MP\b|member of parliament)",
+                 members=members, former=[], party_order=["Party not listed", "IND", "UDA", "ODM"],
+                 colours={"UDA": "f4c20d", "ODM": "f28c1f", "JP": "d62828", "WDM": "2a9d8f", "IND": "8a8680", "UDM": "1b9c4a", "KANU": "c1121f"})]
+
+
+def kenya_senate():
+    """The Senate (67 seats): parliament.go.ke/the-senate/senators."""
+    members = []
+    for c, link in _kenya_rows("the-senate/senators", senate=True):
+        cells = [x for x in c if x]
+        if len(cells) < 3:
+            continue
+        members.append(dict(name=_plain(cells[0]), party=re.sub(r"[()]", "", cells[2]).strip().replace("Ford K", "FORD-K") or "Party not listed", ref=link.rsplit("/", 1)[-1], place=cells[1], start="", url="https://www.parliament.go.ke" + link))
+    if len(members) < 55:
+        sys.exit(f"Kenya Senate: read {len(members)} senators, expected about 67")
+    return [_upper("Senate of Kenya", 67, "https://www.parliament.go.ke/the-senate/senators", "67 seats: 47 elected by county, 16 women, 2 youth and 2 persons with disabilities, nominated by the parties. Who sits and their party are from the Senate's own table of senators (parliament.go.ke). Unlit seats mean nothing found, never opposition.",
+                   "Senator", r"(?i)\bsenator\b", members, {"UDA": "f4c20d", "ODM": "f28c1f", "JP": "d62828", "WDM": "2a9d8f", "IND": "8a8680", "UDM": "1b9c4a", "KANU": "c1121f"})]
+
+
+ADAPTERS.update(ph=philippines, pk=lambda: pakistan() + pakistan_senate(), bd=bangladesh, ke=lambda: kenya() + kenya_senate())
+
+
+def suriname():
+    """De Nationale Assemblée (51 seats): dna.sr/politiek-college/leden-2025-2030 lists every member with the fractie and party. Substitutes who serve
+    for a member are listed on the same page and count as members here."""
+    url = "https://www.dna.sr/politiek-college/leden-2025-2030/"
+    page = get(url, as_json=False).decode("utf-8", errors="replace")
+    body = re.sub(r"<script.*?</script>|<style.*?</style>", "", page, flags=re.S)
+    flat = re.sub(r"(\|\s*)+", "|", re.sub(r"\s+", " ", re.sub(r"<[^>]+>", "|", body)))
+    slugs = sorted(set(re.findall(r'href="/politiek-college/leden-2025-2030/([^"/]+)/"', page)))
+    SHORT = {"Nationale Democratische Partij": "NDP", "Algemene Bevrijdings- en Ontwikkelingspartij": "ABOP", "Vooruitstrevende Hervormingspartij": "VHP",
+             "Vooruitstrevende Hervormings Partij": "VHP", "Broederschap en Eenheid in de Politiek": "BEP", "Pertjajah Luhur": "PL", "Nationale Partij Suriname": "NPS", "Alternatief 2020": "A20"}
+    drop = _HONORIFICS | {"drs", "ir", "mba", "msc", "ing", "bsc", "ma", "llm", "mpa", "phd", "mr", "rn", "msc.", "ba", "mhm", "mmc", "dr", "h", "c", "llb", "bba", "med", "pt", "mph", "bioetics", "mha", "bed"}
+    members = []
+    import html as _html
+    for name, party, role in re.findall(r"\|([^|]+?) ?\|([^|]+?) ?\|\1 ?\|(?:([^|]+?) ?\|)?Fractie\|", flat):
+        n = _plain(_html.unescape(name), drop)
+        words = set(norm(n).split())
+        slug = next((s for s in slugs if set(s.split("-")) <= words), "")
+        members.append(dict(name=n, party=SHORT.get(party.strip(), party.strip()), ref=slug, place="", start="", url=f"{url}{slug}/" if slug else url))
+    if len(members) < 45:
+        sys.exit(f"Nationale Assemblée of Suriname: read {len(members)} members, expected 51")
+    return [dict(name="De Nationale Assemblée", level="national", seats=51, source_url=url,
+                 note="51 seats, elected 25 May 2025 for 2025-2030. Who sits and their party are from the Assembly's own list of members (dna.sr), which also carries the members who serve as substitutes. Unlit seats mean nothing found, never opposition.",
+                 role="Member of De Nationale Assemblée", role_re=r"(?i)nationale assembl", role_start=r"(?i)member of de nationale",
+                 members=members, former=[], party_order=["A20", "ABOP", "VHP", "BEP", "PL", "NPS", "NDP"],
+                 colours={"NDP": "1b9c4a", "VHP": "e07a1f", "ABOP": "1a5fb4", "BEP": "c1121f", "PL": "6a4c93", "NPS": "d62828", "A20": "2a9d8f"})]
+
+
+ADAPTERS.update(sr=suriname)
+
+ADAPTERS["cl"] = chile
+ADAPTERS["uy"] = uruguay
+ADAPTERS["ec"] = ecuador
+ADAPTERS["py"] = paraguay
+ADAPTERS["pe"] = peru
+ADAPTERS["bo"] = bolivia
+ADAPTERS["cr"] = costa_rica
+
+# Group of ten (Greece, Hungary, Romania, Slovakia, Bulgaria, Slovenia, Croatia, Bosnia, North Macedonia, Russia). Greece, Hungary, Slovakia and North Macedonia
+# are read once in a browser and passed with --local (see their guides in skill/references/countries).
+ADAPTERS.update(gr=greece, hu=hungary, ro=romania, sk=slovakia, bg=bulgaria, si=slovenia, hr=croatia, ba=bosnia, mk=north_macedonia, ru=russia)
 
 
 def main():

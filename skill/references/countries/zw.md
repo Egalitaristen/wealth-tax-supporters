@@ -8,3 +8,7 @@ Seed pass R001 (2026-11-13). Check that URLs still resolve before relying on the
 - **What exists:** Fight Inequality Alliance Zimbabwe and three of its spokespeople (2021 to 2025), Oxfam Southern Africa (January 2022), MP Mathew Nyashanu (December 2022). No bill, motion or poll.
 - **Sources that work:** 263chat.com, bulawayo24.com, thenewshawks.com, midweekwatch.com, newsday.co.zw (ledes), cite.org.zw, afriwise.com. **Blocked or empty:** parlzim.gov.zw, pindula.co.zw, fightinequality.org, theindependent.co.zw (JavaScript).
 - **Watch out:** in Zimbabwean coverage "wealth tax" almost always means the 2024 property charge; read the speaker's words for a tax on net wealth. Nyashanu's name is printed Mathew (Electoral Commission) and Matthew (NewsDay); the Wikidata item Q100524761 for "Mathew Nyashanu" is a researcher and was not used.
+
+## Seats (15 November 2026)
+
+No adapter yet. `parlzim.gov.zw` (the `parliament.go.zw` name does not resolve) failed TLS from curl and showed a certificate error page in Chrome; the certificate warning was not bypassed. Mathew Nyashanu (National Assembly, Buhera Central) is the only politician; the chamber stays as hand-entered in bodies.csv.

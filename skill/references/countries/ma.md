@@ -128,3 +128,17 @@ Worked notes from the Morocco research passes (`R001` seed pass, `R002` wider di
   - **Employer opposition:** Confédération Générale des Entreprises du Maroc (CGEM, `X0011`) systematically opposes wealth taxes and stock taxation.
   - **Illicit enrichment campaigns (out_of_definition):** Association Marocaine de Protection des Biens Publics (`X0012`) focuses on anti-corruption criminalization ('من أين لك هذا؟') rather than net wealth taxation.
   - **Unproductive asset taxes (out_of_definition):** Mohamed Benmoussa (`X0013`) advocates specifically for solidarity taxes on idle land/speculative assets rather than general net wealth.
+
+## Seats (15 November 2026)
+
+**Chambre des Représentants (395 seats, 2026-2031 term):** `chambredesrepresentants.ma` refuses scripts (403) and renders in a browser. The directory `https://www.chambredesrepresentants.ma/ar/دليل-أعضاء-مجلس-النواب/2026-2031` is a Drupal view, 12 cards per page (`.q-b1-2-s-item`: `.q-name a` name and member link `/m/<slug>`, then the party), `?page=0..31`. In a browser console on the site, fetch the 32 pages, save `[name, party, member link]` rows as JSON and run:
+
+```bash
+python skill/scripts/seats.py data/ma --fix-status --local "https://www.chambredesrepresentants.ma/ar/دليل-أعضاء-مجلس-النواب/2026-2031=house.json"
+```
+
+383 members were listed (12 seats show as Vacant until the directory is complete; re-run it then). Names are Arabic only: write the Arabic name in brackets after the Latin one (`Nabila Mounib (نبيلة منيب)`). The directory gives a party per member, not the group.
+
+**Chambre des Conseillers (120 seats):** not charted. `chambredesconseillers.ma` publishes only the group chairs (`/ar/الفرق-والمجموعات-البرلمانية-2021-2027`) and a PDF of seats by electoral college; no per-member list was found.
+
+Two register rows were left alone: `A0019` (Driss Sentissi, "Haraki group president") and `A0020` (Rachid Hamouni, PPS group president) are not in the directory; an `ادريس السنتيسي` from Salé sits for the Istiqlal, which may be the same person with a new party: not confirmed.

@@ -1,9 +1,12 @@
 seat_id,body_id,party,seats,colour,order
-S0001,B0001,"Hezbollah, Amal and allies",41,1b8a3a,1
-S0002,B0001,Lebanese Forces and allies,20,c8102e,2
-S0003,B0001,Free Patriotic Movement and allies,20,f58220,3
-S0004,B0001,Ex-Future Movement and allies,7,4aa3df,4
-S0005,B0001,Kataeb Party and allies,6,8e6bbf,5
-S0006,B0001,October 17 (change) MPs,12,e0b000,6
-S0007,B0001,Progressive Socialist Party,8,d4a017,7
-S0008,B0001,Other and independents,14,9aa0a6,8
+S0001,B0001,Shia,27,e9c46a,1
+S0002,B0001,Sunni,27,2a9d8f,2
+S0003,B0001,Druze,8,f28c28,3
+S0004,B0001,Alawite,2,3b8d3b,4
+S0005,B0001,Maronite,34,b5121b,5
+S0006,B0001,Greek Orthodox,14,7b4b9a,6
+S0007,B0001,Greek Catholic,8,c9184a,7
+S0008,B0001,Armenian Orthodox,5,6c757d,8
+S0009,B0001,Armenian Catholic,1,9d0208,9
+S0010,B0001,Evangelical,1,2b8fd6,10
+S0011,B0001,Minorities,1,b0a99f,11

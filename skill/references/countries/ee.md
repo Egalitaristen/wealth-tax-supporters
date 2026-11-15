@@ -8,7 +8,7 @@ Updated after runs R001–R004 (2026-11-05). Estonia has a land tax and no net-w
 
 ## Seats
 
-Riigikogu (101 seats) from `https://api.riigikogu.ee/api/plenary-members?lang=et` (open, no key): each member's active `FRAKTSIOON` gives the party split (typed into `seats.csv` by hand, since `seats.py` has no Estonian adapter) and `uuid` is the `member_ref`. An adapter would be a small addition to `skill/scripts/seats.py`.
+`python skill/scripts/seats.py data/ee --fix-status` reads the Riigikogu's open member list (`https://api.riigikogu.ee/api/plenary-members?lang=et`, no key): the 101 active members, each with the faction they belong to today (the `FRAKTSIOON` entry with no end date; members outside every faction are Non-attached), the electoral district and `uuid` (the `member_ref`). Phone and e-mail are in the response and are never read.
 
 ## Sources that worked and blocked
 

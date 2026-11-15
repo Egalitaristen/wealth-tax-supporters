@@ -23,7 +23,13 @@ No net wealth tax exists. Párbeszéd tabled bills in 2023 and 2025; the Tisza p
 
 ## Seats
 
-No adapter: parlament.hu blocks scripts, so there is no Seats tab and Párbeszéd MPs' positions have `current` blank. Add an adapter in `seats.py` when a readable official list exists. EP: all four Hungarian members who voted FOR in 2023 have left the Parliament (checked against the open data portal's current list).
+The Országgyűlés (199 seats) is charted by `seats.py` (`hu`) from the Assembly's own list of active representatives, https://www.parlament.hu/aktiv-kepviselok-listaja (Tisza 141, Fidesz 44, KDNP 8, Mi Hazánk 6 on 15 November 2026; the 13 nationality spokespersons have no vote and are not on it). parlament.hu shows an image CAPTCHA to scripts, so a person solves it once in a normal browser (it is not bypassed), the list is read there and passed with `--local`:
+
+1. Solve the CAPTCHA on parlament.hu in Chrome, open the list address above (the page is built by script; wait a few seconds).
+2. From `document.body.innerText` take the lines after the alphabet letters in pairs (party, name) for Fidesz, KDNP, Mi Hazánk and TISZA; there is no member id on the page, so the name is the reference.
+3. Save the rows `[party, name]` as JSON and run: `python skill/scripts/seats.py data/hu --fix-status --local "https://www.parlament.hu/aktiv-kepviselok-listaja=<saved file>"`.
+
+Names are surname first and may carry "Dr."; the matcher ignores the order. A namesake guard (`fuzzy_deny`) keeps the former Párbeszéd MP Tímea Szabó apart from Tisza's Tímea Barna-Szabó. EP: all four Hungarian members who voted FOR in 2023 have left the Parliament (checked against the open data portal's current list).
 
 ## What counts
 

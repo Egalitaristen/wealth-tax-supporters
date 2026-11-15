@@ -47,3 +47,15 @@ Algeria has had a statutory net wealth tax in **Articles 274–282 of the *Code 
   - French: `tsa-algerie.com`, `algerie-eco.com`, `radioalgerie.dz` / `news.radioalgerie.dz` (republishes full APS dispatches verbatim and is open globally), `lnr-dz.com`, `jeune-independant.net`, `dknews-dz.com`, `algeriepatriotique.com`.
   - Arabic: `echoroukonline.com`, `elkhabar.com`, `el-massa.com`, `elhiwar.dz`, `almostathmir.dz`, `independentarabia.com`, `asharq.com`, `aawsat.com`.
   - Note on `echoroukonline.com`: Very long Arabic slugs are truncated by WordPress at 200 UTF-8 percent-encoded characters; always copy the exact `<link rel="canonical">` URL when citing Echorouk Online.
+
+## Seats
+
+**Conseil de la Nation (174 seats):** the Council's own list of current members, `https://www.majliselouma.dz/ara/الأعضاء/HILO1Dbq` (name in Arabic, party or "الثلث الرئاسي" = presidential third, member id; 152 names on 15 November 2026, the other 22 seats show as Vacant). The site answers a browser but not always a script. Read it once in a browser and pass it with `--local`: fetch `?page=1`..`?page=11` (15 cards per page, `.member`: `h3` name, `h4` party), save rows of `[name, party, "", member id]` as JSON and run:
+
+```bash
+python skill/scripts/seats.py data/dz --local "https://www.majliselouma.dz/ara/الأعضاء/HILO1Dbq=cn.json"
+```
+
+Names are family name first (`أوشيش يوسف`): put the Arabic name in brackets after the Latin one in the register (`Youcef Aouchiche (يوسف أوشيش)`); the matcher ignores word order.
+
+**Assemblée Populaire Nationale (407 seats):** `apn.dz` (DZSecurity) did not answer from this machine nor from Chrome on 15 November 2026, so the APN is charted from **Wikidata** (position Q21290886, started 2026 or later, no end date): 22 members, a small part of the seats; the other 385 show as "Not named" (not vacant). Read the official list from an Algerian network and replace `algeria_apn` when one is available. Supporters who sat in earlier terms keep their `current=n` rows.
