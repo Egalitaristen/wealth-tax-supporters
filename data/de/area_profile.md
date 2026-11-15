@@ -97,3 +97,63 @@ Not listed, and why:
 - Habeck's Bundestag seat ended on 2025-08-31 (current=n); Trittin's ended on 2024-01-05 (abgeordnetenwatch).
 - Regraded E00601 (Mützenich) and E00602 (Esken) from A to B: the quoted sentences are the outlets' own narration of what they demand.
 - Resolved a merge conflict in data/leads.csv with main (kept this PR's L0024 and main's L0025-L0026).
+
+
+## Brandenburg regional records pass (R046, 14 November 2026)
+
+The former Die Linke group proposed a one-off levy and reintroduction of the wealth tax in [motion 7/3405](https://www.parlamentsdokumentation.brandenburg.de/starweb/LBB/ELVIS/parladoku/w7/drs/ab_3400/3405.pdf), 20 April 2021. The [Landtag reports](https://www.landtag.brandenburg.de/de/aktuelles/neuigkeiten/aktuelle_meldungen/landtag_debattiert_ueber_nachtragshaushalt_zur_bekaempfung_der_pandemiefolgen/13920) its rejection on 20 May. Former group chair Sebastian Walter [personally explained](https://www.linksfraktion-brandenburg.de/publikationen/newsletter/einzelbeitraege-newsletter/fuer-soziale-gerechtigkeit-vermoegensteuer-wieder-einfuehren/) a 5% tax above EUR 1 million.
+
+The BSW group introduced [motion 8/3319](https://www.parlamentsdokumentation.brandenburg.de/starweb/LBB/ELVIS/parladoku/w8/drs/ab_3300/3319.pdf) on 1 September 2026: 1% from EUR 25 million, 2% from EUR 100 million and 3% from EUR 1 billion. The [Landtag agenda](https://www.landtag.brandenburg.de/de/termine/37._sitzung_des_landtages_brandenburg/43638) records debate on 17 September; the Landtag rejected the motion on 17 September according to its [decision record](https://www.parlamentsdokumentation.brandenburg.de/starweb/LBB/ELVIS/parladoku/w8/beschlpr/protokolle/37.pdf), page 6. The separate speaker list names Christian Dorst; his speech and any named votes remain unchecked. These are group motions, not individual roll calls.
+
+Thuringia motion 8/3730 and a later coalition amendment surfaced in search; the original and final wording and debate need checking before assigning support. External lead Allan Mølholm is a duplicate of A0414 (spelled Molholm in the register); the campaign [roster](https://intaxwetrust.org/signatories) identifies him with Germany, and the [2022 campaign release](https://patrioticmillionaires.org/press/over-100-millionaires-worldwide-call-for-wealth-taxes-on-the-richest/) explains the wealth-tax demand. H0013 remains incomplete because the full list was not located this run. Municipalities remain unswept.
+
+
+## Thuringia and Brandenburg follow-up (R047, 14 November 2026)
+
+Thuringian Left group [called for reinstating the wealth tax](https://www.die-linke-thl.de/aktuelles/startseite/detail/news/unsere-themen-die-linke-fraktion-im-juni-plenum/) before introducing motion 8/3730. [Christian Schaft](https://www.abgeordnetenwatch.de/profile/christian-schaft/fragen-antworten/soziale-gerechtigkeit-die-linke-will-eine-ausbeutungsfreie-gesellschaft-welche-sie-demokrat-sozialismus) personally backed a specified net wealth tax in 2024; [Ronald Hande](https://www.die-linke-thl.de/fileadmin/lv/plenarreden/2024/re713308.pdf) advocated renewed taxation in a 2024 plenary speech. The [official October agenda](https://www.thueringer-landtag.de/uploads/tx_tltcalendar/invitations/Pe8056-6.pdf) records committee recommendation 8/4476 to adopt 8/3730 with changes. The official motion and recommendation could not be retrieved: Parldok returned 403 and the provisional 25 June protocol returned 410. A [business association opposing the measure](https://www.familienunternehmer.eu/vor-ort/lb-thueringen/presse/pressemitteilungen-thueringen/detail/die-familienunternehmer-in-thueringen-zur-vermoegensteuer.html) describes the compromise as a request to examine a tax, not a political commitment to introduce one; final wording and outcome remain unverified. No coalition group or the Landtag itself was added based on that compromise.
+
+For Brandenburg, [rbb24](https://www.rbb24.de/politik/beitrag/2026/09/brandenburg-generaldebatte-doppel-haushalt-2027-2028.html) reports BSW group chair Niels-Olaf Lüders advocated a wealth tax in the 16 September budget debate; this reported statement is grade B. The Landtag rejected group motion 8/3319 on 17 September 2026; the verbatim debate and any individual vote list remain open. Further regional and local coverage is incomplete.
+
+
+## Official records and profile follow-up (R048, 14 November 2026)
+
+The [Brandenburg decision record](https://www.parlamentsdokumentation.brandenburg.de/starweb/LBB/ELVIS/parladoku/w8/beschlpr/protokolle/37.pdf) confirms that motion 8/3319 was rejected; its [session metadata](https://www.parlamentsdokumentation.brandenburg.de/portal/sitzung.tt.html?search=NODE%3D651873%2A&wp=8) lists Christian Dorst as the BSW speaker, but his individual speech was not found. The official [2021 decision record](https://www.landtag.brandenburg.de/de/meldungen/der_44._sitzung_des_landtages_brandenburg_am_donnerstag_dem_20._mai_2021/13923) confirms rejection of motion 7/3405. A [14 October 2026 BSW national board decision](https://digital.bsw-vg.de/klare-linie-3/bsw-im-bund) expressly proposes an annual net wealth tax with the same EUR 25 million, EUR 100 million and EUR 1 billion thresholds.
+
+Seven recently added regional actors were checked for public links and office or group identity. Official sources confirm Hande and Schaft are state-list members, Lüders holds a Brandenburg state-list seat, and Hande is also a Zella-Mehlis councillor; municipality and group head-office locations were recorded where supported. No individual vote, direct statement by Dorst, or current personal tax statement by Lüders beyond rbb reporting was located. No retraction was identified in the searches.
+
+
+## Regional biographies and Brandenburg speech (R049, 14 November 2026)
+
+[Thomas von Gizycki’s 2021 prepared speech](https://gruene-fraktion-brandenburg.de/im-parlament/reden/kosten-pandemie-vermoegensteuer.pdf) explicitly approves a wealth tax in principle, but favours a broader wealth-taxation package and rejects the particular Left motion. The [actual plenary record](https://assets.stateparl.de/protocols/bb_7_44.pdf), pp. 19–20, also says he is unsure whether the instrument must be a wealth tax and finds a wealth levy attractive; no support for the specific motion or current detailed proposal is inferred. His [own biography](https://www.thomasvongizycki.de/zur-person/) reports current local and former state offices.
+
+[Andreas Büttner’s 2017 candidate statement](https://www.abgeordnetenwatch.de/profile/andreas-buettner) supports a wealth tax; he is now [Brandenburg commissioner against antisemitism](https://www.landtag.brandenburg.de/de/startseite/der_beauftragte_zur_bekaempfung_des_antisemitismus_im_land_brandenburg/39301) and [left Die Linke in 2026](https://www.tagesschau.de/inland/regional/brandenburg/brandenburger-antisemitismusbeauftragter-austritt-linke-100.html). A [2015 conference programme](https://www.matthias-w-birkwald.de/kontext/controllers/document.php/423.c/b/112f.pdf) attributes support to economist Birger Scholz; his past NRW role and qualifications match the [Thuringian finance ministry’s biography](https://finanzen.thueringen.de/ministerium/staatssekretaer). Both are historical statements, not proof of their current positions. Further regional and local coverage remains incomplete.
+
+
+## Schleswig-Holstein parliamentary records (R050, 14 November 2026)
+
+The SPD group’s [motion 20/2490](https://www.landtag.ltsh.de/infothek/wahl20/drucks/02400/drucksache-20-02490.pdf), dated 11 September 2024 and signed by Serpil Midyatli and Beate Raudies, called on the state government to support reintroducing the wealth tax federally. The [25 September plenary transcript](https://www.landtag.ltsh.de/export/sites/ltsh/infothek/wahl20/plenum/plenprot/2024/20-066_09-24.pdf), pp. 4978–4991, records arguments and shows the motion rejected by CDU, Greens and FDP against SPD and SSW. Oliver Brandt personally supported a wealth tax while explaining his group’s opposition to this particular motion; Lars Harms spoke for SSW support. No individual vote list was recorded.
+
+Midyatli’s [January 2024 budget speech](https://www.landtag.ltsh.de/presseticker/2024-01-24-11-12-52-6f8c/) set out a 1% illustrative design above EUR 5 million. [Lasse Petersdotter](https://sh-gruene-fraktion.de/unser-anspruch-bleibt-krisenbewaeltigung-zuverlaessigkeit-und-gestaltungswillen-als-leitschnur-einer-guten-politik-fuer-schleswig-holstein-zu-erhalten/) advocated a wealth tax for the super-rich, and [Christian Dirschauer](https://www.landtag.ltsh.de/presseticker/2026-08-26-11-50-51-0f3f/?paramSeite=50&qu=ssw%2Bkleine%2Banfrage&tBis=&tVon=) reiterated the SSW demand in August 2026. The finance minister’s speech leaves her own position insufficiently clear, so it remains a lead rather than an entry. Regional and municipal coverage is incomplete.
+
+
+## Cross-state Green signatories and union follow-up (R051, 14 November 2026)
+
+A [20 April 2016 position paper](https://expydoc.com/doc/9237331/gerechte-zukunft-%E2%80%93-nachhaltig-investieren-und-gerechter-v...) explicitly calls for reinstating a wealth tax and names 18 Green politicians as supporters. The available copy is a third-party reproduction, not a party-hosted original. Eight signatories were matched against public roles this run; H0019 remains open for the other ten. This historical endorsement is not proof of their current personal positions or the current policies of their institutions.
+
+[Rasmus Andresen’s own 2024 paper](https://rasmus-andresen.eu/aktuelles/fuer-alle) advocates a wealth tax and discusses wealth above EUR 100 million. [DGB deputy chair Stefan Körzell](https://www.dgb.de/presse/pressemitteilungen/agenturzitat/steuerschaetzung-dgb-mehr-fuer-steuergerechtigkeit/) personally called for reinstating the tax in October 2026. Current roles were checked against European, state and union sources; former legislative offices are marked as ended. No direct personal commitment by Schleswig-Holstein finance minister Silke Schneider was established (D0004 remains open).
+
+
+## Berlin and Green signatory follow-up (R052, 14 November 2026)
+
+All 18 names on the [2016 joint position paper](https://expydoc.com/doc/9237331/gerechte-zukunft-%E2%80%93-nachhaltig-investieren-und-gerechter-v...) have been matched to public roles. The text is a third-party reproduction and documents historical support only. [Martin-Sebastian Abel’s biography](https://www.landtag.nrw.de/home/der-landtag/abgeordnete-und--fraktionen/die-abgeordneten/abgeordnetensuche/abgeordnetendetail.html?k=01697) records that he left the Greens in 2023 and joined the FDP in 2024; his present position is not established.
+
+The official [Berlin plenary decision record](https://www.parlament-berlin.de/ados/19/IIIPlen/protokoll/plen19-069-bp.pdf) confirms that motion 19/1952 was rejected on 10 July 2025, correcting the previous lapsed status. The [committee minutes](https://www.parlament-berlin.de/ados/19/BuEuMe/protokoll/bem19-052-ip.pdf) report that Mathias Schulz shared the aim of reinstating a wealth tax while objecting to the motion’s route. In a [reproduced plenary transcript](https://berlin.radoskop.eu/session/69/transcript/), Lars Rauchfuß advocated a progressive wealth tax for the SPD group while rejecting the specific motion. The transcript retains a line-break hyphen; no individual vote list was found.
+
+
+## Parliamentary debate and referral follow-up (R053, 14 November 2026)
+
+The official [Berlin verbatim debate](https://www.parlament-berlin.de/ados/19/IIIPlen/protokoll/plen19-069-pp.pdf), pp. 6934–6941, identifies direct wealth-tax arguments by André Schulze and Steffen Zillich. It also replaces a third-party transcript used for Lars Rauchfuß and the Berlin SPD group; their 10-million-euro threshold supports grade A. The groups’ stances on motion 19/1952 remain distinct from support for a wealth tax generally.
+
+The [Bundestag debate](https://dserver.bundestag.de/btp/21/21108.pdf), pp. 13754–13760, confirms that 21/8267 was referred to committees on 12 November, not finally rejected. Karoline Otte introduced the Greens’ proposal; Parsa Marvi supported wealth-tax revival but said it was not in the coalition agreement; Christian Görke supported the proposal’s direction while advocating a broader tax. His qualification is preserved. Some secondary pages incorrectly reported an October rejection; the official record controls.
+
+D0001, D0003 and D0004 remain open: rechecking found no complete Thuringian decision or sufficiently clear personal endorsement by Dorst or Schneider. Other parliamentary items remain to be swept.
