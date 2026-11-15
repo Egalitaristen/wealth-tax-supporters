@@ -1,0 +1,2 @@
+check_id,actor_id,method,url,checked,result,found,note
+K00001,A0001,own_site,https://www.jamuslim.net,2026-11-15,error,,URLError: <urlopen error [Errno 11001] getaddrinfo failed>

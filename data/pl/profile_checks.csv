@@ -1,2 +1,27 @@
 check_id,actor_id,method,url,checked,result,found,note
 K00001,A0245,own_site,https://www.climateleadership.pl/pl/eksperci/virginie-little,2026-11-15,none,,
+K00002,A0186,own_site,https://orcid.org/0000-0001-6625-1409,2026-11-15,none,,
+K00003,A0232,own_site,"https://www.polskieradio.pl/13/11465/Artykul/3478636,maja-stasko-starania-o-ciaze-to-ciagle-pozbywanie-mnie-ciala",2026-11-15,none,,"not added: facebook https://www.facebook.com/czworka (social-block); facebook https://www.facebook.com/polskieradioplofficial (chrome,social-block); instagram https://www.instagram.com/czworka_polskieradio/ (social-block); instagram https://www.instagram.com/polskieradio/ (chrome,social-block); youtube https:/"
+K00004,A0197,own_site,https://radon.nauka.gov.pl/dane/profil/76FE37629BB2D02A85FA4929B96E53520674B582,2026-11-15,none,,
+K00005,A0113,own_site,https://www.szahaj.com/,2026-11-15,error,,URLError: <urlopen error [Errno 11001] getaddrinfo failed>
+K00006,A0252,own_site,https://www.deloitte.com/pl/pl/about/people/profiles.msadkowska%2B4d4dc034.html,2026-11-15,error,,404 at https://www.deloitte.com/pl/pl/about/people/profiles.msadkowska%2B4d4dc034.html
+K00007,A0076,own_site,https://radon.nauka.gov.pl/dane/profil/759A76CE4F9322C8EF03E2DF7C3FD382B219396E,2026-11-15,none,,
+K00008,A0187,own_site,https://radon.nauka.gov.pl/dane/profil/DE9014AB7D6C5F1F3F7D0903B1CAD44FB7147CEF,2026-11-15,none,,
+K00009,A0262,own_site,https://www.gov.pl/web/konferencja-ncbr-horyzont-innowacji/martyna-slowik,2026-11-15,error,,URLError: <urlopen error [WinError 10060] A connection attempt failed because the connecte
+K00010,A0154,own_site,https://orcid.org/0000-0001-6449-1185,2026-11-15,none,,"URLError: <urlopen error (""The certificate's CN name does not match the passed value."",)>"
+K00011,A0228,own_site,https://bip.um.suwalki.pl/Menu_podmiotowe/oswiadczenie_majatkowe_s/oswiadczenie-majatkowe-wojciech-pajak-2024.html,2026-11-15,error,,URLError: <urlopen error [WinError 10060] A connection attempt failed because the connecte
+K00012,A0206,own_site,https://radon.nauka.gov.pl/dane/profil/660932D0E893A6DDBE7CEB958CD7BE06F9930A91,2026-11-15,none,,
+K00013,A0258,own_site,https://collections.fes.de/publikationen/ident/fes/15922,2026-11-15,none,,
+K00014,A0112,own_site,https://euromemo.eu/history/,2026-11-15,none,,"not added: facebook https://www.facebook.com/people/EuroMemo-Group/100069182469026 (chrome,social-block); x https://x.com/EuroMemoG (chrome,social-block)"
+K00015,A0227,own_site,https://www.efcongress.com/osoby/edwin-bendyk/,2026-11-15,none,,"not added: youtube https://www.youtube.com/channel/UCK3dlhIgGUamkCwbyv8ZzaQ (chrome,social-block); linkedin https://www.linkedin.com/company/efcongress (chrome,social-block)"
+K00016,A0190,own_site,https://orcid.org/0000-0001-8423-9198,2026-11-15,none,,
+K00017,A0175,own_site,"https://arch-bip.ms.gov.pl/pl/rejestry-i-ewidencje/tlumacze-przysiegli/lista-tlumaczy-przysieglych/translator,9248.html",2026-11-15,none,,
+K00018,A0167,own_site,https://radon.nauka.gov.pl/dane/profil/B60A73FCE97322B9CC6313827AA0B18859CD954F,2026-11-15,none,,
+K00019,A0275,own_site,https://psychologia.wfch.uksw.edu.pl/stupak,2026-11-15,none,,403 at https://psychologia.wfch.uksw.edu.pl/stupak
+K00020,A0260,own_site,https://magazynszum.pl/godzina-szumu-85-agata-cieslak-iga-maria-szczepanska/,2026-11-15,none,,"not added: facebook https://www.facebook.com/magazynszum (chrome,social-block); instagram https://www.instagram.com/magazynszum/ (chrome,social-block); instagram https://www.instagram.com/nprwdlw_nzw_uztkwnk/ ()"
+K00021,A0267,own_site,https://radon.nauka.gov.pl/dane/profil/80B8B3997387FA80456A30D0D1CF2D84C0479D82,2026-11-15,none,,"robots.txt forbids https://www.umcs.pl/pl/addres-book-employee,26530,pl.html"
+K00022,A0294,own_site,https://ekonomiapolityczna.wne.uw.edu.pl/pl/pracownicy/mbrzezinski,2026-11-15,none,,"not added: linkedin https://www.linkedin.com/in/poleconuw (chrome,social-block); x https://x.com/PolEconUW (chrome,social-block)"
+K00023,A0086,own_site,https://radon.nauka.gov.pl/dane/profil/5CAB1ACF93D21E72D02E34481BF3F66E1C186719,2026-11-15,none,,
+K00024,A0270,own_site,https://ikp.uw.edu.pl/bio/dr-kornelia-sobczak/,2026-11-15,none,,"not added: facebook https://www.facebook.com/ikp.uw (chrome,social-block); instagram https://www.instagram.com/ikp_uw/ (chrome,social-block)"
+K00025,A0063,own_site,https://radon.nauka.gov.pl/dane/profil/7B9FB61E5113FB62E12B5BF986BAC7DC945914AF,2026-11-15,none,,
+K00026,A0134,own_site,https://radon.nauka.gov.pl/dane/profil/AB88A88AE8561C24F36A2CBE6EA487799A719EC1,2026-11-15,none,,

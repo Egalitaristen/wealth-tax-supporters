@@ -241,18 +241,32 @@ def read_actor(reader, actor, sites):
     return scanned, cands, note, blocked, pages_read
 
 
+def personal_domain(page, toks):
+    """True when a domain label is made of the person's name: it holds two of the name's words (christian-schaft.de), or one word and at most four more letters
+    (cschaft.de), never a longer word that merely contains it (gesellschaft)."""
+    host = urllib.parse.urlparse(page).netloc.lower().replace("www.", "")
+    for label in re.split(r"[.]", host)[:-1] or [host]:
+        flat = re.sub(r"[^a-z0-9]", "", label)
+        hit = [t for t in toks if t in flat]
+        if len(hit) >= 2 or any(flat == t or (len(flat) - len(t) <= 4 and (flat.startswith(t) or flat.endswith(t))) for t in hit):
+            return True
+    return False
+
+
+VENDOR = ("wix", "squarespace", "wordpress", "godaddy", "shopify", "weebly", "elementor", "hubspot", "mailchimp")
+
+
 def judge(actor, sites, cands):
     """Split candidates into (accepted, review): one account per platform, and only an account that is the actor's own.
 
-    A person gets an account when its handle matches their name, when the link is marked rel="me", or when it sits in the header, footer or a
-    social block of a personal site (a domain that carries their name). The accounts in the header and footer of an employer's or parliament's
-    page belong to that institution, so for a person they are held, not added. An organisation gets the accounts in the header, footer or social
+    A person gets an account when its handle matches their name, or when their personal site (a domain made of their name) marks it rel="me".
+    Accounts in the header and footer of any site, including a personal one, may be a party's or employer's, so for a person they are logged, not added. An organisation gets the accounts in the header, footer or social
     block of its own site, unless the page is only a section of a larger site (a local branch), where the handle has to match its name."""
     person = actor["kind"] == "person"
     toks = name_tokens(actor["name"], person)
 
     def personal(page):  # the page is on a site whose domain carries the person's name
-        return person and any(t in re.sub(r"[^a-z0-9]", "", urllib.parse.urlparse(page).netloc.lower().replace("www.", "")) for t in toks)
+        return person and personal_domain(page, toks)
 
     def section(page):  # the page is a section or a subdomain of a larger site (a local branch, a team page)
         u = urllib.parse.urlparse(page)
@@ -262,7 +276,7 @@ def judge(actor, sites, cands):
     by = collections.defaultdict(dict)
     for c in cands:
         h = c["handle"].lower()
-        if h in GENERIC:
+        if h in GENERIC or h.startswith(VENDOR):
             continue
         e = by[c["platform"]].setdefault(c["url"].lower().rstrip("/"), dict(c, count=0, ctxs=set()))
         e["count"] += 1
@@ -277,7 +291,7 @@ def judge(actor, sites, cands):
             strong = bool(e["ctxs"] & {"rel-me", "chrome", "social-block", "meta"}) and not share
             pers = personal(e["page"])
             if person:
-                good = namecheck or (pers and strong)  # rel="me" also counts, but only on a personal site: institutions verify their own accounts that way
+                good = namecheck or ("rel-me" in e["ctxs"] and pers)  # an account that carries the person's name, or one a personal site marks rel="me"; the rest is logged
             else:
                 good = strong and (namecheck or not section(e["page"]))
             e["namecheck"] = namecheck
@@ -402,6 +416,10 @@ def main():
                                      note=("; ".join(x for x in [note.strip(), ("not added: " + extra) if extra else "", ("already listed: " + ",".join(existing)) if existing else ""] if x))[:400]))
         summary[result] += 1
         report.append((cc, r["actor_id"], r["name"], result, pages, [e["platform"] + ":" + e["handle"] for e in added], existing, [f"{e['platform']}:{e['handle']}[{','.join(sorted(e.get('ctxs') or e.get('ctx', [])))}]" for e in review], note.strip()[:100]))
+        if not a.dry_run and n % 20 == 0:  # keep the work if the run is stopped; a re-run with --due carries on
+            for c2, d2 in touched.items():
+                wtdb.save(str(data / c2), "profiles", d2["profiles"])
+                wtdb.save(str(data / c2), "profile_checks", d2["checks"])
         print(f"[{n}/{len(pool)}] {cc}:{r['actor_id']} {r['name'][:40]:40} {result:8} +{len(added)} review {len(review)} {note.strip()[:60]}", flush=True)
     if not a.dry_run:
         for cc, db in touched.items():

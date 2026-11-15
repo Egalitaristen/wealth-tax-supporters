@@ -3,3 +3,14 @@ K00001,A0038,own_site,https://www.concejobariloche.gov.ar/index.php/instituciona
 K00002,A0185,own_site,https://www.diputados.gob.ar/diputados/jtaiana/,2026-11-15,error,,URLError: <urlopen error _ssl.c:1015: The handshake operation timed out>
 K00003,A0206,own_site,https://www.senadoracatalfamo.com,2026-11-15,error,,URLError: <urlopen error [Errno 11001] getaddrinfo failed>
 K00004,A0103,own_site,https://tanagonzalez.ar,2026-11-15,error,,URLError: <urlopen error [Errno 11001] getaddrinfo failed>
+K00005,A0084,own_site,https://www.diputados.gob.ar/diputados/ccisneros/,2026-11-15,error,,URLError: <urlopen error _ssl.c:1015: The handshake operation timed out>
+K00006,A0052,own_site,https://www.anabelfsagasti.com.ar,2026-11-15,none,,URLError: <urlopen error [Errno 11001] getaddrinfo failed>
+K00007,A0040,own_site,https://www.concejobariloche.gov.ar/index.php/institucional/concejales/19661-julieta-wallace,2026-11-15,none,,"not added: facebook https://www.facebook.com/Concejo.Bariloche (chrome,social-block); x https://x.com/Concejobrc (chrome,social-block); youtube https://www.youtube.com/user/ConcejoMunicipalBari (chrome,social-block); youtube https://www.youtube.com/channel/UCd_WYj8bhP2TfqrRzjSX7Rw (); instagram https://www.ins"
+K00008,A0115,own_site,https://www.diputados.gob.ar/diputados/mjlopez/,2026-11-15,error,,URLError: <urlopen error _ssl.c:1015: The handshake operation timed out>
+K00009,A0162,own_site,https://www.diputados.gob.ar/diputados/evaldes/,2026-11-15,error,,URLError: <urlopen error _ssl.c:1015: The handshake operation timed out>
+K00010,A0219,own_site,https://www.celag.org,2026-11-15,none,,"not added: x https://x.com/celageopolitica (chrome,meta,social-block); instagram https://www.instagram.com/celageopolitica/ (chrome,social-block); youtube https://www.youtube.com/channel/UCMJj6bA_8M_dsJMhmtoKZXw (chrome,social-block)"
+K00011,A0061,own_site,https://felipealvarezlr.com.ar/,2026-11-15,found,instagram;tiktok,already listed: x; removed on review (employer's or unrelated account): youtube https://www.youtube.com/channel/UC_mPKFC7XtdkbQcI7nY0AWA
+K00012,A0030,own_site,https://www.izquierdasocialista.org.ar/,2026-11-15,found,instagram;x;youtube,not added: facebook https://www.facebook.com/IzquierdaSocialistaArg (social-block); facebook https://www.facebook.com/izquierdasocialista.org.ar (social-block)
+K00013,A0211,own_site,https://www.diputados.gob.ar/diputados/mrmanrique/,2026-11-15,error,,URLError: <urlopen error _ssl.c:1015: The handshake operation timed out>
+K00014,A0081,own_site,https://www.diputados.gob.ar/diputados/scasas/,2026-11-15,error,,URLError: <urlopen error _ssl.c:1015: The handshake operation timed out>
+K00015,A0216,own_site,https://www.diputados.gob.ar/diputados/mnoguera/,2026-11-15,error,,URLError: <urlopen error _ssl.c:1015: The handshake operation timed out>

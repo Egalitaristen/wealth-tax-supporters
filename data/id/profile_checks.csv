@@ -1,0 +1,5 @@
+check_id,actor_id,method,url,checked,result,found,note
+K00001,A0067,own_site,https://solidaritasperempuan.org,2026-11-15,found,instagram;youtube;facebook;linkedin;x;tiktok,
+K00002,A0066,own_site,https://walhi.or.id,2026-11-15,blocked,,403 at https://walhi.or.id
+K00003,A0007,own_site,https://celios.co.id,2026-11-15,none,,"not added: instagram https://www.instagram.com/celios_id/ (chrome,social-block)"
+K00004,A0055,own_site,https://botax.id,2026-11-15,none,,

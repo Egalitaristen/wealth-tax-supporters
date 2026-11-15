@@ -1,0 +1,6 @@
+check_id,actor_id,method,url,checked,result,found,note
+K00001,A0078,own_site,https://www.zenroren.gr.jp/,2026-11-15,none,,"not added: youtube https://www.youtube.com/@zenrorenweb (); x https://x.com/zenroren (chrome,social-block); x https://x.com/kuma_kenrouren (); x https://x.com/miyazaki_rouren ()"
+K00002,A0080,own_site,https://www.shii.gr.jp/,2026-11-15,found,x,
+K00003,A0064,own_site,https://tax-justice.com/?page_id=27,2026-11-15,none,,
+K00004,A0032,own_site,https://kokkororen.com/,2026-11-15,found,facebook;x;youtube,not added: x https://x.com/zenhoumu (); x https://x.com/zenkousei_HQ (); x https://x.com/kana4103chan (); x https://x.com/zenkeizai (); x https://x.com/KokkoRoso (); x https://x.com/ZenshihoHombu (); x https://x.com/kokkoippan (); x https://x.com/zendaikyo01 (); x https://x.com/zenroren ()
+K00005,A0070,own_site,https://tax-justice.com/?page_id=27,2026-11-15,none,,

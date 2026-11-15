@@ -6,3 +6,45 @@ K00004,A0158,own_site,https://www.richmondca.gov/29/City-Council,2026-11-15,none
 K00005,A0259,own_site,https://www.contracosta.ca.gov/m/directory/employee?eid=1064,2026-11-15,blocked,,403 at https://www.contracosta.ca.gov/m/directory/employee?eid=1064
 K00006,A0022,own_site,https://nuhw.org,2026-11-15,none,,"already listed: facebook,x,linkedin,instagram,youtube"
 K00007,A0156,own_site,https://berkeleyca.gov/your-government/city-council/council-roster/cecilia-lunaparra,2026-11-15,none,,"not added: instagram https://www.instagram.com/cityofberkeley/ (chrome,social-block); bluesky https://bsky.app/profile/berkeleyca.gov (chrome,social-block); linkedin https://www.linkedin.com/company/city-of-berkeley (chrome,social-block); already listed: instagram"
+K00008,A0276,own_site,https://www.bowmanforcongress.com,2026-11-15,found,youtube,"not added: tiktok https://www.tiktok.com/@jamaalbowmanny (chrome,social-block); already listed: instagram,x,facebook"
+K00009,A0198,own_site,https://www.stocktonca.gov/government/city_council/district_4.php,2026-11-15,blocked,,403 at https://www.stocktonca.gov/government/city_council/district_4.php
+K00010,A0762,own_site,https://www.cluw.org/,2026-11-15,none,,not added: facebook https://www.facebook.com/CLUWomen (); x https://x.com/CLUWNational (); instagram https://www.instagram.com/cluwnational/ ()
+K00011,A0494,own_site,https://www.nabeelasyed.com/,2026-11-15,none,,"already listed: x,linkedin,facebook,instagram"
+K00012,A0656,own_site,https://usw.org/leadership/roxanne-brown/,2026-11-15,none,,"not added: instagram https://www.instagram.com/steelworkers/ (chrome,social-block); youtube https://www.youtube.com/@Steelworkers (chrome,social-block); x https://x.com/steelworkers (chrome,social-block); facebook https://www.facebook.com/steelworkers (chrome,social-block); bluesky https://bsky.app/profile/ste"
+K00013,A0279,own_site,https://mondaireforcongress.com/,2026-11-15,error,,"URLError: <urlopen error (""The certificate's CN name does not match the passed value."",)>"
+K00014,A0796,own_site,https://www.nelp.org/,2026-11-15,found,instagram;bluesky;linkedin,"already listed: facebook,x"
+K00015,A0186,own_site,https://www.montereypark.ca.gov/Directory.aspx?EID=169,2026-11-15,none,,"not added: facebook https://www.facebook.com/CityofMontereyPark (chrome,social-block); x https://x.com/CityofMPK (chrome,social-block); instagram https://www.instagram.com/cityofmontereypark/ (chrome,social-block); youtube https://www.youtube.com/user/MontParkTV (chrome,social-block)"
+K00016,A0411,own_site,https://noorforsenate.org,2026-11-15,error,,URLError: <urlopen error [Errno 11001] getaddrinfo failed>
+K00017,A0700,own_site,https://www.newschool.edu/lang/faculty/Darrick-Hamilton/,2026-11-15,blocked,,429 at https://www.newschool.edu/lang/faculty/Darrick-Hamilton/
+K00018,A0728,own_site,https://angienixon.com/,2026-11-15,none,,"not added: youtube https://www.youtube.com/@AngieForFL (chrome,social-block); already listed: facebook,x,instagram,tiktok,bluesky"
+K00019,A0124,own_site,https://assembly.ca.gov/assemblymembers/50,2026-11-15,none,,
+K00020,A0193,own_site,https://www.cityoforinda.gov/221/City-Council,2026-11-15,found,facebook;instagram,
+K00021,A0538,own_site,https://patrioticmillionaires.org/people/patricia-martone/,2026-11-15,none,,"not added: x https://x.com/PatrioticMills (chrome,social-block); facebook https://www.facebook.com/PatrioticMillionaires (chrome,social-block); instagram https://www.instagram.com/patrioticmillionaires/ (chrome,social-block); tiktok https://www.tiktok.com/@patriotic.millionaires (chrome,social-block); linkedin"
+K00022,A0432,own_site,https://www.nysenate.gov/senator/gustavo-rivera,2026-11-15,blocked,,403 at https://www.nysenate.gov/senator/gustavo-rivera
+K00023,A0255,own_site,https://district3.alamedacountyca.gov/about-lena-tam/,2026-11-15,blocked,,403 at https://district3.alamedacountyca.gov/about-lena-tam/
+K00024,A0057,own_site,https://www.cagreens.org/,2026-11-15,found,facebook;youtube;substack,not added: x https://x.com/cagreens1 (social-block); already listed: instagram
+K00025,A0341,own_site,https://www.murray.senate.gov/,2026-11-15,blocked,,403 at https://www.murray.senate.gov/ 403 at https://www.murray.senate.gov
+K00026,A0018,own_site,https://lablackworkercenter.org/contact-us/,2026-11-15,none,,"not added: facebook https://www.facebook.com/labwc (chrome,social-block); already listed: instagram,x"
+K00027,A0260,own_site,https://www.terralawsonremer.org/,2026-11-15,none,,"already listed: facebook,instagram"
+K00028,A0230,own_site,https://fsusd.community.highbond.com/portal/members.aspx?id=36,2026-11-15,blocked,,robots.txt forbids https://fsusd.community.highbond.com/portal/members.aspx?id=36
+K00029,A0638,own_site,https://peoplesactioninstitute.org/,2026-11-15,none,,"already listed: x,facebook"
+K00030,A0194,own_site,https://cityofconcord.org/242/Laura-Hoffmeister,2026-11-15,none,,
+K00031,A0142,own_site,https://www.emeryville.org/Government/City-Council/Council-Members/Mayor-Sukhdeep-Kaur,2026-11-15,none,,"not added: facebook https://www.facebook.com/profile.php?id=100087325997219 (chrome,social-block); facebook https://www.facebook.com/profile.php?id=61550590695113 (chrome,social-block); instagram https://www.instagram.com/cityofemeryville/ (chrome,social-block); already listed: linkedin"
+K00032,A0212,own_site,https://www.unioncityca.gov/202/Mayor-City-Council,2026-11-15,blocked,,403 at https://www.unioncityca.gov/202/Mayor-City-Council
+K00033,A0084,own_site,https://www.bwopatileleads.org/,2026-11-15,none,,"already listed: facebook,x,instagram"
+K00034,A0873,own_site,https://www.hamiltonnolan.com/about,2026-11-15,none,,already listed: x
+K00035,A0282,own_site,https://evans.house.gov/,2026-11-15,found,bluesky;youtube,"already listed: x,facebook,instagram"
+K00036,A0911,own_site,https://dannyyagan.com/,2026-11-15,none,,
+K00037,A0002,own_site,https://www.sanders.senate.gov/,2026-11-15,blocked,,403 at https://www.sanders.senate.gov/
+K00038,A0235,own_site,https://www.4cd.edu/gb/,2026-11-15,none,,not added: facebook https://www.facebook.com/pages/Contra-Costa-Community-College-District/159547331679 (social-block); instagram https://www.instagram.com/4cd_live/ (social-block); linkedin https://www.linkedin.com/company/contra-costa-community-college-district (social-block)
+K00039,A0693,own_site,https://clairevaldezforcongress.com/,2026-11-15,found,tiktok;youtube;bluesky;facebook,"already listed: x,instagram"
+K00040,A0354,own_site,https://budzinski.house.gov,2026-11-15,none,,"already listed: facebook,x,instagram,youtube"
+K00041,A0026,own_site,https://utla.net,2026-11-15,none,,"not added: youtube https://www.youtube.com/user/utlaNOW (chrome,social-block); already listed: instagram,x,facebook"
+K00042,A0618,own_site,https://www.goiam.org/staff/brian-bryant/,2026-11-15,none,,"not added: youtube https://www.youtube.com/user/FranticHarbor (chrome,social-block); instagram https://www.instagram.com/MachinistsUnion/ (chrome,social-block); facebook https://www.facebook.com/MachinistsUnion (chrome,social-block); x https://x.com/iam_union (chrome,social-block)"
+K00043,A0930,own_site,https://www.afscme33.org/,2026-11-15,none,,"already listed: facebook,instagram,x,youtube"
+K00044,A0067,own_site,https://sacdsa.org/,2026-11-15,none,,"not added: x https://x.com/dsachapter (meta); x https://x.com/DSA (meta); already listed: facebook,bluesky,instagram,youtube"
+K00045,A0468,own_site,https://oregoned.org/,2026-11-15,found,facebook;bluesky;instagram;x,
+K00046,A0761,own_site,https://populardemocracy.org/,2026-11-15,none,,not added: substack https://populardemocracy.substack.com (); x https://x.com/PennPolicy (social-block); x https://x.com/EdKrassen (social-block); already listed: instagram
+K00047,A0162,own_site,https://www.richmondca.gov/29/City-Council,2026-11-15,none,,"not added: x https://x.com/cityofrichmond (chrome,social-block)"
+K00048,A0270,own_site,https://norton.house.gov/,2026-11-15,none,,"already listed: facebook,x,instagram"
+K00049,A0326,own_site,https://pingree.house.gov/,2026-11-15,none,,"already listed: facebook,x,instagram,bluesky"

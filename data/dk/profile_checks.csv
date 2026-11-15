@@ -1,0 +1,2 @@
+check_id,actor_id,method,url,checked,result,found,note
+K00001,A0003,own_site,https://sf.dk,2026-11-15,found,facebook;instagram;x,not added: facebook https://www.facebook.com/pia.olsen.dyhr (); facebook https://www.facebook.com/49348971479 (); facebook https://www.facebook.com/1678727160284081 (); facebook https://www.facebook.com/1675842833905847 ()
