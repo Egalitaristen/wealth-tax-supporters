@@ -12,6 +12,9 @@ A first-pass guide (seed, 2026-11-04). Lithuania has a property tax (the 2021 't
 - ERR (err.ee, news.err.ee) pages read with plain curl; the date is in `article:published_time`.
 - Search engines return mostly property-tax and income-tax material; check every hit against the definition.
 
+## Seats
+`python skill/scripts/seats.py data/lt --fix-status` reads the Seimas member list `https://www.lrs.lt/sip/portal.show?p_r=35299&p_k=1` (HTML, one card per member with the faction; 140 of 141 seats filled, one shown as Vacant; a member in no faction is Non-attached). The Seimas open-data XML (`apps.lrs.lt/sip/p2b.ad_seimo_nariai`, and its `www.lrs.lt` copy) times out or returns a block page from scripts here, so it is not used; if it answers where you run, it would also give start dates and constituencies.
+
 ## Exclusions to remember
 
 See `data/lt/exclusions.csv` and `data/lt/leads.csv`: progressive income tax, inheritance tax, property tax and (Estonia) company asset tax are out of definition.
