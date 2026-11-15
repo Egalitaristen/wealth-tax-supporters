@@ -1,44 +1,44 @@
 position_id,actor_id,body_id,role,party,geo_unit_id,start,end,current,member_ref,checked,source_url
-O00001,A0001,B0001,Representative,Party-list,,2025,,y,G093,2026-10-28,https://www.congress.gov.ph/house-members
-O00002,A0002,B0001,Representative,Party-list,,2025,,y,I083,2026-10-28,https://www.congress.gov.ph/house-members
-O00003,A0003,B0001,Representative,Party-list,,2025,,y,L022,2026-10-28,https://www.congress.gov.ph/house-members
-O00004,A0004,B0001,Representative,Party-list,,2025,,y,I401,2026-10-28,https://www.congress.gov.ph/house-members
-O00005,A0008,B0001,Representative,Party-list,,2025,,y,K142,2026-10-28,https://www.congress.gov.ph/house-members
-O00006,A0009,B0001,Representative,Liberal Party,G0088,2025,,y,G009,2026-10-28,https://www.congress.gov.ph/house-members
-O00007,A0010,B0001,Representative,Party-list,,2025,,y,L032,2026-10-28,https://www.congress.gov.ph/house-members
-O00008,A0011,B0001,Representative,Party-list,,2025,,y,L046,2026-10-28,https://www.congress.gov.ph/house-members
-O00009,A0012,B0001,Representative,Party-list,,2025,,y,F123,2026-10-28,https://www.congress.gov.ph/house-members
-O00010,A0020,B0001,Representative,Bayan Muna,,2019,2022-06-30,n,,2026-10-28,https://docs.congress.hrep.online/legisdocs/basic_18/HB10253.pdf
-O00011,A0021,B0001,Representative,Bayan Muna,,2013,2022-06-30,n,,2026-10-28,https://docs.congress.hrep.online/legisdocs/basic_18/HB10253.pdf
-O00012,A0022,B0001,Representative,Bayan Muna,,2019,2022-06-30,n,,2026-10-28,https://docs.congress.hrep.online/legisdocs/basic_18/HB10253.pdf
-O00013,A0023,B0001,Representative,ACT Teachers,,2016,2025-06-30,n,,2026-10-28,https://docs.congress.hrep.online/legisdocs/basic_18/HB10253.pdf
-O00014,A0024,B0001,Representative,Gabriela Women’s Party,,2016,2025-06-30,n,,2026-10-28,https://docs.congress.hrep.online/legisdocs/basic_18/HB10253.pdf
 O00015,A0025,B0002,Presidential candidate,Partido Lakas ng Masa,,2022,2022,n,,2026-10-28,https://www.ibon.org/wp-content/uploads/2022/02/btys22-220204.pdf
 O00016,A0030,B0002,Vice-presidential candidate,Partido Lakas ng Masa,,2022,2022,n,,2026-10-28,https://news.tv5.com.ph/national/read/bilang-pilipino-bello-refutes-concerns-20-wealth-tax-will-cause-capital-flight
-O00017,A0034,B0001,Former representative,Bayan Muna,,2004,2013,n,,2026-10-28,https://bayanmuna.com.ph/history/
 O00018,A0038,B0003,Senate candidate,Partido Lakas ng Masa,,2022,2022,n,,2026-10-28,https://www.gmanetwork.com/news/topstories/nation/821215/leody-s-senate-bet-says-trapos-cause-of-poverty-in-philippines/story/
-O00019,A0030,B0001,Former representative,Akbayan,,2009,2015-03-19,n,,2026-10-28,https://www.binghamton.edu/sociology/docs/cv/waldenbello.cv.pdf
-O00020,A0051,B0001,Representative,National Unity Party,,2025,,y,J078,2026-11-12,https://www.congress.gov.ph/house-members/view/J078
-O00021,A0052,B0001,Representative,Lakas-CMD,,2025,,y,K062,2026-11-12,https://www.congress.gov.ph/house-members/view/K062
-O00022,A0053,B0001,Representative,Lakas-CMD,,2025,,y,L039,2026-11-12,https://www.congress.gov.ph/house-members/view/L039
-O00023,A0054,B0001,Representative,National Unity Party,,2025,,y,I032,2026-11-12,https://www.congress.gov.ph/house-members/view/I032
-O00024,A0055,B0001,Representative,4Ps,,2025,,y,C069,2026-11-12,https://www.congress.gov.ph/house-members/view/C069
-O00025,A0056,B0001,Representative,Nacionalista Party,,2025,,y,J012,2026-11-12,https://www.congress.gov.ph/house-members/view/J012
-O00026,A0057,B0001,Representative,National Unity Party,,2025,,y,K005,2026-11-12,https://www.congress.gov.ph/house-members/view/K005
-O00027,A0058,B0001,Representative,National Unity Party,,2025,,y,L095,2026-11-12,https://www.congress.gov.ph/house-members/view/L095
-O00028,A0059,B0001,Representative,Nationalist People's Coalition,,2025,,y,J037,2026-11-12,https://www.congress.gov.ph/house-members/view/J037
-O00029,A0060,B0001,Representative,APEC,,2025,,y,J093,2026-11-12,https://www.congress.gov.ph/house-members/view/J093
-O00030,A0061,B0001,Representative,National Unity Party,,2025,,y,K065,2026-11-12,https://www.congress.gov.ph/house-members/view/K065
-O00031,A0062,B0001,Representative,Nationalist People's Coalition,,2025,,y,B020,2026-11-12,https://www.congress.gov.ph/house-members/view/B020
-O00032,A0063,B0001,Representative,National Unity Party,,2025,,y,K075,2026-11-12,https://www.congress.gov.ph/house-members/view/K075
-O00033,A0064,B0001,Representative,Lakas-CMD,,2025,,y,K042,2026-11-12,https://www.congress.gov.ph/house-members/view/K042
-O00034,A0065,B0001,Representative,United Senior Citizens,,2025,,y,I109,2026-11-12,https://www.congress.gov.ph/house-members/view/I109
-O00035,A0066,B0001,Representative,Partido Federal ng Pilipinas,,2025,,y,K053,2026-11-12,https://www.congress.gov.ph/house-members/view/K053
-O00036,A0067,B0001,Representative,KM Ngayon Na,,2025,,y,L082,2026-11-12,https://www.congress.gov.ph/house-members/view/L082
-O00037,A0068,B0001,Representative,Partido Federal ng Pilipinas,,2025,,y,L088,2026-11-12,https://www.congress.gov.ph/house-members/view/L088
-O00038,A0069,B0001,Representative,National Unity Party,,2025,,y,F070,2026-11-12,https://www.congress.gov.ph/house-members/view/F070
-O00039,A0070,B0001,Representative,Partido Federal ng Pilipinas,,2025,,y,L012,2026-11-12,https://www.congress.gov.ph/house-members/view/L012
-O00040,A0071,B0001,Representative,Nationalist People's Coalition,,2025,,y,L077,2026-11-12,https://www.congress.gov.ph/house-members/view/L077
-O00041,A0072,B0001,Representative,National Unity Party,,2025,,y,K088,2026-11-12,https://www.congress.gov.ph/house-members/view/K088
-O00042,A0073,B0001,Representative,National Unity Party,,2025,,y,K094,2026-11-12,https://www.congress.gov.ph/house-members/view/K094
-O00043,A0074,B0001,Representative,FPJ Panday Bayanihan,,2025,,y,L055,2026-11-12,https://www.congress.gov.ph/house-members/view/L055
+O00019,A0001,B0001,Member of the House of Representatives,Party-list,G0001,,,y,G093,2026-11-15,https://www.congress.gov.ph/house-members/view/G093
+O00020,A0002,B0001,Member of the House of Representatives,Party-list,G0001,,,y,I083,2026-11-15,https://www.congress.gov.ph/house-members/view/I083
+O00021,A0003,B0001,Member of the House of Representatives,Party-list,G0001,,,y,L022,2026-11-15,https://www.congress.gov.ph/house-members/view/L022
+O00022,A0004,B0001,Member of the House of Representatives,Party-list,G0001,,,y,I401,2026-11-15,https://www.congress.gov.ph/house-members/view/I401
+O00023,A0008,B0001,Member of the House of Representatives,Party-list,G0001,,,y,K142,2026-11-15,https://www.congress.gov.ph/house-members/view/K142
+O00024,A0009,B0001,Member of the House of Representatives,District,G0088,,,y,G009,2026-11-15,https://www.congress.gov.ph/house-members/view/G009
+O00025,A0010,B0001,Member of the House of Representatives,Party-list,G0001,,,y,L032,2026-11-15,https://www.congress.gov.ph/house-members/view/L032
+O00026,A0011,B0001,Member of the House of Representatives,Party-list,G0001,,,y,L046,2026-11-15,https://www.congress.gov.ph/house-members/view/L046
+O00027,A0012,B0001,Member of the House of Representatives,Party-list,G0001,,,y,F123,2026-11-15,https://www.congress.gov.ph/house-members/view/F123
+O00028,A0020,B0001,Member of the House of Representatives,Bayan Muna,G0001,2019,2022-06-30,n,,2026-11-15,https://docs.congress.hrep.online/legisdocs/basic_18/HB10253.pdf
+O00029,A0021,B0001,Member of the House of Representatives,Bayan Muna,G0001,2013,2022-06-30,n,,2026-11-15,https://docs.congress.hrep.online/legisdocs/basic_18/HB10253.pdf
+O00030,A0022,B0001,Member of the House of Representatives,Bayan Muna,G0001,2019,2022-06-30,n,,2026-11-15,https://docs.congress.hrep.online/legisdocs/basic_18/HB10253.pdf
+O00031,A0023,B0001,Member of the House of Representatives,ACT Teachers,G0001,2016,2025-06-30,n,,2026-11-15,https://docs.congress.hrep.online/legisdocs/basic_18/HB10253.pdf
+O00032,A0024,B0001,Member of the House of Representatives,Gabriela Women’s Party,G0001,2016,2025-06-30,n,,2026-11-15,https://docs.congress.hrep.online/legisdocs/basic_18/HB10253.pdf
+O00033,A0030,B0001,Member of the House of Representatives,Akbayan,G0001,2009,2015-03-19,n,,2026-11-15,https://www.binghamton.edu/sociology/docs/cv/waldenbello.cv.pdf
+O00034,A0034,B0001,Member of the House of Representatives,Bayan Muna,G0001,2004,2013,n,,2026-11-15,https://bayanmuna.com.ph/history/
+O00035,A0051,B0001,Member of the House of Representatives,District,G0001,,,y,J078,2026-11-15,https://www.congress.gov.ph/house-members/view/J078
+O00036,A0052,B0001,Member of the House of Representatives,District,G0001,,,y,K062,2026-11-15,https://www.congress.gov.ph/house-members/view/K062
+O00037,A0053,B0001,Member of the House of Representatives,District,G0001,,,y,L039,2026-11-15,https://www.congress.gov.ph/house-members/view/L039
+O00038,A0054,B0001,Member of the House of Representatives,District,G0001,,,y,I032,2026-11-15,https://www.congress.gov.ph/house-members/view/I032
+O00039,A0055,B0001,Member of the House of Representatives,Party-list,G0001,,,y,C069,2026-11-15,https://www.congress.gov.ph/house-members/view/C069
+O00040,A0056,B0001,Member of the House of Representatives,District,G0001,,,y,J012,2026-11-15,https://www.congress.gov.ph/house-members/view/J012
+O00041,A0057,B0001,Member of the House of Representatives,District,G0001,,,y,K005,2026-11-15,https://www.congress.gov.ph/house-members/view/K005
+O00042,A0058,B0001,Member of the House of Representatives,District,G0001,,,y,L095,2026-11-15,https://www.congress.gov.ph/house-members/view/L095
+O00043,A0059,B0001,Member of the House of Representatives,District,G0001,,,y,J037,2026-11-15,https://www.congress.gov.ph/house-members/view/J037
+O00044,A0060,B0001,Member of the House of Representatives,Party-list,G0001,,,y,J093,2026-11-15,https://www.congress.gov.ph/house-members/view/J093
+O00045,A0061,B0001,Member of the House of Representatives,District,G0001,,,y,K065,2026-11-15,https://www.congress.gov.ph/house-members/view/K065
+O00046,A0062,B0001,Member of the House of Representatives,District,G0001,,,y,B020,2026-11-15,https://www.congress.gov.ph/house-members/view/B020
+O00047,A0063,B0001,Member of the House of Representatives,District,G0001,,,y,K075,2026-11-15,https://www.congress.gov.ph/house-members/view/K075
+O00048,A0064,B0001,Member of the House of Representatives,District,G0001,,,y,K042,2026-11-15,https://www.congress.gov.ph/house-members/view/K042
+O00049,A0065,B0001,Member of the House of Representatives,Party-list,G0001,,,y,I109,2026-11-15,https://www.congress.gov.ph/house-members/view/I109
+O00050,A0066,B0001,Member of the House of Representatives,District,G0001,,,y,K053,2026-11-15,https://www.congress.gov.ph/house-members/view/K053
+O00051,A0067,B0001,Member of the House of Representatives,Party-list,G0001,,,y,L082,2026-11-15,https://www.congress.gov.ph/house-members/view/L082
+O00052,A0068,B0001,Member of the House of Representatives,District,G0001,,,y,L088,2026-11-15,https://www.congress.gov.ph/house-members/view/L088
+O00053,A0069,B0001,Member of the House of Representatives,District,G0001,,,y,F070,2026-11-15,https://www.congress.gov.ph/house-members/view/F070
+O00054,A0070,B0001,Member of the House of Representatives,District,G0001,,,y,L012,2026-11-15,https://www.congress.gov.ph/house-members/view/L012
+O00055,A0071,B0001,Member of the House of Representatives,District,G0001,,,y,L077,2026-11-15,https://www.congress.gov.ph/house-members/view/L077
+O00056,A0072,B0001,Member of the House of Representatives,District,G0001,,,y,K088,2026-11-15,https://www.congress.gov.ph/house-members/view/K088
+O00057,A0073,B0001,Member of the House of Representatives,District,G0001,,,y,K094,2026-11-15,https://www.congress.gov.ph/house-members/view/K094
+O00058,A0074,B0001,Member of the House of Representatives,Party-list,G0001,,,y,L055,2026-11-15,https://www.congress.gov.ph/house-members/view/L055

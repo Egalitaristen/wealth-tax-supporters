@@ -1,9 +1,12 @@
 seat_id,body_id,party,seats,colour,order
-S0001,B0001,BNP,246,1e8449,1
-S0002,B0001,Jamaat-e-Islami,68,d4a017,2
-S0003,B0001,National Citizen Party,6,e07b39,3
-S0004,B0001,Independents,7,9aa0a6,4
-S0005,B0001,Other parties,7,6c7a89,5
-S0006,B0001,Reserved women's seats: Jamaat-led alliance,13,e8c75a,6
-S0007,B0001,Reserved women's seat: independents,1,b8bcc2,7
-S0008,B0001,Vacant,2,,8
+S0001,B0001,NCP,8,d62828,1
+S0002,B0001,Independent,8,8a8680,2
+S0003,B0001,Khilafat Majlis,4,3a5a40,3
+S0004,B0001,Jamaat-e-Islami,77,e07a1f,4
+S0005,B0001,BNP,247,1b9c4a,5
+S0006,B0001,Islamic Movement Bangladesh,1,,6
+S0007,B0001,Council on People,1,,7
+S0008,B0001,Bangladesh National Party-BJP,1,,8
+S0009,B0001,People's Solidarity Movement,1,,9
+S0010,B0001,Jatiya Ganatantrik Party-JAGPA,1,,10
+S0011,B0001,Vacant,1,,11
