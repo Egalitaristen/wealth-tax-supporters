@@ -67,7 +67,7 @@ Each country is a folder of plain CSV files under [`data/`](data), one row per p
 
 - **Spot an error or a missing supporter:** use the Report link on any page, or [open an issue](../../issues/new/choose).
 - **Add a country, or deepen one:** the open work is on the [roadmap board](https://github.com/users/Egalitaristen/projects/3) and in issues labelled [`records`](../../issues?q=is%3Aissue+is%3Aopen+label%3Arecords) (read a country's official record and write its bill pages) and [`roadmap`](../../issues?q=is%3Aissue+is%3Aopen+label%3Aroadmap). The step-by-step guide is in [docs/developing.md](docs/developing.md) and [CONTRIBUTING.md](CONTRIBUTING.md).
-- **Talk to us:** the [Discord](https://discord.gg/yCjEK47aeh).
+- **Talk to us:** the [Discord](https://discord.gg/yCjEK47aeh). Follow on [Bluesky](https://bsky.app/profile/wealthtaxsupporters.com), [X](https://x.com/WealthTaxSupp) and [YouTube](https://www.youtube.com/@wealthtaxsupporters); support the work on [Patreon](https://www.patreon.com/WealthTaxSupporters).
 
 To run the site locally:
 
