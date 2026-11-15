@@ -75,6 +75,15 @@ def norm(s):
     return " ".join(re.sub(r"[^a-z ]", " ", TITLES.sub(" ", s)).split())
 
 
+def native_tokens(s):
+    """The words of a name in a non-Latin script (Arabic, Greek, Cyrillic, Hebrew, Thai...), folded so spelling variants meet: Arabic diacritics and
+    tatweel dropped, alef, yeh, heh and waw forms unified, Greek accents dropped. A register name carries it in brackets after the Latin one: Mostafa Ragheb (مصطفى راغب)."""
+    s = unicodedata.normalize("NFKC", s or "")
+    s = s.translate(str.maketrans({"أ": "ا", "إ": "ا", "آ": "ا", "ٱ": "ا", "ى": "ي", "ئ": "ي", "ة": "ه", "ؤ": "و", "ـ": ""}))
+    s = "".join(c for c in unicodedata.normalize("NFD", s) if unicodedata.category(c) != "Mn")
+    return "".join(c.lower() if (unicodedata.category(c).startswith("L") and not unicodedata.name(c, "").startswith(("LATIN", "CJK", "HIRAGANA", "KATAKANA", "HANGUL"))) else " " for c in s).split()
+
+
 def name_keys(name):
     toks = norm(name).split()
     return toks
@@ -90,6 +99,11 @@ def match(actor, members, by_q, by_norm, strict=False, deny=()):
     for m in members:
         if m.get("cjk") and m["cjk"] in cj:
             return m, "exact"
+    nt = native_tokens(actor["name"])  # a name in Arabic, Greek, Cyrillic... after the Latin one; the member's own list gives it in "native" (or as the name)
+    if len(nt) >= 2:
+        c = [(m, set(mt)) for m in members for mt in [native_tokens(m.get("native") or m["name"])] if len(mt) >= 2 and (set(nt) <= set(mt) or set(mt) <= set(nt))]
+        if len(c) == 1:
+            return c[0][0], "exact" if c[0][1] == set(nt) else "fuzzy"
     n = norm(actor["name"])
     if n in by_norm and len(by_norm[n]) == 1:
         return by_norm[n][0], "exact"
@@ -1291,7 +1305,7 @@ def egypt():
     or Appointed), member id, full name]. Seats are grouped by how they were filled, because the site gives no party. The Senate has no list yet."""
     url = "https://www.parliament.gov.eg/members.aspx"
     rows = get(url)
-    members = [dict(name=r[0], party=r[2], ref=r[3], place="", start="", url=f"https://www.parliament.gov.eg/MembersDetails.aspx?id={r[3]}") for r in rows]
+    members = [dict(name=r[0], native=(r[4] if len(r) > 4 and r[4] else r[0]), party=r[2], ref=r[3], place="", start="", url=f"https://www.parliament.gov.eg/MembersDetails.aspx?id={r[3]}") for r in rows]
     if len(members) < 550:
         sys.exit(f"Egypt: read {len(members)} members, expected about 595; save the list again (see the Egypt guide)")
     return [dict(name="House of Representatives", level="national", seats=596, source_url=url,
