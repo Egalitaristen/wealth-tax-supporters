@@ -1,20 +1,23 @@
 position_id,actor_id,body_id,role,party,geo_unit_id,start,end,current,member_ref,checked,source_url
-O00001,A0006,B0001,Member of the National Assembly,Párbeszéd,,2023-10,2026-05-09,n,,2026-11-04,https://web.archive.org/web/2024id_/https://www.parlament.hu/irom42/05575/05575.pdf
-O00002,A0007,B0001,Member of the National Assembly,Párbeszéd,,2023-10,2026-05-09,n,,2026-11-04,https://web.archive.org/web/2024id_/https://www.parlament.hu/irom42/05575/05575.pdf
-O00003,A0008,B0001,Member of the National Assembly,Párbeszéd,,2023-10,2026-05-09,n,,2026-11-04,https://web.archive.org/web/2024id_/https://www.parlament.hu/irom42/05575/05575.pdf
-O00004,A0009,B0001,Member of the National Assembly,Párbeszéd,,2023-10,2026-05-09,n,,2026-11-04,https://web.archive.org/web/2024id_/https://www.parlament.hu/irom42/05575/05575.pdf
-O00005,A0010,B0001,Member of the National Assembly,Párbeszéd,,2023-10,2026-05-09,n,,2026-11-04,https://web.archive.org/web/2024id_/https://www.parlament.hu/irom42/05575/05575.pdf
-O00006,A0011,B0001,Member of the National Assembly,Párbeszéd,,2023-10,2026-05-09,n,,2026-11-04,https://web.archive.org/web/2024id_/https://www.parlament.hu/irom42/05575/05575.pdf
-O00007,A0002,B0001,Member of the National Assembly,Tisza,,2026-05-09,,y,,2026-11-04,https://hu.wikipedia.org/wiki/2026%E2%80%932030_k%C3%B6z%C3%B6tti_magyar_orsz%C3%A1ggy%C5%B1l%C3%A9si_k%C3%A9pvisel%C5%91k_list%C3%A1ja
-O00008,A0003,B0001,Member of the National Assembly,Tisza,,2026-05-09,,y,,2026-11-04,https://hu.wikipedia.org/wiki/2026%E2%80%932030_k%C3%B6z%C3%B6tti_magyar_orsz%C3%A1ggy%C5%B1l%C3%A9si_k%C3%A9pvisel%C5%91k_list%C3%A1ja
 O00009,A0020,B0002,Minister of Economy and Energy,Tisza,,2026-05-12,,,,,https://kormany.hu/kormanyzat/gazdasagi-es-energetikai-miniszterium
 O00010,A0022,B0003,Deputy mayor of Újbuda,Párbeszéd,G0025,,2024-10-10,n,,2026-11-14,https://ujbudaonline.hu/2024/10/21/letette-az-eskut-az-uj-kepviselo-testulet/
 O00011,A0022,B0004,Municipal councillor,Párbeszéd,G0025,2024-10-10,,,,,https://ujbudaonline.hu/2024/10/21/letette-az-eskut-az-uj-kepviselo-testulet/
 O00012,A0024,B0005,Mayor of Budapest,Párbeszéd,G0025,2019,,,,,https://budapest.hu/varoshaza/fovarosi-onkormanyzat
 O00013,A0026,B0006,Mayor of Szeged,Independent,G3164,2002,,,,,https://szeged.hu/
-O00014,A0041,B0001,Member of the National Assembly,Tisza,,2026-05-09,,y,,2026-11-14,https://reakcio.hu/parlament/20261103-dr-dicso-viktoria-161-t-930-a-vagyonadorol
-O00015,A0042,B0001,Member of the National Assembly,Tisza,,2026-05-09,,y,,2026-11-14,https://reakcio.hu/parlament/20261103-gyuk-zsolt-175-t-930-a-vagyonadorol
-O00016,A0043,B0001,Member of the National Assembly,Tisza,,2026-05-09,,y,,2026-11-14,https://reakcio.hu/parlament/20261103-dr-ruszin-szendi-romulusz-185-t-930-a-vagyonadorol
-O00017,A0044,B0001,Member of the National Assembly,Tisza,,2026-05-09,,y,,2026-11-14,https://reakcio.hu/parlament/20261019-boda-nikoletta-209-a-868-hogyan-valik-igazsagossa-a-kozteherviseles
-O00018,A0045,B0001,Member of the National Assembly,Tisza,,2026-05-09,,y,,2026-11-14,https://ogykarzat.hu/ckl43/kepviselo/001C.html
-O00019,A0046,B0001,Member of the National Assembly,Tisza,,2026-05-09,,y,,2026-11-14,https://reakcio.hu/parlament/20261104-bujdoso-andrea-anna-70-t-927-egyes-adozasi-targyu-es-mas-kapcsolodo-torvenyek
+O00014,A0002,B0001,Member of the National Assembly,Tisza,G0001,2026-05-09,,y,Magyar Péter,2026-11-15,https://www.parlament.hu/aktiv-kepviselok-listaja
+O00015,A0003,B0001,Member of the National Assembly,Tisza,G0001,2026-05-09,,y,Kármán András,2026-11-15,https://www.parlament.hu/aktiv-kepviselok-listaja
+O00016,A0006,B0001,Member of the National Assembly,Párbeszéd,G0001,2023-10,2026-05-09,n,,2026-11-15,https://web.archive.org/web/2024id_/https://www.parlament.hu/irom42/05575/05575.pdf
+O00017,A0007,B0001,Member of the National Assembly,Párbeszéd,G0001,2023-10,2026-05-09,n,,2026-11-15,https://web.archive.org/web/2024id_/https://www.parlament.hu/irom42/05575/05575.pdf
+O00018,A0008,B0001,Member of the National Assembly,Párbeszéd,G0001,2023-10,2026-05-09,n,,2026-11-15,https://web.archive.org/web/2024id_/https://www.parlament.hu/irom42/05575/05575.pdf
+O00019,A0009,B0001,Member of the National Assembly,Párbeszéd,G0001,2023-10,2026-05-09,n,,2026-11-15,https://web.archive.org/web/2024id_/https://www.parlament.hu/irom42/05575/05575.pdf
+O00020,A0010,B0001,Member of the National Assembly,Párbeszéd,G0001,2023-10,2026-05-09,n,,2026-11-15,https://web.archive.org/web/2024id_/https://www.parlament.hu/irom42/05575/05575.pdf
+O00021,A0011,B0001,Member of the National Assembly,Párbeszéd,G0001,2023-10,2026-05-09,n,,2026-11-15,https://web.archive.org/web/2024id_/https://www.parlament.hu/irom42/05575/05575.pdf
+O00022,A0020,B0001,Member of the National Assembly,Tisza,G0001,,,y,Kapitány István,2026-11-15,https://www.parlament.hu/aktiv-kepviselok-listaja
+O00023,A0034,B0001,Member of the National Assembly,Mi Hazánk,G0001,,,y,Toroczkai László,2026-11-15,https://www.parlament.hu/aktiv-kepviselok-listaja
+O00024,A0038,B0001,Member of the National Assembly,,G0001,,,n,,2026-11-15,https://www.parlament.hu/aktiv-kepviselok-listaja
+O00025,A0041,B0001,Member of the National Assembly,Tisza,G0001,2026-05-09,,y,Dr. Dicső Viktória,2026-11-15,https://www.parlament.hu/aktiv-kepviselok-listaja
+O00026,A0042,B0001,Member of the National Assembly,Tisza,G0001,2026-05-09,,y,Gyuk Zsolt,2026-11-15,https://www.parlament.hu/aktiv-kepviselok-listaja
+O00027,A0043,B0001,Member of the National Assembly,Tisza,G0001,2026-05-09,,y,Dr. Ruszin-Szendi Romulusz,2026-11-15,https://www.parlament.hu/aktiv-kepviselok-listaja
+O00028,A0044,B0001,Member of the National Assembly,Tisza,G0001,2026-05-09,,y,Boda Nikoletta,2026-11-15,https://www.parlament.hu/aktiv-kepviselok-listaja
+O00029,A0045,B0001,Member of the National Assembly,Tisza,G0001,2026-05-09,,y,Borsós Gabriella,2026-11-15,https://www.parlament.hu/aktiv-kepviselok-listaja
+O00030,A0046,B0001,Member of the National Assembly,Tisza,G0001,2026-05-09,,y,Bujdosó Andrea Anna,2026-11-15,https://www.parlament.hu/aktiv-kepviselok-listaja
