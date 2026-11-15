@@ -34,6 +34,41 @@ MASTODON_HOSTS = {"mastodon.social", "mastodon.online", "mas.to", "fosstodon.org
                   "sozialsystem.social", "mastodon.nl", "social.bund.de", "chaos.social", "norden.social", "mastodon.green", "social.coop", "todon.eu"}
 
 
+# Run in the page (Claude in Chrome, javascript_tool) for a site a script cannot read; save the JSON of every page as one entry of the --browser file:
+# {"country": "gb", "actor_id": "A0280", "url": "https://...", "status": "ok" | "blocked" | "error", "links": [...], "note": ""}
+BROWSER_JS = r"""
+(() => { const out = []; const seen = new Set();
+  const host = /(^|\.)(x\.com|twitter\.com|bsky\.app|instagram\.com|facebook\.com|fb\.com|youtube\.com|tiktok\.com|linkedin\.com|substack\.com)$/;
+  for (const a of document.querySelectorAll('a[href]')) { let u; try { u = new URL(a.href); } catch (e) { continue; }
+    const mast = (a.getAttribute('rel') || '').split(/\s+/).includes('me');
+    if (!host.test(u.hostname) && !mast) continue;
+    const k = a.href.replace(/^https?:\/\/(www\.)?/, '').replace(/\/$/, ''); if (seen.has(k)) continue; seen.add(k);
+    let n = a, chrome = false, social = false, share = /share/i.test(a.className + a.href);
+    while (n && n !== document.body) { if (/^(HEADER|FOOTER|NAV)$/.test(n.tagName)) chrome = true;
+      const c = (n.className || '') + ' ' + (n.id || '') + ' ' + ((n.getAttribute && n.getAttribute('aria-label')) || '');
+      if (/social|follow|connect|icons|media-links|footer|header|navbar|topbar/i.test(c)) social = true;
+      if (/\bshare\b|sharing|addtoany|addthis|related/i.test(c)) share = true; n = n.parentElement; }
+    out.push(k + '|' + (chrome ? 'c' : '') + (social ? 's' : '') + (share ? 'h' : '') + (mast ? 'm' : '')); }
+  const t = (document.title + ' ' + document.body.innerText.slice(0, 500)).toLowerCase();
+  return (/just a moment|verify you are human|captcha|access denied|attention required/.test(t) ? 'BLOCKED\n' : 'OK\n') + out.join('\n'); })()
+"""
+# Save one entry per page in the --browser file: {"country": "gb", "actor_id": "A0280", "url": "https://...", "status": "ok" | "blocked" | "error",
+# "lines": "<the text the script above returned, without its first line>", "note": ""}; "links" (a list of {"href", "ctx"}) works too.
+
+
+def browser_links(e):
+    """The links of a browser entry: from its "lines" text (href|flags, flags c=header/footer/nav s=social block h=share m=rel-me) or its "links" list."""
+    if e.get("lines") is not None:
+        names = {"c": "chrome", "s": "social-block", "h": "share", "m": "rel-me"}
+        out = []
+        for ln in e["lines"].split("\n"):
+            if "|" in ln:
+                href, flags = ln.rsplit("|", 1)
+                out.append(dict(href="https://" + href, ctx=[names[f] for f in flags if f in names]))
+        return out
+    return e.get("links", [])
+
+
 def today():
     return dt.date.today().isoformat()
 
@@ -320,6 +355,7 @@ def main():
     ap.add_argument("--due", action="store_true", help="only actors never checked, or last checked over a year ago")
     ap.add_argument("--dry-run", action="store_true")
     ap.add_argument("--delay", type=float, default=2.0)
+    ap.add_argument("--browser", help="JSON file of pages read in a browser (see BROWSER_JS): process those instead of fetching; the check is logged as own_site_browser")
     ap.add_argument("--report", help="write a tab-separated report of every actor and what was held for review to this path")
     a = ap.parse_args()
     data = ROOT / "data"
@@ -362,7 +398,15 @@ def main():
             if a.due and last.get(r["actor_id"], "") > cutoff:
                 continue
             pool.append((cc, r, sites))
-    if a.sample:
+    browser_by = {}
+    if a.browser:
+        import json
+        pool = []
+        for e in json.load(open(a.browser, encoding="utf-8")):
+            rows_ = {r["actor_id"]: r for r in wtdb.load(str(data / e["country"]), "actors")}
+            browser_by[(e["country"], e["actor_id"])] = e
+            pool.append((e["country"], rows_[e["actor_id"]], [e["url"]]))
+    elif a.sample:
         random.Random(a.seed).shuffle(pool)
         pool = pool[: a.sample]
     elif a.limit:
@@ -376,7 +420,18 @@ def main():
         if cc not in touched:
             touched[cc] = dict(profiles=wtdb.load(d, "profiles"), checks=wtdb.load(d, "profile_checks"))
         db = touched[cc]
-        if not sites:
+        if a.browser:
+            e = browser_by[(cc, r["actor_id"])]
+            scanned, note = [e["url"]], ("read in Chrome " + (e.get("note") or "")).strip()
+            cands = []
+            for l in browser_links(e):
+                c = classify(urllib.parse.urljoin(e["url"], l["href"]), rel_me="rel-me" in l.get("ctx", []))
+                if c:
+                    cands.append(dict(platform=c[0], url=c[1], handle=c[2], ctx=l.get("ctx", []), page=e["url"]))
+            pages = 1 if e["status"] == "ok" else 0
+            accepted, review = judge(r, sites, cands)
+            result = "found" if accepted else (e["status"] if e["status"] in ("blocked", "error") else "none")
+        elif not sites:
             result, scanned, note, accepted, review, pages = "no_site", [], "", [], [], 0
         else:
             scanned, cands, note, blocked, pages = read_actor(reader, r, sites)
@@ -411,7 +466,7 @@ def main():
                 db["profiles"].append(dict(profile_id=wtdb.next_id(db["profiles"], "profiles"), actor_id=r["actor_id"], platform=e["platform"], url=e["url"],
                                            source=f"linked from {e['page']}", checked=today()))
             extra = "; ".join(f"{e['platform']} {e['url']} ({','.join(sorted(e['ctxs'] or e['ctx']))})" for e in review)[:300]
-            db["checks"].append(dict(check_id=wtdb.next_id(db["checks"], "profile_checks"), actor_id=r["actor_id"], method="own_site", url=(scanned or sites)[0],
+            db["checks"].append(dict(check_id=wtdb.next_id(db["checks"], "profile_checks"), actor_id=r["actor_id"], method="own_site_browser" if a.browser else "own_site", url=(scanned or sites)[0],
                                      checked=today(), result=result, found=";".join(e["platform"] for e in added),
                                      note=("; ".join(x for x in [note.strip(), ("not added: " + extra) if extra else "", ("already listed: " + ",".join(existing)) if existing else ""] if x))[:400]))
         summary[result] += 1

@@ -8,3 +8,5 @@ K00006,A0019,own_site,https://www.martinedocourt.ch/,2026-11-15,none,,"removed o
 K00007,A0063,own_site,https://marionnaschlatter.ch/,2026-11-15,blocked,,200 at https://marionnaschlatter.ch/
 K00008,A0001,own_site,https://www.matthiasaebischer.ch/,2026-11-15,found,facebook;x,500 at https://www.matthiasaebischer.ch/index.php/kontakt 200 at https://www.matthiasaebischer.ch/index.php/322-impressum; already listed: instagram
 K00009,A0042,own_site,https://www.nadinemasshardt.ch/fr,2026-11-15,none,,200 at https://www.nadinemasshardt.ch/fr/welcome/kontakt?a=index&c=engagement; not added: facebook https://www.facebook.com/nadine.masshardt (social-block); facebook https://www.facebook.com/nmasshardt (social-block); already listed: instagram
+K00010,A0003,own_site_browser,https://www.emmanuelamoos.ch,2026-11-15,none,,read in Chrome
+K00011,A0063,own_site_browser,https://marionnaschlatter.ch/,2026-11-15,found,facebook;linkedin,read in Chrome; not added: instagram https://www.instagram.com/kriegsmaterial_referendum/ (); instagram https://www.instagram.com/gruenech/ (); already listed: instagram
