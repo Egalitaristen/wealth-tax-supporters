@@ -11,3 +11,12 @@ K00009,A0028,own_site,https://gabriel-zucman.eu/,2026-11-15,none,,
 K00010,A0195,own_site,https://www.clubofrome.org/member/van-goor-linda/,2026-11-15,none,,"not added: linkedin https://www.linkedin.com/company/clubofrome (chrome,social-block); bluesky https://bsky.app/profile/clubofrome.org (chrome,social-block); facebook https://www.facebook.com/clubofrome (chrome,social-block); youtube https://www.youtube.com/c/ClubofRome (chrome,social-block); x https://x.com/C"
 K00011,A0163,own_site,https://www.eerstekamer.nl/persoon/dr_m_l_vos_pro,2026-11-15,none,,"not added: x https://x.com/eerstekamer (chrome,meta,social-block); instagram https://www.instagram.com/eerstekamer/ (chrome,social-block); linkedin https://www.linkedin.com/company/eerste-kamer-der-staten-generaal ()"
 K00012,A0157,own_site,https://www.europarl.europa.eu/meps/en/197772/TINEKE_STRIK/history/9,2026-11-15,blocked,,403 at https://www.europarl.europa.eu/meps/en/197772/TINEKE_STRIK/history/9
+K00013,A0023,own_site,https://www.bewegingdenk.nl,2026-11-15,found,instagram;tiktok;facebook;linkedin,already listed: x
+K00014,A0161,own_site,https://www.europarl.europa.eu/meps/en/5392/LARA_WOLTERS/history/9,2026-11-15,blocked,,403 at https://www.europarl.europa.eu/meps/en/5392/LARA_WOLTERS/history/9
+K00015,A0154,own_site,https://www.europarl.europa.eu/meps/en/125021/AGNES_JONGERIUS/history/9,2026-11-15,blocked,,403 at https://www.europarl.europa.eu/meps/en/125021/AGNES_JONGERIUS/history/9
+K00016,A0024,own_site,https://bij1.org,2026-11-15,found,tiktok;linkedin;youtube,"already listed: instagram,facebook"
+K00017,A0203,own_site,https://gerardbosman.com/gerard/,2026-11-15,found,facebook;x;instagram,"not added: youtube https://www.youtube.com/channel/UCGGVW9pquL-nozLVto6RiTQ (chrome,social-block)"
+K00018,A0200,own_site,https://research.vu.nl/en/persons/saskia-ter-ellen/,2026-11-15,none,,
+K00019,A0159,own_site,https://www.europarl.europa.eu/meps/en/96725/BAS_EICKHOUT/history/9,2026-11-15,blocked,,403 at https://www.europarl.europa.eu/meps/en/96725/BAS_EICKHOUT/history/9
+K00020,A0153,own_site,https://www.europarl.europa.eu/meps/en/197782/MOHAMMED_CHAHIM/history/9,2026-11-15,blocked,,403 at https://www.europarl.europa.eu/meps/en/197782/MOHAMMED_CHAHIM/history/9
+K00021,A0027,own_site,https://www.fnv.nl,2026-11-15,found,facebook;instagram;linkedin;bluesky,not added: youtube https://www.youtube.com/c/fnvnl (social-block); youtube https://www.youtube.com/channel/UCYSS_ms_r7rYHkWARvab_2g (social-block)

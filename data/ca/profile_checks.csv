@@ -56,3 +56,33 @@ K00054,A0236,own_site,https://sencanada.ca/en/senators/galvez-rosa/,2026-11-15,n
 K00055,A0146,own_site,https://gpo.ca/,2026-11-15,blocked,,403 at https://gpo.ca/ 403 at https://gpo.ca
 K00056,A0240,own_site,https://www.umoncton.ca/umcs/deneault_alain,2026-11-15,none,,404 at https://www.umoncton.ca/umcs/deneault_alain; not added: youtube https://www.youtube.com/c/LeM%C3%A9diaOfficiel (); youtube https://www.youtube.com/channel/UCXw6Md8HlVhqTkrUL0MW9zw (social-block); facebook https://www.facebook.com/sanb.ca (); facebook https://www.facebook.com/cr2nb (); facebook https://www.facebook.com/lamaisondelacultureinc (); facebook
 K00057,A0120,own_site,https://labourcouncil.ca/,2026-11-15,found,facebook;x;instagram;youtube,
+K00058,A0285,own_site,https://fneeq.qc.ca/,2026-11-15,found,bluesky,"not added: facebook https://www.facebook.com/FneeqCSN (chrome,social-block); facebook https://www.facebook.com/LaCSN (chrome,social-block); instagram https://www.instagram.com/fneeq/ (chrome,social-block); instagram https://www.instagram.com/mouvementcsn/ (chrome,social-block); removed on spot check (these are the CSN confederation's accounts; only the federation's own Bluesky stays): tiktok https"
+K00059,A0139,own_site,https://aptsq.com/en/news/2023-convention-robert-comeau-reelected-as-apts-president/,2026-11-15,none,,"not added: facebook https://www.facebook.com/syndicatAPTS (chrome,social-block); instagram https://www.instagram.com/syndicat_apts/ (chrome,social-block); youtube https://www.youtube.com/channel/UC1srtPhluOjUv_ohjlMhM0g (chrome,social-block); linkedin https://www.linkedin.com/company/syndicatapts (chrome,socia"
+K00060,A0308,own_site,https://ssvp.ca/,2026-11-15,found,facebook;linkedin;youtube,
+K00061,A0238,own_site,https://policyalternatives.ca/authors/trish-hennessy,2026-11-15,none,,"not added: facebook https://www.facebook.com/policyalternatives (chrome,social-block); instagram https://www.instagram.com/policyalternatives/ (chrome,social-block); bluesky https://bsky.app/profile/policyalternatives.ca (chrome,social-block); x https://x.com/ccpa (meta)"
+K00062,A0333,own_site,https://climatewest.ca/members/elizabeth-shearer/,2026-11-15,found,linkedin,"not added: x https://x.com/climatewest_ca (chrome,social-block); x https://x.com/theicclr (meta); linkedin https://www.linkedin.com/company/climatewest (chrome,social-block); youtube https://www.youtube.com/channel/UC0LtP88g_vTwcEI3uQo9LTw (chrome,social-block)"
+K00063,A0317,own_site,https://tncdc.qc.ca/,2026-11-15,found,facebook;instagram;linkedin;youtube,"URLError: <urlopen error (""The certificate's CN name does not match the passed value."",)>"
+K00064,A0203,own_site,https://mikemorrice.ca/,2026-11-15,found,tiktok;youtube,"already listed: facebook,instagram"
+K00065,A0135,own_site,https://consommateur.qc.ca/acefest/,2026-11-15,error,,"URLError: <urlopen error (""The certificate's CN name does not match the passed value."",)>"
+K00066,A0248,own_site,https://cocdmo.qc.ca/,2026-11-15,found,facebook;linkedin;youtube,"not added: linkedin https://www.linkedin.com/company/cocdmo (social-block); linkedin https://www.linkedin.com/in/gravel-richard-8b059014 (chrome,social-block); linkedin https://www.linkedin.com/in/henrichevalier (chrome,social-block); linkedin https://www.linkedin.com/in/%C3%A9milie-bouchard-m-a-30b763141 (chr"
+K00067,A0128,own_site,https://oxfam.qc.ca/,2026-11-15,found,facebook;instagram;x;linkedin;youtube,
+K00068,A0225,own_site,https://davidmoscrop.substack.com/,2026-11-15,none,,
+K00069,A0237,own_site,https://www.sethklein.ca/,2026-11-15,found,substack;bluesky;linkedin,
+K00070,A0329,own_site,https://climatejusticesaskatoon.ca/,2026-11-15,found,facebook;instagram,
+K00071,A0144,own_site,https://www.mikeschreiner.ca/,2026-11-15,error,,URLError: <urlopen error ('A required certificate is not within its validity period when v
+K00072,A0031,own_site,https://www.assnat.qc.ca/fr/deputes/ghazal-ruba-17865/biographie.html,2026-11-15,error,,404 at https://www.assnat.qc.ca/fr/deputes/ghazal-ruba-17865/biographie.html
+K00073,A0281,own_site,https://fsac.lacsq.org/,2026-11-15,none,,"not added: facebook https://www.facebook.com/lacsq (chrome,social-block); x https://x.com/csq_centrale (chrome,social-block); youtube https://www.youtube.com/channel/UCOjAEM3A9BXPm1NPUIVJiow (chrome,social-block); instagram https://www.instagram.com/lacsq/ (chrome,social-block)"
+K00074,A0046,own_site,https://www.policyalternatives.ca/,2026-11-15,found,facebook;bluesky;x,already listed: instagram
+K00075,A0007,own_site,https://www.boulerice.org/,2026-11-15,found,bluesky;tiktok,"already listed: facebook,instagram"
+K00076,A0280,own_site,https://fpcsn.qc.ca/,2026-11-15,found,facebook,
+K00077,A0326,own_site,https://www.ourcommons.ca/members/en/110889,2026-11-15,none,,"not added: instagram https://www.instagram.com/ourcommonsca/ (chrome,social-block)"
+K00078,A0331,own_site,https://ndppei.ca/,2026-11-15,found,facebook;bluesky;x,already listed: instagram
+K00079,A0328,own_site,https://www.ola.org/en/members/former/gurratan-singh,2026-11-15,error,,404 at https://www.ola.org/en/members/former/gurratan-singh
+K00080,A0109,own_site,https://cupe.on.ca/,2026-11-15,blocked,,403 at https://cupe.on.ca/
+K00081,A0121,own_site,https://nupge.ca,2026-11-15,found,facebook;x;youtube;instagram,
+K00082,A0019,own_site,https://www.ourcommons.ca/Members/en/89346,2026-11-15,none,,"not added: instagram https://www.instagram.com/ourcommonsca/ (chrome,social-block)"
+K00083,A0267,own_site,https://www.csn.qc.ca/conseils-centraux/outaouais/,2026-11-15,found,linkedin,"not added: facebook https://www.facebook.com/lacsn (chrome,social-block); instagram https://www.instagram.com/mouvementcsn/ (chrome,social-block); tiktok https://www.tiktok.com/@mouvementcsn (chrome,social-block); youtube https://www.youtube.com/user/csnqc (chrome,social-block); youtube https://www.youtube.com"
+K00084,A0122,own_site,https://www.lacsq.org/,2026-11-15,found,facebook;x;tiktok,already listed: instagram
+K00085,A0228,own_site,https://www.taxfairness.ca/sites/default/files/pdf/dennis_howlett_short_bio.pdf,2026-11-15,none,,
+K00086,A0132,own_site,https://www.frapru.qc.ca/,2026-11-15,found,facebook;instagram;x;youtube,
+K00087,A0312,own_site,https://scfp.qc.ca/,2026-11-15,found,facebook;instagram;bluesky;youtube,

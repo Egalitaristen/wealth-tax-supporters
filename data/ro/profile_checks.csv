@@ -1,2 +1,5 @@
 check_id,actor_id,method,url,checked,result,found,note
 K00001,A0033,own_site,https://www.gheorghepiperea.eu/,2026-11-15,none,,"already listed: facebook,instagram,tiktok,x"
+K00002,A0031,own_site,https://www.rovanaplumb.ro,2026-11-15,none,,
+K00003,A0007,own_site,https://calingroza.ro,2026-11-15,found,youtube;x,"already listed: tiktok,instagram"
+K00004,A0022,own_site,https://www.bns.ro,2026-11-15,found,facebook;linkedin;instagram;youtube,

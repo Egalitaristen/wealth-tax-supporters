@@ -93,3 +93,48 @@ K00091,A0014,own_site,https://www.pascal-meiser.de,2026-11-15,none,,"already lis
 K00092,A0149,own_site,https://www.jesuitenweltweit.de,2026-11-15,found,facebook;instagram,
 K00093,A0287,own_site,https://www.uni-erfurt.de,2026-11-15,none,,not added: facebook https://www.facebook.com/UniErfurt (social-block); bluesky https://bsky.app/profile/unierfurt.bsky.social (social-block); instagram https://www.instagram.com/unierfurt/ (social-block); youtube https://www.youtube.com/user/UniErfurt (social-block); linkedin https://www.linkedin.com/school/un
 K00094,A0108,own_site,https://claudia-roth.de/,2026-11-15,found,linkedin,already listed: instagram
+K00095,A0072,own_site,https://www.karin-binder.de/,2026-11-15,error,,404 at https://www.karin-binder.de/
+K00096,A0335,own_site,https://magda-albrecht.de,2026-11-15,none,,
+K00097,A0110,own_site,https://www.elisabeth-scharfenberg.de/,2026-11-15,error,,URLError: <urlopen error [WinError 10061] No connection could be made because the target m
+K00098,A0303,own_site,https://www.wzb.eu/de/personen/heike-solga,2026-11-15,none,,"not added: instagram https://www.instagram.com/wzb_berlin/ (chrome,social-block); bluesky https://bsky.app/profile/wzb.bsky.social (chrome,social-block); x https://x.com/WZB_Berlin (meta)"
+K00099,A0202,own_site,https://progressive-alliance.info,2026-11-15,none,,"not added: facebook https://www.facebook.com/progressivealliance.info (chrome,social-block); x https://x.com/PA_Solidarity (chrome,social-block); x https://x.com/progressive_all (meta); linkedin https://www.linkedin.com/company/progressive-alliance2012 (chrome,social-block); youtube https://www.youtube.com/@pr"
+K00100,A0177,own_site,https://www.westernhagen.de,2026-11-15,error,,"URLError: <urlopen error (""The certificate's CN name does not match the passed value."",)>"
+K00101,A0088,own_site,https://ekin-deligoez.de/,2026-11-15,none,,"not added: facebook https://www.facebook.com/deligoez.ekin (chrome,social-block); already listed: instagram"
+K00102,A0111,own_site,https://frithjof-schmidt.de,2026-11-15,none,,not added: facebook https://www.facebook.com/Gruene.im.Bundestag (social-block); instagram https://www.instagram.com/gruenebundestag/ (social-block); youtube https://www.youtube.com/user/GRUENE (social-block)
+K00103,A0215,own_site,https://www.stefan-rebmann.de/,2026-11-15,none,,
+K00104,A0017,own_site,https://inesschwerdtner.de/,2026-11-15,none,,"not added: youtube https://www.youtube.com/@InesSchwerdtner (chrome,social-block); already listed: mastodon,x,bluesky,instagram,tiktok"
+K00105,A0032,own_site,https://thomas-lutze.vorschau.soz.is/,2026-11-15,blocked,,403 at https://thomas-lutze.vorschau.soz.is/
+K00106,A0434,own_site,https://opal.landtag.nrw.de/home/der-landtag/abgeordnete-und--fraktionen/die-abgeordneten/abgeordnetensuche/abgeordnetendetail.html?k=01579,2026-11-15,found,facebook;instagram,"not added: instagram https://www.instagram.com/landtag_nrw/ (chrome,social-block); x https://x.com/landtag_nrw (chrome,social-block); youtube https://www.youtube.com/user/NRWLandtag (chrome,social-block)"
+K00107,A0166,own_site,https://gabriel-zucman.eu/,2026-11-15,none,,
+K00108,A0129,own_site,https://www.greenpeace.de,2026-11-15,found,mastodon;youtube;instagram;bluesky,
+K00109,A0293,own_site,https://www.wiso.uni-hamburg.de,2026-11-15,none,,"not added: instagram https://www.instagram.com/unihamburg/ (chrome,social-block); facebook https://www.facebook.com/unihamburg (chrome,social-block); bluesky https://bsky.app/profile/uni-hamburg.de (chrome,social-block); youtube https://www.youtube.com/c/unihamburg (chrome,social-block); linkedin https://www.l"
+K00110,A0454,own_site,https://www.spdfraktion-berlin.de/,2026-11-15,found,facebook;instagram;youtube,
+K00111,A0171,own_site,https://www.linksfraktion.berlin,2026-11-15,found,facebook;bluesky;instagram;tiktok;youtube,
+K00112,A0207,own_site,https://marenkroymann.de,2026-11-15,found,facebook;instagram,
+K00113,A0430,own_site,https://www.landtag.ltsh.de/abgeordnete/abgeordnete-gruene/,2026-11-15,none,,"not added: instagram https://www.instagram.com/landtag_sh/ (chrome,social-block)"
+K00114,A0186,own_site,https://www.martinarenner.de/,2026-11-15,none,,
+K00115,A0243,own_site,https://vermoegensabgabe.de,2026-11-15,none,,
+K00116,A0163,own_site,https://www.oxfam.de,2026-11-15,none,,"not added: facebook https://www.facebook.com/oxfam.de (chrome,social-block); tiktok https://www.tiktok.com/@oxfamde (chrome,social-block); linkedin https://www.linkedin.com/company/oxfamde (chrome,social-block); instagram https://www.instagram.com/oxfam_de/ (chrome,social-block)"
+K00117,A0117,own_site,https://violavoncramon.de/,2026-11-15,blocked,,503 at https://violavoncramon.de/
+K00118,A0428,own_site,https://www.landtag.ltsh.de/abgeordnete/nachgerueckte-und-ausgeschiedene-abgeordnete-/,2026-11-15,none,,"not added: instagram https://www.instagram.com/landtag_sh/ (chrome,social-block)"
+K00119,A0232,own_site,https://von-notz.de/,2026-11-15,none,,"not added: youtube https://www.youtube.com/channel/UCHuF9PrNYx7E_0e3Ao8qbHw (social-block); facebook https://www.facebook.com/KonstantinNotz (social-block); already listed: x,instagram"
+K00120,A0371,own_site,https://steuerberater-kuehl.de,2026-11-15,error,,URLError: <urlopen error [Errno 11001] getaddrinfo failed>
+K00121,A0256,own_site,https://www.tuhh.de,2026-11-15,none,,not added: instagram https://www.instagram.com/tuhamburg/ (social-block); youtube https://www.youtube.com/channel/UCo2ZK7mteODffSDzS4zEFjA (social-block)
+K00122,A0175,own_site,https://vermoegensabgabe.de,2026-11-15,none,,
+K00123,A0348,own_site,https://www.boeckler.de,2026-11-15,none,,"not added: facebook https://www.facebook.com/hans.boeckler.stiftung (chrome,social-block); bluesky https://bsky.app/profile/boeckler-stiftung.bsky.social (chrome,social-block); linkedin https://www.linkedin.com/company/boeckler (chrome,social-block); instagram https://www.instagram.com/boeckler_stiftung/ (chro"
+K00124,A0450,own_site,https://gruene-niedersachsen.de/2015/02/gruene-niedersachsen-waehlen-neuen-vorstand-1/,2026-11-15,none,,"not added: instagram https://www.instagram.com/gruenends/ (chrome,rel-me,social-block); facebook https://www.facebook.com/GRUENE.Niedersachsen (chrome,rel-me,social-block); youtube https://www.youtube.com/@grueneniedersachsen (chrome,rel-me,social-block); mastodon https://gruene.social/@gruenelvnds (chrome,rel"
+K00125,A0217,own_site,https://www.volkerbeck.de/,2026-11-15,found,youtube;instagram,not added: facebook https://www.facebook.com/pages/Volker-Beck/46819172697 (); facebook https://www.facebook.com/VolkerBeckMdB (social-block); already listed: x
+K00126,A0146,own_site,https://www.mein-grundeinkommen.de,2026-11-15,blocked,,403 at https://www.mein-grundeinkommen.de
+K00127,A0144,own_site,https://fiscalfuture.de,2026-11-15,found,instagram;tiktok;youtube,not added: linkedin https://www.linkedin.com/in/carl-muhlbach (chrome); linkedin https://www.linkedin.com/in/pippa-kolmer-9500b4181 (chrome); linkedin https://www.linkedin.com/in/matilda-gettins (chrome); linkedin https://www.linkedin.com/in/heiko-manz (chrome)
+K00128,A0441,own_site,https://www.dgb.de/der-dgb/geschaeftsfuehrender-bundesvorstand/stefan-koerzell/,2026-11-15,none,,"not added: facebook https://www.facebook.com/DGB.Gewerkschaftsbund (chrome,social-block); instagram https://www.instagram.com/dgb.gewerkschaftsbund/ (chrome,social-block); linkedin https://www.linkedin.com/company/12573488 (chrome,social-block); tiktok https://www.tiktok.com/@dgb_gewerkschaftsbund (chrome,soci"
+K00129,A0214,own_site,https://ralf-kraemer.de,2026-11-15,none,,
+K00130,A0394,own_site,https://florianpronold.de,2026-11-15,none,,"not added: youtube https://www.youtube.com/user/FlorianPronold (chrome,social-block); already listed: facebook,x,instagram"
+K00131,A0378,own_site,https://www.michael-horbach-stiftung.de,2026-11-15,error,,"URLError: <urlopen error (""The certificate's CN name does not match the passed value."",)>"
+K00132,A0298,own_site,https://www.uni-erfurt.de/brandtschool,2026-11-15,none,,not added: facebook https://www.facebook.com/brandtschool (social-block); facebook https://www.facebook.com/UniErfurt (social-block); youtube https://www.youtube.com/user/espp5mpp (social-block); youtube https://www.youtube.com/user/UniErfurt (social-block); linkedin https://www.linkedin.com/school/willy-brand
+K00133,A0059,own_site,https://www.inge-hoeger.de/,2026-11-15,none,,
+K00134,A0361,own_site,https://www.verdi.de,2026-11-15,none,,"not added: youtube https://www.youtube.com/@verdigewerkschaft (chrome,social-block); instagram https://www.instagram.com/wirsindverdi/ (chrome,social-block); facebook https://www.facebook.com/verdi (chrome,social-block); tiktok https://www.tiktok.com/@wirsindverdi (chrome,social-block); bluesky https://bsky.ap"
+K00135,A0320,own_site,https://www.angl.hu-berlin.de/department/staff-faculty/professors/klepper,2026-11-15,blocked,,200 at https://www.angl.hu-berlin.de/department/staff-faculty/professors/klepper
+K00136,A0291,own_site,https://www.matthias-quent.de/,2026-11-15,error,,URLError: <urlopen error [SSL: TLSV1_ALERT_INTERNAL_ERROR] tlsv1 alert internal error (_ss
+K00137,A0043,own_site,https://www.sabine-leidig.de/,2026-11-15,none,,"not added: youtube https://www.youtube.com/user/linksfraktion (social-block); already listed: facebook,x"
+K00138,A0099,own_site,https://klein-schmeink.de/,2026-11-15,none,,
+K00139,A0185,own_site,https://jessica-tatti.de/,2026-11-15,none,,

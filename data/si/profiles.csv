@@ -1,3 +1,6 @@
 profile_id,actor_id,platform,url,source,checked
 P00001,A0011,facebook,https://www.facebook.com/pages/Zdru%C5%BEenje-FIABCI-Slovenija/127054824045051,linked from https://www.fiabci.si/,2026-11-15
 P00002,A0011,x,https://x.com/FIABCISlovenia,linked from https://www.fiabci.si/,2026-11-15
+P00003,A0007,facebook,https://www.facebook.com/Piratska.Stranka.Slovenije,linked from https://piratskastranka.si/,2026-11-15
+P00004,A0007,x,https://x.com/piratskastranka,linked from https://piratskastranka.si/,2026-11-15
+P00005,A0007,mastodon,https://m.prt.si/@pirati,linked from https://piratskastranka.si/,2026-11-15

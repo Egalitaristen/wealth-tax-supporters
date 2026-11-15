@@ -9,3 +9,12 @@ K00007,A0020,own_site,https://pwypindonesia.org,2026-11-15,found,facebook;x;inst
 K00008,A0069,own_site,https://kontras.org,2026-11-15,found,instagram;youtube;linkedin,already listed: x
 K00009,A0024,own_site,https://ti.or.id,2026-11-15,none,,not added: facebook https://www.facebook.com/TIIndonesia (social-block); x https://x.com/TIIndonesia (social-block); youtube https://www.youtube.com/@TIIndonesia17 (social-block); instagram https://www.instagram.com/tiindonesia/ (social-block)
 K00010,A0035,own_site,https://theprakarsa.org,2026-11-15,none,,"not added: instagram https://www.instagram.com/theprakarsa/ (chrome,social-block); facebook https://www.facebook.com/theprakarsa (chrome,social-block); x https://x.com/theprakarsa (chrome,social-block); youtube https://www.youtube.com/c/theprakarsa (chrome,social-block)"
+K00011,A0036,own_site,https://theprakarsa.org,2026-11-15,none,,"not added: instagram https://www.instagram.com/theprakarsa/ (chrome,social-block); facebook https://www.facebook.com/theprakarsa (chrome,social-block); x https://x.com/theprakarsa (chrome,social-block); youtube https://www.youtube.com/c/theprakarsa (chrome,social-block)"
+K00012,A0054,own_site,https://celios.co.id,2026-11-15,none,,"not added: instagram https://www.instagram.com/celios_id/ (chrome,social-block)"
+K00013,A0061,own_site,https://www.fraksipkb.com,2026-11-15,found,facebook,"not added: youtube https://www.youtube.com/@PKBTVDPRRI (chrome,social-block); youtube https://www.youtube.com/c/pkbtv (social-block); x https://x.com/fraksipkb (chrome,social-block); instagram https://www.instagram.com/fraksipkb/ (social-block)"
+K00014,A0013,own_site,https://celios.co.id,2026-11-15,none,,"not added: instagram https://www.instagram.com/celios_id/ (chrome,social-block)"
+K00015,A0015,own_site,https://indef.or.id,2026-11-15,blocked,,403 at https://indef.or.id
+K00016,A0017,own_site,https://theprakarsa.org,2026-11-15,none,,"removed on spot check (the site is the PRAKARSA think tank's; this forum is hosted by it): instagram https://www.instagram.com/theprakarsa/, facebook https://www.facebook.com/theprakarsa, x https://x.com/theprakarsa, youtube https://www.youtube.com/c/theprakarsa"
+K00017,A0012,own_site,https://celios.co.id,2026-11-15,none,,"not added: instagram https://www.instagram.com/celios_id/ (chrome,social-block)"
+K00018,A0025,own_site,https://ti.or.id,2026-11-15,found,x;youtube,"already listed: facebook,instagram"
+K00019,A0070,own_site,https://hrwg.or.id,2026-11-15,error,,406 at https://hrwg.or.id

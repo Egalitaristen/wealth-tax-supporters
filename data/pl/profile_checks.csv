@@ -46,7 +46,7 @@ K00044,A0155,own_site,https://radon.nauka.gov.pl/dane/profil/5C37D08B29B4AA78209
 K00045,A0207,own_site,https://radon.nauka.gov.pl/dane/profil/D6A000576D3692BDDD1A7AD51B3B8A4EA034DCCD,2026-11-15,none,,
 K00046,A0272,own_site,https://radon.nauka.gov.pl/dane/profil/8305ECA1D3E8A3B7AE77A04289B93673437E6AD5,2026-11-15,none,,"not added: facebook https://www.facebook.com/uepoznan (chrome,social-block); instagram https://www.instagram.com/uepoznan/ (chrome,social-block); x https://x.com/UEwP (chrome,meta,social-block); linkedin https://www.linkedin.com/school/uniwersytet-ekonomiczny-w-poznaniu (chrome,social-block); youtube https://w"
 K00047,A0235,own_site,https://ucd.academia.edu/DorotaSzelewa,2026-11-15,blocked,,robots.txt forbids https://ucd.academia.edu/DorotaSzelewa
-K00048,A0034,own_site,"https://www.euroreg.uw.edu.pl/pl/zespol,jakub-rok",2026-11-15,none,,not added: facebook https://www.facebook.com/euroreg (); x https://x.com/EUROREG_UW (); instagram https://www.instagram.com/euroreg_uw/ (); youtube https://www.youtube.com/user/EuroregUW (); linkedin https://www.linkedin.com/school/centrum-europejskich-studi%C3%B3w-regionalnych-i-lokalnych-euroreg (); bluesky 
+K00048,A0034,own_site,"https://www.euroreg.uw.edu.pl/pl/zespol,jakub-rok",2026-11-15,none,,not added: facebook https://www.facebook.com/euroreg (); x https://x.com/EUROREG_UW (); instagram https://www.instagram.com/euroreg_uw/ (); youtube https://www.youtube.com/user/EuroregUW (); linkedin https://www.linkedin.com/school/centrum-europejskich-studi%C3%B3w-regionalnych-i-lokalnych-euroreg (); bluesky
 K00049,A0047,own_site,https://missionpossible.org.pl/,2026-11-15,found,facebook;linkedin;youtube,
 K00050,A0088,own_site,https://radon.nauka.gov.pl/dane/profil/3C35C84A5A2BBF6198973A90DB9B0D4F59F67E53,2026-11-15,found,tiktok,"already listed: facebook,instagram,x"
 K00051,A0172,own_site,https://radon.nauka.gov.pl/dane/profil/C1354DB69ED9A01000CF6EAF1301E8401E7BC6FB,2026-11-15,none,,
@@ -62,4 +62,42 @@ K00060,A0269,own_site,https://wa.pwr.edu.pl/studenci/studia-doktoranckie/obrony-
 K00061,A0189,own_site,https://radon.nauka.gov.pl/dane/profil/C4A963C2024152AE5FDE160CD85DD1812C637681,2026-11-15,none,,
 K00062,A0181,own_site,https://radon.nauka.gov.pl/dane/profil/60240B5E068606E0C9C42D1EE7971710BBDFD13C,2026-11-15,none,,
 K00063,A0248,own_site,https://nowyobywatel.pl/2013/07/07/wyrzucony-za-uczciwosc/,2026-11-15,none,,"not added: facebook https://www.facebook.com/obywatel (chrome,social-block); x https://x.com/NowyObywatel (chrome,social-block); youtube https://www.youtube.com/user/NowyObywatel (chrome,social-block)"
-K00064,A0246,own_site,https://marginesy.com.pl/autor/607,2026-11-15,none,,"not added: facebook https://www.facebook.com/wydawnictwomarginesy (chrome,social-block); instagram https://www.instagram.com/wydawnictwo_marginesy/ (chrome,social-block); tiktok https://www.tiktok.com/@wydawnictwomarginesy (chrome,social-block); youtube https://www.youtube.com/channel/UClfJs7EmisJNglnChRhAVSA "
+K00064,A0246,own_site,https://marginesy.com.pl/autor/607,2026-11-15,none,,"not added: facebook https://www.facebook.com/wydawnictwomarginesy (chrome,social-block); instagram https://www.instagram.com/wydawnictwo_marginesy/ (chrome,social-block); tiktok https://www.tiktok.com/@wydawnictwomarginesy (chrome,social-block); youtube https://www.youtube.com/channel/UClfJs7EmisJNglnChRhAVSA"
+K00065,A0182,own_site,https://radon.nauka.gov.pl/dane/profil/29D8354B9E6B3AD685FF77D41C3088A324AE95CA,2026-11-15,none,,
+K00066,A0108,own_site,https://radon.nauka.gov.pl/dane/profil/7F710755ED70D2B266FFC03650793E8784CF015A,2026-11-15,none,,
+K00067,A0179,own_site,https://radon.nauka.gov.pl/dane/profil/453A2ABE25064F126834AB7797D4E3A37800B8CE,2026-11-15,none,,"URLError: <urlopen error (""The certificate's CN name does not match the passed value."",)>"
+K00068,A0256,own_site,https://www.lse.ac.uk/granthaminstitute/profile/katarzyna-szwarc/,2026-11-15,none,,"not added: linkedin https://www.linkedin.com/company/grantham-research-institute-lse (chrome,social-block); x https://x.com/GRI_LSE (chrome,social-block); bluesky https://bsky.app/profile/granthamlse.bsky.social (chrome,social-block); youtube https://www.youtube.com/user/GranthamResearch (chrome,social-block)"
+K00069,A0236,own_site,https://dzikiezycie.pl/archiwum/2013/luty-2013/zielone-wiadomosci-zielone-jest-polityczne,2026-11-15,none,,"not added: instagram https://www.instagram.com/miesiecznik.dzikie.zycie/ (chrome,social-block); x https://x.com/dzikiezycie (chrome,social-block); facebook https://www.facebook.com/miesiecznik.dzikie.zycie (chrome)"
+K00070,A0109,own_site,https://radon.nauka.gov.pl/dane/profil/42D7CD67A7D7F30C9F0EE8E328419C40A526DC2E,2026-11-15,none,,
+K00071,A0286,own_site,https://www.ibok.org.pl/2023/03/webinar-planowanie-badan/,2026-11-15,none,,"not added: facebook https://www.facebook.com/IBOKorg (chrome,social-block); linkedin https://www.linkedin.com/company/stowarzyszenie-ibok (chrome,social-block); youtube https://www.youtube.com/channel/UCcO3y6imZDhTAzw4zCklRhw (chrome,social-block); instagram https://www.instagram.com/2020ibok/ (chrome,social-b"
+K00072,A0196,own_site,https://radon.nauka.gov.pl/dane/profil/F3375CAB10A5D1D1A909BBF6C2C02670CE84F2F6,2026-11-15,none,,
+K00073,A0004,own_site,https://krytykapolityczna.pl/bio/artur-troost/,2026-11-15,none,,"not added: facebook https://www.facebook.com/KrytykaPolityczna (chrome,social-block); instagram https://www.instagram.com/krytykapolityczna/ (chrome,social-block); tiktok https://www.tiktok.com/@krytykapolityczna (chrome,social-block); youtube https://www.youtube.com/@KrytykaPolitycznaTV (chrome,social-block);"
+K00074,A0060,own_site,https://radon.nauka.gov.pl/dane/profil/91CCB91C1D9321F129679C8CB620235C081E733E,2026-11-15,none,,
+K00075,A0280,own_site,https://hat.web.amu.edu.pl/bio/dr-milosz-markiewicz/,2026-11-15,none,,404 at https://hat.web.amu.edu.pl/bio/dr-milosz-markiewicz/
+K00076,A0114,own_site,https://orcid.org/0000-0001-8777-2377,2026-11-15,none,,
+K00077,A0271,own_site,https://philpeople.org/profiles/natalia-anna-michna/publications,2026-11-15,none,,not added: x https://x.com/philpapers_cdp (meta)
+K00078,A0146,own_site,https://radon.nauka.gov.pl/dane/profil/0BE07434C92A376ECF0CCE5A28AC88099D104F9F,2026-11-15,none,,
+K00079,A0073,own_site,https://radon.nauka.gov.pl/dane/profil/5F47F94F678E35043B49EEBC448812CCD2F27617,2026-11-15,none,,
+K00080,A0014,own_site,https://radon.nauka.gov.pl/dane/profil/242122650F264EF587277C0D2FC6328FD646F705,2026-11-15,none,,
+K00081,A0098,own_site,https://economicus.ue.katowice.pl/info/author/UEKT37fbdd5c5450400e8f5e4932a90660f6/,2026-11-15,none,,URLError: <urlopen error [WinError 10060] A connection attempt failed because the connecte
+K00082,A0009,own_site,https://oko.press/autor/lukasz_komuda,2026-11-15,none,,"not added: facebook https://www.facebook.com/oko.press (chrome,social-block); x https://x.com/oko_press (chrome,social-block); youtube https://www.youtube.com/channel/UCgL0f77U3iEPSSU-Mv5yV5g (chrome,social-block); instagram https://www.instagram.com/oko.press/ (chrome,social-block); linkedin https://www.linke"
+K00083,A0123,own_site,https://gap.uek.krakow.pl/blog/pracownicy/dr-michal-zabinski/,2026-11-15,none,,"not added: facebook https://www.facebook.com/Kolegium-Gospodarki-i-Administracji-Publicznej-UEK-103997574817519 (chrome,social-block)"
+K00084,A0161,own_site,https://radon.nauka.gov.pl/dane/profil/D46D3D1ACAC78258776A3A1104DFBAAA442B1486,2026-11-15,none,,
+K00085,A0130,own_site,https://radon.nauka.gov.pl/dane/profil/9B4A7A859A9C98DB4F89B824A41618728BDBACA8,2026-11-15,none,,
+K00086,A0039,own_site,https://orcid.org/0000-0002-4624-4268,2026-11-15,none,,
+K00087,A0001,own_site,https://partiarazem.pl/,2026-11-15,found,mastodon;youtube,"not added: x https://x.com/partiarazem (chrome,meta,rel-me,social-block); x https://x.com/RazemWroclaw (social-block); x https://x.com/RazemLegnica (social-block); x https://x.com/RazemJelenia (social-block); facebook https://www.facebook.com/partiarazem (chrome,rel-me,social-block); facebook https://www.faceb"
+K00088,A0103,own_site,https://radon.nauka.gov.pl/dane/profil/DCE8F667E87CF05AE44F61C49EF85FB8F7A25787,2026-11-15,none,,
+K00089,A0274,own_site,https://wuwr.pl/prt/article/download/17497/15764/25175,2026-11-15,error,,URLError: <urlopen error ('A required certificate is not within its validity period when v
+K00090,A0208,own_site,https://orcid.org/0009-0006-7635-013X,2026-11-15,none,,
+K00091,A0200,own_site,https://radon.nauka.gov.pl/dane/profil/FB1D502DC0173951AA65E1F272C528624EBE80F5,2026-11-15,none,,
+K00092,A0080,own_site,https://radon.nauka.gov.pl/dane/profil/0DA775FE9B1CD036A0932434D902D6C0530A7652,2026-11-15,none,,
+K00093,A0124,own_site,https://orcid.org/0000-0001-6905-6342,2026-11-15,none,,
+K00094,A0050,own_site,https://radon.nauka.gov.pl/dane/profil/4565180BF78A0CCF565CFB54075F1AA969B6E995,2026-11-15,none,,
+K00095,A0018,own_site,https://www.opzz.org.pl/,2026-11-15,error,,URLError: <urlopen error [Errno 11002] getaddrinfo failed>
+K00096,A0164,own_site,https://www.ksiegarnia.beck.pl/autorzy/jerzy-zabkowicz,2026-11-15,none,,
+K00097,A0166,own_site,https://radon.nauka.gov.pl/dane/profil/47AB7CA6F327D2888EA8A6D565E565C3D909DC14,2026-11-15,found,facebook,
+K00098,A0204,own_site,https://radon.nauka.gov.pl/dane/profil/BC79A09B698047DC2DDF31B7F44C3DCF4821C322,2026-11-15,none,,
+K00099,A0015,own_site,https://partiazieloni.pl/,2026-11-15,none,,"not added: instagram https://www.instagram.com/zieloni_/ (chrome,social-block); instagram https://www.instagram.com/partia_zieloni/ (chrome,social-block); facebook https://www.facebook.com/partiazieloni (chrome,social-block); x https://x.com/zieloni (chrome,social-block)"
+K00100,A0283,own_site,https://iszd.uken.krakow.pl/pracownicy-up/bobrowska/,2026-11-15,none,,
+K00101,A0221,own_site,"https://www.polskieradio.pl/8/11107/artykul/3708451,przemyslaw-wielgosz-nasz-koniec-wcale-nie-musi-byc-blisko",2026-11-15,none,,"not added: facebook https://www.facebook.com/czworka (social-block); facebook https://www.facebook.com/polskieradioplofficial (chrome,social-block); instagram https://www.instagram.com/czworka_polskieradio/ (social-block); instagram https://www.instagram.com/polskieradio/ (chrome,social-block); youtube https:/"
+K00102,A0133,own_site,https://radon.nauka.gov.pl/dane/profil/D2DE6E5EADA968D702B21DBBC081D0E1A35BA659,2026-11-15,none,,

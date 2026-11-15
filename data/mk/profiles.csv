@@ -1,1 +1,9 @@
 profile_id,actor_id,platform,url,source,checked
+P00001,A0003,facebook,https://www.facebook.com/SDSMakedonija,linked from https://sdsm.org.mk,2026-11-15
+P00002,A0003,x,https://x.com/sdsmakedonija,linked from https://sdsm.org.mk,2026-11-15
+P00003,A0003,youtube,https://www.youtube.com/user/SDSMtube,linked from https://sdsm.org.mk,2026-11-15
+P00004,A0003,instagram,https://www.instagram.com/sdsmakedonija/,linked from https://sdsm.org.mk,2026-11-15
+P00005,A0001,instagram,https://www.instagram.com/levica_mk/,linked from https://levica.mk,2026-11-15
+P00006,A0001,x,https://x.com/levica_partija,linked from https://levica.mk,2026-11-15
+P00007,A0001,youtube,https://www.youtube.com/channel/UCk1hX0b1siSQjAkyAFGqmCQ,linked from https://levica.mk,2026-11-15
+P00008,A0001,tiktok,https://www.tiktok.com/@levica.mk,linked from https://levica.mk,2026-11-15

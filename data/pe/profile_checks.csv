@@ -1,3 +1,6 @@
 check_id,actor_id,method,url,checked,result,found,note
 K00001,A0011,own_site,https://www.juntosporelperu.org.pe,2026-11-15,error,,URLError: <urlopen error [Errno 11001] getaddrinfo failed>
 K00002,A0005,own_site,https://pedrofrancke.com,2026-11-15,none,,
+K00003,A0012,own_site,https://www.partidomorado.pe/,2026-11-15,none,,not added: facebook https://www.facebook.com/PartidoMorado (); instagram https://www.instagram.com/partidomoradope/ (); x https://x.com/partidomorado (); youtube https://www.youtube.com/@canalmorado (); tiktok https://www.tiktok.com/@partidomorado ()
+K00004,A0023,own_site,https://cooperaccion.org.pe,2026-11-15,found,instagram;linkedin;youtube;tiktok,"already listed: facebook,x"
+K00005,A0008,own_site,https://www.cgtp.org.pe/,2026-11-15,found,facebook;x;youtube;tiktok,
