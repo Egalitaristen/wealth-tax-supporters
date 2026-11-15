@@ -1,0 +1,7 @@
+check_id,actor_id,method,url,checked,result,found,note
+K00001,A0284,own_site,https://www.moshtari.de/,2026-11-15,none,,
+K00002,A0026,own_site,https://www.susanne-ferschl.de/,2026-11-15,none,,
+K00003,A0417,own_site,https://bsw-fraktion-brandenburg.de/,2026-11-15,found,facebook;instagram;youtube;tiktok,
+K00004,A0113,own_site,https://strengmann-kuhn.de/,2026-11-15,none,,"not added: youtube https://www.youtube.com/channel/UCB8bm4l-4JUUAc6ACX2wrwA (); youtube https://www.youtube.com/channel/UC7TAA2WYlPfb6eDJCeX4u0w (chrome,social-block); already listed: bluesky,x"
+K00005,A0345,own_site,https://taz.de/Dilan-Karacadag/!k5757989/,2026-11-15,error,,404 at https://taz.de/Dilan-Karacadag/!k5757989/
+K00006,A0401,own_site,https://sebastian-es.de/,2026-11-15,none,,"not added: linkedin https://www.linkedin.com/in/dr-sebastian-schaefer (chrome,social-block); already listed: facebook,instagram,x"

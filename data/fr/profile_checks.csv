@@ -1,0 +1,5 @@
+check_id,actor_id,method,url,checked,result,found,note
+K00001,A0372,own_site,https://www.ronandantec.fr/,2026-11-15,none,,"406 at https://www.ronandantec.fr/; not added: x https://x.com/senat (chrome,social-block); facebook https://www.facebook.com/senat.fr (chrome,social-block); facebook https://www.facebook.com/100058201204685 (); linkedin https://www.linkedin.com/company/senat (chrome,social-block); instagram https://www.instagram.com/senat_fr/ (chrome,social-blo; already listed: x"
+K00002,A0379,own_site,https://www.senat.fr/senateur/mellouli_akli21073h.html,2026-11-15,found,x;linkedin;instagram,"not added: x https://x.com/senat (chrome,social-block); facebook https://www.facebook.com/senat.fr (chrome,social-block); facebook https://www.facebook.com/profile.php?id=100057136281344 (); linkedin https://www.linkedin.com/company/senat (chrome,social-block); instagram https://www.instagram.com/senat_fr/ (ch"
+K00003,A0164,own_site,https://www.jpnilor.com,2026-11-15,found,facebook,
+K00004,A0192,own_site,https://francoisruffin.fr/,2026-11-15,found,tiktok;linkedin,"already listed: facebook,x,youtube,instagram"

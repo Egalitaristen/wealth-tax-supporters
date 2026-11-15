@@ -34,6 +34,9 @@ SCHEMA = {
                "level", "location", "geo_unit_id", "location_source", "wikidata_qid", "website", "status", "alive_checked", "prominence", "notes",
                "added_run", "updated", "refined"],
     "profiles": ["profile_id", "actor_id", "platform", "url", "source", "checked"],
+    # One row per check of where an actor publishes (their own site, Wikidata, a parliament page), including checks that found nothing, so a
+    # re-run knows what was looked at and when. See profile_scan.py and references/data-format.md.
+    "profile_checks": ["check_id", "actor_id", "method", "url", "checked", "result", "found", "note"],
     "evidence": ["evidence_id", "actor_id", "date", "stance", "grade", "evidence_type", "wt_design", "design_detail",
                  "quote_original", "quote_lang", "quote_en", "source_url", "source_title", "publisher", "archive_url",
                  "accessed", "harvest_id", "grading_note", "run_id"],
@@ -61,7 +64,7 @@ SCHEMA = {
                   "read_date", "read_method", "found", "gaps"],
 }
 PREFIX = {"actors": ("A", 4), "evidence": ("E", 5), "geo_units": ("G", 4), "links": ("L", 4),
-          "harvest": ("H", 4), "exclusions": ("X", 4), "runs": ("R", 3), "profiles": ("P", 5),
+          "harvest": ("H", 4), "exclusions": ("X", 4), "runs": ("R", 3), "profiles": ("P", 5), "profile_checks": ("K", 5),
           "bodies": ("B", 4), "seats": ("S", 4), "positions": ("O", 5), "leads": ("D", 4), "queries": ("Q", 4), "documents": ("M", 4)}
 REQUIRED = {
     "actors": ["name", "kind", "actor_type", "country", "level", "status", "alive_checked"],
@@ -70,6 +73,7 @@ REQUIRED = {
     "geo_units": ["name", "level", "sweep_status"],
     "links": ["from_actor_id", "to_actor_id", "link_type"],
     "profiles": ["actor_id", "platform", "url"],
+    "profile_checks": ["actor_id", "method", "checked", "result"],
     "harvest": ["title", "list_type", "status"],
     "exclusions": ["name", "reason"],
     "runs": ["date", "focus"],
@@ -120,6 +124,8 @@ ENUMS = {
     ("profiles", "platform"): {"website", "official_page", "x", "bluesky", "mastodon", "instagram", "facebook",
                                "youtube", "tiktok", "linkedin", "substack", "wikipedia"},
     ("harvest", "status"): {"queued", "in_progress", "done", "failed"},
+    ("profile_checks", "method"): {"own_site", "wikidata", "parliament_page", "manual_search"},
+    ("profile_checks", "result"): {"found", "none", "blocked", "no_site", "error"},
     ("exclusions", "reason"): {"out_of_definition", "pre_2010_only", "deceased", "private_individual", "opposes",
                                "insufficient_evidence", "duplicate"},
 }
@@ -415,6 +421,9 @@ def validate(db):
                 errs.append(f"links.csv line {i}: {c} {l[c]} does not exist")
         if l.get("evidence_id") and l["evidence_id"] not in ids["evidence"]:
             errs.append(f"links.csv line {i}: evidence_id {l['evidence_id']} does not exist")
+    for i, c in enumerate(db["profile_checks"], start=2):
+        if c.get("actor_id") not in actors:
+            errs.append(f"profile_checks.csv line {i}: actor_id {c.get('actor_id')} does not exist")
     seen_profiles = set()
     for i, p in enumerate(db["profiles"], start=2):
         where = f"profiles.csv line {i}"
@@ -1064,14 +1073,14 @@ def cmd_merge(a):
         for c in ("from_actor_id", "to_actor_id"):
             if l.get(c) == a.drop:
                 l[c] = a.keep
-    for p in db["profiles"]:
+    for p in db["profiles"] + db["profile_checks"]:
         if p["actor_id"] == a.drop:
             p["actor_id"] = a.keep
     for r in db["actors"]:
         if r.get("affiliation_actor_id") == a.drop:
             r["affiliation_actor_id"] = a.keep
     db["actors"] = [r for r in db["actors"] if r["actor_id"] != a.drop]
-    for t_ in ("actors", "evidence", "links", "profiles"):
+    for t_ in ("actors", "evidence", "links", "profiles", "profile_checks"):
         save(a.dir, t_, db[t_])
     print(f"Merged {a.drop} ({drop['name']}) into {a.keep} ({keep['name']}); moved {n} evidence rows")
 

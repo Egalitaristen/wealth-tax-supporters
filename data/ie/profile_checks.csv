@@ -1,0 +1,2 @@
+check_id,actor_id,method,url,checked,result,found,note
+K00001,A0039,own_site,https://www.oireachtas.ie/,2026-11-15,none,,"not added: x https://x.com/OireachtasNews (chrome,social-block); facebook https://www.facebook.com/OireachtasNews (chrome,social-block); instagram https://www.instagram.com/oireachtas_news/ (chrome,social-block)"

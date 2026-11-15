@@ -119,6 +119,17 @@ A personal GitHub repository or blog with no licence file, a "free to use" note,
 - `platform`: website · official_page · x · bluesky · mastodon · instagram · facebook · youtube · tiktok · linkedin · substack · wikipedia
 - Only pages the person or their organisation publishes (their own site, party or parliament page, professional social accounts), or that Wikidata or a parliament lists for them. No personal accounts, email addresses or phone numbers, and nothing guessed from a name search. `url` must be https. `source` says where the link came from and `checked` is the date you read that source. Skip private individuals and people who are only known as wealthy signers.
 
+**profile_checks.csv** — every check of where an actor publishes, including checks that found nothing
+<!-- schema:profile_checks -->
+`check_id, actor_id, method, url, checked, result, found, note`
+- IDs look like `K00001`. Required: `actor_id`, `method`, `checked`, `result`.
+- `method` is one of: manual_search · own_site · parliament_page · wikidata.
+- `result` is one of: blocked · error · found · no_site · none.
+<!-- /schema:profile_checks -->
+- One row per actor per method per day: `own_site` (the actor's own website and its contact or about page), `wikidata`, `parliament_page` or `manual_search`. `url` is the page read, `found` lists the platforms added to `profiles.csv` (for example `x;bluesky`), `note` says what blocked or confused the check. `result` is `found`, `none` (read, no account linked), `blocked` (the site refused the reader or showed a bot check), `no_site` (the actor has no website to read) or `error`.
+- It exists so a re-run can skip what was looked at and so "checked, nothing there" is a recorded result. Every account on the page is collected in one visit, whatever platform. Re-check once a year, the first round at the start of 2028 (`profile_scan.py --due`).
+- Written by `skill/scripts/profile_scan.py`; accounts it adds carry `source` "linked from <page>" and the check date.
+
 **harvest.csv** — bulk lists to process (see 6.4)
 <!-- schema:harvest -->
 `harvest_id, title, list_type, url, date, est_size, status, actors_added, notes`

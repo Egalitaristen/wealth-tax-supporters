@@ -1,0 +1,8 @@
+check_id,actor_id,method,url,checked,result,found,note
+K00001,A0237,own_site,https://tierrasanta.sandiegounified.org/cms/One.aspx?pageId=28172771&portalId=27732478,2026-11-15,blocked,,403 at https://tierrasanta.sandiegounified.org/cms/One.aspx?pageId=28172771&portalId=27732478
+K00002,A0808,own_site,https://socialsecurityworks.org/,2026-11-15,none,,already listed: x
+K00003,A0743,own_site,https://www.latimes.com/people/michael-hiltzik,2026-11-15,found,facebook;bluesky,"not added: instagram https://www.instagram.com/latimes.404/ (chrome); instagram https://www.instagram.com/latimes/ (chrome,social-block); facebook https://www.facebook.com/latimes (chrome,social-block); tiktok https://www.tiktok.com/@latimes (chrome); youtube https://www.youtube.com/user/losangelestimes (chrom; already listed: x"
+K00004,A0158,own_site,https://www.richmondca.gov/29/City-Council,2026-11-15,none,,"not added: x https://x.com/cityofrichmond (chrome,social-block)"
+K00005,A0259,own_site,https://www.contracosta.ca.gov/m/directory/employee?eid=1064,2026-11-15,blocked,,403 at https://www.contracosta.ca.gov/m/directory/employee?eid=1064
+K00006,A0022,own_site,https://nuhw.org,2026-11-15,none,,"already listed: facebook,x,linkedin,instagram,youtube"
+K00007,A0156,own_site,https://berkeleyca.gov/your-government/city-council/council-roster/cecilia-lunaparra,2026-11-15,none,,"not added: instagram https://www.instagram.com/cityofberkeley/ (chrome,social-block); bluesky https://bsky.app/profile/berkeleyca.gov (chrome,social-block); linkedin https://www.linkedin.com/company/city-of-berkeley (chrome,social-block); already listed: instagram"
