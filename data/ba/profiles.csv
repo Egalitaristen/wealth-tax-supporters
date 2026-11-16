@@ -1,1 +1,7 @@
 profile_id,actor_id,platform,url,source,checked
+P00001,A0001,website,https://sdp.ba,Wikidata Q1143161,2026-11-16
+P00002,A0001,x,https://x.com/sdpbih,Wikidata Q1143161,2026-11-16
+P00003,A0001,instagram,https://www.instagram.com/sdp.bih/,Wikidata Q1143161,2026-11-16
+P00004,A0001,facebook,https://www.facebook.com/SDPBIH,Wikidata Q1143161,2026-11-16
+P00005,A0001,youtube,https://www.youtube.com/channel/UCYlObTRONCKFsUEkkACdryw,Wikidata Q1143161,2026-11-16
+P00006,A0001,wikipedia,https://en.wikipedia.org/wiki/Social_Democratic_Party_of_Bosnia_and_Herzegovina,Wikidata Q1143161,2026-11-16

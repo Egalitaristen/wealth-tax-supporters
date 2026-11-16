@@ -1,3 +1,18 @@
 profile_id,actor_id,platform,url,source,checked
 P00001,A0007,youtube,https://www.youtube.com/channel/UCl50XNmisKuYRlP8xohMyyw,linked from https://anep.cr,2026-11-16
 P00002,A0007,facebook,https://www.facebook.com/AnepSindicato,linked from https://anep.cr,2026-11-16
+P00003,A0007,website,https://anep.cr,actors.csv website column,2026-11-16
+P00004,A0003,facebook,https://www.facebook.com/villaltaJM,Wikidata Q5943676,2026-11-16
+P00005,A0003,wikipedia,https://en.wikipedia.org/wiki/Jos%C3%A9_Mar%C3%ADa_Villalta_Fl%C3%B3rez-Estrada,Wikidata Q5943676,2026-11-16
+P00006,A0004,wikipedia,https://en.wikipedia.org/wiki/Carlos_Alvarado,Wikidata Q26996246,2026-11-16
+P00007,A0005,website,https://pac.cr,Wikidata Q2033977,2026-11-16
+P00008,A0005,wikipedia,https://en.wikipedia.org/wiki/Citizens%27_Action_Party_%28Costa_Rica%29,Wikidata Q2033977,2026-11-16
+P00009,A0006,website,https://frenteamplio.org,Wikidata Q403054,2026-11-16
+P00010,A0006,x,https://x.com/FrenteAmplio,Wikidata Q403054,2026-11-16
+P00011,A0006,instagram,https://www.instagram.com/frenteamplio.cr/,Wikidata Q403054,2026-11-16
+P00012,A0006,facebook,https://www.facebook.com/frenteamplioCRICA,Wikidata Q403054,2026-11-16
+P00013,A0006,wikipedia,https://en.wikipedia.org/wiki/Broad_Front_%28Costa_Rica%29,Wikidata Q403054,2026-11-16
+P00014,A0010,wikipedia,https://en.wikipedia.org/wiki/Quince_Duncan,Wikidata Q7272092,2026-11-16
+P00015,A0011,wikipedia,https://en.wikipedia.org/wiki/Margarita_Bola%C3%B1os,Wikidata Q20013546,2026-11-16
+P00016,A0025,wikipedia,https://en.wikipedia.org/wiki/Henry_Mora_Jim%C3%A9nez,Wikidata Q16730301,2026-11-16
+P00017,A0027,wikipedia,https://en.wikipedia.org/wiki/Welmer_Ramos_Gonz%C3%A1lez,Wikidata Q29044198,2026-11-16

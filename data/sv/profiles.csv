@@ -5,3 +5,6 @@ P00003,A0005,youtube,https://www.youtube.com/channel/UCgVpAZWS9BhRngxbThLL05Q,li
 P00004,A0005,linkedin,https://www.linkedin.com/company/central-american-institute-for-fiscal-studies,linked from https://www.icefi.org/,2026-11-15
 P00005,A0002,facebook,https://www.facebook.com/FUDECEN,linked from https://fudecen.org/,2026-11-16
 P00006,A0002,x,https://x.com/FUDECEN,linked from https://fudecen.org/,2026-11-16
+P00007,A0002,website,https://fudecen.org/,actors.csv website column,2026-11-16
+P00008,A0005,website,https://www.icefi.org/,actors.csv website column,2026-11-16
+P00009,A0006,website,https://lac.oxfam.org/,actors.csv website column,2026-11-16
