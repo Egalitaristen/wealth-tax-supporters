@@ -206,3 +206,16 @@ K00204,A0234,wikipedia,https://en.wikipedia.org/wiki/Jonathan_Pedneault,2026-11-
 K00205,A0332,wikipedia,https://en.wikipedia.org/wiki/Aur%C3%A9a_Cormier,2026-11-16,none,,
 K00206,A0016,own_site,https://carolhughes.ndp.ca/,2026-11-16,error,,URLError: <urlopen error [WinError 10060] A connection attempt failed because the connecte
 K00207,A0092,own_site,https://www.LindaMcQuaig.com,2026-11-16,found,x,
+K00208,A0003,wikipedia_langs,,2026-11-16,none,,no official website in the articles in other languages
+K00209,A0004,wikipedia_langs,,2026-11-16,none,,no official website in the articles in other languages
+K00210,A0009,wikipedia_langs,,2026-11-16,none,,no official website in the articles in other languages
+K00211,A0018,wikipedia_langs,https://fr.wikipedia.org/wiki/Peter_Julian,2026-11-16,found,website,
+K00212,A0020,wikipedia_langs,,2026-11-16,none,,no official website in the articles in other languages
+K00213,A0021,wikipedia_langs,,2026-11-16,none,,no official website in the articles in other languages
+K00214,A0023,wikipedia_langs,,2026-11-16,none,,no official website in the articles in other languages
+K00215,A0027,wikipedia_langs,,2026-11-16,none,,no official website in the articles in other languages
+K00216,A0034,wikipedia_langs,,2026-11-16,none,,no official website in the articles in other languages
+K00217,A0096,wikipedia_langs,,2026-11-16,none,,no official website in the articles in other languages
+K00218,A0234,wikipedia_langs,,2026-11-16,none,,no official website in the articles in other languages
+K00219,A0332,wikipedia_langs,,2026-11-16,none,,no official website in the articles in other languages
+K00220,A0018,own_site,https://www.peterjulian.ca/,2026-11-16,error,,404 at https://www.peterjulian.ca/

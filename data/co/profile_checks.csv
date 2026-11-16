@@ -95,3 +95,64 @@ K00093,A0141,own_site,https://www.manuelvirguez.com,2026-11-16,none,,
 K00094,A0079,own_site,https://www.josename.com,2026-11-16,found,youtube;instagram;x;facebook,
 K00095,A0097,own_site,https://camara.gov.co,2026-11-16,error,,"URLError: <urlopen error (""The certificate's CN name does not match the passed value."",)>"
 K00096,A0039,own_site,https://camara.gov.co,2026-11-16,error,,"URLError: <urlopen error (""The certificate's CN name does not match the passed value."",)>"
+K00097,A0001,wikipedia_langs,,2026-11-16,none,,no official website in the articles in other languages
+K00098,A0007,wikipedia_langs,https://es.wikipedia.org/wiki/Iv%C3%A1n_Marulanda,2026-11-16,found,website,
+K00099,A0009,wikipedia_langs,https://es.wikipedia.org/wiki/Guillermo_Garc%C3%ADa_Realpe,2026-11-16,found,website,
+K00100,A0010,wikipedia_langs,,2026-11-16,none,,no official website in the articles in other languages
+K00101,A0011,wikipedia_langs,https://es.wikipedia.org/wiki/Roy_Barreras,2026-11-16,found,website,
+K00102,A0012,wikipedia_langs,https://es.wikipedia.org/wiki/Alexander_L%C3%B3pez_Maya,2026-11-16,none,,the page's title and headings do not carry the name: https://www.polodemocratico.net
+K00103,A0015,wikipedia_langs,https://es.wikipedia.org/wiki/Luis_Fernando_Velasco,2026-11-16,found,website,
+K00104,A0019,wikipedia_langs,,2026-11-16,none,,no official website in the articles in other languages
+K00105,A0020,wikipedia_langs,,2026-11-16,none,,no official website in the articles in other languages
+K00106,A0021,wikipedia_langs,https://es.wikipedia.org/wiki/Antonio_Sanguino,2026-11-16,none,,the page's title and headings do not carry the name: https://www.partidoverde.org.co/
+K00107,A0022,wikipedia_langs,https://es.wikipedia.org/wiki/Juan_Felipe_Lemos,2026-11-16,found,website,
+K00108,A0023,wikipedia_langs,https://es.wikipedia.org/wiki/Jorge_Enrique_Robledo,2026-11-16,none,,the page's title and headings do not carry the name: https://www.polodemocratico.net
+K00109,A0026,wikipedia_langs,,2026-11-16,none,,no official website in the articles in other languages
+K00110,A0027,wikipedia_langs,https://es.wikipedia.org/wiki/Jorge_Eduardo_Londo%C3%B1o,2026-11-16,none,,the page's title and headings do not carry the name: https://www.partidoverde.org.co/
+K00111,A0028,wikipedia_langs,https://es.wikipedia.org/wiki/Miguel_%C3%81ngel_Pinto,2026-11-16,found,website,
+K00112,A0029,wikipedia_langs,,2026-11-16,none,,no official website in the articles in other languages
+K00113,A0031,wikipedia_langs,,2026-11-16,none,,no official website in the articles in other languages
+K00114,A0034,wikipedia_langs,https://es.wikipedia.org/wiki/Sandra_Ortiz,2026-11-16,found,website,
+K00115,A0035,wikipedia_langs,,2026-11-16,none,,no official website in the articles in other languages
+K00116,A0044,wikipedia_langs,,2026-11-16,none,,no official website in the articles in other languages
+K00117,A0051,wikipedia_langs,,2026-11-16,none,,no official website in the articles in other languages
+K00118,A0054,wikipedia_langs,,2026-11-16,none,,no official website in the articles in other languages
+K00119,A0062,wikipedia_langs,,2026-11-16,none,,no official website in the articles in other languages
+K00120,A0063,wikipedia_langs,,2026-11-16,none,,no official website in the articles in other languages
+K00121,A0067,wikipedia_langs,,2026-11-16,none,,no official website in the articles in other languages
+K00122,A0068,wikipedia_langs,,2026-11-16,none,,no official website in the articles in other languages
+K00123,A0069,wikipedia_langs,,2026-11-16,none,,no official website in the articles in other languages
+K00124,A0072,wikipedia_langs,,2026-11-16,none,,no official website in the articles in other languages
+K00125,A0073,wikipedia_langs,,2026-11-16,none,,no official website in the articles in other languages
+K00126,A0074,wikipedia_langs,,2026-11-16,none,,no official website in the articles in other languages
+K00127,A0076,wikipedia_langs,,2026-11-16,none,,no official website in the articles in other languages
+K00128,A0081,wikipedia_langs,https://es.wikipedia.org/wiki/Andr%C3%A9s_Garc%C3%ADa_Zuccardi,2026-11-16,found,website,
+K00129,A0082,wikipedia_langs,,2026-11-16,none,,no official website in the articles in other languages
+K00130,A0088,wikipedia_langs,,2026-11-16,none,,no official website in the articles in other languages
+K00131,A0093,wikipedia_langs,,2026-11-16,none,,no official website in the articles in other languages
+K00132,A0094,wikipedia_langs,,2026-11-16,none,,no official website in the articles in other languages
+K00133,A0101,wikipedia_langs,https://es.wikipedia.org/wiki/Ariel_%C3%81vila,2026-11-16,found,website,
+K00134,A0103,wikipedia_langs,https://es.wikipedia.org/wiki/%C3%93scar_Barreto_Quiroga,2026-11-16,found,website,
+K00135,A0107,wikipedia_langs,,2026-11-16,none,,no official website in the articles in other languages
+K00136,A0109,wikipedia_langs,,2026-11-16,none,,no official website in the articles in other languages
+K00137,A0110,wikipedia_langs,https://es.wikipedia.org/wiki/Efra%C3%ADn_Cepeda,2026-11-16,found,website,
+K00138,A0111,wikipedia_langs,,2026-11-16,none,,no official website in the articles in other languages
+K00139,A0114,wikipedia_langs,,2026-11-16,none,,no official website in the articles in other languages
+K00140,A0117,wikipedia_langs,,2026-11-16,none,,no official website in the articles in other languages
+K00141,A0120,wikipedia_langs,,2026-11-16,none,,no official website in the articles in other languages
+K00142,A0122,wikipedia_langs,,2026-11-16,none,,no official website in the articles in other languages
+K00143,A0124,wikipedia_langs,,2026-11-16,none,,no official website in the articles in other languages
+K00144,A0135,wikipedia_langs,,2026-11-16,none,,no official website in the articles in other languages
+K00145,A0136,wikipedia_langs,,2026-11-16,none,,no official website in the articles in other languages
+K00146,A0138,wikipedia_langs,,2026-11-16,none,,no official website in the articles in other languages
+K00147,A0103,own_site,https://www.oscarbarreto.com,2026-11-16,error,,URLError: <urlopen error [Errno 11001] getaddrinfo failed>
+K00148,A0015,own_site,https://www.luisfernandovelasco.com.co,2026-11-16,none,,
+K00149,A0011,own_site,https://roybarreras.com/,2026-11-16,found,tiktok,"not added: facebook https://www.facebook.com/RoyBarrerasCol (social-block); already listed: instagram,x"
+K00150,A0081,own_site,https://www.andresgarciazuccardi.com/,2026-11-16,none,,
+K00151,A0007,own_site,https://www.ivanmarulanda.com,2026-11-16,none,,
+K00152,A0110,own_site,https://www.efraincepeda.com,2026-11-16,found,x,robots.txt forbids https://x.com/EfrainCepeda/following; not added: x https://x.com/CaracolTV (); x https://x.com/BluRadioCo (); x https://x.com/CaracolRadio (); x https://x.com/CanalRCN (); x https://x.com/elheraldoco (); x https://x.com/AlejandroChar ()
+K00153,A0009,own_site,https://www.guillermogarciarealpe.com,2026-11-16,error,,URLError: <urlopen error [Errno 11001] getaddrinfo failed>
+K00154,A0028,own_site,https://www.secretariasenado.gov.co/senadores/53-senadores-2018-2022/1454-miguel-angel-pinto-hernandez,2026-11-16,error,,URLError: <urlopen error [WinError 10060] A connection attempt failed because the connecte
+K00155,A0034,own_site,https://www.sandraortiz.com,2026-11-16,none,,
+K00156,A0101,own_site,https://www.arielavila.com/,2026-11-16,found,instagram;facebook;x;youtube;tiktok,not added: youtube https://www.youtube.com/@comisionprimerasenadodelar1094 ()
+K00157,A0022,own_site,https://www.juanfelipelemossenador.com/,2026-11-16,error,,URLError: <urlopen error [Errno 11001] getaddrinfo failed>

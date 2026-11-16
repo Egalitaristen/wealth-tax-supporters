@@ -44,3 +44,4 @@ K00042,A0004,own_site,https://labour.ie/people/ged-nash/,2026-11-16,blocked,,403
 K00043,A0007,own_site,https://www.pbp.ie/,2026-11-16,found,facebook,already listed: x
 K00044,A0033,own_site,https://www.oireachtas.ie/,2026-11-16,none,,"not added: x https://x.com/OireachtasNews (chrome,social-block); facebook https://www.facebook.com/OireachtasNews (chrome,social-block); instagram https://www.instagram.com/oireachtas_news/ (chrome,social-block)"
 K00045,A0006,wikipedia,https://en.wikipedia.org/wiki/Cian_O%27Callaghan,2026-11-16,none,,
+K00046,A0006,wikipedia_langs,,2026-11-16,none,,no official website in the articles in other languages

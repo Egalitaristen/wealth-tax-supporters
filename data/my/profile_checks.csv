@@ -24,3 +24,8 @@ K00022,A0011,directory,,2026-11-16,none,,no NBER page
 K00023,A0013,directory,,2026-11-16,none,,no NBER page
 K00024,A0024,directory,,2026-11-16,none,,no NBER page
 K00025,A0017,own_site,https://www.shahrir-umno.com/,2026-11-16,error,,URLError: <urlopen error [Errno 11001] getaddrinfo failed>
+K00026,A0003,wikipedia_langs,,2026-11-16,none,,no official website in the articles in other languages
+K00027,A0010,wikipedia_langs,,2026-11-16,none,,no official website in the articles in other languages
+K00028,A0011,wikipedia_langs,,2026-11-16,none,,no official website in the articles in other languages
+K00029,A0018,wikipedia_langs,,2026-11-16,none,,no official website in the articles in other languages
+K00030,A0024,wikipedia_langs,,2026-11-16,none,,no official website in the articles in other languages

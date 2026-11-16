@@ -479,3 +479,39 @@ K00477,A0078,own_site,https://angusmacneilsnp.com,2026-11-16,none,,not added: x 
 K00478,A0257,own_site,https://www.scottish.parliament.uk/msps/currentmsps/James-Dornan-MSP.aspx,2026-11-16,error,,URLError: <urlopen error ('A required certificate is not within its validity period when v
 K00479,A0093,own_site,https://snp.org/people/deidre-brock,2026-11-16,error,,404 at https://snp.org/people/deidre-brock
 K00480,A0608,own_site,https://www.annpettifor.com,2026-11-16,blocked,,403 at https://www.annpettifor.com
+K00481,A0066,wikipedia_langs,https://de.wikipedia.org/wiki/Kenny_MacAskill,2026-11-16,found,website,
+K00482,A0069,wikipedia_langs,,2026-11-16,none,,no official website in the articles in other languages
+K00483,A0084,wikipedia_langs,,2026-11-16,none,,no official website in the articles in other languages
+K00484,A0099,wikipedia_langs,,2026-11-16,none,,no official website in the articles in other languages
+K00485,A0128,wikipedia_langs,,2026-11-16,none,,no official website in the articles in other languages
+K00486,A0168,wikipedia_langs,,2026-11-16,none,,no official website in the articles in other languages
+K00487,A0204,wikipedia_langs,,2026-11-16,none,,no official website in the articles in other languages
+K00488,A0248,wikipedia_langs,https://vi.wikipedia.org/wiki/Kevin_Stewart_%28ch%C3%ADnh_kh%C3%A1ch_Scotland%29,2026-11-16,found,website,site not read (ERR URLError)
+K00489,A0259,wikipedia_langs,,2026-11-16,none,,no official website in the articles in other languages
+K00490,A0260,wikipedia_langs,https://de.wikipedia.org/wiki/Alasdair_Allan,2026-11-16,found,website,
+K00491,A0266,wikipedia_langs,,2026-11-16,none,,no official website in the articles in other languages
+K00492,A0269,wikipedia_langs,,2026-11-16,none,,no official website in the articles in other languages
+K00493,A0273,wikipedia_langs,,2026-11-16,none,,no official website in the articles in other languages
+K00494,A0278,wikipedia_langs,,2026-11-16,none,,no official website in the articles in other languages
+K00495,A0282,wikipedia_langs,,2026-11-16,none,,no official website in the articles in other languages
+K00496,A0291,wikipedia_langs,https://es.wikipedia.org/wiki/Jos%C3%A9_Antonio_Ocampo,2026-11-16,found,website,site not read (ERR 403)
+K00497,A0292,wikipedia_langs,,2026-11-16,none,,no official website in the articles in other languages
+K00498,A0294,wikipedia_langs,,2026-11-16,none,,no official website in the articles in other languages
+K00499,A0308,wikipedia_langs,,2026-11-16,none,,no official website in the articles in other languages
+K00500,A0352,wikipedia_langs,,2026-11-16,none,,no official website in the articles in other languages
+K00501,A0525,wikipedia_langs,,2026-11-16,none,,no official website in the articles in other languages
+K00502,A0526,wikipedia_langs,,2026-11-16,none,,no official website in the articles in other languages
+K00503,A0536,wikipedia_langs,,2026-11-16,none,,no official website in the articles in other languages
+K00504,A0544,wikipedia_langs,,2026-11-16,none,,no official website in the articles in other languages
+K00505,A0550,wikipedia_langs,,2026-11-16,none,,no official website in the articles in other languages
+K00506,A0552,wikipedia_langs,,2026-11-16,none,,no official website in the articles in other languages
+K00507,A0576,wikipedia_langs,,2026-11-16,none,,no official website in the articles in other languages
+K00508,A0577,wikipedia_langs,,2026-11-16,none,,no official website in the articles in other languages
+K00509,A0581,wikipedia_langs,,2026-11-16,none,,no official website in the articles in other languages
+K00510,A0585,wikipedia_langs,,2026-11-16,none,,no official website in the articles in other languages
+K00511,A0615,wikipedia_langs,,2026-11-16,none,,no official website in the articles in other languages
+K00512,A0620,wikipedia_langs,,2026-11-16,none,,no official website in the articles in other languages
+K00513,A0066,own_site,https://www.scottish.parliament.uk/msp/membersPages/kenny_macaskill/index.htm,2026-11-16,error,,URLError: <urlopen error ('A required certificate is not within its validity period when v
+K00514,A0260,own_site,https://www.alasdairallan.scot/,2026-11-16,found,facebook;instagram,already listed: x
+K00515,A0291,own_site,https://www.partidoliberal.org.co,2026-11-16,blocked,,403 at https://www.partidoliberal.org.co
+K00516,A0248,own_site,https://www.scottish.parliament.uk,2026-11-16,error,,URLError: <urlopen error ('A required certificate is not within its validity period when v

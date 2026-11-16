@@ -24,3 +24,22 @@ K00022,A0029,directory,,2026-11-16,none,,no NBER page
 K00023,A0030,directory,,2026-11-16,none,,no NBER page
 K00024,A0035,directory,,2026-11-16,none,,no NBER page
 K00025,A0017,own_site,https://www.andresjblanco.com,2026-11-16,none,,
+K00026,A0005,wikipedia_langs,,2026-11-16,none,,no official website in the articles in other languages
+K00027,A0006,wikipedia_langs,,2026-11-16,none,,no official website in the articles in other languages
+K00028,A0007,wikipedia_langs,,2026-11-16,none,,no official website in the articles in other languages
+K00029,A0008,wikipedia_langs,,2026-11-16,none,,no official website in the articles in other languages
+K00030,A0009,wikipedia_langs,,2026-11-16,none,,no official website in the articles in other languages
+K00031,A0010,wikipedia_langs,,2026-11-16,none,,no official website in the articles in other languages
+K00032,A0011,wikipedia_langs,https://es.wikipedia.org/wiki/Alejandro_S%C3%A1nchez_%28pol%C3%ADtico%29,2026-11-16,found,website,
+K00033,A0012,wikipedia_langs,,2026-11-16,none,,no official website in the articles in other languages
+K00034,A0013,wikipedia_langs,,2026-11-16,none,,no official website in the articles in other languages
+K00035,A0014,wikipedia_langs,,2026-11-16,none,,no official website in the articles in other languages
+K00036,A0021,wikipedia_langs,,2026-11-16,none,,no official website in the articles in other languages
+K00037,A0032,wikipedia_langs,https://de.wikipedia.org/wiki/Rafael_Michelini,2026-11-16,found,website,
+K00038,A0033,wikipedia_langs,,2026-11-16,none,,no official website in the articles in other languages
+K00039,A0035,wikipedia_langs,https://es.wikipedia.org/wiki/H%C3%A9ctor_Tajam,2026-11-16,none,,the page's title and headings do not carry the name: https://www.mpp.org.uy/
+K00040,A0037,wikipedia_langs,,2026-11-16,none,,no official website in the articles in other languages
+K00041,A0038,wikipedia_langs,,2026-11-16,none,,no official website in the articles in other languages
+K00042,A0040,wikipedia_langs,https://es.wikipedia.org/wiki/Premios_Emmy_Internacional_de_Asuntos_y_Noticias,2026-11-16,none,,the page's title and headings do not carry the name: https://www.iemmys.tv/
+K00043,A0032,own_site,https://www.nuevoespacio.org.uy/fichas/Rafael_Michelini_4.php,2026-11-16,none,,"not added: facebook https://www.facebook.com/NuevoEspacioFrenteAmplio (chrome,social-block); x https://x.com/NuevoEspacio (chrome,social-block); youtube https://www.youtube.com/user/NuevoEspacioFA (chrome,social-block); instagram https://www.instagram.com/nuevoespaciofa/ (chrome,social-block)"
+K00044,A0011,own_site,https://equipo609.uy/alejandrosanchez,2026-11-16,error,,"URLError: <urlopen error ('A certificate chain processed, but terminated in a root certifi"

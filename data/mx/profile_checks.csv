@@ -46,3 +46,14 @@ K00044,A0103,directory,,2026-11-16,none,,no NBER page
 K00045,A0104,directory,,2026-11-16,none,,no NBER page
 K00046,A0105,directory,,2026-11-16,none,,no NBER page
 K00047,A0060,own_site,https://www.sme.org.mx/,2026-11-16,none,,not added: facebook https://www.facebook.com/SindicatoSME (); x https://x.com/sindicato_sme (); youtube https://www.youtube.com/channel/UCrb4euCRriB3ONdIjHhUj6g (); instagram https://www.instagram.com/sindicatosme/ ()
+K00048,A0009,wikipedia_langs,https://es.wikipedia.org/wiki/Alfonso_Ram%C3%ADrez_Cu%C3%A9llar,2026-11-16,found,website,
+K00049,A0010,wikipedia_langs,,2026-11-16,none,,no official website in the articles in other languages
+K00050,A0011,wikipedia_langs,,2026-11-16,none,,no official website in the articles in other languages
+K00051,A0012,wikipedia_langs,https://es.wikipedia.org/wiki/Aleida_Alavez_Ruiz,2026-11-16,found,website,site not read (ERR URLError)
+K00052,A0013,wikipedia_langs,,2026-11-16,none,,no official website in the articles in other languages
+K00053,A0014,wikipedia_langs,,2026-11-16,none,,no official website in the articles in other languages
+K00054,A0015,wikipedia_langs,,2026-11-16,none,,no official website in the articles in other languages
+K00055,A0061,wikipedia_langs,,2026-11-16,none,,no official website in the articles in other languages
+K00056,A0094,wikipedia_langs,,2026-11-16,none,,no official website in the articles in other languages
+K00057,A0012,own_site,https://sitl.diputados.gob.mx/curricula.php?dipt=62,2026-11-16,error,,URLError: <urlopen error [WinError 10060] A connection attempt failed because the connecte
+K00058,A0009,own_site,https://alfonsoramirezcuellar.com.mx/,2026-11-16,found,instagram;facebook;x,

@@ -39,3 +39,25 @@ K00037,A0027,directory,,2026-11-16,none,,no NBER page
 K00038,A0028,directory,https://www.nber.org/people/martin_schurz,2026-11-16,none,,"page found, no website listed"
 K00039,A0033,directory,,2026-11-16,none,,no NBER page
 K00040,A0039,own_site,https://www.selma-yildirim.at,2026-11-16,blocked,,403 at https://www.selma-yildirim.at
+K00041,A0004,wikipedia_langs,https://de.wikipedia.org/wiki/Kai_Jan_Krainer,2026-11-16,found,website,
+K00042,A0006,wikipedia_langs,,2026-11-16,none,,no official website in the articles in other languages
+K00043,A0008,wikipedia_langs,,2026-11-16,none,,no official website in the articles in other languages
+K00044,A0010,wikipedia_langs,,2026-11-16,none,,no official website in the articles in other languages
+K00045,A0013,wikipedia_langs,,2026-11-16,none,,no official website in the articles in other languages
+K00046,A0014,wikipedia_langs,,2026-11-16,none,,no official website in the articles in other languages
+K00047,A0015,wikipedia_langs,,2026-11-16,none,,no official website in the articles in other languages
+K00048,A0018,wikipedia_langs,,2026-11-16,none,,no official website in the articles in other languages
+K00049,A0019,wikipedia_langs,,2026-11-16,none,,no official website in the articles in other languages
+K00050,A0020,wikipedia_langs,,2026-11-16,none,,no official website in the articles in other languages
+K00051,A0021,wikipedia_langs,,2026-11-16,none,,no official website in the articles in other languages
+K00052,A0024,wikipedia_langs,,2026-11-16,none,,no official website in the articles in other languages
+K00053,A0025,wikipedia_langs,,2026-11-16,none,,no official website in the articles in other languages
+K00054,A0026,wikipedia_langs,,2026-11-16,none,,no official website in the articles in other languages
+K00055,A0027,wikipedia_langs,,2026-11-16,none,,no official website in the articles in other languages
+K00056,A0028,wikipedia_langs,,2026-11-16,none,,no official website in the articles in other languages
+K00057,A0029,wikipedia_langs,,2026-11-16,none,,no official website in the articles in other languages
+K00058,A0034,wikipedia_langs,https://de.wikipedia.org/wiki/Thomas_Zwingel_%28Politiker%29,2026-11-16,found,website,site not read (ERR URLError)
+K00059,A0040,wikipedia_langs,https://de.wikipedia.org/wiki/Sabine_Schatz,2026-11-16,found,website,
+K00060,A0041,wikipedia_langs,,2026-11-16,none,,no official website in the articles in other languages
+K00061,A0004,own_site,https://jan-krainer.at/,2026-11-16,found,facebook;instagram,already listed: x
+K00062,A0040,own_site,https://www.sabineschatz.at/,2026-11-16,found,facebook;x,"not added: instagram https://www.instagram.com/beal09/ (share,social-block)"

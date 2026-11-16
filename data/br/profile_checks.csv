@@ -150,3 +150,165 @@ K00148,A0015,own_site,https://www.celsorussomanno.com.br/,2026-11-16,found,faceb
 K00149,A0094,own_site,https://www.ivanvalente.com.br/,2026-11-16,error,,URLError: <urlopen error [Errno 11002] getaddrinfo failed>
 K00150,A0125,own_site,https://elcionebarbalho.com.br/,2026-11-16,error,,URLError: <urlopen error [Errno 11001] getaddrinfo failed>
 K00151,A0240,own_site,https://www.flaviodino.com.br/site/,2026-11-16,none,,
+K00152,A0001,wikipedia_langs,,2026-11-16,none,,no official website in the articles in other languages
+K00153,A0005,wikipedia_langs,,2026-11-16,none,,no official website in the articles in other languages
+K00154,A0007,wikipedia_langs,,2026-11-16,none,,no official website in the articles in other languages
+K00155,A0008,wikipedia_langs,https://pt.wikipedia.org/wiki/Pepe_Vargas,2026-11-16,found,website,
+K00156,A0009,wikipedia_langs,,2026-11-16,none,,no official website in the articles in other languages
+K00157,A0010,wikipedia_langs,,2026-11-16,none,,no official website in the articles in other languages
+K00158,A0011,wikipedia_langs,https://pt.wikipedia.org/wiki/Hissa_Abrah%C3%A3o,2026-11-16,found,website,site not read (ERR 504)
+K00159,A0012,wikipedia_langs,,2026-11-16,none,,no official website in the articles in other languages
+K00160,A0013,wikipedia_langs,,2026-11-16,none,,no official website in the articles in other languages
+K00161,A0017,wikipedia_langs,,2026-11-16,none,,no official website in the articles in other languages
+K00162,A0018,wikipedia_langs,,2026-11-16,none,,no official website in the articles in other languages
+K00163,A0019,wikipedia_langs,,2026-11-16,none,,no official website in the articles in other languages
+K00164,A0022,wikipedia_langs,https://es.wikipedia.org/wiki/Mauricio_Quintella_Lessa,2026-11-16,none,,the page's title and headings do not carry the name: https://www2.camara.leg.br/deputados/pesquisa/layouts_deputados_biografia?pk=74050
+K00165,A0023,wikipedia_langs,https://pt.wikipedia.org/wiki/Rog%C3%A9rio_Rosso,2026-11-16,found,website,
+K00166,A0025,wikipedia_langs,https://pt.wikipedia.org/wiki/Sib%C3%A1_Machado,2026-11-16,none,,the page's title and headings do not carry the name: https://www.camara.leg.br/internet/Deputado/dep_Detalhe.asp?id=5830795
+K00167,A0026,wikipedia_langs,https://pt.wikipedia.org/wiki/Valmir_Assun%C3%A7%C3%A3o,2026-11-16,found,website,site not read (ERR 429)
+K00168,A0027,wikipedia_langs,,2026-11-16,none,,no official website in the articles in other languages
+K00169,A0028,wikipedia_langs,https://pt.wikipedia.org/wiki/Moses_Rodrigues,2026-11-16,found,website,
+K00170,A0029,wikipedia_langs,,2026-11-16,none,,no official website in the articles in other languages
+K00171,A0031,wikipedia_langs,https://pt.wikipedia.org/wiki/Givaldo_Carimb%C3%A3o,2026-11-16,found,website,site not read (ERR 429)
+K00172,A0032,wikipedia_langs,,2026-11-16,none,,no official website in the articles in other languages
+K00173,A0033,wikipedia_langs,,2026-11-16,none,,no official website in the articles in other languages
+K00174,A0034,wikipedia_langs,,2026-11-16,none,,no official website in the articles in other languages
+K00175,A0035,wikipedia_langs,,2026-11-16,none,,no official website in the articles in other languages
+K00176,A0036,wikipedia_langs,https://pt.wikipedia.org/wiki/Danilo_Cabral,2026-11-16,found,website,
+K00177,A0037,wikipedia_langs,,2026-11-16,none,,no official website in the articles in other languages
+K00178,A0039,wikipedia_langs,https://pt.wikipedia.org/wiki/Jo%C3%A3o_Roma,2026-11-16,found,website,
+K00179,A0040,wikipedia_langs,https://es.wikipedia.org/wiki/L%C3%ADdice_da_Mata,2026-11-16,found,website,
+K00180,A0041,wikipedia_langs,https://pt.wikipedia.org/wiki/Ted_Conti,2026-11-16,found,website,
+K00181,A0044,wikipedia_langs,,2026-11-16,none,,no official website in the articles in other languages
+K00182,A0046,wikipedia_langs,,2026-11-16,none,,no official website in the articles in other languages
+K00183,A0047,wikipedia_langs,,2026-11-16,none,,no official website in the articles in other languages
+K00184,A0049,wikipedia_langs,,2026-11-16,none,,no official website in the articles in other languages
+K00185,A0050,wikipedia_langs,,2026-11-16,none,,no official website in the articles in other languages
+K00186,A0051,wikipedia_langs,,2026-11-16,none,,no official website in the articles in other languages
+K00187,A0052,wikipedia_langs,,2026-11-16,none,,no official website in the articles in other languages
+K00188,A0054,wikipedia_langs,,2026-11-16,none,,no official website in the articles in other languages
+K00189,A0055,wikipedia_langs,,2026-11-16,none,,no official website in the articles in other languages
+K00190,A0056,wikipedia_langs,,2026-11-16,none,,no official website in the articles in other languages
+K00191,A0059,wikipedia_langs,,2026-11-16,none,,no official website in the articles in other languages
+K00192,A0060,wikipedia_langs,,2026-11-16,none,,no official website in the articles in other languages
+K00193,A0061,wikipedia_langs,,2026-11-16,none,,no official website in the articles in other languages
+K00194,A0062,wikipedia_langs,,2026-11-16,none,,no official website in the articles in other languages
+K00195,A0064,wikipedia_langs,,2026-11-16,none,,no official website in the articles in other languages
+K00196,A0065,wikipedia_langs,,2026-11-16,none,,no official website in the articles in other languages
+K00197,A0067,wikipedia_langs,,2026-11-16,none,,no official website in the articles in other languages
+K00198,A0068,wikipedia_langs,,2026-11-16,none,,no official website in the articles in other languages
+K00199,A0069,wikipedia_langs,,2026-11-16,none,,no official website in the articles in other languages
+K00200,A0072,wikipedia_langs,,2026-11-16,none,,no official website in the articles in other languages
+K00201,A0073,wikipedia_langs,https://pt.wikipedia.org/wiki/Luizianne_Lins,2026-11-16,found,website,
+K00202,A0074,wikipedia_langs,,2026-11-16,none,,no official website in the articles in other languages
+K00203,A0075,wikipedia_langs,,2026-11-16,none,,no official website in the articles in other languages
+K00204,A0076,wikipedia_langs,,2026-11-16,none,,no official website in the articles in other languages
+K00205,A0077,wikipedia_langs,https://pt.wikipedia.org/wiki/Nilto_Tatto,2026-11-16,found,website,site not read (ERR 429)
+K00206,A0079,wikipedia_langs,https://pt.wikipedia.org/wiki/Paul%C3%A3o_do_PT,2026-11-16,found,website,site not read (ERR 429)
+K00207,A0081,wikipedia_langs,https://pt.wikipedia.org/wiki/Pedro_Uczai,2026-11-16,found,website,site not read (ERR URLError)
+K00208,A0082,wikipedia_langs,,2026-11-16,none,,no official website in the articles in other languages
+K00209,A0083,wikipedia_langs,,2026-11-16,none,,no official website in the articles in other languages
+K00210,A0085,wikipedia_langs,https://pt.wikipedia.org/wiki/Waldenor_Pereira,2026-11-16,found,website,
+K00211,A0086,wikipedia_langs,,2026-11-16,none,,no official website in the articles in other languages
+K00212,A0087,wikipedia_langs,https://pt.wikipedia.org/wiki/Zeca_Dirceu,2026-11-16,found,website,
+K00213,A0089,wikipedia_langs,,2026-11-16,none,,no official website in the articles in other languages
+K00214,A0090,wikipedia_langs,,2026-11-16,none,,no official website in the articles in other languages
+K00215,A0100,wikipedia_langs,,2026-11-16,none,,no official website in the articles in other languages
+K00216,A0102,wikipedia_langs,,2026-11-16,none,,no official website in the articles in other languages
+K00217,A0103,wikipedia_langs,https://es.wikipedia.org/wiki/Alice_Portugal,2026-11-16,found,website,
+K00218,A0105,wikipedia_langs,,2026-11-16,none,,no official website in the articles in other languages
+K00219,A0106,wikipedia_langs,https://pt.wikipedia.org/wiki/Daniel_Almeida,2026-11-16,found,website,site not read (ERR 429)
+K00220,A0107,wikipedia_langs,,2026-11-16,none,,no official website in the articles in other languages
+K00221,A0108,wikipedia_langs,https://pt.wikipedia.org/wiki/Leo_de_Brito,2026-11-16,found,website,site not read (ERR 429)
+K00222,A0110,wikipedia_langs,https://pt.wikipedia.org/wiki/Rubens_Otoni,2026-11-16,found,website,
+K00223,A0113,wikipedia_langs,,2026-11-16,none,,no official website in the articles in other languages
+K00224,A0116,wikipedia_langs,,2026-11-16,none,,no official website in the articles in other languages
+K00225,A0117,wikipedia_langs,https://pt.wikipedia.org/wiki/Vanessa_Grazziotin,2026-11-16,found,website,
+K00226,A0118,wikipedia_langs,https://pt.wikipedia.org/wiki/Paulo_Paim,2026-11-16,found,website,
+K00227,A0122,wikipedia_langs,,2026-11-16,none,,no official website in the articles in other languages
+K00228,A0126,wikipedia_langs,,2026-11-16,none,,no official website in the articles in other languages
+K00229,A0127,wikipedia_langs,,2026-11-16,none,,no official website in the articles in other languages
+K00230,A0129,wikipedia_langs,,2026-11-16,none,,no official website in the articles in other languages
+K00231,A0132,wikipedia_langs,,2026-11-16,none,,no official website in the articles in other languages
+K00232,A0133,wikipedia_langs,,2026-11-16,none,,no official website in the articles in other languages
+K00233,A0135,wikipedia_langs,,2026-11-16,none,,no official website in the articles in other languages
+K00234,A0136,wikipedia_langs,,2026-11-16,none,,no official website in the articles in other languages
+K00235,A0142,wikipedia_langs,,2026-11-16,none,,no official website in the articles in other languages
+K00236,A0143,wikipedia_langs,,2026-11-16,none,,no official website in the articles in other languages
+K00237,A0145,wikipedia_langs,https://pt.wikipedia.org/wiki/T%C3%BAlio_Gad%C3%AAlha,2026-11-16,found,website,
+K00238,A0147,wikipedia_langs,https://pt.wikipedia.org/wiki/Josias_Gomes,2026-11-16,found,website,
+K00239,A0148,wikipedia_langs,,2026-11-16,none,,no official website in the articles in other languages
+K00240,A0149,wikipedia_langs,,2026-11-16,none,,no official website in the articles in other languages
+K00241,A0151,wikipedia_langs,,2026-11-16,none,,no official website in the articles in other languages
+K00242,A0153,wikipedia_langs,,2026-11-16,none,,no official website in the articles in other languages
+K00243,A0154,wikipedia_langs,,2026-11-16,none,,no official website in the articles in other languages
+K00244,A0155,wikipedia_langs,https://pt.wikipedia.org/wiki/F%C3%A9lix_Mendon%C3%A7a_J%C3%BAnior,2026-11-16,found,website,site not read (ERR 429)
+K00245,A0156,wikipedia_langs,,2026-11-16,none,,no official website in the articles in other languages
+K00246,A0157,wikipedia_langs,,2026-11-16,none,,no official website in the articles in other languages
+K00247,A0158,wikipedia_langs,,2026-11-16,none,,no official website in the articles in other languages
+K00248,A0161,wikipedia_langs,,2026-11-16,none,,no official website in the articles in other languages
+K00249,A0162,wikipedia_langs,,2026-11-16,none,,no official website in the articles in other languages
+K00250,A0163,wikipedia_langs,,2026-11-16,none,,no official website in the articles in other languages
+K00251,A0165,wikipedia_langs,,2026-11-16,none,,no official website in the articles in other languages
+K00252,A0166,wikipedia_langs,,2026-11-16,none,,no official website in the articles in other languages
+K00253,A0168,wikipedia_langs,,2026-11-16,none,,no official website in the articles in other languages
+K00254,A0169,wikipedia_langs,,2026-11-16,none,,no official website in the articles in other languages
+K00255,A0170,wikipedia_langs,,2026-11-16,none,,no official website in the articles in other languages
+K00256,A0171,wikipedia_langs,,2026-11-16,none,,no official website in the articles in other languages
+K00257,A0173,wikipedia_langs,,2026-11-16,none,,no official website in the articles in other languages
+K00258,A0175,wikipedia_langs,,2026-11-16,none,,no official website in the articles in other languages
+K00259,A0176,wikipedia_langs,,2026-11-16,none,,no official website in the articles in other languages
+K00260,A0177,wikipedia_langs,,2026-11-16,none,,no official website in the articles in other languages
+K00261,A0178,wikipedia_langs,,2026-11-16,none,,no official website in the articles in other languages
+K00262,A0179,wikipedia_langs,,2026-11-16,none,,no official website in the articles in other languages
+K00263,A0183,wikipedia_langs,,2026-11-16,none,,no official website in the articles in other languages
+K00264,A0184,wikipedia_langs,,2026-11-16,none,,no official website in the articles in other languages
+K00265,A0185,wikipedia_langs,,2026-11-16,none,,no official website in the articles in other languages
+K00266,A0188,wikipedia_langs,https://pt.wikipedia.org/wiki/Alexandre_Lindenmeyer,2026-11-16,found,website,
+K00267,A0190,wikipedia_langs,,2026-11-16,none,,no official website in the articles in other languages
+K00268,A0192,wikipedia_langs,,2026-11-16,none,,no official website in the articles in other languages
+K00269,A0193,wikipedia_langs,,2026-11-16,none,,no official website in the articles in other languages
+K00270,A0194,wikipedia_langs,,2026-11-16,none,,no official website in the articles in other languages
+K00271,A0195,wikipedia_langs,,2026-11-16,none,,no official website in the articles in other languages
+K00272,A0198,wikipedia_langs,https://pt.wikipedia.org/wiki/Jo%C3%A3o_Carlos_Bacelar_Batista,2026-11-16,found,website,
+K00273,A0199,wikipedia_langs,,2026-11-16,none,,no official website in the articles in other languages
+K00274,A0201,wikipedia_langs,,2026-11-16,none,,no official website in the articles in other languages
+K00275,A0202,wikipedia_langs,,2026-11-16,none,,no official website in the articles in other languages
+K00276,A0204,wikipedia_langs,,2026-11-16,none,,no official website in the articles in other languages
+K00277,A0209,wikipedia_langs,https://pt.wikipedia.org/wiki/Luiz_Couto,2026-11-16,found,website,
+K00278,A0210,wikipedia_langs,,2026-11-16,none,,no official website in the articles in other languages
+K00279,A0212,wikipedia_langs,https://de.wikipedia.org/wiki/Nuala_Ahern,2026-11-16,found,website,site not read (ERR URLError)
+K00280,A0223,wikipedia_langs,,2026-11-16,none,,no official website in the articles in other languages
+K00281,A0224,wikipedia_langs,,2026-11-16,none,,no official website in the articles in other languages
+K00282,A0227,wikipedia_langs,,2026-11-16,none,,no official website in the articles in other languages
+K00283,A0250,wikipedia_langs,,2026-11-16,none,,no official website in the articles in other languages
+K00284,A0271,wikipedia_langs,,2026-11-16,none,,no official website in the articles in other languages
+K00285,A0117,own_site,https://www.senadoravanessa.com.br,2026-11-16,error,,URLError: <urlopen error [Errno 11001] getaddrinfo failed>
+K00286,A0108,own_site,https://www2.camara.leg.br/deputados/pesquisa/layouts_deputados_biografia?pk=178825,2026-11-16,blocked,,429 at https://www2.camara.leg.br/deputados/pesquisa/layouts_deputados_biografia?pk=178825
+K00287,A0008,own_site,https://www.pepevargas.com.br/,2026-11-16,found,facebook;instagram;x;youtube,
+K00288,A0103,own_site,https://www.aliceportugal.org.br/site/index.php?option=com_content&task=view&id=12&Itemid=26,2026-11-16,none,,
+K00289,A0039,own_site,https://www.joaoroma.com.br/,2026-11-16,error,,406 at https://www.joaoroma.com.br/
+K00290,A0209,own_site,https://www.luizcouto.com,2026-11-16,blocked,,403 at https://www.luizcouto.com
+K00291,A0036,own_site,https://www.danilocabralpe.com.br,2026-11-16,error,,URLError: <urlopen error [Errno 11001] getaddrinfo failed>
+K00292,A0041,own_site,https://tedconti.com.br/,2026-11-16,found,instagram;facebook,
+K00293,A0118,own_site,https://www.senadorpaim.com.br/,2026-11-16,found,facebook;youtube,"already listed: x,instagram"
+K00294,A0188,own_site,https://www.alexandrelindenmeyer.com.br,2026-11-16,found,x;youtube;facebook;instagram;tiktok,
+K00295,A0081,own_site,https://ww1.alesc.sc.gov.br/deputados/deputados.php?id=4626,2026-11-16,error,,URLError: <urlopen error [Errno 11001] getaddrinfo failed>
+K00296,A0155,own_site,https://www2.camara.leg.br/deputados/pesquisa/layouts_deputados_biografia?pk=160666,2026-11-16,error,,504 at https://www2.camara.leg.br/deputados/pesquisa/layouts_deputados_biografia?pk=160666
+K00297,A0026,own_site,https://www2.camara.leg.br/deputados/pesquisa/layouts_deputados_biografia?pk=160610,2026-11-16,error,,504 at https://www2.camara.leg.br/deputados/pesquisa/layouts_deputados_biografia?pk=160610
+K00298,A0023,own_site,https://www.rossogovernador55.com.br,2026-11-16,error,,URLError: <urlopen error [Errno 11001] getaddrinfo failed>
+K00299,A0085,own_site,https://site.waldenor.com.br/,2026-11-16,error,,"URLError: <urlopen error (""The certificate's CN name does not match the passed value."",)>"
+K00300,A0011,own_site,https://www2.camara.leg.br/deputados/pesquisa/layouts_deputados_biografia?pk=178849,2026-11-16,error,,504 at https://www2.camara.leg.br/deputados/pesquisa/layouts_deputados_biografia?pk=178849
+K00301,A0145,own_site,https://tuliogadelha.com.br/,2026-11-16,blocked,,403 at https://tuliogadelha.com.br/
+K00302,A0198,own_site,https://www.borabacelar.com.br,2026-11-16,error,,URLError: <urlopen error [Errno 11001] getaddrinfo failed>
+K00303,A0077,own_site,https://www.camara.leg.br/Internet/Deputado/dep_Detalhe.asp?id=178986&btnPesquisar.x=11&btnPesquisar.y=13&btnPesquisar=OK,2026-11-16,none,,not added: facebook https://www.facebook.com/camaradeputados (chrome); x https://x.com/camaradeputados (chrome); youtube https://www.youtube.com/channel/UC-ZkSRh-7UEuwXJQ9UMCFJA (chrome); tiktok https://www.tiktok.com/@camaradosdeputados (chrome); instagram https://www.instagram.com/camaradosdeputados/ (chrome; already listed: x
+K00304,A0110,own_site,https://rubensotoni.com.br/,2026-11-16,error,,URLError: <urlopen error [WinError 10060] A connection attempt failed because the connecte
+K00305,A0087,own_site,https://www.zecadirceu.com.br/mapa/,2026-11-16,found,instagram;facebook;youtube,already listed: x
+K00306,A0073,own_site,https://luiziannelins.com/,2026-11-16,found,facebook;x,
+K00307,A0031,own_site,https://www2.camara.leg.br/deputados/pesquisa/layouts_deputados_biografia?pk=74558,2026-11-16,error,,504 at https://www2.camara.leg.br/deputados/pesquisa/layouts_deputados_biografia?pk=74558
+K00308,A0040,own_site,https://www.lidice.com.br,2026-11-16,found,facebook;youtube;instagram,already listed: x
+K00309,A0079,own_site,https://www2.camara.leg.br/deputados/pesquisa/layouts_deputados_biografia?pk=171617,2026-11-16,none,,not added: facebook https://www.facebook.com/camaradeputados (chrome); x https://x.com/camaradeputados (chrome); youtube https://www.youtube.com/channel/UC-ZkSRh-7UEuwXJQ9UMCFJA (chrome); tiktok https://www.tiktok.com/@camaradosdeputados (chrome); instagram https://www.instagram.com/camaradosdeputados/ (chrome
+K00310,A0212,own_site,https://www.nualaahern.com/,2026-11-16,error,,URLError: <urlopen error [Errno 11001] getaddrinfo failed>
+K00311,A0147,own_site,https://www.josiasgomes.com.br,2026-11-16,found,x;facebook;instagram,
+K00312,A0106,own_site,https://www2.camara.leg.br/deputados/pesquisa/layouts_deputados_biografia?pk=74060,2026-11-16,blocked,,429 at https://www2.camara.leg.br/deputados/pesquisa/layouts_deputados_biografia?pk=74060
+K00313,A0028,own_site,https://www.moses.com.br,2026-11-16,error,,URLError: <urlopen error [Errno 11002] getaddrinfo failed>

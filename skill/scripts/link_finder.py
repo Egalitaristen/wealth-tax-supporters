@@ -2,6 +2,7 @@
 """Find the official website of supporters who have none, from sources that name it, and log every try.
 
 Usage: python skill/scripts/link_finder.py wikipedia [--country gb] [--limit 200] [--dry-run]
+       python skill/scripts/link_finder.py sitelinks [--country de] [--limit 200] [--dry-run]
        python skill/scripts/link_finder.py nber      [--country se] [--limit 200] [--dry-run]
 
 Run `profile_scan.py --due` afterwards: it reads the new sites for the accounts they link.
@@ -9,6 +10,7 @@ Run `profile_scan.py --due` afterwards: it reads the new sites for the accounts 
 Sources, each one a page that states the address itself (nothing is guessed from a name):
   wikipedia  the supporter's English Wikipedia article (a profiles.csv row from Wikidata): the address in its "official website" template or
              the website field of its infobox.
+  sitelinks  the same, in the other-language Wikipedia articles Wikidata links for the supporter (up to three, their own language first).
   nber       economists and academics: nber.org/people/<first>_<last> when the page carries the person's name; the personal website and
              the RePEc profile it links, whose "homepage" field is read too.
 
@@ -26,7 +28,7 @@ import wtdb  # noqa: E402
 ROOT = Path(__file__).resolve().parent.parent.parent
 UA = "WealthTaxSupportersBot/1.0 (+https://wealthtaxsupporters.com/about; finds a supporter's own site from pages that name it)"
 SOCIAL = ("facebook.", "twitter.", "x.com", "instagram.", "youtube.", "youtu.be", "tiktok.", "linkedin.", "bsky.", "mastodon", "threads.net", "wikipedia.org",
-          "wikidata.org", "wikimedia.org", "archive.org", "web.archive.org", "google.", "goo.gl", "bit.ly", "t.co", "orcid.org", "ideas.repec.org", "scholar.google")
+          "wikidata.org", "wikimedia.org", "archive.org", "web.archive.org", "google.", "goo.gl", "bit.ly", "t.co", "orcid.org", "ideas.repec.org", "scholar.google", "svt.se/nyheter", "dr.dk/nyheder", "nrk.no/valg")  # and election guides of public broadcasters
 NBER_OWN = ("nber.org", "twitter.com/nberpubs", "linkedin.com/company/national-bureau", "threads.net/@nber", "nbervideos", "did:plc:v7wvtabl4o6u5f426wqncxcu",
             "facebook.com/pages/National-Bureau")
 TYPES_NBER = {"economist", "academic"}
@@ -61,7 +63,7 @@ def clean(url):
         else:
             return ""
     host = urllib.parse.urlparse(url).netloc.lower()
-    if "." not in host or any(s in host for s in SOCIAL) or host.rsplit(".", 2)[-2] == "example":  # example.com is a placeholder
+    if "." not in host or any(s in host for s in SOCIAL) or host.rsplit(".", 2)[-2] == "example" or any(n in url.lower() for n in ("svt.se/nyheter", "dr.dk/nyheder", "nrk.no/valg")):  # example.com is a placeholder
         return ""
     return url.replace("http://", "https://", 1) if url.startswith("http://") else url
 
@@ -72,11 +74,24 @@ def fold(s):
 
 
 WEB_TPL = re.compile(r"\{\{\s*(?:official\s*(?:web)?site|official\s*url|url|website)\s*\|\s*(?:1\s*=\s*)?([^|}\s]+)", re.I)
-INFOBOX = re.compile(r"^\s*\|\s*(?:website|homepage)\s*=\s*([^\n]+)", re.I | re.M)  # not url=: that is the field of a citation
+# The same two shapes in the languages of the registers: the template that names the official site, and the infobox field (not url=, the field of a citation).
+OFFICIAL_TPL = (r"official\s*(?:web)?site|site\s+officiel|site\s+web|offizielle\s+(?:website|webseite)|sitio\s+web(?:\s+oficial)?|offici[eë]le\s+website|"
+                r"sito\s+(?:web\s+)?ufficiale|site\s+oficial|oficjalna\s+strona|webbplats|hjemmeside|internetpr[aä]senz")
+INFOBOX = re.compile(r"^\s*\|\s*(?:website|homepage|webseite|site\s*web|sitio\s*web|sito\s*web|web|site|hjemmeside|webbplats|strona|offizielle\s+website)\s*=\s*([^\n]+)", re.I | re.M)
+
+
+# A bare list item in the links section: "* [http://example.org Offizielle Website]" (de, nl, sv and others write it so, with no template)
+LINK_ITEM = re.compile(r"^\*+\s*\[(https?://[^\s\]]+)\s+([^\]]*)\]", re.I | re.M)
+OFFICIAL_WORD = re.compile(r"offiziell|official|officiel|oficial|ufficiale|offici[eë]l|oficjaln|webbplats|hemsida|hjemmeside|homepage|persönliche|personal|eigene|sitio web|site web|website", re.I)
 
 
 def wikipedia_site(wikitext):
-    for rx in (re.compile(r"\{\{\s*official\s*(?:web)?site\s*\|\s*(?:1\s*=\s*)?([^|}\s]+)", re.I), INFOBOX):
+    for m in LINK_ITEM.finditer(wikitext):
+        if OFFICIAL_WORD.search(m.group(2)):
+            u = clean(m.group(1))
+            if u:
+                return u
+    for rx in (re.compile(r"\{\{\s*(?:" + OFFICIAL_TPL + r")\s*\|\s*(?:1\s*=\s*|url\s*=\s*)?([^|}\s]+)", re.I), INFOBOX):
         for m in rx.finditer(wikitext):
             chunk = m.group(1)
             inner = WEB_TPL.search(chunk)
@@ -109,7 +124,54 @@ def targets(a, kinds):
                 out.append((d.name, r, wiki[r["actor_id"]]))
             elif kinds["name"] == "nber" and r["kind"] == "person" and types & TYPES_NBER:
                 out.append((d.name, r, ""))
+            elif kinds["name"] == "sitelinks" and r.get("wikidata_qid") and r["actor_id"] not in wiki:
+                out.append((d.name, r, ""))
+            elif kinds["name"] == "sitelinks" and r.get("wikidata_qid"):
+                out.append((d.name, r, "en"))  # has an English page that was read; the other languages are tried too
     return out
+
+
+LANGS = ["de", "fr", "es", "it", "nl", "pt", "sv", "pl", "da", "no", "fi", "ca", "cs", "el", "tr", "ru", "uk", "ro", "hu", "id", "ja", "ko", "zh", "ar", "fa", "sk", "hr", "sr", "bg", "sl", "lt", "lv", "et", "ga", "gl", "eu", "he", "hi", "th", "vi", "ms", "sw", "af", "en"]
+
+
+def run_sitelinks(items, a):
+    """Wikipedia articles in every language Wikidata links (the supporter's own language first), up to three per supporter."""
+    by_q = {r["wikidata_qid"]: (cc, r) for cc, r, _ in items}
+    qids = list(by_q)
+    pages = collections.defaultdict(list)  # lang -> [(title, qid)]
+    for i in range(0, len(qids), 50):
+        q = urllib.parse.urlencode({"action": "wbgetentities", "ids": "|".join(qids[i:i + 50]), "props": "sitelinks", "format": "json"})
+        data = http("https://www.wikidata.org/w/api.php?" + q, delay=1.0, as_json=True)
+        if not isinstance(data, dict):
+            continue
+        for qid, ent in data.get("entities", {}).items():
+            sl = ent.get("sitelinks", {})
+            langs = [l for l in LANGS if l + "wiki" in sl and l != "en"]
+            langs += [k[:-4] for k in sl if k.endswith("wiki") and len(k) <= 7 and k[:-4] not in LANGS and k[:-4] not in langs][:2]
+            for l in langs[:3]:
+                pages[l].append((sl[l + "wiki"]["title"], qid))
+    found = {}
+    for lang, lst in pages.items():
+        for i in range(0, len(lst), 20):
+            chunk = lst[i:i + 20]
+            q = urllib.parse.urlencode({"action": "query", "prop": "revisions", "rvprop": "content", "rvslots": "main", "titles": "|".join(t for t, _ in chunk),
+                                        "redirects": 1, "format": "json", "formatversion": 2})
+            data = http(f"https://{lang}.wikipedia.org/w/api.php?" + q, delay=1.0, as_json=True)
+            if not isinstance(data, dict):
+                continue
+            norm = {x["to"]: x["from"] for x in data.get("query", {}).get("redirects", []) + data.get("query", {}).get("normalized", [])}
+            title_q = {t: qid for t, qid in chunk}
+            for pg in data.get("query", {}).get("pages", []):
+                t = pg.get("title")
+                qid = title_q.get(t) or title_q.get(norm.get(t, ""))
+                if not qid or qid in found:
+                    continue
+                text = (pg.get("revisions") or [{}])[0].get("slots", {}).get("main", {}).get("content", "")
+                site = wikipedia_site(text)
+                if site:
+                    found[qid] = (site, f"https://{lang}.wikipedia.org/wiki/" + urllib.parse.quote(t.replace(" ", "_")))
+        print(f"  {lang}: {len(lst)} pages", flush=True)
+    return {(by_q[q][0], by_q[q][1]["actor_id"]): v for q, v in found.items()}
 
 
 def run_wikipedia(items, a):
@@ -172,14 +234,35 @@ def nber_site(r):
     return "", "", "no NBER page"
 
 
+def verified(site, r):
+    """('ok'|'unread'|'no name', note): the site's home page, or its address, carries a word of the supporter's name."""
+    sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
+    import profile_scan as ps
+    person = r["kind"] == "person"
+    toks = ps.name_tokens(r["name"], person)
+    host = re.sub(r"[^a-z0-9]", "", urllib.parse.urlparse(site).netloc.lower() + urllib.parse.urlparse(site).path.lower())
+    if any(t in host for t in toks):
+        return "ok", ""
+    h = http(site, delay=1.0)
+    if not h or h.startswith("ERR"):
+        return "unread", "site not read (" + (h or "404") + ")"
+    # the title, the first headings and the site name decide, not the whole text: a page can mention a name without being that person's site
+    head = " ".join(re.findall(r"<title[^>]*>(.*?)</title>", h, re.S | re.I) + re.findall(r"<h[12][^>]*>(.*?)</h[12]>", h, re.S | re.I)[:4]
+                    + re.findall(r'<meta[^>]+(?:og:title|og:site_name|name="author")[^>]+content="([^"]*)"', h, re.I))
+    text = fold(re.sub(r"<[^>]+>", " ", head))
+    if any(t in text.replace(" ", "") or t in text for t in toks):
+        return "ok", ""
+    return "no name", "the page's title and headings do not carry the name"
+
+
 def main():
     ap = argparse.ArgumentParser(description=__doc__, formatter_class=argparse.RawDescriptionHelpFormatter)
-    ap.add_argument("source", choices=["wikipedia", "nber"])
+    ap.add_argument("source", choices=["wikipedia", "sitelinks", "nber"])
     ap.add_argument("--country")
     ap.add_argument("--limit", type=int, default=0)
     ap.add_argument("--dry-run", action="store_true")
     a = ap.parse_args()
-    kinds = {"name": a.source, "method": "wikipedia" if a.source == "wikipedia" else "directory"}
+    kinds = {"name": a.source, "method": {"wikipedia": "wikipedia", "sitelinks": "wikipedia_langs"}.get(a.source, "directory")}
     items = targets(a, kinds)
     if a.limit:
         items = items[:a.limit]
@@ -191,6 +274,12 @@ def main():
             k = (cc, r["actor_id"])
             site, page = found.get(k, ("", url))[0:2]
             results[k] = (site, page, "" if k in found else "page not read")
+    elif a.source == "sitelinks":
+        found = run_sitelinks(items, a)
+        for cc, r, _ in items:
+            k = (cc, r["actor_id"])
+            site, page = found.get(k, ("", ""))
+            results[k] = (site, page, "" if site else "no official website in the articles in other languages")
     else:
         for n, (cc, r, _) in enumerate(items, 1):
             results[(cc, r["actor_id"])] = nber_site(r)
@@ -206,6 +295,12 @@ def main():
         checks = wtdb.load(d, "profile_checks") if os.path.exists(d + "/profile_checks.csv") else []
         for r in rows:
             site, page, note = results[(cc, r["actor_id"])]
+            if site:
+                state, vnote = verified(site, r)
+                if state == "no name":
+                    note, site = f"{vnote}: {site}", ""
+                elif state == "unread":
+                    note = vnote
             err = note.startswith("ERR") or note == "page not read"
             if site:
                 n_found += 1
@@ -214,7 +309,7 @@ def main():
                 continue
             if site:
                 profiles.append(dict(profile_id=wtdb.next_id(profiles, "profiles"), actor_id=r["actor_id"], platform="website", url=site,
-                                     source=("Wikipedia infobox " if a.source == "wikipedia" else "NBER people page ") + page, checked=today()))
+                                     source=("NBER people page " if a.source == "nber" else "Wikipedia ") + page, checked=today()))
             checks.append(dict(check_id=wtdb.next_id(checks, "profile_checks"), actor_id=r["actor_id"], method=kinds["method"], url=page or "",
                                checked=today(), result="found" if site else "none", found="website" if site else "", note=note[:300]))
         if not a.dry_run:
