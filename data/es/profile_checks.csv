@@ -284,3 +284,6 @@ K00282,A0207,orcid,,2026-11-16,none,,no single ORCID record with the name
 K00283,A0216,orcid,,2026-11-16,none,,several ORCID records with the name
 K00284,A0221,orcid,https://orcid.org/0000-0001-7650-9709,2026-11-16,none,,"record found, no website listed"
 K00285,A0222,orcid,,2026-11-16,none,,several ORCID records with the name
+K00286,A0111,manual_search,,2026-11-16,none,,No own site or official page confirmed.
+K00287,A0222,manual_search,,2026-11-16,none,,No own site or official page confirmed.
+K00288,A0128,manual_search,,2026-11-16,none,,Only news coverage found.

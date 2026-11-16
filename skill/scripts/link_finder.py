@@ -287,13 +287,68 @@ def verified(site, r):
     return "no name", "the page's title and headings do not carry the name"
 
 
+def ingest(a):
+    """Take the results of a search run (by a person or an agent) and write only what passes the same checks as the other sources.
+
+    Each entry: {"country": "gb", "actor_id": "A0001", "url": "https://...", "kind": "website" | "profile", "note": "where it was found"}. An empty url means
+    nothing was found (logged, so it is not searched again for a year). The address must pass clean() (no social, wiki or election-guide pages) and, for a
+    website, the page's title, headings or address must carry the name; a profile page (a parliament's or an institution's page about the person) is
+    kept as an official_page when its text carries the name. Nothing is taken on the word of the entry alone.
+    """
+    entries = json.load(open(a.file, encoding="utf-8"))
+    by_cc = collections.defaultdict(list)
+    for e in entries:
+        by_cc[e["country"]].append(e)
+    stats = collections.Counter()
+    for cc, es in by_cc.items():
+        d = str(ROOT / "data" / cc)
+        actors = {r["actor_id"]: r for r in wtdb.load(d, "actors")}
+        profiles = wtdb.load(d, "profiles")
+        checks = wtdb.load(d, "profile_checks") if os.path.exists(d + "/profile_checks.csv") else []
+        for e in es:
+            r = actors[e["actor_id"]]
+            url, note = clean(e.get("url") or ""), (e.get("note") or "")[:200]
+            result, found = "none", ""
+            if url:
+                if e.get("kind") == "profile":
+                    h = http(url, delay=1.0)
+                    import profile_scan as ps
+                    toks = ps.name_tokens(r["name"], r["kind"] == "person")
+                    ok = bool(h) and not h.startswith("ERR") and any(t in fold(re.sub(r"<[^>]+>", " ", h)).replace(" ", "") for t in toks)
+                    state = "ok" if ok else "no name"
+                else:
+                    state, vnote = verified(url, r)
+                if state == "ok" or (state == "unread" and e.get("kind") != "profile"):
+                    platform = "official_page" if e.get("kind") == "profile" else "website"
+                    if not any(p["actor_id"] == e["actor_id"] and p["url"].rstrip("/").lower() == url.rstrip("/").lower() for p in profiles):
+                        profiles.append(dict(profile_id=wtdb.next_id(profiles, "profiles"), actor_id=e["actor_id"], platform=platform, url=url,
+                                             source="web search: " + note, checked=today()))
+                    result, found = "found", platform
+                    note = ("page not read; " if state == "unread" else "") + note
+                else:
+                    note = f"rejected {url}: {vnote if e.get('kind') != 'profile' else 'the page does not carry the name'}; " + note
+            stats[result] += 1
+            if url:
+                print(f"{cc}:{e['actor_id']} {r['name'][:28]:28} {result:5} {e.get('kind','')[:4]} {url[:70]}" + ("" if result == 'found' else '  <- ' + note[:60]))
+            if not a.dry_run:
+                checks.append(dict(check_id=wtdb.next_id(checks, "profile_checks"), actor_id=e["actor_id"], method="manual_search", url=url or "", checked=today(),
+                                   result=result, found=found, note=note[:300]))
+        if not a.dry_run:
+            wtdb.save(d, "profiles", profiles)
+            wtdb.save(d, "profile_checks", checks)
+    print(dict(stats))
+
+
 def main():
     ap = argparse.ArgumentParser(description=__doc__, formatter_class=argparse.RawDescriptionHelpFormatter)
-    ap.add_argument("source", choices=["wikipedia", "sitelinks", "nber", "orcid"])
+    ap.add_argument("source", choices=["wikipedia", "sitelinks", "nber", "orcid", "ingest"])
     ap.add_argument("--country")
+    ap.add_argument("--file", help="ingest: a JSON list of {country, actor_id, url, kind (website or profile), note}; url empty when nothing was found")
     ap.add_argument("--limit", type=int, default=0)
     ap.add_argument("--dry-run", action="store_true")
     a = ap.parse_args()
+    if a.source == "ingest":
+        return ingest(a)
     kinds = {"name": a.source, "method": {"wikipedia": "wikipedia", "sitelinks": "wikipedia_langs", "orcid": "orcid"}.get(a.source, "directory")}
     items = targets(a, kinds)
     if a.limit:

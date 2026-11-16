@@ -96,3 +96,6 @@ K00094,A0059,orcid,,2026-11-16,none,,several ORCID records with the name
 K00095,A0066,orcid,,2026-11-16,none,,several ORCID records with the name
 K00096,A0068,orcid,https://orcid.org/0009-0008-9968-8314,2026-11-16,none,,"record found, no website listed"
 K00097,A0005,own_site,https://www.parisschoolofeconomics.eu/en/persons/anmol-somanchi/,2026-11-16,error,,418 at https://www.parisschoolofeconomics.eu/en/persons/anmol-somanchi/
+K00098,A0057,manual_search,,2026-11-16,none,,Retired; no own site or staff page found.
+K00099,A0023,manual_search,,2026-11-16,none,,"No own site found; Karwan e Mohabbat site is a campaign, not his."
+K00100,A0074,manual_search,https://loksabhaph.nic.in/members/memberbioprofile.aspx?mpsno=4208&lastls=15,2026-11-16,none,,"rejected https://loksabhaph.nic.in/members/memberbioprofile.aspx?mpsno=4208&lastls=15: the page does not carry the name; Lok Sabha bio profile seen in search: CPI(M), Asansol, 15th Lok Sabha; not opened."

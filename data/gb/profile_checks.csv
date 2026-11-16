@@ -523,3 +523,8 @@ K00521,A0315,orcid,,2026-11-16,none,,several ORCID records with the name
 K00522,A0579,orcid,,2026-11-16,none,,no single ORCID record with the name
 K00523,A0604,orcid,,2026-11-16,none,,no single ORCID record with the name
 K00524,A0301,own_site,https://www.staff.city.ac.uk/andy.denis,2026-11-16,blocked,,403 at https://www.staff.city.ac.uk/andy.denis
+K00525,A0604,manual_search,https://edwebprofiles.ed.ac.uk/profile/dr-selina-stone,2026-11-16,found,official_page,"University of Edinburgh profile opened: Dr Selina Stone, Lecturer in Theology and Ethics."
+K00526,A0369,manual_search,,2026-11-16,none,,Could not confirm person or organisation site.
+K00527,A0294,manual_search,https://martinmguzman.com/,2026-11-16,found,website,"Personal site opened: Martin Guzman, Professor at Columbia SIPA, former Argentine Minister of Economy."
+K00528,A0604,own_site,https://edwebprofiles.ed.ac.uk/profile/dr-selina-stone,2026-11-16,none,,
+K00529,A0294,own_site,https://martinmguzman.com/,2026-11-16,found,x,

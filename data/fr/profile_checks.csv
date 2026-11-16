@@ -908,3 +908,18 @@ K00906,A0130,own_site,https://jeremieiordanoff.fr,2026-11-16,found,youtube;tikto
 K00907,A0125,own_site,https://catherinehervieu.fr,2026-11-16,found,youtube;bluesky,"not added: youtube https://www.youtube.com/channel/UCs9UsZcqehX63fiqQ62esLw (social-block); instagram https://www.instagram.com/catherine.hervieu/ (chrome,social-block); already listed: facebook"
 K00908,A0063,own_site,https://www.bilongo.fr,2026-11-16,none,,
 K00909,A0060,own_site,https://karim-benbrahim.com,2026-11-16,found,facebook;linkedin,"UnicodeEncodeError: 'ascii' codec can't encode character '\xe9' in position 98: ordinal not in range; not added: facebook https://www.facebook.com/profile.php?id=100077601530627 (); already listed: instagram,x"
+K00910,A0445,manual_search,,2026-11-16,none,,No own site or official page confirmed.
+K00911,A0463,manual_search,https://alliance-ecologique-sociale.org,2026-11-16,found,website,"Opened: PJC - Alliance écologique et sociale (AES), union/NGO coalition formed 2020."
+K00912,A0223,manual_search,,2026-11-16,none,,No own site or official page confirmed.
+K00913,A0471,manual_search,https://ccfd-terresolidaire.org,2026-11-16,found,website,Opened; footer gives full CCFD-Terre Solidaire name.
+K00914,A0148,manual_search,https://www.assemblee-nationale.fr/dyn/deputes/PA774958,2026-11-16,found,official_page,"Assemblee nationale page opened: Leseul, Seine-Maritime 5th, Socialistes et apparentes."
+K00915,A0047,manual_search,https://www.assemblee-nationale.fr/dyn/deputes/PA842105,2026-11-16,found,official_page,"Assemblee nationale page opened: Arnault, Vaucluse 1st, LFI-NFP."
+K00916,A0056,manual_search,https://www.assemblee-nationale.fr/dyn/deputes/PA842211,2026-11-16,found,official_page,"Official Assemblee nationale page in search results: Beatrice Bellay, Martinique 3rd constituency, Socialistes et apparentes."
+K00917,A0465,manual_search,https://www.amisdelaterre.org/,2026-11-16,found,website,Homepage opened: Les Amis de la Terre France (Friends of the Earth France).
+K00918,A0513,manual_search,,2026-11-16,none,,
+K00919,A0471,own_site,https://ccfd-terresolidaire.org,2026-11-16,found,facebook;linkedin;youtube;instagram;tiktok;x,
+K00920,A0463,own_site,https://alliance-ecologique-sociale.org,2026-11-16,error,,406 at https://alliance-ecologique-sociale.org
+K00921,A0047,own_site,https://www.assemblee-nationale.fr/dyn/deputes/PA842105,2026-11-16,none,,"not added: x https://x.com/AssembleeNat (chrome,meta,social-block); facebook https://www.facebook.com/AssembleeNationale (chrome,social-block); instagram https://www.instagram.com/assembleenationale/ (chrome,social-block); youtube https://www.youtube.com/@Assemblee-nationale (chrome,social-block); already listed: instagram"
+K00922,A0465,own_site,https://www.amisdelaterre.org/,2026-11-16,found,facebook;bluesky;linkedin;youtube;instagram;x,not added: x https://x.com/amisdelaterre ()
+K00923,A0056,own_site,https://www.assemblee-nationale.fr/dyn/deputes/PA842211,2026-11-16,none,,"not added: x https://x.com/AssembleeNat (chrome,meta,social-block); facebook https://www.facebook.com/AssembleeNationale (chrome,social-block); instagram https://www.instagram.com/assembleenationale/ (chrome,social-block); youtube https://www.youtube.com/@Assemblee-nationale (chrome,social-block)"
+K00924,A0148,own_site,https://www.assemblee-nationale.fr/dyn/deputes/PA774958,2026-11-16,none,,"not added: x https://x.com/AssembleeNat (chrome,meta,social-block); facebook https://www.facebook.com/AssembleeNationale (chrome,social-block); instagram https://www.instagram.com/assembleenationale/ (chrome,social-block); youtube https://www.youtube.com/@Assemblee-nationale (chrome,social-block); facebook htt"

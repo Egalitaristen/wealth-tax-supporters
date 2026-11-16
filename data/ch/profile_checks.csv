@@ -173,3 +173,12 @@ K00171,A0032,parliament_page,Parlament.ch web service (4270),2026-11-16,none,,
 K00172,A0038,parliament_page,Parlament.ch web service (491),2026-11-16,none,,
 K00173,A0059,parliament_page,Parlament.ch web service (4283),2026-11-16,found,website,
 K00174,A0075,parliament_page,Parlament.ch web service (4224),2026-11-16,none,,
+K00175,A0154,manual_search,https://www.vd.ch/gc/depute-e-s/membre-du-grand-conseil/membre/601871,2026-11-16,none,,"rejected https://www.vd.ch/gc/depute-e-s/membre-du-grand-conseil/membre/601871: the page does not carry the name; Vaud Grand Conseil page opened: Denis Corboz, Groupe Socialiste."
+K00176,A0111,manual_search,https://gruene-sg.ch,2026-11-16,found,website,"Opened: Home - GRÜNE Kanton St.Gallen, the cantonal Green party."
+K00177,A0089,manual_search,https://www.gbkz.ch,2026-11-16,found,website,Opened homepage; title 'GBKZ - Gewerkschaftsbund des Kantons Zuerich'.
+K00178,A0146,manual_search,https://www.vd.ch/gc/depute-e-s/membre-du-grand-conseil/membre/90714,2026-11-16,none,,"rejected https://www.vd.ch/gc/depute-e-s/membre-du-grand-conseil/membre/90714: the page does not carry the name; Opened Grand Conseil vaudois page: Yves Paccaud, PS group, Morges."
+K00179,A0166,manual_search,https://www.vd.ch/gc/depute-e-s/membre-du-grand-conseil/membre/648244,2026-11-16,none,,"rejected https://www.vd.ch/gc/depute-e-s/membre-du-grand-conseil/membre/648244: the page does not carry the name; Opened Grand Conseil vaudois page: Pierre Conscience, Ensemble a Gauche et POP, Lausanne."
+K00180,A0089,own_site,https://www.gbkz.ch,2026-11-16,found,facebook;x,"CHECK no added handle carries the name: the site may host several groups, or belong to a parent."
+K00181,A0111,own_site,https://gruene-sg.ch,2026-11-16,found,facebook;x;instagram,
+K00182,A0076,own_site,https://www.weichelt.ch,2026-11-16,found,facebook;instagram;x,
+K00183,A0059,own_site,https://www.franziskaroth.ch,2026-11-16,found,linkedin;facebook;instagram,

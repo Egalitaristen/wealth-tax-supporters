@@ -219,3 +219,7 @@ K00217,A0096,wikipedia_langs,,2026-11-16,none,,no official website in the articl
 K00218,A0234,wikipedia_langs,,2026-11-16,none,,no official website in the articles in other languages
 K00219,A0332,wikipedia_langs,,2026-11-16,none,,no official website in the articles in other languages
 K00220,A0018,own_site,https://www.peterjulian.ca/,2026-11-16,error,,404 at https://www.peterjulian.ca/
+K00221,A0305,manual_search,https://defensedesdroits.com,2026-11-16,found,website,"Opened; RODCD logo, copyright RODCD, Montreal contact."
+K00222,A0027,manual_search,https://www.ourcommons.ca/members/en/marwan-tabbara(88813,2026-11-16,found,official_page,"House of Commons member page opened: Tabbara, Kitchener South-Hespeler, Independent, former MP."
+K00223,A0305,own_site,https://defensedesdroits.com,2026-11-16,found,x,"CHECK no added handle carries the name: the site may host several groups, or belong to a parent.; not added: facebook https://www.facebook.com/RODCD.droits (social-block)"
+K00224,A0027,own_site,https://www.ourcommons.ca/members/en/marwan-tabbara(88813,2026-11-16,none,,"not added: instagram https://www.instagram.com/ourcommonsca/ (chrome,social-block)"
