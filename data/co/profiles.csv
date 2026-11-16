@@ -299,3 +299,81 @@ P00297,A0099,tiktok,https://www.tiktok.com/@cutcolombia,linked from https://www.
 P00298,A0056,facebook,https://www.facebook.com/PartidoComunesCOL,linked from https://partidocomunes.com.co,2026-11-16
 P00299,A0056,x,https://x.com/ComunesCoL,linked from https://partidocomunes.com.co,2026-11-16
 P00300,A0056,instagram,https://www.instagram.com/comunes.col/,linked from https://partidocomunes.com.co,2026-11-16
+P00301,A0001,website,https://ocampojoseantonio.com/,"web search: Found via web search; José Antonio Ocampo official homepage (returned 403 Forbidden to urllib, identity confirmed from search results).",2026-11-16
+P00302,A0006,website,https://kevingomezpaz.com/,web search: Found via web search; verified 200 OK with title 'Kevin Gómez Paz' and campaign/political text ('Pacto por la igualdad') matching Pacto Histórico senator.,2026-11-16
+P00303,A0012,official_page,https://secretariasenado.gov.co/senadores/53-senadores-2022-2026/1492-alexander-lopez-maya,web search: page not readable by our reader (ERR URLError); identity from the title the agent saw: ALEXANDER LOPEZ MAYA; Former personal domain alexanderlopezmaya.com.co is hijacked (redirects to nettruyen.com.co); returned verified Secretaría del Senado profile page.,2026-11-16
+P00304,A0016,website,https://angelicalozano.co/,web search: Found via web search; verified 200 OK personal/campaign website for Colombian Senator Angélica Lozano.,2026-11-16
+P00305,A0023,website,https://www.jorgerobledo.com/,web search: Found via web search; verified 200 OK official personal website for former Senator Jorge Enrique Robledo.,2026-11-16
+P00306,A0024,official_page,https://www.secretariasenado.gov.co/senadores/53-senadores-2022-2026/1507-aida-yolanda-avella-esquivel,web search: page not readable by our reader (ERR URLError); identity from the title the agent saw: AIDA YOLANDA AVELLA ESQUIVEL; No personal website found; returned verified Secretaría del Senado official profile page.,2026-11-16
+P00307,A0025,official_page,https://www.huila.gov.co/publicaciones/543/gobernador-del-departamento/,web search: No active personal website (rodrigovillalba.co/com inactive); returned verified Gobernación del Huila official profile page for Rodrigo Villalba Mosquera.,2026-11-16
+P00308,A0026,official_page,https://www.camara.gov.co/representantes/miguel-amin-escaf/,web search: No personal website found; returned verified Cámara de Representantes official profile page for Miguel Amín Escaf.,2026-11-16
+P00309,A0031,website,https://leonsenador.com/,web search: Found via web search; verified 200 OK official personal website for León Fredy Muñoz.,2026-11-16
+P00310,A0032,official_page,https://www.camara.gov.co/representantes/jairo-reinaldo-cala-suarez/,web search: No personal website found; returned verified Cámara de Representantes official profile page.,2026-11-16
+P00311,A0033,official_page,https://www.camara.gov.co/representantes/carlos-alberto-carreno-marin/,web search: No personal website found; returned verified Cámara de Representantes official profile page.,2026-11-16
+P00312,A0036,official_page,https://www.camara.gov.co/representantes/abel-david-jaramillo-largo/,web search: No personal website found; returned verified Cámara de Representantes official profile page.,2026-11-16
+P00313,A0037,official_page,https://www.secretariasenado.gov.co/53-senadores-2018-2022/1447-jaime-enrique-duran-barrera,web search: page not readable by our reader (ERR URLError); identity from the title the agent saw: JAIME ENRIQUE DURAN BARRERA; No personal website found; returned verified Secretaría del Senado official profile page.,2026-11-16
+P00314,A0038,official_page,https://www.camara.gov.co/representantes/angela-maria-robledo-gomez/,web search: No active personal website found; returned verified Cámara de Representantes official profile page.,2026-11-16
+P00315,A0040,official_page,https://www.camara.gov.co/representantes/cesar-augusto-ortiz-zorro/,web search: No personal website found; returned verified Cámara de Representantes official profile page.,2026-11-16
+P00316,A0048,official_page,https://www.camara.gov.co/representantes/fabian-diaz-plata/,web search: Former site fabian-diaz.com failed DNS resolution; returned verified Cámara de Representantes official profile page matching 2020 Representative role.,2026-11-16
+P00317,A0049,official_page,https://www.camara.gov.co/representantes/omar-de-jesus-restrepo-correa/,"web search: Official Chamber of Representatives member profile for Omar Restrepo (Comunes, 2018-2022).",2026-11-16
+P00318,A0051,website,https://www.juanitaenelcongreso.com/,web search: Personal congressional/campaign website for Juanita Goebertus.,2026-11-16
+P00319,A0053,official_page,https://www.secretariasenado.gov.co/53-senadores-2022-2026/1685-cesar-augusto-pachon-achury,web search: page not readable by our reader (ERR URLError); identity from the title the agent saw: CESAR AUGUSTO PACHON ACHURY; Official Senate directory profile page on secretariasenado.gov.co for César Augusto Pachón Achury (MAIS/Pacto Histórico).,2026-11-16
+P00320,A0055,official_page,https://www.camara.gov.co/representantes/jorge-alberto-gomez-gallego/,web search: Official Chamber of Representatives member profile for Jorge Alberto Gómez Gallego (Polo Democrático); former jorgegomezrepresentante.org does not resolve.,2026-11-16
+P00321,A0063,official_page,https://www.camara.gov.co/representantes/wilmer-leal-perez/,web search: Official Chamber of Representatives member profile for Wilmer Leal Pérez (Alianza Verde).,2026-11-16
+P00322,A0065,official_page,https://www.camara.gov.co/representantes/edwin-fabian-orduz-diaz/,web search: Official Chamber of Representatives member profile for Edwin Fabián Orduz Díaz (Alianza Verde).,2026-11-16
+P00323,A0068,website,https://ivandarioagudeloz.wordpress.com/,"web search: Personal WordPress website for Iván Darío Agudelo Zapata (Senator, Liberal Party).",2026-11-16
+P00324,A0069,official_page,https://concejodebogota.gov.co/perfil/concejo/2016-04-04/172012.php,web search: Official Concejo de Bogotá profile page confirming Horacio José Serpa (former campaign domains horaciojoseserpa.co/.com do not resolve).,2026-11-16
+P00325,A0071,official_page,https://www.secretariasenado.gov.co/53-senadores-2022-2026/1449-laura-ester-fortich-sanchez,web search: page not readable by our reader (ERR URLError); identity from the title the agent saw: LAURA ESTER FORTICH SANCHEZ; Official Senate directory profile page on secretariasenado.gov.co for Laura Ester Fortich Sánchez (Liberal Party).,2026-11-16
+P00326,A0072,official_page,https://www.secretariasenado.gov.co/53-senadores-2022-2026/1461-jose-alfredo-gnecco-zuleta,web search: page not readable by our reader (ERR URLError); identity from the title the agent saw: JOSE ALFREDO GNECCO ZULETA; Official Senate directory profile page on secretariasenado.gov.co for José Alfredo Gnecco Zuleta (Partido de la U).,2026-11-16
+P00327,A0073,official_page,https://www.secretariasenado.gov.co/53-senadores-2022-2026/1453-mauricio-gomez-amin,web search: page not readable by our reader (ERR URLError); identity from the title the agent saw: MAURICIO GOMEZ AMIN; Official Senate directory profile page on secretariasenado.gov.co for Mauricio Gómez Amín (Liberal Party).,2026-11-16
+P00328,A0074,official_page,https://www.camara.gov.co/representantes/berner-leon-zambrano-erazo/,web search: Official Chamber of Representatives member profile for Bérner León Zambrano Erazo (Partido de la U).,2026-11-16
+P00329,A0077,official_page,https://www.secretariasenado.gov.co/53-senadores-2022-2026/1452-mario-alberto-castano-perez,web search: page not readable by our reader (ERR URLError); identity from the title the agent saw: MARIO ALBERTO CASTAÑO PEREZ; Official Senate directory profile page on secretariasenado.gov.co for Mario Alberto Castaño Pérez (Liberal Party).,2026-11-16
+P00330,A0078,official_page,https://www.secretariasenado.gov.co/53-senadores-2022-2026/1464-john-moises-besaile-fayad,web search: page not readable by our reader (ERR URLError); identity from the title the agent saw: JOHN MOISES BESAILE FAYAD; Official Senate directory profile page on secretariasenado.gov.co for John Moisés Besaile Fayad (Partido de la U).,2026-11-16
+P00331,A0080,official_page,https://www.camara.gov.co/representantes/julian-bedoya-pulgarin/,web search: Official Chamber of Representatives member profile for Julián Bedoya Pulgarín (Liberal Party).,2026-11-16
+P00332,A0082,website,https://mafecarrascal.com/,web search: Official personal/congressional website for María Fernanda (Mafe) Carrascal (Pacto Histórico).,2026-11-16
+P00333,A0080,x,https://x.com/JulianBedoyaL17,linked from https://www.camara.gov.co/representantes/julian-bedoya-pulgarin/,2026-11-16
+P00334,A0080,instagram,https://www.instagram.com/julianbedoyap/,linked from https://www.camara.gov.co/representantes/julian-bedoya-pulgarin/,2026-11-16
+P00335,A0080,facebook,https://www.facebook.com/JulianBedoyaP,linked from https://www.camara.gov.co/representantes/julian-bedoya-pulgarin/,2026-11-16
+P00336,A0049,instagram,https://www.instagram.com/omar_comunes/,linked from https://www.camara.gov.co/representantes/omar-de-jesus-restrepo-correa/,2026-11-16
+P00337,A0049,facebook,https://www.facebook.com/omar.comunes,linked from https://www.camara.gov.co/representantes/omar-de-jesus-restrepo-correa/,2026-11-16
+P00338,A0031,instagram,https://www.instagram.com/leonfredymunozl/,linked from https://leonsenador.com/,2026-11-16
+P00339,A0031,facebook,https://www.facebook.com/leofredymunoz,linked from https://leonsenador.com/,2026-11-16
+P00340,A0031,x,https://x.com/LeonFredyM,linked from https://leonsenador.com/,2026-11-16
+P00341,A0031,tiktok,https://www.tiktok.com/@leonfredym,linked from https://leonsenador.com/,2026-11-16
+P00342,A0031,youtube,https://www.youtube.com/@leonsenador,linked from https://leonsenador.com/,2026-11-16
+P00343,A0048,x,https://x.com/fabiandiazplata,linked from https://www.camara.gov.co/representantes/fabian-diaz-plata/,2026-11-16
+P00344,A0048,instagram,https://www.instagram.com/fabiandiaz.plata/,linked from https://www.camara.gov.co/representantes/fabian-diaz-plata/,2026-11-16
+P00345,A0048,tiktok,https://www.tiktok.com/@fabiandiazplata,linked from https://www.camara.gov.co/representantes/fabian-diaz-plata/,2026-11-16
+P00346,A0051,facebook,https://www.facebook.com/JuanitaGoebertus,linked from https://www.juanitaenelcongreso.com/,2026-11-16
+P00347,A0051,x,https://x.com/juanitagoe,linked from https://www.juanitaenelcongreso.com/,2026-11-16
+P00348,A0051,instagram,https://www.instagram.com/juanitagoebertus/,linked from https://www.juanitaenelcongreso.com/,2026-11-16
+P00349,A0051,linkedin,https://www.linkedin.com/in/juanitaenelcongreso,linked from https://www.juanitaenelcongreso.com/,2026-11-16
+P00350,A0038,x,https://x.com/angelamrobledo,linked from https://www.camara.gov.co/representantes/angela-maria-robledo-gomez/,2026-11-16
+P00351,A0038,instagram,https://www.instagram.com/angelamariarobledo_/,linked from https://www.camara.gov.co/representantes/angela-maria-robledo-gomez/,2026-11-16
+P00352,A0038,facebook,https://www.facebook.com/angelamrobledo,linked from https://www.camara.gov.co/representantes/angela-maria-robledo-gomez/,2026-11-16
+P00353,A0016,facebook,https://www.facebook.com/angelicalozanocorrea,linked from https://angelicalozano.co/,2026-11-16
+P00354,A0016,x,https://x.com/AngelicaLozanoC,linked from https://angelicalozano.co/,2026-11-16
+P00355,A0016,instagram,https://www.instagram.com/angelicalozano10/,linked from https://angelicalozano.co/,2026-11-16
+P00356,A0016,tiktok,https://www.tiktok.com/@angelicalozanocorrea,linked from https://angelicalozano.co/,2026-11-16
+P00357,A0016,bluesky,https://bsky.app/profile/angelicalozanoc.bsky.social,linked from https://angelicalozano.co/,2026-11-16
+P00358,A0016,youtube,https://www.youtube.com/@AngelicaLozanoC,linked from https://angelicalozano.co/,2026-11-16
+P00359,A0074,x,https://x.com/BernerZambrano,linked from https://www.camara.gov.co/representantes/berner-leon-zambrano-erazo/,2026-11-16
+P00360,A0074,instagram,https://www.instagram.com/bernersenadoru99/,linked from https://www.camara.gov.co/representantes/berner-leon-zambrano-erazo/,2026-11-16
+P00361,A0074,facebook,https://www.facebook.com/bernersenador,linked from https://www.camara.gov.co/representantes/berner-leon-zambrano-erazo/,2026-11-16
+P00362,A0065,x,https://x.com/EdwinFabianOrd1,linked from https://www.camara.gov.co/representantes/edwin-fabian-orduz-diaz/,2026-11-16
+P00363,A0065,instagram,https://www.instagram.com/fabian_orduzd/,linked from https://www.camara.gov.co/representantes/edwin-fabian-orduz-diaz/,2026-11-16
+P00364,A0065,facebook,https://www.facebook.com/FabianOrduzD,linked from https://www.camara.gov.co/representantes/edwin-fabian-orduz-diaz/,2026-11-16
+P00365,A0055,x,https://x.com/JorgeGomezG_,linked from https://www.camara.gov.co/representantes/jorge-alberto-gomez-gallego/,2026-11-16
+P00366,A0055,instagram,https://www.instagram.com/jorge.gomezgallego/,linked from https://www.camara.gov.co/representantes/jorge-alberto-gomez-gallego/,2026-11-16
+P00367,A0055,facebook,https://www.facebook.com/JorgeGomezGalleg,linked from https://www.camara.gov.co/representantes/jorge-alberto-gomez-gallego/,2026-11-16
+P00368,A0063,x,https://x.com/Wilmerlealp,linked from https://www.camara.gov.co/representantes/wilmer-leal-perez/,2026-11-16
+P00369,A0040,instagram,https://www.instagram.com/cesarortizzorro/,linked from https://www.camara.gov.co/representantes/cesar-augusto-ortiz-zorro/,2026-11-16
+P00370,A0040,facebook,https://www.facebook.com/cesar.ortiz.zorro,linked from https://www.camara.gov.co/representantes/cesar-augusto-ortiz-zorro/,2026-11-16
+P00371,A0040,tiktok,https://www.tiktok.com/@cesar.zorro,linked from https://www.camara.gov.co/representantes/cesar-augusto-ortiz-zorro/,2026-11-16
+P00372,A0006,instagram,https://www.instagram.com/ckevingomez/,linked from https://kevingomezpaz.com/,2026-11-16
+P00373,A0006,facebook,https://www.facebook.com/kevin.g.paz.1,linked from https://kevingomezpaz.com/,2026-11-16
+P00374,A0006,youtube,https://www.youtube.com/@ckevingomez,linked from https://kevingomezpaz.com/,2026-11-16
+P00375,A0036,facebook,https://www.facebook.com/abeldavidjaramillolargo,linked from https://www.camara.gov.co/representantes/abel-david-jaramillo-largo/,2026-11-16
+P00376,A0068,x,https://x.com/IvanAgudeloZ,linked from https://ivandarioagudeloz.wordpress.com/,2026-11-16
+P00377,A0068,facebook,https://www.facebook.com/IvanDarioAgudeloZapata,linked from https://ivandarioagudeloz.wordpress.com/,2026-11-16
+P00378,A0068,instagram,https://www.instagram.com/ivandarioagudelozapata/,linked from https://ivandarioagudeloz.wordpress.com/,2026-11-16
