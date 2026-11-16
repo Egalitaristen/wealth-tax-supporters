@@ -3,6 +3,8 @@
 
 Usage: python skill/scripts/link_finder.py wikipedia [--country gb] [--limit 200] [--dry-run]
        python skill/scripts/link_finder.py sitelinks [--country de] [--limit 200] [--dry-run]
+       python skill/scripts/link_finder.py todo --out DIR [--size 30] [--limit N]   batches of supporters still without a website, for a search run
+       python skill/scripts/link_finder.py ingest --file RESULTS_OR_FOLDER           takes the answers of a search run and checks them
        python skill/scripts/link_finder.py nber      [--country se] [--limit 200] [--dry-run]
 
 Run `profile_scan.py --due` afterwards: it reads the new sites for the accounts they link.
@@ -125,6 +127,8 @@ def targets(a, kinds):
             if kinds["name"] == "wikipedia" and r["actor_id"] in wiki:
                 out.append((d.name, r, wiki[r["actor_id"]]))
             elif kinds["name"] in ("nber", "orcid") and r["kind"] == "person" and types & TYPES_NBER:
+                out.append((d.name, r, ""))
+            elif kinds["name"] == "todo":
                 out.append((d.name, r, ""))
             elif kinds["name"] == "sitelinks" and r.get("wikidata_qid") and r["actor_id"] not in wiki:
                 out.append((d.name, r, ""))
@@ -302,6 +306,56 @@ def verified(site, r):
     return "no name", "the page's title and headings do not carry the name"
 
 
+def todo(a):
+    """Write batches of supporters that still have no website, for a search run (by a person or an agent): --out DIR [--size 30] [--limit N] [--country cc].
+
+    Leaves out supporters that have a website or official page, whose only type is wealthy_individual, or that were searched (method manual_search) within the
+    last year, so a repeat run never repeats work. Each batch file is a JSON list of {country, country_name, actor_id, name, kind, type, role, affiliation,
+    party}; the answers go to `ingest`."""
+    kinds = {"name": "todo", "method": "manual_search"}
+    items = targets(a, kinds)
+    items.sort(key=lambda x: (x[0], x[1]["actor_id"]))
+    if a.limit:
+        items = items[:a.limit]
+    names = {}
+    out = Path(a.out)
+    out.mkdir(parents=True, exist_ok=True)
+    rows = []
+    for cc, r, _ in items:
+        if cc not in names:
+            names[cc] = json.load(open(ROOT / "data" / cc / "meta.json", encoding="utf-8")).get("name", cc)
+        rows.append(dict(country=cc, country_name=names[cc], actor_id=r["actor_id"], name=r["name"], kind=r["kind"], type=r["actor_type"], role=r["role"][:140],
+                         affiliation=r.get("affiliation", "")[:70], party=r.get("party", "")[:50]))
+    for i in range(0, len(rows), a.size):
+        json.dump(rows[i:i + a.size], open(out / f"batch{i // a.size + 1:03d}.json", "w", encoding="utf-8"), ensure_ascii=False, indent=1)
+    print(f"{len(rows)} supporters in {(len(rows) + a.size - 1) // a.size} batches of up to {a.size} in {out}")
+
+
+def load_entries(path):
+    """The entries of a results file, or of every .json/.txt/.md file in a folder. A reply wrapped in a ``` fence or a sentence is fine: the JSON list is found
+    in the text. The first answer for a supporter counts."""
+    p = Path(path)
+    files = sorted(f for f in p.iterdir() if f.suffix.lower() in (".json", ".txt", ".md")) if p.is_dir() else [p]
+    seen, out = set(), []
+    for f in files:
+        text = f.read_text(encoding="utf-8", errors="replace")
+        m = re.search(r"\[\s*\{.*\}\s*\]", text, re.S)
+        if not m:
+            print(f"skipped {f.name}: no JSON list found")
+            continue
+        try:
+            items = json.loads(m.group(0))
+        except Exception as e:
+            print(f"skipped {f.name}: {e}")
+            continue
+        for e in items:
+            k = (str(e.get("country", "")).strip(), str(e.get("actor_id", "")).strip())
+            if k[0] and k[1] and k not in seen:
+                seen.add(k)
+                out.append(dict(e, country=k[0], actor_id=k[1]))
+    return out
+
+
 def ingest(a):
     """Take the results of a search run (by a person or an agent) and write only what passes the same checks as the other sources.
 
@@ -310,7 +364,7 @@ def ingest(a):
     website, the page's title, headings or address must carry the name; a profile page (a parliament's or an institution's page about the person) is
     kept as an official_page when its text carries the name. Nothing is taken on the word of the entry alone.
     """
-    entries = json.load(open(a.file, encoding="utf-8"))
+    entries = load_entries(a.file)
     by_cc = collections.defaultdict(list)
     for e in entries:
         by_cc[e["country"]].append(e)
@@ -321,6 +375,12 @@ def ingest(a):
         profiles = wtdb.load(d, "profiles")
         checks = wtdb.load(d, "profile_checks") if os.path.exists(d + "/profile_checks.csv") else []
         for e in es:
+            if e["actor_id"] not in actors:
+                print(f"skipped {cc}:{e['actor_id']}: no such supporter")
+                continue
+            if any(p["actor_id"] == e["actor_id"] and p["platform"] in ("website", "official_page") for p in profiles) and e.get("url"):
+                stats["already has a site"] += 1
+                continue
             r = actors[e["actor_id"]]
             url, note = clean(e.get("url") or ""), (e.get("note") or "")[:200]
             result, found = "none", ""
@@ -364,14 +424,18 @@ def ingest(a):
 
 def main():
     ap = argparse.ArgumentParser(description=__doc__, formatter_class=argparse.RawDescriptionHelpFormatter)
-    ap.add_argument("source", choices=["wikipedia", "sitelinks", "nber", "orcid", "ingest"])
+    ap.add_argument("source", choices=["wikipedia", "sitelinks", "nber", "orcid", "ingest", "todo"])
     ap.add_argument("--country")
-    ap.add_argument("--file", help="ingest: a JSON list of {country, actor_id, url, kind (website or profile), note}; url empty when nothing was found")
+    ap.add_argument("--out", help="todo: the folder for the batch files")
+    ap.add_argument("--size", type=int, default=30, help="todo: supporters per batch file (default 30)")
+    ap.add_argument("--file", help="ingest: a results file, or a folder of them, with a JSON list of {country, actor_id, url, kind (website or profile), title, note}; url empty when nothing was found")
     ap.add_argument("--limit", type=int, default=0)
     ap.add_argument("--dry-run", action="store_true")
     a = ap.parse_args()
     if a.source == "ingest":
         return ingest(a)
+    if a.source == "todo":
+        return todo(a)
     kinds = {"name": a.source, "method": {"wikipedia": "wikipedia", "sitelinks": "wikipedia_langs", "orcid": "orcid"}.get(a.source, "directory")}
     items = targets(a, kinds)
     if a.limit:
