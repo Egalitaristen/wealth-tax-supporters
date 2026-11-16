@@ -146,3 +146,48 @@ K00144,A0046,own_site,https://missionpossible.org.pl/,2026-11-15,none,,"not adde
 K00145,A0170,own_site,https://radon.nauka.gov.pl/dane/profil/368104C6D0B0DF3450E0B6BDEFEEAB4B56A72E07,2026-11-15,none,,
 K00146,A0287,own_site,https://fundacjagloballab.wordpress.com/nasz-zespol/,2026-11-15,none,,not added: facebook https://www.facebook.com/pages/GlobalLab/1503647903198030 ()
 K00147,A0203,own_site,https://radon.nauka.gov.pl/dane/profil/386DF3F20F5023317AA004253622F83CAF0B82C6,2026-11-15,none,,
+K00148,A0265,own_site,https://radon.nauka.gov.pl/dane/profil/1BBBA6DC1ECDEF489147CC85B08E5A9D81296C42,2026-11-16,none,,
+K00149,A0251,own_site,https://www.bip.krakow.pl/?dok_id=191719,2026-11-16,none,,
+K00150,A0217,own_site,https://radon.nauka.gov.pl/dane/profil/4DD239C5DE9EEB1CECAB97DA3811301A60A7F84B,2026-11-16,none,,
+K00151,A0289,own_site,https://radon.nauka.gov.pl/dane/profil/BC6B8BC1022A9CCA71227D9B21E121A9E4A16983,2026-11-16,none,,not added: facebook https://www.facebook.com/PhDSchoolUJK ()
+K00152,A0226,own_site,https://nowyobywatel.pl/author/bartlomiejkozek/,2026-11-16,none,,"not added: facebook https://www.facebook.com/obywatel (chrome,social-block); x https://x.com/NowyObywatel (chrome,social-block); youtube https://www.youtube.com/user/NowyObywatel (chrome,social-block)"
+K00153,A0139,own_site,https://radon.nauka.gov.pl/dane/profil/D5EF5C4CC3199E1258837DF25B9BA3A0D52F79E2,2026-11-16,none,,
+K00154,A0037,own_site,https://eko-unia.org.pl/,2026-11-16,found,x,not added: facebook https://www.facebook.com/EkoUnia (social-block); facebook https://www.facebook.com/sprzatamyzeswiadomoscia (social-block); facebook https://www.facebook.com/pages/Stowarzyszenie-Ekologiczne-Eko-Unia/140708165940689 (social-block)
+K00155,A0234,own_site,https://www.miesiecznik.znak.com.pl/autor/filip-springer/,2026-11-16,none,,"not added: facebook https://www.facebook.com/miesiecznik.znak (chrome,social-block); instagram https://www.instagram.com/miesiecznik_znak/ (chrome,social-block); linkedin https://www.linkedin.com/company/miesiecznik-znak (chrome,social-block)"
+K00156,A0149,own_site,https://radon.nauka.gov.pl/dane/profil/6760B5E63DB2CF790A346619D9EA4148C5AD6C75,2026-11-16,none,,"not added: facebook https://www.facebook.com/InstytutSocjologiiUWr (chrome,social-block)"
+K00157,A0214,own_site,https://radon.nauka.gov.pl/dane/profil/90A2FE177D47A1719B38CAC01131B0DBE27D4370,2026-11-16,none,,
+K00158,A0143,own_site,https://radon.nauka.gov.pl/dane/profil/B41B023273BACD282133B9B5C75EA380F512EBBA,2026-11-16,none,,
+K00159,A0237,own_site,https://civitas.edu.pl/pl/uczelnia/kalendarium/biografia-i-kariera-dziennikarza-areta-szpura,2026-11-16,none,,"not added: facebook https://www.facebook.com/uniwersytetcivitas (chrome,social-block); linkedin https://www.linkedin.com/school/uniwersytet-civitas (chrome,social-block); instagram https://www.instagram.com/uniwersytet_civitas/ (chrome,social-block); youtube https://www.youtube.com/@UniwersytetCivitas (chrome,"
+K00160,A0273,own_site,https://climate-change-emotions.org/en/michalina-marczak-msc/,2026-11-16,error,,404 at https://climate-change-emotions.org/en/michalina-marczak-msc/
+K00161,A0020,own_site,https://www.wemove.eu/,2026-11-16,found,bluesky;facebook;youtube;linkedin;instagram;x,
+K00162,A0247,own_site,https://agriculture.ec.europa.eu/system/files/2020-12/bio-speakers-agri-outlook-conf-2020_en_0.pdf,2026-11-16,blocked,,429 at https://agriculture.ec.europa.eu/system/files/2020-12/bio-speakers-agri-outlook-conf-2020_en_0.pdf
+K00163,A0174,own_site,https://radon.nauka.gov.pl/dane/profil/5C84288B8A270A7644E3DC9D71B770694220EC59,2026-11-16,none,,
+K00164,A0061,own_site,https://hannaszymborska.wixsite.com/main,2026-11-16,none,,
+K00165,A0075,own_site,https://radon.nauka.gov.pl/dane/profil/E28530976023F58C925A978E6F36F9CCE7782A24,2026-11-16,none,,
+K00166,A0231,own_site,https://udskior32.kombatanci.gov.pl/index.php/pl/urząd/zastępca-szefa-urzędu,2026-11-16,error,,UnicodeEncodeError: 'ascii' codec can't encode character '\u0105' in position 21: ordinal not in ran
+K00167,A0053,own_site,https://radon.nauka.gov.pl/dane/profil/5C9DF1B601AF383003DB7B9CFDEF7138885C3BF1,2026-11-16,none,,
+K00168,A0097,own_site,https://radon.nauka.gov.pl/dane/profil/5FE9980594669FAC9F9683F9B2E8C9A9494B4F55,2026-11-16,none,,
+K00169,A0044,own_site,https://radon.nauka.gov.pl/dane/profil/7334623142B5A47C5F41972B87CB378DD3098CA5,2026-11-16,none,,
+K00170,A0008,own_site,https://lewicarazem2019.pl/kandydaci/bio/piotr-ikonowicz,2026-11-16,none,,
+K00171,A0238,own_site,"https://www.polskieradio.pl/Ludzie/3286457,Adriana-Prodeus",2026-11-16,none,,"not added: facebook https://www.facebook.com/czworka (social-block); facebook https://www.facebook.com/polskieradioplofficial (chrome,social-block); instagram https://www.instagram.com/czworka_polskieradio/ (social-block); instagram https://www.instagram.com/polskieradio/ (chrome,social-block); youtube https:/"
+K00172,A0118,own_site,https://orcid.org/0000-0002-9868-1275,2026-11-16,none,,
+K00173,A0191,own_site,https://radon.nauka.gov.pl/dane/profil/5E024095587BC533CC4D234C9E68D4D03E21C57B,2026-11-16,none,,
+K00174,A0048,own_site,https://radon.nauka.gov.pl/dane/profil/D37250515CF580AE5CF19C813CFA64BC642BE27C,2026-11-16,none,,
+K00175,A0153,own_site,https://radon.nauka.gov.pl/dane/profil/BADD2865AB329B80BA04F81AD2D0D9C6858A58A5,2026-11-16,none,,
+K00176,A0129,own_site,https://zielonewiadomosci.pl/autor/slodczyk-krystyna/,2026-11-16,none,,"not added: facebook https://www.facebook.com/zielone.wiadomosci (chrome,social-block); instagram https://www.instagram.com/ziel.wiad/ (chrome,social-block); youtube https://www.youtube.com/@zielonewiadomosci (chrome,social-block); youtube https://www.youtube.com/channel/UCMR3bZo-YdorycjqhuXnUzQ (); x https://x"
+K00177,A0145,own_site,https://orcid.org/0000-0003-4078-4981,2026-11-16,none,,
+K00178,A0055,own_site,https://orcid.org/0009-0004-9421-927X,2026-11-16,none,,
+K00179,A0220,own_site,https://nikodemszewczyk.com/,2026-11-16,found,x;bluesky,
+K00180,A0239,own_site,https://konfederacjapracy.org.pl/kontakt/,2026-11-16,none,,"404 at https://konfederacjapracy.org.pl/kontakt/mailtodorota.raczkowska@bgk.pl; not added: facebook https://www.facebook.com/opzzkp (chrome,social-block); instagram https://www.instagram.com/konfederacjapracy/ (chrome,social-block)"
+K00181,A0122,own_site,https://radon.nauka.gov.pl/dane/profil/1EE9440C1662A4E44B14F408CC68152175B0E2D2,2026-11-16,none,,
+K00182,A0031,own_site,https://radon.nauka.gov.pl/dane/profil/5643535D7A54DBACC8C422484FB2ABFC821E3B08,2026-11-16,none,,
+K00183,A0092,own_site,https://radon.nauka.gov.pl/dane/profil/F74EEAB297A1A510C321839882C60A92A69A7136,2026-11-16,none,,
+K00184,A0024,own_site,https://www.robertbiedron.pl/,2026-11-16,found,tiktok,"not added: youtube https://www.youtube.com/@RobertBiedron (chrome,social-block); already listed: x,facebook,instagram"
+K00185,A0007,own_site,https://radon.nauka.gov.pl/dane/profil/C19F525BF2DDEA5A438FA0ABD798AD78EA6FAEF4,2026-11-16,none,,
+K00186,A0121,own_site,https://ippa.uek.krakow.pl/kpp/pracownicy/pracownik-3-3/,2026-11-16,none,,
+K00187,A0185,own_site,https://radon.nauka.gov.pl/dane/profil/F8940DC021E971BEAAF0D8993732304005614BD4,2026-11-16,none,,
+K00188,A0011,own_site,https://radon.nauka.gov.pl/dane/profil/62467001F84118B03DC8AF1271198A24846C4C0E,2026-11-16,none,,
+K00189,A0158,own_site,https://orcid.org/0000-0001-8574-9253,2026-11-16,none,,
+K00190,A0068,own_site,https://radon.nauka.gov.pl/dane/profil/D8C4958338C41D5B2332172DAB7EE41A0064551C,2026-11-16,none,,
+K00191,A0027,own_site,https://www.liberadzki.pl/,2026-11-16,error,,URLError: <urlopen error [Errno 11002] getaddrinfo failed>
+K00192,A0052,own_site,https://orcid.org/0000-0002-8884-6996,2026-11-16,none,,"not added: linkedin https://www.linkedin.com/company/department-of-social-policy-and-intervention-university-of-oxford (chrome,social-block); bluesky https://bsky.app/profile/dspi-oxford.bsky.social (chrome,social-block); facebook https://www.facebook.com/SocialPolicyandIntervention (chrome,social-block); yout; already listed: x"

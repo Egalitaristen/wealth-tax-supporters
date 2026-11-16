@@ -33,3 +33,17 @@ K00031,A0093,own_site,https://masmadrid.org,2026-11-15,blocked,,403 at https://m
 K00032,A0124,own_site,https://junts.cat,2026-11-15,found,x;instagram;facebook;tiktok;youtube,
 K00033,A0150,own_site,https://parlament.cat/web/composicio/diputats-fitxa/index.html?p_codi=1078&p_legislatura=15,2026-11-15,error,,URLError: <urlopen error [WinError 10060] A connection attempt failed because the connecte
 K00034,A0105,own_site,https://coordinadoraongd.org,2026-11-15,found,x;facebook;instagram;youtube;linkedin;bluesky,not added: facebook https://www.facebook.com/coordinadoradeongd.espana (social-block)
+K00035,A0108,own_site,https://www.cgtrabajosocial.es,2026-11-16,found,x;facebook;youtube;instagram,not added: facebook https://www.facebook.com/blogtrabajosocialpenitencario ()
+K00036,A0106,own_site,https://www.cje.org,2026-11-16,found,youtube;x;facebook;linkedin;instagram;tiktok,
+K00037,A0071,own_site,https://podemos.info,2026-11-16,none,,"not added: facebook https://www.facebook.com/pages/Podemos/269212336568846 (chrome,social-block); youtube https://www.youtube.com/user/CirculosPodemos (chrome,social-block); already listed: x"
+K00038,A0045,own_site,https://www.sofiacastanon.es/,2026-11-16,error,,URLError: <urlopen error [Errno 11001] getaddrinfo failed>
+K00039,A0153,own_site,https://www.ehu.eus/es/web/master/master-soberania-pueblos-europa/profesorado?p_idp=3927&p_redirect=fichaPDI,2026-11-16,error,,URLError: <urlopen error [WinError 10060] A connection attempt failed because the connecte
+K00040,A0157,own_site,https://www.diba.cat/es/web/ladiputacio/eventual/josep-vendrell-gardenes,2026-11-16,blocked,,robots.txt forbids https://www.diba.cat/es/web/ladiputacio/eventual/josep-vendrell-gardenes
+K00041,A0075,own_site,https://cup.cat,2026-11-16,found,facebook;instagram;x,
+K00042,A0038,own_site,https://www.ines-sabanes.net/,2026-11-16,error,,URLError: <urlopen error [Errno 11002] getaddrinfo failed>
+K00043,A0008,own_site,https://diasafionr.wordpress.com/,2026-11-16,none,,
+K00044,A0197,own_site,https://www.uam.es/derecho/facultad/departamentos/derecho-publico-filosofia-juridica/a-financiero/arrieta-martinez-de-pison-juan,2026-11-16,none,,"not added: instagram https://www.instagram.com/uam_derecho/ (chrome,social-block); youtube https://www.youtube.com/@FacultadDerechoUAMadrid (chrome,social-block); x https://x.com/derecho_uam (meta)"
+K00045,A0100,own_site,https://www.juspax-es.org,2026-11-16,none,,not added: facebook https://www.facebook.com/cgjuspax (); x https://x.com/JyPSpain ()
+K00046,A0131,own_site,https://www.fiscalitatjusta.cat,2026-11-16,found,facebook;x;youtube,
+K00047,A0084,own_site,https://gabriel-zucman.eu/,2026-11-16,none,,
+K00048,A0156,own_site,https://presidentaragones.cat/president/biografia/,2026-11-16,found,instagram;bluesky;linkedin;facebook;x,

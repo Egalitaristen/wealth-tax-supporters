@@ -3,3 +3,6 @@ K00001,A0022,own_site,https://silpy.congreso.gov.py/web/legislador/100666,2026-1
 K00002,A0019,own_site,https://codehupy.org.py,2026-11-15,none,,"not added: youtube https://www.youtube.com/@Codehupyong (chrome,social-block); youtube https://www.youtube.com/c/Codehupyong (chrome,social-block); facebook https://www.facebook.com/codehupy (chrome,social-block); instagram https://www.instagram.com/codehupy/ (chrome,social-block); x https://x.com/codehupy99 ("
 K00003,A0025,own_site,https://silpy.congreso.gov.py/web/legislador/101145,2026-11-15,error,,URLError: <urlopen error [Errno 11002] getaddrinfo failed>
 K00004,A0018,own_site,https://codehupy.org.py,2026-11-15,found,facebook;instagram;x,"not added: youtube https://www.youtube.com/@Codehupyong (chrome,social-block); youtube https://www.youtube.com/c/Codehupyong (chrome,social-block)"
+K00005,A0015,own_site,https://decidamos.org.py,2026-11-16,found,instagram;facebook;x;youtube,
+K00006,A0021,own_site,https://silpy.congreso.gov.py/web/legislador/100648,2026-11-16,error,,URLError: <urlopen error [Errno 11002] getaddrinfo failed>
+K00007,A0020,own_site,https://silpy.congreso.gov.py/web/legislador/100660,2026-11-16,error,,URLError: <urlopen error [Errno 11002] getaddrinfo failed>
