@@ -73,3 +73,6 @@ K00071,A0013,manual_search,,2026-11-16,none,,No own site or official page confir
 K00072,A0015,manual_search,,2026-11-16,none,,sentro.org seen only on a third-party listing and returned 403; unconfirmed.
 K00073,A0035,manual_search,https://angmasa.org,2026-11-16,found,website,"Opened; Ang Masa, the online platform of Partido Lakas ng Masa."
 K00074,A0035,own_site,https://angmasa.org,2026-11-16,found,facebook;x,not added: facebook https://www.facebook.com/partidolakasngmasa ()
+K00075,A0013,manual_search,,2026-11-16,none,,"Search found Wikipedia, IMDb, UP School of Economics page (could not read it); no own site confirmed."
+K00076,A0015,manual_search,,2026-11-16,none,,"sentro.org appeared in a directory listing but returned 403 when fetched, so identity not confirmed."
+K00077,A0035,manual_search,https://angmasa.org,2026-11-16,found,website,"Domain from Wikipedia infobox seen in search results; opened it: site 'Ang Masa Para sa Sosyalismo' carrying PLM statements and activities, though it does not state outright it is the official site."

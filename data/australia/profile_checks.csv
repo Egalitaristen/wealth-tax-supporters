@@ -76,3 +76,4 @@ K00074,A0065,orcid,https://orcid.org/0000-0003-4127-4414,2026-11-16,none,,ORCID 
 K00075,A0082,orcid,https://orcid.org/0000-0002-8711-4291,2026-11-16,none,,"record found, no website listed"
 K00076,A0085,orcid,https://orcid.org/0000-0002-0057-2389,2026-11-16,none,,ORCID institution does not match: none listed
 K00077,A0079,manual_search,,2026-11-16,none,,No own site found.
+K00078,A0079,manual_search,,2026-11-16,none,,"Wikipedia lists only an archived van-t-rudd.net; live site could not be opened (SSL handshake failure), so not confirmed."

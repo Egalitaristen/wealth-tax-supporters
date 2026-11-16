@@ -69,3 +69,4 @@ K00067,A0028,orcid,https://orcid.org/0000-0003-4044-3976,2026-11-16,none,,"recor
 K00068,A0033,orcid,,2026-11-16,none,,no single ORCID record with the name
 K00069,A0015,manual_search,https://www.parlament.gv.at/person/14844,2026-11-16,found,official_page,"Parliament page opened: Dr. Christoph Matznetter, SPÖ; its listed own site matznetter.at would not load."
 K00070,A0015,own_site,https://www.parlament.gv.at/person/14844,2026-11-16,none,,
+K00071,A0015,manual_search,https://www.parlament.gv.at/WWER/PAD_14844/index.shtml,2026-11-16,found,official_page,"Parliament member page found by search; it lists matznetter.at as his website, but that address redirects to the SWV Österreich site (organisation, not personal), so the parliament profile is returned"

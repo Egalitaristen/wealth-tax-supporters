@@ -2,3 +2,4 @@ check_id,actor_id,method,url,checked,result,found,note
 K00001,A0001,directory,,2026-11-16,none,,no NBER page
 K00002,A0001,orcid,,2026-11-16,none,,no single ORCID record with the name
 K00003,A0007,manual_search,,2026-11-16,none,,No own site or official page confirmed.
+K00004,A0007,manual_search,,2026-11-16,none,,Searches show she is president of Samostalni sindikat zdravstva (RFE articles) but no own site or union site was found.

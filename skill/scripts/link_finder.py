@@ -266,6 +266,15 @@ def orcid_site(r):
     return "", page, "record found, no website listed"
 
 
+STOP = {"de", "da", "do", "das", "dos", "del", "la", "le", "les", "los", "las", "of", "the", "for", "and", "et", "und", "en", "e", "y", "i", "a", "di", "du", "des", "van", "der", "den", "untuk", "para", "pour", "fur", "für", "ng", "sa", "ve", "na", "u", "v", "w"}
+
+
+def acronym(name):
+    """The initials of an organisation's name (Partido Democrático Trabalhista -> pdt), when it has at least three words that count."""
+    words = [w for w in fold(re.sub(r"\(.*?\)", " ", name)).split() if w not in STOP]
+    return "".join(w[0] for w in words) if len(words) >= 3 else ""
+
+
 def verified(site, r):
     """('ok'|'unread'|'no name', note): the site's home page, or its address, carries a word of the supporter's name."""
     sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
@@ -273,7 +282,8 @@ def verified(site, r):
     person = r["kind"] == "person"
     toks = ps.name_tokens(r["name"], person)
     host = re.sub(r"[^a-z0-9]", "", urllib.parse.urlparse(site).netloc.lower() + urllib.parse.urlparse(site).path.lower())
-    if any(t in host for t in toks):
+    acr = "" if person else acronym(r["name"])
+    if any(t in host for t in toks) or (len(acr) >= 3 and re.search(r"(?<![a-z])" + acr + r"(?![a-z])", urllib.parse.urlparse(site).netloc.lower().replace("www.", "").split(".")[0] + " ")):
         return "ok", ""
     h = http(site, delay=1.0)
     if not h or h.startswith("ERR"):
@@ -282,7 +292,7 @@ def verified(site, r):
     head = " ".join(re.findall(r"<title[^>]*>(.*?)</title>", h, re.S | re.I) + re.findall(r"<h[12][^>]*>(.*?)</h[12]>", h, re.S | re.I)[:4]
                     + re.findall(r'<meta[^>]+(?:og:title|og:site_name|name="author")[^>]+content="([^"]*)"', h, re.I))
     text = fold(re.sub(r"<[^>]+>", " ", head))
-    if any(t in text.replace(" ", "") or t in text for t in toks):
+    if any(t in text.replace(" ", "") or t in text for t in toks) or (len(acr) >= 3 and re.search(r"(?<![a-z])" + acr + r"(?![a-z])", text)):
         return "ok", ""
     return "no name", "the page's title and headings do not carry the name"
 
@@ -290,7 +300,7 @@ def verified(site, r):
 def ingest(a):
     """Take the results of a search run (by a person or an agent) and write only what passes the same checks as the other sources.
 
-    Each entry: {"country": "gb", "actor_id": "A0001", "url": "https://...", "kind": "website" | "profile", "note": "where it was found"}. An empty url means
+    Each entry: {"country": "gb", "actor_id": "A0001", "url": "https://...", "kind": "website" | "profile", "title": "the page's exact title", "note": "where it was found"}. An empty url means
     nothing was found (logged, so it is not searched again for a year). The address must pass clean() (no social, wiki or election-guide pages) and, for a
     website, the page's title, headings or address must carry the name; a profile page (a parliament's or an institution's page about the person) is
     kept as an official_page when its text carries the name. Nothing is taken on the word of the entry alone.
@@ -314,13 +324,21 @@ def ingest(a):
                     h = http(url, delay=1.0)
                     import profile_scan as ps
                     toks = ps.name_tokens(r["name"], r["kind"] == "person")
-                    ok = bool(h) and not h.startswith("ERR") and any(t in fold(re.sub(r"<[^>]+>", " ", h)).replace(" ", "") for t in toks)
-                    state = "ok" if ok else "no name"
+                    if h and not h.startswith("ERR"):
+                        state = "ok" if any(t in fold(re.sub(r"<[^>]+>", " ", h)).replace(" ", "") for t in toks) else "no name"
+                    elif h and h.startswith("ERR"):  # blocked or unreachable for our reader: the title the agent saw must carry the name
+                        seen = fold(e.get("title") or "").replace(" ", "")
+                        state = "ok" if seen and any(t in seen for t in toks) else "no name"
+                        if state == "ok":
+                            note = "page not readable by our reader (" + h + "); identity from the title the agent saw: " + (e.get("title") or "")[:80] + "; " + note
+                    else:
+                        state = "no name"  # 404
                 else:
                     state, vnote = verified(url, r)
                 if state == "ok" or (state == "unread" and e.get("kind") != "profile"):
                     platform = "official_page" if e.get("kind") == "profile" else "website"
-                    if not any(p["actor_id"] == e["actor_id"] and p["url"].rstrip("/").lower() == url.rstrip("/").lower() for p in profiles):
+                    nk = lambda u: re.sub(r"^https?://(www\.)?", "", u.strip().lower()).rstrip("/")
+                    if not any(p["actor_id"] == e["actor_id"] and p["platform"] in ("website", "official_page") and nk(p["url"]) == nk(url) for p in profiles):
                         profiles.append(dict(profile_id=wtdb.next_id(profiles, "profiles"), actor_id=e["actor_id"], platform=platform, url=url,
                                              source="web search: " + note, checked=today()))
                     result, found = "found", platform

@@ -30,3 +30,5 @@ K00028,A0008,own_site,https://www.althingi.is/altext/cv/is/?nfaerslunr=719,2026-
 K00029,A0006,orcid,,2026-11-16,none,,no single ORCID record with the name
 K00030,A0011,orcid,,2026-11-16,none,,no single ORCID record with the name
 K00031,A0006,manual_search,https://www.althingi.is/altext/cv/is/?nfaerslunr=1417,2026-11-16,none,,"rejected https://www.althingi.is/altext/cv/is/?nfaerslunr=1417: the page does not carry the name; Althingi member page seen in search results (Kristrun Frostadottir, Samfylkingin, PM); not opened."
+K00032,A0006,manual_search,https://www.stjornarradid.is/raduneyti/forsaetisraduneytid/forsaetisradherra/,2026-11-16,found,official_page,Found via search; opened government page about Kristrún Frostadóttir as Prime Minister; no personal site linked.
+K00033,A0006,own_site,https://www.stjornarradid.is/raduneyti/forsaetisraduneytid/forsaetisradherra/,2026-11-16,none,,"not added: facebook https://www.facebook.com/forsaetisraduneytid (chrome,social-block); x https://x.com/PMofIceland (chrome,social-block)"
