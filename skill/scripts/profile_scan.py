@@ -11,6 +11,8 @@ about pages, and collects every account it links on any platform at once, so a s
 sits in the page header, footer or navigation, in a block named social / follow / connect, carries rel="me", or when the handle matches the
 actor's name or the site's domain. High-confidence accounts are added to profiles.csv (source "linked from <page>", checked today); the rest
 are reported, not written. Every actor gets a row in profile_checks.csv, also when nothing was found, so a re-run skips it.
+An organisation whose added accounts none carry its name (a body hosted inside a parent's site, or a site with several groups) gets "CHECK ..."
+first in the check note, so a reviewer opens those rows first.
 
 The reader identifies itself, honours robots.txt, waits between requests to a host and never works around a bot check: a page that refuses it
 is logged as `blocked`. See skill/references/data-format.md (profile_checks.csv) and skill/references/pre-pr-checklist.md.
@@ -461,6 +463,8 @@ def main():
         added = [e for e in added if e["platform"] not in old_same]
         if result == "found" and not added:
             result = "none"  # everything it found is already listed, or held for review
+        if added and r["kind"] != "person" and not any(e.get("namecheck") for e in added):
+            note = ("CHECK no added handle carries the name: the site may host several groups, or belong to a parent. " + note).strip()  # the usual wrong organisation row; flagged in the log so a reviewer looks at it first
         if not a.dry_run:
             for e in added:
                 db["profiles"].append(dict(profile_id=wtdb.next_id(db["profiles"], "profiles"), actor_id=r["actor_id"], platform=e["platform"], url=e["url"],
