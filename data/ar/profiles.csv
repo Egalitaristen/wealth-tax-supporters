@@ -445,3 +445,20 @@ P00444,A0027,website,https://fonaf.org.ar/,"web search: Address was my own guess
 P00445,A0027,x,https://x.com/FONAFargentina,linked from https://fonaf.org.ar/,2026-11-16
 P00446,A0027,instagram,https://www.instagram.com/fonaforgar/,linked from https://fonaf.org.ar/,2026-11-16
 P00447,A0027,facebook,https://www.facebook.com/profile.php?id=100045020096870,linked from https://fonaf.org.ar/,2026-11-16
+P00448,A0005,website,https://martinmguzman.com/,web search: Found via web search and verified page title 'Martín Guzmán' on personal/academic homepage.,2026-11-16
+P00449,A0044,official_page,https://iflh.institutos.filo.uba.ar/kohan-mart%C3%ADn-director,"web search: page not readable by our reader (ERR TimeoutError); identity from the title the agent saw: Kohan, Martín - Director | Instituto de Filología y Literaturas Hispánicas ""Doct; Found via web search and verified UBA Filo institutional director profile page carrying his exact name.",2026-11-16
+P00450,A0048,website,https://hpensada.wixsite.com/historiapensada/omar-acha,web search: Found via web search; verified personal academic website (Historia Pensada) bio page with exact name in URL and title.,2026-11-16
+P00451,A0064,official_page,https://diputadosmisiones.gov.ar/nuevo/diputados&diputado=39,"web search: Found via web search; verified Misiones provincial Chamber of Deputies page containing 'Bárbaro, Hector Orlando' (PAyS).",2026-11-16
+P00452,A0087,official_page,https://www.gba.gob.ar/trabajo/autoridades/ministro_de_trabajo,web search: Found via search on gba.gob.ar/trabajo; opened page and confirmed 'Jorge Walter Correa' as Minister of Labor of Buenos Aires Province.,2026-11-16
+P00453,A0093,website,https://enriqueestevez.com.ar/,web search: Found via web search; opened homepage and confirmed title 'Enrique Estévez | Diputado Nacional'.,2026-11-16
+P00454,A0095,official_page,https://www.senado-ba.gov.ar/Senador.aspx?idP=2413,"web search: Found via site:senado-ba.gov.ar search; opened page and confirmed 'Senador Fagioli, Federico' (2023-2027, Fuerza Patria).",2026-11-16
+P00455,A0108,official_page,https://legislaturadelchubut.gob.ar/miembro/hernandez-estela-beatriz/,web search: Found via web search; opened page on Legislatura del Chubut and confirmed exact name 'Estela Beatriz HERNÁNDEZ'.,2026-11-16
+P00456,A0112,official_page,https://ipehcs.conicet.gov.ar/mg-graciela-landriscini/,web search: Found via site:conicet.gov.ar search; opened official CONICET/UNCo institute researcher profile for Mg. Graciela Landriscini.,2026-11-16
+P00457,A0117,official_page,https://www.senado-ba.gov.ar/Senador.aspx?idP=2019,"web search: Found via web search on senado-ba.gov.ar; opened page and confirmed 'Senador Macha, Monica Fernanda' (2025-2029, Fuerza Patria).",2026-11-16
+P00458,A0121,official_page,https://www.senado-ba.gov.ar/Senador.aspx?idP=2412,"web search: Found via web search on senado-ba.gov.ar; opened page and confirmed 'Senador Martinez, Maria Rosa' (2023-2027, Fuerza Patria).",2026-11-16
+P00459,A0152,official_page,https://sapl.parlamentomercosur.org/parlamentar/588,web search: Found via Parlasur SAPL search; page heading confirms Diego Horacio Sartori (Argentina) as Parlasur parliamentarian.,2026-11-16
+P00460,A0157,official_page,https://web.legisrn.gov.ar/institucional/legisladores/ver?id=708,web search: Found on official Legislature of Rio Negro website; page title and h1 confirm Ayelén Spósito as provincial legislator.,2026-11-16
+P00461,A0192,website,https://montenegrogerardo.com.ar,web search: Found via web search; verified 200 OK personal site of Montenegro Gerardo Antenor referencing Proyectos Presentados HSN.,2026-11-16
+P00462,A0093,facebook,https://www.facebook.com/EnriqueeEstevez,linked from https://enriqueestevez.com.ar/,2026-11-16
+P00463,A0093,instagram,https://www.instagram.com/enriqueeestevez/,linked from https://enriqueestevez.com.ar/,2026-11-16
+P00464,A0005,x,https://x.com/Martin_M_Guzman,linked from https://martinmguzman.com/,2026-11-16

@@ -11,3 +11,13 @@ K00009,A0006,wikipedia_langs,,2026-11-16,none,,no official website in the articl
 K00010,A0007,wikipedia_langs,,2026-11-16,none,,no official website in the articles in other languages
 K00011,A0008,wikipedia_langs,,2026-11-16,none,,no official website in the articles in other languages
 K00012,A0009,wikipedia_langs,,2026-11-16,none,,no official website in the articles in other languages
+K00013,A0003,manual_search,https://esc.bg/en/participant/luboslav-kostov/,2026-11-16,found,official_page,Found via web search; official Economic and Social Council profile confirming his name and CITUB/KNSB Chief Economist role.
+K00014,A0005,manual_search,https://www.tsvetelinapenkova.eu/,2026-11-16,found,website,Found via web search; personal MEP website confirming her name and European Parliament work.
+K00015,A0006,manual_search,https://stanishev.eu/,2026-11-16,found,website,"Found via web search; personal website confirming his name, BSP, PES, and EP sections."
+K00016,A0007,manual_search,https://www.europarl.europa.eu/meps/en/197842/ELENA_YONCHEVA/home,2026-11-16,found,official_page,page not readable by our reader (ERR 403); identity from the title the agent saw: Home | Elena YONCHEVA | MEPs | European Parliament; Found via web search; official European Parliament MEP profile confirming her name and mandate.
+K00017,A0008,manual_search,https://www.europarl.europa.eu/meps/bg/197846/IVO_HRISTOV/history/9,2026-11-16,none,,rejected https://www.europarl.europa.eu/meps/bg/197846/IVO_HRISTOV/history/9: the page does not carry the name; Found via web search; official European Parliament 9th term MEP profile confirming his name and mandate.
+K00018,A0009,manual_search,https://www.parliament.bg/bg/MP/5164,2026-11-16,none,,rejected https://www.parliament.bg/bg/MP/5164: the page does not carry the name; Found via web search; official National Assembly MP profile (client-side rendered SPA; identity as Progressive Bulgaria MP confirmed via search results).
+K00019,A0003,own_site,https://esc.bg/en/participant/luboslav-kostov/,2026-11-16,none,,"not added: facebook https://www.facebook.com/ESC%D0%98%D0%BA%D0%BE%D0%BD%D0%BE%D0%BC%D0%B8%D1%87%D0%B5%D1%81%D0%BA%D0%B8-%D0%B8-%D1%81%D0%BE%D1%86%D0%B8%D0%B0%D0%BB%D0%B5%D0%BD-%D1%81%D1%8A%D0%B2%D0%B5%D1%82-103079232146782 (chrome,social-block); facebook https://www.facebook.com/zroussinova (social-block); fa"
+K00020,A0006,own_site,https://stanishev.eu/,2026-11-16,none,,"already listed: x,facebook"
+K00021,A0007,own_site,https://www.europarl.europa.eu/meps/en/197842/ELENA_YONCHEVA/home,2026-11-16,blocked,,403 at https://www.europarl.europa.eu/meps/en/197842/ELENA_YONCHEVA/home
+K00022,A0005,own_site,https://www.tsvetelinapenkova.eu/,2026-11-16,found,x,"already listed: facebook,instagram"

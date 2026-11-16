@@ -126,3 +126,38 @@ P00125,A0040,facebook,https://www.facebook.com/sabine.schatz,linked from https:/
 P00126,A0040,x,https://x.com/SabineSchatz,linked from https://www.sabineschatz.at/,2026-11-16
 P00127,A0015,official_page,https://www.parlament.gv.at/person/14844,"web search: Parliament page opened: Dr. Christoph Matznetter, SPÖ; its listed own site matznetter.at would not load.",2026-11-16
 P00128,A0015,official_page,https://www.parlament.gv.at/WWER/PAD_14844/index.shtml,"web search: Parliament member page found by search; it lists matznetter.at as his website, but that address redirects to the SWV Österreich site (organisation, not personal), so the parliament profile is returned",2026-11-16
+P00129,A0006,official_page,https://www.oegb.at/der-oegb/organisation/vorstand/wolfgang-katzian,web search: Found via web search on oegb.at; verified 200 OK official ÖGB board/president profile page for Wolfgang Katzian.,2026-11-16
+P00130,A0008,official_page,https://wien.arbeiterkammer.at/ueberuns/akpraesidentin/biographie/Ueber_Renate_Anderl.html,web search: Found via web search on arbeiterkammer.at; verified 200 OK official AK Wien president biography page for Renate Anderl.,2026-11-16
+P00131,A0010,official_page,https://www.parlament.gv.at/person/30708,"web search: Found via web search on parlament.gv.at; verified 200 OK official Austrian Parliament member page (H1: Barbara Teiber, MA (aktiv)).",2026-11-16
+P00132,A0013,official_page,https://www.momentum-institut.at/author/barbara-blaha/,"web search: Searched three times; no personal site found, verified 200 OK official Momentum Institut leadership profile (H1: Barbara Blaha, LEITUNG).",2026-11-16
+P00133,A0017,official_page,https://www.graz.at/cms/beitrag/10380010/11583104/Stadtrat_Manfred_Eber_KPOe.html,web search: Found via web search on graz.at; verified 200 OK official City of Graz profile page for Finanzstadtrat Manfred Eber (KPÖ).,2026-11-16
+P00134,A0018,official_page,https://www.bmf.gv.at/ministerium/finanzminister-markus-marterbauer.html,web search: Searched twice; verified 200 OK official Austrian Ministry of Finance (BMF) profile page for Finanzminister Markus Marterbauer.,2026-11-16
+P00135,A0019,website,https://mschnetzer.github.io/en/,"web search: Personal academic website found via web search; confirmed Matthias Schnetzer, Head of Department of Economics and Statistics at AK Wien.",2026-11-16
+P00136,A0020,official_page,https://www.parlament.gv.at/person/35497,"web search: Official Austrian Parliament member page found via web search (no personal website found; muchitsch.at is a namesake insurance broker); confirmed Josef Muchitsch (SPÖ, Nationalrat).",2026-11-16
+P00137,A0021,website,https://reinhold-binder.at/,"web search: Personal website found via web search; confirmed Reinhold Binder, Abgeordneter zum Nationalrat.",2026-11-16
+P00138,A0024,official_page,https://www.graz.at/cms/beitrag/10041230/7766538/Buergermeisterin_Elke_Kahr_KPOe.html,web search: Official City of Graz mayor profile page found via graz.at (no personal website found); confirmed Bürgermeisterin Elke Kahr (KPÖ).,2026-11-16
+P00139,A0025,official_page,https://www.graz.at/cms/beitrag/10154353/7766674/Stadtrat_Mag_Robert_Krotzer_KPOe.html,web search: Official City of Graz city councillor profile page found via graz.at (no personal website found); confirmed Stadtrat Mag. Robert Krotzer (KPÖ).,2026-11-16
+P00140,A0026,website,https://evelyn-regner.at/,"web search: Personal website found via web search; confirmed Evelyn Regner, Mitglied des Europäischen Parlaments (SPÖ).",2026-11-16
+P00141,A0027,website,https://jakob-kapeller.org/,web search: Personal academic website found via web search; confirmed Jakob Kapeller.,2026-11-16
+P00142,A0033,website,https://oliverpicek.com/,web search: Personal academic website found via web search; confirmed Oliver Picek.,2026-11-16
+P00143,A0041,official_page,https://www.parlament.gv.at/person/83117,"web search: Official Austrian Parliament member page found via web search (no personal website found); confirmed Nurten Yılmaz (SPÖ, former Nationalrat).",2026-11-16
+P00144,A0019,bluesky,https://bsky.app/profile/matschnetzer.bsky.social,linked from https://mschnetzer.github.io/en/,2026-11-16
+P00145,A0013,x,https://x.com/barbarablaha,linked from https://www.momentum-institut.at/author/barbara-blaha/,2026-11-16
+P00146,A0013,bluesky,https://bsky.app/profile/barbarablaha.bsky.social,linked from https://www.momentum-institut.at/author/barbara-blaha/,2026-11-16
+P00147,A0013,instagram,https://www.instagram.com/blahabarbarin/,linked from https://www.momentum-institut.at/author/barbara-blaha/,2026-11-16
+P00148,A0013,facebook,https://www.facebook.com/barbara.blaha,linked from https://www.momentum-institut.at/author/barbara-blaha/,2026-11-16
+P00149,A0013,linkedin,https://www.linkedin.com/in/barbara-blaha-6037a4178,linked from https://www.momentum-institut.at/author/barbara-blaha/,2026-11-16
+P00150,A0018,instagram,https://www.instagram.com/markusmarterbauer/,linked from https://www.bmf.gv.at/ministerium/finanzminister-markus-marterbauer.html,2026-11-16
+P00151,A0018,bluesky,https://bsky.app/profile/markusmarterbauer.bsky.social,linked from https://www.bmf.gv.at/ministerium/finanzminister-markus-marterbauer.html,2026-11-16
+P00152,A0026,facebook,https://www.facebook.com/evelyn.regner,linked from https://evelyn-regner.at/,2026-11-16
+P00153,A0026,x,https://x.com/Evelyn_Regner,linked from https://evelyn-regner.at/,2026-11-16
+P00154,A0026,youtube,https://www.youtube.com/user/EvelynRegner,linked from https://evelyn-regner.at/,2026-11-16
+P00155,A0026,instagram,https://www.instagram.com/mep_evelyn_regner/,linked from https://evelyn-regner.at/,2026-11-16
+P00156,A0021,instagram,https://www.instagram.com/reinhold.binder/,linked from https://reinhold-binder.at/,2026-11-16
+P00157,A0021,youtube,https://www.youtube.com/@Reinhold_Binder,linked from https://reinhold-binder.at/,2026-11-16
+P00158,A0021,tiktok,https://www.tiktok.com/@reinhold_binder,linked from https://reinhold-binder.at/,2026-11-16
+P00159,A0021,linkedin,https://www.linkedin.com/in/reinhold-binder-464520b7,linked from https://reinhold-binder.at/,2026-11-16
+P00160,A0021,x,https://x.com/Reini_Binder,linked from https://reinhold-binder.at/,2026-11-16
+P00161,A0021,bluesky,https://bsky.app/profile/reinholdbinder.bsky.social,linked from https://reinhold-binder.at/,2026-11-16
+P00162,A0008,facebook,https://www.facebook.com/renate.anderl,linked from https://wien.arbeiterkammer.at/ueberuns/akpraesidentin/biographie/Ueber_Renate_Anderl.html,2026-11-16
+P00163,A0008,x,https://x.com/renate_anderl,linked from https://wien.arbeiterkammer.at/ueberuns/akpraesidentin/biographie/Ueber_Renate_Anderl.html,2026-11-16

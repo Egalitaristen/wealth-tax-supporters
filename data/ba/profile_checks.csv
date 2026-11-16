@@ -2,3 +2,7 @@ check_id,actor_id,method,url,checked,result,found,note
 K00001,A0001,own_site,https://sdp.ba,2026-11-16,found,tiktok,"CHECK no added handle carries the name: the site may host several groups, or belong to a parent.; not added: youtube https://www.youtube.com/user/sdpbih (chrome,social-block); already listed: facebook,x,instagram"
 K00002,A0003,directory,,2026-11-16,none,,no NBER page
 K00003,A0003,orcid,,2026-11-16,none,,no single ORCID record with the name
+K00004,A0002,manual_search,https://parlamentfbih.gov.ba/v2/bs/stranica.php?idstranica=170,2026-11-16,found,official_page,Found via web search; official FBiH Parliament House of Peoples delegate profile confirmed with exact name and SDP BiH party.
+K00005,A0003,manual_search,,2026-11-16,none,,"Searched twice including IBU; only general JS-rendered university directory pages found, no personal site or individual profile page."
+K00006,A0004,manual_search,,2026-11-16,none,,Searched twice; damirniksic.info failed DNS resolution and FBiH House of Representatives only has a general MP list page.
+K00007,A0002,own_site,https://parlamentfbih.gov.ba/v2/bs/stranica.php?idstranica=170,2026-11-16,none,,not added: youtube https://www.youtube.com/channel/UCZY3N0HNEcep3lHuztsYmVA ()
