@@ -164,7 +164,7 @@ def classify(url, rel_me=False):
         return "substack", f"https://{host}", host.split(".")[0]
     if (rel_me or host in MASTODON_HOSTS) and seg and (seg[0].startswith("@") or (len(seg) == 2 and low[0] == "users")) and "/" not in "".join(seg[1:2]) and len(seg) <= 2:
         h = seg[0][1:] if seg[0].startswith("@") else seg[1]
-        if rel_me and host in ("x.com", "bsky.app", "instagram.com", "facebook.com", "youtube.com", "linkedin.com"):
+        if rel_me and host in ("x.com", "bsky.app", "instagram.com", "facebook.com", "youtube.com", "linkedin.com", "threads.net", "threads.com", "tiktok.com", "twitter.com"):  # a rel="me" to another platform is not a Mastodon account
             return None
         return "mastodon", f"https://{u.netloc.lower()}/@{h}", h
     return None
@@ -381,7 +381,8 @@ def main():
         checks = wtdb.load(d, "profile_checks")
         last = {}
         for c in checks:
-            last[c["actor_id"]] = max(last.get(c["actor_id"], ""), c["checked"])
+            if c["method"] in ("own_site", "own_site_browser"):  # only a read of the site counts as scanned, not a lookup of where the site is
+                last[c["actor_id"]] = max(last.get(c["actor_id"], ""), c["checked"])
         by_site = collections.defaultdict(list)
         for p in profiles:
             if p["platform"] in ("website", "official_page"):

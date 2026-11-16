@@ -2,3 +2,12 @@ check_id,actor_id,method,url,checked,result,found,note
 K00001,A0010,own_site,https://rohelised.ee/,2026-11-15,none,,"already listed: facebook,instagram,x"
 K00002,A0001,own_site,https://yanatoom.ee/,2026-11-15,none,,"not added: youtube https://www.youtube.com/channel/UCng05aZg3TEvLl5k_RDTktQ (chrome); facebook https://www.facebook.com/yanatoom.ee (chrome); already listed: x,instagram"
 K00003,A0006,own_site,https://vasakliit.ee/,2026-11-16,found,facebook;instagram;x,
+K00004,A0002,wikipedia,https://en.wikipedia.org/wiki/Lauri_L%C3%A4%C3%A4nemets,2026-11-16,none,,
+K00005,A0004,wikipedia,https://en.wikipedia.org/wiki/Marina_Kaljurand,2026-11-16,none,,
+K00006,A0005,wikipedia,https://en.wikipedia.org/wiki/Sven_Mikser,2026-11-16,found,website,
+K00007,A0008,wikipedia,https://en.wikipedia.org/wiki/Rainer_Kattel,2026-11-16,none,,
+K00008,A0011,wikipedia,https://en.wikipedia.org/wiki/Peet_Kask,2026-11-16,none,,
+K00009,A0008,directory,,2026-11-16,none,,no NBER page
+K00010,A0009,directory,,2026-11-16,none,,no NBER page
+K00011,A0011,directory,,2026-11-16,none,,no NBER page
+K00012,A0005,own_site,https://svenmikser.sotsdem.ee,2026-11-16,error,,URLError: <urlopen error [Errno 11001] getaddrinfo failed>

@@ -8,3 +8,19 @@ K00006,A0005,own_site,https://www.ffs.dz,2026-11-16,error,,URLError: <urlopen er
 K00007,A0007,own_site,https://hmsalgeria.net,2026-11-16,none,,
 K00008,A0006,own_site,https://aouchicheyoucef.com/,2026-11-16,error,,URLError: <urlopen error [Errno 11001] getaddrinfo failed>
 K00009,A0031,own_site,https://www.mf.gov.dz,2026-11-16,error,,URLError: <urlopen error [WinError 10060] A connection attempt failed because the connecte
+K00010,A0002,wikipedia,https://en.wikipedia.org/wiki/Louisa_Hanoune,2026-11-16,none,,
+K00011,A0015,wikipedia,https://en.wikipedia.org/wiki/Ahmed_Ouyahia,2026-11-16,none,,
+K00012,A0017,wikipedia,https://en.wikipedia.org/wiki/Laaziz_Fayed,2026-11-16,none,,
+K00013,A0023,wikipedia,https://en.wikipedia.org/wiki/Abdelkader_Bengrina,2026-11-16,none,,
+K00014,A0030,wikipedia,https://en.wikipedia.org/wiki/Brahim_Djamel_Kassali,2026-11-16,none,,
+K00015,A0020,directory,,2026-11-16,none,,no NBER page
+K00016,A0021,directory,,2026-11-16,none,,no NBER page
+K00017,A0034,directory,,2026-11-16,none,,no NBER page
+K00018,A0035,directory,,2026-11-16,none,,no NBER page
+K00019,A0036,directory,,2026-11-16,none,,no NBER page
+K00020,A0037,directory,,2026-11-16,none,,no NBER page
+K00021,A0039,directory,,2026-11-16,none,,no NBER page
+K00022,A0043,directory,,2026-11-16,none,,no NBER page
+K00023,A0044,directory,,2026-11-16,none,,no NBER page
+K00024,A0046,directory,,2026-11-16,none,,no NBER page
+K00025,A0049,directory,,2026-11-16,none,,no NBER page

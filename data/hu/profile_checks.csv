@@ -11,3 +11,25 @@ K00009,A0024,own_site,https://karacsonygergely.hu/,2026-11-16,none,,
 K00010,A0036,own_site,https://gabriel-zucman.eu/,2026-11-16,none,,
 K00011,A0026,own_site,https://www.botkalaszlo.hu,2026-11-16,error,,URLError: <urlopen error [Errno 11001] getaddrinfo failed>
 K00012,A0030,own_site,https://www.dobrevklara.hu,2026-11-16,error,,URLError: <urlopen error [Errno 11001] getaddrinfo failed>
+K00013,A0002,wikipedia,https://en.wikipedia.org/wiki/P%C3%A9ter_Magyar,2026-11-16,none,,
+K00014,A0004,wikipedia,https://en.wikipedia.org/wiki/Magyar_government,2026-11-16,none,,
+K00015,A0008,wikipedia,https://en.wikipedia.org/wiki/Tam%C3%A1s_Mell%C3%A1r,2026-11-16,none,,
+K00016,A0010,wikipedia,https://en.wikipedia.org/wiki/Rebeka_Szab%C3%B3,2026-11-16,none,,
+K00017,A0011,wikipedia,https://en.wikipedia.org/wiki/T%C3%ADmea_Szab%C3%B3,2026-11-16,none,,
+K00018,A0012,wikipedia,https://en.wikipedia.org/wiki/Anna_Don%C3%A1th,2026-11-16,found,website,
+K00019,A0013,wikipedia,https://en.wikipedia.org/wiki/Katalin_Cseh,2026-11-16,none,,
+K00020,A0015,wikipedia,https://en.wikipedia.org/wiki/M%C3%A1rton_Gy%C3%B6ngy%C3%B6si,2026-11-16,none,,
+K00021,A0031,wikipedia,https://en.wikipedia.org/wiki/Csaba_Moln%C3%A1r,2026-11-16,none,,
+K00022,A0033,wikipedia,https://en.wikipedia.org/wiki/P%C3%A9ter_Oszk%C3%B3,2026-11-16,none,,
+K00023,A0003,directory,,2026-11-16,none,,no NBER page
+K00024,A0008,directory,,2026-11-16,none,,no NBER page
+K00025,A0025,directory,,2026-11-16,none,,no NBER page
+K00026,A0027,directory,,2026-11-16,none,,no NBER page
+K00027,A0028,directory,,2026-11-16,none,,no NBER page
+K00028,A0032,directory,https://www.nber.org/people/zsolt_darvas,2026-11-16,found,website,via RePEc https://ideas.repec.org/e/pda162.html
+K00029,A0033,directory,,2026-11-16,none,,no NBER page
+K00030,A0035,directory,https://www.nber.org/people/emmanuel_saez,2026-11-16,found,website,
+K00031,A0037,directory,https://www.nber.org/people/attila_lindner,2026-11-16,none,,"page found, no website listed"
+K00032,A0035,own_site,https://elsa.berkeley.edu/~saez/index.html,2026-11-16,none,,
+K00033,A0012,own_site,https://donathanna.hu,2026-11-16,none,,already listed: x
+K00034,A0032,own_site,https://www.darvas.online/,2026-11-16,none,,

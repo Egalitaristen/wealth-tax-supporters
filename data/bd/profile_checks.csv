@@ -1,3 +1,12 @@
 check_id,actor_id,method,url,checked,result,found,note
 K00001,A0011,own_site,https://nbr.gov.bd,2026-11-15,blocked,,403 at https://nbr.gov.bd
 K00002,A0003,own_site,https://cpd.org.bd,2026-11-16,found,facebook;instagram;linkedin;x;youtube,not added: linkedin https://www.linkedin.com/company/cpdbangladesh (social-block)
+K00003,A0001,directory,,2026-11-16,none,,no NBER page
+K00004,A0002,directory,,2026-11-16,none,,no NBER page
+K00005,A0004,directory,,2026-11-16,none,,no NBER page
+K00006,A0005,directory,,2026-11-16,none,,no NBER page
+K00007,A0006,directory,,2026-11-16,none,,no NBER page
+K00008,A0007,directory,,2026-11-16,none,,no NBER page
+K00009,A0008,directory,,2026-11-16,none,,no NBER page
+K00010,A0012,directory,,2026-11-16,none,,no NBER page
+K00011,A0015,directory,,2026-11-16,none,,no NBER page

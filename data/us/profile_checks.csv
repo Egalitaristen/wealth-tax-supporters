@@ -515,3 +515,245 @@ K00513,A0047,own_site,https://csus.campusgroups.com/collegedems/home/,2026-11-16
 K00514,A0329,own_site,https://espaillat.house.gov,2026-11-16,found,bluesky,"403 at https://www.nysenate.gov/senator/adriano-espaillat/; not added: youtube https://www.youtube.com/channel/UCi0niBYFhEY70Dz8InbX5OQ (chrome,social-block); already listed: instagram,facebook,x"
 K00515,A0376,own_site,https://votenicole.org/,2026-11-16,found,facebook;x;linkedin,
 K00516,A0349,own_site,https://scanlon.house.gov/,2026-11-16,none,,"not added: facebook https://www.facebook.com/repmgs (chrome,social-block); x https://x.com/repmgs (chrome,meta,social-block); instagram https://www.instagram.com/repmgs/ (chrome,social-block); youtube https://www.youtube.com/@repMGS (chrome,social-block); facebook https://www.facebook.com/marygayscanlon (socia; already listed: bluesky"
+K00517,A0038,wikipedia,https://en.wikipedia.org/wiki/Voters_of_Tomorrow,2026-11-16,found,website,
+K00518,A0039,wikipedia,https://en.wikipedia.org/wiki/350_Bay_Area,2026-11-16,found,website,
+K00519,A0083,wikipedia,https://en.wikipedia.org/wiki/Young_Democrats_of_America,2026-11-16,found,website,
+K00520,A0119,wikipedia,https://en.wikipedia.org/wiki/Chris_Rogers_%28politician%29,2026-11-16,none,,
+K00521,A0121,wikipedia,https://en.wikipedia.org/wiki/Jose_Solache,2026-11-16,none,,
+K00522,A0122,wikipedia,https://en.wikipedia.org/wiki/Juan_Carrillo,2026-11-16,none,,
+K00523,A0127,wikipedia,https://en.wikipedia.org/wiki/Eduardo_Martinez_%28politician%29,2026-11-16,none,,
+K00524,A0177,wikipedia,https://en.wikipedia.org/wiki/Hugo_Soto-Martinez,2026-11-16,none,,
+K00525,A0192,wikipedia,https://en.wikipedia.org/wiki/Konstantine_Anthony,2026-11-16,none,,
+K00526,A0196,wikipedia,https://en.wikipedia.org/wiki/Mai_Vang,2026-11-16,found,website,
+K00527,A0245,wikipedia,https://en.wikipedia.org/wiki/Aaron_Peskin,2026-11-16,found,website,
+K00528,A0247,wikipedia,https://en.wikipedia.org/wiki/Chyanne_Chen,2026-11-16,none,,
+K00529,A0254,wikipedia,https://en.wikipedia.org/wiki/Ken_Carlson,2026-11-16,none,,
+K00530,A0257,wikipedia,https://en.wikipedia.org/wiki/Nikki_Fortunato_Bas,2026-11-16,found,website,
+K00531,A0258,wikipedia,https://en.wikipedia.org/wiki/Otto_Lee,2026-11-16,none,,
+K00532,A0374,wikipedia,https://en.wikipedia.org/wiki/Chipalo_Street,2026-11-16,none,,
+K00533,A0379,wikipedia,https://en.wikipedia.org/wiki/Emily_Alvarado_%28politician%29,2026-11-16,none,,
+K00534,A0380,wikipedia,https://en.wikipedia.org/wiki/Jessica_Bateman,2026-11-16,none,,
+K00535,A0382,wikipedia,https://en.wikipedia.org/wiki/Liz_Lovelett,2026-11-16,none,,
+K00536,A0383,wikipedia,https://en.wikipedia.org/wiki/T%27wina_Nobles,2026-11-16,none,,
+K00537,A0385,wikipedia,https://en.wikipedia.org/wiki/Bill_Ramos,2026-11-16,found,website,
+K00538,A0386,wikipedia,https://en.wikipedia.org/wiki/Marcus_Riccelli,2026-11-16,found,website,
+K00539,A0387,wikipedia,https://en.wikipedia.org/wiki/Derek_Stanford_%28politician%29,2026-11-16,found,website,
+K00540,A0388,wikipedia,https://en.wikipedia.org/wiki/Yasmin_Trudeau,2026-11-16,none,,
+K00541,A0389,wikipedia,https://en.wikipedia.org/wiki/Javier_Valdez,2026-11-16,none,,
+K00542,A0390,wikipedia,https://en.wikipedia.org/wiki/Lisa_Wellman,2026-11-16,found,website,
+K00543,A0391,wikipedia,https://en.wikipedia.org/wiki/Claire_Wilson_%28politician%29,2026-11-16,found,website,
+K00544,A0393,wikipedia,https://en.wikipedia.org/wiki/Stanley_Chang,2026-11-16,none,,
+K00545,A0394,wikipedia,https://en.wikipedia.org/wiki/Karina_Villa,2026-11-16,none,,
+K00546,A0396,wikipedia,https://en.wikipedia.org/wiki/Gabriel_Acevero,2026-11-16,found,website,
+K00547,A0398,wikipedia,https://en.wikipedia.org/wiki/Ashanti_Martinez,2026-11-16,found,website,
+K00548,A0399,wikipedia,https://en.wikipedia.org/wiki/Kent_Roberson,2026-11-16,found,website,
+K00549,A0401,wikipedia,https://en.wikipedia.org/wiki/Caylin_Young,2026-11-16,found,website,
+K00550,A0402,wikipedia,https://en.wikipedia.org/wiki/Aisha_Gomez,2026-11-16,found,website,
+K00551,A0403,wikipedia,https://en.wikipedia.org/wiki/Liish_Kozlowski,2026-11-16,found,website,
+K00552,A0404,wikipedia,https://en.wikipedia.org/wiki/Emma_Greenman,2026-11-16,found,website,
+K00553,A0405,wikipedia,https://en.wikipedia.org/wiki/Leigh_Finke,2026-11-16,found,website,
+K00554,A0406,wikipedia,https://en.wikipedia.org/wiki/Samantha_Sencer-Mura,2026-11-16,found,website,
+K00555,A0407,wikipedia,https://en.wikipedia.org/wiki/Andy_Smith_%28Minnesota_politician%29,2026-11-16,found,website,
+K00556,A0408,wikipedia,https://en.wikipedia.org/wiki/Sydney_Jordan_%28politician%29,2026-11-16,found,website,
+K00557,A0409,wikipedia,https://en.wikipedia.org/wiki/Jay_Xiong,2026-11-16,none,,
+K00558,A0410,wikipedia,https://en.wikipedia.org/wiki/Anquam_Mahamoud,2026-11-16,none,,
+K00559,A0412,wikipedia,https://en.wikipedia.org/wiki/Athena_Hollins,2026-11-16,found,website,
+K00560,A0413,wikipedia,https://en.wikipedia.org/wiki/Alex_Falconer_%28American_politician%29,2026-11-16,found,website,
+K00561,A0414,wikipedia,https://en.wikipedia.org/wiki/Kristi_Pursell,2026-11-16,found,website,
+K00562,A0415,wikipedia,https://en.wikipedia.org/wiki/Kari_Rehrauer,2026-11-16,found,website,
+K00563,A0416,wikipedia,https://en.wikipedia.org/wiki/Katie_Jones_%28politician%29,2026-11-16,none,,
+K00564,A0417,wikipedia,https://en.wikipedia.org/wiki/Pete_Johnson_%28politician%29,2026-11-16,none,,
+K00565,A0419,wikipedia,https://en.wikipedia.org/wiki/Neil_Breslin,2026-11-16,found,website,
+K00566,A0420,wikipedia,https://en.wikipedia.org/wiki/Jabari_Brisport,2026-11-16,found,website,
+K00567,A0421,wikipedia,https://en.wikipedia.org/wiki/Samra_Brouk,2026-11-16,found,website,
+K00568,A0423,wikipedia,https://en.wikipedia.org/wiki/Jeremy_Cooney,2026-11-16,found,website,
+K00569,A0425,wikipedia,https://en.wikipedia.org/wiki/Brad_Hoylman-Sigal,2026-11-16,found,website,
+K00570,A0429,wikipedia,https://en.wikipedia.org/wiki/Rachel_May,2026-11-16,none,,
+K00571,A0430,wikipedia,https://en.wikipedia.org/wiki/Zellnor_Myrie,2026-11-16,found,website,
+K00572,A0438,wikipedia,https://en.wikipedia.org/wiki/Sarahana_Shrestha,2026-11-16,none,,
+K00573,A0439,wikipedia,https://en.wikipedia.org/wiki/Jessica_Gonz%C3%A1lez-Rojas,2026-11-16,found,website,
+K00574,A0440,wikipedia,https://en.wikipedia.org/wiki/Jo_Anne_Simon,2026-11-16,found,website,
+K00575,A0441,wikipedia,https://en.wikipedia.org/wiki/Tony_Simone,2026-11-16,found,website,
+K00576,A0442,wikipedia,https://en.wikipedia.org/wiki/Steven_Raga,2026-11-16,found,website,
+K00577,A0443,wikipedia,https://en.wikipedia.org/wiki/Dana_Levenberg,2026-11-16,found,website,
+K00578,A0444,wikipedia,https://en.wikipedia.org/wiki/Karines_Reyes,2026-11-16,found,website,
+K00579,A0446,wikipedia,https://en.wikipedia.org/wiki/Michaelle_C._Solages,2026-11-16,found,website,
+K00580,A0447,wikipedia,https://en.wikipedia.org/wiki/Marcela_Mitaynes,2026-11-16,found,website,
+K00581,A0448,wikipedia,https://en.wikipedia.org/wiki/Emily_Gallagher,2026-11-16,found,website,
+K00582,A0455,wikipedia,https://en.wikipedia.org/wiki/Rodneyse_Bichotte_Hermelyn,2026-11-16,found,website,
+K00583,A0459,wikipedia,https://en.wikipedia.org/wiki/Maritza_Davila,2026-11-16,found,website,
+K00584,A0460,wikipedia,https://en.wikipedia.org/wiki/Tiara_Mack,2026-11-16,none,,
+K00585,A0465,wikipedia,https://en.wikipedia.org/wiki/Emilie_Kornheiser,2026-11-16,none,,
+K00586,A0474,wikipedia,https://en.wikipedia.org/wiki/Rachel_Ventura,2026-11-16,none,,
+K00587,A0477,wikipedia,https://en.wikipedia.org/wiki/Graciela_Guzm%C3%A1n,2026-11-16,found,website,
+K00588,A0478,wikipedia,https://en.wikipedia.org/wiki/Mark_L._Walker,2026-11-16,none,,
+K00589,A0480,wikipedia,https://en.wikipedia.org/wiki/Mattie_Hunter,2026-11-16,none,,
+K00590,A0481,wikipedia,https://en.wikipedia.org/wiki/Lakesia_Collins,2026-11-16,none,,
+K00591,A0482,wikipedia,https://en.wikipedia.org/wiki/Willie_Preston,2026-11-16,none,,
+K00592,A0484,wikipedia,https://en.wikipedia.org/wiki/Emil_Jones_III,2026-11-16,none,,
+K00593,A0485,wikipedia,https://en.wikipedia.org/wiki/Mike_Simmons,2026-11-16,none,,
+K00594,A0486,wikipedia,https://en.wikipedia.org/wiki/Theresa_Mah,2026-11-16,none,,
+K00595,A0488,wikipedia,https://en.wikipedia.org/wiki/Joyce_Mason,2026-11-16,none,,
+K00596,A0490,wikipedia,https://en.wikipedia.org/wiki/Michael_Crawford_%28politician%29,2026-11-16,none,,
+K00597,A0495,wikipedia,https://en.wikipedia.org/wiki/Dagmara_Avelar,2026-11-16,found,website,
+K00598,A0496,wikipedia,https://en.wikipedia.org/wiki/La_Shawn_Ford,2026-11-16,found,website,
+K00599,A0497,wikipedia,https://en.wikipedia.org/wiki/Jeann%C3%A9_Kapela,2026-11-16,none,,
+K00600,A0498,wikipedia,https://en.wikipedia.org/wiki/Terez_Amato,2026-11-16,none,,
+K00601,A0499,wikipedia,https://en.wikipedia.org/wiki/Tina_Nakada_Grandinetti,2026-11-16,none,,
+K00602,A0501,wikipedia,https://en.wikipedia.org/wiki/Trish_La_Chica,2026-11-16,none,,
+K00603,A0502,wikipedia,https://en.wikipedia.org/wiki/Abigail_Disney,2026-11-16,none,,
+K00604,A0561,wikipedia,https://en.wikipedia.org/wiki/Marie_Newman,2026-11-16,none,,
+K00605,A0569,wikipedia,https://en.wikipedia.org/wiki/Joe_Nguyen,2026-11-16,found,website,
+K00606,A0570,wikipedia,https://en.wikipedia.org/wiki/June_Robinson,2026-11-16,found,website,
+K00607,A0571,wikipedia,https://en.wikipedia.org/wiki/Sam_Hunt_%28Washington_politician%29,2026-11-16,found,website,
+K00608,A0572,wikipedia,https://en.wikipedia.org/wiki/Rebecca_Salda%C3%B1a,2026-11-16,found,website,
+K00609,A0573,wikipedia,https://en.wikipedia.org/wiki/Kevin_Van_De_Wege,2026-11-16,none,,
+K00610,A0575,wikipedia,https://en.wikipedia.org/wiki/Karen_Keiser,2026-11-16,found,website,
+K00611,A0577,wikipedia,https://en.wikipedia.org/wiki/John_Lovick_%28politician%29,2026-11-16,none,,
+K00612,A0578,wikipedia,https://en.wikipedia.org/wiki/Annette_Cleveland,2026-11-16,found,website,
+K00613,A0579,wikipedia,https://en.wikipedia.org/wiki/My-Linh_Thai,2026-11-16,none,,
+K00614,A0580,wikipedia,https://en.wikipedia.org/wiki/April_Berg,2026-11-16,none,,
+K00615,A0581,wikipedia,https://en.wikipedia.org/wiki/Cindy_Ryu,2026-11-16,none,,
+K00616,A0582,wikipedia,https://en.wikipedia.org/wiki/Strom_Peterson,2026-11-16,none,,
+K00617,A0583,wikipedia,https://en.wikipedia.org/wiki/Darya_Farivar,2026-11-16,none,,
+K00618,A0584,wikipedia,https://en.wikipedia.org/wiki/Frank_Chopp,2026-11-16,none,,
+K00619,A0585,wikipedia,https://en.wikipedia.org/wiki/David_Hackney,2026-11-16,none,,
+K00620,A0586,wikipedia,https://en.wikipedia.org/wiki/Jamila_Taylor,2026-11-16,none,,
+K00621,A0587,wikipedia,https://en.wikipedia.org/wiki/Julia_Reed_%28politician%29,2026-11-16,found,website,
+K00622,A0588,wikipedia,https://en.wikipedia.org/wiki/Liz_Berry_%28politician%29,2026-11-16,none,,
+K00623,A0589,wikipedia,https://en.wikipedia.org/wiki/Alex_Ramel,2026-11-16,none,,
+K00624,A0590,wikipedia,https://en.wikipedia.org/wiki/Lillian_Ortiz-Self,2026-11-16,none,,
+K00625,A0591,wikipedia,https://en.wikipedia.org/wiki/Kristine_Reeves,2026-11-16,found,website,
+K00626,A0592,wikipedia,https://en.wikipedia.org/wiki/Debra_Entenman,2026-11-16,none,,
+K00627,A0593,wikipedia,https://en.wikipedia.org/wiki/Roger_Goodman_%28politician%29,2026-11-16,none,,
+K00628,A0594,wikipedia,https://en.wikipedia.org/wiki/Amy_Walen,2026-11-16,none,,
+K00629,A0595,wikipedia,https://en.wikipedia.org/wiki/Sharon_Wylie,2026-11-16,found,website,
+K00630,A0596,wikipedia,https://en.wikipedia.org/wiki/Davina_Duerr,2026-11-16,none,,
+K00631,A0597,wikipedia,https://en.wikipedia.org/wiki/Gerry_Pollet,2026-11-16,none,,
+K00632,A0598,wikipedia,https://en.wikipedia.org/wiki/Mia_Gregerson,2026-11-16,found,website,
+K00633,A0599,wikipedia,https://en.wikipedia.org/wiki/Mary_Fosse,2026-11-16,found,website,
+K00634,A0600,wikipedia,https://en.wikipedia.org/wiki/Sharlett_Mena,2026-11-16,none,,
+K00635,A0601,wikipedia,https://en.wikipedia.org/wiki/Sharon_Tomiko_Santos,2026-11-16,none,,
+K00636,A0602,wikipedia,https://en.wikipedia.org/wiki/Chris_Stearns,2026-11-16,none,,
+K00637,A0603,wikipedia,https://en.wikipedia.org/wiki/Tana_Senn,2026-11-16,none,,
+K00638,A0604,wikipedia,https://en.wikipedia.org/wiki/Lisa_Callan,2026-11-16,none,,
+K00639,A0605,wikipedia,https://en.wikipedia.org/wiki/Shelley_Kloba,2026-11-16,found,website,
+K00640,A0606,wikipedia,https://en.wikipedia.org/wiki/Tarra_Simmons,2026-11-16,none,,
+K00641,A0607,wikipedia,https://en.wikipedia.org/wiki/Steve_Tharinger,2026-11-16,none,,
+K00642,A0608,wikipedia,https://en.wikipedia.org/wiki/Mike_Chapman_%28politician%29,2026-11-16,none,,
+K00643,A0609,wikipedia,https://en.wikipedia.org/wiki/Jake_Fey,2026-11-16,none,,
+K00644,A0610,wikipedia,https://en.wikipedia.org/wiki/Julio_Cortes_%28politician%29,2026-11-16,none,,
+K00645,A0611,wikipedia,https://en.wikipedia.org/wiki/Lauren_Davis_%28politician%29,2026-11-16,none,,
+K00646,A0612,wikipedia,https://en.wikipedia.org/wiki/Beth_Doglio,2026-11-16,found,website,
+K00647,A0613,wikipedia,https://en.wikipedia.org/wiki/Vandana_Slatter,2026-11-16,none,,
+K00648,A0614,wikipedia,https://en.wikipedia.org/wiki/Melanie_Morgan_%28politician%29,2026-11-16,none,,
+K00649,A0615,wikipedia,https://en.wikipedia.org/wiki/Steve_Bergquist,2026-11-16,found,website,
+K00650,A0633,wikipedia,https://en.wikipedia.org/wiki/Americans_for_Financial_Reform,2026-11-16,found,website,
+K00651,A0637,wikipedia,https://en.wikipedia.org/wiki/Groundwork_Collaborative,2026-11-16,found,website,
+K00652,A0650,wikipedia,https://en.wikipedia.org/wiki/Climate_Hawks_Vote,2026-11-16,found,website,
+K00653,A0658,wikipedia,https://en.wikipedia.org/wiki/Randi_Weingarten,2026-11-16,none,,
+K00654,A0670,wikipedia,https://en.wikipedia.org/wiki/Peter_Diamond,2026-11-16,none,,
+K00655,A0671,wikipedia,https://en.wikipedia.org/wiki/Daron_Acemoglu,2026-11-16,none,,
+K00656,A0675,wikipedia,https://en.wikipedia.org/wiki/Emmanuel_Saez,2026-11-16,none,,
+K00657,A0676,wikipedia,https://en.wikipedia.org/wiki/David_Gamage,2026-11-16,found,website,
+K00658,A0684,wikipedia,https://en.wikipedia.org/wiki/Harold_Meyerson,2026-11-16,none,,
+K00659,A0686,wikipedia,https://en.wikipedia.org/wiki/Cordell_Cleare,2026-11-16,found,website,
+K00660,A0688,wikipedia,https://en.wikipedia.org/wiki/Kristen_Gonzalez,2026-11-16,found,website,
+K00661,A0690,wikipedia,https://en.wikipedia.org/wiki/Toby_Ann_Stavisky,2026-11-16,found,website,
+K00662,A0691,wikipedia,https://en.wikipedia.org/wiki/Lea_Webb,2026-11-16,none,,
+K00663,A0707,wikipedia,https://en.wikipedia.org/wiki/Corey_Jackson_%28politician%29,2026-11-16,found,website,
+K00664,A0711,wikipedia,https://en.wikipedia.org/wiki/Lola_Smallwood-Cuevas,2026-11-16,none,,
+K00665,A0713,wikipedia,https://en.wikipedia.org/wiki/Liz_Ortega,2026-11-16,found,website,
+K00666,A0723,wikipedia,https://en.wikipedia.org/wiki/Arado_Ar_196,2026-11-16,none,,
+K00667,A0724,wikipedia,https://en.wikipedia.org/wiki/Vladimir_Oravsky,2026-11-16,none,,
+K00668,A0741,wikipedia,https://en.wikipedia.org/wiki/Celeste_Rodriguez,2026-11-16,none,,
+K00669,A0742,wikipedia,https://en.wikipedia.org/wiki/Chris_Ward_%28California_politician%29,2026-11-16,none,,
+K00670,A0806,wikipedia,https://en.wikipedia.org/wiki/Results_%28organization%29,2026-11-16,found,website,
+K00671,A0884,wikipedia,https://en.wikipedia.org/wiki/Stonewall_Young_Democrats,2026-11-16,found,website,
+K00672,A0913,wikipedia,https://en.wikipedia.org/wiki/Shamann_Walton,2026-11-16,found,website,
+K00673,A0956,wikipedia,https://en.wikipedia.org/wiki/Robert_Peters_%28Illinois_politician%29,2026-11-16,none,,
+K00674,A0513,directory,,2026-11-16,none,,no NBER page
+K00675,A0530,directory,,2026-11-16,none,,no NBER page
+K00676,A0670,directory,https://www.nber.org/people/peter_diamond,2026-11-16,found,website,
+K00677,A0671,directory,https://www.nber.org/people/daron_acemoglu,2026-11-16,found,website,
+K00678,A0675,directory,https://www.nber.org/people/emmanuel_saez,2026-11-16,found,website,
+K00679,A0723,directory,https://www.nber.org/people/george_akerlof,2026-11-16,none,,"page found, no website listed"
+K00680,A0724,directory,https://www.nber.org/people/simon_johnson,2026-11-16,found,website,
+K00681,A0739,directory,,2026-11-16,none,,no NBER page
+K00682,A0887,directory,,2026-11-16,none,,no NBER page
+K00683,A0605,own_site,https://housedemocrats.wa.gov/roster/rep-shelley-kloba/,2026-11-16,none,,"not added: bluesky https://bsky.app/profile/housedemocrats.wa.gov (rel-me,social-block); facebook https://www.facebook.com/wahousedems (rel-me,social-block); instagram https://www.instagram.com/wahousedems/ (rel-me,social-block); mastodon https://www.threads.net/@wahousedems (rel-me,social-block); youtube http"
+K00684,A0412,own_site,https://www.house.leg.state.mn.us/members/profile/15553,2026-11-16,none,,"not added: x https://x.com/mnhouseinfo (chrome,social-block); instagram https://www.instagram.com/mnhouseinfo/ (chrome,social-block)"
+K00685,A0455,own_site,https://assembly.state.ny.us/mem/Rodneyse-Bichotte,2026-11-16,none,,already listed: x
+K00686,A0387,own_site,https://housedemocrats.wa.gov/roster/rep-derek-stanford/,2026-11-16,none,,"not added: bluesky https://bsky.app/profile/housedemocrats.wa.gov (rel-me,social-block); facebook https://www.facebook.com/wahousedems (rel-me,social-block); instagram https://www.instagram.com/wahousedems/ (rel-me,social-block); mastodon https://www.threads.net/@wahousedems (rel-me,social-block); youtube http"
+K00687,A0257,own_site,https://nikki4supervisor.com,2026-11-16,found,facebook;instagram,
+K00688,A0650,own_site,https://climatehawksvote.com,2026-11-16,found,facebook;x,not added: x https://x.com/RL_Miller (); bluesky https://bsky.app/profile/rlmiller.bsky.social (); bluesky https://bsky.app/profile/wealsoherdcats.com ()
+K00689,A0415,own_site,https://kariformn.com,2026-11-16,found,facebook;bluesky,
+K00690,A0425,own_site,https://nysenate.gov/senators/brad-hoylman-sigal,2026-11-16,blocked,,403 at https://nysenate.gov/senators/brad-hoylman-sigal
+K00691,A0595,own_site,https://housedemocrats.wa.gov/roster/rep-sharon-wylie/,2026-11-16,none,,"not added: bluesky https://bsky.app/profile/housedemocrats.wa.gov (rel-me,social-block); facebook https://www.facebook.com/wahousedems (rel-me,social-block); instagram https://www.instagram.com/wahousedems/ (rel-me,social-block); mastodon https://www.threads.net/@wahousedems (rel-me,social-block); youtube http"
+K00692,A0196,own_site,https://maiforus.com,2026-11-16,none,,"not added: facebook https://www.facebook.com/MaiForUs (chrome,social-block); x https://x.com/maiforus (chrome,social-block); instagram https://www.instagram.com/maiforus/ (chrome,social-block); tiktok https://www.tiktok.com/@maiforus (chrome,social-block); youtube https://www.youtube.com/channel/UCnQC62sw1r3U1"
+K00693,A0398,own_site,https://martinezformaryland.com/,2026-11-16,found,facebook;instagram;bluesky,"not added: youtube https://www.youtube.com/channel/UCACkey3RMgvPjvBgIvne9Sw (chrome,share,social-block)"
+K00694,A0038,own_site,https://votersoftomorrow.org,2026-11-16,found,facebook;x;instagram;tiktok,
+K00695,A0447,own_site,https://marcelaforny.org,2026-11-16,found,instagram,"not added: x https://x.com/MarcelaforNy (chrome,share,social-block); facebook https://www.facebook.com/marcelaforny (chrome,share,social-block)"
+K00696,A0386,own_site,https://housedemocrats.wa.gov/roster/rep-marcus-riccelli/,2026-11-16,none,,"not added: bluesky https://bsky.app/profile/housedemocrats.wa.gov (rel-me,social-block); facebook https://www.facebook.com/wahousedems (rel-me,social-block); instagram https://www.instagram.com/wahousedems/ (rel-me,social-block); mastodon https://www.threads.net/@wahousedems (rel-me,social-block); youtube http"
+K00697,A0390,own_site,https://sdc.wastateleg.org/wellman/,2026-11-16,none,,"not added: instagram https://www.instagram.com/wasendemocrats/ (chrome,social-block); instagram https://www.instagram.com/senatoryasmintrudeau/ (social-block); facebook https://www.facebook.com/SenateDemocrats (chrome,social-block); facebook https://www.facebook.com/WaSenMOCC (social-block); facebook https://w"
+K00698,A0713,own_site,https://a20.asmdc.org,2026-11-16,found,facebook;instagram,
+K00699,A0446,own_site,https://nyassembly.gov/mem/Michaelle-C-Solages,2026-11-16,found,facebook;instagram,already listed: x
+K00700,A0039,own_site,https://350bayarea.org/,2026-11-16,found,facebook;bluesky;instagram;linkedin;youtube;x,
+K00701,A0407,own_site,https://www.house.mn.gov/members/profile/15606,2026-11-16,none,,"not added: x https://x.com/mnhouseinfo (chrome,social-block); instagram https://www.instagram.com/mnhouseinfo/ (chrome,social-block)"
+K00702,A0707,own_site,https://a60.asmdc.org,2026-11-16,found,facebook;instagram;bluesky,
+K00703,A0884,own_site,https://www.stonewallyoungdemocrats.com,2026-11-16,found,instagram;facebook;x,
+K00704,A0690,own_site,https://nysenate.gov/senators/toby-ann-stavisky,2026-11-16,blocked,,403 at https://nysenate.gov/senators/toby-ann-stavisky
+K00705,A0402,own_site,https://www.house.leg.state.mn.us/members/profile/15531,2026-11-16,none,,"not added: x https://x.com/mnhouseinfo (chrome,social-block); instagram https://www.instagram.com/mnhouseinfo/ (chrome,social-block)"
+K00706,A0413,own_site,https://www.house.mn.gov/members/profile/15630,2026-11-16,none,,"not added: x https://x.com/mnhouseinfo (chrome,social-block); instagram https://www.instagram.com/mnhouseinfo/ (chrome,social-block)"
+K00707,A0615,own_site,https://housedemocrats.wa.gov/roster/rep-steve-bergquist/,2026-11-16,none,,"not added: bluesky https://bsky.app/profile/housedemocrats.wa.gov (rel-me,social-block); facebook https://www.facebook.com/wahousedems (rel-me,social-block); instagram https://www.instagram.com/wahousedems/ (rel-me,social-block); mastodon https://www.threads.net/@wahousedems (rel-me,social-block); youtube http"
+K00708,A0406,own_site,https://www.house.mn.gov/members/profile/15572,2026-11-16,none,,"not added: x https://x.com/mnhouseinfo (chrome,social-block); instagram https://www.instagram.com/mnhouseinfo/ (chrome,social-block)"
+K00709,A0671,own_site,https://mit.edu/daron/www,2026-11-16,none,,
+K00710,A0612,own_site,https://www.bethdoglio.com/,2026-11-16,found,facebook;instagram,not added: facebook https://www.facebook.com/102169660499929 (social-block); facebook https://www.facebook.com/493281790687181 (social-block); facebook https://www.facebook.com/1486909554948411_1485574876714560 (social-block)
+K00711,A0587,own_site,https://www.votejuliareed.com/,2026-11-16,found,linkedin;instagram;facebook,
+K00712,A0591,own_site,https://kristinereeves.com,2026-11-16,found,facebook;x;linkedin;instagram,
+K00713,A0569,own_site,https://sdc.wastateleg.org/nguyen,2026-11-16,none,,"not added: instagram https://www.instagram.com/wasendemocrats/ (chrome,social-block); instagram https://www.instagram.com/senatoryasmintrudeau/ (social-block); facebook https://www.facebook.com/SenateDemocrats (chrome,social-block); facebook https://www.facebook.com/WaSenMOCC (social-block); facebook https://w"
+K00714,A0440,own_site,https://assembly.state.ny.us/mem/Jo-Anne-Simon,2026-11-16,none,,"not added: youtube https://www.youtube.com/channel/UC1xRMZQ--r4JB1N72ozcdpQ (chrome,social-block)"
+K00715,A0599,own_site,https://www.maryfosse.com,2026-11-16,found,facebook,
+K00716,A0913,own_site,https://sfbos.org/supervisor-walton-district-10,2026-11-16,none,,
+K00717,A0495,own_site,https://ilga.gov/House/Members/Details/3391,2026-11-16,error,,URLError: <urlopen error [WinError 10060] A connection attempt failed because the connecte
+K00718,A0675,own_site,https://elsa.berkeley.edu/~saez/index.html,2026-11-16,none,,
+K00719,A0245,own_site,https://sfbos.org/supervisor-peskin,2026-11-16,none,,
+K00720,A0676,own_site,https://law.missouri.edu/person/david-gamage/,2026-11-16,none,,"not added: facebook https://www.facebook.com/UniversityofMissouriLaw (chrome,social-block); instagram https://www.instagram.com/mizzoulaw/ (chrome,social-block); linkedin https://www.linkedin.com/school/mizzou-law (chrome,social-block); x https://x.com/mizzoulaw (chrome,social-block)"
+K00721,A0477,own_site,https://gracielafor20.com/,2026-11-16,found,facebook;x,
+K00722,A0385,own_site,https://voteramos.org,2026-11-16,none,,
+K00723,A0404,own_site,https://house.mn.gov/members/profile/15552,2026-11-16,error,,"URLError: <urlopen error (""The certificate's CN name does not match the passed value."",)>"
+K00724,A0570,own_site,https://housedemocrats.wa.gov/roster/rep-june-robinson/,2026-11-16,error,,404 at https://housedemocrats.wa.gov/roster/rep-june-robinson/
+K00725,A0423,own_site,https://jeremycooney.com,2026-11-16,found,facebook;instagram;tiktok,already listed: x
+K00726,A0419,own_site,https://www.neildbreslin.com/,2026-11-16,found,facebook;linkedin,already listed: x
+K00727,A0496,own_site,https://lashawnford.com,2026-11-16,found,facebook;instagram;x,
+K00728,A0396,own_site,https://gabeacevero.org/,2026-11-16,found,instagram;facebook,
+K00729,A0688,own_site,https://nysenate.gov/senators/kristen-gonzalez,2026-11-16,blocked,,403 at https://nysenate.gov/senators/kristen-gonzalez
+K00730,A0572,own_site,https://sdc.wastateleg.org/saldana/,2026-11-16,found,facebook,"not added: instagram https://www.instagram.com/wasendemocrats/ (chrome,social-block); instagram https://www.instagram.com/senatoryasmintrudeau/ (social-block); facebook https://www.facebook.com/SenateDemocrats (chrome,social-block); facebook https://www.facebook.com/WaSenMOCC (social-block); facebook https://w"
+K00731,A0403,own_site,https://www.house.leg.state.mn.us/members/profile/15595,2026-11-16,none,,"not added: x https://x.com/mnhouseinfo (chrome,social-block); instagram https://www.instagram.com/mnhouseinfo/ (chrome,social-block)"
+K00732,A0444,own_site,https://nyassembly.gov/mem/Karines-Reyes,2026-11-16,none,,
+K00733,A0408,own_site,https://www.house.mn.gov/members/profile/15535,2026-11-16,none,,"not added: x https://x.com/mnhouseinfo (chrome,social-block); instagram https://www.instagram.com/mnhouseinfo/ (chrome,social-block)"
+K00734,A0414,own_site,https://www.house.mn.gov/members/profile/15571,2026-11-16,none,,"not added: x https://x.com/mnhouseinfo (chrome,social-block); instagram https://www.instagram.com/mnhouseinfo/ (chrome,social-block)"
+K00735,A0571,own_site,https://sdc.wastateleg.org/hunt/,2026-11-16,none,,"not added: instagram https://www.instagram.com/wasendemocrats/ (chrome,social-block); instagram https://www.instagram.com/senatoryasmintrudeau/ (social-block); facebook https://www.facebook.com/SenateDemocrats (chrome,social-block); facebook https://www.facebook.com/WaSenMOCC (social-block); facebook https://w"
+K00736,A0633,own_site,https://ourfinancialsecurity.org,2026-11-16,found,youtube;instagram;bluesky;substack,"already listed: x,facebook"
+K00737,A0459,own_site,https://nyassembly.gov/mem/Maritza-Davila,2026-11-16,found,facebook;instagram,
+K00738,A0441,own_site,https://tonyfornewyork.com,2026-11-16,error,,"URLError: <urlopen error (""The certificate's CN name does not match the passed value."",)>"
+K00739,A0399,own_site,https://kentroberson.org/,2026-11-16,found,instagram;x,not added: facebook https://www.facebook.com/1854097581514950 (social-block)
+K00740,A0575,own_site,https://sdc.wastateleg.org/keiser,2026-11-16,none,,"not added: instagram https://www.instagram.com/wasendemocrats/ (chrome,social-block); instagram https://www.instagram.com/senatoryasmintrudeau/ (social-block); facebook https://www.facebook.com/SenateDemocrats (chrome,social-block); facebook https://www.facebook.com/WaSenMOCC (social-block); facebook https://w"
+K00741,A0405,own_site,https://www.house.mn.gov/members/profile/15575,2026-11-16,none,,"not added: x https://x.com/mnhouseinfo (chrome,social-block); instagram https://www.instagram.com/mnhouseinfo/ (chrome,social-block)"
+K00742,A0598,own_site,https://housedemocrats.wa.gov/roster/rep-mia-gregerson/,2026-11-16,none,,"not added: bluesky https://bsky.app/profile/housedemocrats.wa.gov (rel-me,social-block); facebook https://www.facebook.com/wahousedems (rel-me,social-block); instagram https://www.instagram.com/wahousedems/ (rel-me,social-block); mastodon https://www.threads.net/@wahousedems (rel-me,social-block); youtube http"
+K00743,A0401,own_site,https://www.caylinyoung.com/,2026-11-16,none,,
+K00744,A0391,own_site,https://sdc.wastateleg.org/wilson/,2026-11-16,none,,"not added: instagram https://www.instagram.com/wasendemocrats/ (chrome,social-block); instagram https://www.instagram.com/senatoryasmintrudeau/ (social-block); facebook https://www.facebook.com/SenateDemocrats (chrome,social-block); facebook https://www.facebook.com/WaSenMOCC (social-block); facebook https://w"
+K00745,A0448,own_site,https://nyassembly.gov/mem/Emily-Gallagher,2026-11-16,none,,
+K00746,A0578,own_site,https://www.annettecleveland.com,2026-11-16,found,facebook;instagram,not added: youtube https://www.youtube.com/channel/UCMBKrtjwAjZiSGYPfw2-k0w (chrome); x https://x.com/riff_creative (meta); x https://x.com/Contact (meta)
+K00747,A0686,own_site,https://clearechoice.com,2026-11-16,blocked,,403 at https://clearechoice.com
+K00748,A0637,own_site,https://groundworkcollaborative.org/,2026-11-16,found,x;linkedin;bluesky;instagram,"not added: x https://x.com/alexsjacquez (); x https://x.com/zoezoe_butler (); x https://x.com/grndswell (); x https://x.com/nancyscola (); instagram https://www.instagram.com/lindsayowensphd/ (chrome,social-block)"
+K00749,A0442,own_site,https://ragaforqueens.com,2026-11-16,blocked,,robots.txt forbids https://ragaforqueens.com
+K00750,A0443,own_site,https://nyassembly.gov/mem/Dana-Levenberg,2026-11-16,none,,
+K00751,A0430,own_site,https://nysenate.gov/senators/zellnor-myrie,2026-11-16,blocked,,403 at https://nysenate.gov/senators/zellnor-myrie
+K00752,A0806,own_site,https://www.results.org,2026-11-16,found,instagram;bluesky;x;facebook;linkedin;youtube,
+K00753,A0439,own_site,https://nyassembly.gov/mem/Jessica-Gonzalez-Rojas,2026-11-16,none,,
+K00754,A0421,own_site,https://samraforsenate.com,2026-11-16,found,instagram;facebook,already listed: x
+K00755,A0420,own_site,https://jabariforstatesenate.com,2026-11-16,found,instagram,already listed: x
+K00756,A0724,own_site,https://mitsloan.mit.edu/faculty/detail.php?in_spseqno=41226,2026-11-16,found,substack,"not added: facebook https://www.facebook.com/MITSloan (chrome,share,social-block); instagram https://www.instagram.com/mitsloan/ (chrome,share,social-block); linkedin https://www.linkedin.com/company/mit-sloan-school-of-management (chrome,share,social-block); x https://x.com/mitsloan (chrome,meta,share,social-"
+K00757,A0670,own_site,https://web.mit.edu/pdiamond/www,2026-11-16,none,,
+K00758,A0083,own_site,https://yda.org/,2026-11-16,found,facebook;x;youtube;bluesky,"not added: instagram https://www.instagram.com/theyoungdemocrats/ (social-block); instagram https://www.instagram.com/youngdems/ (chrome,social-block); linkedin https://www.linkedin.com/in/fatima-n-heyward (social-block); linkedin https://www.linkedin.com/in/lezliebcampbell (social-block); linkedin https://www"

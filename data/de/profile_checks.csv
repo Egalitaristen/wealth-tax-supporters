@@ -357,3 +357,98 @@ K00355,A0084,own_site,https://www.priskahinz.de/,2026-11-16,error,,URLError: <ur
 K00356,A0397,own_site,https://www.ralf-stegner.de/,2026-11-16,blocked,,403 at https://www.ralf-stegner.de/
 K00357,A0336,own_site,https://ismail-kuepeli.de/,2026-11-16,none,,
 K00358,A0344,own_site,https://rebecca-maskos.net/,2026-11-16,none,,
+K00359,A0010,wikipedia,https://en.wikipedia.org/wiki/Agnes_Conrad_%28politician%29,2026-11-16,none,,
+K00360,A0011,wikipedia,https://en.wikipedia.org/wiki/Mirze_Edis,2026-11-16,none,,
+K00361,A0012,wikipedia,https://en.wikipedia.org/wiki/Cem_Ince,2026-11-16,none,,
+K00362,A0013,wikipedia,https://en.wikipedia.org/wiki/Tamara_Mazzi,2026-11-16,none,,
+K00363,A0015,wikipedia,https://en.wikipedia.org/wiki/Zada_Salihovi%C4%87,2026-11-16,none,,
+K00364,A0016,wikipedia,https://en.wikipedia.org/wiki/Lisa_Schubert,2026-11-16,none,,
+K00365,A0019,wikipedia,https://en.wikipedia.org/wiki/Sarah_Vollath,2026-11-16,none,,
+K00366,A0038,wikipedia,https://en.wikipedia.org/wiki/Fabio_De_Masi,2026-11-16,found,website,
+K00367,A0045,wikipedia,https://en.wikipedia.org/wiki/Andreas_Wagner_%28politician%29,2026-11-16,none,,
+K00368,A0054,wikipedia,https://en.wikipedia.org/wiki/Dagmar_Enkelmann,2026-11-16,none,,
+K00369,A0060,wikipedia,https://en.wikipedia.org/wiki/Barbara_H%C3%B6ll,2026-11-16,none,,
+K00370,A0062,wikipedia,https://en.wikipedia.org/wiki/Harald_Koch_%28Politiker%29,2026-11-16,none,,
+K00371,A0063,wikipedia,https://en.wikipedia.org/wiki/Ulla_L%C3%B6tzer,2026-11-16,none,,
+K00372,A0064,wikipedia,https://en.wikipedia.org/wiki/Ulrich_Maurer_%28politician%29,2026-11-16,none,,
+K00373,A0068,wikipedia,https://en.wikipedia.org/wiki/Paul_Sch%C3%A4fer_%28politician%29,2026-11-16,none,,
+K00374,A0069,wikipedia,https://en.wikipedia.org/wiki/Michael_Schlecht,2026-11-16,none,,
+K00375,A0073,wikipedia,https://en.wikipedia.org/wiki/Werner_Dreibus,2026-11-16,none,,
+K00376,A0075,wikipedia,https://en.wikipedia.org/wiki/Doroth%C3%A9e_Menzner,2026-11-16,none,,
+K00377,A0076,wikipedia,https://en.wikipedia.org/wiki/Sabine_St%C3%BCber,2026-11-16,none,,
+K00378,A0077,wikipedia,https://en.wikipedia.org/wiki/Johanna_Vo%C3%9F,2026-11-16,none,,
+K00379,A0094,wikipedia,https://en.wikipedia.org/wiki/Ingrid_H%C3%B6nlinger,2026-11-16,none,,
+K00380,A0095,wikipedia,https://en.wikipedia.org/wiki/Thilo_Hoppe,2026-11-16,none,,
+K00381,A0101,wikipedia,https://en.wikipedia.org/wiki/Agnes_Krumwiede,2026-11-16,none,,
+K00382,A0105,wikipedia,https://en.wikipedia.org/wiki/Hermann_E._Ott,2026-11-16,none,,
+K00383,A0112,wikipedia,https://en.wikipedia.org/wiki/Ulrich_Schneider_%28Politiker%29,2026-11-16,none,,
+K00384,A0114,wikipedia,https://en.wikipedia.org/wiki/Daniela_Wagner,2026-11-16,found,website,
+K00385,A0153,wikipedia,https://en.wikipedia.org/wiki/Yasmin_Fahimi,2026-11-16,none,,
+K00386,A0164,wikipedia,https://en.wikipedia.org/wiki/Marlene_Engelhorn,2026-11-16,none,,
+K00387,A0167,wikipedia,https://en.wikipedia.org/wiki/Christoph_Butterwegge,2026-11-16,none,,
+K00388,A0194,wikipedia,https://en.wikipedia.org/wiki/Nicolette_Kressl,2026-11-16,none,,
+K00389,A0205,wikipedia,https://en.wikipedia.org/wiki/Christoph_Hein,2026-11-16,found,website,
+K00390,A0206,wikipedia,https://en.wikipedia.org/wiki/Annette_Humpe,2026-11-16,found,website,
+K00391,A0212,wikipedia,https://en.wikipedia.org/wiki/Ulrich_Schneider_%28Verbandsfunktion%C3%A4r%29,2026-11-16,none,,
+K00392,A0218,wikipedia,https://en.wikipedia.org/wiki/Cornelia_Behm,2026-11-16,none,,
+K00393,A0219,wikipedia,https://en.wikipedia.org/wiki/Hans-Josef_Fell,2026-11-16,found,website,
+K00394,A0220,wikipedia,https://en.wikipedia.org/wiki/Bettina_Herlitzius,2026-11-16,none,,
+K00395,A0223,wikipedia,https://en.wikipedia.org/wiki/Memet_Kili%C3%A7,2026-11-16,none,,
+K00396,A0224,wikipedia,https://en.wikipedia.org/wiki/Ute_Koczy,2026-11-16,none,,
+K00397,A0227,wikipedia,https://en.wikipedia.org/wiki/Undine_Kurth,2026-11-16,none,,
+K00398,A0231,wikipedia,https://en.wikipedia.org/wiki/Kerstin_M%C3%BCller,2026-11-16,none,,
+K00399,A0235,wikipedia,https://en.wikipedia.org/wiki/Krista_Sager,2026-11-16,none,,
+K00400,A0236,wikipedia,https://en.wikipedia.org/wiki/Dorothea_Steiner,2026-11-16,none,,
+K00401,A0241,wikipedia,https://en.wikipedia.org/wiki/Josef_Winkler_%28politician%29,2026-11-16,none,,
+K00402,A0247,wikipedia,https://en.wikipedia.org/wiki/Philipp_T%C3%BCrmer,2026-11-16,none,,
+K00403,A0255,wikipedia,https://en.wikipedia.org/wiki/Alex_Demirovi%C4%87,2026-11-16,none,,
+K00404,A0261,wikipedia,https://en.wikipedia.org/wiki/Inge_Hannemann,2026-11-16,none,,
+K00405,A0272,wikipedia,https://en.wikipedia.org/wiki/Sharon_Dodua_Otoo,2026-11-16,found,website,
+K00406,A0273,wikipedia,https://en.wikipedia.org/wiki/Fatma_Aydemir,2026-11-16,none,,
+K00407,A0274,wikipedia,https://en.wikipedia.org/wiki/Hengameh_Yaghoobifarah,2026-11-16,none,,
+K00408,A0276,wikipedia,https://en.wikipedia.org/wiki/Reyhan_%C5%9Eahin,2026-11-16,none,,
+K00409,A0277,wikipedia,https://en.wikipedia.org/wiki/Mithu_Sanyal,2026-11-16,none,,
+K00410,A0285,wikipedia,https://en.wikipedia.org/wiki/Joseph_Vogl,2026-11-16,none,,
+K00411,A0289,wikipedia,https://en.wikipedia.org/wiki/Arne_Semsrott,2026-11-16,none,,
+K00412,A0290,wikipedia,https://en.wikipedia.org/wiki/Meron_Mendel,2026-11-16,found,website,
+K00413,A0295,wikipedia,https://en.wikipedia.org/wiki/El_Hotzo,2026-11-16,none,,
+K00414,A0296,wikipedia,https://en.wikipedia.org/wiki/Florian_Kessler_%28Journalist%29,2026-11-16,none,,
+K00415,A0301,wikipedia,https://en.wikipedia.org/wiki/Senthuran_Varatharajah,2026-11-16,none,,
+K00416,A0302,wikipedia,https://en.wikipedia.org/wiki/Kurt_Glockzin,2026-11-16,none,,
+K00417,A0307,wikipedia,https://en.wikipedia.org/wiki/Marcus_Staiger,2026-11-16,none,,
+K00418,A0308,wikipedia,https://en.wikipedia.org/wiki/Max_Czollek,2026-11-16,none,,
+K00419,A0311,wikipedia,https://en.wikipedia.org/wiki/Volker_L%C3%B6sch,2026-11-16,none,,
+K00420,A0313,wikipedia,https://en.wikipedia.org/wiki/Susanne_Schunter-Kleemann,2026-11-16,none,,
+K00421,A0315,wikipedia,https://en.wikipedia.org/wiki/Gerd_Gr%C3%B6zinger,2026-11-16,none,,
+K00422,A0316,wikipedia,https://en.wikipedia.org/wiki/Timm_Kunstreich,2026-11-16,none,,
+K00423,A0318,wikipedia,https://en.wikipedia.org/wiki/Niko_Paech,2026-11-16,none,,
+K00424,A0319,wikipedia,https://en.wikipedia.org/wiki/Hauke_Brunkhorst,2026-11-16,none,,
+K00425,A0325,wikipedia,https://en.wikipedia.org/wiki/Swen_Kn%C3%B6chel,2026-11-16,none,,
+K00426,A0328,wikipedia,https://en.wikipedia.org/wiki/Norbert_Walter-Borjans,2026-11-16,none,,
+K00427,A0353,wikipedia,https://en.wikipedia.org/wiki/Philipp_Genschel,2026-11-16,none,,
+K00428,A0368,wikipedia,https://en.wikipedia.org/wiki/Michael_Hartmann_%28Soziologe%29,2026-11-16,none,,
+K00429,A0370,wikipedia,https://en.wikipedia.org/wiki/Ulrich_Brand,2026-11-16,none,,
+K00430,A0391,wikipedia,https://en.wikipedia.org/wiki/Rico_Gebhardt,2026-11-16,none,,
+K00431,A0393,wikipedia,https://en.wikipedia.org/wiki/Bj%C3%B6rn_B%C3%B6hning,2026-11-16,none,,
+K00432,A0409,wikipedia,https://en.wikipedia.org/wiki/Timon_Dzienus,2026-11-16,none,,
+K00433,A0167,directory,,2026-11-16,none,,no NBER page
+K00434,A0198,directory,,2026-11-16,none,,no NBER page
+K00435,A0255,directory,,2026-11-16,none,,no NBER page
+K00436,A0276,directory,,2026-11-16,none,,no NBER page
+K00437,A0285,directory,,2026-11-16,none,,no NBER page
+K00438,A0313,directory,,2026-11-16,none,,no NBER page
+K00439,A0315,directory,,2026-11-16,none,,no NBER page
+K00440,A0316,directory,,2026-11-16,none,,no NBER page
+K00441,A0318,directory,,2026-11-16,none,,no NBER page
+K00442,A0319,directory,,2026-11-16,none,,no NBER page
+K00443,A0340,directory,,2026-11-16,none,,no NBER page
+K00444,A0353,directory,,2026-11-16,none,,no NBER page
+K00445,A0368,directory,,2026-11-16,none,,no NBER page
+K00446,A0370,directory,,2026-11-16,none,,no NBER page
+K00447,A0290,own_site,https://meronmendel.de,2026-11-16,found,instagram;linkedin,
+K00448,A0205,own_site,https://www.suhrkamp.de/autoren/autor.cfm?id=1845,2026-11-16,none,,"not added: facebook https://www.facebook.com/suhrkamp (chrome,social-block); instagram https://www.instagram.com/suhrkampverlag/ (chrome,social-block); bluesky https://bsky.app/profile/suhrkamp.de (chrome,social-block); tiktok https://www.tiktok.com/@suhrkampverlag (chrome,social-block); youtube https://www.yo"
+K00449,A0038,own_site,https://www.fabio-de-masi.de,2026-11-16,none,,"not added: youtube https://www.youtube.com/channel/UCf_LXakoIB1vA6Ra1IlzNLg (chrome); already listed: instagram,facebook,x"
+K00450,A0219,own_site,https://hans-josef-fell.de,2026-11-16,found,x;youtube,
+K00451,A0206,own_site,https://ich-und-ich.de,2026-11-16,none,,not added: facebook https://www.facebook.com/195043764055 (); facebook https://www.facebook.com/universalmusicdeutschland (); x https://x.com/UmusicGermany (meta); youtube https://www.youtube.com/user/UniversalMusicD (); instagram https://www.instagram.com/universalmusicgermany/ (); linkedin https://www.linked
+K00452,A0272,own_site,https://about.me/sharonotoo,2026-11-16,found,facebook;x;instagram,not added: x https://x.com/aboutdotme (meta); x https://x.com/ms_represented (meta)
+K00453,A0114,own_site,https://www.daniela-wagner.net/,2026-11-16,none,,"not added: facebook https://www.facebook.com/gruene.darmstadt (chrome,rel-me,social-block); tiktok https://www.tiktok.com/@gruene_darmstadt (chrome,rel-me,social-block); instagram https://www.instagram.com/gruenedarmstadt/ (chrome,rel-me,social-block); instagram https://www.instagram.com/evabredowcordier/ (chr"

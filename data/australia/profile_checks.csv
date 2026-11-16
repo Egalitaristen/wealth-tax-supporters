@@ -28,3 +28,34 @@ K00026,A0048,own_site,https://mehreen-faruqi.greensmps.org.au,2026-11-16,none,,"
 K00027,A0028,own_site,https://www.greenleft.org.au/author/alex-bainbridge,2026-11-16,none,,not added: facebook https://www.facebook.com/profile.php?id=61563834293752 (social-block); tiktok https://www.tiktok.com/@greenleftonline (social-block); instagram https://www.instagram.com/greenleftonline/ (social-block); bluesky https://bsky.app/profile/greenleftonline.bsky.social (social-block); x https://x
 K00028,A0007,own_site,https://barbarapocock.com.au,2026-11-16,found,facebook,"not added: facebook https://www.facebook.com/MothersSSA (); already listed: instagram,x,bluesky"
 K00029,A0027,own_site,https://www.abigailboyd.org,2026-11-16,found,facebook;x;bluesky;tiktok,already listed: instagram
+K00030,A0014,wikipedia,https://en.wikipedia.org/wiki/David_Shoebridge,2026-11-16,found,website,
+K00031,A0015,wikipedia,https://en.wikipedia.org/wiki/Steph_Hodgins-May,2026-11-16,found,website,
+K00032,A0016,wikipedia,https://en.wikipedia.org/wiki/Jordon_Steele-John,2026-11-16,found,website,
+K00033,A0026,wikipedia,https://en.wikipedia.org/wiki/Richard_Denniss,2026-11-16,none,,
+K00034,A0033,wikipedia,https://en.wikipedia.org/wiki/Dick_Smith_%28businessman%29,2026-11-16,found,website,
+K00035,A0036,wikipedia,https://en.wikipedia.org/wiki/Carl_Rhodes,2026-11-16,found,website,
+K00036,A0037,wikipedia,https://en.wikipedia.org/wiki/Frank_Stilwell_%28economist%29,2026-11-16,none,,
+K00037,A0046,wikipedia,https://en.wikipedia.org/wiki/Penny_Allman-Payne,2026-11-16,found,website,
+K00038,A0047,wikipedia,https://en.wikipedia.org/wiki/Dorinda_Cox,2026-11-16,none,,
+K00039,A0051,wikipedia,https://en.wikipedia.org/wiki/Peter_Whish-Wilson,2026-11-16,found,website,
+K00040,A0054,wikipedia,https://en.wikipedia.org/wiki/Janet_Rice,2026-11-16,found,website,
+K00041,A0006,directory,,2026-11-16,none,,no NBER page
+K00042,A0018,directory,,2026-11-16,none,,no NBER page
+K00043,A0019,directory,,2026-11-16,none,,no NBER page
+K00044,A0022,directory,,2026-11-16,none,,no NBER page
+K00045,A0023,directory,,2026-11-16,none,,no NBER page
+K00046,A0026,directory,,2026-11-16,none,,no NBER page
+K00047,A0037,directory,,2026-11-16,none,,no NBER page
+K00048,A0040,directory,https://www.nber.org/people/cagri_kumru,2026-11-16,none,,"page found, no website listed"
+K00049,A0057,directory,,2026-11-16,none,,no NBER page
+K00050,A0065,directory,,2026-11-16,none,,no NBER page
+K00051,A0082,directory,,2026-11-16,none,,no NBER page
+K00052,A0085,directory,,2026-11-16,none,,no NBER page
+K00053,A0015,own_site,https://greens.org.au/vic/person/steph-hodgins-may,2026-11-16,found,x;facebook;instagram,"not added: x https://x.com/greens (chrome,meta,social-block); facebook https://www.facebook.com/AustralianGreens (chrome,social-block); instagram https://www.instagram.com/australiangreens/ (chrome,social-block); youtube https://www.youtube.com/user/AustralianGreens (chrome,social-block); bluesky https://bsky."
+K00054,A0016,own_site,https://greens.org.au/wa/person/jordon-steele-john,2026-11-16,none,,"not added: x https://x.com/greens (chrome,meta,social-block); facebook https://www.facebook.com/AustralianGreens (chrome,social-block); instagram https://www.instagram.com/australiangreens/ (chrome,social-block); youtube https://www.youtube.com/channel/UCoZxYiM6oUUSgOy9tJA-G7Q (rel-me,social-block); youtube ht; already listed: facebook,instagram"
+K00055,A0014,own_site,https://greens.org.au/nsw/person/david-shoebridge,2026-11-16,found,mastodon;bluesky,"not added: x https://x.com/greens (chrome,meta,social-block); facebook https://www.facebook.com/AustralianGreens (chrome,social-block); instagram https://www.instagram.com/australiangreens/ (chrome,social-block); bluesky https://bsky.app/profile/greens.org.au (chrome,social-block); youtube https://www.youtube."
+K00056,A0033,own_site,https://dicksmithadventure.com.au/,2026-11-16,none,,
+K00057,A0054,own_site,https://greens.org.au/vic/person/janet-rice,2026-11-16,found,bluesky,"not added: facebook https://www.facebook.com/AustralianGreens (chrome,social-block); instagram https://www.instagram.com/australiangreens/ (chrome,social-block); bluesky https://bsky.app/profile/greens.org.au (chrome,social-block); youtube https://www.youtube.com/user/AustralianGreens (chrome,social-block); x ; already listed: facebook,instagram"
+K00058,A0046,own_site,https://greens.org.au/qld/person/penny-allman-payne,2026-11-16,found,x;facebook;bluesky;instagram;tiktok,"not added: x https://x.com/QldGreens (chrome,social-block); x https://x.com/greens (meta); x https://x.com/larissawaters (); x https://x.com/EWatsonBrown (); x https://x.com/mcberkman (); x https://x.com/TrinaGreens (); facebook https://www.facebook.com/QueenslandGreens (chrome,social-block); facebook https://"
+K00059,A0051,own_site,https://greens.org.au/tas/person/peter-whish-wilson,2026-11-16,none,,"not added: x https://x.com/SenatorSurfer (rel-me,social-block); x https://x.com/greens (chrome,meta,social-block); facebook https://www.facebook.com/senatorsurfer (rel-me,social-block); facebook https://www.facebook.com/AustralianGreens (chrome,social-block); instagram https://www.instagram.com/senatorsurfer/ "
+K00060,A0036,own_site,https://profiles.uts.edu.au/Carl.Rhodes,2026-11-16,found,substack;x;linkedin,

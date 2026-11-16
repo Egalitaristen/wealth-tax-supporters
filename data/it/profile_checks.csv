@@ -59,3 +59,187 @@ K00057,A0001,own_site,https://verdisinistra.it/,2026-11-16,none,,
 K00058,A0011,own_site,https://sbilanciamoci.info/,2026-11-16,found,facebook;instagram,
 K00059,A0287,own_site,https://www.actionaid.it,2026-11-16,blocked,,403 at https://www.actionaid.it
 K00060,A0181,own_site,https://lucapastorino.net,2026-11-16,found,facebook;youtube;instagram;x,"404 at https://www.camera.it/deputati/elenco/19-306332; not added: youtube https://www.youtube.com/channel/UCboGoSEddQuFXVjYhlrcR6w (chrome,social-block)"
+K00061,A0016,wikipedia,https://en.wikipedia.org/wiki/Fabrizio_Barca,2026-11-16,none,,
+K00062,A0022,wikipedia,https://en.wikipedia.org/wiki/Giovanni_Dosi,2026-11-16,none,,
+K00063,A0023,wikipedia,https://en.wikipedia.org/wiki/Emanuele_Felice,2026-11-16,none,,
+K00064,A0027,wikipedia,https://en.wikipedia.org/wiki/Mauro_Gallegati,2026-11-16,none,,
+K00065,A0037,wikipedia,https://en.wikipedia.org/wiki/Ugo_Pagano,2026-11-16,none,,
+K00066,A0050,wikipedia,https://en.wikipedia.org/wiki/Marco_Vivarelli,2026-11-16,none,,
+K00067,A0160,wikipedia,https://en.wikipedia.org/wiki/Maurizio_Acerbo,2026-11-16,none,,
+K00068,A0169,wikipedia,https://en.wikipedia.org/wiki/Giuseppe_Civati,2026-11-16,none,,
+K00069,A0174,wikipedia,https://en.wikipedia.org/wiki/Carlo_De_Benedetti,2026-11-16,none,,
+K00070,A0175,wikipedia,https://en.wikipedia.org/wiki/Flavio_Insinna,2026-11-16,none,,
+K00071,A0179,wikipedia,https://en.wikipedia.org/wiki/Rossella_Muroni,2026-11-16,none,,
+K00072,A0180,wikipedia,https://en.wikipedia.org/wiki/Erasmo_Palazzotto,2026-11-16,none,,
+K00073,A0182,wikipedia,https://en.wikipedia.org/wiki/Giuditta_Pini,2026-11-16,none,,
+K00074,A0183,wikipedia,https://en.wikipedia.org/wiki/Fausto_Raciti,2026-11-16,none,,
+K00075,A0189,wikipedia,https://en.wikipedia.org/wiki/Silvia_Benedetti,2026-11-16,none,,
+K00076,A0233,wikipedia,https://en.wikipedia.org/wiki/Fausto_Bertinotti,2026-11-16,none,,
+K00077,A0239,wikipedia,https://en.wikipedia.org/wiki/Riccardo_Staglian%C3%B2,2026-11-16,none,,
+K00078,A0250,wikipedia,https://en.wikipedia.org/wiki/Roberto_Musacchio,2026-11-16,none,,
+K00079,A0259,wikipedia,https://en.wikipedia.org/wiki/Giuliano_Marrucci,2026-11-16,none,,
+K00080,A0271,wikipedia,https://en.wikipedia.org/wiki/Mario_Turco_%28politician%29,2026-11-16,none,,
+K00081,A0272,wikipedia,https://en.wikipedia.org/wiki/Beppe_Grillo,2026-11-16,found,website,
+K00082,A0277,wikipedia,https://en.wikipedia.org/wiki/Peppe_De_Cristofaro,2026-11-16,none,,
+K00083,A0278,wikipedia,https://en.wikipedia.org/wiki/Ilaria_Cucchi,2026-11-16,none,,
+K00084,A0014,directory,,2026-11-16,none,,no NBER page
+K00085,A0015,directory,,2026-11-16,none,,no NBER page
+K00086,A0016,directory,,2026-11-16,none,,no NBER page
+K00087,A0018,directory,,2026-11-16,none,,no NBER page
+K00088,A0019,directory,,2026-11-16,none,,no NBER page
+K00089,A0020,directory,,2026-11-16,none,,no NBER page
+K00090,A0021,directory,,2026-11-16,none,,no NBER page
+K00091,A0022,directory,https://www.nber.org/people/giovanni_dosi,2026-11-16,found,website,via RePEc https://ideas.repec.org/e/pdo10.html
+K00092,A0023,directory,,2026-11-16,none,,no NBER page
+K00093,A0024,directory,,2026-11-16,none,,no NBER page
+K00094,A0025,directory,,2026-11-16,none,,no NBER page
+K00095,A0026,directory,,2026-11-16,none,,no NBER page
+K00096,A0027,directory,,2026-11-16,none,,no NBER page
+K00097,A0028,directory,,2026-11-16,none,,no NBER page
+K00098,A0029,directory,,2026-11-16,none,,no NBER page
+K00099,A0030,directory,,2026-11-16,none,,no NBER page
+K00100,A0031,directory,,2026-11-16,none,,no NBER page
+K00101,A0032,directory,https://www.nber.org/people/nicola_lacetera,2026-11-16,none,,"page found, no website listed"
+K00102,A0033,directory,,2026-11-16,none,,no NBER page
+K00103,A0034,directory,https://www.nber.org/people/salvatore_morelli,2026-11-16,none,,"page found, no website listed"
+K00104,A0035,directory,https://www.nber.org/people/mauro_napoletano,2026-11-16,none,,"page found, no website listed"
+K00105,A0036,directory,,2026-11-16,none,,no NBER page
+K00106,A0037,directory,,2026-11-16,none,,no NBER page
+K00107,A0038,directory,,2026-11-16,none,,no NBER page
+K00108,A0039,directory,,2026-11-16,none,,no NBER page
+K00109,A0040,directory,,2026-11-16,none,,no NBER page
+K00110,A0041,directory,,2026-11-16,none,,no NBER page
+K00111,A0042,directory,,2026-11-16,none,,no NBER page
+K00112,A0043,directory,,2026-11-16,none,,no NBER page
+K00113,A0044,directory,,2026-11-16,none,,no NBER page
+K00114,A0045,directory,,2026-11-16,none,,no NBER page
+K00115,A0046,directory,,2026-11-16,none,,no NBER page
+K00116,A0047,directory,,2026-11-16,none,,no NBER page
+K00117,A0048,directory,,2026-11-16,none,,no NBER page
+K00118,A0049,directory,,2026-11-16,none,,no NBER page
+K00119,A0050,directory,,2026-11-16,none,,no NBER page
+K00120,A0052,directory,,2026-11-16,none,,no NBER page
+K00121,A0053,directory,,2026-11-16,none,,no NBER page
+K00122,A0054,directory,,2026-11-16,none,,no NBER page
+K00123,A0055,directory,,2026-11-16,none,,no NBER page
+K00124,A0056,directory,,2026-11-16,none,,no NBER page
+K00125,A0057,directory,,2026-11-16,none,,no NBER page
+K00126,A0058,directory,,2026-11-16,none,,no NBER page
+K00127,A0059,directory,,2026-11-16,none,,no NBER page
+K00128,A0060,directory,,2026-11-16,none,,no NBER page
+K00129,A0061,directory,,2026-11-16,none,,no NBER page
+K00130,A0062,directory,,2026-11-16,none,,no NBER page
+K00131,A0063,directory,,2026-11-16,none,,no NBER page
+K00132,A0064,directory,,2026-11-16,none,,no NBER page
+K00133,A0065,directory,,2026-11-16,none,,no NBER page
+K00134,A0066,directory,,2026-11-16,none,,no NBER page
+K00135,A0067,directory,,2026-11-16,none,,no NBER page
+K00136,A0068,directory,,2026-11-16,none,,no NBER page
+K00137,A0069,directory,,2026-11-16,none,,no NBER page
+K00138,A0070,directory,,2026-11-16,none,,no NBER page
+K00139,A0071,directory,,2026-11-16,none,,no NBER page
+K00140,A0072,directory,,2026-11-16,none,,no NBER page
+K00141,A0073,directory,,2026-11-16,none,,no NBER page
+K00142,A0074,directory,https://www.nber.org/people/bruno_contini,2026-11-16,none,,"page found, no website listed"
+K00143,A0075,directory,,2026-11-16,none,,no NBER page
+K00144,A0076,directory,,2026-11-16,none,,no NBER page
+K00145,A0077,directory,,2026-11-16,none,,no NBER page
+K00146,A0078,directory,,2026-11-16,none,,no NBER page
+K00147,A0079,directory,,2026-11-16,none,,no NBER page
+K00148,A0080,directory,,2026-11-16,none,,no NBER page
+K00149,A0081,directory,,2026-11-16,none,,no NBER page
+K00150,A0082,directory,,2026-11-16,none,,no NBER page
+K00151,A0083,directory,,2026-11-16,none,,no NBER page
+K00152,A0084,directory,https://www.nber.org/people/giulio__fella,2026-11-16,found,website,via RePEc https://ideas.repec.org/e/pfe171.html
+K00153,A0085,directory,,2026-11-16,none,,no NBER page
+K00154,A0086,directory,,2026-11-16,none,,no NBER page
+K00155,A0087,directory,,2026-11-16,none,,no NBER page
+K00156,A0088,directory,,2026-11-16,none,,no NBER page
+K00157,A0089,directory,,2026-11-16,none,,no NBER page
+K00158,A0090,directory,,2026-11-16,none,,no NBER page
+K00159,A0092,directory,,2026-11-16,none,,no NBER page
+K00160,A0093,directory,,2026-11-16,none,,no NBER page
+K00161,A0094,directory,,2026-11-16,none,,no NBER page
+K00162,A0095,directory,,2026-11-16,none,,no NBER page
+K00163,A0096,directory,,2026-11-16,none,,no NBER page
+K00164,A0097,directory,,2026-11-16,none,,no NBER page
+K00165,A0098,directory,,2026-11-16,none,,no NBER page
+K00166,A0099,directory,,2026-11-16,none,,no NBER page
+K00167,A0100,directory,,2026-11-16,none,,no NBER page
+K00168,A0102,directory,https://www.nber.org/people/valentino_larcinese,2026-11-16,found,website,via RePEc https://ideas.repec.org/e/pla117.html
+K00169,A0103,directory,,2026-11-16,none,,no NBER page
+K00170,A0104,directory,,2026-11-16,none,,no NBER page
+K00171,A0105,directory,https://www.nber.org/people/francesco_lissoni,2026-11-16,found,website,via RePEc https://ideas.repec.org/e/pli35.html
+K00172,A0106,directory,,2026-11-16,none,,no NBER page
+K00173,A0107,directory,,2026-11-16,none,,no NBER page
+K00174,A0108,directory,https://www.nber.org/people/immacolata_marino,2026-11-16,found,website,
+K00175,A0109,directory,,2026-11-16,none,,no NBER page
+K00176,A0110,directory,,2026-11-16,none,,no NBER page
+K00177,A0111,directory,,2026-11-16,none,,no NBER page
+K00178,A0112,directory,https://www.nber.org/people/fabio_montobbio,2026-11-16,found,website,
+K00179,A0113,directory,,2026-11-16,none,,no NBER page
+K00180,A0114,directory,,2026-11-16,none,,no NBER page
+K00181,A0115,directory,https://www.nber.org/people/lia_pacelli,2026-11-16,none,,"page found, no website listed"
+K00182,A0116,directory,,2026-11-16,none,,no NBER page
+K00183,A0117,directory,,2026-11-16,none,,no NBER page
+K00184,A0118,directory,,2026-11-16,none,,no NBER page
+K00185,A0119,directory,https://www.nber.org/people/claudio_piga,2026-11-16,none,,"page found, no website listed"
+K00186,A0120,directory,,2026-11-16,none,,no NBER page
+K00187,A0121,directory,,2026-11-16,none,,no NBER page
+K00188,A0122,directory,,2026-11-16,none,,no NBER page
+K00189,A0123,directory,,2026-11-16,none,,no NBER page
+K00190,A0124,directory,,2026-11-16,none,,no NBER page
+K00191,A0125,directory,,2026-11-16,none,,no NBER page
+K00192,A0126,directory,,2026-11-16,none,,no NBER page
+K00193,A0127,directory,,2026-11-16,none,,no NBER page
+K00194,A0128,directory,,2026-11-16,none,,no NBER page
+K00195,A0129,directory,,2026-11-16,none,,no NBER page
+K00196,A0130,directory,,2026-11-16,none,,no NBER page
+K00197,A0131,directory,,2026-11-16,none,,no NBER page
+K00198,A0132,directory,,2026-11-16,none,,no NBER page
+K00199,A0133,directory,,2026-11-16,none,,no NBER page
+K00200,A0134,directory,,2026-11-16,none,,no NBER page
+K00201,A0135,directory,,2026-11-16,none,,no NBER page
+K00202,A0136,directory,https://www.nber.org/people/mauro_labini,2026-11-16,none,,"page found, no website listed"
+K00203,A0137,directory,,2026-11-16,none,,no NBER page
+K00204,A0138,directory,,2026-11-16,none,,no NBER page
+K00205,A0139,directory,,2026-11-16,none,,no NBER page
+K00206,A0140,directory,,2026-11-16,none,,no NBER page
+K00207,A0142,directory,,2026-11-16,none,,no NBER page
+K00208,A0143,directory,,2026-11-16,none,,no NBER page
+K00209,A0144,directory,,2026-11-16,none,,no NBER page
+K00210,A0145,directory,,2026-11-16,none,,no NBER page
+K00211,A0146,directory,,2026-11-16,none,,no NBER page
+K00212,A0147,directory,,2026-11-16,none,,no NBER page
+K00213,A0148,directory,,2026-11-16,none,,no NBER page
+K00214,A0149,directory,,2026-11-16,none,,no NBER page
+K00215,A0197,directory,,2026-11-16,none,,no NBER page
+K00216,A0199,directory,,2026-11-16,none,,no NBER page
+K00217,A0200,directory,,2026-11-16,none,,no NBER page
+K00218,A0201,directory,,2026-11-16,none,,no NBER page
+K00219,A0202,directory,,2026-11-16,none,,no NBER page
+K00220,A0203,directory,,2026-11-16,none,,no NBER page
+K00221,A0204,directory,,2026-11-16,none,,no NBER page
+K00222,A0206,directory,,2026-11-16,none,,no NBER page
+K00223,A0207,directory,,2026-11-16,none,,no NBER page
+K00224,A0208,directory,,2026-11-16,none,,no NBER page
+K00225,A0209,directory,,2026-11-16,none,,no NBER page
+K00226,A0210,directory,,2026-11-16,none,,no NBER page
+K00227,A0211,directory,,2026-11-16,none,,no NBER page
+K00228,A0212,directory,,2026-11-16,none,,no NBER page
+K00229,A0213,directory,,2026-11-16,none,,no NBER page
+K00230,A0215,directory,,2026-11-16,none,,no NBER page
+K00231,A0216,directory,,2026-11-16,none,,no NBER page
+K00232,A0217,directory,,2026-11-16,none,,no NBER page
+K00233,A0218,directory,,2026-11-16,none,,no NBER page
+K00234,A0219,directory,,2026-11-16,none,,no NBER page
+K00235,A0220,directory,,2026-11-16,none,,no NBER page
+K00236,A0221,directory,,2026-11-16,none,,no NBER page
+K00237,A0246,directory,,2026-11-16,none,,no NBER page
+K00238,A0102,own_site,https://personal.lse.ac.uk/LARCINES/,2026-11-16,none,,
+K00239,A0105,own_site,https://www.francescolissoni.com,2026-11-16,none,,
+K00240,A0108,own_site,https://www.immamarino.com/,2026-11-16,found,x;linkedin;instagram,
+K00241,A0084,own_site,https://www.giuliofella.net,2026-11-16,blocked,,403 at https://www.giuliofella.net
+K00242,A0272,own_site,https://beppegrillo.it,2026-11-16,found,facebook,"not added: youtube https://www.youtube.com/channel/UCQcJBvpY1i6jGAJvzKfv7Lg (chrome,social-block); already listed: x,instagram"
+K00243,A0022,own_site,https://www.lem.sssup.it/,2026-11-16,none,,
+K00244,A0112,own_site,https://docenti.unicatt.it/ppd2/it/docenti/21347/fabio-montobbio/profilo,2026-11-16,none,,

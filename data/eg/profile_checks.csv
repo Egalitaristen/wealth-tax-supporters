@@ -4,3 +4,8 @@ K00002,A0009,own_site,https://piketty.pse.ens.fr,2026-11-15,error,,URLError: <ur
 K00003,A0010,own_site,https://www.madamasr.com,2026-11-15,none,,"not added: instagram https://www.instagram.com/madamasr/ (chrome,social-block); facebook https://www.facebook.com/mada.masr (chrome,social-block); x https://x.com/MadaMasr (chrome,meta,social-block); youtube https://www.youtube.com/user/MadaMasr (chrome,social-block)"
 K00004,A0001,own_site,https://aps.aucegypt.edu,2026-11-16,none,,"not added: facebook https://www.facebook.com/AlternativePolicySolutions (chrome,social-block); youtube https://www.youtube.com/channel/UCIBYr1IVf54Ho5fRV2s62QA (chrome,social-block); x https://x.com/aps_auc (chrome,social-block); linkedin https://www.linkedin.com/company/aps-alternative-policy-solutions (chrom"
 K00005,A0008,own_site,https://www.efghldg.com,2026-11-16,none,,not added: facebook https://www.facebook.com/EFGHolding (chrome); x https://x.com/EFG_Holding (chrome); instagram https://www.instagram.com/efgholdingofficial/ (chrome); youtube https://www.youtube.com/@EFGHolding (chrome); linkedin https://www.linkedin.com/company/efgholding (chrome)
+K00006,A0014,wikipedia,https://en.wikipedia.org/wiki/Ali_Abdel_Aal,2026-11-16,none,,
+K00007,A0011,directory,,2026-11-16,none,,no NBER page
+K00008,A0012,directory,,2026-11-16,none,,no NBER page
+K00009,A0019,directory,,2026-11-16,none,,no NBER page
+K00010,A0021,directory,,2026-11-16,none,,no NBER page

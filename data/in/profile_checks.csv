@@ -17,3 +17,46 @@ K00015,A0067,own_site,https://paranjoy.in/,2026-11-16,none,,
 K00016,A0077,own_site,https://www.minister-forest.kerala.gov.in/,2026-11-16,error,,URLError: <urlopen error ('A required certificate is not within its validity period when v
 K00017,A0009,own_site,https://www.oxfamindia.org,2026-11-16,found,linkedin,"not added: youtube https://www.youtube.com/user/TheOxfamIndia (chrome,social-block); already listed: facebook,x,instagram"
 K00018,A0003,own_site,https://lucaschancel.com/,2026-11-16,found,instagram;bluesky,"not added: x https://x.com/lucas_chancel (chrome,social-block)"
+K00019,A0008,wikipedia,https://en.wikipedia.org/wiki/Prakash_Karat,2026-11-16,none,,
+K00020,A0014,wikipedia,https://en.wikipedia.org/wiki/Jayati_Ghosh,2026-11-16,none,,
+K00021,A0015,wikipedia,https://en.wikipedia.org/wiki/Prabhat_Patnaik,2026-11-16,none,,
+K00022,A0016,wikipedia,https://en.wikipedia.org/wiki/Jairam_Ramesh,2026-11-16,none,,
+K00023,A0018,wikipedia,https://en.wikipedia.org/wiki/Jean_Dr%C3%A8ze,2026-11-16,none,,
+K00024,A0036,wikipedia,https://en.wikipedia.org/wiki/Indian_National_Trade_Union_Congress,2026-11-16,found,website,
+K00025,A0040,wikipedia,https://en.wikipedia.org/wiki/All_India_United_Trade_Union_Centre,2026-11-16,none,,
+K00026,A0044,wikipedia,https://en.wikipedia.org/wiki/Labour_Progressive_Federation,2026-11-16,found,website,
+K00027,A0045,wikipedia,https://en.wikipedia.org/wiki/United_Trade_Union_Congress,2026-11-16,none,,
+K00028,A0051,wikipedia,https://en.wikipedia.org/wiki/Doraisamy_Raja,2026-11-16,none,,
+K00029,A0052,wikipedia,https://en.wikipedia.org/wiki/Dipankar_Bhattacharya,2026-11-16,none,,
+K00030,A0053,wikipedia,https://en.wikipedia.org/wiki/Manoj_Bhattacharya,2026-11-16,found,website,
+K00031,A0074,wikipedia,https://en.wikipedia.org/wiki/Bansa_Gopal_Chowdhury,2026-11-16,none,,
+K00032,A0075,wikipedia,https://en.wikipedia.org/wiki/Selja_Kumari,2026-11-16,none,,
+K00033,A0079,wikipedia,https://en.wikipedia.org/wiki/Amar_Patnaik,2026-11-16,found,website,
+K00034,A0082,wikipedia,https://en.wikipedia.org/wiki/Sukhendu_Sekhar_Roy,2026-11-16,none,,
+K00035,A0083,wikipedia,https://en.wikipedia.org/wiki/Santanu_Sen,2026-11-16,none,,
+K00036,A0084,wikipedia,https://en.wikipedia.org/wiki/Fouzia_Khan,2026-11-16,none,,
+K00037,A0087,wikipedia,https://en.wikipedia.org/wiki/P._Karunakaran,2026-11-16,none,,
+K00038,A0088,wikipedia,https://en.wikipedia.org/wiki/Mullappally_Ramachandran,2026-11-16,found,website,
+K00039,A0089,wikipedia,https://en.wikipedia.org/wiki/Sankar_Prasad_Datta,2026-11-16,none,,
+K00040,A0090,wikipedia,https://en.wikipedia.org/wiki/Sugata_Bose,2026-11-16,found,website,
+K00041,A0091,wikipedia,https://en.wikipedia.org/wiki/Saugata_Roy,2026-11-16,none,,
+K00042,A0094,wikipedia,https://en.wikipedia.org/wiki/K._Subbarayan,2026-11-16,none,,
+K00043,A0096,wikipedia,https://en.wikipedia.org/wiki/Pratima_Mondal,2026-11-16,none,,
+K00044,A0002,directory,,2026-11-16,none,,no NBER page
+K00045,A0005,directory,,2026-11-16,none,,no NBER page
+K00046,A0014,directory,,2026-11-16,none,,no NBER page
+K00047,A0015,directory,,2026-11-16,none,,no NBER page
+K00048,A0018,directory,,2026-11-16,none,,no NBER page
+K00049,A0019,directory,,2026-11-16,none,,no NBER page
+K00050,A0020,directory,,2026-11-16,none,,no NBER page
+K00051,A0046,directory,,2026-11-16,none,,no NBER page
+K00052,A0056,directory,,2026-11-16,none,,no NBER page
+K00053,A0057,directory,,2026-11-16,none,,no NBER page
+K00054,A0066,directory,,2026-11-16,none,,no NBER page
+K00055,A0068,directory,,2026-11-16,none,,no NBER page
+K00056,A0044,own_site,https://www.lpf.org.in/,2026-11-16,error,,URLError: <urlopen error [Errno 11001] getaddrinfo failed>
+K00057,A0079,own_site,https://www.amarpatnaik.in/,2026-11-16,error,,URLError: <urlopen error [Errno 11002] getaddrinfo failed>
+K00058,A0053,own_site,https://prothomalo.com,2026-11-16,none,,not added: x https://x.com/Prothomalo (meta)
+K00059,A0036,own_site,https://intuc.net/,2026-11-16,none,,404 at https://intuc.net/aboutus.html 404 at https://intuc.net/contactus.html
+K00060,A0088,own_site,https://mullappallyramachandran.com,2026-11-16,none,,
+K00061,A0090,own_site,https://www.sugatabose.com,2026-11-16,none,,

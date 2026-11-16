@@ -6,3 +6,36 @@ K00004,A0032,own_site,https://www.twn.my/,2026-11-16,none,,not added: x https://
 K00005,A0009,own_site,https://attykaka.wordpress.com,2026-11-16,none,,
 K00006,A0030,own_site,https://waldenbello.org/,2026-11-16,none,,
 K00007,A0049,own_site,https://www.ffw.ph/,2026-11-16,blocked,,robots.txt forbids https://www.ffw.ph/
+K00008,A0001,wikipedia,https://en.wikipedia.org/wiki/Antonio_Tinio,2026-11-16,none,,
+K00009,A0002,wikipedia,https://en.wikipedia.org/wiki/Sarah_Elago,2026-11-16,none,,
+K00010,A0010,wikipedia,https://en.wikipedia.org/wiki/Chel_Diokno,2026-11-16,found,website,
+K00011,A0011,wikipedia,https://en.wikipedia.org/wiki/Dadah_Kiram_Ismula,2026-11-16,none,,
+K00012,A0012,wikipedia,https://en.wikipedia.org/wiki/Raymond_Mendoza,2026-11-16,none,,
+K00013,A0022,wikipedia,https://en.wikipedia.org/wiki/Eufemia_Cullamat,2026-11-16,none,,
+K00014,A0023,wikipedia,https://en.wikipedia.org/wiki/France_Castro,2026-11-16,none,,
+K00015,A0024,wikipedia,https://en.wikipedia.org/wiki/Arlene_Brosas,2026-11-16,none,,
+K00016,A0034,wikipedia,https://en.wikipedia.org/wiki/Teodoro_Casi%C3%B1o,2026-11-16,found,website,
+K00017,A0039,wikipedia,https://en.wikipedia.org/wiki/Bukluran_ng_Manggagawang_Pilipino,2026-11-16,none,,
+K00018,A0051,wikipedia,https://en.wikipedia.org/wiki/Rolan_Valeriano,2026-11-16,none,,
+K00019,A0052,wikipedia,https://en.wikipedia.org/wiki/Arnan_Panaligan,2026-11-16,none,,
+K00020,A0053,wikipedia,https://en.wikipedia.org/wiki/Mica_Gonzales,2026-11-16,none,,
+K00021,A0054,wikipedia,https://en.wikipedia.org/wiki/Alexandria_Gonzales,2026-11-16,none,,
+K00022,A0055,wikipedia,https://en.wikipedia.org/wiki/Marcelino_Libanan,2026-11-16,none,,
+K00023,A0056,wikipedia,https://en.wikipedia.org/wiki/Angelo_Barba,2026-11-16,found,website,
+K00024,A0057,wikipedia,https://en.wikipedia.org/wiki/Jose_Manuel_Alba,2026-11-16,none,,
+K00025,A0059,wikipedia,https://en.wikipedia.org/wiki/Arnulf_Bryan_Fuentebella,2026-11-16,none,,
+K00026,A0060,wikipedia,https://en.wikipedia.org/wiki/Sergio_Dagooc,2026-11-16,none,,
+K00027,A0061,wikipedia,https://en.wikipedia.org/wiki/Emerson_Pascual,2026-11-16,none,,
+K00028,A0062,wikipedia,https://en.wikipedia.org/wiki/Jules_Ledesma,2026-11-16,none,,
+K00029,A0064,wikipedia,https://en.wikipedia.org/wiki/Cha_Hernandez,2026-11-16,none,,
+K00030,A0065,wikipedia,https://en.wikipedia.org/wiki/Milagros_Magsaysay,2026-11-16,none,,
+K00031,A0066,wikipedia,https://en.wikipedia.org/wiki/Ann_Matibag,2026-11-16,none,,
+K00032,A0068,wikipedia,https://en.wikipedia.org/wiki/Jay_Vergara,2026-11-16,none,,
+K00033,A0069,wikipedia,https://en.wikipedia.org/wiki/Marcelino_Teodoro,2026-11-16,none,,
+K00034,A0013,directory,,2026-11-16,none,,no NBER page
+K00035,A0017,directory,,2026-11-16,none,,no NBER page
+K00036,A0018,directory,,2026-11-16,none,,no NBER page
+K00037,A0033,directory,,2026-11-16,none,,no NBER page
+K00038,A0034,own_site,https://myteddycasino.com/,2026-11-16,error,,"URLError: <urlopen error (""The certificate's CN name does not match the passed value."",)>"
+K00039,A0010,own_site,https://cheldiokno.com,2026-11-16,found,facebook;tiktok;youtube;instagram;x,
+K00040,A0056,own_site,https://angelomarcosbarba.com/,2026-11-16,none,,
