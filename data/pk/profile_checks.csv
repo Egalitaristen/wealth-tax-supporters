@@ -10,3 +10,12 @@ K00008,A0009,own_site,https://www.iba.edu.pk,2026-11-16,none,,"not added: facebo
 K00009,A0006,own_site,https://ictd.ac/people/vanessa-van-den-boogaard/,2026-11-16,found,linkedin,"not added: facebook https://www.facebook.com/ICTDTax (chrome,social-block); linkedin https://www.linkedin.com/company/ictdtax (chrome,social-block); bluesky https://bsky.app/profile/ictdtax.bsky.social (chrome,social-block); youtube https://www.youtube.com/@ICTDTax (chrome,social-block)"
 K00010,A0007,own_site,https://ictd.ac,2026-11-16,found,facebook;linkedin;bluesky;youtube,
 K00011,A0021,own_site,https://senate.gov.pk,2026-11-16,none,,not added: facebook https://www.facebook.com/Pakistansenate (); x https://x.com/Senatepakistan (); youtube https://www.youtube.com/c/senateofpakistanofficial ()
+K00012,A0001,wikipedia,https://en.wikipedia.org/wiki/Ishaq_Dar,2026-11-16,none,,
+K00013,A0002,wikipedia,https://en.wikipedia.org/wiki/Asad_Umar,2026-11-16,found,website,
+K00014,A0015,wikipedia,https://en.wikipedia.org/wiki/Farooq_Sattar,2026-11-16,none,,
+K00015,A0003,directory,,2026-11-16,none,,no NBER page
+K00016,A0004,directory,,2026-11-16,none,,no NBER page
+K00017,A0010,directory,,2026-11-16,none,,no NBER page
+K00018,A0011,directory,,2026-11-16,none,,no NBER page
+K00019,A0014,directory,,2026-11-16,none,,no NBER page
+K00020,A0002,own_site,https://asadumar.pk/,2026-11-16,found,instagram,"already listed: facebook,x"

@@ -2,3 +2,9 @@ check_id,actor_id,method,url,checked,result,found,note
 K00001,A0015,own_site,https://spft.cufe.edu.cn,2026-11-15,none,,
 K00002,A0013,own_site,https://www.oxfam.org.hk,2026-11-15,none,,"not added: facebook https://www.facebook.com/oxfamhongkong (chrome,social-block); instagram https://www.instagram.com/oxfamhongkong/ (chrome,social-block); youtube https://www.youtube.com/user/oxfamhongkong (chrome,social-block); x https://x.com/oxfamhongkong (social-block)"
 K00003,A0005,own_site,https://spft.cufe.edu.cn,2026-11-16,none,,
+K00004,A0006,directory,,2026-11-16,none,,no NBER page
+K00005,A0007,directory,,2026-11-16,none,,no NBER page
+K00006,A0008,directory,,2026-11-16,none,,no NBER page
+K00007,A0010,directory,,2026-11-16,none,,no NBER page
+K00008,A0012,directory,,2026-11-16,none,,no NBER page
+K00009,A0011,own_site,https://scholars.ln.edu.hk/en/persons/meng-wang,2026-11-16,error,,404 at https://scholars.ln.edu.hk/en/persons/meng-wang

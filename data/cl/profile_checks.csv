@@ -6,3 +6,29 @@ K00004,A0021,own_site,https://gabrielboric.cl/,2026-11-16,error,,URLError: <urlo
 K00005,A0040,own_site,https://www.gaelyeomans.cl/,2026-11-16,none,,
 K00006,A0025,own_site,https://iracihassler.cl/,2026-11-16,error,,URLError: <urlopen error [Errno 11002] getaddrinfo failed>
 K00007,A0015,own_site,https://www.cut.cl,2026-11-16,found,instagram;x;facebook;youtube;tiktok,
+K00008,A0003,wikipedia,https://en.wikipedia.org/wiki/Gabriel_Ascencio,2026-11-16,none,,
+K00009,A0004,wikipedia,https://en.wikipedia.org/wiki/Karol_Cariola,2026-11-16,none,,
+K00010,A0005,wikipedia,https://en.wikipedia.org/wiki/Giorgio_Jackson,2026-11-16,found,website,
+K00011,A0006,wikipedia,https://en.wikipedia.org/wiki/Daniel_N%C3%BA%C3%B1ez_%28Chilean_politician%29,2026-11-16,none,,
+K00012,A0009,wikipedia,https://en.wikipedia.org/wiki/Alejandra_Sep%C3%BAlveda,2026-11-16,none,,
+K00013,A0010,wikipedia,https://en.wikipedia.org/wiki/Ra%C3%BAl_Soto,2026-11-16,none,,
+K00014,A0012,wikipedia,https://en.wikipedia.org/wiki/Esteban_Vel%C3%A1squez,2026-11-16,none,,
+K00015,A0024,wikipedia,https://en.wikipedia.org/wiki/Daniela_Serrano,2026-11-16,none,,
+K00016,A0028,wikipedia,https://en.wikipedia.org/wiki/Marisela_Santib%C3%A1%C3%B1ez,2026-11-16,none,,
+K00017,A0032,wikipedia,https://en.wikipedia.org/wiki/Ana_Mar%C3%ADa_Gazmuri,2026-11-16,none,,
+K00018,A0033,wikipedia,https://en.wikipedia.org/wiki/Marcos_Barraza,2026-11-16,none,,
+K00019,A0035,wikipedia,https://en.wikipedia.org/wiki/Manuel_Monsalve,2026-11-16,none,,
+K00020,A0036,wikipedia,https://en.wikipedia.org/wiki/Jaime_Mulet,2026-11-16,none,,
+K00021,A0037,wikipedia,https://en.wikipedia.org/wiki/Andrea_Parra,2026-11-16,none,,
+K00022,A0039,wikipedia,https://en.wikipedia.org/wiki/Mat%C3%ADas_Walker,2026-11-16,none,,
+K00023,A0041,wikipedia,https://en.wikipedia.org/wiki/Marcelo_D%C3%ADaz_%28politician%29,2026-11-16,none,,
+K00024,A0043,wikipedia,https://en.wikipedia.org/wiki/Marcelo_Schilling,2026-11-16,none,,
+K00025,A0044,wikipedia,https://en.wikipedia.org/wiki/Gabriel_Silber,2026-11-16,none,,
+K00026,A0045,wikipedia,https://en.wikipedia.org/wiki/Gonzalo_Winter,2026-11-16,none,,
+K00027,A0046,wikipedia,https://en.wikipedia.org/wiki/Jeannette_Jara,2026-11-16,found,website,
+K00028,A0001,directory,,2026-11-16,none,,no NBER page
+K00029,A0002,directory,,2026-11-16,none,,no NBER page
+K00030,A0013,directory,,2026-11-16,none,,no NBER page
+K00031,A0014,directory,,2026-11-16,none,,no NBER page
+K00032,A0046,own_site,https://www.jeannettejara.cl/,2026-11-16,none,,
+K00033,A0005,own_site,https://giorgiojackson.cl,2026-11-16,none,,

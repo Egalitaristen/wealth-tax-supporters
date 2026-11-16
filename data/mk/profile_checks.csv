@@ -1,3 +1,4 @@
 check_id,actor_id,method,url,checked,result,found,note
 K00001,A0003,own_site,https://sdsm.org.mk,2026-11-15,found,facebook;x;youtube;instagram,
 K00002,A0001,own_site,https://levica.mk,2026-11-15,found,instagram;x;youtube;tiktok,"not added: facebook https://www.facebook.com/PartijaLevica (chrome,social-block); facebook https://www.facebook.com/apasievlevica (social-block)"
+K00003,A0002,wikipedia,https://en.wikipedia.org/wiki/Dimitar_Apasiev,2026-11-16,none,,

@@ -286,3 +286,24 @@ K00284,A0156,own_site,https://radon.nauka.gov.pl/dane/profil/223595730360A1AE0D7
 K00285,A0071,own_site,https://radon.nauka.gov.pl/dane/profil/F9DEDD4B3D888917EA85D6ED29B9B5EEF1BB5C5B,2026-11-16,none,,
 K00286,A0026,own_site,https://www.europarl.europa.eu/meps/pl/197523/LUKASZ_KOHUT/home,2026-11-16,blocked,,403 at https://www.europarl.europa.eu/meps/pl/197523/LUKASZ_KOHUT/home
 K00287,A0307,own_site,https://partiarazem.pl,2026-11-16,none,,"not added: mastodon https://social.partiarazem.pl/@razem (chrome,rel-me,social-block); x https://x.com/partiarazem (chrome,meta,rel-me,social-block); x https://x.com/RazemWroclaw (social-block); x https://x.com/RazemLegnica (social-block); x https://x.com/RazemJelenia (social-block); facebook https://www.faceb"
+K00288,A0006,wikipedia,https://en.wikipedia.org/wiki/Rafa%C5%82_Wo%C5%9B,2026-11-16,none,,
+K00289,A0013,wikipedia,https://en.wikipedia.org/wiki/Piotr_Soroczy%C5%84ski,2026-11-16,none,,
+K00290,A0025,wikipedia,https://en.wikipedia.org/wiki/W%C5%82odzimierz_Cimoszewicz,2026-11-16,none,,
+K00291,A0029,wikipedia,https://en.wikipedia.org/wiki/Marek_Belka,2026-11-16,none,,
+K00292,A0041,wikipedia,https://en.wikipedia.org/wiki/Ryszard_Bugaj,2026-11-16,none,,
+K00293,A0045,wikipedia,https://en.wikipedia.org/wiki/Sylwia_Spurek,2026-11-16,found,website,
+K00294,A0132,wikipedia,https://en.wikipedia.org/wiki/Adam_Manikowski,2026-11-16,none,,
+K00295,A0141,wikipedia,https://en.wikipedia.org/wiki/Anna_Baumgart,2026-11-16,none,,
+K00296,A0150,wikipedia,https://en.wikipedia.org/wiki/Ma%C5%82gorzata_Kowalska,2026-11-16,none,,
+K00297,A0209,wikipedia,https://en.wikipedia.org/wiki/Magdalena_Szpunar,2026-11-16,none,,
+K00298,A0210,wikipedia,https://en.wikipedia.org/wiki/Andrzej_de_Lazari,2026-11-16,none,,
+K00299,A0305,wikipedia,https://en.wikipedia.org/wiki/Piotr_Arak,2026-11-16,none,,
+K00300,A0013,directory,,2026-11-16,none,,no NBER page
+K00301,A0029,directory,,2026-11-16,none,,no NBER page
+K00302,A0041,directory,,2026-11-16,none,,no NBER page
+K00303,A0132,directory,,2026-11-16,none,,no NBER page
+K00304,A0150,directory,,2026-11-16,none,,no NBER page
+K00305,A0209,directory,,2026-11-16,none,,no NBER page
+K00306,A0210,directory,,2026-11-16,none,,no NBER page
+K00307,A0305,directory,,2026-11-16,none,,no NBER page
+K00308,A0045,own_site,https://sylwiaspurek.pl/,2026-11-16,none,,"already listed: facebook,x"

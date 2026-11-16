@@ -2,3 +2,7 @@ check_id,actor_id,method,url,checked,result,found,note
 K00001,A0004,own_site,https://www.cfscmafr.org,2026-11-15,found,facebook;youtube,
 K00002,A0002,own_site,https://ecamamw.org,2026-11-16,none,,
 K00003,A0006,own_site,https://southernafrica.oxfam.org/countries/malawi,2026-11-16,none,,"not added: youtube https://www.youtube.com/channel/UCwMkLGUJjPPOPNJjSMzUcYw (chrome,social-block); removed on spot check (the Southern Africa regional office's accounts): x https://x.com/OxfaminSAF, facebook https://www.facebook.com/oxfamsaf"
+K00004,A0001,wikipedia,https://en.wikipedia.org/wiki/Bertha_Bangara_Chikadza,2026-11-16,none,,
+K00005,A0008,wikipedia,https://en.wikipedia.org/wiki/Malawi_Congress_of_Trade_Unions,2026-11-16,none,,
+K00006,A0001,directory,,2026-11-16,none,,no NBER page
+K00007,A0003,directory,,2026-11-16,none,,no NBER page

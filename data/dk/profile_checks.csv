@@ -15,3 +15,19 @@ K00013,A0032,own_site,https://alternativet.dk/personer/folketingsmedlemmer/torst
 K00014,A0009,own_site,https://sf.dk/dyhr,2026-11-16,none,,"not added: facebook https://www.facebook.com/sfparti (chrome,social-block); instagram https://www.instagram.com/sf_socialistisk_folkeparti/ (chrome,social-block); x https://x.com/sfpolitik (chrome,meta,social-block); already listed: facebook,instagram"
 K00015,A0002,own_site,https://www.socialdemokratiet.dk/,2026-11-16,found,youtube;linkedin,"already listed: facebook,instagram,x"
 K00016,A0031,own_site,https://enhedslisten.dk/soeren-egge-rasmussen,2026-11-16,blocked,,403 at https://enhedslisten.dk/soeren-egge-rasmussen
+K00017,A0005,wikipedia,https://en.wikipedia.org/wiki/Sikandar_Siddique,2026-11-16,none,,
+K00018,A0006,wikipedia,https://en.wikipedia.org/wiki/Uffe_Elb%C3%A6k,2026-11-16,none,,
+K00019,A0008,wikipedia,https://en.wikipedia.org/wiki/Mette_Frederiksen,2026-11-16,found,website,
+K00020,A0026,wikipedia,https://en.wikipedia.org/wiki/Henning_Hyllested,2026-11-16,none,,
+K00021,A0027,wikipedia,https://en.wikipedia.org/wiki/Jakob_S%C3%B8lvh%C3%B8j,2026-11-16,none,,
+K00022,A0028,wikipedia,https://en.wikipedia.org/wiki/Peder_Hvelplund,2026-11-16,none,,
+K00023,A0029,wikipedia,https://en.wikipedia.org/wiki/Pernille_Skipper,2026-11-16,none,,
+K00024,A0033,wikipedia,https://en.wikipedia.org/wiki/Victoria_Vel%C3%A1squez,2026-11-16,none,,
+K00025,A0041,wikipedia,https://en.wikipedia.org/wiki/Pelle_Dragsted,2026-11-16,none,,
+K00026,A0048,wikipedia,https://en.wikipedia.org/wiki/Rune_Lund,2026-11-16,none,,
+K00027,A0014,directory,,2026-11-16,none,,no NBER page
+K00028,A0015,directory,,2026-11-16,none,,no NBER page
+K00029,A0019,directory,,2026-11-16,none,,no NBER page
+K00030,A0021,directory,,2026-11-16,none,,no NBER page
+K00031,A0023,directory,,2026-11-16,none,,no NBER page
+K00032,A0008,own_site,https://mette-frederiksen.dk,2026-11-16,none,,"not added: facebook https://www.facebook.com/socialdemokratiet (chrome,social-block); instagram https://www.instagram.com/socialdemokratiet/ (chrome,social-block); x https://x.com/Spolitik (chrome,social-block); youtube https://www.youtube.com/user/socialdemokraterne (chrome,social-block); linkedin https://www"

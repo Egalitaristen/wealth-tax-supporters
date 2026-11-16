@@ -26,3 +26,23 @@ K00024,A0004,own_site,https://www.fightinequality.org,2026-11-16,blocked,,403 at
 K00025,A0002,own_site,https://fundar.org.mx,2026-11-16,found,x;facebook;instagram;linkedin,
 K00026,A0025,own_site,https://oxfam.mx/,2026-11-16,none,,"not added: facebook https://www.facebook.com/OxfamMX (chrome,social-block); x https://x.com/oxfammexico (chrome,social-block); linkedin https://www.linkedin.com/company/oxfammexico (chrome,social-block); youtube https://www.youtube.com/@oxfammx (chrome,social-block); instagram https://www.instagram.com/oxfamme"
 K00027,A0111,own_site,https://garmexicoblog.wordpress.com/,2026-11-16,none,,"removed on spot check (the parent movement's accounts, not the youth body's): facebook https://www.facebook.com/AccionRevolucionariaMX, youtube https://www.youtube.com/user/accionrevolucionaria"
+K00028,A0009,wikipedia,https://en.wikipedia.org/wiki/Alfonso_Ram%C3%ADrez_Cu%C3%A9llar,2026-11-16,none,,
+K00029,A0012,wikipedia,https://en.wikipedia.org/wiki/Aleida_Alavez_Ruiz,2026-11-16,none,,
+K00030,A0014,wikipedia,https://en.wikipedia.org/wiki/Mar%C3%ADa_Clemente_Garc%C3%ADa,2026-11-16,none,,
+K00031,A0061,wikipedia,https://en.wikipedia.org/wiki/Coordinadora_Nacional_de_Trabajadores_de_la_Educaci%C3%B3n,2026-11-16,none,,
+K00032,A0094,wikipedia,https://en.wikipedia.org/wiki/Enrique_Leff,2026-11-16,none,,
+K00033,A0010,directory,,2026-11-16,none,,no NBER page
+K00034,A0071,directory,,2026-11-16,none,,no NBER page
+K00035,A0077,directory,,2026-11-16,none,,no NBER page
+K00036,A0092,directory,,2026-11-16,none,,no NBER page
+K00037,A0093,directory,,2026-11-16,none,,no NBER page
+K00038,A0094,directory,,2026-11-16,none,,no NBER page
+K00039,A0096,directory,,2026-11-16,none,,no NBER page
+K00040,A0097,directory,,2026-11-16,none,,no NBER page
+K00041,A0100,directory,,2026-11-16,none,,no NBER page
+K00042,A0101,directory,,2026-11-16,none,,no NBER page
+K00043,A0102,directory,,2026-11-16,none,,no NBER page
+K00044,A0103,directory,,2026-11-16,none,,no NBER page
+K00045,A0104,directory,,2026-11-16,none,,no NBER page
+K00046,A0105,directory,,2026-11-16,none,,no NBER page
+K00047,A0060,own_site,https://www.sme.org.mx/,2026-11-16,none,,not added: facebook https://www.facebook.com/SindicatoSME (); x https://x.com/sindicato_sme (); youtube https://www.youtube.com/channel/UCrb4euCRriB3ONdIjHhUj6g (); instagram https://www.instagram.com/sindicatosme/ ()

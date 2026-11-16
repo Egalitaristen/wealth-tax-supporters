@@ -2,3 +2,35 @@ check_id,actor_id,method,url,checked,result,found,note
 K00001,A0007,own_site,https://anep.cr,2026-11-16,found,youtube;facebook,not added: x https://x.com/AlbinoVargasB ()
 K00002,A0006,own_site,https://frenteamplio.org,2026-11-16,found,youtube;tiktok,"not added: youtube https://www.youtube.com/@frenteamplio_cr (); already listed: facebook,instagram,x"
 K00003,A0005,own_site,https://pac.cr,2026-11-16,found,facebook;x;instagram;youtube,
+K00004,A0003,wikipedia,https://en.wikipedia.org/wiki/Jos%C3%A9_Mar%C3%ADa_Villalta_Fl%C3%B3rez-Estrada,2026-11-16,none,,
+K00005,A0004,wikipedia,https://en.wikipedia.org/wiki/Carlos_Alvarado,2026-11-16,none,,
+K00006,A0010,wikipedia,https://en.wikipedia.org/wiki/Quince_Duncan,2026-11-16,none,,
+K00007,A0011,wikipedia,https://en.wikipedia.org/wiki/Margarita_Bola%C3%B1os,2026-11-16,none,,
+K00008,A0025,wikipedia,https://en.wikipedia.org/wiki/Henry_Mora_Jim%C3%A9nez,2026-11-16,none,,
+K00009,A0027,wikipedia,https://en.wikipedia.org/wiki/Welmer_Ramos_Gonz%C3%A1lez,2026-11-16,none,,
+K00010,A0013,directory,,2026-11-16,none,,no NBER page
+K00011,A0015,directory,,2026-11-16,none,,no NBER page
+K00012,A0018,directory,,2026-11-16,none,,no NBER page
+K00013,A0019,directory,,2026-11-16,none,,no NBER page
+K00014,A0020,directory,,2026-11-16,none,,no NBER page
+K00015,A0021,directory,,2026-11-16,none,,no NBER page
+K00016,A0022,directory,,2026-11-16,none,,no NBER page
+K00017,A0023,directory,,2026-11-16,none,,no NBER page
+K00018,A0025,directory,,2026-11-16,none,,no NBER page
+K00019,A0026,directory,,2026-11-16,none,,no NBER page
+K00020,A0027,directory,,2026-11-16,none,,no NBER page
+K00021,A0028,directory,,2026-11-16,none,,no NBER page
+K00022,A0029,directory,,2026-11-16,none,,no NBER page
+K00023,A0030,directory,,2026-11-16,none,,no NBER page
+K00024,A0031,directory,,2026-11-16,none,,no NBER page
+K00025,A0032,directory,,2026-11-16,none,,no NBER page
+K00026,A0033,directory,,2026-11-16,none,,no NBER page
+K00027,A0034,directory,,2026-11-16,none,,no NBER page
+K00028,A0035,directory,,2026-11-16,none,,no NBER page
+K00029,A0036,directory,,2026-11-16,none,,no NBER page
+K00030,A0037,directory,,2026-11-16,none,,no NBER page
+K00031,A0038,directory,,2026-11-16,none,,no NBER page
+K00032,A0039,directory,,2026-11-16,none,,no NBER page
+K00033,A0040,directory,,2026-11-16,none,,no NBER page
+K00034,A0041,directory,,2026-11-16,none,,no NBER page
+K00035,A0042,directory,,2026-11-16,none,,no NBER page

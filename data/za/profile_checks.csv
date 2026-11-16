@@ -7,3 +7,20 @@ K00005,A0016,own_site,https://www.forgood.org.za/,2026-11-16,none,,
 K00006,A0014,own_site,https://www.anc1912.org.za/,2026-11-16,none,,"not added: youtube https://www.youtube.com/@MyANC (social-block); already listed: facebook,x"
 K00007,A0001,own_site,https://effonline.org/,2026-11-16,blocked,,403 at https://effonline.org/
 K00008,A0012,own_site,https://iej.org.za,2026-11-16,found,facebook;instagram;tiktok;youtube;x;linkedin,
+K00009,A0002,wikipedia,https://en.wikipedia.org/wiki/Julius_Malema,2026-11-16,none,,
+K00010,A0003,wikipedia,https://en.wikipedia.org/wiki/Omphile_Maotwe,2026-11-16,none,,
+K00011,A0004,wikipedia,https://en.wikipedia.org/wiki/Sinawo_Thambo,2026-11-16,none,,
+K00012,A0015,wikipedia,https://en.wikipedia.org/wiki/Mmamoloko_Kubayi,2026-11-16,none,,
+K00013,A0017,wikipedia,https://en.wikipedia.org/wiki/Brett_Herron_%28politician%29,2026-11-16,none,,
+K00014,A0019,wikipedia,https://en.wikipedia.org/wiki/South_African_Federation_of_Trade_Unions,2026-11-16,found,website,
+K00015,A0020,wikipedia,https://en.wikipedia.org/wiki/Zwelinzima_Vavi,2026-11-16,none,,
+K00016,A0023,wikipedia,https://en.wikipedia.org/wiki/Sharon_Letlape,2026-11-16,none,,
+K00017,A0026,wikipedia,https://en.wikipedia.org/wiki/Sophie_Thembekwayo,2026-11-16,none,,
+K00018,A0027,wikipedia,https://en.wikipedia.org/wiki/Hlengiwe_Mkhaliphi,2026-11-16,none,,
+K00019,A0029,wikipedia,https://en.wikipedia.org/wiki/Mzwanele_Manyi,2026-11-16,none,,
+K00020,A0033,wikipedia,https://en.wikipedia.org/wiki/Steven_Swart,2026-11-16,none,,
+K00021,A0036,wikipedia,https://en.wikipedia.org/wiki/Naledi_Chirwa,2026-11-16,none,,
+K00022,A0038,wikipedia,https://en.wikipedia.org/wiki/Joe_Maswanganyi,2026-11-16,none,,
+K00023,A0041,wikipedia,https://en.wikipedia.org/wiki/Carl_Niehaus,2026-11-16,none,,
+K00024,A0013,directory,,2026-11-16,none,,no NBER page
+K00025,A0019,own_site,https://saftu.org.za/,2026-11-16,found,x;youtube,"CHECK no added handle carries the name: the site may host several groups, or belong to a parent.; not added: youtube https://www.youtube.com/@SAFTUMEDIA (); facebook https://www.facebook.com/WorkerControlledFederation ()"

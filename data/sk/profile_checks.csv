@@ -7,3 +7,10 @@ K00005,A0009,own_site,https://www.proforum.sk/,2026-11-15,error,,466 at https://
 K00006,A0010,own_site,https://slovakia.fes.de/,2026-11-16,error,,URLError: <urlopen error [Errno 11001] getaddrinfo failed>
 K00007,A0003,own_site,https://www.europoslankyna.sk/,2026-11-16,error,,466 at https://www.europoslankyna.sk/
 K00008,A0004,own_site,https://www.roberthajsel.sk,2026-11-16,error,,URLError: <urlopen error [Errno 11001] getaddrinfo failed>
+K00009,A0001,wikipedia,https://en.wikipedia.org/wiki/Brigita_Schm%C3%B6gnerov%C3%A1,2026-11-16,none,,
+K00010,A0002,wikipedia,https://en.wikipedia.org/wiki/Monika_Be%C5%88ov%C3%A1,2026-11-16,none,,
+K00011,A0013,wikipedia,https://en.wikipedia.org/wiki/Socialisti.sk,2026-11-16,found,website,
+K00012,A0001,directory,,2026-11-16,none,,no NBER page
+K00013,A0005,directory,,2026-11-16,none,,no NBER page
+K00014,A0017,directory,,2026-11-16,none,,no NBER page
+K00015,A0013,own_site,https://www.socialisti.sk/domov,2026-11-16,error,,404 at https://www.socialisti.sk/domov

@@ -383,7 +383,7 @@ K00381,A0338,own_site,https://lambeth.greenparty.org.uk/,2026-11-16,found,bluesk
 K00382,A0426,own_site,https://kanaama.org/our-team/,2026-11-16,none,,"not added: facebook https://www.facebook.com/kanaama (chrome,social-block)"
 K00383,A0343,own_site,https://www.islington.gov.uk,2026-11-16,found,instagram;linkedin;youtube,"already listed: facebook,x"
 K00384,A0377,own_site,https://www.globalfood.cam.ac.uk/memberdirectory/allen,2026-11-16,none,,
-K00385,A0449,own_site,https://www.peopleinneed.net/contacts/relief-and-development-department-8,2026-11-16,none,,"not added: instagram https://www.instagram.com/helplinkauacvt/ (); instagram https://www.instagram.com/Peopleinneedcz/ (chrome,social-block); facebook https://www.facebook.com/peopleinneed (chrome,social-block); x https://x.com/people_in_need (chrome,social-block); x https://x.com/CLOVEKVTISNI (meta); bluesky "
+K00385,A0449,own_site,https://www.peopleinneed.net/contacts/relief-and-development-department-8,2026-11-16,none,,"not added: instagram https://www.instagram.com/helplinkauacvt/ (); instagram https://www.instagram.com/Peopleinneedcz/ (chrome,social-block); facebook https://www.facebook.com/peopleinneed (chrome,social-block); x https://x.com/people_in_need (chrome,social-block); x https://x.com/CLOVEKVTISNI (meta); bluesky"
 K00386,A0415,own_site,https://blog.inasp.info/new-leadership-for-inasp/,2026-11-16,none,,not added: x https://x.com/INASPinfo (social-block); facebook https://www.facebook.com/inasp.info (social-block); linkedin https://www.linkedin.com/company/inasp (social-block)
 K00387,A0036,own_site,https://members.parliament.uk/member/5030/contact,2026-11-16,none,,"403 at https://members.parliament.uk/member/5030/contact; already listed: facebook,instagram,bluesky"
 K00388,A0480,own_site,https://positivemoney.org/team/sara-hall/,2026-11-16,found,linkedin;bluesky,not added: x https://x.com/PositiveMoneyUK (meta)
@@ -409,3 +409,73 @@ K00407,A0103,own_site,https://members.parliament.uk/member/4598/contact,2026-11-
 K00408,A0361,own_site,https://afrikids.org/team-showcase/charlie-hay/,2026-11-16,none,,"not added: x https://x.com/afrikids (chrome,meta,social-block); facebook https://www.facebook.com/afrikids (chrome,social-block); instagram https://www.instagram.com/afrikids/ (chrome,social-block); linkedin https://www.linkedin.com/company/afrikids (chrome,social-block)"
 K00409,A0095,own_site,https://members.parliament.uk/member/4360/contact,2026-11-16,blocked,,403 at https://members.parliament.uk/member/4360/contact
 K00410,A0152,own_site,https://patrioticmillionaires.uk/who-we-are,2026-11-16,none,,"not added: instagram https://www.instagram.com/patrioticmillionairesuk/ (chrome,social-block); linkedin https://www.linkedin.com/company/patriotic-millionaires-uk (chrome,social-block); youtube https://www.youtube.com/c/GarySEconomics (social-block)"
+K00411,A0064,wikipedia,https://en.wikipedia.org/wiki/Beth_Winter,2026-11-16,found,website,
+K00412,A0066,wikipedia,https://en.wikipedia.org/wiki/Kenny_MacAskill,2026-11-16,none,,
+K00413,A0068,wikipedia,https://en.wikipedia.org/wiki/Claudia_Webbe,2026-11-16,found,website,
+K00414,A0069,wikipedia,https://en.wikipedia.org/wiki/Mick_Whitley,2026-11-16,none,,
+K00415,A0070,wikipedia,https://en.wikipedia.org/wiki/Ian_Mearns,2026-11-16,found,website,
+K00416,A0078,wikipedia,https://en.wikipedia.org/wiki/Angus_MacNeil,2026-11-16,found,website,
+K00417,A0082,wikipedia,https://en.wikipedia.org/wiki/Tommy_Sheppard_%28politician%29,2026-11-16,found,website,
+K00418,A0084,wikipedia,https://en.wikipedia.org/wiki/Carol_Monaghan,2026-11-16,none,,
+K00419,A0088,wikipedia,https://en.wikipedia.org/wiki/Chris_Stephens,2026-11-16,found,website,
+K00420,A0090,wikipedia,https://en.wikipedia.org/wiki/Anum_Qaisar,2026-11-16,found,website,
+K00421,A0093,wikipedia,https://en.wikipedia.org/wiki/Deidre_Brock,2026-11-16,found,website,
+K00422,A0099,wikipedia,https://en.wikipedia.org/wiki/Paul_Girvan,2026-11-16,none,,
+K00423,A0128,wikipedia,https://en.wikipedia.org/wiki/Richard_Curtis,2026-11-16,none,,
+K00424,A0168,wikipedia,https://en.wikipedia.org/wiki/Gary_Lineker,2026-11-16,none,,
+K00425,A0204,wikipedia,https://en.wikipedia.org/wiki/Guy_Singh-Watson,2026-11-16,none,,
+K00426,A0248,wikipedia,https://en.wikipedia.org/wiki/Kevin_Stewart_%28Scottish_politician%29,2026-11-16,none,,
+K00427,A0254,wikipedia,https://en.wikipedia.org/wiki/Natalie_Don-Innes,2026-11-16,found,website,
+K00428,A0257,wikipedia,https://en.wikipedia.org/wiki/James_Dornan,2026-11-16,found,website,
+K00429,A0259,wikipedia,https://en.wikipedia.org/wiki/Michelle_Thomson,2026-11-16,none,,
+K00430,A0260,wikipedia,https://en.wikipedia.org/wiki/Alasdair_Allan,2026-11-16,none,,
+K00431,A0264,wikipedia,https://en.wikipedia.org/wiki/Gordon_MacDonald_%28Scottish_politician%29,2026-11-16,found,website,
+K00432,A0265,wikipedia,https://en.wikipedia.org/wiki/Rona_Mackay,2026-11-16,found,website,
+K00433,A0266,wikipedia,https://en.wikipedia.org/wiki/Audrey_Nicoll,2026-11-16,none,,
+K00434,A0269,wikipedia,https://en.wikipedia.org/wiki/Stephanie_Callaghan,2026-11-16,none,,
+K00435,A0270,wikipedia,https://en.wikipedia.org/wiki/Kate_Forbes,2026-11-16,found,website,
+K00436,A0273,wikipedia,https://en.wikipedia.org/wiki/Willie_Coffey,2026-11-16,none,,
+K00437,A0274,wikipedia,https://en.wikipedia.org/wiki/Kaukab_Stewart,2026-11-16,found,website,
+K00438,A0276,wikipedia,https://en.wikipedia.org/wiki/Ruth_Maguire,2026-11-16,found,website,
+K00439,A0278,wikipedia,https://en.wikipedia.org/wiki/Graeme_Dey,2026-11-16,none,,
+K00440,A0282,wikipedia,https://en.wikipedia.org/wiki/Elena_Whitham,2026-11-16,none,,
+K00441,A0291,wikipedia,https://en.wikipedia.org/wiki/Jos%C3%A9_Antonio_Ocampo,2026-11-16,none,,
+K00442,A0294,wikipedia,https://en.wikipedia.org/wiki/Mart%C3%ADn_Guzm%C3%A1n,2026-11-16,none,,
+K00443,A0308,wikipedia,https://en.wikipedia.org/wiki/Alfredo_Saad-Filho,2026-11-16,none,,
+K00444,A0509,wikipedia,https://en.wikipedia.org/wiki/2023_Fermanagh_and_Omagh_District_Council_election,2026-11-16,none,,
+K00445,A0544,wikipedia,https://en.wikipedia.org/wiki/Polly_Toynbee,2026-11-16,none,,
+K00446,A0550,wikipedia,https://en.wikipedia.org/wiki/Andy_John,2026-11-16,none,,
+K00447,A0552,wikipedia,https://en.wikipedia.org/wiki/Owen_Jones,2026-11-16,none,,
+K00448,A0573,wikipedia,https://en.wikipedia.org/wiki/Sioned_Williams,2026-11-16,found,website,
+K00449,A0576,wikipedia,https://en.wikipedia.org/wiki/Rhys_ab_Owen,2026-11-16,none,,
+K00450,A0577,wikipedia,https://en.wikipedia.org/wiki/Luke_Fletcher_%28politician%29,2026-11-16,none,,
+K00451,A0581,wikipedia,https://en.wikipedia.org/wiki/Paul_Nowak_%28trade_unionist%29,2026-11-16,none,,
+K00452,A0585,wikipedia,https://en.wikipedia.org/wiki/Fran_Heathcote,2026-11-16,none,,
+K00453,A0608,wikipedia,https://en.wikipedia.org/wiki/Ann_Pettifor,2026-11-16,found,website,
+K00454,A0615,wikipedia,https://en.wikipedia.org/wiki/Prem_Sikka%2C_Baron_Sikka,2026-11-16,none,,
+K00455,A0620,wikipedia,https://en.wikipedia.org/wiki/Pauline_Bryan%2C_Baroness_Bryan_of_Partick,2026-11-16,none,,
+K00456,A0291,directory,https://www.nber.org/people/jose_ocampo,2026-11-16,none,,"page found, no website listed"
+K00457,A0292,directory,,2026-11-16,none,,no NBER page
+K00458,A0294,directory,https://www.nber.org/people/martin_guzman,2026-11-16,none,,"page found, no website listed"
+K00459,A0301,directory,,2026-11-16,none,,no NBER page
+K00460,A0308,directory,,2026-11-16,none,,no NBER page
+K00461,A0315,directory,,2026-11-16,none,,no NBER page
+K00462,A0579,directory,,2026-11-16,none,,no NBER page
+K00463,A0604,directory,,2026-11-16,none,,no NBER page
+K00464,A0274,own_site,https://kaukabstewart.scot,2026-11-16,error,,URLError: <urlopen error [Errno 11002] getaddrinfo failed>
+K00465,A0254,own_site,https://nataliedon.scot,2026-11-16,error,,URLError: <urlopen error [Errno 11001] getaddrinfo failed>
+K00466,A0082,own_site,https://tommysheppardmp.scot,2026-11-16,error,,URLError: <urlopen error [Errno 11001] getaddrinfo failed>
+K00467,A0573,own_site,https://www.sionedwilliams.wales/,2026-11-16,found,tiktok;instagram;youtube;bluesky,"not added: bluesky https://bsky.app/profile/sionedplaid (); already listed: facebook,x"
+K00468,A0068,own_site,https://www.claudiawebbe.org/,2026-11-16,none,,"not added: youtube https://www.youtube.com/channel/UCXiRX0bX8S-NjzPKAjCuTTw (social-block); already listed: x,facebook,instagram"
+K00469,A0265,own_site,https://www.ronamackay.scot,2026-11-16,error,,URLError: <urlopen error [Errno 11001] getaddrinfo failed>
+K00470,A0276,own_site,https://ruthmaguire.scot/,2026-11-16,none,,
+K00471,A0090,own_site,https://www.anum.scot/,2026-11-16,error,,URLError: <urlopen error [Errno 11001] getaddrinfo failed>
+K00472,A0064,own_site,https://www.bethwinter.wales/,2026-11-16,error,,URLError: <urlopen error ('A required certificate is not within its validity period when v
+K00473,A0270,own_site,https://www.parliament.scot/msps/current-and-previous-msps/kate-forbes,2026-11-16,none,,not added: x https://x.com/ScotParl (meta)
+K00474,A0264,own_site,https://www.gordonmacdonaldmsp.info/,2026-11-16,error,,404 at https://www.gordonmacdonaldmsp.info/
+K00475,A0070,own_site,https://www.ianmearns.org.uk/,2026-11-16,error,,URLError: <urlopen error [WinError 10061] No connection could be made because the target m
+K00476,A0088,own_site,https://www.chrisstephens.scot,2026-11-16,error,,URLError: <urlopen error [Errno 11001] getaddrinfo failed>
+K00477,A0078,own_site,https://angusmacneilsnp.com,2026-11-16,none,,not added: x https://x.com/TogelHK (meta)
+K00478,A0257,own_site,https://www.scottish.parliament.uk/msps/currentmsps/James-Dornan-MSP.aspx,2026-11-16,error,,URLError: <urlopen error ('A required certificate is not within its validity period when v
+K00479,A0093,own_site,https://snp.org/people/deidre-brock,2026-11-16,error,,404 at https://snp.org/people/deidre-brock
+K00480,A0608,own_site,https://www.annpettifor.com,2026-11-16,blocked,,403 at https://www.annpettifor.com

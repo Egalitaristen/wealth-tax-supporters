@@ -1,2 +1,10 @@
 check_id,actor_id,method,url,checked,result,found,note
 K00001,A0010,own_site,http://www.workerhouse.ir/,2026-11-15,none,,
+K00002,A0001,wikipedia,https://en.wikipedia.org/wiki/Hossein_Raghfar,2026-11-16,none,,
+K00003,A0002,wikipedia,https://en.wikipedia.org/wiki/Arsalan_Fathipour,2026-11-16,none,,
+K00004,A0001,directory,,2026-11-16,none,,no NBER page
+K00005,A0003,directory,,2026-11-16,none,,no NBER page
+K00006,A0006,directory,,2026-11-16,none,,no NBER page
+K00007,A0007,directory,,2026-11-16,none,,no NBER page
+K00008,A0008,directory,,2026-11-16,none,,no NBER page
+K00009,A0009,directory,,2026-11-16,none,,no NBER page

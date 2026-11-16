@@ -8,3 +8,10 @@ K00006,A0021,own_site,https://silpy.congreso.gov.py/web/legislador/100648,2026-1
 K00007,A0020,own_site,https://silpy.congreso.gov.py/web/legislador/100660,2026-11-16,error,,URLError: <urlopen error [Errno 11002] getaddrinfo failed>
 K00008,A0024,own_site,https://silpy.congreso.gov.py/web/legislador/100665,2026-11-16,error,,URLError: <urlopen error [Errno 11002] getaddrinfo failed>
 K00009,A0023,own_site,https://silpy.congreso.gov.py/web/legislador/100688,2026-11-16,error,,URLError: <urlopen error [Errno 11002] getaddrinfo failed>
+K00010,A0004,wikipedia,https://en.wikipedia.org/wiki/Esperanza_Mart%C3%ADnez_%28politician%29,2026-11-16,none,,
+K00011,A0005,wikipedia,https://en.wikipedia.org/wiki/Carlos_Filizzola,2026-11-16,none,,
+K00012,A0008,wikipedia,https://en.wikipedia.org/wiki/Kattya_Gonz%C3%A1lez,2026-11-16,none,,
+K00013,A0013,wikipedia,https://en.wikipedia.org/wiki/Struggle_Front_for_the_National_Independence_of_Guinea,2026-11-16,none,,
+K00014,A0016,wikipedia,https://en.wikipedia.org/wiki/Fernando_Lugo,2026-11-16,none,,
+K00015,A0006,directory,,2026-11-16,none,,no NBER page
+K00016,A0012,directory,,2026-11-16,none,,no NBER page

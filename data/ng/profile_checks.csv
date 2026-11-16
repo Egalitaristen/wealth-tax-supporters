@@ -12,3 +12,12 @@ K00010,A0012,own_site,https://www.carenigeria.org,2026-11-16,found,facebook;x;yo
 K00011,A0034,own_site,http://www.southsouthecho.com,2026-11-16,error,,URLError: <urlopen error [Errno 11001] getaddrinfo failed> URLError: <urlopen error [Errno 11001] getaddrinfo failed>
 K00012,A0043,own_site,https://nasu.org.ng,2026-11-16,error,,URLError: <urlopen error [Errno 11001] getaddrinfo failed>
 K00013,A0029,own_site,https://patrioticmillionaires.org,2026-11-16,found,bluesky;facebook;instagram;linkedin;tiktok;x;youtube,
+K00014,A0004,wikipedia,https://en.wikipedia.org/wiki/Auwal_Musa_Rafsanjani,2026-11-16,none,,
+K00015,A0072,wikipedia,https://en.wikipedia.org/wiki/Rauf_Aregbesola,2026-11-16,none,,
+K00016,A0013,directory,,2026-11-16,none,,no NBER page
+K00017,A0017,directory,,2026-11-16,none,,no NBER page
+K00018,A0018,directory,,2026-11-16,none,,no NBER page
+K00019,A0019,directory,,2026-11-16,none,,no NBER page
+K00020,A0025,directory,,2026-11-16,none,,no NBER page
+K00021,A0033,directory,,2026-11-16,none,,no NBER page
+K00022,A0054,directory,,2026-11-16,none,,no NBER page

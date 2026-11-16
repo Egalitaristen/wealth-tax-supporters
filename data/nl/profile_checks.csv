@@ -68,3 +68,149 @@ K00066,A0259,own_site,https://www.geertwilders.nl/,2026-11-16,none,,
 K00067,A0226,own_site,https://www.harryvanbommel.nl/,2026-11-16,error,,URLError: <urlopen error [WinError 10060] A connection attempt failed because the connecte
 K00068,A0244,own_site,https://www.tweedekamer.nl/kamerleden_en_commissies/alle_kamerleden/buitenweg-km-gl,2026-11-16,error,,404 at https://www.tweedekamer.nl/kamerleden_en_commissies/alle_kamerleden/buitenweg-km-gl
 K00069,A0243,own_site,https://www.tweedekamer.nl/kamerleden_en_commissies/alle_kamerleden/kr%C3%B6ger-sc-gl,2026-11-16,error,,404 at https://www.tweedekamer.nl/kamerleden_en_commissies/alle_kamerleden/kr%C3%B6ger-sc-gl
+K00070,A0001,wikipedia,https://en.wikipedia.org/wiki/Jimmy_Dijk,2026-11-16,none,,
+K00071,A0002,wikipedia,https://en.wikipedia.org/wiki/Mahir_Alkaya,2026-11-16,none,,
+K00072,A0003,wikipedia,https://en.wikipedia.org/wiki/Renske_Leijten,2026-11-16,none,,
+K00073,A0004,wikipedia,https://en.wikipedia.org/wiki/Emile_Roemer,2026-11-16,none,,
+K00074,A0007,wikipedia,https://en.wikipedia.org/wiki/Luc_Stultiens,2026-11-16,none,,
+K00075,A0008,wikipedia,https://en.wikipedia.org/wiki/Marleen_Haage,2026-11-16,none,,
+K00076,A0009,wikipedia,https://en.wikipedia.org/wiki/Tom_van_der_Lee,2026-11-16,none,,
+K00077,A0012,wikipedia,https://en.wikipedia.org/wiki/Kirsten_van_den_Hul,2026-11-16,none,,
+K00078,A0013,wikipedia,https://en.wikipedia.org/wiki/Lodewijk_Asscher,2026-11-16,none,,
+K00079,A0014,wikipedia,https://en.wikipedia.org/wiki/Romke_de_Jong,2026-11-16,found,website,
+K00080,A0015,wikipedia,https://en.wikipedia.org/wiki/Steven_van_Weyenberg,2026-11-16,none,,
+K00081,A0016,wikipedia,https://en.wikipedia.org/wiki/Hans_Vijlbrief,2026-11-16,none,,
+K00082,A0017,wikipedia,https://en.wikipedia.org/wiki/Pieter_Grinwis,2026-11-16,none,,
+K00083,A0036,wikipedia,https://en.wikipedia.org/wiki/Lammert_van_Raan,2026-11-16,none,,
+K00084,A0037,wikipedia,https://en.wikipedia.org/wiki/Nil%C3%BCfer_G%C3%BCndo%C4%9Fan,2026-11-16,none,,
+K00085,A0038,wikipedia,https://en.wikipedia.org/wiki/Christine_Teunissen,2026-11-16,none,,
+K00086,A0039,wikipedia,https://en.wikipedia.org/wiki/Laurens_Dassen,2026-11-16,none,,
+K00087,A0040,wikipedia,https://en.wikipedia.org/wiki/Bastiaan_van_Apeldoorn,2026-11-16,none,,
+K00088,A0060,wikipedia,https://en.wikipedia.org/wiki/Joris_Thijssen,2026-11-16,none,,
+K00089,A0094,wikipedia,https://en.wikipedia.org/wiki/Folkert_Idsinga,2026-11-16,none,,
+K00090,A0099,wikipedia,https://en.wikipedia.org/wiki/Bart_van_Kent,2026-11-16,none,,
+K00091,A0107,wikipedia,https://en.wikipedia.org/wiki/Michiel_van_Nispen,2026-11-16,none,,
+K00092,A0142,wikipedia,https://en.wikipedia.org/wiki/Lilian_Marijnissen,2026-11-16,none,,
+K00093,A0143,wikipedia,https://en.wikipedia.org/wiki/Arnold_Merkies,2026-11-16,none,,
+K00094,A0144,wikipedia,https://en.wikipedia.org/wiki/Rob_Jetten,2026-11-16,none,,
+K00095,A0145,wikipedia,https://en.wikipedia.org/wiki/Tiny_Kox,2026-11-16,none,,
+K00096,A0148,wikipedia,https://en.wikipedia.org/wiki/Sharon_Gesthuizen,2026-11-16,none,,
+K00097,A0149,wikipedia,https://en.wikipedia.org/wiki/Nine_Kooiman,2026-11-16,none,,
+K00098,A0150,wikipedia,https://en.wikipedia.org/wiki/Paulus_Jansen,2026-11-16,none,,
+K00099,A0151,wikipedia,https://en.wikipedia.org/wiki/Jasper_van_Dijk,2026-11-16,none,,
+K00100,A0167,wikipedia,https://en.wikipedia.org/wiki/Jan_de_Wit,2026-11-16,none,,
+K00101,A0181,wikipedia,https://en.wikipedia.org/wiki/Bas_van_Bavel,2026-11-16,none,,
+K00102,A0205,wikipedia,https://en.wikipedia.org/wiki/Sander_Schimmelpenninck,2026-11-16,found,website,
+K00103,A0218,wikipedia,https://en.wikipedia.org/wiki/Marnix_van_Rij,2026-11-16,none,,
+K00104,A0220,wikipedia,https://en.wikipedia.org/wiki/Raoul_White,2026-11-16,none,,
+K00105,A0221,wikipedia,https://en.wikipedia.org/wiki/Tjitske_Siderius,2026-11-16,none,,
+K00106,A0222,wikipedia,https://en.wikipedia.org/wiki/Sarah_Dobbe,2026-11-16,none,,
+K00107,A0223,wikipedia,https://en.wikipedia.org/wiki/Lilianne_Ploumen,2026-11-16,none,,
+K00108,A0224,wikipedia,https://en.wikipedia.org/wiki/Randy_Martens,2026-11-16,none,,
+K00109,A0225,wikipedia,https://en.wikipedia.org/wiki/Ronald_van_Raak,2026-11-16,none,,
+K00110,A0227,wikipedia,https://en.wikipedia.org/wiki/Eric_Smaling,2026-11-16,none,,
+K00111,A0228,wikipedia,https://en.wikipedia.org/wiki/Paul_Ulenbelt,2026-11-16,none,,
+K00112,A0229,wikipedia,https://en.wikipedia.org/wiki/Henk_van_Gerven,2026-11-16,none,,
+K00113,A0230,wikipedia,https://en.wikipedia.org/wiki/Bram_van_Ojik,2026-11-16,none,,
+K00114,A0232,wikipedia,https://en.wikipedia.org/wiki/Liesbeth_van_Tongeren,2026-11-16,none,,
+K00115,A0233,wikipedia,https://en.wikipedia.org/wiki/Tunahan_Kuzu,2026-11-16,none,,
+K00116,A0234,wikipedia,https://en.wikipedia.org/wiki/Sel%C3%A7uk_%C3%96zt%C3%BCrk,2026-11-16,none,,
+K00117,A0235,wikipedia,https://en.wikipedia.org/wiki/Rik_Grashoff,2026-11-16,none,,
+K00118,A0236,wikipedia,https://en.wikipedia.org/wiki/Sandra_Beckerman,2026-11-16,none,,
+K00119,A0237,wikipedia,https://en.wikipedia.org/wiki/Maarten_Hijink,2026-11-16,none,,
+K00120,A0239,wikipedia,https://en.wikipedia.org/wiki/Peter_Kwint,2026-11-16,none,,
+K00121,A0241,wikipedia,https://en.wikipedia.org/wiki/Lisa_Westerveld,2026-11-16,none,,
+K00122,A0242,wikipedia,https://en.wikipedia.org/wiki/Isabelle_Diks,2026-11-16,none,,
+K00123,A0245,wikipedia,https://en.wikipedia.org/wiki/Nevin_%C3%96z%C3%BCtok,2026-11-16,none,,
+K00124,A0247,wikipedia,https://en.wikipedia.org/wiki/Sharon_Dijksma,2026-11-16,none,,
+K00125,A0248,wikipedia,https://en.wikipedia.org/wiki/William_Moorlag,2026-11-16,none,,
+K00126,A0250,wikipedia,https://en.wikipedia.org/wiki/Gijs_van_Dijk,2026-11-16,none,,
+K00127,A0251,wikipedia,https://en.wikipedia.org/wiki/Attje_Kuiken,2026-11-16,none,,
+K00128,A0252,wikipedia,https://en.wikipedia.org/wiki/Femke_Merel_van_Kooten,2026-11-16,none,,
+K00129,A0253,wikipedia,https://en.wikipedia.org/wiki/Gidi_Markuszower,2026-11-16,none,,
+K00130,A0254,wikipedia,https://en.wikipedia.org/wiki/Barry_Madlener,2026-11-16,none,,
+K00131,A0255,wikipedia,https://en.wikipedia.org/wiki/Martin_Bosma,2026-11-16,none,,
+K00132,A0256,wikipedia,https://en.wikipedia.org/wiki/Roy_van_Aalst,2026-11-16,none,,
+K00133,A0257,wikipedia,https://en.wikipedia.org/wiki/Lilian_Helder,2026-11-16,none,,
+K00134,A0258,wikipedia,https://en.wikipedia.org/wiki/Dion_Graus,2026-11-16,none,,
+K00135,A0260,wikipedia,https://en.wikipedia.org/wiki/Alexander_Kops,2026-11-16,none,,
+K00136,A0261,wikipedia,https://en.wikipedia.org/wiki/Teun_van_Dijck,2026-11-16,none,,
+K00137,A0262,wikipedia,https://en.wikipedia.org/wiki/Edgar_Mulder,2026-11-16,none,,
+K00138,A0263,wikipedia,https://en.wikipedia.org/wiki/Danai_van_Weerdenburg,2026-11-16,none,,
+K00139,A0264,wikipedia,https://en.wikipedia.org/wiki/Machiel_de_Graaf,2026-11-16,none,,
+K00140,A0265,wikipedia,https://en.wikipedia.org/wiki/Raymond_de_Roon,2026-11-16,none,,
+K00141,A0266,wikipedia,https://en.wikipedia.org/wiki/Emiel_van_Dijk,2026-11-16,none,,
+K00142,A0267,wikipedia,https://en.wikipedia.org/wiki/Fleur_Agema,2026-11-16,none,,
+K00143,A0268,wikipedia,https://en.wikipedia.org/wiki/Vicky_Maeijer,2026-11-16,none,,
+K00144,A0269,wikipedia,https://en.wikipedia.org/wiki/John_Kerstens,2026-11-16,none,,
+K00145,A0270,wikipedia,https://en.wikipedia.org/wiki/Marianne_Thieme,2026-11-16,none,,
+K00146,A0271,wikipedia,https://en.wikipedia.org/wiki/Esther_Ouwehand,2026-11-16,found,website,
+K00147,A0272,wikipedia,https://en.wikipedia.org/wiki/Frank_Wassenberg,2026-11-16,none,,
+K00148,A0273,wikipedia,https://en.wikipedia.org/wiki/Corrie_van_Brenk,2026-11-16,none,,
+K00149,A0274,wikipedia,https://en.wikipedia.org/wiki/Gerrit_Jan_van_Otterloo,2026-11-16,none,,
+K00150,A0275,wikipedia,https://en.wikipedia.org/wiki/Henk_Krol,2026-11-16,none,,
+K00151,A0276,wikipedia,https://en.wikipedia.org/wiki/Niels_van_den_Berge,2026-11-16,none,,
+K00152,A0277,wikipedia,https://en.wikipedia.org/wiki/Laura_Bromet,2026-11-16,none,,
+K00153,A0280,wikipedia,https://en.wikipedia.org/wiki/Jimme_Nordkamp,2026-11-16,none,,
+K00154,A0281,wikipedia,https://en.wikipedia.org/wiki/Geert_Gabri%C3%ABls,2026-11-16,none,,
+K00155,A0282,wikipedia,https://en.wikipedia.org/wiki/Habtamu_de_Hoop,2026-11-16,none,,
+K00156,A0283,wikipedia,https://en.wikipedia.org/wiki/Mari%C3%ABtte_Patijn,2026-11-16,none,,
+K00157,A0284,wikipedia,https://en.wikipedia.org/wiki/Julian_Bushoff,2026-11-16,none,,
+K00158,A0285,wikipedia,https://en.wikipedia.org/wiki/Kati_Piri,2026-11-16,none,,
+K00159,A0286,wikipedia,https://en.wikipedia.org/wiki/Esmah_Lahlah,2026-11-16,none,,
+K00160,A0287,wikipedia,https://en.wikipedia.org/wiki/Mohammed_Mohandis,2026-11-16,none,,
+K00161,A0288,wikipedia,https://en.wikipedia.org/wiki/Frans_Timmermans,2026-11-16,none,,
+K00162,A0289,wikipedia,https://en.wikipedia.org/wiki/Dani%C3%ABlle_Hirsch,2026-11-16,none,,
+K00163,A0290,wikipedia,https://en.wikipedia.org/wiki/Elke_Slagt-Tichelman,2026-11-16,none,,
+K00164,A0291,wikipedia,https://en.wikipedia.org/wiki/Anita_Pijpelink,2026-11-16,none,,
+K00165,A0292,wikipedia,https://en.wikipedia.org/wiki/Song%C3%BCl_Mutluer,2026-11-16,none,,
+K00166,A0293,wikipedia,https://en.wikipedia.org/wiki/Barbara_Kathmann,2026-11-16,none,,
+K00167,A0294,wikipedia,https://en.wikipedia.org/wiki/Glimina_Chakor,2026-11-16,none,,
+K00168,A0295,wikipedia,https://en.wikipedia.org/wiki/Marieke_Koekkoek,2026-11-16,none,,
+K00169,A0296,wikipedia,https://en.wikipedia.org/wiki/Anne-Marijke_Podt,2026-11-16,found,website,
+K00170,A0297,wikipedia,https://en.wikipedia.org/wiki/Jan_Paternotte,2026-11-16,none,,
+K00171,A0298,wikipedia,https://en.wikipedia.org/wiki/Tjeerd_de_Groot,2026-11-16,none,,
+K00172,A0299,wikipedia,https://en.wikipedia.org/wiki/Joost_Sneller,2026-11-16,none,,
+K00173,A0301,wikipedia,https://en.wikipedia.org/wiki/Marijke_Synhaeve,2026-11-16,none,,
+K00174,A0302,wikipedia,https://en.wikipedia.org/wiki/Mpanzu_Bamenga,2026-11-16,none,,
+K00175,A0303,wikipedia,https://en.wikipedia.org/wiki/Ines_Kosti%C4%87,2026-11-16,none,,
+K00176,A0304,wikipedia,https://en.wikipedia.org/wiki/Stephan_van_Baarle,2026-11-16,none,,
+K00177,A0305,wikipedia,https://en.wikipedia.org/wiki/Ismail_el_Abassi,2026-11-16,none,,
+K00178,A0306,wikipedia,https://en.wikipedia.org/wiki/Do%C4%9Fukan_Ergin,2026-11-16,none,,
+K00179,A0307,wikipedia,https://en.wikipedia.org/wiki/Hanneke_van_der_Werf,2026-11-16,none,,
+K00180,A0034,directory,,2026-11-16,none,,no NBER page
+K00181,A0045,directory,,2026-11-16,none,,no NBER page
+K00182,A0046,directory,,2026-11-16,none,,no NBER page
+K00183,A0047,directory,,2026-11-16,none,,no NBER page
+K00184,A0048,directory,,2026-11-16,none,,no NBER page
+K00185,A0114,directory,,2026-11-16,none,,no NBER page
+K00186,A0115,directory,,2026-11-16,none,,no NBER page
+K00187,A0116,directory,,2026-11-16,none,,no NBER page
+K00188,A0117,directory,,2026-11-16,none,,no NBER page
+K00189,A0120,directory,,2026-11-16,none,,no NBER page
+K00190,A0127,directory,,2026-11-16,none,,no NBER page
+K00191,A0129,directory,,2026-11-16,none,,no NBER page
+K00192,A0132,directory,,2026-11-16,none,,no NBER page
+K00193,A0133,directory,,2026-11-16,none,,no NBER page
+K00194,A0181,directory,,2026-11-16,none,,no NBER page
+K00195,A0190,directory,,2026-11-16,none,,no NBER page
+K00196,A0194,directory,,2026-11-16,none,,no NBER page
+K00197,A0196,directory,,2026-11-16,none,,no NBER page
+K00198,A0197,directory,,2026-11-16,none,,no NBER page
+K00199,A0198,directory,,2026-11-16,none,,no NBER page
+K00200,A0199,directory,https://www.nber.org/people/rob_vos,2026-11-16,none,,"page found, no website listed"
+K00201,A0201,directory,,2026-11-16,none,,no NBER page
+K00202,A0207,directory,,2026-11-16,none,,no NBER page
+K00203,A0216,directory,,2026-11-16,none,,no NBER page
+K00204,A0005,own_site,https://farshadbashir.nl,2026-11-16,none,,
+K00205,A0029,own_site,https://www.rutgerbregman.com,2026-11-16,found,youtube;substack;bluesky;tiktok;mastodon,"not added: linkedin https://www.linkedin.com/in/rutger-bregman-a4368213b (chrome,rel-me,social-block); linkedin https://www.linkedin.com/in/rutgerbregman (chrome,social-block); instagram https://www.instagram.com/rutgerbregman/ (chrome,rel-me,social-block); instagram https://www.instagram.com/rutger_bregman/ (; already listed: x"
+K00206,A0100,own_site,https://www.jesseklaver.nl/,2026-11-16,blocked,,403 at https://www.jesseklaver.nl/
+K00207,A0014,own_site,https://romkedejong.nl,2026-11-16,none,,"not added: instagram https://www.instagram.com/romkedejong_/ (chrome,social-block); already listed: linkedin,x"
+K00208,A0130,own_site,https://sanderheijne.nl/,2026-11-16,none,,already listed: x
+K00209,A0296,own_site,https://annemarijkepodt.nl,2026-11-16,error,,"URLError: <urlopen error ('A certificate chain processed, but terminated in a root certifi"
+K00210,A0271,own_site,https://www.partyfortheanimals.com,2026-11-16,none,,"not added: x https://x.com/Party4Animals (chrome,meta,social-block); facebook https://www.facebook.com/Party4theAnimals (chrome,social-block); instagram https://www.instagram.com/partyfortheanimals/ (chrome,social-block)"
+K00211,A0010,own_site,https://www.tweedekamer.nl/kamerleden_en_commissies/alle_kamerleden/snels-baw-gl,2026-11-16,error,,404 at https://www.tweedekamer.nl/kamerleden_en_commissies/alle_kamerleden/snels-baw-gl
+K00212,A0044,own_site,https://www.uu.nl/staff/IAMRobeyns,2026-11-16,none,,not added: facebook https://www.facebook.com/UtrechtUniversity (social-block); youtube https://www.youtube.com/user/UniversiteitUtrecht (social-block); linkedin https://www.linkedin.com/school/universiteit-utrecht (social-block); instagram https://www.instagram.com/utrechtuniversity/ (social-block)
+K00213,A0135,own_site,https://www.fonsburger.com/,2026-11-16,none,,
+K00214,A0205,own_site,https://sanderschimmelpenninck.nl,2026-11-16,found,linkedin,already listed: x
+K00215,A0006,own_site,https://www.sennamaatoug.nl/,2026-11-16,found,x,"already listed: instagram,linkedin"

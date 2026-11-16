@@ -1,3 +1,8 @@
 check_id,actor_id,method,url,checked,result,found,note
 K00001,A0002,own_site,https://podkrepa.org,2026-11-15,found,facebook;youtube;instagram,
 K00002,A0001,own_site,https://knsb-bg.org,2026-11-16,blocked,,403 at https://knsb-bg.org
+K00003,A0005,wikipedia,https://en.wikipedia.org/wiki/Tsvetelina_Penkova,2026-11-16,none,,
+K00004,A0006,wikipedia,https://en.wikipedia.org/wiki/Sergey_Stanishev,2026-11-16,none,,
+K00005,A0007,wikipedia,https://en.wikipedia.org/wiki/Elena_Yoncheva,2026-11-16,none,,
+K00006,A0008,wikipedia,https://en.wikipedia.org/wiki/Ivo_Hristov,2026-11-16,none,,
+K00007,A0009,wikipedia,https://en.wikipedia.org/wiki/Petar_Vitanov_%28politician%29,2026-11-16,none,,

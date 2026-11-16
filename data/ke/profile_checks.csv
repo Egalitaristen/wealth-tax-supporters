@@ -4,3 +4,5 @@ K00002,A0015,own_site,https://www.internationallawyersproject.org,2026-11-15,fou
 K00003,A0004,own_site,https://www.nta.or.ke,2026-11-15,none,,"not added: x https://x.com/nta_kenya (chrome,social-block); facebook https://www.facebook.com/ntakenya (chrome,social-block); instagram https://www.instagram.com/ntakenya/ (chrome,social-block)"
 K00004,A0009,own_site,https://www.khrc.or.ke,2026-11-16,found,linkedin,"not added: facebook https://www.facebook.com/thekhrc (chrome,social-block); instagram https://www.instagram.com/thekhrc/ (chrome,social-block); x https://x.com/thekhrc (chrome,meta,social-block); tiktok https://www.tiktok.com/@thekhrc (chrome,social-block)"
 K00005,A0003,own_site,https://ipfglobal.or.ke,2026-11-16,found,youtube,"not added: facebook https://www.facebook.com/IPFKENYA (chrome,social-block); x https://x.com/ipf_global (meta)"
+K00006,A0012,wikipedia,https://en.wikipedia.org/wiki/William_Ruto,2026-11-16,none,,
+K00007,A0006,directory,,2026-11-16,none,,no NBER page

@@ -5,3 +5,10 @@ K00003,A0012,own_site,https://www.partidomorado.pe/,2026-11-15,none,,not added: 
 K00004,A0023,own_site,https://cooperaccion.org.pe,2026-11-15,found,instagram;linkedin;youtube;tiktok,"already listed: facebook,x"
 K00005,A0008,own_site,https://www.cgtp.org.pe/,2026-11-15,found,facebook;x;youtube;tiktok,
 K00006,A0019,own_site,https://veronikamendoza.pe/,2026-11-16,error,,URLError: <urlopen error [Errno 11001] getaddrinfo failed>
+K00007,A0001,wikipedia,https://en.wikipedia.org/wiki/Roc%C3%ADo_Silva-Santisteban,2026-11-16,found,website,
+K00008,A0002,wikipedia,https://en.wikipedia.org/wiki/Mirtha_V%C3%A1squez,2026-11-16,none,,
+K00009,A0010,directory,,2026-11-16,none,,no NBER page
+K00010,A0020,directory,,2026-11-16,none,,no NBER page
+K00011,A0021,directory,,2026-11-16,none,,no NBER page
+K00012,A0024,directory,,2026-11-16,none,,no NBER page
+K00013,A0001,own_site,https://www.congreso.gob.pe/congresistas2016/RocioSilva/,2026-11-16,error,,404 at https://www.congreso.gob.pe/congresistas2016/RocioSilva/

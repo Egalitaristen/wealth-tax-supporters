@@ -2,3 +2,14 @@ check_id,actor_id,method,url,checked,result,found,note
 K00001,A0011,own_site,https://ves.sr,2026-11-15,found,facebook;linkedin;youtube,
 K00002,A0016,own_site,https://dwtonline.com/,2026-11-15,found,facebook;x,
 K00003,A0006,own_site,https://kiespro.com/,2026-11-16,found,facebook,"CHECK no added handle carries the name: the site may host several groups, or belong to a parent."
+K00004,A0001,wikipedia,https://en.wikipedia.org/wiki/Amzad_Abdoel,2026-11-16,none,,
+K00005,A0002,wikipedia,https://en.wikipedia.org/wiki/Ronny_Asabina,2026-11-16,none,,
+K00006,A0003,wikipedia,https://en.wikipedia.org/wiki/Armand_Zunder,2026-11-16,none,,
+K00007,A0005,wikipedia,https://en.wikipedia.org/wiki/Brotherhood_and_Unity_in_Politics,2026-11-16,none,,
+K00008,A0008,wikipedia,https://en.wikipedia.org/wiki/Carlo_Jadnanansing,2026-11-16,none,,
+K00009,A0009,wikipedia,https://en.wikipedia.org/wiki/Patricia_Etnel,2026-11-16,none,,
+K00010,A0012,wikipedia,https://en.wikipedia.org/wiki/Armand_Achaibersing,2026-11-16,none,,
+K00011,A0002,directory,,2026-11-16,none,,no NBER page
+K00012,A0003,directory,,2026-11-16,none,,no NBER page
+K00013,A0008,directory,,2026-11-16,none,,no NBER page
+K00014,A0010,directory,,2026-11-16,none,,no NBER page

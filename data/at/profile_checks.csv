@@ -19,3 +19,23 @@ K00017,A0023,own_site,https://www.proge.at,2026-11-16,found,facebook;instagram;t
 K00018,A0036,own_site,https://www.kaboe.at,2026-11-16,found,facebook,not added: instagram https://www.instagram.com/kab_oe/ ()
 K00019,A0012,own_site,https://www.momentum-institut.at,2026-11-16,found,youtube;x;instagram;facebook;bluesky,"not added: mastodon https://mastodon.social/@mom_inst@social.moment.at (chrome,social-block)"
 K00020,A0032,own_site,https://millionairesforhumanity.org/the-millionaires/ernest-fuhrmann-2/,2026-11-16,none,,"not added: instagram https://www.instagram.com/millionairesforhumanity/ (chrome,social-block); instagram https://www.instagram.com/qodeinteractive/ (social-block); x https://x.com/mills4humanity (chrome,social-block); x https://x.com/QodeInteractive (social-block); facebook https://www.facebook.com/millionaire"
+K00021,A0004,wikipedia,https://en.wikipedia.org/wiki/Kai_Jan_Krainer,2026-11-16,none,,
+K00022,A0006,wikipedia,https://en.wikipedia.org/wiki/Wolfgang_Katzian,2026-11-16,none,,
+K00023,A0010,wikipedia,https://en.wikipedia.org/wiki/Barbara_Teiber,2026-11-16,none,,
+K00024,A0013,wikipedia,https://en.wikipedia.org/wiki/Barbara_Blaha,2026-11-16,none,,
+K00025,A0018,wikipedia,https://en.wikipedia.org/wiki/Markus_Marterbauer,2026-11-16,none,,
+K00026,A0020,wikipedia,https://en.wikipedia.org/wiki/Josef_Muchitsch,2026-11-16,none,,
+K00027,A0021,wikipedia,https://en.wikipedia.org/wiki/Reinhold_Binder,2026-11-16,none,,
+K00028,A0024,wikipedia,https://en.wikipedia.org/wiki/Elke_Kahr,2026-11-16,none,,
+K00029,A0026,wikipedia,https://en.wikipedia.org/wiki/Karsten_Stolz,2026-11-16,none,,
+K00030,A0029,wikipedia,https://en.wikipedia.org/wiki/List_of_minor_planets%3A_11001%E2%80%9312000,2026-11-16,none,,
+K00031,A0039,wikipedia,https://en.wikipedia.org/wiki/Selma_Yildirim,2026-11-16,found,website,
+K00032,A0040,wikipedia,https://en.wikipedia.org/wiki/Sabine_Schatz,2026-11-16,none,,
+K00033,A0041,wikipedia,https://en.wikipedia.org/wiki/Nurten_Y%C4%B1lmaz,2026-11-16,none,,
+K00034,A0015,directory,,2026-11-16,none,,no NBER page
+K00035,A0018,directory,,2026-11-16,none,,no NBER page
+K00036,A0019,directory,,2026-11-16,none,,no NBER page
+K00037,A0027,directory,,2026-11-16,none,,no NBER page
+K00038,A0028,directory,https://www.nber.org/people/martin_schurz,2026-11-16,none,,"page found, no website listed"
+K00039,A0033,directory,,2026-11-16,none,,no NBER page
+K00040,A0039,own_site,https://www.selma-yildirim.at,2026-11-16,blocked,,403 at https://www.selma-yildirim.at

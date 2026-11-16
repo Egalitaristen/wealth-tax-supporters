@@ -4,3 +4,17 @@ K00002,A0013,own_site,https://cedla.org,2026-11-15,error,,URLError: <urlopen err
 K00003,A0035,own_site,https://diputados.gob.bo/diputados/lissa-amanda-claros-lora/,2026-11-15,error,,URLError: <urlopen error ('A required certificate is not within its validity period when v
 K00004,A0001,own_site,https://www.bolivia.oxfam.org,2026-11-16,found,facebook;instagram;x;linkedin;youtube,
 K00005,A0005,own_site,https://mas-ipsp.org/hoy/,2026-11-16,none,,"404 at https://clockofduncan.com/pages/contact-us 404 at https://clockofduncan.com/pages/about-us; not added: facebook https://www.facebook.com/istudiosg (chrome,social-block); instagram https://www.instagram.com/istudiosg/ (chrome,social-block); youtube https://www.youtube.com/channel/UCIkbIFG01maO7Rs_yW9XkKA (chrome,social-block)"
+K00006,A0003,wikipedia,https://en.wikipedia.org/wiki/Luis_Arce,2026-11-16,none,,
+K00007,A0004,wikipedia,https://en.wikipedia.org/wiki/Evo_Morales,2026-11-16,none,,
+K00008,A0012,wikipedia,https://en.wikipedia.org/wiki/Omar_Yujra,2026-11-16,none,,
+K00009,A0024,wikipedia,https://en.wikipedia.org/wiki/%C3%81lvaro_Garc%C3%ADa_Linera,2026-11-16,none,,
+K00010,A0014,directory,,2026-11-16,none,,no NBER page
+K00011,A0015,directory,,2026-11-16,none,,no NBER page
+K00012,A0017,directory,,2026-11-16,none,,no NBER page
+K00013,A0018,directory,,2026-11-16,none,,no NBER page
+K00014,A0025,directory,,2026-11-16,none,,no NBER page
+K00015,A0026,directory,,2026-11-16,none,,no NBER page
+K00016,A0033,directory,,2026-11-16,none,,no NBER page
+K00017,A0036,directory,,2026-11-16,none,,no NBER page
+K00018,A0008,own_site,https://cob.org.bo/,2026-11-16,error,,URLError: <urlopen error [Errno 11001] getaddrinfo failed>
+K00019,A0010,own_site,https://sites.google.com/site/fstmb2003,2026-11-16,none,,
