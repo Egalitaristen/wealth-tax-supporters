@@ -8,3 +8,5 @@ K00006,A0010,own_site,https://psu.ma,2026-11-15,found,facebook,
 K00007,A0016,own_site,https://annahjaddimocrati.org,2026-11-15,found,facebook;x,
 K00008,A0001,own_site,http://www.cdtnationale.ma,2026-11-16,error,,URLError: <urlopen error [Errno 11001] getaddrinfo failed> URLError: <urlopen error [Errno 11001] getaddrinfo failed>
 K00009,A0007,own_site,https://maroc.oxfam.org,2026-11-16,error,,URLError: <urlopen error [Errno 11001] getaddrinfo failed>
+K00010,A0004,own_site,https://alharaka.ma,2026-11-16,found,facebook;youtube;instagram,"not added: youtube https://www.youtube.com/channel/UCY-V4oWvSYSD-mok2azdn0Q (chrome,social-block)"
+K00011,A0003,own_site,https://pps.ma,2026-11-16,found,facebook;x;youtube;instagram,

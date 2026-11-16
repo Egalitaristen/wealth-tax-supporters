@@ -296,3 +296,62 @@ K00294,A0176,own_site,https://vermoegensabgabe.de,2026-11-16,none,,
 K00295,A0312,own_site,https://www.sowi.hu-berlin.de/,2026-11-16,blocked,,200 at https://www.sowi.hu-berlin.de/
 K00296,A0168,own_site,https://taz.de,2026-11-16,none,,"not added: mastodon https://mastodon.social/@tazgetroete (chrome,social-block); bluesky https://bsky.app/profile/taz.de (chrome,social-block); instagram https://www.instagram.com/taz.die_tageszeitung/ (chrome,social-block); x https://x.com/tazgezwitscher (meta)"
 K00297,A0184,own_site,https://www.ina-latendorf.de/politik/neuigkeiten/,2026-11-16,error,,404 at https://www.ina-latendorf.de/politik/neuigkeiten/
+K00298,A0210,own_site,https://www.dstg.de,2026-11-16,none,,"not added: facebook https://www.facebook.com/dstgbund (chrome,social-block); instagram https://www.instagram.com/dstg_de/ (chrome,social-block)"
+K00299,A0445,own_site,https://www.duisburg-business.de/leistungen/projektentwicklung-europa,2026-11-16,found,linkedin,"not added: linkedin https://www.linkedin.com/company/gfw-duisburg (chrome,social-block); facebook https://www.facebook.com/dbi.duisburg (chrome,social-block); instagram https://www.instagram.com/dbi_duisburg/ (chrome,social-block); tiktok https://www.tiktok.com/@dbi_duisburg (chrome,social-block)"
+K00300,A0141,own_site,https://www.igmetall.de,2026-11-16,none,,
+K00301,A0349,own_site,https://kuhnen-pr.de,2026-11-16,error,,URLError: <urlopen error [Errno 11001] getaddrinfo failed>
+K00302,A0334,own_site,https://www.businessschool-berlin.de,2026-11-16,none,,"not added: linkedin https://www.linkedin.com/school/bsp-business-and-law-school (chrome,social-block); instagram https://www.instagram.com/bspberlin/ (chrome,social-block); facebook https://www.facebook.com/BSPBusinessLawSchool (chrome,social-block)"
+K00303,A0449,own_site,https://www.drk-sh.de/start/presse/meldung/150-blutspenderinnen-und-spender-geehrt.html,2026-11-16,none,,"not added: facebook https://www.facebook.com/drkinsh (chrome,social-block); youtube https://www.youtube.com/user/DRKLVSH (chrome,social-block); instagram https://www.instagram.com/drkinsh/ (chrome,social-block); x https://x.com/roteskreuz_de (meta)"
+K00304,A0090,own_site,https://harald-ebner.de/,2026-11-16,none,,"not added: facebook https://www.facebook.com/sylvia.kottinguhl (); facebook https://www.facebook.com/einfachKuehn (); facebook https://www.facebook.com/sylvia.pilarskygrosch (); facebook https://www.facebook.com/sandra.detzer.5 (); facebook https://www.facebook.com/niemannjutta (); facebook https://www.faceboo; already listed: facebook,instagram,x"
+K00305,A0093,own_site,https://baerbel-hoehn.de/,2026-11-16,none,,"not added: facebook https://www.facebook.com/people/B%C3%A4rbel-H%C3%B6hn/100091983883003 (chrome,social-block); youtube https://www.youtube.com/user/BaerbelHoehn (chrome,social-block); already listed: x"
+K00306,A0239,own_site,https://www.beate-walter-rosenheimer.de/,2026-11-16,none,,"already listed: instagram,facebook"
+K00307,A0152,own_site,https://fian.de,2026-11-16,found,linkedin;bluesky,"already listed: facebook,x,youtube,instagram"
+K00308,A0237,own_site,https://harald-terpe.de,2026-11-16,none,,
+K00309,A0221,own_site,https://toni-hofreiter.de/,2026-11-16,none,,"not added: youtube https://www.youtube.com/user/tonihofreiter (chrome,social-block); already listed: facebook,instagram"
+K00310,A0034,own_site,https://www.bernd-riexinger.de/,2026-11-16,none,,"not added: bluesky https://bsky.app/profile/die-linke.de (chrome,social-block); instagram https://www.instagram.com/dielinke/ (chrome,social-block); already listed: facebook,x"
+K00311,A0288,own_site,https://rote-gourmet-fraktion.de,2026-11-16,found,x;bluesky;instagram;facebook,"not added: facebook https://www.facebook.com/restaurantolsen (social-block); facebook https://www.facebook.com/Und-dann-kam-Punk-118799866697964 (social-block); youtube https://www.youtube.com/c/kulinarischsolidarisch (chrome,social-block)"
+K00312,A0283,own_site,https://nihuke.wordpress.com/,2026-11-16,none,,
+K00313,A0021,own_site,https://anne-zerr.de/,2026-11-16,found,youtube;instagram;tiktok,
+K00314,A0225,own_site,https://www.tom-koenigs.de,2026-11-16,error,,URLError: <urlopen error [Errno 11001] getaddrinfo failed>
+K00315,A0407,own_site,https://www.felixbanaszak.de/,2026-11-16,none,,"not added: facebook https://www.facebook.com/felix.banaszak (); facebook https://www.facebook.com/felixbanaszak.de (chrome,social-block); already listed: instagram,bluesky"
+K00316,A0081,own_site,https://www.kerstin-andreae.de,2026-11-16,error,,URLError: <urlopen error [SSL: SSLV3_ALERT_HANDSHAKE_FAILURE] sslv3 alert handshake failur
+K00317,A0058,own_site,https://www.heike-haensel.de/,2026-11-16,found,instagram,"not added: youtube https://www.youtube.com/user/linksfraktion (social-block); already listed: x,facebook"
+K00318,A0100,own_site,https://www.oliver-krischer.eu/,2026-11-16,none,,already listed: x
+K00319,A0140,own_site,https://www.weed-online.org,2026-11-16,found,facebook;bluesky;instagram;linkedin;youtube;x,
+K00320,A0065,own_site,https://www.movassat.de,2026-11-16,found,instagram,"not added: youtube https://www.youtube.com/channel/UC8CvM_RpIkbOIEwRDzHlSsA (); already listed: x,facebook"
+K00321,A0200,own_site,https://www.saskiaesken.de/,2026-11-16,none,,"already listed: facebook,instagram,x,mastodon"
+K00322,A0433,own_site,https://taxation-customs.ec.europa.eu/road-2050-tax-mix-future/eu-tax-symposium-2026/rasmus-andresen_en,2026-11-16,blocked,,429 at https://taxation-customs.ec.europa.eu/road-2050-tax-mix-future/eu-tax-symposium-2026/rasmus-andresen_en
+K00323,A0126,own_site,https://www.gemeingut.org,2026-11-16,found,bluesky;youtube,not added: bluesky https://bsky.app/profile/vermoegenbesteuern.bsky.social (social-block); instagram https://www.instagram.com/klinikretter/ (social-block)
+K00324,A0435,own_site,https://www.gruene-mainz.de/2026/02/04/gruene-fraktion-gratuliert-daniel-koebler-zur-vereidigung-als-neuer-buergermeister-der-landeshauptstadt-mainz/,2026-11-16,found,facebook;instagram;x,"not added: facebook https://www.facebook.com/buendnis90.diegruenen.mainz (chrome,rel-me,social-block); instagram https://www.instagram.com/gruene_mainz/ (chrome,rel-me,social-block); mastodon https://gruene.social/@mainz (chrome,rel-me,social-block)"
+K00325,A0451,own_site,https://www.abgeordnetenwatch.de/profile/thomas-schremmer,2026-11-16,found,x,"not added: x https://x.com/a_watch (chrome,meta,social-block); facebook https://www.facebook.com/abgeordnetenwatch.de (chrome,social-block); youtube https://www.youtube.com/user/abgeordnetenwatchDE (chrome,social-block); instagram https://www.instagram.com/abgeordnetenwatch/ (chrome,social-block); mastodon htt"
+K00326,A0082,own_site,https://www.t-gambke.de/,2026-11-16,none,,
+K00327,A0347,own_site,https://feliciaewert.com,2026-11-16,error,,URLError: <urlopen error [Errno 11001] getaddrinfo failed>
+K00328,A0098,own_site,https://www.sven-kindler.de/,2026-11-16,error,,URLError: <urlopen error [SSL: TLSV1_UNRECOGNIZED_NAME] tlsv1 unrecognized name (_ssl.c:10
+K00329,A0204,own_site,https://www.linksfraktion-hessen.de,2026-11-16,found,facebook;x;instagram;youtube,"removed on spot check (the party's account, not the Landtag group's): tiktok https://www.tiktok.com/@die_linke_hessen"
+K00330,A0437,own_site,https://www.landtag-niedersachsen.de/abgeordnete-und-fraktionen/abgeordnete/details/gerald-heere/,2026-11-16,found,x;instagram,"not added: instagram https://www.instagram.com/landtag_nds/ (chrome,social-block); facebook https://www.facebook.com/ndslandtag (chrome,social-block); tiktok https://www.tiktok.com/@landtagniedersachsen (chrome,social-block); mastodon https://social.bund.de/@LT_Nds (chrome,social-block); youtube https://www.yo"
+K00331,A0404,own_site,https://www.maxlucks.de/,2026-11-16,none,,"not added: instagram https://www.instagram.com/max_lks/ (social-block); already listed: x,facebook"
+K00332,A0423,own_site,https://www.landtag.brandenburg.de/de/startseite/der_beauftragte_zur_bekaempfung_des_antisemitismus_im_land_brandenburg/39301,2026-11-16,none,,"not added: instagram https://www.instagram.com/landtagbrandenburg/ (chrome,social-block); youtube https://www.youtube.com/channel/UCDL3gs0tZwRi6oVDfC0YOGw (chrome,social-block); linkedin https://www.linkedin.com/company/landtag-brandenburg-verwaltung (chrome,social-block)"
+K00333,A0051,own_site,https://christinebuchholz.de,2026-11-16,none,,"already listed: facebook,instagram,x"
+K00334,A0055,own_site,https://nicole-gohlke.de/,2026-11-16,none,,"already listed: facebook,x,instagram"
+K00335,A0162,own_site,https://www.mein-grundeinkommen.de,2026-11-16,blocked,,403 at https://www.mein-grundeinkommen.de
+K00336,A0363,own_site,https://www.universiteitleiden.nl/en/staffmembers/sebastian-diessner,2026-11-16,found,x,"not added: x https://x.com/UniLeiden (meta); bluesky https://bsky.app/profile/unileiden.bsky.social (chrome,share,social-block); facebook https://www.facebook.com/UniversiteitLeiden (chrome,share,social-block); youtube https://www.youtube.com/user/UniversiteitLeiden (chrome,share,social-block); linkedin https:"
+K00337,A0411,own_site,https://jamila-schaefer.de/,2026-11-16,none,,"already listed: facebook,bluesky,instagram"
+K00338,A0118,own_site,https://www.spd.de,2026-11-16,found,tiktok;facebook;instagram;youtube;x,
+K00339,A0083,own_site,https://britta-hasselmann.de/,2026-11-16,none,,"already listed: instagram,bluesky,facebook"
+K00340,A0326,own_site,https://gruene-niedersachsen.de,2026-11-16,found,instagram;facebook;youtube;tiktok,already listed: mastodon
+K00341,A0314,own_site,https://www.walteroetsch.at,2026-11-16,none,,
+K00342,A0337,own_site,https://www.fh-kiel.de/fachbereiche/soziale-arbeit-und-gesundheit/ueber-uns/personen/prof-dr-vassilis-tsianos/,2026-11-16,error,,404 at https://www.fh-kiel.de/fachbereiche/soziale-arbeit-und-gesundheit/ueber-uns/personen/prof-dr-vassilis-tsianos/
+K00343,A0426,own_site,https://www.landtag.ltsh.de/abgeordnete/abgeordnete-spd/,2026-11-16,none,,"not added: instagram https://www.instagram.com/landtag_sh/ (chrome,social-block)"
+K00344,A0104,own_site,https://www.mueller-gemmeke.de/,2026-11-16,found,linkedin,"not added: youtube https://www.youtube.com/user/beateonair (social-block); already listed: facebook,instagram,bluesky"
+K00345,A0396,own_site,https://dullien.net,2026-11-16,none,,already listed: x
+K00346,A0024,own_site,https://www.gesine-loetzsch.de/,2026-11-16,error,,URLError: <urlopen error [Errno 11001] getaddrinfo failed>
+K00347,A0123,own_site,https://www.brot-fuer-die-welt.de,2026-11-16,none,,"already listed: facebook,instagram,bluesky,x"
+K00348,A0356,own_site,https://www.geo.uni-hamburg.de/bodenkunde/personen/eschenbach.html,2026-11-16,error,,404 at https://www.geo.uni-hamburg.de/bodenkunde/personen/eschenbach.html
+K00349,A0107,own_site,https://www.tabea-roessner.de/,2026-11-16,none,,"not added: facebook https://www.facebook.com/roessner.tabea (chrome,social-block); youtube https://www.youtube.com/user/TabeaRoessner (chrome,social-block); already listed: instagram,mastodon,x"
+K00350,A0022,own_site,https://heidi-reichinnek.de/,2026-11-16,none,,"not added: bluesky https://bsky.app/profile/heidireichinnek.de (social-block); already listed: tiktok,instagram,x"
+K00351,A0332,own_site,https://www.boeckler.de,2026-11-16,found,bluesky;linkedin,"already listed: facebook,instagram"
+K00352,A0041,own_site,https://www.matthias-w-birkwald.de/,2026-11-16,none,,"UnicodeEncodeError: 'ascii' codec can't encode character '\xfc' in position 35: ordinal not in range; not added: x https://x.com/personalization (); youtube https://www.youtube.com/user/linksfraktion (social-block); already listed: facebook,x,instagram"
+K00353,A0056,own_site,https://www.annette-groth.de/,2026-11-16,blocked,,robots.txt forbids https://www.annette-groth.de/
+K00354,A0440,own_site,https://www.landtag-niedersachsen.de/abgeordnete-und-fraktionen/abgeordnete/details/christian-meyer/,2026-11-16,found,facebook;x,"not added: facebook https://www.facebook.com/ndslandtag (chrome,social-block); instagram https://www.instagram.com/landtag_nds/ (chrome,social-block); tiktok https://www.tiktok.com/@landtagniedersachsen (chrome,social-block); mastodon https://social.bund.de/@LT_Nds (chrome,social-block); youtube https://www.yo"
+K00355,A0084,own_site,https://www.priskahinz.de/,2026-11-16,error,,URLError: <urlopen error ('A required certificate is not within its validity period when v
+K00356,A0397,own_site,https://www.ralf-stegner.de/,2026-11-16,blocked,,403 at https://www.ralf-stegner.de/

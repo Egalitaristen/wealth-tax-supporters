@@ -2,3 +2,4 @@ check_id,actor_id,method,url,checked,result,found,note
 K00001,A0027,own_site,https://colectivocasa.org.bo,2026-11-15,found,facebook;instagram,
 K00002,A0013,own_site,https://cedla.org,2026-11-15,error,,URLError: <urlopen error [Errno 11002] getaddrinfo failed>
 K00003,A0035,own_site,https://diputados.gob.bo/diputados/lissa-amanda-claros-lora/,2026-11-15,error,,URLError: <urlopen error ('A required certificate is not within its validity period when v
+K00004,A0001,own_site,https://www.bolivia.oxfam.org,2026-11-16,found,facebook;instagram;x;linkedin;youtube,

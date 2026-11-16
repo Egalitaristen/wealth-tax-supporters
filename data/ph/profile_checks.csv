@@ -4,3 +4,5 @@ K00002,A0004,own_site,https://leiladelima.ph,2026-11-15,found,x;instagram,alread
 K00003,A0025,own_site,https://www.kaleody.org/,2026-11-16,error,,URLError: <urlopen error [Errno 11001] getaddrinfo failed>
 K00004,A0032,own_site,https://www.twn.my/,2026-11-16,none,,not added: x https://x.com/3rdworldnetwork (); youtube https://www.youtube.com/channel/UC-L1KEf38KUQ-liwWJBZi6g (); facebook https://www.facebook.com/3rdworldnetwork ()
 K00005,A0009,own_site,https://attykaka.wordpress.com,2026-11-16,none,,
+K00006,A0030,own_site,https://waldenbello.org/,2026-11-16,none,,
+K00007,A0049,own_site,https://www.ffw.ph/,2026-11-16,blocked,,robots.txt forbids https://www.ffw.ph/

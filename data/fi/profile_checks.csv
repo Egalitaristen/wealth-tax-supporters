@@ -79,3 +79,10 @@ K00077,A0044,own_site,https://www.eduskunta.fi/FI/kansanedustajat/Sivut/1276.asp
 K00078,A0049,own_site,https://www.eduskunta.fi/FI/kansanedustajat/Sivut/1400.aspx,2026-11-16,none,,"404 at https://www.eduskunta.fi/FI/kansanedustajat/Sivut/1400.aspx; already listed: facebook,instagram"
 K00079,A0078,own_site,https://www.eduskunta.fi/FI/kansanedustajat/Sivut/1275.aspx,2026-11-16,error,,404 at https://www.eduskunta.fi/FI/kansanedustajat/Sivut/1275.aspx
 K00080,A0056,own_site,https://vasemmisto.fi/artikkelit/miljonaarivero-hyvinvointipalveluiden-rahoituksen-puuttuva-palanen/,2026-11-16,none,,"not added: instagram https://www.instagram.com/vasemmisto/ (chrome,social-block); instagram https://www.instagram.com/lindrssn/ (chrome,social-block); facebook https://www.facebook.com/vasemmisto (chrome,social-block); facebook https://www.facebook.com/lindrssn (chrome,social-block); tiktok https://www.tiktok."
+K00081,A0030,own_site,https://www.eduskunta.fi/FI/kansanedustajat/Sivut/1041.aspx,2026-11-16,error,,404 at https://www.eduskunta.fi/FI/kansanedustajat/Sivut/1041.aspx
+K00082,A0043,own_site,https://www.eduskunta.fi/FI/kansanedustajat/Sivut/1479.aspx,2026-11-16,none,,404 at https://www.eduskunta.fi/FI/kansanedustajat/Sivut/1479.aspx
+K00083,A0003,own_site,https://www.eduskunta.fi/FI/kansanedustajat/Sivut/1096.aspx,2026-11-16,error,,404 at https://www.eduskunta.fi/FI/kansanedustajat/Sivut/1096.aspx URLError: <urlopen error [Errno 11001] getaddrinfo failed>
+K00084,A0019,own_site,https://www.eduskunta.fi/FI/kansanedustajat/Sivut/1148.aspx,2026-11-16,error,,404 at https://www.eduskunta.fi/FI/kansanedustajat/Sivut/1148.aspx
+K00085,A0082,own_site,https://www.eduskunta.fi/FI/kansanedustajat/Sivut/911824.aspx,2026-11-16,error,,404 at https://www.eduskunta.fi/FI/kansanedustajat/Sivut/911824.aspx
+K00086,A0072,own_site,https://www.eduskunta.fi/FI/kansanedustajat/Sivut/507.aspx,2026-11-16,error,,404 at https://www.eduskunta.fi/FI/kansanedustajat/Sivut/507.aspx
+K00087,A0076,own_site,https://www.eduskunta.fi/FI/kansanedustajat/Sivut/295.aspx,2026-11-16,error,,404 at https://www.eduskunta.fi/FI/kansanedustajat/Sivut/295.aspx

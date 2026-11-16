@@ -42,3 +42,10 @@ K00040,A0029,own_site,https://trendasia.org,2026-11-16,found,facebook;tiktok;you
 K00041,A0032,own_site,https://theprakarsa.org,2026-11-16,none,,"not added: instagram https://www.instagram.com/theprakarsa/ (chrome,social-block); facebook https://www.facebook.com/theprakarsa (chrome,social-block); x https://x.com/theprakarsa (chrome,social-block); youtube https://www.youtube.com/c/theprakarsa (chrome,social-block)"
 K00042,A0062,own_site,https://celios.co.id,2026-11-16,none,,"not added: instagram https://www.instagram.com/celios_id/ (chrome,social-block)"
 K00043,A0037,own_site,https://theprakarsa.org,2026-11-16,none,,"not added: instagram https://www.instagram.com/theprakarsa/ (chrome,social-block); facebook https://www.facebook.com/theprakarsa (chrome,social-block); x https://x.com/theprakarsa (chrome,social-block); youtube https://www.youtube.com/c/theprakarsa (chrome,social-block)"
+K00044,A0014,own_site,https://celios.co.id,2026-11-16,none,,"not added: instagram https://www.instagram.com/celios_id/ (chrome,social-block)"
+K00045,A0010,own_site,https://celios.co.id,2026-11-16,none,,"not added: instagram https://www.instagram.com/celios_id/ (chrome,social-block)"
+K00046,A0053,own_site,https://c20-indonesia.net,2026-11-16,error,,URLError: <urlopen error [Errno 11001] getaddrinfo failed>
+K00047,A0008,own_site,https://celios.co.id,2026-11-16,found,instagram,
+K00048,A0028,own_site,https://igj.or.id,2026-11-16,found,facebook;instagram,not added: x https://x.com/IGJ2012 (social-block)
+K00049,A0026,own_site,https://seknasfitra.org,2026-11-16,found,youtube;x;facebook;linkedin;instagram,not added: youtube https://www.youtube.com/@transparansianggaran (); youtube https://www.youtube.com/user/transparansianggaran ()
+K00050,A0004,own_site,https://pkb.id,2026-11-16,none,,"not added: facebook https://www.facebook.com/dpp.pkb (chrome,social-block); instagram https://www.instagram.com/dpp_pkb/ (chrome,social-block); x https://x.com/dpp_pkb (chrome,social-block); youtube https://www.youtube.com/@dpp_pkb (chrome,social-block); tiktok https://www.tiktok.com/@dpp_pkb (social-block)"

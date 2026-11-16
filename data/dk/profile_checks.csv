@@ -4,3 +4,5 @@ K00002,A0047,own_site,https://www.3f.dk,2026-11-15,none,,not added: facebook htt
 K00003,A0040,own_site,https://www.foa.dk,2026-11-15,none,,
 K00004,A0010,own_site,https://fho.dk,2026-11-15,found,facebook;bluesky;linkedin;instagram;tiktok,not added: facebook https://www.facebook.com/profile.php?id=1041804265 (social-block); facebook https://www.facebook.com/profile.php?id=61551619636583 (social-block)
 K00005,A0039,own_site,https://bupl.dk,2026-11-15,none,,
+K00006,A0045,own_site,https://millionairesforhumanity.org,2026-11-16,found,instagram;x;facebook;linkedin,not added: instagram https://www.instagram.com/qodeinteractive/ (social-block); x https://x.com/QodeInteractive (social-block); facebook https://www.facebook.com/QodeInteractive (social-block)
+K00007,A0011,own_site,https://oxfam.dk,2026-11-16,found,facebook;instagram;linkedin;x,

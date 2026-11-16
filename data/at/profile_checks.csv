@@ -14,3 +14,8 @@ K00012,A0002,own_site,https://www.andibabler.at/,2026-11-16,none,,"not added: fa
 K00013,A0043,own_site,https://www.europarl.europa.eu/meps/en/197670,2026-11-16,blocked,,403 at https://www.europarl.europa.eu/meps/en/197670
 K00014,A0016,own_site,https://www.kpoe.at,2026-11-16,found,facebook;instagram;tiktok;youtube,
 K00015,A0007,own_site,https://www.arbeiterkammer.at,2026-11-16,found,facebook;bluesky;instagram;x,
+K00016,A0005,own_site,https://www.oegb.at,2026-11-16,found,tiktok,"URLError: <urlopen error (""The certificate's CN name does not match the passed value."",)>; not added: facebook https://www.facebook.com/oegb.at (chrome,social-block); instagram https://www.instagram.com/oegb.at/ (chrome,social-block); x https://x.com/oegb_at (chrome,social-block); youtube https://www.youtube.com/user/OEGBOnline (chrome,social-block)"
+K00017,A0023,own_site,https://www.proge.at,2026-11-16,found,facebook;instagram;tiktok,
+K00018,A0036,own_site,https://www.kaboe.at,2026-11-16,found,facebook,not added: instagram https://www.instagram.com/kab_oe/ ()
+K00019,A0012,own_site,https://www.momentum-institut.at,2026-11-16,found,youtube;x;instagram;facebook;bluesky,"not added: mastodon https://mastodon.social/@mom_inst@social.moment.at (chrome,social-block)"
+K00020,A0032,own_site,https://millionairesforhumanity.org/the-millionaires/ernest-fuhrmann-2/,2026-11-16,none,,"not added: instagram https://www.instagram.com/millionairesforhumanity/ (chrome,social-block); instagram https://www.instagram.com/qodeinteractive/ (social-block); x https://x.com/mills4humanity (chrome,social-block); x https://x.com/QodeInteractive (social-block); facebook https://www.facebook.com/millionaire"

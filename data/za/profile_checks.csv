@@ -5,3 +5,5 @@ K00003,A0005,own_site,https://www.sacp.org.za/,2026-11-15,found,facebook;youtube
 K00004,A0009,own_site,https://www.blacksash.org.za/,2026-11-16,found,x;facebook;youtube;tiktok;instagram;linkedin,
 K00005,A0016,own_site,https://www.forgood.org.za/,2026-11-16,none,,
 K00006,A0014,own_site,https://www.anc1912.org.za/,2026-11-16,none,,"not added: youtube https://www.youtube.com/@MyANC (social-block); already listed: facebook,x"
+K00007,A0001,own_site,https://effonline.org/,2026-11-16,blocked,,403 at https://effonline.org/
+K00008,A0012,own_site,https://iej.org.za,2026-11-16,found,facebook;instagram;tiktok;youtube;x;linkedin,
