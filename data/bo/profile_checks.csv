@@ -18,3 +18,8 @@ K00016,A0033,directory,,2026-11-16,none,,no NBER page
 K00017,A0036,directory,,2026-11-16,none,,no NBER page
 K00018,A0008,own_site,https://cob.org.bo/,2026-11-16,error,,URLError: <urlopen error [Errno 11001] getaddrinfo failed>
 K00019,A0010,own_site,https://sites.google.com/site/fstmb2003,2026-11-16,none,,
+K00020,A0003,wikipedia_langs,,2026-11-16,none,,no official website in the articles in other languages
+K00021,A0004,wikipedia_langs,https://de.wikipedia.org/wiki/Evo_Morales,2026-11-16,none,,the page's title and headings do not carry the name: https://www.presidencia.gob.bo/
+K00022,A0012,wikipedia_langs,,2026-11-16,none,,no official website in the articles in other languages
+K00023,A0024,wikipedia_langs,https://es.wikipedia.org/wiki/%C3%81lvaro_Garc%C3%ADa_Linera,2026-11-16,found,website,site not read (ERR URLError)
+K00024,A0024,own_site,https://www.vicepresidencia.gob.bo/spip.php?page=expositor&id_expositor=10,2026-11-16,error,,URLError: <urlopen error [Errno 11002] getaddrinfo failed>

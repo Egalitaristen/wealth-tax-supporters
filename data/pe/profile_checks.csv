@@ -12,3 +12,14 @@ K00010,A0020,directory,,2026-11-16,none,,no NBER page
 K00011,A0021,directory,,2026-11-16,none,,no NBER page
 K00012,A0024,directory,,2026-11-16,none,,no NBER page
 K00013,A0001,own_site,https://www.congreso.gob.pe/congresistas2016/RocioSilva/,2026-11-16,error,,404 at https://www.congreso.gob.pe/congresistas2016/RocioSilva/
+K00014,A0002,wikipedia_langs,https://es.wikipedia.org/wiki/Mirtha_V%C3%A1squez,2026-11-16,found,website,
+K00015,A0004,wikipedia_langs,,2026-11-16,none,,no official website in the articles in other languages
+K00016,A0013,wikipedia_langs,,2026-11-16,none,,no official website in the articles in other languages
+K00017,A0015,wikipedia_langs,,2026-11-16,none,,no official website in the articles in other languages
+K00018,A0016,wikipedia_langs,,2026-11-16,none,,no official website in the articles in other languages
+K00019,A0017,wikipedia_langs,,2026-11-16,none,,no official website in the articles in other languages
+K00020,A0026,wikipedia_langs,https://es.wikipedia.org/wiki/Lenin_Baz%C3%A1n_Villanueva,2026-11-16,found,website,
+K00021,A0027,wikipedia_langs,,2026-11-16,none,,no official website in the articles in other languages
+K00022,A0029,wikipedia_langs,,2026-11-16,none,,no official website in the articles in other languages
+K00023,A0002,own_site,https://www.congreso.gob.pe/congresistas2016/MirthaVasquez/,2026-11-16,error,,404 at https://www.congreso.gob.pe/congresistas2016/MirthaVasquez/
+K00024,A0026,own_site,https://www.leninbazan.com/,2026-11-16,error,,URLError: <urlopen error [Errno 11001] getaddrinfo failed>

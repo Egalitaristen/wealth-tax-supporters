@@ -32,3 +32,40 @@ K00030,A0013,directory,,2026-11-16,none,,no NBER page
 K00031,A0014,directory,,2026-11-16,none,,no NBER page
 K00032,A0046,own_site,https://www.jeannettejara.cl/,2026-11-16,none,,
 K00033,A0005,own_site,https://giorgiojackson.cl,2026-11-16,none,,
+K00034,A0003,wikipedia_langs,,2026-11-16,none,,no official website in the articles in other languages
+K00035,A0004,wikipedia_langs,,2026-11-16,none,,no official website in the articles in other languages
+K00036,A0006,wikipedia_langs,https://es.wikipedia.org/wiki/Daniel_N%C3%BA%C3%B1ez,2026-11-16,found,website,
+K00037,A0007,wikipedia_langs,https://es.wikipedia.org/wiki/Luis_Rocafull,2026-11-16,found,website,
+K00038,A0008,wikipedia_langs,,2026-11-16,none,,no official website in the articles in other languages
+K00039,A0009,wikipedia_langs,,2026-11-16,none,,no official website in the articles in other languages
+K00040,A0010,wikipedia_langs,https://es.wikipedia.org/wiki/Ra%C3%BAl_Soto,2026-11-16,found,website,
+K00041,A0012,wikipedia_langs,https://es.wikipedia.org/wiki/Esteban_Vel%C3%A1squez,2026-11-16,found,website,
+K00042,A0013,wikipedia_langs,,2026-11-16,none,,no official website in the articles in other languages
+K00043,A0017,wikipedia_langs,https://es.wikipedia.org/wiki/Asociaci%C3%B3n_de_Fiscalizadores_de_Impuestos_Internos_de_Chile,2026-11-16,none,,the page's title and headings do not carry the name: https://www.afiich.cl
+K00044,A0023,wikipedia_langs,,2026-11-16,none,,no official website in the articles in other languages
+K00045,A0024,wikipedia_langs,,2026-11-16,none,,no official website in the articles in other languages
+K00046,A0026,wikipedia_langs,https://es.wikipedia.org/wiki/Lorena_Pizarro,2026-11-16,found,website,
+K00047,A0027,wikipedia_langs,,2026-11-16,none,,no official website in the articles in other languages
+K00048,A0028,wikipedia_langs,,2026-11-16,none,,no official website in the articles in other languages
+K00049,A0031,wikipedia_langs,,2026-11-16,none,,no official website in the articles in other languages
+K00050,A0032,wikipedia_langs,,2026-11-16,none,,no official website in the articles in other languages
+K00051,A0033,wikipedia_langs,https://es.wikipedia.org/wiki/Marcos_Barraza,2026-11-16,found,website,
+K00052,A0035,wikipedia_langs,https://es.wikipedia.org/wiki/Manuel_Monsalve,2026-11-16,found,website,
+K00053,A0036,wikipedia_langs,,2026-11-16,none,,no official website in the articles in other languages
+K00054,A0037,wikipedia_langs,,2026-11-16,none,,no official website in the articles in other languages
+K00055,A0039,wikipedia_langs,https://es.wikipedia.org/wiki/Mat%C3%ADas_Walker,2026-11-16,found,website,
+K00056,A0041,wikipedia_langs,https://es.wikipedia.org/wiki/Marcelo_D%C3%ADaz_D%C3%ADaz,2026-11-16,found,website,site not read (ERR 403)
+K00057,A0043,wikipedia_langs,,2026-11-16,none,,no official website in the articles in other languages
+K00058,A0044,wikipedia_langs,https://es.wikipedia.org/wiki/Gabriel_Silber,2026-11-16,found,website,
+K00059,A0045,wikipedia_langs,https://es.wikipedia.org/wiki/Gonzalo_Winter,2026-11-16,found,website,
+K00060,A0039,own_site,https://www.matiaswalker.cl/,2026-11-16,found,x;facebook;instagram;tiktok,"not added: youtube https://www.youtube.com/channel/UCKqrLRMXwNFRfCnPQ6ZP51g (chrome,social-block)"
+K00061,A0033,own_site,https://marcosbarraza.cl,2026-11-16,error,,URLError: <urlopen error [Errno 11001] getaddrinfo failed>
+K00062,A0012,own_site,https://diputadovelasquez.cl/,2026-11-16,error,,URLError: <urlopen error [Errno 11001] getaddrinfo failed>
+K00063,A0045,own_site,https://www.gonzalowinter.cl/,2026-11-16,none,,
+K00064,A0026,own_site,https://www.lorenapizarro.com,2026-11-16,found,x;instagram;facebook,
+K00065,A0044,own_site,https://www.gabrielsilber.cl,2026-11-16,error,,URLError: <urlopen error [Errno 11001] getaddrinfo failed>
+K00066,A0007,own_site,https://www.luisrocafull.cl/,2026-11-16,error,,URLError: <urlopen error [Errno 11001] getaddrinfo failed>
+K00067,A0035,own_site,https://www.diputadomonsalve.cl/,2026-11-16,error,,URLError: <urlopen error [Errno 11001] getaddrinfo failed>
+K00068,A0010,own_site,https://raulsoto.cl/,2026-11-16,none,,"not added: x https://x.com/mm88agency (chrome,social-block)"
+K00069,A0006,own_site,https://www.danielnuñezdiputado.cl/,2026-11-16,error,,URLError: <urlopen error [Errno 11001] getaddrinfo failed>
+K00070,A0041,own_site,https://www.camara.cl/diputados/detalle/oficio.aspx?prmId=827,2026-11-16,blocked,,403 at https://www.camara.cl/diputados/detalle/oficio.aspx?prmId=827

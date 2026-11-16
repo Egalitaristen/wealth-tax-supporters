@@ -16,3 +16,10 @@ K00014,A0018,wikipedia,https://en.wikipedia.org/wiki/Nabil_Benabdallah,2026-11-1
 K00015,A0020,wikipedia,https://en.wikipedia.org/wiki/%D8%B1%D8%B4%D9%8A%D8%AF_%D8%AD%D9%85%D9%88%D9%86%D9%8A,2026-11-16,none,,
 K00016,A0006,directory,,2026-11-16,none,,no NBER page
 K00017,A0011,directory,,2026-11-16,none,,no NBER page
+K00018,A0002,wikipedia_langs,,2026-11-16,none,,no official website in the articles in other languages
+K00019,A0005,wikipedia_langs,https://nl.wikipedia.org/wiki/Omar_Balafrej,2026-11-16,none,,the page's title and headings do not carry the name: https://technopark.ma
+K00020,A0006,wikipedia_langs,,2026-11-16,none,,no official website in the articles in other languages
+K00021,A0011,wikipedia_langs,,2026-11-16,none,,no official website in the articles in other languages
+K00022,A0018,wikipedia_langs,,2026-11-16,none,,no official website in the articles in other languages
+K00023,A0020,wikipedia_langs,https://ary.wikipedia.org/wiki/%D8%B1%D8%B4%D9%8A%D8%AF_%D8%AD%D9%85%D9%88%D9%86%D9%8A,2026-11-16,found,website,site not read (ERR 403)
+K00024,A0020,own_site,https://www.chambredesrepresentants.ma,2026-11-16,blocked,,403 at https://www.chambredesrepresentants.ma

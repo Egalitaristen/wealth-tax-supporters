@@ -118,3 +118,9 @@ P00116,A0043,wikipedia,https://en.wikipedia.org/wiki/Andreas_Schieder,Wikidata Q
 P00117,A0044,bluesky,https://bsky.app/profile/thomaswaitz.bsky.social,Wikidata Q38057897,2026-11-16
 P00118,A0044,wikipedia,https://en.wikipedia.org/wiki/Thomas_Waitz,Wikidata Q38057897,2026-11-16
 P00119,A0039,website,https://www.selma-yildirim.at,Wikipedia infobox https://en.wikipedia.org/wiki/Selma_Yildirim,2026-11-16
+P00120,A0004,website,https://jan-krainer.at/,Wikipedia https://de.wikipedia.org/wiki/Kai_Jan_Krainer,2026-11-16
+P00122,A0040,website,https://www.sabineschatz.at/,Wikipedia https://de.wikipedia.org/wiki/Sabine_Schatz,2026-11-16
+P00123,A0004,facebook,https://www.facebook.com/krainer.jan,linked from https://jan-krainer.at/,2026-11-16
+P00124,A0004,instagram,https://www.instagram.com/easy.cheesy.krainer/,linked from https://jan-krainer.at/,2026-11-16
+P00125,A0040,facebook,https://www.facebook.com/sabine.schatz,linked from https://www.sabineschatz.at/,2026-11-16
+P00126,A0040,x,https://x.com/SabineSchatz,linked from https://www.sabineschatz.at/,2026-11-16

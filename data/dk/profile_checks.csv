@@ -31,3 +31,21 @@ K00029,A0019,directory,,2026-11-16,none,,no NBER page
 K00030,A0021,directory,,2026-11-16,none,,no NBER page
 K00031,A0023,directory,,2026-11-16,none,,no NBER page
 K00032,A0008,own_site,https://mette-frederiksen.dk,2026-11-16,none,,"not added: facebook https://www.facebook.com/socialdemokratiet (chrome,social-block); instagram https://www.instagram.com/socialdemokratiet/ (chrome,social-block); x https://x.com/Spolitik (chrome,social-block); youtube https://www.youtube.com/user/socialdemokraterne (chrome,social-block); linkedin https://www"
+K00033,A0005,wikipedia_langs,,2026-11-16,none,,no official website in the articles in other languages
+K00034,A0006,wikipedia_langs,https://es.wikipedia.org/wiki/Uffe_Elb%C3%A6k,2026-11-16,found,website,
+K00035,A0025,wikipedia_langs,,2026-11-16,none,,no official website in the articles in other languages
+K00036,A0026,wikipedia_langs,,2026-11-16,none,,no official website in the articles in other languages
+K00037,A0027,wikipedia_langs,,2026-11-16,none,,no official website in the articles in other languages
+K00038,A0028,wikipedia_langs,,2026-11-16,none,,no official website in the articles in other languages
+K00039,A0029,wikipedia_langs,,2026-11-16,none,,no official website in the articles in other languages
+K00040,A0033,wikipedia_langs,https://da.wikipedia.org/wiki/Victoria_Vel%C3%A1squez,2026-11-16,found,website,
+K00041,A0034,wikipedia_langs,,2026-11-16,none,,no official website in the articles in other languages
+K00042,A0035,wikipedia_langs,,2026-11-16,none,,no official website in the articles in other languages
+K00043,A0036,wikipedia_langs,https://da.wikipedia.org/wiki/Elisa_Rimpler,2026-11-16,none,,the page's title and headings do not carry the name: https://bupl.dk/
+K00044,A0038,wikipedia_langs,,2026-11-16,none,,no official website in the articles in other languages
+K00045,A0041,wikipedia_langs,,2026-11-16,none,,no official website in the articles in other languages
+K00046,A0048,wikipedia_langs,https://da.wikipedia.org/wiki/Rune_Lund,2026-11-16,found,website,
+K00047,A0049,wikipedia_langs,,2026-11-16,none,,no official website in the articles in other languages
+K00048,A0006,own_site,https://www.thedanishparliament.dk/members/uffe-elbaek,2026-11-16,blocked,,403 at https://www.thedanishparliament.dk/members/uffe-elbaek
+K00049,A0033,own_site,https://enhedslisten.dk/person/victoria-velasquez,2026-11-16,blocked,,403 at https://enhedslisten.dk/person/victoria-velasquez
+K00050,A0048,own_site,https://www.enhedslisten.dk/rune-lund,2026-11-16,blocked,,403 at https://www.enhedslisten.dk/rune-lund

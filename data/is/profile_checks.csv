@@ -15,3 +15,15 @@ K00013,A0014,wikipedia,https://en.wikipedia.org/wiki/Sanna_Magdalena_M%C3%B6rtud
 K00014,A0015,wikipedia,https://en.wikipedia.org/wiki/Katr%C3%ADn_Jakobsd%C3%B3ttir,2026-11-16,none,,
 K00015,A0018,wikipedia,https://en.wikipedia.org/wiki/Dr%C3%ADfa_Sn%C3%A6dal,2026-11-16,none,,
 K00016,A0011,directory,,2026-11-16,none,,no NBER page
+K00017,A0004,wikipedia_langs,https://de.wikipedia.org/wiki/Steingr%C3%ADmur_J._Sigf%C3%BAsson,2026-11-16,found,website,site not read (ERR 403)
+K00018,A0006,wikipedia_langs,,2026-11-16,none,,no official website in the articles in other languages
+K00019,A0007,wikipedia_langs,,2026-11-16,none,,no official website in the articles in other languages
+K00020,A0008,wikipedia_langs,https://de.wikipedia.org/wiki/Oddn%C3%BD_G._Har%C3%B0ard%C3%B3ttir,2026-11-16,found,website,site not read (ERR 403)
+K00021,A0011,wikipedia_langs,,2026-11-16,none,,no official website in the articles in other languages
+K00022,A0013,wikipedia_langs,,2026-11-16,none,,no official website in the articles in other languages
+K00023,A0014,wikipedia_langs,,2026-11-16,none,,no official website in the articles in other languages
+K00024,A0015,wikipedia_langs,,2026-11-16,none,,no official website in the articles in other languages
+K00025,A0017,wikipedia_langs,,2026-11-16,none,,no official website in the articles in other languages
+K00026,A0018,wikipedia_langs,,2026-11-16,none,,no official website in the articles in other languages
+K00027,A0004,own_site,https://www.althingi.is/altext/cv/is/?nfaerslunr=557,2026-11-16,blocked,,403 at https://www.althingi.is/altext/cv/is/?nfaerslunr=557
+K00028,A0008,own_site,https://www.althingi.is/altext/cv/is/?nfaerslunr=719,2026-11-16,blocked,,403 at https://www.althingi.is/altext/cv/is/?nfaerslunr=719

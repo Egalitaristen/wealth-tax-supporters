@@ -89,3 +89,29 @@ K00087,A0181,own_site,https://www.alliancesud.ch,2026-11-16,blocked,,403 at http
 K00088,A0085,own_site,https://people.unil.ch/mariusbrulhart/,2026-11-16,none,,
 K00089,A0053,own_site,https://www.parlament.ch/de/biografie/stefania-prezioso-batou/4301,2026-11-16,none,,"UnicodeEncodeError: 'ascii' codec can't encode character '\xfc' in position 8: ordinal not in range(; not added: x https://x.com/ParlCH (chrome,social-block); linkedin https://www.linkedin.com/company/die-parlamentsdienste-les-services-du-parlement-i-servizi-del-parlamento (chrome,social-block); facebook https://www.facebook.com/pages/Schweizer-Parlament-Parlement-suisse-Parlamento-svizzero/345958"
 K00090,A0180,own_site,https://www.gruenebern.ch,2026-11-16,found,facebook;x,already listed: instagram
+K00091,A0011,wikipedia_langs,,2026-11-16,none,,no official website in the articles in other languages
+K00092,A0017,wikipedia_langs,,2026-11-16,none,,no official website in the articles in other languages
+K00093,A0024,wikipedia_langs,,2026-11-16,none,,no official website in the articles in other languages
+K00094,A0032,wikipedia_langs,,2026-11-16,none,,no official website in the articles in other languages
+K00095,A0033,wikipedia_langs,,2026-11-16,none,,no official website in the articles in other languages
+K00096,A0038,wikipedia_langs,,2026-11-16,none,,no official website in the articles in other languages
+K00097,A0044,wikipedia_langs,https://de.wikipedia.org/wiki/Sophie_Michaud_Gigon,2026-11-16,found,website,
+K00098,A0055,wikipedia_langs,,2026-11-16,none,,no official website in the articles in other languages
+K00099,A0065,wikipedia_langs,,2026-11-16,none,,no official website in the articles in other languages
+K00100,A0068,wikipedia_langs,,2026-11-16,none,,no official website in the articles in other languages
+K00101,A0072,wikipedia_langs,,2026-11-16,none,,no official website in the articles in other languages
+K00102,A0083,wikipedia_langs,,2026-11-16,none,,no official website in the articles in other languages
+K00103,A0100,wikipedia_langs,https://de.wikipedia.org/wiki/Matthias_Freivogel,2026-11-16,found,website,
+K00104,A0101,wikipedia_langs,,2026-11-16,none,,no official website in the articles in other languages
+K00105,A0105,wikipedia_langs,,2026-11-16,none,,no official website in the articles in other languages
+K00106,A0106,wikipedia_langs,,2026-11-16,none,,no official website in the articles in other languages
+K00107,A0120,wikipedia_langs,,2026-11-16,none,,no official website in the articles in other languages
+K00108,A0121,wikipedia_langs,,2026-11-16,none,,no official website in the articles in other languages
+K00109,A0131,wikipedia_langs,,2026-11-16,none,,no official website in the articles in other languages
+K00110,A0143,wikipedia_langs,,2026-11-16,none,,no official website in the articles in other languages
+K00111,A0145,wikipedia_langs,,2026-11-16,none,,no official website in the articles in other languages
+K00112,A0149,wikipedia_langs,,2026-11-16,none,,no official website in the articles in other languages
+K00113,A0170,wikipedia_langs,,2026-11-16,none,,no official website in the articles in other languages
+K00114,A0172,wikipedia_langs,,2026-11-16,none,,no official website in the articles in other languages
+K00115,A0100,own_site,https://www.matthiasfreivogel.ch/,2026-11-16,none,,
+K00116,A0044,own_site,https://www.verts-vd.ch/membres/sophiemichaudgigon/,2026-11-16,none,,"not added: instagram https://www.instagram.com/vertsvaudois/ (chrome,social-block); linkedin https://www.linkedin.com/company/vert-e-s-vaudois-es (chrome,social-block)"

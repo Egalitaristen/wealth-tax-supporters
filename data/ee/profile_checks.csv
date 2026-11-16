@@ -11,3 +11,10 @@ K00009,A0008,directory,,2026-11-16,none,,no NBER page
 K00010,A0009,directory,,2026-11-16,none,,no NBER page
 K00011,A0011,directory,,2026-11-16,none,,no NBER page
 K00012,A0005,own_site,https://svenmikser.sotsdem.ee,2026-11-16,error,,URLError: <urlopen error [Errno 11001] getaddrinfo failed>
+K00013,A0002,wikipedia_langs,,2026-11-16,none,,no official website in the articles in other languages
+K00014,A0004,wikipedia_langs,https://es.wikipedia.org/wiki/Marina_Kaljurand,2026-11-16,found,website,site not read (404)
+K00015,A0007,wikipedia_langs,,2026-11-16,none,,no official website in the articles in other languages
+K00016,A0008,wikipedia_langs,,2026-11-16,none,,no official website in the articles in other languages
+K00017,A0009,wikipedia_langs,,2026-11-16,none,,no official website in the articles in other languages
+K00018,A0011,wikipedia_langs,,2026-11-16,none,,no official website in the articles in other languages
+K00019,A0004,own_site,https://www.vm.ee/en/ministry-contacts/foreign-minister,2026-11-16,error,,404 at https://www.vm.ee/en/ministry-contacts/foreign-minister

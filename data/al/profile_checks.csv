@@ -1,3 +1,4 @@
 check_id,actor_id,method,url,checked,result,found,note
 K00001,A0001,own_site,https://levizjabashke.al,2026-11-15,found,youtube;facebook;tiktok;instagram,
 K00002,A0002,directory,,2026-11-16,none,,no NBER page
+K00003,A0002,wikipedia_langs,,2026-11-16,none,,no official website in the articles in other languages

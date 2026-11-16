@@ -466,3 +466,206 @@ K00464,A0425,own_site,https://elsa.berkeley.edu/~saez/index.html,2026-11-16,none
 K00465,A0507,own_site,https://www.ville-blois.fr,2026-11-16,error,,URLError: <urlopen error [Errno 11001] getaddrinfo failed>
 K00466,A0234,own_site,https://mitsloan.mit.edu/faculty/detail.php?in_spseqno=41226,2026-11-16,found,substack,"not added: facebook https://www.facebook.com/MITSloan (chrome,share,social-block); instagram https://www.instagram.com/mitsloan/ (chrome,share,social-block); linkedin https://www.linkedin.com/company/mit-sloan-school-of-management (chrome,share,social-block); x https://x.com/mitsloan (chrome,meta,share,social-"
 K00467,A0230,own_site,https://mit.edu/daron/www,2026-11-16,none,,
+K00468,A0003,wikipedia_langs,,2026-11-16,none,,no official website in the articles in other languages
+K00469,A0004,wikipedia_langs,,2026-11-16,none,,no official website in the articles in other languages
+K00470,A0010,wikipedia_langs,,2026-11-16,none,,no official website in the articles in other languages
+K00471,A0011,wikipedia_langs,https://fr.wikipedia.org/wiki/S%C3%A9bastien_Jumel,2026-11-16,found,website,site not read (ERR 403)
+K00472,A0012,wikipedia_langs,https://fr.wikipedia.org/wiki/Hubert_Julien-Laferri%C3%A8re,2026-11-16,found,website,site not read (ERR 403)
+K00473,A0014,wikipedia_langs,,2026-11-16,none,,no official website in the articles in other languages
+K00474,A0015,wikipedia_langs,,2026-11-16,none,,no official website in the articles in other languages
+K00475,A0016,wikipedia_langs,,2026-11-16,none,,no official website in the articles in other languages
+K00476,A0017,wikipedia_langs,,2026-11-16,none,,no official website in the articles in other languages
+K00477,A0019,wikipedia_langs,,2026-11-16,none,,no official website in the articles in other languages
+K00478,A0021,wikipedia_langs,https://de.wikipedia.org/wiki/Charlotte_Leduc,2026-11-16,found,website,
+K00479,A0022,wikipedia_langs,https://de.wikipedia.org/wiki/Martine_%C3%89tienne,2026-11-16,found,website,
+K00480,A0023,wikipedia_langs,,2026-11-16,none,,no official website in the articles in other languages
+K00481,A0024,wikipedia_langs,https://de.wikipedia.org/wiki/Sylvie_Ferrer,2026-11-16,found,website,
+K00482,A0028,wikipedia_langs,,2026-11-16,none,,no official website in the articles in other languages
+K00483,A0029,wikipedia_langs,,2026-11-16,none,,no official website in the articles in other languages
+K00484,A0030,wikipedia_langs,,2026-11-16,none,,no official website in the articles in other languages
+K00485,A0031,wikipedia_langs,,2026-11-16,none,,no official website in the articles in other languages
+K00486,A0032,wikipedia_langs,,2026-11-16,none,,no official website in the articles in other languages
+K00487,A0033,wikipedia_langs,,2026-11-16,none,,no official website in the articles in other languages
+K00488,A0034,wikipedia_langs,,2026-11-16,none,,no official website in the articles in other languages
+K00489,A0035,wikipedia_langs,,2026-11-16,none,,no official website in the articles in other languages
+K00490,A0036,wikipedia_langs,,2026-11-16,none,,no official website in the articles in other languages
+K00491,A0037,wikipedia_langs,,2026-11-16,none,,no official website in the articles in other languages
+K00492,A0038,wikipedia_langs,,2026-11-16,none,,no official website in the articles in other languages
+K00493,A0041,wikipedia_langs,,2026-11-16,none,,no official website in the articles in other languages
+K00494,A0047,wikipedia_langs,,2026-11-16,none,,no official website in the articles in other languages
+K00495,A0048,wikipedia_langs,https://de.wikipedia.org/wiki/Christine_Arrighi,2026-11-16,found,website,
+K00496,A0050,wikipedia_langs,,2026-11-16,none,,no official website in the articles in other languages
+K00497,A0051,wikipedia_langs,,2026-11-16,none,,no official website in the articles in other languages
+K00498,A0056,wikipedia_langs,,2026-11-16,none,,no official website in the articles in other languages
+K00499,A0060,wikipedia_langs,,2026-11-16,none,,no official website in the articles in other languages
+K00500,A0062,wikipedia_langs,,2026-11-16,none,,no official website in the articles in other languages
+K00501,A0063,wikipedia_langs,,2026-11-16,none,,no official website in the articles in other languages
+K00502,A0066,wikipedia_langs,,2026-11-16,none,,no official website in the articles in other languages
+K00503,A0067,wikipedia_langs,,2026-11-16,none,,no official website in the articles in other languages
+K00504,A0069,wikipedia_langs,,2026-11-16,none,,no official website in the articles in other languages
+K00505,A0070,wikipedia_langs,,2026-11-16,none,,no official website in the articles in other languages
+K00506,A0071,wikipedia_langs,,2026-11-16,none,,no official website in the articles in other languages
+K00507,A0072,wikipedia_langs,,2026-11-16,none,,no official website in the articles in other languages
+K00508,A0073,wikipedia_langs,,2026-11-16,none,,no official website in the articles in other languages
+K00509,A0074,wikipedia_langs,,2026-11-16,none,,no official website in the articles in other languages
+K00510,A0076,wikipedia_langs,,2026-11-16,none,,no official website in the articles in other languages
+K00511,A0077,wikipedia_langs,,2026-11-16,none,,no official website in the articles in other languages
+K00512,A0078,wikipedia_langs,,2026-11-16,none,,no official website in the articles in other languages
+K00513,A0079,wikipedia_langs,,2026-11-16,none,,no official website in the articles in other languages
+K00514,A0082,wikipedia_langs,,2026-11-16,none,,no official website in the articles in other languages
+K00515,A0083,wikipedia_langs,,2026-11-16,none,,no official website in the articles in other languages
+K00516,A0084,wikipedia_langs,,2026-11-16,none,,no official website in the articles in other languages
+K00517,A0089,wikipedia_langs,,2026-11-16,none,,no official website in the articles in other languages
+K00518,A0090,wikipedia_langs,,2026-11-16,none,,no official website in the articles in other languages
+K00519,A0091,wikipedia_langs,https://fr.wikipedia.org/wiki/St%C3%A9phane_Delautrette,2026-11-16,found,website,
+K00520,A0093,wikipedia_langs,,2026-11-16,none,,no official website in the articles in other languages
+K00521,A0094,wikipedia_langs,,2026-11-16,none,,no official website in the articles in other languages
+K00522,A0096,wikipedia_langs,,2026-11-16,none,,no official website in the articles in other languages
+K00523,A0097,wikipedia_langs,https://de.wikipedia.org/wiki/Alma_Dufour,2026-11-16,found,website,site not read (404)
+K00524,A0098,wikipedia_langs,,2026-11-16,none,,no official website in the articles in other languages
+K00525,A0100,wikipedia_langs,,2026-11-16,none,,no official website in the articles in other languages
+K00526,A0101,wikipedia_langs,https://de.wikipedia.org/wiki/Karen_Erodi,2026-11-16,found,website,
+K00527,A0107,wikipedia_langs,,2026-11-16,none,,no official website in the articles in other languages
+K00528,A0108,wikipedia_langs,https://fr.wikipedia.org/wiki/Martine_Froger,2026-11-16,found,website,
+K00529,A0109,wikipedia_langs,,2026-11-16,none,,no official website in the articles in other languages
+K00530,A0110,wikipedia_langs,,2026-11-16,none,,no official website in the articles in other languages
+K00531,A0113,wikipedia_langs,,2026-11-16,none,,no official website in the articles in other languages
+K00532,A0114,wikipedia_langs,,2026-11-16,none,,no official website in the articles in other languages
+K00533,A0115,wikipedia_langs,,2026-11-16,none,,no official website in the articles in other languages
+K00534,A0116,wikipedia_langs,,2026-11-16,none,,no official website in the articles in other languages
+K00535,A0117,wikipedia_langs,,2026-11-16,none,,no official website in the articles in other languages
+K00536,A0121,wikipedia_langs,,2026-11-16,none,,no official website in the articles in other languages
+K00537,A0122,wikipedia_langs,,2026-11-16,none,,no official website in the articles in other languages
+K00538,A0124,wikipedia_langs,,2026-11-16,none,,no official website in the articles in other languages
+K00539,A0125,wikipedia_langs,,2026-11-16,none,,no official website in the articles in other languages
+K00540,A0127,wikipedia_langs,https://de.wikipedia.org/wiki/Fran%C3%A7ois_Hollande,2026-11-16,found,website,
+K00541,A0129,wikipedia_langs,,2026-11-16,none,,no official website in the articles in other languages
+K00542,A0130,wikipedia_langs,,2026-11-16,none,,no official website in the articles in other languages
+K00543,A0131,wikipedia_langs,,2026-11-16,none,,no official website in the articles in other languages
+K00544,A0133,wikipedia_langs,,2026-11-16,none,,no official website in the articles in other languages
+K00545,A0137,wikipedia_langs,,2026-11-16,none,,no official website in the articles in other languages
+K00546,A0141,wikipedia_langs,,2026-11-16,none,,no official website in the articles in other languages
+K00547,A0142,wikipedia_langs,https://de.wikipedia.org/wiki/%C3%89lise_Leboucher,2026-11-16,found,website,
+K00548,A0144,wikipedia_langs,,2026-11-16,none,,no official website in the articles in other languages
+K00549,A0146,wikipedia_langs,,2026-11-16,none,,no official website in the articles in other languages
+K00550,A0147,wikipedia_langs,,2026-11-16,none,,no official website in the articles in other languages
+K00551,A0148,wikipedia_langs,,2026-11-16,none,,no official website in the articles in other languages
+K00552,A0149,wikipedia_langs,,2026-11-16,none,,no official website in the articles in other languages
+K00553,A0150,wikipedia_langs,https://de.wikipedia.org/wiki/Benjamin_Lucas-Lundy,2026-11-16,found,website,site not read (404)
+K00554,A0152,wikipedia_langs,,2026-11-16,none,,no official website in the articles in other languages
+K00555,A0153,wikipedia_langs,https://de.wikipedia.org/wiki/%C3%89lisa_Martin,2026-11-16,found,website,
+K00556,A0156,wikipedia_langs,,2026-11-16,none,,no official website in the articles in other languages
+K00557,A0157,wikipedia_langs,,2026-11-16,none,,no official website in the articles in other languages
+K00558,A0158,wikipedia_langs,,2026-11-16,none,,no official website in the articles in other languages
+K00559,A0159,wikipedia_langs,,2026-11-16,none,,no official website in the articles in other languages
+K00560,A0161,wikipedia_langs,,2026-11-16,none,,no official website in the articles in other languages
+K00561,A0162,wikipedia_langs,,2026-11-16,none,,no official website in the articles in other languages
+K00562,A0163,wikipedia_langs,,2026-11-16,none,,no official website in the articles in other languages
+K00563,A0166,wikipedia_langs,,2026-11-16,none,,no official website in the articles in other languages
+K00564,A0168,wikipedia_langs,,2026-11-16,none,,no official website in the articles in other languages
+K00565,A0170,wikipedia_langs,https://fr.wikipedia.org/wiki/Sophie_Pantel,2026-11-16,none,,the page's title and headings do not carry the name: https://midilibre.fr
+K00566,A0171,wikipedia_langs,,2026-11-16,none,,no official website in the articles in other languages
+K00567,A0173,wikipedia_langs,,2026-11-16,none,,no official website in the articles in other languages
+K00568,A0174,wikipedia_langs,,2026-11-16,none,,no official website in the articles in other languages
+K00569,A0181,wikipedia_langs,,2026-11-16,none,,no official website in the articles in other languages
+K00570,A0182,wikipedia_langs,,2026-11-16,none,,no official website in the articles in other languages
+K00571,A0183,wikipedia_langs,,2026-11-16,none,,no official website in the articles in other languages
+K00572,A0184,wikipedia_langs,,2026-11-16,none,,no official website in the articles in other languages
+K00573,A0186,wikipedia_langs,,2026-11-16,none,,no official website in the articles in other languages
+K00574,A0188,wikipedia_langs,https://fr.wikipedia.org/wiki/Jean-Louis_Roum%C3%A9gas,2026-11-16,found,website,
+K00575,A0190,wikipedia_langs,,2026-11-16,none,,no official website in the articles in other languages
+K00576,A0191,wikipedia_langs,,2026-11-16,none,,no official website in the articles in other languages
+K00577,A0193,wikipedia_langs,,2026-11-16,none,,no official website in the articles in other languages
+K00578,A0196,wikipedia_langs,,2026-11-16,none,,no official website in the articles in other languages
+K00579,A0199,wikipedia_langs,,2026-11-16,none,,no official website in the articles in other languages
+K00580,A0203,wikipedia_langs,,2026-11-16,none,,no official website in the articles in other languages
+K00581,A0205,wikipedia_langs,,2026-11-16,none,,no official website in the articles in other languages
+K00582,A0207,wikipedia_langs,https://de.wikipedia.org/wiki/Anne_Stambach-Terrenoir,2026-11-16,found,website,
+K00583,A0210,wikipedia_langs,,2026-11-16,none,,no official website in the articles in other languages
+K00584,A0211,wikipedia_langs,https://de.wikipedia.org/wiki/Andr%C3%A9e_Taurinya,2026-11-16,found,website,
+K00585,A0213,wikipedia_langs,,2026-11-16,none,,no official website in the articles in other languages
+K00586,A0215,wikipedia_langs,,2026-11-16,none,,no official website in the articles in other languages
+K00587,A0216,wikipedia_langs,https://de.wikipedia.org/wiki/M%C3%A9lanie_Thomin,2026-11-16,found,website,
+K00588,A0218,wikipedia_langs,,2026-11-16,none,,no official website in the articles in other languages
+K00589,A0220,wikipedia_langs,,2026-11-16,none,,no official website in the articles in other languages
+K00590,A0222,wikipedia_langs,,2026-11-16,none,,no official website in the articles in other languages
+K00591,A0223,wikipedia_langs,,2026-11-16,none,,no official website in the articles in other languages
+K00592,A0224,wikipedia_langs,,2026-11-16,none,,no official website in the articles in other languages
+K00593,A0226,wikipedia_langs,,2026-11-16,none,,no official website in the articles in other languages
+K00594,A0231,wikipedia_langs,,2026-11-16,none,,no official website in the articles in other languages
+K00595,A0391,wikipedia_langs,,2026-11-16,none,,no official website in the articles in other languages
+K00596,A0392,wikipedia_langs,,2026-11-16,none,,no official website in the articles in other languages
+K00597,A0405,wikipedia_langs,,2026-11-16,none,,no official website in the articles in other languages
+K00598,A0407,wikipedia_langs,,2026-11-16,none,,no official website in the articles in other languages
+K00599,A0409,wikipedia_langs,,2026-11-16,none,,no official website in the articles in other languages
+K00600,A0410,wikipedia_langs,,2026-11-16,none,,no official website in the articles in other languages
+K00601,A0411,wikipedia_langs,,2026-11-16,none,,no official website in the articles in other languages
+K00602,A0417,wikipedia_langs,,2026-11-16,none,,no official website in the articles in other languages
+K00603,A0419,wikipedia_langs,,2026-11-16,none,,no official website in the articles in other languages
+K00604,A0427,wikipedia_langs,,2026-11-16,none,,no official website in the articles in other languages
+K00605,A0428,wikipedia_langs,,2026-11-16,none,,no official website in the articles in other languages
+K00606,A0432,wikipedia_langs,,2026-11-16,none,,no official website in the articles in other languages
+K00607,A0439,wikipedia_langs,,2026-11-16,none,,no official website in the articles in other languages
+K00608,A0451,wikipedia_langs,https://de.wikipedia.org/wiki/Bruno_Amable,2026-11-16,found,website,
+K00609,A0452,wikipedia_langs,,2026-11-16,none,,no official website in the articles in other languages
+K00610,A0453,wikipedia_langs,,2026-11-16,none,,no official website in the articles in other languages
+K00611,A0479,wikipedia_langs,,2026-11-16,none,,no official website in the articles in other languages
+K00612,A0484,wikipedia_langs,,2026-11-16,none,,no official website in the articles in other languages
+K00613,A0500,wikipedia_langs,https://de.wikipedia.org/wiki/Johanna_Rolland,2026-11-16,found,website,
+K00614,A0501,wikipedia_langs,,2026-11-16,none,,no official website in the articles in other languages
+K00615,A0502,wikipedia_langs,,2026-11-16,none,,no official website in the articles in other languages
+K00616,A0503,wikipedia_langs,,2026-11-16,none,,no official website in the articles in other languages
+K00617,A0504,wikipedia_langs,,2026-11-16,none,,no official website in the articles in other languages
+K00618,A0506,wikipedia_langs,,2026-11-16,none,,no official website in the articles in other languages
+K00619,A0508,wikipedia_langs,,2026-11-16,none,,no official website in the articles in other languages
+K00620,A0509,wikipedia_langs,,2026-11-16,none,,no official website in the articles in other languages
+K00621,A0510,wikipedia_langs,,2026-11-16,none,,no official website in the articles in other languages
+K00622,A0511,wikipedia_langs,,2026-11-16,none,,no official website in the articles in other languages
+K00623,A0512,wikipedia_langs,,2026-11-16,none,,no official website in the articles in other languages
+K00624,A0513,wikipedia_langs,,2026-11-16,none,,no official website in the articles in other languages
+K00625,A0516,wikipedia_langs,,2026-11-16,none,,no official website in the articles in other languages
+K00626,A0517,wikipedia_langs,,2026-11-16,none,,no official website in the articles in other languages
+K00627,A0519,wikipedia_langs,,2026-11-16,none,,no official website in the articles in other languages
+K00628,A0521,wikipedia_langs,,2026-11-16,none,,no official website in the articles in other languages
+K00629,A0522,wikipedia_langs,,2026-11-16,none,,no official website in the articles in other languages
+K00630,A0524,wikipedia_langs,,2026-11-16,none,,no official website in the articles in other languages
+K00631,A0525,wikipedia_langs,,2026-11-16,none,,no official website in the articles in other languages
+K00632,A0527,wikipedia_langs,,2026-11-16,none,,no official website in the articles in other languages
+K00633,A0529,wikipedia_langs,,2026-11-16,none,,no official website in the articles in other languages
+K00634,A0530,wikipedia_langs,,2026-11-16,none,,no official website in the articles in other languages
+K00635,A0531,wikipedia_langs,,2026-11-16,none,,no official website in the articles in other languages
+K00636,A0533,wikipedia_langs,,2026-11-16,none,,no official website in the articles in other languages
+K00637,A0534,wikipedia_langs,,2026-11-16,none,,no official website in the articles in other languages
+K00638,A0535,wikipedia_langs,,2026-11-16,none,,no official website in the articles in other languages
+K00639,A0537,wikipedia_langs,,2026-11-16,none,,no official website in the articles in other languages
+K00640,A0539,wikipedia_langs,,2026-11-16,none,,no official website in the articles in other languages
+K00641,A0540,wikipedia_langs,,2026-11-16,none,,no official website in the articles in other languages
+K00642,A0541,wikipedia_langs,,2026-11-16,none,,no official website in the articles in other languages
+K00643,A0542,wikipedia_langs,,2026-11-16,none,,no official website in the articles in other languages
+K00644,A0543,wikipedia_langs,,2026-11-16,none,,no official website in the articles in other languages
+K00645,A0544,wikipedia_langs,,2026-11-16,none,,no official website in the articles in other languages
+K00646,A0546,wikipedia_langs,,2026-11-16,none,,no official website in the articles in other languages
+K00647,A0547,wikipedia_langs,,2026-11-16,none,,no official website in the articles in other languages
+K00648,A0549,wikipedia_langs,,2026-11-16,none,,no official website in the articles in other languages
+K00649,A0551,wikipedia_langs,,2026-11-16,none,,no official website in the articles in other languages
+K00650,A0553,wikipedia_langs,,2026-11-16,none,,no official website in the articles in other languages
+K00651,A0012,own_site,https://elections.interieur.gouv.fr,2026-11-16,blocked,,403 at https://elections.interieur.gouv.fr
+K00652,A0022,own_site,https://www.assemblee-nationale.fr/dyn/deputes/PA794458,2026-11-16,none,,"not added: x https://x.com/AssembleeNat (chrome,meta,social-block); facebook https://www.facebook.com/AssembleeNationale (chrome,social-block); instagram https://www.instagram.com/assembleenationale/ (chrome,social-block); youtube https://www.youtube.com/@Assemblee-nationale (chrome,social-block)"
+K00653,A0097,own_site,https://www2.assemblee-nationale.fr/deputes/fiche/OMC_PA795200m,2026-11-16,error,,404 at https://www2.assemblee-nationale.fr/deputes/fiche/OMC_PA795200m
+K00654,A0101,own_site,https://www.assemblee-nationale.fr/dyn/deputes/PA795844,2026-11-16,found,instagram,"not added: x https://x.com/AssembleeNat (chrome,meta,social-block); facebook https://www.facebook.com/AssembleeNationale (chrome,social-block); instagram https://www.instagram.com/assembleenationale/ (chrome,social-block); youtube https://www.youtube.com/@Assemblee-nationale (chrome,social-block); already listed: facebook"
+K00655,A0142,own_site,https://www.assemblee-nationale.fr/dyn/deputes/PA795108,2026-11-16,found,instagram,"not added: x https://x.com/AssembleeNat (chrome,meta,social-block); facebook https://www.facebook.com/AssembleeNationale (chrome,social-block); instagram https://www.instagram.com/assembleenationale/ (chrome,social-block); youtube https://www.youtube.com/@Assemblee-nationale (chrome,social-block); already listed: facebook"
+K00656,A0091,own_site,https://www.stephane-delautrette.fr/,2026-11-16,error,,404 at https://www.stephane-delautrette.fr/
+K00657,A0150,own_site,https://www.assemblee-nationale.fr/dyn/deputes/PA794306,2026-11-16,error,,404 at https://www.assemblee-nationale.fr/dyn/deputes/PA794306
+K00658,A0207,own_site,https://www2.assemblee-nationale.fr/deputes/fiche/OMC_PA793744,2026-11-16,found,instagram,"not added: x https://x.com/AssembleeNat (chrome,meta,social-block); facebook https://www.facebook.com/AssembleeNationale (chrome,social-block); instagram https://www.instagram.com/assembleenationale/ (chrome,social-block); youtube https://www.youtube.com/@Assemblee-nationale (chrome,social-block); facebook htt"
+K00659,A0451,own_site,https://www.unige.ch/sciences-societe/dehes/membres/bruno-amable/,2026-11-16,none,,
+K00660,A0153,own_site,https://www.assemblee-nationale.fr/dyn/deputes/PA342384,2026-11-16,none,,"not added: x https://x.com/AssembleeNat (chrome,meta,social-block); facebook https://www.facebook.com/AssembleeNationale (chrome,social-block); instagram https://www.instagram.com/assembleenationale/ (chrome,social-block); youtube https://www.youtube.com/@Assemblee-nationale (chrome,social-block)"
+K00661,A0021,own_site,https://www.assemblee-nationale.fr/dyn/deputes/PA794402,2026-11-16,none,,"not added: x https://x.com/AssembleeNat (chrome,meta,social-block); facebook https://www.facebook.com/AssembleeNationale (chrome,social-block); instagram https://www.instagram.com/assembleenationale/ (chrome,social-block); youtube https://www.youtube.com/@Assemblee-nationale (chrome,social-block)"
+K00662,A0048,own_site,https://www2.assemblee-nationale.fr/deputes/fiche/OMC_PA793780,2026-11-16,none,,"not added: x https://x.com/AssembleeNat (chrome,meta,social-block); facebook https://www.facebook.com/AssembleeNationale (chrome,social-block); instagram https://www.instagram.com/assembleenationale/ (chrome,social-block); youtube https://www.youtube.com/@Assemblee-nationale (chrome,social-block)"
+K00663,A0211,own_site,https://www.assemblee-nationale.fr/dyn/deputes/PA794106,2026-11-16,none,,"not added: x https://x.com/AssembleeNat (chrome,meta,social-block); facebook https://www.facebook.com/AssembleeNationale (chrome,social-block); instagram https://www.instagram.com/assembleenationale/ (chrome,social-block); youtube https://www.youtube.com/@Assemblee-nationale (chrome,social-block)"
+K00664,A0024,own_site,https://www.assemblee-nationale.fr/dyn/deputes/PA794870,2026-11-16,found,instagram,"not added: x https://x.com/AssembleeNat (chrome,meta,social-block); facebook https://www.facebook.com/AssembleeNationale (chrome,social-block); instagram https://www.instagram.com/assembleenationale/ (chrome,social-block); youtube https://www.youtube.com/@Assemblee-nationale (chrome,social-block); already listed: facebook"
+K00665,A0216,own_site,https://www.assemblee-nationale.fr/dyn/deputes/PA793816,2026-11-16,found,instagram,"not added: x https://x.com/AssembleeNat (chrome,meta,social-block); facebook https://www.facebook.com/AssembleeNationale (chrome,social-block); facebook https://www.facebook.com/melthomin2022 (); facebook https://www.facebook.com/MelanieThominAN (); instagram https://www.instagram.com/assembleenationale/ (chro"
+K00666,A0500,own_site,https://www.johannarolland.fr/,2026-11-16,error,,URLError: <urlopen error [WinError 10054] An existing connection was forcibly closed by th
+K00667,A0108,own_site,https://martinefroger.fr,2026-11-16,found,youtube,"not added: facebook https://www.facebook.com/profile.php?id=100091668222323 (chrome,social-block)"
+K00668,A0127,own_site,https://www.assemblee-nationale.fr/13/tribun/fiches_id/1654.asp,2026-11-16,none,,
+K00669,A0011,own_site,https://elections.interieur.gouv.fr,2026-11-16,blocked,,403 at https://elections.interieur.gouv.fr
+K00670,A0188,own_site,https://roumegas.fr,2026-11-16,none,,

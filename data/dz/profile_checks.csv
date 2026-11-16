@@ -24,3 +24,12 @@ K00022,A0043,directory,,2026-11-16,none,,no NBER page
 K00023,A0044,directory,,2026-11-16,none,,no NBER page
 K00024,A0046,directory,,2026-11-16,none,,no NBER page
 K00025,A0049,directory,,2026-11-16,none,,no NBER page
+K00026,A0002,wikipedia_langs,,2026-11-16,none,,no official website in the articles in other languages
+K00027,A0008,wikipedia_langs,,2026-11-16,none,,no official website in the articles in other languages
+K00028,A0015,wikipedia_langs,,2026-11-16,none,,no official website in the articles in other languages
+K00029,A0016,wikipedia_langs,,2026-11-16,none,,no official website in the articles in other languages
+K00030,A0017,wikipedia_langs,,2026-11-16,none,,no official website in the articles in other languages
+K00031,A0023,wikipedia_langs,https://fr.wikipedia.org/wiki/Abdelkader_Bengrina,2026-11-16,found,website,
+K00032,A0026,wikipedia_langs,,2026-11-16,none,,no official website in the articles in other languages
+K00033,A0030,wikipedia_langs,,2026-11-16,none,,no official website in the articles in other languages
+K00034,A0023,own_site,https://bengrina.com/,2026-11-16,error,,URLError: <urlopen error [Errno 11001] getaddrinfo failed>

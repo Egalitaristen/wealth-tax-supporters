@@ -34,3 +34,13 @@ K00032,A0039,directory,,2026-11-16,none,,no NBER page
 K00033,A0040,directory,,2026-11-16,none,,no NBER page
 K00034,A0041,directory,,2026-11-16,none,,no NBER page
 K00035,A0042,directory,,2026-11-16,none,,no NBER page
+K00036,A0002,wikipedia_langs,,2026-11-16,none,,no official website in the articles in other languages
+K00037,A0003,wikipedia_langs,https://es.wikipedia.org/wiki/Jos%C3%A9_Mar%C3%ADa_Villalta,2026-11-16,found,website,
+K00038,A0004,wikipedia_langs,,2026-11-16,none,,no official website in the articles in other languages
+K00039,A0010,wikipedia_langs,,2026-11-16,none,,no official website in the articles in other languages
+K00040,A0011,wikipedia_langs,,2026-11-16,none,,no official website in the articles in other languages
+K00041,A0025,wikipedia_langs,,2026-11-16,none,,no official website in the articles in other languages
+K00042,A0027,wikipedia_langs,https://es.wikipedia.org/wiki/Welmer_Ramos_Gonz%C3%A1lez,2026-11-16,found,website,
+K00043,A0041,wikipedia_langs,,2026-11-16,none,,no official website in the articles in other languages
+K00044,A0027,own_site,https://www.welmerramos.cr,2026-11-16,error,,URLError: <urlopen error [Errno 11001] getaddrinfo failed>
+K00045,A0003,own_site,https://villaltapresidente.cr/,2026-11-16,error,,URLError: <urlopen error [Errno 11001] getaddrinfo failed>
