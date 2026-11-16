@@ -1,2 +1,3 @@
 check_id,actor_id,method,url,checked,result,found,note
 K00001,A0002,own_site,https://nodong.org/,2026-11-16,none,,not added: facebook https://www.facebook.com/ekctu (); youtube https://www.youtube.com/user/ekctu (); instagram https://www.instagram.com/minchong_1577_2260/ (); x https://x.com/ekctu ()
+K00002,A0018,own_site,https://www.kgreens.org/,2026-11-16,found,facebook;instagram;x,"not added: youtube https://www.youtube.com/@kgreens2012 (chrome,social-block); youtube https://www.youtube.com/user/iamgreens (chrome,social-block)"

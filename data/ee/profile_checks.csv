@@ -1,3 +1,4 @@
 check_id,actor_id,method,url,checked,result,found,note
 K00001,A0010,own_site,https://rohelised.ee/,2026-11-15,none,,"already listed: facebook,instagram,x"
 K00002,A0001,own_site,https://yanatoom.ee/,2026-11-15,none,,"not added: youtube https://www.youtube.com/channel/UCng05aZg3TEvLl5k_RDTktQ (chrome); facebook https://www.facebook.com/yanatoom.ee (chrome); already listed: x,instagram"
+K00003,A0006,own_site,https://vasakliit.ee/,2026-11-16,found,facebook;instagram;x,

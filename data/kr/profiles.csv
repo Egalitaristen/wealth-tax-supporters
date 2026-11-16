@@ -1,3 +1,6 @@
 profile_id,actor_id,platform,url,source,checked
 P00001,A0002,website,https://nodong.org/,actors.csv website column,2026-10-31
 P00002,A0018,website,https://www.kgreens.org/,actors.csv website column,2026-10-31
+P00003,A0018,facebook,https://www.facebook.com/koreagreenparty,linked from https://www.kgreens.org/,2026-11-16
+P00004,A0018,instagram,https://www.instagram.com/greenpartykr/,linked from https://www.kgreens.org/,2026-11-16
+P00005,A0018,x,https://x.com/greenpartyk,linked from https://www.kgreens.org/,2026-11-16

@@ -59,3 +59,9 @@ K00057,A0031,own_site,https://www.gretagysin.ch,2026-11-16,none,,
 K00058,A0034,own_site,https://blogs.letemps.ch/delphine-klopfenstein-broggini/,2026-11-16,none,,"not added: facebook https://www.facebook.com/letemps.ch (chrome,social-block); x https://x.com/letemps (chrome,social-block)"
 K00059,A0048,own_site,https://eric-nussbaumer.ch/,2026-11-16,found,facebook,not added: x https://x.com/enussbi (social-block)
 K00060,A0028,own_site,https://www.balthasar-glaettli.ch,2026-11-16,found,linkedin;youtube;tiktok;facebook,"not added: mastodon https://mastodon.social/@bglaettli (chrome,rel-me,social-block); mastodon https://mastodon. social/@bglaettli (rel-me); instagram https://www.instagram.com/balthasar-glaettli/ (chrome,social-block); instagram https://www.instagram.com/balthasar.glaettli/ (chrome,social-block); already listed: bluesky,x"
+K00061,A0047,own_site,https://rogernordmann.ch/,2026-11-16,none,,
+K00062,A0050,own_site,https://valerie-piller-carrard.ch/,2026-11-16,found,x;facebook,already listed: instagram
+K00063,A0066,own_site,https://www.ursulaschneider.ch,2026-11-16,error,,406 at https://www.ursulaschneider.ch
+K00064,A0005,own_site,https://sibelarslan.ch/,2026-11-16,none,,
+K00065,A0022,own_site,https://www.yvonneferi.ch/,2026-11-16,error,,URLError: <urlopen error [WinError 10061] No connection could be made because the target m
+K00066,A0004,own_site,https://gerhard-andrey.ch/,2026-11-16,none,,

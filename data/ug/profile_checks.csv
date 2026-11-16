@@ -1,3 +1,4 @@
 check_id,actor_id,method,url,checked,result,found,note
 K00001,A0002,own_site,https://uganda.oxfam.org,2026-11-15,found,facebook;x,"not added: youtube https://www.youtube.com/channel/https: (chrome,social-block)"
 K00002,A0005,own_site,https://www.akinamamawaafrika.org,2026-11-15,error,,URLError: <urlopen error [SSL: SSLV3_ALERT_HANDSHAKE_FAILURE] sslv3 alert handshake failur
+K00003,A0004,own_site,https://seatiniuganda.org,2026-11-16,found,facebook;x;linkedin;youtube,

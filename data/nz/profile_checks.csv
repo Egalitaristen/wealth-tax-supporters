@@ -15,3 +15,5 @@ K00013,A0003,own_site,https://www.greens.org.nz/Chloe_Swarbrick,2026-11-15,none,
 K00014,A0011,own_site,https://www.tjanz.org/,2026-11-15,found,linkedin;facebook,
 K00015,A0044,own_site,https://actionstation.org.nz/,2026-11-15,blocked,,200 at https://actionstation.org.nz/
 K00016,A0005,own_site,https://www.maoriparty.org.nz,2026-11-16,none,,"not added: instagram https://www.instagram.com/DYLKc0ok2Xb/ (social-block); already listed: facebook,instagram,x"
+K00017,A0036,own_site,https://davidparker.co.nz/,2026-11-16,error,,URLError: <urlopen error [Errno 11001] getaddrinfo failed>
+K00018,A0017,own_site,https://geoffbertram.com/,2026-11-16,none,,

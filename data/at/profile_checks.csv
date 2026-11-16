@@ -10,3 +10,7 @@ K00008,A0031,own_site,https://www.vida.at,2026-11-15,found,facebook;instagram;x;
 K00009,A0030,own_site,https://www.spoe.wien,2026-11-15,found,x;facebook;youtube;instagram;tiktok,
 K00010,A0011,own_site,https://www.attac.at,2026-11-16,found,instagram;bluesky;tiktok;youtube,
 K00011,A0001,own_site,https://www.spoe.at,2026-11-16,found,youtube,"already listed: facebook,instagram,tiktok,x"
+K00012,A0002,own_site,https://www.andibabler.at/,2026-11-16,none,,"not added: facebook https://www.facebook.com/Sozialdemokratie (chrome,social-block); instagram https://www.instagram.com/spoe_at/ (chrome,social-block); tiktok https://www.tiktok.com/@spoe_at (chrome,social-block); x https://x.com/SPOE_at (chrome,meta,social-block); youtube https://www.youtube.com/channel/UCcd"
+K00013,A0043,own_site,https://www.europarl.europa.eu/meps/en/197670,2026-11-16,blocked,,403 at https://www.europarl.europa.eu/meps/en/197670
+K00014,A0016,own_site,https://www.kpoe.at,2026-11-16,found,facebook;instagram;tiktok;youtube,
+K00015,A0007,own_site,https://www.arbeiterkammer.at,2026-11-16,found,facebook;bluesky;instagram;x,

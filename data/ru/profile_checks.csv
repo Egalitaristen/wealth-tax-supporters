@@ -3,3 +3,5 @@ K00001,A0001,own_site,https://mironov.ru,2026-11-15,error,,LookupError: unknown 
 K00002,A0009,own_site,https://www.london.edu/faculty-and-research/faculty-profiles/g/guriev-s,2026-11-15,error,,404 at https://www.london.edu/faculty-and-research/faculty-profiles/g/guriev-s
 K00003,A0002,own_site,https://spravedlivo.ru,2026-11-15,none,,not added: youtube https://www.youtube.com/channel/UC8ruQ9ENXgu9MBV8E5e3KBg (); x https://x.com/mironov_ru (); youtube https://www.youtube.com/c/spravoross (social-block)
 K00004,A0005,own_site,https://kprf.ru,2026-11-15,none,,
+K00005,A0023,own_site,https://glazev.ru,2026-11-16,none,,
+K00006,A0014,own_site,https://kprf.ru,2026-11-16,none,,

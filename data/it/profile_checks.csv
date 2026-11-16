@@ -34,3 +34,16 @@ K00032,A0185,own_site,https://www.stefanofassina.it,2026-11-16,none,,
 K00033,A0187,own_site,https://www.camera.it/deputati/elenco/19-305845,2026-11-16,error,,404 at https://www.camera.it/deputati/elenco/19-305845
 K00034,A0101,own_site,https://www.francescolamperti.eu,2026-11-16,none,,
 K00035,A0003,own_site,https://europaverde.it/,2026-11-16,none,,
+K00036,A0265,own_site,https://www.nens.it/,2026-11-16,found,facebook;x,
+K00037,A0264,own_site,https://attac-italia.org/,2026-11-16,found,facebook;x;youtube,
+K00038,A0176,own_site,https://www.ilfattoquotidiano.it/autori/cbrusini/,2026-11-16,none,,"not added: facebook https://www.facebook.com/ilFattoQuotidiano (chrome,social-block); instagram https://www.instagram.com/ilfattoquotidianoit/ (chrome,social-block); x https://x.com/fattoquotidiano (chrome,meta,social-block); x https://x.com/La_brus (chrome)"
+K00039,A0009,own_site,https://www.oxfamitalia.org/,2026-11-16,found,instagram;facebook;x;youtube,
+K00040,A0153,own_site,https://www.camera.it/deputati/elenco/19-308810,2026-11-16,found,instagram;tiktok,"not added: linkedin https://www.linkedin.com/company/camera-dei-deputati (chrome,social-block); x https://x.com/montecitorio (chrome,social-block); facebook https://www.facebook.com/Cameradeideputati (chrome,social-block); facebook https://www.facebook.com/marcogrimalditorino (social-block); facebook https://w; already listed: x"
+K00041,A0008,own_site,https://www.cgil.it/,2026-11-16,found,x,"not added: youtube https://www.youtube.com/user/RassegnaOnline (chrome,social-block); already listed: facebook,instagram"
+K00042,A0091,own_site,https://sites.google.com/view/giovanni-gallo,2026-11-16,none,,
+K00043,A0007,own_site,https://www.movimento5stelle.eu/,2026-11-16,found,linkedin,"not added: facebook https://www.facebook.com/movimento5stelle (chrome,social-block); youtube https://www.youtube.com/user/M5SParlamento (chrome,social-block); already listed: x,instagram"
+K00044,A0274,own_site,https://www.mariaceciliaguerra.it,2026-11-16,error,,URLError: <urlopen error [Errno 11001] getaddrinfo failed>
+K00045,A0141,own_site,https://www.pasqualetridico.it/,2026-11-16,found,facebook;x;youtube,already listed: instagram
+K00046,A0171,own_site,https://www.landtag-bz.org/it/deputati/foppa-brigitte.asp,2026-11-16,none,,
+K00047,A0258,own_site,https://www.danielebiacchessi.it,2026-11-16,none,,
+K00048,A0178,own_site,https://www.camera.it/deputati/elenco/19-305892,2026-11-16,none,,"not added: linkedin https://www.linkedin.com/company/camera-dei-deputati (chrome,social-block); x https://x.com/montecitorio (chrome,social-block); x https://x.com/luigidimaio (social-block); facebook https://www.facebook.com/Cameradeideputati (chrome,social-block); facebook https://www.facebook.com/luigidimai"
