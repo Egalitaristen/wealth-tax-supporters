@@ -526,3 +526,27 @@ P01114,A0065,website,https://www.felipegonzalez.es,Wikipedia https://es.wikipedi
 P01115,A0080,website,https://www.abelcaballero.com/,Wikipedia https://es.wikipedia.org/wiki/Abel_Caballero,2026-11-16
 P01116,A0112,website,https://www.es.parlamentodegalicia.es/Composicion/Deputados/182/pedro-puy-fraga,Wikipedia https://es.wikipedia.org/wiki/Pedro_Puy_Fraga,2026-11-16
 P01117,A0188,website,https://www.socialistasvascos.com/rafi-romero.htm,Wikipedia https://es.wikipedia.org/wiki/Rafaela_Romero,2026-11-16
+P01118,A0060,website,https://www.cortesgenerales.es,web search: Address seen in a search result (Hispanopedia entry gives it as the official site of the Cortes Generales); could not open it to confirm because fetch was rate-limited/failed.,2026-11-16
+P01119,A0061,website,https://movimientosumar.es/,"web search: Found via search (party statutes list this address); opened it, title and content are Movimiento Sumar the party.",2026-11-16
+P01120,A0089,website,https://justiciafiscalcv.es/,"web search: Found via search (Congress document lists the domain); opened it, title and content match the Valencian coalition.",2026-11-16
+P01121,A0134,website,https://actionaid.es/,"web search: Address came from a government directory seen in search; opened it, page says 'Ahora somos ActionAid', a Spanish NGO.",2026-11-16
+P01122,A0183,website,https://jjggbizkaia.eus/en/welcome,"web search: Found via search as first result; opened it, title names the General Assemblies of Bizkaia.",2026-11-16
+P01123,A0184,website,https://ezker-anitza.org/,"web search: Found via search (Wikipedia and hosted party documents point to it); opened it, site is Ezker Anitza with Basque-branch content.",2026-11-16
+P01124,A0089,facebook,https://www.facebook.com/JusticiaFiscalCV,linked from https://justiciafiscalcv.es/,2026-11-16
+P01125,A0089,x,https://x.com/JusticiaFis,linked from https://justiciafiscalcv.es/,2026-11-16
+P01126,A0134,instagram,https://www.instagram.com/actionaid_es/,linked from https://actionaid.es/,2026-11-16
+P01127,A0134,linkedin,https://www.linkedin.com/company/actionaides,linked from https://actionaid.es/,2026-11-16
+P01128,A0134,facebook,https://www.facebook.com/actionaides,linked from https://actionaid.es/,2026-11-16
+P01129,A0134,bluesky,https://bsky.app/profile/actionaides.bsky.social,linked from https://actionaid.es/,2026-11-16
+P01130,A0134,x,https://x.com/ActionAid_ES,linked from https://actionaid.es/,2026-11-16
+P01131,A0134,youtube,https://www.youtube.com/channel/UCFU_r6RdYrljDAFvbyWdopA,linked from https://actionaid.es/,2026-11-16
+P01132,A0183,x,https://x.com/bnbizkaia,linked from https://jjggbizkaia.eus/en/welcome,2026-11-16
+P01133,A0061,facebook,https://www.facebook.com/SumarOficial2022,linked from https://movimientosumar.es/,2026-11-16
+P01134,A0061,instagram,https://www.instagram.com/sumar_oficial/,linked from https://movimientosumar.es/,2026-11-16
+P01135,A0061,tiktok,https://www.tiktok.com/@sumar_oficial,linked from https://movimientosumar.es/,2026-11-16
+P01136,A0061,bluesky,https://bsky.app/profile/movimientosumar.es,linked from https://movimientosumar.es/,2026-11-16
+P01137,A0061,youtube,https://www.youtube.com/@sumar_oficial,linked from https://movimientosumar.es/,2026-11-16
+P01138,A0184,facebook,https://www.facebook.com/EzkerAnitzaIU,linked from https://ezker-anitza.org/,2026-11-16
+P01139,A0184,x,https://x.com/EzkerAnitzaIU,linked from https://ezker-anitza.org/,2026-11-16
+P01140,A0184,youtube,https://www.youtube.com/c/EzkerAnitzaIU,linked from https://ezker-anitza.org/,2026-11-16
+P01141,A0184,instagram,https://www.instagram.com/ezkeranitzaiu/,linked from https://ezker-anitza.org/,2026-11-16

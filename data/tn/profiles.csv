@@ -14,3 +14,8 @@ P00012,A0012,website,https://www.albawsala.com,actors.csv website column,2026-11
 P00013,A0013,website,https://www.oxfam.org,actors.csv website column,2026-11-16
 P00014,A0015,website,https://www.leconomistemaghrebin.com,actors.csv website column,2026-11-16
 P00015,A0013,wikipedia,https://en.wikipedia.org/wiki/Oxfam,Wikidata Q267941,2026-11-16
+P00016,A0002,website,https://www.arp.tn,web search: Guessed arp.tn from the acronym (search results pointed to it only indirectly); opened it and the banner identifies Tunisia's parliament.,2026-11-16
+P00017,A0002,facebook,https://www.facebook.com/Tunisie.arp,linked from https://www.arp.tn,2026-11-16
+P00018,A0002,x,https://x.com/ARPtn,linked from https://www.arp.tn,2026-11-16
+P00019,A0003,website,https://www.cnrd.tn/,"web search: Address was my own guess from the acronym; opened it and the footer reads 'المجلس الوطني للجهات والأقاليم' with 2026 copyright and a Bardo address, and the ARP site refers to the council in the same t",2026-11-16
+P00020,A0003,facebook,https://www.facebook.com/profile.php?id=61558673186244,linked from https://www.cnrd.tn/,2026-11-16

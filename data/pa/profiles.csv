@@ -1,1 +1,6 @@
 profile_id,actor_id,platform,url,source,checked
+P00001,A0001,website,https://centroamerica.oxfam.org/,"web search: Found via search; opened the page, title names Oxfam en Centroamérica and heading is about the region.",2026-11-16
+P00002,A0001,facebook,https://www.facebook.com/OxfamCA,linked from https://centroamerica.oxfam.org/,2026-11-16
+P00003,A0001,x,https://x.com/Oxfam_CA,linked from https://centroamerica.oxfam.org/,2026-11-16
+P00004,A0001,instagram,https://www.instagram.com/oxfam_ca/,linked from https://centroamerica.oxfam.org/,2026-11-16
+P00005,A0001,youtube,https://www.youtube.com/@oxfamenencentroamerica,linked from https://centroamerica.oxfam.org/,2026-11-16

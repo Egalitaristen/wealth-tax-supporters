@@ -77,3 +77,32 @@ K00075,A0028,manual_search,,2026-11-16,none,,
 K00076,A0092,manual_search,,2026-11-16,none,,Search found no identifiable UACM academic named Aída López.
 K00077,A0081,manual_search,,2026-11-16,none,,Two searches found nothing on Consejo Tiyat Tlali.
 K00078,A0028,manual_search,,2026-11-16,none,,"Searched name plus Mexico; only news on the 40-hour week and other groups (Frente Nacional, Yo por las 40 horas) found, no own site for this collective."
+K00079,A0027,manual_search,https://accionar.io,2026-11-16,found,website,"Found via Idealist listing, opened page: Mexico City contact, operator Nativo Lab S.A. de C.V.; civil-society campaign and tech organisation."
+K00080,A0058,manual_search,,2026-11-16,none,,Only Izquierda Diario outlets and Wikipedia found; no own MTS site.
+K00081,A0059,manual_search,,2026-11-16,none,,"pt.org.mx did not resolve; partidodeltrabajo.org.mx returned no title or content, not confirmed."
+K00082,A0061,manual_search,,2026-11-16,none,,No own site found; guessed cnte.org.mx did not resolve.
+K00083,A0062,manual_search,,2026-11-16,none,,No own site found; guessed nct.org.mx did not resolve.
+K00084,A0063,manual_search,,2026-11-16,none,,No results for the name; no site found.
+K00085,A0064,manual_search,,2026-11-16,none,,Two searches found only union documents and news mentions; no own site (cnsuesic.org guess did not resolve).
+K00086,A0065,manual_search,,2026-11-16,none,,Two searches found no own site for the Conferencia de las Resistencias.
+K00087,A0066,manual_search,https://nomasdeudapublica.org,2026-11-16,found,website,"Domain given in search summary of CADTM coverage; opened it, title and footer carry the full name and 2026 copyright."
+K00088,A0079,manual_search,,2026-11-16,none,,"Searches found only news and funder pages; guessed cripx.org opened but is an unrelated 'coming soon' placeholder, so not confirmed."
+K00089,A0080,manual_search,,2026-11-16,none,,Two searches found no own site for Consejo Regional Totonaco.
+K00090,A0082,manual_search,,2026-11-16,none,,Two searches found only news and NGO mentions; no own site.
+K00091,A0083,manual_search,,2026-11-16,none,,Search found only publications by partners (Boell); no own site.
+K00092,A0084,manual_search,,2026-11-16,none,,Search found only mentions; guessed domains mujerymedioambiente.org and .org.mx did not resolve.
+K00093,A0085,manual_search,,2026-11-16,none,,Search found only academic articles; no own site.
+K00094,A0086,manual_search,,2026-11-16,none,,"Two searches found no own site (results point to the differently named Red GESMA, not confirmed as the same)."
+K00095,A0087,manual_search,,2026-11-16,none,,"Searched twice; the seminar appears only as a programme of EDUCA Oaxaca (educaoaxaca.org), a different organisation; no own site confirmed."
+K00096,A0088,manual_search,,2026-11-16,none,,"Two searches (name, name plus Pacto Ecosocial del Sur) found nothing."
+K00097,A0089,manual_search,,2026-11-16,none,,unitierra.org opened and is an Ecuadorian organisation; unitierraoax.org is a parked domain; no confirmed own site.
+K00098,A0091,manual_search,,2026-11-16,none,,Two searches found only Izquierda Diario articles and a Facebook page; no own site.
+K00099,A0106,manual_search,https://ciep.mx,2026-11-16,found,website,Found via search (RePEc and onthinktanks list ciep.mx); opened it and the title and About text name the organisation as a Mexico City public finance research centre.
+K00100,A0066,own_site,https://nomasdeudapublica.org,2026-11-16,found,facebook,
+K00101,A0027,own_site,https://accionar.io,2026-11-16,blocked,,robots.txt forbids https://accionar.io
+K00102,A0106,own_site,https://ciep.mx,2026-11-16,found,youtube;facebook;x,"CHECK no added handle carries the name: the site may host several groups, or belong to a parent.; not added: linkedin https://www.linkedin.com/in/judith-senyacen-m%C3%A9ndez-22697158 (social-block); linkedin https://www.linkedin.com/in/jose-luis-clavellina-miller-b6393831 (social-block); linkedin https://www.linkedin.com/in/sunny-a-villa (social-block); linkedin https://www.linkedin.com/in/rcantuc"
+K00103,A0058,manual_search,,2026-11-16,none,,"Wikipedia lists mtsmexico.org but it did not resolve; the group's pages sit inside Izquierda Diario, a network site, so not returned."
+K00104,A0059,manual_search,,2026-11-16,none,,Searches rate-limited or showed only electoral-authority documents; a guessed address (pt.org.mx) did not resolve; nothing confirmed
+K00105,A0061,manual_search,,2026-11-16,none,,Two searches showed only news coverage and no own site; guessed cnte.org.mx did not resolve; nothing confirmed
+K00106,A0062,manual_search,,2026-11-16,none,,Searches showed only news and partner pages; guessed domains did not resolve; nothing confirmed
+K00107,A0063,manual_search,,2026-11-16,none,,"Search rate-limited, guessed domain did not resolve; nothing confirmed"

@@ -73,3 +73,12 @@ K00071,A0001,orcid,,2026-11-16,none,,several ORCID records with the name
 K00072,A0002,orcid,,2026-11-16,none,,several ORCID records with the name
 K00073,A0013,orcid,,2026-11-16,none,,several ORCID records with the name
 K00074,A0014,orcid,https://orcid.org/0000-0001-8578-1384,2026-11-16,none,,ORCID institution does not match: Pontificia Universidad Católica de Chile
+K00075,A0016,manual_search,https://www.anef.cl,2026-11-16,found,website,"Guessed domain from acronym; opened, ANEF Chile, public-sector employees union (Agrupación Nacional de Empleados Fiscales)."
+K00076,A0017,manual_search,,2026-11-16,none,,"AFIICH searches found no own site; guessed afiich.cl only showed a bot-detection page, identity unconfirmed."
+K00077,A0018,manual_search,https://www.aneiich.cl,2026-11-16,found,website,"Acronym ANEIICH learned from search; guessed domain, opened, title names the Asociación Nacional de Funcionarios de Impuestos Internos."
+K00078,A0019,manual_search,https://publicservices.international/?lang=es,2026-11-16,found,website,"Guessed domain; opened Spanish version, page is Public Services International (Internacional de Servicios Públicos)."
+K00079,A0020,manual_search,https://chile.fes.de,2026-11-16,found,website,"Found via search results (chile.fes.de pages); opened homepage, heading names FES en Chile, Santiago office."
+K00080,A0019,own_site,https://publicservices.international/?lang=es,2026-11-16,found,facebook;x;youtube;bluesky;linkedin;instagram,"CHECK no added handle carries the name: the site may host several groups, or belong to a parent."
+K00081,A0016,own_site,https://www.anef.cl,2026-11-16,found,facebook;x;instagram;youtube,"CHECK no added handle carries the name: the site may host several groups, or belong to a parent."
+K00082,A0018,own_site,https://www.aneiich.cl,2026-11-16,found,x;instagram,
+K00083,A0020,own_site,https://chile.fes.de,2026-11-16,found,facebook;x;instagram,"not added: youtube https://www.youtube.com/channel/UCp9vxVYEjrlVyEeIq1BdeMg (chrome,social-block)"

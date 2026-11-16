@@ -2690,3 +2690,445 @@ P02695,A0765,instagram,https://www.instagram.com/cwaunion/,linked from https://c
 P02696,A0765,tiktok,https://www.tiktok.com/@cwaunion,linked from https://cwa-union.org/,2026-11-16
 P02697,A0600,facebook,https://www.facebook.com/RepSharlettMena,linked from https://housedemocrats.wa.gov/mena/,2026-11-16
 P02699,A0431,official_page,https://www.nysenate.gov/senators/kevin-s-parker,"web search: page not readable by our reader (ERR 403); identity from the title the agent saw: Senator Kevin S. Parker; Found via search for nysenate.gov; official NY State Senate member page, no personal site listed; Brooklyn SD21 Democrat matches.",2026-11-16
+P02700,A0023,website,https://www.seiu-uhw.org,"web search: Guessed obvious domain, opened it; title names SEIU-UHW and California healthcare workers.",2026-11-16
+P02701,A0034,website,https://www.middleclasstaxpayers.org,"web search: Domain from search result summary, opened it; MCTA nonprofit advocacy group in California, founded 2011.",2026-11-16
+P02702,A0036,website,https://www.responsiblewealth.org/,web search: Found via search (Stanford listing gave the domain; rw-ufe.nationbuilder.com redirects there); page says it is a project of United for a Fair Economy and is the Responsible Wealth website.,2026-11-16
+P02703,A0058,website,https://www.incomemovement.org/,"web search: Found via search (incomemovement.com redirects here); opened page titled Official Site, basic income nonprofit.",2026-11-16
+P02704,A0060,website,https://www.lagunawoodsdemocrats.org/,web search: Found via redirect from the Laguna Woods Village club page; footer says paid for by Laguna Woods Democratic Club with this domain.,2026-11-16
+P02705,A0066,website,https://www.RootsAction.org/,web search: First search result for the name; fetch returned 403 so identity rests on the search result description of the homepage.,2026-11-16
+P02706,A0068,website,https://www.sdyoungdems.com/,"web search: Top search result for exact name; opened homepage, site name and footer say San Diego County Young Democrats of California; ActBlue page carries same name.",2026-11-16
+P02707,A0072,website,https://www.solanodemocrats.com/,"web search: Committee's own 2020 endorsements page names www.solanodemocrats.com as its website, and its nationbuilder site (bylaws) redirects there; page itself could not be opened (fetch safety check rate-limit",2026-11-16
+P02708,A0076,website,https://thevillagesdemocraticclub.wildapricot.org,"web search: Top search result for exact name; opened homepage, title and heading carry the club name (Wild Apricot-hosted own site).",2026-11-16
+P02709,A0081,website,https://www.wellstoneclub.org/,"web search: Top search result for exact name; opened homepage, title and heading name Wellstone Democratic Renewal Club, East Bay (Berkeley/Oakland), California.",2026-11-16
+P02710,A0085,website,https://blackwomenrevolt.org,"web search: Found via search (directory and Linktree point to this domain); opened it, title Black Women Revolt, San Francisco resource centre (Black Women Revolt Against Domestic Violence); name matches but the",2026-11-16
+P02711,A0086,website,https://www.cablackhealthnetwork.org,web search: Found via search for 'California Black Health Network CBHN'; many pages on this domain show Sacramento CBHN content; could not open it directly (certificate error).,2026-11-16
+P02712,A0087,website,https://calulac.org,"web search: Domain listed in directory search results; opened it, heading reads California LULAC.",2026-11-16
+P02713,A0089,website,https://chispalcv.org/,"web search: lcv.org/chispa/ redirects here; opened it, footer reads Chispa LCV.",2026-11-16
+P02714,A0091,website,https://www.edenareaindivisible.org,web search: Address was my own guess from the name; opened it and the site name is Eden Area Indivisible (Hayward area group confirmed by search results).,2026-11-16
+P02715,A0092,website,https://www.foreveroakland.org,"web search: Address was my own guess from the name; opened it and the organisation is named Forever Oakland, Oakland.",2026-11-16
+P02716,A0094,website,https://www.ic4ij.org,"web search: Search results (KVCR interview, ActBlue page, Idealist) give ic4ij.org as the site; could not open it (403).",2026-11-16
+P02717,A0098,website,https://www.mifamiliaenaccion.org/,web search: Found via link labelled MFA on mifamiliavota.org; opened it and the title and name match.,2026-11-16
+P02718,A0099,website,https://www.organizesacramento.org,"web search: Domain listed by CauseIQ; opened it, footer says Organize Sacramento 501(c)3, 1714 Broadway, Sacramento.",2026-11-16
+P02719,A0100,website,https://www.orale.org,"web search: Found via search result text naming orale.org; opened it, title carries full name and Long Beach.",2026-11-16
+P02720,A0102,website,https://www.pjcsoco.org,"web search: Domain named in search results; opened it, heading matches and address is Santa Rosa.",2026-11-16
+P02721,A0105,website,https://www.sirenimmigrantrights.org/,"web search: siren-bayarea.org (from search results) redirects here; opened it, site is SIREN with San Jose office.",2026-11-16
+P02722,A0109,website,https://united4respect.org/,"web search: Found via search for exact name; opened united4respect.org/about-us, heading 'About United for Respect', retail-worker nonprofit; homepage address seen in search results.",2026-11-16
+P02723,A0467,website,https://or.aft.org/,"web search: Found via search 'AFT Oregon'; opened or.aft.org/about-us, title AFT-Oregon, Portland OR state affiliate; homepage address seen in search results.",2026-11-16
+P02724,A0469,website,https://seiu-oregon.org/,"web search: Found via search; opened seiu-oregon.org/about-the-seiu-oregon-state-council, title names SEIU Oregon State Council; homepage address seen in search results.",2026-11-16
+P02725,A0470,website,https://www.oregonafscme.org/,"web search: Found via search 'AFSCME Oregon Council 75' (listed by InfluenceWatch and afscmeatwork); opened the homepage, title 'Oregon AFSCME'.",2026-11-16
+P02726,A0621,website,https://seiu.org/,"web search: Found via search; opened seiu.org/about, title names the Service Employees International Union (SEIU); homepage address seen in search results.",2026-11-16
+P02727,A0622,website,https://www.aft.org/,"web search: Found via search; opened aft.org/about, title American Federation of Teachers; homepage address seen in search results.",2026-11-16
+P02728,A0623,website,https://aflcio.org,"web search: Own-domain guess aflcio.org; page fetch returned 403, but search results show aflcio.org/about and its privacy policy states the website is at aflcio.org",2026-11-16
+P02729,A0624,website,https://www.afscme.org,"web search: Own-domain guess afscme.org, opened; header and footer carry the full name",2026-11-16
+P02730,A0625,website,https://www.afge.org,"web search: Own-domain guess afge.org; page fetch returned 403, but search results show afge.org/about as the union's own site",2026-11-16
+P02731,A0631,website,https://americansfortaxfairness.org,"web search: Own-domain guess, opened; title, heading and footer carry the name",2026-11-16
+P02732,A0634,website,https://mainstreetalliance.org,"web search: Own-domain guess, opened; site title is Main Street Alliance, heading 'Real Power Lives on Main Street'",2026-11-16
+P02733,A0643,website,https://healthcareforamericanow.org,"web search: Own-domain guess, opened; header and footer carry the name",2026-11-16
+P02734,A0644,website,https://indivisible.org,"web search: Own-domain guess, opened; site name Indivisible, footer Indivisible Project",2026-11-16
+P02735,A0645,website,https://jwj.org,"web search: Own-domain guess jwj.org, opened; title carries the name",2026-11-16
+P02736,A0646,website,https://networklobby.org,"web search: Own-domain guess, opened; title, heading and footer carry the full name",2026-11-16
+P02737,A0648,website,https://voicesforprogress.org,"web search: Found via search listing the domain; opened it and confirmed title names Voices For Progress, a progressive advocacy network.",2026-11-16
+P02738,A0649,website,https://www.chn.org,"web search: Guessed acronym domain chn.org; opened it, title names Coalition on Human Needs and content is anti-poverty advocacy.",2026-11-16
+P02739,A0665,website,https://seiuhcilin.org/,"web search: seiuhcil.org (guess) redirects 301 to seiuhcilin.org; opened it, SEIU Healthcare site (Illinois/Indiana).",2026-11-16
+P02740,A0666,website,https://ccctu.org,web search: Found in search results (ccctu.org about/history pages name Cook County College Teachers Union Local 1600); homepage not opened directly.,2026-11-16
+P02741,A0667,website,https://www.seiu73.org,"web search: Guessed seiu73.org; opened it, title names SEIU Local 73 and Illinois.",2026-11-16
+P02742,A0668,website,https://www.ift-aft.org,"web search: Guessed ift-aft.org; opened it, title names Illinois Federation of Teachers.",2026-11-16
+P02743,A0669,website,https://ww4j.org/,"web search: Guessed warehouseworker.org which redirects to ww4j.org; opened it, site name Warehouse Workers for Justice.",2026-11-16
+P02744,A0717,website,https://www.staterevenuealliance.org,"web search: Guessed domain from name; opened it, site name State Revenue Alliance, tax-fairness content.",2026-11-16
+P02745,A0729,website,https://www.aclusocal.org,"web search: Found in search; opened homepage, title and heading match, covers Southern California.",2026-11-16
+P02746,A0730,website,https://apenaction.org,web search: Linked from APEN's own site (apen4ej.org) menu as APEN Action; opened and heading matches.,2026-11-16
+P02747,A0733,website,https://transformca.org,"web search: Found in search results (transformca.org pages about Oakland transport/land-use group); opened homepage, heading matches.",2026-11-16
+P02748,A0735,website,https://www.lacdp.org,web search: Search result listed lacdp.org as official site; opened it and the site is the Los Angeles County Democratic Party.,2026-11-16
+P02749,A0737,website,https://www.montereycountynow.com/,"web search: montereycountyweekly.com redirects (301) to montereycountynow.com, which search results show as the Weekly's about page; homepage fetch blocked (HTTP 451) so title not read.",2026-11-16
+P02750,A0749,website,https://adc.org,"web search: Found in search (adc.org/about); opened homepage, the American-Arab Anti-Discrimination Committee.",2026-11-16
+P02751,A0750,website,https://americanfamilyvoices.org,"web search: Guessed domain from name; opened it, footer says American Family Voices.",2026-11-16
+P02752,A0751,website,https://asbcouncil.org,"web search: Found in search results (asbcouncil.org/about); site now presents as American Sustainable Business Network; page itself fetch-failed on a certificate error, so identity rests on search results.",2026-11-16
+P02753,A0752,website,https://adaction.org,"web search: Guessed domain from acronym; opened it, footer and header say Americans for Democratic Action.",2026-11-16
+P02754,A0754,website,https://www.bendthearc.us,"web search: Guessed domain from name; opened it, title and footer say Bend the Arc.",2026-11-16
+P02755,A0755,website,https://www.bluehaveninitiative.com,"web search: Found via search (Wikipedia infobox and result URLs); opened it, header brand Blue Haven Initiative, impact investing site.",2026-11-16
+P02756,A0756,website,https://ourbluefuture.us,"web search: Domain cited by InfluenceWatch for Blue Future; opened it, title Blue Future, footer Youth Progressive Action Catalyst (its parent PAC), matching the progressive youth organizing program.",2026-11-16
+P02757,A0759,website,https://www.centerforcommonground.org,"web search: Found via search (InfluenceWatch cites its pages); opened it, heading and footer say Center for Common Ground, a voting rights group.",2026-11-16
+P02758,A0760,website,https://lgbtq-economics.org,"web search: Found in search results; opened it, footer says Center for LGBTQ Economic Advancement & Research.",2026-11-16
+P02759,A0764,website,https://commondefense.us,"web search: Guessed domain from name; opened it, veterans movement, footer Common Defense.",2026-11-16
+P02760,A0766,website,https://sistersofthegoodshepherd.com,"web search: Found via search for the full name; opened the site, title carries the congregation name and the U.S. region (successor to the U.S. provinces).",2026-11-16
+P02761,A0770,website,https://extendpua.org,"web search: Own guess from the name; opened it, it is the campaign site (now archived) titled ExtendPUA.org about extending Pandemic Unemployment Assistance.",2026-11-16
+P02762,A0772,website,https://firstfocus.org,"web search: Own guess from the name; opened it, header branding reads First Focus on Children and footer describes the bipartisan children's advocacy group.",2026-11-16
+P02763,A0774,website,https://foe.org,"web search: Search results show foe.org/about-us and foe.org/contact for Friends of the Earth U.S.; direct fetch returned 403, so identity rests on the search results.",2026-11-16
+P02764,A0777,website,https://healthcarevoter.org,"web search: Found via search for the name; result pages on healthcarevoter.org titled Health Care Voter (co-chairs, newsroom); fetch of the homepage was rate-limited so not opened directly.",2026-11-16
+P02765,A0778,website,https://hedgeclippers.org,"web search: Own guess from the name; opened it, site header reads Hedge Clippers (heading Rogues Gallery).",2026-11-16
+P02766,A0779,website,https://www.housingworks.org,"web search: Own guess from the name; opened it, a New York City nonprofit for people with HIV/AIDS, named Housing Works.",2026-11-16
+P02767,A0780,website,https://www.icnacsj.org,"web search: Found via search (icna.org pages point to icnacsj.org); opened it, heading names ICNA Council for Social Justice.",2026-11-16
+P02768,A0784,website,https://www.ifpte.org,"web search: Found via search; opened it, footer names International Federation of Professional & Technical Engineers.",2026-11-16
+P02769,A0785,website,https://uaw.org,"web search: Found via search; opened it, header names the UAW full name.",2026-11-16
+P02770,A0787,website,https://oceanfutures.org,"web search: Found via search; opened it, page names Ocean Futures Society (Jean-Michel Cousteau is president per its about page).",2026-11-16
+P02771,A0789,website,https://legalaidatwork.org,"web search: Found via search; opened it, heading names Legal Aid at Work, California.",2026-11-16
+P02772,A0791,website,https://moveon.org,"web search: Found via search (Wikipedia infobox and moveon.org campaign pages); opening it returned a 301 redirect to front.moveon.org, whose page could not be fetched (rate-limited), so title not read.",2026-11-16
+P02773,A0792,website,https://www.gsadvocacy.org,"web search: Found via search; opened it, heading names National Advocacy Center of the Sisters of the Good Shepherd.",2026-11-16
+P02774,A0793,website,https://www.nafhe.org,"web search: Found via search (Idealist listing gives nafhe.org); opened it, heading names National Association for Hispanic Elderly / Asociacion Nacional Pro Personas Mayores.",2026-11-16
+P02775,A0794,website,https://naacp.org,"web search: Guessed obvious domain from acronym; opened it, title carries NAACP.",2026-11-16
+P02776,A0802,website,https://presente.org,"web search: Guessed domain from the name; opened it, heading 'Advancing social justice with technology, media, and cultura'.",2026-11-16
+P02777,A0804,website,https://pdamerica.org,"web search: Guessed domain from acronym; opened it, title carries the full name.",2026-11-16
+P02778,A0805,website,https://prosperitynow.org,"web search: Guessed domain from the name; opened it, title carries the name.",2026-11-16
+P02779,A0809,website,https://www.southasiannetwork.org,"web search: Guessed domain from the name; opened it, page lists Artesia/Los Angeles, California offices.",2026-11-16
+P02780,A0810,website,https://strongforall.org/about/,web search: Seen in a search result (strongforall.org/about) described as the Strong Economy for All Coalition (New York); page not opened because fetch safety check was rate-limited.,2026-11-16
+P02781,A0813,website,https://weareultraviolet.org,"web search: Guessed domain from the name; opened it, title and heading are UltraViolet, 'Full Spectrum Feminism'.",2026-11-16
+P02782,A0816,website,https://www.ucc.org/what-we-do/justice-local-church-ministries/,"web search: Address was my own guess from the name; opened it and it is the UCC national unit page for justice and local church ministries on ucc.org (title as returned by the fetch summary, may be a paraphrase);",2026-11-16
+P02783,A0827,website,https://reclaimourschools.org,"web search: Found via search (domain given by CPD page and InfluenceWatch); opened, logo and text carry Alliance to Reclaim Our Schools.",2026-11-16
+P02784,A0829,website,https://balanceourtaxcode.com,"web search: Found via search for the coalition; opened, Washington state coalition named Balance Our Tax Code.",2026-11-16
+P02785,A0831,website,https://childrensfundingproject.org,"web search: Found via search (directory and Mott Foundation listing); opened, site is Children's Funding Project.",2026-11-16
+P02786,A0832,website,https://citizenactionny.org,web search: Found in search results (citizenactionny.org/our-history and /member pages for Citizen Action of New York); homepage returned 403 when opened so title not read.,2026-11-16
+P02787,A0833,website,https://citizenaction-il.org,"web search: Found via search ('Who We Are' page); opened homepage, Chicago-based Citizen Action/Illinois progressive coalition.",2026-11-16
+P02788,A0834,website,https://www.ccwro.org,"web search: Found in search results (ccwro.org pages, probono.net listing gives ccwro.org for Coalition of California Welfare Rights Organizations, Sacramento); opened page returned 403 so title not read.",2026-11-16
+P02789,A0835,website,https://democracymatters.org,"web search: Found via search (directory listings); opened, national nonpartisan student organization Democracy Matters.",2026-11-16
+P02790,A0837,website,https://economicsecurity.us/ca/,"web search: Found via search; opened, page names Economic Security California Action; it is a section of the parent's site, clearly theirs.",2026-11-16
+P02791,A0840,website,https://goldenstateopportunity.org,"web search: Domain seen in a California FTB document in search results (contact email domain); opened, page headed Golden State Opportunity with Our Impact section.",2026-11-16
+P02792,A0841,website,https://honestarizona.squarespace.com,"web search: Search result for 'Honest Arizona official website'; page described itself as the Honest Arizona coalition; page not opened (fetch rate-limited). honestarizona.org seen only as Substack bio hint, not",2026-11-16
+P02793,A0842,website,https://inequality.org/,"web search: First search result for the name; own domain, about page says project of Institute for Policy Studies; homepage not opened (fetch rate-limited).",2026-11-16
+P02794,A0844,website,https://www.investwanow.org/,"web search: Search results showed investwanow.org pages (press releases, petition PDF) of Invest in Washington Now, Seattle; homepage not opened (fetch rate-limited).",2026-11-16
+P02795,A0846,website,https://maketheroadnv.org/,"web search: Search results listed maketheroadnv.org pages (about, issues, impact) for Make the Road Nevada, Las Vegas/Reno; homepage not opened (fetch rate-limited).",2026-11-16
+P02796,A0857,website,https://progressiowa.org/,"web search: Found by searching the name; homepage and /about/ ('About Progress Iowa', Des Moines advocacy group) appeared in results; page itself could not be opened (WebFetch rate-limited), identity from result",2026-11-16
+P02797,A0860,website,https://thecommonwealthinstitute.org/,web search: Found by searching the full name plus Virginia; the thecommonwealthinstitute.org domain appeared repeatedly with the Institute's own reports on Virginia fiscal policy; homepage not opened (WebFetch ra,2026-11-16
+P02798,A0861,website,https://www.thericksmithshow.com,web search: Found by searching the name; the show's own podcast feed pages (thericksmithshow.podbean.com) tell listeners to download at this address; homepage not opened (WebFetch rate-limited).,2026-11-16
+P02799,A0865,website,https://indivisiblegeorgiacoalition.org,"web search: Domain named in a search summary for the exact name; page NOT opened (WebFetch safety check rate-limited, then search quota hit), so identity unconfirmed. Needs verification.",2026-11-16
+P02800,A0870,website,https://nowseattle.org,"web search: Search summary for the exact name gave nowseattle.org as the chapter's site (also squarespace staging pages in results); page NOT opened (fetch rate-limited), so identity unconfirmed. Needs verificati",2026-11-16
+P02801,A0883,website,https://causenow.org,"web search: Search summary for the exact name named causenow.org as the official site; page NOT opened (fetch rate-limited), so identity unconfirmed. Needs verification.",2026-11-16
+P02802,A0778,x,https://x.com/GoHedgeClippers,linked from https://hedgeclippers.org,2026-11-16
+P02803,A0837,x,https://x.com/ESP_Action,linked from https://economicsecurity.us/ca/,2026-11-16
+P02804,A0837,linkedin,https://www.linkedin.com/company/espaction,linked from https://economicsecurity.us/ca/,2026-11-16
+P02805,A0837,bluesky,https://bsky.app/profile/economicsecurity.us,linked from https://economicsecurity.us/ca/,2026-11-16
+P02806,A0730,instagram,https://www.instagram.com/apenaction/,linked from https://apenaction.org,2026-11-16
+P02807,A0730,facebook,https://www.facebook.com/APENaction,linked from https://apenaction.org,2026-11-16
+P02808,A0730,x,https://x.com/apenaction,linked from https://apenaction.org,2026-11-16
+P02809,A0109,facebook,https://www.facebook.com/unitedforrespect,linked from https://united4respect.org/,2026-11-16
+P02810,A0109,x,https://x.com/forrespect,linked from https://united4respect.org/,2026-11-16
+P02811,A0109,instagram,https://www.instagram.com/unitedforrespect/,linked from https://united4respect.org/,2026-11-16
+P02812,A0109,youtube,https://www.youtube.com/user/OURWalmart,linked from https://united4respect.org/,2026-11-16
+P02813,A0840,facebook,https://www.facebook.com/GoldenStateOpportunity,linked from https://goldenstateopportunity.org,2026-11-16
+P02814,A0840,x,https://x.com/GSOpportunity,linked from https://goldenstateopportunity.org,2026-11-16
+P02815,A0840,instagram,https://www.instagram.com/caleitc4me/,linked from https://goldenstateopportunity.org,2026-11-16
+P02816,A0840,youtube,https://www.youtube.com/channel/UCfH1YREvuVw2LMMEynu803w,linked from https://goldenstateopportunity.org,2026-11-16
+P02817,A0076,facebook,https://www.facebook.com/thevillagesdemocrats,linked from https://thevillagesdemocraticclub.wildapricot.org,2026-11-16
+P02818,A0076,youtube,https://www.youtube.com/@villagesdemocraticclub5965,linked from https://thevillagesdemocraticclub.wildapricot.org,2026-11-16
+P02819,A0076,instagram,https://www.instagram.com/villagesdemclub/,linked from https://thevillagesdemocraticclub.wildapricot.org,2026-11-16
+P02820,A0085,instagram,https://www.instagram.com/blackwomenrevolt/,linked from https://blackwomenrevolt.org,2026-11-16
+P02821,A0085,facebook,https://www.facebook.com/blackwomenrevolt,linked from https://blackwomenrevolt.org,2026-11-16
+P02822,A0085,linkedin,https://www.linkedin.com/company/black-women-revolt,linked from https://blackwomenrevolt.org,2026-11-16
+P02823,A0813,facebook,https://www.facebook.com/pages/UltraViolet/260933440643373,linked from https://weareultraviolet.org,2026-11-16
+P02824,A0813,instagram,https://www.instagram.com/weareultraviolet/,linked from https://weareultraviolet.org,2026-11-16
+P02825,A0813,youtube,https://www.youtube.com/user/UltravioletAction,linked from https://weareultraviolet.org,2026-11-16
+P02826,A0813,linkedin,https://www.linkedin.com/company/we-are-ultraviolet,linked from https://weareultraviolet.org,2026-11-16
+P02827,A0813,bluesky,https://bsky.app/profile/ultraviolet.bsky.social,linked from https://weareultraviolet.org,2026-11-16
+P02828,A0813,x,https://x.com/ultraviolet,linked from https://weareultraviolet.org,2026-11-16
+P02829,A0766,facebook,https://www.facebook.com/Sistersofthegoodshepherd,linked from https://sistersofthegoodshepherd.com,2026-11-16
+P02830,A0068,instagram,https://www.instagram.com/sdcyoungdems/,linked from https://www.sdyoungdems.com/,2026-11-16
+P02831,A0068,facebook,https://www.facebook.com/sdcyd,linked from https://www.sdyoungdems.com/,2026-11-16
+P02832,A0068,x,https://x.com/sdcyoungdems,linked from https://www.sdyoungdems.com/,2026-11-16
+P02833,A0624,facebook,https://www.facebook.com/AFSCME,linked from https://www.afscme.org,2026-11-16
+P02834,A0624,x,https://x.com/AFSCME,linked from https://www.afscme.org,2026-11-16
+P02835,A0624,youtube,https://www.youtube.com/user/afscme,linked from https://www.afscme.org,2026-11-16
+P02836,A0624,instagram,https://www.instagram.com/afscme/,linked from https://www.afscme.org,2026-11-16
+P02837,A0831,linkedin,https://www.linkedin.com/company/childrens-funding-project,linked from https://childrensfundingproject.org,2026-11-16
+P02838,A0831,youtube,https://www.youtube.com/channel/UCrpM3akTFmpckHDG0P5fBfw,linked from https://childrensfundingproject.org,2026-11-16
+P02839,A0772,facebook,https://www.facebook.com/firstfocus.children,linked from https://firstfocus.org,2026-11-16
+P02840,A0772,x,https://x.com/first_focus,linked from https://firstfocus.org,2026-11-16
+P02841,A0772,instagram,https://www.instagram.com/first_focus/,linked from https://firstfocus.org,2026-11-16
+P02842,A0772,linkedin,https://www.linkedin.com/company/first-focus,linked from https://firstfocus.org,2026-11-16
+P02843,A0772,youtube,https://www.youtube.com/@FirstFocusOnKids,linked from https://firstfocus.org,2026-11-16
+P02844,A0772,tiktok,https://www.tiktok.com/@firstfocusonchildren,linked from https://firstfocus.org,2026-11-16
+P02845,A0092,facebook,https://www.facebook.com/profile.php?id=100070190501026,linked from https://www.foreveroakland.org,2026-11-16
+P02846,A0092,instagram,https://www.instagram.com/originalforeveroakland/,linked from https://www.foreveroakland.org,2026-11-16
+P02847,A0092,x,https://x.com/foreveroakland_,linked from https://www.foreveroakland.org,2026-11-16
+P02848,A0092,youtube,https://www.youtube.com/channel/UCE-ilocgFodxKqczA046jFg,linked from https://www.foreveroakland.org,2026-11-16
+P02849,A0809,facebook,https://www.facebook.com/SouthAsianNetwork,linked from https://www.southasiannetwork.org,2026-11-16
+P02850,A0809,x,https://x.com/SANSoCal,linked from https://www.southasiannetwork.org,2026-11-16
+P02851,A0809,youtube,https://www.youtube.com/user/OnlineSAN,linked from https://www.southasiannetwork.org,2026-11-16
+P02852,A0809,instagram,https://www.instagram.com/southasiannetwork/,linked from https://www.southasiannetwork.org,2026-11-16
+P02853,A0087,facebook,https://www.facebook.com/CALULACofficial,linked from https://calulac.org,2026-11-16
+P02854,A0087,instagram,https://www.instagram.com/ca.lulac/,linked from https://calulac.org,2026-11-16
+P02855,A0087,youtube,https://www.youtube.com/@CALULAC,linked from https://calulac.org,2026-11-16
+P02856,A0072,facebook,https://www.facebook.com/SolanoDems,linked from https://www.solanodemocrats.com/,2026-11-16
+P02857,A0072,x,https://x.com/solanodems,linked from https://www.solanodemocrats.com/,2026-11-16
+P02858,A0072,instagram,https://www.instagram.com/solanodems/,linked from https://www.solanodemocrats.com/,2026-11-16
+P02859,A0072,bluesky,https://bsky.app/profile/solanodems.bsky.social,linked from https://www.solanodemocrats.com/,2026-11-16
+P02860,A0735,instagram,https://www.instagram.com/LADemocrats/,linked from https://www.lacdp.org,2026-11-16
+P02861,A0792,instagram,https://www.instagram.com/nac4justice/,linked from https://www.gsadvocacy.org,2026-11-16
+P02862,A0792,facebook,https://www.facebook.com/goodshepherdnationaladvocacycenter,linked from https://www.gsadvocacy.org,2026-11-16
+P02863,A0792,x,https://x.com/nac4justice,linked from https://www.gsadvocacy.org,2026-11-16
+P02864,A0467,bluesky,https://bsky.app/profile/aft-oregon.org,linked from https://or.aft.org/,2026-11-16
+P02865,A0648,bluesky,https://bsky.app/profile/voicesforprogress.org,linked from https://voicesforprogress.org,2026-11-16
+P02866,A0648,linkedin,https://www.linkedin.com/company/voices-for-progress,linked from https://voicesforprogress.org,2026-11-16
+P02867,A0780,x,https://x.com/icnacsj,linked from https://www.icnacsj.org,2026-11-16
+P02868,A0780,facebook,https://www.facebook.com/ICNACSJ,linked from https://www.icnacsj.org,2026-11-16
+P02869,A0780,instagram,https://www.instagram.com/icnacsj/,linked from https://www.icnacsj.org,2026-11-16
+P02870,A0780,youtube,https://www.youtube.com/channel/UC50un2AXnXPXfXxVsSjQgqg,linked from https://www.icnacsj.org,2026-11-16
+P02871,A0780,linkedin,https://www.linkedin.com/company/1116819,linked from https://www.icnacsj.org,2026-11-16
+P02872,A0785,youtube,https://www.youtube.com/@uawunion,linked from https://uaw.org,2026-11-16
+P02873,A0785,facebook,https://www.facebook.com/uaw.union,linked from https://uaw.org,2026-11-16
+P02874,A0785,instagram,https://www.instagram.com/uaw.union/,linked from https://uaw.org,2026-11-16
+P02875,A0785,tiktok,https://www.tiktok.com/@uawunion,linked from https://uaw.org,2026-11-16
+P02876,A0785,x,https://x.com/UAW,linked from https://uaw.org,2026-11-16
+P02877,A0785,linkedin,https://www.linkedin.com/company/united-auto-workers,linked from https://uaw.org,2026-11-16
+P02878,A0634,instagram,https://www.instagram.com/mainstreetalliance_/,linked from https://mainstreetalliance.org,2026-11-16
+P02879,A0634,x,https://x.com/mainstreetweets,linked from https://mainstreetalliance.org,2026-11-16
+P02880,A0634,facebook,https://www.facebook.com/mainstreetalliance,linked from https://mainstreetalliance.org,2026-11-16
+P02881,A0634,tiktok,https://www.tiktok.com/@mainstreetalliance,linked from https://mainstreetalliance.org,2026-11-16
+P02882,A0634,linkedin,https://www.linkedin.com/company/main-street-alliance,linked from https://mainstreetalliance.org,2026-11-16
+P02883,A0649,facebook,https://www.facebook.com/voice4humanneed,linked from https://www.chn.org,2026-11-16
+P02884,A0649,x,https://x.com/voice4humanneed,linked from https://www.chn.org,2026-11-16
+P02885,A0649,instagram,https://www.instagram.com/voice4humanneed/,linked from https://www.chn.org,2026-11-16
+P02886,A0649,youtube,https://www.youtube.com/channel/UClWqprobEimvTPHDHqUNjUQ,linked from https://www.chn.org,2026-11-16
+P02887,A0622,instagram,https://www.instagram.com/aftunion/,linked from https://www.aft.org/,2026-11-16
+P02888,A0622,facebook,https://www.facebook.com/AFTunion,linked from https://www.aft.org/,2026-11-16
+P02889,A0622,bluesky,https://bsky.app/profile/aft.org,linked from https://www.aft.org/,2026-11-16
+P02890,A0622,linkedin,https://www.linkedin.com/company/aft,linked from https://www.aft.org/,2026-11-16
+P02891,A0729,facebook,https://www.facebook.com/ACLU.SoCal,linked from https://www.aclusocal.org,2026-11-16
+P02892,A0729,youtube,https://www.youtube.com/user/ACLUSoCal,linked from https://www.aclusocal.org,2026-11-16
+P02893,A0729,instagram,https://www.instagram.com/aclu_socal/,linked from https://www.aclusocal.org,2026-11-16
+P02894,A0860,facebook,https://www.facebook.com/tcifiscal,linked from https://thecommonwealthinstitute.org/,2026-11-16
+P02895,A0860,instagram,https://www.instagram.com/tcifiscal/,linked from https://thecommonwealthinstitute.org/,2026-11-16
+P02896,A0860,x,https://x.com/TCIFiscal,linked from https://thecommonwealthinstitute.org/,2026-11-16
+P02897,A0644,bluesky,https://bsky.app/profile/indivisible.org,linked from https://indivisible.org,2026-11-16
+P02898,A0644,facebook,https://www.facebook.com/indivisibleguide,linked from https://indivisible.org,2026-11-16
+P02899,A0644,instagram,https://www.instagram.com/indivisibleteam/,linked from https://indivisible.org,2026-11-16
+P02900,A0644,mastodon,https://mastodon.social/@indivisibleteam,linked from https://indivisible.org,2026-11-16
+P02901,A0644,youtube,https://www.youtube.com/@indivisibleteam,linked from https://indivisible.org,2026-11-16
+P02902,A0846,instagram,https://www.instagram.com/maketheroadnv/,linked from https://maketheroadnv.org/,2026-11-16
+P02903,A0846,facebook,https://www.facebook.com/%40MakeTheRoadNV,linked from https://maketheroadnv.org/,2026-11-16
+P02904,A0846,youtube,https://www.youtube.com/channel/UC18lLj8uJWphEgVTp47CzZA,linked from https://maketheroadnv.org/,2026-11-16
+P02905,A0846,tiktok,https://www.tiktok.com/@maketheroadnv,linked from https://maketheroadnv.org/,2026-11-16
+P02906,A0098,instagram,https://www.instagram.com/mfenaccion/,linked from https://www.mifamiliaenaccion.org/,2026-11-16
+P02907,A0098,facebook,https://www.facebook.com/profile.php?id=61557370932376,linked from https://www.mifamiliaenaccion.org/,2026-11-16
+P02908,A0827,facebook,https://www.facebook.com/ReclaimOurSchls,linked from https://reclaimourschools.org/about-aros,2026-11-16
+P02909,A0827,x,https://x.com/reclaimourschls,linked from https://reclaimourschools.org/about-aros,2026-11-16
+P02910,A0750,facebook,https://www.facebook.com/AmericanFamilyVoices,linked from https://americanfamilyvoices.org,2026-11-16
+P02911,A0750,x,https://x.com/AFVhq,linked from https://americanfamilyvoices.org,2026-11-16
+P02912,A0750,youtube,https://www.youtube.com/user/AmerFamilyVoices,linked from https://americanfamilyvoices.org,2026-11-16
+P02913,A0733,facebook,https://www.facebook.com/TransFormCA,linked from https://transformca.org,2026-11-16
+P02914,A0733,instagram,https://www.instagram.com/transform_ca/,linked from https://transformca.org,2026-11-16
+P02915,A0733,x,https://x.com/transform_alert,linked from https://transformca.org,2026-11-16
+P02916,A0733,linkedin,https://www.linkedin.com/company/transformca,linked from https://transformca.org,2026-11-16
+P02917,A0733,youtube,https://www.youtube.com/user/TransFormCA,linked from https://transformca.org,2026-11-16
+P02918,A0733,bluesky,https://bsky.app/profile/transformca.bsky.social,linked from https://transformca.org,2026-11-16
+P02919,A0870,facebook,https://www.facebook.com/nowseattle,linked from https://nowseattle.org,2026-11-16
+P02920,A0870,instagram,https://www.instagram.com/nowseattle/,linked from https://nowseattle.org,2026-11-16
+P02921,A0102,bluesky,https://bsky.app/profile/pjcsoco.org,linked from https://www.pjcsoco.org,2026-11-16
+P02922,A0102,facebook,https://www.facebook.com/PeaceandJusticeCenterofSonomaCounty,linked from https://www.pjcsoco.org,2026-11-16
+P02923,A0102,youtube,https://www.youtube.com/@pjcsoco,linked from https://www.pjcsoco.org,2026-11-16
+P02924,A0759,facebook,https://www.facebook.com/center4commonground,linked from https://www.centerforcommonground.org,2026-11-16
+P02925,A0759,bluesky,https://bsky.app/profile/ctr4cmnground.bsky.social,linked from https://www.centerforcommonground.org,2026-11-16
+P02926,A0759,instagram,https://www.instagram.com/centerforcommonground/,linked from https://www.centerforcommonground.org,2026-11-16
+P02927,A0759,youtube,https://www.youtube.com/channel/UCgJdBh1-zpXeDhDLT1F7dow,linked from https://www.centerforcommonground.org,2026-11-16
+P02928,A0625,x,https://x.com/afgenational,linked from https://www.afge.org,2026-11-16
+P02929,A0060,facebook,https://www.facebook.com/LWDemocraticClub,linked from https://www.lagunawoodsdemocrats.org/,2026-11-16
+P02930,A0060,bluesky,https://bsky.app/profile/lagunawoodsdems.bsky.social,linked from https://www.lagunawoodsdemocrats.org/,2026-11-16
+P02931,A0623,bluesky,https://bsky.app/profile/aflcio.org,linked from https://aflcio.org,2026-11-16
+P02932,A0623,instagram,https://www.instagram.com/aflcio/,linked from https://aflcio.org,2026-11-16
+P02933,A0623,tiktok,https://www.tiktok.com/@aflcio,linked from https://aflcio.org,2026-11-16
+P02934,A0623,facebook,https://www.facebook.com/aflcio,linked from https://aflcio.org,2026-11-16
+P02935,A0623,x,https://x.com/AFLCIO,linked from https://aflcio.org,2026-11-16
+P02936,A0791,bluesky,https://bsky.app/profile/moveon.org,linked from https://moveon.org,2026-11-16
+P02937,A0791,instagram,https://www.instagram.com/moveon/,linked from https://moveon.org,2026-11-16
+P02938,A0791,youtube,https://www.youtube.com/@MoveOnVideo,linked from https://moveon.org,2026-11-16
+P02939,A0791,facebook,https://www.facebook.com/moveon,linked from https://moveon.org,2026-11-16
+P02940,A0791,x,https://x.com/MoveOn,linked from https://moveon.org,2026-11-16
+P02941,A0081,facebook,https://www.facebook.com/WellstoneDem,linked from https://www.wellstoneclub.org/,2026-11-16
+P02942,A0081,instagram,https://www.instagram.com/wellstonedem/,linked from https://www.wellstoneclub.org/,2026-11-16
+P02943,A0621,bluesky,https://bsky.app/profile/seiu.org,linked from https://seiu.org/,2026-11-16
+P02944,A0621,facebook,https://www.facebook.com/seiu,linked from https://seiu.org/,2026-11-16
+P02945,A0621,instagram,https://www.instagram.com/seiu_org/,linked from https://seiu.org/,2026-11-16
+P02946,A0621,tiktok,https://www.tiktok.com/@seiu_org,linked from https://seiu.org/,2026-11-16
+P02947,A0621,x,https://x.com/SEIU,linked from https://seiu.org/,2026-11-16
+P02948,A0752,facebook,https://www.facebook.com/adactionfan,linked from https://adaction.org,2026-11-16
+P02949,A0752,instagram,https://www.instagram.com/adaintoaction/,linked from https://adaction.org,2026-11-16
+P02950,A0752,youtube,https://www.youtube.com/@ADALiberal,linked from https://adaction.org,2026-11-16
+P02951,A0752,x,https://x.com/ADAction,linked from https://adaction.org,2026-11-16
+P02952,A0752,tiktok,https://www.tiktok.com/@adaction75,linked from https://adaction.org,2026-11-16
+P02953,A0844,facebook,https://www.facebook.com/InvestWAnow,linked from https://www.investwanow.org/,2026-11-16
+P02954,A0844,bluesky,https://bsky.app/profile/investwanow.bsky.social,linked from https://www.investwanow.org/,2026-11-16
+P02955,A0844,instagram,https://www.instagram.com/investwanow/,linked from https://www.investwanow.org/,2026-11-16
+P02956,A0844,linkedin,https://www.linkedin.com/company/invest-wa-now,linked from https://www.investwanow.org/,2026-11-16
+P02957,A0844,tiktok,https://www.tiktok.com/@invest_wa_now,linked from https://www.investwanow.org/,2026-11-16
+P02958,A0669,facebook,https://www.facebook.com/warehouseworkersforjustice,linked from https://ww4j.org/,2026-11-16
+P02959,A0669,x,https://x.com/WarehouseWorker,linked from https://ww4j.org/,2026-11-16
+P02960,A0669,instagram,https://www.instagram.com/warehouseworkersforjustice/,linked from https://ww4j.org/,2026-11-16
+P02961,A0802,facebook,https://www.facebook.com/Presente.org,linked from https://presente.org,2026-11-16
+P02962,A0802,x,https://x.com/presenteorg,linked from https://presente.org,2026-11-16
+P02963,A0802,instagram,https://www.instagram.com/presenteorg/,linked from https://presente.org,2026-11-16
+P02964,A0789,x,https://x.com/LegalAidatWork,linked from https://legalaidatwork.org,2026-11-16
+P02965,A0789,linkedin,https://www.linkedin.com/company/legal-aid-society-employment-law-center,linked from https://legalaidatwork.org,2026-11-16
+P02966,A0789,youtube,https://www.youtube.com/user/TheLASELC,linked from https://legalaidatwork.org,2026-11-16
+P02967,A0789,facebook,https://www.facebook.com/LegalAidatWork,linked from https://legalaidatwork.org,2026-11-16
+P02968,A0789,instagram,https://www.instagram.com/legalaidatwork/,linked from https://legalaidatwork.org,2026-11-16
+P02969,A0789,bluesky,https://bsky.app/profile/legalaidatwork.bsky.social,linked from https://legalaidatwork.org,2026-11-16
+P02970,A0749,x,https://x.com/adc,linked from https://adc.org,2026-11-16
+P02971,A0749,instagram,https://www.instagram.com/adcnational/,linked from https://adc.org,2026-11-16
+P02972,A0749,youtube,https://www.youtube.com/channel/UCaZ-1zEs-YWKbi-L-2p_RFQ,linked from https://adc.org,2026-11-16
+P02973,A0749,facebook,https://www.facebook.com/adcnational,linked from https://adc.org,2026-11-16
+P02974,A0764,youtube,https://www.youtube.com/@CommonDefense,linked from https://commondefense.us,2026-11-16
+P02975,A0764,x,https://x.com/commondefense,linked from https://commondefense.us,2026-11-16
+P02976,A0764,instagram,https://www.instagram.com/common_defense/,linked from https://commondefense.us,2026-11-16
+P02977,A0833,instagram,https://www.instagram.com/CitizenActionIL/,linked from https://citizenaction-il.org,2026-11-16
+P02978,A0833,facebook,https://www.facebook.com/CitizenActionIL,linked from https://citizenaction-il.org,2026-11-16
+P02979,A0833,x,https://x.com/citizenactionil,linked from https://citizenaction-il.org,2026-11-16
+P02980,A0833,tiktok,https://www.tiktok.com/@citizen.action.il,linked from https://citizenaction-il.org,2026-11-16
+P02981,A0668,facebook,https://www.facebook.com/iftaft,linked from https://www.ift-aft.org,2026-11-16
+P02982,A0668,x,https://x.com/iftaft,linked from https://www.ift-aft.org,2026-11-16
+P02983,A0668,instagram,https://www.instagram.com/iftaft/,linked from https://www.ift-aft.org,2026-11-16
+P02984,A0668,youtube,https://www.youtube.com/channel/UC-O95qXhfwXq2e5MOGZWLwg,linked from https://www.ift-aft.org,2026-11-16
+P02985,A0036,facebook,https://www.facebook.com/ResponsibleWealth,linked from https://www.responsiblewealth.org/,2026-11-16
+P02986,A0787,x,https://x.com/JMCOUSTEAU,linked from https://oceanfutures.org,2026-11-16
+P02987,A0787,facebook,https://www.facebook.com/pages/Jean-Michel-Cousteaus-Ocean-Futures-Society/92486697079,linked from https://oceanfutures.org,2026-11-16
+P02988,A0787,youtube,https://www.youtube.com/user/OceanFuturesSociety,linked from https://oceanfutures.org,2026-11-16
+P02989,A0646,facebook,https://www.facebook.com/NetworkLobby,linked from https://networklobby.org,2026-11-16
+P02990,A0646,x,https://x.com/NETWORKLobby,linked from https://networklobby.org,2026-11-16
+P02991,A0646,youtube,https://www.youtube.com/user/NetworkLobbies,linked from https://networklobby.org,2026-11-16
+P02992,A0646,instagram,https://www.instagram.com/network_lobby/,linked from https://networklobby.org,2026-11-16
+P02993,A0770,instagram,https://www.instagram.com/extendpua/,linked from https://extendpua.org,2026-11-16
+P02994,A0770,x,https://x.com/extendpua,linked from https://extendpua.org,2026-11-16
+P02995,A0770,facebook,https://www.facebook.com/extendpua,linked from https://extendpua.org,2026-11-16
+P02996,A0666,instagram,https://www.instagram.com/ccctu_1600/,linked from https://ccctu.org,2026-11-16
+P02997,A0666,facebook,https://www.facebook.com/CCCTU,linked from https://ccctu.org,2026-11-16
+P02998,A0666,x,https://x.com/CCCTU_Local1600,linked from https://ccctu.org,2026-11-16
+P02999,A0784,facebook,https://www.facebook.com/IFPTE,linked from https://www.ifpte.org,2026-11-16
+P03000,A0784,bluesky,https://bsky.app/profile/ifpte.bsky.social,linked from https://www.ifpte.org,2026-11-16
+P03001,A0842,facebook,https://www.facebook.com/Inequalityorg,linked from https://inequality.org/,2026-11-16
+P03002,A0842,x,https://x.com/inequalityorg,linked from https://inequality.org/,2026-11-16
+P03003,A0842,bluesky,https://bsky.app/profile/inequality.org,linked from https://inequality.org/,2026-11-16
+P03004,A0857,facebook,https://www.facebook.com/progressiowa,linked from https://progressiowa.org/,2026-11-16
+P03005,A0857,instagram,https://www.instagram.com/PROGRESSIOWA/,linked from https://progressiowa.org/,2026-11-16
+P03006,A0857,tiktok,https://www.tiktok.com/@progress_iowa,linked from https://progressiowa.org/,2026-11-16
+P03007,A0857,youtube,https://www.youtube.com/c/ProgressIowa,linked from https://progressiowa.org/,2026-11-16
+P03008,A0857,bluesky,https://bsky.app/profile/progressiowa.bsky.social,linked from https://progressiowa.org/,2026-11-16
+P03009,A0857,x,https://x.com/progressiowa,linked from https://progressiowa.org/,2026-11-16
+P03010,A0631,x,https://x.com/4taxfairness,linked from https://americansfortaxfairness.org,2026-11-16
+P03011,A0631,facebook,https://www.facebook.com/Americans4TaxFairness,linked from https://americansfortaxfairness.org,2026-11-16
+P03012,A0631,instagram,https://www.instagram.com/4taxfairness/,linked from https://americansfortaxfairness.org,2026-11-16
+P03013,A0631,tiktok,https://www.tiktok.com/@4taxfairness,linked from https://americansfortaxfairness.org,2026-11-16
+P03014,A0631,substack,https://4taxfairness.substack.com,linked from https://americansfortaxfairness.org,2026-11-16
+P03015,A0805,facebook,https://www.facebook.com/ProsperityNow.org,linked from https://prosperitynow.org,2026-11-16
+P03016,A0805,instagram,https://www.instagram.com/prosperitynow/,linked from https://prosperitynow.org,2026-11-16
+P03017,A0805,linkedin,https://www.linkedin.com/company/prosperity-now,linked from https://prosperitynow.org,2026-11-16
+P03018,A0805,x,https://x.com/prosperitynow,linked from https://prosperitynow.org,2026-11-16
+P03019,A0805,youtube,https://www.youtube.com/c/ProsperityNow,linked from https://prosperitynow.org,2026-11-16
+P03020,A0805,tiktok,https://www.tiktok.com/@prosperitynow,linked from https://prosperitynow.org,2026-11-16
+P03021,A0667,facebook,https://www.facebook.com/SEIULocal73,linked from https://www.seiu73.org,2026-11-16
+P03022,A0667,x,https://x.com/seiulocal73,linked from https://www.seiu73.org,2026-11-16
+P03023,A0667,instagram,https://www.instagram.com/seiulocal73/,linked from https://www.seiu73.org,2026-11-16
+P03024,A0667,tiktok,https://www.tiktok.com/@seiulocal73,linked from https://www.seiu73.org,2026-11-16
+P03025,A0667,bluesky,https://bsky.app/profile/seiulocal73.bsky.social,linked from https://www.seiu73.org,2026-11-16
+P03026,A0883,facebook,https://www.facebook.com/cause805,linked from https://causenow.org,2026-11-16
+P03027,A0883,instagram,https://www.instagram.com/cause805/,linked from https://causenow.org,2026-11-16
+P03028,A0099,facebook,https://www.facebook.com/OrganizeSac,linked from https://www.organizesacramento.org,2026-11-16
+P03029,A0099,x,https://x.com/OrganizeSac,linked from https://www.organizesacramento.org,2026-11-16
+P03030,A0058,x,https://x.com/income_movement,linked from https://www.incomemovement.org/,2026-11-16
+P03031,A0058,instagram,https://www.instagram.com/incomemovement/,linked from https://www.incomemovement.org/,2026-11-16
+P03032,A0058,facebook,https://www.facebook.com/IncomeMovement,linked from https://www.incomemovement.org/,2026-11-16
+P03033,A0804,facebook,https://www.facebook.com/pdamerica,linked from https://pdamerica.org,2026-11-16
+P03034,A0804,x,https://x.com/pdamerica,linked from https://pdamerica.org,2026-11-16
+P03035,A0804,bluesky,https://bsky.app/profile/pdamerica.bsky.social,linked from https://pdamerica.org,2026-11-16
+P03036,A0794,x,https://x.com/NAACP,linked from https://naacp.org,2026-11-16
+P03037,A0794,facebook,https://www.facebook.com/naacp,linked from https://naacp.org,2026-11-16
+P03038,A0794,instagram,https://www.instagram.com/naacp/,linked from https://naacp.org,2026-11-16
+P03039,A0794,youtube,https://www.youtube.com/user/naacpvideos,linked from https://naacp.org,2026-11-16
+P03040,A0470,facebook,https://www.facebook.com/OregonAFSCME,linked from https://www.oregonafscme.org/,2026-11-16
+P03041,A0470,instagram,https://www.instagram.com/oregonafscme/,linked from https://www.oregonafscme.org/,2026-11-16
+P03042,A0089,facebook,https://www.facebook.com/ChispaLCV,linked from https://chispalcv.org/,2026-11-16
+P03043,A0089,instagram,https://www.instagram.com/ChispaLCV/,linked from https://chispalcv.org/,2026-11-16
+P03044,A0089,x,https://x.com/chispalcv,linked from https://chispalcv.org/,2026-11-16
+P03045,A0100,facebook,https://www.facebook.com/oralelb5,linked from https://www.orale.org,2026-11-16
+P03046,A0100,instagram,https://www.instagram.com/oralelb/,linked from https://www.orale.org,2026-11-16
+P03047,A0100,linkedin,https://www.linkedin.com/company/oralelb,linked from https://www.orale.org,2026-11-16
+P03048,A0100,tiktok,https://www.tiktok.com/@oralelb,linked from https://www.orale.org,2026-11-16
+P03049,A0779,facebook,https://www.facebook.com/housingworks.org,linked from https://www.housingworks.org,2026-11-16
+P03050,A0779,x,https://x.com/housingworks,linked from https://www.housingworks.org,2026-11-16
+P03051,A0779,instagram,https://www.instagram.com/housingworks/,linked from https://www.housingworks.org,2026-11-16
+P03052,A0754,x,https://x.com/jewishaction,linked from https://www.bendthearc.us,2026-11-16
+P03053,A0754,instagram,https://www.instagram.com/bendthearc/,linked from https://www.bendthearc.us,2026-11-16
+P03054,A0754,bluesky,https://bsky.app/profile/bendthearc.bsky.social,linked from https://www.bendthearc.us,2026-11-16
+P03055,A0754,tiktok,https://www.tiktok.com/@bendthearc,linked from https://www.bendthearc.us,2026-11-16
+P03056,A0643,x,https://x.com/HCAN,linked from https://healthcareforamericanow.org,2026-11-16
+P03057,A0643,facebook,https://www.facebook.com/Health-Care-for-America-Now-20957686338,linked from https://healthcareforamericanow.org,2026-11-16
+P03058,A0643,instagram,https://www.instagram.com/healthcareoverwealthcare/,linked from https://healthcareforamericanow.org,2026-11-16
+P03059,A0810,facebook,https://www.facebook.com/strongforall,linked from https://strongforall.org/about/,2026-11-16
+P03060,A0810,x,https://x.com/strongforall,linked from https://strongforall.org/about/,2026-11-16
+P03061,A0816,instagram,https://www.instagram.com/unitedchurchofchrist/,linked from https://www.ucc.org/what-we-do/justice-local-church-ministries/,2026-11-16
+P03062,A0816,facebook,https://www.facebook.com/UnitedChurchofChrist,linked from https://www.ucc.org/what-we-do/justice-local-church-ministries/,2026-11-16
+P03063,A0816,x,https://x.com/unitedchurch,linked from https://www.ucc.org/what-we-do/justice-local-church-ministries/,2026-11-16
+P03064,A0816,bluesky,https://bsky.app/profile/unitedchurch.bsky.social,linked from https://www.ucc.org/what-we-do/justice-local-church-ministries/,2026-11-16
+P03065,A0816,tiktok,https://www.tiktok.com/@unitedchurchofchrist,linked from https://www.ucc.org/what-we-do/justice-local-church-ministries/,2026-11-16
+P03066,A0665,instagram,https://www.instagram.com/seiuhcii/,linked from https://seiuhcilin.org/,2026-11-16
+P03067,A0665,tiktok,https://www.tiktok.com/@seiuhciimk,linked from https://seiuhcilin.org/,2026-11-16
+P03068,A0665,x,https://x.com/seiuhciimk,linked from https://seiuhcilin.org/,2026-11-16
+P03069,A0665,youtube,https://www.youtube.com/channel/UCsbpFEenAVbRGiJIH14rSPQ,linked from https://seiuhcilin.org/,2026-11-16
+P03070,A0841,substack,https://honestaz.substack.com,linked from https://honestarizona.squarespace.com,2026-11-16
+P03071,A0841,facebook,https://www.facebook.com/honestarizonans,linked from https://honestarizona.squarespace.com,2026-11-16
+P03072,A0841,x,https://x.com/honestarizona,linked from https://honestarizona.squarespace.com,2026-11-16
+P03073,A0841,instagram,https://www.instagram.com/honestaz/,linked from https://honestarizona.squarespace.com,2026-11-16
+P03074,A0023,facebook,https://www.facebook.com/unitedhealthcareworkers,linked from https://www.seiu-uhw.org,2026-11-16
+P03075,A0023,x,https://x.com/seiu_uhw,linked from https://www.seiu-uhw.org,2026-11-16
+P03076,A0023,youtube,https://www.youtube.com/user/SEIUUHWOnline,linked from https://www.seiu-uhw.org,2026-11-16
+P03077,A0023,instagram,https://www.instagram.com/seiuuhw/,linked from https://www.seiu-uhw.org,2026-11-16
+P03078,A0023,linkedin,https://www.linkedin.com/company/seiu-uhw,linked from https://www.seiu-uhw.org,2026-11-16
+P03079,A0023,tiktok,https://www.tiktok.com/@seiu_uhw,linked from https://www.seiu-uhw.org,2026-11-16
+P03080,A0815,website,https://www.umcjustice.org,"web search: Domain seen in search results; opened it, footer reads General Board of Church and Society of The United Methodist Church.",2026-11-16
+P03081,A0820,website,https://dsasandiego.org/,"web search: First result of search for the chapter; opened, heading Democratic Socialists of America San Diego.",2026-11-16
+P03082,A0821,website,https://www.sfdems.org/,"web search: Found sfdemocrats.org in search; it redirects (301) to sfdems.org, opened, heading San Francisco Democratic Party.",2026-11-16
+P03083,A0824,website,https://accountable.us/,"web search: Search result showed accountable.us/about/our-board-and-leadership (Who We Are) for Accountable.US; homepage fetch failed on SSL, homepage address derived from that result. Accountable.NOW name not se",2026-11-16
+P03084,A0825,website,https://actiontogethernepa.org,"web search: Domain given by nonprofit directory listing (Mountain Top PA); opened it and it describes Action Together NEPA, a 501(c)(4) in northeastern Pennsylvania.",2026-11-16
+P03085,A0826,website,https://act-ct.org,"web search: Domain seen in a search result mirror, opened it: title Advancing CT Together, Hartford-based, Advancing Connecticut Together (ACT).",2026-11-16
+P03086,A0847,website,https://mentalhealthpartnerships.org/,"web search: mhphope.org (from VoterVoice campaign page MHPHOPE, Philadelphia nonprofit) 301-redirects to mentalhealthpartnerships.org; page itself returned 403 so title not read; Philadelphia identity from listin",2026-11-16
+P03087,A0850,website,https://www.nebraskaforus.org,"web search: Domain from search result (InfluenceWatch cites it); opened it and the page is Nebraska For Us, federal policy impact on Nebraskans.",2026-11-16
+P03088,A0852,website,https://ncbudget.org,"web search: Domain NCBudget.org from search results and directory listings; opened it, title Home - NC Budget & Tax Center.",2026-11-16
+P03089,A0855,website,https://opportunityarizona.org/,"web search: Found via search (directory listings gave opportunityarizona.org); opened it, title and footer name Opportunity Arizona.",2026-11-16
+P03090,A0856,website,https://pennpolicy.org/,"web search: Found via search listings naming pennpolicy.org; opened it, heading and footer say Pennsylvania Policy Center.",2026-11-16
+P03091,A0859,website,https://swecwa.org/,"web search: Found via Idealist listing giving swecwa.org; opened it, site name and footer say Southwest Washington Equity Coalition.",2026-11-16
+P03092,A0862,website,https://uusj.net/wp1,"web search: GuideStar listing gave uusj.org, which redirects (301) to uusj.net; opened it, title and heading name the organisation.",2026-11-16
+P03093,A0863,website,https://www.wpsr.org/,"web search: Found via GuideStar/Idealist listings giving wpsr.org; opened it, heading and footer name Washington Physicians for Social Responsibility.",2026-11-16
+P03094,A0881,website,https://labortoday.international,"web search: Found in search (InfluenceWatch names labortoday.international); opened it: Los Angeles-based Labor Today International, WFTU-linked.",2026-11-16
+P03095,A0825,facebook,https://www.facebook.com/ActionTogether.NEPA,linked from https://actiontogethernepa.org,2026-11-16
+P03096,A0825,bluesky,https://bsky.app/profile/actiontogethernepa.bsky.social,linked from https://actiontogethernepa.org,2026-11-16
+P03097,A0825,instagram,https://www.instagram.com/actiontogethernepa/,linked from https://actiontogethernepa.org,2026-11-16
+P03098,A0825,youtube,https://www.youtube.com/channel/UC-TSKeA33St5FDpWEFO2MOw,linked from https://actiontogethernepa.org,2026-11-16
+P03099,A0825,tiktok,https://www.tiktok.com/@actiontogethernepa,linked from https://actiontogethernepa.org,2026-11-16
+P03100,A0825,linkedin,https://www.linkedin.com/company/actiontogethernepa,linked from https://actiontogethernepa.org,2026-11-16
+P03101,A0847,facebook,https://www.facebook.com/MentalHealthPartnerships,linked from https://mentalhealthpartnerships.org/,2026-11-16
+P03102,A0847,instagram,https://www.instagram.com/mentalhealthpartnerships/,linked from https://mentalhealthpartnerships.org/,2026-11-16
+P03103,A0847,youtube,https://www.youtube.com/channel/UC7SMlVppPbXtNm-UWpLv6VA,linked from https://mentalhealthpartnerships.org/,2026-11-16
+P03104,A0847,linkedin,https://www.linkedin.com/company/mhphope,linked from https://mentalhealthpartnerships.org/,2026-11-16
+P03105,A0847,x,https://x.com/MHPHope,linked from https://mentalhealthpartnerships.org/,2026-11-16
+P03106,A0855,instagram,https://www.instagram.com/opportunityarizona/,linked from https://opportunityarizona.org/,2026-11-16
+P03107,A0855,facebook,https://www.facebook.com/OpportunityAZ,linked from https://opportunityarizona.org/,2026-11-16
+P03108,A0855,bluesky,https://bsky.app/profile/opportunityarizona.bsky.social,linked from https://opportunityarizona.org/,2026-11-16
+P03109,A0855,youtube,https://www.youtube.com/@opportunityarizona2490,linked from https://opportunityarizona.org/,2026-11-16
+P03110,A0855,x,https://x.com/OpportunityAZ,linked from https://opportunityarizona.org/,2026-11-16
+P03111,A0863,instagram,https://www.instagram.com/psr_washington/,linked from https://www.wpsr.org/,2026-11-16
+P03112,A0863,linkedin,https://www.linkedin.com/company/washington-physicians-for-social-responsibility,linked from https://www.wpsr.org/,2026-11-16
+P03113,A0863,facebook,https://www.facebook.com/WashingtonPSR,linked from https://www.wpsr.org/,2026-11-16
+P03114,A0863,bluesky,https://bsky.app/profile/wpsr.bsky.social,linked from https://www.wpsr.org/,2026-11-16
+P03115,A0881,facebook,https://www.facebook.com/Comunicacionescpc,linked from https://labortoday.international,2026-11-16
+P03116,A0881,x,https://x.com/laborwftu,linked from https://labortoday.international,2026-11-16
+P03117,A0815,facebook,https://www.facebook.com/umcjustice,linked from https://www.umcjustice.org,2026-11-16
+P03118,A0815,instagram,https://www.instagram.com/umcjustice_gbcs/,linked from https://www.umcjustice.org,2026-11-16
+P03119,A0815,youtube,https://www.youtube.com/user/GBCSVideo,linked from https://www.umcjustice.org,2026-11-16
+P03120,A0815,x,https://x.com/umcjustice,linked from https://www.umcjustice.org,2026-11-16
+P03121,A0859,facebook,https://www.facebook.com/swecwa,linked from https://swecwa.org/,2026-11-16
+P03122,A0859,instagram,https://www.instagram.com/swec.sw.wa/,linked from https://swecwa.org/,2026-11-16
+P03123,A0850,facebook,https://www.facebook.com/NebraskaForUs,linked from https://www.nebraskaforus.org,2026-11-16
+P03124,A0850,x,https://x.com/NebraskaForUs,linked from https://www.nebraskaforus.org,2026-11-16
+P03125,A0856,x,https://x.com/PennPolicy,linked from https://pennpolicy.org/,2026-11-16
+P03126,A0856,bluesky,https://bsky.app/profile/pennpolicycenter.bsky.social,linked from https://pennpolicy.org/,2026-11-16
+P03127,A0856,facebook,https://www.facebook.com/pennpolicycenter,linked from https://pennpolicy.org/,2026-11-16
+P03128,A0856,youtube,https://www.youtube.com/@PennPolicyCenter,linked from https://pennpolicy.org/,2026-11-16
+P03129,A0856,instagram,https://www.instagram.com/pennpolicycenter/,linked from https://pennpolicy.org/,2026-11-16
+P03130,A0852,x,https://x.com/ncbudgetandtax,linked from https://ncbudget.org,2026-11-16
+P03131,A0852,facebook,https://www.facebook.com/ncbudget,linked from https://ncbudget.org,2026-11-16
+P03132,A0852,instagram,https://www.instagram.com/ncbudgetandtax/,linked from https://ncbudget.org,2026-11-16
+P03133,A0852,linkedin,https://www.linkedin.com/company/nc-budget-tax-center,linked from https://ncbudget.org,2026-11-16
+P03134,A0852,youtube,https://www.youtube.com/channel/UC0yUEdyZRRBj7R5FivZLGyg,linked from https://ncbudget.org,2026-11-16
+P03135,A0820,instagram,https://www.instagram.com/dsa.san.diego/,linked from https://dsasandiego.org/,2026-11-16
+P03136,A0820,tiktok,https://www.tiktok.com/@dsasandiego,linked from https://dsasandiego.org/,2026-11-16
+P03137,A0820,bluesky,https://bsky.app/profile/dsasandiego.org,linked from https://dsasandiego.org/,2026-11-16
+P03138,A0820,youtube,https://www.youtube.com/@dsasandiego,linked from https://dsasandiego.org/,2026-11-16
+P03139,A0826,facebook,https://www.facebook.com/advancingct,linked from https://act-ct.org,2026-11-16
+P03140,A0826,x,https://x.com/advancingct,linked from https://act-ct.org,2026-11-16
+P03141,A0826,instagram,https://www.instagram.com/advancingct/,linked from https://act-ct.org,2026-11-16

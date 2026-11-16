@@ -66,3 +66,7 @@ K00064,A0030,manual_search,https://aksiforjustice.org,2026-11-16,found,website,"
 K00065,A0038,manual_search,https://lmnd.or.id,2026-11-16,found,website,"Own guess of domain from acronym (search was rate-limited); opened it, page headed Microsite LMND and names Liga Mahasiswa Nasional untuk Demokrasi."
 K00066,A0038,own_site,https://lmnd.or.id,2026-11-16,none,,
 K00067,A0030,own_site,https://aksiforjustice.org,2026-11-16,none,,
+K00068,A0040,manual_search,,2026-11-16,none,,Two searches found no page for the South Sumatra chapter; only national LMND coverage.
+K00069,A0056,manual_search,,2026-11-16,none,,"Searched twice; only news/Indoleft pages, no own domain found (mbgwatch.id guess did not resolve)"
+K00070,A0060,manual_search,,2026-11-16,none,,Searched twice; no own site found in results
+K00071,A0071,manual_search,,2026-11-16,none,,Searched twice; no own site found in results

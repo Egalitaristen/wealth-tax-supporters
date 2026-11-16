@@ -216,3 +216,19 @@ P00216,A0053,website,https://malmo.vansterpartiet.se/2014/01/24/malmoprofilen-da
 P00217,A0043,facebook,https://www.facebook.com/linuslaksomp,linked from https://www.linuslakso.se,2026-11-16
 P00218,A0049,official_page,https://www.riksdagen.se/sv/ledamoter-och-partier/ledamot/jacob-risberg_03ba2d14-85d1-4f21-95e2-39e5e93aa2f9/,"web search: Riksdag page opened: Jacob Risberg (MP), Uppsala län.",2026-11-16
 P00219,A0005,official_page,https://www.riksdagen.se/sv/ledamoter-och-partier/ledamot/ulla-andersson_a9eff036-3d8c-487e-9325-e3bece8df1e4/,"web search: Riksdag member page (search result): Ulla Andersson (V), former member 2006-2022, Gävleborg.",2026-11-16
+P00220,A0057,website,https://s-studenter.se,"web search: Found via web search (s-studenter.se result); opened homepage, heading and footer name Socialdemokratiska Studentförbundet.",2026-11-16
+P00221,A0073,website,https://stockholmsstad.vansterpartiet.se,"web search: Domain seen in a search result (Valplattform 2026 Stockholms stad PDF on this host); homepage returned 403 so not opened, identity inferred from the Vänsterpartiet Stockholms stad subdomain.",2026-11-16
+P00222,A0078,website,https://reformisterna.se,"web search: Own guess of domain from the name; opened it, title and text describe the S-förening Reformisterna.",2026-11-16
+P00223,A0105,website,https://tatillbakaframtiden.se,"web search: Found via search describing the movement; guessed .se domain, opened it and heading reads Ta tillbaka framtiden, a radical community for young people focused on climate.",2026-11-16
+P00224,A0117,website,https://socialdemokraternaisala.se,web search: Address listed on the party's Sala Arbetarekommun page; opened it and title/footer say Socialdemokraterna i Sala.,2026-11-16
+P00225,A0132,website,https://socialdemokraterna7h.se,"web search: Address listed on party's Sjuhäradsbygdens Partidistrikt page; opened it and footer names Sjuhäradsbygdens Partidistrikt, Borås.",2026-11-16
+P00226,A0105,tiktok,https://www.tiktok.com/@tatillbakaframtiden,linked from https://tatillbakaframtiden.se,2026-11-16
+P00227,A0105,instagram,https://www.instagram.com/tatillbakaframtiden/,linked from https://tatillbakaframtiden.se,2026-11-16
+P00228,A0105,facebook,https://www.facebook.com/tatillbakaframtiden,linked from https://tatillbakaframtiden.se,2026-11-16
+P00229,A0078,facebook,https://www.facebook.com/Reformisterna-2337692372925538,linked from https://reformisterna.se,2026-11-16
+P00230,A0078,instagram,https://www.instagram.com/reformisterna/,linked from https://reformisterna.se,2026-11-16
+P00231,A0057,instagram,https://www.instagram.com/s_studenter/,linked from https://s-studenter.se,2026-11-16
+P00232,A0057,facebook,https://www.facebook.com/s.studenter,linked from https://s-studenter.se,2026-11-16
+P00233,A0057,tiktok,https://www.tiktok.com/@sstudenter,linked from https://s-studenter.se,2026-11-16
+P00234,A0057,x,https://x.com/s_studenter,linked from https://s-studenter.se,2026-11-16
+P00235,A0057,substack,https://sstudentersvalberedning.substack.com,linked from https://s-studenter.se,2026-11-16

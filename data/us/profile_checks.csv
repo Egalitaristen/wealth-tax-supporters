@@ -861,3 +861,325 @@ K00859,A0765,manual_search,https://cwa-union.org,2026-11-16,found,website,"Addre
 K00860,A0635,manual_search,,2026-11-16,none,,"Guessed pstreet.org opened (title 'P Street', GoDaddy site) but page has no content tying it to the progressive lobbying group (PCCC arm); identity unconfirmed."
 K00861,A0600,manual_search,https://housedemocrats.wa.gov/mena/,2026-11-16,found,official_page,"Found via search; House Democratic Caucus member page, opened and confirmed 29th LD Tacoma, Democrat; no personal campaign site listed."
 K00862,A0431,own_site,https://www.nysenate.gov/senators/kevin-s-parker,2026-11-16,blocked,,403 at https://www.nysenate.gov/senators/kevin-s-parker
+K00863,A0011,manual_search,,2026-11-16,none,,"Searched twice; only AFSCME California general site and local councils found, no page of the PEOPLE committee itself."
+K00864,A0023,manual_search,https://www.seiu-uhw.org,2026-11-16,found,website,"Guessed obvious domain, opened it; title names SEIU-UHW and California healthcare workers."
+K00865,A0034,manual_search,https://www.middleclasstaxpayers.org,2026-11-16,found,website,"Domain from search result summary, opened it; MCTA nonprofit advocacy group in California, founded 2011."
+K00866,A0036,manual_search,https://www.responsiblewealth.org/,2026-11-16,found,website,Found via search (Stanford listing gave the domain; rw-ufe.nationbuilder.com redirects there); page says it is a project of United for a Fair Economy and is the Responsible Wealth website.
+K00867,A0043,manual_search,https://www.californiadsa.org/,2026-11-16,none,,"rejected https://www.californiadsa.org/: the page's title and headings do not carry the name; Found via search; page 'What is California DSA?' describes the statewide DSA formation in California, matching the entry."
+K00868,A0046,manual_search,,2026-11-16,none,,Two searches found no Foothills DSA site; California DSA lists a Central Sierra Foothills chapter but no own site seen.
+K00869,A0050,manual_search,,2026-11-16,none,,"Searches found no Sebastopol DSA group; only Sonoma County chapter (socodsa.org), which is a different body."
+K00870,A0056,manual_search,,2026-11-16,none,,"Only SDSU School of Social Work student-organisation page and RSO listing found, no own site."
+K00871,A0058,manual_search,https://www.incomemovement.org/,2026-11-16,found,website,"Found via search (incomemovement.com redirects here); opened page titled Official Site, basic income nonprofit."
+K00872,A0060,manual_search,https://www.lagunawoodsdemocrats.org/,2026-11-16,found,website,Found via redirect from the Laguna Woods Village club page; footer says paid for by Laguna Woods Democratic Club with this domain.
+K00873,A0063,manual_search,,2026-11-16,none,,"Searches found only the national Our Revolution site and a directory listing for the statewide network, no own site."
+K00874,A0065,manual_search,,2026-11-16,none,,"Two searches found no own RCYD site; only Google Docs, Ballotpedia and the state body cayoungdems.com."
+K00875,A0066,manual_search,https://www.RootsAction.org/,2026-11-16,found,website,First search result for the name; fetch returned 403 so identity rests on the search result description of the homepage.
+K00876,A0068,manual_search,https://www.sdyoungdems.com/,2026-11-16,found,website,"Top search result for exact name; opened homepage, site name and footer say San Diego County Young Democrats of California; ActBlue page carries same name."
+K00877,A0072,manual_search,https://www.solanodemocrats.com/,2026-11-16,found,website,"Committee's own 2020 endorsements page names www.solanodemocrats.com as its website, and its nationbuilder site (bylaws) redirects there; page itself could not be opened (fetch safety check rate-limit"
+K00878,A0074,manual_search,,2026-11-16,none,,"Two searches found only an ActBlue page, a 2019 news article and the national hub directory; no own site for the Orange County hub."
+K00879,A0075,manual_search,,2026-11-16,none,,"Two searches found only FEC, ProPublica and chamber directory listings; no own site or page found."
+K00880,A0076,manual_search,https://thevillagesdemocraticclub.wildapricot.org,2026-11-16,found,website,"Top search result for exact name; opened homepage, title and heading carry the club name (Wild Apricot-hosted own site)."
+K00881,A0077,manual_search,,2026-11-16,none,,Searched exact name with context twice; nothing identifiable for this organisation.
+K00882,A0080,manual_search,,2026-11-16,none,,"Two searches found only the county party site (venturacountydemocrats.com), which is a different body, and passing mentions."
+K00883,A0081,manual_search,https://www.wellstoneclub.org/,2026-11-16,found,website,"Top search result for exact name; opened homepage, title and heading name Wellstone Democratic Renewal Club, East Bay (Berkeley/Oakland), California."
+K00884,A0082,manual_search,,2026-11-16,none,,"Search suggested www.wellstonedems.org (from an undated ECOS post) but it could not be opened (safety check rate-limited), so not confirmed; wellstoneclub.org is a different club."
+K00885,A0085,manual_search,https://blackwomenrevolt.org,2026-11-16,found,website,"Found via search (directory and Linktree point to this domain); opened it, title Black Women Revolt, San Francisco resource centre (Black Women Revolt Against Domestic Violence); name matches but the"
+K00886,A0086,manual_search,https://www.cablackhealthnetwork.org,2026-11-16,found,website,Found via search for 'California Black Health Network CBHN'; many pages on this domain show Sacramento CBHN content; could not open it directly (certificate error).
+K00887,A0087,manual_search,https://calulac.org,2026-11-16,found,website,"Domain listed in directory search results; opened it, heading reads California LULAC."
+K00888,A0089,manual_search,https://chispalcv.org/,2026-11-16,found,website,"lcv.org/chispa/ redirects here; opened it, footer reads Chispa LCV."
+K00889,A0091,manual_search,https://www.edenareaindivisible.org,2026-11-16,found,website,Address was my own guess from the name; opened it and the site name is Eden Area Indivisible (Hayward area group confirmed by search results).
+K00890,A0092,manual_search,https://www.foreveroakland.org,2026-11-16,found,website,"Address was my own guess from the name; opened it and the organisation is named Forever Oakland, Oakland."
+K00891,A0093,manual_search,,2026-11-16,none,,"Two searches and a domain guess found only Instagram, Mailchimp and event listings; no own site."
+K00892,A0094,manual_search,https://www.ic4ij.org,2026-11-16,found,website,"page not read; Search results (KVCR interview, ActBlue page, Idealist) give ic4ij.org as the site; could not open it (403)."
+K00893,A0095,manual_search,,2026-11-16,none,,Two searches and a domain guess found no organisation with this name.
+K00894,A0096,manual_search,,2026-11-16,none,,Two searches and a domain guess found only a Bluesky account and a shop page; no own site.
+K00895,A0097,manual_search,,2026-11-16,none,,"Search found only directory and registry listings (Brawley, CA); a domain guess failed; no own site found."
+K00896,A0098,manual_search,https://www.mifamiliaenaccion.org/,2026-11-16,found,website,Found via link labelled MFA on mifamiliavota.org; opened it and the title and name match.
+K00897,A0099,manual_search,https://www.organizesacramento.org,2026-11-16,found,website,"Domain listed by CauseIQ; opened it, footer says Organize Sacramento 501(c)3, 1714 Broadway, Sacramento."
+K00898,A0100,manual_search,https://www.orale.org,2026-11-16,found,website,"Found via search result text naming orale.org; opened it, title carries full name and Long Beach."
+K00899,A0102,manual_search,https://www.pjcsoco.org,2026-11-16,found,website,"Domain named in search results; opened it, heading matches and address is Santa Rosa."
+K00900,A0103,manual_search,,2026-11-16,none,,Two searches found nothing for this name.
+K00901,A0104,manual_search,,2026-11-16,none,,Two searches found nothing for this exact name; only similarly named San Leandro groups.
+K00902,A0105,manual_search,https://www.sirenimmigrantrights.org/,2026-11-16,found,website,"siren-bayarea.org (from search results) redirects here; opened it, site is SIREN with San Jose office."
+K00903,A0106,manual_search,,2026-11-16,none,,Two searches found no own site or official college page for the club.
+K00904,A0107,manual_search,,2026-11-16,none,,"Only Action Network event listings and news found, no own site."
+K00905,A0108,manual_search,,2026-11-16,none,,Two searches found nothing for this name.
+K00906,A0109,manual_search,https://united4respect.org/,2026-11-16,found,website,"Found via search for exact name; opened united4respect.org/about-us, heading 'About United for Respect', retail-worker nonprofit; homepage address seen in search results."
+K00907,A0110,manual_search,,2026-11-16,none,,"Searched twice; only an Action Network listing and a Linktree reference, guessed unitednativeamericans.org does not resolve; no confirmed own site."
+K00908,A0111,manual_search,,2026-11-16,none,,"Searched twice; no Indivisible group for Wilmington CA found (results were Wilmington, Delaware or other LA groups)."
+K00909,A0395,manual_search,,2026-11-16,none,,"Searched three times; coalition appears only on members' sites (People's Lobby, Grassroots Collaborative, SEIU HCII); no own site found, guessed domain does not resolve."
+K00910,A0466,manual_search,,2026-11-16,none,,"Searched three times; only news coverage of the Oregon initiative coalition found, no own site."
+K00911,A0467,manual_search,https://or.aft.org/,2026-11-16,found,website,"Found via search 'AFT Oregon'; opened or.aft.org/about-us, title AFT-Oregon, Portland OR state affiliate; homepage address seen in search results."
+K00912,A0469,manual_search,https://seiu-oregon.org/,2026-11-16,found,website,"Found via search; opened seiu-oregon.org/about-the-seiu-oregon-state-council, title names SEIU Oregon State Council; homepage address seen in search results."
+K00913,A0470,manual_search,https://www.oregonafscme.org/,2026-11-16,found,website,"Found via search 'AFSCME Oregon Council 75' (listed by InfluenceWatch and afscmeatwork); opened the homepage, title 'Oregon AFSCME'."
+K00914,A0621,manual_search,https://seiu.org/,2026-11-16,found,website,"Found via search; opened seiu.org/about, title names the Service Employees International Union (SEIU); homepage address seen in search results."
+K00915,A0622,manual_search,https://www.aft.org/,2026-11-16,found,website,"Found via search; opened aft.org/about, title American Federation of Teachers; homepage address seen in search results."
+K00916,A0623,manual_search,https://aflcio.org,2026-11-16,found,website,"Own-domain guess aflcio.org; page fetch returned 403, but search results show aflcio.org/about and its privacy policy states the website is at aflcio.org"
+K00917,A0624,manual_search,https://www.afscme.org,2026-11-16,found,website,"Own-domain guess afscme.org, opened; header and footer carry the full name"
+K00918,A0625,manual_search,https://www.afge.org,2026-11-16,found,website,"Own-domain guess afge.org; page fetch returned 403, but search results show afge.org/about as the union's own site"
+K00919,A0631,manual_search,https://americansfortaxfairness.org,2026-11-16,found,website,"Own-domain guess, opened; title, heading and footer carry the name"
+K00920,A0634,manual_search,https://mainstreetalliance.org,2026-11-16,found,website,"Own-domain guess, opened; site title is Main Street Alliance, heading 'Real Power Lives on Main Street'"
+K00921,A0642,manual_search,,2026-11-16,none,,"takeonwallstreet.org redirected (301) to takeonwallst.com; opened, title and heading carry the name, and search results list the same domain as the campaign's site"
+K00922,A0643,manual_search,https://healthcareforamericanow.org,2026-11-16,found,website,"Own-domain guess, opened; header and footer carry the name"
+K00923,A0644,manual_search,https://indivisible.org,2026-11-16,found,website,"Own-domain guess, opened; site name Indivisible, footer Indivisible Project"
+K00924,A0645,manual_search,https://jwj.org,2026-11-16,found,website,"Own-domain guess jwj.org, opened; title carries the name"
+K00925,A0646,manual_search,https://networklobby.org,2026-11-16,found,website,"Own-domain guess, opened; title, heading and footer carry the full name"
+K00926,A0648,manual_search,https://voicesforprogress.org,2026-11-16,found,website,"Found via search listing the domain; opened it and confirmed title names Voices For Progress, a progressive advocacy network."
+K00927,A0649,manual_search,https://www.chn.org,2026-11-16,found,website,"Guessed acronym domain chn.org; opened it, title names Coalition on Human Needs and content is anti-poverty advocacy."
+K00928,A0653,manual_search,,2026-11-16,none,,"Guessed ourfuture.org; page is now run by People's Action (successor after CAF merged), not clearly Campaign for America's Future, so not returned."
+K00929,A0665,manual_search,https://seiuhcilin.org/,2026-11-16,found,website,"seiuhcil.org (guess) redirects 301 to seiuhcilin.org; opened it, SEIU Healthcare site (Illinois/Indiana)."
+K00930,A0666,manual_search,https://ccctu.org,2026-11-16,found,website,Found in search results (ccctu.org about/history pages name Cook County College Teachers Union Local 1600); homepage not opened directly.
+K00931,A0667,manual_search,https://www.seiu73.org,2026-11-16,found,website,"Guessed seiu73.org; opened it, title names SEIU Local 73 and Illinois."
+K00932,A0668,manual_search,https://www.ift-aft.org,2026-11-16,found,website,"Guessed ift-aft.org; opened it, title names Illinois Federation of Teachers."
+K00933,A0669,manual_search,https://ww4j.org/,2026-11-16,found,website,"Guessed warehouseworker.org which redirects to ww4j.org; opened it, site name Warehouse Workers for Justice."
+K00934,A0683,manual_search,,2026-11-16,none,,"Searched; no own page for the McClatchy California editorial board found (only sacbee.com opinion section, which could not be fetched)."
+K00935,A0717,manual_search,https://www.staterevenuealliance.org,2026-11-16,found,website,"Guessed domain from name; opened it, site name State Revenue Alliance, tax-fairness content."
+K00936,A0729,manual_search,https://www.aclusocal.org,2026-11-16,found,website,"Found in search; opened homepage, title and heading match, covers Southern California."
+K00937,A0730,manual_search,https://apenaction.org,2026-11-16,found,website,Linked from APEN's own site (apen4ej.org) menu as APEN Action; opened and heading matches.
+K00938,A0733,manual_search,https://transformca.org,2026-11-16,found,website,"Found in search results (transformca.org pages about Oakland transport/land-use group); opened homepage, heading matches."
+K00939,A0734,manual_search,,2026-11-16,none,,Two searches found only the national cpusa.org and archival records; no clearly California-specific own page.
+K00940,A0735,manual_search,https://www.lacdp.org,2026-11-16,found,website,Search result listed lacdp.org as official site; opened it and the site is the Los Angeles County Democratic Party.
+K00941,A0736,manual_search,,2026-11-16,none,,"Two searches and the 50501 national directory found no own LA site, only social/event listings."
+K00942,A0737,manual_search,https://www.montereycountynow.com/,2026-11-16,found,website,"montereycountyweekly.com redirects (301) to montereycountynow.com, which search results show as the Weekly's about page; homepage fetch blocked (HTTP 451) so title not read."
+K00943,A0738,manual_search,,2026-11-16,none,,"Found in search; opened homepage, Santa Rosa daily newspaper."
+K00944,A0746,manual_search,,2026-11-16,none,,"Two searches found no organisation by this exact name, only similarly named groups in other places."
+K00945,A0749,manual_search,https://adc.org,2026-11-16,found,website,"Found in search (adc.org/about); opened homepage, the American-Arab Anti-Discrimination Committee."
+K00946,A0750,manual_search,https://americanfamilyvoices.org,2026-11-16,found,website,"Guessed domain from name; opened it, footer says American Family Voices."
+K00947,A0751,manual_search,https://asbcouncil.org,2026-11-16,found,website,"Found in search results (asbcouncil.org/about); site now presents as American Sustainable Business Network; page itself fetch-failed on a certificate error, so identity rests on search results."
+K00948,A0752,manual_search,https://adaction.org,2026-11-16,found,website,"Guessed domain from acronym; opened it, footer and header say Americans for Democratic Action."
+K00949,A0753,manual_search,https://apalanet.org,2026-11-16,none,,"rejected https://apalanet.org: the page's title and headings do not carry the name; Guessed domain from acronym; opened it, footer says Asian Pacific American Labor Alliance."
+K00950,A0754,manual_search,https://www.bendthearc.us,2026-11-16,found,website,"Guessed domain from name; opened it, title and footer say Bend the Arc."
+K00951,A0755,manual_search,https://www.bluehaveninitiative.com,2026-11-16,found,website,"Found via search (Wikipedia infobox and result URLs); opened it, header brand Blue Haven Initiative, impact investing site."
+K00952,A0756,manual_search,https://ourbluefuture.us,2026-11-16,found,website,"Domain cited by InfluenceWatch for Blue Future; opened it, title Blue Future, footer Youth Progressive Action Catalyst (its parent PAC), matching the progressive youth organizing program."
+K00953,A0759,manual_search,https://www.centerforcommonground.org,2026-11-16,found,website,"Found via search (InfluenceWatch cites its pages); opened it, heading and footer say Center for Common Ground, a voting rights group."
+K00954,A0760,manual_search,https://lgbtq-economics.org,2026-11-16,found,website,"Found in search results; opened it, footer says Center for LGBTQ Economic Advancement & Research."
+K00955,A0764,manual_search,https://commondefense.us,2026-11-16,found,website,"Guessed domain from name; opened it, veterans movement, footer Common Defense."
+K00956,A0766,manual_search,https://sistersofthegoodshepherd.com,2026-11-16,found,website,"Found via search for the full name; opened the site, title carries the congregation name and the U.S. region (successor to the U.S. provinces)."
+K00957,A0769,manual_search,,2026-11-16,none,,Search showed economicsecurity.us as a possible site for ESP Action but I could not open it (tool limit); economicsecurityproject.org is the parent and does not mention the Action arm; left empty.
+K00958,A0770,manual_search,https://extendpua.org,2026-11-16,found,website,"Own guess from the name; opened it, it is the campaign site (now archived) titled ExtendPUA.org about extending Pandemic Unemployment Assistance."
+K00959,A0771,manual_search,,2026-11-16,none,,"Searched twice; only the parent network Family Values @ Work (familyvaluesatwork.org) is found, which does not mention the Action entity; left empty."
+K00960,A0772,manual_search,https://firstfocus.org,2026-11-16,found,website,"Own guess from the name; opened it, header branding reads First Focus on Children and footer describes the bipartisan children's advocacy group."
+K00961,A0774,manual_search,https://foe.org,2026-11-16,found,website,"page not read; Search results show foe.org/about-us and foe.org/contact for Friends of the Earth U.S.; direct fetch returned 403, so identity rests on the search results."
+K00962,A0776,manual_search,,2026-11-16,none,,Searched twice; Groundwork Action has no public site (per InfluenceWatch); groundworkcollaborative.org is the parent think tank and does not mention it; left empty.
+K00963,A0777,manual_search,https://healthcarevoter.org,2026-11-16,found,website,"Found via search for the name; result pages on healthcarevoter.org titled Health Care Voter (co-chairs, newsroom); fetch of the homepage was rate-limited so not opened directly."
+K00964,A0778,manual_search,https://hedgeclippers.org,2026-11-16,found,website,"Own guess from the name; opened it, site header reads Hedge Clippers (heading Rogues Gallery)."
+K00965,A0779,manual_search,https://www.housingworks.org,2026-11-16,found,website,"Own guess from the name; opened it, a New York City nonprofit for people with HIV/AIDS, named Housing Works."
+K00966,A0780,manual_search,https://www.icnacsj.org,2026-11-16,found,website,"Found via search (icna.org pages point to icnacsj.org); opened it, heading names ICNA Council for Social Justice."
+K00967,A0784,manual_search,https://www.ifpte.org,2026-11-16,found,website,"Found via search; opened it, footer names International Federation of Professional & Technical Engineers."
+K00968,A0785,manual_search,https://uaw.org,2026-11-16,found,website,"Found via search; opened it, header names the UAW full name."
+K00969,A0786,manual_search,,2026-11-16,none,,"Searched twice; only a similarly named 'Iron PAC' (ironpac.org per InfluenceWatch) surfaced, not opened (fetch rate-limited) and identity unconfirmed, so left empty."
+K00970,A0787,manual_search,https://oceanfutures.org,2026-11-16,found,website,"Found via search; opened it, page names Ocean Futures Society (Jean-Michel Cousteau is president per its about page)."
+K00971,A0789,manual_search,https://legalaidatwork.org,2026-11-16,found,website,"Found via search; opened it, heading names Legal Aid at Work, California."
+K00972,A0790,manual_search,https://omiusajpic.org,2026-11-16,none,,"rejected https://omiusajpic.org: the page's title and headings do not carry the name; Found via search; opened it, identifies as Missionary Oblates of Mary Immaculate, United States Province (JPIC office); main site omiusa.org could not be opened (fetch rate-limited)."
+K00973,A0791,manual_search,https://moveon.org,2026-11-16,found,website,"Found via search (Wikipedia infobox and moveon.org campaign pages); opening it returned a 301 redirect to front.moveon.org, whose page could not be fetched (rate-limited), so title not read."
+K00974,A0792,manual_search,https://www.gsadvocacy.org,2026-11-16,found,website,"Found via search; opened it, heading names National Advocacy Center of the Sisters of the Good Shepherd."
+K00975,A0793,manual_search,https://www.nafhe.org,2026-11-16,found,website,"Found via search (Idealist listing gives nafhe.org); opened it, heading names National Association for Hispanic Elderly / Asociacion Nacional Pro Personas Mayores."
+K00976,A0794,manual_search,https://naacp.org,2026-11-16,found,website,"Guessed obvious domain from acronym; opened it, title carries NAACP."
+K00977,A0797,manual_search,,2026-11-16,none,,Only the parent National LGBTQ Task Force site (thetaskforce.org) found; no separate Action Fund site confirmed (parent blocked fetch with 403).
+K00978,A0802,manual_search,https://presente.org,2026-11-16,found,website,"Guessed domain from the name; opened it, heading 'Advancing social justice with technology, media, and cultura'."
+K00979,A0804,manual_search,https://pdamerica.org,2026-11-16,found,website,"Guessed domain from acronym; opened it, title carries the full name."
+K00980,A0805,manual_search,https://prosperitynow.org,2026-11-16,found,website,"Guessed domain from the name; opened it, title carries the name."
+K00981,A0809,manual_search,https://www.southasiannetwork.org,2026-11-16,found,website,"Guessed domain from the name; opened it, page lists Artesia/Los Angeles, California offices."
+K00982,A0810,manual_search,https://strongforall.org/about/,2026-11-16,found,website,Seen in a search result (strongforall.org/about) described as the Strong Economy for All Coalition (New York); page not opened because fetch safety check was rate-limited.
+K00983,A0811,manual_search,,2026-11-16,none,,Guessed taxjustice.us returned no usable content; search was rate-limited (usage limit); nothing confirmed.
+K00984,A0812,manual_search,,2026-11-16,none,,"taxmarch.org (cited by InfluenceWatch) currently redirects to an unrelated spam site, so not returned."
+K00985,A0813,manual_search,https://weareultraviolet.org,2026-11-16,found,website,"Guessed domain from the name; opened it, title and heading are UltraViolet, 'Full Spectrum Feminism'."
+K00986,A0815,manual_search,,2026-11-16,none,,Not confirmed: guessed umc-gbcs.org fetch failed (socket closed); usage limit then stopped further searching.
+K00987,A0816,manual_search,https://www.ucc.org/what-we-do/justice-local-church-ministries/,2026-11-16,found,website,"Address was my own guess from the name; opened it and it is the UCC national unit page for justice and local church ministries on ucc.org (title as returned by the fetch summary, may be a paraphrase);"
+K00988,A0819,manual_search,,2026-11-16,none,,"One search only; results show several similarly named bodies (For Our Future PAC, Action Fund, Florida); could not open or confirm which is the signatory."
+K00989,A0820,manual_search,,2026-11-16,none,,"Guessed dsasd.org is the Deputy Sheriffs' Association, not DSA; correct chapter site not found before usage limit."
+K00990,A0821,manual_search,,2026-11-16,none,,sfdemocrats.org redirects to sfdems.org but the page could not be opened to confirm (rate-limited).
+K00991,A0822,manual_search,,2026-11-16,none,,Not confirmed: fetch of guessed fairshareamerica.org failed and usage limit stopped further searching.
+K00992,A0823,manual_search,,2026-11-16,none,,One search: 20/20 Vision National Project appears defunct with no current site found; others are namesakes.
+K00993,A0824,manual_search,,2026-11-16,none,,Guessed accountable.us could not be opened (rate-limited); not confirmed.
+K00994,A0825,manual_search,,2026-11-16,none,,actiontogethernepa.org suggested in a search summary but could not be opened (rate-limited); not confirmed.
+K00995,A0826,manual_search,,2026-11-16,none,,Searched once; only directories found; guessed advancingct.org could not be opened (rate-limited).
+K00996,A0827,manual_search,https://reclaimourschools.org,2026-11-16,found,website,"Found via search (domain given by CPD page and InfluenceWatch); opened, logo and text carry Alliance to Reclaim Our Schools."
+K00997,A0829,manual_search,https://balanceourtaxcode.com,2026-11-16,found,website,"Found via search for the coalition; opened, Washington state coalition named Balance Our Tax Code."
+K00998,A0831,manual_search,https://childrensfundingproject.org,2026-11-16,found,website,"Found via search (directory and Mott Foundation listing); opened, site is Children's Funding Project."
+K00999,A0832,manual_search,https://citizenactionny.org,2026-11-16,found,website,Found in search results (citizenactionny.org/our-history and /member pages for Citizen Action of New York); homepage returned 403 when opened so title not read.
+K01000,A0833,manual_search,https://citizenaction-il.org,2026-11-16,found,website,"Found via search ('Who We Are' page); opened homepage, Chicago-based Citizen Action/Illinois progressive coalition."
+K01001,A0834,manual_search,https://www.ccwro.org,2026-11-16,found,website,"Found in search results (ccwro.org pages, probono.net listing gives ccwro.org for Coalition of California Welfare Rights Organizations, Sacramento); opened page returned 403 so title not read."
+K01002,A0835,manual_search,https://democracymatters.org,2026-11-16,found,website,"Found via search (directory listings); opened, national nonpartisan student organization Democracy Matters."
+K01003,A0837,manual_search,https://economicsecurity.us/ca/,2026-11-16,found,website,"Found via search; opened, page names Economic Security California Action; it is a section of the parent's site, clearly theirs."
+K01004,A0839,manual_search,,2026-11-16,none,,"Two searches found only directory and People's Action pages; own domain not seen, a guessed domain could not be checked (rate-limited)."
+K01005,A0840,manual_search,https://goldenstateopportunity.org,2026-11-16,found,website,"Domain seen in a California FTB document in search results (contact email domain); opened, page headed Golden State Opportunity with Our Impact section."
+K01006,A0841,manual_search,https://honestarizona.squarespace.com,2026-11-16,found,website,"Search result for 'Honest Arizona official website'; page described itself as the Honest Arizona coalition; page not opened (fetch rate-limited). honestarizona.org seen only as Substack bio hint, not"
+K01007,A0842,manual_search,https://inequality.org/,2026-11-16,found,website,"First search result for the name; own domain, about page says project of Institute for Policy Studies; homepage not opened (fetch rate-limited)."
+K01008,A0843,manual_search,,2026-11-16,none,,Only an Indivisible event page and Blue Voter Guide listing found; no own site seen; second search limit reached.
+K01009,A0844,manual_search,https://www.investwanow.org/,2026-11-16,found,website,"Search results showed investwanow.org pages (press releases, petition PDF) of Invest in Washington Now, Seattle; homepage not opened (fetch rate-limited)."
+K01010,A0846,manual_search,https://maketheroadnv.org/,2026-11-16,found,website,"Search results listed maketheroadnv.org pages (about, issues, impact) for Make the Road Nevada, Las Vegas/Reno; homepage not opened (fetch rate-limited)."
+K01011,A0847,manual_search,,2026-11-16,none,,Only directory/third-party results; mentalhealthpartnerships.org was mentioned in a summary but not seen in a result or opened; left empty.
+K01012,A0848,manual_search,,2026-11-16,none,,"Only news and the national NCBCP site found, which is a different body; no own site seen."
+K01013,A0850,manual_search,,2026-11-16,none,,"nebraskaforus.org suggested only in a summary, not seen in a result or opened; left empty."
+K01014,A0851,manual_search,,2026-11-16,none,,Only Idealist and filing aggregators found; no own site seen.
+K01015,A0852,manual_search,,2026-11-16,none,,"ncbudget.org suggested only in a summary, not seen in a result or opened; left empty."
+K01016,A0853,manual_search,,2026-11-16,none,,"Searched twice; only the City of Oakland's youth employment programme of the same name turned up, not a coalition signatory; no own site found."
+K01017,A0855,manual_search,,2026-11-16,none,,"Candidate opportunityarizona.org named in search summaries (InfluenceWatch, Impala) but not seen as a result address and could not be opened (WebFetch rate-limited); left empty."
+K01018,A0856,manual_search,,2026-11-16,none,,"Candidate pennpolicy.org named in search summaries (InfluenceWatch, Idealist) but not seen as a result address and could not be opened (WebFetch rate-limited); left empty."
+K01019,A0857,manual_search,https://progressiowa.org/,2026-11-16,found,website,"Found by searching the name; homepage and /about/ ('About Progress Iowa', Des Moines advocacy group) appeared in results; page itself could not be opened (WebFetch rate-limited), identity from result"
+K01020,A0858,manual_search,,2026-11-16,none,,"Searched; only aggregator profiles (Kansas City 501c3, EIN 86-3880206) found; progressmo.org not seen in results and could not be opened; left empty."
+K01021,A0859,manual_search,,2026-11-16,none,,Searched; only directory/Zeffy listings found; swecwa.org suggested in a summary but not seen as a result address nor opened; left empty.
+K01022,A0860,manual_search,https://thecommonwealthinstitute.org/,2026-11-16,found,website,Found by searching the full name plus Virginia; the thecommonwealthinstitute.org domain appeared repeatedly with the Institute's own reports on Virginia fiscal policy; homepage not opened (WebFetch ra
+K01023,A0861,manual_search,https://www.thericksmithshow.com,2026-11-16,found,website,Found by searching the name; the show's own podcast feed pages (thericksmithshow.podbean.com) tell listeners to download at this address; homepage not opened (WebFetch rate-limited).
+K01024,A0862,manual_search,,2026-11-16,none,,Candidate uusj.org named in a GuideStar-based summary but not seen as a result address and could not be opened (WebFetch rate-limited); left empty.
+K01025,A0863,manual_search,,2026-11-16,none,,Candidate wpsr.org named in Idealist/GuideStar summaries but not seen as a result address and could not be opened (WebFetch rate-limited); left empty.
+K01026,A0864,manual_search,,2026-11-16,none,,"Searched once; only indivisible.org event pages and a voter guide found, no own site seen. Fetch and further searches blocked (rate limits)."
+K01027,A0865,manual_search,https://indivisiblegeorgiacoalition.org,2026-11-16,found,website,"Domain named in a search summary for the exact name; page NOT opened (WebFetch safety check rate-limited, then search quota hit), so identity unconfirmed. Needs verification."
+K01028,A0866,manual_search,,2026-11-16,none,,"Searched once; only Eventbrite and a voter guide found (group appears as Grant County Indivisible), no own site seen."
+K01029,A0867,manual_search,,2026-11-16,none,,"Searched once; only an old blogspot (indivisible-st-johns.blogspot.com, last active about 2021, not opened) and news items; not returned as unconfirmed and possibly stale."
+K01030,A0868,manual_search,,2026-11-16,none,,Searched once; no own site seen (formerly Oshkosh Tuesday Rally Group per search summary).
+K01031,A0869,manual_search,,2026-11-16,none,,Searched once; nothing relevant found.
+K01032,A0870,manual_search,https://nowseattle.org,2026-11-16,found,website,"Search summary for the exact name gave nowseattle.org as the chapter's site (also squarespace staging pages in results); page NOT opened (fetch rate-limited), so identity unconfirmed. Needs verificati"
+K01033,A0880,manual_search,,2026-11-16,none,,"Searched once; only ilwu.org (international union) directory found, not returned. Own site (possibly ilwu10.org) could not be confirmed."
+K01034,A0881,manual_search,,2026-11-16,none,,"Searched once; only third-party profiles (InfluenceWatch) found, no own site seen."
+K01035,A0883,manual_search,https://causenow.org,2026-11-16,found,website,"Search summary for the exact name named causenow.org as the official site; page NOT opened (fetch rate-limited), so identity unconfirmed. Needs verification."
+K01036,A0043,manual_search,https://www.californiadsa.org/,2026-11-16,none,,"rejected https://www.californiadsa.org/: the page's title and headings do not carry the name; Found via search; page 'What is California DSA?' describes the statewide DSA formation in California, matching the entry."
+K01037,A0753,manual_search,https://apalanet.org,2026-11-16,none,,"rejected https://apalanet.org: the page's title and headings do not carry the name; Guessed domain from acronym; opened it, footer says Asian Pacific American Labor Alliance."
+K01038,A0790,manual_search,https://omiusajpic.org,2026-11-16,none,,"rejected https://omiusajpic.org: the page's title and headings do not carry the name; Found via search; opened it, identifies as Missionary Oblates of Mary Immaculate, United States Province (JPIC office); main site omiusa.org could not be opened (fetch rate-limited)."
+K01039,A0778,own_site,https://hedgeclippers.org,2026-11-16,found,x,
+K01040,A0737,own_site,https://www.montereycountynow.com/,2026-11-16,error,,451 at https://www.montereycountynow.com/
+K01041,A0756,own_site,https://ourbluefuture.us,2026-11-16,none,,
+K01042,A0645,own_site,https://jwj.org,2026-11-16,blocked,,403 at https://jwj.org
+K01043,A0837,own_site,https://economicsecurity.us/ca/,2026-11-16,found,x;linkedin;bluesky,
+K01044,A0730,own_site,https://apenaction.org,2026-11-16,found,instagram;facebook;x,"CHECK no added handle carries the name: the site may host several groups, or belong to a parent."
+K01045,A0109,own_site,https://united4respect.org/,2026-11-16,found,facebook;x;instagram;youtube,
+K01046,A0840,own_site,https://goldenstateopportunity.org,2026-11-16,found,facebook;x;instagram;youtube,
+K01047,A0076,own_site,https://thevillagesdemocraticclub.wildapricot.org,2026-11-16,found,facebook;youtube;instagram,not added: youtube https://www.youtube.com/channel/UC2H5fvVmPzxiMXyXw10RSVw (social-block); x https://x.com/wildapricot (social-block); bluesky https://bsky.app/profile/villagesdemclubfl.bsky.social ()
+K01048,A0085,own_site,https://blackwomenrevolt.org,2026-11-16,found,instagram;facebook;linkedin,
+K01049,A0813,own_site,https://weareultraviolet.org,2026-11-16,found,facebook;instagram;youtube;linkedin;bluesky;x,
+K01050,A0766,own_site,https://sistersofthegoodshepherd.com,2026-11-16,found,facebook,
+K01051,A0066,own_site,https://www.RootsAction.org/,2026-11-16,none,,not added: bluesky https://bsky.app/profile/rootsaction.org (); facebook https://www.facebook.com/RootsAction (); x https://x.com/Roots_Action (); instagram https://www.instagram.com/roots_action/ (); youtube https://www.youtube.com/user/rootsaction (); tiktok https://www.tiktok.com/@roots_action ()
+K01052,A0034,own_site,https://www.middleclasstaxpayers.org,2026-11-16,none,,
+K01053,A0068,own_site,https://www.sdyoungdems.com/,2026-11-16,found,instagram;facebook;x,
+K01054,A0624,own_site,https://www.afscme.org,2026-11-16,found,facebook;x;youtube;instagram,"CHECK no added handle carries the name: the site may host several groups, or belong to a parent."
+K01055,A0831,own_site,https://childrensfundingproject.org,2026-11-16,found,linkedin;youtube,
+K01056,A0772,own_site,https://firstfocus.org,2026-11-16,found,facebook;x;instagram;linkedin;youtube;tiktok,
+K01057,A0092,own_site,https://www.foreveroakland.org,2026-11-16,found,facebook;instagram;x;youtube,
+K01058,A0809,own_site,https://www.southasiannetwork.org,2026-11-16,found,facebook;x;youtube;instagram,
+K01059,A0087,own_site,https://calulac.org,2026-11-16,found,facebook;instagram;youtube,"CHECK no added handle carries the name: the site may host several groups, or belong to a parent."
+K01060,A0072,own_site,https://www.solanodemocrats.com/,2026-11-16,found,facebook;x;instagram;bluesky,not added: facebook https://www.facebook.com/204775516231613 ()
+K01061,A0735,own_site,https://www.lacdp.org,2026-11-16,found,instagram,"CHECK no added handle carries the name: the site may host several groups, or belong to a parent."
+K01062,A0792,own_site,https://www.gsadvocacy.org,2026-11-16,found,instagram;facebook;x,not added: facebook https://www.facebook.com/pages/Interfaith-Criminal-Justice-Coalition/202473829795040 (social-block)
+K01063,A0467,own_site,https://or.aft.org/,2026-11-16,found,bluesky,not added: facebook https://www.facebook.com/aftoregon (); instagram https://www.instagram.com/aft_oregon/ ()
+K01064,A0755,own_site,https://www.bluehaveninitiative.com,2026-11-16,blocked,,200 at https://www.bluehaveninitiative.com
+K01065,A0648,own_site,https://voicesforprogress.org,2026-11-16,found,bluesky;linkedin,
+K01066,A0865,own_site,https://indivisiblegeorgiacoalition.org,2026-11-16,blocked,,403 at https://indivisiblegeorgiacoalition.org
+K01067,A0780,own_site,https://www.icnacsj.org,2026-11-16,found,x;facebook;instagram;youtube;linkedin,
+K01068,A0785,own_site,https://uaw.org,2026-11-16,found,youtube;facebook;instagram;tiktok;x;linkedin,
+K01069,A0634,own_site,https://mainstreetalliance.org,2026-11-16,found,instagram;x;facebook;tiktok;linkedin,
+K01070,A0649,own_site,https://www.chn.org,2026-11-16,found,facebook;x;instagram;youtube,not added: x https://x.com/CoalitionHN (meta); linkedin https://www.linkedin.com/in/josephbattistelli (); linkedin https://www.linkedin.com/in/dominique-espinoza-a50064128 (); linkedin https://www.linkedin.com/in/leonguyenloc (); linkedin https://www.linkedin.com/in/rebecca-vucic (); linkedin https://www.linke
+K01071,A0622,own_site,https://www.aft.org/,2026-11-16,found,instagram;facebook;bluesky;linkedin,"CHECK no added handle carries the name: the site may host several groups, or belong to a parent.; not added: youtube https://www.youtube.com/channel/UCdaoJ8gUQ12aLC5kZFwUbRQ (chrome,social-block); youtube https://www.youtube.com/user/AFTHQ (chrome,social-block); x https://x.com/aftunion (meta)"
+K01072,A0729,own_site,https://www.aclusocal.org,2026-11-16,found,facebook;youtube;instagram,
+K01073,A0777,own_site,https://healthcarevoter.org,2026-11-16,none,,
+K01074,A0086,own_site,https://www.cablackhealthnetwork.org,2026-11-16,error,,"URLError: <urlopen error (""The certificate's CN name does not match the passed value."",)>"
+K01075,A0860,own_site,https://thecommonwealthinstitute.org/,2026-11-16,found,facebook;instagram;x,
+K01076,A0644,own_site,https://indivisible.org,2026-11-16,found,bluesky;facebook;instagram;mastodon;youtube,
+K01077,A0846,own_site,https://maketheroadnv.org/,2026-11-16,found,instagram;facebook;youtube;tiktok,
+K01078,A0098,own_site,https://www.mifamiliaenaccion.org/,2026-11-16,found,instagram;facebook,
+K01079,A0827,own_site,https://reclaimourschools.org,2026-11-16,found,facebook;x,
+K01080,A0717,own_site,https://www.staterevenuealliance.org,2026-11-16,none,,
+K01081,A0750,own_site,https://americanfamilyvoices.org,2026-11-16,found,facebook;x;youtube,
+K01082,A0733,own_site,https://transformca.org,2026-11-16,found,facebook;instagram;x;linkedin;youtube;bluesky,
+K01083,A0870,own_site,https://nowseattle.org,2026-11-16,found,facebook;instagram,
+K01084,A0102,own_site,https://www.pjcsoco.org,2026-11-16,found,bluesky;facebook;youtube,
+K01085,A0759,own_site,https://www.centerforcommonground.org,2026-11-16,found,facebook;bluesky;instagram;youtube,
+K01086,A0625,own_site,https://www.afge.org,2026-11-16,found,x,"CHECK no added handle carries the name: the site may host several groups, or belong to a parent.; not added: facebook https://www.facebook.com/afgeunion (); instagram https://www.instagram.com/afgeunion/ (); linkedin https://www.linkedin.com/company/afge ()"
+K01087,A0060,own_site,https://www.lagunawoodsdemocrats.org/,2026-11-16,found,facebook;bluesky,
+K01088,A0623,own_site,https://aflcio.org,2026-11-16,found,bluesky;instagram;tiktok;facebook;x,"CHECK no added handle carries the name: the site may host several groups, or belong to a parent."
+K01089,A0791,own_site,https://moveon.org,2026-11-16,found,bluesky;instagram;youtube;facebook;x,
+K01090,A0081,own_site,https://www.wellstoneclub.org/,2026-11-16,found,facebook;instagram,
+K01091,A0621,own_site,https://seiu.org/,2026-11-16,found,bluesky;facebook;instagram;tiktok;x,"CHECK no added handle carries the name: the site may host several groups, or belong to a parent.; not added: bluesky https://bsky.app/profile/did:plc:ubsb5vwrwlqrl6bpfsamp6fb (social-block); facebook https://www.facebook.com/aprildverrett (social-block); facebook https://www.facebook.com/neal.bisno (social-block); instagram https://www.instagram.com/SEIUPres/ (social-block); x https://x.com/SEIUPr"
+K01092,A0752,own_site,https://adaction.org,2026-11-16,found,facebook;instagram;youtube;x;tiktok,
+K01093,A0751,own_site,https://asbcouncil.org,2026-11-16,error,,"URLError: <urlopen error (""The certificate's CN name does not match the passed value."",)>"
+K01094,A0844,own_site,https://www.investwanow.org/,2026-11-16,found,facebook;bluesky;instagram;linkedin;tiktok,
+K01095,A0669,own_site,https://ww4j.org/,2026-11-16,found,facebook;x;instagram,
+K01096,A0829,own_site,https://balanceourtaxcode.com,2026-11-16,none,,
+K01097,A0802,own_site,https://presente.org,2026-11-16,found,facebook;x;instagram,not added: x https://x.com/NelsonVision (social-block); x https://x.com/nancirulia (social-block); x https://x.com/favianna (social-block); linkedin https://www.linkedin.com/in/matt-nelson-444bb1b8 (social-block); linkedin https://www.linkedin.com/in/erickgarciax (social-block)
+K01098,A0789,own_site,https://legalaidatwork.org,2026-11-16,found,x;linkedin;youtube;facebook;instagram;bluesky,
+K01099,A0749,own_site,https://adc.org,2026-11-16,found,x;instagram;youtube;facebook,"CHECK no added handle carries the name: the site may host several groups, or belong to a parent."
+K01100,A0764,own_site,https://commondefense.us,2026-11-16,found,youtube;x;instagram,"not added: facebook https://www.facebook.com/commondefense.us (chrome,social-block); facebook https://www.facebook.com/commondefensepac (chrome,social-block)"
+K01101,A0833,own_site,https://citizenaction-il.org,2026-11-16,found,instagram;facebook;x;tiktok,
+K01102,A0668,own_site,https://www.ift-aft.org,2026-11-16,found,facebook;x;instagram;youtube,"CHECK no added handle carries the name: the site may host several groups, or belong to a parent. 429 at https://www.ift-aft.org/about 429 at https://www.ift-aft.org/contact"
+K01103,A0036,own_site,https://www.responsiblewealth.org/,2026-11-16,found,facebook,"not added: facebook https://www.facebook.com/faireconomy (chrome,social-block); instagram https://www.instagram.com/faireconomy/ (chrome,social-block)"
+K01104,A0787,own_site,https://oceanfutures.org,2026-11-16,found,x;facebook;youtube,
+K01105,A0646,own_site,https://networklobby.org,2026-11-16,found,facebook;x;youtube;instagram,not added: bluesky https://bsky.app/profile/networklobby.bsky.social ()
+K01106,A0770,own_site,https://extendpua.org,2026-11-16,found,instagram;x;facebook,not added: instagram https://www.instagram.com/instastephpf/ (social-block); youtube https://www.youtube.com/channel/UCQVt2IOamu90NuvEmgtippg (social-block); substack https://stephpf.substack.com (); linkedin https://www.linkedin.com/in/stephanie-p-freed-4548a516 (social-block)
+K01107,A0666,own_site,https://ccctu.org,2026-11-16,found,instagram;facebook;x,
+K01108,A0784,own_site,https://www.ifpte.org,2026-11-16,found,facebook;bluesky,"CHECK no added handle carries the name: the site may host several groups, or belong to a parent."
+K01109,A0105,own_site,https://www.sirenimmigrantrights.org/,2026-11-16,none,,not added: instagram https://www.instagram.com/siren_immigrantrights/ (); x https://x.com/SIRENImmiRights (); facebook https://www.facebook.com/sirenimmigrantrights (); youtube https://www.youtube.com/@SIREN1425 (); bluesky https://bsky.app/profile/sirenimmigration.bsky.social ()
+K01110,A0832,own_site,https://citizenactionny.org,2026-11-16,blocked,,403 at https://citizenactionny.org
+K01111,A0842,own_site,https://inequality.org/,2026-11-16,found,facebook;x;bluesky,
+K01112,A0834,own_site,https://www.ccwro.org,2026-11-16,blocked,,403 at https://www.ccwro.org
+K01113,A0469,own_site,https://seiu-oregon.org/,2026-11-16,none,,
+K01114,A0857,own_site,https://progressiowa.org/,2026-11-16,found,facebook;instagram;tiktok;youtube;bluesky;x,
+K01115,A0631,own_site,https://americansfortaxfairness.org,2026-11-16,found,x;facebook;instagram;tiktok;substack,
+K01116,A0805,own_site,https://prosperitynow.org,2026-11-16,found,facebook;instagram;linkedin;x;youtube;tiktok,
+K01117,A0667,own_site,https://www.seiu73.org,2026-11-16,found,facebook;x;instagram;tiktok;bluesky,
+K01118,A0883,own_site,https://causenow.org,2026-11-16,found,facebook;instagram,"CHECK no added handle carries the name: the site may host several groups, or belong to a parent."
+K01119,A0861,own_site,https://www.thericksmithshow.com,2026-11-16,blocked,,403 at https://www.thericksmithshow.com
+K01120,A0099,own_site,https://www.organizesacramento.org,2026-11-16,found,facebook;x,
+K01121,A0774,own_site,https://foe.org,2026-11-16,blocked,,403 at https://foe.org
+K01122,A0091,own_site,https://www.edenareaindivisible.org,2026-11-16,blocked,,403 at https://www.edenareaindivisible.org
+K01123,A0058,own_site,https://www.incomemovement.org/,2026-11-16,found,x;instagram;facebook,
+K01124,A0804,own_site,https://pdamerica.org,2026-11-16,found,facebook;x;bluesky,
+K01125,A0794,own_site,https://naacp.org,2026-11-16,found,x;facebook;instagram;youtube,"CHECK no added handle carries the name: the site may host several groups, or belong to a parent."
+K01126,A0470,own_site,https://www.oregonafscme.org/,2026-11-16,found,facebook;instagram,
+K01127,A0089,own_site,https://chispalcv.org/,2026-11-16,found,facebook;instagram;x,
+K01128,A0760,own_site,https://lgbtq-economics.org,2026-11-16,none,,
+K01129,A0100,own_site,https://www.orale.org,2026-11-16,found,facebook;instagram;linkedin;tiktok,"CHECK no added handle carries the name: the site may host several groups, or belong to a parent."
+K01130,A0779,own_site,https://www.housingworks.org,2026-11-16,found,facebook;x;instagram,
+K01131,A0754,own_site,https://www.bendthearc.us,2026-11-16,found,x;instagram;bluesky;tiktok,"not added: facebook https://www.facebook.com/240290369507552 (chrome,social-block); facebook https://www.facebook.com/jewishaction.us (chrome,social-block)"
+K01132,A0643,own_site,https://healthcareforamericanow.org,2026-11-16,found,x;facebook;instagram,
+K01133,A0793,own_site,https://www.nafhe.org,2026-11-16,none,,
+K01134,A0810,own_site,https://strongforall.org/about/,2026-11-16,found,facebook;x,
+K01135,A0094,own_site,https://www.ic4ij.org,2026-11-16,blocked,,403 at https://www.ic4ij.org
+K01136,A0816,own_site,https://www.ucc.org/what-we-do/justice-local-church-ministries/,2026-11-16,found,instagram;facebook;x;bluesky;tiktok,"not added: linkedin https://www.linkedin.com/company/2710235 (chrome,social-block)"
+K01137,A0665,own_site,https://seiuhcilin.org/,2026-11-16,found,instagram;tiktok;x;youtube,"not added: facebook https://www.facebook.com/SEIUHCII (chrome,social-block); facebook https://www.facebook.com/WeAreChildCareIllinois (chrome); facebook https://www.facebook.com/SEIUHealthcareMO (chrome)"
+K01138,A0841,own_site,https://honestarizona.squarespace.com,2026-11-16,found,substack;facebook;x;instagram,
+K01139,A0835,own_site,https://democracymatters.org,2026-11-16,none,,
+K01140,A0023,own_site,https://www.seiu-uhw.org,2026-11-16,found,facebook;x;youtube;instagram;linkedin;tiktok,
+K01141,A0815,manual_search,https://www.umcjustice.org,2026-11-16,found,website,"Domain seen in search results; opened it, footer reads General Board of Church and Society of The United Methodist Church."
+K01142,A0819,manual_search,,2026-11-16,none,,"Several similarly named entities (For Our Future PAC at forourfuturepac.org, Action Fund); could not tell which signed the coalition letter."
+K01143,A0820,manual_search,https://dsasandiego.org/,2026-11-16,found,website,"First result of search for the chapter; opened, heading Democratic Socialists of America San Diego."
+K01144,A0821,manual_search,https://www.sfdems.org/,2026-11-16,found,website,"Found sfdemocrats.org in search; it redirects (301) to sfdems.org, opened, heading San Francisco Democratic Party."
+K01145,A0822,manual_search,,2026-11-16,none,,Searches found only a Substack newsletter and no confirmed own domain; my guessed fairshareamerica.com returned nothing.
+K01146,A0823,manual_search,,2026-11-16,none,,Searched twice; only a defunct 1986 national group (archived only) and an unrelated Port Townsend WA group (Local 20/20) found; identity not confirmable.
+K01147,A0824,manual_search,https://accountable.us/,2026-11-16,found,website,"Search result showed accountable.us/about/our-board-and-leadership (Who We Are) for Accountable.US; homepage fetch failed on SSL, homepage address derived from that result. Accountable.NOW name not se"
+K01148,A0825,manual_search,https://actiontogethernepa.org,2026-11-16,found,website,"Domain given by nonprofit directory listing (Mountain Top PA); opened it and it describes Action Together NEPA, a 501(c)(4) in northeastern Pennsylvania."
+K01149,A0826,manual_search,https://act-ct.org,2026-11-16,found,website,"Domain seen in a search result mirror, opened it: title Advancing CT Together, Hartford-based, Advancing Connecticut Together (ACT)."
+K01150,A0843,manual_search,,2026-11-16,none,,Two searches found only Indivisible event listings and Blue Voter Guide endorser page; no own site seen.
+K01151,A0847,manual_search,https://mentalhealthpartnerships.org/,2026-11-16,found,website,"mhphope.org (from VoterVoice campaign page MHPHOPE, Philadelphia nonprofit) 301-redirects to mentalhealthpartnerships.org; page itself returned 403 so title not read; Philadelphia identity from listin"
+K01152,A0848,manual_search,,2026-11-16,none,,"Two searches found only press coverage, National Civic League listing and national NCBCP site (parent); no own site seen."
+K01153,A0850,manual_search,https://www.nebraskaforus.org,2026-11-16,found,website,"Domain from search result (InfluenceWatch cites it); opened it and the page is Nebraska For Us, federal policy impact on Nebraskans."
+K01154,A0851,manual_search,,2026-11-16,none,,Two searches found only nonprofit directories and news; newdaynevada.org does not resolve (own guess); no own site confirmed.
+K01155,A0852,manual_search,https://ncbudget.org,2026-11-16,found,website,"Domain NCBudget.org from search results and directory listings; opened it, title Home - NC Budget & Tax Center."
+K01156,A0853,manual_search,,2026-11-16,none,,"Two searches; only the City of Oakland youth jobs program of the same name found, which is not the coalition signatory; identity unclear."
+K01157,A0855,manual_search,https://opportunityarizona.org/,2026-11-16,found,website,"Found via search (directory listings gave opportunityarizona.org); opened it, title and footer name Opportunity Arizona."
+K01158,A0856,manual_search,https://pennpolicy.org/,2026-11-16,found,website,"Found via search listings naming pennpolicy.org; opened it, heading and footer say Pennsylvania Policy Center."
+K01159,A0858,manual_search,,2026-11-16,none,,"Searched twice; no own site found for the Education Fund; progressmo.org (parent Progress MO) had an expired certificate and could not be confirmed, and is a different entity."
+K01160,A0859,manual_search,https://swecwa.org/,2026-11-16,found,website,"Found via Idealist listing giving swecwa.org; opened it, site name and footer say Southwest Washington Equity Coalition."
+K01161,A0862,manual_search,https://uusj.net/wp1,2026-11-16,found,website,"GuideStar listing gave uusj.org, which redirects (301) to uusj.net; opened it, title and heading name the organisation."
+K01162,A0863,manual_search,https://www.wpsr.org/,2026-11-16,found,website,"Found via GuideStar/Idealist listings giving wpsr.org; opened it, heading and footer name Washington Physicians for Social Responsibility."
+K01163,A0864,manual_search,,2026-11-16,none,,"Two searches; only indivisible.org event pages and Blue Voter Guide (403 blocked) found, no own site confirmed."
+K01164,A0866,manual_search,,2026-11-16,none,,"Two searches; only an Eventbrite organiser page and Blue Voter Guide (403) found, no own site confirmed."
+K01165,A0867,manual_search,,2026-11-16,none,,"Searched twice; the old blogspot address opened is titled 'UNMasking DeSantis' and was last updated 2023, so not confirmed as the group's site."
+K01166,A0868,manual_search,,2026-11-16,none,,Two searches found only indivisible.org event listings and news; no own site found.
+K01167,A0869,manual_search,,2026-11-16,none,,Two searches found no page for this group; only LWV Rome-Floyd and local government results.
+K01168,A0880,manual_search,,2026-11-16,none,,Searches found only the ILWU international and Coast Longshore pages; the ILWU local directory lists no site for Local 10; guesses ilwu10.org/.com do not resolve.
+K01169,A0881,manual_search,https://labortoday.international,2026-11-16,found,website,"Found in search (InfluenceWatch names labortoday.international); opened it: Los Angeles-based Labor Today International, WFTU-linked."
+K01170,A0825,own_site,https://actiontogethernepa.org,2026-11-16,found,facebook;bluesky;instagram;youtube;tiktok;linkedin,
+K01171,A0824,own_site,https://accountable.us/,2026-11-16,error,,URLError: <urlopen error [SSL: SSLV3_ALERT_HANDSHAKE_FAILURE] sslv3 alert handshake failur
+K01172,A0847,own_site,https://mentalhealthpartnerships.org/,2026-11-16,found,facebook;instagram;youtube;linkedin;x,not added: linkedin https://www.linkedin.com/in/irene-hurford-18506445 (); linkedin https://www.linkedin.com/in/jake-bowling-bb320629 (); linkedin https://www.linkedin.com/in/perrykaplan (); linkedin https://www.linkedin.com/in/lisakubisiak (); linkedin https://www.linkedin.com/in/mark-lenker-8a96237 (); linke
+K01173,A0855,own_site,https://opportunityarizona.org/,2026-11-16,found,instagram;facebook;bluesky;youtube;x,
+K01174,A0863,own_site,https://www.wpsr.org/,2026-11-16,found,instagram;linkedin;facebook;bluesky,
+K01175,A0821,own_site,https://www.sfdems.org/,2026-11-16,none,,"not added: facebook https://www.facebook.com/SFDemocrats (chrome,social-block); x https://x.com/sfdemocrats (chrome,social-block); instagram https://www.instagram.com/sfdemocrats/ (chrome,social-block); linkedin https://www.linkedin.com/company/19038887 (chrome,social-block); bluesky https://bsky.app/profile/s"
+K01176,A0862,own_site,https://uusj.net/wp1,2026-11-16,none,,"not added: facebook https://www.facebook.com/uusjdc (chrome,social-block); x https://x.com/UUSJ (chrome,social-block); youtube https://www.youtube.com/c/CynUUSJ (chrome,social-block); youtube https://www.youtube.com/channel/UCUzZKFhrlIVwc87LidsR4LQ (chrome,social-block)"
+K01177,A0881,own_site,https://labortoday.international,2026-11-16,found,facebook;x,
+K01178,A0815,own_site,https://www.umcjustice.org,2026-11-16,found,facebook;instagram;youtube;x,"CHECK no added handle carries the name: the site may host several groups, or belong to a parent."
+K01179,A0859,own_site,https://swecwa.org/,2026-11-16,found,facebook;instagram,"CHECK no added handle carries the name: the site may host several groups, or belong to a parent."
+K01180,A0850,own_site,https://www.nebraskaforus.org,2026-11-16,found,facebook;x,
+K01181,A0856,own_site,https://pennpolicy.org/,2026-11-16,found,x;bluesky;facebook;youtube;instagram,not added: x https://x.com/fractweets ()
+K01182,A0852,own_site,https://ncbudget.org,2026-11-16,found,x;facebook;instagram;linkedin;youtube,
+K01183,A0820,own_site,https://dsasandiego.org/,2026-11-16,found,instagram;tiktok;bluesky;youtube,
+K01184,A0826,own_site,https://act-ct.org,2026-11-16,found,facebook;x;instagram,

@@ -63,3 +63,18 @@ P00061,A0010,x,https://x.com/cheldiokno,linked from https://cheldiokno.com,2026-
 P00062,A0035,website,https://angmasa.org,"web search: Opened; Ang Masa, the online platform of Partido Lakas ng Masa.",2026-11-16
 P00063,A0035,facebook,https://www.facebook.com/AngMasaPLM,linked from https://angmasa.org/contact/,2026-11-16
 P00064,A0035,x,https://x.com/lakasngmasa,linked from https://angmasa.org/contact/,2026-11-16
+P00065,A0006,website,https://oxfam.org.ph/,"web search: Found via search; opened the page, title names Oxfam Pilipinas.",2026-11-16
+P00066,A0016,website,https://learn.org.ph/,"web search: Found via search; opened the page, site name is Labor Education and Research Network, Philippine labour content.",2026-11-16
+P00067,A0019,website,https://apmdd.org/,web search: Obvious domain from the acronym (my own guess); opened it and the title and heading name APMDD.,2026-11-16
+P00068,A0029,website,https://www.nagkaisa.org/,"web search: Found via search for nagkaisa.org; search result title and About/Contact pages (TUCP compound, Quezon City) match the coalition; page not opened (fetch rate-limited).",2026-11-16
+P00069,A0031,website,https://www.akbayan.org.ph/,web search: Found via search restricted to akbayan.org.ph; result title and constitution/our-story pages match Akbayan Citizens' Action Party; page not opened (fetch rate-limited).,2026-11-16
+P00070,A0006,facebook,https://www.facebook.com/OxfamPilipinas,linked from https://oxfam.org.ph/,2026-11-16
+P00071,A0006,bluesky,https://bsky.app/profile/oxfam.org.ph ,linked from https://oxfam.org.ph/,2026-11-16
+P00072,A0006,tiktok,https://www.tiktok.com/@oxfamph,linked from https://oxfam.org.ph/,2026-11-16
+P00073,A0019,facebook,https://www.facebook.com/apmdd,linked from https://apmdd.org/,2026-11-16
+P00074,A0019,x,https://x.com/asianpeoplesmvt,linked from https://apmdd.org/,2026-11-16
+P00075,A0019,instagram,https://www.instagram.com/asianpeoplesmvt/,linked from https://apmdd.org/,2026-11-16
+P00076,A0019,youtube,https://www.youtube.com/@apmdd8955,linked from https://apmdd.org/,2026-11-16
+P00077,A0016,facebook,https://www.facebook.com/LEARNPilipinas,linked from https://learn.org.ph/,2026-11-16
+P00078,A0016,x,https://x.com/LEARNPilipinas,linked from https://learn.org.ph/,2026-11-16
+P00079,A0016,instagram,https://www.instagram.com/LEARNPilipinas/,linked from https://learn.org.ph/,2026-11-16

@@ -1,0 +1,9 @@
+check_id,actor_id,method,url,checked,result,found,note
+K00001,A0001,manual_search,,2026-11-16,none,,Not searched: fetch rate-limited and search quota exhausted
+K00002,A0003,manual_search,,2026-11-16,none,,"One search; www.cuts-lusaka.org only named in text, not seen as a result or opened, so left empty"
+K00003,A0004,manual_search,,2026-11-16,none,,"One search found only the Climate Justice Map wiki entry and CAN Africa listing, no own domain; second search blocked by usage limit, so left empty."
+K00004,A0001,manual_search,https://zambia.actionaid.org/,2026-11-16,found,website,"Top search result for exact name; opened homepage, site is ActionAid Zambia's country site (Lusaka office)."
+K00005,A0003,manual_search,https://cuts-lusaka.org/,2026-11-16,found,website,"Address seen in search result (job posting listing it as CUTS Lusaka web address); opened it, page describes CUTS International Lusaka, Kabulonga."
+K00006,A0004,manual_search,,2026-11-16,none,,Two searches found only a Climate Justice Map listing and the separate Zambia Climate Change Network; no own site confirmed.
+K00007,A0001,own_site,https://zambia.actionaid.org/,2026-11-16,found,instagram;linkedin;x,"not added: youtube https://www.youtube.com/channel/UC7MJTEFq9Sp599g6Cf_m4tQ (chrome,social-block)"
+K00008,A0003,own_site,https://cuts-lusaka.org/,2026-11-16,found,facebook;x,

@@ -40,3 +40,19 @@ K00038,A0036,wikipedia_langs,,2026-11-16,none,,no official website in the articl
 K00039,A0038,wikipedia_langs,,2026-11-16,none,,no official website in the articles in other languages
 K00040,A0041,wikipedia_langs,,2026-11-16,none,,no official website in the articles in other languages
 K00041,A0013,orcid,https://orcid.org/0000-0002-2419-9777,2026-11-16,none,,"record found, no website listed"
+K00042,A0010,manual_search,,2026-11-16,none,,Not searched: fetch rate-limited and search quota exhausted
+K00043,A0011,manual_search,,2026-11-16,none,,Not searched: fetch rate-limited and search quota exhausted
+K00044,A0018,manual_search,,2026-11-16,none,,Not searched: fetch rate-limited and search quota exhausted
+K00045,A0042,manual_search,,2026-11-16,none,,Not searched: fetch rate-limited and search quota exhausted
+K00046,A0044,manual_search,,2026-11-16,none,,Not searched: fetch rate-limited and search quota exhausted
+K00047,A0045,manual_search,https://budgetjusticesa.org/,2026-11-16,found,website,"Found via search for the exact name; result pages on budgetjusticesa.org describe the coalition's steering committee, submissions to Finance Committees and Imali Yesizwe alternative budget; homepage n"
+K00048,A0045,own_site,https://budgetjusticesa.org/,2026-11-16,found,x,
+K00049,A0010,manual_search,https://mkparty.org.za,2026-11-16,none,,"rejected https://mkparty.org.za: the page's title and headings do not carry the name; Domain from search results (membership page on it, Wikipedia mirrors list it); opened it, titled MK Party."
+K00050,A0011,manual_search,https://www.parliament.gov.za/parliamentary-budget-office,2026-11-16,found,website,"Address given as the PBO webpage in its annual report; opened it, heading Parliamentary Budget Office (section of Parliament's site)."
+K00051,A0018,manual_search,https://www.greenpeace.org/africa/en/,2026-11-16,found,website,"Found in search results; opened it, Greenpeace Africa homepage (section of greenpeace.org)."
+K00052,A0042,manual_search,https://amandla.mobi,2026-11-16,found,website,"First search result; opened it, South African people-powered campaign organisation."
+K00053,A0044,manual_search,https://wfp.org.za/,2026-11-16,found,website,"Found via search for exact name; opened homepage, title and heading name the organisation, Stellenbosch farm-women NGO matches."
+K00054,A0042,own_site,https://amandla.mobi,2026-11-16,found,facebook;x;instagram;linkedin,
+K00055,A0018,own_site,https://www.greenpeace.org/africa/en/,2026-11-16,found,x;facebook;instagram;bluesky,"not added: x https://x.com/admin (meta); x https://x.com/lfourie (meta); youtube https://www.youtube.com/channel/UC9Mgh3aOcyJg7bTWdWrZNOw (chrome,rel-me,social-block)"
+K00056,A0044,own_site,https://wfp.org.za/,2026-11-16,found,facebook;instagram;x,
+K00057,A0011,own_site,https://www.parliament.gov.za/parliamentary-budget-office,2026-11-16,none,,not added: x https://x.com/ParliamentofRSA (social-block); facebook https://www.facebook.com/ParliamentofRSA (social-block); youtube https://www.youtube.com/user/ParliamentofRSA (social-block); instagram https://www.instagram.com/ParliamentofRSA/ (social-block); tiktok https://www.tiktok.com/@parliamentofrsa (

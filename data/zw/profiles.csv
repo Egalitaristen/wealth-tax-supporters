@@ -1,1 +1,4 @@
 profile_id,actor_id,platform,url,source,checked
+P00001,A0005,website,https://southernafrica.oxfam.org,"web search: Found in search results (southernafrica.oxfam.org, titled oxfam southern africa; its text describes Oxfam in Southern Africa Cluster). Page fetch was rate-limited so not opened; identity confirmed fro",2026-11-16
+P00002,A0005,x,https://x.com/OxfaminSAF,linked from https://southernafrica.oxfam.org,2026-11-16
+P00003,A0005,facebook,https://www.facebook.com/oxfamsaf,linked from https://southernafrica.oxfam.org,2026-11-16

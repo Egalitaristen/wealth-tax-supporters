@@ -76,3 +76,26 @@ K00074,A0035,own_site,https://angmasa.org,2026-11-16,found,facebook;x,not added:
 K00075,A0013,manual_search,,2026-11-16,none,,"Search found Wikipedia, IMDb, UP School of Economics page (could not read it); no own site confirmed."
 K00076,A0015,manual_search,,2026-11-16,none,,"sentro.org appeared in a directory listing but returned 403 when fetched, so identity not confirmed."
 K00077,A0035,manual_search,https://angmasa.org,2026-11-16,found,website,"Domain from Wikipedia infobox seen in search results; opened it: site 'Ang Masa Para sa Sosyalismo' carrying PLM statements and activities, though it does not state outright it is the official site."
+K00078,A0006,manual_search,https://oxfam.org.ph/,2026-11-16,found,website,"Found via search; opened the page, title names Oxfam Pilipinas."
+K00079,A0007,manual_search,,2026-11-16,none,,"Search suggests fdcphils.org but it fails to load (TLS certificate belongs to another site), so identity could not be confirmed; older domains fdc.ph and freedomfromdebtcoalition.org not opened."
+K00080,A0016,manual_search,https://learn.org.ph/,2026-11-16,found,website,"Found via search; opened the page, site name is Labor Education and Research Network, Philippine labour content."
+K00081,A0019,manual_search,https://apmdd.org/,2026-11-16,found,website,Obvious domain from the acronym (my own guess); opened it and the title and heading name APMDD.
+K00082,A0026,manual_search,,2026-11-16,none,,Two searches found only news coverage; no own website seen.
+K00083,A0027,manual_search,,2026-11-16,none,,Two searches found only news coverage; no own website seen.
+K00084,A0028,manual_search,,2026-11-16,none,,"Searched BAYAN Panay twice; only national BAYAN site and news found, no Panay-specific site; national body not returned."
+K00085,A0029,manual_search,https://www.nagkaisa.org/,2026-11-16,found,website,"Found via search for nagkaisa.org; search result title and About/Contact pages (TUCP compound, Quezon City) match the coalition; page not opened (fetch rate-limited)."
+K00086,A0031,manual_search,https://www.akbayan.org.ph/,2026-11-16,found,website,Found via search restricted to akbayan.org.ph; result title and constitution/our-story pages match Akbayan Citizens' Action Party; page not opened (fetch rate-limited).
+K00087,A0037,manual_search,,2026-11-16,none,,"Searched twice; only national Partido ng Manggagawa site/blog found, no Cebu-specific site; national body not returned."
+K00088,A0039,manual_search,,2026-11-16,none,,"Blog domain named after the organisation, appeared in search results with BMP press statements 2012-2020, and Wikipedia lists it as its website; page not opened (fetch rate-limited), title unconfirmed"
+K00089,A0040,manual_search,,2026-11-16,none,,"Searched ORIANG; only Eurodad profile, press releases and blog reposts found, no own site seen."
+K00090,A0041,manual_search,,2026-11-16,none,,"Searched SUPER Federation Philippines; no relevant result (only ALU, a different organisation)."
+K00091,A0042,manual_search,,2026-11-16,none,,"Only a Google Sites page under a deped.gov.ph path found; could not open it to confirm it is TDC's own site, so left empty."
+K00092,A0045,manual_search,,2026-11-16,none,,"Searched twice; results irrelevant, no site for BAYAN Central Visayas found."
+K00093,A0047,manual_search,,2026-11-16,none,,"SUKI Network appears only as a section of ibon.org (IBON Foundation), a different organisation; no own site found."
+K00094,A0048,manual_search,,2026-11-16,none,,"Two searches; only news coverage of the Negros coalition (UNDOC-Piston, KNETCO, BACODNI), no own site found"
+K00095,A0050,manual_search,,2026-11-16,none,,"Blog cited in Wikipedia reference list as SANLAKAS Partylist; opened, heading SANLAKAS; could not confirm it is current or has a dedicated domain"
+K00096,A0006,own_site,https://oxfam.org.ph/,2026-11-16,found,facebook;bluesky;tiktok,
+K00097,A0019,own_site,https://apmdd.org/,2026-11-16,found,facebook;x;instagram;youtube,
+K00098,A0029,own_site,https://www.nagkaisa.org/,2026-11-16,none,,not added: facebook https://www.facebook.com/profile.php?id=61580676322290 (); x https://x.com/nagkaisa ()
+K00099,A0016,own_site,https://learn.org.ph/,2026-11-16,found,facebook;x;instagram,"CHECK no added handle carries the name: the site may host several groups, or belong to a parent."
+K00100,A0031,own_site,https://www.akbayan.org.ph/,2026-11-16,blocked,,429 at https://www.akbayan.org.ph/

@@ -511,3 +511,23 @@ K00509,A0120,manual_search,https://www.univpm.it/claudia.pigini,2026-11-16,none,
 K00510,A0235,manual_search,,2026-11-16,none,,Several searches (spelling variants) returned nothing about this person.
 K00511,A0302,own_site,https://www.fondazioneecosistemi.org/,2026-11-16,found,facebook;x;youtube,"not added: instagram https://www.instagram.com/fondazione_ecosistemi/ (chrome,social-block); instagram https://www.instagram.com/fondazione_manlio_resta/ (social-block); facebook https://www.facebook.com/eleonora.dimaria (social-block); facebook https://www.facebook.com/elisa.scotti.393 (social-block); x https"
 K00512,A0300,own_site,https://www.comunitadicapodarco.it,2026-11-16,none,,
+K00513,A0005,manual_search,,2026-11-16,none,,Searched in Italian; no site or page for the Lucca federation found.
+K00514,A0013,manual_search,https://www.fondazionedemo.it,2026-11-16,found,website,"Obvious domain from name (my own guess); opened it, title names Fondazione Demo and content is Italian foundation news."
+K00515,A0266,manual_search,,2026-11-16,none,,Searched twice; sources say it has a site but give no address; taxjustice.it guess is an unrelated lawyer directory.
+K00516,A0267,manual_search,,2026-11-16,none,,"Searched; only news mentions as a Tax the Rich promoter, no own site found."
+K00517,A0283,manual_search,https://finanzaetica.info,2026-11-16,found,website,Search showed foundation's own reports giving finanzaetica.info as its site; opened it and title names Fondazione Finanza Etica.
+K00518,A0286,manual_search,https://www.wwf.it,2026-11-16,found,website,"Own guess of obvious domain; opened it, title and footer say WWF Italia ETS."
+K00519,A0291,manual_search,https://www.cittadinanzattiva.it,2026-11-16,found,website,"Own guess of obvious domain; opened it, title and footer say Cittadinanzattiva APS."
+K00520,A0293,manual_search,https://www.unioneinquilini.it,2026-11-16,found,website,"Own guess of obvious domain; opened it, title and footer say Unione Inquilini, tenants' union."
+K00521,A0294,manual_search,https://www.medicinademocratica.org/,2026-11-16,found,website,"Domain seen in a search result (association email address) and guessed; opened it, title is Medicina Democratica movimento di lotta per la salute."
+K00522,A0299,manual_search,,2026-11-16,none,,"Searched twice; beati.org and beati.it guesses did not load, no own site seen in results; left empty."
+K00523,A0301,manual_search,https://www.nigrizia.it,2026-11-16,found,website,"Own guess of obvious domain; opened it, title and footer (Copyright Nigrizia) match the Comboni Africa magazine."
+K00524,A0303,manual_search,https://terredeshommes.it/,2026-11-16,found,website,"Found via search result listing terredeshommes.it; opened it, title names Terre des Hommes Italia, child protection."
+K00525,A0301,own_site,https://www.nigrizia.it,2026-11-16,found,facebook;x;youtube;instagram,TimeoutError: The read operation timed out
+K00526,A0303,own_site,https://terredeshommes.it/,2026-11-16,found,facebook;instagram;linkedin;bluesky,
+K00527,A0283,own_site,https://finanzaetica.info,2026-11-16,found,linkedin;facebook;instagram,
+K00528,A0291,own_site,https://www.cittadinanzattiva.it,2026-11-16,found,facebook;tiktok;instagram;youtube;x,
+K00529,A0294,own_site,https://www.medicinademocratica.org/,2026-11-16,none,,
+K00530,A0293,own_site,https://www.unioneinquilini.it,2026-11-16,found,facebook;instagram;x,
+K00531,A0013,own_site,https://www.fondazionedemo.it,2026-11-16,found,instagram;facebook;linkedin,
+K00532,A0286,own_site,https://www.wwf.it,2026-11-16,found,facebook;x;instagram;linkedin;youtube,

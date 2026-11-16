@@ -60,3 +60,6 @@ K00058,A0038,orcid,https://orcid.org/0000-0001-9661-6157,2026-11-16,none,,ORCID 
 K00059,A0034,manual_search,,2026-11-16,none,,
 K00060,A0034,manual_search,https://www.parlamento.pt/DeputadoGP/Paginas/Biografia.aspx?BID=6864,2026-11-16,found,official_page,"Address taken from pt.wikipedia external links; opened it: Paula Inês Alves de Sousa Real, PAN, Lisboa, deputada XVII Legislatura. No own website found."
 K00061,A0034,own_site,https://www.parlamento.pt/DeputadoGP/Paginas/Biografia.aspx?BID=6864,2026-11-16,none,,
+K00062,A0004,manual_search,,2026-11-16,none,,Two searches; press coverage only (Paulo Pedroso president); guessed causapublica.pt did not resolve
+K00063,A0030,manual_search,https://www.cgtp.pt,2026-11-16,found,website,"Found via search (cgtp.pt, linked from Wikipedia); opened, title carries CGTP-IN"
+K00064,A0030,own_site,https://www.cgtp.pt,2026-11-16,found,youtube;facebook;x,"CHECK no added handle carries the name: the site may host several groups, or belong to a parent."

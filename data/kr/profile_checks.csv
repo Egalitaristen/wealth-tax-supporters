@@ -15,3 +15,9 @@ K00013,A0015,orcid,,2026-11-16,none,,no single ORCID record with the name
 K00014,A0021,orcid,,2026-11-16,none,,no single ORCID record with the name
 K00015,A0026,orcid,,2026-11-16,none,,no single ORCID record with the name
 K00016,A0033,orcid,,2026-11-16,none,,no single ORCID record with the name
+K00017,A0004,manual_search,,2026-11-16,none,,jinboparty.com appeared in search results but the page would not load for confirmation; left empty.
+K00018,A0010,manual_search,https://www.justice21.org,2026-11-16,found,website,"Search result and Wikipedia-derived sources name justice21.org as the official site; page opened but returned no readable content, so title not confirmed."
+K00019,A0012,manual_search,https://www.laborparty.kr,2026-11-16,none,,"rejected https://www.laborparty.kr: the page's title and headings do not carry the name; Own guess of obvious domain; opened it, title and footer show 노동당 (Labor Party), central office in Seoul."
+K00020,A0013,manual_search,,2026-11-16,none,,Two searches found only a listing inside the national party site (jinboparty.com) and news; no own Gwangju branch site confirmed.
+K00021,A0012,manual_search,https://www.laborparty.kr,2026-11-16,none,,"rejected https://www.laborparty.kr: the page's title and headings do not carry the name; Own guess of obvious domain; opened it, title and footer show 노동당 (Labor Party), central office in Seoul."
+K00022,A0010,own_site,https://www.justice21.org,2026-11-16,blocked,,robots.txt forbids https://www.justice21.org

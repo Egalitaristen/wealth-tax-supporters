@@ -1,0 +1,14 @@
+check_id,actor_id,method,url,checked,result,found,note
+K00001,A0001,manual_search,https://www.gov.br/pt-br,2026-11-16,none,,"rejected https://www.gov.br/pt-br: the page's title and headings do not carry the name; Found via search on the federal government portal; opened it, it is the official gov.br homepage of the Brazilian federal government."
+K00002,A0002,manual_search,https://www.lamoncloa.gob.es,2026-11-16,none,,rejected https://www.lamoncloa.gob.es: the page's title and headings do not carry the name; Found via Spanish-language search; opened it and the title names the Government of Spain.
+K00003,A0003,manual_search,https://www.treasury.gov.za,2026-11-16,found,website,"Guessed obvious domain, opened it; title names the National Treasury of South Africa."
+K00004,A0004,manual_search,https://www.presidencia.gov.co,2026-11-16,found,website,"page not read; Guessed obvious domain, opened it; Presidency of Colombia, Petro government branding (Colombia Patria Milagro)."
+K00005,A0005,manual_search,https://www.argentina.gob.ar,2026-11-16,found,website,"Guessed obvious domain, opened it; official portal of the Argentine State (Presidencia de la Nación)."
+K00006,A0006,manual_search,,2026-11-16,none,,"Only presidencia.gob.bo (Ministerio de la Presidencia) found, which is a ministry not the government; returned empty."
+K00007,A0007,manual_search,https://www.regjeringen.no/no/,2026-11-16,found,website,"page not read; Seen in search results (regjeringen.no, Norwegian government site with Støre government pages); direct fetch gave 403."
+K00008,A0008,manual_search,https://www.gob.cl,2026-11-16,found,website,"page not read; Search says gob.cl is the Chilean government portal (guessed domain); direct fetch gave 403, so not opened."
+K00009,A0009,manual_search,,2026-11-16,none,,"Searches only suggested cubagob.cu from old sources; could not open or confirm, returned empty."
+K00010,A0001,manual_search,https://www.gov.br/pt-br,2026-11-16,none,,"rejected https://www.gov.br/pt-br: the page's title and headings do not carry the name; Found via search on the federal government portal; opened it, it is the official gov.br homepage of the Brazilian federal government."
+K00011,A0002,manual_search,https://www.lamoncloa.gob.es,2026-11-16,none,,rejected https://www.lamoncloa.gob.es: the page's title and headings do not carry the name; Found via Spanish-language search; opened it and the title names the Government of Spain.
+K00012,A0001,manual_search,https://www.gov.br/pt-br,2026-11-16,none,,"rejected https://www.gov.br/pt-br: the page's title and headings do not carry the name; Official federal government portal gov.br, opened; address was my own guess, not from a search result."
+K00013,A0002,manual_search,https://www.lamoncloa.gob.es/,2026-11-16,none,,"rejected https://www.lamoncloa.gob.es/: the page's title and headings do not carry the name; Official Government of Spain site, opened; address was my own guess, not from a search result."

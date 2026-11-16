@@ -14,3 +14,5 @@ K00012,A0011,orcid,,2026-11-16,none,,several ORCID records with the name
 K00013,A0012,orcid,https://orcid.org/0000-0002-4833-2536,2026-11-16,none,,ORCID institution does not match: none listed
 K00014,A0019,orcid,,2026-11-16,none,,no single ORCID record with the name
 K00015,A0021,orcid,,2026-11-16,none,,no single ORCID record with the name
+K00016,A0017,manual_search,https://www.inp.edu.eg/en/,2026-11-16,found,website,"Found via search for the Institute of National Planning (the entry's name); opened the page, title and Cairo address match, it is the institute's own domain."
+K00017,A0017,own_site,https://www.inp.edu.eg/en/,2026-11-16,none,,"not added: facebook https://www.facebook.com/INPEgypt (chrome,share,social-block); youtube https://www.youtube.com/@INPEgypt (chrome,share,social-block); instagram https://www.instagram.com/inpegypt/ (chrome,share,social-block); linkedin https://www.linkedin.com/company/inpegypt (chrome,share,social-block); x "

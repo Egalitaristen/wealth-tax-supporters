@@ -281,8 +281,13 @@ def verified(site, r):
     import profile_scan as ps
     person = r["kind"] == "person"
     toks = ps.name_tokens(r["name"], person)
+    if not person:  # an organisation is often named "ABC (Full name in the local language)": both parts count
+        for inner in re.findall(r"\((.*?)\)", r["name"]):
+            toks |= ps.name_tokens(inner, False)
     host = re.sub(r"[^a-z0-9]", "", urllib.parse.urlparse(site).netloc.lower() + urllib.parse.urlparse(site).path.lower())
-    acr = "" if person else acronym(r["name"])
+    acr = "" if person else acronym(r["name"]) or acronym(" ".join(re.findall(r"\((.*?)\)", r["name"])))
+    caps = [] if person else [c.lower() for c in re.findall(r"[A-ZÀ-Ý]{3,}", r["name"])]  # "CTB (Central dos Trabalhadores...)": the name itself is the acronym
+    toks = toks | {c for c in caps if c not in {"the", "and"}}
     if any(t in host for t in toks) or (len(acr) >= 3 and re.search(r"(?<![a-z])" + acr + r"(?![a-z])", urllib.parse.urlparse(site).netloc.lower().replace("www.", "").split(".")[0] + " ")):
         return "ok", ""
     h = http(site, delay=1.0)

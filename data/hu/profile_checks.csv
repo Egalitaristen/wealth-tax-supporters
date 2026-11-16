@@ -50,3 +50,8 @@ K00048,A0027,orcid,https://orcid.org/0000-0003-1757-1283,2026-11-16,none,,ORCID 
 K00049,A0028,orcid,,2026-11-16,none,,several ORCID records with the name
 K00050,A0033,orcid,,2026-11-16,none,,no single ORCID record with the name
 K00051,A0037,orcid,https://orcid.org/0000-0003-3797-7002,2026-11-16,none,,"record found, no website listed"
+K00052,A0004,manual_search,https://kormany.hu,2026-11-16,none,,"rejected https://kormany.hu: the page's title and headings do not carry the name; Domain seen in search results as the government portal; opened it, title is Government of Hungary."
+K00053,A0039,manual_search,https://blochamps.hu,2026-11-16,found,website,"Own guess of domain after search showed the firm; opened it, title Blochamps Capital and footer Blochamps Capital Kft."
+K00054,A0004,manual_search,https://kormany.hu,2026-11-16,found,website,"Domain seen in search results as the government portal; opened it, title is Government of Hungary."
+K00055,A0039,own_site,https://blochamps.hu,2026-11-16,none,,
+K00056,A0004,own_site,https://kormany.hu,2026-11-16,found,facebook;instagram;x,"CHECK no added handle carries the name: the site may host several groups, or belong to a parent.; not added: youtube https://www.youtube.com/@magyarorszag_kormanya ()"

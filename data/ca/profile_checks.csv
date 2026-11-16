@@ -225,3 +225,25 @@ K00223,A0305,own_site,https://defensedesdroits.com,2026-11-16,found,x,"CHECK no 
 K00224,A0027,own_site,https://www.ourcommons.ca/members/en/marwan-tabbara(88813,2026-11-16,none,,"not added: instagram https://www.instagram.com/ourcommonsca/ (chrome,social-block)"
 K00225,A0305,manual_search,https://defensedesdroits.com/,2026-11-16,found,website,"Search summary gave defensedesdroits.com as RODCD's site; opened it, header logo RODCD and footer (c) 2024 RODCD confirm it."
 K00226,A0027,manual_search,https://www.ourcommons.ca/members/en/marwan-tabbara(88813,2026-11-16,found,official_page,"Found via search; opened page, name matches and roles list Kitchener South—Hespeler; old campaign site votetabbara.ca not confirmed live."
+K00227,A0204,manual_search,,2026-11-16,none,,"Search found no riding-association site for NDP York Centre, only a candidate page."
+K00228,A0205,manual_search,,2026-11-16,none,,Search found no own site for the Ottawa South federal NDP association.
+K00229,A0206,manual_search,,2026-11-16,none,,Search (English and French) found no own site for the NPD Alfred-Pellan association.
+K00230,A0207,manual_search,,2026-11-16,none,,Search found no own site for the NDP Winnipeg Centre association.
+K00231,A0208,manual_search,https://www.tcndp.ca/,2026-11-16,found,website,"Found via search (tcndp.nationbuilder.com redirects to tcndp.ca); page says riding association of both Canada's NDP and Ontario NDP, downtown Toronto"
+K00232,A0209,manual_search,,2026-11-16,none,,Searched name plus NDP riding association; no own site found (only party/news/candidate pages)
+K00233,A0210,manual_search,,2026-11-16,none,,Searched name plus NDP riding association; no own site found (only party/news/candidate pages)
+K00234,A0211,manual_search,,2026-11-16,none,,Searched name plus NDP riding association; no own site found (only party/news/candidate pages)
+K00235,A0212,manual_search,,2026-11-16,none,,Searched name plus NDP riding association; no own site found (only party/news/candidate pages)
+K00236,A0213,manual_search,,2026-11-16,none,,Searched name plus NDP riding association; no own site found (only party/news/candidate pages)
+K00237,A0214,manual_search,,2026-11-16,none,,Searched name plus NDP riding association; no own site found (only party/news/candidate pages)
+K00238,A0215,manual_search,,2026-11-16,none,,Searched name plus NDP riding association; no own site found (only party/news/candidate pages)
+K00239,A0216,manual_search,,2026-11-16,none,,Searched name plus NDP riding association; no own site found (only party/news/candidate pages)
+K00240,A0217,manual_search,,2026-11-16,none,,Searched name plus NDP riding association; no own site found (only party/news/candidate pages)
+K00241,A0218,manual_search,,2026-11-16,none,,Searched English and French; no own site found for a Quebec youth wing.
+K00242,A0219,manual_search,,2026-11-16,none,,"Searched; no own riding association site found, only ndp.ca/news pages."
+K00243,A0220,manual_search,,2026-11-16,none,,Searched twice; no own Halifax riding site found; ndp.ca guess returned 404.
+K00244,A0222,manual_search,,2026-11-16,none,,Searched; no own riding association site found.
+K00245,A0257,manual_search,,2026-11-16,none,,Searched; only a listing on the Archdiocese of Montreal site and an OCPM brief; no own site.
+K00246,A0259,manual_search,https://cadeul.com/,2026-11-16,found,website,"Found via search of cadeul.ulaval.ca, which redirects (301) to cadeul.com; opened it, page names the Confédération des Associations d'Étudiants et Étudiantes de l'Université Laval."
+K00247,A0208,own_site,https://www.tcndp.ca/,2026-11-16,none,,"not added: facebook https://www.facebook.com/TCNDP (chrome,social-block); facebook https://www.facebook.com/kristynwongtam (social-block); x https://x.com/tcndp (chrome,meta,social-block); x https://x.com/kristynwongtam (social-block); instagram https://www.instagram.com/tcndp/ (chrome,social-block); instagram"
+K00248,A0259,own_site,https://cadeul.com/,2026-11-16,found,facebook;instagram;tiktok;x;youtube,"CHECK no added handle carries the name: the site may host several groups, or belong to a parent."
