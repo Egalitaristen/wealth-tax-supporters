@@ -1,2 +1,4 @@
 check_id,actor_id,method,url,checked,result,found,note
 K00001,A0006,own_site,https://www.csl.lu,2026-11-16,found,facebook;linkedin;youtube;x;instagram;bluesky,
+K00002,A0004,own_site,https://samtanson.com,2026-11-16,error,,URLError: <urlopen error [Errno 11001] getaddrinfo failed>
+K00003,A0005,own_site,https://www.tillymetz.lu,2026-11-16,found,bluesky;tiktok;x,"not added: facebook https://www.facebook.com/TillyMetzMEP (chrome,social-block); already listed: instagram"

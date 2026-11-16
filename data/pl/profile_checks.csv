@@ -248,7 +248,7 @@ K00246,A0022,own_site,https://danuta-huebner.pl,2026-11-16,none,,"already listed
 K00247,A0079,own_site,https://radon.nauka.gov.pl/dane/profil/58142DAADD4C51D8472767B1DBDE0A8497908610,2026-11-16,none,,
 K00248,A0042,own_site,https://gabriel-zucman.eu/,2026-11-16,none,,
 K00249,A0183,own_site,https://radon.nauka.gov.pl/dane/profil/7B7380D4FF201BC67786E51C18DBB3BB54137F21,2026-11-16,none,,
-K00250,A0306,own_site,https://magazynkontakt.pl/profil/walczynski-hubert/,2026-11-16,none,,"not added: facebook https://www.facebook.com/magazynkontakt (chrome,social-block); facebook https://www.facebook.com/KrytykaPolityczna (chrome,social-block); instagram https://www.instagram.com/magazynkontakt/ (chrome,social-block); instagram https://www.instagram.com/krytykapolityczna/ (chrome,social-block); "
+K00250,A0306,own_site,https://magazynkontakt.pl/profil/walczynski-hubert/,2026-11-16,none,,"not added: facebook https://www.facebook.com/magazynkontakt (chrome,social-block); facebook https://www.facebook.com/KrytykaPolityczna (chrome,social-block); instagram https://www.instagram.com/magazynkontakt/ (chrome,social-block); instagram https://www.instagram.com/krytykapolityczna/ (chrome,social-block);"
 K00251,A0089,own_site,https://rada-uczelni.uj.edu.pl/sklad-rady,2026-11-16,none,,
 K00252,A0199,own_site,https://radon.nauka.gov.pl/dane/profil/EEBC78F8F41427854452099471BEBC79338E5443,2026-11-16,none,,
 K00253,A0137,own_site,https://orcid.org/0000-0002-6521-0477,2026-11-16,none,,
@@ -284,3 +284,5 @@ K00282,A0056,own_site,https://orcid.org/0000-0002-6899-414X,2026-11-16,none,,
 K00283,A0215,own_site,https://artmuseum.pl/artysci/katarzyna-gorna,2026-11-16,none,,"not added: facebook https://www.facebook.com/MuzeumSztukiNowoczesnej (chrome,social-block); instagram https://www.instagram.com/msnwarszawa/ (chrome,social-block); linkedin https://www.linkedin.com/company/msnwarszawa (chrome,social-block); tiktok https://www.tiktok.com/@msnwarszawa (chrome,social-block); yout"
 K00284,A0156,own_site,https://radon.nauka.gov.pl/dane/profil/223595730360A1AE0D77AF9F1FF35E62970D1C8D,2026-11-16,none,,
 K00285,A0071,own_site,https://radon.nauka.gov.pl/dane/profil/F9DEDD4B3D888917EA85D6ED29B9B5EEF1BB5C5B,2026-11-16,none,,
+K00286,A0026,own_site,https://www.europarl.europa.eu/meps/pl/197523/LUKASZ_KOHUT/home,2026-11-16,blocked,,403 at https://www.europarl.europa.eu/meps/pl/197523/LUKASZ_KOHUT/home
+K00287,A0307,own_site,https://partiarazem.pl,2026-11-16,none,,"not added: mastodon https://social.partiarazem.pl/@razem (chrome,rel-me,social-block); x https://x.com/partiarazem (chrome,meta,rel-me,social-block); x https://x.com/RazemWroclaw (social-block); x https://x.com/RazemLegnica (social-block); x https://x.com/RazemJelenia (social-block); facebook https://www.faceb"

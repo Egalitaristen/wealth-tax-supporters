@@ -1,2 +1,4 @@
 check_id,actor_id,method,url,checked,result,found,note
 K00001,A0007,own_site,https://anep.cr,2026-11-16,found,youtube;facebook,not added: x https://x.com/AlbinoVargasB ()
+K00002,A0006,own_site,https://frenteamplio.org,2026-11-16,found,youtube;tiktok,"not added: youtube https://www.youtube.com/@frenteamplio_cr (); already listed: facebook,instagram,x"
+K00003,A0005,own_site,https://pac.cr,2026-11-16,found,facebook;x;instagram;youtube,

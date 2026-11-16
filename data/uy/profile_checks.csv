@@ -1,0 +1,6 @@
+check_id,actor_id,method,url,checked,result,found,note
+K00001,A0028,own_site,https://www.constanza.com.uy/,2026-11-16,error,,URLError: <urlopen error [Errno 11002] getaddrinfo failed>
+K00002,A0034,own_site,https://www.asofutalc.com/,2026-11-16,none,,
+K00003,A0001,own_site,https://www.pitcnt.uy/,2026-11-16,found,facebook;instagram;x;youtube,"CHECK no added handle carries the name: the site may host several groups, or belong to a parent.; not added: instagram https://www.instagram.com/ert_bps/ ()"
+K00004,A0004,own_site,https://www.ps.org.uy,2026-11-16,found,x;instagram;facebook;youtube,
+K00005,A0016,own_site,https://www.frenteamplio.uy/,2026-11-16,found,facebook;youtube;instagram,already listed: x

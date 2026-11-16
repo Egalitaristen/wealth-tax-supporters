@@ -6,3 +6,8 @@ K00004,A0006,own_site,https://www.tordaibence.hu/,2026-11-15,found,instagram;tik
 K00005,A0005,own_site,https://parbeszed.hu/,2026-11-16,found,instagram,not added: youtube https://www.youtube.com/@parbeszedzoldek (); tiktok https://www.tiktok.com/@parbeszed (); facebook https://www.facebook.com/szaborebekapm (); facebook https://www.facebook.com/TordaiBenceParbeszed (); facebook https://www.facebook.com/szabotimeapm (); facebook https://www.facebook.com/karacs
 K00006,A0001,own_site,https://magyartisza.hu/,2026-11-16,none,,
 K00007,A0014,own_site,https://ujhelyi.eu/hu/koszonto,2026-11-16,none,,"not added: youtube https://www.youtube.com/c/Istv%C3%A1nUjhelyiEP (chrome,social-block); already listed: x,facebook"
+K00008,A0034,own_site,https://www.toroczkailaszlo.hu/,2026-11-16,none,,"not added: youtube https://www.youtube.com/channel/UC-ZBFbpGZvEVSAGaNsvxgKQ (social-block); youtube https://www.youtube.com/c/ToroczkaiL%C3%A1szl%C3%B3Hivatalos (chrome,social-block); already listed: x,tiktok"
+K00009,A0024,own_site,https://karacsonygergely.hu/,2026-11-16,none,,
+K00010,A0036,own_site,https://gabriel-zucman.eu/,2026-11-16,none,,
+K00011,A0026,own_site,https://www.botkalaszlo.hu,2026-11-16,error,,URLError: <urlopen error [Errno 11001] getaddrinfo failed>
+K00012,A0030,own_site,https://www.dobrevklara.hu,2026-11-16,error,,URLError: <urlopen error [Errno 11001] getaddrinfo failed>

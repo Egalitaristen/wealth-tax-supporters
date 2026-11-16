@@ -1,3 +1,7 @@
 profile_id,actor_id,platform,url,source,checked
 P00001,A0001,website,https://www.moussamara.com,Wikidata Q3326215,2026-11-16
 P00002,A0001,wikipedia,https://en.wikipedia.org/wiki/Moussa_Mara,Wikidata Q3326215,2026-11-16
+P00003,A0001,facebook,https://www.facebook.com/Moussa.mara.parti.yelema,linked from https://www.moussamara.com,2026-11-16
+P00004,A0001,linkedin,https://www.linkedin.com/in/moussa-mara-mara-9b6b1358,linked from https://www.moussamara.com,2026-11-16
+P00005,A0001,x,https://x.com/moussamara2,linked from https://www.moussamara.com,2026-11-16
+P00006,A0001,instagram,https://www.instagram.com/moussamara2018/,linked from https://www.moussamara.com,2026-11-16

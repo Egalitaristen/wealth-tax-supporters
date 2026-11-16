@@ -6,3 +6,12 @@ K00004,A0010,own_site,https://fho.dk,2026-11-15,found,facebook;bluesky;linkedin;
 K00005,A0039,own_site,https://bupl.dk,2026-11-15,none,,
 K00006,A0045,own_site,https://millionairesforhumanity.org,2026-11-16,found,instagram;x;facebook;linkedin,not added: instagram https://www.instagram.com/qodeinteractive/ (social-block); x https://x.com/QodeInteractive (social-block); facebook https://www.facebook.com/QodeInteractive (social-block)
 K00007,A0011,own_site,https://oxfam.dk,2026-11-16,found,facebook;instagram;linkedin;x,
+K00008,A0030,own_site,https://rosalund.dk/,2026-11-16,error,,URLError: <urlopen error [WinError 10060] A connection attempt failed because the connecte
+K00009,A0043,own_site,https://www.lykketoft.dk/,2026-11-16,found,linkedin;facebook,already listed: x
+K00010,A0007,own_site,https://s-zimmer.dk/,2026-11-16,none,,
+K00011,A0004,own_site,https://friegronne.dk/,2026-11-16,found,tiktok,"already listed: x,facebook,instagram"
+K00012,A0001,own_site,https://enhedslisten.dk,2026-11-16,blocked,,403 at https://enhedslisten.dk
+K00013,A0032,own_site,https://alternativet.dk/personer/folketingsmedlemmer/torsten-gejl,2026-11-16,error,,404 at https://alternativet.dk/personer/folketingsmedlemmer/torsten-gejl
+K00014,A0009,own_site,https://sf.dk/dyhr,2026-11-16,none,,"not added: facebook https://www.facebook.com/sfparti (chrome,social-block); instagram https://www.instagram.com/sf_socialistisk_folkeparti/ (chrome,social-block); x https://x.com/sfpolitik (chrome,meta,social-block); already listed: facebook,instagram"
+K00015,A0002,own_site,https://www.socialdemokratiet.dk/,2026-11-16,found,youtube;linkedin,"already listed: facebook,instagram,x"
+K00016,A0031,own_site,https://enhedslisten.dk/soeren-egge-rasmussen,2026-11-16,blocked,,403 at https://enhedslisten.dk/soeren-egge-rasmussen

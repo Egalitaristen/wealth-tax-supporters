@@ -5,3 +5,4 @@ K00003,A0217,own_site,https://www.dieese.org.br,2026-11-15,found,instagram;faceb
 K00004,A0211,own_site,https://lula.com.br/,2026-11-16,blocked,,403 at https://lula.com.br/
 K00005,A0248,own_site,https://gabriel-zucman.eu/,2026-11-16,none,,
 K00006,A0215,own_site,https://www.oxfam.org.br,2026-11-16,found,facebook;youtube;instagram;bluesky;linkedin,
+K00007,A0268,own_site,https://piketty.pse.ens.fr/,2026-11-16,error,,URLError: <urlopen error [WinError 10061] No connection could be made because the target m
