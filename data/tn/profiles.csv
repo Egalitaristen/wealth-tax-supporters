@@ -9,3 +9,8 @@ P00007,A0013,facebook,https://www.facebook.com/Oxfam,linked from https://www.oxf
 P00008,A0013,x,https://x.com/oxfam,linked from https://www.oxfam.org,2026-11-15
 P00009,A0013,youtube,https://www.youtube.com/user/oxfaminternational,linked from https://www.oxfam.org,2026-11-15
 P00010,A0013,instagram,https://www.instagram.com/oxfaminternational/,linked from https://www.oxfam.org,2026-11-15
+P00011,A0009,website,https://www.economie-tunisie.org,actors.csv website column,2026-11-16
+P00012,A0012,website,https://www.albawsala.com,actors.csv website column,2026-11-16
+P00013,A0013,website,https://www.oxfam.org,actors.csv website column,2026-11-16
+P00014,A0015,website,https://www.leconomistemaghrebin.com,actors.csv website column,2026-11-16
+P00015,A0013,wikipedia,https://en.wikipedia.org/wiki/Oxfam,Wikidata Q267941,2026-11-16

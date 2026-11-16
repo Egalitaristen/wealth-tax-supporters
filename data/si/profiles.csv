@@ -12,3 +12,23 @@ P00010,A0003,facebook,https://www.facebook.com/socialnidemokrati.si,linked from 
 P00011,A0003,x,https://x.com/strankaSD,linked from https://socialnidemokrati.si/,2026-11-16
 P00012,A0003,youtube,https://www.youtube.com/user/Socialnidemokrat,linked from https://socialnidemokrati.si/,2026-11-16
 P00013,A0003,instagram,https://www.instagram.com/socialnidemokrati/,linked from https://socialnidemokrati.si/,2026-11-16
+P00014,A0001,website,https://www.zsss.si/,actors.csv website column,2026-11-16
+P00015,A0003,website,https://socialnidemokrati.si/,actors.csv website column,2026-11-16
+P00016,A0005,website,https://www.vesna.si/,actors.csv website column,2026-11-16
+P00017,A0006,website,https://www.greenpeace.org/slovenia/,actors.csv website column,2026-11-16
+P00018,A0007,website,https://piratskastranka.si/,actors.csv website column,2026-11-16
+P00019,A0010,website,https://www.levica.si/,actors.csv website column,2026-11-16
+P00020,A0011,website,https://www.fiabci.si/,actors.csv website column,2026-11-16
+P00021,A0001,wikipedia,https://en.wikipedia.org/wiki/Association_of_Free_Trade_Unions_of_Slovenia,Wikidata Q2868050,2026-11-16
+P00022,A0004,x,https://x.com/MatjaNemec,Wikidata Q27929326,2026-11-16
+P00023,A0004,instagram,https://www.instagram.com/matjaznemec/,Wikidata Q27929326,2026-11-16
+P00024,A0004,wikipedia,https://en.wikipedia.org/wiki/Matja%C5%BE_Nemec,Wikidata Q27929326,2026-11-16
+P00025,A0007,youtube,https://www.youtube.com/channel/UCSwHXVkpgrTp7Ik5QeXyWJw,Wikidata Q5314301,2026-11-16
+P00026,A0007,wikipedia,https://en.wikipedia.org/wiki/Pirate_Party_%28Slovenia%29,Wikidata Q5314301,2026-11-16
+P00027,A0008,instagram,https://www.instagram.com/miha_kordis/,Wikidata Q23001530,2026-11-16
+P00028,A0008,facebook,https://www.facebook.com/miha.kordis,Wikidata Q23001530,2026-11-16
+P00029,A0008,wikipedia,https://en.wikipedia.org/wiki/Miha_Kordi%C5%A1,Wikidata Q23001530,2026-11-16
+P00030,A0009,instagram,https://www.instagram.com/_robertgolob_/,Wikidata Q18645045,2026-11-16
+P00031,A0009,facebook,https://www.facebook.com/Dr.RobertGolob,Wikidata Q18645045,2026-11-16
+P00032,A0009,tiktok,https://www.tiktok.com/@_robertgolob_,Wikidata Q18645045,2026-11-16
+P00033,A0009,wikipedia,https://en.wikipedia.org/wiki/Robert_Golob,Wikidata Q18645045,2026-11-16
