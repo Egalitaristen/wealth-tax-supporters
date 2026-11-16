@@ -353,3 +353,10 @@ K00351,A0034,manual_search,,2026-11-16,none,,"Not searched beyond the batch pass
 K00352,A0035,manual_search,,2026-11-16,none,,"Not searched beyond the batch pass; a municipal council group has no own site expected, and no search was run for it."
 K00353,A0036,manual_search,,2026-11-16,none,,"Search for the name and 'sitio oficial' returned only news, theses and national CGT pages; no own site."
 K00354,A0027,own_site,https://fonaf.org.ar/,2026-11-16,found,x;instagram;facebook,"CHECK no added handle carries the name: the site may host several groups, or belong to a parent."
+K00355,A0019,manual_search,,2026-11-16,none,,Three searches found only news and union-hosted PDFs; no own site seen.
+K00356,A0021,manual_search,,2026-11-16,none,,Two searches found only news and member-organisation documents; no own site seen.
+K00357,A0024,manual_search,,2026-11-16,none,,"Two searches found only news, papers and directories; guessed domain cnct.coop did not resolve."
+K00358,A0025,manual_search,,2026-11-16,none,,Two searches found only news and papers; no own site seen.
+K00359,A0034,manual_search,,2026-11-16,none,,Search found only local news about the council bloc; no own page seen.
+K00360,A0035,manual_search,,2026-11-16,none,,Search found nothing specific to a Coronel Pringles bloc; no own page seen.
+K00361,A0036,manual_search,,2026-11-16,none,,Search found no site for the San Nicolas regional body; only the national CGT and other locals.

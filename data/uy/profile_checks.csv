@@ -56,3 +56,5 @@ K00054,A0029,orcid,,2026-11-16,none,,no single ORCID record with the name
 K00055,A0030,orcid,https://orcid.org/0009-0006-8638-2215,2026-11-16,none,,"record found, no website listed"
 K00056,A0035,orcid,,2026-11-16,none,,no single ORCID record with the name
 K00057,A0027,manual_search,,2026-11-16,none,,"Observatory's own files are hosted on taxobservatory.world (press release PDFs) but homepage not opened; WebFetch rate-limited and search quota exhausted, so left empty"
+K00058,A0027,manual_search,https://www.taxobservatory.world,2026-11-16,found,website,"Domain seen in search results hosting the April 2026 Uruguay brief PDFs; opened homepage, describes itself as International Tax Observatory, research lab hosted by Paris School of Economics."
+K00059,A0027,own_site,https://www.taxobservatory.world,2026-11-16,found,x;linkedin;youtube;instagram;bluesky,not added: x https://x.com/ali_giulia (); x https://x.com/miguel_almunia (); x https://x.com/Mona_BARAKE (); x https://x.com/eneabaselgia (); x https://x.com/Hjaltefb (); x https://x.com/bomare_jeanne (); x https://x.com/KaneBorders (); x https://x.com/CasiElisa (); x https://x.com/lucas_chancel (); x https://

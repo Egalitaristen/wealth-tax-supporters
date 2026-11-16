@@ -1139,3 +1139,47 @@ K01137,A0665,own_site,https://seiuhcilin.org/,2026-11-16,found,instagram;tiktok;
 K01138,A0841,own_site,https://honestarizona.squarespace.com,2026-11-16,found,substack;facebook;x;instagram,
 K01139,A0835,own_site,https://democracymatters.org,2026-11-16,none,,
 K01140,A0023,own_site,https://www.seiu-uhw.org,2026-11-16,found,facebook;x;youtube;instagram;linkedin;tiktok,
+K01141,A0815,manual_search,https://www.umcjustice.org,2026-11-16,found,website,"Domain seen in search results; opened it, footer reads General Board of Church and Society of The United Methodist Church."
+K01142,A0819,manual_search,,2026-11-16,none,,"Several similarly named entities (For Our Future PAC at forourfuturepac.org, Action Fund); could not tell which signed the coalition letter."
+K01143,A0820,manual_search,https://dsasandiego.org/,2026-11-16,found,website,"First result of search for the chapter; opened, heading Democratic Socialists of America San Diego."
+K01144,A0821,manual_search,https://www.sfdems.org/,2026-11-16,found,website,"Found sfdemocrats.org in search; it redirects (301) to sfdems.org, opened, heading San Francisco Democratic Party."
+K01145,A0822,manual_search,,2026-11-16,none,,Searches found only a Substack newsletter and no confirmed own domain; my guessed fairshareamerica.com returned nothing.
+K01146,A0823,manual_search,,2026-11-16,none,,Searched twice; only a defunct 1986 national group (archived only) and an unrelated Port Townsend WA group (Local 20/20) found; identity not confirmable.
+K01147,A0824,manual_search,https://accountable.us/,2026-11-16,found,website,"Search result showed accountable.us/about/our-board-and-leadership (Who We Are) for Accountable.US; homepage fetch failed on SSL, homepage address derived from that result. Accountable.NOW name not se"
+K01148,A0825,manual_search,https://actiontogethernepa.org,2026-11-16,found,website,"Domain given by nonprofit directory listing (Mountain Top PA); opened it and it describes Action Together NEPA, a 501(c)(4) in northeastern Pennsylvania."
+K01149,A0826,manual_search,https://act-ct.org,2026-11-16,found,website,"Domain seen in a search result mirror, opened it: title Advancing CT Together, Hartford-based, Advancing Connecticut Together (ACT)."
+K01150,A0843,manual_search,,2026-11-16,none,,Two searches found only Indivisible event listings and Blue Voter Guide endorser page; no own site seen.
+K01151,A0847,manual_search,https://mentalhealthpartnerships.org/,2026-11-16,found,website,"mhphope.org (from VoterVoice campaign page MHPHOPE, Philadelphia nonprofit) 301-redirects to mentalhealthpartnerships.org; page itself returned 403 so title not read; Philadelphia identity from listin"
+K01152,A0848,manual_search,,2026-11-16,none,,"Two searches found only press coverage, National Civic League listing and national NCBCP site (parent); no own site seen."
+K01153,A0850,manual_search,https://www.nebraskaforus.org,2026-11-16,found,website,"Domain from search result (InfluenceWatch cites it); opened it and the page is Nebraska For Us, federal policy impact on Nebraskans."
+K01154,A0851,manual_search,,2026-11-16,none,,Two searches found only nonprofit directories and news; newdaynevada.org does not resolve (own guess); no own site confirmed.
+K01155,A0852,manual_search,https://ncbudget.org,2026-11-16,found,website,"Domain NCBudget.org from search results and directory listings; opened it, title Home - NC Budget & Tax Center."
+K01156,A0853,manual_search,,2026-11-16,none,,"Two searches; only the City of Oakland youth jobs program of the same name found, which is not the coalition signatory; identity unclear."
+K01157,A0855,manual_search,https://opportunityarizona.org/,2026-11-16,found,website,"Found via search (directory listings gave opportunityarizona.org); opened it, title and footer name Opportunity Arizona."
+K01158,A0856,manual_search,https://pennpolicy.org/,2026-11-16,found,website,"Found via search listings naming pennpolicy.org; opened it, heading and footer say Pennsylvania Policy Center."
+K01159,A0858,manual_search,,2026-11-16,none,,"Searched twice; no own site found for the Education Fund; progressmo.org (parent Progress MO) had an expired certificate and could not be confirmed, and is a different entity."
+K01160,A0859,manual_search,https://swecwa.org/,2026-11-16,found,website,"Found via Idealist listing giving swecwa.org; opened it, site name and footer say Southwest Washington Equity Coalition."
+K01161,A0862,manual_search,https://uusj.net/wp1,2026-11-16,found,website,"GuideStar listing gave uusj.org, which redirects (301) to uusj.net; opened it, title and heading name the organisation."
+K01162,A0863,manual_search,https://www.wpsr.org/,2026-11-16,found,website,"Found via GuideStar/Idealist listings giving wpsr.org; opened it, heading and footer name Washington Physicians for Social Responsibility."
+K01163,A0864,manual_search,,2026-11-16,none,,"Two searches; only indivisible.org event pages and Blue Voter Guide (403 blocked) found, no own site confirmed."
+K01164,A0866,manual_search,,2026-11-16,none,,"Two searches; only an Eventbrite organiser page and Blue Voter Guide (403) found, no own site confirmed."
+K01165,A0867,manual_search,,2026-11-16,none,,"Searched twice; the old blogspot address opened is titled 'UNMasking DeSantis' and was last updated 2023, so not confirmed as the group's site."
+K01166,A0868,manual_search,,2026-11-16,none,,Two searches found only indivisible.org event listings and news; no own site found.
+K01167,A0869,manual_search,,2026-11-16,none,,Two searches found no page for this group; only LWV Rome-Floyd and local government results.
+K01168,A0880,manual_search,,2026-11-16,none,,Searches found only the ILWU international and Coast Longshore pages; the ILWU local directory lists no site for Local 10; guesses ilwu10.org/.com do not resolve.
+K01169,A0881,manual_search,https://labortoday.international,2026-11-16,found,website,"Found in search (InfluenceWatch names labortoday.international); opened it: Los Angeles-based Labor Today International, WFTU-linked."
+K01170,A0825,own_site,https://actiontogethernepa.org,2026-11-16,found,facebook;bluesky;instagram;youtube;tiktok;linkedin,
+K01171,A0824,own_site,https://accountable.us/,2026-11-16,error,,URLError: <urlopen error [SSL: SSLV3_ALERT_HANDSHAKE_FAILURE] sslv3 alert handshake failur
+K01172,A0847,own_site,https://mentalhealthpartnerships.org/,2026-11-16,found,facebook;instagram;youtube;linkedin;x,not added: linkedin https://www.linkedin.com/in/irene-hurford-18506445 (); linkedin https://www.linkedin.com/in/jake-bowling-bb320629 (); linkedin https://www.linkedin.com/in/perrykaplan (); linkedin https://www.linkedin.com/in/lisakubisiak (); linkedin https://www.linkedin.com/in/mark-lenker-8a96237 (); linke
+K01173,A0855,own_site,https://opportunityarizona.org/,2026-11-16,found,instagram;facebook;bluesky;youtube;x,
+K01174,A0863,own_site,https://www.wpsr.org/,2026-11-16,found,instagram;linkedin;facebook;bluesky,
+K01175,A0821,own_site,https://www.sfdems.org/,2026-11-16,none,,"not added: facebook https://www.facebook.com/SFDemocrats (chrome,social-block); x https://x.com/sfdemocrats (chrome,social-block); instagram https://www.instagram.com/sfdemocrats/ (chrome,social-block); linkedin https://www.linkedin.com/company/19038887 (chrome,social-block); bluesky https://bsky.app/profile/s"
+K01176,A0862,own_site,https://uusj.net/wp1,2026-11-16,none,,"not added: facebook https://www.facebook.com/uusjdc (chrome,social-block); x https://x.com/UUSJ (chrome,social-block); youtube https://www.youtube.com/c/CynUUSJ (chrome,social-block); youtube https://www.youtube.com/channel/UCUzZKFhrlIVwc87LidsR4LQ (chrome,social-block)"
+K01177,A0881,own_site,https://labortoday.international,2026-11-16,found,facebook;x,
+K01178,A0815,own_site,https://www.umcjustice.org,2026-11-16,found,facebook;instagram;youtube;x,"CHECK no added handle carries the name: the site may host several groups, or belong to a parent."
+K01179,A0859,own_site,https://swecwa.org/,2026-11-16,found,facebook;instagram,"CHECK no added handle carries the name: the site may host several groups, or belong to a parent."
+K01180,A0850,own_site,https://www.nebraskaforus.org,2026-11-16,found,facebook;x,
+K01181,A0856,own_site,https://pennpolicy.org/,2026-11-16,found,x;bluesky;facebook;youtube;instagram,not added: x https://x.com/fractweets ()
+K01182,A0852,own_site,https://ncbudget.org,2026-11-16,found,x;facebook;instagram;linkedin;youtube,
+K01183,A0820,own_site,https://dsasandiego.org/,2026-11-16,found,instagram;tiktok;bluesky;youtube,
+K01184,A0826,own_site,https://act-ct.org,2026-11-16,found,facebook;x;instagram,

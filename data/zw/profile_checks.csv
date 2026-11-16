@@ -3,3 +3,4 @@ K00001,A0006,wikipedia_langs,,2026-11-16,none,,no official website in the articl
 K00002,A0001,manual_search,,2026-11-16,none,,"Search showed only fightinequality.org (global movement) pages and news; no own domain seen; second search blocked by usage limit, so left empty."
 K00003,A0005,manual_search,https://southernafrica.oxfam.org,2026-11-16,found,website,"Found in search results (southernafrica.oxfam.org, titled oxfam southern africa; its text describes Oxfam in Southern Africa Cluster). Page fetch was rate-limited so not opened; identity confirmed fro"
 K00004,A0005,own_site,https://southernafrica.oxfam.org,2026-11-16,found,x;facebook,"not added: youtube https://www.youtube.com/channel/UCwMkLGUJjPPOPNJjSMzUcYw (chrome,social-block)"
+K00005,A0001,manual_search,,2026-11-16,none,,"Two searches and the chapter's press release page show only fightinequality.org (global alliance), email and social accounts; no own site."

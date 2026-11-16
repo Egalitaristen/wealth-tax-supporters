@@ -16,3 +16,7 @@ K00014,A0003,manual_search,,2026-11-16,none,,"Two searches; a 2025 AllAfrica rep
 K00015,A0008,manual_search,,2026-11-16,none,,"Searched name and bloc; only news articles found, no own site."
 K00016,A0010,manual_search,,2026-11-16,none,,"Searched in French and Arabic; only news and third-party pages mention the centre, no own site found."
 K00017,A0002,own_site,https://www.arp.tn,2026-11-16,found,facebook;x,"CHECK no added handle carries the name: the site may host several groups, or belong to a parent.; not added: youtube https://www.youtube.com/channel/UCRMK3ZlWSKq8lQvJtTDWRMg ()"
+K00018,A0003,manual_search,https://www.cnrd.tn/,2026-11-16,found,website,"Address was my own guess from the acronym; opened it and the footer reads 'المجلس الوطني للجهات والأقاليم' with 2026 copyright and a Bardo address, and the ARP site refers to the council in the same t"
+K00019,A0008,manual_search,,2026-11-16,none,,Search showed only news coverage of the parliamentary bloc; no own site found
+K00020,A0010,manual_search,,2026-11-16,none,,"Two searches (French, Arabic) found only press and research mentions naming founder Amine Bouzaiene; no own site seen."
+K00021,A0003,own_site,https://www.cnrd.tn/,2026-11-16,found,facebook,"CHECK no added handle carries the name: the site may host several groups, or belong to a parent."

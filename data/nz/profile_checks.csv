@@ -55,3 +55,6 @@ K00053,A0051,own_site,https://www.aaap.org.nz,2026-11-16,found,facebook;x;instag
 K00054,A0049,own_site,https://equalitynetwork.org.nz,2026-11-16,none,,not added: facebook https://www.facebook.com/SPPUNZ ()
 K00055,A0053,own_site,https://www.nzccss.org.nz,2026-11-16,found,facebook;instagram;x,"CHECK no added handle carries the name: the site may host several groups, or belong to a parent."
 K00056,A0055,own_site,https://www.aucklandcatholic.org.nz/justicepeace/,2026-11-16,blocked,,403 at https://www.aucklandcatholic.org.nz/justicepeace/
+K00057,A0015,manual_search,,2026-11-16,none,,Searches showed only news and coalition pages; guessed ecuaction domains did not resolve; the proposal is hosted elsewhere (alternativeaotearoa.nz) which I did not open; nothing confirmed
+K00058,A0042,manual_search,,2026-11-16,none,,Search showed only news coverage; guessed domains did not resolve; nothing confirmed
+K00059,A0054,manual_search,,2026-11-16,none,,Search showed only third-party pages; labour.org.nz homepage has no link to this committee; nothing confirmed

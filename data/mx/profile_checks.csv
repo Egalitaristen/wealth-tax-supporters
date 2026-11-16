@@ -101,3 +101,8 @@ K00099,A0106,manual_search,https://ciep.mx,2026-11-16,found,website,Found via se
 K00100,A0066,own_site,https://nomasdeudapublica.org,2026-11-16,found,facebook,
 K00101,A0027,own_site,https://accionar.io,2026-11-16,blocked,,robots.txt forbids https://accionar.io
 K00102,A0106,own_site,https://ciep.mx,2026-11-16,found,youtube;facebook;x,"CHECK no added handle carries the name: the site may host several groups, or belong to a parent.; not added: linkedin https://www.linkedin.com/in/judith-senyacen-m%C3%A9ndez-22697158 (social-block); linkedin https://www.linkedin.com/in/jose-luis-clavellina-miller-b6393831 (social-block); linkedin https://www.linkedin.com/in/sunny-a-villa (social-block); linkedin https://www.linkedin.com/in/rcantuc"
+K00103,A0058,manual_search,,2026-11-16,none,,"Wikipedia lists mtsmexico.org but it did not resolve; the group's pages sit inside Izquierda Diario, a network site, so not returned."
+K00104,A0059,manual_search,,2026-11-16,none,,Searches rate-limited or showed only electoral-authority documents; a guessed address (pt.org.mx) did not resolve; nothing confirmed
+K00105,A0061,manual_search,,2026-11-16,none,,Two searches showed only news coverage and no own site; guessed cnte.org.mx did not resolve; nothing confirmed
+K00106,A0062,manual_search,,2026-11-16,none,,Searches showed only news and partner pages; guessed domains did not resolve; nothing confirmed
+K00107,A0063,manual_search,,2026-11-16,none,,"Search rate-limited, guessed domain did not resolve; nothing confirmed"

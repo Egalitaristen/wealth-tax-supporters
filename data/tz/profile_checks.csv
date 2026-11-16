@@ -13,3 +13,5 @@ K00011,A0015,manual_search,,2026-11-16,none,,"Searched name plus Tanzania; only 
 K00012,A0004,manual_search,https://www.kirkensnodhjelp.no/en,2026-11-16,none,,"rejected https://www.kirkensnodhjelp.no/en: the page's title and headings do not carry the name; First search result for the name; opened it, identifies Norwegian Church Aid (Kirkens Nodhjelp), Oslo."
 K00013,A0002,own_site,https://www.development-finance.org,2026-11-16,none,,
 K00014,A0009,own_site,https://publicservices.international,2026-11-16,found,facebook;x;youtube;bluesky;linkedin;instagram,
+K00015,A0004,manual_search,https://kirkensnodhjelp.no/en,2026-11-16,none,,"rejected https://kirkensnodhjelp.no/en: the page's title and headings do not carry the name; Found via search for official site (Kirkens Nodhjelp = Norwegian Church Aid); opened English homepage, content matches NCA."
+K00016,A0015,manual_search,,2026-11-16,none,,Search found only Twaweza (different) and a directory listing for Mpakani Tunaweza Organisation; no own site confirmed.

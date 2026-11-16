@@ -28,3 +28,11 @@ K00026,A0016,manual_search,,2026-11-16,none,,Search found no own site.
 K00027,A0017,manual_search,,2026-11-16,none,,Search found no own site.
 K00028,A0018,manual_search,,2026-11-16,none,,"Search found no own site; only the IESS program portal, which is not theirs."
 K00029,A0019,manual_search,,2026-11-16,none,,Search found only news and Asamblea pages; guess fenacle.org not checked (fetch rate-limited).
+K00030,A0011,manual_search,https://revolucionciudadana.com.ec/,2026-11-16,found,website,"Found via search for the movement's site; result pages on revolucionciudadana.com.ec carry the Movimiento Revolución Ciudadana - Lista 5 Ecuador name in their content; direct fetch returned 403, so th"
+K00031,A0015,manual_search,https://fenocin.org,2026-11-16,found,website,"Own guess of obvious acronym domain; opened it, title and text name FENOCIN as the national peasant, indigenous, Afro-Ecuadorian organisation in Ecuador."
+K00032,A0016,manual_search,,2026-11-16,none,,Search rate-limited then no own site found; none confirmed.
+K00033,A0017,manual_search,,2026-11-16,none,,"Searched name and CNC-EA; only third-party mentions, no own site seen."
+K00034,A0018,manual_search,,2026-11-16,none,,"Searched name and acronym; only news and government pages, no own site seen."
+K00035,A0019,manual_search,,2026-11-16,none,,Searched twice; guessed fenacle.org does not resolve; no own site seen.
+K00036,A0011,own_site,https://revolucionciudadana.com.ec/,2026-11-16,blocked,,403 at https://revolucionciudadana.com.ec/
+K00037,A0015,own_site,https://fenocin.org,2026-11-16,none,,

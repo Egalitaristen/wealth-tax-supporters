@@ -3070,3 +3070,65 @@ P03076,A0023,youtube,https://www.youtube.com/user/SEIUUHWOnline,linked from http
 P03077,A0023,instagram,https://www.instagram.com/seiuuhw/,linked from https://www.seiu-uhw.org,2026-11-16
 P03078,A0023,linkedin,https://www.linkedin.com/company/seiu-uhw,linked from https://www.seiu-uhw.org,2026-11-16
 P03079,A0023,tiktok,https://www.tiktok.com/@seiu_uhw,linked from https://www.seiu-uhw.org,2026-11-16
+P03080,A0815,website,https://www.umcjustice.org,"web search: Domain seen in search results; opened it, footer reads General Board of Church and Society of The United Methodist Church.",2026-11-16
+P03081,A0820,website,https://dsasandiego.org/,"web search: First result of search for the chapter; opened, heading Democratic Socialists of America San Diego.",2026-11-16
+P03082,A0821,website,https://www.sfdems.org/,"web search: Found sfdemocrats.org in search; it redirects (301) to sfdems.org, opened, heading San Francisco Democratic Party.",2026-11-16
+P03083,A0824,website,https://accountable.us/,"web search: Search result showed accountable.us/about/our-board-and-leadership (Who We Are) for Accountable.US; homepage fetch failed on SSL, homepage address derived from that result. Accountable.NOW name not se",2026-11-16
+P03084,A0825,website,https://actiontogethernepa.org,"web search: Domain given by nonprofit directory listing (Mountain Top PA); opened it and it describes Action Together NEPA, a 501(c)(4) in northeastern Pennsylvania.",2026-11-16
+P03085,A0826,website,https://act-ct.org,"web search: Domain seen in a search result mirror, opened it: title Advancing CT Together, Hartford-based, Advancing Connecticut Together (ACT).",2026-11-16
+P03086,A0847,website,https://mentalhealthpartnerships.org/,"web search: mhphope.org (from VoterVoice campaign page MHPHOPE, Philadelphia nonprofit) 301-redirects to mentalhealthpartnerships.org; page itself returned 403 so title not read; Philadelphia identity from listin",2026-11-16
+P03087,A0850,website,https://www.nebraskaforus.org,"web search: Domain from search result (InfluenceWatch cites it); opened it and the page is Nebraska For Us, federal policy impact on Nebraskans.",2026-11-16
+P03088,A0852,website,https://ncbudget.org,"web search: Domain NCBudget.org from search results and directory listings; opened it, title Home - NC Budget & Tax Center.",2026-11-16
+P03089,A0855,website,https://opportunityarizona.org/,"web search: Found via search (directory listings gave opportunityarizona.org); opened it, title and footer name Opportunity Arizona.",2026-11-16
+P03090,A0856,website,https://pennpolicy.org/,"web search: Found via search listings naming pennpolicy.org; opened it, heading and footer say Pennsylvania Policy Center.",2026-11-16
+P03091,A0859,website,https://swecwa.org/,"web search: Found via Idealist listing giving swecwa.org; opened it, site name and footer say Southwest Washington Equity Coalition.",2026-11-16
+P03092,A0862,website,https://uusj.net/wp1,"web search: GuideStar listing gave uusj.org, which redirects (301) to uusj.net; opened it, title and heading name the organisation.",2026-11-16
+P03093,A0863,website,https://www.wpsr.org/,"web search: Found via GuideStar/Idealist listings giving wpsr.org; opened it, heading and footer name Washington Physicians for Social Responsibility.",2026-11-16
+P03094,A0881,website,https://labortoday.international,"web search: Found in search (InfluenceWatch names labortoday.international); opened it: Los Angeles-based Labor Today International, WFTU-linked.",2026-11-16
+P03095,A0825,facebook,https://www.facebook.com/ActionTogether.NEPA,linked from https://actiontogethernepa.org,2026-11-16
+P03096,A0825,bluesky,https://bsky.app/profile/actiontogethernepa.bsky.social,linked from https://actiontogethernepa.org,2026-11-16
+P03097,A0825,instagram,https://www.instagram.com/actiontogethernepa/,linked from https://actiontogethernepa.org,2026-11-16
+P03098,A0825,youtube,https://www.youtube.com/channel/UC-TSKeA33St5FDpWEFO2MOw,linked from https://actiontogethernepa.org,2026-11-16
+P03099,A0825,tiktok,https://www.tiktok.com/@actiontogethernepa,linked from https://actiontogethernepa.org,2026-11-16
+P03100,A0825,linkedin,https://www.linkedin.com/company/actiontogethernepa,linked from https://actiontogethernepa.org,2026-11-16
+P03101,A0847,facebook,https://www.facebook.com/MentalHealthPartnerships,linked from https://mentalhealthpartnerships.org/,2026-11-16
+P03102,A0847,instagram,https://www.instagram.com/mentalhealthpartnerships/,linked from https://mentalhealthpartnerships.org/,2026-11-16
+P03103,A0847,youtube,https://www.youtube.com/channel/UC7SMlVppPbXtNm-UWpLv6VA,linked from https://mentalhealthpartnerships.org/,2026-11-16
+P03104,A0847,linkedin,https://www.linkedin.com/company/mhphope,linked from https://mentalhealthpartnerships.org/,2026-11-16
+P03105,A0847,x,https://x.com/MHPHope,linked from https://mentalhealthpartnerships.org/,2026-11-16
+P03106,A0855,instagram,https://www.instagram.com/opportunityarizona/,linked from https://opportunityarizona.org/,2026-11-16
+P03107,A0855,facebook,https://www.facebook.com/OpportunityAZ,linked from https://opportunityarizona.org/,2026-11-16
+P03108,A0855,bluesky,https://bsky.app/profile/opportunityarizona.bsky.social,linked from https://opportunityarizona.org/,2026-11-16
+P03109,A0855,youtube,https://www.youtube.com/@opportunityarizona2490,linked from https://opportunityarizona.org/,2026-11-16
+P03110,A0855,x,https://x.com/OpportunityAZ,linked from https://opportunityarizona.org/,2026-11-16
+P03111,A0863,instagram,https://www.instagram.com/psr_washington/,linked from https://www.wpsr.org/,2026-11-16
+P03112,A0863,linkedin,https://www.linkedin.com/company/washington-physicians-for-social-responsibility,linked from https://www.wpsr.org/,2026-11-16
+P03113,A0863,facebook,https://www.facebook.com/WashingtonPSR,linked from https://www.wpsr.org/,2026-11-16
+P03114,A0863,bluesky,https://bsky.app/profile/wpsr.bsky.social,linked from https://www.wpsr.org/,2026-11-16
+P03115,A0881,facebook,https://www.facebook.com/Comunicacionescpc,linked from https://labortoday.international,2026-11-16
+P03116,A0881,x,https://x.com/laborwftu,linked from https://labortoday.international,2026-11-16
+P03117,A0815,facebook,https://www.facebook.com/umcjustice,linked from https://www.umcjustice.org,2026-11-16
+P03118,A0815,instagram,https://www.instagram.com/umcjustice_gbcs/,linked from https://www.umcjustice.org,2026-11-16
+P03119,A0815,youtube,https://www.youtube.com/user/GBCSVideo,linked from https://www.umcjustice.org,2026-11-16
+P03120,A0815,x,https://x.com/umcjustice,linked from https://www.umcjustice.org,2026-11-16
+P03121,A0859,facebook,https://www.facebook.com/swecwa,linked from https://swecwa.org/,2026-11-16
+P03122,A0859,instagram,https://www.instagram.com/swec.sw.wa/,linked from https://swecwa.org/,2026-11-16
+P03123,A0850,facebook,https://www.facebook.com/NebraskaForUs,linked from https://www.nebraskaforus.org,2026-11-16
+P03124,A0850,x,https://x.com/NebraskaForUs,linked from https://www.nebraskaforus.org,2026-11-16
+P03125,A0856,x,https://x.com/PennPolicy,linked from https://pennpolicy.org/,2026-11-16
+P03126,A0856,bluesky,https://bsky.app/profile/pennpolicycenter.bsky.social,linked from https://pennpolicy.org/,2026-11-16
+P03127,A0856,facebook,https://www.facebook.com/pennpolicycenter,linked from https://pennpolicy.org/,2026-11-16
+P03128,A0856,youtube,https://www.youtube.com/@PennPolicyCenter,linked from https://pennpolicy.org/,2026-11-16
+P03129,A0856,instagram,https://www.instagram.com/pennpolicycenter/,linked from https://pennpolicy.org/,2026-11-16
+P03130,A0852,x,https://x.com/ncbudgetandtax,linked from https://ncbudget.org,2026-11-16
+P03131,A0852,facebook,https://www.facebook.com/ncbudget,linked from https://ncbudget.org,2026-11-16
+P03132,A0852,instagram,https://www.instagram.com/ncbudgetandtax/,linked from https://ncbudget.org,2026-11-16
+P03133,A0852,linkedin,https://www.linkedin.com/company/nc-budget-tax-center,linked from https://ncbudget.org,2026-11-16
+P03134,A0852,youtube,https://www.youtube.com/channel/UC0yUEdyZRRBj7R5FivZLGyg,linked from https://ncbudget.org,2026-11-16
+P03135,A0820,instagram,https://www.instagram.com/dsa.san.diego/,linked from https://dsasandiego.org/,2026-11-16
+P03136,A0820,tiktok,https://www.tiktok.com/@dsasandiego,linked from https://dsasandiego.org/,2026-11-16
+P03137,A0820,bluesky,https://bsky.app/profile/dsasandiego.org,linked from https://dsasandiego.org/,2026-11-16
+P03138,A0820,youtube,https://www.youtube.com/@dsasandiego,linked from https://dsasandiego.org/,2026-11-16
+P03139,A0826,facebook,https://www.facebook.com/advancingct,linked from https://act-ct.org,2026-11-16
+P03140,A0826,x,https://x.com/advancingct,linked from https://act-ct.org,2026-11-16
+P03141,A0826,instagram,https://www.instagram.com/advancingct/,linked from https://act-ct.org,2026-11-16

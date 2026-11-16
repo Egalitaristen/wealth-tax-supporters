@@ -1,1 +1,8 @@
 profile_id,actor_id,platform,url,source,checked
+P00001,A0001,website,https://zambia.actionaid.org/,"web search: Top search result for exact name; opened homepage, site is ActionAid Zambia's country site (Lusaka office).",2026-11-16
+P00002,A0003,website,https://cuts-lusaka.org/,"web search: Address seen in search result (job posting listing it as CUTS Lusaka web address); opened it, page describes CUTS International Lusaka, Kabulonga.",2026-11-16
+P00003,A0001,instagram,https://www.instagram.com/actionaidzambia/,linked from https://zambia.actionaid.org/,2026-11-16
+P00004,A0001,linkedin,https://www.linkedin.com/company/actionaid-zambia,linked from https://zambia.actionaid.org/,2026-11-16
+P00005,A0001,x,https://x.com/ActionAidZambia,linked from https://zambia.actionaid.org/,2026-11-16
+P00006,A0003,facebook,https://www.facebook.com/CUTSLusaka,linked from https://cuts-lusaka.org/,2026-11-16
+P00007,A0003,x,https://x.com/CUTS_Lusaka,linked from https://cuts-lusaka.org/,2026-11-16
