@@ -330,3 +330,30 @@ P00348,A0293,website,https://www.unioneinquilini.it,"web search: Own guess of ob
 P00349,A0294,website,https://www.medicinademocratica.org/,"web search: Domain seen in a search result (association email address) and guessed; opened it, title is Medicina Democratica movimento di lotta per la salute.",2026-11-16
 P00350,A0301,website,https://www.nigrizia.it,"web search: Own guess of obvious domain; opened it, title and footer (Copyright Nigrizia) match the Comboni Africa magazine.",2026-11-16
 P00351,A0303,website,https://terredeshommes.it/,"web search: Found via search result listing terredeshommes.it; opened it, title names Terre des Hommes Italia, child protection.",2026-11-16
+P00352,A0301,facebook,https://www.facebook.com/Nigrizia,linked from https://www.nigrizia.it,2026-11-16
+P00353,A0301,x,https://x.com/nigrizia,linked from https://www.nigrizia.it,2026-11-16
+P00354,A0301,youtube,https://www.youtube.com/c/Nigrizia_social,linked from https://www.nigrizia.it,2026-11-16
+P00355,A0301,instagram,https://www.instagram.com/nigrizia.it/,linked from https://www.nigrizia.it,2026-11-16
+P00356,A0303,facebook,https://www.facebook.com/terredeshommesitalia,linked from https://terredeshommes.it/,2026-11-16
+P00357,A0303,instagram,https://www.instagram.com/terredeshommesitalia/,linked from https://terredeshommes.it/,2026-11-16
+P00358,A0303,linkedin,https://www.linkedin.com/company/terre-des-hommes-italia,linked from https://terredeshommes.it/,2026-11-16
+P00359,A0303,bluesky,https://bsky.app/profile/terredeshommesit.bsky.social,linked from https://terredeshommes.it/,2026-11-16
+P00360,A0283,linkedin,https://www.linkedin.com/company/fondazione-finanza-etica,linked from https://finanzaetica.info,2026-11-16
+P00361,A0283,facebook,https://www.facebook.com/FondazioneFinanzaEtica,linked from https://finanzaetica.info,2026-11-16
+P00362,A0283,instagram,https://www.instagram.com/finanzaetica/,linked from https://finanzaetica.info,2026-11-16
+P00363,A0291,facebook,https://www.facebook.com/cittadinanzattiva,linked from https://www.cittadinanzattiva.it,2026-11-16
+P00364,A0291,tiktok,https://www.tiktok.com/@cittadinanzattiva_,linked from https://www.cittadinanzattiva.it,2026-11-16
+P00365,A0291,instagram,https://www.instagram.com/cittadinanzattiva/,linked from https://www.cittadinanzattiva.it,2026-11-16
+P00366,A0291,youtube,https://www.youtube.com/channel/UCnO7cuC_EK9dsOlWL86Lb8w,linked from https://www.cittadinanzattiva.it,2026-11-16
+P00367,A0291,x,https://x.com/cittadinanzatti,linked from https://www.cittadinanzattiva.it,2026-11-16
+P00368,A0293,facebook,https://www.facebook.com/unioneinquilininotizie,linked from https://www.unioneinquilini.it,2026-11-16
+P00369,A0293,instagram,https://www.instagram.com/unioneinquilini/,linked from https://www.unioneinquilini.it,2026-11-16
+P00370,A0293,x,https://x.com/romainquilini,linked from https://www.unioneinquilini.it,2026-11-16
+P00371,A0013,instagram,https://www.instagram.com/fondazionedemo/,linked from https://www.fondazionedemo.it/contact/,2026-11-16
+P00372,A0013,facebook,https://www.facebook.com/fondazionedemo,linked from https://www.fondazionedemo.it/contact/,2026-11-16
+P00373,A0013,linkedin,https://www.linkedin.com/company/fondazione-demo,linked from https://www.fondazionedemo.it/contact/,2026-11-16
+P00374,A0286,facebook,https://www.facebook.com/wwfitalia,linked from https://www.wwf.it,2026-11-16
+P00375,A0286,x,https://x.com/WWFitalia,linked from https://www.wwf.it,2026-11-16
+P00376,A0286,instagram,https://www.instagram.com/wwfitalia/,linked from https://www.wwf.it,2026-11-16
+P00377,A0286,linkedin,https://www.linkedin.com/company/wwf-italia,linked from https://www.wwf.it,2026-11-16
+P00378,A0286,youtube,https://www.youtube.com/user/WWFItalia,linked from https://www.wwf.it,2026-11-16

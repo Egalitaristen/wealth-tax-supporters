@@ -46,3 +46,4 @@ K00044,A0018,manual_search,,2026-11-16,none,,Not searched: fetch rate-limited an
 K00045,A0042,manual_search,,2026-11-16,none,,Not searched: fetch rate-limited and search quota exhausted
 K00046,A0044,manual_search,,2026-11-16,none,,Not searched: fetch rate-limited and search quota exhausted
 K00047,A0045,manual_search,https://budgetjusticesa.org/,2026-11-16,found,website,"Found via search for the exact name; result pages on budgetjusticesa.org describe the coalition's steering committee, submissions to Finance Committees and Imali Yesizwe alternative budget; homepage n"
+K00048,A0045,own_site,https://budgetjusticesa.org/,2026-11-16,found,x,

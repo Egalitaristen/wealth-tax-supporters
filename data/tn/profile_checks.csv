@@ -15,3 +15,4 @@ K00013,A0002,manual_search,https://www.arp.tn,2026-11-16,found,website,Guessed a
 K00014,A0003,manual_search,,2026-11-16,none,,"Two searches; a 2025 AllAfrica report says the council has no site of its own and is relayed through the ARP site, so nothing returned."
 K00015,A0008,manual_search,,2026-11-16,none,,"Searched name and bloc; only news articles found, no own site."
 K00016,A0010,manual_search,,2026-11-16,none,,"Searched in French and Arabic; only news and third-party pages mention the centre, no own site found."
+K00017,A0002,own_site,https://www.arp.tn,2026-11-16,found,facebook;x,"CHECK no added handle carries the name: the site may host several groups, or belong to a parent.; not added: youtube https://www.youtube.com/channel/UCRMK3ZlWSKq8lQvJtTDWRMg ()"

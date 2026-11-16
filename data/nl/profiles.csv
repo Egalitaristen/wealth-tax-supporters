@@ -718,3 +718,17 @@ P00739,A0171,website,https://utrecht.sp.nl,"web search: Seen in search results (
 P00740,A0172,website,https://denhaag.sp.nl,"web search: Seen in search results (denhaag.sp.nl files); opened homepage, logo reads Socialistische Partij Den Haag.",2026-11-16
 P00741,A0204,website,https://www.tweedekamer.nl,"web search: Obvious domain (my own guess), opened; site name is the Dutch House of Representatives.",2026-11-16
 P00742,A0210,website,https://venlo.sp.nl,"web search: Found in search results for SP Venlo; opened homepage, Venlo branch of the SP with local news.",2026-11-16
+P00743,A0204,facebook,https://www.facebook.com/TweedeKamer,linked from https://www.tweedekamer.nl,2026-11-16
+P00744,A0204,instagram,https://www.instagram.com/tweede_kamer/,linked from https://www.tweedekamer.nl,2026-11-16
+P00745,A0204,linkedin,https://www.linkedin.com/company/tweede-kamer-der-staten-generaal,linked from https://www.tweedekamer.nl,2026-11-16
+P00746,A0204,x,https://x.com/2eKamertweets,linked from https://www.tweedekamer.nl,2026-11-16
+P00747,A0171,facebook,https://www.facebook.com/sputrecht,linked from https://utrecht.sp.nl,2026-11-16
+P00748,A0171,instagram,https://www.instagram.com/sp_utrecht/,linked from https://utrecht.sp.nl,2026-11-16
+P00749,A0171,mastodon,https://mastodon.nl/@sputrecht,linked from https://utrecht.sp.nl,2026-11-16
+P00750,A0166,facebook,https://www.facebook.com/SPAmsterdam,linked from https://amsterdam.sp.nl,2026-11-16
+P00751,A0166,instagram,https://www.instagram.com/sp_amsterdam/,linked from https://amsterdam.sp.nl,2026-11-16
+P00752,A0166,x,https://x.com/sp_amsterdam,linked from https://amsterdam.sp.nl,2026-11-16
+P00753,A0166,youtube,https://www.youtube.com/@sp_amsterdam,linked from https://amsterdam.sp.nl,2026-11-16
+P00754,A0172,facebook,https://www.facebook.com/SPDenHaag,linked from https://denhaag.sp.nl,2026-11-16
+P00755,A0172,instagram,https://www.instagram.com/spdenhaag/,linked from https://denhaag.sp.nl,2026-11-16
+P00756,A0172,x,https://x.com/SPdenhaag,linked from https://denhaag.sp.nl,2026-11-16

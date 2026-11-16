@@ -203,3 +203,11 @@ K00201,A0183,manual_search,https://www.gruene.ch,2026-11-16,none,,"rejected http
 K00202,A0086,manual_search,https://al-zh.ch,2026-11-16,none,,"rejected https://al-zh.ch: the page's title and headings do not carry the name; Found in search results (al-zh.ch PDFs state www.al-zh.ch); opened homepage, Molkenstrasse 21 Zürich."
 K00203,A0103,manual_search,https://www.sp-ps.ch,2026-11-16,none,,"rejected https://www.sp-ps.ch: the page's title and headings do not carry the name; Guessed domain from acronym; opened, structured data names Sozialdemokratische Partei, national party."
 K00204,A0183,manual_search,https://www.gruene.ch,2026-11-16,found,website,"Guessed domain; opened, page is GRÜNE Schweiz, the Swiss Green Party."
+K00205,A0183,own_site,https://www.gruene.ch,2026-11-16,found,facebook;x;instagram;linkedin;youtube,"CHECK no added handle carries the name: the site may host several groups, or belong to a parent."
+K00206,A0114,own_site,https://glp.swiss/,2026-11-16,found,instagram;facebook;x;youtube,
+K00207,A0088,own_site,https://gruene-zh.ch,2026-11-16,found,instagram;facebook;bluesky,
+K00208,A0102,own_site,https://www.spsh.ch,2026-11-16,found,instagram;facebook;linkedin,not added: instagram https://www.instagram.com/stillwavystudio/ (); facebook https://www.facebook.com/policy.php ()
+K00209,A0087,own_site,https://www.spzuerich.ch,2026-11-16,found,instagram;facebook;tiktok;bluesky,
+K00210,A0107,own_site,https://www.ge.ch/organisation/conseil-etat,2026-11-16,found,instagram,not added: x https://x.com/GE_infos (meta)
+K00211,A0173,own_site,https://verditicino.ch/,2026-11-16,found,facebook;x;instagram,
+K00212,A0112,own_site,https://www.pop-ne.ch,2026-11-16,found,facebook;instagram,

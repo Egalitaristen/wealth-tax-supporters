@@ -50,3 +50,8 @@ K00048,A0052,manual_search,https://www.salvationarmy.org.nz,2026-11-16,found,web
 K00049,A0053,manual_search,https://www.nzccss.org.nz,2026-11-16,found,website,"Domain seen in search results (nzccss.org.nz) for NZCCSS; opened, site is the Christian social services council."
 K00050,A0054,manual_search,,2026-11-16,none,,Search found only mentions of the committee on other sites; no own page confirmed (Labour page fetch was rate-limited).
 K00051,A0055,manual_search,https://www.aucklandcatholic.org.nz/justicepeace/,2026-11-16,found,website,"Found via search for the exact name; it is the Justice and Peace section on the Auckland Catholic Diocese's own site (page fetch returned 403, so title taken from the search result and its description"
+K00052,A0052,own_site,https://www.salvationarmy.org.nz,2026-11-16,found,facebook;youtube;instagram,
+K00053,A0051,own_site,https://www.aaap.org.nz,2026-11-16,found,facebook;x;instagram,
+K00054,A0049,own_site,https://equalitynetwork.org.nz,2026-11-16,none,,not added: facebook https://www.facebook.com/SPPUNZ ()
+K00055,A0053,own_site,https://www.nzccss.org.nz,2026-11-16,found,facebook;instagram;x,"CHECK no added handle carries the name: the site may host several groups, or belong to a parent."
+K00056,A0055,own_site,https://www.aucklandcatholic.org.nz/justicepeace/,2026-11-16,blocked,,403 at https://www.aucklandcatholic.org.nz/justicepeace/

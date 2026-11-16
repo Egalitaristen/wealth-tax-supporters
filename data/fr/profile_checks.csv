@@ -948,3 +948,17 @@ K00946,A0493,manual_search,,2026-11-16,none,,"cadtm.org is the international CAD
 K00947,A0494,manual_search,https://www.alerte-exclusions.fr,2026-11-16,found,website,"Found via search result citing the site; opened it, footer names Collectif ALERTE national Uniopss, 37 national federations"
 K00948,A0496,manual_search,https://indecosa.fr,2026-11-16,found,website,"Listed as the website in the INC consumer directory; opened it, heading Indecosa-CGT, CGT consumer association"
 K00949,A0497,manual_search,https://droitaulogement.org,2026-11-16,found,website,"Own guess of the obvious domain; opened it, title and footer (c) Droit Au Logement confirm"
+K00950,A0456,own_site,https://venissieux.fr/vivre-a-venissieux/vie-citoyenne/conseil-municipal/,2026-11-16,error,,406 at https://venissieux.fr/vivre-a-venissieux/vie-citoyenne/conseil-municipal/
+K00951,A0433,own_site,https://www.loire-atlantique.fr/,2026-11-16,found,facebook;instagram;youtube;linkedin,
+K00952,A0490,own_site,https://greenfaith.org,2026-11-16,found,facebook;x;youtube;linkedin;instagram,
+K00953,A0462,own_site,https://institutlaboetie.fr,2026-11-16,found,facebook;instagram;youtube;linkedin;x,not added: x https://x.com/LaBoetieInst (meta)
+K00954,A0457,own_site,https://www.bourgognefranchecomte.fr,2026-11-16,found,facebook;x;youtube;instagram;linkedin,
+K00955,A0497,own_site,https://droitaulogement.org,2026-11-16,found,x;facebook,"not added: facebook https://www.facebook.com/europeancoalition (chrome,social-block); facebook https://www.facebook.com/NoVoxnetwork (chrome,social-block)"
+K00956,A0473,own_site,https://www.actioncontrelafaim.org,2026-11-16,blocked,,403 at https://www.actioncontrelafaim.org
+K00957,A0460,own_site,https://fsu.fr,2026-11-16,found,facebook;bluesky;instagram;youtube,
+K00958,A0434,own_site,https://www.strasbourg.eu/fr/presentation-fonctionnement-ville-strasbourg,2026-11-16,found,facebook;x;bluesky;instagram;linkedin,
+K00959,A0494,own_site,https://www.alerte-exclusions.fr,2026-11-16,found,linkedin;x,
+K00960,A0496,own_site,https://indecosa.fr,2026-11-16,found,facebook;instagram,
+K00961,A0489,own_site,https://www.joc.asso.fr,2026-11-16,none,,"not added: facebook https://www.facebook.com/JOC2France (chrome,social-block); tiktok https://www.tiktok.com/@joc2france (chrome,social-block); instagram https://www.instagram.com/joc2france/ (chrome,social-block); x https://x.com/JOC2France (chrome,social-block); youtube https://www.youtube.com/channel/UCXr_q"
+K00962,A0455,own_site,https://www.asso-sherpa.org,2026-11-16,error,,406 at https://www.asso-sherpa.org
+K00963,A0459,own_site,https://www.unsa.org,2026-11-16,found,facebook;instagram;linkedin;x;youtube;tiktok,"CHECK no added handle carries the name: the site may host several groups, or belong to a parent."

@@ -5,3 +5,5 @@ K00003,A0005,own_site,https://www.tillymetz.lu,2026-11-16,found,bluesky;tiktok;x
 K00004,A0001,manual_search,https://www.dei-lenk.lu,2026-11-16,found,website,"Own guess of obvious domain; opened it, title and footer show déi Lénk, Luxembourg address, European Left affiliation."
 K00005,A0002,manual_search,https://www.greng.lu,2026-11-16,found,website,"Own guess of obvious domain; opened it, header shows déi gréng with Eis Partei/Eis Deputéiert nav and greng.lu contact email."
 K00006,A0003,manual_search,,2026-11-16,none,,"kpl.lu and kp-l.org (listed on Wikipedia) open only a placeholder page with title as the bare domain; zlv.lu is the party newspaper, not the party; no confirmed own site."
+K00007,A0001,own_site,https://www.dei-lenk.lu,2026-11-16,found,facebook;bluesky;instagram,
+K00008,A0002,own_site,https://www.greng.lu,2026-11-16,found,facebook;instagram;bluesky;tiktok;youtube;linkedin,

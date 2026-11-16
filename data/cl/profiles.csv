@@ -102,3 +102,18 @@ P00100,A0016,website,https://www.anef.cl,"web search: Guessed domain from acrony
 P00101,A0018,website,https://www.aneiich.cl,"web search: Acronym ANEIICH learned from search; guessed domain, opened, title names the Asociación Nacional de Funcionarios de Impuestos Internos.",2026-11-16
 P00102,A0019,website,https://publicservices.international/?lang=es,"web search: Guessed domain; opened Spanish version, page is Public Services International (Internacional de Servicios Públicos).",2026-11-16
 P00103,A0020,website,https://chile.fes.de,"web search: Found via search results (chile.fes.de pages); opened homepage, heading names FES en Chile, Santiago office.",2026-11-16
+P00104,A0019,facebook,https://www.facebook.com/PSIglobalunion,linked from https://publicservices.international/?lang=es,2026-11-16
+P00105,A0019,x,https://x.com/PSIglobalunion,linked from https://publicservices.international/?lang=es,2026-11-16
+P00106,A0019,youtube,https://www.youtube.com/user/PSIglobalunion,linked from https://publicservices.international/?lang=es,2026-11-16
+P00107,A0019,bluesky,https://bsky.app/profile/psiglobalunion.bsky.social,linked from https://publicservices.international/?lang=es,2026-11-16
+P00108,A0019,linkedin,https://www.linkedin.com/company/psi---public-services-international,linked from https://publicservices.international/?lang=es,2026-11-16
+P00109,A0019,instagram,https://www.instagram.com/psiglobalunion/,linked from https://publicservices.international/?lang=es,2026-11-16
+P00110,A0016,facebook,https://www.facebook.com/anef.chile,linked from https://www.anef.cl,2026-11-16
+P00111,A0016,x,https://x.com/anefchile,linked from https://www.anef.cl,2026-11-16
+P00112,A0016,instagram,https://www.instagram.com/anef_chile/,linked from https://www.anef.cl,2026-11-16
+P00113,A0016,youtube,https://www.youtube.com/@anefchile6167,linked from https://www.anef.cl,2026-11-16
+P00114,A0018,x,https://x.com/aneiich,linked from https://www.aneiich.cl,2026-11-16
+P00115,A0018,instagram,https://www.instagram.com/aneiichchile/,linked from https://www.aneiich.cl,2026-11-16
+P00116,A0020,facebook,https://www.facebook.com/feschile,linked from https://chile.fes.de,2026-11-16
+P00117,A0020,x,https://x.com/FESChile,linked from https://chile.fes.de,2026-11-16
+P00118,A0020,instagram,https://www.instagram.com/feschile/,linked from https://chile.fes.de,2026-11-16

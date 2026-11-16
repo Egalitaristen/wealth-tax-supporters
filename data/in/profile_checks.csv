@@ -115,3 +115,5 @@ K00113,A0045,manual_search,,2026-11-16,none,,Search found only Wikipedia/mirrors
 K00114,A0048,manual_search,https://cpiml.org/,2026-11-16,found,website,Found cpiml.org via search results (party update pages) and opened it; title names the party and its organ Liberation.
 K00115,A0049,manual_search,,2026-11-16,none,,Directory listed rsp.org.in but opening it showed an unrelated career-skills site; no confirmed own site.
 K00116,A0062,manual_search,,2026-11-16,none,,"Searched; only news reports and CPI(ML) update pages mention the campaign, no own site found."
+K00117,A0042,own_site,https://www.sewa.org,2026-11-16,found,youtube;facebook;linkedin;instagram;x,
+K00118,A0048,own_site,https://cpiml.org/,2026-11-16,found,x;facebook;instagram;youtube,

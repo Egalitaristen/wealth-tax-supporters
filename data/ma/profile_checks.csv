@@ -27,3 +27,4 @@ K00025,A0006,orcid,https://orcid.org/0009-0006-3859-5136,2026-11-16,none,,ORCID 
 K00026,A0011,orcid,,2026-11-16,none,,no single ORCID record with the name
 K00027,A0014,manual_search,https://www.espace-associatif.ma,2026-11-16,found,website,"Own guess of obvious domain; opened it, header and logo read L'Espace Associatif, Moroccan association founded 1996 for the associative movement and democratic development."
 K00028,A0015,manual_search,,2026-11-16,none,,"Searched French name and acronym; no own domain in results; odt.ma guess returned no usable content, not confirmed."
+K00029,A0014,own_site,https://www.espace-associatif.ma,2026-11-16,found,facebook;x;youtube,500 at https://www.espace-associatif.ma/contactez-nous/

@@ -94,3 +94,8 @@ K00092,A0045,manual_search,,2026-11-16,none,,"Searched twice; results irrelevant
 K00093,A0047,manual_search,,2026-11-16,none,,"SUKI Network appears only as a section of ibon.org (IBON Foundation), a different organisation; no own site found."
 K00094,A0048,manual_search,,2026-11-16,none,,"Two searches; only news coverage of the Negros coalition (UNDOC-Piston, KNETCO, BACODNI), no own site found"
 K00095,A0050,manual_search,,2026-11-16,none,,"Blog cited in Wikipedia reference list as SANLAKAS Partylist; opened, heading SANLAKAS; could not confirm it is current or has a dedicated domain"
+K00096,A0006,own_site,https://oxfam.org.ph/,2026-11-16,found,facebook;bluesky;tiktok,
+K00097,A0019,own_site,https://apmdd.org/,2026-11-16,found,facebook;x;instagram;youtube,
+K00098,A0029,own_site,https://www.nagkaisa.org/,2026-11-16,none,,not added: facebook https://www.facebook.com/profile.php?id=61580676322290 (); x https://x.com/nagkaisa ()
+K00099,A0016,own_site,https://learn.org.ph/,2026-11-16,found,facebook;x;instagram,"CHECK no added handle carries the name: the site may host several groups, or belong to a parent."
+K00100,A0031,own_site,https://www.akbayan.org.ph/,2026-11-16,blocked,,429 at https://www.akbayan.org.ph/

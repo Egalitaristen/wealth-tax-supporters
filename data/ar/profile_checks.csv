@@ -352,3 +352,4 @@ K00350,A0027,manual_search,https://fonaf.org.ar/,2026-11-16,found,website,"Addre
 K00351,A0034,manual_search,,2026-11-16,none,,"Not searched beyond the batch pass; a municipal council group has no own site expected, and no search was run for it."
 K00352,A0035,manual_search,,2026-11-16,none,,"Not searched beyond the batch pass; a municipal council group has no own site expected, and no search was run for it."
 K00353,A0036,manual_search,,2026-11-16,none,,"Search for the name and 'sitio oficial' returned only news, theses and national CGT pages; no own site."
+K00354,A0027,own_site,https://fonaf.org.ar/,2026-11-16,found,x;instagram;facebook,"CHECK no added handle carries the name: the site may host several groups, or belong to a parent."

@@ -23,3 +23,5 @@ K00021,A0014,manual_search,,2026-11-16,none,,Nothing found.
 K00022,A0014,manual_search,,2026-11-16,none,,Search found only news quotes; no own site or official page.
 K00023,A0017,manual_search,https://bea-bd.org/,2026-11-16,found,website,"First search result for the name; opened it and the title is the association's name, with About, conferences and journal pages."
 K00024,A0018,manual_search,https://bnpbd.org/,2026-11-16,found,website,"Search results for the party name showed bnpbd.org pages (constitution, history, founding) and a 2026 document cites the party website for its leadership; the site returned HTTP 403 to my fetch, so th"
+K00025,A0018,own_site,https://bnpbd.org/,2026-11-16,found,youtube;x;tiktok,"CHECK no added handle carries the name: the site may host several groups, or belong to a parent.; not added: facebook https://www.facebook.com/bnpbd.org (social-block); facebook https://www.facebook.com/bdpmoffice (social-block); instagram https://www.instagram.com/bnpbd/ (social-block); instagram https://www.instagram.com/pmo.bd/ (social-block)"
+K00026,A0017,own_site,https://bea-bd.org/,2026-11-16,found,facebook;youtube;linkedin;x,

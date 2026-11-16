@@ -98,3 +98,6 @@ K00096,A0088,manual_search,,2026-11-16,none,,"Two searches (name, name plus Pact
 K00097,A0089,manual_search,,2026-11-16,none,,unitierra.org opened and is an Ecuadorian organisation; unitierraoax.org is a parked domain; no confirmed own site.
 K00098,A0091,manual_search,,2026-11-16,none,,Two searches found only Izquierda Diario articles and a Facebook page; no own site.
 K00099,A0106,manual_search,https://ciep.mx,2026-11-16,found,website,Found via search (RePEc and onthinktanks list ciep.mx); opened it and the title and About text name the organisation as a Mexico City public finance research centre.
+K00100,A0066,own_site,https://nomasdeudapublica.org,2026-11-16,found,facebook,
+K00101,A0027,own_site,https://accionar.io,2026-11-16,blocked,,robots.txt forbids https://accionar.io
+K00102,A0106,own_site,https://ciep.mx,2026-11-16,found,youtube;facebook;x,"CHECK no added handle carries the name: the site may host several groups, or belong to a parent.; not added: linkedin https://www.linkedin.com/in/judith-senyacen-m%C3%A9ndez-22697158 (social-block); linkedin https://www.linkedin.com/in/jose-luis-clavellina-miller-b6393831 (social-block); linkedin https://www.linkedin.com/in/sunny-a-villa (social-block); linkedin https://www.linkedin.com/in/rcantuc"

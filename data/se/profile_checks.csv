@@ -174,3 +174,9 @@ K00172,A0116,manual_search,,2026-11-16,none,,Two searches and guessed subdomain 
 K00173,A0117,manual_search,https://socialdemokraternaisala.se,2026-11-16,found,website,Address listed on the party's Sala Arbetarekommun page; opened it and title/footer say Socialdemokraterna i Sala.
 K00174,A0124,manual_search,,2026-11-16,none,,"Only listed as an entry on gavle.socialdemokraterna.se contact page (parent site, no own page)."
 K00175,A0132,manual_search,https://socialdemokraterna7h.se,2026-11-16,found,website,"Address listed on party's Sjuhäradsbygdens Partidistrikt page; opened it and footer names Sjuhäradsbygdens Partidistrikt, Borås."
+K00176,A0073,own_site,https://stockholmsstad.vansterpartiet.se,2026-11-16,none,,
+K00177,A0105,own_site,https://tatillbakaframtiden.se,2026-11-16,found,tiktok;instagram;facebook,
+K00178,A0132,own_site,https://socialdemokraterna7h.se,2026-11-16,none,,not added: facebook https://www.facebook.com/socialdemokraterna7h ()
+K00179,A0078,own_site,https://reformisterna.se,2026-11-16,found,facebook;instagram,
+K00180,A0117,own_site,https://socialdemokraternaisala.se,2026-11-16,none,,
+K00181,A0057,own_site,https://s-studenter.se,2026-11-16,found,instagram;facebook;tiktok;x;substack,not added: x https://x.com/socialdemokrat (meta)

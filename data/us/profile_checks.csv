@@ -1037,3 +1037,105 @@ K01035,A0883,manual_search,https://causenow.org,2026-11-16,found,website,"Search
 K01036,A0043,manual_search,https://www.californiadsa.org/,2026-11-16,none,,"rejected https://www.californiadsa.org/: the page's title and headings do not carry the name; Found via search; page 'What is California DSA?' describes the statewide DSA formation in California, matching the entry."
 K01037,A0753,manual_search,https://apalanet.org,2026-11-16,none,,"rejected https://apalanet.org: the page's title and headings do not carry the name; Guessed domain from acronym; opened it, footer says Asian Pacific American Labor Alliance."
 K01038,A0790,manual_search,https://omiusajpic.org,2026-11-16,none,,"rejected https://omiusajpic.org: the page's title and headings do not carry the name; Found via search; opened it, identifies as Missionary Oblates of Mary Immaculate, United States Province (JPIC office); main site omiusa.org could not be opened (fetch rate-limited)."
+K01039,A0778,own_site,https://hedgeclippers.org,2026-11-16,found,x,
+K01040,A0737,own_site,https://www.montereycountynow.com/,2026-11-16,error,,451 at https://www.montereycountynow.com/
+K01041,A0756,own_site,https://ourbluefuture.us,2026-11-16,none,,
+K01042,A0645,own_site,https://jwj.org,2026-11-16,blocked,,403 at https://jwj.org
+K01043,A0837,own_site,https://economicsecurity.us/ca/,2026-11-16,found,x;linkedin;bluesky,
+K01044,A0730,own_site,https://apenaction.org,2026-11-16,found,instagram;facebook;x,"CHECK no added handle carries the name: the site may host several groups, or belong to a parent."
+K01045,A0109,own_site,https://united4respect.org/,2026-11-16,found,facebook;x;instagram;youtube,
+K01046,A0840,own_site,https://goldenstateopportunity.org,2026-11-16,found,facebook;x;instagram;youtube,
+K01047,A0076,own_site,https://thevillagesdemocraticclub.wildapricot.org,2026-11-16,found,facebook;youtube;instagram,not added: youtube https://www.youtube.com/channel/UC2H5fvVmPzxiMXyXw10RSVw (social-block); x https://x.com/wildapricot (social-block); bluesky https://bsky.app/profile/villagesdemclubfl.bsky.social ()
+K01048,A0085,own_site,https://blackwomenrevolt.org,2026-11-16,found,instagram;facebook;linkedin,
+K01049,A0813,own_site,https://weareultraviolet.org,2026-11-16,found,facebook;instagram;youtube;linkedin;bluesky;x,
+K01050,A0766,own_site,https://sistersofthegoodshepherd.com,2026-11-16,found,facebook,
+K01051,A0066,own_site,https://www.RootsAction.org/,2026-11-16,none,,not added: bluesky https://bsky.app/profile/rootsaction.org (); facebook https://www.facebook.com/RootsAction (); x https://x.com/Roots_Action (); instagram https://www.instagram.com/roots_action/ (); youtube https://www.youtube.com/user/rootsaction (); tiktok https://www.tiktok.com/@roots_action ()
+K01052,A0034,own_site,https://www.middleclasstaxpayers.org,2026-11-16,none,,
+K01053,A0068,own_site,https://www.sdyoungdems.com/,2026-11-16,found,instagram;facebook;x,
+K01054,A0624,own_site,https://www.afscme.org,2026-11-16,found,facebook;x;youtube;instagram,"CHECK no added handle carries the name: the site may host several groups, or belong to a parent."
+K01055,A0831,own_site,https://childrensfundingproject.org,2026-11-16,found,linkedin;youtube,
+K01056,A0772,own_site,https://firstfocus.org,2026-11-16,found,facebook;x;instagram;linkedin;youtube;tiktok,
+K01057,A0092,own_site,https://www.foreveroakland.org,2026-11-16,found,facebook;instagram;x;youtube,
+K01058,A0809,own_site,https://www.southasiannetwork.org,2026-11-16,found,facebook;x;youtube;instagram,
+K01059,A0087,own_site,https://calulac.org,2026-11-16,found,facebook;instagram;youtube,"CHECK no added handle carries the name: the site may host several groups, or belong to a parent."
+K01060,A0072,own_site,https://www.solanodemocrats.com/,2026-11-16,found,facebook;x;instagram;bluesky,not added: facebook https://www.facebook.com/204775516231613 ()
+K01061,A0735,own_site,https://www.lacdp.org,2026-11-16,found,instagram,"CHECK no added handle carries the name: the site may host several groups, or belong to a parent."
+K01062,A0792,own_site,https://www.gsadvocacy.org,2026-11-16,found,instagram;facebook;x,not added: facebook https://www.facebook.com/pages/Interfaith-Criminal-Justice-Coalition/202473829795040 (social-block)
+K01063,A0467,own_site,https://or.aft.org/,2026-11-16,found,bluesky,not added: facebook https://www.facebook.com/aftoregon (); instagram https://www.instagram.com/aft_oregon/ ()
+K01064,A0755,own_site,https://www.bluehaveninitiative.com,2026-11-16,blocked,,200 at https://www.bluehaveninitiative.com
+K01065,A0648,own_site,https://voicesforprogress.org,2026-11-16,found,bluesky;linkedin,
+K01066,A0865,own_site,https://indivisiblegeorgiacoalition.org,2026-11-16,blocked,,403 at https://indivisiblegeorgiacoalition.org
+K01067,A0780,own_site,https://www.icnacsj.org,2026-11-16,found,x;facebook;instagram;youtube;linkedin,
+K01068,A0785,own_site,https://uaw.org,2026-11-16,found,youtube;facebook;instagram;tiktok;x;linkedin,
+K01069,A0634,own_site,https://mainstreetalliance.org,2026-11-16,found,instagram;x;facebook;tiktok;linkedin,
+K01070,A0649,own_site,https://www.chn.org,2026-11-16,found,facebook;x;instagram;youtube,not added: x https://x.com/CoalitionHN (meta); linkedin https://www.linkedin.com/in/josephbattistelli (); linkedin https://www.linkedin.com/in/dominique-espinoza-a50064128 (); linkedin https://www.linkedin.com/in/leonguyenloc (); linkedin https://www.linkedin.com/in/rebecca-vucic (); linkedin https://www.linke
+K01071,A0622,own_site,https://www.aft.org/,2026-11-16,found,instagram;facebook;bluesky;linkedin,"CHECK no added handle carries the name: the site may host several groups, or belong to a parent.; not added: youtube https://www.youtube.com/channel/UCdaoJ8gUQ12aLC5kZFwUbRQ (chrome,social-block); youtube https://www.youtube.com/user/AFTHQ (chrome,social-block); x https://x.com/aftunion (meta)"
+K01072,A0729,own_site,https://www.aclusocal.org,2026-11-16,found,facebook;youtube;instagram,
+K01073,A0777,own_site,https://healthcarevoter.org,2026-11-16,none,,
+K01074,A0086,own_site,https://www.cablackhealthnetwork.org,2026-11-16,error,,"URLError: <urlopen error (""The certificate's CN name does not match the passed value."",)>"
+K01075,A0860,own_site,https://thecommonwealthinstitute.org/,2026-11-16,found,facebook;instagram;x,
+K01076,A0644,own_site,https://indivisible.org,2026-11-16,found,bluesky;facebook;instagram;mastodon;youtube,
+K01077,A0846,own_site,https://maketheroadnv.org/,2026-11-16,found,instagram;facebook;youtube;tiktok,
+K01078,A0098,own_site,https://www.mifamiliaenaccion.org/,2026-11-16,found,instagram;facebook,
+K01079,A0827,own_site,https://reclaimourschools.org,2026-11-16,found,facebook;x,
+K01080,A0717,own_site,https://www.staterevenuealliance.org,2026-11-16,none,,
+K01081,A0750,own_site,https://americanfamilyvoices.org,2026-11-16,found,facebook;x;youtube,
+K01082,A0733,own_site,https://transformca.org,2026-11-16,found,facebook;instagram;x;linkedin;youtube;bluesky,
+K01083,A0870,own_site,https://nowseattle.org,2026-11-16,found,facebook;instagram,
+K01084,A0102,own_site,https://www.pjcsoco.org,2026-11-16,found,bluesky;facebook;youtube,
+K01085,A0759,own_site,https://www.centerforcommonground.org,2026-11-16,found,facebook;bluesky;instagram;youtube,
+K01086,A0625,own_site,https://www.afge.org,2026-11-16,found,x,"CHECK no added handle carries the name: the site may host several groups, or belong to a parent.; not added: facebook https://www.facebook.com/afgeunion (); instagram https://www.instagram.com/afgeunion/ (); linkedin https://www.linkedin.com/company/afge ()"
+K01087,A0060,own_site,https://www.lagunawoodsdemocrats.org/,2026-11-16,found,facebook;bluesky,
+K01088,A0623,own_site,https://aflcio.org,2026-11-16,found,bluesky;instagram;tiktok;facebook;x,"CHECK no added handle carries the name: the site may host several groups, or belong to a parent."
+K01089,A0791,own_site,https://moveon.org,2026-11-16,found,bluesky;instagram;youtube;facebook;x,
+K01090,A0081,own_site,https://www.wellstoneclub.org/,2026-11-16,found,facebook;instagram,
+K01091,A0621,own_site,https://seiu.org/,2026-11-16,found,bluesky;facebook;instagram;tiktok;x,"CHECK no added handle carries the name: the site may host several groups, or belong to a parent.; not added: bluesky https://bsky.app/profile/did:plc:ubsb5vwrwlqrl6bpfsamp6fb (social-block); facebook https://www.facebook.com/aprildverrett (social-block); facebook https://www.facebook.com/neal.bisno (social-block); instagram https://www.instagram.com/SEIUPres/ (social-block); x https://x.com/SEIUPr"
+K01092,A0752,own_site,https://adaction.org,2026-11-16,found,facebook;instagram;youtube;x;tiktok,
+K01093,A0751,own_site,https://asbcouncil.org,2026-11-16,error,,"URLError: <urlopen error (""The certificate's CN name does not match the passed value."",)>"
+K01094,A0844,own_site,https://www.investwanow.org/,2026-11-16,found,facebook;bluesky;instagram;linkedin;tiktok,
+K01095,A0669,own_site,https://ww4j.org/,2026-11-16,found,facebook;x;instagram,
+K01096,A0829,own_site,https://balanceourtaxcode.com,2026-11-16,none,,
+K01097,A0802,own_site,https://presente.org,2026-11-16,found,facebook;x;instagram,not added: x https://x.com/NelsonVision (social-block); x https://x.com/nancirulia (social-block); x https://x.com/favianna (social-block); linkedin https://www.linkedin.com/in/matt-nelson-444bb1b8 (social-block); linkedin https://www.linkedin.com/in/erickgarciax (social-block)
+K01098,A0789,own_site,https://legalaidatwork.org,2026-11-16,found,x;linkedin;youtube;facebook;instagram;bluesky,
+K01099,A0749,own_site,https://adc.org,2026-11-16,found,x;instagram;youtube;facebook,"CHECK no added handle carries the name: the site may host several groups, or belong to a parent."
+K01100,A0764,own_site,https://commondefense.us,2026-11-16,found,youtube;x;instagram,"not added: facebook https://www.facebook.com/commondefense.us (chrome,social-block); facebook https://www.facebook.com/commondefensepac (chrome,social-block)"
+K01101,A0833,own_site,https://citizenaction-il.org,2026-11-16,found,instagram;facebook;x;tiktok,
+K01102,A0668,own_site,https://www.ift-aft.org,2026-11-16,found,facebook;x;instagram;youtube,"CHECK no added handle carries the name: the site may host several groups, or belong to a parent. 429 at https://www.ift-aft.org/about 429 at https://www.ift-aft.org/contact"
+K01103,A0036,own_site,https://www.responsiblewealth.org/,2026-11-16,found,facebook,"not added: facebook https://www.facebook.com/faireconomy (chrome,social-block); instagram https://www.instagram.com/faireconomy/ (chrome,social-block)"
+K01104,A0787,own_site,https://oceanfutures.org,2026-11-16,found,x;facebook;youtube,
+K01105,A0646,own_site,https://networklobby.org,2026-11-16,found,facebook;x;youtube;instagram,not added: bluesky https://bsky.app/profile/networklobby.bsky.social ()
+K01106,A0770,own_site,https://extendpua.org,2026-11-16,found,instagram;x;facebook,not added: instagram https://www.instagram.com/instastephpf/ (social-block); youtube https://www.youtube.com/channel/UCQVt2IOamu90NuvEmgtippg (social-block); substack https://stephpf.substack.com (); linkedin https://www.linkedin.com/in/stephanie-p-freed-4548a516 (social-block)
+K01107,A0666,own_site,https://ccctu.org,2026-11-16,found,instagram;facebook;x,
+K01108,A0784,own_site,https://www.ifpte.org,2026-11-16,found,facebook;bluesky,"CHECK no added handle carries the name: the site may host several groups, or belong to a parent."
+K01109,A0105,own_site,https://www.sirenimmigrantrights.org/,2026-11-16,none,,not added: instagram https://www.instagram.com/siren_immigrantrights/ (); x https://x.com/SIRENImmiRights (); facebook https://www.facebook.com/sirenimmigrantrights (); youtube https://www.youtube.com/@SIREN1425 (); bluesky https://bsky.app/profile/sirenimmigration.bsky.social ()
+K01110,A0832,own_site,https://citizenactionny.org,2026-11-16,blocked,,403 at https://citizenactionny.org
+K01111,A0842,own_site,https://inequality.org/,2026-11-16,found,facebook;x;bluesky,
+K01112,A0834,own_site,https://www.ccwro.org,2026-11-16,blocked,,403 at https://www.ccwro.org
+K01113,A0469,own_site,https://seiu-oregon.org/,2026-11-16,none,,
+K01114,A0857,own_site,https://progressiowa.org/,2026-11-16,found,facebook;instagram;tiktok;youtube;bluesky;x,
+K01115,A0631,own_site,https://americansfortaxfairness.org,2026-11-16,found,x;facebook;instagram;tiktok;substack,
+K01116,A0805,own_site,https://prosperitynow.org,2026-11-16,found,facebook;instagram;linkedin;x;youtube;tiktok,
+K01117,A0667,own_site,https://www.seiu73.org,2026-11-16,found,facebook;x;instagram;tiktok;bluesky,
+K01118,A0883,own_site,https://causenow.org,2026-11-16,found,facebook;instagram,"CHECK no added handle carries the name: the site may host several groups, or belong to a parent."
+K01119,A0861,own_site,https://www.thericksmithshow.com,2026-11-16,blocked,,403 at https://www.thericksmithshow.com
+K01120,A0099,own_site,https://www.organizesacramento.org,2026-11-16,found,facebook;x,
+K01121,A0774,own_site,https://foe.org,2026-11-16,blocked,,403 at https://foe.org
+K01122,A0091,own_site,https://www.edenareaindivisible.org,2026-11-16,blocked,,403 at https://www.edenareaindivisible.org
+K01123,A0058,own_site,https://www.incomemovement.org/,2026-11-16,found,x;instagram;facebook,
+K01124,A0804,own_site,https://pdamerica.org,2026-11-16,found,facebook;x;bluesky,
+K01125,A0794,own_site,https://naacp.org,2026-11-16,found,x;facebook;instagram;youtube,"CHECK no added handle carries the name: the site may host several groups, or belong to a parent."
+K01126,A0470,own_site,https://www.oregonafscme.org/,2026-11-16,found,facebook;instagram,
+K01127,A0089,own_site,https://chispalcv.org/,2026-11-16,found,facebook;instagram;x,
+K01128,A0760,own_site,https://lgbtq-economics.org,2026-11-16,none,,
+K01129,A0100,own_site,https://www.orale.org,2026-11-16,found,facebook;instagram;linkedin;tiktok,"CHECK no added handle carries the name: the site may host several groups, or belong to a parent."
+K01130,A0779,own_site,https://www.housingworks.org,2026-11-16,found,facebook;x;instagram,
+K01131,A0754,own_site,https://www.bendthearc.us,2026-11-16,found,x;instagram;bluesky;tiktok,"not added: facebook https://www.facebook.com/240290369507552 (chrome,social-block); facebook https://www.facebook.com/jewishaction.us (chrome,social-block)"
+K01132,A0643,own_site,https://healthcareforamericanow.org,2026-11-16,found,x;facebook;instagram,
+K01133,A0793,own_site,https://www.nafhe.org,2026-11-16,none,,
+K01134,A0810,own_site,https://strongforall.org/about/,2026-11-16,found,facebook;x,
+K01135,A0094,own_site,https://www.ic4ij.org,2026-11-16,blocked,,403 at https://www.ic4ij.org
+K01136,A0816,own_site,https://www.ucc.org/what-we-do/justice-local-church-ministries/,2026-11-16,found,instagram;facebook;x;bluesky;tiktok,"not added: linkedin https://www.linkedin.com/company/2710235 (chrome,social-block)"
+K01137,A0665,own_site,https://seiuhcilin.org/,2026-11-16,found,instagram;tiktok;x;youtube,"not added: facebook https://www.facebook.com/SEIUHCII (chrome,social-block); facebook https://www.facebook.com/WeAreChildCareIllinois (chrome); facebook https://www.facebook.com/SEIUHealthcareMO (chrome)"
+K01138,A0841,own_site,https://honestarizona.squarespace.com,2026-11-16,found,substack;facebook;x;instagram,
+K01139,A0835,own_site,https://democracymatters.org,2026-11-16,none,,
+K01140,A0023,own_site,https://www.seiu-uhw.org,2026-11-16,found,facebook;x;youtube;instagram;linkedin;tiktok,

@@ -347,3 +347,28 @@ P00349,A0112,website,https://www.pop-ne.ch,"web search: Guessed domain from acro
 P00350,A0114,website,https://glp.swiss/,"web search: Found via redirect from grunliberale.ch; opened, GLP Schweiz (Grünliberale Partei), Bern.",2026-11-16
 P00351,A0173,website,https://verditicino.ch/,"web search: Found via redirect from verdi.ch (guessed); opened, Ticino cantonal section of the Greens.",2026-11-16
 P00352,A0183,website,https://www.gruene.ch,"web search: Guessed domain; opened, page is GRÜNE Schweiz, the Swiss Green Party.",2026-11-16
+P00353,A0183,facebook,https://www.facebook.com/gruenech,linked from https://www.gruene.ch,2026-11-16
+P00354,A0183,x,https://x.com/GrueneCH,linked from https://www.gruene.ch,2026-11-16
+P00355,A0183,instagram,https://www.instagram.com/gruenech/,linked from https://www.gruene.ch,2026-11-16
+P00356,A0183,linkedin,https://www.linkedin.com/company/14013437,linked from https://www.gruene.ch,2026-11-16
+P00357,A0183,youtube,https://www.youtube.com/user/GrueneCH,linked from https://www.gruene.ch,2026-11-16
+P00358,A0114,instagram,https://www.instagram.com/grunliberale/,linked from https://glp.swiss/,2026-11-16
+P00359,A0114,facebook,https://www.facebook.com/grunliberale,linked from https://glp.swiss/,2026-11-16
+P00360,A0114,x,https://x.com/grunliberale,linked from https://glp.swiss/,2026-11-16
+P00361,A0114,youtube,https://www.youtube.com/channel/UCneOSWcHYD8xC_E4ktlFgzg,linked from https://glp.swiss/,2026-11-16
+P00362,A0088,instagram,https://www.instagram.com/gruenezuerich/,linked from https://gruene-zh.ch,2026-11-16
+P00363,A0088,facebook,https://www.facebook.com/gruenezuerich,linked from https://gruene-zh.ch,2026-11-16
+P00364,A0088,bluesky,https://bsky.app/profile/gruenezuerich.bsky.social,linked from https://gruene-zh.ch,2026-11-16
+P00365,A0102,instagram,https://www.instagram.com/sp.schaffhausen/,linked from https://www.spsh.ch,2026-11-16
+P00366,A0102,facebook,https://www.facebook.com/SPSchaffhausen,linked from https://www.spsh.ch,2026-11-16
+P00367,A0102,linkedin,https://www.linkedin.com/company/sp-schaffhausen,linked from https://www.spsh.ch,2026-11-16
+P00368,A0087,instagram,https://www.instagram.com/spzuerich/,linked from https://www.spzuerich.ch,2026-11-16
+P00369,A0087,facebook,https://www.facebook.com/SPZuerich,linked from https://www.spzuerich.ch,2026-11-16
+P00370,A0087,tiktok,https://www.tiktok.com/@spzuerich,linked from https://www.spzuerich.ch,2026-11-16
+P00371,A0087,bluesky,https://bsky.app/profile/spzuerich.ch,linked from https://www.spzuerich.ch,2026-11-16
+P00372,A0107,instagram,https://www.instagram.com/etat_geneve/,linked from https://www.ge.ch/organisation/conseil-etat,2026-11-16
+P00373,A0173,facebook,https://www.facebook.com/verditicino,linked from https://verditicino.ch/,2026-11-16
+P00374,A0173,x,https://x.com/i_Verdi,linked from https://verditicino.ch/,2026-11-16
+P00375,A0173,instagram,https://www.instagram.com/verditicino/,linked from https://verditicino.ch/,2026-11-16
+P00376,A0112,facebook,https://www.facebook.com/popneuchatel,linked from https://www.pop-ne.ch,2026-11-16
+P00377,A0112,instagram,https://www.instagram.com/pop_neuchatel/,linked from https://www.pop-ne.ch,2026-11-16

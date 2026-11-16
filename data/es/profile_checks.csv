@@ -299,3 +299,9 @@ K00297,A0136,manual_search,,2026-11-16,none,,"Searched twice; only the national 
 K00298,A0183,manual_search,https://jjggbizkaia.eus/en/welcome,2026-11-16,found,website,"Found via search as first result; opened it, title names the General Assemblies of Bizkaia."
 K00299,A0184,manual_search,https://ezker-anitza.org/,2026-11-16,found,website,"Found via search (Wikipedia and hosted party documents point to it); opened it, site is Ezker Anitza with Basque-branch content."
 K00300,A0186,manual_search,https://www.bngipuzkoa.eus/,2026-11-16,found,website,"Address from Basque Government directory seen in search; opened it, banner is Gipuzkoako Batzar Nagusiak."
+K00301,A0089,own_site,https://justiciafiscalcv.es/,2026-11-16,found,facebook;x,
+K00302,A0060,own_site,https://www.cortesgenerales.es,2026-11-16,error,,URLError: <urlopen error [WinError 10060] A connection attempt failed because the connecte
+K00303,A0134,own_site,https://actionaid.es/,2026-11-16,found,instagram;linkedin;facebook;bluesky;x;youtube,not added: x https://x.com/AxSolidaridad (meta)
+K00304,A0183,own_site,https://jjggbizkaia.eus/en/welcome,2026-11-16,found,x,"not added: facebook https://www.facebook.com/bizkaikobatzarnagusiak (chrome,social-block); instagram https://www.instagram.com/bizkaikobatzarnagusiak/ (chrome,social-block)"
+K00305,A0061,own_site,https://movimientosumar.es/,2026-11-16,found,facebook;instagram;tiktok;bluesky;youtube,
+K00306,A0184,own_site,https://ezker-anitza.org/,2026-11-16,found,facebook;x;youtube;instagram,

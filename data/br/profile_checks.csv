@@ -573,3 +573,26 @@ K00571,A0252,manual_search,https://www.gov.br/g20/en,2026-11-16,none,,"rejected 
 K00572,A0254,manual_search,https://ctb.org.br,2026-11-16,found,website,"Own guess of domain from acronym; opened it, title carries full name and the news are the union central's; ctb.org.br also appears in search results."
 K00573,A0255,manual_search,https://ugt.org.br,2026-11-16,found,website,"Own guess of domain from acronym; opened it, title and footer (Sao Paulo) match; ugt.org.br also appears in search results."
 K00574,A0256,manual_search,https://csb.org.br,2026-11-16,found,website,"Own guess of domain from acronym; opened it, title carries the name, headquarters Brasilia, labour news."
+K00575,A0243,own_site,https://psb40.org.br,2026-11-16,found,facebook;x;tiktok;youtube,"CHECK no added handle carries the name: the site may host several groups, or belong to a parent.; not added: instagram https://www.instagram.com/psbnacional40/ (chrome,social-block); instagram https://www.instagram.com/psbinclusao.nacional/ (chrome,social-block)"
+K00576,A0261,own_site,https://intersindical.org.br,2026-11-16,none,,
+K00577,A0256,own_site,https://csb.org.br,2026-11-16,found,instagram;facebook;x,"CHECK no added handle carries the name: the site may host several groups, or belong to a parent.; not added: x https://x.com/sintipar (meta); youtube https://www.youtube.com/@CSBrasileiros (chrome,social-block); youtube https://www.youtube.com/user/CSBrasileiros (chrome,social-block)"
+K00578,A0245,own_site,https://pcdob.org.br,2026-11-16,found,x;instagram;youtube,"CHECK no added handle carries the name: the site may host several groups, or belong to a parent.; not added: facebook https://www.facebook.com/pcdob65 (chrome,social-block); facebook https://www.facebook.com/203326359677581 (social-block); facebook https://www.facebook.com/565908750093745 (social-block); facebook https://www.facebook.com/355100534590031 (social-block); facebook https://www.faceboo"
+K00579,A0234,own_site,https://cnte.org.br,2026-11-16,found,x;facebook;instagram;youtube,"not added: x https://x.com/cut_brasil (chrome,social-block); facebook https://www.facebook.com/cutbrasil (chrome,social-block); instagram https://www.instagram.com/cutbrasil/ (chrome,social-block); youtube https://www.youtube.com/user/Secomcut (chrome,social-block)"
+K00580,A0260,own_site,https://intersindicalcentral.com.br,2026-11-16,found,instagram;youtube;facebook;bluesky;x,not added: instagram https://www.instagram.com/fimbd.intersindicalcentral.com.br/ ()
+K00581,A0242,own_site,https://pt.org.br,2026-11-16,blocked,,403 at https://pt.org.br
+K00582,A0219,own_site,https://peregum.org.br,2026-11-16,found,instagram;linkedin;youtube,
+K00583,A0254,own_site,https://ctb.org.br,2026-11-16,found,youtube;bluesky,"CHECK no added handle carries the name: the site may host several groups, or belong to a parent.; not added: facebook https://www.facebook.com/portalctb (chrome,social-block); facebook https://www.facebook.com/bdthemes (social-block); instagram https://www.instagram.com/portalctb/ (chrome,social-block); instagram https://www.instagram.com/bdthemes/ (social-block); x https://x.com/PortalCTB (chrome"
+K00584,A0221,own_site,https://www.ijf.org.br,2026-11-16,found,facebook;x,
+K00585,A0232,own_site,https://une.org.br,2026-11-16,blocked,,403 at https://une.org.br
+K00586,A0247,own_site,https://psol50.org.br,2026-11-16,blocked,,403 at https://psol50.org.br
+K00587,A0255,own_site,https://ugt.org.br,2026-11-16,none,,not added: facebook https://www.facebook.com/UGTBRASIL (); x https://x.com/ugt_brasil (); instagram https://www.instagram.com/ugt_brasil/ ()
+K00588,A0262,own_site,https://publica.org.br,2026-11-16,found,facebook;instagram;x,not added: youtube https://www.youtube.com/c/P%C3%BAblicaCentraldoServidor ()
+K00589,A0218,own_site,https://justa.org.br,2026-11-16,found,youtube;instagram;facebook,
+K00590,A0220,own_site,https://plebiscitopopular.org.br,2026-11-16,found,tiktok;facebook;instagram,
+K00591,A0230,own_site,https://mst.org.br,2026-11-16,found,facebook;x,"CHECK no added handle carries the name: the site may host several groups, or belong to a parent.; not added: youtube https://www.youtube.com/channel/UC3C5WLLfrDnNsMR7Z-46eug (chrome,social-block); youtube https://www.youtube.com/user/videosmst (chrome,social-block); instagram https://www.instagram.com/movimentosemterra/ (chrome,social-block); instagram https://www.instagram.com/frentebrasilpopular"
+K00592,A0236,own_site,https://confetam.org.br/,2026-11-16,found,x;facebook;youtube;instagram,"not added: x https://x.com/cut_brasil (chrome,social-block); facebook https://www.facebook.com/cutbrasil (chrome,social-block); youtube https://www.youtube.com/user/Secomcut (chrome,social-block)"
+K00593,A0238,own_site,https://www.fenafisco.org.br,2026-11-16,blocked,,robots.txt forbids https://www.fenafisco.org.br
+K00594,A0257,own_site,https://ncst.org.br,2026-11-16,found,facebook;x,
+K00595,A0237,own_site,https://anfip.org.br,2026-11-16,error,,500 at https://anfip.org.br
+K00596,A0231,own_site,https://mtst.org,2026-11-16,found,instagram;facebook;x;youtube;tiktok,
+K00597,A0259,own_site,https://cspconlutas.org.br,2026-11-16,found,facebook;x;youtube;instagram,"not added: youtube https://www.youtube.com/channel/UCWPH7kncha8rps_J7ukw-Gg (chrome,social-block)"

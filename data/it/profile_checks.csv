@@ -523,3 +523,11 @@ K00521,A0294,manual_search,https://www.medicinademocratica.org/,2026-11-16,found
 K00522,A0299,manual_search,,2026-11-16,none,,"Searched twice; beati.org and beati.it guesses did not load, no own site seen in results; left empty."
 K00523,A0301,manual_search,https://www.nigrizia.it,2026-11-16,found,website,"Own guess of obvious domain; opened it, title and footer (Copyright Nigrizia) match the Comboni Africa magazine."
 K00524,A0303,manual_search,https://terredeshommes.it/,2026-11-16,found,website,"Found via search result listing terredeshommes.it; opened it, title names Terre des Hommes Italia, child protection."
+K00525,A0301,own_site,https://www.nigrizia.it,2026-11-16,found,facebook;x;youtube;instagram,TimeoutError: The read operation timed out
+K00526,A0303,own_site,https://terredeshommes.it/,2026-11-16,found,facebook;instagram;linkedin;bluesky,
+K00527,A0283,own_site,https://finanzaetica.info,2026-11-16,found,linkedin;facebook;instagram,
+K00528,A0291,own_site,https://www.cittadinanzattiva.it,2026-11-16,found,facebook;tiktok;instagram;youtube;x,
+K00529,A0294,own_site,https://www.medicinademocratica.org/,2026-11-16,none,,
+K00530,A0293,own_site,https://www.unioneinquilini.it,2026-11-16,found,facebook;instagram;x,
+K00531,A0013,own_site,https://www.fondazionedemo.it,2026-11-16,found,instagram;facebook;linkedin,
+K00532,A0286,own_site,https://www.wwf.it,2026-11-16,found,facebook;x;instagram;linkedin;youtube,

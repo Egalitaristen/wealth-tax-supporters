@@ -383,3 +383,9 @@ K00381,A0172,manual_search,https://denhaag.sp.nl,2026-11-16,found,website,"Seen 
 K00382,A0174,manual_search,,2026-11-16,none,,Two searches found no own site for the Heerlen campaign committee.
 K00383,A0204,manual_search,https://www.tweedekamer.nl,2026-11-16,found,website,"Obvious domain (my own guess), opened; site name is the Dutch House of Representatives."
 K00384,A0210,manual_search,https://venlo.sp.nl,2026-11-16,found,website,"Found in search results for SP Venlo; opened homepage, Venlo branch of the SP with local news."
+K00385,A0210,own_site,https://venlo.sp.nl,2026-11-16,none,,not added: facebook https://www.facebook.com/SocialistischePartij (chrome); instagram https://www.instagram.com/SocialistischePartij/ (chrome); x https://x.com/SPnl (chrome); linkedin https://www.linkedin.com/company/socialistische-partij (chrome); bluesky https://bsky.app/profile/sp-nl.bsky.social (chrome); y
+K00386,A0204,own_site,https://www.tweedekamer.nl,2026-11-16,found,facebook;instagram;linkedin;x,
+K00387,A0171,own_site,https://utrecht.sp.nl,2026-11-16,found,facebook;instagram;mastodon,not added: x https://x.com/SPnl (chrome)
+K00388,A0166,own_site,https://amsterdam.sp.nl,2026-11-16,found,facebook;instagram;x;youtube,not added: linkedin https://www.linkedin.com/company/socialistische-partij (chrome)
+K00389,A0172,own_site,https://denhaag.sp.nl,2026-11-16,found,facebook;instagram;x,not added: linkedin https://www.linkedin.com/company/socialistische-partij (chrome); bluesky https://bsky.app/profile/sp-nl.bsky.social (chrome); youtube https://www.youtube.com/@spteevee (chrome)
+K00390,A0170,own_site,https://heerlen.sp.nl,2026-11-16,none,,not added: facebook https://www.facebook.com/SocialistischePartij (chrome); instagram https://www.instagram.com/SocialistischePartij/ (chrome); x https://x.com/SPnl (chrome); linkedin https://www.linkedin.com/company/socialistische-partij (chrome); bluesky https://bsky.app/profile/sp-nl.bsky.social (chrome); y

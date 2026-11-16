@@ -43,3 +43,6 @@ K00041,A0012,manual_search,https://www.cartel-alfa.ro,2026-11-16,found,website,"
 K00042,A0014,manual_search,https://www.cnslr-fratia.ro,2026-11-16,found,website,"Domain from Wikipedia infobox via search; opened, site name CNSLR-FRATIA"
 K00043,A0019,manual_search,,2026-11-16,none,,Two searches; no own site seen (only news about party led by Dan Chitic)
 K00044,A0021,manual_search,https://www.csnmeridian.ro,2026-11-16,found,website,"Address seen in a confederation document via search; opened, title and heading carry the name"
+K00045,A0014,own_site,https://www.cnslr-fratia.ro,2026-11-16,found,youtube;facebook;instagram;linkedin,
+K00046,A0021,own_site,https://www.csnmeridian.ro,2026-11-16,found,facebook,
+K00047,A0012,own_site,https://www.cartel-alfa.ro,2026-11-16,found,facebook;instagram,

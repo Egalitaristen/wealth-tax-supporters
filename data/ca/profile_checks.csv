@@ -245,3 +245,5 @@ K00243,A0220,manual_search,,2026-11-16,none,,Searched twice; no own Halifax ridi
 K00244,A0222,manual_search,,2026-11-16,none,,Searched; no own riding association site found.
 K00245,A0257,manual_search,,2026-11-16,none,,Searched; only a listing on the Archdiocese of Montreal site and an OCPM brief; no own site.
 K00246,A0259,manual_search,https://cadeul.com/,2026-11-16,found,website,"Found via search of cadeul.ulaval.ca, which redirects (301) to cadeul.com; opened it, page names the Confédération des Associations d'Étudiants et Étudiantes de l'Université Laval."
+K00247,A0208,own_site,https://www.tcndp.ca/,2026-11-16,none,,"not added: facebook https://www.facebook.com/TCNDP (chrome,social-block); facebook https://www.facebook.com/kristynwongtam (social-block); x https://x.com/tcndp (chrome,meta,social-block); x https://x.com/kristynwongtam (social-block); instagram https://www.instagram.com/tcndp/ (chrome,social-block); instagram"
+K00248,A0259,own_site,https://cadeul.com/,2026-11-16,found,facebook;instagram;tiktok;x;youtube,"CHECK no added handle carries the name: the site may host several groups, or belong to a parent."

@@ -11,3 +11,5 @@ K00009,A0004,manual_search,https://www.kirkensnodhjelp.no/en,2026-11-16,none,,"r
 K00010,A0009,manual_search,https://publicservices.international,2026-11-16,found,website,Found via search and Wikipedia infobox domain; opened it and the title and heading name Public Services International.
 K00011,A0015,manual_search,,2026-11-16,none,,"Searched name plus Tanzania; only namesakes (Twaweza, Mpakani Tunaweza, Pamoja Tunaweza) and directory listings, could not identify own site."
 K00012,A0004,manual_search,https://www.kirkensnodhjelp.no/en,2026-11-16,none,,"rejected https://www.kirkensnodhjelp.no/en: the page's title and headings do not carry the name; First search result for the name; opened it, identifies Norwegian Church Aid (Kirkens Nodhjelp), Oslo."
+K00013,A0002,own_site,https://www.development-finance.org,2026-11-16,none,,
+K00014,A0009,own_site,https://publicservices.international,2026-11-16,found,facebook;x;youtube;bluesky;linkedin;instagram,
