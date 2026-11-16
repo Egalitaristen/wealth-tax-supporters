@@ -360,3 +360,129 @@ K00358,A0025,manual_search,,2026-11-16,none,,Two searches found only news and pa
 K00359,A0034,manual_search,,2026-11-16,none,,Search found only local news about the council bloc; no own page seen.
 K00360,A0035,manual_search,,2026-11-16,none,,Search found nothing specific to a Coronel Pringles bloc; no own page seen.
 K00361,A0036,manual_search,,2026-11-16,none,,Search found no site for the San Nicolas regional body; only the national CGT and other locals.
+K00362,A0005,manual_search,https://martinmguzman.com/,2026-11-16,found,website,Found via web search and verified page title 'Martín Guzmán' on personal/academic homepage.
+K00363,A0007,manual_search,,2026-11-16,none,,"Searched name + diputada/sitio web/diputados.gob.ar/Frente de Todos; former national deputy (2019-2023), no personal site or active official profile found."
+K00364,A0008,manual_search,,2026-11-16,none,,"Searched name + diputada/economista/Frente de Todos/diputados.gob.ar; fernandavallejos.com is an artist namesake, no personal site or active official profile found."
+K00365,A0010,manual_search,,2026-11-16,none,,"Searched name + diputado/Frente de Todos/CCC/diputados.gob.ar; only parent org cccnacional.com and aggregators found, no personal site or active official profile."
+K00366,A0012,manual_search,,2026-11-16,none,,"Searched name + diputada/Resistencia/Chaco/diputados.gob.ar; former national deputy (2017-2021), no personal site or active official profile found."
+K00367,A0032,manual_search,,2026-11-16,none,,Searched name + legisladora/Córdoba/Partido Obrero/legislaturacba; no personal site or individual institutional profile found.
+K00368,A0039,manual_search,,2026-11-16,none,,"Searched name + Bariloche/concejal/concejobariloche.gob.ar; only general council contact list and news found, no personal site or individual profile."
+K00369,A0041,manual_search,,2026-11-16,none,,"Searched name + Omar Félix/diputado/San Rafael/sitio web; only municipal homepage sanrafael.gov.ar and social accounts found, no personal site or individual profile."
+K00370,A0042,manual_search,,2026-11-16,none,,"Searched name + diputado/La Rioja/Frente de Todos/diputados.gob.ar; former national deputy (2017-2021), no personal site or active official profile found."
+K00371,A0043,manual_search,,2026-11-16,none,,Searched name + sociólogo/uba.ar/conicet/ensayo/cátedra; no personal site or individual institutional profile page found.
+K00372,A0044,manual_search,https://iflh.institutos.filo.uba.ar/kohan-mart%C3%ADn-director,2026-11-16,found,official_page,"page not readable by our reader (ERR TimeoutError); identity from the title the agent saw: Kohan, Martín - Director | Instituto de Filología y Literaturas Hispánicas ""Doct; Found via web search and verified UBA Filo institutional director profile page carrying his exact name."
+K00373,A0047,manual_search,,2026-11-16,none,,Found via web search and verified official CONICET researcher profile page carrying his full name.
+K00374,A0048,manual_search,https://hpensada.wixsite.com/historiapensada/omar-acha,2026-11-16,found,website,Found via web search; verified personal academic website (Historia Pensada) bio page with exact name in URL and title.
+K00375,A0057,manual_search,,2026-11-16,none,,Searched name + Santiago del Estero/diputada/Frente de Todos/diputados.gob.ar; no personal site or active official profile found.
+K00376,A0059,manual_search,,2026-11-16,none,,"Searched name + San Juan/diputado/Frente de Todos/diputados.gob.ar; former national deputy, no personal site or active official profile found."
+K00377,A0060,manual_search,,2026-11-16,none,,"Searched name + San Luis/diputado/Frente de Todos/diputados.gob.ar; former national deputy (2017-2021), no personal site or active official profile found."
+K00378,A0062,manual_search,,2026-11-16,none,,"Searched name + Frente de Todos/diputados.gob.ar/gba.gob.ar; only agency organigram found on gba.gob.ar, no personal site or individual official profile."
+K00379,A0064,manual_search,https://diputadosmisiones.gov.ar/nuevo/diputados&diputado=39,2026-11-16,found,official_page,"Found via web search; verified Misiones provincial Chamber of Deputies page containing 'Bárbaro, Hector Orlando' (PAyS)."
+K00380,A0068,manual_search,,2026-11-16,none,,"Searched name + Santa Fe/diputado/Frente de Todos/diputados.gob.ar; former national deputy (2019-2021), no personal site or active official profile found."
+K00381,A0069,manual_search,,2026-11-16,none,,Searched name + Pergamino/diputado/Frente de Todos/diputados.gob.ar; hcdn.gob.ar/diputados/lbormioli timed out on TLS handshake and term ended 2023.
+K00382,A0070,manual_search,,2026-11-16,none,,"Searched name + diputada/psicóloga/Frente de Todos/diputados.gob.ar; former national deputy (2019-2023), no personal site or active official profile found."
+K00383,A0071,manual_search,,2026-11-16,none,,"Searched name + Misiones/diputada/Frente de Todos/diputados.gob.ar; former national deputy (2015-2023), no personal site or active official profile found."
+K00384,A0073,manual_search,,2026-11-16,none,,"Searched name + Bolívar/senador/diputado/sitio web; only municipal homepage bolivar.gob.ar found, no personal site or individual profile."
+K00385,A0074,manual_search,,2026-11-16,none,,Searched name + Jujuy/UCR/diputada/defensora/diputados.gob.ar; no personal site or active official profile found.
+K00386,A0075,manual_search,,2026-11-16,none,,"Searched name + Salta/diputada/Frente de Todos/diputados.gob.ar; former national deputy (2019-2023), no personal site or active official profile found."
+K00387,A0076,manual_search,,2026-11-16,none,,"Searched name + Tierra del Fuego/diputada/Frente de Todos/diputados.gob.ar; former national deputy (2019-2023), no personal site or active official profile found."
+K00388,A0077,manual_search,,2026-11-16,none,,Searched name + Santa Cruz/diputado/intendente/Acción Federal; no personal site or individual official profile found.
+K00389,A0078,manual_search,,2026-11-16,none,,"Searched name + diputado/Frente de Todos/diputados.gob.ar; former national deputy for Neuquén (2019-2023), no personal site or active official profile found."
+K00390,A0079,manual_search,,2026-11-16,none,,"Searched name + Tucumán/diputada/Frente de Todos/diputados.gob.ar; former national deputy (2019-2023), no personal site or active official profile found."
+K00391,A0082,manual_search,,2026-11-16,none,,Searched name + diputada Argentina and site:hcdn.gob.ar; no personal site found and hcdn.gob.ar/diputados/gcaselles timed out so could not verify.
+K00392,A0083,manual_search,,2026-11-16,none,,"Searched name + diputado Argentina, site:hcdn.gob.ar, site:legislaturacba.gob.ar, and site:cba.gov.ar; no personal site or individual profile page found."
+K00393,A0087,manual_search,https://www.gba.gob.ar/trabajo/autoridades/ministro_de_trabajo,2026-11-16,found,official_page,Found via search on gba.gob.ar/trabajo; opened page and confirmed 'Jorge Walter Correa' as Minister of Labor of Buenos Aires Province.
+K00394,A0088,manual_search,,2026-11-16,none,,Searched name + diputada Argentina and site:hcdn.gob.ar/diputados.gob.ar; no personal site or active official profile found.
+K00395,A0090,manual_search,,2026-11-16,none,,Searched name + diputada Argentina and site:hcdn.gob.ar/formosa.gob.ar; no personal site or individual official profile found.
+K00396,A0091,manual_search,,2026-11-16,none,,Searched name + diputada Argentina and site:hcdn.gob.ar/diputados.gob.ar; no personal site or active official profile found.
+K00397,A0092,manual_search,,2026-11-16,none,,Searched name + diputado Argentina and site:hcdn.gob.ar/diputados.gob.ar; no personal site or active official profile found.
+K00398,A0093,manual_search,https://enriqueestevez.com.ar/,2026-11-16,found,website,Found via web search; opened homepage and confirmed title 'Enrique Estévez | Diputado Nacional'.
+K00399,A0095,manual_search,https://www.senado-ba.gov.ar/Senador.aspx?idP=2413,2026-11-16,found,official_page,"Found via site:senado-ba.gov.ar search; opened page and confirmed 'Senador Fagioli, Federico' (2023-2027, Fuerza Patria)."
+K00400,A0097,manual_search,,2026-11-16,none,,Searched name + diputado Frente de Todos Argentina and site:hcdn.gob.ar/uba.ar; no personal site or individual official profile found.
+K00401,A0098,manual_search,,2026-11-16,none,,Searched name + diputado Argentina and site:hcdn.gob.ar/diputados.gob.ar; no personal site or individual official profile found.
+K00402,A0099,manual_search,,2026-11-16,none,,Searched name + diputada Argentina and site:hcdn.gob.ar/diputados.gob.ar; no personal site or active official profile found.
+K00403,A0101,manual_search,,2026-11-16,none,,Searched name + diputada Argentina and site:hcdn.gob.ar/diputados.gob.ar; no personal site or active official profile found.
+K00404,A0102,manual_search,,2026-11-16,none,,Searched name + diputado Argentina and site:hcdn.gob.ar/diputados.gob.ar; no personal site or active official profile found.
+K00405,A0104,manual_search,,2026-11-16,none,,Searched name + diputado Santa Cruz/Frente de Todos and site:hcdn.gob.ar; no personal site or active official profile found.
+K00406,A0105,manual_search,,2026-11-16,none,,Searched name + diputado San Juan and site:hcdn.gob.ar/diputados.gob.ar; no personal site or active official profile found.
+K00407,A0108,manual_search,https://legislaturadelchubut.gob.ar/miembro/hernandez-estela-beatriz/,2026-11-16,found,official_page,Found via web search; opened page on Legislatura del Chubut and confirmed exact name 'Estela Beatriz HERNÁNDEZ'.
+K00408,A0110,manual_search,,2026-11-16,none,,"Searched name + diputado Argentina, site:hcdn.gob.ar, and UBA/UNPAZ/UNDAV sites; no personal site or individual staff profile found."
+K00409,A0111,manual_search,,2026-11-16,none,,Searched name + diputada Argentina and site:hcdn.gob.ar/diputados.gob.ar; no personal site or active official profile found.
+K00410,A0112,manual_search,https://ipehcs.conicet.gov.ar/mg-graciela-landriscini/,2026-11-16,found,official_page,Found via site:conicet.gov.ar search; opened official CONICET/UNCo institute researcher profile for Mg. Graciela Landriscini.
+K00411,A0113,manual_search,,2026-11-16,none,,"marioleito.com failed DNS lookup, hcdn.gob.ar/diputados/mleito timed out, and legislaturadetucuman.gob.ar/legisladores is a full list rather than an individual profile."
+K00412,A0116,manual_search,,2026-11-16,none,,Searched name + diputado Argentina and site:hcdn.gob.ar/diputados.gob.ar; no personal site or active official profile found.
+K00413,A0117,manual_search,https://www.senado-ba.gov.ar/Senador.aspx?idP=2019,2026-11-16,found,official_page,"Found via web search on senado-ba.gov.ar; opened page and confirmed 'Senador Macha, Monica Fernanda' (2025-2029, Fuerza Patria)."
+K00414,A0119,manual_search,,2026-11-16,none,,Searched name + diputado Argentina and site:hcdn.gob.ar/diputados.gob.ar; no personal site or active official profile found.
+K00415,A0121,manual_search,https://www.senado-ba.gov.ar/Senador.aspx?idP=2412,2026-11-16,found,official_page,"Found via web search on senado-ba.gov.ar; opened page and confirmed 'Senador Martinez, Maria Rosa' (2023-2027, Fuerza Patria)."
+K00416,A0123,manual_search,,2026-11-16,none,,Searched name + diputada/concejal Resistencia and site:hcdn.gob.ar; no personal site or individual profile found (legislaturasconectadas.gob.ar page is council-wide).
+K00417,A0124,manual_search,,2026-11-16,none,,Searched name + diputada Argentina and site:hcdn.gob.ar/diputados.gob.ar; no personal site or active official profile found.
+K00418,A0127,manual_search,,2026-11-16,none,,Searched name + diputada Argentina and site:hcdn.gob.ar/diputados.gob.ar; no personal site or active official profile found.
+K00419,A0128,manual_search,,2026-11-16,none,,Searched name + diputada Argentina and site:hcdn.gob.ar/diputados.gob.ar; no personal site or active official profile found.
+K00420,A0129,manual_search,,2026-11-16,none,,Searched name + diputado Argentina and site:hcdn.gob.ar/diputados.gob.ar; no personal site or active official profile found.
+K00421,A0130,manual_search,,2026-11-16,none,,"Searched name with diputado/Frente de Todos/Chaco/HCDN; former deputy (2017-2021), no personal site or active official profile found."
+K00422,A0131,manual_search,,2026-11-16,none,,"Searched name with diputada/Frente de Todos/Santa Fe/HCDN; former deputy (2019-2021), no personal site or active official profile found."
+K00423,A0133,manual_search,,2026-11-16,none,,"Searched name with diputada/Frente de Todos/Chubut/HCDN; former deputy (2017-2021), no personal site or active official profile found."
+K00424,A0134,manual_search,,2026-11-16,none,,"Searched name with diputada/Santiago del Estero/Frente de Todos/HCDN; former deputy (2011-2023), diputados.gov.ar timed out, no personal site found."
+K00425,A0136,manual_search,,2026-11-16,none,,"Searched name with diputada/Santa Fe/HCDN; former deputy (2019-2023), no personal site or active official profile found."
+K00426,A0140,manual_search,,2026-11-16,none,,"Searched name with diputado/La Pampa/Frente de Todos/lapampa.gob.ar; legislatura.lapampa.gob.ar timed out, no personal site or individual profile URL found."
+K00427,A0141,manual_search,,2026-11-16,none,,"Searched name with diputado/San Luis/Frente de Todos/HCDN; former deputy, no personal site or active official profile found."
+K00428,A0144,manual_search,,2026-11-16,none,,"Searched name with Consenso Federal/diputado/Topo Rodriguez/blog; former deputy (2019-2023), no personal site or active official profile found."
+K00429,A0145,manual_search,,2026-11-16,none,,"Searched name with diputado/Frente de Todos/HCDN; former deputy (2019-2021), no personal site or active official profile found."
+K00430,A0146,manual_search,,2026-11-16,none,,"Searched name with diputado/Frente de Todos/Corrientes/HCDN; former deputy (2017-2025), no personal site or active official profile found."
+K00431,A0147,manual_search,,2026-11-16,none,,"Searched name with diputada/Frente de Todos/San Luis/HCDN; former deputy (2017-2021), no personal site or active official profile found."
+K00432,A0148,manual_search,,2026-11-16,none,,"Searched name with diputado/senador/Corrientes/senadoctes.gov.ar; senadoctes.gov.ar/senadores.php is a multi-senator list only, no personal site or individual profile found."
+K00433,A0149,manual_search,,2026-11-16,none,,"Searched name with diputada/Frente de Todos/Escobar/HCDN; former deputy (2017-2021), no personal site or active official profile found."
+K00434,A0150,manual_search,,2026-11-16,none,,"Searched name with diputada/HCDN/diputados.gob.ar; current deputy, hcdn.gob.ar and diputados.gob.ar timed out and no individual profile URL appeared in results."
+K00435,A0151,manual_search,,2026-11-16,none,,"Searched name with diputado/Consenso Federal/HCDN; former deputy (2019-2021), no personal site or active official profile found."
+K00436,A0152,manual_search,https://sapl.parlamentomercosur.org/parlamentar/588,2026-11-16,found,official_page,Found via Parlasur SAPL search; page heading confirms Diego Horacio Sartori (Argentina) as Parlasur parliamentarian.
+K00437,A0153,manual_search,,2026-11-16,none,,"Searched name with diputada/Olavarria/Frente de Todos/HCDN; former deputy (2020-2021), no personal site or active official profile found."
+K00438,A0157,manual_search,https://web.legisrn.gov.ar/institucional/legisladores/ver?id=708,2026-11-16,found,official_page,Found on official Legislature of Rio Negro website; page title and h1 confirm Ayelén Spósito as provincial legislator.
+K00439,A0159,manual_search,,2026-11-16,none,,"Searched name with diputada/Frente de Todos/HCDN/sitio web; former deputy (2013-2021), no personal site or active official profile found."
+K00440,A0160,manual_search,,2026-11-16,none,,"Searched name with diputada/Mendoza/Frente de Todos/HCDN; former deputy (2019-2023), no personal site or active official profile found."
+K00441,A0161,manual_search,,2026-11-16,none,,"Searched name with diputada/Frente de Todos/HCDN; former deputy (2019-2021), no personal site or active official profile found."
+K00442,A0163,manual_search,,2026-11-16,none,,"Searched name with diputado/Santa Cruz/Frente de Todos/HCDN; former deputy (2017-2021), no personal site or active official profile found."
+K00443,A0165,manual_search,,2026-11-16,none,,"Searched name with diputada/ambiente/gba.gob.ar; only multi-official directory at ambiente.gba.gob.ar/contenido/autoridades found, no personal site or individual profile."
+K00444,A0166,manual_search,,2026-11-16,none,,"Searched name with diputado/Neuquen/Frente de Todos/HCDN; former deputy (2019-2021), no personal site or active official profile found."
+K00445,A0167,manual_search,,2026-11-16,none,,"Searched name with diputado/Misiones/Frente de la Concordia/HCDN; former deputy (2017-2021), no personal site or active official profile found."
+K00446,A0168,manual_search,,2026-11-16,none,,"Searched name with diputada/La Matanza/hcdlamatanza.gov.ar; only multi-member concejales/autoridades list pages found, no personal site or individual profile."
+K00447,A0170,manual_search,,2026-11-16,none,,"Searched name with diputada/Tierra del Fuego/Frente de Todos/HCDN; former deputy (2019-2025), no personal site or active official profile found."
+K00448,A0171,manual_search,,2026-11-16,none,,"Searched name with diputado/Salta/Justicialista/HCDN; former deputy (2017-2021), old domain andreszottos.com.ar inactive, no active profile found."
+K00449,A0172,manual_search,,2026-11-16,none,,"Searched name with senador/Cordoba/Frente de Todos/senado.gob.ar; former senator (2015-2021), no personal site or active official profile found."
+K00450,A0173,manual_search,,2026-11-16,none,,"Searched name with senadora/Tucuman/Frente de Todos/senado.gob.ar; former senator (2015-2021), no personal site or active official profile found."
+K00451,A0174,manual_search,,2026-11-16,none,,"Searched twice (""María de los Ángeles Sacnun"" / ""Marilín Sacnun"" + senador/sitio web); no personal site or active individual Senate profile found."
+K00452,A0175,manual_search,,2026-11-16,none,,Searched four times (senador/diputado/sitio web/hcdn.gob.ar); no personal site found and hcdn.gob.ar timed out on SSL handshake without an individual deputy URL in search results.
+K00453,A0176,manual_search,,2026-11-16,none,,Searched twice; candidate hcdcorrientes.gov.ar/?diputados=almir%C3%B3n-ana-claudia returned 200 OK but did not contain her name in the page content.
+K00454,A0177,manual_search,,2026-11-16,none,,"Searched twice (""Daniel Aníbal Lovera"" / ""Daniel Lovera"" + senador/sitio web); no personal site or active individual Senate profile found."
+K00455,A0178,manual_search,,2026-11-16,none,,"Searched twice (""Norma Haydée Durango"" / ""Norma Durango"" + senadora/sitio web); no personal site or active individual Senate profile found."
+K00456,A0180,manual_search,,2026-11-16,none,,"Searched twice (""Nancy Susana González"" / ""Nancy González"" + senadora/sitio web); no personal site or active individual Senate profile found."
+K00457,A0183,manual_search,,2026-11-16,none,,"Searched twice (""Inés Imelda Blas"" / ""Inés Blas"" + senadora/sitio web); no personal site or active individual Senate profile found."
+K00458,A0186,manual_search,,2026-11-16,none,,"Searched twice (""Maurice Fabián Closs"" / ""Maurice Closs"" + senador/sitio web); no personal site or active individual Senate profile found."
+K00459,A0188,manual_search,,2026-11-16,none,,"Searched twice (""María Inés Pilatti Vergara"" + senadora/sitio web); no personal site or active individual Senate profile found."
+K00460,A0189,manual_search,,2026-11-16,none,,"Searched twice (""Cristina del Carmen López Valverde"" / ""Cristina López Valverde"" + senadora/sitio web); no personal site or active individual profile found."
+K00461,A0190,manual_search,,2026-11-16,none,,"Searched twice (""José Rubén Uñac"" + senador/sitio web); no personal site or active individual Senate profile found."
+K00462,A0191,manual_search,,2026-11-16,none,,"Searched twice (""Claudia Ledesma Abdala de Zamora"" / ""Claudia Ledesma Abdala"" + senadora/sitio web); no personal site or active individual Senate profile found."
+K00463,A0192,manual_search,https://montenegrogerardo.com.ar,2026-11-16,found,website,Found via web search; verified 200 OK personal site of Montenegro Gerardo Antenor referencing Proyectos Presentados HSN.
+K00464,A0193,manual_search,,2026-11-16,none,,Searched twice; candidate senado.gob.ar/senadores/detalles/426 returned HTTP 404 Not Found and no personal site was found.
+K00465,A0195,manual_search,,2026-11-16,none,,"Searched twice (""Magdalena Solari Quintana"" + senadora/sitio web); no personal site or active individual Senate profile found."
+K00466,A0196,manual_search,,2026-11-16,none,,"Searched twice (""Nora del Valle Giménez"" / ""Nora Giménez"" + senadora/sitio web); no personal site or active individual Senate profile found."
+K00467,A0197,manual_search,,2026-11-16,none,,"Searched twice (""Sergio Napoleón Leavy"" / ""Sergio Leavy"" + senador/sitio web); no personal site or active individual Senate profile found."
+K00468,A0199,manual_search,,2026-11-16,none,,"Searched twice (""Claudio Martín Doñate"" / ""Martín Doñate"" + senador/sitio web); no personal site or active individual Senate profile found."
+K00469,A0201,manual_search,,2026-11-16,none,,"Searched twice (""Silvia Estela Sapag"" / ""Silvia Sapag"" + senadora/sitio web); no personal site or active individual Senate profile found."
+K00470,A0203,manual_search,,2026-11-16,none,,"Searched twice (""María Eugenia Duré"" / ""Eugenia Duré"" + senadora/sitio web); no personal site or active individual Senate profile found."
+K00471,A0205,manual_search,,2026-11-16,none,,"Searched twice (""Edgardo Darío Kueider"" / ""Edgardo Kueider"" + senador/sitio web); no personal site or active individual Senate profile found."
+K00472,A0207,manual_search,,2026-11-16,none,,"Searched twice (""Alberto Fernández"" + presidente argentina/sitio web oficial); no personal website found, only general government portals."
+K00473,A0221,manual_search,,2026-11-16,none,,"Searched twice (""Hernán Letcher"" + CEPA/sitio web); no personal website or individual CEPA staff profile page found."
+K00474,A0117,own_site,https://www.senado-ba.gov.ar/Senador.aspx?idP=2019,2026-11-16,none,,"not added: facebook https://www.facebook.com/SenadoBsAs (chrome,social-block); x https://x.com/Senado_BA (chrome,social-block); instagram https://www.instagram.com/senado.ba/ (chrome,social-block)"
+K00475,A0112,own_site,https://ipehcs.conicet.gov.ar/mg-graciela-landriscini/,2026-11-16,none,,"not added: facebook https://www.facebook.com/ipehcsconicetunco (chrome,share,social-block); youtube https://www.youtube.com/channel/UCpH6ImBA9Dj1rULntGdMkYw (chrome,share,social-block); instagram https://www.instagram.com/IPEHCS_CONICET_UNCO/ (chrome,share,social-block); x https://x.com/CONICETDialoga (meta)"
+K00476,A0152,own_site,https://sapl.parlamentomercosur.org/parlamentar/588,2026-11-16,none,,
+K00477,A0121,own_site,https://www.senado-ba.gov.ar/Senador.aspx?idP=2412,2026-11-16,none,,"not added: facebook https://www.facebook.com/SenadoBsAs (chrome,social-block); x https://x.com/Senado_BA (chrome,social-block); instagram https://www.instagram.com/senado.ba/ (chrome,social-block)"
+K00478,A0095,own_site,https://www.senado-ba.gov.ar/Senador.aspx?idP=2413,2026-11-16,none,,"not added: facebook https://www.facebook.com/SenadoBsAs (chrome,social-block); x https://x.com/Senado_BA (chrome,social-block); instagram https://www.instagram.com/senado.ba/ (chrome,social-block)"
+K00479,A0093,own_site,https://enriqueestevez.com.ar/,2026-11-16,found,facebook;instagram,"not added: x https://x.com/PSsantafe (chrome,social-block); youtube https://www.youtube.com/channel/UCIbhx5vviC9Zy5su5-Uqh2A (chrome,social-block); already listed: x"
+K00480,A0087,own_site,https://www.gba.gob.ar/trabajo/autoridades/ministro_de_trabajo,2026-11-16,none,,"not added: facebook https://www.facebook.com/TrabajoPBA (); facebook https://www.facebook.com/BAProvincia (chrome,social-block); x https://x.com/TrabajoPBA (); x https://x.com/baprovincia (chrome,social-block); instagram https://www.instagram.com/trabajopba/ (share); instagram https://www.instagram.com/provinc"
+K00481,A0157,own_site,https://web.legisrn.gov.ar/institucional/legisladores/ver?id=708,2026-11-16,none,,"200 at https://web.legisrn.gov.ar/contacto; not added: facebook https://www.facebook.com/legisrn (social-block); instagram https://www.instagram.com/legisrionegro/ (social-block); x https://x.com/LegislaturaRN (meta,social-block); youtube https://www.youtube.com/user/LRNVIDEO (social-block)"
+K00482,A0044,own_site,https://iflh.institutos.filo.uba.ar/kohan-mart%C3%ADn-director,2026-11-16,error,,TimeoutError: The read operation timed out
+K00483,A0048,own_site,https://hpensada.wixsite.com/historiapensada/omar-acha,2026-11-16,none,,
+K00484,A0064,own_site,https://diputadosmisiones.gov.ar/nuevo/diputados&diputado=39,2026-11-16,none,,
+K00485,A0192,own_site,https://montenegrogerardo.com.ar,2026-11-16,none,,
+K00486,A0005,own_site,https://martinmguzman.com/,2026-11-16,found,x,
+K00487,A0108,own_site,https://legislaturadelchubut.gob.ar/miembro/hernandez-estela-beatriz/,2026-11-16,none,,"not added: facebook https://www.facebook.com/legislaturach (chrome,share,social-block); x https://x.com/LegisdelChubut (chrome,share,social-block); x https://x.com/legislaturach (meta); youtube https://www.youtube.com/@LegislaturadelChubut23-27 (chrome,share,social-block); instagram https://www.instagram.com/l"
