@@ -327,3 +327,8 @@ K00325,A0184,own_site,https://dalmaciomera.com.ar/,2026-11-16,error,,URLError: <
 K00326,A0181,own_site,https://juanmariopais.com.ar/,2026-11-16,error,,URLError: <urlopen error [Errno 11001] getaddrinfo failed>
 K00327,A0031,own_site,https://www.claudiolozano.com.ar/,2026-11-16,found,x;tiktok,robots.txt forbids https://linktr.ee/blog/who-unfollowed-me-on-instagram; not added: youtube https://www.youtube.com/@ipypp (); facebook https://www.facebook.com/claudiolozanor (); already listed: instagram
 K00328,A0085,own_site,https://www.marcoscleri.com.ar,2026-11-16,error,,URLError: <urlopen error [Errno 11001] getaddrinfo failed>
+K00329,A0005,orcid,,2026-11-16,none,,several ORCID records with the name
+K00330,A0043,orcid,,2026-11-16,none,,no single ORCID record with the name
+K00331,A0047,orcid,https://orcid.org/0000-0001-9308-1732,2026-11-16,none,,"ORCID institution does not match: Consejo Nacional de Investigaciones Científicas y Técnicas, Fundación Konex, Latin American Studies Association, National Secretary of Culture, Princeton University, Universidad Nacional de San Martín, Universidad de Buenos Aires, Universidad de Buenos Aires Faculta"
+K00332,A0048,orcid,,2026-11-16,none,,several ORCID records with the name
+K00333,A0221,orcid,,2026-11-16,none,,no single ORCID record with the name

@@ -57,3 +57,17 @@ K00055,A0061,wikipedia_langs,,2026-11-16,none,,no official website in the articl
 K00056,A0094,wikipedia_langs,,2026-11-16,none,,no official website in the articles in other languages
 K00057,A0012,own_site,https://sitl.diputados.gob.mx/curricula.php?dipt=62,2026-11-16,error,,URLError: <urlopen error [WinError 10060] A connection attempt failed because the connecte
 K00058,A0009,own_site,https://alfonsoramirezcuellar.com.mx/,2026-11-16,found,instagram;facebook;x,
+K00059,A0010,orcid,,2026-11-16,none,,several ORCID records with the name
+K00060,A0071,orcid,,2026-11-16,none,,several ORCID records with the name
+K00061,A0077,orcid,,2026-11-16,none,,several ORCID records with the name
+K00062,A0092,orcid,,2026-11-16,none,,several ORCID records with the name
+K00063,A0093,orcid,,2026-11-16,none,,several ORCID records with the name
+K00064,A0094,orcid,https://orcid.org/0000-0002-9910-5608,2026-11-16,none,,"ORCID institution does not match: Universidad Nacional Autónoma de México, Université Paris 1 Panthéon-Sorbonne"
+K00065,A0096,orcid,,2026-11-16,none,,no single ORCID record with the name
+K00066,A0097,orcid,,2026-11-16,none,,no single ORCID record with the name
+K00067,A0100,orcid,https://orcid.org/0000-0002-5466-9282,2026-11-16,none,,ORCID institution does not match: Benemérita Universidad Autónoma de Puebla
+K00068,A0101,orcid,https://orcid.org/0000-0001-9382-9149,2026-11-16,none,,ORCID institution does not match: Universidad Autónoma de Querétaro
+K00069,A0102,orcid,,2026-11-16,none,,several ORCID records with the name
+K00070,A0103,orcid,,2026-11-16,none,,several ORCID records with the name
+K00071,A0104,orcid,,2026-11-16,none,,several ORCID records with the name
+K00072,A0105,orcid,,2026-11-16,none,,several ORCID records with the name

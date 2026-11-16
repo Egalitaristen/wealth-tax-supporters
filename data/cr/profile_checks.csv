@@ -44,3 +44,29 @@ K00042,A0027,wikipedia_langs,https://es.wikipedia.org/wiki/Welmer_Ramos_Gonz%C3%
 K00043,A0041,wikipedia_langs,,2026-11-16,none,,no official website in the articles in other languages
 K00044,A0027,own_site,https://www.welmerramos.cr,2026-11-16,error,,URLError: <urlopen error [Errno 11001] getaddrinfo failed>
 K00045,A0003,own_site,https://villaltapresidente.cr/,2026-11-16,error,,URLError: <urlopen error [Errno 11001] getaddrinfo failed>
+K00046,A0013,orcid,,2026-11-16,none,,several ORCID records with the name
+K00047,A0015,orcid,,2026-11-16,none,,several ORCID records with the name
+K00048,A0018,orcid,,2026-11-16,none,,several ORCID records with the name
+K00049,A0019,orcid,,2026-11-16,none,,several ORCID records with the name
+K00050,A0020,orcid,,2026-11-16,none,,several ORCID records with the name
+K00051,A0021,orcid,,2026-11-16,none,,several ORCID records with the name
+K00052,A0022,orcid,,2026-11-16,none,,several ORCID records with the name
+K00053,A0023,orcid,,2026-11-16,none,,no single ORCID record with the name
+K00054,A0024,orcid,,2026-11-16,none,,several ORCID records with the name
+K00055,A0025,orcid,,2026-11-16,none,,several ORCID records with the name
+K00056,A0026,orcid,,2026-11-16,none,,no single ORCID record with the name
+K00057,A0028,orcid,,2026-11-16,none,,several ORCID records with the name
+K00058,A0029,orcid,https://orcid.org/0000-0002-4673-4128,2026-11-16,none,,"ORCID institution does not match: Pontificia Universidad Católica de Chile, Universidad Estatal a Distancia, Universidad de Costa Rica"
+K00059,A0030,orcid,,2026-11-16,none,,several ORCID records with the name
+K00060,A0031,orcid,,2026-11-16,none,,several ORCID records with the name
+K00061,A0032,orcid,,2026-11-16,none,,several ORCID records with the name
+K00062,A0033,orcid,,2026-11-16,none,,several ORCID records with the name
+K00063,A0034,orcid,,2026-11-16,none,,several ORCID records with the name
+K00064,A0035,orcid,,2026-11-16,none,,several ORCID records with the name
+K00065,A0036,orcid,,2026-11-16,none,,no single ORCID record with the name
+K00066,A0037,orcid,,2026-11-16,none,,several ORCID records with the name
+K00067,A0038,orcid,https://orcid.org/0000-0003-4042-9808,2026-11-16,none,,ORCID institution does not match: none listed
+K00068,A0039,orcid,,2026-11-16,none,,several ORCID records with the name
+K00069,A0040,orcid,,2026-11-16,none,,several ORCID records with the name
+K00070,A0041,orcid,,2026-11-16,none,,no single ORCID record with the name
+K00071,A0042,orcid,,2026-11-16,none,,several ORCID records with the name

@@ -43,3 +43,15 @@ K00041,A0038,wikipedia_langs,,2026-11-16,none,,no official website in the articl
 K00042,A0040,wikipedia_langs,https://es.wikipedia.org/wiki/Premios_Emmy_Internacional_de_Asuntos_y_Noticias,2026-11-16,none,,the page's title and headings do not carry the name: https://www.iemmys.tv/
 K00043,A0032,own_site,https://www.nuevoespacio.org.uy/fichas/Rafael_Michelini_4.php,2026-11-16,none,,"not added: facebook https://www.facebook.com/NuevoEspacioFrenteAmplio (chrome,social-block); x https://x.com/NuevoEspacio (chrome,social-block); youtube https://www.youtube.com/user/NuevoEspacioFA (chrome,social-block); instagram https://www.instagram.com/nuevoespaciofa/ (chrome,social-block)"
 K00044,A0011,own_site,https://equipo609.uy/alejandrosanchez,2026-11-16,error,,"URLError: <urlopen error ('A certificate chain processed, but terminated in a root certifi"
+K00045,A0018,orcid,https://orcid.org/0000-0003-4065-4853,2026-11-16,none,,ORCID institution does not match: Universidad de la República
+K00046,A0019,orcid,,2026-11-16,none,,several ORCID records with the name
+K00047,A0020,orcid,https://orcid.org/0000-0002-2500-4708,2026-11-16,none,,"ORCID institution does not match: Universidad Nacional Autónoma de México, Universidad de la Republica Uruguay Comisión Sectorial de Extensión y Actividades en el Medio, Universidad de la República Facultad de Agronomía"
+K00048,A0021,orcid,,2026-11-16,none,,several ORCID records with the name
+K00049,A0022,orcid,https://orcid.org/0009-0002-6184-3717,2026-11-16,none,,"record found, no website listed"
+K00050,A0023,orcid,,2026-11-16,none,,no single ORCID record with the name
+K00051,A0024,orcid,,2026-11-16,none,,several ORCID records with the name
+K00052,A0025,orcid,,2026-11-16,none,,no single ORCID record with the name
+K00053,A0026,orcid,,2026-11-16,none,,several ORCID records with the name
+K00054,A0029,orcid,,2026-11-16,none,,no single ORCID record with the name
+K00055,A0030,orcid,https://orcid.org/0009-0006-8638-2215,2026-11-16,none,,"record found, no website listed"
+K00056,A0035,orcid,,2026-11-16,none,,no single ORCID record with the name

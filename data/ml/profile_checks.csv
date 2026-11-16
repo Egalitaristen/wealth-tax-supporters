@@ -2,3 +2,4 @@ check_id,actor_id,method,url,checked,result,found,note
 K00001,A0001,own_site,https://www.moussamara.com,2026-11-16,found,facebook;linkedin;x;instagram,
 K00002,A0002,directory,,2026-11-16,none,,no NBER page
 K00003,A0002,wikipedia_langs,,2026-11-16,none,,no official website in the articles in other languages
+K00004,A0002,orcid,,2026-11-16,none,,no single ORCID record with the name

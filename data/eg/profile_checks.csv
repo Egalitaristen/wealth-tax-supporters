@@ -10,3 +10,7 @@ K00008,A0012,directory,,2026-11-16,none,,no NBER page
 K00009,A0019,directory,,2026-11-16,none,,no NBER page
 K00010,A0021,directory,,2026-11-16,none,,no NBER page
 K00011,A0014,wikipedia_langs,,2026-11-16,none,,no official website in the articles in other languages
+K00012,A0011,orcid,,2026-11-16,none,,several ORCID records with the name
+K00013,A0012,orcid,https://orcid.org/0000-0002-4833-2536,2026-11-16,none,,ORCID institution does not match: none listed
+K00014,A0019,orcid,,2026-11-16,none,,no single ORCID record with the name
+K00015,A0021,orcid,,2026-11-16,none,,no single ORCID record with the name

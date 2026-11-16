@@ -325,3 +325,165 @@ K00323,A0293,wikipedia_langs,,2026-11-16,none,,no official website in the articl
 K00324,A0174,own_site,https://www.cofide.it/,2026-11-16,error,,URLError: <urlopen error [Errno 11001] getaddrinfo failed>
 K00325,A0169,own_site,https://www.ciwati.it/,2026-11-16,none,,already listed: x
 K00326,A0233,own_site,https://www.faustobertinotti.it/,2026-11-16,none,,
+K00327,A0014,orcid,https://orcid.org/0000-0001-5534-8694,2026-11-16,none,,"record found, no website listed"
+K00328,A0015,orcid,https://orcid.org/0000-0002-6240-3003,2026-11-16,none,,"record found, no website listed"
+K00329,A0016,orcid,,2026-11-16,none,,no single ORCID record with the name
+K00330,A0018,orcid,,2026-11-16,none,,several ORCID records with the name
+K00331,A0019,orcid,https://orcid.org/0000-0001-9972-716X,2026-11-16,none,,ORCID institution does not match: none listed
+K00332,A0020,orcid,https://orcid.org/0000-0001-9960-4354,2026-11-16,none,,"record found, no website listed"
+K00333,A0021,orcid,https://orcid.org/0000-0002-7579-2386,2026-11-16,none,,"record found, no website listed"
+K00334,A0023,orcid,https://orcid.org/0000-0002-1928-140X,2026-11-16,none,,"record found, no website listed"
+K00335,A0024,orcid,https://orcid.org/0000-0003-0735-1076,2026-11-16,none,,"ORCID institution does not match: University of Essex, Università degli Studi del Piemonte Orientale “Amedeo Avogadro”"
+K00336,A0025,orcid,,2026-11-16,none,,several ORCID records with the name
+K00337,A0026,orcid,https://orcid.org/0000-0002-4694-1434,2026-11-16,none,,ORCID institution does not match: none listed
+K00338,A0027,orcid,,2026-11-16,none,,several ORCID records with the name
+K00339,A0028,orcid,,2026-11-16,none,,several ORCID records with the name
+K00340,A0029,orcid,,2026-11-16,none,,several ORCID records with the name
+K00341,A0030,orcid,,2026-11-16,none,,several ORCID records with the name
+K00342,A0031,orcid,https://orcid.org/0000-0001-5315-0756,2026-11-16,none,,ORCID institution does not match: none listed
+K00343,A0032,orcid,,2026-11-16,none,,several ORCID records with the name
+K00344,A0033,orcid,https://orcid.org/0000-0002-8299-7830,2026-11-16,none,,"ORCID institution does not match: Libera Università Internazionale degli Studi Sociali Guido Carli, Scuola Superiore Sant'Anna, University of Sussex, Università degli Studi di Teramo, Università degli Studi di Trento"
+K00345,A0034,orcid,https://orcid.org/0000-0002-1935-3565,2026-11-16,none,,ORCID institution does not match: none listed
+K00346,A0035,orcid,https://orcid.org/0000-0002-8128-6674,2026-11-16,none,,"record found, no website listed"
+K00347,A0036,orcid,https://orcid.org/0000-0002-7275-4827,2026-11-16,none,,"record found, no website listed"
+K00348,A0037,orcid,https://orcid.org/0000-0002-9917-5091,2026-11-16,found,website,
+K00349,A0038,orcid,https://orcid.org/0000-0003-1486-0282,2026-11-16,none,,ORCID institution does not match: none listed
+K00350,A0039,orcid,https://orcid.org/0000-0002-9023-8308,2026-11-16,none,,"record found, no website listed"
+K00351,A0040,orcid,https://orcid.org/0000-0002-4111-0447,2026-11-16,none,,"record found, no website listed"
+K00352,A0041,orcid,https://orcid.org/0000-0002-3706-1208,2026-11-16,none,,ORCID institution does not match: none listed
+K00353,A0042,orcid,,2026-11-16,none,,several ORCID records with the name
+K00354,A0043,orcid,,2026-11-16,none,,several ORCID records with the name
+K00355,A0044,orcid,,2026-11-16,none,,several ORCID records with the name
+K00356,A0045,orcid,,2026-11-16,none,,several ORCID records with the name
+K00357,A0046,orcid,,2026-11-16,none,,several ORCID records with the name
+K00358,A0047,orcid,,2026-11-16,none,,several ORCID records with the name
+K00359,A0048,orcid,https://orcid.org/0000-0001-6431-0145,2026-11-16,found,website,
+K00360,A0049,orcid,https://orcid.org/0000-0002-1741-8791,2026-11-16,none,,ORCID institution does not match: none listed
+K00361,A0050,orcid,,2026-11-16,none,,several ORCID records with the name
+K00362,A0052,orcid,https://orcid.org/0000-0001-7662-1928,2026-11-16,none,,ORCID institution does not match: none listed
+K00363,A0053,orcid,,2026-11-16,none,,several ORCID records with the name
+K00364,A0054,orcid,,2026-11-16,none,,several ORCID records with the name
+K00365,A0055,orcid,https://orcid.org/0000-0002-7524-9148,2026-11-16,none,,ORCID institution does not match: Università degli Studi di Firenze
+K00366,A0056,orcid,https://orcid.org/0000-0002-1457-6356,2026-11-16,none,,"record found, no website listed"
+K00367,A0057,orcid,,2026-11-16,none,,several ORCID records with the name
+K00368,A0058,orcid,https://orcid.org/0000-0002-2894-1297,2026-11-16,none,,"record found, no website listed"
+K00369,A0059,orcid,https://orcid.org/0000-0001-6777-7111,2026-11-16,found,website,
+K00370,A0060,orcid,https://orcid.org/0000-0002-9104-9242,2026-11-16,found,website,
+K00371,A0061,orcid,https://orcid.org/0000-0002-1421-3707,2026-11-16,none,,"record found, no website listed"
+K00372,A0062,orcid,https://orcid.org/0000-0002-8876-2215,2026-11-16,found,website,
+K00373,A0063,orcid,https://orcid.org/0000-0001-6314-3517,2026-11-16,none,,"record found, no website listed"
+K00374,A0064,orcid,,2026-11-16,none,,several ORCID records with the name
+K00375,A0065,orcid,,2026-11-16,none,,several ORCID records with the name
+K00376,A0066,orcid,https://orcid.org/0000-0001-9464-8251,2026-11-16,none,,"record found, no website listed"
+K00377,A0067,orcid,,2026-11-16,none,,several ORCID records with the name
+K00378,A0068,orcid,https://orcid.org/0000-0002-3972-2217,2026-11-16,none,,"record found, no website listed"
+K00379,A0069,orcid,,2026-11-16,none,,several ORCID records with the name
+K00380,A0070,orcid,https://orcid.org/0000-0003-0194-8170,2026-11-16,none,,ORCID institution does not match: Università degli Studi dell'Insubria
+K00381,A0071,orcid,https://orcid.org/0000-0001-7466-8562,2026-11-16,found,website,
+K00382,A0072,orcid,https://orcid.org/0000-0003-4562-2359,2026-11-16,none,,"record found, no website listed"
+K00383,A0073,orcid,https://orcid.org/0000-0002-8512-9975,2026-11-16,none,,"record found, no website listed"
+K00384,A0074,orcid,,2026-11-16,none,,several ORCID records with the name
+K00385,A0075,orcid,https://orcid.org/0000-0001-5693-6236,2026-11-16,none,,"record found, no website listed"
+K00386,A0076,orcid,,2026-11-16,none,,no single ORCID record with the name
+K00387,A0077,orcid,https://orcid.org/0009-0007-2253-9671,2026-11-16,none,,"ORCID institution does not match: Fundação Getúlio Vargas, International Budget Partnership"
+K00388,A0078,orcid,https://orcid.org/0000-0002-6688-5994,2026-11-16,none,,"record found, no website listed"
+K00389,A0079,orcid,https://orcid.org/0000-0001-7786-039X,2026-11-16,none,,ORCID institution does not match: University of Technology Sydney
+K00390,A0080,orcid,,2026-11-16,none,,several ORCID records with the name
+K00391,A0081,orcid,,2026-11-16,none,,no single ORCID record with the name
+K00392,A0082,orcid,https://orcid.org/0000-0001-6480-6343,2026-11-16,none,,ORCID institution does not match: none listed
+K00393,A0083,orcid,https://orcid.org/0000-0002-9548-1825,2026-11-16,none,,"record found, no website listed"
+K00394,A0085,orcid,https://orcid.org/0000-0002-1992-7071,2026-11-16,found,website,
+K00395,A0086,orcid,https://orcid.org/0000-0002-8456-7869,2026-11-16,none,,"record found, no website listed"
+K00396,A0087,orcid,,2026-11-16,none,,several ORCID records with the name
+K00397,A0088,orcid,,2026-11-16,none,,several ORCID records with the name
+K00398,A0089,orcid,https://orcid.org/0000-0002-5098-8972,2026-11-16,found,website,
+K00399,A0090,orcid,https://orcid.org/0000-0002-4642-4779,2026-11-16,found,website,
+K00400,A0092,orcid,https://orcid.org/0000-0002-7621-8861,2026-11-16,none,,"ORCID institution does not match: Bocconi University, Universitat Pompeu Fabra"
+K00401,A0093,orcid,https://orcid.org/0000-0003-2869-6137,2026-11-16,none,,ORCID institution does not match: none listed
+K00402,A0094,orcid,,2026-11-16,none,,several ORCID records with the name
+K00403,A0095,orcid,,2026-11-16,none,,several ORCID records with the name
+K00404,A0096,orcid,,2026-11-16,none,,no single ORCID record with the name
+K00405,A0097,orcid,https://orcid.org/0000-0002-2748-6472,2026-11-16,none,,"record found, no website listed"
+K00406,A0098,orcid,https://orcid.org/0000-0003-2071-6615,2026-11-16,found,website,
+K00407,A0099,orcid,https://orcid.org/0000-0002-4839-047X,2026-11-16,none,,ORCID institution does not match: none listed
+K00408,A0100,orcid,,2026-11-16,none,,several ORCID records with the name
+K00409,A0103,orcid,,2026-11-16,none,,several ORCID records with the name
+K00410,A0104,orcid,https://orcid.org/0000-0002-3472-4029,2026-11-16,none,,"record found, no website listed"
+K00411,A0106,orcid,https://orcid.org/0000-0002-0401-3445,2026-11-16,found,website,
+K00412,A0107,orcid,https://orcid.org/0000-0003-3835-7243,2026-11-16,none,,"record found, no website listed"
+K00413,A0109,orcid,,2026-11-16,none,,several ORCID records with the name
+K00414,A0110,orcid,,2026-11-16,none,,several ORCID records with the name
+K00415,A0111,orcid,https://orcid.org/0000-0003-4786-9507,2026-11-16,none,,"record found, no website listed"
+K00416,A0113,orcid,,2026-11-16,none,,several ORCID records with the name
+K00417,A0114,orcid,https://orcid.org/0000-0003-4700-0609,2026-11-16,none,,ORCID institution does not match: none listed
+K00418,A0115,orcid,https://orcid.org/0000-0003-1224-9666,2026-11-16,none,,ORCID institution does not match: none listed
+K00419,A0116,orcid,https://orcid.org/0000-0002-9389-903X,2026-11-16,none,,ORCID institution does not match: Univpm
+K00420,A0117,orcid,,2026-11-16,none,,several ORCID records with the name
+K00421,A0118,orcid,,2026-11-16,none,,several ORCID records with the name
+K00422,A0119,orcid,https://orcid.org/0000-0003-4828-9168,2026-11-16,none,,"record found, no website listed"
+K00423,A0120,orcid,https://orcid.org/0000-0003-0754-0037,2026-11-16,none,,ORCID institution does not match: none listed
+K00424,A0121,orcid,https://orcid.org/0000-0001-8906-2061,2026-11-16,none,,ORCID institution does not match: none listed
+K00425,A0122,orcid,,2026-11-16,none,,several ORCID records with the name
+K00426,A0123,orcid,https://orcid.org/0000-0002-2082-9196,2026-11-16,none,,ORCID institution does not match: none listed
+K00427,A0124,orcid,https://orcid.org/0000-0001-6673-4427,2026-11-16,none,,"record found, no website listed"
+K00428,A0125,orcid,https://orcid.org/0000-0003-1309-3165,2026-11-16,none,,"ORCID institution does not match: Queen Mary University of London, University College London, Università Commerciale Luigi Bocconi, Università degli Studi di Firenze"
+K00429,A0126,orcid,https://orcid.org/0000-0002-4674-3999,2026-11-16,none,,ORCID institution does not match: Università Cattolica del Sacro Cuore
+K00430,A0127,orcid,,2026-11-16,none,,several ORCID records with the name
+K00431,A0128,orcid,,2026-11-16,none,,several ORCID records with the name
+K00432,A0129,orcid,,2026-11-16,none,,several ORCID records with the name
+K00433,A0130,orcid,,2026-11-16,none,,several ORCID records with the name
+K00434,A0131,orcid,https://orcid.org/0000-0003-2504-9145,2026-11-16,none,,"record found, no website listed"
+K00435,A0132,orcid,https://orcid.org/0009-0002-5547-7642,2026-11-16,none,,ORCID institution does not match: none listed
+K00436,A0133,orcid,https://orcid.org/0000-0003-1857-3803,2026-11-16,none,,"record found, no website listed"
+K00437,A0134,orcid,https://orcid.org/0000-0002-6635-8748,2026-11-16,none,,"record found, no website listed"
+K00438,A0135,orcid,https://orcid.org/0000-0001-6501-9739,2026-11-16,none,,"record found, no website listed"
+K00439,A0136,orcid,,2026-11-16,none,,several ORCID records with the name
+K00440,A0137,orcid,https://orcid.org/0000-0002-0948-5150,2026-11-16,none,,"record found, no website listed"
+K00441,A0138,orcid,https://orcid.org/0000-0002-2757-0439,2026-11-16,found,website,
+K00442,A0139,orcid,,2026-11-16,none,,several ORCID records with the name
+K00443,A0140,orcid,https://orcid.org/0000-0002-7416-0870,2026-11-16,none,,ORCID institution does not match: none listed
+K00444,A0142,orcid,https://orcid.org/0000-0002-8021-4185,2026-11-16,none,,"ORCID institution does not match: Università degli Studi di Firenze, Università degli Studi di Pisa, Universität Konstanz"
+K00445,A0143,orcid,https://orcid.org/0000-0001-7652-5952,2026-11-16,found,website,
+K00446,A0144,orcid,https://orcid.org/0000-0001-5958-9647,2026-11-16,none,,ORCID institution does not match: none listed
+K00447,A0145,orcid,,2026-11-16,none,,several ORCID records with the name
+K00448,A0146,orcid,https://orcid.org/0000-0001-6321-2105,2026-11-16,none,,ORCID institution does not match: none listed
+K00449,A0147,orcid,https://orcid.org/0000-0002-2056-3324,2026-11-16,none,,"record found, no website listed"
+K00450,A0148,orcid,https://orcid.org/0000-0001-5067-3121,2026-11-16,none,,ORCID institution does not match: none listed
+K00451,A0149,orcid,https://orcid.org/0000-0001-5046-2228,2026-11-16,none,,ORCID institution does not match: none listed
+K00452,A0197,orcid,https://orcid.org/0000-0002-8350-3644,2026-11-16,none,,ORCID institution does not match: none listed
+K00453,A0199,orcid,https://orcid.org/0000-0003-2378-0639,2026-11-16,none,,"record found, no website listed"
+K00454,A0200,orcid,,2026-11-16,none,,no single ORCID record with the name
+K00455,A0201,orcid,https://orcid.org/0000-0003-2945-0104,2026-11-16,none,,ORCID institution does not match: none listed
+K00456,A0202,orcid,,2026-11-16,none,,several ORCID records with the name
+K00457,A0203,orcid,https://orcid.org/0000-0003-2926-3261,2026-11-16,none,,"record found, no website listed"
+K00458,A0204,orcid,https://orcid.org/0009-0000-7747-9820,2026-11-16,none,,"record found, no website listed"
+K00459,A0206,orcid,,2026-11-16,none,,several ORCID records with the name
+K00460,A0207,orcid,https://orcid.org/0000-0002-6397-9354,2026-11-16,none,,"record found, no website listed"
+K00461,A0208,orcid,https://orcid.org/0009-0008-2805-0591,2026-11-16,none,,"record found, no website listed"
+K00462,A0209,orcid,https://orcid.org/0000-0002-8290-880X,2026-11-16,none,,ORCID institution does not match: none listed
+K00463,A0210,orcid,https://orcid.org/0000-0002-5302-1564,2026-11-16,none,,ORCID institution does not match: none listed
+K00464,A0211,orcid,https://orcid.org/0000-0002-3984-0766,2026-11-16,none,,"record found, no website listed"
+K00465,A0212,orcid,,2026-11-16,none,,several ORCID records with the name
+K00466,A0213,orcid,,2026-11-16,none,,several ORCID records with the name
+K00467,A0215,orcid,https://orcid.org/0000-0002-6496-4488,2026-11-16,none,,"ORCID institution does not match: Ottawa Hospital Research Institute, University of Ottawa"
+K00468,A0216,orcid,,2026-11-16,none,,several ORCID records with the name
+K00469,A0217,orcid,,2026-11-16,none,,no single ORCID record with the name
+K00470,A0218,orcid,https://orcid.org/0009-0006-8297-300X,2026-11-16,none,,the page's title and headings do not carry the name: https://dottorati.conservatoriosantacecilia.it/corsi-di-dottorato/produzione-gestione-e-management-delle-arti-dello-spettacolo-e-delle-istituzioni-afam/collegio-docenti/
+K00471,A0219,orcid,,2026-11-16,none,,several ORCID records with the name
+K00472,A0220,orcid,https://orcid.org/0000-0003-2236-4537,2026-11-16,found,website,
+K00473,A0221,orcid,https://orcid.org/0000-0003-2417-6599,2026-11-16,none,,ORCID institution does not match: none listed
+K00474,A0246,orcid,,2026-11-16,none,,no single ORCID record with the name
+K00475,A0098,own_site,https://mattiaguerini.github.io/,2026-11-16,none,,
+K00476,A0090,own_site,https://www.ettoregallo.com,2026-11-16,found,x;linkedin,
+K00477,A0138,own_site,https://www.danieletavani.com,2026-11-16,error,,URLError: <urlopen error [SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of
+K00478,A0060,own_site,https://docenti.unisi.it/it/salvatorebimonte,2026-11-16,none,,
+K00479,A0220,own_site,https://francescosyloslabini.info/,2026-11-16,found,x;substack;facebook;linkedin,
+K00480,A0059,own_site,https://www.santannapisa.it/it/gianluca-biggi,2026-11-16,none,,"not added: facebook https://www.facebook.com/scuolasuperioresantanna (chrome,social-block); x https://x.com/ScuolaSantanna (chrome,social-block); instagram https://www.instagram.com/santannapisa/ (chrome,social-block); instagram https://www.instagram.com/scuolasantannapisa/ (chrome,social-block); linkedin http"
+K00481,A0085,own_site,https://people.unipi.it/davide_fiaschi/,2026-11-16,none,,
+K00482,A0089,own_site,https://www.santannapisa.it/it/giacomo-gabbuti,2026-11-16,none,,"not added: facebook https://www.facebook.com/scuolasuperioresantanna (chrome,social-block); x https://x.com/ScuolaSantanna (chrome,social-block); instagram https://www.instagram.com/santannapisa/ (chrome,social-block); instagram https://www.instagram.com/scuolasantannapisa/ (chrome,social-block); linkedin http"
+K00483,A0062,own_site,https://personale.unimore.it/rubrica/dettaglio/bonifati,2026-11-16,error,,404 at https://personale.unimore.it/rubrica/dettaglio/bonifati
+K00484,A0071,own_site,https://checchi.economia.unimi.it,2026-11-16,error,,"URLError: <urlopen error (""The certificate's CN name does not match the passed value."",)>"
+K00485,A0048,own_site,https://rveneziani.econ.qmul.ac.uk/,2026-11-16,none,,
+K00486,A0143,own_site,https://github.com/marcoverpas,2026-11-16,found,x;linkedin,"not added: x https://x.com/github (chrome,meta,social-block); facebook https://www.facebook.com/Marxianomics (rel-me); linkedin https://www.linkedin.com/company/github (chrome,social-block); instagram https://www.instagram.com/github/ (chrome,social-block); tiktok https://www.tiktok.com/@github (chrome,social-"
+K00487,A0037,own_site,https://www.ugopagano.info,2026-11-16,none,,
+K00488,A0106,own_site,https://www2.econ.univpm.it/servizi/hpp/lucchetti/ects_en.html,2026-11-16,none,,

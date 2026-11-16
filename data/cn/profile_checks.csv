@@ -8,3 +8,8 @@ K00006,A0008,directory,,2026-11-16,none,,no NBER page
 K00007,A0010,directory,,2026-11-16,none,,no NBER page
 K00008,A0012,directory,,2026-11-16,none,,no NBER page
 K00009,A0011,own_site,https://scholars.ln.edu.hk/en/persons/meng-wang,2026-11-16,error,,404 at https://scholars.ln.edu.hk/en/persons/meng-wang
+K00010,A0006,orcid,,2026-11-16,none,,no single ORCID record with the name
+K00011,A0007,orcid,,2026-11-16,none,,several ORCID records with the name
+K00012,A0008,orcid,,2026-11-16,none,,several ORCID records with the name
+K00013,A0010,orcid,https://orcid.org/0000-0003-1408-7840,2026-11-16,none,,ORCID institution does not match: none listed
+K00014,A0012,orcid,,2026-11-16,none,,several ORCID records with the name

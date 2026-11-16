@@ -515,3 +515,11 @@ K00513,A0066,own_site,https://www.scottish.parliament.uk/msp/membersPages/kenny_
 K00514,A0260,own_site,https://www.alasdairallan.scot/,2026-11-16,found,facebook;instagram,already listed: x
 K00515,A0291,own_site,https://www.partidoliberal.org.co,2026-11-16,blocked,,403 at https://www.partidoliberal.org.co
 K00516,A0248,own_site,https://www.scottish.parliament.uk,2026-11-16,error,,URLError: <urlopen error ('A required certificate is not within its validity period when v
+K00517,A0292,orcid,,2026-11-16,none,,several ORCID records with the name
+K00518,A0294,orcid,,2026-11-16,none,,several ORCID records with the name
+K00519,A0301,orcid,https://orcid.org/0000-0002-5925-203X,2026-11-16,found,website,
+K00520,A0308,orcid,,2026-11-16,none,,several ORCID records with the name
+K00521,A0315,orcid,,2026-11-16,none,,several ORCID records with the name
+K00522,A0579,orcid,,2026-11-16,none,,no single ORCID record with the name
+K00523,A0604,orcid,,2026-11-16,none,,no single ORCID record with the name
+K00524,A0301,own_site,https://www.staff.city.ac.uk/andy.denis,2026-11-16,blocked,,403 at https://www.staff.city.ac.uk/andy.denis

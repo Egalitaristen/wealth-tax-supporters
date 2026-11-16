@@ -23,3 +23,11 @@ K00021,A0004,wikipedia_langs,https://de.wikipedia.org/wiki/Evo_Morales,2026-11-1
 K00022,A0012,wikipedia_langs,,2026-11-16,none,,no official website in the articles in other languages
 K00023,A0024,wikipedia_langs,https://es.wikipedia.org/wiki/%C3%81lvaro_Garc%C3%ADa_Linera,2026-11-16,found,website,site not read (ERR URLError)
 K00024,A0024,own_site,https://www.vicepresidencia.gob.bo/spip.php?page=expositor&id_expositor=10,2026-11-16,error,,URLError: <urlopen error [Errno 11002] getaddrinfo failed>
+K00025,A0014,orcid,,2026-11-16,none,,several ORCID records with the name
+K00026,A0015,orcid,,2026-11-16,none,,several ORCID records with the name
+K00027,A0017,orcid,,2026-11-16,none,,several ORCID records with the name
+K00028,A0018,orcid,,2026-11-16,none,,several ORCID records with the name
+K00029,A0025,orcid,https://orcid.org/0000-0002-1848-3624,2026-11-16,none,,ORCID institution does not match: none listed
+K00030,A0026,orcid,,2026-11-16,none,,no single ORCID record with the name
+K00031,A0033,orcid,,2026-11-16,none,,several ORCID records with the name
+K00032,A0036,orcid,,2026-11-16,none,,no single ORCID record with the name

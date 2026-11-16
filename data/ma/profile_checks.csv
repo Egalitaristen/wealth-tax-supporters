@@ -23,3 +23,5 @@ K00021,A0011,wikipedia_langs,,2026-11-16,none,,no official website in the articl
 K00022,A0018,wikipedia_langs,,2026-11-16,none,,no official website in the articles in other languages
 K00023,A0020,wikipedia_langs,https://ary.wikipedia.org/wiki/%D8%B1%D8%B4%D9%8A%D8%AF_%D8%AD%D9%85%D9%88%D9%86%D9%8A,2026-11-16,found,website,site not read (ERR 403)
 K00024,A0020,own_site,https://www.chambredesrepresentants.ma,2026-11-16,blocked,,403 at https://www.chambredesrepresentants.ma
+K00025,A0006,orcid,https://orcid.org/0009-0006-3859-5136,2026-11-16,none,,ORCID institution does not match: none listed
+K00026,A0011,orcid,,2026-11-16,none,,no single ORCID record with the name

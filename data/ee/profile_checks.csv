@@ -18,3 +18,6 @@ K00016,A0008,wikipedia_langs,,2026-11-16,none,,no official website in the articl
 K00017,A0009,wikipedia_langs,,2026-11-16,none,,no official website in the articles in other languages
 K00018,A0011,wikipedia_langs,,2026-11-16,none,,no official website in the articles in other languages
 K00019,A0004,own_site,https://www.vm.ee/en/ministry-contacts/foreign-minister,2026-11-16,error,,404 at https://www.vm.ee/en/ministry-contacts/foreign-minister
+K00020,A0008,orcid,https://orcid.org/0000-0003-0963-394X,2026-11-16,none,,the page's title and headings do not carry the name: https://www.ucl.ac.uk/iipp
+K00021,A0009,orcid,,2026-11-16,none,,no single ORCID record with the name
+K00022,A0011,orcid,https://orcid.org/0000-0002-8735-6012,2026-11-16,none,,ORCID institution does not match: none listed
