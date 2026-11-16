@@ -290,3 +290,12 @@ K00288,A0128,manual_search,,2026-11-16,none,,Only news coverage found.
 K00289,A0111,manual_search,,2026-11-16,none,,Searches confirmed he is a PSOE deputy for Badajoz but surfaced no personal site and no opened congreso.es member page.
 K00290,A0222,manual_search,,2026-11-16,none,,Only the Público author page (employer/media) found; no own site.
 K00291,A0128,manual_search,,2026-11-16,none,,Searches only returned news articles; no personal site or confirmed Juntas Generales member page found (their domain guess failed).
+K00292,A0060,manual_search,https://www.cortesgenerales.es,2026-11-16,found,website,Address seen in a search result (Hispanopedia entry gives it as the official site of the Cortes Generales); could not open it to confirm because fetch was rate-limited/failed.
+K00293,A0061,manual_search,https://movimientosumar.es/,2026-11-16,found,website,"Found via search (party statutes list this address); opened it, title and content are Movimiento Sumar the party."
+K00294,A0089,manual_search,https://justiciafiscalcv.es/,2026-11-16,found,website,"Found via search (Congress document lists the domain); opened it, title and content match the Valencian coalition."
+K00295,A0122,manual_search,,2026-11-16,none,,"Two searches found only news coverage, no own site for the Spanish Frente Amplio coalition; other 'Frente Amplio' domains are Uruguay/Chile, and I did not guess an address."
+K00296,A0134,manual_search,https://actionaid.es/,2026-11-16,found,website,"Address came from a government directory seen in search; opened it, page says 'Ahora somos ActionAid', a Spanish NGO."
+K00297,A0136,manual_search,,2026-11-16,none,,"Searched twice; only the national Plataforma Justicia Fiscal site (plataformajusticiafiscal.com) exists, which does not mention a Madrid section, so not returned."
+K00298,A0183,manual_search,https://jjggbizkaia.eus/en/welcome,2026-11-16,found,website,"Found via search as first result; opened it, title names the General Assemblies of Bizkaia."
+K00299,A0184,manual_search,https://ezker-anitza.org/,2026-11-16,found,website,"Found via search (Wikipedia and hosted party documents point to it); opened it, site is Ezker Anitza with Basque-branch content."
+K00300,A0186,manual_search,https://www.bngipuzkoa.eus/,2026-11-16,found,website,"Address from Basque Government directory seen in search; opened it, banner is Gipuzkoako Batzar Nagusiak."

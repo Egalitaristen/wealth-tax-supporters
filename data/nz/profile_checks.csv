@@ -42,3 +42,11 @@ K00040,A0028,orcid,,2026-11-16,none,,no single ORCID record with the name
 K00041,A0029,orcid,,2026-11-16,none,,several ORCID records with the name
 K00042,A0022,manual_search,,2026-11-16,none,,No own site or official page confirmed.
 K00043,A0022,manual_search,,2026-11-16,none,,"Searched name plus Oxfam Aotearoa; only Oxfam employer pages, news and Development Policy Centre pieces mention her; no own site or institutional profile found."
+K00044,A0015,manual_search,,2026-11-16,none,,"Two searches found only news and coalition mentions of EcuAction, no own site."
+K00045,A0042,manual_search,,2026-11-16,none,,"Two searches found only press coverage, no own site."
+K00046,A0049,manual_search,https://equalitynetwork.org.nz,2026-11-16,found,website,"Domain was my own guess from the name; opened, title carries Equality Network and NZ; matches the coalition described in search results."
+K00047,A0051,manual_search,https://www.aaap.org.nz,2026-11-16,found,website,"Found in search results; opened, title is the organisation name."
+K00048,A0052,manual_search,https://www.salvationarmy.org.nz,2026-11-16,found,website,"Obvious domain (my own guess), opened; Salvation Army New Zealand site."
+K00049,A0053,manual_search,https://www.nzccss.org.nz,2026-11-16,found,website,"Domain seen in search results (nzccss.org.nz) for NZCCSS; opened, site is the Christian social services council."
+K00050,A0054,manual_search,,2026-11-16,none,,Search found only mentions of the committee on other sites; no own page confirmed (Labour page fetch was rate-limited).
+K00051,A0055,manual_search,https://www.aucklandcatholic.org.nz/justicepeace/,2026-11-16,found,website,"Found via search for the exact name; it is the Justice and Peace section on the Auckland Catholic Diocese's own site (page fetch returned 403, so title taken from the search result and its description"

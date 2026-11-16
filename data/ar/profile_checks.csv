@@ -344,3 +344,11 @@ K00342,A0118,manual_search,,2026-11-16,none,,Search confirmed she was a Cordoba 
 K00343,A0037,manual_search,,2026-11-16,none,,Two searches for CTA San Nicolás found no own site; only national CTA documents.
 K00344,A0072,manual_search,,2026-11-16,none,,"Chamber of Deputies page hcdn.gob.ar/diputados/dbrue cited in a search but could not be opened (connection reset), so not confirmed; no own site found."
 K00345,A0109,manual_search,,2026-11-16,none,,"No own site found; Wikipedia links the Chamber profile (diputados.gov.ar/diputados/sigon) but I could not open it to confirm, so not returned."
+K00346,A0019,manual_search,,2026-11-16,none,,"Search rate-limited; a second search found only news items about the CFT (a current within the CGT), no own site."
+K00347,A0021,manual_search,,2026-11-16,none,,Search found only press and member-organisation pages; no own site seen.
+K00348,A0024,manual_search,,2026-11-16,none,,Search found news and academic pages only; the guessed domains cnct.org.ar and cnct.coop did not resolve.
+K00349,A0025,manual_search,,2026-11-16,none,,Search found news and academic pages only; the guessed domain facta.org.ar did not resolve.
+K00350,A0027,manual_search,https://fonaf.org.ar/,2026-11-16,found,website,"Address was my own guess from the acronym; opened it and the title carries the full name and FONAF, content is about Argentine family farming."
+K00351,A0034,manual_search,,2026-11-16,none,,"Not searched beyond the batch pass; a municipal council group has no own site expected, and no search was run for it."
+K00352,A0035,manual_search,,2026-11-16,none,,"Not searched beyond the batch pass; a municipal council group has no own site expected, and no search was run for it."
+K00353,A0036,manual_search,,2026-11-16,none,,"Search for the name and 'sitio oficial' returned only news, theses and national CGT pages; no own site."

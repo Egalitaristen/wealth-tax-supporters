@@ -103,3 +103,15 @@ K00101,A0057,manual_search,,2026-11-16,none,,"Search found only news and an aggr
 K00102,A0023,manual_search,https://harshmander.in/,2026-11-16,found,website,"Found via search result mentioning harshmander.in; opened it: personal site of Harsh Mander covering Aman Biradari, Karwan e Mohabbat, Centre for Equity Studies, books and columns."
 K00103,A0074,manual_search,,2026-11-16,none,,"Search found only Wikipedia mirrors, news and a CPI(M) 2014 candidate page; no own site or opened official profile."
 K00104,A0023,own_site,https://harshmander.in/,2026-11-16,found,x,not added: youtube https://www.youtube.com/c/SoasAcUk (social-block); youtube https://www.youtube.com/channel/UC-uOxKhYi5r_XD8PPhoCXMA (social-block); youtube https://www.youtube.com/channel/UCvGy9-8B6Kp9M5dI2vx5gAA (social-block)
+K00105,A0012,manual_search,,2026-11-16,none,,taxthetop.org named in a search summary but domain did not resolve when opened; not confirmed
+K00106,A0017,manual_search,,2026-11-16,none,,Searched twice; no own site found in results
+K00107,A0032,manual_search,,2026-11-16,none,,Searched twice; no own site found in results
+K00108,A0033,manual_search,,2026-11-16,none,,Searched twice; no own site found in results
+K00109,A0034,manual_search,,2026-11-16,none,,Searched twice; no own site found in results
+K00110,A0040,manual_search,,2026-11-16,none,,Searched twice; no own site found in results
+K00111,A0041,manual_search,,2026-11-16,none,,tucc.forwardbloc.org listed on Wikipedia mirrors but did not resolve when opened; not confirmed
+K00112,A0042,manual_search,https://www.sewa.org,2026-11-16,found,website,"Obvious domain from acronym (my own guess); opened it, site name and heading about women in the informal economy match."
+K00113,A0045,manual_search,,2026-11-16,none,,Search found only Wikipedia/mirrors; utuc.org does not resolve; no own site confirmed.
+K00114,A0048,manual_search,https://cpiml.org/,2026-11-16,found,website,Found cpiml.org via search results (party update pages) and opened it; title names the party and its organ Liberation.
+K00115,A0049,manual_search,,2026-11-16,none,,Directory listed rsp.org.in but opening it showed an unrelated career-skills site; no confirmed own site.
+K00116,A0062,manual_search,,2026-11-16,none,,"Searched; only news reports and CPI(ML) update pages mention the campaign, no own site found."

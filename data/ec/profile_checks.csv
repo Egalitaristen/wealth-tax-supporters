@@ -22,3 +22,9 @@ K00020,A0008,manual_search,,2026-11-16,none,,No own site or official page confir
 K00021,A0020,manual_search,,2026-11-16,none,,No site for this network found.
 K00022,A0008,manual_search,,2026-11-16,none,,Searches found only an Academia.edu profile and column archives; no own site or institutional page confirmed.
 K00023,A0020,manual_search,,2026-11-16,none,,Search found no site or page for this network.
+K00024,A0011,manual_search,,2026-11-16,none,,"Search returned only news; guessed revolucionciudadana.com.ec returned 403, not confirmed."
+K00025,A0015,manual_search,,2026-11-16,none,,Search found no own site; guess fenocin.org not checked (fetch rate-limited).
+K00026,A0016,manual_search,,2026-11-16,none,,Search found no own site.
+K00027,A0017,manual_search,,2026-11-16,none,,Search found no own site.
+K00028,A0018,manual_search,,2026-11-16,none,,"Search found no own site; only the IESS program portal, which is not theirs."
+K00029,A0019,manual_search,,2026-11-16,none,,Search found only news and Asamblea pages; guess fenacle.org not checked (fetch rate-limited).

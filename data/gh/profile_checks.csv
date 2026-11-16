@@ -1,3 +1,6 @@
 check_id,actor_id,method,url,checked,result,found,note
 K00001,A0001,directory,,2026-11-16,none,,no NBER page
 K00002,A0001,orcid,,2026-11-16,none,,several ORCID records with the name
+K00003,A0002,manual_search,https://abibinsromafoundation.org,2026-11-16,found,website,"Domain listed in a directory found by search; opened it, footer reads AbibiNsroma Foundation, Tema, Ghana."
+K00004,A0004,manual_search,,2026-11-16,none,,"Two searches and one guessed domain (gcapghana.org, does not resolve) found no own site; only news coverage."
+K00005,A0005,manual_search,,2026-11-16,none,,Searches for the exact name and the G20 letter found nothing about this organisation.

@@ -72,3 +72,7 @@ K00070,A0041,orcid,,2026-11-16,none,,no single ORCID record with the name
 K00071,A0042,orcid,,2026-11-16,none,,several ORCID records with the name
 K00072,A0040,manual_search,,2026-11-16,none,,
 K00073,A0040,manual_search,,2026-11-16,none,,"Searched name plus Grupo Economía Pluralista; only the signatory letter coverage found, no own or institutional page."
+K00074,A0008,manual_search,,2026-11-16,none,,Search found only news articles; my guessed bussco.cr domain does not resolve.
+K00075,A0009,manual_search,,2026-11-16,none,,Search found only news articles; no own site seen.
+K00076,A0014,manual_search,,2026-11-16,none,,Search returned nothing about this body's own site.
+K00077,A0017,manual_search,,2026-11-16,none,,Search found only news and op-eds about the group; no own site seen.

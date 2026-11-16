@@ -158,3 +158,19 @@ K00156,A0049,manual_search,https://www.riksdagen.se/sv/ledamoter-och-partier/led
 K00157,A0005,manual_search,https://www.riksdagen.se/sv/ledamoter-och-partier/ledamot/ulla-andersson_a9eff036-3d8c-487e-9325-e3bece8df1e4/,2026-11-16,found,official_page,"Found via search; opened the Riksdag member page, heading and party (Vansterpartiet) match; no personal website found (Swedish Wikipedia lists none)."
 K00158,A0069,manual_search,,2026-11-16,none,,Search found only SVT debate articles; no own site or institutional page.
 K00159,A0098,manual_search,,2026-11-16,none,,Searches found no Erik Arnell linked to MMT för Sverige.
+K00160,A0057,manual_search,https://s-studenter.se,2026-11-16,found,website,"Found via web search (s-studenter.se result); opened homepage, heading and footer name Socialdemokratiska Studentförbundet."
+K00161,A0073,manual_search,https://stockholmsstad.vansterpartiet.se,2026-11-16,found,website,"Domain seen in a search result (Valplattform 2026 Stockholms stad PDF on this host); homepage returned 403 so not opened, identity inferred from the Vänsterpartiet Stockholms stad subdomain."
+K00162,A0076,manual_search,,2026-11-16,none,,Two searches and a guessed backa.vansterpartiet.se (403) found no Backa branch page.
+K00163,A0078,manual_search,https://reformisterna.se,2026-11-16,found,website,"Own guess of domain from the name; opened it, title and text describe the S-förening Reformisterna."
+K00164,A0099,manual_search,,2026-11-16,none,,Two searches found no own page for this Göteborg association; only party district documents.
+K00165,A0101,manual_search,,2026-11-16,none,,Search found no page for Majorna S-förening.
+K00166,A0102,manual_search,,2026-11-16,none,,Search found no page for Handels S-förening Göteborg.
+K00167,A0105,manual_search,https://tatillbakaframtiden.se,2026-11-16,found,website,"Found via search describing the movement; guessed .se domain, opened it and heading reads Ta tillbaka framtiden, a radical community for young people focused on climate."
+K00168,A0109,manual_search,,2026-11-16,none,,Two searches found no page for Husie S-förening in Malmö.
+K00169,A0110,manual_search,,2026-11-16,none,,Searches and the national homepage show no Malmö local group page.
+K00170,A0112,manual_search,,2026-11-16,none,,Party's district page lists www.socialdemokraternafalun.se but the domain does not resolve; nothing confirmed.
+K00171,A0115,manual_search,,2026-11-16,none,,Party's page for Hedemora arbetarekommun lists only a Facebook page; no own site found.
+K00172,A0116,manual_search,,2026-11-16,none,,Two searches and guessed subdomain found no own site; only listing on district page.
+K00173,A0117,manual_search,https://socialdemokraternaisala.se,2026-11-16,found,website,Address listed on the party's Sala Arbetarekommun page; opened it and title/footer say Socialdemokraterna i Sala.
+K00174,A0124,manual_search,,2026-11-16,none,,"Only listed as an entry on gavle.socialdemokraterna.se contact page (parent site, no own page)."
+K00175,A0132,manual_search,https://socialdemokraterna7h.se,2026-11-16,found,website,"Address listed on party's Sjuhäradsbygdens Partidistrikt page; opened it and footer names Sjuhäradsbygdens Partidistrikt, Borås."

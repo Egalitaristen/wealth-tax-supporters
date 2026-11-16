@@ -2053,3 +2053,17 @@ P02064,A0465,bluesky,https://bsky.app/profile/amisdelaterre.org,linked from http
 P02065,A0465,linkedin,https://www.linkedin.com/company/les-amis-de-la-terre-france,linked from https://www.amisdelaterre.org/,2026-11-16
 P02066,A0465,youtube,https://www.youtube.com/user/AmisdelaTerreFrance,linked from https://www.amisdelaterre.org/,2026-11-16
 P02067,A0465,instagram,https://www.instagram.com/amisdelaterrefr/,linked from https://www.amisdelaterre.org/,2026-11-16
+P02068,A0433,website,https://www.loire-atlantique.fr/,"web search: Found via search (directories list it); opened it, 'Bienvenue sur le site du Département'.",2026-11-16
+P02069,A0434,website,https://www.strasbourg.eu/fr/presentation-fonctionnement-ville-strasbourg,"web search: Search result on strasbourg.eu (city's official site, footer 'Ville et Eurométropole de Strasbourg'); council has no separate site, this is the city's institutional page covering the council.",2026-11-16
+P02070,A0455,website,https://www.asso-sherpa.org,"web search: Own guess of obvious domain, opened; page describes Sherpa as French association against economic crime and defending victims of globalisation.",2026-11-16
+P02071,A0456,website,https://venissieux.fr/vivre-a-venissieux/vie-citoyenne/conseil-municipal/,"web search: Own guess of venissieux.fr, opened: city's official site with Mairie details and (c) Ville de Vénissieux; conseil municipal section address seen as link on the homepage.",2026-11-16
+P02072,A0457,website,https://www.bourgognefranchecomte.fr,"web search: Own guess of obvious domain, opened: shows region name, logo, Hôtel de Région in Besançon; the regional council has no separate site.",2026-11-16
+P02073,A0459,website,https://www.unsa.org,"web search: Own guess of acronym domain, opened: title and content name UNSA, French union, Secretary General Laurent Escure.",2026-11-16
+P02074,A0460,website,https://fsu.fr,"web search: Own guess of acronym domain, opened: Fédération Syndicale Unitaire, French public-service union federation.",2026-11-16
+P02075,A0462,website,https://institutlaboetie.fr,"web search: Own guess of obvious domain, opened: title names Institut la Boétie.",2026-11-16
+P02076,A0473,website,https://www.actioncontrelafaim.org,"web search: Search results show multiple pages on actioncontrelafaim.org (contact page with Montreuil address, France operations); homepage fetch returned 403 so root address was not opened.",2026-11-16
+P02077,A0489,website,https://www.joc.asso.fr,"web search: Own guess of obvious domain, opened: JOC French Christian working youth movement, HQ Courbevoie.",2026-11-16
+P02078,A0490,website,https://greenfaith.org,"web search: Own guess of obvious domain, opened: multi-faith climate movement (international HQ New York); no separate French site found, entry is the movement itself.",2026-11-16
+P02079,A0494,website,https://www.alerte-exclusions.fr,"web search: Found via search result citing the site; opened it, footer names Collectif ALERTE national Uniopss, 37 national federations",2026-11-16
+P02080,A0496,website,https://indecosa.fr,"web search: Listed as the website in the INC consumer directory; opened it, heading Indecosa-CGT, CGT consumer association",2026-11-16
+P02081,A0497,website,https://droitaulogement.org,"web search: Own guess of the obvious domain; opened it, title and footer (c) Droit Au Logement confirm",2026-11-16

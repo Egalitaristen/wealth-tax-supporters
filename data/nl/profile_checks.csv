@@ -376,3 +376,10 @@ K00374,A0128,manual_search,,2026-11-16,none,,Search found no own site; only SP n
 K00375,A0212,manual_search,,2026-11-16,none,,Search found only SP Tribune editorial credits; no own site or official page.
 K00376,A0179,manual_search,,2026-11-16,none,,Search found only a Joop opinion piece by Tom Ribbens; no own site or institutional page found.
 K00377,A0242,manual_search,,2026-11-16,none,,"Searched name; only Wikipedia, parlement.com (directory) and news found; no own site."
+K00378,A0166,manual_search,https://amsterdam.sp.nl,2026-11-16,found,website,"Found via search results of amsterdam.sp.nl documents; opened homepage, title and footer name SP Amsterdam."
+K00379,A0170,manual_search,https://heerlen.sp.nl,2026-11-16,found,website,"Domain guessed from the SP pattern (heerlen.sp.nl); opened it, title and footer name Socialistische Partij Heerlen."
+K00380,A0171,manual_search,https://utrecht.sp.nl,2026-11-16,found,website,"Seen in search results (utrecht.sp.nl files); opened homepage, footer says SP Afdeling Utrecht."
+K00381,A0172,manual_search,https://denhaag.sp.nl,2026-11-16,found,website,"Seen in search results (denhaag.sp.nl files); opened homepage, logo reads Socialistische Partij Den Haag."
+K00382,A0174,manual_search,,2026-11-16,none,,Two searches found no own site for the Heerlen campaign committee.
+K00383,A0204,manual_search,https://www.tweedekamer.nl,2026-11-16,found,website,"Obvious domain (my own guess), opened; site name is the Dutch House of Representatives."
+K00384,A0210,manual_search,https://venlo.sp.nl,2026-11-16,found,website,"Found in search results for SP Venlo; opened homepage, Venlo branch of the SP with local news."

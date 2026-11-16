@@ -1,1 +1,5 @@
 profile_id,actor_id,platform,url,source,checked
+P00002,A0004,website,https://www.presidencia.gov.co,"web search: Guessed obvious domain, opened it; Presidency of Colombia, Petro government branding (Colombia Patria Milagro).",2026-11-16
+P00003,A0005,website,https://www.argentina.gob.ar,"web search: Guessed obvious domain, opened it; official portal of the Argentine State (Presidencia de la Nación).",2026-11-16
+P00004,A0007,website,https://www.regjeringen.no/no/,"web search: Seen in search results (regjeringen.no, Norwegian government site with Støre government pages); direct fetch gave 403.",2026-11-16
+P00005,A0008,website,https://www.gob.cl,"web search: Search says gob.cl is the Chilean government portal (guessed domain); direct fetch gave 403, so not opened.",2026-11-16

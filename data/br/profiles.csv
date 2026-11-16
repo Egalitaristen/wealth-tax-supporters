@@ -730,3 +730,26 @@ P00730,A0246,instagram,https://www.instagram.com/pdt_nacional/,linked from https
 P00731,A0246,facebook,https://www.facebook.com/pdt.org.br,linked from https://www.pdt.org.br,2026-11-16
 P00732,A0246,youtube,https://www.youtube.com/@pdt_nacional,linked from https://www.pdt.org.br,2026-11-16
 P00733,A0246,tiktok,https://www.tiktok.com/@pdt_nacional,linked from https://www.pdt.org.br,2026-11-16
+P00734,A0218,website,https://justa.org.br,"web search: Search result cited justa.org.br for Plataforma Justa (director Luciana Zaffalon); opened it, a Brazilian justice-system data organisation titled 'Justa'; the page itself does not show the name 'Plata",2026-11-16
+P00735,A0219,website,https://peregum.org.br,"web search: Address from a search result listing; opened it, title and text confirm Instituto de Referência Negra Peregum.",2026-11-16
+P00736,A0220,website,https://plebiscitopopular.org.br,"web search: Address named in search results as the official site; opened it, title confirms the campaign and the tax-on-high-earners question.",2026-11-16
+P00737,A0221,website,https://www.ijf.org.br,"web search: Address from a 2015 document in search results; opened it, title and text confirm Instituto Justiça Fiscal, Porto Alegre.",2026-11-16
+P00738,A0231,website,https://mtst.org,"web search: Guessed obvious domain from acronym; opened it, title carries full name, Brazilian content.",2026-11-16
+P00739,A0232,website,https://une.org.br,web search: Domain named as official site in search results and UNE's own contact addresses; page itself returned 403 to fetch so title not confirmed.,2026-11-16
+P00740,A0234,website,https://cnte.org.br,"web search: Guessed domain; opened it, CNTE education workers confederation, footer Brasilia.",2026-11-16
+P00741,A0236,website,https://confetam.org.br/,"web search: Guessed confetam.com.br which redirected (301) to confetam.org.br; opened it, municipal public service workers confederation, Brasilia.",2026-11-16
+P00742,A0237,website,https://anfip.org.br,"web search: Guessed domain; opened it, heading ANFIP Nacional, Brasilia; domain also seen in search results.",2026-11-16
+P00743,A0238,website,https://www.fenafisco.org.br,web search: Address seen printed as Fenafisco's site in a Sindifisco bulletin header in search results; fetch returned 503 so page content not confirmed.,2026-11-16
+P00744,A0242,website,https://pt.org.br,"web search: Search result listing pt.org.br pages titled 'PT Partido dos Trabalhadores' (filie-se, party news); homepage itself returned 403 to fetch.",2026-11-16
+P00745,A0243,website,https://psb40.org.br,"web search: Own guess of domain from acronym and party number; opened it, title and content are Partido Socialista Brasileiro, Brasilia.",2026-11-16
+P00746,A0245,website,https://pcdob.org.br,"web search: Own guess of domain from acronym; opened it, header PCdoB, party news portal of Partido Comunista do Brasil.",2026-11-16
+P00747,A0247,website,https://psol50.org.br,web search: Found via search: TSE registry lists www.psol50.org.br as the party's address and its congress documents are hosted there; homepage returned 403 to fetch.,2026-11-16
+P00748,A0257,website,https://ncst.org.br,"web search: Own guess of domain from acronym; opened it, title carries the full name, Brasilia.",2026-11-16
+P00749,A0259,website,https://cspconlutas.org.br,"web search: Own guess of domain from acronym; opened it, site name and footer read CSP-Conlutas with union news.",2026-11-16
+P00750,A0260,website,https://intersindicalcentral.com.br,"web search: Found via search result (Bluesky profile of the organisation links this domain); opened it, header and footer read INTERSINDICAL Central da Classe Trabalhadora.",2026-11-16
+P00751,A0261,website,https://intersindical.org.br,"web search: Own guess of domain; opened it, title carries the full name of the organisation (Instrumento de Luta e Organização da Classe Trabalhadora).",2026-11-16
+P00752,A0262,website,https://publica.org.br,"web search: Own guess of domain from the name; opened it, title and footer read Pública Central do Servidor, dedicated to public service.",2026-11-16
+P00753,A0230,website,https://mst.org.br,"web search: Guessed obvious domain from acronym; opened it, MST Movimento Sem Terra news/publications site.",2026-11-16
+P00754,A0254,website,https://ctb.org.br,"web search: Own guess of domain from acronym; opened it, title carries full name and the news are the union central's; ctb.org.br also appears in search results.",2026-11-16
+P00755,A0255,website,https://ugt.org.br,"web search: Own guess of domain from acronym; opened it, title and footer (Sao Paulo) match; ugt.org.br also appears in search results.",2026-11-16
+P00756,A0256,website,https://csb.org.br,"web search: Own guess of domain from acronym; opened it, title carries the name, headquarters Brasilia, labour news.",2026-11-16

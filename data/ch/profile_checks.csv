@@ -190,3 +190,16 @@ K00188,A0166,manual_search,https://www.vd.ch/gc/depute-e-s/membre-du-grand-conse
 K00189,A0166,own_site,https://www.vd.ch/gc/depute-e-s/membre-du-grand-conseil/membre/648244,2026-11-16,blocked,,403 at https://www.vd.ch/gc/depute-e-s/membre-du-grand-conseil/membre/648244
 K00190,A0154,own_site,https://www.vd.ch/gc/depute-e-s/membre-du-grand-conseil/membre/601871,2026-11-16,blocked,,403 at https://www.vd.ch/gc/depute-e-s/membre-du-grand-conseil/membre/601871
 K00191,A0146,own_site,https://www.vd.ch/gc/depute-e-s/membre-du-grand-conseil/id/90714,2026-11-16,blocked,,403 at https://www.vd.ch/gc/depute-e-s/membre-du-grand-conseil/id/90714
+K00192,A0086,manual_search,https://al-zh.ch,2026-11-16,none,,"rejected https://al-zh.ch: the page's title and headings do not carry the name; Found in search results (al-zh.ch PDFs state www.al-zh.ch); opened homepage, Molkenstrasse 21 Zürich."
+K00193,A0087,manual_search,https://www.spzuerich.ch,2026-11-16,found,website,"Found in search results as the party's address; opened it, header SP Kanton Zürich, Gartenhofstrasse 15, Zürich."
+K00194,A0088,manual_search,https://gruene-zh.ch,2026-11-16,found,website,"Found in search results (publications on gruene-zh.ch); opened homepage, confirms GRÜNE Kanton Zürich."
+K00195,A0102,manual_search,https://www.spsh.ch,2026-11-16,found,website,"Address spsh.ch seen in a search result; opened it, header reads SP Kanton Schaffhausen (Sozialdemokratische Partei des Kantons Schaffhausen)."
+K00196,A0103,manual_search,https://www.sp-ps.ch,2026-11-16,none,,"rejected https://www.sp-ps.ch: the page's title and headings do not carry the name; Guessed domain from acronym; opened, structured data names Sozialdemokratische Partei, national party."
+K00197,A0107,manual_search,https://www.ge.ch/organisation/conseil-etat,2026-11-16,found,website,"Guessed address on the canton's official ge.ch site; opened, page is the Geneva cantonal government's own section."
+K00198,A0112,manual_search,https://www.pop-ne.ch,2026-11-16,found,website,"Guessed domain from acronym; opened, page identifies the POP neuchâtelois, Neuchâtel section."
+K00199,A0114,manual_search,https://glp.swiss/,2026-11-16,found,website,"Found via redirect from grunliberale.ch; opened, GLP Schweiz (Grünliberale Partei), Bern."
+K00200,A0173,manual_search,https://verditicino.ch/,2026-11-16,found,website,"Found via redirect from verdi.ch (guessed); opened, Ticino cantonal section of the Greens."
+K00201,A0183,manual_search,https://www.gruene.ch,2026-11-16,none,,"rejected https://www.gruene.ch: the page's title and headings do not carry the name; Guessed domain; opened, page is GRÜNE Schweiz, the Swiss Green Party."
+K00202,A0086,manual_search,https://al-zh.ch,2026-11-16,none,,"rejected https://al-zh.ch: the page's title and headings do not carry the name; Found in search results (al-zh.ch PDFs state www.al-zh.ch); opened homepage, Molkenstrasse 21 Zürich."
+K00203,A0103,manual_search,https://www.sp-ps.ch,2026-11-16,none,,"rejected https://www.sp-ps.ch: the page's title and headings do not carry the name; Guessed domain from acronym; opened, structured data names Sozialdemokratische Partei, national party."
+K00204,A0183,manual_search,https://www.gruene.ch,2026-11-16,found,website,"Guessed domain; opened, page is GRÜNE Schweiz, the Swiss Green Party."

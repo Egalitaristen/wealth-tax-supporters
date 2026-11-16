@@ -27,3 +27,12 @@ K00025,A0008,orcid,,2026-11-16,none,,no single ORCID record with the name
 K00026,A0010,orcid,,2026-11-16,none,,no single ORCID record with the name
 K00027,A0023,manual_search,,2026-11-16,none,,No own site or official page confirmed.
 K00028,A0023,manual_search,,2026-11-16,none,,Own domain not seen in results; vsb.sr guess returned no confirmable content.
+K00029,A0004,manual_search,,2026-11-16,none,,Searches found no own RAVAKSUR site; my guess ravaksur.org did not resolve.
+K00030,A0005,manual_search,,2026-11-16,none,,Searches found only Facebook and news coverage; no own site.
+K00031,A0013,manual_search,https://gov.sr,2026-11-16,found,website,"Address guessed from gov.sr seen in search results; opened it and it is the official government of Suriname site (current, not specific to 2020-2025)."
+K00032,A0017,manual_search,,2026-11-16,none,,Search found only Wikipedia and ILO/news mentions; no own site.
+K00033,A0018,manual_search,,2026-11-16,none,,"Two or more searches (English/Dutch/Thai names) returned only news, Wikipedia mirrors and directories; no own site found or confirmed"
+K00034,A0019,manual_search,,2026-11-16,none,,"Two or more searches (English/Dutch/Thai names) returned only news, Wikipedia mirrors and directories; no own site found or confirmed"
+K00035,A0020,manual_search,,2026-11-16,none,,"Two or more searches (English/Dutch/Thai names) returned only news, Wikipedia mirrors and directories; no own site found or confirmed"
+K00036,A0021,manual_search,,2026-11-16,none,,"Two or more searches (English/Dutch/Thai names) returned only news, Wikipedia mirrors and directories; no own site found or confirmed"
+K00037,A0022,manual_search,,2026-11-16,none,,"Two or more searches (English/Dutch/Thai names) returned only news, Wikipedia mirrors and directories; no own site found or confirmed"

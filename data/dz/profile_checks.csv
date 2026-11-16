@@ -48,3 +48,8 @@ K00046,A0041,manual_search,,2026-11-16,none,,No own site or official page confir
 K00047,A0036,manual_search,,2026-11-16,none,,No own site or official page confirmed.
 K00048,A0041,manual_search,,2026-11-16,none,,"Searched name + DGI role; only news articles found, no own site or official page."
 K00049,A0036,manual_search,,2026-11-16,none,,Search returned no page for this name.
+K00050,A0001,manual_search,,2026-11-16,none,,Search found only news coverage; no own site seen.
+K00051,A0012,manual_search,,2026-11-16,none,,Guessed ugta.dz did not resolve (www.ugta.dz) and no own site appeared in search.
+K00052,A0024,manual_search,,2026-11-16,none,,"pst-algerie.org (from Wikipedia infobox) now redirects to an unrelated third-party domain, so not returned."
+K00053,A0025,manual_search,,2026-11-16,none,,"Searched in French; only press coverage found, no own site seen."
+K00054,A0045,manual_search,,2026-11-16,none,,Search found only an Algerie-eco tag page mentioning the founder; own-domain guess could not be checked (fetch rate-limited).

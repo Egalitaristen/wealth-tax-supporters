@@ -25,3 +25,5 @@ K00023,A0020,wikipedia_langs,https://ary.wikipedia.org/wiki/%D8%B1%D8%B4%D9%8A%D
 K00024,A0020,own_site,https://www.chambredesrepresentants.ma,2026-11-16,blocked,,403 at https://www.chambredesrepresentants.ma
 K00025,A0006,orcid,https://orcid.org/0009-0006-3859-5136,2026-11-16,none,,ORCID institution does not match: none listed
 K00026,A0011,orcid,,2026-11-16,none,,no single ORCID record with the name
+K00027,A0014,manual_search,https://www.espace-associatif.ma,2026-11-16,found,website,"Own guess of obvious domain; opened it, header and logo read L'Espace Associatif, Moroccan association founded 1996 for the associative movement and democratic development."
+K00028,A0015,manual_search,,2026-11-16,none,,"Searched French name and acronym; no own domain in results; odt.ma guess returned no usable content, not confirmed."

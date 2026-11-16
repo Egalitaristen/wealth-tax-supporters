@@ -2690,3 +2690,105 @@ P02695,A0765,instagram,https://www.instagram.com/cwaunion/,linked from https://c
 P02696,A0765,tiktok,https://www.tiktok.com/@cwaunion,linked from https://cwa-union.org/,2026-11-16
 P02697,A0600,facebook,https://www.facebook.com/RepSharlettMena,linked from https://housedemocrats.wa.gov/mena/,2026-11-16
 P02699,A0431,official_page,https://www.nysenate.gov/senators/kevin-s-parker,"web search: page not readable by our reader (ERR 403); identity from the title the agent saw: Senator Kevin S. Parker; Found via search for nysenate.gov; official NY State Senate member page, no personal site listed; Brooklyn SD21 Democrat matches.",2026-11-16
+P02700,A0023,website,https://www.seiu-uhw.org,"web search: Guessed obvious domain, opened it; title names SEIU-UHW and California healthcare workers.",2026-11-16
+P02701,A0034,website,https://www.middleclasstaxpayers.org,"web search: Domain from search result summary, opened it; MCTA nonprofit advocacy group in California, founded 2011.",2026-11-16
+P02702,A0036,website,https://www.responsiblewealth.org/,web search: Found via search (Stanford listing gave the domain; rw-ufe.nationbuilder.com redirects there); page says it is a project of United for a Fair Economy and is the Responsible Wealth website.,2026-11-16
+P02703,A0058,website,https://www.incomemovement.org/,"web search: Found via search (incomemovement.com redirects here); opened page titled Official Site, basic income nonprofit.",2026-11-16
+P02704,A0060,website,https://www.lagunawoodsdemocrats.org/,web search: Found via redirect from the Laguna Woods Village club page; footer says paid for by Laguna Woods Democratic Club with this domain.,2026-11-16
+P02705,A0066,website,https://www.RootsAction.org/,web search: First search result for the name; fetch returned 403 so identity rests on the search result description of the homepage.,2026-11-16
+P02706,A0068,website,https://www.sdyoungdems.com/,"web search: Top search result for exact name; opened homepage, site name and footer say San Diego County Young Democrats of California; ActBlue page carries same name.",2026-11-16
+P02707,A0072,website,https://www.solanodemocrats.com/,"web search: Committee's own 2020 endorsements page names www.solanodemocrats.com as its website, and its nationbuilder site (bylaws) redirects there; page itself could not be opened (fetch safety check rate-limit",2026-11-16
+P02708,A0076,website,https://thevillagesdemocraticclub.wildapricot.org,"web search: Top search result for exact name; opened homepage, title and heading carry the club name (Wild Apricot-hosted own site).",2026-11-16
+P02709,A0081,website,https://www.wellstoneclub.org/,"web search: Top search result for exact name; opened homepage, title and heading name Wellstone Democratic Renewal Club, East Bay (Berkeley/Oakland), California.",2026-11-16
+P02710,A0085,website,https://blackwomenrevolt.org,"web search: Found via search (directory and Linktree point to this domain); opened it, title Black Women Revolt, San Francisco resource centre (Black Women Revolt Against Domestic Violence); name matches but the",2026-11-16
+P02711,A0086,website,https://www.cablackhealthnetwork.org,web search: Found via search for 'California Black Health Network CBHN'; many pages on this domain show Sacramento CBHN content; could not open it directly (certificate error).,2026-11-16
+P02712,A0087,website,https://calulac.org,"web search: Domain listed in directory search results; opened it, heading reads California LULAC.",2026-11-16
+P02713,A0089,website,https://chispalcv.org/,"web search: lcv.org/chispa/ redirects here; opened it, footer reads Chispa LCV.",2026-11-16
+P02714,A0091,website,https://www.edenareaindivisible.org,web search: Address was my own guess from the name; opened it and the site name is Eden Area Indivisible (Hayward area group confirmed by search results).,2026-11-16
+P02715,A0092,website,https://www.foreveroakland.org,"web search: Address was my own guess from the name; opened it and the organisation is named Forever Oakland, Oakland.",2026-11-16
+P02716,A0094,website,https://www.ic4ij.org,"web search: Search results (KVCR interview, ActBlue page, Idealist) give ic4ij.org as the site; could not open it (403).",2026-11-16
+P02717,A0098,website,https://www.mifamiliaenaccion.org/,web search: Found via link labelled MFA on mifamiliavota.org; opened it and the title and name match.,2026-11-16
+P02718,A0099,website,https://www.organizesacramento.org,"web search: Domain listed by CauseIQ; opened it, footer says Organize Sacramento 501(c)3, 1714 Broadway, Sacramento.",2026-11-16
+P02719,A0100,website,https://www.orale.org,"web search: Found via search result text naming orale.org; opened it, title carries full name and Long Beach.",2026-11-16
+P02720,A0102,website,https://www.pjcsoco.org,"web search: Domain named in search results; opened it, heading matches and address is Santa Rosa.",2026-11-16
+P02721,A0105,website,https://www.sirenimmigrantrights.org/,"web search: siren-bayarea.org (from search results) redirects here; opened it, site is SIREN with San Jose office.",2026-11-16
+P02722,A0109,website,https://united4respect.org/,"web search: Found via search for exact name; opened united4respect.org/about-us, heading 'About United for Respect', retail-worker nonprofit; homepage address seen in search results.",2026-11-16
+P02723,A0467,website,https://or.aft.org/,"web search: Found via search 'AFT Oregon'; opened or.aft.org/about-us, title AFT-Oregon, Portland OR state affiliate; homepage address seen in search results.",2026-11-16
+P02724,A0469,website,https://seiu-oregon.org/,"web search: Found via search; opened seiu-oregon.org/about-the-seiu-oregon-state-council, title names SEIU Oregon State Council; homepage address seen in search results.",2026-11-16
+P02725,A0470,website,https://www.oregonafscme.org/,"web search: Found via search 'AFSCME Oregon Council 75' (listed by InfluenceWatch and afscmeatwork); opened the homepage, title 'Oregon AFSCME'.",2026-11-16
+P02726,A0621,website,https://seiu.org/,"web search: Found via search; opened seiu.org/about, title names the Service Employees International Union (SEIU); homepage address seen in search results.",2026-11-16
+P02727,A0622,website,https://www.aft.org/,"web search: Found via search; opened aft.org/about, title American Federation of Teachers; homepage address seen in search results.",2026-11-16
+P02728,A0623,website,https://aflcio.org,"web search: Own-domain guess aflcio.org; page fetch returned 403, but search results show aflcio.org/about and its privacy policy states the website is at aflcio.org",2026-11-16
+P02729,A0624,website,https://www.afscme.org,"web search: Own-domain guess afscme.org, opened; header and footer carry the full name",2026-11-16
+P02730,A0625,website,https://www.afge.org,"web search: Own-domain guess afge.org; page fetch returned 403, but search results show afge.org/about as the union's own site",2026-11-16
+P02731,A0631,website,https://americansfortaxfairness.org,"web search: Own-domain guess, opened; title, heading and footer carry the name",2026-11-16
+P02732,A0634,website,https://mainstreetalliance.org,"web search: Own-domain guess, opened; site title is Main Street Alliance, heading 'Real Power Lives on Main Street'",2026-11-16
+P02733,A0643,website,https://healthcareforamericanow.org,"web search: Own-domain guess, opened; header and footer carry the name",2026-11-16
+P02734,A0644,website,https://indivisible.org,"web search: Own-domain guess, opened; site name Indivisible, footer Indivisible Project",2026-11-16
+P02735,A0645,website,https://jwj.org,"web search: Own-domain guess jwj.org, opened; title carries the name",2026-11-16
+P02736,A0646,website,https://networklobby.org,"web search: Own-domain guess, opened; title, heading and footer carry the full name",2026-11-16
+P02737,A0648,website,https://voicesforprogress.org,"web search: Found via search listing the domain; opened it and confirmed title names Voices For Progress, a progressive advocacy network.",2026-11-16
+P02738,A0649,website,https://www.chn.org,"web search: Guessed acronym domain chn.org; opened it, title names Coalition on Human Needs and content is anti-poverty advocacy.",2026-11-16
+P02739,A0665,website,https://seiuhcilin.org/,"web search: seiuhcil.org (guess) redirects 301 to seiuhcilin.org; opened it, SEIU Healthcare site (Illinois/Indiana).",2026-11-16
+P02740,A0666,website,https://ccctu.org,web search: Found in search results (ccctu.org about/history pages name Cook County College Teachers Union Local 1600); homepage not opened directly.,2026-11-16
+P02741,A0667,website,https://www.seiu73.org,"web search: Guessed seiu73.org; opened it, title names SEIU Local 73 and Illinois.",2026-11-16
+P02742,A0668,website,https://www.ift-aft.org,"web search: Guessed ift-aft.org; opened it, title names Illinois Federation of Teachers.",2026-11-16
+P02743,A0669,website,https://ww4j.org/,"web search: Guessed warehouseworker.org which redirects to ww4j.org; opened it, site name Warehouse Workers for Justice.",2026-11-16
+P02744,A0717,website,https://www.staterevenuealliance.org,"web search: Guessed domain from name; opened it, site name State Revenue Alliance, tax-fairness content.",2026-11-16
+P02745,A0729,website,https://www.aclusocal.org,"web search: Found in search; opened homepage, title and heading match, covers Southern California.",2026-11-16
+P02746,A0730,website,https://apenaction.org,web search: Linked from APEN's own site (apen4ej.org) menu as APEN Action; opened and heading matches.,2026-11-16
+P02747,A0733,website,https://transformca.org,"web search: Found in search results (transformca.org pages about Oakland transport/land-use group); opened homepage, heading matches.",2026-11-16
+P02748,A0735,website,https://www.lacdp.org,web search: Search result listed lacdp.org as official site; opened it and the site is the Los Angeles County Democratic Party.,2026-11-16
+P02749,A0737,website,https://www.montereycountynow.com/,"web search: montereycountyweekly.com redirects (301) to montereycountynow.com, which search results show as the Weekly's about page; homepage fetch blocked (HTTP 451) so title not read.",2026-11-16
+P02750,A0749,website,https://adc.org,"web search: Found in search (adc.org/about); opened homepage, the American-Arab Anti-Discrimination Committee.",2026-11-16
+P02751,A0750,website,https://americanfamilyvoices.org,"web search: Guessed domain from name; opened it, footer says American Family Voices.",2026-11-16
+P02752,A0751,website,https://asbcouncil.org,"web search: Found in search results (asbcouncil.org/about); site now presents as American Sustainable Business Network; page itself fetch-failed on a certificate error, so identity rests on search results.",2026-11-16
+P02753,A0752,website,https://adaction.org,"web search: Guessed domain from acronym; opened it, footer and header say Americans for Democratic Action.",2026-11-16
+P02754,A0754,website,https://www.bendthearc.us,"web search: Guessed domain from name; opened it, title and footer say Bend the Arc.",2026-11-16
+P02755,A0755,website,https://www.bluehaveninitiative.com,"web search: Found via search (Wikipedia infobox and result URLs); opened it, header brand Blue Haven Initiative, impact investing site.",2026-11-16
+P02756,A0756,website,https://ourbluefuture.us,"web search: Domain cited by InfluenceWatch for Blue Future; opened it, title Blue Future, footer Youth Progressive Action Catalyst (its parent PAC), matching the progressive youth organizing program.",2026-11-16
+P02757,A0759,website,https://www.centerforcommonground.org,"web search: Found via search (InfluenceWatch cites its pages); opened it, heading and footer say Center for Common Ground, a voting rights group.",2026-11-16
+P02758,A0760,website,https://lgbtq-economics.org,"web search: Found in search results; opened it, footer says Center for LGBTQ Economic Advancement & Research.",2026-11-16
+P02759,A0764,website,https://commondefense.us,"web search: Guessed domain from name; opened it, veterans movement, footer Common Defense.",2026-11-16
+P02760,A0766,website,https://sistersofthegoodshepherd.com,"web search: Found via search for the full name; opened the site, title carries the congregation name and the U.S. region (successor to the U.S. provinces).",2026-11-16
+P02761,A0770,website,https://extendpua.org,"web search: Own guess from the name; opened it, it is the campaign site (now archived) titled ExtendPUA.org about extending Pandemic Unemployment Assistance.",2026-11-16
+P02762,A0772,website,https://firstfocus.org,"web search: Own guess from the name; opened it, header branding reads First Focus on Children and footer describes the bipartisan children's advocacy group.",2026-11-16
+P02763,A0774,website,https://foe.org,"web search: Search results show foe.org/about-us and foe.org/contact for Friends of the Earth U.S.; direct fetch returned 403, so identity rests on the search results.",2026-11-16
+P02764,A0777,website,https://healthcarevoter.org,"web search: Found via search for the name; result pages on healthcarevoter.org titled Health Care Voter (co-chairs, newsroom); fetch of the homepage was rate-limited so not opened directly.",2026-11-16
+P02765,A0778,website,https://hedgeclippers.org,"web search: Own guess from the name; opened it, site header reads Hedge Clippers (heading Rogues Gallery).",2026-11-16
+P02766,A0779,website,https://www.housingworks.org,"web search: Own guess from the name; opened it, a New York City nonprofit for people with HIV/AIDS, named Housing Works.",2026-11-16
+P02767,A0780,website,https://www.icnacsj.org,"web search: Found via search (icna.org pages point to icnacsj.org); opened it, heading names ICNA Council for Social Justice.",2026-11-16
+P02768,A0784,website,https://www.ifpte.org,"web search: Found via search; opened it, footer names International Federation of Professional & Technical Engineers.",2026-11-16
+P02769,A0785,website,https://uaw.org,"web search: Found via search; opened it, header names the UAW full name.",2026-11-16
+P02770,A0787,website,https://oceanfutures.org,"web search: Found via search; opened it, page names Ocean Futures Society (Jean-Michel Cousteau is president per its about page).",2026-11-16
+P02771,A0789,website,https://legalaidatwork.org,"web search: Found via search; opened it, heading names Legal Aid at Work, California.",2026-11-16
+P02772,A0791,website,https://moveon.org,"web search: Found via search (Wikipedia infobox and moveon.org campaign pages); opening it returned a 301 redirect to front.moveon.org, whose page could not be fetched (rate-limited), so title not read.",2026-11-16
+P02773,A0792,website,https://www.gsadvocacy.org,"web search: Found via search; opened it, heading names National Advocacy Center of the Sisters of the Good Shepherd.",2026-11-16
+P02774,A0793,website,https://www.nafhe.org,"web search: Found via search (Idealist listing gives nafhe.org); opened it, heading names National Association for Hispanic Elderly / Asociacion Nacional Pro Personas Mayores.",2026-11-16
+P02775,A0794,website,https://naacp.org,"web search: Guessed obvious domain from acronym; opened it, title carries NAACP.",2026-11-16
+P02776,A0802,website,https://presente.org,"web search: Guessed domain from the name; opened it, heading 'Advancing social justice with technology, media, and cultura'.",2026-11-16
+P02777,A0804,website,https://pdamerica.org,"web search: Guessed domain from acronym; opened it, title carries the full name.",2026-11-16
+P02778,A0805,website,https://prosperitynow.org,"web search: Guessed domain from the name; opened it, title carries the name.",2026-11-16
+P02779,A0809,website,https://www.southasiannetwork.org,"web search: Guessed domain from the name; opened it, page lists Artesia/Los Angeles, California offices.",2026-11-16
+P02780,A0810,website,https://strongforall.org/about/,web search: Seen in a search result (strongforall.org/about) described as the Strong Economy for All Coalition (New York); page not opened because fetch safety check was rate-limited.,2026-11-16
+P02781,A0813,website,https://weareultraviolet.org,"web search: Guessed domain from the name; opened it, title and heading are UltraViolet, 'Full Spectrum Feminism'.",2026-11-16
+P02782,A0816,website,https://www.ucc.org/what-we-do/justice-local-church-ministries/,"web search: Address was my own guess from the name; opened it and it is the UCC national unit page for justice and local church ministries on ucc.org (title as returned by the fetch summary, may be a paraphrase);",2026-11-16
+P02783,A0827,website,https://reclaimourschools.org,"web search: Found via search (domain given by CPD page and InfluenceWatch); opened, logo and text carry Alliance to Reclaim Our Schools.",2026-11-16
+P02784,A0829,website,https://balanceourtaxcode.com,"web search: Found via search for the coalition; opened, Washington state coalition named Balance Our Tax Code.",2026-11-16
+P02785,A0831,website,https://childrensfundingproject.org,"web search: Found via search (directory and Mott Foundation listing); opened, site is Children's Funding Project.",2026-11-16
+P02786,A0832,website,https://citizenactionny.org,web search: Found in search results (citizenactionny.org/our-history and /member pages for Citizen Action of New York); homepage returned 403 when opened so title not read.,2026-11-16
+P02787,A0833,website,https://citizenaction-il.org,"web search: Found via search ('Who We Are' page); opened homepage, Chicago-based Citizen Action/Illinois progressive coalition.",2026-11-16
+P02788,A0834,website,https://www.ccwro.org,"web search: Found in search results (ccwro.org pages, probono.net listing gives ccwro.org for Coalition of California Welfare Rights Organizations, Sacramento); opened page returned 403 so title not read.",2026-11-16
+P02789,A0835,website,https://democracymatters.org,"web search: Found via search (directory listings); opened, national nonpartisan student organization Democracy Matters.",2026-11-16
+P02790,A0837,website,https://economicsecurity.us/ca/,"web search: Found via search; opened, page names Economic Security California Action; it is a section of the parent's site, clearly theirs.",2026-11-16
+P02791,A0840,website,https://goldenstateopportunity.org,"web search: Domain seen in a California FTB document in search results (contact email domain); opened, page headed Golden State Opportunity with Our Impact section.",2026-11-16
+P02792,A0841,website,https://honestarizona.squarespace.com,"web search: Search result for 'Honest Arizona official website'; page described itself as the Honest Arizona coalition; page not opened (fetch rate-limited). honestarizona.org seen only as Substack bio hint, not",2026-11-16
+P02793,A0842,website,https://inequality.org/,"web search: First search result for the name; own domain, about page says project of Institute for Policy Studies; homepage not opened (fetch rate-limited).",2026-11-16
+P02794,A0844,website,https://www.investwanow.org/,"web search: Search results showed investwanow.org pages (press releases, petition PDF) of Invest in Washington Now, Seattle; homepage not opened (fetch rate-limited).",2026-11-16
+P02795,A0846,website,https://maketheroadnv.org/,"web search: Search results listed maketheroadnv.org pages (about, issues, impact) for Make the Road Nevada, Las Vegas/Reno; homepage not opened (fetch rate-limited).",2026-11-16
+P02796,A0857,website,https://progressiowa.org/,"web search: Found by searching the name; homepage and /about/ ('About Progress Iowa', Des Moines advocacy group) appeared in results; page itself could not be opened (WebFetch rate-limited), identity from result",2026-11-16
+P02797,A0860,website,https://thecommonwealthinstitute.org/,web search: Found by searching the full name plus Virginia; the thecommonwealthinstitute.org domain appeared repeatedly with the Institute's own reports on Virginia fiscal policy; homepage not opened (WebFetch ra,2026-11-16
+P02798,A0861,website,https://www.thericksmithshow.com,web search: Found by searching the name; the show's own podcast feed pages (thericksmithshow.podbean.com) tell listeners to download at this address; homepage not opened (WebFetch rate-limited).,2026-11-16
+P02799,A0865,website,https://indivisiblegeorgiacoalition.org,"web search: Domain named in a search summary for the exact name; page NOT opened (WebFetch safety check rate-limited, then search quota hit), so identity unconfirmed. Needs verification.",2026-11-16
+P02800,A0870,website,https://nowseattle.org,"web search: Search summary for the exact name gave nowseattle.org as the chapter's site (also squarespace staging pages in results); page NOT opened (fetch rate-limited), so identity unconfirmed. Needs verificati",2026-11-16
+P02801,A0883,website,https://causenow.org,"web search: Search summary for the exact name named causenow.org as the official site; page NOT opened (fetch rate-limited), so identity unconfirmed. Needs verification.",2026-11-16

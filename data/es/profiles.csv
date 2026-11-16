@@ -526,3 +526,9 @@ P01114,A0065,website,https://www.felipegonzalez.es,Wikipedia https://es.wikipedi
 P01115,A0080,website,https://www.abelcaballero.com/,Wikipedia https://es.wikipedia.org/wiki/Abel_Caballero,2026-11-16
 P01116,A0112,website,https://www.es.parlamentodegalicia.es/Composicion/Deputados/182/pedro-puy-fraga,Wikipedia https://es.wikipedia.org/wiki/Pedro_Puy_Fraga,2026-11-16
 P01117,A0188,website,https://www.socialistasvascos.com/rafi-romero.htm,Wikipedia https://es.wikipedia.org/wiki/Rafaela_Romero,2026-11-16
+P01118,A0060,website,https://www.cortesgenerales.es,web search: Address seen in a search result (Hispanopedia entry gives it as the official site of the Cortes Generales); could not open it to confirm because fetch was rate-limited/failed.,2026-11-16
+P01119,A0061,website,https://movimientosumar.es/,"web search: Found via search (party statutes list this address); opened it, title and content are Movimiento Sumar the party.",2026-11-16
+P01120,A0089,website,https://justiciafiscalcv.es/,"web search: Found via search (Congress document lists the domain); opened it, title and content match the Valencian coalition.",2026-11-16
+P01121,A0134,website,https://actionaid.es/,"web search: Address came from a government directory seen in search; opened it, page says 'Ahora somos ActionAid', a Spanish NGO.",2026-11-16
+P01122,A0183,website,https://jjggbizkaia.eus/en/welcome,"web search: Found via search as first result; opened it, title names the General Assemblies of Bizkaia.",2026-11-16
+P01123,A0184,website,https://ezker-anitza.org/,"web search: Found via search (Wikipedia and hosted party documents point to it); opened it, site is Ezker Anitza with Basque-branch content.",2026-11-16

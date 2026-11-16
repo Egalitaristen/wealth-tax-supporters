@@ -1,0 +1,4 @@
+check_id,actor_id,method,url,checked,result,found,note
+K00001,A0001,manual_search,,2026-11-16,none,,Not searched: fetch rate-limited and search quota exhausted
+K00002,A0003,manual_search,,2026-11-16,none,,"One search; www.cuts-lusaka.org only named in text, not seen as a result or opened, so left empty"
+K00003,A0004,manual_search,,2026-11-16,none,,"One search found only the Climate Justice Map wiki entry and CAN Africa listing, no own domain; second search blocked by usage limit, so left empty."
