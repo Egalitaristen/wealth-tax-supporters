@@ -355,3 +355,5 @@ K00353,A0056,own_site,https://www.annette-groth.de/,2026-11-16,blocked,,robots.t
 K00354,A0440,own_site,https://www.landtag-niedersachsen.de/abgeordnete-und-fraktionen/abgeordnete/details/christian-meyer/,2026-11-16,found,facebook;x,"not added: facebook https://www.facebook.com/ndslandtag (chrome,social-block); instagram https://www.instagram.com/landtag_nds/ (chrome,social-block); tiktok https://www.tiktok.com/@landtagniedersachsen (chrome,social-block); mastodon https://social.bund.de/@LT_Nds (chrome,social-block); youtube https://www.yo"
 K00355,A0084,own_site,https://www.priskahinz.de/,2026-11-16,error,,URLError: <urlopen error ('A required certificate is not within its validity period when v
 K00356,A0397,own_site,https://www.ralf-stegner.de/,2026-11-16,blocked,,403 at https://www.ralf-stegner.de/
+K00357,A0336,own_site,https://ismail-kuepeli.de/,2026-11-16,none,,
+K00358,A0344,own_site,https://rebecca-maskos.net/,2026-11-16,none,,

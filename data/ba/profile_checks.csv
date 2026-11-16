@@ -1,0 +1,2 @@
+check_id,actor_id,method,url,checked,result,found,note
+K00001,A0001,own_site,https://sdp.ba,2026-11-16,found,tiktok,"CHECK no added handle carries the name: the site may host several groups, or belong to a parent.; not added: youtube https://www.youtube.com/user/sdpbih (chrome,social-block); already listed: facebook,x,instagram"
