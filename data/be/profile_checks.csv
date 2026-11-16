@@ -30,3 +30,12 @@ K00028,A0034,own_site,https://www.oxfambelgique.be,2026-11-16,found,bluesky;face
 K00029,A0106,own_site,https://www.denktankminerva.be,2026-11-16,found,facebook;instagram;bluesky;x;linkedin,
 K00030,A0072,own_site,https://www.ps.be,2026-11-16,none,,not added: facebook https://www.facebook.com/psofficiel (social-block); instagram https://www.instagram.com/psbelgique/ (social-block); x https://x.com/PSofficiel (social-block); youtube https://www.youtube.com/channel/UCXAqUQuiOz9ak1tVrCVJ9DQ (social-block); youtube https://www.youtube.com/@psbelgique (social
 K00031,A0006,own_site,https://www.paulmagnette.be,2026-11-16,found,instagram;x;facebook;tiktok,
+K00032,A0070,own_site,https://www.ps.be,2026-11-16,none,,not added: facebook https://www.facebook.com/psofficiel (social-block); instagram https://www.instagram.com/psbelgique/ (social-block); x https://x.com/PSofficiel (social-block); youtube https://www.youtube.com/channel/UCXAqUQuiOz9ak1tVrCVJ9DQ (social-block); youtube https://www.youtube.com/@psbelgique (social
+K00033,A0115,own_site,https://www.europarl.europa.eu/meps/en/197470,2026-11-16,blocked,,403 at https://www.europarl.europa.eu/meps/en/197470
+K00034,A0099,own_site,https://antwerpen.pvda.be,2026-11-16,none,,not added: facebook https://www.facebook.com/PVDA.Antwerpen (social-block); instagram https://www.instagram.com/pvda.antwerpen/ (social-block); x https://x.com/pvda_antwerpen (social-block)
+K00035,A0075,own_site,https://www.ps.be,2026-11-16,none,,not added: facebook https://www.facebook.com/psofficiel (social-block); instagram https://www.instagram.com/psbelgique/ (social-block); x https://x.com/PSofficiel (social-block); youtube https://www.youtube.com/channel/UCXAqUQuiOz9ak1tVrCVJ9DQ (social-block); youtube https://www.youtube.com/@psbelgique (social
+K00036,A0036,own_site,https://www.hartbovenhard.be,2026-11-16,found,facebook;instagram;youtube,
+K00037,A0012,own_site,https://www.abvv.be,2026-11-16,found,youtube;facebook;x;instagram,
+K00038,A0007,own_site,https://www.groen.be,2026-11-16,found,facebook;instagram;bluesky;youtube;linkedin,
+K00039,A0002,own_site,https://www.petermertens.be,2026-11-16,none,,
+K00040,A0107,own_site,https://lavamedia.be/auteur/sacha-dierckx/,2026-11-16,error,,404 at https://lavamedia.be/auteur/sacha-dierckx/

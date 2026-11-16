@@ -68,3 +68,13 @@ K00066,A0086,own_site,https://www.luiscontigiani.com.ar,2026-11-16,error,,URLErr
 K00067,A0218,own_site,https://www.celag.org/autor/guillermo-oglietti/,2026-11-16,error,,404 at https://www.celag.org/autor/guillermo-oglietti/
 K00068,A0013,own_site,https://www.diputados.gob.ar/diputados/hyasky/,2026-11-16,error,,URLError: <urlopen error _ssl.c:1015: The handshake operation timed out>
 K00069,A0023,own_site,https://fecootra.org.ar/,2026-11-16,none,,not added: youtube https://www.youtube.com/user/fecootraprensa (); facebook https://www.facebook.com/fecootrainstitucional (); x https://x.com/fecootra (); instagram https://www.instagram.com/fecootraprensa/ ()
+K00070,A0003,own_site,https://www.itaihagman.com.ar,2026-11-16,none,,URLError: <urlopen error _ssl.c:1015: The handshake operation timed out>
+K00071,A0009,own_site,https://joseluisgioja.com.ar,2026-11-16,error,,URLError: <urlopen error [Errno 11001] getaddrinfo failed>
+K00072,A0015,own_site,https://www.gabrielacerruti.com/,2026-11-16,error,,URLError: <urlopen error [Errno 11001] getaddrinfo failed>
+K00073,A0054,own_site,https://www.senado.gob.ar/senadores/senador/477,2026-11-16,none,,
+K00074,A0114,own_site,https://www.diputados.gob.ar/diputados/aleiva/,2026-11-16,error,,URLError: <urlopen error _ssl.c:1015: The handshake operation timed out>
+K00075,A0026,own_site,https://gesta.org.ar/,2026-11-16,none,,already listed: instagram
+K00076,A0209,own_site,https://www.diputados.gob.ar/diputados/jgrabois/,2026-11-16,error,,URLError: <urlopen error _ssl.c:1015: The handshake operation timed out>
+K00077,A0122,own_site,https://giselamarziotta.com/,2026-11-16,blocked,,403 at https://giselamarziotta.com/
+K00078,A0223,own_site,https://centrocifra.org.ar,2026-11-16,found,facebook;instagram,already listed: x
+K00079,A0028,own_site,https://berazategui.gob.ar/,2026-11-16,none,,"removed on spot check (the municipality's accounts, not the council's): facebook https://www.facebook.com/MuniBerazategui, x https://x.com/MuniBerazategui, instagram https://www.instagram.com/muniberazategui/, youtube https://www.youtube.com/@MuniBerazategui"

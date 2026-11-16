@@ -58,3 +58,24 @@ K00056,A0166,own_site,https://www.lab.eus/,2026-11-16,found,facebook;x;instagram
 K00057,A0073,own_site,https://ehbildu.eus,2026-11-16,found,x;facebook;instagram;tiktok;mastodon;youtube,
 K00058,A0116,own_site,https://wealthcapproject.org,2026-11-16,found,instagram;linkedin;bluesky;x,
 K00059,A0101,own_site,http://www.redescristianas.net,2026-11-16,found,facebook,
+K00060,A0135,own_site,https://www.ecologistasenaccion.org,2026-11-16,blocked,,403 at https://www.ecologistasenaccion.org
+K00061,A0154,own_site,https://parlamentodenavarra.es/es/persona/araiz-flamarique-adolfo,2026-11-16,blocked,,403 at https://parlamentodenavarra.es/es/persona/araiz-flamarique-adolfo
+K00062,A0158,own_site,https://consorcibesos.cat/ferran-falco-es-nomenat-nou-director-general-del-consorci-del-besos/,2026-11-16,blocked,,403 at https://consorcibesos.cat/ferran-falco-es-nomenat-nou-director-general-del-consorci-del-besos/
+K00063,A0098,own_site,https://www.attac.es,2026-11-16,found,tiktok;x;facebook;youtube;instagram,
+K00064,A0198,own_site,https://www.uam.es/derecho/facultad/departamentos/derecho-publico-filosofia-juridica/a-financiero/martinez-sanchez-cesar,2026-11-16,none,,"not added: instagram https://www.instagram.com/uam_derecho/ (chrome,social-block); youtube https://www.youtube.com/@FacultadDerechoUAMadrid (chrome,social-block); x https://x.com/derecho_uam (meta)"
+K00065,A0160,own_site,https://www.bng.gal/author/noa-presas-bergantinos/,2026-11-16,none,,"not added: facebook https://www.facebook.com/obloque (chrome,social-block); tiktok https://www.tiktok.com/@obloque (chrome,social-block); x https://x.com/obloque (chrome,meta,social-block); x https://x.com/noaourense (social-block); bluesky https://bsky.app/profile/obloque.gal (chrome,social-block); youtube ht"
+K00066,A0133,own_site,https://www.gipuzkoa.eus,2026-11-16,found,facebook;bluesky;youtube;instagram;tiktok;x,
+K00067,A0083,own_site,https://www.psoe.es,2026-11-16,none,,
+K00068,A0132,own_site,https://www.juntasdealava.eus,2026-11-16,error,,URLError: <urlopen error [Errno 11001] getaddrinfo failed>
+K00069,A0072,own_site,https://www.esquerra.cat,2026-11-16,found,instagram;tiktok;facebook;x;youtube,
+K00070,A0028,own_site,https://gabrielrufian.wordpress.com,2026-11-16,none,,
+K00071,A0151,own_site,https://www.parlament.cat/web/composicio/diputats-fitxa/index.html?p_codi=2533&p_legislatura=15,2026-11-16,none,,not added: x https://x.com/gitanaeconomist (); x https://x.com/parlament_cat (meta); instagram https://www.instagram.com/gitanaeconomista/ ()
+K00072,A0168,own_site,https://agrupacionespsoe.es/acoruna/nos/,2026-11-16,none,,not added: facebook https://www.facebook.com/psoeacoruna (chrome); facebook https://www.facebook.com/psdegprovcoruna (social-block); x https://x.com/psoeacoruna (chrome); x https://x.com/psdegprovcoruna (social-block); instagram https://www.instagram.com/psoeacoruna/ (chrome); instagram https://www.instagram.c
+K00073,A0203,own_site,https://www.profiteditorial.com/autores/jaume-menendez/,2026-11-16,none,,"not added: facebook https://www.facebook.com/amateditorial (chrome,social-block); facebook https://www.facebook.com/EDITORIAL-PROFIT-105454209492267 (chrome,social-block); facebook https://www.facebook.com/pages/EDITORIAL-PROFIT/105454209492267 (social-block); x https://x.com/amateditorial (chrome,social-block"
+K00074,A0069,own_site,https://www.ugt.es,2026-11-16,found,facebook;x;instagram;tiktok;youtube;bluesky,
+K00075,A0152,own_site,https://www.ela.eus/,2026-11-16,found,facebook;instagram;x;youtube,
+K00076,A0099,own_site,https://ecosfron.org,2026-11-16,found,mastodon;bluesky;facebook;instagram;youtube,
+K00077,A0164,own_site,https://www.bng.gal/author/luis-bara-torres/,2026-11-16,found,x,"not added: facebook https://www.facebook.com/obloque (chrome,social-block); tiktok https://www.tiktok.com/@obloque (chrome,social-block); x https://x.com/obloque (chrome,meta,social-block); bluesky https://bsky.app/profile/obloque.gal (chrome,social-block); youtube https://www.youtube.com/user/TELEBNG (chrome,"
+K00078,A0102,own_site,https://www.uso.es,2026-11-16,found,facebook;linkedin;instagram;youtube;tiktok;x,
+K00079,A0096,own_site,https://es.greenpeace.org,2026-11-16,found,youtube;instagram;facebook;bluesky;x,
+K00080,A0109,own_site,http://redongdmad.org,2026-11-16,found,facebook;x;youtube;linkedin;instagram,

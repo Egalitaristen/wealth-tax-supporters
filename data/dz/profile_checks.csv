@@ -4,3 +4,7 @@ K00002,A0022,own_site,https://elbinaa.com,2026-11-15,error,,URLError: <urlopen e
 K00003,A0018,own_site,https://www.mf.gov.dz,2026-11-16,error,,URLError: <urlopen error [WinError 10060] A connection attempt failed because the connecte
 K00004,A0014,own_site,https://www.el-mouradia.dz,2026-11-16,error,,URLError: <urlopen error [WinError 10060] A connection attempt failed because the connecte
 K00005,A0040,own_site,https://www.mf.gov.dz,2026-11-16,error,,URLError: <urlopen error [WinError 10060] A connection attempt failed because the connecte
+K00006,A0005,own_site,https://www.ffs.dz,2026-11-16,error,,URLError: <urlopen error [Errno 11002] getaddrinfo failed>
+K00007,A0007,own_site,https://hmsalgeria.net,2026-11-16,none,,
+K00008,A0006,own_site,https://aouchicheyoucef.com/,2026-11-16,error,,URLError: <urlopen error [Errno 11001] getaddrinfo failed>
+K00009,A0031,own_site,https://www.mf.gov.dz,2026-11-16,error,,URLError: <urlopen error [WinError 10060] A connection attempt failed because the connecte

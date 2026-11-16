@@ -47,3 +47,15 @@ K00045,A0141,own_site,https://www.pasqualetridico.it/,2026-11-16,found,facebook;
 K00046,A0171,own_site,https://www.landtag-bz.org/it/deputati/foppa-brigitte.asp,2026-11-16,none,,
 K00047,A0258,own_site,https://www.danielebiacchessi.it,2026-11-16,none,,
 K00048,A0178,own_site,https://www.camera.it/deputati/elenco/19-305892,2026-11-16,none,,"not added: linkedin https://www.linkedin.com/company/camera-dei-deputati (chrome,social-block); x https://x.com/montecitorio (chrome,social-block); x https://x.com/luigidimaio (social-block); facebook https://www.facebook.com/Cameradeideputati (chrome,social-block); facebook https://www.facebook.com/luigidimai"
+K00049,A0270,own_site,https://giannicuperlo.it/,2026-11-16,found,facebook;x;youtube;instagram,
+K00050,A0159,own_site,https://www.ellyschlein.it,2026-11-16,none,,"not added: x https://x.com/montecitorio (chrome,social-block); facebook https://www.facebook.com/Cameradeideputati (chrome,social-block); youtube https://www.youtube.com/channel/UCEraBLSypzPADm7TdoOmIYw (chrome,social-block); instagram https://www.instagram.com/montecitorio/ (chrome,social-block); linkedin htt; already listed: x,facebook,instagram"
+K00051,A0010,own_site,https://patrioticmillionaires.org/,2026-11-16,found,bluesky;facebook;linkedin;tiktok;youtube,"already listed: x,instagram"
+K00052,A0154,own_site,https://www.senato.it/leg/19/BGTSchede/Attsen/00036437.htm,2026-11-16,none,,
+K00053,A0296,own_site,http://www.roccoartifoni.it/,2026-11-16,none,,URLError: <urlopen error ('A required certificate is not within its validity period when v
+K00054,A0166,own_site,https://www.rosarinaldi.it/,2026-11-16,error,,URLError: <urlopen error [Errno 11001] getaddrinfo failed>
+K00055,A0158,own_site,https://www.camera.it/deputati/elenco/19-308824,2026-11-16,found,facebook;instagram,"not added: linkedin https://www.linkedin.com/company/camera-dei-deputati (chrome,social-block); x https://x.com/montecitorio (chrome,social-block); facebook https://www.facebook.com/Cameradeideputati (chrome,social-block); instagram https://www.instagram.com/montecitorio/ (chrome,social-block)"
+K00056,A0273,own_site,https://www.usb.it/,2026-11-16,error,,URLError: <urlopen error [WinError 10060] A connection attempt failed because the connecte
+K00057,A0001,own_site,https://verdisinistra.it/,2026-11-16,none,,
+K00058,A0011,own_site,https://sbilanciamoci.info/,2026-11-16,found,facebook;instagram,
+K00059,A0287,own_site,https://www.actionaid.it,2026-11-16,blocked,,403 at https://www.actionaid.it
+K00060,A0181,own_site,https://lucapastorino.net,2026-11-16,found,facebook;youtube;instagram;x,"404 at https://www.camera.it/deputati/elenco/19-306332; not added: youtube https://www.youtube.com/channel/UCboGoSEddQuFXVjYhlrcR6w (chrome,social-block)"

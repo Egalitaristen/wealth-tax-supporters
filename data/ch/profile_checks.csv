@@ -65,3 +65,10 @@ K00063,A0066,own_site,https://www.ursulaschneider.ch,2026-11-16,error,,406 at ht
 K00064,A0005,own_site,https://sibelarslan.ch/,2026-11-16,none,,
 K00065,A0022,own_site,https://www.yvonneferi.ch/,2026-11-16,error,,URLError: <urlopen error [WinError 10061] No connection could be made because the target m
 K00066,A0004,own_site,https://gerhard-andrey.ch/,2026-11-16,none,,
+K00067,A0002,own_site,https://islamalijaj.ch/,2026-11-16,found,linkedin;facebook,already listed: instagram
+K00068,A0027,own_site,https://bastiengirod.ch/,2026-11-16,none,,
+K00069,A0046,own_site,https://www.martinamunz.ch,2026-11-16,none,,not added: facebook https://www.facebook.com/pages/Martina-Munz-in-den-Nationalrat/111067662321851 (social-block); already listed: x
+K00070,A0077,own_site,https://cedricwermuth.ch/,2026-11-16,found,bluesky;instagram;x;facebook,not added: x https://x.com/status (social-block)
+K00071,A0062,own_site,https://regularytz.ch/,2026-11-16,found,linkedin;facebook,
+K00072,A0073,own_site,https://www.michael-toengi.ch,2026-11-16,found,facebook,already listed: x
+K00073,A0041,own_site,https://samira-marti.ch/,2026-11-16,found,linkedin,already listed: instagram

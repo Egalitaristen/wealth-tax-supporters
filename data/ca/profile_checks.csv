@@ -161,3 +161,31 @@ K00159,A0006,own_site,https://rachelblaney.ndp.ca/,2026-11-16,error,,URLError: <
 K00160,A0266,own_site,https://www.csn.qc.ca/conseils-centraux/quebec-chaudiere-appalaches/,2026-11-16,found,facebook,404 at https://www.csn.qc.ca/conseils-centraux/quebec-chaudiere-appalaches/
 K00161,A0115,own_site,https://greybrucelabour.ca/,2026-11-16,found,facebook;x,
 K00162,A0202,own_site,https://www.assnat.qc.ca/en/deputes/bouazzi-haroun-19305/biographie.html,2026-11-16,none,,
+K00163,A0262,own_site,https://www.csn.qc.ca/conseils-centraux/abitibi-temiscamingue-nord-du-quebec/,2026-11-16,none,,"404 at https://www.csn.qc.ca/conseils-centraux/abitibi-temiscamingue-nord-du-quebec/; not added: facebook https://www.facebook.com/CCATNQ.CSN (chrome,social-block)"
+K00164,A0269,own_site,https://www.csn.qc.ca/conseils-centraux/bas-saint-laurent/,2026-11-16,none,,"404 at https://www.csn.qc.ca/conseils-centraux/bas-saint-laurent/; not added: facebook https://www.facebook.com/CSNBSL (chrome,social-block)"
+K00165,A0010,own_site,https://dondavies.ca/,2026-11-16,none,,"URLError: <urlopen error [Errno 11001] getaddrinfo failed>; not added: instagram https://www.instagram.com/ourcommonsca/ (chrome,social-block)"
+K00166,A0022,own_site,https://brianmasse.ndp.ca/,2026-11-16,error,,URLError: <urlopen error [WinError 10060] A connection attempt failed because the connecte
+K00167,A0314,own_site,https://tcri.qc.ca/,2026-11-16,found,facebook;youtube;linkedin,
+K00168,A0024,own_site,https://sgi.edagreens.ca/,2026-11-16,none,,"not added: facebook https://www.facebook.com/SGIGreens (); x https://x.com/sgigreens (); instagram https://www.instagram.com/ourcommonsca/ (chrome,social-block)"
+K00169,A0320,own_site,https://upsb.info/,2026-11-16,error,,URLError: <urlopen error [Errno 11001] getaddrinfo failed>
+K00170,A0252,own_site,https://jeunesplus.ca,2026-11-16,found,instagram;linkedin,UnicodeEncodeError: 'ascii' codec can't encode character '\xe0' in position 5: ordinal not in range(; already listed: facebook
+K00171,A0306,own_site,https://rapsim.org/,2026-11-16,found,facebook;x;instagram;youtube,
+K00172,A0091,own_site,https://patrioticmillionaires.ca/,2026-11-16,none,,
+K00173,A0098,own_site,https://policyalternatives.ca/authors/andrew-jackson,2026-11-16,none,,"not added: facebook https://www.facebook.com/policyalternatives (chrome,social-block); instagram https://www.instagram.com/policyalternatives/ (chrome,social-block); bluesky https://bsky.app/profile/policyalternatives.ca (chrome,social-block); x https://x.com/ccpa (meta)"
+K00174,A0127,own_site,https://quebec.attac.org/,2026-11-16,found,facebook;instagram;youtube;tiktok;bluesky;x,
+K00175,A0129,own_site,https://nonauxhausses.org/,2026-11-16,found,facebook;instagram;youtube,
+K00176,A0130,own_site,https://fsss.qc.ca/,2026-11-16,none,,"not added: facebook https://www.facebook.com/FSSSCSN (chrome,social-block); facebook https://www.facebook.com/LaCSN (chrome,social-block); instagram https://www.instagram.com/fssscsn/ (chrome,social-block); instagram https://www.instagram.com/mouvementcsn/ (chrome,social-block); youtube https://www.youtube.com; removed on spot check (the confederation's accounts, not the federation's): tiktok http"
+K00177,A0243,own_site,https://amecq.ca/,2026-11-16,found,youtube;bluesky;x,
+K00178,A0247,own_site,https://familleslgbt.org/,2026-11-16,none,,"already listed: facebook,instagram,x"
+K00179,A0026,own_site,https://www.ndp.ca/jagmeet,2026-11-16,error,,404 at https://www.ndp.ca/jagmeet
+K00180,A0013,own_site,https://www.ourcommons.ca/Members/en/87121,2026-11-16,none,,"not added: instagram https://www.instagram.com/ourcommonsca/ (chrome,social-block)"
+K00181,A0112,own_site,https://www.cupw.ca/,2026-11-16,blocked,,403 at https://www.cupw.ca/ 403 at https://cupw.ca
+K00182,A0118,own_site,https://sudburylabour.ca/,2026-11-16,found,facebook;x;instagram,
+K00183,A0292,own_site,https://journaldesvoisins.com/,2026-11-16,found,youtube;linkedin;facebook;tiktok;x,
+K00184,A0014,own_site,https://www.matthewgreen.ca,2026-11-16,blocked,,robots.txt forbids https://www.matthewgreen.ca
+K00185,A0094,own_site,https://www.unifor.org/sites/default/files/legacy/unifor_2021_pre-budget_consultation_en.pdf,2026-11-16,found,youtube;instagram;bluesky,"already listed: facebook,x"
+K00186,A0125,own_site,https://www.fiqsante.qc.ca/,2026-11-16,found,facebook;instagram;linkedin;tiktok;bluesky,
+K00187,A0142,own_site,https://cdec-cdce.org/,2026-11-16,none,,not added: facebook https://www.facebook.com/cdec.cdce (social-block); facebook https://www.facebook.com/observatoireinegalitesqc (social-block); instagram https://www.instagram.com/coalitioncdec/ (social-block); x https://x.com/cdec_cdce (social-block); x https://x.com/ObsInegalites (meta); linkedin https://w
+K00188,A0282,own_site,https://ftq.qc.ca/,2026-11-16,found,facebook;x;instagram;youtube,
+K00189,A0250,own_site,https://www.coalitionfeministe.org/,2026-11-16,found,instagram;facebook;linkedin,
+K00190,A0037,own_site,https://www.policyalternatives.ca/news-research/author/alex-hemingway/,2026-11-16,none,,"not added: facebook https://www.facebook.com/policyalternatives (chrome,social-block); instagram https://www.instagram.com/policyalternatives/ (chrome,social-block); bluesky https://bsky.app/profile/policyalternatives.ca (chrome,social-block); x https://x.com/ccpa (meta)"
