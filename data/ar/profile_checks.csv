@@ -38,3 +38,20 @@ K00036,A0208,own_site,https://www.diputados.gob.ar/diputados/scafiero/,2026-11-1
 K00037,A0107,own_site,https://www.diputados.gob.ar/diputados/crgutierrez/,2026-11-15,error,,URLError: <urlopen error _ssl.c:1015: The handshake operation timed out>
 K00038,A0198,own_site,https://www.diputados.gob.ar/diputados/aianni/,2026-11-15,error,,URLError: <urlopen error _ssl.c:1015: The handshake operation timed out>
 K00039,A0120,own_site,https://www.diputados.gob.ar/diputados/gpmartinez/,2026-11-15,error,,URLError: <urlopen error _ssl.c:1015: The handshake operation timed out>
+K00040,A0011,own_site,https://www.diputados.gob.ar/diputados/arauschenberger/,2026-11-16,error,,URLError: <urlopen error _ssl.c:1015: The handshake operation timed out>
+K00041,A0169,own_site,https://www.diputados.gob.ar/diputados/pyedlin/,2026-11-16,error,,URLError: <urlopen error _ssl.c:1015: The handshake operation timed out>
+K00042,A0215,own_site,https://www.diputados.gob.ar/diputados/spalazzo/,2026-11-16,error,,URLError: <urlopen error _ssl.c:1015: The handshake operation timed out>
+K00043,A0004,own_site,https://ipypp.org.ar/,2026-11-16,found,facebook;x;instagram;youtube,
+K00044,A0217,own_site,https://www.celag.org,2026-11-16,none,,"not added: x https://x.com/celageopolitica (chrome,meta,social-block); instagram https://www.instagram.com/celageopolitica/ (chrome,social-block); youtube https://www.youtube.com/channel/UCMJj6bA_8M_dsJMhmtoKZXw (chrome,social-block)"
+K00045,A0014,own_site,https://leonardogrosso.org/,2026-11-16,error,,URLError: <urlopen error [Errno 11001] getaddrinfo failed>
+K00046,A0063,own_site,https://www.diputados.gob.ar/diputados/pansaloni/,2026-11-16,error,,URLError: <urlopen error _ssl.c:1015: The handshake operation timed out>
+K00047,A0033,own_site,https://pehuajo.gob.ar/,2026-11-16,found,x;instagram;facebook,
+K00048,A0194,own_site,https://www.weretilneck.com.ar/,2026-11-16,found,x;facebook;instagram,not added: youtube https://www.youtube.com/channel/UCvXQeU-VCF0QyEeSUa7z9JA ()
+K00049,A0029,own_site,https://lujan.gob.ar/,2026-11-16,found,instagram;facebook;youtube;linkedin,
+K00050,A0006,own_site,https://www.senado.gob.ar/senadores/senador/398,2026-11-16,none,,
+K00051,A0156,own_site,https://www.diputados.gob.ar/diputados/vsiley/,2026-11-16,error,,URLError: <urlopen error _ssl.c:1015: The handshake operation timed out>
+K00052,A0080,own_site,https://pablocarro.com.ar/pablo-carro,2026-11-16,error,,URLError: <urlopen error [Errno 11001] getaddrinfo failed>
+K00053,A0056,own_site,https://www.senado.gob.ar/senadores/senador/498,2026-11-16,none,,
+K00054,A0050,own_site,https://www.diputados.gob.ar/diputados/bosuna/,2026-11-16,error,,URLError: <urlopen error _ssl.c:1015: The handshake operation timed out>
+K00055,A0220,own_site,https://centrocepa.com.ar,2026-11-16,none,,"already listed: x,instagram,facebook,youtube"
+K00056,A0053,own_site,https://www.senado.gob.ar/senadores/senador/294,2026-11-16,none,,

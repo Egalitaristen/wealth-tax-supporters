@@ -110,3 +110,29 @@ K00108,A0246,own_site,https://cirquehorspiste.com/,2026-11-15,found,facebook;blu
 K00109,A0116,own_site,https://northbaylabour.ca/,2026-11-15,found,facebook,
 K00110,A0283,own_site,https://fpses.lacsq.org/,2026-11-15,none,,"not added: facebook https://www.facebook.com/fpsescsq (chrome,social-block); x https://x.com/csq_centrale (chrome,social-block); youtube https://www.youtube.com/@fpses-csq7191 (chrome,social-block); instagram https://www.instagram.com/lacsq/ (chrome,social-block)"
 K00111,A0273,own_site,https://www.lafae.qc.ca/,2026-11-15,found,x,
+K00112,A0244,own_site,https://www.centraide-quebec.com/,2026-11-16,blocked,,403 at https://www.centraide-quebec.com/
+K00113,A0249,own_site,https://ctroc.org/,2026-11-16,found,facebook;youtube;x,
+K00114,A0029,own_site,https://greenparty.ca/fr,2026-11-16,none,,"not added: youtube https://www.youtube.com/user/canadiangreenparty (chrome,social-block); already listed: instagram,facebook,bluesky"
+K00115,A0119,own_site,https://tbdlc.ca/,2026-11-16,none,,robots.txt forbids https://thunderbaylabourcouncil.wordpress.com/
+K00116,A0255,own_site,https://cssante.com/,2026-11-16,found,bluesky;facebook;linkedin,
+K00117,A0275,own_site,https://fafmrq.org/,2026-11-16,found,facebook;x,
+K00118,A0302,own_site,https://rccq.org/,2026-11-16,found,facebook,
+K00119,A0296,own_site,https://langageplus.com/,2026-11-16,none,,"already listed: facebook,instagram"
+K00120,A0111,own_site,https://psacunion.ca/,2026-11-16,found,youtube;instagram;facebook;x,not added: youtube https://www.youtube.com/channel/UCoFoscofcn-mysgl_bU95nQ (); linkedin https://www.linkedin.com/company/public-service-alliance-of-canada (); bluesky https://bsky.app/profile/did:plc:yuzduyafzg73wsppwqthbovq ()
+K00121,A0002,own_site,https://www.nikiashton.ca/,2026-11-16,none,,
+K00122,A0108,own_site,https://teamsters.ca/,2026-11-16,blocked,,403 at https://teamsters.ca/ 403 at https://teamsters.ca
+K00123,A0113,own_site,https://unionretiree.ca/,2026-11-16,found,facebook;x,
+K00124,A0265,own_site,https://www.csn.qc.ca/conseils-centraux/lanaudiere/,2026-11-16,none,,404 at https://www.csn.qc.ca/conseils-centraux/lanaudiere/
+K00125,A0126,own_site,https://www.fiqsante.qc.ca/,2026-11-16,found,tiktok;bluesky,"already listed: facebook,instagram,linkedin"
+K00126,A0319,own_site,https://unionetudiante.ca/,2026-11-16,found,facebook;x;instagram;linkedin;youtube,
+K00127,A0330,own_site,https://onecowichan.ca/,2026-11-16,found,facebook,URLError: <urlopen error [Errno 11001] getaddrinfo failed>; not added: x https://x.com/OneCowichan ()
+K00128,A0303,own_site,https://rgpaq.qc.ca/,2026-11-16,none,,
+K00129,A0104,own_site,https://www.resourcemovement.org/,2026-11-16,none,,"already listed: linkedin,instagram,facebook,x"
+K00130,A0134,own_site,https://uniondesconsommateurs.ca/,2026-11-16,none,,not added: linkedin https://www.linkedin.com/company/89329837 (social-block); facebook https://www.facebook.com/uniondesconso (social-block); youtube https://www.youtube.com/@Unionconso (social-block); instagram https://www.instagram.com/union_conso/ (social-block); bluesky https://bsky.app/profile/union-conso
+K00131,A0321,own_site,https://pauvrete.qc.ca/,2026-11-16,found,facebook,
+K00132,A0226,own_site,https://centreforfuturework.ca/,2026-11-16,none,,already listed: x
+K00133,A0335,own_site,https://canadianlabour.ca/as-parliament-returns-canadas-unions-say-no-more-cuts-invest-in-workers/,2026-11-16,none,,"not added: facebook https://www.facebook.com/clc.ctc (chrome,social-block); x https://x.com/canadianlabour (chrome,meta,social-block); youtube https://www.youtube.com/user/canadianlabour (chrome,social-block); instagram https://www.instagram.com/canadianlabour/ (chrome,social-block)"
+K00134,A0271,own_site,https://ccmm-csn.qc.ca/,2026-11-16,found,facebook;instagram,
+K00135,A0011,own_site,https://www.scottduvall.ca/,2026-11-16,error,,URLError: <urlopen error [Errno 11002] getaddrinfo failed>
+K00136,A0150,own_site,https://betterwayalberta.ca/,2026-11-16,none,,"not added: facebook https://www.facebook.com/PrklndInst (chrome,social-block); x https://x.com/ParklandInst (chrome,social-block); youtube https://www.youtube.com/user/ParklandInstvideo (chrome,social-block)"
+K00137,A0313,own_site,https://sqees.ca/,2026-11-16,found,facebook;instagram,

@@ -19,3 +19,12 @@ K00017,A0002,own_site,https://www.koike-akira.jp/,2026-11-15,error,,URLError: <u
 K00018,A0103,own_site,https://www.mag2.com/p/news/561694/3,2026-11-15,none,,"not added: facebook https://www.facebook.com/MAG2NEWS (chrome,social-block); x https://x.com/mag2_news (chrome,meta,social-block)"
 K00019,A0003,own_site,https://daimon-mikishi.jp/,2026-11-15,error,,URLError: <urlopen error [Errno 11001] getaddrinfo failed>
 K00020,A0066,own_site,https://tax-justice.com/?page_id=27,2026-11-15,none,,
+K00021,A0071,own_site,https://tax-justice.com/?page_id=27,2026-11-16,none,,
+K00022,A0007,own_site,https://funayama-yasue.net/,2026-11-16,error,,URLError: <urlopen error [Errno 11001] getaddrinfo failed>
+K00023,A0072,own_site,https://tax-justice.com/?page_id=27,2026-11-16,none,,
+K00024,A0068,own_site,https://tax-justice.com/?page_id=27,2026-11-16,none,,
+K00025,A0067,own_site,https://tax-justice.com/?page_id=27,2026-11-16,none,,
+K00026,A0075,own_site,https://tax-justice.com/?page_id=27,2026-11-16,none,,
+K00027,A0108,own_site,https://watanabeken1.com/,2026-11-16,none,,not added: youtube https://www.youtube.com/@saitomasaaki (chrome); facebook https://www.facebook.com/nabeken.yamagata.jp (social-block)
+K00028,A0077,own_site,https://tax-justice.com/?page_id=29,2026-11-16,none,,
+K00029,A0106,own_site,https://www.kaetsu.ac.jp/teacher_intro/shoko_sakai/,2026-11-16,none,,"400 at https://www.kaetsu.ac.jp/../about 400 at https://www.kaetsu.ac.jp/../about/support-system.html; not added: instagram https://www.instagram.com/kaetsu_univ/ (chrome,social-block); x https://x.com/kaetsu_univ (chrome,social-block); youtube https://www.youtube.com/channel/UC22FDrbTT1-SROCqRgvv3IA (chrome,social-block); facebook https://www.facebook.com/KaetsuUniversity (chrome,social-block); t"

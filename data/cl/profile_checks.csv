@@ -2,3 +2,4 @@ check_id,actor_id,method,url,checked,result,found,note
 K00001,A0011,own_site,https://camilavallejodowling.blogspot.com/,2026-11-15,none,,
 K00002,A0038,own_site,https://www.cataperezdiputada.cl/,2026-11-15,error,,URLError: <urlopen error [Errno 11001] getaddrinfo failed>
 K00003,A0022,own_site,https://www.danieljadue.cl/,2026-11-15,found,facebook;instagram,not added: x https://x.com/danieljaduej (social-block)
+K00004,A0021,own_site,https://gabrielboric.cl/,2026-11-16,error,,URLError: <urlopen error [Errno 11002] getaddrinfo failed>

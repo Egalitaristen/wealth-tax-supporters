@@ -2,3 +2,5 @@ check_id,actor_id,method,url,checked,result,found,note
 K00001,A0008,own_site,https://www.cosatu.org.za/,2026-11-15,found,facebook;x;tiktok,
 K00002,A0025,own_site,https://www.udm.org.za,2026-11-15,found,tiktok,"removed on spot check (these are the party leader's personal accounts; only the party's TikTok stays): x https://x.com/BantuHolomisa, facebook https://www.facebook.com/bantu.holomisa, instagram https://www.instagram.com/bantuholomisa/"
 K00003,A0005,own_site,https://www.sacp.org.za/,2026-11-15,found,facebook;youtube;x;instagram,
+K00004,A0009,own_site,https://www.blacksash.org.za/,2026-11-16,found,x;facebook;youtube;tiktok;instagram;linkedin,
+K00005,A0016,own_site,https://www.forgood.org.za/,2026-11-16,none,,

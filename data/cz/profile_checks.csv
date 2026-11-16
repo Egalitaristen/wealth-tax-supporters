@@ -6,3 +6,6 @@ K00004,A0016,own_site,https://jsmelevice.cz,2026-11-15,found,x,"not added: faceb
 K00005,A0018,own_site,https://zeleni.cz,2026-11-15,none,,"not added: youtube https://www.youtube.com/user/zmenmeklima (chrome,social-block); facebook https://www.facebook.com/stranazelenych (chrome,social-block); instagram https://www.instagram.com/zeleni.cz/ (chrome,social-block)"
 K00006,A0008,own_site,https://kolaja.eu,2026-11-15,none,,
 K00007,A0004,own_site,https://socdem.cz,2026-11-15,found,facebook;instagram;tiktok;youtube,"not added: x https://x.com/SOCDEM_cz (chrome,social-block)"
+K00008,A0001,own_site,https://www.zeleni.cz,2026-11-16,none,,"not added: youtube https://www.youtube.com/user/zmenmeklima (chrome,social-block); already listed: facebook,instagram"
+K00009,A0007,own_site,https://marketagregorova.cz,2026-11-16,blocked,,403 at https://marketagregorova.cz
+K00010,A0009,own_site,https://mikulas-peksa.eu,2026-11-16,none,,

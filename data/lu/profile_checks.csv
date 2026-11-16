@@ -1,0 +1,2 @@
+check_id,actor_id,method,url,checked,result,found,note
+K00001,A0006,own_site,https://www.csl.lu,2026-11-16,found,facebook;linkedin;youtube;x;instagram;bluesky,

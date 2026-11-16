@@ -2,3 +2,4 @@ check_id,actor_id,method,url,checked,result,found,note
 K00001,A0216,own_site,https://inesc.org.br,2026-11-15,found,instagram;facebook;youtube;tiktok;x,
 K00002,A0222,own_site,https://www.cut.org.br,2026-11-15,found,x;facebook;instagram;tiktok;youtube,
 K00003,A0217,own_site,https://www.dieese.org.br,2026-11-15,found,instagram;facebook;linkedin;tiktok;x;youtube,
+K00004,A0211,own_site,https://lula.com.br/,2026-11-16,blocked,,403 at https://lula.com.br/

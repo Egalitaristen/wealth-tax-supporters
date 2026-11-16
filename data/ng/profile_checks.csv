@@ -4,3 +4,7 @@ K00002,A0028,own_site,https://ips-dc.org,2026-11-15,found,facebook;x,not added: 
 K00003,A0001,own_site,https://nigeria.oxfam.org,2026-11-15,found,facebook;x;linkedin;instagram,"not added: youtube https://www.youtube.com/channel/UCyVU0bhOiUyC7P9PzwyEb2Q (chrome,social-block)"
 K00004,A0016,own_site,https://taxjusticeafrica.net,2026-11-15,found,facebook;x;youtube;linkedin,
 K00005,A0002,own_site,https://cislac.org,2026-11-15,error,,406 at https://cislac.org
+K00006,A0027,own_site,https://maketaxfair.net,2026-11-16,found,x,
+K00007,A0014,own_site,https://www.connecteddevelopment.org,2026-11-16,found,x;facebook;youtube;instagram;linkedin,
+K00008,A0030,own_site,https://www.fightinequality.org,2026-11-16,blocked,,403 at https://www.fightinequality.org
+K00009,A0003,own_site,https://taxjustice.ng,2026-11-16,none,,

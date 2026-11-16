@@ -1,3 +1,8 @@
 profile_id,actor_id,platform,url,source,checked
 P00001,A0003,website,https://cpd.org.bd,organisation website,2026-11-11
 P00002,A0011,website,https://nbr.gov.bd,organisation website,2026-11-11
+P00003,A0003,facebook,https://www.facebook.com/cpd.org.bd,linked from https://cpd.org.bd,2026-11-16
+P00004,A0003,instagram,https://www.instagram.com/cpd_bangladesh/,linked from https://cpd.org.bd,2026-11-16
+P00005,A0003,linkedin,https://www.linkedin.com/company/centre-for-policy-dialague-cpd-,linked from https://cpd.org.bd,2026-11-16
+P00006,A0003,x,https://x.com/cp_dbd,linked from https://cpd.org.bd,2026-11-16
+P00007,A0003,youtube,https://www.youtube.com/user/CPDBangladesh,linked from https://cpd.org.bd,2026-11-16

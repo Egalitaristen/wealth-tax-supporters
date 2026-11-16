@@ -59,3 +59,12 @@ K00057,A0064,own_site,https://www.vihreat.fi/vihreiden-puolueohjelma-2027-2031/,
 K00058,A0051,own_site,https://www.sak.fi/blogit/varallisuuserojen-kimppuun-verolla-sak-esittaa-yleista-varallisuusveroa/,2026-11-15,none,,"not added: x https://x.com/duunarit (chrome,social-block); facebook https://www.facebook.com/SAKSuomenAmmattiliittojenKeskusjarjesto (chrome,social-block); instagram https://www.instagram.com/sakliitot/ (chrome,social-block); linkedin https://www.linkedin.com/company/sak (chrome,social-block); tiktok https://w"
 K00059,A0085,own_site,https://www.europarl.europa.eu/meps/en/124735,2026-11-15,blocked,,403 at https://www.europarl.europa.eu/meps/en/124735
 K00060,A0040,own_site,https://www.eduskunta.fi/FI/kansanedustajat/Sivut/1383.aspx,2026-11-15,found,facebook,"404 at https://www.eduskunta.fi/FI/kansanedustajat/Sivut/1383.aspx; already listed: instagram,x"
+K00061,A0065,own_site,https://vihreatnuoret.fi/wp-content/uploads/2022/11/Eduskuntavaaliohjelma-2023.pdf,2026-11-16,none,,
+K00062,A0031,own_site,https://www.eduskunta.fi/FI/kansanedustajat/Sivut/767.aspx,2026-11-16,none,,404 at https://www.eduskunta.fi/FI/kansanedustajat/Sivut/767.aspx
+K00063,A0008,own_site,https://www.eduskunta.fi/FI/kansanedustajat/Sivut/1122.aspx,2026-11-16,found,facebook,"404 at https://www.eduskunta.fi/FI/kansanedustajat/Sivut/1122.aspx; not added: youtube https://www.youtube.com/channel/UCyNcdRDOjKQjEfloGS6ZW5w (chrome,social-block); already listed: x,instagram"
+K00064,A0068,own_site,https://research.aalto.fi/en/persons/reima-launonen/,2026-11-16,none,,
+K00065,A0047,own_site,https://www.eduskunta.fi/FI/kansanedustajat/Sivut/1444.aspx,2026-11-16,error,,404 at https://www.eduskunta.fi/FI/kansanedustajat/Sivut/1444.aspx
+K00066,A0062,own_site,https://jhl.contenthub.fi/NiboWEB/jhl/getPublicFile.do?inline=false&ticket=9696ba90ad50a875bb04ee60b63fdeba&type=original&uuid=2395269,2026-11-16,found,youtube;linkedin;tiktok,"not added: facebook https://www.facebook.com/JHLry (chrome,social-block); already listed: x,instagram"
+K00067,A0020,own_site,https://www.eduskunta.fi/FI/kansanedustajat/Sivut/1150.aspx,2026-11-16,error,,404 at https://www.eduskunta.fi/FI/kansanedustajat/Sivut/1150.aspx
+K00068,A0006,own_site,https://www.eduskunta.fi/FI/kansanedustajat/Sivut/1117.aspx,2026-11-16,error,,404 at https://www.eduskunta.fi/FI/kansanedustajat/Sivut/1117.aspx
+K00069,A0023,own_site,https://www.eduskunta.fi/FI/kansanedustajat/Sivut/1088.aspx,2026-11-16,error,,404 at https://www.eduskunta.fi/FI/kansanedustajat/Sivut/1088.aspx

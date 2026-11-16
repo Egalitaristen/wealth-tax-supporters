@@ -48,3 +48,14 @@ K00046,A0078,own_site,https://felix-wettstein.ch/,2026-11-15,found,facebook;blue
 K00047,A0016,own_site,https://www.verts-vs.ch/nos_membres/12,2026-11-15,error,,404 at https://www.verts-vs.ch/nos_membres/12
 K00048,A0061,own_site,https://franziskaryser.ch/,2026-11-15,found,facebook;x,not added: youtube https://www.youtube.com/channel/UC4mo70P6XOX1--WYl-MFmCQ (); already listed: instagram
 K00049,A0006,own_site,https://www.mustafaatici.ch,2026-11-15,found,facebook,already listed: instagram
+K00050,A0025,own_site,https://claudia-friedl.ch/,2026-11-16,found,facebook;x,not added: youtube https://www.youtube.com/channel/UC43s9x_67-Sm50wNPDjoD2A (); already listed: instagram
+K00051,A0049,own_site,https://www.isabelle-pasquier.ch,2026-11-16,found,facebook;x;linkedin,already listed: instagram
+K00052,A0015,own_site,https://hasancandan.ch,2026-11-16,found,x;facebook,already listed: instagram
+K00053,A0021,own_site,https://www.fehlmann-rielle.info,2026-11-16,none,,
+K00054,A0056,own_site,https://www.estellerevaz.com/news.php?lg=fr,2026-11-16,found,facebook,
+K00055,A0039,own_site,https://www.adamarra.blogspot.com,2026-11-16,error,,"URLError: <urlopen error (""The certificate's CN name does not match the passed value."",)>"
+K00056,A0052,own_site,https://prelicz-huber.ch/,2026-11-16,found,x;facebook,already listed: instagram
+K00057,A0031,own_site,https://www.gretagysin.ch,2026-11-16,none,,
+K00058,A0034,own_site,https://blogs.letemps.ch/delphine-klopfenstein-broggini/,2026-11-16,none,,"not added: facebook https://www.facebook.com/letemps.ch (chrome,social-block); x https://x.com/letemps (chrome,social-block)"
+K00059,A0048,own_site,https://eric-nussbaumer.ch/,2026-11-16,found,facebook,not added: x https://x.com/enussbi (social-block)
+K00060,A0028,own_site,https://www.balthasar-glaettli.ch,2026-11-16,found,linkedin;youtube;tiktok;facebook,"not added: mastodon https://mastodon.social/@bglaettli (chrome,rel-me,social-block); mastodon https://mastodon. social/@bglaettli (rel-me); instagram https://www.instagram.com/balthasar-glaettli/ (chrome,social-block); instagram https://www.instagram.com/balthasar.glaettli/ (chrome,social-block); already listed: bluesky,x"
