@@ -7,3 +7,5 @@ K00005,A0015,own_site,https://mariagrapini.ro,2026-11-15,none,,not added: youtub
 K00006,A0026,own_site,https://www.dragosbenea.ro/,2026-11-15,error,,URLError: <urlopen error [Errno 11001] getaddrinfo failed>
 K00007,A0023,own_site,https://www.cusens.eu/,2026-11-16,found,instagram;tiktok;facebook,
 K00008,A0030,own_site,https://www.dannica.ro,2026-11-16,none,,
+K00009,A0024,own_site,https://stefanuta.ro/,2026-11-16,found,tiktok,"already listed: facebook,instagram,x"
+K00010,A0029,own_site,https://www.victornegrescu.eu,2026-11-16,blocked,,403 at https://www.victornegrescu.eu

@@ -11,3 +11,4 @@ K00009,A0039,own_site,https://citucentre.org,2026-11-15,none,,
 K00010,A0038,own_site,https://www.hindmazdoorsabha.com/,2026-11-15,error,,URLError: <urlopen error [Errno 11001] getaddrinfo failed>
 K00011,A0080,own_site,https://jawharsircar.com/,2026-11-16,none,,already listed: x
 K00012,A0004,own_site,https://piketty.pse.ens.fr/,2026-11-16,error,,URLError: <urlopen error [WinError 10061] No connection could be made because the target m
+K00013,A0043,own_site,https://www.aicctu.org,2026-11-16,found,facebook;x,already listed: instagram

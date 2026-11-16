@@ -1,3 +1,4 @@
 check_id,actor_id,method,url,checked,result,found,note
 K00001,A0004,own_site,https://www.cfscmafr.org,2026-11-15,found,facebook;youtube,
 K00002,A0002,own_site,https://ecamamw.org,2026-11-16,none,,
+K00003,A0006,own_site,https://southernafrica.oxfam.org/countries/malawi,2026-11-16,none,,"not added: youtube https://www.youtube.com/channel/UCwMkLGUJjPPOPNJjSMzUcYw (chrome,social-block); removed on spot check (the Southern Africa regional office's accounts): x https://x.com/OxfaminSAF, facebook https://www.facebook.com/oxfamsaf"

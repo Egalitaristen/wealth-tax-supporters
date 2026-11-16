@@ -370,3 +370,78 @@ K00368,A0215,own_site,https://www.wilsonwyominghouse7.com/,2026-11-16,error,,URL
 K00369,A0313,own_site,https://ansari.house.gov/,2026-11-16,none,,"already listed: facebook,x,bluesky,youtube,instagram"
 K00370,A0241,own_site,https://ethd.org/mariellen-faria/,2026-11-16,none,,"not added: facebook https://www.facebook.com/ethdorg (chrome,social-block); x https://x.com/ethdorg (chrome,social-block); instagram https://www.instagram.com/edenhealthdistrict/ (chrome,social-block); linkedin https://www.linkedin.com/company/eden-health-district (chrome,social-block)"
 K00371,A0526,own_site,https://patrioticmillionaires.org/people/john-esler/,2026-11-16,none,,"not added: x https://x.com/PatrioticMills (chrome,social-block); facebook https://www.facebook.com/PatrioticMillionaires (chrome,social-block); instagram https://www.instagram.com/patrioticmillionaires/ (chrome,social-block); tiktok https://www.tiktok.com/@patriotic.millionaires (chrome,social-block); linkedin"
+K00372,A0117,own_site,https://a27.asmdc.org/,2026-11-16,none,,"not added: facebook https://www.facebook.com/@AsmEsmeraldaSoria (chrome,social-block); instagram https://www.instagram.com/AsmEsmeraldaSoria/ (chrome,social-block); bluesky https://bsky.app/profile/esmeraldasoria.bsky.social (chrome,social-block)"
+K00373,A0132,own_site,https://www.rpcity.ca.gov/810/Meet-My-City-Council,2026-11-16,none,,"not added: facebook https://www.facebook.com/RohnertParkCity (chrome,social-block); instagram https://www.instagram.com/rohnertparkcity/ (chrome,social-block); linkedin https://www.linkedin.com/company/rohnertparkcity (chrome,social-block)"
+K00374,A0271,own_site,https://lee.house.gov,2026-11-16,error,,URLError: <urlopen error [Errno 11001] getaddrinfo failed>
+K00375,A0619,own_site,https://www.dsalb.org/,2026-11-16,found,instagram;bluesky,
+K00376,A0926,own_site,https://phlcouncil.com/jamiegauthier/,2026-11-16,none,,"not added: facebook https://www.facebook.com/PHLCouncil (chrome,social-block); facebook https://www.facebook.com/CouncilmemberJG (social-block); x https://x.com/PHLCouncil (chrome,meta,social-block); x https://x.com/CouncilmemberJG (social-block); youtube https://www.youtube.com/user/PhillyCityCouncil (chrome,"
+K00377,A0143,own_site,https://www.burbankca.gov/tamala-takahashi,2026-11-16,none,,"not added: instagram https://www.instagram.com/burbankca/ (chrome,social-block); facebook https://www.facebook.com/BurbankCA (chrome,social-block); youtube https://www.youtube.com/user/TheBurbankChannel (chrome,social-block); x https://x.com/burbankca (chrome,social-block); already listed: instagram,linkedin"
+K00378,A0061,own_site,https://linktr.ee/lblatinodems,2026-11-16,blocked,,robots.txt forbids https://linktr.ee/lblatinodems
+K00379,A0781,own_site,https://insightcced.org/,2026-11-16,none,,
+K00380,A0272,own_site,https://omar.house.gov/,2026-11-16,none,,"not added: x https://x.com/Ilhan (chrome,social-block); x https://x.com/IlhanMN (chrome,meta,social-block); facebook https://www.facebook.com/RepIlhan (chrome,social-block); facebook https://www.facebook.com/IlhanMN (chrome,social-block); instagram https://www.instagram.com/repilhan/ (chrome,social-block); ins"
+K00381,A0378,own_site,https://www.electmanka.com/,2026-11-16,found,facebook;x;instagram,not added: facebook https://www.facebook.com/1283135171724918 (social-block); facebook https://www.facebook.com/1283135171724918_1510050514272824 (social-block); facebook https://www.facebook.com/1283135171724918_1505908558020353 (social-block); facebook https://www.facebook.com/1283135171724918_15033059082806
+K00382,A0879,own_site,https://www.centralcoastlabor.org/,2026-11-16,none,,already listed: instagram
+K00383,A0090,own_site,https://colorofchange.org/,2026-11-16,none,,"already listed: instagram,x,facebook,youtube"
+K00384,A0740,own_site,https://wahab.house.gov/,2026-11-16,none,,"not added: facebook https://www.facebook.com/HouseDemocrats (chrome,social-block); facebook https://www.facebook.com/AVoiceForOurFuture (chrome,social-block); instagram https://www.instagram.com/housedemocrats/ (chrome,social-block); x https://x.com/HouseDemocrats (chrome,social-block); bluesky https://bsky.ap; already listed: instagram,x"
+K00385,A0947,own_site,https://workingfamilies.org/state/new-york/,2026-11-16,none,,"not added: facebook https://www.facebook.com/WorkingFamilies (chrome,social-block); facebook https://www.facebook.com/NYWorkingFamilies (chrome); x https://x.com/nywfp (chrome); instagram https://www.instagram.com/nywfp/ (chrome); bluesky https://bsky.app/profile/nywfp.bsky.social (chrome); x https://x.com/Wor"
+K00386,A0758,own_site,https://americanprogress.org/,2026-11-16,found,linkedin;bluesky,"not added: youtube https://www.youtube.com/user/seeprogress (chrome,social-block); already listed: x,facebook,instagram"
+K00387,A0010,own_site,https://boyle.house.gov/,2026-11-16,none,,"already listed: facebook,instagram,x,youtube,bluesky"
+K00388,A0146,own_site,https://www.herculesca.gov/government/city-council/council-members/council-member-alexander-walker-griffin,2026-11-16,blocked,,403 at https://www.herculesca.gov/government/city-council/council-members/council-member-alexander-walker-griffin
+K00389,A0943,own_site,https://wslc.org/,2026-11-16,none,,"already listed: facebook,instagram,x,bluesky,tiktok"
+K00390,A0732,own_site,https://www.environmentalhealth.org,2026-11-16,found,instagram,"not added: youtube https://www.youtube.com/user/EnviroHealthCo (chrome,social-block); already listed: facebook"
+K00391,A0632,own_site,https://www.citizen.org,2026-11-16,found,tiktok;linkedin,"not added: youtube https://www.youtube.com/user/PublicCitizen (share,social-block); already listed: instagram,facebook,x"
+K00392,A0516,own_site,https://gayaherrington.com/about,2026-11-16,found,linkedin;youtube,
+K00393,A0335,own_site,https://www.lujan.senate.gov,2026-11-16,blocked,,403 at https://www.lujan.senate.gov URLError: <urlopen error [Errno 11001] getaddrinfo failed>
+K00394,A0875,own_site,https://www.nickhanauer.com,2026-11-16,found,bluesky;facebook;instagram;substack,
+K00395,A0309,own_site,https://tokuda.house.gov,2026-11-16,none,,"not added: youtube https://www.youtube.com/channel/UCBXwZrEZWQiSXebInVuYuvw (chrome,social-block); already listed: facebook,x,bluesky,instagram"
+K00396,A0652,own_site,https://taxgreed.org/about/,2026-11-16,blocked,,403 at https://taxgreed.org/about/
+K00397,A0849,own_site,https://nationalhomeless.org/,2026-11-16,found,facebook;x;instagram;youtube;tiktok,not added: x https://x.com/ntl_homeless ()
+K00398,A0209,own_site,https://www.suisun.com/Government/City-Council/Council-Member-Princess-Washington,2026-11-16,none,,"not added: facebook https://www.facebook.com/SuisunCity (chrome,social-block); x https://x.com/SuisunCity (chrome,social-block); youtube https://www.youtube.com/@suisuncitycalifornia (chrome,social-block)"
+K00399,A0370,own_site,https://lieu.house.gov/,2026-11-16,none,,"already listed: facebook,instagram"
+K00400,A0331,own_site,https://www.duckworth.senate.gov,2026-11-16,blocked,,403 at https://www.duckworth.senate.gov 403 at https://www.duckworth.senate.gov/
+K00401,A0923,own_site,https://asmdc.org/members/a19/,2026-11-16,none,,"not added: facebook https://www.facebook.com/AsmStefani (chrome,social-block); instagram https://www.instagram.com/AsmStefani/ (chrome,social-block)"
+K00402,A0182,own_site,https://www.weho.org/city-government/city-council/councilmembers/john-m-erickson,2026-11-16,blocked,,403 at https://www.weho.org/city-government/city-council/councilmembers/john-m-erickson
+K00403,A0838,own_site,https://www.eqca.org,2026-11-16,none,,
+K00404,A0517,own_site,https://generationtux.com/our-story/our-founder,2026-11-16,none,,
+K00405,A0166,own_site,https://www.cityoftracy.org/Government/City-Council/Elected/Dotty-Nygard,2026-11-16,none,,"not added: facebook https://www.facebook.com/cityoftracyca (chrome,share,social-block); instagram https://www.instagram.com/cityoftracyca/ (chrome,share,social-block); youtube https://www.youtube.com/user/cityoftracy (chrome,share,social-block); x https://x.com/cityoftracy (chrome,share,social-block)"
+K00406,A0836,own_site,https://www.eoionline.org/,2026-11-16,error,,"URLError: <urlopen error (""The certificate's CN name does not match the passed value."",)>"
+K00407,A0801,own_site,https://www.omidyar.com/,2026-11-16,found,linkedin,
+K00408,A0159,own_site,https://www.oaklandca.gov/Government/City-Council-Leadership/Council-Members/District-2,2026-11-16,none,,"not added: facebook https://www.facebook.com/profile.php?id=61558711491827 (social-block); facebook https://www.facebook.com/oakland (chrome,social-block); x https://x.com/oakland (chrome,social-block); instagram https://www.instagram.com/oakland/ (chrome,social-block); already listed: x,instagram"
+K00409,A0176,own_site,https://www.montereypark.ca.gov/Directory.aspx?EID=147,2026-11-16,none,,"not added: facebook https://www.facebook.com/CityofMontereyPark (chrome,social-block); x https://x.com/CityofMPK (chrome,social-block); instagram https://www.instagram.com/cityofmontereypark/ (chrome,social-block); youtube https://www.youtube.com/user/MontParkTV (chrome,social-block)"
+K00410,A0663,own_site,https://www.nationalnursesunited.org/,2026-11-16,found,facebook;tiktok;bluesky,"already listed: instagram,x"
+K00411,A0266,own_site,https://clpccd.org/bot/boardmembers.php,2026-11-16,none,,
+K00412,A0366,own_site,https://carson.house.gov/,2026-11-16,none,,"not added: youtube https://www.youtube.com/@RepAndreCarson (social-block); already listed: facebook,instagram,x,bluesky"
+K00413,A0134,own_site,https://cityoflamesa.gov/311/La-Mesa-Fast-Facts,2026-11-16,none,,not added: x https://x.com/CityofLaMesa (chrome); x https://x.com/calgbt (social-block); instagram https://www.instagram.com/cityoflamesa/ (chrome); instagram https://www.instagram.com/calgbt/ (social-block); youtube https://www.youtube.com/@CityofLaMesa (chrome); linkedin https://www.linkedin.com/company/city
+K00414,A0129,own_site,https://www.culvercity.gov/City-Hall/City-Council/Mayor-Freddy-Puza,2026-11-16,none,,"not added: facebook https://www.facebook.com/CityOfCulverCity (chrome,social-block); x https://x.com/CulverCityGov (chrome,social-block); already listed: facebook,instagram"
+K00415,A0640,own_site,https://www.momsrising.org/,2026-11-16,found,facebook;bluesky;x;linkedin;tiktok,already listed: instagram
+K00416,A0552,own_site,https://www.ucs.org/about/people/tony-crabb,2026-11-16,none,,"not added: facebook https://www.facebook.com/unionofconcernedscientists (chrome,social-block); bluesky https://bsky.app/profile/ucs.org (chrome,social-block); youtube https://www.youtube.com/user/ConcernedScientists (chrome,social-block); instagram https://www.instagram.com/unionofconcernedscientists/ (chrome,"
+K00417,A0328,own_site,https://fernandez.house.gov,2026-11-16,none,,"already listed: facebook,x,youtube,instagram,bluesky"
+K00418,A0062,own_site,https://dsa-la.org/,2026-11-16,none,,"already listed: instagram,facebook,tiktok,bluesky"
+K00419,A0042,own_site,https://cadem.org/,2026-11-16,blocked,,403 at https://cadem.org/
+K00420,A0312,own_site,https://deluzio.house.gov,2026-11-16,found,instagram;youtube,"already listed: facebook,bluesky,x"
+K00421,A0775,own_site,https://fcnl.org,2026-11-16,found,bluesky;instagram;tiktok;mastodon,"not added: youtube https://www.youtube.com/user/QuakerLobby (chrome,social-block); already listed: facebook,x"
+K00422,A0149,own_site,https://www.fresno.gov/citycouncil/district-5/biography/,2026-11-16,blocked,,403 at https://www.fresno.gov/citycouncil/district-5/biography/
+K00423,A0249,own_site,https://district2.acgov.org/about/,2026-11-16,blocked,,403 at https://district2.acgov.org/about/
+K00424,A0489,own_site,https://www.voteannwilliams.com/,2026-11-16,error,,URLError: <urlopen error ('A required certificate is not within its validity period when v
+K00425,A0290,own_site,https://lowenthal.house.gov/,2026-11-16,error,,URLError: <urlopen error [Errno 11001] getaddrinfo failed>
+K00426,A0214,own_site,https://www.sandiego.gov/citycouncil/cd3/staff/whitburn,2026-11-16,none,,"not added: facebook https://www.facebook.com/CityofSanDiego (chrome,social-block); facebook https://www.facebook.com/MayorToddGloria (chrome,social-block); x https://x.com/CityofSanDiego (chrome,social-block); x https://x.com/MayorToddGloria (chrome,social-block); youtube https://www.youtube.com/user/TheCityof"
+K00427,A0338,own_site,https://www.blumenthal.senate.gov,2026-11-16,blocked,,403 at https://www.blumenthal.senate.gov
+K00428,A0137,own_site,https://www.calipatria.com/,2026-11-16,none,,
+K00429,A0028,own_site,https://local30sandiego.org/contact/,2026-11-16,none,,
+K00430,A0962,own_site,https://housedemocrats.wa.gov,2026-11-16,none,,"not added: bluesky https://bsky.app/profile/housedemocrats.wa.gov (rel-me,social-block); facebook https://www.facebook.com/wahousedems (rel-me,social-block); instagram https://www.instagram.com/wahousedems/ (rel-me,social-block); mastodon https://www.threads.net/@wahousedems (rel-me,social-block); youtube http"
+K00431,A0113,own_site,https://www.murphy.senate.gov/,2026-11-16,blocked,,403 at https://www.murphy.senate.gov/
+K00432,A0874,own_site,https://patrioticmillionaires.org/about/team/,2026-11-16,none,,"not added: x https://x.com/PatrioticMills (chrome,social-block); facebook https://www.facebook.com/PatrioticMillionaires (chrome,social-block); instagram https://www.instagram.com/patrioticmillionaires/ (chrome,social-block); tiktok https://www.tiktok.com/@patriotic.millionaires (chrome,social-block); linkedin"
+K00433,A0053,own_site,https://www.ecvictory.com/,2026-11-16,none,,"already listed: x,facebook,instagram"
+K00434,A0205,own_site,https://www.cityofwestsacramento.org/government/city-council/council-member-alcala,2026-11-16,blocked,,403 at https://www.cityofwestsacramento.org/government/city-council/council-member-alcala
+K00435,A0920,own_site,https://robbonta.com/,2026-11-16,blocked,,403 at https://robbonta.com/
+K00436,A0727,own_site,https://www.grahamforsenate.com/,2026-11-16,none,,"already listed: bluesky,facebook,instagram,tiktok,x"
+K00437,A0351,own_site,https://huffman.house.gov,2026-11-16,none,,"already listed: facebook,bluesky,x,youtube,instagram"
+K00438,A0310,own_site,https://www.davidtrone.com/,2026-11-16,blocked,,403 at https://www.davidtrone.com/
+K00439,A0747,own_site,https://allianceforajustsociety.org/,2026-11-16,found,facebook;x,
+K00440,A0115,own_site,https://khanna.house.gov,2026-11-16,none,,"not added: youtube https://www.youtube.com/channel/UCr4KOYv1o1oEQhy1jhhm3pQ (social-block); already listed: facebook,x,instagram"
+K00441,A0311,own_site,https://waters.house.gov,2026-11-16,none,,"already listed: x,facebook,instagram"
+K00442,A0051,own_site,https://www.dwsoc.org/,2026-11-16,none,,"already listed: facebook,tiktok,instagram"
+K00443,A0256,own_site,https://district4.alamedacountyca.gov/,2026-11-16,none,,"403 at https://district4.alamedacountyca.gov/about/ 403 at https://district4.alamedacountyca.gov/contact/; not added: youtube https://www.youtube.com/channel/UCCJPjRrUP5dF09OuJIVpGyg (social-block); already listed: facebook,x,instagram"
+K00444,A0302,own_site,https://jonathanjackson.house.gov,2026-11-16,none,,"not added: x https://x.com/rep_jackson (social-block); already listed: facebook,instagram,bluesky"
+K00445,A0359,own_site,https://pocan.house.gov,2026-11-16,found,bluesky,"not added: youtube https://www.youtube.com/channel/UCz5b47WER_u3dUGV_Zi70dQ (chrome,social-block); already listed: x,facebook,instagram,tiktok"
+K00446,A0445,own_site,https://www.zohranfornyc.com/,2026-11-16,none,,"already listed: facebook,instagram,tiktok,x,bluesky"

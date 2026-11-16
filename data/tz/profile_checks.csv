@@ -1,0 +1,2 @@
+check_id,actor_id,method,url,checked,result,found,note
+K00001,A0003,own_site,https://www.oxfam.org/,2026-11-16,none,,"not added: facebook https://www.facebook.com/Oxfam (chrome,social-block); x https://x.com/oxfam (chrome,social-block); youtube https://www.youtube.com/user/oxfaminternational (chrome,social-block); already listed: instagram"

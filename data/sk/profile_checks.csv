@@ -5,3 +5,4 @@ K00003,A0006,own_site,https://www.kozsr.sk/,2026-11-15,found,facebook;instagram;
 K00004,A0019,own_site,https://klimatickakoalicia.sk/,2026-11-15,error,,466 at https://klimatickakoalicia.sk/
 K00005,A0009,own_site,https://www.proforum.sk/,2026-11-15,error,,466 at https://www.proforum.sk/
 K00006,A0010,own_site,https://slovakia.fes.de/,2026-11-16,error,,URLError: <urlopen error [Errno 11001] getaddrinfo failed>
+K00007,A0003,own_site,https://www.europoslankyna.sk/,2026-11-16,error,,466 at https://www.europoslankyna.sk/

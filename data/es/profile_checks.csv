@@ -47,3 +47,14 @@ K00045,A0100,own_site,https://www.juspax-es.org,2026-11-16,none,,not added: face
 K00046,A0131,own_site,https://www.fiscalitatjusta.cat,2026-11-16,found,facebook;x;youtube,
 K00047,A0084,own_site,https://gabriel-zucman.eu/,2026-11-16,none,,
 K00048,A0156,own_site,https://presidentaragones.cat/president/biografia/,2026-11-16,found,instagram;bluesky;linkedin;facebook;x,
+K00049,A0006,own_site,https://www.agarzon.net,2026-11-16,none,,"already listed: facebook,x,instagram"
+K00050,A0107,own_site,https://www.observatoriorsc.org,2026-11-16,found,facebook;linkedin;bluesky;youtube,
+K00051,A0103,own_site,https://www.cecu.es,2026-11-16,found,tiktok;x;instagram;bluesky;youtube;linkedin,
+K00052,A0082,own_site,https://www.parlament.cat,2026-11-16,error,,URLError: <urlopen error [WinError 10060] A connection attempt failed because the connecte
+K00053,A0094,own_site,https://izquierdaunida.org,2026-11-16,found,mastodon,"not added: x https://x.com/iunida (meta); x https://x.com/IzquierdaUnida (chrome,share,social-block); already listed: facebook,instagram"
+K00054,A0167,own_site,https://www.fiscalitatjusta.cat/tenim-un-sistema-tributari-just-compareixenca-al-parlament/,2026-11-16,none,,not added: facebook https://www.facebook.com/pages/Plataforma-per-una-Fiscalitat-Justa-Ambiental-i-Solid%C3%A0ria/158892750867366 (social-block); x https://x.com/fiscalitatjusta (social-block); youtube https://www.youtube.com/channel/UCnUzQ_SUTnKZBSuFK1GE1CA (social-block)
+K00055,A0182,own_site,https://jjggbizkaia.eus/es/detalle-juntero?cod=76&legislatura=12,2026-11-16,none,,"not added: facebook https://www.facebook.com/bizkaikobatzarnagusiak (chrome,social-block); x https://x.com/bnbizkaia (chrome,social-block); instagram https://www.instagram.com/bizkaikobatzarnagusiak/ (chrome,social-block)"
+K00056,A0166,own_site,https://www.lab.eus/,2026-11-16,found,facebook;x;instagram,not added: youtube https://www.youtube.com/@LABsindikatua (social-block); youtube https://www.youtube.com/channel/UCRkAMlkXksj4ZYLaGDP7PYw (social-block)
+K00057,A0073,own_site,https://ehbildu.eus,2026-11-16,found,x;facebook;instagram;tiktok;mastodon;youtube,
+K00058,A0116,own_site,https://wealthcapproject.org,2026-11-16,found,instagram;linkedin;bluesky;x,
+K00059,A0101,own_site,http://www.redescristianas.net,2026-11-16,found,facebook,

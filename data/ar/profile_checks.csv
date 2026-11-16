@@ -55,3 +55,16 @@ K00053,A0056,own_site,https://www.senado.gob.ar/senadores/senador/498,2026-11-16
 K00054,A0050,own_site,https://www.diputados.gob.ar/diputados/bosuna/,2026-11-16,error,,URLError: <urlopen error _ssl.c:1015: The handshake operation timed out>
 K00055,A0220,own_site,https://centrocepa.com.ar,2026-11-16,none,,"already listed: x,instagram,facebook,youtube"
 K00056,A0053,own_site,https://www.senado.gob.ar/senadores/senador/294,2026-11-16,none,,
+K00057,A0135,own_site,https://www.diputados.gob.ar/diputados/eneder/,2026-11-16,error,,URLError: <urlopen error _ssl.c:1015: The handshake operation timed out>
+K00058,A0126,own_site,https://www.senado.gob.ar/senadores/senador/554,2026-11-16,none,,
+K00059,A0066,own_site,https://claudiabernazza.ar,2026-11-16,none,,"not added: x https://x.com/RedPolitologas (chrome,social-block); x https://x.com/DavidXCuba (chrome,social-block); x https://x.com/pablooesteban (chrome,social-block); x https://x.com/hernanpablo (chrome,social-block); x https://x.com/chicxsdelpueblo (chrome,social-block); x https://x.com/inst_PATRIAar (chrome; already listed: x,instagram"
+K00060,A0210,own_site,https://www.diputados.gob.ar/diputados/jstrada/,2026-11-16,error,,URLError: <urlopen error _ssl.c:1015: The handshake operation timed out>
+K00061,A0106,own_site,https://www.diputados.gob.ar/diputados/cgutierrez/,2026-11-16,error,,URLError: <urlopen error _ssl.c:1015: The handshake operation timed out>
+K00062,A0222,own_site,https://acij.org.ar,2026-11-16,none,,"already listed: facebook,instagram,x,youtube"
+K00063,A0158,own_site,https://www.diputados.gob.ar/diputados/ltailhade/,2026-11-16,error,,URLError: <urlopen error _ssl.c:1015: The handshake operation timed out>
+K00064,A0002,own_site,https://www.diputados.gob.ar/diputados/mkirchner/,2026-11-16,error,,URLError: <urlopen error _ssl.c:1015: The handshake operation timed out>
+K00065,A0204,own_site,https://www.diputados.gob.ar/diputados/gsnopek/,2026-11-16,error,,URLError: <urlopen error _ssl.c:1015: The handshake operation timed out>
+K00066,A0086,own_site,https://www.luiscontigiani.com.ar,2026-11-16,error,,URLError: <urlopen error [Errno 11001] getaddrinfo failed>
+K00067,A0218,own_site,https://www.celag.org/autor/guillermo-oglietti/,2026-11-16,error,,404 at https://www.celag.org/autor/guillermo-oglietti/
+K00068,A0013,own_site,https://www.diputados.gob.ar/diputados/hyasky/,2026-11-16,error,,URLError: <urlopen error _ssl.c:1015: The handshake operation timed out>
+K00069,A0023,own_site,https://fecootra.org.ar/,2026-11-16,none,,not added: youtube https://www.youtube.com/user/fecootraprensa (); facebook https://www.facebook.com/fecootrainstitucional (); x https://x.com/fecootra (); instagram https://www.instagram.com/fecootraprensa/ ()

@@ -191,3 +191,50 @@ K00189,A0158,own_site,https://orcid.org/0000-0001-8574-9253,2026-11-16,none,,
 K00190,A0068,own_site,https://radon.nauka.gov.pl/dane/profil/D8C4958338C41D5B2332172DAB7EE41A0064551C,2026-11-16,none,,
 K00191,A0027,own_site,https://www.liberadzki.pl/,2026-11-16,error,,URLError: <urlopen error [Errno 11002] getaddrinfo failed>
 K00192,A0052,own_site,https://orcid.org/0000-0002-8884-6996,2026-11-16,none,,"not added: linkedin https://www.linkedin.com/company/department-of-social-policy-and-intervention-university-of-oxford (chrome,social-block); bluesky https://bsky.app/profile/dspi-oxford.bsky.social (chrome,social-block); facebook https://www.facebook.com/SocialPolicyandIntervention (chrome,social-block); yout; already listed: x"
+K00193,A0096,own_site,https://orcid.org/0009-0003-3043-4969,2026-11-16,none,,robots.txt forbids https://ifs.filg.uj.edu.pl/wanda-stepniak-minczewa
+K00194,A0292,own_site,https://psych.uw.edu.pl/dla-studentow/praktyki-zawodowe/dziurla-rafal/,2026-11-16,none,,"not added: facebook https://www.facebook.com/WydzialPsychologiiUW (chrome,social-block); youtube https://www.youtube.com/channel/UCpHCrkGzUEDyvbOLpiDrUxg (chrome,social-block); instagram https://www.instagram.com/wps.uw/ (chrome,social-block); linkedin https://www.linkedin.com/company/wydzia%C5%82-psychologii-"
+K00195,A0077,own_site,https://ue.poznan.pl/osoby/dr-pawel-luczak/,2026-11-16,none,,"not added: facebook https://www.facebook.com/uepoznan (chrome,social-block); instagram https://www.instagram.com/uepoznan/ (chrome,social-block); x https://x.com/UEwP (chrome,meta,social-block); linkedin https://www.linkedin.com/school/uniwersytet-ekonomiczny-w-poznaniu (chrome,social-block); youtube https://w"
+K00196,A0138,own_site,https://radon.nauka.gov.pl/dane/profil/0D4B8FB7F5DC74EA8F2884B68788A73E36FD2687,2026-11-16,none,,
+K00197,A0010,own_site,https://radon.nauka.gov.pl/dane/profil/4ECE9EBD07763C8692DCB91CFE94E5388B2B1808,2026-11-16,none,,
+K00198,A0126,own_site,https://radon.nauka.gov.pl/dane/profil/7D5DF0C4AC68D29E266A40CB0809C30C0804CD26,2026-11-16,none,,
+K00199,A0192,own_site,https://radon.nauka.gov.pl/dane/profil/076161A510AAB5E4A2969181B442AA9729BAD4D9,2026-11-16,none,,
+K00200,A0180,own_site,https://radon.nauka.gov.pl/dane/profil/000356D91EC17C1525677C8CA0D588F9487D4BCC,2026-11-16,none,,
+K00201,A0160,own_site,https://orcid.org/0000-0001-5395-9256,2026-11-16,none,,
+K00202,A0028,own_site,https://www.miller.pl/,2026-11-16,none,,
+K00203,A0264,own_site,https://kulturoznawstwo.uni.wroc.pl/Instytut-Kulturoznawstwa/Zespol/Pracownicy/dr-Franciszek-Chwalczyk,2026-11-16,none,,URLError: <urlopen error ('A required certificate is not within its validity period when v
+K00204,A0219,own_site,https://radon.nauka.gov.pl/dane/profil/5335537D5EE593A86C32BEDF97D7EDB8E97A6120,2026-11-16,none,,
+K00205,A0082,own_site,https://magazynkontakt.pl/profil/cwynar-tobiasz/,2026-11-16,none,,"not added: facebook https://www.facebook.com/magazynkontakt (chrome,social-block); instagram https://www.instagram.com/magazynkontakt/ (chrome,social-block)"
+K00206,A0058,own_site,https://radon.nauka.gov.pl/dane/profil/77832F2E3B8A763521257EB8BE8FDD2E5831A16A,2026-11-16,none,,
+K00207,A0222,own_site,https://oko.press/autor/filip_konopczynski,2026-11-16,none,,"not added: facebook https://www.facebook.com/oko.press (chrome,social-block); x https://x.com/oko_press (chrome,social-block); youtube https://www.youtube.com/channel/UCgL0f77U3iEPSSU-Mv5yV5g (chrome,social-block); instagram https://www.instagram.com/oko.press/ (chrome,social-block); linkedin https://www.linke"
+K00208,A0162,own_site,https://radon.nauka.gov.pl/dane/profil/0E94807257D916A343810962D5743EEC67DAEFCC,2026-11-16,none,,
+K00209,A0095,own_site,https://radon.nauka.gov.pl/dane/profil/A50FCBD3771AE08DE54FD91A248EE05A5077374A,2026-11-16,none,,"not added: facebook https://www.facebook.com/rekrutacjaUniwersytetSlaski (chrome,social-block); instagram https://www.instagram.com/uniwersytetslaski/ (chrome,social-block); x https://x.com/usinkatowice (chrome,social-block); youtube https://www.youtube.com/channel/UCpC3KSU7xreOYp1kQiZniJA (chrome,social-block"
+K00210,A0266,own_site,https://radon.nauka.gov.pl/dane/profil/07439CA2320E4CE16375A4DB7AA6CC28A52ECF7C,2026-11-16,none,,not added: facebook https://www.facebook.com/fanpageUW (social-block); x https://x.com/UniWarszawski (social-block); instagram https://www.instagram.com/uniwersytetwarszawski/ (social-block); linkedin https://www.linkedin.com/company/uniwersytet-warszawski (social-block)
+K00211,A0102,own_site,https://radon.nauka.gov.pl/dane/profil/19AC96D5940FC5105DD812920C79926B68DFE003,2026-11-16,none,,
+K00212,A0242,own_site,https://www.czaplinek.pl/aktualnosc/czaplinek-oczami-rzecznika-rzek-rozmowa-z-arturem-furdyna-z-cyklu-czaplinek-przystan-na,2026-11-16,none,,"not added: facebook https://www.facebook.com/Czaplinek-538335459526033 (chrome,social-block); facebook https://www.facebook.com/czok.czaplinek (chrome)"
+K00213,A0211,own_site,https://radon.nauka.gov.pl/dane/profil/6D6292AAE962D0643E523C8C31D81C24E301C5B1,2026-11-16,none,,
+K00214,A0194,own_site,https://orcid.org/0000-0002-2970-1228,2026-11-16,none,,
+K00215,A0277,own_site,https://ikp.uw.edu.pl/bio/mgr-marcin-golab/,2026-11-16,none,,"not added: facebook https://www.facebook.com/ikp.uw (chrome,social-block); instagram https://www.instagram.com/ikp_uw/ (chrome,social-block)"
+K00216,A0188,own_site,https://radon.nauka.gov.pl/dane/profil/487A6A03085CF68E0070AF2B48E1A3D27FD167F5,2026-11-16,none,,
+K00217,A0212,own_site,https://radon.nauka.gov.pl/dane/profil/ADCC691F648EECBFEDFEF314013A84A92DB0608B,2026-11-16,none,,
+K00218,A0151,own_site,https://radon.nauka.gov.pl/dane/profil/04D197AAAB8E3E0D26B79B855D8C091549F737A2,2026-11-16,none,,
+K00219,A0285,own_site,https://radon.nauka.gov.pl/dane/profil/70CF46A2BCFFC231744275AAC15537DD0E228FD5,2026-11-16,none,,"not added: facebook https://www.facebook.com/IBOKorg (chrome,social-block); linkedin https://www.linkedin.com/company/stowarzyszenie-ibok (chrome,social-block); youtube https://www.youtube.com/channel/UCcO3y6imZDhTAzw4zCklRhw (chrome,social-block); instagram https://www.instagram.com/2020ibok/ (chrome,social-b"
+K00220,A0218,own_site,https://radon.nauka.gov.pl/dane/profil/10B6DA2C734142A327B517951D063FF0FE5E0662,2026-11-16,none,,not added: facebook https://www.facebook.com/WFiNSUMK (chrome); instagram https://www.instagram.com/wfins_umk/ (chrome)
+K00221,A0032,own_site,https://trybuna.info/author/aleksander-radomski/,2026-11-16,none,,"not added: facebook https://www.facebook.com/trybuna.net (chrome,social-block); x https://x.com/trybuna_dt (chrome,meta,social-block)"
+K00222,A0005,own_site,https://radon.nauka.gov.pl/dane/profil/B7A8E450A4BBCA6A60A3050615D22C1B00F115BA,2026-11-16,none,,
+K00223,A0259,own_site,https://ostroznie-dziecko-2021.fdds.pl/,2026-11-16,none,,
+K00224,A0195,own_site,https://orcid.org/0000-0002-9710-9189,2026-11-16,none,,"not added: facebook https://www.facebook.com/UniwersytetSWPS (chrome,social-block); instagram https://www.instagram.com/uniwersytet_swps/ (chrome,social-block); linkedin https://www.linkedin.com/school/uniwersytet-swps (chrome,social-block); x https://x.com/SWPSUniversity (chrome,social-block); tiktok https://"
+K00225,A0120,own_site,https://radon.nauka.gov.pl/dane/profil/B4CCE5FDC87DCCD82D4D50424E9FEC703CBFCEE0,2026-11-16,none,,
+K00226,A0084,own_site,https://radon.nauka.gov.pl/dane/profil/F2D07ABE8C5F130702D5A6268873A66D1734C233,2026-11-16,none,,"not added: facebook https://www.facebook.com/wbask.asp.warszawa (chrome,social-block); instagram https://www.instagram.com/wbask.asp.warszawa/ (chrome,social-block)"
+K00227,A0223,own_site,https://2022.biennalewarszawa.pl/bio/bartek-frackowiak/,2026-11-16,none,,"not added: instagram https://www.instagram.com/biennalewarszawa/ (chrome,social-block); facebook https://www.facebook.com/biennalewarszawa (chrome,social-block); youtube https://www.youtube.com/channel/UCi-6EQE5mxbQbdIpxZ4vhww (chrome,social-block)"
+K00228,A0054,own_site,https://radon.nauka.gov.pl/dane/profil/FCA78F58EA846D7EE55436696A880CE929152999,2026-11-16,none,,
+K00229,A0253,own_site,https://noizz.pl/wywiady/prawa-lokatorskie-tvp-i-transplciowosc-wywiad-z-zenobia-zaczek/spfc2dv,2026-11-16,none,,"not added: facebook https://www.facebook.com/NOIZZPolska (chrome,social-block); instagram https://www.instagram.com/noizzpl/ (chrome,social-block)"
+K00230,A0069,own_site,https://radon.nauka.gov.pl/dane/profil/39953780C6518843AC9902FEAC28530E645C1D52,2026-11-16,none,,
+K00231,A0152,own_site,https://parlament2015.pkw.gov.pl/349_Wyniki_Sejm/12/0/28.html,2026-11-16,none,,
+K00232,A0147,own_site,https://radon.nauka.gov.pl/dane/profil/B8EAAD23A53319950D2C292223982B9B4696E006,2026-11-16,none,,
+K00233,A0169,own_site,https://orcid.org/0000-0002-6495-8408,2026-11-16,none,,
+K00234,A0148,own_site,https://radon.nauka.gov.pl/dane/profil/7D0052F7457D325C7DEAFD0DEEE1F72D3604DC3C,2026-11-16,none,,
+K00235,A0104,own_site,https://radon.nauka.gov.pl/dane/profil/A431D1F42FE6F8263F7BFF2435A769F6ECB42F06,2026-11-16,none,,
+K00236,A0087,own_site,https://radon.nauka.gov.pl/dane/profil/1763A40147CF993B91A97797AE53E616E7ED828B,2026-11-16,none,,
+K00237,A0049,own_site,https://radon.nauka.gov.pl/dane/profil/700E46B299BB100CEC21BC1B69FBEEAA6D14A2DE,2026-11-16,none,,
+K00238,A0059,own_site,https://radon.nauka.gov.pl/dane/profil/D31A0CCCB13BA11B08CFFBECF4C721F1AA042ED3,2026-11-16,none,,
+K00239,A0012,own_site,https://radon.nauka.gov.pl/dane/profil/479BC0DA6CCFB02DE88820373A9BA0C06FB8DCA3,2026-11-16,none,,
