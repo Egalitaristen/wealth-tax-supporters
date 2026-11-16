@@ -267,3 +267,20 @@ K00265,A0080,own_site,https://www.abelcaballero.com/,2026-11-16,error,,URLError:
 K00266,A0188,own_site,https://www.socialistasvascos.com/rafi-romero.htm,2026-11-16,none,,"not added: x https://x.com/socialistavasco (chrome,meta,social-block); facebook https://www.facebook.com/socialistasvascos (chrome,social-block); instagram https://www.instagram.com/socialistasvascos/ (chrome,social-block); already listed: facebook"
 K00267,A0005,own_site,https://juanantoniodelgado.es/,2026-11-16,error,,URLError: <urlopen error [Errno 11001] getaddrinfo failed>
 K00268,A0065,own_site,https://www.felipegonzalez.es,2026-11-16,none,,
+K00269,A0079,orcid,,2026-11-16,none,,several ORCID records with the name
+K00270,A0086,orcid,,2026-11-16,none,,several ORCID records with the name
+K00271,A0097,orcid,https://orcid.org/0000-0002-4715-9436,2026-11-16,none,,ORCID institution does not match: none listed
+K00272,A0113,orcid,,2026-11-16,none,,no single ORCID record with the name
+K00273,A0117,orcid,https://orcid.org/0009-0000-9711-647X,2026-11-16,none,,ORCID institution does not match: Instituto de Biología Molecular y Celular de Plantas
+K00274,A0119,orcid,,2026-11-16,none,,several ORCID records with the name
+K00275,A0120,orcid,,2026-11-16,none,,no single ORCID record with the name
+K00276,A0178,orcid,,2026-11-16,none,,several ORCID records with the name
+K00277,A0181,orcid,,2026-11-16,none,,no single ORCID record with the name
+K00278,A0200,orcid,,2026-11-16,none,,no single ORCID record with the name
+K00279,A0201,orcid,,2026-11-16,none,,no single ORCID record with the name
+K00280,A0202,orcid,,2026-11-16,none,,several ORCID records with the name
+K00281,A0206,orcid,,2026-11-16,none,,several ORCID records with the name
+K00282,A0207,orcid,,2026-11-16,none,,no single ORCID record with the name
+K00283,A0216,orcid,,2026-11-16,none,,several ORCID records with the name
+K00284,A0221,orcid,https://orcid.org/0000-0001-7650-9709,2026-11-16,none,,"record found, no website listed"
+K00285,A0222,orcid,,2026-11-16,none,,several ORCID records with the name

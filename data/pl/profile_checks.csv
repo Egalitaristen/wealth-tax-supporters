@@ -319,3 +319,11 @@ K00317,A0150,wikipedia_langs,,2026-11-16,none,,no official website in the articl
 K00318,A0209,wikipedia_langs,,2026-11-16,none,,no official website in the articles in other languages
 K00319,A0210,wikipedia_langs,,2026-11-16,none,,no official website in the articles in other languages
 K00320,A0305,wikipedia_langs,,2026-11-16,none,,no official website in the articles in other languages
+K00321,A0013,orcid,,2026-11-16,none,,no single ORCID record with the name
+K00322,A0029,orcid,,2026-11-16,none,,no single ORCID record with the name
+K00323,A0041,orcid,https://orcid.org/0000-0002-2115-5429,2026-11-16,none,,ORCID institution does not match: none listed
+K00324,A0132,orcid,,2026-11-16,none,,no single ORCID record with the name
+K00325,A0150,orcid,,2026-11-16,none,,several ORCID records with the name
+K00326,A0209,orcid,,2026-11-16,none,,several ORCID records with the name
+K00327,A0210,orcid,https://orcid.org/0000-0001-5691-9807,2026-11-16,none,,ORCID institution does not match: University of Łódź
+K00328,A0305,orcid,https://orcid.org/0009-0009-4325-3220,2026-11-16,none,,ORCID institution does not match: University of Warsaw

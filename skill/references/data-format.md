@@ -123,7 +123,7 @@ A personal GitHub repository or blog with no licence file, a "free to use" note,
 <!-- schema:profile_checks -->
 `check_id, actor_id, method, url, checked, result, found, note`
 - IDs look like `K00001`. Required: `actor_id`, `method`, `checked`, `result`.
-- `method` is one of: directory · manual_search · own_site · own_site_browser · parliament_page · wikidata · wikipedia · wikipedia_langs.
+- `method` is one of: directory · manual_search · orcid · own_site · own_site_browser · parliament_page · wikidata · wikipedia · wikipedia_langs.
 - `result` is one of: blocked · error · found · no_site · none.
 <!-- /schema:profile_checks -->
 - One row per actor per method per day: `own_site` (the actor's own website and its contact or about page), `own_site_browser` (the same, read in Chrome because a script was refused), `wikidata`, `parliament_page` or `manual_search`. `url` is the page read, `found` lists the platforms added to `profiles.csv` (for example `x;bluesky`), `note` says what blocked or confused the check. `result` is `found`, `none` (read, no account linked), `blocked` (the site refused the reader or showed a bot check), `no_site` (the actor has no website to read) or `error`.

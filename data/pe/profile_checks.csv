@@ -23,3 +23,7 @@ K00021,A0027,wikipedia_langs,,2026-11-16,none,,no official website in the articl
 K00022,A0029,wikipedia_langs,,2026-11-16,none,,no official website in the articles in other languages
 K00023,A0002,own_site,https://www.congreso.gob.pe/congresistas2016/MirthaVasquez/,2026-11-16,error,,404 at https://www.congreso.gob.pe/congresistas2016/MirthaVasquez/
 K00024,A0026,own_site,https://www.leninbazan.com/,2026-11-16,error,,URLError: <urlopen error [Errno 11001] getaddrinfo failed>
+K00025,A0010,orcid,https://orcid.org/0000-0003-2097-8658,2026-11-16,none,,"ORCID institution does not match: Colegio de Contadores Publicos de Junín, Colegio de Contadores Públicos de Junín, Consejo Nacional de Ciencia y Tecnología e Innovación Tecnológica, Ministerio de Educacion, Universidad Cesar Vallejo - Huancayo, Universidad Nacional Autónoma Altoandina de Tarma, Uni"
+K00026,A0020,orcid,,2026-11-16,none,,several ORCID records with the name
+K00027,A0021,orcid,,2026-11-16,none,,several ORCID records with the name
+K00028,A0024,orcid,,2026-11-16,none,,several ORCID records with the name

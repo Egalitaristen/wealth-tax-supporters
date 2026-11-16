@@ -69,3 +69,7 @@ K00067,A0035,own_site,https://www.diputadomonsalve.cl/,2026-11-16,error,,URLErro
 K00068,A0010,own_site,https://raulsoto.cl/,2026-11-16,none,,"not added: x https://x.com/mm88agency (chrome,social-block)"
 K00069,A0006,own_site,https://www.danielnuñezdiputado.cl/,2026-11-16,error,,URLError: <urlopen error [Errno 11001] getaddrinfo failed>
 K00070,A0041,own_site,https://www.camara.cl/diputados/detalle/oficio.aspx?prmId=827,2026-11-16,blocked,,403 at https://www.camara.cl/diputados/detalle/oficio.aspx?prmId=827
+K00071,A0001,orcid,,2026-11-16,none,,several ORCID records with the name
+K00072,A0002,orcid,,2026-11-16,none,,several ORCID records with the name
+K00073,A0013,orcid,,2026-11-16,none,,several ORCID records with the name
+K00074,A0014,orcid,https://orcid.org/0000-0001-8578-1384,2026-11-16,none,,ORCID institution does not match: Pontificia Universidad Católica de Chile

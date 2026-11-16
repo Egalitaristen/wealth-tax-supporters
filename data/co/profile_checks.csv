@@ -156,3 +156,12 @@ K00154,A0028,own_site,https://www.secretariasenado.gov.co/senadores/53-senadores
 K00155,A0034,own_site,https://www.sandraortiz.com,2026-11-16,none,,
 K00156,A0101,own_site,https://www.arielavila.com/,2026-11-16,found,instagram;facebook;x;youtube;tiktok,not added: youtube https://www.youtube.com/@comisionprimerasenadodelar1094 ()
 K00157,A0022,own_site,https://www.juanfelipelemossenador.com/,2026-11-16,error,,URLError: <urlopen error [Errno 11001] getaddrinfo failed>
+K00158,A0001,orcid,,2026-11-16,none,,several ORCID records with the name
+K00159,A0004,orcid,,2026-11-16,none,,several ORCID records with the name
+K00160,A0005,orcid,,2026-11-16,none,,several ORCID records with the name
+K00161,A0060,orcid,https://orcid.org/0000-0001-5444-5142,2026-11-16,found,website,
+K00162,A0062,orcid,,2026-11-16,none,,several ORCID records with the name
+K00163,A0086,orcid,,2026-11-16,none,,several ORCID records with the name
+K00164,A0087,orcid,,2026-11-16,none,,several ORCID records with the name
+K00165,A0088,orcid,https://orcid.org/0000-0003-0943-5417,2026-11-16,none,,"ORCID institution does not match: Universidad Externado de Colombia, Universidad Nacional de Colombia, University of Picardie Jules Verne"
+K00166,A0060,own_site,https://economia.uniandes.edu.co/hofstetter,2026-11-16,found,linkedin,"not added: x https://x.com/mahofste (); x https://x.com/EconomiaUAndes (meta,social-block); linkedin https://www.linkedin.com/company/economiauniandes (social-block); facebook https://www.facebook.com/EconomiaUniandes (social-block); instagram https://www.instagram.com/economiauniandes/ (social-block); youtube"

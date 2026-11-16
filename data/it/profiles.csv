@@ -292,3 +292,25 @@ P00310,A0272,facebook,https://www.facebook.com/beppegrillo.it,linked from https:
 P00311,A0169,website,https://www.ciwati.it/,Wikipedia https://de.wikipedia.org/wiki/Giuseppe_Civati,2026-11-16
 P00312,A0174,website,https://www.cofide.it/,Wikipedia https://es.wikipedia.org/wiki/Carlo_De_Benedetti,2026-11-16
 P00313,A0233,website,https://www.faustobertinotti.it/,Wikipedia https://es.wikipedia.org/wiki/Fausto_Bertinotti,2026-11-16
+P00314,A0037,website,https://www.ugopagano.info,ORCID record https://orcid.org/0000-0002-9917-5091,2026-11-16
+P00315,A0048,website,https://rveneziani.econ.qmul.ac.uk/,ORCID record https://orcid.org/0000-0001-6431-0145,2026-11-16
+P00316,A0059,website,https://www.santannapisa.it/it/gianluca-biggi,ORCID record https://orcid.org/0000-0001-6777-7111,2026-11-16
+P00317,A0060,website,https://docenti.unisi.it/it/salvatorebimonte,ORCID record https://orcid.org/0000-0002-9104-9242,2026-11-16
+P00318,A0062,website,https://personale.unimore.it/rubrica/dettaglio/bonifati,ORCID record https://orcid.org/0000-0002-8876-2215,2026-11-16
+P00319,A0071,website,https://checchi.economia.unimi.it,ORCID record https://orcid.org/0000-0001-7466-8562,2026-11-16
+P00320,A0085,website,https://people.unipi.it/davide_fiaschi/,ORCID record https://orcid.org/0000-0002-1992-7071,2026-11-16
+P00321,A0089,website,https://www.santannapisa.it/it/giacomo-gabbuti,ORCID record https://orcid.org/0000-0002-5098-8972,2026-11-16
+P00322,A0090,website,https://www.ettoregallo.com,ORCID record https://orcid.org/0000-0002-4642-4779,2026-11-16
+P00323,A0098,website,https://mattiaguerini.github.io/,ORCID record https://orcid.org/0000-0003-2071-6615,2026-11-16
+P00324,A0106,website,https://www2.econ.univpm.it/servizi/hpp/lucchetti/ects_en.html,ORCID record https://orcid.org/0000-0002-0401-3445,2026-11-16
+P00325,A0138,website,https://www.danieletavani.com,ORCID record https://orcid.org/0000-0002-2757-0439,2026-11-16
+P00326,A0143,website,https://github.com/marcoverpas,ORCID record https://orcid.org/0000-0001-7652-5952,2026-11-16
+P00327,A0220,website,https://francescosyloslabini.info/,ORCID record https://orcid.org/0000-0003-2236-4537,2026-11-16
+P00328,A0090,x,https://x.com/ettoregallo1,linked from https://www.ettoregallo.com,2026-11-16
+P00329,A0090,linkedin,https://www.linkedin.com/in/ettore-gallo,linked from https://www.ettoregallo.com,2026-11-16
+P00330,A0220,x,https://x.com/fsyloslab,linked from https://francescosyloslabini.info/,2026-11-16
+P00331,A0220,substack,https://francescosyloslabini.substack.com,linked from https://francescosyloslabini.info/,2026-11-16
+P00332,A0220,facebook,https://www.facebook.com/francesco.syloslabini,linked from https://francescosyloslabini.info/,2026-11-16
+P00333,A0220,linkedin,https://www.linkedin.com/in/francesco-sylos-labini-53641a256,linked from https://francescosyloslabini.info/,2026-11-16
+P00334,A0143,x,https://x.com/marco_v_p,linked from https://github.com/marcoverpas,2026-11-16
+P00335,A0143,linkedin,https://www.linkedin.com/in/marco-veronese-passarella-78214455,linked from https://github.com/marcoverpas,2026-11-16

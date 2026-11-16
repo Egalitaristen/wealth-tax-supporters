@@ -541,3 +541,14 @@ K00539,A0076,own_site,https://www.sabine-stueber.de/page2.php,2026-11-16,none,,
 K00540,A0095,own_site,https://www.thilo-hoppe.de/,2026-11-16,error,,"URLError: <urlopen error (""The certificate's CN name does not match the passed value."",)>"
 K00541,A0227,own_site,https://www.undine-kurth.de/,2026-11-16,none,,
 K00542,A0013,own_site,https://tamaramazzi.de,2026-11-16,found,youtube,"not added: tiktok https://www.tiktok.com/@tamaramazzi.mdb (chrome,social-block); tiktok https://www.tiktok.com/@tamarama109 (chrome,social-block); instagram https://www.instagram.com/tamaramazzi_mdb/ (chrome,social-block)"
+K00543,A0198,orcid,https://orcid.org/0000-0003-3174-4304,2026-11-16,none,,ORCID institution does not match: none listed
+K00544,A0255,orcid,,2026-11-16,none,,no single ORCID record with the name
+K00545,A0276,orcid,,2026-11-16,none,,several ORCID records with the name
+K00546,A0313,orcid,,2026-11-16,none,,no single ORCID record with the name
+K00547,A0315,orcid,https://orcid.org/0000-0002-0102-187X,2026-11-16,none,,ORCID institution does not match: none listed
+K00548,A0318,orcid,,2026-11-16,none,,no single ORCID record with the name
+K00549,A0319,orcid,https://orcid.org/0000-0002-5341-4640,2026-11-16,none,,ORCID institution does not match: none listed
+K00550,A0340,orcid,,2026-11-16,none,,no single ORCID record with the name
+K00551,A0353,orcid,https://orcid.org/0000-0002-0317-6859,2026-11-16,none,,ORCID institution does not match: University of Bremen
+K00552,A0370,orcid,https://orcid.org/0000-0002-5760-4652,2026-11-16,found,website,
+K00553,A0370,own_site,https://ucrisportal.univie.ac.at/en/persons/43135830-a6e3-4550-ad49-8356b68ceea3,2026-11-16,none,,

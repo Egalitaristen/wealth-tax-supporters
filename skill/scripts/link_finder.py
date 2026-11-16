@@ -11,6 +11,8 @@ Sources, each one a page that states the address itself (nothing is guessed from
   wikipedia  the supporter's English Wikipedia article (a profiles.csv row from Wikidata): the address in its "official website" template or
              the website field of its infobox.
   sitelinks  the same, in the other-language Wikipedia articles Wikidata links for the supporter (up to three, their own language first).
+  orcid      economists and academics: the researcher URL on the one ORCID record with their exact name, only when its institution matches
+             the supporter's affiliation.
   nber       economists and academics: nber.org/people/<first>_<last> when the page carries the person's name; the personal website and
              the RePEc profile it links, whose "homepage" field is read too.
 
@@ -38,9 +40,9 @@ def today():
     return dt.date.today().isoformat()
 
 
-def http(url, delay=1.0, as_json=False):
+def http(url, delay=1.0, as_json=False, accept=None):
     time.sleep(delay)
-    req = urllib.request.Request(url, headers={"User-Agent": UA})
+    req = urllib.request.Request(url, headers={"User-Agent": UA, **({"Accept": accept} if accept else {})})
     try:
         raw = urllib.request.urlopen(req, timeout=40).read()
     except urllib.error.HTTPError as e:
@@ -122,7 +124,7 @@ def targets(a, kinds):
                 continue
             if kinds["name"] == "wikipedia" and r["actor_id"] in wiki:
                 out.append((d.name, r, wiki[r["actor_id"]]))
-            elif kinds["name"] == "nber" and r["kind"] == "person" and types & TYPES_NBER:
+            elif kinds["name"] in ("nber", "orcid") and r["kind"] == "person" and types & TYPES_NBER:
                 out.append((d.name, r, ""))
             elif kinds["name"] == "sitelinks" and r.get("wikidata_qid") and r["actor_id"] not in wiki:
                 out.append((d.name, r, ""))
@@ -234,6 +236,36 @@ def nber_site(r):
     return "", "", "no NBER page"
 
 
+def orcid_site(r):
+    """The researcher URL on the one ORCID record with the supporter's exact name, when its institution matches the supporter's."""
+    parts = [x for x in re.sub(r"\(.*?\)", " ", r["name"]).split() if x.lower().strip(".") not in {"dr", "prof", "professor", "jr", "sr"}]
+    if len(parts) < 2:
+        return "", "", "no name"
+    q = urllib.parse.quote(f'given-names:"{parts[0]}" AND family-name:"{parts[-1]}"')
+    res = http("https://pub.orcid.org/v3.0/expanded-search/?q=" + q + "&rows=5", delay=0.4, as_json=True, accept="application/json")
+    if isinstance(res, str):
+        return "", "", res
+    found = (res or {}).get("expanded-result") or []
+    if len(found) != 1:
+        return "", "", "no single ORCID record with the name" if not found else "several ORCID records with the name"
+    rec = found[0]
+    orcid = rec["orcid-id"]
+    page = "https://orcid.org/" + orcid
+    words = lambda t: {w for w in fold(t).split() if len(w) >= 4 and w not in {"university", "universita", "universidad", "universite", "institute", "school", "department", "faculty", "college"}}
+    inst = set().union(*[words(i) for i in rec.get("institution-name", [])]) if rec.get("institution-name") else set()
+    mine = words(r.get("affiliation", "") + " " + r.get("role", ""))
+    if not inst or not (inst & mine):
+        return "", page, "ORCID institution does not match: " + ", ".join(rec.get("institution-name") or ["none listed"])
+    urls = http(f"https://pub.orcid.org/v3.0/{orcid}/researcher-urls", delay=0.4, as_json=True, accept="application/json")
+    if isinstance(urls, str):
+        return "", page, urls
+    for x in (urls or {}).get("researcher-url", []):
+        u = clean(x["url"]["value"])
+        if u:
+            return u, page, ""
+    return "", page, "record found, no website listed"
+
+
 def verified(site, r):
     """('ok'|'unread'|'no name', note): the site's home page, or its address, carries a word of the supporter's name."""
     sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
@@ -257,12 +289,12 @@ def verified(site, r):
 
 def main():
     ap = argparse.ArgumentParser(description=__doc__, formatter_class=argparse.RawDescriptionHelpFormatter)
-    ap.add_argument("source", choices=["wikipedia", "sitelinks", "nber"])
+    ap.add_argument("source", choices=["wikipedia", "sitelinks", "nber", "orcid"])
     ap.add_argument("--country")
     ap.add_argument("--limit", type=int, default=0)
     ap.add_argument("--dry-run", action="store_true")
     a = ap.parse_args()
-    kinds = {"name": a.source, "method": {"wikipedia": "wikipedia", "sitelinks": "wikipedia_langs"}.get(a.source, "directory")}
+    kinds = {"name": a.source, "method": {"wikipedia": "wikipedia", "sitelinks": "wikipedia_langs", "orcid": "orcid"}.get(a.source, "directory")}
     items = targets(a, kinds)
     if a.limit:
         items = items[:a.limit]
@@ -281,8 +313,9 @@ def main():
             site, page = found.get(k, ("", ""))
             results[k] = (site, page, "" if site else "no official website in the articles in other languages")
     else:
+        fn = orcid_site if a.source == "orcid" else nber_site
         for n, (cc, r, _) in enumerate(items, 1):
-            results[(cc, r["actor_id"])] = nber_site(r)
+            results[(cc, r["actor_id"])] = fn(r)
             if n % 25 == 0:
                 print(f"  nber {n}/{len(items)}", flush=True)
     by_cc = collections.defaultdict(list)
@@ -309,7 +342,7 @@ def main():
                 continue
             if site:
                 profiles.append(dict(profile_id=wtdb.next_id(profiles, "profiles"), actor_id=r["actor_id"], platform="website", url=site,
-                                     source=("NBER people page " if a.source == "nber" else "Wikipedia ") + page, checked=today()))
+                                     source={"nber": "NBER people page ", "orcid": "ORCID record "}.get(a.source, "Wikipedia ") + page, checked=today()))
             checks.append(dict(check_id=wtdb.next_id(checks, "profile_checks"), actor_id=r["actor_id"], method=kinds["method"], url=page or "",
                                checked=today(), result="found" if site else "none", found="website" if site else "", note=note[:300]))
         if not a.dry_run:

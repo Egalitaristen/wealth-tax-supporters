@@ -22,3 +22,8 @@ K00020,A0002,own_site,https://asadumar.pk/,2026-11-16,found,instagram,"already l
 K00021,A0001,wikipedia_langs,,2026-11-16,none,,no official website in the articles in other languages
 K00022,A0004,wikipedia_langs,,2026-11-16,none,,no official website in the articles in other languages
 K00023,A0015,wikipedia_langs,,2026-11-16,none,,no official website in the articles in other languages
+K00024,A0003,orcid,,2026-11-16,none,,no single ORCID record with the name
+K00025,A0004,orcid,,2026-11-16,none,,several ORCID records with the name
+K00026,A0010,orcid,,2026-11-16,none,,no single ORCID record with the name
+K00027,A0011,orcid,https://orcid.org/0000-0001-6343-0364,2026-11-16,none,,ORCID institution does not match: none listed
+K00028,A0014,orcid,https://orcid.org/0000-0002-5372-9036,2026-11-16,none,,"record found, no website listed"

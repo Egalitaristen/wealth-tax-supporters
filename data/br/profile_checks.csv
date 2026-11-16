@@ -312,3 +312,6 @@ K00310,A0212,own_site,https://www.nualaahern.com/,2026-11-16,error,,URLError: <u
 K00311,A0147,own_site,https://www.josiasgomes.com.br,2026-11-16,found,x;facebook;instagram,
 K00312,A0106,own_site,https://www2.camara.leg.br/deputados/pesquisa/layouts_deputados_biografia?pk=74060,2026-11-16,blocked,,429 at https://www2.camara.leg.br/deputados/pesquisa/layouts_deputados_biografia?pk=74060
 K00313,A0028,own_site,https://www.moses.com.br,2026-11-16,error,,URLError: <urlopen error [Errno 11002] getaddrinfo failed>
+K00314,A0250,orcid,https://orcid.org/0000-0001-7496-7247,2026-11-16,none,,ORCID institution does not match: Universidade Estadual de Campinas
+K00315,A0267,orcid,,2026-11-16,none,,several ORCID records with the name
+K00316,A0271,orcid,,2026-11-16,none,,several ORCID records with the name

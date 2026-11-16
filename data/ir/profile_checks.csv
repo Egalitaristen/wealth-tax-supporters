@@ -12,3 +12,10 @@ K00010,A0001,wikipedia_langs,,2026-11-16,none,,no official website in the articl
 K00011,A0002,wikipedia_langs,,2026-11-16,none,,no official website in the articles in other languages
 K00012,A0008,wikipedia_langs,,2026-11-16,none,,no official website in the articles in other languages
 K00013,A0009,wikipedia_langs,,2026-11-16,none,,no official website in the articles in other languages
+K00014,A0001,orcid,https://orcid.org/0000-0002-9783-7725,2026-11-16,found,website,
+K00015,A0003,orcid,https://orcid.org/0000-0002-3578-5229,2026-11-16,none,,ORCID institution does not match: none listed
+K00016,A0006,orcid,,2026-11-16,none,,several ORCID records with the name
+K00017,A0007,orcid,,2026-11-16,none,,no single ORCID record with the name
+K00018,A0008,orcid,,2026-11-16,none,,no single ORCID record with the name
+K00019,A0009,orcid,,2026-11-16,none,,no single ORCID record with the name
+K00020,A0001,own_site,https://staff.alzahra.ac.ir/h-raghfar,2026-11-16,error,,URLError: <urlopen error [WinError 10061] No connection could be made because the target m

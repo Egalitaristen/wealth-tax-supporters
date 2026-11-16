@@ -124,7 +124,7 @@ ENUMS = {
     ("profiles", "platform"): {"website", "official_page", "x", "bluesky", "mastodon", "instagram", "facebook",
                                "youtube", "tiktok", "linkedin", "substack", "wikipedia"},
     ("harvest", "status"): {"queued", "in_progress", "done", "failed"},
-    ("profile_checks", "method"): {"own_site", "own_site_browser", "wikidata", "wikipedia", "wikipedia_langs", "directory", "parliament_page", "manual_search"},
+    ("profile_checks", "method"): {"own_site", "own_site_browser", "wikidata", "wikipedia", "wikipedia_langs", "orcid", "directory", "parliament_page", "manual_search"},
     ("profile_checks", "result"): {"found", "none", "blocked", "no_site", "error"},
     ("exclusions", "reason"): {"out_of_definition", "pre_2010_only", "deceased", "private_individual", "opposes",
                                "insufficient_evidence", "duplicate"},

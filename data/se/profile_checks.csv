@@ -144,3 +144,7 @@ K00142,A0006,own_site,https://hanslinde.v-blog.se/,2026-11-16,error,,URLError: <
 K00143,A0004,own_site,https://www.riksdagen.se/sv/ledamoter-partier/Hitta-ledamot/Ledamoter/Ohly-Lars-0371688419616/,2026-11-16,error,,404 at https://www.riksdagen.se/sv/ledamoter-partier/Hitta-ledamot/Ledamoter/Ohly-Lars-0371688419616/
 K00144,A0053,own_site,https://malmo.vansterpartiet.se/2014/01/24/malmoprofilen-daniel-sestrajcic-till-riksdagen/,2026-11-16,error,,404 at https://malmo.vansterpartiet.se/2014/01/24/malmoprofilen-daniel-sestrajcic-till-riksdagen/
 K00145,A0030,own_site,https://mp.se/templates/mct_77.aspx?number=26635&avdnr=11913,2026-11-16,error,,404 at https://mp.se/templates/mct_77.aspx?number=26635&avdnr=11913
+K00146,A0035,orcid,,2026-11-16,none,,no single ORCID record with the name
+K00147,A0063,orcid,,2026-11-16,none,,several ORCID records with the name
+K00148,A0065,orcid,,2026-11-16,none,,no single ORCID record with the name
+K00149,A0066,orcid,,2026-11-16,none,,no single ORCID record with the name
