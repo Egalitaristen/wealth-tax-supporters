@@ -314,3 +314,11 @@ P00332,A0220,facebook,https://www.facebook.com/francesco.syloslabini,linked from
 P00333,A0220,linkedin,https://www.linkedin.com/in/francesco-sylos-labini-53641a256,linked from https://francescosyloslabini.info/,2026-11-16
 P00334,A0143,x,https://x.com/marco_v_p,linked from https://github.com/marcoverpas,2026-11-16
 P00335,A0143,linkedin,https://www.linkedin.com/in/marco-veronese-passarella-78214455,linked from https://github.com/marcoverpas,2026-11-16
+P00336,A0049,official_page,https://www.uniba.it/it/docenti/viesti-gianfranco,"web search: University of Bari staff page; opened, full professor of Economia Applicata.",2026-11-16
+P00337,A0072,official_page,https://www.uniba.it/it/docenti/cirillo-valeria,"web search: Uniba staff page seen in search (Valeria Cirillo, political economy, Bari); fetch hit a bot check.",2026-11-16
+P00338,A0302,website,https://www.fondazioneecosistemi.org/,"web search: Guessed the domain from the organisation name (own guess, after search was rate-limited); opened it and confirmed the logo and content are Fondazione Ecosistemi, green public procurement.",2026-11-16
+P00339,A0049,official_page,https://www.uniba.it/it/docenti/viesti-gianfranco/attivita-didattica,"web search: Found via search of uniba.it staff pages (Professore ordinario di Economia Applicata, Bari); the staff root page was blocked by a bot check so only the search snippet confirms it; no personal site fou",2026-11-16
+P00340,A0300,website,https://www.comunitadicapodarco.it,"web search: Own guess of the obvious domain from the name; opened it, footer says Comunità di Capodarco, Associazione Nazionale fondata nel 1966, Capodarco di Fermo.",2026-11-16
+P00341,A0302,facebook,https://www.facebook.com/fondazionecosistemi,linked from https://www.fondazioneecosistemi.org/,2026-11-16
+P00342,A0302,x,https://x.com/ecosistemi_,linked from https://www.fondazioneecosistemi.org/,2026-11-16
+P00343,A0302,youtube,https://www.youtube.com/channel/UCyy364qDGQdRh-fiGEWn1XA,linked from https://www.fondazioneecosistemi.org/,2026-11-16

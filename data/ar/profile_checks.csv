@@ -332,3 +332,15 @@ K00330,A0043,orcid,,2026-11-16,none,,no single ORCID record with the name
 K00331,A0047,orcid,https://orcid.org/0000-0001-9308-1732,2026-11-16,none,,"ORCID institution does not match: Consejo Nacional de Investigaciones Científicas y Técnicas, Fundación Konex, Latin American Studies Association, National Secretary of Culture, Princeton University, Universidad Nacional de San Martín, Universidad de Buenos Aires, Universidad de Buenos Aires Faculta"
 K00332,A0048,orcid,,2026-11-16,none,,several ORCID records with the name
 K00333,A0221,orcid,,2026-11-16,none,,no single ORCID record with the name
+K00334,A0154,manual_search,,2026-11-16,none,,No own site or official page confirmed.
+K00335,A0137,manual_search,,2026-11-16,none,,No own site or official page confirmed.
+K00336,A0118,manual_search,,2026-11-16,none,,No own site or official page confirmed.
+K00337,A0037,manual_search,,2026-11-16,none,,No own site or official page confirmed.
+K00338,A0072,manual_search,,2026-11-16,none,,No own site or official page confirmed.
+K00339,A0109,manual_search,,2026-11-16,none,,No official site found.
+K00340,A0154,manual_search,,2026-11-16,none,,No personal site found; the HCDN profile address seen on Wikipedia could not be opened (connection reset) so identity was not confirmed.
+K00341,A0137,manual_search,,2026-11-16,none,,Searches found only Wikipedia and bill PDFs; no own site or HCDN profile page located.
+K00342,A0118,manual_search,,2026-11-16,none,,Search confirmed she was a Cordoba Federal deputy (2019-2021) but found no own site or current official page.
+K00343,A0037,manual_search,,2026-11-16,none,,Two searches for CTA San Nicolás found no own site; only national CTA documents.
+K00344,A0072,manual_search,,2026-11-16,none,,"Chamber of Deputies page hcdn.gob.ar/diputados/dbrue cited in a search but could not be opened (connection reset), so not confirmed; no own site found."
+K00345,A0109,manual_search,,2026-11-16,none,,"No own site found; Wikipedia links the Chamber profile (diputados.gov.ar/diputados/sigon) but I could not open it to confirm, so not returned."

@@ -518,3 +518,23 @@ K00516,A0209,parliament_page,Câmara dos Deputados API (74041),2026-11-16,none,,
 K00517,A0210,parliament_page,Câmara dos Deputados API (178887),2026-11-16,found,instagram;youtube,
 K00518,A0118,parliament_page,Câmara dos Deputados API (825),2026-11-16,none,,
 K00519,A0089,own_site,https://gabinetona.org/,2026-11-16,blocked,,robots.txt forbids https://gabinetona.org/
+K00520,A0199,manual_search,https://www.camara.leg.br/deputados/220555,2026-11-16,found,official_page,"Câmara page opened: Daiana Santos, PCdoB, Rio Grande do Sul."
+K00521,A0269,manual_search,https://www.opovo.com.br,2026-11-16,found,website,"Opened; O POVO newspaper, Fortaleza/Ceara coverage."
+K00522,A0134,manual_search,https://www.camara.leg.br/deputados/141464,2026-11-16,found,official_page,"Camara dos Deputados page opened: Jose Airton Felix Cirilo, PT-CE."
+K00523,A0018,manual_search,https://www.camara.leg.br/deputados/141421,2026-11-16,found,official_page,"Opened Camara page: Eduardo da Fonte, PP-PE."
+K00524,A0246,manual_search,https://www.pdt.org.br,2026-11-16,none,,"rejected https://www.pdt.org.br: the page's title and headings do not carry the name; Opened; 'Home - PDT', Partido Democratico Trabalhista; domain listed by TSE."
+K00525,A0272,manual_search,,2026-11-16,none,,
+K00526,A0182,manual_search,https://www.camara.leg.br/deputados/220687,2026-11-16,found,official_page,"Opened Camara page: Marcio Honaiser, MA; now listed under Solidariedade, not PDT."
+K00527,A0199,own_site,https://www.camara.leg.br/deputados/220555,2026-11-16,none,,"not added: facebook https://www.facebook.com/camaradeputados (chrome); x https://x.com/camaradeputados (chrome); youtube https://www.youtube.com/channel/UC-ZkSRh-7UEuwXJQ9UMCFJA (chrome); tiktok https://www.tiktok.com/@camaradosdeputados (chrome); instagram https://www.instagram.com/camaradosdeputados/ (chrome; already listed: facebook,x"
+K00528,A0018,own_site,https://www.camara.leg.br/deputados/141421,2026-11-16,blocked,,429 at https://www.camara.leg.br/deputados/141421
+K00529,A0134,own_site,https://www.camara.leg.br/deputados/141464,2026-11-16,blocked,,429 at https://www.camara.leg.br/deputados/141464
+K00530,A0269,own_site,https://www.opovo.com.br,2026-11-16,none,,
+K00531,A0182,own_site,https://www.camara.leg.br/deputados/220687,2026-11-16,found,youtube;tiktok,"not added: x https://x.com/camaradeputados (chrome); facebook https://www.facebook.com/camaradeputados (chrome); youtube https://www.youtube.com/channel/UC-ZkSRh-7UEuwXJQ9UMCFJA (chrome); tiktok https://www.tiktok.com/@camaradosdeputados (chrome); instagram https://www.instagram.com/camaradosdeputados/ (chrome; already listed: x,facebook"
+K00532,A0199,manual_search,https://www.camara.leg.br/deputados/220555,2026-11-16,found,official_page,"Address taken from a search-result summary citing the Câmara biography; opened it and it shows Daiana Santos, PCdoB-RS; no personal website listed."
+K00533,A0269,manual_search,https://www.opovo.com.br/,2026-11-16,found,website,Address was my own guess from the newspaper name; opened it and confirmed it is the Ceara daily newspaper O POVO (Fortaleza-area news).
+K00534,A0134,manual_search,https://www.camara.leg.br/deputados/141464?ano=2019,2026-11-16,found,official_page,Câmara dos Deputados page seen in search result; name and PT-CE match; no personal site found.
+K00535,A0018,manual_search,https://www.camara.leg.br/deputados/141421,2026-11-16,found,official_page,"Found via Camara open-data API search by name (id 141421), then opened the page: name, PP, PE agree; no personal website field listed, so official Camara profile only."
+K00536,A0246,manual_search,https://www.pdt.org.br,2026-11-16,found,website,"Address was my own guess from the acronym (pdt.org.br); opened it, homepage is the PDT party site with national headquarters in Brasilia in the footer and party news."
+K00537,A0272,manual_search,,2026-11-16,none,,Searches found only Brasil de Fato columns; guessed domain did not resolve; no own site confirmed.
+K00538,A0182,manual_search,https://www.camara.leg.br/deputados/220687,2026-11-16,found,official_page,"page not readable by our reader (ERR 429); identity from the title the agent saw: Deputado Federal Márcio Honaiser - Portal da Câmara dos Deputados; Found via search; Câmara page confirms name and mandate 2023-2027 (page now lists party Solidariedade, entry says PDT). No personal site field."
+K00539,A0246,own_site,https://www.pdt.org.br,2026-11-16,found,x;instagram;facebook;youtube;tiktok,"CHECK no added handle carries the name: the site may host several groups, or belong to a parent."

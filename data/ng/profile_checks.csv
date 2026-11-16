@@ -32,3 +32,7 @@ K00030,A0025,orcid,,2026-11-16,none,,no single ORCID record with the name
 K00031,A0033,orcid,,2026-11-16,none,,no single ORCID record with the name
 K00032,A0054,orcid,https://orcid.org/0000-0001-9698-2157,2026-11-16,found,website,
 K00033,A0054,own_site,https://www.cardiffmet.ac.uk/management/staff/Pages/Dr-Nasir-Aminu.aspx,2026-11-16,error,,404 at https://www.cardiffmet.ac.uk/management/staff/Pages/Dr-Nasir-Aminu.aspx
+K00034,A0019,manual_search,,2026-11-16,none,,No own site or official page confirmed.
+K00035,A0018,manual_search,,2026-11-16,none,,
+K00036,A0019,manual_search,,2026-11-16,none,,Only Oxfam author/report pages (employer) and an academia.edu page found; no own site.
+K00037,A0018,manual_search,,2026-11-16,none,,"Only a short bio on a tax-and-gender site found, without TJNA link; no own or TJNA staff page confirmed."

@@ -124,3 +124,5 @@ P00123,A0004,facebook,https://www.facebook.com/krainer.jan,linked from https://j
 P00124,A0004,instagram,https://www.instagram.com/easy.cheesy.krainer/,linked from https://jan-krainer.at/,2026-11-16
 P00125,A0040,facebook,https://www.facebook.com/sabine.schatz,linked from https://www.sabineschatz.at/,2026-11-16
 P00126,A0040,x,https://x.com/SabineSchatz,linked from https://www.sabineschatz.at/,2026-11-16
+P00127,A0015,official_page,https://www.parlament.gv.at/person/14844,"web search: Parliament page opened: Dr. Christoph Matznetter, SPÖ; its listed own site matznetter.at would not load.",2026-11-16
+P00128,A0015,official_page,https://www.parlament.gv.at/WWER/PAD_14844/index.shtml,"web search: Parliament member page found by search; it lists matznetter.at as his website, but that address redirects to the SWV Österreich site (organisation, not personal), so the parliament profile is returned",2026-11-16

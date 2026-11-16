@@ -173,3 +173,20 @@ K00171,A0032,parliament_page,Parlament.ch web service (4270),2026-11-16,none,,
 K00172,A0038,parliament_page,Parlament.ch web service (491),2026-11-16,none,,
 K00173,A0059,parliament_page,Parlament.ch web service (4283),2026-11-16,found,website,
 K00174,A0075,parliament_page,Parlament.ch web service (4224),2026-11-16,none,,
+K00175,A0154,manual_search,https://www.vd.ch/gc/depute-e-s/membre-du-grand-conseil/membre/601871,2026-11-16,none,,"rejected https://www.vd.ch/gc/depute-e-s/membre-du-grand-conseil/membre/601871: the page does not carry the name; Vaud Grand Conseil page opened: Denis Corboz, Groupe Socialiste."
+K00176,A0111,manual_search,https://gruene-sg.ch,2026-11-16,found,website,"Opened: Home - GRÜNE Kanton St.Gallen, the cantonal Green party."
+K00177,A0089,manual_search,https://www.gbkz.ch,2026-11-16,found,website,Opened homepage; title 'GBKZ - Gewerkschaftsbund des Kantons Zuerich'.
+K00178,A0146,manual_search,https://www.vd.ch/gc/depute-e-s/membre-du-grand-conseil/membre/90714,2026-11-16,none,,"rejected https://www.vd.ch/gc/depute-e-s/membre-du-grand-conseil/membre/90714: the page does not carry the name; Opened Grand Conseil vaudois page: Yves Paccaud, PS group, Morges."
+K00179,A0166,manual_search,https://www.vd.ch/gc/depute-e-s/membre-du-grand-conseil/membre/648244,2026-11-16,none,,"rejected https://www.vd.ch/gc/depute-e-s/membre-du-grand-conseil/membre/648244: the page does not carry the name; Opened Grand Conseil vaudois page: Pierre Conscience, Ensemble a Gauche et POP, Lausanne."
+K00180,A0089,own_site,https://www.gbkz.ch,2026-11-16,found,facebook;x,"CHECK no added handle carries the name: the site may host several groups, or belong to a parent."
+K00181,A0111,own_site,https://gruene-sg.ch,2026-11-16,found,facebook;x;instagram,
+K00182,A0076,own_site,https://www.weichelt.ch,2026-11-16,found,facebook;instagram;x,
+K00183,A0059,own_site,https://www.franziskaroth.ch,2026-11-16,found,linkedin;facebook;instagram,
+K00184,A0154,manual_search,https://www.vd.ch/gc/depute-e-s/membre-du-grand-conseil/membre/601871,2026-11-16,found,official_page,"page not readable by our reader (ERR 403); identity from the title the agent saw: Denis Corboz, membre du Grand Conseil | État de Vaud; Found by search; official Grand Conseil page shows Denis Corboz, Groupe socialiste (SOC), Lausanne; no personal site found."
+K00185,A0111,manual_search,https://www.gruene-sg.ch,2026-11-16,found,website,"Address was my own guess (suggested from memory after a failed search); opened it and the footer reads GRÜNE Kanton St.Gallen, Postfach 9001 St.Gallen."
+K00186,A0089,manual_search,https://www.gbkz.ch,2026-11-16,found,website,"Own guess of domain from acronym; opened it, header and address (Stauffacherstrasse 60, 8004 Zürich) match the Zurich cantonal union federation."
+K00187,A0146,manual_search,https://www.vd.ch/gc/depute-e-s/membre-du-grand-conseil/id/90714,2026-11-16,found,official_page,"page not readable by our reader (ERR 403); identity from the title the agent saw: Yves Paccaud, membre du Grand Conseil; Found in a search of the name plus Vaud; opened the official Grand Conseil page: Yves Paccaud, Morges, group SOC, retired teacher. No personal website listed."
+K00188,A0166,manual_search,https://www.vd.ch/gc/depute-e-s/membre-du-grand-conseil/membre/648244,2026-11-16,found,official_page,"page not readable by our reader (ERR 403); identity from the title the agent saw: Pierre Conscience, membre du Grand Conseil; Found via search; opened Grand Conseil vaudois page: Groupe Ensemble à Gauche et POP (EP). No personal site listed."
+K00189,A0166,own_site,https://www.vd.ch/gc/depute-e-s/membre-du-grand-conseil/membre/648244,2026-11-16,blocked,,403 at https://www.vd.ch/gc/depute-e-s/membre-du-grand-conseil/membre/648244
+K00190,A0154,own_site,https://www.vd.ch/gc/depute-e-s/membre-du-grand-conseil/membre/601871,2026-11-16,blocked,,403 at https://www.vd.ch/gc/depute-e-s/membre-du-grand-conseil/membre/601871
+K00191,A0146,own_site,https://www.vd.ch/gc/depute-e-s/membre-du-grand-conseil/id/90714,2026-11-16,blocked,,403 at https://www.vd.ch/gc/depute-e-s/membre-du-grand-conseil/id/90714

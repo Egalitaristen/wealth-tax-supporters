@@ -60,3 +60,9 @@ K00058,A0002,orcid,,2026-11-16,none,,no single ORCID record with the name
 K00059,A0044,orcid,,2026-11-16,none,,no single ORCID record with the name
 K00060,A0047,orcid,https://orcid.org/0009-0006-8326-554X,2026-11-16,none,,ORCID institution does not match: Universidad César Vallejo
 K00061,A0059,orcid,https://orcid.org/0000-0002-6326-456X,2026-11-16,none,,ORCID institution does not match: none listed
+K00062,A0030,manual_search,,2026-11-16,none,,No own site or official page confirmed.
+K00063,A0038,manual_search,https://lmnd.or.id,2026-11-16,none,,"rejected https://lmnd.or.id: the page's title and headings do not carry the name; Opened; 'Microsite LMND', organisation named Liga Mahasiswa Nasional untuk Demokrasi."
+K00064,A0030,manual_search,https://aksiforjustice.org,2026-11-16,found,website,"Address listed as the organisation's website on Climate Justice Map (seen in search); opened it: page has an 'About Aksi! for gender, social and ecological justice' section."
+K00065,A0038,manual_search,https://lmnd.or.id,2026-11-16,found,website,"Own guess of domain from acronym (search was rate-limited); opened it, page headed Microsite LMND and names Liga Mahasiswa Nasional untuk Demokrasi."
+K00066,A0038,own_site,https://lmnd.or.id,2026-11-16,none,,
+K00067,A0030,own_site,https://aksiforjustice.org,2026-11-16,none,,

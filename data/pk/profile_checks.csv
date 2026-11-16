@@ -27,3 +27,5 @@ K00025,A0004,orcid,,2026-11-16,none,,several ORCID records with the name
 K00026,A0010,orcid,,2026-11-16,none,,no single ORCID record with the name
 K00027,A0011,orcid,https://orcid.org/0000-0001-6343-0364,2026-11-16,none,,ORCID institution does not match: none listed
 K00028,A0014,orcid,https://orcid.org/0000-0002-5372-9036,2026-11-16,none,,"record found, no website listed"
+K00029,A0017,manual_search,,2026-11-16,none,,No own site or official page confirmed.
+K00030,A0017,manual_search,,2026-11-16,none,,Two searches found no confirmed own domain (pkrc.org.pk was only a guess and did not appear in results).

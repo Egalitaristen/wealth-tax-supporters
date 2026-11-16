@@ -327,3 +327,6 @@ K00325,A0150,orcid,,2026-11-16,none,,several ORCID records with the name
 K00326,A0209,orcid,,2026-11-16,none,,several ORCID records with the name
 K00327,A0210,orcid,https://orcid.org/0000-0001-5691-9807,2026-11-16,none,,ORCID institution does not match: University of Łódź
 K00328,A0305,orcid,https://orcid.org/0009-0009-4325-3220,2026-11-16,none,,ORCID institution does not match: University of Warsaw
+K00329,A0029,manual_search,,2026-11-16,none,,No own site or official page confirmed.
+K00330,A0029,manual_search,https://www.europarl.europa.eu/meps/en/197496/MAREK_BELKA/home,2026-11-16,found,official_page,"page not readable by our reader (ERR 403); identity from the title the agent saw: 9th parliamentary term | Marek BELKA | MEPs | European Parliament; MEP id taken from parltrack in a search result; the address was my own construction. Opened it: Marek Belka, Poland, S&D group. No personal site found."
+K00331,A0029,own_site,https://www.europarl.europa.eu/meps/en/197496/MAREK_BELKA/home,2026-11-16,blocked,,403 at https://www.europarl.europa.eu/meps/en/197496/MAREK_BELKA/home

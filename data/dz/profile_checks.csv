@@ -44,3 +44,7 @@ K00042,A0043,orcid,,2026-11-16,none,,no single ORCID record with the name
 K00043,A0044,orcid,,2026-11-16,none,,no single ORCID record with the name
 K00044,A0046,orcid,,2026-11-16,none,,no single ORCID record with the name
 K00045,A0049,orcid,,2026-11-16,none,,no single ORCID record with the name
+K00046,A0041,manual_search,,2026-11-16,none,,No own site or official page confirmed.
+K00047,A0036,manual_search,,2026-11-16,none,,No own site or official page confirmed.
+K00048,A0041,manual_search,,2026-11-16,none,,"Searched name + DGI role; only news articles found, no own site or official page."
+K00049,A0036,manual_search,,2026-11-16,none,,Search returned no page for this name.

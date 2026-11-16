@@ -847,3 +847,17 @@ K00845,A0513,orcid,,2026-11-16,none,,no single ORCID record with the name
 K00846,A0530,orcid,,2026-11-16,none,,several ORCID records with the name
 K00847,A0739,orcid,,2026-11-16,none,,several ORCID records with the name
 K00848,A0887,orcid,https://orcid.org/0009-0004-5016-2689,2026-11-16,none,,ORCID institution does not match: Centenary College of Louisiana
+K00849,A0817,manual_search,https://womensmarch.com,2026-11-16,found,website,"Opened: Women's March - Our Feminist Future, national organisation."
+K00850,A0431,manual_search,https://www.nysenate.gov/senators/kevin-s-parker,2026-11-16,none,,"rejected https://www.nysenate.gov/senators/kevin-s-parker: the page does not carry the name; Official NY Senate member page for Kevin S. Parker (SD21, Democrat); no own site opened."
+K00851,A0765,manual_search,https://cwa-union.org/,2026-11-16,found,website,"Homepage opened; it is the Communications Workers of America national union site, Washington DC."
+K00852,A0635,manual_search,,2026-11-16,none,,pstreet.org is an empty site-builder page that does not identify the organisation; not confident.
+K00853,A0600,manual_search,https://housedemocrats.wa.gov/mena/,2026-11-16,found,official_page,"Official WA House Democrats page, opened: Sharlett Mena, D-Tacoma, 29th Legislative District."
+K00854,A0817,own_site,https://womensmarch.com,2026-11-16,found,facebook;instagram;tiktok;bluesky;youtube,
+K00855,A0765,own_site,https://cwa-union.org/,2026-11-16,found,facebook;bluesky;instagram;tiktok,"CHECK no added handle carries the name: the site may host several groups, or belong to a parent."
+K00856,A0600,own_site,https://housedemocrats.wa.gov/mena/,2026-11-16,found,facebook,"not added: bluesky https://bsky.app/profile/housedemocrats.wa.gov (chrome,rel-me,social-block); facebook https://www.facebook.com/wahousedems (chrome,rel-me,social-block); instagram https://www.instagram.com/wahousedems/ (chrome,rel-me,social-block); youtube https://www.youtube.com/user/WAHouseDems (chrome,rel"
+K00857,A0817,manual_search,https://www.womensmarch.com/,2026-11-16,found,website,"Search result named womensmarch.com; opened it and confirmed Women's March national organisation, footer (c) 2026 Women's March."
+K00858,A0431,manual_search,https://www.nysenate.gov/senators/kevin-s-parker,2026-11-16,found,official_page,"page not readable by our reader (ERR 403); identity from the title the agent saw: Senator Kevin S. Parker; Found via search for nysenate.gov; official NY State Senate member page, no personal site listed; Brooklyn SD21 Democrat matches."
+K00859,A0765,manual_search,https://cwa-union.org,2026-11-16,found,website,"Address from search-tool recollection, opened it; footer reads Communications Workers of America, AFL-CIO, CLC, Washington DC."
+K00860,A0635,manual_search,,2026-11-16,none,,"Guessed pstreet.org opened (title 'P Street', GoDaddy site) but page has no content tying it to the progressive lobbying group (PCCC arm); identity unconfirmed."
+K00861,A0600,manual_search,https://housedemocrats.wa.gov/mena/,2026-11-16,found,official_page,"Found via search; House Democratic Caucus member page, opened and confirmed 29th LD Tacoma, Democrat; no personal campaign site listed."
+K00862,A0431,own_site,https://www.nysenate.gov/senators/kevin-s-parker,2026-11-16,blocked,,403 at https://www.nysenate.gov/senators/kevin-s-parker
