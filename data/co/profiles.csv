@@ -377,3 +377,63 @@ P00375,A0036,facebook,https://www.facebook.com/abeldavidjaramillolargo,linked fr
 P00376,A0068,x,https://x.com/IvanAgudeloZ,linked from https://ivandarioagudeloz.wordpress.com/,2026-11-16
 P00377,A0068,facebook,https://www.facebook.com/IvanDarioAgudeloZapata,linked from https://ivandarioagudeloz.wordpress.com/,2026-11-16
 P00378,A0068,instagram,https://www.instagram.com/ivandarioagudelozapata/,linked from https://ivandarioagudeloz.wordpress.com/,2026-11-16
+P00379,A0094,website,https://lidiogarcia.com/,web search: Found via search and fetched (200 OK); H1 and content confirm Colombian Liberal Party senator Lidio Garcia Turbay.,2026-11-16
+P00380,A0098,official_page,https://www.partidocambioradical.org/informe-de-gestion-senador-richard-aguilar/,web search: Found via search on Cambio Radical party site (richardaguilarvilla.com failed DNS); fetched (200 OK) and confirmed Senator Richard Aguilar.,2026-11-16
+P00381,A0105,website,https://lilianabenavides.com/,"web search: Found via search and fetched (200 OK); page content confirms Partido Conservador senator Liliana Benavides (Guaitarilla, Chamber, Senate).",2026-11-16
+P00382,A0107,website,https://germanblanco.co/,web search: Found via search and fetched (200 OK); page content confirms Colombian senator German Blanco.,2026-11-16
+P00383,A0109,website,https://jairocastellanos.com/,web search: Found via search and fetched (200 OK); title and content confirm Colombian senator Jairo Alberto Castellanos.,2026-11-16
+P00384,A0117,website,https://alfredodeluque.co/,web search: Found via search and fetched (200 OK); page content confirms Colombian senator Alfredo Deluque.,2026-11-16
+P00385,A0119,website,https://www.julioeliasvidal.com/,web search: Found via search and fetched (200 OK); title and content confirm Colombian senator Julio Alberto Elias Vidal.,2026-11-16
+P00386,A0123,website,https://juancarlosgarcesrojas.org/,web search: Found via search and fetched over HTTP (200 OK); title and content confirm Partido de la U senator Juan Carlos Garces Rojas.,2026-11-16
+P00387,A0124,official_page,https://candidatos2026.partidomira.com/candidatos2026/perfil/carlos-eduardo-guevara,web search: Found via search on Partido MIRA site (carlosguevara.co failed DNS); fetched (200 OK) and confirmed Senator Carlos Eduardo Guevara.,2026-11-16
+P00388,A0125,website,https://esmeraldahernandez.com/,web search: Found via search and fetched (200 OK); page content confirms Colombian senator Esmeralda Hernandez.,2026-11-16
+P00389,A0129,website,https://marthaperalta.com/,web search: Found via search and fetched (200 OK); title and content confirm Colombian senator Martha Peralta Epieyu.,2026-11-16
+P00390,A0132,official_page,https://www.secretariasenado.gov.co/53-senadores-2022-2026/1713-jonathan-ferney-pulido-hernandez,web search: page not readable by our reader (ERR URLError); identity from the title the agent saw: JONATHAN FERNEY PULIDO HERNANDEZ; Official Senate of Colombia profile page; confirmed exact name and Senator role on secretariasenado.gov.co.,2026-11-16
+P00391,A0133,website,https://jahelquiroga.com/,"web search: Personal official website found in search results; confirmed name, Senator role, and human rights defender bio on page.",2026-11-16
+P00392,A0135,official_page,https://secretariasenado.gov.co/senadores/53-senadores-2022-2026/1687-paulino-riascos,web search: page not readable by our reader (ERR URLError); identity from the title the agent saw: PAULINO RIASCOS; Official Senate of Colombia profile page; confirmed Senator identity and Pacto Histórico affiliation via search and page.,2026-11-16
+P00393,A0136,official_page,https://www.secretariasenado.gov.co/senadores/53-senadores-2022-2026/1698-john-jairo-roldan-avendano,web search: page not readable by our reader (ERR URLError); identity from the title the agent saw: JOHN JAIRO ROLDAN AVENDAÑO; Official Senate of Colombia profile page; confirmed exact name and Senator role on secretariasenado.gov.co.,2026-11-16
+P00394,A0137,official_page,https://secretariasenado.gov.co/senadores/53-senadores-2022-2026/1689-polivio-leandro-rosales-cadena,web search: page not readable by our reader (ERR URLError); identity from the title the agent saw: POLIVIO LEANDRO ROSALES CADENA; Official Senate of Colombia profile page; confirmed exact name and Senator role on secretariasenado.gov.co.,2026-11-16
+P00395,A0138,official_page,https://secretariasenado.gov.co/senadores/53-senadores-2022-2026/1725-soledad-tamayo-tamayo,web search: page not readable by our reader (ERR URLError); identity from the title the agent saw: SOLEDAD TAMAYO TAMAYO; Official Senate of Colombia profile page; confirmed exact name and Senator role on secretariasenado.gov.co.,2026-11-16
+P00396,A0139,official_page,https://secretariasenado.gov.co/senadores/53-senadores-2022-2026/1470-carlos-andres-trujillo-gonzalez,web search: page not readable by our reader (ERR URLError); identity from the title the agent saw: CARLOS ANDRES TRUJILLO GONZALEZ; Official Senate of Colombia profile page; confirmed exact name and Senator role on secretariasenado.gov.co.,2026-11-16
+P00397,A0140,official_page,https://secretariasenado.gov.co/senadores/53-senadores-2022-2026/1702-alejandro-alberto-vega-perez,web search: page not readable by our reader (ERR URLError); identity from the title the agent saw: ALEJANDRO ALBERTO VEGA PEREZ; Official Senate of Colombia profile page; confirmed exact name and Senator role on secretariasenado.gov.co.,2026-11-16
+P00398,A0142,website,https://isabelzuleta.com/,"web search: Personal official website found in search results; confirmed Senator identity, Pacto Histórico work, and senado.gov.co email on page.",2026-11-16
+P00399,A0172,official_page,https://www.secretariasenado.gov.co/senadores/53-senadores-2022-2026/1734-carlos-alberto-benavides-mora,web search: page not readable by our reader (ERR URLError); identity from the title the agent saw: CARLOS ALBERTO BENAVIDES MORA; Official Senate of Colombia profile page; confirmed exact name and Senator role on secretariasenado.gov.co.,2026-11-16
+P00400,A0125,facebook,https://www.facebook.com/EsmeraldaActivista,linked from https://esmeraldahernandez.com/,2026-11-16
+P00401,A0125,instagram,https://www.instagram.com/esmehernandezsi/,linked from https://esmeraldahernandez.com/,2026-11-16
+P00402,A0125,x,https://x.com/EsmeHernandezSi,linked from https://esmeraldahernandez.com/,2026-11-16
+P00403,A0124,x,https://x.com/carlos_guevara,linked from https://candidatos2026.partidomira.com/candidatos2026/perfil/carlos-eduardo-guevara,2026-11-16
+P00404,A0124,instagram,https://www.instagram.com/carlosedoguevara/,linked from https://candidatos2026.partidomira.com/candidatos2026/perfil/carlos-eduardo-guevara,2026-11-16
+P00405,A0124,youtube,https://www.youtube.com/@senadorcarlosguevara,linked from https://candidatos2026.partidomira.com/candidatos2026/perfil/carlos-eduardo-guevara,2026-11-16
+P00406,A0124,tiktok,https://www.tiktok.com/@carlosguevarasenador,linked from https://candidatos2026.partidomira.com/candidatos2026/perfil/carlos-eduardo-guevara,2026-11-16
+P00407,A0129,instagram,https://www.instagram.com/marthaperaltae/,linked from https://marthaperalta.com/,2026-11-16
+P00408,A0129,x,https://x.com/marthaperaltae,linked from https://marthaperalta.com/,2026-11-16
+P00409,A0129,tiktok,https://www.tiktok.com/@marthaperaltaepi,linked from https://marthaperalta.com/,2026-11-16
+P00410,A0142,x,https://x.com/ISAZULETA,linked from https://isabelzuleta.com/,2026-11-16
+P00411,A0142,facebook,https://www.facebook.com/IsaZuletaSenadora,linked from https://isabelzuleta.com/,2026-11-16
+P00412,A0142,instagram,https://www.instagram.com/isazuleta_/,linked from https://isabelzuleta.com/,2026-11-16
+P00413,A0142,tiktok,https://www.tiktok.com/@_isazuleta_,linked from https://isabelzuleta.com/,2026-11-16
+P00414,A0109,facebook,https://www.facebook.com/JairoCastellanos22,linked from https://jairocastellanos.com/,2026-11-16
+P00415,A0109,instagram,https://www.instagram.com/jairo22castellanos/,linked from https://jairocastellanos.com/,2026-11-16
+P00416,A0109,x,https://x.com/JairoSenador22,linked from https://jairocastellanos.com/,2026-11-16
+P00417,A0109,tiktok,https://www.tiktok.com/@jairocastellanos_22,linked from https://jairocastellanos.com/,2026-11-16
+P00418,A0133,facebook,https://www.facebook.com/JahelUp,linked from https://jahelquiroga.com/,2026-11-16
+P00419,A0133,instagram,https://www.instagram.com/jahelup/,linked from https://jahelquiroga.com/,2026-11-16
+P00420,A0133,x,https://x.com/JahelUp,linked from https://jahelquiroga.com/,2026-11-16
+P00421,A0133,tiktok,https://www.tiktok.com/@jahel.quiroga,linked from https://jahelquiroga.com/,2026-11-16
+P00422,A0107,instagram,https://www.instagram.com/germanblancoalvarez/,linked from https://germanblanco.co/,2026-11-16
+P00423,A0107,x,https://x.com/GermanBlancoA,linked from https://germanblanco.co/,2026-11-16
+P00424,A0107,tiktok,https://www.tiktok.com/@germanblancosenado,linked from https://germanblanco.co/,2026-11-16
+P00425,A0105,facebook,https://www.facebook.com/dielaliliana.benavidessolarte,linked from https://lilianabenavides.com/,2026-11-16
+P00426,A0105,instagram,https://www.instagram.com/lilianabenavidessolarte/,linked from https://lilianabenavides.com/,2026-11-16
+P00427,A0119,instagram,https://www.instagram.com/JulioEliasVidal/,linked from https://www.julioeliasvidal.com/,2026-11-16
+P00428,A0119,x,https://x.com/JulioEliasVidal,linked from https://www.julioeliasvidal.com/,2026-11-16
+P00429,A0119,facebook,https://www.facebook.com/JulioEliasVidal,linked from https://www.julioeliasvidal.com/,2026-11-16
+P00430,A0117,facebook,https://www.facebook.com/aldeluque,linked from https://alfredodeluque.co/,2026-11-16
+P00431,A0117,x,https://x.com/deluque,linked from https://alfredodeluque.co/,2026-11-16
+P00432,A0117,instagram,https://www.instagram.com/deluque/,linked from https://alfredodeluque.co/,2026-11-16
+P00433,A0117,tiktok,https://www.tiktok.com/@deluquealfredo,linked from https://alfredodeluque.co/,2026-11-16
+P00434,A0094,instagram,https://www.instagram.com/lidiogarcia/,linked from https://lidiogarcia.com/,2026-11-16
+P00435,A0123,instagram,https://www.instagram.com/garcesrojasjuanc/,linked from https://juancarlosgarcesrojas.org/,2026-11-16
+P00436,A0123,facebook,https://www.facebook.com/GarcesRojasJuanC,linked from https://juancarlosgarcesrojas.org/,2026-11-16
+P00437,A0123,tiktok,https://www.tiktok.com/@garcesrojasjuanc,linked from https://juancarlosgarcesrojas.org/,2026-11-16
+P00438,A0123,x,https://x.com/garcesrojasjuan,linked from https://juancarlosgarcesrojas.org/,2026-11-16

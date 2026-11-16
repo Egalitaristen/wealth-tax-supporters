@@ -21,3 +21,11 @@ K00019,A0004,own_site,https://www.vm.ee/en/ministry-contacts/foreign-minister,20
 K00020,A0008,orcid,https://orcid.org/0000-0003-0963-394X,2026-11-16,none,,the page's title and headings do not carry the name: https://www.ucl.ac.uk/iipp
 K00021,A0009,orcid,,2026-11-16,none,,no single ORCID record with the name
 K00022,A0011,orcid,https://orcid.org/0000-0002-8735-6012,2026-11-16,none,,ORCID institution does not match: none listed
+K00023,A0002,manual_search,https://www.riigikogu.ee/riigikogu/koosseis/riigikogu-liikmed/liige/lauri-laanemets/,2026-11-16,none,,"rejected https://www.riigikogu.ee/riigikogu/koosseis/riigikogu-liikmed/liige/lauri-laanemets/: the page does not carry the name; Official Riigikogu member profile URL from search results (riigikogu.ee returned HTTP 403 when fetched directly; search results confirm Member of Riigikogu, SDE chair, for"
+K00024,A0003,manual_search,https://www.kerlycoaching.com/,2026-11-16,found,website,"Personal coaching website (kerlycoaching.com) found via search and opened; H1 confirms Kerly Randlane, ACC."
+K00025,A0007,manual_search,https://www.indrekneivelt.eu/,2026-11-16,found,website,Personal blog/website (indrekneivelt.eu) found via search and opened; title and posts confirm Indrek Neivelt.
+K00026,A0008,manual_search,https://profiles.ucl.ac.uk/61603-rainer-kattel,2026-11-16,none,,"rejected https://profiles.ucl.ac.uk/61603-rainer-kattel: the page does not carry the name; Official UCL Profiles page (profiles.ucl.ac.uk/61603-rainer-kattel) from search results; page is JS-rendered without static title, search results confirm Professor of Innovation and Public Governance"
+K00027,A0009,manual_search,,2026-11-16,none,,"No personal website or official profile found after two searches; only media articles, Wikipedia, and business registry records."
+K00028,A0011,manual_search,,2026-11-16,none,,No personal website or University of Tartu staff profile found after two searches; only Wikipedia and media op-eds.
+K00029,A0003,own_site,https://www.kerlycoaching.com/,2026-11-16,found,facebook;instagram,
+K00030,A0007,own_site,https://www.indrekneivelt.eu/,2026-11-16,none,,

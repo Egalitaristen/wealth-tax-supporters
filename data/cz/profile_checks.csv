@@ -18,3 +18,8 @@ K00016,A0006,wikipedia_langs,https://es.wikipedia.org/wiki/Vladimir_%C5%A0pidla,
 K00017,A0010,wikipedia_langs,,2026-11-16,none,,no official website in the articles in other languages
 K00018,A0006,own_site,https://ec.europa.eu/commission_barroso/spidla/index_en.cfm,2026-11-16,error,,404 at https://ec.europa.eu/commission_barroso/spidla/index_en.cfm
 K00019,A0010,orcid,https://orcid.org/0000-0003-4686-7913,2026-11-16,none,,"record found, no website listed"
+K00020,A0003,manual_search,https://www.zeleni.cz/johanna-nejedlova/,2026-11-16,found,official_page,Found via search_web and opened; official Zelení party page confirming EP candidate and Konsent director.
+K00021,A0010,manual_search,https://miroslavpalansky.cz/,2026-11-16,found,website,Found via search_web and opened; own personal/researcher homepage confirming Charles University and Tax Justice Network.
+K00022,A0014,manual_search,,2026-11-16,none,,Searched twice; no personal website or individual institutional profile found (investicnicentrum.cz is a fund product page).
+K00023,A0003,own_site,https://www.zeleni.cz/johanna-nejedlova/,2026-11-16,none,,"not added: youtube https://www.youtube.com/user/zmenmeklima (chrome,social-block); facebook https://www.facebook.com/stranazelenych (chrome,social-block); instagram https://www.instagram.com/zeleni.cz/ (chrome,social-block)"
+K00024,A0010,own_site,https://miroslavpalansky.cz/,2026-11-16,found,x;facebook;instagram;linkedin,

@@ -24,3 +24,12 @@ P00022,A0012,wikipedia,https://en.wikipedia.org/wiki/Fabiola_Sanmart%C3%ADn,Wiki
 P00023,A0005,website,https://guillermolasso.ec,Wikipedia infobox https://en.wikipedia.org/wiki/Guillermo_Lasso,2026-11-16
 P00024,A0011,website,https://revolucionciudadana.com.ec/,"web search: Found via search for the movement's site; result pages on revolucionciudadana.com.ec carry the Movimiento Revolución Ciudadana - Lista 5 Ecuador name in their content; direct fetch returned 403, so th",2026-11-16
 P00025,A0015,website,https://fenocin.org,"web search: Own guess of obvious acronym domain; opened it, title and text name FENOCIN as the national peasant, indigenous, Afro-Ecuadorian organisation in Ecuador.",2026-11-16
+P00026,A0010,official_page,https://www.asambleanacional.gob.ec/es/blogs/blasco-luna-arevalo,"web search: Official National Assembly member page on asambleanacional.gob.ec found via search and opened; confirms Blasco Luna Arévalo, Asambleísta por Cañar, Revolución Ciudadana.",2026-11-16
+P00027,A0013,official_page,https://www.uasb.edu.ec/docente/cesar-montufar-mancheno/,web search: Official faculty profile at Universidad Andina Simón Bolívar (uasb.edu.ec) found via search and opened; confirms César Montúfar Mancheno.,2026-11-16
+P00028,A0014,official_page,https://puceinvestiga.puce.edu.ec/es/persons/andr%C3%A9s-mideros/,"web search: Official researcher profile on PUCE Investiga (puce.edu.ec) found via search and opened; H1 confirms Andrés Mideros Mora, PhD.",2026-11-16
+P00029,A0021,official_page,https://www.syco-abogados.com/dr,"web search: Official profile page on Santamaría Abogados (syco-abogados.com/dr) found via search; Wix JS-rendered page without static title, search results confirm Dr. Napoleón Santamaría.",2026-11-16
+P00030,A0021,facebook,https://www.facebook.com/santamaria.abogados.tributaristas,linked from https://www.syco-abogados.com/dr,2026-11-16
+P00031,A0021,instagram,https://www.instagram.com/santamaria.abogados/,linked from https://www.syco-abogados.com/dr,2026-11-16
+P00032,A0010,facebook,https://www.facebook.com/blascolunaareval,linked from https://www.asambleanacional.gob.ec/es/blogs/blasco-luna-arevalo,2026-11-16
+P00033,A0010,x,https://x.com/blascoluna,linked from https://www.asambleanacional.gob.ec/es/blogs/blasco-luna-arevalo,2026-11-16
+P00034,A0010,instagram,https://www.instagram.com/blascoluna.asambleista/,linked from https://www.asambleanacional.gob.ec/es/blogs/blasco-luna-arevalo,2026-11-16
