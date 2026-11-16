@@ -247,3 +247,32 @@ K00245,A0257,manual_search,,2026-11-16,none,,Searched; only a listing on the Arc
 K00246,A0259,manual_search,https://cadeul.com/,2026-11-16,found,website,"Found via search of cadeul.ulaval.ca, which redirects (301) to cadeul.com; opened it, page names the Confédération des Associations d'Étudiants et Étudiantes de l'Université Laval."
 K00247,A0208,own_site,https://www.tcndp.ca/,2026-11-16,none,,"not added: facebook https://www.facebook.com/TCNDP (chrome,social-block); facebook https://www.facebook.com/kristynwongtam (social-block); x https://x.com/tcndp (chrome,meta,social-block); x https://x.com/kristynwongtam (social-block); instagram https://www.instagram.com/tcndp/ (chrome,social-block); instagram"
 K00248,A0259,own_site,https://cadeul.com/,2026-11-16,found,facebook;instagram;tiktok;x;youtube,"CHECK no added handle carries the name: the site may host several groups, or belong to a parent."
+K00249,A0003,manual_search,,2026-11-16,none,,"Former MP; no active personal website found, and ourcommons.ca member URL returned HTTP 404 (ParlInfo API returned 403)."
+K00250,A0004,manual_search,,2026-11-16,none,,"Former MP; no active personal website found, and ourcommons.ca member URL returned HTTP 404."
+K00251,A0008,manual_search,https://dickcannings.com/,2026-11-16,found,website,"Personal/author website found via web search ('Dick Cannings: Birds and Books - Features his work as a biologist, birder, and author in British Columbia'); page returned HTTP 403 to automated fetch, i"
+K00252,A0009,manual_search,,2026-11-16,none,,"Former MP; no personal website found (only consulting firm shorelinestrategy.ca), and ourcommons.ca member URL returned HTTP 404."
+K00253,A0015,manual_search,,2026-11-16,none,,"Former MP; no active personal website found, and ourcommons.ca member URLs returned HTTP 404."
+K00254,A0020,manual_search,,2026-11-16,none,,"Former MP; no active personal website found, and ourcommons.ca member URL returned HTTP 404."
+K00255,A0021,manual_search,https://www.paulmanly.ca/,2026-11-16,found,website,Personal/campaign website found via web search and verified HTTP 200; title and body confirm Paul Manly.
+K00256,A0023,manual_search,,2026-11-16,none,,"Former MP; no active personal website found, and ourcommons.ca member URL returned HTTP 404."
+K00257,A0034,manual_search,,2026-11-16,none,,No personal website found; bcgreencaucus.ca closed connection and no individual profile URL found on bcgreens.ca or leg.bc.ca.
+K00258,A0096,manual_search,https://canadianlabour.ca/who-we-are/officers/bea-bruske/,2026-11-16,found,official_page,"Official officer profile page on Canadian Labour Congress website, found from CLC officers page and verified HTTP 200."
+K00259,A0103,manual_search,,2026-11-16,none,,No personal website or dedicated institutional profile page found; only articles on employer site (canadians.org).
+K00260,A0110,manual_search,,2026-11-16,none,,No personal website or qualifying institutional profile found after 2 searches (only CUPE Ontario union pages).
+K00261,A0141,manual_search,,2026-11-16,none,,No personal website or qualifying institutional profile found after 2 searches (only 24 heures author page and Muck Rack).
+K00262,A0149,manual_search,,2026-11-16,none,,No personal website or qualifying institutional profile found after 2 searches.
+K00263,A0151,manual_search,,2026-11-16,none,,"No personal website found after 3 searches; UVic ACET only has a shared team directory page, not an individual profile."
+K00264,A0223,manual_search,https://www.christoaivalis.com/,2026-11-16,found,website,Found via web search; christoaivalis.substack.com redirects to https://www.christoaivalis.com/ confirming Canadian historian and commentator.
+K00265,A0224,manual_search,https://maxfawcett.substack.com,2026-11-16,found,website,Found via web search; confirmed Canadian journalist and Canada's National Observer columnist on page.
+K00266,A0234,manual_search,,2026-11-16,none,,No personal website or qualifying institutional profile found after 2 searches.
+K00267,A0322,manual_search,https://www.tanille.ca/,2026-11-16,found,website,Found via web search; confirmed Campbell River councillor and NDP candidate Tanille Johnston on homepage.
+K00268,A0323,manual_search,,2026-11-16,none,,No personal website found after 2 searches; NDP leadership campaign hosted on parent party ndp.ca.
+K00269,A0324,manual_search,https://tonymcquailgreenprogressive.ca,2026-11-16,found,website,Found via web search; confirmed Ontario organic farmer and NDP leadership candidate on homepage.
+K00270,A0332,manual_search,,2026-11-16,none,,No personal website or qualifying institutional profile found after 2 searches (deceased 2017; only award/obituary pages).
+K00271,A0224,own_site,https://maxfawcett.substack.com,2026-11-16,none,,
+K00272,A0322,own_site,https://www.tanille.ca/,2026-11-16,none,,
+K00273,A0021,own_site,https://www.paulmanly.ca/,2026-11-16,found,instagram;facebook,
+K00274,A0324,own_site,https://tonymcquailgreenprogressive.ca,2026-11-16,none,,
+K00275,A0223,own_site,https://www.christoaivalis.com/,2026-11-16,none,,
+K00276,A0096,own_site,https://canadianlabour.ca/who-we-are/officers/bea-bruske/,2026-11-16,none,,"not added: facebook https://www.facebook.com/clc.ctc (chrome,social-block); x https://x.com/canadianlabour (chrome,meta,social-block); youtube https://www.youtube.com/user/canadianlabour (chrome,social-block); instagram https://www.instagram.com/canadianlabour/ (chrome,social-block)"
+K00277,A0008,own_site,https://dickcannings.com/,2026-11-16,none,,not added: facebook https://www.facebook.com/profile.php?id=610909337 (); x https://x.com/flematic ()
