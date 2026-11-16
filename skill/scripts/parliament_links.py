@@ -1,12 +1,13 @@
 #!/usr/bin/env python3
 """Add the website and social accounts that a parliament's own open data lists for its members.
 
-Usage: python skill/scripts/parliament_links.py fr|br [--dry-run]
+Usage: python skill/scripts/parliament_links.py fr|br|ch [--dry-run]
 
 The seat adapters (seats.py) store each member's id in positions.csv `member_ref`. Some parliaments publish, per member, the accounts the member
 gave them, so these are the member's own and need no name check:
   fr  Assemblée nationale open data (deputies): "Site internet", Twitter, Facebook, Instagram and Linkedin addresses.
   br  Câmara dos Deputados API: urlWebsite and redeSocial.
+  ch  Parlament.ch web service (PersonCommunication): Homepage, Facebook, Twitter, Instagram, LinkedIn.
 (The Tweede Kamer's open data holds no website or account, and the other adapters were not checked.)
 
 A link is added to profiles.csv (source names the parliament's data, checked today) unless the supporter already has a row for that platform or that
@@ -97,9 +98,30 @@ def brazil(refs):
     return out, "Câmara dos Deputados API"
 
 
+CH_TYPES = {"homepage": "website", "website": "website", "facebook": "facebook", "twitter": "x", "x": "x", "instagram": "instagram", "linkedin": "linkedin"}
+
+
+def switzerland(refs):
+    out = {}
+    for ref in refs:
+        try:
+            d = json.loads(get(f"https://ws.parlament.ch/odata.svc/PersonCommunication?$filter=PersonNumber%20eq%20{ref}%20and%20Language%20eq%20'DE'&$format=json"))["d"]
+        except Exception:
+            continue
+        links = []
+        for x in (d if isinstance(d, list) else d.get("results", [])):
+            plat = CH_TYPES.get((x.get("CommunicationTypeText") or "").strip().lower())
+            if plat:
+                r = norm(plat, x.get("Address"))
+                if r:
+                    links.append(r)
+        out[str(ref)] = links
+    return out, "Parlament.ch web service"
+
+
 def main():
     ap = argparse.ArgumentParser(description=__doc__, formatter_class=argparse.RawDescriptionHelpFormatter)
-    ap.add_argument("country", choices=["fr", "br"])
+    ap.add_argument("country", choices=["fr", "br", "ch"])
     ap.add_argument("--dry-run", action="store_true")
     a = ap.parse_args()
     d = str(ROOT / "data" / a.country)
@@ -108,7 +130,7 @@ def main():
     for p in positions:
         if p.get("member_ref"):
             ref_of.setdefault(p["actor_id"], p["member_ref"])
-    data, label = france() if a.country == "fr" else brazil(sorted(set(ref_of.values())))
+    data, label = france() if a.country == "fr" else brazil(sorted(set(ref_of.values()))) if a.country == "br" else switzerland(sorted(set(ref_of.values())))
     profiles, checks = wtdb.load(d, "profiles"), wtdb.load(d, "profile_checks")
     key = lambda u: re.sub(r"[^a-z0-9]", "", u.lower().split("//")[-1].replace("www.", "").replace("twitter.com", "x.com"))
     have = {(p["actor_id"], p["platform"]) for p in profiles}
