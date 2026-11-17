@@ -81,3 +81,7 @@ P00079,A0030,website,https://www.cgtp.pt,"web search: Found via search (cgtp.pt,
 P00080,A0030,youtube,https://www.youtube.com/user/cgtpin,linked from https://www.cgtp.pt,2026-11-16
 P00081,A0030,facebook,https://www.facebook.com/pages/CGTP/275330872914,linked from https://www.cgtp.pt,2026-11-16
 P00082,A0030,x,https://x.com/CGTP_IN,linked from https://www.cgtp.pt,2026-11-16
+P00083,A0002,official_page,https://www.parlamento.pt/DeputadoGP/Paginas/ActividadeDeputado.aspx?BID=4557&lg=XV,web search: Found via site:parlamento.pt search for Mariana Mortágua; direct fetch timed out.,2026-11-17
+P00084,A0005,official_page,https://partidolivre.pt/primarias-legislativas-2024/lisboa/isabel-mendes-lopes,web search: Found via LIVRE party search; official party profile page (parlamento.pt failed TLS handshake).,2026-11-17
+P00085,A0005,x,https://x.com/Isabel_ml_,linked from https://partidolivre.pt/primarias-legislativas-2024/lisboa/isabel-mendes-lopes,2026-11-17
+P00086,A0005,instagram,https://www.instagram.com/isabelmendeslopes/,linked from https://partidolivre.pt/primarias-legislativas-2024/lisboa/isabel-mendes-lopes,2026-11-17

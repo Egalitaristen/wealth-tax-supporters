@@ -530,3 +530,10 @@ P00569,A0307,tiktok,https://www.tiktok.com/@adrian.zandberg,Wikidata Q21157896,2
 P00570,A0307,wikipedia,https://en.wikipedia.org/wiki/Adrian_Zandberg,Wikidata Q21157896,2026-11-16
 P00571,A0045,website,https://sylwiaspurek.pl/,Wikipedia infobox https://en.wikipedia.org/wiki/Sylwia_Spurek,2026-11-16
 P00572,A0029,official_page,https://www.europarl.europa.eu/meps/en/197496/MAREK_BELKA/home,"web search: page not readable by our reader (ERR 403); identity from the title the agent saw: 9th parliamentary term | Marek BELKA | MEPs | European Parliament; MEP id taken from parltrack in a search result; the address was my own construction. Opened it: Marek Belka, Poland, S&D group. No personal site found.",2026-11-16
+P00573,A0025,website,https://www.cimoszewicz.eu/,web search: Found via Polish search and senat.gov.pl; personal website of former Prime Minister Włodzimierz Cimoszewicz.,2026-11-17
+P00574,A0041,official_page,https://inepan.pl/prof-dr-hab-ryszard-bugaj/,web search: Found via site:inepan.pl search; official INE PAN staff profile page.,2026-11-17
+P00575,A0132,official_page,https://ihpan.edu.pl/pracownicy/pracownicy-emerytowani/adam-manikowski/,web search: Found via site:ihpan.edu.pl search; official IH PAN emeritus professor profile page.,2026-11-17
+P00576,A0150,official_page,https://filozofia.uwb.edu.pl/pracownicy/malgorzata-kowalska,web search: Confirmed from site:filozofia.uwb.edu.pl search results as Prof. Małgorzata Kowalska's UwB staff profile; direct fetch returned HTTP 503.,2026-11-17
+P00577,A0209,website,https://magdalenaszpunar.com/,web search: Found via Polish search; personal academic website of dr hab. Magdalena Szpunar.,2026-11-17
+P00578,A0210,official_page,https://www.wsmip.uni.lodz.pl/profesorowie-emerytowani,web search: Found via site:uni.lodz.pl search; official WSMiP UŁ emeritus professors page with Prof. dr hab. Andrzej de Lazari's biography.,2026-11-17
+P00579,A0305,official_page,https://www.wne.uw.edu.pl/en/members/profile/view/541,web search: Found via site:wne.uw.edu.pl search; official WNE UW faculty profile page.,2026-11-17

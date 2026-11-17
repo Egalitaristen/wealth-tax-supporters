@@ -58,3 +58,39 @@ K00056,A0055,own_site,https://www.aucklandcatholic.org.nz/justicepeace/,2026-11-
 K00057,A0015,manual_search,,2026-11-16,none,,Searches showed only news and coalition pages; guessed ecuaction domains did not resolve; the proposal is hosted elsewhere (alternativeaotearoa.nz) which I did not open; nothing confirmed
 K00058,A0042,manual_search,,2026-11-16,none,,Search showed only news coverage; guessed domains did not resolve; nothing confirmed
 K00059,A0054,manual_search,,2026-11-16,none,,Search showed only third-party pages; labour.org.nz homepage has no link to this committee; nothing confirmed
+K00060,A0008,manual_search,,2026-11-17,none,,Searched twice for James Shaw on parliament.nz and greens.org.nz; no personal website or active official profile page found after his 2024 resignation.
+K00061,A0013,manual_search,,2026-11-17,none,,Searched twice for Glenn Barclay; glennbarclay.com is a namesake photographer and tjanz.org only lists him on a group committee page.
+K00062,A0018,manual_search,https://www.otago.ac.nz/healthsciences/expertise/profile?id=1269,2026-11-17,none,,rejected https://www.otago.ac.nz/healthsciences/expertise/profile?id=1269: the page does not carry the name; Found via search_web on otago.ac.nz; confirmed as Ms Louise Delany's University of Otago staff profile (HTTP 403 on direct fetch).
+K00063,A0019,manual_search,,2026-11-17,none,,Searched twice for Bruce Plested; no personal website or individual profile page found (only group director list on mainfreight.com).
+K00064,A0023,manual_search,,2026-11-17,none,,Searched twice for Malcolm Rands; no personal website or individual profile page found (only company/foundation sites ecostore and fairground.org).
+K00065,A0024,manual_search,,2026-11-17,none,,Searched twice for Phillip Mills; no personal website or individual profile page found (only group leadership page on lesmills.com).
+K00066,A0026,manual_search,https://www.eastonbh.ac.nz/,2026-11-17,found,website,Found via search_web and verified directly; personal research website of New Zealand economist Dr Brian Easton.
+K00067,A0027,manual_search,https://thekaka.substack.com/,2026-11-17,found,website,Found via search_web and verified directly; Bernard Hickey's own publication site The Kākā.
+K00068,A0028,manual_search,https://eaqub.com/,2026-11-17,found,website,Found via search_web and verified directly; personal website of New Zealand economist Shamubeel Eaqub.
+K00069,A0029,manual_search,https://people.wgtn.ac.nz/lisa.marriott,2026-11-17,found,official_page,Found via search_web on people.wgtn.ac.nz and verified directly; official university staff profile for Professor Lisa Marriott.
+K00070,A0030,manual_search,,2026-11-17,none,,Searched twice for Te Raukura O’Connell Rapira (and Laura O’Connell Rapira); no personal website or official institutional profile found.
+K00071,A0031,manual_search,https://thedailyblog.co.nz/,2026-11-17,found,website,"Found via search_web and verified directly; founded, edited, and operated by Martyn Bradbury."
+K00072,A0032,manual_search,https://werewolf.co.nz/,2026-11-17,found,website,page not read; Found via search_web; Gordon Campbell's own independent longform journalism publication Werewolf (HTTP 202 on direct fetch).
+K00073,A0033,manual_search,https://www.tamathapaul.nz/,2026-11-17,found,website,Found via search_web and verified directly; personal campaign website of MP Tamatha Paul.
+K00074,A0039,manual_search,,2026-11-17,none,,Searched twice for Justine Sachs; no personal website or official institutional profile found.
+K00075,A0041,manual_search,https://www.greens.org.nz/celia_wade_brown,2026-11-17,found,official_page,Found via search_web on greens.org.nz and verified directly; official Green Party profile page for Celia Wade-Brown.
+K00076,A0043,manual_search,https://allianceparty.nz/candidates/dunedin/,2026-11-17,found,official_page,Found via search_web on allianceparty.nz and verified directly; official Alliance Party candidate profile for Victor Billot.
+K00077,A0045,manual_search,https://actionstation.org.nz/tautoko/speakers/kassie-hartendorp,2026-11-17,found,official_page,Found via search_web on actionstation.org.nz and verified directly; official ActionStation profile page for Director Kassie Hartendorp.
+K00078,A0046,manual_search,,2026-11-17,none,,Searched twice for Russel Norman on greenpeace.org and parliament.nz; no personal website or dedicated individual profile page found.
+K00079,A0047,manual_search,,2026-11-17,none,,"Searched twice for Paula Feehan (Oxfam New Zealand, City University, SAFE); only NGO reports, news, and alumni/submission mentions found, no own website or institutional profile page."
+K00080,A0057,manual_search,,2026-11-17,none,,"Searched twice for Brian Turner (EcuAction, Methodist Church of New Zealand); only church/news mentions and articles found, no own website or institutional profile page."
+K00081,A0058,manual_search,https://johnminto.wordpress.com/,2026-11-17,found,website,Found via search_web and verified via curl; personal WordPress blog archiving New Zealand activist John Minto's columns and commentary.
+K00082,A0059,manual_search,,2026-11-17,none,,"Searched twice for Paul Watson (FIRST Union / Workers First, New Zealand); only union mentions found, no own website or individual institutional profile page."
+K00083,A0060,manual_search,,2026-11-17,none,,"Searched twice for Paul Piesse (Alliance, New Zealand); only Wikipedia and wealth-tax supporter listings found, no own website or institutional profile page."
+K00084,A0061,manual_search,,2026-11-17,none,,"Searched twice for Dave Marra (EcuAction, Christchurch Budget Service; deceased 2022); only council records and obituaries found, no own website or institutional profile page."
+K00085,A0033,own_site,https://www.tamathapaul.nz/,2026-11-17,found,instagram;facebook;youtube,
+K00086,A0026,own_site,https://www.eastonbh.ac.nz/,2026-11-17,none,,
+K00087,A0045,own_site,https://actionstation.org.nz/tautoko/speakers/kassie-hartendorp,2026-11-17,none,,
+K00088,A0028,own_site,https://eaqub.com/,2026-11-17,found,substack,already listed: linkedin
+K00089,A0032,own_site,https://werewolf.co.nz/,2026-11-17,none,,
+K00090,A0043,own_site,https://allianceparty.nz/candidates/dunedin/,2026-11-17,found,facebook;instagram;x,"not added: facebook https://www.facebook.com/alliancepartynz (chrome,social-block); instagram https://www.instagram.com/alliancepartyaotearoa/ (chrome,social-block); youtube https://www.youtube.com/@AlliancePartyNZ (chrome,social-block)"
+K00091,A0031,own_site,https://thedailyblog.co.nz/,2026-11-17,found,youtube,"not added: facebook https://www.facebook.com/@TheDailyBlogNZ (social-block); facebook https://www.facebook.com/TheDailyBlogNZ (chrome,social-block); x https://x.com/CitizenBomber (chrome,social-block); youtube https://www.youtube.com/channel/UC_vLFXwlByZ8d6JPeOKMVjw (social-block); substack https://thekaka.sub"
+K00092,A0058,own_site,https://johnminto.wordpress.com/,2026-11-17,none,,
+K00093,A0029,own_site,https://people.wgtn.ac.nz/lisa.marriott,2026-11-17,none,,
+K00094,A0041,own_site,https://www.greens.org.nz/celia_wade_brown,2026-11-17,found,instagram;facebook,"not added: instagram https://www.instagram.com/nzgreenparty/ (chrome,social-block); facebook https://www.facebook.com/nzgreenparty (chrome,social-block); bluesky https://bsky.app/profile/greens.org.nz (chrome,social-block); tiktok https://www.tiktok.com/@greensnz (chrome,social-block)"
+K00095,A0027,own_site,https://thekaka.substack.com/,2026-11-17,none,,

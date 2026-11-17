@@ -99,3 +99,54 @@ K00097,A0019,own_site,https://apmdd.org/,2026-11-16,found,facebook;x;instagram;y
 K00098,A0029,own_site,https://www.nagkaisa.org/,2026-11-16,none,,not added: facebook https://www.facebook.com/profile.php?id=61580676322290 (); x https://x.com/nagkaisa ()
 K00099,A0016,own_site,https://learn.org.ph/,2026-11-16,found,facebook;x;instagram,"CHECK no added handle carries the name: the site may host several groups, or belong to a parent."
 K00100,A0031,own_site,https://www.akbayan.org.ph/,2026-11-16,blocked,,429 at https://www.akbayan.org.ph/
+K00101,A0001,manual_search,,2026-11-17,none,,"Searched three times for Antonio Tinio (ACT Teachers, congress.gov.ph); congress.gov.ph is behind bot protection and no individual member profile URL was indexed."
+K00102,A0002,manual_search,,2026-11-17,none,,"Searched three times for Sarah Jane Elago (Gabriela Women's Party, congress.gov.ph); congress.gov.ph is behind bot protection and no current 20th Congress profile URL was indexed."
+K00103,A0003,manual_search,,2026-11-17,none,,"Searched three times for Renee Louise Co (Kabataan, congress.gov.ph); congress.gov.ph is behind bot protection and no individual member profile URL was indexed."
+K00104,A0008,manual_search,https://www.congress.gov.ph/house-members/view/?member=K142&name=Cenda%C3%B1a%2C+Percival+V.&page=1,2026-11-17,found,official_page,Found via search_web (Wikimedia citation for Representative Percival V. Cendaña); congress.gov.ph is behind Cloudflare bot protection so page title could not be fetched directly.
+K00105,A0011,manual_search,,2026-11-17,none,,"Searched three times for Dadah Kiram Ismula (Akbayan, congress.gov.ph); congress.gov.ph is behind bot protection and no individual member profile URL was found."
+K00106,A0012,manual_search,,2026-11-17,none,,"Searched twice; no personal website found, only parent union/party site (tucp.org.ph) and congress.gov.ph returns HTTP 403 with no indexed member page URL."
+K00107,A0014,manual_search,,2026-11-17,none,,"Searched twice; no personal website or individual institutional profile found, only organization site (apmdd.org)."
+K00108,A0017,manual_search,https://ac.upd.edu.ph/index.php/faculty-and-staff/professor-emeritus/3241-eduardo-c-tadem-ph-d-professor-emeritus,2026-11-17,found,official_page,Found via search_web on UP Asian Center (ac.upd.edu.ph) and confirmed Professor Emeritus of Asian Studies identity on fetched page.
+K00109,A0018,manual_search,,2026-11-17,none,,Searched twice; no personal website or dedicated institutional profile found (ibon.org author page returns 404).
+K00110,A0020,manual_search,,2026-11-17,none,,"Searched twice; no personal website or live official institutional profile found, only parent party site (bayanmuna.com.ph)."
+K00111,A0021,manual_search,,2026-11-17,none,,"Searched twice; no personal website or live official institutional profile found, only parent party site (bayanmuna.com.ph) and namesakes."
+K00112,A0022,manual_search,,2026-11-17,none,,Searched twice; no personal website or live official institutional profile found.
+K00113,A0023,manual_search,,2026-11-17,none,,Searched twice; no personal website or live official institutional profile found.
+K00114,A0024,manual_search,,2026-11-17,none,,Searched twice; no personal website or live official institutional profile found.
+K00115,A0033,manual_search,https://www.solair.upd.edu.ph/faculty-and-staff/core-faculty/rene-e-ofreneo,2026-11-17,found,official_page,Found via search_web on UP SOLAIR (solair.upd.edu.ph) and confirmed labor scholar Professor Emeritus identity on fetched page.
+K00116,A0036,manual_search,,2026-11-17,none,,"Searched twice; no personal website or official institutional profile found, only news coverage."
+K00117,A0038,manual_search,,2026-11-17,none,,"Searched twice; no personal website or official institutional profile found, only social media and election/news coverage."
+K00118,A0043,manual_search,,2026-11-17,none,,Searched twice; no personal website or DLSU faculty profile found (only Philstar author archive and namesake Efren Ll. Cruz).
+K00119,A0044,manual_search,,2026-11-17,none,,Searched twice; no personal website or official institutional profile found.
+K00120,A0046,manual_search,,2026-11-17,none,,"Searched three times; no personal website or official individual profile found, only parent union site (freeworkers.org.ph)."
+K00121,A0051,manual_search,https://citycouncilofmanila.com.ph/city-officials/hon-rolando-m-valeriano/,2026-11-17,found,official_page,Found via search_web on City Council of Manila (citycouncilofmanila.com.ph) and confirmed identity on fetched page.
+K00122,A0052,manual_search,,2026-11-17,none,,Searched twice; no personal website or live official institutional profile found (only Linktree and unofficial tracker congress.ph).
+K00123,A0053,manual_search,,2026-11-17,none,,Searched twice; no personal website or live official institutional profile found.
+K00124,A0054,manual_search,https://mandaluyong.gov.ph/team/alexandria-queenie-pahati-gonzales/,2026-11-17,found,official_page,Found via search_web on City of Mandaluyong (mandaluyong.gov.ph) and confirmed Mandaluyong Representative identity on fetched page.
+K00125,A0055,manual_search,https://marcelinoclibanan.com/,2026-11-17,found,website,Found via search_web and confirmed personal/official congressional website on fetched homepage.
+K00126,A0057,manual_search,,2026-11-17,none,,Searched twice; no personal website or live official institutional profile found.
+K00127,A0058,manual_search,,2026-11-17,none,,Searched twice; no personal website or live official institutional profile found.
+K00128,A0059,manual_search,,2026-11-17,none,,Searched twice; no personal website or live official institutional profile found.
+K00129,A0060,manual_search,,2026-11-17,none,,Searched twice; no personal website or live official institutional profile found.
+K00130,A0061,manual_search,,2026-11-17,none,,Searched twice; no personal website or live official institutional profile found.
+K00131,A0062,manual_search,,2026-11-17,none,,Searched twice; no personal website or live official institutional profile found.
+K00132,A0063,manual_search,,2026-11-17,none,,Searched twice; no personal website or live official institutional profile found.
+K00133,A0064,manual_search,,2026-11-17,none,,Searched twice; no personal website or live official institutional profile found.
+K00134,A0065,manual_search,,2026-11-17,none,,Searched twice; no personal website or live official institutional profile found.
+K00135,A0066,manual_search,https://www.annmatibag.com/,2026-11-17,found,website,Found via search_web and confirmed personal/official congressional website on fetched homepage.
+K00136,A0067,manual_search,,2026-11-17,none,,Searched twice for personal website and congress.gov.ph profile; congress.gov.ph returned HTTP 403 and no indexed profile URL was found.
+K00137,A0068,manual_search,,2026-11-17,none,,Searched twice for personal website and congress.gov.ph profile; none indexed in search results.
+K00138,A0069,manual_search,,2026-11-17,none,,Searched twice for personal website and congress.gov.ph profile; none indexed in search results.
+K00139,A0070,manual_search,,2026-11-17,none,,Searched twice; javibenitez.com.ph appeared in one result but returned HTTP 503 and had no indexed pages on site:javibenitez.com.ph to confirm identity.
+K00140,A0071,manual_search,,2026-11-17,none,,Searched twice for personal website and congress.gov.ph profile; none indexed in search results.
+K00141,A0072,manual_search,,2026-11-17,none,,Searched twice for personal website and congress.gov.ph profile; none indexed in search results.
+K00142,A0073,manual_search,,2026-11-17,none,,Searched twice for personal website and congress.gov.ph profile; none indexed in search results.
+K00143,A0074,manual_search,https://brianpoe.org/,2026-11-17,found,website,Confirmed from Wikipedia and site:brianpoe.org search results as Brian Poe's official website (FPJ Panday Bayanihan Party-list Representative); direct fetch returned HTTP 403.
+K00144,A0017,own_site,https://ac.upd.edu.ph/index.php/faculty-and-staff/professor-emeritus/3241-eduardo-c-tadem-ph-d-professor-emeritus,2026-11-17,none,,
+K00145,A0033,own_site,https://www.solair.upd.edu.ph/faculty-and-staff/core-faculty/rene-e-ofreneo,2026-11-17,none,,
+K00146,A0054,own_site,https://mandaluyong.gov.ph/team/alexandria-queenie-pahati-gonzales/,2026-11-17,none,,"not added: facebook https://www.facebook.com/MandaluyongPIO (chrome,social-block); x https://x.com/MandaluyongPIO (chrome,social-block)"
+K00147,A0066,own_site,https://www.annmatibag.com/,2026-11-17,none,,
+K00148,A0008,own_site,https://www.congress.gov.ph/house-members/view/?member=K142&name=Cenda%C3%B1a%2C+Percival+V.&page=1,2026-11-17,blocked,,403 at https://www.congress.gov.ph/house-members/view/?member=K142&name=Cenda%C3%B1a%2C+Percival+V.&page=1
+K00149,A0074,own_site,https://brianpoe.org/,2026-11-17,found,instagram;x;youtube;tiktok,
+K00150,A0055,own_site,https://marcelinoclibanan.com/,2026-11-17,none,,
+K00151,A0051,own_site,https://citycouncilofmanila.com.ph/city-officials/hon-rolando-m-valeriano/,2026-11-17,none,,"not added: facebook https://www.facebook.com/CityCouncilofManila (chrome,social-block); facebook https://www.facebook.com/ManilaPIO (chrome,social-block); facebook https://www.facebook.com/dtcamanila (chrome,social-block)"

@@ -105,3 +105,7 @@ K00103,A0034,manual_search,https://www.culture.gov.gr/el/Ministry/SitePages/view
 K00104,A0018,own_site,https://www.europarl.europa.eu/meps/en/244571/NIKOS_PAPANDREOU/home,2026-11-17,blocked,,403 at https://www.europarl.europa.eu/meps/en/244571/NIKOS_PAPANDREOU/home
 K00105,A0015,own_site,https://www.petroskokkalis.eu/,2026-11-17,found,facebook;x;instagram,"not added: youtube https://www.youtube.com/channel/UCgct1nnFHsdvQM1r3onWm9g (chrome,social-block)"
 K00106,A0025,own_site,https://alexischaritsis.gr/,2026-11-17,error,,500 at https://alexischaritsis.gr/
+K00107,A0011,manual_search,https://notjusteconomics.eu/,2026-11-17,none,,rejected https://notjusteconomics.eu/: the page's title and headings do not carry the name; Found via web search; homepage title confirms Euclid Tsakalotos's personal/political website.
+K00108,A0032,manual_search,https://utopia.duth.gr/~gkatroug/katrougalos-en.html,2026-11-17,found,official_page,Found via web search; Democritus University of Thrace academic webpage verified by title George S.-P. Katrougalos.
+K00109,A0034,manual_search,https://www.culture.gov.gr/en/ministry/SitePages/cv.aspx?cID=35,2026-11-17,none,,"rejected https://www.culture.gov.gr/en/ministry/SitePages/cv.aspx?cID=35: the page does not carry the name; Found via web search on culture.gov.gr; site returned 403, but search results clearly identify this as Lydia Koniordou's official Ministry of Culture CV page."
+K00110,A0032,own_site,https://utopia.duth.gr/~gkatroug/katrougalos-en.html,2026-11-17,none,,

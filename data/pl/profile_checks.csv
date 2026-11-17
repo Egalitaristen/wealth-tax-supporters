@@ -330,3 +330,21 @@ K00328,A0305,orcid,https://orcid.org/0009-0009-4325-3220,2026-11-16,none,,ORCID 
 K00329,A0029,manual_search,,2026-11-16,none,,No own site or official page confirmed.
 K00330,A0029,manual_search,https://www.europarl.europa.eu/meps/en/197496/MAREK_BELKA/home,2026-11-16,found,official_page,"page not readable by our reader (ERR 403); identity from the title the agent saw: 9th parliamentary term | Marek BELKA | MEPs | European Parliament; MEP id taken from parltrack in a search result; the address was my own construction. Opened it: Marek Belka, Poland, S&D group. No personal site found."
 K00331,A0029,own_site,https://www.europarl.europa.eu/meps/en/197496/MAREK_BELKA/home,2026-11-16,blocked,,403 at https://www.europarl.europa.eu/meps/en/197496/MAREK_BELKA/home
+K00332,A0002,manual_search,,2026-11-17,none,,Searched twice in Polish; no personal website or official institutional profile found (only media author pages).
+K00333,A0006,manual_search,,2026-11-17,none,,Searched twice in Polish; no personal website or official institutional profile found (only media author pages).
+K00334,A0013,manual_search,,2026-11-17,none,,Searched twice in Polish; no personal website or individual KIG profile page found.
+K00335,A0025,manual_search,https://www.cimoszewicz.eu/,2026-11-17,found,website,Found via Polish search and senat.gov.pl; personal website of former Prime Minister Włodzimierz Cimoszewicz.
+K00336,A0041,manual_search,https://inepan.pl/prof-dr-hab-ryszard-bugaj/,2026-11-17,found,official_page,Found via site:inepan.pl search; official INE PAN staff profile page.
+K00337,A0132,manual_search,https://ihpan.edu.pl/pracownicy/pracownicy-emerytowani/adam-manikowski/,2026-11-17,found,official_page,Found via site:ihpan.edu.pl search; official IH PAN emeritus professor profile page.
+K00338,A0141,manual_search,,2026-11-17,none,,Searched twice in Polish; no personal website or university staff page found (only gallery/archive profiles).
+K00339,A0150,manual_search,https://filozofia.uwb.edu.pl/pracownicy/malgorzata-kowalska,2026-11-17,found,official_page,Confirmed from site:filozofia.uwb.edu.pl search results as Prof. Małgorzata Kowalska's UwB staff profile; direct fetch returned HTTP 503.
+K00340,A0209,manual_search,https://magdalenaszpunar.com/,2026-11-17,found,website,Found via Polish search; personal academic website of dr hab. Magdalena Szpunar.
+K00341,A0210,manual_search,https://www.wsmip.uni.lodz.pl/profesorowie-emerytowani,2026-11-17,found,official_page,Found via site:uni.lodz.pl search; official WSMiP UŁ emeritus professors page with Prof. dr hab. Andrzej de Lazari's biography.
+K00342,A0305,manual_search,https://www.wne.uw.edu.pl/en/members/profile/view/541,2026-11-17,found,official_page,Found via site:wne.uw.edu.pl search; official WNE UW faculty profile page.
+K00343,A0305,own_site,https://www.wne.uw.edu.pl/en/members/profile/view/541,2026-11-17,blocked,,robots.txt forbids https://www.wne.uw.edu.pl/en/members/profile/view/541
+K00344,A0041,own_site,https://inepan.pl/prof-dr-hab-ryszard-bugaj/,2026-11-17,none,,"not added: linkedin https://www.linkedin.com/showcase/instytut-nauk-ekonomicznych-pan (chrome,social-block); facebook https://www.facebook.com/MBAINEPAN (chrome,social-block); youtube https://www.youtube.com/@INEPAN (chrome,social-block)"
+K00345,A0210,own_site,https://www.wsmip.uni.lodz.pl/profesorowie-emerytowani,2026-11-17,none,,
+K00346,A0209,own_site,https://magdalenaszpunar.com/,2026-11-17,none,,not added: youtube https://www.youtube.com/channel/UCz-5FBD2FI8wzRVhMJPYa4A ()
+K00347,A0025,own_site,https://www.cimoszewicz.eu/,2026-11-17,none,,
+K00348,A0132,own_site,https://ihpan.edu.pl/pracownicy/pracownicy-emerytowani/adam-manikowski/,2026-11-17,none,,"not added: facebook https://www.facebook.com/Instytut.Historii.PAN (chrome,social-block)"
+K00349,A0150,own_site,https://filozofia.uwb.edu.pl/pracownicy/malgorzata-kowalska,2026-11-17,blocked,,503 at https://filozofia.uwb.edu.pl/pracownicy/malgorzata-kowalska

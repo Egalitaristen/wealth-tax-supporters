@@ -121,3 +121,24 @@ P00120,A0051,instagram,https://www.instagram.com/aucklandactionagainstpoverty/,l
 P00121,A0053,facebook,https://www.facebook.com/NZCCSS,linked from https://www.nzccss.org.nz,2026-11-16
 P00122,A0053,instagram,https://www.instagram.com/nzccsscomms/,linked from https://www.nzccss.org.nz,2026-11-16
 P00123,A0053,x,https://x.com/nzccss,linked from https://www.nzccss.org.nz,2026-11-16
+P00124,A0026,website,https://www.eastonbh.ac.nz/,web search: Found via search_web and verified directly; personal research website of New Zealand economist Dr Brian Easton.,2026-11-17
+P00125,A0027,website,https://thekaka.substack.com/,web search: Found via search_web and verified directly; Bernard Hickey's own publication site The Kākā.,2026-11-17
+P00126,A0028,website,https://eaqub.com/,web search: Found via search_web and verified directly; personal website of New Zealand economist Shamubeel Eaqub.,2026-11-17
+P00127,A0029,official_page,https://people.wgtn.ac.nz/lisa.marriott,web search: Found via search_web on people.wgtn.ac.nz and verified directly; official university staff profile for Professor Lisa Marriott.,2026-11-17
+P00128,A0031,website,https://thedailyblog.co.nz/,"web search: Found via search_web and verified directly; founded, edited, and operated by Martyn Bradbury.",2026-11-17
+P00129,A0032,website,https://werewolf.co.nz/,web search: Found via search_web; Gordon Campbell's own independent longform journalism publication Werewolf (HTTP 202 on direct fetch).,2026-11-17
+P00130,A0033,website,https://www.tamathapaul.nz/,web search: Found via search_web and verified directly; personal campaign website of MP Tamatha Paul.,2026-11-17
+P00131,A0041,official_page,https://www.greens.org.nz/celia_wade_brown,web search: Found via search_web on greens.org.nz and verified directly; official Green Party profile page for Celia Wade-Brown.,2026-11-17
+P00132,A0043,official_page,https://allianceparty.nz/candidates/dunedin/,web search: Found via search_web on allianceparty.nz and verified directly; official Alliance Party candidate profile for Victor Billot.,2026-11-17
+P00133,A0045,official_page,https://actionstation.org.nz/tautoko/speakers/kassie-hartendorp,web search: Found via search_web on actionstation.org.nz and verified directly; official ActionStation profile page for Director Kassie Hartendorp.,2026-11-17
+P00134,A0058,website,https://johnminto.wordpress.com/,web search: Found via search_web and verified via curl; personal WordPress blog archiving New Zealand activist John Minto's columns and commentary.,2026-11-17
+P00135,A0033,instagram,https://www.instagram.com/tamathapaul/,linked from https://www.tamathapaul.nz/,2026-11-17
+P00136,A0033,facebook,https://www.facebook.com/tamathapaul1,linked from https://www.tamathapaul.nz/,2026-11-17
+P00137,A0033,youtube,https://www.youtube.com/@tamathapaulmp,linked from https://www.tamathapaul.nz/,2026-11-17
+P00138,A0028,substack,https://shamubeel.substack.com,linked from https://eaqub.com/,2026-11-17
+P00139,A0043,facebook,https://www.facebook.com/victor.billot.alliance,linked from https://allianceparty.nz/candidates/dunedin/,2026-11-17
+P00140,A0043,instagram,https://www.instagram.com/victor.billot.alliance/,linked from https://allianceparty.nz/candidates/dunedin/,2026-11-17
+P00141,A0043,x,https://x.com/billot,linked from https://allianceparty.nz/candidates/dunedin/,2026-11-17
+P00142,A0031,youtube,https://www.youtube.com/@TheBradburyGroup,linked from https://thedailyblog.co.nz/,2026-11-17
+P00143,A0041,instagram,https://www.instagram.com/celiawb/,linked from https://www.greens.org.nz/celia_wade_brown,2026-11-17
+P00144,A0041,facebook,https://www.facebook.com/celia.wadebrown,linked from https://www.greens.org.nz/celia_wade_brown,2026-11-17

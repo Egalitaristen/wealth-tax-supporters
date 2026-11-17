@@ -405,3 +405,21 @@ P00704,A0339,x,https://x.com/terjeaa,Wikidata Q1772899,2026-11-16
 P00705,A0339,wikipedia,https://en.wikipedia.org/wiki/Terje_Aasland,Wikidata Q1772899,2026-11-16
 P00706,A0245,wikipedia,https://en.wikipedia.org/wiki/Ole_Jacob_Broch,Wikidata Q1367532,2026-11-16
 P00707,A0019,website,https://folk.uio.no/karlom/,Wikipedia https://no.wikipedia.org/wiki/Karl_Ove_Moene,2026-11-16
+P00708,A0007,official_page,https://www.stortinget.no/no/Representanter-og-komiteer/Representantene/Representant/?perid=KIB,web search: Official Stortinget representative biography page for Kirsti Bergstø.,2026-11-17
+P00709,A0008,official_page,https://www.stortinget.no/no/Representanter-og-komiteer/Representantene/Representant/?perid=MARMAR,web search: Official Stortinget representative biography page for Marie Sneve Martinussen.,2026-11-17
+P00710,A0009,official_page,https://www.stortinget.no/no/Representanter-og-komiteer/Representantene/Representant/?perid=CHATHE,web search: Official Stortinget biography page for Charlotte Therkelsen (deputy MP and Mayor of Kragerø).,2026-11-17
+P00711,A0014,official_page,https://www.stortinget.no/no/Representanter-og-komiteer/Representantene/Representant/?perid=TMV,web search: Official Stortinget representative biography page for Trygve Slagsvold Vedum.,2026-11-17
+P00712,A0015,official_page,https://www.stortinget.no/no/Representanter-og-komiteer/Representantene/Representant/?perid=jgs,web search: Official Stortinget representative biography page for Jonas Gahr Støre.,2026-11-17
+P00713,A0016,official_page,https://www.stortinget.no/no/Representanter-og-komiteer/Representantene/Representant/?perid=KEKA,web search: Official Stortinget representative biography page for Kari Elisabeth Kaski.,2026-11-17
+P00714,A0017,official_page,https://www.stortinget.no/no/Representanter-og-komiteer/Representantene/Representant/?perid=MMIKRI,"web search: Found via search_web on stortinget.no; confirmed as Mímir Kristjánsson's official Stortinget MP biography page (Red Party, Finance Committee).",2026-11-17
+P00715,A0018,website,https://www.lanmarieberg.com/,web search: Found via search_web; confirmed as Lan Marie Nguyen Berg's personal website.,2026-11-17
+P00716,A0025,official_page,https://www.stortinget.no/no/Representanter-og-komiteer/Representantene/Representant/?perid=TUMO,"web search: Found via search_web on stortinget.no; confirmed as Tuva Moflag's official Stortinget MP biography page (Labour Party, Chair of Finance Committee).",2026-11-17
+P00717,A0026,official_page,https://www.stortinget.no/no/Representanter-og-komiteer/Representantene/Representant/?perid=GP,web search: Found via search_web on stortinget.no; confirmed as Geir Pollestad's official Stortinget MP biography page (Centre Party).,2026-11-17
+P00718,A0031,official_page,https://www.ntl.no/om-oss/forbundsstyret/kjersti-barsok,web search: Found via search_web on ntl.no; confirmed as Kjersti Barsok's official NTL union leadership profile page.,2026-11-17
+P00719,A0230,website,https://romaneliassen.com,web search: Found via search_web and confirmed with site:romaneliassen.com as Roman Linneberg Eliassen's personal website (HTTP 403 on direct fetch).,2026-11-17
+P00720,A0245,official_page,https://www.tankesmienagenda.no/menneskene/ole-jacob-broch,web search: Found via search_web on tankesmienagenda.no; confirmed as Ole Jacob Broch's dedicated advisor profile page.,2026-11-17
+P00721,A0018,facebook,https://www.facebook.com/lanmarieberg,linked from https://www.lanmarieberg.com/,2026-11-17
+P00722,A0018,instagram,https://www.instagram.com/lanmaries/,linked from https://www.lanmarieberg.com/,2026-11-17
+P00723,A0018,bluesky,https://bsky.app/profile/lanmarie.bsky.social,linked from https://www.lanmarieberg.com/,2026-11-17
+P00724,A0230,facebook,https://www.facebook.com/roman.le.75,linked from https://romaneliassen.com,2026-11-17
+P00725,A0230,x,https://x.com/romeliassen,linked from https://romaneliassen.com,2026-11-17
