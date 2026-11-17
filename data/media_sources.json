@@ -1,0 +1,30 @@
+[
+  {
+    "id": "pm-uk",
+    "name": "Patriotic Millionaires UK: latest news",
+    "url": "https://patrioticmillionaires.uk/latest-news",
+    "format": "squarespace",
+    "country": "gb",
+    "language": "en",
+    "note": "The group's own posts: letters, statements, polls and events, naming members and signatories. Recommended by the group (Jess Beckett, November 2026). Board members are not members of the organisation: a board member's own statement is needed, not the group's."
+  },
+  {
+    "id": "pm-us",
+    "name": "Patriotic Millionaires US: in the news",
+    "url": "https://patrioticmillionaires.org/wp-json/wp/v2/press?per_page=50",
+    "format": "wp-json",
+    "where": {"acf.details.press_type": 396},
+    "country": "us",
+    "language": "en",
+    "note": "Press coverage of the group and its members (press type 396, in the news); the URL recorded is the outlet's article. Press releases (type 395) are the group's own statements and are not read. Recommended by the group."
+  },
+  {
+    "id": "pm-ca",
+    "name": "Patriotic Millionaires Canada: media",
+    "url": "https://patrioticmillionaires.ca/media",
+    "format": "squarespace",
+    "country": "ca",
+    "language": "en",
+    "note": "Interviews, opinion pieces and podcasts by members (English and French), mostly on outlets' own sites. Recommended by the group."
+  }
+]
