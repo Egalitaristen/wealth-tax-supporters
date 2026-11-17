@@ -357,3 +357,135 @@ P00375,A0286,x,https://x.com/WWFitalia,linked from https://www.wwf.it,2026-11-16
 P00376,A0286,instagram,https://www.instagram.com/wwfitalia/,linked from https://www.wwf.it,2026-11-16
 P00377,A0286,linkedin,https://www.linkedin.com/company/wwf-italia,linked from https://www.wwf.it,2026-11-16
 P00378,A0286,youtube,https://www.youtube.com/user/WWFItalia,linked from https://www.wwf.it,2026-11-16
+P00379,A0014,website,https://guidoalfani.eu/,web search: Personal academic website verified with HTTP 200 and exact name in title and H1.,2026-11-17
+P00380,A0015,official_page,https://www.unibo.it/sitoweb/piergiorgio.ardeni/en,web search: Official University of Bologna faculty page verified with HTTP 200 and exact name in title and H1.,2026-11-17
+P00381,A0021,official_page,https://www.unibocconi.it/en/faculty/carlo-devillanova,web search: Official Bocconi University faculty profile verified with HTTP 200 and exact name in title and H1.,2026-11-17
+P00382,A0023,official_page,https://www.iulm.it/it/iulm/ateneo/docenti-e-collaboratori/Felice-Claudio-Emanuele,web search: Official IULM University faculty profile verified with HTTP 200 and name in title and H1.,2026-11-17
+P00383,A0024,official_page,https://upobook.uniupo.it/015598,web search: Official University of Eastern Piedmont (UPO) faculty profile verified with HTTP 200 and exact name in title.,2026-11-17
+P00384,A0025,website,https://fiorio.economia.unimi.it/,web search: Personal academic website hosted at University of Milan verified with HTTP 200 and exact name in title and H1.,2026-11-17
+P00385,A0026,website,https://mauriziofranzini.site.uniroma1.it/,web search: Personal academic website hosted at Sapienza University of Rome verified with HTTP 200 and exact name in H1.,2026-11-17
+P00386,A0028,website,https://elisagiuliani.it/,web search: Personal academic website found via web search; page text confirms University of Pisa.,2026-11-17
+P00387,A0029,official_page,https://giurisprudenza.uniroma3.it/persone/L3FVMlYwMGloNUhCVFVobHo1bmNFdlUvbVlwakU2TTdwbm9jYkU1WkVoUT0=/profilo/,web search: No personal website found; Roma Tre University Department of Law faculty profile confirmed.,2026-11-17
+P00388,A0030,website,https://www.marcoguerzoni.it/,web search: Personal website found via web search; links to Marco Guerzoni's academic CV (Milano-Bicocca).,2026-11-17
+P00389,A0033,official_page,https://www.luiss.it/en/university/governance/faculty/luigi-marengo,web search: No personal website found; LUISS University official faculty profile confirmed.,2026-11-17
+P00390,A0035,website,https://mauronapoletano.org/,web search: Personal academic website found via web search; confirms Université Côte d'Azur affiliation.,2026-11-17
+P00391,A0036,official_page,https://www.santannapisa.it/en/alessandro-nuvolari,web search: No personal website found; Sant'Anna School of Advanced Studies official profile confirmed.,2026-11-17
+P00392,A0038,official_page,https://www.unitelmasapienza.it/ruggero-paladini/,web search: No personal website found; UnitelmaSapienza faculty profile confirmed (mentions Sapienza).,2026-11-17
+P00393,A0039,official_page,https://www.santannapisa.it/en/elisa-palagi,web search: Personal Google Site requires login; Sant'Anna School of Advanced Studies official profile confirmed.,2026-11-17
+P00394,A0040,official_page,https://www.sns.it/en/persona/mario-pianta,web search: No personal website found; Scuola Normale Superiore official profile confirmed.,2026-11-17
+P00395,A0041,website,https://micheleraitano.site.uniroma1.it/,web search: Personal academic homepage on uniroma1.it found via web search; confirms Sapienza University of Rome.,2026-11-17
+P00396,A0042,official_page,https://www.santannapisa.it/en/andrea-roventini,web search: No personal website found; Sant'Anna School of Advanced Studies official profile confirmed.,2026-11-17
+P00397,A0044,official_page,https://www.unimib.it/alessandro-santoro,"web search: page not readable by our reader (ERR 403); identity from the title the agent saw: Università degli Studi di Milano-Bicocca - Santoro Alessandro; No personal website found; unimib.it profile blocked by Cloudflare (403), identity confirmed via search results.",2026-11-17
+P00398,A0046,website,https://www.marcovalente.eu/wp/,web search: Personal academic website found via web search; confirms University of L'Aquila affiliation.,2026-11-17
+P00399,A0047,website,https://docenti-deps.unisi.it/michelangelovasta/,web search: Personal academic homepage hosted at University of Siena DEPS found via web search.,2026-11-17
+P00400,A0053,official_page,https://www.dcps.unito.it/do/docenti.pl/Alias?filippo.barbera,"web search: page not readable by our reader (ERR URLError); identity from the title the agent saw: Filippo Barbera - Dipartimento di Culture, Politica e Società - Università degli; No personal website found; University of Turin official faculty profile confirmed.",2026-11-17
+P00401,A0054,official_page,https://upobook.uniupo.it/019674,web search: No personal website found; current institutional faculty profile at UPO (formerly taught at University of Bergamo).,2026-11-17
+P00402,A0055,official_page,https://cercachi.unifi.it/p-doc2-0-0-A-3f2b3a2f362930.html,web search: No personal website found; University of Florence official staff profile confirmed.,2026-11-17
+P00403,A0056,official_page,https://www.inet.ox.ac.uk/people/michele-bavaro,web search: No personal website found; INET Oxford official profile page confirmed.,2026-11-17
+P00404,A0058,website,https://fabioberton.weebly.com/,web search: Personal academic website on Weebly found via web search; confirms University of Turin affiliation.,2026-11-17
+P00405,A0063,official_page,https://www.unibo.it/sitoweb/vando.borghi/,web search: No personal website found; University of Bologna official faculty webpage confirmed.,2026-11-17
+P00406,A0064,official_page,https://docenti-deps.unisi.it/luigibosco/,web search: Found via web search; University of Siena DEPS faculty page confirms Luigi Bosco.,2026-11-17
+P00407,A0065,official_page,https://www.unimore.it/en/node/719,web search: Found via web search; official UNIMORE profile page confirms Paolo Bosi.,2026-11-17
+P00408,A0066,official_page,https://docenti.unisa.it/070593/home,"web search: Found via web search; moved from University of Greenwich to University of Salerno in 2025, confirmed on UNISA docenti page.",2026-11-17
+P00409,A0068,official_page,https://www.iusspavia.it/it/rubrica/alessandro-caiani,"web search: Found via web search; classic Google Site redirects to sign-in, IUSS Pavia staff page confirms Alessandro Caiani.",2026-11-17
+P00410,A0069,official_page,https://corsidilaurea.uniroma1.it/it/lecturer/129d2f11efa48e0d35842dd5b64b6b5ee8d71a5ba049222ec445087b,web search: Found via web search; Sapienza course catalogue lecturer page confirms Giuseppe Catalano.,2026-11-17
+P00411,A0070,official_page,https://dieco.uninsubria.it/it/il-dipartimento/docenti/elenco-docenti/eugenio-caverzasi,web search: Found via web search; University of Insubria DiECO faculty page confirms Eugenio Caverzasi.,2026-11-17
+P00412,A0073,official_page,https://docenti.unimc.it/fabio.clementi,web search: Found via web search; University of Macerata docenti portal confirms Fabio Clementi.,2026-11-17
+P00413,A0074,official_page,https://www.carloalberto.org/person/bruno-contini/,web search: Found via web search; Collegio Carlo Alberto (Turin) profile confirms Bruno Contini.,2026-11-17
+P00414,A0075,official_page,https://www.dss.uniroma1.it/it/dipartimento/persone/corsi-marcella,web search: Found via web search; Sapienza Department of Statistical Sciences page confirms Marcella Corsi.,2026-11-17
+P00415,A0076,official_page,https://people.unipi.it/simone_dalessandro/,web search: Found via web search; official University of Pisa people page confirms Simone D'Alessandro.,2026-11-17
+P00416,A0077,official_page,https://ebape.fgv.br/en/people/paolo-renzio,web search: page not readable by our reader (ERR URLError); identity from the title the agent saw: Paolo de Renzio | FGV EBAPE; Found via web search; FGV EBAPE faculty page confirms Paolo De Renzio.,2026-11-17
+P00417,A0078,official_page,https://docenti.unisa.it/061736/home,"web search: Found via web search; WordPress site returned 410 Gone, University of Salerno docenti page confirms Stefano Di Bucchianico.",2026-11-17
+P00418,A0080,official_page,https://www.esomas.unito.it/do/docenti.pl/Show?_id=pdimarti,web search: Found via web search; University of Turin ESOMAS faculty page confirms Paolo Di Martino.,2026-11-17
+P00419,A0081,website,https://carlodippoliti.eu/,web search: Found via web search; personal website confirms Carlo D'Ippoliti at Sapienza University of Rome.,2026-11-17
+P00420,A0082,official_page,https://cercachi.unifi.it/p-doc2-0-0-A-3f2b3429322d30-0.html,web search: Found via web search; University of Florence CercaChi profile confirms Nicola Doni.,2026-11-17
+P00421,A0083,official_page,https://expertise.unimi.it/get/person/lisa-dorigatti,web search: Found via web search; University of Milan UNIFIND profile confirms Lisa Dorigatti.,2026-11-17
+P00422,A0086,official_page,https://www.didattica-cps.unito.it/do/docenti.pl/Show?_id=mfilandr,"web search: page not readable by our reader (ERR URLError); identity from the title the agent saw: Marianna Filandri - Corsi di Studio del Dipartimento di Culture, Politica e Soci; Found via web search; University of Turin CPS faculty page confirms Marianna Filandri.",2026-11-17
+P00423,A0087,official_page,https://www.didattica-cps.unito.it/do/docenti.pl/Alias?stefano.fiori,web search: Found via web search; University of Turin CPS faculty page confirms Stefano Fiori.,2026-11-17
+P00424,A0088,official_page,https://unipv.unifind.cineca.it/get/person/007205,web search: Found via web search; University of Pavia UNIFIND profile confirms Andrea Fumagalli.,2026-11-17
+P00425,A0092,website,https://luca-giangregorio.netlify.app/,web search: Found via web search; personal academic website confirms Luca Giangregorio at Roma Tre University.,2026-11-17
+P00426,A0093,official_page,https://corsidilaurea.uniroma1.it/docente/1c3b02b48808bd34b13c97f88db2206f46f523b853542ce55bd9a009,web search: Found via web search; Sapienza course catalogue page confirms Maria Maddalena (Marilena) Giannetti.,2026-11-17
+P00427,A0094,website,https://danielegirardi.github.io/,web search: Found via web search; personal GitHub Pages site confirms Daniele Girardi at King's College London.,2026-11-17
+P00428,A0099,website,https://graziaiettogillies.wordpress.com/,web search: Found via web search; personal WordPress site confirms Grazia Ietto Gillies (economics research and publications).,2026-11-17
+P00429,A0100,website,https://robertoiacono.org/,web search: Found via web search; personal website confirms Roberto Iacono at NTNU.,2026-11-17
+P00430,A0103,official_page,https://pureportal.coventry.ac.uk/en/persons/eliana-lauretta/,web search: Found via web search; Coventry University Pure portal confirms Eliana Lauretta.,2026-11-17
+P00431,A0107,website,https://people.unipi.it/tommaso_luzzati/,web search: Found via web search; personal academic homepage at University of Pisa confirming name and role.,2026-11-17
+P00432,A0113,official_page,https://www.unimi.it/it/ugov/person/anna-mori,"web search: page not readable by our reader (ERR 403); identity from the title the agent saw: Anna Mori | Università degli Studi di Milano Statale; Found via web search; UniMi staff page returned 403 (bot-protected), search results confirm Anna Mori at University of Milan (note: UniMi lists her in Economic Sociology rather than finanza aziendale)",2026-11-17
+P00433,A0114,official_page,https://upobook.uniupo.it/guido.ortona,"web search: page not readable by our reader (ERR 403); identity from the title the agent saw: Guido Ortona - Upobook; Found via web search; UPO Upobook page returned 403 (bot-protected), search results confirm Guido Ortona, Professor of Economic Policy at University of Eastern Piedmont.",2026-11-17
+P00434,A0115,official_page,https://www.est-en.unito.it/do/docenti.pl/Alias?lia.pacelli,web search: Found via web search; official University of Turin faculty profile confirming name and economics department.,2026-11-17
+P00435,A0117,official_page,https://www.unifi.it/p-doc2-2016-0-A-2b333b303a27-0.html,"web search: page not readable by our reader (ERR 403); identity from the title the agent saw: Maria Grazia Pazienza - Università degli Studi di Firenze; Found via web search; UniFi staff page returned 403 (bot-protected), search results confirm Maria Grazia Pazienza, Professor of Scienza delle Finanze at University of Florence.",2026-11-17
+P00436,A0118,official_page,https://www.est-en.unito.it/do/docenti.pl/Alias?silvia.pasqua,web search: Found via web search; official University of Turin faculty profile confirming name and economics department.,2026-11-17
+P00437,A0121,official_page,https://docente.unife.it/paolo.pini,web search: Found via web search; official University of Ferrara faculty profile confirming name and role.,2026-11-17
+P00438,A0122,official_page,https://www.ecoaz.unito.it/do/docenti.pl/Alias?eleonora.priori,"web search: page not readable by our reader (ERR URLError); identity from the title the agent saw: Eleonora Priori - Corso di studio in Economia Aziendale - Università degli Studi; Found via web search; personal github.io site returned 404, so used verified University of Turin faculty profile.",2026-11-17
+P00439,A0123,website,https://giacomorella.github.io/,web search: Found via web search; personal GitHub Pages academic website confirming name and UQAM affiliation.,2026-11-17
+P00440,A0124,official_page,https://docenti.unimc.it/luca.riccetti,web search: Found via web search; official University of Macerata faculty profile confirming name and role.,2026-11-17
+P00441,A0134,website,https://emastruffolino.github.io/,web search: Found via web search; personal GitHub Pages academic website confirming name and University of Milan affiliation.,2026-11-17
+P00442,A0139,official_page,https://www.uniba.it/it/docenti/tedeschi-gabriele,web search: Found via web search; official University of Bari Aldo Moro faculty profile confirming name and role.,2026-11-17
+P00443,A0140,website,https://terna.to.it,web search: Found via web search; personal academic homepage confirming name and University of Turin affiliation.,2026-11-17
+P00444,A0142,website,https://vincenzovalori.altervista.org/,web search: Found via web search; personal academic website confirming name and University of Florence affiliation.,2026-11-17
+P00445,A0144,official_page,https://www.santannapisa.it/en/maria-enrica-virgillito,web search: Official Sant'Anna School of Advanced Studies faculty profile page; name and affiliation confirmed on page.,2026-11-17
+P00446,A0145,official_page,https://scienzepolitiche.uniroma3.it/persone/OGFoWFI5cXVDWjRwaUNTUWd5ZzJHN3ArWTVIYk1PalZvcmsvNXZOQ3hoYz0=/profilo/,web search: Official Roma Tre University Department of Political Science profile; sites.google.com/view/claudia-vittori redirects to Google Sign-In.,2026-11-17
+P00447,A0146,official_page,https://disse.web.uniroma1.it/it/zamparelli-luca,web search: Official Sapienza University of Rome department profile; lucazamparelli.com failed DNS resolution.,2026-11-17
+P00448,A0147,official_page,https://upobook.uniupo.it/000460,web search: Official University of Eastern Piedmont (UPO) Upobook profile page; name and affiliation confirmed.,2026-11-17
+P00449,A0149,official_page,https://www.unipd.it/contatti/mario.pomini,web search: Official University of Padua faculty contact profile page; name and affiliation confirmed.,2026-11-17
+P00450,A0156,website,https://www.enzabrunobossio.it/,web search: Personal official website found via search and confirmed by page title.,2026-11-17
+P00451,A0160,official_page,https://leg15.camera.it/cartellecomuni/leg15/include/contenitore_dati.asp?tipopagina=&deputato=d302077&source=%2Fdeputatism%2F240%2Fdocumentoxml.asp&position=DeputatiLa%20Scheda%20Personale&Pagina=Deputati/Composizione/SchedeDeputati/SchedeDeputati.asp%3Fdeputato=d302077&Vis=1&Nominativo=ACERBO%20Maurizio,web search: Official Chamber of Deputies XV Legislature member page; maurizioacerbo.it only shows a blank placeholder ('Acerbo maturo').,2026-11-17
+P00452,A0161,official_page,https://milanoincomune.it/elezioni-comunali-milano-2016/i-candidati/camposampiero-anna-bruna/,web search: Official Milano in Comune candidate profile page (headline 'Camposampiero Anna Bruna'); no personal website found.,2026-11-17
+P00453,A0167,official_page,https://www.comune.lonatepozzolo.va.it/it/persone/rosa-nadia,web search: Official Municipality of Lonate Pozzolo profile page; old nadiarosa.it domain redirects to Plesk login.,2026-11-17
+P00454,A0179,website,https://rossellamuroni.it/,web search: Personal official website found via search and confirmed by page title.,2026-11-17
+P00455,A0180,website,https://www.erasmopalazzotto.it/,web search: Personal official website found via search and confirmed by page title.,2026-11-17
+P00456,A0182,official_page,https://www.camera.it/deputati/elenco/18-305914,web search: Official Chamber of Deputies XVIII Legislature profile page; no personal website found.,2026-11-17
+P00457,A0183,official_page,https://www.camera.it/deputati/elenco/17-306101,web search: Official Chamber of Deputies XVII Legislature profile page; no personal website found.,2026-11-17
+P00458,A0184,official_page,https://www.camera.it/deputati/elenco/18-307322,web search: Official Chamber of Deputies XVIII Legislature profile page; no personal website found.,2026-11-17
+P00459,A0188,official_page,https://www.camera.it/deputati/elenco/18-305800,web search: Official Chamber of Deputies XVIII Legislature profile page; no personal website found.,2026-11-17
+P00460,A0189,official_page,https://www.camera.it/deputati/elenco/18-305604,web search: Official Chamber of Deputies XVIII Legislature profile page; no personal website found (namesake photographer silviabenedettiph.it excluded).,2026-11-17
+P00461,A0190,official_page,https://www.camera.it/deputati/elenco/17-306050,web search: Official Chamber of Deputies XVII Legislature profile page; no personal website found.,2026-11-17
+P00462,A0191,official_page,https://www.camera.it/deputati/elenco/18-305787,web search: Official Chamber of Deputies XVIII Legislature profile page; namesake filmmaker andreacecconi.com excluded.,2026-11-17
+P00463,A0192,official_page,https://www.camera.it/deputati/elenco/18-307120,web search: Official Chamber of Deputies XVIII Legislature profile page; no personal website found.,2026-11-17
+P00464,A0193,official_page,https://www.camera.it/deputati/elenco/18-306230,web search: Official Chamber of Deputies XVIII Legislature profile page; no personal website found.,2026-11-17
+P00465,A0197,official_page,https://unimore.unifind.cineca.it/resource/person/307449,web search: Official UNIMORE UNIFIND faculty profile page; name and affiliation confirmed.,2026-11-17
+P00466,A0199,official_page,https://unimore.unifind.cineca.it/get/person/113527,web search: Official UNIMORE UNIFIND faculty profile page; name and affiliation confirmed.,2026-11-17
+P00467,A0200,website,https://www.vittorioagnoletto.it/,web search: Personal official website found via search and confirmed by page title.,2026-11-17
+P00468,A0202,official_page,https://www.unibg.it/ugov/person/106849,web search: page not readable by our reader (ERR 403); identity from the title the agent saw: Loris Caruso - Università degli studi di Bergamo; Found via search_web on unibg.it (HTTP 403 bot-protected; identity confirmed from search snippet: Associate Professor of Sociology at UniBg).,2026-11-17
+P00469,A0204,website,https://www.gabrieleguzzi.it,web search: Found via search_web; fetched personal website confirming economist Gabriele Guzzi.,2026-11-17
+P00470,A0206,official_page,https://www.unipi.it/ateneo/organizzazione/persone/alessandro-volpi-4913/,web search: Found via search_web; fetched UniPi institutional profile for Alessandro Volpi (Dept. of Political Science).,2026-11-17
+P00471,A0207,official_page,https://www.unibg.it/ugov/person/1690,web search: page not readable by our reader (ERR 403); identity from the title the agent saw: Giovanna Vertova - Università degli studi di Bergamo; Found via search_web on unibg.it (HTTP 403 bot-protected; identity confirmed from search snippet: Assistant Professor in Political Economy at UniBg).,2026-11-17
+P00472,A0208,official_page,https://personale.unipr.it/ugovdocenti/person/269581,web search: Found via search_web; fetched UniPr institutional profile confirming Marta Fana.,2026-11-17
+P00473,A0209,official_page,https://www.dastu.polimi.it/it/personale/marco.peverini,web search: Found via search_web; fetched Polimi DAStU staff page confirming Marco Peverini.,2026-11-17
+P00474,A0210,official_page,https://www.giurisprudenza.unito.it/persone/alessandra.algostino,web search: page not readable by our reader (ERR URLError); identity from the title the agent saw: Alessandra Algostino - Dipartimento di Giurisprudenza - Università di Torino; Found via search_web on unito.it (timed out on direct fetch; identity confirmed from search snippet: Full Professor of Constitutional Law at UniTo).,2026-11-17
+P00475,A0213,official_page,https://unirc.unifind.cineca.it/get/person/001116,web search: Found via search_web; fetched UniRC Unifind profile for Laura Marchetti (anthropologist and former Undersecretary for the Environment).,2026-11-17
+P00476,A0214,official_page,https://www.giurisprudenza.unito.it/persone/ugo.mattei,web search: page not readable by our reader (ERR URLError); identity from the title the agent saw: Ugo Mattei - Dipartimento di Giurisprudenza - Università di Torino; Found via search_web on unito.it (timed out on direct fetch; identity confirmed from search snippet: Full Professor of Private Law at UniTo).,2026-11-17
+P00477,A0217,official_page,https://www.centre-pierre-naville.fr/enseignant-e-s-chercheur-e-s/carlotta-benvegnu/,web search: Found via search_web (surname spelled Benvegnù); fetched Centre Pierre Naville (Université d'Évry Paris-Saclay) profile.,2026-11-17
+P00478,A0218,official_page,https://conservatoriosantacecilia.it/personnel/leotta-giuseppe/,web search: Found via search_web; fetched Conservatorio Santa Cecilia faculty page confirming Giuseppe Leotta.,2026-11-17
+P00479,A0219,official_page,https://stmateriali.campusnet.unito.it/persone/alessandra.derossi,web search: page not readable by our reader (ERR URLError); identity from the title the agent saw: Alessandra De Rossi - Università di Torino; Found via search_web on unito.it (timed out on direct fetch; identity confirmed from search snippet: Full Professor of Numerical Analysis at UniTo).,2026-11-17
+P00480,A0229,website,https://www.marcorovelli.it/,web search: Found via search_web; fetched personal website of writer and singer-songwriter Marco Rovelli.,2026-11-17
+P00481,A0231,official_page,https://www.possibile.com/segretaria/,web search: Found via search_web; fetched Possibile party page for National Secretary Francesca Druetti.,2026-11-17
+P00482,A0014,x,https://x.com/guido_alfani,linked from https://guidoalfani.eu/,2026-11-17
+P00483,A0204,facebook,https://www.facebook.com/gabri.guzzi,linked from https://www.gabrieleguzzi.it,2026-11-17
+P00484,A0204,x,https://x.com/GabrieleGuzzi,linked from https://www.gabrieleguzzi.it,2026-11-17
+P00485,A0046,facebook,https://www.facebook.com/marco.valente.313,linked from https://www.marcovalente.eu/wp/,2026-11-17
+P00486,A0046,x,https://x.com/marcov64,linked from https://www.marcovalente.eu/wp/,2026-11-17
+P00487,A0123,linkedin,https://www.linkedin.com/in/giacomo-rella-a600345a,linked from https://giacomorella.github.io/,2026-11-17
+P00488,A0103,linkedin,https://www.linkedin.com/in/dr-eliana-lauretta-71444835,linked from https://pureportal.coventry.ac.uk/en/persons/eliana-lauretta/,2026-11-17
+P00489,A0094,x,https://x.com/DanieleGirardi_,linked from https://danielegirardi.github.io/,2026-11-17
+P00490,A0200,facebook,https://www.facebook.com/Vittorio-Agnoletto-101404919961,linked from https://www.vittorioagnoletto.it/,2026-11-17
+P00491,A0200,x,https://x.com/vagnoletto,linked from https://www.vittorioagnoletto.it/,2026-11-17
+P00492,A0030,facebook,https://www.facebook.com/marcoguerzoni,linked from https://www.marcoguerzoni.it/,2026-11-17
+P00493,A0180,facebook,https://www.facebook.com/erasmopalazz,linked from https://www.erasmopalazzotto.it/,2026-11-17
+P00494,A0180,x,https://x.com/EPalazzotto,linked from https://www.erasmopalazzotto.it/,2026-11-17
+P00495,A0180,instagram,https://www.instagram.com/erasmopalaz/,linked from https://www.erasmopalazzotto.it/,2026-11-17
+P00496,A0180,youtube,https://www.youtube.com/user/erasmopalazzotto,linked from https://www.erasmopalazzotto.it/,2026-11-17
+P00497,A0024,x,https://x.com/FrancescoFigari,linked from https://upobook.uniupo.it/015598,2026-11-17
+P00498,A0028,linkedin,https://www.linkedin.com/in/elisa-giuliani-019aab174,linked from https://elisagiuliani.it/,2026-11-17
+P00499,A0028,facebook,https://www.facebook.com/elisa.giuliani.127,linked from https://elisagiuliani.it/,2026-11-17
+P00500,A0028,x,https://x.com/elisagiulianitw,linked from https://elisagiuliani.it/,2026-11-17
+P00501,A0134,x,https://x.com/EmStruffolino,linked from https://emastruffolino.github.io/,2026-11-17
+P00502,A0056,x,https://x.com/MicBavaro,linked from https://www.inet.ox.ac.uk/people/michele-bavaro,2026-11-17
+P00503,A0035,x,https://x.com/mnapoletano1,linked from https://mauronapoletano.org/,2026-11-17
+P00504,A0081,facebook,https://www.facebook.com/carlo.dippoliti,linked from https://carlodippoliti.eu/,2026-11-17
+P00505,A0081,x,https://x.com/dippoliti,linked from https://carlodippoliti.eu/,2026-11-17
+P00506,A0081,linkedin,https://www.linkedin.com/in/carlo-d-ippoliti-1b71822,linked from https://carlodippoliti.eu/about/,2026-11-17
+P00507,A0156,facebook,https://www.facebook.com/brunobossioenza,linked from https://www.enzabrunobossio.it/,2026-11-17
+P00508,A0156,x,https://x.com/enzabrunobossio,linked from https://www.enzabrunobossio.it/,2026-11-17
+P00509,A0156,linkedin,https://www.linkedin.com/in/enza-bruno-bossio-9b615b115,linked from https://www.enzabrunobossio.it/,2026-11-17
+P00510,A0156,instagram,https://www.instagram.com/enzabrunobossio/,linked from https://www.enzabrunobossio.it/,2026-11-17

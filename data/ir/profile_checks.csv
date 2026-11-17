@@ -19,3 +19,10 @@ K00017,A0007,orcid,,2026-11-16,none,,no single ORCID record with the name
 K00018,A0008,orcid,,2026-11-16,none,,no single ORCID record with the name
 K00019,A0009,orcid,,2026-11-16,none,,no single ORCID record with the name
 K00020,A0001,own_site,https://staff.alzahra.ac.ir/h-raghfar,2026-11-16,error,,URLError: <urlopen error [WinError 10061] No connection could be made because the target m
+K00021,A0002,manual_search,,2026-11-17,none,,No personal website or active official Majlis profile page found in English or Persian searches.
+K00022,A0003,manual_search,https://eco.khu.ac.ir/cv/47/,2026-11-17,found,official_page,Kharazmi University faculty profile page verified with HTTP 200 and matching name in page title.
+K00023,A0006,manual_search,,2026-11-17,none,,No personal website found; IKI faculty page (asatid.iki.ac.ir/?prof=1276) had generic title without name in static HTML.
+K00024,A0007,manual_search,https://www.ias.ac.ir/fa/staff/detail/262,2026-11-17,none,,rejected https://www.ias.ac.ir/fa/staff/detail/262: the page does not carry the name; Iranian Academy of Sciences staff/visiting fellow profile verified with HTTP 200 and exact name in title.
+K00025,A0008,manual_search,,2026-11-17,none,,No personal website or institutional profile found; pecritique.com is the Critique of Political Economy journal site.
+K00026,A0009,manual_search,,2026-11-17,none,,No personal website or institutional profile found in English or Persian searches.
+K00027,A0003,own_site,https://eco.khu.ac.ir/cv/47/,2026-11-17,none,,"not added: x https://x.com/kharazmi_uni (chrome,social-block); instagram https://www.instagram.com/kharazmi_university_official/ (chrome,social-block)"

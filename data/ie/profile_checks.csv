@@ -45,3 +45,6 @@ K00043,A0007,own_site,https://www.pbp.ie/,2026-11-16,found,facebook,already list
 K00044,A0033,own_site,https://www.oireachtas.ie/,2026-11-16,none,,"not added: x https://x.com/OireachtasNews (chrome,social-block); facebook https://www.facebook.com/OireachtasNews (chrome,social-block); instagram https://www.instagram.com/oireachtas_news/ (chrome,social-block)"
 K00045,A0006,wikipedia,https://en.wikipedia.org/wiki/Cian_O%27Callaghan,2026-11-16,none,,
 K00046,A0006,wikipedia_langs,,2026-11-16,none,,no official website in the articles in other languages
+K00047,A0006,manual_search,https://www.oireachtas.ie/en/members/member/Cian-O'Callaghan.D.2020-02-08/,2026-11-17,found,official_page,Found via web search and verified by fetching; official Houses of the Oireachtas TD profile confirming Social Democrats affiliation.
+K00048,A0017,manual_search,,2026-11-17,none,,No personal website or official individual profile found; only news articles and lobbying/org mentions.
+K00049,A0006,own_site,https://www.oireachtas.ie/en/members/member/Cian-O'Callaghan.D.2020-02-08/,2026-11-17,found,facebook;instagram,"not added: facebook https://www.facebook.com/OireachtasNews (chrome,social-block); instagram https://www.instagram.com/oireachtas_news/ (chrome,social-block); x https://x.com/OireachtasNews (chrome,social-block)"

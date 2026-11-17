@@ -7,3 +7,8 @@ K00005,A0005,directory,,2026-11-16,none,,no NBER page
 K00006,A0002,wikipedia_langs,,2026-11-16,none,,no official website in the articles in other languages
 K00007,A0003,orcid,,2026-11-16,none,,no single ORCID record with the name
 K00008,A0005,orcid,https://orcid.org/0000-0001-5851-669X,2026-11-16,none,,ORCID institution does not match: none listed
+K00009,A0002,manual_search,https://www.sabor.hr/hr/zastupnici/peovic-katarina-10-saziv,2026-11-17,found,official_page,Found via search_web and verified on page; official Croatian Parliament (Sabor) 10th term MP profile.
+K00010,A0003,manual_search,,2026-11-17,none,,No personal website or dedicated official profile page found after two searches.
+K00011,A0005,manual_search,https://www.fpzg.unizg.hr/staff/luka.brkic,2026-11-17,found,official_page,"Found via search_web and verified on page; Faculty of Political Science (FPZG), University of Zagreb staff profile."
+K00012,A0005,own_site,https://www.fpzg.unizg.hr/staff/luka.brkic,2026-11-17,none,,"not added: facebook https://www.facebook.com/FPZGhr (chrome,social-block); instagram https://www.instagram.com/fpzg_zg/ (chrome,social-block); x https://x.com/fpzghr (chrome,social-block)"
+K00013,A0002,own_site,https://www.sabor.hr/hr/zastupnici/peovic-katarina-10-saziv,2026-11-17,none,,

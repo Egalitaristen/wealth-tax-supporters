@@ -11,3 +11,5 @@ P00009,A0004,website,https://www.sdp.hr/,actors.csv website column,2026-11-16
 P00010,A0001,wikipedia,https://en.wikipedia.org/wiki/Workers%27_Front_%28Croatia%29,Wikidata Q18608794,2026-11-16
 P00011,A0002,wikipedia,https://en.wikipedia.org/wiki/Katarina_Peovi%C4%87,Wikidata Q56409787,2026-11-16
 P00012,A0004,wikipedia,https://en.wikipedia.org/wiki/Social_Democratic_Party_of_Croatia,Wikidata Q830323,2026-11-16
+P00013,A0002,official_page,https://www.sabor.hr/hr/zastupnici/peovic-katarina-10-saziv,web search: Found via search_web and verified on page; official Croatian Parliament (Sabor) 10th term MP profile.,2026-11-17
+P00014,A0005,official_page,https://www.fpzg.unizg.hr/staff/luka.brkic,"web search: Found via search_web and verified on page; Faculty of Political Science (FPZG), University of Zagreb staff profile.",2026-11-17
