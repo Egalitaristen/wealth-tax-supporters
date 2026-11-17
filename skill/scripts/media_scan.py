@@ -215,7 +215,7 @@ def cmd_list(a):
     if a.limit:
         rows = rows[:a.limit]
     for r in rows:
-        print(f"{r['seen_id']} {r['source_id']:8} {r['published'] or r['first_seen']} {r['status']:8} {r['title'][:80]} | {r['url']}")
+        print(f"{r['seen_id']} {r['source_id']:8} {r['published'] or r['first_seen']} {r['status']:8} {r['title']} | {r['url']}")
     print(f"{len(rows)} of {total} articles")
 
 
@@ -237,7 +237,16 @@ def cmd_read(a):
     print("TITLE:", clean_text(title.group(1)) if title else "")
     print("DATE:", date.group(1) if date else "(not found: read it in the text)")
     body = re.search(r"<(article|main)\b.*?</\1>", text, re.S | re.I)
-    print(clean_text(body.group(0) if body else text)[:a.chars])
+    block = body.group(0) if body else text
+    links, seen_l = [], set()
+    for m in re.finditer(r"<a\b[^>]*?href=[\"']([^\"'#][^\"']*)[\"'][^>]*>(.*?)</a>", block, re.S | re.I):
+        u = urllib.parse.urljoin(final, html.unescape(m.group(1)))
+        if u.startswith("http") and u not in seen_l and not any(h in u for h in CHROME_HOSTS):
+            seen_l.add(u)
+            links.append(f"  {clean_text(m.group(2))[:60]} -> {u[:120]}")
+    print("LINKS IN THE ARTICLE:" if links else "LINKS IN THE ARTICLE: none")
+    print("\n".join(links[:15]))
+    print(clean_text(block)[:a.chars])
 
 
 def cmd_mark(a):
@@ -262,6 +271,11 @@ def cmd_sources(a):
 
 
 def main():
+    for stream in (sys.stdout, sys.stderr):
+        try:
+            stream.reconfigure(encoding="utf-8")  # Windows consoles default to cp1252 and garble typographic characters
+        except Exception:
+            pass
     ap = argparse.ArgumentParser(description=__doc__, formatter_class=argparse.RawDescriptionHelpFormatter)
     sub = ap.add_subparsers(dest="cmd", required=True)
     s = sub.add_parser("scan"); s.add_argument("--source"); s.add_argument("--dry-run", action="store_true"); s.add_argument("--delay", type=float, default=2.0); s.add_argument("--show", type=int, default=8); s.add_argument("--pages", type=int, default=2, help="pages of an API or JSON source to read (default 2; use 20 for a first full read)")
