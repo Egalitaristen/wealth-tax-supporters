@@ -41,3 +41,28 @@ K00039,A0026,orcid,,2026-11-16,none,,no single ORCID record with the name
 K00040,A0028,orcid,,2026-11-16,none,,several ORCID records with the name
 K00041,A0030,manual_search,,2026-11-16,none,,"One search only; results were only Aporrea/Rebelion reposts of its statements, no own site seen"
 K00042,A0030,manual_search,,2026-11-16,none,,Two searches found only its statements republished on Aporrea and Rebelion; no own site.
+K00043,A0002,manual_search,,2026-11-17,none,,"Searched three times across web, asambleanacional.gob.ve, and psuv.org.ve; no personal website or dedicated individual profile page found (only news mentions)."
+K00044,A0003,manual_search,,2026-11-17,none,,Searched three times across web and asambleanacional.gob.ve; no active personal website or dedicated individual profile page found.
+K00045,A0005,manual_search,,2026-11-17,none,,"Searched three times across web, asambleanacional.gob.ve, and psuv.org.ve; no personal website or dedicated individual profile page found (only news mentions)."
+K00046,A0007,manual_search,,2026-11-17,none,,"Searched twice; no personal website, union website for Fenasirtrasalud, or official profile page found."
+K00047,A0008,manual_search,,2026-11-17,none,,"Searched twice across web, asambleanacional.gob.ve, and fedeindustria.org; no active personal website or dedicated individual profile page found (old wordpress blog returned HTTP 403)."
+K00048,A0009,manual_search,,2026-11-17,none,,"Found via web search; official personal blog of Venezuelan writer Luis Britto García, confirmed by title, H1, and essays."
+K00049,A0010,manual_search,,2026-11-17,none,,Two web searches found no personal website or dedicated individual USB profile page (only a multi-faculty academic staff list and third-party article portals).
+K00050,A0011,manual_search,,2026-11-17,none,,Two web searches found no personal website or dedicated individual profile page (only the general presidential press portal prensapresidencialvenezuela.gob.ve).
+K00051,A0013,manual_search,,2026-11-17,none,,Two web searches found no personal website or dedicated individual profile page on asambleanacional.gob.ve or psuv.org.ve.
+K00052,A0014,manual_search,,2026-11-17,none,,Two web searches found no personal website/blog or dedicated individual profile page on asambleanacional.gob.ve or psuv.org.ve.
+K00053,A0015,manual_search,,2026-11-17,none,,Two web searches found no personal website or blog for the Venezuelan tax lawyer (a Blogspot result belonged to an unrelated animator namesake).
+K00054,A0016,manual_search,,2026-11-17,none,,Two web searches found no personal website/blog or dedicated UBV profile page (third-party commentary blogs and namesakes excluded).
+K00055,A0017,manual_search,https://www.mariaespueblo.com/,2026-11-17,found,website,"Found via web search and verified on the live page: personal website of María Alejandra Díaz Marín featuring her biography, legal/economic/political articles, and Proyecto País."
+K00056,A0018,manual_search,,2026-11-17,none,,Found via web search and verified on the live page: personal blog of Mario Silva García linking to @LaHojillaenTV and La Hojilla content.
+K00057,A0019,manual_search,,2026-11-17,none,,"Found via web search and verified on the live page: personal Google Sites CV and articles page for Dr. Vladimir Adrianza Salas, university professor and international analyst."
+K00058,A0020,manual_search,,2026-11-17,none,,Two web searches and page inspection found no personal website; poli-data.com is a multi-consultant firm site rather than Andrés Giussepe's personal homepage.
+K00059,A0021,manual_search,,2026-11-17,none,,Two web searches found no personal website/blog or dedicated individual parliamentary profile page.
+K00060,A0022,manual_search,,2026-11-17,none,,Two web searches found no personal website/blog or dedicated individual UCV profile page (jvalencianos.wordpress.com is a third-party tribute blog).
+K00061,A0023,manual_search,,2026-11-17,none,,Two web searches found no personal website/blog; only contributor articles on redangostura.org.ve.
+K00062,A0024,manual_search,,2026-11-17,none,,Two web searches found no personal website/blog or dedicated individual profile page (only general ministry news on mpppst.gob.ve).
+K00063,A0025,manual_search,,2026-11-17,none,,Two web searches found no personal website/blog or dedicated university profile page.
+K00064,A0026,manual_search,,2026-11-17,none,,Two web searches found no personal website/blog; only contributor articles on redangostura.org.ve and other portals.
+K00065,A0027,manual_search,,2026-11-17,none,,Two web searches found no personal website/blog or dedicated individual profile page on asambleanacional.gob.ve or psuv.org.ve.
+K00066,A0028,manual_search,,2026-11-17,none,,Two web searches found no personal website/blog; only contributor articles on aporrea.org and other portals.
+K00067,A0017,own_site,https://www.mariaespueblo.com/,2026-11-17,none,,

@@ -114,3 +114,5 @@ K00112,A0011,own_site,https://www.psparlamento.pt/deputado/antonio-mendonca-mend
 K00113,A0006,own_site,https://partidolivre.pt/primarias-legislativas-2024/porto/jorge-pinto,2026-11-17,none,,not added: instagram https://www.instagram.com/partidolivre/ (social-block); facebook https://www.facebook.com/LIVREoficialpt (social-block); youtube https://www.youtube.com/user/LIVREoficialpt (social-block); linkedin https://www.linkedin.com/company/partidolivre (social-block); tiktok https://www.tiktok.com/
 K00114,A0014,own_site,https://www.parlamento.pt/DeputadoGP/Paginas/Biografia.aspx?BID=1554,2026-11-17,none,,
 K00115,A0027,own_site,https://www.antoniofilipe2026.pt/,2026-11-17,found,facebook;x;instagram;youtube,
+K00116,A0013,manual_search,https://www.parlamento.pt/DeputadoGP/Paginas/Biografia.aspx?BID=6661,2026-11-17,found,official_page,"Found via web search; verified official Assembleia da República biography page (BID=6661) HTTP 200 containing ""Carlos Brás"" and ""PS""."
+K00117,A0013,own_site,https://www.parlamento.pt/DeputadoGP/Paginas/Biografia.aspx?BID=6661,2026-11-17,none,,
