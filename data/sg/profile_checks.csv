@@ -23,3 +23,11 @@ K00021,A0008,orcid,,2026-11-16,none,,several ORCID records with the name
 K00022,A0010,orcid,,2026-11-16,none,,several ORCID records with the name
 K00023,A0017,orcid,,2026-11-16,none,,no single ORCID record with the name
 K00024,A0027,orcid,,2026-11-16,none,,several ORCID records with the name
+K00025,A0008,manual_search,https://researchportal.hkust.edu.hk/en/persons/donald-low/,2026-11-17,found,official_page,Found via search_web; confirmed HKUST faculty research portal profile for Donald Low.
+K00026,A0010,manual_search,https://michiganross.umich.edu/faculty-research/faculty/linda-lim,2026-11-17,found,official_page,"Found via search_web; page returned HTTP 403 on fetch, but search results clearly identify it as Linda Y. C. Lim's Michigan Ross faculty profile."
+K00027,A0017,manual_search,https://teoyouyenn.sg/,2026-11-17,found,website,"Found via search_web (and site:teoyouyenn.sg); page returned HTTP 403 on fetch, but search results clearly confirm it as Teo You Yenn's personal academic website."
+K00028,A0027,manual_search,https://www.climate.ox.ac.uk/people/bhavya-gupta,2026-11-17,found,official_page,"Found via search_web; confirmed academic profile for Dr. Bhavya Gupta (NUS LKYSPP PhD 2024, now at Oxford)."
+K00029,A0027,own_site,https://www.climate.ox.ac.uk/people/bhavya-gupta,2026-11-17,none,,
+K00030,A0017,own_site,https://teoyouyenn.sg/,2026-11-17,none,,not added: instagram https://www.instagram.com/ethosbooks/ (); instagram https://www.instagram.com/cssi.sg/ (); facebook https://www.facebook.com/grassrootsbookroom ()
+K00031,A0008,own_site,https://researchportal.hkust.edu.hk/en/persons/donald-low/,2026-11-17,none,,
+K00032,A0010,own_site,https://michiganross.umich.edu/faculty-research/faculty/linda-lim,2026-11-17,blocked,,403 at https://michiganross.umich.edu/faculty-research/faculty/linda-lim

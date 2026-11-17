@@ -27,3 +27,7 @@ P00035,A0019,website,https://klimatickakoalicia.sk/,actors.csv website column,20
 P00036,A0013,facebook,https://www.facebook.com/ChmelarEduard,Wikidata Q13407393,2026-11-16
 P00037,A0013,wikipedia,https://en.wikipedia.org/wiki/Eduard_Chmel%C3%A1r,Wikidata Q13407393,2026-11-16
 P00038,A0013,website,https://www.socialisti.sk/domov,Wikipedia infobox https://en.wikipedia.org/wiki/Socialisti.sk,2026-11-16
+P00039,A0002,website,https://monikabenova.sk/,"web search: Found via web search; confirmed personal website of MEP Monika Beňová (Smer-SD, S&D) on homepage.",2026-11-17
+P00040,A0014,official_page,https://www.europarl.europa.eu/meps/en/257005/LUBOS_BLAHA/home,"web search: Official European Parliament MEP profile found via search; automated fetch returned HTTP 403, identity confirmed from search results (MEP, Smer-SD).",2026-11-17
+P00041,A0015,official_page,https://www.europarl.europa.eu/meps/en/257007/ERIK_KALINAK/home,"web search: Official European Parliament MEP profile found via search; automated fetch returned HTTP 403, identity confirmed from search results (MEP, Smer-SD).",2026-11-17
+P00042,A0016,official_page,https://www.europarl.europa.eu/meps/en/198373/JUDITA_LASSAKOVA/home,"web search: Official European Parliament MEP profile found via search; automated fetch returned HTTP 403, identity confirmed from search results (MEP, Smer-SD).",2026-11-17

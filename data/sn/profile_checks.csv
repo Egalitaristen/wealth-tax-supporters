@@ -1,3 +1,5 @@
 check_id,actor_id,method,url,checked,result,found,note
 K00001,A0001,wikipedia,https://en.wikipedia.org/wiki/Aminata_Tour%C3%A9_%28Senegalese_politician%29,2026-11-16,none,,
 K00002,A0001,wikipedia_langs,,2026-11-16,none,,no official website in the articles in other languages
+K00003,A0001,manual_search,https://www.vie-publique.sn/etat-senegal/premiers-ministres/aminata-toure,2026-11-17,found,official_page,Found via web search; official Senegalese government portal profile confirming Aminata Touré as former Prime Minister (2013-2014).
+K00004,A0001,own_site,https://www.vie-publique.sn/etat-senegal/premiers-ministres/aminata-toure,2026-11-17,none,,"not added: linkedin https://www.linkedin.com/company/vie-publique-sn (chrome,social-block); linkedin https://www.linkedin.com/in/rabyatou-diallo (); linkedin https://www.linkedin.com/in/assane-momar-diouf-a4b4b0a4 (); linkedin https://www.linkedin.com/in/modou-fall-sn (); linkedin https://www.linkedin.com/in/c"

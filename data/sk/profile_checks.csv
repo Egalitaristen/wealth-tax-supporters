@@ -19,3 +19,15 @@ K00017,A0002,wikipedia_langs,,2026-11-16,none,,no official website in the articl
 K00018,A0001,orcid,,2026-11-16,none,,no single ORCID record with the name
 K00019,A0005,orcid,https://orcid.org/0009-0006-6740-8096,2026-11-16,none,,"record found, no website listed"
 K00020,A0017,orcid,,2026-11-16,none,,no single ORCID record with the name
+K00021,A0001,manual_search,,2026-11-17,none,,"No personal website or active official profile found after two searches (nrsr.sk blocked by bot detection, unece.org returned 403)."
+K00022,A0002,manual_search,https://monikabenova.sk/,2026-11-17,found,website,"Found via web search; confirmed personal website of MEP Monika Beňová (Smer-SD, S&D) on homepage."
+K00023,A0005,manual_search,,2026-11-17,none,,No personal website or official institutional profile found after two searches (only union articles on kozsr.sk).
+K00024,A0014,manual_search,https://www.europarl.europa.eu/meps/en/257005/LUBOS_BLAHA/home,2026-11-17,found,official_page,"Official European Parliament MEP profile found via search; automated fetch returned HTTP 403, identity confirmed from search results (MEP, Smer-SD)."
+K00025,A0015,manual_search,https://www.europarl.europa.eu/meps/en/257007/ERIK_KALINAK/home,2026-11-17,found,official_page,"Official European Parliament MEP profile found via search; automated fetch returned HTTP 403, identity confirmed from search results (MEP, Smer-SD)."
+K00026,A0016,manual_search,https://www.europarl.europa.eu/meps/en/198373/JUDITA_LASSAKOVA/home,2026-11-17,found,official_page,"Official European Parliament MEP profile found via search; automated fetch returned HTTP 403, identity confirmed from search results (MEP, Smer-SD)."
+K00027,A0017,manual_search,,2026-11-17,none,,No personal website or official institutional profile found after two searches (only mentions on klimatickakoalicia.sk).
+K00028,A0018,manual_search,,2026-11-17,none,,No personal website or official institutional profile found after two searches (only mentions on klimatickakoalicia.sk and pilnet.org).
+K00029,A0015,own_site,https://www.europarl.europa.eu/meps/en/257007/ERIK_KALINAK/home,2026-11-17,blocked,,403 at https://www.europarl.europa.eu/meps/en/257007/ERIK_KALINAK/home
+K00030,A0002,own_site,https://monikabenova.sk/,2026-11-17,none,,"already listed: facebook,instagram"
+K00031,A0016,own_site,https://www.europarl.europa.eu/meps/en/198373/JUDITA_LASSAKOVA/home,2026-11-17,blocked,,403 at https://www.europarl.europa.eu/meps/en/198373/JUDITA_LASSAKOVA/home
+K00032,A0014,own_site,https://www.europarl.europa.eu/meps/en/257005/LUBOS_BLAHA/home,2026-11-17,blocked,,403 at https://www.europarl.europa.eu/meps/en/257005/LUBOS_BLAHA/home

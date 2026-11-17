@@ -3132,3 +3132,155 @@ P03138,A0820,youtube,https://www.youtube.com/@dsasandiego,linked from https://ds
 P03139,A0826,facebook,https://www.facebook.com/advancingct,linked from https://act-ct.org,2026-11-16
 P03140,A0826,x,https://x.com/advancingct,linked from https://act-ct.org,2026-11-16
 P03141,A0826,instagram,https://www.instagram.com/advancingct/,linked from https://act-ct.org,2026-11-16
+P03142,A0119,website,https://chrisrogersforassembly.com/,"web search: Found via search_web; official campaign website for California State Assemblymember Chris Rogers (AD-2), confirmed by title and H1.",2026-11-17
+P03143,A0121,website,https://solacheforassembly.com/,"web search: Found via search_web; official campaign website for California State Assemblymember Jose Solache (AD-62), confirmed by title.",2026-11-17
+P03144,A0122,website,https://votejuancarrillo.com/,"web search: Found via search_web as official campaign website for California State Assemblymember Juan Carrillo (AD-39); automated fetch returned HTTP 403 Forbidden, but search results clearly confirm identity (c",2026-11-17
+P03145,A0127,website,https://www.eduardoformayor.com/,"web search: Found via search_web; official campaign website for Richmond Mayor Eduardo Martinez, confirmed by title.",2026-11-17
+P03146,A0188,official_page,https://www.hayward-ca.gov/your-government/city-council/council-member-julie-roche,web search: Found via search_web; official Hayward City Council profile for Julie Roche (listed as 'Julie Y' in batch; julieforhayward.com failed DNS).,2026-11-17
+P03147,A0192,website,https://www.konstantineanthony.com/,"web search: Found via Google search; opened page (title: Better Burbank Ballot Measure Committee, h1: Hi, I’m Konstantine. (he/him)) confirming Konstantine Anthony's personal/campaign site (Burbank, Democratic Pa",2026-11-17
+P03148,A0247,website,https://www.chyannechen.com/,"web search: Found via Google search (Chyanne Chen for Supervisor); URL carries exact name and returns HTTP 200 (Wix JS-rendered, empty static title).",2026-11-17
+P03149,A0254,official_page,https://www.contracosta.ca.gov/7978/District-4-Ken-Carlson,"web search: Found via Google search; official Contra Costa County District 4 Supervisor page (returned HTTP 403 on automated fetch, identity clear from search results).",2026-11-17
+P03150,A0258,website,https://ottolee.org/,web search: Found via Google search; opened site confirming Santa Clara County Supervisor Otto Lee.,2026-11-17
+P03151,A0374,website,https://electchipalo.com/,web search: Found via Google search; opened campaign site confirming WA State Representative Chipalo Street.,2026-11-17
+P03152,A0379,website,https://emilyalvarado.com/,"web search: Found via Google search; opened campaign site confirming WA State Senator Emily Alvarado (District 34, Democratic).",2026-11-17
+P03153,A0380,website,https://votejessicabateman.com/,web search: Found via Google search; opened campaign site confirming WA State Senator Jessica Bateman.,2026-11-17
+P03154,A0382,website,https://www.lizlovelett.org/,"web search: Found via Google search; opened campaign site confirming WA State Senator Liz Lovelett (District 40, Democrat).",2026-11-17
+P03155,A0383,website,https://votetwinanobles.com/,web search: Found via Google search; opened campaign site (redirected from twinanobles.com) confirming WA State Senator T'wina Nobles.,2026-11-17
+P03156,A0388,website,https://www.peopleforyasmin.com/,web search: Found via Google search; opened campaign site (redirected from yasmintrudeau.com) confirming WA State Senator Yasmin Trudeau.,2026-11-17
+P03157,A0389,website,https://www.javiervaldez.com/,web search: Found via Google search; opened campaign site confirming WA State Senator Javier Valdez.,2026-11-17
+P03158,A0393,website,https://www.senatorchang.com/,web search: Found via Google search; opened personal office/legislative site confirming Hawaii State Senator Stanley Chang.,2026-11-17
+P03159,A0394,website,https://karinavilla.com/,web search: Found via Google search; opened campaign site confirming Illinois State Senator Karina Villa.,2026-11-17
+P03160,A0409,website,https://jayxiong.org/,web search: Found via Google search; opened campaign site confirming MN State Representative Jay Xiong (District 67B).,2026-11-17
+P03161,A0410,website,https://www.anquam62b.com/,web search: Found via Google search; opened campaign site confirming MN State Representative Anquam Mahamoud (District 62B).,2026-11-17
+P03162,A0416,website,https://www.katiejones.org/,web search: Found via Google search; opened campaign site confirming MN State Representative Katie Jones.,2026-11-17
+P03163,A0417,website,https://votepete8a.com/,web search: Found via Google search; opened campaign site confirming MN State Representative Pete Johnson (District 8A).,2026-11-17
+P03164,A0426,website,https://www.voterobertjackson.com/,web search: Found via Google search; opened campaign site confirming NY State Senator Robert Jackson.,2026-11-17
+P03165,A0427,website,https://briankavanagh.org/,web search: Found via Google search; opened campaign site confirming NY State Senator Brian Kavanagh.,2026-11-17
+P03166,A0429,website,https://www.rachelmayforsenate.org/,web search: Found via Google search; opened campaign site confirming NY State Senator Rachel May.,2026-11-17
+P03167,A0434,website,https://jamessandersjr.com/,"web search: Found via Google search; official/campaign site for NY State Senator James Sanders Jr. (returned HTTP 403 on automated fetch, identity clear from search results).",2026-11-17
+P03168,A0435,official_page,https://www.nysenate.gov/senators/luis-r-sepulveda,"web search: Found via Google search; official NY State Senate profile for Luis R. Sepúlveda (returned HTTP 403 on automated fetch, identity clear from search results).",2026-11-17
+P03169,A0436,official_page,https://www.nysenate.gov/senators/jose-m-serrano,"web search: Found via Google search; official NY State Senate profile for José M. Serrano (returned HTTP 403 on automated fetch, identity clear from search results).",2026-11-17
+P03170,A0437,website,https://www.annakelles.com/,web search: Found via Google search; opened campaign/personal site confirming NY State Assemblymember Anna R. Kelles.,2026-11-17
+P03171,A0438,website,https://sarahanaforassembly.com/,web search: Found via Google search; opened campaign site via curl confirming NY State Assemblymember Sarahana Shrestha.,2026-11-17
+P03172,A0449,official_page,https://nyassembly.gov/mem/Manny-De-Los-Santos,web search: Found via Google search; opened official NY State Assembly page confirming Manny De Los Santos (District 72).,2026-11-17
+P03173,A0450,website,https://khaleelanderson.com/,web search: Found via Google search; opened campaign site confirming NY State Assemblymember Khaleel M. Anderson (District 31).,2026-11-17
+P03174,A0451,official_page,https://nyassembly.gov/mem/Linda-B-Rosenthal,web search: Found via Google search; opened official NY State Assembly page confirming Linda B. Rosenthal (District 67).,2026-11-17
+P03175,A0456,official_page,https://nyassembly.gov/mem/Nader-J-Sayegh,web search: No personal/campaign website found after two searches; verified official NY State Assembly member page.,2026-11-17
+P03176,A0457,official_page,https://council.nyc.gov/harvey-epstein/,web search: Campaign site peopleforharvey.com returned 404; verified official NYC Council profile page (moved from NY Assembly).,2026-11-17
+P03177,A0458,website,https://votedemondmeeks.com/,web search: Campaign website returned 403 Forbidden on fetch; search results and domain name clearly confirm identity as NY Assemblymember Demond Meeks.,2026-11-17
+P03178,A0460,website,https://www.tiaramackdistrict6.com/,web search: Found via web search and verified title on her campaign website for RI Senate District 6.,2026-11-17
+P03179,A0461,official_page,https://www.rilegislature.gov/senators/acosta/Pages/Biography.aspx,"web search: No active personal/campaign site found after two searches; RI General Assembly page timed out on fetch, identity clear from search results.",2026-11-17
+P03180,A0462,website,https://www.alana4ri.com/,web search: Found via web search and verified title on her campaign website.,2026-11-17
+P03181,A0464,website,https://pamlauria.com/,web search: Found via web search and verified title and H1 on her campaign website.,2026-11-17
+P03182,A0465,website,https://www.emiliekornheiser.org/,web search: Found via web search and verified title on her campaign website.,2026-11-17
+P03183,A0471,official_page,https://oregoned.org/about-oea/our-leadership/our-president,web search: No personal website found after two searches; verified official OEA President profile page.,2026-11-17
+P03184,A0472,website,https://www.workinglife.org/,web search: Found via web search and verified title on Jonathan Tasini's personal blog/site.,2026-11-17
+P03185,A0474,website,https://rachelfventura.com/,web search: Found via web search; redirects to her campaign site titled Elect Ventura.,2026-11-17
+P03186,A0475,website,https://www.cervantesforilsenate.com/,web search: Found via web search and verified title on his campaign website.,2026-11-17
+P03187,A0476,website,https://adrianejohnsonforil.com/,web search: Found via web search and verified title on her campaign website.,2026-11-17
+P03188,A0478,website,https://markwalker4illinois.com/,web search: Found via web search; confirmed via search results to be IL State Senator Mark L. Walker's campaign site.,2026-11-17
+P03189,A0479,website,https://ramforsenate.com/,web search: Campaign website returned 403 Forbidden on fetch; search results clearly confirm identity as IL State Senator Ram Villivalam.,2026-11-17
+P03190,A0480,website,https://www.senatorhunter.com/,web search: Official legislative website timed out on fetch; search results clearly confirm identity as IL State Senator Mattie Hunter (District 3).,2026-11-17
+P03191,A0481,website,https://lakesiacollinsforsenate.com/,web search: Found via web search and verified title on her campaign website.,2026-11-17
+P03192,A0482,website,https://electpreston.com/,web search: Found via web search and confirmed Willie Preston's name and Illinois campaign on the page.,2026-11-17
+P03193,A0483,website,https://www.senatornapoleonharris.com/,web search: Official legislative website timed out on fetch; search results and domain clearly confirm identity as IL State Senator Napoleon Harris III.,2026-11-17
+P03194,A0484,website,https://www.emiljones.com/,web search: Found via web search and verified title on his campaign website.,2026-11-17
+P03195,A0485,website,https://www.mikesimmons.org/,web search: Found via web search and verified title on his campaign website.,2026-11-17
+P03196,A0486,website,https://www.theresamah.com/,web search: Found via web search and verified title on her campaign website.,2026-11-17
+P03197,A0488,website,https://www.votejoycemason.com/,web search: Found via web search and verified title on her campaign website.,2026-11-17
+P03198,A0490,website,https://www.drmikecrawford.com/,web search: Found via web search and verified title on his campaign website.,2026-11-17
+P03199,A0491,website,https://sonyaforillinois.com/,web search: Found via web search and confirmed 6th District IL House campaign on the page.,2026-11-17
+P03200,A0492,website,https://www.lisajdavisfor32.com/,web search: Found via web search and verified title on her campaign website.,2026-11-17
+P03201,A0493,website,https://www.aaronortiz.org/,web search: Found via web search and verified title on his campaign website.,2026-11-17
+P03202,A0497,website,https://www.jeannekapela.com/,web search: Found via web search and verified title on her campaign website.,2026-11-17
+P03203,A0498,website,https://terezamato.nationbuilder.com/,web search: Found via web search and verified title on her campaign website.,2026-11-17
+P03204,A0498,facebook,https://www.facebook.com/TerezAmato,linked from https://terezamato.nationbuilder.com/,2026-11-17
+P03205,A0493,x,https://x.com/OrtizStateRep,linked from https://www.aaronortiz.org/,2026-11-17
+P03206,A0374,facebook,https://www.facebook.com/electchipalo,linked from https://electchipalo.com/,2026-11-17
+P03207,A0374,x,https://x.com/ElectChipalo,linked from https://electchipalo.com/,2026-11-17
+P03208,A0374,instagram,https://www.instagram.com/electchipalo/,linked from https://electchipalo.com/,2026-11-17
+P03209,A0192,facebook,https://www.facebook.com/konstantineanthony,linked from https://www.konstantineanthony.com/,2026-11-17
+P03210,A0450,facebook,https://www.facebook.com/Khaleelanderson4thepeople,linked from https://khaleelanderson.com/,2026-11-17
+P03211,A0450,x,https://x.com/khaleelanderson,linked from https://khaleelanderson.com/,2026-11-17
+P03212,A0450,instagram,https://www.instagram.com/khaleelanderson/,linked from https://khaleelanderson.com/,2026-11-17
+P03213,A0438,bluesky,https://bsky.app/profile/sarahana.bsky.social,linked from https://sarahanaforassembly.com/,2026-11-17
+P03214,A0438,instagram,https://www.instagram.com/sarahanaforassembly/,linked from https://sarahanaforassembly.com/,2026-11-17
+P03215,A0438,facebook,https://www.facebook.com/SarahanaForAssembly,linked from https://sarahanaforassembly.com/,2026-11-17
+P03216,A0438,x,https://x.com/sarahana,linked from https://sarahanaforassembly.com/,2026-11-17
+P03217,A0476,facebook,https://www.facebook.com/AdrianeJohnsonforSenate,linked from https://adrianejohnsonforil.com/,2026-11-17
+P03218,A0258,facebook,https://www.facebook.com/voteottolee,linked from https://ottolee.org/,2026-11-17
+P03219,A0258,instagram,https://www.instagram.com/ottolee3/,linked from https://ottolee.org/,2026-11-17
+P03220,A0465,facebook,https://www.facebook.com/EmilieKforBrattleboro,linked from https://www.emiliekornheiser.org/,2026-11-17
+P03221,A0465,instagram,https://www.instagram.com/emiliekornheiser/,linked from https://www.emiliekornheiser.org/,2026-11-17
+P03222,A0427,x,https://x.com/BrianKavanaghNY,linked from https://briankavanagh.org/,2026-11-17
+P03223,A0437,facebook,https://www.facebook.com/annakellesNY,linked from https://www.annakelles.com/,2026-11-17
+P03224,A0437,instagram,https://www.instagram.com/kelles4ny/,linked from https://www.annakelles.com/,2026-11-17
+P03225,A0379,facebook,https://www.facebook.com/emilyforwa,linked from https://emilyalvarado.com/,2026-11-17
+P03226,A0379,instagram,https://www.instagram.com/emilyforwa/,linked from https://emilyalvarado.com/,2026-11-17
+P03227,A0475,facebook,https://www.facebook.com/cervantesforilsenate,linked from https://www.cervantesforilsenate.com/,2026-11-17
+P03228,A0475,instagram,https://www.instagram.com/cervantesforilsenate/,linked from https://www.cervantesforilsenate.com/,2026-11-17
+P03229,A0497,facebook,https://www.facebook.com/kapelajeanne,linked from https://www.jeannekapela.com/,2026-11-17
+P03230,A0497,instagram,https://www.instagram.com/jeanneforhawaii/,linked from https://www.jeannekapela.com/,2026-11-17
+P03231,A0119,facebook,https://www.facebook.com/ChrisRogersForAssembly,linked from https://chrisrogersforassembly.com/,2026-11-17
+P03232,A0119,instagram,https://www.instagram.com/chrisrogersforassembly/,linked from https://chrisrogersforassembly.com/,2026-11-17
+P03233,A0481,facebook,https://www.facebook.com/sencollins5,linked from https://lakesiacollinsforsenate.com/,2026-11-17
+P03234,A0481,instagram,https://www.instagram.com/senlakesiacollins/,linked from https://lakesiacollinsforsenate.com/,2026-11-17
+P03235,A0478,x,https://x.com/MarkWalker4IL,linked from https://markwalker4illinois.com/,2026-11-17
+P03236,A0393,instagram,https://www.instagram.com/stanleypchang/,linked from https://www.senatorchang.com/,2026-11-17
+P03237,A0393,x,https://x.com/stanleypchang,linked from https://www.senatorchang.com/,2026-11-17
+P03238,A0393,youtube,https://www.youtube.com/user/spchang,linked from https://www.senatorchang.com/,2026-11-17
+P03239,A0410,facebook,https://www.facebook.com/people/Anquam-Mahamoud-for-MN-House-62B/61556582768507,linked from https://www.anquam62b.com/,2026-11-17
+P03240,A0410,x,https://x.com/anquam62b,linked from https://www.anquam62b.com/,2026-11-17
+P03241,A0410,linkedin,https://www.linkedin.com/in/anquam-mahamoud,linked from https://www.anquam62b.com/,2026-11-17
+P03242,A0417,facebook,https://www.facebook.com/PeteJohnsonMN8A,linked from https://votepete8a.com/,2026-11-17
+P03243,A0417,instagram,https://www.instagram.com/pete_johnson_mn_8a/,linked from https://votepete8a.com/,2026-11-17
+P03244,A0417,x,https://x.com/PeteJ_MN8A,linked from https://votepete8a.com/,2026-11-17
+P03245,A0417,youtube,https://www.youtube.com/@PeteJohnsonMN8A,linked from https://votepete8a.com/,2026-11-17
+P03246,A0389,facebook,https://www.facebook.com/javiervaldezforstatesenate,linked from https://www.javiervaldez.com/,2026-11-17
+P03247,A0488,x,https://x.com/votejoycemason,linked from https://www.votejoycemason.com/,2026-11-17
+P03248,A0488,facebook,https://www.facebook.com/votejoycemason,linked from https://www.votejoycemason.com/,2026-11-17
+P03249,A0382,facebook,https://www.facebook.com/Liz-Lovelett-For-Senate-554336384972261,linked from https://www.lizlovelett.org/,2026-11-17
+P03250,A0382,instagram,https://www.instagram.com/lizlovelettforsenate/,linked from https://www.lizlovelett.org/,2026-11-17
+P03251,A0416,x,https://x.com/katiejonesmpls,linked from https://www.katiejones.org/,2026-11-17
+P03252,A0416,instagram,https://www.instagram.com/katiejonesmpls/,linked from https://www.katiejones.org/,2026-11-17
+P03253,A0416,linkedin,https://www.linkedin.com/in/katiejonesmpls,linked from https://www.katiejones.org/,2026-11-17
+P03254,A0449,x,https://x.com/AMDeLosSantos72,linked from https://nyassembly.gov/mem/Manny-De-Los-Santos,2026-11-17
+P03255,A0449,instagram,https://www.instagram.com/amdelossantos72/,linked from https://nyassembly.gov/mem/Manny-De-Los-Santos,2026-11-17
+P03256,A0449,facebook,https://www.facebook.com/AssemblymanMannyDeLosSantos,linked from https://nyassembly.gov/mem/Manny-De-Los-Santos,2026-11-17
+P03257,A0388,facebook,https://www.facebook.com/peopleforyasmin,linked from https://www.peopleforyasmin.com/,2026-11-17
+P03258,A0388,instagram,https://www.instagram.com/senatoryasmintrudeau/,linked from https://www.peopleforyasmin.com/,2026-11-17
+P03259,A0388,x,https://x.com/Yasminsvoice,linked from https://www.peopleforyasmin.com/,2026-11-17
+P03260,A0482,instagram,https://www.instagram.com/senator_preston16/,linked from https://electpreston.com/,2026-11-17
+P03261,A0482,facebook,https://www.facebook.com/willie.preston.750,linked from https://electpreston.com/,2026-11-17
+P03262,A0482,x,https://x.com/preston4usrep,linked from https://electpreston.com/,2026-11-17
+P03263,A0482,youtube,https://www.youtube.com/@PrestonforCongress,linked from https://electpreston.com/,2026-11-17
+P03264,A0394,facebook,https://www.facebook.com/KarinaVillaforIllinoisSenate,linked from https://karinavilla.com/,2026-11-17
+P03265,A0394,x,https://x.com/Citizens4Karina,linked from https://karinavilla.com/,2026-11-17
+P03266,A0394,instagram,https://www.instagram.com/karinaforil/,linked from https://karinavilla.com/,2026-11-17
+P03267,A0486,x,https://x.com/theresamah4rep,linked from https://www.theresamah.com/,2026-11-17
+P03268,A0486,facebook,https://www.facebook.com/ReelectTheresaMah,linked from https://www.theresamah.com/,2026-11-17
+P03269,A0486,instagram,https://www.instagram.com/votetheresamah/,linked from https://www.theresamah.com/,2026-11-17
+P03270,A0247,instagram,https://www.instagram.com/chyannechensf/,linked from https://www.chyannechen.com/,2026-11-17
+P03271,A0247,facebook,https://www.facebook.com/chyannechenforsf,linked from https://www.chyannechen.com/,2026-11-17
+P03272,A0474,facebook,https://www.facebook.com/electventura,linked from https://rachelfventura.com/,2026-11-17
+P03273,A0474,instagram,https://www.instagram.com/electventura/,linked from https://rachelfventura.com/,2026-11-17
+P03274,A0460,instagram,https://www.instagram.com/mackdistrict6/,linked from https://www.tiaramackdistrict6.com/,2026-11-17
+P03275,A0460,facebook,https://www.facebook.com/MackDistrict6,linked from https://www.tiaramackdistrict6.com/,2026-11-17
+P03276,A0460,bluesky,https://bsky.app/profile/mackdistrict6.bsky.social,linked from https://www.tiaramackdistrict6.com/,2026-11-17
+P03277,A0426,instagram,https://www.instagram.com/robertjackson_ny/,linked from https://www.voterobertjackson.com/,2026-11-17
+P03278,A0426,facebook,https://www.facebook.com/VoteRobertJackson,linked from https://www.voterobertjackson.com/,2026-11-17
+P03279,A0426,tiktok,https://www.tiktok.com/@senatorrobertjackson,linked from https://www.voterobertjackson.com/,2026-11-17
+P03280,A0434,facebook,https://www.facebook.com/StateSenatorJamesSandersJr,linked from https://jamessandersjr.com/,2026-11-17
+P03281,A0434,x,https://x.com/jsandersnyc,linked from https://jamessandersjr.com/,2026-11-17
+P03282,A0434,instagram,https://www.instagram.com/senator.james.sanders/,linked from https://jamessandersjr.com/,2026-11-17
+P03283,A0462,facebook,https://www.facebook.com/Alana4RI,linked from https://www.alana4ri.com/,2026-11-17
+P03284,A0462,bluesky,https://bsky.app/profile/alanadimario.bsky.social,linked from https://www.alana4ri.com/,2026-11-17
+P03285,A0121,facebook,https://www.facebook.com/SolacheForAssembly,linked from https://solacheforassembly.com/,2026-11-17
+P03286,A0380,facebook,https://www.facebook.com/VoteJessicaBateman,linked from https://votejessicabateman.com/,2026-11-17
+P03287,A0380,instagram,https://www.instagram.com/votejessicabateman/,linked from https://votejessicabateman.com/,2026-11-17
+P03288,A0485,facebook,https://www.facebook.com/MikeSimmonsForIL,linked from https://www.mikesimmons.org/,2026-11-17
+P03289,A0485,x,https://x.com/MikeSimmonsChi,linked from https://www.mikesimmons.org/,2026-11-17
+P03290,A0485,instagram,https://www.instagram.com/senatormikesimmons/,linked from https://www.mikesimmons.org/,2026-11-17
+P03291,A0383,x,https://x.com/twinaforsenate,linked from https://votetwinanobles.com/,2026-11-17
+P03292,A0383,facebook,https://www.facebook.com/FriendsofTwinaNobles,linked from https://votetwinanobles.com/,2026-11-17
+P03293,A0383,instagram,https://www.instagram.com/twinanobles/,linked from https://votetwinanobles.com/,2026-11-17

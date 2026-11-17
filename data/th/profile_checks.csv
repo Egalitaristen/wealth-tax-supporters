@@ -35,3 +35,12 @@ K00033,A0015,manual_search,,2026-11-16,none,,"Two or more searches (English/Dutc
 K00034,A0016,manual_search,,2026-11-16,none,,"Two or more searches (English/Dutch/Thai names) returned only news, Wikipedia mirrors and directories; no own site found or confirmed"
 K00035,A0021,manual_search,,2026-11-16,none,,"Two or more searches (English/Dutch/Thai names) returned only news, Wikipedia mirrors and directories; no own site found or confirmed"
 K00036,A0023,manual_search,,2026-11-16,none,,"Two or more searches (English/Dutch/Thai names) returned only news, Wikipedia mirrors and directories; no own site found or confirmed"
+K00037,A0004,manual_search,,2026-11-17,none,,No personal website or HTML university profile page found after two searches (only a CV PDF on ci.tu.ac.th).
+K00038,A0005,manual_search,https://arts.su.ac.th/?page_id=1884,2026-11-17,none,,rejected https://arts.su.ac.th/?page_id=1884: the page does not carry the name; Found via Silpakorn University Faculty of Arts Department of Social Sciences page; confirmed individual faculty profile page.
+K00039,A0006,manual_search,,2026-11-17,none,,No personal website or working HTML university profile found after two searches (be.econ.tu.ac.th failed DNS; econ.tu.ac.th only links to a CV PDF).
+K00040,A0008,manual_search,,2026-11-17,none,,No personal website or active institutional profile found after two searches.
+K00041,A0010,manual_search,,2026-11-17,none,,No personal website or official institutional profile found after two searches.
+K00042,A0014,manual_search,,2026-11-17,none,,No personal website or official institutional profile found after two searches (wefair.org is the organization website).
+K00043,A0017,manual_search,https://socadmin.tu.ac.th/kritsada,2026-11-17,found,official_page,Found via web search; confirmed Thammasat University Faculty of Social Administration staff profile page.
+K00044,A0020,manual_search,,2026-11-17,none,,No personal website or active institutional profile found after three searches (old WordPress link returned HTTP 403).
+K00045,A0017,own_site,https://socadmin.tu.ac.th/kritsada,2026-11-17,none,,"not added: facebook https://www.facebook.com/socwork.tu (chrome,social-block)"

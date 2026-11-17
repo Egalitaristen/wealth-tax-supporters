@@ -20,3 +20,10 @@ K00018,A0003,manual_search,https://www.cnrd.tn/,2026-11-16,found,website,"Addres
 K00019,A0008,manual_search,,2026-11-16,none,,Search showed only news coverage of the parliamentary bloc; no own site found
 K00020,A0010,manual_search,,2026-11-16,none,,"Two searches (French, Arabic) found only press and research mentions naming founder Amine Bouzaiene; no own site seen."
 K00021,A0003,own_site,https://www.cnrd.tn/,2026-11-16,found,facebook,"CHECK no added handle carries the name: the site may host several groups, or belong to a parent."
+K00022,A0004,manual_search,,2026-11-17,none,,No personal website or individual parliament profile found after two searches (cnrd.tn only has a combined list of all members).
+K00023,A0005,manual_search,,2026-11-17,none,,No personal website or individual parliament profile found after two searches (cnrd.tn only has a combined list of all members).
+K00024,A0007,manual_search,https://www.arp.tn/deputy/details/875,2026-11-17,found,official_page,"Found via search_web on arp.tn; official Tunisian Assemblée des représentants du peuple member page for Ali Zaghdoud (Ben Guerdane, bloc Pour que le peuple triomphe)."
+K00025,A0011,manual_search,,2026-11-17,none,,Searched twice; no personal website or individual institutional profile page found (cajf.org.tn is the organisation homepage without a dedicated profile page for him).
+K00026,A0014,manual_search,,2026-11-17,none,,Found via search_web (jouini.com and ceremade.dauphine.fr/~jouini/ both redirect here); personal academic homepage confirmed by title and H1.
+K00027,A0016,manual_search,,2026-11-17,none,,"Searched twice; no personal website or official institutional profile found (only media/think-tank author pages on Nawaat, Arab Reform Initiative, and Noria Research)."
+K00028,A0007,own_site,https://www.arp.tn/deputy/details/875,2026-11-17,none,,"not added: facebook https://www.facebook.com/Tunisie.arp (chrome,social-block); x https://x.com/ARPtn (chrome,social-block)"

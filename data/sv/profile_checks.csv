@@ -6,3 +6,7 @@ K00004,A0001,directory,,2026-11-16,none,,no NBER page
 K00005,A0003,directory,,2026-11-16,none,,no NBER page
 K00006,A0001,orcid,https://orcid.org/0009-0003-9336-9658,2026-11-16,none,,"ORCID institution does not match: Colegio de Profesionales en Ciencias Económicas, Universidad de Sevilla, University of El Salvador"
 K00007,A0003,orcid,,2026-11-16,none,,several ORCID records with the name
+K00008,A0001,manual_search,https://www.oscarcabreramelgar.com/,2026-11-17,found,website,Found via web search; confirmed personal website of Salvadoran economist Óscar Cabrera Melgar.
+K00009,A0003,manual_search,,2026-11-17,none,,No personal website or official institutional profile found after two searches.
+K00010,A0004,manual_search,,2026-11-17,none,,No personal website or individual profile found after two searches (arzobispadosansalvador.org is the archdiocese homepage).
+K00011,A0001,own_site,https://www.oscarcabreramelgar.com/,2026-11-17,found,facebook;x,500 at http://oscarcabreramelgar.com/contactenos.php
