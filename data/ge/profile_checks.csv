@@ -1,3 +1,5 @@
 check_id,actor_id,method,url,checked,result,found,note
 K00001,A0001,wikipedia,https://en.wikipedia.org/wiki/Shalva_Natelashvili,2026-11-16,none,,
 K00002,A0001,wikipedia_langs,,2026-11-16,none,,no official website in the articles in other languages
+K00003,A0001,manual_search,https://parliament.ge/en/parliament-members/4596/contact,2026-11-17,found,official_page,"page not readable by our reader (ERR 403); identity from the title the agent saw: Shalva Natelashvili - Parliament of Georgia; Official Parliament of Georgia member profile for Shalva Natelashvili; page returned 403 to script, identity confirmed via search results."
+K00004,A0001,own_site,https://parliament.ge/en/parliament-members/4596/contact,2026-11-17,blocked,,403 at https://parliament.ge/en/parliament-members/4596/contact
