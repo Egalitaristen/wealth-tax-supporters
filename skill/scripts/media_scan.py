@@ -165,7 +165,12 @@ def json_items(src, reader, pages):
                 link = it.get("link", "")
                 blob = json.dumps(it.get("acf") or {}, ensure_ascii=False).replace("\\/", "/")
                 ext = [u for u in re.findall(r'href=\\"([^"\\ ]+)', blob) if u.startswith("http") and host_of(u) != host_of(link)]
-                out.append((ext[0] if ext else link, clean_text((it.get("title") or {}).get("rendered", "")), (it.get("date") or "")[:10]))
+                title = clean_text((it.get("title") or {}).get("rendered", ""))
+                if src.get("people"):  # a roster of people, not articles: keep the page itself and show the role
+                    role = clean_text(((it.get("acf") or {}).get("details") or {}).get("title") or "")
+                    out.append((link, f"{title}: {role}" if role else title, (it.get("date") or "")[:10]))
+                    continue
+                out.append((ext[0] if ext else link, title, (it.get("date") or "")[:10]))
     return out
 
 
