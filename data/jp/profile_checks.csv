@@ -41,3 +41,37 @@ K00039,A0073,own_site,https://tax-justice.com/?page_id=27,2026-11-16,none,,
 K00040,A0102,own_site,https://cigs.canon/fellows/keiichiro_kobayashi.html,2026-11-16,none,,
 K00041,A0004,own_site,https://www.kasai-akira.jp/,2026-11-16,none,,"not added: x https://x.com/akibacsi (meta,social-block); already listed: facebook"
 K00042,A0079,manual_search,,2026-11-16,none,,"Searched twice in Japanese and English; no own site found, only Wikipedia and ministry documents; left empty."
+K00043,A0081,manual_search,https://b.oomorishoji.com/,2026-11-17,found,website,"Found via Japanese search_web; verified HTTP 200 personal blog confirming Shoji Omori, JCP Daisen town councillor."
+K00044,A0082,manual_search,https://jcp-shimizu.sblo.jp/,2026-11-17,found,website,Found via Japanese search_web; verified HTTP 200 personal blog confirming Minako Shimizu (Ichikawa city councillor / JCP).
+K00045,A0083,manual_search,https://www.jcp-ichikawa.com/profile/yanagi.html,2026-11-17,found,official_page,Found via Japanese search_web; verified HTTP 200 on JCP Ichikawa City Assembly group profile page confirming Michiko Yanagi.
+K00046,A0084,manual_search,https://www.jcp-ichikawa.com/profile/kaneko.html,2026-11-17,found,official_page,Found via Japanese search_web; verified HTTP 200 on JCP Ichikawa City Assembly group profile page confirming Teisaku Kaneko (former sakura.ne.jp site is 404).
+K00047,A0085,manual_search,https://www.jcp-ichikawa.com/profile/hirota.html,2026-11-17,found,official_page,"JCP Ichikawa city council group profile page; confirmed name, Ichikawa city councillor role, and JCP affiliation."
+K00048,A0086,manual_search,https://www.jcp-ichikawa.com/profile/kosaka.html,2026-11-17,found,official_page,"JCP Ichikawa city council group profile page; confirmed name, Ichikawa city council role, and JCP affiliation (listed blogs dead/403)."
+K00049,A0087,manual_search,https://sakurashigikai.gijiroku.com/g07_giinlistS.asp?SrchID=50,2026-11-17,none,,rejected https://sakurashigikai.gijiroku.com/g07_giinlistS.asp?SrchID=50: the page does not carry the name; Official Sakura City Council member profile page; confirmed exact name 木崎 俊行 and Japanese Communist Party.
+K00050,A0088,manual_search,https://sakurashigikai.gijiroku.com/g07_giinlistS.asp?SrchID=34,2026-11-17,none,,rejected https://sakurashigikai.gijiroku.com/g07_giinlistS.asp?SrchID=34: the page does not carry the name; Official Sakura City Council member profile page; confirmed exact name 五十嵐 智美 and Citizens Network.
+K00051,A0089,manual_search,,2026-11-17,none,,"Searched Japanese name with Sakura city, blogs, jcp.or.jp, and gijiroku.com; only council minutes and news articles found."
+K00052,A0090,manual_search,https://sakurashigikai.gijiroku.com/g07_giinlistS.asp?SrchID=66,2026-11-17,found,official_page,Official Sakura City Council member profile page; confirmed exact name 稲田 敏昭 and independent caucus.
+K00053,A0091,manual_search,https://www.jcp.or.jp/list/member/444420111,2026-11-17,none,,"rejected https://www.jcp.or.jp/list/member/444420111: the page does not carry the name; Official JCP member profile page; confirmed name, Oita prefectural assembly member role, and JCP affiliation."
+K00054,A0092,manual_search,,2026-11-17,none,,"Searched Japanese name with Funabashi city, blogs, jcp-funabashi.jp, and jcp.or.jp; only minutes and news articles found."
+K00055,A0093,manual_search,https://matsuzaki-sachi.com/,2026-11-17,found,website,"Personal political blog found via search; title confirms name, Funabashi city councillor role, and JCP."
+K00056,A0094,manual_search,https://sakaiyosuke.web.fc2.com/,2026-11-17,found,website,"Personal website on fc2.com found via search; page text confirms name, Funabashi city councillor, and JCP."
+K00057,A0095,manual_search,,2026-11-17,none,,"Searched Japanese name with Funabashi city, blogs, jcp-funabashi.jp, and jcp.or.jp; only minutes, PDFs, and news found."
+K00058,A0096,manual_search,https://iwai-tomoko.seesaa.net/,2026-11-17,found,website,Personal blog on seesaa.net found via search; title confirms exact name and matches Funabashi JCP councillor.
+K00059,A0097,manual_search,https://k-kazuko.cocolog-nifty.com/,2026-11-17,found,website,Personal blog on cocolog-nifty.com found via search; title confirms exact name and JCP affiliation.
+K00060,A0098,manual_search,,2026-11-17,none,,Searched Japanese name with Funabashi city and blogs; only a 2003 newsletter issue and minutes found.
+K00061,A0099,manual_search,,2026-11-17,none,,"Searched Japanese name with Funabashi city, blogs, jcp-funabashi.jp, and jcp.or.jp; only minutes and mentions found."
+K00062,A0100,manual_search,https://www.jcp.or.jp/list/member/3820511,2026-11-17,found,official_page,"Official JCP member profile page; confirmed name, Niihama city councillor role, and JCP affiliation."
+K00063,A0105,manual_search,,2026-11-17,none,,Searched Japanese and English names with blog/official/note; only publisher author pages and book listings found.
+K00064,A0109,manual_search,,2026-11-17,none,,"Searched Japanese name with Kasukabe city, blogs, jcp.or.jp, and kasukabe-shigikai.jp; only tag archive and minutes found."
+K00065,A0097,own_site,https://k-kazuko.cocolog-nifty.com/,2026-11-17,found,x;facebook,
+K00066,A0084,own_site,https://www.jcp-ichikawa.com/profile/kaneko.html,2026-11-17,none,,
+K00067,A0085,own_site,https://www.jcp-ichikawa.com/profile/hirota.html,2026-11-17,none,,
+K00068,A0083,own_site,https://www.jcp-ichikawa.com/profile/yanagi.html,2026-11-17,none,,
+K00069,A0100,own_site,https://www.jcp.or.jp/list/member/3820511,2026-11-17,none,,"not added: instagram https://www.instagram.com/nihonkyosanto/ (chrome,social-block); tiktok https://www.tiktok.com/@jcp_cc (chrome,social-block); youtube https://www.youtube.com/channel/UC_7GbtufUtR9l3pwvvn7Zlg (chrome,social-block); x https://x.com/jcp_cc (chrome,social-block)"
+K00070,A0086,own_site,https://www.jcp-ichikawa.com/profile/kosaka.html,2026-11-17,none,,
+K00071,A0094,own_site,https://sakaiyosuke.web.fc2.com/,2026-11-17,found,x,
+K00072,A0090,own_site,https://sakurashigikai.gijiroku.com/g07_giinlistS.asp?SrchID=66,2026-11-17,none,,
+K00073,A0093,own_site,https://matsuzaki-sachi.com/,2026-11-17,found,x,
+K00074,A0082,own_site,https://jcp-shimizu.sblo.jp/,2026-11-17,error,,"URLError: <urlopen error (""The certificate's CN name does not match the passed value."",)>"
+K00075,A0081,own_site,https://b.oomorishoji.com/,2026-11-17,error,,"URLError: <urlopen error (""The certificate's CN name does not match the passed value."",)>"
+K00076,A0096,own_site,https://iwai-tomoko.seesaa.net/,2026-11-17,none,,

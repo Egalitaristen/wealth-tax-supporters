@@ -113,3 +113,7 @@ K00111,A0030,own_site,https://eje.group/bernardo-aguilar-gonzalez/,2026-11-16,no
 K00112,A0010,own_site,https://quinceduncan.com/,2026-11-16,error,,"URLError: <urlopen error ('A certificate chain processed, but terminated in a root certifi"
 K00113,A0021,own_site,https://www.tec.ac.cr/ana-rosa-ruiz-fernandez,2026-11-16,none,,"not added: facebook https://www.facebook.com/tecnologicocostarica (chrome,social-block); x https://x.com/Teccr (chrome,meta,social-block); instagram https://www.instagram.com/teccostarica/ (chrome,social-block); youtube https://www.youtube.com/user/PrensaTec (chrome,social-block)"
 K00114,A0022,own_site,https://portal.so.ucr.ac.cr/trabajo-social/profesor/edwin-andres-zamora-bolanos,2026-11-16,none,,"not added: youtube https://www.youtube.com/channel/UCSNJZLmL2iO_QIOUhoeJP4A (chrome,social-block); facebook https://www.facebook.com/ucr.sededeoccidente (chrome,social-block)"
+K00115,A0011,manual_search,,2026-11-17,none,,Searched name + Costa Rica + PAC + UCR; no personal website or official institutional profile URL found.
+K00116,A0012,manual_search,,2026-11-17,none,,Searched name + Costa Rica + UCR + vinculo.ucr.ac.cr; no personal website or individual institutional profile URL found.
+K00117,A0013,manual_search,,2026-11-17,none,,Searched name + Instituto de Investigaciones Sociales + UCR + vinculo.ucr.ac.cr; no personal website or individual profile URL found.
+K00118,A0033,manual_search,,2026-11-17,none,,Searched name + economista + Costa Rica + UCR + vinculo.ucr.ac.cr; no personal website or individual profile URL found.

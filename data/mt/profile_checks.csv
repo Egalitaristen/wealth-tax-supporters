@@ -1,3 +1,4 @@
 check_id,actor_id,method,url,checked,result,found,note
 K00001,A0001,own_site,https://adpd.mt/,2026-11-15,found,facebook;instagram;youtube;tiktok;x,
 K00002,A0003,own_site,https://sandragauci.com,2026-11-16,error,,URLError: <urlopen error [Errno 11001] getaddrinfo failed>
+K00003,A0002,manual_search,,2026-11-17,none,,Searched English queries including adpd.mt and gov.mt; no personal site or dedicated party/council profile page found (only search results and multi-candidate press release).

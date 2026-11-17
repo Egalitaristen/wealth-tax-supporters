@@ -5,3 +5,6 @@ P00003,A0018,facebook,https://www.facebook.com/koreagreenparty,linked from https
 P00004,A0018,instagram,https://www.instagram.com/greenpartykr/,linked from https://www.kgreens.org/,2026-11-16
 P00005,A0018,x,https://x.com/greenpartyk,linked from https://www.kgreens.org/,2026-11-16
 P00006,A0010,website,https://www.justice21.org,"web search: Search result and Wikipedia-derived sources name justice21.org as the official site; page opened but returned no readable content, so title not confirmed.",2026-11-16
+P00007,A0007,official_page,https://www.kdischool.ac.kr/faculty/view.es?mid=a20401020000&type=2&emp_no=311000004,"web search: Found via KDI School search; confirmed exact name (You, Jong-Il / 유종일) and KDI School affiliation in page title.",2026-11-17
+P00008,A0015,website,https://jongsungyou.com/,"web search: Personal/academic homepage found via search_web; returned HTTP 403 to automated fetch, but search results clearly confirm Jong-sung You (유종성) at Yonsei University / KIRL.",2026-11-17
+P00009,A0037,website,https://blog.naver.com/moosung4u,web search: Official personal Naver blog found via search and verified; title carries exact name 김무성 and party 국민의힘 (mskim.co.kr had empty title).,2026-11-17

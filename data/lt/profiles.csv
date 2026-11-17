@@ -10,3 +10,7 @@ P00008,A0004,website,https://www.rope.lt/,Wikidata Q501991,2026-11-04
 P00009,A0004,facebook,https://www.facebook.com/rope.bronis,Wikidata Q501991,2026-11-04
 P00010,A0004,wikipedia,https://en.wikipedia.org/wiki/Bronis_Rop%C4%97,Wikidata Q501991,2026-11-04
 P00011,A0006,website,https://liudasmazylis.lt/,actors.csv website column,2026-11-16
+P00012,A0002,official_page,https://www.lrs.lt/sip/portal.show?p_r=35299&p_k=2&p_a=498&p_asm_id=7193&p_kade_id=10,web search: Found via web search; HTTP 200 official Lithuanian Parliament page confirms Member of the Seimas Juozas Olekas.,2026-11-17
+P00013,A0003,website,https://jakeliunas.lt,web search: Found via Lithuanian web search; HTTP 200 title and H1 confirm Stasys Jakeliūnas's personal website.,2026-11-17
+P00014,A0007,website,https://virginijussinkevicius.lt/,web search: Found via web search; HTTP 200 title confirms MEP Virginijus Sinkevičius's personal/political website.,2026-11-17
+P00015,A0008,official_page,https://www.fsf.vu.lt/sociologijos-ir-socialinio-darbo-institutas/instituto-nariai/511-romas-lazutka,web search: Found via site:vu.lt search; HTTP 200 title and H1 confirm Vilnius University Professor Emeritus Romas Lazutka.,2026-11-17

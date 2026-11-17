@@ -36,3 +36,30 @@ K00034,A0019,manual_search,,2026-11-16,none,,No own site or official page confir
 K00035,A0018,manual_search,,2026-11-16,none,,
 K00036,A0019,manual_search,,2026-11-16,none,,Only Oxfam author/report pages (employer) and an academia.edu page found; no own site.
 K00037,A0018,manual_search,,2026-11-16,none,,"Only a short bio on a tax-and-gender site found, without TJNA link; no own or TJNA staff page confirmed."
+K00038,A0004,manual_search,,2026-11-17,none,,Searched CISLAC and Nigeria queries; cislac.org timed out and no dedicated personal profile URL found in search results.
+K00039,A0005,manual_search,,2026-11-17,none,,Searched Oxfam Nigeria and Zimbabwe queries; no own site or dedicated personal profile page on oxfam.org found.
+K00040,A0006,manual_search,,2026-11-17,none,,Searched Oxfam Nigeria queries; no own site or dedicated personal profile page on oxfam.org found.
+K00041,A0007,manual_search,,2026-11-17,none,,Searched Oxfam Nigeria queries; no own site or dedicated personal profile page on oxfam.org found.
+K00042,A0008,manual_search,,2026-11-17,none,,Searched Henry Ushie Oxfam Nigeria website and personal website/blog; only Oxfam report mentions and news articles found.
+K00043,A0009,manual_search,,2026-11-17,none,,Searched Chinedu Bassey CISLAC/Tax Justice website and personal website/blog; no own site or dedicated institutional profile found.
+K00044,A0010,manual_search,,2026-11-17,none,,Searched Regina Afiemo Oxfam Nigeria website and personal website/blog; only Oxfam and news mentions found.
+K00045,A0011,manual_search,,2026-11-17,none,,Searched Kenneth Akpan Oxfam Nigeria website and personal website/blog; no own site or dedicated institutional profile found.
+K00046,A0013,manual_search,https://carenigeria.org/team/hussaini-abdu-2/,2026-11-17,found,official_page,Found via CARE Nigeria search; official CARE Nigeria team profile page confirmed with exact name in title.
+K00047,A0015,manual_search,https://www.hamzatlawal.com,2026-11-17,found,website,Found via Connected Development search; personal website of Hamzat (Hamza) Lawal confirmed.
+K00048,A0017,manual_search,,2026-11-17,none,,Searched Mtwalo Msoni Tax Justice website/profile and personal website/blog; only report and news mentions found.
+K00049,A0020,manual_search,,2026-11-17,none,,Searched Assalama Dawalack Sidi Oxfam website/profile and personal website/blog; only Oxfam press releases found.
+K00050,A0021,manual_search,,2026-11-17,none,,Searched Francis Agbere Oxfam website/profile and personal website/blog; only Oxfam blog posts and news mentions found.
+K00051,A0022,manual_search,,2026-11-17,none,,Searched Christian Hallum Oxfam website/profile and personal website/blog; only Oxfam publications and news mentions found.
+K00052,A0023,manual_search,,2026-11-17,none,,Searched Jonas Gielfeldt Oxfam website/profile and personal website/hemsida/hjemmeside; no own site or dedicated profile found.
+K00053,A0024,manual_search,,2026-11-17,none,,Searched Martin Brehm Christensen Oxfam website/profile and personal website/blog; no own site or dedicated profile found.
+K00054,A0025,manual_search,,2026-11-17,none,,Searched Anthony Kamande Oxfam website/profile and personal website/blog; only Oxfam blog posts and mentions found.
+K00055,A0031,manual_search,,2026-11-17,none,,Searched Blakey Okwudili Ijezie website/profile and conference website; only business directory listings and news mentions found.
+K00056,A0032,manual_search,,2026-11-17,none,,Found via Pastor Felix Jarikre Lagos search; personal blog confirmed with exact name in title and H1.
+K00057,A0033,manual_search,,2026-11-17,none,,Searched Tunji Adeniyi economist/Tax Conference and personal website; no own site found (tunjiadeniyi-jones.com is a namesake artist).
+K00058,A0044,manual_search,,2026-11-17,none,,Searched Makolo Hassan NASU website/profile and personal website/blog; only news articles found.
+K00059,A0055,manual_search,https://ahmedraji.com/attorneys/ahmed-raji/,2026-11-17,found,official_page,"Found on Ahmed Raji & Co. website; official Principal Partner profile page confirmed with name, SAN, and firm."
+K00060,A0072,manual_search,https://www.ogbeni.com/,2026-11-17,found,website,Found via Rauf Aregbesola official website search; personal site confirmed with exact name and former offices in title.
+K00061,A0015,own_site,https://www.hamzatlawal.com,2026-11-17,found,facebook;linkedin,"not added: x https://x.com/HamzyCODE (chrome,meta,social-block); instagram https://www.instagram.com/HamzyCODE/ (chrome,social-block)"
+K00062,A0013,own_site,https://carenigeria.org/team/hussaini-abdu-2/,2026-11-17,none,,"not added: facebook https://www.facebook.com/CAREinNigeria (chrome,social-block); x https://x.com/CARE_Nigeria (chrome,meta,social-block); youtube https://www.youtube.com/@CARENigeria-cr1jq (chrome,social-block); instagram https://www.instagram.com/care_ngr/ (chrome,social-block); linkedin https://www.linkedin"
+K00063,A0072,own_site,https://www.ogbeni.com/,2026-11-17,found,linkedin;instagram,already listed: x
+K00064,A0055,own_site,https://ahmedraji.com/attorneys/ahmed-raji/,2026-11-17,error,,"URLError: <urlopen error (""The certificate's CN name does not match the passed value."",)>"

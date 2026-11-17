@@ -102,3 +102,5 @@ K00100,A0008,own_site,https://tamasmellar.hu/,2026-11-17,none,,already listed: f
 K00101,A0046,own_site,https://bujdosoandrea.hu,2026-11-17,found,facebook,
 K00102,A0043,own_site,https://kormany.hu/kormanyzat/honvedelmi-miniszterium/oneletrajz,2026-11-17,none,,"not added: facebook https://www.facebook.com/kormanyzat (chrome,social-block); instagram https://www.instagram.com/magyarorszag_kormanya/ (chrome,social-block); x https://x.com/magyarorszag (meta)"
 K00103,A0015,own_site,https://www.europarl.europa.eu/meps/en/198063/MARTON_GYONGYOSI/home,2026-11-17,blocked,,403 at https://www.europarl.europa.eu/meps/en/198063/MARTON_GYONGYOSI/home
+K00104,A0002,manual_search,https://www.europarl.europa.eu/meps/de/256868/PETER_MAGYAR/history/10,2026-11-17,found,official_page,Found via search_web and verified HTTP 200 on European Parliament MEP directory; confirms Péter Magyar (Tisza).
+K00105,A0002,own_site,https://www.europarl.europa.eu/meps/de/256868/PETER_MAGYAR/history/10,2026-11-17,blocked,,403 at https://www.europarl.europa.eu/meps/de/256868/PETER_MAGYAR/history/10

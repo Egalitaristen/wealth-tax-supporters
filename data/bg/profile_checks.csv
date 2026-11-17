@@ -21,3 +21,7 @@ K00019,A0003,own_site,https://esc.bg/en/participant/luboslav-kostov/,2026-11-16,
 K00020,A0006,own_site,https://stanishev.eu/,2026-11-16,none,,"already listed: x,facebook"
 K00021,A0007,own_site,https://www.europarl.europa.eu/meps/en/197842/ELENA_YONCHEVA/home,2026-11-16,blocked,,403 at https://www.europarl.europa.eu/meps/en/197842/ELENA_YONCHEVA/home
 K00022,A0005,own_site,https://www.tsvetelinapenkova.eu/,2026-11-16,found,x,"already listed: facebook,instagram"
+K00023,A0008,manual_search,https://www.europarl.europa.eu/meps/bg/197846/IVO_HRISTOV/history/9,2026-11-17,found,official_page,"Found via web search on europarl.europa.eu; title and H1 confirm Иво Христов, 9th parliamentary term MEP (S&D/BSP)."
+K00024,A0009,manual_search,https://www.europarl.europa.eu/meps/en/197844/PETAR_VITANOV/history/9,2026-11-17,found,official_page,"Found via web search on europarl.europa.eu; title and H1 confirm Petar Vitanov, 9th parliamentary term MEP (S&D)."
+K00025,A0009,own_site,https://www.europarl.europa.eu/meps/en/197844/PETAR_VITANOV/history/9,2026-11-17,blocked,,403 at https://www.europarl.europa.eu/meps/en/197844/PETAR_VITANOV/history/9
+K00026,A0008,own_site,https://www.europarl.europa.eu/meps/bg/197846/IVO_HRISTOV/history/9,2026-11-17,blocked,,403 at https://www.europarl.europa.eu/meps/bg/197846/IVO_HRISTOV/history/9

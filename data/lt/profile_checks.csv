@@ -8,3 +8,11 @@ K00006,A0008,directory,,2026-11-16,none,,no NBER page
 K00007,A0002,wikipedia_langs,,2026-11-16,none,,no official website in the articles in other languages
 K00008,A0003,wikipedia_langs,,2026-11-16,none,,no official website in the articles in other languages
 K00009,A0008,orcid,https://orcid.org/0000-0003-0480-8894,2026-11-16,none,,"record found, no website listed"
+K00010,A0002,manual_search,https://www.lrs.lt/sip/portal.show?p_r=35299&p_k=2&p_a=498&p_asm_id=7193&p_kade_id=10,2026-11-17,found,official_page,Found via web search; HTTP 200 official Lithuanian Parliament page confirms Member of the Seimas Juozas Olekas.
+K00011,A0003,manual_search,https://jakeliunas.lt,2026-11-17,found,website,Found via Lithuanian web search; HTTP 200 title and H1 confirm Stasys Jakeliūnas's personal website.
+K00012,A0007,manual_search,https://virginijussinkevicius.lt/,2026-11-17,found,website,Found via web search; HTTP 200 title confirms MEP Virginijus Sinkevičius's personal/political website.
+K00013,A0008,manual_search,https://www.fsf.vu.lt/sociologijos-ir-socialinio-darbo-institutas/instituto-nariai/511-romas-lazutka,2026-11-17,found,official_page,Found via site:vu.lt search; HTTP 200 title and H1 confirm Vilnius University Professor Emeritus Romas Lazutka.
+K00014,A0003,own_site,https://jakeliunas.lt,2026-11-17,error,,URLError: <urlopen error [WinError 10061] No connection could be made because the target m
+K00015,A0007,own_site,https://virginijussinkevicius.lt/,2026-11-17,none,,
+K00016,A0002,own_site,https://www.lrs.lt/sip/portal.show?p_r=35299&p_k=2&p_a=498&p_asm_id=7193&p_kade_id=10,2026-11-17,none,,not added: facebook https://www.facebook.com/LRSeimas (social-block); x https://x.com/LRSeimas (social-block); youtube https://www.youtube.com/user/LTSeimastiesiogiai (social-block); instagram https://www.instagram.com/seimaslt/ (social-block); linkedin https://www.linkedin.com/company/seimas (social-block)
+K00017,A0008,own_site,https://www.fsf.vu.lt/sociologijos-ir-socialinio-darbo-institutas/instituto-nariai/511-romas-lazutka,2026-11-17,none,,"not added: facebook https://www.facebook.com/VUFilosofijosFakultetas (chrome,social-block); instagram https://www.instagram.com/filosofijosfakultetas/ (chrome,social-block); linkedin https://www.linkedin.com/company/vilnius-university-faculty-of-philosophy (chrome,social-block); youtube https://www.youtube.com"
