@@ -1,3 +1,4 @@
 profile_id,actor_id,platform,url,source,checked
 P00001,A0001,facebook,https://www.facebook.com/natelashvilishalva,Wikidata Q252719,2026-11-16
 P00002,A0001,wikipedia,https://en.wikipedia.org/wiki/Shalva_Natelashvili,Wikidata Q252719,2026-11-16
+P00003,A0001,official_page,https://parliament.ge/en/parliament-members/4596/contact,"web search: page not readable by our reader (ERR 403); identity from the title the agent saw: Shalva Natelashvili - Parliament of Georgia; Official Parliament of Georgia member profile for Shalva Natelashvili; page returned 403 to script, identity confirmed via search results.",2026-11-17

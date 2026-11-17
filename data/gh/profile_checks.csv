@@ -5,3 +5,7 @@ K00003,A0002,manual_search,https://abibinsromafoundation.org,2026-11-16,found,we
 K00004,A0004,manual_search,,2026-11-16,none,,"Two searches and one guessed domain (gcapghana.org, does not resolve) found no own site; only news coverage."
 K00005,A0005,manual_search,,2026-11-16,none,,Searches for the exact name and the G20 letter found nothing about this organisation.
 K00006,A0002,own_site,https://abibinsromafoundation.org,2026-11-16,found,instagram;linkedin;tiktok;youtube;x,200 at https://www.abibinsromafoundation.org/contact_us.html
+K00007,A0001,manual_search,https://ugbs.ug.edu.gh/faculty/godfred-alufar-bokpin,2026-11-17,found,official_page,Official University of Ghana Business School faculty profile for Godfred Alufar Bokpin; confirmed title and H1 on page.
+K00008,A0003,manual_search,,2026-11-17,none,,Searched twice; no personal website or dedicated individual profile page found.
+K00009,A0006,manual_search,,2026-11-17,none,,Searched twice; no personal website or dedicated individual profile page found.
+K00010,A0001,own_site,https://ugbs.ug.edu.gh/faculty/godfred-alufar-bokpin,2026-11-17,none,,"not added: facebook https://www.facebook.com/ugbsofficial (chrome,social-block); x https://x.com/ugbsofficial (chrome,social-block); instagram https://www.instagram.com/ugbsofficial/ (chrome,social-block); youtube https://www.youtube.com/@ugbsofficial (chrome,social-block)"
