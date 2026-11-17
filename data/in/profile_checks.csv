@@ -117,3 +117,68 @@ K00115,A0049,manual_search,,2026-11-16,none,,Directory listed rsp.org.in but ope
 K00116,A0062,manual_search,,2026-11-16,none,,"Searched; only news reports and CPI(ML) update pages mention the campaign, no own site found."
 K00117,A0042,own_site,https://www.sewa.org,2026-11-16,found,youtube;facebook;linkedin;instagram;x,
 K00118,A0048,own_site,https://cpiml.org/,2026-11-16,found,x;facebook;instagram;youtube,
+K00119,A0002,manual_search,https://nyuad.nyu.edu/en/home/research/researchers/postdoctoral-research/researchers/research-bios/nitin-kumar-bharti/,2026-11-17,none,,rejected https://nyuad.nyu.edu/en/home/research/researchers/postdoctoral-research/researchers/research-bios/nitin-kumar-bharti/: the page does not carry the name; Found via web search; NYU Abu Dhabi researcher profile matching exact name and NYUAD affiliation (page returned 403 Forbidden on fetch).
+K00120,A0008,manual_search,,2026-11-17,none,,No personal website or individual CPI(M) profile page found; cpim.org/leadership/ is a multi-person committee list.
+K00121,A0010,manual_search,,2026-11-17,none,,No personal website or official parliament/university/party/council profile found.
+K00122,A0013,manual_search,,2026-11-17,none,,No personal website or official individual profile found; only author articles on The Wire and campaign mentions.
+K00123,A0014,manual_search,https://www.umass.edu/economics/about/directory/jayati-ghosh,2026-11-17,none,,rejected https://www.umass.edu/economics/about/directory/jayati-ghosh: the page does not carry the name; Found via web search; UMass Amherst Department of Economics faculty profile matching exact name and UMass Amherst affiliation (page returned 403 Forbidden on fetch).
+K00124,A0015,manual_search,,2026-11-17,none,,No personal website or individual JNU profile page found; jnu.ac.in/content/professors-emeritusemerita is a general list.
+K00125,A0016,manual_search,https://sansad.in/rs/members/biographyM/1935,2026-11-17,none,,rejected https://sansad.in/rs/members/biographyM/1935: the page does not carry the name; Found via web search on site:sansad.in; official Digital Sansad Rajya Sabha MP biography URL for Jairam Ramesh (SPA page returned empty HTML title on fetch).
+K00126,A0018,manual_search,https://econdse.org/jean-dreze-research/,2026-11-17,found,official_page,"page not readable by our reader (ERR URLError); identity from the title the agent saw: Jean Drèze : Research | Department of Economics, DSE; Found via web search and verified by fetching; official Delhi School of Economics faculty research profile."
+K00127,A0019,manual_search,https://www.jnu.ac.in/Faculty/praveen/,2026-11-17,found,official_page,Found via web search and verified by fetching; official JNU Centre for Economic Studies and Planning faculty page.
+K00128,A0020,manual_search,https://www.jnu.ac.in/content/athorat,2026-11-17,found,official_page,Found via web search and verified by fetching; official JNU CSRD faculty profile page.
+K00129,A0021,manual_search,,2026-11-17,none,,No personal website or official parliament/university/party/council profile found.
+K00130,A0022,manual_search,,2026-11-17,none,,No personal website or official individual profile found; only NGO/lecture mentions and opinion articles.
+K00131,A0024,manual_search,,2026-11-17,none,,No personal website or official individual profile found.
+K00132,A0025,manual_search,https://www.tushargandhi.in,2026-11-17,found,website,"Found via web search and verified by fetching; personal website of Tushar Arun Gandhi, author and social activist."
+K00133,A0026,manual_search,,2026-11-17,none,,No personal website or official parliament/university/party/council profile found; only NGO team page at NCDHR.
+K00134,A0027,manual_search,,2026-11-17,none,,No personal website or official individual profile found; napmindia.org/national-convening-team/ is a team list.
+K00135,A0028,manual_search,,2026-11-17,none,,No personal website or official parliament/university/party/council profile found.
+K00136,A0029,manual_search,,2026-11-17,none,,No personal website or official parliament/university/party/council profile found.
+K00137,A0030,manual_search,,2026-11-17,none,,No personal website or official individual profile found; only social media and NGO/news mentions.
+K00138,A0035,manual_search,,2026-11-17,none,,Searched twice; no personal website or individual institutional profile page found (only AIBOC/GLU mentions and media articles).
+K00139,A0046,manual_search,,2026-11-17,none,,Found via search_web; blog title and posts confirm Indian economist Arun Kumar (JNU).
+K00140,A0051,manual_search,,2026-11-17,none,,Searched twice plus sansad.in; no personal website or static individual profile page found.
+K00141,A0052,manual_search,,2026-11-17,none,,Searched twice; no personal website or individual party profile page found (only cpiml.org author archive).
+K00142,A0054,manual_search,,2026-11-17,none,,Searched twice; no personal website or individual party profile page found (only allindiaforwardbloc.org homepage).
+K00143,A0055,manual_search,,2026-11-17,none,,Searched twice; no personal website or individual staff profile page found (only cenfa.org author archive).
+K00144,A0056,manual_search,,2026-11-17,none,,Searched twice; no personal website or individual staff profile page found (only multi-person cbps.in/our-team/ page).
+K00145,A0058,manual_search,https://azimpremjiuniversity.edu.in/people/dipa-sinha,2026-11-17,found,official_page,Found via search_web; Azim Premji University faculty page confirms economist Dipa Sinha (formerly AUD).
+K00146,A0059,manual_search,https://ishananand.co.in/,2026-11-17,found,website,Found via search_web; personal homepage confirms Assistant Professor of Economics at IIT Delhi.
+K00147,A0063,manual_search,,2026-11-17,none,,Searched twice; no personal website or institutional profile page found.
+K00148,A0064,manual_search,https://www.santoshbhartiya.in/,2026-11-17,found,website,"Found via search_web; personal site lists Journalist and Member of Parliament, confirming Santosh Bharatiya."
+K00149,A0065,manual_search,,2026-11-17,none,,Searched twice; no personal website or individual profile found for the political activist (academic results are namesakes).
+K00150,A0066,manual_search,,2026-11-17,none,,Searched twice; no personal website or individual profile page found (only multi-faculty jaiss.org.in page).
+K00151,A0068,manual_search,,2026-11-17,none,,Searched twice; no personal website or university profile page found (only Scholar/ResearchGate).
+K00152,A0069,manual_search,,2026-11-17,none,,Searched twice; no personal website or institutional profile found (utkarsh-mishra.com is a tech/AI namesake).
+K00153,A0070,manual_search,,2026-11-17,none,,Searched twice; neeraj-jain-blog.weebly.com returns HTTP 404 and no other personal site or individual profile found.
+K00154,A0071,manual_search,,2026-11-17,none,,Searched twice; no personal website or individual party profile page found.
+K00155,A0072,manual_search,,2026-11-17,none,,Searched twice; no personal website or individual profile page found (only Madhyam/The Wire author archives).
+K00156,A0073,manual_search,https://newspaperwali.substack.com/,2026-11-17,found,website,"Found via search_web; bansarikamdar.com failed to resolve/connect, Substack site confirms journalist Bansari Kamdar."
+K00157,A0076,manual_search,https://prajeev.org/,2026-11-17,none,,rejected https://prajeev.org/: the page's title and headings do not carry the name; Found via search_web; personal website title confirms former Rajya Sabha MP P. Rajeeve.
+K00158,A0078,manual_search,,2026-11-17,none,,Searched twice plus sansad.in; no personal website or static individual profile page found.
+K00159,A0081,manual_search,,2026-11-17,none,,Searched twice plus sansad.in; no personal website or static individual profile page found.
+K00160,A0082,manual_search,,2026-11-17,none,,Searched twice plus sansad.in; no personal site and sansad.in/rs/members/biographyM/2184 is a JS SPA without name in static HTML.
+K00161,A0083,manual_search,,2026-11-17,none,,Searched twice plus sansad.in; no personal website or static individual profile page found.
+K00162,A0084,manual_search,,2026-11-17,none,,Searched twice plus sansad.in; no personal website or static individual profile page found.
+K00163,A0085,manual_search,https://vsivadasan.com/,2026-11-17,found,website,Found via search_web; personal website confirms Rajya Sabha MP Dr. V. Sivadasan (Kerala).
+K00164,A0086,manual_search,https://www.pwilson.in/,2026-11-17,found,website,Found via search_web; personal website confirms DMK Rajya Sabha MP P. Wilson.
+K00165,A0087,manual_search,https://www.niyamasabha.org/codes/members/m287.htm,2026-11-17,found,official_page,Found via search_web; official Kerala Legislature page has heading 'Members > P. Karunakaran' (sansad.in is JS SPA).
+K00166,A0089,manual_search,,2026-11-17,none,,Searched twice plus sansad.in; no personal website or static individual profile page found.
+K00167,A0091,manual_search,,2026-11-17,none,,Searched twice plus sansad.in; no personal site and sansad.in/ls/members/biography/2554 is a JS SPA without name in static HTML.
+K00168,A0092,manual_search,https://sansad.in/ls/members/biography/4563?from=members,2026-11-17,none,,rejected https://sansad.in/ls/members/biography/4563?from=members: the page does not carry the name; Official Digital Sansad (Lok Sabha) MP profile confirmed via search; personal site pkbijump.in is dead and sansad.in is a client-rendered SPA.
+K00169,A0093,manual_search,,2026-11-17,none,,No personal website or HTML institutional profile page found (only a PDF on niyamasabha.org and parliamentary question records on sansad.in).
+K00170,A0094,manual_search,https://sansad.in/ls/members/biography/4086?from=members,2026-11-17,none,,"rejected https://sansad.in/ls/members/biography/4086?from=members: the page does not carry the name; Official Digital Sansad (Lok Sabha) MP profile confirmed via search (CPI, Tiruppur); client-rendered SPA."
+K00171,A0095,manual_search,https://sansad.in/ls/members/biography/5628?from=members,2026-11-17,none,,"rejected https://sansad.in/ls/members/biography/5628?from=members: the page does not carry the name; Official Digital Sansad (Lok Sabha) MP profile confirmed via search (CPI(M), Dindigul); client-rendered SPA."
+K00172,A0096,manual_search,https://sansad.in/ls/members/biography/4871?from=members,2026-11-17,none,,"rejected https://sansad.in/ls/members/biography/4871?from=members: the page does not carry the name; Official Digital Sansad (Lok Sabha) MP profile confirmed via search (AITC, Jaynagar); client-rendered SPA."
+K00173,A0058,own_site,https://azimpremjiuniversity.edu.in/people/dipa-sinha,2026-11-17,none,,"not added: x https://x.com/azimpremjiuniv (chrome,meta,social-block); instagram https://www.instagram.com/azimpremjiuniv/ (chrome,social-block); youtube https://www.youtube.com/user/AzimPremjiUniversity (chrome,social-block); facebook https://www.facebook.com/azimpremjiuniversity (chrome,social-block)"
+K00174,A0064,own_site,https://www.santoshbhartiya.in/,2026-11-17,none,,
+K00175,A0025,own_site,https://www.tushargandhi.in,2026-11-17,found,x,"not added: facebook https://www.facebook.com/profile.php?id=137544419599110 (chrome,social-block)"
+K00176,A0087,own_site,https://www.niyamasabha.org/codes/members/m287.htm,2026-11-17,none,,
+K00177,A0020,own_site,https://www.jnu.ac.in/content/athorat,2026-11-17,none,,"not added: facebook https://www.facebook.com/officialjnu (chrome,social-block); x https://x.com/JNU_official_50 (chrome,social-block)"
+K00178,A0073,own_site,https://newspaperwali.substack.com/,2026-11-17,none,,
+K00179,A0086,own_site,https://www.pwilson.in/,2026-11-17,found,x,"not added: youtube https://www.youtube.com/@AlFSJ (); youtube https://www.youtube.com/channel/UCfZmgkCaNa39OhM2kUuH8gA (chrome,social-block)"
+K00180,A0085,own_site,https://vsivadasan.com/,2026-11-17,none,,InvalidURL: URL can't contain control characters. '/img/portfolio/20231209 Spoken about Suff
+K00181,A0018,own_site,https://econdse.org/jean-dreze-research/,2026-11-17,error,,URLError: <urlopen error [WinError 10060] A connection attempt failed because the connecte
+K00182,A0019,own_site,https://www.jnu.ac.in/Faculty/praveen/,2026-11-17,none,,
+K00183,A0059,own_site,https://ishananand.co.in/,2026-11-17,none,,

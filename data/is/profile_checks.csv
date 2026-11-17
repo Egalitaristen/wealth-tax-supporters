@@ -32,3 +32,13 @@ K00030,A0011,orcid,,2026-11-16,none,,no single ORCID record with the name
 K00031,A0006,manual_search,https://www.althingi.is/altext/cv/is/?nfaerslunr=1417,2026-11-16,none,,"rejected https://www.althingi.is/altext/cv/is/?nfaerslunr=1417: the page does not carry the name; Althingi member page seen in search results (Kristrun Frostadottir, Samfylkingin, PM); not opened."
 K00032,A0006,manual_search,https://www.stjornarradid.is/raduneyti/forsaetisraduneytid/forsaetisradherra/,2026-11-16,found,official_page,Found via search; opened government page about Kristrún Frostadóttir as Prime Minister; no personal site linked.
 K00033,A0006,own_site,https://www.stjornarradid.is/raduneyti/forsaetisraduneytid/forsaetisradherra/,2026-11-16,none,,"not added: facebook https://www.facebook.com/forsaetisraduneytid (chrome,social-block); x https://x.com/PMofIceland (chrome,social-block)"
+K00034,A0007,manual_search,https://www.althingi.is/altext/cv/is/?nfaerslunr=1416,2026-11-17,none,,rejected https://www.althingi.is/altext/cv/is/?nfaerslunr=1416: the page does not carry the name; Official Alþingi MP biography page confirmed via search (Alþingi returns HTTP 403 to automated fetch).
+K00035,A0011,manual_search,,2026-11-17,none,,No personal website or dedicated University of Iceland / Efling staff profile URL found.
+K00036,A0013,manual_search,,2026-11-17,none,,No personal website or official individual profile page found.
+K00037,A0014,manual_search,https://reykjavik.is/en/city-councilors/sanna-magdalena-mortudottir,2026-11-17,found,official_page,Official City of Reykjavík councillor profile verified with HTTP 200 and exact name in title and H1.
+K00038,A0015,manual_search,https://www.althingi.is/altext/cv/is/?nfaerslunr=690,2026-11-17,none,,rejected https://www.althingi.is/altext/cv/is/?nfaerslunr=690: the page does not carry the name; Official Alþingi MP biography page confirmed via search (Alþingi returns HTTP 403 to automated fetch).
+K00039,A0016,manual_search,https://vthorsteinsson.wordpress.com/,2026-11-17,found,website,Personal WordPress site/blog verified with HTTP 200 and exact name in title and H1.
+K00040,A0017,manual_search,,2026-11-17,none,,No personal website or dedicated individual profile page found (bsrb.is only has a collective leadership page).
+K00041,A0018,manual_search,,2026-11-17,none,,No personal website found; Alþingi alternate MP CV page URL could not be resolved due to HTTP 403.
+K00042,A0014,own_site,https://reykjavik.is/en/city-councilors/sanna-magdalena-mortudottir,2026-11-17,none,,"not added: facebook https://www.facebook.com/Reykjavik (chrome,social-block)"
+K00043,A0016,own_site,https://vthorsteinsson.wordpress.com/,2026-11-17,found,facebook,

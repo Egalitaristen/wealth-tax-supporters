@@ -70,3 +70,14 @@ K00068,A0040,manual_search,,2026-11-16,none,,Two searches found no page for the 
 K00069,A0056,manual_search,,2026-11-16,none,,"Searched twice; only news/Indoleft pages, no own domain found (mbgwatch.id guess did not resolve)"
 K00070,A0060,manual_search,,2026-11-16,none,,Searched twice; no own site found in results
 K00071,A0071,manual_search,,2026-11-16,none,,Searched twice; no own site found in results
+K00072,A0002,manual_search,,2026-11-17,none,,Searched in English and Indonesian; no personal website or official government/parliament/party profile found (only think tank consiliencepolicy.org).
+K00073,A0022,manual_search,,2026-11-17,none,,No personal website or official individual profile found; only PUSKAHA organization blog and news mentions.
+K00074,A0039,manual_search,,2026-11-17,none,,No personal website or official individual profile found; only EN-LMND organization site and news mentions.
+K00075,A0041,manual_search,,2026-11-17,none,,No personal website or official individual profile found; only news articles.
+K00076,A0043,manual_search,https://theafsa.my.canva.site/angga-wira,2026-11-17,found,website,Found via web search and verified by fetching; campaign website for Calon Ketua Umum BPP HIPMI 2022-2025 matching his HIPMI affiliation (spelled Angga Wira on site).
+K00077,A0044,manual_search,,2026-11-17,none,,No personal website or official individual profile found; only organization site (infastbestari.id) and authored articles on partaiburuh.or.id.
+K00078,A0047,manual_search,,2026-11-17,none,,No personal website or official individual profile found; only Linktree and news/video coverage.
+K00079,A0057,manual_search,,2026-11-17,none,,No personal website or official individual profile found; only op-ed articles on merdika.id and news mentions.
+K00080,A0058,manual_search,,2026-11-17,none,,No personal website or individual Ombudsman profile page found; ombudsman.go.id/perwakilan is only a general office directory.
+K00081,A0059,manual_search,,2026-11-17,none,,No personal website or individual university/DPD profile page found; unbim.ac.id only has news mentions.
+K00082,A0043,own_site,https://theafsa.my.canva.site/angga-wira,2026-11-17,none,,

@@ -141,3 +141,6 @@ P00140,A0022,wikipedia,https://en.wikipedia.org/wiki/Kathy_Sheridan,Wikidata Q63
 P00141,A0041,x,https://x.com/stephenkinsella,Wikidata Q55432904,2026-11-16
 P00142,A0041,mastodon,https://mastodon.ie/@stephenkinsella,Wikidata Q55432904,2026-11-16
 P00143,A0041,wikipedia,https://en.wikipedia.org/wiki/Stephen_Kinsella,Wikidata Q55432904,2026-11-16
+P00144,A0006,official_page,https://www.oireachtas.ie/en/members/member/Cian-O'Callaghan.D.2020-02-08/,web search: Found via web search and verified by fetching; official Houses of the Oireachtas TD profile confirming Social Democrats affiliation.,2026-11-17
+P00145,A0006,facebook,https://www.facebook.com/ocallaghancian,linked from https://www.oireachtas.ie/en/members/member/Cian-O'Callaghan.D.2020-02-08/,2026-11-17
+P00146,A0006,instagram,https://www.instagram.com/cian_ocallaghan_td/,linked from https://www.oireachtas.ie/en/members/member/Cian-O'Callaghan.D.2020-02-08/,2026-11-17
