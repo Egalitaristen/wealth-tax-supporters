@@ -5,3 +5,7 @@ K00003,A0007,manual_search,,2026-11-16,none,,No own site or official page confir
 K00004,A0007,manual_search,,2026-11-16,none,,Searches show she is president of Samostalni sindikat zdravstva (RFE articles) but no own site or union site was found.
 K00005,A0003,manual_search,,2026-11-16,none,,"sindikat.me cited by a secondary source but fetch returned empty content, identity not confirmed."
 K00006,A0003,manual_search,,2026-11-16,none,,"A labour-network document lists sindikat.me as the site, but my fetch returned empty content so identity was not confirmed."
+K00007,A0001,manual_search,,2026-11-17,none,,Searched Montenegrin and English queries including fm-hn.com; no personal site or dedicated faculty/association profile page found.
+K00008,A0004,manual_search,https://www.tlu.ee/en/node/122205,2026-11-17,found,official_page,Found via web search; HTTP 200 title and H1 confirm Tallinn University researcher profile for Montenegrin writer/activist Dušan Pajović.
+K00009,A0005,manual_search,,2026-11-17,none,,"Searched Montenegrin and English queries for personal site or blog; only publisher bios, CdM news columns, and Wikipedia found."
+K00010,A0004,own_site,https://www.tlu.ee/en/node/122205,2026-11-17,none,,"not added: facebook https://www.facebook.com/tallinna.ylikool (chrome,social-block); instagram https://www.instagram.com/tallinnuniversity/ (chrome,social-block); youtube https://www.youtube.com/user/TallinnaYlikool (chrome,social-block); tiktok https://www.tiktok.com/@tallinnuniversity (chrome,social-block); "

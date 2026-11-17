@@ -732,3 +732,13 @@ P00753,A0166,youtube,https://www.youtube.com/@sp_amsterdam,linked from https://a
 P00754,A0172,facebook,https://www.facebook.com/SPDenHaag,linked from https://denhaag.sp.nl,2026-11-16
 P00755,A0172,instagram,https://www.instagram.com/spdenhaag/,linked from https://denhaag.sp.nl,2026-11-16
 P00756,A0172,x,https://x.com/SPdenhaag,linked from https://denhaag.sp.nl,2026-11-16
+P00757,A0001,official_page,https://www.tweedekamer.nl/kamerleden_en_commissies/alle_kamerleden/dijk-jp-sp,web search: Found via Dutch search for Jimmy Dijk; official Tweede Kamer member page confirmed with exact name in H1 and SP in title.,2026-11-17
+P00758,A0003,website,https://renskeleijten.nl/,web search: Found via Dutch search; personal website confirmed with exact name in title and SP Tweede Kamer biography.,2026-11-17
+P00759,A0004,official_page,https://www.limburg.nl/bestuur/commissaris-koning/opleiding-ervaring/,web search: Found via Dutch search; official Province of Limburg profile page for Commissaris van de Koning Emile Roemer confirmed in title and H1.,2026-11-17
+P00760,A0007,official_page,https://www.tweedekamer.nl/kamerleden_en_commissies/alle_kamerleden/stultiens-lcj-pro,web search: Found via Dutch search; official Tweede Kamer member page confirmed with exact name in H1.,2026-11-17
+P00761,A0009,official_page,https://www.tweedekamer.nl/kamerleden_en_commissies/alle_kamerleden/lee-tmt-van-der-pro,web search: Found via Dutch search; official Tweede Kamer member page confirmed with exact name in H1.,2026-11-17
+P00762,A0012,website,https://kirstenvandenhul.wordpress.com/,"web search: Found via Dutch search; returned HTTP 403 to automated fetch, but search results clearly identify it as Kirsten van den Hul's personal blog (The Change Agent).",2026-11-17
+P00763,A0015,official_page,https://d66.nl/mensen/steven-van-weyenberg/,web search: Found via Dutch search; official D66 party profile page confirmed with exact name in title and H1.,2026-11-17
+P00764,A0016,official_page,https://d66.nl/mensen/hans-vijlbrief/,web search: Found via Dutch search; official D66 party profile page confirmed with exact name in title and H1.,2026-11-17
+P00765,A0015,instagram,https://www.instagram.com/stevenvanweyenberg/,linked from https://d66.nl/mensen/steven-van-weyenberg/,2026-11-17
+P00766,A0001,instagram,https://www.instagram.com/jimmydijksp/,linked from https://www.tweedekamer.nl/kamerleden_en_commissies/alle_kamerleden/dijk-jp-sp,2026-11-17

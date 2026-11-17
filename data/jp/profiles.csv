@@ -90,3 +90,19 @@ P00413,A0106,website,https://www.kaetsu.ac.jp/teacher_intro/shoko_sakai/,actors.
 P00414,A0107,website,https://www.kaetsu.ac.jp/teacher_intro/masato_kikuya/,actors.csv website column,2026-11-16
 P00415,A0108,website,https://watanabeken1.com/,actors.csv website column,2026-11-16
 P00416,A0080,wikipedia,https://en.wikipedia.org/wiki/Kazuo_Shii,Wikidata Q337507,2026-11-16
+P00417,A0081,website,https://b.oomorishoji.com/,"web search: Found via Japanese search_web; verified HTTP 200 personal blog confirming Shoji Omori, JCP Daisen town councillor.",2026-11-17
+P00418,A0082,website,https://jcp-shimizu.sblo.jp/,web search: Found via Japanese search_web; verified HTTP 200 personal blog confirming Minako Shimizu (Ichikawa city councillor / JCP).,2026-11-17
+P00419,A0083,official_page,https://www.jcp-ichikawa.com/profile/yanagi.html,web search: Found via Japanese search_web; verified HTTP 200 on JCP Ichikawa City Assembly group profile page confirming Michiko Yanagi.,2026-11-17
+P00420,A0084,official_page,https://www.jcp-ichikawa.com/profile/kaneko.html,web search: Found via Japanese search_web; verified HTTP 200 on JCP Ichikawa City Assembly group profile page confirming Teisaku Kaneko (former sakura.ne.jp site is 404).,2026-11-17
+P00421,A0085,official_page,https://www.jcp-ichikawa.com/profile/hirota.html,"web search: JCP Ichikawa city council group profile page; confirmed name, Ichikawa city councillor role, and JCP affiliation.",2026-11-17
+P00422,A0086,official_page,https://www.jcp-ichikawa.com/profile/kosaka.html,"web search: JCP Ichikawa city council group profile page; confirmed name, Ichikawa city council role, and JCP affiliation (listed blogs dead/403).",2026-11-17
+P00423,A0090,official_page,https://sakurashigikai.gijiroku.com/g07_giinlistS.asp?SrchID=66,web search: Official Sakura City Council member profile page; confirmed exact name 稲田 敏昭 and independent caucus.,2026-11-17
+P00424,A0093,website,https://matsuzaki-sachi.com/,"web search: Personal political blog found via search; title confirms name, Funabashi city councillor role, and JCP.",2026-11-17
+P00425,A0094,website,https://sakaiyosuke.web.fc2.com/,"web search: Personal website on fc2.com found via search; page text confirms name, Funabashi city councillor, and JCP.",2026-11-17
+P00426,A0096,website,https://iwai-tomoko.seesaa.net/,web search: Personal blog on seesaa.net found via search; title confirms exact name and matches Funabashi JCP councillor.,2026-11-17
+P00427,A0097,website,https://k-kazuko.cocolog-nifty.com/,web search: Personal blog on cocolog-nifty.com found via search; title confirms exact name and JCP affiliation.,2026-11-17
+P00428,A0100,official_page,https://www.jcp.or.jp/list/member/3820511,"web search: Official JCP member profile page; confirmed name, Niihama city councillor role, and JCP affiliation.",2026-11-17
+P00429,A0097,x,https://x.com/knazawa_kazuko,linked from https://k-kazuko.cocolog-nifty.com/,2026-11-17
+P00430,A0097,facebook,https://www.facebook.com/kanazawakazuko,linked from https://k-kazuko.cocolog-nifty.com/,2026-11-17
+P00431,A0094,x,https://x.com/sakai_yousuke,linked from https://sakaiyosuke.web.fc2.com/,2026-11-17
+P00432,A0093,x,https://x.com/sachi_matsu,linked from https://matsuzaki-sachi.com/,2026-11-17

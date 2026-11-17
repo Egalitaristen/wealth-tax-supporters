@@ -63,3 +63,10 @@ P00061,A0014,website,https://www.espace-associatif.ma,"web search: Own guess of 
 P00062,A0014,facebook,https://www.facebook.com/Espace.Associatif.ma,linked from https://www.espace-associatif.ma,2026-11-16
 P00063,A0014,x,https://x.com/espassociatif,linked from https://www.espace-associatif.ma,2026-11-16
 P00064,A0014,youtube,https://www.youtube.com/channel/UCS2r_97z8qr4WP1E2h3qLTQ,linked from https://www.espace-associatif.ma,2026-11-16
+P00065,A0006,website,https://nabilamounib.ma/,"web search: Found via web search; HTTP 200 title confirms Nabila Mounib (PSU, Moroccan MP) personal official website.",2026-11-17
+P00066,A0011,website,https://najibakesbiblog.wordpress.com/,"web search: Found via web search; WordPress returned HTTP 403 bot check, but search results confirm economist Najib Akesbi's official blog.",2026-11-17
+P00067,A0018,official_page,https://pps.ma/fr/le-secretaire-general/,"web search: Found via web search; HTTP 200 official PPS party page for Secretary-General, page text confirmed to mention Benabdallah.",2026-11-17
+P00068,A0019,official_page,https://pace.coe.int/en/members/8586/sentissi-driss,"web search: Found via web search; page returned HTTP 403 bot check, but search results confirm official PACE parliamentary member profile for Moroccan MP Driss Sentissi.",2026-11-17
+P00069,A0006,x,https://x.com/mounibna,linked from https://nabilamounib.ma/,2026-11-17
+P00070,A0018,x,https://x.com/BenabdallahMN,linked from https://pps.ma/fr/le-secretaire-general/,2026-11-17
+P00071,A0018,facebook,https://www.facebook.com/BenabdallahMN,linked from https://pps.ma/fr/le-secretaire-general/,2026-11-17

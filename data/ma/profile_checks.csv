@@ -29,3 +29,14 @@ K00027,A0014,manual_search,https://www.espace-associatif.ma,2026-11-16,found,web
 K00028,A0015,manual_search,,2026-11-16,none,,"Searched French name and acronym; no own domain in results; odt.ma guess returned no usable content, not confirmed."
 K00029,A0014,own_site,https://www.espace-associatif.ma,2026-11-16,found,facebook;x;youtube,500 at https://www.espace-associatif.ma/contactez-nous/
 K00030,A0015,manual_search,,2026-11-16,none,,"Searched twice in French; only news coverage and a France-section page on HelloAsso, no own site seen."
+K00031,A0002,manual_search,,2026-11-17,none,,Searched French and Arabic queries including chambredesrepresentants.ma and fgd.ma; no personal site or specific member profile URL found.
+K00032,A0005,manual_search,,2026-11-17,none,,"Searched French and Arabic queries for personal site, blog, and parliament page; no personal site or official institutional profile found."
+K00033,A0006,manual_search,https://nabilamounib.ma/,2026-11-17,found,website,"Found via web search; HTTP 200 title confirms Nabila Mounib (PSU, Moroccan MP) personal official website."
+K00034,A0008,manual_search,,2026-11-17,none,,Searched for personal site and Oxfam Morocco profile; only general oxfam.org site and news articles found.
+K00035,A0011,manual_search,https://najibakesbiblog.wordpress.com/,2026-11-17,found,website,"Found via web search; WordPress returned HTTP 403 bot check, but search results confirm economist Najib Akesbi's official blog."
+K00036,A0018,manual_search,https://pps.ma/fr/le-secretaire-general/,2026-11-17,found,official_page,"Found via web search; HTTP 200 official PPS party page for Secretary-General, page text confirmed to mention Benabdallah."
+K00037,A0019,manual_search,https://pace.coe.int/en/members/8586/sentissi-driss,2026-11-17,found,official_page,"Found via web search; page returned HTTP 403 bot check, but search results confirm official PACE parliamentary member profile for Moroccan MP Driss Sentissi."
+K00038,A0006,own_site,https://nabilamounib.ma/,2026-11-17,found,x,
+K00039,A0018,own_site,https://pps.ma/fr/le-secretaire-general/,2026-11-17,found,x;facebook,
+K00040,A0011,own_site,https://najibakesbiblog.wordpress.com/,2026-11-17,none,,not added: facebook https://www.facebook.com/profile.php?id=100057341983907 (social-block)
+K00041,A0019,own_site,https://pace.coe.int/en/members/8586/sentissi-driss,2026-11-17,blocked,,403 at https://pace.coe.int/en/members/8586/sentissi-driss

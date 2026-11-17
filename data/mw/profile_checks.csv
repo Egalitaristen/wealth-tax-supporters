@@ -14,3 +14,7 @@ K00012,A0007,manual_search,,2026-11-16,none,,mejn.mw listed by a directory but t
 K00013,A0008,manual_search,,2026-11-16,none,,No own site found in searches; guessed mctu.mw did not resolve.
 K00014,A0007,manual_search,,2026-11-16,none,,"A Leiden portal listing suggested www.mejn.mw, but the domain did not resolve when opened; not confirmed."
 K00015,A0008,manual_search,,2026-11-16,none,,Searched; no own site seen; guessed mctu.mw does not resolve.
+K00016,A0001,manual_search,https://berthabangara.com/,2026-11-17,found,website,"Found via web search; personal website with title ""Dr. Bertha Chipo Bangara"" and Malawi/ECAMA details confirmed."
+K00017,A0003,manual_search,,2026-11-17,none,,"Searched twice; found only news articles and CfSC org homepage, no personal website or individual profile page."
+K00018,A0005,manual_search,,2026-11-17,none,,"Searched twice; found only news articles, no personal website or official profile page."
+K00019,A0001,own_site,https://berthabangara.com/,2026-11-17,none,,

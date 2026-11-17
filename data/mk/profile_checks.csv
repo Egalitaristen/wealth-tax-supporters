@@ -3,3 +3,4 @@ K00001,A0003,own_site,https://sdsm.org.mk,2026-11-15,found,facebook;x;youtube;in
 K00002,A0001,own_site,https://levica.mk,2026-11-15,found,instagram;x;youtube;tiktok,"not added: facebook https://www.facebook.com/PartijaLevica (chrome,social-block); facebook https://www.facebook.com/apasievlevica (social-block)"
 K00003,A0002,wikipedia,https://en.wikipedia.org/wiki/Dimitar_Apasiev,2026-11-16,none,,
 K00004,A0002,wikipedia_langs,,2026-11-16,none,,no official website in the articles in other languages
+K00005,A0002,manual_search,,2026-11-17,none,,Searched Macedonian and English queries including sobranie.mk and ugd.edu.mk; no dedicated MP or faculty profile URL found (only repository/course links and party site levica.mk).

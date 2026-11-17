@@ -127,3 +127,6 @@ P00125,A0086,website,https://www.pwilson.in/,web search: Found via search_web; p
 P00126,A0087,official_page,https://www.niyamasabha.org/codes/members/m287.htm,web search: Found via search_web; official Kerala Legislature page has heading 'Members > P. Karunakaran' (sansad.in is JS SPA).,2026-11-17
 P00127,A0025,x,https://x.com/TusharG,linked from https://www.tushargandhi.in,2026-11-17
 P00128,A0086,x,https://x.com/PWilsonDMK,linked from https://www.pwilson.in/,2026-11-17
+P00129,A0002,official_page,https://research-repository.uwa.edu.au/en/persons/nitin-bharti/,"web search: Found via search_web and verified HTTP 200 on UWA Profiles; former NYUAD/World Inequality Lab economist Nitin Kumar Bharti (personal github.io 404, sites.google.com private).",2026-11-17
+P00130,A0014,official_page,https://www.umass.edu/economics/about/directory/jayati-ghosh,"web search: Found via search_web on UMass Amherst Economics directory; returned HTTP 403 on fetch, search result confirms Jayati Ghosh faculty profile.",2026-11-17
+P00131,A0076,official_page,https://www.niyamasabha.org/codes/15kla/Members%20profile%20mal/rajeeve%20p.pdf,web search: Found via search_web (site:niyamasabha.org) and verified HTTP 200; official Kerala Legislative Assembly member profile PDF for P. Rajeeve (CPI(M)).,2026-11-17

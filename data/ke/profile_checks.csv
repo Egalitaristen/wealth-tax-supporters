@@ -11,3 +11,13 @@ K00009,A0006,orcid,https://orcid.org/0000-0003-1081-0763,2026-11-16,found,websit
 K00010,A0006,own_site,https://profiles.uonbi.ac.ke/latif,2026-11-16,found,linkedin,
 K00011,A0007,manual_search,https://www.eataxgovernance.net/,2026-11-16,found,website,"Found in search results; opened it, header names East African Tax and Governance Network (EATGN), heading 'Championing Tax Justice for Sustainable Development'."
 K00012,A0007,own_site,https://www.eataxgovernance.net/,2026-11-16,found,x;facebook;youtube;linkedin,
+K00013,A0002,manual_search,,2026-11-17,none,,"Searched name with Oxfam, Kenya, and personal website/blog; only Oxfam blog author archive and 403 GSI page found."
+K00014,A0005,manual_search,,2026-11-17,none,,Searched name with National Taxpayers Association and personal website; only general NTA Our Staff page found.
+K00015,A0008,manual_search,,2026-11-17,none,,Searched name with EATGN and personal website; only general EATGN Secretariat page and articles found.
+K00016,A0010,manual_search,,2026-11-17,none,,Searched name with KHRC and personal website; KHRC profile URL returned 404 Not Found.
+K00017,A0011,manual_search,,2026-11-17,none,,"Searched name with Kenya, advocate, Recourse, and personal website; only general Recourse Team page found."
+K00018,A0012,manual_search,https://williamruto.co.ke/,2026-11-17,found,website,Personal/official website found via search; title confirms exact name and role as President of Kenya.
+K00019,A0013,manual_search,,2026-11-17,none,,"Searched name with Kenya, IPF, and personal website; IPF author URL returned 404 Not Found."
+K00020,A0014,manual_search,,2026-11-17,none,,"Searched name with Institute of Public Finance, Kenya, and personal website; only IPF articles and reports found."
+K00021,A0016,manual_search,,2026-11-17,none,,Searched name with International Lawyers Project and personal website; only employer Wix team page with empty raw HTML found.
+K00022,A0012,own_site,https://williamruto.co.ke/,2026-11-17,none,,

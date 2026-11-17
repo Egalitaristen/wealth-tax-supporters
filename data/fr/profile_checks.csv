@@ -1290,3 +1290,6 @@ K01288,A0141,own_site,https://www.assemblee-nationale.fr/dyn/deputes/PA774962,20
 K01289,A0014,own_site,https://leowalter04.fr/,2026-11-17,error,,406 at https://leowalter04.fr/
 K01290,A0559,own_site,https://support-antoine.org/,2026-11-17,found,x;facebook,
 K01291,A0050,own_site,https://www.leabem.fr/,2026-11-17,found,facebook;youtube,"not added: x https://x.com/Gpe_EcoloSocial (); tiktok https://www.tiktok.com/@leabem75 (); linkedin https://www.linkedin.com/in/l%C3%A9a-balage-el-mariky-55911711 (); already listed: x,instagram"
+K01292,A0428,manual_search,https://cv.hal.science/michael-zemmour,2026-11-17,found,official_page,"Found via search_web; 200 OK, H1 'Michaël Zemmour', confirms affiliation with TRIANGLE (Université Lumière Lyon 2)."
+K01293,A0529,manual_search,,2026-11-17,none,,Searched name + colombes.fr; no personal website found and colombes.fr returned 418 with no individual profile URL in search.
+K01294,A0428,own_site,https://cv.hal.science/michael-zemmour,2026-11-17,none,,

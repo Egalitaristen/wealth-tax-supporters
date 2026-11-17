@@ -29,3 +29,6 @@ K00027,A0009,manual_search,,2026-11-16,none,,"No personal website or official pr
 K00028,A0011,manual_search,,2026-11-16,none,,No personal website or University of Tartu staff profile found after two searches; only Wikipedia and media op-eds.
 K00029,A0003,own_site,https://www.kerlycoaching.com/,2026-11-16,found,facebook;instagram,
 K00030,A0007,own_site,https://www.indrekneivelt.eu/,2026-11-16,none,,
+K00031,A0002,manual_search,,2026-11-17,none,,Searched name + Riigikogu + sotsid.ee; riigikogu.ee member URL from search returned 404 Not Found and no personal site exists.
+K00032,A0008,manual_search,https://profiles.ucl.ac.uk/61603-rainer-kattel,2026-11-17,found,official_page,"Found via UCL search; page is JS-rendered (200 OK), and search results confirm it is Rainer Kattel's official UCL Profiles page."
+K00033,A0008,own_site,https://profiles.ucl.ac.uk/61603-rainer-kattel,2026-11-17,none,,

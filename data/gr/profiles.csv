@@ -96,3 +96,9 @@ P00094,A0027,tiktok,https://www.tiktok.com/@kos.arvanitis,linked from https://ko
 P00095,A0020,facebook,https://www.facebook.com/nyfoudis,linked from https://nyfoudis.gr/,2026-11-17
 P00096,A0020,x,https://x.com/nyfoudis,linked from https://nyfoudis.gr/,2026-11-17
 P00097,A0020,instagram,https://www.instagram.com/nyfoodies_nikos/,linked from https://nyfoudis.gr/,2026-11-17
+P00098,A0015,website,https://www.petroskokkalis.eu/,"web search: Found via search_web; 200 OK, title and H1 carry Petros Kokkalis's name and former MEP role.",2026-11-17
+P00099,A0018,official_page,https://www.europarl.europa.eu/meps/en/244571/NIKOS_PAPANDREOU/home,"web search: Found via search_web; 200 OK, official European Parliament MEP profile for Nikos Papandreou.",2026-11-17
+P00100,A0025,website,https://alexischaritsis.gr/,"web search: Found via search_web (site:alexischaritsis.gr); official personal website of Alexis Charitsis (MP for Messinia, former New Left leader); server returned HTTP 500 on fetch.",2026-11-17
+P00101,A0015,facebook,https://www.facebook.com/KokkalisPetros,linked from https://www.petroskokkalis.eu/,2026-11-17
+P00102,A0015,x,https://x.com/PetrosKokkalis,linked from https://www.petroskokkalis.eu/,2026-11-17
+P00103,A0015,instagram,https://www.instagram.com/petroskokkalis/,linked from https://www.petroskokkalis.eu/,2026-11-17

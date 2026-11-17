@@ -96,3 +96,12 @@ K00094,A0033,own_site,https://socialpolicy.panteion.gr/people/oreskol,2026-11-17
 K00095,A0036,own_site,https://socialpolicy.panteion.gr/en/people/savvasrobolis,2026-11-17,none,,
 K00096,A0020,own_site,https://nyfoudis.gr/,2026-11-17,found,facebook;x;instagram,"not added: youtube https://www.youtube.com/channel/UC2f_7ufGBNlDw6Es4ayAHyQ (chrome,social-block)"
 K00097,A0048,own_site,https://www.kostasmelas.gr/,2026-11-17,none,,
+K00098,A0011,manual_search,https://notjusteconomics.eu/,2026-11-17,none,,"rejected https://notjusteconomics.eu/: the page's title and headings do not carry the name; Found via search_web; 200 OK, title carries Euclid Tsakalotos's exact Greek name."
+K00099,A0015,manual_search,https://www.petroskokkalis.eu/,2026-11-17,found,website,"Found via search_web; 200 OK, title and H1 carry Petros Kokkalis's name and former MEP role."
+K00100,A0018,manual_search,https://www.europarl.europa.eu/meps/en/244571/NIKOS_PAPANDREOU/home,2026-11-17,found,official_page,"Found via search_web; 200 OK, official European Parliament MEP profile for Nikos Papandreou."
+K00101,A0025,manual_search,https://alexischaritsis.gr/,2026-11-17,found,website,"Found via search_web (site:alexischaritsis.gr); official personal website of Alexis Charitsis (MP for Messinia, former New Left leader); server returned HTTP 500 on fetch."
+K00102,A0032,manual_search,https://utopia.duth.gr/gkatroug/,2026-11-17,none,,"rejected https://utopia.duth.gr/gkatroug/: the page does not carry the name; Found via search_web and verified HTTP 200 on Democritus University of Thrace server; title and text confirm Giorgos Katrougalos, constitutional law professor."
+K00103,A0034,manual_search,https://www.culture.gov.gr/el/Ministry/SitePages/view.aspx?iID=1646,2026-11-17,none,,"rejected https://www.culture.gov.gr/el/Ministry/SitePages/view.aspx?iID=1646: the page does not carry the name; Found via search_web on Greek Ministry of Culture (culture.gov.gr); returned HTTP 403 on fetch, search result title 'Λυδία Κονιόρδου - Βιογραφικό Σημείωμα' confirms former culture minister"
+K00104,A0018,own_site,https://www.europarl.europa.eu/meps/en/244571/NIKOS_PAPANDREOU/home,2026-11-17,blocked,,403 at https://www.europarl.europa.eu/meps/en/244571/NIKOS_PAPANDREOU/home
+K00105,A0015,own_site,https://www.petroskokkalis.eu/,2026-11-17,found,facebook;x;instagram,"not added: youtube https://www.youtube.com/channel/UCgct1nnFHsdvQM1r3onWm9g (chrome,social-block)"
+K00106,A0025,own_site,https://alexischaritsis.gr/,2026-11-17,error,,500 at https://alexischaritsis.gr/

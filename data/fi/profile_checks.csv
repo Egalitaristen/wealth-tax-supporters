@@ -93,3 +93,4 @@ K00091,A0089,orcid,https://orcid.org/0000-0003-2873-982X,2026-11-16,none,,ORCID 
 K00092,A0081,manual_search,https://www.eduskunta.fi/kansanedustajat-ja-toimielimet/kansanedustajat/614,2026-11-17,found,official_page,Official Parliament of Finland MP profile page (contains Matti Kangas in page HTML); former personal site is defunct.
 K00093,A0089,manual_search,https://veropolitiikka.blog/,2026-11-17,none,,"rejected https://veropolitiikka.blog/: the page's title and headings do not carry the name; Personal tax policy blog by Lauri Finér (Executive Director, Kalevi Sorsa Foundation), confirmed via search and curl."
 K00094,A0081,own_site,https://www.eduskunta.fi/kansanedustajat-ja-toimielimet/kansanedustajat/614,2026-11-17,none,,
+K00095,A0089,manual_search,,2026-11-17,none,,"Searched name + sorsafoundation.fi + helsinki.fi; veropolitiikka.blog is a retired redirect notice without his name, and no active personal/profile URL found."

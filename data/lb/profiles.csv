@@ -11,3 +11,8 @@ P00009,A0009,facebook,https://www.facebook.com/unescwa,Wikidata Q1355485,2026-11
 P00010,A0009,youtube,https://www.youtube.com/channel/UCg3YzeZNWkiGR76ro3F0I6Q,Wikidata Q1355485,2026-11-13
 P00011,A0009,wikipedia,https://en.wikipedia.org/wiki/United_Nations_Economic_and_Social_Commission_for_Western_Asia,Wikidata Q1355485,2026-11-13
 P00012,A0009,linkedin,https://www.linkedin.com/company/unescwa,linked from https://www.unescwa.org,2026-11-16
+P00013,A0004,official_page,https://www.lse.ac.uk/people/lydia-assouad,"web search: Found via web search; HTTP 200 LSE staff page confirms Dr Lydia Assouad (economist, World Inequality Lab affiliate) with no personal site linked.",2026-11-17
+P00014,A0005,official_page,https://sb.lau.edu.lb/about/faculty-staff/dr-ghassan-dibeh.php,"web search: Found via web search on lau.edu.lb; page returned HTTP 403 Cloudflare block, but search results confirm LAU Professor of Economics Ghassan Dibeh.",2026-11-17
+P00015,A0007,official_page,https://usj.edu.lb/en/karim-daher,"web search: Found via web search on usj.edu.lb; page timed out on direct fetch, but search results confirm Lebanese tax lawyer and USJ lecturer Karim Daher.",2026-11-17
+P00016,A0008,website,https://ishacdiwan.wordpress.com/,"web search: Found via web search; WordPress returned HTTP 403 bot check, but search results confirm Ishac Diwan's personal homepage/blog with papers and ENS/PSL bio.",2026-11-17
+P00017,A0004,x,https://x.com/lydia_assouad,linked from https://www.lse.ac.uk/people/lydia-assouad,2026-11-17

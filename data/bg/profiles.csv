@@ -22,3 +22,5 @@ P00020,A0005,website,https://www.tsvetelinapenkova.eu/,web search: Found via web
 P00021,A0006,website,https://stanishev.eu/,"web search: Found via web search; personal website confirming his name, BSP, PES, and EP sections.",2026-11-16
 P00022,A0007,official_page,https://www.europarl.europa.eu/meps/en/197842/ELENA_YONCHEVA/home,web search: page not readable by our reader (ERR 403); identity from the title the agent saw: Home | Elena YONCHEVA | MEPs | European Parliament; Found via web search; official European Parliament MEP profile confirming her name and mandate.,2026-11-16
 P00023,A0005,x,https://x.com/tsvetypenkova,linked from https://www.tsvetelinapenkova.eu/,2026-11-16
+P00024,A0008,official_page,https://www.europarl.europa.eu/meps/bg/197846/IVO_HRISTOV/history/9,"web search: Found via web search on europarl.europa.eu; title and H1 confirm Иво Христов, 9th parliamentary term MEP (S&D/BSP).",2026-11-17
+P00025,A0009,official_page,https://www.europarl.europa.eu/meps/en/197844/PETAR_VITANOV/history/9,"web search: Found via web search on europarl.europa.eu; title and H1 confirm Petar Vitanov, 9th parliamentary term MEP (S&D).",2026-11-17

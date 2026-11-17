@@ -9,3 +9,6 @@ K00007,A0007,wikipedia_langs,,2026-11-16,none,,no official website in the articl
 K00008,A0002,manual_search,,2026-11-16,none,,Searched English and Latvian names with manabalss and biedriba; no results about this association or any site.
 K00009,A0003,manual_search,https://saskanascentrs.lv,2026-11-16,found,website,"Own guess of obvious domain; opened it, title and heading are SaskanasCentrs, About-us section describes the political alliance Saskaņas centrs."
 K00010,A0003,own_site,https://saskanascentrs.lv,2026-11-16,none,,
+K00011,A0004,manual_search,,2026-11-17,none,,"Searched Latvian and English queries for personal site and Kreisie patrioti; only election candidate listings (cvk.lv), festival bio, and news found."
+K00012,A0007,manual_search,https://www.europarl.europa.eu/meps/en/197783/ANDRIS_AMERIKS/history/9,2026-11-17,found,official_page,Found via web search; HTTP 200 official European Parliament page confirms former MEP (2019-2024) Andris Ameriks.
+K00013,A0007,own_site,https://www.europarl.europa.eu/meps/en/197783/ANDRIS_AMERIKS/history/9,2026-11-17,blocked,,403 at https://www.europarl.europa.eu/meps/en/197783/ANDRIS_AMERIKS/history/9

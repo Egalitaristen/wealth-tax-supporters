@@ -34,3 +34,16 @@ K00032,A0011,orcid,,2026-11-16,none,,no single ORCID record with the name
 K00033,A0013,orcid,https://orcid.org/0009-0005-1666-5423,2026-11-16,none,,ORCID institution does not match: Lingnan University
 K00034,A0024,orcid,,2026-11-16,none,,no single ORCID record with the name
 K00035,A0008,manual_search,,2026-11-16,none,,"Found via search; blog is the organisation's own site, describes itself as a Malaysian research advocacy group on trade, labour and water (Petaling Jaya, Malaysian posts). Blogspot-hosted, no other do"
+K00036,A0003,manual_search,,2026-11-17,none,,"Searched English and Malay queries (parlimen.gov.my, laman web); only Hansard records, Wikipedia, and social media found."
+K00037,A0009,manual_search,,2026-11-17,none,,"Searched name with MSN and Malaysia; no own site or institutional profile found, only news articles."
+K00038,A0010,manual_search,,2026-11-17,none,,"Searched English and Malay queries (SUARAM, laman web, blog); only org site, news columns, and Wikipedia/directories found."
+K00039,A0011,manual_search,https://www.ksjomo.org/,2026-11-17,found,website,Personal homepage found via search and opened; title carries exact name and content confirms Malaysian economist in Kuala Lumpur.
+K00040,A0013,manual_search,,2026-11-17,none,,Searched REFSA and Malaysia queries; only authored policy briefs and commentary on refsa.org and fulcrum.sg found.
+K00041,A0014,manual_search,,2026-11-17,none,,Searched Substack/Medium/Aliran; fixingoursociety.substack.com only displays first name 'Raveen' without full name 'Raveen Jeyakumar'.
+K00042,A0015,manual_search,,2026-11-17,none,,Searched journalist/The Star/blog queries; only media author archives on news portals found.
+K00043,A0018,manual_search,,2026-11-17,none,,"Searched English and Malay queries (Dewan Negara, parlimen.gov.my, UMNO); only Hansard records and Wikipedia found."
+K00044,A0021,manual_search,,2026-11-17,none,,"Searched PSM and Malaysia queries; no own site or institutional profile found, only news articles and medical registry."
+K00045,A0022,manual_search,,2026-11-17,none,,"Searched PSM and partisosialis.org; only party articles and statements found, no dedicated personal profile page."
+K00046,A0024,manual_search,,2026-11-17,none,,"Searched ASLI, Sunway, and Malaysia queries; only news articles, corporate mentions, and Wikipedia found."
+K00047,A0027,manual_search,,2026-11-17,none,,"Searched PSM, partisosialis.org, and sosialis.net; only party articles and statements found, no dedicated personal profile page."
+K00048,A0011,own_site,https://www.ksjomo.org/,2026-11-17,found,x;substack,"not added: facebook https://www.facebook.com/ksjomo (social-block); facebook https://www.facebook.com/jomo.sundaram.3 (chrome,social-block)"
