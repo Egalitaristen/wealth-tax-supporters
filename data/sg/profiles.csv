@@ -51,3 +51,7 @@ P00149,A0025,tiktok,https://www.tiktok.com/@sgclimaterally,linked from https://w
 P00150,A0025,facebook,https://www.facebook.com/SGClimateRally,linked from https://www.sgclimaterally.com,2026-11-16
 P00151,A0025,x,https://x.com/sgclimaterally,linked from https://www.sgclimaterally.com,2026-11-16
 P00152,A0025,instagram,https://www.instagram.com/sgclimaterally/,linked from https://www.sgclimaterally.com,2026-11-16
+P00153,A0008,official_page,https://researchportal.hkust.edu.hk/en/persons/donald-low/,web search: Found via search_web; confirmed HKUST faculty research portal profile for Donald Low.,2026-11-17
+P00154,A0010,official_page,https://michiganross.umich.edu/faculty-research/faculty/linda-lim,"web search: Found via search_web; page returned HTTP 403 on fetch, but search results clearly identify it as Linda Y. C. Lim's Michigan Ross faculty profile.",2026-11-17
+P00155,A0017,website,https://teoyouyenn.sg/,"web search: Found via search_web (and site:teoyouyenn.sg); page returned HTTP 403 on fetch, but search results clearly confirm it as Teo You Yenn's personal academic website.",2026-11-17
+P00156,A0027,official_page,https://www.climate.ox.ac.uk/people/bhavya-gupta,"web search: Found via search_web; confirmed academic profile for Dr. Bhavya Gupta (NUS LKYSPP PhD 2024, now at Oxford).",2026-11-17

@@ -5,3 +5,8 @@ K00003,A0003,directory,,2026-11-16,none,,no NBER page
 K00004,A0004,directory,,2026-11-16,none,,no NBER page
 K00005,A0003,orcid,,2026-11-16,none,,several ORCID records with the name
 K00006,A0004,orcid,https://orcid.org/0000-0003-3941-1539,2026-11-16,none,,"record found, no website listed"
+K00007,A0003,manual_search,,2026-11-17,none,,"Searched twice; vladimirsimovic.com is an architect namesake, and cpe.org.rs/o-nama/ has no individual profile page."
+K00008,A0004,manual_search,https://www.fpn.bg.ac.rs/en/faculty/staff/prof-dr-dusan-pavlovic-258,2026-11-17,found,official_page,Found via search; fetched official University of Belgrade Faculty of Political Sciences staff page.
+K00009,A0005,manual_search,https://www.parlament.gov.rs/TAMARA_MILENKOVI%C4%86+KERKOVI%C4%86.1279.3050.html,2026-11-17,found,official_page,Found via search; fetched official National Assembly of Serbia profile for Tamara Milenković Kerković.
+K00010,A0005,own_site,https://www.parlament.gov.rs/TAMARA_MILENKOVI%C4%86+KERKOVI%C4%86.1279.3050.html,2026-11-17,none,,
+K00011,A0004,own_site,https://www.fpn.bg.ac.rs/en/faculty/staff/prof-dr-dusan-pavlovic-258,2026-11-17,none,,"not added: facebook https://www.facebook.com/fakultetpolitickihnauka (chrome,social-block); x https://x.com/fpn_beograd (chrome,social-block); instagram https://www.instagram.com/fpn_beograd/ (chrome,social-block); youtube https://www.youtube.com/@fakultetpolitickihnaukabeograd (chrome,social-block); linkedin "

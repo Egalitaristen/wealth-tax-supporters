@@ -85,3 +85,48 @@ P00083,A0002,official_page,https://www.parlamento.pt/DeputadoGP/Paginas/Activida
 P00084,A0005,official_page,https://partidolivre.pt/primarias-legislativas-2024/lisboa/isabel-mendes-lopes,web search: Found via LIVRE party search; official party profile page (parlamento.pt failed TLS handshake).,2026-11-17
 P00085,A0005,x,https://x.com/Isabel_ml_,linked from https://partidolivre.pt/primarias-legislativas-2024/lisboa/isabel-mendes-lopes,2026-11-17
 P00086,A0005,instagram,https://www.instagram.com/isabelmendeslopes/,linked from https://partidolivre.pt/primarias-legislativas-2024/lisboa/isabel-mendes-lopes,2026-11-17
+P00087,A0006,official_page,https://partidolivre.pt/primarias-legislativas-2024/porto/jorge-pinto,web search: Found via web search; official LIVRE party profile page for Jorge Pinto confirmed on page (parlamento.pt BID=7462 did not render name in static HTML; jorgepinto2026.pt offline).,2026-11-17
+P00088,A0007,website,https://paulomuacho.com/,"web search: Official personal website found via search_web for LIVRE deputy Paulo Muacho; automated fetch returned HTTP 403 Forbidden, identity clear from search results.",2026-11-17
+P00089,A0008,website,https://ruitavares.net/,web search: Personal website found via search_web; fetched page confirms title 'Rui Tavares – Historiador. Fundador do LIVRE'.,2026-11-17
+P00090,A0009,official_page,https://www.psparlamento.pt/deputado/miguel-costa-matos/,web search: No personal site found in two searches; official PS parliamentary group profile page confirmed by page title.,2026-11-17
+P00091,A0010,official_page,https://www.psparlamento.pt/deputado/carlos-pereira/,web search: No personal site found in two searches; official PS parliamentary group profile page for Carlos João Pereira (listed as Carlos Pereira) confirmed by page title.,2026-11-17
+P00092,A0011,official_page,https://www.psparlamento.pt/deputado/antonio-mendonca-mendes/,web search: No personal site found in two searches; official PS parliamentary group profile page confirmed by page title.,2026-11-17
+P00093,A0012,official_page,https://www.psparlamento.pt/deputado/ana-paula-bernardo/,web search: No personal site found in two searches; official PS parliamentary group profile page for Ana Paula Mata Bernardo confirmed by page title.,2026-11-17
+P00094,A0014,official_page,https://www.parlamento.pt/DeputadoGP/Paginas/Biografia.aspx?BID=1554,web search: No personal site found in two searches; official Assembleia da República biography page for Carlos Filipe de Andrade Neto Brandão (PS) confirmed in page text.,2026-11-17
+P00095,A0015,official_page,https://www.psparlamento.pt/deputado/joana-lima/,web search: No personal site found in two searches; official PS parliamentary group profile page confirmed by page title.,2026-11-17
+P00096,A0016,official_page,https://www.parlamento.pt/DeputadoGP/Paginas/Biografia.aspx?BID=1735,web search: No personal site found in two searches; official Assembleia da República biography page for João Paulo de Loureiro Rebelo (PS) confirmed in page text.,2026-11-17
+P00097,A0017,official_page,https://www.psparlamento.pt/deputado/miguel-cabrita/,web search: No personal site found (miguelcabrita.com is a namesake AI consultant); official PS parliamentary group profile page confirmed by page title.,2026-11-17
+P00098,A0019,official_page,https://www.parlamento.pt/DeputadoGP/Paginas/Biografia.aspx?BID=1208,web search: No personal site found (luisfazenda.com is a namesake veterinarian); official Assembleia da República biography page for Luís Fazenda (BE) confirmed in page text.,2026-11-17
+P00099,A0021,official_page,https://www.europarl.europa.eu/meps/pt/257083/JOAO_OLIVEIRA/home,web search: No personal site found in two searches; official European Parliament MEP profile page confirmed by page title.,2026-11-17
+P00100,A0024,official_page,https://www.parlamento.pt/DeputadoGP/Paginas/Biografia.aspx?BID=4471,web search: No personal site found in two searches; official Assembleia da República biography page for Paulo Sá (PCP) confirmed in page text.,2026-11-17
+P00101,A0025,official_page,https://www.parlamento.pt/DeputadoGP/Paginas/Biografia.aspx?BID=2184,web search: No personal site found in two searches; official Assembleia da República biography page for Miguel Tiago (PCP) confirmed in page text.,2026-11-17
+P00102,A0026,official_page,https://www.parlamento.pt/DeputadoGP/Paginas/Biografia.aspx?BID=4197,web search: No personal site found in two searches; official Assembleia da República biography page for Paula Alexandra Sobral Guerreiro Santos Barbosa (PCP) confirmed in page text.,2026-11-17
+P00103,A0027,website,https://www.antoniofilipe2026.pt/,web search: Official 2026 presidential campaign website found via search_web; fetched page confirms title and PCP-backed candidacy.,2026-11-17
+P00104,A0028,official_page,https://www.parlamento.pt/DeputadoGP/Paginas/Biografia.aspx?BID=817,web search: No personal site found in two searches; official Assembleia da República biography page for Alfredo Maia (PCP) confirmed in page text.,2026-11-17
+P00105,A0031,official_page,https://www.parlamento.pt/DeputadoGP/Paginas/Biografia.aspx?BID=2839,web search: No personal site found in two searches; official Assembleia da República biography page for Rita Calvário (BE) confirmed in page text.,2026-11-17
+P00106,A0037,official_page,https://ces.uc.pt/pt/ces/pessoas/investigadoras-es/joao-rodrigues,web search: Official Centre for Social Studies (University of Coimbra) researcher profile page found via search_web and confirmed by title.,2026-11-17
+P00107,A0038,official_page,https://www.parlamento.pt/DeputadoGP/Paginas/Biografia.aspx?BID=1651,web search: No personal site found in two searches; official Assembleia da República biography page for Francisco Louçã (BE) confirmed in page text.,2026-11-17
+P00108,A0043,official_page,https://www.europarl.europa.eu/meps/pt/257063/CATARINA_MARTINS/home,web search: No personal site found (catarinamartins.com is a footwear brand); official European Parliament MEP profile page confirmed by title.,2026-11-17
+P00109,A0007,instagram,https://www.instagram.com/paulovmuacho/,linked from https://paulomuacho.com/,2026-11-17
+P00110,A0007,facebook,https://www.facebook.com/paulovmuacho,linked from https://paulomuacho.com/,2026-11-17
+P00111,A0007,x,https://x.com/paulovmuacho,linked from https://paulomuacho.com/,2026-11-17
+P00112,A0007,linkedin,https://www.linkedin.com/in/pvelezmuacho,linked from https://paulomuacho.com/,2026-11-17
+P00113,A0009,facebook,https://www.facebook.com/miguel.matos,linked from https://www.psparlamento.pt/deputado/miguel-costa-matos/,2026-11-17
+P00114,A0009,instagram,https://www.instagram.com/miguelcostamatosps/,linked from https://www.psparlamento.pt/deputado/miguel-costa-matos/,2026-11-17
+P00115,A0009,x,https://x.com/MigCMatos,linked from https://www.psparlamento.pt/deputado/miguel-costa-matos/,2026-11-17
+P00116,A0009,linkedin,https://www.linkedin.com/in/miguelcmatos,linked from https://www.psparlamento.pt/deputado/miguel-costa-matos/,2026-11-17
+P00117,A0010,facebook,https://www.facebook.com/carlosjoaopereira2019,linked from https://www.psparlamento.pt/deputado/carlos-pereira/,2026-11-17
+P00118,A0010,instagram,https://www.instagram.com/cjoaopereira/,linked from https://www.psparlamento.pt/deputado/carlos-pereira/,2026-11-17
+P00119,A0008,facebook,https://www.facebook.com/ruitavarespt,linked from https://ruitavares.net/,2026-11-17
+P00120,A0008,x,https://x.com/ruitavares,linked from https://ruitavares.net/,2026-11-17
+P00121,A0008,linkedin,https://www.linkedin.com/in/rui-tavares-b7193a4a,linked from https://ruitavares.net/,2026-11-17
+P00122,A0008,instagram,https://www.instagram.com/ruitavarespt/,linked from https://ruitavares.net/,2026-11-17
+P00123,A0008,tiktok,https://www.tiktok.com/@ruitavarespt,linked from https://ruitavares.net/,2026-11-17
+P00124,A0012,facebook,https://www.facebook.com/anapaula.bernardo.792,linked from https://www.psparlamento.pt/deputado/ana-paula-bernardo/,2026-11-17
+P00125,A0012,instagram,https://www.instagram.com/anapaula.bernardo.792/,linked from https://www.psparlamento.pt/deputado/ana-paula-bernardo/,2026-11-17
+P00126,A0011,facebook,https://www.facebook.com/antonio.mendes.1291,linked from https://www.psparlamento.pt/deputado/antonio-mendonca-mendes/,2026-11-17
+P00127,A0011,instagram,https://www.instagram.com/antonio.mendoncamendes/,linked from https://www.psparlamento.pt/deputado/antonio-mendonca-mendes/,2026-11-17
+P00128,A0027,facebook,https://www.facebook.com/antonio.filipe.pcp,linked from https://www.antoniofilipe2026.pt/,2026-11-17
+P00129,A0027,x,https://x.com/AntonioFilipe,linked from https://www.antoniofilipe2026.pt/,2026-11-17
+P00130,A0027,instagram,https://www.instagram.com/antoniofilipe2026/,linked from https://www.antoniofilipe2026.pt/,2026-11-17
+P00131,A0027,youtube,https://www.youtube.com/@AntonioFilipe.2026,linked from https://www.antoniofilipe2026.pt/,2026-11-17

@@ -1183,3 +1183,132 @@ K01181,A0856,own_site,https://pennpolicy.org/,2026-11-16,found,x;bluesky;faceboo
 K01182,A0852,own_site,https://ncbudget.org,2026-11-16,found,x;facebook;instagram;linkedin;youtube,
 K01183,A0820,own_site,https://dsasandiego.org/,2026-11-16,found,instagram;tiktok;bluesky;youtube,
 K01184,A0826,own_site,https://act-ct.org,2026-11-16,found,facebook;x;instagram,
+K01185,A0043,manual_search,https://www.californiadsa.org,2026-11-17,none,,"rejected https://www.californiadsa.org: the page's title and headings do not carry the name; Found via search_web; official statewide homepage of Democratic Socialists of America – California, confirmed by title."
+K01186,A0119,manual_search,https://chrisrogersforassembly.com/,2026-11-17,found,website,"Found via search_web; official campaign website for California State Assemblymember Chris Rogers (AD-2), confirmed by title and H1."
+K01187,A0121,manual_search,https://solacheforassembly.com/,2026-11-17,found,website,"Found via search_web; official campaign website for California State Assemblymember Jose Solache (AD-62), confirmed by title."
+K01188,A0122,manual_search,https://votejuancarrillo.com/,2026-11-17,found,website,"Found via search_web as official campaign website for California State Assemblymember Juan Carrillo (AD-39); automated fetch returned HTTP 403 Forbidden, but search results clearly confirm identity (c"
+K01189,A0127,manual_search,https://www.eduardoformayor.com/,2026-11-17,found,website,"Found via search_web; official campaign website for Richmond Mayor Eduardo Martinez, confirmed by title."
+K01190,A0177,manual_search,https://cd13.lacity.gov/,2026-11-17,none,,rejected https://cd13.lacity.gov/: the page does not carry the name; Found via search_web; official Los Angeles City Council District 13 page for Councilmember Hugo Soto-Martínez (hugoforcd13.com returned 404).
+K01191,A0188,manual_search,https://www.hayward-ca.gov/your-government/city-council/council-member-julie-roche,2026-11-17,found,official_page,Found via search_web; official Hayward City Council profile for Julie Roche (listed as 'Julie Y' in batch; julieforhayward.com failed DNS).
+K01192,A0192,manual_search,https://www.konstantineanthony.com/,2026-11-17,found,website,"Found via Google search; opened page (title: Better Burbank Ballot Measure Committee, h1: Hi, I’m Konstantine. (he/him)) confirming Konstantine Anthony's personal/campaign site (Burbank, Democratic Pa"
+K01193,A0227,manual_search,,2026-11-17,none,,Searched twice; former San Leandro USD trustee with no personal/campaign website or individual official profile page found.
+K01194,A0232,manual_search,,2026-11-17,none,,Searched twice; former Salinas UHSD trustee with no active personal/campaign website or individual official profile page found.
+K01195,A0247,manual_search,https://www.chyannechen.com/,2026-11-17,found,website,"Found via Google search (Chyanne Chen for Supervisor); URL carries exact name and returns HTTP 200 (Wix JS-rendered, empty static title)."
+K01196,A0254,manual_search,https://www.contracosta.ca.gov/7978/District-4-Ken-Carlson,2026-11-17,found,official_page,"Found via Google search; official Contra Costa County District 4 Supervisor page (returned HTTP 403 on automated fetch, identity clear from search results)."
+K01197,A0258,manual_search,https://ottolee.org/,2026-11-17,found,website,Found via Google search; opened site confirming Santa Clara County Supervisor Otto Lee.
+K01198,A0374,manual_search,https://electchipalo.com/,2026-11-17,found,website,Found via Google search; opened campaign site confirming WA State Representative Chipalo Street.
+K01199,A0379,manual_search,https://emilyalvarado.com/,2026-11-17,found,website,"Found via Google search; opened campaign site confirming WA State Senator Emily Alvarado (District 34, Democratic)."
+K01200,A0380,manual_search,https://votejessicabateman.com/,2026-11-17,found,website,Found via Google search; opened campaign site confirming WA State Senator Jessica Bateman.
+K01201,A0382,manual_search,https://www.lizlovelett.org/,2026-11-17,found,website,"Found via Google search; opened campaign site confirming WA State Senator Liz Lovelett (District 40, Democrat)."
+K01202,A0383,manual_search,https://votetwinanobles.com/,2026-11-17,found,website,Found via Google search; opened campaign site (redirected from twinanobles.com) confirming WA State Senator T'wina Nobles.
+K01203,A0388,manual_search,https://www.peopleforyasmin.com/,2026-11-17,found,website,Found via Google search; opened campaign site (redirected from yasmintrudeau.com) confirming WA State Senator Yasmin Trudeau.
+K01204,A0389,manual_search,https://www.javiervaldez.com/,2026-11-17,found,website,Found via Google search; opened campaign site confirming WA State Senator Javier Valdez.
+K01205,A0393,manual_search,https://www.senatorchang.com/,2026-11-17,found,website,Found via Google search; opened personal office/legislative site confirming Hawaii State Senator Stanley Chang.
+K01206,A0394,manual_search,https://karinavilla.com/,2026-11-17,found,website,Found via Google search; opened campaign site confirming Illinois State Senator Karina Villa.
+K01207,A0409,manual_search,https://jayxiong.org/,2026-11-17,found,website,Found via Google search; opened campaign site confirming MN State Representative Jay Xiong (District 67B).
+K01208,A0410,manual_search,https://www.anquam62b.com/,2026-11-17,found,website,Found via Google search; opened campaign site confirming MN State Representative Anquam Mahamoud (District 62B).
+K01209,A0416,manual_search,https://www.katiejones.org/,2026-11-17,found,website,Found via Google search; opened campaign site confirming MN State Representative Katie Jones.
+K01210,A0417,manual_search,https://votepete8a.com/,2026-11-17,found,website,Found via Google search; opened campaign site confirming MN State Representative Pete Johnson (District 8A).
+K01211,A0426,manual_search,https://www.voterobertjackson.com/,2026-11-17,found,website,Found via Google search; opened campaign site confirming NY State Senator Robert Jackson.
+K01212,A0427,manual_search,https://briankavanagh.org/,2026-11-17,found,website,Found via Google search; opened campaign site confirming NY State Senator Brian Kavanagh.
+K01213,A0429,manual_search,https://www.rachelmayforsenate.org/,2026-11-17,found,website,Found via Google search; opened campaign site confirming NY State Senator Rachel May.
+K01214,A0434,manual_search,https://jamessandersjr.com/,2026-11-17,found,website,"Found via Google search; official/campaign site for NY State Senator James Sanders Jr. (returned HTTP 403 on automated fetch, identity clear from search results)."
+K01215,A0435,manual_search,https://www.nysenate.gov/senators/luis-r-sepulveda,2026-11-17,found,official_page,"Found via Google search; official NY State Senate profile for Luis R. Sepúlveda (returned HTTP 403 on automated fetch, identity clear from search results)."
+K01216,A0436,manual_search,https://www.nysenate.gov/senators/jose-m-serrano,2026-11-17,found,official_page,"Found via Google search; official NY State Senate profile for José M. Serrano (returned HTTP 403 on automated fetch, identity clear from search results)."
+K01217,A0437,manual_search,https://www.annakelles.com/,2026-11-17,found,website,Found via Google search; opened campaign/personal site confirming NY State Assemblymember Anna R. Kelles.
+K01218,A0438,manual_search,https://sarahanaforassembly.com/,2026-11-17,found,website,Found via Google search; opened campaign site via curl confirming NY State Assemblymember Sarahana Shrestha.
+K01219,A0449,manual_search,https://nyassembly.gov/mem/Manny-De-Los-Santos,2026-11-17,found,official_page,Found via Google search; opened official NY State Assembly page confirming Manny De Los Santos (District 72).
+K01220,A0450,manual_search,https://khaleelanderson.com/,2026-11-17,found,website,Found via Google search; opened campaign site confirming NY State Assemblymember Khaleel M. Anderson (District 31).
+K01221,A0451,manual_search,https://nyassembly.gov/mem/Linda-B-Rosenthal,2026-11-17,found,official_page,Found via Google search; opened official NY State Assembly page confirming Linda B. Rosenthal (District 67).
+K01222,A0453,manual_search,,2026-11-17,none,,Found via web search and verified title on her campaign/personal homepage.
+K01223,A0456,manual_search,https://nyassembly.gov/mem/Nader-J-Sayegh,2026-11-17,found,official_page,No personal/campaign website found after two searches; verified official NY State Assembly member page.
+K01224,A0457,manual_search,https://council.nyc.gov/harvey-epstein/,2026-11-17,found,official_page,Campaign site peopleforharvey.com returned 404; verified official NYC Council profile page (moved from NY Assembly).
+K01225,A0458,manual_search,https://votedemondmeeks.com/,2026-11-17,found,website,Campaign website returned 403 Forbidden on fetch; search results and domain name clearly confirm identity as NY Assemblymember Demond Meeks.
+K01226,A0460,manual_search,https://www.tiaramackdistrict6.com/,2026-11-17,found,website,Found via web search and verified title on her campaign website for RI Senate District 6.
+K01227,A0461,manual_search,https://www.rilegislature.gov/senators/acosta/Pages/Biography.aspx,2026-11-17,found,official_page,"No active personal/campaign site found after two searches; RI General Assembly page timed out on fetch, identity clear from search results."
+K01228,A0462,manual_search,https://www.alana4ri.com/,2026-11-17,found,website,Found via web search and verified title on her campaign website.
+K01229,A0464,manual_search,https://pamlauria.com/,2026-11-17,found,website,Found via web search and verified title and H1 on her campaign website.
+K01230,A0465,manual_search,https://www.emiliekornheiser.org/,2026-11-17,found,website,Found via web search and verified title on her campaign website.
+K01231,A0471,manual_search,https://oregoned.org/about-oea/our-leadership/our-president,2026-11-17,found,official_page,No personal website found after two searches; verified official OEA President profile page.
+K01232,A0472,manual_search,https://www.workinglife.org/,2026-11-17,found,website,Found via web search and verified title on Jonathan Tasini's personal blog/site.
+K01233,A0474,manual_search,https://rachelfventura.com/,2026-11-17,found,website,Found via web search; redirects to her campaign site titled Elect Ventura.
+K01234,A0475,manual_search,https://www.cervantesforilsenate.com/,2026-11-17,found,website,Found via web search and verified title on his campaign website.
+K01235,A0476,manual_search,https://adrianejohnsonforil.com/,2026-11-17,found,website,Found via web search and verified title on her campaign website.
+K01236,A0478,manual_search,https://markwalker4illinois.com/,2026-11-17,found,website,Found via web search; confirmed via search results to be IL State Senator Mark L. Walker's campaign site.
+K01237,A0479,manual_search,https://ramforsenate.com/,2026-11-17,found,website,page not read; Campaign website returned 403 Forbidden on fetch; search results clearly confirm identity as IL State Senator Ram Villivalam.
+K01238,A0480,manual_search,https://www.senatorhunter.com/,2026-11-17,found,website,Official legislative website timed out on fetch; search results clearly confirm identity as IL State Senator Mattie Hunter (District 3).
+K01239,A0481,manual_search,https://lakesiacollinsforsenate.com/,2026-11-17,found,website,Found via web search and verified title on her campaign website.
+K01240,A0482,manual_search,https://electpreston.com/,2026-11-17,found,website,Found via web search and confirmed Willie Preston's name and Illinois campaign on the page.
+K01241,A0483,manual_search,https://www.senatornapoleonharris.com/,2026-11-17,found,website,Official legislative website timed out on fetch; search results and domain clearly confirm identity as IL State Senator Napoleon Harris III.
+K01242,A0484,manual_search,https://www.emiljones.com/,2026-11-17,found,website,Found via web search and verified title on his campaign website.
+K01243,A0485,manual_search,https://www.mikesimmons.org/,2026-11-17,found,website,Found via web search and verified title on his campaign website.
+K01244,A0486,manual_search,https://www.theresamah.com/,2026-11-17,found,website,Found via web search and verified title on her campaign website.
+K01245,A0488,manual_search,https://www.votejoycemason.com/,2026-11-17,found,website,Found via web search and verified title on her campaign website.
+K01246,A0490,manual_search,https://www.drmikecrawford.com/,2026-11-17,found,website,Found via web search and verified title on his campaign website.
+K01247,A0491,manual_search,https://sonyaforillinois.com/,2026-11-17,found,website,Found via web search and confirmed 6th District IL House campaign on the page.
+K01248,A0492,manual_search,https://www.lisajdavisfor32.com/,2026-11-17,found,website,Found via web search and verified title on her campaign website.
+K01249,A0493,manual_search,https://www.aaronortiz.org/,2026-11-17,found,website,Found via web search and verified title on his campaign website.
+K01250,A0497,manual_search,https://www.jeannekapela.com/,2026-11-17,found,website,Found via web search and verified title on her campaign website.
+K01251,A0498,manual_search,https://terezamato.nationbuilder.com/,2026-11-17,found,website,Found via web search and verified title on her campaign website.
+K01252,A0498,own_site,https://terezamato.nationbuilder.com/,2026-11-17,found,facebook,
+K01253,A0458,own_site,https://votedemondmeeks.com/,2026-11-17,blocked,,403 at https://votedemondmeeks.com/
+K01254,A0493,own_site,https://www.aaronortiz.org/,2026-11-17,found,x,not added: facebook https://www.facebook.com/2016108545291225 (chrome)
+K01255,A0374,own_site,https://electchipalo.com/,2026-11-17,found,facebook;x;instagram,not added: facebook https://www.facebook.com/102702399145038 (social-block); facebook https://www.facebook.com/102702399145038_1122817307134006 (social-block); facebook https://www.facebook.com/102702399145038_1117511470997923 (social-block); facebook https://www.facebook.com/102702399145038_1114473287968408 (
+K01256,A0457,own_site,https://council.nyc.gov/harvey-epstein/,2026-11-17,none,,"not added: x https://x.com/NYCCouncil (chrome,meta,social-block); instagram https://www.instagram.com/NYCCouncil/ (chrome,social-block); facebook https://www.facebook.com/NYCCouncil (chrome,social-block); linkedin https://www.linkedin.com/company/new-york-city-council (chrome,social-block); bluesky https://bsk"
+K01257,A0192,own_site,https://www.konstantineanthony.com/,2026-11-17,found,facebook,
+K01258,A0450,own_site,https://khaleelanderson.com/,2026-11-17,found,facebook;x;instagram,not added: facebook https://www.facebook.com/QUIPClub (social-block)
+K01259,A0456,own_site,https://nyassembly.gov/mem/Nader-J-Sayegh,2026-11-17,none,,
+K01260,A0438,own_site,https://sarahanaforassembly.com/,2026-11-17,found,bluesky;instagram;facebook;x,
+K01261,A0476,own_site,https://adrianejohnsonforil.com/,2026-11-17,found,facebook,
+K01262,A0258,own_site,https://ottolee.org/,2026-11-17,found,facebook;instagram,
+K01263,A0465,own_site,https://www.emiliekornheiser.org/,2026-11-17,found,facebook;instagram,
+K01264,A0464,own_site,https://pamlauria.com/,2026-11-17,error,,"URLError: <urlopen error (""The certificate's CN name does not match the passed value."",)>"
+K01265,A0435,own_site,https://www.nysenate.gov/senators/luis-r-sepulveda,2026-11-17,blocked,,403 at https://www.nysenate.gov/senators/luis-r-sepulveda
+K01266,A0491,own_site,https://sonyaforillinois.com/,2026-11-17,none,,
+K01267,A0427,own_site,https://briankavanagh.org/,2026-11-17,found,x,
+K01268,A0437,own_site,https://www.annakelles.com/,2026-11-17,found,facebook;instagram,
+K01269,A0379,own_site,https://emilyalvarado.com/,2026-11-17,found,facebook;instagram,
+K01270,A0475,own_site,https://www.cervantesforilsenate.com/,2026-11-17,found,facebook;instagram,
+K01271,A0497,own_site,https://www.jeannekapela.com/,2026-11-17,found,facebook;instagram,not added: instagram https://www.instagram.com/andrewrozhok/ ()
+K01272,A0119,own_site,https://chrisrogersforassembly.com/,2026-11-17,found,facebook;instagram,
+K01273,A0481,own_site,https://lakesiacollinsforsenate.com/,2026-11-17,found,facebook;instagram,
+K01274,A0478,own_site,https://markwalker4illinois.com/,2026-11-17,found,x,
+K01275,A0471,own_site,https://oregoned.org/about-oea/our-leadership/our-president,2026-11-17,none,,"not added: facebook https://www.facebook.com/OregonEA (chrome,social-block); bluesky https://bsky.app/profile/oregoneducation.bsky.social (chrome,social-block); instagram https://www.instagram.com/oregoneducationassociation/ (chrome,social-block); x https://x.com/NEAToday (meta)"
+K01276,A0393,own_site,https://www.senatorchang.com/,2026-11-17,found,instagram;x;youtube,
+K01277,A0479,own_site,https://ramforsenate.com/,2026-11-17,blocked,,403 at https://ramforsenate.com/
+K01278,A0410,own_site,https://www.anquam62b.com/,2026-11-17,found,facebook;x;linkedin,
+K01279,A0127,own_site,https://www.eduardoformayor.com/,2026-11-17,none,,
+K01280,A0409,own_site,https://jayxiong.org/,2026-11-17,none,,
+K01281,A0492,own_site,https://www.lisajdavisfor32.com/,2026-11-17,none,,
+K01282,A0417,own_site,https://votepete8a.com/,2026-11-17,found,facebook;instagram;x;youtube,
+K01283,A0389,own_site,https://www.javiervaldez.com/,2026-11-17,found,facebook,
+K01284,A0488,own_site,https://www.votejoycemason.com/,2026-11-17,found,x;facebook,
+K01285,A0483,own_site,https://www.senatornapoleonharris.com/,2026-11-17,error,,URLError: <urlopen error [WinError 10060] A connection attempt failed because the connecte
+K01286,A0382,own_site,https://www.lizlovelett.org/,2026-11-17,found,facebook;instagram,
+K01287,A0416,own_site,https://www.katiejones.org/,2026-11-17,found,x;instagram;linkedin,not added: facebook https://www.facebook.com/profile.php?id=61556679480373 (social-block)
+K01288,A0449,own_site,https://nyassembly.gov/mem/Manny-De-Los-Santos,2026-11-17,found,x;instagram;facebook,
+K01289,A0388,own_site,https://www.peopleforyasmin.com/,2026-11-17,found,facebook;instagram;x,
+K01290,A0482,own_site,https://electpreston.com/,2026-11-17,found,instagram;facebook;x;youtube,
+K01291,A0394,own_site,https://karinavilla.com/,2026-11-17,found,facebook;x;instagram,
+K01292,A0486,own_site,https://www.theresamah.com/,2026-11-17,found,x;facebook;instagram,
+K01293,A0247,own_site,https://www.chyannechen.com/,2026-11-17,found,instagram;facebook,
+K01294,A0474,own_site,https://rachelfventura.com/,2026-11-17,found,facebook;instagram,
+K01295,A0460,own_site,https://www.tiaramackdistrict6.com/,2026-11-17,found,instagram;facebook;bluesky,
+K01296,A0188,own_site,https://www.hayward-ca.gov/your-government/city-council/council-member-julie-roche,2026-11-17,none,,"not added: facebook https://www.facebook.com/cityofhayward (chrome,social-block); x https://x.com/cityofhayward (chrome,social-block); instagram https://www.instagram.com/cityofhayward/ (chrome,social-block); youtube https://www.youtube.com/user/cityofhayward (chrome,social-block)"
+K01297,A0436,own_site,https://www.nysenate.gov/senators/jose-m-serrano,2026-11-17,blocked,,403 at https://www.nysenate.gov/senators/jose-m-serrano
+K01298,A0429,own_site,https://www.rachelmayforsenate.org/,2026-11-17,none,,
+K01299,A0490,own_site,https://www.drmikecrawford.com/,2026-11-17,none,,
+K01300,A0426,own_site,https://www.voterobertjackson.com/,2026-11-17,found,instagram;facebook;tiktok,
+K01301,A0461,own_site,https://www.rilegislature.gov/senators/acosta/Pages/Biography.aspx,2026-11-17,error,,URLError: <urlopen error [WinError 10060] A connection attempt failed because the connecte
+K01302,A0484,own_site,https://www.emiljones.com/,2026-11-17,none,,
+K01303,A0434,own_site,https://jamessandersjr.com/,2026-11-17,found,facebook;x;instagram,
+K01304,A0480,own_site,https://www.senatorhunter.com/,2026-11-17,error,,URLError: <urlopen error [WinError 10060] A connection attempt failed because the connecte
+K01305,A0462,own_site,https://www.alana4ri.com/,2026-11-17,found,facebook;bluesky,
+K01306,A0121,own_site,https://solacheforassembly.com/,2026-11-17,found,facebook,
+K01307,A0472,own_site,https://www.workinglife.org/,2026-11-17,none,,
+K01308,A0380,own_site,https://votejessicabateman.com/,2026-11-17,found,facebook;instagram,
+K01309,A0485,own_site,https://www.mikesimmons.org/,2026-11-17,found,facebook;x;instagram,
+K01310,A0254,own_site,https://www.contracosta.ca.gov/7978/District-4-Ken-Carlson,2026-11-17,blocked,,403 at https://www.contracosta.ca.gov/7978/District-4-Ken-Carlson
+K01311,A0122,own_site,https://votejuancarrillo.com/,2026-11-17,blocked,,403 at https://votejuancarrillo.com/
+K01312,A0383,own_site,https://votetwinanobles.com/,2026-11-17,found,x;facebook;instagram,
+K01313,A0451,own_site,https://nyassembly.gov/mem/Linda-B-Rosenthal,2026-11-17,none,,
