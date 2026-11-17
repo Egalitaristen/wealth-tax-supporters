@@ -14,3 +14,9 @@ P00016,A0009,facebook,https://www.facebook.com/thomaspikettyofficiel,Wikidata Q9
 P00017,A0009,wikipedia,https://en.wikipedia.org/wiki/Thomas_Piketty,Wikidata Q984448,2026-10-31
 P00018,A0014,wikipedia,https://en.wikipedia.org/wiki/Ali_Abdel_Aal,Wikidata Q22688906,2026-10-31
 P00019,A0017,website,https://www.inp.edu.eg/en/,"web search: Found via search for the Institute of National Planning (the entry's name); opened the page, title and Cairo address match, it is the institute's own domain.",2026-11-16
+P00020,A0014,official_page,https://www.asu.edu.eg/staffPortal/en/staffProfile/6973,"web search: Official Ain Shams University staff profile (asu.edu.eg) found via search and opened; body confirms Prof. Ali Abd el aal sayed ahmed, Faculty of Law.",2026-11-16
+P00021,A0018,official_page,https://www.ug-law.com/en/negad-el-borai/,web search: Official partner profile page on United Group law firm site (ug-law.com) found via search and opened; confirms lawyer Negad EL Borai.,2026-11-16
+P00022,A0019,official_page,https://www.feps.edu.eg/enn/departments/ec/listeconomics.php?namm=gouda,"web search: Official Cairo University FEPS faculty profile (feps.edu.eg) found via search and opened; body confirms Gouda Abdel-Khalek, Economics Department.",2026-11-16
+P00023,A0018,x,https://x.com/negadelborai,linked from https://www.ug-law.com/en/negad-el-borai/,2026-11-16
+P00024,A0018,facebook,https://www.facebook.com/negad,linked from https://www.ug-law.com/en/negad-el-borai/,2026-11-16
+P00025,A0018,linkedin,https://www.linkedin.com/in/negad-el-borai-29638118,linked from https://www.ug-law.com/en/negad-el-borai/,2026-11-16

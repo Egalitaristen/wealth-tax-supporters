@@ -11,3 +11,6 @@ P00009,A0001,website,https://akel.org.cy/,actors.csv website column,2026-11-16
 P00010,A0002,website,https://peo.org.cy/,actors.csv website column,2026-11-16
 P00011,A0001,wikipedia,https://en.wikipedia.org/wiki/Progressive_Party_of_Working_People,Wikidata Q212158,2026-11-16
 P00012,A0002,wikipedia,https://en.wikipedia.org/wiki/Pancyprian_Federation_of_Labour,Wikidata Q3741030,2026-11-16
+P00013,A0003,official_page,https://akel.org.cy/%CE%B2%CE%BF%CF%85%CE%BB%CE%AE/members-of-the-parliament/aristos-damianou/?lang=en,web search: Found via search_web and opened; official AKEL party profile page for MP Aristos Damianou.,2026-11-16
+P00014,A0003,x,https://x.com/AristosDamianou,linked from https://akel.org.cy/%CE%B2%CE%BF%CF%85%CE%BB%CE%AE/members-of-the-parliament/aristos-damianou/?lang=en,2026-11-16
+P00015,A0003,facebook,https://www.facebook.com/aristos.damianou,linked from https://akel.org.cy/%CE%B2%CE%BF%CF%85%CE%BB%CE%AE/members-of-the-parliament/aristos-damianou/?lang=en,2026-11-16

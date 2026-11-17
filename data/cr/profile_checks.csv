@@ -76,3 +76,40 @@ K00074,A0008,manual_search,,2026-11-16,none,,Search found only news articles; my
 K00075,A0009,manual_search,,2026-11-16,none,,Search found only news articles; no own site seen.
 K00076,A0014,manual_search,,2026-11-16,none,,Search returned nothing about this body's own site.
 K00077,A0017,manual_search,,2026-11-16,none,,Search found only news and op-eds about the group; no own site seen.
+K00078,A0001,manual_search,,2026-11-16,none,,No personal website or official Legislative Assembly member profile page found.
+K00079,A0002,manual_search,,2026-11-16,none,,No personal website or official Legislative Assembly member profile page found.
+K00080,A0004,manual_search,https://gobiernocarlosalvarado.cr/,2026-11-16,found,official_page,Official 2018-2022 Presidential Administration archive site; confirmed Carlos Alvarado Quesada identity on page.
+K00081,A0010,manual_search,https://quinceduncan.com/,2026-11-16,found,website,Personal official website of Costa Rican writer Quince Duncan; confirmed on quinceduncan.com.
+K00082,A0011,manual_search,https://vinv.ucr.ac.cr/sigpro/web/researchers/104070764,2026-11-16,none,,"rejected https://vinv.ucr.ac.cr/sigpro/web/researchers/104070764: the page does not carry the name; Official UCR SIGPRO researcher profile; page returned HTTP 403 Forbidden, identity confirmed via search results."
+K00083,A0012,manual_search,https://vinv.ucr.ac.cr/sigpro/web/researchers/103991073,2026-11-16,none,,"rejected https://vinv.ucr.ac.cr/sigpro/web/researchers/103991073: the page does not carry the name; Official UCR SIGPRO researcher profile; page returned HTTP 403 Forbidden, identity confirmed via search results."
+K00084,A0013,manual_search,https://vinv.ucr.ac.cr/sigpro/web/researchers/113580634,2026-11-16,none,,"rejected https://vinv.ucr.ac.cr/sigpro/web/researchers/113580634: the page does not carry the name; Official UCR SIGPRO researcher profile for Lorenzo Steve Ramírez Cardoza (IIS UCR); page returned HTTP 403 Forbidden, identity confirmed via search results."
+K00085,A0015,manual_search,,2026-11-16,none,,No personal website or official institutional profile page found in search results.
+K00086,A0016,manual_search,,2026-11-16,none,,No personal website or official institutional profile page found in search results.
+K00087,A0018,manual_search,,2026-11-16,none,,Personal blog of economist Luis Paulino Vargas Solís found via search results and opened.
+K00088,A0019,manual_search,,2026-11-16,none,,No personal website or individual institutional profile page found in search results.
+K00089,A0020,manual_search,,2026-11-16,none,,No personal website or official institutional profile page found in search results.
+K00090,A0021,manual_search,https://www.tec.ac.cr/ana-rosa-ruiz-fernandez,2026-11-16,found,official_page,Official Tecnológico de Costa Rica (TEC) institutional profile page; confirmed name and role on page.
+K00091,A0022,manual_search,https://portal.so.ucr.ac.cr/trabajo-social/profesor/edwin-andres-zamora-bolanos,2026-11-16,found,official_page,Official UCR Sede de Occidente faculty profile page; confirmed economist bio and UCR affiliation on page.
+K00092,A0023,manual_search,,2026-11-16,none,,No personal website or official institutional profile page found in search results.
+K00093,A0024,manual_search,,2026-11-16,none,,No personal website or official institutional profile page found in search results.
+K00094,A0025,manual_search,,2026-11-16,none,,No personal website found; UNA Escuela de Economía profile link returned HTTP 404.
+K00095,A0026,manual_search,,2026-11-16,none,,No personal website or official institutional profile page found in search results.
+K00096,A0028,manual_search,,2026-11-16,none,,"Searched twice; confirmed economist at UNA (Escuela de Economía), but no personal website or individual staff profile page found."
+K00097,A0029,manual_search,,2026-11-16,none,,"Searched twice; confirmed researcher at UNED (CIEI), but no personal website or individual staff profile page found."
+K00098,A0030,manual_search,https://eje.group/bernardo-aguilar-gonzalez/,2026-11-16,found,official_page,Found via search_web and opened; dedicated profile on Eco-EJE confirming Costa Rican ecological economist.
+K00099,A0031,manual_search,,2026-11-16,none,,"Searched twice; former Costa Rican deputy (PLN, 2022-2026), no personal website or individual asamblea.go.cr profile page found."
+K00100,A0032,manual_search,,2026-11-16,none,,"Searched twice; only news coverage of the Grupo Economía Pluralista letter found, no personal website or institutional profile."
+K00101,A0033,manual_search,https://vinv.ucr.ac.cr/sigpro/web/researchers/114520672,2026-11-16,none,,rejected https://vinv.ucr.ac.cr/sigpro/web/researchers/114520672: the page does not carry the name; Found via search_web on UCR Portal de la Investigación (returned 403 Forbidden when fetched; identity confirmed from search snippet showing UCR Sede Regional de Occidente and pablo.abarcagonzalez@ucr.
+K00102,A0034,manual_search,,2026-11-16,none,,"Searched twice; confirmed economist at UNA and editor of Economía y Sociedad, but no personal website or individual staff profile page found."
+K00103,A0035,manual_search,,2026-11-16,none,,"Searched twice; confirmed economist at UNA, but no personal website or individual staff profile page found."
+K00104,A0036,manual_search,,2026-11-16,none,,Searched twice; no personal website or individual institutional profile page found.
+K00105,A0037,manual_search,,2026-11-16,none,,"Searched twice; deceased (2020), no personal website or active institutional profile page found."
+K00106,A0038,manual_search,,2026-11-16,none,,"Searched twice; confirmed economist at UNA (POES), but una.ac.cr only lists academics on a general directory page without an individual profile."
+K00107,A0039,manual_search,,2026-11-16,none,,"Searched twice; confirmed researcher at UTN, utn.ac.cr link returned 404 and no personal website or individual profile found."
+K00108,A0041,manual_search,,2026-11-16,none,,"Searched twice; former TEC Rector, no personal website or individual institutional profile page found."
+K00109,A0042,manual_search,,2026-11-16,none,,Searched twice; no personal website or individual institutional profile page found.
+K00110,A0004,own_site,https://gobiernocarlosalvarado.cr/,2026-11-16,found,facebook;x;instagram,not added: facebook https://www.facebook.com/carlosalvq (); youtube https://www.youtube.com/channel/UCPIjlr_yyQbpWPLQcDfLLYA (social-block)
+K00111,A0030,own_site,https://eje.group/bernardo-aguilar-gonzalez/,2026-11-16,none,,
+K00112,A0010,own_site,https://quinceduncan.com/,2026-11-16,error,,"URLError: <urlopen error ('A certificate chain processed, but terminated in a root certifi"
+K00113,A0021,own_site,https://www.tec.ac.cr/ana-rosa-ruiz-fernandez,2026-11-16,none,,"not added: facebook https://www.facebook.com/tecnologicocostarica (chrome,social-block); x https://x.com/Teccr (chrome,meta,social-block); instagram https://www.instagram.com/teccostarica/ (chrome,social-block); youtube https://www.youtube.com/user/PrensaTec (chrome,social-block)"
+K00114,A0022,own_site,https://portal.so.ucr.ac.cr/trabajo-social/profesor/edwin-andres-zamora-bolanos,2026-11-16,none,,"not added: youtube https://www.youtube.com/channel/UCSNJZLmL2iO_QIOUhoeJP4A (chrome,social-block); facebook https://www.facebook.com/ucr.sededeoccidente (chrome,social-block)"

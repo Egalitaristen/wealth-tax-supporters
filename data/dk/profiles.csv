@@ -126,3 +126,26 @@ P00124,A0008,website,https://mette-frederiksen.dk,Wikipedia infobox https://en.w
 P00125,A0006,website,https://www.thedanishparliament.dk/members/uffe-elbaek,Wikipedia https://es.wikipedia.org/wiki/Uffe_Elb%C3%A6k,2026-11-16
 P00126,A0033,website,https://enhedslisten.dk/person/victoria-velasquez,Wikipedia https://da.wikipedia.org/wiki/Victoria_Vel%C3%A1squez,2026-11-16
 P00127,A0048,website,https://www.enhedslisten.dk/rune-lund,Wikipedia https://da.wikipedia.org/wiki/Rune_Lund,2026-11-16
+P00128,A0005,official_page,https://friegronne.dk/sikandar/,web search: Found via web search and opened; official Free Greens party profile page for Sikandar Siddique (ft.dk returned HTTP 403).,2026-11-16
+P00129,A0013,official_page,https://fho.dk/blog/medarbejder/flemming-groensund/,web search: Found via web search and opened; official FH profile page confirming Flemming H. Grønsund.,2026-11-16
+P00130,A0014,website,https://runestahl.com/,web search: Found via web search and opened; personal website of political economist Rune Møller Stahl.,2026-11-16
+P00131,A0015,official_page,https://fho.dk/blog/medarbejder/damoun-ashournia/,web search: Found via web search and opened; official FH profile page confirming Damoun Ashournia.,2026-11-16
+P00132,A0024,official_page,https://blikroer.dk/node/143,web search: Found via web search and opened; official Blik- og Rørarbejderforbundet profile page for vice chair Niels Braaby.,2026-11-16
+P00133,A0025,official_page,https://www.regionsjaelland.dk/politik/regionsraadet/regionsraadets-medlemmer/bruno-jerup,web search: Found via web search and opened; official Region Sjælland councilor profile for Bruno Jerup (ft.dk and enhedslisten.dk returned HTTP 403).,2026-11-16
+P00134,A0029,website,https://www.pernilleskipper.dk/,web search: Found via web search and opened; personal website of former Folketing member Pernille Skipper.,2026-11-16
+P00135,A0034,official_page,https://fho.dk/kontakt/morten-skov-christiansen/,web search: Found via web search and opened; official FH profile page for chair Morten Skov Christiansen.,2026-11-16
+P00136,A0035,official_page,https://www.foa.dk/om-foa/politisk-valgte/politisk-ledelse/mona-striib,web search: Found via web search and opened; official FOA profile page for chair Mona Striib.,2026-11-16
+P00137,A0037,website,https://samsing.net/,web search: Found via web search and opened; personal website of Mads Samsing linking to his official BlueSky and LinkedIn profiles.,2026-11-16
+P00138,A0041,website,https://pelledragsted.dk/,"web search: Found via web search as Pelle Dragsted's personal website/blog (Nordisk Socialisme, articles); page returned HTTP 454 on fetch so exact title could not be read.",2026-11-16
+P00139,A0042,official_page,https://www.foa.dk/om-foa/politisk-valgte/politisk-ledelse/helena-mikkelsen,web search: Found via web search; fetched FOA official political leadership page confirming Helena Mikkelsen as fagpolitisk ordfører.,2026-11-16
+P00140,A0046,official_page,https://gladsaxe.dk/politik/moed-dit-byraad/katrine-skov-a,web search: page not readable by our reader (ERR 403); identity from the title the agent saw: Katrine Skov (A); Found via web search (katrineskov.dk did not resolve to a live site); fetched Gladsaxe Municipality council profile confirming Socialdemokratiet (A) councillor.,2026-11-16
+P00141,A0035,facebook,https://www.facebook.com/mona.striib,linked from https://www.foa.dk/om-foa/politisk-valgte/politisk-ledelse/mona-striib,2026-11-16
+P00142,A0035,x,https://x.com/StriibMona,linked from https://www.foa.dk/om-foa/politisk-valgte/politisk-ledelse/mona-striib,2026-11-16
+P00143,A0035,linkedin,https://www.linkedin.com/in/mona-striib-69425a87,linked from https://www.foa.dk/om-foa/politisk-valgte/politisk-ledelse/mona-striib,2026-11-16
+P00144,A0037,bluesky,https://bsky.app/profile/madssamsing.bsky.social,linked from https://samsing.net/,2026-11-16
+P00145,A0037,linkedin,https://www.linkedin.com/in/mads-samsing,linked from https://samsing.net/,2026-11-16
+P00146,A0014,bluesky,https://bsky.app/profile/runestahl.bsky.social,linked from https://runestahl.com/,2026-11-16
+P00147,A0014,linkedin,https://www.linkedin.com/in/rune-m%C3%B8ller-stahl-0a0b5246,linked from https://runestahl.com/,2026-11-16
+P00148,A0005,instagram,https://www.instagram.com/sikandarsiddique_/,linked from https://friegronne.dk/sikandar/,2026-11-16
+P00149,A0042,facebook,https://www.facebook.com/helena.mikkelsen.9,linked from https://www.foa.dk/om-foa/politisk-valgte/politisk-ledelse/helena-mikkelsen,2026-11-16
+P00150,A0042,x,https://x.com/FOAHelena,linked from https://www.foa.dk/om-foa/politisk-valgte/politisk-ledelse/helena-mikkelsen,2026-11-16
