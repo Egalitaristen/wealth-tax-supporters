@@ -69,7 +69,7 @@ P00067,A0019,website,https://apmdd.org/,web search: Obvious domain from the acro
 P00068,A0029,website,https://www.nagkaisa.org/,"web search: Found via search for nagkaisa.org; search result title and About/Contact pages (TUCP compound, Quezon City) match the coalition; page not opened (fetch rate-limited).",2026-11-16
 P00069,A0031,website,https://www.akbayan.org.ph/,web search: Found via search restricted to akbayan.org.ph; result title and constitution/our-story pages match Akbayan Citizens' Action Party; page not opened (fetch rate-limited).,2026-11-16
 P00070,A0006,facebook,https://www.facebook.com/OxfamPilipinas,linked from https://oxfam.org.ph/,2026-11-16
-P00071,A0006,bluesky,https://bsky.app/profile/oxfam.org.ph ,linked from https://oxfam.org.ph/,2026-11-16
+P00071,A0006,bluesky,https://bsky.app/profile/oxfam.org.ph,linked from https://oxfam.org.ph/,2026-11-16
 P00072,A0006,tiktok,https://www.tiktok.com/@oxfamph,linked from https://oxfam.org.ph/,2026-11-16
 P00073,A0019,facebook,https://www.facebook.com/apmdd,linked from https://apmdd.org/,2026-11-16
 P00074,A0019,x,https://x.com/asianpeoplesmvt,linked from https://apmdd.org/,2026-11-16
@@ -78,3 +78,15 @@ P00076,A0019,youtube,https://www.youtube.com/@apmdd8955,linked from https://apmd
 P00077,A0016,facebook,https://www.facebook.com/LEARNPilipinas,linked from https://learn.org.ph/,2026-11-16
 P00078,A0016,x,https://x.com/LEARNPilipinas,linked from https://learn.org.ph/,2026-11-16
 P00079,A0016,instagram,https://www.instagram.com/LEARNPilipinas/,linked from https://learn.org.ph/,2026-11-16
+P00080,A0008,official_page,https://www.congress.gov.ph/house-members/view/?member=K142&name=Cenda%C3%B1a%2C+Percival+V.&page=1,web search: Found via search_web (Wikimedia citation for Representative Percival V. Cendaña); congress.gov.ph is behind Cloudflare bot protection so page title could not be fetched directly.,2026-11-17
+P00081,A0017,official_page,https://ac.upd.edu.ph/index.php/faculty-and-staff/professor-emeritus/3241-eduardo-c-tadem-ph-d-professor-emeritus,web search: Found via search_web on UP Asian Center (ac.upd.edu.ph) and confirmed Professor Emeritus of Asian Studies identity on fetched page.,2026-11-17
+P00082,A0033,official_page,https://www.solair.upd.edu.ph/faculty-and-staff/core-faculty/rene-e-ofreneo,web search: Found via search_web on UP SOLAIR (solair.upd.edu.ph) and confirmed labor scholar Professor Emeritus identity on fetched page.,2026-11-17
+P00083,A0051,official_page,https://citycouncilofmanila.com.ph/city-officials/hon-rolando-m-valeriano/,web search: Found via search_web on City Council of Manila (citycouncilofmanila.com.ph) and confirmed identity on fetched page.,2026-11-17
+P00084,A0054,official_page,https://mandaluyong.gov.ph/team/alexandria-queenie-pahati-gonzales/,web search: Found via search_web on City of Mandaluyong (mandaluyong.gov.ph) and confirmed Mandaluyong Representative identity on fetched page.,2026-11-17
+P00085,A0055,website,https://marcelinoclibanan.com/,web search: Found via search_web and confirmed personal/official congressional website on fetched homepage.,2026-11-17
+P00086,A0066,website,https://www.annmatibag.com/,web search: Found via search_web and confirmed personal/official congressional website on fetched homepage.,2026-11-17
+P00087,A0074,website,https://brianpoe.org/,web search: Confirmed from Wikipedia and site:brianpoe.org search results as Brian Poe's official website (FPJ Panday Bayanihan Party-list Representative); direct fetch returned HTTP 403.,2026-11-17
+P00088,A0074,instagram,https://www.instagram.com/heyitsbrianpoe/,linked from https://brianpoe.org/,2026-11-17
+P00089,A0074,x,https://x.com/heyitsbrianpoe,linked from https://brianpoe.org/,2026-11-17
+P00090,A0074,youtube,https://www.youtube.com/@BrianPoeOfficial,linked from https://brianpoe.org/,2026-11-17
+P00091,A0074,tiktok,https://www.tiktok.com/@heyitsbrianpoe,linked from https://brianpoe.org/,2026-11-17

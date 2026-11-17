@@ -30,3 +30,22 @@ K00028,A0024,orcid,,2026-11-16,none,,several ORCID records with the name
 K00029,A0006,manual_search,https://peru.oxfam.org/,2026-11-16,found,website,"Found via search (Oxfam documents list it with Lima office); opened the page, title names Oxfam en Peru."
 K00030,A0007,manual_search,,2026-11-16,none,,Two searches found only news and JNE registry coverage; no own website seen.
 K00031,A0006,own_site,https://peru.oxfam.org/,2026-11-16,found,facebook;x,"404 at https://peru.oxfam.org/contacto; not added: youtube https://www.youtube.com/channel/UCp5ZJRrq8Ow9cx5pNCBnx5Q (chrome,social-block)"
+K00032,A0003,manual_search,,2026-11-17,none,,"Searched twice for Betto Barrionuevo (congreso.gob.pe); only legislative bill/news mentions and Wikipedia found, no active individual institutional profile page."
+K00033,A0004,manual_search,,2026-11-17,none,,Searched twice for Kelly Portalatino (congreso.gob.pe); www3.congreso.gob.pe/Docs/congresistas2021/KellyPortalatino/ returns the generic Congress homepage with no profile content.
+K00034,A0009,manual_search,,2026-11-17,none,,"Searched twice for Gerónimo López Sevillano (CGTP Peru); only parent union site cgtp.org.pe and news mentions found, no own website or individual profile page."
+K00035,A0010,manual_search,,2026-11-17,none,,"Searched twice for Ketty Marilú Moscoso Paucarchuco (UNAAT, gob.pe, CONCYTEC); only RENACYT directory and government resolutions found, no university staff profile page."
+K00036,A0013,manual_search,,2026-11-17,none,,"Searched twice for Hirma Norma Alencastre Miranda (congreso.gob.pe); only legislative mentions found, no active individual institutional profile page."
+K00037,A0014,manual_search,https://guillermoaliaga.pe/,2026-11-17,found,website,Found via search_web and verified HTTP 200; personal website of Peruvian lawyer and former congressman Guillermo Aliaga Pajares.
+K00038,A0015,manual_search,,2026-11-17,none,,"Searched twice for Luis Dioses Guzmán (congreso.gob.pe); only legislative news/archive mentions and Wikipedia found, no active individual institutional profile page."
+K00039,A0016,manual_search,,2026-11-17,none,,"Searched twice for Matilde Fernández Florez (congreso.gob.pe); only legislative mentions and Wikipedia found, no active individual institutional profile page."
+K00040,A0017,manual_search,,2026-11-17,none,,"Searched twice for Felicita Tocto Guerrero (congreso.gob.pe); only legislative mentions and Wikipedia found, no active individual institutional profile page."
+K00041,A0018,manual_search,,2026-11-17,none,,"Searched twice for Mariano Yupanqui Miñano (congreso.gob.pe); only legislative mentions found, no active individual institutional profile page."
+K00042,A0020,manual_search,,2026-11-17,none,,Searched twice for Rodolfo Bejarano Bernal (Latindadd); latindadd.org/members/rodolfo-bejarano/ returns 404 ('Página no encontrada – Latindadd') and he is not on latindadd.org/equipo/.
+K00043,A0021,manual_search,,2026-11-17,none,,"Searched twice for Jessica Portocarrero Torres (RedGE, Peru); only report co-authorship and academic paper mentions found, no own website or institutional profile page."
+K00044,A0022,manual_search,,2026-11-17,none,,"Searched twice for Rosa Varillas Ordóñez (Peru, MINSA/MTPE); only government ministerial resolutions and news mentions found, no own website or institutional profile page."
+K00045,A0024,manual_search,,2026-11-17,none,,"Searched twice for José de Echave (CooperAcción, Peru); only CooperAcción search/article listings and Wikipedia found, no own website or individual profile page."
+K00046,A0025,manual_search,,2026-11-17,none,,"Searched twice for Hernán Núñez Gonzales (Venceremos, Peru); only opinion columns and candidate directory mentions found, no own website or institutional profile page."
+K00047,A0027,manual_search,,2026-11-17,none,,"Searched twice for Lenin Checco (congreso.gob.pe); only legislative bill/news mentions and Wikipedia found, no active individual institutional profile page."
+K00048,A0028,manual_search,,2026-11-17,none,,"Searched twice for Carlos Enrique Fernández (congreso.gob.pe); only legislative mentions and Wikipedia found, no active individual institutional profile page."
+K00049,A0029,manual_search,,2026-11-17,none,,"Searched twice for Absalón Montoya (congreso.gob.pe); only legislative mentions and Wikipedia found, no active individual institutional profile page."
+K00050,A0014,own_site,https://guillermoaliaga.pe/,2026-11-17,found,facebook;instagram;tiktok,
