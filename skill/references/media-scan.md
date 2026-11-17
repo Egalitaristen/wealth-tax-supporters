@@ -54,3 +54,27 @@ Sources worth adding next: the press pages of Oxfam, Tax Justice Network and oth
 ## Cost and manners
 
 A scan of a few sources is a few requests each. Do not lower the delay. The first full read of a source records its whole archive as `new`; work through it oldest or newest first in runs of about 25 articles, not all at once.
+
+## A review run by an agent (about 25 articles, ending in a pull request)
+
+The same steps as above, for an agent with web access and a shell. One run is one source, newest articles first, about 25 articles, one pull request. The agent never merges and never deploys; a reviewer reads the pull request and removes anything wrong before it goes in.
+
+```bash
+git checkout main && git pull
+git checkout -b media/pm-uk-01                       # the source id and the run number
+python skill/scripts/media_scan.py list --status new --source pm-uk --newest --limit 25
+```
+
+For each article: `media_scan.py read M0001` (or open the page; an outlet that blocks our reader may still open in a browser), decide who, what and how strong as above, then act:
+
+- Read `research-run.md` and `definition-and-grades.md` once before adding anything, and follow `pre-pr-checklist.md`. Add evidence and supporters with the register tools (`wtdb.py add`), never by hand-editing the CSVs except as the checklist allows.
+- A quote goes in `quote_original` exactly as written (with `quote_en` when it is not English), with the article as `source_url`, the outlet as `publisher` and the article's own date. Do not paste more than the sentences that carry the statement.
+- Someone not in the register: search it first (`wtdb.py` search tools, `dedupe`) so no one is added twice. Confirm who they are on a second source (the organisation's or outlet's own page, Wikidata) before adding; otherwise `leads.py add` with the article link and the note "role unconfirmed".
+- Run `archive_sources.py data/<iso2>` on each country you touched.
+- Then mark every article you read: `media_scan.py mark M0001 M0002 --status used --note "gb A0220 evidence E00412"`, `--status reviewed --note "no member quoted"`, or `--status skipped`.
+
+Before the pull request: `python skill/scripts/wtdb.py validate data` reports 0 errors, `python skill/scripts/wtdb.py checkquotes data/<iso2>` passes for each country touched, and `git status` shows only `data/<iso2>/*`, `data/leads.csv` and `data/media_seen.csv` changed.
+
+The pull request lists, per article: the article id and title, the outcome (used, reviewed or skipped) and, for each used one, who said what with its grade, and which were added as new supporters, as new evidence for existing ones, or as leads. Anything you were unsure about goes at the end with how you decided it.
+
+What the reviewer checks: every new quote against the article (words, speaker, date), the identity of every new person, that a reporter's paraphrase or a group's membership was not counted as a statement, that the grade matches the words, and that no private person was added.

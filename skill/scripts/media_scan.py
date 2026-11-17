@@ -4,7 +4,7 @@
 Usage:
   python skill/scripts/media_scan.py sources                          the registered sources (data/media_sources.json)
   python skill/scripts/media_scan.py scan [--source pm-uk] [--pages 2] [--dry-run]   read each source's listing, record the articles not seen before (status new)
-  python skill/scripts/media_scan.py list [--status new] [--source ID]    the articles to review, oldest first
+  python skill/scripts/media_scan.py list [--status new] [--source ID] [--newest] [--limit 25]    the articles to review (oldest first unless --newest)
   python skill/scripts/media_scan.py read M0007 [--chars 6000]            title, date and text of one article, to read it
   python skill/scripts/media_scan.py mark M0007 M0008 --status reviewed|used|skipped [--note "..."]
 
@@ -210,9 +210,13 @@ def cmd_scan(a):
 
 def cmd_list(a):
     rows = [r for r in load_seen() if (not a.status or r["status"] == a.status) and (not a.source or r["source_id"] == a.source)]
+    total = len(rows)
+    rows.sort(key=lambda r: r["published"] or r["first_seen"], reverse=a.newest)
+    if a.limit:
+        rows = rows[:a.limit]
     for r in rows:
         print(f"{r['seen_id']} {r['source_id']:8} {r['published'] or r['first_seen']} {r['status']:8} {r['title'][:80]} | {r['url']}")
-    print(len(rows), "articles")
+    print(f"{len(rows)} of {total} articles")
 
 
 def cmd_read(a):
@@ -261,7 +265,7 @@ def main():
     ap = argparse.ArgumentParser(description=__doc__, formatter_class=argparse.RawDescriptionHelpFormatter)
     sub = ap.add_subparsers(dest="cmd", required=True)
     s = sub.add_parser("scan"); s.add_argument("--source"); s.add_argument("--dry-run", action="store_true"); s.add_argument("--delay", type=float, default=2.0); s.add_argument("--show", type=int, default=8); s.add_argument("--pages", type=int, default=2, help="pages of an API or JSON source to read (default 2; use 20 for a first full read)")
-    l = sub.add_parser("list"); l.add_argument("--status"); l.add_argument("--source")
+    l = sub.add_parser("list"); l.add_argument("--status"); l.add_argument("--source"); l.add_argument("--newest", action="store_true", help="newest first (default: oldest first)"); l.add_argument("--limit", type=int, default=0)
     r = sub.add_parser("read"); r.add_argument("id"); r.add_argument("--chars", type=int, default=6000); r.add_argument("--delay", type=float, default=2.0)
     m = sub.add_parser("mark"); m.add_argument("ids", nargs="+"); m.add_argument("--status", required=True, choices=STATUS); m.add_argument("--note", default="")
     sub.add_parser("sources")
