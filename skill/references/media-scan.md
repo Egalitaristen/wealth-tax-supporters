@@ -5,6 +5,7 @@ A periodic scan of media sources for supporters, statements and sources the othe
 ## The pieces
 
 - `data/media_sources.json`: the registered sources. Each has an `id`, a `name`, a `url`, a `country`, a `language`, a `format` (`html` for a news page or feed; `squarespace` for a Squarespace blog or media page, read as `?format=json` with its own paging and dates; `wp-json` for a WordPress REST list, with an optional `where` filter) and a `note` saying what the source is and who asked for it.
+- A source with `"people": true` (a roster such as the group's "meet the millionaires" pages) lists people, not articles: each item is a person's page, titled with their name and role. Being on the roster is not a statement; read the page, then search for the person's own words about a wealth tax, and add them only when you find them (grades as below). Staff of the group, a partner outlet's reporters and executives are `skipped` or `reviewed`.
 - `data/media_seen.csv`: every article ever seen, with its source, link, title, publication date, the date it was first seen and a status: `new`, `reviewed` (read, nothing to add), `used` (a statement or lead came from it) or `skipped` (not relevant). The scan only adds rows, so each run reports what appeared since the last one. Commit it with the run's pull request.
 - `skill/scripts/media_scan.py`: `sources`, `scan`, `list`, `read`, `mark`. It reads politely: it identifies itself, honours `robots.txt`, waits between requests and never works around a block. It only collects; it never writes to a register.
 

@@ -13,7 +13,9 @@
     "name": "Patriotic Millionaires US: in the news",
     "url": "https://patrioticmillionaires.org/wp-json/wp/v2/press?per_page=50",
     "format": "wp-json",
-    "where": {"acf.details.press_type": 396},
+    "where": {
+      "acf.details.press_type": 396
+    },
     "country": "us",
     "language": "en",
     "note": "Press coverage of the group and its members (press type 396, in the news); the URL recorded is the outlet's article. Press releases (type 395) are the group's own statements and are not read. Recommended by the group."
@@ -26,5 +28,15 @@
     "country": "ca",
     "language": "en",
     "note": "Interviews, opinion pieces and podcasts by members (English and French), mostly on outlets' own sites. Recommended by the group."
+  },
+  {
+    "id": "pm-us-people",
+    "name": "Patriotic Millionaires US: meet the millionaires (members, allies, staff)",
+    "url": "https://patrioticmillionaires.org/wp-json/wp/v2/person?per_page=100",
+    "format": "wp-json",
+    "people": true,
+    "country": "us",
+    "language": "en",
+    "note": "A roster of 189 people pages (members, allies, board, staff), not articles: each item is a person's page on the group's site. Membership is not a statement; each person needs their own words about a wealth tax, found on the page or elsewhere. Suggested by the group (Jess Beckett, November 2026)."
   }
 ]
