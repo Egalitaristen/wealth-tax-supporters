@@ -117,7 +117,7 @@ def targets(a, kinds):
         checks = wtdb.load(str(d), "profile_checks") if (d / "profile_checks.csv").exists() else []
         site = {p["actor_id"] for p in profiles if p["platform"] in ("website", "official_page")}
         wiki = {p["actor_id"]: p["url"] for p in profiles if p["platform"] == "wikipedia"}
-        tried = {(c["actor_id"], c["method"]) for c in checks if c["checked"] > cutoff}
+        tried = {(c["actor_id"], c["method"]) for c in checks if c["checked"] > cutoff and not c["note"].startswith("rejected")}  # a rejected answer is searched again
         for r in actors:
             if r["status"] not in ("active", "former_role") or r.get("website") or r["actor_id"] in site:
                 continue
@@ -389,8 +389,19 @@ def ingest(a):
                     h = http(url, delay=1.0)
                     import profile_scan as ps
                     toks = ps.name_tokens(r["name"], r["kind"] == "person")
-                    if h and not h.startswith("ERR"):
-                        state = "ok" if any(t in fold(re.sub(r"<[^>]+>", " ", h)).replace(" ", "") for t in toks) else "no name"
+                    slug = fold(urllib.parse.unquote(urllib.parse.urlparse(url).path + " " + urllib.parse.urlparse(url).query)).replace(" ", "")
+                    seen = fold(e.get("title") or "").replace(" ", "")
+                    if any(t in slug for t in toks):  # the address names the person (/meps/.../PETER_MAGYAR/, /jayati-ghosh)
+                        state = "ok"
+                    elif h and not h.startswith("ERR"):
+                        text = fold(re.sub(r"<script.*?</script>|<style.*?</style>|<[^>]+>", " ", h, flags=re.S | re.I))
+                        if any(t in text.replace(" ", "") for t in toks):
+                            state = "ok"
+                        elif len(text.split()) < 80 and seen and any(t in seen for t in toks):  # a page that is only a script shell: the title the agent saw decides
+                            state = "ok"
+                            note = "page is a script shell; identity from the title the agent saw: " + (e.get("title") or "")[:80] + "; " + note
+                        else:
+                            state = "no name"
                     elif h and h.startswith("ERR"):  # blocked or unreachable for our reader: the title the agent saw must carry the name
                         seen = fold(e.get("title") or "").replace(" ", "")
                         state = "ok" if seen and any(t in seen for t in toks) else "no name"
