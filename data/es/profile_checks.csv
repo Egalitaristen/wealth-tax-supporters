@@ -503,3 +503,5 @@ K00501,A0194,own_site,https://www.bngipuzkoa.eus/WAS/CORP/DJGPortalWEB/composici
 K00502,A0193,own_site,https://jjggbizkaia.eus/es/detalle-juntero?cod=109&legislatura=12,2026-11-17,none,,"not added: facebook https://www.facebook.com/bizkaikobatzarnagusiak (chrome,social-block); x https://x.com/bnbizkaia (chrome,social-block); instagram https://www.instagram.com/bizkaikobatzarnagusiak/ (chrome,social-block)"
 K00503,A0187,own_site,https://www.bngipuzkoa.eus/WAS/CORP/DJGPortalWEB/composicion_junteros_ficha.jsp?legislatura=9&codigo=9&idioma=es,2026-11-17,none,,
 K00504,A0195,own_site,https://www.bngipuzkoa.eus/WAS/CORP/DJGPortalWEB/composicion_junteros_ficha.jsp?legislatura=12&codigo=51&idioma=es,2026-11-17,none,,
+K00505,A0186,manual_search,https://www.bngipuzkoa.eus,2026-11-17,found,website,"the Gipuzkoa assembly's own site (Batzar Nagusiak); wrongly removed on an earlier review, its member pages sit on this domain"
+K00506,A0186,own_site,https://www.bngipuzkoa.eus,2026-11-17,none,,
