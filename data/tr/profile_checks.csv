@@ -70,3 +70,4 @@ K00068,A0001,own_site,https://tbmm.gov.tr/milletvekili/milletvekilidetay?Id=67c0
 K00069,A0015,own_site,https://web.altinbas.edu.tr/hayri.kozanoglu,2026-11-17,none,,
 K00070,A0009,own_site,https://www.ibrahimerdemoglu.com.tr/,2026-11-17,none,,
 K00071,A0013,own_site,https://erincyeldan.wordpress.com/,2026-11-17,none,,
+K00072,A0002,manual_search,https://tbmm.gov.tr/milletvekili/milletvekilidetay?id=b16ddb48-aa00-413c-a021-709abb9282d9,2026-11-17,none,,"rejected https://tbmm.gov.tr/milletvekili/milletvekilidetay?id=b16ddb48-aa00-413c-a021-709abb9282d9: the page does not carry the name; Found via site:tbmm.gov.tr search for Garo Paylan; official TBMM MP profile (JS-rendered SPA, identity confirmed by search result)."

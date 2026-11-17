@@ -44,3 +44,4 @@ K00042,A0014,manual_search,,2026-11-17,none,,No personal website or official ins
 K00043,A0017,manual_search,https://socadmin.tu.ac.th/kritsada,2026-11-17,found,official_page,Found via web search; confirmed Thammasat University Faculty of Social Administration staff profile page.
 K00044,A0020,manual_search,,2026-11-17,none,,No personal website or active institutional profile found after three searches (old WordPress link returned HTTP 403).
 K00045,A0017,own_site,https://socadmin.tu.ac.th/kritsada,2026-11-17,none,,"not added: facebook https://www.facebook.com/socwork.tu (chrome,social-block)"
+K00046,A0005,manual_search,https://arts.su.ac.th/?page_id=1884,2026-11-17,none,,rejected https://arts.su.ac.th/?page_id=1884: the page does not carry the name; Found via su.ac.th search and arts.su.ac.th/?page_id=1872; official Silpakorn University Faculty of Arts staff page.

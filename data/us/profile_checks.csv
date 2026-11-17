@@ -1312,3 +1312,135 @@ K01310,A0254,own_site,https://www.contracosta.ca.gov/7978/District-4-Ken-Carlson
 K01311,A0122,own_site,https://votejuancarrillo.com/,2026-11-17,blocked,,403 at https://votejuancarrillo.com/
 K01312,A0383,own_site,https://votetwinanobles.com/,2026-11-17,found,x;facebook;instagram,
 K01313,A0451,own_site,https://nyassembly.gov/mem/Linda-B-Rosenthal,2026-11-17,none,,
+K01314,A0043,manual_search,https://www.californiadsa.org/,2026-11-17,none,,"rejected https://www.californiadsa.org/: the page's title and headings do not carry the name; Official statewide website of Democratic Socialists of America – California, confirmed via search and page title."
+K01315,A0177,manual_search,https://cd13.lacity.gov/,2026-11-17,none,,"rejected https://cd13.lacity.gov/: the page does not carry the name; Official Los Angeles City Council District 13 page for Councilmember Hugo Soto-Martinez, confirmed in page HTML."
+K01316,A0499,manual_search,https://www.tinaforhawaii.com/,2026-11-17,found,website,"Official campaign website for Hawaii State Representative Tina Nakada Grandinetti (House District 20), confirmed via title and H1."
+K01317,A0501,manual_search,https://reptrishlachica.com/,2026-11-17,found,website,"Official legislative/constituent website of Hawaii State Representative Trish La Chica (District 37), confirmed via title."
+K01318,A0502,manual_search,https://abigaildisney.com/,2026-11-17,found,website,"Official personal website of Abigail Disney, confirmed via search and page title."
+K01319,A0513,manual_search,,2026-11-17,none,,Searched twice; no personal website or university profile page found for economist Dula Abdu.
+K01320,A0527,manual_search,https://juliesalamon.com/,2026-11-17,found,website,"Official personal website of Julie Salamon (J.D., author, wealth-tax letter signatory), confirmed via search and page title/H1."
+K01321,A0530,manual_search,,2026-11-17,none,,Searched twice; multiple economists share the name Marcelo Oliveira and no unambiguous US personal/academic page was found.
+K01322,A0573,manual_search,https://senatedemocrats.wa.gov/vandewegearchive/,2026-11-17,found,official_page,Official Washington Senate Democrats archive page for former Sen. Kevin Van De Wege (campaign domain is parked).
+K01323,A0577,manual_search,https://www.john-lovick.org/,2026-11-17,found,website,"Official campaign website for Washington State Senator John Lovick (District 44), confirmed in page title and HTML."
+K01324,A0579,manual_search,https://www.mylinhthai.com/,2026-11-17,found,website,"Official campaign website for Washington State Representative My-Linh Thai (District 41), confirmed via title and H1."
+K01325,A0580,manual_search,https://www.aprilberg.com/,2026-11-17,found,website,"Official campaign website for Washington State Representative April Berg (District 44), confirmed via title."
+K01326,A0581,manual_search,https://www.cindyryu.com/,2026-11-17,found,website,"Official campaign website for Washington State Representative Cindy Ryu (District 32), confirmed via search and page title."
+K01327,A0582,manual_search,https://votestrom.com/,2026-11-17,found,website,"Official campaign website for Washington State Representative Strom Peterson (District 21), confirmed via title."
+K01328,A0583,manual_search,https://daryaforhouse.com/,2026-11-17,found,website,"Official campaign website for Washington State Representative Darya Farivar (District 46), confirmed via title."
+K01329,A0584,manual_search,,2026-11-17,none,,"Former Rep. Frank Chopp (retired Jan 2025, deceased Mar 2025); frankchopp.com returns HTTP 500 and housedemocrats.wa.gov/chopp/ returns 410."
+K01330,A0585,manual_search,https://www.hackney4the11th.com/,2026-11-17,found,website,"Official campaign website for Washington State Representative David Hackney (District 11), confirmed via title."
+K01331,A0586,manual_search,https://www.electjamilataylor.com/,2026-11-17,found,website,"Official campaign website for Washington State Representative Jamila Taylor (District 30), confirmed via title."
+K01332,A0588,manual_search,https://lizberry.com/,2026-11-17,found,website,"Official campaign website for Washington State Representative Liz Berry (District 36), confirmed via title and H1."
+K01333,A0589,manual_search,https://www.alexramel.com/,2026-11-17,found,website,"Official campaign website for Washington State Representative Alex Ramel (District 40), confirmed via title."
+K01334,A0590,manual_search,https://www.electlillian.com/,2026-11-17,found,website,"Official campaign website for Washington State Representative Lillian Ortiz-Self (District 21), confirmed via title."
+K01335,A0592,manual_search,https://www.electdebraentenman.org/,2026-11-17,found,website,"Official campaign website for Washington State Representative Debra Entenman (District 47), confirmed via title."
+K01336,A0593,manual_search,https://www.rogergoodman.org/,2026-11-17,found,website,"Official campaign/representative website for Washington State Representative Roger Goodman (District 45), confirmed via title."
+K01337,A0594,manual_search,https://www.voteamywalen.com/,2026-11-17,found,website,"Official campaign website for Washington State Representative Amy Walen (District 48), confirmed via title."
+K01338,A0596,manual_search,https://electdavina.com/,2026-11-17,found,website,"Web search and HTTP 200 verification confirmed Davina Duerr's campaign website for WA State Representative, District 1."
+K01339,A0597,manual_search,,2026-11-17,none,,"Web search and HTTP 200 verification confirmed Gerry Pollet's campaign website for WA State Representative, District 46."
+K01340,A0601,manual_search,https://votesharontomikosantos.com/,2026-11-17,found,website,"Web search and HTTP 200 verification confirmed Sharon Tomiko Santos's campaign website for WA State Representative, District 37."
+K01341,A0602,manual_search,https://chris4wa.com/,2026-11-17,found,website,"Web search and HTTP 200 verification confirmed Chris Stearns's campaign website for WA State Representative, District 47."
+K01342,A0603,manual_search,https://dcyf.wa.gov/about/our-leadership/tana-senn,2026-11-17,found,official_page,"Web search and HTTP 200 verification confirmed official WA DCYF leadership profile for Tana Senn (former WA State Rep, District 41); no active personal/campaign site found."
+K01343,A0604,manual_search,https://electlisacallan.org/,2026-11-17,found,website,"Web search and HTTP 200 verification confirmed Lisa Callan's campaign website for WA State Representative, District 5."
+K01344,A0606,manual_search,https://www.electtarrasimmons.com/,2026-11-17,found,website,"Web search and HTTP 200 verification confirmed Tarra Simmons's campaign website for WA State Representative, District 23."
+K01345,A0607,manual_search,https://housedemocrats.wa.gov/tharinger/,2026-11-17,found,official_page,Web search and HTTP 200 verification confirmed official WA House Democrats profile for Steve Tharinger (District 24); retired without a 2026 campaign site.
+K01346,A0608,manual_search,https://www.chapmanforsenate.org/,2026-11-17,found,website,"Web search and HTTP 200 verification confirmed Mike Chapman's campaign website (former WA State Rep, District 24; now WA State Senator, District 24)."
+K01347,A0609,manual_search,https://jakefey.com/,2026-11-17,found,website,"Web search and HTTP 200 verification confirmed Jake Fey's campaign website for WA State Representative, District 27."
+K01348,A0610,manual_search,https://electjuliocortes.com/,2026-11-17,found,website,"Web search and HTTP 200 verification confirmed Julio Cortes's campaign website for WA State Representative, District 38."
+K01349,A0611,manual_search,https://www.electlaurendavis.com/,2026-11-17,found,website,"Web search and HTTP 200 verification confirmed Lauren Davis's campaign website for WA State Representative, District 32."
+K01350,A0613,manual_search,https://vandanaslatter.com/,2026-11-17,found,website,"Web search and HTTP 200 verification confirmed Vandana Slatter's campaign website (former WA State Rep, District 48; now WA State Senator, District 48)."
+K01351,A0614,manual_search,https://www.electmelaniemorgan.com/,2026-11-17,found,website,"Web search and HTTP 200 verification confirmed Melanie Morgan's campaign website for WA State Representative, District 29."
+K01352,A0658,manual_search,https://www.aft.org/about/leadership/randi-weingarten,2026-11-17,found,official_page,Web search and HTTP 200 verification confirmed official AFT leadership profile for President Randi Weingarten; no standalone personal site found.
+K01353,A0661,manual_search,,2026-11-17,none,,Two web searches found no personal website or official P Street profile page for Emma Lydon.
+K01354,A0684,manual_search,https://prospect.org/authors/harold-meyerson/,2026-11-17,found,official_page,Page returned HTTP 403 Forbidden; web search results clearly identify this as Harold Meyerson's official Editor at large author profile at The American Prospect.
+K01355,A0691,manual_search,https://www.leawebb.com/,2026-11-17,found,website,Web search and HTTP 200 verification confirmed Lea Webb's campaign website for New York State Senate.
+K01356,A0703,manual_search,https://www.votelorena.com/,2026-11-17,found,website,"Web search and HTTP 200 verification confirmed Lorena Gonzalez's personal/campaign website (former CA Assemblymember, now President of CA Federation of Labor Unions)."
+K01357,A0704,manual_search,https://www.seiu-uhw.org/biography-seiu-uhw-president-dave-regan/,2026-11-17,found,official_page,Web search and HTTP 200 verification confirmed official SEIU-UHW biography page for President Dave Regan.
+K01358,A0705,manual_search,https://home.nuhw.org/about/executive-board/,2026-11-17,found,official_page,"Web search and HTTP 200 verification confirmed official NUHW Executive Board page listing Nicholas Cordero (Vice President, St. Joseph Hospital Eureka)."
+K01359,A0706,manual_search,https://utla.net/contacts/julie-van-winkle/,2026-11-17,found,official_page,Web search and HTTP 200 verification confirmed official UTLA officer profile page for Julie Van Winkle.
+K01360,A0711,manual_search,https://lolaforca.com/,2026-11-17,found,website,Web search and HTTP 200 verification confirmed Lola Smallwood-Cuevas's campaign website for CA State Senate District 28.
+K01361,A0715,manual_search,https://www.cft.org/post/president,2026-11-17,found,official_page,Web search and HTTP 200 verification confirmed official CFT President profile page naming Jeff Freitas.
+K01362,A0739,manual_search,https://rbreich.com/,2026-11-17,found,website,Web search and HTTP 200 verification confirmed Robert Reich's official personal website.
+K01363,A0741,manual_search,https://www.votecelesterodriguez.com/,2026-11-17,found,website,Web search and HTTP 200 verification confirmed Celeste Rodriguez's campaign website for CA State Assembly.
+K01364,A0742,manual_search,https://voteforward.com/,2026-11-17,found,website,Web search and HTTP 200 verification confirmed Chris Ward's campaign website for CA State Assembly.
+K01365,A0744,manual_search,,2026-11-17,none,,Two web searches found no standalone personal website or current official institutional profile for John O'Farrell (only former-employer a16z author archive and advocacy mentions).
+K01366,A0745,manual_search,,2026-11-17,none,,Two web searches found no standalone official homepage for Mistah F.A.B. (dopeera.com is an apparel store without his name in title/text).
+K01367,A0753,manual_search,https://www.apalanet.org/,2026-11-17,none,,"rejected https://www.apalanet.org/: the page's title and headings do not carry the name; Web search and HTTP 200 verification confirmed official homepage of Asian Pacific American Labor Alliance, AFL-CIO."
+K01368,A0790,manual_search,https://oblatesusa.org/,2026-11-17,found,website,Confirmed in search results as the official US Province website of the Missionary Oblates of Mary Immaculate (HTTP 403 on direct fetch).
+K01369,A0885,manual_search,,2026-11-17,none,,No personal website or dedicated official institutional profile page found after two searches.
+K01370,A0886,manual_search,,2026-11-17,none,,No personal website or official institutional profile page found after two searches.
+K01371,A0887,manual_search,,2026-11-17,none,,No verified live website or profile found after two searches (deniserobb.com timed out; lapc.edu returned HTTP 403).
+K01372,A0888,manual_search,,2026-11-17,none,,No personal website or official profile found after two searches (soleilboston.com is the restaurant business site).
+K01373,A0909,manual_search,,2026-11-17,none,,No verified personal website found after two searches (nathannewman.org returned HTTP 500 and belongs to a namesake author/filmmaker).
+K01374,A0910,manual_search,,2026-11-17,none,,No personal website or official institutional profile page found after two searches.
+K01375,A0915,manual_search,https://www.deanprestonsf.com/,2026-11-17,found,website,"Found via web search; confirmed on fetched page (title 'Dean Preston', San Francisco)."
+K01376,A0917,manual_search,https://sfbos.org/supervisor-mar-district-4,2026-11-17,found,official_page,Confirmed in search results as the official SF Board of Supervisors District 4 archive page for Gordon Mar (direct fetch returned HTTP 202 without HTML body).
+K01377,A0927,manual_search,https://phlcouncil.com/helengym/,2026-11-17,found,official_page,Found via web search; confirmed on fetched Philadelphia City Council member page.
+K01378,A0928,manual_search,,2026-11-17,none,,No personal website or individual official profile page found after two searches.
+K01379,A0934,manual_search,https://alexskopic.com/,2026-11-17,found,website,Confirmed in search results as Alex Skopic's personal website (direct fetch returned HTTP 403).
+K01380,A0948,manual_search,https://freespeechforpeople.org/john-bonifaz/,2026-11-17,found,official_page,Found via web search; confirmed on fetched Free Speech For People official bio page.
+K01381,A0949,manual_search,,2026-11-17,none,,No personal website or individual official profile page found after two searches.
+K01382,A0950,manual_search,https://teamsters856.org/representative/finn-peter/,2026-11-17,found,official_page,Found via web search; confirmed on fetched Teamsters Local 856 official representative page.
+K01383,A0951,manual_search,https://teamster.org/leadership/victor-mineros/,2026-11-17,found,official_page,Found via web search; confirmed on fetched International Brotherhood of Teamsters official leadership page.
+K01384,A0952,manual_search,https://www.gp.org/david_cobb,2026-11-17,found,official_page,Found via web search; confirmed on fetched official Green Party of the United States profile page.
+K01385,A0953,manual_search,,2026-11-17,none,,No personal website or dedicated individual profile page found after two searches.
+K01386,A0954,manual_search,,2026-11-17,none,,No personal website or dedicated official profile page found after two searches.
+K01387,A0956,manual_search,https://www.senatorrobertpeters.com/,2026-11-17,found,website,Confirmed in search results as Illinois State Senator Robert Peters's official legislative website (timed out on direct fetch).
+K01388,A0957,manual_search,,2026-11-17,none,,No personal website or official institutional profile page found after two searches (only about.me and directory listings).
+K01389,A0958,manual_search,,2026-11-17,none,,No personal website or dedicated individual profile page found after two searches.
+K01390,A0959,manual_search,,2026-11-17,none,,No personal website or official institutional profile page found after two searches.
+K01391,A0960,manual_search,,2026-11-17,none,,No personal website or individual official profile page found after two searches.
+K01392,A0614,own_site,https://www.electmelaniemorgan.com/,2026-11-17,none,,
+K01393,A0590,own_site,https://www.electlillian.com/,2026-11-17,found,facebook;x;linkedin;instagram,
+K01394,A0501,own_site,https://reptrishlachica.com/,2026-11-17,found,facebook;instagram,
+K01395,A0502,own_site,https://abigaildisney.com/,2026-11-17,found,x;facebook;instagram,
+K01396,A0586,own_site,https://www.electjamilataylor.com/,2026-11-17,found,instagram,"not added: youtube https://www.youtube.com/channel/UCfAEI30hVNMSz0kgARMRwdg (chrome,social-block)"
+K01397,A0790,own_site,https://oblatesusa.org/,2026-11-17,found,facebook;instagram;x,
+K01398,A0610,own_site,https://electjuliocortes.com/,2026-11-17,found,facebook;instagram,not added: facebook https://www.facebook.com/100712372551452 (social-block); facebook https://www.facebook.com/100712372551452_1116633730960544 (social-block); facebook https://www.facebook.com/5296168620493468 (social-block); facebook https://www.facebook.com/100712372551452_1114151474542103 (social-block); f
+K01399,A0607,own_site,https://housedemocrats.wa.gov/tharinger/,2026-11-17,none,,"not added: bluesky https://bsky.app/profile/housedemocrats.wa.gov (chrome,rel-me,social-block); facebook https://www.facebook.com/wahousedems (chrome,rel-me,social-block); instagram https://www.instagram.com/wahousedems/ (chrome,rel-me,social-block); youtube https://www.youtube.com/user/WAHouseDems (chrome,rel"
+K01400,A0613,own_site,https://vandanaslatter.com/,2026-11-17,none,,not added: facebook https://www.facebook.com/vandanaforrep (); facebook https://www.facebook.com/RepVandanaSlatter ()
+K01401,A0711,own_site,https://lolaforca.com/,2026-11-17,found,facebook;instagram;x,
+K01402,A0741,own_site,https://www.votecelesterodriguez.com/,2026-11-17,found,facebook;instagram,
+K01403,A0581,own_site,https://www.cindyryu.com/,2026-11-17,found,instagram;x;bluesky,
+K01404,A0956,own_site,https://www.senatorrobertpeters.com/,2026-11-17,error,,URLError: <urlopen error [WinError 10060] A connection attempt failed because the connecte
+K01405,A0951,own_site,https://teamster.org/leadership/victor-mineros/,2026-11-17,none,,"not added: x https://x.com/teamsters (chrome,social-block); facebook https://www.facebook.com/teamsters (chrome,social-block); instagram https://www.instagram.com/teamsters/ (chrome,social-block)"
+K01406,A0592,own_site,https://www.electdebraentenman.org/,2026-11-17,found,facebook,
+K01407,A0589,own_site,https://www.alexramel.com/,2026-11-17,found,x;facebook,
+K01408,A0742,own_site,https://voteforward.com/,2026-11-17,found,facebook,"not added: x https://x.com/ChrisWard4AD78 (chrome,share,social-block)"
+K01409,A0603,own_site,https://dcyf.wa.gov/about/our-leadership/tana-senn,2026-11-17,none,,not added: facebook https://www.facebook.com/waDCYF (social-block); youtube https://www.youtube.com/channel/UCsRzIU1gRk6-u4JtKIDyqhQ (social-block); linkedin https://www.linkedin.com/company/washington-state-department-of-children-youth-and-families (social-block); instagram https://www.instagram.com/wadcyf/ (
+K01410,A0593,own_site,https://www.rogergoodman.org/,2026-11-17,found,facebook,
+K01411,A0691,own_site,https://www.leawebb.com/,2026-11-17,found,facebook;instagram;x,"not added: youtube https://www.youtube.com/channel/UC-OdnS8oXrQ68ISDNZnj1cg (chrome,social-block)"
+K01412,A0604,own_site,https://electlisacallan.org/,2026-11-17,none,,
+K01413,A0611,own_site,https://www.electlaurendavis.com/,2026-11-17,found,facebook;linkedin,
+K01414,A0585,own_site,https://www.hackney4the11th.com/,2026-11-17,found,x;facebook;instagram,
+K01415,A0705,own_site,https://home.nuhw.org/about/executive-board/,2026-11-17,none,,"not added: facebook https://www.facebook.com/NUHWunion (chrome,social-block); x https://x.com/NUHW (chrome,social-block); linkedin https://www.linkedin.com/company/nuhwunion (chrome,social-block); instagram https://www.instagram.com/nuhwunion/ (chrome,social-block); youtube https://www.youtube.com/c/NationalUn"
+K01416,A0588,own_site,https://lizberry.com/,2026-11-17,found,facebook,"not added: instagram https://www.instagram.com/lizberrywa/ (chrome,social-block); instagram https://www.instagram.com/votelizberry/ (chrome,social-block)"
+K01417,A0950,own_site,https://teamsters856.org/representative/finn-peter/,2026-11-17,none,,"not added: facebook https://www.facebook.com/teamsters856 (chrome,social-block); x https://x.com/Teamsters856 (chrome,meta,social-block); instagram https://www.instagram.com/teamsters856/ (chrome,social-block)"
+K01418,A0706,own_site,https://utla.net/contacts/julie-van-winkle/,2026-11-17,none,,"not added: instagram https://www.instagram.com/utlanow/ (chrome,social-block); x https://x.com/utlanow (chrome,meta,social-block); facebook https://www.facebook.com/UTLAnow (chrome,social-block); youtube https://www.youtube.com/user/utlaNOW (chrome,social-block)"
+K01419,A0527,own_site,https://juliesalamon.com/,2026-11-17,none,,
+K01420,A0684,own_site,https://prospect.org/authors/harold-meyerson/,2026-11-17,none,,not added: x https://x.com/theprospect (meta); bluesky https://bsky.app/profile/prospect.org (); facebook https://www.facebook.com/TheAmericanProspect (); instagram https://www.instagram.com/americanprospect/ (); linkedin https://www.linkedin.com/company/the-american-prospect ()
+K01421,A0609,own_site,https://jakefey.com/,2026-11-17,found,facebook;x,
+K01422,A0915,own_site,https://www.deanprestonsf.com/,2026-11-17,found,bluesky;instagram;facebook;tiktok;youtube,
+K01423,A0583,own_site,https://daryaforhouse.com/,2026-11-17,found,facebook;x;linkedin,
+K01424,A0579,own_site,https://www.mylinhthai.com/,2026-11-17,found,facebook;instagram,
+K01425,A0703,own_site,https://www.votelorena.com/,2026-11-17,found,x;facebook,
+K01426,A0704,own_site,https://www.seiu-uhw.org/biography-seiu-uhw-president-dave-regan/,2026-11-17,none,,"not added: facebook https://www.facebook.com/unitedhealthcareworkers (chrome,social-block); x https://x.com/seiu_uhw (chrome,social-block); youtube https://www.youtube.com/user/SEIUUHWOnline (chrome,social-block); instagram https://www.instagram.com/seiuuhw/ (chrome,social-block); linkedin https://www.linkedin"
+K01427,A0934,own_site,https://alexskopic.com/,2026-11-17,none,,
+K01428,A0601,own_site,https://votesharontomikosantos.com/,2026-11-17,found,instagram;facebook,
+K01429,A0917,own_site,https://sfbos.org/supervisor-mar-district-4,2026-11-17,none,,
+K01430,A0596,own_site,https://electdavina.com/,2026-11-17,none,,
+K01431,A0658,own_site,https://www.aft.org/about/leadership/randi-weingarten,2026-11-17,found,bluesky;facebook,"not added: youtube https://www.youtube.com/channel/UCdaoJ8gUQ12aLC5kZFwUbRQ (chrome,social-block); youtube https://www.youtube.com/user/AFTHQ (chrome,social-block); bluesky https://bsky.app/profile/aft.org (chrome,social-block); facebook https://www.facebook.com/AFTunion (chrome,social-block); instagram https:"
+K01432,A0577,own_site,https://www.john-lovick.org/,2026-11-17,found,facebook;instagram,
+K01433,A0602,own_site,https://chris4wa.com/,2026-11-17,found,facebook,not added: facebook https://www.facebook.com/103615702315256 (social-block); facebook https://www.facebook.com/103615702315256_1120759973930701 (social-block); facebook https://www.facebook.com/114730241219548 (social-block); facebook https://www.facebook.com/170852373617950 (social-block); facebook https://ww
+K01434,A0608,own_site,https://www.chapmanforsenate.org/,2026-11-17,none,,
+K01435,A0927,own_site,https://phlcouncil.com/helengym/,2026-11-17,none,,"not added: facebook https://www.facebook.com/PHLCouncil (chrome,social-block); x https://x.com/PHLCouncil (chrome,meta,social-block); youtube https://www.youtube.com/user/PhillyCityCouncil (chrome,social-block); instagram https://www.instagram.com/phlcouncil/ (chrome,social-block)"
+K01436,A0739,own_site,https://rbreich.com/,2026-11-17,found,substack;bluesky;linkedin;facebook;instagram;tiktok;x,
+K01437,A0573,own_site,https://senatedemocrats.wa.gov/vandewegearchive/,2026-11-17,none,,"not added: youtube https://www.youtube.com/user/WASenateDemocrats (chrome,social-block)"
+K01438,A0594,own_site,https://www.voteamywalen.com/,2026-11-17,found,instagram,"not added: facebook https://www.facebook.com/AmyForStateHouse (chrome,social-block)"
+K01439,A0715,own_site,https://www.cft.org/post/president,2026-11-17,none,,"not added: facebook https://www.facebook.com/CFTunion (chrome,social-block); instagram https://www.instagram.com/CFTunion/ (chrome,social-block); youtube https://www.youtube.com/user/cftunionvideos (chrome,social-block); bluesky https://bsky.app/profile/cftunion.bsky.social (chrome,social-block); x https://x.c"
+K01440,A0952,own_site,https://www.gp.org/david_cobb,2026-11-17,none,,"not added: x https://x.com/GreenPartyUS (chrome,meta,social-block); bluesky https://bsky.app/profile/greenpartyus.bsky.social (chrome,social-block); instagram https://www.instagram.com/greenpartyus/ (chrome,social-block); youtube https://www.youtube.com/user/GreenPartyVideos (chrome,social-block); facebook htt"
+K01441,A0948,own_site,https://freespeechforpeople.org/john-bonifaz/,2026-11-17,found,x,"not added: facebook https://www.facebook.com/pages/Free-Speech-For-People/140474869352859 (chrome,social-block); instagram https://www.instagram.com/freespeechforpeople/ (chrome,social-block); x https://x.com/fsfp (chrome,social-block); youtube https://www.youtube.com/user/freespeechpeople (chrome,social-block"
+K01442,A0580,own_site,https://www.aprilberg.com/,2026-11-17,found,facebook;x;instagram,"not added: youtube https://www.youtube.com/channel/UCpR2qwp7mcWQUAqcqGkw1Ig (chrome,social-block)"
+K01443,A0606,own_site,https://www.electtarrasimmons.com/,2026-11-17,found,facebook;instagram,
+K01444,A0499,own_site,https://www.tinaforhawaii.com/,2026-11-17,found,instagram,
+K01445,A0582,own_site,https://votestrom.com/,2026-11-17,found,facebook,
