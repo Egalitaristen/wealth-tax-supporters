@@ -975,6 +975,14 @@ body:not(.ready) .foot { visibility: hidden; }
 .res-by { font-size: 13.5px; color: var(--ink-2); }
 .res p { margin: 8px 0 0; font-size: 14.5px; color: var(--ink-2); }
 .res-st { margin-top: 8px; font-size: 13px; color: var(--ink-3); }
+.res-pet .res-st .btn { margin-right: 12px; color: var(--paper); }
+.res-pet .res-st .btn:hover { color: var(--on-signal); }
+.pet-n { color: var(--ink); font-weight: 600; }
+.res-pet .pet-who { display: inline-block; margin-top: 6px; }
+.pet-st { padding: 1px 7px; border: 1px solid var(--rule-2); }
+.pet-open { color: var(--ink); border-color: var(--ink); }
+.rclosed { display: inline-flex; align-items: center; gap: 8px; margin-bottom: 10px; font-size: 13.5px; color: var(--ink-2); }
+.rclosed[hidden] { display: none; }
 .res-st b { font: 600 11px/1 var(--mono); text-transform: uppercase; letter-spacing: .05em; margin-right: 6px; color: var(--ink); }
 .res-more { margin-top: 6px; }
 .res-more summary { cursor: pointer; color: var(--ink); font-weight: 600; }

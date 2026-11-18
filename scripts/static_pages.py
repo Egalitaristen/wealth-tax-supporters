@@ -11,7 +11,7 @@ import re
 DES = {"annual_net_wealth": "Annual net wealth tax", "one_off_levy": "One-off wealth levy", "billionaire_minimum": "Billionaire minimum tax",
        "unrealised_gains": "Tax on unrealised gains", "partial_wealth": "Partial wealth tax", "defend_existing": "Keep an existing wealth tax",
        "wealth_tax_unspecified": "A wealth tax, design open"}
-KINDS = (("poll", "Polls"), ("paper", "Papers"), ("report", "Reports"), ("bill", "Bills, motions and laws"))
+KINDS = (("poll", "Polls"), ("paper", "Papers"), ("report", "Reports"), ("bill", "Bills, motions and laws"), ("petition", "Petitions you can sign"))
 
 
 def h(s):
@@ -147,17 +147,18 @@ def person_body(slug, cname, p, es, type_label, grade_label):
 def resources_body(resources):
     out = []
     for kind, label in KINDS:
-        rs = sorted((r for r in resources if r["kind"] == kind), key=lambda r: str(r["published"]), reverse=True)
+        rs = sorted((r for r in resources if r["kind"] == kind and (kind != "petition" or r.get("pstate") == "open")), key=lambda r: str(r["published"] or r.get("checked", "")), reverse=True)
         if not rs:
             continue
         rows = []
         for r in rs:
             t = h(r["title"])
             link = _link(f'/resources/{r["slug"]}', r["title"]) if r.get("slug") else f'<a href="{h(r.get("url", "/resources"))}" rel="noopener">{t}</a>'
-            rows.append(f'{link}: {h(r.get("cname", ""))}, {h(str(r["published"])[:7])}' + (f". {h(r['summary'][:160])}" if r.get("summary") else ""))
+            rows.append(f'{link}: {h(r.get("cname", ""))}, {h(str(r["published"])[:7] or r["by"])}' + (f". {h(r['summary'][:160])}" if r.get("summary") else ""))
         out.append(f"<h2>{label} ({len(rs)})</h2>{_list(rows)}")
-    return _page("resources", _head("Polls, papers, reports and bills", "Resources on a wealth tax",
-                 f"{len(resources)} polls, papers, reports and bills from the countries in the register and beyond.") + "".join(out))
+    n_open = sum(1 for r in resources if r["kind"] != "petition" or r.get("pstate") == "open")
+    return _page("resources", _head("Polls, papers, reports, bills and petitions", "Resources on a wealth tax",
+                 f"{n_open} polls, papers, reports, bills and open petitions from the countries in the register and beyond.") + "".join(out))
 
 
 def polls_body(polls, raw):
