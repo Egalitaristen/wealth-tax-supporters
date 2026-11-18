@@ -11,7 +11,7 @@ In this repository, `<area-slug>` is the lowercase ISO 3166-1 alpha-2 code (`gb`
 `actor_id, name, kind, actor_type, other_types, role, affiliation, party, affiliation_actor_id, country, level, location, geo_unit_id, location_source, wikidata_qid, website, status, alive_checked, prominence, notes, added_run, updated, refined`
 - IDs look like `A0001`. Required: `name`, `kind`, `actor_type`, `country`, `level`, `status`, `alive_checked`.
 - `kind` is one of: institution · organisation · person.
-- `actor_type` is one of: academic · business_leader · campaigner · cultural_figure · economist · faith · funder · government_body · international_body · journalist · legal_tax_professional · media_outlet · ngo_campaign · party · politician · think_tank · union · union_official · wealthy_individual.
+- `actor_type` is one of: academic · business_leader · campaigner · cultural_figure · economist · faith · funder · government_body · international_body · journalist · legal_tax_professional · media_outlet · ngo_campaign · other · party · politician · think_tank · union · union_official · wealthy_individual.
 - `level` is one of: local · national · regional · supranational.
 - `status` is one of: active · dissolved · former_role.
 - `alive_checked` is one of: na · y.

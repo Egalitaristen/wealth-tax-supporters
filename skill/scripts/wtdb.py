@@ -97,7 +97,7 @@ ENUMS = {
     ("actors", "actor_type"): {"politician", "party", "government_body", "academic", "economist", "think_tank",
                                "ngo_campaign", "union", "union_official", "journalist", "media_outlet",
                                "legal_tax_professional", "wealthy_individual", "business_leader", "faith",
-                               "cultural_figure", "campaigner", "international_body", "funder"},
+                               "cultural_figure", "campaigner", "international_body", "funder", "other"},
     ("actors", "level"): {"supranational", "national", "regional", "local"},
     ("actors", "status"): {"active", "former_role", "dissolved"},
     ("actors", "alive_checked"): {"y", "na"},

@@ -1120,14 +1120,14 @@ TYPE = {"politician": "Politician", "party": "Party", "government_body": "Counci
         "union_official": "Union official", "journalist": "Commentator", "media_outlet": "Media outlet",
         "legal_tax_professional": "Legal or tax expert", "wealthy_individual": "Wealthy individual",
         "business_leader": "Business leader", "faith": "Faith leader or body", "cultural_figure": "Cultural figure",
-        "campaigner": "Campaigner", "international_body": "International body", "funder": "Funder"}
+        "campaigner": "Campaigner", "international_body": "International body", "funder": "Funder", "other": "Other"}
 GRADE = {"A": "Explicit support", "B": "Named support", "C": "Implied support"}
 # The same plural labels as TYPES_PL in site/app.js; a page per kind of supporter lives at /directory/<slug>.
 TYPE_PLURAL = {"politician": "Politicians", "party": "Parties", "government_body": "Councils and bodies", "academic": "Academics", "economist": "Economists",
                "think_tank": "Think tanks", "ngo_campaign": "Campaign groups", "union": "Unions", "union_official": "Union officials", "journalist": "Commentators",
                "media_outlet": "Media outlets", "legal_tax_professional": "Legal and tax experts", "wealthy_individual": "Wealthy individuals",
                "business_leader": "Business leaders", "faith": "Faith", "cultural_figure": "Cultural figures", "campaigner": "Campaigners",
-               "international_body": "International bodies", "funder": "Funders"}
+               "international_body": "International bodies", "funder": "Funders", "other": "Others"}
 
 
 def type_slug(code):
