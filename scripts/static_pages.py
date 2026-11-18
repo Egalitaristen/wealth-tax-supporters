@@ -68,7 +68,15 @@ def countries_body(countries):
                  f"The {len(countries)} countries researched so far, each with its own map, polls and seats.") + _list(rows))
 
 
-def country_body(c, D, name_the, designs=None):
+def petitions_block(petitions):
+    """The open petitions of a country as a plain list for crawlers; nothing when there are none."""
+    if not petitions:
+        return ""
+    rows = [f'<a href="{h(r["url"])}" rel="noopener">{h(r["title"])}</a>: {h(r["by"])}' + (f', to {h(r["target"])}' if r.get("target") else "") for r in petitions[:3]]
+    return f"<h2>Petitions you can sign</h2>{_list(rows)}"
+
+
+def country_body(c, D, name_the, designs=None, petitions=None):
     P = sorted(D["P"], key=_strength)
     types = ", ".join(f"{n:,} {k}" for k, n in list((c.get("types") or {}).items())[:6])
     des = [f'{DES.get(k, k)}: {n:,}' for k, n in list((c.get("designs") or {}).items())[:8] if k in DES]
@@ -79,6 +87,7 @@ def country_body(c, D, name_the, designs=None):
                    f'with {c["evidence"]:,} sourced statements. {h(grades)}.')
              + (f"<h2>What they back</h2>{_list(des)}" if des else "") + (f"<h2>Who they are</h2><p>{h(types)}.</p>" if types else "")
              + (f"<h2>What polls say</h2>{_list(poll_lines(c))}" if c.get("polls") else "")
+             + petitions_block(petitions)
              + f"<h2>The strongest evidence</h2>{_list(top)}"
              + f'<p>{_link(f"/{c["slug"]}/directory", f"All {c["supporters"]:,} supporters in {name_the}")}'
              + (f' · {_link(f"/{c["slug"]}/seats", "Seats in the legislature")}' if D.get("legis") else "") + "</p>")
@@ -108,7 +117,7 @@ def seats_body(c, D, name_the, level=None):
                  "an unmarked seat means nothing found yet, never opposition.") + "".join(parts))
 
 
-def story_body(c, st, name_the):
+def story_body(c, st, name_the, petitions=None):
     secs = "".join(f'<section id="{h(x["id"])}"><h2>{h(x["title"])}</h2>{x["html"]}</section>' for x in st.get("sections", []))
     tl = ""
     if st.get("timeline"):
@@ -117,7 +126,7 @@ def story_body(c, st, name_the):
     if st.get("sources"):
         src = "<section><h2>Sources</h2><ol>" + "".join(f'<li><a href="{h(r["url"])}" rel="noopener">{h(r["title"])}</a></li>' for r in st["sources"]) + "</ol></section>"
     inner = (_head(f"{c['name']} · Story", st["title"], h(st.get("standfirst", ""))) + f'<div class="story-intro">{st.get("intro", "")}</div>{secs}{tl}{src}'
-             + f'<p>{_link(f"/{c["slug"]}/directory", f"The {c["supporters"]:,} supporters in {name_the}")}</p>')
+             + petitions_block(petitions) + f'<p>{_link(f"/{c["slug"]}/directory", f"The {c["supporters"]:,} supporters in {name_the}")}</p>')
     return _page("story", inner)
 
 
