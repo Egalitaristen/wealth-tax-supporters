@@ -1,4 +1,30 @@
 {
+  "2026-11-18": {
+    "summary": "Petitions you can sign arrived on the Resources page and on country overviews, and the register gained an Other type.",
+    "items": [
+      {"kind": "added", "text": "Petitions: the Resources page lists the petitions for a wealth tax that visitors can sign, 22 open today, with who runs each, who it is addressed to, its dates and its signature count. Closed and unclear ones sit behind a switch and are kept."},
+      {"kind": "added", "text": "Country overviews with an open petition have a Take action box beside Who they are."},
+      {"kind": "added", "text": "A type called Other, for a supporter whose role fits none of the listed types (a physician, a veteran, a judge, a student leader). The type never decides whether someone is included."},
+      {"kind": "added", "text": "More supporters: Lauren Ravon (Oxfam Canada), Dylan Dusseault (Patriotic Millionaires Canada) and Béatrice Vaugrante (Oxfam-Québec) in Canada, and David Nixon in the United States, with new statements for existing supporters such as Bob Lord, Morris Pearl, Robert Peters, Randi Weingarten and Maureen Kennedy."},
+      {"kind": "corrected", "text": "Four profile links in France that carried spaces in their address were removed."}
+    ]
+  },
+  "2026-11-17": {
+    "summary": "A media watch began on the Patriotic Millionaires news pages, 30 more supporters joined the United States register, and 2,003 supporters gained websites and accounts.",
+    "items": [
+      {"kind": "added", "text": "A periodic watch on the news pages of Patriotic Millionaires (United States, United Kingdom and Canada): each article is read in full and any named supporter with a statement for a wealth tax is added, with the quote and its source."},
+      {"kind": "added", "text": "30 more supporters in the United States, among them Erica Payne, Andrew Tobias, Ana María Archila, Jerry Fiddler, Leah Hunt-Hendrix, Nabil Ahmed, Jordan Wood, Kat Abughazaleh, Daniel Biss and signers of the Californians Proud to Pay letter for Proposition 40, and three more in the United Kingdom."},
+      {"kind": "added", "text": "Seven more search runs found websites and accounts for 2,003 supporters."},
+      {"kind": "improved", "text": "The link finder accepts profile pages whose address names the person, and searches again after a rejected answer."}
+    ]
+  },
+  "2026-11-16": {
+    "summary": "Supporters gained official websites and accounts from open data and the first search runs.",
+    "items": [
+      {"kind": "added", "text": "Websites and accounts for supporters from Wikidata, the Assemblée nationale and Câmara dos Deputados open data, Switzerland's Parlament.ch web service, ORCID for economists and academics, and Wikipedia in other languages. Wikidata ids were added for 425 supporters the citizenship check had missed."},
+      {"kind": "added", "text": "The first two search runs found websites and accounts for 600 supporters, and the web search tier added 260 websites and about 680 accounts for organisations."}
+    ]
+  },
   "2026-11-15": {
     "summary": "Algeria joined the countries with a wealth tax in force, seat charts reached 32 more countries, and the Resources page grew to 342 pages.",
     "items": [
