@@ -237,16 +237,16 @@ M0235,pm-us,https://www.nytimes.com/2024/09/24/us/politics/tammy-baldwin-josh-sh
 M0236,pm-us,https://open.spotify.com/episode/6KGyJWDnxjTtrmfZjOk8hI,The Age of Oligarchy,2024-09-23,2026-11-17,new,
 M0237,pm-us,https://www.motherjones.com/politics/2024/09/project-2025-tax-provision-universal-savings-wealth-income-inequality/,This Little-Noticed Project 2025 Provision Could Supercharge Wealth Inequality,2024-09-19,2026-11-17,new,
 M0238,pm-us,https://open.spotify.com/episode/0Kf6o4xtqa1OV6nWiDVfPA,The Great Economy Project: Motivating a Movement (and a Movie),2024-09-16,2026-11-17,new,
-M0239,pm-us,https://thehill.com/opinion/finance/4878389-billionaire-problem-america/,Billionaires started a class war. Americans must fight back.,2024-09-14,2026-11-17,new,
-M0240,pm-us,https://www.motherjones.com/politics/2024/09/kamala-harris-unrealized-capital-gains-tax-plan/,Worried About Kamala Harris’ Plan to Tax Unrealized Capital Gains? Don’t Bother.,2024-09-13,2026-11-17,new,
+M0239,pm-us,https://thehill.com/opinion/finance/4878389-billionaire-problem-america/,Billionaires started a class war. Americans must fight back.,2024-09-14,2026-11-17,reviewed,"Bob Lord (A0874, already grade A) op-ed on billionaire fortunes"
+M0240,pm-us,https://www.motherjones.com/politics/2024/09/kamala-harris-unrealized-capital-gains-tax-plan/,Worried About Kamala Harris’ Plan to Tax Unrealized Capital Gains? Don’t Bother.,2024-09-13,2026-11-17,reviewed,"Harris unrealized gains plan; Bob Lord (A0874, already grade A) quoted"
 M0241,pm-us,https://open.spotify.com/episode/5PrI3cCZeGQ1WFqk0myDrk,Catch Me If You Can: Tax Avoidance Strategies of the Ultra-Rich,2024-09-12,2026-11-17,new,
 M0242,pm-us,https://open.spotify.com/episode/3eHKA1LbDtK5uWxxOPwMVV,Price Gouging v. Inflation,2024-09-11,2026-11-17,new,
 M0243,pm-us,https://open.spotify.com/episode/2kEQtYxzczb4MElQTfF4d8,"Yes, the Economy is rigged against us.",2024-09-09,2026-11-17,new,
-M0244,pm-us,https://fortune.com/2024/09/06/project-2025-rich-pay-tax-again-universal-savings-account-politics/?abc123,Project 2025: Will the rich ever pay tax again?,2024-09-06,2026-11-17,new,
-M0245,pm-us,https://www.politico.com/newsletters/morning-money/2024/09/05/trump-comes-home-to-wall-street-00177451,Trump comes home to Wall Street,2024-09-05,2026-11-17,new,
+M0244,pm-us,https://fortune.com/2024/09/06/project-2025-rich-pay-tax-again-universal-savings-account-politics/?abc123,Project 2025: Will the rich ever pay tax again?,2024-09-06,2026-11-17,skipped,Project 2025 Universal Savings Accounts and income/estate/capital gains rates; no wealth tax
+M0245,pm-us,https://www.politico.com/newsletters/morning-money/2024/09/05/trump-comes-home-to-wall-street-00177451,Trump comes home to Wall Street,2024-09-05,2026-11-17,skipped,Harris realized capital gains tax rate (33% vs 45%); no wealth tax
 M0246,pm-us,https://www.nytimes.com/2024/09/05/business/dealbook/kamala-harris-capital-gains-tax.html,Harris’s Shift on Tax Cheers Her Corporate Backers,2024-09-05,2026-11-17,new,
 M0247,pm-us,https://open.spotify.com/episode/6Glc2vTT2fD9og9WeOU11y,Why you SHOULD take it personally: How Billionaire Wealth is Ruining YOUR Life,2024-08-30,2026-11-17,new,
-M0248,pm-us,https://www.nbcnews.com/business/taxes/harris-plans-tax-unrealized-stock-gains-only-people-100-million-rcna168819,Harris plans to tax unrealized stock gains — but only for people worth $100 million,2024-08-29,2026-11-17,new,
+M0248,pm-us,https://www.nbcnews.com/business/taxes/harris-plans-tax-unrealized-stock-gains-only-people-100-million-rcna168819,Harris plans to tax unrealized stock gains — but only for people worth $100 million,2024-08-29,2026-11-17,used,lead L0062 (Kamala Harris)
 M0249,pm-us,https://open.spotify.com/episode/1GJ1dWkkEAIOEnHO0V3HH8,How Much is Too Much: Excessive Wealth and the $30 Million Success Project,2024-08-27,2026-11-17,new,
 M0250,pm-us,https://open.spotify.com/episode/7oAvWlCFyUSzlpaTVvuNR0,"What is RICH? (and when is $1,000 more than $1,000,000?)",2024-08-26,2026-11-17,new,
 M0251,pm-us,https://www.youtube.com/watch?v=FIknh38H6kQ,The Earl Ingram Show – Morris Pearl Interview,2024-08-26,2026-11-17,new,
@@ -254,12 +254,12 @@ M0252,pm-us,https://www.youtube.com/watch?v=mp-7gMCbIAI,The Maggie Daun Show –
 M0253,pm-us,https://www.bbc.co.uk/sounds/play/w3ct609l?partner=uk.co.bbc&amp;origin=share-mobile,BBC World Business Report,2024-08-06,2026-11-17,new,
 M0254,pm-us,https://www.youtube.com/watch?v=Snjnbl47Xq0,The Earl Ingram Show – Pierre Hollis Interview,2024-08-05,2026-11-17,new,
 M0255,pm-us,https://www.youtube.com/watch?v=f7dKhkWfsUs&amp;t=619s,Former BlackRock exec shares how Trump’s tax plan is a total scam.,2024-07-26,2026-11-17,new,
-M0256,pm-us,https://rollcall.com/2024/07/25/sanders-may-bring-his-populist-brand-to-powerful-finance-panel/,Sanders may bring his populist brand to powerful Finance panel,2024-07-25,2026-11-17,new,
-M0257,pm-us,https://rollcall.com/2024/07/23/klobuchar-staying-put-not-interested-in-menendezs-finance-slot/,"Klobuchar staying put, not interested in Menendez’s Finance slot",2024-07-23,2026-11-17,new,
+M0256,pm-us,https://rollcall.com/2024/07/25/sanders-may-bring-his-populist-brand-to-powerful-finance-panel/,Sanders may bring his populist brand to powerful Finance panel,2024-07-25,2026-11-17,reviewed,Sanders and Senate Finance seat; Morris Pearl (A0536) quoted without naming wealth tax
+M0257,pm-us,https://rollcall.com/2024/07/23/klobuchar-staying-put-not-interested-in-menendezs-finance-slot/,"Klobuchar staying put, not interested in Menendez’s Finance slot",2024-07-23,2026-11-17,reviewed,Menendez Senate Finance seat; Morris Pearl (A0536) quoted without naming wealth tax
 M0258,pm-us,https://www.youtube.com/watch?v=FSPD265ViEU&amp;t=322s,The Earl Ingram Show – Pierre Hollis Interview,2024-07-22,2026-11-17,new,
-M0259,pm-us,https://fortune.com/2024/07/21/joe-biden-exit-presidential-rate-wall-street-business-leaders-reaction-musk-ackman-mark-cuban/,Here’s how Wall Street and business leaders are reacting to Biden’s exit from the presidential race; ‘Father time is undefeated’,2024-07-21,2026-11-17,new,
+M0259,pm-us,https://fortune.com/2024/07/21/joe-biden-exit-presidential-rate-wall-street-business-leaders-reaction-musk-ackman-mark-cuban/,Here’s how Wall Street and business leaders are reacting to Biden’s exit from the presidential race; ‘Father time is undefeated’,2024-07-21,2026-11-17,skipped,business leaders reacting to Biden exiting 2024 race; off topic
 M0260,pm-us,https://www.youtube.com/watch?v=JJUIHj-2u9I,The Maggie Daun Show – Morris Pearl Interview,2024-07-16,2026-11-17,new,
-M0261,pm-us,https://www.nasdaq.com/articles/trump-tax-cuts-are-set-expire-what-means-middle-class-7-battleground-states-if-biden,Trump Tax Cuts Are Set To Expire: What That Means For The Middle Class In 7 Battleground States If Biden Is Reelected,2024-07-16,2026-11-17,new,
+M0261,pm-us,https://www.nasdaq.com/articles/trump-tax-cuts-are-set-expire-what-means-middle-class-7-battleground-states-if-biden,Trump Tax Cuts Are Set To Expire: What That Means For The Middle Class In 7 Battleground States If Biden Is Reelected,2024-07-16,2026-11-17,skipped,2017 TCJA corporate and income tax cuts expiration; no wealth tax
 M0262,pm-us,https://www.youtube.com/watch?v=mcWU-lKjLT4,The Maggie Daun Show – Erica Payne Interview,2024-07-15,2026-11-17,new,
 M0263,pm-us,https://www.youtube.com/watch?v=DWaZW9Rlhxw,The Earl Ingram Show – Morris Pearl Interview,2024-07-08,2026-11-17,new,
 M0264,pm-us,https://www.ft.com/content/9c705186-4ebb-440a-8ccd-db21a5a6c8e1,US gets help from group that supports elections in fragile democracies,2024-06-25,2026-11-17,new,
