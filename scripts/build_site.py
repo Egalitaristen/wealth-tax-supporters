@@ -331,7 +331,9 @@ def build_supranational(folder, full):
     return summary, country
 
 
-RESOURCE_KINDS = ("poll", "paper", "report", "bill")
+RESOURCE_KINDS = ("poll", "paper", "report", "bill", "petition")
+PETITION_STATES = ("open", "closed", "unknown")
+DATE_FULL = re.compile(r"\d{4}-\d{2}-\d{2}$")
 PAGE_KINDS = ("bill", "report", "paper")  # kinds that get their own page at /resources/<slug>
 RESOURCE_RAW = {}  # slug -> the resource's full entry from resources.json, for its page
 POLL_RAW = {}  # slug -> the poll's entry from its country's meta.json, for its page
@@ -385,6 +387,40 @@ def assign_slugs(items):
     return used
 
 
+def check_petition(r, seen_urls):
+    """The build checks for a petition entry in data/resources.json (docs/petitions-spec.md, Build rules). Stops on an error; prints warnings."""
+    t = r.get("title")
+    if r.get("state") not in PETITION_STATES:
+        raise SystemExit(f"resources.json: a petition needs state {list(PETITION_STATES)}: {t!r}")
+    for k in ("checked", "ends", "signatures_as_of", "signal", "published"):
+        if r.get(k) and not (DATE_FULL.match(str(r[k])) if k != "published" else re.match(r"\d{4}(-\d{2}(-\d{2})?)?$", str(r[k]))):
+            raise SystemExit(f"resources.json: petition {k} must be a full YYYY-MM-DD date (published may be YYYY or YYYY-MM): {t!r}")
+    if not r.get("checked"):
+        raise SystemExit(f"resources.json: a petition needs a checked date: {t!r}")
+    for k in ("signatures", "goal"):
+        if k in r and (not isinstance(r[k], int) or isinstance(r[k], bool) or r[k] < 0):
+            raise SystemExit(f"resources.json: petition {k} must be a whole number: {t!r}")
+    if "signatures" in r and not r.get("signatures_as_of"):
+        raise SystemExit(f"resources.json: petition signatures needs signatures_as_of: {t!r}")
+    if r["url"] in seen_urls:
+        raise SystemExit(f"resources.json: petition url used twice: {r['url']}")
+    seen_urls.add(r["url"])
+    today = datetime.date.today()
+    if r["state"] == "open":
+        if r.get("ends") and r["ends"] < today.isoformat():
+            raise SystemExit(f"resources.json: petition ended on {r['ends']} but is still open: {t!r} (set state to closed)")
+        pub = str(r.get("published", ""))
+        if pub:
+            y, m = int(pub[:4]), int(pub[5:7] or 1) if len(pub) >= 7 else 1
+            if (today.year - y) * 12 + today.month - m > 24:
+                print(f"  warning: open petition older than 24 months: {t!r}")
+        elif (today - datetime.date.fromisoformat(r["checked"])).days > 30:
+            print(f"  warning: open petition with no start date, checked more than 30 days ago: {t!r}")
+        host = r["url"].split("/")[2].lower()
+        if (host.endswith("avaaz.org") or host.endswith("change.org")) and not (r.get("signal") or r.get("signatures_as_of")):
+            print(f"  warning: open {host} petition has neither signal nor signatures_as_of: {t!r}")
+
+
 def load_resources(countries, people):
     """Polls (from each country's meta.json) and the papers, reports and bills in data/resources.json, as one list for the Resources page.
     `people` maps (country folder, actor id) to a name, so a resource can link its authors and sponsors to their profiles."""
@@ -397,11 +433,15 @@ def load_resources(countries, people):
                             summary=" · ".join(str(x) for x in (p.get("scope"), p.get("sample")) if x), _poll=p))
     path = DATA / "resources.json"
     raw = []
+    petition_urls = set()
     for r in json.load(open(path, encoding="utf-8")) if path.exists() else []:
         if r.get("kind") not in RESOURCE_KINDS or r["kind"] == "poll":
             raise SystemExit(f"resources.json: bad kind {r.get('kind')!r} in {r.get('title')!r}")
-        if not str(r.get("url", "")).startswith("https://") or not r.get("title") or not r.get("by") or not r.get("published"):
+        pet = r["kind"] == "petition"
+        if not str(r.get("url", "")).startswith("https://") or not r.get("title") or not r.get("by") or (not pet and not r.get("published")):
             raise SystemExit(f"resources.json: needs title, by, published and an https url: {r.get('title')!r}")
+        if pet:
+            check_petition(r, petition_urls)
         if ONLY and r.get("country") != "global" and r.get("country") not in names:
             continue  # preview build: resources of countries that were not built
         if r.get("country") != "global" and r.get("country") not in names:
@@ -409,6 +449,11 @@ def load_resources(countries, people):
         if r["kind"] == "bill" and r.get("state") not in BILL_STATES:
             raise SystemExit(f"resources.json: a bill needs state {sorted(BILL_STATES)}: {r.get('title')!r}")
         row = {k: r[k] for k in ("kind", "country", "title", "by", "published", "url", "summary", "status", "state", "level") if r.get(k)}
+        if pet:  # a petition's state (open, closed, unknown) is not a bill's state; it travels as pstate
+            row["pstate"] = row.pop("state")
+            row["published"] = str(r.get("published", ""))
+            row.update({k: r[k] for k in ("ends", "target", "checked", "signatures_as_of", "signal") if r.get(k)})
+            row.update({k: r[k] for k in ("signatures", "goal") if k in r})
         if r["kind"] in PAGE_KINDS:
             for l in r.get("links", []):
                 if not isinstance(l, dict) or not str(l.get("url", "")).startswith("https://"):
@@ -447,7 +492,7 @@ def load_resources(countries, people):
             raw_r = r.pop("_raw")
             r["slug"] = raw_r["slug"]
             RESOURCE_RAW[r["slug"]] = raw_r
-    out.sort(key=lambda r: (r["published"], r["title"]), reverse=True)
+    out.sort(key=lambda r: (r["published"] or r.get("checked", ""), r["title"]), reverse=True)
     return out
 
 
@@ -1532,8 +1577,8 @@ def share_pages(out, base, countries, full, unique=None, bodies=(), resources=()
           f"The {tot['countries']} countries researched so far, with supporters found and seats in the national chambers.",
           "countries", "Country by country", lambda o: cards.countries_card(o, [(c["slug"], c["name"]) for c in sorted(countries, key=lambda c: -c["supporters"])], "Each one researched separately, with its own map, polls and seats."),
           body=sp.countries_body(countries))
-    write("/resources", "Resources: polls, papers, reports and bills · Wealth Tax Supporters",
-          "Polls, research papers, reports and bills on a wealth tax, from every country in the register and beyond, filterable by place and type.",
+    write("/resources", "Resources: polls, papers, reports, bills and petitions · Wealth Tax Supporters",
+          "Polls, research papers, reports, bills and open petitions on a wealth tax, from every country in the register and beyond, filterable by place and type.",
           "resources", "Resources on a wealth tax", lambda o: cards.resources_card(
               o, [(lab, sum(1 for r in resources if r["kind"] == k)) for k, lab in (("poll", "Polls"), ("paper", "Papers"), ("report", "Reports"), ("bill", "Bills"))],
               [(lab, n) for k, lab in BILL_STATES.items() if (n := sum(1 for r in resources if r["kind"] == "bill" and r.get("state") == k))],

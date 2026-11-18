@@ -427,7 +427,19 @@ async function parliamentsPage(W) {
 }
 
 // Polls, papers, reports and bills, filterable by kind, place and year. The filters live in the query string, so a view can be shared.
-const RES_KIND = {poll: ['Polls', 'Poll'], paper: ['Papers', 'Paper'], report: ['Reports and proposals', 'Report'], bill: ['Bills and laws', 'Bill or law']};
+const RES_KIND = {poll: ['Polls', 'Poll'], paper: ['Papers', 'Paper'], report: ['Reports and proposals', 'Report'], bill: ['Bills and laws', 'Bill or law'], petition: ['Petitions', 'Petition']};
+const PET_STATE = {open: 'Open', closed: 'Closed', unknown: 'Status unclear'};
+// A full date (YYYY-MM-DD) as 3 Mar 2025; a month (YYYY-MM) as Mar 2025.
+const petDate = d => /^\d{4}-\d{2}-\d{2}$/.test(d || '') ? new Date(+d.slice(0, 4), +d.slice(5, 7) - 1, +d.slice(8, 10)).toLocaleString('en-GB', {day: 'numeric', month: 'short', year: 'numeric'}) : pollDate(d);
+// A petition's card: who runs it, who it is addressed to, when it ends, and a link to the page where one signs. The site never collects signatures.
+const petCard = (r, place = true) => `<article class="res res-pet">
+      <div class="res-k"><span class="rk rk-petition">Petition</span><span class="pet-st pet-${esc(r.pstate)}">${esc(PET_STATE[r.pstate] || '')}</span>${place ? `<span>${r.country === 'global' ? esc(r.cname) : `<a href="/${esc(r.country)}">${flag(r.country)}${esc(r.cname)}</a>`}</span>` : ''}${r.level ? `<span>${esc(label(LEVEL, r.level))}</span>` : ''}</div>
+      <h3>${ext(r.url, esc(r.title) + ' ↗')}</h3>
+      <div class="res-by">${esc(r.by)}${r.target ? ` · to ${esc(r.target)}` : ''}</div>
+      ${r.summary ? `<p>${esc(r.summary)}</p>` : ''}
+      <div class="res-st">${r.ends ? `${r.pstate === 'closed' ? 'Ended' : 'Ends'} ${esc(petDate(r.ends))}` : 'No end date stated'} · ${r.published ? `Started ${esc(petDate(r.published))}` : 'No start date stated'}${r.signatures != null ? ` · <span class="pet-n">${fmt(r.signatures)}${r.goal ? ' of ' + fmt(r.goal) : ''} signatures</span> on ${esc(petDate(r.signatures_as_of))}` : ''}</div>
+      <div class="res-st">${r.pstate === 'open' ? ext(r.url, 'Sign the petition ↗', 'btn sm') : ext(r.url, 'See the petition ↗')}${(r.people || []).length ? ` <span class="pet-who"><b>In the register</b> ${resPeople(r.people)}</span>` : ''}</div>
+    </article>`;
 const RES_STATE = {in_force: 'In force', pending: 'Pending', rejected: 'Rejected', lapsed: 'Lapsed', adopted: 'Adopted'};
 // A country's flag, by register folder (the folder is the lower-case ISO code; Australia's is `australia`, and the African Union and `global` have none).
 const flag = slug => { const c = slug === 'australia' ? 'au' : (slug === 'au' || slug === 'global' || !/^[a-z]{2}$/.test(slug || '')) ? '' : slug; return c ? `<img class="flag" src="/flags/${c}.svg" alt="" width="16" height="12" loading="lazy">` : ''; };
@@ -438,7 +450,7 @@ const resPeople = people => {
   if (people.length <= RES_PEOPLE_SHOWN + 3) return people.map(link).join(', ');
   return `${people.slice(0, RES_PEOPLE_SHOWN).map(link).join(', ')}<details class="res-more"><summary>+${fmt(people.length - RES_PEOPLE_SHOWN)} more</summary>${people.slice(RES_PEOPLE_SHOWN).map(link).join(', ')}</details>`;
 };
-const resCard = (r, place = true) => `<article class="res">
+const resCard = (r, place = true) => r.kind === 'petition' ? petCard(r, place) : `<article class="res">
       <div class="res-k"><span class="rk rk-${r.kind}">${esc(RES_KIND[r.kind][1])}</span>${place ? `<span>${r.country === 'global' ? esc(r.cname) : `<a href="/${esc(r.country)}">${flag(r.country)}${esc(r.cname)}</a>`}</span>` : ''}${r.level ? `<span>${esc(label(LEVEL, r.level))}</span>` : ''}<span>${esc(pollDate(r.published))}</span></div>
       ${r.fig ? `<div class="res-fig">${esc(r.fig)}</div>` : ''}
       <h3>${r.slug ? `<a href="/resources/${esc(r.slug)}">${esc(r.title)}</a>` : ext(r.url, esc(r.title) + ' ↗')}</h3>
@@ -482,13 +494,13 @@ async function argumentsPage(key) {
 async function resourcesPage(W) {
   setTitle('Resources');
   const all = W.resources || [], q0 = new URLSearchParams(location.search);
-  const f = {kind: q0.get('kind') || '', country: q0.get('country') || '', year: q0.get('year') || '', state: q0.get('state') || '', level: q0.get('level') || '', q: q0.get('q') || ''};
-  const yearOf = r => String(r.published).slice(0, 4);
+  const f = {kind: q0.get('kind') || '', country: q0.get('country') || '', year: q0.get('year') || '', state: q0.get('state') || '', level: q0.get('level') || '', q: q0.get('q') || '', closed: q0.get('closed') || ''};
+  const yearOf = r => String(r.published || '').slice(0, 4);
   const places = [...new Map(all.map(r => [r.country, r.cname])).entries()].sort((a, b) => (a[0] === 'global') - (b[0] === 'global') || a[1].localeCompare(b[1]));
-  const years = [...new Set(all.map(yearOf))].sort().reverse();
+  const years = [...new Set(all.map(yearOf).filter(Boolean))].sort().reverse();
   const states = Object.keys(RES_STATE).filter(k => all.some(r => r.state === k)), levels = [...new Set(all.map(r => r.level).filter(Boolean))].sort();
-  main.innerHTML = `<div class="wrap page-head fade"><div class="kicker">Polls, papers, reports and bills</div><h1>Resources</h1>
-    <p class="lede" style="margin-top:18px">What the evidence and the legislation say about a wealth tax. Polls are checked against the pollster's own report; papers, reports and bills link to the original. Only material about an actual wealth tax is listed.</p></div>
+  main.innerHTML = `<div class="wrap page-head fade"><div class="kicker">Polls, papers, reports, bills and petitions</div><h1>Resources</h1>
+    <p class="lede" style="margin-top:18px">What the evidence and the legislation say about a wealth tax. Polls are checked against the pollster's own report; papers, reports and bills link to the original. Petitions are open ones you can sign. Only material about an actual wealth tax is listed.</p></div>
     <div class="wrap" style="margin-top:28px;padding-bottom:72px">
       <div class="rtabs" id="rk"></div>
       <div class="rfilters">
@@ -498,18 +510,23 @@ async function resourcesPage(W) {
         <select id="rs" class="field" aria-label="Status of bills"><option value="">Any status</option>${states.map(k => `<option value="${k}">${esc(RES_STATE[k])}</option>`).join('')}</select>
         <select id="rv" class="field" aria-label="Level of government"><option value="">Any level</option>${levels.map(k => `<option value="${esc(k)}">${esc(label(LEVEL, k))}</option>`).join('')}</select>
       </div>
+      <label class="rclosed" id="rcl" hidden><input type="checkbox" id="rcb"> Include closed and unclear petitions</label>
       <div class="rcount" id="rn" aria-live="polite"></div>
       <div class="rlist" id="rl"></div></div>`;
   const kinds = $('#rk'), list = $('#rl'), rq = $('#rq'), rc = $('#rc'), ry = $('#ry'), rs = $('#rs'), rv = $('#rv');
   rq.value = f.q; rc.value = f.country; ry.value = f.year; rs.value = f.state; rv.value = f.level;
   const hit = (r, skip) => (skip === 'kind' || !f.kind || r.kind === f.kind) && (!f.country || r.country === f.country) && (!f.year || yearOf(r) === f.year) && (!f.state || r.state === f.state) && (!f.level || r.level === f.level) &&
-    (!f.q || norm([r.title, r.by, r.cname, r.summary, r.status].join(' ')).includes(norm(f.q)));
+    (r.kind !== 'petition' || r.pstate === 'open' || f.closed === '1') &&
+    (!f.q || norm([r.title, r.by, r.cname, r.summary, r.status, r.target].join(' ')).includes(norm(f.q)));
   const draw = () => {
     const counts = {}; all.filter(r => hit(r, 'kind')).forEach(r => { counts[r.kind] = (counts[r.kind] || 0) + 1; });
     const tot = Object.values(counts).reduce((a, b) => a + b, 0);
     kinds.innerHTML = `<button type="button" class="chip${f.kind ? '' : ' on'}" data-k="">All <b>${tot}</b></button>` +
       Object.entries(RES_KIND).map(([k, [pl]]) => `<button type="button" class="chip${f.kind === k ? ' on' : ''}" data-k="${k}">${pl} <b>${counts[k] || 0}</b></button>`).join('');
     const rows = all.filter(r => hit(r));
+    // Petitions: open ones first; then the soonest end date, then newest start (or last check); those with no end date follow.
+    if (f.kind === 'petition') rows.sort((a, b) => ((a.pstate !== 'open') - (b.pstate !== 'open')) || (!a.ends - !b.ends) || String(a.ends || '').localeCompare(String(b.ends || '')) || String(b.published || b.checked || '').localeCompare(String(a.published || a.checked || '')));
+    $('#rcl').hidden = f.kind !== 'petition'; $('#rcb').checked = f.closed === '1';
     $('#rn').textContent = `${rows.length} ${rows.length === 1 ? 'resource' : 'resources'}`;
     list.innerHTML = rows.map(r => resCard(r)).join('') || '<div class="rempty">Nothing matches these filters.</div>';
     const u = new URLSearchParams(Object.entries(f).filter(([, v]) => v)).toString();
@@ -521,6 +538,7 @@ async function resourcesPage(W) {
   ry.addEventListener('change', () => { f.year = ry.value; draw(); });
   rs.addEventListener('change', () => { f.state = rs.value; draw(); });
   rv.addEventListener('change', () => { f.level = rv.value; draw(); });
+  $('#rcb').addEventListener('change', e => { f.closed = e.target.checked ? '1' : ''; draw(); });
   draw();
 }
 
@@ -1141,7 +1159,7 @@ function timeSection(box, D, slug, S) {
 }
 
 async function methodSection(box, D, slug) {
-  const W = await WORLD(), docs = (W.resources || []).filter(r => r.country === slug && r.kind !== 'poll');
+  const W = await WORLD(), docs = (W.resources || []).filter(r => r.country === slug && r.kind !== 'poll' && r.kind !== 'petition');
   const m = D.meta, sup = D.places.filter(p => p.mapped && p.ids.length).length;
   box.innerHTML = `<section class="c-sec">
     ${(m.polls || []).length ? `<div id="polls" style="margin-bottom:48px">
