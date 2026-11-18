@@ -1686,6 +1686,7 @@ def share_pages(out, base, countries, full, unique=None, bodies=(), resources=()
 
     for c in countries:
         D, slug, name = full[c["slug"]], c["slug"], c["name"]
+        open_petitions = [r for r in resources if r["kind"] == "petition" and r["country"] == slug and r.get("pstate") == "open"]
         mx = max([len(u[6]) for u in D["C"]] or [1]) or 1
         mx_up = max([u[9] for u in D["C"]] or [1]) or 1
         # The same shading as the site map: real supporters from 0.42 up, areas known only through the level above
@@ -1761,12 +1762,12 @@ def share_pages(out, base, countries, full, unique=None, bodies=(), resources=()
                 for path in (f"/{slug}", f"/{slug}/story"):
                     write(path, f"{title} · Wealth Tax Supporters", desc, slug + "-story", f"{title}: a country story",
                           lambda o, cc=cc, st=st, units=units: cards.story_card(o, cc, units, st["title"], st["standfirst"], figure=(st["card_figure"], st["card_label"]) if st.get("card_figure") and st.get("card_label") else None),
-                          body=sp.story_body(c, st, the(name)))
+                          body=sp.story_body(c, st, the(name), open_petitions))
                 continue
             write(f"/{slug}" + (f"/{sec}" if sec else ""), f"{title} · Wealth Tax Supporters", desc, slug + (f"-{sec}" if sec else ""),
                   f"{title}: {c['supporters']:,} found so far",
                   lambda o, cc=cc, kicker=kicker, sub=sub: cards.country_card(o, cc, units, kicker, sub),
-                  body=sp.country_body(c, D, the(name)) if sec in ("", "map") else None)
+                  body=sp.country_body(c, D, the(name), petitions=open_petitions) if sec in ("", "map") else None)
         # one page per supporter
         ev_by = collections.defaultdict(list)
         for e in D["E"]:

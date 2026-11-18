@@ -431,6 +431,17 @@ const RES_KIND = {poll: ['Polls', 'Poll'], paper: ['Papers', 'Paper'], report: [
 const PET_STATE = {open: 'Open', closed: 'Closed', unknown: 'Status unclear'};
 // A full date (YYYY-MM-DD) as 3 Mar 2025; a month (YYYY-MM) as Mar 2025.
 const petDate = d => /^\d{4}-\d{2}-\d{2}$/.test(d || '') ? new Date(+d.slice(0, 4), +d.slice(5, 7) - 1, +d.slice(8, 10)).toLocaleString('en-GB', {day: 'numeric', month: 'short', year: 'numeric'}) : pollDate(d);
+// The "Take action" box in a country's overview (to the right of "Who they are"): that country's open petitions, soonest end date first, then the
+// ones with the most signatures. Two are shown, the rest behind a link. Empty string when the country has none, so the overview keeps its three boxes.
+// A global or supranational petition is not a country's; it stays on /resources.
+const PET_BOX_SHOWN = 2;
+const countryPetitions = (slug, all) => all.filter(r => r.kind === 'petition' && r.pstate === 'open' && r.country === slug)
+  .sort((a, b) => (!a.ends - !b.ends) || String(a.ends || '').localeCompare(String(b.ends || '')) || (b.signatures || 0) - (a.signatures || 0));
+const petBox = (slug, pets) => !pets.length ? '' : `<div class="ov ov-act">
+        <div class="kicker">Take action</div>
+        <ul class="ov-pets">${pets.slice(0, PET_BOX_SHOWN).map(r => `<li>${ext(r.url, esc(r.title) + ' ↗')}<span>${esc(r.by)}${r.signatures != null ? ` · ${fmt(r.signatures)} signatures` : ''}</span></li>`).join('')}</ul>
+        <div class="ov-foot"><a href="/resources?kind=petition&country=${enc(slug)}">${pets.length > PET_BOX_SHOWN ? `See all ${fmt(pets.length)} open petitions` : `${pets.length === 1 ? 'Petition' : 'Petitions'} on the Resources page`} →</a></div>
+      </div>`;
 // A petition's card: who runs it, who it is addressed to, when it ends, and a link to the page where one signs. The site never collects signatures.
 const petCard = (r, place = true) => `<article class="res res-pet">
       <div class="res-k"><span class="rk rk-petition">Petition</span><span class="pet-st pet-${esc(r.pstate)}">${esc(PET_STATE[r.pstate] || '')}</span>${place ? `<span>${r.country === 'global' ? esc(r.cname) : `<a href="/${esc(r.country)}">${flag(r.country)}${esc(r.cname)}</a>`}</span>` : ''}${r.level ? `<span>${esc(label(LEVEL, r.level))}</span>` : ''}</div>
@@ -860,6 +871,7 @@ async function countryPage(slug, params, section) {
   // A country with a story opens on it (/xx and /xx/story); its map is then /xx/map. Without a story the map is the landing page.
   const home = m.story ? 'story' : 'map';
   if (!section || (section === 'story' && !m.story)) section = home;
+  const pets = !m.supranational && section === 'map' ? countryPetitions(slug, (await WORLD()).resources || []) : [];
   const ST = section === 'story' ? await getJSON(`/data/story-${slug}.json`) : null;
   if (section === 'seats' && !(D.legis || []).length) section = 'map';
   if (m.supranational && !['seats', 'directory'].includes(section)) section = 'seats';
@@ -885,7 +897,7 @@ async function countryPage(slug, params, section) {
         ${m.supranational ? '' : `<a href="${m.story ? base + '/map' : base}"><b>${fmt(m.units_with_supporters)}</b><span>local areas with a public supporter found</span></a>`}
       </div>
     </div>`}
-    ${section === 'map' ? overviewHtml(D, S, base) : ''}
+    ${section === 'map' ? overviewHtml(D, S, base, petBox(slug, pets)) : ''}
   </div>
   <nav class="c-tabs" aria-label="${esc(m.name)} pages"><div class="wrap">
     ${m.story ? tab('story', base, 'the case in one read') : ''}
@@ -1101,7 +1113,7 @@ function bodyHtml(b, person, slug) {
     <svg class="hemi" viewBox="0 0 ${W} ${H}" role="img" aria-label="${esc(b.name)}: ${lit} of ${b.seats} seats held by a supporter found so far">${dots}</svg>
     <div class="sps">${rows}</div></div>`;
 }
-function overviewHtml(D, S, base) {
+function overviewHtml(D, S, base, act = '') {
   const {perYear, years} = S;
   const span = years.slice(-10), yMax = Math.max(1, ...span.map(y => perYear[y]));
   const peak = years.reduce((a, y) => perYear[y] > (perYear[a] || 0) ? y : a, years[0]);
@@ -1109,7 +1121,7 @@ function overviewHtml(D, S, base) {
     const h = Math.max(1.5, perYear[y] / yMax * 40); return `<rect x="${i * 12 + 1.5}" y="${44 - h}" width="9" height="${h}"${y === peak ? ' class="pk"' : ''}><title>${y}: ${perYear[y]}</title></rect>`; }).join('')}</svg>
     <div class="spark-x"><span>${span[0]}</span><span>${span[span.length - 1]}</span></div>` : '';
   const topDes = S.designs.slice(0, 3), desMax = topDes.length ? topDes[0][1] : 1;
-  return `<div class="c-overview">
+  return `<div class="c-overview${act ? ' has-act' : ''}">
       <a class="ov" href="${base}/time">
         <div class="kicker">Statements per year</div>
         ${spark}
@@ -1122,7 +1134,7 @@ function overviewHtml(D, S, base) {
       <div class="ov">
         <div class="kicker">Who they are</div>
         <div class="ov-chips">${S.types.slice(0, 5).map(([k, v]) => `<a class="chip" href="${base}/directory?type=${enc(k)}">${esc(label(TYPES_PL, k))} <b>${fmt(v)}</b></a>`).join('')}</div>
-      </div>
+      </div>${act}
     </div>`;
 }
 
