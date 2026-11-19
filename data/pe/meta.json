@@ -4,5 +4,20 @@
   "lead": "",
   "status": "in progress",
   "boundaries": "boundaries.json",
-  "notes": "Seed research in progress. District map uses OCHA/IGN 2020 boundaries reviewed in 2025: 1,872 matched districts; 21 districts in the 2026 register have no individual shape, and one unmatched composite is omitted. Parliamentary seat figures reflect official roster entries on 28 October 2026, including entries with an empty or elected status."
+  "notes": "Seed research in progress. District map uses OCHA/IGN 2020 boundaries reviewed in 2025: 1,872 matched districts; 21 districts in the 2026 register have no individual shape, and one unmatched composite is omitted. Parliamentary seat figures reflect official roster entries on 28 October 2026, including entries with an empty or elected status.",
+  "polls": [
+    {
+      "support": 73.2,
+      "oppose": 22.2,
+      "scope": "Voting-eligible population aged 18+ in Peru, urban and rural (36 localities across 17 departments plus Lima and Callao)",
+      "question": "Creating special taxes on the great fortunes of the country (whether respondents consider it a right economic measure for Peru)",
+      "question_original": "A continuación le voy a leer posibles medidas económicas para que me diga si Ud. considera que serían medidas correctas para Perú o no: Crear impuestos especiales a las grandes fortunas del país",
+      "pollster": "CELAG (Centro Estratégico Latinoamericano de Geopolítica)",
+      "commissioned_by": "",
+      "fieldwork": "2020-11-14 to 2020-12-07",
+      "sample": "2,111 adults (18+)",
+      "published": "2020-12-11",
+      "url": "https://www.celag.org/wp-content/uploads/2020/12/encuesta-celag-peru-web.pdf"
+    }
+  ]
 }
