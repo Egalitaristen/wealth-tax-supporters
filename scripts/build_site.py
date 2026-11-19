@@ -639,15 +639,34 @@ FEATURE_TYPES = ["economist", "wealthy_individual", "campaigner", "journalist", 
                  "academic", "business_leader", "cultural_figure", "legal_tax_professional", "faith"]
 
 
+FEATURE_THIRD_PERSON = re.compile(
+    r"\b(has|have|had) (proposed|called|said|argued|suggested|put forward)\b"
+    r"|^The [^.,]{0,40}\b(politician|leader|party|economist|candidate|senator|deputy|minister|activist|group)\b[^.]{0,40}\b(proposes?|proposed|wants?|says?|said|argues?|calls?)\b"
+    r"|^(According to|In (a|an|his|her) (interview|statement))", re.I)
+
+
+def featured_skip():
+    """Evidence ids kept off the home page by hand (data/featured_skip.txt, one `<iso2>:<evidence id>` per line, lower case, for example `no:E00027`, # comments allowed): a quote that is
+    correct and graded A but reads as an aside without its context."""
+    path = DATA / "featured_skip.txt"
+    if not path.exists():
+        return set()
+    return {l.split("#")[0].strip() for l in path.read_text(encoding="utf-8").splitlines() if l.split("#")[0].strip()}
+
+
 def featured(P, ev, iso2=""):
-    """A few short, explicit quotes from named people for the home page, spread across types."""
+    """Short, explicit quotes from named people for the home page, spread across types. Each row: id, name, type, role, quote, url, publisher, date,
+    quote language, English line (empty for English). The home page picks six of them per day (see home() in site/app.js)."""
     people = {p[0]: p for p in P if p[2] == "person"}
+    skipped = featured_skip()
     spoken = {"speech", "op_ed", "statement", "interview", "social_post", "testimony", "publication", "editorial", "campaign"}
     best = {}
     for e in ev:
         p = people.get(e["actor_id"])
         q = re.sub(r"\s+", " ", e["quote_original"]).strip()
         if not p or e["grade"] != "A" or not (70 <= len(q) <= 230) or not e["source_url"].startswith("http"):
+            continue
+        if f"{iso2.lower()}:{e['evidence_id']}" in skipped:
             continue
         home, multi = people_home()
         if p[18] in multi and home.get(p[18]) != iso2.upper():  # quote people only for their own country
@@ -660,7 +679,18 @@ def featured(P, ev, iso2=""):
             continue
         score = (len(p[17]) > 0, p[3] != "politician" or p[6] == "national", e["date"])
         if e["actor_id"] not in best or score > best[e["actor_id"]][0]:
-            best[e["actor_id"]] = (score, [p[0], p[1], p[3], p[4][:90], q, e["source_url"], e["publisher"], e["date"]])
+            lang = (e.get("quote_lang") or "").strip().lower()
+            en = re.sub(r"\s+", " ", e.get("quote_en") or "").strip() if lang not in ("", "en") else ""
+            # A quote that never mentions wealth, billionaires, millionaires, fortunes or the rich reads as an aside on its own (a technical remark about
+            # a valuation, say), so it is not featured; the English line is what a visitor reads, so that is the text checked.
+            if not re.search(r"wealth|billionaire|millionaire|fortune|net worth|\brich", en or q, re.I):
+                continue
+            # ...and one that narrates the person from outside ("The PDT politician has proposed...", "According to the study...") is not their own voice;
+            # the original-language check above cannot see that, the English line can.
+            if FEATURE_THIRD_PERSON.search(en or q):
+                continue
+            # a quote in another language travels with its English line (every such quote in the register has one); the home page shows both
+            best[e["actor_id"]] = (score, [p[0], p[1], p[3], p[4][:90], q, e["source_url"], e["publisher"], e["date"], lang, en])
     by_type = collections.defaultdict(list)
     for score, row in sorted(best.values(), key=lambda x: x[0], reverse=True):
         by_type[row[2]].append(row)
