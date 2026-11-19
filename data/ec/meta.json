@@ -4,5 +4,20 @@
   "lead": "Egalitaristen",
   "status": "in progress",
   "boundaries": "boundaries.json",
-  "notes": "Seed pass (national level, no provincial or cantonal sweep). Register: 24 provincias and 221 cantones (INEC Clasificador Geográfico Estadístico codes, read from an ArcGIS republication of the INEC list; the three zonas no delimitadas are not loaded). Map: geoBoundaries gbOpen ECU ADM2 (INEC and OCHA ROLAC, 2019, CC BY 3.0 IGO) and ADM1 (CC0); the HDX COD-AB Ecuador files could not be fetched (HDX answers scripts with a bot challenge, which is not bypassed). Ecuador has taxed net wealth twice, both one-off: the 2016 earthquake contribution (Correa) and the 2021 temporary contribution (Lasso); both lapsed. No seats adapter."
+  "notes": "Seed pass (national level, no provincial or cantonal sweep). Register: 24 provincias and 221 cantones (INEC Clasificador Geográfico Estadístico codes, read from an ArcGIS republication of the INEC list; the three zonas no delimitadas are not loaded). Map: geoBoundaries gbOpen ECU ADM2 (INEC and OCHA ROLAC, 2019, CC BY 3.0 IGO) and ADM1 (CC0); the HDX COD-AB Ecuador files could not be fetched (HDX answers scripts with a bot challenge, which is not bypassed). Ecuador has taxed net wealth twice, both one-off: the 2016 earthquake contribution (Correa) and the 2021 temporary contribution (Lasso); both lapsed. No seats adapter.",
+  "polls": [
+    {
+      "support": 75.6,
+      "oppose": 22.2,
+      "scope": "Population aged 16+ in Ecuador, urban and rural (50 localities across 17 provinces)",
+      "question": "Charging extra taxes on the great fortunes of the country",
+      "question_original": "¿Ud. estaría de acuerdo con que se cobren impuestos extra a las grandes fortunas del país?",
+      "pollster": "CELAG (Centro Estratégico Latinoamericano de Geopolítica)",
+      "commissioned_by": "",
+      "fieldwork": "2020-07-13 to 2020-08-01",
+      "sample": "2,025 respondents (16+)",
+      "published": "2020-08-04",
+      "url": "https://www.celag.org/wp-content/uploads/2020/08/informe-ecuador-iii-jul20-web-v3.pdf"
+    }
+  ]
 }
