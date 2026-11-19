@@ -426,6 +426,34 @@ async function parliamentsPage(W) {
   drawWorld(W, {seats: true}).then(stop => { stopWorld = stop; });
 }
 
+// The six quotes on the home page. The set changes once a day (UTC) and is the same for every visitor that day: the day's date seeds a shuffle
+// of the countries that have quotes, and each country gives one of its quotes. At most one person and one quote each, no more than two of a
+// person type, and at least one quote that was written in English.
+function dailyQuotes(cs, day = new Date().toISOString().slice(0, 10), n = 6) {
+  let h = 1779033703 ^ day.length;
+  for (let i = 0; i < day.length; i++) { h = Math.imul(h ^ day.charCodeAt(i), 3432918353); h = h << 13 | h >>> 19; }
+  let a = h >>> 0;
+  const rnd = () => { a = a + 1831565813 | 0; let t = Math.imul(a ^ a >>> 15, 1 | a); t = t + Math.imul(t ^ t >>> 7, 61 | t) ^ t; return ((t ^ t >>> 14) >>> 0) / 4294967296; };
+  const shuffle = xs => { const o = xs.slice(); for (let i = o.length - 1; i > 0; i--) { const j = Math.floor(rnd() * (i + 1)); [o[i], o[j]] = [o[j], o[i]]; } return o; };
+  const picked = [], names = new Set(), quotes = new Set(), types = {};
+  const take = (c, f) => { names.add(norm(f[1])); quotes.add(norm(f[4])); types[f[2]] = (types[f[2]] || 0) + 1; picked.push([c, f]); };
+  const ok = f => !names.has(norm(f[1])) && !quotes.has(norm(f[4])) && (types[f[2]] || 0) < 2;
+  const english = f => !f[9];
+  const pool = shuffle(cs.filter(c => (c.featured || []).length));
+  for (const c of pool) {
+    if (picked.length >= n) break;
+    const f = shuffle(c.featured).find(ok);
+    if (f) take(c, f);
+  }
+  if (picked.length && !picked.some(([, f]) => english(f))) {  // swap the last pick for an English-language quote from another country
+    for (const c of pool) {
+      if (picked.some(([pc]) => pc === c)) continue;
+      const f = shuffle(c.featured).find(x => english(x) && !names.has(norm(x[1])) && !quotes.has(norm(x[4])));
+      if (f) { picked.pop(); take(c, f); break; }
+    }
+  }
+  return picked;
+}
 // Polls, papers, reports and bills, filterable by kind, place and year. The filters live in the query string, so a view can be shared.
 const RES_KIND = {poll: ['Polls', 'Poll'], paper: ['Papers', 'Paper'], report: ['Reports and proposals', 'Report'], bill: ['Bills and laws', 'Bill or law'], petition: ['Petitions', 'Petition']};
 const PET_STATE = {open: 'Open', closed: 'Closed', unknown: 'Status unclear'};
@@ -563,11 +591,7 @@ async function home(W) {
   // One count per person: the same Wikidata id on several registers is one person, as in the directory.
   if (W.types) { Object.assign(types, W.types); Object.assign(designs, W.designs || {}); }
   else cs.forEach(c => { Object.entries(c.types || {}).forEach(([k, v]) => types[k] = (types[k] || 0) + v); Object.entries(c.designs || {}).forEach(([k, v]) => designs[k] = (designs[k] || 0) + v); });
-  // Interleave featured quotes across countries, one per person.
-  const feats = [], used = new Set(), lists = cs.map(c => (c.featured || []).map(f => [c, f]));
-  for (let i = 0; feats.length < 6 && lists.some(l => l[i]); i++) lists.forEach(l => {
-    if (l[i] && feats.length < 6 && !used.has(norm(l[i][1][1])) && !used.has(norm(l[i][1][4]))) { used.add(norm(l[i][1][1])); used.add(norm(l[i][1][4])); feats.push(l[i]); }
-  });
+  const feats = dailyQuotes(cs);
   const bars = (obj, labels, link) => {
     const rows = Object.entries(obj).sort((a, b) => b[1] - a[1]).slice(0, 9), mx = rows[0] ? rows[0][1] : 1;
     return rows.map(([k, v]) => `<div class="hb"><span>${esc(label(labels, k))}</span><span class="hb-bar"><i style="width:${(v / mx * 100).toFixed(1)}%"></i></span><span class="n">${fmt(v)}</span></div>`).join('');
@@ -638,6 +662,7 @@ async function home(W) {
     <div class="quotes">${feats.map(([c, f]) => `
       <figure class="quote" style="margin:0">
         <blockquote>${esc(f[4])}</blockquote>
+        ${f[9] ? `<p class="quote-en" lang="en">${esc(f[9])}</p>` : ''}
         <figcaption class="who"><div><a class="name" href="/${c.slug}/${enc(f[0])}">${esc(f[1])}</a><span>${esc(label(TYPE, f[2]))} · ${flag(c.slug)}${esc(c.name)}${f[7] ? ' · ' + esc(year(f[7])) : ''}</span></div>
           ${safeUrl(f[5]) ? ext(f[5], 'Source ↗', 'src') : ''}</figcaption>
       </figure>`).join('')}</div>

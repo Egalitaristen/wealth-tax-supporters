@@ -1,0 +1,3 @@
+# Evidence rows kept off the home page's "In their own words" (the row stays on the register). One `<iso2>:<evidence id>` per line.
+no:E00027  # Guttorm Schjelderup: a technical remark on how an analysis treats the wealth tax; reads as an aside on its own
+no:E00028  # the same quote, signed by the co-author
