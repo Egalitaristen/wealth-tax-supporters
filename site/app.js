@@ -1542,7 +1542,15 @@ async function personPage(slug, id) {
   // Others in the same, most specific area.
   const mine = D.places.filter(pl => pl.ids.includes(id) && pl.path.includes(' > ')).sort((a, b) => b.path.length - a.path.length)[0];
   const near = mine ? [...idsForPlace(D, mine.path)].filter(i => i !== id).map(i => D.byId[i]).filter(Boolean).sort(byStrength).slice(0, 8) : [];
-  const links = D.L.filter(l => l[0] === id || l[1] === id).map(l => [D.byId[l[0] === id ? l[1] : l[0]], l]).filter(x => x[0]);
+  // Linked entries carry each entry's own description (type and role, as in Nearby), not the wording of the link. Leaders and staff come first.
+  // A person's own party is already a tag at the top of their page, so that link is not listed again.
+  const LINK_ORDER = ['leads', 'works_for', 'founded', 'funds', 'member_of', 'coalition_partner', 'co_author', 'co_signatory', 'party_of'];
+  const links = D.L.filter(l => (l[0] === id || l[1] === id) && !(l[2] === 'party_of' && l[0] === id)).map(l => [D.byId[l[0] === id ? l[1] : l[0]], l]).filter(x => x[0])
+    .sort((a, b) => LINK_ORDER.indexOf(a[1][2]) - LINK_ORDER.indexOf(b[1][2]));
+  // The type is dropped when the role already begins with it ("Think tank · Think tank / research unit").
+  const linkDesc = q => { const t = label(TYPE, q[P_.type]), r = q[P_.role] || ''; return r && norm(r).startsWith(norm(t)) ? r : [t, r].filter(Boolean).join(' · '); };
+  const linkRow = ([q]) => `<a href="/${slug}/${enc(q[P_.id])}">${esc(q[P_.name])}<span>${esc(linkDesc(q))}</span></a>`;
+  const LINKS_SHOWN = 12;
   const firstY = year(p[P_.first]), lastY = year(p[P_.last]);
   main.innerHTML = `
   <div class="wrap fade">
@@ -1572,7 +1580,8 @@ async function personPage(slug, id) {
           <div class="mini">${near.map(q => `<a href="/${slug}/${enc(q[P_.id])}">${glyph(q[P_.grade])}&nbsp; ${esc(q[P_.name])}<span>${esc([label(TYPE, q[P_.type]), q[P_.role]].filter(Boolean).join(' · '))}</span></a>`).join('')}</div>
           <p style="margin-top:14px;font-size:14px"><a href="/${slug}/directory?place=${enc(mine.path)}">See everyone in ${esc(mine.name)} →</a></p></div>` : ''}
         ${links.length ? `<div class="nearby"><div class="kicker">Connections</div><h3>Linked entries</h3>
-          <div class="mini">${links.map(([q, l]) => `<a href="/${slug}/${enc(q[P_.id])}">${esc(q[P_.name])}<span>${esc(label({}, l[2]))}${l[3] ? ' · ' + esc(l[3]) : ''}</span></a>`).join('')}</div></div>` : ''}
+          <div class="mini linked">${links.slice(0, LINKS_SHOWN).map(linkRow).join('')}</div>
+          ${links.length > LINKS_SHOWN ? `<details class="res-more"><summary>+${fmt(links.length - LINKS_SHOWN)} more</summary><div class="mini linked">${links.slice(LINKS_SHOWN).map(linkRow).join('')}</div></details>` : ''}</div>` : ''}
       </div>
     </div>
   </div>`;
