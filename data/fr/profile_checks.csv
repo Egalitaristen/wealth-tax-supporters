@@ -1293,3 +1293,83 @@ K01291,A0050,own_site,https://www.leabem.fr/,2026-11-17,found,facebook;youtube,"
 K01292,A0428,manual_search,https://cv.hal.science/michael-zemmour,2026-11-17,found,official_page,"Found via search_web; 200 OK, H1 'Michaël Zemmour', confirms affiliation with TRIANGLE (Université Lumière Lyon 2)."
 K01293,A0529,manual_search,,2026-11-17,none,,Searched name + colombes.fr; no personal website found and colombes.fr returned 418 with no individual profile URL in search.
 K01294,A0428,own_site,https://cv.hal.science/michael-zemmour,2026-11-17,none,,
+K01295,A0567,wikipedia,https://en.wikipedia.org/wiki/Fran%C3%A7ois_Alfonsi,2026-11-20,none,,
+K01296,A0569,wikipedia,https://en.wikipedia.org/wiki/M%C3%A9lissa_Camara,2026-11-20,none,,
+K01297,A0573,wikipedia,https://en.wikipedia.org/wiki/Christophe_Clergeau,2026-11-20,none,,
+K01298,A0574,wikipedia,https://en.wikipedia.org/wiki/David_Cormand,2026-11-20,none,,
+K01299,A0575,wikipedia,https://en.wikipedia.org/wiki/Gwendoline_Delbos-Corfield,2026-11-20,none,,
+K01300,A0578,wikipedia,https://en.wikipedia.org/wiki/Claire_Fita,2026-11-20,none,,
+K01301,A0579,wikipedia,https://en.wikipedia.org/wiki/Emma_Fourreau,2026-11-20,none,,
+K01302,A0582,wikipedia,https://en.wikipedia.org/wiki/Sylvie_Guillaume,2026-11-20,found,website,
+K01303,A0587,wikipedia,https://en.wikipedia.org/wiki/Pierre_Larrouturou,2026-11-20,none,,
+K01304,A0588,wikipedia,https://en.wikipedia.org/wiki/Lydie_Massard,2026-11-20,none,,
+K01305,A0589,wikipedia,https://en.wikipedia.org/wiki/Nora_Mebarek,2026-11-20,found,website,
+K01306,A0592,wikipedia,https://en.wikipedia.org/wiki/Max_Orville,2026-11-20,none,,
+K01307,A0594,wikipedia,https://en.wikipedia.org/wiki/Anne-Sophie_Pelletier,2026-11-20,none,,
+K01308,A0595,wikipedia,https://en.wikipedia.org/wiki/Emma_Rafowicz,2026-11-20,none,,
+K01309,A0597,wikipedia,https://en.wikipedia.org/wiki/Arash_Saeidi,2026-11-20,none,,
+K01310,A0598,wikipedia,https://en.wikipedia.org/wiki/%C3%89ric_Sargiacomo,2026-11-20,none,,
+K01311,A0599,wikipedia,https://en.wikipedia.org/wiki/Mounir_Satouri,2026-11-20,none,,
+K01312,A0600,wikipedia,https://en.wikipedia.org/wiki/Majdouline_Sba%C3%AF,2026-11-20,none,,
+K01313,A0601,wikipedia,https://en.wikipedia.org/wiki/Anthony_Smith_%28French_politician%29,2026-11-20,none,,
+K01314,A0602,wikipedia,https://en.wikipedia.org/wiki/Fran%C3%A7ois_Thiollet,2026-11-20,none,,
+K01315,A0603,wikipedia,https://en.wikipedia.org/wiki/Ir%C3%A8ne_Tolleret,2026-11-20,none,,
+K01316,A0604,wikipedia,https://en.wikipedia.org/wiki/Salima_Yenbou,2026-11-20,none,,
+K01317,A0567,wikipedia_langs,,2026-11-20,none,,no official website in the articles in other languages
+K01318,A0569,wikipedia_langs,,2026-11-20,none,,no official website in the articles in other languages
+K01319,A0573,wikipedia_langs,,2026-11-20,none,,no official website in the articles in other languages
+K01320,A0574,wikipedia_langs,,2026-11-20,none,,no official website in the articles in other languages
+K01321,A0575,wikipedia_langs,,2026-11-20,none,,no official website in the articles in other languages
+K01322,A0578,wikipedia_langs,,2026-11-20,none,,no official website in the articles in other languages
+K01323,A0579,wikipedia_langs,,2026-11-20,none,,no official website in the articles in other languages
+K01324,A0587,wikipedia_langs,,2026-11-20,none,,no official website in the articles in other languages
+K01325,A0588,wikipedia_langs,,2026-11-20,none,,no official website in the articles in other languages
+K01326,A0592,wikipedia_langs,,2026-11-20,none,,no official website in the articles in other languages
+K01327,A0594,wikipedia_langs,https://de.wikipedia.org/wiki/Anne-Sophie_Pelletier,2026-11-20,found,website,
+K01328,A0595,wikipedia_langs,,2026-11-20,none,,no official website in the articles in other languages
+K01329,A0597,wikipedia_langs,,2026-11-20,none,,no official website in the articles in other languages
+K01330,A0598,wikipedia_langs,,2026-11-20,none,,no official website in the articles in other languages
+K01331,A0599,wikipedia_langs,,2026-11-20,none,,no official website in the articles in other languages
+K01332,A0600,wikipedia_langs,,2026-11-20,none,,no official website in the articles in other languages
+K01333,A0601,wikipedia_langs,,2026-11-20,none,,no official website in the articles in other languages
+K01334,A0602,wikipedia_langs,,2026-11-20,none,,no official website in the articles in other languages
+K01335,A0603,wikipedia_langs,,2026-11-20,none,,no official website in the articles in other languages
+K01336,A0604,wikipedia_langs,,2026-11-20,none,,no official website in the articles in other languages
+K01337,A0567,own_site,https://www.europarl.europa.eu/meps/en/96750,2026-11-20,blocked,,403 at https://www.europarl.europa.eu/meps/en/96750
+K01338,A0568,own_site,https://www.eric-andrieu.eu/,2026-11-20,none,,403 at https://www.europarl.europa.eu/meps/en/113892
+K01339,A0569,own_site,https://www.europarl.europa.eu/meps/en/256915,2026-11-20,blocked,,403 at https://www.europarl.europa.eu/meps/en/256915
+K01340,A0570,own_site,https://www.pascalcanfin.fr,2026-11-20,none,,403 at https://www.europarl.europa.eu/meps/en/96711
+K01341,A0571,own_site,https://damiencareme.fr,2026-11-20,found,youtube;bluesky,403 at https://www.europarl.europa.eu/meps/en/197574; already listed: instagram
+K01342,A0572,own_site,https://leilachaibi.fr/,2026-11-20,found,tiktok;youtube,"403 at https://www.europarl.europa.eu/meps/en/197529; not added: facebook https://www.facebook.com/LeilaChaibiFI (chrome); already listed: instagram,bluesky,x"
+K01343,A0573,own_site,https://www.europarl.europa.eu/meps/en/245018,2026-11-20,blocked,,403 at https://www.europarl.europa.eu/meps/en/245018
+K01344,A0574,own_site,https://www.europarl.europa.eu/meps/en/197503,2026-11-20,blocked,,403 at https://www.europarl.europa.eu/meps/en/197503
+K01345,A0575,own_site,https://www.europarl.europa.eu/meps/en/197531,2026-11-20,blocked,,403 at https://www.europarl.europa.eu/meps/en/197531
+K01346,A0576,own_site,https://karimadelli.fr/,2026-11-20,none,,403 at https://www.europarl.europa.eu/meps/en/96868
+K01347,A0577,own_site,https://www.pascal-durand.eu,2026-11-20,blocked,,URLError: <urlopen error [Errno 11001] getaddrinfo failed> 403 at https://www.europarl.europa.eu/meps/en/124693
+K01348,A0578,own_site,https://www.europarl.europa.eu/meps/en/256906,2026-11-20,blocked,,403 at https://www.europarl.europa.eu/meps/en/256906
+K01349,A0579,own_site,https://www.europarl.europa.eu/meps/en/256913,2026-11-20,blocked,,403 at https://www.europarl.europa.eu/meps/en/256913
+K01350,A0580,own_site,https://jeanmarcgermain.fr/,2026-11-20,blocked,,URLError: <urlopen error [Errno 11001] getaddrinfo failed> 403 at https://www.europarl.europa.eu/meps/en/256901
+K01351,A0581,own_site,https://claude-gruffat.eu,2026-11-20,blocked,,URLError: <urlopen error [Errno 11001] getaddrinfo failed> 403 at https://www.europarl.europa.eu/meps/en/204420
+K01352,A0582,own_site,https://www.sylvieguillaume.eu/,2026-11-20,none,,"403 at https://www.europarl.europa.eu/meps/en/96952; already listed: x,facebook"
+K01353,A0583,own_site,https://rimahassan.fr,2026-11-20,found,youtube,"403 at https://www.europarl.europa.eu/meps/en/256912; already listed: instagram,x"
+K01354,A0584,own_site,https://pierrejouvet.fr/,2026-11-20,found,linkedin;youtube;tiktok,"403 at https://www.europarl.europa.eu/meps/en/256898; not added: x https://x.com/faureolivier (); x https://x.com/emmarafowicz (); x https://x.com/theprogressives (); x https://x.com/lucbroussy (); already listed: x,instagram,facebook"
+K01355,A0585,own_site,https://www.pierrekarleskind.eu/,2026-11-20,blocked,,URLError: <urlopen error [Errno 11001] getaddrinfo failed> 403 at https://www.europarl.europa.eu/meps/en/197585
+K01356,A0586,own_site,https://www.fabiennekeller.fr,2026-11-20,none,,403 at https://www.europarl.europa.eu/meps/en/22858
+K01357,A0587,own_site,https://www.europarl.europa.eu/meps/en/197698,2026-11-20,blocked,,403 at https://www.europarl.europa.eu/meps/en/197698
+K01358,A0588,own_site,https://www.europarl.europa.eu/meps/en/249285,2026-11-20,blocked,,403 at https://www.europarl.europa.eu/meps/en/249285
+K01359,A0589,own_site,https://nora-mebarek.eu,2026-11-20,blocked,,406 at https://nora-mebarek.eu 403 at https://www.europarl.europa.eu/meps/en/204418
+K01360,A0590,own_site,https://marinamesure.fr,2026-11-20,found,youtube;tiktok,"403 at https://www.europarl.europa.eu/meps/en/236053; already listed: facebook,instagram,x"
+K01361,A0591,own_site,https://younousomarjee.eu/,2026-11-20,found,linkedin,"403 at https://www.europarl.europa.eu/meps/en/30482; not added: x https://x.com/status (); youtube https://www.youtube.com/channel/UCdXcygIBejgW-199y4wJLSQ (social-block); facebook https://www.facebook.com/younousomarjee.europe (social-block); already listed: x,instagram"
+K01362,A0592,own_site,https://www.europarl.europa.eu/meps/en/234344,2026-11-20,blocked,,403 at https://www.europarl.europa.eu/meps/en/234344
+K01363,A0593,own_site,https://thomaspellerincarlin.eu/,2026-11-20,blocked,,503 at https://thomaspellerincarlin.eu/ 403 at https://www.europarl.europa.eu/meps/en/256903
+K01364,A0594,own_site,https://www.annesophiepelletier.eu/,2026-11-20,blocked,,URLError: <urlopen error [Errno 11001] getaddrinfo failed> 403 at https://www.europarl.europa.eu/meps/en/197527
+K01365,A0595,own_site,https://www.europarl.europa.eu/meps/en/256902,2026-11-20,blocked,,403 at https://www.europarl.europa.eu/meps/en/256902
+K01366,A0596,own_site,https://carolineroose.eu,2026-11-20,blocked,,403 at https://carolineroose.eu 403 at https://www.europarl.europa.eu/meps/en/197506
+K01367,A0597,own_site,https://www.europarl.europa.eu/meps/en/256911,2026-11-20,blocked,,403 at https://www.europarl.europa.eu/meps/en/256911
+K01368,A0598,own_site,https://www.europarl.europa.eu/meps/en/256905,2026-11-20,blocked,,403 at https://www.europarl.europa.eu/meps/en/256905
+K01369,A0599,own_site,https://www.europarl.europa.eu/meps/en/197500,2026-11-20,blocked,,403 at https://www.europarl.europa.eu/meps/en/197500
+K01370,A0600,own_site,https://www.europarl.europa.eu/meps/en/256917,2026-11-20,blocked,,403 at https://www.europarl.europa.eu/meps/en/256917
+K01371,A0601,own_site,https://www.europarl.europa.eu/meps/en/256910,2026-11-20,blocked,,403 at https://www.europarl.europa.eu/meps/en/256910
+K01372,A0602,own_site,https://www.europarl.europa.eu/meps/en/250918,2026-11-20,blocked,,403 at https://www.europarl.europa.eu/meps/en/250918
+K01373,A0603,own_site,https://www.europarl.europa.eu/meps/en/197547,2026-11-20,blocked,,403 at https://www.europarl.europa.eu/meps/en/197547
+K01374,A0604,own_site,https://www.europarl.europa.eu/meps/en/197511,2026-11-20,blocked,,403 at https://www.europarl.europa.eu/meps/en/197511
