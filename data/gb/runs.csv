@@ -43,3 +43,4 @@ R041,2026-11-14,Antigravity,harvest: House of Lords follow-up via Hansard API (2
 R042,2026-11-17,Claude,"media scan test: pm-uk, 6 newest articles (M0001-M0006)",patrioticmillionaires.uk latest-news,0,6,4,1,3,0,not reached,Media scan pm-uk: 51 articles still new (oldest first review).
 R043,2026-11-17,Antigravity,"media scan: pm-uk, 25 newest articles (M0007-M0031)",patrioticmillionaires.uk latest-news,0,25,21,1,9,0,not reached,Media scan pm-uk: 26 articles still new (M0032-M0057).
 R044,2026-11-17,Antigravity,"media scan: pm-uk, 25 newest articles (M0032-M0056)",patrioticmillionaires.uk latest-news,0,25,24,1,10,0,not reached,Media scan pm-uk: 1 article still new (M0057).
+R045,2026-11-19,Gemini,Patriotic Millionaires US media queue cross-hit (M0187): Brian Cox (gb A0624),The Guardian (M0187),0,1,1,1,1,0,not reached,"Added Brian Cox (A0624, grade A, E00927) from his 25 Feb 2025 Guardian op-ed (M0187 in pm-us) backing a 2% tax on billionaires."
