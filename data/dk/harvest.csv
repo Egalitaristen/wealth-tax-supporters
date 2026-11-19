@@ -1,3 +1,6 @@
 harvest_id,title,list_type,url,date,est_size,status,actors_added,notes
 H0001,Ten union representatives joint op-ed,open_letter,https://www.foa.dk/presse/debatindlaeg/2026/marts/10-forbund-i-modsvar-til-erhvervsliv-vi-skal-alle-eje-danmark,2026-03-10,10,done,10,All ten named signatories recorded individually.
 H0002,B 70 final vote,roll_call,https://www.ft.dk/samling/20211/beslutningsforslag/b70/121/506/afstemning.htm,2022-06-07,10,done,9,All ten for votes checked; Susanne Zimmer already in the register.
+H0003,"European Parliament roll-call vote 129, 10 May 2023 (A9-0155/2023 Am 2), Denmark MEPs",roll_call,https://howtheyvote.eu/votes/155121,2023-05-10,1 MEPs FOR,done,1,1 MEPs voted FOR on howtheyvote.eu/votes/155121; 1 new actors added; 1 evidence rows added.
+H0004,"European Parliament roll-call vote 62, 12 Dec 2023 (A9-0336/2023 Am 2), Denmark MEPs",roll_call,https://howtheyvote.eu/votes/162327,2023-12-12,6 MEPs FOR,done,5,6 MEPs voted FOR on howtheyvote.eu/votes/162327; 5 new actors added; 6 evidence rows added.
+H0005,"2025 European Parliament wealth-tax amendment 82, Denmark votes",roll_call,https://howtheyvote.eu/votes/174622,2025-04-02,5 MEPs FOR,done,3,5 MEPs voted FOR on howtheyvote.eu/votes/174622; 3 new actors added; 5 evidence rows added.
