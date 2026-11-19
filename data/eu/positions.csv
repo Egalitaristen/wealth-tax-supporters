@@ -1,86 +1,173 @@
 position_id,actor_id,body_id,role,party,geo_unit_id,start,end,current,member_ref,checked,source_url
-O00001,at-A0026,B0001,MEP,S&D,G2107,,,y,96998,2026-11-15,https://www.europarl.europa.eu/meps/en/96998
-O00002,at-A0043,B0001,MEP,S&D,G0001,,,y,197670,2026-11-15,https://www.europarl.europa.eu/meps/en/197670
-O00003,at-A0044,B0001,MEP,Greens/EFA,G0001,,,y,190464,2026-11-15,https://www.europarl.europa.eu/meps/en/190464
-O00004,be-A0115,B0001,MEP,Greens/EFA,G0001,,,y,197470,2026-11-15,https://www.europarl.europa.eu/meps/en/197470
-O00005,bg-A0005,B0001,MEP,S&D,G0001,,,y,197845,2026-11-15,https://www.europarl.europa.eu/meps/en/197845
-O00006,bg-A0007,B0001,MEP,ECR,G0001,,,y,197842,2026-11-15,https://www.europarl.europa.eu/meps/en/197842
-O00007,cz-A0007,B0001,MEP,Greens/EFA,G4754,,,y,197549,2026-11-15,https://www.europarl.europa.eu/meps/en/197549
-O00008,de-A0038,B0001,MEP,Non-attached,G01527,,,y,124858,2026-11-15,https://www.europarl.europa.eu/meps/en/124858
-O00009,de-A0322,B0001,MEP,Greens/EFA,G0013,,,y,197461,2026-11-15,https://www.europarl.europa.eu/meps/en/197461
-O00010,de-A0433,B0001,MEP,Greens/EFA,G0020,,,y,197448,2026-11-15,https://www.europarl.europa.eu/meps/en/197448
-O00011,ee-A0001,B0001,MEP,Renew Europe,G0001,,,y,124700,2026-11-15,https://www.europarl.europa.eu/meps/en/124700
-O00012,ee-A0004,B0001,MEP,S&D,G0001,,,y,197491,2026-11-15,https://www.europarl.europa.eu/meps/en/197491
-O00013,ee-A0005,B0001,MEP,S&D,G0001,,,y,197497,2026-11-15,https://www.europarl.europa.eu/meps/en/197497
-O00014,es-A0048,B0001,MEP,Greens/EFA,G0029,,,y,257015,2026-11-15,https://www.europarl.europa.eu/meps/en/257015
-O00015,es-A0223,B0001,MEP,The Left,G0001,,,y,257012,2026-11-15,https://www.europarl.europa.eu/meps/en/257012
-O00016,fi-A0049,B0001,MEP,The Left,G0338,,,y,127766,2026-11-15,https://www.europarl.europa.eu/meps/en/127766
-O00017,fi-A0056,B0001,MEP,The Left,G0331,,,y,256805,2026-11-15,https://www.europarl.europa.eu/meps/en/256805
-O00018,fi-A0085,B0001,MEP,The Left,G0277,,,y,124736,2026-11-15,https://www.europarl.europa.eu/meps/en/124736
-O00019,fr-A0227,B0001,MEP,S&D,G0099,,,y,197694,2026-11-15,https://www.europarl.europa.eu/meps/en/197694
-O00020,fr-A0238,B0001,MEP,S&D,G34514,,,y,197697,2026-11-15,https://www.europarl.europa.eu/meps/en/197697
-O00021,fr-A0420,B0001,MEP,S&D,G0001,,,y,256904,2026-11-15,https://www.europarl.europa.eu/meps/en/256904
-O00022,fr-A0565,B0001,MEP,The Left,G0001,,,y,197533,2026-11-15,https://www.europarl.europa.eu/meps/en/197533
-O00023,fr-A0566,B0001,MEP,Greens/EFA,G0001,,,y,97236,2026-11-15,https://www.europarl.europa.eu/meps/en/97236
-O00024,gr-A0018,B0001,MEP,S&D,G0001,,,y,244571,2026-11-15,https://www.europarl.europa.eu/meps/en/244571
-O00025,gr-A0027,B0001,MEP,The Left,G0001,,,y,197701,2026-11-15,https://www.europarl.europa.eu/meps/en/197701
-O00026,gr-A0028,B0001,MEP,The Left,G0001,,,y,197699,2026-11-15,https://www.europarl.europa.eu/meps/en/197699
-O00027,gr-A0029,B0001,MEP,,G0001,,,n,,2026-11-15,https://data.europarl.europa.eu/api/v2/meps/show-current
-O00028,hu-A0012,B0001,MEP,,G0001,,,n,,2026-11-15,https://data.europarl.europa.eu/api/v2/meps/show-current
-O00029,hu-A0013,B0001,MEP,,G0001,,,n,,2026-11-15,https://data.europarl.europa.eu/api/v2/meps/show-current
-O00030,hu-A0014,B0001,MEP,,G0001,,,n,,2026-11-15,https://data.europarl.europa.eu/api/v2/meps/show-current
-O00031,hu-A0015,B0001,MEP,,G0001,,,n,,2026-11-15,https://data.europarl.europa.eu/api/v2/meps/show-current
-O00032,hu-A0030,B0001,MEP,S&D,G0001,,,y,197579,2026-11-15,https://www.europarl.europa.eu/meps/en/197579
-O00033,hu-A0031,B0001,MEP,S&D,G0001,,,y,124722,2026-11-15,https://www.europarl.europa.eu/meps/en/124722
-O00034,ie-A0025,B0001,MEP,The Left,G0001,,,y,124984,2026-11-15,https://www.europarl.europa.eu/meps/en/124984
-O00035,ie-A0042,B0001,MEP,,G0001,,,n,,2026-11-15,https://data.europarl.europa.eu/api/v2/meps/show-current
-O00036,lt-A0001,B0001,MEP,S&D,G0001,,,y,96681,2026-11-15,https://www.europarl.europa.eu/meps/en/96681
-O00037,lt-A0002,B0001,MEP,,G0001,,,n,,2026-11-15,https://data.europarl.europa.eu/api/v2/meps/show-current
-O00038,lt-A0003,B0001,MEP,,G0001,,,n,,2026-11-15,https://data.europarl.europa.eu/api/v2/meps/show-current
-O00039,lt-A0004,B0001,MEP,,G0001,,,n,,2026-11-15,https://data.europarl.europa.eu/api/v2/meps/show-current
-O00040,lt-A0006,B0001,MEP,EPP,G0001,,,y,197841,2026-11-15,https://www.europarl.europa.eu/meps/en/197841
-O00041,lt-A0007,B0001,MEP,Greens/EFA,G0001,,,y,201945,2026-11-15,https://www.europarl.europa.eu/meps/en/201945
-O00042,lu-A0005,B0001,MEP,Greens/EFA,G0001,,,y,193292,2026-11-15,https://www.europarl.europa.eu/meps/en/193292
-O00043,lv-A0001,B0001,MEP,,G0001,,,n,,2026-11-15,https://data.europarl.europa.eu/api/v2/meps/show-current
-O00044,lv-A0007,B0001,MEP,S&D,G0001,2019-07-02,2024-07-15,n,197783,2026-11-15,https://www.europarl.europa.eu/meps/en/197783/ANDRIS_AMERIKS/history/9
-O00045,lv-A0008,B0001,MEP,S&D,G0001,2019-07-02,,y,197810,2026-11-15,https://www.europarl.europa.eu/meps/en/197810
-O00046,lv-A0009,B0001,MEP,Greens/EFA,G0001,2024-07-16,,y,256916,2026-11-15,https://www.europarl.europa.eu/meps/en/256916
-O00047,nl-A0152,B0001,MEP,,G0001,,,n,,2026-11-15,https://data.europarl.europa.eu/api/v2/meps/show-current
-O00048,nl-A0153,B0001,MEP,S&D,G0001,,,y,197782,2026-11-15,https://www.europarl.europa.eu/meps/en/197782
-O00049,nl-A0154,B0001,MEP,,G0001,,,n,,2026-11-15,https://data.europarl.europa.eu/api/v2/meps/show-current
-O00050,nl-A0155,B0001,MEP,,G0001,,,n,,2026-11-15,https://data.europarl.europa.eu/api/v2/meps/show-current
-O00051,nl-A0156,B0001,MEP,The Left,G0001,,,y,125023,2026-11-15,https://www.europarl.europa.eu/meps/en/125023
-O00052,nl-A0157,B0001,MEP,Greens/EFA,G0001,,,y,197772,2026-11-15,https://www.europarl.europa.eu/meps/en/197772
-O00053,nl-A0158,B0001,MEP,Greens/EFA,G0001,,,y,197870,2026-11-15,https://www.europarl.europa.eu/meps/en/197870
-O00054,nl-A0159,B0001,MEP,,G0001,,,n,,2026-11-15,https://data.europarl.europa.eu/api/v2/meps/show-current
-O00055,nl-A0160,B0001,MEP,S&D,G0001,,,y,218347,2026-11-15,https://www.europarl.europa.eu/meps/en/218347
-O00056,nl-A0161,B0001,MEP,S&D,G0001,,,y,5392,2026-11-15,https://www.europarl.europa.eu/meps/en/5392
-O00057,pl-A0022,B0001,MEP,,G1679,,,n,,2026-11-15,https://data.europarl.europa.eu/api/v2/meps/show-current
-O00058,pl-A0023,B0001,MEP,,G2304,,,n,,2026-11-15,https://data.europarl.europa.eu/api/v2/meps/show-current
-O00059,pl-A0024,B0001,MEP,S&D,G1679,,,y,197498,2026-11-15,https://www.europarl.europa.eu/meps/en/197498
-O00060,pl-A0025,B0001,MEP,,G1679,,,n,,2026-11-15,https://data.europarl.europa.eu/api/v2/meps/show-current
-O00061,pl-A0026,B0001,MEP,EPP,G2309,,,y,197523,2026-11-15,https://www.europarl.europa.eu/meps/en/197523
-O00062,pl-A0027,B0001,MEP,,G2875,,,n,,2026-11-15,https://data.europarl.europa.eu/api/v2/meps/show-current
-O00063,pl-A0028,B0001,MEP,,G2763,,,n,,2026-11-15,https://data.europarl.europa.eu/api/v2/meps/show-current
-O00064,pl-A0029,B0001,MEP,,G1180,,,n,,2026-11-15,https://data.europarl.europa.eu/api/v2/meps/show-current
-O00065,pl-A0045,B0001,MEP,,G2763,,,n,,2026-11-15,https://data.europarl.europa.eu/api/v2/meps/show-current
-O00066,pt-A0021,B0001,MEP,The Left,G0001,,,y,257083,2026-11-15,https://www.europarl.europa.eu/meps/en/257083
-O00067,pt-A0043,B0001,MEP,The Left,G0001,,,y,257063,2026-11-15,https://www.europarl.europa.eu/meps/en/257063
-O00068,ro-A0015,B0001,MEP,S&D,G0001,,,y,124785,2026-11-15,https://www.europarl.europa.eu/meps/en/124785
-O00069,ro-A0024,B0001,MEP,Greens/EFA,G0001,,,y,58766,2026-11-15,https://www.europarl.europa.eu/meps/en/58766
-O00070,ro-A0026,B0001,MEP,S&D,G0001,,,y,197658,2026-11-15,https://www.europarl.europa.eu/meps/en/197658
-O00071,ro-A0027,B0001,MEP,,G0001,,,n,,2026-11-15,https://data.europarl.europa.eu/api/v2/meps/show-current
-O00072,ro-A0028,B0001,MEP,S&D,G0001,,,y,197653,2026-11-15,https://www.europarl.europa.eu/meps/en/197653
-O00073,ro-A0029,B0001,MEP,S&D,G0001,,,y,88882,2026-11-15,https://www.europarl.europa.eu/meps/en/88882
-O00074,ro-A0030,B0001,MEP,S&D,G0001,,,y,124784,2026-11-15,https://www.europarl.europa.eu/meps/en/124784
-O00075,ro-A0031,B0001,MEP,,G0001,,,n,,2026-11-15,https://data.europarl.europa.eu/api/v2/meps/show-current
-O00076,ro-A0032,B0001,MEP,S&D,G0001,,,y,198183,2026-11-15,https://www.europarl.europa.eu/meps/en/198183
-O00077,ro-A0033,B0001,MEP,ECR,G0001,,,y,257115,2026-11-15,https://www.europarl.europa.eu/meps/en/257115
-O00078,se-A0008,B0001,MEP,The Left,G0001,,,y,2268,2026-11-15,https://www.europarl.europa.eu/meps/en/2268
-O00079,si-A0004,B0001,MEP,S&D,G0001,,,y,233862,2026-11-15,https://www.europarl.europa.eu/meps/en/233862
-O00080,sk-A0002,B0001,MEP,Non-attached,G0001,,,y,23868,2026-11-15,https://www.europarl.europa.eu/meps/en/23868
-O00081,sk-A0003,B0001,MEP,Non-attached,G0001,,,y,96653,2026-11-15,https://www.europarl.europa.eu/meps/en/96653
-O00082,sk-A0004,B0001,MEP,,G0001,,,n,,2026-11-15,https://data.europarl.europa.eu/api/v2/meps/show-current
-O00083,sk-A0014,B0001,MEP,Non-attached,G0001,,,y,257005,2026-11-15,https://www.europarl.europa.eu/meps/en/257005
-O00084,sk-A0015,B0001,MEP,Non-attached,G0001,,,y,257007,2026-11-15,https://www.europarl.europa.eu/meps/en/257007
-O00085,sk-A0016,B0001,MEP,Non-attached,G0001,,,y,198373,2026-11-15,https://www.europarl.europa.eu/meps/en/198373
+O00031,at-A0026,B0001,MEP,S&D,G2107,,,y,96998,2026-11-19,https://www.europarl.europa.eu/meps/en/96998
+O00032,at-A0043,B0001,MEP,S&D,G0001,,,y,197670,2026-11-19,https://www.europarl.europa.eu/meps/en/197670
+O00033,at-A0044,B0001,MEP,Greens/EFA,G0001,,,y,190464,2026-11-19,https://www.europarl.europa.eu/meps/en/190464
+O00034,be-A0115,B0001,MEP,Greens/EFA,G0001,,,y,197470,2026-11-19,https://www.europarl.europa.eu/meps/en/197470
+O00035,bg-A0005,B0001,MEP,S&D,G0001,,,y,197845,2026-11-19,https://www.europarl.europa.eu/meps/en/197845
+O00036,bg-A0007,B0001,MEP,ECR,G0001,,,y,197842,2026-11-19,https://www.europarl.europa.eu/meps/en/197842
+O00037,cz-A0007,B0001,MEP,Greens/EFA,G4754,,,y,197549,2026-11-19,https://www.europarl.europa.eu/meps/en/197549
+O00038,de-A0038,B0001,MEP,Non-attached,G01527,,,y,124858,2026-11-19,https://www.europarl.europa.eu/meps/en/124858
+O00039,de-A0322,B0001,MEP,Greens/EFA,G0013,,,y,197461,2026-11-19,https://www.europarl.europa.eu/meps/en/197461
+O00040,de-A0433,B0001,MEP,Greens/EFA,G0020,,,y,197448,2026-11-19,https://www.europarl.europa.eu/meps/en/197448
+O00041,ee-A0001,B0001,MEP,Renew Europe,G0001,,,y,124700,2026-11-19,https://www.europarl.europa.eu/meps/en/124700
+O00042,ee-A0004,B0001,MEP,S&D,G0001,,,y,197491,2026-11-19,https://www.europarl.europa.eu/meps/en/197491
+O00043,ee-A0005,B0001,MEP,S&D,G0001,,,y,197497,2026-11-19,https://www.europarl.europa.eu/meps/en/197497
+O00044,es-A0048,B0001,MEP,Greens/EFA,G0029,,,y,257015,2026-11-19,https://www.europarl.europa.eu/meps/en/257015
+O00045,es-A0223,B0001,MEP,The Left,G0001,,,y,257012,2026-11-19,https://www.europarl.europa.eu/meps/en/257012
+O00046,es-A0227,B0001,MEP,,G0001,,,n,,2026-11-19,https://data.europarl.europa.eu/api/v2/meps/show-current
+O00047,es-A0228,B0001,MEP,S&D,G0001,,,y,247735,2026-11-19,https://www.europarl.europa.eu/meps/en/247735
+O00048,es-A0229,B0001,MEP,The Left,G0001,,,y,197684,2026-11-19,https://www.europarl.europa.eu/meps/en/197684
+O00049,es-A0230,B0001,MEP,Non-attached,G0001,,,y,202352,2026-11-19,https://www.europarl.europa.eu/meps/en/202352
+O00050,es-A0231,B0001,MEP,,G0001,,,n,,2026-11-19,https://data.europarl.europa.eu/api/v2/meps/show-current
+O00051,es-A0232,B0001,MEP,S&D,G0001,,,y,125046,2026-11-19,https://www.europarl.europa.eu/meps/en/125046
+O00052,es-A0233,B0001,MEP,,G0001,,,n,,2026-11-19,https://data.europarl.europa.eu/api/v2/meps/show-current
+O00053,es-A0234,B0001,MEP,,G0001,,,n,,2026-11-19,https://data.europarl.europa.eu/api/v2/meps/show-current
+O00054,es-A0235,B0001,MEP,S&D,G0001,,,y,28298,2026-11-19,https://www.europarl.europa.eu/meps/en/28298
+O00055,es-A0236,B0001,MEP,,G0001,,,n,,2026-11-19,https://data.europarl.europa.eu/api/v2/meps/show-current
+O00056,es-A0237,B0001,MEP,,G0001,,,n,,2026-11-19,https://data.europarl.europa.eu/api/v2/meps/show-current
+O00057,es-A0238,B0001,MEP,S&D,G0001,,,y,197718,2026-11-19,https://www.europarl.europa.eu/meps/en/197718
+O00058,es-A0239,B0001,MEP,S&D,G0001,,,y,197702,2026-11-19,https://www.europarl.europa.eu/meps/en/197702
+O00059,es-A0240,B0001,MEP,S&D,G0001,,,y,122978,2026-11-19,https://www.europarl.europa.eu/meps/en/122978
+O00060,es-A0241,B0001,MEP,S&D,G0001,,,y,197721,2026-11-19,https://www.europarl.europa.eu/meps/en/197721
+O00061,es-A0242,B0001,MEP,S&D,G0001,,,y,125042,2026-11-19,https://www.europarl.europa.eu/meps/en/125042
+O00062,es-A0243,B0001,MEP,S&D,G0001,,,y,96812,2026-11-19,https://www.europarl.europa.eu/meps/en/96812
+O00063,es-A0244,B0001,MEP,S&D,G0001,,,y,197719,2026-11-19,https://www.europarl.europa.eu/meps/en/197719
+O00064,es-A0245,B0001,MEP,,G0001,,,n,,2026-11-19,https://data.europarl.europa.eu/api/v2/meps/show-current
+O00065,es-A0246,B0001,MEP,Greens/EFA,G0001,,,y,257016,2026-11-19,https://www.europarl.europa.eu/meps/en/257016
+O00066,es-A0247,B0001,MEP,Greens/EFA,G0001,,,y,24942,2026-11-19,https://www.europarl.europa.eu/meps/en/24942
+O00067,es-A0248,B0001,MEP,S&D,G0001,,,y,28347,2026-11-19,https://www.europarl.europa.eu/meps/en/28347
+O00068,es-A0249,B0001,MEP,,G0001,,,n,,2026-11-19,https://data.europarl.europa.eu/api/v2/meps/show-current
+O00069,es-A0250,B0001,MEP,,G0001,,,n,,2026-11-19,https://data.europarl.europa.eu/api/v2/meps/show-current
+O00070,es-A0251,B0001,MEP,,G0001,,,n,,2026-11-19,https://data.europarl.europa.eu/api/v2/meps/show-current
+O00071,es-A0252,B0001,MEP,Non-attached,G0001,,,y,257019,2026-11-19,https://www.europarl.europa.eu/meps/en/257019
+O00072,es-A0253,B0001,MEP,Greens/EFA,G0001,,,y,197832,2026-11-19,https://www.europarl.europa.eu/meps/en/197832
+O00073,es-A0254,B0001,MEP,,G0001,,,n,,2026-11-19,https://data.europarl.europa.eu/api/v2/meps/show-current
+O00074,es-A0255,B0001,MEP,,G0001,,,n,,2026-11-19,https://data.europarl.europa.eu/api/v2/meps/show-current
+O00075,es-A0256,B0001,MEP,S&D,G0001,,,y,204413,2026-11-19,https://www.europarl.europa.eu/meps/en/204413
+O00076,es-A0257,B0001,MEP,,G0001,,,n,,2026-11-19,https://data.europarl.europa.eu/api/v2/meps/show-current
+O00077,es-A0258,B0001,MEP,The Left,G0001,,,y,257009,2026-11-19,https://www.europarl.europa.eu/meps/en/257009
+O00078,es-A0259,B0001,MEP,,G0001,,,n,,2026-11-19,https://data.europarl.europa.eu/api/v2/meps/show-current
+O00079,es-A0260,B0001,MEP,S&D,G0001,,,y,197722,2026-11-19,https://www.europarl.europa.eu/meps/en/197722
+O00080,es-A0261,B0001,MEP,,G0001,,,n,,2026-11-19,https://data.europarl.europa.eu/api/v2/meps/show-current
+O00081,es-A0262,B0001,MEP,,G0001,,,n,,2026-11-19,https://data.europarl.europa.eu/api/v2/meps/show-current
+O00082,es-A0263,B0001,MEP,,G0001,,,n,,2026-11-19,https://data.europarl.europa.eu/api/v2/meps/show-current
+O00083,fi-A0049,B0001,MEP,The Left,G0338,,,y,127766,2026-11-19,https://www.europarl.europa.eu/meps/en/127766
+O00084,fi-A0056,B0001,MEP,The Left,G0331,,,y,256805,2026-11-19,https://www.europarl.europa.eu/meps/en/256805
+O00085,fi-A0085,B0001,MEP,The Left,G0277,,,y,124736,2026-11-19,https://www.europarl.europa.eu/meps/en/124736
+O00086,fr-A0227,B0001,MEP,S&D,G0099,,,y,197694,2026-11-19,https://www.europarl.europa.eu/meps/en/197694
+O00087,fr-A0238,B0001,MEP,S&D,G34514,,,y,197697,2026-11-19,https://www.europarl.europa.eu/meps/en/197697
+O00088,fr-A0420,B0001,MEP,S&D,G0001,,,y,256904,2026-11-19,https://www.europarl.europa.eu/meps/en/256904
+O00089,fr-A0565,B0001,MEP,The Left,G0001,,,y,197533,2026-11-19,https://www.europarl.europa.eu/meps/en/197533
+O00090,fr-A0566,B0001,MEP,Greens/EFA,G0001,,,y,97236,2026-11-19,https://www.europarl.europa.eu/meps/en/97236
+O00091,gr-A0018,B0001,MEP,S&D,G0001,,,y,244571,2026-11-19,https://www.europarl.europa.eu/meps/en/244571
+O00092,gr-A0027,B0001,MEP,The Left,G0001,,,y,197701,2026-11-19,https://www.europarl.europa.eu/meps/en/197701
+O00093,gr-A0028,B0001,MEP,The Left,G0001,,,y,197699,2026-11-19,https://www.europarl.europa.eu/meps/en/197699
+O00094,gr-A0029,B0001,MEP,,G0001,,,n,,2026-11-19,https://data.europarl.europa.eu/api/v2/meps/show-current
+O00095,hu-A0012,B0001,MEP,,G0001,,,n,,2026-11-19,https://data.europarl.europa.eu/api/v2/meps/show-current
+O00096,hu-A0013,B0001,MEP,,G0001,,,n,,2026-11-19,https://data.europarl.europa.eu/api/v2/meps/show-current
+O00097,hu-A0014,B0001,MEP,,G0001,,,n,,2026-11-19,https://data.europarl.europa.eu/api/v2/meps/show-current
+O00098,hu-A0015,B0001,MEP,,G0001,,,n,,2026-11-19,https://data.europarl.europa.eu/api/v2/meps/show-current
+O00099,hu-A0030,B0001,MEP,S&D,G0001,,,y,197579,2026-11-19,https://www.europarl.europa.eu/meps/en/197579
+O00100,hu-A0031,B0001,MEP,S&D,G0001,,,y,124722,2026-11-19,https://www.europarl.europa.eu/meps/en/124722
+O00101,ie-A0025,B0001,MEP,The Left,G0001,,,y,124984,2026-11-19,https://www.europarl.europa.eu/meps/en/124984
+O00102,ie-A0042,B0001,MEP,,G0001,,,n,,2026-11-19,https://data.europarl.europa.eu/api/v2/meps/show-current
+O00103,it-A0305,B0001,MEP,S&D,G0001,,,y,257123,2026-11-19,https://www.europarl.europa.eu/meps/en/257123
+O00104,it-A0306,B0001,MEP,,G0001,,,n,,2026-11-19,https://data.europarl.europa.eu/api/v2/meps/show-current
+O00105,it-A0307,B0001,MEP,,G0001,,,n,,2026-11-19,https://data.europarl.europa.eu/api/v2/meps/show-current
+O00106,it-A0308,B0001,MEP,S&D,G0001,,,y,124867,2026-11-19,https://www.europarl.europa.eu/meps/en/124867
+O00107,it-A0309,B0001,MEP,S&D,G0001,,,y,257108,2026-11-19,https://www.europarl.europa.eu/meps/en/257108
+O00108,it-A0310,B0001,MEP,,G0001,,,n,,2026-11-19,https://data.europarl.europa.eu/api/v2/meps/show-current
+O00109,it-A0311,B0001,MEP,S&D,G0001,,,y,257169,2026-11-19,https://www.europarl.europa.eu/meps/en/257169
+O00110,it-A0312,B0001,MEP,,G0001,,,n,,2026-11-19,https://data.europarl.europa.eu/api/v2/meps/show-current
+O00111,it-A0313,B0001,MEP,,G0001,,,n,,2026-11-19,https://data.europarl.europa.eu/api/v2/meps/show-current
+O00112,it-A0314,B0001,MEP,,G0001,,,n,,2026-11-19,https://data.europarl.europa.eu/api/v2/meps/show-current
+O00113,it-A0315,B0001,MEP,,G0001,,,n,,2026-11-19,https://data.europarl.europa.eu/api/v2/meps/show-current
+O00114,it-A0316,B0001,MEP,,G0001,,,n,,2026-11-19,https://data.europarl.europa.eu/api/v2/meps/show-current
+O00115,it-A0317,B0001,MEP,,G0001,,,n,,2026-11-19,https://data.europarl.europa.eu/api/v2/meps/show-current
+O00116,it-A0318,B0001,MEP,The Left,G0001,,,y,257155,2026-11-19,https://www.europarl.europa.eu/meps/en/257155
+O00117,it-A0319,B0001,MEP,EPP,G0001,,,y,96787,2026-11-19,https://www.europarl.europa.eu/meps/en/96787
+O00118,it-A0320,B0001,MEP,,G0001,,,n,,2026-11-19,https://data.europarl.europa.eu/api/v2/meps/show-current
+O00119,it-A0321,B0001,MEP,The Left,G0001,,,y,197795,2026-11-19,https://www.europarl.europa.eu/meps/en/197795
+O00120,it-A0322,B0001,MEP,,G0001,,,n,,2026-11-19,https://data.europarl.europa.eu/api/v2/meps/show-current
+O00121,it-A0323,B0001,MEP,Renew Europe,G0001,,,y,197618,2026-11-19,https://www.europarl.europa.eu/meps/en/197618
+O00122,it-A0324,B0001,MEP,Greens/EFA,G0001,,,y,257130,2026-11-19,https://www.europarl.europa.eu/meps/en/257130
+O00123,it-A0325,B0001,MEP,S&D,G0001,,,y,230085,2026-11-19,https://www.europarl.europa.eu/meps/en/230085
+O00124,it-A0326,B0001,MEP,The Left,G0001,,,y,257129,2026-11-19,https://www.europarl.europa.eu/meps/en/257129
+O00125,it-A0327,B0001,MEP,S&D,G0001,,,y,257124,2026-11-19,https://www.europarl.europa.eu/meps/en/257124
+O00126,it-A0328,B0001,MEP,Greens/EFA,G0001,,,y,257132,2026-11-19,https://www.europarl.europa.eu/meps/en/257132
+O00127,it-A0329,B0001,MEP,The Left,G0001,,,y,257140,2026-11-19,https://www.europarl.europa.eu/meps/en/257140
+O00128,it-A0330,B0001,MEP,S&D,G0001,,,y,124799,2026-11-19,https://www.europarl.europa.eu/meps/en/124799
+O00129,it-A0331,B0001,MEP,S&D,G0001,,,y,257111,2026-11-19,https://www.europarl.europa.eu/meps/en/257111
+O00130,it-A0332,B0001,MEP,Greens/EFA,G0001,,,y,2152,2026-11-19,https://www.europarl.europa.eu/meps/en/2152
+O00131,it-A0333,B0001,MEP,The Left,G0001,,,y,257135,2026-11-19,https://www.europarl.europa.eu/meps/en/257135
+O00132,it-A0334,B0001,MEP,,G0001,,,n,,2026-11-19,https://data.europarl.europa.eu/api/v2/meps/show-current
+O00133,it-A0335,B0001,MEP,The Left,G0001,,,y,257126,2026-11-19,https://www.europarl.europa.eu/meps/en/257126
+O00134,it-A0336,B0001,MEP,ECR,G0001,,,y,257150,2026-11-19,https://www.europarl.europa.eu/meps/en/257150
+O00135,it-A0337,B0001,MEP,Renew Europe,G0001,,,y,124846,2026-11-19,https://www.europarl.europa.eu/meps/en/124846
+O00136,it-A0338,B0001,MEP,,G0001,,,n,,2026-11-19,https://data.europarl.europa.eu/api/v2/meps/show-current
+O00137,it-A0339,B0001,MEP,,G0001,,,n,,2026-11-19,https://data.europarl.europa.eu/api/v2/meps/show-current
+O00138,it-A0340,B0001,MEP,S&D,G0001,,,y,257121,2026-11-19,https://www.europarl.europa.eu/meps/en/257121
+O00139,it-A0341,B0001,MEP,,G0001,,,n,,2026-11-19,https://data.europarl.europa.eu/api/v2/meps/show-current
+O00140,it-A0342,B0001,MEP,,G0001,,,n,,2026-11-19,https://data.europarl.europa.eu/api/v2/meps/show-current
+O00141,it-A0343,B0001,MEP,S&D,G0001,,,y,257170,2026-11-19,https://www.europarl.europa.eu/meps/en/257170
+O00142,it-A0344,B0001,MEP,The Left,G0001,,,y,257127,2026-11-19,https://www.europarl.europa.eu/meps/en/257127
+O00143,it-A0345,B0001,MEP,Greens/EFA,G0001,,,y,257139,2026-11-19,https://www.europarl.europa.eu/meps/en/257139
+O00144,it-A0346,B0001,MEP,,G0001,,,n,,2026-11-19,https://data.europarl.europa.eu/api/v2/meps/show-current
+O00145,it-A0347,B0001,MEP,S&D,G0001,,,y,257101,2026-11-19,https://www.europarl.europa.eu/meps/en/257101
+O00146,it-A0348,B0001,MEP,The Left,G0001,,,y,124813,2026-11-19,https://www.europarl.europa.eu/meps/en/124813
+O00147,it-A0349,B0001,MEP,S&D,G0001,,,y,257160,2026-11-19,https://www.europarl.europa.eu/meps/en/257160
+O00148,it-A0350,B0001,MEP,S&D,G0001,,,y,197591,2026-11-19,https://www.europarl.europa.eu/meps/en/197591
+O00149,it-A0351,B0001,MEP,,G0001,,,n,,2026-11-19,https://data.europarl.europa.eu/api/v2/meps/show-current
+O00150,it-A0352,B0001,MEP,S&D,G0001,,,y,257106,2026-11-19,https://www.europarl.europa.eu/meps/en/257106
+O00151,it-A0353,B0001,MEP,S&D,G0001,,,y,28419,2026-11-19,https://www.europarl.europa.eu/meps/en/28419
+O00152,lt-A0001,B0001,MEP,S&D,G0001,,,y,96681,2026-11-19,https://www.europarl.europa.eu/meps/en/96681
+O00153,lt-A0002,B0001,MEP,,G0001,,,n,,2026-11-19,https://data.europarl.europa.eu/api/v2/meps/show-current
+O00154,lt-A0003,B0001,MEP,,G0001,,,n,,2026-11-19,https://data.europarl.europa.eu/api/v2/meps/show-current
+O00155,lt-A0004,B0001,MEP,,G0001,,,n,,2026-11-19,https://data.europarl.europa.eu/api/v2/meps/show-current
+O00156,lt-A0006,B0001,MEP,EPP,G0001,,,y,197841,2026-11-19,https://www.europarl.europa.eu/meps/en/197841
+O00157,lt-A0007,B0001,MEP,Greens/EFA,G0001,,,y,201945,2026-11-19,https://www.europarl.europa.eu/meps/en/201945
+O00158,lu-A0005,B0001,MEP,Greens/EFA,G0001,,,y,193292,2026-11-19,https://www.europarl.europa.eu/meps/en/193292
+O00159,lv-A0001,B0001,MEP,,G0001,,,n,,2026-11-19,https://data.europarl.europa.eu/api/v2/meps/show-current
+O00160,lv-A0007,B0001,MEP,S&D,G0001,2019-07-02,2024-07-15,n,197783,2026-11-19,https://www.europarl.europa.eu/meps/en/197783/ANDRIS_AMERIKS/history/9
+O00161,lv-A0008,B0001,MEP,S&D,G0001,2019-07-02,,y,197810,2026-11-19,https://www.europarl.europa.eu/meps/en/197810
+O00162,lv-A0009,B0001,MEP,Greens/EFA,G0001,2024-07-16,,y,256916,2026-11-19,https://www.europarl.europa.eu/meps/en/256916
+O00163,nl-A0152,B0001,MEP,,G0001,,,n,,2026-11-19,https://data.europarl.europa.eu/api/v2/meps/show-current
+O00164,nl-A0153,B0001,MEP,S&D,G0001,,,y,197782,2026-11-19,https://www.europarl.europa.eu/meps/en/197782
+O00165,nl-A0154,B0001,MEP,,G0001,,,n,,2026-11-19,https://data.europarl.europa.eu/api/v2/meps/show-current
+O00166,nl-A0155,B0001,MEP,,G0001,,,n,,2026-11-19,https://data.europarl.europa.eu/api/v2/meps/show-current
+O00167,nl-A0156,B0001,MEP,The Left,G0001,,,y,125023,2026-11-19,https://www.europarl.europa.eu/meps/en/125023
+O00168,nl-A0157,B0001,MEP,Greens/EFA,G0001,,,y,197772,2026-11-19,https://www.europarl.europa.eu/meps/en/197772
+O00169,nl-A0158,B0001,MEP,Greens/EFA,G0001,,,y,197870,2026-11-19,https://www.europarl.europa.eu/meps/en/197870
+O00170,nl-A0159,B0001,MEP,,G0001,,,n,,2026-11-19,https://data.europarl.europa.eu/api/v2/meps/show-current
+O00171,nl-A0160,B0001,MEP,S&D,G0001,,,y,218347,2026-11-19,https://www.europarl.europa.eu/meps/en/218347
+O00172,nl-A0161,B0001,MEP,S&D,G0001,,,y,5392,2026-11-19,https://www.europarl.europa.eu/meps/en/5392
+O00173,pl-A0022,B0001,MEP,,G1679,,,n,,2026-11-19,https://data.europarl.europa.eu/api/v2/meps/show-current
+O00174,pl-A0023,B0001,MEP,,G2304,,,n,,2026-11-19,https://data.europarl.europa.eu/api/v2/meps/show-current
+O00175,pl-A0024,B0001,MEP,S&D,G1679,,,y,197498,2026-11-19,https://www.europarl.europa.eu/meps/en/197498
+O00176,pl-A0025,B0001,MEP,,G1679,,,n,,2026-11-19,https://data.europarl.europa.eu/api/v2/meps/show-current
+O00177,pl-A0026,B0001,MEP,EPP,G2309,,,y,197523,2026-11-19,https://www.europarl.europa.eu/meps/en/197523
+O00178,pl-A0027,B0001,MEP,,G2875,,,n,,2026-11-19,https://data.europarl.europa.eu/api/v2/meps/show-current
+O00179,pl-A0028,B0001,MEP,,G2763,,,n,,2026-11-19,https://data.europarl.europa.eu/api/v2/meps/show-current
+O00180,pl-A0029,B0001,MEP,,G1180,,,n,,2026-11-19,https://data.europarl.europa.eu/api/v2/meps/show-current
+O00181,pl-A0045,B0001,MEP,,G2763,,,n,,2026-11-19,https://data.europarl.europa.eu/api/v2/meps/show-current
+O00182,pt-A0021,B0001,MEP,The Left,G0001,,,y,257083,2026-11-19,https://www.europarl.europa.eu/meps/en/257083
+O00183,pt-A0043,B0001,MEP,The Left,G0001,,,y,257063,2026-11-19,https://www.europarl.europa.eu/meps/en/257063
+O00184,ro-A0015,B0001,MEP,S&D,G0001,,,y,124785,2026-11-19,https://www.europarl.europa.eu/meps/en/124785
+O00185,ro-A0024,B0001,MEP,Greens/EFA,G0001,,,y,58766,2026-11-19,https://www.europarl.europa.eu/meps/en/58766
+O00186,ro-A0026,B0001,MEP,S&D,G0001,,,y,197658,2026-11-19,https://www.europarl.europa.eu/meps/en/197658
+O00187,ro-A0027,B0001,MEP,,G0001,,,n,,2026-11-19,https://data.europarl.europa.eu/api/v2/meps/show-current
+O00188,ro-A0028,B0001,MEP,S&D,G0001,,,y,197653,2026-11-19,https://www.europarl.europa.eu/meps/en/197653
+O00189,ro-A0029,B0001,MEP,S&D,G0001,,,y,88882,2026-11-19,https://www.europarl.europa.eu/meps/en/88882
+O00190,ro-A0030,B0001,MEP,S&D,G0001,,,y,124784,2026-11-19,https://www.europarl.europa.eu/meps/en/124784
+O00191,ro-A0031,B0001,MEP,,G0001,,,n,,2026-11-19,https://data.europarl.europa.eu/api/v2/meps/show-current
+O00192,ro-A0032,B0001,MEP,S&D,G0001,,,y,198183,2026-11-19,https://www.europarl.europa.eu/meps/en/198183
+O00193,ro-A0033,B0001,MEP,ECR,G0001,,,y,257115,2026-11-19,https://www.europarl.europa.eu/meps/en/257115
+O00194,se-A0008,B0001,MEP,The Left,G0001,,,y,2268,2026-11-19,https://www.europarl.europa.eu/meps/en/2268
+O00195,si-A0004,B0001,MEP,S&D,G0001,,,y,233862,2026-11-19,https://www.europarl.europa.eu/meps/en/233862
+O00196,sk-A0002,B0001,MEP,Non-attached,G0001,,,y,23868,2026-11-19,https://www.europarl.europa.eu/meps/en/23868
+O00197,sk-A0003,B0001,MEP,Non-attached,G0001,,,y,96653,2026-11-19,https://www.europarl.europa.eu/meps/en/96653
+O00198,sk-A0004,B0001,MEP,,G0001,,,n,,2026-11-19,https://data.europarl.europa.eu/api/v2/meps/show-current
+O00199,sk-A0014,B0001,MEP,Non-attached,G0001,,,y,257005,2026-11-19,https://www.europarl.europa.eu/meps/en/257005
+O00200,sk-A0015,B0001,MEP,Non-attached,G0001,,,y,257007,2026-11-19,https://www.europarl.europa.eu/meps/en/257007
+O00201,sk-A0016,B0001,MEP,Non-attached,G0001,,,y,198373,2026-11-19,https://www.europarl.europa.eu/meps/en/198373
+O00030,es-A0241,B0001,MEP,,G0001,,,n,,2026-11-19,https://data.europarl.europa.eu/api/v2/meps/show-current
