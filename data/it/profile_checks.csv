@@ -868,3 +868,27 @@ K00866,A0271,manual_search,https://www.senato.it/leg/19/BGT/Schede/Attsen/000327
 K00867,A0277,manual_search,https://www.senato.it/leg/19/BGT/Schede/Attsen/00029055.htm,2026-11-17,none,,"rejected https://www.senato.it/leg/19/BGT/Schede/Attsen/00029055.htm: the page does not carry the name; Found via web search; official Italian Senate profile (HTTP 202 challenge, identity clear from search results)."
 K00868,A0278,manual_search,https://www.senato.it/leg/19/BGT/Schede/Attsen/00045239.htm,2026-11-17,none,,"rejected https://www.senato.it/leg/19/BGT/Schede/Attsen/00045239.htm: the page does not carry the name; Found via web search (ilariacucchi.it returned HTTP 503); official Italian Senate profile (HTTP 202 challenge, identity clear from search results)."
 K00869,A0020,own_site,https://www.unibg.it/ugov/person/791,2026-11-17,blocked,,403 at https://www.unibg.it/ugov/person/791
+K00870,A0305,wikipedia,https://en.wikipedia.org/wiki/Lucia_Annunziata,2026-11-20,none,,
+K00871,A0312,wikipedia,https://en.wikipedia.org/wiki/Ignazio_Corrao,2026-11-20,found,website,
+K00872,A0315,wikipedia,https://en.wikipedia.org/wiki/Rosa_D%27Amato,2026-11-20,none,,
+K00873,A0317,wikipedia,https://en.wikipedia.org/wiki/Antonio_Decaro,2026-11-20,none,,
+K00874,A0318,wikipedia,https://en.wikipedia.org/wiki/Danilo_Della_Valle,2026-11-20,none,,
+K00875,A0322,wikipedia,https://en.wikipedia.org/wiki/Dino_Giarrusso,2026-11-20,none,,
+K00876,A0324,wikipedia,https://en.wikipedia.org/wiki/Cristina_Guarda,2026-11-20,none,,
+K00877,A0325,wikipedia,https://en.wikipedia.org/wiki/Camilla_Laureti,2026-11-20,none,,
+K00878,A0326,wikipedia,https://en.wikipedia.org/wiki/Domenico_Lucano,2026-11-20,none,,
+K00879,A0327,wikipedia,https://en.wikipedia.org/wiki/Giuseppe_Lupo,2026-11-20,none,,
+K00880,A0329,wikipedia,https://en.wikipedia.org/wiki/Carolina_Morace,2026-11-20,none,,
+K00881,A0333,wikipedia,https://en.wikipedia.org/wiki/Valentina_Palmisano,2026-11-20,none,,
+K00882,A0335,wikipedia,https://en.wikipedia.org/wiki/Gaetano_Pedull%C3%A0,2026-11-20,none,,
+K00883,A0336,wikipedia,https://en.wikipedia.org/wiki/Michele_Picaro,2026-11-20,none,,
+K00884,A0337,wikipedia,https://en.wikipedia.org/wiki/Pina_Picierno,2026-11-20,none,,
+K00885,A0338,wikipedia,https://en.wikipedia.org/wiki/Sabrina_Pignedoli,2026-11-20,none,,
+K00886,A0340,wikipedia,https://en.wikipedia.org/wiki/Matteo_Ricci_%28politician%29,2026-11-20,none,,
+K00887,A0341,wikipedia,https://en.wikipedia.org/wiki/Franco_Roberti,2026-11-20,none,,
+K00888,A0342,wikipedia,https://en.wikipedia.org/wiki/Daniela_Rondinelli,2026-11-20,none,,
+K00889,A0343,wikipedia,https://en.wikipedia.org/wiki/Sandro_Ruotolo,2026-11-20,none,,
+K00890,A0344,wikipedia,https://en.wikipedia.org/wiki/Ilaria_Salis,2026-11-20,none,,
+K00891,A0347,wikipedia,https://en.wikipedia.org/wiki/Cecilia_Strada,2026-11-20,none,,the page's title and headings do not carry the name: https://en.emergency.it/
+K00892,A0349,wikipedia,https://en.wikipedia.org/wiki/Marco_Tarquinio,2026-11-20,none,,
+K00893,A0352,wikipedia,https://en.wikipedia.org/wiki/Alessandro_Zan,2026-11-20,none,,
