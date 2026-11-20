@@ -853,3 +853,26 @@ P00874,A0304,instagram,https://www.instagram.com/stephanvanbaarle/,linked from h
 P00875,A0304,linkedin,https://www.linkedin.com/in/stephan-van-baarle-a5014763,linked from https://www.tweedekamer.nl/kamerleden_en_commissies/alle_kamerleden/baarle-srt-van-denk,2026-11-17
 P00876,A0273,x,https://x.com/CvanBrenk,linked from https://www.tweedekamer.nl/kamerleden_en_commissies/alle_kamerleden/brenk-cm-van-50plus,2026-11-17
 P00877,A0273,facebook,https://www.facebook.com/corrie.brenkvan,linked from https://www.tweedekamer.nl/kamerleden_en_commissies/alle_kamerleden/brenk-cm-van-50plus,2026-11-17
+P00878,A0310,website,https://djinndjinni.com/,actors.csv website column,2026-11-20
+P00879,A0311,x,https://x.com/annastrolenberg,Wikidata Q126373333,2026-11-20
+P00880,A0311,bluesky,https://bsky.app/profile/annastrolenberg.volteuropa.org,Wikidata Q126373333,2026-11-20
+P00881,A0311,instagram,https://www.instagram.com/annastrolenberg/,Wikidata Q126373333,2026-11-20
+P00882,A0311,linkedin,https://www.linkedin.com/in/annastrolenberg/,Wikidata Q126373333,2026-11-20
+P00883,A0311,wikipedia,https://en.wikipedia.org/wiki/Anna_Strolenberg,Wikidata Q126373333,2026-11-20
+P00884,A0312,wikipedia,https://en.wikipedia.org/wiki/Vera_Tax,Wikidata Q64777784,2026-11-20
+P00885,A0313,x,https://x.com/RLanschot,Wikidata Q63164076,2026-11-20
+P00886,A0313,bluesky,https://bsky.app/profile/reiniervanlanschot.volteuropa.org,Wikidata Q63164076,2026-11-20
+P00887,A0313,instagram,https://www.instagram.com/reiniervanlanschot/,Wikidata Q63164076,2026-11-20
+P00888,A0313,facebook,https://www.facebook.com/reiniervanlanschot.volt,Wikidata Q63164076,2026-11-20
+P00889,A0313,linkedin,https://www.linkedin.com/in/reinier-van-lanschot-volt/,Wikidata Q63164076,2026-11-20
+P00890,A0313,mastodon,https://mastodon.world/@ReiniervanLanschot,Wikidata Q63164076,2026-11-20
+P00891,A0313,wikipedia,https://en.wikipedia.org/wiki/Reinier_van_Lanschot,Wikidata Q63164076,2026-11-20
+P00892,A0314,x,https://x.com/catarinacv,Wikidata Q126840144,2026-11-20
+P00893,A0314,bluesky,https://bsky.app/profile/catarina-europe.bsky.social,Wikidata Q126840144,2026-11-20
+P00894,A0314,instagram,https://www.instagram.com/catarina.europe/,Wikidata Q126840144,2026-11-20
+P00895,A0314,linkedin,https://www.linkedin.com/in/catarinacv/,Wikidata Q126840144,2026-11-20
+P00896,A0314,wikipedia,https://en.wikipedia.org/wiki/Catarina_Vieira,Wikidata Q126840144,2026-11-20
+P00897,A0311,official_page,https://www.europarl.europa.eu/meps/en/256990,https://www.wikidata.org/wiki/Q126373333,2026-11-20
+P00898,A0312,official_page,https://www.europarl.europa.eu/meps/en/197756,https://www.wikidata.org/wiki/Q64777784,2026-11-20
+P00899,A0313,official_page,https://www.europarl.europa.eu/meps/en/256978,https://www.wikidata.org/wiki/Q63164076,2026-11-20
+P00900,A0314,official_page,https://www.europarl.europa.eu/meps/en/257437,https://www.wikidata.org/wiki/Q126840144,2026-11-20
