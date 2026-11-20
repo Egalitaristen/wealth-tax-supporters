@@ -1,2 +1,3 @@
 position_id,actor_id,body_id,role,party,geo_unit_id,start,end,current,member_ref,checked,source_url
 O00001,A0017,B0001,Poslanec/poslankyně Poslanecké sněmovny,Piráti,G0020,,,y,7049,2026-10-31,https://www.psp.cz/sqw/detail.sqw?id=7049
+O00002,A0021,B0001,Member of the Chamber of Deputies,SPD,G0001,,,n,,2026-11-20,https://www.wikidata.org/wiki/Q6096116
