@@ -623,7 +623,7 @@ K00621,A0313,own_site,https://www.schunter-kleemann.com,2026-11-16,none,,
 K00622,A0353,own_site,https://globalgovernanceprogramme.eui.eu/people/genschel-philipp/,2026-11-16,none,,"not added: x https://x.com/EUI_GlobGovProg (chrome,social-block); youtube https://www.youtube.com/user/globalgovernanceprog (chrome,social-block); linkedin https://www.linkedin.com/showcase/global-governance-programme (chrome,social-block)"
 K00623,A0045,own_site,https://andi-wagner.de/,2026-11-16,found,instagram,
 K00624,A0340,own_site,https://kerem-schamberger.de/,2026-11-16,found,instagram;facebook;x,not added: facebook https://www.facebook.com/fachschaftkw (social-block); facebook https://www.facebook.com/policy.php (social-block); already listed: bluesky
-K00625,A0198,own_site,https://www.uni-due.de/soziooekonomie/rehm.php,2026-11-16,none,,"not added: instagram https://www.instagram.com/ifso_due/ (chrome,social-block); instagram https://www.instagram.com/ude_uni_duisburg_essen/ (chrome,social-block); bluesky https://bsky.app/profile/ifso.bsky.social (chrome,social-block); bluesky https://bsky.app/profile/unidue.bsky.social (chrome,social-block); "
+K00625,A0198,own_site,https://www.uni-due.de/soziooekonomie/rehm.php,2026-11-16,none,,"not added: instagram https://www.instagram.com/ifso_due/ (chrome,social-block); instagram https://www.instagram.com/ude_uni_duisburg_essen/ (chrome,social-block); bluesky https://bsky.app/profile/ifso.bsky.social (chrome,social-block); bluesky https://bsky.app/profile/unidue.bsky.social (chrome,social-block);"
 K00626,A0223,own_site,https://memet-kilic.de/,2026-11-16,found,facebook;x;youtube,
 K00627,A0276,own_site,https://www.udk-berlin.de/person/reyhan-sahin/,2026-11-16,none,,"not added: instagram https://www.instagram.com/udkberlin/ (chrome,social-block); facebook https://www.facebook.com/udkberlin (chrome,social-block)"
 K00628,A0212,own_site,https://www.die-linke.de/partei/parteidemokratie/parteivorstand/parteivorstand-2026-2028/ulrich-schneider/,2026-11-16,found,instagram;facebook;x,"not added: instagram https://www.instagram.com/dielinke/ (chrome,social-block); facebook https://www.facebook.com/linkspartei (chrome,social-block); tiktok https://www.tiktok.com/@die.linke (chrome,social-block); youtube https://www.youtube.com/user/dielinke (chrome,social-block); mastodon https://mastodon.soc"
@@ -632,3 +632,31 @@ K00630,A0015,own_site,https://www.zadasalihovic.de/,2026-11-16,none,,not added: 
 K00631,A0409,own_site,https://www.timon-dzienus.de/,2026-11-16,found,facebook,"already listed: instagram,tiktok,x"
 K00632,A0016,own_site,https://lizzyschubert.de/,2026-11-16,none,,"not added: instagram https://www.instagram.com/lizzy_linx/ (chrome,social-block); tiktok https://www.tiktok.com/@lizzy.linx (chrome,social-block)"
 K00633,A0101,own_site,https://www.agnes-krumwiede.de/,2026-11-16,found,youtube;facebook;instagram;x,
+K00634,A0459,wikipedia,https://en.wikipedia.org/wiki/Gabriele_Bischoff,2026-11-20,none,,
+K00635,A0466,wikipedia,https://en.wikipedia.org/wiki/Anna_Cavazzini,2026-11-20,none,,
+K00636,A0467,wikipedia,https://en.wikipedia.org/wiki/%C3%96zlem_Demirel,2026-11-20,found,website,
+K00637,A0470,wikipedia,https://en.wikipedia.org/wiki/Cornelia_Ernst,2026-11-20,found,website,
+K00638,A0472,wikipedia,https://en.wikipedia.org/wiki/Sebastian_Everding,2026-11-20,none,,
+K00639,A0473,wikipedia,https://en.wikipedia.org/wiki/Ruth_Firmenich,2026-11-20,none,,
+K00640,A0474,wikipedia,https://en.wikipedia.org/wiki/Romeo_Franz,2026-11-20,none,,
+K00641,A0479,wikipedia,https://en.wikipedia.org/wiki/Thomas_Geisel,2026-11-20,none,,
+K00642,A0481,wikipedia,https://en.wikipedia.org/wiki/Pierrette_Herzberger-Fofana,2026-11-20,found,website,
+K00643,A0484,wikipedia,https://en.wikipedia.org/wiki/Dietmar_K%C3%B6ster,2026-11-20,none,,
+K00644,A0487,wikipedia,https://en.wikipedia.org/wiki/Karsten_Lucke,2026-11-20,found,website,
+K00645,A0488,wikipedia,https://en.wikipedia.org/wiki/Erik_Marquardt,2026-11-20,none,,
+K00646,A0498,wikipedia,https://en.wikipedia.org/wiki/Thomas_Rudner,2026-11-20,none,,
+K00647,A0501,wikipedia,https://en.wikipedia.org/wiki/Joachim_Schuster,2026-11-20,found,website,
+K00648,A0505,wikipedia,https://en.wikipedia.org/wiki/Kai_Tegethoff,2026-11-20,none,,
+K00649,A0506,wikipedia,https://en.wikipedia.org/wiki/Michael_von_der_Schulenburg,2026-11-20,found,website,
+K00650,A0507,wikipedia,https://en.wikipedia.org/wiki/Jan-Peter_Warnke,2026-11-20,none,,
+K00651,A0459,wikipedia_langs,https://de.wikipedia.org/wiki/Gabriele_Bischoff,2026-11-20,found,website,
+K00652,A0466,wikipedia_langs,https://de.wikipedia.org/wiki/Anna_Cavazzini,2026-11-20,found,website,
+K00653,A0472,wikipedia_langs,,2026-11-20,none,,no official website in the articles in other languages
+K00654,A0473,wikipedia_langs,https://de.wikipedia.org/wiki/Ruth_Firmenich,2026-11-20,found,website,
+K00655,A0474,wikipedia_langs,,2026-11-20,none,,no official website in the articles in other languages
+K00656,A0479,wikipedia_langs,,2026-11-20,none,,no official website in the articles in other languages
+K00657,A0484,wikipedia_langs,https://de.wikipedia.org/wiki/Dietmar_K%C3%B6ster,2026-11-20,found,website,
+K00658,A0488,wikipedia_langs,https://de.wikipedia.org/wiki/Erik_Marquardt,2026-11-20,found,website,
+K00659,A0498,wikipedia_langs,,2026-11-20,none,,no official website in the articles in other languages
+K00660,A0505,wikipedia_langs,https://de.wikipedia.org/wiki/Kai_Tegethoff,2026-11-20,found,website,
+K00661,A0507,wikipedia_langs,,2026-11-20,none,,no official website in the articles in other languages
