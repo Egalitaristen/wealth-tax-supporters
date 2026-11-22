@@ -1,2 +1,7 @@
 exclusion_id,name,reason,detail,source_url,run_id
 X0001,Lauri Heikkilä,deceased,Official parliamentary register records death (2024); historical sponsor is excluded.,https://avoindata.eduskunta.fi/api/v1/tables/MemberOfParliament/rows,R001
+X0002,Veijo Puhjo,deceased,Wikidata P570 records death (2019-12-09); 2010-12-17 Ei voter on Kuoppa wealth-tax proposal (Aan. 191) is excluded.,https://www.wikidata.org/wiki/Q7918643,R015
+X0003,Esko-Juhani Tennilä,deceased,Wikidata P570 records death (2024-04-06); 2010-12-17 Ei voter on Kuoppa wealth-tax proposal (Aan. 191) is excluded.,https://www.wikidata.org/wiki/Q541499,R015
+X0004,Pentti Tiusanen,deceased,Wikidata P570 records death (2018-12-08); 2010-12-17 Ei voter on Kuoppa wealth-tax proposal (Aan. 191) is excluded.,https://www.wikidata.org/wiki/Q7165321,R015
+X0005,Unto Valpas,deceased,Wikidata P570 records death (2016-09-13); 2010-12-17 Ei voter on Kuoppa wealth-tax proposal (Aan. 191) is excluded.,https://www.wikidata.org/wiki/Q7897739,R015
+X0006,Jyrki Yrttiaho,deceased,Wikidata P570 records death (2021-02-17); 2010-12-17 Ei voter on Kuoppa wealth-tax proposal (Aan. 191) is excluded.,https://www.wikidata.org/wiki/Q3190637,R015

@@ -1,2 +1,2 @@
 harvest_id,title,list_type,url,date,est_size,status,actors_added,notes
-H0001,"Asamblea Nacional plenary vote on the Ley de Solidaridad, 12 May 2016 (94 votes)",roll_call,https://www.asambleanacional.gob.ec/es/node/44232,2016-05-12,,queued,,No per-member list found yet.
+H0001,"Asamblea Nacional plenary vote on the Ley de Solidaridad, 12 May 2016 (94 votes)",roll_call,https://colabora.asambleanacional.gob.ec/s/3HWYXRqyW4sx8dk,2016-05-12,94,done,94,"Asamblea Nacional Sesión 387 (12 May 2016) roll call from colabora.asambleanacional.gob.ec PDF and datos.asambleanacional.gob.ec CSV: 94 SI, 26 NO, 7 ABSTENCION, 10 AUSENTE. 94 new actors added (4 already present); 94 grade B vote rows added."
