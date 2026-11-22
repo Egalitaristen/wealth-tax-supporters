@@ -1,0 +1,100 @@
+folder,slug,name,iso2,kind
+al,albania,Albania,AL,country
+ar,argentina,Argentina,AR,country
+at,austria,Austria,AT,country
+au,african-union,African Union,,supranational
+australia,australia,Australia,AU,country
+ba,bosnia-and-herzegovina,Bosnia and Herzegovina,BA,country
+bd,bangladesh,Bangladesh,BD,country
+be,belgium,Belgium,BE,country
+bg,bulgaria,Bulgaria,BG,country
+bo,bolivia,Bolivia,BO,country
+br,brazil,Brazil,BR,country
+ca,canada,Canada,CA,country
+ch,switzerland,Switzerland,CH,country
+cl,chile,Chile,CL,country
+cn,china,China,CN,country
+co,colombia,Colombia,CO,country
+cr,costa-rica,Costa Rica,CR,country
+cy,cyprus,Cyprus,CY,country
+cz,czechia,Czechia,CZ,country
+de,germany,Germany,DE,country
+dk,denmark,Denmark,DK,country
+do,dominican-republic,Dominican Republic,DO,country
+dz,algeria,Algeria,DZ,country
+ec,ecuador,Ecuador,EC,country
+ee,estonia,Estonia,EE,country
+eg,egypt,Egypt,EG,country
+es,spain,Spain,ES,country
+eu,european-union,European Union,,supranational
+fi,finland,Finland,FI,country
+fr,france,France,FR,country
+gb,united-kingdom,United Kingdom,GB,country
+ge,georgia,Georgia,GE,country
+gh,ghana,Ghana,GH,country
+gr,greece,Greece,GR,country
+gt,guatemala,Guatemala,GT,country
+gy,guyana,Guyana,GY,country
+hn,honduras,Honduras,HN,country
+hr,croatia,Croatia,HR,country
+hu,hungary,Hungary,HU,country
+id,indonesia,Indonesia,ID,country
+ie,ireland,Ireland,IE,country
+in,india,India,IN,country
+ir,iran,Iran,IR,country
+is,iceland,Iceland,IS,country
+it,italy,Italy,IT,country
+jp,japan,Japan,JP,country
+ke,kenya,Kenya,KE,country
+kr,south-korea,South Korea,KR,country
+lb,lebanon,Lebanon,LB,country
+lk,sri-lanka,Sri Lanka,LK,country
+lt,lithuania,Lithuania,LT,country
+lu,luxembourg,Luxembourg,LU,country
+lv,latvia,Latvia,LV,country
+ma,morocco,Morocco,MA,country
+me,montenegro,Montenegro,ME,country
+mk,north-macedonia,North Macedonia,MK,country
+ml,mali,Mali,ML,country
+mt,malta,Malta,MT,country
+mw,malawi,Malawi,MW,country
+mx,mexico,Mexico,MX,country
+my,malaysia,Malaysia,MY,country
+na,namibia,Namibia,NA,country
+ne,niger,Niger,NE,country
+ng,nigeria,Nigeria,NG,country
+nl,netherlands,Netherlands,NL,country
+no,norway,Norway,NO,country
+nz,new-zealand,New Zealand,NZ,country
+pa,panama,Panama,PA,country
+pe,peru,Peru,PE,country
+ph,philippines,Philippines,PH,country
+pk,pakistan,Pakistan,PK,country
+pl,poland,Poland,PL,country
+pt,portugal,Portugal,PT,country
+py,paraguay,Paraguay,PY,country
+ro,romania,Romania,RO,country
+rs,serbia,Serbia,RS,country
+ru,russia,Russia,RU,country
+sa,saudi-arabia,Saudi Arabia,SA,country
+se,sweden,Sweden,SE,country
+sg,singapore,Singapore,SG,country
+si,slovenia,Slovenia,SI,country
+sk,slovakia,Slovakia,SK,country
+sn,senegal,Senegal,SN,country
+sr,suriname,Suriname,SR,country
+sv,el-salvador,El Salvador,SV,country
+th,thailand,Thailand,TH,country
+tn,tunisia,Tunisia,TN,country
+tr,turkey,Turkey,TR,country
+tz,tanzania,Tanzania,TZ,country
+ua,ukraine,Ukraine,UA,country
+ug,uganda,Uganda,UG,country
+un,united-nations,United Nations,,supranational
+us,united-states,United States,US,country
+uy,uruguay,Uruguay,UY,country
+ve,venezuela,Venezuela,VE,country
+vn,vietnam,Vietnam,VN,country
+za,south-africa,South Africa,ZA,country
+zm,zambia,Zambia,ZM,country
+zw,zimbabwe,Zimbabwe,ZW,country
