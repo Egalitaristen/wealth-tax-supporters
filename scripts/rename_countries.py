@@ -96,7 +96,7 @@ def resource_slugs():
     for x in json.loads((ROOT / "data" / "resources.json").read_text(encoding="utf-8")):
         s = x.get("slug") or ""
         head = s.split("-")[0]
-        if head in CHANGING:
+        if head in CHANGING and "-" in s:  # a slug that is only a code (jp) is too short to find in free text
             out[s] = CHANGING[head] + s[len(head):]
     return out
 
