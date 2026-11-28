@@ -4,5 +4,18 @@
   "lead": "",
   "status": "in progress",
   "boundaries": "boundaries.json",
-  "notes": "Seed pass covering national legislature (State Duma), parliamentary parties (CPRF, SRZP, Yabloko), academic economists, and public figures. Local tier (2,327 rayons/urban okrugs) and 83 federal subjects loaded from geoBoundaries gbOpen (ODbL 1.0)."
+  "notes": "Seed pass covering national legislature (State Duma), parliamentary parties (CPRF, SRZP, Yabloko), academic economists, and public figures. Local tier (2,327 rayons/urban okrugs) and 83 federal subjects loaded from geoBoundaries gbOpen (ODbL 1.0).",
+  "polls": [
+    {
+      "support": 57,
+      "support_text": "57 per cent strongly or somewhat supported it; leaving out those who were indifferent, support was 80 per cent. In a separate yes/no question on an international 2% tax on net worth above US$1 million, between 69 and 77 per cent said yes, depending on which other countries were said to take part",
+      "scope": "Russia, adults, online sample (Russia's results from an 11-country survey)",
+      "question": "Support or oppose: a minimum tax of 2% on the wealth of billionaires, in voluntary countries",
+      "pollster": "Adrien Fabre (survey fielded online with Yandex)",
+      "fieldwork": "2025-09-19 to 2025-10-09",
+      "sample": "1,001 online respondents in Russia, reweighted",
+      "published": "2025-12",
+      "url": "https://prod.wid.world/www-site/uploads/2025/11/WorldInequalityLab_WP2025_26_-Public-International-Redistribution-in-High-Income-Countries_Final.pdf"
+    }
+  ]
 }
