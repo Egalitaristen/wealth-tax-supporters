@@ -26,3 +26,7 @@
 - One supporter: Aminata Touré (grade B), who at the Vatican/ICRICT event of 13 February 2025 hoped the richest would pay "higher taxes on wealth" and that a minimum tax on the super-rich could be an early protocol of the UN tax convention.
 - Support inside Senegal looks thin or unrecorded: broad searches found no wealth tax campaign. This is a finding about the search, not proof of absence.
 - Next: Pastef programme text, union congress texts (CNTS, UNSAS), Oxfam and Enda in Dakar, Senegalese economists' columns (Le Soleil, SenePlus, Seneweb site searches), signatories of Africa-wide G20 letters, Senegal's statements in the UN tax convention talks.
+
+## Run R002 (2026-11-28): grow pass
+
+Searched in French, English and (once) Wolof for PASTEF figures, unions (CNTS, UNSAS), Forum Civil, Oxfam, economists and opinion pieces, and read the signatory list of the November 2025 Africa open letter to President Ramaphosa. No new supporter was found. The 2016 Fair Tax Monitor study states that Senegal has no wealth tax in the strict sense and does not recommend one in the passages read. Not read: the PASTEF programme text, the union grievance books, Assembly debate records and the full Vatican speech of A0001 (the site served a bot check).
