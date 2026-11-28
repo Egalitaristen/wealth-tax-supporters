@@ -14,7 +14,7 @@ Files in this skill (use them if present; the rules in this file are sufficient 
 - `references/pre-pr-checklist.md` — the checks to run before opening a pull request; `references/election-refresh.md` — refreshing a chamber's seats after an election
 - `references/source-playbook.md` — layers, bulk-list sources, query templates, search terms in many languages
 - `references/area-profile-template.md` — what to establish about an area before searching
-- `references/countries/<iso2>.md` — one guide per country already researched: its levels of government, sources that work and those that block, and quirks. Read the nearest one. `gb.md` records the UK's exhaustive council sweep, a worked example and not the template for every country
+- `references/countries/<country>.md` — one guide per country already researched: its levels of government, sources that work and those that block, and quirks. Read the nearest one. `united-kingdom.md` records the UK's exhaustive council sweep, a worked example and not the template for every country
 - `scripts/wtdb.py` — Python helper (stdlib; `openpyxl` only for xlsx export): `init`, `add`, `set`, `validate`, `dedupe`, `merge`, `checkquotes`, `status`, `export`
 - `scripts/profiles_wikidata.py` — fills `profiles.csv` (websites, socials, Wikipedia) from Wikidata IDs
 - `scripts/topo_to_boundaries.py` — turns a TopoJSON or shapefile of local areas (and their region outlines) into `boundaries.json`, so the country gets a local map on the site

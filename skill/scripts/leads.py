@@ -3,7 +3,7 @@
 
 Usage:
   python skill/scripts/leads.py add --country AE --name "Name" --url https://... [--role "..."] [--kind person|organisation|petition]
-                                    [--note "what they said, why it is a lead"] [--from data/mx]
+                                    [--note "what they said, why it is a lead"] [--from data/mexico]
   python skill/scripts/leads.py list [--country MX] [--status open]      (a country also matches its regions: US matches US-CA)
   python skill/scripts/leads.py close L0007 --status used|rejected|duplicate [--run R003]
   python skill/scripts/leads.py summary                                  (open leads per country)
@@ -69,7 +69,7 @@ def main():
     a_.add_argument("--country", required=True, help="ISO 3166-1 alpha-2 (AE), a region (US-CA), or a body (UN, EU, AU) when it has no country")
     a_.add_argument("--name", required=True); a_.add_argument("--url", required=True)
     a_.add_argument("--role", default=""); a_.add_argument("--kind", default="person", choices=("person", "organisation", "petition"))
-    a_.add_argument("--note", default=""); a_.add_argument("--from", dest="found_in", default="", help="the area being researched, e.g. data/mx")
+    a_.add_argument("--note", default=""); a_.add_argument("--from", dest="found_in", default="", help="the area being researched, e.g. data/mexico")
     l_ = sub.add_parser("list")
     l_.add_argument("--country"); l_.add_argument("--status", default="open", help="open (default), used, rejected, duplicate or all")
     c_ = sub.add_parser("close")

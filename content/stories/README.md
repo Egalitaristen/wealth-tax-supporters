@@ -41,7 +41,7 @@ Markdown, restricted on purpose (the build escapes everything and allows only th
   `## How it works {#how}` to fix the anchor so later wording changes never break links. `timeline`, `sources` and `src-*` are reserved.
   Text before the first `##` is the introduction.
 - `### Subheading`, paragraphs, `- ` lists, `1. ` lists, `**bold**`, `*italic*`.
-- `[text](https://...)` or `[text](/ch/directory)`: only http(s) and site-relative links survive.
+- `[text](https://...)` or `[text](/switzerland/directory)`: only http(s) and site-relative links survive.
 - `[3]` is a numbered source reference, linked to the entry with `id: 3` in `sources`.
 - `> text` is a pull quote. A last line `> — Name, source` is its attribution.
 - `{{supporters}}` on a line of its own draws the live "Who supports it" block: parties, politicians, economists and unions from the country's register, with counts, one line of role per entry, links to each entry and to the directory. Use it once, in the section on who backs the tax, below an editorial paragraph.

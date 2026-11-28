@@ -648,7 +648,7 @@ FEATURE_THIRD_PERSON = re.compile(
 
 
 def featured_skip():
-    """Evidence ids kept off the home page by hand (data/featured_skip.txt, one `<iso2>:<evidence id>` per line, lower case, for example `no:E00027`, # comments allowed): a quote that is
+    """Evidence ids kept off the home page by hand (data/featured_skip.txt, one `<iso2>:<evidence id>` per line, lower case, for example the line for Norway starts with the code and a colon; # comments allowed): a quote that is
     correct and graded A but reads as an aside without its context."""
     path = DATA / "featured_skip.txt"
     if not path.exists():

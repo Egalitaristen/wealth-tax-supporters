@@ -43,7 +43,7 @@ The story dialect (`content/stories/README.md`): `## Heading {#anchor}` sections
 `[text](url)`, `[3]` source references, `> quote`. Arguments do not use `{{supporters}}`; their one block is `{{chart: id}}` (below).
 
 Links between pages: `/arguments/<slug>` (add `#anchor` to point at a section), `/us` and `/us/story#anchor` for countries,
-`/us/A0675` for a register entry, `/resources/<slug>` for a bill, `/calculator?w=...` for the calculator.
+`/united-states/A0675` for a register entry, `/resources/<slug>` for a bill, `/calculator?w=...` for the calculator.
 
 ## Charts
 
@@ -78,7 +78,7 @@ The hub order, and each page's short title (breadcrumb, previous/next links, car
 It fails on: a missing required field; an unknown front matter field (a `timeline` included); a duplicate slug or source id; a `[n]`
 in the body or a fact `source` with no entry in `sources`; a source without an `https` url; a file that is not in `ARGUMENT_ORDER`
 (or an entry with no file). It prints, without failing, sources that are never cited and **internal links that do not resolve**: every
-`/arguments/...`, country, register entry (`/us/A0675`), section anchor and `/resources/<slug>` link in the body is checked against
+`/arguments/...`, country, register entry (`/united-states/A0675`), section anchor and `/resources/<slug>` link in the body is checked against
 what the build wrote. `--strict-links` turns the link report into a failure.
 
 ## Writing

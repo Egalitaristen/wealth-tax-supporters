@@ -1,13 +1,13 @@
 #!/usr/bin/env python3
 """Refresh the US Congress seat data from the congress-legislators project (public domain, CC0).
 
-Usage: python skill/scripts/seats_us.py data/us [--bootstrap-others] [--dry-run]
+Usage: python skill/scripts/seats_us.py data/united-states [--bootstrap-others] [--dry-run]
 
 Source: https://github.com/unitedstates/congress-legislators (legislators-current.json and legislators-historical.json),
 a public-domain compilation of the Biographical Directory of the US Congress and the chambers' own member lists, updated
 by volunteers as members take and leave office.
 
-Writes, for data/us:
+Writes, for data/united-states:
   bodies.csv     the US Senate (100) and the US House of Representatives (435 voting seats plus 6 non-voting delegates
                  and resident commissioners = 441), seat_view=y, as of today
   seats.csv      each chamber's seats by party, with a Vacant row for empty seats

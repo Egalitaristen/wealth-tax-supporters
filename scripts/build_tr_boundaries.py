@@ -113,7 +113,7 @@ def build_geo_units():
         "queries_run", "hits", "notes", "code"
     ]
 
-    out_path = ROOT / "data/tr/geo_units.csv"
+    out_path = ROOT / "data/turkiye/geo_units.csv"
     with open(out_path, "w", encoding="utf-8", newline="") as f:
         writer = csv.DictWriter(f, fieldnames=fieldnames)
         writer.writeheader()
@@ -172,7 +172,7 @@ def build_boundaries():
     enriched_p = SRC_DIR / "provinces_named.topojson"
     mun_out = SRC_DIR / "mun.json"
     prov_out = SRC_DIR / "prov.json"
-    final_out = ROOT / "data/tr/boundaries.json"
+    final_out = ROOT / "data/turkiye/boundaries.json"
 
     # Step 1: units (districts)
     cmd_mun = [

@@ -8,7 +8,7 @@ The register holds supporters **of this area**.
 
 - A statement addressed to several countries, or to another country, is not evidence for this one (a regional paper's authors, a report about "the region"). Leave it out, or record the organisation only if it acted in or towards this area.
 - A person who lives and works elsewhere belongs in their home register, even when they speak to your country's audience (a UK commentator interviewed on an Australian programme). Log a lead for their home area (6.12); do not add them here.
-- A folder name that collides with an ISO code of an existing body gets the country's full lowercase name (`australia`, because `au` is the African Union). Say so in `meta.json` `notes`.
+- A folder is the country's full English name in lower case with hyphens (`united-kingdom`), listed in `data/countries.csv`; `meta.json` holds the ISO code in `iso2`.
 
 ## 2. Is it a wealth tax? (section 2)
 
@@ -53,7 +53,7 @@ A party platform, coalition statement or roster is evidence about that body only
 - `current=y` only for people found on the body's own official list, with the date in `checked`.
 - Seat counts come from the body's official list, never from memory.
 - **Run the seat refresh whenever your run added or changed a politician**, in any country that has an adapter (`ADAPTERS` in `skill/scripts/seats.py`; the UK and US use `seats_uk.py` and `seats_us.py`):
-  `python skill/scripts/seats.py data/<iso2> --fix-status`. It lights the seats of new supporters who sit today, ends the seats of those who left, and prints every role, party or status that disagrees with the official list. Read that list and fix each line, then say in the PR how many seats are newly lit. A run that adds politicians and skips the refresh leaves the Seats tab behind: in November 2026 this missed 13 lit seats in five countries. If the adapter cannot read its source, say so in the PR and link the seats issue; do not hand-write `current=y`.
+  `python skill/scripts/seats.py data/<country> --fix-status`. It lights the seats of new supporters who sit today, ends the seats of those who left, and prints every role, party or status that disagrees with the official list. Read that list and fix each line, then say in the PR how many seats are newly lit. A run that adds politicians and skips the refresh leaves the Seats tab behind: in November 2026 this missed 13 lit seats in five countries. If the adapter cannot read its source, say so in the PR and link the seats issue; do not hand-write `current=y`.
 - **Names in other scripts.** Where the body's own list is in Arabic, Greek, Cyrillic, Hebrew, Thai or another non-Latin script, write the politician's name in that script in brackets after the Latin one (`Name (الاسم)`, as for Korean and Japanese names); without it the refresh cannot match them and the seat stays dark. A country with no adapter at all (`seats.py` stops with its name): say so in the PR.
 - A politician who retired is not a missed seat: record the position with `current=n` and an `end` date, set the role to the former office and the status to `former_role`. Peers are listed by title ("Baroness Bryan of Partick"), not by the name the register uses.
 
@@ -71,7 +71,7 @@ python skill/scripts/wtdb.py dedupe data/<slug>
 python skill/scripts/review_scan.py data/<slug> --names
 ```
 
-Read what `review_scan.py` lists and fix or remove the rows. Besides the evidence checks it flags actors described as students or trainees, quotes that narrate the person in the third person, quotes that describe a proposal without recommending a tax, income surcharges typed as a wealth tax, multi-country statements, and people who are both an actor and an exclusion. `validate` warns about the last of these and about a folder name that is not the ISO code. Do not commit scratch scripts, caches or downloaded files: put the recipe for a country's geography or map in `skill/references/countries/<iso2>.md` instead. A missing map is not a blocker for a first pass: record which sources you checked in `meta.json` `notes` and open a follow-up issue for it.
+Read what `review_scan.py` lists and fix or remove the rows. Besides the evidence checks it flags actors described as students or trainees, quotes that narrate the person in the third person, quotes that describe a proposal without recommending a tax, income surcharges typed as a wealth tax, multi-country statements, and people who are both an actor and an exclusion. `validate` warns about the last of these and about a folder name that is not the ISO code. Do not commit scratch scripts, caches or downloaded files: put the recipe for a country's geography or map in `skill/references/countries/<country>.md` instead. A missing map is not a blocker for a first pass: record which sources you checked in `meta.json` `notes` and open a follow-up issue for it.
 
 ## 11. Data hygiene
 

@@ -125,7 +125,7 @@ Two thirds of the households that paid the ISF in 2017 were not liable for the I
 
 {{chart: france-revenue}}
 
-A property tax in place of a wealth tax is a tax cut for everyone whose wealth is not in property. The [French story](/fr) has the full account, and [Europe repealed it](/arguments/europe-repealed-it) takes up what repeal cost elsewhere.
+A property tax in place of a wealth tax is a tax cut for everyone whose wealth is not in property. The [French story](/france) has the full account, and [Europe repealed it](/arguments/europe-repealed-it) takes up what repeal cost elsewhere.
 
 ## The family home is not the target {#home}
 

@@ -7,15 +7,15 @@ Each country's refresh is an issue labelled `roadmap`, `seats` and `scheduled` o
 ## Before you start
 
 1. **Check the new chamber really sits** and the official list is current: a parliament's list can lag the swearing-in, and a dissolved chamber lists only part of its members (Spain's deputies' mandates end at dissolution). If the list is not ready, say so on the issue and stop; do not refresh from a half-updated list.
-2. Read the country guide, `skill/references/countries/<iso2>.md`, for the adapter, the source, quirks (a list that only opens in a browser, a name format) and what was done last time.
+2. Read the country guide, `skill/references/countries/<country>.md`, for the adapter, the source, quirks (a list that only opens in a browser, a name format) and what was done last time.
 
 ## Run the refresh
 
 ```bash
-python skill/scripts/seats.py data/<iso2> --fix-status
+python skill/scripts/seats.py data/<country> --fix-status
 ```
 
-The adapter rebuilds the chamber's seats and positions from the parliament's own list and prints every supporter whose role, party or status disagrees with it. UK and US: `seats_uk.py data/gb` and `seats_us.py data/us`. Lists that refuse scripts are read once in a browser and passed with `--local` (see the country guide). Never type seat counts or party splits from memory.
+The adapter rebuilds the chamber's seats and positions from the parliament's own list and prints every supporter whose role, party or status disagrees with it. UK and US: `seats_uk.py data/united-kingdom` and `seats_us.py data/united-states`. Lists that refuse scripts are read once in a browser and passed with `--local` (see the country guide). Never type seat counts or party splits from memory.
 
 Read what it prints before committing. A name-only match, or "not on today's list", can be a spelling difference as well as a real departure: open the person's page on the body's own site.
 
@@ -33,6 +33,6 @@ A new parliament has new members, and some of them will be supporters nobody has
 
 ## Finish
 
-1. `wtdb.py validate data/<iso2>` and, for the European Parliament, also `data/eu`.
+1. `wtdb.py validate data/<country>` and, for the European Parliament, also `data/european-union`.
 2. Open a pull request. Report, from the files: seats lit before and after; who left, who joined, who changed party; what the adapter flagged and how you resolved each.
 3. Close the issue, and open the issue for the country's next election with its date (the project board's *Waits for* field), so the cycle continues.

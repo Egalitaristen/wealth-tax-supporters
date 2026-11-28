@@ -56,7 +56,7 @@ sources:
     url: https://taxextremewealth.com/signatures
   - id: 11
     title: Wealth Tax Supporters, California Billionaire Tax Act (Proposition 40), with the result reported on 9 November 2026
-    url: https://wealthtaxsupporters.com/resources/us-california-billionaire-tax-act
+    url: https://wealthtaxsupporters.com/resources/united-states-california-billionaire-tax-act
 ---
 Economists do not often agree on tax. So it matters when the winners of the economics Nobel, a prize given for work on how economies actually behave, sign the same page and ask for a tax on the biggest fortunes. Eight of them have done it, on the record.
 

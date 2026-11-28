@@ -221,6 +221,8 @@ def cmd_init(a):
                        "boundaries": "", "notes": ""}, f, indent=2, ensure_ascii=False)
             f.write("\n")
     print(f"Initialised {a.dir} for {a.area}")
+    if not countries.row(a.dir):
+        print("Add this folder to data/countries.csv (folder = the lower-case ISO code, slug = the folder name) and set iso2 in meta.json; then run `python skill/scripts/countries.py`.")
 
 
 def parse_rows(arg):
@@ -569,10 +571,10 @@ def check_boundaries(d, db):
 
 
 def validate_supranational(d):
-    """A body above the countries (data/eu): only bodies, seats and positions. Its supporters are actors in the country registers, referred
+    """A body above the countries (data/european-union): only bodies, seats and positions. Its supporters are actors in the country registers, referred
     to as <country folder>-<actor id>; check each one exists there, and that a body's seat rows add up to its seats."""
     errs, warns = [], []
-    db = {t: load(d, t) for t in ("bodies", "seats", "positions", "actors", "evidence", "exclusions", "runs")}  # actors, evidence: only a body whose members are governments (data/un) holds its own
+    db = {t: load(d, t) for t in ("bodies", "seats", "positions", "actors", "evidence", "exclusions", "runs")}  # actors, evidence: only a body whose members are governments (data/united-nations) holds its own
     for t, rows in db.items():
         seen = set()
         for i, r in enumerate(rows, start=2):
@@ -642,19 +644,11 @@ def cmd_validate(a):
 
 
 def check_folder(d, meta):
-    """Warning when the folder name is not the lowercase ISO code (or <iso2>-<region>), unless the code is taken by another folder."""
+    """Warning when a register's folder is not listed in data/countries.csv (a folder is the country's full name, as a slug)."""
     slug = os.path.basename(os.path.abspath(d))
-    iso = (meta.get("iso2") or "").lower()
-    if countries.row(slug):  # listed in data/countries.csv
+    if not countries.rows() or countries.row(slug):
         return []
-    if not iso or slug == iso or slug.startswith(iso + "-"):
-        return []
-    parent = os.path.dirname(os.path.abspath(d))
-    for other in os.listdir(parent):
-        mp = os.path.join(parent, other, "meta.json")
-        if other != slug and os.path.exists(mp) and (json.load(open(mp, encoding="utf-8")).get("iso2") or "").lower() == iso:
-            return []
-    return [f"folder: '{slug}' is not the lowercase ISO code '{iso}' (or {iso}-<region>). Use the code, or the country's name only when another folder already holds the code (SKILL.md 5)"]
+    return [f"folder: '{slug}' is not listed in data/countries.csv. Name the folder with the country's full name (united-kingdom), add its row there and run `python skill/scripts/countries.py` (SKILL.md 5)"]
 
 
 # ---------- the generated column blocks in data-format.md ----------

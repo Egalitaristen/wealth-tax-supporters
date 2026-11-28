@@ -6,7 +6,7 @@ The units file (the local tier) keeps its viewBox, licence and codes; `regions` 
 higher still (régions, autonomous communities). Make all three files with the same --project, --scale and --shift
 so the lines fall on the unit borders.
 
-  python skill/scripts/merge_boundaries.py mun.json --regions prov.json --upper ccaa.json --out data/es/boundaries.json
+  python skill/scripts/merge_boundaries.py mun.json --regions prov.json --upper ccaa.json --out data/spain/boundaries.json
 """
 import argparse, json, sys
 from pathlib import Path

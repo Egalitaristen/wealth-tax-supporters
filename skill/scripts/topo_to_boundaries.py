@@ -18,12 +18,12 @@ Examples
   python skill/scripts/topo_to_boundaries.py counties-albers-10m.json --object counties --code-prop id \\
       --scale 4 --simplify 1.5 --source "US Census cartographic boundaries via us-atlas" \\
       --licence "Public domain (US Government work)" --licence-url https://www.usa.gov/government-copyright \\
-      --code-scheme "Census FIPS county codes" --out data/us/boundaries.json
+      --code-scheme "Census FIPS county codes" --out data/united-states/boundaries.json
 
   # German Kreise from the BKG shapefile (planar UTM metres, so scale them down)
   python skill/scripts/topo_to_boundaries.py VG2500_KRS.shp --name-prop GEN --code-prop AGS --scale 0.002 \\
       --flip-y --simplify 0.6 --source "(c) GeoBasis-DE / BKG (2025)" --licence dl-de/by-2-0 \\
-      --licence-url https://www.govdata.de/dl-de/by-2-0 --code-scheme AGS --out data/de/boundaries.json
+      --licence-url https://www.govdata.de/dl-de/by-2-0 --code-scheme AGS --out data/germany/boundaries.json
 
   # Spanish provinces from es-atlas (IGN shapes), Gibraltar dropped and the Canary Islands moved into an inset
   python skill/scripts/topo_to_boundaries.py provinces.json --object provinces --code-prop id --where "id!=54" \

@@ -177,4 +177,4 @@ Argentina's 2024 law cuts the top rate of its tax from 1.5% in 2023 to a flat 0.
 
 ## Where to look next {#next}
 
-The [Norwegian](/no), [Swedish](/se), [Colombian](/co) and [Uruguayan](/uy) stories carry the underlying figures. The next page takes up the claim that a wealth tax doesn't raise enough: [not enough](/arguments/not-enough).
+The [Norwegian](/norway), [Swedish](/sweden), [Colombian](/colombia) and [Uruguayan](/uruguay) stories carry the underlying figures. The next page takes up the claim that a wealth tax doesn't raise enough: [not enough](/arguments/not-enough).

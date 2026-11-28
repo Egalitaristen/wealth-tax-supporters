@@ -175,4 +175,4 @@ Eleven countries levy an annual tax on net wealth today, Norway and Switzerland 
 
 ## Where to look next {#next}
 
-The [Norwegian](/no), [French](/fr) and [Swiss](/ch) stories carry the underlying figures. The page on [Europe repealing the tax](/arguments/europe-repealed-it) shows what repeal cost in the countries that did it, and the next page takes up the claim that wealth cannot be valued: [you cannot value it](/arguments/you-cannot-value-it).
+The [Norwegian](/norway), [French](/france) and [Swiss](/switzerland) stories carry the underlying figures. The page on [Europe repealing the tax](/arguments/europe-repealed-it) shows what repeal cost in the countries that did it, and the next page takes up the claim that wealth cannot be valued: [you cannot value it](/arguments/you-cannot-value-it).

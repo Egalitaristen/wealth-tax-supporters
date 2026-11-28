@@ -150,4 +150,4 @@ Valuation and payment are separate questions. Norway lets owners defer the part 
 
 ## Where to look next {#next}
 
-The [Norwegian](/no), [Swiss](/ch), [German](/de) and [Spanish](/es) stories carry the details of each system, and the pillar page shows [how loans against shares](/arguments/why-tax-wealth#bank) turn a fortune into spending without a taxable event.
+The [Norwegian](/norway), [Swiss](/switzerland), [German](/germany) and [Spanish](/spain) stories carry the details of each system, and the pillar page shows [how loans against shares](/arguments/why-tax-wealth#bank) turn a fortune into spending without a taxable event.
