@@ -46,3 +46,7 @@ L'Orient-Le Jour and L'Orient Today, An-Nahar, Al-Akhbar (bot check on plain cli
 
 ## 10. Plan for the next runs
 See `runs.csv` R001 `notes_next`.
+
+## Run R002 (2026-11-28): grow pass
+
+Added: nine further signatories of the October 2019 economists' statement that calls for a tax on wealth (read only on a blog that reproduces it in English; the same statement is added for Lydia Assouad and Ghassan Dibeh), the Progressive Socialist Party (November 2026), Oxfam (October 2023), Nabil Abdo (October 2020), Samir Daher (December 2019) and Imad Akoush (February 2021). Georges Corm, also a signatory, died in 2024. Quotes: 15 found by the checker, 1 (Abdo) checked by hand on the page. Still unread: the Arabic original of the 2019 statement, Al-Akhbar columns (bot check), the 2021 bill on the Parliament site, change parties and unions. No poll found.

@@ -31,3 +31,7 @@ Seed pass of 2026-11-13 (run R001). Six rows from five actors, all dated 2018 to
 2. Church and UCA beyond the Archbishop; unions (2 May 2022 El Mundo article); FUNDE and FUSADES.
 3. Former FMLN deputies and 2027 campaign statements.
 4. Polls: none found. Seats: replace the Wikipedia split with the Asamblea's list.
+
+## Run R002 (2026-11-28): grow pass
+
+Added the FMLN (2018-2021 legislative platform: a tax on large estates; news report read on the Internet Archive) and Lorena Peña (May 2017: a net-wealth tax from US$500,000). Both quotes were checked by hand on the page text; the checker could not read either. Unread: the platform text, the initiative Peña announced and its co-signers, the FUDECEN study, union sites. No poll found.
