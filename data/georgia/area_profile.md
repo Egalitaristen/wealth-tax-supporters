@@ -46,3 +46,7 @@ Civil.ge, OC Media, JAMnews (Russian and English), Interpressnews, Radio Liberty
 
 ## 10. Plan for the next runs
 See `runs.csv` R006 `notes_next`. Prioritise the 2018 questionnaire and Labour election programmes, then left movements and official records. Five councils received one search each, not a records sweep.
+
+## Run R007 (2026-11-28): grow pass
+
+Searched in Georgian and English and closed five open leads: no new supporter. Recent debate concerns the household-income threshold of the property tax, which is outside the definition. Not read: Labour Party programmes, Social Justice Center publications (bot check), parliament.ge bills. No poll found.

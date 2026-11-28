@@ -43,3 +43,7 @@ Seed pass of 2026-11-13 (run R001). Web-search summaries were only used to find 
 2. Hansard of 6 December 2022 and later budget debates for MPs who spoke for a net wealth tax (D0003).
 3. ZIMCODD budget analyses and the economist Zvikomborero Sibanda (D0001, D0002); ZCTU and church submissions.
 4. The Parliament member list for a Seats chart with named members; whether A0006 sits in the 10th Parliament.
+
+## Run R002 (2026-11-28): grow pass
+
+Added ZIMCODD (a redistributive wealth tax, January 2022) and Development Finance International (the 2025 Zimbabwe CRI profile recommends a wealth tax on the wealthiest 1%, distinct from the 2024 property levy). Nothing found for ZCTU, churches or CCC; the Shona and Ndebele search returned nothing local. Several old NewsDay and Zimbabwe Independent addresses no longer resolve. No poll was found.
