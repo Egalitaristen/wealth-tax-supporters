@@ -29,3 +29,7 @@ Seed pass of 2026-11-13 (run R001). Thin result: the 2023 to 2025 tax debate was
 2. Read the Libre 2026-2030 platform and the 2021 Plan de Gobierno Refundacional.
 3. CESPAD, FOSDEH, ICEFI, CUTH, Colegio de Economistas, churches; polls (none found).
 4. Seats: replace the press split with the Congress's own list once reachable; add current deputies (Libre bench) only with their own statements.
+
+## Run R002 (2026-11-28): grow pass
+
+Added the Libre government plan for 2022-2026, which lists a tax on large fortunes among its fiscal proposals (the plan says "único", which may mean one-off or a single tax), and a second statement by Ramón Barrios (his own post of 23 February 2023). Searched Spanish sources for unions, campesino organisations, FOSDEH, CESPAD and columnists: no further supporter found. Not read: the Libre 2025 platform text, union and campesino sites, Congress records.
