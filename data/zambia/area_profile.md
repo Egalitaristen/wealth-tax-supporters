@@ -42,3 +42,11 @@ Seed pass of 2026-11-13 (run R001). Web-search summaries were only used to find 
 2. JCTR 2011 taxation report; JCTR, CSPR, ZCTU, Oxfam Zambia pre-budget submissions for the 2026 and 2027 budgets.
 3. Fight Inequality Alliance Zambia (needs a browser); Hansard budget debates 2020-2026.
 4. Seats chart once the 2026 National Assembly is settled.
+
+## Run R002 (2026-11-28): grow pass
+
+The 2025 Zambia country profile of the Commitment to Reducing Inequality Index recommends a wealth tax on the richest 1%: recorded on its research authors' organisation (Development Finance International) and its publisher (Norwegian Church Aid and DanChurchAid Zambia). The 2011 JCTR tax study was read and excluded (its "wealth taxes" are taxes on capital income and gains). No new Zambian individual was found. Not read: the Socialist Party manifesto text, Hansard, the Fight Inequality Alliance statement.
+
+## Review corrections (2026-11-28)
+
+`E00007` (Norwegian Church Aid and DanChurchAid Zambia, publisher and co-funder of the 2025 profile) lowered from A to B: the recommendation is written by the report's research authors.

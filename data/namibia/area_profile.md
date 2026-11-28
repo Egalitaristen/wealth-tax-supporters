@@ -44,3 +44,7 @@ Seed pass of 2026-11-13 (run R001). Web-search summaries were only used to find 
 2. Read the 2024 manifestos (LPM, AR, IPC, PDM, SWANU) in full; parliament order papers and Hansard for the 2015-16 debate.
 3. Oxfam, ActionAid, TJNA and IPPR statements; Afrikaans and German searches.
 4. Constituencies for the 2023 delimitation (121) when an open map exists.
+
+## Run R002 (2026-11-28): grow pass
+
+Added Tangeni Iijambo, then president of SWANU and a member of the National Assembly, who called in February 2021 for a wealth tax to be introduced immediately (read on an Internet Archive copy). The BIG Coalition's 2024 submission stays an open lead: the Namibian Sun article is paywalled beyond its lede. Searched in English and once in Afrikaans and German. Not read: party manifestos other than NEFC, Hansard on the 2015-16 solidarity tax.
