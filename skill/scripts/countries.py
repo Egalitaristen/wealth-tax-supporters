@@ -50,6 +50,21 @@ def flag(name):
     return r["flag"] if r else ""
 
 
+WORKER_MAP = DATA.parent / "worker" / "country-slugs.js"
+
+
+def worker_map():
+    """The text of worker/country-slugs.js: old folder code -> full-name slug, for the redirects."""
+    pairs = "".join(f"  {r['folder']!r}: {r['slug']!r},\n" for r in rows() if r["folder"] != r["slug"] and len(r["folder"]) == 2)
+    return ("// Generated from data/countries.csv by `python skill/scripts/countries.py`; do not edit by hand.\n"
+            "export default {\n" + pairs + "};\n")
+
+
 def supranational():
     """Both names of every supranational folder."""
     return {n for r in rows() if r["kind"] == "supranational" for n in (r["folder"], r["slug"])}
+
+
+if __name__ == "__main__":
+    WORKER_MAP.write_text(worker_map(), encoding="utf-8", newline="\n")
+    print(f"wrote {WORKER_MAP.name}")
