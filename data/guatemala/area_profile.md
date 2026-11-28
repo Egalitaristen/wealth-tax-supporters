@@ -30,3 +30,7 @@ Seed pass of 2026-11-13 (run R001). Thin result: three supporters. Guatemala's f
 2. The 2026 inheritance-tax repeal (Decree 6-2026) and IUSI debates: deputies who argued for taxing large estates or fortunes.
 3. Unions, campesino organisations and the Catholic Church (no statement found yet).
 4. Polls: none found. Seats: replace the 2023 split with the Congress's own list once reachable.
+
+## Run R002 (2026-11-28): grow pass
+
+Searched Spanish sources on unions, ICEFI, columnists and the 2015 CICIG debate. No new qualifying supporter. The UNE initiative 5003 of December 2015 cites the CICIG proposal of a tax on large estates but amends income tax, so it is excluded. No poll found. Unread: ICEFI 2012-2016 papers, 2015-2016 session journals, union sites.

@@ -1,2 +1,3 @@
 run_id,date,assistant,focus,targets,queries_run,sources_opened,candidates_seen,new_actors,new_evidence,grade_upgrades,saturation,notes_next
 R001,2026-11-13,Claude,"Seed pass, national level: FUDECEN wealth-tax proposal, Church, ICEFI, Oxfam, FMLN, unions, seats","Think tanks, Church, parties, unions, Oxfam, Asamblea",16,30,12,6,6,,Not reached,See area_profile.md section 10.
+R002,2026-11-28,Claude Code,"Grow pass (issue 623): FMLN 2017-2018 proposals, FUDECEN coverage, unions","FMLN, former deputies, unions, civil society, church",4,9,4,2,2,0,Not reached,1 FMLN 2018 platform text and the 2015-2018 bill or correspondence on the patrimony tax (co-signing deputies); 2 FUDECEN study; 3 unions and social organisations (D0004); 4 ICEFI 2018 full document; 5 Church and UCA
