@@ -2225,7 +2225,7 @@ function feedbackPage(params) {
         <label><input type="radio" name="kind" value="bug"${bug ? ' checked' : ''}> A bug</label>
       </fieldset>
       <label><span>Your message <b>*</b></span><textarea class="field" name="message" rows="7" required maxlength="4000" id="fb-message"></textarea></label>
-      <label><span>Which page?</span><input class="field" name="page" maxlength="300" value="${esc(from)}" placeholder="For example /gb or /us/A0730" autocomplete="off"></label>
+      <label><span>Which page?</span><input class="field" name="page" maxlength="300" value="${esc(from)}" placeholder="For example /united-kingdom or /united-states/A0730" autocomplete="off"></label>
       <label><span>Email, if you would like a reply</span><input class="field" name="contact" type="email" maxlength="200" placeholder="Optional" autocomplete="off"><small>Only used to answer you about this message.</small></label>
       <label class="hp" aria-hidden="true">Leave this empty<input name="website" tabindex="-1" autocomplete="off"></label>
       <div class="suggest-foot"><button class="btn" type="submit" id="fb-send">Send</button><span class="sg-msg" id="fb-msg" role="status"></span></div>

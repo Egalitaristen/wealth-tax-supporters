@@ -6,7 +6,7 @@ The technical guide that used to be the README: how the repository is laid out, 
 
 | Path | What it holds |
 |---|---|
-| `data/<iso2>/` | One database per country or region, for example `data/gb/`. Plain CSV files plus a `meta.json`. |
+| `data/<country>/` | One database per country or region, for example `data/united-kingdom/`. Plain CSV files plus a `meta.json`. |
 | `skill/` | The research skill for people and for AI coding assistants. `SKILL.md` holds the goal and the ground rules; `references/` holds the definition and grades, the data format (its column lists are generated from `wtdb.py`), the research run (discover, layers, follow the leads), geography, seats, the pre-pull-request checklist, the election-refresh guide, the source playbook and one guide per country. Helper scripts: `wtdb.py` (init, add, validate, checkquotes, status), `review_scan.py`, `leads.py`, `seats.py` and its adapters, `seat_sweep.py` (sitting members still to search), `match_wikidata.py`, `profiles_wikidata.py`, `topo_to_boundaries.py`. |
 | `refine/` | The refinement workflow (`SKILL.md`) for supporters already in a register: links, finer places, more statements, and a check that support is still current. Uses the scripts in `skill/scripts/` (`refine_queue.py`, `archive_sources.py`). |
 | `site/` | The static front end: one page and one script, no framework. Home with search and a zoomable world map, country pages (area map, seat charts, directory, timeline, method), a page per supporter, a global directory, the parliaments and resources pages, method and contribute pages. Maps zoom with the mouse wheel or by pinching. |
@@ -17,7 +17,7 @@ The technical guide that used to be the README: how the repository is laid out, 
 | `scripts/deploy.py`, `wrangler.jsonc` | Build and deploy the site to Cloudflare from a local checkout. |
 | `docs/`, `infra/` | The community plan, and the Cloudflare setup and draft database schema. The suggestions database is deployed; the community schema is a draft. |
 
-The site's [countries page](https://wealthtaxsupporters.com/countries) shows the live list of countries with their counts; each `data/<iso2>/area_profile.md` says what was searched and what was not.
+The site's [countries page](https://wealthtaxsupporters.com/countries) shows the live list of countries with their counts; each `data/<country>/area_profile.md` says what was searched and what was not.
 
 Every country's register goes down to its lowest tier of local government, and the map shows the same tier where an open source with official codes exists, so maps are comparable; see `skill/SKILL.md` 6.7. A missing map is a follow-up issue, not a blocker. Supporters need their own evidence: a party's platform is recorded on the party, not on each of its members (`skill/references/definition-and-grades.md`, section 4).
 
@@ -31,7 +31,7 @@ The goal is a trustworthy register of who publicly backs an actual wealth tax, w
 
 1. Fork this repository.
 2. Read [CONTRIBUTING.md](../CONTRIBUTING.md) and `skill/SKILL.md` (sections 0 and 1, then the files under `skill/references/` that it points to).
-3. Create `data/<iso2>/` (the lowercase ISO code; if another folder already holds the code, the country's lowercase name, as with `australia`):
+3. Create `data/<country>/` (the full English name in lower case with hyphens, such as `united-kingdom`, listed in `data/countries.csv`):
    ```bash
    python skill/scripts/wtdb.py init data/de --area "Germany"
    ```

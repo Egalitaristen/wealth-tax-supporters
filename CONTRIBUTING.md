@@ -6,7 +6,7 @@ Thanks for helping. This project records, with sources, who publicly supports a 
 
 1. **Supporters only.** If someone opposes or doubts a wealth tax, do not add them. If a supporter later retracts, add an evidence row with `stance=retracted`.
 2. **Every row needs a source.** A dated, working URL and a short word-for-word quote (keep quotes under about 25 words). Add an archive link in `archive_url` where you can.
-3. **Quote what you read.** Do not quote from memory, from a search snippet or from a summary tool's paraphrase, and never write a sentence of your own into the quote column. Use the page's own text and run `python skill/scripts/wtdb.py checkquotes data/<iso2> --run <run>`.
+3. **Quote what you read.** Do not quote from memory, from a search snippet or from a summary tool's paraphrase, and never write a sentence of your own into the quote column. Use the page's own text and run `python skill/scripts/wtdb.py checkquotes data/<country> --run <run>`.
 4. **Public figures and organisations only.** Never add petition signers or private individuals. Self-declared signers of a public open letter are fine.
 5. **Grade honestly.** A: formal act or a stated design. B: names a wealth tax. C: implied. When unsure, use the lower grade.
 6. **People are assumed alive.** Check for a death record (Wikidata is a good start) and set `alive_checked=y`. If dead, add them to `exclusions.csv` with reason `deceased`, not to `actors.csv`. Do not write "alive" or "no Wikidata match" in `notes`; notes are shown to readers and are for identity caveats and sources only.
@@ -15,12 +15,12 @@ Thanks for helping. This project records, with sources, who publicly supports a 
 ## Adding a country or region
 
 ```bash
-python skill/scripts/wtdb.py init data/<iso2> --area "<Name>"
+python skill/scripts/wtdb.py init data/<country> --area "<Name>"
 ```
 
-Use the lowercase ISO 3166-1 alpha-2 code (`de`, `fr`), or `<iso2>-<region>` for a sub-national area (`us-ca`). Then follow `skill/SKILL.md`, starting with section 0.
+Name the folder with the country's full English name in lower case with hyphens (`germany`, `united-kingdom`) and add its row to `data/countries.csv`, then run `python skill/scripts/countries.py`. Then follow `skill/SKILL.md`, starting with section 0.
 
-What a good first contribution looks like: the most prominent supporters across every layer (legislature, parties, coalitions and unions, economists, commentators, wealthy and business, regional), each with a checked quote, and a short plan for what to do next. Regional and local work is sampled first and expanded only where it finds support. You do not need to cover every municipality; say what you did not search. In `data/<iso2>/meta.json` set `name`, `iso2`, `lead` (your GitHub username) and `status`.
+What a good first contribution looks like: the most prominent supporters across every layer (legislature, parties, coalitions and unions, economists, commentators, wealthy and business, regional), each with a checked quote, and a short plan for what to do next. Regional and local work is sampled first and expanded only where it finds support. You do not need to cover every municipality; say what you did not search. In `data/<country>/meta.json` set `name`, `iso2`, `lead` (your GitHub username) and `status`.
 
 For a local map, add a `boundaries.json` and name it in `meta.json`. If you have a TopoJSON of your areas, `python skill/scripts/topo_to_boundaries.py` writes it for you (the US map was made that way). Format:
 
