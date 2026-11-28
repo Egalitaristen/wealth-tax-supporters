@@ -86,7 +86,7 @@ export default {
   'sv': 'el-salvador',
   'th': 'thailand',
   'tn': 'tunisia',
-  'tr': 'turkey',
+  'tr': 'turkiye',
   'tz': 'tanzania',
   'ua': 'ukraine',
   'ug': 'uganda',
