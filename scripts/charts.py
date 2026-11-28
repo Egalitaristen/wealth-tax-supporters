@@ -210,7 +210,7 @@ def poll_stats(countries):
 
 # ISO 3166 numeric codes (the map's ids) for the countries in data/wealth_tax_status.csv, so the status map does not depend on pycountry being installed.
 ISO_NUMERIC = {"NO": "578", "CH": "756", "ES": "724", "CO": "170", "AR": "032", "BO": "068", "UY": "858", "FR": "250", "SE": "752", "DK": "208", "DE": "276",
-               "NL": "528", "AT": "040", "FI": "246", "LU": "442", "IS": "352", "IN": "356", "SR": "740", "GY": "328", "TN": "788", "VE": "862", "PK": "586", "BD": "050", "DZ": "012"}
+               "NL": "528", "AT": "040", "FI": "246", "LU": "442", "IS": "352", "IN": "356", "SR": "740", "GY": "328", "TN": "788", "VE": "862", "PK": "586", "BD": "050", "DZ": "012", "IT": "380"}
 
 
 def status_by_numeric(rows, numeric_for):
