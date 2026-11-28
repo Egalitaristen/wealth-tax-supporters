@@ -14,6 +14,8 @@ First written 2026-10-23 (runs R001 to R005). Lines marked *[verify]* come from 
 - Securities Account Tax (*Taxe sur les comptes-titres* / *Effectentaks*):
   - In 2018, the Michel I government enacted a 0.15% tax on securities accounts exceeding €500,000, struck down by the Constitutional Court in October 2019 for unequal treatment.
   - In 2021, the De Croo (Vivaldi) government introduced an annual solidarity tax of 0.15% on securities accounts holding €1 million or more (Law of 17 February 2021). Classified under `partial_wealth`.
+  - The Programme Law of 30 May 2026 (Moniteur belge, 1 June 2026) raised the rate to 0.3% for reference periods ending from the day of publication ([consolidated text](https://www.ejustice.just.fgov.be/eli/loi/2026/05/30/2026003986/justel); the 2021 law: [consolidated text](https://www.ejustice.just.fgov.be/eli/loi/2021/02/17/2021040569/justel)).
+- **World-map status (judged 28 November 2026, issue #529): no border.** The securities-account tax is levied on the average value of the financial instruments in an account, above EUR 1,000,000, with no deduction for debts in article 201/4 of the Code of miscellaneous duties and taxes. It taxes one class of assets, not net wealth. No Belgian law charging an annual tax on net wealth was found in this check, which was not a full search of Belgian tax history.
 - Live & Historical Federal Legislative Bills on Net Wealth Tax (54th, 55th, and 56th Legislature):
   - **Chamber DOC 54 0770/001** (*Proposition de loi visant à introduire un impôt sur les grands patrimoines*, 10 Dec 2014):
     - Proposed progressive net wealth tax on estates above €1,250,000.
@@ -142,7 +144,7 @@ Leads not yet listed:
 - The CNCD-11.11.11 / Ipsos poll of October 2023 mentioned in the country notes was removed earlier for lack of a readable source.
 
 ## Taxes in force that are outside the definition
-- **Taxe sur les comptes-titres (securities-account tax):** a yearly levy on securities accounts above a threshold. It covers financial accounts, not net wealth, so it is outside the definition. `[verify: stated from general knowledge, not read from the law for this note]`
+- **Taxe sur les comptes-titres (securities-account tax):** a yearly levy on securities accounts above a threshold. It covers financial accounts, not net wealth, so it does not give the country a wealth-tax border on the world map (law of 17 February 2021, read in the Justel consolidated text).
 
 
 ## Review corrections

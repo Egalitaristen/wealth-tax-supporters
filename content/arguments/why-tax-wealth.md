@@ -81,7 +81,7 @@ sources:
     title: Wealth Tax Supporters, Resources page, polls (71 polls in 43 countries on 13 November 2026), each with pollster, date and wording
     url: https://wealthtaxsupporters.com/resources
   - id: 17
-    title: Wealth Tax Supporters, wealth tax status by country (data/wealth_tax_status.csv, 24 countries, 15 November 2026)
+    title: Wealth Tax Supporters, wealth tax status by country (data/wealth_tax_status.csv, 25 countries, 28 November 2026)
     url: https://github.com/Egalitaristen/wealth-tax-supporters/blob/main/data/wealth_tax_status.csv
   - id: 18
     title: Wealth Tax Supporters, California Billionaire Tax Act (Proposition 40), with the result reported by the Associated Press on 9 November 2026
@@ -142,7 +142,7 @@ charts:
   - id: status-map
     type: status-map
     title: Where a wealth tax is in force, and where there used to be one
-    desc: A world map. Eleven countries are coloured as having a wealth tax in force and thirteen as having had one.
+    desc: A world map. Eleven countries are coloured as having a wealth tax in force and fourteen as having had one.
     caption: The register's count of countries with an annual tax on net wealth in force and countries that had one.[17]
 ---
 Income is what the tax office sees. Wealth is something else, and at the top it is where almost everything happens.
@@ -294,7 +294,7 @@ The wording and the sponsor differ from poll to poll, so the Resources page show
 
 {{chart: status-map}}
 
-The register counts 11 countries with an annual tax on net wealth in force and 13 more that had one.[17] Sweden, Denmark, Germany, the Netherlands, Austria and Finland are among those that no longer levy one, and the page on [Europe repealing it](/arguments/europe-repealed-it) shows what that cost.
+The register counts 11 countries with an annual tax on net wealth in force and 14 more that had one.[17] Sweden, Denmark, Germany, the Netherlands, Austria and Finland are among those that no longer levy one, and the page on [Europe repealing it](/arguments/europe-repealed-it) shows what that cost.
 
 ## Who backs it {#who}
 

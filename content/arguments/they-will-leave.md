@@ -69,7 +69,7 @@ sources:
     title: University of Warwick CAGE, Abolishing tax perks for non-doms could significantly boost UK tax revenue without risking an exodus of the super-rich (9 March 2023), on Advani, Burgherr and Summers
     url: https://warwick.ac.uk/fac/soc/economics/research/centres/cage/news/09-03-23-abolishing_tax_perks_for_non_doms_could_significantly_boost_uk_tax_revenue_without_risking_an_exodus_of_the_super_rich/
   - id: 14
-    title: Wealth Tax Supporters, wealth tax status by country (data/wealth_tax_status.csv, 15 November 2026)
+    title: Wealth Tax Supporters, wealth tax status by country (data/wealth_tax_status.csv, 28 November 2026)
     url: https://github.com/Egalitaristen/wealth-tax-supporters/blob/main/data/wealth_tax_status.csv
 charts:
   - id: norway-receipts

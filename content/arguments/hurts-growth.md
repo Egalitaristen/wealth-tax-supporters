@@ -57,7 +57,7 @@ sources:
     title: World Bank, World Development Indicators, GDP per capita (constant 2015 US$, NY.GDP.PCAP.KD), gross fixed capital formation (% of GDP, NE.GDI.FTOT.ZS) and the OECD members aggregate, series downloaded on 13 November 2026. Method (our calculation): for each country, average yearly growth of GDP per person over the ten years up to the repeal year and over the ten years after it, with the repeal year from the register; the gap is the country's growth minus the OECD members' growth over the same ten years; investment share is the average over the ten years before and after
     url: https://data.worldbank.org/indicator/NY.GDP.PCAP.KD
   - id: 10
-    title: Wealth Tax Supporters, wealth tax status by country (data/wealth_tax_status.csv, 15 November 2026), with the repeal years in its notes
+    title: Wealth Tax Supporters, wealth tax status by country (data/wealth_tax_status.csv, 28 November 2026), with the repeal years in its notes
     url: https://github.com/Egalitaristen/wealth-tax-supporters/blob/main/data/wealth_tax_status.csv
   - id: 11
     title: OECD, Focus on Inequality and Growth (December 2014)
@@ -130,7 +130,7 @@ When an owner does leave, their firm usually closes: employment drops by 33%, in
 
 Switzerland and Norway tax wealth, and they are among the richest countries in the world. In 2024 GDP per person at constant 2015 prices was $93,018 in Switzerland and $83,487 in Norway, against $66,857 in the United States and $40,701 across the OECD.[9] Uruguay, which taxes wealth, grew faster than the OECD between 1995 and 2024: 2.31% a year, against 1.44%. Colombia, which also taxes it, grew 1.72%.[9][10] None of this shows that the tax causes growth. It shows that a country with a wealth tax is not shut out of it.
 
-The register counts 11 countries with a wealth tax and 13 that used to have one.[10] Take the six repeals that are ten years or more old and ask whether growth took off afterwards. Sweden repealed in 2007, Finland in 2006, the Netherlands in 2001, Germany in 1997 (the tax has not been levied since), Denmark in 1997 and Austria in 1994.[10]
+The register counts 11 countries with a wealth tax and 14 that used to have one.[10] Take the six repeals that are ten years or more old and ask whether growth took off afterwards. Sweden repealed in 2007, Finland in 2006, the Netherlands in 2001, Germany in 1997 (the tax has not been levied since), Denmark in 1997 and Austria in 1994.[10]
 
 {{chart: repeal-growth}}
 

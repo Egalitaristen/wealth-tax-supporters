@@ -90,7 +90,7 @@ sources:
     title: INCP, DIAN fijó en $52.374 el valor de la UVT para el año gravable 2026 (Resolución 000238 of 15 December 2025)
     url: https://incp.org.co/publicaciones/infoincp-publicaciones/impuestos/2025/12/dian-fijo-en-52-374-en-valor-de-la-uvt-para-el-ano-gravable-2026/
   - id: 20
-    title: Wealth Tax Supporters, wealth tax status by country (data/wealth_tax_status.csv, 15 November 2026)
+    title: Wealth Tax Supporters, wealth tax status by country (data/wealth_tax_status.csv, 28 November 2026)
     url: https://github.com/Egalitaristen/wealth-tax-supporters/blob/main/data/wealth_tax_status.csv
 charts:
   - id: lines-vs-median
@@ -173,7 +173,7 @@ If a wealth tax reaches the household with millions, as Norway's does, it is bec
 
 ## The pressure has run the other way {#pressure}
 
-Argentina's 2024 law cuts the top rate of its tax from 1.5% in 2023 to a flat 0.25% in 2027.[12] Uruguay's law cut its rates every year to a floor of 0.1%, and the tax on individuals now raises 0.01% of GDP, against 0.6% in the 1990s.[9] In February 2026 Høyre's national assembly voted 158 to 131 to abolish Norway's tax.[19] The register counts 11 countries with a wealth tax and 13 that used to have one, as of 15 November 2026.[20] Wealth taxes lose ground. The pages on [Europe repealing the tax](/arguments/europe-repealed-it) and on [why it is needed at all](/arguments/why-tax-wealth) say what that cost. A slide toward the middle class would need a trend that does not exist.
+Argentina's 2024 law cuts the top rate of its tax from 1.5% in 2023 to a flat 0.25% in 2027.[12] Uruguay's law cut its rates every year to a floor of 0.1%, and the tax on individuals now raises 0.01% of GDP, against 0.6% in the 1990s.[9] In February 2026 Høyre's national assembly voted 158 to 131 to abolish Norway's tax.[19] The register counts 11 countries with a wealth tax and 14 that used to have one, as of 28 November 2026.[20] Wealth taxes lose ground. The pages on [Europe repealing the tax](/arguments/europe-repealed-it) and on [why it is needed at all](/arguments/why-tax-wealth) say what that cost. A slide toward the middle class would need a trend that does not exist.
 
 ## Where to look next {#next}
 
