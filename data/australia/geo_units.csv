@@ -557,3 +557,4 @@ G0555,West Daly,council,local_government_area,G0008,,pending,,,,,,74680
 G0556,Unincorporated NT,council,unincorporated_area,G0008,,skipped,,,,,"ABS unincorporated area, not a council.",79399
 G0557,Unincorporated ACT,council,unincorporated_area,G0009,,skipped,,,,,"ABS unincorporated area, not a council.",89399
 G0558,Unincorp. Other Territories,council,local_government_area,G0010,,pending,,,,,,99399
+G0559,Norfolk Island,council,external_territory,G0010,,pending,,,,,"No ABS LGA code: the ABS 2025 LGA layer puts Norfolk Island in 99399 (Unincorp. Other Territories), so the code is its ABS 2021 SA2 code.",901041004
