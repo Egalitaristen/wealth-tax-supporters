@@ -19,6 +19,7 @@ from pathlib import Path
 
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
 import wtdb  # noqa: E402
+import countries  # noqa: E402
 import profile_scan as ps  # noqa: E402
 
 ROOT = Path(__file__).resolve().parent.parent.parent
@@ -121,10 +122,10 @@ def switzerland(refs):
 
 def main():
     ap = argparse.ArgumentParser(description=__doc__, formatter_class=argparse.RawDescriptionHelpFormatter)
-    ap.add_argument("country", choices=["fr", "br", "ch"])
+    ap.add_argument("country", type=countries.code, choices=["fr", "br", "ch"], help="code or folder name")
     ap.add_argument("--dry-run", action="store_true")
     a = ap.parse_args()
-    d = str(ROOT / "data" / a.country)
+    d = str(ROOT / "data" / countries.folder(a.country))
     positions = wtdb.load(d, "positions")
     ref_of = {}
     for p in positions:

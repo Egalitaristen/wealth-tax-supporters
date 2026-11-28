@@ -6,6 +6,9 @@ Images are cached in .cache/cards by a hash of their content, so a rebuild only 
 import hashlib, json, re, shutil
 from pathlib import Path
 from PIL import Image, ImageDraw, ImageFont
+import sys
+sys.path.insert(0, str(Path(__file__).resolve().parent.parent / "skill" / "scripts"))
+import countries as cc_map
 
 HERE = Path(__file__).resolve().parent
 FONTS = HERE / "fonts"
@@ -170,8 +173,8 @@ _FLAG_CACHE = {}
 
 
 def flag_file(slug):
-    """The flag PNG for a register slug, by the same rule as the site (australia is au; au and global have none)."""
-    code = "au" if slug == "australia" else "" if slug in ("au", "global") or not re.fullmatch(r"[a-z]{2}", slug or "") else slug
+    """The flag PNG for a register slug, by the same rule as the site (data/countries.csv; the African Union and global have none)."""
+    code = cc_map.flag(slug) if slug else ""
     p = FLAGS / f"{code}.png"
     return p if code and p.exists() else None
 

@@ -22,6 +22,7 @@ from pathlib import Path
 
 sys.path.insert(0, str(Path(__file__).parent))
 import wtdb  # noqa: E402
+import countries  # noqa: E402
 
 UA = {"User-Agent": "Mozilla/5.0"}  # some parliaments (ourcommons.ca) refuse an unusual agent
 
@@ -3080,14 +3081,14 @@ def main():
     for pair in a.local:
         url, _, f = pair.rpartition("=")  # the URL may itself contain "="
         (Path(tempfile.gettempdir()) / ("wts-seats-" + hashlib.md5((url + "{}").encode()).hexdigest())).write_bytes(Path(f).read_bytes())
-    cc = a.adapter or Path(a.dir).name.split("-")[0]
+    cc = a.adapter or countries.code(Path(a.dir).resolve().name)
     if cc not in ADAPTERS:
         sys.exit(f"No adapter for '{cc}'. Have: {', '.join(sorted(ADAPTERS))}. Add one to ADAPTERS in this file.")
     actors_in = None
     if ADAPTERS[cc] in (european_parliament, pan_african_parliament):  # supporters sit in the register of their own country: look across all of them
         actors_in = []
         for sib in sorted(p for p in Path(a.dir).resolve().parent.iterdir() if (p / "actors.csv").exists() and p.name != Path(a.dir).name):
-            iso = json.load(open(sib / "meta.json", encoding="utf-8")).get("iso2", sib.name.split("-")[0]).upper()
+            iso = (json.load(open(sib / "meta.json", encoding="utf-8")).get("iso2") or countries.iso(sib.name)).upper()
             for x in wtdb.load(str(sib), "actors"):
                 if x["kind"] == "person" and x["actor_type"] == "politician":
                     actors_in.append(dict(x, actor_id=f"{sib.name}-{x['actor_id']}", _iso=iso))

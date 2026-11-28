@@ -17,6 +17,7 @@ ap = argparse.ArgumentParser()
 ap.add_argument("--report", default="")
 ap.add_argument("--verify", action="store_true")
 ap.add_argument("--samples", type=int, default=4)
+ap.add_argument("--copy", default="", help="write a renamed copy of the repository to this folder (outside the repository), to build and compare")
 args = ap.parse_args()
 
 C = list(csv.DictReader(open(ROOT / "data" / "countries.csv", encoding="utf-8", newline="")))
@@ -26,7 +27,7 @@ ALT = "|".join(sorted(CHANGING, key=len, reverse=True))
 TEXT = (".py", ".js", ".md", ".json", ".csv", ".txt", ".html", ".css", ".toml", ".jsonc", ".sql", ".yml", ".yaml", ".sh", ".mjs")
 # never rewritten: the mapping and its tools, generated files, and the file keyed by ISO code
 SKIP = {"data/countries.csv", "data/featured_skip.txt", "data/changelog.json", "docs/country-slugs-audit.md", "docs/country-slugs-plan.md",
-        "scripts/country_slugs_audit.py", "scripts/rename_countries.py"}
+        "scripts/country_slugs_audit.py", "scripts/rename_countries.py", "skill/scripts/countries.py"}
 NAMED_DIRS = ("content/stories", "skill/references/countries", "skill/references/records")
 PROSE = ("content/", "docs/", "refine/", "skill/", "README.md", "CONTRIBUTING.md", "ROADMAP.md")
 
@@ -87,8 +88,28 @@ def rewrite_resources(text, log):
     return NL.join(out)
 
 
+def resource_slugs():
+    """Old resource slug -> new, for every stored slug that starts with a country code."""
+    out = {}
+    for x in json.loads((ROOT / "data" / "resources.json").read_text(encoding="utf-8")):
+        s = x.get("slug") or ""
+        head = s.split("-")[0]
+        if head in CHANGING:
+            out[s] = CHANGING[head] + s[len(head):]
+    return out
+
+
+RES = resource_slugs()
+RES_PAT = re.compile(r"(?:(?<=/resources/)|(?<![\w/-]))(" + "|".join(sorted(map(re.escape, RES), key=len, reverse=True)) + r")(?![\w-])")
+SLUG_FILES = ("site/", "scripts/", "worker/", "content/", "refine/", "skill/", "data/")
+
+
 def rewrite(path, text):
     log = collections.Counter()
+    if path.startswith(SLUG_FILES) and path not in ("data/resources.json",):  # a slug named on its own, as in the calculator's presets
+        text, n = RES_PAT.subn(lambda x: RES[x[1]], text)
+        if n:
+            log["resource slug named in text or code"] += n
     if path in ("data/resources.json", "data/resources_excluded.json"):
         text = rewrite_resources(text, log)
     if path == "data/media_sources.json":
@@ -239,6 +260,19 @@ if args.report:
     R += [f"- {a} -> {b}" for a, b in redirects]
     Path(args.report).write_text(NL.join(R) + NL, encoding="utf-8", newline=NL)
     print(f"\nfull report: {args.report}")
+
+if args.copy:
+    dest = Path(args.copy).resolve()
+    if dest == ROOT or ROOT in dest.parents:
+        sys.exit("--copy must be outside the repository")
+    for f in files:
+        dst = dest / new_path(f, mv)
+        dst.parent.mkdir(parents=True, exist_ok=True)
+        if f in changed:
+            dst.write_bytes(changed[f].encode("utf-8"))
+        else:
+            shutil.copy2(ROOT / f, dst)
+    print(f"renamed copy written to {dest}")
 
 if args.verify:
     # apply to a throwaway copy and run the register's own checks there

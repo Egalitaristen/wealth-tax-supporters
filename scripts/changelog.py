@@ -13,6 +13,8 @@ Usage: python scripts/changelog.py          (rewrites data/changelog.json; needs
 """
 import csv, io, json, subprocess, sys, collections
 from pathlib import Path
+sys.path.insert(0, str(Path(__file__).resolve().parent.parent / "skill" / "scripts"))
+import countries as cc_map
 
 ROOT = Path(__file__).resolve().parent.parent
 DATA = ROOT / "data"
@@ -56,6 +58,9 @@ def main():
             diff = git("diff-tree", "--root", "-r", "--name-status", "--no-renames", "--format=", sha, *paths, check=False)
         else:
             diff = git("diff", "--name-status", "--no-renames", parent, sha, *paths, check=False)
+        ids = collections.defaultdict(lambda: (set(), set()))  # (folder today, file) -> ids before and after, over old and new paths
+        added, removed = collections.defaultdict(set), collections.defaultdict(set)
+        new_files = set()  # countries whose actors.csv was created in this commit
         for row in diff.strip().split("\n"):
             if not row:
                 continue
@@ -63,16 +68,26 @@ def main():
             parts = path.split("/")
             if parts[0] == "content":
                 name = parts[-1][:-3]
-                if status == "A" and name not in ("STYLE", "README"):
-                    (d["stories"] if parts[1] == "stories" else d["arguments"]).append(name)
+                if parts[1] == "stories":
+                    name = cc_map.folder(name)
+                if name not in ("STYLE", "README"):
+                    (added if status == "A" else removed)[parts[1]].add(name) if status in ("A", "D") else None
                 continue
-            iso, kind = parts[1], parts[2]
-            col, k_add, k_rem = ("actor_id", "s", "sr") if kind == "actors.csv" else ("evidence_id", "e", "er")
-            before, after = ids_in(parent, path, col), ids_in(sha, path, col)
+            iso, kind = cc_map.folder(parts[1]), parts[2]
+            if status == "A" and kind == "actors.csv":
+                new_files.add(iso)
+            col = "actor_id" if kind == "actors.csv" else "evidence_id"
+            before, after = ids[(iso, kind)]
+            before |= ids_in(parent, path, col)
+            after |= ids_in(sha, path, col)
+        for part in ("stories", "arguments"):  # a renamed file is added and removed in the same commit: not new
+            d[part].extend(sorted(added.get(part, set()) - removed.get(part, set())))
+        for (iso, kind), (before, after) in ids.items():
+            k_add, k_rem = ("s", "sr") if kind == "actors.csv" else ("e", "er")
             c = d["countries"][iso]
             c[k_add] += len(after - before)
             c[k_rem] += len(before - after)
-            if kind == "actors.csv" and status == "A" and after:
+            if kind == "actors.csv" and iso in new_files and after and not before:
                 d["new_countries"].append(iso)
     notes_path = DATA / "changelog_notes.json"
     notes = json.load(open(notes_path, encoding="utf-8")) if notes_path.exists() else {}
