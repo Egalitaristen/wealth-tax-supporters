@@ -46,3 +46,7 @@ Seed pass of 2026-11-13 (run R001). Web-search summaries were only used to find 
 2. Full text of the NUP, FDC and DP manifestos (D0005); Hansard for any MP who followed up the June 2020 testimony (D0004).
 3. Tax Justice Alliance-Uganda, CSBAG and ActionAid Uganda pre-budget positions; Uganda Law Society and NOTU statements.
 4. Economists (Makerere, EPRC, ACODE) on a wealth tax; the Electoral Commission's seat table, and a Seats chart with named members.
+
+## Run R002 (2026-11-28): grow pass
+
+Added the World Bank (grade C): its Uganda Economic Update of September 2025 asks for a net wealth tax to be considered as an alternative to higher top income-tax rates. Searched civil society, parliament and parties, with one Swahili and Luganda search that returned nothing local. The NUP 2026-2031 manifesto has no wealth tax wording. Still unread: the Uganda Radio Network report of June 2020, Hansard and committee reports, FDC and DP manifestos, the Opposition's alternative budget compendium. No poll on a wealth tax was found (the Afrobarometer question is about higher rates for the rich).
