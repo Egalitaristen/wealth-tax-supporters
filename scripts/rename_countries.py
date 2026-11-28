@@ -275,6 +275,16 @@ if args.apply:
             for row in e.get("countries", []):
                 row[0] = CHANGING.get(row[0], row[0])
         changed["data/changelog.json"] = json.dumps(entries, ensure_ascii=False, separators=(",", ":"))
+    leads = ROOT / "data" / "leads.csv"
+    if leads.exists():  # `found_in` names the folder being researched; `country` is an ISO code and stays
+        rows = list(csv.DictReader(io.StringIO(changed.get("data/leads.csv") or leads.read_text(encoding="utf-8"))))
+        for r in rows:
+            r["found_in"] = CHANGING.get(r.get("found_in", ""), r.get("found_in", ""))
+        out = io.StringIO()
+        w = csv.DictWriter(out, fieldnames=list(rows[0]), lineterminator=NL)
+        w.writeheader()
+        w.writerows(rows)
+        changed["data/leads.csv"] = out.getvalue()
     for f, text in changed.items():
         tail = (ROOT / f).read_bytes()[-1:]
         if tail == NL.encode() and not text.endswith(NL):
