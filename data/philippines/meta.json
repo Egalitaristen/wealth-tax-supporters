@@ -4,5 +4,21 @@
   "lead": "",
   "status": "in progress",
   "boundaries": "boundaries.json",
-  "notes": "Seed in progress. Geography: PSA PSGC July 2026 mirror cross-checked against PSA Q3 counts; 18 regions, 82 provinces, 149 cities and 1,493 municipalities. Map: geoph synthesized 2024 administrative configuration, generalized and unofficial, CC BY 4.0; PSGC codes matched to all 1,642 local units. Boundaries are not authoritative; see area profile for vintage, method and credits."
+  "notes": "Seed in progress. Geography: PSA PSGC July 2026 mirror cross-checked against PSA Q3 counts; 18 regions, 82 provinces, 149 cities and 1,493 municipalities. Map: geoph synthesized 2024 administrative configuration, generalized and unofficial, CC BY 4.0; PSGC codes matched to all 1,642 local units. Boundaries are not authoritative; see area profile for vintage, method and credits.",
+  "polls": [
+    {
+      "support": 66.3,
+      "oppose": 28.0,
+      "support_text": "11.1 per cent strongly agreed and 55.2 per cent agreed; 4.2 per cent did not know or were unsure and 1.2 per cent declined to answer",
+      "scope": "Philippines, adults, nationally representative face-to-face sample",
+      "question": "There are proposals in Congress to impose a wealth tax on people with assets of PHP 1 billion and above. Do you agree or disagree with this proposal?",
+      "question_original": "May mga panukala sa Kongreso na magpataw ng “wealth tax” o buwis sa mga taong PHP 1 bilyon pataas ang ari-arian. Sang-ayon o hindi sang-ayon ka ba sa panukalang ito?",
+      "pollster": "Momentum Research (National Momentum Survey)",
+      "commissioned_by": "",
+      "fieldwork": "2026-08-18 to 2026-08-23",
+      "sample": "1,487 face-to-face interviews, margin of error +/- 2.5 points",
+      "published": "2026-10-15",
+      "url": "https://momentumresearch.ph/news-events/2-in-3-filipinos-want-a-wealth-tax-on-the-super-rich-survey"
+    }
+  ]
 }
