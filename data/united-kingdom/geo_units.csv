@@ -416,3 +416,19 @@ G0414,Wyre,council,district,G0044,,in_progress,R008,2026-10-18,21,0,"ONS E070001
 G0415,Wyre Forest,council,district,G0055,,in_progress,R008,2026-10-18,0,0,ONS E07000239 | R008: not covered by Open Council Network scanner; no web search run; council minutes not read.,E07000239
 G0416,York,council,unitary,G0015,,in_progress,R008,2026-10-18,1,0,"ONS E06000014; combined authority: York and North Yorkshire | R008: scanned 1 full-council meetings from 2022 on Open Council Network (council) for wealth tax terms; none found. Too few meetings or no council committee on Open Council Network: left in_progress, council minutes not read. Based on AI-generated summaries that can omit motions mentioned in passing or only as document titles.",E06000014
 G0417,United Kingdom,national,country,,,in_progress,,,,,Country root: actors known only to the country sit here. Parent of the units below.,
+G0418,Crown dependencies and overseas territories,region,territories_group,G0417,,pending,,,,,Not represented at Westminster; the Crown dependencies set their own taxes.,
+G0419,Isle of Man,council,crown_dependency,G0418,,pending,,,,,,IM
+G0420,Guernsey,council,crown_dependency,G0418,,pending,,,,,,GG
+G0421,Jersey,council,crown_dependency,G0418,,pending,,,,,,JE
+G0422,Anguilla,council,overseas_territory,G0418,,pending,,,,,,AI
+G0423,Bermuda,council,overseas_territory,G0418,,pending,,,,,,BM
+G0424,British Indian Ocean Territory,council,overseas_territory,G0418,,pending,,,,,,IO
+G0425,British Virgin Islands,council,overseas_territory,G0418,,pending,,,,,,VG
+G0426,Cayman Islands,council,overseas_territory,G0418,,pending,,,,,,KY
+G0427,Falkland Islands,council,overseas_territory,G0418,,pending,,,,,,FK
+G0428,Gibraltar,council,overseas_territory,G0418,,pending,,,,,"No outline in the Natural Earth 1:50m file, so not on the map.",GI
+G0429,Montserrat,council,overseas_territory,G0418,,pending,,,,,,MS
+G0430,Pitcairn Islands,council,overseas_territory,G0418,,pending,,,,,,PN
+G0431,"Saint Helena, Ascension and Tristan da Cunha",council,overseas_territory,G0418,,pending,,,,,,SH
+G0432,South Georgia and the South Sandwich Islands,council,overseas_territory,G0418,,pending,,,,,,GS
+G0433,Turks and Caicos Islands,council,overseas_territory,G0418,,pending,,,,,,TC
