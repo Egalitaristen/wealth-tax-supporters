@@ -50,3 +50,7 @@ See `runs.csv` R001 `notes_next`.
 ## Run R002 (2026-11-28): grow pass
 
 Added: nine further signatories of the October 2019 economists' statement that calls for a tax on wealth (read only on a blog that reproduces it in English; the same statement is added for Lydia Assouad and Ghassan Dibeh), the Progressive Socialist Party (November 2026), Oxfam (October 2023), Nabil Abdo (October 2020), Samir Daher (December 2019) and Imad Akoush (February 2021). Georges Corm, also a signatory, died in 2024. Quotes: 15 found by the checker, 1 (Abdo) checked by hand on the page. Still unread: the Arabic original of the 2019 statement, Al-Akhbar columns (bot check), the 2021 bill on the Parliament site, change parties and unions. No poll found.
+
+## Review corrections (2026-11-28)
+
+Removed two entries. Samir Daher (`E00023`): the only quote was a column headline, and the part of the column read does not call for the tax; lead `D0001` is open again. Oxfam (`E00021`): a four-country statement, not one about Lebanon alone. The run summary above predates these removals.
