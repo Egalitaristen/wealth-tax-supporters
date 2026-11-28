@@ -47,3 +47,7 @@ Seed pass of 2026-11-13 (run R001). Web-search summaries were only used to find 
 ## Run R002 (2026-11-28): grow pass
 
 Added ZIMCODD (a redistributive wealth tax, January 2022) and Development Finance International (the 2025 Zimbabwe CRI profile recommends a wealth tax on the wealthiest 1%, distinct from the 2024 property levy). Nothing found for ZCTU, churches or CCC; the Shona and Ndebele search returned nothing local. Several old NewsDay and Zimbabwe Independent addresses no longer resolve. No poll was found.
+
+## Review corrections (2026-11-28)
+
+`E00009` moved to the Fight Inequality Alliance Zimbabwe (`A0001`): the wealth-tax recommendation in ZIMCODD's newsletter of 14 January 2022 is the alliance's. ZIMCODD is removed as a supporter and its lead (`D0002`) is open again.
