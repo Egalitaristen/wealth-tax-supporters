@@ -27,7 +27,8 @@ ALT = "|".join(sorted(CHANGING, key=len, reverse=True))
 TEXT = (".py", ".js", ".md", ".json", ".csv", ".txt", ".html", ".css", ".toml", ".jsonc", ".sql", ".yml", ".yaml", ".sh", ".mjs")
 # never rewritten: the mapping and its tools, generated files, and the file keyed by ISO code
 SKIP = {"data/countries.csv", "data/featured_skip.txt", "data/changelog.json", "docs/country-slugs-audit.md", "docs/country-slugs-plan.md",
-        "scripts/country_slugs_audit.py", "scripts/rename_countries.py", "skill/scripts/countries.py"}
+        "scripts/country_slugs_audit.py", "scripts/rename_countries.py", "skill/scripts/countries.py",
+        "worker/country-slugs.js", "worker/redirects.js"}
 NAMED_DIRS = ("content/stories", "skill/references/countries", "skill/references/records")
 PROSE = ("content/", "docs/", "refine/", "skill/", "README.md", "CONTRIBUTING.md", "ROADMAP.md")
 

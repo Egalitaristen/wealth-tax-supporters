@@ -47,7 +47,9 @@ const cache = {};
 const DV = document.querySelector('meta[name=data-version]')?.content || '';
 const getJSON = url => cache[url] || (cache[url] = fetch(DV ? `${url}?v=${DV}` : url).then(r => { if (!r.ok) throw new Error(r.status + ' ' + url); return r.json(); }));
 const FLAGS = {};  // register folder -> flag file code, from the world data
-const WORLD = () => getJSON('/data/world.json').then(W => { for (const c of [...W.countries, ...(W.bodies || [])]) FLAGS[c.slug] = c.flag; return W; });
+const OLD = {};  // old folder code -> folder, so an old ?country=fr link still works after a rename
+const folderOf = s => OLD[s] || s;
+const WORLD = () => getJSON('/data/world.json').then(W => { for (const c of [...W.countries, ...(W.bodies || [])]) { FLAGS[c.slug] = c.flag; if (c.code && c.code !== c.slug) OLD[c.code] = c.slug; } return W; });
 const INDEX = () => getJSON('/data/index.json');
 // The world outlines are two thirds of the world file and only the map pages draw them, so they load on their own.
 const mapReady = async W => { if (!W.paths) W.paths = (await getJSON('/data/map.json')).paths; };
@@ -534,7 +536,7 @@ async function argumentsPage(key) {
 async function resourcesPage(W) {
   setTitle('Resources');
   const all = W.resources || [], q0 = new URLSearchParams(location.search);
-  const f = {kind: q0.get('kind') || '', country: q0.get('country') || '', year: q0.get('year') || '', state: q0.get('state') || '', level: q0.get('level') || '', q: q0.get('q') || '', closed: q0.get('closed') || ''};
+  const f = {kind: q0.get('kind') || '', country: folderOf(q0.get('country') || ''), year: q0.get('year') || '', state: q0.get('state') || '', level: q0.get('level') || '', q: q0.get('q') || '', closed: q0.get('closed') || ''};
   const yearOf = r => String(r.published || '').slice(0, 4);
   const places = [...new Map(all.map(r => [r.country, r.cname])).entries()].sort((a, b) => (a[0] === 'global') - (b[0] === 'global') || a[1].localeCompare(b[1]));
   const years = [...new Set(all.map(yearOf).filter(Boolean))].sort().reverse();
@@ -1829,7 +1831,7 @@ function contributePage(W, params) {
       <p>Prefer to talk it through, or have a whole list? Post it in the Discord and someone will pick it up.</p>
       <p><a class="btn sm" href="${DISCORD}" target="_blank" rel="noopener">Join the Discord ↗</a></p>
       <p style="margin-top:18px">Have a GitHub account? Open an issue, and follow it as it is checked.</p>
-      <p><a class="btn sm ghost" href="${esc(githubSuggestUrl({country: params.get('country') || ''}))}" target="_blank" rel="noopener">Suggest on GitHub ↗</a></p>
+      <p><a class="btn sm ghost" href="${esc(githubSuggestUrl({country: folderOf(params.get('country') || '')}))}" target="_blank" rel="noopener">Suggest on GitHub ↗</a></p>
       <p><a class="btn sm ghost" href="https://github.com/${REPO}/issues/new?template=new-country.yml" target="_blank" rel="noopener">Start a new country ↗</a></p>
       <p style="margin:18px 0 0"><a href="https://github.com/${REPO}/blob/main/CONTRIBUTING.md" target="_blank" rel="noopener">Contributing guide ↗</a><br><a href="https://github.com/${REPO}/blob/main/skill/SKILL.md" target="_blank" rel="noopener">The research workflow ↗</a></p>
       <p class="fine" style="margin-top:18px">What counts: a public statement, vote, letter or policy backing a tax on wealth (net assets), such as an annual wealth tax or a billionaire minimum tax. Read <a href="/method">the method</a>.</p></aside>
@@ -1861,7 +1863,7 @@ async function globalDirectory(W, params) {
   const rank = {A: 0, B: 1, C: 2};
   const countries = S.countries.slice().sort((a, b) => a.name.localeCompare(b.name));
   const types = [...new Set(S.people.map(p => p.type))].sort((a, b) => label(TYPES_PL, a).localeCompare(label(TYPES_PL, b)));
-  const ST = {q: params.get('q') || '', countries: csv('country').filter(s => S.cname[s]), types: csv('type').filter(t => types.includes(t)),
+  const ST = {q: params.get('q') || '', countries: csv('country').map(folderOf).filter(s => S.cname[s]), types: csv('type').filter(t => types.includes(t)),
     grade: params.get('grade') || '', sort: params.get('sort') || 'strength', limit: 100};
   main.innerHTML = `<div class="wrap page-head fade"><div class="kicker">Everyone on the record</div><h1>The global <em>directory</em></h1>
     <p class="lede" style="margin-top:18px">${fmt(S.uniq.length)} public figures and organisations in ${S.countries.length} countries, each with the statement they rest on. Pick one or more countries and types, and the numbers beside each choice show how many people match everything else you have chosen.</p></div>
@@ -2264,7 +2266,7 @@ function feedbackPage(params) {
 function reportPage(params) {
   setTitle('Report a mistake');
   const removal = params.get('kind') === 'removal';
-  const country = (params.get('country') || '').toLowerCase().replace(/[^a-z0-9-]/g, '').slice(0, 20);
+  const country = folderOf((params.get('country') || '').toLowerCase().replace(/[^a-z0-9-]/g, '').slice(0, 40));
   const entry = (params.get('entry') || '').trim().slice(0, 40), evidence = (params.get('evidence') || '').trim().slice(0, 40);
   const name = (params.get('name') || '').trim().slice(0, 200);
   const from = params.get('page') || (document.referrer && new URL(document.referrer).origin === location.origin ? new URL(document.referrer).pathname : '');

@@ -323,7 +323,7 @@ def build_supranational(folder, full):
                    for x in sorted(seats_by[b["body_id"]], key=lambda x: int(x["order"] or 0))]
         legis.append(dict(id=b["body_id"], name=b["name"], level=b.get("level", ""), seats=int(b["seats"]), as_of=b["as_of"], src=b["source_url"], note=b.get("notes", ""), parties=parties))
     grades = collections.Counter(p[8] for p in P)
-    summary = dict(slug=slug, iso2=meta.get("iso2") or cc_map.iso(slug), flag=cc_map.flag(slug), name=meta["name"], status=meta.get("status", ""), lead=meta.get("lead", ""),
+    summary = dict(slug=slug, code=cc_map.code(slug), iso2=meta.get("iso2") or cc_map.iso(slug), flag=cc_map.flag(slug), name=meta["name"], status=meta.get("status", ""), lead=meta.get("lead", ""),
                    notes=meta.get("notes", ""), supporters=len(P), evidence=len(E), A=grades["A"], B=grades["B"], C=grades["C"],
                    member_label=meta.get("member_label", ""), units=0, units_done=0, units_with_supporters=0, updated=max([e[1] for e in E] or [""]), excluded=0, polls=[], supranational=True,
                    chambers=[[b["name"], b["seats"], sum(len(q[3]) for q in b["parties"])] for b in legis],
@@ -596,7 +596,7 @@ def build_country(folder):
     done = sum(1 for g in geo if g["sweep_status"] == "done")
     with_sup = sum(1 for u, ids in inside.items() if ids and u not in roots)
     grades = collections.Counter(p[8] for p in P)
-    summary = dict(slug=slug, iso2=meta.get("iso2") or cc_map.iso(slug), flag=cc_map.flag(slug), name=meta["name"],
+    summary = dict(slug=slug, code=cc_map.code(slug), iso2=meta.get("iso2") or cc_map.iso(slug), flag=cc_map.flag(slug), name=meta["name"],
                    status=meta.get("status", ""), lead=meta.get("lead", ""), notes=meta.get("notes", ""),
                    supporters=len(P), evidence=len(E), A=grades["A"], B=grades["B"], C=grades["C"],
                    units=len(geo) - len(roots), units_done=done, units_with_supporters=with_sup, updated=last, excluded=len(excl),
@@ -1857,6 +1857,8 @@ def main():
                     help="preview build: only these country folders (for example --only co), or 'arguments' for the Arguments section with the countries its pages link to. Fast; skips supranational registers, "
                          "so world totals are partial. Writes to _site_only by default and is never what you deploy.")
     args = ap.parse_args()
+    if cc_map.WORKER_MAP.read_text(encoding="utf-8") != cc_map.worker_map():
+        raise SystemExit("worker/country-slugs.js is out of date: run `python skill/scripts/countries.py`")
     only = set(args.only or [])
     global ARGUMENTS_ONLY
     if "arguments" in only:  # --only arguments: the arguments section with the countries its pages link to (plus any folders named beside it)

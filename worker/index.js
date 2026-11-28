@@ -4,11 +4,13 @@
 // infra/d1/reports.sql).
 // No accounts and no contact details: a suggestion is a public figure, a country and links to where they said it.
 
+import {newPath} from './redirects.js';
+
 const LIMITS = {name: 200, country: 80, place: 200, links: 2000, said: 3000, page: 300};
 const PER_DAY = 20;  // suggestions one sender can make in a day
 const FEEDBACK_LIMITS = {message: 4000, page: 300, contact: 200};
 const FEEDBACK_PER_DAY = 10;  // feedback messages one sender can make in a day
-const REPORT_LIMITS = {country: 20, entry: 40, evidence: 40, page: 300, message: 4000, source_url: 500, contact: 200};
+const REPORT_LIMITS = {country: 40, entry: 40, evidence: 40, page: 300, message: 4000, source_url: 500, contact: 200};
 const REPORT_PER_DAY = 10;  // mistake reports one sender can make in a day
 
 const json = (body, status = 200) => new Response(JSON.stringify(body), {
@@ -115,6 +117,16 @@ export default {
       const page = await env.ASSETS.fetch(new Request(new URL('/resources/polls', url), {headers: req.headers}));
       if (page.ok) return page;
     }
-    return env.ASSETS.fetch(req);
+    const res = await env.ASSETS.fetch(req);
+    if (res.status !== 404) return res;
+    const get = (path) => env.ASSETS.fetch(new Request(new URL(path, url), {method: 'HEAD'}));
+    const moved = newPath(url.pathname);
+    if (moved) {
+      // only to an address that exists: the file itself, or any page of a country that has been renamed
+      const found = (await get(moved.path)).status < 400 || (moved.page && (await get(`/data/${moved.page}.json`)).status < 400);
+      if (found) return Response.redirect(new URL(moved.path + url.search, url).href, 301);
+    }
+    // client-side routes such as /gb/some-view get the app, as the single-page fallback did
+    return env.ASSETS.fetch(new Request(new URL('/', url), {method: req.method, headers: req.headers}));
   },
 };
