@@ -16,6 +16,7 @@ from pathlib import Path
 sys.path.insert(0, str(Path(__file__).parent))
 import seats  # noqa: E402
 import wtdb  # noqa: E402
+import countries  # noqa: E402
 
 
 def main():
@@ -23,7 +24,7 @@ def main():
     ap.add_argument("dir"); ap.add_argument("--n", type=int, default=40); ap.add_argument("--party"); ap.add_argument("--out")
     ap.add_argument("--adapter", help="an adapter other than the country's own, as for seats.py")
     a = ap.parse_args()
-    cc = a.adapter or Path(a.dir).name.split("-")[0]
+    cc = a.adapter or countries.code(Path(a.dir).resolve().name)
     if cc not in seats.ADAPTERS:
         sys.exit(f"No seats adapter for '{cc}' (seats.py ADAPTERS): there is no official member list to sweep.")
     db = wtdb.load_all(a.dir)

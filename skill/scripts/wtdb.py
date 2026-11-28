@@ -20,6 +20,8 @@ Commands
 import argparse, csv, datetime as dt, difflib, json, os, re, socket, sys, unicodedata
 from pathlib import Path
 from collections import Counter, defaultdict
+sys.path.insert(0, str(Path(__file__).resolve().parent))
+import countries  # noqa: E402
 
 # Prefer IPv4 to avoid broken IPv6 routes to government hosts (e.g. data.riksdagen.se)
 _orig_getaddrinfo = socket.getaddrinfo
@@ -215,7 +217,7 @@ def cmd_init(a):
     if not os.path.exists(meta):
         slug = os.path.basename(os.path.normpath(a.dir))
         with open(meta, "w", encoding="utf-8") as f:
-            json.dump({"name": a.area, "iso2": slug.split("-")[0].upper(), "lead": "", "status": "in progress",
+            json.dump({"name": a.area, "iso2": countries.iso(slug), "lead": "", "status": "in progress",
                        "boundaries": "", "notes": ""}, f, indent=2, ensure_ascii=False)
             f.write("\n")
     print(f"Initialised {a.dir} for {a.area}")
@@ -643,6 +645,8 @@ def check_folder(d, meta):
     """Warning when the folder name is not the lowercase ISO code (or <iso2>-<region>), unless the code is taken by another folder."""
     slug = os.path.basename(os.path.abspath(d))
     iso = (meta.get("iso2") or "").lower()
+    if countries.row(slug):  # listed in data/countries.csv
+        return []
     if not iso or slug == iso or slug.startswith(iso + "-"):
         return []
     parent = os.path.dirname(os.path.abspath(d))

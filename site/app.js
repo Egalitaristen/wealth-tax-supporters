@@ -46,7 +46,8 @@ const cache = {};
 // The build stamps a hash of the data files into the page, so each deploy fetches fresh data instead of a cached copy (data is cached for five minutes).
 const DV = document.querySelector('meta[name=data-version]')?.content || '';
 const getJSON = url => cache[url] || (cache[url] = fetch(DV ? `${url}?v=${DV}` : url).then(r => { if (!r.ok) throw new Error(r.status + ' ' + url); return r.json(); }));
-const WORLD = () => getJSON('/data/world.json');
+const FLAGS = {};  // register folder -> flag file code, from the world data
+const WORLD = () => getJSON('/data/world.json').then(W => { for (const c of [...W.countries, ...(W.bodies || [])]) FLAGS[c.slug] = c.flag; return W; });
 const INDEX = () => getJSON('/data/index.json');
 // The world outlines are two thirds of the world file and only the map pages draw them, so they load on their own.
 const mapReady = async W => { if (!W.paths) W.paths = (await getJSON('/data/map.json')).paths; };
@@ -480,8 +481,8 @@ const petCard = (r, place = true) => `<article class="res res-pet">
       <div class="res-st">${r.pstate === 'open' ? ext(r.url, 'Sign the petition ↗', 'btn sm') : ext(r.url, 'See the petition ↗')}${(r.people || []).length ? ` <span class="pet-who"><b>In the register</b> ${resPeople(r.people)}</span>` : ''}</div>
     </article>`;
 const RES_STATE = {in_force: 'In force', pending: 'Pending', rejected: 'Rejected', lapsed: 'Lapsed', adopted: 'Adopted'};
-// A country's flag, by register folder (the folder is the lower-case ISO code; Australia's is `australia`, and the African Union and `global` have none).
-const flag = slug => { const c = slug === 'australia' ? 'au' : (slug === 'au' || slug === 'global' || !/^[a-z]{2}$/.test(slug || '')) ? '' : slug; return c ? `<img class="flag" src="/flags/${c}.svg" alt="" width="16" height="12" loading="lazy">` : ''; };
+// A country's flag, by register folder (data/countries.csv gives the flag file; the African Union and `global` have none).
+const flag = slug => { const c = FLAGS[slug] || ''; return c ? `<img class="flag" src="/flags/${c}.svg" alt="" width="16" height="12" loading="lazy">` : ''; };
 // A bill's supporters, linked. A long list (a ballot measure can have hundreds) shows its first names and folds the rest behind "+N more".
 const RES_PEOPLE_SHOWN = 12;
 const resPeople = people => {

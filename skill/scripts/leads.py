@@ -16,6 +16,8 @@ figures and organisations, always with the link where you saw the statement, nev
 """
 import argparse, csv, datetime as dt, sys
 from pathlib import Path
+sys.path.insert(0, str(Path(__file__).resolve().parent))
+import countries  # noqa: E402
 
 FILE = Path(__file__).resolve().parent.parent.parent / "data" / "leads.csv"
 COLS = ["lead_id", "country", "name", "kind", "role", "source_url", "note", "found_in", "found_date", "status", "used_in"]
@@ -36,8 +38,13 @@ def save(rows):
         w.writerows({c: r.get(c, "") for c in COLS} for r in rows)
 
 
+def lead_code(value):
+    """The code leads.csv writes: an ISO code stays; a folder slug (france) becomes its code (FR)."""
+    return countries.iso(value) if len(value) > 3 and countries.row(value) else value.upper()
+
+
 def matches(row_country, want):
-    r, w = row_country.upper(), want.upper()
+    r, w = row_country.upper(), lead_code(want)
     return r == w or r.startswith(w + "-")
 
 
@@ -76,7 +83,7 @@ def main():
         same = [r for r in rows if r["name"].lower() == a.name.lower() and matches(r["country"], a.country) and r["status"] == "open"]
         if same:
             sys.exit(f"Already an open lead for {a.name} in {a.country}: {same[0]['lead_id']}. Add the new link to its note instead.")
-        row = dict(lead_id=next_id(rows), country=a.country.upper(), name=a.name, kind=a.kind, role=a.role, source_url=a.url, note=a.note,
+        row = dict(lead_id=next_id(rows), country=lead_code(a.country), name=a.name, kind=a.kind, role=a.role, source_url=a.url, note=a.note,
                    found_in=a.found_in.rstrip("/").split("/")[-1] if a.found_in else "", found_date=dt.date.today().isoformat(), status="open", used_in="")
         rows.append(row)
         save(rows)

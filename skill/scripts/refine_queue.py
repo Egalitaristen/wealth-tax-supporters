@@ -30,7 +30,8 @@ def main():
     db = wtdb.load_all(a.dir)
     try:  # leads other runs found for this area while researching somewhere else (leads.py)
         import leads
-        iso = Path(a.dir).resolve().name.upper()
+        import countries
+        iso = countries.iso(Path(a.dir).resolve().name)
         open_leads = [r for r in leads.load() if r["status"] == "open" and leads.matches(r["country"], iso)]
         if open_leads:
             print(f"{len(open_leads)} open lead(s) for {iso} from other runs: python skill/scripts/leads.py list --country {iso}\n")

@@ -14,6 +14,8 @@ ROOT = Path(__file__).resolve().parent.parent
 sys.path.insert(0, str(Path(__file__).resolve().parent))
 import charts as chartlib  # inline charts for the argument pages
 import static_pages as sp  # plain-HTML page bodies for crawlers that do not run the app
+sys.path.insert(0, str(Path(__file__).resolve().parent.parent / "skill" / "scripts"))
+import countries as cc_map  # folder code or slug -> ISO code and flag
 DATA = ROOT / "data"
 
 
@@ -321,7 +323,7 @@ def build_supranational(folder, full):
                    for x in sorted(seats_by[b["body_id"]], key=lambda x: int(x["order"] or 0))]
         legis.append(dict(id=b["body_id"], name=b["name"], level=b.get("level", ""), seats=int(b["seats"]), as_of=b["as_of"], src=b["source_url"], note=b.get("notes", ""), parties=parties))
     grades = collections.Counter(p[8] for p in P)
-    summary = dict(slug=slug, iso2=meta.get("iso2", slug.upper()), name=meta["name"], status=meta.get("status", ""), lead=meta.get("lead", ""),
+    summary = dict(slug=slug, iso2=meta.get("iso2") or cc_map.iso(slug), flag=cc_map.flag(slug), name=meta["name"], status=meta.get("status", ""), lead=meta.get("lead", ""),
                    notes=meta.get("notes", ""), supporters=len(P), evidence=len(E), A=grades["A"], B=grades["B"], C=grades["C"],
                    member_label=meta.get("member_label", ""), units=0, units_done=0, units_with_supporters=0, updated=max([e[1] for e in E] or [""]), excluded=0, polls=[], supranational=True,
                    chambers=[[b["name"], b["seats"], sum(len(q[3]) for q in b["parties"])] for b in legis],
@@ -594,7 +596,7 @@ def build_country(folder):
     done = sum(1 for g in geo if g["sweep_status"] == "done")
     with_sup = sum(1 for u, ids in inside.items() if ids and u not in roots)
     grades = collections.Counter(p[8] for p in P)
-    summary = dict(slug=slug, iso2=meta.get("iso2", slug.split("-")[0].upper()), name=meta["name"],
+    summary = dict(slug=slug, iso2=meta.get("iso2") or cc_map.iso(slug), flag=cc_map.flag(slug), name=meta["name"],
                    status=meta.get("status", ""), lead=meta.get("lead", ""), notes=meta.get("notes", ""),
                    supporters=len(P), evidence=len(E), A=grades["A"], B=grades["B"], C=grades["C"],
                    units=len(geo) - len(roots), units_done=done, units_with_supporters=with_sup, updated=last, excluded=len(excl),

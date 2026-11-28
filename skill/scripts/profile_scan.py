@@ -22,6 +22,7 @@ from pathlib import Path
 
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
 import wtdb  # noqa: E402  (sets the IPv4-first resolver the other scripts use)
+import countries  # noqa: E402
 
 ROOT = Path(__file__).resolve().parent.parent.parent
 UA = "WealthTaxSupportersBot/1.0 (+https://wealthtaxsupporters.com/about; reads a site's own links to its social accounts)"
@@ -361,7 +362,7 @@ def main():
     ap.add_argument("--report", help="write a tab-separated report of every actor and what was held for review to this path")
     a = ap.parse_args()
     data = ROOT / "data"
-    folders = sorted(p.name for p in data.iterdir() if (p / "actors.csv").exists() and p.name not in ("eu", "un", "au"))
+    folders = sorted(p.name for p in data.iterdir() if (p / "actors.csv").exists() and p.name not in countries.supranational())
     pool = []
     cutoff = (dt.date.today() - dt.timedelta(days=365)).isoformat()
     want = None
