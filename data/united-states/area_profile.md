@@ -23,6 +23,7 @@ First drafted 2026-10-19 (run R001). Lines marked **[verify]** come from a searc
 - Democratic Party, Republican Party, Green Party, Working Families Party, independents. Check platforms and state party resolutions (California Democratic Party endorsed Prop 40).
 
 ## 5. Government below national level
+- **Territories (28 November 2026, issue #221):** Puerto Rico, Guam, the US Virgin Islands, American Samoa and the Northern Mariana Islands are region-level units, with their 91 county equivalents (Census names and codes from TIGERweb) below them, all `pending`: none has been swept. Outlines come from the us-atlas `counties-10m.json` (Census 2017, public domain) and sit in insets below the map. Rose Island (60030) and Swains Island (60040) have no outline in that file. Their five delegates and the Resident Commissioner do not vote on the floor, as the House seat chart notes.
 - 50 states and DC loaded as G0003–G0053. State constitutions differ on taxing wealth (uniformity clauses), which is why many state proposals are ballot measures or constitutional amendments.
 
 ## 6. Search terms

@@ -14,7 +14,7 @@ The register is loaded down to the counties (SKILL.md 6.7), but local sweeping s
 
 **Counties and places:** the county list with codes is the Census gazetteer (`2020_Gaz_counties_national`). To place a mayor or councillor, look the city up in the Census place-to-county table (`national_place_by_county2020.txt`) and use the county when the city lies in one county only; prefer the incorporated city when an unincorporated place shares its name. Congressional districts cross county lines, so a representative stays at state level with the district (`CA-47`) as place text.
 
-**Map:** `data/united-states/boundaries.json` comes from the `us-atlas` package (Census cartographic boundaries, already projected, with Alaska and Hawaii as insets): counties as units and states as region outlines.
+**Map:** `data/united-states/boundaries.json` comes from the `us-atlas` package (Census cartographic boundaries, already projected, with Alaska and Hawaii as insets): counties as units and states as region outlines. Puerto Rico and the island territories are added as insets below it with `python scripts/add_territory_insets.py us counties-10m.json tw-names.json`; run it again after rebuilding the file.
 
 ```bash
 python skill/scripts/topo_to_boundaries.py counties-albers-10m.json --object counties --code-prop id \

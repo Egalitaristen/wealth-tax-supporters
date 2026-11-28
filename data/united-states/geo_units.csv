@@ -3195,3 +3195,99 @@ G3195,Uinta County,county,county,G0053,,pending,,,,,,56041
 G3196,Washakie County,county,county,G0053,,pending,,,,,,56043
 G3197,Weston County,county,county,G0053,,pending,,,,,,56045
 G3198,Valdez-Cordova Census Area,county,census area,G0004,,pending,,,,,Split in 2019 into the Chugach and Copper River census areas; kept as one unit to match the map shapes.,02261
+G3199,American Samoa,region,territory,G0054,,pending,,,,,,
+G3200,Guam,region,territory,G0054,,pending,,,,,,
+G3201,Northern Mariana Islands,region,territory,G0054,,pending,,,,,,
+G3202,Puerto Rico,region,territory,G0054,,pending,,,,,,
+G3203,U.S. Virgin Islands,region,territory,G0054,,pending,,,,,,
+G3204,Guam,county,territory,G3200,,pending,,,,,,66010
+G3205,Northern Islands Municipality,county,municipality,G3201,,pending,,,,,,69085
+G3206,Rota Municipality,county,municipality,G3201,,pending,,,,,,69100
+G3207,Saipan Municipality,county,municipality,G3201,,pending,,,,,,69110
+G3208,Tinian Municipality,county,municipality,G3201,,pending,,,,,,69120
+G3209,Eastern District,county,district,G3199,,pending,,,,,,60010
+G3210,Manu'a District,county,district,G3199,,pending,,,,,,60020
+G3211,Rose Island,county,atoll,G3199,,pending,,,,,"No outline in the us-atlas file, so not on the map.",60030
+G3212,Swains Island,county,atoll,G3199,,pending,,,,,"No outline in the us-atlas file, so not on the map.",60040
+G3213,Western District,county,district,G3199,,pending,,,,,,60050
+G3214,Adjuntas Municipio,county,municipio,G3202,,pending,,,,,,72001
+G3215,Aguada Municipio,county,municipio,G3202,,pending,,,,,,72003
+G3216,Aguadilla Municipio,county,municipio,G3202,,pending,,,,,,72005
+G3217,Aguas Buenas Municipio,county,municipio,G3202,,pending,,,,,,72007
+G3218,Aibonito Municipio,county,municipio,G3202,,pending,,,,,,72009
+G3219,Añasco Municipio,county,municipio,G3202,,pending,,,,,,72011
+G3220,Arecibo Municipio,county,municipio,G3202,,pending,,,,,,72013
+G3221,Arroyo Municipio,county,municipio,G3202,,pending,,,,,,72015
+G3222,Barceloneta Municipio,county,municipio,G3202,,pending,,,,,,72017
+G3223,Barranquitas Municipio,county,municipio,G3202,,pending,,,,,,72019
+G3224,Bayamón Municipio,county,municipio,G3202,,pending,,,,,,72021
+G3225,Cabo Rojo Municipio,county,municipio,G3202,,pending,,,,,,72023
+G3226,Caguas Municipio,county,municipio,G3202,,pending,,,,,,72025
+G3227,Camuy Municipio,county,municipio,G3202,,pending,,,,,,72027
+G3228,Canóvanas Municipio,county,municipio,G3202,,pending,,,,,,72029
+G3229,Carolina Municipio,county,municipio,G3202,,pending,,,,,,72031
+G3230,Cataño Municipio,county,municipio,G3202,,pending,,,,,,72033
+G3231,Cayey Municipio,county,municipio,G3202,,pending,,,,,,72035
+G3232,Ceiba Municipio,county,municipio,G3202,,pending,,,,,,72037
+G3233,Ciales Municipio,county,municipio,G3202,,pending,,,,,,72039
+G3234,Cidra Municipio,county,municipio,G3202,,pending,,,,,,72041
+G3235,Coamo Municipio,county,municipio,G3202,,pending,,,,,,72043
+G3236,Comerío Municipio,county,municipio,G3202,,pending,,,,,,72045
+G3237,Corozal Municipio,county,municipio,G3202,,pending,,,,,,72047
+G3238,Culebra Municipio,county,municipio,G3202,,pending,,,,,,72049
+G3239,Dorado Municipio,county,municipio,G3202,,pending,,,,,,72051
+G3240,Fajardo Municipio,county,municipio,G3202,,pending,,,,,,72053
+G3241,Florida Municipio,county,municipio,G3202,,pending,,,,,,72054
+G3242,Guánica Municipio,county,municipio,G3202,,pending,,,,,,72055
+G3243,Guayama Municipio,county,municipio,G3202,,pending,,,,,,72057
+G3244,Guayanilla Municipio,county,municipio,G3202,,pending,,,,,,72059
+G3245,Guaynabo Municipio,county,municipio,G3202,,pending,,,,,,72061
+G3246,Gurabo Municipio,county,municipio,G3202,,pending,,,,,,72063
+G3247,Hatillo Municipio,county,municipio,G3202,,pending,,,,,,72065
+G3248,Hormigueros Municipio,county,municipio,G3202,,pending,,,,,,72067
+G3249,Humacao Municipio,county,municipio,G3202,,pending,,,,,,72069
+G3250,Isabela Municipio,county,municipio,G3202,,pending,,,,,,72071
+G3251,Jayuya Municipio,county,municipio,G3202,,pending,,,,,,72073
+G3252,Juana Díaz Municipio,county,municipio,G3202,,pending,,,,,,72075
+G3253,Juncos Municipio,county,municipio,G3202,,pending,,,,,,72077
+G3254,Lajas Municipio,county,municipio,G3202,,pending,,,,,,72079
+G3255,Lares Municipio,county,municipio,G3202,,pending,,,,,,72081
+G3256,Las Marías Municipio,county,municipio,G3202,,pending,,,,,,72083
+G3257,Las Piedras Municipio,county,municipio,G3202,,pending,,,,,,72085
+G3258,Loíza Municipio,county,municipio,G3202,,pending,,,,,,72087
+G3259,Luquillo Municipio,county,municipio,G3202,,pending,,,,,,72089
+G3260,Manatí Municipio,county,municipio,G3202,,pending,,,,,,72091
+G3261,Maricao Municipio,county,municipio,G3202,,pending,,,,,,72093
+G3262,Maunabo Municipio,county,municipio,G3202,,pending,,,,,,72095
+G3263,Mayagüez Municipio,county,municipio,G3202,,pending,,,,,,72097
+G3264,Moca Municipio,county,municipio,G3202,,pending,,,,,,72099
+G3265,Morovis Municipio,county,municipio,G3202,,pending,,,,,,72101
+G3266,Naguabo Municipio,county,municipio,G3202,,pending,,,,,,72103
+G3267,Naranjito Municipio,county,municipio,G3202,,pending,,,,,,72105
+G3268,Orocovis Municipio,county,municipio,G3202,,pending,,,,,,72107
+G3269,Patillas Municipio,county,municipio,G3202,,pending,,,,,,72109
+G3270,Peñuelas Municipio,county,municipio,G3202,,pending,,,,,,72111
+G3271,Ponce Municipio,county,municipio,G3202,,pending,,,,,,72113
+G3272,Quebradillas Municipio,county,municipio,G3202,,pending,,,,,,72115
+G3273,Rincón Municipio,county,municipio,G3202,,pending,,,,,,72117
+G3274,Río Grande Municipio,county,municipio,G3202,,pending,,,,,,72119
+G3275,Sabana Grande Municipio,county,municipio,G3202,,pending,,,,,,72121
+G3276,Salinas Municipio,county,municipio,G3202,,pending,,,,,,72123
+G3277,San Germán Municipio,county,municipio,G3202,,pending,,,,,,72125
+G3278,San Juan Municipio,county,municipio,G3202,,pending,,,,,,72127
+G3279,San Lorenzo Municipio,county,municipio,G3202,,pending,,,,,,72129
+G3280,San Sebastián Municipio,county,municipio,G3202,,pending,,,,,,72131
+G3281,Santa Isabel Municipio,county,municipio,G3202,,pending,,,,,,72133
+G3282,Toa Alta Municipio,county,municipio,G3202,,pending,,,,,,72135
+G3283,Toa Baja Municipio,county,municipio,G3202,,pending,,,,,,72137
+G3284,Trujillo Alto Municipio,county,municipio,G3202,,pending,,,,,,72139
+G3285,Utuado Municipio,county,municipio,G3202,,pending,,,,,,72141
+G3286,Vega Alta Municipio,county,municipio,G3202,,pending,,,,,,72143
+G3287,Vega Baja Municipio,county,municipio,G3202,,pending,,,,,,72145
+G3288,Vieques Municipio,county,municipio,G3202,,pending,,,,,,72147
+G3289,Villalba Municipio,county,municipio,G3202,,pending,,,,,,72149
+G3290,Yabucoa Municipio,county,municipio,G3202,,pending,,,,,,72151
+G3291,Yauco Municipio,county,municipio,G3202,,pending,,,,,,72153
+G3292,St. Croix Island,county,island,G3203,,pending,,,,,,78010
+G3293,St. John Island,county,island,G3203,,pending,,,,,,78020
+G3294,St. Thomas Island,county,island,G3203,,pending,,,,,,78030

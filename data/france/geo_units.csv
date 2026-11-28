@@ -118,11 +118,11 @@ G0116,Hauts-de-Seine,county,département,G0011,,pending,,,,,,92
 G0117,Seine-Saint-Denis,county,département,G0011,,pending,,,,,,93
 G0118,Val-de-Marne,county,département,G0011,,pending,,,,,,94
 G0119,Val-d'Oise,county,département,G0011,,pending,,,,,,95
-G0120,Guadeloupe,county,overseas département,G0006,,pending,,,,,Single-département overseas region; no shape on the map yet.,971
-G0121,Martinique,county,overseas département,G0007,,pending,,,,,Single-département overseas region; no shape on the map yet.,972
-G0122,Guyane,county,overseas département,G0008,,pending,,,,,Single-département overseas region; no shape on the map yet.,973
-G0123,La Réunion,county,overseas département,G0009,,pending,,,,,Single-département overseas region; no shape on the map yet.,974
-G0124,Mayotte,county,overseas département,G0010,,pending,,,,,Single-département overseas region; no shape on the map yet.,976
+G0120,Guadeloupe,county,overseas département,G0006,,pending,,,,,Single-département overseas region.,971
+G0121,Martinique,county,overseas département,G0007,,pending,,,,,Single-département overseas region.,972
+G0122,Guyane,county,overseas département,G0008,,pending,,,,,Single-département overseas region.,973
+G0123,La Réunion,county,overseas département,G0009,,pending,,,,,Single-département overseas region.,974
+G0124,Mayotte,county,overseas département,G0010,,pending,,,,,Single-département overseas region.,976
 G00125,L'Abergement-Clémenciat,council,commune,G0024,,pending,,,,,,01001
 G00126,L'Abergement-de-Varey,council,commune,G0024,,pending,,,,,,01002
 G00127,Ambérieu-en-Bugey,council,commune,G0024,,pending,,,,,,01004
@@ -35043,3 +35043,97 @@ G35041,Ouangani,council,commune,G0124,,pending,,,,,,97614
 G35042,Pamandzi,council,commune,G0124,,pending,,,,,,97615
 G35043,Sada,council,commune,G0124,,pending,,,,,,97616
 G35044,Tsingoni,council,commune,G0124,,pending,,,,,,97617
+G35045,Saint-Pierre-et-Miquelon,region,overseas collectivity,G0001,,pending,,,,,,FR-PM
+G35046,Miquelon-Langlade,council,commune,G35045,,pending,,,,,,97501
+G35047,Saint-Pierre,council,commune,G35045,,pending,,,,,,97502
+G35048,Saint-Barthélemy,region,overseas collectivity,G0001,,pending,,,,,,FR-BL
+G35049,Saint-Barthélemy,council,commune,G35048,,pending,,,,,,97701
+G35050,Saint-Martin,region,overseas collectivity,G0001,,pending,,,,,,FR-MF
+G35051,Saint-Martin,council,commune,G35050,,pending,,,,,,97801
+G35052,Wallis et Futuna,region,overseas collectivity,G0001,,pending,,,,,,FR-WF
+G35053,Alo,council,circonscription territoriale,G35052,,pending,,,,,,98611
+G35054,Sigave,council,circonscription territoriale,G35052,,pending,,,,,,98612
+G35055,Uvea,council,circonscription territoriale,G35052,,pending,,,,,,98613
+G35056,Nouvelle-Calédonie,region,overseas collectivity,G0001,,pending,,,,,,FR-NC
+G35057,Belep,council,commune,G35056,,pending,,,,,,98801
+G35058,Bouloupari,council,commune,G35056,,pending,,,,,,98802
+G35059,Bourail,council,commune,G35056,,pending,,,,,,98803
+G35060,Canala,council,commune,G35056,,pending,,,,,,98804
+G35061,Dumbéa,council,commune,G35056,,pending,,,,,,98805
+G35062,Farino,council,commune,G35056,,pending,,,,,,98806
+G35063,Hienghène,council,commune,G35056,,pending,,,,,,98807
+G35064,Houaïlou,council,commune,G35056,,pending,,,,,,98808
+G35065,L'Île-des-Pins,council,commune,G35056,,pending,,,,,,98809
+G35066,Kaala-Gomen,council,commune,G35056,,pending,,,,,,98810
+G35067,Koné,council,commune,G35056,,pending,,,,,,98811
+G35068,Koumac,council,commune,G35056,,pending,,,,,,98812
+G35069,La Foa,council,commune,G35056,,pending,,,,,,98813
+G35070,Lifou,council,commune,G35056,,pending,,,,,,98814
+G35071,Maré,council,commune,G35056,,pending,,,,,,98815
+G35072,Moindou,council,commune,G35056,,pending,,,,,,98816
+G35073,Le Mont-Dore,council,commune,G35056,,pending,,,,,,98817
+G35074,Nouméa,council,commune,G35056,,pending,,,,,,98818
+G35075,Ouégoa,council,commune,G35056,,pending,,,,,,98819
+G35076,Ouvéa,council,commune,G35056,,pending,,,,,,98820
+G35077,Païta,council,commune,G35056,,pending,,,,,,98821
+G35078,Poindimié,council,commune,G35056,,pending,,,,,,98822
+G35079,Ponérihouen,council,commune,G35056,,pending,,,,,,98823
+G35080,Pouébo,council,commune,G35056,,pending,,,,,,98824
+G35081,Pouembout,council,commune,G35056,,pending,,,,,,98825
+G35082,Poum,council,commune,G35056,,pending,,,,,,98826
+G35083,Poya,council,commune,G35056,,pending,,,,,,98827
+G35084,Sarraméa,council,commune,G35056,,pending,,,,,,98828
+G35085,Thio,council,commune,G35056,,pending,,,,,,98829
+G35086,Touho,council,commune,G35056,,pending,,,,,,98830
+G35087,Voh,council,commune,G35056,,pending,,,,,,98831
+G35088,Yaté,council,commune,G35056,,pending,,,,,,98832
+G35089,Kouaoua,council,commune,G35056,,pending,,,,,,98833
+G35090,Polynésie française,region,overseas collectivity,G0001,,pending,,,,,,FR-PF
+G35091,Anaa,council,commune,G35090,,pending,,,,,,98711
+G35092,Arue,council,commune,G35090,,pending,,,,,,98712
+G35093,Arutua,council,commune,G35090,,pending,,,,,,98713
+G35094,Bora-Bora,council,commune,G35090,,pending,,,,,,98714
+G35095,Faaa,council,commune,G35090,,pending,,,,,,98715
+G35096,Fakarava,council,commune,G35090,,pending,,,,,,98716
+G35097,Fangatau,council,commune,G35090,,pending,,,,,,98717
+G35098,Fatu-Hiva,council,commune,G35090,,pending,,,,,,98718
+G35099,Gambier,council,commune,G35090,,pending,,,,,,98719
+G35100,Hao,council,commune,G35090,,pending,,,,,,98720
+G35101,Hikueru,council,commune,G35090,,pending,,,,,,98721
+G35102,Hitiaa O Te Ra,council,commune,G35090,,pending,,,,,,98722
+G35103,Hiva-Oa,council,commune,G35090,,pending,,,,,,98723
+G35104,Huahine,council,commune,G35090,,pending,,,,,,98724
+G35105,Mahina,council,commune,G35090,,pending,,,,,,98725
+G35106,Makemo,council,commune,G35090,,pending,,,,,,98726
+G35107,Manihi,council,commune,G35090,,pending,,,,,,98727
+G35108,Maupiti,council,commune,G35090,,pending,,,,,,98728
+G35109,Moorea-Maiao,council,commune,G35090,,pending,,,,,,98729
+G35110,Napuka,council,commune,G35090,,pending,,,,,,98730
+G35111,Nuku-Hiva,council,commune,G35090,,pending,,,,,,98731
+G35112,Nukutavake,council,commune,G35090,,pending,,,,,,98732
+G35113,Paea,council,commune,G35090,,pending,,,,,,98733
+G35114,Papara,council,commune,G35090,,pending,,,,,,98734
+G35115,Papeete,council,commune,G35090,,pending,,,,,,98735
+G35116,Pirae,council,commune,G35090,,pending,,,,,,98736
+G35117,Pukapuka,council,commune,G35090,,pending,,,,,,98737
+G35118,Punaauia,council,commune,G35090,,pending,,,,,,98738
+G35119,Raivavae,council,commune,G35090,,pending,,,,,,98739
+G35120,Rangiroa,council,commune,G35090,,pending,,,,,,98740
+G35121,Rapa,council,commune,G35090,,pending,,,,,,98741
+G35122,Reao,council,commune,G35090,,pending,,,,,,98742
+G35123,Rimatara,council,commune,G35090,,pending,,,,,,98743
+G35124,Rurutu,council,commune,G35090,,pending,,,,,,98744
+G35125,Tahaa,council,commune,G35090,,pending,,,,,,98745
+G35126,Tahuata,council,commune,G35090,,pending,,,,,,98746
+G35127,Taiarapu-Est,council,commune,G35090,,pending,,,,,,98747
+G35128,Taiarapu-Ouest,council,commune,G35090,,pending,,,,,,98748
+G35129,Takaroa,council,commune,G35090,,pending,,,,,,98749
+G35130,Taputapuatea,council,commune,G35090,,pending,,,,,,98750
+G35131,Tatakoto,council,commune,G35090,,pending,,,,,,98751
+G35132,Teva I Uta,council,commune,G35090,,pending,,,,,,98752
+G35133,Tubuai,council,commune,G35090,,pending,,,,,,98753
+G35134,Tumaraa,council,commune,G35090,,pending,,,,,,98754
+G35135,Tureia,council,commune,G35090,,pending,,,,,,98755
+G35136,Ua-Huka,council,commune,G35090,,pending,,,,,,98756
+G35137,Ua-Pou,council,commune,G35090,,pending,,,,,,98757
+G35138,Uturoa,council,commune,G35090,,pending,,,,,,98758
