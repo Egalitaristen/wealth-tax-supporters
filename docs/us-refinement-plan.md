@@ -24,7 +24,7 @@ The queue identifies 844 actors with gaps, including 381 place gaps, 105 seat-ve
 
 - Preserve existing local changes; use a `codex/` branch and one pull request per completed run. Never push to main.
 - Keep the batch CSV outside the repository. A provisional 60-person batch has been generated at `%TEMP%/us-refine-batch-2026-10-25.csv`.
-- Run the whole-country automatic pass: `match_wikidata.py`, spot-check several identity matches, then `profiles_wikidata.py`, `wtdb.py locate`, `archive_sources.py`, and `seats_us.py`, each against `data/us`.
+- Run the whole-country automatic pass: `match_wikidata.py`, spot-check several identity matches, then `profiles_wikidata.py`, `wtdb.py locate`, `archive_sources.py`, and `seats_us.py`, each against `data/united-states`.
 - Review automatic changes, especially identities, office mismatches and source provenance. The US seat helper uses congress-legislators; direct chamber verification remains required. Confirm seat totals and party splits from official chamber lists.
 - Regenerate the 60-person queue after the automatic pass. It may change as gaps are filled or offices corrected. Do not treat the provisional names as a fixed assignment.
 
@@ -56,9 +56,9 @@ For US evidence, favor official congressional bill-status records, legislators' 
 
 ## 4. Completion criteria for every run
 
-- Validate `data/us` and fix every error.
-- Check every new quote with `wtdb.py checkquotes data/us --run <run-id>`; resolve failures by verifying the source or removing unsupported new rows.
-- Request archives for new sources with `archive_sources.py data/us --save`; log failures without implying a snapshot exists.
+- Validate `data/united-states` and fix every error.
+- Check every new quote with `wtdb.py checkquotes data/united-states --run <run-id>`; resolve failures by verifying the source or removing unsupported new rows.
+- Request archives for new sources with `archive_sources.py data/united-states --save`; log failures without implying a snapshot exists.
 - Add a run row with focus `refine: <n> supporters`, zero new actors, and concrete next-batch priorities. Use the next available run ID at execution time.
 - Compare before/after files to report links added and supporters still linkless, locations improved, new statements, actors upgraded, retractions, offices corrected, and supporters not improved with reasons.
 - Review the final changes and open one pull request. The run is complete when every selected supporter has a recorded outcome, required checks pass, and unresolved source limitations are documented.

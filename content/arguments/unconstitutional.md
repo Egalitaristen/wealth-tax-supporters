@@ -55,7 +55,7 @@ sources:
     url: https://www.ktvu.com/news/prop-40-californias-billionaire-tax-fails-ballot-box
   - id: 9
     title: Wealth Tax Supporters, California Billionaire Tax Act (Proposition 40), with the result reported by the Associated Press on 9 November 2026
-    url: https://wealthtaxsupporters.com/resources/us-california-billionaire-tax-act
+    url: https://wealthtaxsupporters.com/resources/united-states-california-billionaire-tax-act
   - id: 10
     title: Bundesverfassungsgericht, Beschluss vom 22. Juni 1995, 2 BvL 37/91 (BVerfGE 93, 121)
     url: https://www.servat.unibe.ch/dfr/bv093121.html
@@ -140,7 +140,7 @@ A constitution is a text with a procedure in it. The American one has two roads 
 
 ## Who says so {#who}
 
-The [United States story](/us) sets out the clauses, the bills and California. The [German](/de), [French](/fr), [Spanish](/es), [Swiss](/ch) and [Colombian](/co) stories give the rulings in their countries.
+The [United States story](/united-states) sets out the clauses, the bills and California. The [German](/germany), [French](/france), [Spanish](/spain), [Swiss](/switzerland) and [Colombian](/colombia) stories give the rulings in their countries.
 
 ## Where to look next {#next}
 

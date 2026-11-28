@@ -571,10 +571,10 @@ def check_boundaries(d, db):
 
 
 def validate_supranational(d):
-    """A body above the countries (data/eu): only bodies, seats and positions. Its supporters are actors in the country registers, referred
+    """A body above the countries (data/european-union): only bodies, seats and positions. Its supporters are actors in the country registers, referred
     to as <country folder>-<actor id>; check each one exists there, and that a body's seat rows add up to its seats."""
     errs, warns = [], []
-    db = {t: load(d, t) for t in ("bodies", "seats", "positions", "actors", "evidence", "exclusions", "runs")}  # actors, evidence: only a body whose members are governments (data/un) holds its own
+    db = {t: load(d, t) for t in ("bodies", "seats", "positions", "actors", "evidence", "exclusions", "runs")}  # actors, evidence: only a body whose members are governments (data/united-nations) holds its own
     for t, rows in db.items():
         seen = set()
         for i, r in enumerate(rows, start=2):

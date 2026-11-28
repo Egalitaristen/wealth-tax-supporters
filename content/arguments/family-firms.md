@@ -181,4 +181,4 @@ The pillar page answers this objection [in short](/arguments/why-tax-wealth#firm
 
 ## Where to look next {#next}
 
-The [Norwegian](/no), [Spanish](/es), [Swedish](/se), [Colombian](/co) and [Bolivian](/bo) stories carry the underlying figures.
+The [Norwegian](/norway), [Spanish](/spain), [Swedish](/sweden), [Colombian](/colombia) and [Bolivian](/bolivia) stories carry the underlying figures.

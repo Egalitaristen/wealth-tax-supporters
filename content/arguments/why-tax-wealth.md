@@ -85,7 +85,7 @@ sources:
     url: https://github.com/Egalitaristen/wealth-tax-supporters/blob/main/data/wealth_tax_status.csv
   - id: 18
     title: Wealth Tax Supporters, California Billionaire Tax Act (Proposition 40), with the result reported by the Associated Press on 9 November 2026
-    url: https://wealthtaxsupporters.com/resources/us-california-billionaire-tax-act
+    url: https://wealthtaxsupporters.com/resources/united-states-california-billionaire-tax-act
   - id: 19
     title: Wealth Tax Supporters, directory of named supporters and the bills and laws in the register (built 13 November 2026)
     url: https://wealthtaxsupporters.com/directory
@@ -300,7 +300,7 @@ The register counts 11 countries with an annual tax on net wealth in force and 1
 
 Eight winners of the economics Nobel have signed public letters asking for a tax on the largest fortunes: seven to France in July 2025 and six to California in September 2026.[14][15] The page: [Nobel laureates](/arguments/nobel-laureates).
 
-[Gabriel Zucman](/fr/A0229) and [Emmanuel Saez](/us/A0675) wrote studies behind several of the figures on this page. The [directory](/directory) lists the politicians, economists, unions and campaigners on the record in each country, and the register holds 150 bills and laws.[19]
+[Gabriel Zucman](/france/A0229) and [Emmanuel Saez](/united-states/A0675) wrote studies behind several of the figures on this page. The [directory](/directory) lists the politicians, economists, unions and campaigners on the record in each country, and the register holds 150 bills and laws.[19]
 
 ## What you can do {#act}
 

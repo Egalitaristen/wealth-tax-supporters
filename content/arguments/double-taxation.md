@@ -127,7 +127,7 @@ The objection fails in three places. The wealth it protects was mostly never tax
 
 ## Who says so {#who}
 
-[Emmanuel Saez](/us/A0675) and [Gabriel Zucman](/fr/A0229) wrote the studies behind most of the figures. The OECD's report on net wealth taxes answers the objection in a section of its own.[4]
+[Emmanuel Saez](/united-states/A0675) and [Gabriel Zucman](/france/A0229) wrote the studies behind most of the figures. The OECD's report on net wealth taxes answers the objection in a section of its own.[4]
 
 ## Where to look next {#next}
 

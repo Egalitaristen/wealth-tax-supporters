@@ -1,6 +1,6 @@
 # Spain refinement plan
 
-Prepared 28 October 2026 from `refine/SKILL.md`, `skill/references/countries/es.md` and the current `data/es` files. A plan only: no data has been changed and no live source was opened. Counts come from the CSV files and `refine_queue.py`; a queue flag is a prompt to inspect, not proof of an error.
+Prepared 28 October 2026 from `refine/SKILL.md`, `skill/references/countries/es.md` and the current `data/spain` files. A plan only: no data has been changed and no live source was opened. Counts come from the CSV files and `refine_queue.py`; a queue flag is a prompt to inspect, not proof of an error.
 
 ## Baseline
 
@@ -36,15 +36,15 @@ Levels: 117 national, 15 regional, 3 supranational, 1 local. Spain has the Seats
 - Automatic pass, whole country:
 
 ```bash
-python skill/scripts/match_wikidata.py data/es
-python skill/scripts/profiles_wikidata.py data/es
-python skill/scripts/wtdb.py locate data/es
-python skill/scripts/archive_sources.py data/es
-python skill/scripts/seats.py data/es
+python skill/scripts/match_wikidata.py data/spain
+python skill/scripts/profiles_wikidata.py data/spain
+python skill/scripts/wtdb.py locate data/spain
+python skill/scripts/archive_sources.py data/spain
+python skill/scripts/seats.py data/spain
 ```
 
 - Spot-check several Wikidata matches (description must fit the person; watch common Spanish names). Read the seat mismatches `seats.py` prints against the dissolution note above.
-- Regenerate the batch afterwards: `python skill/scripts/refine_queue.py data/es --n 60 --out %TEMP%/es-batch.csv` (outside the repo). The current top 60 is a preview, not a fixed list.
+- Regenerate the batch afterwards: `python skill/scripts/refine_queue.py data/spain --n 60 --out %TEMP%/es-batch.csv` (outside the repo). The current top 60 is a preview, not a fixed list.
 
 ## 2. Batch 1: lit seats (about 60)
 
@@ -80,9 +80,9 @@ Then fill the rest of the 60 from the ranked queue: the economists and the first
 
 ## 5. End of every run
 
-- `wtdb.py validate data/es` and fix all errors.
-- `wtdb.py checkquotes data/es --run <run-id>` for the new rows.
-- `archive_sources.py data/es --save` in the background; log failures.
+- `wtdb.py validate data/spain` and fix all errors.
+- `wtdb.py checkquotes data/spain --run <run-id>` for the new rows.
+- `archive_sources.py data/spain --save` in the background; log failures.
 - Add a `runs.csv` row with focus `refine: <n> supporters`, zero new actors (except promoted leads) and concrete `notes_next`.
 - Compare before and after: links added and supporters still linkless, places made finer, statements added, grades raised, retractions, offices corrected, those not improved and why.
 - Open one pull request.

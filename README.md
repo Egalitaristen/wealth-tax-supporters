@@ -46,7 +46,7 @@ Poll results sit next to the register, each with its pollster, date and the exac
 
 <img src="docs/images/polls.png" alt="Three poll results from Argentina, Austria and Australia showing majority support for a wealth tax" width="860">
 
-There are also country stories that make the case in one read (start with [Colombia](https://wealthtaxsupporters.com/co)), a directory you can filter by place and type, and a timeline of statements per year.
+There are also country stories that make the case in one read (start with [Colombia](https://wealthtaxsupporters.com/colombia)), a directory you can filter by place and type, and a timeline of statements per year.
 
 ## What counts
 

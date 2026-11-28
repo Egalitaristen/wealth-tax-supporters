@@ -1,0 +1,114 @@
+# Area profile — Austria (AT)
+
+*Last updated: 2026-11-09 (Legislative Records Deep-Dive & Lead Resolution Pass R007 completed)*
+
+## 1. Scope
+- **Area:** Austria (Republic of Austria / *Republik Österreich*); ISO 3166-1 alpha-2: `AT`.
+- **Depth:** Deep pass (National tier + Supranational MEP tier + 9 Federal States / *Bundesländer* + municipal anchors Vienna, Graz, Linz + academic economists & civil society + primary legislative records post-2010).
+- **Levels of government in scope:**
+  - National: Nationalrat (183 seats), Bundesrat (61 seats), Federal Government (*Bundesregierung*).
+  - Supranational: European Parliament (Austrian delegation).
+  - Regional: 9 Federal States (*Bundesländer*: Burgenland, Kärnten, Niederösterreich, Oberösterreich, Salzburg, Steiermark, Tirol, Vorarlberg, Wien).
+  - Local: 2,093 Municipalities (*Gemeinden*, with official 5-digit *Gemeindekennziffer* / GKZ codes).
+- **Languages:** German (*Deutsch*).
+- **Current register status:** 42 actors (28 individuals, 14 organisations), 42 evidence rows (32 Grade A, 10 Grade B), 31 relational links, 8 sitting Nationalrat MPs linked to B0001, 24 primary documents logged in `documents.csv`.
+
+---
+
+## 2. Wealth tax history and live proposals (2010 onwards)
+- **Historical context:** Austria historically levied an annual net wealth tax (*Vermögensteuer* under the *Vermögensteuergesetz 1954*), which was abolished under Finance Minister Ferdinand Lacina (SPÖ) in 1993 (effective 1 January 1994) in exchange for the introduction of capital gains withholding tax (*KESt*). Inheritance and gift tax (*Erbschafts- und Schenkungssteuer*) lapsed on 31 July 2008 following a 2007 Constitutional Court (*VfGH*) ruling.
+- **Active proposals & models:**
+  - **SPÖ Model (Babler Model):** Progressive net wealth tax starting at €1,000,000 net assets.
+    - Slices: 0.5% (€1m–€10m), 1.0% (€10m–€50m), 2.0% (>€50m).
+    - Allowances: Owner-occupied primary residence (*Eigenheim*) exempt up to €1,500,000.
+    - Yield: Estimated by Momentum Institut and AK Wien at €5.0 billion annually. Targets the top 1–2% of households while relieving income taxes on labor.
+  - **ÖGB / AK Joint Model:** Progressive net wealth tax starting at €1m with rates between 0.5% and 1.5%.
+  - **Gewerkschaft GPA, vida & Sectoral Unions (GBH, PRO-GE):** 0.5% (>€1m), 1.0% (>€10m), 1.5% (>€100m); millionaire tax campaign protecting primary residence (*Häuslbauer*) to fund healthcare and public infrastructure.
+  - **Academic 1-2-3-4 Model (ICAE Linz / Prof. Dr. Jakob Kapeller):** 1% (>€1m), 2% (>€10m), 3% (>€100m), 4% (>€1bn) yielding up to €11.2 billion annually.
+  - **Attac Österreich Model:** Corona-Lastenausgleich / Vermögensabgabe starting at €5m progressive up to 10% on billion-euro fortunes.
+  - **KPÖ Model:** Progressive wealth tax starting at €1m protecting primary residences to relieve municipalities and federal states.
+- **Key Exclusions (Ground Rule 1):**
+  - **Die Grünen (Werner Kogler):** Campaign under the slogan *"Superreiche fair besteuern"*, but their legislative demands and party platform are strictly limited to an inheritance tax on large estates (*Millionenerbschaften* from €1m), rejecting or omitting an annual net wealth tax. Excluded per Ground Rule 1 under `out_of_definition`.
+
+---
+
+## 3. Legislatures and where their records are
+- **Chamber:** Nationalrat (183 seats, XXVIII. GP elected 29 September 2024).
+- **Portal:** [Austrian Parliament Portal](https://www.parlament.gv.at) (License: CC BY 4.0).
+- **Data APIs:**
+  - Sitting MPs & Filters: Open JSON POST API `https://www.parlament.gv.at/Filter/api/json/post?jsMode=EVAL&FBEZ=WFW_002&...`
+  - Item Details: Append `?json=TRUE` to any bill, motion, or person URL (e.g. `https://www.parlament.gv.at/gegenstand/XXVII/UEA/1077?json=TRUE`).
+  - Plenary debates (*Stenographische Protokolle*): Full text and downloadable PDFs at `https://www.parlament.gv.at/dokument/...`.
+- **Sitting supporters:** 8 sitting MPs matched directly via `seats.py` (Julia Herr, Kai Jan Krainer, Barbara Teiber, Christoph Matznetter, Josef Muchitsch, Reinhold Binder, Selma Yildirim, Sabine Schatz). Note: SPÖ Chairman Andreas Babler's Nationalrat mandate rests while serving in the federal government per B-VG Art. 56.
+- **European Parliament:** Evelyn Regner (Vice-President of the European Parliament, MEP) tracked under supranational level for Austria.
+
+---
+
+## 4. Parties & parliamentary alignment
+- **FPÖ (57 seats):** Strongly opposes any wealth or inheritance tax; labels proposals as "standortfeindlich" and expropriation.
+- **ÖVP (51 seats):** Strongly opposes; strict veto on "Substanzsteuern".
+- **SPÖ (41 seats):** Main political champion of annual net wealth tax under party leader Andreas Babler (supported by state branches including SPÖ Wien).
+- **NEOS (17 seats):** Opposes; advocates income and corporate tax cuts instead.
+- **Grüne (16 seats):** Advocates inheritance tax (*Erbschaftssteuer*) on fortunes >€1m, but not an annual recurring wealth tax (Ground Rule 1 exclusion).
+- **KPÖ (non-parliamentary federally; state/local representation):** Strongly supports annual wealth tax from €1m (Elke Kahr, Robert Krotzer, Claudia Klimt-Weithaler).
+
+---
+
+## 5. Government below national level
+- **Federal Structure:** 9 Federal States (*Bundesländer*). Each has an elected state parliament (*Landtag*).
+- **Municipal Tier:** 2,093 Municipalities (*Gemeinden*).
+- **Fiscal powers:** Austrian fiscal federalism (*Finanzausgleich*) concentrates direct tax powers at the federal level. Municipalities rely on *Kommunalsteuer* (payroll tax), *Grundsteuer* (property tax based on outdated *Einheitswerte*), and federal tax shares (*Ertragsanteile*).
+- **Local dynamics:** Because municipalities and federal states have experienced structural deficit crunches, left/progressive city councillors (e.g. KPÖ Graz, SPÖ Vienna) and state parliamentarians (e.g. Claudia Klimt-Weithaler in Landtag Steiermark) regularly table council motions urging the Federal Government to reintroduce wealth taxation to fund public services and municipal budgets.
+
+---
+
+## 6. Search terms
+- Primary German terms: `Vermögensteuer`, `Vermögenssteuer`, `Millionärssteuer`, `Millionärsabgabe`, `Vermögensabgabe`, `Superreiche besteuern`.
+- Ambiguous terms to check carefully: `Erbschaftssteuer`, `Erbschaftsteuer`, `Schenkungssteuer` (excluded under Ground Rule 1 unless coupled with annual net wealth tax); `Grundsteuer` (property tax).
+
+---
+
+## 7. Media & primary repositories
+- **News agencies & press releases:** [APA-OTS](https://www.ots.at) (official open PR clearinghouse, extensive verbatim quotes from all political and civil society actors).
+- **Newspapers & media:** *Der Standard*, *Die Presse*, *Kurier*, *ORF*, *Profil*, *Trend*, *Kontrast.at* (SPÖ parliamentary club publication), *Arbeit & Wirtschaft* (AK/ÖGB publication), *KOMPETENZ* (GPA magazine), *5 Minuten*.
+
+---
+
+## 8. Known networks & key civil society organisations
+- **Trade unions:** ÖGB (*Österreichischer Gewerkschaftsbund*), Gewerkschaft GPA, Gewerkschaft Bau-Holz (GBH), PRO-GE, Gewerkschaft vida.
+- **Chambers:** *Arbeiterkammer* (AK / Federal Chamber of Labour).
+- **Think tanks & Academic Research:** *Momentum Institut* (lead research institute producing distribution and revenue models; Dr. Oliver Picek, Leonhard Dobusch), AK Wien economic research department (Dr. Markus Marterbauer, Dr. Matthias Schnetzer), ICAE Linz / JKU (Prof. Dr. Jakob Kapeller), OeNB wealth research (Dr. Martin Schürz).
+- **Charitable & Faith-based Civil Society:** *Volkshilfe Österreich* (Erich Fenninger), *Katholische ArbeitnehmerInnen-Bewegung Österreich* (KABÖ; Anna Wall-Strasser).
+- **Campaign Coalitions & Wealthy Advocates:** *Allianz für einen fairen Beitrag der Reichsten* (cross-movement coalition of ÖGB, AK, Volkshilfe, Armutskonferenz, Attac, KABÖ), *Attac Österreich*, *taxmenow* (Marlene Engelhorn), *Millionaires for Humanity* (Ernest Fuhrmann), *Guter Rat für Rückverteilung*.
+
+---
+
+## 9. Saturation & coverage review
+- **Saturation reached:** Core political parties, federal parliament, European Parliament delegation, all major sectoral trade unions within the ÖGB, leading chambers (AK), prominent macro & inequality economists, charitable welfare NGOs (Volkshilfe), faith-based civil society (KABÖ), wealthy advocates (taxmenow, Millionaires for Humanity), and municipal/state anchors in Vienna and Styria are thoroughly cataloged across 4 iterative runs (R001–R004).
+- **Future maintenance:** Track any new parliamentary legislative initiatives in the XXVIII. Nationalrat and updates from the European Citizens' Initiative (ECI) *Tax the Rich*.
+
+## Audit — R005
+- 27 of 37 quotes were found on their pages; the other 10 are on parlament.gv.at, oegb.at, kpoe.at and similar sites that block scripts, so they were not re-read. Rows that only name a wealth tax with no rate, threshold or formal act are graded B (Katzian, Regner, Schürz, Fuhrmann, Volkshilfe and its director, Wall-Strasser, Krotzer); Elke Kahr's quote does not mention the tax itself, so it is C. "Millionärssteuer" (millionaires' tax) in Austria is the named SPÖ, ÖGB and AK model with a threshold of one million euros, so rows that use it stay A. The 183-seat Nationalrat chart adds up (FPÖ 57, ÖVP 51, SPÖ 41, NEOS 17, Greens 16, no club 1).
+
+
+## Resources pass (1 November 2026)
+
+Listed on the Resources page after reading each source: the Heck, Kapeller and Wildauer post on the A&W Blog (the 1-2-3-4 tariff and its revenue range) and, as a poll, the SORA study for the Momentum Institut (read from its own PDF: 65% for, 19% against a tax on large wealth, 2,000 people, fieldwork 26 July to 25 September 2022).
+
+Searched and not listed: the Nationalrat's XXVII. GP motions on a wealth tax. Motion [1077/UEA](https://www.parlament.gv.at/gegenstand/XXVII/UEA/1077) (Julia Herr, "Einführung einer Millionärssteuer") was rejected on 14 June 2023 (SPÖ for; ÖVP, FPÖ, Greens, NEOS against), but its text argues about "Millionenerben" and asks only for "eine Millionärssteuer für die Reichsten", so it is not clearly an annual net wealth tax; 24/UEA concerns the 55% income-tax top rate and 99/UEA (NEOS, 2020) asks the government to start neither an inheritance nor a wealth tax. No Nationalrat bill for a stand-alone net wealth tax was found.
+
+## Legislative Records Pass — R007 (9 November 2026)
+- **Primary records & gazette scans:** Downloaded and scanned 23 primary documents from `parlament.gv.at` (motions, plenary transcripts, committee reports, and reform bills) to `data/austria/primary_docs/`. Logged 17 new documents in `documents.csv` (M0008–M0024).
+- **Resolution of 1077/UEA & E00003:** Corrected E00003 date from 2020-11-20 to 14 June 2023. The scanned original motion and 219. Sitzung transcript confirm Julia Herr and SPÖ colleagues formally tabled 1077/UEA urging the government to draft a net wealth tax on the richest (*Millionärssteuer für die Reichsten*) by 31.12.2023. Added to `data/resources.json` as `austria-uea-1077-xxvii-gp-millionaerssteuer`.
+- **Nationalrat voting mechanism:** National Council resolutions are decided by show of hands (*Handzeichen* / *Aufstehen*), recording only party totals (`Dafür: SPÖ, dagegen: ÖVP, FPÖ, GRÜNE, NEOS`). Roll-call votes (*Namentliche Abstimmung*) require a formal petition of 20+ MPs (§ 66 GOG-NR). A comprehensive scan of all tax-reform plenary sessions post-2010 (notably the *Steuerreformgesetz 2015/2016*, 83. Sitzung XXV. GP) confirmed that roll calls were requested only on income-tax brackets and family bonuses. Under Ground Rule 2, party totals cannot be quoted as individual votes; therefore, **0 roll call votes exist on wealth taxation post-2010 in Austria**.
+- **Speeches and parliamentary oral questions:** Added Grade A parliamentary evidence for key champions:
+  - Mag. Selma Yildirim (A0039, E00039): Plenary speech formally introducing 1077/UEA on 14 June 2023.
+  - Sabine Schatz (A0040, E00040): Plenary speech on 7 July 2021 demanding Millionärssteuern to fund Covid-19 recovery.
+  - Nurten Yılmaz (A0041, E00041): Plenary oral question 114/M on 8 July 2021 demanding a wealth tax on multi-millionaires and billionaires.
+- **Leads resolution:** Closed lead L0018 (Ernest Fuhrmann, mapped to A0032) and L0019 (Peter Windischhofer, co-founder of Refurbed, added as A0042 with verified quote E00042 from Millionaires for Humanity; D0002 closed in `leads.csv`).
+- **Country records guide:** Created comprehensive legislative records guide at `skill/references/records/at.md`.
+
+## Open items and future maintenance:
+- The Momentum analysis "Vermögensteuer: So viel bringt sie" (cited in the evidence) returned 404 on its old address; find the current address and read it.
+- The AK study behind the A&W post ("Vermögenskonzentration in Österreich – Ein Update auf Basis des HFCS 2017", Heck, Kapeller, Wildauer) and the 2024 AK study by Heck, Hornykewycz, Kapeller and Wildauer, whose models the press reports at EUR 6 to 12 billion: read the studies themselves.
+- Polls known only from press or blog summaries, without the pollster's release or wording: the A&W Blog compilation of 2018 (Format, Österreich, Kurier, profil polls), the GPA poll (76%, inheritance and wealth tax from EUR 1 million together), the profil/Unique research poll (54%, inheritance and wealth together) and the SORA poll for Volkshilfe of August 2022 (78%, inheritance and wealth tax together).

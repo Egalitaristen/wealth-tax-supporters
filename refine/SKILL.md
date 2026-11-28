@@ -27,8 +27,8 @@ python skill/scripts/match_wikidata.py data/<country>       # Wikidata IDs where
 python skill/scripts/profiles_wikidata.py data/<country>    # websites and accounts that Wikidata lists
 python skill/scripts/wtdb.py locate data/<country>          # geo_unit_id and location in step
 python skill/scripts/archive_sources.py data/<country>      # archive_url from existing Wayback snapshots
-python skill/scripts/seats_uk.py data/gb                 # UK only: who sits in the Commons and Lords today; lists roles and statuses that disagree
-python skill/scripts/seats_us.py data/us                 # US only: who sits in the Senate and House today; same
+python skill/scripts/seats_uk.py data/united-kingdom                 # UK only: who sits in the Commons and Lords today; lists roles and statuses that disagree
+python skill/scripts/seats_us.py data/united-states                 # US only: who sits in the Senate and House today; same
 python skill/scripts/seats.py data/<country>                # any country in the ADAPTERS table at the bottom of seats.py: the same for those parliaments (--fix-status marks former members)
 ```
 
@@ -101,7 +101,7 @@ Update `role`, `party` and `status` (`former_role` when they no longer hold the 
 
 - **Guessed links.** An account with the right name but no link from the person's own pages may belong to someone else. Leave it out.
 - **Home towns that reveal homes.** Town level at most, and only from a public source about their public life.
-- **A supporter who sits as an MEP.** After you change an MEP's role, status or party, run `python skill/scripts/seats.py data/eu` (and `wtdb.py validate data/eu`) so the European Parliament chart on `/eu/seats` follows. Add other MEPs you find to their own country's register, not to `data/eu`.
+- **A supporter who sits as an MEP.** After you change an MEP's role, status or party, run `python skill/scripts/seats.py data/european-union` (and `wtdb.py validate data/european-union`) so the European Parliament chart on `/european-union/seats` follows. Add other MEPs you find to their own country's register, not to `data/european-union`.
 - **Stale seats.** A role that still says "MP for X (at signing, 2021)" for someone who has since left, or `current=y` on an office nobody checked. Re-check offices on every pass.
 - **A supporter who has died** leaves the register: add an `exclusions.csv` row (reason `deceased`, with the source of the news) and keep their original actor, profile and evidence rows in `docs/refinement/history/<country>-<ID>.json`, so nothing is lost. Never leave a deceased person marked active.
 - **Rewriting history.** Never edit or delete an existing evidence row because a newer one exists; add the new one. Remove a row only when its quote is not on its page.

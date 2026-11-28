@@ -1,7 +1,7 @@
 """Build Greece's map from Andreadis' Cleisthenes shapefile and the ELSTAT register.
 
 Usage: python scripts/build_gr_boundaries.py path/to/cleisthenes.shp
-Requires pyshp and shapely. The source dataset and licence are documented in data/gr/area_profile.md.
+Requires pyshp and shapely. The source dataset and licence are documented in data/greece/area_profile.md.
 """
 import collections
 import csv
@@ -31,7 +31,7 @@ def normalized(name):
 
 
 def main(source):
-    with (ROOT / 'data/gr/geo_units.csv').open(encoding='utf-8-sig', newline='') as f:
+    with (ROOT / 'data/greece/geo_units.csv').open(encoding='utf-8-sig', newline='') as f:
         rows = list(csv.DictReader(f))
     by_id = {r['geo_unit_id']: r for r in rows}
     municipalities = [r for r in rows if r['unit_type'] == 'municipality']
@@ -75,7 +75,7 @@ def main(source):
             subprocess.run(cmd, check=True)
         subprocess.run([sys.executable, str(ROOT / 'skill/scripts/merge_boundaries.py'), str(temp / 'units.json'),
                         '--regions', str(temp / 'areas.json'), '--upper', str(temp / 'regions.json'),
-                        '--out', str(ROOT / 'data/gr/boundaries.json')], check=True)
+                        '--out', str(ROOT / 'data/greece/boundaries.json')], check=True)
     print(f'Matched {len(used)} municipalities, {len(areas)} regional units and {len(regions)} regions.')
 
 

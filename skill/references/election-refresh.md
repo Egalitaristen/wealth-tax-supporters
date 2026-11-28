@@ -15,7 +15,7 @@ Each country's refresh is an issue labelled `roadmap`, `seats` and `scheduled` o
 python skill/scripts/seats.py data/<country> --fix-status
 ```
 
-The adapter rebuilds the chamber's seats and positions from the parliament's own list and prints every supporter whose role, party or status disagrees with it. UK and US: `seats_uk.py data/gb` and `seats_us.py data/us`. Lists that refuse scripts are read once in a browser and passed with `--local` (see the country guide). Never type seat counts or party splits from memory.
+The adapter rebuilds the chamber's seats and positions from the parliament's own list and prints every supporter whose role, party or status disagrees with it. UK and US: `seats_uk.py data/united-kingdom` and `seats_us.py data/united-states`. Lists that refuse scripts are read once in a browser and passed with `--local` (see the country guide). Never type seat counts or party splits from memory.
 
 Read what it prints before committing. A name-only match, or "not on today's list", can be a spelling difference as well as a real departure: open the person's page on the body's own site.
 
@@ -33,6 +33,6 @@ A new parliament has new members, and some of them will be supporters nobody has
 
 ## Finish
 
-1. `wtdb.py validate data/<country>` and, for the European Parliament, also `data/eu`.
+1. `wtdb.py validate data/<country>` and, for the European Parliament, also `data/european-union`.
 2. Open a pull request. Report, from the files: seats lit before and after; who left, who joined, who changed party; what the adapter flagged and how you resolved each.
 3. Close the issue, and open the issue for the country's next election with its date (the project board's *Waits for* field), so the cycle continues.

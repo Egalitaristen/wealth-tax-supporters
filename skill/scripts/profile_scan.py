@@ -3,7 +3,7 @@
 
 Usage: python skill/scripts/profile_scan.py --sample 50 [--seed 1]      a random batch of actors with a website, from every register
        python skill/scripts/profile_scan.py --country gb [--limit 40]   the actors of one register, oldest check first
-       python skill/scripts/profile_scan.py --actors gb:A0060,fr:A0012  named actors
+       python skill/scripts/profile_scan.py --actors united-kingdom:A0060,france:A0012  named actors
        add --dry-run to read and report without writing; --due to take only actors never checked or last checked over a year ago
 
 For each actor it reads the website (actors.csv `website`, or a website / official_page row in profiles.csv) and up to two of its contact or

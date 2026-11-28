@@ -61,7 +61,7 @@ sources:
     url: https://codes.findlaw.com/tx/tax-code/tax-sect-33-06/
   - id: 11
     title: Wealth Tax Supporters, California Billionaire Tax Act (Proposition 40), with the result reported by the Associated Press on 9 November 2026
-    url: https://wealthtaxsupporters.com/resources/us-california-billionaire-tax-act
+    url: https://wealthtaxsupporters.com/resources/united-states-california-billionaire-tax-act
 charts:
   - id: return-split
     type: bars

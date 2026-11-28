@@ -21,7 +21,7 @@ The site's [countries page](https://wealthtaxsupporters.com/countries) shows the
 
 Every country's register goes down to its lowest tier of local government, and the map shows the same tier where an open source with official codes exists, so maps are comparable; see `skill/SKILL.md` 6.7. A missing map is a follow-up issue, not a blocker. Supporters need their own evidence: a party's platform is recorded on the party, not on each of its members (`skill/references/definition-and-grades.md`, section 4).
 
-Three bodies above the countries have a register of their own for chambers and seats only: the European Parliament (`data/eu/`, 720 seats), the United Nations General Assembly (`data/un/`, one dot per government) and the African Union's Pan-African Parliament (`data/au/`). A supporter who sits in one is recorded in their own country's register.
+Three bodies above the countries have a register of their own for chambers and seats only: the European Parliament (`data/european-union/`, 720 seats), the United Nations General Assembly (`data/united-nations/`, one dot per government) and the African Union's Pan-African Parliament (`data/african-union/`). A supporter who sits in one is recorded in their own country's register.
 
 ## How the research works
 
@@ -33,15 +33,15 @@ The goal is a trustworthy register of who publicly backs an actual wealth tax, w
 2. Read [CONTRIBUTING.md](../CONTRIBUTING.md) and `skill/SKILL.md` (sections 0 and 1, then the files under `skill/references/` that it points to).
 3. Create `data/<country>/` (the full English name in lower case with hyphens, such as `united-kingdom`, listed in `data/countries.csv`):
    ```bash
-   python skill/scripts/wtdb.py init data/de --area "Germany"
+   python skill/scripts/wtdb.py init data/germany --area "Germany"
    ```
 4. Do the research, by hand or with an AI assistant. Tell the assistant the country, the scope (national, plus regional, plus local) and the depth (a first-pass seed is the default). It should start with the biggest supporters, not with tooling. Work on a branch, never on `main`.
 5. Check your work:
    ```bash
-   python skill/scripts/wtdb.py validate data/de
-   python skill/scripts/wtdb.py checkquotes data/de --run R001     # quotes really are on the pages
-   python skill/scripts/review_scan.py data/de                    # the evidence problems reviews keep finding
-   python skill/scripts/profiles_wikidata.py data/de               # websites and socials from Wikidata
+   python skill/scripts/wtdb.py validate data/germany
+   python skill/scripts/wtdb.py checkquotes data/germany --run R001     # quotes really are on the pages
+   python skill/scripts/review_scan.py data/germany                    # the evidence problems reviews keep finding
+   python skill/scripts/profiles_wikidata.py data/germany               # websites and socials from Wikidata
    ```
 6. For a local map, build a boundary file from an open source with official codes (see `skill/scripts/topo_to_boundaries.py`) and name it in `meta.json`. If none turns up, ship without a map and open a follow-up issue.
 7. Run through `skill/references/pre-pr-checklist.md`, then open a pull request. Every quote must be found on its source (`wtdb.py checkquotes`); readers report mistakes from the site.
@@ -54,6 +54,6 @@ python scripts/build_site.py          # writes _site/
 python scripts/serve.py               # http://localhost:8000
 ```
 
-The site uses clean URLs (`/gb` with its map, `/gb/directory`, `/gb/time`, `/gb/seats`, `/gb/method`, a profile at `/gb/A0001`; `/countries`, `/parliaments` for every seat chart including the European Parliament at `/eu/seats`, `/resources` for polls, papers, reports and bills, `/method` and `/about`), so it needs a host that falls back to `index.html` for unknown paths. The Cloudflare deployment does this (`not_found_handling` in `wrangler.jsonc`), and `scripts/serve.py` does the same locally.
+The site uses clean URLs (`/gb` with its map, `/united-kingdom/directory`, `/gb/time`, `/united-kingdom/seats`, `/gb/method`, a profile at `/united-kingdom/A0001`; `/countries`, `/parliaments` for every seat chart including the European Parliament at `/european-union/seats`, `/resources` for polls, papers, reports and bills, `/method` and `/about`), so it needs a host that falls back to `index.html` for unknown paths. The Cloudflare deployment does this (`not_found_handling` in `wrangler.jsonc`), and `scripts/serve.py` does the same locally.
 
-The maintainer deploys from a local checkout with `python scripts/deploy.py` (after a one-time `npx wrangler login`). Merging to `main` does not deploy by itself. Filtered views are shareable: `/gb/directory?place=United Kingdom > Wales&type=economist`.
+The maintainer deploys from a local checkout with `python scripts/deploy.py` (after a one-time `npx wrangler login`). Merging to `main` does not deploy by itself. Filtered views are shareable: `/united-kingdom/directory?place=United Kingdom > Wales&type=economist`.

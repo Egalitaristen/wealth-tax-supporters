@@ -1,6 +1,6 @@
 # Canada refinement plan
 
-Prepared 28 October 2026 from `refine/SKILL.md`, `skill/references/countries/ca.md` and the current `data/ca` files. A plan only: no data has been changed and no live source was opened. Counts come from the CSV files and `refine_queue.py`; a queue flag is a prompt to inspect, not proof of an error.
+Prepared 28 October 2026 from `refine/SKILL.md`, `skill/references/countries/ca.md` and the current `data/canada` files. A plan only: no data has been changed and no live source was opened. Counts come from the CSV files and `refine_queue.py`; a queue flag is a prompt to inspect, not proof of an error.
 
 ## Baseline
 
@@ -36,15 +36,15 @@ The shape of the register decides the work. About 80 organisations and 60 or so 
 - Automatic pass, whole country:
 
 ```bash
-python skill/scripts/match_wikidata.py data/ca
-python skill/scripts/profiles_wikidata.py data/ca
-python skill/scripts/wtdb.py locate data/ca
-python skill/scripts/archive_sources.py data/ca
-python skill/scripts/seats.py data/ca --local "https://www.ourcommons.ca/Members/en/search/xml=<saved file>"
+python skill/scripts/match_wikidata.py data/canada
+python skill/scripts/profiles_wikidata.py data/canada
+python skill/scripts/wtdb.py locate data/canada
+python skill/scripts/archive_sources.py data/canada
+python skill/scripts/seats.py data/canada --local "https://www.ourcommons.ca/Members/en/search/xml=<saved file>"
 ```
 
 - Spot-check Wikidata matches (common names, and the many "wealthy individual" names that may match unrelated people; accept only when the description fits).
-- Batch file outside the repo: `python skill/scripts/refine_queue.py data/ca --n 60 --out %TEMP%/ca-batch.csv`.
+- Batch file outside the repo: `python skill/scripts/refine_queue.py data/canada --n 60 --out %TEMP%/ca-batch.csv`.
 
 ## 2. Batch 1: lit seats and prominent people (about 60)
 
@@ -73,8 +73,8 @@ python skill/scripts/seats.py data/ca --local "https://www.ourcommons.ca/Members
 
 ## 5. End of every run
 
-- `wtdb.py validate data/ca`, then `wtdb.py checkquotes data/ca --run <run-id>` (House vote quotes need a manual check).
-- `archive_sources.py data/ca --save` in the background.
+- `wtdb.py validate data/canada`, then `wtdb.py checkquotes data/canada --run <run-id>` (House vote quotes need a manual check).
+- `archive_sources.py data/canada --save` in the background.
 - Add a `runs.csv` row, focus `refine: <n> supporters`, zero new actors, concrete `notes_next`.
 - Report before and after: links added and supporters still linkless, finer places, statements added, grades raised, retractions, offices corrected, those not improved and why.
 - Open one pull request.

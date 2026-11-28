@@ -874,7 +874,7 @@ def new_zealand():
 
 def ireland():
     """Dáil Éireann (174) and Seanad Éireann (60): the Houses of the Oireachtas members API (api.oireachtas.ie), with each member's
-    party, constituency (or Seanad panel) and dates. Run `seats.py data/ie`."""
+    party, constituency (or Seanad panel) and dates. Run `seats.py data/ireland`."""
     def chamber(code, house, seats, name, role, role_re, order, colours, note):
         d = get(f"https://api.oireachtas.ie/v1/members?house_no={house}&chamber={code}&limit=500")["results"]
         cur, former = [], []
@@ -908,7 +908,7 @@ def ireland():
 
 def italy():
     """Camera dei deputati (400): the Chamber's alphabetical member lists (camera.it, legislature XIX). Senato della Repubblica: the Senate's open
-    data (dati.senato.it SPARQL: current elected senators and senators for life, with their group). Run `seats.py data/it`."""
+    data (dati.senato.it SPARQL: current elected senators and senators for life, with their group). Run `seats.py data/italy`."""
     import html, urllib.parse
     deputies = []
     for L in "ABCDEFGHIJKLMNOPQRSTUVWXYZ":
@@ -1819,7 +1819,7 @@ def spain_senate():
 
 def european_parliament():
     """The European Parliament (720 seats): data.europarl.europa.eu open data (sitting MEPs, their country and political group).
-    Run `seats.py data/eu`: supporters are matched across every country register, by the MEP's own country."""
+    Run `seats.py data/european-union`: supporters are matched across every country register, by the MEP's own country."""
     d = get("https://data.europarl.europa.eu/api/v2/meps/show-current?format=application%2Fld%2Bjson&offset=0&limit=1000")["data"]
     GROUP = {"The Left": "The Left", "S&D": "S&D", "Verts/ALE": "Greens/EFA", "Renew": "Renew Europe", "PPE": "EPP", "ECR": "ECR",
              "PfE": "Patriots for Europe", "ESN": "Europe of Sovereign Nations", "NI": "Non-attached"}
@@ -1837,7 +1837,7 @@ def european_parliament():
 
 def united_nations():
     """The UN General Assembly (193 seats, one per member state): the UN's own list of member states by regional group
-    (un.org/dgacm). A seat is a government, not a person: run `seats.py data/un`; the governments recorded in data/un/actors.csv
+    (un.org/dgacm). A seat is a government, not a person: run `seats.py data/united-nations`; the governments recorded in data/united-nations/actors.csv
     (named "Government of <state>") light the seat of their state. Türkiye and Israel sit in WEOG for electoral purposes."""
     import html as _html
     url = "https://www.un.org/dgacm/en/content/regional-groups"
@@ -1864,7 +1864,7 @@ def united_nations():
 
 def pan_african_parliament():
     """The Pan-African Parliament (up to 275 seats, five per AU member state): the MPs each member state's page on pap.au.int lists
-    (/mps/<state>). Run `seats.py data/au`: supporters are matched across every country register, by the MP's own country. The
+    (/mps/<state>). Run `seats.py data/african-union`: supporters are matched across every country register, by the MP's own country. The
     list is partial (states whose delegation has not been sworn in show none) and has no party, so seats are grouped by the AU's
     five regions and the rest are shown as "Not on the list"."""
     import html as _html
@@ -1936,7 +1936,7 @@ def south_africa():
 
 def scottish_parliament():
     """The Scottish Parliament (129 seats: 73 constituency + 56 regional): data.parliament.scot open data. Used for the UK register with
-    `seats.py data/gb --adapter scottish_parliament` (the Commons and Lords come from seats_uk.py)."""
+    `seats.py data/united-kingdom --adapter scottish_parliament` (the Commons and Lords come from seats_uk.py)."""
     base = "https://data.parliament.scot/api/"
     members, mparty, parties = get(base + "members"), get(base + "memberparties"), get(base + "parties")
     cons = {c["ID"]: c["Name"] for c in get(base + "constituencies")}
@@ -3073,7 +3073,7 @@ def main():
     ap.add_argument("dir")
     ap.add_argument("--dry-run", action="store_true")
     ap.add_argument("--fix-status", action="store_true", help="make actors who have left the chamber former_role")
-    ap.add_argument("--adapter", help="an adapter other than the country's own, e.g. scottish_parliament for data/gb")
+    ap.add_argument("--adapter", help="an adapter other than the country's own, e.g. scottish_parliament for data/united-kingdom")
     ap.add_argument("--local", action="append", default=[], metavar="URL=FILE",
                     help="use a file you saved yourself for a URL the site refuses to serve to scripts (ourcommons.ca sometimes does)")
     a = ap.parse_args()
@@ -3092,7 +3092,7 @@ def main():
             for x in wtdb.load(str(sib), "actors"):
                 if x["kind"] == "person" and x["actor_type"] == "politician":
                     actors_in.append(dict(x, actor_id=f"{sib.name}-{x['actor_id']}", _iso=iso))
-    if ADAPTERS[cc] is united_nations:  # the governments are actors of data/un itself (most states have no register)
+    if ADAPTERS[cc] is united_nations:  # the governments are actors of data/united-nations itself (most states have no register)
         latest = {}
         for e in sorted(wtdb.load(a.dir, "evidence"), key=lambda e: e["date"]):
             latest[e["actor_id"]] = e["stance"]  # a government whose latest evidence is a retraction lights no seat

@@ -1,9 +1,9 @@
 #!/usr/bin/env python3
 """Refresh the UK seat data from the UK Parliament Members API (members-api.parliament.uk, Open Parliament Licence).
 
-Usage: python skill/scripts/seats_uk.py data/gb [--bootstrap-others] [--dry-run]
+Usage: python skill/scripts/seats_uk.py data/united-kingdom [--bootstrap-others] [--dry-run]
 
-Writes, for data/gb:
+Writes, for data/united-kingdom:
   bodies.csv     House of Commons and House of Lords (seat_view=y, so they get a Seats tab), as of today
   seats.csv      each house's seats by party (Labour (Co-op) counts as Labour)
   positions.csv  one row per supporter who sits, or sat, in either house: current=y with the date it was checked
