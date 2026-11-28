@@ -1,3 +1,5 @@
 actor_id,name,kind,actor_type,other_types,role,affiliation,party,affiliation_actor_id,country,level,location,geo_unit_id,location_source,wikidata_qid,website,status,alive_checked,prominence,notes,added_run,updated,refined
 A0001,Rosa María Cañete Alonso,person,economist,,"Economist and researcher, Oxfam (Latin America and the Caribbean)",,,,Dominican Republic,national,Dominican Republic,G0001,,,,active,y,national,,R001,2026-11-13,
 A0002,Julio Ortega Tous,person,journalist,,"Opinion columnist, Acento",,,,Dominican Republic,national,Dominican Republic,G0001,,,,active,y,local,,R001,2026-11-13,
+A0003,Jesús Reolid,person,legal_tax_professional,,International tax lawyer resident in the Dominican Republic since 2010,Dómine Abogados & Asesores,,,Dominican Republic,national,Dominican Republic,G0001,,,https://reolid.com/,active,y,local,Full name on the author page: Jesús Sánchez-Reolid García.,R002,2026-11-28,
+A0004,Orlando Beltré,person,journalist,,"Opinion writer, Espacinsular",,,,Dominican Republic,national,Dominican Republic,G0001,,,,active,y,local,,R002,2026-11-28,

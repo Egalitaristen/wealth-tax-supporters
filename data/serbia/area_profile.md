@@ -46,3 +46,7 @@ Danas, N1, Nova, Vreme, Biznis.rs, 021.rs, Radio Free Europe (Serbian), Beta, Fo
 
 ## 10. Plan for the next runs
 See `runs.csv` R001 `notes_next`: the Student List programme once the Assembly forms; ZLF and Ne davimo Beograd speeches and stenograms; CPE, Oxfam and union congress texts; a seat sweep after mandates are assigned.
+
+## Run R002 (2026-11-28): grow pass
+
+Searched in Serbian (Latin and Cyrillic) and English: parties of the left and green opposition, unions, economists, the Student List programme of November 2026 and left-wing outlets. No new qualifying supporter was found. The Student List proposes aggregating one owner's real estate for property tax and a higher tax on large inheritances; both are outside the definition. Wikidata ids were added for Ne davimo Beograd, Zeleno-levi front, Dušan Pavlović and Tamara Milenković Kerković (no safe match for Vladimir Simović). No poll on a wealth tax was found. Not read: Assembly stenograms and union congress texts.

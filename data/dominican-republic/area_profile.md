@@ -30,3 +30,7 @@ Seed pass of 2026-11-13 (run R001). Thin result: after about ten searches in Spa
 2. Read Fuerza del Pueblo, Frente Amplio and Opción Democrática programmes and the 2020 COVID-era debate for any bill on large fortunes in the Cámara's SIL.
 3. Church (Episcopado, Pastoral Social), unions (CNUS, CNTD, CASC) and CEPAL/Latindadd-linked economists.
 4. Polls: none found.
+
+## Run R002 (2026-11-28): grow pass
+
+Searched in Spanish for large-estate and net-wealth taxes, commentary on the June 2026 reform, unions and civil society. Two opinion writers were added: Jesús Reolid (January 2026, a tax on estates above US$5 million) and Orlando Beltré (February 2026, a progressive tax on large estates). Civil-society statements read ask for fairer capital and estate taxation without naming a wealth tax. No poll was found. Not read: the 2024 civil-society pact text (the known copy answers 404), party programmes and Congress records.
